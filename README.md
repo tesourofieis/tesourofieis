@@ -1,4 +1,4 @@
-##Para Alterar:
+## Para Alterar:
 Abrir o ficheiro oratiomilitia, modificar e salvar(commit changes) no fim da página.
 
 # Sanctum Rosarium
