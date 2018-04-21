@@ -1,3 +1,6 @@
+##Para Alterar:
+Abrir o ficheiro oratiomilitia, modificar e salvar(commit changes) no fim da página.
+
 # Sanctum Rosarium
 
 Colocamos nas suas mãos este livrinho, com a intenção de o ajudar a rezar o Santo Rosário de Nossa Senhora.
