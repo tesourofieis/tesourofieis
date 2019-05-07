@@ -114,7 +114,7 @@ _Em seguida, anuncie que as orações depois do crucifixo serão rezadas pelas I
 | Conversio peccatorum. | Conversão dos pecadores. |
 | Pax inter principes christianos. | Paz entre os Reis e Príncipes católicos. |
 
-_Siga pela primeira conta, depois do crucifixo. Reze nela o Pater Noster. Siga pelas três contas seguintes. Reze em cada uma a Ave Maria. No final destas orações, reze a Glória (não tem conta). A conta seguinte corresponde ao Pater Noster do primeiro mistério.:_
+_Siga pela primeira conta, depois do crucifixo. Reze nela o Pater Noster. Siga pelas três contas seguintes. Reze em cada uma a Ave Maria. No final destas orações, reze a Glória (não tem conta). A conta seguinte corresponde ao Pater Noster do primeiro mistério:_
 
 | Ad Grana Maiora | Nas contas maiores |
 | --- | --- |
