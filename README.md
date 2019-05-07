@@ -86,7 +86,6 @@ _Com o crucifixo erguido nas mãos, reze as orações que se seguem._
 
 | Ad Crucem | No Crucifixo |
 | --- | --- |
-
 | Symbolum Apostolorum | Símbolo dos Apóstolos |
 | --- | --- |
 | Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ. Et in Jesum Christum, Fílium eius únicum, Dóminùm nostrum: qui concéptus est de Spíritu Sancto, natus ex María Vírgine, passus sub Pontio Piláto, crucifíxus, mórtuus, et sepúltus: descéndit ad ínferos; tértia die resurréxit a mórtuis; ascéndit ad cælos; sedet ad déxteram Dei Patris omnipoténtis: inde ventúrus est judicáre vivos et mórtuos. Credo in Spíritum Sanctum, sanctam Ecclésiam cathólicam, Sanctórum communionem, remissiónem peccatórum carnis resurrectiónem, vitam ætérnam. | Creio em Deus, Pai todo-poderoso, Criador do Céu e da Terra; e em Jesus Cristo, seu único Filho, Nosso Senhor, que foi concebido pelo poder do Espírito Santo; nasceu da Virgem Maria; padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado; desceu à mansão dos mortos; ressuscitou ao terceiro dia; subiu aos Céus, onde está sentado à direita de Deus Pai todo-poderoso, de onde há-de vir a julgar os vivos e os mortos. Creio no Espírito Santo, na santa Igreja Católica; na comunhão dos Santos; na remissão dos pecados; na ressurreição da carne; na vida eterna. |
@@ -118,13 +117,11 @@ _Siga pela primeira conta, depois do crucifixo. Reze nela o Pater Noster. Siga p
 
 | Ad Grana Maiora | Nas contas maiores |
 | --- | --- |
-
 | Pater Noster | Pai Nosso |
 | --- | --- |
 | ℣. Pater noster, qui es in cælis: sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo, et in terra. | ℣. Pai Nosso, que estais nos céus, santificado seja o Vosso Nome, venha a nós o Vosso Reino; seja feita a Vossa vontade assim na terra como no Céu. |
 | ℟. Panem nostrum quotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris. Et ne nos indúcas in tentatiónem. Sed líbera nos a malo. | ℟. O pão nosso de cada dia nos dai hoje; perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem ofendido; e não nos deixeis cair em tentação; mas livrai-nos do mal. |
 | ℟. Amen. | ℟. Amen. |
-
 
 | Ad Grana Minora | Nas contas menores |
 
@@ -134,28 +131,23 @@ _Siga pela primeira conta, depois do crucifixo. Reze nela o Pater Noster. Siga p
 | ℟. Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc, et in hora mortis nostræ. | ℟. Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. |
 | ℟. Amen. | ℟. Amen. |
 
-
 | Ad Finem Decadum | No fim das dezenas |
 | --- | --- |
-
 | Glória||
 | --- | --- |
 | ℣. Glória Patri, et Fílio, et Spíritui Sancto. | ℣. Glória ao Pai, e ao Filho e ao Espírito Santo. |
 | ℟. Sicut erat in pricípio, et nunc, et semper, et in sǽcula sæculórum. | ℟. Assim como era no princípio, agora e sempre, e por todos os séculos dos séculos. |
 | ℟. Amen. | ℟. Amen. |
 
-
 | Nossa Senhora a Santa Catarina Labouré ||
 | --- | --- |
 | ℣. O Maria sine labe concepta. | ℣. Ó Maria concebida sem pecado. |
 | ℟. Ora pro nobis, qui confugimus ad te. | ℟. Rogai por nós que recorremos a vós. |
 
-
 | Nossa Senhora aos Santos Pastorinhos ||
 | --- | --- |
 | ℣. Oh mi Jesu, dimitte nobis débita nostra, líbera nos ab igne inférni, | ℣. Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno, |
 | ℟. Conduc in cælum omnes animas, præsértim illas quæ máxime indigent misericórdia tua. | ℟. Levai as alminhas todas para o Céu e socorrei principalmente as que mais precisarem. |
-
 
 | Meditationes Rosarii | Meditações do Rosário |
 | --- | --- |
@@ -207,7 +199,6 @@ _Quarta-feira, Sábado e Domingo_
 
 | Orationes ad Finem Rosarii | Orações no fim do Rosário |
 | --- | --- |
-
 | Salve Regina | Salve Rainha |
 | --- | --- |
 | Salve, Regina, Mater misericórdiæ, vita, dulcédo et spes nostra, salve. Ad te clamámus, éxsules fílii Hevæ. Ad te suspirámus geméntes et flentes in hac lacrimárum valle. Éia ergo, advocáta nostra, illos tuos misericórdes óculos ad nos convérte. Et Jesum benedíctum fructum ventris tui, nobis, post hoc exsílium, osténde. O clemens, o pia, o dulcis Virgo Maria! | Salvé, Rainha, mãe de misericórdia, vida, doçura, esperança nossa, salve! A Vós bradamos, os degredados filhos de Eva. A Vós suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois, advogada nossa, esses Vossos olhos misericordiosos a nós volvei. E, depois deste desterro, nos mostrai Jesus, bendito fruto do Vosso ventre. Ó clemente, ó piedosa, ó doce Virgem Maria. |
@@ -324,14 +315,11 @@ Com aquele profundíssimo respeito que a Fé me inspira, ó meu Deus e meu Salva
 
 **I**
 
-
 Meu Deus! Eu creio, adoro, espero e amo-Vos. Peço-Vos perdão para os que não crêem, não adoram, não esperam e não Vos amam!
 
 _Esta oração reza-se três vezes._
 
-
 **II**
-
 
 Santíssima Trindade, Pai, Filho e Espírito Santo, adoro-Vos profundamente e ofereço-Vos o Preciosíssimo Corpo, Sangue, Alma e Divindade de Nosso Senhor Jesus Cristo, presente em todos os sacrários da terra, em reparação dos ultrajes, sacrilégios e indiferenças com que Ele mesmo é ofendido. E, pelos méritos infinitos do Seu Santíssimo Coração e do Coração Imaculado de Maria, peço-Vos a conversão dos pobres pecadores.
 
@@ -342,12 +330,10 @@ _Esta oração reza-se uma vez._
 | Sancte Míchaël Archángele, defénde nos in prælio; contra nequitiam et insidias diáboli esto præsídium. Imperet illi Deus, súpplices deprecámur: tuque, Princeps milítiæ cæléstis, Sátanam aliosque Spíritus malignos, qui ad perditionem animarum pervagantur in mundo, divina virtúte in inférnum detrude. | São Miguel Arcanjo, defendei-nos no combate, sede o nosso auxílio contra as maldades e as ciladas do demónio. Instantemente vos pedimos que Deus sobre ele impere; e vós, Príncipe da Milícia Celeste, pelo poder divino, precipitai no inferno a Satanás e aos outros espíritos malignos que vagueiam pelo mundo para perdição das almas. |
 | ℟. Amen. | ℟. Amen. |
 
-
 | Oração a São José||
 | --- | --- |
 | Ad te beáte Joseph, in tribulatióne nostra confúgimus, atque, imploráto Sponsæ tuæ sanctíssimæ auxílio, patrocínium quoque tuum fidenter expóscimus. Per eam, quæsumus, quæ te cum immaculáta Vírgine Dei Genitríce coniúnxit, caritátem, perque patérnum, quo Púerum Iesum ampléxus es, amórem, súpplices deprecámur, ut ad hereditátem, quam Iesus Christus acquisívit Sánguine suo, benígnus respícias, ac necessitátibus nostris tua virtúte et ope succúrras. Tuére, o Custos providentíssime divínæ Famíliæ, Iesu Christi sóbolem eléctam; próhibe a nobis, amantíssime Pater, omnem errórum ac corruptelárum luem; propítius nobis, sospítator noster fortíssime, in hoc cum potestáte tenebrárum certámine e cælo adésto; et sicut olim Púerum Iesum e summo eripuísti vitre discrímine, ita nunc Ecclesiam sanctam Dei ab hostílibus insídiis atque ab omni adversitáte défende: nosque síngulos perpétuo tege patrocínio, ut ad tui exémplar et ope tua suffúlti, sancte vívere, pie émori, sempiternámque in cælis beatitúdinem ássequi possímus. | Ó Bem-aventurado S. José, a vós recorremos na nossa tribulação, e, havendo implorado da Santíssima Virgem, vossa esposa, pedimos também com toda a confiança a vossa protecção. Por aquele afecto que vos uniu à Imaculada Virgem Mãe de Deus e pelo paternal amor que consagraste ao Menino Jesus, vos rogamos e suplicamos que olheis benigno para a herança que Jesus Cristo nos adquiriu com o Seu sangue, e que nos assistais nas nossas necessidades com o vosso poder e auxílio. Protegei, ó providentíssimo guarda da Sagrada Família, os filhos escolhidos de Jesus Cristo, preservai-nos, ó pai amantíssimo, de todo o contágio das doutrinas erróneas e de corrupção; sede-nos propício e assisti-nos do alto do céu, ó nosso poderoso libertador, neste combate contra o poder das trevas; e, assim como outrora livrastes o Menino Jesus do perigo da morte, assim também, hoje, defendei a santa Igreja de Deus das ciladas dos seus inimigos e de todas as adversidades. E a cada um de nós concedei a vossa constante protecção, a fim de que, imitando-vos e fortalecidos com o vosso auxílio, possamos viver santamente, morrer piamente e alcançar no céu a bem-aventurança eterna. |
 | ℟. Amen. | ℟. Amen. |
-
 
 |Glória||
 | --- | --- |
