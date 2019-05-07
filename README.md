@@ -124,7 +124,7 @@ _Siga pela primeira conta, depois do crucifixo. Reze nela o Pater Noster. Siga p
 | ℟. Amen. | ℟. Amen. |
 
 | Ad Grana Minora | Nas contas menores |
-
+| --- | --- |
 |Ave Maria ||
 | --- | --- |
 | ℣. Ave, María, grátia plena, Dóminus tecum; benedícta tu in muliéribus, et benedíctus fructus ventris tui, Jesus. | ℣. Ave, Maria, Cheia de graça, o Senhor é convosco; bendita sois Vós entre as mulheres, e bendito é o fruto do Vosso ventre, Jesus. |
@@ -133,7 +133,7 @@ _Siga pela primeira conta, depois do crucifixo. Reze nela o Pater Noster. Siga p
 
 | Ad Finem Decadum | No fim das dezenas |
 | --- | --- |
-| Glória||
+| Glória ||
 | --- | --- |
 | ℣. Glória Patri, et Fílio, et Spíritui Sancto. | ℣. Glória ao Pai, e ao Filho e ao Espírito Santo. |
 | ℟. Sicut erat in pricípio, et nunc, et semper, et in sǽcula sæculórum. | ℟. Assim como era no princípio, agora e sempre, e por todos os séculos dos séculos. |
@@ -325,17 +325,17 @@ Santíssima Trindade, Pai, Filho e Espírito Santo, adoro-Vos profundamente e of
 
 _Esta oração reza-se uma vez._
 
-| Oração a São Miguel Arcanjo||
+| Oração a São Miguel Arcanjo ||
 | --- | --- |
 | Sancte Míchaël Archángele, defénde nos in prælio; contra nequitiam et insidias diáboli esto præsídium. Imperet illi Deus, súpplices deprecámur: tuque, Princeps milítiæ cæléstis, Sátanam aliosque Spíritus malignos, qui ad perditionem animarum pervagantur in mundo, divina virtúte in inférnum detrude. | São Miguel Arcanjo, defendei-nos no combate, sede o nosso auxílio contra as maldades e as ciladas do demónio. Instantemente vos pedimos que Deus sobre ele impere; e vós, Príncipe da Milícia Celeste, pelo poder divino, precipitai no inferno a Satanás e aos outros espíritos malignos que vagueiam pelo mundo para perdição das almas. |
 | ℟. Amen. | ℟. Amen. |
 
-| Oração a São José||
+| Oração a São José ||
 | --- | --- |
 | Ad te beáte Joseph, in tribulatióne nostra confúgimus, atque, imploráto Sponsæ tuæ sanctíssimæ auxílio, patrocínium quoque tuum fidenter expóscimus. Per eam, quæsumus, quæ te cum immaculáta Vírgine Dei Genitríce coniúnxit, caritátem, perque patérnum, quo Púerum Iesum ampléxus es, amórem, súpplices deprecámur, ut ad hereditátem, quam Iesus Christus acquisívit Sánguine suo, benígnus respícias, ac necessitátibus nostris tua virtúte et ope succúrras. Tuére, o Custos providentíssime divínæ Famíliæ, Iesu Christi sóbolem eléctam; próhibe a nobis, amantíssime Pater, omnem errórum ac corruptelárum luem; propítius nobis, sospítator noster fortíssime, in hoc cum potestáte tenebrárum certámine e cælo adésto; et sicut olim Púerum Iesum e summo eripuísti vitre discrímine, ita nunc Ecclesiam sanctam Dei ab hostílibus insídiis atque ab omni adversitáte défende: nosque síngulos perpétuo tege patrocínio, ut ad tui exémplar et ope tua suffúlti, sancte vívere, pie émori, sempiternámque in cælis beatitúdinem ássequi possímus. | Ó Bem-aventurado S. José, a vós recorremos na nossa tribulação, e, havendo implorado da Santíssima Virgem, vossa esposa, pedimos também com toda a confiança a vossa protecção. Por aquele afecto que vos uniu à Imaculada Virgem Mãe de Deus e pelo paternal amor que consagraste ao Menino Jesus, vos rogamos e suplicamos que olheis benigno para a herança que Jesus Cristo nos adquiriu com o Seu sangue, e que nos assistais nas nossas necessidades com o vosso poder e auxílio. Protegei, ó providentíssimo guarda da Sagrada Família, os filhos escolhidos de Jesus Cristo, preservai-nos, ó pai amantíssimo, de todo o contágio das doutrinas erróneas e de corrupção; sede-nos propício e assisti-nos do alto do céu, ó nosso poderoso libertador, neste combate contra o poder das trevas; e, assim como outrora livrastes o Menino Jesus do perigo da morte, assim também, hoje, defendei a santa Igreja de Deus das ciladas dos seus inimigos e de todas as adversidades. E a cada um de nós concedei a vossa constante protecção, a fim de que, imitando-vos e fortalecidos com o vosso auxílio, possamos viver santamente, morrer piamente e alcançar no céu a bem-aventurança eterna. |
 | ℟. Amen. | ℟. Amen. |
 
-|Glória||
+|Glória ||
 | --- | --- |
 | ℣. Glória Patri, et Fílio, et Spíritui Sancto. | ℣. Glória ao Pai, e ao Filho e ao Espírito Santo. |
 | ℟. Sicut erat in pricípio, et nunc, et semper, et in sǽcula sæculórum. | ℟. Assim como era no princípio, agora e sempre, e por todos os séculos dos
