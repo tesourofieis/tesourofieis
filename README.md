@@ -1,6 +1,8 @@
-# Santo Rosário
+# Santo Rosário Tradicional
 
-**Católico:**
+_Latim - Português_
+
+### Católico:
 
 Colocamos nas suas mãos este livrinho, com a intenção de o ajudar a rezar o Santo Rosário de Nossa Senhora.
 
@@ -26,8 +28,7 @@ _Laus Deo semper_
 
 Lisboa, Semana Santa de 2018
 
-
-**Militia Sancti Michæli:**
+### Militia Sancti Michæli:
 
 Aloisius, Miles Sancti Aloisii Mariæ Grignion
 
@@ -105,7 +106,7 @@ Santíssima Virgem, Mãe de Deus, eu Vos ofereço este rosário em desagravo do 
 
 _Em seguida, anuncie que as orações depois do crucifixo serão rezadas pelas Intenções do Santo Padre._
 
-| Intenções do Santo Padre | |
+| Intenções do Santo Padre ||
 | --- | --- |
 | Exaltatio S. Matris Ecclesiæ. | Exaltação da Santa Igreja. |
 | Propagatio fidei. | Propagação da fé. |
