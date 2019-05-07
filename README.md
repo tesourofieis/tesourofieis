@@ -87,7 +87,7 @@ _Com o crucifixo erguido nas mãos, reze as orações que se seguem._
 
 | Ad Crucem | No Crucifixo |
 | --- | --- |
-| Symbolum Apostolorum | Símbolo dos Apóstolos |
+| **Symbolum Apostolorum | Símbolo dos Apóstolos** |
 | --- | --- |
 | Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ. Et in Jesum Christum, Fílium eius únicum, Dóminùm nostrum: qui concéptus est de Spíritu Sancto, natus ex María Vírgine, passus sub Pontio Piláto, crucifíxus, mórtuus, et sepúltus: descéndit ad ínferos; tértia die resurréxit a mórtuis; ascéndit ad cælos; sedet ad déxteram Dei Patris omnipoténtis: inde ventúrus est judicáre vivos et mórtuos. Credo in Spíritum Sanctum, sanctam Ecclésiam cathólicam, Sanctórum communionem, remissiónem peccatórum carnis resurrectiónem, vitam ætérnam. | Creio em Deus, Pai todo-poderoso, Criador do Céu e da Terra; e em Jesus Cristo, seu único Filho, Nosso Senhor, que foi concebido pelo poder do Espírito Santo; nasceu da Virgem Maria; padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado; desceu à mansão dos mortos; ressuscitou ao terceiro dia; subiu aos Céus, onde está sentado à direita de Deus Pai todo-poderoso, de onde há-de vir a julgar os vivos e os mortos. Creio no Espírito Santo, na santa Igreja Católica; na comunhão dos Santos; na remissão dos pecados; na ressurreição da carne; na vida eterna. |
 | ℟. Amen. | ℟. Amen. |
@@ -118,7 +118,7 @@ _Siga pela primeira conta, depois do crucifixo. Reze nela o Pater Noster. Siga p
 
 | Ad Grana Maiora | Nas contas maiores |
 | --- | --- |
-| Pater Noster | Pai Nosso |
+| **Pater Noster | Pai Nosso** |
 | --- | --- |
 | ℣. Pater noster, qui es in cælis: sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo, et in terra. | ℣. Pai Nosso, que estais nos céus, santificado seja o Vosso Nome, venha a nós o Vosso Reino; seja feita a Vossa vontade assim na terra como no Céu. |
 | ℟. Panem nostrum quotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris. Et ne nos indúcas in tentatiónem. Sed líbera nos a malo. | ℟. O pão nosso de cada dia nos dai hoje; perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem ofendido; e não nos deixeis cair em tentação; mas livrai-nos do mal. |
@@ -126,7 +126,7 @@ _Siga pela primeira conta, depois do crucifixo. Reze nela o Pater Noster. Siga p
 
 | Ad Grana Minora | Nas contas menores |
 | --- | --- |
-|Ave Maria ||
+|**Ave Maria** ||
 | --- | --- |
 | ℣. Ave, María, grátia plena, Dóminus tecum; benedícta tu in muliéribus, et benedíctus fructus ventris tui, Jesus. | ℣. Ave, Maria, Cheia de graça, o Senhor é convosco; bendita sois Vós entre as mulheres, e bendito é o fruto do Vosso ventre, Jesus. |
 | ℟. Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc, et in hora mortis nostræ. | ℟. Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. |
@@ -134,7 +134,7 @@ _Siga pela primeira conta, depois do crucifixo. Reze nela o Pater Noster. Siga p
 
 | Ad Finem Decadum | No fim das dezenas |
 | --- | --- |
-| Glória ||
+| **Glória** ||
 | --- | --- |
 | ℣. Glória Patri, et Fílio, et Spíritui Sancto. | ℣. Glória ao Pai, e ao Filho e ao Espírito Santo. |
 | ℟. Sicut erat in pricípio, et nunc, et semper, et in sǽcula sæculórum. | ℟. Assim como era no princípio, agora e sempre, e por todos os séculos dos séculos. |
@@ -200,7 +200,7 @@ _Quarta-feira, Sábado e Domingo_
 
 | Orationes ad Finem Rosarii | Orações no fim do Rosário |
 | --- | --- |
-| Salve Regina | Salve Rainha |
+| **Salve Regina | Salve Rainha** |
 | --- | --- |
 | Salve, Regina, Mater misericórdiæ, vita, dulcédo et spes nostra, salve. Ad te clamámus, éxsules fílii Hevæ. Ad te suspirámus geméntes et flentes in hac lacrimárum valle. Éia ergo, advocáta nostra, illos tuos misericórdes óculos ad nos convérte. Et Jesum benedíctum fructum ventris tui, nobis, post hoc exsílium, osténde. O clemens, o pia, o dulcis Virgo Maria! | Salvé, Rainha, mãe de misericórdia, vida, doçura, esperança nossa, salve! A Vós bradamos, os degredados filhos de Eva. A Vós suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois, advogada nossa, esses Vossos olhos misericordiosos a nós volvei. E, depois deste desterro, nos mostrai Jesus, bendito fruto do Vosso ventre. Ó clemente, ó piedosa, ó doce Virgem Maria. |
 | ℣. Ora pro nobis, Regina Sacratíssimi Rosárii. | ℣. Rogai por nós, Rainha do Santíssimo Rosário. |
