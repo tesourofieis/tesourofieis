@@ -1,6 +1,25 @@
 * {
     font-size: 100%;
     font-family: Cardo, Cambria, Georgia, serif;
-    font-feature-settings: "swsh" 2;
+    font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
     font-variant-ligatures: historical-ligatures;
+    text-indent: 5pt;
+    text-rendering: optimizeLegibility;
    }
+
+   .dropcaps:first-letter {
+       text-indent: 0pt;
+    margin: 0.08em 0 -0.05em 0;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+     font-size: 300%;
+    float: left;
+    color: #CC0000;
+  }
+
+  .body{
+      position: relative;
+    height: 100%;
+    overflow-y: scroll;
+  }
