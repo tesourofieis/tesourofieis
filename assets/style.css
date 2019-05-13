@@ -1,0 +1,81 @@
+* {
+    font-size: 100%;
+    font-family: Cardo, Cambria, Georgia, serif;
+    font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
+    font-variant-ligatures: historical-ligatures;
+    text-indent: 5pt;
+    text-rendering: optimizeLegibility;
+}
+.dropcaps:first-letter {
+    text-indent: 0pt;
+    margin: 0.08em 0 -0.05em 0;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-size: 300%;
+    float: left;
+    color: #CC0000;
+}
+.p{
+    text-align: justify;
+ }
+ body {
+    position: relative;
+    margin-top: 5em;
+}
+.col-sm-2 {
+    display: flex;
+    position: sticky;
+    top:0;
+    height: 50em;
+    overflow: auto;
+    background-color: #CC0000;
+    color: #ffffff;
+}
+nav[data-toggle="toc"] .nav > li > a:hover{
+  background-color: #ffffff;
+  color: #CC0000;
+}
+nav[data-toggle="toc"] .nav > li > a:focus{
+  background-color: #ffffff;
+  color: #CC0000;
+}
+nav[data-toggle="toc"] .nav > li > a{
+  background-color: #CC0000;
+  color: #ffffff;
+}
+/* change the background color */
+.navbar {
+  background-color: #CC0000;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #ffffff;
+  padding: 0.8rem 1rem;
+}
+/* change the link color and add padding for height */
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 1rem 1rem;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-link {
+  color: #ffffff;
+  background-color: #CC0000; /* add background-color to active links */
+}
+.navbar-custom .nav-item:hover .nav-link:hover {
+  background-color: #ffffff; /* add background-color to active links */
+  color: #CC0000;
+}
+.navbar-custom .nav-item:active .nav-link:active {
+  background-color: #ffffff; /* add background-color to active links */
+  color: #CC0000;
+}
+  :root {
+    --danger: #CC0000;
+  }
+/* COVER*/
+  .cover-container {
+    margin-top: 15em;
+    }
