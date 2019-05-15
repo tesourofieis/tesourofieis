@@ -6,7 +6,7 @@
     text-indent: 5pt;
     text-rendering: optimizeLegibility;
 }
-.em{
+em{
   color: #CC0000;
 }
 .dropcaps:first-letter {
