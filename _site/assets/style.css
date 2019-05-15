@@ -6,6 +6,9 @@
     text-indent: 5pt;
     text-rendering: optimizeLegibility;
 }
+em{
+  color: #CC0000;
+}
 .dropcaps:first-letter {
     text-indent: 0pt;
     margin: 0.08em 0 -0.05em 0;
@@ -27,7 +30,7 @@
     display: flex;
     position: sticky;
     top:0;
-    height: 50em;
+    height: 40em;
     overflow: auto;
     background-color: #CC0000;
     color: #ffffff;
