@@ -1,4 +1,4 @@
-<nav class="navbar navbar-nav navbar-expand fixed-top navbar-dark navbar-custom">
+<nav class="navbar navbar-expand fixed-top navbar-dark navbar-custom">
     
     <a class="nav-link navbar-brand" href="{{"/index" | relative_url }}"><i
             class="fa fa-home d-inline-block align-center"></i></a>
@@ -9,18 +9,18 @@
     </button>
 
     <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mx-auto">
+        <ul class="navbar-nav mx-auto" id="myDIV">
             <li class="nav-item">
-                <a class="nav-link" href="{{"/rosario" | relative_url }}">Santo Rosário</a>
+                <a class="nav-link" href="{{"/rosario" | relative_url }}"  id="item-rosario">Santo Rosário<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{"/salterio" | relative_url }}">Saltério</a>
+                <a class="nav-link" href="{{"/salterio" | relative_url }}" id="item-salterio">Saltério</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{"/oficio" | relative_url }}">Pequeno Ofício de Nossa Senhora</a>
+                <a class="nav-link" href="{{"/oficio" | relative_url }}" id="item-oficio">Pequeno Ofício de Nossa Senhora</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{"/antifonas" | relative_url }}">Antífonas de Nossa Senhora</a>
+                <a class="nav-link" href="{{"/antifonas" | relative_url }}" id="item-antifonas">Antífonas de Nossa Senhora</a>
             </li>
         </ul>
     </div>
@@ -31,3 +31,5 @@
                 aria-hidden="true"></i></a>
     </div>
 </nav>
+
+<nav id="navspy" data-spy="affix" data-toggle="nav-link" class="navspy"></nav>
