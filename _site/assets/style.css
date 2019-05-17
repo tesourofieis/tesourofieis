@@ -58,14 +58,21 @@ a {
   color: #ffffff;
 }
 
+.nav-link.active{
+  background-color: transparent;
+  color: gold;
+}
+
+.navbar-nav .nav-item > .nav-link.active{
+  color: gold;
+}
+
 .navbar-custom .nav-item:hover .nav-link:hover {
   background-color: transparent;
   color: gold;
 }
 
 /* COVER*/
-.cover-container {
-}
 
 /* small screens */
 @media (max-width: 768px) {

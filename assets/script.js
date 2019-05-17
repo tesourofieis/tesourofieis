@@ -66,3 +66,33 @@ $(function() {
 }
 
 window.addEventListener("scroll", scrollEventHandler, false);
+
+/* ACTIVE NAVBAR */
+
+// $(document).ready(function() {
+//   $('li.active').removeClass('active');
+//   $('a[href="' + location.pathname + '"]').closest('li').addClass('active'); 
+// });
+
+$(document).click(function(e) {
+$('.navbar-nav li a').removeClass('active'); {
+  var $this = $(this);
+  if (!$this.hasClass('active')) {
+    $this.addClass('active');
+  }
+  e.preventDefault();
+});
+}); 
+  
+//   $('.navbar-nav li nav-link').click(function(){
+//     $('.navbar-nav li nav-link').removeClass('active');
+//     $(this).addClass('active');
+// })
+
+
+// $(document).ready(function () {
+//   $('.navbar-nav li a').click(function (e) {
+//       $('.navbar-nav li a').removeClass('active');
+//       $(this).addClass('active');                
+//   });            
+// });
