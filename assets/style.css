@@ -63,14 +63,23 @@ a {
 
 /* COVER*/
 
-/* small screens */
-@media (max-width: 768px) {
+/*  OTHER SCREENS */
 
-  /* override the Affix plugin so that the navigation isn't sticky */
-  #toc {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #toc, #main-menu, .toc-salterio {
     display: none;
   }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
 
 /* SIDE NAV TOC */
 
@@ -81,18 +90,15 @@ a {
   left: 0em;
   bottom: 0em;
   color: #DF2321;
-  color: #DF2321;
-  font-size: 80%;
-  overflow-y: scroll;
+  font-size: 70%;
   padding-left: 0;
   max-width: 100%;
-  overflow-x: unset;
 }
 
 .toc-salterio {
   height: 88vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  width: 100%;
+  overflow: scroll;
 }
 
 nav[data-toggle="toc"] .nav>li>a {
@@ -109,7 +115,8 @@ nav[data-toggle="toc"] .nav-link.active:hover,
 nav[data-toggle="toc"] .nav>li>a:focus,
 nav[data-toggle="toc"] .nav>li>a:hover {
   color: #DF2321;
-  border-left: 2px solid #DF2321;
+  border-left: 1px solid #DF2321;
+  padding-left: 0;
 }
 
 /* hide nav that gives the info */
