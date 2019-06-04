@@ -40,7 +40,7 @@ nav {
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-    border-color: #e9ecef #e9ecef #dee2e6
+    border-color: #e9ecef
 }
 
 .nav-tabs .nav-link.disabled {
@@ -53,7 +53,7 @@ nav {
 .nav-tabs .nav-link.active {
     color: #495057;
     background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff
+    border-color: #dee2e6
 }
 
 .nav-tabs .dropdown-menu {

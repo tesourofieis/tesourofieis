@@ -53,12 +53,14 @@ a {
   color: gold;
 }
 
-.active{
-  color: gold;
+nav .mynav li a{
+  color: #ffffff !important;
 }
 
-.navbar-nav .nav-item > .nav-link.active{
-  color: gold;
+nav .mynav li a.active,
+nav .mynav li a.hover,
+nav .mynav li a.focus{
+  color: gold !important;
 }
 
 /* COVER*/
@@ -66,12 +68,12 @@ a {
 /* SIDE NAV TOC */
 
 #toc {
-  display: flex;
+  display: grid;
   position: sticky;
   top: 6.5em;
   left: 0em;
   bottom: 0em;
-  color: #DF2321;
+  color: rgb(225, 225, 225);
   font-size: 70%;
   padding-left: 0;
   max-width: 100%;
@@ -130,17 +132,13 @@ nav[data-toggle="toc"] .nav>li>a:hover {
 .col-lg-2{
   display: none;
 }
-#main-nav{
-  ...
 }
 
- }
-
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+/* @media (min-width: 768px) { ... } */
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+/* @media (min-width: 1200px) { ... } */
