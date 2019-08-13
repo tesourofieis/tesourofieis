@@ -7,7 +7,7 @@
   font-variant-ligatures: historical-ligatures;
   text-indent: 10pt;
   text-rendering: optimizeLegibility;
-  line-height: 1.35;
+  /* line-height: 1.35; */
 }
 
 :root {
