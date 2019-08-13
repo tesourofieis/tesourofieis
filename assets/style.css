@@ -10,7 +10,12 @@
 }
 
 :root {
-  --danger: #DF2321;
+  --danger-color: #DF2321;
+}
+
+.card-img-top {
+  width: 20vh;
+  object-fit: cover;
 }
 
 em {
@@ -38,9 +43,9 @@ body {
   margin-top: 10vh;
 }
 
-a {
+/* a {
   color: #ffffff;
-}
+} */
 
 /* NAVBAR */
 .navbar {
@@ -57,9 +62,16 @@ nav .mynav li a{
   color: #ffffff !important;
 }
 
-nav .mynav li a.active,
-nav .mynav li a.hover,
-nav .mynav li a.focus{
+.active {
+  color: gold !important;
+}
+
+/* nav .mynav li a.active {
+  color: gold !important;
+} */
+
+nav .mynav li a:hover,
+nav .mynav li a:focus{
   color: gold !important;
 }
 

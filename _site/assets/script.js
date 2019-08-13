@@ -1,19 +1,16 @@
 // SCROLLSPY
 $('body').scrollspy({ target: '#toc' })
 
-  // SCROLL
+// SCROLL
 
-/* ACTIVE NAVBAR */
+$(document).ready(function() {
+    var pathname = window.location.pathname;
 
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myDIV");
-var btns = header.getElementsByClassName("nav-link");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  if (current.length > 0) { 
-    current[0].className = current[0].className.replace(" active", "");
-  }
-  this.className += " active";
-  });
-}
+    $("#navlist a").each(function(index) {
+        if (pathname.toUpperCase().indexOf($(this).text().toUpperCase()) != -1)
+            $(this).addClass("current");
+    });
+
+    if ($("a.current").length == 0)
+        $("a#index").addClass("current");
+});
