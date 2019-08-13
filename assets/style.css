@@ -5,8 +5,10 @@
   font-family: Cardo, Cambria, Georgia, serif;
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
-  text-indent: 5pt;
+  text-indent: 10pt;
   text-rendering: optimizeLegibility;
+  letter-spacing: 0.07em;
+  line-height: 1.35;
 }
 
 :root {
@@ -19,7 +21,7 @@
 }
 
 em {
-  text-align: center;
+  text-align: center !important;
   color: #DF2321;
 }
 
