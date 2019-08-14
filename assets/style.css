@@ -75,7 +75,7 @@ nav .mynav li a{
 
 nav .mynav li a:hover,
 nav .mynav li a:focus{
-  color: gold !important;
+  color: #aaa;
 }
 
 /* COVER*/
