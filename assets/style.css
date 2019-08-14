@@ -65,15 +65,13 @@ nav .mynav li a{
   color: #ffffff !important;
 }
 
-.active {
-  color: gold !important;
-}
 
 /* nav .mynav li a.active {
   color: gold !important;
 } */
 
 nav .mynav li a:hover,
+nav .mynav li a:active,
 nav .mynav li a:focus{
   color: #aaa;
 }
