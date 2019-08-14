@@ -46,7 +46,7 @@ body {
   margin-top: 10vh;
 }
 
-a {
+#navbarTogglerDemo01 ul li a {
   color: #ffffff !important;
 }
 
@@ -88,7 +88,7 @@ nav .mynav li a:focus{
   top: 6.5em;
   left: 0em;
   bottom: 0em;
-  color: #DF2321;
+  color: rgb(225, 225, 225);
   font-size: 70%;
   padding-left: 0;
   max-width: 100%;
@@ -106,6 +106,7 @@ nav[data-toggle="toc"] .nav>li>a {
   padding-left: 0;
   font-size: 100%;
   font-weight: 100;
+  color: #DF2321;
 }
 
 nav[data-toggle="toc"] .nav-link.active,
