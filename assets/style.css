@@ -58,7 +58,7 @@ body {
 .fa:hover,
 .fa:focus {
   background-color: transparent;
-  color: gold;
+  color: #aaa;
 }
 
 nav .mynav li a{
