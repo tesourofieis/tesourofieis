@@ -145,8 +145,6 @@ nav[data-toggle="toc"] .nav>li>a:hover {
   margin-top: 5vh;
 }
 
-
-
 /*  OTHER SCREENS */
 
 @media (max-width: 500px) { 
@@ -154,7 +152,7 @@ nav[data-toggle="toc"] .nav>li>a:hover {
   display: none;
 }
 .fanav{
-  display: hide;
+  display: none;
 }
 }
 
