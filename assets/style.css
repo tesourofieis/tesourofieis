@@ -14,6 +14,10 @@
   --danger-color: #DF2321;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .card-img-top {
   width: 20vh;
   object-fit: cover;
