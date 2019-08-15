@@ -147,7 +147,7 @@ nav[data-toggle="toc"] .nav>li>a:hover {
 
 /*  OTHER SCREENS */
 
-@media (max-width: 500px) { 
+@media (max-width: 550px) { 
 .col-lg-2{
   display: none;
 }
