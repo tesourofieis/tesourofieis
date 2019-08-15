@@ -145,6 +145,10 @@ nav[data-toggle="toc"] .nav>li>a:hover {
   margin-top: 5vh;
 }
 
+.fanav {
+  display: block;
+}
+
 /*  OTHER SCREENS */
 
 /* Small devices (landscape phones, 576px and up) */
