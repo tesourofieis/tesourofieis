@@ -48,8 +48,8 @@ body {
   display: flex;
   position: relative;
   margin-top: 10vh;
-  /* min-height: 75rem;
-  padding-top: 4.5rem; */
+  min-height: 75rem;
+  padding-top: 4.5rem;
 }
 
 #navbarTogglerDemo01 ul li a {
