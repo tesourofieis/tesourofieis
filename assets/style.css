@@ -2,13 +2,15 @@
 * {
   font-size: 100%;
   font-weight: 100%;
-  font-family: 'Cardo', serif;
+  font-family: 'Cardo', 'EB Garamond';
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
   text-indent: 10pt;
   text-rendering: optimizeLegibility;
   /* line-height: 1.35; */
 }
+
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
 
 :root {
   --danger-color: #DF2321;
