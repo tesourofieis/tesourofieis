@@ -52,7 +52,7 @@ body {
 }
 
 #navbarTogglerDemo01 ul li a {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 .dropdown-menu a{
@@ -66,7 +66,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background-color: #DF2321 !important;
+  background-color: #DF2321;
 }
 
 .fa:hover,
@@ -76,7 +76,7 @@ body {
 }
 
 nav .mynav li a{
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 nav .mynav li a:hover,
