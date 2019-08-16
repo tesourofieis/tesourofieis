@@ -55,8 +55,11 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #DF2321 !important;
-  color: #ffffff !important;
+  color: #DF2321 !important;
+}
+
+.dropdown-item {
+  color: #DF2321 !important;
 }
 
 #navbarTogglerDemo01 ul li a {
