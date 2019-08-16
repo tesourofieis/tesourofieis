@@ -55,8 +55,8 @@ body {
   color: #ffffff !important;
 }
 
-.dropdown .dropdown-menu .dropdown-item {
-  color: #DF2321 !important;
+.dropdown-menu a{
+    color: #DF2321 !important;
 }
 
 .dropdown .dropdown-menu .dropdown-item:active,
