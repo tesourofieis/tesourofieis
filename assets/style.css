@@ -54,7 +54,7 @@ body {
   padding-top: 4.5rem; */
 }
 
-#navbarDropdown a {
+.dropdown-item {
   color: #DF2321 !important;
 }
 
