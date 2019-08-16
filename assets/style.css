@@ -56,14 +56,13 @@ body {
 }
 
 .dropdown .dropdown-menu .dropdown-item {
-  background-color: #DF2321 !important;
+  color: #DF2321 !important;
 }
 
 .dropdown .dropdown-menu .dropdown-item:active,
 .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: #aaa !important;
+  background-color: rgba(170, 170, 170, 0.167) !important;
 }
-
 
 /* NAVBAR */
 .navbar {
