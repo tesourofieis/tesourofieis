@@ -39,7 +39,6 @@ em {
   float: left;
   color: #DF2321;
   line-height: 80%;
-  /* width: 1em; */
 }
 
 .p {
@@ -50,21 +49,21 @@ body {
   display: flex;
   position: relative;
   margin-top: 10vh;
-  /* min-height: 75rem;
-  padding-top: 4.5rem; */
-}
-
-.dropdown-menu {
-  color: #DF2321 !important;
-}
-
-.dropdown-item {
-  color: #DF2321 !important;
 }
 
 #navbarTogglerDemo01 ul li a {
   color: #ffffff !important;
 }
+
+.dropdown .dropdown-menu .dropdown-item {
+  background-color: #DF2321 !important;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active,
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #aaa !important;
+}
+
 
 /* NAVBAR */
 .navbar {
@@ -80,11 +79,6 @@ body {
 nav .mynav li a{
   color: #ffffff !important;
 }
-
-
-/* nav .mynav li a.active {
-  color: gold !important;
-} */
 
 nav .mynav li a:hover,
 nav .mynav li a:active,
