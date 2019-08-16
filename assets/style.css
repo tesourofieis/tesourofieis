@@ -54,7 +54,8 @@ body {
   padding-top: 4.5rem; */
 }
 
-.dropdown-item {
+.dropdown-menu {
+  background-color: #DF2321 !important;
   color: #DF2321 !important;
 }
 
