@@ -101,7 +101,8 @@ nav .mynav li a:focus{
   max-width: 100%;
 }
 
-.toc-salterio {
+.toc-salterio,
+.toc-propriotempo {
   height: 88vh;
   width: 100%;
   overflow: scroll;
