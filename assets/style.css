@@ -156,21 +156,8 @@ nav[data-toggle="toc"] .nav>li>a:hover {
 
 @media (max-width: 550px) { 
 .col-lg-2{
-  /* display: none; */
-  transition: .18s linear;
-  left: 0;
+  display: none;
 }
-   
-.col-lg-2.collapse ,
-.col-lg-2.collapsing,
-.col-lg-2.collapsing + .col {
-    transition: .18s linear;
-    z-index: 1050;
-    left: -25%;
-    height: auto !important;
-}
-
-
 }
 
 /* Medium devices (tablets, 768px and up) */
