@@ -112,6 +112,21 @@ nav .mynav li a:focus{
   overflow: scroll;
 }
 
+.sidebar.collapse.show,
+.sidebar.collapse.show + .col {
+    transition: .18s linear;
+    left: 0;
+}
+
+.sidebar.collapse ,
+.sidebar.collapsing,
+.sidebar.collapsing + .col {
+    transition: .18s linear;
+    z-index: 1050;
+    left: -25%;
+    height: auto !important;
+}
+
 nav[data-toggle="toc"] .nav>li>a {
   display: block;
   padding: 0;
@@ -168,3 +183,5 @@ nav[data-toggle="toc"] .nav>li>a:hover {
 
 /* Extra large devices (large desktops, 1200px and up) */
 /* @media (min-width: 1200px) {} */
+
+
