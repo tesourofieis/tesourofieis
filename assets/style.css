@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
+
 /* GLOBAL */
 * {
   font-size: 100%;
-  font-weight: 100%;
-  font-family: 'Cardo', 'EB Garamond';
+  font-weight: normal;
+  font-family: 'Cardo', 'EB Garamond', serif;
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
   text-indent: 10pt;
   text-rendering: optimizeLegibility;
   /* line-height: 1.35; */
 }
-
-@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
 
 :root {
   --danger-color: #DF2321;
@@ -30,8 +30,11 @@ em {
   color: #DF2321;
 }
 
+.dropcaps {
+  text-indent: 0;
+}
+
 .dropcaps:first-letter {
-  text-indent: 0pt;
   /* margin: 0.08em 0 0.1em 0; */
   padding-top: 6px;
   padding-right: 8px;
@@ -93,8 +96,8 @@ nav .mynav li a:focus{
   display: grid;
   position: sticky;
   top: 6.5em;
-  left: 0em;
-  bottom: 0em;
+  left: 0;
+  bottom: 0;
   color: rgb(225, 225, 225);
   font-size: 70%;
   padding-left: 0;
@@ -111,7 +114,6 @@ nav .mynav li a:focus{
 nav[data-toggle="toc"] .nav>li>a {
   display: block;
   padding: 0;
-  padding-left: 0;
   font-size: 100%;
   font-weight: 100;
   color: #DF2321;
