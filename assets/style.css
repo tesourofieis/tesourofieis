@@ -112,21 +112,6 @@ nav .mynav li a:focus{
   overflow: scroll;
 }
 
-.sidebar.collapse.show,
-.sidebar.collapse.show + .col {
-    transition: .18s linear;
-    left: 0;
-}
-
-.sidebar.collapse ,
-.sidebar.collapsing,
-.sidebar.collapsing + .col {
-    transition: .18s linear;
-    z-index: 1050;
-    left: -25%;
-    height: auto !important;
-}
-
 nav[data-toggle="toc"] .nav>li>a {
   display: block;
   padding: 0;
@@ -171,8 +156,21 @@ nav[data-toggle="toc"] .nav>li>a:hover {
 
 @media (max-width: 550px) { 
 .col-lg-2{
-  display: none;
+  /* display: none; */
+  transition: .18s linear;
+  left: 0;
 }
+   
+.col-lg-2.collapse ,
+.col-lg-2.collapsing,
+.col-lg-2.collapsing + .col {
+    transition: .18s linear;
+    z-index: 1050;
+    left: -25%;
+    height: auto !important;
+}
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
