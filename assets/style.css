@@ -105,7 +105,8 @@ nav .mynav li a:focus{
 }
 
 .toc-salterio,
-.toc-propriotempo {
+.toc-propriotempo,
+.toc-propriosantos {
   height: 88vh;
   width: 100%;
   overflow: scroll;
