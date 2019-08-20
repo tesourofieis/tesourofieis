@@ -1,110 +1,142 @@
 <nav class="navbar navbar-dark navbar-expand-md fixed-top mb-4" id="main-nav">
 
-  <a class="nav-link navbar-brand" href="{{"/index" | relative_url }}"><img src="/img/inv.png" width="35px" height="35px"></a>
+  <a class="nav-link navbar-brand" href="{{"/index" | relative_url }}"><img src="/img/inv.png" width="35px"
+      height="35px"></a>
 
-  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-  
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><span
+      class="navbar-toggler-icon"></span></button>
+
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-  
-  <!-- <a class="nav-link navbar-brand" href="{{"/index" | relative_url }}"><i class="fa fa-home d-inline-block align-center"></i></a> -->
+
+    <!-- <a class="nav-link navbar-brand" href="{{"/index" | relative_url }}"><i class="fa fa-home d-inline-block align-center"></i></a> -->
 
     <ul class="navbar-nav mx-auto" id="myDIV">
+      <li class="nav-item">
+        <a class="nav-link" href="{{"/salterio" | relative_url }}" id="item-salterio">Saltério</a>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">Devocionário</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{"/salterio" | relative_url }}" id="item-salterio">Saltério</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-            <a class="dropdown-item" href="{{"/rosario" | relative_url }}" id="item-rosario">Santo Rosário</a>
-        
-        
-            <a class="dropdown-item" href="{{"/oficio" | relative_url }}" id="item-oficio">Pequeno Ofício de Nossa Senhora</a>
-          
-            <a class="dropdown-item" href="{{"/antifonas" | relative_url }}" id="item-antifonas">Antífonas de Nossa Senhora</a>
-          
-            <a class="dropdown-item" href="{{"/adoracao" | relative_url }}" id="item-adoracao">Benção do Santíssimo Sacramento</a>
-          </div>
+          <a class="dropdown-item" href="{{"/rosario" | relative_url }}" id="item-rosario">Santo Rosário</a>
+
+          <a class="dropdown-item" href="{{"/oficio" | relative_url }}" id="item-oficio">Pequeno Ofício de Nossa
+            Senhora</a>
+
+          <a class="dropdown-item" href="{{"/antifonas" | relative_url }}" id="item-antifonas">Antífonas de Nossa
+            Senhora</a>
+
+          <a class="dropdown-item" href="{{"/adoracao" | relative_url }}" id="item-adoracao">Benção do Santíssimo
+            Sacramento</a>
+        </div>
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Missal Romano</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Missal Romano</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-            <a class="dropdown-item" href="{{"/ordinariomissa" | relative_url }}" id="item-ordo">Ordo Missæ</a>
+          <a class="dropdown-item" href="{{"/ordinariomissa" | relative_url }}" id="item-ordo">Ordo Missæ</a>
 
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="{{"/propriotempo" | relative_url }}" id="item-propriotempo">Próprio do Tempo</a>
-            <a class="dropdown-item" href="{{"/propriosantos" | relative_url }}" id="item-propriosantos">Próprio dos Santos</a>
-            <a class="dropdown-item" href="{{"/comumsantos" | relative_url }}" id="item-comumsantos">Comum dos Santos</a>
-            
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="{{"/baptismo" | relative_url }}" id="item-baptismo">Baptismo</a>
-            <a class="dropdown-item" href="{{"/confirmacao" | relative_url }}" id="item-confirmacao">Confirmação</a>
-            <a class="dropdown-item" href="{{"/matrimonio" | relative_url }}" id="item-matrimonio">Matrimónio</a>
-            <a class="dropdown-item" href="{{"/extremauncao" | relative_url }}" id="item-extremauncao">Extrema-unção</a>
-            <a class="dropdown-item" href="{{"/requiem" | relative_url }}" id="item-requiem">Requiem</a>
-            <a class="dropdown-item" href="{{"/penitencia" | relative_url }}" id="item-penitencia">Penitência</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{"/propriotempo" | relative_url }}" id="item-propriotempo">Próprio do
+            Tempo</a>
+          <a class="dropdown-item" href="{{"/propriosantos" | relative_url }}" id="item-propriosantos">Próprio dos
+            Santos</a>
+          <a class="dropdown-item" href="{{"/comumsantos" | relative_url }}" id="item-comumsantos">Comum dos Santos</a>
 
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="{{"/oracaoantescomunhao" | relative_url }}" id="item-oracaoantescomunhao">Oração Antes da Comunhão</a>
-            <a class="dropdown-item" href="{{"/oracaodepoiscomunhao" | relative_url }}" id="item-oracaodepoiscomunhao">Oração Depois da Comunhão</a>
-            <a class="dropdown-item" href="{{"/oracoescomplementares" | relative_url }}" id="item-oracoescomplementares">Orações Complementares</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{"/oracaoantescomunhao" | relative_url }}"
+            id="item-oracaoantescomunhao">Oração Antes da Comunhão</a>
+          <a class="dropdown-item" href="{{"/oracaodepoiscomunhao" | relative_url }}"
+            id="item-oracaodepoiscomunhao">Oração Depois da Comunhão</a>
+          <a class="dropdown-item" href="{{"/oracoescomplementares" | relative_url }}"
+            id="item-oracoescomplementares">Orações Complementares</a>
 
-          </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Ritual Romano</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          <a class="dropdown-item" href="{{"/baptismo" | relative_url }}" id="item-baptismo">Baptismo</a>
+          <a class="dropdown-item" href="{{"/confirmacao" | relative_url }}" id="item-confirmacao">Confirmação</a>
+          <a class="dropdown-item" href="{{"/matrimonio" | relative_url }}" id="item-matrimonio">Matrimónio</a>
+          <a class="dropdown-item" href="{{"/extremauncao" | relative_url }}" id="item-extremauncao">Extrema-unção</a>
+          <a class="dropdown-item" href="{{"/requiem" | relative_url }}" id="item-requiem">Requiem</a>
+          <a class="dropdown-item" href="{{"/penitencia" | relative_url }}" id="item-penitencia">Penitência</a>
+
+          <div class="dropdown-divider"></div>
+
+        </div>
       </li>
     </ul>
     <div class="ml-auto">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="navbar-brand nav-link" title="Melhore a Página" href="https://www.github.com/ofrades/tesourofieis/blob/master/{{ page.path }}"><i class="fa fa-pencil d-inline-block"></i></a>
+          <a class="navbar-brand nav-link" title="Melhore a Página"
+            href="https://www.github.com/ofrades/tesourofieis/blob/master/{{ page.path }}"><i
+              class="fa fa-pencil d-inline-block"></i></a>
         </li>
         <li class="nav-item">
           <a class="navbar-brand nav-link" href="mailto:info@tesourofieis.com"><i class="fa fa-envelope d-inline-block"
-            aria-hidden="true"></i></a>
+              aria-hidden="true"></i></a>
         </li>
       </ul>
     </div>
 
 
-    </div>
-  </nav
-
-
-<nav id="navspy" data-spy="affix" data-toggle="nav-link" class="navspy"></nav>
+  </div>
+</nav <nav id="navspy" data-spy="affix" data-toggle="nav-link" class="navspy">
+</nav>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
 
 <style>
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 20px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: transparent; /* Set a background color */
-  color: #DF2321; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 20px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: transparent;
+    /* Set a background color */
+    color: #DF2321;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+  }
 </style>
 <script>
   window.onscroll = function () { scrollFunction() };
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-      } else {
-        document.getElementById("myBtn").style.display = "none";
-      }
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
     }
+  }
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
 </script>
