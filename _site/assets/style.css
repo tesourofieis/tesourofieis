@@ -1,16 +1,23 @@
 /* GLOBAL */
 * {
   font-size: 100%;
-  font-weight: 100%;
-  font-family: Cardo, Cambria, Georgia, serif;
+  font-weight: normal;
+  font-family: 'Cardo', 'EB Garamond';
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
-  text-indent: 5pt;
+  text-indent: 10pt;
   text-rendering: optimizeLegibility;
+  /* line-height: 1.35; */
 }
+
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
 
 :root {
   --danger-color: #DF2321;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .card-img-top {
@@ -19,18 +26,22 @@
 }
 
 em {
+  text-align: center !important;
   color: #DF2321;
 }
 
+.dropcaps {
+  text-indent: 0;
+}
+
 .dropcaps:first-letter {
-  text-indent: 0pt;
-  margin: 0.08em 0 -0.05em 0;
-  padding-top: 4px;
+  /* margin: 0.08em 0 0.1em 0; */
+  padding-top: 6px;
   padding-right: 8px;
-  padding-left: 3px;
   font-size: 300%;
   float: left;
   color: #DF2321;
+  line-height: 80%;
 }
 
 .p {
@@ -43,9 +54,18 @@ body {
   margin-top: 10vh;
 }
 
-/* a {
+#navbarTogglerDemo01 ul li a {
   color: #ffffff;
-} */
+}
+
+.dropdown-menu a{
+    color: #DF2321 !important;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active,
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(170, 170, 170, 0.167) !important;
+}
 
 /* NAVBAR */
 .navbar {
@@ -55,24 +75,17 @@ body {
 .fa:hover,
 .fa:focus {
   background-color: transparent;
-  color: gold;
+  color: #aaa;
 }
 
 nav .mynav li a{
-  color: #ffffff !important;
+  color: #ffffff;
 }
-
-.active {
-  color: gold !important;
-}
-
-/* nav .mynav li a.active {
-  color: gold !important;
-} */
 
 nav .mynav li a:hover,
+nav .mynav li a:active,
 nav .mynav li a:focus{
-  color: gold !important;
+  color: #aaa;
 }
 
 /* COVER*/
@@ -83,15 +96,17 @@ nav .mynav li a:focus{
   display: grid;
   position: sticky;
   top: 6.5em;
-  left: 0em;
-  bottom: 0em;
+  left: 0;
+  bottom: 0;
   color: rgb(225, 225, 225);
   font-size: 70%;
   padding-left: 0;
   max-width: 100%;
 }
 
-.toc-salterio {
+.toc-salterio,
+.toc-propriotempo,
+.toc-propriosantos {
   height: 88vh;
   width: 100%;
   overflow: scroll;
@@ -100,9 +115,9 @@ nav .mynav li a:focus{
 nav[data-toggle="toc"] .nav>li>a {
   display: block;
   padding: 0;
-  padding-left: 0;
   font-size: 100%;
   font-weight: 100;
+  color: #DF2321;
 }
 
 nav[data-toggle="toc"] .nav-link.active,
@@ -139,18 +154,19 @@ nav[data-toggle="toc"] .nav>li>a:hover {
 
 /*  OTHER SCREENS */
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
+@media (max-width: 550px) { 
 .col-lg-2{
   display: none;
 }
 }
 
 /* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { ... } */
+/* @media (min-width: 768px) {} */
 
 /* Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... } */
+@media (min-width: 992px) {} */
 
 /* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */
+/* @media (min-width: 1200px) {} */
+
+

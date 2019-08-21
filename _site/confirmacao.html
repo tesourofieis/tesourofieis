@@ -1,0 +1,484 @@
+<!doctype html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:image" content="/img/5.png">
+  
+<link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/assets/floating-labels.css">
+
+  <link rel="icon" href="/img/inv.png" sizes="25x25">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'> -->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+   
+    <link rel="stylesheet" href="/assets/style.css">
+ 
+
+  <!-- <title>
+    Confirmação - 
+    
+  </title> -->
+
+  <title>
+       Tesouro dos Fiéis - Confirmação
+      
+    </title>
+
+</head>
+
+<body data-spy="scroll" data-target="#toc"  data-offset="800">
+
+<nav class="navbar navbar-dark navbar-expand-md fixed-top mb-4" id="main-nav">
+
+  <a class="nav-link navbar-brand" href="/index"><img src="/img/inv.png" width="35px"
+      height="35px"></a>
+
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><span
+      class="navbar-toggler-icon"></span></button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+    <!-- <a class="nav-link navbar-brand" href="/index"><i class="fa fa-home d-inline-block align-center"></i></a> -->
+
+    <ul class="navbar-nav mx-auto" id="myDIV">
+      <li class="nav-item">
+        <a class="nav-link" href="/salterio" id="item-salterio">Saltério</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Devocionário</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          <a class="dropdown-item" href="/rosario" id="item-rosario">Santo Rosário</a>
+
+          <a class="dropdown-item" href="/oficio" id="item-oficio">Pequeno Ofício de Nossa
+            Senhora</a>
+
+          <a class="dropdown-item" href="/antifonas" id="item-antifonas">Antífonas de Nossa
+            Senhora</a>
+
+          <a class="dropdown-item" href="/adoracao" id="item-adoracao">Benção do Santíssimo
+            Sacramento</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Missal Romano</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          <a class="dropdown-item" href="/ordinariomissa" id="item-ordo">Ordo Missæ</a>
+
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/propriotempo" id="item-propriotempo">Próprio do
+            Tempo</a>
+          <a class="dropdown-item" href="/propriosantos" id="item-propriosantos">Próprio dos
+            Santos</a>
+          <a class="dropdown-item" href="/comumsantos" id="item-comumsantos">Comum dos Santos</a>
+          <a class="dropdown-item" href="/oracoesdiversas" id="item-oracoesdiversas">Orações Diversas</a>
+
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/oracaoantescomunhao"
+            id="item-oracaoantescomunhao">Oração Antes da Comunhão</a>
+          <a class="dropdown-item" href="/oracaodepoiscomunhao"
+            id="item-oracaodepoiscomunhao">Oração Depois da Comunhão</a>
+          <a class="dropdown-item" href="/oracoescomplementares"
+            id="item-oracoescomplementares">Orações Complementares</a>
+          <a class="dropdown-item" href="/oracoesleoninas"
+            id="item-oracoesleoninas">Orações Leoninas</a>
+
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Ritual Romano</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          <a class="dropdown-item" href="/baptismo" id="item-baptismo">Baptismo</a>
+          <a class="dropdown-item" href="/confirmacao" id="item-confirmacao">Confirmação</a>
+          <a class="dropdown-item" href="/matrimonio" id="item-matrimonio">Matrimónio</a>
+          <a class="dropdown-item" href="/extremauncao" id="item-extremauncao">Extrema-unção</a>
+          <a class="dropdown-item" href="/requiem" id="item-requiem">Requiem</a>
+          <a class="dropdown-item" href="/penitencia" id="item-penitencia">Penitência</a>
+
+          <div class="dropdown-divider"></div>
+
+        </div>
+      </li>
+    </ul>
+    <div class="ml-auto">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="navbar-brand nav-link" title="Melhore a Página"
+            href="https://www.github.com/ofrades/tesourofieis/blob/master/confirmacao.html"><i
+              class="fa fa-pencil d-inline-block"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-brand nav-link" href="mailto:info@tesourofieis.com"><i class="fa fa-envelope d-inline-block"
+              aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+
+</nav <nav id="navspy" data-spy="affix" data-toggle="nav-link" class="navspy">
+  
+</nav>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+<style>
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 20px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: transparent;
+    /* Set a background color */
+    color: #DF2321;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+  }
+</style>
+<script>
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+</script>
+
+  <div class="col-lg-2">
+	<nav id="toc" data-spy="affix" data-toggle="toc" class="toc-confirmacao"></nav>
+</div>
+
+<div class="col-lg-10">
+
+<h1 class="text-center">Confirmação</h1>
+
+<em>Logo que é dado o respectivo sinal para começar a Cerimónia da Confirmação (Santo Crisma), aqueles que vão receber o Sacramento ajoelham diante do Bispo, que começa:</em>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 text-justify">
+℣. Spíritus Sanctus supervéniat in vos, et virtus Altíssimi custódiat vos a peccátis.
+</div>
+<div class="col-6 text-justify">
+℣. Que o Espírito Santo desça sobre vós e que a virtude do Altíssimo vos livre de todos os pecados.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+℣. Adjutórium nostrum in nómine Dómini.
+</div>
+<div class="col-6 text-justify">
+℣. O nosso auxílio está no Nome do Senhor.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Qui fecit cœlum et terram.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Que criou o céu e a terra.
+</div>
+<div class="col-6 text-justify">
+℣. Dómine, exáudi oratiónem meam.
+</div>
+<div class="col-6 text-justify">
+℣. Senhor, ouvi a minha oração.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Et clamor meus ad te véniat.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> E que meu clamor chegue até Vós.
+</div>
+<div class="col-6 text-justify">
+℣. Dominus vobíscum.
+</div>
+<div class="col-6 text-justify">
+℣. O Senhor seja convosco.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Et cum spíritu tuo.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> E com vosso espírito.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Imposição das Mãos</h4>
+
+<em>O Bispo estende as mãos sobre as cabeças dos que vão receber a Confirmação, os quais as inclinam mediocremente:</em>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 text-danger text-center"> Orémus.</div>
+<div class="col-6 text-danger text-center"> Oremos.</div>
+<div class="col-6 dropcaps text-justify">
+Omnípotens sempitérne Deus, qui regeneráre dignátus es hunc famulum tuum (hanc famulam tuam) ex aqua, et Spíritu Sancto, quique dedísti eis remissiónem ómnium peccatórum: emítte in eum (eam) septifórmem Spíritum tuum Sanctum Paráclitum de cælis.
+</div>
+<div class="col-6 dropcaps text-justify">
+Deus omnipotente e sempiterno, que Vos dignastes regenerar pela água e pelo Espírito Santo os vossos servos aqui presentes e que lhes concedestes a remissão dos seus pecados, enviai-lhes agora do alto dos céus o vosso Espírito Santo Paráclito, que é o Autor dos sete dons.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+℣. Spíritum sapiéntiæ, et intelléctus.
+</div>
+<div class="col-6 text-justify">
+℣. O Espírito da Sabedoria e do Entendimento!
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+℣. Spíritum consílii, et fortitúdinis.
+</div>
+<div class="col-6 text-justify">
+℣. O Espírito do Conselho e da Fortaleza!
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+℣. Spíritum sciéntiæ, et pietátis.
+</div>
+<div class="col-6 text-justify">
+℣. O Espírito da Ciência e da Piedade!
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+Adímple eum (eam) Spíritu timóris tui, et consígna eum (eam) signo Cru <span class="text-danger">&#10016;</span> cis Christi, in vitam propitiátus ætérnam. Per eúmdem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti Deus, per ómnia sæcula sæculórum.
+</div>
+<div class="col-6 text-justify">
+Enchei-nos com o Espírito do vosso Temor e marcai-os com o sinal da Cruz <span class="text-danger">&#10016;</span> de Cristo, a fim de os auxiliar na posse da vida eterna. Pelo mesmo...
+</div>
+</div>
+</div>
+
+<em>Todos se erguem, apresentando-se um a um ao Bispo (com ordem e sempre encomendando-se a Deus) para os ungir. Chegados aos pé do Bispo, devem ajoelhar-se e dizer de modo inteligível o seu nome de Baptismo. Bispo diz, fazendo</em>
+
+<h4 class="text-center">A Unção</h4>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 text-justify">
+<em>N. </em>Signo te signo Cru <span class="text-danger">&#10016;</span> cis: et cornfírmo te Chrísmate salútis. In nómine Pa <span class="text-danger">&#10016;</span> tris, et Fí <span class="text-danger">&#10016;</span> lii, et Spíritus <span class="text-danger">&#10016;</span> Sancti.
+</div>
+<div class="col-6 text-justify">
+<em>N.</em>, eu te marco com o sinal da Cruz <span class="text-danger">&#10016;</span> e te confirmo com o Crisma da salvação: em Nome do Pai <span class="text-danger">&#10016;</span> e do Filho <span class="text-danger">&#10016;</span> e do Espírito <span class="text-danger">&#10016;</span> Santo.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+℣. Pax tecum.
+</div>
+<div class="col-6 text-justify">
+℣. A paz seja convosco!
+</div>
+</div>
+</div>
+
+<em>Um dos Clérigos Assistentes ao Bispo limpará a Unção do que recebeu o Sacramento, o qual não poderá retirar-se do Templo sem receber</em>
+
+<h4 class="text-center">A Bênção</h4>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 text-justify">
+℣. Confírma hoc, Deus, quod operátus es in nobis, a templo sancto tuo, quod est in Jerúsalem. ℣. Glória Patri, et Fílio, et Spirítui Sancto: Sicut erat in princípio, et nunc, et semper, et in sæcula sæculórum.
+</div>
+<div class="col-6 text-justify">
+℣. Confirmai, ó Deus, o que acabais de operar em nós, lá do vosso santo templo que é Jerusalém celestial. ℣. Glória ao Pai e ao Filho e ao Espírito Santo. Assim como era no princípio, agora e sempre e por todos os séculos dos séculos.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<em>Et repetitur Antiphona: Confírma hoc, etc.</em>
+</div>
+<div class="col-6 text-justify">
+<em>Repete-se Confirmai... até celestial.</em>
+</div>
+<div class="col-6 text-justify">
+℣. Osténde nobis, Dómine, misericórdiam tuam.
+</div>
+<div class="col-6 text-justify">
+℣. Mostrai, Senhor, a vossa misericórdia.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Et salutáre tuum da nobis.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> E dai-nos a salvação.
+</div>
+<div class="col-6 text-justify">
+℣. Dómine, exáudi oratiónem meam.
+</div>
+<div class="col-6 text-justify">
+℣. Senhor, ouvi a minha oração.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Et clamor meus ad te véniat.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> E que meu clamor chegue até Vós.
+</div>
+<div class="col-6 text-justify">
+℣. Dominus vobíscum.
+</div>
+<div class="col-6 text-justify">
+℣. O Senhor seja convosco.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Et cum spíritu tuo.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> E com vosso espírito.
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 text-danger text-center"> Orémus.</div>
+<div class="col-6 text-danger text-center"> Oremos.</div>
+<div class="col-6 dropcaps text-justify">
+Deus, qui Apóstolis tuis Sanctum dedísti Spíritum, et per eos eorúmque successóres céteris fidélibus tradéndum esse voluísti: réspice propítius ad humilitátis nostræ famulátum, et præsta; ut eórum corda, quorum frontes sacro Chrísmate delinívimus, et signo sanctæ Crucis signávimus, idem Spíritus Sanctus in eis supervéniens, templum glóriæ suæ dignánter inhabitándo perfíciat: Qui cum Patre, et eódem Spíritu Sancto vivis et regnas Deus, in sæcula sæculórum.
+</div>
+<div class="col-6 dropcaps text-justify">
+Ó Deus, que concedestes o Espírito Santo aos vossos Apóstolos e que quisestes transmiti-los aos outros fiéis pelo seu ministério e pelo dos seus sucessores, dignai-Vos olhar benigno para os vossos humildes servos; e permiti que este mesmo Espírito, descendo aos corações daqueles que ungimos na testa e marcamos com o sinal da Cruz, os faça perfeitos, tornando-os na sua morada e no templo da sua glória: Ó Vós, que viveis e reinais com o Pai e o Espírito Santo pelos séculos dos séculos.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+</div>
+</div>
+
+<em>O Bispo continua, estando ainda todos de joelhos:</em>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 text-justify">
+Ecce sic benedicétur omnis homo, qui timet Dóminum.
+</div>
+<div class="col-6 text-justify">
+É assim que será abençoado todo o homem que teme o Senhor!
+</div>
+<div class="col-6 text-justify">
+Bene <span class="text-danger">&#10016;</span> dicat vos Dóminus ex Sion, ut videátis bona Jerúsalem ómnibus diébus vitæ vestræ, et habeátis vitam ætérnam.
+</div>
+<div class="col-6 text-justify">
+Que o Senhor vos abençoe <span class="text-danger">&#10016;</span> lá do alto de Sião, a fim de que vejais os bens de Jerusalém todos os dias da vossa vida e alcanceis a vida eterna.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+<div class="col-6 text-justify">
+<span class="text-danger">℟.</span> Amen.
+</div>
+</div>
+</div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+<script src="/assets/script.js"></script>
+
+
+<script>
+    for (var i = 1; i <= 150; i++)
+        document.querySelector("#fillme").innerHTML += "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+</script>
+
+<!-- Include cookiealert script -->
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+
+<script type="text/javascript" src="assets/js/conf-static.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+<script type="text/javascript" src="assets/js/readings.js"></script>
+
+</body>
+
+</html>
