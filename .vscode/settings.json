@@ -1,4 +1,5 @@
 {
 	"githubPullRequests.remotes": [],
-	"liveServer.settings.port": 5501
+	"liveServer.settings.port": 5501,
+	"python.pythonPath": "/usr/local/bin/python3.7"
 }

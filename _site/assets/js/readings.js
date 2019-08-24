@@ -29,7 +29,7 @@ $(window).on("load", function () {
     const $searchInput = $("input#search-input");
 
     function init() {
-        moment.locale("pl");
+        moment.locale("pt");
         loadProper(getDate());
         adaptSectionColumns();
     }
@@ -225,7 +225,7 @@ $(window).on("load", function () {
         minDate: config.minDate,
         maxDate: config.maxDate,
         useCurrent: false,
-        locale: "pl",
+        locale: "pt",
         widgetPositioning: {
             horizontal: "right",
             vertical: "bottom"
