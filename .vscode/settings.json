@@ -1,5 +1,6 @@
 {
 	"githubPullRequests.remotes": [],
 	"liveServer.settings.port": 5501,
-	"python.pythonPath": "/usr/local/bin/python3.7"
+	"python.pythonPath": "/usr/local/bin/python3.7",
+	"git.ignoreLimitWarning": true
 }
