@@ -2,5 +2,10 @@
 	"githubPullRequests.remotes": [],
 	"liveServer.settings.port": 5501,
 	"python.pythonPath": "/usr/local/bin/python3.7",
-	"git.ignoreLimitWarning": true
+	"git.ignoreLimitWarning": true,
+	"appService.zipIgnorePattern": [
+		".vscode{,/**}"
+	],
+	"appService.defaultWebAppToDeploy": "/subscriptions/85f303e3-d4af-48ce-8267-7a9e504054a6/resourceGroups/ofrades/providers/Microsoft.Web/sites/missal1962",
+	"appService.deploySubpath": "Missal1962"
 }
