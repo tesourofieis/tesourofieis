@@ -1,0 +1,6 @@
+[Rank]
+Szósty dzień w Oktawie Śś. Apostołów Piotra i Pawła;;Semiduplex;;2;;vide C1
+
+[Rule]
+vide C1;
+9 lectiones

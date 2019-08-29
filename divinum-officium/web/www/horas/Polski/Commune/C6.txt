@@ -1,0 +1,275 @@
+[Name]
+Commune Virgine
+
+[Rule]
+Psalmi Dominica
+Antiphonas horas
+
+[Ant Vespera]
+Ta jest Panna mądra * i jedna z roztropnych.;;109
+Ta jest Panna mądra, * którą Pan czuwającą zastał.;;112
+Ta jest, * która nie uznała łoża grzechu, będzie miała pożytek w nawiedzeniu dusz świętych.;;121
+Przyjdź wybrana moja, * a założę w tobie stolicę moją, alleluia.;;126
+Ta jest * piękna między córkami Jerozolimskiemi.;;147
+
+[Capitulum Vespera]
+!2 Kor 10:17-18
+v. Bracia: Lecz kto się przechwala, niech się w Panu przechwala. Albowiem nie, który sam siebie zaleca, ten jest doświadczony; ale którego Bóg zaleca.
+$Deo gratias
+
+[Hymnus Vespera]
+{:H-Jesucoronavirginum:}v. O Jezu, Ty Dziewic Korono,
+Którego w swem łonie poczęła,
+Jedyna Matka-Dziewica,
+Wysłuchaj łaskawie błagania.
+_
+Ty, który chodzisz pośród lilji,
+Ozdobion chwałą Oblubieńca,
+I otoczony gronem Dziewic,
+Oblubienice hojnie darzysz.
+_
+Gdziekolwiek idziesz one wszędy,
+Dążą za Tobą z pieśnią chwały,
+Biegną, rozbrzmiewa niebo całe,
+Najsłodszym hymnem ich miłości.
+_
+Ciebie pokornie prosim, Panie,
+Daj zmysłom naszym łaskę Twoją,
+By odtąd były nieświadome,
+Wszelkich ran grzechu i zepsucia.
+_
+* Chwała, moc, cześć i uwielbienie,
+Bogu Ojcu wraz z Synem Jego,
+Świętemu Pocieszycielowi,
+Przez wszystkie wieki wieków.
+Amen.
+
+[Versum 1]
+V. Z ślicznością Twoją i pięknością Twoją.
+R. Nadciągnij, szczęśliwie postępuj i króluj.
+
+[Ant 1]
+Przyjdź oblubienico Chrystusowa, * weź koronę, którą ci Pan przygotował na wieki.
+
+[Invit]
+Pana, Króla Dziewic, * Pójdźmy uwielbiać.
+
+[Hymnus Matutinum]
+{:H-Virginisproles:}v. Potomku Dziewicy i Stwórco swej Matki,
+Którego Dziewica nosiła i Dziewica zrodziła;
+Zwycięstwa Dziewicy opiewamy,
+Zdobyte piękną śmiercią.
+_
+Ona bowiem, błogosławiona udziałem
+Dwojakiej palmy, pragnąc powściągać słabą ciała płeć,
+Śmiercią pokonała
+Krwiożerczego tyrana.
+_
+Stąd nie przerażając się ani śmiercią,
+Ani tysiącem rodzajów katuszy związanych ze śmiercią,
+Przelawszy krew, zasłużyła sobie na wyniesienie
+Do nieba radosnego.
+_
+Na jej prośbę, Boże dobroczynny,
+Odpuść nam kary zasłużone za grzechy;
+Abyśmy Ci czystą piersią śpiewali
+Miłą pieśń.
+_
+Niechaj będzie chwała Ojcu, i Synowi zrodzonemu,
+I Tobie, równy obu mocy,
+Duchu, Boże jedyny zawsze
+Po wszystek wieczności czas.
+Amen.
+
+[Hymnus Matutinum 1]
+{:H-Virginisproles:}v. Potomku Dziewicy i Stwórco swej Matki,
+Którego Dziewica nosiła i Dziewica zrodziła;
+Dziewicy błogosławionej opiewamy święto,
+Przyjmij naszą modlitwę.
+_
+Na jej prośbę, Boże dobroczynny,
+Odpuść nam kary zasłużone za grzechy;
+Abyśmy Ci czystą piersią śpiewali
+Miłą pieśń.
+_
+Niechaj będzie chwała Ojcu, i Synowi zrodzonemu,
+I Tobie, równy obu mocy,
+Duchu, Boże jedyny zawsze
+Po wszystek wieczności czas.
+Amen.
+
+[Ant Matutinum]
+O jak piękny * jest czysty rodzaj z jasnością.;;8
+Przed łożem * tejże Dziewicy, śpiewajmy wciąż pieśni radosne.;;18
+Nawróć się, nawróć Sulamitko: nawróć się, nawróć się, abyśmy na cię patrzyli.;;23
+V. Z ślicznością twoją i z pięknością twoją.
+R. Nadciągnij, szczęśliwie postępuj i króluj.
+Z ślicznością twoją i z pięknością twoją nadciągnij, szczęśliwie postępuj i króluj.;;44
+Wspomoże ją * Bóg obliczem swoim: Bóg w pośrodku jej, nie będzie poruszona.;;45
+Wody mnogie * nie mogły ugasić miłości.;;47
+V. Wspomoże ją Bóg obliczem swoim.
+R. Bóg w pośrodku jej, nie będzie poruszona
+Czarnaciem * ale piękna, córki Jerozolimskie: dlatego król umiłował mnie, i wprowadził mię król do pokojów swoich.;;95
+Pociągnij mię, za tobą * pobieżemy do wonności olejków twoich, olejek wylany imię twoje.;;96
+Przyjdź Oblubienico Chrystusowa, * weź koronę, którą ci Pan przygotował na wieki.;;97
+V. Wybrał ją Bóg, i przybrał ją.
+R. W namiocie swoim dał jej mieszkanie.
+
+[Lectio1]
+Z Pierwszego Listu świętego Pawła Apostoła do Koryntian
+!1 Kor 7:25-31
+25 A o pannach nie mam rozkazania Pańskiego; ale radę daję, jako ten, którym od Pana miłosierdzia dostąpił, abych był wiernym.
+26 Mniemam tedy to być rzeczą dobrą dla teraźniejszéj potrzeby, iż dobra jest rzecz człowiekowi tak być.
+27 Przywiązanyś do żony, nie szukajże rozwiązania. Rozwiązanyś od żony, nie szukaj że żony.
+28 A jeźlibyś wziął żonę, nie zgrzeszyłeś; jeźliby też panna szła za mąż, nie zgrzeszyła. Wszakże trapienie ciała mieć będą takowi, a ja wam folguję.
+29 To tedy powiadam, bracia! czas krótki jest, to zostaje, aby i którzy żony mają, byli, jakoby nie mieli:
+30 A którzy płaczą, jakoby nie płakali: a którzy się weselą, jakoby się nie weselili: a którzy kupują, jakoby nie dzierżeli:
+31 A którzy używają świata tego, jakoby nie używali; bo przemija kształt świata tego.
+
+[Lectio2]
+!1 Kor 7:32-35
+32 A chcę, abyście byli bez pieczołowania. Kto bez żony jest, stara się o to, co Pańskiego jest, jakoby się podobał Bogu.
+33 A który z żoną jest, stara się to, co światu należy, jakoby się podobał żonie, i rozdzielon jest.
+34 I białagłowa niemężata i panna myśli o tem co Pańskiego jest, aby była święta ciałem i duchem. A która szła za mąż, myśli co światu należy, jakoby się podobała mężowi.
+35 A toć mówię ku pożytkowi waszemu, nie abym na was sidło wrzucił, ale ku temu, co jest poczciwego, i coby was sposobiło do modlenia się Panu bez przeszkody.
+
+[Responsory2]
+R. Rozlała się wdzięczność po wargach twoich:
+* Dlatego cię błogosławił Bóg na wieki.
+V. Z ślicznością twoją i z pięknością twoją nadciągnij, szczęśliwie postępuj i króluj.
+R. Dlatego cię błogosławił Bóg na wieki.
+
+[Lectio3]
+!1 Kor 7:36-40
+36 A jeźli sobie kto za sromotę ma z strony panny swojéj, iż lata przeszła, a tak musi być: co chce, niech czyni, nie grzeszy, jeźli pójdzie za mąż.
+37 Bo kto postanowił mocnie w sercu swem, potrzeby nie mając, a mając w mocy swą własną wolą, i to postanowił w sercu swem, aby zachował pannę swą, dobrze czyni.
+38 A tak i który daje w małżeństwo pannę swoję, dobrze czyni, i który nie daje, lepiéj czyni.
+39 Żona przywiązana jest do zakonu, póki żywie mąż jéj: a jeźliby zasnął mąż jéj, wolna jest, niech idzie, za kogo chce, tylko w Panie.
+40 Ale błogosławieńsza będzie, jeźliby tak została, wedle mojej rady, a mniemam, że i ja mam Ducha Bożego.
+
+[Responsory3]
+R. Z ślicznością twoją i z pięknością twoją
+* Nadciągnij, szczęśliwie postępuj i króluj.
+V. Rozlała się wdzięczność po wargach twoich, dlatego cię błogosławił Bóg na wieki.
+R. Nadciągnij, szczęśliwie postępuj i króluj.
+&Gloria
+R. Nadciągnij, szczęśliwie postępuj i króluj.
+
+[Responsory4]
+R. Dla prawdy i cichości i sprawiedliwości:
+* I poprowadzi cię dziwnie prawica twoja.
+V. Z ślicznością twoją i z pięknością twoją nadciągnij, szczęśliwie postępuj i króluj.
+R. I poprowadzi cię dziwnie prawica twoja.
+
+[Responsory5]
+R. Umiłowałeś sprawiedliwość, a nienawidziałeś nieprawości;
+* Przeto cię pomazał, Boże, Bóg twój olejkiem wesela.
+V. Dla prawdy i cichości i sprawiedliwości.
+R. Przeto cię pomazał, Boże, Bóg twój olejkiem wesela.
+
+[Responsory6]
+R. Przywiodą królowi panny za nią, bliskie jej.
+* Przyniosą do Ciebie z weselem radością.
+V. Z ślicznością twoją i z pięknością twoją nadciągnij, szczęśliwie postępuj i króluj.
+R. Przyniosą do Ciebie z weselem radością.
+&Gloria
+R. Przyniosą do Ciebie z weselem radością.
+
+[Responsory8]
+R. W północy stało się wołanie:
+* Oto Oblubieniec idzie, wynijdźcie przeciwko Niemu.
+V. Dziewice roztropne, oczyśćcie lampy wasze.
+R. Oto Oblubieniec idzie, wynijdźcie przeciwko Niemu.
+&Gloria
+R. Oto Oblubieniec idzie, wynijdźcie przeciwko Niemu.
+
+[Ant Laudes]
+Ta jest Panna mądra * i jedna z roztropnych.;;
+Ta jest Panna mądra, * którą Pan czuwającą zastał.;;
+Ta jest, * która nie uznała łoża grzechu, będzie miała pożytek w nawiedzeniu dusz świętych.;;
+Przyjdź wybrana moja, * a założę w tobie stolicę moją, alleluia.;;
+Ta jest * piękna między córkami Jerozolimskiemi.;;
+
+[Versum 2]
+V. Rozlała się wdzięczność po wargach twoich.
+R. Dlatego cię błogosławił Bóg na wieki.
+
+[Ant 2]
+Podobne jest * królestwo niebieskie człowiekowi kupcowi, szukającemu dobrych pereł. A znalazłszy jednę perłę, sprzedał wszystko swoje i kupił ją.
+
+[Oratio]
+Boże, który między innemi potęgi Twojej cudami, słabe niewiasty chwałą męczeństwa ozdobiłeś, dozwól łaskawie, abyśmy, którzy błogosławionej N., Dziewicy i Męczenniczki narodziny wysławiamy, jej przykłady naśladując, do Ciebie się przybliżyli.
+$Per Dominum
+
+[Oratio1]
+Prosimy Cię, Panie, niechaj błogosławiona N. Dziewica i Męczenniczka, która dzięki zasłudze czystości i wyznawaniu Twej potęgi była Ci zawsze miła, wybłaga nam przebaczenie.
+$Per Dominum
+
+[Lectio Prima]
+!Mdr 4:1
+v. O, jako piękny jest czysty rodzaj z jasnością! Nieśmiertelna jest bowiem pamiątka jego: gdyż i u Boga znajoma jest, i u ludzi.
+
+[Responsory Tertia]
+R.br. Z ślicznością twoją * I z pięknością twoją.
+R. Z ślicznością twoją * I z pięknością twoją.
+V. Nadciągnij, szczęśliwie postępuj i króluj.
+R. I z pięknością twoją.
+&Gloria
+R. Z ślicznością twoją * I z pięknością twoją.
+_
+V. Wspomoże ją Bóg obliczem swoim.
+R. Bóg w pośrodku jej, nie będzie poruszona.
+
+[Capitulum Sexta]
+!2 Kor 11:2
+v. Albowiem was gorąco miłuję gorącą miłością Bożą; bom was poślubił czystą panną stawić jednemu mężowi Chrystusowi.
+$Deo gratias
+
+[Responsory Sexta]
+R.br. Wspomoże ją * Bóg obliczem swoim.
+R. Wspomoże ją * Bóg obliczem swoim.
+V. Bóg w pośrodku jej, nie będzie poruszona.
+R. Bóg obliczem swoim.
+&Gloria
+R. Wspomoże ją * Bóg obliczem swoim.
+_
+V. Wybrał ją Bóg, i przybrał ją.
+R. W namiocie swoim dał jej mieszkanie.
+
+[Responsory Nona]
+R.br. Wybrał ją Bóg, * I przybrał ją.
+R. Wybrał ją Bóg, * I przybrał ją.
+V. W namiocie swoim dał jej mieszkanie.
+R. I przybrał ją.
+&Gloria
+R. Wybrał ją Bóg, * I przybrał ją.
+_
+V. Rozlała się wdzięczność po wargach twoich.
+R. Dlatego cię błogosławił Bóg na wieki.
+
+[Lectio11]
+Z Księgi Ekklezjastyka
+!Syr 51:1-7
+1 Wyznawać ci będę, Panie, Królu, i będę cię chwalił, Boga, Zbawiciela mego.
+2 Będę wyznawał imię twoje, boś mi się zstał pomocnikiem i obrońcą
+3 i zachowałeś ciało moje od zginienia, od sidła języka złośliwego i od ust sprawujących kłamstwo i zstałeś mi się pomocnikiem przed oczyma sprzeciwników.
+4 I wybawiłeś mię według wielkości miłosierdzia imienia twego od ryczących nagotowanych do żeru,
+5 z rąk szukających dusze mojej i bram utrapienia, które mię ogarnęły,
+6 od ucisku płomienia, który mię ogarnął, a w pośrzód ognia nie upaliłem się,
+7 z głębokości brzucha piekielnego i od języka splugawionego, i od słowa kłamliwego, od króla niezbornego i od języka niesprawiedliwego.
+
+[Lectio21]
+!Syr 51:8-12
+8 Będzie chwaliła aż do śmierci dusza moja Pana,
+9 a żywot mój przybliżał się na dół do piekła.
+10 Obtoczyli mię zewsząd, a nie był nikt, co by był ratował, oględowałem się na ratunek ludzi, a nie było go.
+11 Wspominałem na miłosierdzie twoje, Panie, i na sprawę twoję, które są od wieku.
+12 Bo wyrywasz czekających na cię, Panie, i wybawiasz je z rąk pogańskich.
+
+[Lectio31]
+!Syr 51:13-17
+13 Wywyższyłeś na ziemi mieszkanie moje i o spłynienie od śmierci prosiłem.
+14 Wzywałem Pana, Ojca Pana mego, aby mię nie opuszczał w dzień utrapienia mego i czasu pysznych, bez pomocy.
+15 Będę chwalił ustawicznie imię twoje i będę je wysławiał w wyznaniu, i wysłuchana jest modlitwa moja.
+16 I zachowałeś mię od zginienia, i z czasu złego wyrwałeś mię.
+17 Przetoż będę wyznawał i będę chwalił, i błogosławił imię Pańskie.

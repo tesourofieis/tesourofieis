@@ -1,0 +1,9 @@
+@Tempora/Pasc2-3
+
+[Commemoratio]
+!Wspomninamy III Niedzielę po Wielkanocy
+@Tempora/Pasc3-0:Oratio
+
+[Lectio93]
+!Wspomninamy III Niedzielę po Wielkanocy
+@Tempora/Pasc3-0:Lectio7

@@ -1,0 +1,12 @@
+[Rank]
+Poniedziałek III tygodnia po Oktawie Wielkanocy;;Feria;;1
+
+[Rule]
+Una Antiphona
+Feria Te Deum
+
+[Ant 2]
+A począwszy * od Mojżesza i wszystkich proroków, wykładał im we wszystkich Piśmiech, co o nim było, alleluja.
+
+[Ant 3]
+Smutek wasz * w radość się obróci, alleluja: a radości waszéj żaden od was nie odejmie, alleluja, alleluja.

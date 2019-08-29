@@ -1,0 +1,186 @@
+[
+  {
+    "info": {
+      "additional_info": [
+        "1 klasy z oktaw\u0105 1 klasy", 
+        "Szaty bia\u0142e", 
+        "Stacja u \u015aw. Jana na Lateranie", 
+        "1 klasy", 
+        "Szaty fioletowe i bia\u0142e"
+      ], 
+      "date": "2019-04-20", 
+      "description": "",
+      "tempora": null, 
+      "title": ""
+    }, 
+    "proper_latin": [
+      {
+        "body": "",
+        "id": "Benedictio ignis", 
+        "label": "Benedictio ignis"
+      }, 
+      {
+        "body": "",
+        "id": "De benedictione cerei Paschalis", 
+        "label": "De benedictione cerei Paschalis"
+      }, 
+      {
+        "body": "",
+        "id": "De solemni processione", 
+        "label": "De solemni processione"
+      }, 
+      {
+        "body": "",
+        "id": "De praeconio paschali", 
+        "label": "De praeconio paschali"
+      }, 
+      {
+        "body": "",
+        "id": "De lectionibus", 
+        "label": "De lectionibus"
+      }, 
+      {
+        "body": "",
+        "id": "De prima parte Litaniarum", 
+        "label": "De prima parte Litaniarum"
+      }, 
+      {
+        "body": "",
+        "id": "De renovatione promissionum baptismatis", 
+        "label": "De renovatione promissionum baptismatis"
+      }, 
+      {
+        "body": "",
+        "id": "De altera parte Litaniarum", 
+        "label": "De altera parte Litaniarum"
+      }, 
+      {
+        "body": "",
+        "id": "De Missa solemni Vigiliae paschalis", 
+        "label": "De Missa solemni Vigili\u00e6 paschalis"
+      }, 
+      {
+        "body": "",
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "",
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "",
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "",
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "",
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "",
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "",
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
+    ], 
+    "proper_vernacular": [
+      {
+        "body": "",
+        "id": "Benedictio ignis", 
+        "label": "Po\u015bwi\u0119cenie nowego ognia"
+      }, 
+      {
+        "body": "",
+        "id": "De benedictione cerei Paschalis", 
+        "label": "Po\u015bwi\u0119cenie Pascha\u0142u"
+      }, 
+      {
+        "body": "",
+        "id": "De solemni processione", 
+        "label": "Uroczysta Procesja"
+      }, 
+      {
+        "body": "",
+        "id": "De praeconio paschali", 
+        "label": "Or\u0119dzie Wielkanocne"
+      }, 
+      {
+        "body": "",
+        "id": "De lectionibus", 
+        "label": "Czytania"
+      }, 
+      {
+        "body": "",
+        "id": "De prima parte Litaniarum", 
+        "label": "Pierwsza Cz\u0119\u015b\u0107 Litanii"
+      }, 
+      {
+        "body": "",
+        "id": "De benedictione aquae baptismalis", 
+        "label": "Po\u015bwi\u0119cenie Wody Chrzcielnej"
+      }, 
+      {
+        "body": "",
+        "id": "De renovatione promissionum baptismatis", 
+        "label": "Odnowienie Przyrzecze\u0144 Chrztu \u015awi\u0119tego"
+      }, 
+      {
+        "body": "",
+        "id": "De altera parte Litaniarum", 
+        "label": "Druga Cz\u0119\u015b\u0107 Litanii"
+      }, 
+      {
+        "body": "",
+        "id": "De Missa solemni Vigiliae paschalis", 
+        "label": "Uroczysta Msza Rezurekcyjna"
+      }, 
+      {
+        "body": "",
+        "id": "Oratio", 
+        "label": "Oração"
+      }, 
+      {
+        "body": "",
+        "id": "Lectio", 
+        "label": "Epístola"
+      }, 
+      {
+        "body": "",
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "",
+        "id": "Evangelium", 
+        "label": "Evangelho"
+      }, 
+      {
+        "body": "",
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "",
+        "id": "Prefatio", 
+        "label": "Prefácio"
+      }, 
+      {
+        "body": "",
+        "id": "Postcommunio", 
+        "label": "Postcomúnio"
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+Cesky
+English
+Magyar
+Italiano
+Deutsch
+Polski
+French
+Spanish

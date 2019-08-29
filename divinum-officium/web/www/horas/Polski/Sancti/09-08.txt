@@ -1,0 +1,95 @@
+[Rank]
+Narodzenie Najświętszej Panny Maryji;;Duplex II classis cum Octava simplici;;5.1;;ex C11
+
+[Rank1960]
+Narodzenie Najświętszej Panny Maryji;;Duplex II classis cum Octava simplici;;5;;ex C11
+
+[Rule]
+ex C11;
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Doxology=Nat
+
+[Ant Vespera]
+Oto chwalebne Narodziny * Dziewicy Marji z rodu Abrahama, która pochodziła z pokolenia Judy, ze świętego szczepu Dawida.;;109
+Oto dziś narodzenie * świętej Marji Panny, której życie chwalebne uświetnia cały Kościół.;;112
+Marja jaśnieje * swem pochodzeniem królewskim: prośmy ją całą duszą i sercem, aby wspomagała nas modlitwami swemi.;;121
+Śpiewajmy z duszy * i z serca chwałę Chrystusa w tę świętą uroczystość Bożej Rodzicielki Marji.;;126
+Święćmy z radością * Narodziny błogosławionej Marji, aby się wstawiała za nami do Pana Jezusa Chrystusa.;;147
+
+[Versum 1]
+V. Oto dziś narodzenie świętej Marji Panny.
+R. Której chwalebne życie uświetnia cały Kościół.
+
+[Ant 1]
+Święćmy tak czcigodne narodzenie * chwalebnej Panny Marji, która i godność Rodzicielki otrzymała i czystości dziewiczej nie utraciła.
+
+[Oratio]
+Udziel, prosimy Cię Panie, sługom Twoim daru łaski niebieskiej, aby uroczystość Narodzenia Najświętszej Marji Panny wyjednywała wzmożenie pokoju tym, którym macierzyństwo Jej stało się źródłem zbawienia.
+$Per Dominum
+
+[Invit]
+Obchodząc Narodzenie Panny Marji: * kłaniajmy się Chrystusowi Panu, jej Synowi.
+
+[Responsory4]
+R. Oto chwalebne Narodziny * Dziewicy Marji z rodu Abrahama, która pochodziła z pokolenia Judy, ze świętego szczepu Dawida:
+* Której chwalebne życie uświetnia cały Kościół.
+V. Hodie nata est beata Virgo Maria ex progenie David.
+R. Której chwalebne życie uświetnia cały Kościół.
+
+[Lectio7]
+Czytanie Ewangelii świętej według Mateusza
+!Mt 1:1-17
+Księga rodowodu Jezusa Chrystusa, syna Dawidowego, syna Abrahamowego. Abraham zrodził Izaaka. A Izaak zrodził Jakuba. I tak dalej.
+_
+Homilia świętego Hieronima, Kapłana
+!Księga 1. Komentarza do Ewangelii wg św. Mateusza, na początku
+U Izajasza czytamy: Pochodzenie Jego któż wypowie? Nie sądźmy jednak, że Ewangelista sprzeciwia się Prorokowi, skoro to, co jeden z nich uznał za niemożliwe do wypowiedzenia, drugi podjął się opowiedzieć; tam bowiem była mowa o pochodzeniu Bóstwa, tu zaś powiedziano o wcieleniu. Rozpoczął zaś Mateusz od tego, co cielesne, byśmy zaczęli poznawać Boga poprzez Jego człowieczeństwo. Syna Dawidowego, syna Abrahamowego. Kolejność odwrotna, lecz zmieniona nie bez potrzeby. Gdyby bowiem najpierw umieścił Abrahama, a dopiero potem Dawida, musiałby znowu powtarzać Abrahama, aby mógł od początku podać rodowód.
+
+[Responsory7]
+R. Błogosławioną zwać mnie będą wszystkie pokolenia,
+* Gdyż wielkie rzeczy uczynił mi Wszechmocny, a Jego imię jest święte.
+V. Jego miłosierdzie z pokolenia na pokolenie nad tymi, którzy się Go boją.
+R. Gdyż wielkie rzeczy uczynił mi Wszechmocny, a Jego imię jest święte.
+
+[Lectio8]
+Inne zaś postacie pominął i nazwał Go synem właśnie tych dwóch, ponieważ tylko do nich została skierowana co do Chrystusa. Do Abrahama: W twoim potomstwie – powiada Pismo – będą błogosławione wszystkie narody, to znaczy w Chrystusie; a do Dawida: Z owocu twego łona posadzę na twoim tronie. A Juda zrodził Faresa i Zarę z Tamary. Należy podkreślić, że w rodowodzie Zbawiciela nie została uwzględniona żadna spośród świętych niewiast, lecz jedynie te, którym Pismo ma coś do zarzucenia. Stało się tak, aby Ten, który przyszedł dla grzeszników, mógł – rodząc się z grzesznic – zgładzić grzechy wszystkich. Stąd też dalej znajdujemy Moabitkę Rut i małżonkę Uriasza Batszebę.
+
+[Responsory8]
+R. Szczęśliwa jesteś, święta Panno Maryjo, i wszelkiej chwały najgodniejsza,
+* Bo z Ciebie wzeszło Słońce sprawiedliwości, * Chrystus, Bóg nasz.
+V. Módl się za lud, wstawiaj się za duchowieństwem, oręduj za poświęconą Bogu płcią niewieścią; niech Twojej pomocy doznają wszyscy, którzy obchodzą Twoje święte Narodzenie.
+R. Bo z Ciebie wzeszło Słońce sprawiedliwości.
+&Gloria
+R. Chrystus, Bóg nasz.
+
+[Lectio9]
+Jakub zaś zrodził Józefa. Wypomina nam to miejsce Julian August jako przykład rozbieżności u Ewangelistów. „Dlaczego – pyta on – Ewangelista Mateusz uznał Józefa za syna Jakuba, Łukasz zaś nazwał go synem Helego?” Stawia zarzut, nie rozumiejąc zwyczaju Pism, że jeden mianowicie był mu ojcem naturalnym, drugi zaś według Prawa. Wiemy bowiem, że Mojżesz z polecenia Bożego nakazał, aby jeżeli brat albo krewny umrze bezdzietnie, inny wziął jego żonę i wzbudził potomstwo swemu bratu czy krewnemu. Józefa, męża Maryi. Niech na dźwięk słowa „męża” nie wkrada się do twego serca podejrzenie pożycia małżeńskiego, ale pamiętaj o stylu Pisma, które zwykło narzeczonych nazywać mężami, a narzeczone – żonami.
+
+[Ant Laudes]
+@:Ant Vespera:s/;;.*//g
+
+[Ant 2]
+Narodziny dzisiejsze * zawsze Dziewicy Bogurodzicy Maryi uroczyście świętujmy, która zmierza ku wzniosłości tronu, alleluja.
+
+[Commemoratio]
+!Wspominamy Św. Adrjana Męczennika
+@Commune/C2:Oratio proper
+$Oremus
+Dozwól prosimy Cię, wszechmogący Boże, abyśmy, którzy błogosławionego Adrjana, Męczennika Twego, narodziny obchodzimy, za jego przyczyną w miłości Imienia Twego się utwierdzili.
+$Per Dominum
+
+[Ant 3]
+Narodzenie Twoje, * Bogarodzico, Dziewico, zwiastowało wesele całemu światu, z Ciebie bowiem narodziło się słońce sprawiedliwości Chrystus, Bóg nasz, który zmazując przekleństwo, rozdał błogosławieństwo i poniżając śmierć, obdarzył nas żywotem wiecznym.
+
+[Octava]
+!Wspominamy Narodzenie Najświętszej Panny Maryji
+Ant. Narodzenie Twoje, Bogarodzico, Dziewico, zwiastowało wesele całemu światu, z Ciebie bowiem narodziło się słońce sprawiedliwości Chrystus, Bóg nasz, który zmazując przekleństwo, rozdał błogosławieństwo i poniżając śmierć, obdarzył nas żywotem wiecznym.
+_
+V. Oto dziś narodzenie świętej Marji Panny.
+R. Której chwalebne życie uświetnia cały Kościół.
+_
+$Oremus
+Udziel, prosimy Cię Panie, sługom Twoim daru łaski niebieskiej, aby uroczystość Narodzenia Najświętszej Marji Panny wyjednywała wzmożenie pokoju tym, którym macierzyństwo Jej stało się źródłem zbawienia.
+$Per Dominum

@@ -1,0 +1,30 @@
+[Source]
+aus dem Psalterium, für den Wochentag
+aus dem Psalterium, gemäß der Zeit des Herrenjahres
+aus dem Proprium des Herrenjahres
+aus dem Proprium der Heiligen
+aus dem Commune oder vom Fest
+Im Jahreskreis
+Psalmen und Antiphonen vom Sonntag
+Votiv
+
+[Preces]
+werden gebetet
+werden ausgelassen
+eigen
+
+[Prima_Special]
+für Festtage
+für Wochentage
+
+[Suffragium]
+wird ausgelassen
+normal
+für die Osterzeit
+Tridentinisch
+
+[Lectio]
+Kommemoration des Wochentages
+Kommemoration des Sonntags
+Kommemoration des Heiligenfestes
+Kommemoration für die Vigil von Epiphanie

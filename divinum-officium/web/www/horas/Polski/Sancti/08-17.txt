@@ -1,0 +1,5 @@
+[Rank]
+Św. Jacka Wyznawcy;;Duplex;;3;;vide C5
+
+[Oratio]
+@Commune/C5::s/N\./Jacka/

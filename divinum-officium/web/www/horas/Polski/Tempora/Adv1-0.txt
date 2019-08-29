@@ -1,0 +1,72 @@
+[Rank]
+I Niedziela Adwentu;;Semiduplex;;6
+
+[Rule]
+9 lectiones
+Antiphonas horas
+
+[Ant Vespera]
+Dnia onego: * góry będą wydawać krople słodkości, a pagórki popłyną mlekiem i miodem, alleluja.
+Raduj się, * córko Siońska, wykrzykuj wielce córko Jeruzalem, alleluja.
+Oto przyjdzie Pan * i wszyscy Święci z nim, i będzie dnia onego światłość wielka, alleluja.
+Wszyscy spragnieni * pójdźcie do wód: szukajcie Pana, póki znalezion być może, alleluja.
+Oto przyjdzie * Prorok wielki i sam odnowi Jeruzalem, alleluja.
+
+[Capitulum Vespera]
+!Rz 13:11
+v. Bracia: Już jest godzina, abyśmy ze snu powstali: albowiem teraz bliższe jest nasze zbawienie, niż kiedyśmy uwierzyli.
+$Deo gratias.
+
+[Ant 1]
+Oto imię Pańskie * przychodzi zdaleka, i jasność jego napełnia okrąg ziemie. 
+
+[Oratio]
+Wzbudź, błagamy Cię, Panie, potęgę Twą i przybądź, abyśmy od grożących nam, wskutek grzechów naszych, niebezpieczeństw, byli za Twoją obroną wyrwani, i za Twą pomocą zostali zbawieni.
+$Qui vivis
+
+[Lectio1]
+Początek Księgi Izajasza Proroka
+!Iz 1:1-3
+1 Widzenie Izajasza, syna Amos, które widział nad Judą i Jeruzalem za dni Ozyasza, Joathana, Achaza, i Ezechiasza, królów Judzkich.
+2 Słuchajcie niebiosa, a weźmij w uszy, ziemio! albowiem Pan mówił: Wychowałem syny i wywyższyłem, a oni mię wzgardzili.
+3 Poznał wół pana swego, i osieł żłób pana swego: a Izrael mię nie poznał, a lud mój nie zrozumiał.
+
+[Lectio2]
+!Iz 1:4-6
+4 Biada narodowi grzesznemu, ludowi nieprawością obciążonemu,nasieniu złemu, synom złośliwym: opuścili Pana, bluźnili Świętego Izraelowego, odwrócili się wstecz.
+5 Na czemże was mam więcéj karać, którzy przyczyniacie przestępstwa? każda głowa chora, a każde serce żałośne.
+6 Od stopy nogi aż do wierzchu głowy niemasz w nim zdrowia: rana i siność i spuchły raz, nie jest zawiązany, ani lekarstwem opatrzony, ani oliwą zmiękczony.
+
+[Lectio3]
+!Iz 1:7-9
+7 Ziemia wasza spustoszona, miasta wasze ogniem popalone: krainę waszę przed wami cudzoziemcy pożerają, i spustoszeje jako w zburzeniu nieprzyjacielskiem.
+8 I zostanie się córka Syońska jako chłodnik w winnicy a jako budka w ogrodzie ogórkowym i jako miasta, które burzą.
+9 By nam był Pan zastępów nie zostawił nasienia, bylibychmy jako Sodoma, i stalibyśmy się Gomorze podobni.
+
+[Lectio7]
+Czytanie Ewangelii świętej według św. Łukasza
+!Łk 21:25-33
+Onego czasu: Rzekł Jezus uczniom swoim: „Będą znaki na słońcu i księżycu, i gwiazdach, a na ziemi ucisk narodów”. I tak dalej.
+_
+Homilia świętego Grzegorza, Papieża
+!Homilia 1. na Ewangelię
+Nasz Pan i Odkupiciel, pragnąc nas zastać przygotowanymi na swoje przyjście, zapowiada, jakie nieszczęścia spadną na starzejący się świat, aby powstrzymać nas przed miłowaniem tegoż świata. Oznajmia nam, jakie klęski poprzedzą zbliżający się koniec, abyśmy nie chcąc bać się Boga w czasie pokoju, przynajmniej lękali się ze skruchą jego bliskiego sądu i kary.
+
+[Responsory9]
+R. Oto nadchodzą dni, mówi Pan, kiedy wzbudzę Dawidowi odrośl sprawiedliwą. Będzie panował jako król, postępując roztropnie, i będzie czynił sąd i sprawiedliwość na ziemi: 
+* To zaś jest imię, którym Go będą nazywać: * Pan nasz sprawiedliwy. 
+V. W owych dniach Juda dostąpi zbawienia, a Izrael będzie mieszkał bezpiecznie. 
+R. To zaś jest imię, którym Go będą nazywać: 
+&Gloria
+R. Pan nasz sprawiedliwy. 
+
+[Ant 2]
+Duch Święty * zstąpi na Cię, Marjo: nie bój się, będziesz nosić w swem łonie syna Bożego, alleluja.
+
+[Capitulum Nona]
+!Rz 13:13-14
+v. Jako w dnie uczciwie chodźmy, nie w biesiadach i pijaństwach, nie w łożach i niewstydliwościach, nie w zwadzie i w zazdrości.  Ale się obleczcie w Pana Jezusa Chrystusa.
+$Deo gratias
+
+[Ant 3]
+Nie bój się, Marjo: * albowiem znalazłaś łaskę u Boga: oto poczniesz i porodzisz Syna, alleluja.

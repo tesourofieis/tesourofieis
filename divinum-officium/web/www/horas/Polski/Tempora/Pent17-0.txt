@@ -1,0 +1,27 @@
+[Rank]
+XVII Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Symbolum Athanasium
+
+[Oratio]
+Spraw, błagamy Cię, Panie, by lud Twój uniknął wpływu szatana i by sercem czystem szukał Ciebie samego, swojego Boga.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Mateusza
+!Mt 22:34-46
+Onego czasu: Przystąpili do Jezusa faryzeusze. I zapytał Go jeden z nich, uczony w Prawie, kusząc Go: „Mistrzu, które jest największe przykazanie w Prawie?” I tak dalej.
+_
+Homilia świętego Jana Chryzostoma
+!Homilia 72. na Ewangelię wg św. Mateusza
+Kiedy Pan zawstydził saduceuszów, faryzeusze ponownie występują przeciw Niemu. Chociaż powinni byli zachować milczenie, oni zapragnęli walczyć i wysuwają naprzód uczonego w Prawie. Czynią tak nie dlatego, żeby się chcieli nauczyć, lecz aby Go wystawić na próbę. Pytają, które przykazanie jest pierwsze? Skoro pierwsze brzmiało: Będziesz miłował Pana Boga twego, zapytują Go w ten sposób, sądząc, że ponieważ Jezus czynił się Bogiem, zmieni to przykazanie, dodając coś do niego i dostarczy im przez to podstawy do zarzutów. Cóż na to Chrystus? Aby pokazać, że przyszli tylko w tym celu, gdyż nie było w nich żadnej miłości, lecz trawiła ich zawiść, mówi: Będziesz miłował Pana Boga twego. To jest pierwsze i największe przykazanie. A drugie podobne jest temu: Będziesz miłował bliźniego twego jako siebie samego.
+
+[Ant 2]
+Nauczycielu, * które jest wielkie przykazanie w zakonie? Rzekł mu Jezus: Będziesz miłował Pana Boga twego, ze wszystkiego serca twego, Alleluja. 
+
+[Ant 3]
+Co się wam zda * o Chrystusie? czyj jest syn? Rzekli mu wszyscy: Dawidów. Rzekł im Jezus: Jakoż tedy Dawid w duchu zowie go Panem swoim, mówiąc: Rzekł Pan Panu memu: Siądź po prawicy mojej?

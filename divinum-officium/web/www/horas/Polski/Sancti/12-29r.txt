@@ -1,0 +1,10 @@
+@Sancti/12-29
+
+[Commemoratio 2]
+!Wspominamy Św. Tomasza Męczennika
+@Commune/C2:Oratio proper
+$Oremus
+Boże, za którego Kościół, chwalebny Biskup Tomasz zginął od miecza bezbożników, spraw, prosimy, aby wszyscy wzywający pomocy jego, zbawienny skutek swej prośby otrzymali.
+$Per Dominum
+
+[Commemoratio 3]

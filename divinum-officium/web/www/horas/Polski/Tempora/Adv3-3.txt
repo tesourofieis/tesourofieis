@@ -1,0 +1,41 @@
+[Rank]
+Środa Suchych Dni Adwentu;;Feria major;;2
+
+[Rank1960]
+Środa Suchych Dni Adwentu;;Feria major;;3
+
+[RankNewcal]
+Środa III tygodnia Adwentu;;Feria major;;2
+
+[Rule]
+Preces Feriales
+
+[Responsory1]
+R. Wołaj z mocą, ty, który ogłaszasz pokój w Jeruzalem:
+* Powiedz miastom judzkim i mieszkańcom Syjonu: Oto Bóg nasz, którego oczekiwaliśmy, przybędzie.
+V. Wstąpże na wysoką górę, ty, który głosisz dobrą nowinę na Syjonie, podnieś mocno twój głos.
+R. Powiedz miastom judzkim i mieszkańcom Syjonu: Oto Bóg nasz, którego oczekiwaliśmy, przybędzie.
+
+[Responsory2]
+R. Wzejdzie gwiazda z Jakuba i powstanie człowiek z Izraela, i zmiażdży wszystkich wodzów pogańskich:
+* A cała ziemia będzie jego własnością.
+V. I oddadzą Mu pokłon wszyscy królowie, wszystkie narody będą Mu służyły.
+R. A cała ziemia będzie jego własnością.
+
+[Responsory3]
+R. Niebawem przybędzie Pan i Władca:
+* I nazwą imię Jego Emmanuel.
+V. Za dni Jego sprawiedliwość zakwitnie i wielki pokój.
+R. I nazwą imię Jego Emmanuel.
+&Gloria
+R. I nazwą imię Jego Emmanuel.
+
+[Ant 2]
+Posłan jest * Anioł Gabrjel do Marji Panny, poślubionej Józefowi.
+
+[Oratio]
+Spraw, prosimy Cię wszechmogący Boże aby zbliżające się uroczystości naszego odkupienia były nam pomocą w życiu doczesnem i abyśmy przez nie dostąpili nagrody wiecznej szczęśliwości.
+$Per Dominum.
+
+[Ant 3]
+Oto ja służebnica Pańska: * niechaj mi się stanie według słowa twego.

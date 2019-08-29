@@ -1,0 +1,41 @@
+[Rank]
+Fest des heiligen Apostels Jakobus;;Duplex II classis;;5.2;;ex C1
+
+[Rank1960]
+Fest des heiligen Apostels Jakobus;;Duplex II classis;;5;;ex C1
+
+[Oratio]
+Sei, o Herr, für dein Volk ein Spender von Heiligkeit und Wächter, damit es unter dem Schutz deines heiligen Apostels Jakobus in Sicherheit erhalten, dir auf Grund seines Wandels gefalle und dir ohne Besorgnis dienstbar sei.
+$Per Dominum
+
+[Lectio4]
+Jakobus, der Sohn des Zebedäus, der leibliche Bruder des Apostels Johannes, aus Galiläa stammend, wurde mit seinem Bruder unter den ersten Aposteln berufen, verließ Vater und Netze und schloss sich dem Herrn an; und beide wurden vom Herrn Boanerges, d.h. "Donnersöhne" genannt. Er war einer der Apostel, die der Herr am meisten liebte und zu Zeugen haben wollte bei seiner Verklärung, und zu Zuschauern bei dem Wunder, als er die Tochter des Synagogenvorstehers vom Tode erweckte, und als Teilnehmer dabei, als er sich auf den Ölberg zurückzog, um zum Vater zu beten, bevor er von den Juden gefangen genommen wurde.
+
+[Lectio5]
+Nach der Auffahrt Jesu Christi in den Himmel verkündete er ihn in Judäa und Samaria als Gott und brachte sehr viele zum christlichen Glauben. Hierauf begab er sich nach Spanien und bekehrte dort mehrere zum Glauben an Christus, aus denen später sieben vom heiligen Petrus zu Bischöfen geweiht und als die ersten Bischöfe nach Spanien gesandt wurden. Alsdann kehrte er nach Jerusalem zurück; und als er unter anderen den Zauber Hermogenes in den wahren Glauben eingeführt hatte, verurteilte der unter Kaiser Klaudius zur königlichen Würde erhobene Herodes Agrippa, um sich bei den Juden beliebt zu machen, den Jakobus, während er freimütig Jesus Christus als Gott bekannte, zum Tode durch Hinrichtung. Als ihn der Mann, der ihn zum Richterstuhl geführt hatte, so standhaft das Martyrium auf sich nehmen sah, bekannte auch er sich sofort als Christ.
+
+[Lectio6]
+Als er zur Hinrichtung geschleppt wurde, bat jener den Jakobus um Verzeihung; Jakobus küsste ihn und sagte: Friede sei mit dir. Daher wurden bei mit dem Beil enthauptet, nachdem Jakobus kurz vorher einen Gelähmten geheilt hatte. Sein Leib wurde später nach Kompostella übertragen, wo er in hohen Ehren steht; dort strömen, um ihre Andacht zu zeigen und ihre Gelübde zu erfüllen, aus der ganzen Welt Wallfahrer zusammen. Das Andenken an seinen Eingang zum Leben wird von der Kirche am heutigen Tage gefeiert, der der Tag der Übertragung ist, während er selbst um das Paschafest als erster der Apostel zu Jerusalem durch Vergießung seines Blutes Zeugnis für Jesus Christus ablegte.
+
+[Lectio7]
+Lesung aus dem heiligen Evangelium nach Matthäus.
+!Mt 20,20-23
+In jener Zeit trat die Mutter der Söhne des Zebedäus mit ihren Söhnen zu Jesus, betete ihn an und wollte etwas von ihm erbitten. Und so weiter.
+_
+Auslegung vom heiligen Bischof Johannes Chrysostomus.
+!Hom. 66 zu Mt
+Es braucht niemand in Verwirrung zu kommen, wenn wir sagen, dass die Apostel gar so unvollkommen waren; noch war eben die hochhehre Tat am Kreuze nicht vollbracht, noch war die Gnade des Heiligen Geistes in ihre Herzen nicht eingedrungen. Wenn man aber ihre Tüchtigkeit kennenlernen will, muss man bedenken, wie sie nach dem Empfang der Gaben des Heiligen Geistes waren, und man wird sehen, dass jede verkehrte Neigung von ihnen überwunden war. Aus diesem Grunde nämlich wird ihre Unvollkommenheit geoffenbart, damit man offenkundig wahrnehmen könne, wie sie plötzlich auf Grund der Gnade geworden sind. Dass sie also nichts Geistiges erbaten, und dass sie an das himmlische Reich keine Gedanken hatten, ist klar. Aber dennoch wollen wir auch nachsehen, wie sie hinzutraten und was sie sagen. „Wir möchten,“ so reden sie, „dass du das tust, um was wir bitten.“ Daraufhin erwiderte Christus „Was wollt ihr denn?“ sicher nicht aus Unwissenheit, sondern in der Absicht, sie zur Antwort zu zwingen und das Geschwür aufzudecken und so das Heilmittel aufzulegen.
+
+[Lectio8]
+Da jene aber sich schämten und vor Scheu nicht öffentlich auftreten konnten, da sie aus menschlicher Neigung soweit geraten waren, nahmen sie Christus gesondert von den anderen Jüngern vor und stellten die Frage. „Sie gingen nämlich“, so heißt es, „voran“, dass sie jenen gegenüber sich nicht verrieten; und so sagten sie schließlich, was sie wollten. Sie wollten aber, wie ich vermute, weil sie gehört hatten, dass die Jünger auf zwölf Thronen sitzen sollten, den Vorrang unter diesen Plätzen erwirken; nun wussten sie, dass sie den übrigen vorgezogen wurden; aber in der Angst, dass Petrus vor ihnen käme, nahmen sie sich den Mut zu sagen: „Ordne doch an, dass einer dir zur Rechten und der andere dir zur Linken sitze.“ Und sie machen die Anrede dringend: „Ordne doch an.“ Was tat er darauf? Um anzudeuten, dass sie nichts Geistiges erbäten und dass sie nicht einmal wüssten, was sie verlangen - sie würden nämlich nicht darum bitten, wenn sie es wüssten - sagt er: „Ihr wisst nicht, was ihr erbittet.“ Ihr wisst nicht, etwas wie Großes dies ist, etwas wie Wunderbares und selbst über die hohen Mächte hinausragendes.
+
+[Lectio9]
+Und er fügte hinzu: „Könnt ihr den Kelch trinken, den ich zu trinken habe? Und die Taufe, mit der ich getauft werde, an euch vornehmen lassen?“ Man kann erwägen, wie er sie sogleich von dieser Meinung abbringt, indem er ihnen das Gegenteil klar macht. Denn ihr, so sagt er, verhandelt mit mir nur über Ehrungen und Krönungen; ich aber rede vom Kampf und Schweiß. Die gegenwärtige Zeit ist nicht eine Zeit der Belohnungen, und jene Verherrlichung von mir wird nicht jetzt sichtbar werden, sondern die gegenwärtige Zeit ist eine Zeit des Sterbens und der Gefahren. Man kann aber durchschauen, wie er mit der Art des Fragens ermuntert und zugleich anlockt. Er sagte nämlich nicht: „Könnt ihr den Tod auf euch nehmen, könnt ihr euer Blut vergießen?“ Sondern: „Könnt ihr den Kelch trinken?“ Alsdann fügt er lockend hinzu: „Den ich zu trinken habe“, um sie mit Rücksicht auf die Mühegemeinschaft mit ihm selbst bereitwilliger zu machen.
+&teDeum
+
+[Commemoratio 2]
+!Kommemoration vom hl. Martyrer Christophorus
+@Commune/C2:Oratio proper
+$Oremus
+Verleihe uns, wir bitten dich, o allmächtiger Gott, die Gnade, dass wir, die wir deines heiligen Martyrers Christophorus Eingang zum Leben feiern, auf seine Fürsprache in der Liebe zu deiner Majestät befestigt werden.
+$Per Dominum

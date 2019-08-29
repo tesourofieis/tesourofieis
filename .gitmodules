@@ -1,6 +1,6 @@
-[submodule "Missal1962"]
-	url = https://github.com/ofrades/Missal1962
-	path = Missal1962
 [submodule "divinum-officium"]
 	path = divinum-officium
 	url = https://github.com/ofrades/divinum-officium
+[submodule "divinum-officium"]
+	path = divinum-officium
+	url = https://github.com/ofrades/divinum-officium.git
