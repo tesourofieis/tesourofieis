@@ -1,0 +1,173 @@
+[Rank]
+Wspomnienie Wszystkich Wiernych Zmarłych;;Duplex;;3;;ex C9
+
+[RankNewcal]
+Wspomnienie Wszystkich Wiernych Zmarłych;;Duplex Solemnity;;6;;ex C9
+
+[Rank1960]
+Wspomnienie Wszystkich Wiernych Zmarłych;;I. classis;;6;;ex C9
+
+[Rule]
+ex C9
+Psalmi Dominica
+Antiphonas horas
+Special Conclusio
+Capitulum Versum 2 ad Laudes et Vesperas
+Omit Incipit Hymnus Capitulum Lectio Preces Commemoratio Suffragium
+Limit Benedictiones Oratio
+Requiem gloria
+9 lectiones
+Responsory9
+no Te Deum
+(rubrica 1955 aut rubrica 1960) No prima Vespera
+
+[Initial]
+$Pater noster
+$Ave Maria
+(sed rubrica 1960 aut rubrica innovata omittuntur)
+
+[Special Completorium]
+$Confiteor
+$Misereatur
+$Indulgentiam
+
+&psalm(122)
+
+&psalm(141)
+
+&psalm(142)
+
+&psalm(233)
+
+&special('Oratio mortuorum1', 'Latin')
+
+&special('Conclusio', 'Latin')
+
+[Conclusio]
+&Gloria
+V. Niech odpoczywają w pokoju.
+R. Amen.
+
+[Lectio1]
+@Commune/C9
+
+[Lectio2]
+@Commune/C9:Lectio5
+
+[Lectio3]
+@Commune/C9:Lectio8
+
+[Lectio4]
+Z księgi św. Augustyna: O obowiązkach względem zmarłych
+!Rozdz. 2 i 3
+Troska o pogrzeb, uroczystości pogrzebowe i pompa ich są pociechą raczej dla żyjących, niż wsparciem dla zmarłych. Nie jest to jednak powodem, aby ciałem nieboszczyka pogardzać, zwłaszcza ciałem sprawiedliwych i wiernych, któremi dusza posługiwała się święcie jako narzędziami i pomocą do różnych dobrych uczynków. Jak odzież lub pierścień ojcowski, lub inne tego rodzaju pamiątki tem są droższe dla dzieci, im większa jest ich miłość dla rodziców, tak nie należy odnosić się bez uszanowania do ciał naszych, które są z nami bardziej spojone, niż jakakolwiek odzież. Ciała nie są bowiem nam tylko ozdobą lub obcą pomocą, lecz należą do samej natury człowieka. Dlatego z dawien dawna pobożność starała się gorliwie o oddawanie ostatniej posługi sprawiedliwym i dbała o ich pogrzeb, a i oni sami za życia wydawali polecenia synom, odnoszące się do swego pogrzebu, a nawet i do przenoszenia zwłok.
+
+[Lectio5]
+!Rozdz. 4
+Gdy wierni składają zmarłym ten serdeczny dowód przyjaźni przez pamięć o nich i modlitwę, czyn taki niewątpliwie jest pożyteczny tym, co za swego życia w ciele zasłużyli sobie na to, by podobne wsparcie mogło im być pomocne po śmierci. Lecz wówczas, gdy wskutek przeszkody niema możności pochowania ciała, albo pochowania go w miejscu świętem, nie należy zaniedbywać modłów za zmarłych. Dlatego właśnie kościół podjął się tej modlitwy za wszystkich zmarłych ze społeczności chrześcijańskiej, bez wymieniania ich imion, a tylko przez ogólne ich wspomnienie, aby ci, za których nie modlą się rodzice, dzieci, krewni, lub przyjaciele, otrzymali pomoc od tej jedynej wszystkich Matki. Gdyby wszakże zabrakło tych modlitw, zanoszonych za zmarłych z prostą wiarą i pobożnością, sądzę, że na nicby się ciału nie zdało, choćby na najświętszem miejscu było pochowane.
+
+[Lectio6]
+!Rozdz. 18
+Gdy się tak rzeczy mają, bądźmy przekonani, iż oddając ostatnią posługę zmarłym, o tyle tylko możemy przyjść im z pomocą, o ile ofiarujemy za nich ofiarę ołtarza, modlitw naszych i jałmużn, jakkolwiek nie są one pomocne wszystkim, za których się modlimy, lecz tylko tym, którzy za życia zasłużyli na to, aby zasługi tychże ofiar im policzone zostały. Ponieważ wszakże nie wiemy, które to są dusze, należy przeto ofiary składać za wszystkich ochrzczonych, aby nie pozbawić pomocy tych, którzy z dobrodziejstwa tego skorzystać mogą i powinni. Lepiej bowiem, aby pomoce te ofiarowane zostały za dusze, którym nie są one ani pożyteczne, ani szkodliwe, niż pozbawiać tego dobrodziejstwa te, któreby z niego skorzystać mogły. Lecz każdy zwykle gorliwiej spełnia ten obowiązek względem swych blizkich, aby to samo krewni jego zrobili dla niego. Samo pogrzebanie ciała nie pomaga do zbawienia zmarłego, lecz jest to obowiązek ludzkości zgodny z poczuciem, wedle którego nikt swego ciała nie ma w nienawiści. Przeto, o ile możności, trzeba mieć staranie o powłokę cielesną naszych bliźnich, gdy ten, który ją nosił, opuścił ją. Jeśli tak postępują ci, co nie wierzą w zmartwychwstanie ciał, jakoż daleko bardziej czynić to mają ci, co wierzą. Ostatnia posługa oddana ciału, zmarłemu wprawdzie, ale przeznaczonemu do zmartwychwstania i do wiecznego istnienia, jest poniekąd dowodem tej wiary.
+
+[Lectio7]
+Z Pierwszego Listu Świętego Pawła Apostoła do Koryntian
+!1 Kor 15:12-22
+12 A jeźliż o Chrystusie powiadają, iż zmartwychwstał, jakoż mówią niektórzy między wami, że zmartwychwstania niemasz?
+13 Lecz jeźli zmartwychwstania niemasz, ani Chrystus nie powstał z martwych.
+14 A jeźliż Chrystus nie powstał, próżne tedy jest przepowiadanie nasze, próżna jest i wiara wasza.
+15 Znajdujemy się téż fałszywymi świadki Bożymi, iżeśmy świadczyli przeciw Bogu, że Chrystusa wzbudził, którego nie wzbudził, jeźliże umarli nie powstają.
+16 Bo jeźliż umarli nie powstają, ani Chrystus nie powstał.
+17 A jeźli Chrystus nie powstał, próżna jest wiara wasza; bo jeszcze jesteście w grzechach waszych.
+18 Tedy i którzy zasnęli w Chrystusie, poginęli.
+19 Jeźliż tylko w tym żywocie w Chrystusie nadzieję mamy, jesteśmy nędzniejsi, niźli wszyscy ludzie.
+20 Lecz teraz Chrystus zmartwychwstał, pierwiastki tych, którzy zasnęli. 
+21 Ponieważ przez człowieka śmierć, i przez człowieka powstanie umarłych. 
+22 A jako w Adamie wszyscy umierają, tak i w Chrystusie wszyscy ożywieni będą.
+
+[Lectio8]
+!1 Kor 15:35-44
+35 Ale kto rzecze: Jakoż zmartwycbwstają umarli? a w jakiem ciele przyjdą?
+36 Głupi! co ty siejesz, nie bywa ożywiono, jeźli pierwéj nie obumrze.
+37 I co siejesz, nie siejesz ciała, które ma być, ale gołe ziarno, jako na przykład, pszeniczne albo z inszych które.
+38 A Bóg daje mu ciało jako chce, a każdemu nasieniu własne ciało.
+39 Nie każde ciało tóż ciało; ale insze ludzkie, insze bydlęce, insze ptasze, insze rybie.
+40 I ciała niebieskie, i ciała ziemskie; aleć insza jest ozdoba niebieskich, a insza ziemskich.
+41 Insza jasność słońca, insza jasność księżyca a insza jasność gwiazd; albowiem gwiazda od gwiazdy różna jest w jasności.
+42 Tak i zmartwychwstanie. Bywa wsiane w skazitelności, powstanie w nieskazitelności.
+43 Bywa wsiane w sprosności, a powstanie w chwalebności. Bywa wsiane w słabości, a powstanie w potężności.
+44 Bywa wsiane ciało cielesne, a powstanie ciało duchowne.
+
+[Lectio9]
+!1 Kor 15:51-58
+51 Oto tajemnicę wam powiadam: Wszyscy wprawdzie zmartwycbwstaniemy, ale nie wszyscy odmienieni będziemy,
+52 Prędziuchno we mgnieniu oka, na trąbę ostateczną; (albowiem zatrąbi trąba), a umarli powstaną nieskażonymi, a my będziemy przemienieni.
+53 Boć musi to skazitelne przyoblec nieskazitelność: i to śmiertelne przyoblec nieśmiertelność.
+54 A gdy to śmiertelne przyoblecze nieśmiertelność, tedy się stanie mowa, która jest napisana: Pożarta jest śmierć w zwycięstwie.
+55 Gdzie jest zwycięstwo twe, o śmierci? Gdzież jest, śmierci! oścień twój?
+56 A oścień śmierci jest grzech, a moc grzechu zakon.
+57 Lecz dzięka Bogu, który nam dał zwycięstwo przez Pana naszego Jezusa Chrystusa.
+58 A tak, bracia moi mili! bądźcie stateczni a nieporuszeni, obfitując w robocie Pańskiéj zawsze, wiedząc, iż praca wasza nie jest próżna w Panu.
+
+[Special Prima]
+&special('Initial', 'Polski')
+$Credo
+(sed rubrica 1960 aut rubrica innovata omittitur)
+
+&psalm(87)
+
+&psalm(27)
+
+&psalm(31)
+
+&special('Oratio mortuorum2', 'Polski')
+
+&martyrologium
+
+V. W wiecznéj pamiątce będzie sprawiedliwy.
+R. Nie będzie się bał posłuchu złego.
+_
+$Oremus
+Boże, Dawco przebaczenia i zbawienia ludzkiego miłośniku: błagamy łaskawości Twojej, abyś duszom sług i służebnic Twoich, które z tego świata zeszły, za wstawieniem się błogosławionej Marji, zawsze Panny i wszystkich Świętych Twoich, do uczestnictwa w wiecznej szczęśliwości dojść dozwolił. Przez Chrystusa Pana naszego.
+R. Amen
+
+&special('Conclusio', 'Polski')
+
+[Special Tertia]
+&special('Initial', 'Polski')
+
+&psalm(37,1,11)
+
+&psalm(37,12,23)
+
+&psalm(55)
+
+&special('Oratio mortuorum', 'Polski')
+
+&special('Conclusio', 'Polski')
+
+[Special Sexta]
+&special('Initial', 'Polski')
+
+&psalm(69)
+
+&psalm(84)
+
+&psalm(85)
+
+&special('Oratio mortuorum', 'Polski')
+
+&special('Conclusio', 'Polski')
+
+[Special Nona]
+&special('Initial', 'Polski')
+
+&psalm(101,1,13)
+
+&psalm(101,14,23)
+
+&psalm(101,24,29)
+
+&special('Oratio mortuorum', 'Polski')
+
+&special('Conclusio', 'Polski')

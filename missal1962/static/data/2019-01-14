@@ -1,0 +1,148 @@
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2019-01-14", 
+      "description": "",
+      "tempora": "Poniedzia\u0142ek po 1 Niedzieli po Objawieniu", 
+      "title": ""
+    }, 
+    "proper_latin": [
+      {
+        "body": "",
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "",
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "",
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "",
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "",
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "",
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "",
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "",
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "",
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "",
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "",
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "",
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ], 
+    "proper_vernacular": [
+      {
+        "body": "",
+        "id": "Introitus", 
+        "label": "Intróito"
+      }, 
+      {
+        "body": "",
+        "id": "Oratio", 
+        "label": "Oração"
+      }, 
+      {
+        "body": "",
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "",
+        "id": "Lectio", 
+        "label": "Epístola"
+      }, 
+      {
+        "body": "",
+        "id": "Graduale", 
+        "label": "Gradual"
+      }, 
+      {
+        "body": "",
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "",
+        "id": "Evangelium", 
+        "label": "Evangelho"
+      }, 
+      {
+        "body": "",
+        "id": "Offertorium", 
+        "label": "Ofertório"
+      }, 
+      {
+        "body": "",
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "",
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "",
+        "id": "Prefatio", 
+        "label": "Prefácio"
+      }, 
+      {
+        "body": "",
+        "id": "Communio", 
+        "label": "Comúnio"
+      }, 
+      {
+        "body": "",
+        "id": "Postcommunio", 
+        "label": "Postcomúnio"
+      }, 
+      {
+        "body": "",
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ]
+  }
+]

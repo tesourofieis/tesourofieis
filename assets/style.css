@@ -1,0 +1,176 @@
+/* GLOBAL */
+* {
+  font-size: 100%;
+  font-weight: normal;
+  font-family: 'Cardo', 'EB Garamond';
+  font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
+  font-variant-ligatures: historical-ligatures;
+  text-indent: 10pt;
+  text-rendering: optimizeLegibility;
+  /* line-height: 1.35; */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
+
+:root {
+  --danger-color: #DF2321;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card-img-top {
+  width: 20vh;
+  object-fit: cover;
+}
+
+em {
+  text-align: center !important;
+  color: #DF2321;
+}
+
+.dropcaps {
+  text-indent: 0;
+}
+
+.dropcaps:first-letter {
+  /* margin: 0.08em 0 0.1em 0; */
+  padding-top: 6px;
+  padding-right: 8px;
+  font-size: 300%;
+  float: left;
+  color: #DF2321;
+  line-height: 80%;
+}
+
+.p {
+  text-align: justify;
+}
+
+body {
+  display: flex;
+  position: relative;
+  margin-top: 10vh;
+}
+
+#navbarTogglerDemo01 ul li a {
+  color: #ffffff;
+}
+
+.dropdown-menu a{
+    color: #DF2321 !important;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active,
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(170, 170, 170, 0.167) !important;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #DF2321;
+}
+
+.fa:hover,
+.fa:focus {
+  background-color: transparent;
+  color: #aaa;
+}
+
+nav .mynav li a{
+  color: #ffffff;
+}
+
+nav .mynav li a:hover,
+nav .mynav li a:active,
+nav .mynav li a:focus{
+  color: #aaa;
+}
+
+/* COVER*/
+
+/* SIDE NAV TOC */
+
+#toc {
+  display: grid;
+  position: sticky;
+  top: 6.5em;
+  left: 0;
+  bottom: 0;
+  color: rgb(225, 225, 225);
+  font-size: 70%;
+  padding-left: 0;
+  max-width: 100%;
+}
+
+.toc-salterio,
+.toc-propriotempo,
+.toc-propriosantos {
+  height: 88vh;
+  width: 100%;
+  overflow: scroll;
+}
+
+nav[data-toggle="toc"] .nav>li>a {
+  display: block;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 100;
+  color: #DF2321;
+}
+
+nav[data-toggle="toc"] .nav-link.active,
+nav[data-toggle="toc"] .nav-link.active:focus,
+nav[data-toggle="toc"] .nav-link.active:hover,
+nav[data-toggle="toc"] .nav>li>a:focus,
+nav[data-toggle="toc"] .nav>li>a:hover {
+  color: #DF2321;
+  border-left: 1px solid #DF2321;
+  padding-left: 0;
+}
+
+/* hide nav that gives the info */
+.info {
+  display: none;
+}
+
+/* CAROUSEL */
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width: 75vh;
+  height: 50vh;
+  max-height: 50vh !important;
+}
+
+/* SHOP */
+
+.card-deck{
+  margin-top: 5vh;
+}
+
+/* café */
+
+.bmc-button img{width: 27px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{line-height: 36px !important;height:37px !important;text-decoration: none !important;display:inline-flex !important;color:#FFFFFF !important;background-color:#FF813F !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 1px 9px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#FFFFFF !important;}
+
+/*  OTHER SCREENS */
+
+@media (max-width: 550px) { 
+.col-lg-2{
+  display: none;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {} */
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) {} */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {} */
+
+

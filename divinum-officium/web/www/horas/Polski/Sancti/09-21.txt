@@ -1,0 +1,31 @@
+[Rank]
+Świętego Mateusza Apostoła i Ewangelisty;;Duplex II classis;;5.1;;ex C1a
+
+[Rank1960]
+Świętego Mateusza Apostoła i Ewangelisty;;Duplex II classis;;5;;ex C1a
+
+[Rule]
+ex C1a;
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+
+[Oratio]
+Niech nas wspomagają, Panie, modły błogosławionego Apostoła i Ewangelisty Mateusza, a czego ułomność nasza otrzymać nie zdoła, niech za jego wstawieniem się dane nam będzie.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Mateusza
+!Mt 9:9-13
+Onego czasu: Ujrzał Jezus człowieka, imieniem Mateusz, siedzącego przy cle. I rzekł mu: „Pójdź za Mną”. I tak dalej.
+_
+Homilia świętego Hieronima, Kapłana
+!Księga 1. Komentarza, do rozdz. 9. Ewangelii wg św. Mateusza
+Pozostali Ewangeliści przez cześć i szacunek dla Mateusza nie chcieli go wymieniać pod ogólnie znanym imieniem, lecz powiedzieli ‘Lewi’, miał on bowiem dwa imiona. Sam zaś Mateusz, zgodnie z tym co przykazał Salomon: Sprawiedliwy oskarża się na początku swej mowy, a w innym miejscu powiada Pismo: Wyznaj swe grzechy, abyś został usprawiedliwiony, nazywa siebie Mateuszem i celnikiem, aby okazać czytającym, że nikt nie powinien zwątpić o zbawieniu, jeśli zwróci się ku lepszemu, skoro on sam przemieniony nagle został z celnika w Apostoła.
+
+[Lectio8]
+W związku z tym miejscem Porfiriusz i Julian August albo stawiają autorowi zarzuty niekompetencji, że jakoby kłamał, albo też zarzucają głupotę tym, którzy z miejsca poszli za Zbawicielem, jak gdyby bezrozumnie poszli po prostu za kimkolwiek, kto tylko wzywał. Przecież bez wątpienia tak wielkie cuda i znaki miały miejsce wcześniej i Apostołowie widzieli je, zanim uwierzyli. A sam blask i majestat ukrytego Bóstwa, który jaśniał także na ludzkim obliczu, pociągał do siebie patrzących nań, by tak rzec, od pierwszego wejrzenia. Jeśli bowiem w kamieniu magnesu i w bursztynie jest, jak mówią, taka moc, że przyciągają one do siebie różne pierścienie, słomki czy wiórki, o ileż bardziej Pan wszystkich stworzeń mógł pociągnąć do siebie tych, których powołał.
+
+[Lectio9]
+I stało się, gdy siedział w domu u stołu, oto wielu celników i grzeszników, przyszedłszy, siedziało u stołu z Jezusem. Zobaczyli, że celnik, zwróciwszy się od grzechów swoich ku temu, co lepsze, znalazł czas odpowiedni do pokuty i dlatego także oni sami nie tracą nadziei na zbawienie i do Jezusa nie przychodzą, pozostając w swoich dawnych wadach, jak szemrzą faryzeusze i uczeni w Piśmie, lecz czyniąc pokutę, jak na to wskazuje kolejna wypowiedź Pana: Miłosierdzia chcę, a nie ofiary. Bom nie przyszedł wzywać sprawiedliwych, ale grzeszników. Chodził zaś Pan na uczty grzeszników, aby mieć okazję do nauczania i by udzielać pokarmu duchowego tym, którzy Go zaprosili.
+&teDeum

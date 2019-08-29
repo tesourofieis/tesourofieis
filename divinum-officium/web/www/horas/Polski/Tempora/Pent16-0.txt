@@ -1,0 +1,27 @@
+[Rank]
+XVI Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Symbolum Athanasium
+
+[Oratio]
+Niechaj łaska Twoja, prosimy Cię, Panie, uprzedza nas i towarzyszy nam zawsze oraz niech nas gorliwymi czyni w nieustannym wykonywaniu dobrych uczynków.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Łukasza
+!Łk 14:1-11
+Onego czasu: Gdy wszedł Jezus w szabat do domu jednego z przedniejszych faryzeuszów, aby się posilić, oni Go śledzili. A oto człowiek pewien opuchły stanął przed Nim. I tak dalej.
+_
+Homilia świętego Ambrożego, Biskupa
+!Księga 7., do rozdz. 14. Ewangelii wg św. Łukasza
+Uzdrowiony jest chory na puchlinę, w którym nadmierny obrzęk ciała utrudniał działanie duszy i przygaszał żar ducha. Następuje pouczenie o pokorze, gdyż na owej uczcie weselnej zostało zganione pożądanie wyższego miejsca. Uczyniono to łagodnie, aby zachęta do uprzejmości pozbawiona była szorstkiej nagany, żeby przez podany przykład upomnienie przyniosło skutek, a zwrócenie uwagi usunęło żądzę chwały. Z tym niejako po sąsiedzku uprzejmość się łączy, która według określenia Pana wtedy ma wartość, gdy się ją okazuje ubogim i słabym; okazywanie bowiem gościnności tym, od których się oczekuje odpłaty, jest objawem chciwości.
+
+[Ant 2]
+Gdy Jezus wszedł * do domu jednego przedniejszego faryzeusza, w szabat jeść chleb, oto człowiek niektóre opuchły był przed nim, a on ująwszym uzdrowił go i odprawił.
+
+[Ant 3]
+Gdy będziesz wezwany * na gody, idź usiądź na poślednim miejscu: że gdy przyjdzie ten, który cię wezwał, rzecz tobie: Przyjacielu posiądź się wyżej: i będzie tobie chwała przed społem siedzącym. Alleluja.

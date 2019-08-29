@@ -1,0 +1,149 @@
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Jana na Lateranie", 
+        "1 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2019-04-18", 
+      "description": "",
+      "tempora": null, 
+      "title": ""
+    }, 
+    "proper_latin": [
+      {
+        "body": "",
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "",
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "",
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "",
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "",
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "",
+        "id": "Maundi", 
+        "label": "De lotione pedum"
+      }, 
+      {
+        "body": "",
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "",
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "",
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "",
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "",
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "",
+        "id": "Post Missam", 
+        "label": "Solemnem translationem et repositionem Sacramenti"
+      }, 
+      {
+        "body": "",
+        "id": "Denudatione altaris", 
+        "label": "Denudatione altaris"
+      }
+    ], 
+    "proper_vernacular": [
+      {
+        "body": "",
+        "id": "Introitus", 
+        "label": "Intróito"
+      }, 
+      {
+        "body": "",
+        "id": "Oratio", 
+        "label": "Oração"
+      }, 
+      {
+        "body": "",
+        "id": "Lectio", 
+        "label": "Epístola"
+      }, 
+      {
+        "body": "",
+        "id": "Graduale", 
+        "label": "Gradual"
+      }, 
+      {
+        "body": "",
+        "id": "Evangelium", 
+        "label": "Evangelho"
+      }, 
+      {
+        "body": "",
+        "id": "Maundi", 
+        "label": "Mandatum, czyli Umywanie N\u00f3g"
+      }, 
+      {
+        "body": "",
+        "id": "Offertorium", 
+        "label": "Ofertório"
+      }, 
+      {
+        "body": "",
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "",
+        "id": "Prefatio", 
+        "label": "Prefácio"
+      }, 
+      {
+        "body": "",
+        "id": "Communio", 
+        "label": "Comúnio"
+      }, 
+      {
+        "body": "",
+        "id": "Postcommunio", 
+        "label": "Postcomúnio"
+      }, 
+      {
+        "body": "",
+        "id": "Post Missam", 
+        "label": "Uroczyste Przeniesienie i Z\u0142o\u017cenie Naj\u015bwi\u0119tszego Sakramentu"
+      }, 
+      {
+        "body": "",
+        "id": "Denudatione altaris", 
+        "label": "Obna\u017cenie O\u0142tarzy"
+      }
+    ]
+  }
+]

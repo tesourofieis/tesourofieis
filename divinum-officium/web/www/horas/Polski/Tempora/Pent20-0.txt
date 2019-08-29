@@ -1,0 +1,27 @@
+[Rank]
+XX Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Symbolum Athanasium
+
+[Oratio]
+Nakłoń ucha Twego, Panie, a w miłosierdziu swem udziel wiernym Twoim przebaczenia i pokoju, aby oczyszczeni ze wszystkich win swoich, mogli Ci służyć sercem spokojnem.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Jana
+!J 4:46-53
+Onego czasu: Był dworzanin pewien, którego syn chorował w Kafarnaum. I tak dalej.
+_
+Homilia świętego Grzegorza, Papieża
+!Homilia 28. na Ewangelię
+Czytanie świętej Ewangelii, które, bracia, teraz usłyszeliście, wyjaśnienia nie potrzebuje. Aby się jednak nie zdawało, że ją milczeniem pomijamy, pomówimy nieco o niej, aby raczej udzielić zachęty niż wyjaśnienia. Zdaje mi się, iż to tylko należy wytłumaczyć, dlaczego ten, który przybył, aby prosić o uzdrowienie syna, usłyszał: Jeśli nie widzicie znaków i cudów, nie wierzycie. Przecież ten, który prosił o uzdrowienie syna, niewątpliwie wierzył. Nie prosiłby bowiem o uleczenie, gdyby nie wierzył, iż Chrystus, jako Zbawiciel, ma moc uzdrawiania. Dlaczego więc powiedziano: Jeśli nie widzicie znaków i cudów, skoro ten pierwej uwierzył, zanim znak zobaczył?
+
+[Ant 2]
+I był niejaki królik, * którego syn chorował w Kapharnaum: Ten gdy usłyszał, iż Jezus przyszedł do Galilei, prosił go, a uzdrowił syna jego.
+
+[Ant 3]
+Poznał tedy ojciec * iż ona godzina była, której mu rzekł Jezus: Syn twój żyje: i uwierzył sam i wszystek dom jego.
