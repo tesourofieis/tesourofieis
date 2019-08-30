@@ -1,0 +1,46 @@
+@Commune/C1
+
+[Name]
+Commune Evangelistarum
+
+[Oratio]
+Boże, który świętego N. do liczby Apostołów swych przyjąłeś, spraw, prosimy Cię, abyśmy za wstawiennictwem jego, doznawali zawsze opieki i miłosierdzia Twego.
+$Per Dominum
+
+[Lectio1]
+Początek Księgi Proroka Ezechiela
+!Ez 1:1-4
+1 I stało się trzydziestego roku, w czwartym, piątego dnia miesiąca, gdym był w pośrodku poimanych nad rzeką Chobar, otworzyły się niebiosa, i widziałem widzenia Boże.
+2 Piątego dnia miesiąca, ten jest rok piąty przeprowadzenia króla Joachina,
+3 Stało się słowo Pańskie do Ezechiela, syna Buzy, kapłana w ziemi Chaldejskiéj, nad rzeką Chobar, i stała się tam nad nim ręka Pańska.
+4 I widziałem, a oto wiatr wichru przychodził od północy, i obłok wielki i ogień mięszający, a jasność około niego, a z pośrodku jego jako kształt mosiądzu, to jest, z pośrodku ognia.
+
+[Lectio2]
+!Ez 1:5-9
+5 A w pośrodku jego podobieństwo czterech zwierząt, a ta osoba ich: podobieństwo człowieka w nich.
+6 Czworo oblicza u jednego, a cztery skrzydła u jednego.
+7 Nogi ich nogi proste a stopa nogi ich jako stopa nogi cielęcéj, a iskierki jako pozór miedzi rozpalonéj.
+8 I ręce człowiecze pod skrzydły ich po czterech stronach, a oblicza i skrzydła po czterech stronach miały.
+9 A skrzydła ich złączone były jednego z drugiem: nie wracały się, gdy chodziły, ale każde przed obliczem swojem chodziło.
+
+[Lectio3]
+!Ez 1:10-12
+10 A podobieństwo twarzy ich: Twarz człowiecza i twarz lwia po prawicy tego czworga, a twarz wołowa po lewicy tego czworga, a twarz orłowa na wierzchu tego czworga.
+11 Twarzy ich i skrzydła ich rozciągnione zwierzchu: dwa skrzydła każdego złączały się, a dwa zakrywały ciała ich.
+12 A każde z nich przed obliczem swem chodziło, dokąd duch pędził, tam chodziły i nie wracały się, kiedy chodziły.
+
+[Lectio7]
+Czytanie Ewangelii świętej według Łukasza
+!Łk 10:1-9
+Onego czasu: Wyznaczył Pan także innych siedemdziesięciu dwóch i rozesłał ich przed sobą, po dwóch do każdego miasta i miejsca, dokąd miał nadejść. I tak dalej.
+_
+Homilia świętego Grzegorza, Papieża
+!Homilia 17. na Ewangelię
+Nasz Pan i Zbawiciel, najukochańsi bracia, niekiedy słowami, niekiedy zaś czynami nas upomina. Same bowiem Jego czyny są przykazaniami; gdy bowiem milcząco czyni, wskazuje nam, co czynić winniśmy. Oto po dwóch wysyła uczniów, aby nauczali; dwa są bowiem przykazania miłości, mianowicie miłość Boga i bliźniego; i mniej jak między dwiema osobami miłości być nie może. Nie można powiedzieć, iż ktoś siebie kocha, gdyż miłość, aby mogła być miłością, musi być skierowana do kogoś innego.
+
+[Lectio8]
+Po dwóch Pan wysyła uczniów, aby nauczali, przez co nam milcząco wskazuje, iż kto nie ma miłości do drugiego, w żadnym razie nie powinien podejmować się nauczania. Stosownie zaś powiedziano, iż Pan rozesłał uczniów przed sobą do każdego miasta i miejsca, dokąd miał nadejść. Pan bowiem idzie w ślad za swymi kaznodziejami i najpierw ma miejsce głoszenie słowa. Wtedy Pan przybywa do mieszkania naszej duszy, gdy słowa pouczające poprzedzają Go i dzięki temu duch prawdę przyjmuje.
+
+[Lectio9]
+Toteż Izajasz mówi do kaznodziejów: Drogę dla Pana przygotujcie, proste czyńcie na pustkowiu ścieżki Boga naszego. I Psalmista mówi do synów Izraela: Czyńcie drogę Temu, który wstępuje na Zachód. Na Zachód bowiem Pan wstąpił, ponieważ tam, gdzie męce uległ, tam też, zmartwychwstając, okazał tym większą swoją chwałę. Wstąpił na Zachód, gdyż śmierć, jaką poniósł, zdeptał przez swe zmartwychwstanie. Jemu więc wstępującemu na Zachód, drogę czynimy, gdy waszym sercom Jego chwałę głosimy, aby gdy On sam potem przybędzie, oświecił je swojej miłości obecnością.
+&teDeum

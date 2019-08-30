@@ -1,0 +1,27 @@
+[Rank]
+XXII Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Symbolum Athanasium
+
+[Oratio]
+Boże, ucieczko nasza i mocy, wejrzyj łaskawie na modlitwy Kościoła Twojego, a będąc sam Ojcem miłosierdzia, daj, byśmy to, o co z wiarą prosimy rzeczywiście otrzymali. 
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Mateusza
+!Mt 22:15-21
+Onego czasu: Faryzeusze, odszedłszy, naradzali się, jakby podchwycić Jezusa w mowie. I tak dalej.
+_
+Homilia świętego Hilarego, Biskupa
+!Komentarz do Ewangelii wg św. Mateusza, rozdz. 23.
+Faryzeusze często są wzburzeni z powodu Chrystusa, ale nie mogą znaleźć w Jego przeszłości okazji do fałszywego oskarżenia. Żaden przecież grzech nie mógł skazić Jego czynów albo wypowiedzi. Kierując się jednak złośliwością, za wszelką cenę usiłują znaleźć jakąś podstawę do sformułowania oskarżenia. A ponieważ wszystkich On powoływał od grzechów tego świata i od przesądów ludzkich wierzeń do nadziei Królestwa Niebieskiego, chcą sprawdzić, czy wobec tego nie wystąpi przeciwko władzy świeckiej. Dlatego też zadają Mu podstępnie obmyślone pytanie, czy mianowicie powinno się płacić podatek cesarzowi.
+
+[Ant 2]
+Nauczycielu, * wiemy, iżeś jest prawdziwy, i drogi Bożéj w prawdzie nauczasz, alleluja.
+
+[Ant 3]
+Oddajcież tedy * co jest cesarskiego, cesarzowi, a co jest Bożego, Bogu. Alleluja.

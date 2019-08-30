@@ -1,0 +1,29 @@
+[Rank]
+Hl. Nikolaus, Bischof und Bekenner;;Duplex;;3;;vide C4
+
+[Rank1570]
+Hl. Nikolaus, Bischof und Bekenner;;Semiduplex;;2.1;;vide C4
+
+[RankNewcal]
+Hl. Nikolaus, Bischof und Bekenner;;Duplex optional;;2;;vide C4
+
+[Rule]
+vide C4;
+9 lectiones;
+
+[Oratio]
+O Gott, der du den heiligen Bischof Nikolaus durch unzählige Wunder ausgezeichnet hast, verleihe uns, wir bitten dich, die Gnade, dass wir vor den Flammen der Hölle bewahrt bleiben.
+$Per Dominum
+
+[Lectio4]
+Den Nikolaus, der in der berühmten Ortschaft Patara in Lyzien (Kleinasien) geboren war, haben die Eltern von Gott durch Gebet erfleht. Wie groß dieses Mannes Heiligkeit werden sollte, wurde schon von der Wiege an sichtbar. Denn da er als Kind an den übrigen Tagen oft die Milch der Amme zu sich nahm, tat er dies am Mittwoch und Freitag nur einmal, und zwar am Abend; und diese Art zu fasten behielt er im folgenden Leben stets bei. Als Jüngling verlor er die Eltern und verteilte sein Vermögen unter die Armen. Von dieser christlichen Wohltätigkeit gilt dies als hervorragendes Beispiel, dass Nikolaus, als ein Mitbürger von ihm drei schon ehefähige Töchter nicht verehelichen konnte und daran dachte, deren Unschuld preiszugeben, nach erhaltener Mitteilung zur Nachtzeit so viel Geld durch ein Fenster in dessen Haus hineinwarf, als zur Mitgift für eine Jungfrau genügte; und da er dies zum zweiten und zum dritten Male getan hatte, wurden diese drei Jungfrauen anständigen Männern zur Ehe gegeben.
+
+[Lectio5]
+Da er sich aber ganz Gott geweiht hatte, begab er sich nach Palästina, um die heiligen Stätten zu besuchen und an Ort und Stelle zu verehren. Als er auf dieser Reise auf das Schiff ging, sagte er bei heiterem Himmel und bei ruhiger See den Schiffsleuten einen furchtbaren Sturm voraus; und da dieser bald eintrat und alle in größter Gefahr schwebten, stillte er ihn wunderbar durch sein Gebet. Indem er, von da nach Hause zurückgekehrt, allen Beweise einer außerordentlichen Heiligkeit gab, kam er auf Eingebung Gottes nach Myra, der Hauptstadt von Lyzien, zu der Zeit, als nach dem Tod des Bischofs jener Stadt die Bischöfe der Umgegend über die Wahl eines Nachfolgers berieten; und so wurden sie bei dieser Beratung von Gott gemahnt, sie sollten den wählen, der am folgenden Tage als erster in die Kirche eintreten würde und den Namen Nikolaus hätte. Dieser Hinweis wurde beachtet, und am Eingang zur Kirche wurde Nikolaus festgehalten; und er wurde mit größter Einmütigkeit zum Bischof von Myra gewählt. Im Bischofsamt behielt er die Keuschheit, die er stets gepflegt hatte, den Ernst, die Ausdauer im Gebet, die Wachen, das Fasten, die Freigebigkeit und Gastfreundschaft, die Sanftmut im Ermahnen, die Strenge im Tadeln für immer bei.
+
+[Lectio6]
+Den Witwen und Waisen versagte er die Hilfe mit Geld, Rat und Tat nicht; den Bedrängten war er derartig Helfer, dass er sogar drei infolge einer Verleumdung vom Kaiser Konstantin zum Tode verurteilten Tribunen (Soldatenführer), die sich wegen des Rufes von seinen Wundern seinen Gebeten von weiter Entfernung her empfohlen hatten, Rettung erwirkte, indem er noch bei Lebzeiten dem Kaiser erschien und ihm mit seinen Drohungen Furcht einjagte. Als er aber gegen die Verordnung Diokletians und Maximians die Wahrheit des christlichen Glaubens in Myra predigte, wurde er von den Sendlingen der Kaiser festgenommen, weit weggeführt und in einen Kerker geworfen. Dort blieb er bis zur Zeit Kaiser Konstantins; auf dessen Geheiß wurde er aus der Gefangenschaft befreit und kehrte nach Myra zurück. Bald begab er sich zur Kirchenversammlung nach Nicäa; und dort verurteilte er mit den 318 Vätern die Irrlehre des Arius. Von da kehrte er zum bischöflichen Amt zurück und indem er nicht lange darauf beim Herannahen des Todes zum Himmel schaute, ging er im Anblick der ihm entgegenkommenden Engel nach Abbeten des Psalmes „Auf dich, o Herr, vertrau' ich“ bis zu jener Stelle „In deine Hände empfehle ich meinen Geist“, in das himmlische Vaterland ein. Sein Leib wurde nach Bari in Apulien (Süditalien) übertragen und wird daselbst unter großem Volksdrang in Ehren gehalten.
+
+[Lectio94]
+Nikolaus, in der berühmten Ortschaft Patara in Lyzien (Kleinasien) geboren, fastete schon von Kindheit an am Mittwoch und Freitag; und diese Art zu fasten behielt er im folgenden Leben stets bei. Als Jüngling verlor er die Eltern und verteilte sein Vermögen unter die Armen. Von dieser christlichen Wohltätigkeit gilt dies als hervorragendes Beispiel, dass er drei Jungfrauen, die in Gefahr waren, mit so viel Geld, als ihnen zur Mitgift genügte, unterstützte. Nachdem er nach Palästina gepilgert war, kam er auf Eingebung Gottes nach Myra, der Hauptstadt von Lyzien; wo er nach dem Tod des Bischofs jener Stadt von den Bischöfen der Umgegend gegen alle Erwartung, in wundersamer Einmütigkeit, gewählt wurde. Im Bischofsamt zeigte er sich als Beispiel aller Tugenden. Als er aber gegen die Verordnung Diokletians und Maximians die Wahrheit des christlichen Glaubens predigte, wurde er in einen Kerker geworfen. Dort blieb er bis zur Zeit Kaiser Konstantins. Er nahm an Kirchenversammlung von Nicäa teil, bei der die Irrlehre des Arius verurteilt wurde. Zu den Seinen zurückgekehrt, verstarb er in Myra auf heiligste Weise. Sein Leib wurde nach Bari in Apulien (Süditalien) übertragen und wird daselbst unter großem Volksdrang in Ehren gehalten.
+&teDeum

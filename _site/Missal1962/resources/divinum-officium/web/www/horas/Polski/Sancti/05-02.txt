@@ -1,0 +1,12 @@
+[Rank]
+Św. Atanazego Wyznawcy i Doktora Kościoła;;Duplex;;3;;vide C4a
+
+[Rule]
+vide C4a;
+9 lectiones
+
+[Name]
+Atanazy
+
+[Oratio]
+@Commune/C4:Oratio1:s/N\./Atanazego//

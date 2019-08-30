@@ -1,0 +1,31 @@
+[Rank]
+Św. Bartłomieja Apostoła;;Duplex II classis;;5.5;;ex C1
+
+[Rank1960]
+Św. Bartłomieja Apostoła;;Duplex II classis;;5;;ex C1
+
+[Rule]
+ex C1;
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+
+[Oratio]
+Wszechmogący, wieczny Boże, któryś nam dozwolił w dzień ten uroczysty i radosny czcić błogosławionego Bartłomieja, Apostoła Twego, daj, prosimy, Kościołowi Twojemu miłować to, w co on wierzyłi głosić to, czego nauczał.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Łukasza
+!Łk 6:12-19
+Onego czasu: Odszedł Jezus na górę modlić się i spędził noc na modlitwie Bożej. A skoro nastał dzień, przywołał uczniów swoich. I tak dalej.
+_
+Homilia świętego Ambrożego, Biskupa
+!Księga 5. Komentarza, do rozdz. 6. Ewangelii wg św. Łukasza, w 1. połowie
+Wszyscy wielcy, wszyscy wzniosłym ożywieni duchem na górę wstępują. Albowiem nie do każdego Prorok mówi: Wstąpże na wysoką górę, ty, który głosisz dobrą nowinę w Syjonie! Podnieś mocno twój głos, ty, który, zwiastujesz dobrą nowinę w Jeruzalem! Nie wieloma krokami ciała, lecz wzniosłymi czynami wstąp na tę górę. Idź za Chrystusem, abyś sam mógł stać się górą: Otaczają Go bowiem góry. Przeto dowiesz się z Ewangelii, że tylko Apostołowie z Panem wstąpili na górę. Modli się więc Pan nie po to, aby za siebie się modlił, lecz żeby za mnie się wstawić. Choć bowiem Ojciec całą władzę zdał Synowi, Syn jednak, aby całkowicie wywiązać się ze swego człowieczeństwa, uważa, że winien u Ojca wstawić się za nami; jest bowiem naszym orędownikiem.
+
+[Lectio8]
+I spędził – jak powiedziano – noc na modlitwie Bożej. Masz tu, chrześcijaninie, ukazany Jego przykład; masz wzór, jaki winieneś naśladować. Co bowiem sam dla swego zbawienia czynić winieneś, skoro dla ciebie Chrystus spędza noc na modlitwie? Co masz czynić, jeśli chcesz podjąć wykonanie jakiegoś pobożnego zamiaru, skoro Chrystus, mając rozesłać Apostołów, modlił się, i to sam się modlił? Nigdzie bowiem, o ile się nie mylę, nie jest podane, iż modlił się z Apostołami; wszędzie sam się modli. Albowiem ludzkie pragnienia nie pojmują Bożych zamiarów, ani też nikt nie może przeniknąć do wnętrza duszy Chrystusa.
+
+[Lectio9]
+Przywołał – jak mówi Ewangelia – uczniów swoich i wybrał spośród nich dwunastu. Przeznaczył ich na siewców wiary, aby na całej ziemi głosili to, co ludziom pomaga do zbawienia. Zarazem zwróć uwagę na Boski zamysł, iż wybrał w tym celu nie jakichś uczonych, nie bogaczy, nie mężów wysokiego rodu, lecz rybaków i celników, aby się nie zdawało, iż do przyjęcia Jego łaski skłoniła kogoś mądrość, przekupiło bogactwo, przyciągnęła powaga władzy albo dostojność rodu. Szło Mu o to, aby zwyciężyła moc prawdy, a nie dar wymowy.
+&teDeum

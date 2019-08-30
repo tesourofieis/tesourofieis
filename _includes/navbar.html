@@ -9,8 +9,6 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-    <!-- <a class="nav-link navbar-brand" href="{{"/index" | relative_url }}"><i class="fa fa-home d-inline-block align-center"></i></a> -->
-
     <ul class="navbar-nav mx-auto" id="myDIV">
       <li class="nav-item">
         <a class="nav-link" href="{{"/salterio" | relative_url }}" id="item-salterio">Saltério</a>
@@ -78,28 +76,20 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="{{"/missal1962/static/index" | relative_url }}" id="item-dia">Dia</a>
+        <a class="nav-link" href="{{"/missal1962/static/index.html/" | base_url }}" id="item-dia">Santa Missa Diária</a>
       </li>
 
     </ul>
-    <div class="ml-auto">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="navbar-brand nav-link" title="Melhore a Página"
-            href="https://www.github.com/ofrades/tesourofieis/blob/master/{{ page.path }}"><i
-              class="fa fa-pencil d-inline-block"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand nav-link" href="mailto:info@tesourofieis.com"><i class="fa fa-envelope d-inline-block"
-              aria-hidden="true"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/SP41OgGsM">
-            <img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg"
-              alt="Quer pagar o café?"><span style="margin-left:5px">Quer pagar o café?</span></a>
-        </li>
-      </ul>
-    </div>
+
+    <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowr">
+      <li class="nav-item"><a class="navbar-brand nav-link" title="Melhore a Página" href="https://www.github.com/ofrades/tesourofieis/blob/master/{{ page.path }}"><i class="fa fa-pencil d-inline-block"></i></a></li>
+
+      <li class="nav-item"></li><a class="navbar-brand nav-link" title="Fale connosco" href="mailto:info@tesourofieis.com"><i class="fa fa-envelope d-inline-block" aria-hidden="true"></i></a></li>
+
+      <li class="nav-item"></li><a class="navbar-brand nav-link" title="Quer pagar o café?" target="_blank" href="https://www.buymeacoffee.com/SP41OgGsM"><i class="fa fa-coffee d-inline-block" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+
 
 
   </div>

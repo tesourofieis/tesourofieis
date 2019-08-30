@@ -1,0 +1,108 @@
+[Rank]
+Św. Andrzeja Apostoła;;Duplex 2 classis;;5.1;;ex C1
+
+[Rank1960]
+Św. Andrzeja Apostoła;;Duplex 2 classis;;5;;ex C1
+
+[Rule]
+ex C1;
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Psalm5 Vespera=116
+Psalm5 Vespera3=138
+
+[Ant Vespera]
+Witaj krzyżu święty, * przyjmij ucznia Tego, który wisiał na Twem drzewie, Chrystusa, Mistrza mego.
+Błogosławiony Andrzej * modlił się, mówiąc: Panie, Królu wiecznej chwały, przyjmij mnie, wiszącego na drzewie męki.
+Andrzej, sługa Chrystusa, * godny Apostoł Boży, brat Piotra i towarzysz jego w męce.
+Maksymilla, Chrystusowi miła, * wzięła ciało Apostoła, pogrzebała je z wonnościami w miejscu chwalebnem.
+Tych, którzy prześladowali sprawiedliwego, * pogrążyłeś w piekle, Panie, a sprawiedliwego pociągnąłeś za sobą na drzewo krzyża.
+
+[Capitulum Vespera]
+!Rz 10:10-11
+v. Bracia: Albowiem sercem bywa wierzono ku sprawiedliwości, a usty się wyznanie dzieje ku zbawieniu. Albowiem Pismo powiada: Wszelki, kto weń wierzy, pohańbiony nie będzie.
+$Deo gratias
+
+[Ant 1]
+Jeden ze dwóch, * którzy poszli za Panem, był Andrzej, brat Szymona Piotra, alleluja.
+
+[Oratio]
+Majestat Twój, Panie, pokornie błagamy; aby święty Andrzej Apostoł, który Kościół Twój nauczał i prowadził, wstawiał się nieustannie za nami.
+$Per Dominum
+
+[Lectio1]
+Z Listu błogosławionego Pawła Apostoła do Rzymian
+!Rz 10:4-9
+4 Bo Chrystus koniec zakonu ku sprawiedliwości wszelkiemu wierzącemu.
+5 Albowiem Mojżesz napisał, iż sprawiedliwość, która jest z zakonu, któryby człowiek czynił, w niéj będzie żył.
+6 A sprawiedliwość, która jest z wiary, tak mówi: Nie mów w sercu twojem: Któż wstąpi do nieba? To jest, Chrystusa sprowadzić.
+7 Albo kto zstąpi do przepaści?To jest Chrystusa z martwch wywodzić.
+8 Ale cóż Pismo powiada? Blizko jest słowo w ustach twoich i w sercu twojem, to jest słowo wiary, które przepowiadamy:
+9 Że jeźlibyś wyzwał usty twojemi Pana Jezusa i uwierzyłbyś w sercu twojem, że go Bóg z martwych wzbudził, zbawion będziesz.
+
+[Lectio2]
+!Rz 10:10-15
+10 Albowiem sercem bywa wierzono ku sprawiedliwości, a usty się wyznanie dzieje ku zbawieniu.
+11 Albowiem Pismo powiada: Wszelki, kto weń wierzy, pohańbion nie będzie.
+12 Albowiem niemasz różności Żyda i Greczyna; bo tenże Pan wszystkich bogaty na wszystkich, którzy go wzywają.
+13 Albowiem wszelki, którybykolwiek wzywał imienia Pańskiego, zbawion będzie.
+14 Jakoż tedy wzywać będą, w którego nie uwierzyli? Albo jako uwierzą temu, którego nie słyszeli? A jako usłyszą oprócz przepowiadającego?
+15 A jako będą przepowiadać, jeźliby nie byli posłani? jako napisano jest: Jako śliczne nogi opowiadających pokój , opowiadających dobra!
+
+[Lectio3]
+!Rz 10:16-21
+16 Ale nie wszyscy są posłuszni Ewangelii; albowiem Izajasz mówi: Panie! kto wierzył słuchowi naszemu? 
+17 Wiara tedy z słuchania, a słuchanie przez słowo Chrystusowie.
+18 Ale mówię: Zali nie słyszeli? I owszem po wszystkiej ziemi rozszedł się głos ich, i na kraje świata słowa ich.
+19 Ale mówię: Zali Izrael nie poznał? Pierwszy Mojżesz mówi: Ja przez nienaród ku zazdrości was przywiodę, przez naród nierozumny do gniewu was przywiodę.
+20 A Izajasz śmie i mówi: Jestem nalezion od tych, którzy mnie nie szukali, jawniem się okazał tym, którzy się o mnie nie pytali.
+21 A do Izraela mówi: Cały dzień wyciągałem ręce moje do ludu niewiernego i sprzeciwiającego się.
+
+[Lectio7]
+Czytanie Ewangelii świętej według św. Mateusza
+!Mt 4:18-22
+Onego czasu: Gdy Jezus szedł nad Morzem Galilejskim, ujrzał dwóch braci, Szymona, którego zowią Piotrem, i Andrzeja, brata jego, zapuszczających sieci w morze. I tak dalej.
+_
+Homilia świętego Grzegorza, Papieża
+!Homilia 5. na Ewangelię
+Słyszeliście, najdrożsi bracia, iż na jeden rozkaz Piotr i Andrzej, porzuciwszy sieci, poszli za Odkupicielem. Nie widzieli jeszcze żadnych cudów przez Niego uczynionych, nie słyszeli odeń nic o wiecznej nagrodzie, a jednak na jeden rozkaz Pana zapomnieli o tym, co posiadali. A ileż my cudów Pana widzimy, ile nieszczęść nas dotyka, ileż srogich gróźb nas przeraża, a jednak, choć On nas wzywa, iść za Nim nie chcemy.
+
+[Responsory7]
+R. Święty Andrzej modlił się, spoglądając w niebo, i zawołał donośnym głosem, mówiąc: Ty jesteś moim Bogiem, którego ujrzałem; nie pozwól, abym mnie uwolnił bezbożny sędzia, 
+* Bo poznałem moc Krzyża świętego. 
+V. Tyś jest moim Mistrzem, Chryste; Ciebie umiłowałem, Ciebie poznałem, Ciebie wyznałem: wysłuchaj tylko mego głosu.
+R. Bo poznałem moc Krzyża świętego. 
+
+[Lectio8]
+Ten, który nas wzywa do nawrócenia, już zasiada w niebie, już pod jarzmo wiary podał szyję narodów, już poniżył chwałę świata, już przez zwiększającą się jego ruinę oznajmia, iż już bliski jest dzień Jego surowego sądu. A jednak nasze pyszne serce nie chce dobrowolnie tego opuścić, co wbrew swej woli traci codziennie. Co więc, najdrożsi bracia, co powiemy na Jego sądzie, skoro kochając świat teraźniejszy, ani nie uginamy się przed przykazaniami Pana, ani pomimo chłosty się nie poprawiamy?
+
+[Responsory8]
+R. Na widok krzyża Andrzej zawołał, mówiąc: O krzyżu godny podziwu, krzyżu upragniony, krzyżu, który na cały świat jaśniejesz: 
+* Przyjmij ucznia Chrystusowego, a przez ciebie niech mnie przyjmie Ten, który mnie odkupił, umierając na tobie. 
+V. O dobry krzyżu, któryś od członków Pańskich przejął swe piękno i chwałę.
+R. Przyjmij ucznia Chrystusowego, a przez ciebie niech mnie przyjmie Ten, który mnie odkupił, umierając na tobie. 
+&Gloria
+R. Przyjmij ucznia Chrystusowego, a przez ciebie niech mnie przyjmie Ten, który mnie odkupił, umierając na tobie. 
+
+[Lectio9]
+Może jednak ktoś w duchu sobie pomyśli i powie: Co i jak wiele owi dwaj rybacy opuścili, skoro prawie nic nie mieli? Jednakże, najdrożsi bracia, winniśmy raczej uwzględnić usposobienie serca, niż majątek. Wiele opuścił, kto sobie nic nie zatrzymał, wiele opuścił, kto choćby miał mało, wszystko zostawił. My zaś przywiązani jesteśmy do tego, co posiadamy, a tego, czego nam brak, gorączkowo szukamy. Wiele więc Piotr i Andrzej opuścili, skoro obaj i pragnienia posiadania się wyrzekli.
+&teDeum
+
+[Ant 2]
+Oddaj nam * człowieka sprawiedliwego, wypuść nam człowieka świętego; nie zabijaj przyjaciela Boga, sprawiedliwego, skromnego, i pobożnego.
+
+[Lectio Prima]
+!Rz 10:16-18
+v. Albowiem Izajasz mówi: Panie! kto wierzył słuchowi naszemu? Wiara tedy z słuchania, a słuchanie przez słowo Chrystusowie. Ale mówię: Zali nie słyszeli? I owszem po wszystkiej ziemi rozszedł się głos ich, i na kraje świata słowa ich.
+
+[Capitulum Sexta]
+!Rz 10:12-13
+v. Albowiem niemasz różności Żyda i Greczyna; bo tenże Pan wszystkich bogaty na wszystkich, którzy go wzywają. Albowiem wszelki, którybykolwiek wzywał imienia Pańskiego, zbawion będzie
+$Deo gratias
+
+[Ant Vespera 3]
+@:Ant Vespera:s/\.$/.;;109/m s/\.$/.;;112/m s/\.$/.;;115/m s/\.$/.;;125/m s/\.$/.;;138/m
+
+[Ant 3]
+Gdy przyszedł * błogosławiony Andrzej na miejsce, gdzie krzyż był przygotowany, wykrzyknął i rzekł: O Krzyżu dobry, tak długo pożądany i nareszcie pragnącej duszy przygotowany: pewnie i z weselem idę ku Tobie, — Ty zaś przyjmij z radością ucznia Tego, który na tobie wisiał.
