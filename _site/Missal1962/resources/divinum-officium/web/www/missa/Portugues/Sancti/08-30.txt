@@ -9,42 +9,30 @@ vide C6b;
 Gloria
 
 [Oratio]
-Almighty God, Giver of all good things, Who willed that blessed Rose, imbued in~
-early life with the dew of heavenly grace, should bloom among the Indians with~
-the beauty of virginity and patience, grant unto us, Your servants, that,~
-following the fragrance of her sweetness, we may be found worthy to become a~
-sweet savor of Christ.
+Ó Deus omnipotente, dispensador de todos os bens, que antecipadamente enriquecestes com o orvalho celestial da vossa graça a B. Rosa e que a fizestes florescer nas Índias com o brilho da virgindade e da paciência, concedei aos vossos servos que, correndo após o perfume das suas suaves virtudes, mereçamos tornar-nos o bom odor de Cristo:
 $Qui vivis
 
 
 [Secreta]
-May the offering made by Your devoted people be pleasing to You, O Lord, in~
-honor of Your Saints, through whose merits they know they have received help in~
-time of trial.
+Aceitai, Senhor, esta oferta, que Vos consagra o vosso povo fiel em honra dos vossos santos, pelos méritos dos quais reconhece que tem alcançado a vossa assistência nas tribulações.
 $Per Dominum
 
 [Postcommunio]
-You have filled Your people, O Lord, with sacred gifts; ever comfort us by the~
-intercession of her whose festival we are celebrating.
+Havendo Vós, Senhor, saciado a vossa família com vossos dons sagrados, dignai-Vos favorecer-nos sempre com a intercessão daquela cuja festa celebrámos.
 $Per Dominum
 
 [Commemoratio Oratio]
 !For Sts. Felix and Adauctus
-We humbly entreat Your Majesty, O Lord, that as You continually gladden us by~
-the commemoration of Your Saints, so may You ever protect us as a result of~
-their prayers.
+Dirigimos as nossas súplicas à vossa majestade, Senhor, a fim de que, assim como nos dais, na festa dos vossos Santos, perpétuo motivo de alegria, assim também, graças às suas orações, nos defendais perpetuamente.
 $Per Dominum
 
 [Commemoratio Secreta]
 !For Sts. Felix and Adauctus
-Look with favor, O Lord, on the offerings of Your people; may they find~
-profitable for their salvation that rite which they devoutly perform in honor of~
-Your Saints.
+Dignai-Vos lançar os vossos olhares, Senhor, para as hóstias do vosso povo, e, visto que ele Vo-las oferece com devoção em honra dos vossos Santos, fazei que sejam úteis à sua salvação.
 $Per Dominum
 
 [Commemoratio Postcommunio]
 !For Sts. Felix and Adauctus
-Filled by the holy sacrament, O Lord, we beseech You that, by the intercession~
-of Your Saints, we may spend our lives in giving thanks to You.
+Saciados com os sacrossantos dons, Senhor, Vos imploramos, permiti, pela intercessão dos vossos Santos, que permaneçamos sempre em acção de graças.
 $Per Dominum
 
