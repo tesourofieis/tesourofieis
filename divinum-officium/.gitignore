@@ -1,9 +1,3 @@
-# vagrant files
-.vagrant
-Vagrantfile
 
-# Docker compose override
-docker-compose.override.yml
-
-# Temporary files created by nano
-.*.swp
+docker-compose-prod.yml
+docker-compose.yml
