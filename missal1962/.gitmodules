@@ -1,0 +1,3 @@
+[submodule "resources/divinum-officium"]
+	path = resources/divinum-officium
+	url = https://github.com/ofrades/divinum-officium.git

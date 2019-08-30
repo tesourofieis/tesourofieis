@@ -1,8 +1,0 @@
-[Rank]
-Inventione Sanctae crucis;;Duplex II classis;;5.1;;
-
-[Rule]
-Gloria
-Credo
-Prefatio=Quad5
-
