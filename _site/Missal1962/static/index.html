@@ -4,119 +4,112 @@
 <head>
     <title>Santa Missa Diária</title>
     <meta name="description" content="Rito Romano" />
-
-    <meta property="og:image" content="http://www.mszalrzymski.pl/images/thumbnail.png">
+    <meta property="og:image" content="/img/5.png">
     <meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img/inv.png" sizes="25x25">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css"/>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58957315-2"></script>
-    <script>
-        let host = window.location.hostname;
-        if (host != "localhost" && host != "127.0.0.1") {
-            window.dataLayer = window.dataLayer || [];
-
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-
-            gtag('js', new Date());
-            gtag('config', 'UA-58957315-2', { 'anonymize_ip': true });
-            gtag('config', 'UA-58957315-2');
-        }
-    </script>
 
 </head>
 
 <body>
-<header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger">
-        <button id="sidebar-collapse" class="navbar-toggler" type="button">
-            <span>≡</span>
-        </button>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger">
+            <button id="sidebar-collapse" class="navbar-toggler" type="button">
+                <span>≡</span>
+            </button>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="navbar-brand" href="https://tesourofieis.com/"><i class="fa fa-chevron-left"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand" href="index.html">Santa Missa Diária</a>
+                </li>
+            </ul>
 
-        <a class="navbar-brand" href="index.html">Missa Diária</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
                 aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
             <span>⋮</span>
-        </button>
+        </button> -->
 
-    </nav>
-</header>
+        </nav>
+    </header>
 
-<div class="wrapper">
-    <nav id="sidebar">
+    <div class="wrapper">
+        <nav id="sidebar">
 
-        <div id="sidebar-tools">
-            <input id="search-input" type="search" placeholder="Procurar" class="form-control"/>
-            <span id="search-clear">╳</span>
-            <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
-                <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
-                    <span class="input-group-text"><i class="fa fa-calendar-o"></i></span>
+            <div id="sidebar-tools">
+                <input id="search-input" type="search" placeholder="Procurar" class="form-control" />
+                <span id="search-clear">╳</span>
+                <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
+                    <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
+                        <span class="input-group-text"><i class="fa fa-calendar-o"></i></span>
+                    </div>
+                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4"
+                        style="display: none" />
                 </div>
-                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4"
-                       style="display: none"/>
+            </div>
+            <ul class="list-unstyled with-sidebar-tools">
+                <li><img src="img/spinner.gif"></li>
+            </ul>
+        </nav>
+        <div id="content" role="main" class="container-fluid">
+            <div class="col-md-9" id="content-tools">
+                <a id="print"><i class="fa fa-print"></i></a>
+            </div>
+            <main class="col-md-9">
+                <p><img src="img/spinner.gif"></p>
+            </main>
+            <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                    <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pt
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="lang-switch" id="lang-switch-latin"> lat
+                </label>
             </div>
         </div>
-        <ul class="list-unstyled with-sidebar-tools">
-            <li><img src="img/spinner.gif"></li>
-        </ul>
-    </nav>
-    <div id="content" role="main" class="container-fluid">
-        <div class="col-md-9" id="content-tools">
-            <a id="print"><i class="fa fa-print"></i></a>
-        </div>
-        <main class="col-md-9">
-            <p><img src="img/spinner.gif"></p>
-        </main>
-        <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pt
-            </label>
-            <label class="btn btn-secondary">
-                <input type="radio" name="lang-switch" id="lang-switch-latin"> lat
-            </label>
-        </div>
     </div>
-</div>
 
-<!--Templates -->
-<script id="template-sidebar-calendar-item" type="text/x-custom-template">
+    <!--Templates -->
+    <script id="template-sidebar-calendar-item" type="text/x-custom-template">
     <li id="sidebar-calendar-item-${date}" class="sidebar-calendar-item"><a href="#${date}">
         <div>${celebration}</div>
         <div class="tempora rubric">${additional_info}</div>
     </a></li>
 </script>
-<script id="template-sidebar-calendar-item-year" type="text/x-custom-template">
+    <script id="template-sidebar-calendar-item-year" type="text/x-custom-template">
     <li class="sidebar-calendar-item">
         <a href="#${date}">
             <div class="tempora rubric">${year}</div>
         </a>
     </li>
 </script>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h1 class="display-8 text-center">${title}</h1>
+    <script id="template-content-intro" type="text/x-custom-template">
+    <h1 class="display-8">${title}</h1>
     <p><em class="rubric">${additional_info}</em></p>
     <p>${description}</p>
 </script>
-<script id="template-content-columns" type="text/x-custom-template">
+    <script id="template-content-columns" type="text/x-custom-template">
     <div class="row">
-        <div class="col-sm-6 text-justify section-vernacular">
+        <div class="col-sm-6 section-vernacular">
             <h2>${labelVernacular}</h2>
             <p>${sectionVernacular}</p>
         </div>
-        <div class="col-sm-6 text-justify section-latin">
+        <div class="col-sm-6 section-latin">
             <h2>${labelLatin}</h2>
             <p>${sectionLatin}</p>
         </div>
     </div>
 </script>
-<script id="template-content-print" type="text/x-custom-template">
+    <script id="template-content-print" type="text/x-custom-template">
     <!DOCTYPE html>
     <html>
     <head>
@@ -126,15 +119,24 @@
     </html>
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
-<script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
-<script type="text/javascript" src="js/conf-static.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/readings.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script type="text/javascript" src="js/conf-api.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/readings.js"></script>
+
+    <script type="text/javascript" src="js/moment/moment.js"></script>
+    <script type="text/javascript" src="js/moment/es.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker1').datetimepicker({ locale: 'pt' });
+        });
+    </script>
 
 </body>
 
