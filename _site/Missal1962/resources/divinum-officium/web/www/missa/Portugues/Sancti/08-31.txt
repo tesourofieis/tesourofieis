@@ -6,20 +6,14 @@ vide C5
 Gloria
 
 [Oratio]
-O God, Who made blessed Raymund, Your Confessor, famous for delivering Your~
-faithful from the captivity of the infidels, grant us by his intercession that,~
-having been released from the bonds of our sins, we may with free minds do what~
-is pleasing to You.
+Ó Deus, que ao B. Raimundo, vosso Confessor, tornastes admirável na dedicação com que libertava os vossos fiéis do cativeiro dos ímpios, concedei-nos pela sua intercessão que, livres dos vínculos dos pecados, cumpramos com liberdade de espírito o que Vos é agradável.
 $Per Dominum
 
 [Secreta]
-We offer You sacrifices of praise, O Lord, in memory of Your Saints; trusting~
-that by them we may be delivered from both present and future evils.
+Senhor, Vos oferecemos este sacrifício de louvor em memória dos vossos Santos, para que por meio dele nos livremos dos males presentes e futuros.
 $Per Dominum
 
 [Postcommunio]
-Refreshed with heavenly food and drink, we humbly pray You, our God, that we~
-also may be helped by his prayers in memory of whom we have partaken of these~
-gifts.
+Fortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, ó nosso Deus, que nos protejam as preces daquele em cuja memória os recebemos.
 $Per Dominum
 

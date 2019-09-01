@@ -550,7 +550,7 @@ titles = {
     constants.SANCTI_08_28: 'Św. Augustyna, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_08_29: 'Ścięcie Św. Jana Chrzciciela',
     constants.SANCTI_08_30: 'Santa Rosa de Lima, Virgem',
-    constants.SANCTI_08_31: 'Św. Rajmunda Nonnata, Wyznawcy',
+    constants.SANCTI_08_31: 'S. Raimundo Nonato, Confessor',
 
     constants.SANCTI_09_02: 'Św. Stefana, Króla i Wyznawcy',
     constants.SANCTI_09_03: 'Św. Piusa X, Papieża i Wyznawcy',
