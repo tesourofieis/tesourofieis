@@ -74,10 +74,10 @@ section_labels_multi = {
     'LectioL4': 'Lekcja',
     'LectioL5': 'Lekcja',
     'Lectio': 'Lekcja',
-    'OratioL1': 'Kolekta',
-    'OratioL2': 'Kolekta',
-    'OratioL3': 'Kolekta',
-    'OratioL4': 'Kolekta',
-    'OratioL5': 'Kolekta',
-    'Oratio': 'Kolekta'
+    'OratioL1': 'Oração',
+    'OratioL2': 'Oração',
+    'OratioL3': 'Oração',
+    'OratioL4': 'Oração',
+    'OratioL5': 'Oração',
+    'Oratio': 'Oração'
 }

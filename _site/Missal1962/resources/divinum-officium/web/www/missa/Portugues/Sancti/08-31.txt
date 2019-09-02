@@ -5,15 +5,38 @@ S. Raymundi Nonnati Confessoris;;Duplex;;3;;vide C5
 vide C5
 Gloria
 
+[Comment]
+# 31 VIII – S. Raimundo Nonato, Confessor
+! 3 Classe
+
+Adicionar Comentário
+
+Como na Missa Os justi excepto a Oração.
+
+[Introitus]
+@Commune/C5:Introitus
+
 [Oratio]
 Ó Deus, que ao B. Raimundo, vosso Confessor, tornastes admirável na dedicação com que libertava os vossos fiéis do cativeiro dos ímpios, concedei-nos pela sua intercessão que, livres dos vínculos dos pecados, cumpramos com liberdade de espírito o que Vos é agradável.
 $Per Dominum
 
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+@Commune/C5:Graduale
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+@Commune/C5:Offertorium
+
 [Secreta]
-Senhor, Vos oferecemos este sacrifício de louvor em memória dos vossos Santos, para que por meio dele nos livremos dos males presentes e futuros.
-$Per Dominum
+@Commune/C5:Secreta
+
+[Communio]
+@Commune/C5:Communio
 
 [Postcommunio]
-Fortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, ó nosso Deus, que nos protejam as preces daquele em cuja memória os recebemos.
-$Per Dominum
-
+@Commune/C5:Postcommunio
