@@ -25,7 +25,6 @@ logging.basicConfig(
 
 lang = 'Portugues'
 
-
 @app.route('/')
 @app.route('/<path:path>')
 def frontend(path=''):
