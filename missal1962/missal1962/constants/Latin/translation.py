@@ -552,8 +552,8 @@ titles = {
     constants.SANCTI_08_30: 'Santa Rosa de Lima, Virgem',
     constants.SANCTI_08_31: 'S. Raimundo Nonato, Confessor',
 
-    constants.SANCTI_09_02: 'Św. Stefana, Króla i Wyznawcy',
-    constants.SANCTI_09_03: 'Św. Piusa X, Papieża i Wyznawcy',
+    constants.SANCTI_09_02: 'S. Estêvão, Rei e Confessor',
+    constants.SANCTI_09_03: 'S. Pio X, Papa e Confessor',
     constants.SANCTI_09_05: 'Św. Wawrzyńca Justiniani, Biskupa i Wyznawcy',
     constants.SANCTI_09_08: 'Narodzenie N. M. P.',
     constants.SANCTI_09_09: 'Św. Gorgoniusza, Męczennika',

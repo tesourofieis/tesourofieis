@@ -7,5 +7,15 @@
 		".vscode{,/**}"
 	],
 	"appService.defaultWebAppToDeploy": "/subscriptions/85f303e3-d4af-48ce-8267-7a9e504054a6/resourceGroups/ofrades/providers/Microsoft.Web/sites/missal1962",
-	"appService.deploySubpath": "Missal1962"
+	"appService.deploySubpath": "Missal1962",
+	"python.testing.unittestArgs": [
+		"-v",
+		"-s",
+		"./Missal1962",
+		"-p",
+		"*test.py"
+	],
+	"python.testing.pytestEnabled": false,
+	"python.testing.nosetestsEnabled": false,
+	"python.testing.unittestEnabled": true
 }
