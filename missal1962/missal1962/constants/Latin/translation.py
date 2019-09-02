@@ -554,8 +554,8 @@ titles = {
 
     constants.SANCTI_09_02: 'S. Estêvão, Rei e Confessor',
     constants.SANCTI_09_03: 'S. Pio X, Papa e Confessor',
-    constants.SANCTI_09_05: 'Św. Wawrzyńca Justiniani, Biskupa i Wyznawcy',
-    constants.SANCTI_09_08: 'Narodzenie N. M. P.',
+    constants.SANCTI_09_05: 'S. Lourenço Justiniano, Bispo e Confessor',
+    constants.SANCTI_09_08: 'Natividade da B. V. Maria',
     constants.SANCTI_09_09: 'Św. Gorgoniusza, Męczennika',
     constants.SANCTI_09_10: 'Św. Mikołaja z Tolentynu, Wyznawcy',
     constants.SANCTI_09_11: 'Św. Prota i Jacka, Męczenników',
