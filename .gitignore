@@ -2,8 +2,8 @@ node_modules
 _includes/.DS_Store
 .vscode/settings.json
 .DS_Store
-_site
-Missal1962
+_site/
+Missal1962/
 
 # Local Netlify folder
 .netlify
