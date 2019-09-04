@@ -112,22 +112,17 @@ a[aria-expanded="true"] {
 
 #search-input {
     display: inline-block;
-    width: 70%;
+    width: 80%;
     margin: 5% 0 0 5%;
     border-radius: 0.25em;
-
 }
 
 #search-clear {
     position: absolute;
-    right: 70px;
-    top: 0;
-    bottom: 0;
-    height: 20px;
-    margin: auto;
-    font-size: 14px;
+    right: 50px;
+    top: 0px;
+    bottom: 20px;
     cursor: pointer;
-    color: #ccc;
 }
 
 #sidebar-tools {
@@ -136,7 +131,6 @@ a[aria-expanded="true"] {
     width: 250px;
     height: 65px;
     position: fixed;
-
 }
 
 /*
@@ -149,8 +143,7 @@ a[aria-expanded="true"] {
 }
 
 #datetimepicker4 .input-group-text {
-    border-radius: 0.25em;
-    height: 36px;
+
 }
 
 .bootstrap-datetimepicker-widget {

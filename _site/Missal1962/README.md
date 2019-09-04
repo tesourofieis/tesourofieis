@@ -116,17 +116,10 @@ $ python missal1962/cli.py proper sancti:09-15
 
 `kalendar.factory.MissalFactory#create` instantiates and builds `kalendar.models.Calendar` object.
 
-`kalendar.models.Calendar` internally keeps the data in an ordered dict where a key is a `datetime.date` object, and the
-value is an instance of `kalendar.models.Day` class.
+`kalendar.models.Calendar` internally keeps the data in an ordered dict where a key is a `datetime.date` object, and the value is an instance of `kalendar.models.Day` class.
 
-Each `kalendar.models.Day` contains three list properties, `tempora`, `celebration` and `commemoration`, each one 
-containing `kalendar.models.Observance` objects, representing given observance. `tempora` refers to the liturgical
-time, such as "The first Friday after Pentecost", `celebration` holds `kalendar.models.Observance`s that are actually
-celebrated in given day, such as "Assumption of Mary". `commemoration` contains objects representing observances
-that should be commemorated with the main celebration.  
+Each `kalendar.models.Day` contains three list properties, `tempora`, `celebration` and `commemoration`, each one containing `kalendar.models.Observance` objects, representing given observance. `tempora` refers to the liturgical time, such as "The first Friday after Pentecost", `celebration` holds `kalendar.models.Observance`s that are actually celebrated in given day, such as "Assumption of Mary". `commemoration` contains objects representing observances that should be commemorated with the main celebration.  
 
-Each `kalendar.models.Day` has method `get_proper`, which calculates the actual readings in vernacular and Latin for given
-calendar day. 
+Each `kalendar.models.Day` has method `get_proper`, which calculates the actual readings in vernacular and Latin for given calendar day. 
 
-Each `kalendar.models.Observance` has method `get_proper`, which returns the readings for the given observance (regardless
-of its place in the calendar).
+Each `kalendar.models.Observance` has method `get_proper`, which returns the readings for the given observance (regardless of its place in the calendar).

@@ -19,6 +19,8 @@ e navegar até http://0.0.0.0:8000/.
 
 Depois correndo o ficheiro gen_static_data.sh, este vai popular a pasta /data com os textos que se encontram em http://0.0.0.0:8000/. e que provêm do repositório divinum-officium.
 
-Posto isto, é necessário completar o repositório divinum-officium/web/www/missa/Portugues para que a página Missa do Dia fique completa. 
+Posto isto, é necessário completar o repositório divinum-officium/web/www/missa/Portugues para que a página Missa do Dia tenha os textos em Português.
+
+Alterando os ficheiros no repositório divinum-officium é necessário correr novamento o Dockerfile seguido do gen_static_data.sh.
 
 De momento encontram-se feitos os Domingos, excepto os da Quaresma e Páscoa.

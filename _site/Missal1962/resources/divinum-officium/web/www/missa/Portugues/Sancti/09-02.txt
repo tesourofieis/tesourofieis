@@ -5,99 +5,64 @@ S. Stephani Hungariae Regis Confessoris;;Semiduplex;;2;;vide C5
 vide C5
 Gloria
 
+[Comment]
+# 02 IX – S. Estêvão, Primeiro Mártir
+
 [Introitus]
 !Ps 36:30-31
-v. The mouth of the just man tells of wisdom, and his tongue utters what is~
-right. The law of his God is in his heart. (Alleluia, alleluia.)
+v. A boca do justo fala com sabedoria e a sua língua proclama a justiça. A lei do seu Deus estará no seu coração. (Alleluia, alleluia.)
 !Ps 36:1
-Be not vexed over evildoers, nor jealous of those who do wrong.
+Não vos irriteis contra os maus, nem tenhais inveja daqueles que cometem iniquidades.
 &Gloria
-v. The mouth of the just man tells of wisdom, and his tongue utters what is~
-right. The law of his God is in his heart. (Alleluia, alleluia.)
+v. A boca do justo fala com sabedoria e a sua língua proclama a justiça. A lei do seu Deus estará no seu coração. (Alleluia, alleluia.)
 
 [Oratio]
-We beseech You, almighty God, that Your Church be worthy to have as her glorious~
-defender in heaven blessed Stephen, Your Confessor, whom she had as her champion~
-while he reigned on earth.
+Concedei à vossa Igreja, Vos imploramos, ó Deus omnipotente, que o B. Estêvão, vosso Confessor, que ela possuiu como seu propagador enquanto reinou na terra, seja agora seu defensor na glória dos céus.
 $Per Dominum
 
 [Lectio]
 Lesson from the book of Ecclesiasticus
 !Ecclus 31:8-11
-Happy the man found without fault, who turns not aside after gain, nor puts his trust in money nor in treasures! Who is he, that we may praise him? For he has done wonders in his life. He has been tested by gold and come off safe, and this remains his glory forever; he could have sinned but did not, could have done evil but would not, so that his possessions are secure in the Lord, and the assembly of the Saints shall recount his alms.
+Bem-aventurado o homem que foi julgado sem mácula; que não correu após o ouro; e não pôs as esperanças nem no dinheiro, nem nos tesouros! Quem é ele, para que o louvemos? Porquanto operou cousas admiráveis durante a vida. Aquele que foi provado pelo ouro e foi julgado perfeito alcançará a glória eterna; pois poderia ter violado o mandamento, e o não violou; poderia ter praticado acções más, e as não praticou. É por esta razão que seus bens lhe estarão assegurados no Senhor e que toda a assembleia dos justos proclamará as boas acções que praticou.
 
 [Graduale]
 !Ps 91:12, 14.
-The just man shall flourish like the palm tree, like a cedar of Lebanon shall he~
-grow in the house of the Lord.
+O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano, na casa do Senhor.
 !Ps 91:3
-V. To proclaim Your kindness at dawn and Your faithfulness throughout the night.~
-Alleluia, alleluia.
+V. Para publicar de manhã a vossa misericórdia; e de noite a vossa verdade. Aleluia, aleluia.
 !James 1:12
-V. Blessed is the man who endures temptation; for when he has been tried, he~
-will receive the crown of life. Alleluia.
+V. Bem-aventurado o varão que sabe sofrer a tentação, porque, quando acabar a tentação, receberá a coroa da vida. Aleluia.
 
 [Tractus]
 !Ps 111:1-3
-Happy the man who fears the Lord, who greatly delights in His commands.
-V. His posterity shall be mighty upon the earth; the upright generation shall be blessed.
-V. Wealth and riches shall be in his house; his generosity shall endure forever.
+Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em obedecer-Lhe.
+V. Sua descendência será poderosa na terra; pois a geração dos justos será abençoada.
+V. Na sua casa haverá glória e riqueza: e a justiça subsistirá em todos os séculos dos séculos.
 
 [GradualeP]
-Alleluia, alleluia.
+Aleluia, aleluia.
 !James 1:12
-V. Blessed is the man who endures temptation; for when he has been tried, he~
-shall receive the crown of life. Alleluia.
+V. Bem-aventurado o varão que sabe sofrer a tentação, porque, quando acabar a tentação, receberá a coroa da vida. Aleluia.
 !Ecclus. 45:9
-V. The Lord loved him and adorned him; He clothed him with a robe of glory.~
-Alleluia.
+V. O Senhor amou-o, ornou-o e revestiu-o com a túnica da glória. Aleluia.
 
 [Evangelium]
-Continuation + of the Holy Gospel according to Luke
+Continuação do santo Evangelho segundo S. Lucas.
 !Luke 19:12-26
-At that time, Jesus spoke this parable to His disciples: A certain nobleman went~
-into a far country to obtain for himself a kingdom and then return. And having~
-summoned ten of his servants, he gave them ten gold pieces and said to them,~
-�Trade till I come.� But his citizens hated him; and they sent a delegation~
-after him to say, �We do not wish this man to be king over us.� And it came to~
-pass when he had returned, after receiving the kingdom, that he ordered the~
-servants to whom he had given the money to be called to him in order that he~
-might learn how much each one had made by trading. And the first came, saying,~
-�Lord, your gold piece has earned ten gold pieces.� And he said to him, �Well~
-done, good servant; because you have been faithful in a very little, you shall~
-have authority over ten towns.� Then the second came, saying, �Lord, your gold~
-piece has made five gold pieces.� And he said to him, �Be you also over five~
-towns.� And another came, saying, �Lord, behold your gold piece, which I have~
-kept laid up in a napkin; for I feared you, because you are a stern man. You~
-take up what you did not lay down, and you reap what you did not sow.� He said~
-to him, �Out of your own mouth I judge you, you wicked servant. You knew that I~
-am a stern man, taking up what I did not lay down and reaping what I did not~
-sow. Why, then, did you not put my money in a bank, so that I on my return might~
-have gotten it with interest?� And he said to the bystanders, �Take away the~
-gold piece from him, and give it to him who has the ten gold pieces.� But they~
-said to him, �Lord, he has ten gold pieces.� I say to you that to everyone who~
-has shall be given; but from him who does not have, even that which he has shall~
-be taken away.
+Naquele tempo, Jesus disse aos seus discípulos esta parábola: «Certo homem de linhagem nobre partiu para um país longínquo, a fim de conseguir a posse desse reino e voltar depois. Chamou, pois, dez dos seus servos, deu-lhes dez moedas e disse-lhes: «Negociai com elas até eu voltar». Porém os seus concidadãos, que o odiavam, enviaram uma embaixada após ele, dizendo: «Não queremos que este homem seja nosso rei”. Ora aconteceu que, quando regressou, revestido da realeza, mandou chamar os servos, a quem havia dado o dinheiro, para saber como haviam negociado. Veio o primeiro e disse-lhe: «Vossa moeda, senhor, rendeu dez moedas». Respondeu-lhe o senhor: «Está bem, servo bom; visto que foste fiel em pouca cousa, recebe o governo de dez cidades». Veio o segundo e disse-lhe: «Vossa moeda, senhor, rendeu cinco moedas». Respondeu-lhe o senhor: «Tu governarás cinco cidades». Veio também o terceiro e disse: «Eis a vossa moeda, senhor, que eu guardei em um pano; pois tive medo de vós, que sois homem austero: tirais o que não depositais e recolheis o que não semeais». Respondeu-lhe o senhor: «Eu te julgarei com tuas próprias palavras, ó servo mau. Tu sabes que sou homem severo, tirando o que não depositei e colhendo o que não semeei; porque, então, não depositaste o meu dinheiro em um banco, para que, quando regressasse, o recolhesse com os juros?». Depois, continuou o senhor, dirigindo-se aos presentes: «Tirai-lhe a moeda e dai-a ao que tem dez». E eles disseram-lhe: «Ele já tem dez moedas». «Eu vos digo, retorquiu o Senhor, dar-se-á àquele que tem, e ficará na abundância; mas àquele que nada tem tirar-se-lhe-á até o que tiver».
 
 [Offertorium]
 !Ps 88:25
-My faithfulness and My kindness shall be with him, and through My name shall his~
-horn be exalted. (Alleluia.)
+A minha verdade e a minha misericórdia estarão com ele, e, por virtude do meu nome, será exaltado o seu poder. (Aleluia.)
 
 [Secreta]
-Look with favor, almighty God, upon the offerings we bring to you, and grant~
-that we, who celebrate the mysteries of our Lord�s passion, may strive to~
-imitate what we commemorate.
+Ó Deus omnipotente, dignai-Vos olhar para estas hóstias, que Vos oferecemos, e permiti que, celebrando nós os mystérios da Paixão do Senhor, imitemos o que Vos apresentamos.
 $Per eundem
 
 [Communio]
 !Matt 24:46-47
-Blessed is that servant whom his master, when he comes, shall find watching.~
-Amen I say to you, he will set him over all his goods. (Alleluia.)
+Bem-aventurado o servo que o Senhor, quando vier, achar vigilante. Em verdade vos digo que lhe dará a administração de todos seus bens. (Aleluia.)
 
 [Postcommunio]
-Grant, we beseech You, almighty God, that we may follow in proper reverence the~
-faith of blessed Stephen, Your Confessor, who as a reward for spreading that~
-faith, was found worthy to pass from an earthly throne into the glory of Your~
-heavenly Kingdom.
+Concedei-nos, Vos rogamos, ó Deus omnipotente, a graça de imitarmos com a devida devoção os exemplos de fé do B. Estêvão, vosso Confessor, o qual pela propagação desta mesma fé mereceu transitar da realeza terrestre para a glória do reino celestial.
 $Per Dominum

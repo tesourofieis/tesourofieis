@@ -5,18 +5,19 @@ S. Gorgonii Martyris;;Simplex;;1.1;;vide C2
 vide C2
 Gloria
 
+[Comment]
+# 09 IX – S. Gorgónio, Mártir
+
+Como na Missa Lætábitur justus, excepto:
+
 [Oratio]
-May Gorgonius, Your Saint, O Lord, gladden us by his intercession, and cause us~
-to rejoice on his festival which we are devoutly keeping.
+Alegre-nos, Senhor, o vosso Santo Gorgónio com sua intercessão; e nos faça sentir o gozo desta pia solenidade.
 $Per Dominum
 
 [Secreta]
-O Lord, may the offering which we, Your servants, present be pleasing to You~
-because St. Gorgonius, Your Martyr, intercedes for us.
+Que Vos seja agradável, Senhor, a oferta da nossa servidão, a qual Vo-la apresentamos pela intervenção do Santo Mártir Gorgónio.
 $Per Dominum
 
 [Postcommunio]
-May Your everlasting kindness fill Your faithful people with new life, and may~
-they be ever refreshed by the good fragrance of Christ, your Son, through~
-Gorgonius, Your Martyr.
+Que a vossa família, ó Deus, seja alimentada e fortalecida com as delícias eternas; e que pelo vosso S. Mártir Gorgónio ela se alimente incessantemente com o bom odor de vosso Filho Jesus Cristo:
 $Qui vivis

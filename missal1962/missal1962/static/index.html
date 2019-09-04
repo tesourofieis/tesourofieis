@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="pt">
 
 <head>
     <title>Santa Missa Diária</title>
@@ -16,20 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
     <link rel="stylesheet" href="css/styles.css">
 
-    <script>
-        let host = window.location.hostname;
-        if (host != "localhost" && host != "127.0.0.1") {
-            window.dataLayer = window.dataLayer || [];
-
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-
-            gtag('js', new Date());
-            gtag('config', 'UA-58957315-2', { 'anonymize_ip': true });
-            gtag('config', 'UA-58957315-2');
-        }
-    </script>
 
 </head>
 
@@ -40,7 +25,7 @@
             <span>≡</span>
         </button>
 
-        
+
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
                 aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,32 +50,35 @@
     <nav id="sidebar">
 
         <div id="sidebar-tools">
+
             <input id="search-input" type="search" placeholder="Procurar" class="form-control"/>
-            <span id="search-clear">╳</span>
-            <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
+            <span id="search-clear">
+                <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
                 <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
-                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                    <div class="input-group-text bg-transparent border-0 text-danger"><i class="fa fa-calendar-o"></i></div>
                 </div>
-                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4"
-                       style="display: none"/>
-            </div>
+            </span>
+
+                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" style="display: none"/>
+
         </div>
+    </div>
         <ul class="list-unstyled with-sidebar-tools">
             <li><img src="img/spinner.gif"></li>
         </ul>
     </nav>
     <div id="content" role="main" class="container-fluid">
         <div class="col-md-9" id="content-tools">
-            <a id="print"><i class="fa fa-print"></i></a>
+            <a class="btn btn bg-transparent text-danger" id="print"><i class="fa fa-print"></i></a>
         </div>
         <main class="col-md-9">
             <p><img src="img/spinner.gif"></p>
         </main>
         <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
+            <label class="btn btn-danger">
                 <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pt
             </label>
-            <label class="btn btn-secondary">
+            <label class="btn btn-danger">
                 <input type="radio" name="lang-switch" id="lang-switch-latin"> lat
             </label>
         </div>
@@ -134,15 +122,17 @@
     <head>
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     </head>
-    <body onload="window.print()" style='margin: 4%; min-width: 300px;'>${main}<p><em>http://mszalrzymski.pl</em></p></body>
+    <body onload="window.print()" style='margin: 4%; min-width: 300px;'>${main}<p><em><i class="fa fa-print"></i> @ Tesouro dos Fiéis</em></p></body>
     </html>
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
-<script type="text/javascript" src="js/conf-static.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.js"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
+<script type="text/javascript" src="js/conf-api.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/readings.js"></script>
 
