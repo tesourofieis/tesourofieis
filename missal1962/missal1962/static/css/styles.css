@@ -117,11 +117,13 @@ a[aria-expanded="true"] {
     border-radius: 0.25em;
 }
 
-#search-clear {
+.input-group-text {
     position: absolute;
-    right: 50px;
-    top: 0px;
-    bottom: 20px;
+    right: 0;
+    left: 175px;
+    top: -42px;
+    height: 0;
+    bottom: 0;
     cursor: pointer;
 }
 
@@ -140,10 +142,6 @@ a[aria-expanded="true"] {
 #datetimepicker4 {
     display: inline-block;
     width: 20%;
-}
-
-#datetimepicker4 .input-group-text {
-
 }
 
 .bootstrap-datetimepicker-widget {

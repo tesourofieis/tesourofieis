@@ -43,7 +43,7 @@ def date(date_: str):
         day: Day = controller.get_day(date_object, lang)
         propers: List[Tuple[Proper, Proper]] = day.get_proper()
     except ValueError:
-        return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400
+        return jsonify({'error': 'Incorrect date format {}, should be %Y-%m-%d '.format(day)}), 400
     except Exception as e:
         return jsonify({'error': str(e)}), 500
     else:
@@ -90,4 +90,4 @@ def calendar(year: int = None):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

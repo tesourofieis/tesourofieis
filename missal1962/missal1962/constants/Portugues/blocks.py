@@ -48,7 +48,7 @@ SANCTI = (
     constants.SANCTI_03_09,
     constants.SANCTI_03_10,
     constants.SANCTI_03_12,
-
+    constants.SANCTI_03_15PL,
     constants.SANCTI_03_18,
     constants.SANCTI_03_19,
     constants.SANCTI_03_21,
@@ -62,7 +62,7 @@ SANCTI = (
     constants.SANCTI_04_17,
     constants.SANCTI_04_21,
     constants.SANCTI_04_22,
-
+    constants.SANCTI_04_23PL,
     constants.SANCTI_04_24,
     constants.SANCTI_04_25,
     constants.SANCTI_04_26,
@@ -72,10 +72,10 @@ SANCTI = (
     constants.SANCTI_04_30,
     constants.SANCTI_05_01,
     constants.SANCTI_05_02,
-
+    constants.SANCTI_05_03PL,
     constants.SANCTI_05_04,
     constants.SANCTI_05_05,
-
+    constants.SANCTI_05_08PL,
     constants.SANCTI_05_09,
     constants.SANCTI_05_10,
     constants.SANCTI_05_11,
@@ -83,12 +83,12 @@ SANCTI = (
     constants.SANCTI_05_13,
     constants.SANCTI_05_14,
     constants.SANCTI_05_15,
-
+    constants.SANCTI_05_16PL,
     constants.SANCTI_05_17,
     constants.SANCTI_05_18,
     constants.SANCTI_05_19,
     constants.SANCTI_05_20,
-
+    constants.SANCTI_05_24PL,
     constants.SANCTI_05_25,
     constants.SANCTI_05_26,
     constants.SANCTI_05_27,
@@ -96,13 +96,13 @@ SANCTI = (
     constants.SANCTI_05_29,
     constants.SANCTI_05_30,
     constants.SANCTI_05_31,
-
+    constants.SANCTI_06_01PL,
     constants.SANCTI_06_02,
     constants.SANCTI_06_04,
     constants.SANCTI_06_05,
     constants.SANCTI_06_06,
     constants.SANCTI_06_09,
-
+    constants.SANCTI_06_10PL,
     constants.SANCTI_06_11,
     constants.SANCTI_06_12,
     constants.SANCTI_06_13,
@@ -134,13 +134,13 @@ SANCTI = (
     constants.SANCTI_07_15,
     constants.SANCTI_07_16,
     constants.SANCTI_07_17,
-
+    constants.SANCTI_07_18PL,
     constants.SANCTI_07_19,
-
+    constants.SANCTI_07_20PL,
     constants.SANCTI_07_21,
     constants.SANCTI_07_22,
     constants.SANCTI_07_23,
-
+    constants.SANCTI_07_24PL,
     constants.SANCTI_07_25,
     constants.SANCTI_07_26,
     constants.SANCTI_07_27,
@@ -172,17 +172,17 @@ SANCTI = (
     constants.SANCTI_08_23,
     constants.SANCTI_08_24,
     constants.SANCTI_08_25,
-
+    constants.SANCTI_08_26PL,
     constants.SANCTI_08_27,
     constants.SANCTI_08_28,
     constants.SANCTI_08_29,
     constants.SANCTI_08_30,
     constants.SANCTI_08_31,
-
+    constants.SANCTI_09_01PL,
     constants.SANCTI_09_02,
     constants.SANCTI_09_03,
     constants.SANCTI_09_05,
-
+    constants.SANCTI_09_07PL,
     constants.SANCTI_09_08,
     constants.SANCTI_09_09,
     constants.SANCTI_09_10,
@@ -199,13 +199,13 @@ SANCTI = (
     constants.SANCTI_09_22,
     constants.SANCTI_09_23,
     constants.SANCTI_09_24,
-
+    constants.SANCTI_09_25PL,
     constants.SANCTI_09_26,
     constants.SANCTI_09_27,
     constants.SANCTI_09_28,
     constants.SANCTI_09_29,
     constants.SANCTI_09_30,
-
+    constants.SANCTI_10_01PL,
     constants.SANCTI_10_02,
     constants.SANCTI_10_03,
     constants.SANCTI_10_04,
@@ -239,7 +239,7 @@ SANCTI = (
     constants.SANCTI_11_10,
     constants.SANCTI_11_11,
     constants.SANCTI_11_12,
-
+    constants.SANCTI_11_13PL,
     constants.SANCTI_11_14,
     constants.SANCTI_11_15,
     constants.SANCTI_11_16,

@@ -6,6 +6,7 @@ name = "pypi"
 [dev-packages]
 pytest = ">=3.3.1"
 coverage = "*"
+autopep8 = "*"
 
 [packages]
 python-dateutil = "*"

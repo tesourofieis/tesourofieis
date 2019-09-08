@@ -54,3 +54,5 @@ docs/_build/
 target/
 .idea/
 .vscode/settings.json
+resources/divinum-officium
+resources/divinum-officium-custom
