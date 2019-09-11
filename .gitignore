@@ -2,9 +2,6 @@ node_modules
 _includes/.DS_Store
 .vscode
 .DS_Store
-Missal1962/
-
-.DS_Store
 _site/
 .sass-cache/
 .jekyll-cache/
