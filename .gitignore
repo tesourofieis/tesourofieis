@@ -1,6 +1,6 @@
-node_modules/
+node_modules
 _includes/.DS_Store
-.vscode/
+.vscode
 .DS_Store
 Missal1962/
 .netlify/
@@ -13,5 +13,7 @@ _site/
 vendor/
 _config.yml
 missa/
-.vs/
-.netlify/
+.vs
+.netlify
+.gitignore
+.gitmodules
