@@ -10,21 +10,21 @@ $(window).on("load", function () {
     loadOrdo();
 
     function loadOrdo() {
-        $.getJSON( "data/ordo.json", function( data ) {
+        $.getJSON("data/ordo.json", function (data) {
             let $main = $("main");
             $main.empty();
             let sidebarUl = $("nav#sidebar>ul");
             sidebarUl.empty();
             window.scrollTo(0, 0);
             $(renderTemplate(templateSectionTitle, {})).appendTo($main);
-            $.each(data, function(ii, item) {
-                $(renderTemplate(templateSidebarItem, {id: ii, title: item.title})).appendTo(sidebarUl);
-                $(renderTemplate(templateSectionSubTitle, {id: ii, title: item.title})).appendTo($main);
-                $.each(item.body, function(jj, bodyItem) {
+            $.each(data, function (ii, item) {
+                $(renderTemplate(templateSidebarItem, { id: ii, title: item.title })).appendTo(sidebarUl);
+                $(renderTemplate(templateSectionSubTitle, { id: ii, title: item.title })).appendTo($main);
+                $.each(item.body, function (jj, bodyItem) {
                     if (typeof bodyItem == "string") {
-                        $(renderTemplate(templateRubric, {rubric: bodyItem.split("\n").join("<br>")})).appendTo($main);
+                        $(renderTemplate(templateRubric, { rubric: bodyItem.split("\n").join("<br>") })).appendTo($main);
                     } else {
-                        $.each(bodyItem, function(x, y) {bodyItem[x] = y.replace(/\*([^\*]+)\*/g, "<em>$1</em>")})
+                        $.each(bodyItem, function (x, y) { bodyItem[x] = y.replace(/\*([^\*]+)\*/g, "<em>$1</em>") })
                         $(renderTemplate(templateContentColumns, {
                             sectionVernacular: bodyItem[0].split("\n").join("<br>"),
                             sectionLatin: bodyItem[1].split("\n").join("<br>")
@@ -36,29 +36,29 @@ $(window).on("load", function () {
         });
     }
 
-    $(window).on("resize", function(){
+    $(window).on("resize", function () {
         adaptSectionColumns();
     });
 
-    $("input[type=radio][name=lang-switch]").change(function() {
+    $("input[type=radio][name=lang-switch]").change(function () {
         toggleLangSections(this);
     });
 
-    $window.on("hashchange", function() {
+    $window.on("hashchange", function () {
         let itemId = document.location.hash.replace("#", "");
         $("#sidebar li.sidebar-ordo-item").removeClass("active");
         $("#sidebar-ordo-item-" + itemId).addClass("active");
-        let ordoItem = $("#ordo-item-"+itemId);
+        let ordoItem = $("#ordo-item-" + itemId);
         if (navbarIsCollapsed()) {
             $sidebarAndContent.removeClass("active");
         }
         // need to wait a bit until the columns are resized back after closing the sidebar
-        setTimeout(function() {$(window).scrollTop(ordoItem.offset().top - 70);}, 350);
+        setTimeout(function () { $(window).scrollTop(ordoItem.offset().top - 70); }, 350);
     });
 
     $("#print").on("click", function () {
-        let newWindow = window.open('','', "width=650, height=750");
-        let newContent = renderTemplate(templateContentPrint, {main: $main.html()});
+        let newWindow = window.open('', '', "width=650, height=750");
+        let newContent = renderTemplate(templateContentPrint, { main: $main.html() });
         newWindow.document.write(newContent);
         newWindow.document.close();
         newWindow.focus();

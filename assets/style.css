@@ -5,9 +5,8 @@
   font-family: 'Cardo', 'EB Garamond';
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
-  text-indent: 10pt;
+  text-indent: 0pt;
   text-rendering: optimizeLegibility;
-  /* line-height: 1.35; */
 }
 
 @import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
@@ -159,14 +158,3 @@ nav[data-toggle="toc"] .nav>li>a:hover {
   display: none;
 }
 }
-
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) {} */
-
-/* Large devices (desktops, 992px and up)
-@media (min-width: 992px) {} */
-
-/* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {} */
-
-

@@ -1,5 +1,11 @@
 <nav class="navbar navbar-dark navbar-expand-md fixed-top mb-4" id="main-nav">
 
+  {% if page.title == "Santa Missa Diária" %}
+  <button id="sidebar-collapse" class="navbar-toggler" type="button">
+    <span><a class="nav-link d-inline-block"><i class="fa fa-calendar"></i></a></span>
+  </button>
+  {% endif %}
+
   <a class="nav-link navbar-brand" href="{{"/index" | relative_url }}"><i class="fa fa-home d-inline-block"></i></a>
 
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -75,7 +81,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="{{"/missal1962/missal1962/static/" | relative_url }}" id="item-dia">Santa Missa Diária</a>
+        <a class="nav-link" href="{{"/missa" | relative_url }}" id="item-dia">Santa Missa Diária</a>
       </li>
 
     </ul>

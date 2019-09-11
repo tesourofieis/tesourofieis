@@ -5,6 +5,6 @@
 let config = {
     calendarEndpoint: "data/",
     dateEndpoint: "data/",
-    minDate: "2017-01-01",
+    minDate: "2018-01-01",
     maxDate: "2019-12-31"
 };

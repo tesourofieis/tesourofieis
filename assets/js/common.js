@@ -32,7 +32,7 @@ function adaptSectionColumns() {
         $("div.section-vernacular").show();
         $("div.section-latin").show();
     } else {
-        let langId = $("#lang-switch>label.active>input").attr("id");
+        let langId = $("#lang-switch>input.active>input").attr("id");
         if (langId == "lang-switch-vernacular") {
             $("div.section-vernacular").show();
             $("div.section-latin").hide();

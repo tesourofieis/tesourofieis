@@ -1,11 +1,17 @@
-node_modules
+node_modules/
 _includes/.DS_Store
 .vscode/
 .DS_Store
-_site/
 Missal1962/
-
-# Local Netlify folder
-.netlify
+.netlify/
 .DS_Store
-missal1962/resources/divinum-officium
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+_config.yml
+missa/
+.vs/
+.netlify/

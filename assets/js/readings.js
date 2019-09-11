@@ -9,8 +9,8 @@ $(window).on("load", function () {
     **/
 
     // Making :contains case insensitive
-    $.expr[":"].contains = $.expr.createPseudo(function(arg) {
-        return function( elem ) {
+    $.expr[":"].contains = $.expr.createPseudo(function (arg) {
+        return function (elem) {
             return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
         };
     });
@@ -48,7 +48,7 @@ $(window).on("load", function () {
     function getDate() {
         let tmpDate = document.location.hash.replace("#", "");
         tmpDate = moment(tmpDate, "YYYY-MM-DD");
-        if (! tmpDate.isValid()) {
+        if (!tmpDate.isValid()) {
             tmpDate = moment();
         }
         return tmpDate.format("YYYY-MM-DD");
@@ -61,7 +61,7 @@ $(window).on("load", function () {
      **/
     function loadSidebar(date, markItemActiveCallback) {
         let year = date.split("-")[0];
-        $.getJSON( config.calendarEndpoint + year, function( data ) {
+        $.getJSON(config.calendarEndpoint + year, function (data) {
             let sidebarUl = $sidebar.find("ul");
             sidebarUl.empty();
 
@@ -74,7 +74,7 @@ $(window).on("load", function () {
                 })).appendTo(sidebarUl);
             }
 
-            $.each(data, function(date, day) {
+            $.each(data, function (date, day) {
                 let additional_info = [date];
                 let celebration;
                 if (day.celebration.length > 0) {
@@ -105,7 +105,7 @@ $(window).on("load", function () {
             }
 
             markItemActiveCallback(date);
-            $searchInput.attr("placeholder", "Szukaj w " + year + "...");
+            $searchInput.attr("placeholder", "Procurar " + year + "...");
         });
     }
 
@@ -116,11 +116,11 @@ $(window).on("load", function () {
      **/
     function loadProper(date) {
         toggleSidebarItemSpinner(date);
-        $.getJSON( config.dateEndpoint + date, function( data ) {
+        $.getJSON(config.dateEndpoint + date, function (data) {
             $main.empty();
             window.scrollTo(0, 0);
 
-            $.each(data, function(index, item) {
+            $.each(data, function (index, item) {
                 let title = item["info"].title;
                 let description = item["info"].description;
                 let sectionsVernacular = item.proper_vernacular;
@@ -142,16 +142,16 @@ $(window).on("load", function () {
                     description: description.split("\n").join("<br />")
                 })).appendTo($main);
 
-                $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
+                $.each([sectionsVernacular, sectionsLatin], function (i, sections) {
                     // replacing all surrounding asterisks with surrounding <em>s in body
-                    $.each(sections, function(x, y) {sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>")})
+                    $.each(sections, function (x, y) { sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>") })
 
                 });
                 for (let i = 0; i < sectionsVernacular.length; i++) {
                     let sectionVernacular = sectionsVernacular[i];
                     let sectionLatin = sectionsLatin[i];
                     if (sectionLatin == null) {
-                        sectionLatin = {label: "", body: ""};
+                        sectionLatin = { label: "", body: "" };
                         console.error("Latin sections missing in " + date);
                     }
                     $(renderTemplate(templateContentColumns, {
@@ -185,7 +185,7 @@ $(window).on("load", function () {
             let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
 
             if (Math.abs(itemPosition) > $sidebar.height() * 0.6) {
-                $sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
+                $sidebar.animate({ scrollTop: sidebarPosition + itemPosition - 100 }, 200);
             }
         }
 
@@ -203,7 +203,7 @@ $(window).on("load", function () {
     }
 
     function mapRank(rank) {
-        return {1: '1 klasy', 2: '2 klasy', 3: '3 klasy', 4: '4 klasy'}[rank]
+        return { 1: '1 classe', 2: '2 classe', 3: '3 classe', 4: '4 classe' }[rank]
     }
 
     /**
@@ -212,11 +212,11 @@ $(window).on("load", function () {
       *
      **/
 
-    $window.on("resize", function(){
+    $window.on("resize", function () {
         adaptSectionColumns();
     });
 
-    $window.on("hashchange", function() {
+    $window.on("hashchange", function () {
         loadProper(getDate());
     });
 
@@ -225,9 +225,10 @@ $(window).on("load", function () {
         minDate: config.minDate,
         maxDate: config.maxDate,
         useCurrent: false,
+        autoclose: true,
         locale: "pt",
         widgetPositioning: {
-            horizontal: "right",
+            horizontal: "left",
             vertical: "bottom"
         }
     });
@@ -269,13 +270,13 @@ $(window).on("load", function () {
     /**
      * Switch between lang versions on small screens, where the switch is visible
      **/
-    $("input[type=radio][name=lang-switch]").change(function() {
+    $("input[type=radio][name=lang-switch]").change(function () {
         toggleLangSections(this);
     });
 
     $("#print").on("click", function () {
-        let newWindow = window.open('','', "width=650, height=750");
-        let newContent = renderTemplate(templateContentPrint, {main: $main.html()});
+        let newWindow = window.open('', '', "width=650, height=750");
+        let newContent = renderTemplate(templateContentPrint, { main: $main.html() });
         newWindow.document.write(newContent);
         newWindow.document.close();
         newWindow.focus();
