@@ -141,7 +141,7 @@ a[aria-expanded="true"] {
 
 #content {
     width: calc(100% - 250px);
-    padding: 80px 1%;
+    /* padding: 80px 1%; */
     background-color: #fff;
     min-height: 100vh;
     transition: all 0.3s;
