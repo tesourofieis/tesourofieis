@@ -1,3 +1,6 @@
 [submodule "Missal1962"]
-	path = Missal1962
+	path = missa
 	url = https://github.com/ofrades/Missal1962.git
+[submodule "DivinumOfficium"]
+	path = missa/resources/divinum-officium
+	url = https://github.com/ofrades/divinum-officium.git

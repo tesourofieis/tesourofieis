@@ -171,9 +171,9 @@ a[aria-expanded="true"] {
     padding: 0px;
 }
 
-#lang-switch button.active {
+#lang-switch label.active {
     background-color: #DF2321;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 #content-tools {

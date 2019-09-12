@@ -36,9 +36,10 @@ function adaptSectionColumns() {
         if (langId == "lang-switch-vernacular") {
             $("div.section-vernacular").show();
             $("div.section-latin").hide();
-        } else {
-            $("div.section-vernacular").hide();
+        }
+        if (langId == "lang-switch-latin") {
             $("div.section-latin").show();
+            $("div.section-vernacular").hide();
         }
     }
 }
@@ -50,9 +51,9 @@ function toggleLangSections(input) {
     if (input.id == "lang-switch-vernacular") {
         $("div.section-vernacular").show();
         $("div.section-latin").hide();
-    } else {
-        $("div.section-vernacular").hide();
+    } if (input.id == "lang-switch-latin") {
         $("div.section-latin").show();
+        $("div.section-vernacular").hide();
     }
 }
 
