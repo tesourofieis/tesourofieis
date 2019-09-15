@@ -140,7 +140,7 @@ nav[data-toggle="toc"] .nav>li>a:hover {
   width: 100%;
 }
 .carousel-inner{
-  width: 75vh;
+  width: 100%;
   height: 50vh;
   max-height: 50vh !important;
 }
