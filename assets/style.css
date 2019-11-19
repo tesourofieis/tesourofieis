@@ -20,8 +20,21 @@ html {
 }
 
 .card-img-top {
-  width: 20vh;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 0%;
+    top: 40%;
+    left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
 }
 
 em {
@@ -139,10 +152,17 @@ nav[data-toggle="toc"] .nav>li>a:hover {
 .tales {
   width: 100%;
 }
+
 .carousel-inner{
-  width: 100%;
-  height: 50vh;
+  width: 95%;
   max-height: 50vh !important;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
 }
 
 /* SHOP */
