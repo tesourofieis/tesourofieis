@@ -2,17 +2,17 @@
 * {
   font-size: 100%;
   font-weight: normal;
-  font-family: 'Cardo', 'EB Garamond';
+  font-family: "Cardo";
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
   text-indent: 0pt;
   text-rendering: optimizeLegibility;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cardo&display=swap");
 
 :root {
-  --danger-color: #DF2321;
+  --danger-color: #df2321;
 }
 
 html {
@@ -26,20 +26,20 @@ html {
 }
 
 .carousel-caption {
-    position: absolute;
-    right: 15%;
-    bottom: 0%;
-    top: 40%;
-    left: 15%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
+  position: absolute;
+  right: 15%;
+  bottom: 0%;
+  top: 40%;
+  left: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
 }
 
 em {
   text-align: center !important;
-  color: #DF2321;
+  color: #df2321;
 }
 
 .dropcaps {
@@ -52,7 +52,7 @@ em {
   padding-right: 8px;
   font-size: 300%;
   float: left;
-  color: #DF2321;
+  color: #df2321;
   line-height: 80%;
 }
 
@@ -70,8 +70,8 @@ body {
   color: #ffffff;
 }
 
-.dropdown-menu a{
-    color: #DF2321 !important;
+.dropdown-menu a {
+  color: #df2321 !important;
 }
 
 .dropdown .dropdown-menu .dropdown-item:active,
@@ -81,7 +81,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background-color: #DF2321;
+  background-color: #df2321;
 }
 
 .fa:hover,
@@ -90,13 +90,13 @@ body {
   color: #aaa;
 }
 
-nav .mynav li a{
+nav .mynav li a {
   color: #ffffff;
 }
 
 nav .mynav li a:hover,
 nav .mynav li a:active,
-nav .mynav li a:focus{
+nav .mynav li a:focus {
   color: #aaa;
 }
 
@@ -124,21 +124,21 @@ nav .mynav li a:focus{
   overflow: scroll;
 }
 
-nav[data-toggle="toc"] .nav>li>a {
+nav[data-toggle="toc"] .nav > li > a {
   display: block;
   padding: 0;
   font-size: 100%;
   font-weight: 100;
-  color: #DF2321;
+  color: #df2321;
 }
 
 nav[data-toggle="toc"] .nav-link.active,
 nav[data-toggle="toc"] .nav-link.active:focus,
 nav[data-toggle="toc"] .nav-link.active:hover,
-nav[data-toggle="toc"] .nav>li>a:focus,
-nav[data-toggle="toc"] .nav>li>a:hover {
-  color: #DF2321;
-  border-left: 1px solid #DF2321;
+nav[data-toggle="toc"] .nav > li > a:focus,
+nav[data-toggle="toc"] .nav > li > a:hover {
+  color: #df2321;
+  border-left: 1px solid #df2321;
   padding-left: 0;
 }
 
@@ -153,28 +153,28 @@ nav[data-toggle="toc"] .nav>li>a:hover {
   width: 100%;
 }
 
-.carousel-inner{
+.carousel-inner {
   width: 95%;
   max-height: 50vh !important;
 }
 
-.box-part{
-    background:#FFF;
-    border-radius:0;
-    padding:60px 10px;
-    margin:30px 0px;
+.box-part {
+  background: #fff;
+  border-radius: 0;
+  padding: 60px 10px;
+  margin: 30px 0px;
 }
 
 /* SHOP */
 
-.card-deck{
+.card-deck {
   margin-top: 5vh;
 }
 
 /*  OTHER SCREENS */
 
-@media (max-width: 550px) { 
-.col-lg-2{
-  display: none;
-}
+@media (max-width: 550px) {
+  .col-lg-2 {
+    display: none;
+  }
 }

@@ -1,15 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 
-{% include head.html %}
+<html lang="pt">
+  {% include head.html %} {% include navbar.html %}
 
-{% include navbar.html %}
+  <body data-spy="scroll" data-target="#toc" data-offset="800">
+    {{ content }}
+  </body>
 
-  <body data-spy="scroll" data-target="#toc"  data-offset="800">
-
-  {{ content }}
-
-</body>
-
-{% include scripts.html %}
-
+  {% include scripts.html %}
 </html>

@@ -1,17 +1,16 @@
 const cacheName = "site-static-v1";
+
 const staticAssets = [
   "/",
-  "/index.html",
-  "/missa",
+  "/index",
+  "/missa/",
   "/rosario",
   "/oficio",
   "/antifonas",
   "/adoracao",
   "/ordinariomissa",
   "/oracoesleoninas",
-  "/salterio",
-  "./app.js",
-  "./missa.html"
+  "/salterio"
 ];
 
 self.addEventListener("install", async event => {
