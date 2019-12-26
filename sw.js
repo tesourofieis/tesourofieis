@@ -3,6 +3,12 @@ const staticAssets = [
   "/",
   "/index.html",
   "/missa",
+  "/rosario",
+  "/oficio",
+  "/antifonas",
+  "/adoracao",
+  "/ordinariomissa",
+  "/oracoesleoninas",
   "/salterio",
   "./app.js",
   "./missa.html"
