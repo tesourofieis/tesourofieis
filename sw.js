@@ -3,6 +3,7 @@ const cacheName = "site-static-v1";
 const staticAssets = [
   "/",
   "/index",
+  "/missa",
   "/missa/",
   "/rosario",
   "/oficio",
