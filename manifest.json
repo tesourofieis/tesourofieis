@@ -1,10 +1,10 @@
 {
-  "name": "PWAConf",
-  "short_name": "PWAConf",
+  "name": "Tesouro dos Fiéis",
+  "short_name": "tesourofieis",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#2A3443",
-  "description": "A demo app for a fictional conference",
+  "description": "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja",
   "theme_color": "#2A3443",
   "icons": [
     {
