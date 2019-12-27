@@ -67,7 +67,9 @@ body {
 }
 
 #navbarTogglerDemo01 ul li a {
-  color: #ffffff;
+  color: #fff;
+  font-weight: bolder;
+  background: transparent;
 }
 
 .dropdown-menu a {
@@ -76,7 +78,7 @@ body {
 
 .dropdown .dropdown-menu .dropdown-item:active,
 .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: rgba(170, 170, 170, 0.167) !important;
+  background-color: transparent !important;
 }
 
 /* NAVBAR */
