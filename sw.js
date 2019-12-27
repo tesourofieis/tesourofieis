@@ -41,6 +41,7 @@ const staticAssets = [
   "/oracaoantescomunhao",
   "/oracaodepoiscomunhao",
   "/oracoescomplementares",
+  "/angelus",
   "/rosario",
   "/oficio",
   "/antifonas",
