@@ -1,31 +1,13 @@
-importScripts(
-  "https://unpkg.com/workbox-sw@0.0.2/build/importScripts/workbox-sw.dev.v0.0.2.js"
-);
-importScripts(
-  "https://unpkg.com/workbox-runtime-caching@1.3.0/build/importScripts/workbox-runtime-caching.prod.v1.3.0.js"
-);
-importScripts(
-  "https://unpkg.com/workbox-routing@1.3.0/build/importScripts/workbox-routing.prod.v1.3.0.js"
-);
-
-const missaRoute = new workbox.routing.RegExpRoute({
-  regExp: new RegExp("missa/*"),
-  handler: new workbox.runtimeCaching.CacheFirst()
-});
-
-const router = new workbox.routing.Router();
-//router.addFetchListener();
-router.registerRoutes({ routes: [missaRoute] });
-router.setDefaultHandler({
-  handler: new workbox.runtimeCaching.CacheFirst()
-});
-
 const cacheName = "site-static-v1";
+let today = new Date().toISOString().slice(0, 10);
 
 const staticAssets = [
   "/",
   "/index",
   "/missa",
+  "/missa/data/2019",
+  "/missa/data/2020",
+  `/missa/data/${today}`,
   "/oracaomanha",
   "/oracaonoite",
   "/requiem",
