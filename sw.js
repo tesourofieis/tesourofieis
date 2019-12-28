@@ -33,8 +33,7 @@ const staticAssets = [
   "/assets/style.css",
   "/assets/script.js",
   "/assets/missa.css",
-  "/assets/floating-labels.css",
-  "/app.js"
+  "/assets/floating-labels.css"
 ];
 
 self.addEventListener("install", async event => {
