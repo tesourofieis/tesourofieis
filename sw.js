@@ -78,7 +78,7 @@ workbox.precaching.precacheAndRoute([
   "./missa",
   "./data/2019",
   "./data/2020",
-  `./missa/data/${today}`,
+  `./data/${today}`,
   "./oracaomanha",
   "./oracaonoite",
   "./requiem",
