@@ -46,17 +46,12 @@ self.addEventListener("activate", event => {
 });
 
 self.addEventListener("fetch", event => {
-  event.respondWith(
-    caches.match(event.request).then(resp => {
-      return (
-        resp ||
-        fetch(event.request).then(response => {
-          return caches.open("v1").then(cache => {
-            cache.put(event.request, response.clone());
-            return response;
-          });
-        })
-      );
-    })
-  );
+  const req = event.request;
+  event.respondWith(cacheFirst(req));
 });
+
+async function cacheFirst(req) {
+  const cache = await caches.open("v1");
+  const cachedResponse = await cache.match(req);
+  return cachedResponse || fetch(req);
+}
