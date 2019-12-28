@@ -8,7 +8,7 @@ const staticAssets = [
   "/missa",
   "/missa/data/2019",
   "/missa/data/2020",
-  `/missa/data/${today}`,
+  // `/missa/data/${today}`,
   "/oracaomanha",
   "/oracaonoite",
   "/requiem",
