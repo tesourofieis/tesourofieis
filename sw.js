@@ -1,6 +1,6 @@
 const cacheName = "site-static-v1";
 
-// let today = new Date().toISOString().slice(0, 10);
+let today = new Date().toISOString().slice(0, 10);
 
 const staticAssets = [
   "/",
@@ -8,7 +8,7 @@ const staticAssets = [
   "/missa",
   "/missa/data/2019",
   "/missa/data/2020",
-  // `/missa/data/${today}`,
+  `/missa/data/${today}`,
   "/oracaomanha",
   "/oracaonoite",
   "/requiem",
@@ -46,11 +46,11 @@ self.addEventListener("activate", event => {
 self.addEventListener("fetch", event => {
   const req = event.request;
 
-  if (/.*(json)$/.test(req.url)) {
-    event.respondWith(networkFirst(req));
-  } else {
-    event.respondWith(cacheFirst(req));
-  }
+  // if (/.*(json)$/.test(req.url)) {
+  event.respondWith(networkFirst(req));
+  // } else {
+  //   event.respondWith(cacheFirst(req));
+  // }
 });
 
 async function cacheFirst(req) {
