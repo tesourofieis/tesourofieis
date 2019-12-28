@@ -46,11 +46,11 @@ self.addEventListener("activate", event => {
 self.addEventListener("fetch", event => {
   const req = event.request;
 
-  // if (/.*(json)$/.test(req.url)) {
-  event.respondWith(networkFirst(req));
-  // } else {
-  //   event.respondWith(cacheFirst(req));
-  // }
+  if (/.*(json)$/.test(req.url)) {
+    event.respondWith(networkFirst(req));
+  } else {
+    event.respondWith(cacheFirst(req));
+  }
 });
 
 async function cacheFirst(req) {
