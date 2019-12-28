@@ -1,6 +1,6 @@
 const cacheName = "site-static-v1";
 
-// let today = new Date().toISOString().slice(0, 10);
+let today = new Date().toISOString().slice(0, 10);
 
 const staticAssets = [
   "/",
