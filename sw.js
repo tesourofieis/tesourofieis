@@ -168,9 +168,9 @@ const staticAssets = [
   //   "./app.js"
 ];
 
-self.addEventListener("install", async event => {
-  const cache = await caches.open(cacheName);
-  await cache.addAll(staticAssets);
+self.addEventListener("install", event => {
+  const cache = caches.open(cacheName);
+  cache.addAll(staticAssets);
 });
 
 self.addEventListener("activate", event => {
