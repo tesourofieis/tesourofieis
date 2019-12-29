@@ -69,6 +69,7 @@ let today = new Date().toISOString().slice(0, 10);
 
 workbox.precaching.precacheAndRoute([
   "./",
+  "./img/gitter.png",
   "./index",
   "./missa",
   "./data/2019",
@@ -104,9 +105,7 @@ workbox.precaching.precacheAndRoute([
   "./assets/script.js",
   "./assets/missa.css",
   "./assets/floating-labels.css",
-  "./",
   "./app.js",
-  "./assets/",
   "./assets/common.js",
   "./assets/readings.js",
   "./assets/conf-static.js"
