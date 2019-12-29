@@ -3,30 +3,74 @@ importScripts(
   "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.js"
 );
 
-workbox.routing.registerRoute(
-  /\.(?:png|jpg|jpeg|svg|gif|css)$/,
-  new workbox.strategies.CacheFirst()
-);
-
 workbox.googleAnalytics.initialize();
 
-// let today = new Date().toISOString().slice(0, 10);
+const bgSyncPlugin = new workbox.backgroundSync.Plugin("myQueueName", {
+  maxRetentionTime: 24 * 60 // Retry for max of 24 Hours (specified in minutes)
+});
+
+workbox.routing.registerRoute(
+  /\.(?:png|jpg|jpeg|svg|gif|css)$/,
+  new workbox.strategies.CacheFirst(
+    {
+      plugins: [bgSyncPlugin]
+    },
+    {
+      plugins: [
+        new workbox.broadcastUpdate.Plugin({
+          channelName: "api-updates"
+        })
+      ]
+    }
+  )
+);
+
 let today = moment(new Date()).format("YYYY-MM-DD");
-let tp1 = moment(new Date()).add(1, "days").format("YYYY-MM-DD");
-let tp2 = moment(new Date()).add(2, "days").format("YYYY-MM-DD");
-let tp3 = moment(new Date()).add(3, "days").format("YYYY-MM-DD");
-let tp4 = moment(new Date()).add(4, "days").format("YYYY-MM-DD");
-let tp5 = moment(new Date()).add(5, "days").format("YYYY-MM-DD");
-let tp6 = moment(new Date()).add(6, "days").format("YYYY-MM-DD");
-let tp7 = moment(new Date()).add(7, "days").format("YYYY-MM-DD");
-let tp8 = moment(new Date()).add(8, "days").format("YYYY-MM-DD");
-let tp9 = moment(new Date()).add(9, "days").format("YYYY-MM-DD");
-let tp10 = moment(new Date()).add(10, "days").format("YYYY-MM-DD");
-let tp11 = moment(new Date()).add(11, "days").format("YYYY-MM-DD");
-let tp12 = moment(new Date()).add(12, "days").format("YYYY-MM-DD");
-let tp13 = moment(new Date()).add(13, "days").format("YYYY-MM-DD");
-let tp14 = moment(new Date()).add(14, "days").format("YYYY-MM-DD");
-let tp15 = moment(new Date()).add(15, "days").format("YYYY-MM-DD");
+let tp1 = moment(new Date())
+  .add(1, "days")
+  .format("YYYY-MM-DD");
+let tp2 = moment(new Date())
+  .add(2, "days")
+  .format("YYYY-MM-DD");
+let tp3 = moment(new Date())
+  .add(3, "days")
+  .format("YYYY-MM-DD");
+let tp4 = moment(new Date())
+  .add(4, "days")
+  .format("YYYY-MM-DD");
+let tp5 = moment(new Date())
+  .add(5, "days")
+  .format("YYYY-MM-DD");
+let tp6 = moment(new Date())
+  .add(6, "days")
+  .format("YYYY-MM-DD");
+let tp7 = moment(new Date())
+  .add(7, "days")
+  .format("YYYY-MM-DD");
+let tp8 = moment(new Date())
+  .add(8, "days")
+  .format("YYYY-MM-DD");
+let tp9 = moment(new Date())
+  .add(9, "days")
+  .format("YYYY-MM-DD");
+let tp10 = moment(new Date())
+  .add(10, "days")
+  .format("YYYY-MM-DD");
+let tp11 = moment(new Date())
+  .add(11, "days")
+  .format("YYYY-MM-DD");
+let tp12 = moment(new Date())
+  .add(12, "days")
+  .format("YYYY-MM-DD");
+let tp13 = moment(new Date())
+  .add(13, "days")
+  .format("YYYY-MM-DD");
+let tp14 = moment(new Date())
+  .add(14, "days")
+  .format("YYYY-MM-DD");
+let tp15 = moment(new Date())
+  .add(15, "days")
+  .format("YYYY-MM-DD");
 
 workbox.precaching.precacheAndRoute([
   "./",
@@ -71,6 +115,7 @@ workbox.precaching.precacheAndRoute([
   "./oficio",
   "./antifonas",
   "./adoracao",
+  "./verdadesfe",
   "./ordinariomissa",
   "./oracoesleoninas",
   "./salterio",
