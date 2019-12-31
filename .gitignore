@@ -10,6 +10,7 @@ _site/
 vendor/
 _config.yml
 missa/
+Missal1962/
 .vs
 .netlify
 .gitignore
