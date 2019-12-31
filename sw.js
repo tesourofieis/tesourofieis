@@ -122,7 +122,6 @@ workbox.precaching.precacheAndRoute([
   "./assets/style.css",
   "./assets/script.js",
   "./assets/missa.css",
-  "./assets/floating-labels.css",
   "./app.js",
   "./assets/common.js",
   "./assets/readings.js",

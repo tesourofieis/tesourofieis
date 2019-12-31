@@ -1,8 +1,7 @@
 /* GLOBAL */
 * {
   font-size: 100%;
-  font-weight: normal;
-  font-family: "Cardo";
+  font-family: "Cardo", serif;
   font-display: swap;
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
@@ -16,6 +15,10 @@
   --danger-color: #df2321;
 }
 
+p {
+  text-align: justify;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -24,18 +27,6 @@ html {
   width: 100%;
   height: 200px;
   object-fit: cover;
-}
-
-.carousel-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 0%;
-  top: 40%;
-  left: 15%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
 }
 
 em {
@@ -57,19 +48,23 @@ em {
   line-height: 80%;
 }
 
-.p {
-  text-align: justify;
-}
-
 body {
   display: flex;
   position: relative;
   margin-top: 70px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Berkshire Swash", cursive;
+}
+
 #navbarTogglerDemo01 ul li a {
   color: #fff;
-  font-weight: bolder;
   background: transparent;
 }
 
@@ -152,26 +147,8 @@ nav[data-toggle="toc"] .nav > li > a:hover {
 
 /* CAROUSEL */
 
-.tales {
-  width: 100%;
-}
-
-.carousel-inner {
-  width: 95%;
-  max-height: 50vh !important;
-}
-
-.box-part {
-  background: #fff;
-  border-radius: 0;
-  padding: 60px 10px;
-  margin: 30px 0px;
-}
-
-/* SHOP */
-
-.card-deck {
-  margin-top: 5vh;
+.carousel-inner .item {
+  transition: all 0.5s ease !important;
 }
 
 /*  OTHER SCREENS */
