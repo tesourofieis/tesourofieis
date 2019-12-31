@@ -61,7 +61,7 @@ $(window).on("load", function () {
      **/
     function loadSidebar(date, markItemActiveCallback) {
         let year = date.split("-")[0];
-        $.getJSON(config.calendarEndpoint + year, function (data) {
+        $.getJSON(config.calendarEndpoint + year + '.json', function (data) {
             let sidebarUl = $sidebar.find("ul");
             sidebarUl.empty();
 
@@ -116,7 +116,7 @@ $(window).on("load", function () {
      **/
     function loadProper(date) {
         toggleSidebarItemSpinner(date);
-        $.getJSON(config.dateEndpoint + date, function (data) {
+        $.getJSON(config.dateEndpoint + date + '.json', function (data) {
             $main.empty();
             window.scrollTo(0, 0);
 

@@ -10,12 +10,4 @@ navigation:
   - text: Baptismo
     url: /baptismo.html
 
-exclude:
-  [
-    "missa",
-    "Missal1962",
-    "node_modules",
-    ".vscode",
-    ".vs",
-    ".netlify",
-  ]
+exclude: ["Missal1962", "node_modules", ".vscode", ".vs", ".netlify"]
