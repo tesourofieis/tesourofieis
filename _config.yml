@@ -12,15 +12,8 @@ navigation:
 
 exclude:
   [
-    "missa/missal1962",
-    "missa/resources",
-    "missa/README.md",
-    "missa/Pipfile.lock",
-    "missa/Pipfile",
-    "missa/gen_static_data.sh",
-    "missa/Dockerfile",
-    "missa/tests",
-    "missa/img",
+    "missa",
+    "Missal1962",
     "node_modules",
     ".vscode",
     ".vs",

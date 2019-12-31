@@ -1,0 +1,148 @@
+[
+  {
+    "info": {
+      "additional_info": [], 
+      "date": "2020-08-11", 
+      "description": "\nComemora\u00e7\u00e3o S.S. Tib\u00farcio e Susana, M\u00e1rtires.", 
+      "id": null, 
+      "rank": 4, 
+      "supplements": [], 
+      "tempora": "Ter\u00e7a-feira da 10\u00aa semana depois de Pentecostes", 
+      "title": null
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 54:17; 54:18; 54:20; 54:23*\nDum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam, ab his, qui approp\u00ednquant mihi: et humili\u00e1vit eos, qui est ante s\u01fdcula et manet in \u00e6t\u00e9rnum: jacta cogit\u00e1tum tuum in D\u00f3mino, et ipse te en\u00fatriet.\n*Ps 54:2*\nEx\u00e1udi, Deus, orati\u00f3nem meam, et ne desp\u00e9xeris deprecati\u00f3nem meam: int\u00e9nde mihi et ex\u00e1udi me.\nGl\u00f3ria Patri.\nDum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam, ab his, qui approp\u00ednquant mihi: et humili\u00e1vit eos, qui est ante s\u01fdcula et manet in \u00e6t\u00e9rnum: jacta cogit\u00e1tum tuum in D\u00f3mino, et ipse te en\u00fatriet.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui omnipot\u00e9ntiam tuam parc\u00e9ndo m\u00e1xime et miser\u00e1ndo manif\u00e9stas: mult\u00edplica super nos miseric\u00f3rdiam tuam; ut, ad tua prom\u00edssa curr\u00e9ntes, c\u0153l\u00e9stium bon\u00f3rum f\u00e1cias esse cons\u00f3rtes.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "* Commemoratio Ss. Tiburtii et Susann\u00e6 Virginum et Martyrum *\nSanct\u00f3rum Martyrum tu\u00f3rum Tiburtii et Sus\u00e1nn\u00e6 nos, D\u00f3mine, f\u00f3veant continu\u00e1ta pr\u00e6s\u00eddia: quia non d\u00e9sinis prop\u00edtius intu\u00e9ri; quos t\u00e1libus aux\u00edliis conc\u00e9sseris adjuv\u00e1ri.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios\n*1 Cor 12:2-11*\nFratres: Scitis, qu\u00f3niam, cum gentes ess\u00e9tis, ad simul\u00e1cra muta prout duceb\u00e1mini e\u00fantes. Ideo notum vobisfacio, quod nemo in Sp\u00edritu Dei loquens, dicit an\u00e1thema Jesu. Et nemo potest d\u00edcere, D\u00f3minus Jesus, nisi in Sp\u00edritu Sancto. Divisi\u00f3nes vero grati\u00e1rum sunt, idem autem Sp\u00edritus. Et divisi\u00f3nes ministrati\u00f3num sunt, idem autem D\u00f3minus. Et divisi\u00f3nes operati\u00f3num sunt, idem vero Deus, qui oper\u00e1tur \u00f3mnia in \u00f3mnibus. Unicu\u00edque autem datur manifest\u00e1tio Sp\u00edritus ad utilit\u00e1tem. Alii quidem per Sp\u00edritum datur sermo sapi\u00e9nti\u00e6 \u00e1lii autem sermo sci\u00e9nti\u00e6 sec\u00fandum e\u00fandem Sp\u00edritum: \u00e1lteri fides in e\u00f3dem Sp\u00edritu: \u00e1lii gr\u00e1tia sanit\u00e1tum in uno Sp\u00edritu: \u00e1lii oper\u00e1tio virt\u00fatum, \u00e1lii prophet\u00eda, \u00e1lii discr\u00e9tio spir\u00edtuum, \u00e1lii g\u00e9nera lingu\u00e1rum, \u00e1lii interpret\u00e1tio serm\u00f3num. H\u00e6c autem \u00f3mnia oper\u00e1tur unus atque idem Sp\u00edritus, d\u00edvidens s\u00edngulis, prout vult.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 16:8; 68:2*\nCust\u00f3di me, D\u00f3mine, ut pup\u00edllam \u00f3culi: sub umbra al\u00e1rum tu\u00e1rum pr\u00f3tege me.\nV. De vultu tuo jud\u00edcium meum pr\u00f3deat: \u00f3culi tui v\u00eddeant \u00e6quit\u00e1tem.\n\n*Ps 64:2*\nTe decet hymnus, Deus, in Sion: et tibi redd\u00e9tur votum in Jer\u00fasalem. ", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam\n*Luc 18:9-14*\nIn illo t\u00e9mpore: Dixit Jesus ad quosdam, qui in se confid\u00e9bant tamquam justi et aspernab\u00e1ntur c\u00e9teros, par\u00e1bolam istam: Duo h\u00f3mines ascend\u00e9runt in templum, ut or\u00e1rent: unus pharis\u01fdus, et alter public\u00e1nus. Pharis\u01fdus stans, h\u00e6c apud se or\u00e1bat: Deus, gr\u00e1tias ago tibi, quia non sum sicut c\u00e9teri h\u00f3minum: rapt\u00f3res, inj\u00fasti, ad\u00falteri: velut \u00e9tiam hic public\u00e1nus. Jej\u00fano bis in s\u00e1bbato: d\u00e9cimas do \u00f3mnium, qu\u00e6 poss\u00eddeo. Et public\u00e1nus a longe stans nol\u00e9bat nec \u00f3culos ad c\u0153lum lev\u00e1re: sed percuti\u00e9bat pectus suum, dicens: Deus, prop\u00edtius esto mihi peccat\u00f3ri.Dico vobis: desc\u00e9ndit hic justific\u00e1tus in domum suam ab illo: quia omnis qui se ex\u00e1ltat, humili\u00e1bitur: et qui se hum\u00edliat, exalt\u00e1bitur.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 24:1-3*\nAd te, D\u00f3mine, lev\u00e1vi \u00e1nimam meam: Deus meus, in te conf\u00eddo, non erub\u00e9scam: neque irr\u00eddeant me inim\u00edci mei: \u00e9tenim univ\u00e9rsi, qui te exsp\u00e9ctant, non confund\u00e9ntur.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Tibi, D\u00f3mine, sacrif\u00edcia dic\u00e1ta redd\u00e1ntur: qu\u00e6 sic ad hon\u00f3rem n\u00f3minis tui defer\u00e9nda tribu\u00edsti, ut eadem rem\u00e9dia f\u00ederi nostra pr\u00e6st\u00e1res.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "* Commemoratio Ss. Tiburtii et Susann\u00e6 Virginum et Martyrum *\nAd\u00e9sto, D\u00f3mine, pr\u00e9cibus p\u00f3puli tui, ad\u00e9sto mun\u00e9ribus: ut, qu\u00e6 sacris sunt obl\u00e1ta myst\u00e9riis, tu\u00f3rum tibi pl\u00e1ceant intercessi\u00f3ne Sanct\u00f3rum.\nPer Dominum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 50:21*\nAccept\u00e1bis sacrificium just\u00edti\u00e6, oblati\u00f3nes et holoc\u00e1usta, super alt\u00e1re tuum, D\u00f3mine.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Qu\u01fdsumus, D\u00f3mine, Deus noster: ut, quos div\u00ednis repar\u00e1re non d\u00e9sinis sacram\u00e9ntis, tuis non dest\u00edtuas ben\u00edgnus aux\u00edliis.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "* Commemoratio Ss. Tiburtii et Susann\u00e6 Virginum et Martyrum *\nS\u00fampsimus, D\u00f3mine, pignus redempti\u00f3nis \u00e6t\u00e9rn\u00e6: quod sit nobis, qu\u01fdsumus, interveni\u00e9ntibus sanctis Mart\u00fdribus tuis, vit\u00e6 pr\u00e6s\u00e9ntis aux\u00edlium p\u00e1riter et fut\u00far\u00e6.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ], 
+    "proper_vernacular": [
+      {
+        "body": "*Sl 54:17-18; 54:20 54:23.*\nWhen I call upon the Lord, He heard my voice, from those who war against me; and He humbled them, Who is before all ages, and remains forever: cast your care upon the Lord, and He will support you.\n*Sl 54:2-3*\nHearken, O God, to my prayer; turn not away from my pleading; give heed to me, and answer me.\nGl\u00f3ria ao Pai.\nWhen I call upon the Lord, He heard my voice, from those who war against me; and He humbled them, Who is before all ages, and remains forever: cast your care upon the Lord, and He will support you.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "O God, You manifest Your power, particularly in forbearance and pity, show us Your mercy again and again, so that hastening toward Your promises we may become partakers of the blessings of heaven.\nPor nosso Senhor", 
+        "id": "Oratio", 
+        "label": "Collect"
+      }, 
+      {
+        "body": "* Comemora\u00e7\u00e3o S.S. Tib\u00farcio e Susana, M\u00e1rtires *\nPanie, niech nas otacza ci\u0105g\u0142a opieka \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Tyburcjusza i Zuzany, bo nie przestajesz \u0142askawie spogl\u0105da\u0107 na tych, kt\u00f3rych raczysz wspiera\u0107 tak\u0105 pomoc\u0105.\nPor nosso Senhor", 
+        "id": "Commemoratio Oratio", 
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
+      }, 
+      {
+        "body": "Lesson from the first letter of St. Paul the Apostle to the Corinthians\n*1 Cor. 12:2-11*\nBrethren: You know that when you were Gentiles, you went to dumb idols according as you were led. Wherefore I give you to understand that no one speaking in the Spirit of God, says Anathema to Jesus. And no one can say Jesus is Lord, except in the Holy Spirit. Now there are varieties of gifts, but the same Spirit; and there are varieties of ministries, but the same Lord; and there are varieties of workings, but the same God, Who works all things in all. Now the manifestation of the Spirit is given to everyone for profit. To one through the Spirit is given the utterance of wisdom; and to another the utterance of knowledge, according to the same Spirit; to another faith, in the same Spirit; to another the gift of healing, in the one Spirit; to another the working of miracles; to another prophecy; to another the distinguishing of spirits; to another various kinds of tongues; to another interpretation of tongues. But all these things are the work of one and the same Spirit, Who allots to everyone according as He will.", 
+        "id": "Lectio", 
+        "label": "Epistle"
+      }, 
+      {
+        "body": "*Sl 16:8, 2.*\nKeep me, O Lord, as the apple of Your eye; hide me in the shadow of Your wings.\nV. From You let judgment come; Your eyes behold what is right. \n*Sl 64:2*\nV. To You we owe our hymn of praise, O God, in Sion; to You must vows be fulfilled in Jerusalem. ", 
+        "id": "Graduale", 
+        "label": "Gradual"
+      }, 
+      {
+        "body": "Continuation \u2629 of the Holy Gospel according to Luke\n*Lc 18:9-14*\nAt that time, Jesus spoke this parable to some who trusted in themselves as being just and despised others. Two men went up to the temple to pray, the one a Pharisee and the other a publican. The Pharisee stood and began to pray thus within himself: \ufffdO God, I thank You that I am not like the rest of men, robbers, dishonest, adulterers, or even like this publican. I fast twice a week; I pay tithes of all that I possess.\ufffd But the publican, standing afar off, would not so much as lift up his eyes to heaven, but kept striking his breast, saying, \ufffdO God, be merciful to me the sinner!\ufffd I tell you, this man went back to his home justified rather than the other; for everyone who exalts himself shall be humbled, and he who humbles himself shall be exalted.", 
+        "id": "Evangelium", 
+        "label": "Gospel"
+      }, 
+      {
+        "body": "*Sl 24:1-3*\nTo You I lift up my soul, O Lord. In You, O my God, I trust; let me not be put to shame, let not my enemies exult over me. No one who waits for You shall be put to shame.", 
+        "id": "Offertorium", 
+        "label": "Offertory"
+      }, 
+      {
+        "body": "Let the sacred gifts be offered to You, O Lord, Who have given them to be presented for the honor of Your name, for in them You have given us a remedy for all our ills.\nPor nosso Senhor", 
+        "id": "Secreta", 
+        "label": "Secret"
+      }, 
+      {
+        "body": "* Comemora\u00e7\u00e3o S.S. Tib\u00farcio e Susana, M\u00e1rtires *\nPanie, wejrzyj \u0142askawie na pro\u015bby Twego ludu, wejrzyj na dary: niech to, co z\u0142o\u017cono w \u015bwi\u0119tym misterium, spodoba si\u0119 Tobie dzi\u0119ki wstawiennictwu \u015awi\u0119tych.\nPor nosso Senhor", 
+        "id": "Commemoratio Secreta", 
+        "label": "Comemora\u00e7\u00e3o Secreta"
+      }, 
+      {
+        "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
+        "id": "Prefatio", 
+        "label": "Preface"
+      }, 
+      {
+        "body": "*Sl 50:21*\nYou shall be pleased with due sacrifices, burnt offerings and holocausts on Your altar, O Lord.", 
+        "id": "Communio", 
+        "label": "Communion"
+      }, 
+      {
+        "body": "We beseech You, O Lord our God, that in Your mercy You will not withhold Your help from those whom You constantly restore with divine sacraments.\nPor nosso Senhor", 
+        "id": "Postcommunio", 
+        "label": "Postcommunion"
+      }, 
+      {
+        "body": "* Comemora\u00e7\u00e3o S.S. Tib\u00farcio e Susana, M\u00e1rtires *\nPrzyj\u0119li\u015bmy, Panie, zadatek zbawienia wiecznego: prosimy Ci\u0119, niech za wstawiennictwem \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w udzieli nam on pomocy na \u017cycie doczesne i wieczne.\nPor nosso Senhor", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
+      }
+    ]
+  }
+]
