@@ -3,5 +3,5 @@
 	url = https://github.com/ofrades/divinum-officium.git
 
 [submodule "Missal1962"]
-	path = Missal1962/
+	path = Missal1962
 	url = https://github.com/ofrades/Missal1962.git
