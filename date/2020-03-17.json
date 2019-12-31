@@ -86,12 +86,12 @@
       {
         "body": "*Sl 16:6-8*\nI Call upon You, for You will answer me, O God; incline Your ear to me; hear my word. Keep me, O Lord, as the apple of Your eye; hide me in the shadow of Your wings.\n*Sl 61:1*\nHear, O Lord, a just suit; attend to my outcry.\nGl\u00f3ria ao Pai.\nI Call upon You, for You will answer me, O God; incline Your ear to me; hear my word. Keep me, O Lord, as the apple of Your eye; hide me in the shadow of Your wings.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Hear us, almighty and merciful God, and in Your kindness grant us the graces of self-denial that lead to salvation.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\nBo\u017ce, kt\u00f3ry raczy\u0142e\u015b pos\u0142a\u0107 \u015bwi\u0119tego Patryka, Twego Wyznawc\u0119 i Biskupa, by g\u0142osi\u0142 poganom Tw\u0105 chwa\u0142\u0119; dla jego zas\u0142ug i wstawiennictwa spraw, aby\u015bmy za Twoim zmi\u0142owaniem mogli wype\u0142nia\u0107 to, co nakazujesz nam czyni\u0107.\nPor nosso Senhor", 
@@ -101,7 +101,7 @@
       {
         "body": "Lesson from the book of Kings\n*4 Kings 4:1-7*\nIn those days, a certain woman cried to the Prophet Eliseus, saying, Your servant, my husband, is dead, and you know that your servant was one who feared God: and behold the creditor is come to take away my two sons to serve him. And Eliseus said to her, What will you have me to do for you? Tell me, what have you in your house? And she answered, I your handmaid have nothing in my house but a little oil, to anoint me. And he said to her, Go, borrow of all your neighbors empty vessels not a few. And go in, and shut your door, when you are within, and your sons; and pour out thereof into all those vessels: and when they are full take them away. So the woman went, and shut the door upon her, and upon her sons: they brought her the vessels, and she poured in. And when the vessels were full, and she said to her son, Bring me yet a vessel. And he answered, I have no more. And the oil stood. And she came, and told the man of God. And he said, Go, sell the oil, and pay your creditor; and you and your sons live off the rest.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 18:13-14*\nCleanse me from my unknown faults, O Lord! From wanton sin especially, restrain Your servant.\nV. Let it not rule over me. Then shall I be blameless and innocent of serious sin.", 
@@ -111,17 +111,17 @@
       {
         "body": "Continuation of the Holy Gospel according to Matthew\n*Mt. 18:15-22*\nAt that time, Jesus said to His disciples: If your brother sin against you, go and show him his fault, between you and him alone. If he listen to you, you have won your brother. But if he do not listen to you, take with you one or two more so that on the word of two or three witnesses every word may be confirmed. And if he refuse to hear them, appeal to the Church, but if he refuse to hear even the Church, let him be to you as the heathen and the publican. Amen I say to you, whatever you bind on earth shall be bound also in heaven; and whatever you loose on earth shall be loosed also in heaven. I say to you further, that if two of you shall agree on earth about anything at all for which they ask, it shall be done for them by My Father in heaven. For where two or three are gathered together for My sake, there am I in the midst of them. Then Peter came up to Him and said, Lord, how often shall my brother sin against me, and I forgive him? Up to seven times? Jesus said to him, I do not say to you seven times, but seventy times seven.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 117:16-17*\nThe right hand of the Lord has struck with power: the right hand of the Lord has exalted me; I shall not die, but live, and declare the works of the Lord.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "O Lord, may this sacrament result in our redemption; keep us always from the sins of our human nature, and bring us the gift of salvation.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\nQue os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus m\u00e9ritos, sintamos o efeito do seu patroc\u00ednio.\nPor nosso Senhor", 
@@ -131,17 +131,17 @@
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 14:1-2*\nLord, who shall sojourn in Your tent? Who shall dwell on Your holy mountain? He who walks blamelessly and does justice.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "We beseech You, O Lord, that, purified by this holy sacrament, we may obtain both forgiveness and grace.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\nDignai-Vos permitir, \u00f3 Deus omnipotente, que, dando-Vos n\u00f3s gra\u00e7as pelos benef\u00edcios recebidos, alcancemos por intercess\u00e3o do B. N., vosso Confessor e Pont\u00edfice, ainda outros maiores.\nPor nosso Senhor", 
@@ -151,7 +151,7 @@
       {
         "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nDefend us, O Lord, with Your protection, and forever safeguard us from all evil.\nPor nosso Senhor", 
         "id": "Super populum", 
-        "label": "Prayer over the people"
+        "label": "Sobre o povo"
       }
     ]
   }

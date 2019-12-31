@@ -66,17 +66,17 @@
       {
         "body": "*Is 45:8*\n\u00d3 c\u00e9us, derramai dessas alturas o vosso orvalho: e que as nuvens chovam o Justo! Abra-se a terra e flores\u00e7a o Salvador!\n*Sl 18:2*\nOs c\u00e9us proclamam a gl\u00f3ria de Deus: e o firmamento anuncia as obras das suas m\u00e3os.\nGl\u00f3ria ao Pai.\n\u00d3 c\u00e9us, derramai dessas alturas o vosso orvalho: e que as nuvens chovam o Justo! Abra-se a terra e flores\u00e7a o Salvador!", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Manifestai, Senhor, o vosso poder e \u00abvinde\u00bb; e socorrei-nos com vosso infinito poder, a fim de que, com o aux\u00edlio da vossa gra\u00e7a, a vossa misericordiosa indulg\u00eancia se digne apressar a chegada do rem\u00e9dio de que os nossos pecados necessitam.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Cor\u00edntios.\n*1 Cor. 4:1-5*\nMeus irm\u00e3os: Que os homens nos considerem como ministros de Cristo e distribuidores dos m\u00e9ritos de Deus. Ora, as qualidades que se deseja que os ministros tenham \u00e9 que sejam fi\u00e9is. Quanto a mim, bem pouco me importa ser julgado por v\u00f3s ou por um tribunal humano: e nem eu a mim mesmo me julgo. Na verdade, a minha consci\u00eancia me n\u00e3o repreende de cousa alguma; contudo, nem por isso me julgo justificado, pois o meu juiz \u00e9 o Senhor. Eis por que n\u00e3o deveis julgar antes do tempo, antes que venha o Senhor, que iluminar\u00e1 o que est\u00e1 nas trevas e manifestar\u00e1 os mais secretos des\u00edgnios do cora\u00e7\u00e3o. Ent\u00e3o cada um receber\u00e1 de Deus a recompensa merit\u00f3ria.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 144:18, 20.*\nO Senhor est\u00e1 pr\u00f3ximo de todos aqueles que O invocam; de todos aqueles que O invocam com verdade.\nV. Que minha boca publique os louvores do Senhor: e que toda minha pessoa bendiga seu santo Nome. Aleluia, aleluia.\nV. Vinde, Senhor, e n\u00e3o retardeis mais: perdoai os crimes de Israel, vosso povo. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 3:1-6*\nNo ano d\u00e9cimo quinto do imp\u00e9rio de Tib\u00e9rio C\u00e9sar sendo P\u00f4ncio Pilatos governador da Judeia, Herodes tetrarca da Galileia, Filipe, seu irm\u00e3o, tetrarca da Itureia e da regi\u00e3o de Traconites, e Lis\u00e2nias tetrarca da Abil\u00ednia, e sendo pont\u00edfices An\u00e1s e Caif\u00e1s: fez-se ouvir a palavra do Senhor, que foi dirigida no deserto a Jo\u00e3o, filho de Zacarias, o qual percorreu toda a regi\u00e3o vizinha do Jord\u00e3o, pregando o baptismo de penit\u00eancia para a remiss\u00e3o dos pecados, segundo o que est\u00e1 escrito no livro das profecias do Profeta Isa\u00edas: \u00abA voz do que clama no deserto: Preparai o caminho do Senhor; endireitai as suas veredas: toda a plan\u00edcie ser\u00e1 elevada e todas as montanhas e colinas ser\u00e3o arrasadas: os caminhos tortuosos ser\u00e3o endireitados e os \u00e1speros aplanados; e toda a carne humana ver\u00e1 a salva\u00e7\u00e3o de Deus\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Lc 1:28*\nAve, Maria, cheia de gra\u00e7a: o Senhor \u00e9 convosco: bendita sois v\u00f3s entre as mulheres: e bendito \u00e9 o fruto do vosso ventre.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Senhor, Vos suplicamos, olhai prop\u00edcio para estes sacrif\u00edcios que Vos apresentamos, a fim de que sirvam para aumento da nossa devo\u00e7\u00e3o e para conseguirmos a salva\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Is 7:14*\nEis que uma Virgem conceber\u00e1 e dar\u00e1 \u00e0 luz um filho, que ser\u00e1 chamado Emanuel.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Havendo n\u00f3s recebido os vossos dons sacrat\u00edssimos, Senhor, Vos suplicamos, dignai-Vos aumentar em n\u00f3s, pela frequente recep\u00e7\u00e3o deste myst\u00e9rio, o efeito da nossa salva\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

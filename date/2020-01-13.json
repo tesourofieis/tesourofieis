@@ -68,17 +68,17 @@
       {
         "body": "*Ml 3:1; 1 Krn 29:12*\nEis que apareceu soberano Senhor: e traz empunhado o ceptro da realeza, do poder e do imp\u00e9rio.\n*Sl 71:1*\n\u00d3 Deus, concedei ao Rei a gra\u00e7a de saber julgar: e ao filho do Rei a vossa justi\u00e7a.\nGl\u00f3ria ao Pai.\nEis que apareceu soberano Senhor: e traz empunhado o ceptro da realeza, do poder e do imp\u00e9rio.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, cujo Filho Unig\u00e9nito apareceu na terra revestido com a subst\u00e2ncia da nossa carne, permiti, Vos rogamos, que mere\u00e7amos a gra\u00e7a de sermos reformados interiormente por Aquele que reconhecemos semelhante a n\u00f3s exteriormente.\nQue convosco vive.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Profeta Isa\u00edas.\n*Is 60:1-6*\nErgue-te e resplandece, Jerusal\u00e9m, pois a tua luz raiou, e a gl\u00f3ria do Senhor brilhou sobre ti. Enquanto as trevas cobrem a terra, e uma noite escura envolve os povos, eis que desponta sobre ti a aurora do Senhor; e a sua gl\u00f3ria resplandece em ti. As na\u00e7\u00f5es caminhar\u00e3o, guiadas pelo clar\u00e3o da tua luz, e os reis pelo fulgor da tua aurora. Ergue os teus olhos; volve-os em torno de ti e v\u00ea: todos se congregam e v\u00eam a ti. Os teus filhos v\u00eam de longe e as tuas filhas surgir\u00e3o ao lado. Ent\u00e3o, tu o ver\u00e1s e te encontrar\u00e1s na opul\u00eancia. O teu cora\u00e7\u00e3o se alegrar\u00e1 e dilatar\u00e1, pois, as riquezas do mar vir\u00e3o a ti; os tesouros das na\u00e7\u00f5es vir\u00e3o \u00e0 tua posse! Numerosos camelos e dromed\u00e1rios de M\u00e1dian e de Efa vir\u00e3o a ti. Todos os de Sab\u00e1 vir\u00e3o junto de ti, trazendo ouro e incenso e louvando o Senhor.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Is 60:6; 60:1*\nTodos os de Sab\u00e1 vir\u00e3o, trazendo ouro em incenso e louvando o Senhor.\nV. Ergue-te, Jerusal\u00e9m, e resplandece, porque a gl\u00f3ria do Senhor brilhou sobre ti. Aleluia, aleluia.\n*Mt 2:2*\nVimos a sua estrela no Oriente e viemos com ofertas adorar o Senhor. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 1:29-34*\nNaquele tempo, Jo\u00e3o viu Jesus, que caminhava para ele, e disse: \u00abEis o Cordeiro de Deus, eis o que tira o pecado do mundo. Este \u00e9 Aquele de quem eu disse: \u00abDepois de mim vem um homem, que me precedeu, porque j\u00e1 existia antes de mim. Eu O n\u00e3o conhecia, mas foi para que Ele fosse manifestado a Israel que vim baptizar na \u00e1gua\u00bb. E Jo\u00e3o deu este testemunho, dizendo: \u00abEu vi o Esp\u00edrito descer do c\u00e9u, sob a forma de uma pomba, e pousar sobre Ele. Eu O n\u00e3o conhecia, mas Aquele que me enviou a baptizar na \u00e1gua disse-me: \u00abAquele sobre quem vires o Esp\u00edrito descer e pousar \u00e9 o que baptiza no Esp\u00edrito Santo\u00bb. Eu vi isto e afirmo que Ele \u00e9 o Filho de Deus\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 71:10-11*\nOs reis de T\u00e1rsis e as ilhas oferecer-Lhe-\u00e3o tributos: Os reis de Ar\u00e1bia e de Sab\u00e1 levar-Lhe-\u00e3o ofertas; todos os reis da terra O adorar\u00e3o; e todas as na\u00e7\u00f5es O servir\u00e3o.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Senhor, Vos oferecemos sacrif\u00edcios em mem\u00f3ria da manifesta\u00e7\u00e3o do vosso Filho, que nasceu no mundo, suplicando-Vos que, assim como Jesus Cristo, nosso Senhor, \u00e9 o autor destes dons, assim tamb\u00e9m os aceites misericordiosamente.\nQue convosco vive.", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da Epifania*\nVerdadeiramente \u00e9 digno e justo, racional e salutar dar-Vos gra\u00e7as, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre: Pois o vosso Filho Unig\u00e9nito, revestido com a substancia da nossa carne mortal, reparou as faltas da natureza humana, comunicando-lhe o novo esplendor da sua imortalidade. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 2:2*\nVimos a sua estrela no Oriente e viemos com ofertas adorar o Senhor.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Dignai-Vos assistir-nos sempre e em toda a parte com vossa celestial luz, Senhor, Vos pedimos, a fim de que, assim corno quisestes que particip\u00e1ssemos deste myst\u00e9rio, assim tamb\u00e9m possamos contempl\u00e1-lo com olhos puros e receb\u00ea-lo com afecto digno.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

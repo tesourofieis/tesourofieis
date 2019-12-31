@@ -68,17 +68,17 @@
       {
         "body": "*Dn 3:84; 3:87*\nBendizei o Senhor, \u00f3 sacerdotes de Deus: louvai o Senhor, \u00f3 v\u00f3s, santos e humildes de cora\u00e7\u00e3o!\n*Dn 3:57*\nBendizei o Senhor, todas as obras do Senhor: louvai-O e glorificai-O em todos os s\u00e9culos!\nGl\u00f3ria ao Pai.\nBendizei o Senhor, \u00f3 sacerdotes de Deus: louvai o Senhor, \u00f3 v\u00f3s, santos e humildes de cora\u00e7\u00e3o!", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que nos alegrais com a solenidade anual do B. N., vosso M\u00e1rtir e Pont\u00edfice, concedei-nos prop\u00edcio que, assim como celebramos o seu nascimento, assim tamb\u00e9m gozemos a sua protec\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Czytanie z Listu \u015bwi\u0119tego Jana Aposto\u0142a.\n*1 J 3:10-16*\nCar\u00edssimos: Aquele que n\u00e3o \u00e9 justo e n\u00e3o ama seu irm\u00e3o n\u00e3o \u00e9 de Deus. Porque esta \u00e9 a recomenda\u00e7\u00e3o que ouvistes desde o princ\u00edpio: \u00abQue vos ameis uns aos outros\u00bb. N\u00e3o seja, por\u00e9m, como Caim, que era maligno o qual matou o seu irm\u00e3o. E porque o matou ele? Porque as suas obras eram m\u00e1s, enquanto que as do seu irm\u00e3o eram justas. N\u00e3o vos admireis, irm\u00e3os, se o mundo vos odeia; porquanto sabemos que passamos da morte \u00e0 vida, porque amamos os nossos irm\u00e3os. Aquele que n\u00e3o ama permanece na morte. Aquele que odeia o seu irm\u00e3o \u00e9 um homicida. E v\u00f3s sabeis que o homicida n\u00e3o tem a vida eterna, permanecendo em si. Nisto conhecemos o amor de Deus: porquanto Ele deu sua vida por n\u00f3s; e n\u00f3s devemos tamb\u00e9m dar a nossa vida por nossos irm\u00e3os.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 8:6-7*\nV\u00f3s o coroastes, Senhor, com gl\u00f3ria e com honras.\nV. V\u00f3s lhe destes o dom\u00ednio sobre as obras das vossas m\u00e3os. Aleluia, aleluia.\nV. Eis o sacerdote que o Senhor coroou. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 10:26-32*\nNaquele tempo, disse Jesus aos disc\u00edpulos: \u00abNada h\u00e1 oculto que n\u00e3o haja e ser descoberto, nem segredo que n\u00e3o venha a ser revelado. O que dizeis nas trevas dizei-o \u00e0s claras; o que dizeis ao ouvido publicai-o em cima dos telhados. N\u00e3o tenhais medo daqueles que matam o corpo e n\u00e3o podem matar a alma; temei antes aquele que pode condenar a alma e o corpo ao inferno. Porventura se n\u00e3o vendem dois p\u00e1ssaros por um ceitil? E nenhum deles, contudo, cair\u00e1 no ch\u00e3o sem o consentimento do vosso Pai. At\u00e9 os cabelos da vossa cabe\u00e7a est\u00e3o contados. Nada receeis, pois valeis mais do que muitos p\u00e1ssaros. Portanto, todo aquele que me confessar perante os homens tamb\u00e9m o confessarei na presen\u00e7a de meu Pai, que est\u00e1 nos c\u00e9us\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:21-22*\nEncontrei o meu servo David: e ungi-o com meu \u00f3leo sagrado: a minha m\u00e3o o socorrer\u00e1 e o meu bra\u00e7o o fortalecer\u00e1.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Santificai, Senhor, estes dons que Vos s\u00e3o oferecidos, e, por intercess\u00e3o do B. N. vosso M\u00e1rtir e Pont\u00edfice, olhai aplacado para n\u00f3s.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 20:4*\nSenhor, impusestes na sua cabe\u00e7a uma coroa de pedras preciosas.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Fortalecidos com a participa\u00e7\u00e3o deste dom sacrat\u00edssimo, Vos suplicamos, Senhor, nosso Deus, que, por intercess\u00e3o do B. Policarpo, vosso M\u00e1rtir e Pont\u00edfice, sintamos o efeito do myst\u00e9rio que celebr\u00e1mos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

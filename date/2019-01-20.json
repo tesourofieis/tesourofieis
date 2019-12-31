@@ -66,17 +66,17 @@
       {
         "body": "*Sl 65:4*\nQue todo o universo Vos adore, \u00f3 Deus, e cante hinos em vosso louvor: Que toda a terra louve com c\u00e2nticos a vossa gl\u00f3ria, \u00f3 Alt\u00edssimo!\n*Sl 65:1-2*\nAclamai jubilosamente o Senhor, \u00f3 habitantes da terra: cantai hinos em honra do seu nome: glorificai-O com vossos louvores.\nGl\u00f3ria ao Pai.\nQue todo o universo Vos adore, \u00f3 Deus, e cante hinos em vosso louvor: Que toda a terra louve com c\u00e2nticos a vossa gl\u00f3ria, \u00f3 Alt\u00edssimo!", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus omnipotente e eterno, que governais ao mesmo tempo o c\u00e9u e a terra, ouvi misericordiosamente as s\u00faplicas do vosso povo, e concedei a vossa paz aos nossos tempos.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Romanos\n*Rom 12:6-16*\nVisto que todos recebemos dons diferentes, conforme a gra\u00e7a que nos foi dada, assim, pois, aquele que recebeu o dom da profecia, exer\u00e7a-a, segundo a regra da f\u00e9; aquele que foi chamado para o minist\u00e9rio do ensino, exer\u00e7a-o; aquele que recebeu o dom de exortar, exorte; aquele que d\u00e1 esmola, d\u00ea-a com simplicidade; aquele que governa, governe com solicitude; aquele que pratica as obras de miseric\u00f3rdia, pratique-as com alegria. Que a vossa caridade seja sem fingimento. Odiai o mal e amai o bem. Amai-vos reciprocamente com amor fraternal, sendo cada um sol\u00edcito em honrar o outro. Com o zelo vencei a pregui\u00e7a; conservai o fervor no esp\u00edrito; servi o Senhor; alegrai-vos na esperan\u00e7a; sede pacientes nas tribula\u00e7\u00f5es; ass\u00edduos na ora\u00e7\u00e3o; prontos em socorrer as necessidades dos fi\u00e9is; praticai a hospitalidade; aben\u00e7oai aqueles que vos perseguem: aben\u00e7oai-os e n\u00e3o os amaldi\u00e7oeis; alegrai-vos com os que est\u00e3o alegres; chorai com os que choram; tende entre v\u00f3s os mesmos sentimentos; n\u00e3o aspireis ao que \u00e9 elevado, mas aceitai o que \u00e9 humilde.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 106:20-21*\nEnviou o Senhor a sua palavra; curou-os e livrou-os da morte.\nV. Louvai o Senhor pela sua miseric\u00f3rdia: e pelos seus prod\u00edgios para com os filhos dos homens. Aleluia, aleluia.\n*Sl 148:2*\nLouvai o Senhor, v\u00f3s todos, que sois os seus Anjos: louvai-O, v\u00f3s todos, que sois os seus ex\u00e9rcitos. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o\n*Jo 2:1-11*\nNaquele tempo, celebraram-se as bodas em Can\u00e1, de Galileia, e a M\u00e3e de Jesus estava presente. Jesus foi tamb\u00e9m convidado com seus disc\u00edpulos para assistir \u00e0s n\u00fapcias. Havendo, ent\u00e3o, faltado o vinho, a M\u00e3e de Jesus disse-Lhe: \u00abN\u00e3o t\u00eam vinho\u00bb. Jesus respondeu-lhe: \u00abMulher, que tenho Eu e v\u00f3s com isso? Ainda n\u00e3o chegou a minha hora\u00bb. Mas sua M\u00e3e disse aos servos: \u00abFazei tudo quanto Ele vos disser\u00bb. Ora, estavam ali seis talhas de pedra para servirem nas purifica\u00e7\u00f5es dos judeus, contendo cada uma delas duas ou tr\u00eas medidas. Jesus disse-lhes ent\u00e3o: \u00abEnchei as talhas com \u00e1gua\u00bb. Eles as encheram at\u00e9 acima. E Jesus continuou: \u00abTirai, agora, e levai ao que dirige o banquete\u00bb. Eles assim fizeram. Logo que o que dirigia o banquete provou o vinho (ele n\u00e3o sabia donde viera este vinho, mas os servos, que haviam tirado a \u00e1gua, sabiam) chamou o esposo e disse-lhe: \u00abTodo o homem serve primeiramente o bom vinho, e depois que se bebe dele abundantemente \u00e9 que serve o inferior; tu, por\u00e9m, guardaste o melhor at\u00e9 este momento\u00bb. Tal foi, \u00f3 Can\u00e1, de Galileia, o primeiro milagre que Jesus fez! Assim manifestou a sua gl\u00f3ria, acreditando n\u2019Ele os seus disc\u00edpulos.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 65:1-2, 16.*\nAclamai jubilosamente o Senhor, \u00f3 habitantes da terra: cantai hinos em honra do seu nome! Vinde e ouvi, v\u00f3s todos, que temeis Deus, e contar-vos-ei as gra\u00e7as que o Senhor fez \u00e0 minha alma. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Santificai, Senhor, as oblatas que Vos oferecemos; e purificai-nos das manchas dos nossos pecados.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Jo 2:7-11*\nDisse o Senhor: \u00abEnchei estas talhas com \u00e1gua e levai-as ao que dirige o banquete\u00bb. E, logo que o que dirigia o banquete provou a \u00e1gua, mudada em vinho, disse ao esposo: \u00abTu guardaste o bom vinho at\u00e9 este momento!\u00bb. Tal foi o primeiro milagre que Jesus fez na presen\u00e7a de seus disc\u00edpulos.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Senhor, dignai-Vos aumentar em n\u00f3s os efeitos do vosso poder, a fim de que, alimentados com os divinos sacramentos, nos preparemos com vossa gra\u00e7a para alcan\u00e7ar os benef\u00edcios, de que s\u00e3o o penhor.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

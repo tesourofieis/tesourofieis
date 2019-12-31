@@ -81,12 +81,12 @@
       {
         "body": "*Tob 12:6*\nBlessed be the Holy Trinity and undivided Unity: we will give glory to Him, because He has shown His mercy to us.\n*Sl 8:2*\nO Lord, our Lord, how glorious is Your Name over all the earth!\nGl\u00f3ria ao Pai.\nBlessed be the Holy Trinity and undivided Unity: we will give glory to Him, because He has shown His mercy to us.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Almighty, eternal God, You Who have given Your servants, in the confession of the true faith, to acknowledge the glory of the eternal Trinity, and in the power of that majesty to adore its unity, grant, we beseech You, that in the firmness of this faith we may ever be protected from all harm.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S.S. Primo e Feliciano, M\u00e1rtires *\nDaj nam, Panie, zawsze tak obchodzi\u0107 uroczysto\u015b\u0107 \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Pryma i Felicjana, aby\u015bmy za ich wstawiennictwem doznali Twojej dobroczynnej opieki.\nPor nosso Senhor", 
@@ -96,7 +96,7 @@
       {
         "body": "Lesson from the letter of St. Paul the Apostle to the Romans\n*Rom. 11:33-36.*\nOh, the depth of the riches of the wisdom and of the knowledge of God! How incomprehensible and His judgments and how unsearchable His ways! For Who has known the mind of the Lord, or who has been His counselor? Or who has first given to Him, that recompense should be made him? For from Him and through Him and unto Him are all things. To Him be the glory forever, amen.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Dan 3:55-56*\nBlessed are You, O Lord, Who look into the depths from Your throne upon the Cherubim.\nV. Blessed are You, O Lord, in the firmament of heaven, and praiseworthy forever. \n*Dan 3:52*\nBlessed are You, O Lord, the God of our fathers, and praiseworthy forever. ", 
@@ -106,17 +106,17 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to Matthew\n*Mt 28:18-20*\nAt that time, Jesus said to His disciples: All power in heaven and on earth has been given to Me. Go, therefore, and make disciples of all nations, baptizing them in the Name of the Father, and of the Son, and of the Holy Spirit, teaching them to observe all that I have commanded you; and behold, I am with you all days, even unto the consummation of the world.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Tob. 12:6.*\nBlessed be God the Father, and the only-begotten Son of God, and also the Holy Spirit: because He has shown His mercy to us.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "We call upon Your Name, O Lord, and beseech You to hallow this sacrificial offering and through it to make us an eternal offering to You.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S.S. Primo e Feliciano, M\u00e1rtires *\nProsimy Ci\u0119, Panie, niech ta ofiara, sk\u0142adana ku uczczeniu chwalebnego m\u0119cze\u0144stwa, zjedna nam Ciebie, by\u015b przez ni\u0105 i grzechy nasze zmaza\u0142, i przyj\u0105\u0142 \u0142askawie b\u0142agania s\u0142ug Swoich.\nPor nosso Senhor", 
@@ -126,17 +126,17 @@
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Tob 12:6*\nWe bless the God of heaven, and before all living we will praise Him; because He has shown His mercy to us.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May the reception of this sacrament, O Lord our God, and the profession of our faith in the eternal holy Trinity and undivided Unity, benefit us for the salvation of body and soul.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S.S. Primo e Feliciano, M\u00e1rtires *\nProsimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby uroczysto\u015b\u0107 \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Pryma i Felicjana, obchodzona przez sprawowanie niebieskich tajemnic, wyjedna\u0142a nam Twe \u0142askawe przebaczenie.\nPor nosso Senhor", 

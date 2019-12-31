@@ -71,17 +71,17 @@
       {
         "body": "*Gl 6:14.*\nBut God forbid that I should glory, save in the cross of our Lord Jesus Christ; by whom the world is crucified to me, and I to the world.\n*Sl 66:2*\nMay God have mercy on us, and bless us: may he cause the light of his countenance to shine upon us, and may he have mercy on us.\nBut God forbid that I should glory, save in the cross of our Lord Jesus Christ; by whom the world is crucified to me, and I to the world.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Almighty and eternal God, grant us so to celebrate thy mysteries of our Lord's Passion, that we may deserve to abtain forgiveness.\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the book of Jeremias the Prophet.\n*Jr 11:18-20*\nBut thou, O Lord, hast shewn me, and I have known: then thou shewedst me their doings. And I was as a meek lamb, that is carried to be a victim: and I knew not that they had devised counsels against me, saying: Let us put wood on his bread, and cut him off from the land of the living, and let his name be remembered no more. But thou, O Lord of Sabaoth, who judgest justly, and triest the reins and hearts, let me see thy revenge on them: for to thee I have revealed my cause.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 34:13; 34:1-2*\nBut as for me, when they were troublesome to me, I was clothed with haircloth. I humbled my soul with fasting; and my prayer shall be turned into my bosom.\nV. Judge thou, O Lord, them that wrong me : overthrow them that fight against me. Take hold of arms and shield : and rise up to help me.", 
@@ -91,37 +91,37 @@
       {
         "body": "\nCleanse my heart and my lips, O almighty God, who didst cleanse the lips of the prophet Isaias with a burning coal, and vouchsafe, through Thy gracious mercy, so to purify me, that I may worthily announce Thy holy Gospel. Through Christ our Lord. Amen.\nD. Sir, give me thy blessing.\nS. The Lord be in your hearts and on your lips, that you may worthily and in a becoming manner, proclaim His holy Gospel. In the name of the Father, and of the Son, \u2629 and of the Holy Ghost.\nD. Amen.\n\n \nPassion of our Lord Jesus Christ, according to Mark\n*Mc 14:1-72; 15:1-46*\nAnd when evening was now come, - because it was the Parasceve, that is, the day before the sabbath, - Joseph of Arimathea, a noble counsellor, who was also himself looking for the kingdom of God, came and went in boldly to Pilate, and begged the body of Jesus. But Pilate wondered that he should be already dead. And sending for the centurion, he asked him if he were already dead. And when he had understood it by the centurion, he gave the body to Joseph. And Joseph buying fine linen, and taking him down, wrapped him up in the fine linen, and laid him in a sepulchre which was hewed out of a rock. And he rolled a stone to the door of the sepulchre.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 139:5*\nKeep me, O Lord, from the hand of the wicked: and from unjust men deliver me.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "May these sacrifices, we beseech thee, O Lord, which are observed along with health-giving fasts, speedily restore us.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da Santa Cruz*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que estabelecestes na \u00e1rvore da Cruz a salva\u00e7\u00e3o do g\u00e9nero humano, para que renascesse a vida, onde a morte houvera princ\u00edpio, e que aquilo que outrora vencera na \u00e1rvore, fosse vencido na \u00e1rvore tamb\u00e9m, por Jesus Cristo, nosso Senhor: pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos C\u00e9us e os bem-aventurados Serafins a celebram em comuns transportes de alegria: aos quais, Vos suplicamos, permiti que se unam as nossas vozes, dizendo em humilde e suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 68:13-14*\nThey that sat in the gate spoke against me: and they that drank wine made me their song. But as for me, my prayer is to thee, O Lord; for the time of thy good pleasure, O God. In the multitude of thy mercy hear me.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "By thy holy mysteries, almighty God, may our vices be cured, and everlasting healing be granted to us.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nMay thy mercy, O God, cleanse us from all traces of our old nature, and enable us to be formed anew unto holiness.\nPor nosso Senhor", 
         "id": "Super populum", 
-        "label": "Prayer over the people"
+        "label": "Sobre o povo"
       }
     ]
   }

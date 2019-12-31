@@ -81,12 +81,12 @@
       {
         "body": "*Jr 29:11-12; 29:14*\nDisse o Senhor: tenho pensamentos de paz e n\u00e3o de ira: invocar-me-eis e ouvir-vos-ei; e farei regressar de todos os pa\u00edses os vossos cativos.\n*Sl 84:2*\nAben\u00e7oastes, Senhor, a vossa terra e livrastes Jacob do cativeiro.\nGl\u00f3ria ao Pai.\nDisse o Senhor: tenho pensamentos de paz e n\u00e3o de ira: invocar-me-eis e ouvir-vos-ei; e farei regressar de todos os pa\u00edses os vossos cativos.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Perdoai, Senhor, os delitos do vosso povo, a fim de que pela vossa benignidade sejamos livres dos liames dos pecados em que a nossa fraqueza nos fez cair.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\n\u00d3 Deus omnipotente e sempiterno, que com admir\u00e1vel provid\u00eancia escolheis o que h\u00e1 de mais fraco no mundo para confundir os fortes, concedei prop\u00edcio \u00e0 nossa humildade que, pelas piedosas preces do B. Diogo, vosso Confessor, mere\u00e7amos ser elevados \u00e0 gl\u00f3ria eterna nos c\u00e9us.\nPor nosso Senhor", 
@@ -96,7 +96,7 @@
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Filipenses.\n*Fl 3:17-21; 4:1-3*\nMeus irm\u00e3os: Sede meus imitadores e segui aqueles que se conduzem segundo o modelo que tendes em n\u00f3s; porque h\u00e1 muitos, de quem vos tenho falado (e ainda falo deles com l\u00e1grimas), que se portam como inimigos da cruz de Cristo. Seu fim ser\u00e1 a condena\u00e7\u00e3o; pois fazem do est\u00f4mago o seu deus, p\u00f5em a sua gl\u00f3ria naquilo que deveria ser motivo de vergonha e n\u00e3o t\u00eam prazer sen\u00e3o nas cousas terrenas. Mas, quanto a n\u00f3s, o nosso pensamento est\u00e1 nos c\u00e9us, donde tamb\u00e9m esperamos o Salvador, N. S. Jesus Cristo, que renovar\u00e1 o nosso corpo vil, tornando-o semelhante aoseu corpo glorioso, por meio daquela virtude, que Ele possui, de sujeitar a si todas as cousas. Portanto, queridos e amados irm\u00e3os, que sois a minha alegria e a minha coroa, permanecei firmes no Senhor, meus car\u00edssimos irm\u00e3os. Pe\u00e7o a Ev\u00f3dia e suplico a Sintiquene que tenham os mesmos sentimentos no Senhor. Tamb\u00e9m vos rogo, \u00f3 fiel companheiro, que auxilieis aqueles que trabalharam comigo pelo Evangelho, com Clemente e com os outros meus coadjutores, cujos nomes est\u00e3o no livro da vida.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 43:8-9*\nLivrastes-nos, Senhor, daqueles que nos afligiam: e confundistes os que nos odiavam.\nV. Glorificar-nos-emos constantemente em Deus e louvaremos eternamente o vosso nome. Aleluia, aleluia.\n*Sl 129:1-2*\nDo fundo do abysmo Vos invoquei, Senhor: escutai a minha ora\u00e7\u00e3o. Aleluia.\n", 
@@ -106,17 +106,17 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 9:18-26*\nNaquele tempo, falando Jesus ao povo, um dos pr\u00edncipes da sinagoga aproximou-se d\u2019Ele e, adorando-O, disse-Lhe: \u00abSenhor, a minha filha acaba de morrer, mas vinde, colocai vossas m\u00e3os sobre ela e recobrar\u00e1 a vida\u00bb. Levantando-se ent\u00e3o, Jesus segui-o com os disc\u00edpulos. Logo, uma mulher que padecia dum fluxo de sangue havia doze anos aproximou-se d\u2019Ele por detr\u00e1s e tocou-Lhe na franja do vestido, pois (dizia de si para si), se eu tocar, somente que seja, no seu vestido, serei curada. Ent\u00e3o Jesus, voltando-se e vendo-a, disse-lhe: \u00abTende confian\u00e7a, minha filha, a vossa f\u00e9 salvou-vos\u00bb. E naquela hora foi curada esta mulher! Quando Jesus chegou a casa do pr\u00edncipe da sinagoga, vendo os tocadores de flauta e a turba do povo, carpindo muito, disse: \u00abRetirai-vos, porque a menina n\u00e3o est\u00e1 morta, mas adormecida\u00bb. Eles riam-se de Jesus! Havendo, por\u00e9m, sa\u00eddo a turba, entrou Jesus e pegou na m\u00e3o da menina, que logo ressuscitou! E correu a fama deste acontecimento em todo o pa\u00eds.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 129:1-2*\nDas profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor, a minha voz: das profundezas dos abysmos Vos invoquei.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Para aumento do nosso zelo em Vos servir, Senhor, Vos oferecemos um sacrif\u00edcio de louvor, a fim de que pela vossa bondade alcancemos o efeito dos dons que nos concedestes sem nenhuns merecimentos da nossa parte.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\nDignai-Vos conceder-nos, Deus omnipotente, que esta oferta da nossa humildade, em honra dos vossos Santos, Vos seja agrad\u00e1vel; e permiti que nos purifique ao mesmo tempo o corpo e a alma.\nPor nosso Senhor", 
@@ -126,17 +126,17 @@
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mc 11:24*\nNa verdade vos digo: \u00abTudo o que pedirdes nas vossas ora\u00e7\u00f5es, acreditai que o recebereis; e far-se-\u00e1 como pedirdes\u00bb.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "\u00d3 Deus omnipotente, Vos suplicamos, n\u00e3o permitais que aqueles a quem concedestes a alegria de participarem dos vossos sagrados myst\u00e9rios fiquem expostos aos perigos humanos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\n\u00d3 Deus omnipotente, Vos imploramos, havendo n\u00f3s recebido o alimento celestial, fazei que, por intercess\u00e3o do B. Confessor N. sejamos fortificados contra todas as adversidades.\nPor nosso Senhor", 

@@ -83,12 +83,12 @@
       {
         "body": "*Sl 118:46-47*\nFalava dos vossos testemunhos sem vergonha na presen\u00e7a dos reis: e meditava nos vossos mandamentos, que amava profundamente.\n*Sl 110:1-2*\nLouvai o Senhor, \u00f3 v\u00f3s, todas as na\u00e7\u00f5es; louvai-O, \u00f3 v\u00f3s, todos os povos; pois a sua miseric\u00f3rdia para connosco manifestou-se claramente e a verdade do Senhor permanece eternamente.\nGl\u00f3ria ao Pai.\nFalava dos vossos testemunhos sem vergonha na presen\u00e7a dos reis: e meditava nos vossos mandamentos, que amava profundamente.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que pela prega\u00e7\u00e3o e milagres do B. Francisco quisestes chamar \u00e0 vossa Igreja os povos das \u00cdndias, concedei-nos prop\u00edcio que, venerando os seus gloriosos m\u00e9ritos, imitemos, tamb\u00e9m, os exemplos das suas virtudes.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o 1\u00aa Domingo do Advento *\nSenhor Vos suplicamos, manifestai o vosso poder, e \u00abvinde j\u00e1 ao mundo\u00bb, a fim de que com vossa protec\u00e7\u00e3o mere\u00e7amos ser preservados dos iminentes perigos em que incorremos por causa dos nossos pecados, e sejamos livres e salvos:\n\u00d3 V\u00f3s, que viveis.", 
@@ -98,7 +98,7 @@
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Romanos.\n*Rm 10:10-18*\nMeus irm\u00e3os: Com o cora\u00e7\u00e3o se cr\u00ea para chegar \u00e0 justi\u00e7a; e com a boca se faz profiss\u00e3o de f\u00e9 para alcan\u00e7ar a salva\u00e7\u00e3o. Com efeito diz a Escritura: \u00abTodo aquele que cr\u00ea n\u2019Ele n\u00e3o ser\u00e1 confundido\u00bb, porque n\u00e3o h\u00e1 diferen\u00e7a entre judeu e grego, visto que n\u00e3o h\u00e1 sen\u00e3o um s\u00f3 e o mesmo Senhor de todos, que \u00e9 rico para todos os que O invocam; pois todo o que invocar o nome do Senhor ser\u00e1 salvo. Por\u00e9m como invocar\u00e3o Aquele em quem n\u00e3o acreditam? E como h\u00e3o-de crer sem haverem ouvido falar d\u2019Ele? E como se ouvir\u00e1 falar, se n\u00e3o houver pregadores? E como haver\u00e1 pregadores se n\u00e3o tiverem sido enviados? Pois est\u00e1 escrito: \u00abComo s\u00e3o preciosos os p\u00e9s daqueles que evangelizam a paz, que evangelizam a felicidade!\u00bb. Mas nem todos obedecem ao Evangelho. Isa\u00edas disse: \u00abSenhor, quem acreditou na nossa prega\u00e7\u00e3o?\u00bb. Assim, a f\u00e9 nasce da prega\u00e7\u00e3o ouvida, e a prega\u00e7\u00e3o vem da palavra de Cristo. E eu vos pergunto: \u00abPorventura eles a n\u00e3o ouviram?\u00bb. Sim, por certo: pois por toda a terra se espalhou a sua voz, e suas palavras soaram at\u00e9 aos extremos do mundo!", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Ps 91:13; 91:14*\nO justo florescer\u00e1, como a palmeira, e crescer\u00e1, como o cedro do L\u00edbano, na casa do Senhor.\n*Ps 91:3*\nPara publicar de manh\u00e3 a vossa miseric\u00f3rdia; e de noite a vossa verdade. Aleluia, aleluia.\n*Tg 1:12*\nBem-aventurado o var\u00e3o que sabe sofrer a tenta\u00e7\u00e3o, porque, quando acabar a tenta\u00e7\u00e3o, receber\u00e1 a coroa da vida. Aleluia.", 
@@ -108,17 +108,17 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Marcos.\n*Mc 16:15-18*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos: \u00abIde pelo mundo inteiro e pregai o Evangelho a todas as criaturas. Quem acreditar e for baptizado ser\u00e1 salvo; quem n\u00e3o acreditar ser\u00e1 condenado. Eis os milagres que acompanhar\u00e3o aqueles que acreditarem: Em meu nome expulsar\u00e3o os dem\u00f3nios; falar\u00e3o novas l\u00ednguas; tirar\u00e3o com suas serpentes; se beberem alguma cousa mort\u00edfera, lhes n\u00e3o far\u00e1 dano; e impor\u00e3o as m\u00e3os sobre os enfermos, que ser\u00e3o curados\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:25*\nA minha verdade e a minha miseric\u00f3rdia estar\u00e3o com ele, e, por virtude do meu nome, ser\u00e1 exaltado o seu poder.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Concedei-nos, \u00f3 Deus omnipotente, que esta oferta da nossa humildade, servindo para honrar os vossos Santos, Vos seja agrad\u00e1vel; e que ao mesmo tempo nos purifique o corpo e a alma.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o 1\u00aa Domingo do Advento *\nPermiti, Senhor, que estes myst\u00e9rios, depois de nos haverem purificado com vossa poderosa virtude, nos fa\u00e7am chegar mais puros ainda junto daquele que \u00e9 o seu princ\u00edpio.\nPor nosso Senhor", 
@@ -128,17 +128,17 @@
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 24:46-47*\nBem-aventurado o servo que o Senhor, quando vier, achar vigilante. Em verdade vos digo que lhe dar\u00e1 a administra\u00e7\u00e3o de todos seus bens.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Havendo n\u00f3s, \u00f3 Deus omnipotente, recebido o alimento celestial, permiti, Vos suplicamos, que, pela intercess\u00e3o do B. Francisco, vosso Confessor, sejamos fortalecidos contra todas as adversidades.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o 1\u00aa Domingo do Advento *\nSenhor, permiti que alcancemos a vossa miseric\u00f3rdia no meio do vosso templo, para que celebremos com a conveniente prepara\u00e7\u00e3o a pr\u00f3xima solenidade da nossa repara\u00e7\u00e3o.\nPor nosso Senhor", 

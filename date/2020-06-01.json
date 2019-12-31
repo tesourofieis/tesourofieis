@@ -71,17 +71,17 @@
       {
         "body": "*Sl. 80:17*\nHe fed them with the best of wheat, alleluia: and filled them with honey from the rock, alleluia, alleluia.\n*Sl 80:2*\nSing joyfully to God our strength; acclaim the God of Jacob.\nGl\u00f3ria ao Pai.\nHe fed them with the best of wheat, alleluia: and filled them with honey from the rock, alleluia, alleluia.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O God, You Who gave the Holy Spirit to Your apostles, grant that the devout prayers of Your people may be effective and, as You have given us faith, also grant us peace.\nPor nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the Acts of the Apostles\n*Acts 10:34, 42-48*\nIn those days, Peter opening his mouth, said, Men, brethren, the Lord charged us to preach to the people and to testify that He it is Who has been appointed by God to be judge of the living and of the dead. To Him all the prophets bear witness, that through His Name all who believe in Him may receive forgiveness of sins. While Peter was still speaking these words, the Holy Spirit came upon all who were listening to his message. And the faithful of the circumcision, who had come with Peter, were amazed, because on the Gentiles also the grace of the Holy Spirit had been poured forth; for they heard them speaking in tongues and magnifying God. Then Peter answered, Can anyone refuse the water to baptize these, seeing that they have received the Holy Spirit just as we did? And he ordered them to be baptized in the Name of Jesus Christ.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Alleluia, alleluia.\n*Acts 2:4*\nV. The Apostles spoke in foreign tongues the wonderful works of God. Alleluia.  (Kneel.)\nV. Come, O Holy Spirit, fill the hearts of Your faithful, and kindle in them the fire of Your love.", 
@@ -91,37 +91,37 @@
       {
         "body": "Holy Spirit! Lord of light!\nFrom Thy clear celestial height,\nThy pure, beaming radiance give:\n\nCome, Thou, Father of the poor!\nCome, with treasures which endure!\nCome, Thou light of all that live!\n\nThou of all consolers best,\nVisiting the troubled breast,\nDost refreshing peace bestow:\n\nThou in toil art comfort sweet;\nPleasant coolness in the heat;\nSolace in the midst of woe.\n\nLight immortal! Light divine!\nVisit Thou these hearts of Thine,\nAnd our inmost being fill.\n\nIf Thou take Thy grace away,\nNothing pure in man will stay;\nAll his good is turn\ufffdd to ill.\n\nHeal our wounds - our strength renew;\nOn our dryness pour Thy dew;\nWash the stains of guilt away:\n\nBend the stubborn heart and will;\nMelt the frozen, warm the chill;\nGuide the steps that go astray.\n\nThou, on those who evermore\nThee confess and Thee adore,\nIn Thy sevenfold gifts descend.\n\nGive them comfort when they die;\nGive them life with Thee on high;\nGive them joys which never end.\nAmen. Alleluia.", 
         "id": "Sequentia", 
-        "label": "Sequence"
+        "label": "Sequ\u00eancia"
       }, 
       {
         "body": "Continuation \u2629 of the Holy Gospel according to John\n*Jo 3:16-21*\nAt that time, Jesus said to Nicodemus: God so loved the world that He gave His only-begotten Son, that those who believe in Him may not perish, but may have life everlasting. For God did not send His Son into the world in order to judge the world, but that the world might be saved through Him. He who believes in Him is not judged; but he who does not believe in Him is already judged, because he does not believe in the Name of the only-begotten Son of God. Now this is the judgment: The light has come into the world, yet men have loved the darkness rather than the light, for their works were evil. For everyone who does evil hates the light, and does not come to the light, that his deeds may not be exposed. But he who does the truth comes to the light that his deeds may be made manifest, for they have been performed in God.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl. 17:14, 16*\nThe Lord thundered from heaven, the Most High gave forth His voice; and the fountains of waters appeared, alleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Graciously hallow these gifts, we beseech You, O Lord, and accepting the offering of the spiritual sacrifice, make us also an eternal offering to You.\nPor nosso Senhor.", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Jo 14:26*\nThe Holy Spirit will teach you, alleluia: whatever I have said to you, alleluia, alleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Be near to Your people, we beseech You, O Lord, and defend against the fury of the enemy those whom You have penetrated with Your heavenly sacrament.\nPor nosso Senhor.", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

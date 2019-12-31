@@ -68,17 +68,17 @@
       {
         "body": "*Sl 131,9-10*\nQue os vossos sacerdotes, Senhor, se revistam de santidade; e que os vossos santos exultem de alegria! Por amor do vosso servo David n\u00e3o afasteis os olhos do vosso Cristo.\n*Sl 131:1*\nLembrai-Vos, Senhor, de David e da sua grande mansid\u00e3o.\nGl\u00f3ria ao Pai.\nQue os vossos sacerdotes, Senhor, se revistam de santidade; e que os vossos santos exultem de alegria! Por amor do vosso servo David n\u00e3o afasteis os olhos do vosso Cristo.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que embelezastes o B. Ant\u00f3nio Maria, vosso Confessor e Pont\u00edfice, com as virtudes apost\u00f3licas, e por ele fundastes na vossa Igreja novas congrega\u00e7\u00f5es de cl\u00e9rigos e de virgens, concedei-nos, Vos suplicamos, que, esclarecidos com seus salutares conselhos e confortados com seus exemplos, consigamos com felicidade unirmo-nos convosco.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Hebreus.\n*Heb 7:23-27*\nMeus irm\u00e3os: Entre eles, al\u00e9m disso, muitos outros foram feitos sacerdotes, porque a morte os impedia de viverem sempre. Mas Jesus, que permanece eternamente, tem um sacerd\u00f3cio eterno, por isso Ele pode salvar perpetuamente aqueles que se aproximam de Deus por seu interm\u00e9dio, pois est\u00e1 sempre vivo para interceder por n\u00f3s. Convinha, pois, que tiv\u00e9ssemos um Pont\u00edfice santo, inocente, imaculado, afastado dos pecadores e mais elevado que os c\u00e9us; que n\u00e3o tivesse necessidade, como os outros sacerdotes, de oferecer, quotidianamente, v\u00edtimas, primeiro pelos seus pr\u00f3prios pecados e depois pelos pecados do povo; pois isto N. S. Jesus Cristo fez uma vez, oferecendo-se a Si mesmo.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 131:16-17*\nRevestirei os seus sacerdotes de salva\u00e7\u00e3o e os seus santos exultar\u00e3o em transportes de alegria.\nV. Em Si\u00e3o farei aparecer o poder de David: prepararei uma l\u00e2mpada ao meu Cristo. Aleluia, aleluia.\n*Sl 109:4*\nO Senhor jurou e n\u00e3o se arrepender\u00e1: Tu \u00e9s sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 24:42-47*\nNaquele tempo, disse Jesus a seus disc\u00edpulos: \u00abVigiai, porque n\u00e3o sabeis a que hora vir\u00e1 o vosso Senhor. Pois sabei que, se o pai de fam\u00edlia conhecesse a que horas viria o ladr\u00e3o, certamente velaria e n\u00e3o deixaria violar a sua casa. Portanto v\u00f3s, tamb\u00e9m, estai preparados, porque o Filho do homem vir\u00e1 durante a hora em que n\u00e3o pensais. Qual \u00e9, segundo a vossa opini\u00e3o, o servo fiel e prudente que o Senhor estabeleceu como superior na sua fam\u00edlia para distribuir-lhe o sustento em tempo oportuno? Bem-aventurado aquele servo a quem, quando o seu senhor vier, o achar assim ocupado. Em verdade vos digo que o encarregar\u00e1 de administrar todos seus bens\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:25*\nA minha verdade e a minha miseric\u00f3rdia estar\u00e3o com ele, e, por virtude do meu nome, ser\u00e1 exaltado o seu poder.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Que a festa anual do vosso santo Confessor e Pont\u00edfice N. nos torne agrad\u00e1veis \u00e0 vossa bondade, Vos suplicamos, Senhor, a fim de que a piedosa oferta desta v\u00edtima de expia\u00e7\u00e3o lhe aumente a felicidade, que goza como recompensa, e nos obtenha os dons da vossa gra\u00e7a.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 24:46-47*\nBem-aventurado o servo que o Senhor, quando vier, achar vigilante. Em verdade vos digo que lhe dar\u00e1 a administra\u00e7\u00e3o de todos seus bens.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "\u00d3 Deus, remunerador das almas fi\u00e9is, dignai-Vos permitir que pelas ora\u00e7\u00f5es do B. Pont\u00edfice e Confessor N., cuja veneranda festa celebramos, obtenhamos o perd\u00e3o dos nossos pecados.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

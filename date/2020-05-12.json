@@ -68,17 +68,17 @@
       {
         "body": "*Sl 32:18-20*\nOto oczy Pana nad tymi, co si\u0119 Go boj\u0105: nad tymi, co si\u0119 \u0142aski spodziewaj\u0105 od Niego, aleluia, po to, by wyrwa\u0107 ich dusze od \u015bmierci; bo On sam jest pomoc\u0105 nasz\u0105, nasz\u0105 tarcz\u0105, Aleluia, aleluia.\n*Sl 32:1*\nSprawiedliwi, weselcie si\u0119 w Panu: prawym przystoi Go chwali\u0107.\nGl\u00f3ria ao Pai.\nOto oczy Pana nad tymi, co si\u0119 Go boj\u0105: nad tymi, co si\u0119 \u0142aski spodziewaj\u0105 od Niego, aleluia, po to, by wyrwa\u0107 ich dusze od \u015bmierci; bo On sam jest pomoc\u0105 nasz\u0105, nasz\u0105 tarcz\u0105, Aleluia, aleluia.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Prosimy Ci\u0119, Panie, niech radosne \u015bwi\u0119to Twoich M\u0119czennik\u00f3w Nereusza, Achillesa, Domicylli i Pankracego zawsze pobudza nasz\u0105 gorliwo\u015b\u0107 i uczyni nas godnymi Twojej s\u0142u\u017cby.\n$Per Dominium", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 5:1-5*\nEnt\u00e3o, os justos erguer-se-\u00e3o com grande coragem contra aqueles que os oprimiam e a quem arrebatavam o fruto dos seus trabalhos. Vendo-os assim, os maus perturbar-se-\u00e3o, cheios de pavor, e ficar\u00e3o assombrados com a s\u00fabita e inesperada salva\u00e7\u00e3o dos justos, dizendo de si para si, arrependidos e angustiados: \u00abEstes s\u00e3o aqueles a quem outrora quisemos injuriar com nossas zombarias e insultos. Insensatos que n\u00f3s fomos! Pareceu-nos que sua vida era uma loucura, e a sua morte uma vergonha; mas eis que os vemos elevados \u00e0 dignidade de filhos de Deus e compartilhando da gl\u00f3ria dos santos!\u00bb", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Aleluia, aleluia.\nV. Oto prawdziwe braterstwo, co zwyci\u0119\u017cy\u0142o wyst\u0119pki \u015bwiata: posz\u0142o \u015bladem Chrystusa, otrzymuj\u0105c zaszczytne Kr\u00f3lestwo Niebieskie. Aleluia.\nV. Ciebie, Panie, wychwala \u015bwietlany zast\u0119p M\u0119czennik\u00f3w. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 4:46-53*\nNaquele tempo, havia um oficial em Cafarnaum, cujo filho estava enfermo. Tendo ele sabido que Jesus vinha da Judeia para a Galileia, foi ter com Ele, rogando-Lhe que fosse a sua casa curar seu filho, que principiava a agonizar. Disse-lhe Jesus: \u00abSe n\u00e3o vedes prod\u00edgios e milagres n\u00e3o acreditais!\u00bb. Respondeu-Lhe o oficial: \u00abSenhor, vinde, antes que meu filho morra\u00bb. Jesus disse-lhe: \u00abVai; o teu filho vive!\u00bb. Acreditou este homem na palavra de Jesus e partiu. Ia j\u00e1 no caminho, e eis que seus servos foram ao seu encontro, anunciando-lhe que o filho vivia! Ent\u00e3o perguntou-lhes qual a hora em que se achara melhor o filho. Os servos responderam: \u00abOntem, \u00e0 hora s\u00e9tima, deixou-o a febre\u00bb. E o pai reconheceu ter sido aquela a hora em que Jesus lhe dissera: \u00abO teu filho vive\u00bb. Ele, pois, assim como toda sua fam\u00edlia, acreditou.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych, Aleluia, aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Prosimy Ci\u0119, Panie, niech b\u0119dzie mi\u0142e dla Ciebie wyznanie wiary z\u0142o\u017cone przez \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Nereusza, Achillesa, Domicyll\u0119 i Pankracego; niech ono zaleci Tobie nasze dary i zawsze nam wyjedna Twoje przebaczenie.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 32:1*\nSprawiedliwi, weselcie si\u0119 w Panu: prawym przystoi Go chwali\u0107, aleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Prosimy\u00a0Ci\u0119, Panie, by przyj\u0119ty przez nas Naj\u015bwi\u0119tszy Sakrament przez modlitwy \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Nereusza, Achillesa, Domicylli i Pankracego wyjedna\u0142 nam pomno\u017cenie Twojego zmi\u0142owania.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

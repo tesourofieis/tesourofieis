@@ -66,17 +66,17 @@
       {
         "body": "*Sl. 24:16, 18.*\nLook toward me, and have pity on me, O Lord, for I am alone and afflicted. Put an end to my affliction and my suffering, and take away all my sins, O my God.\n*Sl 24:1-2*\nTo You, I lift up my soul, O Lord. In You, O my God, I trust; let me not be put to shame.\nGl\u00f3ria ao Pai.\nLook toward me, and have pity on me, O Lord, for I am alone and afflicted. Put an end to my affliction and my suffering, and take away all my sins, O my God.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O God, protector of all who hope in You, without Whom nothing is strong, nothing is holy, increase Your mercy toward us, that, with Your guidance and direction we may so pass through the things of this temporal life as not to lose those of life eternal.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the first letter of St. Peter the Apostle\n*1 Pet 5:6-11.*\nBeloved: Humble yourselves under the mighty hand of God, that He may exalt you in the time of visitation; cast all your anxiety upon Him, because He cares for you. Be sober, be watchful! For your adversary the devil, as a roaring lion, goes about seeking someone to devour. Resist him, steadfast in the faith, knowing that the same suffering befalls your brethren all over the world. But the God of all grace, Who has called us unto His eternal glory in Christ Jesus, will Himself, after we have suffered a little while, perfect, strengthen and establish us. To Him is the glory and the dominion forever and ever. Amen.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl. 54:23, 17, 19.*\nCast your care upon the Lord, and He will support you.\nV. When I called upon the Lord, He heard my voice from those who war against me. Alleluia, alleluia.\nV. Ps. 7:12. A just judge is God, strong and patient; is He angry every day? Alleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to Luke\n*Lc 15:1-10.*\nAt that time, the publicans and sinners were drawing near to Him to listen to Him. And the Pharisees and the Scribes murmured, saying, This man welcomes sinners and eats with them. But He spoke to them this parable, saying, What man of you having a hundred sheep, and losing one of them, does not leave the ninety-nine in the desert, and go after that which is lost, until he finds it? And when he has found it, he lays it upon his shoulders rejoicing. And on coming home he calls together his friends and neighbors, saying to them, \ufffdRejoice with me, because I have found my sheep that was lost.\ufffd I say to you that, even so, there will be joy in heaven over one sinner who repents, more then over ninety-nine just who have no need of repentance. Or what woman, having ten drachmas, if she loses one drachma, does not light a lamp and sweep the house and search carefully until she finds it? And when she has found it, she calls together her friends and neighbors, saying, \ufffdRejoice with me, for I have found the drachma that I had lost.\ufffd Even so, I say to you, there will be joy among the angels of God over one sinner who repents.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl. 9:11-13.*\nThey trust in You who cherish Your name, O Lord, for You forsake not those who seek You. Sing praise to the Lord enthroned in Sion, for He has not forgotten the cry of the afflicted.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Look favorably, O Lord, upon the offerings of Your prayerful Church and grant that those who believe may, in continual holiness, partake of the them for their salvation.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Lc 15:10.*\nI say to you: there is joy among the angels of God over one sinner who repents.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May the holy things of which we have partaken bring us to life and prepare for Your everlasting mercy those whom You have cleansed from sin.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

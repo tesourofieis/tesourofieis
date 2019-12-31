@@ -83,22 +83,22 @@
       {
         "body": "*Sl 63:3*\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, aleluia, i od gromady czyni\u0105cych nieprawo\u015b\u0107, Aleluia, aleluia.\n*Sl 63:2*\nS\u0142uchaj, Bo\u017ce, g\u0142osu mojego, gdy si\u0119 \u017cal\u0119; od strachu przed wrogiem zachowaj me \u017cycie.\nGl\u00f3ria ao Pai.\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, aleluia, i od gromady czyni\u0105cych nieprawo\u015b\u0107, Aleluia, aleluia.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que glorificastes o Beato Marcos, vosso Evangelista, elevando-o \u00e0 dignidade de pregador do vosso Evangelho, concedei-nos a gra\u00e7a, Vos suplicamos, de aproveitarmos sempre os seus ensinos e de sermos defendidos pela sua ora\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*de Dni Krzy\u017cowych*\nWszechmog\u0105cy Bo\u017ce, w naszym utrapieniu ufamy Twojej dobroci; spraw, prosimy, aby Twoja opieka broni\u0142a nas od wszelkich przeciwno\u015bci.\nPor nosso Senhor", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Profeta Ezequiel.\n*Ez 1:10-14*\nEis a semelhan\u00e7a do rosto dos quatro seres animados: Tinham todos os quatro uma face de homem; todos os quatro \u00e0 direita uma face de le\u00e3o; todos os quatro \u00e0 esquerda uma face de touro; e todos os quatro por cima uma face de \u00e1guia! As faces e as asas mostravam-se estendidas por cima; e estavam unidos uns aos outros por duas asas, cobrindo os corpos com as outras duas. Cada um deles caminhava para a frente do seu rosto, e iam at\u00e9 onde os impelia o esp\u00edrito, n\u00e3o se voltando enquanto andavam. Estes seres tinham o aspecto de carv\u00f5es de fogo a arder e de l\u00e2mpadas acesas. Viam-se crepitar no meio deles chamas de fogo, saindo do fogo rel\u00e2mpagos. E eles iam e vinham, semelhante ao fuzilar dos rel\u00e2mpagos.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Aleluia, aleluia\n*Sl 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych. Aleluia.\n*Sl 20:4*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni. Aleluia.", 
@@ -108,42 +108,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 10:1-9*\nNaquele tempo, escolheu o Senhor ainda setenta e dois disc\u00edpulos e mandou-os, dois a dois, adiante d\u2019Ele, a todas as cidades e lugares onde devia ir, dizendo-lhes: \u00abA messe \u00e9 abundante, mas os oper\u00e1rios s\u00e3o poucos; pedi, pois ao Senhor da messe que mande mais oper\u00e1rios para a messe. Ide; eis que vos envio como cordeiros para o meio dos lobos; n\u00e3o leveis bolsa, nem saco, nem saudeis ningu\u00e9m pelo caminho. Em qualquer casa em que entrardes, dizei em primeiro lugar: \u00abA paz esteja nesta casa\u00bb! Se a\u00ed houver um filho da paz, a vossa paz repousar\u00e1 nele; e, se n\u00e3o um houver, voltar\u00e1 para v\u00f3s. Permanecei na mesma casa e comei e bebei do que houver nessa casa, pois o oper\u00e1rio merece sal\u00e1rio. N\u00e3o transiteis de casa para casa. Em qualquer casa em que entrardes e vos receberem comei do que vos derem, curai os enfermos que a\u00ed houver, e dizei-lhes: \u00abEis que se aproxima o reino de Deus\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych, Aleluia, aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Oferecendo-Vos estes dons na solenidade do B. Marcos, vosso Evangelista, Vos rogamos, Senhor, que, assim como a prega\u00e7\u00e3o do Evangelho tornou o seu nome glorioso, assim tamb\u00e9m a sua intercess\u00e3o nos torne agrad\u00e1veis \u00e0 vossa majestade, tanto pelas nossas palavras, como pelas nossas obras.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*de Dni Krzy\u017cowych*\nProsimy Ci\u0119, Panie, niech ta ofiara oswobodzi nas z wi\u0119z\u00f3w naszych na\u0142og\u00f3w i wyjedna nam dary Twojego mi\u0142osierdzia.\nPor nosso Senhor", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 63:11*\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119 chlubi\u0105, Aleluia, aleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Vos imploramos, Senhor, que os vossos sacrossantos myst\u00e9rios nos sirvam de cont\u00ednua protec\u00e7\u00e3o, e que pelas preces do B. Marcos, vosso Evangelista, nos defendam de todas as adversidades.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*de Dni Krzy\u017cowych*\nProsimy Ci\u0119, Panie, przyjmij nasze modlitwy z ojcowsk\u0105 dobroci\u0105, a gdy w\u015br\u00f3d utrapie\u0144 otrzymujemy Twoje dary, niechaj Twa pociecha wzmaga nasz\u0105 mi\u0142o\u015b\u0107 ku Tobie.\nPor nosso Senhor", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

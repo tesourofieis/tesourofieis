@@ -68,17 +68,17 @@
       {
         "body": "*Sl 78:11-12; 78:10*\nQue os gemidos dos cativos cheguem \u00e0 vossa presen\u00e7a, Senhor. Castigai os nossos inimigos sete vezes por cada inj\u00faria que nos t\u00eam feito: vingai o sangue que os vossos Santos derramaram.\n*Sl 78:1*\n\u00d3 Deus, os povos invadiram a vossa heran\u00e7a, profanaram o vosso sagrado templo e reduziram Jerusal\u00e9m a um monte de ru\u00ednas!\nGl\u00f3ria ao Pai.\nQue os gemidos dos cativos cheguem \u00e0 vossa presen\u00e7a, Senhor. Castigai os nossos inimigos sete vezes por cada inj\u00faria que nos t\u00eam feito: vingai o sangue que os vossos Santos derramaram.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Panie, niech b\u0142ogos\u0142awione wyznanie wiary \u015awi\u0119tych Twoich Nazariusza, Celsa, Wiktora i Innocentego umacnia nas i wyjedna pomoc dla naszej u\u0142omno\u015bci.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*Mdr 10:17-29*\nB\u00f3g da\u0142 \u015bwi\u0119tym nagrod\u0119 za ich prac\u0119, prowadzi\u0142 ich drog\u0105 godn\u0105 podziwu. Sta\u0142 si\u0119 dla nich os\u0142on\u0105 za dnia, a w nocy \u015bwiat\u0142em gwiazd. Przeprawi\u0142 ich przez Morze Czerwone i przeprowadzi\u0142 przez wielk\u0105 wod\u0119. A wrog\u00f3w ich zatopi\u0142 i wyrzuci\u0142 z g\u0142\u0119bi otch\u0142ani. Dlatego sprawiedliwi z\u0142upili bezbo\u017cnych i za\u015bpiewali hymn na cze\u015b\u0107 \u015bwi\u0119tego imienia Twojego, Panie, i zgodnie uwielbili zwyci\u0119sk\u0105 Tw\u0105 r\u0119k\u0119, Panie, Bo\u017ce nasz.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Ex 15:11*\nDeus \u00e9 glorioso em seus Santos: e admir\u00e1vel na sua majestade, praticando prod\u00edgios.\n*Ex 15:6*\nV. Senhor, a vossa dextra engrandeceu-se pela sua for\u00e7a: a vossa dextra esmagou os inimigos. Aleluia, aleluia.\n*Sb 44:14*\nSenhor, os corpos dos vossos Santos foram sepultados em paz e o seu nome subsistir\u00e1 de gera\u00e7\u00e3o em gera\u00e7\u00e3o. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 21:9-19*\nNaquele tempo, disse Jesus aos disc\u00edpulos: \u00abQuando ouvirdes falar em guerras e sedi\u00e7\u00f5es, n\u00e3o vos assusteis; pois \u00e9 necess\u00e1rio que estas cousas aconte\u00e7am, primeiramente; mas isto n\u00e3o ser\u00e1 logo o fim\u00bb. \u00abEnt\u00e3o, dizia-lhes Ele, levantar-se-\u00e1 povo contra povo e reino contra reino; em diversos lugares haver\u00e1 tremores de terra, peste, fome e tamb\u00e9m aparecer\u00e3o cousas espantosas, grandes sinais no c\u00e9u e outros prod\u00edgios. Mas, antes que tudo isto aconte\u00e7a, lan\u00e7ar-vos-\u00e3o as m\u00e3os e perseguir-vos-\u00e3o, entregando-vos \u00e0s sinagogas, lan\u00e7ando-vos nas pris\u00f5es e conduzindo-vos \u00e0 for\u00e7a diante dos reis e dos governadores, por causa do meu nome. Isto acontecer\u00e1 para que deis testemunho da verdade. Gravai, pois, no vosso cora\u00e7\u00e3o este pensamento: n\u00e3o premediteis de que modo haveis de responder, porque vos darei palavras e sabedoria, a que os vossos inimigos n\u00e3o poder\u00e3o resistir, nem responder. Sereis entregues pelos vossos pr\u00f3prios pais, irm\u00e3os, parentes e amigos, que dar\u00e3o a morte a alguns de v\u00f3s. Sereis aborrecidos de todos, por causa do meu nome; todavia, n\u00e3o se perder\u00e1 nem um s\u00f3 cabelo das vossas cabe\u00e7as. Com a vossa paci\u00eancia possuireis as vossas almas\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 67:36*\nDeus \u00e9 admir\u00e1vel em seus Santos. Deus de Israel dar\u00e1 ao seu povo a for\u00e7a e a coragem. Bendito Ele seja, pois. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Daj nam wszechmog\u0105cy Bo\u017ce, aby\u015bmy przeb\u0142agali Ciebie przez ofiarowanie dar\u00f3w ku czci \u015awi\u0119tych Twoich Nazariusza, Celsa, Wiktora i Innocentego, i doznali wzrostu \u017cycia nadprzyrodzonego gdy dary te przyjmiesz.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sb 3:4-6*\nSe sofreram tormentos diante dos homens, foi para Deus os provar. Deus provou-os na fornalha, como ao ouro, e recebeu-os, como h\u00f3stia de holocausto.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Przejednany wstawiennictwem Twoich \u015awi\u0119tych: Nazariusza, Celsa, Wiktora i Innocentego, daj nam, prosimy Ci\u0119, Panie, aby\u015bmy osi\u0105gn\u0119li w zbawieniu wiecznym to, co sprawujemy w \u015bwi\u0119tej czynno\u015bci doczesnej.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

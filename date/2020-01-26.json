@@ -66,17 +66,17 @@
       {
         "body": "*Sl 96:7-8*\nAdorai a Deus, \u00f3 v\u00f3s, que sois os seus Anjos. Ouviu Si\u00e3o e rejubilou: e as filhas de Jud\u00e1 exultaram de alegria.\n*Sl 96:1*\nO Senhor reinou: alegre-se a terra e as suas muitas ilhas.\nGl\u00f3ria ao Pai.\nAdorai a Deus, \u00f3 v\u00f3s, que sois os seus Anjos. Ouviu Si\u00e3o e rejubilou: e as filhas de Jud\u00e1 exultaram de alegria.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus omnipotente e eterno, olhai benigno para a nossa fraqueza, e que a vossa majestade nos estenda a sua dextra para nos proteger continuamente.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Romanos\n*Rom 12:16-21*\nMeus irm\u00e3os: N\u00e3o presumais que sois prudentes; n\u00e3o retribuais a ningu\u00e9m o mal com o mal; antes praticai cuidadosamente o bem, tanto diante de Deus, como perante os homens. Vivei em paz com todos os homens, tanto quanto seja poss\u00edvel e dependa de v\u00f3s. N\u00e3o vos vingueis v\u00f3s pr\u00f3prios, car\u00edssimos, mas deixai operar a justi\u00e7a de Deus, pois est\u00e1 escrito: \u00aba vingan\u00e7a pertence-me; Eu \u00e9 que a exercerei, diz o Senhor\u00bb. Se o vosso inimigo tem fome, dai-lhe de comer; se tem sede, dai-lhe de beber; pois, se assim procederdes, reunireis brasas de fogo sobre a sua cabe\u00e7a. N\u00e3o vos deixeis vencer pelo mal; mas triunfai do mal, praticando o bem.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 101:16-17*\nAs na\u00e7\u00f5es temer\u00e3o o vosso nome, Senhor; e todos os reis da terra contemplar\u00e3o a vossa gl\u00f3ria.\nV. Pois o Senhor reedificou Si\u00e3o: e manifestar-se-\u00e1 a\u00ed na sua majestade. Aleluia, aleluia.\nV. Ps 96:1 O Senhor reinou: alegre-se a terra e as suas muitas ilhas. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus\n*Mt 8:1-13*\nNaquele tempo, descendo Jesus do monte, era acompanhado por numerosas pessoas. Eis que veio ter com Ele um leproso, adorando-O e dizendo-Lhe: \u00abSenhor, se quiserdes, podeis curar-me\u00bb. Ent\u00e3o, Jesus, estendendo a m\u00e3o, tocou-o e disse: \u00abQuero; s\u00ea curado\u00bb. E no mesmo instante ficou limpo da lepra. E Jesus disse-lhe: \u00abOuve: n\u00e3o digas nada a ningu\u00e9m; mas vai, mostra-te aos sacerdotes e oferece-lhes a d\u00e1diva que Mois\u00e9s prescreveu, a fim de que ela seja testemunha da tua cura\u00bb. E entrando Jesus em Cafarnaum, aproximou-se d\u2019Ele um centuri\u00e3o, pedindo e dizendo: \u00abSenhor, o meu servo est\u00e1 na cama paral\u00edtico e sofre cruelmente\u00bb. Jesus disse-lhe: \u00abEu irei e o curarei\u00bb. O centuri\u00e3o respondeu-Lhe: \u00abSenhor, n\u00e3o sou digno de que entreis sob o meu telhado; dizei somente uma palavra e o meu servo ser\u00e1 curado. Pois eu, que sou um homem submisso \u00e0 autoridade dos meus superiores, tenho soldados sob as minhas ordens e digo a um deles: vai. E ele vai. E digo a um outro vem. E ele vem. E digo a meu servo: faz isto. E ele faz\u00bb. Ouvindo Jesus isto, mostrou-se admirado e disse: \u00abEm verdade vos digo que n\u00e3o encontrei ainda uma f\u00e9 t\u00e3o grande em Israel! Assim vos digo: que muitos vir\u00e3o do Oriente e do Ocidente e ter\u00e3o lugar no banquete com Abra\u00e3o, Isaque e Jacob no reino dos c\u00e9us; mas os filhos do reino ser\u00e3o lan\u00e7ados nas trevas exteriores, onde haver\u00e1 choro e ranger de dentes\u00bb. Ent\u00e3o Jesus disse ao centuri\u00e3o: \u00abVai; e que se fa\u00e7a segundo a tua cren\u00e7a\u00bb. E naquela hora ficou curado o servo.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 117:16-17*\nA dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me. N\u00e3o morrerei: viverei e nanarei os prod\u00edgios do Senhor.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Que esta h\u00f3stia, Senhor, Vos suplicamos, nos purifique dos nossos delitos, e santifique as almas e os corpos dos vossos s\u00fabditos, para que dignamente celebremos este sacrif\u00edcio.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Lc 4:22*\nTodos estavam admirados das palavras que sa\u00edam da boca de Deus.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Senhor, j\u00e1 que nos concedestes a gra\u00e7a de participarmos destes t\u00e3o augustos myst\u00e9rios, tornai-nos dignos, Vos suplicamos, de recebermos com efic\u00e1cia os seus efeitos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

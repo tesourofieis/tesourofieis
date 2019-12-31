@@ -68,17 +68,17 @@
       {
         "body": "*Ps 131:9-10*\nNiech kap\u0142ani Twoi odziej\u0105 si\u0119 w sprawiedliwo\u015b\u0107, a \u015bwi\u0119ci Twoi niech si\u0119 raduj\u0105; przez wzgl\u0105d na Dawida, s\u0142ug\u0119 Twojego, nie odtr\u0105caj oblicza Twego Pomaza\u0144ca.\n*Ps 131:1*\nPomnij, Panie, na Dawida i na ca\u0142\u0105 jego gorliwo\u015b\u0107\nGl\u00f3ria ao Pai.\nNiech kap\u0142ani Twoi odziej\u0105 si\u0119 w sprawiedliwo\u015b\u0107, a \u015bwi\u0119ci Twoi niech si\u0119 raduj\u0105; przez wzgl\u0105d na Dawida, s\u0142ug\u0119 Twojego, nie odtr\u0105caj oblicza Twego Pomaza\u0144ca.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Bo\u017ce, Ty obieca\u0142e\u015b stokrotn\u0105 nagrod\u0119 w przysz\u0142o\u015bci i \u017cycie wieczne tym, kt\u00f3rzy dla Ciebie opuszczaj\u0105 wszystko na tym \u015bwiecie; spraw \u0142askawie, aby\u015bmy wiernie wst\u0119puj\u0105c w \u015blady \u015aw. Biskupa Paulina, zdo\u0142ali wzgardzi\u0107 tym, co ziemskie, a pragn\u0105\u0107 tylko tego, co niebieskie:\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Cor\u00edntios.\n*2 Cor 8:9-15*\n*\u015awi\u0119ty Pawe\u0142 zach\u0119ca Koryntian do ofiarno\u015bci na mecz ubogiej gminy jerozolimskiej.*\nBracia: Znacie \u0142ask\u0119 Pana naszego Jezusa Chrystusa, \u017ce b\u0119d\u0105c bogatym, sta\u0142 si\u0119 dla was ubogim, aby\u015bcie wy ub\u00f3stwem Jego bogatymi si\u0119 stali. I w tym daj\u0119 rad\u0119, bo jest to po\u017cyteczne dla was, kt\u00f3rzy\u015bcie ju\u017c od roku przesz\u0142ego nie tylko dzia\u0142a\u0107 pocz\u0119li, ale i pierwsi powzi\u0119li ten zamiar. Teraz Wi\u0119c i uczynkiem to stwierd\u017acie, aby jak ochocza by\u0142a ch\u0119\u0107, tak te\u017c by\u0142o i wykonanie z tego, co macie. Je\u015bli bowiem wola jest ochocza, to na uznanie zas\u0142uguje wed\u0142ug tego, co ma, a nie \u2013 czego nie ma. Bo nie na to dajecie, aby innym sprawi\u0107 ulg\u0119, a sobie ucisk, ale dla r\u00f3wno\u015bci. Teraz wasza obfito\u015b\u0107 niech wzbogaci ich niedostatek, aby te\u017c ich obfito\u015b\u0107 zast\u0105pi\u0142a wasz niedostatek i nasta\u0142a r\u00f3wno\u015b\u0107, jako napisane jest: \u00abKto mia\u0142 wiele, nie mia\u0142 za du\u017co. A kto mia\u0142 niewiele, nie mia\u0142 za ma\u0142o\u00bb.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Syr 44:16*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu.\n*Syr 44:20*\nNie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego. Aleluia, aleluia.\n*Ps 109:4*\nTy\u015b jest kap\u0142anem na wieki na wz\u00f3r Melchizedeka. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 12:32-34*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos: \u00abN\u00e3o temais, pequeno rebanho, pois agradou ao vosso Pai dar-vos o seu reino. Vendei tudo quanto possu\u00eds e dai-o em esmolas. Fazei para v\u00f3s bolsas que se n\u00e3o estraguem com o tempo; ajuntai um tesouro no c\u00e9u, onde o ladr\u00e3o n\u00e3o pode chegar, nem a tra\u00e7a o pode corromper; pois, onde estiver o vosso tesouro, a\u00ed estar\u00e1 o vosso cora\u00e7\u00e3o\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Ps 88:21-22*\nZnalaz\u0142em Dawida, mojego s\u0142ug\u0119, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by r\u0119ka moja zawsze z nim by\u0142a i rami\u0119 moje go umacnia\u0142o.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Daj nam, Panie, za przyk\u0142adem \u015bwi\u0119tego Biskupa Paulina, z darami z\u0142o\u017conymi na o\u0142tarzu po\u0142\u0105czy\u0107 ofiar\u0119 doskona\u0142ej mi\u0142o\u015bci i przez gorliwe pe\u0142nienie mi\u0142osiernych uczynk\u00f3w zas\u0142u\u017cy\u0107 na wieczne zmi\u0142owanie.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postanowi\u0142 nad swoj\u0105 czeladzi\u0105, by ka\u017cdemu wydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Przez \u015bwi\u0119ty Sakrament udziel nam, Panie, tego ducha oddania i pokory, kt\u00f3rego zaczerpn\u0105\u0142 z tego boskiego \u017ar\u00f3d\u0142a \u015bw. Biskup Tw\u00f3j Paulin: i za jego przyczyn\u0105 zlej mi\u0142o\u015bciwie skarby Twej \u0142aski na wszystkich, kt\u00f3rzy Ci\u0119 b\u0142agaj\u0105.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

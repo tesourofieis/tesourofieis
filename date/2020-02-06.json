@@ -83,22 +83,22 @@
       {
         "body": "*Sb 45:30*\nDeus estabeleceu com ele alian\u00e7a de paz e tornou-o pr\u00edncipe, para que possu\u00edsse eternamente a dignidade sacerdotal.\n*Sl 131:1*\nLembrai-vos de David, \u00f3 Senhor, e da sua grande mansid\u00e3o.\nGl\u00f3ria ao Pai.\nDeus estabeleceu com ele alian\u00e7a de paz e tornou-o pr\u00edncipe, para que possu\u00edsse eternamente a dignidade sacerdotal.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Bo\u017ce, kt\u00f3ry ozdobi\u0142e\u015b \u015bw. Tytusa, Twego Wyznawc\u0119 i Biskupa, apostolskimi cnotami, spraw dla jego zas\u0142ug i wstawiennictwa, aby\u015bmy sprawiedliwie i pobo\u017cnie \u017cyj\u0105c na tym \u015bwiecie, mogli doj\u015b\u0107 do niebieskiej ojczyzny.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*de \u015bw. Doroty*\nProsimy Ci\u0119, Panie, aby \u015bwi\u0119ta N., Dziewica i M\u0119czennica Twoja, wyb\u0142aga\u0142a nam przebaczenie; ona bowiem zawsze podoba\u0142a si\u0119 Tobie dzi\u0119ki zas\u0142udze czysto\u015bci i wyznaniu Twojej mocy.\nPor nosso Senhor", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 44:16-27; 45:3-20*\nEis o grande sacerdote, que nos dias da sua vida agradou a Deus e foi julgado justo; e no tempo da ira se tornou a reconcilia\u00e7\u00e3o dos homens. Ningu\u00e9m o igualou na observ\u00e2ncia das leis do Alt\u00edssimo. Eis porque o Senhor jurou que o tornaria grande no meio do seu povo. O Senhor aben\u00e7oou nele todos os povos; e com ele ratificou a sua alian\u00e7a. O Senhor deu-lhe as suas b\u00ean\u00e7\u00e3os e continuou a dispensar-lhe a sua miseric\u00f3rdia, vendo-se bem que este homem achou gra\u00e7a aos olhos do Senhor, que, por isso mesmo, o engrandeceu diante dos reis e lhe deu uma coroa de gl\u00f3ria. Estabeleceu com ele uma alian\u00e7a eterna, elevou-o ao sumo sacerd\u00f3cio, e tornou-o feliz na gl\u00f3ria para exercer o sacerd\u00f3cio, louvar o seu nome e oferecer-lhe dignamente incenso de odor agrad\u00e1vel.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sb 44:16*\nEis o grande sacerdote que nos dias da sua vida agradou a Deus.\n*Sb 44:20*\nV. N\u00e3o foi encontrado outrem semelhante a ele na observ\u00e2ncia das leis do Alt\u00edssimo. Aleluia, aleluia.\n*Sl 109:4*\nTu \u00e9s sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia.", 
@@ -108,42 +108,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 10:1-9*\nNaquele tempo, escolheu o Senhor ainda setenta e dois disc\u00edpulos e mandou-os, dois a dois, adiante d\u2019Ele, a todas as cidades e lugares onde devia ir, dizendo-lhes: \u00abA messe \u00e9 abundante, mas os oper\u00e1rios s\u00e3o poucos; pedi, pois ao Senhor da messe que mande mais oper\u00e1rios para a messe. Ide; eis que vos envio como cordeiros para o meio dos lobos; n\u00e3o leveis bolsa, nem saco, nem saudeis ningu\u00e9m pelo caminho. Em qualquer casa em que entrardes, dizei em primeiro lugar: \u00abA paz esteja nesta casa\u00bb! Se a\u00ed houver um filho da paz, a vossa paz repousar\u00e1 nele; e, se n\u00e3o um houver, voltar\u00e1 para v\u00f3s. Permanecei na mesma casa e comei e bebei do que houver nessa casa, pois o oper\u00e1rio merece sal\u00e1rio. N\u00e3o transiteis de casa para casa. Em qualquer casa em que entrardes e vos receberem comei do que vos derem, curai os enfermos que a\u00ed houver, e dizei-lhes: \u00abEis que se aproxima o reino de Deus\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:21-22*\nEncontrei o meu servo David e ungi-o com meu \u00f3leo sagrado. Minha m\u00e3o o socorrer\u00e1 e o meu bra\u00e7o o fortalecer\u00e1.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Que os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus m\u00e9ritos, sintamos o efeito do seu patroc\u00ednio.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*de \u015bw. Doroty*\nProsimy Ci\u0119, Panie, przyjmij \u0142askawie ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy przez zas\u0142ugi \u015bwi\u0119tej Doroty, Twojej Dziewicy i M\u0119czennicy, i spraw, by nam nieustann\u0105 by\u0142a pomoc\u0105.\nPor nosso Senhor", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Lc 12:42*\nEis o servo fiel e prudente que o Senhor estabeleceu acima da sua fam\u00edlia para distribuir, oportunamente, a cada um a sua medida de trigo.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Dignai-Vos permitir, \u00f3 Deus omnipotente, que, dando-Vos n\u00f3s gra\u00e7as pelos benef\u00edcios recebidos, alcancemos por intercess\u00e3o do B. N., vosso Confessor e Pont\u00edfice, ainda outros maiores.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*de \u015bw. Doroty*\nDarem Bo\u017cym szczodrze nasyceni, prosimy Ci\u0119, Panie Bo\u017ce nasz, aby\u015bmy za wstawiennictwem \u015bwi\u0119tej Doroty Twojej Dziewicy i M\u0119czennicy, zawsze czerpali ze\u0144 \u017cycie.\nPor nosso Senhor", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

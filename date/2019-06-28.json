@@ -66,17 +66,17 @@
       {
         "body": "*Sl. 32:11, 19.*\nThe thoughts of His Heart are to all generations: to deliver them from death and preserve them in spite of famine.\n*Sl 32:1*\nExult, you just, in the Lord; praise from the upright is fitting.\nGl\u00f3ria ao Pai.\nThe thoughts of His Heart are to all generations: to deliver them from death and preserve them in spite of famine.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O God, Who in the Heart of Your Son, wounded by our sins, mercifully lavish upon us the infinite riches of love, grant, we beseech You, that as we offer Him the faithful service of our devotion, we may also show forth fitting reparation.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the letter of St. Paul the Apostle to the Ephesians\n*Eph. 3:8-12, 14-19.*\nBrethren: To me, the very least of all saints, there was given this grace, to announce among the Gentiles the good tidings of the unfathomable riches of Christ, and to enlighten all men as to what is the dispensation of the mystery which has been hidden from eternity in God, Who created all things; in order that through the Church there be made known to the Principalities and the Powers in the heavens the manifold wisdom of God according to the eternal purpose which He accomplished in Christ Jesus our Lord. In Him we have assurance and confident access through faith in Him. For this reason I bend my knees to the Father of our Lord Jesus Christ, from Whom all fatherhood in heaven and on earth receives its name, that He may grant you from His glorious riches to be strengthened with power through His Spirit unto the progress of the inner man; and to have Christ dwelling through faith in your hearts: so that, being rooted and grounded in love, you may be able to comprehend with all the saints what is the breadth and length and height and depth, and to know Christ\ufffds love which surpasses knowledge, in order that you may be filled unto all the fullness of God.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl. 24:8-9.*\nGood and upright is the Lord; thus He shows sinners the way.\nV. He guides the humble to justice; He teaches the humble His way. Alleluia, alleluia.\n*Mt 11:29*\nTake My yoke upon you, and learn from Me, for I am meek, and humble of heart: and you will find rest for your souls. Alleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to John\n*Jo 19:31-37.*\nAt that time, the Jews, since it was the Preparation Day, in order that the bodies might not remain upon the cross on the Sabbath - for that Sabbath was a solemn day, - besought Pilate that their legs might be broken, and that they might be taken away. The soldiers therefore came and broke the legs of the first, and of the other, who had been crucified with Him. But when they came to Jesus, and saw that He was already dead, they did not break His legs; but one of the soldiers opened His side with a lance, and immediately there came out blood and water. And he who saw it has borne witness, and his witness is true; and he knows that he tells the truth, that you also may believe. For these things came to pass that the Scripture might be fulfilled, Not a bone of Him shall you break. And again another Scripture says, They shall look upon Him Whom they have pierced.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl. 68:21.*\nMy heart expected reproach and misery; I looked for sympathy, but there was none; and for comforters, and I found none.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Look, we beseech You, O Lord, upon the Heart of Your beloved Son, with its boundless love, so that what we offer, may be an acceptable gift in Your sight and an atonement for our sins.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*do SS. Cora\u00e7\u00e3o de Jesus*\n\u00c9 verdadeiramente digno e justo, racional e salutar que sempre e em todos os lugares Vos demos gra\u00e7as, Senhor santo, Pai omnipotente, eterno Deus, que quisestes que o vosso Filho Unig\u00e9nito, suspenso na Cruz, fosse trespassado pela lan\u00e7a do soldado, a fim de que, aberto o Cora\u00e7\u00e3o - sacr\u00e1rio da liberdade divina -, lan\u00e7asse sobre n\u00f3s torrentes de miseric\u00f3rdia e de gra\u00e7a; e, ardendo incessantemente de amor por n\u00f3s, sirva de descanso aos piedosos e de asilo de salva\u00e7\u00e3o aos penitentes. E por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia celestial, cantamos o hino da vossa gl\u00f3ria, dizendo sem cessar:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Jo 19:34.*\nOne of the soldiers opened His side with a lance, and immediately there came out blood and water.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May Your sacrament, O Lord Jesus, give us holy zeal, so that, seeing the sweetness of Your most loving Heart, we may learn to despise the things of earth and love those of heaven.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

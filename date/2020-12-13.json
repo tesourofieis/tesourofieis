@@ -81,12 +81,12 @@
       {
         "body": "*Fl. 4:4-6*\nRegozijai-vos incessantemente no Senhor. Eu vo-lo repito: regozijai-vos. Que todos os homens vejam a vossa mod\u00e9stia, Pois o Senhor est\u00e1 perto. N\u00e3o vos inquieteis com cousa alguma; mas mostrai a Deus nas vossas ora\u00e7\u00f5es e s\u00faplicas todas vossas necessidades.\n*Sl 84:2*\nAben\u00e7oastes, Senhor, a vossa terra: e livrastes Jacob do cativeiro.\nGl\u00f3ria ao Pai.\nRegozijai-vos incessantemente no Senhor. Eu vo-lo repito: regozijai-vos. Que todos os homens vejam a vossa mod\u00e9stia, Pois o Senhor est\u00e1 perto. N\u00e3o vos inquieteis com cousa alguma; mas mostrai a Deus nas vossas ora\u00e7\u00f5es e s\u00faplicas todas vossas necessidades.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Ouvi, Senhor, Vos suplicamos, as nossas ora\u00e7\u00f5es; e, pela gra\u00e7a da vossa visita, esclarecei as trevas da nossa alma:\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Luzia, Virgem e M\u00e1rtir *\nOuvi-nos, \u00f3 Deus, nosso salvador, a fim de que, assim como nos alegramos com a festa da vossa B. Virgem N. assim tamb\u00e9m consigamos alcan\u00e7ar piedosos sentimentos de fervorosa devo\u00e7\u00e3o.\nPor nosso Senhor", 
@@ -96,7 +96,7 @@
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Filipenses.\n*Fl 4:4-7*\nMeus irm\u00e3os: Regozijai-vos incessantemente no Senhor. Eu vo-lo repito: regozijai-vos. Que todos os homens vejam a vossa mod\u00e9stia. N\u00e3o vos inquieteis com cousa alguma; mas mostrai a Deus pelas vossas ora\u00e7\u00f5es e s\u00faplicas todas vossas necessidades. A paz de Deus, que ultrapassa toda nossa intelig\u00eancia, guardar\u00e1 os vossos cora\u00e7\u00f5es e intelig\u00eancias em Jesus Cristo, nosso Senhor.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 79:2-3, 2.*\nSenhor, que estais assentado acima dos Querubins, mostrai o vosso poder, e vinde.\nV. Ouvi, \u00f3 v\u00f3s, que governais Israel; \u00f3 v\u00f3s, que conduzis Jos\u00e9, como um pastor conduz um rebanho. Aleluia, aleluia.\nV. Mostrai, Senhor, o vosso poder, e vinde, para que sejamos salvos. Aleluia.", 
@@ -106,17 +106,17 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 1:19-28*\nNaquele tempo, os judeus enviaram de Jerusal\u00e9m alguns sacerdotes e levitas a Jo\u00e3o, perguntando-lhe: \u00abQuem \u00e9s tu?\u00bb. Ele confessou e n\u00e3o negou. Ele confessou: \u00abEu n\u00e3o sou Cristo\u00bb. E de novo o interrogaram: \u00abEnt\u00e3o quem \u00e9s? \u00c9s Elias?\u00bb Jo\u00e3o respondeu: \u00abN\u00e3o sou\u00bb. \u00ab\u00c9s algum Profeta?\u00bb. Ele respondeu: \u00abN\u00e3o sou\u00bb. \u00abDiz, pois, quem \u00e9s, a fim de que respondamos \u00e0queles que nos enviaram. Que dizes de ti?\u00bb E Jo\u00e3o respondeu: \u00abEu sou a voz daquele que clama no deserto: \u00abEndireitai o caminho de Senhor\u00bb, como disse o Profeta Isa\u00edas\u00bb. Ora, como alguns daqueles que lhe haviam sido enviados eram fariseus, interrogaram-no e disseram-lhe: \u00abEnt\u00e3o, se n\u00e3o \u00e9s nem Cristo, nem Elias, nem algum Profeta, porque baptizas?\u00bb Jo\u00e3o respondeu-lhes: a \u00abEu baptizo na \u00e1gua; por\u00e9m, entre v\u00f3s est\u00e1 Algu\u00e9m, a quem n\u00e3o conheceis, que \u00e9 Aquele que havia de vir depois de mim, mas que j\u00e1 existia antes de mim, e a quem n\u00e3o sou digno de desatar as correias das sand\u00e1lias\u00bb. Isto aconteceu em Bet\u00e2nia, al\u00e9m-Jord\u00e3o, onde Jo\u00e3o baptizava.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 84:2*\nAben\u00e7oastes Senhor, a vossa terra; e livrastes Jacob do cativeiro: perdoastes a iniquidade do vosso povo.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Senhor, Vos suplicamos, fazei que a nossa piedade Vos ofere\u00e7a continuamente o sacrif\u00edcio desta h\u00f3stia, para que ela nos alcance aquelas gra\u00e7as para que institu\u00edstes estes sagrados myst\u00e9rios, produzindo em n\u00f3s de uma maneira admir\u00e1vel a salva\u00e7\u00e3o que esperamos da vossa bondade.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Luzia, Virgem e M\u00e1rtir *\nAceitai, Senhor, esta oferta, que Vos consagra o vosso povo fiel em honra dos vossos santos, pelos m\u00e9ritos dos quais reconhece que tem alcan\u00e7ado a vossa assist\u00eancia nas tribula\u00e7\u00f5es.\nPor nosso Senhor", 
@@ -126,17 +126,17 @@
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Is 35:4*\nDizei:\u00abPusil\u00e2nimes, confortai-vos e nada receeis: Eis que vem o nosso Deus e nos salvar\u00e1\u00bb.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Imploramos, Senhor, a vossa clem\u00eancia, a fim de que estes divinos myst\u00e9rios, purificando-nos dos nossos v\u00edcios, nos Preparem para a solenidade que se aproxima.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Luzia, Virgem e M\u00e1rtir *\nHavendo V\u00f3s, Senhor, saciado a vossa fam\u00edlia com vossos dons sagrados, dignai-Vos favorecer-nos sempre com a intercess\u00e3o daquela cuja festa celebr\u00e1mos.\nPor nosso Senhor", 

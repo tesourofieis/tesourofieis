@@ -71,57 +71,57 @@
       {
         "body": "*Sl 37:22-23*\nForsake me not, O Lord; my God, be not far from me! Hasten to help me, O Lord, my salvation!\n*Sl 37:2*\nO Lord, in Your anger punish me not, in Your wrath chastise me not.\nGl\u00f3ria ao Pai.\nForsake me not, O Lord; my God, be not far from me! Hasten to help me, O Lord, my salvation!", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Look mercifully upon Your people, we beseech You, O Lord, and grant that they whom You command to abstain from food, may also refrain from harmful vices.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the book of Esther\n*Esther 13:8-11; 15-17.*\nIn those days, Mardochai prayed to the Lord, saying, O Lord, Lord, almighty King, for all things are in Your power, and there is none that can resist Your will, if You determine to save Israel. You have made heaven and earth, and all things that are under the cope of heaven. You are Lord of all, and there is none that can resist Your Majesty. And now, O Lord, O King, O God of Abraham, have mercy on Your people, because our enemies resolve to destroy us, and extinguish Your inheritance. Despise not Your portion, which You have redeemed for Yourself out of Egypt. Hear my supplication, and be merciful to Your lot and inheritance, and turn our mourning into joy, that we may live and praise Your Name, O Lord, and shut not the mouths of those who sing to You, O Lord our God.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\nV. Ps 78:8-9 O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
         "id": "Tractus", 
-        "label": "Gradual"
+        "label": "Tracto"
       }, 
       {
         "body": "Continuation of the Holy Gospel according to Matthew\n*Mt. 20:17-28*\nAt that time, as Jesus was going up to Jerusalem, He took the twelve disciples aside by themselves, and said to them, Behold, we are going up to Jerusalem, and the Son of Man will be betrayed to the chief priests and the Scribes; and they will condemn Him to death, and will deliver Him to the Gentiles to be mocked and scourged and crucified; and on the third day He will rise again. Then the mother of the sons of Zebedee came to Him with her sons; and worshipping, she made a request of Him. He said to her, What do you want? She said to Him, Command that these my two sons may sit, one at Your right hand and one at Your left hand, in Your kingdom. But Jesus answered and said, You do not know what you are asking for. Can you drink of the cup of which I am about to drink? They said to Him, We can. He said to them, Of My cup you shall indeed drink; but as for sitting at My right hand and at My left, that is not Mine to give you, but it belongs to those for whom it has been prepared by My Father. And when the ten heard this, they were indignant at the two brothers. But Jesus called them to Him, and said, You know that the rulers of the Gentiles lord it over them, and their great men exercise authority over them. Not so is it among you. On the contrary, whoever wishes to become great among you shall be your servant; and whoever wishes to be first among you shall be your slave; even as the Son the Man has not come to be served but to serve, and to give His life as a ransom for many.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 24:1-3*\nTo You I lift up my soul, O Lord. In You, O my God, I trust; let me not be put to shame, let not my enemies exult over me. No one who waits for You shall be put to shame.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Look with favor upon the sacrificial gifts we offer You, O Lord, and through this holy exchange loosen the bonds of our sins.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 10:8*\nThe Lord is just, He loves just deeds; the upright shall see His face.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Having received Your sacrament, O Lord, may we make progress, we beseech You, toward our everlasting salvation.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nO God, restorer and lover of innocence, direct the hearts of Your servants towards You, so that, filled with the fervor of Your spirit, they may be found steadfast in faith and rich in good works.\nPor nosso Senhor", 
         "id": "Super populum", 
-        "label": "Prayer over the people"
+        "label": "Sobre o povo"
       }
     ]
   }

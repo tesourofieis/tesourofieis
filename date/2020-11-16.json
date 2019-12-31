@@ -68,17 +68,17 @@
       {
         "body": "*Sl 44:8*\nAmastes a justi\u00e7a e odiastes a iniquidade; pelo que ungiu-vos o Senhor, vosso Deus, com o \u00f3leo da alegria, de prefer\u00eancia \u00e0s vossas companheiras.\n*Sl 44:2*\nMeu cora\u00e7\u00e3o exprimiu uma excelente palavra: Consagro ao Rei as minhas obras.\nGl\u00f3ria ao Pai.\nAmastes a justi\u00e7a e odiastes a iniquidade; pelo que ungiu-vos o Senhor, vosso Deus, com o \u00f3leo da alegria, de prefer\u00eancia \u00e0s vossas companheiras.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que para V\u00f3s preparastes uma morada agrad\u00e1vel no cora\u00e7\u00e3o da B. Virgem Gertrudes, atendendo aos seus m\u00e9ritos e intercess\u00e3o, apagai misericordiosamente as m\u00e1culas do nosso cora\u00e7\u00e3o e concedei-nos o gozo da sua companhia.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Cor\u00edntios.\n*2 Cor 10:17-18; 11:1-2*\nMeus irm\u00e3os: Aquele que se gloria, glorie-se no Senhor; pois n\u00e3o \u00e9 aprovado o que se louva a si mesmo, mas aquele a quem Deus recomenda. Queira Deus que possais suportar um pouco ainda a minha loucura; mas suportai-me ainda, pois estou zeloso de v\u00f3s da parte do zelo de Deus. Com efeito, desposei-vos com o \u00fanico esposo, para vos apresentar a Cristo como virgem pura.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 44:5*\nCaminhai com beleza e com majestade; ide gozar a vit\u00f3ria e reinai.\nV. Por causa da verdade, da mansid\u00e3o e da justi\u00e7a, a vossa dextra praticar\u00e1 maravilhas! Aleluia, aleluia.\n*Sl 44:15-16*\nAp\u00f3s ela, ser\u00e3o apresentadas virgens ao Rei: as suas companheiras ser\u00e3o introduzidas no meio da alegria. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 25:1-13*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos esta par\u00e1bola: \u00abO reino dos c\u00e9us \u00e9 semelhante a dez virgens que, empunhando suas l\u00e2mpadas, sa\u00edram ao encontro do esposo e da esposa. Por\u00e9m, cinco destas virgens eram loucas e as outras cinco eram prudentes. Ora, as cinco loucas, empunhando suas l\u00e2mpadas, n\u00e3o levaram azeite. Ao contr\u00e1rio, as prudentes tomaram azeite em seus vasos para suas l\u00e2mpadas. Como o esposo se demorasse em chegar, tiveram sono e dormiram. Quando era meia-noite, ouviu-se um clamor dizer: \u00abEis que chega o esposo; ide ao seu encontro\u00bb. Ent\u00e3o todas estas virgens se ergueram e prepararam as suas l\u00e2mpadas. As loucas disseram \u00e0s prudentes: \u00abDai-nos do vosso azeite, porque as nossas l\u00e2mpadas apagam-se\u00bb. As prudentes responderam-lhes: \u00abN\u00e3o, porque pode suceder que, como a v\u00f3s, nos falte o azeite; ide antes aos que o vendem, e comprai-o\u00bb. Ora, enquanto elas foram comprar o azeite, veio o esposo. Ent\u00e3o, as que estavam preparadas entraram com ele para as bodas; e fechou-se a porta. Por fim vieram as outras virgens, e disseram: \u00abSenhor, senhor, abri-nos a porta\u00bb. Ele respondeu: \u00abNa verdade vos digo: n\u00e3o vos conhe\u00e7o. Vigiai, pois, visto que n\u00e3o sabeis nem o dia nem a hora\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 44:10*\nAs filhas dos reis formam a vossa corte de gl\u00f3ria: a pr\u00f3pria rainha est\u00e1 colocada \u00e0 vossa direita, envergando um vestido de ouro, recamado da mais rica variedade.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Aceitai, Senhor, esta oferta, que Vos consagra o vosso povo fiel em honra dos vossos santos, pelos m\u00e9ritos dos quais reconhece que tem alcan\u00e7ado a vossa assist\u00eancia nas tribula\u00e7\u00f5es.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 25:4; 25:6*\nAs cinco virgens prudentes levaram azeite em seus vasos para suas l\u00e2mpadas. Ora, no meio da noite, ouviu-se este clamor: \u00abEis que chega o esposo; comparecei diante de Cristo, vosso Senhor\u00bb.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Havendo V\u00f3s, Senhor, saciado a vossa fam\u00edlia com vossos dons sagrados, dignai-Vos favorecer-nos sempre com a intercess\u00e3o daquela cuja festa celebr\u00e1mos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

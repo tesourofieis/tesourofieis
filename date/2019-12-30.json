@@ -81,12 +81,12 @@
       {
         "body": "*Sb 18:14 - 15.*\nEnquanto o mundo repousava em um profundo sil\u00eancio: e a noite estava no meio do seu decurso, o vosso Verbo omnipotente, Senhor, desceu dos c\u00e9us, do seu r\u00e9gio trono.\n*Sl 92:1*\nO Senhor revestiu-se de gl\u00f3ria e reina; o Senhor revestiu-se com a t\u00fanica da majestade e cingiu-se com o poder.\nGl\u00f3ria ao Pai.\nEnquanto o mundo repousava em um profundo sil\u00eancio: e a noite estava no meio do seu decurso, o vosso Verbo omnipotente, Senhor, desceu dos c\u00e9us, do seu r\u00e9gio trono.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus omnipotente e sempiterno, dirigi as nossas ac\u00e7\u00f5es segundo a vossa vontade, a fim de que pelo nome do vosso amant\u00edssimo Filho sejamos dignos de praticar abundantes boas obras.\nQue convosco vive.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o Missa do sexto dia na Oitava do Natal *\n\u00d3 Deus omnipotente, Vos imploramos, dignai-Vos permitir que o novo Nascimento do vosso Filho Unig\u00e9nito Incarnado nos livre do antigo cativeiro em que nos conserva o jugo do pecado.\nPelo mesmo nosso Senhor.", 
@@ -96,7 +96,7 @@
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos G\u00e1latas.\n*Gl 4:1 - 7.*\nMeus irm\u00e3os: Enquanto o herdeiro \u00e9 menor, n\u00e3o se distingue do servo, ainda que seja o senhor de tudo; mas depende dos tutores e administradores, at\u00e9 ao tempo determinado por seu pai. Do mesmo modo, quando n\u00f3s \u00e9ramos ainda meninos, est\u00e1vamos sujeitos aos elementos do mundo; mas, logo que chegou a plenitude dos tempos, Deus enviou o seu Filho, nascido da Mulher e sujeito \u00e0 lei, para resgatar aqueles que estavam sob a san\u00e7\u00e3o da lei, e se tornarem seus filhos adoptivos. E, porque sois seus filhos, mandou Deus ao vosso cora\u00e7\u00e3o o esp\u00edrito de seu Filho, o qual clama: Abba! Pai! E, assim, j\u00e1 nenhum de v\u00f3s \u00e9 escravo, mas filho. E, sendo seus filhos, sois tamb\u00e9m herdeiros, por interven\u00e7\u00e3o de Deus.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 44:3, 2.*\nV\u00f3s sois mais belo do que todos os filhos dos homens, pois a gra\u00e7a espalhou-se nos vossos l\u00e1bios.\nV. Meu cora\u00e7\u00e3o exprimiu uma palavra admir\u00e1vel: Consagro ao Rei as minhas obras: Minha l\u00edngua \u00e9 como a pena de um escritor expedito. Aleluia, aleluia.\nV. Ps 92:1 O Senhor revestiu-se de gl\u00f3ria e reina: O Senhor revestiu-se de autoridade e cingiu-se com o poder. Aleluia.", 
@@ -106,17 +106,17 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 2:33-40*\nNaquele tempo, Jos\u00e9 e Maria, M\u00e3e de Jesus, estavam admirados do que se dizia de Jesus. Sime\u00e3o aben\u00e7oou-os e disse a Maria, sua M\u00e3e: \u00abEste Menino veio ao mundo para ru\u00edna e salva\u00e7\u00e3o de muitos de Israel. Ele ser\u00e1 como que um sinal de contradi\u00e7\u00e3o. Uma espada de dor por sua causa traspassar\u00e1 a vossa alma, a fim de que os pensamentos de muitos homens, que estavam ocultos no \u00edntimo do seu cora\u00e7\u00e3o, sejam revelados\u00bb. Ora, estava ali a profetiza Ana, filha de Fanuel, da tribo de Aser, que era de idade avan\u00e7ada (a qual vivera sete anos com seu marido, que havia desposado ap\u00f3s a sua virgindade), sendo vi\u00fava e contando oitenta e quatro anos de idade. Ela n\u00e3o abandonava o templo, servindo a Deus, noite e dia, com jejuns e ora\u00e7\u00f5es. Tendo ela chegado naquela ocasi\u00e3o, louvava o Senhor e falava de Jesus a todos quantos esperavam a salva\u00e7\u00e3o de Israel. Depois que eles cumpriram tudo o que a lei do Senhor preceituava, regressaram \u00e0 cidade de Nazar\u00e9, na Galileia. Entretanto, o Menino crescia, fortalecia-se e era cheio de sabedoria: e a gra\u00e7a de Deus habitava n\u2019Ele.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 92:1-2*\nDeus firmou de tal modo o globo terrestre, que nunca mais ser\u00e1 destru\u00eddo. \u00d3 Deus, o vosso trono estava elevado desde a eternidade, pois V\u00f3s existis antes dos s\u00e9culos.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "\u00d3 Deus omnipotente, Vos pedimos, permiti que as oblatas, que apresentamos ante os olhos de vossa majestade, nos alcancem a gra\u00e7a de uma piedosa devo\u00e7\u00e3o e nos assegurem a posse da eterna felicidade.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o Missa do sexto dia na Oitava do Natal *\nSantificai, Senhor, pelo novo Nascimento do vosso Filho Unig\u00e9nito, as oblatas que Vos apresentamos, e purificai-nos das manchas dos nossos pecados.\nPelo mesmo nosso Senhor.", 
@@ -126,17 +126,17 @@
       {
         "body": "*do Natal*\nVerdadeiramente \u00e9 digno e justo, racional e salutar dar-Vos gra\u00e7as, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo myst\u00e9rio do Verbo Incarnado um novo clar\u00e3o do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira vis\u00edvel, sejamos inspirados por Ele no amor \u00e0s cousas invis\u00edveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 2:20*\nToma o Menino e sua M\u00e3e, e volta para a terra de Israel, pois s\u00e3o mortos os que queriam atentar contra a vida do Menino.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Senhor, que pela virtude destes divinos myst\u00e9rios sejamos purificados dos nossos v\u00edcios, e que vejamos realizados os nossos justos desejos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o Missa do sexto dia na Oitava do Natal *\n\u00d3 Deus omnipotente, dignai-Vos permitir que, assim como o Salvador do mundo, nascendo neste dia, nos comunicou a gera\u00e7\u00e3o divina, assim tamb\u00e9m nos conceda a imortalidade.\nQue convosco vive.", 

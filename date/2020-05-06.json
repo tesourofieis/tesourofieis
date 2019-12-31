@@ -66,17 +66,17 @@
       {
         "body": "*Sl 65:1-2*\nShout with joy to God, all the earth, sing ye a psalm to his name; give glory to his praise. allel\ufffdja, allel\ufffdja, allel\ufffdja.\n*Sl 65:3*\nSay unto God, How terrible are thy works, O Lord! in the multitude of thy strength thy enemies shall lie to thee.\nGl\u00f3ria ao Pai.\nShout with joy to God, all the earth, sing ye a psalm to his name; give glory to his praise. allel\ufffdja, allel\ufffdja, allel\ufffdja.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Almighty God, Who showest to them that be in error the light of thy truth, to the intent that they may return into the way of righteousness, grant unto all them that are admitted into the fellowship of Christ's Religion, that they may eschew those things that are contrary to their profession, and follow all such things as are agreeable to the same.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the first letter of St. Peter the Apostle\n*1 Pet 2:11-19*\nDearly beloved, I beseech you as strangers and pilgrims, to refrain yourselves from carnal desires which war against the soul, Having your conversation good among the Gentiles: that whereas they speak against you as evildoers, they may, by the good works, which they shall behold in you, glorify God in the day of visitation. Be ye subject therefore to every human creature for God's sake: whether it be to the king as excelling; Or to governors as sent by him for the punishment of evildoers, and for the praise of the good: For so is the will of God, that by doing well you may put to silence the ignorance of foolish men: As free, and not as making liberty a cloak for malice, but as the servants of God. Honour all men. Love the brotherhood. Fear God. Honour the king. Servants, be subject to your masters with all fear, not only to the good and gentle, but also to the froward. For this is thankworthy, if for conscience towards God, a man endure sorrows, suffering wrongfully.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Allel\ufffdja, allel\ufffdja.\n*Sl 110:9*\nHe hath sent redemption to his people:\n*Lc 24:46*\nThus it behoved Christ to suffer, and to rise again from the dead, the third day. Allel\ufffdja.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to John\n*Jo 16:16-22*\nIn that time: Jesus said to his disciples: A little while, and now you shall not see me; and again a little while, and you shall see me: because I go to the Father. Then some of the disciples said one to another: What is this that he saith to us: A little while, and you shall not see me; and again a little while, and you shall see me, and, because I go to the Father? They said therefore: What is this that he saith, A little while? we know not what he speaketh. And Jesus knew that they had a mind to ask him; and he said to them: Of this do you inquire among yourselves, because I said: A little while, and you shall not see me; and again a little while, and you shall see me? Amen, amen I say to you, that you shall lament and weep, but the world shall rejoice; and you shall be made sorrowful, but your sorrow shall be turned into joy. A woman, when she is in labour, hath sorrow, because her hour is come; but when she hath brought forth the child, she remembereth no more the anguish, for joy that a man is born into the world. So also you now indeed have sorrow; but I will see you again, and your heart shall rejoice; and your joy no man shall take from you.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 145:2*\nPraise the Lord, O my soul, in my life I will praise the Lord:  as long as I shall be. Allel\ufffdja.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Confer on us, O Lord, by these mysteries the moderation of our earthly desires: and teach us to love the things of heaven.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Jo 16:16*\nA little while, and now you shall not see me; and again a little while, and you shall see me: because I go to the Father, allel\ufffdja, allel\ufffdja.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May the Sacraments which we have received, O Lord, we ask, refresh us with spiritual nourishment, and preserve us with bodily assistance.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

@@ -76,17 +76,17 @@
       {
         "body": "*Sb 11:24-25, 27.*\nYou have mercy on all, O Lord, and hate none of the things which You have made, overlooking the sins of men for the sake of repentance, and sparing them: because You are the Lord our God.\n*Sl 56:2*\nHave pity on me, O God; have pity on me, for in You I take refuge.\nGl\u00f3ria ao Pai.\nYou have mercy on all, O Lord, and hate none of the things which You have made, overlooking the sins of men for the sake of repentance, and sparing them: because You are the Lord our God.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Grant, O Lord, that Your faithful people may, with true piety, undertake the time-honored custom of fasting and may carry it out with unwavering devotion.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the book of Joel\n*Joel 2:12-19*\nThus says the Lord: Return to Me with your whole heart, with fasting, and weeping, and mourning; rend your hearts, not your garments, and return to the Lord, your God. For gracious and merciful is He, slow to anger, rich in kindness, and relenting in punishment. Perhaps He will again relent and leave behind Him a blessing, offerings and libations for the Lord, your God. Blow the trumpet in Sion! proclaim a fast, call an assembly; gather the people, notify the congregation; assemble the elders, gather the children and the infants at the breast; let the bridegroom quit his room, and the bride her chamber. Between the porch and the altar let the priests, the ministers of the Lord, weep, and say, \u2018Spare, O Lord, Your people, and make not Your heritage a reproach, with the nations ruling over them! Why should they say among the peoples: Where is their God?\u2019 Then the Lord was stirred to concern for His land and took pity on His people. The Lord answered and said to His people: See, I will send you grain, and wine, and oil, and you shall be filled with them; no more will I make you a reproach among the nations, say the Lord almighty.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 56:2, 4.*\nHave pity on me, O God; have pity on me, for in You I take refuge.\nV. He has sent from heaven and saved me; He has made those a reproach who trample upon me.\n\n*Tractus*\n*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\nV. Ps 78:8-9 O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
@@ -96,37 +96,37 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to Matthew\n*Mt. 6:16-21*\nAt that time, Jesus said to His disciples, When you fast, do not look gloomy like the hypocrites, who disfigure their face in order to appear to men as fasting. Amen I say to you, they have received their reward. But you, when you do fast, anoint your head and wash your face, so that you may not be seen fasting by men, but by your Father, Who is in secret; and your Father, Who sees in secret, will reward you. Do not lay up for yourselves treasures on earth, where rust and moth consume, and where thieves break in and steal; but lay up for yourselves treasures in heaven, where neither rust nor moth consumes, nor thieves break in and steal. For where your treasure is, there also will your heart be.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 29:2-3*\nI will extol you, O Lord, for You drew me clear and did not let my enemies rejoice over me. O Lord, I cried out to You and You healed me.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "O Lord, we beseech You, make us truly fit to offer these gifts by which we celebrate the beginning of this venerable observance.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 1:2-3*\nHe who shall meditate day and night on the law of the Lord shall yield his fruit in due season.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May the sacrament that we have received, O Lord, give us help, that our fast may be pleasing to You and may profit us as a healing remedy.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nLook graciously O Lord, upon those who bow down before Your divine majesty, that they, being fed by Your holy gift, may always be nourished by help from heaven.\nPor nosso Senhor", 
         "id": "Super populum", 
-        "label": "Prayer over the people"
+        "label": "Sobre o povo"
       }
     ]
   }

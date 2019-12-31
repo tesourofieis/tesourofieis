@@ -66,17 +66,17 @@
       {
         "body": "Salve, \u00f3 Santa Maria, em cujo seio foi gerado o Rei que governa o c\u00e9u e a terra, em todos os s\u00e9culos dos s\u00e9culos.\n*Sl 44:2*\nMeu cora\u00e7\u00e3o exprimiu uma excelente palavra: Consagro ao Rei as minhas obras!\nGl\u00f3ria ao Pai.\nSalve, \u00f3 Santa Maria, em cujo seio foi gerado o Rei que governa o c\u00e9u e a terra, em todos os s\u00e9culos dos s\u00e9culos.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Concedei aos vossos servos, Senhor Deus, Vos suplicamos, o gozo da perp\u00e9tua sa\u00fade da alma e do corpo, e que pela gloriosa intercess\u00e3o da B. Maria, sempre Virgem, sejamos livres das tristezas dos tempos presentes e alcancemos o gozo da eterna alegria.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 24:14-16*\nFui criada desde o princ\u00edpio, antes de todos os s\u00e9culos, e n\u00e3o deixarei de existir at\u00e9 \u00e0 eternidade. Exerci perante Ele o meu myst\u00e9rio; e deste modo tenho habita\u00e7\u00e3o fixa em Si\u00e3o. Ele deixa-me descansar na cidade santa e tenho poder em Jerusal\u00e9m. Arraiguei-me em um povo glorioso, da parte do meu Deus e da sua heran\u00e7a, e permane\u00e7o na companhia dos santos.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Aleluia, aleluia\n*Num 17:8*\nA vara de Jess\u00e9 floresceu: e a Virgem deu \u00e0 luz o Homem-Deus: restabeleceu Deus a paz, conciliando na sua pessoa a nossa baixeza com sua suprema grandeza. Aleluia.\n*Lc 1:28*\nAve, Maria, cheia de gra\u00e7a: o Senhor \u00e9 convosco: bendita sois v\u00f3s entre as mulheres. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 19:25-27*\nNaquele tempo, estavam, junto \u00e0 cruz de Jesus, sua M\u00e3e e a irm\u00e3 de sua M\u00e3e, Maria, mulher de Cl\u00e9ofas, e Maria Madalena. Vendo Jesus sua M\u00e3e e, perto dela, o disc\u00edpulo Ele preferia, disse a sua M\u00e3e: \u00abMulher, eis o vosso filho!\u00bb. Depois disse ao disc\u00edpulo: \u00abEis a tua M\u00e3e!\u00bb. E desde aquela hora levou-a o disc\u00edpulo consigo.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "Sois bem-aventurada, \u00f3 Virgem Maria, pois fostes digna de trazer em vosso seio o Criador do mundo. V\u00f3s gerastes Aquele que vos criou e permanecestes eternamente Virgem. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Pela vossa miseric\u00f3rdia, Senhor, e pela intercess\u00e3o da B. Maria, sempre Virgem, permiti que esta obla\u00e7\u00e3o nos assegure agora e sempre a prosperidade e a paz.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "Bem-aventuradas as entranhas da Virgem Maria, que trouxeram encerrado o Filho do Pai Eterno.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Havendo n\u00f3s, Senhor, alcan\u00e7ado o poderoso aux\u00edlio da nossa salva\u00e7\u00e3o, concedei-nos, Vos imploramos, que sejamos protegidos com o patroc\u00ednio da B. Maria, sempre Virgem, em cuja honra oferecemos \u00e0 vossa majestade este sacrif\u00edcio.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

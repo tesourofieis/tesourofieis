@@ -66,17 +66,17 @@
       {
         "body": "*Is 48:20*\nDeclare it with the voice of joy: make this to be heard, allel\ufffdja: and speak it out even to the ends of the earth. Say: The Lord hath redeemed his people, allel\ufffdja, allel\ufffdja\n*Sl 65:1-2*\nShout with joy to God, all the earth, sing ye a psalm to his name; give glory to his praise.\nGl\u00f3ria ao Pai.\nDeclare it with the voice of joy: make this to be heard, allel\ufffdja: and speak it out even to the ends of the earth. Say: The Lord hath redeemed his people, allel\ufffdja, allel\ufffdja.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O God, from Whom all good things do come, grant to us thy humble servants that by thy holy inspiration we may think those things that be good, and by thy merciful guiding may perform the same.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the letter of St James the Apostle\n*Jas 1:22-27*\nDearly beloved: But be ye doers of the word, and not hearers only, deceiving your own selves. For if a man be a hearer of the word, and not a doer, he shall be compared to a man beholding his own countenance in a glass. For he beheld himself, and went his way, and presently forgot what manner of man he was. But he that hath looked into the perfect law of liberty, and hath continued therein, not becoming a forgetful hearer, but a doer of the work; this man shall be blessed in his deed. And if any man think himself to be religious, not bridling his tongue, but deceiving his own heart, this man's religion is vain. Religion clean and undefiled before God and the Father, is this: to visit the fatherless and widows in their tribulation: and to keep one's self unspotted from this world.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Allel\ufffdja, allel\ufffdja.\nV. Christ is risen and hath shone upon us whom he redeemed with his blood. \n*Jo 16:28*\nI came forth from the Father, and am come into the world: again I leave the world, and I go to the Father. Allel\ufffdja.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to John\n*Jo 16:23-30*\nIn that time, Jesus said to His disciples: Amen, amen I say to you: if you ask the Father any thing in my name, he will give it you. Hitherto you have not asked any thing in my name. Ask, and you shall receive; that your joy may be full. These things I have spoken to you in proverbs. The hour cometh, when I will no more speak to you in proverbs, but will shew you plainly of the Father. In that day you shall ask in my name; and I say not to you, that I will ask the Father for you: For the Father himself loveth you, because you have loved me, and have believed that I came out from God. I came forth from the Father, and am come into the world: again I leave the world, and I go to the Father. His disciples say to him: Behold, now thou speakest plainly, and speakest no proverb. Now we know that thou knowest all things, and thou needest not that any man should ask thee. By this we believe that thou camest forth from God.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 65:8-9; 65:20*\nO bless our God, ye Gentiles: and make the voice of his praise to be heard. Who hath set my soul to live: and hath not suffered my feet to be moved: Blessed be God, who hath not turned away my prayer, nor his mercy from me, allel\ufffdja.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Receive, O Lord, the prayers of thy faithful with offerings of victims, that by these services of pious devotion we may pass to heavenly glory.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 95:2*\nSing ye to the Lord and bless his name: shew forth his salvation from day to day, allel\ufffdja, allel\ufffdja.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Grant us, O Lord, fed with the virtue of a heavenly table, to desire what is right, and to gain what we desire.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

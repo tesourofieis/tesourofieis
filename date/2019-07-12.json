@@ -84,22 +84,22 @@
       {
         "body": "*Sl 36:30-31*\nA boca do justo fala com sabedoria: e a sua l\u00edngua proclama a justi\u00e7a. A lei do seu Deus estar\u00e1 no seu cora\u00e7\u00e3o.\n*Sl 36:1*\nN\u00e3o vos irriteis contra os maus, nem tenhais inveja daqueles que cometem iniquidades.\nGl\u00f3ria ao Pai.\nA boca do justo fala com sabedoria: e a sua l\u00edngua proclama a justi\u00e7a. A lei do seu Deus estar\u00e1 no seu cora\u00e7\u00e3o.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Prosimy Ci\u0119, Panie, niech nas Tobie poleca wstawiennictwo \u015bwi\u0119tego Jana, Opata, aby\u015bmy za jego przyczyn\u0105 otrzymali to, czego nie zdo\u0142amy wyjedna\u0107 naszymi zas\u0142ugami.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*Wspomnienie \u015b\u015b. Nabora i Feliksa*\nSpraw, prosimy Ci\u0119, Panie, aby\u015bmy stale doznawali pomocy \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich  Nabora i Feliksa, skoro nie zaprzestajemy obchodzi\u0107 ich narodzin dla nieba.\nPor nosso Senhor", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 45:1-6*\nFoi amado de Deus e dos homens; a sua mem\u00f3ria \u00e9 uma b\u00ean\u00e7\u00e3o. O Senhor deu-lhe uma gl\u00f3ria, semelhante \u00e0 dos Santos; tornou-o temeroso e invenc\u00edvel perante seus inimigos; e com suas palavras aplacou os monstros. O Senhor honrou-o diante dos reis; deu-lhe as suas ordens diante do seu povo; e mostrou-lhe a sua gl\u00f3ria. O Senhor santificou-o pela sua f\u00e9 e mansid\u00e3o; e escolheu-o entre todos os homens. Deus escutou-o; ouviu a sua voz; e f\u00ea-lo entrar na nuvem. Ent\u00e3o, deu-lhe face a face os seus preceitos e a lei da vida e da doutrina.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 20:4-5*\nSenhor, concedestes-lhe b\u00ean\u00e7\u00e3os escolhidas as mais suaves; e impusestes na sua cabe\u00e7a uma coroa de pedras preciosas.\nV. Concedestes-lhe a vida, que Vos suplicara, e prolongastes-lhe a dura\u00e7\u00e3o dos seus dias pelos s\u00e9culos dos s\u00e9culos. Aleluia, aleluia.\n*Sl 91:13*\nO justo florescer\u00e1, como a palmeira, e crescer\u00e1, como o cedro do L\u00edbano. Aleluia.", 
@@ -109,42 +109,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 5:43-48*\nOnego czasu rzek\u0142 Jezus uczniom swoim: \u00abS\u0142yszeli\u015bcie, \u017ce powiedziano: B\u0119dziesz mi\u0142owa\u0142 bli\u017aniego twego, a w nienawi\u015bci b\u0119dziesz mia\u0142 nieprzyjaciela twego. A ja wam powiadam: Mi\u0142ujcie nieprzyjacio\u0142y wasze, dobrze czy\u0144cie tym, kt\u00f3rzy was maj\u0105 w nienawi\u015bci, a m\u00f3dlcie si\u0119 za prze\u015bladuj\u0105cych i spotwarzaj\u0105cych was. Aby\u015bcie byli synami Ojca waszego, kt\u00f3ry jest w niebiesiech, kt\u00f3ry sprawia, \u017ce s\u0142o\u0144ce Jego wschodzi nad dobrymi i z\u0142ymi, a deszczem zrasza sprawiedliwych i nieprawych. Gdyby\u015bcie bowiem mi\u0142owali tych, kt\u00f3rzy was mi\u0142uj\u0105, c\u00f3\u017c za nagrod\u0119 mie\u0107 b\u0119dziecie? Czy\u017c i celnicy tego nie czyni\u0105? Albo je\u017celi pozdrawiacie tylko braci waszych, c\u00f3\u017c osobliwego czynicie? Czy\u017c i poganie tak nie czyni\u0105? B\u0105d\u017acie\u017c wy tedy doskonali, jako i Ojciec wasz niebieski doskona\u0142y jest.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 20:3; 20:4*\nConcedestes-lhe o desejo da sua alma e n\u00e3o desprezastes a prece dos seus l\u00e1bios. Impusestes na sua cabe\u00e7a uma coroa de pedras preciosas.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Vos imploramos, Senhor, que o vosso santo Abade N. nos alcance que a h\u00f3stia, oferecida no vosso altar, nos proporcione a salva\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Wspomnienie \u015b\u015b. Nabora i Feliksa*\nProsimy Ci\u0119, Panie, niech wstawiennictwo \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Nabora i Feliksa mi\u0142ymi Ci uczyni dary Twego ludu, a skoro sk\u0142adamy je Twojemu imieniu z powodu ich zwyci\u0119stwa, niechaj te\u017c dzi\u0119ki ich zas\u0142ugom stan\u0105 si\u0119 godne przyj\u0119cia.\nPor nosso Senhor", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Lc 12:42*\nO servo fiel e prudente \u00e9 destinado pelo Senhor para distribuir, oportunamente, na sua fam\u00edlia a sua medida de trigo.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Senhor, unida \u00e0s preces do B. N. Abade, nos sirva de protec\u00e7\u00e3o, a fim de que, imitando os insignes exemplos da sua vida, sintamos os efeitos da sua intercess\u00e3o.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Wspomnienie \u015b\u015b. Nabora i Feliksa*\nW rocznic\u0119 narodzin dla nieba Twoich \u015awi\u0119tych prosimy Ci\u0119, Panie, aby\u015bmy posileni sakramentalnym darem, mogli w wieczno\u015bci nasyca\u0107 si\u0119 tymi dobrami, kt\u00f3rymi teraz karmimy si\u0119 z Twojej \u0142aski.\nPor nosso Senhor", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

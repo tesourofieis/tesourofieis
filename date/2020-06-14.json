@@ -66,17 +66,17 @@
       {
         "body": "*Sl. 17:19-20.*\nThe Lord came to my support. He set me free in the open, and rescued me, because He loves me.\n*Sl 17:2-3*\nI love You, O Lord, my strength, O Lord, my rock, my fortress, my deliverer.\nGl\u00f3ria ao Pai.\nThe Lord came to my support. He set me free in the open, and rescued me, because He loves me.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Grant, O Lord, that we may always fear and love Your holy Name, for You never fail to guide those whom You firmly establish in Your love.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the first letter of St John the Apostle\n*1 John 3:13-18.*\nBeloved: Do not be surprised if the world hates you. We know that we have passed from death to life, because we love the brethren. He who does not love abides in death. Everyone who hates his brother is a murderer. And you know that no murderer has eternal life abiding in him. In this we have come to know His love, that He laid down His life for us; and we likewise ought to lay down our life for the brethren. He who has the goods of this world and sees his brother in need and closes his heart to him, how does the love of God abide in him? My dear children, let us not love in word, neither with the tongue, but in deed and in truth.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl. 119:1-2.*\nIn my distress I called to the Lord, and He answered me.\nV. O Lord, deliver me from lying lip, from treacherous tongue. Alleluia, alleluia.\n*Sl 7:2*\nV. O Lord my God, in You I take refuge; save me from all my pursuers and rescue me. Alleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to Luke\n*Lc 14:16-24.*\nAt that time, Jesus spoke to the Pharisees this parable: A certain man gave a great supper, and he invited many. And he sent his servant at supper time to tell those invited to come, for everything is now ready. And they all with one accord began to excuse themselves. The first said to him, \ufffdI have bought a farm, and I must go out and see it; I pray you hold me excused.\ufffd And another said, \ufffdI have bought five yoke of oxen, and I am on my way to try them; I pray you hold me excused.\ufffd And another said, \ufffdI have married a wife, and therefore I cannot come.\ufffd And the servant returned, and reported these things to his master. Then the master of the house was angry and said to his servant, \ufffdGo out quickly into the streets and lanes of the city, and bring in here the poor, and the crippled, and the blind, and the lame.\ufffd And the servant said, \ufffdSir, your order has been carried out, and still there is room.\ufffd Then the master said to the servant, \ufffdGo out into the highways and hedges, and make them come in, so that my house may be filled. For I tell you that none of those who were invited shall taste of my supper.\ufffd", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl. 6:5.*\nReturn, O Lord, save my life; rescue me because of Your kindness.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "May the sacrifice we are about to offer unto Your holy Name, O Lord, make us pure, and day by day help us to live a more heavenly life.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl. 12:6.*\nI will sing of the Lord, He has been good to me; and I will sing to the Name of the Lord the Most High.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "We beseech You, O Lord, that having received Your gifts, each partaking of this sacrament may increase within us its saving effects.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

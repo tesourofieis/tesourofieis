@@ -66,17 +66,17 @@
       {
         "body": "*Sl 42:1 - 2.*\nDo me justice, O God, and fight my fight against a faithless people; from the deceitful and impious man rescue me. For You are my God and my strength.\n*Sl 42:3*\nSend forth Your light and Your fidelity; they shall lead me on and bring me to Your holy mountain, to Your dwelling-place.\nDo me justice, O God, and fight my fight against a faithless people; from the deceitful and impious man rescue me. For You are my God and my strength.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Look graciously upon Your household, almighty God, we beseech You, that by Your grace we may be governed in body, and by Your protection safeguarded in mind.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Reading from the letter of St. Paul to the Hebrews\n*Heb 9:11-15.*\nBrethren: When Christ appeared as high priest of the good things to come, He entered once for all through the greater and more perfect tabernacle, not made by hands - that is, not of this creation, - nor again by virtue of blood of goats and calves, but by virtue of His own blood, into the Holies, having obtained eternal redemption. For if the blood of goats and bulls and the sprinkled ashes of a heifer sanctify the unclean unto the cleansing of the flesh, how much more will the Blood of Christ, Who through the Holy Spirit offered Himself unblemished unto God, cleanse your conscience from dead works to serve the living God? And this is why He is mediator of a new covenant, that whereas a death has taken place for redemption from the transgressions committed under the former covenant, they who have been called may receive eternal inheritance according to the promise, in Christ Jesus our Lord.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 142:9-10.*\nRescue me from my enemies, O Lord; teach me to do Your will.\n*Sl 17:48-49*\nO Lord, my deliverer from the angry nations, truly above my adversaries You exalt me and from the violent man You have rescued me.\n\n*Tractus*\n*Sl 128:1-4*\nMuch have they oppressed me from my youth.\nV. Let Israel say: Much have they oppressed me from my youth.\nV. Yet they have not prevailed against me; upon my back the plowers plowed.\nV. Long did they make their furrows. But the just Lord has severed the cords of the wicked.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continuation of the Holy Gospel according to John\n*Jo 8:46-59.*\nAt that time, Jesus said to the crowds of the Jews: Which of you can convict Me of sin? If I speak the truth, why do you not believe Me? He who is of God hears the words of God. The reason why you do not hear is that you are not of God. The Jews therefore in answer said to Him, Are we not right in saying that You are a Samaritan, and have a devil? Jesus answered, I have not a devil, but I honor My Father, and you dishonor Me. Yet, I do not seek My own glory; there is One Who seeks and Who judges. Amen, amen, I say to you, if anyone keep My word, he will never see death. The Jews therefore said, Now we know that You have a devil. Abraham is dead, and the prophets, and You say, \ufffdIf anyone keep My word he will never taste death.\ufffd Are You greater than our father Abraham, who is dead? And the prophets are dead. Whom do You make Yourself? Jesus answered, If I glorify Myself, My glory is nothing. It is My Father Who glorifies Me, of Whom you say that He is your God. And you do not know Him, but I know Him. And if I say that I do not know Him, I shall be like you, a liar. But I know Him, and I keep His word. Abraham your father rejoiced that he was to see My day. He saw it and was glad. The Jews therefore said to Him, You are not yet fifty years old, and have You seen Abraham? Jesus said to them, Amen, amen, I say to you, before Abraham came to be, I am. They therefore took up stones to cast at Him; but Jesus hid Himself, and went out from the temple.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "I praise You, O Lord, with all my heart; be good to Your servant, that I may live and keep Your words. O Lord, give me life according to Your word.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "May these offerings, we beseech You, O Lord, loose the bonds of our wickedness, and obtain for us the gifts of Your mercy.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da Santa Cruz*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que estabelecestes na \u00e1rvore da Cruz a salva\u00e7\u00e3o do g\u00e9nero humano, para que renascesse a vida, onde a morte houvera princ\u00edpio, e que aquilo que outrora vencera na \u00e1rvore, fosse vencido na \u00e1rvore tamb\u00e9m, por Jesus Cristo, nosso Senhor: pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos C\u00e9us e os bem-aventurados Serafins a celebram em comuns transportes de alegria: aos quais, Vos suplicamos, permiti que se unam as nossas vozes, dizendo em humilde e suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*1 Cor. 11:24 - 25.*\nThis is My Body, which shall be given up for you: this is the cup of the new covenant in My Blood, says the Lord; Do this as often as you receive it, in remembrance of Me.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Stand by us, O Lord our God, and protect by Your everlasting help those to whom You have given new strength through Your sacrament.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

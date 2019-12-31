@@ -66,17 +66,17 @@
       {
         "body": "*Is 66:10-11*\nRejoice, O Jerusalem, and come together, all you who love her: rejoice with joy, you who have been in sorrow: that you may exult, and be filled from the breasts of your consolation.\n*Sl 121:1*\nI rejoiced because they said to me, We will go up to the house of the Lord.\nGl\u00f3ria ao Pai.\nRejoice, O Jerusalem, and come together, all you who love her: rejoice with joy, you who have been in sorrow: that you may exult, and be filled from the breasts of your consolation.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Grant, we beseech You, almighty God, that we who justly suffer for our sins may find relief in the help of Your grace.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the Epistle of St. Paul to the Galatians\n*Gl 4:22-31*\nBrethren: It is written that Abraham had two sons, the one by a slave-girl and the other by a free woman. And the son of the slave-girl was born according to the flesh, but the son of the free woman in virtue of the promise. This said by way of allegory. For these are the two covenants: one indeed from Mount Sinai bringing forth children unto bondage, which is Agar. For Sinai is a mountain in Arabia, which corresponds to the present Jerusalem, and is in slavery with her children. But that Jerusalem which is above is free, which is our mother. For it is written, Rejoice, O barren one, that do not bear; break forth and cry, you that do not travail; for many are the children of the desolate, more than of her that has a husband. Now we, brethren, are the children of the promise, as Isaac was. But as then he who was born according to the flesh, persecuted him who was born according to the spirit, so also it is now. But what does the Scripture say? Cast out the slave-girl and her son, for the son of the slave-girl shall not be heir with the son of the free woman.Therefore, brethren, we are not children of a slave-girl, but of the free woman - in virtue of the freedom wherewith Christ has made us free.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 121: 1, 7.*\nI rejoiced because they said to me, We will go up to the house of the Lord.\nV. May peace be within your walls, prosperity in your buildings.\n\n*Tractus*\n*Sl 124:1-2*\nThey who trust in the Lord are like Mount Sion, which is immovable; which forever stands.\nV. Mountains are round about Jerusalem; so the Lord is round about His people, both now and forever.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continuation of the Holy Gospel according to John\n*Jo 6:1-15*\nAt that time, Jesus went away to the other side of the sea of Galilee, which is that of Tiberias. And there followed Him a great crowd, because they witnessed the signs He worked on those who were sick. Jesus therefore went up the mountain, and sat there with His disciples. Now the Passover, the feast of the Jews, was near. When, therefore, Jesus had lifted up His eyes and seen that a very great crowd had come to Him, He said to Philip, Whence shall we buy bread that these may eat? But He said this to try him, for He Himself knew what He would do. Philip answered Him, Two hundred denarii worth of bread is not enough for them, that each one may receive a little. One of His disciples, Andrew, the brother of Simon Peter, said to Him, There is a young boy here who has five barley loaves and two fishes; but what are these among so many? Jesus then said, Make the people recline. Now there was much grass in the place. The men therefore reclined, in number about five thousand. Jesus then took the loaves, and when He had given thanks, distributed them to those reclining; and likewise the fishes, as much as they wished. But when they were filled, He said to His disciples, Gather the fragments that are left over, lest they be wasted. They therefore gathered them up; and they filled twelve baskets with the fragments of the five barley loaves left over by those who had eaten. When the people, therefore, had seen the sign which Jesus had worked, they said, This is indeed the Prophet Who is to come into the world. So when Jesus perceived that they would come to take Him by force and make Him king He fled again to the mountain, Himself alone.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 134:3, 6.*\nPraise the Lord, for He is good; sing praise to His Name, for He is sweet; all that He wills He does in heaven and on earth.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Look with favor, we beseech You, O Lord, upon the offerings here before You, that they may be beneficial for our devotion and salvation.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da Quaresma*\nVerdadeiramente \u00e9 digno e justo, racional e salutar dar-Vos gra\u00e7as em todos os lugares e sempre, Senhor santo, Pai omnipotente, eterno Deus, pois V\u00f3s, pelo jejum natural, reprimis os v\u00edcios, elevais o esp\u00edrito e concedeis-nos a virtude e o pr\u00e9mio por Cristo, nosso Senhor: pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades tr\u00e9mulas a reverenciam; e os C\u00e9us, as Virtudes dos C\u00e9us e os bem-aventurados Serafins se associam em comum louvor. Dignai-Vos permitir, Senhor, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 121:3-4*\nJerusalem, built as a city, with compact unity: to it the tribes go up, the tribes of the Lord, to give thanks to Your Name, O Lord.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Grant, we beseech You, merciful God, that we may treat with sincere reverence, and consume with heartfelt faith Your sacrament, which ever fills us to overflowing.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

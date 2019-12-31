@@ -86,12 +86,12 @@
       {
         "body": "*Sl 25:11-12*\nRedeem me, O Lord, and have pity on me; my foot stands on level ground; in the assemblies I will bless the Lord.\n*Sl 25:1*\nDo me justice, O Lord! for I have walked in integrity, and in the Lord I trust without wavering.\nGl\u00f3ria ao Pai.\nRedeem me, O Lord, and have pity on me; my foot stands on level ground; in the assemblies I will bless the Lord.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Grant, we beseech You, almighty God, that Your servants who discipline the body by fasting from food, may strive after righteousness by abstaining from sin.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Cirilo de Jerusal\u00e9m, Bispo, Confessor e Doutor da Igreja *\nProsimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, przez wstawiennictwo \u015bwi\u0119tego Biskupa Cyryla, daj nam pozna\u0107 Ciebie, jedynego prawdziwego Boga i pos\u0142anego przez Ciebie Jezusa Chrystusa, aby\u015bmy na zawsze zostali zaliczeni mi\u0119dzy owce, kt\u00f3re s\u0142uchaj\u0105 Jego g\u0142osu.\nPelo mesmo nosso Senhor.", 
@@ -101,7 +101,7 @@
       {
         "body": "Lesson from the Prophecy of Daniel\n*Dan 9:15-19*\nIn those days, Daniel prayed to the Lord, saying, O Lord our God, Who brought forth Your people out of the land of Egypt with a strong hand, and made for Yourself a name as at this day: we have sinned, we have committed iniquity, O Lord, against all Your justice: let Your wrath and Your indignation be turned away, I beseech You, from Your city Jerusalem and from Your holy mountain. For by reason of our sins and the iniquities of our fathers, Jerusalem and Your people are a reproach to all who are round about us. Now therefore, O our God, hear the supplication of Your servant and his prayers: and show Your face upon Your sanctuary which is desolate, for Your own sake. Incline, O my God, Your ear and hear: open Your eyes and see our desolation, and the city upon which Your name is called: for it is not for our justifications that we present our prayers before Your face, but for the multitude of Your tender mercies. O Lord, hear: O Lord, be appeased: hearken and do: delay not for Your own sake, O my God: because Your name is invocated upon Your city and upon Your people, O Lord our God.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 69:6, 3.*\nYou are my help and my deliverer; O Lord, hold not back!\nV. Let my enemies be put to shame and confounded, who seek my life.\n\n*Tract*\n*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\n*Sl 78:8-9*\nO Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
@@ -111,17 +111,17 @@
       {
         "body": "Continuation of the Holy Gospel according to John\n*Jo 8:21-29*\nAt that time, Jesus said to the multitudes of the Jews: I go, and you will seek Me, and in your sin you will die. Where I go you cannot come. The Jews therefore kept saying, Will He kill Himself, since He says, \u2018Where I go you cannot come\u2019? And He said to them, You are from below, I am from above. You are of this world, I am not of this world. Therefore I said to you that you will die in your sins; for if you do not believe that I am He, you will die in your sin. They therefore said to Him, Who are You? Jesus said to them, Why do I speak to you at all? I have many things to speak and to judge concerning you; but He Who sent Me is true, and the things that I heard from Him, these I speak in the world. And they did not understand that He was speaking to them about the father. Jesus therefore said to them, When you have lifted up the Son of Man, then you will know that I am He, and that of Myself I do nothing; but that I preach only what the Father has taught Me. And He Who sent Me is with Me; He has not left Me alone, because I do always the things that are pleasing to Him.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 15:7-8*\nI bless the Lord, Who counsels me; I set the Lord ever before me; with Him at my right hand, I shall not be moved.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "May this sacrificial gift offered in appeasement and praise, O Lord, make us worthy of Your protection.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Cirilo de Jerusal\u00e9m, Bispo, Confessor e Doutor da Igreja *\nWejrzyj, Panie, na niepokalan\u0105 ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy, i spraw przez zas\u0142ugi \u015bw. Biskupa i Wyznawcy Twego Cyryla, by\u015bmy starali si\u0119 j\u0105 przyj\u0105\u0107 z czystym sercem.\nPor nosso Senhor", 
@@ -131,17 +131,17 @@
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 8:2*\nO Lord, our Lord, how glorious is Your Name over all the earth!", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May this Communion, O Lord, cleanse us of sin, and make us partakers of heavenly healing.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Cirilo de Jerusal\u00e9m, Bispo, Confessor e Doutor da Igreja *\nPanie Jezu Chryste, niech na pro\u015bby \u015bw. Biskupa Cyryla przyj\u0119ty przez nas Sakrament Cia\u0142a i Krwi Twojej u\u015bwi\u0119ci\u0142 nasze umys\u0142y i serca, aby\u015bmy mogli sta\u0107 si\u0119 uczestnikami Boskiej natury:\n\u00d3 V\u00f3s, que viveis.", 
@@ -151,7 +151,7 @@
       {
         "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGive heed to our humble prayers, almighty God, and kindly grant Your oft-given mercy to those upon whom You bestow great hope in Your goodness.\nPor nosso Senhor", 
         "id": "Super populum", 
-        "label": "Prayer over the people"
+        "label": "Sobre o povo"
       }
     ]
   }

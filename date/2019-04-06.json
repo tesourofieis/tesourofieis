@@ -71,17 +71,17 @@
       {
         "body": "*Is 55:1*\nAll you who thirst, come to the waters, says the Lord: and you who have no money, come and drink with joy.\n*Sl 77:1*\nHearken, My people, to My teaching; incline your ears to the words of My mouth.\nGl\u00f3ria ao Pai.\nAll you who thirst, come to the waters, says the Lord: and you who have no money, come and drink with joy.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Make fruitful, we beseech You, O Lord, the zeal of our fervent devotion; for only if it pleases You shall the fasting we have undertaken be of benefit to us.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the Prophecy of Isaias\n*Is 49:8-15*\nThus says the Lord: In a time of favor I answer you, on the day of salvation I help you, to restore the land and allot the desolate heritages, saying to the prisoners: Come out! to those in darkness: Show yourselves! Along the ways they shall find pasture, on every bare height shall their pastures be. They shall not hunger or thirst, nor shall the scorching wind or the sun strike them; for he who pities them leads them and guides them beside springs of water. I will cut a road through all My mountains, and make My highways level. See, some shall come from afar, others from the north and the west, and some from the land of Syene. Sing out, O heavens, and rejoice, O earth, break forth into song, you mountains. For the Lord comforts His people and shows mercy to His afflicted. But Sion said, The Lord has forsaken me; my Lord has forgotten me. Can a mother forget her infant, be without tenderness for the child of her womb? Even should she forget, I will never forget you, says the Lord almighty.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 9:14, 1-2.*\nOn You, O Lord, the unfortunate man depends; of the fatherless You are the helper.\nV. Why, O Lord, do You stand aloof? Why hide in times of distress? While the wicked man is proud, the afflicted is set on fire.", 
@@ -91,37 +91,37 @@
       {
         "body": "Continuation of the Holy Gospel according to John\n*Jo 8:12-20*\nAt that time, Jesus spoke to the multitudes of the Jews, saying, I am the light of the world. He who follows Me does not walk in the darkness, but will have the light of life. The Pharisees therefore said to Him, You bear witness to Yourself. Your witness is not true. Jesus answered and said to them, Even if I bear witness to Myself, My witness is true, because I know where I came from and where I go. But you do not know where I came from or where I go. You judge according to the flesh; I judge no one. And even if I do judge, My judgment is true, because I am not alone, but with Me is He Who sent Me, the Father. And in your Law it is written that the witness of two persons is true. It is I Who bear witness to Myself, and He Who sent Me, the Father, bears witness to Me. They therefore said to Him, Where is your Father? Jesus answered, You know neither Me nor My Father. If you knew Me, you would then know My Father also. Jesus spoke these words in the treasury, while teaching in the temple. And no one seized Him, because His hour had not yet come.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 17:3*\nThe Lord is become my rock, my fortress, my deliverer; and in Him will I put my trust.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Graciously accept our offerings, O Lord, we beseech You, and mercifully direct our still rebellious wills to You.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 22:1-2*\nThe Lord is my Shepherd; I shall not want. In verdant pastures He gives me repose; beside restful waters He leads me.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May Your holy sacrament cleanse us, we beseech You, O Lord, and may its power make us pleasing to You.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nO God, Who would rather show mercy than anger toward those who hope in you, make us truly sorry for the evil we have done, that we may be worthy of your merciful consolation.\nPor nosso Senhor", 
         "id": "Super populum", 
-        "label": "Prayer over the people"
+        "label": "Sobre o povo"
       }
     ]
   }

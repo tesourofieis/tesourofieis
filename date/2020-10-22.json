@@ -66,17 +66,17 @@
       {
         "body": "*Dan 3:31; 3:29; 3:35*\nTudo quanto fizestes contra n\u00f3s, Senhor, foi com justi\u00e7a, pois pec\u00e1mos e n\u00e3o Obedecemos aos vossos mandamentos; mas glorificai o vosso nome e tratai-nos segundo a grandeza da vossa miseric\u00f3rdia.\n*Sl 118:1*\nBem-aventurados aqueles cuja vida \u00e9 imaculada: aqueles que praticam a Lei do Senhor.\nGl\u00f3ria ao Pai.\nTudo quanto fizestes contra n\u00f3s, Senhor, foi com justi\u00e7a, pois pec\u00e1mos e n\u00e3o Obedecemos aos vossos mandamentos; mas glorificai o vosso nome e tratai-nos segundo a grandeza da vossa miseric\u00f3rdia.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Compadecei-Vos dos vossos fi\u00e9is, Senhor, e dignai-Vos conceder-lhes o perd\u00e3o e a paz, a fim de que, havendo sido limpos de suas faltas, possam servir-Vos com toda a confian\u00e7a.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Ef\u00e9sios.\n*Eph 5:15-21*\nMeus irm\u00e3os: Tende cuidado de vos conduzirdes com prud\u00eancia, n\u00e3o como insensatos, mas como prudentes, aproveitando o tempo, pois os dias s\u00e3o maus. Assim, pois, n\u00e3o sejais imprudentes, mas procurai conhecer qual \u00e9 a vontade de Deus. N\u00e3o bebais vinho com excesso, o que \u00e9 lux\u00faria. Enchei-vos do Esp\u00edrito Santo, entretendo-vos uns aos outros com Salmos, Hinos, c\u00e2nticos espirituais e outros c\u00e2nticos e louvores, sa\u00eddos do \u00edntimo dos vossos cora\u00e7\u00f5es, para gl\u00f3ria do Senhor, dando gra\u00e7as sempre e em tudo a Deus Pai, em nome de nosso Senhor Jesus Cristo, e submetendo-vos uns aos outros no temor de Cristo.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 144:15-16*\nTodos os olhares se volvem para V\u00f3s, Senhor; a todos os entes dais alimento em tempo conveniente.\nV. Abris as m\u00e3os e encheis de b\u00ean\u00e7\u00e3os tudo o que tem vida. Aleluia, aleluia.\n*Sl 107:2*\nV. Meu cora\u00e7\u00e3o est\u00e1 preparado, \u00f3 Deus; o meu cora\u00e7\u00e3o est\u00e1 preparado: cantarei vossos louvores, \u00f3 V\u00f3s, que sois a minha gl\u00f3ria. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 4:46-53*\nNaquele tempo, havia um oficial em Cafarnaum, cujo filho estava enfermo. Tendo ele sabido que Jesus vinha da Judeia para a Galileia, foi ter com Ele, rogando-Lhe que fosse a sua casa curar seu filho, que principiava a agonizar. Disse-lhe Jesus: \u00abSe n\u00e3o vedes prod\u00edgios e milagres n\u00e3o acreditais!\u00bb. Respondeu-Lhe o oficial: \u00abSenhor, vinde, antes que meu filho morra\u00bb. Jesus disse-lhe: \u00abVai; o teu filho vive!\u00bb. Acreditou este homem na palavra de Jesus e partiu. Ia j\u00e1 no caminho, e eis que seus servos foram ao seu encontro, anunciando-lhe que o filho vivia! Ent\u00e3o perguntou-lhes qual a hora em que se achara melhor o filho. Os servos responderam: \u00abOntem, \u00e0 hora s\u00e9tima, deixou-o a febre\u00bb. E o pai reconheceu ter sido aquela a hora em que Jesus lhe dissera: \u00abO teu filho vive\u00bb. Ele, pois, assim como toda sua fam\u00edlia, acreditou.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 136:1*\nJunto das margens dos rios da Babil\u00f3nia nos assent\u00e1mos, chorando as recorda\u00e7\u00f5es do vosso passado, \u00f3 Si\u00e3o.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Que estes myst\u00e9rios, Senhor, nos sirvam de rem\u00e9dio celestial, Vos suplicamos, e purifiquem os nossos cora\u00e7\u00f5es de todas nossas iniquidades.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 118:49-50*\nLembrai-Vos da vossa promessa ao vosso servo, Senhor, na qual tenho esperado com toda a confian\u00e7a: \u00e9 ela que me consola na minha humilha\u00e7\u00e3o.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Senhor, permiti que para sermos dignos dos vossos sacrat\u00edssimos myst\u00e9rios obede\u00e7amos sempre aos vossos mandamentos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

@@ -66,17 +66,17 @@
       {
         "body": "*Gl 6:14*\nConv\u00e9m que nos gloriemos na Cruz de nosso Senhor Jesus Cristo, que \u00e9 a nossa salva\u00e7\u00e3o, vida e ressurrei\u00e7\u00e3o: por quem fomos salvos e livres.\n*Sl 66:2*\nQue o Senhor tenha miseric\u00f3rdia de n\u00f3s e nos aben\u00e7oe; que o Senhor nos ilumine com o brilho que resplandece da sua face, e se compade\u00e7a de n\u00f3s.\nGl\u00f3ria ao Pai.\nConv\u00e9m que nos gloriemos na Cruz de nosso Senhor Jesus Cristo, que \u00e9 a nossa salva\u00e7\u00e3o, vida e ressurrei\u00e7\u00e3o: por quem fomos salvos e livres.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que neste dia nos regozijais com a festividade anual da Exalta\u00e7\u00e3o da Santa Cruz, concedei-nos, Vos imploramos, que obtenhamos no c\u00e9u as recompensas adquiridas pela reden\u00e7\u00e3o operada pelo vosso Filho, cujo myst\u00e9rio na terra conhecemos.\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Filipenses.\n*Fl 2:5 - 11.*\nMeus irm\u00e3os: Tende os mesmos sentimentos que animaram Jesus Cristo, o qual, embora fosse Deus por natureza (e n\u00e3o era usurpa\u00e7\u00e3o o julgar-se igual a Deus), contudo humilhou-se a si pr\u00f3prio, reduzindo-se \u00e0 condi\u00e7\u00e3o de servo, tornando-se semelhante aos homens e reconhecido como homem pelas apar\u00eancias. Humilhou-se a si pr\u00f3prio, obedecendo at\u00e9 \u00e0 morte, e morte na cruz. Por isso Deus O exaltou e deu-Lhe um nome que \u00e9 superior a todo o nome (devemos genuflectir), para que ao ser proferido o nome de Jesus todos os joelhos se dobrem nos c\u00e9us, na terra e at\u00e9 nos infernos; e todas as l\u00ednguas confessem que Nosso Senhor Jesus Cristo est\u00e1 na gl\u00f3ria de Deus Pai!", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Fl 2:8-9*\nCristo fez-se obediente por n\u00f3s at\u00e9 \u00e0 morte, e morte na Cruz.\nV. Eis porque Deus O exaltou e Lhe deu um nome que \u00e9 superior a todo o nome. Aleluia, aleluia.\nV. \u00d3 doce lenho, \u00f3 doces cravos, que segurais um peso mais doce ainda! S\u00f3 tu fostes digno de segurar o Rei e o Senhor dos c\u00e9us. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 12:31-36*\nNaquele tempo, disse Jesus \u00e0s turbas dos judeus: \u00ab\u00c9 agora que o mundo vai ser julgado; \u00e9 agora que o pr\u00edncipe deste mundo vai ser expulso. E Eu, quando for elevado acima da terra, atrairei todos a mim\u00bb. (Isto dizia Ele para indicar o g\u00e9nero de morte de que morreria). As turbas responderam-Lhe: \u00abAprendemos na Lei que Cristo permanecer\u00e1 para sempre. Como, pois, dizeis: \u00e9 necess\u00e1rio que seja elevado o Filho do homem? Quem \u00e9 este Filho do homem?\u00bb. E Jesus retorquiu-lhes: \u00abA luz estar\u00e1 no meio de v\u00f3s, ainda por algum tempo. Caminhai, pois, enquanto tiverdes luz, receando que as trevas vos cerquem. Aquele que caminha nas trevas, n\u00e3o sabe para onde vai. Enquanto tendes a luz, acreditai nela, para que sejais filhos da luz\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "Senhor, com o sinal da Santa Cruz livrai o vosso povo das ins\u00eddias de todos seus inimigos, a fim de que a nossa servid\u00e3o Vos seja agrad\u00e1vel e aceiteis o nosso sacrif\u00edcio, aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Devendo alimentar-nos com o Corpo e o Sangue de nosso Senhor Jesus Cristo, que santificou o estandarte da Cruz, Vos rogamos, \u00f3 Senhor, nosso Deus, que, assim como logramos ador\u00e1-l\u2019O na terra, assim alcancemos na eternidade gozar a posse dos efeitos da sua salutar gl\u00f3ria.\nPelo mesmo nosso Senhor.", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da Santa Cruz*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que estabelecestes na \u00e1rvore da Cruz a salva\u00e7\u00e3o do g\u00e9nero humano, para que renascesse a vida, onde a morte houvera princ\u00edpio, e que aquilo que outrora vencera na \u00e1rvore, fosse vencido na \u00e1rvore tamb\u00e9m, por Jesus Cristo, nosso Senhor: pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos C\u00e9us e os bem-aventurados Serafins a celebram em comuns transportes de alegria: aos quais, Vos suplicamos, permiti que se unam as nossas vozes, dizendo em humilde e suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "Pelo sinal da Santa Cruz, livrai-nos de nossos inimigos, \u00f3 nosso Deus!", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Protegei-nos, \u00f3 Senhor, nosso Deus; e, com vosso perp\u00e9tuo socorro, defendei sempre aqueles a quem proporcionastes a alegria de honrar a Santa Cruz.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

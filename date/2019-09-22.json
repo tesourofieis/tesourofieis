@@ -66,17 +66,17 @@
       {
         "body": "*Sl 85:1-3*\nInclinai, Senhor, vossos ouvidos para mim e ouvi-me. Salvai, \u00f3 meu Deus, o vosso servo, que em V\u00f3s espera. Tende miseric\u00f3rdia de mim, Senhor, pois clamei por V\u00f3s todo o dia!\n*Sl 85:4*\nAlegrai a alma do vosso servo, porque a V\u00f3s, Senhor, se elevou a minha alma.\nGl\u00f3ria ao Pai.\nInclinai, Senhor, vossos ouvidos para mim e ouvi-me. Salvai, \u00f3 meu Deus, o vosso servo, que em V\u00f3s espera. Tende miseric\u00f3rdia de mim, Senhor, pois clamei por V\u00f3s todo o dia!", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Que a vossa miseric\u00f3rdia purifique e proteja continuamente a vossa Igreja; e, visto que ela n\u00e3o pode subsistir sem V\u00f3s, assisti-lhe sempre com vossa gra\u00e7a.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos G\u00e1latas.\n*Gl 5:25-26; 6:1-10*\nMeus irm\u00e3os: Se vivemos pelo esp\u00edrito, tenhamos uma conduta tamb\u00e9m pelo esp\u00edrito. N\u00e3o procuremos a vangl\u00f3ria, provocando-nos uns aos outros e tendo m\u00fatua inveja. Meus irm\u00e3os, se algum caiu em pecado por inadvert\u00eancia, v\u00f3s, que sois espirituais, admoestai-o com esp\u00edrito de mansid\u00e3o, e acautelai-vos, tamb\u00e9m, para n\u00e3o cairdes na tenta\u00e7\u00e3o. Que se auxiliem uns aos outros a levar os seus fardos, pois deste modo cumprireis a lei de Cristo. Se algum se julga alguma cousa, engana-se; porque n\u00e3o \u00e9 nada. Que cada um examine as suas ac\u00e7\u00f5es, e ent\u00e3o conhecer\u00e1 se poder\u00e1 gloriar-se de si pr\u00f3prio, e n\u00e3o comparando-se com os outros, visto que cada um levar\u00e1 o seu pr\u00f3prio fardo. Aquele que foi catequizado nas verdades da f\u00e9 comunique todos seus bens com aquele que o catequizou. N\u00e3o vos iludais; pois de Deus se n\u00e3o zomba. Cada ente humano colher\u00e1 aquilo que tiver semeado. Aquele, pois, que semeia na carne n\u00e3o colher\u00e1 da carne sen\u00e3o a corrup\u00e7\u00e3o; e aquele que semeia no esp\u00edrito colher\u00e1 do esp\u00edrito a vida eterna. N\u00e3o nos fatiguemos de praticar boas ac\u00e7\u00f5es, porque colheremos o fruto, se n\u00e3o desfalecermos. Assim, pois, enquanto temos tempo, pratiquemos boas ac\u00e7\u00f5es uns para com os outros e principalmente para com os nossos irm\u00e3os na f\u00e9.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 91:2-3*\n\u00c9 bom louvar o Senhor: e cantar salmos em honra do vosso nome, \u00f3 Alt\u00edssimo!\nV. \u00c9 bom publicar a vossa bondade pela manh\u00e3; e a vossa verdade durante a noite. Aleluia, aleluia.\n*Sl 94:3*\nV. Senhor \u00e9 o excelso Deus e o excelso Rei, superior a todo o universo. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 7:11-16*\nNaquele tempo, dirigiu-se Jesus para uma cidade chamada Naim, sendo acompanhado pelos disc\u00edpulos e muito Povo. Tendo chegado pr\u00f3ximo da porta da cidade, viu que levavam um morto daquela terra, filho \u00fanico de sua m\u00e3e, que era vi\u00fava e ia acompanhada por muitas pessoas da cidade. Vendo, ent\u00e3o, o Senhor tudo isto, encheu-se de Compaix\u00e3o da m\u00e3e e disse-lhe: \u00abN\u00e3o chores\u00bb. Depois, aproximando-se do defunto, tocou no esquife (pois aqueles que o levavam haviam parado) e disse: \u00abJovem, ordeno-te eu, levanta-te!\u00bb. E no mesmo instante se ergueu e sentou o que estava morto, come\u00e7ando a falar! Ent\u00e3o Jesus entregou-o a sua m\u00e3e. E toda a multid\u00e3o ficou aterrada; e glorificavam Deus, dizendo: \u00abApareceu entre n\u00f3s um grande Profeta: Deus visitou o seu povo\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 39:2-4*\nEsperei com perseveran\u00e7a no Senhor: e Ele atendeu-me: ouviu a minha depreca\u00e7\u00e3o e p\u00f4s nos meus l\u00e1bios um c\u00e2ntico novo: um hino de louvor ao nosso Deus.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Que os vossos sacramentos nos guardem, Senhor; e que nos defendam sempre dos ataques do dem\u00f3nio.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Jo 6:52*\nO p\u00e3o que Vos darei para a vida do mundo \u00e9 a minha Carne.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Permiti, Senhor, Vos suplicamos, que a nossa alma e o nosso corpo sejam completamente submissos \u00e0 vontade deste dom celestial, de sorte que seja sempre o efeito deste sacramento que nos domine, e n\u00e3o os nossos pr\u00f3prios sentidos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

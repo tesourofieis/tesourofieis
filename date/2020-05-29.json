@@ -68,17 +68,17 @@
       {
         "body": "*Sl 118:46-47*\nFalava dos vossos testemunhos na presen\u00e7a dos reis, sem qualquer vergonha, e meditava nos vossos mandamentos, que amava profundamente.\n*Sl 118:1*\nBem-aventurados aqueles que s\u00e3o imaculados nos seus caminhos e cumprem a Lei do Senhor.\nGl\u00f3ria ao Pai.\nFalava dos vossos testemunhos na presen\u00e7a dos reis, sem qualquer vergonha, e meditava nos vossos mandamentos, que amava profundamente.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Bo\u017ce, mi\u0142o\u015bniku dziewictwa, kt\u00f3ry ozdobi\u0142e\u015b niebieskimi darami \u015bw. Dziewic\u0119 Mari\u0119 Magdalen\u0119, gorej\u0105c\u0105 mi\u0142o\u015bci\u0105 ku Tobie, spraw, aby\u015bmy na\u015bladowali w czysto\u015bci i mi\u0142o\u015bci t\u0119, kt\u00f3r\u0105 czcimy \u015bwi\u0105tecznym obchodem.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 51:1-8; 51:12*\nQuero glorificar-Vos, Senhor e Rei; quero louvar-Vos, \u00f3 Deus, meu salvador. Quero glorificar o vosso nome, porque fostes o meu sustent\u00e1culo e protector e livrastes o meu corpo da perdi\u00e7\u00e3o, do la\u00e7o da l\u00edngua in\u00edqua e dos l\u00e1bios daqueles que tramam a mentira. Na presen\u00e7a dos meus advers\u00e1rios fostes o meu aux\u00edlio. Livrastes-me, segundo a grandeza da miseric\u00f3rdia do vosso nome, dos que rugiam prestes a devorar-me; livrastes-me das m\u00e3os dos que procuravam tirar-me a vida; livrastes-me das afli\u00e7\u00f5es, que me cercavam; livrastes-me da viol\u00eancia das chamas, que me rodeavam, no meio das quais n\u00e3o senti o calor do fogo; livrastes-me do abysmo profundo do inferno; da l\u00edngua impura; das palavras mentirosas; do rei in\u00edquo; e da l\u00edngua injusta! Minha alma louvar\u00e1 o Senhor at\u00e9 \u00e0 morte, porque V\u00f3s, Senhor, nosso Deus, livrais dos perigos aqueles que confiam em V\u00f3s, salvando-os do poder dos inimigos.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Aleluia, aleluia.\n*Sl 44:15; 44:16*\nSer\u00e3o apresentadas virgens ao Rei ap\u00f3s ela: as suas companheiras ser\u00e3o introduzidas no meio da alegria. Aleluia.\n*Sl 44:5*\nCaminhai, pois, com beleza e com majestade; ide gozar a vit\u00f3ria e reinai. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 25:1-13*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos esta par\u00e1bola: \u00abO reino dos c\u00e9us \u00e9 semelhante a dez virgens que, empunhando suas l\u00e2mpadas, sa\u00edram ao encontro do esposo e da esposa. Por\u00e9m, cinco destas virgens eram loucas e as outras cinco eram prudentes. Ora, as cinco loucas, empunhando suas l\u00e2mpadas, n\u00e3o levaram azeite. Ao contr\u00e1rio, as prudentes tomaram azeite em seus vasos para suas l\u00e2mpadas. Como o esposo se demorasse em chegar, tiveram sono e dormiram. Quando era meia-noite, ouviu-se um clamor dizer: \u00abEis que chega o esposo; ide ao seu encontro\u00bb. Ent\u00e3o todas estas virgens se ergueram e prepararam as suas l\u00e2mpadas. As loucas disseram \u00e0s prudentes: \u00abDai-nos do vosso azeite, porque as nossas l\u00e2mpadas apagam-se\u00bb. As prudentes responderam-lhes: \u00abN\u00e3o, porque pode suceder que, como a v\u00f3s, nos falte o azeite; ide antes aos que o vendem, e comprai-o\u00bb. Ora, enquanto elas foram comprar o azeite, veio o esposo. Ent\u00e3o, as que estavam preparadas entraram com ele para as bodas; e fechou-se a porta. Por fim vieram as outras virgens, e disseram: \u00abSenhor, senhor, abri-nos a porta\u00bb. Ele respondeu: \u00abNa verdade vos digo: n\u00e3o vos conhe\u00e7o. Vigiai, pois, visto que n\u00e3o sabeis nem o dia nem a hora\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 44:15; 44:16*\nAp\u00f3s ela, ser\u00e3o apresentadas virgens ao Rei: as suas companheiras ser\u00e3o introduzidas no meio da alegria e do j\u00fabilo; elas ser\u00e3o conduzidas ao templo do Rei, seu Senhor.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Recebei benigno, Senhor, as ofertas que Vos apresentamos nesta solenidade da B. Virgem N., vossa M\u00e1rtir, com o patroc\u00ednio da qual esperamos ser livres.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 118:78; 118:80*\nSejam confundidos os soberbos, porque praticaram iniquidades contra mim. Para n\u00e3o ser confundido no \u00faltimo dia, cumprirei os vossos mandamentos e preceitos.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Que nos auxiliem os sagrados myst\u00e9rios, que acab\u00e1mos de receber, Senhor, e que, por intercess\u00e3o da B. Virgem <em>N. </em>, vossa M\u00e1rtir, nos fa\u00e7am gozar continuamente a sua protec\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

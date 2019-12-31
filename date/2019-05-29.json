@@ -81,12 +81,12 @@
       {
         "body": "*Is  48:20.*\nDeclare the word of joy, and let it be heard, alleluia: declare it even to the ends of the earth; the Lord has delivered His people: alleluia, alleluia.\n*Sl. 61:1-2.*\nShout joyfully to God, all you on earth, sing praise to the glory of His name; proclaim His glorious praise.\nGl\u00f3ria ao Pai.\nDeclare the word of joy, and let it be heard, alleluia: declare it even to the ends of the earth; the Lord has delivered His people: alleluia, alleluia.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O God, from Whom all good things come, grant, we beseech You, that by Your inspiration, we may think what is right and under Your guidance, accomplish it.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Maria Madalena de Pazzi, Virgem *\nBo\u017ce, mi\u0142o\u015bniku dziewictwa, kt\u00f3ry ozdobi\u0142e\u015b niebieskimi darami \u015bw. Dziewic\u0119 Mari\u0119 Magdalen\u0119, gorej\u0105c\u0105 mi\u0142o\u015bci\u0105 ku Tobie, spraw, aby\u015bmy na\u015bladowali w czysto\u015bci i mi\u0142o\u015bci t\u0119, kt\u00f3r\u0105 czcimy \u015bwi\u0105tecznym obchodem.\nPor nosso Senhor", 
@@ -96,7 +96,7 @@
       {
         "body": "Lesson from the letter of St. Paul the Apostle to the Ephesians\n*Eph. 4:7-13.*\nBrethren: To each one of us grace was given according to the measure of Christ\ufffds bestowal. Thus it says, Ascending on high, He led away captives; He gave gifts to men. Now this, He ascended, what does it mean but that He also first descended into the lower parts of the earth? He Who descended, He it is Who ascended also above all the heavens, that He might fill all things. And He Himself gave some men as apostles, and some as prophets, others again as evangelists, and others as pastors and teachers, in order to perfect the saints for a work of ministry, for building up the body of Christ, until we all attain to the unity of the faith and of the deep knowledge of the Son of God, to perfect manhood, to the mature measure of the fullness of Christ.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Alleluia, alleluia.\nV. Christ is risen, and has shone upon us, whom He redeemed with His Blood. Alleluia.\n*Jo 16:28*\nV. I came forth from the Father, and have come into the world. Again I leave the world, and go to the Father. Alleluia.", 
@@ -106,17 +106,17 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to John\n*Jo 17:1-11.*\nAt that time, raising His eyes to heaven, Jesus said, Father, the hour has come! Glorify Your Son, that Your Son may glorify You, even as You have given Him power over all flesh, in order that to all You have given Him He may give everlasting life. Now this is everlasting life, that they may know You, the only true God, and Him Whom You have sent, Jesus Christ. I have glorified You on earth; I have accomplished the work that You have given Me to do. And now You, Father, glorify Me with Yourself, with the glory that I had with You before the world existed. I have manifested Your name to the men whom You have given Me out of the world. They were Yours, and You have given them to Me, and they have kept Your word. Now they have learnt that whatever You have given Me is from You; because the words that You have given Me I have given to them. And they have received them, and have known of a truth that I came forth from You, and they have believed that You did send Me. I pray for them; not for the world do I pray, but for those whom You have given Me, because they are Yours; and all things that are Mine are Yours, and Yours are Mine; and I am glorified in them. And I am no longer in the world, but these are in the world, and I am coming to You.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 65:8-9, 20.*\nBless the Lord our God, you peoples, loudly sound His praise; He has given life to my soul, and has not let my feet slip. Blessed be the Lord, Who refused me not my prayer, or His kindness. Alleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Accept, O Lord, the prayers and gifts of Your faithful people, that, through these rites of love and devotion we may pass to the glory of heaven.\nPor nosso Senhor)", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Maria Madalena de Pazzi, Virgem *\nRecebei benigno, Senhor, as ofertas que Vos apresentamos nesta solenidade da B. Virgem N., vossa M\u00e1rtir, com o patroc\u00ednio da qual esperamos ser livres.\nPor nosso Senhor", 
@@ -126,17 +126,17 @@
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl. 95:2.*\nSing to the Lord, alleluia; sing to the Lord; bless His name; announce His salvation day after day, alleluia, alleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Grant, O Lord, that we who have been fed with the strengthening food of Your heavenly table, may desire what is right and obtain what we desire.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Maria Madalena de Pazzi, Virgem *\nQue nos auxiliem os sagrados myst\u00e9rios, que acab\u00e1mos de receber, Senhor, e que, por intercess\u00e3o da B. Virgem <em>N. </em>, vossa M\u00e1rtir, nos fa\u00e7am gozar continuamente a sua protec\u00e7\u00e3o.\nPor nosso Senhor", 

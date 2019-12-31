@@ -76,17 +76,17 @@
       {
         "body": "*Fl 2:10-11*\nQue ao ser pronunciado o Nome de Jesus se dobrem todos os joelhos dos que est\u00e3o no c\u00e9u, na terra e no inferno: e que toda a l\u00edngua humana confesse que o Senhor Jesus Cristo est\u00e1 na gl\u00f3ria de Deus Pai.\n*Sl 8:2*\nSenhor, nosso Senhor, como o vosso Nome \u00e9 admir\u00e1vel em todo o universo!\nGl\u00f3ria ao Pai.\nQue ao ser pronunciado o Nome de Jesus se dobrem todos os joelhos dos que est\u00e3o no c\u00e9u, na terra e no inferno: e que toda a l\u00edngua humana confesse que o Senhor Jesus Cristo est\u00e1 na gl\u00f3ria de Deus Pai.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que constitu\u00edstes o vosso Filho Unig\u00e9nito Salvador do mundo e ordenastes que fosse chamado Jesus, concedei-nos prop\u00edcio que, venerando n\u00f3s o seu Santo Nome na terra, gozemos tamb\u00e9m a sua presen\u00e7a nos c\u00e9us.\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o dos Actos dos Ap\u00f3stolos.\n*Act 4:8-12*\nNaqueles dias, Pedro, cheio de Esp\u00edrito Santo, disse: \u00abPr\u00edncipes do povo e anci\u00e3os de Israel, escutai: Visto que somos hoje julgados por causa dum milagre, concedido a um homem enfermo, para saber por quem foi curado, sabei, v\u00f3s todos e todo o povo de Israel, que foi curado pelo Nome de Jesus Cristo Nazareno, a quem crucificastes, e que Deus ressuscitou dos mortos. \u00c9 por Ele que este homem se apresenta diante de v\u00f3s, plenamente curado. Este Jesus \u00e9 a pedra que v\u00f3s, querendo edificar, desprezastes, e que se tornou a pedra principal do \u00e2ngulo. N\u00e3o h\u00e1 salva\u00e7\u00e3o em nenhum outro nome, pois n\u00e3o existe debaixo do c\u00e9u outro nome, que tenha sido dado aos homens, pelo qual devamos ser salvos\u00bb.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 105:47*\nSalvai-nos, \u00f3 Senhor, nosso Deus, e reuni-nos todos no meio das na\u00e7\u00f5es, a fim de que confessemos o vosso Santo Nome e nos gloriemos com vossos louvores.\n*Is 63:16*\nSenhor, sois o nosso Pai e Redentor! Vosso Nome \u00e9 eterno! Aleluia, aleluia.\n*Sl 144:21*\nQue minha boca anuncie os louvores do Senhor: que toda a carne humana bendiga o seu Santo Nome. Aleluia.", 
@@ -96,32 +96,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 2:21*\nNaquele tempo, passados que foram oito dias depois dos quais o Menino devia ser circuncidado, foi-Lhe dado o nome de Jesus, que foi aquele que o Anjo Lhe havia dado, antes de ser concebido no seio de sua M\u00e3e.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 85:1; 85:5*\nLouvar-Vos-ei de todo meu cora\u00e7\u00e3o, \u00f3 Senhor, meu Deus: e glorificarei eternamente o vosso Nome; pois V\u00f3s, \u00f3 Senhor, sois cheio de clem\u00eancia e de bondade: e as vossas miseric\u00f3rdias estendem-se a todos quantos Vos invocam. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "\u00d3 Deus clement\u00edssimo, que a vossa b\u00ean\u00e7\u00e3o, que d\u00e1 a vida a todas as criaturas, santifique este nosso sacrif\u00edcio, que oferecemos em gl\u00f3ria do Nome do vosso Filho, nosso Senhor Jesus Cristo, a fim de que ele possa honrar a vossa majestade, e, agradando-lhe, seja \u00fatil \u00e0 nossa salva\u00e7\u00e3o.\nPelo mesmo nosso Senhor.", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*do Natal*\nVerdadeiramente \u00e9 digno e justo, racional e salutar dar-Vos gra\u00e7as, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo myst\u00e9rio do Verbo Incarnado um novo clar\u00e3o do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira vis\u00edvel, sejamos inspirados por Ele no amor \u00e0s cousas invis\u00edveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 85:9-10*\nTodos os povos, que criastes, vir\u00e3o e se prostrar\u00e3o diante de V\u00f3s, Senhor, adorando-Vos e glorificando o vosso Nome; pois sois grande e praticais prod\u00edgios. S\u00f3 V\u00f3s sois Deus. Aleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Deus omnipotente e eterno, que nos criastes e resgatastes, olhai benignamente para as nossas ofertas e dignai-Vos aceitar com \u00e2nimo suave e piedoso o sacrif\u00edcio da H\u00f3stia salutar, que oferecemos \u00e0 vossa majestade em honra do Nome do vosso Filho, nosso Senhor Jesus Cristo, a fim de que, infundida a vossa gra\u00e7a em nossas almas, possamos alegrar-nos, vendo os nossos nomes escritos nos c\u00e9us, abaixo do glorioso Nome de Jesus, no livro da eterna predestina\u00e7\u00e3o.\nPelo mesmo nosso Senhor.", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

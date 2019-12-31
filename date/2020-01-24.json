@@ -68,17 +68,17 @@
       {
         "body": "*Sb 45:30*\nO Senhor fez com ele uma alian\u00e7a de paz e proclamou-o pr\u00edncipe, para que a dignidade sacerdotal lhe pertencesse eternamente.\n*Sl 131:1*\nLembrai-Vos de David, \u00f3 Senhor, e da sua grande solicitude.\nGl\u00f3ria ao Pai.\nO Senhor fez com ele uma alian\u00e7a de paz e proclamou-o pr\u00edncipe, para que a dignidade sacerdotal lhe pertencesse eternamente.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Olhai para a nossa fraqueza, \u00f3 Deus omnipotente; e, visto que estamos oprimidos sob o peso dos nossos pecados, fazei que nos proteja a gloriosa intercess\u00e3o do B. N., vosso Pont\u00edfice e M\u00e1rtir.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo a Tim\u00f3teo.\n*1 Tm 6:11-16*\nCar\u00edssimos: Procurai a justi\u00e7a, a piedade, a f\u00e9, a caridade, a paci\u00eancia e a mansid\u00e3o. Combatei o bom combate da f\u00e9; esfor\u00e7ai-vos em alcan\u00e7ar a vida eterna, para a qual fostes chamado e para a qual fizestes esta boa profiss\u00e3o de f\u00e9 diante de muitos testemunhos. Eu vos ordeno diante de Deus, que d\u00e1 a vida a todas as coisas, e perante Jesus Cristo, que deu testemunho por uma boa profiss\u00e3o de f\u00e9, sob P\u00f4ncio Pilatos, que oportunamente mostrar\u00e1 o Bem-aventurado e o \u00fanico Soberano, o Rei dos reis e o Senhor dos senhores, que s\u00f3 possui a imortalidade e goza uma luz inacess\u00edvel, que ningu\u00e9m nunca viu, nem ainda pode ver e a quem seja dada a honra e poder eterno. Amen.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 88:21-23*\nEncontrei o meu servo David e ungi-o com meu \u00f3leo sagrado; a minha m\u00e3o o auxiliar\u00e1 e o meu bra\u00e7o o fortificar\u00e1.\nV. O inimigo nada poder\u00e1 contra ele e o filho da iniquidade nenhum mal lhe far\u00e1. Aleluia, aleluia.\n*Sl 109:4*\nV. Tu \u00e9s sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 14:26-33*\nNaquele tempo, disse Jesus \u00e0s turbas: \u00abSe algu\u00e9m vem a mim e n\u00e3o despreza seu pai, sua m\u00e3e, sua mulher e filhos, seus irm\u00e3os e irm\u00e3s e at\u00e9 mesmo a sua pr\u00f3pria vida, n\u00e3o pode ser meu disc\u00edpulo. E todo aquele que n\u00e3o leva a sua cruz n\u00e3o pode ser meu disc\u00edpulo. Com efeito, qual \u00e9 de v\u00f3s que, querendo edificar uma torre, n\u00e3o calcula primeiramente com cuidado os gastos necess\u00e1rios, para ver se possui meios para a acabar? Pois poder\u00e1 acontecer que, depois de haver lan\u00e7ado os alicerces e n\u00e3o podendo acabar a torre, comecem a zombar dele aqueles que o v\u00eaem, dizendo: \u00abEste homem come\u00e7ou a edificar e n\u00e3o p\u00f4de acabar!\u00bb. Ou qual \u00e9 o rei que, preparando-se para pelejar com outro rei, n\u00e3o considera primeiramente se com um ex\u00e9rcito de dez mil homens poder\u00e1 fazer frente ao inimigo, que avan\u00e7a contra ele com vinte mil homens? Se v\u00ea que n\u00e3o pode combater, estando ainda o outro longe, manda-lhe uma embaixada a pedir-lhe a paz. Assim, pois, todo aquele de v\u00f3s que n\u00e3o renunciar a tudo quanto possui n\u00e3o pode ser meu disc\u00edpulo\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:25*\nA minha fidelidade e a minha miseric\u00f3rdia estar\u00e3o com ele: e o seu poder elevar-se-\u00e1 pelo meu nome.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Recebei benigno, Senhor, as h\u00f3stias que Vos oferecemos pelos merecimentos do B. N., vosso M\u00e1rtir e Pont\u00edfice, e fazei que elas nos alcancem o vosso perp\u00e9tuo socorro.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 88:36; 88:37-38*\nJurei uma vez por minha santidade: sua descend\u00eancia durar\u00e1 eternamente e o seu trono brilhar\u00e1 perante mim, como o sol, e como a lua permanecer\u00e1 para sempre e ser\u00e1 testemunho fiel no c\u00e9u.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Fortalecidos com a participa\u00e7\u00e3o do dom sacrat\u00edssimo, Vos pedimos, Senhor, nosso Deus, que, por intercess\u00e3o do B. N., vosso M\u00e1rtir e Pont\u00edfice, sintamos o efeito do myst\u00e9rio que hoje celebr\u00e1mos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

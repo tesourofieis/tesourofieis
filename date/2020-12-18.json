@@ -66,17 +66,17 @@
       {
         "body": "*Sl 118:151-152*\nSenhor, estais pr\u00f3ximo: e todos vossos ensinos s\u00e3o verdadeiros. Desde o princ\u00edpio que conhe\u00e7o os vossos ensinos, porque os ensinastes desde sempre.\n*Sl 118:1*\nBem-aventurados os que procedem sem m\u00e1cula em seus caminhos: e os que caminham na lei do Senhor.\nGl\u00f3ria ao Pai.\nSenhor, estais pr\u00f3ximo: e todos vossos ensinos s\u00e3o verdadeiros. Desde o princ\u00edpio que conhe\u00e7o os vossos ensinos, porque os ensinastes desde sempre.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Mostrai o vosso poder, Senhor, Vos suplicamos, e vinde, a fim de que aqueles que confiam na vossa bondade sejam bem depressa livres de toda a adversidade:\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Profeta Isa\u00edas.\n*Is 11:1-5*\nIsto diz o Senhor Deus: Sair\u00e1 uma vara do tronco de Jess\u00e9 e uma flor brotar\u00e1 da sua raiz. E o esp\u00edrito do Senhor repousar\u00e1 sobre ele: esp\u00edrito de sabedoria e de intelig\u00eancia; esp\u00edrito de conselho e de fortaleza; esp\u00edrito de ci\u00eancia e de piedade; e ench\u00ea-lo-\u00e1 o esp\u00edrito do temor do Senhor. N\u00e3o julgar\u00e1 segundo o que os olhos v\u00eaem, nem segundo o que os ouvidos ouvem; mas julgar\u00e1 com justi\u00e7a os pobres e se pronunciar\u00e1 com rectid\u00e3o para com os humildes da terra. Com a vara da sua boca bater\u00e1 na terra: e matar\u00e1 o \u00edmpio com um sopro dos seus l\u00e1bios. A justi\u00e7a ser\u00e1 o cinto de suas entranhas e a f\u00e9 o cintur\u00e3o dos seus rins.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 84:8, 2.*\nMostrai-nos, Senhor, a vossa miseric\u00f3rdia; e dai-nos a vossa salva\u00e7\u00e3o.\nV. Aben\u00e7oastes, Senhor, a vossa terra; afastastes o cativeiro de Jacob.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 1:39-47*\nNaquele tempo, levantando-se Maria, foi apressadamente \u00e0s montanhas de uma cidade de Jud\u00e1, onde entrou em casa de Zacarias e saudou Isabel. E aconteceu que, logo que Isabel ouviu a sauda\u00e7\u00e3o de Maria, saltou a crian\u00e7a no seu seio, e Isabel ficou cheia de Esp\u00edrito Santo, exclamando em voz alta e dizendo: \u00abBendita sois v\u00f3s entre todas as mulheres e bendito \u00e9 o fruto do vosso ventre. Donde me vem a mim que a M\u00e3e do meu Senhor venha at\u00e9 mim? Pois, desde que a voz da vossa sauda\u00e7\u00e3o chegou a meus ouvidos, o meu filho exultou de alegria no meu seio! Bem-aventurada sois, porque acreditastes que se h\u00e3o-de cumprir as cousas que vos foram ditas da parte do Senhor\u00bb. Maria disse, ent\u00e3o: \u00abMinha alma glorifica ao Senhor: e o meu esp\u00edrito se alegra em Deus, meu Salvador\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 84: 7-8.*\n\u00d3 Deus, volvei para n\u00f3s vossos olhares e dar-nos-eis a vida: ent\u00e3o o vosso povo rejubilar\u00e1 em V\u00f3s. Mostrai-nos, Senhor, a vossa miseric\u00f3rdia: e dai-nos a vossa salva\u00e7\u00e3o.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Senhor, depois de haverdes recebido as nossas ofertas e as nossas ora\u00e7\u00f5es, Vos suplicamos, purificai-nos com vossos celestiais myst\u00e9rios e ouvi-nos clementemente.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Zc 14:5-6*\nEis que o Senhor vem, e com Ele vir\u00e3o todos os Santos; e nesse dia raiar\u00e1 uma luz brilhant\u00edssima.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Senhor, que a nossa comparticipa\u00e7\u00e3o neste divino myst\u00e9rio nos restaure; e que, depois de nos haver purificado do \u00abhomem velho\u00bb, nos conduza ao gozo das alegrias da salva\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

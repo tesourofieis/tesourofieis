@@ -66,17 +66,17 @@
       {
         "body": "*Sl 102:20*\nBendizei o Senhor, \u00f3 v\u00f3s, todos os Anjos do Senhor: Sois cheios de poder e virtude: e fazeis o que Ele vos manda, obedecendo \u00e0s suas palavras e ordens.\n*Sl 102:1*\nBendiz o Senhor, \u00f3 minha alma: Que tudo quanto houver em mim bendiga o santo Nome do Senhor.\nGl\u00f3ria ao Pai.\nBendizei o Senhor, \u00f3 v\u00f3s, todos os Anjos do Senhor: Sois cheios de poder e virtude: e fazeis o que Ele vos manda, obedecendo \u00e0s suas palavras e ordens.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que com sublime harmonia dispusestes os minist\u00e9rios dos Anjos e dos homens, concedei-nos prop\u00edcio que sejamos protegidos durante a vida na terra por aqueles que, servindo-Vos no c\u00e9u, gozam sempre a vossa companhia.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro do Apocalipse do B. Ap.\u00ba Jo\u00e3o.\n*Apoc 1:1-5*\nNaqueles dias, manifestou Deus o que logo deveria acontecer, enviando o seu Anjo ao seu servo Jo\u00e3o, o qual deu testemunho pela palavra de Deus e deu testemunho de tudo o que viu em Jesus Cristo. Bem-aventurado o que l\u00ea e ouve as palavras desta Profecia e observa o que nela se cont\u00e9m, pois o tempo est\u00e1 pr\u00f3ximo. Jo\u00e3o diz \u00e0s sete igrejas, que est\u00e3o na \u00c1sia: \u00abQue a gra\u00e7a e a paz vos sejam dadas por Aquele que \u00e9, que era e que h\u00e1-de vir, pelos sete esp\u00edritos, que est\u00e3o diante do seu trono, e por Jesus Cristo, que \u00e9 a testemunha fiel, o primog\u00e9nito dos mortos e o pr\u00edncipe dos reis da terra, O qual nos amou e nos lavou das manchas dos nossos pecados no seu sangue\u00bb.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 102:20; 102:1*\nBendizei o Senhor, \u00f3 Anjos do Senhor, que sois poderosos e cheios de for\u00e7a, e cumpris as ordens do Senhor.\nV. Bendizei o Senhor, \u00f3 minha alma; que toda minha alma bendiga o nome do Senhor. Aleluia, aleluia.\nV. S. Miguel Arcanjo, defendei-nos neste combate, para que n\u00e3o pere\u00e7amos no dia do tremendo ju\u00edzo. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 18:1-10*\nNaquele tempo, os disc\u00edpulos aproximaram-se de Jesus, dizendo-Lhe: \u00abQuem, pois, pensais V\u00f3s que \u00e9 o maior no reino dos c\u00e9us?\u00bb. Jesus, havendo chamado um pequeno, colocou-o no meio deles e disse: \u00abEm verdade vos digo: Se vos n\u00e3o converteis e n\u00e3o vos tornais como os pequenos, n\u00e3o entrareis no reino dos c\u00e9us; todo aquele que se fizer pequeno, como este menino, esse, \u00e9 o maior no reino dos c\u00e9us; e quem receber um destes pequenos em meu nome, recebe-me a mim mesmo; e quem escandalizar um destes pequenos, que cr\u00eaem em mim, melhor ser\u00e1 que se lhe pendure ao pesco\u00e7o uma m\u00f3 de moinho e seja lan\u00e7ado ao fundo do mar! Ai do mundo por causa dos esc\u00e2ndalos! Contudo \u00e9 necess\u00e1rio que aconte\u00e7am os esc\u00e2ndalos; mas ai do homem por quem vier o esc\u00e2ndalo. Se a vossa m\u00e3o ou o vosso p\u00e9 s\u00e3o ocasi\u00e3o de esc\u00e2ndalo, cortai-os e lan\u00e7ai-os para longe; pois melhor \u00e9 entrar na vida manco ou coxo do que ser lan\u00e7ado no fogo eterno, tendo as duas m\u00e3os ou os dois p\u00e9s. Se o vosso olho \u00e9 ocasi\u00e3o de esc\u00e2ndalo, arrancai-o e lan\u00e7ai-o para longe; pois \u00e9 melhor entrar na vida s\u00f3 com um olho do que ser lan\u00e7ado no fogo eterno, tendo os dois olhos. Vede que n\u00e3o seja desprezado nenhum destes pequeninos; pois, digo-vos: os seus Anjos nos c\u00e9us est\u00e3o sempre na presen\u00e7a de meu Pai, que est\u00e1 nos c\u00e9us\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Apoc 8:3; 8:4*\nJunto ao altar, no templo, estava de p\u00e9 um Anjo, tendo na m\u00e3o um tur\u00edbulo de ouro: e deitaram-lhe muito incenso, subindo o fumo dos perfumes \u00e0 presen\u00e7a de Deus. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Vos oferecemos estas h\u00f3stias de louvor, Senhor, implorando-Vos humildemente que as aceiteis com indulg\u00eancia pela intercess\u00e3o do vosso Santo Anjo, e que elas sejam \u00fateis \u00e0 nossa salva\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Dn 3:58*\nAnjos do Senhor, bendizei todos o Senhor: cantai hinos em seu louvor e exaltai-O em todos os s\u00e9culos.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Confiado na intercess\u00e3o do vosso B. Arcanjo Miguel, Senhor, Vos oferecemos as nossas humildes s\u00faplicas, para que a nossa alma alcance o que a nossa boca pede.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

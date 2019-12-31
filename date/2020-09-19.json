@@ -66,17 +66,17 @@
       {
         "body": "*Sl 36:39*\nA salva\u00e7\u00e3o dos justos, por\u00e9m, est\u00e1 no Senhor; Ele \u00e9 o seu ref\u00fagio na ocasi\u00e3o da tribula\u00e7\u00e3o.\n*Sl 36:1*\nN\u00e3o invejeis os maus, nem tenhais emula\u00e7\u00e3o daqueles que cometem iniquidades.\nGl\u00f3ria ao Pai.\nA salva\u00e7\u00e3o dos justos, por\u00e9m, est\u00e1 no Senhor; Ele \u00e9 o seu ref\u00fagio na ocasi\u00e3o da tribula\u00e7\u00e3o.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que nos alegrais com a festividade anual dos vossos santos M\u00e1rtires Janu\u00e1rio e Outros, concedei-nos benigno que sejamos afervorados com os exemplos daqueles cujos m\u00e9ritos nos enchem de alegria.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Hebreus.\n*Heb 10:32-38*\nMeus irm\u00e3os: Lembrai-vos dos primeiros dias em que, depois de haverdes recebido as luzes da f\u00e9, sofrestes grandes combates dolorosos, havendo sido, por um lado, expostos, diante de toda a gente, aos opr\u00f3brios e aos maus tratos, e, por outro lado, associados aos que sofreram iguais tormentos. Com efeito, v\u00f3s compartilhastes as agruras dos prisioneiros e suportastes com alegria o despojo dos vossos bens, conhecendo que uma riqueza maior, que nunca seria arrebatada, vos estava reservada. N\u00e3o percais a confian\u00e7a que tendes, a qual deve alcan\u00e7ar uma recompensa de elevado valor. Com efeito, tendes necessidade de perseveran\u00e7a para que, depois de haverdes cumprido a vontade de Deus, alcanceis o pr\u00e9mio prometido. Esperai ainda algum tempo, e ent\u00e3o chegar\u00e1 aquele que deve vir, o qual n\u00e3o tardar\u00e1. Meu justo vive, pois, da sua f\u00e9.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 33:18-19*\nClamaram os justos; ent\u00e3o o senhor ouviu-os e livrou-os de todas suas afli\u00e7\u00f5es.\nV. O Senhor est\u00e1 pr\u00f3ximo daqueles que t\u00eam o cora\u00e7\u00e3o atribulado; e salvar\u00e1 os que t\u00eam o esp\u00edrito humilhado. Aleluia, aleluia.\nV. O ex\u00e9rcito c\u00e2ndido dos m\u00e1rtires, \u00f3 Senhor, canta louvores em vossa honra! Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 24:3-13*\nNaquele tempo, sentando-se Jesus no Monte das Oliveiras, aproximaram-se d\u2019Ele em particular os seus disc\u00edpulos, perguntando-Lhe: \u00abDizei-nos quando acontecer\u00e3o essas cousas? Que sinal haver\u00e1 da vossa vinda e da consuma\u00e7\u00e3o dos s\u00e9culos?\u00bb. Ent\u00e3o, respondendo, Jesus disse-lhes: \u00abAcautelai-vos, para que ningu\u00e9m vos seduza; pois vir\u00e3o muitos, dizendo: sou Cristo, seduzindo tamb\u00e9m muitas pessoas; ouvireis falar de guerras e de rumores de guerras. Tende cuidado em vos n\u00e3o perturbardes, pois conv\u00e9m que tais cousas aconte\u00e7am; mas isso n\u00e3o ser\u00e1 ainda o fim. Levantar-se-\u00e1 povo contra povo e reino contra reino; haver\u00e1 peste, fome e tremores de terra em diversos lugares; mas todas estas cousas ser\u00e3o apenas o come\u00e7o das afli\u00e7\u00f5es. Entregar-vos-\u00e3o, para sofrerdes tormentos at\u00e9 \u00e0 morte; sereis odiados por todos os povos por causa do meu nome; pelo que muitos se deixar\u00e3o seduzir, se denunciar\u00e3o e se atrai\u00e7oar\u00e3o uns aos outros. Aparecer\u00e3o muitos falsos profetas, que seduzir\u00e3o muitas pessoas. Ent\u00e3o, porque a iniquidade ter\u00e1 atingido o c\u00famulo, resfriar\u00e1 a caridade de muitos. Aquele que perseverar at\u00e9 ao fim ser\u00e1 salvo\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sb 3:1-3*\nAs almas dos justos est\u00e3o nas m\u00e3os de Deus e o tormento da mal\u00edcia as n\u00e3o tocar\u00e1! Aos olhos dos insensatos pareciam quase a morrer, todavia est\u00e3o na paz. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Deixai-Vos aplacar com os dons que Vos oferecemos, Senhor, e, por intercess\u00e3o dos vossos santos M\u00e1rtires N. e N., preservai-nos de todos os perigos.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 10:27*\nO que vos digo nas trevas dizei-o \u00e0s claras, diz o Senhor; e o que vos disse ao ouvido pregai-o em cima dos telhados.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Que esta comunh\u00e3o nos purifique dos nossos crimes, Senhor, e que por intercess\u00e3o dos vossos santos M\u00e1rtires N. e N. nos fa\u00e7a participantes do rem\u00e9dio celestial.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

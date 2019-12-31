@@ -69,17 +69,17 @@
       {
         "body": "*Is 9:6*\nNasceu para n\u00f3s um Menino e foi-nos dado um Filho que traz sobre os ombros o manto da realeza, o qual ser\u00e1 chamado \u00abAnjo do admir\u00e1vel conselho\u00bb.\n*Sl 97:1*\nCantai ao Senhor um hino novo, pois Ele operou maravilhas.\nGl\u00f3ria ao Pai.\nNasceu para n\u00f3s um Menino e foi-nos dado um Filho que traz sobre os ombros o manto da realeza, o qual ser\u00e1 chamado \u00abAnjo do admir\u00e1vel conselho\u00bb.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que pela virgindade fecunda da Bem-aventurada Virgem Maria concedestes ao g\u00e9nero humano o pr\u00e9mio da salva\u00e7\u00e3o eterna, permiti, Vos imploramos, que gozemos a intercess\u00e3o daquela pela qual fomos julgados dignos de receber o autor da vida, nosso Senhor Jesus Cristo, vosso Filho:\nQue convosco vive.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo a Tito.\n*Tt 2:11-15*\nCar\u00edssimo: A gra\u00e7a de Deus, nosso Salvador, manifestou-se a todos os homens, ensinando-nos, a fim de que, repudiando a impiedade e os apetites terrenos, vivamos neste mundo com temperan\u00e7a, justi\u00e7a e piedade, pensando na esperan\u00e7a, na bem-aventuran\u00e7a eterna e na vinda da gl\u00f3ria do nosso grande Deus e Salvador, Jesus Cristo: que se ofereceu espontaneamente por n\u00f3s, para nos resgatar de toda a iniquidade e tornar-nos numa ra\u00e7a purificada, escolhida e zelosa em suas boas obras. Ensina e prega estas cousas, em Jesus Cristo, nosso Senhor!", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 97:3; 97:2*\nToda a terra viu o Salvador que o nosso Deus enviou: aclamai, pois, o Senhor, \u00f3 povos de toda a terra!\nV. O Senhor manifestou o Salvador que havia prometido: e manifestou a sua justi\u00e7a aos olhos dos povos. Aleluia, aleluia.\n*Heb 1:1-2*\nDeus, que outrora falou de diversas maneiras pelos Profetas, dignou-se falar-nos nos \u00faltimos tempos pelo seu Filho. Aleluia.", 
@@ -89,32 +89,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 2:21*\nNaquele tempo, passados que foram oito dias depois dos quais o Menino devia ser circuncidado, foi-Lhe dado o nome de Jesus, que foi aquele que o Anjo Lhe havia dado, antes de ser concebido no seio de sua M\u00e3e.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:12; 88:15*\nA V\u00f3s, Senhor, pertencem os c\u00e9us e a terra, pois criastes o universo e tudo o que ele encerra. A justi\u00e7a e a equidade s\u00e3o a base do vosso trono.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Havendo V\u00f3s, Senhor, recebido benignamente os nossos dons e ora\u00e7\u00f5es, dignai-Vos ainda, Vos suplicamos, purificar-nos pela virtude dos vossos celestiais myst\u00e9rios e ouvir-nos misericordiosamente.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*do Natal*\nVerdadeiramente \u00e9 digno e justo, racional e salutar dar-Vos gra\u00e7as, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo myst\u00e9rio do Verbo Incarnado um novo clar\u00e3o do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira vis\u00edvel, sejamos inspirados por Ele no amor \u00e0s cousas invis\u00edveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 97:3*\nToda a terra viu o Salvador que o nosso Deus enviou.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Que esta comunh\u00e3o, Senhor, nos purifique de nossos crimes e que por intercess\u00e3o da B. Virgem Maria, M\u00e3e de Deus, nos torne participantes do rem\u00e9dio celestial.\nPelo mesmo nosso Senhor.", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

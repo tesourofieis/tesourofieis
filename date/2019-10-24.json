@@ -68,17 +68,17 @@
       {
         "body": "*Sl 102:20*\nBendizei o Senhor, \u00f3 v\u00f3s, todos os Anjos do Senhor: Sois cheios de poder e virtude: e fazeis o que Ele vos manda, obedecendo \u00e0s suas palavras e ordens.\n*Sl 102:1*\nBendiz o Senhor, \u00f3 minha alma: Que tudo quanto houver em mim bendiga o santo Nome do Senhor.\nGl\u00f3ria ao Pai.\nBendizei o Senhor, \u00f3 v\u00f3s, todos os Anjos do Senhor: Sois cheios de poder e virtude: e fazeis o que Ele vos manda, obedecendo \u00e0s suas palavras e ordens.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que designastes o Arcanjo Rafael para guia do vosso servo Tobias, concedei-nos a n\u00f3s, que somos vossos servos, a gra\u00e7a de sermos sempre protegidos por ele e fortalecidos com seu aux\u00edlio.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro de Tobias.\n*Tob 12:7-15*\nNaqueles dias, disse o Anjo Rafael a Tobias: \u00ab\u00c9 bom ocultar o segredo de um rei, mas \u00e9 honroso descobrir e publicar as obras de Deus. A ora\u00e7\u00e3o, acompanhada com o jejum e com a esmola, vale mais do que os tesouros que se podem juntar; pois a esmola livra da morte, apaga os pecados e faz alcan\u00e7ar a miseric\u00f3rdia e a vida eterna. Aqueles, por\u00e9m, que cometem o pecado e a iniquidade s\u00e3o inimigos de suas almas. Quero, pois, descobrir-vos a verdade e n\u00e3o vos ocultar uma s\u00f3 cousa secreta: Quando or\u00e1veis com l\u00e1grimas; sepult\u00e1veis os mortos; deix\u00e1veis o vosso descanso; guard\u00e1veis os mortos em vossa casa de dia e os sepult\u00e1veis de noite: ent\u00e3o ofereci ao Senhor as vossas ora\u00e7\u00f5es. E porque \u00e9reis agrad\u00e1vel a Deus, foi necess\u00e1rio que a tenta\u00e7\u00e3o vos experimentasse. Mas logo o Senhor me mandou para vos curar e para do dem\u00f3nio livrar Sara, mulher do vosso filho. Pois sou o Anjo Rafael, um dos sete que est\u00e3o sempre presentes, diante do Senhor\u00bb.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Tob 8:3*\nRafael, o Anjo do Senhor, dominou o dem\u00f3nio e amarrou-o.\n*Sl 146:5.*\nV. Grande \u00e9 o Senhor, nosso Deus; grande \u00e9 o seu poder. Aleluia, aleluia.\n*Sl 137:1-2*\nV. Cantarei Salmos na presen\u00e7a dos Anjos; adorar-Vos-ei no vosso santo templo e glorificarei o vosso santo nome, \u00f3 Senhor. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 5:1-4*\nNaquele tempo, sendo o dia da festa dos judeus, Jesus subiu at\u00e9 Jerusal\u00e9m. Ora h\u00e1 perto de Jerusal\u00e9m uma piscina que se chama em hebreu Betsaida, e tem cinco alpendres, debaixo dos quais costumava estar deitada grande multid\u00e3o de enfermos: cegos, coxos e paral\u00edticos, \u00e0 espera de que a \u00e1gua se movesse; pois um Anjo do Senhor descia de tempos a tempos \u00e0 piscina, revolvia a \u00e1gua e o primeiro que descia \u00e0 piscina, depois do movimento da \u00e1gua, ficava curado de qualquer enfermidade.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Apoc 8:3-4*\nJunto ao altar, no templo, estava de p\u00e9 um Anjo, tendo na m\u00e3o um tur\u00edbulo de ouro: e deitaram-lhe muito incenso, subindo o fumo dos perfumes \u00e0 presen\u00e7a de Deus.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Senhor, Vos oferecemos estas h\u00f3stias de louvor, suplicando-Vos humildemente que, por intercess\u00e3o do santo Anjo, as aceiteis prop\u00edcio e nos concedais que sejam \u00fateis \u00e0 nossa salva\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Dn 3:58*\nAnjos do Senhor, bendizei todos o Senhor: cantai hinos em seu louvor e exaltai-O em todos os s\u00e9culos.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "\u00d3 Senhor, nosso Deus, dignai-Vos mandar para nosso guarda o santo Arcanjo Rafael; e que as nossas humildes preces Vos sejam apresentadas para serem aben\u00e7oadas por aquele que sabemos estar sempre na presen\u00e7a de vossa majestade.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

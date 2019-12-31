@@ -68,17 +68,17 @@
       {
         "body": "*Ct 4:8-9*\nVem comigo do L\u00edbano, \u00f3 minha esposa; Vem comigo do L\u00edbano; vem. Tu feriste o meu cora\u00e7\u00e3o, minha irm\u00e3, minha esposa; tu feriste o meu cora\u00e7\u00e3o.\n*Sl 112:1*\nLouvai o Senhor, \u00f3 meninos; louvai o nome do Senhor.\nGl\u00f3ria ao Pai.\nVem comigo do L\u00edbano, \u00f3 minha esposa; Vem comigo do L\u00edbano; vem. Tu feriste o meu cora\u00e7\u00e3o, minha irm\u00e3, minha esposa; tu feriste o meu cora\u00e7\u00e3o.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Senhor, que Vos dignastes ensinar-nos \u00abSe vos n\u00e3o tornardes semelhantes a estes pequenos n\u00e3o entrareis no reino dos c\u00e9us\u00bb, concedei-nos, Vos suplicamos, que de tal modo imitemos os exemplos da humildade e simplicidade da Virgem Santa Teresa que consigamos alcan\u00e7ar os pr\u00e9mios eternos.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Profeta Isa\u00edas.\n*Is 66:12-14*\nAssim fala o Senhor: \u00abEis que farei correr sobre ela como que um rio de paz; e como que uma torrente caudalosa inundar\u00e1 com riquezas os povos. Sereis alimentados com leite, acalentados no seu seio e acariciados sobre os seus joelhos. Eu vos consolarei, como aquele a quem a m\u00e3e consola; e serei a vossa alegria em Jerusal\u00e9m. V\u00ea-lo-eis, e regozijar-se-\u00e1 o vosso cora\u00e7\u00e3o; os vossos ossos reconquistar\u00e3o o vigor, como a erva dos campos; e a m\u00e3o do Senhor se manifestar\u00e1 em favor dos seus servos\u00bb.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Mt 11:25*\nDou-Vos gra\u00e7as, \u00f3 Pai, Senhor do c\u00e9u e da terra, porque ocultastes estas cousas aos s\u00e1bios e aos prudentes deste mundo, e as revelastes aos \u00abpequenos\u00bb.\n*Sl 70:5*\nSois a minha esperan\u00e7a, Senhor, desde a minha juventude. Aleluia, aleluia.\n*Sl 39:17-19*\nFrutificai, como a rosa plantada \u00e0 beira das \u00e1guas; espalhai vosso suave perfume, como o monte L\u00edbano; como os l\u00edrios, desabrochai vossas flores e exalai vossos perfumes; enchei-vos de beleza; entoai hinos e c\u00e2nticos em honra do Senhor, louvando-O Pela magnific\u00eancia das suas obras. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 18:1-4*\nNaquele tempo, aproximaram-se de Jesus os seus disc\u00edpulos, dizendo-Lhe: \u00abQual pensais V\u00f3s que \u00e9 o maior no reino dos c\u00e9us?\u00bb. E Jesus, havendo chamado um pequeno, colocou-o no meio deles e disse: \u00abEm verdade vos digo: se vos n\u00e3o converteis e n\u00e3o vos tornais como os pequenos, n\u00e3o entrareis no reino dos c\u00e9us\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Lc 1:46-49*\nA minha alma engrandece o Senhor e o meu esp\u00edrito alegra-se em Deus, meu Salvador, pois Ele dignou-se olhar benignamente para a humildade da sua escrava; e praticou em mim grandes cousas.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Senhor, Vos suplicamos, permiti que a ora\u00e7\u00e3o da vossa Virgem Santa Teresa Vos torne agrad\u00e1vel o nosso sacrif\u00edcio, a fim de que por V\u00f3s seja aceite, pelos m\u00e9ritos daquela em cuja honra Vo-lo oferecemos.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Dt 32:10-12*\nRodeou-a, protegeu-a e guardou-a, como \u00e0 pupila dos seus olhos. Como a \u00e1guia, abriu suas asas, arrebatou-a e colocou-a sobre os seus joelhos. O Senhor foi o seu \u00fanico guia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Que este myst\u00e9rio, Senhor, nos abrase no fogo celestial, ao qual a vossa Virgem Santa Teresa se ofereceu como v\u00edtima de amor pelos homens.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

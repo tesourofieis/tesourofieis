@@ -68,17 +68,17 @@
       {
         "body": "*Sl 138:17*\nVejo, \u00f3 Deus, que honrastes largamente os vossos amigos: e que seu poder se fortaleceu extraordinariamente.\n*Sl 138:1-2*\nSenhor, perscrutastes o meu \u00edntimo e ficastes conhecendo-me: ficastes conhecendo quando me deito e quando me levanto.\nGl\u00f3ria ao Pai.\nVejo, \u00f3 Deus, que honrastes largamente os vossos amigos: e que seu poder se fortaleceu extraordinariamente.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Humildemente suplicamos \u00e0 vossa divina majestade que, assim como o Ap\u00f3stolo Andr\u00e9 foi pregador e guia da vossa Igreja, assim tamb\u00e9m interceda por n\u00f3s perpetuamente junto de V\u00f3s.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Romanos.\n*Rm 10:10-18*\nMeus irm\u00e3os: Com o cora\u00e7\u00e3o se cr\u00ea para chegar \u00e0 justi\u00e7a; e com a boca se faz profiss\u00e3o de f\u00e9 para alcan\u00e7ar a salva\u00e7\u00e3o. Com efeito diz a Escritura: \u00abTodo aquele que cr\u00ea n\u2019Ele n\u00e3o ser\u00e1 confundido\u00bb, porque n\u00e3o h\u00e1 diferen\u00e7a entre judeu e grego, visto que n\u00e3o h\u00e1 sen\u00e3o um s\u00f3 e o mesmo Senhor de todos, que \u00e9 rico para todos os que O invocam; pois todo o que invocar o nome do Senhor ser\u00e1 salvo. Por\u00e9m como invocar\u00e3o Aquele em quem n\u00e3o acreditam? E como h\u00e3o-de crer sem haverem ouvido falar d\u2019Ele? E como se ouvir\u00e1 falar, se n\u00e3o houver pregadores? E como haver\u00e1 pregadores se n\u00e3o tiverem sido enviados? Pois est\u00e1 escrito: \u00abComo s\u00e3o preciosos os p\u00e9s daqueles que evangelizam a paz, que evangelizam a felicidade!\u00bb. Mas nem todos obedecem ao Evangelho. Isa\u00edas disse: \u00abSenhor, quem acreditou na nossa prega\u00e7\u00e3o?\u00bb. Assim, a f\u00e9 nasce da prega\u00e7\u00e3o ouvida, e a prega\u00e7\u00e3o vem da palavra de Cristo. E eu vos pergunto: \u00abPorventura eles a n\u00e3o ouviram?\u00bb. Sim, por certo: pois por toda a terra se espalhou a sua voz, e suas palavras soaram at\u00e9 aos extremos do mundo!", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 44:17-18*\nSer\u00e3o constitu\u00eddos pr\u00edncipes em toda a terra e perpetuar\u00e3o a gl\u00f3ria do vosso nome, Senhor!\nV. Para substituir os vossos pais nasceram-vos filhos; por isso os povos Vos louvar\u00e3o eternamente. Aleluia, aleluia.\nV. O Senhor amou Andr\u00e9, como um perfume suave. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 4:18-22*\nNaquele tempo, caminhando Jesus junto ao mar da Galileia, viu dois irm\u00e3os: Sim\u00e3o, que se chama Pedro, e Andr\u00e9, irm\u00e3o deste, os quais lan\u00e7avam as redes no mar, pois eram pescadores. Disse-lhes Jesus: \u00abVinde comigo e far-vos-ei pescadores de homens\u00bb. Imediatamente eles, deixando as redes, O seguiram. Continuando Jesus a andar, encontrou mais adiante em uma barca, consertando as redes, outros dois irm\u00e3os: Tiago, filho de Zebedeu, e Jo\u00e3o, seu irm\u00e3o, com seu pai Zebedeu. Ent\u00e3o chamou-os. Logo, no mesmo instante, eles, deixando as redes e o pai, seguiram-n\u2019O.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 138:17*\nVejo, \u00f3 Deus, que honrastes largamente os vossos amigos; por isso o seu poder se fortaleceu extraordinariamente.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Senhor, permiti que a ora\u00e7\u00e3o do B. Ap\u00f3stolo Andr\u00e9 Vos torne agrad\u00e1vel este nosso sacrif\u00edcio, a fim de que seja aceite, em virtude dos m\u00e9ritos daquele em cuja honra Vos \u00e9 solenemente oferecido.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*dos Ap\u00f3stolos*\n\u00c9 verdadeiramente digno e justo, racional e salutar suplicar-Vos humildemente, Senhor, que, como Pastor eterno, que sois, n\u00e3o abandoneis o vosso rebanho, mas antes, por intercess\u00e3o dos vossos bem-aventurados Ap\u00f3stolos, o guardeis sob a vossa perp\u00e9tua protec\u00e7\u00e3o, a fim de que seja sempre governado pelos mesmos Directores, que, encarregados como Vig\u00e1rios de perpetuar a vossa obra, designastes seus Pastores. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos um hino \u00e0 vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 4:19-20*\nVinde comigo: e far-vos-ei pescadores de homens. Imediatamente eles, deixando as redes, seguiram o Senhor.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Senhor, que os divinos myst\u00e9rios, que com alegria recebemos nesta festa do B. Andr\u00e9, servindo para a gl\u00f3ria dos vossos Santos, nos alcancem, tamb\u00e9m, o perd\u00e3o das nossas culpas.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

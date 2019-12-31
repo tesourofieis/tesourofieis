@@ -66,17 +66,17 @@
       {
         "body": "*Sl 63:3*\nProtegestes-me, \u00f3 Deus, contra os conluios dos maus e contra a multid\u00e3o daqueles que cometem iniquidades. Aleluia, aleluia.\n*Sl 63:2*\nOuvi, \u00f3 Deus, a ora\u00e7\u00e3o que Vos dirijo: livrai a minha alma do temor do inimigo.\nGl\u00f3ria ao Pai.\nProtegestes-me, \u00f3 Deus, contra os conluios dos maus e contra a multid\u00e3o daqueles que cometem iniquidades. Aleluia, aleluia.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Bo\u017ce, za Tw\u00f3j Ko\u015bci\u00f3\u0142 zgin\u0105\u0142 pod mieczami bezbo\u017cnych chwalebny Biskup Stanis\u0142aw; spraw, prosimy, aby wszyscy, kt\u00f3rzy wzywaj\u0105 jego pomocy, osi\u0105gn\u0119li zbawienny skutek swojej pro\u015bby.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 5:1-5*\nEnt\u00e3o, os justos erguer-se-\u00e3o com grande coragem contra aqueles que os oprimiam e a quem arrebatavam o fruto dos seus trabalhos. Vendo-os assim, os maus perturbar-se-\u00e3o, cheios de pavor, e ficar\u00e3o assombrados com a s\u00fabita e inesperada salva\u00e7\u00e3o dos justos, dizendo de si para si, arrependidos e angustiados: \u00abEstes s\u00e3o aqueles a quem outrora quisemos injuriar com nossas zombarias e insultos. Insensatos que n\u00f3s fomos! Pareceu-nos que sua vida era uma loucura, e a sua morte uma vergonha; mas eis que os vemos elevados \u00e0 dignidade de filhos de Deus e compartilhando da gl\u00f3ria dos santos!\u00bb", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Aleluia, aleluia\n*Sl 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych. Aleluia.\n*Sl 20:4*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 15:1-7*\nEu sou a verdadeira vinha e meu Pai \u00e9 o vinhateiro. Toda a videira que n\u00e3o der fruto em mim ser\u00e1 cortada por Ele, assim como podar\u00e1 a que der fruto, para que o d\u00ea com mais abund\u00e2ncia. V\u00f3s estais j\u00e1 limpos em raz\u00e3o da doutrina que vos tenho pregado. Permanecei em mim, pois eu permane\u00e7o em v\u00f3s. Assim como a videira n\u00e3o pode dar fruto s\u00f3 por si, sem permanecer unida \u00e0 cepa, assim tamb\u00e9m n\u00e3o podereis v\u00f3s dar fruto se n\u00e3o permanecerdes unidos a mim. Eu sou a cepa da vinha, e v\u00f3s sois as vides. Aquele que permanece em mim, eu permane\u00e7o nele, e dar\u00e1 abundante fruto; pois nada podereis fazer sem mim. Se algu\u00e9m n\u00e3o permanecer em mim, ser\u00e1 arrancado e lan\u00e7ado fora, como uma vide seca. Ent\u00e3o secar\u00e1 e lev\u00e1-la-\u00e3o para a lan\u00e7arem no fogo, em que arder\u00e1. Se permanecerdes em mim e as minhas palavras permanecerem em v\u00f3s, tudo o que quiserdes podereis pedir, que vos ser\u00e1 concedido.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:6*\nSenhor, que os c\u00e9us publiquem as vossas maravilhas; que, a vossa verdade seja exaltada na assembleia dos santos. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Po\u015bwi\u0119\u0107, Panie, z\u0142o\u017cone Ci dary, i za przyczyn\u0105 \u015bw. Stanis\u0142awa, Twego M\u0119czennika i Biskupa, daj si\u0119 przez nie przeb\u0142aga\u0107 i b\u0105d\u017a nam przychylny.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 63:11*\nO justo rejubilar\u00e1 no Senhor e nele por\u00e1 a sua confian\u00e7a, pois todos aqueles que possuem o cora\u00e7\u00e3o recto ser\u00e3o louvados. Aleluia, aleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Niech ta Komunia, o Panie, oczy\u015bci nas z grzech\u00f3w i za przyczyn\u0105 \u015bw. Stanis\u0142awa, Twego M\u0119czennika i Biskupa, stanie si\u0119 dla nas niebieskim lekarstwem.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

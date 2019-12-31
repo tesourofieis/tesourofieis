@@ -13,11 +13,11 @@
     <script src="?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js"></script>
     <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
     <script type="text/javascript">
-      var TRACEBACK = 4514950032,
+      var TRACEBACK = 4416606160,
           CONSOLE_MODE = false,
           EVALEX = true,
           EVALEX_TRUSTED = false,
-          SECRET = "YF64UtDhLNPugLhJZDzR";
+          SECRET = "lKafj2Wtp1eOWfzOYuoU";
     </script>
   </head>
   <body style="background-color: #fff">
@@ -29,7 +29,7 @@
 <h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
 <div class="traceback">
   
-  <ul><li><div class="frame" id="frame-4516972112">
+  <ul><li><div class="frame" id="frame-4416580880">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">2463</em>,
       in <code class="function">__call__</code></h4>
@@ -44,7 +44,7 @@
 <pre class="line after"><span class="ws">        </span>return &quot;&lt;%s %r&gt;&quot; % (self.__class__.__name__, self.name)</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516971088">
+<li><div class="frame" id="frame-4416578896">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">2449</em>,
       in <code class="function">wsgi_app</code></h4>
@@ -61,7 +61,7 @@
 <pre class="line after"><span class="ws">        </span>finally:</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516974544">
+<li><div class="frame" id="frame-4416578128">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">1866</em>,
       in <code class="function">handle_exception</code></h4>
@@ -78,7 +78,7 @@
 <pre class="line after"><span class="ws">        </span>server_error = InternalServerError()</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516970896">
+<li><div class="frame" id="frame-4416577680">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/_compat.py"</cite>,
       line <em class="line">39</em>,
       in <code class="function">reraise</code></h4>
@@ -95,7 +95,7 @@
 <pre class="line after"><span class="ws">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516973008">
+<li><div class="frame" id="frame-4416577872">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">2446</em>,
       in <code class="function">wsgi_app</code></h4>
@@ -112,7 +112,7 @@
 <pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516971472">
+<li><div class="frame" id="frame-4416577616">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">1951</em>,
       in <code class="function">full_dispatch_request</code></h4>
@@ -129,7 +129,7 @@
 <pre class="line after"><span class="ws">        </span>the request by converting it into a response and invoking the</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516972304">
+<li><div class="frame" id="frame-4416580752">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">1820</em>,
       in <code class="function">handle_user_exception</code></h4>
@@ -146,7 +146,7 @@
 <pre class="line after"><span class="ws">        </span>associated with it, or that was raised from an error handler.</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516908176">
+<li><div class="frame" id="frame-4414563856">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/_compat.py"</cite>,
       line <em class="line">39</em>,
       in <code class="function">reraise</code></h4>
@@ -163,7 +163,7 @@
 <pre class="line after"><span class="ws">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516907024">
+<li><div class="frame" id="frame-4416579344">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">1949</em>,
       in <code class="function">full_dispatch_request</code></h4>
@@ -180,7 +180,7 @@
 <pre class="line after"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516972752">
+<li><div class="frame" id="frame-4416577808">
   <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">1935</em>,
       in <code class="function">dispatch_request</code></h4>
@@ -197,7 +197,7 @@
 <pre class="line after"><span class="ws">        </span>error handling.</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516907600">
+<li><div class="frame" id="frame-4416578640">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/apiv2.py"</cite>,
       line <em class="line">38</em>,
       in <code class="function">v2_date</code></h4>
@@ -214,7 +214,7 @@
 <pre class="line after"><span class="ws"></span>def v2_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4516907344">
+<li><div class="frame" id="frame-4416578000">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/utils.py"</cite>,
       line <em class="line">31</em>,
       in <code class="function">format_propers</code></h4>
@@ -231,7 +231,7 @@
 <pre class="line after"><span class="ws">        </span># proper's comment directly</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4512949904">
+<li><div class="frame" id="frame-4412565520">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py"</cite>,
       line <em class="line">190</em>,
       in <code class="function">get_proper</code></h4>
@@ -248,7 +248,7 @@
 <pre class="line after"><span class="ws">        </span>Accommodate propers for given observance to the current calendar day.</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4512949968">
+<li><div class="frame" id="frame-4412564496">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/models.py"</cite>,
       line <em class="line">149</em>,
       in <code class="function">add_commemorations</code></h4>

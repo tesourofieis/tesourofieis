@@ -66,17 +66,17 @@
       {
         "body": "*Sl 88:20-22*\nDo seio do povo tirei o escolhido; ungi-o com meu \u00f3leo sagrado: para que sobre ele esteja sempre a minha m\u00e3o e o meu bra\u00e7o o fortale\u00e7a.\n*Sl 88:2*\nCantarei eternamente as gra\u00e7as do Senhor; por todas as gera\u00e7\u00f5es proclamarei com a minha boca a sua fidelidade.\nGl\u00f3ria ao Pai.\nDo seio do povo tirei o escolhido; ungi-o com meu \u00f3leo sagrado: para que sobre ele esteja sempre a minha m\u00e3o e o meu bra\u00e7o o fortale\u00e7a.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que, para guarda da f\u00e9 cat\u00f3lica e para \u00abrestaurar tudo em Cristo\u00bb, cumulastes S\u00e3o pio, Sumo Pont\u00edfice, com celestial sabedoria e com fortaleza apost\u00f3lica, concedei-nos prop\u00edcio que, seguindo com devo\u00e7\u00e3o as suas instru\u00e7\u00f5es e exemplos, alcancemos os pr\u00e9mios eternos.\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Tessalonicenses.\n*1 Ts 2:2-8*\nMeus irm\u00e3os: Vimos cheios de confian\u00e7a no nosso Deus pregar-vos o Evangelho com muita solicitude. A nossa prega\u00e7\u00e3o n\u00e3o procede do erro, nem de qualquer inten\u00e7\u00e3o viciosa ou de alguma fraude. Visto que Deus nos julgou dignos de nos confiar o Evangelho, n\u00f3s ensinamo-lo n\u00e3o para agradar aos homens mas a Deus, que prescruta os nossos cora\u00e7\u00f5es. Nunca, com efeito, como bem sabeis, os nossos discursos foram inspirados pela lisonja ou pela avareza: Deus \u00e9 testemunha. Nunca procur\u00e1mos a gl\u00f3ria humana, quer a nossa, quer a dos outros. Ainda que, como Ap\u00f3stolo de Cristo, pud\u00e9ssemos usar da nossa autoridade, pelo contr\u00e1rio, torn\u00e1mo-nos pequeninos entre v\u00f3s como uma ama que nutre os seus meninos. Ora pois, inspirados pelo nosso amor para convosco, querer\u00edamos n\u00e3o s\u00f3 dar-vos o Evangelho de Deus, mas a nossa pr\u00f3pria vida, tanto vos tornastes queridos de n\u00f3s!", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 39:10-11*\nEvangelizei a vossa justi\u00e7a ante grande multid\u00e3o; eis que meus l\u00e1bios n\u00e3o ficaram cerrados: V\u00f3s, Senhor, bem o sabeis.\nV. N\u00e3o escondi no meu cora\u00e7\u00e3o a vossa justi\u00e7a; publiquei a vossa fidelidade e o vosso socorro. Aleluia, aleluia.\n*Sl 22:5-6*\nV. Preparastes para mim a mesa; com \u00f3leo ungistes a minha cabe\u00e7a; o meu c\u00e1lice est\u00e1 a transbordar. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 21:15-17*\nNaquele tempo, disse Jesus a Sim\u00e3o Pedro: \u00abSim\u00e3o, filho de Jo\u00e3o, tu amas-me mais do que estes?\u00bb Respondeu-Lhe ele: \u00abSim, Senhor, V\u00f3s sabeis que Vos amo\u00bb. E disse-lhes Jesus: \u00abApascenta os meus cordeiros\u00bb. Disse-lhe Jesus, novamente: \u00abSim\u00e3o, filho de Jo\u00e3o, tu amas-me?\u00bb Sim\u00e3o respondeu-Lhe: \u00abSim, Senhor, V\u00f3s sabeis que Vos amo\u00bb. E disse-lhe Jesus: \u00abApascenta os meus cordeiros\u00bb. Pela terceira vez, disse-lhe Jesus: \u00abSim\u00e3o, filho de Jo\u00e3o, tu amas-me?\u00bb Entristeceu-se Pedro por Jesus lhe haver perguntado pela terceira vez se O amava, e respondeu-Lhe: \u00abSenhor, V\u00f3s conheceis tudo; V\u00f3s sabeis que Vos amo!\u00bb Ent\u00e3o, disse Jesus: \u00abApascenta as minhas ovelhas\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 33:12*\nVinde, filhos, ouvi-me; ensinar-vos-ei o temor do Senhor.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Havendo V\u00f3s, Senhor, recebido benignamente as nossas oblatas, Vos imploramos, concedei-nos, por intercess\u00e3o de S\u00e3o Pio, Sumo Pont\u00edfice, que tratemos estes divinos myst\u00e9rios com sincera humildade e os recebamos com recta inten\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Jo 6:56-57*\nA minha Carne \u00e9 verdadeira comida e o meu Sangue \u00e9 verdadeira bebida. Aquele que come a minha Carne e bebe o meu Sangue permanece em Mim e Eu permane\u00e7o nele.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Saciados com a gra\u00e7a da Mesa Celestial, Vos suplicamos, Senhor, nosso Deus, que por intercess\u00e3o de S\u00e3o Pio, Sumo Pont\u00edfice, nos tornemos fortes na f\u00e9 e sejamos un\u00e2nimes na pr\u00e1tica da vossa caridade.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

@@ -86,22 +86,22 @@
       {
         "body": "*Sl 30:10, 16, 18.*\nHave pity on me, O Lord, for I am in distress; rescue me from the clutches of my enemies and my persecutors. O Lord, let me not be put to shame, for I call upon You.\n*Sl 30:2*\nIn You, O Lord, I take refuge; let me never be put to shame. In Your justice rescue me.\nHave pity on me, O Lord, for I am in distress; rescue me from the clutches of my enemies and my persecutors. O Lord, let me not be put to shame, for I call upon You.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Graciously pour forth Your grace into our hearts, we beseech You, O Lord, that, keeping our sinful inclinations under control by self-denial, we may suffer for a brief while rather than be condemned to everlasting punishment.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*For Our Lady of the Seven Sorrows*\nO God, in Whose Passion the sword, according to the prophecy of blessed Simeon, pierced through the soul of Mary, the glorious Virgin and Mother, mercifully grant that we, who reverently commemorate her piercing through and her suffering, may, by the interceding glorious merits of all the saints faithfully standing by the Cross, obtain the abundant fruit of Your passion.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from Jeremiah the Prophet\n*Jr 17:13 - 18.*\nIn those days, Jeremia said: O Lord, all who forsake You shall be in disgrace; the rebels in the land shall be put to shame; they have forsaken the source of living waters, the Lord. Heal me, Lord, that I may be healed; save me, that I may be saved, for it is You whom I praise. See how they say to me, \u2018Where is the word of the Lord? Let it come to pass!\u2019 Yet I am not troubled, following You as my shepherd; the day without remedy I have not desired. You know what passed my lips; it is present before You. Do not be my ruin, You, my refuge in the day of misfortune. Let my persecutors, not me, be confounded; let them, not me, be broken. Bring upon them the day of misfortune, crush them with repeated destruction, O Lord, our God.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 34:20, 22.*\nMy enemies spoke peaceably to me: and in anger they afflicted me.\nV. You, O Lord, have seen; be not silent; be not far from me!\n\n*Tractus*\n*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\n*Sl 78:8-9*\nV. O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
@@ -111,47 +111,47 @@
       {
         "body": "Continuation of the Holy Gospel according to\n*Jo 11:47 - 54.*\nAt that time, the chief priests and Pharisees gathered together a council against Jesus, and said, What are we doing? for this man is working many signs. If we let Him alone as He is, all will believe in Him, and the Romans will come and take away both our place and our nation. But one of them, Caiphas, being high priest that year, said to them, You know nothing at all; nor do you reflect that it is expedient for us that one man die for the people, instead of the whole nation perishing. This, however, he said not of himself; but being high priest that year, he prophesied that Jesus was to die for the nation; and not only for the nation, but that He might gather into one the children of God who were scattered abroad. So from that day forth their plan was to put Him to death. Jesus therefore no longer went about openly among the Jews, but withdrew to the district near the desert, to a town called Ephrem; and there He stayed with His disciples.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 118:12, 121.*\nBlessed are You, O Lord; teach me Your statutes. Let not the proud oppress me; so shall I have an answer for those who reproach me.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Grant us, O merciful God, that we may ever have the grace to serve Your altars worthily, and may we be saved by constantly partaking of the sacrifice.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*For the Seven Sorrows*\nO Lord Jesus Christ, we offer You prayers and sacrificial gifts, humbly beseeching You that, as we prayerfully recall the piercing of the most sweet soul of Your blessed Mother Mary, so through the merits of Your death and the manifold intercession of her and her holy friends at the foot of the Cross, we may have our reward with the blessed.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*da Santa Cruz*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que estabelecestes na \u00e1rvore da Cruz a salva\u00e7\u00e3o do g\u00e9nero humano, para que renascesse a vida, onde a morte houvera princ\u00edpio, e que aquilo que outrora vencera na \u00e1rvore, fosse vencido na \u00e1rvore tamb\u00e9m, por Jesus Cristo, nosso Senhor: pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos C\u00e9us e os bem-aventurados Serafins a celebram em comuns transportes de alegria: aos quais, Vos suplicamos, permiti que se unam as nossas vozes, dizendo em humilde e suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 26:12*\nGive me not up, O Lord, to the wishes of my foes; for false witnesses have risen up against me, and such as breathe out violence.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May the abiding protection of the sacrament we have received, O Lord, never forsake us, and always keep us from all things harmful.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*For the Seven Sorrows*\nO Lord Jesus Christ, may the sacrifices of which we have partaken, while devoutly celebrating the piercing of Your Virgin Mother\u2019s soul, obtain for us, through Your kindness, the good effect of salvation.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
         "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGrant, we beseech You, almighty God, that we who seek the grace of Your protection, having been delivered from all evils, may serve You with untroubled minds.\nPor nosso Senhor", 
         "id": "Super populum", 
-        "label": "Prayer over the people"
+        "label": "Sobre o povo"
       }
     ]
   }

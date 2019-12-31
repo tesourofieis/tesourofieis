@@ -66,17 +66,17 @@
       {
         "body": "*Gl 6:14*\nNunca, por\u00e9m, Deus permita que me glorie sen\u00e3o na Cruz de nosso Senhor Jesus Cristo, por quem o mundo est\u00e1 crucificado para mim, como eu o estou para o mundo!\n*Sl 141:2*\nElevei a minha voz ao Senhor: dirigi ao Senhor a minha voz suplicante!\nGl\u00f3ria ao Pai.\nNunca, por\u00e9m, Deus permita que me glorie sen\u00e3o na Cruz de nosso Senhor Jesus Cristo, por quem o mundo est\u00e1 crucificado para mim, como eu o estou para o mundo!", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Senhor Jesus Cristo, que, quando a caridade resfriou no mundo, quisestes renovar os Sagrados Estigmas da vossa Paix\u00e3o na carne do B. Francisco, para inflamar os nossos cora\u00e7\u00f5es no fogo do vosso amor, concedei-nos, Vos suplicamos, que pelos seus m\u00e9ritos e preces abracemos continuamente a Cruz e pratiquemos dignos frutos de penit\u00eancia.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos G\u00e1latas.\n*Gl 6:14-18*\nMeus irm\u00e3os: Nunca Deus permita que me glorie sen\u00e3o na Cruz de nosso Senhor Jesus Cristo, por quem o mundo est\u00e1 crucificado para mim, como eu o estou para o mundo! Na verdade, em Jesus Cristo n\u00e3o \u00e9 a circuncis\u00e3o ou a incircuncis\u00e3o que valem alguma cousa, mas cada um ser uma criatura nova. Que todos aqueles que seguirem esta regra experimentem paz e consola\u00e7\u00e3o, e do mesmo modo os que s\u00e3o o Israel (o povo) de Deus. Que doravante ningu\u00e9m me d\u00ea desgosto algum, pois trago no meu cora\u00e7\u00e3o os Estigmas do Senhor Jesus. Que a gra\u00e7a de nosso Senhor Jesus Cristo, meus irm\u00e3os, seja com vosso esp\u00edrito. Amen.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 36:30-31*\nA boca do justo falar\u00e1 com sabedoria e a sua l\u00edngua proclamar\u00e1 a justi\u00e7a.\nV. A lei do seu Deus est\u00e1 sempre no seu cora\u00e7\u00e3o e os seus p\u00e9s n\u00e3o trope\u00e7ar\u00e3o. Aleluia, aleluia.\nV. Francisco, pobre e humilde, entra rico no c\u00e9u: em sua honra ressoam hinos celestiais. Aleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 11:25-30*\nNaquele tempo, respondendo Jesus, disse: \u00abDou-Vos gra\u00e7as, \u00f3 Pai, Senhor do c\u00e9u e da terra, pois que ocultastes estas coisas aos s\u00e1bios e aos prudentes e as revelastes aos pequenos. Sim, \u00f3 Pai, dou-Vos gra\u00e7as, porque assim o quisestes. Todas as cousas me foram dadas pelo meu Pai; e ningu\u00e9m conhece o Filho sen\u00e3o o Pai, assim como ningu\u00e9m conhece o Pai sen\u00e3o o Filho, e aquele a quem o Filho o quer revelar. Vinde a mim, v\u00f3s todos, que trabalhais e estais sobrecarregados, e vos confortarei. Tomai sobre v\u00f3s o meu jugo e aprendei de mim; pois sou manso e humilde de cora\u00e7\u00e3o; e achareis o repouso para as vossas almas. Meu jugo \u00e9 suave e o meu \u00f3nus \u00e9 leve\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:25*\nA minha fidelidade e a minha miseric\u00f3rdia estar\u00e3o com ele; e por virtude do meu nome ser\u00e1 exaltado o seu poder.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Santificai, Senhor, os dons que Vos s\u00e3o oferecidos, e pela intercess\u00e3o do B. Francisco purificai-nos dos nossos pecados.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Lc 12:42*\nEis o servo fiel e prudente, destinado pelo Senhor para distribuir oportunamente a cada um na fam\u00edlia a sua medida de trigo.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "\u00d3 Deus, que sob m\u00faltiplas formas manifestastes na pessoa do B. Francisco, vosso Confessor, os admir\u00e1veis myst\u00e9rios da Cruz, concedei-nos, Vos rogamos, que possamos sempre seguir os exemplos da sua devo\u00e7\u00e3o e confortar-nos com a cont\u00ednua medita\u00e7\u00e3o desta mesma Cruz.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

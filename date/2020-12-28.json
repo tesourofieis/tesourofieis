@@ -84,22 +84,22 @@
       {
         "body": "*Sl 8:3*\nDa boca dos meninos e das crian\u00e7as de peito fazeis sair louvores em vossa honra, para confus\u00e3o dos vossos inimigos.\n*Sl 8:2*\n\u00d3 Senhor, nosso Deus, como o vosso nome \u00e9 admir\u00e1vel em todo o universo!\nGl\u00f3ria ao Pai.\nDa boca dos meninos e das crian\u00e7as de peito fazeis sair louvores em vossa honra, para confus\u00e3o dos vossos inimigos.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, cuja gl\u00f3ria os Inocentes M\u00e1rtires confessaram neste dia, n\u00e3o com suas palavras, mas com sua morte, mortificai no nosso \u00edntimo as paix\u00f5es e os v\u00edcios, a fim de que a vossa f\u00e9, que a nossa boca confessa, seja Confirmada com os nossos costumes.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*Para a Oitava do Natal*\n\u00d3 Deus omnipotente, Vos imploramos, dignai-Vos permitir que o novo Nascimento do vosso Filho Unig\u00e9nito Incarnado nos livre do antigo cativeiro em que nos conserva o jugo do pecado.\nPelo mesmo nosso Senhor.", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro do Apocalipse do B. Ap.\u00ba Jo\u00e3o.\n*Apoc 14:1-5*\nNaqueles dias, vi o Cordeiro de p\u00e9 sobre a montanha de Si\u00e3o e com ele cento e quarenta e quatro mil pessoas, que tinham o seu nome e o nome de seu Pai escritos na fronte, e ouvi uma voz do c\u00e9u, semelhante ao murm\u00fario de muitas \u00e1guas e ao ru\u00eddo de um grande trov\u00e3o. Essa voz era como que o som de muitas harpas dedilhadas por um coro de m\u00fasicos! E cantavam um c\u00e2ntico novo diante do trono de Deus, em presen\u00e7a dos quatro animais e dos anci\u00e3os, n\u00e3o podendo ningu\u00e9m mais cantar este c\u00e2ntico sen\u00e3o os cento e quarenta e quatro mil que haviam sido resgatados da terra. Estes s\u00e3o os que se n\u00e3o mancharam com mulheres, pois s\u00e3o virgens; estes s\u00e3o os que acompanham o Cordeiro a qualquer lugar onde Ele v\u00e1; estes s\u00e3o os que foram resgatados entre os homens, para serem oferecidos como prim\u00edcias a Deus e ao Cordeiro, n\u00e3o tendo eles nunca procedido falsamente, pois foram julgados sem mancha diante do trono de Deus.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 123:7-8*\nA nossa alma escapou-se, como um p\u00e1ssaro do la\u00e7o do ca\u00e7ador.\nV. O la\u00e7o quebrou-se, e fic\u00e1mos livres. A nossa esperan\u00e7a est\u00e1 no nome do Senhor, que criou o c\u00e9u e a terra. Aleluia, aleluia.\n*Sl 112:1*\n\u00d3 meninos, louvai o Senhor; louvai o seu santo Nome. Aleluia.", 
@@ -109,42 +109,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 2:13-18*\nNaquele tempo, um Anjo do Senhor apareceu em sonhos a Jos\u00e9, dizendo-lhe: \u00abErgue-te, toma o Menino e a sua M\u00e3e e foge para o Egipto, onde ficar\u00e1s at\u00e9 que novamente te avise; pois Herodes procura o Menino para O matar\u00bb. Ent\u00e3o Jos\u00e9, ainda de noite, levantou-se e tomou o Menino, assim como sua M\u00e3e, conduzindo-os para o Egipto, onde permaneceram at\u00e9 \u00e0 morte de Herodes. E assim se cumpriu o que o Senhor anunciara pelo Profeta: \u00abChamei o meu Filho do Egipto\u00bb. Entretanto, Herodes, vendo que os Magos o tinham iludido, encolerizou-se e mandou matar todos os meninos, que havia em Bel\u00e9m e nos arredores, desde a idade de dois anos para baixo, segundo o tempo que ele inquirira diligentemente dos Magos. Deste modo se cumpriu o que dissera o profeta Jeremias: \u00abUma voz se ouviu em Rama: muitos solu\u00e7os e lamenta\u00e7\u00f5es. \u00c9 Raquel que chora os seus filhos; e ela n\u00e3o quer ser consolada, porque j\u00e1 n\u00e3o existem!\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 123:7*\nA nossa alma escapou-se, como um p\u00e1ssaro do la\u00e7o do ca\u00e7ador. O la\u00e7o quebrou-se, e fic\u00e1mos livres.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "N\u00e3o nos falte, Senhor, a pia ora\u00e7\u00e3o dos vossos Santos e que ela Vos torne agrad\u00e1veis as nossas ofertas e sempre nos alcance a vossa indulg\u00eancia.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Para a Oitava do Natal*\nSantificai, Senhor, pelo novo Nascimento do vosso Filho Unig\u00e9nito, as oblatas que Vos apresentamos, e purificai-nos das manchas dos nossos pecados.\nPelo mesmo nosso Senhor.", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*do Natal*\nVerdadeiramente \u00e9 digno e justo, racional e salutar dar-Vos gra\u00e7as, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo myst\u00e9rio do Verbo Incarnado um novo clar\u00e3o do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira vis\u00edvel, sejamos inspirados por Ele no amor \u00e0s cousas invis\u00edveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 2:18*\nUma voz se ouviu em Rama: muitos solu\u00e7os e lamenta\u00e7\u00f5es. \u00c9 Raquel que chora os seus filhos; e ela n\u00e3o quer ser consolada, porque j\u00e1 n\u00e3o existem!", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Havendo n\u00f3s participado dos dons que Vos oferecemos, dignai-Vos permitir que as ora\u00e7\u00f5es dos vossos Santos nos sirvam de aux\u00edlio para a vida presente e para a futura.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Para a Oitava do Natal*\n\u00d3 Deus omnipotente, dignai-Vos permitir que, assim como o Salvador do mundo, nascendo neste dia, nos comunicou a gera\u00e7\u00e3o divina, assim tamb\u00e9m nos conceda a imortalidade.\nQue convosco vive.", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

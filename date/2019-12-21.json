@@ -83,12 +83,12 @@
       {
         "body": "*Sl 138:17*\nHonrais largamente os vossos amigos, \u00f3 Deus: e o seu poder tem-se fortalecido extraordinariamente.\n*Sl 138:1-2*\nSenhor, perscrutastes o meu \u00edntimo e ficastes conhecendo-me: ficastes conhecendo quando me deito e quando me levanto.\nGl\u00f3ria ao Pai.\nHonrais largamente os vossos amigos, \u00f3 Deus: e o seu poder tem-se fortalecido extraordinariamente.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Concedei-nos, Senhor, Vos suplicamos, que nos alegremos nas festividades do vosso B. Ap.\u00ba Tom\u00e9, a fim de que sejamos sempre amparados com seu patroc\u00ednio e imitemos a sua f\u00e9 com a devida devo\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S\u00e1bado das T\u00eamporas de Inverno *\n\u00d3 Deus, vede que estamos aflitos com o peso da nossa fraqueza; concedei-nos prop\u00edcio que sejamos consolados com vossa visita:\n\u00d3 V\u00f3s, que viveis.", 
@@ -98,7 +98,7 @@
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Ef\u00e9sios.\n*Ef 2:19-22*\nMeus irm\u00e3os: J\u00e1 n\u00e3o sois estrangeiros, nem h\u00f3spedes, mas concidad\u00e3os dos santos e da fam\u00edlia de Deus, institu\u00eddos sobre o fundamento dos Ap\u00f3stolos e dos Profetas, de que o pr\u00f3prio Jesus Cristo \u00e9 a pedra angular e em quem todo o edif\u00edcio bem constru\u00eddo se deve elevar para formar um templo santo no Senhor. \u00c9 n\u2019Ele que tamb\u00e9m sois edificados para vos tornardes pelo Esp\u00edrito Santo em morada de Deus.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 138:17-18*\nHonrais largamente os vossos amigos, \u00f3 Deus; e o seu poder fortaleceu-se extraordinariamente.\nV. Hei-de cont\u00e1-los e verei que ultrapassam os gr\u00e3os de areia da praia. Aleluia, aleluia.\n*Sl 32:1*\n\u00d3 justos, alegrai-vos no Senhor; pois aos cora\u00e7\u00f5es rectos conv\u00e9m celebrar os louvores do Senhor. Aleluia.", 
@@ -108,17 +108,17 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 20:24-29*\nNaquele tempo, Tom\u00e9, um dos Doze, que era chamado D\u00eddimo, n\u00e3o estava com eles. Disseram-lhe, ent\u00e3o, os outros disc\u00edpulos: \u00abVimos o Senhor!\u00bb. Ele disse-lhes: \u00abSe n\u00e3o vir nas suas m\u00e3os o sinal dos cravos, se n\u00e3o meter o meu dedo no lugar dos cravos e se n\u00e3o meter a minha m\u00e3o no seu lado, n\u00e3o acreditarei\u00bb. Passados oito dias, encontravam-se outra vez no mesmo lugar, estando Tom\u00e9 com eles. Veio ent\u00e3o Jesus, estando as portas fechadas; e, pondo-se no meio deles, disse: \u00abA paz seja convosco\u00bb. Em seguida disse a Tom\u00e9: \u00abMete aqui o teu dedo e v\u00ea as minhas m\u00e3os; aproxima, tamb\u00e9m, a tua m\u00e3o e mete-a no meu lado; n\u00e3o sejas incr\u00e9dulo, mas fiel\u00bb. Respondeu Tom\u00e9: \u00abMeu Senhor e meu Deus!\u00bb. Disse-lhe Jesus: \u00abPorque me viste, \u00f3 Tom\u00e9, acreditaste: bem-aventurados aqueles que n\u00e3o viram e acreditaram\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 18:5*\nO som da sua voz ecoou por toda a terra; e as suas palavras prolongaram-se at\u00e9 \u00e0s extremidades da terra.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Senhor, a vossos p\u00e9s depomos o tributo da nossa sujei\u00e7\u00e3o, suplicando-Vos instantemente que em n\u00f3s conserveis os vossos dons por intercess\u00e3o do B. Tom\u00e9, Ap\u00f3stolo, em quem honramos a gloriosa confiss\u00e3o, imolando h\u00f3stias em vosso louvor.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S\u00e1bado das T\u00eamporas de Inverno *\nSenhor, dignai-Vos aceitar benignamente estas ofertas, a fim de que sirvam para aumentar a nossa devo\u00e7\u00e3o e alcan\u00e7ar-nos a salva\u00e7\u00e3o.\nPor nosso Senhor", 
@@ -128,17 +128,17 @@
       {
         "body": "*dos Ap\u00f3stolos*\n\u00c9 verdadeiramente digno e justo, racional e salutar suplicar-Vos humildemente, Senhor, que, como Pastor eterno, que sois, n\u00e3o abandoneis o vosso rebanho, mas antes, por intercess\u00e3o dos vossos bem-aventurados Ap\u00f3stolos, o guardeis sob a vossa perp\u00e9tua protec\u00e7\u00e3o, a fim de que seja sempre governado pelos mesmos Directores, que, encarregados como Vig\u00e1rios de perpetuar a vossa obra, designastes seus Pastores. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos um hino \u00e0 vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Jo 20:27*\nMete aqui a tua m\u00e3o e reconhece o lugar dos cravos. N\u00e3o sejas incr\u00e9dulo, mas fiel.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Assisti-nos, \u00f3 Deus de miseric\u00f3rdia; e, por intercess\u00e3o do B. Ap\u00f3stolo Tom\u00e9 dignai-Vos conservar a nossa alma na posse dos dons que benignamente nos concedestes.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S\u00e1bado das T\u00eamporas de Inverno *\nSenhor, nosso Deus, Vos rogamos que estes sacrossantos myst\u00e9rios, que nos concedestes para nossa repara\u00e7\u00e3o, sejam o nosso rem\u00e9dio para o presente e para o futuro.\nPor nosso Senhor", 

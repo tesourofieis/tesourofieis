@@ -84,22 +84,22 @@
       {
         "body": "*Sl 118:23; 118:86; 118:23*\nReuniram-se os pr\u00edncipes em assembleia e pronunciaram-se contra mim: e os maus perseguiram-me injustamente: Auxiliai-me, Senhor, meu Deus, pois o vosso servo tem observado os vossos ensinos.\n*Sl 118:1*\nBem-aventurados os que s\u00e3o rectos nos seus caminhos e cumprem a Lei do Senhor.\nGl\u00f3ria ao Pai.\nReuniram-se os pr\u00edncipes em assembleia e pronunciaram-se contra mim: e os maus perseguiram-me injustamente: Auxiliai-me, Senhor, meu Deus, pois o vosso servo tem observado os vossos ensinos.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Concedei-nos, Senhor, Vos imploramos, a gra\u00e7a de imitar aquele que honramos, a fim de que neste dia aprendamos a amar os nossos inimigos, pois que celebramos a festa daquele que soube rogar pelos seus perseguidores a nosso Senhor Jesus Cristo:\nQue convosco vive.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*Para a Oitava do Natal*\n\u00d3 Deus omnipotente, Vos imploramos, dignai-Vos permitir que o novo Nascimento do vosso Filho Unig\u00e9nito Incarnado nos livre do antigo cativeiro em que nos conserva o jugo do pecado.\nPelo mesmo nosso Senhor.", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o dos Actos dos Ap\u00f3stolos.\n*Act 6:8-10; 7:54-59*\nNaqueles dias, Est\u00eav\u00e3o, cheio de gra\u00e7a e de fortaleza, praticava grandes prod\u00edgios e sinais perante o povo. Levantaram-se, ent\u00e3o, alguns membros da sinagoga chamada dos Libertos, dos Cirenenses, dos Alexandrinos, e outros da Cil\u00edcia e da \u00c1sia, e disputaram com Est\u00eav\u00e3o, n\u00e3o podendo resistir \u00e0 sabedoria e ao Esp\u00edrito com que falava. Ouvindo, pois, suas palavras, a raiva minava-lhes os cora\u00e7\u00f5es, e os dentes rangiam-lhes de furor contra ele. Por\u00e9m Est\u00eav\u00e3o, estando cheio do Esp\u00edrito Santo e havendo fixado os olhos no c\u00e9u, viu a gl\u00f3ria de Deus, e Jesus, que estava de p\u00e9, \u00e0 dextra de Deus. E disse-lhes: \u00abEis que eu vejo os c\u00e9us abertos e o Filho do homem, de p\u00e9, \u00e0 dextra de Deus\u00bb. Por\u00e9m eles, clamando com grande ru\u00eddo, taparam os ouvidos e arremessaram-se todos contra ele; e, arrastando-o para fora da cidade, apedrejaram-no. As testemunhas puseram os vestidos dele ao p\u00e9 de um jovem, chamado Saulo. E apedrejaram Est\u00eav\u00e3o. Mas este, invocando o Senhor, dizia: \u00abSenhor Jesus, recebei o meu esp\u00edrito\u00bb. E, pondo-se de joelhos, clamou com voz forte: \u00abSenhor, lhes n\u00e3o imputeis este pecado\u00bb. Tendo acabado de dizer isto, adormeceu no Senhor.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 118:23; 118:86*\nReuniram-se os pr\u00edncipes em assembleia, e pronunciaram-se contra mim: e os maus perseguiram-me injustamente.\n*Sl 6:5*\nAuxiliai-me, \u00f3 Senhor, meu Deus, salvai-me pela vossa miseric\u00f3rdia. Aleluia, aleluia.\n*Act 7:55*\nV. Vejo os c\u00e9us abertos, e Jesus, de p\u00e9, \u00e0 dextra de Deus omnipotente. Aleluia.", 
@@ -109,42 +109,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 23:34-39*\nNaquele tempo, Jesus dizia aos escribas e fariseus: \u00abEis que vos envio profetas, s\u00e1bios e escribas; mas v\u00f3s matareis e crucificareis uns, e a\u00e7oitareis outros nas vossas sinagogas; e persegui-los-eis de terra em terra. Por\u00e9m, cair\u00e1 sobre v\u00f3s todo o sangue inocente que tem sido derramado na terra desde sangue do justo Abel at\u00e9 ao sangue de Zacarias, filho de Baraquias, a quem matastes entre o santu\u00e1rio e o altar. Em verdade vos digo: tudo isto cair\u00e1 sobre esta gera\u00e7\u00e3o. Jerusal\u00e9m, Jerusal\u00e9m, que matas os profetas e apedrejas os que te s\u00e3o enviados, quantas vezes quis eu reunir os teus filhos, como a galinha agasalha os seus pintainhos debaixo das asas, e tu n\u00e3o quiseste?! Eis que a tua casa vai tornar-se deserta e abandonada. Pois eu te digo: \u00abdesde agora me n\u00e3o ver\u00e1s at\u00e9 que digas: Bendito seja Aquele que vem em nome do Senhor\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Act 6:5; 7:59*\nOs Ap\u00f3stolos escolheram Est\u00eav\u00e3o para Di\u00e1cono, pois ele era cheio de f\u00e9 e do Esp\u00edrito Santo; o qual os judeus apedrejaram, enquanto rezava e dizia: \u00abSenhor Jesus, recebei o meu esp\u00edrito\u00bb. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Recebei, Senhor, as nossas ofertas que Vos apresentamos em mem\u00f3ria dos vossos Santos, para que, assim como o seu mart\u00edrio os tornou gloriosos, assim tamb\u00e9m a nossa piedade nos torne inocentes.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Para a Oitava do Natal*\nSantificai, Senhor, pelo novo Nascimento do vosso Filho Unig\u00e9nito, as oblatas que Vos apresentamos, e purificai-nos das manchas dos nossos pecados.\nPelo mesmo nosso Senhor.", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*do Natal*\nVerdadeiramente \u00e9 digno e justo, racional e salutar dar-Vos gra\u00e7as, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo myst\u00e9rio do Verbo Incarnado um novo clar\u00e3o do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira vis\u00edvel, sejamos inspirados por Ele no amor \u00e0s cousas invis\u00edveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Act 7:55; 7:58; 7:59*\nVejo os c\u00e9us abertos e Jesus, de p\u00e9, \u00e0 dextra de Deus omnipotente. \u00d3 Senhor Jesus, recebei o meu esp\u00edrito e lhes n\u00e3o imputeis este pecado.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Permiti, Senhor, que os myst\u00e9rios, que acab\u00e1mos de receber, nos sirvam de perp\u00e9tuo aux\u00edlio, e que por intercess\u00e3o do B. Est\u00eav\u00e3o, vosso M\u00e1rtir, nos confirmem na vossa cont\u00ednua protec\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Para a Oitava do Natal*\n\u00d3 Deus omnipotente, dignai-Vos permitir que, assim como o Salvador do mundo, nascendo neste dia, nos comunicou a gera\u00e7\u00e3o divina, assim tamb\u00e9m nos conceda a imortalidade.\nQue convosco vive.", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

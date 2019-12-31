@@ -68,17 +68,17 @@
       {
         "body": "*Is 61:10*\nRejubilarei no Senhor. Minha alma exultar\u00e1 de alegria no meu Deus. Pois Ele ornou-me com as vestes da salva\u00e7\u00e3o e embelezou-me com o manto da santidade, como uma esposa adornada com suas j\u00f3ias.\n*Sl 29:2*\nLouvar-Vos-ei, Senhor, porque me protegestes e n\u00e3o consentistes que meus inimigos zombassem de mim.\nGl\u00f3ria ao Pai.\nRejubilarei no Senhor. Minha alma exultar\u00e1 de alegria no meu Deus. Pois Ele ornou-me com as vestes da salva\u00e7\u00e3o e embelezou-me com o manto da santidade, como uma esposa adornada com suas j\u00f3ias.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que pela Imaculada Concei\u00e7\u00e3o da Virgem preparastes para o vosso Filho uma habita\u00e7\u00e3o digna d\u2019Ele, dignai-Vos permitir que, assim como em previs\u00e3o da morte deste mesmo Filho a preservastes de toda a m\u00e1cula, assim tamb\u00e9m por sua intercess\u00e3o sejamos purificados de todos os pecados e possamos ir at\u00e9 v\u00f3s.\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Pr 8:22-35*\nO Senhor possuiu-me desde o princ\u00edpio das suas vias e ainda antes de criar qualquer cousa, no Princ\u00edpio, antes da origem da terra. Quando fui concebida, ainda n\u00e3o existiam os abysmos; ainda as fontes n\u00e3o brotavam \u00e1guas; nem as montanhas se erguiam sobre as suas pesadas massas; nem existiam as colinas. J\u00e1 eu tinha sido dada \u00e0 luz, e ainda Ele n\u00e3o havia criado nem a terra, nem os rios, nem os primeiros elementos do globo terrestre! Quando Ele preparava os c\u00e9us, j\u00e1 eu l\u00e1 estava; quando Ele cercava os abysmos, sujeitando-os a uma lei certa; quando Ele segurava as nuvens no alto; quando regulava as fontes das \u00e1guas; quando fixava ao mar os seus limites para que as \u00e1guas n\u00e3o invadissem a terra; quando lan\u00e7ava as bases da terra: j\u00e1 eu estava l\u00e1 com Ele, regulando todas estas cousas, regozijando-me em cada dia, gozando continuamente a sua companhia, alegrando-me no globo da terra e deliciando-me em estar com os filhos dos homens. E agora, meus filhos, escutai-me: Bem-aventurados aqueles que transitam pelas minhas vias. Atendei \u00e0s instru\u00e7\u00f5es, para que sejais prudentes. N\u00e3o as rejeiteis. Bem-aventurado o homem que me escuta; que vigia continuamente \u00e0s minhas portas; e que est\u00e1 sempre pronto \u00e0 sua entrada. Aquele que me tiver achado, ter\u00e1 achado a vida e gozar\u00e1 a salva\u00e7\u00e3o do Senhor.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Jdt 13:23*\nFostes aben\u00e7oada pelo Senhor, pelo Deus alt\u00edssimo, \u00f3 V. Maria, tendo sido colocada superior a todas as mulheres da terra.\n*Jdt 15:10*\nSois a gl\u00f3ria de Jerusal\u00e9m; sois a alegria de Israel; sois a honra do nosso povo. Aleluia, aleluia.\n*Cant 4:7*\nToda sois formosa, \u00f3 Maria; e a m\u00e1cula original n\u00e3o existe em v\u00f3s. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 1:26-28*\nNaquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da Galileia, cujo nome era Nazar\u00e9, a uma Virgem desposada com um var\u00e3o, cujo nome era Jos\u00e9, da casa de David; e o nome da Virgem era Maria. E, entrando o Anjo onde ela estava, disse-lhe: \u00abAve, \u00f3 cheia de gra\u00e7a: o Senhor \u00e9 convosco: bendita sois entre as mulheres\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Lc 1:28*\nAve, Maria, cheia de gra\u00e7a; o Senhor \u00e9 convosco: bendita sois v\u00f3s entre as mulheres. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Aceitai, Senhor, a h\u00f3stia de salva\u00e7\u00e3o, que Vos oferecemos nesta festividade da Imaculada Concei\u00e7\u00e3o da B. V. Maria; e, assim como acreditamos que ela, prevenida com a plenitude da vossa gra\u00e7a, foi isenta de toda a m\u00e1cula, assim tamb\u00e9m por sua intercess\u00e3o sejamos livres de todas nossas culpas.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da B. Virgem Maria*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, e de sempre Vos louvar, bendizer e anunciar da Bem-aventurada Maria, sempre Virgem. Foi ela quem concebeu o vosso Filho Unig\u00e9nito por obra do Esp\u00edrito Santo, e, sem a mais leve perda de gl\u00f3ria da virgindade, deu ao mundo a Luz eterna, Jesus Cristo, nosso Senhor, por quem os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a festejam em transportes de alegria. E, Vos imploramos, permiti que unamos as nossas vozes \u00e0s de todos estes, dizendo em suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 86:3, Lc 1:49*\nGloriosas cousas se t\u00eam narrado de v\u00f3s, \u00f3 Maria; pois o Omnipotente operou grandes maravilhas em vosso favor.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Senhor, nosso Deus, fazei que os sacramentos, que recebemos, curem as feridas que em n\u00f3s abriu aquele pecado de que por um privil\u00e9gio singular preservastes a Imaculada Concei\u00e7\u00e3o da B. V. Maria.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

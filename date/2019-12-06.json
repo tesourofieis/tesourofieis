@@ -83,12 +83,12 @@
       {
         "body": "*Sb 45:30*\nDeus estabeleceu com ele alian\u00e7a de paz e tornou-o pr\u00edncipe, para que possu\u00edsse eternamente a dignidade sacerdotal.\n*Sl 131:1*\nLembrai-vos de David, \u00f3 Senhor, e da sua grande mansid\u00e3o.\nGl\u00f3ria ao Pai.\nDeus estabeleceu com ele alian\u00e7a de paz e tornou-o pr\u00edncipe, para que possu\u00edsse eternamente a dignidade sacerdotal.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que distinguistes o B. Pont\u00edfice Nicolau, concedendo-lhe o dom de praticar inumer\u00e1veis milagres, permiti, Vos suplicamos, que pelos seus m\u00e9ritos e preces sejamos preservados do fogo do inferno.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o 1\u00aa Domingo do Advento *\nSenhor Vos suplicamos, manifestai o vosso poder, e \u00abvinde j\u00e1 ao mundo\u00bb, a fim de que com vossa protec\u00e7\u00e3o mere\u00e7amos ser preservados dos iminentes perigos em que incorremos por causa dos nossos pecados, e sejamos livres e salvos:\n\u00d3 V\u00f3s, que viveis.", 
@@ -98,7 +98,7 @@
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Hebreus.\n*Heb 13:7-17*\nMeus irm\u00e3os: Lembrai-vos dos vossos pastores que vos pregaram a palavra de Deus; e, considerando qual foi o fim da sua vida, imitai a sua f\u00e9. Jesus Cristo \u00e9 o mesmo ontem e hoje, e ser\u00e1 o mesmo em todos os s\u00e9culos! N\u00e3o vos deixeis iludir com doutrinas diversas e estranhas, pois \u00e9 melhor corroborar o cora\u00e7\u00e3o com a gra\u00e7a do que procurar alimentos que em nada aproveitam aos que deles usam. Temos um altar do qual os ministros, que servem o tabern\u00e1culo, n\u00e3o t\u00eam o direito de comer. Os animais, cujo sangue para a expia\u00e7\u00e3o dos pecados o sacerdote levava para o santu\u00e1rio, eram queimados fora do campo. Por isso tamb\u00e9m Jesus, devendo santificar o povo com seu sangue, padeceu fora de portas. Portanto vamos a Ele fora dos arraiais, levando sobre n\u00f3s a ignom\u00ednia da sua cruz; pois n\u00e3o temos aqui cidade permanente, mas buscamos a que h\u00e1-de vir. Ofere\u00e7amos, portanto, por Ele sem cessar um sacrif\u00edcio de louvor a Deus, isto \u00e9, o fruto dos l\u00e1bios que confessam o seu nome. E n\u00e3o vos esque\u00e7ais de praticar a benefic\u00eancia e a liberalidade, que s\u00e3o sacrif\u00edcios muito agrad\u00e1veis a Deus. Obedeci aos vossos pastores e sede-lhe submissos; pois elos vigiam as vossas almas, das quais t\u00eam de dar conta.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 88:21-23*\nEncontrei o meu servo David e ungi-o com meu \u00f3leo sagrado: a minha m\u00e3o o auxiliar\u00e1 e o meu bra\u00e7o o fortalecer\u00e1.\nV. Contra ele n\u00e3o prevalecer\u00e1 o inimigo, e o filho da iniquidade n\u00e3o poder\u00e1 fazer-lhe mal. Aleluia, aleluia.\n*Sl 91:13*\nO justo florescer\u00e1, como a palmeira, e crescer\u00e1, como o cedro do L\u00edbano. Aleluia.", 
@@ -108,17 +108,17 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 25:14-23*\nNaquele tempo, disse Jesus a seus disc\u00edpulos esta par\u00e1bola: Indo um homem viajar para longe, chamou os seus servos e entregou-lhes os bens. A um deu cinco talentos, a outro dois e ao terceiro um. Deu a cada um segundo a sua capacidade; partindo imediatamente. Aquele que havia recebido cinco talentos partiu, e, negociando com este dinheiro, ganhou outros cinco talentos. Semelhantemente, o que recebera dois lucrou outros dois. Mas aquele que havia recebido s\u00f3 um talento foi, cavou a terra e a\u00ed ocultou o dinheiro do senhor. Passado muito tempo, veio o senhor daqueles servos e fez contas com eles. Aproximando-se, ent\u00e3o, o que recebera cinco talentos, apresentou outros cinco, dizendo: \u00abSenhor, entregastes-me cinco talentos, eis outros cinco, que lucrei\u00bb. Disse-lhe o seu senhor: \u00abMuito bem, servo bom e fiel: visto que foste fiel em poucas cousas, estabelecer-te-ei acima de muitas cousas: entra no gozo do teu senhor\u00bb. Aproximando-se tamb\u00e9m o que recebera dois talentos, disse: \u00abSenhor, entregastes-me dois talentos, eis outros dois que lucrei\u00bb. E o senhor lhe disse: \u00abMuito bem, servo bom e fiel: visto que foste fiel em poucas cousas, eu te estabelecerei acima de muitas cousas: entra no gozo do teu senhor\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:25*\nA minha verdade e a minha miseric\u00f3rdia estar\u00e3o com ele: e o seu poder elevar-se-\u00e1 pelo meu nome.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Santificai, \u00f3 Senhor, nosso Deus, estes dons, que Vos apresentamos na solenidade do vosso santo Pont\u00edfice Nicolau, a fim de que por meio deles possamos sempre proceder com rectid\u00e3o, tanto nas adversidades, como nas prosperidades.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o 1\u00aa Domingo do Advento *\nPermiti, Senhor, que estes myst\u00e9rios, depois de nos haverem purificado com vossa poderosa virtude, nos fa\u00e7am chegar mais puros ainda junto daquele que \u00e9 o seu princ\u00edpio.\nPor nosso Senhor", 
@@ -128,17 +128,17 @@
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 88:36-38*\nJurei uma vez por minha santidade: a sua descend\u00eancia durar\u00e1 eternamente e o seu trono brilhar\u00e1 perante mim, como o sol, e, como a lua, permanecer\u00e1 para sempre, e ser\u00e1 testemunho fiel no c\u00e9u.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Que o sacrif\u00edcio de que particip\u00e1mos, celebrando a festa do santo Pont\u00edfice Nicolau, Senhor, nos alcance perpetuamente a vossa protec\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o 1\u00aa Domingo do Advento *\nSenhor, permiti que alcancemos a vossa miseric\u00f3rdia no meio do vosso templo, para que celebremos com a conveniente prepara\u00e7\u00e3o a pr\u00f3xima solenidade da nossa repara\u00e7\u00e3o.\nPor nosso Senhor", 

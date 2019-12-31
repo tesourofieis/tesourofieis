@@ -81,12 +81,12 @@
       {
         "body": "*Sl 129:3-4*\nSe atenderdes \u00e0s nossas iniquidades, Senhor, Senhor, quem poder\u00e1 subsistir diante de V\u00f3s? Sois cheio de miseric\u00f3rdia, \u00f3 Deus de Israel!\n*Sl 129:1-2*\nDas profundezas dos abysmos, Senhor, clamei por V\u00f3s: ouvi, pois, a minha ora\u00e7\u00e3o, Senhor.\nGl\u00f3ria ao Pai.\nSe atenderdes \u00e0s nossas iniquidades, Senhor, Senhor, quem poder\u00e1 subsistir diante de V\u00f3s? Sois cheio de miseric\u00f3rdia, \u00f3 Deus de Israel!", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, nosso ref\u00fagio e fortaleza, que sois a origem de toda a piedade, ouvi benigno as piedosas preces da vossa Igreja e concedei-nos a gra\u00e7a de alcan\u00e7armos com efic\u00e1cia o que com f\u00e9 Vos suplicamos.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\n\u00d3 Deus omnipotente e sempiterno, que com admir\u00e1vel provid\u00eancia escolheis o que h\u00e1 de mais fraco no mundo para confundir os fortes, concedei prop\u00edcio \u00e0 nossa humildade que, pelas piedosas preces do B. Diogo, vosso Confessor, mere\u00e7amos ser elevados \u00e0 gl\u00f3ria eterna nos c\u00e9us.\nPor nosso Senhor", 
@@ -96,7 +96,7 @@
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Filipenses.\n*Fl 1:6-11*\nMeus irm\u00e3os: Tenho firme confian\u00e7a de que aquele que come\u00e7ou em v\u00f3s o bom trabalho h\u00e1-de continu\u00e1-lo at\u00e9 ao dia de Jesus Cristo. Justo \u00e9 que assim pense de v\u00f3s, porque sinto no cora\u00e7\u00e3o que comparticipais da minha alegria, quer seja nas minhas pris\u00f5es, quer na defesa e confirma\u00e7\u00e3o do Evangelho. Deus \u00e9 testemunha do modo como vos amo a todos, no afecto \u00edntimo de Jesus Cristo. Rogo-lhe que a vossa caridade cres\u00e7a cada vez mais em luz e intelig\u00eancia, a fim de que possais distinguir aquilo que \u00e9 melhor, para serdes puros e sem mancha at\u00e9 ao dia de Cristo e cheios dos frutos da justi\u00e7a por Jesus Cristo, em louvor e gl\u00f3ria de Deus.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 132:1-2*\nOh! Como \u00e9 bom e suave aos irm\u00e3os habitarem juntos!\nV. \u00c9 como o perfume espalhado pela cabe\u00e7a que desce por toda a barba, por toda a barba de Aar\u00e3o!", 
@@ -106,17 +106,17 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 22:15-21*\nNaquele tempo, retirando-se os fariseus, combinaram em conselho surpreender Jesus nas suas palavras, para O acusarem. Mandaram-Lhe, pois, os seus disc\u00edpulos com os herodianos, que Lhe disseram: \u00abMestre, sabemos que sois verdadeiro e que ensinais o caminho de Deus com verdade, sem vos preocupardes com quem quer que seja, pois n\u00e3o olhais \u00e0 situa\u00e7\u00e3o das pessoas. Dizei-nos, portanto, o que Vos parece a este respeito: \u00c9 l\u00edcito pagar ou n\u00e3o o tributo a C\u00e9sar?\u00bb. Jesus, conhecendo a sua mal\u00edcia, respondeu-lhes: \u00abHip\u00f3critas, porque me tentais? Mostrai-me a moeda do tributo\u00bb. Apresentaram-Lhe um dinheiro. Ent\u00e3o Jesus continuou: \u00abDe quem \u00e9 esta imagem e esta inscri\u00e7\u00e3o?\u00bb. Responderam eles: \u00abDe C\u00e9sar\u00bb. E Jesus continuou: \u00abDai, portanto, a C\u00e9sar o que pertence a C\u00e9sar, e dai a Deus o que a Deus pertence\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Esther 14:12-13*\nSenhor, que estais acima de todo o poder, lembrai-Vos de mim: inspirai aos meus l\u00e1bios palavras justas, para que sejam agrad\u00e1veis ao pr\u00edncipe.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Permiti, \u00f3 Deus de miseric\u00f3rdia, que esta salutar obla\u00e7\u00e3o nos livre inteiramente dos la\u00e7os das nossas pr\u00f3prias faltas e nos defenda de todas as adversidades.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\nDignai-Vos conceder-nos, Deus omnipotente, que esta oferta da nossa humildade, em honra dos vossos Santos, Vos seja agrad\u00e1vel; e permiti que nos purifique ao mesmo tempo o corpo e a alma.\nPor nosso Senhor", 
@@ -126,17 +126,17 @@
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 16:6*\n\u00d3 Deus, clamei por V\u00f3s, porque me ouvistes: inclinai os vossos ouvidos para mim e ouvi as minhas s\u00faplicas.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Havendo recebido os sacrossantos dons deste myst\u00e9rio, Senhor, humildemente Vos imploramos que este sacrif\u00edcio, que nos mandastes celebrar em vossa mem\u00f3ria, sirva de aux\u00edlio \u00e0 nossa fraqueza.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\n\u00d3 Deus omnipotente, Vos imploramos, havendo n\u00f3s recebido o alimento celestial, fazei que, por intercess\u00e3o do B. Confessor N. sejamos fortificados contra todas as adversidades.\nPor nosso Senhor", 

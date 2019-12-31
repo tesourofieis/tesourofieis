@@ -68,17 +68,17 @@
       {
         "body": "*Sl 138:17*\nEu vejo, \u00f3 Deus, que honrais largamente os vossos amigos: e que seu poder se tem fortalecido extraordinariamente.\n*Sl 138:1-2*\nSenhor, perscrutastes o meu \u00edntimo e ficastes conhecendo-me: ficastes conhecendo quando me deito e me levanto.\nGl\u00f3ria ao Pai.\nEu vejo, \u00f3 Deus, que honrais largamente os vossos amigos: e que seu poder se tem fortalecido extraordinariamente.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que pelos vossos B. B. Ap\u00f3stolos Sim\u00e3o e Judas nos proporcionastes o conhecimento do vosso Nome, concedei-nos a gra\u00e7a de celebrar a sua eterna gl\u00f3ria, progredindo na virtude, e celebrando esta mesma gl\u00f3ria, alcancemos novos progressos.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Ef\u00e9sios.\n*Ef 4:7-13*\nMeus irm\u00e3os: A gra\u00e7a \u00e9 dada a cada um de n\u00f3s, segundo a medida do dom de Cristo. Por isso se diz na Escritura: \u00abSubindo ao alto, levou consigo os cativos e repartiu os seus dons pelos homens\u00bb. Que quer dizer \u00absubiu\u00bb sen\u00e3o que, antes, tinha descido \u00e0s regi\u00f5es inferiores da terra? Aquele que desceu \u00e9 o mesmo que subiu acima de todos os c\u00e9us, a fim de completar todas as cousas. Foi Ele, tamb\u00e9m, quem deu \u00e0 sua Igreja uns como Ap\u00f3stolos, outros como Profetas, outros como Evangelistas, outros como Pastores e Doutores, para que uns e outros trabalhem para a perfei\u00e7\u00e3o dos santos, nas fun\u00e7\u00f5es do minist\u00e9rio e na edifica\u00e7\u00e3o do corpo de Cristo, at\u00e9 que todos cheguemos \u00e0 unidade de uma s\u00f3 f\u00e9 e do mesmo conhecimento do Filho de Deus, ao estado de um homem perfeito a um desenvolvimento org\u00e2nico proporcionado \u00e0 plenitude de Cristo.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 44:17-18*\nV\u00f3s os institu\u00edstes pr\u00edncipes em todo o universo: e eles, Senhor, perpetuar\u00e3o a gl\u00f3ria do vosso nome em toda a terra.\nV. Para substituir os vossos pais, nascer-vos-\u00e3o filhos: pelo que os povos vos louvar\u00e3o. Aleluia, aleluia.\n*Sl 138:17*\nHonrais largamente os vossos filhos, \u00f3 Deus; o seu poder tem-se fortalecido extraordinariamente. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 15:17-25*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos: \u00abRecomendo-vos que vos ameis uns aos outros. Se o mundo vos odeia, lembrai-vos de que me odiou a mim antes. Se f\u00f4sseis do mundo, o mundo amaria o que lhe pertenceria; mas, como n\u00e3o sois do mundo e Eu vos escolhi do mundo, por isso ele vos odiar\u00e1. Lembrai-vos de que vos disse: \u00abO servo mais n\u00e3o \u00e9 do que o senhor\u00bb. Se, pois, me perseguiram, perseguir-vos-\u00e3o, tamb\u00e9m; se guardaram as minhas palavras, guardar\u00e3o tamb\u00e9m as vossas. Far\u00e3o todas estas cousas por causa do meu nome, porque n\u00e3o conhecem Aquele que me mandou. Se n\u00e3o tivesse vindo e lhes n\u00e3o houvesse falado, n\u00e3o seriam culpados; mas agora n\u00e3o t\u00eam desculpa do seu pecado. Quem me odeia, odeia tamb\u00e9m meu Pai. Se Eu no meio de v\u00f3s n\u00e3o houvesse praticado obras, que ningu\u00e9m pratica, n\u00e3o teriam pecado; por\u00e9m, as viram e me odeiam, bem como a meu Pai. Assim se cumpre neles aquela senten\u00e7a que est\u00e1 escrita na sua lei: \u00abOdiaram-me sem motivo algum\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 18:5*\nO som da sua voz ecoou por toda a parte, e as suas palavras estenderam-se at\u00e9 \u00e0s extremidades da terra.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Venerando n\u00f3s, Senhor, a perp\u00e9tua gl\u00f3ria dos vossos Santos Ap\u00f3stolos Sim\u00e3o e Judas, purificai-nos, Vos imploramos, por estes sacrossantos myst\u00e9rios, a fim de que os celebremos mais dignamente.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*dos Ap\u00f3stolos*\n\u00c9 verdadeiramente digno e justo, racional e salutar suplicar-Vos humildemente, Senhor, que, como Pastor eterno, que sois, n\u00e3o abandoneis o vosso rebanho, mas antes, por intercess\u00e3o dos vossos bem-aventurados Ap\u00f3stolos, o guardeis sob a vossa perp\u00e9tua protec\u00e7\u00e3o, a fim de que seja sempre governado pelos mesmos Directores, que, encarregados como Vig\u00e1rios de perpetuar a vossa obra, designastes seus Pastores. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos um hino \u00e0 vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 19:28*\nV\u00f3s, que me seguistes, assentar-vos-eis sobre tronos e julgareis as doze tribos de Israel.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Havendo participado destes sacramentos, Vos pedimos humildemente, Senhor, que pela intercess\u00e3o dos vossos B. B. Ap\u00f3stolos Sim\u00e3o e Judas, o myst\u00e9rio que celebramos em honra do seu mart\u00edrio, nos sirva de rem\u00e9dio para os nossos males.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

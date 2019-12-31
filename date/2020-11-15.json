@@ -66,17 +66,17 @@
       {
         "body": "*Jr 29:11-12; 29:14*\nDisse o Senhor: tenho pensamentos de paz e n\u00e3o de ira: invocar-me-eis e ouvir-vos-ei; e farei regressar de todos os pa\u00edses os vossos cativos.\n*Sl 84:2*\nAben\u00e7oastes, Senhor, a vossa terra e livrastes Jacob do cativeiro.\nGl\u00f3ria ao Pai.\nDisse o Senhor: tenho pensamentos de paz e n\u00e3o de ira: invocar-me-eis e ouvir-vos-ei; e farei regressar de todos os pa\u00edses os vossos cativos.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Permiti, Vos imploramos, \u00f3 Deus omnipotente, que, meditando n\u00f3s incessantemente nas coisas santas, pratiquemos sempre, tanto em palavras como em ac\u00e7\u00f5es, o que seja do vosso agrado.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Tessalonicenses\n*1 Ts 1:2-10*\nMeus irm\u00e3os: Continuamente damos gra\u00e7as a Deus por v\u00f3s todos, lembrando-nos de v\u00f3s sem cessar nas nossas ora\u00e7\u00f5es, e recordando diante de Deus, nosso Pai, as obras da vossa f\u00e9, os trabalhos da vossa caridade e a const\u00e2ncia da vossa esperan\u00e7a em Cristo. Sabemos, irm\u00e3os amados de Deus, que fostes escolhidos; pois o nosso Evangelho vos n\u00e3o foi pregado somente com palavras, mas tamb\u00e9m com milagres, pelo poder do Esp\u00edrito Santo e com a plenitude de muitos dons. N\u00e3o ignorais, tamb\u00e9m, como temos procedido no meio de v\u00f3s, por causa da vossa salva\u00e7\u00e3o. E assim vos fizestes nossos imitadores, e do Senhor, recebendo a sua palavra no meio de muitas tribula\u00e7\u00f5es com a alegria do Esp\u00edrito Santo, de sorte que vos tornastes modelo para todos os fi\u00e9is da Maced\u00f3nia e da Acaia. Pois n\u00e3o s\u00f3 fostes a causa de que a palavra do Senhor se transmitisse na Maced\u00f3nia e na Acaia, mas tamb\u00e9m a vossa f\u00e9 em Deus fez-se conhecer em todo o lugar; e tanto que nem \u00e9 necess\u00e1rio que falemos em tal. Todos esses povos apregoam o \u00eaxito que alcan\u00e7\u00e1mos junto de v\u00f3s, e como vos convertestes, abandonando os \u00eddolos para servir a Deus vivo e verdadeiro, e para esperar do c\u00e9u o seu Filho Jesus, que ressuscitou dos mortos e nos livrou da ira futura.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 43:8-9*\nLivrastes-nos, Senhor, daqueles que nos afligiam: e confundistes os que nos odiavam.\nV. Glorificar-nos-emos constantemente em Deus e louvaremos eternamente o vosso nome. Aleluia, aleluia.\n*Sl 129:1-2*\nDo fundo do abysmo Vos invoquei, Senhor: escutai a minha ora\u00e7\u00e3o. Aleluia.\nAlleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus\n*Mt 13:31-35*\nNaquele tempo Jesus disse \u00e0s turbas: \u00abO reino dos c\u00e9us \u00e9 semelhante a um gr\u00e3o de mostarda que um homem tomou e semeou no seu campo, a qual \u00e9 a mais pequena de todas as sementes, mas, quando cresce, torna-se na maior de todas as plantas, e forma-se uma \u00e1rvore de tal modo grande que as aves do c\u00e9u v\u00eam pousar nos seus ramos\u00bb, Depois, ainda Jesus lhes disse: \u00abO reino dos c\u00e9us \u00e9 semelhante ao fermento que uma mulher toma e mistura em tr\u00eas medidas de farinha, at\u00e9 que todas estejam l\u00eavedas\u00bb. Tudo isto disse Jesus em par\u00e1bolas; e sem par\u00e1bolas n\u00e3o falava, para que se cumprisse o que fora dito pelo Profeta: \u00abAbrirei a minha boca em par\u00e1bolas e revelarei muitas coisas que est\u00e3o ocultas desde a cria\u00e7\u00e3o do mundo\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 129:1-2*\nDas profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor, a minha voz: das profundezas dos abysmos Vos invoquei.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "\u00d3 Deus, Vos imploramos, que esta obla\u00e7\u00e3o nos purifique, restaure, governe e guarde.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mc 11:24*\nNa verdade vos digo: \u00abTudo o que pedirdes nas vossas ora\u00e7\u00f5es, acreditai que o recebereis; e far-se-\u00e1 como pedirdes\u00bb.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Alimentados com as celestiais del\u00edcias, Senhor, Vos pedimos humildemente, concedei-nos que aspiremos continuamente a este mesmo alimento, pelo qual alcan\u00e7aremos a verdadeira vida.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

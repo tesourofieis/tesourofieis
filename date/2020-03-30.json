@@ -71,17 +71,17 @@
       {
         "body": "*Sl 55:2*\nHave pity on me, O Lord, for men trample upon me; all the day they press their attack against me.\n*Sl 55:3*\nMy adversaries trample upon me all the day; yes, many fight against me. -- Have pity on me.\nHave pity on me, O Lord, for men trample upon me; all the day they press their attack against me.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O Lord, we beseech You, make holy our fasting, and graciously lavish upon us forgiveness for all our sins.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the Prophecy of Jonas\n*Jonas 3:1-10*\nIn those days, the word of the Lord came to Jona a second time: Set out for the great city of Ninive, and announce to it the message that I will tell you. So Jona made ready and went to Ninive, according to the Lord\u2019s bidding. Now Ninive was an enormously large city; it took three days to go through it. Jona began his journey through the city, and had gone but a single day\u2019s walk announcing, Forty days more and Ninive shall be destroyed, when the people of Ninive believed God; they proclaimed a fast and all of them, great and small, put on sackcloth. When the news reached the King of Ninive, he rose from his throne, laid aside his robe, covered himself with sackcloth, and sat in the ashes. Then he had this proclaimed throughout Ninive, by decree of the king and his nobles: Neither man nor beast, neither cattle nor sheep, shall taste anything; they shall not eat, nor shall they drink water. Man and beast shall be covered with sackcloth and call loudly to God; every man shall turn from his evil way and from violence he has in hand. Who knows, God may relent and forgive, and withhold His blazing wrath, so that we shall not perish. And God saw by their actions how they turned from their evil way; and the Lord, our God, had mercy upon His people.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 53:4, 3.*\nO God, hear my prayer; hearken to the words of my mouth.\nV. O God, by Your Name save me, and by your might deliver me.\n\n*Tractus*\n*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\nV. Ps 78:8-9 O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
@@ -91,37 +91,37 @@
       {
         "body": "Continuation of the Holy Gospel according to John\n*Jo 7:32-39*\nAt that time, the rulers and Pharisees sent attendants to seize Jesus. Jesus then said, Yet a little while I am with you, and then I go to Him Who sent Me. You will seek Me and will not find Me; and where I am you cannot come. The Jews therefore said among themselves, Where is He going that we shall not find Him? Will He go to those dispersed among the Gentiles , and teach the Gentiles? What is this statement that He has made, \u2018You will seek Me and will not find Me, and where I am you cannot come\u2019? Now on the last, the great day of the feast, Jesus stood and cried out, saying, If anyone thirst, let him come to Me and drink. He who believes in Me, as the Scripture says, \u2018From within him there shall flow rivers of living waters.\u2019 He said this, however, of the Spirit Whom they who believed in Him were to receive.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 6:5*\nReturn, O Lord, save my life; rescue me because of Your kindness.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Grant us, O Lord our God, that this saving sacrifice may cleanse us of our sins and gain us the favor of Your majesty.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da Santa Cruz*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que estabelecestes na \u00e1rvore da Cruz a salva\u00e7\u00e3o do g\u00e9nero humano, para que renascesse a vida, onde a morte houvera princ\u00edpio, e que aquilo que outrora vencera na \u00e1rvore, fosse vencido na \u00e1rvore tamb\u00e9m, por Jesus Cristo, nosso Senhor: pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos C\u00e9us e os bem-aventurados Serafins a celebram em comuns transportes de alegria: aos quais, Vos suplicamos, permiti que se unam as nossas vozes, dizendo em humilde e suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 23:10*\nThe Lord of Hosts, He is the King of Glory.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May the sacrament of salvation which we have received, we beseech You, O Lord, cleanse and restore us.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nO Lord, we beseech You, grant unto Your people health of soul and body, that, by persevering in good works, we may be always worthy of Your powerful protection.\nPor nosso Senhor", 
         "id": "Super populum", 
-        "label": "Prayer over the people"
+        "label": "Sobre o povo"
       }
     ]
   }

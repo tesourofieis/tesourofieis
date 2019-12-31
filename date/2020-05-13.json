@@ -68,17 +68,17 @@
       {
         "body": "*Sb 15:5*\nAbriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o esp\u00edrito da sabedoria e da intelig\u00eancia e revestiu-o com a t\u00fanica da gl\u00f3ria.\n*Sl 91:2*\n\u00c9 bom louvar o Senhor: e cantar hinos em honra do vosso nome, \u00f3 Alt\u00edssimo!\nGl\u00f3ria ao Pai.\nAbriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o esp\u00edrito da sabedoria e da intelig\u00eancia e revestiu-o com a t\u00fanica da gl\u00f3ria.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Bo\u017ce, Ty\u015b dla usuni\u0119cia podst\u0119pnych b\u0142\u0119d\u00f3w i dla obrony praw Stolicy Apostolskiej ozdobi\u0142 \u015bw. Roberta, Twego Biskupa i Doktora, przedziwn\u0105 uczono\u015bci\u0105 i cnot\u0105; spraw, niechaj dzi\u0119ki jego zas\u0142ugom i wstawiennictwu wzrastamy w umi\u0142owaniu prawdy, a serca b\u0142\u0105dz\u0105cych niech wr\u00f3c\u0105 do jedno\u015bci z Twoim Ko\u015bcio\u0142em.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Sb 7:7-14*\nPragn\u0105\u0142em, a dano mi zrozumienie; i b\u0142aga\u0142em, a sp\u0142yn\u0105\u0142 na mnie duch m\u0105dro\u015bci. I wy\u017cej j\u0105 stawi\u0142em nad kr\u00f3lestwa i stolic\u0119, i bogactwo sobie za nic poczyta\u0142em w por\u00f3wnaniu z ni\u0105. Ani nie przyr\u00f3wna\u0142em jej do drogocennego kamienia: bo wszelkie z\u0142oto w por\u00f3wnaniu z ni\u0105 jest lichym piaskiem, a srebro wobec niej poczytane b\u0119dzie za b\u0142oto.\nPonad zdrowie i pi\u0119kno umi\u0142owa\u0142em j\u0105 i postanowi\u0142em mie\u0107 j\u0105 za \u015bwiat\u0142o: bo blask jej jest nie do ugaszenia. A wraz z ni\u0105 wszelkie dobra na mnie sp\u0142yn\u0119\u0142y, i nieoceniona cze\u015b\u0107 przez jej r\u0119ce, i uradowa\u0142em si\u0119 tym wszystkim: bo sz\u0142a przede mn\u0105 owa m\u0105dro\u015b\u0107, a nie wiedzia\u0142em, \u017ce to ona jest matk\u0105 tych wszystkich rzeczy. Nauczy\u0142em si\u0119 jej bez ob\u0142udy i bez zazdro\u015bci jej udzielam, a pi\u0119kna jej nie ukrywam. Bo niesko\u0144czonym jest skarbem dla ludzi; a kt\u00f3rzy nim si\u0119 pos\u0142u\u017cyli, stali si\u0119 uczestnikami Bo\u017cej przyja\u017ani, zaleceni darami nauki.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Aleluia, aleluia.\nV. Uczeni b\u0119d\u0105 \u015bwieci\u0107 jak \u015bwiat\u0142o\u015b\u0107 sklepienia. Aleluia.\nV. Kt\u00f3rzy ku sprawiedliwo\u015bci wprawiaj\u0105 wielu, jak gwiazdy na wieki wieczne. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 5:13-19*\nNaquele tempo, disse Jesus a seus disc\u00edpulos: \u00abSois o sal da terra. Se o sal perde a for\u00e7a, com que salgar\u00e1? Para nada mais presta, sen\u00e3o para se lan\u00e7ar fora e ser pisado pelos homens. Sois a luz do mundo. Uma cidade situada no cimo de um monte n\u00e3o pode ficar escondida. Nem se acende uma luz para a meter debaixo do alqueire, mas para a colocar no candeeiro, a fim de alumiar todos os que est\u00e3o em casa. Assim resplande\u00e7a a vossa luz diante dos homens, para que vejam as vossas boas obras e glorifiquem vosso Pai, que est\u00e1 nos c\u00e9us. N\u00e3o penseis que vim abrogar a Lei ou os Profetas: n\u00e3o vim abrogar, mas aperfei\u00e7oar; porque em verdade vos digo: at\u00e9 que passe o c\u00e9u e a terra, nem um iota, nem um til se omitir\u00e1 na Lei. Quem quer, pois, que transgrida, ainda um dos mais pequenos mandamentos, ou ensine os homens a viol\u00e1-los, ser\u00e1 chamado o menor no reino dos c\u00e9us. Por\u00e9m, quem os cumprir e ensinar ser\u00e1 chamado grande no reino dos c\u00e9us.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 72:28*\nMnie za\u015b dobrze jest by\u0107 blisko Boga, w Panu Bogu pok\u0142ada\u0107 nadziej\u0119 i g\u0142osi\u0107 wszystkie dzie\u0142a Twoje w bramach c\u00f3ry Syjo\u0144skiej, aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Sk\u0142adamy Ci, Panie, dary ofiarne jako mi\u0142\u0105 wonno\u015b\u0107; spraw, aby\u015bmy pouczeni nauk\u0105 i przyk\u0142adem \u015bw. Roberta z radosnym sercem biegli drog\u0105 Twoich przykaza\u0144.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 5:14; 5:16*\nWy jeste\u015bcie \u015bwiat\u0142o\u015bci\u0105 \u015bwiata. Tak niechaj \u015bwieci \u015bwiat\u0142o\u015b\u0107 wasza przed lud\u017ami, aby widzieli dobre czyny wasze i chwalili Ojca waszego, kt\u00f3ry jest w niebiesiech, aleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Panie Bo\u017ce nasz, niech przyj\u0119ty przez nas Sakrament podtrzymuje w na\u015b\u00a0\u017car mi\u0142o\u015bci, kt\u00f3rym rozpalony \u015bw. Robert po\u015bwi\u0119ca\u0142 si\u0119\u00a0nieustannie dla Twojego Ko\u015bcio\u0142a.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

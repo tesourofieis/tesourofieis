@@ -83,22 +83,22 @@
       {
         "body": "*Sb 45:30*\nDeus estabeleceu com ele alian\u00e7a de paz e tornou-o pr\u00edncipe, para que possu\u00edsse eternamente a dignidade sacerdotal.\n*Sl 131:1*\nLembrai-vos de David, \u00f3 Senhor, e da sua grande mansid\u00e3o.\nGl\u00f3ria ao Pai.\nDeus estabeleceu com ele alian\u00e7a de paz e tornou-o pr\u00edncipe, para que possu\u00edsse eternamente a dignidade sacerdotal.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que bem conheceis que n\u00e3o \u00e9 pelo nosso poder que subsistimos, concedei-nos prop\u00edcio que, pela intercess\u00e3o do B. Martinho, vosso Confessor e Pont\u00edfice, sejamos protegidos contra todas as adversidades.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*de S. Menas de Niceu*\nGrant, we beseech You, almighty God, that we, who honor the anniversary of the death of blessed Mennas, Your Martyr, may by his intercession be strengthened in love of Your name.\nPor nosso Senhor", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 44:16-27; 45:3-20*\nEis o grande sacerdote, que nos dias da sua vida agradou a Deus e foi julgado justo; e no tempo da ira se tornou a reconcilia\u00e7\u00e3o dos homens. Ningu\u00e9m o igualou na observ\u00e2ncia das leis do Alt\u00edssimo. Eis porque o Senhor jurou que o tornaria grande no meio do seu povo. O Senhor aben\u00e7oou nele todos os povos; e com ele ratificou a sua alian\u00e7a. O Senhor deu-lhe as suas b\u00ean\u00e7\u00e3os e continuou a dispensar-lhe a sua miseric\u00f3rdia, vendo-se bem que este homem achou gra\u00e7a aos olhos do Senhor, que, por isso mesmo, o engrandeceu diante dos reis e lhe deu uma coroa de gl\u00f3ria. Estabeleceu com ele uma alian\u00e7a eterna, elevou-o ao sumo sacerd\u00f3cio, e tornou-o feliz na gl\u00f3ria para exercer o sacerd\u00f3cio, louvar o seu nome e oferecer-lhe dignamente incenso de odor agrad\u00e1vel.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sb 44:16*\nEis o grande sacerdote que nos dias da sua vida agradou a Deus.\n*Sb 44:20*\nNingu\u00e9m o igualou na observ\u00e2ncia das leis do Alt\u00edssimo. Aleluia, aleluia.\nV. O bem-aventurado var\u00e3o Martinho, Bispo de Tours, dormiu no Senhor: e os Anjos, os Arcanjos, os Tronos, as Domina\u00e7\u00f5es e as Virtudes o acolheram. Aleluia.", 
@@ -108,42 +108,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 11:33-36*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos: \u00abNingu\u00e9m acende uma l\u00e2mpada para a colocar num lugar oculto ou sob um alqueire; mas coloca-a sobre o candelabro, para que aqueles que entrarem vejam a luz. A l\u00e2mpada do teu corpo \u00e9 o teu olho. Se o teu olho for simples, todo teu corpo ser\u00e1 luminoso; mas se ele for mau, tamb\u00e9m o teu corpo ser\u00e1 tenebroso. Tem, pois, cuidado de que a luz, que est\u00e1 em ti, n\u00e3o se torne em trevas. Se, portanto, todo teu corpo for luminoso sem parte alguma nas trevas, ser\u00e1 ele brilhante, como quando uma l\u00e2mpada te ilumina com seu brilho\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 88:25*\nA minha fidelidade e a minha miseric\u00f3rdia estar\u00e3o com ele; e o seu poder elevar-se-\u00e1 pelo meu nome.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "\u00d3 Senhor e Deus, santificai, Vos rogamos, estes dons que Vos oferecemos na solenidade do Santo Bispo Martinho, vosso M\u00e1rtir, a fim de que, gra\u00e7as a eles, a nossa vida se regule segundo a vossa vontade, tanto nas adversidades, como nas prosperidades.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*de S. Menas de Niceu*\nNow that You have received our gifts and prayers, we beseech You, O Lord, cleanse us by Your heavenly mysteries and in Your mercy, hear us.\nPor nosso Senhor", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 24:46-47*\nBem-aventurado o servo que, quando o Senhor vier, encontrar vigilante. Em verdade vos digo que o encarregar\u00e1 de administrar todos seus bens.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Fazei, Senhor, nosso Deus, que nos sejam salutares estes sacrossantos sacramentos, pela intercess\u00e3o daqueles em cuja festa Vo-los apresentamos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*de S. Menas de Niceu*\nGrant, we beseech You, O Lord our God, that we who in this life joyously assist in the veneration of Your Saints, may rejoice in beholding them forever in heaven.\nPor nosso Senhor", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

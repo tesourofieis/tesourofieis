@@ -68,52 +68,52 @@
       {
         "body": "*Sl 138:17*\nHonrais largamente os vossos amigos, \u00f3 Deus: e o seu poder tem-se fortalecido extraordinariamente.\n*Sl 138:1-2*\nSenhor, perscrutastes o meu \u00edntimo e ficastes conhecendo-me: ficastes conhecendo quando me deito e quando me levanto.\nGl\u00f3ria ao Pai.\nHonrais largamente os vossos amigos, \u00f3 Deus: e o seu poder tem-se fortalecido extraordinariamente.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, que agregastes o B. Matias ao col\u00e9gio apost\u00f3lico, concedei-nos, Vos imploramos, que por sua intercess\u00e3o sintamos sempre os efeitos dos abysmos da vossa miseric\u00f3rdia para connosco.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o dos Actos dos Ap\u00f3stolos.\n*Act 1, 15-26*\nNaqueles dias, levantando-se Pedro no meio dos disc\u00edpulos (era a turba quase cento e vinte pessoas) disse: \u00abVar\u00f5es e irm\u00e3os, \u00e9 preciso que se cumpra a Escritura, segundo o que o Esp\u00edrito Santo predisse pela boca de David a respeito de Judas, que foi o guia daqueles que prenderam Jesus, o qual era um dos nossos e havia recebido participa\u00e7\u00e3o no nosso myst\u00e9rio. Este homem, depois de haver comprado um campo com o pre\u00e7o do seu crime, suspendeu-se pelo pesco\u00e7o e rebentou no meio do corpo, espalhando-se pelo ch\u00e3o. Este acontecimento foi conhecido de todos os habitantes de Jerusal\u00e9m, de modo que aquele campo ficou sendo chamado em sua pr\u00f3pria l\u00edngua \u00abHac\u00e9ldama\u00bb, isto \u00e9, \u00abcampo de sangue\u00bb. Ora est\u00e1 escrito no livro dos Salmos: \u00abQue sua morada fique deserta e n\u00e3o haja quem resida nela, e que outro receba o seu episcopado\u00bb. \u00c9, pois, necess\u00e1rio que entre os homens, que estiveram reunidos connosco durante o tempo em que o Senhor Jesus viveu entre n\u00f3s desde o baptismo de Jo\u00e3o at\u00e9 ao dia em que subiu aos c\u00e9us, um deles seja escolhido como testemunho da sua Ressurrei\u00e7\u00e3o\u00bb. E apresentaram-se dois: Jos\u00e9, chamado Barsab\u00e1s, cognominado o justo, e Matias. Ent\u00e3o, orando, disseram: \u00abV\u00f3s, Senhor, que conheceis o cora\u00e7\u00e3o de todos, mostrai-nos qual destes dois escolhestes para ocupar o lugar neste minist\u00e9rio e apostolado, de que Judas se afastou\u00bb. E lan\u00e7aram-lhes sortes, caindo a sorte em Matias, que foi associado aos Onze Ap\u00f3stolos.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 138:17-18*\nHonrais largamente os vossos amigos, \u00f3 Deus: e o seu poder tem-se fortalecido extraordinariamente.\nV. Hei-de cont\u00e1-los, e ultrapassar\u00e3o os gr\u00e3os de areia.\n*Sl 20:3-4*\nConcedestes-lhe o desejo da sua alma: lhe n\u00e3o negastes o que seus l\u00e1bios Vos pediram.\nV. Premunistes-lo com b\u00ean\u00e7\u00e3o de do\u00e7ura.\nV. Impusestes na sua cabe\u00e7a uma coroa de pedras preciosas.", 
         "id": "Tractus", 
-        "label": "Gradual"
+        "label": "Tracto"
       }, 
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 11:25-30*\nNaquele tempo, respondendo Jesus, disse: \u00abDou-Vos gra\u00e7as, \u00f3 Pai, Senhor do c\u00e9u e da terra, pois que ocultastes estas coisas aos s\u00e1bios e aos prudentes e as revelastes aos pequenos. Sim, \u00f3 Pai, dou-Vos gra\u00e7as, porque assim o quisestes. Todas as cousas me foram dadas pelo meu Pai; e ningu\u00e9m conhece o Filho sen\u00e3o o Pai, assim como ningu\u00e9m conhece o Pai sen\u00e3o o Filho, e aquele a quem o Filho o quer revelar. Vinde a mim, v\u00f3s todos, que trabalhais e estais sobrecarregados, e vos confortarei. Tomai sobre v\u00f3s o meu jugo e aprendei de mim; pois sou manso e humilde de cora\u00e7\u00e3o; e achareis o repouso para as vossas almas. Meu jugo \u00e9 suave e o meu \u00f3nus \u00e9 leve\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 44:17-18*\nV\u00f3s os institu\u00edstes pr\u00edncipes em toda a terra. \u00d3 Senhor, eles perpetuar\u00e3o de gera\u00e7\u00e3o em gera\u00e7\u00e3o a gl\u00f3ria do vosso nome.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Senhor, que as h\u00f3stias, que Vos oferecemos para serem consagradas em honra do vosso Santo Nome, sejam acompanhadas pela ora\u00e7\u00e3o do vosso santo Ap\u00f3stolo Matias, em virtude da qual sejamos purificados e livres do mal.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*dos Ap\u00f3stolos*\n\u00c9 verdadeiramente digno e justo, racional e salutar suplicar-Vos humildemente, Senhor, que, como Pastor eterno, que sois, n\u00e3o abandoneis o vosso rebanho, mas antes, por intercess\u00e3o dos vossos bem-aventurados Ap\u00f3stolos, o guardeis sob a vossa perp\u00e9tua protec\u00e7\u00e3o, a fim de que seja sempre governado pelos mesmos Directores, que, encarregados como Vig\u00e1rios de perpetuar a vossa obra, designastes seus Pastores. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos um hino \u00e0 vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 19:28*\nV\u00f3s, que me seguistes, assentar-vos-eis em tronos e julgareis as doze tribos de Israel.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Concedei-nos, Vos imploramos, \u00f3 Deus omnipotente, que os sacrossantos myst\u00e9rios, de que particip\u00e1mos, nos alcancem por intercess\u00e3o do B. Matias, vosso Ap\u00f3stolo, o perd\u00e3o e a paz.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

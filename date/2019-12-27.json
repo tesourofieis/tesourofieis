@@ -84,22 +84,22 @@
       {
         "body": "*Sb 15:5*\nAbriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o esp\u00edrito da sabedoria e da intelig\u00eancia e revestiu-o com a t\u00fanica da gl\u00f3ria.\n*Sl 91:2*\n\u00c9 bom louvar o Senhor: e cantar hinos em honra do vosso nome, \u00f3 Alt\u00edssimo!\nGl\u00f3ria ao Pai.\nAbriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o esp\u00edrito da sabedoria e da intelig\u00eancia e revestiu-o com a t\u00fanica da gl\u00f3ria.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Senhor, ilustrai benigno a vossa Igreja, para que, instru\u00edda com os ensinos do B. Jo\u00e3o, vosso Ap\u00f3stolo e Evangelista, alcance os bens eternos.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*Para a Oitava do Natal*\n\u00d3 Deus omnipotente, Vos imploramos, dignai-Vos permitir que o novo Nascimento do vosso Filho Unig\u00e9nito Incarnado nos livre do antigo cativeiro em que nos conserva o jugo do pecado.\nPelo mesmo nosso Senhor.", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Ecl 15:1-6*\nAquele que teme Deus praticar\u00e1 o bem; e aquele que cultivar a justi\u00e7a alcan\u00e7ar\u00e1 a sabedoria, que vir\u00e1 ao seu encontro, como uma m\u00e3e cheia de dignidade. Ela o sustentar\u00e1 com o p\u00e3o da vida e da intelig\u00eancia e lhe dar\u00e1 a beber a \u00e1gua da sabedoria, que produz a salva\u00e7\u00e3o. Ela lhe dar\u00e1 uma opini\u00e3o firme, e o n\u00e3o deixar\u00e1 se curvar. Ela o sustentar\u00e1, e o n\u00e3o deixar\u00e1 cair em confus\u00e3o. Ela o elevar\u00e1 no meio dos semelhantes; lhe abrir\u00e1 a boca no meio da Igreja; o encher\u00e1 de sabedoria e intelig\u00eancia; e o revestir\u00e1 com a t\u00fanica da gl\u00f3ria. Guardar\u00e1 para ele um tesouro de alegria e de gl\u00f3ria, e o Senhor, nosso Deus, o tornar\u00e1 herdeiro dum nome eterno.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Jo 21:23; 21:19*\nEspalhou-se entre os irm\u00e3os a not\u00edcia de que aquele disc\u00edpulo n\u00e3o morreria. Ora Jesus n\u00e3o disse: \u00abN\u00e3o morrer\u00e1\u00bb.\nV. Mas disse: \u00abQuero que permane\u00e7a assim, at\u00e9 que eu venha: E tu, segue-me\u00bb. Aleluia, aleluia.\n*Jo 21:24*\nV. Este \u00e9 o pr\u00f3prio disc\u00edpulo que d\u00e1 testemunho destas cousas; e sabemos que seu testemunho \u00e9 verdadeiro. Aleluia.", 
@@ -109,42 +109,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 21:19-24*\nNaquele tempo, disse Jesus a Pedro: \u00abSegue-me\u00bb. Ent\u00e3o, voltando-se para Pedro, viu que o seguia aquele disc\u00edpulo, a quem Jesus amava, o qual, durante a ceia, reclinara a cabe\u00e7a sobre o seu peito e Lhe havia perguntado: \u00abQuem \u00e9 aquele que vos trair\u00e1?\u00bb. E Pedro, tendo-o visto, disse a Jesus: \u00abSenhor, o que acontecer\u00e1 a este?\u00bb. Respondeu-lhe Jesus: \u00abSe quero que assim permane\u00e7a, at\u00e9 que Eu venha, que te importa? Segue-me tu\u00bb. Correu, ent\u00e3o, entre os irm\u00e3os que aquele disc\u00edpulo n\u00e3o havia de morrer. Ora Jesus n\u00e3o havia dito: \u00abN\u00e3o morrer\u00e1\u00bb. Mas disse: \u00abSe quero que ele permane\u00e7a assim, at\u00e9 que Eu venha, que te importa?\u00bb. Este \u00e9 o pr\u00f3prio disc\u00edpulo que d\u00e1 testemunho destas cousas e as escreveu; e sabemos que seu testemunho \u00e9 verdadeiro.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 91:13*\nO justo florescer\u00e1, como a palmeira, e crescer\u00e1, como o cedro do L\u00edbano. Aleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Recebei, Senhor, as ofertas que Vos apresentamos na solenidade daquele com o aux\u00edlio do qual esperamos ser livres do mal.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Para a Oitava do Natal*\nSantificai, Senhor, pelo novo Nascimento do vosso Filho Unig\u00e9nito, as oblatas que Vos apresentamos, e purificai-nos das manchas dos nossos pecados.\nPelo mesmo nosso Senhor.", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*do Natal*\nVerdadeiramente \u00e9 digno e justo, racional e salutar dar-Vos gra\u00e7as, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo myst\u00e9rio do Verbo Incarnado um novo clar\u00e3o do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira vis\u00edvel, sejamos inspirados por Ele no amor \u00e0s cousas invis\u00edveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Jo 21:23*\nCorreu, pois, entre os irm\u00e3os que aquele disc\u00edpulo n\u00e3o havia de morrer. Ora Jesus n\u00e3o havia dito: \u00abN\u00e3o morrer\u00e1\u00bb. Mas disse: \u00abQuero que ele assim permane\u00e7a at\u00e9 que Eu venha\u00bb.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Confortados com o alimento e a bebida celestiais, n\u00f3s Vos imploramos, \u00f3 nosso Deus, que sejamos protegidos pelas preces daquele em cuja mem\u00f3ria recebemos este augusto sacramento.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Para a Oitava do Natal*\n\u00d3 Deus omnipotente, dignai-Vos permitir que, assim como o Salvador do mundo, nascendo neste dia, nos comunicou a gera\u00e7\u00e3o divina, assim tamb\u00e9m nos conceda a imortalidade.\nQue convosco vive.", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

@@ -96,17 +96,17 @@
       {
         "body": "*Is 45:8*\n\u00d3 c\u00e9us, derramai dessas alturas o vosso orvalho: e que as nuvens chovam o Justo! Abra-se a terra e flores\u00e7a o Salvador!\n*Sl 18:2*\nOs c\u00e9us proclamam a gl\u00f3ria de Deus: e o firmamento anuncia as obras das suas m\u00e3os.\nGl\u00f3ria ao Pai.\n\u00d3 c\u00e9us, derramai dessas alturas o vosso orvalho: e que as nuvens chovam o Justo! Abra-se a terra e flores\u00e7a o Salvador!", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Fazei, \u00f3 Deus omnipotente, Vos imploramos, que as pr\u00f3ximas solenidades da nossa reden\u00e7\u00e3o nos alcancem os aux\u00edlios para a vida presente e a recompensa da bem-aventuran\u00e7a eterna.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Profeta Isa\u00edas.\n*Is  2:2-5*\nNaqueles dias (diz o Profeta Isa\u00edas) acontecer\u00e1 nos \u00faltimos tempos que a montanha da casa do Senhor ser\u00e1 elevada sobre o pico das montanhas e acima de todas as colinas. E a\u00ed vir\u00e3o todos os povos. E muitos vir\u00e3o e dir\u00e3o: vinde, subamos ao monte do Senhor, \u00e0 casa de Deus de Jacob, para que nos ensine os seus caminhos e caminhemos pelas suas vias; pois de Si\u00e3o sair\u00e1 a lei, e a palavra de Deus sair\u00e1 de Jerusal\u00e9m. Ele ser\u00e1 o \u00e1rbitro das na\u00e7\u00f5es e arguir\u00e1 muitos povos, que converter\u00e3o as suas espadas em charruas, e em foices as suas lan\u00e7as. N\u00e3o se levantar\u00e1 nunca mais povo contra povo, nem se exercitar\u00e3o mais em combater um contra o outro. Casa de Jacob, vinde e caminhemos \u00e0 luz do Senhor, nosso Deus!\nGra\u00e7as a Deus.", 
         "id": "LectioL1", 
-        "label": "Epistle"
+        "label": "1\u00aa Li\u00e7\u00e3o"
       }, 
       {
         "body": "*Sl 23:7; 23:3-4*\n\u00d3 portas, abri-vos inteiramente! Abri-vos, \u00f3 portas eternas! Ent\u00e3o, entrar\u00e1 o Rei da gl\u00f3ria!\nV. Quem ser\u00e1 digno de subir \u00e0 montanha do Senhor? Quem ser\u00e1 digno de permanecer no santu\u00e1rio? Aquele que tiver as m\u00e3os inocentes e o cora\u00e7\u00e3o puro.", 
@@ -116,7 +116,7 @@
       {
         "body": "Apressai-Vos em nos socorrer, \u00f3 Senhor, Vos suplicamos; n\u00e3o tardeis em conceder-nos o aux\u00edlio do vosso celestial poder, a fim de que as consola\u00e7\u00f5es do vosso advento confortem aqueles que confiam na vossa bondade:\n\u00d3 V\u00f3s, que viveis.", 
         "id": "OratioL1", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Eus\u00e9bio, Bispo e M\u00e1rtir *\n\u00d3 Deus, que nos alegrais com a solenidade anual do B. N., vosso M\u00e1rtir e Pont\u00edfice, concedei-nos prop\u00edcio que, assim como celebramos o seu nascimento, assim tamb\u00e9m gozemos a sua protec\u00e7\u00e3o.\nPor nosso Senhor", 
@@ -126,7 +126,7 @@
       {
         "body": "Lesson from the book of Isaias\n*Is 7:10-15*\nNaqueles dias, falou o Senhor a Acaz e disse-lhe: \u00abPedi ao Senhor, vosso Deus, um prod\u00edgio nas profundezas do inferno ou nas alturas do c\u00e9u\u00bb. Acaz respondeu: \u00abN\u00e3o pedirei tal cousa e n\u00e3o tentarei o Senhor\u00bb. E Isa\u00edas disse: \u00abEscutai, ent\u00e3o, casa de David: Porventura vos n\u00e3o basta que fatigueis a paci\u00eancia dos homens, sen\u00e3o que queirais fatigar a do meu Deus? Eis porque o Senhor vos dar\u00e1 um sinal: \u00abUma virgem conceber\u00e1 e dar\u00e1 \u00e0 luz um filho, e o seu nome ser\u00e1 Emanuel: Ele comer\u00e1 manteiga e mel, para que saiba condenar o mal e escolher o bem\u00bb.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 144:18, 21.*\nO Senhor est\u00e1 perto de todos aqueles que o invocam: de todos que com verdade o invocam.\nV. Que minha boca publique os louvores do Senhor: e que toda a carne bendiga seu santo Nome.", 
@@ -136,17 +136,17 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 1:26-38*\nNaquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da Galileia, chamada Nazar\u00e9, a uma Virgem, desposada com um var\u00e3o, cujo nome era Jos\u00e9, da casa de David; e o nome da Virgem era Maria. Entrando o Anjo onde ela estava, disse: \u00abEu te sa\u00fado, cheia de gra\u00e7a: o Senhor \u00e9 contigo: bendita \u00e9s tu entre todas as mulheres\u00bb. Ouvindo ela isto, perturbou-se; e pensava na significa\u00e7\u00e3o desta sauda\u00e7\u00e3o. Ent\u00e3o, disse-lhe o Anjo: \u00abN\u00e3o temas, Maria, porquanto alcan\u00e7aste gra\u00e7a diante do Senhor: eis que conceber\u00e1s no teu seio e dar\u00e1s \u00e0 luz um Filho; e o seu nome ser\u00e1 Jesus. Ele ser\u00e1 grande e ser\u00e1 chamado Filho do Alt\u00edssimo; o Senhor Deus lhe dar\u00e1 o trono de David, seu pai; reinar\u00e1 eternamente na casa de Jacob; e o seu reino n\u00e3o ter\u00e1 fim. Por\u00e9m, Maria disse ao Anjo: \u00abComo acontecer\u00e1 isso, se n\u00e3o conhe\u00e7o var\u00e3o?\u00bb, O Anjo, respondendo, disse-lhe: \u00abO Esp\u00edrito Santo descer\u00e1 sobre ti, e a virtude do Alt\u00edssimo te tocar\u00e1 com sua sombra. Por isso o Santo, que nascer de ti, ser\u00e1 chamado Filho de Deus. E eis que Isabel, tua parenta, concebeu um filho na sua velhice: este \u00e9 o sexto m\u00eas daquela que \u00e9 chamada est\u00e9ril: porque nada \u00e9 imposs\u00edvel a Deus\u00bb. Ent\u00e3o disse Maria: \u00abEis aqui a escrava do Senhor, fa\u00e7a-se em mim segundo a tua palavra\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Is 35:4*\nConfortai-vos, e j\u00e1 n\u00e3o receeis: eis o nosso Deus, que vem a julgar cada um de n\u00f3s: Ele pr\u00f3prio vir\u00e1 e nos salvar\u00e1.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Sejam-nos prop\u00edcios os nossos jejuns, Senhor, Vos suplicamos, para que, expiando por eles as nossas faltas, nos tornemos dignos da vossa gra\u00e7a, e sejamos conduzidos \u00e0 felicidade eterna, que nos prometestes.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Eus\u00e9bio, Bispo e M\u00e1rtir *\nSantificai, Senhor, estes dons que Vos s\u00e3o oferecidos, e, por intercess\u00e3o do B. N. vosso M\u00e1rtir e Pont\u00edfice, olhai aplacado para n\u00f3s.\nPor nosso Senhor", 
@@ -156,17 +156,17 @@
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Is 7:14*\nEis que a Virgem conceber\u00e1 e dar\u00e1 \u00e0 luz um Filho, cujo nome ser\u00e1 Emanuel.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Saciados com vossos salutares dons, Senhor, Vos suplicamos que, assim como nos alegramos com sua recep\u00e7\u00e3o, assim sejamos restabelecidos com seus efeitos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o S. Eus\u00e9bio, Bispo e M\u00e1rtir *\nQue esta comunh\u00e3o, Senhor, nos purifique de todos nossos crimes, e, por intercess\u00e3o do B. N., vosso M\u00e1rtir e Pont\u00edfice, nos torne participante do rem\u00e9dio celestial.\nPor nosso Senhor", 

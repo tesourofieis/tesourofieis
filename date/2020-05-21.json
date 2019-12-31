@@ -66,17 +66,17 @@
       {
         "body": "*Acts 1:11*\nYe men of Galilee, why stand you looking up to heaven? alleluia: This Jesus who is taken up from you into heaven, shall so come, as you have seen him going into heaven, alleluia, allleuia, alleluia\n*Sl 46:2*\nO clap your hands, all ye nations: shout unto God with the voice of Joy,\nGl\u00f3ria ao Pai.\nYe men of Galilee, why stand you looking up to heaven? alleluia: This Jesus who is taken up from you into heaven, shall so come, as you have seen him going into heaven, alleluia, allleuia, alleluia", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Grant, we beseech thee, Almighty God, that like as we do believe thine Only-Begotten Son our Saviour to have this day ascended into the heavens, so we may also in heart and mind thither ascend, and with Him continually dwell\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the Acts of Apostles\n*Acts 1:1-11*\nThe former treatise I made, O Theophilus, of all things which Jesus began to do and to teach, Until the day on which, giving commandments by the Holy Ghost to the apostles whom he had chosen, he was taken up. To whom also he shewed himself alive after his passion, by many proofs, for forty days appearing to them, and speaking of the kingdom of God. And eating together with them, he commanded them, that they should not depart from Jerusalem, but should wait for the promise of the Father, which you have heard (saith he) by my mouth. For John indeed baptized with water, but you shall be baptized with the Holy Ghost, not many days hence. They therefore who were come together, asked him, saying: Lord, wilt thou at this time restore again the kingdom to Israel? But he said to them: It is not for you to know the times or moments, which the Father hath put in his own power: But you shall receive the power of the Holy Ghost coming upon you, and you shall be witnesses unto me in Jerusalem, and in all Judea, and Samaria, and even to the uttermost part of the earth. And when he had said these things, while they looked on, he was raised up: and a cloud received him out of their sight. And while they were beholding him going up to heaven, behold two men stood by them in white garments. Who also said: Ye men of Galilee, why stand you looking up to heaven? This Jesus who is taken up from you into heaven, shall so come, as you have seen him going into heaven.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Allel\ufffdja, allel\ufffdja\n*Sl 46:6*\nGod is ascended with jubilee, and the Lord with the sound of trumpet. Allel\ufffdja.\n*Sl 67:18-19*\nthe Lord is in Sina, in the holy place. Thou hast ascended on high, thou hast led captivity captive; Allel\ufffdja.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Marcos.\n*Mc 16:14-20*\nAt length he appeared to the eleven as they were at table: and he upbraided them with their incredulity and hardness of heart, because they did not believe them who had seen him after he was risen again. And he said to them: Go ye into the whole world, and preach the gospel to every creature. He that believeth and is baptized, shall be saved: but he that believeth not shall be condemned. And these signs shall follow them that believe: In my name they shall cast out devils: they shall speak with new tongues. They shall take up serpents; and if they shall drink any deadly thing, it shall not hurt them: they shall lay their hands upon the sick, and they shall recover. And the Lord Jesus, after he had spoken to them, was taken up into heaven, and sitteth on the right hand of God. But they going forth preached every where: the Lord working withal, and confirming the word with signs that followed.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 46:6*\nGod is ascended with jubilee, and the Lord with the sound of trumpet, allel\ufffdja.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Receive, O Lord, the gifts which we offer for the glorious Ascension of thy Son, and mercifully grant that we may be delivered from present dangers and attain eternal life.\nPelo mesmo nosso Senhor.", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 67:33-34*\nSing ye to the Lord, who mounteth above the heaven of heavens to the East, alleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Grant us, we beseech thee, almighty and merciful God, that what we have taken and received in visible mysteries, may profit us by its invisible effects.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

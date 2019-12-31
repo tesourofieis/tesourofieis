@@ -68,17 +68,17 @@
       {
         "body": "*Ps 8:6*\nUczyni\u0142e\u015b go niewiele mniejszym od Anio\u0142\u00f3w, chwa\u0142\u0105 i czci\u0105 go uwie\u0144czy\u0142e\u015b.\n*Ps 148:2*\nChwalcie Pana, wszyscy Jego Anio\u0142owie, chwalcie Go, wszystkie Jego Zast\u0119py.\nGl\u00f3ria ao Pai.\nUczyni\u0142e\u015b go niewiele mniejszym od Anio\u0142\u00f3w, chwa\u0142\u0105 i czci\u0105 go uwie\u0144czy\u0142e\u015b.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Bo\u017ce, rozdawco dar\u00f3w niebieskich, kt\u00f3ry w anielskim m\u0142odzie\u0144cu Alojzym po\u0142\u0105czy\u0142e\u015b przedziwn\u0105 niewinno\u015b\u0107 \u017cycia z r\u00f3wnie wielk\u0105 pokut\u0105; przez jego pro\u015bby i zas\u0142ugi daj nam na\u015bladowa\u0107 go w pokucie, skoro nie na\u015bladowali\u015bmy jego niewinno\u015bci.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Syr 31:8-11*\nBem-aventurado o homem que foi julgado sem m\u00e1cula; que n\u00e3o correu ap\u00f3s o ouro; e n\u00e3o p\u00f4s as esperan\u00e7as nem no dinheiro, nem nos tesouros! Quem \u00e9 ele, para que o louvemos? Porquanto operou cousas admir\u00e1veis durante a vida. Aquele que foi provado pelo ouro e foi julgado perfeito alcan\u00e7ar\u00e1 a gl\u00f3ria eterna; pois poderia ter violado o mandamento, e o n\u00e3o violou; poderia ter praticado ac\u00e7\u00f5es m\u00e1s, e as n\u00e3o praticou. \u00c9 por esta raz\u00e3o que seus bens lhe estar\u00e3o assegurados no Senhor e que toda a assembleia dos justos proclamar\u00e1 as boas ac\u00e7\u00f5es que praticou.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Ps 70:5-6*\nPanie, nadziejo moja od m\u0142odo\u015bci mojej, na Tobie wsparty jestem od powicia: by\u0142e\u015b mym opiekunem od \u017cywota matki.\n*Ps 40:13*\nTy mnie zachowasz dla mej niewinno\u015bci i przed obliczem Twym umie\u015bcisz mnie na wieki. Aleluia, aleluia.\n*Ps 64:5*\nSzcz\u0119\u015bliwy, kogo\u015b wybra\u0142 i przygarn\u0105\u0142: mieszka on w Twoich pa\u0142acach. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 22:29-40*\n*\u015aw. Alojzy wype\u0142ni\u0142 doskonale oba przykazania mi\u0142o\u015bci. Dla mi\u0142o\u015bci Boga wyrzek\u0142 si\u0119 bogactwa i godno\u015bci ksi\u0105\u017c\u0119cej i z\u0142o\u017cy\u0142 swoje \u017cycie w ofierze, pos\u0142uguj\u0105c cierpi\u0105cym bli\u017anim.*\nOnego czasu: Odpowiadaj\u0105c Jezus rzek\u0142 saduceuszom: \u00abB\u0142\u0105dzicie nie znaj\u0105c Pism ani mocy Bo\u017cej. W zmartwychwstaniu bowiem ani si\u0119 \u017ceni\u0107 b\u0119d\u0105, ani za m\u0105\u017c wychodzi\u0107, ale b\u0119d\u0105 jako Anio\u0142owie Bo\u017cy w niebie. A nie czytali\u015bcie, co o powstaniu umar\u0142ych powiedziane jest przez Boga, m\u00f3wi\u0105cego wam: Jam B\u00f3g Abrahama, i B\u00f3g Izaaka, i B\u00f3g Jakuba? B\u00f3g nie jest Bogiem umar\u0142ych, ale \u017cywych\u00bb. A s\u0142ysz\u0105c to rzesze zdumiewa\u0142y si\u0119 nad nauk\u0105 Jego.\nFaryzeusze tedy, s\u0142ysz\u0105c, \u017ce zmusi\u0142 do milczenia saduceusz\u00f3w, zeszli si\u0119 razem. I zapyta\u0142 Go jeden z nich, uczony w Prawie, kusz\u0105c Go: \u00abMistrzu, kt\u00f3re Jest najwi\u0119ksze przykazanie w Prawie?\u00bb Rzek\u0142 mu Jezus: \u00abB\u0119dziesz mi\u0142owa\u0142 Pana Boga twego ze wszystkiego serca twego i ze wszystkiej duszy twojej, i ze wszystkiej my\u015bli twojej. To jest najwi\u0119ksze i pierwsze przykazanie. A drugie podobne jest temu: B\u0119dziesz mi\u0142owa\u0142 bli\u017aniego twego jako siebie samego. Na tych dw\u00f3ch przykazaniach ca\u0142e Prawo zawis\u0142o i Prorocy\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Ps 23:3-4*\nKto wst\u0105pi na g\u00f3r\u0119 Pana lub stanie na \u015bwi\u0119tym Jego miejscu? Cz\u0142owiek r\u0105k nieskalanych i czystego serca.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Spraw, Panie, aby\u015bmy zasiedli do uczty niebieskiej odziani w szat\u0119 godow\u0105, kt\u00f3r\u0105 zdobi\u0142y bezcennymi per\u0142ami pobo\u017cne przygotowanie i ustawiczne \u0142zy \u015bw. Alojzego.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Ps 77:24-25*\nObdarzy\u0142 ich chlebem niebieskim, chleb Anio\u0142\u00f3w po\u017cywa\u0142 cz\u0142owiek.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Daj, Panie, aby\u015bmy posileni chlebem Anielskim \u017cyli na wz\u00f3r Anio\u0142\u00f3w i za przyk\u0142adem tego, kt\u00f3rego dzi\u015b czcimy, stale trwali w dzi\u0119kczynieniu.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

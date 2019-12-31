@@ -13,7 +13,7 @@ for year in `seq $YEAR_FROM $YEAR_TO`; do
         fi
         echo ${my_date}
         # COPY FROM LOCALHOST TO DATA FOLDER
-        curl -s 0.0.0.0:5000/pt/api/v2/date/${my_date} > ../date/${my_date}.json
+        curl -s 0.0.0.0:5000/pt/api/v2/date/${my_date} > ./date/${my_date}.json
         itr=$(( itr + 1 ))
     done
 done

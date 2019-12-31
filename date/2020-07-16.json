@@ -81,12 +81,12 @@
       {
         "body": "*Sl. 27:8-9.*\nThe Lord is the strength of His people, the saving refuge of His anointed. Save Your people, O Lord, and bless Your inheritance; and rule them forever!\n*Sl 27:1*\nTo You, O Lord, I call; O my God, be not deaf to me, lest, if You heed me not, I become one of those going down into the pit.\nGl\u00f3ria ao Pai.\nThe Lord is the strength of His people, the saving refuge of His anointed. Save Your people, O Lord, and bless Your inheritance; and rule them forever!", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O God of the heavenly powers, creator of all good things, implant in our hearts the love of Your Name, and bestow upon us an increase of godliness, fostering what is good, and, by Your loving care, guarding what You have fostered.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o B. V. Maria do Monte Carmelo *\n\u00d3 Deus, que ornastes a Ordem do Carmelo com a insigne honra de usar o nome da B. Maria, sempre Virgem e vossa M\u00e3e, concedei-nos prop\u00edcio que, sendo n\u00f3s auxiliados pela protec\u00e7\u00e3o daquela cuja comemora\u00e7\u00e3o celebramos hoje, solenemente, sejamos dignos de alcan\u00e7ar as eternas alegrias.\n\u00d3 V\u00f3s, que viveis.", 
@@ -96,7 +96,7 @@
       {
         "body": "Lesson from the letter of St. Paul the Apostle to the Romans\n*Rom. 6:3-11.*\nBrethren: All we who have been baptized into Christ Jesus have been baptized into His death. For we were buried with Him by means of Baptism into death, in order that, just as Christ has arisen from the dead through the glory of the Father, so we also may walk in newness of life. For if we have been united with Him in the likeness of His death, we shall be so in the likeness of His resurrection also. For we know that our old self has been crucified with Him, in order that the body of sin may be destroyed, that we may no longer be slaves to sin; for he who is dead is acquitted of sin. But if we have died with Christ, we believe that we shall also live together with Christ; for we know that Christ, having risen from the dead, dies now no more, death shall no longer have dominion over Him. For the death that He died, He died to sin once for all, but the life that He lives, He lives unto God. Thus do you consider yourselves also as dead to sin, but alive to God in Christ Jesus our Lord.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl. 89:13, 1.*\nReturn, O Lord! How long? Have pity on Your servants!\nV. O Lord, You have been our refuge through all generations. \n*Sl. 30:2-3.*\nV. In You, O Lord, I take refuge; let me never be put to shame. In Your justice rescue me and release me, incline Your ear to me, make haste to deliver me! ", 
@@ -106,17 +106,17 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Marcos.\n*Mc 8:1-9*\nAt that time, when there was a great crowd with Jesus, and they had nothing to eat, He called His disciples together and said to them, I have compassion on the crowd, for behold, they have now been with Me three days, and have nothing to eat; and if I send them away to their homes fasting, they will faint on the way, for some of them have come from a distance. And His disciples answered Him, How will anyone be able to satisfy these with bread, here in a desert? And He asked them, How many loaves have you? And they said, Seven. And He bade the crowd recline on the ground. Then taking the seven loaves, He gave thanks, broke them and gave them to His disciples to distribute; and they set them before the crowd. And they had a few little fishes; and He blessed them, and ordered them to be distributed. And they ate and were satisfied; and they took up what was left of the fragments, seven baskets. Now those who had eaten were about four thousand. And He dismissed them.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl. 16:5-7*\nMake my steps steadfast in Your paths, that my feet may not falter. Incline Your ear to me; hear my word. Show Your wondrous kindness, O Lord, O Saviour of those who trust in You.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Mercifully hear our humble prayers, O Lord, and graciously accept these offerings of Your people, and grant that no prayer may be without effect, no petition in vain, so that what we ask in faith, we may really obtain.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o B. V. Maria do Monte Carmelo *\nSantificai, Senhor, Vos pedimos, as oblatas que Vos s\u00e3o apresentadas, e, pela eficac\u00edssima intercess\u00e3o da B. V. Maria, fazei que nos sejam salutares.\nPelo mesmo nosso Senhor.", 
@@ -126,17 +126,17 @@
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl. 26:6*\nI will go round, and offer in His tent, sacrifices with shouts of gladness; I will sing and chant praise to the Lord.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "We have been filled with Your gifts, O Lord; grant, we beseech You, that we may be cleansed and strengthened by their effect.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o B. V. Maria do Monte Carmelo *\nQue a augusta intercess\u00e3o de Maria, vossa gloriosa M\u00e3e e sempre Virgem, nos sirva de aux\u00edlio, Senhor, Vos rogamos; e que, depois de havermos sido perpetuamente cumulados dos seus benef\u00edcios e livres de todos os perigos, a sua bondade nos fa\u00e7a viver em conc\u00f3rdia.\n\u00d3 V\u00f3s, que viveis.", 

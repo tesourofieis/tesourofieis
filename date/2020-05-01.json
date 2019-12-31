@@ -68,17 +68,17 @@
       {
         "body": "*Sb 10:17*\nM\u0105dro\u015b\u0107 odda\u0142a sprawiedliwym nagrod\u0119 za ich prac\u0119 i prowadzi\u0142a ich przedziwn\u0105 drog\u0105, i by\u0142a im we dnie zas\u0142on\u0105, a w nocy \u015bwiat\u0142o\u015bci\u0105 gwiazd. (T. P. Aleluia, aleluia.)\n*Sl 126:1*\nJe\u017celi domu Pan nie zbuduje, darmo si\u0119 trudz\u0105 ci, kt\u00f3rzy go wznosz\u0105.\nGl\u00f3ria ao Pai.\nM\u0105dro\u015b\u0107 odda\u0142a sprawiedliwym nagrod\u0119 za ich prac\u0119 i prowadzi\u0142a ich przedziwn\u0105 drog\u0105, i by\u0142a im we dnie zas\u0142on\u0105, a w nocy \u015bwiat\u0142o\u015bci\u0105 gwiazd. (T. P. Aleluia, aleluia.)", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Bo\u017ce, Stw\u00f3rco wszechrzeczy, kt\u00f3ry na\u0142o\u017cy\u0142e\u015b na rodzaj ludzki obowi\u0105zek pracy, spraw \u0142askawie, aby\u015bmy za przyk\u0142adem i pod opiek\u0105 \u015bw. J\u00f3zefa wykonywali prace, kt\u00f3re nam nakazujesz, i otrzymali nagrod\u0119, kt\u00f3r\u0105 nam przyrzekasz.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Kolosan.\n*Col 3:14-15, 17, 23-24*\nBracia: Miejcie mi\u0142o\u015b\u0107, kt\u00f3ra jest w\u0119z\u0142em doskona\u0142o\u015bci. A pok\u00f3j Chrystusowy, do kt\u00f3rego te\u017c wezwani jeste\u015bcie w jednym ciele, niech z rado\u015bci\u0105 zamieszka w sercach waszych i b\u0105d\u017acie wdzi\u0119czni. Wszystko, cokolwiek czynicie w s\u0142owie lub uczynku, wszystko w imi\u0119 Pana Jezusa Chrystusa czy\u0144cie, dzi\u0119kuj\u0105c przez Niego Bogu Ojcu. Cokolwiek Czynicie, z serca czy\u0144cie jako Panu, a nie ludziom, wiedz\u0105c, \u017ce od Pana otrzymacie zap\u0142at\u0119 dziedzictwa. Panu Chrystusowi s\u0142u\u017ccie.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Aleluia, aleluia\nW jakimkolwiek nieszcz\u0119\u015bciu wzywa\u0107 mnie b\u0119d\u0105, wys\u0142ucham ich, i b\u0119d\u0119 ich opiekunem. Aleluia.\nV. Spraw, \u015bw. J\u00f3zefie, aby\u015bmy wiedli \u017cycie nieskalane; niech ono b\u0119dzie bezpieczne pod twoj\u0105 opiek\u0105. Aleluia.", 
@@ -88,32 +88,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 13:54-58*\nOnego czasu: Jezus przyszed\u0142szy do ojczyzny swojej naucza\u0142 ich w synagogach, tak \u017ce zdumiewali si\u0119 i m\u00f3wili: \u00abSk\u0105d\u017ce Mu ta m\u0105dro\u015b\u0107 i moc? Czy\u017c nie jest to syn cie\u015bli i czy\u017c Matki Jego nie zw\u0105 Maryja, a braci Jego \u2013 Jakubem i J\u00f3zefem, Szymonem i Jud\u0105? A siostry Jego, czy\u017c nie wszystkie znajduj\u0105 si\u0119 w\u015br\u00f3d nas? Sk\u0105d\u017ce Mu tedy to wszystko?\u00bb I gorszyli si\u0119 z Niego. A Jezus rzek\u0142 im: \u00abProrok bez czci jest tylko w ojczy\u017anie swojej i w domu swoim\u00bb. I nie uczyni\u0142 tam cud\u00f3w wielu dla niedowiarstwa ich.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 89:17*\nDobro\u0107 Pana Boga naszego niechaj b\u0119dzie nad nami; szcz\u0119\u015b\u0107 nam w pracy r\u0105k naszych i poszcz\u0119\u015b\u0107 dzie\u0142u r\u0105k naszych. (T. P. Aleluia.)", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Dary, kt\u00f3re sk\u0142adamy Ci, Panie, z pracy r\u0105k naszych, niech si\u0119 stan\u0105 za przyczyn\u0105 \u015bw. J\u00f3zefa zadatkiem naszej jedno\u015bci i pokoju.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*do S. Jos\u00e9*\n\u00c9 verdadeiramente digno e justo, racional e salutar dar-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus: e na festividade do bem-aventurado Jos\u00e9 devemos proclamar, como conv\u00e9m, as vossas grandezas, bendizer-Vos e louvar-Vos. \u00c9 ele o homem justo, que destinastes para esposo da Virgem M\u00e3e de Deus; \u00e9 ele o servo fiel e prudente, que colocastes na Sagrada Fam\u00edlia, a fim de que guardasse, como se fora pai, o vosso Filho Unig\u00e9nito, Jesus Cristo, nosso Senhor, concebido por opera\u00e7\u00e3o do Esp\u00edrito Santo; pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades se prostram reverentes, os C\u00e9us e os bem-aventurados Serafins a celebram em comuns transportes. Dignai-Vos permitir, Vos suplicamos, que as nossas vozes se unam \u00e0s deles, dizendo em suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Mt 13:54-55*\nSk\u0105d\u017ce Mu ta m\u0105dro\u015b\u0107 i moc? Czy\u017c nie jest to syn cie\u015bli i czy\u017c matki Jego nie zw\u0105 Maryja? (T. P. Aleluia.)", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Panie, niech te \u015bwi\u0119te dary, kt\u00f3re spo\u017cyli\u015bmy, dope\u0142ni\u0105 za wstawiennictwem \u015bw. J\u00f3zefa nasze dzia\u0142anie i zapewni\u0105 nam nagrod\u0119.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

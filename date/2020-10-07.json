@@ -83,17 +83,17 @@
       {
         "body": "Alegremo-nos todos no Senhor, no dia em que celebramos a festa em honra da B. V. Maria: os Anjos regozijam-se com esta festa e louvam unissonamente o Filho de Deus.\n*Sl 44:2*\nMeu cora\u00e7\u00e3o exprimiu uma excelente palavra: \u00abConsagro ao Rei as minhas obras\u00bb!\nGl\u00f3ria ao Pai.\nAlegremo-nos todos no Senhor, no dia em que celebramos a festa em honra da B. V. Maria: os Anjos regozijam-se com esta festa e louvam unissonamente o Filho de Deus.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "\u00d3 Deus, cujo Filho Unig\u00e9nito, pela sua vida, morte e ressurrei\u00e7\u00e3o, nos alcan\u00e7ou os pr\u00e9mios da salva\u00e7\u00e3o eterna, fazei, Vos rogamos, que, honrando n\u00f3s estes myst\u00e9rios pelo SS. Ros\u00e1rio da B. V. Maria, imitemos o que cont\u00eam e obtenhamos o que prometem.\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Pr 8:22-24; 8:32-35*\nO Senhor possuiu-me desde o princ\u00edpio das suas vias e ainda antes de criar qualquer cousa, no princ\u00edpio, antes da origem da terra. Quando fui concebido, ainda n\u00e3o existiam os abysmos. Portanto, agora, meus filhos, escutai-me: Bem-aventurados aqueles que transitam pelas minhas vias; atendei \u00e0s instru\u00e7\u00f5es, para que sejais prudentes; n\u00e3o as rejeiteis. Bem-aventurado o homem que me escuta; que vigia continuamente \u00e0s minhas portas; e que est\u00e1 sempre em observa\u00e7\u00e3o \u00e0s ombreiras das suas entradas. Aquele que me tiver encontrado, ter\u00e1 encontrado a vida e alcan\u00e7ar\u00e1 do Senhor a salva\u00e7\u00e3o.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 44:5; 44:11; 44:12*\nReinai pela verdade, mansid\u00e3o e justi\u00e7a: e a vossa dextra vos conduzir\u00e1 admiravelmente.\nV. Ouvi, minha filha, e vede; inclinai o vosso ouvido, pois o Rei est\u00e1 extasiado com vossa formosura! Aleluia, aleluia.\nV. Eis a solenidade da gloriosa Virgem Maria: da ra\u00e7a de Abra\u00e3o, da gera\u00e7\u00e3o de Jud\u00e1 e da nobre linhagem de David. Aleluia.", 
@@ -103,32 +103,32 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 1:26-38*\nNaquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da Galileia, chamada Nazar\u00e9, a uma Virgem, desposada com um var\u00e3o, cujo nome era Jos\u00e9, da casa de David; e o nome da Virgem era Maria. Entrando o Anjo onde ela estava, disse: \u00abEu te sa\u00fado, cheia de gra\u00e7a: o Senhor \u00e9 contigo: bendita \u00e9s tu entre todas as mulheres\u00bb. Ouvindo ela isto, perturbou-se; e pensava na significa\u00e7\u00e3o desta sauda\u00e7\u00e3o. Ent\u00e3o, disse-lhe o Anjo: \u00abN\u00e3o temas, Maria, porquanto alcan\u00e7aste gra\u00e7a diante do Senhor: eis que conceber\u00e1s no teu seio e dar\u00e1s \u00e0 luz um Filho; e o seu nome ser\u00e1 Jesus. Ele ser\u00e1 grande e ser\u00e1 chamado Filho do Alt\u00edssimo; o Senhor Deus lhe dar\u00e1 o trono de David, seu pai; reinar\u00e1 eternamente na casa de Jacob; e o seu reino n\u00e3o ter\u00e1 fim. Por\u00e9m, Maria disse ao Anjo: \u00abComo acontecer\u00e1 isso, se n\u00e3o conhe\u00e7o var\u00e3o?\u00bb, O Anjo, respondendo, disse-lhe: \u00abO Esp\u00edrito Santo descer\u00e1 sobre ti, e a virtude do Alt\u00edssimo te tocar\u00e1 com sua sombra. Por isso o Santo, que nascer de ti, ser\u00e1 chamado Filho de Deus. E eis que Isabel, tua parenta, concebeu um filho na sua velhice: este \u00e9 o sexto m\u00eas daquela que \u00e9 chamada est\u00e9ril: porque nada \u00e9 imposs\u00edvel a Deus\u00bb. Ent\u00e3o disse Maria: \u00abEis aqui a escrava do Senhor, fa\u00e7a-se em mim segundo a tua palavra\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sb 24:25; Syr 39:17*\nEm mim reside toda a gra\u00e7a dos caminhos e da verdade; em mim reside toda a esperan\u00e7a da vida e da virtude! Eu floresci, como a roseira plantada nas margens das ribeiras!", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Permiti, Senhor, Vos suplicamos, que estejamos convenientemente preparados para Vos apresentar estas ofertas; e que pelos myst\u00e9rios do SS. Ros\u00e1rio honremos de tal sorte a vida, a paix\u00e3o e a gl\u00f3ria do vosso Filho Unig\u00e9nito que sejamos dignos das suas promessas.\nQue convosco vive.", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da B. Virgem Maria*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, e de sempre Vos louvar, bendizer e anunciar da Bem-aventurada Maria, sempre Virgem. Foi ela quem concebeu o vosso Filho Unig\u00e9nito por obra do Esp\u00edrito Santo, e, sem a mais leve perda de gl\u00f3ria da virgindade, deu ao mundo a Luz eterna, Jesus Cristo, nosso Senhor, por quem os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a festejam em transportes de alegria. E, Vos imploramos, permiti que unamos as nossas vozes \u00e0s de todos estes, dizendo em suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sb 39:19*\nFazei despontar a vossa flor, como um l\u00edrio; exalai o vosso perfume; lan\u00e7ai ramos graciosos; cantai hinos de louvor; e bendizei o Senhor nas suas obras.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Possamos n\u00f3s, Senhor, Vos rogamos, ser auxiliados pelas preces da vossa Sant\u00edssima M\u00e3e, cujo Ros\u00e1rio celebramos, a fim de que obtenhamos as gra\u00e7as inerentes aos myst\u00e9rios, que comemoramos, e o efeito dos sacramentos, que recebemos.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

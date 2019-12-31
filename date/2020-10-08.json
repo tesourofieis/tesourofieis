@@ -83,22 +83,22 @@
       {
         "body": "*Sl 118:75; 118:120*\nConhe\u00e7o, Senhor, que os vossos ju\u00edzos s\u00e3o equitativos e que me humilhastes com justi\u00e7a. Esmagai as minhas carnes com vosso temor; os vossos Mandamentos inspiram-me temor.\n*Sl 118:1*\nBem-aventurados aqueles que s\u00e3o imaculados nos seus caminhos e cumprem a lei do Senhor.\nGl\u00f3ria ao Pai.\nConhe\u00e7o, Senhor, que os vossos ju\u00edzos s\u00e3o equitativos e que me humilhastes com justi\u00e7a. Esmagai as minhas carnes com vosso temor; os vossos Mandamentos inspiram-me temor.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Senhor, nosso Deus, que pelo vosso Unig\u00e9nito Filho revelastes os segredos celestiais \u00e0 B. Br\u00edgida, concedei-nos, j\u00e1 que somos vossos servos, que nos alegremos na felicidade da contempla\u00e7\u00e3o da vossa eterna gl\u00f3ria.\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*de S. S. S\u00e9rgio, Baco e Outros, M\u00e1rtires*\nFazei, Senhor, que os m\u00e9ritos dos vossos Santos M\u00e1rtires S\u00e9rgio, Baco, Marcelo e Ap\u00falio nos acompanhem e nos comuniquem incessantemente o fervor do vosso amor.\nPor nosso Senhor", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Li\u00e7\u00e3o da Ep.\u00ba do B. Ap.\u00ba Paulo a Tim\u00f3teo.\n*1 Tm 5:3-10*\nCar\u00edssimos: Honrai as, vi\u00favas que s\u00e3o verdadeiramente vi\u00favas. Se alguma vi\u00fava tem filhos ou netos, ensine-os, primeiramente, a governar a sua casa e a retribuir a seus pais conforme o que havia recebido deles; porque tal \u00e9 a vontade de Deus. Aquela vi\u00fava, que \u00e9 verdadeiramente vi\u00fava e vive s\u00f3, espere em Deus e persevere noite e dia em suas s\u00faplicas e preces. Por\u00e9m, aquela vi\u00fava que vive nas del\u00edcias, n\u00e3o est\u00e1 viva, mas sim morta. Fazei-lhes, pois, saber isto, a fim de que sejam irrepreens\u00edveis. Se algu\u00e9m se n\u00e3o interessa pelos seus, e principalmente pelos de sua casa, nega a f\u00e9 e \u00e9 pior do que um infiel. Que a vi\u00fava, que for escolhida, n\u00e3o tenha menos de sessenta anos, nem haja tido mais do que um marido, e que tenha reputa\u00e7\u00e3o de ter praticado boas obras; que tenha educado os seus filhos; praticado a hospitalidade; lavado os p\u00e9s aos santos; socorrido os aflitos; e, enfim, praticado toda a esp\u00e9cie de boas obras.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 44:3; 44:5*\nA gra\u00e7a espalhou-se nos vossos l\u00e1bios: eis porque Deus vos aben\u00e7oou para a eternidade.\nV. Por causa da vossa verdade, mansid\u00e3o e justi\u00e7a, a vossa dextra praticar\u00e1 maravilhas. Aleluia, aleluia.\n*Sl 44:5*\nCaminhai, pois, com beleza e com majestade; ide gozar a vit\u00f3ria e reinai. Aleluia.", 
@@ -108,42 +108,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 13:44-52*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos esta par\u00e1bola: \u00abO reino dos c\u00e9us \u00e9 semelhante a um tesouro escondido no campo, o qual um homem acha e esconde; e, alegre com o achado, vai, vende tudo o que tem e compra o campo. Igualmente o reino dos c\u00e9us \u00e9 semelhante a um negociante, que busca pedras preciosas; e, achando uma de grande pre\u00e7o, vai, vende tudo o que tem e compra-a. O reino dos c\u00e9us \u00e9 ainda semelhante a uma rede que, lan\u00e7ada ao mar, prende toda a casta de peixes, e, estando j\u00e1 cheia, os pescadores a puxam para a praia, escolhem os bons peixes para os vasos e deitam fora os maus. Assim ser\u00e1 no fim dos s\u00e9culos: vir\u00e3o os Anjos e separar\u00e3o os maus do meio dos justos e os lan\u00e7ar\u00e3o na fornalha do fogo, onde n\u00e3o haver\u00e1 sen\u00e3o fogo e ranger de dentes. Haveis compreendido tudo isto?\u00bb. \u00abSim\u00bb, responderam eles. E Jesus disse-lhes: \u00abPor esta raz\u00e3o todo o escriba douto no que diz respeito ao reino dos c\u00e9us \u00e9 semelhante a um pai de fam\u00edlia, que tira dos seus tesouros cousas novas e velhas\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 44:3*\nA gra\u00e7a espalhou-se nos vossos l\u00e1bios: eis porque Deus vos aben\u00e7oou para a eternidade.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Aceitai, Senhor, esta oferta que Vos consagra o vosso povo fiel, em honra dos vossos Santos, pelos m\u00e9ritos dos quais reconhece que tem alcan\u00e7ado a vossa assist\u00eancia nas tribula\u00e7\u00f5es.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*de S. S. S\u00e9rgio, Baco e Outros, M\u00e1rtires*\nQue esta h\u00f3stia, que vai ser imolada em vosso louvor, Vos rogamos, Senhor, possa pelas dignas preces dos vossos Santos aplacar a vossa majestade.\nPor nosso Senhor", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 44:8*\nAmastes a justi\u00e7a e odiastes a iniquidade: eis porque o Senhor, vosso Deus, vos ungiu com o \u00f3leo da alegria, de prefer\u00eancia \u00e0s vossas companheiras.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Havendo saciado, Senhor, a vossa fam\u00edlia com os dons sagrados, dignai-Vos favorecer-nos sempre pela intercess\u00e3o daquela cuja Solenidade celebr\u00e1mos.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*de S. S. S\u00e9rgio, Baco e Outros, M\u00e1rtires*\nQue os sacramentos que recebemos, Senhor, nos confortem; e que pela intercess\u00e3o dos vossos Santos S\u00e9rgio, Baco, Marcelo e Ap\u00falio sejamos fortalecidos com as armas celestiais e defendidos contra todos os ataques dos esp\u00edritos malignos.\nPor nosso Senhor", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

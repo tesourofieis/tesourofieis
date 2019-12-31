@@ -83,22 +83,22 @@
       {
         "body": "Radujmy si\u0119 wszyscy w Panu, obchodz\u0105c uroczysto\u015b\u0107 ku czci Naj\u015bwi\u0119tszej Maryi Panny Kr\u00f3lowej; z Jej uroczysto\u015bci raduj\u0105 si\u0119 Anio\u0142owie i wychwalaj\u0105 Syna Bo\u017cego. (T. P. Aleluia, aleluia.)\n*Sl 44:2*\nZ mego serca p\u0142ynie pi\u0119kne s\u0142owo, pie\u015b\u0144 moj\u0105 \u015bpiewam dla Kr\u00f3la.\nGl\u00f3ria ao Pai.\nRadujmy si\u0119 wszyscy w Panu, obchodz\u0105c uroczysto\u015b\u0107 ku czci Naj\u015bwi\u0119tszej Maryi Panny Kr\u00f3lowej; z Jej uroczysto\u015bci raduj\u0105 si\u0119 Anio\u0142owie i wychwalaj\u0105 Syna Bo\u017cego. (T. P. Aleluia, aleluia.)", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Przy obchodzie uroczysto\u015bci Na\u015bwi\u0119tszej Maryi Panny, Kr\u00f3lowej naszej, prosimy Ci\u0119, Panie, spraw, aby\u015bmy wsparci Jej opiek\u0105 mogli obecnie osi\u0105ga\u0107 pok\u00f3j, a w przysz\u0142o\u015bci chwa\u0142\u0119.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*de \u015bw. Petroneli*\nWys\u0142uchaj nas, Bo\u017ce, nasz Zbawicielu, i spraw, aby\u015bmy raduj\u0105c si\u0119 z uroczysto\u015bci \u015bwi\u0119tej Twojej Dziewicy Petroneli, nabyli uczucia synowskiego oddania.\nPor nosso Senhor", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Sb 24:5; 24:7, 24:9-11; 24:30-31*\n*Przywileje Maryi zosta\u0142y przewidziane w odwiecznym planie zbawienia.*\nJam wysz\u0142a z ust Najwy\u017cszego, pierworodna mi\u0119dzy wszystkim stworzeniem. Ja mieszka\u0142am na wysoko\u015bci, a stolica moja na s\u0142upie ob\u0142oku. Sta\u0142am na ca\u0142ej ziemi i mi\u0119dzy wszelkim ludem, i w ka\u017cdym narodzie mia\u0142am pierwsze\u0144stwo, a wszystkich wysokich i niskich serca moc\u0105 podepta\u0142am. Kto mnie s\u0142ucha, nie b\u0119dzie zawstydzony, a kt\u00f3rzy przeze mnie dzia\u0142aj\u0105, nie zgrzesz\u0105. Kt\u00f3rzy mnie obja\u015bniaj\u0105, b\u0119d\u0105 mie\u0107 \u017cywot wieczny.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Aleluia, aleluia.\nV. B\u0142ogos\u0142awiona jeste\u015b, Maryjo Dziewico, kt\u00f3ra wytrwa\u0142a\u015b pod krzy\u017cem Pana. Aleluia.\nV. Teraz w wieczno\u015bci razem z Nim kr\u00f3lujesz. Aleluia.", 
@@ -108,42 +108,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 1:26-33*\nOnego czasu: Pos\u0142any jest Anio\u0142 Gabriel od Boga do miasta galilejskiego, kt\u00f3re zwano Nazaret, do Panny po\u015blubionej m\u0119\u017cowi, kt\u00f3remu by\u0142o na imi\u0119 J\u00f3zef, z domu Dawidowego, a imi\u0119 Panny Maryja. I wszed\u0142szy do Niej Anio\u0142 rzek\u0142: \u00abB\u0105d\u017a pozdrowiona, \u0142aski pe\u0142na, Pan z Tob\u0105, b\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami\u00bb.\nA Ona, gdy pos\u0142ysza\u0142a, zatrwo\u017cy\u0142a si\u0119 na s\u0142owa jego i rozwa\u017ca\u0142a, c\u00f3\u017c by to by\u0142o za pozdrowienie. I rzek\u0142 Jej Anio\u0142: \u00abNie l\u0119kaj si\u0119, Maryjo, albowiem znalaz\u0142a\u015b \u0142ask\u0119 u Boga! Oto poczniesz w \u0142onie i porodzisz syna, i nadasz Mu imi\u0119 Jezus. Ten b\u0119dzie wielkim i Synem Najwy\u017cszego nazwany b\u0119dzie. I da Mu Pan B\u00f3g stolic\u0119 Dawida, ojca Jego i b\u0119dzie kr\u00f3lowa\u0142 nad domem Jakubowym na wieki, a kr\u00f3lestwu Jego nie b\u0119dzie ko\u0144ca\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "Maryja ja\u015bnieje pochodzeniem z kr\u00f3lewskiego rodu; sercem i dusz\u0105 pobo\u017cnie prosimy, by nas wspiera\u0142a swymi modlitwami. (T. P. Aleluia.)", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Prosimy Ci\u0119, Panie, przyjmij dary rozradowanego Ko\u015bcio\u0142a i spraw, niech przez zas\u0142ugi Naj\u015bwi\u0119tszej Maryi Panny Kr\u00f3lowej przyczyni\u0105 si\u0119 do naszego zbawienia.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*de \u015bw. Petroneli*\nPrzyjmij, Panie, ofiar\u0119, kt\u00f3r\u0105 lud Tobie oddany sk\u0142ada ku czci \u015awi\u0119tych Twoich, wiedz\u0105c, \u017ce dzi\u0119ki ich zas\u0142ugom dozna\u0142 pomocy w ucisku.\nPor nosso Senhor", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "Najdostojniejsza Kr\u00f3lowo \u015bwiata, Maryjo zawsze Dziewico, kt\u00f3ra\u015b porodzi\u0142a Zbawc\u0119 wszystkich, Chrystusa Pana, pro\u015b o pok\u00f3j i zbawienie dla nas. (T. P. Aleluia.)", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Prosimy Ci\u0119, Panie, by uroczysta ofiara, z\u0142o\u017cona dla uczczenia \u015bwi\u0119ta Naj\u015bwi\u0119tszej Maryi, naszej Kr\u00f3lowej, pos\u0142u\u017cy\u0142a nam ku zbawieniu za wstawiennictwem Tej, na kt\u00f3rej cze\u015b\u0107 spe\u0142nili\u015bmy j\u0105 z rado\u015bci\u0105.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*de \u015bw. Petroneli*\nNasyci\u0142e\u015b, Panie, rodzin\u0119 Twoj\u0105 \u015bwi\u0119tymi darami: wzmacniaj nas za wstawiennictwem tej, kt\u00f3rej uroczysto\u015b\u0107 obchodzimy.\nPor nosso Senhor", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

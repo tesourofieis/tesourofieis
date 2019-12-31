@@ -83,22 +83,22 @@
       {
         "body": "*Seduliusz*\nWitaj, \u015awi\u0119ta Rodzicielko, kt\u00f3ra\u015b wyda\u0142a na \u015bwiat Kr\u00f3la, co niebem i ziemi\u0105 w\u0142ada na wieki wiek\u00f3w.\n*Sl 44:2*\nZ mego serca p\u0142ynie pi\u0119kne s\u0142owo, pie\u015b\u0144 moj\u0105 \u015bpiewam dla Kr\u00f3la.\nGl\u00f3ria ao Pai.\nWitaj, \u015awi\u0119ta Rodzicielko, kt\u00f3ra\u015b wyda\u0142a na \u015bwiat Kr\u00f3la, co niebem i ziemi\u0105 w\u0142ada na wieki wiek\u00f3w.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Prosimy Ci\u0119, Panie, udziel s\u0142ugom Twoim daru \u0142aski niebieskiej: jak macierzy\u0144stwo Naj\u015bwi\u0119tszej Dziewicy sta\u0142o si\u0119 dla nich pocz\u0105tkiem zbawienia, tak niechaj uroczysty obch\u00f3d Jej Nawiedzenia stanowi przymno\u017cenie pokoju.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "*Wspomnienie \u015b\u015b. Procesa i Martyniana*\nBo\u017ce, kt\u00f3ry ze wzgl\u0119du na chwalebne wyznanie wiary przez \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Procesa i Martyniana otaczasz nas Swoj\u0105 opiek\u0105, spraw, aby\u015bmy czynili post\u0119py, na\u015bladuj\u0105c ich, i cieszyli si\u0119 z ich wstawiennictwa.\nPor nosso Senhor", 
         "id": "Commemoratio Oratio", 
-        "label": "Commemoration Collect"
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Czytanie z Pie\u015bni nad Pie\u015bniami.\n*Ct 2:8-14*\n*Ko\u015bci\u00f3\u0142 odnosi do Matki Bo\u017cej s\u0142owa Pie\u015bni nad pie\u015bniami. W drodze do Hebronu przez g\u00f3ry Judei Maryja obcowa\u0142a ze swoim umi\u0142owanym Synem, zamkni\u0119tym w Jej \u0142onie.*\nOto on idzie skacz\u0105c po g\u00f3rach, przeskakuj\u0105c pag\u00f3rki; umi\u0142owany m\u00f3j podobny jest do kozicy i m\u0142odej sarenki. Oto on stoi za nasz\u0105 \u015bcian\u0105, patrz\u0105c przez okno, zagl\u0105daj\u0105c przez kraty.\nOto umi\u0142owany m\u00f3j m\u00f3wi do mnie: Powsta\u0144, po\u015bpiesz, przyjaci\u00f3\u0142ko moja, go\u0142\u0119bico moja pi\u0119kna, i przyjd\u017a. Ju\u017c bowiem przesz\u0142a zima, deszcz min\u0105\u0142 i usta\u0142. Kwiaty ukaza\u0142y si\u0119 na ziemi naszej, nadszed\u0142 czas obcinania (winnic); g\u0142os synogarlicy da\u0142 si\u0119 s\u0142ysze\u0107 w ziemi naszej; drzewo figowe wypu\u015bci\u0142o swe p\u0105czki, kwitn\u0105ce winnice wyda\u0142y sw\u00f3j zapach. Powsta\u0144 przyjaci\u00f3\u0142ko moja pi\u0119kna, i przyjd\u017a; go\u0142\u0119bico moja w\u015br\u00f3d skalnych rozpadlin, w szczelinie muru uka\u017c mi twoje oblicze; niech zabrzmi g\u0142os w uszach moich, g\u0142os tw\u00f3j bowiem jest s\u0142odki, a oblicze pi\u0119kne.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "B\u0142ogos\u0142awiona i godna czci jeste\u015b, Panno Maryjo, kt\u00f3ra\u015b bez naruszenia dziewictwa sta\u0142a si\u0119 Matk\u0105 Zbawiciela.\nV. Bogarodzico Dziewico, Ten, kt\u00f3rego ca\u0142y \u015bwiat nie zdo\u0142a ogarn\u0105\u0107, zamkn\u0105\u0142 si\u0119 w Twoim \u0142onie, stawszy si\u0119 cz\u0142owiekiem. Aleluia, aleluia.\nV. Szcz\u0119\u015bliwa jeste\u015b, \u015bwi\u0119ta Dziewico Maryjo, i wszelkiej chwa\u0142y najgodniejsza, z Ciebie bowiem narodzi\u0142o si\u0119 S\u0142o\u0144ce sprawiedliwo\u015bci, Chrystus, nasz B\u00f3g. Aleluia.", 
@@ -108,42 +108,42 @@
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 1:39-47*\nOnego czasu: Powstawszy Maryja uda\u0142a si\u0119 \u015bpiesznie w okolic\u0119 g\u00f3rzyst\u0105 do miasta Judy. I wesz\u0142a do domu Zachariasza i pozdrowi\u0142a El\u017cbiet\u0119. I sta\u0142o si\u0119, skoro us\u0142ysza\u0142a El\u017cbieta pozdrowienie Maryi, skoczy\u0142o dzieci\u0105tko w \u0142onie jej, i nape\u0142niona zosta\u0142a El\u017cbieta Duchem \u015awi\u0119tym, i zawo\u0142a\u0142a g\u0142osem wielkim, m\u00f3wi\u0105c: \u00abB\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami i b\u0142ogos\u0142awiony owoc \u017cywota Twego. A sk\u0105d\u017ce mi to, \u017ce przysz\u0142a Matka Pana mego do mnie? Oto bowiem skoro zabrzmia\u0142 g\u0142os pozdrowienia Twego w uszach moich, poruszy\u0142o si\u0119 z rado\u015bci\u0105 dzieci\u0105tko w \u0142onie moim. I b\u0142ogos\u0142awiona\u015b, kt\u00f3ra\u015b uwierzy\u0142a, \u017ce wype\u0142ni si\u0119 to, co ci oznajmiono od Pana\u00bb. I rzek\u0142a Maryja: \u00abUwielbia dusza moja Pana. I rozradowa\u0142 si\u0119 duch m\u00f3j w Bogu, Zbawicielu moim\u00bb.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "B\u0142ogos\u0142awiona jeste\u015b, Panno Maryjo, kt\u00f3ra\u015b nosi\u0142a Stw\u00f3rc\u0119 wszechrzeczy. Porodzi\u0142a\u015b Tego, kt\u00f3ry Ci\u0119 stworzy\u0142, i na wieki zosta\u0142a\u015b Dziewic\u0105.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "Niech nas wspomaga, Panie, cz\u0142owiecze\u0144stwo Jednorodzonego Syna Twojego; On to, zrodzony z Dziewicy, nie naruszy\u0142 panie\u0144stwa Matki, lecz je u\u015bwi\u0119ci\u0142. Niech\u017ce w uroczysto\u015b\u0107 Jej Nawiedzenia, oczyszczaj\u0105c nas z przewin naszych, ofiar\u0119 nasz\u0105 uczyni mi\u0142\u0105 Tobie: Jezus Chrystus, Pan nasz:\nQue convosco vive.", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*Wspomnienie \u015b\u015b. Procesa i Martyniana*\nPrzyjmij, Panie, pro\u015bby i ofiary, a modlitwa Twoich \u015awi\u0119tych niech nas wspomo\u017ce, by godne by\u0142y Twojego wejrzenia.\nPor nosso Senhor", 
         "id": "Commemoratio Secreta", 
-        "label": "Commemoration Secret"
+        "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
         "body": "*da B. Virgem Maria*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, e de sempre Vos louvar, bendizer e anunciar da Bem-aventurada Maria, sempre Virgem. Foi ela quem concebeu o vosso Filho Unig\u00e9nito por obra do Esp\u00edrito Santo, e, sem a mais leve perda de gl\u00f3ria da virgindade, deu ao mundo a Luz eterna, Jesus Cristo, nosso Senhor, por quem os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a festejam em transportes de alegria. E, Vos imploramos, permiti que unamos as nossas vozes \u00e0s de todos estes, dizendo em suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "B\u0142ogos\u0142awione wn\u0119trzno\u015bci Maryi Panny, kt\u00f3re nosi\u0142y Syna Ojca Przedwiecznego.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Panie, przyj\u0119li\u015bmy Sakrament obchodz\u0105c doroczn\u0105 uroczysto\u015b\u0107: spraw, prosimy, niech on udzieli nam pomocy na \u017cycie doczesne i wieczne.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "*Wspomnienie \u015b\u015b. Procesa i Martyniana*\nPosileni w czasie uczty ofiarnej Naj\u015bwi\u0119tszym Cia\u0142em i Najdro\u017csz\u0105 Krwi\u0105 Twoj\u0105, prosimy Ci\u0119, Panie Bo\u017ce nasz, aby ofiara, kt\u00f3r\u0105 sprawujemy z \u017carliw\u0105 mi\u0142o\u015bci\u0105, zapewni\u0142a nam niezawodnie zbawienie.\nPelo mesmo nosso Senhor.", 
         "id": "Commemoratio Postcommunio", 
-        "label": "Commemoration Postcommunion"
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }

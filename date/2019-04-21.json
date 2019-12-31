@@ -71,17 +71,17 @@
       {
         "body": "*Sl. 1:38; 1:18; 1:5-6*\nI arose, and am still with Thee, alleluia; Thou hast laid Thy hand upon me, alleluia; Thy knowledge is become wonderful, alleluia, alleluia.\n*Sl. 138. 1, 2*\nLord, Thou hast searched Me and known Me; Thou knowest my sitting down and My rising up.\nGl\u00f3ria ao Pai.\nI arose, and am still with Thee, alleluia; Thou hast laid Thy hand upon me, alleluia; Thy knowledge is become wonderful, alleluia, alleluia.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O God, who, on this day, through Thine only-begotten Son, hast conquered death, and thrown open to us the gate of everlasting life, give effect by thine aid to our desires, which Thou dost anticipate and inspire\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the first letter of St. Paul the Apostle to the Corinthians\n*1 Cor 5:7-8*\nBrethren, purge out the old leaven, that you may be a new paste, as you are unleavened: for Christ our Pasch is sacrificed. Therefore let us feast, not with the old leaven, nor with the leaven of malice and wickedness, but with the unleavened bread of sincerity and truth.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Alleluia, alleluia\n*Sl. 117:24; 117:1*\nThis is the day which the Lord hath made: let us rejoice and be glad in it.\nV. Give praise unto the Lord, for He is good: for His mercy endureth for ever Alleluia, alleluia.\n*1 Cor. 5. 7*\nChrist our Pasch is immolated.", 
@@ -91,37 +91,37 @@
       {
         "body": "Christians! to the Paschal Victim offer your thankful praises.\nThe Lamb the sheep redeemeth: Christ, who only is sinless, reconcileth sinners to the Father.\nDeath and life contended in that conflict stupendous: the Prince of Life, who died, deathless reigneth.\nSpeak, Mary, declaring what thou sawest wayfaring.\n\"The tomb of Christ who now liveth: and likewise the glory of the Risen.\nBright Angels attesting, the shroud and napkin resting.\nYea, Christ my hope is arisen: to Galilee He goeth before you.\"\nWe know that Christ is risen, henceforth ever living: Have mercy, Victor King, pardon giving. Amen. Alleluia.", 
         "id": "Sequentia", 
-        "label": "Sequence"
+        "label": "Sequ\u00eancia"
       }, 
       {
         "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Marcos.\n*Mc 16:1-7*\nAt that time, Mary Magdalen, and Mary the mother of James, and Salome bought sweet spices, that coming they might anoint Jesus. And very early in the morning, the first day of the week, they came to the sepulchre, the sun being now risen. And they said one to another: Who shall roll us back the stone from the door of the sepulchre? And looking, they saw the stone rolled back. For it was very great. And entering into the sepulchre, they saw a young man sitting on the right side, clothed with a white robe, and they were astonished. Who saith to them, Be not affrighted; ye seek Jesus of Nazareth, who was crucified: He is risen, He is not here; behold the place where they laid Him. But go, tell His disciples, and Peter, that He goeth before you into Galilee; there you shall see Him, as He told you.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl. 75:9-10.*\nThe earth trembled and was still when God arose in judgment, alleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "We beseech Thee, O Lord, accept the prayers of Thy people together with the Sacrifice they offer, that what has been begun by the Paschal Mysteries, by Thy working may profit us unto eternal healing.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*1 Cor 5:7-8*\nChrist our Pasch is immolated, alleluia: therefore let us feast with the unleavened bread of sincerity and truth, alleluia, alleluia, alleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Pour forth upon us, O Lord, the spirit of Thy love, that, by Thy loving kindness, Thou mayest make to be of one mind those whom Thou hast satisfied with the Paschal Sacraments.\nPor nosso Senhor.", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

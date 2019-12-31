@@ -66,17 +66,17 @@
       {
         "body": "*Sl. 26:7-9.*\nHear, O Lord, the sound of my call, alleluia; to You my heart speaks; Your glance I seek; Your presence, O Lord, I seek. Hide not Your face from me, alleluia, alleluia.\n*Sl. 26:1.*\nThe Lord is my light and my salvation; whom should I fear?\nGl\u00f3ria ao Pai.\nHear, O Lord, the sound of my call, alleluia; to You my heart speaks; Your glance I seek; Your presence, O Lord, I seek. Hide not Your face from me, alleluia, alleluia.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "Almighty and eternal God, give us a will ever dedicated to You, and a true heart to serve Your majesty.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the first letter of St. Peter the Apostle\n*1 Pet 4:7-11.*\nBeloved: Be prudent and watchful in prayers. But above all things have a constant mutual charity among yourselves: for charity covers a multitude of sins. Be hospitable to one another without murmuring. According to the gift that each has received, minister it to one another as good stewards of the manifold grace of God. If anyone speaks, let it be as with words of God. If anyone ministers, let it be as from the strength that God furnishes; that in all things God may be honored through Jesus Christ our Lord.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "Alleluia, alleluia.\n*Sl. 46:9.*\nV. The Lord reigns over all the nations, God sits upon His holy throne. Alleluia.\n*Jo 14:18*\nV. I will not leave you orphans; I go away and I come to you, and your heart shall rejoice. Alleluia.", 
@@ -86,32 +86,32 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to John\n*Jo 15:26-27; 16:1-4.*\nAt that time, Jesus said to His disciples: When the Advocate has come, Whom I will send you from the Father, the Spirit of truth Who proceeds from the Father, He will bear witness concerning Me. And you also will bear witness, because from the beginning you are with Me. These things I have spoken to you that you may not be scandalized. They will expel you from the synagogues. Yes, the hour is coming for everyone who kills you to think he is offering worship to God. And these things they will do because they have not known the Father nor Me. But these things I have spoken to you, that when the time for them has come you may remember that I told you.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Sl 46:6.*\nGod mounts His throne amid shouts of joy; the Lord, amid trumpet blasts. Alleluia.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "May this pure sacrifice cleanse us, O Lord, and impart to our minds the strength of heavenly grace.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Jo 17:12-13; 17:15*\nFather, while I was with them, I kept them whom You have given Me, alleluia; but now I am coming to You; I do not pray that You take them out of the world, but that You keep them from evil, alleluia, alleluia.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "We who have been filled with heavenly gifts beseech You, O Lord, grant us to continue giving thanks to You.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }
     ]
   }

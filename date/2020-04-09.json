@@ -86,17 +86,17 @@
       {
         "body": "*Gl 6:14.*\nBut it behooves us to glory in the cross of Our Lord Jesus Christ: in Whom is our salvation, life, and resurrection; by whom we are saved and delivered.\n*Sl. 66. 2*\nMay God have mercy on us, and bless us: may He cause the light of His countenance to shine upon us; and may He have mercy on us.\nBut it behooves us to glory in the cross of Our Lord Jesus Christ: in Whom is our salvation, life, and resurrection; by whom we are saved and delivered.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O God, from whom Judas received the punishment of his guilt, and the thief the reward of his confession: grant unto us the full fruit of Thy clemency; that even as in His Passion, our Lord Jesus Christ gave to each a retribution according to his merits, so having taken away our old sins, He may bestow upon us the grace of His Resurrection. Who with Thee liveth and reigneth in the unity of the Holy Ghost, God, world without end.\nQue convosco vive.", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Lesson from the first letter of blessed Paul the Apostle to the Corinthians\n*1 Cor 11:20-32.*\nBrethren, When you come therefore into one place, it is not now to eat the Lord's supper. For every one taketh before his own supper to eat. And one indeed is hungry and another is drunk. What, have you not houses to eat and to drink in? Or despise ye the church of God and put them to shame that have not? What shall I say to you? Do I praise you? In this I praise you not. For I have received of the Lord that which I also delivered unto you, that the Lord Jesus, the same night in which He was betrayed, took bread, and giving thanks, broke and said: Take ye and eat: This is My Body, which shall be delivered for you. This do for the commemoration of Me. In like manner also the chalice, after He had supped, saying: This chalice is the new testament in My Blood. This do ye, as often as you shall drink, for the commemoration of Me. For as often as you shall eat this bread and drink the chalice, you shall show the death of the Lord, until He come. Therefore, whosoever shall eat this bread, or drink the chalice of the Lord unworthily, shall be guilty of the Body and the Blood of the Lord. But let a man prove himself; and so let him eat of that bread and drink of the chalice. For he that eateth and drinketh unworthily eateth and drinketh judgment to himself, not discerning the Body of the Lord. Therefore are there many infirm and weak among you: and many sleep. But if we would judge ourselves, we should not be judged. But whilst we are judged, we are chastised by the Lord, that we be not condemned with this world.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Fl 2:8-9*\nChrist became obedient for us unto death, even to the death of the cross.\nV. For which cause God also exalted Him and hath given Him a Name which is above all names.", 
@@ -106,27 +106,27 @@
       {
         "body": "Continuation \u2629 of the holy Gospel according to John\n*Jo 13:1-15*\nBefore the festival-day of the Pasch, Jesus knowing that His hour was come, that He should pass out of this world to the Father, having loved His own who were in the world. He loved them unto the end. And when supper was done - the devil having now put into the heart of Judas, the son of Simon the Iscariot, to betray Him, - knowing that the Father had given Him all things into His hands and that He came from God and goeth to God: He riseth from supper and layeth aside His garments and, having taken a towel, girded Himself. After that, He putteth water into a basin and began to wash the feet of the disciples and to wipe them with the towel wherewith He was girded. He cometh therefore to Simon Peter. And Peter saith to Him: Lord, dost Thou wash my feet? Jesus answered and said to him: What I do, thou knowest not now: but thou shalt know hereafter. Peter saith to Him: Thou shalt never wash my feet. Jesus answered him: If I wash thee not, thou shalt have no part with Me. Simon Peter saith to Him: Lord, not only my feet, but also my hands and my head. Jesus saith to him: He that is washed needeth not but to wash his feet, but is clean wholly. And you are clean, but not all. For He knew who he was that would betray Him; therefore He said: You are not all clean. Then after He had washed their feet and taken His garments, being set down again, He said to them: Know you what I have done to you? You call Me Master and Lord. And you say well; for so I am. If then I being your Lord and Master, have washed your feet, you also ought to wash one another's feet. For I have given you an example, that as I have done to you, so you do also.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "", 
         "id": "Maundi", 
-        "label": "Washing of the feet"
+        "label": "Quinta-feira Santa"
       }, 
       {
         "body": "*Sl 117:16 et 17.*\nThe right hand of the Lord hath wrought strength: the right hand of the Lord hath exalted me. I shall not die, but live, and shall declare the works of the Lord.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "We beseech Thee, O holy Lord, Father almighty, everlasting God, that He Himself may render our Sacrifice acceptable to Thee, Who, by the tradition of today, taught His disciples to do this in remembrance of Him, Jesus Christ, Thy Son, our Lord,\nQue convosco vive.", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "*da Santa Cruz*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que estabelecestes na \u00e1rvore da Cruz a salva\u00e7\u00e3o do g\u00e9nero humano, para que renascesse a vida, onde a morte houvera princ\u00edpio, e que aquilo que outrora vencera na \u00e1rvore, fosse vencido na \u00e1rvore tamb\u00e9m, por Jesus Cristo, nosso Senhor: pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos C\u00e9us e os bem-aventurados Serafins a celebram em comuns transportes de alegria: aos quais, Vos suplicamos, permiti que se unam as nossas vozes, dizendo em humilde e suplicante confiss\u00e3o:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "Communicating and celebrating the most sacred day in which our Lord Jesus Christ was betrayed for us: and also honoring in the first place the memory of the glorious and ever Virgin Mary, mother of our God and Lord Jesus Christ:\n(rubrica 1960 dicitur)\nas also of the blessed Joseph, her Spouse,\nand of the blessed Apostles and Martyrs Peter and Paul, Andrew, James, John, Thomas, James, Philip, Bartholomew, Matthew, Simon, and Thaddeus; Linus, Cletus, Clement, Xystus, Cornelius, Cyprian, Lawrence, Chrysogonus, John and Paul, Cosmas and Damian, and of all Thy Saints, through whose merits and prayers, grant that we may in all things be defended by the help of Thy protection. (He joins his hands.) Through the same Christ our Lord. Amen.\n\n\n*Tenens manus expansas super Oblata, dicit:*\nWe therefore beseech Thee, O Lord, graciously to accept this offering of our service, and that of Thy whole family, which we make to Thee in memory of the day on which our Lord Jesus Christ gave to His disciples the Mysteries of His Body and Blood to be celebrated; and to dispose our day in Thy peace preserve us from eternal damnation, and rank us in the number of Thine Elect. (He joins his hands.) Through the same Christ our Lord. Amen.\n\n\nWhich oblation do Thou, O God, vouchsafe in all respects, (He signs thrice the oblation with the Sign of the Cross.) to bless, \u2629 approve, \u2629 ratify, \u2629 make worthy and acceptable; (He signs again the Host and chalice with the Sign of the Cross.) that it may be made for us the Body \u2629 and Blood \u2629 of Thy most beloved Son Jesus Christ our Lord.\n\n\nWho, the day before He suffered for our salvation and that of all men, that is, on this day, took bread into His most sacred and venerable hands (He raises his eyes to heaven.) and with His eyes lifted up towards heaven unto Thee, God, His almighty Father, giving thanks to Thee, (He signs the host with the Sign of the Cross) He blessed \u2629 it, broke it and gave it to His disciples saying: Take and eat ye all of this,", 
@@ -136,17 +136,17 @@
       {
         "body": "*Jo 13:12, 13 et*\nThe Lord Jesus, after He had supped with His disciples, washed their feet, and said to them: Know you what I, your Lord and Master, have done to you? I gave you an example, that you also may do likewise.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "Strengthened with life-giving Food, we beseech Thee, O Lord, our God, that what we do in our mortal life may bring us to the reward of life immortal with Thee.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "", 
         "id": "Post Missam", 
-        "label": "After the Mass"
+        "label": "Depois da Missa"
       }
     ]
   }

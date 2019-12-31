@@ -81,12 +81,12 @@
       {
         "body": "*Sl 46:2*\nAll you peoples clap your hands, shout to God with cries of gladness.\n*Sl 46:3*\nFor the Lord, the Most High, the awesome, is the great King over all the earth.\nGl\u00f3ria ao Pai.\nAll you peoples clap your hands, shout to God with cries of gladness.", 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": "O God, Whose providence never fails to set things in order, we humbly beseech You to remove from us whatever is harmful and grant whatever is for our benefit.\nPor nosso Senhor", 
         "id": "Oratio", 
-        "label": "Collect"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\nProsimy Ci\u0119, Panie, aby \u015bwi\u0119ta Krystyna, Dziewica i M\u0119czennica Twoja, wyb\u0142aga\u0142a nam przebaczenie; ona bowiem zawsze podoba\u0142a si\u0119 Tobie dzi\u0119ki zas\u0142udze czysto\u015bci i wyznaniu Twojej mocy.\nPor nosso Senhor", 
@@ -96,7 +96,7 @@
       {
         "body": "Lesson from the letter of St. Paul the Apostle to the Romans\n*Rom 6:19-23*\nBrethren: I speak in a human way because of the weakness of your flesh; for as you yielded your members as slaves of uncleanness and iniquity unto iniquity, so now yield your members as slaves of justice unto sanctification. For when you were slaves of sin, you were free as regards justice. But what fruit had you then from those things of which you are now ashamed? For the end of these things is death. But now set free from sin and become slaves to God, you have your fruit unto sanctification, and as your end, life everlasting. For the wages of sin is death, but the gift of God is life everlasting in Christ Jesus our Lord.", 
         "id": "Lectio", 
-        "label": "Epistle"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": "*Sl 33:12, 6.*\nCome, children, hear me; I will teach you the fear of the Lord.\nV. Look to Him that you may be radiant with joy, and your faces may not blush with shame. \n*Sl 46:2*\nV. All you peoples, clap your hands, shout to God with cries of gladness. ", 
@@ -106,17 +106,17 @@
       {
         "body": "Continuation \u2629 of the Holy Gospel according to Matthew\n*Mt. 7:15-21*\nAt that time, Jesus said to His disciples: Beware of false prophets, who come to you in sheep\ufffds clothing, but inwardly are ravenous wolves. By their fruits you will know them. Do men gather grapes from thorns, or figs from thistles? Even so, every good tree bears good fruit, but the bad tree bears bad fruit. A good tree cannot bear bad fruit, nor can a bad tree bear good fruit. Every tree that does not bear good fruit is cut down and thrown into the fire. Therefore, by their fruits you will know them. Not everyone who says to Me, \ufffdLord, Lord,\ufffd shall enter the kingdom of heaven; but he who does the will of My Father in heaven shall enter the kingdom of heaven.", 
         "id": "Evangelium", 
-        "label": "Gospel"
+        "label": "Evangelho"
       }, 
       {
         "body": "*Dan 3:40*\nAs though it were holocausts of rams and bullocks, or thousands of fat lambs, so let our sacrifice be in Your presence today, that it may please You; for those who trust in You cannot be put to shame, O Lord.", 
         "id": "Offertorium", 
-        "label": "Offertory"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": "O God, You Who have given us in one perfect sacrifice the fulfillment of the various sacrifices made under the Old Law, accept these sacrificial gifts offered You by Your devoted servants, and make them holy as You did the gifts of Abel, so that what each one of us has offered in praise of Your majesty may profit for the salvation of all.\nPor nosso Senhor", 
         "id": "Secreta", 
-        "label": "Secret"
+        "label": "Secreta"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\nProsimy Ci\u0119, Panie, przyjmij \u0142askawie ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy przez zas\u0142ugi \u015bwi\u0119tej Krystyny, Twojej Dziewicy i M\u0119czennicy, i spraw, by nam nieustann\u0105 by\u0142a pomoc\u0105.\nPor nosso Senhor", 
@@ -126,17 +126,17 @@
       {
         "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
-        "label": "Preface"
+        "label": "Pref\u00e1cio"
       }, 
       {
         "body": "*Sl 30:3*\nIncline Your ear to me, make haste to deliver me.", 
         "id": "Communio", 
-        "label": "Communion"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": "May Your healing action, O Lord, mercifully rid us of our evil inclinations and lead us to do good.\nPor nosso Senhor", 
         "id": "Postcommunio", 
-        "label": "Postcommunion"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": "* Comemora\u00e7\u00e3o None *\nDarem Bo\u017cym szczodrze nasyceni, prosimy Ci\u0119, Panie Bo\u017ce nasz, aby\u015bmy za wstawiennictwem \u015bwi\u0119tej Krystyny, Twojej Dziewicy i M\u0119czennicy, zawsze czerpali ze\u0144 \u017cycie.\nPor nosso Senhor", 
