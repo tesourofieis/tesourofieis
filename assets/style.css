@@ -9,7 +9,7 @@
   text-rendering: optimizeLegibility;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Cardo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cardo|Berkshire+Swash&display=swap");
 
 :root {
   --danger-color: #df2321;

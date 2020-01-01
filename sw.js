@@ -10,7 +10,7 @@ const bgSyncPlugin = new workbox.backgroundSync.Plugin("myQueueName", {
 });
 
 workbox.routing.registerRoute(
-  /\.(?:png|jpg|jpeg|svg|gif|css)$/,
+  /\.(?:png|jpg|jpeg|svg|gif)$/,
   new workbox.strategies.CacheFirst(
     {
       plugins: [bgSyncPlugin]
