@@ -1,9 +1,8 @@
-YEAR_FROM=2019
+YEAR_FROM=2020
 YEAR_TO=2021
 itr=0
 for year in `seq $YEAR_FROM $YEAR_TO`; do
     echo $year
-    curl -s 0.0.0.0:5000/pt/api/v2/calendar/2019 > ./date/2019.json
     curl -s 0.0.0.0:5000/pt/api/v2/calendar/2020 > ./date/2020.json
 
     while [ 1 ]; do

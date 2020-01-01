@@ -5,7 +5,7 @@
         "Paramentos brancos"
       ], 
       "date": "2020-02-11", 
-      "description": "11 lutego 1858 r., 4 lata po og\u0142oszeniu dogmatu Niepokalanego Pocz\u0119cia, Matka Bo\u017ca objawi\u0142a si\u0119 czternastoletniej pasterce \u015bw. Bernadecie Soubirous. W czasie nast\u0119pnych objawie\u0144 Matka Bo\u017ca wzywa\u0142a do modlitwy i pokuty oraz poleci\u0142a wznie\u015b\u0107 na tym miejscu ko\u015bci\u00f3\u0142. 25 marca objawi\u0142a swoje imi\u0119: \u00abJa jestem Niepokalane Pocz\u0119cie\u00bb. Wkr\u00f3tce Lourdes zas\u0142yn\u0119\u0142o z licznych uzdrowie\u0144 i nawr\u00f3ce\u0144. Obok groty, w ktr\u00f3rej wytrysn\u0119\u0142o cudowne \u017ar\u00f3d\u0142o, wznosz\u0105 si\u0119 dwie bazyliki obs\u0142uguj\u0105ce wci\u0105\u017c rosn\u0105cy ruch pielgrzymkowy. Lourdes sta\u0142o si\u0119 \u015bwiatowym centrum czci Matki Bo\u017cej.\n", 
+      "description": "", 
       "id": "sancti:02-11:3", 
       "rank": 3, 
       "supplements": [], 
@@ -66,37 +66,37 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Apoc 21:2*\nUjrza\u0142em \u015bwi\u0119te miasto, Jeruzalem nowe, zst\u0119puj\u0105ce z nieba od Boga, gotowe jak oblubienica strojna dla m\u0119\u017ca swego.\n*Sl 44:2*\nZ mego serca p\u0142ynie pi\u0119kne s\u0142owo, pie\u015b\u0144 moj\u0105 \u015bpiewam dla Kr\u00f3la.\nGl\u00f3ria ao Pai.\nUjrza\u0142em \u015bwi\u0119te miasto, Jeruzalem nowe, zst\u0119puj\u0105ce z nieba od Boga, gotowe jak oblubienica strojna dla m\u0119\u017ca swego.", 
+        "body": "*Apoc 21:2*\nVi a cidade santa, a nova Jerusal\u00e9m, que descia do c\u00e9u, vinda de Deus, adornada como uma esposa que est\u00e1 preparada para receber o seu esposo.\n*Sl 44:2*\nMeu cora\u00e7\u00e3o exprimiu uma palavra excelente: \u00abConsagro as minhas obras ao Rei\u00bb.\nGl\u00f3ria ao Pai.\nVi a cidade santa, a nova Jerusal\u00e9m, que descia do c\u00e9u, vinda de Deus, adornada como uma esposa que est\u00e1 preparada para receber o seu esposo.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Bo\u017ce, kt\u00f3ry\u015b przez Niepokalane Pocz\u0119cie Naj\u015bwi\u0119tszej Dziewicy przygotowa\u0142 Synowi Swojemu godne mieszkanie, kornie Ci\u0119 prosimy, aby\u015bmy obchodz\u0105c \u015bwi\u0119to Jej objawienia, osi\u0105gn\u0119li zdrowie duszy i cia\u0142a.\nPelo mesmo nosso Senhor.", 
+        "body": "\u00d3 Deus, que pela Imaculada Concei\u00e7\u00e3o da Virgem preparastes para vosso Filho uma morada digna d\u2019Ele, fazei, Vos suplicamos, que, celebrando a Apari\u00e7\u00e3o desta mesma Virgem, alcancemos a salva\u00e7\u00e3o da alma e do corpo.\nPelo mesmo nosso Senhor.", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Li\u00e7\u00e3o do Livro do Apocalipse do B. Ap.\u00ba Jo\u00e3o.\n*Ap 11:19; 12:1; 12:10*\nOtwar\u0142a si\u0119 \u015bwi\u0105tynia Bo\u017ca w niebiesiech i zjawi\u0142a si\u0119 arka testamentu Jego w \u015bwi\u0105tyni. I sta\u0142y si\u0119 b\u0142yskawice i wo\u0142ania, trz\u0119sienie ziemi i grad wielki.\nI ukaza\u0142 si\u0119 znak wielki na niebie: Niewiasta obleczone w s\u0142o\u0144ce i ksi\u0119\u017cyc u jej st\u00f3p, a na g\u0142owie jej korona z gwiazd dwunastu.\nI us\u0142ysza\u0142em g\u0142os dono\u015bny w niebie, m\u00f3wi\u0105cy: \u00abTeraz sta\u0142o si\u0119 zbawienie i pot\u0119ga, i kr\u00f3lowanie Boga naszego, i w\u0142adza Chrystusa Jego\u00bb.", 
+        "body": "Li\u00e7\u00e3o do Livro do Apocalipse do B. Ap.\u00ba Jo\u00e3o.\n*Ap 11:19; 12:1; 12:10*\nO templo de Deus foi aberto no c\u00e9u, e a arca da sua alian\u00e7a foi vista no seu templo. E ent\u00e3o houve rel\u00e2mpagos, vozes, tremor de terra e forte granizo. E apareceu no c\u00e9u um grande sinal: Uma mulher, revestida com o sol, a lua sob os seus p\u00e9s e uma coroa de doze estrelas na cabe\u00e7a. E ouvi no c\u00e9u uma voz forte clamar: \u00abAgora, foi operada a salva\u00e7\u00e3o. A soberania e o dom\u00ednio est\u00e3o em Deus e o poder no seu Cristo\u00bb.", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
       {
-        "body": "*Jdt 15:10*\n*Wed\u0142ug s\u0142\u00f3w \u015bw. Bernadety \u017caden wizerunek ziemski nie mo\u017ce odda\u0107 pi\u0119kno\u015bci Maryi.*\nTy\u015b chwa\u0142\u0105 Jeruzalem, Ty\u015b weselem Izraela, Ty\u015b chlub\u0105 ludu naszego.\n*Ct 4:7*\nCa\u0142a pi\u0119kna jeste\u015b, Maryjo, i zmazy pierworodnej nie ma w Tobie.\nV. B\u0142ogos\u0142awiona i godna czci jeste\u015b, Panno Maryjo, kt\u00f3ra\u015b dziewicz\u0105 stop\u0105 star\u0142a g\u0142ow\u0119 w\u0119\u017ca.", 
+        "body": "*Jdt 15:10*\nSois a gl\u00f3ria de Jerusal\u00e9m, a alegria de Israel, a honra do nosso povo.\n*Cant 4:7*\nV. Toda sois formosa, \u00f3 Maria; e a mancha original n\u00e3o existe em V\u00f3s.\nV. Sois bem-aventurada, Santa Virgem Maria, e dign\u00edssima de todo o louvor, pois com vosso p\u00e9 virginal esmagastes a cabe\u00e7a da serpente.", 
         "id": "Tractus", 
         "label": "Tracto"
       }, 
       {
-        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 1:26-31*\nOnego czasu: Pos\u0142any jest Anio\u0142 Gabriel od Boga do miasta galilejskiego, kt\u00f3re zwano Nazaret, do Panny po\u015blubionej m\u0119\u017cowi, kt\u00f3remu by\u0142o na imi\u0119 J\u00f3zef, z domu Dawidowego, a imi\u0119 Panny Maryja. I wszed\u0142szy do Niej Anio\u0142 rzek\u0142: \u00abB\u0105d\u017a pozdrowiona, \u0142aski pe\u0142na, Pan z Tob\u0105, b\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami\u00bb.\nA Ona, gdy pos\u0142ysza\u0142a, zatrwo\u017cy\u0142a si\u0119 na s\u0142owa jego i rozwa\u017ca\u0142a, c\u00f3\u017c by to by\u0142o za pozdrowienie. I rzek\u0142 Jej Anio\u0142: \u00abNie l\u0119kaj si\u0119, Maryjo, albowiem znalaz\u0142a\u015b \u0142ask\u0119 u Boga! Oto poczniesz w \u0142onie i porodzisz syna, i nadasz Mu imi\u0119 Jezus\u00bb.", 
+        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 1:26-31*\nNaquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da Galileia, chamada Nazar\u00e9, a uma Virgem, desposada com um var\u00e3o, cujo nome era Jos\u00e9, da casa de David; e o nome da Virgem era Maria. Entrando o Anjo onde ela estava, disse: \u00abEu te sa\u00fado, cheia de gra\u00e7a: o Senhor \u00e9 contigo: bendita \u00e9s tu entre todas as mulheres\u00bb. Ouvindo ela isto, perturbou-se, e pensava na significa\u00e7\u00e3o desta sauda\u00e7\u00e3o. Ent\u00e3o, disse-lhe o Anjo: \u00abN\u00e3o temas, Maria, porquanto alcan\u00e7aste gra\u00e7a diante do Senhor: eis que conceber\u00e1s no teu seio e dar\u00e1s \u00e0 luz um Filho, e o seu nome ser\u00e1 Jesus\u00bb.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Lc 1:28*\nZdrowa\u015b Maryjo, \u0142aski pe\u0142na, Pan z Tob\u0105, b\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami.", 
+        "body": "*Lc 1:28*\nAve, \u00f3 cheia de gra\u00e7a; o Senhor \u00e9 convosco; bendita sois entre as mulheres.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Ofiara uwielbienia, kt\u00f3r\u0105 Tobie, Panie, sk\u0142adamy przez zas\u0142ugi chwalebnej i Niepokalanej Dziewicy, niech Ci b\u0119dzie jako wonno\u015b\u0107 mi\u0142a, nam za\u015b niech wyjedna upragnione zdrowie cia\u0142a i duszy.\nPor nosso Senhor", 
+        "body": "Que a h\u00f3stia de louvor, que Vos oferecemos, Senhor, seja de agrad\u00e1vel odor pata V\u00f3s, pelos m\u00e9ritos da gloriosa e Imaculada Virgem, e nos alcance a desejada sa\u00fade do corpo e da alma.\nPor nosso Senhor", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -106,12 +106,12 @@
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Sl 64:10*\n*W grocie Massabielskiej wytrysn\u0119\u0142o \u017ar\u00f3d\u0142o obdarzone cudown\u0105 moc\u0105.*\nTy\u015b ziemi\u0119 nawiedzi\u0142 i nawodni\u0142, obficie j\u0105 wzbogaci\u0142e\u015b.", 
+        "body": "*Sl 64:10*\nVisitastes a terra e inebriaste-la; encheste-la com muitas riquezas.", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Panie, niech\u017ce nas, kt\u00f3rych posili\u0142e\u015b pokarmem niebieskim, d\u017awiga prawica Niepokalanej Rodzicielki Twojej, aby\u015bmy przy Jej pomocy zas\u0142u\u017cyli na doj\u015bcie do wiekuistej ojczyzny:\n\u00d3 V\u00f3s, que viveis.", 
+        "body": "Saciados com o alimento celestial, permiti-nos, Senhor, que a m\u00e3o da vossa M\u00e3e Imaculada nos sustente, para que com a gra\u00e7a da sua protec\u00e7\u00e3o mere\u00e7amos chegar at\u00e9 \u00e0 p\u00e1tria eterna.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }
