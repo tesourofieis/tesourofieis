@@ -3,54 +3,11 @@ layout: default
 title: Ordo Missæ
 ---
 
-<div class="col-lg-2">
+<div class="col-2 desktop">
 	<nav id="toc" data-spy="affix" data-toggle="toc" class="toc-ordo"></nav>
 </div>
 
-<div class="col-lg-2 info">
-	<nav id="toc" data-spy="affix" class="toc-ordo">
-		<nav class="nav nav-pills flex-column">
-			<a class="nav-link" href="#item-1"></a>
-				<nav class="nav nav-pills flex-column">
-					<a class="nav-link ml-3" href="#item-1-1"></a>
-					<a class="nav-link ml-3" href="#item-1-2"></a>
-					<a class="nav-link ml-3" href="#item-1-3"></a>
-					<a class="nav-link ml-3" href="#item-1-4"></a>
-					<a class="nav-link ml-3" href="#item-1-5"></a>
-					<a class="nav-link ml-3" href="#item-1-6"></a>
-					<a class="nav-link ml-3" href="#item-1-7"></a>
-					<a class="nav-link ml-3" href="#item-1-8"></a>
-					<a class="nav-link ml-3" href="#item-1-9"></a>
-					<a class="nav-link ml-3" href="#item-1-10"></a>
-					<a class="nav-link ml-3" href="#item-1-11"></a>
-				</nav>
-			<a class="nav-link" href="#item-2"></a>
-				<nav class="nav nav-pills flex-column">
-					<a class="nav-link ml-3" href="#item-2-1"></a>
-					<a class="nav-link ml-3" href="#item-2-2"></a>
-					<a class="nav-link ml-3" href="#item-2-3"></a>
-					<a class="nav-link ml-3" href="#item-2-4"></a>
-					<a class="nav-link ml-3" href="#item-2-5"></a>
-					<a class="nav-link ml-3" href="#item-2-6"></a>
-					<a class="nav-link ml-3" href="#item-2-7"></a>
-					<a class="nav-link ml-3" href="#item-2-8"></a>
-					<a class="nav-link ml-3" href="#item-2-9"></a>
-					<a class="nav-link ml-3" href="#item-2-10"></a>
-					<a class="nav-link ml-3" href="#item-2-11"></a>
-					<a class="nav-link ml-3" href="#item-2-12"></a>
-					<a class="nav-link ml-3" href="#item-2-13"></a>
-					<a class="nav-link ml-3" href="#item-2-14"></a>
-					<a class="nav-link ml-3" href="#item-2-15"></a>
-					<a class="nav-link ml-3" href="#item-2-16"></a>
-					<a class="nav-link ml-3" href="#item-2-17"></a>
-					<a class="nav-link ml-3" href="#item-2-18"></a>
-				</nav>
-		</nav>
-	</nav>
-</div>
-
-
-<div class="col-sm-10">
+<div class="col-md-10">
 
 <h1 class="text-center">Ordo Missæ</h1>
 
@@ -347,8 +304,20 @@ Vos pedimos, Senhor, pelos méritos dos vossos Santos, cujas relíquias estão a
 
 <em>Nas Missas solenes, incensa-se o altar. O Sacerdote vai para o lado da Epístola, e lê o Intróito. Canto solene de entrada, o Intróito como que enuncia o tema geral da Missa ou solenidade do dia. Às primeiras palavras, todos se benzem, ao mesmo tempo que o celebrante.</em>
 
-<p class="text-center"><a href="https://tesourofieis.com/missa"><i class="fa fa-link" aria-hidden="true"></i>
- Ir para a Missa do dia</a></p>
+<main class="col-12" id="introitusText"></main>
+
+<script id="introitus" type="text/x-custom-template">
+    <div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${introitusLabelLatin}</h4>
+			<p>${introitusLatin}</p>
+		</div>
+        <div class="col-6 section-vernacular">
+			<h4 class="text-center">${introitusLabelVernacular}</h4>
+            <p>${introitusVernacular}</p>
+        </div>
+    </div>
+</script>
 
 <h3 id="item-1-4" class="text-center">Kyrie Eleison</h3>
 
@@ -464,8 +433,20 @@ Glória a Deus nas alturas e paz na terra aos homens de boa vontade. Nós Vos lo
 </div>
 </div>
 
-<p class="text-center"><a href="https://tesourofieis.com/missa"><i class="fa fa-link" aria-hidden="true"></i>
- Ir para a Missa do dia</a></p>
+<main class="col-12" id="oratioText"></main>
+
+<script id="oratio" type="text/x-custom-template">
+    <div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${oratioLabelLatin}</h4>
+			<p>${oratioLatin}</p>
+		</div>
+        <div class="col-6 section-vernacular">
+			<h4 class="text-center">${oratioLabelVernacular}</h4>
+            <p>${oratioVernacular}</p>
+        </div>
+    </div>
+</script>
 
 <div class="container-fluid">
 <div class="row">
@@ -486,28 +467,50 @@ Glória a Deus nas alturas e paz na terra aos homens de boa vontade. Nós Vos lo
 
 <h3 id="item-1-7" class="text-center">Epístola</h3>
 
-<p class="text-center"><a href="https://tesourofieis.com/missa"><i class="fa fa-link" aria-hidden="true"></i>
- Ir para a Missa do dia</a></p>
+<main class="col-12" id="lectioText"></main>
 
-<em>No fim, diz-se:</em>
+<script id="lectio" type="text/x-custom-template">
+    <div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${lectioLabelLatin}</h4>
+			<p>${lectioLatin}</p>
+		</div>
+        <div class="col-6 section-vernacular">
+			<h4 class="text-center">${lectioLabelVernacular}</h4>
+            <p>${lectioVernacular}</p>
+        </div>
+    </div>
+</script>
 
 <div class="container-fluid">
-<div class="row">
-<div class="col-6 text-justify">
-<span class="text-danger">℟.</span> Deo grátias.
-</div>
-<div class="col-6 text-justify">
-<span class="text-danger">℟.</span> Graças a Deus.
-</div>
-</div>
+	<div class="row">
+		<div class="col-6 text-justify">
+			<span class="text-danger">℟.</span> Deo grátias.
+		</div>
+		<div class="col-6 text-justify">
+			<span class="text-danger">℟.</span> Graças a Deus.
+		</div>
+	</div>
 </div>
 
 <h3 id="item-1-8" class="text-center">Gradual</h3>
 
 <em>A oração curta de acção de graças, consiste geralmente de dois ou três versos retirados dos Salmos ou do Antigo Testamento.</em>
 
-<p class="text-center"><a href="https://tesourofieis.com/missa"><i class="fa fa-link" aria-hidden="true"></i>
- Ir para a Missa do dia</a></p>
+<main class="col-12" id="gradualeText"></main>
+
+<script id="graduale" type="text/x-custom-template">
+	<div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${gradualeLabelLatin}</h4>
+			<p>${gradualeLatin}</p>
+		</div>
+		<div class="col-6 section-vernacular">
+			<h4 class="text-center">${gradualeLabelVernacular}</h4>
+			<p>${gradualeVernacular}</p>
+		</div>
+	</div>
+</script>
 
 <em>No Tempo da Septuagésima, o Allelúja é substituído pelo Trato. No Tempo Pascal, omite-se o Gradual, e dizem-se dois Allelúja.</em>
 
@@ -541,11 +544,7 @@ Dignai-Vos, Senhor, abençoar-me. Que o Senhor esteja no meu coração e nos meu
 
 <h3 id="item-1-9" class="text-center">Evangelho</h3>
 
-
 <em>É um momento solene! Toda a assistência está de pé.</em>
-
-<p class="text-center"><a href="https://tesourofieis.com/missa"><i class="fa fa-link" aria-hidden="true"></i>
- Ir para a Missa do dia</a></p>
 
 <div class="container-fluid">
 <div class="row">
@@ -589,6 +588,21 @@ Dignai-Vos, Senhor, abençoar-me. Que o Senhor esteja no meu coração e nos meu
 </div>
 </div>
 
+<main class="col-12" id="evangeliumText"></main>
+
+<script id="evangelium" type="text/x-custom-template">
+	<div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${evangeliumLabelLatin}</h4>
+			<p>${evangeliumLatin}</p>
+		</div>
+		<div class="col-6 section-vernacular">
+			<h4 class="text-center">${evangeliumLabelVernacular}</h4>
+			<p>${evangeliumVernacular}</p>
+		</div>
+	</div>
+</script>
+
 <em>Digamos solenemente:</em>
 
 <div class="container-fluid">
@@ -604,7 +618,7 @@ Dignai-Vos, Senhor, abençoar-me. Que o Senhor esteja no meu coração e nos meu
 
 <h3 id="item-1-10" class="text-center">Homilia</h3>
 
-<em>Explicaçãodo Evangelho.</em>
+<em>Explicação do Evangelho.</em>
 
 <h3 id="item-1-11" class="text-center">Credo</h3>
 
@@ -675,8 +689,20 @@ Também por nós foi crucificado sob Pôncio Pilatos, padeceu e foi sepultado. R
 
 <h3 id="item-2-2" class="text-center">Ofertório</h3>
 
-<p class="text-center"><a href="https://tesourofieis.com/missa"><i class="fa fa-link" aria-hidden="true"></i>
- Ir para a Missa do dia</a></p>
+<main class="col-12" id="offertoriumText"></main>
+
+<script id="offertorium" type="text/x-custom-template">
+	<div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${offertoriumLabelLatin}</h4>
+			<p>${offertoriumLatin}</p>
+		</div>
+		<div class="col-6 section-vernacular">
+			<h4 class="text-center">${offertoriumLabelVernacular}</h4>
+			<p>${offertoriumVernacular}</p>
+		</div>
+	</div>
+</script>
 
 <h4 class="text-center">Oferecimento do pão:</h4>
 
@@ -897,8 +923,20 @@ Glória ao Pai, e ao Filho, e ao Espírito Santo. Assim como era no princípio, 
 
 <h3 id="item-2-3" class="text-center">Secreta</h3>
 
-<p class="text-center"><a href="https://tesourofieis.com/missa"><i class="fa fa-link" aria-hidden="true"></i>
- Ir para a Missa do dia</a></p>
+<main class="col-12" id="secretaText"></main>
+
+<script id="secreta" type="text/x-custom-template">
+	<div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${secretaLabelLatin}</h4>
+			<p>${secretaLatin}</p>
+		</div>
+		<div class="col-6 section-vernacular">
+			<h4 class="text-center">${secretaLabelVernacular}</h4>
+			<p>${secretaVernacular}</p>
+		</div>
+	</div>
+</script>
 
 <div class="container-fluid">
 <div class="row">
@@ -964,7 +1002,20 @@ Glória ao Pai, e ao Filho, e ao Espírito Santo. Assim como era no princípio, 
 
 <h3 id="item-2-5" class="text-center">Prefácio</h3>
 
-<em>O Prefácio da SS. Trindade diz-se nas festas e nas Missas votivas da SS. Trindade e em todos os Domingos do ano, excepto nas festas que tiverem próprio (nestas deve-se procurar o Prefácio próprio):</em>
+<main class="col-12" id="prefatioText"></main>
+
+<script id="prefatio" type="text/x-custom-template">
+	<div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${prefatioLabelLatin}</h4>
+			<p>${prefatioLatin}</p>
+		</div>
+		<div class="col-6 section-vernacular">
+			<h4 class="text-center">${prefatioLabelVernacular}</h4>
+			<p>${prefatioVernacular}</p>
+		</div>
+	</div>
+</script>
 
 <h3 id="item-2-6" class="text-center">Sanctus</h3>
 
@@ -1270,37 +1321,37 @@ Pai nosso que estais nos céus; santificado seja o vosso nome; venha a nós o vo
 </div>
 </div>
 
-<h4 class="text-center">Líbera nos</h4>
-
 <em>O Sacerdote diz Amen em voz baixa, e continua:</em>
 
+<h4 class="text-center">Líbera nos</h4>
+
 <div class="container-fluid">
-<div class="row">
-<div class="col-6 dropcaps text-justify">
-Libera nos, quǽsumus, Dómine, ab ómnibus malis, prætéritis, præséntibus et futúris: et intercedénte beáta et gloriósa semper Vírgine Dei Genetríce María, cum beátis Apóstolis tuis Petro et Paulo, atque Andréa, et ómnibus Sanctis, da propítius pacem in diébus nostris: ut, ope misericórdiæ tuæ adjúti, et a peccáto simus semper líberi et ab omni perturbatióne secúri.
-</div>
-<div class="col-6 dropcaps text-justify">
-Livrai-nos, Senhor, Vos suplicamos, de todos os males passados, presentes e futuros; e, pela intercessão da bem-aventurada e gloriosa sempre Virgem Maria, Mãe de Deus, e dos bem-aventurados Apóstolos Pedro e Paulo e André, e de todos os Santos, dai-nos, benignamente, a paz nos nossos dias, a fim de que auxiliados com vossa misericórdia, sejamos sempre livres do pecado e seguros de toda a perturbação.
-</div>
-</div>
+	<div class="row">
+		<div class="col-6 dropcaps text-justify">
+			Libera nos, quǽsumus, Dómine, ab ómnibus malis, prætéritis, præséntibus et futúris: et intercedénte beáta et gloriósa semper Vírgine Dei Genetríce María, cum beátis Apóstolis tuis Petro et Paulo, atque Andréa, et ómnibus Sanctis, da propítius pacem in diébus nostris: ut, ope misericórdiæ tuæ adjúti, et a peccáto simus semper líberi et ab omni perturbatióne secúri.
+		</div>
+		<div class="col-6 dropcaps text-justify">
+			Livrai-nos, Senhor, Vos suplicamos, de todos os males passados, presentes e futuros; e, pela intercessão da bem-aventurada e gloriosa sempre Virgem Maria, Mãe de Deus, e dos bem-aventurados Apóstolos Pedro e Paulo e André, e de todos os Santos, dai-nos, benignamente, a paz nos nossos dias, a fim de que auxiliados com vossa misericórdia, sejamos sempre livres do pecado e seguros de toda a perturbação.
+		</div>
+	</div>
 </div>
 
 <em>O Sacerdote descobre o Cálice, genuflecte e segura com os dedos polegar e indicador da mão direita a Hóstia, que ergue até ao cimo do cálice.</em>
 
 <h4 class="text-center">Fracção da Hóstia</h4>
 
-<em>O Sacerdote parte a Hóstia ao meio, de uma das partes tira um pequeno fragmento que deita no preciosíssimo Sangue, traçando antes, com ele, sobre o Cálice, três vezes, o sinal da cruz, e dizendo:</em>
 
 <div class="container-fluid">
-<div class="row">
-<div class="col-6 text-justify">
-Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum. Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus.
+	<div class="row">
+		<div class="col-6 text-justify">
+			Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum. Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus.
+		</div>
+		<div class="col-6 text-justify">
+			Pelo mesmo nosso Senhor Jesus Cristo, vosso Filho: que convosco vive e reina em unidade de Deus Espírito Santo.
+		</div>
+	</div>
 </div>
-<div class="col-6 text-justify">
-Pelo mesmo nosso Senhor Jesus Cristo, vosso Filho: que convosco vive e reina em unidade de Deus Espírito Santo.
-</div>
-</div>
-</div>
+<em>O Sacerdote parte a Hóstia ao meio, de uma das partes tira um pequeno fragmento que deita no preciosíssimo Sangue, traçando antes, com ele, sobre o Cálice, três vezes, o sinal da cruz, e dizendo:</em>
 
 <em>Depois, o Sacerdote, tendo entre os dedos da mão direita a Partícula, que fraccionou, coloca-a sobre o Cálice, que segura pelo nós, e acrescenta em voz alta:</em>
 
@@ -1454,6 +1505,19 @@ Como retribuirei ao Senhor os bens que Ele se dignou dispensar-me? Tomarei o Cá
 </div>
 </div>
 
+<em>Depois segura com a mão direita o Cálice pelo nó (enquanto a não esquerda empunha a patena), traça com o Cálice o sinal da Cruz e bebe o Sangue Divino! Neste momento diz:</em>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-6 text-justify">
+			Sanguis Dómini nostri Jesu Christi custódiat ánimam meam in vitam ætérnam. Amen.
+		</div>
+		<div class="col-6 text-justify">
+			Que o Sangue de nosso Senhor Jesus Cristo guarde a minha alma para a vida eterna. Amen.
+		</div>
+	</div>
+</div>
+
 <h4 class="text-center">Comunhão dos fiéis</h4>
 
 <em>Os fiéis, ou o acólito por eles, recitam o Confíteor:</em>
@@ -1470,7 +1534,6 @@ Como retribuirei ao Senhor os bens que Ele se dignou dispensar-me? Tomarei o Cá
 </div>
 
 <em>Batendo três vezes no peito:</em>
-
 
 <div class="container-fluid">
 <div class="row">
@@ -1595,8 +1658,20 @@ Senhor, que o vosso Corpo, que recebi, e o vosso sangue, que bebi, se unam intim
 
 <em>O Sacerdote passa para o lado direito do altar, e recita a antífona da Comunhão.</em>
 
-<p class="text-center"><a href="https://tesourofieis.com/missa"><i class="fa fa-link" aria-hidden="true"></i>
- Ir para a Missa do dia</a></p>
+<main class="col-12" id="communioText"></main>
+
+<script id="communio" type="text/x-custom-template">
+	<div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${communioLabelLatin}</h4>
+			<p>${communioLatin}</p>
+		</div>
+		<div class="col-6 section-vernacular">
+			<h4 class="text-center">${communioLabelVernacular}</h4>
+			<p>${communioVernacular}</p>
+		</div>
+	</div>
+</script>
 
 <div class="container-fluid">
 <div class="row">
@@ -1617,10 +1692,20 @@ Senhor, que o vosso Corpo, que recebi, e o vosso sangue, que bebi, se unam intim
 
 <h3 id="item-2-16" class="text-center">Pós-Comunhão</h3>
 
-<em>À Pós-comunhão principal da Missa podem, em certos casos, como para a Colecta, juntar-se outras.</em>
+<main class="col-12" id="postcommunioText"></main>
 
-<p class="text-center"><a href="https://tesourofieis.com/missa"><i class="fa fa-link" aria-hidden="true"></i>
- Ir para a Missa do dia</a></p>
+<script id="postcommunio" type="text/x-custom-template">
+	<div class="row">
+		<div class="col-6 section-latin">
+			<h4 class="text-center">${postcommunioLabelLatin}</h4>
+			<p>${postcommunioLatin}</p>
+		</div>
+		<div class="col-6 section-vernacular">
+			<h4 class="text-center">${postcommunioLabelVernacular}</h4>
+			<p>${postcommunioVernacular}</p>
+		</div>
+	</div>
+</script>
 
 <h3 id="item-2-17" class="text-center">Despedida e Bênção</h3>
 

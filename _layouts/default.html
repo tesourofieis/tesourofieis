@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 
 <html lang="pt">
-  {% include head.html %} {% include navbar.html %}
+  {% include head.html %}
+
+  {% include navbartop.html %}
 
   <body data-spy="scroll" data-target="#toc" data-offset="800">
-    {{ content }}
+    <div class="pt-3 pb-5 mb-5 container">
+    <div class="row">
+      {{ content }}
+    </div>
+    </div>
+    <div class="pt-5 mt-5">
+      {% include navbarbottom.html %}
+    </div>
   </body>
 
   {% include scripts.html %}

@@ -74,6 +74,7 @@ let tp15 = moment(new Date())
 
 workbox.precaching.precacheAndRoute([
   "./",
+  "./app.js",
   "./img/gitter.png",
   "./index",
   "./missa",
@@ -122,9 +123,9 @@ workbox.precaching.precacheAndRoute([
   "./assets/style.css",
   "./assets/script.js",
   "./assets/missa.css",
-  "./app.js",
   "./assets/common.js",
   "./assets/readings.js",
+  "./assets/ordoReadings.js",
   "./assets/conf-static.js",
   {
     url:
@@ -152,12 +153,12 @@ workbox.precaching.precacheAndRoute([
     revision: "5"
   },
   {
-    url: "https://fonts.googleapis.com/css?family=Cardo|Berkshire+Swash&display=swap",
+    url: "https://fonts.googleapis.com/css?family=Cardo|EB+Garamond&display=swap",
     revision: "6"
   },
   {
     url:
-      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css",
+      "https://cdn.jsdelivr.net/npm/@iconify/iconify@1.0.3/dist/iconify.min.js",
     revision: "7"
   },
   {

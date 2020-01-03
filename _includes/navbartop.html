@@ -1,38 +1,50 @@
-<nav class="navbar navbar-dark navbar-expand-xl fixed-top" id="main-nav">
+<nav class="navbar navbar-dark navbar-expand-xl fixed-top mobile">
 
   {% if page.title == "Santa Missa Diária" %}
   <button id="sidebar-collapse" class="navbar-toggler" type="button">
-    <span><a class="nav-brand d-inline-block"><i class="fa fa-calendar"></i></a></span>
+    <span><a class="nav-brand d-inline-block"><span class="iconify" data-icon="fa:calendar-o" data-inline="false"></span></a></span>
   </button>
   {% endif %}
 
-  <a class="nav-link navbar-brand" href="{{"/" | relative_url }}"><i class="fa fa-home d-inline-block"></i></a>
+  <a class="nav-link navbar-brand mx-auto" href="{{"/index" | relative_url }}"><img src="../img/faviconWhite.png" alt="logo"></a>
+
+</nav>
+
+<nav class="navbar navbar-dark navbar-expand-xl fixed-top desktop" id="main-nav">
+
+  {% if page.title == "Santa Missa Diária" %}
+  <button id="sidebar-collapse" class="navbar-toggler" type="button">
+    <span><a class="nav-brand d-inline-block"><span class="iconify" data-icon="fa:calendar-o" data-inline="false"></span></a></span>
+  </button>
+  {% endif %}
+
+  <a class="nav-link navbar-brand mr-0 mr-md-2" href="{{"/" | relative_url }}"><img src="../img/faviconWhite.png" alt="logo"></a>
 
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
     aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><span
       class="navbar-toggler-icon"></span></button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
     <ul class="navbar-nav mx-auto" id="myDIV">
 
       <li class="nav-item">
-        <a class="nav-link" href="/missa" id="item-dia">Santa Missa Diária</a>
+        <a class="nav-link text-white" href="/missa" id="item-dia">Santa Missa Diária</a>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="{{"/salterio" | relative_url }}" id="item-salterio">Saltério</a>
-      </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">Devocionário</a>
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">Devocionário</a>
+
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+          <a class="dropdown-item" href="{{"/salterio" | relative_url }}" id="item-salterio">Saltério</a>
 
-          <a class="dropdown-item" href="{{"/oracaomanha" | relative_url }}" id="item-oracao">Oração da Manhã</a>
+          <a class="dropdown-item" href="{{"/oracaomanha" | relative_url }}" id="item-oracaomanha">Oração da Manhã</a>
 
-          <a class="dropdown-item" href="{{"/angelus" | relative_url }}" id="item-oracao">Angelus</a>
+          <a class="dropdown-item" href="{{"/angelus" | relative_url }}" id="item-oracaoangelus">Angelus</a>
 
-          <a class="dropdown-item" href="{{"/oracaonoite" | relative_url }}" id="item-oracao">Oração da Noite</a>
+          <a class="dropdown-item" href="{{"/oracaonoite" | relative_url }}" id="item-oracaonoite">Oração da Noite</a>
 
           <div class="dropdown-divider"></div>
 
@@ -50,8 +62,9 @@
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">Missal Romano</a>
+
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
           <a class="dropdown-item" href="{{"/ordinariomissa" | relative_url }}" id="item-ordo">Ordo Missæ</a>
@@ -77,8 +90,9 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">Ritual Romano</a>
+
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
           <a class="dropdown-item" href="{{"/baptismo" | relative_url }}" id="item-baptismo">Baptismo</a>
@@ -88,39 +102,32 @@
           <a class="dropdown-item" href="{{"/requiem" | relative_url }}" id="item-requiem">Requiem</a>
           <a class="dropdown-item" href="{{"/penitencia" | relative_url }}" id="item-penitencia">Penitência</a>
 
-          <div class="dropdown-divider"></div>
-
         </div>
       </li>
 
-
-
       <li class="nav-item">
-        <a class="nav-link" href="{{"/verdadesfe" | relative_url }}" id="item-verdades">Verdades de Fé</a>
+        <a class="nav-link text-white" href="{{"/verdadesfe" | relative_url }}" id="item-verdades">Verdades de Fé</a>
+
       </li>
 
     </ul>
 
-    <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowr">
-      <li class="nav-item"><a class="navbar-brand nav-link" title="Melhore a Página" href="https://www.github.com/ofrades/tesourofieis/blob/master/{{ page.path }}"><i class="fa fa-pencil d-inline-block"></i></a></li>
-
-      <li class="nav-item"><a class="navbar-brand nav-link" title="Fale connosco" href="mailto:info@tesourofieis.com"><i class="fa fa-envelope d-inline-block" aria-hidden="true"></i></a></li>
-
-      <li class="nav-item"><a class="navbar-brand nav-link" title="Comunidade no Gitter (chatroom)" target="gitter"
-      href="https://gitter.im/tesourofieis/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link"><img src="/img/gitter.png" style="height: 25px;"></a></li>
-
-      <li class="nav-item"><a class="navbar-brand nav-link" title="Quer pagar o café?" target="buymeacoffee" href="https://www.buymeacoffee.com/SP41OgGsM"><i class="fa fa-coffee d-inline-block" aria-hidden="true"></i></a></li>
+    <ul class="navbar-nav flex-row">
+      <li class="nav-item"><a class="navbar-brand nav-link text-white" title="Melhore a Página" href="https://www.github.com/ofrades/tesourofieis/blob/master/{{ page.path }}"><span class="iconify" data-icon="fa:pencil" data-inline="false"></span></a></li>
+  
+      <li class="nav-item"><a class="navbar-brand nav-link text-white" title="Fale connosco" href="mailto:info@tesourofieis.com"><span class="iconify" data-icon="fa:envelope" data-inline="false"></span></a></li>
+  
+      <li class="nav-item"><a class="navbar-brand nav-link text-white" title="Comunidade no Gitter (chatroom)" target="gitter"
+      href="https://gitter.im/tesourofieis/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link"><span class="iconify" data-icon="fa:commenting" data-inline="false"></span></a></li>
+  
+      <li class="nav-item"><a class="navbar-brand nav-link text-white" title="Quer pagar o café?" target="buymeacoffee" href="https://www.buymeacoffee.com/SP41OgGsM"><span class="iconify" data-icon="fa:coffee" data-inline="false"></span></a></li>
     </ul>
-
-
-
+    
   </div>
-
-</nav <nav id="navspy" data-spy="affix" data-toggle="nav-link" class="navspy">
   
 </nav>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="iconify" data-icon="fa:arrow-up" data-inline="false"></span></button>
 
 <style>
   #myBtn {
@@ -128,7 +135,7 @@
     /* Hidden by default */
     position: fixed;
     /* Fixed/sticky position */
-    bottom: 20px;
+    bottom: 5rem;
     /* Place the button at the bottom of the page */
     right: 20px;
     /* Place the button 30px from the right */
@@ -166,4 +173,4 @@
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
-</script>
+</script

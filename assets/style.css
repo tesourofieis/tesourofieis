@@ -1,7 +1,7 @@
 /* GLOBAL */
 * {
   font-size: 100%;
-  font-family: "Cardo", serif;
+  font-family:  "Cardo", serif;
   font-display: swap;
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
@@ -9,7 +9,7 @@
   text-rendering: optimizeLegibility;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Cardo|Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cardo|EB+Garamond&display=swap");
 
 :root {
   --danger-color: #df2321;
@@ -60,12 +60,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Berkshire Swash", cursive;
-}
-
-#navbarTogglerDemo01 ul li a {
-  color: #fff;
-  background: transparent;
+  font-weight: 900;
 }
 
 .dropdown-menu a {
@@ -80,6 +75,30 @@ h6 {
 /* NAVBAR */
 .navbar {
   background-color: #df2321;
+}
+
+#bottomnav {
+  background-color: #2A3443;
+}
+
+.fixed-bottom .iconify {
+  color: #fff;
+  font-size: x-large;
+}
+
+.fixed-bottom a {
+  color: #fff;
+  font-weight: 700;
+  font-size: small;
+}
+.fixed-bottom .btn {
+  border: 1px solid rgb(31, 38, 49);
+  padding: 0em;
+}
+
+.fixed-bottom button:hover,
+.fixed-bottom button:focus {
+  background-color: rgb(31, 38, 49);
 }
 
 .fa:hover,
@@ -140,7 +159,7 @@ nav[data-toggle="toc"] .nav > li > a:hover {
   padding-left: 0;
 }
 
-/* hide nav that gives the info */
+/* hide nav that gives the sidebar info to sidebar names in salterio and rosario*/
 .info {
   display: none;
 }
@@ -149,12 +168,4 @@ nav[data-toggle="toc"] .nav > li > a:hover {
 
 .carousel-inner .item {
   transition: all 0.5s ease !important;
-}
-
-/*  OTHER SCREENS */
-
-@media (max-width: 550px) {
-  .col-lg-2 {
-    display: none;
-  }
 }

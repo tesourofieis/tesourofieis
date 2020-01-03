@@ -14,39 +14,41 @@
     content="Tesouro dos Fiéis é um espaço dedicado à oração, exposição e preservação das santas tradições da Igreja"
   />
 
-<link href="https://fonts.googleapis.com/css?family=Cardo|Berkshire+Swash&display=swap" rel="stylesheet">
+  <link rel="manifest" href="{{"manifest.json" | relative_url }}">
 
+  <link
+    href="https://fonts.googleapis.com/css?family=Cardo|EB+Garamond&display=swap"
+    rel="stylesheet"
+  />
 
   <link rel="icon" href="/img/favicon.ico" />
 
   <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon72.png" />
   <link rel="apple-touch-icon" sizes="128x128" href="/img/favicon128.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon180.png" />
-
+  
   <!-- Bootstrap CSS -->
   <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous"
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
   />
-
+  
   <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
   />
+  
   <link
-    rel="stylesheet"
-    href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.css"
   />
-
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.css"
-  />
-
-  <link rel="stylesheet" href="{{"assets/missa.css" | relative_url }}"> <link
-  rel="stylesheet" href="{{"assets/style.css" | relative_url }}">
+  
+  <link rel="stylesheet" href="{{"assets/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{"assets/missa.css" | relative_url }}">
+  
+  <script src="https://cdn.jsdelivr.net/npm/@iconify/iconify@1.0.3/dist/iconify.min.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script
@@ -68,5 +70,4 @@
     %}{{ site.title | escape }}{% endif %}
   </title>
 
-  <link rel="manifest" href="{{"manifest.json" | relative_url }}">
 </head>

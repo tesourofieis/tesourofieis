@@ -108,6 +108,12 @@ a[aria-expanded="true"] {
     bottom: 0;
     cursor: pointer;
 }
+.input-group-append .iconify {
+    position: absolute;
+    left: 180px;
+    top: -44px;
+    cursor: pointer;
+}
 
 #sidebar-tools {
     background-color: #ffffff;
@@ -164,7 +170,7 @@ a[aria-expanded="true"] {
 #lang-switch {
     position: sticky;
     text-align: center;
-    bottom: 10px;
+    bottom: 5rem;
     display: none;
     opacity: 0.9;
     padding: 0px;
