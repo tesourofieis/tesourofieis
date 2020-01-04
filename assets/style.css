@@ -9,7 +9,7 @@
   text-rendering: optimizeLegibility;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Cardo|EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cardo&display=swap");
 
 :root {
   --danger-color: #df2321;

@@ -26,3 +26,21 @@ src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/t
 <script src="{{"assets/script.js" | relative_url }}"></script>
 
 <script src="{{"app.js" | relative_url }}"></script>
+
+<script type="module">
+	import { Workbox } from 'https://storage.googleapis.com/workbox-cdn/releases/4.0.0/workbox-window.prod.mjs';
+
+	if ('serviceWorker' in navigator) {
+			const wb = new Workbox('sw.js');
+
+			wb.addEventListener('installed', event => {
+				if (event.isUpdate) {
+					if (confirm(`New content is available!. Click OK to refresh`)) {
+						window.location.reload();
+					}
+				}
+			});
+
+			wb.register();
+		}
+</script>

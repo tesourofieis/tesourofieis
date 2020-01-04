@@ -5,6 +5,16 @@ importScripts(
 
 workbox.googleAnalytics.initialize();
 
+workbox.core.skipWaiting()
+workbox.core.clientsClaim()
+
+const updateChannel = new BroadcastChannel('precache-channel');
+updateChannel.addEventListener('message', event => {
+  if (confirm(`New content is available!. Click OK to refresh`)) {
+    window.location.reload();
+  }
+});
+
 const bgSyncPlugin = new workbox.backgroundSync.Plugin("myQueueName", {
   maxRetentionTime: 24 * 60 // Retry for max of 24 Hours (specified in minutes)
 });
