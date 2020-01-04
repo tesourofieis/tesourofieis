@@ -5,11 +5,11 @@ importScripts(
 
 workbox.googleAnalytics.initialize();
 
-workbox.core.skipWaiting()
-workbox.core.clientsClaim()
+workbox.core.skipWaiting();
+workbox.core.clientsClaim();
 
-const updateChannel = new BroadcastChannel('precache-channel');
-updateChannel.addEventListener('message', event => {
+const updateChannel = new BroadcastChannel("precache-channel");
+updateChannel.addEventListener("message", event => {
   if (confirm(`New content is available!. Click OK to refresh`)) {
     window.location.reload();
   }
@@ -163,7 +163,8 @@ workbox.precaching.precacheAndRoute([
     revision: "5"
   },
   {
-    url: "https://fonts.googleapis.com/css?family=Cardo|Berkshire+Swash&display=swap",
+    url:
+      "https://fonts.googleapis.com/css?family=Cardo|EB+Garamond|Berkshire+Swash&display=swap",
     revision: "6"
   },
   {

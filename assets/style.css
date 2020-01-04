@@ -1,7 +1,7 @@
 /* GLOBAL */
 * {
   font-size: 100%;
-  font-family: 'Cardo', serif;
+  font-family: 'Cardo', 'EB Garamond', serif;
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
   text-indent: 0pt;
