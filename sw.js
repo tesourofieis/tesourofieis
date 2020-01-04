@@ -163,8 +163,12 @@ workbox.precaching.precacheAndRoute([
     revision: "5"
   },
   {
-    url: "https://fonts.googleapis.com/css?family=Cardo|EB+Garamond&display=swap",
+    url: "https://fonts.googleapis.com/css?family=Cardo:400,400i,700&display=swap&subset=latin-ext",
     revision: "6"
+  },
+  {
+    url: "https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap&subset=latin-ext",
+    revision: "60"
   },
   {
     url:
