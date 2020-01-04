@@ -163,12 +163,8 @@ workbox.precaching.precacheAndRoute([
     revision: "5"
   },
   {
-    url: "https://fonts.googleapis.com/css?family=Cardo:400,400i,700",
+    url: "https://fonts.googleapis.com/css?family=Cardo|Berkshire+Swash&display=swap",
     revision: "6"
-  },
-  {
-    url: "https://fonts.googleapis.com/css?family=Berkshire+Swash",
-    revision: "60"
   },
   {
     url:
