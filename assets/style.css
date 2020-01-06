@@ -87,6 +87,7 @@ h6 {
 
 #bottomnav {
   background-color: #2A3443;
+  border-top: 1px solid rgb(31, 38, 49);;
 }
 
 .fixed-bottom .iconify {
@@ -102,11 +103,12 @@ h6 {
 
 .fixed-bottom .btn {
   border: 1px solid rgb(31, 38, 49);
+  border-radius: 0;
   padding: 0em;
 }
 
-.fixed-bottom button:hover,
-.fixed-bottom button:focus {
+.fixed-bottom .btn:hover,
+.fixed-bottom .btn:focus {
   background-color: rgb(31, 38, 49);
 }
 
