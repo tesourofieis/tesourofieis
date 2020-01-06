@@ -8,6 +8,17 @@
   text-rendering: optimizeLegibility;
 }
 
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #2A3443;
+}
+
+.logo {
+  fill: white;
+}
+
 :root {
   --danger-color: #df2321;
 }
