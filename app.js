@@ -1,8 +1,8 @@
-// if ("serviceWorker" in navigator) {
-//   window.addEventListener("load", function() {
-//     navigator.serviceWorker.register("/sw.js");
-//   });
-// }
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function() {
+    navigator.serviceWorker.register("/sw.js");
+  });
+}
 
 var win = $(this); // browser window
 var nav = $("#main-nav"); // your navigation bar
