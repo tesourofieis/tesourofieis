@@ -28,7 +28,22 @@ workbox.routing.registerRoute(
     {
       plugins: [
         new workbox.broadcastUpdate.Plugin({
-          channelName: "api-updates"
+          channelName: "api-updates-images"
+        })
+      ]
+    }
+  )
+);
+workbox.routing.registerRoute(
+  /\.(?:json)$/,
+  new workbox.strategies.NetworkFirst(
+    {
+      plugins: [bgSyncPlugin]
+    },
+    {
+      plugins: [
+        new workbox.broadcastUpdate.Plugin({
+          channelName: "api-updates-json"
         })
       ]
     }
