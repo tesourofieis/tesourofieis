@@ -3,10 +3,11 @@ importScripts(
   "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.js"
 );
 
-workbox.googleAnalytics.initialize();
 
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
+
+workbox.googleAnalytics.initialize();
 
 const updateChannel = new BroadcastChannel("precache-channel");
 updateChannel.addEventListener("message", event => {
@@ -15,39 +16,14 @@ updateChannel.addEventListener("message", event => {
   }
 });
 
-const bgSyncPlugin = new workbox.backgroundSync.Plugin("myQueueName", {
-  maxRetentionTime: 24 * 60 // Retry for max of 24 Hours (specified in minutes)
-});
-
 workbox.routing.registerRoute(
   /\.(?:png|jpg|jpeg|svg|gif)$/,
-  new workbox.strategies.CacheFirst(
-    {
-      plugins: [bgSyncPlugin]
-    },
-    {
-      plugins: [
-        new workbox.broadcastUpdate.Plugin({
-          channelName: "api-updates-images"
-        })
-      ]
-    }
-  )
+  new workbox.strategies.CacheFirst()
 );
+
 workbox.routing.registerRoute(
   /\.(?:json)$/,
-  new workbox.strategies.NetworkFirst(
-    {
-      plugins: [bgSyncPlugin]
-    },
-    {
-      plugins: [
-        new workbox.broadcastUpdate.Plugin({
-          channelName: "api-updates-json"
-        })
-      ]
-    }
-  )
+  new workbox.strategies.NetworkFirst()
 );
 
 let today = moment(new Date()).format("YYYY-MM-DD");
