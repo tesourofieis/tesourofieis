@@ -62,31 +62,30 @@ let tp15 = moment(new Date())
   .add(15, "days")
   .format("YYYY-MM-DD");
 
-
 workbox.precaching.precacheAndRoute([
   "./",
   "./app.js",
   "./img/gitter.png",
   "./index",
   "./missa",
-  // "./date/2019.json",
-  // "./date/2020.json",
-  // `./date/${today}.json`,
-  // `./date/${tp1}.json`,
-  // `./date/${tp2}.json`,
-  // `./date/${tp3}.json`,
-  // `./date/${tp4}.json`,
-  // `./date/${tp5}.json`,
-  // `./date/${tp6}.json`,
-  // `./date/${tp7}.json`,
-  // `./date/${tp8}.json`,
-  // `./date/${tp9}.json`,
-  // `./date/${tp10}.json`,
-  // `./date/${tp11}.json`,
-  // `./date/${tp12}.json`,
-  // `./date/${tp13}.json`,
-  // `./date/${tp14}.json`,
-  // `./date/${tp15}.json`,
+  "./date/2019.json",
+  "./date/2020.json",
+  `./date/${today}.json`,
+  `./date/${tp1}.json`,
+  `./date/${tp2}.json`,
+  `./date/${tp3}.json`,
+  `./date/${tp4}.json`,
+  `./date/${tp5}.json`,
+  `./date/${tp6}.json`,
+  `./date/${tp7}.json`,
+  `./date/${tp8}.json`,
+  `./date/${tp9}.json`,
+  `./date/${tp10}.json`,
+  `./date/${tp11}.json`,
+  `./date/${tp12}.json`,
+  `./date/${tp13}.json`,
+  `./date/${tp14}.json`,
+  `./date/${tp15}.json`,
   "./oracaomanha",
   "./oracaonoite",
   "./requiem",
@@ -111,30 +110,28 @@ workbox.precaching.precacheAndRoute([
   "./ordinariomissa",
   "./oracoesleoninas",
   "./salterio",
-  // "./assets/style.css",
-  // "./assets/script.js",
-  // "./assets/missa.css",
-  // "./assets/common.js",
-  // "./assets/readings.js",
-  // "./assets/ordoReadings.js",
-  // "./assets/conf-static.js"
+  "./img/spinner.gif",
+  "./assets/style.css",
+  "./assets/script.js",
+  "./assets/missa.css",
+  "./assets/common.js",
+  "./assets/readings.js",
+  "./assets/ordoReadings.js",
+  "./assets/conf-static.js"
 ]
 );
 
 workbox.routing.registerRoute(
-  /\.(?:png|jpg|jpeg|svg|gif|map|txt)$/,
-  new workbox.strategies.CacheFirst(
-    {
-      cacheName: 'cache'
-    }
-  )
-  );
-  
-  workbox.routing.registerRoute(
-    /\.(?:json)$/,
-    new workbox.strategies.NetworkFirst(
-      {
-        cacheName: 'cache'
-      }
-    )
-  );
+  /\.(?:png|gif|jpg|jpeg|svg)$/,
+  // /\/date\/.(?:json)$/,
+  new workbox.strategies.CacheFirst({
+    cacheName: 'images'
+  })
+);
+
+workbox.routing.registerRoute(
+  /.*\.json/,
+  new workbox.strategies.NetworkFirst({
+    cacheName: 'json'
+  })
+);

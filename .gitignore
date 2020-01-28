@@ -20,3 +20,4 @@ Gemfile
 Gemfile.lock
 gen_static_data.sh
 tesouro.code-workspace
+package-lock.json
