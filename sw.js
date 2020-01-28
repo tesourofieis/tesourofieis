@@ -3,28 +3,17 @@ importScripts(
   "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.js"
 );
 
+workbox.googleAnalytics.initialize();
 
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
-workbox.googleAnalytics.initialize();
-
-const updateChannel = new BroadcastChannel("precache-channel");
+const updateChannel = new BroadcastChannel("precache");
 updateChannel.addEventListener("message", event => {
   if (confirm(`New content is available!. Click OK to refresh`)) {
     window.location.reload();
   }
 });
-
-workbox.routing.registerRoute(
-  /\.(?:png|jpg|jpeg|svg|gif)$/,
-  new workbox.strategies.CacheFirst()
-);
-
-workbox.routing.registerRoute(
-  /\.(?:json)$/,
-  new workbox.strategies.NetworkFirst()
-);
 
 let today = moment(new Date()).format("YYYY-MM-DD");
 let tp1 = moment(new Date())
@@ -73,30 +62,31 @@ let tp15 = moment(new Date())
   .add(15, "days")
   .format("YYYY-MM-DD");
 
+
 workbox.precaching.precacheAndRoute([
   "./",
   "./app.js",
   "./img/gitter.png",
   "./index",
   "./missa",
-  "./date/2019.json",
-  "./date/2020.json",
-  `./date/${today}.json`,
-  `./date/${tp1}.json`,
-  `./date/${tp2}.json`,
-  `./date/${tp3}.json`,
-  `./date/${tp4}.json`,
-  `./date/${tp5}.json`,
-  `./date/${tp6}.json`,
-  `./date/${tp7}.json`,
-  `./date/${tp8}.json`,
-  `./date/${tp9}.json`,
-  `./date/${tp10}.json`,
-  `./date/${tp11}.json`,
-  `./date/${tp12}.json`,
-  `./date/${tp13}.json`,
-  `./date/${tp14}.json`,
-  `./date/${tp15}.json`,
+  // "./date/2019.json",
+  // "./date/2020.json",
+  // `./date/${today}.json`,
+  // `./date/${tp1}.json`,
+  // `./date/${tp2}.json`,
+  // `./date/${tp3}.json`,
+  // `./date/${tp4}.json`,
+  // `./date/${tp5}.json`,
+  // `./date/${tp6}.json`,
+  // `./date/${tp7}.json`,
+  // `./date/${tp8}.json`,
+  // `./date/${tp9}.json`,
+  // `./date/${tp10}.json`,
+  // `./date/${tp11}.json`,
+  // `./date/${tp12}.json`,
+  // `./date/${tp13}.json`,
+  // `./date/${tp14}.json`,
+  // `./date/${tp15}.json`,
   "./oracaomanha",
   "./oracaonoite",
   "./requiem",
@@ -121,65 +111,30 @@ workbox.precaching.precacheAndRoute([
   "./ordinariomissa",
   "./oracoesleoninas",
   "./salterio",
-  "./assets/style.css",
-  "./assets/script.js",
-  "./assets/missa.css",
-  "./assets/common.js",
-  "./assets/readings.js",
-  "./assets/ordoReadings.js",
-  "./assets/conf-static.js",
-  {
-    url:
-      "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.js",
-    revision: "1"
-  },
-  {
-    url:
-      "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js",
-    revision: "2"
-  },
-  {
-    url:
-      "https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js",
-    revision: "3"
-  },
-  {
-    url:
-      "https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css",
-    revision: "4"
-  },
-  {
-    url:
-      "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js",
-    revision: "5"
-  },
-  {
-    url:
-      "https://fonts.googleapis.com/css?family=Cardo|Berkshire+Swash&display=swap",
-    revision: "6"
-  },
-  {
-    url:
-      "https://cdn.jsdelivr.net/npm/@iconify/iconify@1.0.3/dist/iconify.min.js",
-    revision: "7"
-  },
-  {
-    url: "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",
-    revision: "8"
-  },
-  {
-    url:
-      "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
-    revision: "9"
-  },
-  {
-    url:
-      "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
-    revision: "10"
-  },
-  {
-    url:
-      "https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.js",
-    revision: "11"
-  }
-]);
+  // "./assets/style.css",
+  // "./assets/script.js",
+  // "./assets/missa.css",
+  // "./assets/common.js",
+  // "./assets/readings.js",
+  // "./assets/ordoReadings.js",
+  // "./assets/conf-static.js"
+]
+);
+
+workbox.routing.registerRoute(
+  /\.(?:png|jpg|jpeg|svg|gif|map|txt)$/,
+  new workbox.strategies.CacheFirst(
+    {
+      cacheName: 'cache'
+    }
+  )
+  );
+  
+  workbox.routing.registerRoute(
+    /\.(?:json)$/,
+    new workbox.strategies.NetworkFirst(
+      {
+        cacheName: 'cache'
+      }
+    )
+  );
