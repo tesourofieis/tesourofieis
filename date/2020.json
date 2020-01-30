@@ -25,7 +25,7 @@
       {
         "id": "tempora:C10b:4", 
         "rank": 4, 
-        "title": "2\u00aa Missa - Desde o Natal at\u00e9 \u00e0 Purifica\u00e7\u00e3o - Missa Vultum tuum da Virgem Maria"
+        "title": "2\u00aa Missa da Virgem Maria - Missa Vultum tuum"
       }
     ], 
     "commemoration": [], 
@@ -78,7 +78,7 @@
       {
         "id": "tempora:C10b:4", 
         "rank": 4, 
-        "title": "2\u00aa Missa - Desde o Natal at\u00e9 \u00e0 Purifica\u00e7\u00e3o - Missa Vultum tuum da Virgem Maria"
+        "title": "2\u00aa Missa da Virgem Maria - Missa Vultum tuum"
       }
     ], 
     "commemoration": [], 
@@ -191,7 +191,7 @@
       {
         "id": "tempora:C10b:4", 
         "rank": 4, 
-        "title": "2\u00aa Missa - Desde o Natal at\u00e9 \u00e0 Purifica\u00e7\u00e3o - Missa Vultum tuum da Virgem Maria"
+        "title": "2\u00aa Missa da Virgem Maria - Missa Vultum tuum"
       }
     ], 
     "commemoration": [
@@ -635,13 +635,7 @@
     ]
   }, 
   "2020-02-13": {
-    "celebration": [
-      {
-        "id": "tempora:Quadp1-4:4", 
-        "rank": 4, 
-        "title": "Quinta-feira da semana da Septuag\u00e9sima"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -673,7 +667,7 @@
       {
         "id": "tempora:C10c:4", 
         "rank": 4, 
-        "title": "3\u00ba Missa na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "3\u00ba Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ], 
     "commemoration": [
@@ -709,13 +703,7 @@
     ]
   }, 
   "2020-02-17": {
-    "celebration": [
-      {
-        "id": "tempora:Quadp2-1:4", 
-        "rank": 4, 
-        "title": "Segunda-feira da semana da Sexag\u00e9sima"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -743,13 +731,7 @@
     ]
   }, 
   "2020-02-19": {
-    "celebration": [
-      {
-        "id": "tempora:Quadp2-3:4", 
-        "rank": 4, 
-        "title": "Quarta-feira da semana da Sexag\u00e9sima"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -760,13 +742,7 @@
     ]
   }, 
   "2020-02-20": {
-    "celebration": [
-      {
-        "id": "tempora:Quadp2-4:4", 
-        "rank": 4, 
-        "title": "Quinta-feira da semana da Sexag\u00e9sima"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -777,13 +753,7 @@
     ]
   }, 
   "2020-02-21": {
-    "celebration": [
-      {
-        "id": "tempora:Quadp2-5:4", 
-        "rank": 4, 
-        "title": "Sexta-feira da semana da Sexag\u00e9sima"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -1255,7 +1225,7 @@
       {
         "id": "sancti:03-17:3", 
         "rank": 3, 
-        "title": null
+        "title": "S. Patr\u00edcio, Bispo e Confessor"
       }
     ], 
     "tempora": [
@@ -1870,13 +1840,7 @@
     ]
   }, 
   "2020-04-20": {
-    "celebration": [
-      {
-        "id": "tempora:Pasc1-1:4", 
-        "rank": 4, 
-        "title": "Segunda-feira da 1\u00ba semana depois da P\u00e1scoa"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -1926,7 +1890,7 @@
       {
         "id": "sancti:04-23:4", 
         "rank": 4, 
-        "title": null
+        "title": "S. Jorge, M\u00e1rtir"
       }
     ], 
     "tempora": [
@@ -2142,13 +2106,7 @@
     ]
   }, 
   "2020-05-06": {
-    "celebration": [
-      {
-        "id": "tempora:Pasc3-3Feria:4", 
-        "rank": 4, 
-        "title": "Quarta-feira da 3\u00aa semana depois da P\u00e1scoa"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -2176,13 +2134,7 @@
     ]
   }, 
   "2020-05-08": {
-    "celebration": [
-      {
-        "id": "tempora:Pasc3-5:4", 
-        "rank": 4, 
-        "title": "Sexta-feira da 3\u00aa semana depois da P\u00e1scoa"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -2316,7 +2268,7 @@
       {
         "id": "tempora:C10Pasc:4", 
         "rank": 4, 
-        "title": "3\u00aa Missa - Desde a Purifica\u00e7\u00e3o at\u00e9 \u00e0 P\u00e1scoa - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "4 Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ], 
     "commemoration": [], 
@@ -2420,13 +2372,7 @@
     ]
   }, 
   "2020-05-22": {
-    "celebration": [
-      {
-        "id": "tempora:Pasc5-5:4", 
-        "rank": 4, 
-        "title": "Sexta-feira depois da Ascens\u00e3o"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -2441,7 +2387,7 @@
       {
         "id": "tempora:C10Pasc:4", 
         "rank": 4, 
-        "title": "3\u00aa Missa - Desde a Purifica\u00e7\u00e3o at\u00e9 \u00e0 P\u00e1scoa - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "4 Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ], 
     "commemoration": [], 
@@ -2709,13 +2655,7 @@
     ]
   }, 
   "2020-06-08": {
-    "celebration": [
-      {
-        "id": "tempora:Pent01-1:4", 
-        "rank": 4, 
-        "title": "Segunda-feira depois 1\u00aa semana da oitava de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -2747,7 +2687,7 @@
       {
         "id": "sancti:06-10:3", 
         "rank": 3, 
-        "title": null
+        "title": "Santa Margarida, Vi\u00fava"
       }
     ], 
     "commemoration": [], 
@@ -2845,13 +2785,7 @@
     ]
   }, 
   "2020-06-16": {
-    "celebration": [
-      {
-        "id": "tempora:Pent02-2:4", 
-        "rank": 4, 
-        "title": "Ter\u00e7a-feira da 2\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -2917,7 +2851,7 @@
       {
         "id": "tempora:C10t:4", 
         "rank": 4, 
-        "title": "5\u00aa Missa - Desde o Pentecostes at\u00e9 ao Advento - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
       }
     ], 
     "commemoration": [
@@ -3042,7 +2976,7 @@
       {
         "id": "tempora:C10t:4", 
         "rank": 4, 
-        "title": "5\u00aa Missa - Desde o Pentecostes at\u00e9 ao Advento - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
       }
     ], 
     "commemoration": [], 
@@ -3167,7 +3101,7 @@
       {
         "id": "tempora:C10t:4", 
         "rank": 4, 
-        "title": "5\u00aa Missa - Desde o Pentecostes at\u00e9 ao Advento - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
       }
     ], 
     "commemoration": [], 
@@ -3197,13 +3131,7 @@
     ]
   }, 
   "2020-07-06": {
-    "celebration": [
-      {
-        "id": "tempora:Pent05-1:4", 
-        "rank": 4, 
-        "title": "Segunda-feira da 5\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -3248,13 +3176,7 @@
     ]
   }, 
   "2020-07-09": {
-    "celebration": [
-      {
-        "id": "tempora:Pent05-4:4", 
-        "rank": 4, 
-        "title": "Quinta-feira da 5\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -3286,7 +3208,7 @@
       {
         "id": "tempora:C10t:4", 
         "rank": 4, 
-        "title": "5\u00aa Missa - Desde o Pentecostes at\u00e9 ao Advento - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
       }
     ], 
     "commemoration": [
@@ -3322,13 +3244,7 @@
     ]
   }, 
   "2020-07-13": {
-    "celebration": [
-      {
-        "id": "tempora:Pent06-1:4", 
-        "rank": 4, 
-        "title": "Segunda-feira da 6\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -3411,7 +3327,7 @@
       {
         "id": "sancti:07-18:3", 
         "rank": 3, 
-        "title": null
+        "title": "S. Camilo de Lelis"
       }
     ], 
     "commemoration": [], 
@@ -3445,7 +3361,7 @@
       {
         "id": "sancti:07-20:3", 
         "rank": 3, 
-        "title": null
+        "title": "S. Jer\u00f3nimo Emiliano"
       }
     ], 
     "commemoration": [], 
@@ -3514,7 +3430,7 @@
       {
         "id": "sancti:07-24r:4", 
         "rank": 4, 
-        "title": null
+        "title": "Santa Cristina"
       }
     ], 
     "tempora": [
@@ -3655,7 +3571,7 @@
       {
         "id": "tempora:C10t:4", 
         "rank": 4, 
-        "title": "5\u00aa Missa - Desde o Pentecostes at\u00e9 ao Advento - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
       }
     ], 
     "commemoration": [
@@ -3691,13 +3607,7 @@
     ]
   }, 
   "2020-08-03": {
-    "celebration": [
-      {
-        "id": "tempora:Pent09-1:4", 
-        "rank": 4, 
-        "title": "Segunda-feira da 9\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -4093,7 +4003,7 @@
       {
         "id": "sancti:08-26:4", 
         "rank": 4, 
-        "title": null
+        "title": "S. Zeferino"
       }
     ], 
     "tempora": [
@@ -4241,13 +4151,7 @@
     ]
   }, 
   "2020-09-04": {
-    "celebration": [
-      {
-        "id": "tempora:Pent13-5:4", 
-        "rank": 4, 
-        "title": "Sexta-feira da 13\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -4292,13 +4196,7 @@
     ]
   }, 
   "2020-09-07": {
-    "celebration": [
-      {
-        "id": "tempora:Pent14-1:4", 
-        "rank": 4, 
-        "title": "Segunda-feira da 14\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -4717,7 +4615,7 @@
       {
         "id": "sancti:10-01:4", 
         "rank": 4, 
-        "title": null
+        "title": "S. Remigio"
       }
     ], 
     "tempora": [
@@ -4905,13 +4803,7 @@
     ]
   }, 
   "2020-10-12": {
-    "celebration": [
-      {
-        "id": "tempora:Pent19-1:4", 
-        "rank": 4, 
-        "title": "Segunda-feira da 19\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5081,13 +4973,7 @@
     ]
   }, 
   "2020-10-22": {
-    "celebration": [
-      {
-        "id": "tempora:Pent20-4:4", 
-        "rank": 4, 
-        "title": "Quinta-feira da 20\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5149,13 +5035,7 @@
     ]
   }, 
   "2020-10-26": {
-    "celebration": [
-      {
-        "id": "tempora:Pent21-1:4", 
-        "rank": 4, 
-        "title": "Segunda-feira da 21\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5166,13 +5046,7 @@
     ]
   }, 
   "2020-10-27": {
-    "celebration": [
-      {
-        "id": "tempora:Pent21-2:4", 
-        "rank": 4, 
-        "title": "Ter\u00e7a-feira da 21\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5200,13 +5074,7 @@
     ]
   }, 
   "2020-10-29": {
-    "celebration": [
-      {
-        "id": "tempora:Pent21-4:4", 
-        "rank": 4, 
-        "title": "Quinta-feira da 21\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5217,13 +5085,7 @@
     ]
   }, 
   "2020-10-30": {
-    "celebration": [
-      {
-        "id": "tempora:Pent21-5:4", 
-        "rank": 4, 
-        "title": "Sexta-feira da 21\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5238,7 +5100,7 @@
       {
         "id": "tempora:C10t:4", 
         "rank": 4, 
-        "title": "5\u00aa Missa - Desde o Pentecostes at\u00e9 ao Advento - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
       }
     ], 
     "commemoration": [], 
@@ -5295,13 +5157,7 @@
     ]
   }, 
   "2020-11-03": {
-    "celebration": [
-      {
-        "id": "tempora:Pent22-2:4", 
-        "rank": 4, 
-        "title": "Ter\u00e7a-feira da 22\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5329,13 +5185,7 @@
     ]
   }, 
   "2020-11-05": {
-    "celebration": [
-      {
-        "id": "tempora:Pent22-4:4", 
-        "rank": 4, 
-        "title": "Quinta-feira da 22\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5346,13 +5196,7 @@
     ]
   }, 
   "2020-11-06": {
-    "celebration": [
-      {
-        "id": "tempora:Pent22-5:4", 
-        "rank": 4, 
-        "title": "Sexta-feira da 22\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5367,7 +5211,7 @@
       {
         "id": "tempora:C10t:4", 
         "rank": 4, 
-        "title": "5\u00aa Missa - Desde o Pentecostes at\u00e9 ao Advento - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
       }
     ], 
     "commemoration": [], 
@@ -5470,7 +5314,7 @@
       {
         "id": "sancti:11-13:4", 
         "rank": 4, 
-        "title": null
+        "title": "S. Diogo, Confessor"
       }
     ], 
     "tempora": [
@@ -5703,13 +5547,7 @@
     ]
   }, 
   "2020-11-27": {
-    "celebration": [
-      {
-        "id": "tempora:Pent24-5:4", 
-        "rank": 4, 
-        "title": "Sexta-feira da 24\u00aa semana depois de Pentecostes"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -5724,7 +5562,7 @@
       {
         "id": "tempora:C10t:4", 
         "rank": 4, 
-        "title": "5\u00aa Missa - Desde o Pentecostes at\u00e9 ao Advento - Missa Salve, sancta Parens da Virgem Maria"
+        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
       }
     ], 
     "commemoration": [], 
@@ -6291,7 +6129,13 @@
         "title": "S. Jo\u00e3o, Ap\u00f3stolo e Evangelista"
       }
     ], 
-    "tempora": []
+    "tempora": [
+      {
+        "id": "tempora:Nat1-0:2", 
+        "rank": 2, 
+        "title": "Domingo dentro do Oitav\u00e1rio do Natal"
+      }
+    ]
   }, 
   "2020-12-28": {
     "celebration": [
@@ -6305,36 +6149,66 @@
     "tempora": []
   }, 
   "2020-12-29": {
-    "celebration": [], 
+    "celebration": [
+      {
+        "id": "tempora:Nat1-1:2", 
+        "rank": 2, 
+        "title": null
+      }
+    ], 
     "commemoration": [
       {
         "id": "sancti:12-29r:4", 
         "rank": 4, 
-        "title": "29 XII - S. Tom\u00e1s de Cantu\u00e1ria, Bispo e M\u00e1rtir"
+        "title": "S. Tom\u00e1s de Cantu\u00e1ria, Bispo e M\u00e1rtir"
       }
     ], 
-    "tempora": []
+    "tempora": [
+      {
+        "id": "tempora:Nat1-1:2", 
+        "rank": 2, 
+        "title": null
+      }
+    ]
   }, 
   "2020-12-30": {
-    "celebration": [], 
-    "commemoration": [
+    "celebration": [
       {
-        "id": "sancti:12-30:4", 
-        "rank": 4, 
-        "title": "Missa do sexto dia na Oitava do Natal"
+        "id": "tempora:Nat1-1:2", 
+        "rank": 2, 
+        "title": null
       }
     ], 
-    "tempora": []
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Nat1-1:2", 
+        "rank": 2, 
+        "title": null
+      }
+    ]
   }, 
   "2020-12-31": {
-    "celebration": [], 
+    "celebration": [
+      {
+        "id": "tempora:Nat1-1:2", 
+        "rank": 2, 
+        "title": null
+      }
+    ], 
     "commemoration": [
       {
         "id": "sancti:12-31r:4", 
         "rank": 4, 
-        "title": "Missa do s\u00e9timo dia na Oitava do Natal"
+        "title": "S. Silvestre"
       }
     ], 
-    "tempora": []
+    "tempora": [
+      {
+        "id": "tempora:Nat1-1:2", 
+        "rank": 2, 
+        "title": null
+      }
+    ]
   }
 }

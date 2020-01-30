@@ -6,12 +6,12 @@
         "Paramentos vermelhos"
       ], 
       "date": "2020-07-18", 
-      "description": "\u015aw. Kamil urodzi\u0142 si\u0119 w kr\u00f3lestwie Neapolu w roku 1550. Po pi\u0119ciu latach lekkomy\u015blnego \u017cycia \u017co\u0142nierskiego nawr\u00f3ci\u0142 si\u0119 i wiedziony pragnieniem pokuty wst\u0105pi\u0142 do zakonu Kapucyn\u00f3w. Wskutek odnowienia si\u0119 rany musia\u0142 zakon opu\u015bci\u0107 i po\u015bwi\u0119ci\u0142 si\u0119 pos\u0142ugiwaniu chorym w szpitalu \u015bw. Jakuba w Rzymie. Widz\u0105c opuszczenie chorych, zw\u0142aszcza w czasie epidemii, postanowi\u0142 zosta\u0107 kap\u0142anem. Jako 32-letni m\u0119\u017cczyzna zacz\u0105\u0142 ucz\u0119szcza\u0107 do szko\u0142y. Otrzymawszy \u015bwi\u0119cenia kap\u0142a\u0144skie za\u0142o\u017cy\u0142 zgromadzenie Kleryk\u00f3w Regularnych us\u0142uguj\u0105cych chorym, kt\u00f3rego cz\u0142onkowie specjalnym \u015blubem zobowi\u0105zuj\u0105 si\u0119 opiekowa\u0107 si\u0119 chorymi bez wzgl\u0119du na rodzaj ich choroby. \u015aw. Kamil zmar\u0142 w Rzymie 14 lipca 1614 roku. Leon XII og\u0142osi\u0142 go patronem szpitali i chorych.\n\n\u015a\u015b. Symforozy i Siedmiu Jej Syn\u00f3w\nGr\u00f3b \u015bw. Symforozy i syn\u00f3w znajduje si\u0119 przy drodze Tyburty\u0144skiej. Bli\u017csze szczeg\u00f3\u0142y m\u0119cze\u0144stwa nie s\u0105 znane.\n\nMsza jak w dniu 10 marca Clamaverunt, z wyj\u0105tkiem kolekty, sekrety i pokomunii\n", 
+      "description": "\n\u015a\u015b. Symforozy i Siedmiu Jej Syn\u00f3w\n", 
       "id": "sancti:07-18:3", 
       "rank": 3, 
       "supplements": [], 
       "tempora": "S\u00e1bado da 6\u00aa semana depois de Pentecostes", 
-      "title": null
+      "title": "S. Camilo de Lelis"
     }, 
     "proper_latin": [
       {
@@ -82,17 +82,17 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Jo 15:13*\nNikt nie ma wi\u0119kszej mi\u0142o\u015bci nad t\u0119, aby kto \u017cycie swe odda\u0142 za przyjaci\u00f3\u0142 swoich.\n*Sl 40:2*\nB\u0142ogos\u0142awiony ten, kt\u00f3ry my\u015bli o n\u0119dznym i biednym: wybawi go Pan w dniu nieszcz\u0119\u015bcia.\nGl\u00f3ria ao Pai.\nNikt nie ma wi\u0119kszej mi\u0142o\u015bci nad t\u0119, aby kto \u017cycie swe odda\u0142 za przyjaci\u00f3\u0142 swoich.", 
+        "body": "*Jo 15:13*\nNingu\u00e9m pode dar maior prova de amor do que dar a sua vida pelos seus amigos.\n*Sl 40:2*\nBem-aventurado aquele que atende \u00e0s necessidades do pobre e do indigente, pois o Senhor o livrar\u00e1 no dia da afli\u00e7\u00e3o.\nGl\u00f3ria ao Pai.\nNingu\u00e9m pode dar maior prova de amor do que dar a sua vida pelos seus amigos.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Bo\u017ce, kt\u00f3ry wyr\u00f3\u017cni\u0142e\u015b \u015bwi\u0119tego Kamila szczeg\u00f3lnym darem mi\u0142o\u015bci, by ni\u00f3s\u0142 pomoc duszom zmagaj\u0105cym si\u0119 w przed\u015bmiertnej walce, prosimy Ci\u0119, przez jego zas\u0142ugi, nape\u0142nij nas duchem Twojej mi\u0142o\u015bci, aby\u015bmy w godzin\u0119 naszej \u015bmierci zdo\u0142ali pokona\u0107 wroga i doj\u015b\u0107 do korony niebieskiej.\nPor nosso Senhor", 
+        "body": "\u00d3 Deus, que dotastes S. Camilo com a prerrogativa de uma singular caridade para auxiliar as almas nas derradeiras lutas da agonia, infundi-nos pelos seus m\u00e9ritos, Vos suplicamos, o esp\u00edrito do vosso amor, a fim de que, na hora da nossa morte, mere\u00e7amos vencer o inimigo e alcan\u00e7ar a coroa celestial.\nPor nosso Senhor", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "*Wspomnienie \u015b\u015b. Symforozy i Siedmiu Jej Syn\u00f3w*\nBo\u017ce, kt\u00f3ry nam pozwalasz obchodzi\u0107 narodziny dla nieba \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Symforozy i jej syn\u00f3w; daj nam w wiecznej szcz\u0119\u015bliwo\u015bci radowa\u0107 si\u0119 ich towarzystwem.\nPor nosso Senhor", 
+        "body": "*Ss Symphoros\u00e6 et septem Filiorum ejus Mm*\nO God, Who permit us to celebrate the anniversary of the death of Your holy Martyrs, Symphorosa and her sons, grant that we may enjoy their companionship in everlasting happiness.\nPor nosso Senhor", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -107,22 +107,22 @@
         "label": "Gradual"
       }, 
       {
-        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*J 15:12-16*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abTo jest przykazanie moje, aby\u015bcie si\u0119 wzajemnie mi\u0142owali, jakom i ja was umi\u0142owa\u0142. Nikt nie ma wi\u0119kszej mi\u0142o\u015bci nad t\u0119, aby kto \u017cycie swe odda\u0142 za przyjaci\u00f3\u0142 swoich. Wy jeste\u015bcie przyjaci\u00f3\u0142mi moimi, gdy czyni\u0107 b\u0119dziecie, co ja wam rozkazuj\u0119. Ju\u017c was nie nazw\u0119 s\u0142ugami, bo s\u0142uga nie wie, co czyni pan jego. Lecz nazwa\u0142em was przyjaci\u00f3\u0142mi, bo wszystko, cokolwiek od Ojca us\u0142ysza\u0142em, oznajmi\u0142em wam. Nie wy\u015bcie mnie wybrali, alem ja was wybra\u0142 i ustanowi\u0142em was, aby\u015bcie poszli i owoc przynie\u015bli, i \u017ceby owoc wasz trwa\u0142\u00bb.", 
+        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 15:12-16*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos: \u00abEste \u00e9 o meu mandamento: \u00abQue vos ameis uns aos outros, como vos amei\u00bb. Ningu\u00e9m pode ter maior amor do que dar a sua vida pelos seus amigos. V\u00f3s sereis meus amigos se fizerdes o que vos mando. J\u00e1 vos n\u00e3o chamarei servos, porque o servo ignora o que faz o seu senhor. Chamo-vos meus amigos, porque tudo quanto ouvi a meu Pai vo-lo tenho feito conhecer. N\u00e3o fostes v\u00f3s que me escolhestes a mim, mas Eu \u00e9 que vos escolhi e vos destinei, para que caminheis e alcanceis fruto. Que este fruto, pois, permane\u00e7a, para que meu Pai vos conceda tudo quanto Lhe pedirdes em meu nome\u00bb.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Ps 20:2-3*\nZ pot\u0119gi Twej, Panie, weseli si\u0119 sprawiedliwy, i z pomocy Twojej bardzo si\u0119 cieszy: spe\u0142ni\u0142e\u015b pragnienie jego serca.", 
+        "body": "*Sl 20:2-3*\nCom o vosso poder, Senhor, se alegrar\u00e1 o justo, o qual exultar\u00e1 de alegria, vendo-se salvo por V\u00f3s. Concedestes-lhe, Senhor, o desejo da sua alma.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Bo\u017ce Ojcze Wszechmog\u0105cy, niech ta niepokalana ofiara, w kt\u00f3rej odnawiamy dzie\u0142o niezmierzonej mi\u0142o\u015bci Pana naszego Jezusa Chrystusa, za Przyczyn\u0105 \u015bw. Kamila stanie si\u0119 zbawiennym lekarstwem na wszelkie s\u0142abo\u015bci cia\u0142a i duszy, a przy konaniu pociech\u0105 i obron\u0105.\nPor nosso Senhor", 
+        "body": "Que a h\u00f3stia imaculada pela qual renovamos esta institui\u00e7\u00e3o da imensa caridade de nosso Senhor Jesus Cristo seja para n\u00f3s, pela intercess\u00e3o de S. Camilo, rem\u00e9dio salutar contra todas as enfermidades da alma e do corpo e na extrema agonia nos sirva de consola\u00e7\u00e3o e de protec\u00e7\u00e3o.\nPor nosso Senhor", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Wspomnienie \u015b\u015b. Symforozy i Siedmiu Jej Syn\u00f3w*\nOfiarujemy Ci, Panie, te dary jako wyraz naszego oddania; przyjmij je \u0142askawie ku chwale Twoich \u015awi\u0119tych i spraw w Swoim mi\u0142osierdziu, aby przyczyni\u0142y si\u0119 do naszego zbawienia.\nPor nosso Senhor", 
+        "body": "*Ss Symphoros\u00e6 et septem Filiorum ejus Mm*\nWe offer You, O Lord, the gifts of our homage; may they be pleasing to You in honor of Your just ones, and by Your mercy, may they become profitable for our salvation.\nPor nosso Senhor", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -132,17 +132,17 @@
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Mt 25:36-40*\nBy\u0142em chory, a nawiedzili\u015bcie mi\u0119. Zaprawd\u0119, zaprawd\u0119 powiadam wam: co\u015bcie uczynili jednemu z tych braci moich najmniejszych, mnie\u015bcie uczynili.", 
+        "body": "*Mt 25:36-40*\nEstive enfermo e visitastes-me. Em verdade, em verdade vos digo: todas as vezes que fizerdes isto mesmo a um destes meus irm\u00e3os mais pequeninos, a mim mesmo o fizestes.", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Przez ten pokarm niebieski, kt\u00f3ry\u015bmy z nabo\u017ce\u0144stwem przyj\u0119li, obchodz\u0105c uroczysto\u015b\u0107 \u015bw. Kamila, Twojego Wyznawcy, racz sprawi\u0107, o Panie, aby\u015bmy w godzinie \u015bmierci swojej opatrzeni Sakramentami i oczyszczeni z wszystkich grzech\u00f3w, pe\u0142ni rado\u015bci zostali przyj\u0119ci na \u0142ono Twojego mi\u0142osierdzia:\n\u00d3 V\u00f3s, que viveis.", 
+        "body": "Por estes alimentos celestiais, que recebemos com pia devo\u00e7\u00e3o celebrando a festa de S. Camilo, vosso Confessor, concedei-nos, Senhor, Vos suplicamos, que \u00e0 hora da morte, munidos com os sacramentos e limpos de todas as culpas, mere\u00e7amos ser recebidos com alegria no seio da vossa miseric\u00f3rdia.\n\u00d3 V\u00f3s, que viveis.", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Wspomnienie \u015b\u015b. Symforozy i Siedmiu Jej Syn\u00f3w*\nProsimy Ci\u0119, Panie, za wstawiennictwem M\u0119czennik\u00f3w Twoich Symforozy i jej syn\u00f3w, daj nam przyj\u0105\u0107 czyst\u0105 dusz\u0105 Sakrament, kt\u00f3ry spo\u017cyli\u015bmy ustami.\nPor nosso Senhor", 
+        "body": "*Ss Symphoros\u00e6 et septem Filiorum ejus Mm*\nGrant, we beseech You, O Lord, by the intercession of Your holy Martyrs, Symphorosa and her sons, that what we taste with our lips we may consume with pure heart.\nPor nosso Senhor", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

@@ -13,11 +13,11 @@
     <script src="?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js"></script>
     <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
     <script type="text/javascript">
-      var TRACEBACK = 4367565712,
+      var TRACEBACK = 4557512320,
           CONSOLE_MODE = false,
           EVALEX = true,
           EVALEX_TRUSTED = false,
-          SECRET = "nD0fHD1VaqV6mGeAXIvw";
+          SECRET = "PxbmNARMqZj0KUBqd5Dn";
     </script>
   </head>
   <body style="background-color: #fff">
@@ -29,7 +29,7 @@
 <h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
 <div class="traceback">
   
-  <ul><li><div class="frame" id="frame-4367572432">
+  <ul><li><div class="frame" id="frame-4542546896">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py"</cite>,
       line <em class="line">44</em>,
       in <code class="function">parse</code></h4>
@@ -46,7 +46,7 @@
 <pre class="line after"><span class="ws"></span> </pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367571024">
+<li><div class="frame" id="frame-4549301440">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py"</cite>,
       line <em class="line">65</em>,
       in <code class="function">_parse_proper_source</code></h4>
@@ -63,7 +63,7 @@
 <pre class="line after"><span class="ws">        </span>proper.description = parsed_comment['description']</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367570064">
+<li><div class="frame" id="frame-4549300288">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py"</cite>,
       line <em class="line">94</em>,
       in <code class="function">_parse_source</code></h4>
@@ -81,8 +81,8 @@
 </div>
 
 <li><div class="exc-divider">During handling of the above exception, another exception occurred:</div>
-<li><div class="frame" id="frame-4367592592">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
+<li><div class="frame" id="frame-4561581920">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
       line <em class="line">2463</em>,
       in <code class="function">__call__</code></h4>
   <div class="source library"><pre class="line before"><span class="ws"></span> </pre>
@@ -96,8 +96,8 @@
 <pre class="line after"><span class="ws">        </span>return &quot;&lt;%s %r&gt;&quot; % (self.__class__.__name__, self.name)</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367603536">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
+<li><div class="frame" id="frame-4561581008">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
       line <em class="line">2449</em>,
       in <code class="function">wsgi_app</code></h4>
   <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>
@@ -113,8 +113,8 @@
 <pre class="line after"><span class="ws">        </span>finally:</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367605456">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
+<li><div class="frame" id="frame-4542547856">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
       line <em class="line">1866</em>,
       in <code class="function">handle_exception</code></h4>
   <div class="source library"><pre class="line before"><span class="ws">            </span># if we want to repropagate the exception, we can attempt to</pre>
@@ -130,8 +130,8 @@
 <pre class="line after"><span class="ws">        </span>server_error = InternalServerError()</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367602448">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/_compat.py"</cite>,
+<li><div class="frame" id="frame-4542546512">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py"</cite>,
       line <em class="line">39</em>,
       in <code class="function">reraise</code></h4>
   <div class="source library"><pre class="line before"><span class="ws">    </span>import collections.abc as collections_abc</pre>
@@ -147,8 +147,8 @@
 <pre class="line after"><span class="ws">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367605584">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
+<li><div class="frame" id="frame-4542545984">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
       line <em class="line">2446</em>,
       in <code class="function">wsgi_app</code></h4>
   <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
@@ -164,8 +164,8 @@
 <pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367569744">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
+<li><div class="frame" id="frame-4542546656">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
       line <em class="line">1951</em>,
       in <code class="function">full_dispatch_request</code></h4>
   <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
@@ -181,8 +181,8 @@
 <pre class="line after"><span class="ws">        </span>the request by converting it into a response and invoking the</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367569488">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
+<li><div class="frame" id="frame-4542548048">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
       line <em class="line">1820</em>,
       in <code class="function">handle_user_exception</code></h4>
   <div class="source library"><pre class="line before"><span class="ws">            </span>return self.handle_http_exception(e)</pre>
@@ -198,8 +198,8 @@
 <pre class="line after"><span class="ws">        </span>associated with it, or that was raised from an error handler.</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367571600">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/_compat.py"</cite>,
+<li><div class="frame" id="frame-4542546608">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py"</cite>,
       line <em class="line">39</em>,
       in <code class="function">reraise</code></h4>
   <div class="source library"><pre class="line before"><span class="ws">    </span>import collections.abc as collections_abc</pre>
@@ -215,8 +215,8 @@
 <pre class="line after"><span class="ws">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367572496">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
+<li><div class="frame" id="frame-4542546224">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
       line <em class="line">1949</em>,
       in <code class="function">full_dispatch_request</code></h4>
   <div class="source library"><pre class="line before"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
@@ -232,8 +232,8 @@
 <pre class="line after"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367569360">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py"</cite>,
+<li><div class="frame" id="frame-4542546800">
+  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
       line <em class="line">1935</em>,
       in <code class="function">dispatch_request</code></h4>
   <div class="source library"><pre class="line before"><span class="ws">            </span>getattr(rule, &quot;provide_automatic_options&quot;, False)</pre>
@@ -249,7 +249,7 @@
 <pre class="line after"><span class="ws">        </span>error handling.</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367571664">
+<li><div class="frame" id="frame-4542547712">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/apiv2.py"</cite>,
       line <em class="line">38</em>,
       in <code class="function">v2_date</code></h4>
@@ -266,7 +266,7 @@
 <pre class="line after"><span class="ws"></span>def v2_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367569680">
+<li><div class="frame" id="frame-4542547088">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/utils.py"</cite>,
       line <em class="line">31</em>,
       in <code class="function">format_propers</code></h4>
@@ -283,9 +283,9 @@
 <pre class="line after"><span class="ws">        </span># proper's comment directly</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367572944">
+<li><div class="frame" id="frame-4542547568">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py"</cite>,
-      line <em class="line">185</em>,
+      line <em class="line">186</em>,
       in <code class="function">get_proper</code></h4>
   <div class="source "><pre class="line before"><span class="ws">    </span>def get_proper(self) -&gt; List[Tuple['Proper', 'Proper']]:</pre>
 <pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
@@ -300,9 +300,9 @@
 <pre class="line after"><span class="ws">                    </span>celebration_proper[i].add_commemorations([j[i] for j in commemoration_propers])</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367569936">
+<li><div class="frame" id="frame-4542546320">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py"</cite>,
-      line <em class="line">210</em>,
+      line <em class="line">211</em>,
       in <code class="function">_calculate_proper</code></h4>
   <div class="source "><pre class="line before"><span class="ws">            </span>retval: List[Tuple[Proper, Proper]] = []</pre>
 <pre class="line before"><span class="ws">            </span>for observance in observances:</pre>
@@ -317,9 +317,9 @@
 <pre class="line after"><span class="ws">            </span>if observances:</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367571984">
+<li><div class="frame" id="frame-4542546032">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py"</cite>,
-      line <em class="line">76</em>,
+      line <em class="line">77</em>,
       in <code class="function">get_proper</code></h4>
   <div class="source "><pre class="line before"><span class="ws">        </span>else:</pre>
 <pre class="line before"><span class="ws">            </span>self.weekday = self.date.weekday()</pre>
@@ -334,7 +334,7 @@
 <pre class="line after"><span class="ws">    </span>def has_proper(self) -&gt; bool:</pre></div>
 </div>
 
-<li><div class="frame" id="frame-4367569296">
+<li><div class="frame" id="frame-4542547424">
   <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py"</cite>,
       line <em class="line">47</em>,
       in <code class="function">parse</code></h4>
@@ -375,35 +375,35 @@ FileNotFoundError: [Errno 2] No such file or directory: '/Users/frades/code/teso
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py&quot;, line 2463, in __call__
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 2463, in __call__
     return self.wsgi_app(environ, start_response)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py&quot;, line 2449, in wsgi_app
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 2449, in wsgi_app
     response = self.handle_exception(e)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py&quot;, line 1866, in handle_exception
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1866, in handle_exception
     reraise(exc_type, exc_value, tb)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/_compat.py&quot;, line 39, in reraise
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py&quot;, line 39, in reraise
     raise value
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py&quot;, line 2446, in wsgi_app
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 2446, in wsgi_app
     response = self.full_dispatch_request()
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py&quot;, line 1951, in full_dispatch_request
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1951, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py&quot;, line 1820, in handle_user_exception
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1820, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/_compat.py&quot;, line 39, in reraise
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py&quot;, line 39, in reraise
     raise value
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py&quot;, line 1949, in full_dispatch_request
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1949, in full_dispatch_request
     rv = self.dispatch_request()
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py&quot;, line 1935, in dispatch_request
+  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1935, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
   File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/apiv2.py&quot;, line 38, in v2_date
     return jsonify(format_propers(day))
   File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/utils.py&quot;, line 31, in format_propers
     propers = day.get_proper()
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py&quot;, line 185, in get_proper
+  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py&quot;, line 186, in get_proper
     celebration_propers = self._calculate_proper(self.celebration)
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py&quot;, line 210, in _calculate_proper
+  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py&quot;, line 211, in _calculate_proper
     retval.append(observance.get_proper(proper_config))
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py&quot;, line 76, in get_proper
+  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py&quot;, line 77, in get_proper
     proper: Tuple['Proper', 'Proper'] = ProperParser(self.id, self.lang, config).parse()
   File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py&quot;, line 47, in parse
     raise ProperNotFound(f'Proper `{e.filename}` not found.')
@@ -454,35 +454,35 @@ FileNotFoundError: [Errno 2] No such file or directory: '/Users/frades/code/teso
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 2463, in __call__
     return self.wsgi_app(environ, start_response)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 2449, in wsgi_app
     response = self.handle_exception(e)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1866, in handle_exception
     reraise(exc_type, exc_value, tb)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
     raise value
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 2446, in wsgi_app
     response = self.full_dispatch_request()
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1951, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1820, in handle_user_exception
     reraise(exc_type, exc_value, tb)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
     raise value
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1949, in full_dispatch_request
     rv = self.dispatch_request()
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1935, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
   File "/Users/frades/code/tesourofieis/Missal1962/missal1962/apiv2.py", line 38, in v2_date
     return jsonify(format_propers(day))
   File "/Users/frades/code/tesourofieis/Missal1962/missal1962/utils.py", line 31, in format_propers
     propers = day.get_proper()
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py", line 185, in get_proper
+  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py", line 186, in get_proper
     celebration_propers = self._calculate_proper(self.celebration)
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py", line 210, in _calculate_proper
+  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py", line 211, in _calculate_proper
     retval.append(observance.get_proper(proper_config))
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py", line 76, in get_proper
+  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py", line 77, in get_proper
     proper: Tuple['Proper', 'Proper'] = ProperParser(self.id, self.lang, config).parse()
   File "/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py", line 47, in parse
     raise ProperNotFound(f'Proper `{e.filename}` not found.')
