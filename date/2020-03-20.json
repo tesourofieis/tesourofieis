@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Jej\u00fania nostra, qu\u01fdsumus, D\u00f3mine, ben\u00edgno fav\u00f3re pros\u00e9quere: ut, sicut ab alim\u00e9ntis abstin\u00e9mus in c\u00f3rpore; ita a v\u00edtiis jejun\u00e9mus in mente.\nPer Dominum.", 
+        "body": "Jej\u00fania nostra, qu\u01fdsumus, D\u00f3mine, ben\u00edgno fav\u00f3re pros\u00e9quere: ut, sicut ab alim\u00e9ntis abstin\u00e9mus in c\u00f3rpore; ita a v\u00edtiis jejun\u00e9mus in mente.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "R\u00e9spice, qu\u01fdsumus, D\u00f3mine, prop\u00edtius ad m\u00fanera, qu\u00e6 sacr\u00e1mus: ut tibi grata sint, et nobis salut\u00e1ria semper exs\u00edstant.\nPer Dominum.", 
+        "body": "R\u00e9spice, qu\u01fdsumus, D\u00f3mine, prop\u00edtius ad m\u00fanera, qu\u00e6 sacr\u00e1mus: ut tibi grata sint, et nobis salut\u00e1ria semper exs\u00edstant.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Hujus nos, D\u00f3mine, perc\u00e9ptio sacram\u00e9nti mundet a crimine: et ad c\u0153l\u00e9stia regna perd\u00facat.\nPer Dominum.", 
+        "body": "Hujus nos, D\u00f3mine, perc\u00e9ptio sacram\u00e9nti mundet a crimine: et ad c\u0153l\u00e9stia regna perd\u00facat.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui in tua protecti\u00f3ne conf\u00eddimus, cuncta nobis advers\u00e1ntia, te adjuv\u00e1nte, vinc\u00e1mus.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui in tua protecti\u00f3ne conf\u00eddimus, cuncta nobis advers\u00e1ntia, te adjuv\u00e1nte, vinc\u00e1mus.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "O Lord, graciously be with us during this fast, and, we beseech You, help our spirit to abstain from sin as our body fasts from food.\nPor nosso Senhor", 
+        "body": "O Lord, graciously be with us during this fast, and, we beseech You, help our spirit to abstain from sin as our body fasts from food.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Look with favor, we beseech You, O Lord, upon the gifts we offer You, that they may be pleasing to you and ever helpful to our salvation.\nPor nosso Senhor", 
+        "body": "Look with favor, we beseech You, O Lord, upon the gifts we offer You, that they may be pleasing to you and ever helpful to our salvation.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May the reception of this sacrament, O Lord, cleanse us from sin and bring us into the heavenly kingdom.\nPor nosso Senhor", 
+        "body": "May the reception of this sacrament, O Lord, cleanse us from sin and bring us into the heavenly kingdom.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGrant, we beseech You, almighty God, that we who trust in Your protection may, by Your assistance, triumph over all adversities.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGrant, we beseech You, almighty God, that we who trust in Your protection may, by Your assistance, triumph over all adversities.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

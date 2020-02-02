@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Sanct\u00edfica, qu\u01fdsumus, D\u00f3mine, nostra jej\u00fania: et cunct\u00e1rum nobis indulg\u00e9ntiam prop\u00edtius larg\u00edre culp\u00e1rum.\nPer Dominum.", 
+        "body": "Sanct\u00edfica, qu\u01fdsumus, D\u00f3mine, nostra jej\u00fania: et cunct\u00e1rum nobis indulg\u00e9ntiam prop\u00edtius larg\u00edre culp\u00e1rum.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Conc\u00e9de nobis, D\u00f3mine, Deus noster: ut h\u00e6c h\u00f3stia salut\u00e1ris et nostr\u00f3rum fiat purg\u00e1tio delict\u00f3rum, et tu\u00e6 propiti\u00e1tio majest\u00e1tis.\nPer Dominum.", 
+        "body": "Conc\u00e9de nobis, D\u00f3mine, Deus noster: ut h\u00e6c h\u00f3stia salut\u00e1ris et nostr\u00f3rum fiat purg\u00e1tio delict\u00f3rum, et tu\u00e6 propiti\u00e1tio majest\u00e1tis.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Sacram\u00e9nti tui, qu\u01fdsumus, D\u00f3mine, particip\u00e1tio salut\u00e1ris, et purificati\u00f3nem nobis tr\u00edbuat, et med\u00e9lam.\nPer Dominum.", 
+        "body": "Sacram\u00e9nti tui, qu\u01fdsumus, D\u00f3mine, particip\u00e1tio salut\u00e1ris, et purificati\u00f3nem nobis tr\u00edbuat, et med\u00e9lam.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nDa, qu\u01fdsumus, D\u00f3mine, p\u00f3pulo tuo sal\u00fatem mentis et c\u00f3rporis: ut, bonis op\u00e9ribus inh\u00e6r\u00e9ndo, tua semper mere\u00e1tur protecti\u00f3ne def\u00e9ndi.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nDa, qu\u01fdsumus, D\u00f3mine, p\u00f3pulo tuo sal\u00fatem mentis et c\u00f3rporis: ut, bonis op\u00e9ribus inh\u00e6r\u00e9ndo, tua semper mere\u00e1tur protecti\u00f3ne def\u00e9ndi.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "O Lord, we beseech You, make holy our fasting, and graciously lavish upon us forgiveness for all our sins.\nPor nosso Senhor", 
+        "body": "O Lord, we beseech You, make holy our fasting, and graciously lavish upon us forgiveness for all our sins.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Grant us, O Lord our God, that this saving sacrifice may cleanse us of our sins and gain us the favor of Your majesty.\nPor nosso Senhor", 
+        "body": "Grant us, O Lord our God, that this saving sacrifice may cleanse us of our sins and gain us the favor of Your majesty.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May the sacrament of salvation which we have received, we beseech You, O Lord, cleanse and restore us.\nPor nosso Senhor", 
+        "body": "May the sacrament of salvation which we have received, we beseech You, O Lord, cleanse and restore us.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nO Lord, we beseech You, grant unto Your people health of soul and body, that, by persevering in good works, we may be always worthy of Your powerful protection.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nO Lord, we beseech You, grant unto Your people health of soul and body, that, by persevering in good works, we may be always worthy of Your powerful protection.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

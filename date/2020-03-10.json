@@ -17,12 +17,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "P\u00e9rfice, qu\u01fdsumus, D\u00f3mine, benignus in nobis observ\u00e1nti\u00e6 sanct\u00e6 subs\u00eddium: ut, qu\u00e6 te auct\u00f3re faci\u00e9nda cogn\u00f3vimus, te oper\u00e1nte imple\u00e1mus.\nPer Dominum.", 
+        "body": "P\u00e9rfice, qu\u01fdsumus, D\u00f3mine, benignus in nobis observ\u00e1nti\u00e6 sanct\u00e6 subs\u00eddium: ut, qu\u00e6 te auct\u00f3re faci\u00e9nda cogn\u00f3vimus, te oper\u00e1nte imple\u00e1mus.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "* Commemoratio Ss. Quadraginta Martyrum *\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui glori\u00f3sos M\u00e1rtyres fortes in sua confessi\u00f3ne cogn\u00f3vimus, pios apud te in nostra intercessi\u00f3ne senti\u00e1mus.\nPer Dominum.", 
+        "body": "* Commemoratio Ss. Quadraginta Martyrum *\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui glori\u00f3sos M\u00e1rtyres fortes in sua confessi\u00f3ne cogn\u00f3vimus, pios apud te in nostra intercessi\u00f3ne senti\u00e1mus.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -47,12 +47,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Sanctificati\u00f3nem tuam nobis, D\u00f3mine, his myst\u00e9riis oper\u00e1re plac\u00e1tus: qu\u00e6 nos et a terr\u00e9nis purget v\u00edtiis, et ad c\u0153l\u00e9stia dona perd\u00facat.\nPer Dominum.", 
+        "body": "Sanctificati\u00f3nem tuam nobis, D\u00f3mine, his myst\u00e9riis oper\u00e1re plac\u00e1tus: qu\u00e6 nos et a terr\u00e9nis purget v\u00edtiis, et ad c\u0153l\u00e9stia dona perd\u00facat.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Commemoratio Ss. Quadraginta Martyrum *\nPreces, D\u00f3mine, tu\u00f3rum r\u00e9spice oblation\u00e9sque fid\u00e9lium: ut et tibi grat\u00e6 sint pro tu\u00f3rum festivit\u00e1te Sanct\u00f3rum, et nobis c\u00f3nferant tu\u00e6 propitiati\u00f3nis aux\u00edlium.\nPer Dominum.", 
+        "body": "* Commemoratio Ss. Quadraginta Martyrum *\nPreces, D\u00f3mine, tu\u00f3rum r\u00e9spice oblation\u00e9sque fid\u00e9lium: ut et tibi grat\u00e6 sint pro tu\u00f3rum festivit\u00e1te Sanct\u00f3rum, et nobis c\u00f3nferant tu\u00e6 propitiati\u00f3nis aux\u00edlium.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -67,17 +67,17 @@
         "label": "Communio"
       }, 
       {
-        "body": "Ut sacris, D\u00f3mine, redd\u00e1mur digni mun\u00e9ribus: fac nos tuis, qu\u01fdsumus, semper ob\u0153d\u00edre mand\u00e1tis.\nPer Dominum.", 
+        "body": "Ut sacris, D\u00f3mine, redd\u00e1mur digni mun\u00e9ribus: fac nos tuis, qu\u01fdsumus, semper ob\u0153d\u00edre mand\u00e1tis.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "* Commemoratio Ss. Quadraginta Martyrum *\nSanct\u00f3rum tu\u00f3rum, D\u00f3mine, intercessi\u00f3ne plac\u00e1tus: pr\u00e6sta, qu\u01fdsumus; ut, qu\u00e6 tempor\u00e1li celebr\u00e1mus acti\u00f3ne, perp\u00e9tua salvati\u00f3ne capi\u00e1mus.\nPer Dominum.", 
+        "body": "* Commemoratio Ss. Quadraginta Martyrum *\nSanct\u00f3rum tu\u00f3rum, D\u00f3mine, intercessi\u00f3ne plac\u00e1tus: pr\u00e6sta, qu\u01fdsumus; ut, qu\u00e6 tempor\u00e1li celebr\u00e1mus acti\u00f3ne, perp\u00e9tua salvati\u00f3ne capi\u00e1mus.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nPropiti\u00e1re, D\u00f3mine, supplicati\u00f3nibus nostris, et anim\u00e1rum nostr\u00e1rum med\u00e9re langu\u00f3ribus: ut, remissi\u00f3ne perc\u00e9pta, in tua semper benedicti\u00f3ne l\u00e6t\u00e1mur.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nPropiti\u00e1re, D\u00f3mine, supplicati\u00f3nibus nostris, et anim\u00e1rum nostr\u00e1rum med\u00e9re langu\u00f3ribus: ut, remissi\u00f3ne perc\u00e9pta, in tua semper benedicti\u00f3ne l\u00e6t\u00e1mur.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -89,12 +89,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Mercifully help us, O Lord, to fulfill this holy observance, that by Your grace we may carry out those things which we have learned, on Your word, must be done.\nPor nosso Senhor", 
+        "body": "Mercifully help us, O Lord, to fulfill this holy observance, that by Your grace we may carry out those things which we have learned, on Your word, must be done.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S.S. Quarenta M\u00e1rtires *\nSpraw, wszechmog\u0105cy Bo\u017ce, aby\u015bmy podziwiaj\u0105c m\u0119stwo s\u0142awnych M\u0119czennik\u00f3w w wyznawaniu wiary, doznali mi\u0142o\u015bciwego ich wstawiennictwa u Ciebie.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S.S. Quarenta M\u00e1rtires *\nSpraw, wszechmog\u0105cy Bo\u017ce, aby\u015bmy podziwiaj\u0105c m\u0119stwo s\u0142awnych M\u0119czennik\u00f3w w wyznawaniu wiary, doznali mi\u0142o\u015bciwego ich wstawiennictwa u Ciebie.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -119,12 +119,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Through this sacrament, O Lord, graciously perform Your holy work, that it may cleanse us of earthly vices and bring us to heavenly rewards.\nPor nosso Senhor", 
+        "body": "Through this sacrament, O Lord, graciously perform Your holy work, that it may cleanse us of earthly vices and bring us to heavenly rewards.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S.S. Quarenta M\u00e1rtires *\nWejrzyj, Panie, na mod\u0142y i ofiary Swoich wiernych: niech przy uroczysto\u015bci Twoich \u015awi\u0119tych b\u0119d\u0105 Ci mi\u0142e, a nam niech wyjednaj\u0105 Twoj\u0105 mi\u0142osiern\u0105 pomoc.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S.S. Quarenta M\u00e1rtires *\nWejrzyj, Panie, na mod\u0142y i ofiary Swoich wiernych: niech przy uroczysto\u015bci Twoich \u015awi\u0119tych b\u0119d\u0105 Ci mi\u0142e, a nam niech wyjednaj\u0105 Twoj\u0105 mi\u0142osiern\u0105 pomoc.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -139,17 +139,17 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Grant us, O Lord, ever to obey Your commandments, that we may be worthy of Your sacred gifts.\nPor nosso Senhor", 
+        "body": "Grant us, O Lord, ever to obey Your commandments, that we may be worthy of Your sacred gifts.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S.S. Quarenta M\u00e1rtires *\nPrzejednany wstawiennictwem Twoich \u015awi\u0119tych, daj, prosimy Ci\u0119, Panie, aby\u015bmy osi\u0105gn\u0119li w zbawieniu wiecznym to, co sprawujemy w \u015bwi\u0119tej czynno\u015bci doczesnej.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S.S. Quarenta M\u00e1rtires *\nPrzejednany wstawiennictwem Twoich \u015awi\u0119tych, daj, prosimy Ci\u0119, Panie, aby\u015bmy osi\u0105gn\u0119li w zbawieniu wiecznym to, co sprawujemy w \u015bwi\u0119tej czynno\u015bci doczesnej.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nMercifully heed our humble prayers, O Lord, and heal the weakness of our souls, that having obtained forgiveness, we may ever rejoice in Your blessing.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nMercifully heed our humble prayers, O Lord, and heal the weakness of our souls, that having obtained forgiveness, we may ever rejoice in Your blessing.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

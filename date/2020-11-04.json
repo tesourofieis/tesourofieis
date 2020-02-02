@@ -17,12 +17,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Eccl\u00e9siam tuam, D\u00f3mine, sancti Car\u00f3li Confess\u00f3ris tui atque Pont\u00edficis cont\u00ednua protecti\u00f3ne cust\u00f3di: ut, sicut illum pastor\u00e1lis sollicit\u00fado glori\u00f3sum r\u00e9ddidit; ita nos ejus interc\u00e9ssio in tuo semper f\u00e1ciat am\u00f3re ferv\u00e9ntes.\nPer Dominum.", 
+        "body": "Eccl\u00e9siam tuam, D\u00f3mine, sancti Car\u00f3li Confess\u00f3ris tui atque Pont\u00edficis cont\u00ednua protecti\u00f3ne cust\u00f3di: ut, sicut illum pastor\u00e1lis sollicit\u00fado glori\u00f3sum r\u00e9ddidit; ita nos ejus interc\u00e9ssio in tuo semper f\u00e1ciat am\u00f3re ferv\u00e9ntes.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Pro Ss. Vitale et Agr\u00edcola Martyribus*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Vit\u00e1lis et Agr\u00edcol\u00e6 soll\u00e9mnia c\u00f3limus, e\u00f3rum apud te intercessi\u00f3nibus adjuv\u00e9mur.\nPer Dominum.", 
+        "body": "*Pro Ss. Vitale et Agr\u00edcola Martyribus*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Vit\u00e1lis et Agr\u00edcol\u00e6 soll\u00e9mnia c\u00f3limus, e\u00f3rum apud te intercessi\u00f3nibus adjuv\u00e9mur.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -47,12 +47,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Sancti tui, qu\u01fdsumus, D\u00f3mine, nos ubique l\u00e6t\u00edficent: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum.", 
+        "body": "Sancti tui, qu\u01fdsumus, D\u00f3mine, nos ubique l\u00e6t\u00edficent: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro Ss. Vitale et Agr\u00edcola Martyribus*\nOblatis, qu\u01fdsumus, D\u00f3mine, plac\u00e1re mun\u00e9ribus: et, interced\u00e9ntibus sanctis Mart\u00fdribus tuis Vit\u00e1le et Agr\u00edcola, a cunctis nos def\u00e9nde per\u00edculis.\nPer Dominum.", 
+        "body": "*Pro Ss. Vitale et Agr\u00edcola Martyribus*\nOblatis, qu\u01fdsumus, D\u00f3mine, plac\u00e1re mun\u00e9ribus: et, interced\u00e9ntibus sanctis Mart\u00fdribus tuis Vit\u00e1le et Agr\u00edcola, a cunctis nos def\u00e9nde per\u00edculis.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -67,12 +67,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to C\u00e1rolo Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to C\u00e1rolo Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Pro Ss. Vitale et Agr\u00edcola Martyribus*\nH\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9ntibus sanctis Mart\u00fdribus tuis Vit\u00e1le et Agr\u00edcola, coel\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer Dominum.", 
+        "body": "*Pro Ss. Vitale et Agr\u00edcola Martyribus*\nH\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9ntibus sanctis Mart\u00fdribus tuis Vit\u00e1le et Agr\u00edcola, coel\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
@@ -84,12 +84,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Pela protec\u00e7\u00e3o do vosso Santo Confessor e Pont\u00edfice Carlos, dignai-Vos guardar a vossa Igreja, Senhor, a fim de que, assim como a sua solicitude pastoral o tornou glorioso, assim tamb\u00e9m a sua intercess\u00e3o nos obtenha perp\u00e9tuo fervor no vosso amor.\nPor nosso Senhor", 
+        "body": "Pela protec\u00e7\u00e3o do vosso Santo Confessor e Pont\u00edfice Carlos, dignai-Vos guardar a vossa Igreja, Senhor, a fim de que, assim como a sua solicitude pastoral o tornou glorioso, assim tamb\u00e9m a sua intercess\u00e3o nos obtenha perp\u00e9tuo fervor no vosso amor.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "*dos Santos M\u00e1rtires Vital e Agr\u00edcola*\n\u00d3 Deus omnipotente, Vos rogamos, permiti que, celebrando a festa dos vossos Santos M\u00e1rtires Vital e Agr\u00edcola, sejamos auxiliados pela sua intercess\u00e3o junto de V\u00f3s.\nPor nosso Senhor", 
+        "body": "*dos Santos M\u00e1rtires Vital e Agr\u00edcola*\n\u00d3 Deus omnipotente, Vos rogamos, permiti que, celebrando a festa dos vossos Santos M\u00e1rtires Vital e Agr\u00edcola, sejamos auxiliados pela sua intercess\u00e3o junto de V\u00f3s.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -114,12 +114,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Que os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus m\u00e9ritos, sintamos o efeito do seu patroc\u00ednio.\nPor nosso Senhor", 
+        "body": "Que os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus m\u00e9ritos, sintamos o efeito do seu patroc\u00ednio.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*dos Santos M\u00e1rtires Vital e Agr\u00edcola*\nDeixai-Vos aplacar com os dons que Vos oferecemos, Senhor, e por intercess\u00e3o dos vossos Santos M\u00e1rtires Vital e Agr\u00edcola preservai-nos de todos os perigos.\nPor nosso Senhor", 
+        "body": "*dos Santos M\u00e1rtires Vital e Agr\u00edcola*\nDeixai-Vos aplacar com os dons que Vos oferecemos, Senhor, e por intercess\u00e3o dos vossos Santos M\u00e1rtires Vital e Agr\u00edcola preservai-nos de todos os perigos.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -134,12 +134,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Dignai-Vos permitir, \u00f3 Deus omnipotente, que, dando-Vos n\u00f3s gra\u00e7as pelos benef\u00edcios recebidos, alcancemos por intercess\u00e3o do B. N., vosso Confessor e Pont\u00edfice, ainda outros maiores.\nPor nosso Senhor", 
+        "body": "Dignai-Vos permitir, \u00f3 Deus omnipotente, que, dando-Vos n\u00f3s gra\u00e7as pelos benef\u00edcios recebidos, alcancemos por intercess\u00e3o do B. N., vosso Confessor e Pont\u00edfice, ainda outros maiores.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*dos Santos M\u00e1rtires Vital e Agr\u00edcola*\nQue esta comunh\u00e3o nos purifique dos nossos crimes, Senhor, e que por intercess\u00e3o dos vossos Santos M\u00e1rtires Vital e Agr\u00edcola nos fa\u00e7a participantes do rem\u00e9dio celestial.\nPor nosso Senhor", 
+        "body": "*dos Santos M\u00e1rtires Vital e Agr\u00edcola*\nQue esta comunh\u00e3o nos purifique dos nossos crimes, Senhor, e que por intercess\u00e3o dos vossos Santos M\u00e1rtires Vital e Agr\u00edcola nos fa\u00e7a participantes do rem\u00e9dio celestial.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

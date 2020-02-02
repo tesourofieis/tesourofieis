@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Sanctific\u00e1to hoc jej\u00fanio, Deus, tu\u00f3rum corda fid\u00e9lium miser\u00e1tor ill\u00fastra: et quibus devoti\u00f3nis pr\u00e6stas aff\u00e9ctum, pr\u00e6be supplic\u00e1ntibus pium ben\u00edgnus aud\u00edtum.\nPer Dominum.", 
+        "body": "Sanctific\u00e1to hoc jej\u00fanio, Deus, tu\u00f3rum corda fid\u00e9lium miser\u00e1tor ill\u00fastra: et quibus devoti\u00f3nis pr\u00e6stas aff\u00e9ctum, pr\u00e6be supplic\u00e1ntibus pium ben\u00edgnus aud\u00edtum.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Annue, mis\u00e9ricors Deus: ut h\u00f3stias placati\u00f3nis et laudis sinc\u00e9ro tibi defer\u00e1mus obs\u00e9quio.\nPer Dominum.", 
+        "body": "Annue, mis\u00e9ricors Deus: ut h\u00f3stias placati\u00f3nis et laudis sinc\u00e9ro tibi defer\u00e1mus obs\u00e9quio.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "C\u0153l\u00e9stis doni benedicti\u00f3ne perc\u00e9pta: s\u00fapplices te, Deus omn\u00edpotens, deprec\u00e1mur; ut hoc idem nobis et sacram\u00e9nti causa sit et sal\u00fatis.\nPer Dominum.", 
+        "body": "C\u0153l\u00e9stis doni benedicti\u00f3ne perc\u00e9pta: s\u00fapplices te, Deus omn\u00edpotens, deprec\u00e1mur; ut hoc idem nobis et sacram\u00e9nti causa sit et sal\u00fatis.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nV. Humili\u00e1te c\u00e1pita vestra Deo.\nAd\u00e9sto supplicati\u00f3nibus nostris, omn\u00edpotens Deus: et, quibus fid\u00faciam sper\u00e1nd\u00e6 piet\u00e1tis ind\u00falges; consu\u00e9t\u00e6 miseric\u00f3rdi\u00e6 tr\u00edbue ben\u00edgnus eff\u00e9ctum.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nV. Humili\u00e1te c\u00e1pita vestra Deo.\nAd\u00e9sto supplicati\u00f3nibus nostris, omn\u00edpotens Deus: et, quibus fid\u00faciam sper\u00e1nd\u00e6 piet\u00e1tis ind\u00falges; consu\u00e9t\u00e6 miseric\u00f3rdi\u00e6 tr\u00edbue ben\u00edgnus eff\u00e9ctum.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "In Your mercy, O Lord, may this hallowing fast enlighten the hearts of Your faithful people, and since You have given them the desire to serve You, lend a gracious ear to their prayers.\nPor nosso Senhor", 
+        "body": "In Your mercy, O Lord, may this hallowing fast enlighten the hearts of Your faithful people, and since You have given them the desire to serve You, lend a gracious ear to their prayers.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "O merciful God, permit us to offer in sincere submission the gift of satisfaction and praise.\nPor nosso Senhor", 
+        "body": "O merciful God, permit us to offer in sincere submission the gift of satisfaction and praise.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "We who have shared in the blessing of the heavenly gift humbly pray You, almighty God, that it may be for us the source of sacramental grace and salvation.\nPor nosso Senhor", 
+        "body": "We who have shared in the blessing of the heavenly gift humbly pray You, almighty God, that it may be for us the source of sacramental grace and salvation.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nComply with our humble prayers, almighty God, and graciously grant Your habitual mercy to those upon whom You lavish confidence in the expectation of Your goodness.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nComply with our humble prayers, almighty God, and graciously grant Your habitual mercy to those upon whom You lavish confidence in the expectation of Your goodness.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Deus, qui culpa off\u00e9nderis, p\u00e6nit\u00e9ntia plac\u00e1ris: preces p\u00f3puli tui supplic\u00e1ntis prop\u00edtius r\u00e9spice; et flag\u00e9lla tu\u00e6 irac\u00fandi\u00e6, qu\u00e6 pro pecc\u00e1tis nostris mer\u00e9mur, av\u00e9rte.\nPer Dominum.", 
+        "body": "Deus, qui culpa off\u00e9nderis, p\u00e6nit\u00e9ntia plac\u00e1ris: preces p\u00f3puli tui supplic\u00e1ntis prop\u00edtius r\u00e9spice; et flag\u00e9lla tu\u00e6 irac\u00fandi\u00e6, qu\u00e6 pro pecc\u00e1tis nostris mer\u00e9mur, av\u00e9rte.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Sacrif\u00edciis pr\u00e6s\u00e9ntibus, D\u00f3mine, qu\u01fdsumus, int\u00e9nde plac\u00e1tus: ut et devoti\u00f3ni nostr\u00e6 prof\u00edciant et sal\u00fati.\nPer Dominum.", 
+        "body": "Sacrif\u00edciis pr\u00e6s\u00e9ntibus, D\u00f3mine, qu\u01fdsumus, int\u00e9nde plac\u00e1tus: ut et devoti\u00f3ni nostr\u00e6 prof\u00edciant et sal\u00fati.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "C\u0153l\u00e9stis doni benedicti\u00f3ne perc\u00e9pta: s\u00fapplices te, Deus omn\u00edpotens, deprec\u00e1mur; ut hoc idem nobis et sacram\u00e9nti causa sit et sal\u00fatis.\nPer Dominum.", 
+        "body": "C\u0153l\u00e9stis doni benedicti\u00f3ne perc\u00e9pta: s\u00fapplices te, Deus omn\u00edpotens, deprec\u00e1mur; ut hoc idem nobis et sacram\u00e9nti causa sit et sal\u00fatis.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nParce, D\u00f3mine, parce populo tuo: ut, dignis flagellati\u00f3nibus castig\u00e1tus, in tua miserati\u00f3ne resp\u00edret.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nParce, D\u00f3mine, parce populo tuo: ut, dignis flagellati\u00f3nibus castig\u00e1tus, in tua miserati\u00f3ne resp\u00edret.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "O God, offended by sin, and appeased by penitence, graciously hear the prayers of Your people as they entreat You to turn away from us the scourges of anger that we have deserved because of our sins.\nPor nosso Senhor", 
+        "body": "O God, offended by sin, and appeased by penitence, graciously hear the prayers of Your people as they entreat You to turn away from us the scourges of anger that we have deserved because of our sins.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "O Lord, we beseech You to look with favor upon these offerings before You, and may they be profitable to our devotion as well as to our salvation.\nPor nosso Senhor", 
+        "body": "O Lord, we beseech You to look with favor upon these offerings before You, and may they be profitable to our devotion as well as to our salvation.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "We humbly beseech You, almighty God, that, having received the blessing of Your heavenly gift, it may be for us the source of sacramental grace and of salvation.\nPor nosso Senhor", 
+        "body": "We humbly beseech You, almighty God, that, having received the blessing of Your heavenly gift, it may be for us the source of sacramental grace and of salvation.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nSpare, O Lord, spare Your people, that, being chastened with well-deserved scourging, they may find relief through Your compassion.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nSpare, O Lord, spare Your people, that, being chastened with well-deserved scourging, they may find relief through Your compassion.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

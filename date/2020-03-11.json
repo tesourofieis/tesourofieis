@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "P\u00f3pulum tuum, qu\u01fdsumus, D\u00f3mine, prop\u00edtius r\u00e9spice: et, quos ab escis carn\u00e1libus pr\u01fdcipis abstin\u00e9re, a n\u00f3xiis quoque v\u00edtiis cess\u00e1re conc\u00e9de.\nPer Dominum.", 
+        "body": "P\u00f3pulum tuum, qu\u01fdsumus, D\u00f3mine, prop\u00edtius r\u00e9spice: et, quos ab escis carn\u00e1libus pr\u01fdcipis abstin\u00e9re, a n\u00f3xiis quoque v\u00edtiis cess\u00e1re conc\u00e9de.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "H\u00f3stias, D\u00f3mine, quas tibi off\u00e9rimus, prop\u00edtius r\u00e9spice: et, per h\u00e6c sancta comm\u00e9rcia, v\u00edncula peccat\u00f3rum nostr\u00f3rum abs\u00f3lve.\nPer Dominum.", 
+        "body": "H\u00f3stias, D\u00f3mine, quas tibi off\u00e9rimus, prop\u00edtius r\u00e9spice: et, per h\u00e6c sancta comm\u00e9rcia, v\u00edncula peccat\u00f3rum nostr\u00f3rum abs\u00f3lve.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Sumptis, D\u00f3mine, sacram\u00e9ntis: ad redempti\u00f3nis \u00e6t\u00e9rn\u00e6, qu\u01fdsumus, profici\u00e1mus augm\u00e9ntum.\nPer Dominum.", 
+        "body": "Sumptis, D\u00f3mine, sacram\u00e9ntis: ad redempti\u00f3nis \u00e6t\u00e9rn\u00e6, qu\u01fdsumus, profici\u00e1mus augm\u00e9ntum.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nDeus, innoc\u00e9nti\u00e6 restit\u00fator et am\u00e1tor, d\u00edrige ad te tu\u00f3rum corda serv\u00f3rum: ut, sp\u00edritus tui ferv\u00f3re conc\u00e9pto, et in fide inveni\u00e1ntur st\u00e1biles, et in \u00f3pere effic\u00e1ces.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nDeus, innoc\u00e9nti\u00e6 restit\u00fator et am\u00e1tor, d\u00edrige ad te tu\u00f3rum corda serv\u00f3rum: ut, sp\u00edritus tui ferv\u00f3re conc\u00e9pto, et in fide inveni\u00e1ntur st\u00e1biles, et in \u00f3pere effic\u00e1ces.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Look mercifully upon Your people, we beseech You, O Lord, and grant that they whom You command to abstain from food, may also refrain from harmful vices.\nPor nosso Senhor", 
+        "body": "Look mercifully upon Your people, we beseech You, O Lord, and grant that they whom You command to abstain from food, may also refrain from harmful vices.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Look with favor upon the sacrificial gifts we offer You, O Lord, and through this holy exchange loosen the bonds of our sins.\nPor nosso Senhor", 
+        "body": "Look with favor upon the sacrificial gifts we offer You, O Lord, and through this holy exchange loosen the bonds of our sins.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Having received Your sacrament, O Lord, may we make progress, we beseech You, toward our everlasting salvation.\nPor nosso Senhor", 
+        "body": "Having received Your sacrament, O Lord, may we make progress, we beseech You, toward our everlasting salvation.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nO God, restorer and lover of innocence, direct the hearts of Your servants towards You, so that, filled with the fervor of Your spirit, they may be found steadfast in faith and rich in good works.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nO God, restorer and lover of innocence, direct the hearts of Your servants towards You, so that, filled with the fervor of Your spirit, they may be found steadfast in faith and rich in good works.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

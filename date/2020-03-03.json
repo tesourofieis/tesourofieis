@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "R\u00e9spice, D\u00f3mine, fam\u00edliam tuam: et pr\u00e6sta; ut apud te mens nostra tuo desid\u00e9rio f\u00falgeat, qu\u00e6 se carnis macerati\u00f3ne cast\u00edgat.\nPer Dominum.", 
+        "body": "R\u00e9spice, D\u00f3mine, fam\u00edliam tuam: et pr\u00e6sta; ut apud te mens nostra tuo desid\u00e9rio f\u00falgeat, qu\u00e6 se carnis macerati\u00f3ne cast\u00edgat.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Obl\u00e1tis, qu\u01fdsumus, D\u00f3mine, plac\u00e1re mun\u00e9ribus: et a cunctis nos def\u00e9nde per\u00edculis.\nPer Dominum.", 
+        "body": "Obl\u00e1tis, qu\u01fdsumus, D\u00f3mine, plac\u00e1re mun\u00e9ribus: et a cunctis nos def\u00e9nde per\u00edculis.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Qu\u01fdsumus, omn\u00edpotens Deus: ut ill\u00edus salut\u00e1ris capi\u00e1mus eff\u00e9ctum, cujus per h\u00e6c myst\u00e9ria pignus acc\u00e9pimus.\nPer Dominum.", 
+        "body": "Qu\u01fdsumus, omn\u00edpotens Deus: ut ill\u00edus salut\u00e1ris capi\u00e1mus eff\u00e9ctum, cujus per h\u00e6c myst\u00e9ria pignus acc\u00e9pimus.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super Populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nAsc\u00e9ndant ad te, D\u00f3mine, preces nostr\u00e6: et ab Eccl\u00e9sia tua cunctam rep\u00e9lle nequ\u00edtiam.\nPer Dominum.", 
+        "body": "*Oratio super Populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nAsc\u00e9ndant ad te, D\u00f3mine, preces nostr\u00e6: et ab Eccl\u00e9sia tua cunctam rep\u00e9lle nequ\u00edtiam.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Look upon Your household, O Lord, and grant that our minds, chastened by mortification of the flesh, may, because of their desire for You, shine in Your sight.\nPor nosso Senhor", 
+        "body": "Look upon Your household, O Lord, and grant that our minds, chastened by mortification of the flesh, may, because of their desire for You, shine in Your sight.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Be appeased, we beseech You, O Lord, by the gifts we offer, and safeguard us from all dangers.\nPor nosso Senhor", 
+        "body": "Be appeased, we beseech You, O Lord, by the gifts we offer, and safeguard us from all dangers.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "We beseech You, almighty God, that we may obtain that salvation whose pledge we have received in this divine sacrament.\nPor nosso Senhor", 
+        "body": "We beseech You, almighty God, that we may obtain that salvation whose pledge we have received in this divine sacrament.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nMay our prayers ascend unto You, O Lord, and banish all wickedness from Your Church.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nMay our prayers ascend unto You, O Lord, and banish all wickedness from Your Church.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

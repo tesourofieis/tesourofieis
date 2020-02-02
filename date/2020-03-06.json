@@ -17,12 +17,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Esto, D\u00f3mine, prop\u00edtius plebi tu\u00e6: et, quam tibi facis esse dev\u00f3tam, ben\u00edgno r\u00e9fove miser\u00e1tus aux\u00edlio.\nPer Dominum.", 
+        "body": "Esto, D\u00f3mine, prop\u00edtius plebi tu\u00e6: et, quam tibi facis esse dev\u00f3tam, ben\u00edgno r\u00e9fove miser\u00e1tus aux\u00edlio.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "* Commemoratio Ss. Perpetu\u00e6 et Felicitatis Martyrum *\nDa nobis, qu\u01fdsumus, D\u00f3mine, Deus noster, sanctarum M\u00e1rtyrum tu\u00e1rum Perp\u00e9tu\u00e6 et Felicit\u00e1tis palmas incess\u00e1bili devoti\u00f3ne vener\u00e1ri: ut, quas digna mente non p\u00f3ssumus celebr\u00e1re, hum\u00edlibus saltem frequent\u00e9mus obs\u00e9quiis.\nPer Dominum.", 
+        "body": "* Commemoratio Ss. Perpetu\u00e6 et Felicitatis Martyrum *\nDa nobis, qu\u01fdsumus, D\u00f3mine, Deus noster, sanctarum M\u00e1rtyrum tu\u00e1rum Perp\u00e9tu\u00e6 et Felicit\u00e1tis palmas incess\u00e1bili devoti\u00f3ne vener\u00e1ri: ut, quas digna mente non p\u00f3ssumus celebr\u00e1re, hum\u00edlibus saltem frequent\u00e9mus obs\u00e9quiis.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -47,12 +47,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "S\u00fascipe, qu\u01fdsumus, D\u00f3mine, m\u00fanera nostris obl\u00e1ta serv\u00edtiis: et tua prop\u00edtius dona sanct\u00edfica.\nPer Dominum.", 
+        "body": "S\u00fascipe, qu\u01fdsumus, D\u00f3mine, m\u00fanera nostris obl\u00e1ta serv\u00edtiis: et tua prop\u00edtius dona sanct\u00edfica.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Commemoratio Ss. Perpetu\u00e6 et Felicitatis Martyrum *\nInt\u00e9nde, qu\u01fdsumus, D\u00f3mine, m\u00fanera alt\u00e1ribus tuis pro sanct\u00e1rum M\u00e1rtyrum tu\u00e1rum Perp\u00e9tu\u00e6 et Felicitatis festivit\u00e1te prop\u00f3sita: ut, sicut per h\u00e6c be\u00e1ta myst\u00e9ria illis gl\u00f3riam contul\u00edsti; ita nobis indulg\u00e9ntiam largi\u00e1ris.\nPer Dominum.", 
+        "body": "* Commemoratio Ss. Perpetu\u00e6 et Felicitatis Martyrum *\nInt\u00e9nde, qu\u01fdsumus, D\u00f3mine, m\u00fanera alt\u00e1ribus tuis pro sanct\u00e1rum M\u00e1rtyrum tu\u00e1rum Perp\u00e9tu\u00e6 et Felicitatis festivit\u00e1te prop\u00f3sita: ut, sicut per h\u00e6c be\u00e1ta myst\u00e9ria illis gl\u00f3riam contul\u00edsti; ita nobis indulg\u00e9ntiam largi\u00e1ris.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -67,17 +67,17 @@
         "label": "Communio"
       }, 
       {
-        "body": "Per hujus, D\u00f3mine, operati\u00f3nem myst\u00e9rii, et v\u00edtia nostra purg\u00e9ntur, et justa desid\u00e9ria comple\u00e1ntur.\nPer Dominum.", 
+        "body": "Per hujus, D\u00f3mine, operati\u00f3nem myst\u00e9rii, et v\u00edtia nostra purg\u00e9ntur, et justa desid\u00e9ria comple\u00e1ntur.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "* Commemoratio Ss. Perpetu\u00e6 et Felicitatis Martyrum *\nM\u00fdsticis, D\u00f3mine, repl\u00e9ti sumus votis et g\u00e1udiis: pr\u00e6sta, qu\u01fdsumus; ut intercessi\u00f3nibus sanct\u00e1rum M\u00e1rtyrum tu\u00e1rum Perp\u00e9tu\u00e6 et Felicit\u00e1tis, qu\u00e6 tempor\u00e1liter \u00e1gimus, spiritu\u00e1liter consequ\u00e1mur.\nPer Dominum.", 
+        "body": "* Commemoratio Ss. Perpetu\u00e6 et Felicitatis Martyrum *\nM\u00fdsticis, D\u00f3mine, repl\u00e9ti sumus votis et g\u00e1udiis: pr\u00e6sta, qu\u01fdsumus; ut intercessi\u00f3nibus sanct\u00e1rum M\u00e1rtyrum tu\u00e1rum Perp\u00e9tu\u00e6 et Felicit\u00e1tis, qu\u00e6 tempor\u00e1liter \u00e1gimus, spiritu\u00e1liter consequ\u00e1mur.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nEx\u00e1udi nos, mis\u00e9ricors Deus: et m\u00e9ntibus nostris gr\u00e1ti\u00e6 tu\u00e6 lumen ost\u00e9nde.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nEx\u00e1udi nos, mis\u00e9ricors Deus: et m\u00e9ntibus nostris gr\u00e1ti\u00e6 tu\u00e6 lumen ost\u00e9nde.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -89,12 +89,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Be merciful to Your people, O Lord, and as You give them the grace to serve You, make them new by Your loving help.\nPor nosso Senhor", 
+        "body": "Be merciful to Your people, O Lord, and as You give them the grace to serve You, make them new by Your loving help.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S.S. Perp\u00e9tua e Felicidade, M\u00e1rtires *\nProsimy Ci\u0119, Panie Bo\u017ce nasz, daj nam zawsze z nabo\u017ce\u0144stwem czci\u0107 triumf \u015bwi\u0119tych M\u0119czennic Twoich Perpetui i Felicyty, aby\u015bmy, nie mog\u0105c ich uczci\u0107 godnym sercem, przynajmniej wzi\u0119li udzia\u0142 w tym pokornym ho\u0142dzie.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S.S. Perp\u00e9tua e Felicidade, M\u00e1rtires *\n\u00d3 Senhor, nosso Deus, dignai-Vos conceder-nos a gra\u00e7a de incessantemente venerarmos com devo\u00e7\u00e3o a vit\u00f3ria das vossas santas Virgens e M\u00e1rtires Perp\u00e9tua e Felicidade, a fim de que, j\u00e1 que n\u00e3o podemos celebrar dignamente os seus m\u00e9ritos, ao menos possamos oferecer-lhes as nossas humildes homenagens.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -119,12 +119,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Accept, we beseech You, O Lord, the offerings which we, Your servants, bring You, and graciously hallow the gifts which are Your.\nPor nosso Senhor", 
+        "body": "Accept, we beseech You, O Lord, the offerings which we, Your servants, bring You, and graciously hallow the gifts which are Your.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S.S. Perp\u00e9tua e Felicidade, M\u00e1rtires *\nWejrzyj, prosimy Ci\u0119, Panie, na dary z\u0142o\u017cone na Twoim o\u0142tarzu w uroczysto\u015b\u0107 \u015bwi\u0119tych M\u0119czennic Twoich Perpetui i Felicyty i jak im przez te \u015bwi\u0119te tajemnice udzieli\u0142e\u015b chwa\u0142y, tak nam szczodrze udziel przebaczenia.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S.S. Perp\u00e9tua e Felicidade, M\u00e1rtires *\nSenhor, dignai-Vos volver os vossos olhares para estas ofertas que depositamos nos vossos altares para celebrar a festa das vossas santas Virgens e M\u00e1rtires Perp\u00e9tua e Felicidade, a fim de que, assim como lhes concedestes a gl\u00f3ria, assim tamb\u00e9m nos concedais o perd\u00e3o dos nossos pecados.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -139,17 +139,17 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "By the working of this sacrament, O Lord, may our sins be erased, and our just desires fulfilled.\nPor nosso Senhor", 
+        "body": "By the working of this sacrament, O Lord, may our sins be erased, and our just desires fulfilled.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S.S. Perp\u00e9tua e Felicidade, M\u00e1rtires *\nNape\u0142nieni duchowymi pragnieniami i rado\u015bci\u0105, prosimy Ci\u0119, Panie, spraw, aby\u015bmy za wstawiennictwem \u015bwi\u0119tych M\u0119czennic Twoich Perpetui i Felicyty osi\u0105gn\u0119li duchowe owoce obrz\u0119d\u00f3w, kt\u00f3re sprawujemy w doczesno\u015bci.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S.S. Perp\u00e9tua e Felicidade, M\u00e1rtires *\nSaciados com as alegrias m\u00edsticas, que s\u00e3o objecto dos nossos desejos, concedei-nos, Vos suplicamos, Senhor, que por intercess\u00e3o das vossas Santas M\u00e1rtires Perp\u00e9tua e Felicidade alcancemos os eternos efeitos do que pratic\u00e1mos neste mundo.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGraciously hear us, merciful God, and reveal to our minds the light of Your grace.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGraciously hear us, merciful God, and reveal to our minds the light of Your grace.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

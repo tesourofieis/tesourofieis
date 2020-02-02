@@ -20,12 +20,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Omn\u00edpotens sempit\u00e9rne Deus, qui in Corde be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis dignum Sp\u00edritus Sancti habit\u00e1culum pr\u00e6par\u00e1sti: conc\u00e9de prop\u00edtius; ut ej\u00fasdem immacul\u00e1ti Cordis festivit\u00e1tem dev\u00f3ta mente recol\u00e9ntes, sec\u00fandum cor tuum v\u00edvere vale\u00e1mus.\nPer Dominum.", 
+        "body": "Omn\u00edpotens sempit\u00e9rne Deus, qui in Corde be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis dignum Sp\u00edritus Sancti habit\u00e1culum pr\u00e6par\u00e1sti: conc\u00e9de prop\u00edtius; ut ej\u00fasdem immacul\u00e1ti Cordis festivit\u00e1tem dev\u00f3ta mente recol\u00e9ntes, sec\u00fandum cor tuum v\u00edvere vale\u00e1mus.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Pro Ss. Timotheo, Hippolyto et Symphoriano, Martyribus*\nAuxilium tuum nobis, D\u00f3mine, qu&#509;sumus, plac\u00e1tus impende: et, interced\u00e9ntibus be\u00e1tis Mart\u00fdribus tuis Tim\u00f3theo, Hippol\u00fdto et Symphori\u00e1no, d\u00e9xteram super nos tu\u00e6 propitiati\u00f3nis ext\u00e9nde.\nPer Dominum.", 
+        "body": "*Pro Ss. Timotheo, Hippolyto et Symphoriano, Martyribus*\nAuxilium tuum nobis, D\u00f3mine, qu&#509;sumus, plac\u00e1tus impende: et, interced\u00e9ntibus be\u00e1tis Mart\u00fdribus tuis Tim\u00f3theo, Hippol\u00fdto et Symphori\u00e1no, d\u00e9xteram super nos tu\u00e6 propitiati\u00f3nis ext\u00e9nde.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -50,12 +50,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Majest\u00e1ti tu\u00e6, D\u00f3mine, Agnum immacul\u00e1tum offer\u00e9ntes, qu\u01fdsumus: ut corda nostra ignis ille div\u00ednus acc\u00e9ndat, cui Cor be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis ineffab\u00edliter inflamm\u00e1vit.\nPer e\u00fandem.", 
+        "body": "Majest\u00e1ti tu\u00e6, D\u00f3mine, Agnum immacul\u00e1tum offer\u00e9ntes, qu\u01fdsumus: ut corda nostra ignis ille div\u00ednus acc\u00e9ndat, cui Cor be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis ineffab\u00edliter inflamm\u00e1vit.\nPer e\u00fandem...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro Ss. Timotheo, Hippolyto et Symphoriano, Martyribus*\nAcc\u00e9pta tibi sit, D\u00f3mine, sacr\u00e1t\u00e6 plebis obl\u00e1tio pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum: quorum se m\u00e9ritis de tribulati\u00f3ne percep\u00edsse cogn\u00f3scit aux\u00edlium.\nPer Dominum.", 
+        "body": "*Pro Ss. Timotheo, Hippolyto et Symphoriano, Martyribus*\nAcc\u00e9pta tibi sit, D\u00f3mine, sacr\u00e1t\u00e6 plebis obl\u00e1tio pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum: quorum se m\u00e9ritis de tribulati\u00f3ne percep\u00edsse cogn\u00f3scit aux\u00edlium.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -70,12 +70,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Div\u00ednis ref\u00e9cti mun\u00e9ribus te, D\u00f3mine, suppl\u00edciter exor\u00e1mus: ut be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis intercessi\u00f3ne, cujus immacul\u00e1ti Cordis sol\u00e9mnia vener\u00e1ndo \u00e9gimus, a pr\u00e6s\u00e9ntibus per\u00edculis liber\u00e1ti, \u00e6t\u00e9rn\u00e6 vit\u00e6 g\u00e1udia consequ\u00e1mur.\nPer Dominum.", 
+        "body": "Div\u00ednis ref\u00e9cti mun\u00e9ribus te, D\u00f3mine, suppl\u00edciter exor\u00e1mus: ut be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis intercessi\u00f3ne, cujus immacul\u00e1ti Cordis sol\u00e9mnia vener\u00e1ndo \u00e9gimus, a pr\u00e6s\u00e9ntibus per\u00edculis liber\u00e1ti, \u00e6t\u00e9rn\u00e6 vit\u00e6 g\u00e1udia consequ\u00e1mur.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Pro Ss. Timotheo, Hippolyto et Symphoriano, Martyribus*\nDiv\u00edni muneris largitate sati\u00e1ti, qu&#509;sumus, D\u00f3mine, Deus noster: ut, interced\u00e9ntibus sanctis Mart\u00fdribus tuis Tim\u00f3theo, Hippol\u00fdto et Symphori\u00e1no, in ejus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum.", 
+        "body": "*Pro Ss. Timotheo, Hippolyto et Symphoriano, Martyribus*\nDiv\u00edni muneris largitate sati\u00e1ti, qu&#509;sumus, D\u00f3mine, Deus noster: ut, interced\u00e9ntibus sanctis Mart\u00fdribus tuis Tim\u00f3theo, Hippol\u00fdto et Symphori\u00e1no, in ejus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
@@ -87,12 +87,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Wszechmog\u0105cy, wieczny Bo\u017ce, kt\u00f3ry\u015b w sercu Naj\u015bwi\u0119tszej Maryi Panny zgotowa\u0142 godne mieszkanie dla Ducha \u015awi\u0119tego, daj \u0142askawie, prosimy, aby\u015bmy nabo\u017cnie obchodz\u0105c uroczysto\u015b\u0107 tego\u017c Niepokalanego Serca, zdo\u0142ali \u017cy\u0107 wed\u0142ug Serca Twego.\nPor nosso Senhor", 
+        "body": "Wszechmog\u0105cy, wieczny Bo\u017ce, kt\u00f3ry\u015b w sercu Naj\u015bwi\u0119tszej Maryi Panny zgotowa\u0142 godne mieszkanie dla Ducha \u015awi\u0119tego, daj \u0142askawie, prosimy, aby\u015bmy nabo\u017cnie obchodz\u0105c uroczysto\u015b\u0107 tego\u017c Niepokalanego Serca, zdo\u0142ali \u017cy\u0107 wed\u0142ug Serca Twego.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "*Wspomnienie \u015b\u015b. Tymoteusza, Hipolita i Symforiana*\nPanie, udziel nam \u0142askawie Twej pomocy i za wstawiennictwem \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Tymoteusza, Hipolita i Symforian, wyci\u0105gnij ku nam Twoj\u0105 lito\u015bciw\u0105 prawic\u0119.\nPor nosso Senhor", 
+        "body": "*Wspomnienie \u015b\u015b. Tymoteusza, Hipolita i Symforiana*\nPanie, udziel nam \u0142askawie Twej pomocy i za wstawiennictwem \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Tymoteusza, Hipolita i Symforian, wyci\u0105gnij ku nam Twoj\u0105 lito\u015bciw\u0105 prawic\u0119.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -117,12 +117,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Ofiaruj\u0105c majestatowi Twojemu niepokalanego Baranka, prosimy Ci\u0119, Panie, aby serca nasze rozpali\u0142 \u00f3w ogie\u0144 niebieski, kt\u00f3ry niewypowiedzianie rozp\u0142omienia\u0142 Serce Naj\u015bwi\u0119tszej Maryi Panny.\nPelo mesmo nosso Senhor.", 
+        "body": "Ofiaruj\u0105c majestatowi Twojemu niepokalanego Baranka, prosimy Ci\u0119, Panie, aby serca nasze rozpali\u0142 \u00f3w ogie\u0144 niebieski, kt\u00f3ry niewypowiedzianie rozp\u0142omienia\u0142 Serce Naj\u015bwi\u0119tszej Maryi Panny.\nPelo mesmo nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Wspomnienie \u015b\u015b. Tymoteusza, Hipolita i Symforiana*\nPrzyjmij, Panie, ofiar\u0119, kt\u00f3r\u0105 lud Tobie oddany sk\u0142ada ku czci \u015bwi\u0119tych Twoich, uznaj\u0105c, \u017ce dzi\u0119ki ich zas\u0142ugom dozna\u0142 pomocy w ucisku.\nPor nosso Senhor", 
+        "body": "*Wspomnienie \u015b\u015b. Tymoteusza, Hipolita i Symforiana*\nPrzyjmij, Panie, ofiar\u0119, kt\u00f3r\u0105 lud Tobie oddany sk\u0142ada ku czci \u015bwi\u0119tych Twoich, uznaj\u0105c, \u017ce dzi\u0119ki ich zas\u0142ugom dozna\u0142 pomocy w ucisku.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -137,12 +137,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Posileni boskimi darami, kornie b\u0142agamy Ci\u0119, Panie, aby\u015bmy za wstawiennictwem Naj\u015bwi\u0119tszej Maryi Panny, kt\u00f3rej uroczysto\u015b\u0107 Niepokalanego Serca obchodzimy ze czci\u0105, wolni od niebezpiecze\u0144stw doczesnych, dost\u0105pili rado\u015bci \u017cycia wiecznego.\nPor nosso Senhor", 
+        "body": "Posileni boskimi darami, kornie b\u0142agamy Ci\u0119, Panie, aby\u015bmy za wstawiennictwem Naj\u015bwi\u0119tszej Maryi Panny, kt\u00f3rej uroczysto\u015b\u0107 Niepokalanego Serca obchodzimy ze czci\u0105, wolni od niebezpiecze\u0144stw doczesnych, dost\u0105pili rado\u015bci \u017cycia wiecznego.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Wspomnienie \u015b\u015b. Tymoteusza, Hipolita i Symforiana*\nDarem Bo\u017cym szczodrze nasyceni prosimy Ci\u0119, Panie, Bo\u017ce nasz, aby\u015bmy za wstawiennictwem \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Tymoteusza, Hipolita i Symforiana, zawsze czerpali ze\u0144 \u017cycie.\nPor nosso Senhor", 
+        "body": "*Wspomnienie \u015b\u015b. Tymoteusza, Hipolita i Symforiana*\nDarem Bo\u017cym szczodrze nasyceni prosimy Ci\u0119, Panie, Bo\u017ce nasz, aby\u015bmy za wstawiennictwem \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Tymoteusza, Hipolita i Symforiana, zawsze czerpali ze\u0144 \u017cycie.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

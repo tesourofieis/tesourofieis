@@ -20,12 +20,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Deus, qui virgin\u00e1lem aulam be\u00e1t\u00e6 Mar\u00ed\u00e6, in qua habit\u00e1res, el\u00edgere dign\u00e1tus es: da, qu\u01fdsumus; ut, sua nos defensi\u00f3ne munitos, juc\u00fandos f\u00e1cias su\u00e6 inter\u00e9sse festivit\u00e1ti:\nQui vivis.", 
+        "body": "Deus, qui virgin\u00e1lem aulam be\u00e1t\u00e6 Mar\u00ed\u00e6, in qua habit\u00e1res, el\u00edgere dign\u00e1tus es: da, qu\u01fdsumus; ut, sua nos defensi\u00f3ne munitos, juc\u00fandos f\u00e1cias su\u00e6 inter\u00e9sse festivit\u00e1ti:\nQui vivis...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Pro S. Eusebio Confessore*\nDeus, qui nos be\u00e1ti Eus\u00e9bii Confess\u00f3ris tui \u00e1nnua sollemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut, cujus natal\u00edtia c\u00f3limus, \u00e9tiam acti\u00f3nes imit\u00e9mur.\nPer Dominum.", 
+        "body": "*Pro S. Eusebio Confessore*\nDeus, qui nos be\u00e1ti Eus\u00e9bii Confess\u00f3ris tui \u00e1nnua sollemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut, cujus natal\u00edtia c\u00f3limus, \u00e9tiam acti\u00f3nes imit\u00e9mur.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -50,12 +50,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "M\u00fanera nostra, D\u00f3mine, apud clem\u00e9ntiam tuam Dei Genetr\u00edcis comm\u00e9ndet or\u00e1tio: quam idc\u00edrco de pr\u00e6s\u00e9nti s\u01fdculo transtul\u00edsti; ut pro pecc\u00e1tis nostris apud te fiduci\u00e1liter interc\u00e9dat.\nPer e\u00fandem.", 
+        "body": "M\u00fanera nostra, D\u00f3mine, apud clem\u00e9ntiam tuam Dei Genetr\u00edcis comm\u00e9ndet or\u00e1tio: quam idc\u00edrco de pr\u00e6s\u00e9nti s\u01fdculo transtul\u00edsti; ut pro pecc\u00e1tis nostris apud te fiduci\u00e1liter interc\u00e9dat.\nPer e\u00fandem...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro S. Eusebio Confessore*\nLaudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum.", 
+        "body": "*Pro S. Eusebio Confessore*\nLaudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -70,12 +70,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Conc\u00e9de, mis\u00e9ricors Deus, fragilit\u00e1ti nostr\u00e6 pr\u00e6s\u00eddium: ut, qui sanct\u00e6 Dei Genetr\u00edcis festivit\u00e1tem pr\u00e6v\u00e9nimus; intercessi\u00f3nis ejus aux\u00edlio a nostris iniquit\u00e1tibus resurg\u00e1mus.\nPer e\u00fandem.", 
+        "body": "Conc\u00e9de, mis\u00e9ricors Deus, fragilit\u00e1ti nostr\u00e6 pr\u00e6s\u00eddium: ut, qui sanct\u00e6 Dei Genetr\u00edcis festivit\u00e1tem pr\u00e6v\u00e9nimus; intercessi\u00f3nis ejus aux\u00edlio a nostris iniquit\u00e1tibus resurg\u00e1mus.\nPer e\u00fandem...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Pro S. Eusebio Confessore*\nRef\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
+        "body": "*Pro S. Eusebio Confessore*\nRef\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
@@ -87,12 +87,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Bo\u017ce, Ty\u015b raczy\u0142 obra\u0107 sobie na mieszkanie dziewicze \u0142ono Naj\u015bwi\u0119tszej Maryi; daj nam bezpiecznie pod Jej opiek\u0105 bra\u0107 radosny udzia\u0142 w Jej uroczysto\u015bci:\n\u00d3 V\u00f3s, que viveis.", 
+        "body": "Bo\u017ce, Ty\u015b raczy\u0142 obra\u0107 sobie na mieszkanie dziewicze \u0142ono Naj\u015bwi\u0119tszej Maryi; daj nam bezpiecznie pod Jej opiek\u0105 bra\u0107 radosny udzia\u0142 w Jej uroczysto\u015bci:\n\u00d3 V\u00f3s, que viveis...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "*Wspomnienie \u015bw. Euzebiusza*\nBo\u017ce, kt\u00f3ry co roku uweselasz nas uroczysto\u015bci\u0105 \u015bw. Euzebiusza, Twojego Wyznawcy, spraw, aby\u015bmy zd\u0105\u017cali do Ciebie za przyk\u0142adem tego, kt\u00f3rego urodziny dla nieba obchodzimy.\nPor nosso Senhor", 
+        "body": "*Wspomnienie \u015bw. Euzebiusza*\nBo\u017ce, kt\u00f3ry co roku uweselasz nas uroczysto\u015bci\u0105 \u015bw. Euzebiusza, Twojego Wyznawcy, spraw, aby\u015bmy zd\u0105\u017cali do Ciebie za przyk\u0142adem tego, kt\u00f3rego urodziny dla nieba obchodzimy.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -117,12 +117,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Panie, niech nasze dary poleca Twojej \u0142askawo\u015bci modlitwa Bo\u017cej Rodzicielki, kt\u00f3r\u0105 po to zabra\u0142e\u015b z tego \u015bwiata, aby ufnie wstawia\u0142a si\u0119 u Ciebie za nami grzesznymi.\nPelo mesmo nosso Senhor.", 
+        "body": "Panie, niech nasze dary poleca Twojej \u0142askawo\u015bci modlitwa Bo\u017cej Rodzicielki, kt\u00f3r\u0105 po to zabra\u0142e\u015b z tego \u015bwiata, aby ufnie wstawia\u0142a si\u0119 u Ciebie za nami grzesznymi.\nPelo mesmo nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Wspomnienie \u015bw. Euzebiusza*\nWspominaj\u0105c Twoich \u015awi\u0119tych sk\u0142adamy Ci, Panie, ofiar\u0119 chwa\u0142y i ufamy, \u017ce ona wybawi nas od z\u0142ego teraz i w przysz\u0142o\u015bci.\nPor nosso Senhor", 
+        "body": "*Wspomnienie \u015bw. Euzebiusza*\nWspominaj\u0105c Twoich \u015awi\u0119tych sk\u0142adamy Ci, Panie, ofiar\u0119 chwa\u0142y i ufamy, \u017ce ona wybawi nas od z\u0142ego teraz i w przysz\u0142o\u015bci.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -137,12 +137,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Mi\u0142osierny Bo\u017ce, udziel pomocy naszej u\u0142omno\u015bci, aby\u015bmy powstali z naszych nieprawo\u015bci za wstawiennictwem Naj\u015bwi\u0119tszej Bogarodzicy, kt\u00f3rej uroczysto\u015b\u0107 uprzedzamy.\nPelo mesmo nosso Senhor.", 
+        "body": "Mi\u0142osierny Bo\u017ce, udziel pomocy naszej u\u0142omno\u015bci, aby\u015bmy powstali z naszych nieprawo\u015bci za wstawiennictwem Naj\u015bwi\u0119tszej Bogarodzicy, kt\u00f3rej uroczysto\u015b\u0107 uprzedzamy.\nPelo mesmo nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Wspomnienie \u015bw. Euzebiusza*\nPokrzepieni niebieskim pokarmem i napojem, b\u0142agamy Ci\u0119 pokornie, Bo\u017ce nasz, niech nas broni\u0105 modlitwy tego, w kt\u00f3rego \u015bwi\u0119to przyj\u0119li\u015bmy te dary.\nPor nosso Senhor", 
+        "body": "*Wspomnienie \u015bw. Euzebiusza*\nPokrzepieni niebieskim pokarmem i napojem, b\u0142agamy Ci\u0119 pokornie, Bo\u017ce nasz, niech nas broni\u0105 modlitwy tego, w kt\u00f3rego \u015bwi\u0119to przyj\u0119li\u015bmy te dary.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

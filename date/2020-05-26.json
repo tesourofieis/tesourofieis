@@ -19,12 +19,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Deus, qui be\u00e1tum Phil\u00edppum Confess\u00f3rem tuum Sanct\u00f3rum tu\u00f3rum gl\u00f3ria sublim\u00e1sti: conc\u00e9de prop\u00edtius; ut, cujus sollemnit\u00e1te l\u00e6t\u00e1mur, ejus virt\u00fatum profici\u00e1mus ex\u00e9mplo.\nPer Dominum.", 
+        "body": "Deus, qui be\u00e1tum Phil\u00edppum Confess\u00f3rem tuum Sanct\u00f3rum tu\u00f3rum gl\u00f3ria sublim\u00e1sti: conc\u00e9de prop\u00edtius; ut, cujus sollemnit\u00e1te l\u00e6t\u00e1mur, ejus virt\u00fatum profici\u00e1mus ex\u00e9mplo.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Pro S. Eleutherio*\nInfirmit\u00e1tem nostram r\u00e9spice, omn\u00edpotens Deus: et, quia pondus pr\u00f3pri\u00e6 acti\u00f3nis gravat, be\u00e1ti N. M\u00e1rtyris tui atque Pont\u00edficis interc\u00e9ssio glori\u00f3sa nos pr\u00f3tegat.\nPer Dominum.", 
+        "body": "*Pro S. Eleutherio*\nInfirmit\u00e1tem nostram r\u00e9spice, omn\u00edpotens Deus: et, quia pondus pr\u00f3pri\u00e6 acti\u00f3nis gravat, be\u00e1ti N. M\u00e1rtyris tui atque Pont\u00edficis interc\u00e9ssio glori\u00f3sa nos pr\u00f3tegat.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -49,12 +49,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Sacrif\u00edciis pr\u00e6s\u00e9ntibus, qu\u01fdsumus, D\u00f3mine, int\u00e9nde placatus: et pr\u00e6sta; ut illo nos igne Sp\u00edritus Sanctus infl\u00e1mmet, quo be\u00e1ti Ph\u00edlippi cor mirab\u00edliter penetr\u00e1vit.\nPer Dominum. ejusdem", 
+        "body": "Sacrif\u00edciis pr\u00e6s\u00e9ntibus, qu\u01fdsumus, D\u00f3mine, int\u00e9nde placatus: et pr\u00e6sta; ut illo nos igne Sp\u00edritus Sanctus infl\u00e1mmet, quo be\u00e1ti Ph\u00edlippi cor mirab\u00edliter penetr\u00e1vit.\nPer Dominum... ejusdem", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro S. Eleutherio*\nH\u00f3stias tibi, D\u00f3mine, be\u00e1ti N. M\u00e1rtyris tui atque Pont\u00edficis dic\u00e1tas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum.", 
+        "body": "*Pro S. Eleutherio*\nH\u00f3stias tibi, D\u00f3mine, be\u00e1ti N. M\u00e1rtyris tui atque Pont\u00edficis dic\u00e1tas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -69,12 +69,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "C\u0153l\u00e9stibus, D\u00f3mine, pasti del\u00edciis: qu\u01fdsumus; ut be\u00e1ti Philippi Confess\u00f3ris tui m\u00e9ritis et imitati\u00f3ne, semper eadem, per qu\u00e6 ver\u00e1citer v\u00edvimus, appet\u00e1mus.\nPer Dominum.", 
+        "body": "C\u0153l\u00e9stibus, D\u00f3mine, pasti del\u00edciis: qu\u01fdsumus; ut be\u00e1ti Philippi Confess\u00f3ris tui m\u00e9ritis et imitati\u00f3ne, semper eadem, per qu\u00e6 ver\u00e1citer v\u00edvimus, appet\u00e1mus.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Pro S. Eleutherio*\nRef\u00e9cti participati\u00f3ne m\u00faneris sacri, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, cujus exs\u00e9quimur cultum, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo atque Pont\u00edfice, senti\u00e1mus eff\u00e9ctum.\nPer Dominum.", 
+        "body": "*Pro S. Eleutherio*\nRef\u00e9cti participati\u00f3ne m\u00faneris sacri, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, cujus exs\u00e9quimur cultum, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo atque Pont\u00edfice, senti\u00e1mus eff\u00e9ctum.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
@@ -86,17 +86,17 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Bo\u017ce, kt\u00f3ry\u015b wyni\u00f3s\u0142 b\u0142ogos\u0142awionego Filipa, Twego Wyznawc\u0119, do chwa\u0142y \u015awi\u0119tych Swoich, dozw\u00f3l \u0142askawie, aby\u015bmy ciesz\u0105c si\u0119 jego uroczysto\u015bci\u0105, korzystali z przyk\u0142adu jego cn\u00f3t.\nPor nosso Senhor", 
+        "body": "Bo\u017ce, kt\u00f3ry\u015b wyni\u00f3s\u0142 b\u0142ogos\u0142awionego Filipa, Twego Wyznawc\u0119, do chwa\u0142y \u015awi\u0119tych Swoich, dozw\u00f3l \u0142askawie, aby\u015bmy ciesz\u0105c si\u0119 jego uroczysto\u015bci\u0105, korzystali z przyk\u0142adu jego cn\u00f3t.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "*de \u015bw. Eleuteriusza*\nOlhai para a nossa fraqueza, \u00f3 Deus omnipotente; e, visto que estamos oprimidos sob o peso dos nossos pecados, fazei que nos proteja a gloriosa intercess\u00e3o do B. N., vosso Pont\u00edfice e M\u00e1rtir.\nPor nosso Senhor", 
+        "body": "*de \u015bw. Eleuteriusza*\nOlhai para a nossa fraqueza, \u00f3 Deus omnipotente; e, visto que estamos oprimidos sob o peso dos nossos pecados, fazei que nos proteja a gloriosa intercess\u00e3o do B. N., vosso Pont\u00edfice e M\u00e1rtir.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Sb 7:7-14*\nPragn\u0105\u0142em, a dano mi zrozumienie; i b\u0142aga\u0142em, a sp\u0142yn\u0105\u0142 na mnie duch m\u0105dro\u015bci. I wy\u017cej j\u0105 stawi\u0142em nad kr\u00f3lestwa i stolic\u0119, i bogactwo sobie za nic poczyta\u0142em w por\u00f3wnaniu z ni\u0105. Ani nie przyr\u00f3wna\u0142em jej do drogocennego kamienia: bo wszelkie z\u0142oto w por\u00f3wnaniu z ni\u0105 jest lichym piaskiem, a srebro wobec niej poczytane b\u0119dzie za b\u0142oto.\nPonad zdrowie i pi\u0119kno umi\u0142owa\u0142em j\u0105 i postanowi\u0142em mie\u0107 j\u0105 za \u015bwiat\u0142o: bo blask jej jest nie do ugaszenia. A wraz z ni\u0105 wszelkie dobra na mnie sp\u0142yn\u0119\u0142y, i nieoceniona cze\u015b\u0107 przez jej r\u0119ce, i uradowa\u0142em si\u0119 tym wszystkim: bo sz\u0142a przede mn\u0105 owa m\u0105dro\u015b\u0107, a nie wiedzia\u0142em, \u017ce to ona jest matk\u0105 tych wszystkich rzeczy. Nauczy\u0142em si\u0119 jej bez ob\u0142udy i bez zazdro\u015bci jej udzielam, a pi\u0119kna jej nie ukrywam. Bo niesko\u0144czonym jest skarbem dla ludzi; a kt\u00f3rzy nim si\u0119 pos\u0142u\u017cyli, stali si\u0119 uczestnikami Bo\u017cej przyja\u017ani, zaleceni darami nauki.", 
+        "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 7:7-14*\nDesejei a intelig\u00eancia, e foi-me dada; invoquei o esp\u00edrito da sabedoria, e veio a mim. Preferia-a aos reinos e aos tronos; e creio que as riquezas nada s\u00e3o comparadas com ela. Nem mesmo a compararei com as pedras preciosas; pois todo o ouro, comparando-o com ela, \u00e9 como o gr\u00e3o da areia; e toda a prata, ao p\u00e9 dela, \u00e9 desprez\u00edvel lodo. Amo-a mais do que a sa\u00fade e a beleza; e, assim, resolvi tom\u00e1-la para minha luz, pois a sabedoria guiava-me, e eu ignorava que ela \u00e9 a m\u00e3e de todos os bens. Conheci a sabedoria sem fingimento e comunico-a sem inveja, n\u00e3o ocultando as suas riquezas. Ela \u00e9 um tesouro infinito para os homens. Aqueles que a aproveitam tornam-se amigos de Deus e recomendam-se pelos dons da ci\u00eancia.", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
@@ -116,12 +116,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Wejrzyj, Panie lito\u015bciwie na t\u0119 ofiar\u0119 i spraw, aby nad Duch \u015awi\u0119ty rozpali\u0142 tym ogniem, kt\u00f3ry przedziwnie przenikn\u0105\u0142 serce \u015bw. Filipa.\nPor nosso Senhor ejusdem", 
+        "body": "Wejrzyj, Panie lito\u015bciwie na t\u0119 ofiar\u0119 i spraw, aby nad Duch \u015awi\u0119ty rozpali\u0142 tym ogniem, kt\u00f3ry przedziwnie przenikn\u0105\u0142 serce \u015bw. Filipa.\nPor nosso Senhor... ejusdem", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*de \u015bw. Eleuteriusza*\nRecebei benigno, Senhor, as h\u00f3stias que Vos oferecemos pelos merecimentos do B. N., vosso M\u00e1rtir e Pont\u00edfice, e fazei que elas nos alcancem o vosso perp\u00e9tuo socorro.\nPor nosso Senhor", 
+        "body": "*de \u015bw. Eleuteriusza*\nRecebei benigno, Senhor, as h\u00f3stias que Vos oferecemos pelos merecimentos do B. N., vosso M\u00e1rtir e Pont\u00edfice, e fazei que elas nos alcancem o vosso perp\u00e9tuo socorro.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -136,12 +136,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Nasyceni niebiesk\u0105 uczt\u0105, prosimy Ci\u0119, Panie, aby\u015bmy przez zas\u0142ugi i za przyk\u0142adem \u015bw. Filipa, Twojego Wyznawcy, zawsze pragn\u0119li pokarmu, kt\u00f3ry daje prawdziwe \u017cycie.\nPor nosso Senhor", 
+        "body": "Nasyceni niebiesk\u0105 uczt\u0105, prosimy Ci\u0119, Panie, aby\u015bmy przez zas\u0142ugi i za przyk\u0142adem \u015bw. Filipa, Twojego Wyznawcy, zawsze pragn\u0119li pokarmu, kt\u00f3ry daje prawdziwe \u017cycie.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*de \u015bw. Eleuteriusza*\nFortalecidos com a participa\u00e7\u00e3o do dom sacrat\u00edssimo, Vos pedimos, Senhor, nosso Deus, que, por intercess\u00e3o do B. N., vosso M\u00e1rtir e Pont\u00edfice, sintamos o efeito do myst\u00e9rio que hoje celebr\u00e1mos.\nPor nosso Senhor", 
+        "body": "*de \u015bw. Eleuteriusza*\nFortalecidos com a participa\u00e7\u00e3o do dom sacrat\u00edssimo, Vos pedimos, Senhor, nosso Deus, que, por intercess\u00e3o do B. N., vosso M\u00e1rtir e Pont\u00edfice, sintamos o efeito do myst\u00e9rio que hoje celebr\u00e1mos.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

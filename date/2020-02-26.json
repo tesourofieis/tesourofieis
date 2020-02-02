@@ -1,7 +1,9 @@
 [
   {
     "info": {
-      "additional_info": [], 
+      "additional_info": [
+        "Paramentos violeta"
+      ], 
       "date": "2020-02-26", 
       "description": "", 
       "id": "tempora:Quadp3-3:1", 
@@ -22,7 +24,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Pr\u00e6sta, D\u00f3mine, fid\u00e9libus tuis: ut jejuni\u00f3rum vener\u00e1nda soll\u00e9mnia, et c\u00f3ngrua piet\u00e1te susc\u00edpiant, et sec\u00fara devoti\u00f3ne perc\u00farrant.\nPer Dominum.", 
+        "body": "Pr\u00e6sta, D\u00f3mine, fid\u00e9libus tuis: ut jejuni\u00f3rum vener\u00e1nda soll\u00e9mnia, et c\u00f3ngrua piet\u00e1te susc\u00edpiant, et sec\u00fara devoti\u00f3ne perc\u00farrant.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -47,7 +49,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Fac nos, qu\u01fdsumus, D\u00f3mine, his mun\u00e9ribus offer\u00e9ndis conveni\u00e9nter apt\u00e1ri: quibus ips\u00edus vener\u00e1bilis sacram\u00e9nti celebr\u00e1mus ex\u00f3rdium.\nPer Dominum.", 
+        "body": "Fac nos, qu\u01fdsumus, D\u00f3mine, his mun\u00e9ribus offer\u00e9ndis conveni\u00e9nter apt\u00e1ri: quibus ips\u00edus vener\u00e1bilis sacram\u00e9nti celebr\u00e1mus ex\u00f3rdium.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -62,49 +64,49 @@
         "label": "Communio"
       }, 
       {
-        "body": "Perc\u00e9pta nobis, D\u00f3mine, praebeant sacram\u00e9nta subs\u00eddium: ut tibi grata sint nostra jej\u00fania, et nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum.", 
+        "body": "Perc\u00e9pta nobis, D\u00f3mine, praebeant sacram\u00e9nta subs\u00eddium: ut tibi grata sint nostra jej\u00fania, et nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Deinde Sacerdos absolute dicit:*\n*Oratio super populum*\nOr\u00e9mus.\n*Et Diaconus, si in officio Diaconatus serviat versus ad populum,junctis manibus, dicit. Alioquin ipse Sacerdos, stans in eodem loco ante librum, et non vertens se ad populum.*\nHumili\u00e1te c\u00e1pita vestra Deo.\n\nInclin\u00e1ntes se, D\u00f3mine, majest\u00e1ti tu\u00e6, propiti\u00e1tus int\u00e9nde: ut, qui div\u00edno m\u00fanere sunt ref\u00e9cti, coel\u00e9stibus semper nutri\u00e1ntur aux\u00edliis.\nPer Dominum.", 
+        "body": "*Deinde Sacerdos absolute dicit:*\n*Oratio super populum*\nOr\u00e9mus.\n*Et Diaconus, si in officio Diaconatus serviat versus ad populum,junctis manibus, dicit. Alioquin ipse Sacerdos, stans in eodem loco ante librum, et non vertens se ad populum.*\nHumili\u00e1te c\u00e1pita vestra Deo.\n\nInclin\u00e1ntes se, D\u00f3mine, majest\u00e1ti tu\u00e6, propiti\u00e1tus int\u00e9nde: ut, qui div\u00edno m\u00fanere sunt ref\u00e9cti, coel\u00e9stibus semper nutri\u00e1ntur aux\u00edliis.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sb 11:24-25, 27.*\nYou have mercy on all, O Lord, and hate none of the things which You have made, overlooking the sins of men for the sake of repentance, and sparing them: because You are the Lord our God.\n*Sl 56:2*\nHave pity on me, O God; have pity on me, for in You I take refuge.\nGl\u00f3ria ao Pai.\nYou have mercy on all, O Lord, and hate none of the things which You have made, overlooking the sins of men for the sake of repentance, and sparing them: because You are the Lord our God.", 
+        "body": "*Sb 11:24-25, 27.*\nSenhor, tendes piedade de todos e n\u00e3o odiais aqueles que criastes; atenuais e perdoais os pecados dos homens, para que fa\u00e7am penit\u00eancia, porquanto sois o Senhor, nosso Deus.\n*Sl 56:2*\nTende piedade de mim, pois em V\u00f3s procura ref\u00fagio a minha alma.\nGl\u00f3ria ao Pai.\nSenhor, tendes piedade de todos e n\u00e3o odiais aqueles que criastes; atenuais e perdoais os pecados dos homens, para que fa\u00e7am penit\u00eancia, porquanto sois o Senhor, nosso Deus.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Grant, O Lord, that Your faithful people may, with true piety, undertake the time-honored custom of fasting and may carry it out with unwavering devotion.\nPor nosso Senhor", 
+        "body": "Permiti, Senhor, aos vossos fi\u00e9is que iniciem com sincera piedade as vener\u00e1veis solenidades destes jejuns e que possam continu\u00e1-las at\u00e9 ao fim sempre devotamente.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Lesson from the book of Joel\n*Joel 2:12-19*\nThus says the Lord: Return to Me with your whole heart, with fasting, and weeping, and mourning; rend your hearts, not your garments, and return to the Lord, your God. For gracious and merciful is He, slow to anger, rich in kindness, and relenting in punishment. Perhaps He will again relent and leave behind Him a blessing, offerings and libations for the Lord, your God. Blow the trumpet in Sion! proclaim a fast, call an assembly; gather the people, notify the congregation; assemble the elders, gather the children and the infants at the breast; let the bridegroom quit his room, and the bride her chamber. Between the porch and the altar let the priests, the ministers of the Lord, weep, and say, \u2018Spare, O Lord, Your people, and make not Your heritage a reproach, with the nations ruling over them! Why should they say among the peoples: Where is their God?\u2019 Then the Lord was stirred to concern for His land and took pity on His people. The Lord answered and said to His people: See, I will send you grain, and wine, and oil, and you shall be filled with them; no more will I make you a reproach among the nations, say the Lord almighty.", 
+        "body": "Li\u00e7\u00e3o do Profeta Joel.\n*Joel 2:12-19*\nEis o que diz o Senhor: Convertei-vos a mim, de todo o cora\u00e7\u00e3o, com jejuns, l\u00e1grimas e gemidos. Rasgai os vossos cora\u00e7\u00f5es e n\u00e3o os vossos vestidos; e convertei-vos ao Senhor, vosso Deus, que \u00e9 benigno, clemente, paciente, compassivo, cheio de miseric\u00f3rdia e cuja bondade excede a mal\u00edcia humana. Quem sabe se Ele n\u00e3o retroceder\u00e1 e n\u00e3o se arrepender\u00e1, n\u00e3o deixando ap\u00f3s si uma b\u00ean\u00e7\u00e3o para apresentardes como oferta de sacrif\u00edcio ao Senhor, nosso Deus?! Tocai a trombeta em Si\u00e3o; ordenai que jejuem; convocai uma assembleia; chamai o povo; publicai uma reuni\u00e3o santa; reuni os velhos; congregai os meninos, ainda mesmo os que bebem o leite maternal; o marido saia do seu quarto e a esposa do seu leito nupcial. Que os sacerdotes, ministros do Senhor, chorem entre o vest\u00edbulo e o altar e digam: \u00abPerdoai, Senhor, perdoai ao vosso povo; n\u00e3o deixeis a vossa heran\u00e7a cair no opr\u00f3brio para servir de tro\u00e7a \u00e0s na\u00e7\u00f5es estrangeiras\u00bb! Pois dir-se-\u00e1 entre os povos: \u00abOnde est\u00e1 o Deus deste povo? O Senhor compadeceu-se da sua terra e perdoou ao povo\u00bb. Respondeu, ent\u00e3o, o Senhor e disse ao seu povo: \u00abEis que vos mandarei trigo, vinho e azeite, e ficareis saciados; nunca mais vos abandonarei ao opr\u00f3brio das na\u00e7\u00f5es\u00bb: isto disse o Senhor omnipotente.", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
       {
-        "body": "*Sl 56:2, 4.*\nHave pity on me, O God; have pity on me, for in You I take refuge.\nV. He has sent from heaven and saved me; He has made those a reproach who trample upon me.\n\n*Tractus*\n*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\nV. Ps 78:8-9 O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
+        "body": "*Sl 56:2, 4.*\nTende miseric\u00f3rdia de mim, \u00f3 Deus; tende miseric\u00f3rdia de mim; pois a minha alma confia em V\u00f3s. V. Mandou aux\u00edlio do c\u00e9u, livrando-me, e condenou ao opr\u00f3brio aqueles que me espezinhavam.\n\n*Tractus*\n*Sl 102:10*\nSenhor, nos n\u00e3o castigueis, consoante merecemos, pelos pecados que pratic\u00e1mos: nem nos julgueis, segundo as nossas iniquidades.\nV. Ps 78:8-9 Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas miseric\u00f3rdias, pois grande \u00e9 a nossa mis\u00e9ria. (genuflectir)\nV. Auxiliai-nos, \u00f3 Deus, nosso Salvador, e, pela gl\u00f3ria do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome.", 
         "id": "Graduale", 
         "label": "Gradual"
       }, 
       {
-        "body": "Continuation \u2629 of the Holy Gospel according to Matthew\n*Mt. 6:16-21*\nAt that time, Jesus said to His disciples, When you fast, do not look gloomy like the hypocrites, who disfigure their face in order to appear to men as fasting. Amen I say to you, they have received their reward. But you, when you do fast, anoint your head and wash your face, so that you may not be seen fasting by men, but by your Father, Who is in secret; and your Father, Who sees in secret, will reward you. Do not lay up for yourselves treasures on earth, where rust and moth consume, and where thieves break in and steal; but lay up for yourselves treasures in heaven, where neither rust nor moth consumes, nor thieves break in and steal. For where your treasure is, there also will your heart be.", 
+        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt. 6:16-21*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos: \u00abQuando jejuardes, n\u00e3o vos mostreis tristonhos, como os hip\u00f3critas; pois estes costumam desfigurar o rosto para mostrarem aos homens que jejuam. Na verdade vos digo: j\u00e1 receberam a sua recompensa. Por\u00e9m, quando jejuardes, perfumai a cabe\u00e7a e lavai o rosto, para que n\u00e3o pare\u00e7a aos homens que jejuais, mas sim a vosso Pai, que conhece todas as coisas ocultas; e, conhecendo esse segredo, vos dar\u00e1 a recompensa. N\u00e3o guardeis tesouros na terra, onde a tra\u00e7a e a ferrugem os gastam e os ladr\u00f5es esburacam a parede e os roubam. Guardai antes vossos tesouros no c\u00e9u, onde nem a ferrugem nem a tra\u00e7a os destroem, nem os ladr\u00f5es os desenterram ou furtam. Pois, onde estiver o vosso tesouro, a\u00ed estar\u00e1 o vosso cora\u00e7\u00e3o.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Sl 29:2-3*\nI will extol you, O Lord, for You drew me clear and did not let my enemies rejoice over me. O Lord, I cried out to You and You healed me.", 
+        "body": "*Sl 29:2-3*\nExaltar-Vos-ei, Senhor, porque me escolhestes e n\u00e3o permitistes que meus inimigos abusassem de mim. Clamei por V\u00f3s, Senhor, e curastes-me.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "O Lord, we beseech You, make us truly fit to offer these gifts by which we celebrate the beginning of this venerable observance.\nPor nosso Senhor", 
+        "body": "Vos suplicamos, Senhor, tornai-nos dignos de Vos oferecermos, como devemos, estes dons sacrat\u00edssimos com os quais iniciamos a celebra\u00e7\u00e3o deste venerando tempo, cheio de myst\u00e9rio.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,17 +116,17 @@
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Sl 1:2-3*\nHe who shall meditate day and night on the law of the Lord shall yield his fruit in due season.", 
+        "body": "*Sl 1:2-3*\nAquele que meditar durante o dia e a noite na Lei do Senhor dar\u00e1 fruto no tempo pr\u00f3prio.", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May the sacrament that we have received, O Lord, give us help, that our fast may be pleasing to You and may profit us as a healing remedy.\nPor nosso Senhor", 
+        "body": "Senhor, permiti que os sacramentos, que recebemos, nos propiciem o aux\u00edlio de que carecemos, a fim de que os nossos jejuns Vos sejam agrad\u00e1veis e se tornem em rem\u00e9dio para os nossos males.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nLook graciously O Lord, upon those who bow down before Your divine majesty, that they, being fed by Your holy gift, may always be nourished by help from heaven.\nPor nosso Senhor", 
+        "body": "*Sobre o Povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nAtendei, Senhor, benignamente aos que se prostam ante a vossa Majestade, afim de que, saciados com o dom divino, sejam sempre nutridos com celestes aux\u00edlios.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

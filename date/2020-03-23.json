@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, observati\u00f3nes sacras \u00e1nnua devoti\u00f3ne recol\u00e9ntes, et c\u00f3rpore tibi place\u00e1mus et mente.\nPer Dominum.", 
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, observati\u00f3nes sacras \u00e1nnua devoti\u00f3ne recol\u00e9ntes, et c\u00f3rpore tibi place\u00e1mus et mente.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Obl\u00e1tum tibi, D\u00f3mine, sacrif\u00edcium viv\u00edficet nos semper et m\u00faniat.\nPer Dominum.", 
+        "body": "Obl\u00e1tum tibi, D\u00f3mine, sacrif\u00edcium viv\u00edficet nos semper et m\u00faniat.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Sumptis, D\u00f3mine, salut\u00e1ribus sacram\u00e9ntis: ad redempti\u00f3nis \u00e6t\u00e9rn\u00e6, qu\u01fdsumus, profici\u00e1mus augm\u00e9ntum.\nPer Dominum.", 
+        "body": "Sumptis, D\u00f3mine, salut\u00e1ribus sacram\u00e9ntis: ad redempti\u00f3nis \u00e6t\u00e9rn\u00e6, qu\u01fdsumus, profici\u00e1mus augm\u00e9ntum.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nDeprecati\u00f3nem nostram, qu\u01fdsumus. D\u00f3mine, ben\u00edgnus ex\u00e1udi: et, quibus supplic\u00e1ndi pr\u00e6stas aff\u00e9ctum, tr\u00edbue defensi\u00f3nis aux\u00edlium.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nDeprecati\u00f3nem nostram, qu\u01fdsumus. D\u00f3mine, ben\u00edgnus ex\u00e1udi: et, quibus supplic\u00e1ndi pr\u00e6stas aff\u00e9ctum, tr\u00edbue defensi\u00f3nis aux\u00edlium.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Grant, we beseech You, almighty God, that we who devoutly keep the sacred observances year by year, may be pleasing to You both in body and soul.\nPor nosso Senhor", 
+        "body": "Grant, we beseech You, almighty God, that we who devoutly keep the sacred observances year by year, may be pleasing to You both in body and soul.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "May this sacrifice that we offer You, O Lord, ever give us new life and protection.\nPor nosso Senhor", 
+        "body": "May this sacrifice that we offer You, O Lord, ever give us new life and protection.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "O Lord, we beseech You, that as we have partaken of Your saving sacraments, we may make progress toward our everlasting salvation.\nPor nosso Senhor", 
+        "body": "O Lord, we beseech You, that as we have partaken of Your saving sacraments, we may make progress toward our everlasting salvation.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGenerously heed our entreaty, O Lord, we beseech You, and grant Your helpful protection to those who have been given a desire to pray.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGenerously heed our entreaty, O Lord, we beseech You, and grant Your helpful protection to those who have been given a desire to pray.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

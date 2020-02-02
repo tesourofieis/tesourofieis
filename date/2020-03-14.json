@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Da, qu\u01fdsumus, D\u00f3mine, nostris eff\u00e9ctum jej\u00faniis salut\u00e1rem: ut castig\u00e1tio carnis ass\u00fampta, ad nostr\u00e1rum vegetati\u00f3nem tr\u00e1nseat anim\u00e1rum.\nPer Dominum.", 
+        "body": "Da, qu\u01fdsumus, D\u00f3mine, nostris eff\u00e9ctum jej\u00faniis salut\u00e1rem: ut castig\u00e1tio carnis ass\u00fampta, ad nostr\u00e1rum vegetati\u00f3nem tr\u00e1nseat anim\u00e1rum.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "His sacrif\u00edciis, D\u00f3mine, conc\u00e9de plac\u00e1tus: ut, qui pr\u00f3priis or\u00e1mus abs\u00f3lvi del\u00edctis, non grav\u00e9mur ext\u00e9rnis.\nPer Dominum.", 
+        "body": "His sacrif\u00edciis, D\u00f3mine, conc\u00e9de plac\u00e1tus: ut, qui pr\u00f3priis or\u00e1mus abs\u00f3lvi del\u00edctis, non grav\u00e9mur ext\u00e9rnis.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Sacram\u00e9nti tui, D\u00f3mine, div\u00edna lib\u00e1tio, penetr\u00e1lia nostri cordis inf\u00fandat: et sui nos part\u00edcipes pot\u00e9nter eff\u00edciat.\nPer Dominum.", 
+        "body": "Sacram\u00e9nti tui, D\u00f3mine, div\u00edna lib\u00e1tio, penetr\u00e1lia nostri cordis inf\u00fandat: et sui nos part\u00edcipes pot\u00e9nter eff\u00edciat.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nFam\u00edliam tuam, qu\u01fdsumus, D\u00f3mine, cont\u00ednua piet\u00e1te cust\u00f3di: ut, qu\u00e6 in sola spe gr\u00e1ti\u00e6 c\u0153l\u00e9stis inn\u00edtitur, c\u0153l\u00e9sti \u00e9tiam protecti\u00f3ne muni\u00e1tur.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nFam\u00edliam tuam, qu\u01fdsumus, D\u00f3mine, cont\u00ednua piet\u00e1te cust\u00f3di: ut, qu\u00e6 in sola spe gr\u00e1ti\u00e6 c\u0153l\u00e9stis inn\u00edtitur, c\u0153l\u00e9sti \u00e9tiam protecti\u00f3ne muni\u00e1tur.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Grant that our fasting may be beneficial to us, we beseech You, O Lord, so that by chastising our flesh we may obtain strength for our souls.\nPor nosso Senhor", 
+        "body": "Grant that our fasting may be beneficial to us, we beseech You, O Lord, so that by chastising our flesh we may obtain strength for our souls.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Appeased by these sacrificial gifts, O Lord, grant that we who pray for absolution from our own sins may not be burdened by those which are foreign to us.\nPor nosso Senhor", 
+        "body": "Appeased by these sacrificial gifts, O Lord, grant that we who pray for absolution from our own sins may not be burdened by those which are foreign to us.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May the sacrament of which we have partaken, O Lord, penetrate the depths of our hearts and make us share in its strength.\nPor nosso Senhor", 
+        "body": "May the sacrament of which we have partaken, O Lord, penetrate the depths of our hearts and make us share in its strength.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGuard Your household, we beseech You, O Lord, with lasting kindness, so that those who rely entirely upon the hope of heavenly grace may indeed be supported by heavenly protection.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGuard Your household, we beseech You, O Lord, with lasting kindness, so that those who rely entirely upon the hope of heavenly grace may indeed be supported by heavenly protection.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

@@ -17,12 +17,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Ex\u00e1udi nos, omn\u00edpotens et mis\u00e9ricors Deus: et contin\u00e9nti\u00e6 salut\u00e1ris prop\u00edtius nobis dona conc\u00e9de.\nPer Dominum.", 
+        "body": "Ex\u00e1udi nos, omn\u00edpotens et mis\u00e9ricors Deus: et contin\u00e9nti\u00e6 salut\u00e1ris prop\u00edtius nobis dona conc\u00e9de.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "* Commemoratio S. Patricii Episcopi et Conf. *\nDeus, qui ad pr\u00e6dic\u00e1ndam g\u00e9ntibus gl\u00f3riam tuam be\u00e1tum Patr\u00edcium Confess\u00f3rem atque Pont\u00edficem m\u00edttere dign\u00e1tus es: ejus m\u00e9ritis et intercessi\u00f3ne conc\u00e9de; ut, qu\u00e6 nobis ag\u00e9nda pr\u01fdcipis, te miser\u00e1nte adimpl\u00e9re p\u00f3ssimus.\nPer Dominum.", 
+        "body": "* Commemoratio S. Patricii Episcopi et Conf. *\nDeus, qui ad pr\u00e6dic\u00e1ndam g\u00e9ntibus gl\u00f3riam tuam be\u00e1tum Patr\u00edcium Confess\u00f3rem atque Pont\u00edficem m\u00edttere dign\u00e1tus es: ejus m\u00e9ritis et intercessi\u00f3ne conc\u00e9de; ut, qu\u00e6 nobis ag\u00e9nda pr\u01fdcipis, te miser\u00e1nte adimpl\u00e9re p\u00f3ssimus.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -47,12 +47,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Per h\u00e6c v\u00e9niat, qu\u01fdsumus, D\u00f3mine, sacram\u00e9nta nostr\u00e6 redempti\u00f3nis eff\u00e9ctus: qui nos et ab hum\u00e1nis r\u00e9trahat semper exc\u00e9ssibus, et ad salut\u00e1ria dona perd\u00facat.\nPer Dominum.", 
+        "body": "Per h\u00e6c v\u00e9niat, qu\u01fdsumus, D\u00f3mine, sacram\u00e9nta nostr\u00e6 redempti\u00f3nis eff\u00e9ctus: qui nos et ab hum\u00e1nis r\u00e9trahat semper exc\u00e9ssibus, et ad salut\u00e1ria dona perd\u00facat.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Commemoratio S. Patricii Episcopi et Conf. *\nSancti tui, qu\u01fdsumus, D\u00f3mine, nos ub\u00edque l\u00e6t\u00edficant: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum.", 
+        "body": "* Commemoratio S. Patricii Episcopi et Conf. *\nSancti tui, qu\u01fdsumus, D\u00f3mine, nos ub\u00edque l\u00e6t\u00edficant: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -67,17 +67,17 @@
         "label": "Communio"
       }, 
       {
-        "body": "Sacris, D\u00f3mine, myst\u00e9riis expi\u00e1ti: et v\u00e9niam, qu\u01fdsumus, consequ\u00e1mur et gr\u00e1tiam.\nPer Dominum.", 
+        "body": "Sacris, D\u00f3mine, myst\u00e9riis expi\u00e1ti: et v\u00e9niam, qu\u01fdsumus, consequ\u00e1mur et gr\u00e1tiam.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "* Commemoratio S. Patricii Episcopi et Conf. *\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to N. Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
+        "body": "* Commemoratio S. Patricii Episcopi et Conf. *\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to N. Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nTua nos, D\u00f3mine, protecti\u00f3ne def\u00e9nde: et ab omni semper iniquit\u00e1te cust\u00f3di.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nTua nos, D\u00f3mine, protecti\u00f3ne def\u00e9nde: et ab omni semper iniquit\u00e1te cust\u00f3di.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -89,12 +89,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Hear us, almighty and merciful God, and in Your kindness grant us the graces of self-denial that lead to salvation.\nPor nosso Senhor", 
+        "body": "Hear us, almighty and merciful God, and in Your kindness grant us the graces of self-denial that lead to salvation.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Patr\u00edcio, Bispo e Confessor *\n\u00d3 Deus, que Vos dignastes mandar B. Patr\u00edcio, Confessor e Bispo, anunciar a vossa gl\u00f3ria aos gentios, concedei-nos pelos seus m\u00e9ritos e intercess\u00e3o que com o socorro da vossa miseric\u00f3rdia possamos cumprir o que nos ordenais.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S. Patr\u00edcio, Bispo e Confessor *\n\u00d3 Deus, que Vos dignastes mandar B. Patr\u00edcio, Confessor e Bispo, anunciar a vossa gl\u00f3ria aos gentios, concedei-nos pelos seus m\u00e9ritos e intercess\u00e3o que com o socorro da vossa miseric\u00f3rdia possamos cumprir o que nos ordenais.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -119,12 +119,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "O Lord, may this sacrament result in our redemption; keep us always from the sins of our human nature, and bring us the gift of salvation.\nPor nosso Senhor", 
+        "body": "O Lord, may this sacrament result in our redemption; keep us always from the sins of our human nature, and bring us the gift of salvation.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Patr\u00edcio, Bispo e Confessor *\nQue os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus m\u00e9ritos, sintamos o efeito do seu patroc\u00ednio.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S. Patr\u00edcio, Bispo e Confessor *\nQue os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus m\u00e9ritos, sintamos o efeito do seu patroc\u00ednio.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -139,17 +139,17 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "We beseech You, O Lord, that, purified by this holy sacrament, we may obtain both forgiveness and grace.\nPor nosso Senhor", 
+        "body": "We beseech You, O Lord, that, purified by this holy sacrament, we may obtain both forgiveness and grace.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Patr\u00edcio, Bispo e Confessor *\nDignai-Vos permitir, \u00f3 Deus omnipotente, que, dando-Vos n\u00f3s gra\u00e7as pelos benef\u00edcios recebidos, alcancemos por intercess\u00e3o do B. N., vosso Confessor e Pont\u00edfice, ainda outros maiores.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S. Patr\u00edcio, Bispo e Confessor *\nDignai-Vos permitir, \u00f3 Deus omnipotente, que, dando-Vos n\u00f3s gra\u00e7as pelos benef\u00edcios recebidos, alcancemos por intercess\u00e3o do B. N., vosso Confessor e Pont\u00edfice, ainda outros maiores.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nDefend us, O Lord, with Your protection, and forever safeguard us from all evil.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nDefend us, O Lord, with Your protection, and forever safeguard us from all evil.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

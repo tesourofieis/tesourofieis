@@ -19,12 +19,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Gregem tuum, Pastor \u00e6t\u00e9rne, plac\u00e1tus int\u00e9nde: et, per be\u00e1tum N. (M\u00e1rtyrem tuum atque) Summum Pont\u00edficem, perp\u00e9tua protecti\u00f3ne cust\u00f3di; quem tot\u00edus Eccl\u00e9si\u00e6 pr\u00e6stit\u00edsti esse past\u00f3rem.\nPer Dominum.", 
+        "body": "Gregem tuum, Pastor \u00e6t\u00e9rne, plac\u00e1tus int\u00e9nde: et, per be\u00e1tum N. (M\u00e1rtyrem tuum atque) Summum Pont\u00edficem, perp\u00e9tua protecti\u00f3ne cust\u00f3di; quem tot\u00edus Eccl\u00e9si\u00e6 pr\u00e6stit\u00edsti esse past\u00f3rem.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Pro S. Felicitate*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, be\u00e1t\u00e6 Felicit\u00e1tis Martyris tu\u00e6 soll\u00e9mnia recens\u00e9ntes, m\u00e9ritis ips\u00edus proteg\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
+        "body": "*Pro S. Felicitate*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, be\u00e1t\u00e6 Felicit\u00e1tis Martyris tu\u00e6 soll\u00e9mnia recens\u00e9ntes, m\u00e9ritis ips\u00edus proteg\u00e1mur et pr\u00e9cibus.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -49,12 +49,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Obl\u00e1tis mun\u00e9ribus, qu\u01fdsumus, D\u00f3mine, Eccl\u00e9siam tuam ben\u00edgnus ill\u00famina: ut, et gregis tui prof\u00edciat ubique succ\u00e9ssus, et grati fiant n\u00f3mini tuo, te gubern\u00e1nte, past\u00f3res.\nPer Dominum.", 
+        "body": "Obl\u00e1tis mun\u00e9ribus, qu\u01fdsumus, D\u00f3mine, Eccl\u00e9siam tuam ben\u00edgnus ill\u00famina: ut, et gregis tui prof\u00edciat ubique succ\u00e9ssus, et grati fiant n\u00f3mini tuo, te gubern\u00e1nte, past\u00f3res.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro S. Felicitate*\nVota p\u00f3puli tui, D\u00f3mine, propiti\u00e1tus int\u00e9nde: et, cujus nos tr\u00edbuis soll\u00e9mnia celebr\u00e1re, fac gaud\u00e9re suffr\u00e1giis.\nPer Dominum.", 
+        "body": "*Pro S. Felicitate*\nVota p\u00f3puli tui, D\u00f3mine, propiti\u00e1tus int\u00e9nde: et, cujus nos tr\u00edbuis soll\u00e9mnia celebr\u00e1re, fac gaud\u00e9re suffr\u00e1giis.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -69,12 +69,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Refecti\u00f3ne sancta enutr\u00edtam gub\u00e9rna, qu\u01fdsumus, D\u00f3mine, tuam plac\u00e1tus Eccl\u00e9siam: ut, pot\u00e9nti moderati\u00f3ne dir\u00e9cta, et increm\u00e9nta libert\u00e1tis acc\u00edpiat et in religi\u00f3nis integrit\u00e1te pers\u00edstat.\nPer Dominum.", 
+        "body": "Refecti\u00f3ne sancta enutr\u00edtam gub\u00e9rna, qu\u01fdsumus, D\u00f3mine, tuam plac\u00e1tus Eccl\u00e9siam: ut, pot\u00e9nti moderati\u00f3ne dir\u00e9cta, et increm\u00e9nta libert\u00e1tis acc\u00edpiat et in religi\u00f3nis integrit\u00e1te pers\u00edstat.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Pro S. Felicitate*\nS\u00fapplices te rog\u00e1mus, omn\u00edpotens Deus: ut, interced\u00e9ntibus Sanctis tuis, et tua in nobis dona mult\u00edplices, et t\u00e9mpora nostra disp\u00f3nas.\nPer Dominum.", 
+        "body": "*Pro S. Felicitate*\nS\u00fapplices te rog\u00e1mus, omn\u00edpotens Deus: ut, interced\u00e9ntibus Sanctis tuis, et tua in nobis dona mult\u00edplices, et t\u00e9mpora nostra disp\u00f3nas.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
@@ -86,12 +86,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "\u00d3 Pastor eterno, atendei prop\u00edcio ao vosso rebanho; e guardai-o com vossa perp\u00e9tua protec\u00e7\u00e3o por intercess\u00e3o do bem-aventurado N. (Vosso M\u00e1rtir e) Sumo Pont\u00edfice, o qual escolhestes como pastor de toda a Igreja.\nPor nosso Senhor", 
+        "body": "\u00d3 Pastor eterno, atendei prop\u00edcio ao vosso rebanho; e guardai-o com vossa perp\u00e9tua protec\u00e7\u00e3o por intercess\u00e3o do bem-aventurado N. (Vosso M\u00e1rtir e) Sumo Pont\u00edfice, o qual escolhestes como pastor de toda a Igreja.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "*de Santa Felicidade*\nConcedei-nos, \u00f3 Deus omnipotente, Vos suplicamos, que, celebrando n\u00f3s a solenidade da B. Felicidade, vossa M\u00e1rtir, sejamos protegidos pelos seus m\u00e9ritos e preces.\nPor nosso Senhor", 
+        "body": "*de Santa Felicidade*\nConcedei-nos, \u00f3 Deus omnipotente, Vos suplicamos, que, celebrando n\u00f3s a solenidade da B. Felicidade, vossa M\u00e1rtir, sejamos protegidos pelos seus m\u00e9ritos e preces.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -116,12 +116,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai benignamente a vossa Igreja, a fim de que n\u00e3o s\u00f3 o vosso rebanho triunfe em toda a parte, mas tamb\u00e9m pelo poder do vosso nome os pastores sejam bem acolhidos.\nPor nosso Senhor", 
+        "body": "Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai benignamente a vossa Igreja, a fim de que n\u00e3o s\u00f3 o vosso rebanho triunfe em toda a parte, mas tamb\u00e9m pelo poder do vosso nome os pastores sejam bem acolhidos.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*de Santa Felicidade*\nAceitai prop\u00edcio, Senhor, os votos do vosso povo e fazei-nos gozar o efeito dos sufr\u00e1gios daquela cuja festa nos permitis celebrar.\nPor nosso Senhor", 
+        "body": "*de Santa Felicidade*\nAceitai prop\u00edcio, Senhor, os votos do vosso povo e fazei-nos gozar o efeito dos sufr\u00e1gios daquela cuja festa nos permitis celebrar.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -136,12 +136,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Senhor, Vos suplicamos, governai com mansid\u00e3o a vossa Igreja, agora que foi alimentada com a sagrada refei\u00e7\u00e3o, a fim de que, dirigida com firme suavidade, alcance o incremento da sua liberdade e persista na integridade da sua doutrina.\nPor nosso Senhor", 
+        "body": "Senhor, Vos suplicamos, governai com mansid\u00e3o a vossa Igreja, agora que foi alimentada com a sagrada refei\u00e7\u00e3o, a fim de que, dirigida com firme suavidade, alcance o incremento da sua liberdade e persista na integridade da sua doutrina.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*de Santa Felicidade*\n\u00d3 Deus omnipotente, humildemente Vos suplicamos, pela intercess\u00e3o dos vossos Santos, que multipliqueis sobre n\u00f3s os vossos benef\u00edcios e governeis os dias da nossa vida.\nPor nosso Senhor", 
+        "body": "*de Santa Felicidade*\n\u00d3 Deus omnipotente, humildemente Vos suplicamos, pela intercess\u00e3o dos vossos Santos, que multipliqueis sobre n\u00f3s os vossos benef\u00edcios e governeis os dias da nossa vida.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

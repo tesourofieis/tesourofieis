@@ -19,12 +19,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Gregem tuum, Pastor \u00e6t\u00e9rne, plac\u00e1tus int\u00e9nde: et, per be\u00e1tum Dam\u00e1sum Summum Pont\u00edficem, perp\u00e9tua protecti\u00f3ne cust\u00f3di; quem tot\u00edus Eccl\u00e9si\u00e6 pr\u00e6stit\u00edsti esse past\u00f3rem.\nPer Dominum.", 
+        "body": "Gregem tuum, Pastor \u00e6t\u00e9rne, plac\u00e1tus int\u00e9nde: et, per be\u00e1tum Dam\u00e1sum Summum Pont\u00edficem, perp\u00e9tua protecti\u00f3ne cust\u00f3di; quem tot\u00edus Eccl\u00e9si\u00e6 pr\u00e6stit\u00edsti esse past\u00f3rem.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "* Commemoratio Dominica II Adventus *\nExcita, D\u00f3mine, corda nostra ad pr\u00e6par\u00e1ndas Unig\u00e9niti tui vias: ut, per ejus adv\u00e9ntum, purific\u00e1tis tibi m\u00e9ntibus serv\u00edre mere\u00e1mur:\nQui tecum.", 
+        "body": "* Commemoratio Dominica II Adventus *\nExcita, D\u00f3mine, corda nostra ad pr\u00e6par\u00e1ndas Unig\u00e9niti tui vias: ut, per ejus adv\u00e9ntum, purific\u00e1tis tibi m\u00e9ntibus serv\u00edre mere\u00e1mur:\nQui tecum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -49,12 +49,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Obl\u00e1tis mun\u00e9ribus, qu\u01fdsumus, D\u00f3mine, Eccl\u00e9siam tuam ben\u00edgnus ill\u00famina: ut, et gregis tui prof\u00edciat ubique succ\u00e9ssus, et grati fiant n\u00f3mini tuo, te gubern\u00e1nte, past\u00f3res.\nPer Dominum.", 
+        "body": "Obl\u00e1tis mun\u00e9ribus, qu\u01fdsumus, D\u00f3mine, Eccl\u00e9siam tuam ben\u00edgnus ill\u00famina: ut, et gregis tui prof\u00edciat ubique succ\u00e9ssus, et grati fiant n\u00f3mini tuo, te gubern\u00e1nte, past\u00f3res.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Commemoratio Dominica II Adventus *\nPlac\u00e1re, qu\u01fdsumus, D\u00f3mine, humilit\u00e1tis nostr\u00e6 pr\u00e9cibus et h\u00f3stiis: et, ubi nulla supp\u00e9tunt suffr\u00e1gia merit\u00f3rum, tuis nobis succ\u00farre pr\u00e6s\u00eddiis.\nPer Dominum.", 
+        "body": "* Commemoratio Dominica II Adventus *\nPlac\u00e1re, qu\u01fdsumus, D\u00f3mine, humilit\u00e1tis nostr\u00e6 pr\u00e9cibus et h\u00f3stiis: et, ubi nulla supp\u00e9tunt suffr\u00e1gia merit\u00f3rum, tuis nobis succ\u00farre pr\u00e6s\u00eddiis.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -69,12 +69,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Refecti\u00f3ne sancta enutr\u00edtam gub\u00e9rna, qu\u01fdsumus, D\u00f3mine, tuam plac\u00e1tus Eccl\u00e9siam: ut, pot\u00e9nti moderati\u00f3ne dir\u00e9cta, et increm\u00e9nta libert\u00e1tis acc\u00edpiat et in religi\u00f3nis integrit\u00e1te pers\u00edstat.\nPer Dominum.", 
+        "body": "Refecti\u00f3ne sancta enutr\u00edtam gub\u00e9rna, qu\u01fdsumus, D\u00f3mine, tuam plac\u00e1tus Eccl\u00e9siam: ut, pot\u00e9nti moderati\u00f3ne dir\u00e9cta, et increm\u00e9nta libert\u00e1tis acc\u00edpiat et in religi\u00f3nis integrit\u00e1te pers\u00edstat.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "* Commemoratio Dominica II Adventus *\nRepl\u00e9ti cibo spiritu\u00e1lis alim\u00f3ni\u00e6, s\u00fapplices te, D\u00f3mine, deprec\u00e1mur: ut, hujus participati\u00f3ne myst\u00e9rii, d\u00f3ceas nos terr\u00e9na desp\u00edcere et am\u00e1re c\u0153l\u00e9stia.\nPer Dominum.", 
+        "body": "* Commemoratio Dominica II Adventus *\nRepl\u00e9ti cibo spiritu\u00e1lis alim\u00f3ni\u00e6, s\u00fapplices te, D\u00f3mine, deprec\u00e1mur: ut, hujus participati\u00f3ne myst\u00e9rii, d\u00f3ceas nos terr\u00e9na desp\u00edcere et am\u00e1re c\u0153l\u00e9stia.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
@@ -86,12 +86,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "\u00d3 Pastor eterno, atendei prop\u00edcio ao vosso rebanho; e guardai-o com vossa perp\u00e9tua protec\u00e7\u00e3o por intercess\u00e3o do bem-aventurado N. (Vosso M\u00e1rtir e) Sumo Pont\u00edfice, o qual escolhestes como pastor de toda a Igreja.\nPor nosso Senhor", 
+        "body": "\u00d3 Pastor eterno, atendei prop\u00edcio ao vosso rebanho; e guardai-o com vossa perp\u00e9tua protec\u00e7\u00e3o por intercess\u00e3o do bem-aventurado N. (Vosso M\u00e1rtir e) Sumo Pont\u00edfice, o qual escolhestes como pastor de toda a Igreja.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o 2\u00ba Domingo do Advento *\nExcitai, Senhor, os nossos cora\u00e7\u00f5es para que preparem os caminhos do vosso Filho Unig\u00e9nito, de modo que no seu advento mere\u00e7amos servi-l\u2019O com as almas purificadas.\n\u00d3 V\u00f3s, que viveis.", 
+        "body": "* Comemora\u00e7\u00e3o 2\u00ba Domingo do Advento *\nExcitai, Senhor, os nossos cora\u00e7\u00f5es para que preparem os caminhos do vosso Filho Unig\u00e9nito, de modo que no seu advento mere\u00e7amos servi-l\u2019O com as almas purificadas.\n\u00d3 V\u00f3s, que viveis...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -116,12 +116,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai benignamente a vossa Igreja, a fim de que n\u00e3o s\u00f3 o vosso rebanho triunfe em toda a parte, mas tamb\u00e9m pelo poder do vosso nome os pastores sejam bem acolhidos.\nPor nosso Senhor", 
+        "body": "Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai benignamente a vossa Igreja, a fim de que n\u00e3o s\u00f3 o vosso rebanho triunfe em toda a parte, mas tamb\u00e9m pelo poder do vosso nome os pastores sejam bem acolhidos.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o 2\u00ba Domingo do Advento *\nSenhor, Vos suplicamos, deixai-Vos aplacar com as ora\u00e7\u00f5es da nossa humildade, juntamente com estas oblatas; e, j\u00e1 que os nossos sufr\u00e1gios s\u00e3o desprovidos de quaisquer m\u00e9ritos, assisti-nos ao menos com vosso aux\u00edlio.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o 2\u00ba Domingo do Advento *\nSenhor, Vos suplicamos, deixai-Vos aplacar com as ora\u00e7\u00f5es da nossa humildade, juntamente com estas oblatas; e, j\u00e1 que os nossos sufr\u00e1gios s\u00e3o desprovidos de quaisquer m\u00e9ritos, assisti-nos ao menos com vosso aux\u00edlio.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -136,12 +136,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Senhor, Vos suplicamos, governai com mansid\u00e3o a vossa Igreja, agora que foi alimentada com a sagrada refei\u00e7\u00e3o, a fim de que, dirigida com firme suavidade, alcance o incremento da sua liberdade e persista na integridade da sua doutrina.\nPor nosso Senhor", 
+        "body": "Senhor, Vos suplicamos, governai com mansid\u00e3o a vossa Igreja, agora que foi alimentada com a sagrada refei\u00e7\u00e3o, a fim de que, dirigida com firme suavidade, alcance o incremento da sua liberdade e persista na integridade da sua doutrina.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o 2\u00ba Domingo do Advento *\nSaciados j\u00e1 com este alimento espiritual, concedei-nos, Senhor, Vos imploramos, que pela participa\u00e7\u00e3o deste myst\u00e9rio aprendamos a desprezar os bens desta vida e a amar os do c\u00e9u.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o 2\u00ba Domingo do Advento *\nSaciados j\u00e1 com este alimento espiritual, concedei-nos, Senhor, Vos imploramos, que pela participa\u00e7\u00e3o deste myst\u00e9rio aprendamos a desprezar os bens desta vida e a amar os do c\u00e9u.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

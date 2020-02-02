@@ -19,12 +19,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Deus, qui be\u00e1tum Titum Confess\u00f3rem tuum atque Pont\u00edficem apost\u00f3licis virt\u00fatibus decor\u00e1sti: ejus m\u00e9ritis et intercessi\u00f3ne conc\u00e9de; ut, juste et pie viv\u00e9ntes in hoc s\u01fdculo, ad c\u0153l\u00e9stem p\u00e1triam perven\u00edre mere\u00e1mur.\nPer Dominum.", 
+        "body": "Deus, qui be\u00e1tum Titum Confess\u00f3rem tuum atque Pont\u00edficem apost\u00f3licis virt\u00fatibus decor\u00e1sti: ejus m\u00e9ritis et intercessi\u00f3ne conc\u00e9de; ut, juste et pie viv\u00e9ntes in hoc s\u01fdculo, ad c\u0153l\u00e9stem p\u00e1triam perven\u00edre mere\u00e1mur.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Pro S. Dorothe\u00e6 Virg. et Mart.*\nIndulg\u00e9ntiam nobis, qu\u01fdsumus, D\u00f3mine, be\u00e1ta Doroth\u00e9a Virgo et Martyr impl\u00f3ret: qu\u00e6 tibi grata semper \u00e9xstitit, et m\u00e9rito castit\u00e1tis, et tu\u00e6 professi\u00f3ne virt\u00fatis.\nPer Dominum.", 
+        "body": "*Pro S. Dorothe\u00e6 Virg. et Mart.*\nIndulg\u00e9ntiam nobis, qu\u01fdsumus, D\u00f3mine, be\u00e1ta Doroth\u00e9a Virgo et Martyr impl\u00f3ret: qu\u00e6 tibi grata semper \u00e9xstitit, et m\u00e9rito castit\u00e1tis, et tu\u00e6 professi\u00f3ne virt\u00fatis.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -49,12 +49,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Sancti tui, qu\u01fdsumus, D\u00f3mine, nos ubique l\u00e6t\u00edficent: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum.", 
+        "body": "Sancti tui, qu\u01fdsumus, D\u00f3mine, nos ubique l\u00e6t\u00edficent: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro S. Dorothea*\nH\u00f3stias tibi, D\u00f3mine, be\u00e1t\u00e6 Dor\u00f3the\u00e6 V\u00edrginis et M\u00e1rtyris tu\u00e6 dicatas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum.", 
+        "body": "*Pro S. Dorothea*\nH\u00f3stias tibi, D\u00f3mine, be\u00e1t\u00e6 Dor\u00f3the\u00e6 V\u00edrginis et M\u00e1rtyris tu\u00e6 dicatas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -69,12 +69,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to Tito Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to Tito Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Pro S. Dorothea*\nDiv\u00edni m\u00faneris largit\u00e1te sati\u00e1ti, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, interced\u00e9nte be\u00e1ta Doroth\u00e9a V\u00edrgine et M\u00e1rtyre tua, in ejus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum.", 
+        "body": "*Pro S. Dorothea*\nDiv\u00edni m\u00faneris largit\u00e1te sati\u00e1ti, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, interced\u00e9nte be\u00e1ta Doroth\u00e9a V\u00edrgine et M\u00e1rtyre tua, in ejus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
@@ -86,7 +86,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "\u00d3 Deus, que ornastes o B. Tito, vosso Confessor e Pont\u00edfice, com as virtudes apost\u00f3licas, concedei-nos, pelos seus m\u00e9ritos e intercess\u00e3o, que vivendo neste mundo justa e piamente, mere\u00e7amos alcan\u00e7ar a p\u00e1tria celestial.\nPor nosso Senhor", 
+        "body": "\u00d3 Deus, que ornastes o B. Tito, vosso Confessor e Pont\u00edfice, com as virtudes apost\u00f3licas, concedei-nos, pelos seus m\u00e9ritos e intercess\u00e3o, que vivendo neste mundo justa e piamente, mere\u00e7amos alcan\u00e7ar a p\u00e1tria celestial.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -116,12 +116,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Que os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus m\u00e9ritos, sintamos o efeito do seu patroc\u00ednio.\nPor nosso Senhor", 
+        "body": "Que os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus m\u00e9ritos, sintamos o efeito do seu patroc\u00ednio.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*de Santa Dorot\u00e9ia*\nAceitai benignamente, Senhor, as h\u00f3stias que Vos oferecemos pelos m\u00e9ritos da B. Virgem e M\u00e1rtir <em>N.</em>, e dignai-Vos permitir que ela nos sirva de perp\u00e9tuo aux\u00edlio.\nPor nosso Senhor", 
+        "body": "*de Santa Dorot\u00e9ia*\nAceitai benignamente, Senhor, as h\u00f3stias que Vos oferecemos pelos m\u00e9ritos da B. Virgem e M\u00e1rtir <em>N.</em>, e dignai-Vos permitir que ela nos sirva de perp\u00e9tuo aux\u00edlio.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -136,12 +136,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Dignai-Vos permitir, \u00f3 Deus omnipotente, que, dando-Vos n\u00f3s gra\u00e7as pelos benef\u00edcios recebidos, alcancemos por intercess\u00e3o do B. N., vosso Confessor e Pont\u00edfice, ainda outros maiores.\nPor nosso Senhor", 
+        "body": "Dignai-Vos permitir, \u00f3 Deus omnipotente, que, dando-Vos n\u00f3s gra\u00e7as pelos benef\u00edcios recebidos, alcancemos por intercess\u00e3o do B. N., vosso Confessor e Pont\u00edfice, ainda outros maiores.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*de Santa Dorot\u00e9ia*\nSaciados com a liberalidade do dom divino, \u00f3 Senhor, nosso Deus, Vos suplicamos pela intercess\u00e3o da B. Virgem N., vossa M\u00e1rtir, que durante a nossa vida comparticipemos sempre deste dom divino.\nPor nosso Senhor", 
+        "body": "*de Santa Dorot\u00e9ia*\nSaciados com a liberalidade do dom divino, \u00f3 Senhor, nosso Deus, Vos suplicamos pela intercess\u00e3o da B. Virgem N., vossa M\u00e1rtir, que durante a nossa vida comparticipemos sempre deste dom divino.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

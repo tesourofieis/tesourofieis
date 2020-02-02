@@ -19,12 +19,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Infirmit\u00e1tem nostram respice, omn\u00edpotens Deus: et, quia pondus pr\u00f3pri\u00e6 actionis gravat, be\u00e1ti Ign\u00e1tii Martyris tui atque Pontificis interc\u00e9ssio gloriosa nos pr\u00f3tegat.\nPer Dominum.", 
+        "body": "Infirmit\u00e1tem nostram respice, omn\u00edpotens Deus: et, quia pondus pr\u00f3pri\u00e6 actionis gravat, be\u00e1ti Ign\u00e1tii Martyris tui atque Pontificis interc\u00e9ssio gloriosa nos pr\u00f3tegat.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "L\u00e9ctio Epistol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos\n*Rom 8:35-39.*\nFratres: Quis nos separ\u00e1bit a carit\u00e1te Christi: tribul\u00e1tio, an angustia, an fames, an n\u00faditas, an per\u00edculum, an persec\u00fatio, an gl\u00e1dius? sicut scriptum est: Quia propter te mortific\u00e1mur tota die: \u00e6stim\u00e1ti sumus sicut oves occisi\u00f3nis. Sed in his \u00f3mnibus super\u00e1mus propter eum, qui dil\u00e9xit nos. Certus sum enim, quia neque mors, neque vita, neque \u00e1ngeli, neque princip\u00e1tus, neque virt\u00fates, neque inst\u00e1ntia, neque fut\u00fara, neque fortit\u00fado, neque altit\u00fado, neque prof\u00fandum, neque creat\u00fara alia poterit nos separ\u00e1re a cant\u00e1te Dei, qu\u00e6 est in Christo Jesu, D\u00f3mino nostro.", 
+        "body": "L\u00e9ctio Epistol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos\n*Rom 8:35-39.*\nFratres: Quis nos separ\u00e1bit a carit\u00e1te Christi: tribul\u00e1tio, an angustia, an fames, an n\u00faditas, an per\u00edculum, an persec\u00fatio, an gl\u00e1dius? sicut scriptum est: Quia propter te mortific\u00e1mur tota die: \u00e6stim\u00e1ti sumus sicut oves occisi\u00f3nis. Sed in his \u00f3mnibus super\u00e1mus propter eum, qui dil\u00e9xit nos. Certus sum enim, quia neque mors, neque vita, neque \u00e1ngeli, neque princip\u00e1tus, neque virt\u00fates, neque inst\u00e1ntia, neque fut\u00fara, neque fortit\u00fado, neque altit\u00fado, neque prof\u00fandum, neque creat\u00fara alia poterit nos separ\u00e1re a carit\u00e1te Dei, qu\u00e6 est in Christo Jesu, D\u00f3mino nostro.", 
         "id": "Lectio", 
         "label": "Lectio"
       }, 
@@ -44,7 +44,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "H\u00f3stias tibi, D\u00f3mine, be\u00e1ti Ign\u00e1tii Martyris tui atque Pont\u00edficis dicatas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum.", 
+        "body": "H\u00f3stias tibi, D\u00f3mine, be\u00e1ti Ign\u00e1tii Martyris tui atque Pont\u00edficis dicatas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -59,7 +59,7 @@
         "label": "Communio"
       }, 
       {
-        "body": "Ref\u00e9cti participati\u00f3ne m\u00faneris sacri, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, cujus exs\u00e9quimur cultum, interced\u00e9nte be\u00e1to Ign\u00e1tio M\u00e1rtyre tuo atque Pont\u00edfice, senti\u00e1mus eff\u00e9ctum.\nPer Dominum.", 
+        "body": "Ref\u00e9cti participati\u00f3ne m\u00faneris sacri, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, cujus exs\u00e9quimur cultum, interced\u00e9nte be\u00e1to Ign\u00e1tio M\u00e1rtyre tuo atque Pont\u00edfice, senti\u00e1mus eff\u00e9ctum.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }
@@ -71,7 +71,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Olhai para a nossa fraqueza, \u00f3 Deus omnipotente; e, visto que estamos oprimidos sob o peso dos nossos pecados, fazei que nos proteja a gloriosa intercess\u00e3o do B. N., vosso Pont\u00edfice e M\u00e1rtir.\nPor nosso Senhor", 
+        "body": "Olhai para a nossa fraqueza, \u00f3 Deus omnipotente; e, visto que estamos oprimidos sob o peso dos nossos pecados, fazei que nos proteja a gloriosa intercess\u00e3o do B. N., vosso Pont\u00edfice e M\u00e1rtir.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -96,7 +96,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Recebei benigno, Senhor, as h\u00f3stias que Vos oferecemos pelos merecimentos do B. N., vosso M\u00e1rtir e Pont\u00edfice, e fazei que elas nos alcancem o vosso perp\u00e9tuo socorro.\nPor nosso Senhor", 
+        "body": "Recebei benigno, Senhor, as h\u00f3stias que Vos oferecemos pelos merecimentos do B. N., vosso M\u00e1rtir e Pont\u00edfice, e fazei que elas nos alcancem o vosso perp\u00e9tuo socorro.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -111,7 +111,7 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Fortalecidos com a participa\u00e7\u00e3o do dom sacrat\u00edssimo, Vos pedimos, Senhor, nosso Deus, que, por intercess\u00e3o do B. N., vosso M\u00e1rtir e Pont\u00edfice, sintamos o efeito do myst\u00e9rio que hoje celebr\u00e1mos.\nPor nosso Senhor", 
+        "body": "Fortalecidos com a participa\u00e7\u00e3o do dom sacrat\u00edssimo, Vos pedimos, Senhor, nosso Deus, que, por intercess\u00e3o do B. N., vosso M\u00e1rtir e Pont\u00edfice, sintamos o efeito do myst\u00e9rio que hoje celebr\u00e1mos.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }

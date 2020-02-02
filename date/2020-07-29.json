@@ -21,12 +21,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Ex\u00e1udi nos, Deus, salut\u00e1ris noster: ut, sicut de be\u00e1t\u00e6 Marth\u00e6 V\u00edrginis tu\u00e6 festivit\u00e1te gaud\u00e9mus; ita pi\u00e6 devoti\u00f3nis erudi\u00e1mur affectu.\nPer Dominum.", 
+        "body": "Ex\u00e1udi nos, Deus, salut\u00e1ris noster: ut, sicut de be\u00e1t\u00e6 Marth\u00e6 V\u00edrginis tu\u00e6 festivit\u00e1te gaud\u00e9mus; ita pi\u00e6 devoti\u00f3nis erudi\u00e1mur affectu.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nPr\u00e6sta, qu\u01fdsumus, D\u00f3mine: ut, sicut p\u00f3pulus christi\u00e1nus M\u00e1rtyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis tempor\u00e1li sollemnit\u00e1te cong\u00e1udet, ita perfru\u00e1tur \u00e6t\u00e9rna; et, quod votis c\u00e9lebrat, compreh\u00e9ndat eff\u00e9ctu.\nPer Dominum.", 
+        "body": "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nPr\u00e6sta, qu\u01fdsumus, D\u00f3mine: ut, sicut p\u00f3pulus christi\u00e1nus M\u00e1rtyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis tempor\u00e1li sollemnit\u00e1te cong\u00e1udet, ita perfru\u00e1tur \u00e6t\u00e9rna; et, quod votis c\u00e9lebrat, compreh\u00e9ndat eff\u00e9ctu.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -51,12 +51,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Acc\u00e9pta tibi sit, D\u00f3mine, sacr\u00e1t\u00e6 plebis obl\u00e1tio pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum: quorum se m\u00e9ritis de tribulati\u00f3ne percep\u00edsse cogn\u00f3scit aux\u00edlium.\nPer Dominum.", 
+        "body": "Acc\u00e9pta tibi sit, D\u00f3mine, sacr\u00e1t\u00e6 plebis obl\u00e1tio pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum: quorum se m\u00e9ritis de tribulati\u00f3ne percep\u00edsse cogn\u00f3scit aux\u00edlium.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nH\u00f3stias tibi, D\u00f3mine, pro sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis commemorati\u00f3ne def\u00e9rimus: suppl\u00edciter deprec\u00e1ntes; ut indulg\u00e9ntiam nobis p\u00e1riter c\u00f3nferant et sal\u00fatem.\nPer Dominum.", 
+        "body": "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nH\u00f3stias tibi, D\u00f3mine, pro sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis commemorati\u00f3ne def\u00e9rimus: suppl\u00edciter deprec\u00e1ntes; ut indulg\u00e9ntiam nobis p\u00e1riter c\u00f3nferant et sal\u00fatem.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -71,12 +71,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Sati\u00e1sti, D\u00f3mine, fam\u00edliam tuam mun\u00e9ribus sacris: ejus, qu\u01fdsumus, semper interventi\u00f3ne nos r\u00e9fove, cujus soll\u00e9mnia celebr\u00e1mus.\nPer Dominum.", 
+        "body": "Sati\u00e1sti, D\u00f3mine, fam\u00edliam tuam mun\u00e9ribus sacris: ejus, qu\u01fdsumus, semper interventi\u00f3ne nos r\u00e9fove, cujus soll\u00e9mnia celebr\u00e1mus.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut sanct\u00f3rum Martyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis coel\u00e9stibus m\u00fdsteriis celebr\u00e1ta soll\u00e9mnitas, indulg\u00e9ntiam nobis tu\u00e6 propitiati\u00f3nis acqu\u00edrat.\nPer Dominum.", 
+        "body": "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut sanct\u00f3rum Martyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis coel\u00e9stibus m\u00fdsteriis celebr\u00e1ta soll\u00e9mnitas, indulg\u00e9ntiam nobis tu\u00e6 propitiati\u00f3nis acqu\u00edrat.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
@@ -88,12 +88,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Wys\u0142uchaj nas, Bo\u017ce, nasz Zbawicielu, i spraw, aby\u015bmy raduj\u0105c si\u0119 z uroczysto\u015bci \u015bwi\u0119tej Twojej Dziewicy Marty, nabyli uczucia synowskiego oddania.\nPor nosso Senhor", 
+        "body": "Wys\u0142uchaj nas, Bo\u017ce, nasz Zbawicielu, i spraw, aby\u015bmy raduj\u0105c si\u0119 z uroczysto\u015bci \u015bwi\u0119tej Twojej Dziewicy Marty, nabyli uczucia synowskiego oddania.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "*Wspomnienie \u015b\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy*\nProsimy Ci\u0119, Panie, aby lud chrze\u015bcija\u0144ski, raduj\u0105c si\u0119 z doczesnej uroczysto\u015bci M\u0119czennik\u00f3w Twoich Feliksa, Symplicjusza, Faustyna i Beatryczy, uczestniczy\u0142 w ich rado\u015bci wiecznej, a co teraz s\u0142awi modlitw\u0105, niech otrzyma w rzeczywisto\u015bci.\nPor nosso Senhor", 
+        "body": "*Wspomnienie \u015b\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy*\nProsimy Ci\u0119, Panie, aby lud chrze\u015bcija\u0144ski, raduj\u0105c si\u0119 z doczesnej uroczysto\u015bci M\u0119czennik\u00f3w Twoich Feliksa, Symplicjusza, Faustyna i Beatryczy, uczestniczy\u0142 w ich rado\u015bci wiecznej, a co teraz s\u0142awi modlitw\u0105, niech otrzyma w rzeczywisto\u015bci.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -118,12 +118,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Aceitai, Senhor, esta oferta, que Vos consagra o vosso povo fiel em honra dos vossos santos, pelos m\u00e9ritos dos quais reconhece que tem alcan\u00e7ado a vossa assist\u00eancia nas tribula\u00e7\u00f5es.\nPor nosso Senhor", 
+        "body": "Aceitai, Senhor, esta oferta, que Vos consagra o vosso povo fiel em honra dos vossos santos, pelos m\u00e9ritos dos quais reconhece que tem alcan\u00e7ado a vossa assist\u00eancia nas tribula\u00e7\u00f5es.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Wspomnienie \u015b\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy*\nSk\u0142adamy Tobie, Panie, ofiary ku uczczeniu pami\u0119ci \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Feliksa, Symplicjusza, Faustyna i Beatryczy, kornie b\u0142agaj\u0105c, aby one wyjedna\u0142y nam przebaczenie i zbawienie.\nPor nosso Senhor", 
+        "body": "*Wspomnienie \u015b\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy*\nSk\u0142adamy Tobie, Panie, ofiary ku uczczeniu pami\u0119ci \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Feliksa, Symplicjusza, Faustyna i Beatryczy, kornie b\u0142agaj\u0105c, aby one wyjedna\u0142y nam przebaczenie i zbawienie.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -138,12 +138,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Havendo V\u00f3s, Senhor, saciado a vossa fam\u00edlia com vossos dons sagrados, dignai-Vos favorecer-nos sempre com a intercess\u00e3o daquela cuja festa celebr\u00e1mos.\nPor nosso Senhor", 
+        "body": "Havendo V\u00f3s, Senhor, saciado a vossa fam\u00edlia com vossos dons sagrados, dignai-Vos favorecer-nos sempre com a intercess\u00e3o daquela cuja festa celebr\u00e1mos.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Wspomnienie \u015b\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy*\nProsimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby uroczysto\u015b\u0107 \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Feliksa, Symplicjusza, Faustyna i Beatryczy, obchodzona przez sprawowanie niebieskich misteri\u00f3w, wyjedna\u0142a nam Twe \u0142askawe przebaczenie.\nPor nosso Senhor", 
+        "body": "*Wspomnienie \u015b\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy*\nProsimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby uroczysto\u015b\u0107 \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Feliksa, Symplicjusza, Faustyna i Beatryczy, obchodzona przez sprawowanie niebieskich misteri\u00f3w, wyjedna\u0142a nam Twe \u0142askawe przebaczenie.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Prof\u00edciat, qu\u01fdsumus, D\u00f3mine, plebs tibi dic\u00e1ta pi\u00e6 devoti\u00f3nis aff\u00e9ctu: ut sacris acti\u00f3nibus erud\u00edta, quanto majest\u00e1ti tu\u00e6 fit gr\u00e1tior, tanto donis poti\u00f3ribus auge\u00e1tur.\nPer Dominum.", 
+        "body": "Prof\u00edciat, qu\u01fdsumus, D\u00f3mine, plebs tibi dic\u00e1ta pi\u00e6 devoti\u00f3nis aff\u00e9ctu: ut sacris acti\u00f3nibus erud\u00edta, quanto majest\u00e1ti tu\u00e6 fit gr\u00e1tior, tanto donis poti\u00f3ribus auge\u00e1tur.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "A cunctis nos, qu\u01fdsumus, D\u00f3mine, re\u00e1tibus et per\u00edculis propiti\u00e1tus abs\u00f3lve: quos tanti myst\u00e9rii tr\u00edbuis esse cons\u00f3rtes.\nPer Dominum.", 
+        "body": "A cunctis nos, qu\u01fdsumus, D\u00f3mine, re\u00e1tibus et per\u00edculis propiti\u00e1tus abs\u00f3lve: quos tanti myst\u00e9rii tr\u00edbuis esse cons\u00f3rtes.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Div\u00edni m\u00faneris largit\u00e1te sati\u00e1ti, qu\u01fdsumus, D\u00f3mine, Deus noster: ut hujus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum.", 
+        "body": "Div\u00edni m\u00faneris largit\u00e1te sati\u00e1ti, qu\u01fdsumus, D\u00f3mine, Deus noster: ut hujus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nTue\u00e1tur, qu\u01fdsumus, D\u00f3mine, d\u00e9xtera tua p\u00f3pulum deprec\u00e1ntem: et purific\u00e1tum dign\u00e1nter er\u00fadiat; ut, consolati\u00f3ne pr\u00e6s\u00e9nti, ad fut\u00fara bona prof\u00edciat.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nTue\u00e1tur, qu\u01fdsumus, D\u00f3mine, d\u00e9xtera tua p\u00f3pulum deprec\u00e1ntem: et purific\u00e1tum dign\u00e1nter er\u00fadiat; ut, consolati\u00f3ne pr\u00e6s\u00e9nti, ad fut\u00fara bona prof\u00edciat.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "O Lord, may the people dedicated to You desire to serve You more and more, that, taught by these sacred rites, they may be enriched by more precious gifts as they grow in favor with Your majesty.\nPor nosso Senhor", 
+        "body": "O Lord, may the people dedicated to You desire to serve You more and more, that, taught by these sacred rites, they may be enriched by more precious gifts as they grow in favor with Your majesty.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Be propitiated, we beg You, O Lord, and pardon all our offenses, whom You grant to be sharers in so great a mystery.\nPor nosso Senhor", 
+        "body": "Be propitiated, we beg You, O Lord, and pardon all our offenses, whom You grant to be sharers in so great a mystery.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "O Lord, our God, we beseech You, that we who have been filled with the riches of Your divine gift may always find life when we partake of it.\nPor nosso Senhor", 
+        "body": "O Lord, our God, we beseech You, that we who have been filled with the riches of Your divine gift may always find life when we partake of it.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nLet Your right hand, we beseech You, O Lord, guard Your people who call upon You; purify them and graciously teach them; that, by Your aid in this life, may they advance toward the good things to come.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nLet Your right hand, we beseech You, O Lord, guard Your people who call upon You; purify them and graciously teach them; that, by Your aid in this life, may they advance toward the good things to come.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

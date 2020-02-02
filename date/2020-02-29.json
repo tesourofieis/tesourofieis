@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Ad\u00e9sto, D\u00f3mine, supplicati\u00f3nibus nostris: et conc\u00e9de; ut hoc soll\u00e9mne jej\u00fanium, quod anim\u00e1bus corporib\u00fasque cur\u00e1ndis sal\u00fabriter instit\u00fatum est, dev\u00f3to serv\u00edtio celebr\u00e9mus.\nPer Dominum.", 
+        "body": "Ad\u00e9sto, D\u00f3mine, supplicati\u00f3nibus nostris: et conc\u00e9de; ut hoc soll\u00e9mne jej\u00fanium, quod anim\u00e1bus corporib\u00fasque cur\u00e1ndis sal\u00fabriter instit\u00fatum est, dev\u00f3to serv\u00edtio celebr\u00e9mus.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "S\u00fascipe, D\u00f3mine, sacrif\u00edcium, cujus te volu\u00edsti dign\u00e1nter immolati\u00f3ne plac\u00e1ri: pr\u00e6sta, qu\u01fdsumus; ut, hujus operati\u00f3ne mund\u00e1ti, benepl\u00e1citum tibi nostr\u00e6 mentis offer\u00e1mus aff\u00e9ctum.\nPer Dominum.", 
+        "body": "S\u00fascipe, D\u00f3mine, sacrif\u00edcium, cujus te volu\u00edsti dign\u00e1nter immolati\u00f3ne plac\u00e1ri: pr\u00e6sta, qu\u01fdsumus; ut, hujus operati\u00f3ne mund\u00e1ti, benepl\u00e1citum tibi nostr\u00e6 mentis offer\u00e1mus aff\u00e9ctum.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,12 +57,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "C\u0153l\u00e9stis vit\u00e6 m\u00fanere veget\u00e1ti, qu\u01fdsumus, D\u00f3mine: ut, quod est nobis in pr\u00e6s\u00e9nti vita myst\u00e9rium, fiat \u00e6ternit\u00e1tis aux\u00edlium.\nPer Dominum.", 
+        "body": "C\u0153l\u00e9stis vit\u00e6 m\u00fanere veget\u00e1ti, qu\u01fdsumus, D\u00f3mine: ut, quod est nobis in pr\u00e6s\u00e9nti vita myst\u00e9rium, fiat \u00e6ternit\u00e1tis aux\u00edlium.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nFid\u00e9les tui, Deus, per tua dona firm\u00e9ntur: ut \u00e9adem et percipi\u00e9ndo requ\u00edrant, et qu\u00e6r\u00e9ndo sine fine perc\u00edpiant.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nFid\u00e9les tui, Deus, per tua dona firm\u00e9ntur: ut \u00e9adem et percipi\u00e9ndo requ\u00edrant, et qu\u00e6r\u00e9ndo sine fine perc\u00edpiant.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -74,7 +74,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Hear, O Lord, our humble prayers, and grant that we may devoutly keep this fast that has been established to cure our souls and bodies.\nPor nosso Senhor", 
+        "body": "Hear, O Lord, our humble prayers, and grant that we may devoutly keep this fast that has been established to cure our souls and bodies.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,7 +99,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Receive, O Lord, this sacrifice by which You have graciously willed to be appeased: grant, we beseech You, that, cleansed by its effects, we may offer You the love of our hearts as an acceptable gift.\nPor nosso Senhor", 
+        "body": "Receive, O Lord, this sacrifice by which You have graciously willed to be appeased: grant, we beseech You, that, cleansed by its effects, we may offer You the love of our hearts as an acceptable gift.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -114,12 +114,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Fortified by the Bread of Life, we beseech You, O Lord, that what is a sacrament in this life may become a help to life eternal.\nPor nosso Senhor", 
+        "body": "Fortified by the Bread of Life, we beseech You, O Lord, that what is a sacrament in this life may become a help to life eternal.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nMay Your faithful people, O God, be strengthened by Your gifts; that by receiving them, they may still desire them, and by desiring them, may evermore receive them.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nMay Your faithful people, O God, be strengthened by Your gifts; that by receiving them, they may still desire them, and by desiring them, may evermore receive them.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

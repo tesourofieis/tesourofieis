@@ -19,12 +19,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Deus, qui nos be\u00e1ti Pauli Confess\u00f3ris tui \u00e1nnua sollemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut, cujus natal\u00edtia c\u00f3limus, \u00e9tiam acti\u00f3nes imit\u00e9mur.\nPer Dominum.", 
+        "body": "Deus, qui nos be\u00e1ti Pauli Confess\u00f3ris tui \u00e1nnua sollemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut, cujus natal\u00edtia c\u00f3limus, \u00e9tiam acti\u00f3nes imit\u00e9mur.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Pro S. Mauro Abbate*\nInterc\u00e9ssio nos, qu\u01fdsumus, D\u00f3mine, be\u00e1ti Mauri Abb\u00e1tis comm\u00e9ndet: ut, quod nostris m\u00e9ritis non val\u00e9mus, ejus patroc\u00ednio assequ\u00e1mur.\nPer Dominum.", 
+        "body": "*Pro S. Mauro Abbate*\nInterc\u00e9ssio nos, qu\u01fdsumus, D\u00f3mine, be\u00e1ti Mauri Abb\u00e1tis comm\u00e9ndet: ut, quod nostris m\u00e9ritis non val\u00e9mus, ejus patroc\u00ednio assequ\u00e1mur.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -49,12 +49,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Laudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum.", 
+        "body": "Laudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro S. Mauro Abbate*\nSacris alt\u00e1ribus, D\u00f3mine, h\u00f3stias superp\u00f3sitas sanctus Maurus Abbas, qu\u01fdsumus, in sal\u00fatem nobis proven\u00edre dep\u00f3scat.\nPer Dominum.", 
+        "body": "*Pro S. Mauro Abbate*\nSacris alt\u00e1ribus, D\u00f3mine, h\u00f3stias superp\u00f3sitas sanctus Maurus Abbas, qu\u01fdsumus, in sal\u00fatem nobis proven\u00edre dep\u00f3scat.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -69,12 +69,12 @@
         "label": "Communio"
       }, 
       {
-        "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
+        "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Pro S. Mauro Abbate*\nPr\u00f3tegat nos, D\u00f3mine, cum tui percepti\u00f3ne sacram\u00e9nti be\u00e1tus Maurus Abbas, pro nobis interced\u00e9ndo: ut et conversati\u00f3nis ejus experi\u00e1mur ins\u00edgnia, et intercessi\u00f3nis percipi\u00e1mus suffr\u00e1gia.\nPer Dominum.", 
+        "body": "*Pro S. Mauro Abbate*\nPr\u00f3tegat nos, D\u00f3mine, cum tui percepti\u00f3ne sacram\u00e9nti be\u00e1tus Maurus Abbas, pro nobis interced\u00e9ndo: ut et conversati\u00f3nis ejus experi\u00e1mur ins\u00edgnia, et intercessi\u00f3nis percipi\u00e1mus suffr\u00e1gia.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
@@ -86,7 +86,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "\u00d3 Deus, que nos alegrais com a solenidade anual do B. Paulo, vosso Confessor, visto que celebramos o seu nascimento, concedei-nos prop\u00edcio que imitemos tamb\u00e9m as suas ac\u00e7\u00f5es.\nPor nosso Senhor", 
+        "body": "\u00d3 Deus, que nos alegrais com a solenidade anual do B. Paulo, vosso Confessor, visto que celebramos o seu nascimento, concedei-nos prop\u00edcio que imitemos tamb\u00e9m as suas ac\u00e7\u00f5es.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -116,12 +116,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Senhor, Vos oferecemos este sacrif\u00edcio de louvor em mem\u00f3ria dos vossos Santos, para que por meio dele nos livremos dos males presentes e futuros.\nPor nosso Senhor", 
+        "body": "Senhor, Vos oferecemos este sacrif\u00edcio de louvor em mem\u00f3ria dos vossos Santos, para que por meio dele nos livremos dos males presentes e futuros.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*de S. Amaro*\nSenhor, Vos oferecemos este sacrif\u00edcio de louvor em mem\u00f3ria dos vossos Santos, para que por meio dele nos livremos dos males presentes e futuros.\nPor nosso Senhor", 
+        "body": "*de S. Amaro*\nSenhor, Vos oferecemos este sacrif\u00edcio de louvor em mem\u00f3ria dos vossos Santos, para que por meio dele nos livremos dos males presentes e futuros.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -136,12 +136,12 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Fortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, \u00f3 nosso Deus, que nos protejam as preces daquele em cuja mem\u00f3ria os recebemos.\nPor nosso Senhor", 
+        "body": "Fortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, \u00f3 nosso Deus, que nos protejam as preces daquele em cuja mem\u00f3ria os recebemos.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*de S. Amaro*\nFortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, \u00f3 nosso Deus, que nos protejam as preces daquele em cuja mem\u00f3ria os recebemos.\nPor nosso Senhor", 
+        "body": "*de S. Amaro*\nFortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, \u00f3 nosso Deus, que nos protejam as preces daquele em cuja mem\u00f3ria os recebemos.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

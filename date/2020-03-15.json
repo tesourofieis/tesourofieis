@@ -17,7 +17,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Qu\u01fdsumus, omn\u00edpotens Deus, vota hum\u00edlium r\u00e9spice: atque, ad defensi\u00f3nem nostram, d\u00e9xteram tu\u00e6 majest\u00e1tis ext\u00e9nde.\nPer Dominum.", 
+        "body": "Qu\u01fdsumus, omn\u00edpotens Deus, vota hum\u00edlium r\u00e9spice: atque, ad defensi\u00f3nem nostram, d\u00e9xteram tu\u00e6 majest\u00e1tis ext\u00e9nde.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -42,7 +42,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "H\u00e6c h\u00f3stia, D\u00f3mine, qu\u01fdsumus, em\u00fandet nostra del\u00edcta: et, ad sacrif\u00edcium celebr\u00e1ndum, subdit\u00f3rum tibi c\u00f3rpora ment\u00e9sque sanct\u00edficet.\nPer Dominum.", 
+        "body": "H\u00e6c h\u00f3stia, D\u00f3mine, qu\u01fdsumus, em\u00fandet nostra del\u00edcta: et, ad sacrif\u00edcium celebr\u00e1ndum, subdit\u00f3rum tibi c\u00f3rpora ment\u00e9sque sanct\u00edficet.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -57,7 +57,7 @@
         "label": "Communio"
       }, 
       {
-        "body": "A cunctis nos, qu\u01fdsumus, D\u00f3mine, re\u00e1tibus et per\u00edculis propiti\u00e1tus abs\u00f3lve: quos tanti myst\u00e9rii tr\u00edbuis esse part\u00edcipes.\nPer Dominum.", 
+        "body": "A cunctis nos, qu\u01fdsumus, D\u00f3mine, re\u00e1tibus et per\u00edculis propiti\u00e1tus abs\u00f3lve: quos tanti myst\u00e9rii tr\u00edbuis esse part\u00edcipes.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }
@@ -69,7 +69,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "We beseech You, almighty God, hear the prayers of the humble and stretch forth the right hand of Your majesty to protect us.\nPor nosso Senhor", 
+        "body": "We beseech You, almighty God, hear the prayers of the humble and stretch forth the right hand of Your majesty to protect us.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -94,7 +94,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "May this offering, we beseech You, O Lord, cleanse us of our sins, and make holy the bodies and minds of Your servants for the celebration of the sacrificial rite.\nPor nosso Senhor", 
+        "body": "May this offering, we beseech You, O Lord, cleanse us of our sins, and make holy the bodies and minds of Your servants for the celebration of the sacrificial rite.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -109,7 +109,7 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Be merciful, O Lord, we beseech You, and free from guilt and danger those whom You grant to share in this great sacrament.\nPor nosso Senhor", 
+        "body": "Be merciful, O Lord, we beseech You, and free from guilt and danger those whom You grant to share in this great sacrament.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }

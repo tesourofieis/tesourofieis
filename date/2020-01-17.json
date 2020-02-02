@@ -19,7 +19,7 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Interc\u00e9ssio nos, qu\u01fdsumus D\u00f3mine, be\u00e1ti Ant\u00f3nii Abb\u00e1tis comm\u00e9ndet: ut, quod nostris m\u00e9ritis non val\u00e9mus, ejus patroc\u00ednio assequ\u00e1mur.\nPer Dominum.", 
+        "body": "Interc\u00e9ssio nos, qu\u01fdsumus D\u00f3mine, be\u00e1ti Ant\u00f3nii Abb\u00e1tis comm\u00e9ndet: ut, quod nostris m\u00e9ritis non val\u00e9mus, ejus patroc\u00ednio assequ\u00e1mur.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -44,7 +44,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Sacris alt\u00e1ribus, D\u00f3mine, h\u00f3stias superp\u00f3sitas sanctus N. Abbas, qu\u01fdsumus, in sal\u00fatem nobis proven\u00edre dep\u00f3scat.\nPer Dominum.", 
+        "body": "Sacris alt\u00e1ribus, D\u00f3mine, h\u00f3stias superp\u00f3sitas sanctus N. Abbas, qu\u01fdsumus, in sal\u00fatem nobis proven\u00edre dep\u00f3scat.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -59,7 +59,7 @@
         "label": "Communio"
       }, 
       {
-        "body": "Pr\u00f3tegat nos, D\u00f3mine, cum tui percepti\u00f3ne sacram\u00e9nti be\u00e1tus N. Abbas, pro nobis interced\u00e9ndo: ut et conversati\u00f3nis ejus experi\u00e1mur ins\u00edgnia, et intercessi\u00f3nis percipi\u00e1mus suffr\u00e1gia.\nPer Dominum.", 
+        "body": "Pr\u00f3tegat nos, D\u00f3mine, cum tui percepti\u00f3ne sacram\u00e9nti be\u00e1tus N. Abbas, pro nobis interced\u00e9ndo: ut et conversati\u00f3nis ejus experi\u00e1mur ins\u00edgnia, et intercessi\u00f3nis percipi\u00e1mus suffr\u00e1gia.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }
@@ -71,7 +71,7 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Que a intercess\u00e3o do B. Abade N. nos favore\u00e7a junto de V\u00f3s, Senhor, Vos suplicamos, a fim de que aquilo que n\u00e3o podemos conseguir com os nossos m\u00e9ritos o alcancemos com seu patroc\u00ednio.\nPor nosso Senhor", 
+        "body": "Que a intercess\u00e3o do B. Abade N. nos favore\u00e7a junto de V\u00f3s, Senhor, Vos suplicamos, a fim de que aquilo que n\u00e3o podemos conseguir com os nossos m\u00e9ritos o alcancemos com seu patroc\u00ednio.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -96,7 +96,7 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Vos imploramos, Senhor, que o vosso santo Abade N. nos alcance que a h\u00f3stia, oferecida no vosso altar, nos proporcione a salva\u00e7\u00e3o.\nPor nosso Senhor", 
+        "body": "Vos imploramos, Senhor, que o vosso santo Abade N. nos alcance que a h\u00f3stia, oferecida no vosso altar, nos proporcione a salva\u00e7\u00e3o.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -111,7 +111,7 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Senhor, unida \u00e0s preces do B. N. Abade, nos sirva de protec\u00e7\u00e3o, a fim de que, imitando os insignes exemplos da sua vida, sintamos os efeitos da sua intercess\u00e3o.\nPor nosso Senhor", 
+        "body": "Senhor, unida \u00e0s preces do B. N. Abade, nos sirva de protec\u00e7\u00e3o, a fim de que, imitando os insignes exemplos da sua vida, sintamos os efeitos da sua intercess\u00e3o.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }

@@ -17,12 +17,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Pr\u00e6sta nobis, qu\u01fdsumus, D\u00f3mine, aux\u00edlium gr\u00e1ti\u00e6 tu\u00e6: ut, jej\u00faniis et orati\u00f3nibus conveni\u00e9nter int\u00e9nti, liber\u00e9mur ab h\u00f3stibus mentis et c\u00f3rporis.\nPer Dominum.", 
+        "body": "Pr\u00e6sta nobis, qu\u01fdsumus, D\u00f3mine, aux\u00edlium gr\u00e1ti\u00e6 tu\u00e6: ut, jej\u00faniis et orati\u00f3nibus conveni\u00e9nter int\u00e9nti, liber\u00e9mur ab h\u00f3stibus mentis et c\u00f3rporis.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "* Commemoratio S. Gregorii Pap\u00e6 Confessoris et Ecclesi\u00e6 Doctoris *\nDeus, qui \u00e1nim\u00e6 f\u00e1muli tui Greg\u00f3rii \u00e6t\u00e9rn\u00e6 beatit\u00fadinis pr\u01fdmia contul\u00edsti: conc\u00e9de prop\u00edtius; ut, qui peccat\u00f3rum nostr\u00f3rum p\u00f3ndere pr\u00e9mimur, ejus apud te pr\u00e9cibus sublev\u00e9mur.\nPer Dominum.", 
+        "body": "* Commemoratio S. Gregorii Pap\u00e6 Confessoris et Ecclesi\u00e6 Doctoris *\nDeus, qui \u00e1nim\u00e6 f\u00e1muli tui Greg\u00f3rii \u00e6t\u00e9rn\u00e6 beatit\u00fadinis pr\u01fdmia contul\u00edsti: conc\u00e9de prop\u00edtius; ut, qui peccat\u00f3rum nostr\u00f3rum p\u00f3ndere pr\u00e9mimur, ejus apud te pr\u00e9cibus sublev\u00e9mur.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -47,12 +47,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "Pr\u00e6s\u00e9nti sacrif\u00edcio, n\u00f3mini tuo nos, D\u00f3mine, jej\u00fania dic\u00e1ta sanct\u00edficent: ut, quod observ\u00e1ntia nostra profit\u00e9tur ext\u00e9rius, int\u00e9rius oper\u00e9tur eff\u00e9ctu.\nPer Dominum.", 
+        "body": "Pr\u00e6s\u00e9nti sacrif\u00edcio, n\u00f3mini tuo nos, D\u00f3mine, jej\u00fania dic\u00e1ta sanct\u00edficent: ut, quod observ\u00e1ntia nostra profit\u00e9tur ext\u00e9rius, int\u00e9rius oper\u00e9tur eff\u00e9ctu.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Commemoratio S. Gregorii Pap\u00e6 Confessoris et Ecclesi\u00e6 Doctoris *\nAnnue nobis, qu\u01fdsumus, D\u00f3mine: ut intercessi\u00f3ne be\u00e1ti Greg\u00f3rii h\u00e6c nobis prosit obl\u00e1tio, quam immol\u00e1ndo tot\u00edus mundi tribu\u00edsti relax\u00e1ri del\u00edcta.\nPer Dominum.", 
+        "body": "* Commemoratio S. Gregorii Pap\u00e6 Confessoris et Ecclesi\u00e6 Doctoris *\nAnnue nobis, qu\u01fdsumus, D\u00f3mine: ut intercessi\u00f3ne be\u00e1ti Greg\u00f3rii h\u00e6c nobis prosit obl\u00e1tio, quam immol\u00e1ndo tot\u00edus mundi tribu\u00edsti relax\u00e1ri del\u00edcta.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -67,17 +67,17 @@
         "label": "Communio"
       }, 
       {
-        "body": "Gr\u00e1tia tua nos, qu\u01fdsumus, D\u00f3mine, non derel\u00ednquat: qu\u00e6 et sacr\u00e6 nos d\u00e9ditos f\u00e1ciat servit\u00fati, et tuam nobis opem semper acqu\u00edrat.\nPer Dominum.", 
+        "body": "Gr\u00e1tia tua nos, qu\u01fdsumus, D\u00f3mine, non derel\u00ednquat: qu\u00e6 et sacr\u00e6 nos d\u00e9ditos f\u00e1ciat servit\u00fati, et tuam nobis opem semper acqu\u00edrat.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "* Commemoratio S. Gregorii Pap\u00e6 Confessoris et Ecclesi\u00e6 Doctoris *\nDeus, qui be\u00e1tum Greg\u00f3rium Pont\u00edficem Sanct\u00f3rum tu\u00f3rum m\u00e9ritis co\u00e6qu\u00e1sti: conc\u00e9de prop\u00edtius; ut, qui commemorati\u00f3nis ejus festa perc\u00f3limus, vit\u00e6 quoque imit\u00e9mur ex\u00e9mpla.\nPer Dominum.", 
+        "body": "* Commemoratio S. Gregorii Pap\u00e6 Confessoris et Ecclesi\u00e6 Doctoris *\nDeus, qui be\u00e1tum Greg\u00f3rium Pont\u00edficem Sanct\u00f3rum tu\u00f3rum m\u00e9ritis co\u00e6qu\u00e1sti: conc\u00e9de prop\u00edtius; ut, qui commemorati\u00f3nis ejus festa perc\u00f3limus, vit\u00e6 quoque imit\u00e9mur ex\u00e9mpla.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nAd\u00e9sto, D\u00f3mine, f\u00e1mulis tuis, et perp\u00e9tuam benignit\u00e1tem larg\u00edre posc\u00e9ntibus: ut iis, qui te auct\u00f3re et gubernat\u00f3re glori\u00e1ntur, ei congreg\u00e1ta rest\u00e1ures et restaur\u00e1ta cons\u00e9rves.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nAd\u00e9sto, D\u00f3mine, f\u00e1mulis tuis, et perp\u00e9tuam benignit\u00e1tem larg\u00edre posc\u00e9ntibus: ut iis, qui te auct\u00f3re et gubernat\u00f3re glori\u00e1ntur, ei congreg\u00e1ta rest\u00e1ures et restaur\u00e1ta cons\u00e9rves.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -89,12 +89,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Grant, we beseech You, O Lord, the help of Your grace, that, being intent, as we ought, upon fasting and prayer, we may be delivered from the enemies of soul and of body.\nPor nosso Senhor", 
+        "body": "Grant, we beseech You, O Lord, the help of Your grace, that, being intent, as we ought, upon fasting and prayer, we may be delivered from the enemies of soul and of body.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nBo\u017ce, kt\u00f3ry udzieli\u0142e\u015b nagrody wiecznej szcz\u0119\u015bliwo\u015bci duszy s\u0142ugi Swojego \u015bwi\u0119tego Grzegorza, spraw \u0142askawie, aby nas pod\u017awign\u0119\u0142y jego pro\u015bby u Ciebie, gdy nas przyt\u0142acza ci\u0119\u017car w\u0142asnych grzech\u00f3w.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nBo\u017ce, kt\u00f3ry udzieli\u0142e\u015b nagrody wiecznej szcz\u0119\u015bliwo\u015bci duszy s\u0142ugi Swojego \u015bwi\u0119tego Grzegorza, spraw \u0142askawie, aby nas pod\u017awign\u0119\u0142y jego pro\u015bby u Ciebie, gdy nas przyt\u0142acza ci\u0119\u017car w\u0142asnych grzech\u00f3w.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -119,12 +119,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "May the fasting dedicated to Your Name, O Lord, make us holy for the present sacrifice, that what our Lenten observance outwardly shows, it may work within us.\nPor nosso Senhor", 
+        "body": "May the fasting dedicated to Your Name, O Lord, make us holy for the present sacrifice, that what our Lenten observance outwardly shows, it may work within us.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nSpraw, prosimy Ci\u0119, Panie, aby za wstawiennictwem \u015bwi\u0119tego Grzegorza wspomog\u0142a nas ta ofiara, kt\u00f3rej z\u0142o\u017cenie wyjedna\u0142o u Ciebie odpuszczenie win ca\u0142ego \u015bwiata.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nSpraw, prosimy Ci\u0119, Panie, aby za wstawiennictwem \u015bwi\u0119tego Grzegorza wspomog\u0142a nas ta ofiara, kt\u00f3rej z\u0142o\u017cenie wyjedna\u0142o u Ciebie odpuszczenie win ca\u0142ego \u015bwiata.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -139,17 +139,17 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May Your grace, we beseech You, O Lord, never forsake us, but make us devoted to Your holy service and ever obtain for us Your aid.\nPor nosso Senhor", 
+        "body": "May Your grace, we beseech You, O Lord, never forsake us, but make us devoted to Your holy service and ever obtain for us Your aid.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nBo\u017ce, kt\u00f3ry\u015b sprawi\u0142, \u017ce \u015bwi\u0119ty Papie\u017c Grzegorz dor\u00f3wna\u0142 zas\u0142ugami Twoim \u015awi\u0119tym, spraw \u0142askawie, aby\u015bmy obchodz\u0105c jego \u015bwi\u0119to na\u015bladowali przyk\u0142ady jego \u017cycia.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nBo\u017ce, kt\u00f3ry\u015b sprawi\u0142, \u017ce \u015bwi\u0119ty Papie\u017c Grzegorz dor\u00f3wna\u0142 zas\u0142ugami Twoim \u015awi\u0119tym, spraw \u0142askawie, aby\u015bmy obchodz\u0105c jego \u015bwi\u0119to na\u015bladowali przyk\u0142ady jego \u017cycia.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nHelp Your servants, O Lord, and grant them the lasting kindness they entreat, so that to those who glory in You, their Creator and Ruler, You may restore the blessings they once possessed, and preserve what You restore.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nHelp Your servants, O Lord, and grant them the lasting kindness they entreat, so that to those who glory in You, their Creator and Ruler, You may restore the blessings they once possessed, and preserve what You restore.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

@@ -17,12 +17,12 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut f\u00e1milia tua, qu\u00e6 se, afflig\u00e9ndo carnem, ab alim\u00e9ntis \u00e1bstinet: sect\u00e1ndo just\u00edtiam, a culpa jej\u00fanet.\nPer Dominum.", 
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut f\u00e1milia tua, qu\u00e6 se, afflig\u00e9ndo carnem, ab alim\u00e9ntis \u00e1bstinet: sect\u00e1ndo just\u00edtiam, a culpa jej\u00fanet.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "* Commemoratio S. Francisc\u00e6 Vidu\u00e6 Roman\u00e6 *\nDeus, qui be\u00e1tam Franc\u00edscam f\u00e1mulam tuam, inter c\u00e9tera gr\u00e1ti\u00e6 tu\u00e6 dona, famili\u00e1ri Angeli consuet\u00fadine decor\u00e1sti: conc\u00e9de, qu\u01fdsumus; ut, intercessi\u00f3nis ejus aux\u00edlio, Angel\u00f3rum cons\u00f3rtium c\u00f3nsequi mere\u00e1mur.\nPer Dominum.", 
+        "body": "* Commemoratio S. Francisc\u00e6 Vidu\u00e6 Roman\u00e6 *\nDeus, qui be\u00e1tam Franc\u00edscam f\u00e1mulam tuam, inter c\u00e9tera gr\u00e1ti\u00e6 tu\u00e6 dona, famili\u00e1ri Angeli consuet\u00fadine decor\u00e1sti: conc\u00e9de, qu\u01fdsumus; ut, intercessi\u00f3nis ejus aux\u00edlio, Angel\u00f3rum cons\u00f3rtium c\u00f3nsequi mere\u00e1mur.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -47,12 +47,12 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "H\u00e6c h\u00f3stia, D\u00f3mine, placati\u00f3nis et laudis, tua nos protecti\u00f3ne dignos eff\u00edciat.\nPer Dominum.", 
+        "body": "H\u00e6c h\u00f3stia, D\u00f3mine, placati\u00f3nis et laudis, tua nos protecti\u00f3ne dignos eff\u00edciat.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Commemoratio S. Francisc\u00e6 Vidu\u00e6 Roman\u00e6 *\nAcc\u00e9pta tibi sit, D\u00f3mine, sacr\u00e1t\u00e6 plebis obl\u00e1tio pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum: quorum se m\u00e9ritis de tribulati\u00f3ne percep\u00edsse cogn\u00f3scit aux\u00edlium.\nPer Dominum.", 
+        "body": "* Commemoratio S. Francisc\u00e6 Vidu\u00e6 Roman\u00e6 *\nAcc\u00e9pta tibi sit, D\u00f3mine, sacr\u00e1t\u00e6 plebis obl\u00e1tio pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum: quorum se m\u00e9ritis de tribulati\u00f3ne percep\u00edsse cogn\u00f3scit aux\u00edlium.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -67,17 +67,17 @@
         "label": "Communio"
       }, 
       {
-        "body": "H\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et c\u0153l\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer Dominum.", 
+        "body": "H\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et c\u0153l\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "* Commemoratio S. Francisc\u00e6 Vidu\u00e6 Roman\u00e6 *\nSati\u00e1sti, D\u00f3mine, fam\u00edliam tuam mun\u00e9ribus sacris: ejus, qu\u01fdsumus, semper interventi\u00f3ne nos r\u00e9fove, cujus soll\u00e9mnia celebr\u00e1mus.\nPer Dominum.", 
+        "body": "* Commemoratio S. Francisc\u00e6 Vidu\u00e6 Roman\u00e6 *\nSati\u00e1sti, D\u00f3mine, fam\u00edliam tuam mun\u00e9ribus sacris: ejus, qu\u01fdsumus, semper interventi\u00f3ne nos r\u00e9fove, cujus soll\u00e9mnia celebr\u00e1mus.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }, 
       {
-        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nAd\u00e9sto supplicati\u00f3nibus nostris, omn\u00edpotens Deus: et, quibus fid\u00faciam sper\u00e1nd\u00e6 piet\u00e1tis ind\u00falges; consu\u00e9t\u00e6 miseric\u00f3rdi\u00e6 tr\u00edbue ben\u00edgnus eff\u00e9ctum.\nPer Dominum.", 
+        "body": "*Oratio super populum*\nOr\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\nAd\u00e9sto supplicati\u00f3nibus nostris, omn\u00edpotens Deus: et, quibus fid\u00faciam sper\u00e1nd\u00e6 piet\u00e1tis ind\u00falges; consu\u00e9t\u00e6 miseric\u00f3rdi\u00e6 tr\u00edbue ben\u00edgnus eff\u00e9ctum.\nPer Dominum...", 
         "id": "Super populum", 
         "label": "Super populum"
       }
@@ -89,12 +89,12 @@
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Grant, we beseech You, almighty God, that Your servants who discipline the body by fasting from food, may strive after righteousness by abstaining from sin.\nPor nosso Senhor", 
+        "body": "Grant, we beseech You, almighty God, that Your servants who discipline the body by fasting from food, may strive after righteousness by abstaining from sin.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Francisca Romana, Vi\u00fava *\nBo\u017ce, Ty mi\u0119dzy innymi darami Swej \u0142aski zaszczyci\u0142e\u015b s\u0142u\u017cebnic\u0119 Twoj\u0105 \u015bwi\u0119t\u0105 Franciszk\u0119 za\u017cy\u0142\u0105 blisko\u015bci\u0105 Anio\u0142a Str\u00f3\u017ca; daj nam, prosimy Ci\u0119, za jej wstawiennictwem osi\u0105gn\u0105\u0107 obcowanie z Anio\u0142ami.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S. Francisca Romana, Vi\u00fava *\n\u00d3 Deus, que concedestes \u00e0 B. Francisca, vossa serva, entre outros dons, a gra\u00e7a da presen\u00e7a familiar de um Anjo, permiti-nos, Vos rogamos, que com o aux\u00edlio da sua intercess\u00e3o mere\u00e7amos alcan\u00e7ar a companhia dos Anjos.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
@@ -119,12 +119,12 @@
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "May this sacrificial gift offered in appeasement and praise, O Lord, make us worthy of Your protection.\nPor nosso Senhor", 
+        "body": "May this sacrificial gift offered in appeasement and praise, O Lord, make us worthy of Your protection.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Francisca Romana, Vi\u00fava *\nAceitai, Senhor, esta oferta que Vos consagra o vosso povo fiel, em honra dos vossos Santos, pelos m\u00e9ritos dos quais reconhece que tem alcan\u00e7ado a vossa assist\u00eancia nas tribula\u00e7\u00f5es.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S. Francisca Romana, Vi\u00fava *\nAceitai, Senhor, esta oferta que Vos consagra o vosso povo fiel, em honra dos vossos Santos, pelos m\u00e9ritos dos quais reconhece que tem alcan\u00e7ado a vossa assist\u00eancia nas tribula\u00e7\u00f5es.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -139,17 +139,17 @@
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May this Communion, O Lord, cleanse us of sin, and make us partakers of heavenly healing.\nPor nosso Senhor", 
+        "body": "May this Communion, O Lord, cleanse us of sin, and make us partakers of heavenly healing.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Francisca Romana, Vi\u00fava *\nHavendo saciado, Senhor, a vossa fam\u00edlia com os dons sagrados, dignai-Vos favorecer-nos sempre pela intercess\u00e3o daquela cuja Solenidade celebr\u00e1mos.\nPor nosso Senhor", 
+        "body": "* Comemora\u00e7\u00e3o S. Francisca Romana, Vi\u00fava *\nHavendo saciado, Senhor, a vossa fam\u00edlia com os dons sagrados, dignai-Vos favorecer-nos sempre pela intercess\u00e3o daquela cuja Solenidade celebr\u00e1mos.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGive heed to our humble prayers, almighty God, and kindly grant Your oft-given mercy to those upon whom You bestow great hope in Your goodness.\nPor nosso Senhor", 
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nGive heed to our humble prayers, almighty God, and kindly grant Your oft-given mercy to those upon whom You bestow great hope in Your goodness.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }
