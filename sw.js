@@ -8,7 +8,7 @@ workbox.googleAnalytics.initialize();
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
-const updateChannel = new BroadcastChannel("precache");
+const updateChannel = new BroadcastChannel("precache-v0.0.6");
 updateChannel.addEventListener("message", event => {
   if (confirm(`New content is available!. Click OK to refresh`)) {
     window.location.reload();
@@ -117,7 +117,9 @@ workbox.precaching.precacheAndRoute([
   "./assets/common.js",
   "./assets/readings.js",
   "./assets/ordoReadings.js",
-  "./assets/conf-static.js"
+  "./assets/conf-static.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.js",
+  "https://api.iconify.design/fa.js?icons=calendar-o,print"
 ]
 );
 
