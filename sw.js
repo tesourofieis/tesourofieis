@@ -8,7 +8,7 @@ workbox.googleAnalytics.initialize();
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
-const updateChannel = new BroadcastChannel("precache-v0.0.6");
+const updateChannel = new BroadcastChannel("precache-v0.0.7");
 updateChannel.addEventListener("message", event => {
   if (confirm(`New content is available!. Click OK to refresh`)) {
     window.location.reload();
