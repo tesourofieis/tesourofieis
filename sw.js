@@ -6,7 +6,7 @@ importScripts(
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
-const updateChannel = new BroadcastChannel("precache-v0.0.8");
+const updateChannel = new BroadcastChannel("precache-v0.0.9");
 console.log("Version: ", updateChannel.name);
 updateChannel.addEventListener("message", event => {
   if (confirm(`Novo conteúdo disponível!. Clique OK para actualizar`)) {
@@ -15,7 +15,7 @@ updateChannel.addEventListener("message", event => {
 });
 
 workbox.precaching.addPlugins([
-  new workbox.broadcastUpdate.Plugin('precache-updates')
+  new workbox.broadcastUpdate.Plugin("precache-updates")
 ]);
 
 let today = moment(new Date()).format("YYYY-MM-DD");
@@ -64,6 +64,13 @@ let tp14 = moment(new Date())
 let tp15 = moment(new Date())
   .add(15, "days")
   .format("YYYY-MM-DD");
+
+workbox.routing.registerRoute(
+  /.*\.json/,
+  new workbox.strategies.NetworkFirst({
+    cacheName: "json"
+  })
+);
 
 workbox.precaching.precacheAndRoute([
   "./",
@@ -123,21 +130,13 @@ workbox.precaching.precacheAndRoute([
   "./assets/conf-static.js",
   "https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.js",
   "https://api.iconify.design/fa.js?icons=calendar-o,print"
-]
-);
+]);
 
 workbox.routing.registerRoute(
-  /\.(?:png|gif|jpg|jpeg|svg)$/,
+  /\.(?:png|gif|jpg|jpeg|svg|ico)$/,
   // /\/date\/.(?:json)$/,
   new workbox.strategies.CacheFirst({
-    cacheName: 'images'
-  })
-);
-
-workbox.routing.registerRoute(
-  /.*\.json/,
-  new workbox.strategies.NetworkFirst({
-    cacheName: 'json'
+    cacheName: "images"
   })
 );
 
