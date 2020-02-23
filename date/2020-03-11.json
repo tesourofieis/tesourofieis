@@ -1,7 +1,10 @@
 [
   {
     "info": {
-      "additional_info": [], 
+      "additional_info": [
+        "Esta\u00e7\u00e3o em Santa Cec\u00edlia", 
+        "Paramentos roxos"
+      ], 
       "date": "2020-03-11", 
       "description": "", 
       "id": "tempora:Quad2-3:3", 
@@ -69,37 +72,37 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sl 37:22-23*\nForsake me not, O Lord; my God, be not far from me! Hasten to help me, O Lord, my salvation!\n*Sl 37:2*\nO Lord, in Your anger punish me not, in Your wrath chastise me not.\nGl\u00f3ria ao Pai.\nForsake me not, O Lord; my God, be not far from me! Hasten to help me, O Lord, my salvation!", 
+        "body": "*Sl 37:22-23*\nN\u00e3o me abandoneis, Senhor, meu Deus; n\u00e3o Vos afasteis de mim. Apressai-Vos em socorrer-me, \u00f3 Senhor, que sois a minha for\u00e7a e salva\u00e7\u00e3o.\n*Sl 37:2*\nSenhor, n\u00e3o me repreendais com furor, nem me castigueis com ira.\nGl\u00f3ria ao Pai.\nN\u00e3o me abandoneis, Senhor, meu Deus; n\u00e3o Vos afasteis de mim. Apressai-Vos em socorrer-me, \u00f3 Senhor, que sois a minha for\u00e7a e salva\u00e7\u00e3o.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Look mercifully upon Your people, we beseech You, O Lord, and grant that they whom You command to abstain from food, may also refrain from harmful vices.\nPor nosso Senhor...", 
+        "body": "Olhai prop\u00edcio para o vosso povo, Senhor, Vos suplicamos, e permiti que aqueles a quem ordenais a abstin\u00eancia das carnes se abstenham tamb\u00e9m dos v\u00edcios, que prejudicam as suas almas.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Lesson from the book of Esther\n*Esther 13:8-11; 15-17.*\nIn those days, Mardochai prayed to the Lord, saying, O Lord, Lord, almighty King, for all things are in Your power, and there is none that can resist Your will, if You determine to save Israel. You have made heaven and earth, and all things that are under the cope of heaven. You are Lord of all, and there is none that can resist Your Majesty. And now, O Lord, O King, O God of Abraham, have mercy on Your people, because our enemies resolve to destroy us, and extinguish Your inheritance. Despise not Your portion, which You have redeemed for Yourself out of Egypt. Hear my supplication, and be merciful to Your lot and inheritance, and turn our mourning into joy, that we may live and praise Your Name, O Lord, and shut not the mouths of those who sing to You, O Lord our God.", 
+        "body": "Li\u00e7\u00e3o do Livro de Ester.\n*Est 13:8-11; 15-17.*\nNaqueles dias, orava Mardoqueu ao Senhor, dizendo: \u00abSenhor, Senhor, Rei omnipotente, todas as coisas est\u00e3o submetidas ao vosso poder. Nada, pois, poder\u00e1 resistir \u00e0 vossa vontade, se determinardes salvar o povo de Israel. Criastes o c\u00e9u, a terra e tudo o que encerra o \u00e2mbito do c\u00e9u; sois o Senhor de todas as coisas; ningu\u00e9m pode resistir \u00e0 vossa majestade. Ent\u00e3o, agora, Senhor e Rei, Deus de Abra\u00e3o, tende piedade do vosso povo; pois os nossos inimigos querem perder-nos e destruir a vossa heran\u00e7a. N\u00e3o desprezeis o vosso povo, que livrastes do Egipto para ser vosso. Ouvi a minha ora\u00e7\u00e3o; sede prop\u00edcio \u00e0 na\u00e7\u00e3o que se tornou a vossa heran\u00e7a; convertei o nosso luto em alegria, a fim de que, conservando a vida, louvemos o vosso nome, Senhor\u00bb N\u00e3o fecheis a boca \u00e0queles que Vos louvam, \u00f3 Senhor, nosso Deus!\u00bb.", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
       {
-        "body": "*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\nV. Ps 78:8-9 O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
-        "id": "Tractus", 
-        "label": "Tracto"
+        "body": "*Sl 27:9, 1.*\nSalvai o vosso povo, Senhor, e aben\u00e7oai a vossa heran\u00e7a.\nV. A V\u00f3s, Senhor, clamei. Meu Deus, n\u00e3o fecheis os ouvidos \u00e0 minha voz. Se me n\u00e3o escutais, serei semelhante \u00e0queles que desceram ao t\u00famulo.\n\n*Tractus*\n*Tractus*\n*Sl 102:10*\nSenhor, nos n\u00e3o castigueis, consoante merecemos, pelos pecados que pratic\u00e1mos: nem nos julgueis, segundo as nossas iniquidades.\nV. Ps 78:8-9 Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas miseric\u00f3rdias, pois grande \u00e9 a nossa mis\u00e9ria. (genuflectir)\nV. Auxiliai-nos, \u00f3 Deus, nosso Salvador, e, pela gl\u00f3ria do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome.", 
+        "id": "Graduale", 
+        "label": "Gradual"
       }, 
       {
-        "body": "Continuation of the Holy Gospel according to Matthew\n*Mt. 20:17-28*\nAt that time, as Jesus was going up to Jerusalem, He took the twelve disciples aside by themselves, and said to them, Behold, we are going up to Jerusalem, and the Son of Man will be betrayed to the chief priests and the Scribes; and they will condemn Him to death, and will deliver Him to the Gentiles to be mocked and scourged and crucified; and on the third day He will rise again. Then the mother of the sons of Zebedee came to Him with her sons; and worshipping, she made a request of Him. He said to her, What do you want? She said to Him, Command that these my two sons may sit, one at Your right hand and one at Your left hand, in Your kingdom. But Jesus answered and said, You do not know what you are asking for. Can you drink of the cup of which I am about to drink? They said to Him, We can. He said to them, Of My cup you shall indeed drink; but as for sitting at My right hand and at My left, that is not Mine to give you, but it belongs to those for whom it has been prepared by My Father. And when the ten heard this, they were indignant at the two brothers. But Jesus called them to Him, and said, You know that the rulers of the Gentiles lord it over them, and their great men exercise authority over them. Not so is it among you. On the contrary, whoever wishes to become great among you shall be your servant; and whoever wishes to be first among you shall be your slave; even as the Son the Man has not come to be served but to serve, and to give His life as a ransom for many.", 
+        "body": "Continua\u00e7\u00e3o do santo Evangelho segundo S. Mateus.\n*Mt. 20:17-28*\nNaquele tempo, subindo Jesus para Jerusal\u00e9m, chamou de parte os doze disc\u00edpulos e disse-lhes: \u00abVamos subindo para Jerusal\u00e9m, onde o Filho do homem ser\u00e1 entregue aos pr\u00edncipes dos sacerdotes e aos escribas. E conden\u00e1-lo-\u00e3o \u00e0 morte e entreg\u00e1-lo-\u00e3o aos gentios, para ser escarnecido, flagelado e crucificado; mas ao terceiro dia ressuscitar\u00e1\u00bb. Ent\u00e3o a m\u00e3e dos filhos de Zebedeu aproximou-se d\u2019Ele com seus filhos, adorando-O e pretendendo pedir-Lhe alguma coisa. Ele disse-lhe: \u00abQue queres?\u00bb. Respondeu ela: \u00abOrdenai que estes meus dois filhos se sentem no vosso reino, um \u00e0 direita e o outro \u00e0 esquerda\u00bb. E Jesus disse-lhe: \u00abN\u00e3o sabeis o que pedis. Podeis beber o c\u00e1lice que eu hei-de beber\u00bb. Disseram-lhe: \u00abPodemos!\u00bb. Jesus disse-lhes: \u00abV\u00f3s bebereis, certamente, o meu c\u00e1lice; por\u00e9m, sentar-vos \u00e0 minha direita ou esquerda, n\u00e3o pertence a mim conceder-vo-lo, pois esse lugar ser\u00e1 para quem meu Pai o tiver preparado\u00bb. Ouvindo isto, os outros dez indignaram-se contra os dois irm\u00e3os. Jesus, por\u00e9m, chamando-os para junto de si, disse-lhes: \u00abSabeis que os soberanos dominam os seus povos e que os mais importantes exercem a sua for\u00e7a contra estes, oprimindo-os. N\u00e3o ser\u00e1 assim entre v\u00f3s; aquele, pois, que quiser ser superior aos outros ser\u00e1 seu inferior; e o que quiser ser o primeiro ser\u00e1 o seu escravo. Assim como o Filho do homem, que n\u00e3o veio para ser servido, mas para servir e dar a vida em reden\u00e7\u00e3o de muitos\u00bb.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Sl 24:1-3*\nTo You I lift up my soul, O Lord. In You, O my God, I trust; let me not be put to shame, let not my enemies exult over me. No one who waits for You shall be put to shame.", 
+        "body": "*Sl 24:1-3*\nA V\u00f3s, Senhor, elevei a minha alma. \u00d3 meu Deus, confio em V\u00f3s; n\u00e3o serei confundido, nem vencido pelos meus inimigos., porquanto todos aqueles que em V\u00f3s confiam n\u00e3o ser\u00e3o confundidos.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Look with favor upon the sacrificial gifts we offer You, O Lord, and through this holy exchange loosen the bonds of our sins.\nPor nosso Senhor...", 
+        "body": "Olhai prop\u00edcio, Senhor, para as h\u00f3stias que Vos oferecemos, e, por este sagrado Corn\u00e9rcio, desligai-nos das cadeias dos nossos pecados.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -109,17 +112,17 @@
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Sl 10:8*\nThe Lord is just, He loves just deeds; the upright shall see His face.", 
+        "body": "*Sl 10:8*\nO Senhor \u00e9 justo e amou a justi\u00e7a; seu rosto volta-se ben\u00e9volo para os justos.", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Having received Your sacrament, O Lord, may we make progress, we beseech You, toward our everlasting salvation.\nPor nosso Senhor...", 
+        "body": "Havendo n\u00f3s recebido estes sacramentos, Senhor, concedei-nos, Vos suplicamos, que nos sirvam de aumento dos frutos da reden\u00e7\u00e3o eterna.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nO God, restorer and lover of innocence, direct the hearts of Your servants towards You, so that, filled with the fervor of Your spirit, they may be found steadfast in faith and rich in good works.\nPor nosso Senhor...", 
+        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\n\u00d3 Deus, reparador e amigo da inoc\u00eancia, encaminhai para V\u00f3s os cora\u00e7\u00f5es dos vossos servos, a fim de que, afervorados com vosso Esp\u00edrito, sejam firmes na f\u00e9 e activos nas obras.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

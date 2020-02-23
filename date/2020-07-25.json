@@ -30,12 +30,12 @@
         "label": "Commemoratio Oratio"
       }, 
       {
-        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Corinthios.\n*1 Cor 4:9-15*\nFratres: Puto, quod Deus nos Ap\u00f3stolos nov\u00edssimos ost\u00e9ndit, tamquam morti destin\u00e1tos: quia spect\u00e1culum facti sumus mundo et Angelis et hom\u00ednibus. Nos stulti propter Christum, vos autem prud\u00e9ntes in Christo: nos inf\u00edrmi, vos autem fortes: vos n\u00f3biles, nos autem ign\u00f3biles. Usque in hanc horam et esur\u00edmus, et sit\u00edmus, et nudi sumus, et c\u00f3laphis c\u00e6dimur, et inst\u00e1biles sumus, et labor\u00e1mus oper\u00e1ntes m\u00e1nibus nostris: maled\u00edcimur, et bened\u00edcimus: persecuti\u00f3nem p\u00e1timur, et sustin\u00e9mus: blasphem\u00e1mur, et obsecr\u00e1mus: tamquam purgam\u00e9nta hujus mundi facti sumus, \u00f3mnium perips\u00e9ma usque adhuc. Non ut conf\u00fandam vos, h\u00e6c scribo, sed ut f\u00edlios meos car\u00edssimos m\u00f3neo. Nam si decem m\u00edlia p\u00e6dagog\u00f3rum habe\u00e1tis in Christo: sed non multos patres. Nam in Christo Jesu per Evang\u00e9lium ego vos g\u00e9nui.", 
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios.\n*1 Cor 4:9-15*\nFratres: Puto, quod Deus nos Ap\u00f3stolos nov\u00edssimos ost\u00e9ndit, tamquam morti destin\u00e1tos: quia spect\u00e1culum facti sumus mundo et Angelis et hom\u00ednibus. Nos stulti propter Christum, vos autem prud\u00e9ntes in Christo: nos inf\u00edrmi, vos autem fortes: vos n\u00f3biles, nos autem ign\u00f3biles. Usque in hanc horam et esur\u00edmus, et sit\u00edmus, et nudi sumus, et c\u00f3laphis c\u00e6dimur, et inst\u00e1biles sumus, et labor\u00e1mus oper\u00e1ntes m\u00e1nibus nostris: maled\u00edcimur, et bened\u00edcimus: persecuti\u00f3nem p\u00e1timur, et sustin\u00e9mus: blasphem\u00e1mur, et obsecr\u00e1mus: tamquam purgam\u00e9nta hujus mundi facti sumus, \u00f3mnium perips\u00e9ma usque adhuc. Non ut conf\u00fandam vos, h\u00e6c scribo, sed ut f\u00edlios meos car\u00edssimos m\u00f3neo. Nam si decem m\u00edlia p\u00e6dagog\u00f3rum habe\u00e1tis in Christo: sed non multos patres. Nam in Christo Jesu per Evang\u00e9lium ego vos g\u00e9nui.", 
         "id": "Lectio", 
         "label": "Lectio"
       }, 
       {
-        "body": "*Ps 44:17; 44:18*\nConst\u00edtues eos pr\u00edncipes super omnem terram: m\u00e9mores erunt n\u00f3minis tui, D\u00f3mine.\nV. Pro p\u00e1tribus tuis nati sunt tibi f\u00edlii: propt\u00e9rea p\u00f3puli confiteb\u00fantur tibi. Allel\u00faja, allel\u00faja\n*Joannes 15:16*\nEgo vos elegi de mundo, ut e\u00e1tis, et fructum affer\u00e1tis, et fructus vester m\u00e1neat. Allel\u00faja.", 
+        "body": "*Ps 44:17; 44:18*\nConst\u00edtues eos pr\u00edncipes super omnem terram: m\u00e9mores erunt n\u00f3minis tui, D\u00f3mine.\nV. Pro p\u00e1tribus tuis nati sunt tibi f\u00edlii: propt\u00e9rea p\u00f3puli confiteb\u00fantur tibi. Allel\u00faja, allel\u00faja.\n*Joannes 15:16*\nEgo vos elegi de mundo, ut e\u00e1tis, et fructum affer\u00e1tis, et fructus vester m\u00e1neat. Allel\u00faja.", 
         "id": "Graduale", 
         "label": "Graduale"
       }, 
@@ -55,7 +55,7 @@
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro S. Christophoro*\nMun\u00e9ribus nostris, qu\u01fdsumus, D\u00f3mine, precib\u00fasque susc\u00e9ptis: et coel\u00e9stibus nos munda myst\u00e9riis, et clem\u00e9nter ex\u00e1udi.\nPer Dominum...", 
+        "body": "*Pro S. Christophoro*\nMun\u00e9ribus nostris, qu\u01fdsumus, D\u00f3mine, precib\u00fasque susc\u00e9ptis: et c\u0153l\u00e9stibus nos munda myst\u00e9riis, et clem\u00e9nter ex\u00e1udi.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 

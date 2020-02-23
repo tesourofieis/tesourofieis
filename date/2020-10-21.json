@@ -1,148 +1,145 @@
 [
   {
     "info": {
-      "additional_info": [
-        "Comemora\u00e7\u00e3o", 
-        "Paramentos brancos"
-      ], 
+      "additional_info": [], 
       "date": "2020-10-21", 
-      "description": "", 
-      "id": "sancti:10-21:3", 
-      "rank": 3, 
+      "description": "\nComemora\u00e7\u00e3o S. Hilari\u00e3o, Abade.", 
+      "id": null, 
+      "rank": 4, 
       "supplements": [], 
       "tempora": "Quarta-feira da 20\u00aa semana depois de Pentecostes", 
-      "title": "S. Hilari\u00e3o, Abade"
+      "title": null
     }, 
     "proper_latin": [
       {
-        "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
+        "body": "*Dan 3:31; 31:29; 31:35*\nOmnia, qu\u00e6 fec\u00edsti nobis, D\u00f3mine, in vero jud\u00edcio fec\u00edsti, quia pecc\u00e1vimus tibi et mand\u00e1tis tuis non ob\u0153d\u00edvimus: sed da gl\u00f3riam n\u00f3mini tuo, et fac nob\u00edscum sec\u00fandum multit\u00fadinem miseric\u00f3rdi\u00e6 tu\u00e6.\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nOmnia, qu\u00e6 fec\u00edsti nobis, D\u00f3mine, in vero jud\u00edcio fec\u00edsti, quia pecc\u00e1vimus tibi et mand\u00e1tis tuis non ob\u0153d\u00edvimus: sed da gl\u00f3riam n\u00f3mini tuo, et fac nob\u00edscum sec\u00fandum multit\u00fadinem miseric\u00f3rdi\u00e6 tu\u00e6.", 
         "id": "Introitus", 
         "label": "Introitus"
       }, 
       {
-        "body": "Interc\u00e9ssio nos, qu\u01fdsumus, D\u00f3mine, be\u00e1ti N. Abb\u00e1tis comm\u00e9ndet: ut, quod nostris m\u00e9ritis non val\u00e9mus, ejus patroc\u00ednio assequ\u00e1mur.\nPer Dominum...", 
+        "body": "Larg\u00edre, qu\u01fdsumus, D\u00f3mine, fid\u00e9libus tuis indulg\u00e9ntiam plac\u00e1tus et pacem: ut p\u00e1riter ab \u00f3mnibus mund\u00e9ntur off\u00e9nsis, et sec\u00fara tibi mente des\u00e9rviant.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Pro Ss. Ursula et Sociabus mm*\nDa nobis, qu\u01fdsumus, D\u00f3mine, Deus noster, sanct\u00e1rum V\u00edrginum et M\u00e1rtyrum tu\u00e1rum Ursul\u00e6 et Soci\u00e1rum ejus palmas incess\u00e1bili devoti\u00f3ne vener\u00e1ri: ut, quas digna mente non p\u00f3ssumus celebr\u00e1re, hum\u00edlibus saltem frequent\u00e9mus obs\u00e9quiis.\nPer Dominum...", 
+        "body": "* Commemoratio S. Hilarionis Abbatis *\nInterc\u00e9ssio nos, qu\u01fdsumus, D\u00f3mine, be\u00e1ti N. Abb\u00e1tis comm\u00e9ndet: ut, quod nostris m\u00e9ritis non val\u00e9mus, ejus patroc\u00ednio assequ\u00e1mur.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
       {
-        "body": "Lectio libri Sapienti\u00e6\n*Eccli 45:1-6*\nDil\u00e9ctus Deo et hom\u00ednibus, cujus mem\u00f3ria in benedicti\u00f3ne est. S\u00edmilem illum fecit in gl\u00f3ria sanct\u00f3rum, et magnific\u00e1vit eum in tim\u00f3re inimic\u00f3rum, et in verbis suis monstra plac\u00e1vit. Glorific\u00e1vit illum in consp\u00e9ctu regum, et jussit illi coram p\u00f3pulo suo, et ost\u00e9ndit illi gl\u00f3riam suam. In fide et lenit\u00e1te ips\u00edus sanctum fecit illum, et el\u00e9git eum; ex omni carne. Aud\u00edvit enim eum et vocem ips\u00edus, et ind\u00faxit illum in nubem. Et dedit illi coram pr\u00e6c\u00e9pta, et legem vit\u00e6 et discipl\u00edn\u00e6.", 
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios\n*Ephes 5:15-21*\nFratres: Vid\u00e9te, qu\u00f3modo caute ambul\u00e9tis: non quasi insipi\u00e9ntes, sed ut sapi\u00e9ntes, redim\u00e9ntes tempus, qu\u00f3niam dies mali sunt. Propt\u00e9rea nol\u00edte f\u00ederi imprud\u00e9ntes, sed intelleg\u00e9ntes, qu\u00e6 sit vol\u00fantas Dei. Et nol\u00edte inebri\u00e1ri vino, in quo est lux\u00faria: sed impl\u00e9mini Sp\u00edritu Sancto, loqu\u00e9ntes vobismet\u00edpsis in psalmis et hymnis et c\u00e1nticis spiritu\u00e1libus, cant\u00e1ntes et psall\u00e9ntes in c\u00f3rdibus vestris D\u00f3mino: gr\u00e1tias ag\u00e9ntes semper pro \u00f3mnibus, in n\u00f3mine D\u00f3mini nostri Jesu Christi, Deo et Patri. Subjecti \u00ednvicem in tim\u00f3re Christi.", 
         "id": "Lectio", 
         "label": "Lectio"
       }, 
       {
-        "body": "*Ps 20:4-5*\nD\u00f3mine, pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis: posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.\nV. Vitam p\u00e9tiit a te, et tribu\u00edsti ei longit\u00fadinem di\u00e9rum in s\u01fdculum s\u01fdculi. Allel\u00faja, allel\u00faja.\n*Ps 91:13*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur. Allel\u00faja.", 
+        "body": "*Ps 144:15-16*\nOculi \u00f3mnium in te sperant, D\u00f3mine: et tu das illis escam in t\u00e9mpore opport\u00fano. V. Aperis tu manum tuam: et imples omne \u00e1nimal benedicti\u00f3ne. \n*Ps 107:2*\nPar\u00e1tum cor meum, Deus, par\u00e1tum cor meum: cant\u00e1bo, et psallam tibi, gl\u00f3ria mea. ", 
         "id": "Graduale", 
         "label": "Graduale"
       }, 
       {
-        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum\n*Matt 19:27-29*\nIn illo t\u00e9mpore: Dixit Petrus ad Jesum: Ecce, nos rel\u00edquimus \u00f3mnia, et sec\u00fati sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui secuti estis me, in regenerati\u00f3ne, cum s\u00e9derit F\u00edlius h\u00f3minis in sede majest\u00e1tis su\u00e6, sed\u00e9bitis et vos super sedes du\u00f3decim, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl. Et omnis, qui rel\u00edquerit domum, vel fratres, aut sor\u00f3res, aut patrem, aut matrem, aut ux\u00f3rem, aut f\u00edlios, aut agros, propter nomen meum, c\u00e9ntuplum acc\u00edpiet, et vitam \u00e6t\u00e9rnam possid\u00e9bit.", 
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem\n*Joannes 4:46-53*\nIn illo t\u00e9mpore: Erat quidam r\u00e9gulus, cujus f\u00edlius infirmab\u00e1tur Caph\u00e1rnaum. Hic cum aud\u00edsset, quia Jesus adven\u00edret a Jud\u01fda in Galil\u01fdam, \u00e1biit ad eum, et rog\u00e1bat eum, ut desc\u00e9nderet et san\u00e1ret f\u00edlium ejus: incipi\u00e9bat enim mori. Dixit ergo Jesus ad eum: Nisi signa et prod\u00edgia vid\u00e9ritis, non cr\u00e9ditis. Dicit ad eum r\u00e9gulus: D\u00f3mine, desc\u00e9nde, pri\u00fasquam mori\u00e1tur f\u00edlius meus. Dicit ei Jesus: Vade, f\u00edlius tuus vivit. Cr\u00e9didit homo serm\u00f3ni, quem dixit ei Jesus, et ibat. Jam autem eo descend\u00e9nte, servi occurr\u00e9runt ei et nuntiav\u00e9runt, dic\u00e9ntes, quia f\u00edlius ejus v\u00edveret. Interrog\u00e1bat ergo horam ab eis, in qua m\u00e9lius hab\u00faerit. Et dix\u00e9runt ei: Quia heri hora s\u00e9ptima rel\u00edquit eum febris. Cogn\u00f3vit ergo pater, quia illa hora erat, in qua dixit ei Jesus: F\u00edlius tuus vivit: et cr\u00e9didit ipse et domus ejus tota.", 
         "id": "Evangelium", 
         "label": "Evangelium"
       }, 
       {
-        "body": "*Ps 20:3; 20:4*\nDesid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei, D\u00f3mine, et volunt\u00e1te labi\u00f3rum ejus non fraud\u00e1sti eum: posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.", 
+        "body": "*Ps 136:1*\nSuper fl\u00famina Babyl\u00f3nis illic s\u00e9dimus et fl\u00e9vimus: dum recordar\u00e9mur tui, Sion.", 
         "id": "Offertorium", 
         "label": "Offertorium"
       }, 
       {
-        "body": "Sacris alt\u00e1ribus, D\u00f3mine, h\u00f3stias superp\u00f3sitas sanctus N. Abbas, qu\u01fdsumus, in sal\u00fatem nobis proven\u00edre dep\u00f3scat.\nPer Dominum...", 
+        "body": "C\u0153l\u00e9stem nobis pr\u01fdbeant h\u00e6c myst\u00e9ria, qu\u01fdsumus, D\u00f3mine, medic\u00ednam: et v\u00edtia nostri cordis exp\u00fargent.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro Ss. Ursula et Sociabus mm*\nInt\u00e9nde, qu\u01fdsumus, D\u00f3mine, m\u00fanera alt\u00e1ribus tuis pro sanct\u00e1rum Virginum et M\u00e1rtyrum tu\u00e1rum Ursul\u00e6 et Soci\u00e1rum ejus festivit\u00e1te prop\u00f3sita: ut, sicut per h\u00e6c be\u00e1ta myst\u00e9ria illis gl\u00f3riam contul\u00edsti; ita nobis indulg\u00e9ntiam largi\u00e1ris.\nPer Dominum...", 
+        "body": "* Commemoratio S. Hilarionis Abbatis *\nSacris alt\u00e1ribus, D\u00f3mine, h\u00f3stias superp\u00f3sitas sanctus N. Abbas, qu\u01fdsumus, in sal\u00fatem nobis proven\u00edre dep\u00f3scat.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
       {
-        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
         "id": "Prefatio", 
         "label": "Prefatio"
       }, 
       {
-        "body": "*Luc 12:42*\nFid\u00e9lis servus et prudens, quem const\u00edtuit d\u00f3minus super fam\u00edliam suam: ut det illis in t\u00e9mpore tr\u00edtici mens\u00faram.", 
+        "body": "*Ps 118:49-50*\nMem\u00e9nto verbi tui servo tuo, D\u00f3mine, in quo mihi spem ded\u00edsti: h\u00e6c me consol\u00e1ta est in humilit\u00e1te mea.", 
         "id": "Communio", 
         "label": "Communio"
       }, 
       {
-        "body": "Pr\u00f3tegat nos, D\u00f3mine, cum tui percepti\u00f3ne sacram\u00e9nti be\u00e1tus N. Abbas, pro nobis interced\u00e9ndo: ut et conversati\u00f3nis ejus experi\u00e1mur ins\u00edgnia, et intercessi\u00f3nis percipi\u00e1mus suffr\u00e1gia.\nPer Dominum...", 
+        "body": "Ut sacris, D\u00f3mine, redd\u00e1mur digni mun\u00e9ribus: fac nos, qu&#509;sumus, tuis semper ob\u0153d\u00edre mand\u00e1tis.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Pro Ss. Ursula et Sociabus mm*\nPr\u00e6sta nobis, qu\u01fdsumus, D\u00f3mine: interced\u00e9ntibus sanctis Virg\u00ednibus et Mart\u00fdribus tuis Ursula et Soci\u00e1bus ejus: ut, quod ore cont\u00edngimus, pura mente capi\u00e1mus.\nPer Dominum...", 
+        "body": "* Commemoratio S. Hilarionis Abbatis *\nPr\u00f3tegat nos, D\u00f3mine, cum tui percepti\u00f3ne sacram\u00e9nti be\u00e1tus N. Abbas, pro nobis interced\u00e9ndo: ut et conversati\u00f3nis ejus experi\u00e1mur ins\u00edgnia, et intercessi\u00f3nis percipi\u00e1mus suffr\u00e1gia.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sl 36:30-31*\nA boca do justo fala com sabedoria: e a sua l\u00edngua proclama a justi\u00e7a. A lei do seu Deus estar\u00e1 no seu cora\u00e7\u00e3o.\n*Sl 36:1*\nN\u00e3o vos irriteis contra os maus, nem tenhais inveja daqueles que cometem iniquidades.\nGl\u00f3ria ao Pai.\nA boca do justo fala com sabedoria: e a sua l\u00edngua proclama a justi\u00e7a. A lei do seu Deus estar\u00e1 no seu cora\u00e7\u00e3o.", 
+        "body": "*Dan 3:31; 3:29; 3:35*\nTudo quanto fizestes contra n\u00f3s, Senhor, foi com justi\u00e7a, pois pec\u00e1mos e n\u00e3o Obedecemos aos vossos mandamentos; mas glorificai o vosso nome e tratai-nos segundo a grandeza da vossa miseric\u00f3rdia.\n*Sl 118:1*\nBem-aventurados aqueles cuja vida \u00e9 imaculada: aqueles que praticam a Lei do Senhor.\nGl\u00f3ria ao Pai.\nTudo quanto fizestes contra n\u00f3s, Senhor, foi com justi\u00e7a, pois pec\u00e1mos e n\u00e3o Obedecemos aos vossos mandamentos; mas glorificai o vosso nome e tratai-nos segundo a grandeza da vossa miseric\u00f3rdia.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Que a intercess\u00e3o do B. Abade N. nos favore\u00e7a junto de V\u00f3s, Senhor, Vos suplicamos, a fim de que aquilo que n\u00e3o podemos conseguir com os nossos m\u00e9ritos o alcancemos com seu patroc\u00ednio.\nPor nosso Senhor...", 
+        "body": "Compadecei-Vos dos vossos fi\u00e9is, Senhor, e dignai-Vos conceder-lhes o perd\u00e3o e a paz, a fim de que, havendo sido limpos de suas faltas, possam servir-Vos com toda a confian\u00e7a.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "*de S. \u00darsula e Outras, Virgens e M\u00e1rtires*\nSenhor, nosso Deus, dignai-Vos conceder-nos a gra\u00e7a de incessantemente venerarmos com devo\u00e7\u00e3o a vit\u00f3ria das vossas Santas Virgens e M\u00e1rtires \u00darsula e Companheiras, a fim de que, j\u00e1 que n\u00e3o podemos celebrar dignamente os seus m\u00e9ritos, ao menos possamos oferecer-lhes as nossas humildes homenagens.\nPor nosso Senhor...", 
+        "body": "* Comemora\u00e7\u00e3o S. Hilari\u00e3o, Abade *\nQue a intercess\u00e3o do B. Abade N. nos favore\u00e7a junto de V\u00f3s, Senhor, Vos suplicamos, a fim de que aquilo que n\u00e3o podemos conseguir com os nossos m\u00e9ritos o alcancemos com seu patroc\u00ednio.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 45:1-6*\nFoi amado de Deus e dos homens; a sua mem\u00f3ria \u00e9 uma b\u00ean\u00e7\u00e3o. O Senhor deu-lhe uma gl\u00f3ria, semelhante \u00e0 dos Santos; tornou-o temeroso e invenc\u00edvel perante seus inimigos; e com suas palavras aplacou os monstros. O Senhor honrou-o diante dos reis; deu-lhe as suas ordens diante do seu povo; e mostrou-lhe a sua gl\u00f3ria. O Senhor santificou-o pela sua f\u00e9 e mansid\u00e3o; e escolheu-o entre todos os homens. Deus escutou-o; ouviu a sua voz; e f\u00ea-lo entrar na nuvem. Ent\u00e3o, deu-lhe face a face os seus preceitos e a lei da vida e da doutrina.", 
+        "body": "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Ef\u00e9sios.\n*Eph 5:15-21*\nMeus irm\u00e3os: Tende cuidado de vos conduzirdes com prud\u00eancia, n\u00e3o como insensatos, mas como prudentes, aproveitando o tempo, pois os dias s\u00e3o maus. Assim, pois, n\u00e3o sejais imprudentes, mas procurai conhecer qual \u00e9 a vontade de Deus. N\u00e3o bebais vinho com excesso, o que \u00e9 lux\u00faria. Enchei-vos do Esp\u00edrito Santo, entretendo-vos uns aos outros com Salmos, Hinos, c\u00e2nticos espirituais e outros c\u00e2nticos e louvores, sa\u00eddos do \u00edntimo dos vossos cora\u00e7\u00f5es, para gl\u00f3ria do Senhor, dando gra\u00e7as sempre e em tudo a Deus Pai, em nome de nosso Senhor Jesus Cristo, e submetendo-vos uns aos outros no temor de Cristo.", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
       {
-        "body": "*Sl 20:4-5*\nSenhor, concedestes-lhe b\u00ean\u00e7\u00e3os escolhidas as mais suaves; e impusestes na sua cabe\u00e7a uma coroa de pedras preciosas.\nV. Concedestes-lhe a vida, que Vos suplicara, e prolongastes-lhe a dura\u00e7\u00e3o dos seus dias pelos s\u00e9culos dos s\u00e9culos. Aleluia, aleluia.\n*Sl 91:13*\nO justo florescer\u00e1, como a palmeira, e crescer\u00e1, como o cedro do L\u00edbano. Aleluia.", 
+        "body": "*Sl 144:15-16*\nTodos os olhares se volvem para V\u00f3s, Senhor; a todos os entes dais alimento em tempo conveniente.\nV. Abris as m\u00e3os e encheis de b\u00ean\u00e7\u00e3os tudo o que tem vida. Aleluia, aleluia.\n*Sl 107:2*\nV. Meu cora\u00e7\u00e3o est\u00e1 preparado, \u00f3 Deus; o meu cora\u00e7\u00e3o est\u00e1 preparado: cantarei vossos louvores, \u00f3 V\u00f3s, que sois a minha gl\u00f3ria. Aleluia.", 
         "id": "Graduale", 
         "label": "Gradual"
       }, 
       {
-        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 19:27-29*\nNaquele tempo, disse Pedro a Jesus: \u00abEis que deix\u00e1mos tudo e Vos seguimos. Que recompensa teremos por isso?\u00bb. Jesus disse-lhes: \u00abEm verdade vos digo: v\u00f3s, que me seguistes, quando, no tempo da regenera\u00e7\u00e3o, o Filho do homem se sentar no trono da sua gl\u00f3ria, tamb\u00e9m vos sentareis sobre doze tronos para julgar as doze tribos de Israel. Todo aquele que deixar a sua casa, ou os seus irm\u00e3os, ou os seus campos, ou o seu pai, ou a sua m\u00e3e, ou a sua mulher por causa do meu nome receber\u00e1 o c\u00eantuplo e possuir\u00e1 a vida eterna\u00bb.", 
+        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 4:46-53*\nNaquele tempo, havia um oficial em Cafarnaum, cujo filho estava enfermo. Tendo ele sabido que Jesus vinha da Judeia para a Galileia, foi ter com Ele, rogando-Lhe que fosse a sua casa curar seu filho, que principiava a agonizar. Disse-lhe Jesus: \u00abSe n\u00e3o vedes prod\u00edgios e milagres n\u00e3o acreditais!\u00bb. Respondeu-Lhe o oficial: \u00abSenhor, vinde, antes que meu filho morra\u00bb. Jesus disse-lhe: \u00abVai; o teu filho vive!\u00bb. Acreditou este homem na palavra de Jesus e partiu. Ia j\u00e1 no caminho, e eis que seus servos foram ao seu encontro, anunciando-lhe que o filho vivia! Ent\u00e3o perguntou-lhes qual a hora em que se achara melhor o filho. Os servos responderam: \u00abOntem, \u00e0 hora s\u00e9tima, deixou-o a febre\u00bb. E o pai reconheceu ter sido aquela a hora em que Jesus lhe dissera: \u00abO teu filho vive\u00bb. Ele, pois, assim como toda sua fam\u00edlia, acreditou.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Sl 20:3; 20:4*\nConcedestes-lhe o desejo da sua alma e n\u00e3o desprezastes a prece dos seus l\u00e1bios. Impusestes na sua cabe\u00e7a uma coroa de pedras preciosas.", 
+        "body": "*Sl 136:1*\nJunto das margens dos rios da Babil\u00f3nia nos assent\u00e1mos, chorando as recorda\u00e7\u00f5es do vosso passado, \u00f3 Si\u00e3o.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Vos imploramos, Senhor, que o vosso santo Abade N. nos alcance que a h\u00f3stia, oferecida no vosso altar, nos proporcione a salva\u00e7\u00e3o.\nPor nosso Senhor...", 
+        "body": "Que estes myst\u00e9rios, Senhor, nos sirvam de rem\u00e9dio celestial, Vos suplicamos, e purifiquem os nossos cora\u00e7\u00f5es de todas nossas iniquidades.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*de S. \u00darsula e Outras, Virgens e M\u00e1rtires*\nSenhor, dignai-Vos volver os vossos olhares para estas ofertas, que depositamos nos vossos altares para celebrar a festa das vossas Santas Virgens e M\u00e1rtires \u00darsula e Companheiras, a fim de que, assim como lhes concedestes a gl\u00f3ria, assim nos concedais o perd\u00e3o dos nossos pecados.\nPor nosso Senhor...", 
+        "body": "* Comemora\u00e7\u00e3o S. Hilari\u00e3o, Abade *\nVos imploramos, Senhor, que o vosso santo Abade N. nos alcance que a h\u00f3stia, oferecida no vosso altar, nos proporcione a salva\u00e7\u00e3o.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
       {
-        "body": "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:", 
+        "body": "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
         "id": "Prefatio", 
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Lc 12:42*\nO servo fiel e prudente \u00e9 destinado pelo Senhor para distribuir, oportunamente, na sua fam\u00edlia a sua medida de trigo.", 
+        "body": "*Sl 118:49-50*\nLembrai-Vos da vossa promessa ao vosso servo, Senhor, na qual tenho esperado com toda a confian\u00e7a: \u00e9 ela que me consola na minha humilha\u00e7\u00e3o.", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "Senhor, unida \u00e0s preces do B. N. Abade, nos sirva de protec\u00e7\u00e3o, a fim de que, imitando os insignes exemplos da sua vida, sintamos os efeitos da sua intercess\u00e3o.\nPor nosso Senhor...", 
+        "body": "Senhor, permiti que para sermos dignos dos vossos sacrat\u00edssimos myst\u00e9rios obede\u00e7amos sempre aos vossos mandamentos.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*de S. \u00darsula e Outras, Virgens e M\u00e1rtires*\nConcedei-nos, Senhor, Vos suplicamos, que por intercess\u00e3o das vossas Santas Virgens e M\u00e1rtires \u00darsula e Companheiras guardemos com o cora\u00e7\u00e3o puro o que a nossa boca acaba de receber.\nPor nosso Senhor...", 
+        "body": "* Comemora\u00e7\u00e3o S. Hilari\u00e3o, Abade *\nSenhor, unida \u00e0s preces do B. N. Abade, nos sirva de protec\u00e7\u00e3o, a fim de que, imitando os insignes exemplos da sua vida, sintamos os efeitos da sua intercess\u00e3o.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }

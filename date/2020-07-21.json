@@ -20,17 +20,17 @@
         "label": "Introitus"
       }, 
       {
-        "body": "Deus, qui ad ardua qu\u00e6que pro nominis tui gloria et animarum salute beato Laurentio, Confessori tuo atque Doctori, spiritum sapienti\u00e6 et fortitudinis contulisti: da nobis in eodem spiritu et agenda cognoscere; et cognita, ejus intercessione, perficere.\nPer Dominum...", 
+        "body": "Deus, qui ad \u00e1rdua qu\u00e6que pro n\u00f3minis tui gl\u00f3ria et anim\u00e1rum sal\u00fate be\u00e1to Laur\u00e9ntio, Confess\u00f3ri tuo atque Doct\u00f3ri, sp\u00edritum sapi\u00e9nti\u00e6 et fortit\u00fadinis contul\u00edsti: da nobis in e\u00f3dem sp\u00edritu et ag\u00e9nda cogn\u00f3scere; et c\u00f3gnita, ejus intercessi\u00f3ne, perf\u00edcere.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*S. Praxedis Virginis*\nEx\u00e1udi nos, Deus, salut\u00e1ris noster: ut, sicut de beat\u00e6 Prax\u00e9dis V\u00edrginis tu\u00e6 festivit\u00e1te gaud\u00e9mus; ita pi\u00e6 devoti\u00f3nis erudi\u00e1mur aff\u00e9ctu.\nPer Dominum...", 
+        "body": "*S. Praxedis Virginis*\nEx\u00e1udi nos, Deus, salut\u00e1ris noster: ut, sicut de be\u00e1t\u00e6 Prax\u00e9dis V\u00edrginis tu\u00e6 festivit\u00e1te gaud\u00e9mus; ita pi\u00e6 devoti\u00f3nis erudi\u00e1mur aff\u00e9ctu.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
       {
-        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timotheum\n*2 Tim 4:1-8*\nCar\u00edssime: Test\u00edficor coram Deo, et Jesu Christo, qui judicat\u00farus est vivos et m\u00f3rtuos, per adv\u00e9ntum ips\u00edus et regnum ejus: pr\u01fddica verbum, insta opport\u00fane, importune: \u00e1rgue, \u00f3bsecra, \u00edncrepa in omni pati\u00e9ntia, et doctr\u00edna. Erit enim tempus, cum sanam doctr\u00ednam non sustin\u00e9bunt, sed ad sua desid\u00e9ria, coacerv\u00e1bunt sibi magistros, pruri\u00e9ntes \u00e1uribus, et a verit\u00e1te quidem aud\u00edtum av\u00e9rtent, ad f\u00e1bulas autem convert\u00e9ntur. Tu vero v\u00edgila, in \u00f3mnibus lab\u00f3ra, opus fac Evangel\u00edst\u00e6, minist\u00e9rium tuum \u00edmpie. S\u00f3brius esto. Ego enim jam del\u00edbor, et tempus resoluti\u00f3nis me\u00e6 instat. Bonum cert\u00e1men cert\u00e1vi, cursum consumm\u00e1vi, fidem serv\u00e1vi. In r\u00e9liquo rep\u00f3sita est mihi cor\u00f3na just\u00edti\u00e6, quam reddet mihi D\u00f3minus in illa die, justus judex: non solum autem mihi, sed et iis, qui d\u00edligunt adv\u00e9ntum ejus.", 
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timoth\u00e9um\n*2 Tim 4:1-8*\nCar\u00edssime: Test\u00edficor coram Deo, et Jesu Christo, qui judicat\u00farus est vivos et m\u00f3rtuos, per adv\u00e9ntum ips\u00edus et regnum ejus: pr\u01fddica verbum, insta opport\u00fane, importune: \u00e1rgue, \u00f3bsecra, \u00edncrepa in omni pati\u00e9ntia, et doctr\u00edna. Erit enim tempus, cum sanam doctr\u00ednam non sustin\u00e9bunt, sed ad sua desid\u00e9ria, coacerv\u00e1bunt sibi magistros, pruri\u00e9ntes \u00e1uribus, et a verit\u00e1te quidem aud\u00edtum av\u00e9rtent, ad f\u00e1bulas autem convert\u00e9ntur. Tu vero v\u00edgila, in \u00f3mnibus lab\u00f3ra, opus fac Evangel\u00edst\u00e6, minist\u00e9rium tuum \u00edmpie. S\u00f3brius esto. Ego enim jam del\u00edbor, et tempus resoluti\u00f3nis me\u00e6 instat. Bonum cert\u00e1men cert\u00e1vi, cursum consumm\u00e1vi, fidem serv\u00e1vi. In r\u00e9liquo rep\u00f3sita est mihi cor\u00f3na just\u00edti\u00e6, quam reddet mihi D\u00f3minus in illa die, justus judex: non solum autem mihi, sed et iis, qui d\u00edligunt adv\u00e9ntum ejus.", 
         "id": "Lectio", 
         "label": "Lectio"
       }, 
@@ -40,7 +40,7 @@
         "label": "Graduale"
       }, 
       {
-        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 5:13-19*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Vos estis sal terr\u00e6. Quod si sal evan\u00faerit, in quo sali\u00e9tur? Ad n\u00edhilum valet ultra, nisi ut mitt\u00e1tur foras, et conculc\u00e9tur ab hom\u00ednibus. Vos estis lux mundi. Non potest c\u00edvitas absc\u00f3ndi supra montem p\u00f3sita. Neque acc\u00e9ndunt luc\u00e9rnam, et ponunt eam sub m\u00f3dio, sed super candel\u00e1brum, ut l\u00faceat \u00f3mnibus qui in domo sunt. Sic l\u00faceat lux vestra coram hom\u00ednibus, ut v\u00eddeant \u00f3pera vestra bona, et glor\u00edficent Patrem vestrum, qui in c\u0153lis est. Nol\u00edte put\u00e1re, qu\u00f3niam veni s\u00f3lvere legem aut proph\u00e9tas: non veni s\u00f3lvere, sed adimpl\u00e9re. Amen, quippe dico vobis, donec tr\u00e1nseat c\u0153lum et terra, jota unum aut unus apex non pr\u00e6ter\u00edbit a lege, donec \u00f3mnia fiant. Qui ergo solvent unum de mand\u00e1tis istis m\u00ednimis, et doc\u00faerit sic h\u00f3mines, m\u00ednimus voc\u00e1bitur in regno c\u0153l\u00f3rum: qui autem f\u00e9cerit et doc\u00faerit, hic magnus voc\u00e1bitur in regno c\u0153l\u00f3rum.", 
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum\n*Matt 5:13-19*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Vos estis sal terr\u00e6. Quod si sal evan\u00faerit, in quo sali\u00e9tur? Ad n\u00edhilum valet ultra, nisi ut mitt\u00e1tur foras, et conculc\u00e9tur ab hom\u00ednibus. Vos estis lux mundi. Non potest c\u00edvitas absc\u00f3ndi supra montem p\u00f3sita. Neque acc\u00e9ndunt luc\u00e9rnam, et ponunt eam sub m\u00f3dio, sed super candel\u00e1brum, ut l\u00faceat \u00f3mnibus qui in domo sunt. Sic l\u00faceat lux vestra coram hom\u00ednibus, ut v\u00eddeant \u00f3pera vestra bona, et glor\u00edficent Patrem vestrum, qui in c\u0153lis est. Nol\u00edte put\u00e1re, qu\u00f3niam veni s\u00f3lvere legem aut proph\u00e9tas: non veni s\u00f3lvere, sed adimpl\u00e9re. Amen, quippe dico vobis, donec tr\u00e1nseat c\u0153lum et terra, jota unum aut unus apex non pr\u00e6ter\u00edbit a lege, donec \u00f3mnia fiant. Qui ergo solvent unum de mand\u00e1tis istis m\u00ednimis, et doc\u00faerit sic h\u00f3mines, m\u00ednimus voc\u00e1bitur in regno c\u0153l\u00f3rum: qui autem f\u00e9cerit et doc\u00faerit, hic magnus voc\u00e1bitur in regno c\u0153l\u00f3rum.", 
         "id": "Evangelium", 
         "label": "Evangelium"
       }, 
@@ -50,7 +50,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "*Pro Doctore pontifice*\nSancti N. Pont\u00edficis tui at que Doct\u00f3ris nobis, D\u00f3mine, pia non desit or\u00e1tio: qu\u00e6 et m\u00fanera nostra conc\u00edliet; et tuam nobis indulg\u00e9ntiam semper obt\u00edneat.\nPer Dominum...", 
+        "body": "Sancti N. Pont\u00edficis tui at que Doct\u00f3ris nobis, D\u00f3mine, pia non desit or\u00e1tio: qu\u00e6 et m\u00fanera nostra conc\u00edliet; et tuam nobis indulg\u00e9ntiam semper obt\u00edneat.\nPer Dominum...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -70,7 +70,7 @@
         "label": "Communio"
       }, 
       {
-        "body": "*Pro Doctore Pontifice.*\nUt nobis, D\u00f3mine, tua sacrif\u00edcia dent sal\u00fatem: be\u00e1tus N. P\u00f3ntifex tuus et Doctor egr\u00e9gius, qu\u01fdsumus, prec\u00e1tor acc\u00e9dat.\nPer Dominum...", 
+        "body": "Ut nobis, D\u00f3mine, tua sacrif\u00edcia dent sal\u00fatem: be\u00e1tus N. P\u00f3ntifex tuus et Doctor egr\u00e9gius, qu\u01fdsumus, prec\u00e1tor acc\u00e9dat.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 

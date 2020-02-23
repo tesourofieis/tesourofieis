@@ -32,7 +32,7 @@
         "label": "Lectio"
       }, 
       {
-        "body": "*Ps 34:20, 22*\nPac\u00edfice loqueb\u00e1ntur mihi inim\u00edci mei: et in ira mol\u00e9sti erant mihi.\nV. Vid\u00edsti, D\u00f3mine, ne s\u00edleas: ne disc\u00e9das a me.\n\n*Tractus 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nV. D\u00f3mine, ne mem\u00edneris\niniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
+        "body": "*Ps 34:20, 22*\nPac\u00edfice loqueb\u00e1ntur mihi inim\u00edci mei: et in ira mol\u00e9sti erant mihi.\nV. Vid\u00edsti, D\u00f3mine, ne s\u00edleas: ne disc\u00e9das a me.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nV. D\u00f3mine, ne mem\u00edneris\niniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
         "id": "Graduale", 
         "label": "Graduale"
       }, 
@@ -84,47 +84,47 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sl 30:10, 16, 18.*\nHave pity on me, O Lord, for I am in distress; rescue me from the clutches of my enemies and my persecutors. O Lord, let me not be put to shame, for I call upon You.\n*Sl 30:2*\nIn You, O Lord, I take refuge; let me never be put to shame. In Your justice rescue me.\nHave pity on me, O Lord, for I am in distress; rescue me from the clutches of my enemies and my persecutors. O Lord, let me not be put to shame, for I call upon You.", 
+        "body": "*Sl 30:10, 16, 18.*\nTende miseric\u00f3rdia de mim, Senhor, pois estou aflito; salvai-me e livrai-me das m\u00e3os dos meus inimigos e perseguidores. Senhor, n\u00e3o serei confundido, porque Vos invoquei.\n*Sl 30:2*\nConfio em V\u00f3s, Senhor, n\u00e3o serei para sempre confundido; livrai-me segundo a vossa justi\u00e7a.\nTende miseric\u00f3rdia de mim, Senhor, pois estou aflito; salvai-me e livrai-me das m\u00e3os dos meus inimigos e perseguidores. Senhor, n\u00e3o serei confundido, porque Vos invoquei.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Graciously pour forth Your grace into our hearts, we beseech You, O Lord, that, keeping our sinful inclinations under control by self-denial, we may suffer for a brief while rather than be condemned to everlasting punishment.\nPor nosso Senhor...", 
+        "body": "Infundi benigno, Senhor, Vos suplicamos, a vossa gra\u00e7a em nossos cora\u00e7\u00f5es, para que, punindo-nos voluntariamente por causa dos nossos pecados, evitemos com estas penas temporais a condena\u00e7\u00e3o aos castigos eternos.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "*For Our Lady of the Seven Sorrows*\nO God, in Whose Passion the sword, according to the prophecy of blessed Simeon, pierced through the soul of Mary, the glorious Virgin and Mother, mercifully grant that we, who reverently commemorate her piercing through and her suffering, may, by the interceding glorious merits of all the saints faithfully standing by the Cross, obtain the abundant fruit of Your passion.\n\u00d3 V\u00f3s, que viveis...", 
+        "body": "*Sete Dores de Nossa Senhora*\n\u00d3 Deus, em cuja paix\u00e3o a espada de dor profetizada por Sime\u00e3o, traspassou a dulc\u00edssima alma da Virgem Maria vossa M\u00e3e, fazei, por vossa bondade que, venerando a lembran\u00e7a de seu cora\u00e7\u00e3o traspassado e de suas crudel\u00edssimas dores, possamos, pelos gloriosos m\u00e9ritos e intercess\u00e3o de todos os Santos que ficaram fielmente ao p\u00e9 da Cruz, colhermos dignos frutos de vossa paix\u00e3o.\n\u00d3 V\u00f3s, que viveis...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Lesson from Jeremiah the Prophet\n*Jr 17:13 - 18.*\nIn those days, Jeremia said: O Lord, all who forsake You shall be in disgrace; the rebels in the land shall be put to shame; they have forsaken the source of living waters, the Lord. Heal me, Lord, that I may be healed; save me, that I may be saved, for it is You whom I praise. See how they say to me, \u2018Where is the word of the Lord? Let it come to pass!\u2019 Yet I am not troubled, following You as my shepherd; the day without remedy I have not desired. You know what passed my lips; it is present before You. Do not be my ruin, You, my refuge in the day of misfortune. Let my persecutors, not me, be confounded; let them, not me, be broken. Bring upon them the day of misfortune, crush them with repeated destruction, O Lord, our God.", 
+        "body": "Li\u00e7\u00e3o do Profeta Jeremias.\n*Jr 17:13 - 18.*\nNaqueles dias, disse Jeremias: \u00abSenhor, todos os que se afastaram de V\u00f3s ser\u00e3o confundidos; todos os que se afastaram de V\u00f3s ficar\u00e3o envergonhados, pois abandonaram o Senhor, que \u00e9 a fonte das \u00e1guas vivas. Curai-me, Senhor, e serei curado; salvai-me, e serei salvo; pois sois a minha gl\u00f3ria. Eis o que eles me dizem: \u00abOnde est\u00e1 a palavra do Senhor? Que ela se cumpra!\u00bb. Mas n\u00e3o me perturbei, seguindo-Vos, como a um pastor. N\u00e3o desejei ao infeliz, bem o sabeis, o dia da sua afli\u00e7\u00e3o. As palavras que sa\u00edram dos meus l\u00e1bios eram rectas na vossa presen\u00e7a. N\u00e3o sejais causa de terror para mim, pois sois a minha esperan\u00e7a no dia da afli\u00e7\u00e3o. Caiam em confus\u00e3o os que me perseguem; mas n\u00e3o seja eu confundido. Que eles fiquem assombrados; mas n\u00e3o o seja eu. Fazei que para eles se aproxime o dia da afli\u00e7\u00e3o; esmagai-os, sobrecarregando-os com males, \u00f3 Senhor, nosso Deus\u00bb.", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
       {
-        "body": "*Sl 34:20, 22.*\nMy enemies spoke peaceably to me: and in anger they afflicted me.\nV. You, O Lord, have seen; be not silent; be not far from me!\n\n*Tractus*\n*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\n*Sl 78:8-9*\nV. O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
+        "body": "*Sl 34:20, 22.*\nOs meus inimigos falavam-me aparentemente com palavras de paz; mas na sua ira meditavam perf\u00eddias contra mim.\nV. V\u00f3s bem o vistes, Senhor: n\u00e3o sejais insens\u00edvel, n\u00e3o Vos afasteis de mim.\n\n*Tractus*\n*Tractus*\n*Sl 102:10*\nSenhor, nos n\u00e3o castigueis, consoante merecemos, pelos pecados que pratic\u00e1mos: nem nos julgueis, segundo as nossas iniquidades.\nV. Ps 78:8-9 Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas miseric\u00f3rdias, pois grande \u00e9 a nossa mis\u00e9ria. (genuflectir)\nV. Auxiliai-nos, \u00f3 Deus, nosso Salvador, e, pela gl\u00f3ria do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome.", 
         "id": "Graduale", 
         "label": "Gradual"
       }, 
       {
-        "body": "Continuation of the Holy Gospel according to\n*Jo 11:47 - 54.*\nAt that time, the chief priests and Pharisees gathered together a council against Jesus, and said, What are we doing? for this man is working many signs. If we let Him alone as He is, all will believe in Him, and the Romans will come and take away both our place and our nation. But one of them, Caiphas, being high priest that year, said to them, You know nothing at all; nor do you reflect that it is expedient for us that one man die for the people, instead of the whole nation perishing. This, however, he said not of himself; but being high priest that year, he prophesied that Jesus was to die for the nation; and not only for the nation, but that He might gather into one the children of God who were scattered abroad. So from that day forth their plan was to put Him to death. Jesus therefore no longer went about openly among the Jews, but withdrew to the district near the desert, to a town called Ephrem; and there He stayed with His disciples.", 
+        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 11:47 - 54.*\nNaquele tempo, reuniram-se os pont\u00edfices e os fariseus em assembleia contra Jesus, dizendo: \u00abQue faremos n\u00f3s a este homem, que opera tantos prod\u00edgios? Se o deixarmos livre, todos acreditar\u00e3o n\u2019Ele; e ent\u00e3o os romanos vir\u00e3o e desfruir\u00e3o a nossa cidade e a nossa na\u00e7\u00e3o\u00bb. Ora, um deles, Caif\u00e1s, que era naquele ano o sumo sacerdote, disse-lhes: \u00abV\u00f3s nada sabeis! N\u00e3o pensais que \u00e9 melhor que morra um s\u00f3 homem, por causa do povo, do que pade\u00e7a toda a na\u00e7\u00e3o, por causa d\u2019Ele?\u00bb. Caif\u00e1s n\u00e3o disse estas palavras em nome pr\u00f3prio; mas, como sumo sacerdote que era naquele ano, profetizou que Jesus devia morrer pela na\u00e7\u00e3o - e n\u00e3o somente pela na\u00e7\u00e3o, mas para reunir em um s\u00f3 corpo os filhos de Deus, que estavam dispersos. Desde aquele dia, pois, resolveram mat\u00e1-l\u2019O. Por\u00e9m, Jesus j\u00e1 se n\u00e3o mostrava abertamente aos judeus. Retirara-se para um lugar, perto do deserto, na cidade de Efrem, onde permanecia com seus disc\u00edpulos.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Sl 118:12, 121.*\nBlessed are You, O Lord; teach me Your statutes. Let not the proud oppress me; so shall I have an answer for those who reproach me.", 
+        "body": "*Sl 118:12, 121.*\nBendito sois, Senhor. Ensinai-me a conhecer as vossas leis. N\u00e3o me entregueis \u00e0queles que me perseguem: e eu saberei responder \u00e0queles que me insultam.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Grant us, O merciful God, that we may ever have the grace to serve Your altars worthily, and may we be saved by constantly partaking of the sacrifice.\nPor nosso Senhor...", 
+        "body": "\u00d3 Deus misericordioso, concedei-nos a gra\u00e7a de servirmos sempre dignamente os vossos altares, a fim de que, participando perpetuamente deles, possamos salvar-nos.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "*For the Seven Sorrows*\nO Lord Jesus Christ, we offer You prayers and sacrificial gifts, humbly beseeching You that, as we prayerfully recall the piercing of the most sweet soul of Your blessed Mother Mary, so through the merits of Your death and the manifold intercession of her and her holy friends at the foot of the Cross, we may have our reward with the blessed.\n\u00d3 V\u00f3s, que viveis...", 
+        "body": "*Sete Dores de Nossa Senhora*\n\u00d3 Senhor Jesus Cristo, n\u00f3s Vos oferecemos estas preces e sagradas h\u00f3stias, suplicando-Vos humildement, para que n\u00f3s, que celebramos a Transfix\u00e3o da alma dulc\u00edssima da Bem-Aventurada Virgem Maria, vossa M\u00e3e, pela sua intercess\u00e3o e dos Santos que a acompanhavam ao p\u00e9 da Cruz, participemos, com os bem-aventurados, aos merecimentos da vossa morte.\n\u00d3 V\u00f3s, que viveis...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -134,22 +134,22 @@
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Sl 26:12*\nGive me not up, O Lord, to the wishes of my foes; for false witnesses have risen up against me, and such as breathe out violence.", 
+        "body": "*Sl 26:12*\nSenhor, n\u00e3o me abandoneis ao \u00f3dio dos que me perseguem, quando se levantam contra mim com testemunhos in\u00edquos; pois a iniquidade contradiz-se a si pr\u00f3pria.", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May the abiding protection of the sacrament we have received, O Lord, never forsake us, and always keep us from all things harmful.\nPor nosso Senhor...", 
+        "body": "Que nos n\u00e3o desampare, Senhor, a protec\u00e7\u00e3o do sacramento agora recebido, e que para sempre afaste de n\u00f3s todos os males.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*For the Seven Sorrows*\nO Lord Jesus Christ, may the sacrifices of which we have partaken, while devoutly celebrating the piercing of Your Virgin Mother\u2019s soul, obtain for us, through Your kindness, the good effect of salvation.\n\u00d3 V\u00f3s, que viveis...", 
+        "body": "*Sete Dores de Nossa Senhora*\nSenhor Jesus Cristo, fazei que os sacrif\u00edcios, que recebemos ao celebrar devotamente a Transfix\u00e3o da Virgem vossa M\u00e3e, nos alcancem da vossa clem\u00eancia o efeito de todo o bem saud\u00e1vel.\n\u00d3 V\u00f3s, que viveis...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
-        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nGrant, we beseech You, almighty God, that we who seek the grace of Your protection, having been delivered from all evils, may serve You with untroubled minds.\nPor nosso Senhor...", 
+        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nDeus omnipotente, Vos suplicamos, concedei-nos a gra\u00e7a da vossa protec\u00e7\u00e3o, que sempre procur\u00e1mos, a fim de que sejamos livres de todos os males e Vos sirvamos com a alma tranquila.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

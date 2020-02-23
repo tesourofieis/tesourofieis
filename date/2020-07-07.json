@@ -24,12 +24,12 @@
         "label": "Oratio"
       }, 
       {
-        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Hebr\u00e6os\n*Hebr 7:23-27*\nFratres: Plures facti sunt sacerd\u00f3tes, idc\u00edrco quod morte prohiber\u00e9ntur perman\u00e9re: Jesus autem, eo quod maneat in \u00e6t\u00e9rnum, sempit\u00e9rnum habet sacerd\u00f3tium. Unde et salv\u00e1re in perp\u00e9tuum potest acced\u00e9ntes per semet\u00edpsum ad Deum: semper vivens ad interpell\u00e1ndum pro nobis. Talis enim dec\u00e9bat, ut nobis esset p\u00f3ntifex, sanctus, \u00ednnocens, impoll\u00fatus, segreg\u00e1tus a peccat\u00f3ribus, et exc\u00e9lsior coelis factus: qui non habet necessit\u00e1tem cot\u00eddie, quem\u00e1dmodum sacerd\u00f3tes, prius pro suis del\u00edctis h\u00f3stias off\u00e9rre, d\u00e9inde pro p\u00f3puli: hoc enim fecit semel, se\u00edpsum offer\u00e9ndo, Jesus Christus, D\u00f3minus noster.", 
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Hebr\u01fdos\n*Hebr 7:23-27*\nFratres: Plures facti sunt sacerd\u00f3tes, idc\u00edrco quod morte prohiber\u00e9ntur perman\u00e9re: Jesus autem, eo quod maneat in \u00e6t\u00e9rnum, sempit\u00e9rnum habet sacerd\u00f3tium. Unde et salv\u00e1re in perp\u00e9tuum potest acced\u00e9ntes per semet\u00edpsum ad Deum: semper vivens ad interpell\u00e1ndum pro nobis. Talis enim dec\u00e9bat, ut nobis esset p\u00f3ntifex, sanctus, \u00ednnocens, impoll\u00fatus, segreg\u00e1tus a peccat\u00f3ribus, et exc\u00e9lsior c\u0153lis factus: qui non habet necessit\u00e1tem cot\u00eddie, quem\u00e1dmodum sacerd\u00f3tes, prius pro suis del\u00edctis h\u00f3stias off\u00e9rre, d\u00e9inde pro p\u00f3puli: hoc enim fecit semel, se\u00edpsum offer\u00e9ndo, Jesus Christus, D\u00f3minus noster.", 
         "id": "Lectio", 
         "label": "Lectio"
       }, 
       {
-        "body": "*Ps 131:16-17*\nSacerd\u00f3tes ejus \u00ednduam salut\u00e1ri: et sancti ejus exsultati\u00f3ne exsult\u00e1bunt.\nV. Illuc prod\u00facam cornu David: par\u00e1vi luc\u00e9rnam Christo meo. Allel\u00faja, allel\u00faja.\n*Ps 109:4*\nJur\u00e1vit D\u00f3minus, et non poenit\u00e9bit eum: Tu es sac\u00e9rdos in \u00e6t\u00e9rnum, sec\u00fandum \u00f3rdinem Melch\u00edsedech. Allel\u00faja.", 
+        "body": "*Ps 131:16-17*\nSacerd\u00f3tes ejus \u00ednduam salut\u00e1ri: et sancti ejus exsultati\u00f3ne exsult\u00e1bunt.\nV. Illuc prod\u00facam cornu David: par\u00e1vi luc\u00e9rnam Christo meo. Allel\u00faja, allel\u00faja.\n*Ps 109:4*\nJur\u00e1vit D\u00f3minus, et non p\u0153nit\u00e9bit eum: Tu es sac\u00e9rdos in \u00e6t\u00e9rnum, sec\u00fandum \u00f3rdinem Melch\u00edsedech. Allel\u00faja.", 
         "id": "Graduale", 
         "label": "Graduale"
       }, 
@@ -59,7 +59,7 @@
         "label": "Communio"
       }, 
       {
-        "body": "Qu\u01fdsumus, omn\u00edpotens Deus: ut, qui nobis m\u00fanera dign\u00e1ris pr\u00e6b\u00e9re coel\u00e9stia, interced\u00e9ntibus sanctis tuis Cyr\u00edllo et Meth\u00f3dio, desp\u00edcere terr\u00e9na conc\u00e9das.\nPer Dominum...", 
+        "body": "Qu\u01fdsumus, omn\u00edpotens Deus: ut, qui nobis m\u00fanera dign\u00e1ris pr\u00e6b\u00e9re c\u0153l\u00e9stia, interced\u00e9ntibus sanctis tuis Cyr\u00edllo et Meth\u00f3dio, desp\u00edcere terr\u00e9na conc\u00e9das.\nPer Dominum...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }

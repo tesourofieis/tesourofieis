@@ -15,17 +15,17 @@
     }, 
     "proper_latin": [
       {
-        "body": "*Joann 15:13*\nMaj\u00f3rem hac dilecti\u00f3nem nemo habet, ut \u00e1nimam suam ponat quis pro am\u00edcis suis\n*Ps 40:2*\nBe\u00e1tus, qui int\u00e9llegit super eg\u00e9num et p\u00e1uperem: in dic mala liber\u00e1bit eum D\u00f3minus.\nGl\u00f3ria Patri.\nMaj\u00f3rem hac dilecti\u00f3nem nemo habet, ut \u00e1nimam suam ponat quis pro am\u00edcis suis", 
+        "body": "*Joann 15:13*\nMaj\u00f3rem hac dilecti\u00f3nem nemo habet, ut \u00e1nimam suam ponat quis pro am\u00edcis suis.\n*Ps 40:2*\nBe\u00e1tus, qui int\u00e9llegit super eg\u00e9num et p\u00e1uperem: in dic mala liber\u00e1bit eum D\u00f3minus.\nGl\u00f3ria Patri.\nMaj\u00f3rem hac dilecti\u00f3nem nemo habet, ut \u00e1nimam suam ponat quis pro am\u00edcis suis.", 
         "id": "Introitus", 
         "label": "Introitus"
       }, 
       {
-        "body": "Deus, qui sanctum Cam\u00edllum, ad anim\u00e1rum in extr\u00e9mo ag\u00f3ne luct\u00e1ntium subs\u00eddium, singul\u00e1ri carit\u00e1tis pr\u00e6rogat\u00edva decor\u00e1sti: ejus, qu\u01fdsumus, m\u00e9ritis, sp\u00edritum nobis tu\u00e6 dilecti\u00f3nis inf\u00fande; ut in hora \u00e9xitus nostri hostem v\u00edncere, et ad coel\u00e9stem mere\u00e1mur cor\u00f3nam perven\u00edre.\nPer Dominum...", 
+        "body": "Deus, qui sanctum Cam\u00edllum, ad anim\u00e1rum in extr\u00e9mo ag\u00f3ne luct\u00e1ntium subs\u00eddium, singul\u00e1ri carit\u00e1tis pr\u00e6rogat\u00edva decor\u00e1sti: ejus, qu\u01fdsumus, m\u00e9ritis, sp\u00edritum nobis tu\u00e6 dilecti\u00f3nis inf\u00fande; ut in hora \u00e9xitus nostri hostem v\u00edncere, et ad c\u0153l\u00e9stem mere\u00e1mur cor\u00f3nam perven\u00edre.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
       {
-        "body": "*Ss. Symphoros\u00e6 et septem Filiorum ejus Mm*\nDeus, qui nos conc\u00e9dis sanct\u00f3rumM\u00e1rtyrum tu\u00f3rum Symphor\u00f3s\u00e6 et fili\u00f3rum ejus natal\u00edtia c\u00f3lere: da nobis in \u00e6t\u00e9rna beatit\u00fadine de e\u00f3rum societ\u00e1te gaud\u00e9re.\nPer Dominum...", 
+        "body": "*Ss. Symphoros\u00e6 et septem Filiorum ejus Mm*\nDeus, qui nos conc\u00e9dis sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Symphor\u00f3s\u00e6 et fili\u00f3rum ejus natal\u00edtia c\u00f3lere: da nobis in \u00e6t\u00e9rna beatit\u00fadine de e\u00f3rum societ\u00e1te gaud\u00e9re.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -35,7 +35,7 @@
         "label": "Lectio"
       }, 
       {
-        "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium.\nV. Lex Dei ejus in corde ips\u00edus: et non supplantab\u00fantur gressus ejus. Allel\u00faja, allel\u00faja\n*Ps 111:1*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis. Allel\u00faja.", 
+        "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium.\nV. Lex Dei ejus in corde ips\u00edus: et non supplantab\u00fantur gressus ejus. Allel\u00faja, allel\u00faja.\n*Ps 111:1*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis. Allel\u00faja.", 
         "id": "Graduale", 
         "label": "Graduale"
       }, 
@@ -50,7 +50,7 @@
         "label": "Offertorium"
       }, 
       {
-        "body": "H\u00f3stia immacul\u00e1ta, qua illud D\u00f3mini nostri Jesu Christi imm\u00e9ns\u00e6 carit\u00e1tis opus renov\u00e1mus, sit, Deus Pater omn\u00edpotens, sancto Gam\u00edllo interced\u00e9nte, contra omnes c\u00f3rporis et anim\u00e6 infirmitates salut\u00e1re remedium, et in extr\u00e9mo ag\u00f3ne sol\u00e1tium et tutela.\nPer e\u00fandem...", 
+        "body": "H\u00f3stia immacul\u00e1ta, qua illud D\u00f3mini nostri Jesu Christi imm\u00e9ns\u00e6 carit\u00e1tis opus renov\u00e1mus, sit, Deus Pater omn\u00edpotens, sancto Gam\u00edllo interced\u00e9nte, contra omnes c\u00f3rporis et anim\u00e6 infirmitates salut\u00e1re remedium, et in extr\u00e9mo ag\u00f3ne sol\u00e1tium et tut\u00e9la.\nPer e\u00fandem...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -70,7 +70,7 @@
         "label": "Communio"
       }, 
       {
-        "body": "Per h\u00e6c coel\u00e9stia alim\u00e9nta, qu\u00e6, sancti Cam\u00edlli Confess\u00f3ris tui soll\u00e9mnia celebr\u00e1ntes, pia devoti\u00f3ne susc\u00e9pimus: da, qu\u01fdsumus. D\u00f3mine; ut, in hora mortis nostr\u00e6 sacram\u00e9ntis ref\u00e9cti et culpis \u00f3mnibus expi\u00e1ti, in sinum miseric\u00f3rdi\u00e6 tu\u00e6 l\u00e6ti s\u00fascipi mere\u00e1mur:\nQui vivis...", 
+        "body": "Per h\u00e6c c\u0153l\u00e9stia alim\u00e9nta, qu\u00e6, sancti Cam\u00edlli Confess\u00f3ris tui soll\u00e9mnia celebr\u00e1ntes, pia devoti\u00f3ne susc\u00e9pimus: da, qu\u01fdsumus. D\u00f3mine; ut, in hora mortis nostr\u00e6 sacram\u00e9ntis ref\u00e9cti et culpis \u00f3mnibus expi\u00e1ti, in sinum miseric\u00f3rdi\u00e6 tu\u00e6 l\u00e6ti s\u00fascipi mere\u00e1mur:\nQui vivis...", 
         "id": "Postcommunio", 
         "label": "Postcommunio"
       }, 

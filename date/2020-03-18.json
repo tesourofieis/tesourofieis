@@ -32,7 +32,7 @@
         "label": "Lectio"
       }, 
       {
-        "body": "*Ps 6:3-4*\nMiser\u00e9re mei, D\u00f3mine, qu\u00f3niam inf\u00edrmus sum: sana me, D\u00f3mine,\nV. Conturb\u00e1ta sunt \u00f3mnia ossa mea: et \u00e1nima mea turb\u00e1ta est valde.\n\n*Tractus 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nD\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
+        "body": "*Ps 6:3-4*\nMiser\u00e9re mei, D\u00f3mine, qu\u00f3niam inf\u00edrmus sum: sana me, D\u00f3mine,\nV. Conturb\u00e1ta sunt \u00f3mnia ossa mea: et \u00e1nima mea turb\u00e1ta est valde.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nD\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
         "id": "Graduale", 
         "label": "Graduale"
       }, 
@@ -84,47 +84,47 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sl 30:7-8*\nMy trust is in the Lord. I will rejoice and be glad of your kindness, when You have seen my affliction.\n*Sl 30:2*\nIn You, O Lord, I take refuge; let me never be put to shame. In your justice rescue me.\nGl\u00f3ria ao Pai.\nMy trust is in the Lord. I will rejoice and be glad of your kindness, when You have seen my affliction.", 
+        "body": "*Sl 30:7-8*\nEu, por\u00e9m, espero no Senhor: e, confiado na vossa miseric\u00f3rdia, Senhor, exultarei e alegrar-me-ei, pois Vos dignastes olhar para a minha mis\u00e9ria.\n*Sl 30:2*\nEm V\u00f3s, Senhor, pus toda minha confian\u00e7a, n\u00e3o serei confundido para sempre: livrai-me, Senhor, pela vossa justi\u00e7a, e salvai-me.\nGl\u00f3ria ao Pai.\nEu, por\u00e9m, espero no Senhor: e, confiado na vossa miseric\u00f3rdia, Senhor, exultarei e alegrar-me-ei, pois Vos dignastes olhar para a minha mis\u00e9ria.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Grant, we beseech You, O Lord, that, improved by wholesome fasting, and thus abstaining from harmful sin, we may the more readily receive Your mercy.\nPor nosso Senhor...", 
+        "body": "Permiti, Senhor, Vos suplicamos, que estes salutares jejuns sirvam para nossa instru\u00e7\u00e3o, de modo que nos abstenhamos dos pecados, que s\u00e3o t\u00e3o nocivos, e obtenhamos mais facilmente a vossa propicia\u00e7\u00e3o.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Cirilo de Jerusal\u00e9m, Bispo, Confessor e Doutor da Igreja *\nProsimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, przez wstawiennictwo \u015bwi\u0119tego Biskupa Cyryla, daj nam pozna\u0107 Ciebie, jedynego prawdziwego Boga i pos\u0142anego przez Ciebie Jezusa Chrystusa, aby\u015bmy na zawsze zostali zaliczeni mi\u0119dzy owce, kt\u00f3re s\u0142uchaj\u0105 Jego g\u0142osu.\nPelo mesmo nosso Senhor...", 
+        "body": "* Comemora\u00e7\u00e3o S. Cirilo de Jerusal\u00e9m, Bispo, Confessor e Doutor da Igreja *\n\u00d3 Deus omnipotente, Vos suplicamos, permiti que, por intercess\u00e3o do B. Pont\u00edfice Cirilo, conhe\u00e7amos que sois o \u00fanico e verdadeiro Deus e Aquele que enviastes ao mundo, Jesus Cristo, de tal sorte que mere\u00e7amos ser contados eternamente entre as ovelhas que escutam a vossa voz.\nPelo mesmo nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Lesson from the book of Exodus\n*Ex 20:12-24*\nThus says the Lord God: Honor your father and your mother, that you may have a long life in the land which the Lord, your God, is giving you. You shall not kill. You shall not commit adultery. You shall not steal. You shall not bear false witness against your neighbor. You shall not covet your neighbor\u2019s house. You shall not covet your neighbor\u2019s wife, nor his male or female slave, not his ox or ass, nor anything else that belongs to him. When the people witnessed the thunder and lightning, the trumpet blast and the mountain smoking, they all feared and trembled. So they took up a position much farther away and said to Moses, You speak to us, and we will listen; but let not the Lord speak to us, or we shall die. Moses answered the people, Do not be afraid, for God has come to you only to test you and put His fear upon you, lest you should sin. Still the people remained at a distance, while Moses approached the cloud where God was. The Lord told Moses, Thus shall you speak to the Israelites: You have seen for yourselves that I have spoken to you from heaven. Do not make anything to rank with Me; neither gods of silver nor gods of gold shall you make for yourselves. An altar of earth you shall make for Me, and upon it you shall sacrifice your holocausts and peace offerings, your sheep and your oxen, in whatever place I choose for the remembrance of My name.", 
+        "body": "Li\u00e7\u00e3o do Livro do \u00caxodo.\n*Ex 20:12-24*\nEstas coisas diz o Senhor Deus: \u00abHonra teu pai e tua m\u00e3e, a fim de que a tua vida seja prolongada na terra, que o Senhor, teu Deus, te conceder\u00e1. N\u00e3o matar\u00e1s. N\u00e3o cometer\u00e1s adult\u00e9rio. N\u00e3o furtar\u00e1s. N\u00e3o levantar\u00e1s falso testemunho contra o pr\u00f3ximo. N\u00e3o cobi\u00e7ar\u00e1s a casa do teu pr\u00f3ximo, nem a sua mulher, nem o seu servo, nem o seu boi, nem o seu jumento, nem coisa alguma que lhe perten\u00e7a\u00bb. E todo o povo ouvia o som da sua voz e da buzina e via o clar\u00e3o dos rel\u00e2mpagos e da montanha a arder! Ent\u00e3o, cheios de medo e de pavor, ficaram longe da montanha, dizendo a Mois\u00e9s: \u00abFala-nos tu e escutar-te-emos; mas que nos n\u00e3o fale o Senhor, pois morreremos de pavor!\u00bb. Mois\u00e9s disse ao povo: \u00abN\u00e3o tenhais medo, porque Deus veio para vos experimentar e para que seu temor permane\u00e7a em v\u00f3s, a fim de que n\u00e3o pequeis\u00bb. E o povo ficou longe; por\u00e9m, Mois\u00e9s aproximou-se da nuvem em que estava Deus. Ent\u00e3o, o Senhor disse ainda a Mois\u00e9s: \u00abTu dir\u00e1s isto aos filhos de Israel: \u00abVistes que vos falei do alto do c\u00e9u? N\u00e3o fabricareis mais \u00eddolos de prata, nem de ouro. Levantar-me-eis um altar de terra, sobre o qual me oferecereis holocaustos e sacrif\u00edcios pac\u00edficos (as vossas ovelhas e bois) em todos os lugares onde houver mem\u00f3ria do meu nome\u00bb.", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
       {
-        "body": "*Sl 6:3- 4.*\nHave pity on me, O Lord, for I am languishing; heal me, O Lord.\nV. For my body is in terror; my soul, too, is utterly terrified.\n\n*Tractus*\n*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\nV. Ps 78:8 - 9. O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
+        "body": "*Sl 6:3- 4.*\nTende compaix\u00e3o de mim, Senhor, pois estou enfermo; curai-me, Senhor.\nV. Meus Ossos est\u00e3o cheios de fraqueza e a minha alma repleta de temor.\n\n*Tractus*\n*Tractus*\n*Sl 102:10*\nSenhor, nos n\u00e3o castigueis, consoante merecemos, pelos pecados que pratic\u00e1mos: nem nos julgueis, segundo as nossas iniquidades.\nV. Ps 78:8-9 Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas miseric\u00f3rdias, pois grande \u00e9 a nossa mis\u00e9ria. (genuflectir)\nV. Auxiliai-nos, \u00f3 Deus, nosso Salvador, e, pela gl\u00f3ria do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome.", 
         "id": "Graduale", 
         "label": "Gradual"
       }, 
       {
-        "body": "Continuation of the Holy Gospel according to Matthew\n*Mt. 15:1-20*\nAt that time, the Scribes and Pharisees from Jerusalem came to Jesus, saying, Why do Your disciples transgress the tradition of the ancients? For they do not wash their hands when they take food. But He answered and said to them, And why do you transgress the commandment of God because of your tradition? For God said, \u2018Honor your father and your mother\u2019; and, \u2018Let him who curses father or mother be put to death.\u2019 But you say, \u2018Whoever shall say to his father or mother, Any support you might have had from me is dedicated to God, does not have to honor his father or his mother.\u2019 So you have made void the commandment of God by your tradition. Hypocrites, well did Isaiah prophesy of you, saying, \u2018This people honors me with their lips, but their heart is far from Me; and in vain do they worship Me, teaching as doctrine the precepts of men.\u2019 Then He called the crowd to Him, and said to them, Hear, and understand. What goes into the mouth does not defile a man; but it is what comes out of the mouth that defiles a man. Then His disciples came up and said to Him, Do You know that the Pharisees have taken offense at hearing this saying? But He answered and said, Every plant that My heavenly Father has not planted will be rooted up. Let them alone; they are blind guides of blind men. But if a blind man guide a blind man, both fall into a pit. But Peter spoke to Him, saying, Explain to us this parable. And He said, Are you also even yet without understanding? Do you not realize that whatever enters the mouth passes into the belly and is cast out into the drain? But the things that proceed out of the mouth come from the heart, and it is they that defile a man. For out of the heart come evil thoughts, murders, adulteries, immorality, thefts, false witness, blasphemies. These are the things that defile a man; but to eat with unwashed hands does not defile a man.", 
+        "body": "Continua\u00e7\u00e3o do santo Evangelho segundo S. Mateus.\n*Mt. 15:1-20*\nNaquele tempo, aproximaram-se de Jesus os escribas e os fariseus, vindos de Jerusal\u00e9m, dizendo: \u00abPorque transgridem os teus disc\u00edpulos a tradi\u00e7\u00e3o dos antigos? Pois n\u00e3o lavam as suas m\u00e3os quando comem p\u00e3o\u00bb. E Jesus retorquiu-lhes: \u00abPorque transgredis v\u00f3s, tamb\u00e9m, o mandamento de Deus, por causa da vossa tradi\u00e7\u00e3o? Porquanto, Deus disse: \u00abHonra teu pai e tua m\u00e3e; e quem injuriar seu pai ou sua m\u00e3e morrer\u00e1 de morte\u00bb. E v\u00f3s dizeis: \u00abQuem disser ao pai ou \u00e0 m\u00e3e: toda a oferta que eu fa\u00e7o a Deus aproveitar\u00e1 tamb\u00e9m a v\u00f3s, n\u00e3o estar\u00e1 mais obrigado a honrar seu pai ou sua m\u00e3e\u00bb. Deste modo tornastes in\u00fatil o mandamento da Lei de Deus, por causa desta vossa tradi\u00e7\u00e3o. Hip\u00f3critas! Bem profetizou de v\u00f3s Isa\u00edas, dizendo: \u00abEste povo honra-me com os l\u00e1bios; mas o seu cora\u00e7\u00e3o est\u00e1 longe de mim. \u00c9 em v\u00e3o que me presta culto, ensinando doutrinas e mandamentos humanos\u00bb. Depois disto, Jesus chamou mais para junto de si o povo e disse: \u00abOuvi e atendei: O que entra pela boca n\u00e3o mancha o homem; mas sim o que sai da boca\u00bb. Ent\u00e3o, chegando-se os seus disc\u00edpulos, disseram-Lhe: \u00abSabei que os fariseus, ouvindo aquela palavra, ficaram escandalizados\u00bb. Ele respondeu: \u00abToda a planta que meu Pai celestial n\u00e3o plantou ser\u00e1 arrancada. Deixai-os; s\u00e3o cegos a guiar outros cegos. Ora, se um cego guiar outro, ambos cair\u00e3o no abysmo\u00bb. E, respondendo, Pedro disse-lhe: \u00abExplicai-nos essa palavra\u00bb. Jesus disse: \u00abTamb\u00e9m estais ainda sem compreender? N\u00e3o vedes que o que entra pela boca vai ter ao est\u00f4mago e depois \u00e9 lan\u00e7ado em um lugar oculto? Mas as coisas que saem da boca procedem do cora\u00e7\u00e3o, que \u00e9 onde se mancha o homem; pois no cora\u00e7\u00e3o nascem os maus pensamentos: homic\u00eddios, adult\u00e9rios, impudic\u00edcias, furtos falsos testemunhos e blasf\u00e9mias. Estas coisas \u00e9 que mancham o homem. Por\u00e9m, comer, sem lavar as m\u00e3os, n\u00e3o mancha o homem\u00bb.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Sl 108:21*\nO Lord, deal kindly with me for Your Name\u2019s sake; because your kindness is generous.", 
+        "body": "*Sl 108:21*\nSenhor, para honra do vosso nome, tende miseric\u00f3rdia de mim, pois a vossa miseric\u00f3rdia \u00e9 benigna.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "Accept, we beseech You, O Lord, that prayers and gifts Your people offer, and from all dangers protect us who celebrate Your sacramental rites.\nPor nosso Senhor...", 
+        "body": "Recebei, Senhor, Vos suplicamos, as preces do vosso povo, juntamente com estas h\u00f3stias que Vos oferecemos; e, pela virtude dos myst\u00e9rios, que celebramos, defendei-nos de todos os perigos.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Cirilo de Jerusal\u00e9m, Bispo, Confessor e Doutor da Igreja *\nWejrzyj, Panie, na niepokalan\u0105 ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy, i spraw przez zas\u0142ugi \u015bw. Biskupa i Wyznawcy Twego Cyryla, by\u015bmy starali si\u0119 j\u0105 przyj\u0105\u0107 z czystym sercem.\nPor nosso Senhor...", 
+        "body": "* Comemora\u00e7\u00e3o S. Cirilo de Jerusal\u00e9m, Bispo, Confessor e Doutor da Igreja *\nOlhai, Senhor, para a H\u00f3stia Imaculada que Vos oferecemos; e permiti que pelos m\u00e9ritos do B. Cirilo, vosso Confessor e Pont\u00edfice, diligenciemos receb\u00ea-la com o cora\u00e7\u00e3o puro.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -134,22 +134,22 @@
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Sl 15:11*\nYou will show me the path to life, You will fill me with fullness of joys in Your presence, O Lord.", 
+        "body": "*Sl 15:11*\nFizestes-me conhecer os caminhos da vida, Senhor: encher-me-eis de alegria com vossa presen\u00e7a.", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May the heavenly banquet with which we have been nourished, make us holy, O Lord; may it be an atonement for all our sins, and make us worthy of the heavenly promises.\nPor nosso Senhor...", 
+        "body": "Que o banquete celestial de que nos aliment\u00e1mos, Senhor, nos santifique; e que, depois de nos haver purificado de toda a esp\u00e9cie de erro, nos torne dignos das promessas eternas.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Cirilo de Jerusal\u00e9m, Bispo, Confessor e Doutor da Igreja *\nPanie Jezu Chryste, niech na pro\u015bby \u015bw. Biskupa Cyryla przyj\u0119ty przez nas Sakrament Cia\u0142a i Krwi Twojej u\u015bwi\u0119ci\u0142 nasze umys\u0142y i serca, aby\u015bmy mogli sta\u0107 si\u0119 uczestnikami Boskiej natury:\n\u00d3 V\u00f3s, que viveis...", 
+        "body": "* Comemora\u00e7\u00e3o S. Cirilo de Jerusal\u00e9m, Bispo, Confessor e Doutor da Igreja *\n\u00d3 Senhor Jesus Cristo, fazei que os sacramentos do vosso Corpo e Sangue, que acab\u00e1mos de receber, santifiquem, pelas preces do B. Cirilo, os nossos esp\u00edritos e os nossos cora\u00e7\u00f5es, a fim de que mere\u00e7amos ser participantes da natureza divina.\n\u00d3 V\u00f3s, que viveis...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
-        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nGrant, almighty God, we beseech You, that we who seek the grace of Your protection, delivered from all evils, may serve You with untroubled minds.\nPor nosso Senhor...", 
+        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nDignai-Vos permitir, \u00f3 Deus omnipotente, Vos suplicamos, que aqueles que procuram a gra\u00e7a da vossa protec\u00e7\u00e3o sejam livres de todos os males e Vos sirvam com a alma tranquila.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

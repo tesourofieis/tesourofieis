@@ -1,7 +1,10 @@
 [
   {
     "info": {
-      "additional_info": [], 
+      "additional_info": [
+        "Esta\u00e7\u00e3o em S. Clemente", 
+        "Paramentos roxos"
+      ], 
       "date": "2020-03-09", 
       "description": "\nComemora\u00e7\u00e3o S. Francisca Romana, Vi\u00fava.", 
       "id": "tempora:Quad2-1:3", 
@@ -84,12 +87,12 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sl 25:11-12*\nRedeem me, O Lord, and have pity on me; my foot stands on level ground; in the assemblies I will bless the Lord.\n*Sl 25:1*\nDo me justice, O Lord! for I have walked in integrity, and in the Lord I trust without wavering.\nGl\u00f3ria ao Pai.\nRedeem me, O Lord, and have pity on me; my foot stands on level ground; in the assemblies I will bless the Lord.", 
+        "body": "*Sl 25:11-12*\nResgatai-me, Senhor, e tende piedade de mim; pois os meus p\u00e9s est\u00e3o no caminho direito: bendirei o Senhor nas assembleias.\n*Sl 25:1*\nFazei-me justi\u00e7a, Senhor, porque procedi com inoc\u00eancia; e confiei no Senhor, sem nunca vacilar.\nGl\u00f3ria ao Pai.\nResgatai-me, Senhor, e tende piedade de mim; pois os meus p\u00e9s est\u00e3o no caminho direito: bendirei o Senhor nas assembleias.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Grant, we beseech You, almighty God, that Your servants who discipline the body by fasting from food, may strive after righteousness by abstaining from sin.\nPor nosso Senhor...", 
+        "body": "\u00d3 Deus omnipotente, Vos suplicamos, fazei que os vossos fi\u00e9is, que para mortifica\u00e7\u00e3o da carne se privam dos alimentos, se abstenham tamb\u00e9m do pecado, praticando a justi\u00e7a.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
@@ -99,27 +102,27 @@
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Lesson from the Prophecy of Daniel\n*Dan 9:15-19*\nIn those days, Daniel prayed to the Lord, saying, O Lord our God, Who brought forth Your people out of the land of Egypt with a strong hand, and made for Yourself a name as at this day: we have sinned, we have committed iniquity, O Lord, against all Your justice: let Your wrath and Your indignation be turned away, I beseech You, from Your city Jerusalem and from Your holy mountain. For by reason of our sins and the iniquities of our fathers, Jerusalem and Your people are a reproach to all who are round about us. Now therefore, O our God, hear the supplication of Your servant and his prayers: and show Your face upon Your sanctuary which is desolate, for Your own sake. Incline, O my God, Your ear and hear: open Your eyes and see our desolation, and the city upon which Your name is called: for it is not for our justifications that we present our prayers before Your face, but for the multitude of Your tender mercies. O Lord, hear: O Lord, be appeased: hearken and do: delay not for Your own sake, O my God: because Your name is invocated upon Your city and upon Your people, O Lord our God.", 
+        "body": "Li\u00e7\u00e3o do Profeta Daniel.\n*Dan 9:15-19*\nNaqueles dias, Daniel dirigiu ao Senhor esta ora\u00e7\u00e3o: \u00abSenhor, nosso Deus, que tirastes o vosso povo da terra do Egipto com vossa m\u00e3o omnipotente, pelo que adquiristes uma gl\u00f3ria que permaneceu at\u00e9 hoje: n\u00f3s pec\u00e1mos, Senhor; cometemos iniquidades contra a vossa lei! Afastai, pois, Senhor, a vossa ira e indigna\u00e7\u00e3o da vossa cidade de Jerusal\u00e9m, do vosso monte sagrado; pois \u00e9 por causa dos nossos pecados e das iniquidades de nossos pais que Jerusal\u00e9m e o vosso povo vivem no opr\u00f3brio, diante de todas as na\u00e7\u00f5es que nos rodeiam. Ent\u00e3o, agora, \u00f3 nosso Deus, ouvi a ora\u00e7\u00e3o e as preces do vosso servo; mostrai a vossa face no santu\u00e1rio, que est\u00e1 abandonado; fazei isto pela vossa pr\u00f3pria gl\u00f3ria! Inclinai, meu Deus, os vossos ouvidos e escutai-nos. Abri os olhos e vede a nossa desola\u00e7\u00e3o e a desola\u00e7\u00e3o da cidade, que possui o vosso nome. N\u00e3o \u00e9 confiados na nossa justi\u00e7a que depomos a vossos p\u00e9s as nossas s\u00faplicas, mas sim com o pensamento na vossa profunda miseric\u00f3rdia. Ouvi-nos, Senhor! Deixai-Vos aplacar, Senhor! Atendei-nos, Senhor! Perdoai-nos, Senhor! Fazei o que Vos pedimos! N\u00e3o tardeis, por causa da honra do vosso nome, \u00f3 meu Deus; pois esta cidade e este povo, que Vos pertencem, t\u00eam a honra de usar o vosso nome, \u00f3 Senhor, nosso Deus\u00bb!", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
       {
-        "body": "*Sl 69:6, 3.*\nYou are my help and my deliverer; O Lord, hold not back!\nV. Let my enemies be put to shame and confounded, who seek my life.\n\n*Tract*\n*Sl 102:10*\nO Lord, deal with us not according to our sins, nor requite us according to our crimes.\n*Sl 78:8-9*\nO Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel)\nV. Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name\u2019s sake.", 
+        "body": "*Sl 69:6, 3.*\nSede o meu auxiliar e o meu libertador! Senhor, n\u00e3o tardeis!\nV. Que sejam confundidos e envergonhados os meus inimigos, que procuram tirar-me a vida.\n*Tractus*\n*Sl 102:10*\nSenhor, nos n\u00e3o castigueis, consoante merecemos, pelos pecados que pratic\u00e1mos: nem nos julgueis, segundo as nossas iniquidades.\nV. Ps 78:8-9 Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas miseric\u00f3rdias, pois grande \u00e9 a nossa mis\u00e9ria. (genuflectir)\nV. Auxiliai-nos, \u00f3 Deus, nosso Salvador, e, pela gl\u00f3ria do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome.", 
         "id": "Graduale", 
         "label": "Gradual"
       }, 
       {
-        "body": "Continuation of the Holy Gospel according to John\n*Jo 8:21-29*\nAt that time, Jesus said to the multitudes of the Jews: I go, and you will seek Me, and in your sin you will die. Where I go you cannot come. The Jews therefore kept saying, Will He kill Himself, since He says, \u2018Where I go you cannot come\u2019? And He said to them, You are from below, I am from above. You are of this world, I am not of this world. Therefore I said to you that you will die in your sins; for if you do not believe that I am He, you will die in your sin. They therefore said to Him, Who are You? Jesus said to them, Why do I speak to you at all? I have many things to speak and to judge concerning you; but He Who sent Me is true, and the things that I heard from Him, these I speak in the world. And they did not understand that He was speaking to them about the father. Jesus therefore said to them, When you have lifted up the Son of Man, then you will know that I am He, and that of Myself I do nothing; but that I preach only what the Father has taught Me. And He Who sent Me is with Me; He has not left Me alone, because I do always the things that are pleasing to Him.", 
+        "body": "Continua\u00e7\u00e3o do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 8:21-29*\nNaquele tempo, Jesus disse \u00e0s turbas dos judeus: \u00abEu vou; procurar-me-eis e morrereis no vosso pecado. Aonde eu vou n\u00e3o podereis v\u00f3s ir\u00bb. Diziam, ent\u00e3o, os judeus: \u00abPorventura matar-se-\u00e1 Ele a si mesmo? Pois diz: \u00abAonde eu vou n\u00e3o podereis v\u00f3s ir?\u00bb. Ele disse-lhes: \u00abV\u00f3s sois debaixo e Eu sou do alto. V\u00f3s sois do mundo e Eu n\u00e3o sou deste mundo. Eu vos digo, pois: morrereis no vosso pecado porque, se n\u00e3o acreditardes quem Eu sou, morrereis no vosso pecado\u00bb. Diziam-lhe, ent\u00e3o: \u00abQuem sois V\u00f3s?\u00bb. Jesus respondeu-lhes: \u00abEu, que vos falo, sou o princ\u00edpio. Muitas coisas tenho de que deva censurar-vos e condenar-vos; mas Aquele que me enviou \u00e9 verdadeiro, e o que Eu digo ao mundo com Ele o aprendi\u00bb. Por\u00e9m, eles n\u00e3o compreenderam que Ele com estas palavras queria dizer que Deus era seu Pai. Disse-lhes, portanto, Jesus: \u00abQuando levantardes da terra o Filho do homem, ent\u00e3o conhecereis quem Eu sou; assim como que n\u00e3o fa\u00e7o nada de mim pr\u00f3prio e que o que digo foi meu Pai quem me ensinou. Aquele que me enviou est\u00e1 comigo, e n\u00e3o me deixa s\u00f3, porquanto fa\u00e7o sempre o que Lhe agrada\u00bb.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Sl 15:7-8*\nI bless the Lord, Who counsels me; I set the Lord ever before me; with Him at my right hand, I shall not be moved.", 
+        "body": "*Sl 15:7-8*\nBendirei o Senhor, que me deu intelig\u00eancia; tenho os meus olhos voltados continuamente para o Senhor; n\u00e3o vacilarei, porque Ele est\u00e1 \u00e0 minha direita.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "May this sacrificial gift offered in appeasement and praise, O Lord, make us worthy of Your protection.\nPor nosso Senhor...", 
+        "body": "Que esta h\u00f3stia de propicia\u00e7\u00e3o e de louvor, Senhor, nos torne dignos da vossa protec\u00e7\u00e3o.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -134,12 +137,12 @@
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Sl 8:2*\nO Lord, our Lord, how glorious is Your Name over all the earth!", 
+        "body": "*Sl 8:2*\nSenhor, nosso Deus, qu\u00e3o admir\u00e1vel \u00e9 o vosso nome em toda a terra!", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May this Communion, O Lord, cleanse us of sin, and make us partakers of heavenly healing.\nPor nosso Senhor...", 
+        "body": "Que esta comunh\u00e3o, Senhor, nos purifique de nossos crimes e nos fa\u00e7a participantes dos rem\u00e9dios celestiais.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
@@ -149,7 +152,7 @@
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
-        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nGive heed to our humble prayers, almighty God, and kindly grant Your oft-given mercy to those upon whom You bestow great hope in Your goodness.\nPor nosso Senhor...", 
+        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nSede atento \u00e0s nossas s\u00faplicas, \u00f3 Deus omnipotente; e permiti benignamente que aqueles que de V\u00f3s mereceram a doce confian\u00e7a de lhes revelardes que podiam ter esperan\u00e7a na vossa bondade alcancem os efeitos da vossa habitual miseric\u00f3rdia.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

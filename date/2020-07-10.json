@@ -14,12 +14,12 @@
     }, 
     "proper_latin": [
       {
-        "body": "*Ps 112:1; 112:9*\nLaud\u00e1te, pueri, D\u00f3minum, laud\u00e1te nomen D\u00f3mini: qui habit\u00e1re facit st\u00e9rilem in domo, matrem fili\u00f3rum l\u00e6t\u00e1ntem.\n*Ps 112:2*\nSit nomen D\u00f3mini bened\u00edctum: ex hoc nunc, ei usque in s\u01fdculum.\nGl\u00f3ria Patri.\nLaud\u00e1te, pueri, D\u00f3minum, laud\u00e1te nomen D\u00f3mini: qui habit\u00e1re facit st\u00e9rilem in domo, matrem fili\u00f3rum l\u00e6t\u00e1ntem.", 
+        "body": "*Ps 112:1; 112:9*\nLaud\u00e1te, p\u00faeri, D\u00f3minum, laud\u00e1te nomen D\u00f3mini: qui habit\u00e1re facit st\u00e9rilem in domo, matrem fili\u00f3rum l\u00e6t\u00e1ntem.\n*Ps 112:2*\nSit nomen D\u00f3mini bened\u00edctum: ex hoc nunc, ei usque in s\u01fdculum.\nGl\u00f3ria Patri.\nLaud\u00e1te, p\u00faeri, D\u00f3minum, laud\u00e1te nomen D\u00f3mini: qui habit\u00e1re facit st\u00e9rilem in domo, matrem fili\u00f3rum l\u00e6t\u00e1ntem.", 
         "id": "Introitus", 
         "label": "Introitus"
       }, 
       {
-        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui glori\u00f3sos Martyres fortes in sua confessi\u00f3ne cogn\u00f3vimus, pios apud te in nostra intercessi\u00f3ne senti\u00e1mus.\nPer Dominum...", 
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui glori\u00f3sos M\u00e1rtyres fortes in sua confessi\u00f3ne cogn\u00f3vimus, pios apud te in nostra intercessi\u00f3ne senti\u00e1mus.\nPer Dominum...", 
         "id": "Oratio", 
         "label": "Oratio"
       }, 
@@ -29,12 +29,12 @@
         "label": "Lectio"
       }, 
       {
-        "body": "*Ps 123:7-8.*\nAnima nostra, sicut passer, er\u00e9pta est de l\u00e1queo ven\u00e1ntium.\nV. L\u00e1queus contr\u00edtus est, et nos liber\u00e1ti sumus: adjut\u00f3rium nostrum in n\u00f3mine D\u00f3mini, qui fecit coelum et terram. Allel\u00faja, allel\u00faja.\nV. H\u00e6c est vera frat\u00e9rnitas, qu\u00e6 vicit mundi cr\u00edmina: Christum secuta est, \u00ednclita tenens regna coel\u00e9stia. Allel\u00faja.", 
+        "body": "*Ps 123:7-8.*\nAnima nostra, sicut passer, er\u00e9pta est de l\u00e1queo ven\u00e1ntium.\nV. L\u00e1queus contr\u00edtus est, et nos liber\u00e1ti sumus: adjut\u00f3rium nostrum in n\u00f3mine D\u00f3mini, qui fecit c\u0153lum et terram. Allel\u00faja, allel\u00faja.\nV. H\u00e6c est vera frat\u00e9rnitas, qu\u00e6 vicit mundi cr\u00edmina: Christum secuta est, \u00ednclita tenens regna c\u0153l\u00e9stia. Allel\u00faja.", 
         "id": "Graduale", 
         "label": "Graduale"
       }, 
       {
-        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 12:46-50.*\nIn illo t\u00e9mpore: Loquente Jesu ad turbas, ecce, Mater ejus et fratres stabant foris, qu\u00e6r\u00e9ntes loqui ei. Dixit autem ei quidam: Ecce, mater tua et fratres tui foris stant, qu\u00e6r\u00e9ntes te. At ipse resp\u00f3ndens dic\u00e9nti sibi, ait: Qu\u00e6 est mater mea et qui sunt fratres mei? Et ext\u00e9ndens manum in disc\u00edpulos suos, dixit: Ecce mater mea et fratres mei. Quic\u00famque enim f\u00e9cerit volunt\u00e1tem Patris mei, qui in coelis est: ipse meus frater et soror et mater est.", 
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 12:46-50.*\nIn illo t\u00e9mpore: Loquente Jesu ad turbas, ecce, Mater ejus et fratres stabant foris, qu\u00e6r\u00e9ntes loqui ei. Dixit autem ei quidam: Ecce, mater tua et fratres tui foris stant, qu\u00e6r\u00e9ntes te. At ipse resp\u00f3ndens dic\u00e9nti sibi, ait: Qu\u00e6 est mater mea et qui sunt fratres mei? Et ext\u00e9ndens manum in disc\u00edpulos suos, dixit: Ecce mater mea et fratres mei. Quic\u00famque enim f\u00e9cerit volunt\u00e1tem Patris mei, qui in c\u0153lis est: ipse meus frater et soror et mater est.", 
         "id": "Evangelium", 
         "label": "Evangelium"
       }, 

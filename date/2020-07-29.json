@@ -31,12 +31,12 @@
         "label": "Commemoratio Oratio"
       }, 
       {
-        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios\n*2 Cor 10:17-18; 11, 1-2.*\nFratres: Qui gloriatur, in D\u00f3mino glori\u00e9tur. Non enim, qui se\u00edpsum comm\u00e9ndat, ille prob\u00e1tus est; sed quem Deus comm\u00e9ndat. Utinam sustiner\u00e9tis m\u00f3dicum quid insipi\u00e9nti\u00e6 me\u00e6, sed et support\u00e1te me: \u00e6mulor enim vos Dei \u00e6mulati\u00f3ne. Desp\u00f3ndi enim vos uni viro v\u00edrginem castam exhib\u00e9re Christo.", 
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios\n*2 Cor 10:17-18; 11, 1-2.*\nFratres: Qui glori\u00e1tur, in D\u00f3mino glori\u00e9tur. Non enim, qui se\u00edpsum comm\u00e9ndat, ille prob\u00e1tus est; sed quem Deus comm\u00e9ndat. Utinam sustiner\u00e9tis m\u00f3dicum quid insipi\u00e9nti\u00e6 me\u00e6, sed et support\u00e1te me: \u00e6mulor enim vos Dei \u00e6mulati\u00f3ne. Desp\u00f3ndi enim vos uni viro v\u00edrginem castam exhib\u00e9re Christo.", 
         "id": "Lectio", 
         "label": "Lectio"
       }, 
       {
-        "body": "*Ps 44:5*\nSp\u00e9cie tua et pulchrit\u00fadine tua int\u00e9nde, pr\u00f3spere proc\u00e9de et regna.\nV. Propter verit\u00e1tem et mansuet\u00fadinem et just\u00edtiam: et ded\u00facet te mirab\u00edliter d\u00e9xtera tua. Allel\u00faja, allel\u00faja.\n*Ps 44:15; 44:16*\nAdduc\u00e1ntur Regi V\u00edrgines post eam: pr\u00f3xim\u00e6 ejus affer\u00e9ntur tibi in l\u00e6t\u00edtia. Allel\u00faja.", 
+        "body": "*Ps 44:5*\nSp\u00e9cie tua et pulchrit\u00fadine tua int\u00e9nde, pr\u00f3spere proc\u00e9de et regna.\nV. Propter verit\u00e1tem et mansuet\u00fadinem et just\u00edtiam: et ded\u00facet te mirab\u00edliter d\u00e9xtera tua. Allel\u00faja, allel\u00faja.\n*Ps 44:15; 44:16*\nAdduc\u00e9ntur Regi V\u00edrgines post eam: pr\u00f3xim\u00e6 ejus affer\u00e9ntur tibi in l\u00e6t\u00edtia. Allel\u00faja.", 
         "id": "Graduale", 
         "label": "Graduale"
       }, 
@@ -76,7 +76,7 @@
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut sanct\u00f3rum Martyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis coel\u00e9stibus m\u00fdsteriis celebr\u00e1ta soll\u00e9mnitas, indulg\u00e9ntiam nobis tu\u00e6 propitiati\u00f3nis acqu\u00edrat.\nPer Dominum...", 
+        "body": "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut sanct\u00f3rum Martyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis c\u0153l\u00e9stibus m\u00fdsteriis celebr\u00e1ta soll\u00e9mnitas, indulg\u00e9ntiam nobis tu\u00e6 propitiati\u00f3nis acqu\u00edrat.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }

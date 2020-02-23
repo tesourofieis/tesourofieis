@@ -1,491 +1,128 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-  "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-  <head>
-    <title>exceptions.ProperNotFound: Proper `/Users/frades/code/tesourofieis/Missal1962/missal1962/constants/../../resources/divinum-officium/web/www/missa/Portugues/Commune/Pasc7-0.txt` not found. // Werkzeug Debugger</title>
-    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css"
-        type="text/css">
-    <!-- We need to make sure this has a favicon so that the debugger does
-         not by accident trigger a request to /favicon.ico which might
-         change the application state. -->
-    <link rel="shortcut icon"
-        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
-    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js"></script>
-    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
-    <script type="text/javascript">
-      var TRACEBACK = 4598152640,
-          CONSOLE_MODE = false,
-          EVALEX = true,
-          EVALEX_TRUSTED = false,
-          SECRET = "2s6cimxpleBlQevzRsqo";
-    </script>
-  </head>
-  <body style="background-color: #fff">
-    <div class="debugger">
-<h1>ProperNotFound</h1>
-<div class="detail">
-  <p class="errormsg">exceptions.ProperNotFound: Proper `/Users/frades/code/tesourofieis/Missal1962/missal1962/constants/../../resources/divinum-officium/web/www/missa/Portugues/Commune/Pasc7-0.txt` not found.</p>
-</div>
-<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
-<div class="traceback">
-  
-  <ul><li><div class="frame" id="frame-4598043984">
-  <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py"</cite>,
-      line <em class="line">44</em>,
-      in <code class="function">parse</code></h4>
-  <div class="source "><pre class="line before"><span class="ws">        </span>self.translations[LANGUAGE_LATIN] = importlib.import_module(f'constants.{LANGUAGE_LATIN}.translation')</pre>
-<pre class="line before"><span class="ws">        </span>self.prefaces[self.lang] = self._parse_source('Ordo/Prefationes.txt', self.lang)</pre>
-<pre class="line before"><span class="ws">        </span>self.prefaces[LANGUAGE_LATIN] = self._parse_source('Ordo/Prefationes.txt', lang=LANGUAGE_LATIN)</pre>
-<pre class="line before"><span class="ws">        </span>partial_path = self._get_partial_path()</pre>
-<pre class="line before"><span class="ws">        </span>try:</pre>
-<pre class="line current"><span class="ws">            </span>proper_vernacular: Proper = self._parse_proper_source(partial_path, self.lang)</pre>
-<pre class="line after"><span class="ws">            </span>proper_latin: Proper = self._parse_proper_source(partial_path, LANGUAGE_LATIN)</pre>
-<pre class="line after"><span class="ws">        </span>except FileNotFoundError as e:</pre>
-<pre class="line after"><span class="ws">            </span>raise ProperNotFound(f'Proper `{e.filename}` not found.')</pre>
-<pre class="line after"><span class="ws">        </span>return proper_vernacular, proper_latin</pre>
-<pre class="line after"><span class="ws"></span> </pre></div>
-</div>
-
-<li><div class="frame" id="frame-4598046576">
-  <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py"</cite>,
-      line <em class="line">65</em>,
-      in <code class="function">_parse_proper_source</code></h4>
-  <div class="source "><pre class="line before"><span class="ws">        </span># Reference in Rule section in 'vide' or 'ex' clause - load all sections</pre>
-<pre class="line before"><span class="ws">        </span># from the referenced file and get sections that are not explicitly defined in the current proper.</pre>
-<pre class="line before"><span class="ws">        </span>vide = proper.get_rule('vide')</pre>
-<pre class="line before"><span class="ws">        </span>if vide:</pre>
-<pre class="line before"><span class="ws">            </span>nested_path = self._get_full_path(f'{vide}.txt', lang)</pre>
-<pre class="line current"><span class="ws">            </span>proper.merge(self._parse_source(nested_path, lang=lang))</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">        </span># Moving data from &quot;Comment&quot; section up as direct properties of a Proper object</pre>
-<pre class="line after"><span class="ws">        </span>parsed_comment: dict = self._parse_comment(proper.pop_section('Comment'))</pre>
-<pre class="line after"><span class="ws">        </span>proper.title = self.translations[lang].TITLES.get(self.proper_id)</pre>
-<pre class="line after"><span class="ws">        </span>proper.description = parsed_comment['description']</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4598045136">
-  <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py"</cite>,
-      line <em class="line">94</em>,
-      in <code class="function">_parse_source</code></h4>
-  <div class="source "><pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
-<pre class="line before"><span class="ws">        </span>parsed_source: ParsedSource = ParsedSource()</pre>
-<pre class="line before"><span class="ws">        </span>section_name: str = None</pre>
-<pre class="line before"><span class="ws">        </span>concat_line: bool = False</pre>
-<pre class="line before"><span class="ws">        </span>full_path: str = self._get_full_path(partial_path, lang)</pre>
-<pre class="line current"><span class="ws">        </span>with open(full_path) as fh:</pre>
-<pre class="line after"><span class="ws">            </span>for itr, ln in enumerate(fh):</pre>
-<pre class="line after"><span class="ws">                </span>ln = ln.strip()</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">                </span>if section_name is None and ln == '':</pre>
-<pre class="line after"><span class="ws">                    </span># Skipping empty lines in the beginning of the file</pre></div>
-</div>
-
-<li><div class="exc-divider">During handling of the above exception, another exception occurred:</div>
-<li><div class="frame" id="frame-4610139616">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
-      line <em class="line">2463</em>,
-      in <code class="function">__call__</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws"></span> </pre>
-<pre class="line before"><span class="ws">    </span>def __call__(self, environ, start_response):</pre>
-<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>
-<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app` which can be</pre>
-<pre class="line before"><span class="ws">        </span>wrapped to applying middleware.&quot;&quot;&quot;</pre>
-<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">    </span>def __repr__(self):</pre>
-<pre class="line after"><span class="ws">        </span>return &quot;&lt;%s %r&gt;&quot; % (self.__class__.__name__, self.name)</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610270448">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
-      line <em class="line">2449</em>,
-      in <code class="function">wsgi_app</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>
-<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
-<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
-<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>
-<pre class="line before"><span class="ws">                </span>error = e</pre>
-<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)</pre>
-<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
-<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
-<pre class="line after"><span class="ws">                </span>raise</pre>
-<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>
-<pre class="line after"><span class="ws">        </span>finally:</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610271408">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
-      line <em class="line">1866</em>,
-      in <code class="function">handle_exception</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws">            </span># if we want to repropagate the exception, we can attempt to</pre>
-<pre class="line before"><span class="ws">            </span># raise it with the whole traceback in case we can do that</pre>
-<pre class="line before"><span class="ws">            </span># (the function was actually called from the except part)</pre>
-<pre class="line before"><span class="ws">            </span># otherwise, we just raise the error again</pre>
-<pre class="line before"><span class="ws">            </span>if exc_value is e:</pre>
-<pre class="line current"><span class="ws">                </span>reraise(exc_type, exc_value, tb)</pre>
-<pre class="line after"><span class="ws">            </span>else:</pre>
-<pre class="line after"><span class="ws">                </span>raise e</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">        </span>self.log_exception((exc_type, exc_value, tb))</pre>
-<pre class="line after"><span class="ws">        </span>server_error = InternalServerError()</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610272608">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py"</cite>,
-      line <em class="line">39</em>,
-      in <code class="function">reraise</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws">    </span>import collections.abc as collections_abc</pre>
-<pre class="line before"><span class="ws"></span> </pre>
-<pre class="line before"><span class="ws">    </span>def reraise(tp, value, tb=None):</pre>
-<pre class="line before"><span class="ws">        </span>if value.__traceback__ is not tb:</pre>
-<pre class="line before"><span class="ws">            </span>raise value.with_traceback(tb)</pre>
-<pre class="line current"><span class="ws">        </span>raise value</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">    </span>implements_to_string = _identity</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws"></span>else:</pre>
-<pre class="line after"><span class="ws">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610271456">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
-      line <em class="line">2446</em>,
-      in <code class="function">wsgi_app</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
-<pre class="line before"><span class="ws">        </span>error = None</pre>
-<pre class="line before"><span class="ws">        </span>try:</pre>
-<pre class="line before"><span class="ws">            </span>try:</pre>
-<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
-<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
-<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>
-<pre class="line after"><span class="ws">                </span>error = e</pre>
-<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>
-<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
-<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610271984">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
-      line <em class="line">1951</em>,
-      in <code class="function">full_dispatch_request</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
-<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
-<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
-<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>
-<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>
-<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
-<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre>
-<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Given the return value from a view function this finalizes</pre>
-<pre class="line after"><span class="ws">        </span>the request by converting it into a response and invoking the</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610272560">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
-      line <em class="line">1820</em>,
-      in <code class="function">handle_user_exception</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws">            </span>return self.handle_http_exception(e)</pre>
-<pre class="line before"><span class="ws"></span> </pre>
-<pre class="line before"><span class="ws">        </span>handler = self._find_error_handler(e)</pre>
-<pre class="line before"><span class="ws"></span> </pre>
-<pre class="line before"><span class="ws">        </span>if handler is None:</pre>
-<pre class="line current"><span class="ws">            </span>reraise(exc_type, exc_value, tb)</pre>
-<pre class="line after"><span class="ws">        </span>return handler(e)</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">    </span>def handle_exception(self, e):</pre>
-<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Handle an exception that did not have an error handler</pre>
-<pre class="line after"><span class="ws">        </span>associated with it, or that was raised from an error handler.</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610272272">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py"</cite>,
-      line <em class="line">39</em>,
-      in <code class="function">reraise</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws">    </span>import collections.abc as collections_abc</pre>
-<pre class="line before"><span class="ws"></span> </pre>
-<pre class="line before"><span class="ws">    </span>def reraise(tp, value, tb=None):</pre>
-<pre class="line before"><span class="ws">        </span>if value.__traceback__ is not tb:</pre>
-<pre class="line before"><span class="ws">            </span>raise value.with_traceback(tb)</pre>
-<pre class="line current"><span class="ws">        </span>raise value</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">    </span>implements_to_string = _identity</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws"></span>else:</pre>
-<pre class="line after"><span class="ws">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610272176">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
-      line <em class="line">1949</em>,
-      in <code class="function">full_dispatch_request</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
-<pre class="line before"><span class="ws">        </span>try:</pre>
-<pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
-<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
-<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
-<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()</pre>
-<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>
-<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
-<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610272512">
-  <h4>File <cite class="filename">"/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py"</cite>,
-      line <em class="line">1935</em>,
-      in <code class="function">dispatch_request</code></h4>
-  <div class="source library"><pre class="line before"><span class="ws">            </span>getattr(rule, &quot;provide_automatic_options&quot;, False)</pre>
-<pre class="line before"><span class="ws">            </span>and req.method == &quot;OPTIONS&quot;</pre>
-<pre class="line before"><span class="ws">        </span>):</pre>
-<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>
-<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
-<pre class="line current"><span class="ws">        </span>return self.view_functions[rule.endpoint](**req.view_args)</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self):</pre>
-<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Dispatches the request and on top of that performs request</pre>
-<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
-<pre class="line after"><span class="ws">        </span>error handling.</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610272320">
-  <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/apiv2.py"</cite>,
-      line <em class="line">38</em>,
-      in <code class="function">v2_date</code></h4>
-  <div class="source "><pre class="line before"><span class="ws">    </span>except ValueError:</pre>
-<pre class="line before"><span class="ws">        </span>return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400</pre>
-<pre class="line before"><span class="ws">    </span>except Exception as e:</pre>
-<pre class="line before"><span class="ws">        </span>return jsonify({'error': str(e)}), 500</pre>
-<pre class="line before"><span class="ws">    </span>else:</pre>
-<pre class="line current"><span class="ws">        </span>return jsonify(format_propers(day))</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws"></span>@api.route('/api/v2/proper/&lt;string:proper_id&gt;')</pre>
-<pre class="line after"><span class="ws"></span># @api.route('/&lt;string:lang&gt;/api/v2/proper/&lt;string:proper_id&gt;')</pre>
-<pre class="line after"><span class="ws"></span>def v2_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610272848">
-  <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/utils.py"</cite>,
-      line <em class="line">31</em>,
-      in <code class="function">format_propers</code></h4>
-  <div class="source "><pre class="line before"><span class="ws">            </span>raise</pre>
-<pre class="line before"><span class="ws">    </span>return None</pre>
-<pre class="line before"><span class="ws"></span> </pre>
-<pre class="line before"><span class="ws"></span> </pre>
-<pre class="line before"><span class="ws"></span>def format_propers(day: 'Day'):</pre>
-<pre class="line current"><span class="ws">    </span>propers = day.get_proper()</pre>
-<pre class="line after"><span class="ws">    </span>retvals = []</pre>
-<pre class="line after"><span class="ws">    </span>for propers_vernacular, propers_latin in propers:</pre>
-<pre class="line after"><span class="ws">        </span># In most of the cases calculate the celebration title from the Observance object falling on</pre>
-<pre class="line after"><span class="ws">        </span># a given day; in case of days with multiple masses (02 Nov, 25 Dec) get the title from</pre>
-<pre class="line after"><span class="ws">        </span># proper's comment directly</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4610272128">
-  <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py"</cite>,
-      line <em class="line">186</em>,
-      in <code class="function">get_proper</code></h4>
-  <div class="source "><pre class="line before"><span class="ws">    </span>def get_proper(self) -&gt; List[Tuple['Proper', 'Proper']]:</pre>
-<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
-<pre class="line before"><span class="ws">        </span>Get proper that is used in today Mass. If given day does not have a dedicated proper,</pre>
-<pre class="line before"><span class="ws">        </span>use the one from the latest Sunday.</pre>
-<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
-<pre class="line current"><span class="ws">        </span>celebration_propers = self._calculate_proper(self.celebration)</pre>
-<pre class="line after"><span class="ws">        </span>if self.commemoration:</pre>
-<pre class="line after"><span class="ws">            </span>commemoration_propers = self._calculate_proper(self.commemoration)</pre>
-<pre class="line after"><span class="ws">            </span>for celebration_proper in celebration_propers:</pre>
-<pre class="line after"><span class="ws">                </span>for i in (0, 1):</pre>
-<pre class="line after"><span class="ws">                    </span>celebration_proper[i].add_commemorations([j[i] for j in commemoration_propers])</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4598044080">
-  <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py"</cite>,
-      line <em class="line">211</em>,
-      in <code class="function">_calculate_proper</code></h4>
-  <div class="source "><pre class="line before"><span class="ws">            </span>retval: List[Tuple[Proper, Proper]] = []</pre>
-<pre class="line before"><span class="ws">            </span>for observance in observances:</pre>
-<pre class="line before"><span class="ws">                </span>inter_readings_section = self._infer_inter_reading_section(observance)</pre>
-<pre class="line before"><span class="ws">                </span>inferred_prefaces = infer_custom_preface(observance, next(iter(self.tempora), None))</pre>
-<pre class="line before"><span class="ws">                </span>proper_config = ProperConfig(preface=inferred_prefaces, inter_readings_section=inter_readings_section)</pre>
-<pre class="line current"><span class="ws">                </span>retval.append(observance.get_proper(proper_config))</pre>
-<pre class="line after"><span class="ws">            </span>return retval</pre>
-<pre class="line after"><span class="ws">        </span>else:</pre>
-<pre class="line after"><span class="ws">            </span># It's a feria day without its own proper for which the last Sunday's proper is used</pre>
-<pre class="line after"><span class="ws">            </span>inferred_observances = self._infer_observance()</pre>
-<pre class="line after"><span class="ws">            </span>if observances:</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4598044320">
-  <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py"</cite>,
-      line <em class="line">77</em>,
-      in <code class="function">get_proper</code></h4>
-  <div class="source "><pre class="line before"><span class="ws">        </span>else:</pre>
-<pre class="line before"><span class="ws">            </span>self.weekday = self.date.weekday()</pre>
-<pre class="line before"><span class="ws">        </span>self.priority = self._calc_priority()</pre>
-<pre class="line before"><span class="ws"></span> </pre>
-<pre class="line before"><span class="ws">    </span>def get_proper(self, config=None) -&gt; Tuple['Proper', 'Proper']:</pre>
-<pre class="line current"><span class="ws">        </span>proper: Tuple['Proper', 'Proper'] = ProperParser(self.id, self.lang, config).parse()</pre>
-<pre class="line after"><span class="ws">        </span>if re.match(PATTERN_POST_EPIPHANY_SUNDAY, self.id) and self.date.month &gt;= 10:</pre>
-<pre class="line after"><span class="ws">            </span>self._adjust_sunday_shifted_from_post_epiphany(proper)</pre>
-<pre class="line after"><span class="ws">        </span>return proper</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">    </span>def has_proper(self) -&gt; bool:</pre></div>
-</div>
-
-<li><div class="frame" id="frame-4598043216">
-  <h4>File <cite class="filename">"/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py"</cite>,
-      line <em class="line">47</em>,
-      in <code class="function">parse</code></h4>
-  <div class="source "><pre class="line before"><span class="ws">        </span>partial_path = self._get_partial_path()</pre>
-<pre class="line before"><span class="ws">        </span>try:</pre>
-<pre class="line before"><span class="ws">            </span>proper_vernacular: Proper = self._parse_proper_source(partial_path, self.lang)</pre>
-<pre class="line before"><span class="ws">            </span>proper_latin: Proper = self._parse_proper_source(partial_path, LANGUAGE_LATIN)</pre>
-<pre class="line before"><span class="ws">        </span>except FileNotFoundError as e:</pre>
-<pre class="line current"><span class="ws">            </span>raise ProperNotFound(f'Proper `{e.filename}` not found.')</pre>
-<pre class="line after"><span class="ws">        </span>return proper_vernacular, proper_latin</pre>
-<pre class="line after"><span class="ws"></span> </pre>
-<pre class="line after"><span class="ws">    </span>def _parse_proper_source(self, partial_path: str, lang, lookup_section=None) -&gt; Proper:</pre>
-<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;</pre>
-<pre class="line after"><span class="ws">        </span>Read the file and organize the content as a list of dictionaries</pre></div>
-</div>
-</ul>
-  <blockquote>exceptions.ProperNotFound: Proper `/Users/frades/code/tesourofieis/Missal1962/missal1962/constants/../../resources/divinum-officium/web/www/missa/Portugues/Commune/Pasc7-0.txt` not found.</blockquote>
-</div>
-
-<div class="plain">
-  <form action="/?__debugger__=yes&amp;cmd=paste" method="post">
-    <p>
-      <input type="hidden" name="language" value="pytb">
-      This is the Copy/Paste friendly version of the traceback.  <span
-      class="pastemessage">You can also paste this traceback into
-      a <a href="https://gist.github.com/">gist</a>:
-      <input type="submit" value="create paste"></span>
-    </p>
-    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py&quot;, line 44, in parse
-    proper_vernacular: Proper = self._parse_proper_source(partial_path, self.lang)
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py&quot;, line 65, in _parse_proper_source
-    proper.merge(self._parse_source(nested_path, lang=lang))
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py&quot;, line 94, in _parse_source
-    with open(full_path) as fh:
-FileNotFoundError: [Errno 2] No such file or directory: '/Users/frades/code/tesourofieis/Missal1962/missal1962/constants/../../resources/divinum-officium/web/www/missa/Portugues/Commune/Pasc7-0.txt'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 2463, in __call__
-    return self.wsgi_app(environ, start_response)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 2449, in wsgi_app
-    response = self.handle_exception(e)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1866, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py&quot;, line 39, in reraise
-    raise value
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1951, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1820, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py&quot;, line 39, in reraise
-    raise value
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1949, in full_dispatch_request
-    rv = self.dispatch_request()
-  File &quot;/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py&quot;, line 1935, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/apiv2.py&quot;, line 38, in v2_date
-    return jsonify(format_propers(day))
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/utils.py&quot;, line 31, in format_propers
-    propers = day.get_proper()
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py&quot;, line 186, in get_proper
-    celebration_propers = self._calculate_proper(self.celebration)
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py&quot;, line 211, in _calculate_proper
-    retval.append(observance.get_proper(proper_config))
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py&quot;, line 77, in get_proper
-    proper: Tuple['Proper', 'Proper'] = ProperParser(self.id, self.lang, config).parse()
-  File &quot;/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py&quot;, line 47, in parse
-    raise ProperNotFound(f'Proper `{e.filename}` not found.')
-exceptions.ProperNotFound: Proper `/Users/frades/code/tesourofieis/Missal1962/missal1962/constants/../../resources/divinum-officium/web/www/missa/Portugues/Commune/Pasc7-0.txt` not found.</textarea>
-  </form>
-</div>
-<div class="explanation">
-  The debugger caught an exception in your WSGI application.  You can now
-  look at the traceback which led to the error.  <span class="nojavascript">
-  If you enable JavaScript you can also use additional features such as code
-  execution (if the evalex feature is enabled), automatic pasting of the
-  exceptions and much more.</span>
-</div>
-      <div class="footer">
-        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
-        friendly Werkzeug powered traceback interpreter.
-      </div>
-    </div>
-
-    <div class="pin-prompt">
-      <div class="inner">
-        <h3>Console Locked</h3>
-        <p>
-          The console is locked and needs to be unlocked by entering the PIN.
-          You can find the PIN printed out on the standard output of your
-          shell that runs the server.
-        <form>
-          <p>PIN:
-            <input type=text name=pin size=14>
-            <input type=submit name=btn value="Confirm Pin">
-        </form>
-      </div>
-    </div>
-  </body>
-</html>
-
-<!--
-
-Traceback (most recent call last):
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py", line 44, in parse
-    proper_vernacular: Proper = self._parse_proper_source(partial_path, self.lang)
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py", line 65, in _parse_proper_source
-    proper.merge(self._parse_source(nested_path, lang=lang))
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py", line 94, in _parse_source
-    with open(full_path) as fh:
-FileNotFoundError: [Errno 2] No such file or directory: '/Users/frades/code/tesourofieis/Missal1962/missal1962/constants/../../resources/divinum-officium/web/www/missa/Portugues/Commune/Pasc7-0.txt'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 2463, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 2449, in wsgi_app
-    response = self.handle_exception(e)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1866, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1951, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1820, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1949, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/Users/frades/.local/share/virtualenvs/Missal1962-8TPiezI6/lib/python3.8/site-packages/flask/app.py", line 1935, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/apiv2.py", line 38, in v2_date
-    return jsonify(format_propers(day))
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/utils.py", line 31, in format_propers
-    propers = day.get_proper()
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py", line 186, in get_proper
-    celebration_propers = self._calculate_proper(self.celebration)
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py", line 211, in _calculate_proper
-    retval.append(observance.get_proper(proper_config))
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/kalendar/models.py", line 77, in get_proper
-    proper: Tuple['Proper', 'Proper'] = ProperParser(self.id, self.lang, config).parse()
-  File "/Users/frades/code/tesourofieis/Missal1962/missal1962/propers/parser.py", line 47, in parse
-    raise ProperNotFound(f'Proper `{e.filename}` not found.')
-exceptions.ProperNotFound: Proper `/Users/frades/code/tesourofieis/Missal1962/missal1962/constants/../../resources/divinum-officium/web/www/missa/Portugues/Commune/Pasc7-0.txt` not found.
-
--->
+[
+  {
+    "info": {
+      "additional_info": [], 
+      "date": "2020-06-05", 
+      "description": "", 
+      "id": "tempora:Pasc7-5:1", 
+      "rank": 1, 
+      "supplements": [], 
+      "tempora": null, 
+      "title": "Sexta-feira das T\u00eamporas de Pentecostes"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 70:8 70:23*\nReple\u00e1tur os meum laude tua, allel\u00faja: ut possim cant\u00e1re, allel\u00faja: gaud\u00e9bunt l\u00e1bia mea,dum cant\u00e1vero tibi, allel\u00faja, allel\u00faja.\n*Ps 70:1-2*\nIn te, D\u00f3mine, sper\u00e1vi, non conf\u00fandar in \u00e6t\u00e9rnum: in just\u00edtia tua l\u00edbera me et \u00e9ripe me.\nGl\u00f3ria Patri.\nReple\u00e1tur os meum laude tua, allel\u00faja: ut possim cant\u00e1re, allel\u00faja: gaud\u00e9bunt l\u00e1bia mea,dum cant\u00e1vero tibi, allel\u00faja, allel\u00faja.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Da, qu\u01fdsumus, Eccl\u00e9si\u00e6 tu\u00e6, mis\u00e9ricors Deus: ut, Sancto Sp\u00edritu congreg\u00e1ta, host\u00edli null\u00e1tenus incursi\u00f3ne turb\u00e9tur.\nPer Dominum...", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Jo\u00e9lis Proph\u00e9t\u00e6\n*Joel 2:23-24; 2:26-27*\nH\u00e6c dicit D\u00f3minus Deus: Exsult\u00e1te, f\u00edlii Sion, et l\u00e6t\u00e1mini in D\u00f3mino, Deo vestro: quia dedit vobis doct\u00f3rem just\u00edti\u00e6, et desc\u00e9ndere f\u00e1ciet ad vos imbrem matut\u00ednum et ser\u00f3tinum, sicut in princ\u00edpio. Et impleb\u00fantur \u00e1re\u00e6 frum\u00e9nto et redund\u00e1bunt torcul\u00e1ria vino et \u00f3leo. Et comed\u00e9tis vesc\u00e9ntes et saturab\u00edmini, et laud\u00e1bitis nomen D\u00f3mini, Dei vestri, qui fecit mirab\u00edlia vob\u00edscum: et non confund\u00e1tur p\u00f3pulus me us in sempit\u00e9rnum. Et sci\u00e9tis, quia in m\u00e9dio Isra\u00ebl ego sum: et ego D\u00f3minus, Deus vester, et non est \u00e1mplius: et non confund\u00e9tur p\u00f3pulus me us in \u00e6t\u00e9rnum: ait D\u00f3minus omn\u00edpotens.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "Allel\u00faja, allel\u00faja.\n*Ps 12:1*\nO quam bonus et su\u00e1vis est, D\u00f3mine, Sp\u00edritus tuus in nobis! Allel\u00faja. (Hic genuflectitur)\nV. Veni, Sancte Sp\u00edritus, reple tu\u00f3rum corda fid\u00e9lium: et tui am\u00f3ris in eis ignem acc\u00e9nde.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Veni, Sancte Sp\u00edritus,\net em\u00edtte c\u01fdlitus\nlucis tu\u00e6 r\u00e1dium.\n\nVeni, pater p\u00e1uperum;\nveni, dator m\u00fanerum;\nveni, lumen c\u00f3rdium.\n\nConsol\u00e1tor \u00f3ptime,\ndulcis hospes \u00e1nim\u00e6,\ndulce refrig\u00e9rium.\n\nIn lab\u00f3re r\u00e9quies,\nin \u00e6stu temp\u00e9ries,\nin fletu sol\u00e1cium.\n\nO lux beat\u00edssima,\nreple cordis \u00edntima\ntu\u00f3rum fid\u00e9lium.\n\nSine tuo n\u00famine\nnihil est in h\u00f3mine,\nnihil est inn\u00f3xium.\n\nLava quod est s\u00f3rdidum,\nriga quod est \u00e1ridum,\nsana quod est s\u00e1ucium.\n\nFlecte quod est r\u00edgidum,\nfove quod est fr\u00edgidum,\nrege quod est d\u00e9vium.\n\nDa tuis fid\u00e9libus,\nin te confid\u00e9ntibus,\nsacrum septen\u00e1rium.\n\nDa virt\u00fatis m\u00e9ritum,\nda sal\u00fatis \u00e9xitum,\nda per\u00e9nne g\u00e1udium.\nAmen. Allel\u00faja.", 
+        "id": "Sequentia", 
+        "label": "Sequentia"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam\n*Luc 5:17-26*\nIn illo t\u00e9mpore: Factum est in una di\u00e9rum, et Jesus sed\u00e9bat docens. Et erant pharis\u01fdi sed\u00e9ntes, et legis doct\u00f3res, qui v\u00e9nerant ex omni cast\u00e9llo Galil\u01fd\u00e6 et Jud\u01fd\u00e6 et Jer\u00fasalem: et virtus D\u00f3mini erat ad san\u00e1ndum eos. Et ecce, viri port\u00e1ntes in lecto h\u00f3minem, qui erat paral\u00fdticus: et qu\u00e6r\u00e9bant eum inf\u00e9rre, et p\u00f3nere ante eum. Et non inveni\u00e9ntes, qua parte illum inf\u00e9rrent pr\u00e6 turba, ascend\u00e9runt supra tectum, et per t\u00e9gulas summis\u00e9runt eum cum lecto in m\u00e9dium ante Jesum. Quorum fidem ut vidit, dixit: Homo, remitt\u00fantur tibi pecc\u00e1ta tua. Et c\u0153p\u00e9runt cogit\u00e1re scrib\u00e6 et pharis\u01fdi, dic\u00e9ntes: Quis est hic, qui l\u00f3quitur blasph\u00e9mias ? Quis potest dim\u00edttere pecc\u00e1ta nisi solus Deus? Ut cogn\u00f3vit autem Jesus cogitati\u00f3nes e\u00f3rum, resp\u00f3ndens dixit ad illos: Quid cogit\u00e1tis in c\u00f3rdibus vestris? Quid est fac\u00edlius d\u00edcere: Dimitt\u00fantur tibi pecc\u00e1ta, an d\u00edcere: Surge et \u00e1mbula? Ut autem sci\u00e1tis, quia F\u00edlius h\u00f3minis habet potest\u00e1tem in terra dimitt\u00e9ndi pecc\u00e1ta (ait paral\u00fdtico): Tibi dico, surge, tolle lectum tuum et vade in domum tuam. Et conf\u00e9stim cons\u00fargens coram illis, tulit lectum, in quo jac\u00e9bat: et \u00e1biit in domum suam, magn\u00edficans Deum. Et stupor appreh\u00e9ndit omnes et magnific\u00e1bant Deum. Et repl\u00e9ti sunt tim\u00f3re, dic\u00e9ntes: Quia v\u00eddimus mirab\u00edlia h\u00f3die.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Sap 145:2*\nLauda, \u00e1nima mea, D\u00f3minum: laud\u00e1bo D\u00f3minum in vita mea: psallam Deo meo, qu\u00e1mdiu ero, allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Sacrif\u00edcia, D\u00f3mine, tuis obl\u00e1ta consp\u00e9ctibus, ignis ille div\u00ednus abs\u00famat, qui discipul\u00f3rum Christi, F\u00edlii tui, per Sp\u00edritum Sanctum corda succ\u00e9ndit.\nPer Dominum...", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Paschalis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te quidem, D\u00f3mine, omni t\u00e9mpore, sed in hoc pot\u00edssimum (sed tempore Passionis)\nhac pot\u00edssimum nocte (sed octava Pasch\u00e6)\nhac pot\u00edssimum die glori\u00f3sius pr\u00e6dic\u00e1re, cum Pascha nostrum immol\u00e1tus est Christus. Ipse enim verus est Agnus, qui \u00e1bstulit pecc\u00e1ta mundi. Qui mortem nostram mori\u00e9ndo destr\u00faxit et vitam resurg\u00e9ndo repar\u00e1vit. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Joannes 14:18*\nNon vos rel\u00ednquam \u00f3rphanos: v\u00e9niam ad vos \u00edterum, allel\u00faja: et gaud\u00e9bit cor vestrum, allel\u00faja.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "S\u00fampsimus, D\u00f3mine, sacri dona myst\u00e9rii: hum\u00edliter deprec\u00e1ntes; ut, qu\u00e6 in tui commemorati\u00f3nem nos f\u00e1cere pr\u00e6cep\u00edsti, in nostr\u00e6 prof\u00edciant infirmit\u00e1tis aux\u00edlium:\nQui vivis...", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
+    ], 
+    "proper_vernacular": [
+      {
+        "body": "*Sl 70:8; 70:23*\nLet my mouth be filled with Your praise, alleluia: that I may sing, alleluia. My lips shall shout for joy as I sing Your praises, alleluia, alleluia.\n*Sl 70:1-2*\nIn You, O Lord, I take refuge; let me never be put to shame, in Your justice rescue me, and deliver me.\nGl\u00f3ria ao Pai.\nv, Let my mouth be filled with Your praise, alleluia: that I may sing, alleluia. My lips shall shout for joy as I sing Your praises, alleluia, alleluia.", 
+        "id": "Introitus", 
+        "label": "Intr\u00f3ito"
+      }, 
+      {
+        "body": "Grant to Your Church, we beseech You, almighty God, that, united by the Holy Spirit, she may in no way be harmed by any assault of the enemy.\nPor nosso Senhor...", 
+        "id": "Oratio", 
+        "label": "Ora\u00e7\u00e3o"
+      }, 
+      {
+        "body": "Lesson from the book of Joel\n*Joel 2:23-24; 26-27*\nThus says the Lord God: O children of Sion, exult and rejoice in the Lord, your God! He has given you the teacher of justice: He has made the rain come down for you, the early and the late rain as before. The threshing floors shall be full of grain and the vats shall overflow with wine and oil. You shall eat and be filled, and shall praise the name of the Lord, your God, because He has dealt wondrously with you; My people shall nevermore be put to shame. And you shall know that I am in the midst of Israel; I am the Lord, your God, and there is no other; My people shall nevermore be put to shame, says the Lord almighty.", 
+        "id": "Lectio", 
+        "label": "Ep\u00edstola"
+      }, 
+      {
+        "body": "Alleluia, alleluia.\n*Sb 12:1*\nV. O how good and sweet is Your Spirit, O Lord, within us! Alleluia. (Kneel.)\nV. Come, O Holy Spirit, fill the hearts of Your faithful; and kindle in them the fire of Your love.", 
+        "id": "Graduale", 
+        "label": "Gradual"
+      }, 
+      {
+        "body": "Holy Spirit! Lord of light!\nFrom Thy clear celestial height,\nThy pure, beaming radiance give:\n\nCome, Thou, Father of the poor!\nCome, with treasures which endure!\nCome, Thou light of all that live!\n\nThou of all consolers best,\nVisiting the troubled breast,\nDost refreshing peace bestow:\n\nThou in toil art comfort sweet;\nPleasant coolness in the heat;\nSolace in the midst of woe.\n\nLight immortal! Light divine!\nVisit Thou these hearts of Thine,\nAnd our inmost being fill.\n\nIf Thou take Thy grace away,\nNothing pure in man will stay;\nAll his good is turn\ufffdd to ill.\n\nHeal our wounds - our strength renew;\nOn our dryness pour Thy dew;\nWash the stains of guilt away:\n\nBend the stubborn heart and will;\nMelt the frozen, warm the chill;\nGuide the steps that go astray.\n\nThou, on those who evermore\nThee confess and Thee adore,\nIn Thy sevenfold gifts descend.\n\nGive them comfort when they die;\nGive them life with Thee on high;\nGive them joys which never end.\nAmen. Alleluia.", 
+        "id": "Sequentia", 
+        "label": "Sequ\u00eancia"
+      }, 
+      {
+        "body": "Continuation \u2629 of the Holy Gospel according to Luke\n*Lc 5:17-26*\nAt that time, it came to pass on one of the days, that Jesus sat teaching. And there were Pharisees and teachers of the Law sitting by, who had come out of every village of Galilee and Judea and out of Jerusalem. And the power of the Lord was present to heal them. And behold, some men were carrying upon a pallet a man who was paralyzed, and they were trying to bring him in and to lay him before Him. And as they found no way of bringing him in, because of the crowd, they went up onto the roof and lowered him through the tiles, with his pallet, into the midst before Jesus. And seeing their faith, He said, Man, your sins are forgiven you. And the Scribes and Pharisees began to argue, saying, Who is this man who speaks blasphemies? Who can forgive sins, but God only? But Jesus, knowing their thoughts, answered and said to them, \"Why are you arguing in your hearts? Which is easier, to say, 'Your sins are forgiven you,' or to say, 'Arise and walk'?\" But that you may know that the Son of Man has power on earth to forgive sins - He said to the paralytic - I say to you, arise, take up your pallet and go to your house. And immediately he arose before them, took up what he had been lying on, and went away to his house, glorifying God. And astonishment seized upon them all, and they glorified God and were filled with fear, saying, We have seen wonderful things today.", 
+        "id": "Evangelium", 
+        "label": "Evangelho"
+      }, 
+      {
+        "body": "*Sl 145:1-2*\nPraise the Lord, O my soul; I will praise the Lord all my life; I will sing praise to my God while I live, alleluia.", 
+        "id": "Offertorium", 
+        "label": "Ofert\u00f3rio"
+      }, 
+      {
+        "body": "May the sacrificial gifts offered in Your sight, O Lord, be consumed by that divine fire which the Holy Spirit enkindled in the hearts of the disciples of Christ, Your Son.\nPor nosso Senhor...", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
+        "id": "Prefatio", 
+        "label": "Pref\u00e1cio"
+      }, 
+      {
+        "body": "*Jo 14:18*\nI will not leave you orphans; I will come to you again, alleluia: and your heart shall rejoice, alleluia.", 
+        "id": "Communio", 
+        "label": "Com\u00fanio"
+      }, 
+      {
+        "body": "We who have received the gift of Your Blessed Sacrament, O Lord, humbly pray that what You have taught us to do in commemoration of You, may profit and help us in our weakness.\n\u00d3 V\u00f3s, que viveis...", 
+        "id": "Postcommunio", 
+        "label": "Postcom\u00fanio"
+      }
+    ]
+  }
+]

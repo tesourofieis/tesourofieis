@@ -3,17 +3,20 @@ importScripts(
   "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.js"
 );
 
-workbox.googleAnalytics.initialize();
-
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
-const updateChannel = new BroadcastChannel("precache-v0.0.7");
+const updateChannel = new BroadcastChannel("precache-v0.0.8");
+console.log("Version: ", updateChannel.name);
 updateChannel.addEventListener("message", event => {
-  if (confirm(`New content is available!. Click OK to refresh`)) {
+  if (confirm(`Novo conteúdo disponível!. Clique OK para actualizar`)) {
     window.location.reload();
   }
 });
+
+workbox.precaching.addPlugins([
+  new workbox.broadcastUpdate.Plugin('precache-updates')
+]);
 
 let today = moment(new Date()).format("YYYY-MM-DD");
 let tp1 = moment(new Date())
@@ -137,3 +140,5 @@ workbox.routing.registerRoute(
     cacheName: 'json'
   })
 );
+
+workbox.googleAnalytics.initialize();

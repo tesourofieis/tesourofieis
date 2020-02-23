@@ -12,7 +12,7 @@
     }, 
     "proper_latin": [
       {
-        "body": "*Ps 54:17; 54:19; 54:20; 54:23*\nDum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam ab his, qui approp\u00ednquant mihi, et humili\u00e1vit eos, qui est ante s\u01fdcula et manet in \u00e6t\u00e9rnum: jacta cogit\u00e1tum tuum in D\u00f3mino, et ipse te en\u00fatriet.\n*Ps 54:2-3*\nEx\u00e1udi, Deus, orati\u00f3nem meam, et ne desp\u00e9xeris deprecati\u00f3nem meam: int\u00e9nde mihi et ex\u00e1udi me.\nGl\u00f3ria Patri.\nDum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam ab his, qui approp\u00ednquant mihi, et humili\u00e1vit eos, qui est ante s\u01fdcula et manet in \u00e6t\u00e9rnum: jacta cogit\u00e1tum tuum in D\u00f3mino, et ipse te en\u00fatriet.", 
+        "body": "*Ps 54:17-23*\nDum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam ab his, qui approp\u00ednquant mihi, et humili\u00e1vit eos, qui est ante s\u01fdcula et manet in \u00e6t\u00e9rnum: jacta cogit\u00e1tum tuum in D\u00f3mino, et ipse te en\u00fatriet.\n*Ps 54:2-3*\nEx\u00e1udi, Deus, orati\u00f3nem meam, et ne desp\u00e9xeris deprecati\u00f3nem meam: int\u00e9nde mihi et ex\u00e1udi me.\nGl\u00f3ria Patri.\nDum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam ab his, qui approp\u00ednquant mihi, et humili\u00e1vit eos, qui est ante s\u01fdcula et manet in \u00e6t\u00e9rnum: jacta cogit\u00e1tum tuum in D\u00f3mino, et ipse te en\u00fatriet.", 
         "id": "Introitus", 
         "label": "Introitus"
       }, 
@@ -69,37 +69,37 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sl 54:17, 19-20, 23.*\nWhen I called upon the Lord, He heard my voice from those who war against me; and He humbled them, Who is before all ages and remains forever. Cast your care upon the Lord, and He will support you.\n*Sl 54:2*\nHearken, O God, to my prayer; turn not away from my pleading; give heed to me, and answer me.\nGl\u00f3ria ao Pai.\nWhen I called upon the Lord, He heard my voice from those who war against me; and He humbled them, Who is before all ages and remains forever. Cast your care upon the Lord, and He will support you.", 
+        "body": "*Sl 54:17, 19-20, 23.*\nQuando invoquei o Senhor, ouviu Ele a minha voz e livrou-me daqueles que vinham contra mim: e Aquele que existe antes de todos os s\u00e9culos e existir\u00e1 eternamente os humilhar\u00e1. Abandonai ao Senhor os vossos cuidados, pois Ele providenciar\u00e1.\n*Sl 54:2*\nOuvi, \u00f3 Deus, a minha ora\u00e7\u00e3o e n\u00e3o desprezeis a minha humilde s\u00faplica.\nGl\u00f3ria ao Pai.\nQuando invoquei o Senhor, ouviu Ele a minha voz e livrou-me daqueles que vinham contra mim: e Aquele que existe antes de todos os s\u00e9culos e existir\u00e1 eternamente os humilhar\u00e1. Abandonai ao Senhor os vossos cuidados, pois Ele providenciar\u00e1.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "O God, offended by sin, and appeased by penitence, graciously hear the prayers of Your people as they entreat You to turn away from us the scourges of anger that we have deserved because of our sins.\nPor nosso Senhor...", 
+        "body": "\u00d3 Deus, que Vos ofendeis com o pecado e aplacais com a penit\u00eancia, ouvi prop\u00edcio as preces do vosso povo suplicante e afastai os flagelos da vossa ira, que merecemos pelos nossos pecados.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Lesson from the book of Isaias\n*Is 38:1-6*\nIn those days, when Ezechia was mortally ill, the prophet Isaiah, son of Amos, came and said to him; Thus says the Lord: \ufffdPut your house in order, for you are about to die; you shall not recover.\ufffd Then Ezechia turned his face to the wall and prayed to the Lord: O Lord, remember how faithfully and wholeheartedly I conducted myself in Your presence, doing what was pleasing to You! And Ezechia wept bitterly. Then the word of the Lord came to Isaiah: Go, tell Ezechia: Thus says the Lord, the God of your father David: I have heard your prayer and seen your tears. I will add fifteen years to your life. I will rescue you and this city from the hand of the king of Assyria; I will be a shield to this city, says the Lord almighty.", 
+        "body": "Li\u00e7\u00e3o do Profeta Isa\u00edas.\n*Is 38:1-6*\nNaqueles dias, Ezequias foi atacado de doen\u00e7a mortal. Ent\u00e3o, o Profeta Isa\u00edas, filho de Am\u00f3s, veio ter com ele e disse-lhe: \u00abIsto diz o Senhor: \u00abDisp\u00f5e os neg\u00f3cios da tua casa, porque morrer\u00e1s e n\u00e3o viver\u00e1s\u00bb. Ezequias voltou o rosto para a parede e dirigiu esta ora\u00e7\u00e3o ao Senhor: \u00abLembrai-Vos, Senhor, Vos suplico, de que tenho caminhado na vossa presen\u00e7a com a verdade e com o cora\u00e7\u00e3o \u00edntegro e tenho praticado o que \u00e9 agrad\u00e1vel a vossos olhos\u00bb. Depois, Ezequias chorou amargamente. Ent\u00e3o o Senhor falou a Isa\u00edas nestes termos: \u00abIde e dizei a Ezequias: Isto diz o Senhor, Deus de David, vosso Pai: Ouvi a vossa ora\u00e7\u00e3o e vi as vossas l\u00e1grimas; eis que acrescentarei ainda a vossa vida com quinze anos e vos livrarei, e a esta terra, do jugo do rei da Ass\u00edria e a protegerei\u00bb: diz o Senhor omnipotente.", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
       {
-        "body": "*Sl 54:23, 17-19.*\nCast your care upon the Lord, and He will support you.\nV. When I called upon the Lord, He heard my voice from those who war against me.", 
+        "body": "*Sl 54:23, 17-19.*\nAbandonai ao Senhor os vossos cuidados, pois Ele providenciar\u00e1.\nV. Quando invoquei o Senhor, ouviu Ele a minha voz e livrou-me daqueles que vinham contra mim.", 
         "id": "Graduale", 
         "label": "Gradual"
       }, 
       {
-        "body": "Continuation \u2629 of the Holy Gospel according to Matthew\n*Mt. 8:5-13*\nAt that time, when Jesus had entered Capharnaum, there came to Him a centurion, who entreated Him, saying, Lord, my servant is lying sick in the house, paralyzed, and is grievously afflicted. Jesus said to him, I will come and cure him. But in answer the centurion said, Lord, I am not worthy that You should come under my roof; but only say the word, and my servant will be healed. For I too am a man subject to authority, and have soldiers subject to me; and I say to one, \ufffdGo,\ufffd and he goes; and to another, \ufffdCome,\ufffd and he comes; and to my servant, \ufffdDo this,\ufffd and he does it. And when Jesus heard this, He marveled, and said to those who were following Him, Amen I say to you, I have not found such great faith in Israel. And I tell you that many will come from the east and from the west, and will feast with Abraham and Isaac and Jacob in the kingdom of heaven, but the children of the kingdom will be put forth into the darkness outside; there will be the weeping, and the gnashing of teeth. Then Jesus said to the centurion, Go your way; as you have believed, so be it done to you. And the servant was healed in that hour.", 
+        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Mt. 8:5-13*\nNaquele tempo, entrando Jesus em Cafarnaum, aproximou-se dele um centuri\u00e3o, pedindo-Lhe e dizendo: \u00abSenhor, o meu servo jaz em casa paral\u00edtico e sofre gravemente\u00bb. Jesus disse-lhe: \u00abEu irei e o curarei\u00bb. Mas o centuri\u00e3o respondeu: \u00abSenhor, n\u00e3o sou digno de que entreis em minha casa; dizei somente uma palavra e o meu servo ser\u00e1 curado. Pois eu, posto que seja um homem sujeito a outros superiores, tenho soldados debaixo das minhas ordens. E digo a um: vai; e ele vai. E digo a outro: vem; e ele vem. E digo ao meu servo: faz isto; e ele faz\u00bb. Ouvindo Jesus isto, ficou admirado e disse aos que O seguiam: \u00abEm verdade vos digo que nunca encontrei t\u00e3o grande f\u00e9 em Israel! Declaro-vos que muitos vir\u00e3o do Oriente e do Ocidente e tomar\u00e3o lugar no banquete com Abra\u00e3o, Isaque e Jacob, no reino dos c\u00e9us; mas os filhos do reino ser\u00e3o lan\u00e7ados nas trevas exteriores, onde s\u00f3 haver\u00e1 pranto e ranger de dentes\u00bb. Ent\u00e3o Jesus disse ao centuri\u00e3o: \u00abVai; e, assim como acreditaste, assim acontecer\u00e1\u00bb. E naquela hora o servo foi curado.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Sl 24:1-3*\nTo You, O Lord, I lift up my soul: in You, O my God, I trust; let me not be put to shame, let not my enemies exult over me. No one who waits on You shall be put to shame.", 
+        "body": "*Sl 24:1-3*\nElevei a minha alma at\u00e9 V\u00f3s, Senhor, meu Deus: tenho confian\u00e7a em V\u00f3s: n\u00e3o serei confundido; n\u00e3o permitireis que meus inimigos zombem de mim, porque todos aqueles que esperam em V\u00f3s, n\u00e3o ser\u00e3o confundidos.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "O Lord, we beseech You to look with favor upon these offerings before You, and may they be profitable to our devotion as well as to our salvation.\nPor nosso Senhor...", 
+        "body": "Senhor, Vos suplicamos, olhai benigno para o presente sacrif\u00edcio, a fim de que sirva para aumento da nossa devo\u00e7\u00e3o e para a nossa salva\u00e7\u00e3o.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
@@ -109,17 +109,17 @@
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Sl 50:21*\nYou shall be pleased with due sacrifices, burnt offerings and holocausts on Your altar, O Lord.", 
+        "body": "*Sl 50:21*\nRecebeis sobre o vosso altar, Senhor, o sacrif\u00edcio de justi\u00e7a, as ofertas e os holocaustos.", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "We humbly beseech You, almighty God, that, having received the blessing of Your heavenly gift, it may be for us the source of sacramental grace and of salvation.\nPor nosso Senhor...", 
+        "body": "Havendo recebido a b\u00ean\u00e7\u00e3o do dom celestial, humildemente Vos suplicamos, Deus omnipotente, que este mesmo dom seja para n\u00f3s motivo de satisfa\u00e7\u00e3o e de salva\u00e7\u00e3o.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nSpare, O Lord, spare Your people, that, being chastened with well-deserved scourging, they may find relief through Your compassion.\nPor nosso Senhor...", 
+        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nPerdoai, Senhor, perdoai ao vosso povo, a fim de que, castigado merecidamente com os flagelos, possa, enfim, respirar, bafejado pela vossa miseric\u00f3rdia.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

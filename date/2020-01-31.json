@@ -14,7 +14,7 @@
     }, 
     "proper_latin": [
       {
-        "body": "*3 Reg 4:29.*\nDedit illi Deus sapi\u00e9ntiam, et prud\u00e9ntiam multam nimis, et latit\u00fadinem cordis, quasi ar\u00e9nam qu\u00e6 est in l\u00edttore maris.\n*Ps 112:1.*\nLaud\u00e1te, p\u00faeri, D\u00f3minum, laud\u00e1te nomen D\u00f3mini.\nGl\u00f3ria Patri.\nDedit illi Deus sapi\u00e9ntiam, et prud\u00e9ntiam multam nimis, et latit\u00fadinem cordis, quasi ar\u00e9nam qu\u00e6 est in l\u00edttore maris.", 
+        "body": "*3 Reg 4:29*\nDedit illi Deus sapi\u00e9ntiam, et prud\u00e9ntiam multam nimis, et latit\u00fadinem cordis, quasi ar\u00e9nam qu\u00e6 est in l\u00edttore maris.\n*Ps 112:1.*\nLaud\u00e1te, p\u00faeri, D\u00f3minum, laud\u00e1te nomen D\u00f3mini.\nGl\u00f3ria Patri.\nDedit illi Deus sapi\u00e9ntiam, et prud\u00e9ntiam multam nimis, et latit\u00fadinem cordis, quasi ar\u00e9nam qu\u00e6 est in l\u00edttore maris.", 
         "id": "Introitus", 
         "label": "Introitus"
       }, 
@@ -34,7 +34,7 @@
         "label": "Graduale"
       }, 
       {
-        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 18:1-5*\nIn illo t\u00e9mpore: Access\u00e9runt disc\u00edpuli ad Jesum dic\u00e9ntes: Quis, putas, major est in regno c\u00e6l\u00f3rum? Et ad vocans Jesus p\u00e1rvulum, st\u00e1tuit eum in m\u00e9dio e\u00f3rum, et dixit: Amen dico vobis, nisi conv\u00e9rsi fueritis, et effici\u00e1mini sicut p\u00e1rvuli, non intr\u00e1bitis in regnum c\u0153l\u00f3rum. Quic\u00famque ergo humili\u00e1verit se sicut p\u00e1rvulus iste, hic est major in regno c\u0153l\u00f3rum. Et qui susc\u00e9perit unum p\u00e1rvulum talem in n\u00f3mine meo, me s\u00fascipit.", 
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 18:1-5*\nIn illo t\u00e9mpore: Access\u00e9runt disc\u00edpuli ad Jesum dic\u00e9ntes: Quis, putas, major est in regno c\u00e6l\u00f3rum? Et \u00e1dvocans Jesus p\u00e1rvulum, st\u00e1tuit eum in m\u00e9dio e\u00f3rum, et dixit: Amen dico vobis, nisi conv\u00e9rsi fueritis, et effici\u00e1mini sicut p\u00e1rvuli, non intr\u00e1bitis in regnum c\u0153l\u00f3rum. Quic\u00famque ergo humili\u00e1verit se sicut p\u00e1rvulus iste, hic est major in regno c\u0153l\u00f3rum. Et qui susc\u00e9perit unum p\u00e1rvulum talem in n\u00f3mine meo, me s\u00fascipit.", 
         "id": "Evangelium", 
         "label": "Evangelium"
       }, 

@@ -1,7 +1,10 @@
 [
   {
     "info": {
-      "additional_info": [], 
+      "additional_info": [
+        "Esta\u00e7\u00e3o em Santa Maria al\u00e9m Tibre", 
+        "Paramentos roxos"
+      ], 
       "date": "2020-03-12", 
       "description": "\nComemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja.", 
       "id": "tempora:Quad2-4:3", 
@@ -84,47 +87,47 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sl 69:2-3*\nDeign, O God, to rescue me; O Lord, make haste to help me; let my enemies be put to shame and confounded who seek my life.\n*Sl 69:4*\nLet them be turned back in disgrace who desire my ruin.\nGl\u00f3ria ao Pai.\nDeign, O God, to rescue me; O Lord, make haste to help me; let my enemies be put to shame and confounded who seek my life.", 
+        "body": "*Sl 69:2-3*\n\u00d3 Deus, vinde em meu aux\u00edlio; apressai-Vos, Senhor, em socorrer-me. Sejam confundidos e cobertos de opr\u00f3brio os meus inimigos que procuram tirar-me a vida.\n*Sl 69:4*\nQue se afastem de mim, cheios de vergonha, os que conjuram contra mim!\nGl\u00f3ria ao Pai.\n\u00d3 Deus, vinde em meu aux\u00edlio; apressai-Vos, Senhor, em socorrer-me. Sejam confundidos e cobertos de opr\u00f3brio os meus inimigos que procuram tirar-me a vida.", 
         "id": "Introitus", 
         "label": "Intr\u00f3ito"
       }, 
       {
-        "body": "Grant, we beseech You, O Lord, the help of Your grace, that, being intent, as we ought, upon fasting and prayer, we may be delivered from the enemies of soul and of body.\nPor nosso Senhor...", 
+        "body": "Concedei-nos, Senhor, Vos suplicamos, o aux\u00edlio da vossa gra\u00e7a, a fim de que, estando n\u00f3s convenientemente aplicados aos jejuns e \u00e0s ora\u00e7\u00f5es, sejamos livres dos inimigos da alma e do corpo.\nPor nosso Senhor...", 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nBo\u017ce, kt\u00f3ry udzieli\u0142e\u015b nagrody wiecznej szcz\u0119\u015bliwo\u015bci duszy s\u0142ugi Swojego \u015bwi\u0119tego Grzegorza, spraw \u0142askawie, aby nas pod\u017awign\u0119\u0142y jego pro\u015bby u Ciebie, gdy nas przyt\u0142acza ci\u0119\u017car w\u0142asnych grzech\u00f3w.\nPor nosso Senhor...", 
+        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\n\u00d3 Deus, que concedestes \u00e0 alma do vosso servo Greg\u00f3rio a recompensa da bem-aventuran\u00e7a eterna, permiti benigno que pelos seus rogos junto de V\u00f3s sejamos aliviados do peso dos nossos pecados, que tanto nos oprimem.\nPor nosso Senhor...", 
         "id": "Commemoratio Oratio", 
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
       }, 
       {
-        "body": "Lesson from the Prophecy of Jeremias\n*Jr 17:5-10*\nThus says the Lord God: Cursed is the man who trusts in human beings, who seeks his strength in flesh, whose heart turns away from the Lord. He is like a barren bush in the desert that enjoys no change of season, but stands in a lava waste, a salt and empty earth. Blessed is the man who trusts in the Lord, whose hope is the Lord. He is like a tree planted beside the waters that stretches out its roots to the stream: it fears not the heat when it comes, its leaves stay green; in the year of drought it shows no distress, but still bears fruit. More tortuous than all else is the human heart, beyond remedy; who can understand it? I, the Lord, alone probe the mind and test the heart, to reward everyone according to his ways, according to the merit of his deeds, says the Lord almighty.", 
+        "body": "Li\u00e7\u00e3o do Profeta Jeremias.\n*Jr 17:5-10*\nIsto diz o Senhor e Deus: \u00abMaldito seja o homem que confia no homem; que faz da carne o seu arrimo; e cujo cora\u00e7\u00e3o se afasta do Senhor; pois ele ser\u00e1 como as tamargas do deserto. Quando vier a felicidade, ele a n\u00e3o ver\u00e1, mas permanecer\u00e1 na aridez do deserto, numa terra salgada e desabitada! Bendito seja o homem que confia no Senhor e do qual o Senhor \u00e9 a esperan\u00e7a; pois ser\u00e1 como a \u00e1rvore, plantada \u00e0 beira das \u00e1guas, que estende suas ra\u00edzes no ribeiro e nada receia quando vem o calor. Sua folhagem estar\u00e1 sempre verde, n\u00e3o se ressentindo com o tempo da estiagem, nem deixar\u00e1 de dar bom fruto! O cora\u00e7\u00e3o humano \u00e9 depravado e impenetr\u00e1vel. Quem poder\u00e1 conhec\u00ea-lo? Eu, o Senhor, que ausculto o seu cora\u00e7\u00e3o e observo o seu \u00edntimo, recompensando cada qual segundo os seus intentos e o m\u00e9rito das suas obras: diz o Senhor omnipotente\u00bb.", 
         "id": "Lectio", 
         "label": "Ep\u00edstola"
       }, 
       {
-        "body": "*Sl 78:9-10*\nPardon our sins, O Lord; why should the nations say, Where is their God?\nV. Help us, O God, our Saviour; because of the glory of Your Name, O Lord, deliver us.", 
+        "body": "*Sl 78:9-10*\nPerdoai os nossos pecados, Senhor, para que os povos n\u00e3o digam: \u00abOnde est\u00e1 o seu Deus?\u00bb.\nV. Socorrei-nos, Senhor, nosso Salvador, e, por causa da gl\u00f3ria do vosso nome, livrai-nos, Senhor.", 
         "id": "Graduale", 
         "label": "Gradual"
       }, 
       {
-        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 16:19-31*\nAt that time, Jesus said to the Pharisees, There was a certain rich man who used to clothe himself in purple and fine linen, and who feasted every day in splendid fashion. And there was a certain poor man, named Lazarus, who lay at his gate, covered with sores, and longing to be filled with the crumbs that fell from the rich man\u2019s table; even the dogs would come and lick his sores. And it came to pass that the poor man died and was borne away by the angels into Abraham\u2019s bosom; but the rich man also died and was buried in hell. And lifting up his eyes, being in torments, he saw Abraham afar off and Lazarus in his bosom. And he cried out and said, \u2018Father Abraham, have pity on me, and send Lazarus to dip the tip of his finger in water and cool my tongue, for I am tormented in this flame.\u2019 But Abraham said to him, \u2018Son, remember that you in your lifetime have received good things, and Lazarus in like manner evil things; but now here he is comforted whereas you are tormented. And besides all that, between us and you a great gulf is fixed, so that they who wish to pass over from this side to you cannot, and they cannot pass from your side to us.\u2019 And he said, \u2018Then, father, I beseech you to send him to my father\u2019s house, for I have five brothers, that he may testify to them, lest they too come into this place of torments.\u2019 And Abraham said to him, \u2018They have Moses and the Prophets: let them hearken to them.\u2019 But he answered, \u2018No, father Abraham, but if someone from the dead goes to them, they will repent.\u2019 But he said to him, \u2018If they do not hearken to Moses and the Prophets, they will not believe even if someone rises from the dead.\u2019", 
+        "body": "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 16:19-31*\nNaquele tempo, disse Jesus aos fariseus: \u00abHavia um certo homem rico, que se vestia de p\u00farpura e de linho fino e se banqueteava todos os dias com o maior esplendor. Havia, tamb\u00e9m, um certo mendigo, chamado L\u00e1zaro, que jazia, deitado \u00e0 porta do rico, coberto de \u00falceras, e desejava comer as migalhas que ca\u00edam da mesa do rico, mas ningu\u00e9m lhas dava, vindo os c\u00e3es lamber-lhe as chagas! Aconteceu, por\u00e9m, que morreu o pobre, sendo levado pelos Anjos para o seio de Abra\u00e3o; e morreu tamb\u00e9m o rico, que foi sepultado no inferno. Ora, erguendo o rico os olhos, enquanto jazia em tormentos, viu ao longe Abra\u00e3o, e, no seu seio, viu L\u00e1zaro. Ent\u00e3o, disse em clamor: \u00abPai Abra\u00e3o, tende miseric\u00f3rdia de mim; mandai que L\u00e1zaro com a ponta do seu dedo molhada em \u00e1gua venha refrescar a minha l\u00edngua, porque sofro cruelmente nestas chamas!\u00bb. Respondeu-lhe Abra\u00e3o: \u00abFilho, recorda-te de que recebeste bens durante a vida, e de que ao mesmo tempo L\u00e1zaro sofreu males. Agora, pois, este ser\u00e1 consolado e tu sofrer\u00e1s. Al\u00e9m disso, um grande abysmo est\u00e1 cavado entre n\u00f3s; de sorte que os que quiserem passar daqui para l\u00e1 n\u00e3o poder\u00e3o; nem t\u00e3o-pouco os da\u00ed poder\u00e3o passar para aqui\u00bb. E o rico continuou: \u00abEu vos suplico, \u00f3 pai, que envieis L\u00e1zaro a casa de meu pai, pois tenho l\u00e1 cinco irm\u00e3os, para que lhes d\u00ea testemunho destas coisas, de modo que n\u00e3o venham tamb\u00e9m para este lugar de tormentos\u00bb. Abra\u00e3o respondeu: \u00abEles t\u00eam l\u00e1 Mois\u00e9s e os Profetas; que os ou\u00e7am, pois!\u00bb. Mas ele disse: \u00abN\u00e3o, pai Abra\u00e3o, n\u00e3o os ouvir\u00e3o; mas, se algum dos mortos lhes falar, far\u00e3o penit\u00eancia\u00bb. Abra\u00e3o disse-lhe: \u00abSe n\u00e3o ouvem nem Mois\u00e9s nem os Profetas, ainda mesmo que algum dos mortos ressuscite, t\u00e3o-pouco o acreditar\u00e3o\u00bb.", 
         "id": "Evangelium", 
         "label": "Evangelho"
       }, 
       {
-        "body": "*Ex 32:11, 13-14.*\nMoses prayed in the sight of the Lord his God, and said, Why, O Lord, are You angry with Your people? Let the anger of Your soul be appeased: remember Abraham, Isaac and Jacob, to whom You swore that You would give the land flowing with milk and honey. So the Lord relented in the punishment He had threatened to inflict on His people.", 
+        "body": "*Ex 32:11, 13-14.*\nOrou Mois\u00e9s ante o Senhor, seu Deus, e disse: \u00abPorque, Senhor, Vos irais contra o vosso povo? Sa\u00ed do ardor da vossa ira: lembrai-Vos de Abra\u00e3o, de Isaque e de Jacob, aos quais jurastes dar a terra onde correm leite e mel\u00bb. Ent\u00e3o o Senhor acalmou-se e n\u00e3o mandou ao seu povo o mal que anunciara.", 
         "id": "Offertorium", 
         "label": "Ofert\u00f3rio"
       }, 
       {
-        "body": "May the fasting dedicated to Your Name, O Lord, make us holy for the present sacrifice, that what our Lenten observance outwardly shows, it may work within us.\nPor nosso Senhor...", 
+        "body": "Que o presente sacrif\u00edcio, Senhor, santifique os jejuns que empreendemos para gl\u00f3ria do vosso nome, a fim de que sua observ\u00e2ncia exterior seja acompanhada de frutos interiores.\nPor nosso Senhor...", 
         "id": "Secreta", 
         "label": "Secreta"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nSpraw, prosimy Ci\u0119, Panie, aby za wstawiennictwem \u015bwi\u0119tego Grzegorza wspomog\u0142a nas ta ofiara, kt\u00f3rej z\u0142o\u017cenie wyjedna\u0142o u Ciebie odpuszczenie win ca\u0142ego \u015bwiata.\nPor nosso Senhor...", 
+        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nSenhor, concedei-nos, Vos imploramos, que por intercess\u00e3o do B. Greg\u00f3rio nos seja Proveitosa esta obla\u00e7\u00e3o, em virtude de cuja imola\u00e7\u00e3o nos alcan\u00e7astes o perd\u00e3o dos pecados do mundo inteiro.\nPor nosso Senhor...", 
         "id": "Commemoratio Secreta", 
         "label": "Comemora\u00e7\u00e3o Secreta"
       }, 
@@ -134,22 +137,22 @@
         "label": "Pref\u00e1cio"
       }, 
       {
-        "body": "*Jo 6:57*\nHe who eats My Flesh, and drinks My Blood, abides in Me, and I in him, says the Lord.", 
+        "body": "*Jo 6:57*\nAquele que come a minha carne e bebe o meu sangue permanece em mim e eu permane\u00e7o nele: diz o Senhor.", 
         "id": "Communio", 
         "label": "Com\u00fanio"
       }, 
       {
-        "body": "May Your grace, we beseech You, O Lord, never forsake us, but make us devoted to Your holy service and ever obtain for us Your aid.\nPor nosso Senhor...", 
+        "body": "Senhor, Vos suplicamos, concedei-nos que a vossa gra\u00e7a nos n\u00e3o abandone; que nos torne dedicados ao vosso santo servi\u00e7o; e que nos alcance sempre o vosso aux\u00edlio.\nPor nosso Senhor...", 
         "id": "Postcommunio", 
         "label": "Postcom\u00fanio"
       }, 
       {
-        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\nBo\u017ce, kt\u00f3ry\u015b sprawi\u0142, \u017ce \u015bwi\u0119ty Papie\u017c Grzegorz dor\u00f3wna\u0142 zas\u0142ugami Twoim \u015awi\u0119tym, spraw \u0142askawie, aby\u015bmy obchodz\u0105c jego \u015bwi\u0119to na\u015bladowali przyk\u0142ady jego \u017cycia.\nPor nosso Senhor...", 
+        "body": "* Comemora\u00e7\u00e3o S. Greg\u00f3rio, Papa, Confessor e Doutor da Igreja *\n\u00d3 Deus, que igualastes o B. Greg\u00f3rio aos merecimentos dos vossos Santos, concedei-nos benigno que, celebrando solenemente a sua festa, possamos tamb\u00e9m imitar os exemplos da sua vida.\nPor nosso Senhor...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }, 
       {
-        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nHelp Your servants, O Lord, and grant them the lasting kindness they entreat, so that to those who glory in You, their Creator and Ruler, You may restore the blessings they once possessed, and preserve what You restore.\nPor nosso Senhor...", 
+        "body": "*Ora\u00e7\u00e3o sobre o povo*\nOremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\nAmparai, Senhor, os vossos servos e concedei-lhes a miseric\u00f3rdia perp\u00e9tua, que Vos imploram; e, como eles se gloriam de Vos ter como Autor e Rei, restabelecei-os na posse dos bens em que os unistes, e mantende o que restabelecestes.\nPor nosso Senhor...", 
         "id": "Super populum", 
         "label": "Sobre o povo"
       }

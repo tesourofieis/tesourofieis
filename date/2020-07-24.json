@@ -22,7 +22,7 @@
         "label": "Oratio"
       }, 
       {
-        "body": "* Commemoratio S. Christin\u00e6 Virginis et Martyris *\nIndulg\u00e9ntiam nobis, qu\u01fdsumus, D\u00f3mine, be\u00e1ta Christum Virgo et Martyr impl\u00f3ret: qu\u00e6 tibi grata semper \u00e9xstitit, et merito castit\u00e1tis, et tu\u00e6 professi\u00f3ne virt\u00fatis.\nPer Dominum...", 
+        "body": "* Commemoratio S. Christin\u00e6 Virginis et Martyris *\nIndulg\u00e9ntiam nobis, qu\u01fdsumus, D\u00f3mine, be\u00e1ta Christ\u00edna Virgo et Martyr impl\u00f3ret: qu\u00e6 tibi grata semper \u00e9xstitit, et m\u00e9rito castit\u00e1tis, et tu\u00e6 professi\u00f3ne virt\u00fatis.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -52,7 +52,7 @@
         "label": "Secreta"
       }, 
       {
-        "body": "* Commemoratio S. Christin\u00e6 Virginis et Martyris *\nH\u00f3stias tibi, D\u00f3mine, be\u00e1t\u00e6 Christm\u00e6 V\u00edrginis et Martyris tu\u00e6 dic\u00e1tas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum...", 
+        "body": "* Commemoratio S. Christin\u00e6 Virginis et Martyris *\nH\u00f3stias tibi, D\u00f3mine, be\u00e1t\u00e6 Christ\u00edn\u00e6 V\u00edrginis et M\u00e1rtyris tu\u00e6 dic\u00e1tas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -72,7 +72,7 @@
         "label": "Postcommunio"
       }, 
       {
-        "body": "* Commemoratio S. Christin\u00e6 Virginis et Martyris *\nDiv\u00edni n\u00fameris largit\u00e1te sati\u00e1ti, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, interced\u00e9nte be\u00e1ta Christ\u00edna V\u00edrgine et M\u00e1rtyre tua, in ejus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum...", 
+        "body": "* Commemoratio S. Christin\u00e6 Virginis et Martyris *\nDiv\u00edni m\u00faneris largit\u00e1te sati\u00e1ti, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, interced\u00e9nte be\u00e1ta Christ\u00edna V\u00edrgine et M\u00e1rtyre tua, in ejus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }
