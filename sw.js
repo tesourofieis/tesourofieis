@@ -138,7 +138,7 @@ const PRECACHE_URLS = [
   "./img/1.gif"
 ];
 
-const PRECACHE = "precache-v0.0.2";
+const PRECACHE = "precache-v0.0.3";
 const RUNTIME = "runtime";
 
 // The install handler takes care of precaching the resources we always need.
