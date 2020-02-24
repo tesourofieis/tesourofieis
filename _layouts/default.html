@@ -10,14 +10,23 @@
         {{ content }}
       </div>
       {% if page.title != "Santa Missa Diária" %}
-      <hr>
-        {% include footer.html %}
-      {% endif %}
+      <hr />
+      {% include footer.html %} {% endif %}
     </div>
 
-    
     <div class="pt-5 mt-5" style="background-color: #2A3443;">
       {% include navbarbottom.html %}
+    </div>
+
+    <div class="" id="snackbar">
+      <div class="alert alert-secondary shadow p-3 text-center" id="reload">
+        <div>
+          <img src="/img/favicon.svg" width="30px" alt="Logo" />
+        </div>
+        <a class="alert-link">
+          Existem novos conteúdos, clique aqui para actualizar.
+        </a>
+      </div>
     </div>
   </body>
   {% include scripts.html %}

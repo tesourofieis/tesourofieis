@@ -1,22 +1,6 @@
 importScripts(
-  "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js",
   "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.js"
 );
-
-workbox.core.skipWaiting();
-workbox.core.clientsClaim();
-
-const updateChannel = new BroadcastChannel("precache-v0.0.9");
-console.log("Version: ", updateChannel.name);
-updateChannel.addEventListener("message", event => {
-  if (confirm(`Novo conteúdo disponível!. Clique OK para actualizar`)) {
-    window.location.reload();
-  }
-});
-
-workbox.precaching.addPlugins([
-  new workbox.broadcastUpdate.Plugin("precache-updates")
-]);
 
 let today = moment(new Date()).format("YYYY-MM-DD");
 let tp1 = moment(new Date())
@@ -65,14 +49,25 @@ let tp15 = moment(new Date())
   .add(15, "days")
   .format("YYYY-MM-DD");
 
-workbox.routing.registerRoute(
-  /.*\.json/,
-  new workbox.strategies.NetworkFirst({
-    cacheName: "json"
-  })
-);
+/*
+ Copyright 2016 Google Inc. All Rights Reserved.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
 
-workbox.precaching.precacheAndRoute([
+// Names of the two caches used in this version of the service worker.
+// Change to v2, etc. when you update any of the local resources, which will
+// in turn trigger the install event again.
+
+// A list of local resources we always want to be cached.
+const PRECACHE_URLS = [
   "./",
   "./app.js",
   "./img/gitter.png",
@@ -104,10 +99,6 @@ workbox.precaching.precacheAndRoute([
   "./matrimonio",
   "./extremauncao",
   "./penitencia",
-  // "./propriotempo",
-  // "./propriosantos",
-  // "./comumsantos",
-  // "./oracoesdiversas",
   "./oracaoantescomunhao",
   "./oracaodepoiscomunhao",
   "./oracoescomplementares",
@@ -129,15 +120,87 @@ workbox.precaching.precacheAndRoute([
   "./assets/ordoReadings.js",
   "./assets/conf-static.js",
   "https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.js",
-  "https://api.iconify.design/fa.js?icons=calendar-o,print"
-]);
+  "https://api.iconify.design/fa.js?icons=calendar-o,print",
+  "./img/favicon.svg",
+  "./img/faviconWhite.svg ",
+  "./img/antonio.gif",
+  "./img/virgin.gif ",
+  "./img/pale.gif",
+  "./img/jose.jpeg",
+  "./img/penitent.gif",
+  "./img/moutains.gif",
+  "./img/altar.gif",
+  "./img/salmo.gif",
+  "./img/murillo.jpeg",
+  "./img/cruxifixao2.gif",
+  "./img/bencaocampostrigo.gif",
+  "./img/Jeronimos.gif",
+  "./img/1.gif"
+];
 
-workbox.routing.registerRoute(
-  /\.(?:png|gif|jpg|jpeg|svg|ico)$/,
-  // /\/date\/.(?:json)$/,
-  new workbox.strategies.CacheFirst({
-    cacheName: "images"
-  })
-);
+const PRECACHE = "precache-v0.0.2";
+const RUNTIME = "runtime";
 
-workbox.googleAnalytics.initialize();
+// The install handler takes care of precaching the resources we always need.
+// self.addEventListener("install", event => {
+//   console.log("The service worker is being installed.");
+
+//   event.waitUntil(
+//     caches
+//       .open(PRECACHE)
+//       .then(cache => cache.addAll(PRECACHE_URLS))
+//       .then(() => console.log("Assets added to cache"))
+//       .then(self.skipWaiting())
+//   );
+// });
+
+self.addEventListener("install", event => {
+  event.waitUntil(
+    caches.open(PRECACHE).then(cache => cache.addAll(PRECACHE_URLS))
+  );
+});
+
+// The activate handler takes care of cleaning up old caches.
+self.addEventListener("activate", event => {
+  console.log("The service worker is serving the asset.");
+
+  const currentCaches = [PRECACHE, RUNTIME];
+
+  event.waitUntil(
+    caches
+      .keys()
+      .then(cacheNames => {
+        return cacheNames.filter(
+          cacheName => !currentCaches.includes(cacheName)
+        );
+      })
+      .then(cachesToDelete => {
+        return Promise.all(
+          cachesToDelete.map(cacheToDelete => {
+            return caches.delete(cacheToDelete);
+          })
+        );
+      })
+      .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener("message", function(event) {
+  if (event.data.action === "skipWaiting") {
+    self.skipWaiting();
+  }
+});
+
+// The fetch handler serves responses for same-origin resources from a cache.
+// If no response is found, it populates the runtime cache with the response
+// from the network before returning it to the page.
+self.addEventListener("fetch", function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      if (response) {
+        return response;
+      }
+      return fetch(event.request);
+    })
+  );
+});

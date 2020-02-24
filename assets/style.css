@@ -1,18 +1,56 @@
 /* GLOBAL */
 * {
   font-size: 100%;
-  font-family: 'Cardo', serif;
+  font-family: "Cardo", serif;
   font-feature-settings: "liga", "kern", "hlig", "swsh", "calt", "dlig";
   font-variant-ligatures: historical-ligatures;
   text-indent: 0pt;
   text-rendering: optimizeLegibility;
 }
 
+#snackbar {
+  left: 10%;
+  right: 10%;
+  top: 1;
+  visibility: hidden;
+  position: fixed;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 1;
+    opacity: 1;
+  }
+}
+
 footer {
   position: absolute;
   left: 0;
   right: 0;
-  background-color: #2A3443;
+  background-color: #2a3443;
 }
 
 .logo {
@@ -68,7 +106,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
 }
 
 .dropdown-menu a {
@@ -86,8 +124,8 @@ h6 {
 }
 
 #bottomnav {
-  background-color: #2A3443;
-  border-top: 1px solid rgb(31, 38, 49);;
+  background-color: #2a3443;
+  border-top: 1px solid rgb(31, 38, 49);
 }
 
 .fixed-bottom .iconify {
@@ -97,7 +135,7 @@ h6 {
 
 .fixed-bottom .nav-link {
   color: #fff;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
   font-size: small;
 }
 
