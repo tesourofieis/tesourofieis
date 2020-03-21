@@ -14,6 +14,11 @@
     }, 
     "proper_latin": [
       {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Tim\u00f3theum\n*1 Tim 5:3-10.*\nCar\u00edssime: V\u00edduas h\u00f3nora, qu\u00e6 vere v\u00eddu\u00e6 sunt. Si qua autem v\u00eddua f\u00edlios aut nep\u00f3tes habet, discat primum domum suam r\u00e9gere, et m\u00fatuam vicem r\u00e9ddere par\u00e9ntibus: hoc enim acc\u00e9ptum est coram Deo. Qu\u00e6 autem vere v\u00eddua est et desol\u00e1ta, speret in Deum, et instet obsecrati\u00f3nibus et orati\u00f3nibus nocte ac die. Nam qu\u00e6 in del\u00edciis est, vivens m\u00f3rtua est. Et hoc pr\u01fdcipe, ut irreprehens\u00edbiles sint. Si quis autem su\u00f3rum, et m\u00e1xime domestic\u00f3rum curam non habet, fidem neg\u00e1vit, et est infid\u00e9li det\u00e9rior. V\u00eddua elig\u00e1tur non minus sexag\u00ednta ann\u00f3rum, qu\u00e6 f\u00faerit un\u00edus viri uxor, in op\u00e9ribus bonis testim\u00f3nium habens, si f\u00edlios educ\u00e1vit, si hosp\u00edtio rec\u00e9pit, si sanct\u00f3rum pedes lavit, si tribulati\u00f3nem pati\u00e9ntibus subministr\u00e1vit, si omne opus bonum subsec\u00fata est.", 
+        "id": "Lectio1", 
+        "label": "Lectio1"
+      }, 
+      {
         "body": "*Ps 118:75; 118:120*\nCogn\u00f3vi, D\u00f3mine, quia \u01fdquitas jud\u00edcia tua, et in verit\u00e1te tua humili\u00e1sti me: conf\u00edge tim\u00f3re tuo carnes meas, a mand\u00e1tis tuis t\u00edmui.\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nCogn\u00f3vi, D\u00f3mine, quia \u01fdquitas jud\u00edcia tua, et in verit\u00e1te tua humili\u00e1sti me: conf\u00edge tim\u00f3re tuo carnes meas, a mand\u00e1tis tuis t\u00edmui.", 
         "id": "Introitus", 
         "label": "Introitus"
@@ -80,6 +85,11 @@
       }
     ], 
     "proper_vernacular": [
+      {
+        "body": "Li\u00e7\u00e3o da Ep.\u00ba do B. Ap.\u00ba Paulo a Tim\u00f3teo.\n*1 Tm 5:3-10*\nCar\u00edssimos: Honrai as, vi\u00favas que s\u00e3o verdadeiramente vi\u00favas. Se alguma vi\u00fava tem filhos ou netos, ensine-os, primeiramente, a governar a sua casa e a retribuir a seus pais conforme o que havia recebido deles; porque tal \u00e9 a vontade de Deus. Aquela vi\u00fava, que \u00e9 verdadeiramente vi\u00fava e vive s\u00f3, espere em Deus e persevere noite e dia em suas s\u00faplicas e preces. Por\u00e9m, aquela vi\u00fava que vive nas del\u00edcias, n\u00e3o est\u00e1 viva, mas sim morta. Fazei-lhes, pois, saber isto, a fim de que sejam irrepreens\u00edveis. Se algu\u00e9m se n\u00e3o interessa pelos seus, e principalmente pelos de sua casa, nega a f\u00e9 e \u00e9 pior do que um infiel. Que a vi\u00fava, que for escolhida, n\u00e3o tenha menos de sessenta anos, nem haja tido mais do que um marido, e que tenha reputa\u00e7\u00e3o de ter praticado boas obras; que tenha educado os seus filhos; praticado a hospitalidade; lavado os p\u00e9s aos santos; socorrido os aflitos; e, enfim, praticado toda a esp\u00e9cie de boas obras.", 
+        "id": "Lectio1", 
+        "label": "Lectio1"
+      }, 
       {
         "body": "*Sl 118:75; 118:120*\nConhe\u00e7o, Senhor, que os vossos ju\u00edzos s\u00e3o equitativos e que me humilhastes com justi\u00e7a. Esmagai as minhas carnes com vosso temor; os vossos Mandamentos inspiram-me temor.\n*Sl 118:1*\nBem-aventurados aqueles que s\u00e3o imaculados nos seus caminhos e cumprem a lei do Senhor.\nGl\u00f3ria ao Pai.\nConhe\u00e7o, Senhor, que os vossos ju\u00edzos s\u00e3o equitativos e que me humilhastes com justi\u00e7a. Esmagai as minhas carnes com vosso temor; os vossos Mandamentos inspiram-me temor.", 
         "id": "Introitus", 

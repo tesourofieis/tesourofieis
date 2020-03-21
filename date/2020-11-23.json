@@ -14,6 +14,11 @@
     }, 
     "proper_latin": [
       {
+        "body": "M\u00fanera, qu\u00e6 tibi, D\u00f3mine, l\u00e6t\u00e1ntes off\u00e9rimus, s\u00fascipe ben\u00edgnus, et pr\u00e6sta: ut, interced\u00e9nte be\u00e1to N., Eccl\u00e9sia tua et f\u00eddei integrit\u00e1te l\u00e6t\u00e9tur, et t\u00e9mporum tranquillit\u00e1te semper exs\u00faltet.\nPer Dominum...", 
+        "id": "Secreta1", 
+        "label": "Secreta1"
+      }, 
+      {
         "body": "*Is 59:21; 56:7*\nDicit D\u00f3minus: Serm\u00f3nes mei, quos dedi in os tuum, non def\u00edcient de ore tuo: et m\u00fanera tua acc\u00e9pta erunt super alt\u00e1re meum.\n*Ps 111:1*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nGl\u00f3ria Patri.\nDicit D\u00f3minus: Serm\u00f3nes mei, quos dedi in os tuum, non def\u00edcient de ore tuo: et m\u00fanera tua acc\u00e9pta erunt super alt\u00e1re meum.", 
         "id": "Introitus", 
         "label": "Introitus"
@@ -80,6 +85,11 @@
       }
     ], 
     "proper_vernacular": [
+      {
+        "body": "Recebei benignamente, Senhor, os dons que com alegria Vos oferecemos, e fazei que, por intercess\u00e3o do bem-aventurado N., a vossa. Igreja se alegre com a integridade da sua f\u00e9 e sempre exulte com a tranquilidade dos tempos.\nPor nosso Senhor...", 
+        "id": "Secreta1", 
+        "label": "Secreta1"
+      }, 
       {
         "body": "*Is 59:21; 56:7*\nDisse o Senhor: Minhas palavras, que pus na vossa boca, n\u00e3o cessar\u00e3o de estar nos vossos l\u00e1bios; e ent\u00e3o os dons, que apresentardes nos meus altares, ser-me-\u00e3o agrad\u00e1veis.\n*Sl 111:1*\nBem-aventurado o var\u00e3o que teme o Senhor: e cujo zelo \u00e9 ardente no cumprimento dos seus mandamentos.\nGl\u00f3ria ao Pai.\nDisse o Senhor: Minhas palavras, que pus na vossa boca, n\u00e3o cessar\u00e3o de estar nos vossos l\u00e1bios; e ent\u00e3o os dons, que apresentardes nos meus altares, ser-me-\u00e3o agrad\u00e1veis.", 
         "id": "Introitus", 

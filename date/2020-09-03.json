@@ -12,6 +12,11 @@
     }, 
     "proper_latin": [
       {
+        "body": "M\u00fanera, qu\u00e6 tibi, D\u00f3mine, l\u00e6t\u00e1ntes off\u00e9rimus, s\u00fascipe ben\u00edgnus, et pr\u00e6sta: ut, interced\u00e9nte be\u00e1to N., Eccl\u00e9sia tua et f\u00eddei integrit\u00e1te l\u00e6t\u00e9tur, et t\u00e9mporum tranquillit\u00e1te semper exs\u00faltet.\nPer Dominum...", 
+        "id": "Secreta1", 
+        "label": "Secreta1"
+      }, 
+      {
         "body": "*Ps 88:20-22*\nExtuli electum de populo, oleo sancto meo unxi eum: ut manus mea sit semper cum eo, et bracchium meum confirmet eum.\n*Ps. 88:2*\nGratias Domini in \u00e6ternum cantabo: per omnes generationes annuntiabo fidelitatem tuam ore meo.\nGl\u00f3ria Patri.\nExtuli electum de populo, oleo sancto meo unxi eum: ut manus mea sit semper cum eo, et bracchium meum confirmet eum.", 
         "id": "Introitus", 
         "label": "Introitus"
@@ -63,6 +68,11 @@
       }
     ], 
     "proper_vernacular": [
+      {
+        "body": "Recebei benignamente, Senhor, os dons que com alegria Vos oferecemos, e fazei que, por intercess\u00e3o do bem-aventurado N., a vossa. Igreja se alegre com a integridade da sua f\u00e9 e sempre exulte com a tranquilidade dos tempos.\nPor nosso Senhor...", 
+        "id": "Secreta1", 
+        "label": "Secreta1"
+      }, 
       {
         "body": "*Sl 88:20-22*\nDo seio do povo tirei o escolhido; ungi-o com meu \u00f3leo sagrado: para que sobre ele esteja sempre a minha m\u00e3o e o meu bra\u00e7o o fortale\u00e7a.\n*Sl 88:2*\nCantarei eternamente as gra\u00e7as do Senhor; por todas as gera\u00e7\u00f5es proclamarei com a minha boca a sua fidelidade.\nGl\u00f3ria ao Pai.\nDo seio do povo tirei o escolhido; ungi-o com meu \u00f3leo sagrado: para que sobre ele esteja sempre a minha m\u00e3o e o meu bra\u00e7o o fortale\u00e7a.", 
         "id": "Introitus", 

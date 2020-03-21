@@ -15,16 +15,6 @@
     }, 
     "proper_latin": [
       {
-        "body": "*Ps 94:6-7*\nVen\u00edte, ador\u00e9mus Deum et procid\u00e1mus ante D\u00f3minum, plor\u00e9mus ante eum, qui fecit nos: quia ipse est D\u00f3minus, Deus noster.\n*Ps 94:1*\nVen\u00edte, exsult\u00e9mus D\u00f3mino: jubil\u00e9mus Deo, salut\u00e1ri nostro.\nGl\u00f3ria Patri.\nVen\u00edte, ador\u00e9mus Deum et procid\u00e1mus ante D\u00f3minum, plor\u00e9mus ante eum, qui fecit nos: quia ipse est D\u00f3minus, Deus noster.", 
-        "id": "Introitus", 
-        "label": "Introitus"
-      }, 
-      {
-        "body": "Omn\u00edpotens sempit\u00e9rne Deus, qui per contin\u00e9ntiam salut\u00e1rem corp\u00f3ribus med\u00e9ris et m\u00e9ntibus: majest\u00e1tem tuam s\u00fapplices exor\u00e1mus; ut, pia jejun\u00e1ntium deprecati\u00f3ne plac\u00e1tus, et pr\u00e6s\u00e9ntia nobis subs\u00eddia tr\u00edbuas et fut\u00fara.\nPer Dominum...", 
-        "id": "Oratio", 
-        "label": "Oratio"
-      }, 
-      {
         "body": "L\u00e9ctio libri Lev\u00edtici.\n*Levit 23:26-32*\nIn di\u00e9bus illis: Loc\u00fatus est D\u00f3minus ad M\u00f3ysen, dicens: D\u00e9cimo die mensis hujus s\u00e9ptimi, dies expiati\u00f3num erit celeb\u00e9rrimus, et voc\u00e1bitur sanctus: affliget\u00edsque \u00e1nimas vestras in eo, et offer\u00e9tis holoc\u00e1ustum D\u00f3mino. Omne opus serv\u00edle non faci\u00e9tis in t\u00e9mpore di\u00e9i hujus: quia dies propitiati\u00f3nis est, ut propiti\u00e9tur vobis D\u00f3minus, Deus vester. Omnis \u00e1nima, qu\u00e6 afflicta non f\u00faerit die hac, per\u00edbit de p\u00f3pulis suis: et qu\u00e6 \u00f3peris qu\u00eddpiam f\u00e9cerit, del\u00e9bo eam de p\u00f3pulo suo. Nihil ergo \u00f3peris faci\u00e9tis in eo: leg\u00edtimum sempit\u00e9rnum erit vobis in cunctis generati\u00f3nibus et habitati\u00f3nibus vestris. S\u00e1bbatum requieti\u00f3nis est, et afflig\u00e9tis \u00e1nimas vestras die nono mensis: a v\u00e9spera usque ad v\u00e9speram celebr\u00e1bitis s\u00e1bbata vestra: dicit D\u00f3minus omn\u00edpotens.\nDeo gratias.", 
         "id": "LectioL1", 
         "label": "Lectio"
@@ -33,6 +23,16 @@
         "body": "*Ps 78:9; 78:10*\nProp\u00edtius esto, D\u00f3mine, pecc\u00e1tis nostris: ne quando dicant gentes: Ubi est Deus e\u00f3rum?\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter hon\u00f3rem n\u00f3minis tui, D\u00f3mine, l\u00edbera nos.", 
         "id": "GradualeL1", 
         "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 94:6-7*\nVen\u00edte, ador\u00e9mus Deum et procid\u00e1mus ante D\u00f3minum, plor\u00e9mus ante eum, qui fecit nos: quia ipse est D\u00f3minus, Deus noster.\n*Ps 94:1*\nVen\u00edte, exsult\u00e9mus D\u00f3mino: jubil\u00e9mus Deo, salut\u00e1ri nostro.\nGl\u00f3ria Patri.\nVen\u00edte, ador\u00e9mus Deum et procid\u00e1mus ante D\u00f3minum, plor\u00e9mus ante eum, qui fecit nos: quia ipse est D\u00f3minus, Deus noster.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Omn\u00edpotens sempit\u00e9rne Deus, qui per contin\u00e9ntiam salut\u00e1rem corp\u00f3ribus med\u00e9ris et m\u00e9ntibus: majest\u00e1tem tuam s\u00fapplices exor\u00e1mus; ut, pia jejun\u00e1ntium deprecati\u00f3ne plac\u00e1tus, et pr\u00e6s\u00e9ntia nobis subs\u00eddia tr\u00edbuas et fut\u00fara.\nPer Dominum...", 
+        "id": "Oratio", 
+        "label": "Oratio"
       }, 
       {
         "body": "Da nobis, qu\u01fdsumus, omn\u00edpotens Deus: ut, jejun\u00e1ndo, tua gr\u00e1tia sati\u00e9mur; et, abstin\u00e9ndo, cunctis effici\u00e1mur h\u00f3stibus forti\u00f3res.\nPer Dominum...", 
@@ -152,16 +152,6 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sl 94:6-7*\nVinde, adoremos Deus; prostemo-nos e choremos perante o Senhor, que nos criou: pois Ele \u00e9 o Senhor, nosso Deus.\n*Sl 94:1*\nVinde, cantemos com alegria ao Senhor: manifestemos o nosso j\u00fabilo a Deus, que \u00e9 a nossa salva\u00e7\u00e3o.\nGl\u00f3ria ao Pai.\nVinde, adoremos Deus; prostemo-nos e choremos perante o Senhor, que nos criou: pois Ele \u00e9 o Senhor, nosso Deus.", 
-        "id": "Introitus", 
-        "label": "Intr\u00f3ito"
-      }, 
-      {
-        "body": "\u00d3 omnipotente e sempiterno Deus, que com o salutar rem\u00e9dio da abstin\u00eancia curais as almas e os corpos, humildemente suplicamos \u00e0 vossa majestade que, sendo V\u00f3s aplacado com as piedosas preces daqueles que jejuam, nos concedais o vosso aux\u00edlio agora e no futuro.\nPor nosso Senhor...", 
-        "id": "Oratio", 
-        "label": "Ora\u00e7\u00e3o"
-      }, 
-      {
         "body": "Lev. 23:26-32\nNaquele dias, falou o Senhor a Mois\u00e9s, dizendo: \u00abO d\u00e9cimo dia deste s\u00e9timo m\u00eas ser\u00e1 o dia mais solene das expia\u00e7\u00f5es e ser\u00e1 chamado santo. Nesse dia castigareis as vossas almas, oferecereis um holocausto ao Senhor e vos n\u00e3o empregareis em trabalho servil, \u00abpois \u00e9 o dia da expia\u00e7\u00e3o\u00bb, para que alcanceis que o Senhor, vosso Deus, seja prop\u00edcio. Todo aquele que nesse dia n\u00e3o se castigar, ser\u00e1 expulso do seu povo, assim como todo aquele que se empregar em trabalho servil. Nenhum trabalho, pois, farei naquele dia. Isto ficar\u00e1 sendo um preceito eterno para os vossos descendentes, em qualquer parte em que se encontrarem. Este dia ser\u00e1 um \u00abs\u00e1bado\u00bb de absoluto repouso; e castigareis as vossas almas no nono dia do m\u00eas. Celebrareis o vosso s\u00e1bado desde uma v\u00e9spera at\u00e9 \u00e0 outra\u00bb: diz o Senhor omnipotente.\nGra\u00e7as a Deus.", 
         "id": "LectioL1", 
         "label": "1\u00aa Li\u00e7\u00e3o"
@@ -170,6 +160,16 @@
         "body": "*Sl 78:9-10*\nPerdoai, Senhor, os nossos pecados, para que os povos n\u00e3o digam: onde est\u00e1 o seu Deus?\nV. Vinde em nosso socorro, \u00f3 Deus, nosso Salvador: Livrai-nos, Senhor, para a gl\u00f3ria do vosso nome.", 
         "id": "GradualeL1", 
         "label": "Gradual"
+      }, 
+      {
+        "body": "*Sl 94:6-7*\nVinde, adoremos Deus; prostemo-nos e choremos perante o Senhor, que nos criou: pois Ele \u00e9 o Senhor, nosso Deus.\n*Sl 94:1*\nVinde, cantemos com alegria ao Senhor: manifestemos o nosso j\u00fabilo a Deus, que \u00e9 a nossa salva\u00e7\u00e3o.\nGl\u00f3ria ao Pai.\nVinde, adoremos Deus; prostemo-nos e choremos perante o Senhor, que nos criou: pois Ele \u00e9 o Senhor, nosso Deus.", 
+        "id": "Introitus", 
+        "label": "Intr\u00f3ito"
+      }, 
+      {
+        "body": "\u00d3 omnipotente e sempiterno Deus, que com o salutar rem\u00e9dio da abstin\u00eancia curais as almas e os corpos, humildemente suplicamos \u00e0 vossa majestade que, sendo V\u00f3s aplacado com as piedosas preces daqueles que jejuam, nos concedais o vosso aux\u00edlio agora e no futuro.\nPor nosso Senhor...", 
+        "id": "Oratio", 
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Deus omnipotente, vos suplicamos, fazei que pelo nosso jejum sejamos saciados com a vossa gra\u00e7a, e que pela nossa abstin\u00eancia nos tornemos mais fortes do que os nossos inimigos.\nPor nosso Senhor...", 

@@ -14,6 +14,16 @@
     }, 
     "proper_latin": [
       {
+        "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6\n*Eccli 39:6-14*\nJustus cor suum tradet ad vigil\u00e1ndum dil\u00faculo ad D\u00f3minum, qui fecit illum, et in consp\u00e9ctu Alt\u00edssimi deprec\u00e1bitur. Ap\u00e9riet os suum in orati\u00f3ne, et pro del\u00edctis suis deprec\u00e1bitur. Si enim D\u00f3minus magnus vol\u00faerit, sp\u00edritu intelleg\u00e9ntias repl\u00e9bit illum: et ipse tamquam imbres mittet el\u00f3quia sapi\u00e9nti\u00e6 su\u00e6, et in orati\u00f3ne confit\u00e9bitur D\u00f3mino: et ipse d\u00edriget cons\u00edlium ejus et discipl\u00ednam, et in absc\u00f3nditis suis consili\u00e1bitur. Ipse palam f\u00e1ciet discipl\u00ednam doctr\u00edn\u00e6 su\u00e6, et in lege testam\u00e9nti D\u00f3mini glori\u00e1bitur. Collaud\u00e1bunt multi sapi\u00e9ntiam ejus, et usque in s\u01fdculum non del\u00e9bitur. Non rec\u00e9det mem\u00f3ria ejus, et nomen ejus requir\u00e9tur a generati\u00f3ne in generati\u00f3nem. Sapi\u00e9ntiam ejus enarr\u00e1bunt gentes, et laudem ejus enunti\u00e1bit eccl\u00e9sia.", 
+        "id": "Lectio1", 
+        "label": "Lectio1"
+      }, 
+      {
+        "body": "*Pro Doctore non Pontifice*\nSancti N. Confess\u00f3ris tui atque Doct\u00f3ris nobis, D\u00f3mine, pia non desit or\u00e1tio: qu\u00e6 et m\u00fanera nostra conc\u00edliet; et tuam nobis indulg\u00e9ntiam semper obt\u00edneat.\nPer Dominum...", 
+        "id": "Secreta1", 
+        "label": "Secreta1"
+      }, 
+      {
         "body": "*Eccli 45:30.*\nSt\u00e1tuit ei D\u00f3minus testam\u00e9ntum pacis, et pr\u00edncipem fecit eum: ut sit illi sacerd\u00f3tii d\u00edgnitas in \u00e6t\u00e9rnum.\n*Ps 131:1*\nMemento, D\u00f3mine, David: et omnis mansuet\u00fadinis ejus.\nGl\u00f3ria Patri.\nSt\u00e1tuit ei D\u00f3minus testam\u00e9ntum pacis, et pr\u00edncipem fecit eum: ut sit illi sacerd\u00f3tii d\u00edgnitas in \u00e6t\u00e9rnum.", 
         "id": "Introitus", 
         "label": "Introitus"

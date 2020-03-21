@@ -15,16 +15,6 @@
     }, 
     "proper_latin": [
       {
-        "body": "*Ps 80:2; 80:3; 80:4; 80:5*\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob: s\u00famite psalmum juc\u00fandum cum c\u00edthara: c\u00e1nite in in\u00edtio mensis tuba, quia pr\u00e6c\u00e9ptum in Isra\u00ebl est, et jud\u00edcium Deo Jacob.\n*Ps 80:6*\nTestim\u00f3nium in Joseph p\u00f3suit illud, cum ex\u00edret de terra \u00c6g\u00fdpti: linguam, quam non n\u00f3verat, aud\u00edvit.\nGl\u00f3ria Patri.\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob: s\u00famite psalmum juc\u00fandum cum c\u00edthara: c\u00e1nite in in\u00edtio mensis tuba, quia pr\u00e6c\u00e9ptum in Isra\u00ebl est, et jud\u00edcium Deo Jacob.", 
-        "id": "Introitus", 
-        "label": "Introitus"
-      }, 
-      {
-        "body": "Miseric\u00f3rdi\u00e6 tu\u00e6 rem\u00e9diis, qu\u01fdsumus, D\u00f3mine, frag\u00edlitas nostra subs\u00edstat: ut, qu\u00e6 sua conditi\u00f3ne att\u00e9ritur, tua clem\u00e9ntia repar\u00e9tur.\nPer Dominum...", 
-        "id": "Oratio", 
-        "label": "Oratio"
-      }, 
-      {
         "body": "L\u00e9ctio Amos Proph\u00e9t\u00e6.\n*Amos 9:13-15*\nH\u00e6c dicit D\u00f3minus Deus: Ecce, dies v\u00e9niunt: et compreh\u00e9ndet ar\u00e1tor mess\u00f3rem, et calc\u00e1tor uv\u00e6 mitt\u00e9ntem semen: et still\u00e1bunt montes dulc\u00e9dinem, et omnes colles culti erunt. Et conv\u00e9rtam captivit\u00e1tem p\u00f3puli mei Isra\u00ebl: et \u00e6dific\u00e1bunt civit\u00e1tes des\u00e9rtas et inhabit\u00e1bunt: et plant\u00e1bunt v\u00edneas et bibent vinum e\u00e1rum: et f\u00e1cient hortos et c\u00f3medent fructus e\u00f3rum. Et plant\u00e1bo eos super humum suam: et non ev\u00e9llam eos ultra de terra sua, quam dedi eis: dicit D\u00f3minus, Deus tuus.\nDeo gratias.", 
         "id": "LectioL1", 
         "label": "Lectio"
@@ -33,6 +23,16 @@
         "body": "*Ps 112,5-7*\nQuis sicut D\u00f3minus, Deus noster, qui in altis h\u00e1bitat, et humilia r\u00e9spicit in c\u0153lo et in terra?\nV. S\u00fascitans a terra \u00ednopem et de st\u00e9rcore \u00e9rigens p\u00e1uperem.", 
         "id": "GradualeL1", 
         "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 80:2; 80:3; 80:4; 80:5*\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob: s\u00famite psalmum juc\u00fandum cum c\u00edthara: c\u00e1nite in in\u00edtio mensis tuba, quia pr\u00e6c\u00e9ptum in Isra\u00ebl est, et jud\u00edcium Deo Jacob.\n*Ps 80:6*\nTestim\u00f3nium in Joseph p\u00f3suit illud, cum ex\u00edret de terra \u00c6g\u00fdpti: linguam, quam non n\u00f3verat, aud\u00edvit.\nGl\u00f3ria Patri.\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob: s\u00famite psalmum juc\u00fandum cum c\u00edthara: c\u00e1nite in in\u00edtio mensis tuba, quia pr\u00e6c\u00e9ptum in Isra\u00ebl est, et jud\u00edcium Deo Jacob.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Miseric\u00f3rdi\u00e6 tu\u00e6 rem\u00e9diis, qu\u01fdsumus, D\u00f3mine, frag\u00edlitas nostra subs\u00edstat: ut, qu\u00e6 sua conditi\u00f3ne att\u00e9ritur, tua clem\u00e9ntia repar\u00e9tur.\nPer Dominum...", 
+        "id": "Oratio", 
+        "label": "Oratio"
       }, 
       {
         "body": "Pr\u00e6sta, qu\u01fdsumus, D\u00f3mine, fam\u00edli\u00e6 tu\u00e6 supplic\u00e1nti: ut, dum a cibis corpor\u00e1libus se \u00e1bstinet, a v\u00edtiis quoque mente jej\u00fanet.\nPer Dominum...", 
@@ -97,16 +97,6 @@
     ], 
     "proper_vernacular": [
       {
-        "body": "*Sl 80:2-5*\nExultai de alegria em Deus, que \u00e9 o nosso protector: cantai hinos de j\u00fablio em honra de Deus de Jacob: tocai o salt\u00e9rio e a c\u00edtara em tom harmonioso: fazei soar a trombeta no princ\u00edpio do m\u00eas, pois \u00e9 este o mandamento dado a Israel; \u00e9 o preceito imposto por Deus de Jabob.\n*Sl 80:6*\nO Senhor imp\u00f4s este preceito a Jos\u00e9, quando sa\u00eda do Egipto, onde ouvia uma l\u00edngua que n\u00e3o compreendia.\nGl\u00f3ria ao Pai.\nExultai de alegria em Deus, que \u00e9 o nosso protector: cantai hinos de j\u00fablio em honra de Deus de Jacob: tocai o salt\u00e9rio e a c\u00edtara em tom harmonioso: fazei soar a trombeta no princ\u00edpio do m\u00eas, pois \u00e9 este o mandamento dado a Israel; \u00e9 o preceito imposto por Deus de Jabob.", 
-        "id": "Introitus", 
-        "label": "Intr\u00f3ito"
-      }, 
-      {
-        "body": "Socorrei, Senhor, Vos imploramos, a nossa fraqueza com os rem\u00e9dios da vossa miseric\u00f3rdia, a fim de que, assim como ca\u00edmos por efeito da nossa fragilidade, assim nos elevemos por efeito da vossa clem\u00eancia.\nPor nosso Senhor...", 
-        "id": "Oratio", 
-        "label": "Ora\u00e7\u00e3o"
-      }, 
-      {
         "body": "*Am\u00f3s 9:13-15*\nEis o que diz o Senhor Deus: \u00abV\u00eam j\u00e1 os dias em que o agricultor se unir\u00e1 ao ceifeiro; e aquele que esmaga as uvas ao semeador. Ent\u00e3o os montes gotejar\u00e3o do\u00e7ura e as colinas ser\u00e3o cultivadas. Chamarei do cativeiro o meu povo de Israel. Eles reedificar\u00e3o as cidades devastadas e habitar\u00e3o nelas; plantar\u00e3o vinhas e beber\u00e3o o seu vinho; cultivar\u00e3o hortas e comer\u00e3o os seus frutos. Estabelec\u00ea-los-ei no seu pa\u00eds e os n\u00e3o tirarei mais dessa terra, que lhes dei:\u00bb diz o Senhor, vosso Deus.\nGra\u00e7as a Deus.", 
         "id": "LectioL1", 
         "label": "1\u00aa Li\u00e7\u00e3o"
@@ -115,6 +105,16 @@
         "body": "*Sl 112:5-7*\nQuem h\u00e1 que seja como o Senhor, nosso Deus, que habita nos altos dos c\u00e9us: e olha para os humildes no c\u00e9us e na terra?\nV. Ele livra o indigente da lama e o pobre da montureira!", 
         "id": "GradualeL1", 
         "label": "Gradual"
+      }, 
+      {
+        "body": "*Sl 80:2-5*\nExultai de alegria em Deus, que \u00e9 o nosso protector: cantai hinos de j\u00fablio em honra de Deus de Jacob: tocai o salt\u00e9rio e a c\u00edtara em tom harmonioso: fazei soar a trombeta no princ\u00edpio do m\u00eas, pois \u00e9 este o mandamento dado a Israel; \u00e9 o preceito imposto por Deus de Jabob.\n*Sl 80:6*\nO Senhor imp\u00f4s este preceito a Jos\u00e9, quando sa\u00eda do Egipto, onde ouvia uma l\u00edngua que n\u00e3o compreendia.\nGl\u00f3ria ao Pai.\nExultai de alegria em Deus, que \u00e9 o nosso protector: cantai hinos de j\u00fablio em honra de Deus de Jacob: tocai o salt\u00e9rio e a c\u00edtara em tom harmonioso: fazei soar a trombeta no princ\u00edpio do m\u00eas, pois \u00e9 este o mandamento dado a Israel; \u00e9 o preceito imposto por Deus de Jabob.", 
+        "id": "Introitus", 
+        "label": "Intr\u00f3ito"
+      }, 
+      {
+        "body": "Socorrei, Senhor, Vos imploramos, a nossa fraqueza com os rem\u00e9dios da vossa miseric\u00f3rdia, a fim de que, assim como ca\u00edmos por efeito da nossa fragilidade, assim nos elevemos por efeito da vossa clem\u00eancia.\nPor nosso Senhor...", 
+        "id": "Oratio", 
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": "Senhor, Vos rogamos, concedei \u00e0 vossa fam\u00edlia suplicante que, abstendo-se das comidas corporais, jejue, tamb\u00e9m, espiritualmente dos v\u00edcios.\nPor nosso Senhor...", 

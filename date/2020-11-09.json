@@ -14,6 +14,11 @@
     }, 
     "proper_latin": [
       {
+        "body": "*In ipsa die Dedicationis Ecclesi\u00e6 et per Octavam*\nDeus, qui sacrand\u00f3rum tibi auctor es m\u00fanerum, eff\u00fande super hanc orati\u00f3nis domum benedicti\u00f3nem tuam: ut ab \u00f3mnibus, in ea invoc\u00e1ntibus nomen tuum, defensi\u00f3nis tu\u00e6 aux\u00edlium senti\u00e1tur.\nPer Dominum...", 
+        "id": "Secreta1", 
+        "label": "Secreta1"
+      }, 
+      {
         "body": "*Gen 28:17*\nTerr\u00edbilis est locus iste: hic domus Dei est et porta c\u0153li: et voc\u00e1bitur aula Dei. (Allel\u00faja, allel\u00faja)\n*Ps 83:2-3*\nQuam dil\u00e9cta tabern\u00e1cula tua, D\u00f3mine virt\u00fatum! concup\u00edscit, et d\u00e9ficit \u00e1nima mea in \u00e1tria D\u00f3mini.\nGl\u00f3ria Patri.\nTerr\u00edbilis est locus iste: hic domus Dei est et porta c\u0153li: et voc\u00e1bitur aula Dei. (Allel\u00faja, allel\u00faja)", 
         "id": "Introitus", 
         "label": "Introitus"
@@ -80,6 +85,11 @@
       }
     ], 
     "proper_vernacular": [
+      {
+        "body": "*No dia da dedica\u00e7\u00e3o*\n\u00d3 Deus, que sois o autor dos dons que Vos consagramos, lan\u00e7ai a vossa b\u00ean\u00e7\u00e3o sobre esta casa de ora\u00e7\u00e3o, a fim de que todos aqueles que aqui invocarem o vosso Nome sintam o aux\u00edlio da vossa defesa.", 
+        "id": "Secreta1", 
+        "label": "Secreta1"
+      }, 
       {
         "body": "*Gn 28:17*\nQue terr\u00edvel \u00e9 este lugar! \u00c9 verdadeiramente a casa de Deus e a porta do c\u00e9u: e ser\u00e1 chamado o pal\u00e1cio de Deus.\n*Sl 83:2-3*\nQu\u00e3o dilectos s\u00e3o os vossos tabern\u00e1culos, \u00f3 Senhor dos ex\u00e9rcitos! Minha alma suspira com ardor e em \u00eaxtase, em desejos de viver junto dos \u00e1trios do Senhor.\nGl\u00f3ria ao Pai.\nQue terr\u00edvel \u00e9 este lugar! \u00c9 verdadeiramente a casa de Deus e a porta do c\u00e9u: e ser\u00e1 chamado o pal\u00e1cio de Deus.", 
         "id": "Introitus", 

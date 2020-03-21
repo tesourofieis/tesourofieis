@@ -22,7 +22,7 @@
         "label": "Oratio"
       }, 
       {
-        "body": "*Pro Ss. Mauritio et sociis*\nAnnue, qu\u01fdsumus, omn\u00edpotens Deus: ut sanct\u00f3rum Martyrum tu\u00f3rum Maur\u00edtii et Soci\u00f3rum ejus nos l\u00e6t\u00edficet fest\u00edva soll\u00e9mnitas; ut, quorum suffr\u00e1giis n\u00edtimur, e\u00f3rum natal\u00edtiis glori\u00e9mur.\nPer Dominum...", 
+        "body": "*Pro Ss. Mauritio et Sociis*\nAnnue, qu\u01fdsumus, omn\u00edpotens Deus: ut sanct\u00f3rum Martyrum tu\u00f3rum Maur\u00edtii et Soci\u00f3rum ejus nos l\u00e6t\u00edficet fest\u00edva soll\u00e9mnitas; ut, quorum suffr\u00e1giis n\u00edtimur, e\u00f3rum natal\u00edtiis glori\u00e9mur.\nPer Dominum...", 
         "id": "Commemoratio Oratio", 
         "label": "Commemoratio Oratio"
       }, 
@@ -52,7 +52,7 @@
         "label": "Secreta"
       }, 
       {
-        "body": "*Pro Ss. Mauritio et sociis*\nR\u00e9spice, qu\u01fdsumus, D\u00f3mine, m\u00fanera, qu\u00e6 in sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Maur\u00edtii et Soci\u00f3rum ejus commemorati\u00f3ne def\u00e9rimus: et pr\u00e6sta; ut, quorum hon\u00f3re sunt grata, e\u00f3rum nobis fiant intercessi\u00f3ne perp\u00e9tua.\nPer Dominum...", 
+        "body": "*Pro Ss. Mauritio et Sociis*\nR\u00e9spice, qu\u01fdsumus, D\u00f3mine, m\u00fanera, qu\u00e6 in sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Maur\u00edtii et Soci\u00f3rum ejus commemorati\u00f3ne def\u00e9rimus: et pr\u00e6sta; ut, quorum hon\u00f3re sunt grata, e\u00f3rum nobis fiant intercessi\u00f3ne perp\u00e9tua.\nPer Dominum...", 
         "id": "Commemoratio Secreta", 
         "label": "Commemoratio Secreta"
       }, 
@@ -72,7 +72,7 @@
         "label": "Postcommunio"
       }, 
       {
-        "body": "*Pro Ss. Mauritio et sociis*\nCoel\u00e9stibus ref\u00e9cti sacram\u00e9ntis et g\u00e1udiis: s\u00fapplices te rog\u00e1mus, D\u00f3mine; ut, quorum glori\u00e1mur tri\u00famphis, proteg\u00e1mur aux\u00edliis.\nPer Dominum...", 
+        "body": "*Pro Ss. Mauritio et Sociis*\nCoel\u00e9stibus ref\u00e9cti sacram\u00e9ntis et g\u00e1udiis: s\u00fapplices te rog\u00e1mus, D\u00f3mine; ut, quorum glori\u00e1mur tri\u00famphis, proteg\u00e1mur aux\u00edliis.\nPer Dominum...", 
         "id": "Commemoratio Postcommunio", 
         "label": "Commemoratio Postcommunio"
       }

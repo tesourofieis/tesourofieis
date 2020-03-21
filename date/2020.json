@@ -1587,7 +1587,7 @@
   "2020-04-05": {
     "celebration": [
       {
-        "id": "tempora:Quad6-0r:1", 
+        "id": "tempora:Quad6-0:1", 
         "rank": 1, 
         "title": "Domingo de Ramos"
       }
@@ -1595,7 +1595,7 @@
     "commemoration": [], 
     "tempora": [
       {
-        "id": "tempora:Quad6-0r:1", 
+        "id": "tempora:Quad6-0:1", 
         "rank": 1, 
         "title": "Domingo de Ramos"
       }
@@ -1655,7 +1655,7 @@
   "2020-04-09": {
     "celebration": [
       {
-        "id": "tempora:Quad6-4r:1", 
+        "id": "tempora:Quad6-4:1", 
         "rank": 1, 
         "title": "Quinta-feira Santa"
       }
@@ -1663,7 +1663,7 @@
     "commemoration": [], 
     "tempora": [
       {
-        "id": "tempora:Quad6-4r:1", 
+        "id": "tempora:Quad6-4:1", 
         "rank": 1, 
         "title": "Quinta-feira Santa"
       }
@@ -1672,7 +1672,7 @@
   "2020-04-10": {
     "celebration": [
       {
-        "id": "tempora:Quad6-5r:1", 
+        "id": "tempora:Quad6-5:1", 
         "rank": 1, 
         "title": "Sexta-feira Santa"
       }
@@ -1680,7 +1680,7 @@
     "commemoration": [], 
     "tempora": [
       {
-        "id": "tempora:Quad6-5r:1", 
+        "id": "tempora:Quad6-5:1", 
         "rank": 1, 
         "title": "Sexta-feira Santa"
       }
@@ -1689,7 +1689,7 @@
   "2020-04-11": {
     "celebration": [
       {
-        "id": "tempora:Quad6-6r:1", 
+        "id": "tempora:Quad6-6:1", 
         "rank": 1, 
         "title": "S\u00e1bado Santo"
       }
@@ -1697,7 +1697,7 @@
     "commemoration": [], 
     "tempora": [
       {
-        "id": "tempora:Quad6-6r:1", 
+        "id": "tempora:Quad6-6:1", 
         "rank": 1, 
         "title": "S\u00e1bado Santo"
       }
