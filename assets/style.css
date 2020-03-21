@@ -9,9 +9,9 @@
 }
 
 #snackbar {
-  left: 10%;
-  right: 10%;
-  top: 1;
+  left: 0%;
+  right: 0%;
+  top: 10%;
   visibility: hidden;
   position: fixed;
   z-index: 1;
@@ -30,7 +30,7 @@
     opacity: 0;
   }
   to {
-    top: 1;
+    top: 10%;
     opacity: 1;
   }
 }
@@ -41,7 +41,7 @@
     opacity: 0;
   }
   to {
-    top: 1;
+    top: 10%;
     opacity: 1;
   }
 }

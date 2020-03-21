@@ -102,7 +102,6 @@ const PRECACHE_URLS = [
   "./assets/ordoReadings.js",
   "./assets/conf-static.js",
   "https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.js",
-  "https://api.iconify.design/fa.js?icons=calendar-o,print",
   "./img/favicon.svg",
   "./img/faviconWhite.svg ",
   "./img/antonio.gif",
@@ -129,6 +128,12 @@ self.addEventListener("install", event => {
   );
 });
 
+self.addEventListener("message", function(event) {
+  if (event.data.action === "skipWaiting") {
+    self.skipWaiting();
+  }
+});
+
 self.addEventListener("activate", event => {
   console.log("The service worker is serving the asset.");
 
@@ -151,12 +156,6 @@ self.addEventListener("activate", event => {
       })
       .then(() => self.clients.claim())
   );
-});
-
-self.addEventListener("message", function(event) {
-  if (event.data.action === "skipWaiting") {
-    self.skipWaiting();
-  }
 });
 
 self.addEventListener("fetch", function(event) {
