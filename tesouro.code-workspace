@@ -1,24 +1,31 @@
 {
   "folders": [
     {
+      "name": "tesourofieis",
       "path": "."
     },
     {
+      "name": "Missal1962",
       "path": "Missal1962"
     },
     {
+      "name": "Polski",
       "path": "Missal1962/resources/divinum-officium/web/www/missa/Polski"
     },
     {
+      "name": "English",
       "path": "Missal1962/resources/divinum-officium/web/www/missa/English"
     },
     {
+      "name": "Latin",
       "path": "Missal1962/resources/divinum-officium/web/www/missa/Latin"
     },
     {
+      "name": "Portugues",
       "path": "Missal1962/resources/divinum-officium/web/www/missa/Portugues"
     },
     {
+      "name": "missa",
       "path": "Missal1962/resources/divinum-officium-custom/web/www/missa"
     }
   ]
