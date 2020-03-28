@@ -75,6 +75,58 @@ html {
   object-fit: cover;
 }
 
+
+.color-marker {
+    height: 10px;
+    width: 9px;
+    border-radius: 10% 10% 50% 50%;
+    display: inline-block;
+}
+
+.color-marker-r {
+    background-color: #cd5c5c;
+}
+
+.color-marker-g {
+    background-color: #6aa838;
+}
+
+.color-marker-w {
+    background-color: lightgray;
+}
+
+.color-marker-v {
+    background-color: #d076fc;
+}
+
+.color-marker-b {
+    background-color: #565656;
+}
+
+.sidebar-color-marker {
+    border-left: 3px solid;
+}
+
+.sidebar-color-marker-r {
+    border-left-color: #cd5c5c;
+}
+
+.sidebar-color-marker-g {
+    border-left-color: #6aa838;
+}
+
+.sidebar-color-marker-w {
+    border-left-color: lightgray;
+}
+
+.sidebar-color-marker-v {
+    border-left-color: #d076fc;
+}
+
+.sidebar-color-marker-b {
+    border-left-color: #565656;
+}
+
 em {
   text-align: center !important;
   color: #df2321;

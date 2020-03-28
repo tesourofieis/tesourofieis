@@ -55,24 +55,23 @@ const PRECACHE_URLS = [
   "./img/gitter.png",
   "./index",
   "./missa",
-  "./date/2019.json",
-  "./date/2020.json",
-  `./date/${today}.json`,
-  `./date/${tp1}.json`,
-  `./date/${tp2}.json`,
-  `./date/${tp3}.json`,
-  `./date/${tp4}.json`,
-  `./date/${tp5}.json`,
-  `./date/${tp6}.json`,
-  `./date/${tp7}.json`,
-  `./date/${tp8}.json`,
-  `./date/${tp9}.json`,
-  `./date/${tp10}.json`,
-  `./date/${tp11}.json`,
-  `./date/${tp12}.json`,
-  `./date/${tp13}.json`,
-  `./date/${tp14}.json`,
-  `./date/${tp15}.json`,
+  "./date/2020",
+  `./date/${today}`,
+  `./date/${tp1}`,
+  `./date/${tp2}`,
+  `./date/${tp3}`,
+  `./date/${tp4}`,
+  `./date/${tp5}`,
+  `./date/${tp6}`,
+  `./date/${tp7}`,
+  `./date/${tp8}`,
+  `./date/${tp9}`,
+  `./date/${tp10}`,
+  `./date/${tp11}`,
+  `./date/${tp12}`,
+  `./date/${tp13}`,
+  `./date/${tp14}`,
+  `./date/${tp15}`,
   "./oracaomanha",
   "./oracaonoite",
   "./requiem",
@@ -119,7 +118,7 @@ const PRECACHE_URLS = [
   "./img/1.gif"
 ];
 
-const PRECACHE = "precache-v0.0.6";
+const PRECACHE = "precache-v0.0.7";
 const RUNTIME = "runtime";
 
 self.addEventListener("install", event => {

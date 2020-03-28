@@ -59,6 +59,7 @@ $(window).on("load", function() {
 
       $.each(data, function(index, item) {
         let title = item["info"].title;
+        let sections = item.sections;
         let sectionsVernacular = item.proper_vernacular;
         let sectionsLatin = item.proper_latin;
 
@@ -77,133 +78,93 @@ $(window).on("load", function() {
             sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>");
           });
         });
-        for (let i = 0; i < sectionsVernacular.length; i++) {
-          if (sectionsVernacular[i].id === "Introitus") {
-            let introitusVernacular = sectionsVernacular[i];
-            let introitusLatin = sectionsLatin[i];
+        for (let i = 0; i < sections.length; i++) {
+          if (sections[i].id === "Introitus") {
             $(
               renderTemplate($("#introitus").text(), {
-                introitusLabelVernacular: introitusVernacular.label,
-                introitusVernacular: introitusVernacular.body,
-                introitusLabelLatin: introitusLatin.label,
-                introitusLatin: introitusLatin.body
+                introitusVernacular: sections[i].body[0][0],
+                introitusLatin: sections[i].body[0][1]
               })
             ).appendTo("#introitusText");
           }
           if (
-            sectionsVernacular[i].id === "Oratio" ||
-            sectionsVernacular[i].id === "Commemoratio Oratio"
+            sections[i].id === "Oratio" ||
+            sections[i].id === "Commemoratio Oratio"
           ) {
-            let oratioVernacular = sectionsVernacular[i];
-            let oratioLatin = sectionsLatin[i];
             $(
               renderTemplate($("#oratio").text(), {
-                oratioLabelVernacular: oratioVernacular.label,
-                oratioVernacular: oratioVernacular.body,
-                oratioLabelLatin: oratioLatin.label,
-                oratioLatin: oratioLatin.body
+                oratioVernacular: sections[i].body[0][0],
+                oratioLatin: sections[i].body[0][1]
               })
             ).appendTo("#oratioText");
           }
-          if (sectionsVernacular[i].id === "Lectio") {
-            let lectioVernacular = sectionsVernacular[i];
-            let lectioLatin = sectionsLatin[i];
+          if (sections[i].id === "Lectio") {
             $(
               renderTemplate($("#lectio").text(), {
-                lectioLabelVernacular: lectioVernacular.label,
-                lectioVernacular: lectioVernacular.body,
-                lectioLabelLatin: lectioLatin.label,
-                lectioLatin: lectioLatin.body
+                lectioVernacular: sections[i].body[0][0],
+                lectioLatin: sections[i].body[0][1]
               })
             ).appendTo("#lectioText");
           }
-          if (sectionsVernacular[i].id === "Graduale") {
-            let gradualeVernacular = sectionsVernacular[i];
-            let gradualeLatin = sectionsLatin[i];
+          if (sections[i].id === "Graduale") {
             $(
               renderTemplate($("#graduale").text(), {
-                gradualeLabelVernacular: gradualeVernacular.label,
-                gradualeVernacular: gradualeVernacular.body,
-                gradualeLabelLatin: gradualeLatin.label,
-                gradualeLatin: gradualeLatin.body
+                gradualeVernacular: sections.body[0][0],
+                gradualeLatin: sections.body[0][1]
               })
             ).appendTo("#gradualeText");
           }
-          if (sectionsVernacular[i].id === "Evangelium") {
-            let evangeliumVernacular = sectionsVernacular[i];
-            let evangeliumLatin = sectionsLatin[i];
+          if (sections[i].id === "Evangelium") {
             $(
               renderTemplate($("#evangelium").text(), {
-                evangeliumLabelVernacular: evangeliumVernacular.label,
-                evangeliumVernacular: evangeliumVernacular.body,
-                evangeliumLabelLatin: evangeliumLatin.label,
-                evangeliumLatin: evangeliumLatin.body
+                evangeliumVernacular: sections.body[0][0],
+                evangeliumLatin: sections.body[0][1]
               })
             ).appendTo("#evangeliumText");
           }
-          if (sectionsVernacular[i].id === "Offertorium") {
-            let offertoriumVernacular = sectionsVernacular[i];
-            let offertoriumLatin = sectionsLatin[i];
+          if (sections[i].id === "Offertorium") {
             $(
               renderTemplate($("#offertorium").text(), {
-                offertoriumLabelVernacular: offertoriumVernacular.label,
-                offertoriumVernacular: offertoriumVernacular.body,
-                offertoriumLabelLatin: offertoriumLatin.label,
-                offertoriumLatin: offertoriumLatin.body
+                offertoriumVernacular: sections.body[0][0],
+                offertoriumLatin: sections.body[0][1]
               })
             ).appendTo("#offertoriumText");
           }
           if (
-            sectionsVernacular[i].id === "Secreta" ||
-            sectionsVernacular[i].id === "Commemoratio Secreta"
+            sections[i].id === "Secreta" ||
+            sections[i].id === "Commemoratio Secreta"
           ) {
-            let secretaVernacular = sectionsVernacular[i];
-            let secretaLatin = sectionsLatin[i];
             $(
               renderTemplate($("#secreta").text(), {
-                secretaLabelVernacular: secretaVernacular.label,
-                secretaVernacular: secretaVernacular.body,
-                secretaLabelLatin: secretaLatin.label,
-                secretaLatin: secretaLatin.body
+                secretaVernacular: sections.body[0][0],
+                secretaLatin: sections.body[0][1]
               })
             ).appendTo("#secretaText");
           }
-          if (sectionsVernacular[i].id === "Prefatio") {
-            let prefatioVernacular = sectionsVernacular[i];
-            let prefatioLatin = sectionsLatin[i];
+          if (sections[i].id === "Prefatio") {
             $(
               renderTemplate($("#prefatio").text(), {
-                prefatioLabelVernacular: prefatioVernacular.label,
-                prefatioVernacular: prefatioVernacular.body,
-                prefatioLabelLatin: prefatioLatin.label,
-                prefatioLatin: prefatioLatin.body
+                prefatioVernacular: sections.body[0][0],
+                prefatioLatin: sections.body[0][1]
               })
             ).appendTo("#prefatioText");
           }
-          if (sectionsVernacular[i].id === "Communio") {
-            let communioVernacular = sectionsVernacular[i];
-            let communioLatin = sectionsLatin[i];
+          if (sections[i].id === "Communio") {
             $(
               renderTemplate($("#communio").text(), {
-                communioLabelVernacular: communioVernacular.label,
-                communioVernacular: communioVernacular.body,
-                communioLabelLatin: communioLatin.label,
-                communioLatin: communioLatin.body
+                communioVernacular: sections.body[0][0],
+                communioLatin: sections.body[0][1]
               })
             ).appendTo("#communioText");
           }
           if (
-            sectionsVernacular[i].id === "Postcommunio" ||
-            sectionsVernacular[i].id === "Commemoratio Postcommunio"
+            sections[i].id === "Postcommunio" ||
+            sections[i].id === "Commemoratio Postcommunio"
           ) {
-            let postcommunioVernacular = sectionsVernacular[i];
-            let postcommunioLatin = sectionsLatin[i];
             $(
               renderTemplate($("#postcommunio").text(), {
-                postcommunioLabelVernacular: postcommunioVernacular.label,
-                postcommunioVernacular: postcommunioVernacular.body,
-                postcommunioLabelLatin: postcommunioLatin.label,
-                postcommunioLatin: postcommunioLatin.body
+                postcommunioVernacular: sections.body[0][0],
+                postcommunioLatin: sections.body[0][1]
               })
             ).appendTo("#postcommunioText");
           }

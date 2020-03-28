@@ -104,6 +104,7 @@ a[aria-expanded="true"] {
     bottom: 0;
     cursor: pointer;
 }
+
 .input-group-append .iconify {
     position: absolute;
     left: 180px;
@@ -126,6 +127,10 @@ a[aria-expanded="true"] {
 #datetimepicker4 {
     display: inline-block;
     width: 20%;
+}
+
+.bootstrap-datetimepicker-widget{
+    left: 0 !important;
 }
 
 .bootstrap-datetimepicker-widget table td.active,
