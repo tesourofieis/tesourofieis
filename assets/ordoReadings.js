@@ -53,24 +53,15 @@ $(window).on("load", function() {
    * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
    **/
   function loadProper(date) {
-    $.getJSON(config.dateEndpoint + date + ".json", function(data) {
+    $.getJSON(config.dateEndpoint + date, function(data) {
       $main.empty();
       window.scrollTo(0, 0);
 
       $.each(data, function(index, item) {
-        let title = item["info"].title;
+        // let title = item["info"].title;
         let sections = item.sections;
         let sectionsVernacular = item.proper_vernacular;
         let sectionsLatin = item.proper_latin;
-
-        if (title == null) {
-          title = moment(item["info"].date, "YYYY-MM-DD").format("DD MMMM");
-        }
-        $(
-          renderTemplate(templateContentIntro, {
-            title: title
-          })
-        ).appendTo($main);
 
         $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
           // replacing all surrounding asterisks with surrounding <em>s in body
@@ -82,8 +73,9 @@ $(window).on("load", function() {
           if (sections[i].id === "Introitus") {
             $(
               renderTemplate($("#introitus").text(), {
+                title: sections[i].label + " de " + item["info"].title,
                 introitusVernacular: sections[i].body[0][0],
-                introitusLatin: sections[i].body[0][1]
+                introitusLatin: sections[i].body[0][1],
               })
             ).appendTo("#introitusText");
           }
@@ -93,6 +85,7 @@ $(window).on("load", function() {
           ) {
             $(
               renderTemplate($("#oratio").text(), {
+                title: sections[i].label + " de " + item["info"].title,
                 oratioVernacular: sections[i].body[0][0],
                 oratioLatin: sections[i].body[0][1]
               })
@@ -101,6 +94,7 @@ $(window).on("load", function() {
           if (sections[i].id === "Lectio") {
             $(
               renderTemplate($("#lectio").text(), {
+                title: sections[i].label + " de " + item["info"].title,
                 lectioVernacular: sections[i].body[0][0],
                 lectioLatin: sections[i].body[0][1]
               })
@@ -109,24 +103,27 @@ $(window).on("load", function() {
           if (sections[i].id === "Graduale") {
             $(
               renderTemplate($("#graduale").text(), {
-                gradualeVernacular: sections.body[0][0],
-                gradualeLatin: sections.body[0][1]
+                title: sections[i].label + " de " + item["info"].title,
+                gradualeVernacular: sections[i].body[0][0],
+                gradualeLatin: sections[i].body[0][1]
               })
             ).appendTo("#gradualeText");
           }
           if (sections[i].id === "Evangelium") {
             $(
               renderTemplate($("#evangelium").text(), {
-                evangeliumVernacular: sections.body[0][0],
-                evangeliumLatin: sections.body[0][1]
+                title: sections[i].label + " de " + item["info"].title,
+                evangeliumVernacular: sections[i].body[0][0],
+                evangeliumLatin: sections[i].body[0][1]
               })
             ).appendTo("#evangeliumText");
           }
           if (sections[i].id === "Offertorium") {
             $(
               renderTemplate($("#offertorium").text(), {
-                offertoriumVernacular: sections.body[0][0],
-                offertoriumLatin: sections.body[0][1]
+                title: sections[i].label + " de " + item["info"].title,
+                offertoriumVernacular: sections[i].body[0][0],
+                offertoriumLatin: sections[i].body[0][1]
               })
             ).appendTo("#offertoriumText");
           }
@@ -136,24 +133,27 @@ $(window).on("load", function() {
           ) {
             $(
               renderTemplate($("#secreta").text(), {
-                secretaVernacular: sections.body[0][0],
-                secretaLatin: sections.body[0][1]
+                title: sections[i].label + " de " + item["info"].title,
+                secretaVernacular: sections[i].body[0][0],
+                secretaLatin: sections[i].body[0][1]
               })
             ).appendTo("#secretaText");
           }
           if (sections[i].id === "Prefatio") {
             $(
               renderTemplate($("#prefatio").text(), {
-                prefatioVernacular: sections.body[0][0],
-                prefatioLatin: sections.body[0][1]
+                title: sections[i].label + " de " + item["info"].title,
+                prefatioVernacular: sections[i].body[0][0],
+                prefatioLatin: sections[i].body[0][1]
               })
             ).appendTo("#prefatioText");
           }
           if (sections[i].id === "Communio") {
             $(
               renderTemplate($("#communio").text(), {
-                communioVernacular: sections.body[0][0],
-                communioLatin: sections.body[0][1]
+                title: sections[i].label + " de " + item["info"].title,
+                communioVernacular: sections[i].body[0][0],
+                communioLatin: sections[i].body[0][1]
               })
             ).appendTo("#communioText");
           }
@@ -163,8 +163,9 @@ $(window).on("load", function() {
           ) {
             $(
               renderTemplate($("#postcommunio").text(), {
-                postcommunioVernacular: sections.body[0][0],
-                postcommunioLatin: sections.body[0][1]
+                title: sections[i].label + " de " + item["info"].title,
+                postcommunioVernacular: sections[i].body[0][0],
+                postcommunioLatin: sections[i].body[0][1]
               })
             ).appendTo("#postcommunioText");
           }

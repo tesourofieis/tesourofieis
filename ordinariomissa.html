@@ -305,10 +305,8 @@ Vos pedimos, Senhor, pelos méritos dos vossos Santos, cujas relíquias estão a
 <em>Nas Missas solenes, incensa-se o altar. O Sacerdote vai para o lado da Epístola, e lê o Intróito. Canto solene de entrada, o Intróito como que enuncia o tema geral da Missa ou solenidade do dia. Às primeiras palavras, todos se benzem, ao mesmo tempo que o celebrante.</em>
 
 <main class="col-12" id="introitusText"></main>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
 <script id="introitus" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
     <div class="row">
 		<div class="col-6 section-latin">
 			<p>${introitusLatin}</p>
@@ -434,10 +432,8 @@ V. O Senhor esteja convosco.
 </div>
 
 <main class="col-12" id="oratioText"></main>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
 <script id="oratio" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
     <div class="row">
 		<div class="col-6 section-latin">
 			<p>${oratioLatin}</p>
@@ -468,10 +464,8 @@ V. ...por todos os séculos dos séculos.
 <h3 id="item-1-7" class="text-center">Epístola do dia</h3>
 
 <main class="col-12" id="lectioText"></main>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
 <script id="lectio" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
     <div class="row">
 		<div class="col-6 section-latin">
 			<p>${lectioLatin}</p>
@@ -498,10 +492,8 @@ V. ...por todos os séculos dos séculos.
 <em>A oração curta de acção de graças, consiste geralmente de dois ou três versos retirados dos Salmos ou do Antigo Testamento.</em>
 
 <main class="col-12" id="gradualeText"></main>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
 <script id="graduale" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
 	<div class="row">
 		<div class="col-6 section-latin">
 			<p>${gradualeLatin}</p>
@@ -566,6 +558,26 @@ V. Sequéntia <span class="text-danger">&#10016;</span> sancti Evangélii secún
 <div class="col-6 text-justify">
 V. Continuação <span class="text-danger">&#10016;</span> do santo Evangelho, segundo <em>N.</em>
 </div>
+</div>
+</div>
+
+<main class="col-12" id="evangeliumText"></main>
+<script id="evangelium" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
+	<div class="row">
+		<div class="col-6 section-latin">
+			<p>${evangeliumLatin}</p>
+		</div>
+		<div class="col-6 section-vernacular">
+			<p>${evangeliumVernacular}</p>
+		</div>
+	</div>
+</script>
+
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 text-justify"
 <div class="col-6 text-justify">
 <span class="text-danger">R.</span> Glória tibi, Dómine.
 </div>
@@ -588,21 +600,6 @@ V. Que pelas palavras do Evangelho nos sejam perdoados os nossos pecados.
 </div>
 </div>
 
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
-
-<main class="col-12" id="evangeliumText"></main>
-<script id="evangelium" type="text/x-custom-template">
-	<div class="row">
-		<div class="col-6 section-latin">
-			<p>${evangeliumLatin}</p>
-		</div>
-		<div class="col-6 section-vernacular">
-			<p>${evangeliumVernacular}</p>
-		</div>
-	</div>
-</script>
 
 <em>Digamos solenemente:</em>
 
@@ -691,10 +688,8 @@ V. Oremos.
 <h3 id="item-2-2" class="text-center">Ofertório do dia</h3>
 
 <main class="col-12" id="offertoriumText"></main>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
 <script id="offertorium" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
 	<div class="row">
 		<div class="col-6 section-latin">
 			<p>${offertoriumLatin}</p>
@@ -926,10 +921,8 @@ V. Amen.
 <h3 id="item-2-3" class="text-center">Secreta do dia</h3>
 
 <main class="col-12" id="secretaText"></main>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
 <script id="secreta" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
 	<div class="row">
 		<div class="col-6 section-latin">
 			<p>${secretaLatin}</p>
@@ -1005,10 +998,8 @@ V. Demos graças ao Senhor, Nosso Deus.
 <h3 id="item-2-5" class="text-center">Prefácio do dia</h3>
 
 <main class="col-12" id="prefatioText"></main>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
 <script id="prefatio" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
 	<div class="row">
 		<div class="col-6 section-latin">
 			<p>${prefatioLatin}</p>
@@ -1661,10 +1652,8 @@ Senhor, que o vosso Corpo, que recebi, e o vosso sangue, que bebi, se unam intim
 <em>O Sacerdote passa para o lado direito do altar, e recita a antífona da Comunhão.</em>
 
 <main class="col-12" id="communioText"></main>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
 <script id="communio" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
 	<div class="row">
 		<div class="col-6 section-latin">
 			<p>${communioLatin}</p>
@@ -1695,10 +1684,8 @@ V. O Senhor esteja convosco.
 <h3 id="item-2-16" class="text-center">Postcomúnio do dia</h3>
 
 <main class="col-12" id="postcommunioText"></main>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h4 class="text-center">${title}</h4>
-</script>
 <script id="postcommunio" type="text/x-custom-template">
+    <h4 class="text-center text-danger">${title}</h4>
 	<div class="row">
 		<div class="col-6 section-latin">
 			<p>${postcommunioLatin}</p>
