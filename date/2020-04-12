@@ -1,128 +1,310 @@
 [
   {
     "info": {
-      "additional_info": [], 
+      "additional_info": [
+        "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej", 
+        "Szaty bia\u0142e"
+      ], 
       "colors": [
         "w"
       ], 
-      "date": "2020-04-12", 
-      "description": "", 
+      "description": "W Niedziel\u0119 Wielkanocn\u0105 zachowa\u0142 si\u0119 pierwotny zwyczaj odprawiania dwu Mszy \u015bwi\u0119tych: jednej na zako\u0144czenie nocnej Wigilii i drugiej przed po\u0142udniem. W tej drugiej Mszy triumfalna rado\u015b\u0107 wielkanocna dochodzi do szczytu. Czterokrotnie powtarza si\u0119 zdanie: \u00abna Pasch\u0119 nasz\u0105 zosta\u0142 ofiarowany Chrystus\u00bb. Zbawiciel, przeszed\u0142szy zwyci\u0119sko przez \u015bmier\u0107, wyzwoli\u0142 nas spod w\u0142adzy \u015bmierci, szatana i grzechu i umo\u017cliwi\u0142 nam przej\u015bcie do nowego \u017cycia. Zjednoczeni z Jezusem cieszymy si\u0119 Jego zwyci\u0119stwem.\n", 
       "id": "tempora:Pasc0-0:1:w", 
       "rank": 1, 
-      "supplements": [], 
+      "supplements": [
+        {
+          "label": "Komentarz do Ewangelii na Wielkanoc", 
+          "path": "http://vetusordo.pl/objasnieniaenw/"
+        }
+      ], 
       "tempora": null, 
-      "title": "Domingo da Ressurrei\u00e7\u00e3o"
+      "title": "Niedziela Zmartwychwstania"
     }, 
     "sections": [
       {
         "body": [
           [
-            "*Sl. 1:38; 1:18; 1:5-6*\nI arose, and am still with Thee, alleluia; Thou hast laid Thy hand upon me, alleluia; Thy knowledge is become wonderful, alleluia, alleluia.\n*Sl. 138. 1, 2*\nLord, Thou hast searched Me and known Me; Thou knowest my sitting down and My rising up.\nGl\u00f3ria ao Pai.\nI arose, and am still with Thee, alleluia; Thou hast laid Thy hand upon me, alleluia; Thy knowledge is become wonderful, alleluia, alleluia.", 
+            "*Ps 138:18,5-6*\n*Zmartwychwsta\u0142y Chrystus zwraca si\u0119 do Ojca Niebieskiego w akcie adoracji i mi\u0142o\u015bci:*\nZmartwychwsta\u0142em i wci\u0105\u017c jestem z Tob\u0105, alleluja; po\u0142o\u017cy\u0142e\u015b na mnie r\u0119k\u0119 Swoj\u0105, alleluja. Przedziwna jest wiedza Twoja, alleluja, alleluja.\n*Ps 138:1-2*\nPanie, Ty mnie przenikasz i znasz, Ty wiesz o moim spoczynku i o mym powstaniu.\nChwa\u0142a Ojcu\u2026\nZmartwychwsta\u0142em i wci\u0105\u017c jestem z Tob\u0105, alleluja; po\u0142o\u017cy\u0142e\u015b na mnie r\u0119k\u0119 Swoj\u0105, alleluja. Przedziwna jest wiedza Twoja, alleluja, alleluja.", 
             "*Ps 138:18; 138:5-6.*\nResurr\u00e9xi, et adhuc tecum sum, allel\u00faja: posu\u00edsti super me manum tuam, allel\u00faja: mir\u00e1bilis facta est sci\u00e9ntia tua, allel\u00faja, allel\u00faja.\n*Ps 138:1-2.*\nD\u00f3mine, prob\u00e1sti me et cognov\u00edsti me: tu cognov\u00edsti sessi\u00f3nem meam et resurrecti\u00f3nem meam.\nGl\u00f3ria Patri\u2026\nResurr\u00e9xi, et adhuc tecum sum, allel\u00faja: posu\u00edsti super me manum tuam, allel\u00faja: mir\u00e1bilis facta est sci\u00e9ntia tua, allel\u00faja, allel\u00faja."
           ]
         ], 
         "id": "Introitus", 
-        "label": "Intr\u00f3ito"
+        "label": "Introit"
       }, 
       {
         "body": [
           [
-            "O God, who, on this day, through Thine only-begotten Son, hast conquered death, and thrown open to us the gate of everlasting life, give effect by thine aid to our desires, which Thou dost anticipate and inspire\nPelo mesmo nosso Senhor...", 
+            "Bo\u017ce, Ty w dniu dzisiejszym pokona\u0142e\u015b \u015bmier\u0107 i otworzy\u0142e\u015b nam bramy wieczno\u015bci przez Jednorodzonego Syna Twego; racz wspomaga\u0107 nasze pragnienia, kt\u00f3re uprzedzaj\u0105c\u0105 \u0142ask\u0105 Swoj\u0105 sam obudzi\u0142e\u015b.\nPrzez tego\u017c Pana\u2026", 
             "Deus, qui hodi\u00e9rna die per Unig\u00e9nitum tuum \u00e6ternit\u00e1tis nobis \u00e1ditum, dev\u00edcta morte, reser\u00e1sti: vota nostra, qu\u00e6 pr\u00e6veni\u00e9ndo asp\u00edras, \u00e9tiam adjuv\u00e1ndo pros\u00e9quere.\nPer e\u00fandem\u2026"
           ]
         ], 
         "id": "Oratio", 
-        "label": "Ora\u00e7\u00e3o"
+        "label": "Kolekta"
       }, 
       {
         "body": [
           [
-            "Lesson from the first letter of St. Paul the Apostle to the Corinthians\n*1 Cor 5:7-8*\nBrethren, purge out the old leaven, that you may be a new paste, as you are unleavened: for Christ our Pasch is sacrificed. Therefore let us feast, not with the old leaven, nor with the leaven of malice and wickedness, but with the unleavened bread of sincerity and truth.", 
+            "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*1 Kor 5:7-8*\n*W Starym Testamencie przed Wielkanoc\u0105 usuwano z dom\u00f3w chleb kwaszony. Baranka paschalnego wolno by\u0142o spo\u017cywa\u0107 tylko z chlebem prza\u015bnym \u2013 niekwaszonym. Chrystus, nasz Baranek paschalny, zosta\u0142 na krzy\u017cu ofiarowany za wszystkich. Ofiara Jego trwa. Aby bra\u0107 w niej pe\u0142ny udzia\u0142, trzeba usun\u0105\u0107 ze swojego \u017cycia kwas grzechu.*\nBracia: Uprz\u0105tnijcie stary kwas, aby\u015bcie si\u0119 stali nowym zaczynem, jako te\u017c prza\u015bni jeste\u015bcie. Albowiem na Pasch\u0119 nasz\u0105 zosta\u0142 ofiarowany Chrystus. \u015awi\u0119tujmy tedy nie w starym kwasie ani te\u017c w kwasie z\u0142o\u015bci i przewrotno\u015bci, ale w prza\u015bnikach szczero\u015bci i prawdy.", 
             "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Corinthios.\n*1 Cor 5:7-8*\nFratres: Expurg\u00e1te vetus ferm\u00e9ntum, ut sitis nova consp\u00e9rsio, sicut estis \u00e1zymi. Etenim Pascha nostrum immol\u00e1tus est Christus. Itaque epul\u00e9mur: non in ferm\u00e9nto v\u00e9teri, neque in ferm\u00e9nto mal\u00edti\u00e6 et nequiti\u00e6: sed in \u00e1zymis sincerit\u00e1tis et verit\u00e1tis."
           ]
         ], 
         "id": "Lectio", 
-        "label": "Ep\u00edstola"
+        "label": "Lekcja"
       }, 
       {
         "body": [
           [
-            "Alleluia, alleluia\n*Sl. 117:24; 117:1*\nThis is the day which the Lord hath made: let us rejoice and be glad in it.\nV. Give praise unto the Lord, for He is good: for His mercy endureth for ever Alleluia, alleluia.\n*1 Cor. 5. 7*\nChrist our Pasch is immolated.", 
+            "Alleluja, alleluja\n*Ps 117:24; 117:1*\nOto dzie\u0144, kt\u00f3ry Pan uczyni\u0142; radujmy si\u0119 ze\u0144 i weselmy.\n\u2123. Dzi\u0119kujcie Panu, bo jest dobry, bo mi\u0142osierdzie Jego na wieki. Alleluja, alleluja.\n*1 Kor 5:7*\n\u2123. Na Pasch\u0119 nasz\u0105 zosta\u0142 ofiarowany Chrystus.", 
             "Allel\u00faja, allel\u00faja.\n*Ps. 117:24; 117:1*\nH\u00e6c dies, quam fecit D\u00f3minus: exsult\u00e9mus et l\u00e6t\u00e9mur in ea.\n\u2123. Confit\u00e9mini D\u00f3mino, qu\u00f3niam bonus: qu\u00f3niam in s\u01fdculum miseric\u00f3rdia ejus. Allel\u00faja, allel\u00faja.\n*1 Cor 5:7*\n\u2123. Pascha nostrum immol\u00e1tus est Christus."
           ]
         ], 
         "id": "Graduale", 
-        "label": "Gradual"
+        "label": "Gradua\u0142"
       }, 
       {
         "body": [
           [
-            "Christians! to the Paschal Victim offer your thankful praises.\nThe Lamb the sheep redeemeth: Christ, who only is sinless, reconcileth sinners to the Father.\nDeath and life contended in that conflict stupendous: the Prince of Life, who died, deathless reigneth.\nSpeak, Mary, declaring what thou sawest wayfaring.\n\"The tomb of Christ who now liveth: and likewise the glory of the Risen.\nBright Angels attesting, the shroud and napkin resting.\nYea, Christ my hope is arisen: to Galilee He goeth before you.\"\nWe know that Christ is risen, henceforth ever living: Have mercy, Victor King, pardon giving. Amen. Alleluia.", 
+            "Ho\u0142d Ofierze Wielkanocnej sk\u0142adajcie chrze\u015bcijanie.\nJagni\u0119 zbawi\u0142o owce: Chrystus niewinny z Ojcem znowu pojedna\u0142 nas, grzeszniki.\n\u015amier\u0107 i \u017cycie stoczy\u0142y z sob\u0105 walki dziwne: Umar\u0142y \u017cycia w\u00f3dz \u2013 rz\u0105dzi \u017cywy.\nNa drodze, Maryja, co\u015b widzia\u0142a, wyjaw!\nGrobowiec Chrystusa \u017cywego i chwa\u0142\u0119 zn\u00f3w zmartwychwsta\u0142ego.\nAnielskie te\u017c \u015bwiadki, i ca\u0142un, i szatki.\nWskrzes\u0142 Chrystus, cel mej nadzei: Poprzedzi swoich do Galilei.\nWiemy: oto zmartwychwsta\u0142 Chrystus prawdziwy: Zwyci\u0119ski Kr\u00f3lu, b\u0105d\u017a mi\u0142o\u015bciwy.\nAmen. Alleluja.\n*Powy\u017csz\u0105 sekwencj\u0119 odmawia si\u0119 do Soboty Bia\u0142ej w\u0142\u0105cznie.*", 
             "V\u00edctim\u00e6 pasch\u00e1li laudes \u00edmmolent Christi\u00e1ni.\nAgnus r\u00e9demit oves: Christus \u00ednnocens Patri reconcili\u00e1vit peccat\u00f3res.\nMors et vita du\u00e9llo conflix\u00e9re mir\u00e1ndo: dux vit\u00e6 m\u00f3rtuus regnat vivus.\nDic nobis, Mar\u00eda, quid vid\u00edsti in via?\nSep\u00falcrum Christi viv\u00e9ntis et gl\u00f3riam vidi resurg\u00e9ntis.\nAng\u00e9licos testes, sud\u00e1rium et vestes.\nSurr\u00e9xit Christus, spes mea: pr\u00e6c\u00e9det vos in Galil\u01fdam.\nScimus Christum surrex\u00edsse a m\u00f3rtuis vere: tu nobis, victor Rex, miser\u00e9re. Amen. Allel\u00faja.\n*Sequentia dicitur usque ad Sabbatum in Albis inclusive.*"
           ]
         ], 
         "id": "Sequentia", 
-        "label": "Sequ\u00eancia"
+        "label": "Sekwencja"
       }, 
       {
         "body": [
           [
-            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Marcos.\n*Mc 16:1-7*\nAt that time, Mary Magdalen, and Mary the mother of James, and Salome bought sweet spices, that coming they might anoint Jesus. And very early in the morning, the first day of the week, they came to the sepulchre, the sun being now risen. And they said one to another: Who shall roll us back the stone from the door of the sepulchre? And looking, they saw the stone rolled back. For it was very great. And entering into the sepulchre, they saw a young man sitting on the right side, clothed with a white robe, and they were astonished. Who saith to them, Be not affrighted; ye seek Jesus of Nazareth, who was crucified: He is risen, He is not here; behold the place where they laid Him. But go, tell His disciples, and Peter, that He goeth before you into Galilee; there you shall see Him, as He told you.", 
+            "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Marka.\n*Mk 16:1-7*\nOnego czasu: Maria Magdalena i Maria Jakubowa, i Salome nakupi\u0142y wonno\u015bci, aby p\u00f3j\u015b\u0107 i nama\u015bci\u0107 Jezusa. I bardzo rano w pierwszy dzie\u0144 tygodnia przysz\u0142y do grobu, gdy ju\u017c wzesz\u0142o s\u0142o\u0144ce. A m\u00f3wi\u0142y do siebie: \u00abKt\u00f3\u017c nam odsunie kamie\u0144 od drzwi grobowca?\u00bb I spojrzawszy, ujrza\u0142y kamie\u0144 odsuni\u0119ty. By\u0142 bowiem bardzo wielki.\nA wszed\u0142szy do grobowca, ujrza\u0142y m\u0142odzie\u0144ca siedz\u0105cego po prawej stronie, ubranego w szat\u0119 bia\u0142\u0105, i zdumia\u0142y si\u0119. Ale on rzek\u0142 im: \u00abNie l\u0119kajcie si\u0119, szukacie Jezusa Nazare\u0144skiego, ukrzy\u017cowanego: powsta\u0142, nie masz Go tu, oto miejsce, gdzie Go z\u0142o\u017cono. Ale id\u017acie, powiedzcie uczniom Jego i Piotrowi, \u017ce was uprzedza do Galilei: tam Go ujrzycie, jako wam powiedzia\u0142\u00bb.", 
             "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Marcum.\n*Marc 16:1-7.*\nIn illo t\u00e9mpore: Mar\u00eda Magdal\u00e9ne et Mar\u00eda Jac\u00f3bi et Sal\u00f3me em\u00e9runt ar\u00f3mata, ut veni\u00e9ntes \u00fangerent Jesum. Et valde mane una sabbat\u00f3rum, veniunt ad monum\u00e9ntum, orto jam sole. Et dic\u00e9bant ad \u00ednvicem: Quis rev\u00f3lvet nobis l\u00e1pidem ab \u00f3stio monum\u00e9nti? Et respici\u00e9ntes vid\u00e9runt revol\u00fatum l\u00e1pidem. Erat quippe magnus valde. Et intro\u00eb\u00fantes in monum\u00e9ntum vid\u00e9runt j\u00favenem sed\u00e9ntem in dextris, coop\u00e9rtum stola c\u00e1ndida, et obstupu\u00e9runt. Qui dicit illis: Nol\u00edte expav\u00e9scere: Jesum qu\u01fdritis Nazar\u00e9num, crucif\u00edxum: surr\u00e9xit, non est hic, ecce locus, ubi posu\u00e9runt eum. Sed ite, d\u00edcite disc\u00edpulis ejus et Petro, quia pr\u00e6c\u00e9dit vos in Galil\u01fdam: ibi eum vid\u00e9bitis, sicut dixit vobis."
           ]
         ], 
         "id": "Evangelium", 
-        "label": "Evangelho"
+        "label": "Ewangelia"
       }, 
       {
         "body": [
           [
-            "*Sl. 75:9-10.*\nThe earth trembled and was still when God arose in judgment, alleluia.", 
+            "*Ps 75:9-10*\n*Wspominamy trz\u0119sienie ziemi, kt\u00f3re towarzyszy\u0142o Zmartwychwstaniu Chrystusa.*\nPrzel\u0119k\u0142a si\u0119 ziemia i zamilk\u0142a, kiedy B\u00f3g podni\u00f3s\u0142 si\u0119 na s\u0105dy, alleluja.", 
             "*Ps. 75:9-10.*\nTerra tr\u00e9muit, et qui\u00e9vit, dum res\u00fargeret in jud\u00edcio Deus, allel\u00faja."
           ]
         ], 
         "id": "Offertorium", 
-        "label": "Ofert\u00f3rio"
+        "label": "Antyfona na Ofiarowanie"
       }, 
       {
         "body": [
           [
-            "We beseech Thee, O Lord, accept the prayers of Thy people together with the Sacrifice they offer, that what has been begun by the Paschal Mysteries, by Thy working may profit us unto eternal healing.\nPor nosso Senhor...", 
+            "Prosimy Ci\u0119, Panie, przyjmij modlitwy wiernych wraz z darami ofiarnymi: aby ofiara, kt\u00f3ra wzi\u0119\u0142a pocz\u0105tek w misterium paschalnym, za \u0142ask\u0105 Twoj\u0105 sta\u0142a si\u0119 dla nas lekarstwem na wieczno\u015b\u0107.\nPrzez Pana\u2026", 
             "S\u00fascipe, qu\u01fdsumus, D\u00f3mine, preces p\u00f3puli tui cum oblati\u00f3nibus hosti\u00e1rum: ut, Pasch\u00e1libus initi\u00e1ta myst\u00e9riis, ad \u00e6ternit\u00e1tis nobis med\u00e9lam, te oper\u00e1nte, prof\u00edciant.\nPer Dominum\u2026"
           ]
         ], 
         "id": "Secreta", 
-        "label": "Secreta"
+        "label": "Sekreta"
       }, 
       {
         "body": [
           [
-            "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
+            "*Prefacja Wielkanocna*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy Ciebie, Panie, zawsze, a zw\u0142aszcza w tym dniu uroczy\u015bciej s\u0142awili, gdy jako nasza Pascha zosta\u0142 ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, kt\u00f3ry zg\u0142adzi\u0142 grzechy \u015bwiata; On umieraj\u0105c zniweczy\u0142 nasz\u0105 \u015bmier\u0107 i zmartwychwstaj\u0105c przywr\u00f3ci\u0142 nam \u017cycie.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
             "*Paschalis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te quidem, D\u00f3mine, omni t\u00e9mpore, sed in hoc pot\u00edssimum (sed tempore Passionis)\nhac pot\u00edssimum nocte (sed octava Pasch\u00e6)\nhac pot\u00edssimum die glori\u00f3sius pr\u00e6dic\u00e1re, cum Pascha nostrum immol\u00e1tus est Christus. Ipse enim verus est Agnus, qui \u00e1bstulit pecc\u00e1ta mundi. Qui mortem nostram mori\u00e9ndo destr\u00faxit et vitam resurg\u00e9ndo repar\u00e1vit. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:"
           ]
         ], 
         "id": "Prefatio", 
-        "label": "Pref\u00e1cio"
+        "label": "Prefacja"
       }, 
       {
         "body": [
           [
-            "*1 Cor 5:7-8*\nChrist our Pasch is immolated, alleluia: therefore let us feast with the unleavened bread of sincerity and truth, alleluia, alleluia, alleluia.", 
+            "*1 Kor 5:7-8*\nNa Pasch\u0119 nasz\u0105 zosta\u0142 ofiarowany Chrystus, alleluja; \u015bwi\u0119tujmy tedy w prza\u015bnikach szczero\u015bci i prawdy, alleluja, alleluja, alleluja.", 
             "*1 Cor 5:7-8*\nPascha nostrum immol\u00e1tus est Christus, allel\u00faja: itaque epul\u00e9mur in \u00e1zymis sincerit\u00e1tis et verit\u00e1tis, allel\u00faja, allel\u00faja, allel\u00faja."
           ]
         ], 
         "id": "Communio", 
-        "label": "Com\u00fanio"
+        "label": "Antyfona na Komuni\u0119"
       }, 
       {
         "body": [
           [
-            "Pour forth upon us, O Lord, the spirit of Thy love, that, by Thy loving kindness, Thou mayest make to be of one mind those whom Thou hast satisfied with the Paschal Sacraments.\nPor nosso Senhor...", 
+            "Tchnij w nas, o Panie, Twojego Ducha mi\u0142o\u015bci i w dobroci Swojej zjednocz tych, kt\u00f3rych nasyci\u0142e\u015b wielkanocnym Sakramentem.\nPrzez Pana\u2026", 
             "Sp\u00edritum nobis, D\u00f3mine, tu\u00e6 carit\u00e1tis inf\u00fande: ut, quos sacram\u00e9ntis pasch\u00e1libus sati\u00e1sti, tua f\u00e1cias piet\u00e1te concordes.\nPer Dominum\u2026"
           ]
         ], 
         "id": "Postcommunio", 
-        "label": "Postcom\u00fanio"
+        "label": "Pokomunia"
+      }
+    ]
+  }, 
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej", 
+        "Szaty bia\u0142e"
+      ], 
+      "colors": [
+        "w"
+      ], 
+      "description": "", 
+      "id": "tempora:Pasc0-0:1:w", 
+      "rank": 1, 
+      "supplements": [], 
+      "tempora": null, 
+      "title": "Niedziela Zmartwychwstania (pre 1955)"
+    }, 
+    "sections": [
+      {
+        "body": [
+          [
+            "Wczesnym rankiem w Wielk\u0105 Niedziel\u0119, kap\u0142an ubrany w kap\u0119 koloru bia\u0142ego, w otoczeniu duchowie\u0144stwa, s\u0142u\u017cby liturgicznej i ch\u00f3rzyst\u00f3w, udaje si\u0119 do grobu i modli si\u0119 w milczeniu. Nast\u0119pnie \u015bpiewa si\u0119 antyfon\u0119 z psalmami."
+          ], 
+          [
+            "Ant. Chwa\u0142a Ci r\u00f3wna o Tr\u00f3jco, Jedynym b\u0119d\u0105ca Bogiem, chwa\u0142\u0105 przed wszystkimi wiekami, teraz i przez niesko\u0144czone wieki wiek\u00f3w.\n*Ps 116*\nChwalcie Pana wszystkie narody, chwalcie go wszystkie ludy, bo mo\u017cne jest nad nami mi\u0142osierdzie jego, a prawda Pa\u0144ska trwa na wieki! \nChwa\u0142a Ojcu\u2026\n*Ps 3*\nPanie, czemu si\u0119 rozmno\u017cyli trapi\u0105cy mi\u0119? Wielu ich powstaje przeciwko mnie.\nWielu ich m\u00f3wi duszy mojej: Nie ma ten zbawienia w Bogu swoim!\nAle ty, Panie, jeste\u015b obro\u0144c\u0105 moim, chwa\u0142\u0105 moj\u0105 i ty podnosisz g\u0142ow\u0119 moj\u0105.\nG\u0142osem moim wo\u0142a\u0142em do Pana, i wys\u0142ucha\u0142 mi\u0119 z g\u00f3ry \u015bwi\u0119tej swojej.\nJam spa\u0142 i twardo zasn\u0105\u0142em, i wsta\u0142em, bo Pan mi\u0119 obroni\u0142.\nNie b\u0119d\u0119 si\u0119 ba\u0142 tysi\u0119cy ludu woko\u0142o mnie le\u017c\u0105cego. Powsta\u0144, Panie, wybaw mi\u0119,\nBo\u017ce m\u00f3j! Bo\u015b ty pobi\u0142 wszystkich sprzeciwiaj\u0105cych mi si\u0119 bez przyczyny, pokruszy\u0142e\u015b z\u0119by grzesznik\u00f3w.\nPa\u0144skie jest wybawienie, a nad ludem twoim b\u0142ogos\u0142awie\u0144stwo twoje. Chwa\u0142a Ojcu\u2026\nAnt. Chwa\u0142a Ci r\u00f3wna o Tr\u00f3jco, Jedynym b\u0119d\u0105ca Bogiem, chwa\u0142\u0105 przed wszystkimi wiekami, teraz i przez niesko\u0144czone wieki wiek\u00f3w.", 
+            "Ant. Gloria tibi Trinitas  aequalis, una Deitas, et ante omnia saecula, et nunc et in perpetuum.\n*Ps 116*\nLaudate Dominum omnes gentes:* Laudate eum, omnes populi.\nQuoniam confirmata est super nos misericordia eius*, Et veritas Domini manet in aeternum.  \nGloria Patri\u2026\n*Ps 3*\nDomine, quid multiplicati sunt qui tribulant me? &#42; Multi insurgunt adversum me;\nmulti dicunt animae meae: &#42;  Non est salus ipsi in Deo ejus.\nTu autem Domine, susceptor meus es, &#42; gloria mea, et exaltans caput meum.\nVoce mea ad Dominum clamavi; &#42; et exaudivit me de monte sancto suo.\nEgo dormivi, et soporatus sum; &#42; et exsurrexi, quia Dominus suscepit me.\nNon timebo millia populi circumdantis me. &#42; Exsurge, Domine; salvum me fac, Deus meus.\nQuoniam tu percussisti omnes adversantes mihi sine causa &#42;; dentes peccatorum contrivisti.\nDomini est salus; &#42;  et super populum tuum benedictio tua. \nGloria Patri\u2026\nAnt. Gloria tibi Trinitas  aequalis, una Deitas, et ante omnia saecula, et nunc et in perpetuum."
+          ], 
+          [
+            "\u2123. Panie, zmi\u0142uj si\u0119.\n\u211f. Chryste, zmi\u0142uj si\u0119,\nPanie, zmi\u0142uj si\u0119.\nOjcze nasz.\n\u2123. I nie w\u00f3d\u017a nas w pokuszenie.\n\u211f. Ale nas zbaw ode z\u0142ego.\n\u2123. W Zmartwychwstaniu Twoim, Chryste, Alleluja.\n\u211f. Niebo i ziemia si\u0119 raduj\u0105. Alleluja.\n\u2123. Panie, wys\u0142uchaj modlitw\u0119 moj\u0105.\n\u211f. A wo\u0142anie moje niech do Ciebie przyjdzie.\n\u2123. Pan z wami.\n\u211f. I z duchem twoim.", 
+            "\u2123. Kyrie eleison\n\u211f. Christe eleison\nKyrie eleison\nPater noster\n\u2123. Et ne nos inducas in tentationem.\n\u211f. Sed libera nos a malo.\n\u2123. In Resurrectione tua Christe. Alleluja\n\u211f. Caelum et terra laetantur. Alleluja.\n\u2123. Domine exaudi oratione meam.\n\u211f. Et clamor meus ad te veniat.\n\u2123. Dominus vobiscum.\n\u211f. Et cum spiritu tuo."
+          ], 
+          [
+            "M\u00f3dlmy si\u0119.\nPanie Jezu Chryste, Kr\u00f3lu chwa\u0142y, pokorny w M\u0119ce, pot\u0119\u017cny w Zmartwychwstaniu: Zwyci\u0119zco \u015bmierci i piek\u0142a! Wszystko to, co\u015b niegdy\u015b przez Prorok\u00f3w w Pi\u015bmie \u015bw. obieca\u0142, dzi\u015b, po zwyci\u0119\u017ceniu \u015bmierci, zmartwychwstaj\u0105c spe\u0142ni\u0142e\u015b. Przeto wi\u0119c wszelki duch niebieskich zast\u0119p\u00f3w i ca\u0142y \u015bwiata okr\u0105g, wylewaj\u0105c rado\u015bci duszy, z uczuciem rado\u015bci Tobie zmartwychwstaj\u0105cemu czo\u0142em bije i Ciebie wys\u0142awia: nawet piekielne dr\u017c\u0105 pot\u0119gi, przej\u0119te boja\u017ani\u0105. My za\u015b Twego dostoje\u0144stwa pokorni s\u0142udzy, jednomy\u015blnym uczuciem najpobo\u017cniej odbywaj\u0105c pami\u0105tk\u0119 chwa\u0142y Twego Zmartwychwstania, gromadnie przybyli\u015bmy, a pomni na zbytni\u0105 ku nam mi\u0142o\u015b\u0107 Twoj\u0105, \u0142ez pobo\u017cnej wdzi\u0119czno\u015bci wstrzyma\u0107 nie mo\u017cemy. Wejrzyj, prosimy Ci\u0119, na ho\u0142dy pokory naszej i spraw, i\u017cby\u015bmy, zg\u0142adziwszy grzech\u00f3w naszych zmazy, Tobie podczas tych wielkanocnych uroczysto\u015bci o\u017cyli, a naj\u015bwi\u0119tszej M\u0119ki i Zmartwychwstania Twego skutk\u00f3w godnymi uczestnikami by\u0107 zas\u0142u\u017cyli. Kt\u00f3ry \u017cyjesz\u2026", 
+            "Oremus\nDomine Jesu Christe, Rex gloriae humilis in Passione, potens in Resurrectione, mortis infernique Destructor, quod olim per Prophetas in scripturis promisisti, hodie devicta morte resurgendo implevisti: propter quod omnis caelestis militiae Spiritus, et totus terrarum orbis profuso mentis gaudio, exultando te resurgentem adorant et glorificant: tartareae quoque nimium formidant, ac tremunt potestates. Nos autem, tuae dignationis humiles servuli, gloriosae Resurrectionis tuae memoriam unanimi voto devotissime celebrantes, ecce frequentes adsumus, et exuberantis tuae in nos caritatis memores, pias non continemus lacrimas. Respice quaesumus, humilitatis nostrae obsequia: et praesta, ut detersis peccatorum nostrorum sordibus, in his Paschalibus solemniis tibi resurgere, ac sanctissimae Passionis ac Resurrectionis tuae, fructus capaces esse mereamur. Qui vivis\u2026"
+          ], 
+          [
+            "Celebruj\u0105cy kropi Gr\u00f3b Pa\u0144ski wod\u0105 \u015bwi\u0119con\u0105 i okadza: nast\u0119pnie bierze krzy\u017c z czerwon\u0105 stu\u0142\u0105, figur\u0119 Zmartwychwsta\u0142ego Pana Jezusa i podaje tym, kt\u00f3rzy je w procesji maj\u0105 nie\u015b\u0107 przed Naj\u015bwi\u0119tszym Sakramentem. Po okadzeniu Naj\u015bw. Sakramentu celebrans bierze monstrancj\u0119 i nast\u0119puje procesja. Podczas procesji \u015bpiewa si\u0119 najepierw responsorium, p\u00f3\u017aniej pie\u015b\u0144 WESO\u0141Y NAM DZIE\u0143"
+          ], 
+          [
+            "Ant. Kiedy Chrystus, Kr\u00f3l wiecznej chwa\u0142y szed\u0142, by pokona\u0107 piekie\u0142 moce, Anieli przed Obliczem Jego bramy podziemne otworzyli. Lud \u015awi\u0119tych, j\u0119cz\u0105c w wi\u0119zach \u015bmierci wo\u0142a\u0142 b\u0142agalnie g\u0142osem \u0142zawym: Przyby\u0142e\u015b wreszcie, Upragniony, kt\u00f3rego\u015bmy w mroku czekali, by\u015b wyprowadzi\u0142 nas z tej nocy, tych, co w ciemnicy powi\u0105zani. Westchnienia nasze Ci\u0119 wzywa\u0142y, szukali\u015bmy Ciebie w\u015br\u00f3d j\u0119k\u00f3w, Ty\u015b jest nadziej\u0105 tych, co sami nadziej\u0119 wszelk\u0105 ju\u017c stracili, wielk\u0105\u015b pociech\u0105 w\u015br\u00f3d m\u0119czarni.", 
+            "Ant. Cum Rex gloriae Christus infernum debellaturus intraret: et chorus Angelicus ante faciem ejus portas principium tolli praeciperet. Sanctorum populus, qui tenebatur in morte captivus, voce lacrimabili clamaverunt: Advenisti desiderabilis, quem expectabamus in tenebris, ut educeres hac nocte vinculatos de claustris. Te nostra vocabant suspiria: Te larga requirebant lamenta: Tu factus es spes desperatis, magna consolatio in tormentis."
+          ], 
+          [
+            "1. Weso\u0142y nam dzie\u0144 dzi\u015b nasta\u0142, kt\u00f3rego z nas ka\u017cdy \u017c\u0105da\u0142,\ntego dnia Chrystus zmartwychwsta\u0142. Alleluja, Alleluja.\n2. Kr\u00f3l niebieski k'nam zawita\u0142, jako \u015bliczny kwiat zakwita\u0142,\npo \u015bmierci si\u0119 nam pokaza\u0142. Alleluja, Alleluja.\n3. Piekielne moce zwojowa\u0142, nieprzyjaciele podepta\u0142,\nnad n\u0119dznymi si\u0119 zmi\u0142owa\u0142. Alleluja, Alleluja.\n4. Do trzeciego dnia tam mieszka\u0142, ojce \u015bwi\u0119te tam pociesza\u0142,\npotem i\u015b\u0107 za sob\u0105 kaza\u0142. Alleluja, Alleluja.\n5. Kt\u00f3rzy w otch\u0142aniach mieszkali, p\u0142aczliwie tam zawo\u0142ali,\ngdy Zbawiciela ujrzeli. Alleluja, Alleluja.\n6. Zawitaj przybywaj\u0105cy! Bo\u017cy Synu Wszechmog\u0105cy,\nwybaw nas z piekielnej mocy. Alleluja, Alleluja.\n7. Wielkie tam wesele mieli, gdy Zbawiciela ujrzeli,\nkt\u00f3rego z dawna \u017c\u0105dali. Alleluja, Alleluja.\n8. Potem sw\u0105 moc\u0105 zmartwychwsta\u0142, piecz\u0119ci z grobu nie rusza\u0142,\nna str\u00f3\u017ce wielki strach powsta\u0142. Alleluja, Alleluja.\n9. A gdy Chrystus Pan zmartwychwsta\u0142, mi\u0142o\u015bnikom si\u0119 pokaza\u0142,\nAnio\u0142y do Matki pos\u0142a\u0142. Alleluja, Alleluja.\n10. O Anieli najmilejsi, id\u017acie\u017c do Panny Naj\u015bwi\u0119tszej,\ndo Matki mej najmilejszej. Alleluja, Alleluja.\n11. Ode mnie J\u0105 pozdrawiajcie, i weso\u0142o za\u015bpiewajcie:\nKr\u00f3lowo Rajska wesel si\u0119. Alleluja, Alleluja.\n12. Potem z sw\u0105 wielk\u0105 \u015bwiat\u0142o\u015bci\u0105, do Matki Swej przyst\u0105piwszy,\npocieszy\u0142 J\u0105 pozdrowiwszy. Alleluja, Alleluja.\n13. Nape\u0142niona b\u0105d\u017a s\u0142odko\u015bci, Matko moja i rado\u015bci,\npo onej wielkiej \u017ca\u0142o\u015bci. Alleluja, Alleluja.\n14. Witaj\u017ce, Jezu najs\u0142odszy, Synaczku m\u00f3j najmilejszy,\npocieszenie wszelkiej duszy. Alleluja, Alleluja.\n15. Jestem ju\u017c bardzo weso\u0142a, gdym Ci\u0119 \u017cywego ujrza\u0142a,\njakobym si\u0119 narodzi\u0142a. Alleluja, Alleluja.\n16. \u0141askawie z Nim rozmawia\u0142a, usta Jego ca\u0142owa\u0142a,\nw rado\u015bci si\u0119 z Nim rozsta\u0142a. Alleluja, Alleluja.", 
+            "1. Weso\u0142y nam dzie\u0144 dzi\u015b nasta\u0142, kt\u00f3rego z nas ka\u017cdy \u017c\u0105da\u0142,\ntego dnia Chrystus zmartwychwsta\u0142. Alleluja, Alleluja.\n2. Kr\u00f3l niebieski k'nam zawita\u0142, jako \u015bliczny kwiat zakwita\u0142,\npo \u015bmierci si\u0119 nam pokaza\u0142. Alleluja, Alleluja.\n3. Piekielne moce zwojowa\u0142, nieprzyjaciele podepta\u0142,\nnad n\u0119dznymi si\u0119 zmi\u0142owa\u0142. Alleluja, Alleluja.\n4. Do trzeciego dnia tam mieszka\u0142, ojce \u015bwi\u0119te tam pociesza\u0142,\npotem i\u015b\u0107 za sob\u0105 kaza\u0142. Alleluja, Alleluja.\n5. Kt\u00f3rzy w otch\u0142aniach mieszkali, p\u0142aczliwie tam zawo\u0142ali,\ngdy Zbawiciela ujrzeli. Alleluja, Alleluja.\n6. Zawitaj przybywaj\u0105cy! Bo\u017cy Synu Wszechmog\u0105cy,\nwybaw nas z piekielnej mocy. Alleluja, Alleluja.\n7. Wielkie tam wesele mieli, gdy Zbawiciela ujrzeli,\nkt\u00f3rego z dawna \u017c\u0105dali. Alleluja, Alleluja.\n8. Potem sw\u0105 moc\u0105 zmartwychwsta\u0142, piecz\u0119ci z grobu nie rusza\u0142,\nna str\u00f3\u017ce wielki strach powsta\u0142. Alleluja, Alleluja.\n9. A gdy Chrystus Pan zmartwychwsta\u0142, mi\u0142o\u015bnikom si\u0119 pokaza\u0142,\nAnio\u0142y do Matki pos\u0142a\u0142. Alleluja, Alleluja.\n10. O Anieli najmilejsi, id\u017acie\u017c do Panny Naj\u015bwi\u0119tszej,\ndo Matki mej najmilejszej. Alleluja, Alleluja.\n11. Ode mnie J\u0105 pozdrawiajcie, i weso\u0142o za\u015bpiewajcie:\nKr\u00f3lowo Rajska wesel si\u0119. Alleluja, Alleluja.\n12. Potem z sw\u0105 wielk\u0105 \u015bwiat\u0142o\u015bci\u0105, do Matki Swej przyst\u0105piwszy,\npocieszy\u0142 J\u0105 pozdrowiwszy. Alleluja, Alleluja.\n13. Nape\u0142niona b\u0105d\u017a s\u0142odko\u015bci, Matko moja i rado\u015bci,\npo onej wielkiej \u017ca\u0142o\u015bci. Alleluja, Alleluja.\n14. Witaj\u017ce, Jezu najs\u0142odszy, Synaczku m\u00f3j najmilejszy,\npocieszenie wszelkiej duszy. Alleluja, Alleluja.\n15. Jestem ju\u017c bardzo weso\u0142a, gdym Ci\u0119 \u017cywego ujrza\u0142a,\njakobym si\u0119 narodzi\u0142a. Alleluja, Alleluja.\n16. \u0141askawie z Nim rozmawia\u0142a, usta Jego ca\u0142owa\u0142a,\nw rado\u015bci si\u0119 z Nim rozsta\u0142a. Alleluja, Alleluja.\n17. Przez Twe \u015bwi\u0119te zmartwychwstanie, daj nam grzech\u00f3w odpuszczenie,\na potem duszne zbawienie. Alleluja, Alleluja."
+          ], 
+          [
+            "Gdy procesja, powr\u00f3ci do wielkiego o\u0142tarza, Celebrans stawia Naj\u015bw. Sakrament na o\u0142tarzu i okadza. Nast\u0119pnie ukl\u0119kn\u0105wszy na najwy\u017cszym stopniu, bierze w swe r\u0119ce krzy\u017c, owini\u0119ty stu\u0142\u0105, i \u015bpiewa trzykrotnie na przemian z ch\u00f3rem, podnosz\u0105c stopniowo krzy\u017c i g\u0142os:"
+          ], 
+          [
+            "\u2123. Zmartwychwsta\u0142 Pan z grobu.\n\u211f. Kt\u00f3ry za nas wisia\u0142 na drzewie krzy\u017ca. Alleluja.", 
+            "\u2123. Surrexit Dominus de sepulcro.\n\u211f. Qui pro nobis pependit in ligno, Alleluja."
+          ], 
+          [
+            "Celebruj\u0105cy oddaje krzy\u017c, schodzi ze stopni o\u0142tarza i dalej \u015bpiewa:"
+          ], 
+          [
+            "\u2123.W Zmartwychwstaniu Twoim Chryste, Alleluja.\n\u211f. Niebo i ziemia si\u0119 ciesz\u0105, Alleluja.\nM\u00f3dlmy si\u0119.\nBo\u017ce, kt\u00f3ry nas corocznie uroczysto\u015bci\u0105 Zmartwychwstania Pa\u0144skiego uweselasz: pozw\u00f3l \u0142askawie, i\u017cby\u015bmy przez obchodzenie \u015bwiat doczesnych, wieczne rado\u015bci osi\u0105gn\u0105\u0107 zas\u0142u\u017cyli. Przez tego\u017c\u2026", 
+            "\u2123. In resurrectione tua Christe, Alleluja.\n\u211f. Coelum et terra laetantur, Alleluja.\nOremus.\nDeus, qui nos Resurrectionis Dominicae annua solemnitate laetificas: concede propitius, ut per temporalia festa, quae agimus, pervenire ad gaudia aeterna mereamur. Per eumdem\u2026"
+          ]
+        ], 
+        "id": "", 
+        "label": ""
+      }, 
+      {
+        "body": [
+          [
+            "*Ps 138:18,5-6*\nZmartwychwsta\u0142em i wci\u0105\u017c jestem z Tob\u0105, alleluja; po\u0142o\u017cy\u0142e\u015b na mnie r\u0119k\u0119 Swoj\u0105, alleluja. Przedziwna jest wiedza Twoja, alleluja, alleluja.\n*Ps 138:1-2*\nPanie, Ty mnie przenikasz i znasz, Ty wiesz o moim spoczynku i o mym powstaniu.\nChwa\u0142a Ojcu\u2026\nZmartwychwsta\u0142em i wci\u0105\u017c jestem z Tob\u0105, alleluja; po\u0142o\u017cy\u0142e\u015b na mnie r\u0119k\u0119 Swoj\u0105, alleluja. Przedziwna jest wiedza Twoja, alleluja, alleluja.", 
+            "*Ps 138:18; 138:5-6.*\nResurr\u00e9xi, et adhuc tecum sum, allel\u00faja: posu\u00edsti super me manum tuam, allel\u00faja: mir\u00e1bilis facta est sci\u00e9ntia tua, allel\u00faja, allel\u00faja.\n*Ps 138:1-2.*\nD\u00f3mine, prob\u00e1sti me et cognov\u00edsti me: tu cognov\u00edsti sessi\u00f3nem meam et resurrecti\u00f3nem meam.\nGl\u00f3ria Patri\u2026\nResurr\u00e9xi, et adhuc tecum sum, allel\u00faja: posu\u00edsti super me manum tuam, allel\u00faja: mir\u00e1bilis facta est sci\u00e9ntia tua, allel\u00faja, allel\u00faja."
+          ]
+        ], 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": [
+          [
+            "Bo\u017ce, Ty w dniu dzisiejszym pokona\u0142e\u015b \u015bmier\u0107 i otworzy\u0142e\u015b nam bramy wieczno\u015bci przez Jednorodzonego Syna Twego; racz wspomaga\u0107 nasze pragnienia, kt\u00f3re uprzedzaj\u0105c\u0105 \u0142ask\u0105 Swoj\u0105 sam obudzi\u0142e\u015b.\nPrzez tego\u017c Pana\u2026", 
+            "Deus, qui hodi\u00e9rna die per Unig\u00e9nitum tuum \u00e6ternit\u00e1tis nobis \u00e1ditum, dev\u00edcta morte, reser\u00e1sti: vota nostra, qu\u00e6 pr\u00e6veni\u00e9ndo asp\u00edras, \u00e9tiam adjuv\u00e1ndo pros\u00e9quere.\nPer e\u00fandem\u2026"
+          ]
+        ], 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": [
+          [
+            "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*1 Kor 5:7-8*\nBracia: Uprz\u0105tnijcie stary kwas, aby\u015bcie si\u0119 stali nowym zaczynem, jako te\u017c prza\u015bni jeste\u015bcie. Albowiem na Pasch\u0119 nasz\u0105 zosta\u0142 ofiarowany Chrystus. \u015awi\u0119tujmy tedy nie w starym kwasie ani te\u017c w kwasie z\u0142o\u015bci i przewrotno\u015bci, ale w prza\u015bnikach szczero\u015bci i prawdy.", 
+            "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Corinthios.\n*1 Cor 5:7-8*\nFratres: Expurg\u00e1te vetus ferm\u00e9ntum, ut sitis nova consp\u00e9rsio, sicut estis \u00e1zymi. Etenim Pascha nostrum immol\u00e1tus est Christus. Itaque epul\u00e9mur: non in ferm\u00e9nto v\u00e9teri, neque in ferm\u00e9nto mal\u00edti\u00e6 et nequiti\u00e6: sed in \u00e1zymis sincerit\u00e1tis et verit\u00e1tis."
+          ]
+        ], 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": [
+          [
+            "Alleluja, alleluja\n*Ps 117:24; 117:1*\nOto dzie\u0144, kt\u00f3ry Pan uczyni\u0142; radujmy si\u0119 ze\u0144 i weselmy.\n\u2123. Dzi\u0119kujcie Panu, bo jest dobry, bo mi\u0142osierdzie Jego na wieki. Alleluja, alleluja.\n*1 Kor 5:7*\n\u2123. Na Pasch\u0119 nasz\u0105 zosta\u0142 ofiarowany Chrystus.", 
+            "Allel\u00faja, allel\u00faja.\n*Ps. 117:24; 117:1*\nH\u00e6c dies, quam fecit D\u00f3minus: exsult\u00e9mus et l\u00e6t\u00e9mur in ea.\n\u2123. Confit\u00e9mini D\u00f3mino, qu\u00f3niam bonus: qu\u00f3niam in s\u01fdculum miseric\u00f3rdia ejus. Allel\u00faja, allel\u00faja.\n*1 Cor 5:7*\n\u2123. Pascha nostrum immol\u00e1tus est Christus."
+          ]
+        ], 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": [
+          [
+            "Ho\u0142d Ofierze Wielkanocnej sk\u0142adajcie chrze\u015bcijanie.\nJagni\u0119 zbawi\u0142o owce: Chrystus niewinny z Ojcem znowu pojedna\u0142 nas, grzeszniki.\n\u015amier\u0107 i \u017cycie stoczy\u0142y z sob\u0105 walki dziwne: Umar\u0142y \u017cycia w\u00f3dz \u2013 rz\u0105dzi \u017cywy.\nNa drodze, Maryja, co\u015b widzia\u0142a, wyjaw!\nGrobowiec Chrystusa \u017cywego i chwa\u0142\u0119 zn\u00f3w zmartwychwsta\u0142ego.\nAnielskie te\u017c \u015bwiadki, i ca\u0142un, i szatki.\nWskrzes\u0142 Chrystus, cel mej nadzei: Poprzedzi swoich do Galilei.\nWiemy: oto zmartwychwsta\u0142 Chrystus prawdziwy: Zwyci\u0119ski Kr\u00f3lu, b\u0105d\u017a mi\u0142o\u015bciwy.\nAmen. Alleluja.\n*Powy\u017csz\u0105 sekwencj\u0119 odmawia si\u0119 do Soboty Bia\u0142ej w\u0142\u0105cznie.*", 
+            "V\u00edctim\u00e6 pasch\u00e1li laudes \u00edmmolent Christi\u00e1ni.\nAgnus r\u00e9demit oves: Christus \u00ednnocens Patri reconcili\u00e1vit peccat\u00f3res.\nMors et vita du\u00e9llo conflix\u00e9re mir\u00e1ndo: dux vit\u00e6 m\u00f3rtuus regnat vivus.\nDic nobis, Mar\u00eda, quid vid\u00edsti in via?\nSep\u00falcrum Christi viv\u00e9ntis et gl\u00f3riam vidi resurg\u00e9ntis.\nAng\u00e9licos testes, sud\u00e1rium et vestes.\nSurr\u00e9xit Christus, spes mea: pr\u00e6c\u00e9det vos in Galil\u01fdam.\nScimus Christum surrex\u00edsse a m\u00f3rtuis vere: tu nobis, victor Rex, miser\u00e9re. Amen. Allel\u00faja.\n*Sequentia dicitur usque ad Sabbatum in Albis inclusive.*"
+          ]
+        ], 
+        "id": "Sequentia", 
+        "label": "Sekwencja"
+      }, 
+      {
+        "body": [
+          [
+            "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Marka.\n*Mk 16:1-7*\nOnego czasu: Maria Magdalena i Maria Jakubowa, i Salome nakupi\u0142y wonno\u015bci, aby p\u00f3j\u015b\u0107 i nama\u015bci\u0107 Jezusa. I bardzo rano w pierwszy dzie\u0144 tygodnia przysz\u0142y do grobu, gdy ju\u017c wzesz\u0142o s\u0142o\u0144ce. A m\u00f3wi\u0142y do siebie: \u00abKt\u00f3\u017c nam odsunie kamie\u0144 od drzwi grobowca?\u00bb I spojrzawszy, ujrza\u0142y kamie\u0144 odsuni\u0119ty. By\u0142 bowiem bardzo wielki.\nA wszed\u0142szy do grobowca, ujrza\u0142y m\u0142odzie\u0144ca siedz\u0105cego po prawej stronie, ubranego w szat\u0119 bia\u0142\u0105, i zdumia\u0142y si\u0119. Ale on rzek\u0142 im: \u00abNie l\u0119kajcie si\u0119, szukacie Jezusa Nazare\u0144skiego, ukrzy\u017cowanego: powsta\u0142, nie masz Go tu, oto miejsce, gdzie Go z\u0142o\u017cono. Ale id\u017acie, powiedzcie uczniom Jego i Piotrowi, \u017ce was uprzedza do Galilei: tam Go ujrzycie, jako wam powiedzia\u0142\u00bb.", 
+            "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Marcum.\n*Marc 16:1-7.*\nIn illo t\u00e9mpore: Mar\u00eda Magdal\u00e9ne et Mar\u00eda Jac\u00f3bi et Sal\u00f3me em\u00e9runt ar\u00f3mata, ut veni\u00e9ntes \u00fangerent Jesum. Et valde mane una sabbat\u00f3rum, veniunt ad monum\u00e9ntum, orto jam sole. Et dic\u00e9bant ad \u00ednvicem: Quis rev\u00f3lvet nobis l\u00e1pidem ab \u00f3stio monum\u00e9nti? Et respici\u00e9ntes vid\u00e9runt revol\u00fatum l\u00e1pidem. Erat quippe magnus valde. Et intro\u00eb\u00fantes in monum\u00e9ntum vid\u00e9runt j\u00favenem sed\u00e9ntem in dextris, coop\u00e9rtum stola c\u00e1ndida, et obstupu\u00e9runt. Qui dicit illis: Nol\u00edte expav\u00e9scere: Jesum qu\u01fdritis Nazar\u00e9num, crucif\u00edxum: surr\u00e9xit, non est hic, ecce locus, ubi posu\u00e9runt eum. Sed ite, d\u00edcite disc\u00edpulis ejus et Petro, quia pr\u00e6c\u00e9dit vos in Galil\u01fdam: ibi eum vid\u00e9bitis, sicut dixit vobis."
+          ]
+        ], 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": [
+          [
+            "*Ps 75:9-10*\nPrzel\u0119k\u0142a si\u0119 ziemia i zamilk\u0142a, kiedy B\u00f3g podni\u00f3s\u0142 si\u0119 na s\u0105dy, alleluja.", 
+            "*Ps. 75:9-10.*\nTerra tr\u00e9muit, et qui\u00e9vit, dum res\u00fargeret in jud\u00edcio Deus, allel\u00faja."
+          ]
+        ], 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": [
+          [
+            "Prosimy Ci\u0119, Panie, przyjmij modlitwy wiernych wraz z darami ofiarnymi: aby ofiara, kt\u00f3ra wzi\u0119\u0142a pocz\u0105tek w misterium paschalnym, za \u0142ask\u0105 Twoj\u0105 sta\u0142a si\u0119 dla nas lekarstwem na wieczno\u015b\u0107.\nPrzez Pana\u2026", 
+            "S\u00fascipe, qu\u01fdsumus, D\u00f3mine, preces p\u00f3puli tui cum oblati\u00f3nibus hosti\u00e1rum: ut, Pasch\u00e1libus initi\u00e1ta myst\u00e9riis, ad \u00e6ternit\u00e1tis nobis med\u00e9lam, te oper\u00e1nte, prof\u00edciant.\nPer Dominum\u2026"
+          ]
+        ], 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": [
+          [
+            "*Prefacja Wielkanocna*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy Ciebie, Panie, zawsze, a zw\u0142aszcza w tym dniu uroczy\u015bciej s\u0142awili, gdy jako nasza Pascha zosta\u0142 ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, kt\u00f3ry zg\u0142adzi\u0142 grzechy \u015bwiata; On umieraj\u0105c zniweczy\u0142 nasz\u0105 \u015bmier\u0107 i zmartwychwstaj\u0105c przywr\u00f3ci\u0142 nam \u017cycie.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+            "*Paschalis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te quidem, D\u00f3mine, omni t\u00e9mpore, sed in hoc pot\u00edssimum (sed tempore Passionis)\nhac pot\u00edssimum nocte (sed octava Pasch\u00e6)\nhac pot\u00edssimum die glori\u00f3sius pr\u00e6dic\u00e1re, cum Pascha nostrum immol\u00e1tus est Christus. Ipse enim verus est Agnus, qui \u00e1bstulit pecc\u00e1ta mundi. Qui mortem nostram mori\u00e9ndo destr\u00faxit et vitam resurg\u00e9ndo repar\u00e1vit. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:"
+          ]
+        ], 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": [
+          [
+            "*1 Kor 5:7-8*\nNa Pasch\u0119 nasz\u0105 zosta\u0142 ofiarowany Chrystus, alleluja; \u015bwi\u0119tujmy tedy w prza\u015bnikach szczero\u015bci i prawdy, alleluja, alleluja, alleluja.", 
+            "*1 Cor 5:7-8*\nPascha nostrum immol\u00e1tus est Christus, allel\u00faja: itaque epul\u00e9mur in \u00e1zymis sincerit\u00e1tis et verit\u00e1tis, allel\u00faja, allel\u00faja, allel\u00faja."
+          ]
+        ], 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": [
+          [
+            "Tchnij w nas, o Panie, Twojego Ducha mi\u0142o\u015bci i w dobroci Swojej zjednocz tych, kt\u00f3rych nasyci\u0142e\u015b wielkanocnym Sakramentem.\nPrzez Pana\u2026", 
+            "Sp\u00edritum nobis, D\u00f3mine, tu\u00e6 carit\u00e1tis inf\u00fande: ut, quos sacram\u00e9ntis pasch\u00e1libus sati\u00e1sti, tua f\u00e1cias piet\u00e1te concordes.\nPer Dominum\u2026"
+          ]
+        ], 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
       }
     ]
   }

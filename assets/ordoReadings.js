@@ -1,10 +1,4 @@
 $(window).on("load", function() {
-  /**
-   *
-   * Globals
-   *
-   **/
-
   // Making :contains case insensitive
   $.expr[":"].contains = $.expr.createPseudo(function(arg) {
     return function(elem) {
@@ -17,27 +11,15 @@ $(window).on("load", function() {
     };
   });
 
-  const templateContentIntro = $("#template-content-intro").text();
-
   const $main = $("main");
 
   function init() {
     moment.locale("pt");
     loadProper(getDate());
-    adaptSectionColumns();
   }
 
   init();
 
-  /**
-   *
-   * Functions
-   *
-   **/
-
-  /**
-   * Obtain date from url hash or use today date if not provided or invalid.
-   **/
   function getDate() {
     let tmpDate = document.location.hash.replace("#", "");
     tmpDate = moment(tmpDate, "YYYY-MM-DD");
@@ -47,125 +29,109 @@ $(window).on("load", function() {
     return tmpDate.format("YYYY-MM-DD");
   }
 
-  /**
-   * Obtain a proper for the given `date` through AJAX call and populate
-   * the main element with Bootstrap grid.
-   * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
-   **/
   function loadProper(date) {
     $.getJSON(config.dateEndpoint + date, function(data) {
       $main.empty();
-      window.scrollTo(0, 0);
 
       $.each(data, function(index, item) {
-        // let title = item["info"].title;
         let sections = item.sections;
-        let sectionsVernacular = item.proper_vernacular;
-        let sectionsLatin = item.proper_latin;
-
-        $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
-          // replacing all surrounding asterisks with surrounding <em>s in body
-          $.each(sections, function(x, y) {
-            sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>");
-          });
-        });
-        for (let i = 0; i < sections.length; i++) {
-          if (sections[i].id === "Introitus") {
+        for (index = 0; index < sections.length; index++) {
+          if (sections[index].id === "Introitus") {
             $(
               renderTemplate($("#introitus").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                introitusVernacular: sections[i].body[0][0],
-                introitusLatin: sections[i].body[0][1],
+                title: sections[index].label + " de " + item["info"].title,
+                introitusVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                introitusLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
               })
             ).appendTo("#introitusText");
           }
           if (
-            sections[i].id === "Oratio" ||
-            sections[i].id === "Commemoratio Oratio"
+            sections[index].id === "Oratio" ||
+            sections[index].id === "Commemoratio Oratio"
           ) {
             $(
               renderTemplate($("#oratio").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                oratioVernacular: sections[i].body[0][0],
-                oratioLatin: sections[i].body[0][1]
+                title: sections[index].label + " de " + item["info"].title,
+                oratioVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                oratioLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>")
               })
             ).appendTo("#oratioText");
           }
-          if (sections[i].id === "Lectio") {
+          if (sections[index].id === "Lectio") {
             $(
               renderTemplate($("#lectio").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                lectioVernacular: sections[i].body[0][0],
-                lectioLatin: sections[i].body[0][1]
+                title: sections[index].label + " de " + item["info"].title,
+                lectioVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                lectioLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>")
               })
             ).appendTo("#lectioText");
           }
-          if (sections[i].id === "Graduale") {
+          if (sections[index].id === "Graduale") {
             $(
               renderTemplate($("#graduale").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                gradualeVernacular: sections[i].body[0][0],
-                gradualeLatin: sections[i].body[0][1]
+                title: sections[index].label + " de " + item["info"].title,
+                gradualeVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                gradualeLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>")
               })
             ).appendTo("#gradualeText");
           }
-          if (sections[i].id === "Evangelium") {
+          if (sections[index].id === "Evangelium") {
             $(
               renderTemplate($("#evangelium").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                evangeliumVernacular: sections[i].body[0][0],
-                evangeliumLatin: sections[i].body[0][1]
+                title: sections[index].label + " de " + item["info"].title,
+                evangeliumVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                evangeliumLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>")
               })
             ).appendTo("#evangeliumText");
           }
-          if (sections[i].id === "Offertorium") {
+          if (sections[index].id === "Offertorium") {
             $(
               renderTemplate($("#offertorium").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                offertoriumVernacular: sections[i].body[0][0],
-                offertoriumLatin: sections[i].body[0][1]
+                title: sections[index].label + " de " + item["info"].title,
+                offertoriumVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                offertoriumLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>")
               })
             ).appendTo("#offertoriumText");
           }
           if (
-            sections[i].id === "Secreta" ||
-            sections[i].id === "Commemoratio Secreta"
+            sections[index].id === "Secreta" ||
+            sections[index].id === "Commemoratio Secreta"
           ) {
             $(
               renderTemplate($("#secreta").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                secretaVernacular: sections[i].body[0][0],
-                secretaLatin: sections[i].body[0][1]
+                title: sections[index].label + " de " + item["info"].title,
+                secretaVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                secretaLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>")
               })
             ).appendTo("#secretaText");
           }
-          if (sections[i].id === "Prefatio") {
+          if (sections[index].id === "Prefatio") {
             $(
               renderTemplate($("#prefatio").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                prefatioVernacular: sections[i].body[0][0],
-                prefatioLatin: sections[i].body[0][1]
+                title: sections[index].label + " de " + item["info"].title,
+                prefatioVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                prefatioLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>")
               })
             ).appendTo("#prefatioText");
           }
-          if (sections[i].id === "Communio") {
+          if (sections[index].id === "Communio") {
             $(
               renderTemplate($("#communio").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                communioVernacular: sections[i].body[0][0],
-                communioLatin: sections[i].body[0][1]
+                title: sections[index].label + " de " + item["info"].title,
+                communioVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                communioLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>")
               })
             ).appendTo("#communioText");
           }
           if (
-            sections[i].id === "Postcommunio" ||
-            sections[i].id === "Commemoratio Postcommunio"
+            sections[index].id === "Postcommunio" ||
+            sections[index].id === "Commemoratio Postcommunio"
           ) {
             $(
               renderTemplate($("#postcommunio").text(), {
-                title: sections[i].label + " de " + item["info"].title,
-                postcommunioVernacular: sections[i].body[0][0],
-                postcommunioLatin: sections[i].body[0][1]
+                title: sections[index].label + " de " + item["info"].title,
+                postcommunioVernacular: sections[index].body[0][0].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>"),
+                postcommunioLatin: sections[index].body[0][1].replace(/\*([^\*]+)\*/g, "<br><em>$1</em><br>")
               })
             ).appendTo("#postcommunioText");
           }

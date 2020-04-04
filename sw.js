@@ -3,51 +3,21 @@ importScripts(
 );
 
 let today = moment(new Date()).format("YYYY-MM-DD");
-let tp1 = moment(new Date())
-  .add(1, "days")
-  .format("YYYY-MM-DD");
-let tp2 = moment(new Date())
-  .add(2, "days")
-  .format("YYYY-MM-DD");
-let tp3 = moment(new Date())
-  .add(3, "days")
-  .format("YYYY-MM-DD");
-let tp4 = moment(new Date())
-  .add(4, "days")
-  .format("YYYY-MM-DD");
-let tp5 = moment(new Date())
-  .add(5, "days")
-  .format("YYYY-MM-DD");
-let tp6 = moment(new Date())
-  .add(6, "days")
-  .format("YYYY-MM-DD");
-let tp7 = moment(new Date())
-  .add(7, "days")
-  .format("YYYY-MM-DD");
-let tp8 = moment(new Date())
-  .add(8, "days")
-  .format("YYYY-MM-DD");
-let tp9 = moment(new Date())
-  .add(9, "days")
-  .format("YYYY-MM-DD");
-let tp10 = moment(new Date())
-  .add(10, "days")
-  .format("YYYY-MM-DD");
-let tp11 = moment(new Date())
-  .add(11, "days")
-  .format("YYYY-MM-DD");
-let tp12 = moment(new Date())
-  .add(12, "days")
-  .format("YYYY-MM-DD");
-let tp13 = moment(new Date())
-  .add(13, "days")
-  .format("YYYY-MM-DD");
-let tp14 = moment(new Date())
-  .add(14, "days")
-  .format("YYYY-MM-DD");
-let tp15 = moment(new Date())
-  .add(15, "days")
-  .format("YYYY-MM-DD");
+let tp1 = moment(new Date()).add(1, "days").format("YYYY-MM-DD");
+let tp2 = moment(new Date()).add(2, "days").format("YYYY-MM-DD");
+let tp3 = moment(new Date()).add(3, "days").format("YYYY-MM-DD");
+let tp4 = moment(new Date()).add(4, "days").format("YYYY-MM-DD");
+let tp5 = moment(new Date()).add(5, "days").format("YYYY-MM-DD");
+let tp6 = moment(new Date()).add(6, "days").format("YYYY-MM-DD");
+let tp7 = moment(new Date()).add(7, "days").format("YYYY-MM-DD");
+let tp8 = moment(new Date()).add(8, "days").format("YYYY-MM-DD");
+let tp9 = moment(new Date()).add(9, "days").format("YYYY-MM-DD");
+let tp10 = moment(new Date()).add(10, "days").format("YYYY-MM-DD");
+let tp11 = moment(new Date()).add(11, "days").format("YYYY-MM-DD");
+let tp12 = moment(new Date()).add(12, "days").format("YYYY-MM-DD");
+let tp13 = moment(new Date()).add(13, "days").format("YYYY-MM-DD");
+let tp14 = moment(new Date()).add(14, "days").format("YYYY-MM-DD");
+let tp15 = moment(new Date()).add(15, "days").format("YYYY-MM-DD");
 
 const PRECACHE_URLS = [
   "./",
@@ -115,25 +85,25 @@ const PRECACHE_URLS = [
   "./img/cruxifixao2.gif",
   "./img/bencaocampostrigo.gif",
   "./img/Jeronimos.gif",
-  "./img/1.gif"
+  "./img/1.gif",
 ];
 
-const PRECACHE = "precache-v0.0.8";
+const PRECACHE = "precache-v0.0.9";
 const RUNTIME = "runtime";
 
-self.addEventListener("install", event => {
+self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(PRECACHE).then(cache => cache.addAll(PRECACHE_URLS))
+    caches.open(PRECACHE).then((cache) => cache.addAll(PRECACHE_URLS))
   );
 });
 
-self.addEventListener("message", function(event) {
+self.addEventListener("message", function (event) {
   if (event.data.action === "skipWaiting") {
     self.skipWaiting();
   }
 });
 
-self.addEventListener("activate", event => {
+self.addEventListener("activate", (event) => {
   console.log("The service worker is serving the asset.");
 
   const currentCaches = [PRECACHE, RUNTIME];
@@ -141,14 +111,14 @@ self.addEventListener("activate", event => {
   event.waitUntil(
     caches
       .keys()
-      .then(cacheNames => {
+      .then((cacheNames) => {
         return cacheNames.filter(
-          cacheName => !currentCaches.includes(cacheName)
+          (cacheName) => !currentCaches.includes(cacheName)
         );
       })
-      .then(cachesToDelete => {
+      .then((cachesToDelete) => {
         return Promise.all(
-          cachesToDelete.map(cacheToDelete => {
+          cachesToDelete.map((cacheToDelete) => {
             return caches.delete(cacheToDelete);
           })
         );
@@ -157,9 +127,9 @@ self.addEventListener("activate", event => {
   );
 });
 
-self.addEventListener("fetch", function(event) {
+self.addEventListener("fetch", function (event) {
   event.respondWith(
-    caches.match(event.request).then(function(response) {
+    caches.match(event.request).then(function (response) {
       if (response) {
         return response;
       }
