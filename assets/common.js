@@ -4,7 +4,7 @@ const $main = $("main");
 const $loadedContent = $("main div#loaded-content");
 const $sidebarAndContent = $("#sidebar, #content");
 const $buttonSidebarCollapse = $("button#sidebar-collapse");
-const langSwithVernacular = "lang-switch-vernacular";
+const langSwitchLatin = "lang-switch-latin";
 const $sidebar = $("nav#sidebar");
 const $sidebarTools = $("div#sidebar-tools");
 
@@ -90,12 +90,12 @@ function adaptSectionColumns() {
     $("div.section-latin").show();
   } else {
     let langId = $("#lang-switch>label.active>input").attr("id");
-    if (langId === langSwithVernacular) {
-      $("div.section-vernacular").show();
-      $("div.section-latin").hide();
-    } else {
-      $("div.section-vernacular").hide();
+    if (langId === langSwitchLatin) {
       $("div.section-latin").show();
+      $("div.section-vernacular").hide();
+    } else {
+      $("div.section-latin").hide();
+      $("div.section-vernacular").show();
     }
   }
 }
@@ -104,12 +104,12 @@ function adaptSectionColumns() {
  * Switch between lang versions on small screens, where the switch is visible
  **/
 function toggleLangSections(id) {
-  if (id === langSwithVernacular) {
-    $("div.section-vernacular").show();
-    $("div.section-latin").hide();
-  } else {
+  if (id === langSwitchLatin) {
     $("div.section-vernacular").hide();
     $("div.section-latin").show();
+  } else {
+    $("div.section-vernacular").show();
+    $("div.section-latin").hide();
   }
 }
 

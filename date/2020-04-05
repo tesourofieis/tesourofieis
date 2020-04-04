@@ -12,7 +12,7 @@
       "description": "", 
       "id": "tempora:Quad6-0r:1:rv", 
       "rank": 1, 
-      "title": "Domingo de Ramos (pre 1955)"
+      "title": "Domingo de Ramos"
     }, 
     "sections": [
       {
@@ -112,7 +112,7 @@
             "\u2123. D\u00f3minus vob\u00edscum.\n\u211f. Et cum spiritu tuo.\nOr\u00e9mus.\nDeus, qui F\u00edlium tuum Jesum Christum, D\u00f3minum nostrum, pro salute nostra in hunc mundum mis\u00edsti, ut se humili\u00e1ret ad nos et nos revoc\u00e1ret ad te: cui etiam, dum Jer\u00fasalem veniret, ut adimpl\u00e9ret Scripturas, credentium populorum turba, fidelissima devotione, vestimenta sua cum ramis palmarum in via stern\u00e9bant: pr\u00e6sta, qu\u01fdsumus; ut illi f\u00eddei viam pr\u00e6par\u00e9mus, de qua, remoto l\u00e1pide offensi\u00f3nis et petra sc\u00e1ndali, fr\u00f3ndeant apud te \u00f3pera nostra just\u00edti\u00e6 ramis: ut ejus vestigia sequi mere\u00e1mur:\nQui tecum\u2026"
           ]
         ], 
-        "id": "", 
+        "id": "Benedictio Palmorum", 
         "label": "Ben\u00e7\u00e3o dos Ramos"
       }, 
       {
@@ -180,7 +180,7 @@
             "Celebra-se ent\u00e3o a Missa tendo-se na m\u00e3o os Ramos somente durante o canto da Paix\u00e3o e o Evangelho."
           ]
         ], 
-        "id": "", 
+        "id": "De processione cum ramis benedictis", 
         "label": "Prociss\u00e3o dos Ramos"
       }, 
       {
