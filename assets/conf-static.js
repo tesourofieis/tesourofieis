@@ -2,7 +2,7 @@
  * Configuration for data provided by the API
  **/
 let config = {
-  lang: "pt",
+  lang: "date",
   calendarEndpoint: "/date/",
   dateEndpoint: "/date/",
   properEndpoint: "/date/proper/",
