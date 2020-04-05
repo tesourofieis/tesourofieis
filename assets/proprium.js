@@ -26,7 +26,7 @@ $window.on("load", function () {
   );
 
   function init() {
-    moment.locale("pt");
+      moment.locale(config.lang);
     ploader.load(getResourceId(), false);
   }
 

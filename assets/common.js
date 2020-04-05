@@ -343,13 +343,13 @@ class ProperContentLoader {
           window.history.replaceState(
             { resourceId: resourceId },
             "",
-            "/" + self.urlPart + "/" + resourceId
+            "/" + "missa" + "/" + resourceId
           );
         } else {
           window.history.pushState(
             { resourceId: resourceId },
             "",
-            "/" + self.urlPart + "/" + resourceId
+            "/" + "missa" + "/" + resourceId
           );
         }
         document.title = titles[0] + " | " + "Missale Meum";
