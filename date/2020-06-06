@@ -17,26 +17,6 @@
       {
         "body": [
           [
-            "Lesson from the book of Joel\n*Joel 2:28-32.*\nThus says the Lord God: I will pour out My Spirit upon all mankind. Your sons and daughters shall prophesy, your old men shall dream dreams, your young men shall see visions; even upon the servants and the handmaids, in those days, I will pour out My Spirit. And I will work wonders in the heavens and on the earth, blood, fire, and columns of smoke; the sun will be turned to darkness, and the moon to blood, at the coming of the Day of the Lord, the great and terrible day. Then everyone shall be rescued who calls on the name of the Lord.\nGra\u00e7as a Deus.", 
-            "L\u00e9ctio Jo\u00e9lis Proph\u00e9t\u00e6\n*Joel 2:28-32*\nH\u00e6c dicit D\u00f3minus Deus: Eff\u00fandam Sp\u00edritum meum super omnem carnem: et prophet\u00e1bunt f\u00edlii vestri et f\u00edli\u00e6 vestr\u00e6: senes vestri s\u00f3mnia somni\u00e1bunt, et j\u00favenes vestri visi\u00f3nes vid\u00e9bunt. Sed et super servos meos et anc\u00edllas in di\u00e9bus illis eff\u00fandam Sp\u00edritum meum. Et dabo prod\u00edgia in c\u0153lo et in terra, s\u00e1nguinem et ignem et vap\u00f3rem fumi. Sol convert\u00e9tur in t\u00e9nebras et luna in s\u00e1nguinem: \u00e1ntequam v\u00e9niat dies D\u00f3mini magnus ei horr\u00edbilis. Et erit: omnis, qui invoc\u00e1verit nomen D\u00f3mini, salvus erit.\nDeo gratias."
-          ]
-        ], 
-        "id": "LectioL1", 
-        "label": "1\u00aa Li\u00e7\u00e3o"
-      }, 
-      {
-        "body": [
-          [
-            "Alleluia.\n*Jo 6:64*\nIt is the Spirit that gives life; but the flesh profits nothing.", 
-            "Allel\u00faja\n*Joannes 6:64*\nSp\u00edritus est, qui viv\u00edficat: caro autem non prodest quidquam."
-          ]
-        ], 
-        "id": "GradualeL1", 
-        "label": "Gradual"
-      }, 
-      {
-        "body": [
-          [
             "*Rom 5:5.*\nThe charity of God is poured forth in our hearts, alleluia: by His Spirit dwelling in us, alleluia, alleluia.\n*Sl 102:1*\nBless the Lord, O my soul; and, all my being, bless His holy Name.\nGl\u00f3ria ao Pai.\nThe charity of God is poured forth in our hearts, alleluia: by His Spirit dwelling in us, alleluia, alleluia.", 
             "*Rom 5:5.*\nC\u00e1ritas Dei diff\u00fasa est in c\u00f3rdibus nostris, allel\u00faja: per inhabit\u00e1ntem Sp\u00edritum ejus in nobis, allel\u00faja, allel\u00faja.\n*Ps 102:1*\nBenedic, anima mea, D\u00f3mino: et \u00f3mnia, qu\u00e6 intra me sunt, n\u00f3mini sancto ejus.\nGl\u00f3ria Patri\u2026\nC\u00e1ritas Dei diff\u00fasa est in c\u00f3rdibus nostris, allel\u00faja: per inhabit\u00e1ntem Sp\u00edritum ejus in nobis, allel\u00faja, allel\u00faja."
           ]
@@ -53,6 +33,26 @@
         ], 
         "id": "Oratio", 
         "label": "Ora\u00e7\u00e3o"
+      }, 
+      {
+        "body": [
+          [
+            "Lesson from the book of Joel\n*Joel 2:28-32.*\nThus says the Lord God: I will pour out My Spirit upon all mankind. Your sons and daughters shall prophesy, your old men shall dream dreams, your young men shall see visions; even upon the servants and the handmaids, in those days, I will pour out My Spirit. And I will work wonders in the heavens and on the earth, blood, fire, and columns of smoke; the sun will be turned to darkness, and the moon to blood, at the coming of the Day of the Lord, the great and terrible day. Then everyone shall be rescued who calls on the name of the Lord.\nGra\u00e7as a Deus.", 
+            "L\u00e9ctio Jo\u00e9lis Proph\u00e9t\u00e6\n*Joel 2:28-32*\nH\u00e6c dicit D\u00f3minus Deus: Eff\u00fandam Sp\u00edritum meum super omnem carnem: et prophet\u00e1bunt f\u00edlii vestri et f\u00edli\u00e6 vestr\u00e6: senes vestri s\u00f3mnia somni\u00e1bunt, et j\u00favenes vestri visi\u00f3nes vid\u00e9bunt. Sed et super servos meos et anc\u00edllas in di\u00e9bus illis eff\u00fandam Sp\u00edritum meum. Et dabo prod\u00edgia in c\u0153lo et in terra, s\u00e1nguinem et ignem et vap\u00f3rem fumi. Sol convert\u00e9tur in t\u00e9nebras et luna in s\u00e1nguinem: \u00e1ntequam v\u00e9niat dies D\u00f3mini magnus ei horr\u00edbilis. Et erit: omnis, qui invoc\u00e1verit nomen D\u00f3mini, salvus erit.\nDeo gratias."
+          ]
+        ], 
+        "id": "LectioL1", 
+        "label": "1\u00aa Li\u00e7\u00e3o"
+      }, 
+      {
+        "body": [
+          [
+            "Alleluia.\n*Jo 6:64*\nIt is the Spirit that gives life; but the flesh profits nothing.", 
+            "Allel\u00faja\n*Joannes 6:64*\nSp\u00edritus est, qui viv\u00edficat: caro autem non prodest quidquam."
+          ]
+        ], 
+        "id": "GradualeL1", 
+        "label": "Gradual"
       }, 
       {
         "body": [

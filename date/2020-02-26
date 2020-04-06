@@ -2,154 +2,152 @@
   {
     "info": {
       "additional_info": [
-        "Szaty fioletowe"
+        "Esta\u00e7\u00e3o em Santa Sabina", 
+        "Paramentos roxos"
       ], 
       "colors": [
         "v"
       ], 
-      "description": "Posypywanie g\u0142\u00f3w popio\u0142em powsta\u0142o w zwi\u0105zku z praktyk\u0105 publicznej pokuty. W \u015arod\u0119 Popielcow\u0105 pokutnicy wyznawali grzechy i przywdziewali w\u0142osiennice, a biskup posypywa\u0142 ich g\u0142owy popio\u0142em. Po odm\u00f3wieniu psalm\u00f3w pokutnych biskup wydala\u0142 ich ze \u015bwi\u0105tyni przy \u015bpiewie s\u0142\u00f3w, kt\u00f3rymi Pan B\u00f3g zapowiedzia\u0142 Adamowi wygnanie z raju. Po ostatnim upomnieniu przez biskupa zamykano drzwi zostawiaj\u0105c pokutnik\u00f3w na zewn\u0105trz. Dzielili si\u0119 oni na cztery grupy zale\u017cnie od stopnia winy. Najni\u017csz\u0105 stanowili \u00abp\u0142acz\u0105cy\u00bb, kt\u00f3rym nie wolno by\u0142o wchodzi\u0107 do ko\u015bcio\u0142a. Pozostawali oni na dziedzi\u0144cu i ze \u0142zami prosili wchodz\u0105cych o modlitwy. Na drugim stopniu byli \u00abs\u0142uchaj\u0105cy\u00bb, kt\u00f3rzy stoj\u0105c razem z katechumenami w przedsionku \u015bwi\u0105tyni s\u0142uchali pouczaj\u0105cej cz\u0119\u015bci Mszy \u015bwi\u0119tej. Pokutnicy trzeciego stopnia, \u00abkl\u0119cz\u0105cy\u00bb, zajmowali miejsce w g\u0142\u00f3wnej nawie i po wyj\u015bciu s\u0142uchaj\u0105cych otrzymywali b\u0142ogos\u0142awie\u0144stwo biskupa. Pokutnicy czwartego stopnia, \u00abstoj\u0105cy\u00bb, mieli prawo uczestniczy\u0107 w ca\u0142ej Mszy \u015bwi\u0119tej, ale byli wy\u0142\u0105czeni od Komunii \u015bw. Pokutnicy byli zobowi\u0105zani do surowych praktyk pokutnych, przez kt\u00f3re mieli zado\u015b\u0107uczyni\u0107 za grzechy i da\u0107 dow\u00f3d poprawy. Pojednanie pokutnik\u00f3w z Ko\u015bcio\u0142em odbywa\u0142o si\u0119 w Wielki Czwartek. Z czasem tak\u017ce inni wierni zacz\u0119li poddawa\u0107 si\u0119 obrz\u0119dowi posypania popio\u0142em. Papie\u017c Urban II na synodzie w Bonewencie w roku 1091 rozszerzy\u0142 ten obrz\u0119d na wszystkich wiernych.\nPopi\u00f3\u0142 jest symbolem znikomo\u015bci \u015bwiata oraz pokory i pokuty. Poddaj\u0105c si\u0119 obrz\u0119dowi posypania g\u0142\u00f3w popio\u0142em uznajemy publicznie nasz\u0105 grzeszno\u015b\u0107 i wyra\u017camy ch\u0119\u0107 poprawy. Na mocy zas\u0142ug Ko\u015bcio\u0142a otrzymujemy pomoc Bo\u017c\u0105 do gorliwego odbycia Wielkiego Postu.\n", 
+      "description": "", 
       "id": "tempora:Quadp3-3:1:v", 
       "rank": 1, 
-      "supplements": [
-        {
-          "label": "Wielki Post", 
-          "path": "/pl/supplement/6-wielki-post"
-        }
-      ], 
       "tempora": null, 
-      "title": "\u015aroda Popielcowa"
+      "title": "Quarta-feira de Cinzas"
     }, 
     "sections": [
       {
         "body": [
           [
-            "*Antyfona*\n*Ps 68:17*\nWys\u0142uchaj nas, Panie, gdy\u017c \u0142askawe jest mi\u0142osierdzie Twoje, w wielkiej lito\u015bci swojej wejrzyj na nas.\n*Ps 68:2*\nWybaw mnie, Bo\u017ce, bo wody dosz\u0142y mi po szyj\u0119.\nChwa\u0142a Ojcu.\nWys\u0142uchaj nas, Panie, gdy\u017c \u0142askawe jest mi\u0142osierdzie Twoje, w wielkiej lito\u015bci swojej wejrzyj na nas.", 
+            "Antes da Missa benze-se as cinzas feitas dos ramos de oliveira ou outras \u00e1rvores que foram bentos no ano precedente. As f\u00f3rmulas desta b\u00ean\u00e7\u00e3o v\u00eam do s\u00e9culo VIII. Terminado Noa, o Sacerdote, revestido com a capa roxa ou sem casula, acompanhado dos Ministros, paramentados com a mesma cor, procede \u00e0 b\u00ean\u00e7\u00e3o das cinzas, colocadas em um vaso sobre o altar. O coro come\u00e7a cantando:"
+          ], 
+          [
+            "*Ant\u00edfona*\n*Sl 68:17*\nOuvi-nos, Senhor, pois a vossa miseric\u00f3rdia \u00e9 compassiva. Lan\u00e7ai para n\u00f3s os vossos olhares, Senhor, segundo a grandeza da vossa miseric\u00f3rdia.\n*Sl 68:2*\nSalvai-me, \u00f3 Deus, porque as \u00e1guas penetraram at\u00e9 ao \u00edntimo da minha alma.\nGl\u00f3ria ao Pai...\nOuvi-nos, Senhor, pois a vossa miseric\u00f3rdia \u00e9 compassiva. Lan\u00e7ai para n\u00f3s os vossos olhares, Senhor, segundo a grandeza da vossa miseric\u00f3rdia.", 
             "*Antiphona*\n*Ps 68:17*\nEx\u00e1udi nos, D\u00f3mine, qu\u00f3niam ben\u00edgna est miseric\u00f3rdia tua: sec\u00fandum multit\u00fadinem miserati\u00f3num tu\u00e1rum r\u00e9spice nos, D\u00f3mine.\n*Ps 68:2*\nSalvum me fac, Deus: qu\u00f3niam intrav\u00e9runt aqu\u00e6 usque ad \u00e1nimam meam.\nGl\u00f3ria Patri.\nEx\u00e1udi nos, D\u00f3mine, qu\u00f3niam ben\u00edgna est miseric\u00f3rdia tua: sec\u00fandum multit\u00fadinem miserati\u00f3num tu\u00e1rum r\u00e9spice nos, D\u00f3mine."
           ], 
           [
-            "Kap\u0142an, stoj\u0105c po stronie Lekcji, nie zwracaj\u0105c si\u0119 w stron\u0119 ludu, ze z\u0142\u0105czonymi r\u0119koma (kt\u00f3re s\u0105 z\u0142\u0105czone tak\u017ce podczas nast\u0119puj\u0105cych modlitw) m\u00f3wi:"
+            "Em seguida o Sacerdote, em p\u00e9, do lado da Ep\u00edstola, diz:"
           ], 
           [
-            "\u2123. Pan z wami.\n\u211f. I z duchem twoim.\nM\u00f3dlmy si\u0119.\nWszechmog\u0105cy, wieczny Bo\u017ce, przebacz pokutuj\u0105cym, daj si\u0119 przeb\u0142aga\u0107 ich mod\u0142ami i racz zes\u0142a\u0107 z nieba \u015bwi\u0119tego Anio\u0142a Twego, kt\u00f3ry by pob\u0142ogo \u2629 s\u0142awi\u0142 i po \u2629 \u015bwi\u0119ci\u0142 ten popi\u00f3\u0142. Niech si\u0119 on stanie zbawiennym lekiem dla wszystkich, kt\u00f3rzy pokornie wzywaj\u0105 \u015bwi\u0119tego imienia Twego i w poczuciu swoich przewinie\u0144 sami si\u0119 oskar\u017caj\u0105 przed obliczem Boskiej \u0142askawo\u015bci, op\u0142akuj\u0105c swoje wyst\u0119pki, oraz usilnie dopraszaj\u0105 si\u0119 Twojej ojcowskiej dobroci. Spraw, przez wezwanie \u015bwi\u0119tego imienia Twojego, aby wszyscy posypani tym popio\u0142em, dla odpuszczenia grzech\u00f3w, otrzymali zdrowie dla cia\u0142a i pomoc dla duszy. Przez Chrystusa, Pana naszego.\n\u211f. Amen.", 
+            "\u2123. O Senhor seja convosco.\n\u211f. E com o vosso esp\u00edrito.\nOremos.\nDeus, omnipotente e eterno, perdoai aos penitentes, sede prop\u00edcio para com os suplicantes e dignai-Vos enviar do c\u00e9u o vosso Anjo para aben\u00e7oar ++ e santificar ++ estas Cinzas, a fim de que sejam rem\u00e9dio salutar para todos os que imploram humildemente o vosso santo nome, e, reconhecendo os seus delitos, a si mesmos se acusam, deplorando esses crimes, diante da vossa divina clem\u00eancia, e suplicando instante e humildemente a vossa compassiva miseric\u00f3rdia. Dignai-Vos permitir que pela invoca\u00e7\u00e3o do vosso sant\u00edssimo nome todos os que com estas Cinzas forem aspergidos alcancem, al\u00e9m da remiss\u00e3o dos pecados, sa\u00fade para o corpo e protec\u00e7\u00e3o para a alma. Por Cristo, nosso Senhor.\n\u211f. Amen.", 
             "\u2123. D\u00f3minus vob\u00edscum.\n\u211f. Et cum sp\u00edritu tuo.\nOr\u00e9mus.\nOmn\u00edpotens sempit\u00e9rne Deus, parce p\u00e6nit\u00e9ntibus, propiti\u00e1re supplic\u00e1ntibus: et m\u00edttere dign\u00e9ris sanctum Angelum tuum de coelis, qui bene \u2629 d\u00edcat et sanct\u00ed \u2629 ficet hos c\u00edneres, ut sint rem\u00e9dium sal\u00fabre \u00f3mnibus nomen sanctum tuum humil\u00edter implor\u00e1ntibus, ac semet\u00edpsos pro consci\u00e9ntia delict\u00f3rum su\u00f3rum accus\u00e1ntibus, ante consp\u00e9ctum div\u00edn\u00e6 clem\u00e9nti\u00e6 tu\u00e6 fac\u00ednora sua deplor\u00e1ntibus, vel seren\u00edssimam piet\u00e1tem tuam suppl\u00edciter obnix\u00e9que flagit\u00e1ntibus: et pr\u00e6sta per invocati\u00f3nem sanct\u00edssimi n\u00f3minis tui; ut, quic\u00famque per eos asp\u00e9rsi f\u00faerint, pro redempti\u00f3ne peccat\u00f3rum su\u00f3rum, c\u00f3rporis sanit\u00e1tem et \u00e1nim\u00e6 tut\u00e9lam perc\u00edpiant. Per Christum, D\u00f3minum nostrum.\n\u211f. Amen."
           ], 
           [
-            "M\u00f3dlmy si\u0119.\nBo\u017ce, Ty nie chcesz \u015bmierci grzesznik\u00f3w, lecz ich pokuty, wejrzyj \u0142askawie na u\u0142omno\u015b\u0107 natury ludzkiej i racz w Swej dobroci pob\u0142ogo \u2629 s\u0142awi\u0107 ten popi\u00f3\u0142, kt\u00f3rym zamierzamy posypa\u0107 nasze g\u0142owy na znak pokory i dla uzyskania przebaczenia. Gdy uznajemy, \u017ce jeste\u015bmy prochem i w proch si\u0119 obr\u00f3cimy, poniewa\u017c zas\u0142uguje na to nasza przewrotno\u015b\u0107, udziel nam w mi\u0142osierdziu Swoim odpuszczenia wszystkich grzech\u00f3w i nagrody obiecanej pokutuj\u0105cym. Przez Chrystusa, Pana naszego.\n\u211f. Amen.", 
+            "Oremos.\n\u00d3 Deus, que n\u00e3o quereis a morte dos pecadores, mas que fa\u00e7am penit\u00eancia, olhai benign\u00edssimo para a fragilidade da natureza humana, e dignai-Vos misericordiosamente aben\u00e7oar ++ estas Cinzas, que desejamos sejam impostas nas nossas cabe\u00e7as em sinal de humildade e para merecermos o perd\u00e3o, a fim de que, reconhecendo que n\u00e3o somos sen\u00e3o cinza e que nos tornaremos em p\u00f3 em puni\u00e7\u00e3o da nossa mal\u00edcia, mere\u00e7amos da vossa bondade alcan\u00e7ar o perd\u00e3o dos nossos pecados e as recompensas prometidas aos que fazem penit\u00eancia. Por Cristo, nosso Senhor.\n\u211f. Amen.", 
             "Or\u00e9mus.\nDeus, qui non mortem, sed p\u00e6nit\u00e9ntiam des\u00edderas peccat\u00f3rum: fragilit\u00e1tem condici\u00f3nis hum\u00e1n\u00e6 benign\u00edssime r\u00e9spice; et hos c\u00edneres, quos, causa profer\u00e9nd\u00e6 humilit\u00e1tis atque promer\u00e9nd\u00e6 v\u00e9ni\u00e6, cap\u00edtibus nostris imp\u00f3ni dec\u00e9rnimus, bene \u2629 d\u00edcere pro tua piet\u00e1te dign\u00e1re: ut, qui nos c\u00ednerem esse, et ob pravit\u00e1tis nostr\u00e6 dem\u00e9ritum in p\u00falverem revers\u00faros cogn\u00f3scimus; peccat\u00f3rum \u00f3mnium v\u00e9niam, et praemia p\u00e6nit\u00e9ntibus reprom\u00edssa, miseric\u00f3rditer c\u00f3nsequi mere\u00e1mur. Per Christum, D\u00f3minum nostrum.\n\u211f. Amen."
           ], 
           [
-            "M\u00f3dlmy si\u0119.\nBo\u017ce, kt\u00f3ry wzruszasz si\u0119 pokor\u0105 i dajesz si\u0119 przeb\u0142aga\u0107 zado\u015b\u0107uczynieniem, nak\u0142o\u0144 Swe ojcowskie ucho ku naszym pro\u015bbom i zlej \u0142ask\u0119 Twego b\u0142ogos\u0142awie\u0144stwa na posypane popio\u0142em g\u0142owy Twoich s\u0142ug; nape\u0142nij ich duchem skruchy, spe\u0142nij s\u0142uszne ich pro\u015bby, a udzielone im dary utwierd\u017a i zachowaj zawsze nienaruszone. Przez Chrystusa, Pana naszego.\n\u211f. Amen.", 
+            "Oremos.\n\u00d3 Deus, que pela humilha\u00e7\u00e3o Vos inclinais a perdoar e pela satisfa\u00e7\u00e3o Vos aplacais, dignai-Vos benignamente escutar as nossas preces, infundindo nos vossos servos, cujas cabe\u00e7as recebem estas Cinzas, a gra\u00e7a da vossa b\u00ean\u00e7\u00e3o; e, enchendo-os com o esp\u00edrito de compun\u00e7\u00e3o, concedei-lhes o que com justi\u00e7a Vos suplicarem, a fim de que perpetuamente conservem, firme e intacto, o que de V\u00f3s houverem alcan\u00e7ado. Por Cristo, nosso Senhor.\n\u211f. Amen.", 
             "Or\u00e9mus.\nDeus, qui humiliati\u00f3ne fl\u00e9cteris, et satisfacti\u00f3ne plac\u00e1ris: aurem tu\u00e6 piet\u00e1tis incl\u00edna pr\u00e9cibus nostris; et cap\u00edtibus serv\u00f3rum tu\u00f3rum, horum c\u00ednerum aspersi\u00f3ne cont\u00e1ctis, eff\u00fande prop\u00edtius gr\u00e1tiam tu\u00e6 benedicti\u00f3nis: ut eos et sp\u00edritu compuncti\u00f3nis r\u00e9pleas et, qu\u00e6 juste postul\u00e1verint, effic\u00e1citer tr\u00edbuas; et conc\u00e9ssa perp\u00e9tuo stabil\u00edta et int\u00e1cta man\u00e9re dec\u00e9rnas. Per Christum, D\u00f3minum nostrum.\n\u211f. Amen."
           ], 
           [
-            "M\u00f3dlmy si\u0119.\nWszechmog\u0105cy, wieczny Bo\u017ce, kt\u00f3ry udzieli\u0142e\u015b przebaczenia Niniwitom pokutuj\u0105cym w popiele i w\u0142osiennicy, daj nam \u0142askawie tak na\u015bladowa\u0107 ich w pokucie, aby\u015bmy r\u00f3wnie\u017c uzyskali przebaczenie.\nPrzez Chrystusa, Pana naszego.\n\u211f. Amen.", 
-            "Or\u00e9mus.\nOmn\u00edpotens sempit\u00e9rne Deus, qui Niniv\u00edtis, in c\u00ednere et cil\u00edcio p\u00e6nit\u00e9ntibus, indulg\u00e9nti\u00e6 tu\u00e6 rem\u00e9dia pr\u00e6stit\u00edsti: conc\u00e9de prop\u00edtius; ut sic eos imit\u00e9mur h\u00e1bitu, quat\u00e9nus v\u00e9ni\u00e6 prosequ\u00e1mur obt\u00e9ntu.\nPer Christum, D\u00f3minum nostrum.\n\u211f. Amen."
+            "Oremos.\nDeus omnipotente e eterno, que propiciastes o rem\u00e9dio e o perd\u00e3o aos Ninivitas, que fizeram penit\u00eancia por meio das cinzas e do cil\u00edcio, concedei-nos indulgentemente que de tal sorte os imitemos que, como eles, alcancemos o vosso perd\u00e3o.\nPor nosso Senhor\n\u211f. Amen.", 
+            "Or\u00e9mus.\nOmn\u00edpotens sempit\u00e9rne Deus, qui Niniv\u00edtis, in c\u00ednere et cil\u00edcio p\u00e6nit\u00e9ntibus, indulg\u00e9nti\u00e6 tu\u00e6 rem\u00e9dia pr\u00e6stit\u00edsti: conc\u00e9de prop\u00edtius; ut sic eos imit\u00e9mur h\u00e1bitu, quat\u00e9nus v\u00e9ni\u00e6 prosequ\u00e1mur obt\u00e9ntu.\nPer D\u00f3minum.\n\u211f. Amen."
           ], 
           [
-            "Celebrans nak\u0142ada kadzid\u0142o do trybularza. Nast\u0119pnie trzykrotnie kropi popi\u00f3\u0142 wod\u0105 \u015bwi\u0119con\u0105, recytuj\u0105c antyfon\u0119 \u201cAsperges me\u201d, po czym trzykrotnie okadza popi\u00f3\u0142. Nast\u0119pnie najwy\u017cszy godno\u015bci\u0105 kap\u0142an spo\u015br\u00f3d kleru podchodzi do o\u0142tarza i nak\u0142ada popi\u00f3\u0142 Celebransowi, kt\u00f3ry nie przykl\u0119ka. Je\u015bli jednak inny kap\u0142an nie jest obecny, Celebrans przykl\u0119ka przed o\u0142tarzem i sam nak\u0142ada popi\u00f3\u0142 na swoj\u0105 g\u0142ow\u0119 nic nie m\u00f3wi\u0105c, podczas gdy ch\u00f3r \u015bpiewa:"
+            "Despois disto o Celebrante asperge por tr\u00eas vezes as Cinzas com \u00e1gua benta, incenssando-as tamb\u00e9m tr\u00eas vezes. Canta-se ent\u00e3o:"
           ], 
           [
-            "*1 Antyfona*\n*Jl 2:13*\nOdmie\u0144my spos\u00f3b \u017cycia, pokutujmy w popiele i w\u0142osiennicy, po\u015b\u0107my i p\u0142aczmy przed Panem, gdy\u017c B\u00f3g nasz jest pe\u0142en mi\u0142osierdzia i got\u00f3w odpu\u015bci\u0107 nam nasze grzechy.", 
+            "*Primeira Ant\u00edfona*\n*Jl 2:13*\nMudemos os vestidos e cubramo-nos com a cinza e com o cil\u00edcio; jejuemos e choremos diante do Senhor, pois Ele \u00e9 misericordioso e est\u00e1 pronto a perdoar os nossos pecados.", 
             "*Antiphona prima*\n*Joel 2:13*\nImmut\u00e9mur habitu, in c\u00ednere et cil\u00edcio: jejun\u00e9mus, et plor\u00e9mus ante D\u00f3minum: quia multum mis\u00e9ricors est dim\u00edttere pecc\u00e1ta nostra Deus noster."
           ], 
           [
-            "*2 Antyfona*\n*Jl 2:17*\nMi\u0119dzy przedsionkiem a o\u0142tarzem niechaj p\u0142acz\u0105 kap\u0142ani, s\u0142udzy Pa\u0144scy, i niech m\u00f3wi\u0105: Przepu\u015b\u0107, Panie, przepu\u015b\u0107 ludowi Twojemu, a nie zamykaj ust \u015bpiewaj\u0105cym chwa\u0142\u0119 Twoj\u0105, Panie.", 
+            "*Segunda Ant\u00edfona*\n*Jl 2:17*\nEntre o vest\u00edbulo e o altar chorar\u00e3o os sacerdotes e os Ministros do Senhor, que dir\u00e3o: \u00abPerdoai, Senhor, perdoai ao vosso povo; e n\u00e3o fecheis a boca \u00e0queles que cantam os vossos louvores, \u00f3 Senhor\u00bb.", 
             "*Antiphona secunda*\n*Joel 2:17*\nInter vest\u00edbulum et alt\u00e1re plor\u00e1bunt sacerd\u00f3tes min\u00edstri D\u00f3mini, et dicent: Parce, D\u00f3mine, parce p\u00f3pulo tuo: et ne claudas ora can\u00e9ntium te, D\u00f3mine."
           ], 
           [
-            "*Responsorium*\n*Est 13; Jl 2*\nZmie\u0144my na lepsze wszystko to, czym zgrzeszyli\u015bmy w naszym za\u015blepieniu, aby\u015bmy, gdy nas znienacka zaskoczy dzie\u0144 \u015bmierci, nie szukali czasu na pokut\u0119, kiedy go ju\u017c nie b\u0119dziemy mogli znale\u017a\u0107. Wejrzyj na nas, Panie, i zmi\u0142uj si\u0119: albowiem zgrzeszyli\u015bmy przeciw Tobie.\n*Ps 78:9*\nWspom\u00f3\u017c nas Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie. Wejrzyj.\n\u2123. Chwa\u0142a Ojcu, i Synowi, i Duchowi \u015awi\u0119temu. Wejrzyj.", 
+            "*Respons\u00f3rio*\n*Est 13; Jl 2*\nReparemos o mal que pratic\u00e1mos por ignor\u00e2ncia, para que n\u00e3o aconte\u00e7a que, surpreendidos pelo dia da morte, queiramos fazer penit\u00eancia, mas j\u00e1 n\u00e3o tenhamos tempo! Ouvi-nos, Senhor, e tende miseric\u00f3rdia de n\u00f3s, pois pec\u00e1mos contra V\u00f3s.\n*Sl 78:9*\nAuxiliai-nos, \u00f3 Deus, nosso Salvador, e, pela honra do vosso nomes, salvai-nos, Senhor. Ouvi-nos, Senhor, e tende miseric\u00f3rdia de n\u00f3s, pois pec\u00e1mos contra V\u00f3s.\n\u2123. Gl\u00f3ria ao Pai, e ao Filho e ao Esp\u00edrito Santo. Ouvi-nos, Senhor.", 
             "*Responsorium*\n*Esther 13; Joel 2*\nEmend\u00e9mus in m\u00e9lius, qu\u00e6 ignor\u00e1nter pecc\u00e1vimus: ne, subito pr\u00e6occup\u00e1ti die mortis, qu\u00e6r\u00e1mus sp\u00e1tium p\u00e6nit\u00e9nti\u00e6, et inven\u00edre non p\u00f3ssimus. Att\u00e9nde, D\u00f3mine, et miser\u00e9re: quia pecc\u00e1vimus tibi,\n*Ps 78:9*\nAdjuva nos, Deus, salut\u00e1ris noster: et propter hon\u00f3rem n\u00f3minis tui, D\u00f3mine, l\u00edbera nos. Att\u00e9nde, D\u00f3mine,\n\u2123. Gl\u00f3ria Patri, et F\u00edlio, et Spir\u00edtui Sancto. Att\u00e9nde, D\u00f3mine."
           ], 
           [
-            "Celebrans, podczas gdy \u015bpiewane s\u0105 antyfony i responsorium, najpierw nak\u0142ada popi\u00f3\u0142 najwy\u017cszemu godno\u015bci\u0105 kap\u0142anowi, od kt\u00f3rego otrzyma\u0142 \u00f3w popi\u00f3\u0142, a w nast\u0119pnej kolejno\u015bci kap\u0142anom w ornatach, kt\u00f3rzy przykl\u0119kaj\u0105 przed o\u0142tarzem, i m\u00f3wi:"
+            "O Sacerdote imp\u00f5e as Cinzas dizendo:"
           ], 
           [
-            "*Rdz 3:19*\nPami\u0119taj, cz\u0142owiecze, \u017ce jeste\u015b prochem i w proch si\u0119 obr\u00f3cisz.", 
+            "*Gn 3:19*\nLembra-te, \u00f3 homem, que \u00e9s p\u00f3 e em p\u00f3 te h\u00e1s-de tornar.", 
             "*Genesis 3:19*\nMemento, homo, quia pulvis es, et in p\u00falverem revert\u00e9ris."
           ], 
           [
-            "Nast\u0119pnie podchodz\u0105 pozostali, najpierw klerycy wed\u0142ug porz\u0105dku, potem wierni; kl\u0119kaj\u0105 przez o\u0142tarzem, a Celebrans nak\u0142ada popi\u00f3\u0142 jednemu po drugim, wypowiadaj\u0105c te same s\u0142owa, co w przypadku asystuj\u0105cych kap\u0142an\u00f3w. Po sko\u0144czeniu nak\u0142adania popio\u0142u Celebrans m\u00f3wi:"
+            "Recebe-se as Cinzas de joelhos. Depois o Sacerdote diz:"
           ], 
           [
-            "\u2123. Pan z wami.\n\u211f. I z duchem twoim.\nM\u00f3dlmy si\u0119.\nDozw\u00f3l nam, Panie, przez post zaj\u0105\u0107 stanowisko w chrze\u015bcija\u0144skim boju, aby\u015bmy zostali umocnieni wstrzemi\u0119\u017aliwo\u015bci\u0105 do walki ze z\u0142ym duchem. Przez Chrystusa, Pana naszego.", 
+            "\u2123. O Senhor seja convosco.\n\u211f. E com o vosso esp\u00edrito.\nOremos.\nPermiti, Senhor, que iniciemos com estes salutares jejuns esta esta\u00e7\u00e3o da mil\u00edcia crist\u00e3, a fim de que, havendo n\u00f3s de combater contra os esp\u00edritos do mal, estejamos munidos contra os seus esfor\u00e7os com os aux\u00edlios da abstin\u00eancia. Por Cristo, nosso Senhor. \u211f. Amen.", 
             "\u2123. D\u00f3minus vob\u00edscum.\n\u211f. Et cum sp\u00edritu tuo.\nOr\u00e9mus.\nConc\u00e9de nobis, D\u00f3mine, pr\u00e6s\u00eddia mil\u00edti\u00e6 christi\u00e1n\u00e6 sanctis incho\u00e1re jej\u00faniis: ut, contra spirit\u00e1les nequ\u00edtias pugnat\u00fari, contin\u00e9nti\u00e6 muni\u00e1mur aux\u00edliis. Per Christum, D\u00f3minum nostrum. \u211f. Amen."
           ]
         ], 
         "id": "", 
-        "label": "Po\u015bwi\u0119cenie Popio\u0142u"
+        "label": "B\u00ean\u00e7\u00e3o das Cinzas"
       }, 
       {
         "body": [
           [
-            "*Mdr 11:24 11:25; 11:27*\nWszystkim okazujesz mi\u0142osierdzie, Panie, i \u017cadnego ze swych stworze\u0144 nie masz w nienawi\u015bci. Darowujesz grzechy ludziom, aby si\u0119 nawr\u00f3cili, i przebaczasz im: albowiem Ty jeste\u015b Panem, Bogiem naszym.\n*Ps 56:2*\nZmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, zmi\u0142uj si\u0119 nade mn\u0105, bo Tobie ufa dusza moja.\nChwa\u0142a Ojcu.\nWszystkim okazujesz mi\u0142osierdzie, Panie, i \u017cadnego ze swych stworze\u0144 nie masz w nienawi\u015bci. Darowujesz grzechy ludziom, aby si\u0119 nawr\u00f3cili, i przebaczasz im: albowiem Ty jeste\u015b Panem, Bogiem naszym.", 
+            "*Sb 11:24 11:25; 11:27*\nSenhor, tendes piedade de todos e n\u00e3o odiais aqueles que criastes; atenuais e perdoais os pecados dos homens, para que fa\u00e7am penit\u00eancia, porquanto sois o Senhor, nosso Deus.\n*Sl 56:2*\nTende piedade de mim, pois em V\u00f3s procura ref\u00fagio a minha alma.\nGl\u00f3ria ao Pai...\nSenhor, tendes piedade de todos e n\u00e3o odiais aqueles que criastes; atenuais e perdoais os pecados dos homens, para que fa\u00e7am penit\u00eancia, porquanto sois o Senhor, nosso Deus.", 
             "*Sap 11:24 11:25; 11:27*\nMiser\u00e9ris \u00f3mnium, D\u00f3mine, et nihil od\u00edsti e\u00f3rum qu\u00e6 fec\u00edsti, diss\u00edmulans pecc\u00e1ta h\u00f3minum propter p\u00e6nit\u00e9ntiam et parcens illis: quia tu es D\u00f3minus, Deus noster\n*Ps 56:2*\nMiser\u00e9re mei, Deus, miser\u00e9re mei: qu\u00f3niam in te conf\u00eddit \u00e1nima mea.\nGl\u00f3ria Patri.\nMiser\u00e9ris \u00f3mnium, D\u00f3mine, et nihil od\u00edsti e\u00f3rum qu\u00e6 fec\u00edsti, diss\u00edmulans pecc\u00e1ta h\u00f3minum propter p\u00e6nit\u00e9ntiam et parcens illis: quia tu es D\u00f3minus, Deus noster"
           ]
         ], 
         "id": "Introitus", 
-        "label": "Introit"
+        "label": "Intr\u00f3ito"
       }, 
       {
         "body": [
           [
-            "Udziel, Panie, wiernym Twoim \u0142aski, aby rozpocz\u0119li ten czcigodny i uroczysty post z nale\u017cn\u0105 pobo\u017cno\u015bci\u0105 i przebyli go s\u0142u\u017c\u0105c Tobie w pokoju.\nPrzez Pana.", 
-            "Pr\u00e6sta, D\u00f3mine, fid\u00e9libus tuis: ut jejuni\u00f3rum vener\u00e1nda soll\u00e9mnia, et c\u00f3ngrua piet\u00e1te susc\u00edpiant, et sec\u00fara devoti\u00f3ne perc\u00farrant.\nPer Dominum."
+            "Permiti, Senhor, aos vossos fi\u00e9is que iniciem com sincera piedade as vener\u00e1veis solenidades destes jejuns e que possam continu\u00e1-las at\u00e9 ao fim sempre devotamente.\nPor nosso Senhor...", 
+            "Pr\u00e6sta, D\u00f3mine, fid\u00e9libus tuis: ut jejuni\u00f3rum vener\u00e1nda soll\u00e9mnia, et c\u00f3ngrua piet\u00e1te susc\u00edpiant, et sec\u00fara devoti\u00f3ne perc\u00farrant.\nPer Dominum..."
           ]
         ], 
         "id": "Oratio", 
-        "label": "Kolekta"
+        "label": "Ora\u00e7\u00e3o"
       }, 
       {
         "body": [
           [
-            "Czytanie z Ksi\u0119gi Proroka Joela.\n*Jl 2:12-19*\n*S\u0142owami proroka Joela Ko\u015bci\u00f3\u0142 wzywa nas do postu i wewn\u0119trznego nawr\u00f3cenia. Pokuta, kt\u00f3r\u0105 g\u0142osi\u0142 Prorok, mia\u0142a charakter spo\u0142eczny. Podobnie Wielki Post jest okresem wsp\u00f3lnego postu i wsp\u00f3lnej modlitwy ca\u0142ego Ko\u015bcio\u0142a.*\nTo m\u00f3wi Pan: Nawr\u00f3\u0107cie si\u0119 do mnie ca\u0142ym sercem waszym przez post, p\u0142acz i \u017cal. I rozdzierajcie serca wasze, a nie wasze szaty. I nawr\u00f3\u0107cie si\u0119 do Pana Boga waszego, bo \u0142askawy jest i lito\u015bciwy, cierpliwy i wielkiego mi\u0142osierdzia, a wsp\u00f3\u0142czuj\u0105cy w nieszcz\u0119\u015bciu. Kto wie, mo\u017ce si\u0119 odwr\u00f3ci i wybaczy i zostawi po sobie b\u0142ogos\u0142awie\u0144stwo na ofiar\u0119 i p\u0142ynn\u0105 obiate dla Pana Boga waszego.\nUderzcie w tr\u0105b\u0119 na Syjonie, u\u015bwi\u0119\u0107cie post, zwo\u0142ajcie zgromadzenie, zbierzcie lud, po\u015bwi\u0119\u0107cie zebranie, w jedno zbierzcie starc\u00f3w, zgromad\u017acie dzieci i niemowl\u0119ta. Niech wynijdzie oblubieniec z \u0142o\u017cnicy swojej, a oblubienica ze swej komnaty. Pomi\u0119dzy przedsionkiem a o\u0142tarzem p\u0142aka\u0107 b\u0119d\u0105 kap\u0142ani, s\u0142udzy Pa\u0144scy, i m\u00f3wi\u0107 b\u0119d\u0105: \u00abPrzepu\u015b\u0107, Panie, przepu\u015b\u0107 ludowi Twemu, a dziedzictwa Twego na wzgard\u0119 nie wydawaj, by mieli nad nimi panowa\u0107 poganie. Czemu\u017c m\u00f3wi\u0105 pomi\u0119dzy narodami: Gdzie\u017c jest ich B\u00f3g?\u00bb\nZap\u0142on\u0105\u0142 Pan mi\u0142o\u015bci\u0105 ku ziemi swojej i przepu\u015bci\u0142 swemu ludowi. I odpowiedzia\u0142 Pan, i rzek\u0142 ludowi swemu: Oto ja ze\u015ble wam pszenic\u0119 i wino, i oliw\u0119, a nasycicie si\u0119 nimi. I nie wydam was na wzgard\u0119 poganom \u2013 m\u00f3wi Pan wszechmog\u0105cy.", 
+            "Li\u00e7\u00e3o do Profeta Joel.\n*Jl 2:12-19*\nEis o que diz o Senhor: Convertei-vos a mim, de todo o cora\u00e7\u00e3o, com jejuns, l\u00e1grimas e gemidos. Rasgai os vossos cora\u00e7\u00f5es e n\u00e3o os vossos vestidos; e convertei-vos ao Senhor, vosso Deus, que \u00e9 benigno, clemente, paciente, compassivo, cheio de miseric\u00f3rdia e cuja bondade excede a mal\u00edcia humana. Quem sabe se Ele n\u00e3o retroceder\u00e1 e n\u00e3o se arrepender\u00e1, n\u00e3o deixando ap\u00f3s si uma b\u00ean\u00e7\u00e3o para apresentardes como oferta de sacrif\u00edcio ao Senhor, nosso Deus?! Tocai a trombeta em Si\u00e3o; ordenai que jejuem; convocai uma assembleia; chamai o povo; publicai uma reuni\u00e3o santa; reuni os velhos; congregai os meninos, ainda mesmo os que bebem o leite maternal; o marido saia do seu quarto e a esposa do seu leito nupcial. Que os sacerdotes, ministros do Senhor, chorem entre o vest\u00edbulo e o altar e digam: \u00abPerdoai, Senhor, perdoai ao vosso povo; n\u00e3o deixeis a vossa heran\u00e7a cair no opr\u00f3brio para servir de tro\u00e7a \u00e0s na\u00e7\u00f5es estrangeiras\u00bb! Pois dir-se-\u00e1 entre os povos: \u00abOnde est\u00e1 o Deus deste povo? O Senhor compadeceu-se da sua terra e perdoou ao povo\u00bb. Respondeu, ent\u00e3o, o Senhor e disse ao seu povo: \u00abEis que vos mandarei trigo, vinho e azeite, e ficareis saciados; nunca mais vos abandonarei ao opr\u00f3brio das na\u00e7\u00f5es\u00bb: isto disse o Senhor omnipotente.", 
             "L\u00e9ctio Jo\u00e9lis Proph\u00e9t\u00e6.\n*Joel 2:12-19*\nH\u00e6c dicit D\u00f3minus: Convert\u00edmini ad me in toto corde vestro, in jej\u00fanio, et in fletu, et in planctu. Et sc\u00edndite corda vestra, et non vestim\u00e9nta vestra, et convert\u00edmini ad D\u00f3minum, Deum vestrum: quia ben\u00edgnus et mis\u00e9ricors est, p\u00e1tiens, et mult\u00e6 miseric\u00f3rdi\u00e6, et pr\u00e6st\u00e1bilis super mal\u00edtia. Quis scit, si convert\u00e1tur, et ign\u00f3scat, et rel\u00ednquat post se benedicti\u00f3nem, sacrif\u00edcium et lib\u00e1men D\u00f3mino, Deo vestro? C\u00e1nite tuba in Sion, sanctific\u00e1te jej\u00fanium, voc\u00e1te coetum, congreg\u00e1te p\u00f3pulum, sanctific\u00e1te eccl\u00e9siam, coadun\u00e1te senes, congreg\u00e1te parvulos et sug\u00e9ntes \u00fabera: egredi\u00e1tur sponsus de cub\u00edli suo, et sponsa de th\u00e1lamo suo. Inter vest\u00edbulum et altare plor\u00e1bunt sacerd\u00f3tes min\u00edstri D\u00f3mini, et dicent: Parce, D\u00f3mine, parce p\u00f3pulo tuo: et ne des heredit\u00e1tem tuam in oppr\u00f3brium, ut domin\u00e9ntur eis nati\u00f3nes. Quare dicunt in p\u00f3pulis: Ubi est Deus e\u00f3rum? Zel\u00e1tus est D\u00f3minus terram suam, et pep\u00e9rcit p\u00f3pulo suo. Et resp\u00f3ndit D\u00f3minus, et dixit populo suo: Ecce, ego mittam vobis frum\u00e9ntum et vinum et \u00f3leum, et repleb\u00edmini eis: et non dabo vos ultra oppr\u00f3brium in g\u00e9ntibus: dicit D\u00f3minus omn\u00edpotens."
           ]
         ], 
         "id": "Lectio", 
-        "label": "Lekcja"
+        "label": "Ep\u00edstola"
       }, 
       {
         "body": [
           [
-            "*Ps 56:2; 56:4*\nZmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, zmi\u0142uj si\u0119 nade mn\u0105, bo Tobie ufa dusza moja.\n\u2123. Si\u0119gn\u0105\u0142 nieba i wybawi\u0142 mnie, ha\u0144b\u0105 okry\u0142 tych, co mnie dr\u0119cz\u0105.\n\n*Traktus*\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\n\u2123. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
+            "*Sl 56:2; 56:4*\nTende miseric\u00f3rdia de mim, \u00f3 Deus; tende miseric\u00f3rdia de mim; pois a minha alma confia em V\u00f3s.\n\u2123. Mandou aux\u00edlio do c\u00e9u, livrando-me, e condenou ao opr\u00f3brio aqueles que me espezinhavam.\n\n*Tracto*\n*Sl 102:10*\nSenhor, nos n\u00e3o castigueis, consoante merecemos, pelos pecados que pratic\u00e1mos: nem nos julgueis, segundo as nossas iniquidades.\n*Sl 78:8-9*\nEsquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas miseric\u00f3rdias, pois grande \u00e9 a nossa mis\u00e9ria. (genuflectir)\n\u2123. Auxiliai-nos, \u00f3 Deus, nosso Salvador, e, pela gl\u00f3ria do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome.", 
             "*Ps 56:2; 56:4*\nMiser\u00e9re mei, Deus, miser\u00e9re mei: qu\u00f3niam in te conf\u00eddit \u00e1nima mea.\n\u2123. Misit de coelo, et liber\u00e1vit me, dedit in oppr\u00f3brium conculc\u00e1ntes me.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis\n*Ps 78:8-9*\nD\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostrarum antiquarum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\n\u2123. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, libera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum."
           ], 
           [
-            "Powy\u017cszy traktus odmawia si\u0119 w poniedzia\u0142ki, \u015brody i pi\u0105tki Wielkiego Postu z wyj\u0105tkiem \u015brody Suchych Dni i Wielkiej \u015arody."
+            "A Igreja repete muitas vezes este Tracto no curso da Quaresma. Como mostra o seu canto, \u00e9 um apelo que o homem dirige a Deus em sua afli\u00e7\u00e3o."
           ]
         ], 
         "id": "Graduale", 
-        "label": "Gradua\u0142"
+        "label": "Gradual"
       }, 
       {
         "body": [
           [
-            "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 6:16-21*\nOnego czasu: M\u00f3wi\u0142 Jezus uczniom swoim: \u00abGdy po\u015bcicie, nie b\u0105d\u017acie smutni jako ob\u0142udnicy. Twarze bowiem swoje wyniszczaj\u0105, aby okazali ludziom, \u017ce poszcz\u0105. Zaprawd\u0119 powiadam wam, \u017ce wzi\u0119li nagrod\u0119 swoj\u0105.\nAle ty, gdy po\u015bcisz, nama\u015b\u0107 g\u0142ow\u0119 swoj\u0105 i obmyj oblicze swoje, aby\u015b nie okaza\u0142 ludziom, \u017ce po\u015bcisz, ale Ojcu twojemu, kt\u00f3ry jest w skryto\u015bci. A Ojciec tw\u00f3j, kt\u00f3ry widzi w skryto\u015bci, odda tobie. Nie skarbcie sobie skarb\u00f3w na ziemi, gdzie rdza i m\u00f3l psuje i gdzie z\u0142odzieje wykopuj\u0105 i kradn\u0105. Ale skarbcie sobie skarby w niebie, gdzie ani rdza zepsuje, ani m\u00f3l stoczy i gdzie z\u0142odzieje nie wykopuj\u0105 ani kradn\u0105. Albowiem gdzie jest skarb tw\u00f3j, tam i serce twoje\u00bb.", 
+            "Continua\u00e7\u00e3o ++ do santo Evangelho segundo S. Mateus.\n*Mt 6:16-21*\nNaquele tempo, disse Jesus aos seus disc\u00edpulos: \u00abQuando jejuardes, n\u00e3o vos mostreis tristonhos, como os hip\u00f3critas; pois estes costumam desfigurar o rosto para mostrarem aos homens que jejuam. Na verdade vos digo: j\u00e1 receberam a sua recompensa. Por\u00e9m, quando jejuardes, perfumai a cabe\u00e7a e lavai o rosto, para que n\u00e3o pare\u00e7a aos homens que jejuais, mas sim a vosso Pai, que conhece todas as coisas ocultas; e, conhecendo esse segredo, vos dar\u00e1 a recompensa. N\u00e3o guardeis tesouros na terra, onde a tra\u00e7a e a ferrugem os gastam e os ladr\u00f5es esburacam a parede e os roubam. Guardai antes vossos tesouros no c\u00e9u, onde nem a ferrugem nem a tra\u00e7a os destroem, nem os ladr\u00f5es os desenterram ou furtam. Pois, onde estiver o vosso tesouro, a\u00ed estar\u00e1 o vosso cora\u00e7\u00e3o.", 
             "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 6:16-21*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Cum jejun\u00e1tis, nol\u00edte f\u00ederi, sicut hyp\u00f3crit\u00e6, tristes. Ext\u00e9rminant enim f\u00e1cies suas, ut app\u00e1reant hom\u00ednibus jejun\u00e1ntes. Amen, dico vobis, quia recep\u00e9runt merc\u00e9dem suam. Tu autem, cum jej\u00fanas, unge caput tuum, et f\u00e1ciem tuam lava, ne vide\u00e1ris hom\u00ednibus jej\u00fanans, sed Patri tuo, qui est in absc\u00f3ndito: et Pater tuus, qui videt in absc\u00f3ndito, reddet tibi. Nol\u00edte thesauriz\u00e1re vobis thes\u00e1uros in terra: ubi \u00e6r\u00fago et t\u00ednea dem\u00f3litur: et ubi fures eff\u00f3diunt et fur\u00e1ntur. Thesauriz\u00e1te autem vobis thes\u00e1uros in coelo: ubi neque \u00e6r\u00fago neque t\u00ednea dem\u00f3litur; et ubi fures non eff\u00f3diunt nec fur\u00e1ntur. Ubi enim est thes\u00e1urus tuus, ibi est et cor tuum."
           ]
         ], 
         "id": "Evangelium", 
-        "label": "Ewangelia"
+        "label": "Evangelho"
       }, 
       {
         "body": [
           [
-            "*Ps 29:2-3*\nS\u0142awi\u0107 Ci\u0119 b\u0119d\u0119, Panie, bo mnie wybawi\u0142e\u015b i nie sprawi\u0142e\u015b ze mnie uciechy mym wrogom. Panie, do Ciebie wo\u0142a\u0142em, a Ty\u015b mnie uzdrowi\u0142.", 
+            "*Sl 29:2-3*\nExaltar-Vos-ei, Senhor, porque me escolhestes e n\u00e3o permitistes que meus inimigos abusassem de mim. Clamei por V\u00f3s, Senhor, e curastes-me.", 
             "*Ps 29:2-3*\nExalt\u00e1bo te, D\u00f3mine, qu\u00f3niam suscep\u00edsti me, nec delect\u00e1sti inim\u00edcos meos super me: D\u00f3mine, clam\u00e1vi ad te, et san\u00e1sti me."
           ]
         ], 
         "id": "Offertorium", 
-        "label": "Antyfona na Ofiarowanie"
+        "label": "Ofert\u00f3rio"
       }, 
       {
         "body": [
           [
-            "Spraw, prosimy Ci\u0119, Panie, aby\u015bmy nale\u017cycie si\u0119 usposobili do ofiarowania Tobie tych dar\u00f3w, przez kt\u00f3re obchodzimy pocz\u0105tek czcigodnego misterium postu.\nPrzez Pana.", 
+            "Vos suplicamos, Senhor, tornai-nos dignos de Vos oferecermos, como devemos, estes dons sacrat\u00edssimos com os quais iniciamos a celebra\u00e7\u00e3o deste venerando tempo, cheio de myst\u00e9rio.\nPor nosso Senhor...", 
             "Fac nos, qu\u01fdsumus, D\u00f3mine, his mun\u00e9ribus offer\u00e9ndis conveni\u00e9nter apt\u00e1ri: quibus ips\u00edus vener\u00e1bilis sacram\u00e9nti celebr\u00e1mus ex\u00f3rdium.\nPer Dominum."
           ]
         ], 
         "id": "Secreta", 
-        "label": "Sekreta"
+        "label": "Secreta"
       }, 
       {
         "body": [
@@ -164,35 +162,32 @@
       {
         "body": [
           [
-            "*Ps 1:2,3*\nKto rozwa\u017ca Prawo Pa\u0144skie dniem i noc\u0105, ten wyda owoc w swym czasie.", 
+            "*Sl 1:2,3*\nAquele que meditar durante o dia e a noite na Lei do Senhor dar\u00e1 fruto no tempo pr\u00f3prio.", 
             "*Ps 1:2 et 3.*\nQui medit\u00e1bitur in lege D\u00f3mini die ac nocte, dabit fructum suum in t\u00e9mpore suo."
           ]
         ], 
         "id": "Communio", 
-        "label": "Antyfona na Komuni\u0119"
+        "label": "Com\u00fanio"
       }, 
       {
         "body": [
           [
-            "Niech nas wspomaga, Panie, przyj\u0119ty Sakrament, aby nasze posty by\u0142y mi\u0142e Tobie, a nam przynios\u0142y wyleczenie.\nPrzez Pana.", 
-            "Perc\u00e9pta nobis, D\u00f3mine, praebeant sacram\u00e9nta subs\u00eddium: ut tibi grata sint nostra jej\u00fania, et nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum."
+            "Senhor, permiti que os sacramentos, que recebemos, nos propiciem o aux\u00edlio de que carecemos, a fim de que os nossos jejuns Vos sejam agrad\u00e1veis e se tornem em rem\u00e9dio para os nossos males.\nPor nosso Senhor...", 
+            "Perc\u00e9pta nobis, D\u00f3mine, praebeant sacram\u00e9nta subs\u00eddium: ut tibi grata sint nostra jej\u00fania, et nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum..."
           ]
         ], 
         "id": "Postcommunio", 
-        "label": "Pokomunia"
+        "label": "Postcom\u00fanio"
       }, 
       {
         "body": [
           [
-            "Diakon, je\u017celi s\u0142u\u017cy do Mszy, zwr\u00f3cony w stron\u0119 ludu, ze z\u0142\u0105czonymi r\u0119koma m\u00f3wi. W przeciwnym razie m\u00f3wi Celebrans, stoj\u0105c w tym samym miejscu, przed ksi\u0119g\u0105, nie zwracaj\u0105c si\u0119 w stron\u0119 ludu."
-          ], 
-          [
-            "M\u00f3dlmy si\u0119.\nPochylcie g\u0142owy wasze przed Bogiem.\n\nWejrzyj \u0142askawie, o Panie, na wiernych, kt\u00f3rzy chyl\u0105 si\u0119 przed Twoim majestatem, aby posileni Boskim darem zawsze byli podtrzymywani niebiesk\u0105 pomoc\u0105.\nPrzez Pana.", 
-            "Or\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\n\nInclin\u00e1ntes se, D\u00f3mine, majest\u00e1ti tu\u00e6, propiti\u00e1tus int\u00e9nde: ut, qui div\u00edno m\u00fanere sunt ref\u00e9cti, coel\u00e9stibus semper nutri\u00e1ntur aux\u00edliis.\nPer Dominum."
+            "Oremos.\nInclinai as vossas cabe\u00e7as diante de Deus.\n\nAtendei, Senhor, benignamente aos que se prostam ante a vossa Majestade, afim de que, saciados com o dom divino, sejam sempre nutridos com celestes aux\u00edlios.\nPor nosso Senhor...", 
+            "Or\u00e9mus.\nHumili\u00e1te c\u00e1pita vestra Deo.\n\nInclin\u00e1ntes se, D\u00f3mine, majest\u00e1ti tu\u00e6, propiti\u00e1tus int\u00e9nde: ut, qui div\u00edno m\u00fanere sunt ref\u00e9cti, coel\u00e9stibus semper nutri\u00e1ntur aux\u00edliis.\nPer Dominum..."
           ]
         ], 
         "id": "Super populum", 
-        "label": "Modlitwa nad ludem"
+        "label": "Sobre o povo"
       }
     ]
   }
