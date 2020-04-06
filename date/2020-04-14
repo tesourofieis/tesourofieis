@@ -1,7 +1,10 @@
 [
   {
     "info": {
-      "additional_info": [], 
+      "additional_info": [
+        "Esta\u00e7\u00e3o em S\u00e3o Paulo", 
+        "Paramentos brancos"
+      ], 
       "colors": [
         "w"
       ], 
