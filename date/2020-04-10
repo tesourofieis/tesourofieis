@@ -8,7 +8,7 @@
       "colors": [
         "b"
       ], 
-      "description": "", 
+      "description": "A Esta\u00e7\u00e3o \u00e9 na bas\u00edlica que, em Roma, representa Jerus\u00e1lem, da qual tem o nome. \u00c9 consagrada \u00e0 Paix\u00e3o do Salvador e contem terra do Calv\u00e1rio, fragmentos importantes do lenho da verdadeira Cruz, e um dos pregos que serviram para crucificar a Jesus. Neste dia, anivers\u00e1rio da morte do Salvador, a Igreja d\u00e1 novamente a seus templos aspecto de desola\u00e7\u00e3o e reveste os seus ministros com paramentos de luto.", 
       "id": "tempora:Quad6-5r:1:bv", 
       "rank": 1, 
       "tempora": null, 
@@ -47,7 +47,7 @@
             "*Tractus*\n*Ps 139:2-10, 14*\nEripe me, Domine, ab homine malo: a viro iniquo libera me.\nV. Qui cogitaverunt malitias in corde: tota die constituebant praelia.\nV. Acuerunt linguas suas sicut serpentis: venenum aspidum sub labiis eorum.\nV. Custodi me, Domine, de manu peccatoris: et ab hominibus iniquis libera me.\nV. Qui cogitaverunt supplantare gressus meos: absconderunt superbi laqueum mihi.\nV. Et funes extenderunt in laqueum pedibus meis, iuxta iter scandalum posuerunt mihi.\nV. Dixi Domino, Deus meus es tu: exaudi, Domine, vocem orationis meae.\nV. Domine, Domine virtus salutis meae obumbra caput meum in die belli.\nV. Ne tradas me a desiderio meo peccatori: cogitaverunt adversus me: ne derelinquas me, ne unquam exaltentur.\nV. Caput circuitus eorum: labor labiorum ipsorum operiet eos.\nV. Verumtamen iusti confitebuntur nomini tuo: et habitabunt recti cum vultu tuo."
           ]
         ], 
-        "id": "", 
+        "id": "Lectionibus", 
         "label": "Primeira Parte: Li\u00e7\u00f5es"
       }, 
       {
@@ -94,7 +94,7 @@
             "Post haec autem rogavit Pilatum Ioseph ab Arimathaea eo quod esset discipulus Iesu, occultus autem propter metum Iudaeorum, ut tolleret corpus Iesu.  Et permisit Pilatus.  Venit ergo, et tulit corpus Iesu.  Venit autem et Nicodemus, qui venerat ad Iesum nocte primum, ferens mixturam myrrhae, et aloes, quasi libras centum.  Acceperunt ergo corpus Iesu, et ligaverunt illud linteis cum aromatibus, sicut mos est Iudaeis sepelire.  Erat autem in loco, ubi crucifixus est, hortus: et in horto monumentum novum, in quo nondum quisquam positus erat.  Ibi ergo propter Parasceven Iudaeorum, quia iuxta erat monumentum, posuerunt Iesum."
           ]
         ], 
-        "id": "", 
+        "id": "Passio", 
         "label": "Paix\u00e3o de N. S. Jesus Cristo, segundo S. Jo\u00e3o"
       }, 
       {
@@ -170,7 +170,7 @@
             "Oremus et pro paganis: ut Deus omnipotens auferat iniquitatem a cordibus eorum; ut relictis idolis suis, convertantur ad Deum vivum et verum, et unicum Filium eius Iesum Christum Deum et Dominum nostrum.\nS.  Oremus.\nV.  Flectamus genua.\nR.  Levate.\nOmnipotens sempiterne Deus, qui non mortem peccatorum, sed vitam semper inquiris: suscipe pro vitam semper inquiris: suscipe propitius orationem nostram, et libera  eos ab idolorum cultura; et aggrega Ecclesiae tuae sanctae ad laudem et gloriam nominis tui. Per Dominum...\nR. Amen."
           ]
         ], 
-        "id": "", 
+        "id": "Orationes", 
         "label": "Segunda Parte: Ora\u00e7\u00f5es"
       }, 
       {
@@ -195,9 +195,6 @@
           [
             "V. Eis o Lenho da Cruz, do qual pendeu a salva\u00e7\u00e3o do mundo!\nR. Vinde, adoremo-lo!\nV. Eis o Lenho da Cruz, do qual pendeu a salva\u00e7\u00e3o do mundo!\nR. Vinde, adoremo-lo!", 
             "V. Ecce lignum Crucis, in quo salus mundi pependit.\nR.  Venite, adoremus.\nV. Ecce lignum Crucis, in quo salus mundi pependit.\nR. Venite, adoremus."
-          ], 
-          [
-            ""
           ], 
           [
             "Improperia"
@@ -346,7 +343,7 @@
             "Ant. Dulce lignum, dulces clavos, Dulce pondus sustinet."
           ]
         ], 
-        "id": "", 
+        "id": "Crucis Adoratione", 
         "label": "Terceira Parte: Adora\u00e7\u00e3o Solene da Cruz"
       }, 
       {
@@ -429,7 +426,7 @@
             "Depois o Sacerdote retira-se com os seus ministros. Diz-se ent\u00e3o, no Coro as V\u00e9speras sem canto e desnuda-se o Altar"
           ]
         ], 
-        "id": "", 
+        "id": "Feria Sexta in Parasceve", 
         "label": "Quarta Parte: Missa dos Pr\u00e9-Santificados"
       }
     ]

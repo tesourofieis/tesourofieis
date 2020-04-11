@@ -9,7 +9,7 @@
         "v", 
         "w"
       ], 
-      "description": "", 
+      "description": "A Esta\u00e7\u00e3o \u00e9 em S\u00e3o Jo\u00e3o de Latr\u00e3o. Na bas\u00edlica m\u00e3e e mestra do mundo crist\u00e3o, celebra a Igreja a primeira Missa de P\u00e1scoa e recebe em seu seio os numerosos Catec\u00famenos que outrora baptizava neste dia. Dedicado, primeiramente, a S\u00e3o Salvador esse santu\u00e1rio foi em seguida consagrado a S. Jo\u00e3o Baptista como o baptist\u00e9rio dele dependente. Anteriormente, a Igreja, n\u00e3o celebrava neste dia servi\u00e7o algum especial. Como uma esposa desolada, velava junto do t\u00famulo do esposo que acabava de lhe ser arrebatado. Independentemente de qualquer reuni\u00e3o estacional, a assembleia era convocada nessa tarde, para o s\u00e9timo e \u00faltimo escrut\u00ednio a preceder de mui perto o baptismo. A noite, realizava-se a V\u00e9spera ou Vig\u00edlia Solene da P\u00e1scoa, no fim da qual, antes da aurora os Catec\u00famenos mergulhados na \u00e1gua do baptist\u00e9rio, eram como sepultados com Jesus. \u00c0 mesma hora em que o Cristo sa\u00eda triunfante do sepulcro, nasciam eles \u00e0 vida da gra\u00e7a. Mais tarde, duas antecipa\u00e7\u00f5es sucessivas fizeram celebrar essas magn\u00edficas cerim\u00f3nias, primeiramente \u00e0 noite e, depois, na manh\u00e3 do S\u00e1bado, constatando-se assim uma transi\u00e7\u00e3o s\u00fabita da tristeza \u00e0 alegria e certas anomalias que esta observa\u00e7\u00e3o faz compreender.", 
       "id": "tempora:Quad6-6r:1:vw", 
       "rank": 1, 
       "tempora": null, 
@@ -371,7 +371,7 @@
             "Mistura esse \u00d3leo com \u00e1gua, espalhando-o com a m\u00e3o sobre toda a Fonte. Se houver pessoas para baptizar, baptiza-se segundo o rito do costume: em seguida, enquanto o Sacerdote e seus Ministros voltam ao Altar, dois cantores come\u00e7am as Ladainhas."
           ]
         ], 
-        "id": "", 
+        "id": "De benedictione fontis baptismalis", 
         "label": "B\u00ean\u00e7\u00e3o da Pia Baptismal"
       }, 
       {
@@ -422,7 +422,7 @@
             "No fim das Ladainhas, os cantores come\u00e7am solenemente Kyrie el\u00e9ison, Christe el\u00e9ison, Kyrie el\u00e9ison, e cada verso repete-se duas vezes. Enquanto isso, o Padre e seus Ministros, revestidos de paramentos brancos, dirigem-se ao Altar e tendo o Salmo Judica me..., acrescentando o Gl\u00f3ria Patri..., diz o Confiteor..., da maneira e no lugar habitual. Depois, subindo ao Altar, beija e incensa como de costume e, quando o coro termina o Kyrie el\u00e9ison, entoa solenemente o Gl\u00f3ria in exc\u00e9lsis Deo, durante o qual se tocam os sinos."
           ]
         ], 
-        "id": "", 
+        "id": "Missam", 
         "label": "Santa Missa"
       }, 
       {
@@ -486,9 +486,6 @@
       }, 
       {
         "body": [
-          [
-            ""
-          ], 
           [
             "*Pref\u00e1cio da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
             "*Paschalis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te quidem, D\u00f3mine, omni t\u00e9mpore, sed in hoc pot\u00edssimum (sed tempore Passionis)\nhac pot\u00edssimum nocte (sed octava Pasch\u00e6)\nhac pot\u00edssimum die glori\u00f3sius pr\u00e6dic\u00e1re, cum Pascha nostrum immol\u00e1tus est Christus. Ipse enim verus est Agnus, qui \u00e1bstulit pecc\u00e1ta mundi. Qui mortem nostram mori\u00e9ndo destr\u00faxit et vitam resurg\u00e9ndo repar\u00e1vit. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:"
