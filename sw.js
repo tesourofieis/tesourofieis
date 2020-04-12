@@ -88,7 +88,7 @@ const PRECACHE_URLS = [
   "./img/1.gif",
 ];
 
-const PRECACHE = "precache-v0.2.2";
+const PRECACHE = "precache-v0.2.3";
 const RUNTIME = "runtime";
 
 self.addEventListener("install", (event) => {
