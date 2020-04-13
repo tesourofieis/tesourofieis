@@ -55,7 +55,7 @@
   rel="stylesheet" href="{{"assets/missa.css" | relative_url }}" />
 
   <script src="https://cdn.jsdelivr.net/npm/@iconify/iconify@1.0.3/dist/iconify.min.js"></script>
-
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script
     async
@@ -67,15 +67,15 @@
       dataLayer.push(arguments);
     }
     gtag("js", new Date());
-
+    
     gtag("config", "UA-146185260-1");
-  </script>
+    </script>
 
-  <title>
-    {% if page.title %} Tesouro dos Fiéis - {{ page.title | escape }} {% else
+<title>
+  {% if page.title %} Tesouro dos Fiéis - {{ page.title | escape }} {% else
     %}{{ site.title | escape }}{% endif %}
   </title>
-
+  
   <link
     href="https://fonts.googleapis.com/css?family=Cardo|Berkshire+Swash&display=swap"
     rel="stylesheet"
