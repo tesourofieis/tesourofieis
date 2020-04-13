@@ -57,6 +57,7 @@ const PRECACHE_URLS = [
   "./rosario",
   "./oficio",
   "./antifonas",
+  "./catecismo",
   "./adoracao",
   "./verdadesfe",
   "./ordinariomissa",
@@ -81,6 +82,8 @@ const PRECACHE_URLS = [
   "./img/moutains.gif",
   "./img/altar.gif",
   "./img/salmo.gif",
+  "./img/sanctemichael.png",
+  "./img/catecismo.jpg",
   "./img/murillo.jpeg",
   "./img/cruxifixao2.gif",
   "./img/bencaocampostrigo.gif",
@@ -88,7 +91,7 @@ const PRECACHE_URLS = [
   "./img/1.gif",
 ];
 
-const PRECACHE = "precache-v0.2.3";
+const PRECACHE = "precache-v0.2.4";
 const RUNTIME = "runtime";
 
 self.addEventListener("install", (event) => {
