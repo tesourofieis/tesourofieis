@@ -21,7 +21,7 @@ let tp15 = moment(new Date()).add(15, "days").format("YYYY-MM-DD");
 
 const PRECACHE_URLS = [
   "./",
-  "./app.js",
+  "./assets/app.js",
   "./img/gitter.png",
   "./index",
   "./missa",
@@ -88,7 +88,7 @@ const PRECACHE_URLS = [
   "./img/1.gif",
 ];
 
-const PRECACHE = "precache-v0.2.3";
+const PRECACHE = "precache-v0.2.4";
 const RUNTIME = "runtime";
 
 self.addEventListener("install", (event) => {
