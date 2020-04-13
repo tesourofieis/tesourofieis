@@ -1,14 +1,3 @@
-// On first load
-$(function () {
-  switchNavbar();
-});
-
-// When browser resized
-$(window).on("resize", function () {
-  switchNavbar();
-});
-
-
 let newWorker;
 
 
