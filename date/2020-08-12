@@ -8,7 +8,7 @@
         "w"
       ], 
       "date": "2020-08-12", 
-      "description": "\u015aw. Klara urodzona w 1194 roku w bogatej rodzinie w Asy\u017cu, porzuci\u0142a \u015bwiat i pod kierunkiem \u015bw. Franciszka za\u0142o\u017cy\u0142a \u017ce\u0144sk\u0105 ga\u0142\u0105\u017a jego zakonu, przyjmuj\u0105c jako podstaw\u0119 ascezy skrajne ub\u00f3stwo. Przez 42 lata kierowa\u0142a klasztorem \u015aw. Damiana pod Asy\u017cem, znosz\u0105c z wielk\u0105 cierpliwo\u015bci\u0105 d\u0142ugotrwa\u0142e choroby i broni\u0105c \u00abprzywileju \u015bwi\u0119tego ub\u00f3stwa\u00bb. Zmar\u0142a 11 sierpnia 1253 roku.\n\nMsza wsp\u00f3lna nr 26 Dilexisti\n", 
+      "description": "", 
       "id": "sancti:08-12:3:w", 
       "rank": 3, 
       "supplements": [], 
@@ -29,7 +29,7 @@
       {
         "body": [
           [
-            "Wys\u0142uchaj nas, Bo\u017ce, nasz Zbawicielu, i spraw, aby\u015bmy raduj\u0105c si\u0119 z uroczysto\u015bci \u015bwi\u0119tej Twojej Dziewicy Klary, nabyli uczucia synowskiego oddania.\nPor nosso Senhor...", 
+            "Ouvi-nos, \u00f3 Deus, nosso salvador, a fim de que, assim como nos alegramos com a festa da vossa B. Virgem Clara assim tamb\u00e9m consigamos alcan\u00e7ar piedosos sentimentos de fervorosa devo\u00e7\u00e3o.\nPor nosso Senhor...", 
             "Ex\u00e1udi nos, Deus, salut\u00e1ris noster: ut, sicut de be\u00e1t\u00e6 N. V\u00edrginis tu\u00e6 festivit\u00e1te gaud\u00e9mus; ita pi\u00e6 devoti\u00f3nis erudi\u00e1mur aff\u00e9ctu.\nPer Dominum\u2026"
           ]
         ], 

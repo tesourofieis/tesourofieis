@@ -3,14 +3,14 @@
     "info": {
       "additional_info": [
         "Paramentos brancos", 
-        "Paramentos vermelhos", 
+        "Comemora\u00e7\u00e3o", 
         "Paramentos vermelhos"
       ], 
       "colors": [
         "r"
       ], 
       "date": "2020-07-29", 
-      "description": "Bawi\u0105c w Judei Pan Jezus ch\u0119tnie zatrzymywa\u0142 si\u0119 w domu \u0141azarza, Marty i Marii w Betanii. W czasie jednej z tych wizyt Marta krz\u0105taj\u0105ca ko\u0142o go\u015bci prosi\u0142a Pana Jezusa o zganienie Marii, zas\u0142uchanej w Jego s\u0142owa. W\u00f3wczas Chrystus zwr\u00f3ci\u0142 jej uwag\u0119, \u017ce troska o dusz\u0119 jest wa\u017cniejsza od wszelkich trosk doczesnych.\nW Ko\u015bciele b\u0119d\u0105 zawsze dusze powo\u0142ane do \u017cycia kontemplacyjnego i inne powo\u0142ane do \u017cycia czynnego. Na obydwu drogach mo\u017cna osi\u0105gn\u0105\u0107 \u015bwi\u0119to\u015b\u0107, je\u017celi wiernie wype\u0142nia si\u0119 swoje powo\u0142anie.\n\nMsza wsp\u00f3lna nr 26 Dilexisti, z wyj\u0105tkiem Ewangelii\n\n\u015a\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy, M\u0119czennik\u00f3w\n\u015aw. Feliks m\u0119czennik rzymski przez pomy\u0142k\u0119 bywa\u0142 uto\u017csamiany z antypapie\u017cem Feliksem II. Bracia Symplicjusz i Faustyn oraz ich siostra Beatrycza ponie\u015bli \u015bmier\u0107 m\u0119cze\u0144sk\u0105 w Rzymie w roku 304.\n\nMsza wsp\u00f3lna nr 14 Sapientiam, z wyj\u0105tkiem kolekty, sekrety i pokomunii\n\n\u015aw. Olafa, Kr\u00f3la i M\u0119czennika\n\u015aw. Olaf II by\u0142 kr\u00f3lem norweskim w latach 1015 - 1030. Wprowadzi\u0142 do kraju chrze\u015bcija\u0144stwo. Wskutek oporu poga\u0144stwa musia\u0142 uchodzi\u0107 za granic\u0119. Wr\u00f3ciwszy do kraju zgin\u0105\u0142 w bitwie pod Stiklestad 29 lipca 1030 roku.\n\nMsza wsp\u00f3lna nr 11 In virtute, z wyj\u0105tkiem kolekty:\nBo\u017ce, korono kr\u00f3l\u00f3w i zwyci\u0119stwo M\u0119czennik\u00f3w: daj nam, prosimy Ci\u0119, dozna\u0107 wstawiennictwa u Ciebie \u015bwi\u0119tego Olafa, Kr\u00f3la i M\u0119czennika Twojego; niech z Twej wspania\u0142omy\u015blno\u015bci, kt\u00f3r\u0105 wielbimy w jego m\u0119cze\u0144stwie, otrzymamy wieniec \u017cycia, obiecany mi\u0142uj\u0105cym Ciebie. Przez Pana.\n", 
+      "description": "\nSantos M\u00e1rtires F\u00e9lix, Simpl\u00edcio, Faustino e Beatriz\n", 
       "id": "sancti:07-29:3:r", 
       "rank": 3, 
       "supplements": [], 
@@ -31,7 +31,7 @@
       {
         "body": [
           [
-            "Wys\u0142uchaj nas, Bo\u017ce, nasz Zbawicielu, i spraw, aby\u015bmy raduj\u0105c si\u0119 z uroczysto\u015bci \u015bwi\u0119tej Twojej Dziewicy Marty, nabyli uczucia synowskiego oddania.\nPor nosso Senhor...", 
+            "Ouvi-nos, \u00f3 Deus, nosso salvador, a fim de que, assim como nos alegramos com a festa da vossa B. Virgem Marta assim tamb\u00e9m consigamos alcan\u00e7ar piedosos sentimentos de fervorosa devo\u00e7\u00e3o.\nPor nosso Senhor...", 
             "Ex\u00e1udi nos, Deus, salut\u00e1ris noster: ut, sicut de be\u00e1t\u00e6 Marth\u00e6 V\u00edrginis tu\u00e6 festivit\u00e1te gaud\u00e9mus; ita pi\u00e6 devoti\u00f3nis erudi\u00e1mur affectu.\nPer Dominum\u2026"
           ]
         ], 
@@ -41,7 +41,7 @@
       {
         "body": [
           [
-            "*Wspomnienie \u015b\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy*\nProsimy Ci\u0119, Panie, aby lud chrze\u015bcija\u0144ski, raduj\u0105c si\u0119 z doczesnej uroczysto\u015bci M\u0119czennik\u00f3w Twoich Feliksa, Symplicjusza, Faustyna i Beatryczy, uczestniczy\u0142 w ich rado\u015bci wiecznej, a co teraz s\u0142awi modlitw\u0105, niech otrzyma w rzeczywisto\u015bci.\nPor nosso Senhor...", 
+            "*Santos M\u00e1rtires F\u00e9lix, Simpl\u00edcio, Faustino e Beatriz*\nPermiti, Senhor, Vos suplicamos, que, assim como o povo crist\u00e3o celebra com j\u00fabilo durante esta vida a festa dos vossos Santos M\u00e1rtires F\u00e9lix, Simpl\u00edcio, Faustino e Beatriz, assim tamb\u00e9m possa alegrar-se na eternidade, e alcance na realidade mais tarde o que agora honra com seus votos.\nPor nosso Senhor...", 
             "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nPr\u00e6sta, qu\u01fdsumus, D\u00f3mine: ut, sicut p\u00f3pulus christi\u00e1nus M\u00e1rtyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis tempor\u00e1li sollemnit\u00e1te cong\u00e1udet, ita perfru\u00e1tur \u00e6t\u00e9rna; et, quod votis c\u00e9lebrat, compreh\u00e9ndat eff\u00e9ctu.\nPer Dominum\u2026"
           ]
         ], 
@@ -71,7 +71,7 @@
       {
         "body": [
           [
-            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*\u0141k 10:38-42*\nOnego czasu: Jezus wszed\u0142 do jednej osady, a niewiasta pewna imieniem Marta przyj\u0119\u0142a Go w domu swoim. A ta mia\u0142a siostr\u0119 imieniem Maria, kt\u00f3ra te\u017c siedz\u0105c u st\u00f3p Pana, s\u0142ucha\u0142a s\u0142owa Jego. Marta za\u015b krz\u0105ta\u0142a si\u0119 ko\u0142o r\u00f3\u017cnych pos\u0142ug, a zatrzymuj\u0105c si\u0119 rzek\u0142a: \u00abPanie, czy\u017c nie ma to dla Ciebie znaczenia, \u017ce siostra moja zostawi\u0142a mi\u0119, abym sama pos\u0142ugiwa\u0142a? Powiedz jej przeto, aby mi pomog\u0142a\u00bb. A odpowiadaj\u0105c rzek\u0142 jej Pan: \u00abMarto, Marto, o bardzo wiele rzeczy troszczysz si\u0119 i k\u0142opoczesz, a przecie\u017c jednej tylko potrzeba. Maria najlepsz\u0105 cz\u0105stk\u0119 obra\u0142a, kt\u00f3ra jej nie b\u0119dzie odj\u0119ta\u00bb.", 
+            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 10:38-42*\nNaquele tempo, entrou Jesus em um castelo, onde uma mulher, chamada Marta, O recebeu em sua casa. Tinha esta uma irm\u00e3, de nome Maria, que se assentou aos p\u00e9s do Senhor, escutando suas palavras. Por\u00e9m, Marta estava muito atarefada, a preparar quanto era necess\u00e1rio. Ent\u00e3o esta veio ter com Jesus, dizendo-Lhe: \u00abSenhor, n\u00e3o reparais que minha irm\u00e3 me deixa s\u00f3 a servir? Dizei-lhe, pois, que venha ajudar-me\u00bb. E o Senhor disse: \u00abMarta, Marta, inquietai-vos e embara\u00e7ai-vos, cuidando sol\u00edcitamente de muitas coisas, quando na verdade s\u00f3 uma \u00e9 necess\u00e1ria. Maria escolheu a melhor parte, a qual lhe n\u00e3o ser\u00e1 tirada\u00bb.", 
             "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:38-42*\nIn illo t\u00e9mpore: Intr\u00e1vit Jesus in quoddam cast\u00e9llum: et m\u00falier qu\u00e6dam, Martha n\u00f3mine, exc\u00e9pit illum in domum suam: et huic erat soror n\u00f3mine Mar\u00eda, qu\u00e6 \u00e9tiam sedens secus pedes D\u00f3mini, audi\u00e9bat verbum ill\u00edus. Martha autem satag\u00e9bat circa frequens minist\u00e9rium: qu\u00e6 stetit et ait: D\u00f3mine, non est tibi cur\u00e6, quod soror mea r\u00e9liquit me solam ministr\u00e1re? dic ergo illi, ut me \u00e1djuvet. Et resp\u00f3ndens, dixit illi D\u00f3minus: Martha, Martha, soll\u00edcita es et turb\u00e1ris erga pl\u00farima: porro unum est necess\u00e1rium. Mar\u00eda \u00f3ptimam partem el\u00e9git, qu\u00e6 non aufer\u00e9tur ab ea."
           ]
         ], 
@@ -101,7 +101,7 @@
       {
         "body": [
           [
-            "*Wspomnienie \u015b\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy*\nSk\u0142adamy Tobie, Panie, ofiary ku uczczeniu pami\u0119ci \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Feliksa, Symplicjusza, Faustyna i Beatryczy, kornie b\u0142agaj\u0105c, aby one wyjedna\u0142y nam przebaczenie i zbawienie.\nPor nosso Senhor...", 
+            "*Santos M\u00e1rtires F\u00e9lix, Simpl\u00edcio, Faustino e Beatriz*\nVos oferecemos, Senhor, estas h\u00f3stias em mem\u00f3ria dos vossos Santos M\u00e1rtires F\u00e9lix. Simpl\u00edcio, Faustino e Beatriz, suplicando-Vos humildemente que por eles nos concedais simultaneamente o perd\u00e3o e a salva\u00e7\u00e3o.\nPor nosso Senhor...", 
             "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nH\u00f3stias tibi, D\u00f3mine, pro sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis commemorati\u00f3ne def\u00e9rimus: suppl\u00edciter deprec\u00e1ntes; ut indulg\u00e9ntiam nobis p\u00e1riter c\u00f3nferant et sal\u00fatem.\nPer Dominum\u2026"
           ]
         ], 
@@ -141,7 +141,7 @@
       {
         "body": [
           [
-            "*Wspomnienie \u015b\u015b. Feliksa, Symplicjusza, Faustyna i Beatryczy*\nProsimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby uroczysto\u015b\u0107 \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Feliksa, Symplicjusza, Faustyna i Beatryczy, obchodzona przez sprawowanie niebieskich misteri\u00f3w, wyjedna\u0142a nam Twe \u0142askawe przebaczenie.\nPor nosso Senhor...", 
+            "*Santos M\u00e1rtires F\u00e9lix, Simpl\u00edcio, Faustino e Beatriz*\n\u00d3 Deus omnipotente, Vos suplicamos, fazei que a solenidade dos vossos Santos M\u00e1rtires F\u00e9lix, Simpl\u00edcio, Faustino e Beatriz, que celebramos com estes celestiais myst\u00e9rios, nos obtenha o perd\u00e3o da vossa miseric\u00f3rdia.\nPor nosso Senhor...", 
             "*Ss. Felicis, Simplicii, Faustini et Beatricis.*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut sanct\u00f3rum Martyrum tu\u00f3rum Fel\u00edcis, Simpl\u00edcii, Faust\u00edni et Beatr\u00edcis c\u0153l\u00e9stibus m\u00fdsteriis celebr\u00e1ta soll\u00e9mnitas, indulg\u00e9ntiam nobis tu\u00e6 propitiati\u00f3nis acqu\u00edrat.\nPer Dominum\u2026"
           ]
         ], 

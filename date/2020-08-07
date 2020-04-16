@@ -3,13 +3,14 @@
     "info": {
       "additional_info": [
         "Paramentos brancos", 
+        "Comemora\u00e7\u00e3o", 
         "Paramentos vermelhos"
       ], 
       "colors": [
         "r"
       ], 
       "date": "2020-08-07", 
-      "description": "\u015aw. Kajetan urodzi\u0142 si\u0119 w Vicenza w Italii roku 1480. Razem z Piotrem Carafa za\u0142o\u017cy\u0142 pierwsze zgromadzenie Kleryk\u00f3w Regularnych, nazwanych p\u00f3\u017aniej Taatynami. Zakonnicy ci nie posiadali niczego i nie prosili o ja\u0142mu\u017cn\u0119, zdaj\u0105c si\u0119 ca\u0142kowicie na \u0142ask\u0119 Opatrzno\u015bci (kolekta). Z powodu wielkiej gorliwo\u015bci nazwano \u015bw. Kajetana \u00ab\u0142owc\u0105 dusz\u00bb. Zmar\u0142 on w Neapolu 7 sierpnia 1547 roku.\n\nMsza wsp\u00f3lna nr 21 Os iusti, z wyj\u0105tkiem kolekty, sekrety i pokomunii\n\n\u015aw. Donata, Biskupa i M\u0119czennika\n\u015aw. Donat, biskup Arezzo w Italii, poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105 oko\u0142o roku 360.\n", 
+      "description": "\nS. Donato, Bispo e M\u00e1rtir\n", 
       "id": "sancti:08-07:3:r", 
       "rank": 3, 
       "supplements": [], 
@@ -30,7 +31,7 @@
       {
         "body": [
           [
-            "Bo\u017ce, kt\u00f3ry pozwoli\u0142e\u015b \u015bwi\u0119temu Kajetanowi, Twemu Wyznawcy, na\u015bladowa\u0107 spos\u00f3b \u017cycia Aposto\u0142\u00f3w; daj nam za jego wstawiennictwem i przyk\u0142adem pok\u0142ada\u0107 zawsze nadziej\u0119 w Tobie i pragn\u0105\u0107 jedynie tego, co niebieskie.\nPor nosso Senhor...", 
+            "\u00d3 Deus, que concedestes ao B. Caetano, vosso Confessor, a gra\u00e7a de imitar o modo de vida dos Ap\u00f3stolos, permiti-nos, pela sua intercess\u00e3o e exemplo, que sempre depositemos em V\u00f3s a nossa confian\u00e7a e somente aspiremos aos bens celestiais.\nPor nosso Senhor...", 
             "Deus, qui be\u00e1to Cajet\u00e1no Confess\u00f3ri tuo apost\u00f3licam viv\u00e9ndi formam imit\u00e1ri tribu\u00edsti: da nobis, ejus intercessi\u00f3ne et ex\u00e9mplo, in te semper conf\u00eddere et sola c\u00e6l\u00e9stia desider\u00e1re.\nPer Dominum\u2026"
           ]
         ], 
@@ -40,7 +41,7 @@
       {
         "body": [
           [
-            "*Wspomnienie \u015bw. Donata*\nBo\u017ce, chwa\u0142o Twych kap\u0142an\u00f3w, daj, prosimy Ci\u0119, niech doznamy pomocy \u015bwi\u0119tego Donata, Twego M\u0119czennika i Biskupa, kt\u00f3rego \u015bwi\u0119to obchodzimy.\nPor nosso Senhor...", 
+            "*S. Donato*\n\u00d3 Deus, que sois a gl\u00f3ria dos vossos sacerdotes, permiti, Vos suplicamos, que experimentemos o aux\u00edlio do vosso Santo M\u00e1rtir e Bispo Donato, cuja festa celebramos.\nPor nosso Senhor...", 
             "*Commemoratio S. Donati, Episcopi et Martyris*\nDeus, tu\u00f3rum gl\u00f3ria sacerd\u00f3tum: pr\u00e6sta, qu\u01fdsumus, ut sancti Martyris tui et Ep\u00edscopi Don\u00e1ti, cujus festa g\u00e9rimus, senti\u00e1mus aux\u00edlium.\nPer Dominum\u2026"
           ]
         ], 
@@ -50,7 +51,7 @@
       {
         "body": [
           [
-            "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Syr 31:8-11*\nBem-aventurado o homem que foi julgado sem m\u00e1cula; que n\u00e3o correu ap\u00f3s o ouro; e n\u00e3o p\u00f4s as esperan\u00e7as nem no dinheiro, nem nos tesouros! Quem \u00e9 ele, para que o louvemos? Porquanto operou cousas admir\u00e1veis durante a vida. Aquele que foi provado pelo ouro e foi julgado perfeito alcan\u00e7ar\u00e1 a gl\u00f3ria eterna; pois poderia ter violado o mandamento, e o n\u00e3o violou; poderia ter praticado ac\u00e7\u00f5es m\u00e1s, e as n\u00e3o praticou. \u00c9 por esta raz\u00e3o que seus bens lhe estar\u00e3o assegurados no Senhor e que toda a assembleia dos justos proclamar\u00e1 as boas ac\u00e7\u00f5es que praticou.", 
+            "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Ecl 31:8-11*\nBem-aventurado o homem que foi julgado sem m\u00e1cula; que n\u00e3o correu ap\u00f3s o ouro; e n\u00e3o p\u00f4s as esperan\u00e7as nem no dinheiro, nem nos tesouros! Quem \u00e9 ele, para que o louvemos? Porquanto operou cousas admir\u00e1veis durante a vida. Aquele que foi provado pelo ouro e foi julgado perfeito alcan\u00e7ar\u00e1 a gl\u00f3ria eterna; pois poderia ter violado o mandamento, e o n\u00e3o violou; poderia ter praticado ac\u00e7\u00f5es m\u00e1s, e as n\u00e3o praticou. \u00c9 por esta raz\u00e3o que seus bens lhe estar\u00e3o assegurados no Senhor e que toda a assembleia dos justos proclamar\u00e1 as boas ac\u00e7\u00f5es que praticou.", 
             "L\u00e9ctio libri Sapi\u00e9nti\u00e6\n*Eccli 31:8-11*\nBe\u00e1tus vir, qui inv\u00e9ntus est sine m\u00e1cula, et qui post aurum non \u00e1biit, nec sper\u00e1vit in pec\u00fania et thes\u00e1uris. Quis est hic, et laud\u00e1bimus eum? fecit enim mirab\u00edlia in vita sua. Qui prob\u00e1tus est in illo, et perf\u00e9ctus est, erit illi gl\u00f3ria \u00e6t\u00e9rna: qui p\u00f3tuit tr\u00e1nsgredi, et non est transgr\u00e9ssus: f\u00e1cere mala, et non fecit: \u00eddeo stab\u00edlita sunt bona ill\u00edus in D\u00f3mino, et eleemos\u00fdnas ill\u00edus enarr\u00e1bit omnis eccl\u00e9sia sanct\u00f3rum."
           ]
         ], 
@@ -90,7 +91,7 @@
       {
         "body": [
           [
-            "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby nasza ofiara, kt\u00f3r\u0105 w pokorze sk\u0142adamy Ci ku czci Twoich \u015awi\u0119tych, by\u0142a Tobie mi\u0142a i oczy\u015bci\u0142a nasze dusze i cia\u0142a.\nPor nosso Senhor...", 
+            "\u00d3 Deus omnipotente, Vos suplicamos, fazei que esta oblata da nossa humildade em honra dos vossos Santos Vos seja agrad\u00e1vel e nos purifique ao mesmo tempo o corpo e a alma.\nPor nosso Senhor...", 
             "Pr\u00e6sta nobis, qu\u01fdsumus, omn\u00edpotens Deus: ut nostr\u00e6 humilit\u00e1tis obl\u00e1tio, et pro tu\u00f3rum tibi grata sit hon\u00f3re Sanct\u00f3rum, et nos c\u00f3rpore p\u00e1riter et mente pur\u00edficet.\nPer Dominum\u2026"
           ]
         ], 
@@ -100,7 +101,7 @@
       {
         "body": [
           [
-            "*Wspomnienie \u015bw. Donata*\nSpraw, prosimy Ci\u0119, Panie, aby dzi\u0119ki wstawiennictwu \u015bw. Donata, Twego M\u0119czennika i Biskupa, kt\u00f3rego czcimy darami z\u0142o\u017conymi ku chwale Twojego imienia, wzrasta\u0142 w nas owoc synowskiego oddania.\nPor nosso Senhor...", 
+            "*S. Donato*\nSenhor, Vos suplicamos, fazei que pela intercess\u00e3o do vosso Santo M\u00e1rtir e Bispo Donato, a quem honramos oferecendo estes dons em louvor do vosso nome, sintamos aumentar em n\u00f3s os frutos de uma devo\u00e7\u00e3o piedosa.\nPor nosso Senhor...", 
             "*Commemoratio S. Donati, Episcopi et Martyris*\nPr\u00e6sta, qu\u01fdsumus, D\u00f3mine: ut sancti Martyris tui et Episcopi Donati intercessi\u00f3ne, quem ad laudem n\u00f3minis tui dic\u00e1tis mun\u00e9ribus honor\u00e1mus, pi\u00e6 nobis fructus devoti\u00f3nis accr\u00e9scat.\nPer Dominum\u2026"
           ]
         ], 
@@ -130,7 +131,7 @@
       {
         "body": [
           [
-            "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby pokarm niebieski, kt\u00f3ry\u015bmy przyj\u0119li, chroni\u0142 nas od wszelkich przeciwno\u015bci za wstawiennictwem \u015bwi\u0119tego Kajetana, Twojego Wyznawcy.\nPor nosso Senhor...", 
+            "Havendo recebido o alimento celestial, \u00f3 Deus omnipotente, Vos suplicamos, fazei que pela intercess\u00e3o do B. Caetano, vosso Confessor, sejamos fortalecidos contra todas as adversidades.\nPor nosso Senhor...", 
             "Qu\u01fdsumus, omn\u00edpotens Deus : ut, qui c\u00e6l\u00e9stia alim\u00e9nta perc\u00e9pimus, interced\u00e9nte be\u00e1to Caiet\u00e1no Confess\u00f3re tuo, per h\u00e6c contra \u00f3mnia adv\u00e9rsa muni\u00e1mur. Per D\u00f3minum nostrum."
           ]
         ], 
@@ -140,7 +141,7 @@
       {
         "body": [
           [
-            "*Wspomnienie \u015bw. Donata*\nWszechmog\u0105cy i mi\u0142osierny Bo\u017ce, kt\u00f3ry czynisz nas uczestnikami i szafarzami Twoich Sakrament\u00f3w, daj prosimy, aby\u015bmy za wstawiennictwem \u015bw. Donata, Twego M\u0119czennika i Biskupa, coraz wi\u0119cej jednoczyli si\u0119 z nim w wierze i godnej s\u0142u\u017cbie.\nPor nosso Senhor...", 
+            "*S. Donato*\nOmnipotente e misericordioso Deus, que nos tornastes participantes e ministros dos vossos sacramentos, concedei-nos, Vos imploramos, que pela intercess\u00e3o do B. Donato, vosso M\u00e1rtir e Pont\u00edfice, n\u00e3o s\u00f3 gozemos a comparticipa\u00e7\u00e3o da sua f\u00e9, mas como ele Vos sirvamos dignamente.\nPor nosso Senhor...", 
             "*Commemoratio S. Donati, Episcopi et Martyris*\nOmn\u00edpotens et mis\u00e9ricors Deus, qui nos sacrament\u00f3rum tu\u00f3rum et part\u00edcipes \u00e9fficis et min\u00edstros: pr\u00e6sta, qu\u01fdsumus; ut, interced\u00e9nte be\u00e1to Don\u00e1to M\u00e1rtyre tuo atque Pont\u00edfice, ej\u00fasdem profici\u00e1mus et f\u00eddei cons\u00f3rtio et digno serv\u00edtio.\nPer Dominum\u2026"
           ]
         ], 
