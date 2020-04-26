@@ -164,9 +164,9 @@ a[aria-expanded="true"] {
 #lang-switch {
   position: sticky;
   text-align: center;
-  bottom: 5rem;
+  bottom: 4rem;
   display: none;
-  opacity: 0.9;
+  opacity: 0.75;
   padding: 0px;
 }
 
