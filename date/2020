@@ -2738,11 +2738,11 @@
     "celebration": [
       {
         "colors": [
-          "w"
+          "r"
         ], 
-        "id": "sancti:05-01r:1:w", 
-        "rank": 1, 
-        "title": "S. Jos\u00e9, Oper\u00e1rio"
+        "id": "sancti:05-01:2:r", 
+        "rank": 2, 
+        "title": "S. Filipe e S. Tiago, Ap\u00f3stolos"
       }
     ], 
     "commemoration": [], 
@@ -2784,6 +2784,16 @@
     "celebration": [
       {
         "colors": [
+          "r"
+        ], 
+        "id": "sancti:05-03:2:r", 
+        "rank": 2, 
+        "title": "A Inven\u00e7\u00e3o da Santa Cruz"
+      }
+    ], 
+    "commemoration": [
+      {
+        "colors": [
           "w"
         ], 
         "id": "tempora:Pasc3-0r:2:w", 
@@ -2791,7 +2801,6 @@
         "title": "3\u00ba Domingo depois da P\u00e1scoa"
       }
     ], 
-    "commemoration": [], 
     "tempora": [
       {
         "colors": [
@@ -2947,16 +2956,7 @@
     ]
   }, 
   "2020-05-11": {
-    "celebration": [
-      {
-        "colors": [
-          "r"
-        ], 
-        "id": "sancti:05-11r:2:r", 
-        "rank": 2, 
-        "title": "S.S. Filipe e Tiago, Ap\u00f3stolos"
-      }
-    ], 
+    "celebration": [], 
     "commemoration": [], 
     "tempora": [
       {
@@ -4052,16 +4052,7 @@
         "title": "4\u00ba Domingo depois de Pentecostes"
       }
     ], 
-    "commemoration": [
-      {
-        "colors": [
-          "v"
-        ], 
-        "id": "sancti:06-28r:2:v", 
-        "rank": 2, 
-        "title": "Vig\u00edlia dos S.S. Ap\u00f3stolos Pedro e Paulo"
-      }
-    ], 
+    "commemoration": [], 
     "tempora": [
       {
         "colors": [
@@ -4680,21 +4671,21 @@
     "celebration": [
       {
         "colors": [
-          "g"
-        ], 
-        "id": "tempora:Pent08-0:2:g", 
-        "rank": 2, 
-        "title": "8\u00ba Domingo depois de Pentecostes"
-      }
-    ], 
-    "commemoration": [
-      {
-        "colors": [
           "w"
         ], 
         "id": "sancti:07-26:2:w", 
         "rank": 2, 
         "title": "S. Ana, M\u00e3e de Nossa Senhora"
+      }
+    ], 
+    "commemoration": [
+      {
+        "colors": [
+          "g"
+        ], 
+        "id": "tempora:Pent08-0:2:g", 
+        "rank": 2, 
+        "title": "8\u00ba Domingo depois de Pentecostes"
       }
     ], 
     "tempora": [
@@ -5172,21 +5163,21 @@
     "celebration": [
       {
         "colors": [
-          "g"
-        ], 
-        "id": "tempora:Pent11-0:2:g", 
-        "rank": 2, 
-        "title": "11\u00ba Domingo depois de Pentecostes"
-      }
-    ], 
-    "commemoration": [
-      {
-        "colors": [
           "w"
         ], 
         "id": "sancti:08-16:2:w", 
         "rank": 2, 
         "title": "S. Joaquim, Pai de Nossa Senhora"
+      }
+    ], 
+    "commemoration": [
+      {
+        "colors": [
+          "g"
+        ], 
+        "id": "tempora:Pent11-0:2:g", 
+        "rank": 2, 
+        "title": "11\u00ba Domingo depois de Pentecostes"
       }
     ], 
     "tempora": [
@@ -6469,21 +6460,21 @@
     "celebration": [
       {
         "colors": [
-          "g"
-        ], 
-        "id": "tempora:Pent19-0:2:g", 
-        "rank": 2, 
-        "title": "19\u00ba Domingo depois de Pentecostes"
-      }
-    ], 
-    "commemoration": [
-      {
-        "colors": [
           "w"
         ], 
         "id": "sancti:10-11:2:w", 
         "rank": 2, 
         "title": "Maternidade da B. V. Maria"
+      }
+    ], 
+    "commemoration": [
+      {
+        "colors": [
+          "g"
+        ], 
+        "id": "tempora:Pent19-0:2:g", 
+        "rank": 2, 
+        "title": "19\u00ba Domingo depois de Pentecostes"
       }
     ], 
     "tempora": [
@@ -6630,21 +6621,21 @@
     "celebration": [
       {
         "colors": [
-          "g"
-        ], 
-        "id": "tempora:Pent20-0:2:g", 
-        "rank": 2, 
-        "title": "20\u00ba Domingo depois de Pentecostes"
-      }
-    ], 
-    "commemoration": [
-      {
-        "colors": [
           "r"
         ], 
         "id": "sancti:10-18:2:r", 
         "rank": 2, 
         "title": "S. Lucas, Evangelista"
+      }
+    ], 
+    "commemoration": [
+      {
+        "colors": [
+          "g"
+        ], 
+        "id": "tempora:Pent20-0:2:g", 
+        "rank": 2, 
+        "title": "20\u00ba Domingo depois de Pentecostes"
       }
     ], 
     "tempora": [
@@ -8283,9 +8274,9 @@
         "colors": [
           "w"
         ], 
-        "id": "tempora:Nat1-0:2:w", 
+        "id": "sancti:12-27:2:w", 
         "rank": 2, 
-        "title": "Domingo dentro do Oitav\u00e1rio do Natal"
+        "title": "S. Jo\u00e3o, Ap\u00f3stolo e Evangelista"
       }
     ], 
     "commemoration": [
@@ -8293,9 +8284,9 @@
         "colors": [
           "w"
         ], 
-        "id": "sancti:12-27:2:w", 
+        "id": "tempora:Nat1-0:2:w", 
         "rank": 2, 
-        "title": "S. Jo\u00e3o, Ap\u00f3stolo e Evangelista"
+        "title": "Domingo dentro do Oitav\u00e1rio do Natal"
       }
     ], 
     "tempora": [

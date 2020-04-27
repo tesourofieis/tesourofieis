@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 YEAR_FROM=2020
-YEAR_TO=2031
+YEAR_TO=2021
 itr=0
 for year in `seq $YEAR_FROM $YEAR_TO`; do
     echo $year
