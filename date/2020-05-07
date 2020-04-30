@@ -1,12 +1,14 @@
 [
   {
     "info": {
-      "additional_info": [], 
+      "additional_info": [
+        "Paramentos vermelhos"
+      ], 
       "colors": [
         "r"
       ], 
       "date": "2020-05-07", 
-      "description": "", 
+      "description": "Nascido na Pol\u00f3nia, Estanislau foi nomeado bispo de Crac\u00f3via em 1072. Boleslau II, cuja tirania e desregramento de costumes censurava, votou-lhe grande \u00f3dio. Um dia, ao celebrar Estanislau a Santa Missa, o pr\u00edncipe agarrou-o pela garganta, sufocando-o. Era o ano de 1079. Este Santo \u00e9 o padroeiro da Pol\u00f3nia.\n", 
       "id": "sancti:05-07:3:r", 
       "rank": 3, 
       "supplements": [], 

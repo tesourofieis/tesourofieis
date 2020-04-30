@@ -1,6 +1,5 @@
 let newWorker;
 
-
 function showUpdateBar() {
   let snackbar = document.getElementById("snackbar");
   snackbar.className = "show";
@@ -24,6 +23,9 @@ if ("serviceWorker" in navigator) {
             if (navigator.serviceWorker.controller) {
               // new update available
               showUpdateBar();
+              setTimeout(() => {
+                newWorker.postMessage({ action: "skipWaiting" });
+              }, 3000);
             }
             // No update available
             break;
