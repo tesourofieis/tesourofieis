@@ -1,18 +1,21 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
-YEAR_FROM=2020
-YEAR_TO=2021
-itr=0
-for year in `seq $YEAR_FROM $YEAR_TO`; do
-    echo $year
-    curl -s 0.0.0.0:5000/pt/api/v3/calendar/${year} > ./date/${year}
-    while [ 1 ]; do
-        my_date=`date -j -v +${itr}d -f "%Y-%m-%d" $YEAR_FROM"-01-01" +%Y-%m-%d`
-        if [[ $my_date == ${YEAR_TO}* ]]; then
-            exit
-        fi
-        echo ${my_date}
-        curl -s 0.0.0.0:5000/pt/api/v3/date/${my_date} > ./date/${my_date}
-        itr=$(( itr + 1 ))
-    done
-done
+year=$1
+start=$2
+end=$3
+start=$(date -d $start +%Y%m%d)
+end=$(date -d $end +%Y%m%d)
+
+
+curl -s 0.0.0.0:5000/pt/api/v3/calendar/${year} > ./date/${year}
+
+
+while [[ $start != $end ]]
+  do
+    echo $start
+    echo $end
+    end=$(date -d"$end" +"%Y-%m-%d")
+    start=$(date -d"$start + 1 day" +"%Y-%m-%d")
+        curl -s 0.0.0.0:5000/pt/api/v3/date/${start} > ./date/${start}
+  done
+
