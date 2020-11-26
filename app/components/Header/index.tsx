@@ -5,7 +5,7 @@ import { ThemeContext } from 'styled-components'
 import { shade } from 'polished'
 
 interface Props {
-  toggleTheme(): void
+  toggleTheme(checked: boolean): void
 }
 
 const Header: React.FC<Props> = ({ toggleTheme }) => {
