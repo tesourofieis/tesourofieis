@@ -26,9 +26,13 @@
     ]
   },
   "dependencies": {
+    "cookie": "^0.4.1",
+    "js-cookie": "^2.2.1",
     "next": "latest",
+    "polished": "^4.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-switch": "^5.0.1",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
