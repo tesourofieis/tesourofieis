@@ -23,3 +23,6 @@ tesouro.code-workspace
 package-lock.json
 semacordo.js
 Notes.org
+
+app/.next/
+old/
