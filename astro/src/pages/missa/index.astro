@@ -1,9 +1,0 @@
----
-import Layout from "../../layouts/Layout.astro";
-const missa = await fetch(`${Astro.url}/${new Date().toISOString().split('T')[0]}.json`)
----
-
-<Layout title="">
-  <h1>Missa</h1>
-  <div>{missa.body}</div>
-</Layout>
