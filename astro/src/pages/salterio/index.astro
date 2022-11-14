@@ -1,0 +1,18 @@
+---
+import Layout from "../../layouts/Layout.astro";
+const portuguese = await Astro.glob("../../../salmos/portuguese/*.md");
+const latin = await Astro.glob("../../../salmos/latin/*.md");
+---
+
+<Layout title="Saltério">
+  <main class="container mx-auto">
+    <div class="grid grid-flow-col gap-5">
+      <ul class="space-y-10">
+        {portuguese.map((salmo) => <li set:html={salmo.compiledContent()} />)}
+      </ul>
+      <ul class="space-y-10">
+        {latin.map((salmo) => <li set:html={salmo.compiledContent()} />)}
+      </ul>
+    </div>
+  </main>
+</Layout>

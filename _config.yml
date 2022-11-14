@@ -1,13 +1,1 @@
-navigation:
-  - text: Santo Rosário
-    url: /rosario.html
-  - text: Saltério
-    url: /salterio.html
-  - text: Pequeno Ofício de Nossa Senhora
-    url: /oficio.html
-  - text: Antífonas de Nossa Senhora
-    url: /antifonas.html
-  - text: Baptismo
-    url: /baptismo.html
-
-exclude: ["Missal1962", "node_modules", ".vscode", ".vs", ".netlify"]
+exclude: ["Missal1962", "astro", "node_modules", ".vscode", ".vs", ".netlify"]
