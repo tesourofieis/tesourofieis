@@ -1,0 +1,23 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^2.1.2",
+    "@types/jest": "^29.2.4",
+    "astro": "^1.6.7",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "ts-jest": "^29.0.3",
+    "vitest": "^0.25.8"
+  }
+}
