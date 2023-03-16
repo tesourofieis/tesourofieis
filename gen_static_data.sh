@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 start='2023-01-01'
-end='2033-01-01'
+end='2033-12-31'
 
 start=$(date -d $start +%Y-%m-%d)
 end=$(date -d $end +%-Y%m-%d)

@@ -1,149 +1,147 @@
 [
   {
     "info": {
-      "additional_info": [
-        "Paramentos brancos"
-      ], 
+      "additional_info": [],
       "colors": [
-        "w"
-      ], 
-      "date": "2028-05-03", 
-      "description": "\nComemora\u00e7\u00e3o S. Alexandre, Papa e M\u00e1rtir.", 
-      "id": null, 
-      "rank": 4, 
-      "supplements": [], 
-      "tempora": "Quarta-feira da 2\u00aa semana depois da P\u00e1scoa", 
-      "title": null
-    }, 
+        "r"
+      ],
+      "date": "2028-05-03",
+      "description": "",
+      "id": "sancti:05-03:2:r",
+      "rank": 2,
+      "supplements": [],
+      "tempora": "S. Jos\u00e9, Padroeiro da Santa Igreja e dos Moribundos",
+      "title": "A Inven\u00e7\u00e3o da Santa Cruz"
+    },
     "sections": [
       {
         "body": [
           [
-            "*Sl 32:5-6*\nA miseric\u00f3rdia do Senhor enche toda a terra, aleluia! A palavra do Senhor criou os c\u00e9us, aleluia, aleluia\n*Sl 32:1*\n\u00d3 justos, exultai de alegria e aclamai o Senhor; pois \u00e9 bom que os justos O louvem.\nGl\u00f3ria ao Pai.\nA miseric\u00f3rdia do Senhor enche toda a terra, aleluia! A palavra do Senhor criou os c\u00e9us, aleluia, aleluia", 
-            "*Ps 32:5-6*\nMiseric\u00f3rdia D\u00f3mini plena est terra, allel\u00faja: verbo D\u00f3mini c\u0153li firm\u00e1ti sunt, allel\u00faja, allel\u00faja.\n*Ps 32:1*\nExsult\u00e1te, justi, in D\u00f3mino: rectos decet collaud\u00e1tio.\nGl\u00f3ria Patri\u2026\nMiseric\u00f3rdia D\u00f3mini plena est terra, allel\u00faja: verbo D\u00f3mini c\u0153li firm\u00e1ti sunt, allel\u00faja, allel\u00faja."
+            "*Gal 6:14*\nConv\u00e9m que nos gloriemos na Cruz de nosso Senhor Jesus Cristo, pois Ele \u00e9 a nossa salva\u00e7\u00e3o, vida e ressurrei\u00e7\u00e3o: e por Ele fomos salvos e livres, aleluia, aleluia.\n*Sl 66:2*\nQue o Senhor tenha miseric\u00f3rdia de n\u00f3s e nos aben\u00e7oe; que o Senhor nos ilumine com o brilho que resplandece da sua face e se compade\u00e7a de n\u00f3s.\nGl\u00f3ria ao Pai.\nConv\u00e9m que nos gloriemos na Cruz de nosso Senhor Jesus Cristo, pois Ele \u00e9 a nossa salva\u00e7\u00e3o, vida e ressurrei\u00e7\u00e3o: e por Ele fomos salvos e livres, aleluia, aleluia.",
+            "*Gal 6:14.*\nNos autem glori\u00e1ri op\u00f3rtet in Cruce D\u00f3mini nostri Jesu Christi: in quo est salus, vita et resurr\u00e9ctio nostra: per quem salv\u00e1ti et liber\u00e1ti sumus, allel\u00faja, allel\u00faja.\n*Ps 66:2.*\nDeus misere\u00e1tur nostri, et bened\u00edcat nobis: ill\u00faminet vultum suum super nos, et misere\u00e1tur nostri.\nGl\u00f3ria Patri\u2026\nNos autem glori\u00e1ri op\u00f3rtet in Cruce D\u00f3mini nostri Jesu Christi: in quo est salus, vita et resurr\u00e9ctio nostra: per quem salv\u00e1ti et liber\u00e1ti sumus, allel\u00faja, allel\u00faja."
           ]
-        ], 
-        "id": "Introitus", 
+        ],
+        "id": "Introitus",
         "label": "Intr\u00f3ito"
-      }, 
+      },
       {
         "body": [
           [
-            "\u00d3 Deus, que pela humilha\u00e7\u00e3o do vosso Filho livrastes o mundo do abatimento em que jazia, concedei aos vossos fi\u00e9is a alegria perp\u00e9tua, a fim de que aqueles que livrastes da morte eterna se tornem participantes dos gozos sempiternos.\nPelo mesmo nosso Senhor...", 
-            "Deus, qui in F\u00edlii tui humilit\u00e1te jac\u00e9ntem mundum erex\u00edsti: fid\u00e9libus tuis perp\u00e9tuam conc\u00e9de l\u00e6t\u00edtiam; ut, quos perp\u00e9tu\u00e6 mortis eripu\u00edsti c\u00e1sibus, gaudiis f\u00e1cias p\u00e9rfrui sempit\u00e9rnis.\nPer e\u00fandem\u2026"
+            "\u00d3 Deus, que na memor\u00e1vel ocasi\u00e3o da Inven\u00e7\u00e3o da Cruz, donde nos veio a salva\u00e7\u00e3o, repetistes as maravilhas da vossa Paix\u00e3o, concedei-nos, pela virtude deste Lenho de vida, que alcancemos a gra\u00e7a da vida eterna.\n\u00d3 V\u00f3s, que viveis...",
+            "Deus, qui in pr\u00e6cl\u00e1ra salut\u00edfer\u00e6 Crucis Inventi\u00f3ne passi\u00f3nis tu\u00e6 mir\u00e1cula suscit\u00e1sti: conc\u00e9de; ut, vit\u00e1lis ligni pr\u00e9tio, \u00e6t\u00e9rn\u00e6 vit\u00e6 suffr\u00e1gia consequ\u00e1mur:\nQui vivis\u2026"
           ]
-        ], 
-        "id": "Oratio", 
+        ],
+        "id": "Oratio",
         "label": "Ora\u00e7\u00e3o"
-      }, 
+      },
       {
         "body": [
           [
-            "* Comemora\u00e7\u00e3o S. Alexandre, Papa e M\u00e1rtir *\n\u00d3 Deus, que na memor\u00e1vel ocasi\u00e3o da Inven\u00e7\u00e3o da Cruz, donde nos veio a salva\u00e7\u00e3o, repetistes as maravilhas da vossa Paix\u00e3o, concedei-nos, pela virtude deste Lenho de vida, que alcancemos a gra\u00e7a da vida eterna.\n\u00d3 V\u00f3s, que viveis...", 
-            "* Commemoratio Ss. Alexandri et Sociorum Martyrum *\nDeus, qui in pr\u00e6cl\u00e1ra salut\u00edfer\u00e6 Crucis Inventi\u00f3ne passi\u00f3nis tu\u00e6 mir\u00e1cula suscit\u00e1sti: conc\u00e9de; ut, vit\u00e1lis ligni pr\u00e9tio, \u00e6t\u00e9rn\u00e6 vit\u00e6 suffr\u00e1gia consequ\u00e1mur:\nQui vivis\u2026"
+            "*S.S. Alexandre I, Papa, Evencio e Teodulo, M\u00e1rtires e S. Juvenal, Bispo e Confessor*\nFazei, como Vos pedimos, \u00f3 Deus omnipotente, que, celebrando o natal de vossos santos Alexandre, Evnecio, Teodulo e Juvenal, sejamos libertados, por sua intercess\u00e3o, de todos os males iminentes.\nPor nosso Senhor...",
+            "*Pro Ss. Alexandro I Papa, Eventio et Theodulo Mm. ac Juvenale Ep. et Conf.*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui sanct\u00f3rum tu\u00f3rum Alex\u00e1ndri, Ev\u00e9ntii, Theod\u00fali atque Juven\u00e1lis natal\u00edtia c\u00f3limus; a cunctis malis immin\u00e9ntibus, e\u00f3rum intercessi\u00f3nibus, liber\u00e9mur.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Commemoratio Oratio", 
+        ],
+        "id": "Commemoratio Oratio",
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
-      }, 
+      },
       {
         "body": [
           [
-            "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Pedro.\n*1 Pe 2:21-25*\nCar\u00edssimos: Cristo padeceu por n\u00f3s, deixando-nos o exemplo, para que segu\u00edssemos as suas pegadas: Ele, que n\u00e3o cometeu pecado; Ele, em cuja boca n\u00e3o apareceu qualquer engano; Ele, que, mesmo injuriado, n\u00e3o correspondeu com inj\u00farias; Ele, que, maltratado n\u00e3o amea\u00e7ava, mas entregava-se a quem O julgava injustamente; Ele, que levou os nossos pecados no seu corpo sobre o madeiro da Cruz, a fim de que, sendo n\u00f3s mortos para os pecados, vivamos para a justi\u00e7a; Ele, em cujas chagas fomos curados. Pois v\u00f3s \u00e9reis como ovelhas desgarradas, mas agora estais convertidos ao pastor e ao bispo das vossas almas.", 
-            "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli\n*1 Petri 2:21-25*\nCar\u00edssimi: Christus passus est pro nobis, vobis rel\u00ednquens ex\u00e9mplum, ut sequ\u00e1mini vest\u00edgia ejus. Qui pecc\u00e1tum non fecit, nec inv\u00e9ntus est dolus in ore ejus: qui cum male dicer\u00e9tur, non maledic\u00e9bat: cum pater\u00e9tur, non comminab\u00e1tur: trad\u00e9bat autem judic\u00e1nti se inj\u00faste: qui pecc\u00e1ta nostra ipse p\u00e9rtulit in c\u00f3rpore suo super lignum: ut, pecc\u00e1tis m\u00f3rtui, just\u00edti\u00e6 viv\u00e1mus: cujus liv\u00f3re san\u00e1ti estis. Er\u00e1tis enim sicut oves err\u00e1ntes, sed conv\u00e9rsi estis nunc ad past\u00f3rem et ep\u00edscopum anim\u00e1rum vestr\u00e1rum."
+            "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Filipenses.\n*Fl 2:5-11*\nMeus irm\u00e3os: Tende os mesmos sentimentos que animaram Jesus Cristo, o qual, embora fosse Deus por natureza (e n\u00e3o era usurpa\u00e7\u00e3o o julgar-se igual a Deus), contudo humilhou-se a si pr\u00f3prio, reduzindo-se \u00e0 condi\u00e7\u00e3o de servo, tornando-se semelhante aos homens e reconhecido como homem pelas apar\u00eancias. Humilhou-se a si pr\u00f3prio, obedecendo at\u00e9 \u00e0 morte, e morte na cruz. Por isso Deus O exaltou e deu-Lhe um nome que \u00e9 superior a todo o nome (devemos genuflectir) para que ao ser proferido o nome de Jesus todos os joelhos se dobrem nos c\u00e9us, na terra e at\u00e9 nos infernos; e todas as l\u00ednguas confessem que nosso Senhor Jesus Cristo est\u00e1 na gl\u00f3ria de Deus Pai!",
+            "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Philippenses\n*Phil 2:5-11*\nFratres: Hoc enim sent\u00edte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rap\u00ednam arbitr\u00e1tus est esse se \u00e6qu\u00e1lem Deo: sed semet\u00edpsum exinan\u00edvit formam servi acc\u00edpiens, in similit\u00fadinem h\u00f3minum factus, et h\u00e1bitu inv\u00e9ntus ut homo. Humili\u00e1vit semet\u00edpsum, factus ob\u00e9diens usque ad mortem, mortem autem crucis. Propter quod et Deus exalt\u00e1vit illum: et don\u00e1vit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in n\u00f3mine Jesu omne genu flect\u00e1tur c\u0153l\u00e9stium, terr\u00e9strium et infern\u00f3rum: et omnis lingua confite\u00e1tur, quia D\u00f3minus Jesus Christus in gl\u00f3ria est Dei Patris."
           ]
-        ], 
-        "id": "Lectio", 
+        ],
+        "id": "Lectio",
         "label": "Ep\u00edstola"
-      }, 
+      },
       {
         "body": [
           [
-            "Aleluia, aleluia.\n*Lc 24:35*\nOs dois disc\u00edpulos reconheceram o Senhor Jesus pela frac\u00e7\u00e3o do p\u00e3o. Aleluia.\n*Jo 10:14*\nEu sou o bom Pastor; conhe\u00e7o as minhas ovelhas, e elas conhecem-me, aleluia.", 
-            "\n*Luc 24:35*\nCognov\u00e9runt disc\u00edpuli D\u00f3minum Jesum in fracti\u00f3ne panis. \n*Joannes 10:14*\nEgo sum pastor bonus: et cogn\u00f3sco oves meas, et cogn\u00f3scunt me me\u00e6. "
+            "Aleluia, aleluia.\n*Sl 95:10*\nAnunciai aos povos que o Senhor reinou pela Cruz. Aleluia.\nV. \u00d3 doce Lenho, \u00f3 doces cravos que suportais o peso dum fardo t\u00e3o doce! S\u00f3 v\u00f3s, \u00f3 Cruz, fostes digna de ter suspenso o Senhor, Rei dos c\u00e9us. Aleluia.",
+            "Allel\u00faja, allel\u00faja.\n*Ps 95:10*\nD\u00edcite in g\u00e9ntibus, quia D\u00f3minus regn\u00e1vit a ligno. Allel\u00faja.\nV. Dulce lignum, dulces clavos, d\u00falcia ferens p\u00f3ndera: qu\u00e6 sola fu\u00edsti digna sustin\u00e9re Regem c\u0153l\u00f3rum et D\u00f3minum. Allel\u00faja."
           ]
-        ], 
-        "id": "Graduale", 
+        ],
+        "id": "Graduale",
         "label": "Gradual"
-      }, 
+      },
       {
         "body": [
           [
-            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 10:11-16*\nNaquele tempo, disse Jesus aos fariseus: \u00abEu sou o bom Pastor. O bom Pastor d\u00e1 a vida pelas suas ovelhas. Por\u00e9m o mercen\u00e1rio, e o que n\u00e3o \u00e9 pastor e a quem as ovelhas n\u00e3o pertencem, v\u00ea vir o lobo, abandona as ovelhas e foge. Ent\u00e3o o lobo arrebata as ovelhas e dispersa-as. O mercen\u00e1rio procede assim, porque \u00e9 mercen\u00e1rio e porque n\u00e3o tem cuidado com as ovelhas. Eu sou o bom Pastor. Eu conhe\u00e7o as minhas ovelhas, e elas conhecem-me; assim como meu Pai me conhece, e Eu conhe\u00e7o meu Pai. Eu dou a vida pelas minhas ovelhas. Tenho ainda outras ovelhas que n\u00e3o pertencem a este aprisco. \u00c9 preciso que as atraia, e que ou\u00e7am a minha voz, para que n\u00e3o haja sen\u00e3o um s\u00f3 aprisco e um s\u00f3 pastor\u00bb.", 
-            "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem\n*Joann 10:11-16*\nIn illo t\u00e9mpore: Dixit Jesus pharis\u01fdis: Ego sum pastor bonus. Bonus pastor \u00e1nimam suam dat pro \u00f3vibus suis. Mercen\u00e1rius autem et qui non est pastor, cujus non sunt oves pr\u00f3pri\u00e6, videt lupum veni\u00e9ntem, et dim\u00edttit oves et fugit: et lupus rapit et disp\u00e9rgit oves: mercen\u00e1rius autem fugit, quia mercen\u00e1rius est et non p\u00e9rtinet ad eum de \u00f3vibus. Ego sum pastor bonus: et cogn\u00f3sco meas et cogn\u00f3scunt me me\u00e6. Sicut novit me Pater, et ego agn\u00f3sco Patrem, et \u00e1nimam meam pono pro \u00f3vibus meis. Et \u00e1lias oves h\u00e1beo, qu\u00e6 non sunt ex hoc ov\u00edli: et illas op\u00f3rtet me add\u00facere, et vocem meam \u00e1udient, et fiet unum ov\u00edle et unus pastor. "
+            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 3:1-15*\nNaquele tempo, havia entre os judeus um homem, chamado Nicodemos, que era um dos pr\u00edncipes dos judeus. Em uma noite veio ele encontrar Jesus, dizendo-Lhe: \u00abMestre, sabemos que viestes da parte de Deus, como um Doutor, pois ningu\u00e9m pode fazer os milagres, que fazeis, se Deus n\u00e3o estiver com ele\u00bb. Jesus disse-lhe: \u00abEm verdade, em verdade vos digo: Ningu\u00e9m poder\u00e1 ver o reino dos c\u00e9us, se n\u00e3o nascer novamente\u00bb. Nicodemos perguntou a Jesus: \u00abComo pode um homem nascer, sendo j\u00e1 velho? Pode ele, porventura, entrar segunda vez no seio de sua m\u00e3e e renascer?\u00bb. Jesus respondeu: \u00abEm verdade, em verdade vos digo: Se algu\u00e9m n\u00e3o renascer na \u00e1gua e no Esp\u00edrito Santo, n\u00e3o pode entrar no reino de Deus. O que nasceu da carne, \u00e9 carne; e o que nasceu do esp\u00edrito, \u00e9 esp\u00edrito. N\u00e3o vos admireis, pois, de que vos houvesse dito: \u00e9 necess\u00e1rio que nas\u00e7ais outra vez. O vento sopra onde lhe parece, e ouvis o seu som; mas n\u00e3o sabeis donde vem, nem para onde vai. O mesmo acontece com qualquer que nasce do Esp\u00edrito\u00bb. E Nicodemos respondeu: \u00abComo poder\u00e1 isso acontecer?\u00bb. Jesus retorquiu: \u00abSois doutor em Israel e ignorais estas coisas? Em verdade, em verdade vos digo: Dizemos aquilo que sabemos e damos testemunho daquilo que vimos; mas n\u00e3o aceitais o nosso testemunho. Se me n\u00e3o acreditais, quando falo das coisas terrenas, como me acreditareis, falando-vos das coisas do c\u00e9u? Ningu\u00e9m subiu ao c\u00e9u, sen\u00e3o O que desceu do c\u00e9u: o Filho do homem, que est\u00e1 no c\u00e9u. Assim como Mois\u00e9s levantou a serpente no deserto, assim tamb\u00e9m \u00e9 necess\u00e1rio que o Filho do homem seja levantado, a fim de que quem acreditar n\u2019Ele n\u00e3o pere\u00e7a, mas alcance a vida eterna\u00bb.",
+            "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem\n*Joannes 3:1-15*\nIn illo t\u00e9mpore: Erat homo ex pharis\u01fdis, Nicod\u00e9mus n\u00f3mine, princeps Jud\u00e6\u00f3rum. Hic venit ad Jesum nocte et dixit ei: Rabbi, scimus, quia a Deo ven\u00edsti mag\u00edster; nemo enim potest h\u00e6c signa f\u00e1cere, qu\u00e6 tu facis, nisi f\u00faerit Deus cum eo. Resp\u00f3ndit Jesus et dixit ei: Amen, amen, dico tibi, nisi quis ren\u00e1tus f\u00faerit d\u00e9nuo, non potest vid\u00e9re regnum Dei. Dicit ad eum Nicod\u00e9mus: Qu\u00f3modo potest homo nasci, cum sit senex? Numquid potest in ventrem matris su\u00e6 iter\u00e1to intro\u00edre et ren\u00e1sci? Resp\u00f3ndit Jesus: Amen, amen, dico tibi, nisi quis ren\u00e1tus f\u00faerit ex aqua et Sp\u00edritu Sancto, non potest intro\u00edre in regnum Dei. Quod natum est ex carne, caro est: et quod natum est ex sp\u00edritu, sp\u00edritus est. Non mir\u00e9ris, quia dixi tibi: op\u00f3rtet vos nasci d\u00e9nuo. Sp\u00edritus, ubi vult, spirat, et vocem ejus audis, sed nescis, unde v\u00e9niat aut quo vadat: sic est omnis, qui natus est ex sp\u00edritu. Resp\u00f3ndit Nicod\u00e9mus et dixit ei: Qu\u00f3modo possunt h\u00e6c f\u00ederi? Resp\u00f3ndit Jesus et dixit ei: Tu es mag\u00edster in Isra\u00ebl, et h\u00e6c ign\u00f3ras? Amen, amen, dico tibi, quia, quod scimus, l\u00f3quimur, et quod v\u00eddimus, test\u00e1mur, et testim\u00f3nium nostrum non acc\u00edpitis. Si terr\u00e9na dixi vobis et non cr\u00e9ditis: qu\u00f3modo, si d\u00edxero vobis c\u0153l\u00e9stia, cred\u00e9tis? Et nemo asc\u00e9ndit in c\u0153lum, nisi qui desc\u00e9ndit de c\u0153lo, F\u00edlius h\u00f3minis, qui est in c\u0153lo. Et sicut M\u00f3yses exalt\u00e1vit serp\u00e9ntem in des\u00e9rto: ita exalt\u00e1ri op\u00f3rtet F\u00edlium h\u00f3minis, ut omnis, qui credit in ipsum, non p\u00e9reat, sed h\u00e1beat vitam \u00e6t\u00e9rnam."
           ]
-        ], 
-        "id": "Evangelium", 
+        ],
+        "id": "Evangelium",
         "label": "Evangelho"
-      }, 
+      },
       {
         "body": [
           [
-            "*Sl 62:2; 62:5*\n\u00d3 Deus, \u00f3 meu Deus, a V\u00f3s recorro desde manh\u00e3: E erguerei as minhas m\u00e3os em honra do vosso nome, aleluia.", 
-            "*Ps 62:2; 62:5*\nDeus, Deus meus, ad te de luce v\u00edgilo: et in n\u00f3mine tuo lev\u00e1bo manus meas, allel\u00faja."
+            "*Sl 117:16; 117:17*\nA dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me. N\u00e3o morrerei, mas viverei e publicarei as obras do Senhor. Aleluia.",
+            "*Ps 117:16; 117:17*\nD\u00e9xtera D\u00f3mini fecit virt\u00fatem, d\u00e9xtera D\u00f3mini exalt\u00e1vit me: non m\u00f3riar, sed vivam et narr\u00e1bo \u00f3pera D\u00f3mini, allel\u00faja."
           ]
-        ], 
-        "id": "Offertorium", 
+        ],
+        "id": "Offertorium",
         "label": "Ofert\u00f3rio"
-      }, 
+      },
       {
         "body": [
           [
-            "Senhor, que esta obla\u00e7\u00e3o sagrada nos alcance sempre a vossa salutar b\u00ean\u00e7\u00e3o, a fim de que produza os efeitos do myst\u00e9rio que ela renova.\nPor nosso Senhor...", 
-            "Benedicti\u00f3nem nobis, D\u00f3mine, c\u00f3nferat salut\u00e1rem sacra semper obl\u00e1tio: ut, quod agit myst\u00e9rio, virt\u00fate perf\u00edciat.\nPer Dominum\u2026"
+            "Aplacai-Vos, Senhor, e dignai-Vos olhar para esta v\u00edtima, que imolamos em vossa honra, a fim de que por ela sejamos preservados de todos os males das guerras e pelo estandarte da Santa Cruz do vosso Filho ven\u00e7amos as ins\u00eddias dos nossos poderosos inimigos, ficando em seguran\u00e7a sob a vossa protec\u00e7\u00e3o.\nPelo mesmo nosso Senhor...",
+            "Sacrif\u00edcium, D\u00f3mine, quod tibi immol\u00e1mus, plac\u00e1tus int\u00e9nde: ut ab omni nos \u00e9ruat bell\u00f3rum nequ\u00edtia, et per vex\u00edllum sanct\u00e6 Crucis F\u00edlii tui, ad conter\u00e9ndas potest\u00e1tis adv\u00e9rs\u00e6 ins\u00eddias, nos in tu\u00e6 protecti\u00f3nis securit\u00e1te const\u00edtuat.\nPer e\u00fandem\u2026"
           ]
-        ], 
-        "id": "Secreta", 
+        ],
+        "id": "Secreta",
         "label": "Secreta"
-      }, 
+      },
       {
         "body": [
           [
-            "* Comemora\u00e7\u00e3o S. Alexandre, Papa e M\u00e1rtir *\nAplacai-Vos, Senhor, e dignai-Vos olhar para esta v\u00edtima, que imolamos em vossa honra, a fim de que por ela sejamos preservados de todos os males das guerras e pelo estandarte da Santa Cruz do vosso Filho ven\u00e7amos as ins\u00eddias dos nossos poderosos inimigos, ficando em seguran\u00e7a sob a vossa protec\u00e7\u00e3o.\nPelo mesmo nosso Senhor...", 
-            "* Commemoratio Ss. Alexandri et Sociorum Martyrum *\nSacrif\u00edcium, D\u00f3mine, quod tibi immol\u00e1mus, plac\u00e1tus int\u00e9nde: ut ab omni nos \u00e9ruat bell\u00f3rum nequ\u00edtia, et per vex\u00edllum sanct\u00e6 Crucis F\u00edlii tui, ad conter\u00e9ndas potest\u00e1tis adv\u00e9rs\u00e6 ins\u00eddias, nos in tu\u00e6 protecti\u00f3nis securit\u00e1te const\u00edtuat.\nPer e\u00fandem\u2026"
+            "*S.S. Alexandre I, Papa, Evencio e Teodulo, M\u00e1rtires e S. Juvenal, Bispo e Confessor*\nSobre estas h\u00f3stias, como Vos pedimos, Senhor, copiosa b\u00ean\u00e7\u00e3o que opere piedosamente a nossa santifica\u00e7\u00e3o e nos alegre na solenidade dos vossos Santos.\nPor nosso Senhor...",
+            "*Pro Ss. Alexandro I Papa, Eventio et Theodulo Mm. ac Juvenale Ep. et Conf.*\nSuper has h\u00f3stias, qu\u01fdsumus, D\u00f3mine, bened\u00edctio copi\u00f3sa desc\u00e9ndat: qu\u00e6 et sanctificati\u00f3nem nobis clem\u00e9nter oper\u00e1tur, et de Sanct\u00f3rum nos sollemnit\u00e1te l\u00e6t\u00edficet.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Commemoratio Secreta", 
+        ],
+        "id": "Commemoratio Secreta",
         "label": "Comemora\u00e7\u00e3o Secreta"
-      }, 
+      },
       {
         "body": [
           [
-            "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
-            "*Paschalis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te quidem, D\u00f3mine, omni t\u00e9mpore, sed in hoc pot\u00edssimum (sed tempore Passionis)\nhac pot\u00edssimum nocte (sed octava Pasch\u00e6)\nhac pot\u00edssimum die glori\u00f3sius pr\u00e6dic\u00e1re, cum Pascha nostrum immol\u00e1tus est Christus. Ipse enim verus est Agnus, qui \u00e1bstulit pecc\u00e1ta mundi. Qui mortem nostram mori\u00e9ndo destr\u00faxit et vitam resurg\u00e9ndo repar\u00e1vit. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:"
+            "*do S. Jos\u00e9*\n\u00c9 verdadeiramente digno e justo, racional e salutar dar-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus: e na festividade do bem-aventurado Jos\u00e9 devemos proclamar, como conv\u00e9m, as vossas grandezas, bendizer-Vos e louvar-Vos. \u00c9 ele o homem justo, que destinastes para esposo da Virgem M\u00e3e de Deus; \u00e9 ele o servo fiel e prudente, que colocastes na Sagrada Fam\u00edlia, a fim de que guardasse, como se fora pai, o vosso Filho Unig\u00e9nito, Jesus Cristo, nosso Senhor, concebido por opera\u00e7\u00e3o do Esp\u00edrito Santo; pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades se prostram reverentes, os C\u00e9us e os bem-aventurados Serafins a celebram em comuns transportes. Dignai-Vos permitir, Vos suplicamos, que as nossas vozes se unam \u00e0s deles, dizendo em suplicante confiss\u00e3o:",
+            "*de S. Joseph*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Venerati\u00f3ne* be\u00e1ti Joseph d\u00e9bitis magnific\u00e1re pr\u00e6c\u00f3niis, bened\u00edcere et pr\u00e6dic\u00e1re. Qui et vir justus, a te De\u00edpar\u00e6 V\u00edrgini Sponsus est datus: et fid\u00e9lis servus ac prudens, super Fam\u00edliam tuam est constit\u00fatus: ut Unig\u00e9nitum tuum, Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9ptum, paterna vice custod\u00edret, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. C\u00e6li c\u00e6lor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:"
           ]
-        ], 
-        "id": "Prefatio", 
+        ],
+        "id": "Prefatio",
         "label": "Pref\u00e1cio"
-      }, 
+      },
       {
         "body": [
           [
-            "*Jo 10:14*\nEu sou o bom Pastor, aleluia; conhe\u00e7o as minhas ovelhas, e elas conhecem-me, aleluia.", 
-            "*Joannes 10:14*\nEgo sum pastor bonus, allel\u00faja: et cogn\u00f3sco oves meas, et cogn\u00f3scunt me me\u00e6, allel\u00faja, allel\u00faja."
+            "Pelo sinal da Santa Cruz, livrai-nos, \u00f3 nosso Deus, de nossos inimigos. Aleluia.",
+            "Per signum Crucis de inim\u00edcis nostris l\u00edbera nos, Deus noster, allel\u00faja."
           ]
-        ], 
-        "id": "Communio", 
+        ],
+        "id": "Communio",
         "label": "Com\u00fanio"
-      }, 
+      },
       {
         "body": [
           [
-            "\u00d3 Deus omnipotente, Vos suplicamos, permiti que, havendo alcan\u00e7ado de V\u00f3s a gra\u00e7a da vida nova, sempre nos gloriemos com este dom, que nos dispensais.\nPor nosso Senhor...", 
-            "Pr\u00e6sta nobis, qu\u01fdsumus, omn\u00edpotens Deus: ut, vivificati\u00f3nis tu\u00e6 gr\u00e1tiam consequ\u00e9ntes, in tuo semper m\u00fanere glori\u00e9mur.\nPer Dominum\u2026"
+            "Saciados com o alimento celestial e confortados com a bebida espiritual, Vos suplicamos, \u00f3 Deus omnipotente, defendei da mal\u00edcia do inimigo aqueles que quisestes que triunfassem pelo sagrado Lenho da Cruz de vosso Filho, que \u00e9 a arma de justi\u00e7a que salvou o mundo.\nPelo mesmo nosso Senhor...",
+            "Repl\u00e9ti alim\u00f3nia c\u0153l\u00e9sti et spirit\u00e1li p\u00f3culo recre\u00e1ti, qu\u01fdsumus, omn\u00edpotens Deus: ut ab hoste mal\u00edgno def\u00e9ndas, quos per lignum sanct\u00e6 Crucis F\u00edlii tui, arma just\u00edti\u00e6 pro sal\u00fate mundi, triumph\u00e1re juss\u00edsti.\nPer e\u00fandem\u2026"
           ]
-        ], 
-        "id": "Postcommunio", 
+        ],
+        "id": "Postcommunio",
         "label": "Postcom\u00fanio"
-      }, 
+      },
       {
         "body": [
           [
-            "* Comemora\u00e7\u00e3o S. Alexandre, Papa e M\u00e1rtir *\nSaciados com o alimento celestial e confortados com a bebida espiritual, Vos suplicamos, \u00f3 Deus omnipotente, defendei da mal\u00edcia do inimigo aqueles que quisestes que triunfassem pelo sagrado Lenho da Cruz de vosso Filho, que \u00e9 a arma de justi\u00e7a que salvou o mundo.\nPelo mesmo nosso Senhor...", 
-            "* Commemoratio Ss. Alexandri et Sociorum Martyrum *\nRepl\u00e9ti alim\u00f3nia c\u0153l\u00e9sti et spirit\u00e1li poculo recre\u00e1ti, qu\u01fdsumus, omn\u00edpotens Deus: ut ab hoste mal\u00edgno def\u00e9ndas, quos per lignum sanct\u00e6 Crucis F\u00edlii tui, arma just\u00edti\u00e6 pro sal\u00fate mundi, triumph\u00e1re juss\u00edsti.\nPer e\u00fandem\u2026"
+            "*S.S. Alexandre I, Papa, Evencio e Teodulo, M\u00e1rtires e S. Juvenal, Bispo e Confessor*\nRestaurados pela participa\u00e7\u00e3o do dom sagrado, n\u00f3s Vos pedimos, Senhor nosso Deus, que, pela intercess\u00e3o de vossos Santos Alexandre, Evencio, Teodulo e Juvenal, cuja solenidade hoje celebramos, experimentemos os seus efeitos.\nPor nosso Senhor...",
+            "*Pro Ss. Alexandro I Papa, Eventio et Theodulo Mm. ac Juvenale Ep. et Conf.*\nRef\u00e9cti participati\u00f3ne m\u00faneris sacri, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, cujus exs\u00e9quimur cultum, interced\u00e9ntibus sanctis tuis Alex\u00e1ndro, Ev\u00e9ntio, Theod\u00falo et Juven\u00e1le, senti\u00e1mus eff\u00e9ctum.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Commemoratio Postcommunio", 
+        ],
+        "id": "Commemoratio Postcommunio",
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]

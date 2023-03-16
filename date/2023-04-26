@@ -2,119 +2,149 @@
   {
     "info": {
       "additional_info": [
-        "Paramentos vermelhos"
-      ], 
+        "Paramentos brancos"
+      ],
       "colors": [
-        "r"
-      ], 
-      "date": "2023-04-26", 
-      "description": "", 
-      "id": "sancti:04-26:3:r", 
-      "rank": 3, 
-      "supplements": [], 
-      "tempora": "Quarta-feira da 2\u00aa semana depois da P\u00e1scoa", 
-      "title": "S.S. Cleto e Marcelino, Papas e M\u00e1rtires"
-    }, 
+        "w"
+      ],
+      "date": "2023-04-26",
+      "description": "\nComemora\u00e7\u00e3o S.S. Cleto e Marcelino, Papas e M\u00e1rtires.",
+      "id": "tempora:Pasc2-3:2:w",
+      "rank": 2,
+      "supplements": [],
+      "tempora": null,
+      "title": "S. Jos\u00e9, Padroeiro da Santa Igreja e dos Moribundos"
+    },
     "sections": [
       {
         "body": [
           [
-            "*Jo 21:15-17*\nSe me amas, Sim\u00e3o-Pedro, apascenta os meus cordeiros, apascenta as minhas ovelhas.\n*Sl 29:2*\nLouvar-Vos-ei, Senhor, pois me acolhestes e n\u00e3o permitistes que meus inimigos se rissem de mim.\nGl\u00f3ria ao Pai.\nSe me amas, Sim\u00e3o-Pedro, apascenta os meus cordeiros, apascenta as minhas ovelhas.", 
-            "*Joannes 21:15-17*\nSi d\u00edligis me, Simon Petre, pasce agnos meos, pasce oves meas.\n*Ps 29:2*\nExalt\u00e1bo te, D\u00f3mine, qu\u00f3niam suscep\u00edsti me, nec delect\u00e1sti inim\u00edcos meos super me.\nGl\u00f3ria Patri\u2026\nSi d\u00edligis me, Simon Petre, pasce agnos meos, pasce oves meas."
+            "*Sl 32:5-6*\nA miseric\u00f3rdia do Senhor enche toda a terra, aleluia! A palavra do Senhor criou os c\u00e9us, aleluia, aleluia\n*Sl 32:1*\n\u00d3 justos, exultai de alegria e aclamai o Senhor; pois \u00e9 bom que os justos O louvem.\nGl\u00f3ria ao Pai.\nA miseric\u00f3rdia do Senhor enche toda a terra, aleluia! A palavra do Senhor criou os c\u00e9us, aleluia, aleluia",
+            "*Ps 32:5-6*\nMiseric\u00f3rdia D\u00f3mini plena est terra, allel\u00faja: verbo D\u00f3mini c\u0153li firm\u00e1ti sunt, allel\u00faja, allel\u00faja.\n*Ps 32:1*\nExsult\u00e1te, justi, in D\u00f3mino: rectos decet collaud\u00e1tio.\nGl\u00f3ria Patri\u2026\nMiseric\u00f3rdia D\u00f3mini plena est terra, allel\u00faja: verbo D\u00f3mini c\u0153li firm\u00e1ti sunt, allel\u00faja, allel\u00faja."
           ]
-        ], 
-        "id": "Introitus", 
+        ],
+        "id": "Introitus",
         "label": "Intr\u00f3ito"
-      }, 
+      },
       {
         "body": [
           [
-            "\u00d3 Pastor eterno, atendei prop\u00edcio ao vosso rebanho; e guardai-o com vossa perp\u00e9tua protec\u00e7\u00e3o por intercess\u00e3o do bem-aventurado N. (Vosso M\u00e1rtir e) Sumo Pont\u00edfice, o qual escolhestes como pastor de toda a Igreja.\nPor nosso Senhor...", 
-            "Gregem tuum, Pastor \u00e6t\u00e9rne, plac\u00e1tus int\u00e9nde: et, per be\u00e1tum N. (M\u00e1rtyrem tuum atque) Summum Pont\u00edficem, perp\u00e9tua protecti\u00f3ne cust\u00f3di; quem tot\u00edus Eccl\u00e9si\u00e6 pr\u00e6stit\u00edsti esse past\u00f3rem.\nPer Dominum\u2026"
+            "\u00d3 Deus, que pela humilha\u00e7\u00e3o do vosso Filho livrastes o mundo do abatimento em que jazia, concedei aos vossos fi\u00e9is a alegria perp\u00e9tua, a fim de que aqueles que livrastes da morte eterna se tornem participantes dos gozos sempiternos.\nPelo mesmo nosso Senhor...",
+            "Deus, qui in F\u00edlii tui humilit\u00e1te jac\u00e9ntem mundum erex\u00edsti: fid\u00e9libus tuis perp\u00e9tuam conc\u00e9de l\u00e6t\u00edtiam; ut, quos perp\u00e9tu\u00e6 mortis eripu\u00edsti c\u00e1sibus, g\u00e1udiis f\u00e1cias p\u00e9rfrui sempit\u00e9rnis.\nPer e\u00fandem\u2026"
           ]
-        ], 
-        "id": "Oratio", 
+        ],
+        "id": "Oratio",
         "label": "Ora\u00e7\u00e3o"
-      }, 
+      },
       {
         "body": [
           [
-            "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Pedro.\n*1 P 5:1-4; 5:10-11*\nAos sacerdotes que est\u00e3o entre v\u00f3s rogo eu, sacerdote como eles e testemunha dos sofrimentos de Cristo e que tomarei parte com eles naquela gl\u00f3ria que ser\u00e1 manifestada um dia: apascentai o rebanho de Deus que vos est\u00e1 confiado, cuidai dele n\u00e3o constrangidos, mas de boa vontade, segundo Deus; n\u00e3o por amor de lucro vil, mas por dedica\u00e7\u00e3o; n\u00e3o como para dominar sobre a heran\u00e7a (do Senhor), mas fazendo-vos modelos do rebanho. E quando aparecer o pr\u00edncipe dos pastores, recebereis a coroa imarcesc\u00edvel da gl\u00f3ria. Foi Deus de toda a gra\u00e7a que nos chamou em Jesus Cristo \u00e0 sua eterna gl\u00f3ria; e, depois de terdes sofrido um pouco, vos aperfei\u00e7oar\u00e1, fortificar\u00e1 e consolidar\u00e1. A Ele: gl\u00f3ria e imp\u00e9rio pelos s\u00e9culos dos s\u00e9culos. Amen.", 
-            "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli.\n*1 Pet 5:1-4; 5:10-11.*\nCar\u00edssimi: Seni\u00f3res, qui in vobis sunt, obs\u00e9cro cons\u00e9nior et testis Christi passi\u00f3num, qui et ejus, qu\u00e6 in fut\u00faro revel\u00e1nda est, gl\u00f3ri\u00e6 communic\u00e1tor: p\u00e1scite qui in vobis est gregem Dei, provid\u00e9ntes non co\u00e1cte, sed spont\u00e1nee sec\u00fandum Deum, neque turpis lucri gr\u00e1tia, sed volunt\u00e1rie; neque ut domin\u00e1ntes in cleris, sed forma facti gregis ex \u00e1nimo. Et, cum app\u00e1ruerit princeps past\u00f3rum, percipi\u00e9tis immarcesc\u00edbilem gl\u00f3ri\u00e6 cor\u00f3nam. Deus autem omnis gr\u00e1ti\u00e6, qui voc\u00e1vit nos in \u00e6t\u00e9rnam suam gl\u00f3riam in Christo Jesu, m\u00f3dicum passos ipse perf\u00edciet, confirm\u00e1bit solidab\u00edtque. Ipsi gl\u00f3ria et imp\u00e9rium in s\u01fdcula s\u00e6cul\u00f3rum. Amen."
+            "* Comemora\u00e7\u00e3o S.S. Cleto e Marcelino, Papas e M\u00e1rtires *\n\u00d3 Pastor eterno, atendei prop\u00edcio ao vosso rebanho; e guardai-o com vossa perp\u00e9tua protec\u00e7\u00e3o por intercess\u00e3o do bem-aventurado N. (Vosso M\u00e1rtir e) Sumo Pont\u00edfice, o qual escolhestes como pastor de toda a Igreja.\nPor nosso Senhor...",
+            "* Commemoratio SS. Cleti et Marcellini Summorum Pontificum et Martyrum *\nGregem tuum, Pastor \u00e6t\u00e9rne, plac\u00e1tus int\u00e9nde: et, per be\u00e1tum N. (M\u00e1rtyrem tuum atque) Summum Pont\u00edficem, perp\u00e9tua protecti\u00f3ne cust\u00f3di; quem tot\u00edus Eccl\u00e9si\u00e6 pr\u00e6stit\u00edsti esse past\u00f3rem.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Lectio", 
+        ],
+        "id": "Commemoratio Oratio",
+        "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
+      },
+      {
+        "body": [
+          [
+            "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Pedro.\n*1 Pe 2:21-25*\nCar\u00edssimos: Cristo padeceu por n\u00f3s, deixando-nos o exemplo, para que segu\u00edssemos as suas pegadas: Ele, que n\u00e3o cometeu pecado; Ele, em cuja boca n\u00e3o apareceu qualquer engano; Ele, que, mesmo injuriado, n\u00e3o correspondeu com inj\u00farias; Ele, que, maltratado n\u00e3o amea\u00e7ava, mas entregava-se a quem O julgava injustamente; Ele, que levou os nossos pecados no seu corpo sobre o madeiro da Cruz, a fim de que, sendo n\u00f3s mortos para os pecados, vivamos para a justi\u00e7a; Ele, em cujas chagas fomos curados. Pois v\u00f3s \u00e9reis como ovelhas desgarradas, mas agora estais convertidos ao pastor e ao bispo das vossas almas.",
+            "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli\n*1 Petri 2:21-25*\nCar\u00edssimi: Christus passus est pro nobis, vobis rel\u00ednquens ex\u00e9mplum, ut sequ\u00e1mini vest\u00edgia ejus. Qui pecc\u00e1tum non fecit, nec inv\u00e9ntus est dolus in ore ejus: qui cum maledicer\u00e9tur, non maledic\u00e9bat: cum pater\u00e9tur, non comminab\u00e1tur: trad\u00e9bat autem judic\u00e1nti se inj\u00faste: qui pecc\u00e1ta nostra ipse p\u00e9rtulit in c\u00f3rpore suo super lignum: ut, pecc\u00e1tis m\u00f3rtui, just\u00edti\u00e6 viv\u00e1mus: cujus liv\u00f3re san\u00e1ti estis. Er\u00e1tis enim sicut oves err\u00e1ntes, sed conv\u00e9rsi estis nunc ad past\u00f3rem et ep\u00edscopum anim\u00e1rum vestr\u00e1rum."
+          ]
+        ],
+        "id": "Lectio",
         "label": "Ep\u00edstola"
-      }, 
+      },
       {
         "body": [
           [
-            "Aleluia, aleluia.\n*Mt 16:18*\nV. Tu \u00e9s Pedro, e sobre esta pedra edificarei a minha Igreja. Aleluia.\n*Sl 44:17-18*\nV\u00f3s os constitu\u00edstes pr\u00edncipes em toda a terra: e eles perpetuar\u00e3o, Senhor, o vosso nome. Aleluia.", 
-            "Allel\u00faja, allel\u00faja\n*Matt 16:18*\nTu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam\n*Ps 44:17-18.*\nConst\u00edtues eos pr\u00edncipes super omnem terram: m\u00e9mores erunt n\u00f3minis tui, D\u00f3mine. Allel\u00faja."
+            "Aleluia, aleluia.\n*Lc 24:35*\nOs dois disc\u00edpulos reconheceram o Senhor Jesus pela frac\u00e7\u00e3o do p\u00e3o. Aleluia.\n*Jo 10:14*\nEu sou o bom Pastor; conhe\u00e7o as minhas ovelhas, e elas conhecem-me, aleluia.",
+            "\n*Luc 24:35*\nCognov\u00e9runt disc\u00edpuli D\u00f3minum Jesum in fracti\u00f3ne panis. \n*Joannes 10:14*\nEgo sum pastor bonus: et cogn\u00f3sco oves meas, et cogn\u00f3scunt me me\u00e6. "
           ]
-        ], 
-        "id": "GradualeP", 
+        ],
+        "id": "Graduale",
         "label": "Gradual"
-      }, 
+      },
       {
         "body": [
           [
-            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus.\n*Mt 16:13-19*\nNaquele tempo, foi Jesus para a regi\u00e3o de Cesareia, de Filipe, e interrogou os seus disc\u00edpulos, dizendo-lhes: \u00abQuem dizem os homens que \u00e9 o Filho do homem?\u00bb. Eles responderam: \u00abUns dizem que \u00e9 Jo\u00e3o Baptista, outros que \u00e9 Elias e outros que \u00e9 Jeremias ou algum dos Profetas\u00bb. Jesus disse-lhes: \u00abE quem dizeis v\u00f3s que eu sou?\u00bb. Respondendo, Sim\u00e3o-Pedro disse: \u00abTu \u00e9s Cristo, Filho de Deus vivo!\u00bb. E Jesus disse-lhe: \u00abBem-aventurado \u00e9s tu, Sim\u00e3o Barjona, porque n\u00e3o foi a carne nem o sangue que te revelaram o que dizes, mas meu Pai, que est\u00e1 nos c\u00e9us. E Eu digo-te: tu \u00e9s Pedro, e sobre esta pedra edificarei a minha Igreja; e as portas do inferno n\u00e3o prevalecer\u00e3o contra ela. Eu te darei as chaves do reino dos c\u00e9us; e tudo o que ligares sobre a terra ser\u00e1 ligado tamb\u00e9m nos c\u00e9us; e tudo o que desatares sobre a terra ser\u00e1 desatado tamb\u00e9m nos c\u00e9us\u00bb.", 
-            "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 16:13-19*\nIn illo t\u00e9mpore: Venit Jesus in partes C\u00e6sar\u00e9\u00e6 Phil\u00edppi, et interrog\u00e1bat disc\u00edpulos suos, dicens: Quem dicunt h\u00f3mines esse F\u00edlium h\u00f3minis? At illi dix\u00e9runt: Alii Jo\u00e1nnem Bapt\u00edstam, alii autem El\u00edam, alii vero Jerem\u00edam aut unum ex proph\u00e9tis. Dicit illis Jesus: Vos autem quem me esse d\u00edcitis? Resp\u00f3ndens Simon Petrus, dixit: Tu es Christus, F\u00edlius Dei vivi. Resp\u00f3ndens autem Jesus, dixit ei: Be\u00e1tus es, Simon Bar Jona: quia caro et sanguis non revel\u00e1vit tibi, sed Pater meus, qui in c\u0153lis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam, et port\u00e6 \u00ednferi non pr\u00e6val\u00e9bunt adv\u00e9rsus eam. Et tibi dabo claves regni c\u0153l\u00f3rum. Et quodc\u00famque lig\u00e1veris super terram, erit lig\u00e1tum et in c\u0153lis: et quodc\u00famque s\u00f3lveris super terram, erit sol\u00fatum et in c\u0153lis."
+            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 10:11-16*\nNaquele tempo, disse Jesus aos fariseus: \u00abEu sou o bom Pastor. O bom Pastor d\u00e1 a vida pelas suas ovelhas. Por\u00e9m o mercen\u00e1rio, e o que n\u00e3o \u00e9 pastor e a quem as ovelhas n\u00e3o pertencem, v\u00ea vir o lobo, abandona as ovelhas e foge. Ent\u00e3o o lobo arrebata as ovelhas e dispersa-as. O mercen\u00e1rio procede assim, porque \u00e9 mercen\u00e1rio e porque n\u00e3o tem cuidado com as ovelhas. Eu sou o bom Pastor. Eu conhe\u00e7o as minhas ovelhas, e elas conhecem-me; assim como meu Pai me conhece, e Eu conhe\u00e7o meu Pai. Eu dou a vida pelas minhas ovelhas. Tenho ainda outras ovelhas que n\u00e3o pertencem a este aprisco. \u00c9 preciso que as atraia, e que ou\u00e7am a minha voz, para que n\u00e3o haja sen\u00e3o um s\u00f3 aprisco e um s\u00f3 pastor\u00bb.",
+            "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem\n*Joann 10:11-16*\nIn illo t\u00e9mpore: Dixit Jesus pharis\u01fdis: Ego sum pastor bonus. Bonus pastor \u00e1nimam suam dat pro \u00f3vibus suis. Mercen\u00e1rius autem et qui non est pastor, cujus non sunt oves pr\u00f3pri\u00e6, videt lupum veni\u00e9ntem, et dim\u00edttit oves et fugit: et lupus rapit et disp\u00e9rgit oves: mercen\u00e1rius autem fugit, quia mercen\u00e1rius est et non p\u00e9rtinet ad eum de \u00f3vibus. Ego sum pastor bonus: et cogn\u00f3sco meas et cogn\u00f3scunt me me\u00e6. Sicut novit me Pater, et ego agn\u00f3sco Patrem, et \u00e1nimam meam pono pro \u00f3vibus meis. Et \u00e1lias oves h\u00e1beo, qu\u00e6 non sunt ex hoc ov\u00edli: et illas op\u00f3rtet me add\u00facere, et vocem meam \u00e1udient, et fiet unum ov\u00edle et unus pastor. "
           ]
-        ], 
-        "id": "Evangelium", 
+        ],
+        "id": "Evangelium",
         "label": "Evangelho"
-      }, 
+      },
       {
         "body": [
           [
-            "*Jr 1:9-10*\nEis que pus as minhas palavras na tua boca: eis que te constitu\u00ed sobre os povos e sobre os reinos para arrancares e destru\u00edres, e para edificares e plantares.", 
-            "*Jer 1:9-10*\nEcce, dedi verba mea in ore tuo: ecce, const\u00edtui te super gentes et super regna, ut ev\u00e9llas et destruas, et \u00e6d\u00edfices et plantes."
+            "*Sl 62:2; 62:5*\n\u00d3 Deus, \u00f3 meu Deus, a V\u00f3s recorro desde manh\u00e3: E erguerei as minhas m\u00e3os em honra do vosso nome, aleluia.",
+            "*Ps 62:2; 62:5*\nDeus, Deus meus, ad te de luce v\u00edgilo: et in n\u00f3mine tuo lev\u00e1bo manus meas, allel\u00faja."
           ]
-        ], 
-        "id": "Offertorium", 
+        ],
+        "id": "Offertorium",
         "label": "Ofert\u00f3rio"
-      }, 
+      },
       {
         "body": [
           [
-            "Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai benignamente a vossa Igreja, a fim de que n\u00e3o s\u00f3 o vosso rebanho triunfe em toda a parte, mas tamb\u00e9m pelo poder do vosso nome os pastores sejam bem acolhidos.\nPor nosso Senhor...", 
-            "Obl\u00e1tis mun\u00e9ribus, qu\u01fdsumus, D\u00f3mine, Eccl\u00e9siam tuam ben\u00edgnus ill\u00famina: ut, et gregis tui prof\u00edciat ubique succ\u00e9ssus, et grati fiant n\u00f3mini tuo, te gubern\u00e1nte, past\u00f3res.\nPer Dominum\u2026"
+            "Senhor, que esta obla\u00e7\u00e3o sagrada nos alcance sempre a vossa salutar b\u00ean\u00e7\u00e3o, a fim de que produza os efeitos do myst\u00e9rio que ela renova.\nPor nosso Senhor...",
+            "Benedicti\u00f3nem nobis, D\u00f3mine, c\u00f3nferat salut\u00e1rem sacra semper obl\u00e1tio: ut, quod agit myst\u00e9rio, virt\u00fate perf\u00edciat.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Secreta", 
+        ],
+        "id": "Secreta",
         "label": "Secreta"
-      }, 
+      },
       {
         "body": [
           [
-            "*da P\u00e1scoa*\n\u00c9 verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova P\u00e1scoa. Pois Ele \u00e9 o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurrei\u00e7\u00e3o nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Domina\u00e7\u00f5es e com toda a mil\u00edcia do ex\u00e9rcito celestial, cantamos o hino da vossa gl\u00f3ria, dizendo incessantemente:", 
-            "*Paschalis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te quidem, D\u00f3mine, omni t\u00e9mpore, sed in hoc pot\u00edssimum (sed tempore Passionis)\nhac pot\u00edssimum nocte (sed octava Pasch\u00e6)\nhac pot\u00edssimum die glori\u00f3sius pr\u00e6dic\u00e1re, cum Pascha nostrum immol\u00e1tus est Christus. Ipse enim verus est Agnus, qui \u00e1bstulit pecc\u00e1ta mundi. Qui mortem nostram mori\u00e9ndo destr\u00faxit et vitam resurg\u00e9ndo repar\u00e1vit. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:"
+            "* Comemora\u00e7\u00e3o S.S. Cleto e Marcelino, Papas e M\u00e1rtires *\nCom as ofertas destes dons, Vos suplicamos, Senhor, iluminai benignamente a vossa Igreja, a fim de que n\u00e3o s\u00f3 o vosso rebanho triunfe em toda a parte, mas tamb\u00e9m pelo poder do vosso nome os pastores sejam bem acolhidos.\nPor nosso Senhor...",
+            "* Commemoratio SS. Cleti et Marcellini Summorum Pontificum et Martyrum *\nObl\u00e1tis mun\u00e9ribus, qu\u01fdsumus, D\u00f3mine, Eccl\u00e9siam tuam ben\u00edgnus ill\u00famina: ut, et gregis tui prof\u00edciat ubique succ\u00e9ssus, et grati fiant n\u00f3mini tuo, te gubern\u00e1nte, past\u00f3res.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Prefatio", 
+        ],
+        "id": "Commemoratio Secreta",
+        "label": "Comemora\u00e7\u00e3o Secreta"
+      },
+      {
+        "body": [
+          [
+            "*do S. Jos\u00e9*\n\u00c9 verdadeiramente digno e justo, racional e salutar dar-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus: e na festividade do bem-aventurado Jos\u00e9 devemos proclamar, como conv\u00e9m, as vossas grandezas, bendizer-Vos e louvar-Vos. \u00c9 ele o homem justo, que destinastes para esposo da Virgem M\u00e3e de Deus; \u00e9 ele o servo fiel e prudente, que colocastes na Sagrada Fam\u00edlia, a fim de que guardasse, como se fora pai, o vosso Filho Unig\u00e9nito, Jesus Cristo, nosso Senhor, concebido por opera\u00e7\u00e3o do Esp\u00edrito Santo; pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades se prostram reverentes, os C\u00e9us e os bem-aventurados Serafins a celebram em comuns transportes. Dignai-Vos permitir, Vos suplicamos, que as nossas vozes se unam \u00e0s deles, dizendo em suplicante confiss\u00e3o:",
+            "*de S. Joseph*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Venerati\u00f3ne* be\u00e1ti Joseph d\u00e9bitis magnific\u00e1re pr\u00e6c\u00f3niis, bened\u00edcere et pr\u00e6dic\u00e1re. Qui et vir justus, a te De\u00edpar\u00e6 V\u00edrgini Sponsus est datus: et fid\u00e9lis servus ac prudens, super Fam\u00edliam tuam est constit\u00fatus: ut Unig\u00e9nitum tuum, Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9ptum, paterna vice custod\u00edret, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. C\u00e6li c\u00e6lor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:"
+          ]
+        ],
+        "id": "Prefatio",
         "label": "Pref\u00e1cio"
-      }, 
+      },
       {
         "body": [
           [
-            "*Mt 16:18*\nTu \u00e9s Pedro, e sobre esta pedra edificarei a minha Igreja.", 
-            "*Matt 16:18*\nTu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam."
+            "*Jo 10:14*\nEu sou o bom Pastor, aleluia; conhe\u00e7o as minhas ovelhas, e elas conhecem-me, aleluia.",
+            "*Joannes 10:14*\nEgo sum pastor bonus, allel\u00faja: et cogn\u00f3sco oves meas, et cogn\u00f3scunt me me\u00e6, allel\u00faja, allel\u00faja."
           ]
-        ], 
-        "id": "Communio", 
+        ],
+        "id": "Communio",
         "label": "Com\u00fanio"
-      }, 
+      },
       {
         "body": [
           [
-            "Senhor, Vos suplicamos, governai com mansid\u00e3o a vossa Igreja, agora que foi alimentada com a sagrada refei\u00e7\u00e3o, a fim de que, dirigida com firme suavidade, alcance o incremento da sua liberdade e persista na integridade da sua doutrina.\nPor nosso Senhor...", 
-            "Refecti\u00f3ne sancta enutr\u00edtam gub\u00e9rna, qu\u01fdsumus, D\u00f3mine, tuam plac\u00e1tus Eccl\u00e9siam: ut, pot\u00e9nti moderati\u00f3ne dir\u00e9cta, et increm\u00e9nta libert\u00e1tis acc\u00edpiat et in religi\u00f3nis integrit\u00e1te pers\u00edstat.\nPer Dominum\u2026"
+            "\u00d3 Deus omnipotente, Vos suplicamos, permiti que, havendo alcan\u00e7ado de V\u00f3s a gra\u00e7a da vida nova, sempre nos gloriemos com este dom, que nos dispensais.\nPor nosso Senhor...",
+            "Pr\u00e6sta nobis, qu\u01fdsumus, omn\u00edpotens Deus: ut, vivificati\u00f3nis tu\u00e6 gr\u00e1tiam consequ\u00e9ntes, in tuo semper m\u00fanere glori\u00e9mur.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Postcommunio", 
+        ],
+        "id": "Postcommunio",
         "label": "Postcom\u00fanio"
+      },
+      {
+        "body": [
+          [
+            "* Comemora\u00e7\u00e3o S.S. Cleto e Marcelino, Papas e M\u00e1rtires *\nSenhor, Vos suplicamos, governai com mansid\u00e3o a vossa Igreja, agora que foi alimentada com a sagrada refei\u00e7\u00e3o, a fim de que, dirigida com firme suavidade, alcance o incremento da sua liberdade e persista na integridade da sua doutrina.\nPor nosso Senhor...",
+            "* Commemoratio SS. Cleti et Marcellini Summorum Pontificum et Martyrum *\nRefecti\u00f3ne sancta enutr\u00edtam gub\u00e9rna, qu\u01fdsumus, D\u00f3mine, tuam plac\u00e1tus Eccl\u00e9siam: ut, pot\u00e9nti moderati\u00f3ne dir\u00e9cta, et increm\u00e9nta libert\u00e1tis acc\u00edpiat et in religi\u00f3nis integrit\u00e1te pers\u00edstat.\nPer Dominum\u2026"
+          ]
+        ],
+        "id": "Commemoratio Postcommunio",
+        "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
   }
