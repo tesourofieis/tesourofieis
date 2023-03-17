@@ -1,147 +1,147 @@
 [
   {
     "info": {
-      "additional_info": [], 
+      "additional_info": [],
       "colors": [
-        "w"
-      ], 
-      "date": "2024-02-03", 
-      "description": "\nComemora\u00e7\u00e3o S. Br\u00e1s, Bispo e M\u00e1rtir.", 
-      "id": "tempora:C10c:4:w", 
-      "rank": 4, 
-      "supplements": [], 
-      "tempora": "S\u00e1bado da semana da Septuag\u00e9sima", 
+        "v"
+      ],
+      "date": "2024-02-03",
+      "description": "\nComemora\u00e7\u00e3o S. Br\u00e1s, Bispo e M\u00e1rtir.",
+      "id": "tempora:C10c:4:w",
+      "rank": 4,
+      "supplements": [],
+      "tempora": "S\u00e1bado da semana da Septuag\u00e9sima",
       "title": "3\u00ba Missa da Virgem Maria \u2013 Salve, Sancta Parens"
-    }, 
+    },
     "sections": [
       {
         "body": [
           [
-            "Salve, \u00f3 Santa Maria, em cujo seio foi gerado o Rei que governa o c\u00e9u e a terra, em todos os s\u00e9culos dos s\u00e9culos.\n*Sl 44:2*\nMeu cora\u00e7\u00e3o exprimiu uma excelente palavra: Consagro ao Rei as minhas obras!\nGl\u00f3ria ao Pai.\nSalve, \u00f3 Santa Maria, em cujo seio foi gerado o Rei que governa o c\u00e9u e a terra, em todos os s\u00e9culos dos s\u00e9culos.", 
-            "*Sedulius.*\nSalve, sancta Parens, en\u00edxa pu\u00e9rpera Regem: qui c\u0153lum terr\u00e1mque regit in s\u01fdcula s\u00e6cul\u00f3rum.\n*Ps 44:2*\nEruct\u00e1vit cor meum verbum bonum: dico ego \u00f3pera mea Regi.\nGl\u00f3ria Patri\u2026\nSalve, sancta Parens, en\u00edxa pu\u00e9rpera Regem: qui c\u0153lum terr\u00e1mque regit in s\u01fdcula s\u00e6cul\u00f3rum."
+            "*Sl 17:5-7*\nRodearam-me os gemidos da morte e cercaram-me as dores do inferno; mas na minha tribula\u00e7\u00e3o invoquei o Senhor, que l\u00e1 no seu santo templo ouviu a minha voz.\n*Sl 17:2-3*\nEu Vos amarei, Senhor, que sois a minha fortaleza, o meu sustent\u00e1culo, o meu ref\u00fagio e o meu libertador.\nGl\u00f3ria ao Pai.\nRodearam-me os gemidos da morte e cercaram-me as dores do inferno; mas na minha tribula\u00e7\u00e3o invoquei o Senhor, que l\u00e1 no seu santo templo ouviu a minha voz.",
+            "*Ps 17:5; 17:6; 17:7*\nCircumded\u00e9runt me g\u00e9mitus mortis, dol\u00f3res inf\u00e9rni circumded\u00e9runt me: et in tribulati\u00f3ne mea invoc\u00e1vi D\u00f3minum, et exaud\u00edvit de templo sancto suo vocem meam.\n*Ps 17:2-3*\nD\u00edligam te, D\u00f3mine, fortit\u00fado mea: D\u00f3minus firmam\u00e9ntum meum, et ref\u00fagium meum, et liber\u00e1tor meus.\nGl\u00f3ria Patri\u2026\nCircumded\u00e9runt me g\u00e9mitus mortis, dol\u00f3res inf\u00e9rni circumded\u00e9runt me: et in tribulati\u00f3ne mea invoc\u00e1vi D\u00f3minum, et exaud\u00edvit de templo sancto suo vocem meam."
           ]
-        ], 
-        "id": "Introitus", 
+        ],
+        "id": "Introitus",
         "label": "Intr\u00f3ito"
-      }, 
+      },
       {
         "body": [
           [
-            "Concedei aos vossos servos, Senhor Deus, Vos suplicamos, o gozo da perp\u00e9tua sa\u00fade da alma e do corpo, e que pela gloriosa intercess\u00e3o da B. Maria, sempre Virgem, sejamos livres das tristezas dos tempos presentes e alcancemos o gozo da eterna alegria.\nPor nosso Senhor...", 
-            "Conc\u00e9de nos f\u00e1mulos tuos, qu\u01fdsumus, D\u00f3mine Deus, perp\u00e9tua mentis et c\u00f3rporis sanit\u00e1te gaud\u00e9re: et, glori\u00f3sa be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis intercessi\u00f3ne, a pr\u00e6s\u00e9nti liber\u00e1ri trist\u00edtia, et \u00e6t\u00e9rna p\u00e9rfrui l\u00e6t\u00edtia.\nPer Dominum\u2026"
+            "Ouvi benigno, Senhor, Vos rogamos, as preces do vosso povo, a fim de que n\u00f3s, que estamos justamente aflitos com o peso dos nossos pecados, sejamos misericordiosamente livres, pela gl\u00f3ria do vosso nome.\nPor nosso Senhor...",
+            "Preces p\u00f3puli tui, qu\u01fdsumus, D\u00f3mine, clem\u00e9nter ex\u00e1udi: ut, qui juste pro pecc\u00e1tis nostris affl\u00edgimur, pro tui n\u00f3minis gl\u00f3ria miseric\u00f3rditer liber\u00e9mur.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Oratio", 
+        ],
+        "id": "Oratio",
         "label": "Ora\u00e7\u00e3o"
-      }, 
+      },
       {
         "body": [
           [
-            "* Comemora\u00e7\u00e3o S. Br\u00e1s, Bispo e M\u00e1rtir *\n\u00d3 Deus, que nos alegrais com a solenidade anual do B. Br\u00e1s, vosso M\u00e1rtir e Pont\u00edfice, concedei-nos prop\u00edcio que, assim como celebramos o seu nascimento, assim tamb\u00e9m gozemos a sua protec\u00e7\u00e3o.\nPor nosso Senhor...", 
+            "* Comemora\u00e7\u00e3o S. Br\u00e1s, Bispo e M\u00e1rtir *\n\u00d3 Deus, que nos alegrais com a solenidade anual do B. Br\u00e1s, vosso M\u00e1rtir e Pont\u00edfice, concedei-nos prop\u00edcio que, assim como celebramos o seu nascimento, assim tamb\u00e9m gozemos a sua protec\u00e7\u00e3o.\nPor nosso Senhor...",
             "* Commemoratio S. Blasii Episcopi *\nDeus, qui nos be\u00e1ti Bl\u00e1sii M\u00e1rtyris tui atque Pont\u00edficis \u00e1nnua solemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut cujus natal\u00edtia c\u00f3limus, de ei\u00fasdem \u00e9tiam protecti\u00f3ne gaude\u00e1mus.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Commemoratio Oratio", 
+        ],
+        "id": "Commemoratio Oratio",
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
-      }, 
+      },
       {
         "body": [
           [
-            "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 24:14-16*\nFui criada desde o princ\u00edpio, antes de todos os s\u00e9culos, e n\u00e3o deixarei de existir at\u00e9 \u00e0 eternidade. Exerci perante Ele o meu myst\u00e9rio; e deste modo tenho habita\u00e7\u00e3o fixa em Si\u00e3o. Ele deixa-me descansar na cidade santa e tenho poder em Jerusal\u00e9m. Arraiguei-me em um povo glorioso, da parte do meu Deus e da sua heran\u00e7a, e permane\u00e7o na companhia dos santos.", 
-            "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 24:14-16*\nAb in\u00edtio et ante s\u01fdcula cre\u00e1ta sum, et usque ad fut\u00farum s\u01fdculum non d\u00e9sinam, et in habitati\u00f3ne sancta coram ipso ministr\u00e1vi. Et sic in Sion firm\u00e1ta sum, et in civit\u00e1te sanctific\u00e1ta sim\u00edliter requi\u00e9vi, et in Jer\u00fasalem pot\u00e9stas mea. Et radic\u00e1vi in p\u00f3pulo honorific\u00e1to, et in parte Dei mei her\u00e9ditas ill\u00edus, et in plenit\u00fadine sanct\u00f3rum det\u00e9ntio mea."
+            "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Cor\u00edntios\n*1 Cor. 9:24-27; 10:1-5*\nMeus irm\u00e3os: N\u00e3o sabeis que aqueles que correm no circo, todos correm, mas somente um ganha o pr\u00e9mio? Correi, pois, de tal modo que o ganheis. Aqueles que combatem na arena abst\u00eam-se de tudo; e procedem assim para alcan\u00e7ar uma coroa corrupt\u00edvel. N\u00f3s, por\u00e9m, para alcan\u00e7armos uma coroa incorrupt\u00edvel. Eu tamb\u00e9m assim corro, mas n\u00e3o ao acaso; eu pelejo, mas n\u00e3o como quem fere o ar; pois castigo o meu corpo e o reduzo \u00e0 servid\u00e3o, com medo de que, depois de ter pregado aos outros, seja condenado. Ora, meus irm\u00e3os, n\u00e3o quero que ignoreis que nossos pais estiveram debaixo da nuvem, passaram o mar e todos foram baptizados e guiados por Mois\u00e9s na nuvem e no mar; nem mesmo que ignoreis que todos eles, tamb\u00e9m, comeram o mesmo alimento espiritual e beberam a mesma bebida. Com efeito, beberam em um rochedo espiritual, que os seguia, o qual era Cristo. Todavia, a maior parte deles n\u00e3o agradou a Deus.",
+            "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios\n*1 Cor 9:24-27; 10:1-5*\nFratres: Nesc\u00edtis, quod ii, qui in st\u00e1dio currunt, omnes quidem currunt, sed unus \u00e1ccipit brav\u00edum? Sic c\u00farrite, ut comprehend\u00e1tis. Omnis autem, qui in ag\u00f3ne cont\u00e9ndit, ab \u00f3mnibus se \u00e1bstinet: et illi quidem, ut corrupt\u00edbilem cor\u00f3nam acc\u00edpiant; nos autem incorr\u00faptam. Ego \u00edgitur sic curro, non quasi in inc\u00e9rtum: sic pugno, non quasi \u00e1\u00ebrem v\u00e9rberans: sed cast\u00edgo corpus meum, et in servit\u00fatem r\u00e9digo: ne forte, cum \u00e1liis pr\u00e6dic\u00e1verim, ipse r\u00e9probus eff\u00edciar. Nolo enim vos ignor\u00e1re, fratres, qu\u00f3niam patres nostri omnes sub nube fu\u00e9runt, et omnes mare transi\u00e9runt, et omnes in M\u00f3yse baptiz\u00e1ti sunt in nube et in mari: et omnes e\u00e1ndem escam spirit\u00e1lem manducav\u00e9runt, et omnes e\u00fandem potum spirit\u00e1lem bib\u00e9runt bib\u00e9bant autem de spirit\u00e1li, consequ\u00e9nte eos, petra: petra autem erat Christus: sed non in pl\u00faribus e\u00f3rum benepl\u00e1citum est Deo."
           ]
-        ], 
-        "id": "Lectio", 
+        ],
+        "id": "Lectio",
         "label": "Ep\u00edstola"
-      }, 
+      },
       {
         "body": [
           [
-            "Bendita e vener\u00e1vel sois, \u00f3 Virgem Maria, que fostes M\u00e3e do Salvador sem que a vossa pureza sofresse a mais leve ofensa.\nV. \u00d3 Virgem, M\u00e3e de Deus, Aquele que nem todo o universo \u00e9 capaz de conter, esteve encerrado, quando se fez homem, no vosso seio.\nRegozijai-vos, \u00f3 Virgem Maria, pois s\u00f3 v\u00f3s fostes capaz de destruir todas as heresias.\nV. Acreditastes nas palavras do Arcanjo Gabriel.\nV. Sendo Virgem, gerastes o Homem-Deus; e, depois de haverdes dado \u00e0 luz, permanecestes Virgem Imaculada.\nV. Intercedei por n\u00f3s, \u00f3 M\u00e3e de Deus!", 
-            "Bened\u00edcta et vener\u00e1bilis es, Virgo Mar\u00eda: qu\u00e6 sine tactu pud\u00f3ris inv\u00e9nta es Mater Salvat\u00f3ris.\nV. Virgo, Dei G\u00e9netrix, quem totus non capit orbis, in tua se clausit v\u00edscera factus homo.\nGaude, Mar\u00eda Virgo, cunctas h\u01fdreses sola interem\u00edsti.\nV. Qu\u00e6 Gabri\u00e9lis Arch\u00e1ngeli dictis credid\u00edsti.\nV. Dum Virgo Deum et h\u00f3minem genu\u00edsti: et post partum, Virgo, inviol\u00e1ta permans\u00edsti.\nV. Dei G\u00e9netrix, interc\u00e9de pro nobis."
+            "*Sl 9:10-11; 9:19-20*\nSenhor, sois o nosso aux\u00edlio nas necessidades e nas tribula\u00e7\u00f5es: esperem, pois, em V\u00f3s aqueles que Vos conhecem, porque nunca abandonais os que Vos procuram. O infeliz n\u00e3o ser\u00e1 sempre esquecido; a paci\u00eancia do pobre n\u00e3o ser\u00e1 frustrada para sempre. Erguei-Vos, para que o homem mau n\u00e3o triunfe.\n*Sl 129:1-4*\nDas profundezas do abysmo clamei por V\u00f3s, Senhor: ouvi a minha voz.\nV. Que os vossos ouvidos estejam atentos \u00e0 voz deste vosso servo.\nV. Se julgais as nossas iniquidades, Senhor, quem poder\u00e1 subsistir ante V\u00f3s?\nV. Mas sois prop\u00edcio; por amor da vossa lei esperei em V\u00f3s.",
+            "*Ps 9:10-11; 9:19-20*\nAdj\u00fator in opportunit\u00e1tibus, in tribulati\u00f3ne: sperent in te, qui nov\u00e9runt te: qu\u00f3niam non derel\u00ednquis qu\u00e6r\u00e9ntes te, D\u00f3mine,\nV. Qu\u00f3niam non in finem obl\u00edvio erit p\u00e1uperis: pati\u00e9ntia p\u00e1uperum non per\u00edbit in \u00e6t\u00e9rnum: exs\u00farge, D\u00f3mine, non pr\u00e6v\u00e1leat homo.\n\n*Tractus*\n*Ps 129:1-4*\nDe prof\u00fandis clam\u00e1vi ad te. D\u00f3mine: D\u00f3mine, ex\u00e1udi vocem meam.\nV. Fiant aures tu\u00e6 intend\u00e9ntes in orati\u00f3nem servi tui.\nV. Si iniquit\u00e1tes observ\u00e1veris, D\u00f3mine: D\u00f3mine, quis sustin\u00e9bit?\nV. Quia apud te propiti\u00e1tio est, et propter legem tuam sust\u00ednui te, D\u00f3mine."
           ]
-        ], 
-        "id": "Tractus", 
-        "label": "Tracto"
-      }, 
+        ],
+        "id": "Graduale",
+        "label": "Gradual"
+      },
       {
         "body": [
           [
-            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 11:27-28*\nNaquele tempo, falando Jesus \u00e0s turbas, eis que uma mulher, elevando a voz no meio da multid\u00e3o, Lhe disse: \u00abBem-aventurado o seio que Vos trouxe; bem-aventurados os peitos que Vos amamentaram\u00bb. E Jesus respondeu, dizendo: \u00abBem-aventurados, antes, aqueles que ouvem a palavra de Deus e a cumprem.\u00bb", 
-            "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam\n*Luc 11:27-28*\nIn illo t\u00e9mpore: Loqu\u00e9nte Jesu ad turbas, ext\u00f3llens vocem qu\u00e6dam m\u00falier de turba, dixit illi: Be\u00e1tus venter, qui te port\u00e1vit, et \u00fabera, qu\u00e6 sux\u00edsti. At ille dixit: Quin\u00edmmo be\u00e1ti, qui \u00e1udiunt verbum Dei, et cust\u00f3diunt illud."
+            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Mateus\n*Mt 20:1-16*\nNaquele tempo, disse Jesus a seus disc\u00edpulos: \u00abO reino dos c\u00e9us \u00e9 semelhante a um pai de fam\u00edlia que sai da sua casa cedo para ajustar jornaleiros, para a sua vinha. E, tendo ajustado com eles dar a cada um por dia um dinheiro, mandou-os para a vinha. Cerca da hora terceira, saiu outra vez e viu que estavam ociosos na pra\u00e7a outros jornaleiros. Disse-lhes: \u00abIde, tamb\u00e9m, trabalhar para a minha vinha, e pagar-vos-ei o que for justo\u00bb; e eles foram. Saiu, ainda, cerca da hora sexta e cerca da hora nona, e fez a mesma coisa. Enfim, havendo sa\u00eddo cerca da hora und\u00e9cima, encontrou outros e disse-lhes: \u00abPorque estais todo o dia ociosos?\u00bb. Eles responderam: \u00abPorque ningu\u00e9m nos ajustou\u00bb. E disse-lhes: \u00abIde v\u00f3s, tamb\u00e9m, para a minha vinha\u00bb. Quando era j\u00e1 pela tarde, disse o senhor da vinha ao seu intendente: \u00abChama os jornaleiros e paga-lhes os sal\u00e1rios, come\u00e7ando pelos \u00faltimos e acabando nos primeiros\u00bb. Quando vieram os jornaleiros da hora und\u00e9cima, receberam um dinheiro cada um. Vindo, por sua vez, os primeiros, cuidavam que receberiam mais; por\u00e9m receberam, tamb\u00e9m, um dinheiro cada um. Ent\u00e3o, estes, recebendo o dinheiro, murmuraram contra o pai de fam\u00edlia, dizendo: \u00abEstes \u00faltimos n\u00e3o trabalharam sen\u00e3o uma hora, e dais-lhes tanto como a n\u00f3s, que aguent\u00e1mos no dia inteiro o peso do trabalho e do calor?\u00bb. Mas o senhor, dirigindo-se a um deles, respondeu: \u00abMeu amigo, n\u00e3o te fa\u00e7o injusti\u00e7a. N\u00e3o ajustaste comigo receber um dinheiro? Toma, pois, o que te pertence, e vai-te. Quanto a mim, quero dar a este \u00faltimo tanto como a ti. Porventura me n\u00e3o \u00e9 l\u00edcito ser generoso para com quem quiser? Diz-me: o teu olho \u00e9 mau, porque o meu \u00e9 bom? Assim, os \u00faltimos ser\u00e3o os primeiros, e os primeiros ser\u00e3o os \u00faltimos; pois muitos s\u00e3o os chamados e poucos os escolhidos\u00bb.",
+            "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum\n*Matt 20:1-16*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis par\u00e1bolam hanc: Simile est regnum coel\u00f3rum h\u00f3mini patrifam\u00edlias, qui \u00e9xiit primo mane cond\u00facere oper\u00e1rios in v\u00edneam suam. Conventi\u00f3ne autem facta cum oper\u00e1riis ex den\u00e1rio di\u00farno, misit eos in v\u00edneam suam. Et egr\u00e9ssus circa horam t\u00e9rtiam, vidit \u00e1lios stantes in foro oti\u00f3sos, et dixit illis: Ite et vos in v\u00edneam meam, et quod justum f\u00faerit, dabo vobis. Illi autem abi\u00e9runt. Iterum autem \u00e9xiit circa sextam et nonam horam: et fecit sim\u00edliter. Circa und\u00e9cimam vero \u00e9xiit, et inv\u00e9nit \u00e1lios stantes, et dicit illis: Quid hic statis tota die oti\u00f3si? Dicunt ei: Quia nemo nos cond\u00faxit. Dicit illis: Ite et vos in v\u00edneam meam. Cum sero autem factum esset, dicit d\u00f3minus v\u00edne\u00e6 procurat\u00f3ri suo: Voca oper\u00e1rios, et redde illis merc\u00e9dem, inc\u00edpiens a nov\u00edssimis usque ad primos. Cum ven\u00edssent ergo qui circa und\u00e9cimam horam v\u00e9nerant, accep\u00e9runt s\u00edngulos den\u00e1rios. Veni\u00e9ntes autem et primi, arbitr\u00e1ti sunt, quod plus essent accept\u00fari: accep\u00e9runt autem et ipsi s\u00edngulos den\u00e1rios. Et accipi\u00e9ntes murmur\u00e1bant adv\u00e9rsus patremfam\u00edlias, dic\u00e9ntes: Hi nov\u00edssimi una hora fec\u00e9runt et pares illos nobis fec\u00edsti, qui port\u00e1vimus pondus di\u00e9i et \u00e6stus. At ille resp\u00f3ndens uni e\u00f3rum, dixit: Am\u00edce, non facio tibi inj\u00fariam: nonne ex den\u00e1rio conven\u00edsti mecum? Tolle quod tuum est, et vade: volo autem et huic nov\u00edssimo dare sicut et tibi. Aut non licet mihi, quod volo, f\u00e1cere? an \u00f3culus tuus nequam est, quia ego bonus sum? Sic erunt nov\u00edssimi primi, et primi nov\u00edssimi. Multi enim sunt voc\u00e1ti, pauci vero el\u00e9cti."
           ]
-        ], 
-        "id": "Evangelium", 
+        ],
+        "id": "Evangelium",
         "label": "Evangelho"
-      }, 
+      },
       {
         "body": [
           [
-            "Sois feliz e digna de todos os louvores, \u00f3 Santa Virgem Maria, pois de v\u00f3s nasceu o \u00absol da justi\u00e7a\u00bb, Cristo, Senhor nosso.", 
-            "Felix namque es, sacra Virgo Mar\u00eda, et omni laude dign\u00edssima: quia ex te ortus est sol just\u00edti\u00e6, Christus, Deus noster."
+            "*Sl 91:2*\n\u00c9 bom louvar o Senhor; e cantar Salmos em honra do vosso nome, \u00f3 Alt\u00edssimo.",
+            "*Ps 91:2*\nBonum est confit\u00e9ri D\u00f3mino, et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime."
           ]
-        ], 
-        "id": "Offertorium", 
+        ],
+        "id": "Offertorium",
         "label": "Ofert\u00f3rio"
-      }, 
+      },
       {
         "body": [
           [
-            "Pela vossa miseric\u00f3rdia, Senhor, e pela intercess\u00e3o da B. Maria, sempre Virgem, permiti que esta obla\u00e7\u00e3o nos assegure agora e sempre a prosperidade e a paz.\nPor nosso Senhor...", 
-            "Tua, D\u00f3mine, propitiati\u00f3ne, et be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis intercessi\u00f3ne, ad perp\u00e9tuam atque pr\u00e6s\u00e9ntem h\u00e6c obl\u00e1tio nobis prof\u00edciat prosperit\u00e1tem et pacem.\nPer Dominum\u2026"
+            "Recebendo as nossas ofertas e ora\u00e7\u00f5es, Senhor, dignai-Vos purificar-nos por virtude dos vossos celestiais myst\u00e9rios e ouvi misericordioso os nossos rogos.\nPor nosso Senhor...",
+            "Mun\u00e9ribus nostris, qu\u01fdsumus, D\u00f3mine, precib\u00fasque susc\u00e9ptis: et coel\u00e9stibus nos munda myst\u00e9riis, et clem\u00e9nter ex\u00e1udi.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Secreta", 
+        ],
+        "id": "Secreta",
         "label": "Secreta"
-      }, 
+      },
       {
         "body": [
           [
-            "* Comemora\u00e7\u00e3o S. Br\u00e1s, Bispo e M\u00e1rtir *\nSantificai, Senhor, estes dons que Vos s\u00e3o oferecidos, e, por intercess\u00e3o do B. N. vosso M\u00e1rtir e Pont\u00edfice, olhai aplacado para n\u00f3s.\nPor nosso Senhor...", 
-            "* Commemoratio S. Blasii Episcopi *\nM\u00fanera tibi, D\u00f3mine, dic\u00e1ta sanct\u00edfica: et, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo atque Pont\u00edfice, per \u00e9adem nos plac\u00e1tus int\u00e9nde.\nPer Dominum\u2026"
+            "* Comemora\u00e7\u00e3o S. Br\u00e1s, Bispo e M\u00e1rtir *\nSantificai, Senhor, estes dons que Vos s\u00e3o oferecidos, e, por intercess\u00e3o do B. N. vosso M\u00e1rtir e Pont\u00edfice, olhai aplacado para n\u00f3s.\nPor nosso Senhor...",
+            "* Commemoratio S. Blasii Episcopi *\nM\u00fanera tibi, D\u00f3mine, dic\u00e1ta sanct\u00edfica: et, interced\u00e9nte be\u00e1to Bl\u00e1sio M\u00e1rtyre tuo atque Pont\u00edfice, per \u00e9adem nos plac\u00e1tus int\u00e9nde.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Commemoratio Secreta", 
+        ],
+        "id": "Commemoratio Secreta",
         "label": "Comemora\u00e7\u00e3o Secreta"
-      }, 
+      },
       {
         "body": [
           [
-            "*da B. Virgem Maria*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, e de sempre Vos louvar, bendizer e anunciar da Bem-aventurada Maria, sempre Virgem. Foi ela quem concebeu o vosso Filho Unig\u00e9nito por obra do Esp\u00edrito Santo, e, sem a mais leve perda de gl\u00f3ria da virgindade, deu ao mundo a Luz eterna, Jesus Cristo, nosso Senhor, por quem os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a festejam em transportes de alegria. E, Vos imploramos, permiti que unamos as nossas vozes \u00e0s de todos estes, dizendo em suplicante confiss\u00e3o:", 
-            "*de Beata Maria Virgine*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ubique gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Festivit\u00e1te* be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis collaud\u00e1re, bened\u00edcere et pr\u00e6dic\u00e1re. Qu\u00e6 et Unig\u00e9nitum tuum Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9pit: et, virginit\u00e1tis gl\u00f3ria perman\u00e9nte, lumen \u00e6t\u00e9rnum mundo eff\u00fadit, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:"
+            "*Comum*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram e as Potestades se prostram reverentes; e os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a celebram em comum alegria e louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes suplicantes se unam \u00e0s deles, dizendo:",
+            "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. C\u00e6li c\u00e6lor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:"
           ]
-        ], 
-        "id": "Prefatio", 
+        ],
+        "id": "Prefatio",
         "label": "Pref\u00e1cio"
-      }, 
+      },
       {
         "body": [
           [
-            "Bem-aventuradas as entranhas da Virgem Maria, que trouxeram encerrado o Filho do Pai Eterno.", 
-            "Be\u00e1ta v\u00edscera Mar\u00ed\u00e6 V\u00edrginis, qu\u00e6 portav\u00e9runt \u00e6t\u00e9rni Patris F\u00edlium."
+            "*Sl 30:17-18*\nFazei resplandecer a vossa face sobre este vosso servo, e salvai-me pela vossa miseric\u00f3rdia, Senhor; que eu n\u00e3o seja confundido, pois Vos invoquei.",
+            "*Ps 30:17-18*\nIll\u00famina f\u00e1ciem tuam super servum tuum, et salvum me fac in tua miseric\u00f3rdia: D\u00f3mine, non conf\u00fandar, qu\u00f3niam invoc\u00e1vi te."
           ]
-        ], 
-        "id": "Communio", 
+        ],
+        "id": "Communio",
         "label": "Com\u00fanio"
-      }, 
+      },
       {
         "body": [
           [
-            "Havendo n\u00f3s, Senhor, alcan\u00e7ado o poderoso aux\u00edlio da nossa salva\u00e7\u00e3o, concedei-nos, Vos imploramos, que sejamos protegidos com o patroc\u00ednio da B. Maria, sempre Virgem, em cuja honra oferecemos \u00e0 vossa majestade este sacrif\u00edcio.\nPor nosso Senhor...", 
-            "Sumptis, D\u00f3mine, sal\u00fatis nostr\u00e6 subs\u00eddiis: da, qu\u01fdsumus, be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis patroc\u00edniis nos ub\u00edque pr\u00f3tegi; in cujus venerati\u00f3ne h\u00e6c tu\u00e6 obt\u00falimus majest\u00e1ti.\nPer Dominum\u2026"
+            "Que os vossos fi\u00e9is, \u00f3 Deus, sejam fortificados com vossos dons, a fim de que, recebendo-os, continuem a procur\u00e1-los, e, havendo-os achado, sirvam para a nossa eternidade.\nPor nosso Senhor...",
+            "Fid\u00e9les tui, Deus, per tua dona firm\u00e9ntur: ut eadem et percipi\u00e9ndo requ\u00edrant, et qu\u00e6r\u00e9ndo sine fine perc\u00edpiant.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Postcommunio", 
+        ],
+        "id": "Postcommunio",
         "label": "Postcom\u00fanio"
-      }, 
+      },
       {
         "body": [
           [
-            "* Comemora\u00e7\u00e3o S. Br\u00e1s, Bispo e M\u00e1rtir *\nQue esta comunh\u00e3o, Senhor, nos purifique de todos nossos crimes, e, por intercess\u00e3o do B. N., vosso M\u00e1rtir e Pont\u00edfice, nos torne participante do rem\u00e9dio celestial.\nPor nosso Senhor...", 
-            "* Commemoratio S. Blasii Episcopi *\nH\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo atque Pont\u00edfice, coel\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer Dominum\u2026"
+            "* Comemora\u00e7\u00e3o S. Br\u00e1s, Bispo e M\u00e1rtir *\nQue esta comunh\u00e3o, Senhor, nos purifique de todos nossos crimes, e, por intercess\u00e3o do B. N., vosso M\u00e1rtir e Pont\u00edfice, nos torne participante do rem\u00e9dio celestial.\nPor nosso Senhor...",
+            "* Commemoratio S. Blasii Episcopi *\nH\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9nte be\u00e1to Bl\u00e1sio M\u00e1rtyre tuo atque Pont\u00edfice, coel\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Commemoratio Postcommunio", 
+        ],
+        "id": "Commemoratio Postcommunio",
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]

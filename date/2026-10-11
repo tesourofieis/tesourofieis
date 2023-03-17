@@ -1,147 +1,149 @@
 [
   {
     "info": {
-      "additional_info": [], 
+      "additional_info": [
+        "Paramentos brancos"
+      ],
       "colors": [
-        "g"
-      ], 
-      "date": "2026-10-11", 
-      "description": "\nComemora\u00e7\u00e3o Maternidade da B. V. Maria.", 
-      "id": "tempora:Pent20-0:2:g", 
-      "rank": 2, 
-      "supplements": [], 
-      "tempora": null, 
-      "title": "20\u00ba Domingo depois de Pentecostes"
-    }, 
+        "w"
+      ],
+      "date": "2026-10-11",
+      "description": "\nComemora\u00e7\u00e3o 20\u00ba Domingo depois de Pentecostes.",
+      "id": "sancti:10-11:2:w",
+      "rank": 2,
+      "supplements": [],
+      "tempora": "20\u00ba Domingo depois de Pentecostes",
+      "title": "Maternidade da B. V. Maria"
+    },
     "sections": [
       {
         "body": [
           [
-            "*Dan 3:31; 3:29; 3:35*\nTudo quanto fizestes contra n\u00f3s, Senhor, foi com justi\u00e7a, pois pec\u00e1mos e n\u00e3o Obedecemos aos vossos mandamentos; mas glorificai o vosso nome e tratai-nos segundo a grandeza da vossa miseric\u00f3rdia.\n*Sl 118:1*\nBem-aventurados aqueles cuja vida \u00e9 imaculada: aqueles que praticam a Lei do Senhor.\nGl\u00f3ria ao Pai.\nTudo quanto fizestes contra n\u00f3s, Senhor, foi com justi\u00e7a, pois pec\u00e1mos e n\u00e3o Obedecemos aos vossos mandamentos; mas glorificai o vosso nome e tratai-nos segundo a grandeza da vossa miseric\u00f3rdia.", 
-            "*Dan 3:31; 31:29; 31:35*\nOmnia, qu\u00e6 fec\u00edsti nobis, D\u00f3mine, in vero jud\u00edcio fec\u00edsti, quia pecc\u00e1vimus tibi et mand\u00e1tis tuis non ob\u0153d\u00edvimus: sed da gl\u00f3riam n\u00f3mini tuo, et fac nob\u00edscum sec\u00fandum multit\u00fadinem miseric\u00f3rdi\u00e6 tu\u00e6.\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri\u2026\nOmnia, qu\u00e6 fec\u00edsti nobis, D\u00f3mine, in vero jud\u00edcio fec\u00edsti, quia pecc\u00e1vimus tibi et mand\u00e1tis tuis non ob\u0153d\u00edvimus: sed da gl\u00f3riam n\u00f3mini tuo, et fac nob\u00edscum sec\u00fandum multit\u00fadinem miseric\u00f3rdi\u00e6 tu\u00e6."
+            "*Is 7:14*\nEis que a virgem conceber\u00e1 e dar\u00e1 \u00e0 luz um Filho, cujo nome ser\u00e1 Emanuel.\n*Sl 97:1*\nCantai ao Senhor um c\u00e2ntico novo, porque Ele praticou maravilhas.\nGl\u00f3ria ao Pai.\nEis que a virgem conceber\u00e1 e dar\u00e1 \u00e0 luz um Filho, cujo nome ser\u00e1 Emanuel.",
+            "*Isa 7:14.*\nEcce Virgo conc\u00edpiet, et p\u00e1riet f\u00edlium, et voc\u00e1bitur nomen ejus Emm\u00e1nuel.\n*Ps 97:1.*\nCant\u00e1te D\u00f3mino c\u00e1nticum novum: quia mirab\u00edlia fecit.\nGl\u00f3ria Patri\u2026\nEcce Virgo conc\u00edpiet, et p\u00e1riet f\u00edlium, et voc\u00e1bitur nomen ejus Emm\u00e1nuel."
           ]
-        ], 
-        "id": "Introitus", 
+        ],
+        "id": "Introitus",
         "label": "Intr\u00f3ito"
-      }, 
+      },
       {
         "body": [
           [
-            "Compadecei-Vos dos vossos fi\u00e9is, Senhor, e dignai-Vos conceder-lhes o perd\u00e3o e a paz, a fim de que, havendo sido limpos de suas faltas, possam servir-Vos com toda a confian\u00e7a.\nPor nosso Senhor...", 
-            "Larg\u00edre, qu\u01fdsumus, D\u00f3mine, fid\u00e9libus tuis indulg\u00e9ntiam plac\u00e1tus et pacem: ut p\u00e1riter ab \u00f3mnibus mund\u00e9ntur off\u00e9nsis, et sec\u00fara tibi mente des\u00e9rviant.\nPer Dominum\u2026"
+            "\u00d3 Deus, que segundo a anuncia\u00e7\u00e3o do Anjo quisestes que o vosso Verbo assumisse a carne humana no seio da B. V. Maria, concedei-nos, Vos suplicamos, que, assim como acreditamos que ela \u00e9 verdadeira M\u00e3e de Deus, assim sejamos auxiliados na vossa presen\u00e7a com a intercess\u00e3o das suas preces.\nPelo mesmo nosso Senhor...",
+            "Deus, qui de be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis \u00fatero Verbum tuum, Angelo nunti\u00e1nte, carnem susc\u00edpere volu\u00edsti: pr\u00e6sta suppl\u00edcibus tuis; ut, qui vere eam Genitr\u00edcem Dei cr\u00e9dimus, ejus apud te intercessi\u00f3nibus adjuv\u00e9mur.\nPer e\u00fandem\u2026"
           ]
-        ], 
-        "id": "Oratio", 
+        ],
+        "id": "Oratio",
         "label": "Ora\u00e7\u00e3o"
-      }, 
+      },
       {
         "body": [
           [
-            "* Comemora\u00e7\u00e3o Maternidade da B. V. Maria *\n\u00d3 Deus, que segundo a anuncia\u00e7\u00e3o do Anjo quisestes que o vosso Verbo assumisse a carne humana no seio da B. V. Maria, concedei-nos, Vos suplicamos, que, assim como acreditamos que ela \u00e9 verdadeira M\u00e3e de Deus, assim sejamos auxiliados na vossa presen\u00e7a com a intercess\u00e3o das suas preces.\nPelo mesmo nosso Senhor...", 
-            "* Commemoratio Maternitatis Beat\u00e6 Mari\u00e6 Virginis *\nDeus, qui de be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis \u00fatero Verbum tuum, Angelo nunti\u00e1nte, carnem susc\u00edpere volu\u00edsti: pr\u00e6sta suppl\u00edcibus tuis; ut, qui vere eam Genitr\u00edcem Dei cr\u00e9dimus, ejus apud te intercessi\u00f3nibus adjuv\u00e9mur.\nPer e\u00fandem\u2026"
+            "* Comemora\u00e7\u00e3o 20\u00ba Domingo depois de Pentecostes *\nCompadecei-Vos dos vossos fi\u00e9is, Senhor, e dignai-Vos conceder-lhes o perd\u00e3o e a paz, a fim de que, havendo sido limpos de suas faltas, possam servir-Vos com toda a confian\u00e7a.\nPor nosso Senhor...",
+            "* Commemoratio Dominica XX Post Pentecosten *\nLarg\u00edre, qu\u01fdsumus, D\u00f3mine, fid\u00e9libus tuis indulg\u00e9ntiam plac\u00e1tus et pacem: ut p\u00e1riter ab \u00f3mnibus mund\u00e9ntur off\u00e9nsis, et sec\u00fara tibi mente des\u00e9rviant.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Commemoratio Oratio", 
+        ],
+        "id": "Commemoratio Oratio",
         "label": "Comemora\u00e7\u00e3o Ora\u00e7\u00e3o"
-      }, 
+      },
       {
         "body": [
           [
-            "Li\u00e7\u00e3o da Ep.\u00aa do B. Ap.\u00ba Paulo aos Ef\u00e9sios.\n*Eph 5:15-21*\nMeus irm\u00e3os: Tende cuidado de vos conduzirdes com prud\u00eancia, n\u00e3o como insensatos, mas como prudentes, aproveitando o tempo, pois os dias s\u00e3o maus. Assim, pois, n\u00e3o sejais imprudentes, mas procurai conhecer qual \u00e9 a vontade de Deus. N\u00e3o bebais vinho com excesso, o que \u00e9 lux\u00faria. Enchei-vos do Esp\u00edrito Santo, entretendo-vos uns aos outros com Salmos, Hinos, c\u00e2nticos espirituais e outros c\u00e2nticos e louvores, sa\u00eddos do \u00edntimo dos vossos cora\u00e7\u00f5es, para gl\u00f3ria do Senhor, dando gra\u00e7as sempre e em tudo a Deus Pai, em nome de nosso Senhor Jesus Cristo, e submetendo-vos uns aos outros no temor de Cristo.", 
-            "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios\n*Ephes 5:15-21*\nFratres: Vid\u00e9te, qu\u00f3modo caute ambul\u00e9tis: non quasi insipi\u00e9ntes, sed ut sapi\u00e9ntes, redim\u00e9ntes tempus, qu\u00f3niam dies mali sunt. Propt\u00e9rea nol\u00edte f\u00ederi imprud\u00e9ntes, sed intelleg\u00e9ntes, qu\u00e6 sit vol\u00fantas Dei. Et nol\u00edte inebri\u00e1ri vino, in quo est lux\u00faria: sed impl\u00e9mini Sp\u00edritu Sancto, loqu\u00e9ntes vobismet\u00edpsis in psalmis et hymnis et c\u00e1nticis spiritu\u00e1libus, cant\u00e1ntes et psall\u00e9ntes in c\u00f3rdibus vestris D\u00f3mino: gr\u00e1tias ag\u00e9ntes semper pro \u00f3mnibus, in n\u00f3mine D\u00f3mini nostri Jesu Christi, Deo et Patri. Subjecti \u00ednvicem in tim\u00f3re Christi."
+            "Li\u00e7\u00e3o do Livro da Sabedoria.\n*Sb 24:23-31*\nEu produzi, como a vinha, flores de suave odor, e as minhas flores s\u00e3o frutos de honra e de honestidade. Eu sou a m\u00e3e do amor puro, do temor, da ci\u00eancia e da esperan\u00e7a santa. Em mim existe toda a gra\u00e7a do caminho e da verdade; em mim existe toda a esperan\u00e7a da vida e da virtude. Vinde a mim, \u00f3 v\u00f3s, que me desejais com ardor, e saciai-vos com meus frutos; pois o meu esp\u00edrito \u00e9 mais doce do que o mel e a minha heran\u00e7a excede em do\u00e7ura o pr\u00f3prio favo de mel! Minha mem\u00f3ria permanecer\u00e1 nas gera\u00e7\u00f5es de todos os s\u00e9culos. Aqueles que me comerem ter\u00e3o ainda fome; e aqueles que me beberem ter\u00e3o ainda sede. Aqueles que me escutam n\u00e3o ser\u00e3o confundidos; aqueles que se orientarem em mim n\u00e3o pecar\u00e3o; e aqueles que me tornarem conhecida alcan\u00e7ar\u00e3o a vida eterna.",
+            "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 24:23-31*\nEgo quasi vitis fructific\u00e1vi suavit\u00e1tem od\u00f3ris: et flores mei, fructus hon\u00f3ris et honest\u00e1tis. Ego mater pulchr\u00e6 dilecti\u00f3nis, et tim\u00f3ris, et agniti\u00f3nis, et sanct\u00e6 spei. In me gr\u00e1tia omnis vi\u00e6 et verit\u00e1tis: in me omnis spes vit\u00e6 et virt\u00fatis. Trans\u00edte ad me omnes qui concup\u00edscitis me, et a generati\u00f3nibus meis impl\u00e9mini. Sp\u00edritus enim meus super mel dulcis, et her\u00e9ditas mea super mel et favum. Mem\u00f3ria mea in generati\u00f3nes s\u00e6cul\u00f3rum. Qui edunt me, adhuc es\u00farient: et qui bibunt me, adhuc s\u00edtient. Qui audit me, non confund\u00e9tur: et qui oper\u00e1ntur in me, non pecc\u00e1bunt. Qui el\u00facidant me, vitam \u00e6t\u00e9rnam hab\u00e9bunt."
           ]
-        ], 
-        "id": "Lectio", 
+        ],
+        "id": "Lectio",
         "label": "Ep\u00edstola"
-      }, 
+      },
       {
         "body": [
           [
-            "*Sl 144:15-16*\nTodos os olhares se volvem para V\u00f3s, Senhor; a todos os entes dais alimento em tempo conveniente.\nV. Abris as m\u00e3os e encheis de b\u00ean\u00e7\u00e3os tudo o que tem vida. Aleluia, aleluia.\n*Sl 107:2*\nV. Meu cora\u00e7\u00e3o est\u00e1 preparado, \u00f3 Deus; o meu cora\u00e7\u00e3o est\u00e1 preparado: cantarei vossos louvores, \u00f3 V\u00f3s, que sois a minha gl\u00f3ria. Aleluia.", 
-            "*Ps 144:15-16*\nOculi \u00f3mnium in te sperant, D\u00f3mine: et tu das illis escam in t\u00e9mpore opport\u00fano. V. Aperis tu manum tuam: et imples omne \u00e1nimal benedicti\u00f3ne. Allel\u00faja, allel\u00faja\n*Ps 107:2*\nPar\u00e1tum cor meum, Deus, par\u00e1tum cor meum: cant\u00e1bo, et psallam tibi, gl\u00f3ria mea. Allel\u00faja."
+            "*Is 11:1-2*\nSair\u00e1 uma vara do tronco de Jess\u00e9 e uma flor brotar\u00e1 da sua raiz.\nV. E o esp\u00edrito do Senhor repousar\u00e1 sobre ela. Aleluia, aleluia.\nV. \u00d3 Virgem, Aquele que todo o mundo n\u00e3o \u00e9 capaz de conter, quando se fez homem, esteve encerrado no vosso seio. Aleluia.",
+            "*Isa 11:1-2.*\nEgredi\u00e9tur virga de r\u00e1dice Jesse, et flos de r\u00e1dice ejus asc\u00e9ndet.\nV. Et requi\u00e9scet super eum Sp\u00edritus D\u00f3mini. Allel\u00faja, allel\u00faja.\nV. Virgo Dei G\u00e9nitrix, quem totus non capit orbis, in tua se clausit v\u00edscera factus homo. Allel\u00faja."
           ]
-        ], 
-        "id": "Graduale", 
+        ],
+        "id": "Graduale",
         "label": "Gradual"
-      }, 
+      },
       {
         "body": [
           [
-            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Jo\u00e3o.\n*Jo 4:46-53*\nNaquele tempo, havia um oficial em Cafarnaum, cujo filho estava enfermo. Tendo ele sabido que Jesus vinha da Judeia para a Galileia, foi ter com Ele, rogando-Lhe que fosse a sua casa curar seu filho, que principiava a agonizar. Disse-lhe Jesus: \u00abSe n\u00e3o vedes prod\u00edgios e milagres n\u00e3o acreditais!\u00bb. Respondeu-Lhe o oficial: \u00abSenhor, vinde, antes que meu filho morra\u00bb. Jesus disse-lhe: \u00abVai; o teu filho vive!\u00bb. Acreditou este homem na palavra de Jesus e partiu. Ia j\u00e1 no caminho, e eis que seus servos foram ao seu encontro, anunciando-lhe que o filho vivia! Ent\u00e3o perguntou-lhes qual a hora em que se achara melhor o filho. Os servos responderam: \u00abOntem, \u00e0 hora s\u00e9tima, deixou-o a febre\u00bb. E o pai reconheceu ter sido aquela a hora em que Jesus lhe dissera: \u00abO teu filho vive\u00bb. Ele, pois, assim como toda sua fam\u00edlia, acreditou.", 
-            "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem\n*Joannes 4:46-53*\nIn illo t\u00e9mpore: Erat quidam r\u00e9gulus, cujus f\u00edlius infirmab\u00e1tur Caph\u00e1rnaum. Hic cum aud\u00edsset, quia Jesus adven\u00edret a Jud\u01fda in Galil\u01fdam, \u00e1biit ad eum, et rog\u00e1bat eum, ut desc\u00e9nderet et san\u00e1ret f\u00edlium ejus: incipi\u00e9bat enim mori. Dixit ergo Jesus ad eum: Nisi signa et prod\u00edgia vid\u00e9ritis, non cr\u00e9ditis. Dicit ad eum r\u00e9gulus: D\u00f3mine, desc\u00e9nde, pri\u00fasquam mori\u00e1tur f\u00edlius meus. Dicit ei Jesus: Vade, f\u00edlius tuus vivit. Cr\u00e9didit homo serm\u00f3ni, quem dixit ei Jesus, et ibat. Jam autem eo descend\u00e9nte, servi occurr\u00e9runt ei et nuntiav\u00e9runt, dic\u00e9ntes, quia f\u00edlius ejus v\u00edveret. Interrog\u00e1bat ergo horam ab eis, in qua m\u00e9lius hab\u00faerit. Et dix\u00e9runt ei: Quia heri hora s\u00e9ptima rel\u00edquit eum febris. Cogn\u00f3vit ergo pater, quia illa hora erat, in qua dixit ei Jesus: F\u00edlius tuus vivit: et cr\u00e9didit ipse et domus ejus tota."
+            "Continua\u00e7\u00e3o \u2629 do santo Evangelho segundo S. Lucas.\n*Lc 2:43-51*\nNaquele tempo, quando voltaram para casa, ficou o Menino Jesus em Jerusal\u00e9m, sem que de tal seus pais se apercebessem. Pensando que Ele viria com seus companheiros de jornada, fizeram um dia de viagem, procurando-O depois entre os parentes e conhecidos. N\u00e3o O encontrando, voltaram logo a Jerusal\u00e9m pelo mesmo caminho. Ent\u00e3o aconteceu que, depois de tr\u00eas dias, foram ach\u00e1-l\u2019O no templo, assentado entre os doutores, ouvindo-os e interrogando-os. E aqueles que O ouviam estavam admirados da sua sabedoria e das suas respostas. Quando os pais O encontraram, ficaram admirados, dizendo-Lhe logo a M\u00e3e: \u00abMeu Filho, porque procedestes assim para connosco? Eis que vosso Pai e eu Vos busc\u00e1vamos aflitos?!\u00bb. Ele disse-lhes: \u00abPorque me procur\u00e1veis? N\u00e3o sabeis que \u00e9 preciso que me ocupe das cousas de meu Pai?\u00bb. Por\u00e9m, eles n\u00e3o compreenderam o que Jesus lhes disse. Ent\u00e3o desceu com eles, veio para Nazar\u00e9 e era-lhes obediente.",
+            "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 2:43-51*\nIn illo t\u00e9mpore: Cum red\u00edrent, rem\u00e1nsit puer Jesus in Jer\u00fasalem, et non cognov\u00e9runt par\u00e9ntes ejus. Existim\u00e1ntes autem illum esse in comit\u00e1tu, ven\u00e9runt iter diei, et requir\u00e9bant eum inter cogn\u00e1tos, et notos. Et non inveni\u00e9ntes, regr\u00e9ssi sunt in Jer\u00fasalem, requir\u00e9ntes eum. Et factum est, post tr\u00edduum inven\u00e9runt illum in templo sed\u00e9ntem in m\u00e9dio doct\u00f3rum, audi\u00e9ntem illos, et interrog\u00e1ntem eos. Stup\u00e9bant autem omnes, qui eum audi\u00e9bant, super prud\u00e9ntia et resp\u00f3nsis ejus. Et vid\u00e9ntes admir\u00e1ti sunt. Et dixit mater ejus ad illum: Fili, quid fec\u00edsti nobis sic? ecce pater tuus, et ego dol\u00e9ntes qu\u00e6reb\u00e1mus te. Et ait ad illos: Quid est quod me qu\u00e6reb\u00e1tis? nescieb\u00e1tis quia in his, qu\u00e6 Patris mei sunt, op\u00f3rtet me esse. Et ipsi non intellex\u00e9runt verbum, quod loc\u00fatus est ad eos. Et desc\u00e9ndit cum eis, et venit N\u00e1zareth: et erat s\u00fabditus illis."
           ]
-        ], 
-        "id": "Evangelium", 
+        ],
+        "id": "Evangelium",
         "label": "Evangelho"
-      }, 
+      },
       {
         "body": [
           [
-            "*Sl 136:1*\nJunto das margens dos rios da Babil\u00f3nia nos assent\u00e1mos, chorando as recorda\u00e7\u00f5es do vosso passado, \u00f3 Si\u00e3o.", 
-            "*Ps 136:1*\nSuper fl\u00famina Babyl\u00f3nis illic s\u00e9dimus et fl\u00e9vimus: dum recordar\u00e9mur tui, Sion."
+            "*Mt 1:18*\nEstando Maria, sua M\u00e3e, desposada com Jos\u00e9, achou este que ela havia concebido do Esp\u00edrito Santo.",
+            "*Matt 1:18*\nCum esset despons\u00e1ta mater ejus Mar\u00eda Joseph, inv\u00e9nta est in \u00fatero habens de Sp\u00edritu Sancto."
           ]
-        ], 
-        "id": "Offertorium", 
+        ],
+        "id": "Offertorium",
         "label": "Ofert\u00f3rio"
-      }, 
+      },
       {
         "body": [
           [
-            "Que estes myst\u00e9rios, Senhor, nos sirvam de rem\u00e9dio celestial, Vos suplicamos, e purifiquem os nossos cora\u00e7\u00f5es de todas nossas iniquidades.\nPor nosso Senhor...", 
-            "C\u0153l\u00e9stem nobis pr\u01fdbeant h\u00e6c myst\u00e9ria, qu\u01fdsumus, D\u00f3mine, medic\u00ednam: et v\u00edtia nostri cordis exp\u00fargent.\nPer Dominum\u2026"
+            "Pela vossa miseric\u00f3rdia, Senhor, e pela intercess\u00e3o da B. Maria, sempre Virgem, fazei que esta oferta nos assegure agora e sempre a prosperidade e a paz.\nPelo mesmo nosso Senhor...",
+            "Tua, D\u00f3mine, propitiati\u00f3ne, et be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis, Unig\u00e9niti tui matris intercessi\u00f3ne, ad perp\u00e9tuam atque pr\u00e6s\u00e9ntem h\u00e6c obl\u00e1tio nobis prof\u00edciat prosperit\u00e1tem, et pacem.\nPer e\u00fandem\u2026"
           ]
-        ], 
-        "id": "Secreta", 
+        ],
+        "id": "Secreta",
         "label": "Secreta"
-      }, 
+      },
       {
         "body": [
           [
-            "* Comemora\u00e7\u00e3o Maternidade da B. V. Maria *\nPela vossa miseric\u00f3rdia, Senhor, e pela intercess\u00e3o da B. Maria, sempre Virgem, fazei que esta oferta nos assegure agora e sempre a prosperidade e a paz.\nPelo mesmo nosso Senhor...", 
-            "* Commemoratio Maternitatis Beat\u00e6 Mari\u00e6 Virginis *\nTua, D\u00f3mine, propitiati\u00f3ne, et be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis, Unig\u00e9niti tui matris intercessi\u00f3ne, ad perp\u00e9tuam atque pr\u00e6s\u00e9ntem h\u00e6c obl\u00e1tio nobis prof\u00edciat prosperit\u00e1tem, et pacem.\nPer e\u00fandem\u2026"
+            "* Comemora\u00e7\u00e3o 20\u00ba Domingo depois de Pentecostes *\nQue estes myst\u00e9rios, Senhor, nos sirvam de rem\u00e9dio celestial, Vos suplicamos, e purifiquem os nossos cora\u00e7\u00f5es de todas nossas iniquidades.\nPor nosso Senhor...",
+            "* Commemoratio Dominica XX Post Pentecosten *\nC\u0153l\u00e9stem nobis pr\u01fdbeant h\u00e6c myst\u00e9ria, qu\u01fdsumus, D\u00f3mine, medic\u00ednam: et v\u00edtia nostri cordis exp\u00fargent.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Commemoratio Secreta", 
+        ],
+        "id": "Commemoratio Secreta",
         "label": "Comemora\u00e7\u00e3o Secreta"
-      }, 
+      },
       {
         "body": [
           [
-            "*da SS. Trindade*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unig\u00e9nito e com o Esp\u00edrito Santo sois um s\u00f3 Deus, um s\u00f3 Senhor, n\u00e3o na unidade de uma s\u00f3 pessoa, mas na Trindade de uma s\u00f3 subst\u00e2ncia. Porquanto, o que acreditamos a respeito da vossa gl\u00f3ria, acreditamo-lo tamb\u00e9m, pela vossa revela\u00e7\u00e3o, a respeito do vosso Filho e do Esp\u00edrito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na ess\u00eancia a unidade e a igualdade na majestade. \u00c9 esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que n\u00e3o cessam quotidianamente de cantar em un\u00edssono:", 
-            "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:"
+            "*da B. Virgem Maria*\n\u00c9 verdadeiramente digno e justo, racional e salutar render-Vos gra\u00e7as em todos os lugares e sempre, \u00f3 Senhor santo, Pai omnipotente, eterno Deus, e de sempre Vos louvar, bendizer e anunciar da Bem-aventurada Maria, sempre Virgem. Foi ela quem concebeu o vosso Filho Unig\u00e9nito por obra do Esp\u00edrito Santo, e, sem a mais leve perda de gl\u00f3ria da virgindade, deu ao mundo a Luz eterna, Jesus Cristo, nosso Senhor, por quem os Anjos louvam a vossa majestade, as Domina\u00e7\u00f5es a adoram, as Potestades a reverenciam, os C\u00e9us, as Virtudes dos c\u00e9us e os bem-aventurados Serafins a festejam em transportes de alegria. E, Vos imploramos, permiti que unamos as nossas vozes \u00e0s de todos estes, dizendo em suplicante confiss\u00e3o:",
+            "*de Beata Maria Virgine*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Festivit\u00e1te* be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis collaud\u00e1re, bened\u00edcere et pr\u00e6dic\u00e1re. Qu\u00e6 et Unig\u00e9nitum tuum Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9pit: et, virginit\u00e1tis gl\u00f3ria perman\u00e9nte, lumen \u00e6t\u00e9rnum mundo eff\u00fadit, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. C\u00e6li c\u00e6lor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti jubeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:"
           ]
-        ], 
-        "id": "Prefatio", 
+        ],
+        "id": "Prefatio",
         "label": "Pref\u00e1cio"
-      }, 
+      },
       {
         "body": [
           [
-            "*Sl 118:49-50*\nLembrai-Vos da vossa promessa ao vosso servo, Senhor, na qual tenho esperado com toda a confian\u00e7a: \u00e9 ela que me consola na minha humilha\u00e7\u00e3o.", 
-            "*Ps 118:49-50*\nMem\u00e9nto verbi tui servo tuo, D\u00f3mine, in quo mihi spem ded\u00edsti: h\u00e6c me consol\u00e1ta est in humilit\u00e1te mea."
+            "Bem-aventuradas as entranhas da Virgem Maria, que trouxeram encerrado o Filho do Pai Eterno.",
+            "Be\u00e1ta v\u00edscera Mar\u00ed\u00e6 V\u00edrginis, qu\u00e6 portav\u00e9runt \u00e6t\u00e9rni Patris F\u00edlium."
           ]
-        ], 
-        "id": "Communio", 
+        ],
+        "id": "Communio",
         "label": "Com\u00fanio"
-      }, 
+      },
       {
         "body": [
           [
-            "Senhor, permiti que para sermos dignos dos vossos sacrat\u00edssimos myst\u00e9rios obede\u00e7amos sempre aos vossos mandamentos.\nPor nosso Senhor...", 
-            "Ut sacris, D\u00f3mine, redd\u00e1mur digni mun\u00e9ribus: fac nos, qu&#509;sumus, tuis semper ob\u0153d\u00edre mand\u00e1tis.\nPer Dominum\u2026"
+            "Que esta comunh\u00e3o, Senhor, nos purifique de nossos crimes e que por intercess\u00e3o da B. V. Maria, M\u00e3e de Deus, nos torne participantes do rem\u00e9dio celestial.\nPelo mesmo nosso Senhor...",
+            "H\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9nte be\u00e1ta V\u00edrgine Dei Genitr\u00edce Mar\u00eda, c\u0153l\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer e\u00fandem\u2026"
           ]
-        ], 
-        "id": "Postcommunio", 
+        ],
+        "id": "Postcommunio",
         "label": "Postcom\u00fanio"
-      }, 
+      },
       {
         "body": [
           [
-            "* Comemora\u00e7\u00e3o Maternidade da B. V. Maria *\nQue esta comunh\u00e3o, Senhor, nos purifique de nossos crimes e que por intercess\u00e3o da B. V. Maria, M\u00e3e de Deus, nos torne participantes do rem\u00e9dio celestial.\nPelo mesmo nosso Senhor...", 
-            "* Commemoratio Maternitatis Beat\u00e6 Mari\u00e6 Virginis *\nH\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9nte be\u00e1ta V\u00edrgine Dei Genitr\u00edce Mar\u00eda, coel\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer e\u00fandem\u2026"
+            "* Comemora\u00e7\u00e3o 20\u00ba Domingo depois de Pentecostes *\nSenhor, permiti que para sermos dignos dos vossos sacrat\u00edssimos myst\u00e9rios obede\u00e7amos sempre aos vossos mandamentos.\nPor nosso Senhor...",
+            "* Commemoratio Dominica XX Post Pentecosten *\nUt sacris, D\u00f3mine, redd\u00e1mur digni mun\u00e9ribus: fac nos, qu&#509;sumus, tuis semper ob\u0153d\u00edre mand\u00e1tis.\nPer Dominum\u2026"
           ]
-        ], 
-        "id": "Commemoratio Postcommunio", 
+        ],
+        "id": "Commemoratio Postcommunio",
         "label": "Comemora\u00e7\u00e3o Postcom\u00fanio"
       }
     ]
