@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/42f31635-809f-472d-aec3-e331309648d3/deploy-status)](https://app.netlify.com/sites/tesourofieis/deploys)
+
 # Tesouro dos Fiéis
 
 Espaço dedicado à oração, exposição e preservação das santas tradições da igreja.
