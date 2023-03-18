@@ -11,7 +11,11 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@astrojs/tailwind": "latest",
     "astro": "latest",
-    "vitest": "latest"
+    "tailwindcss": "latest",
+    "vitest": "latest",
+    "@vite-pwa/astro": "latest",
+    "workbox-window": "latest"
   }
 }
