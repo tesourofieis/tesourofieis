@@ -1,13 +1,11 @@
 import { defineConfig } from "astro/config";
+import AstroPWA from "@vite-pwa/astro";
 
 import tailwind from "@astrojs/tailwind";
-
-import AstroPWA from "@vite-pwa/astro";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
-    tailwind(),
     AstroPWA({
       mode: "development",
       base: "/",
@@ -46,5 +44,6 @@ export default defineConfig({
         navigateFallbackAllowlist: [/^\/404$/],
       },
     }),
+    tailwind(),
   ],
 });
