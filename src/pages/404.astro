@@ -1,9 +1,18 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import languages from '../i18n/languages';
+import { useTranslations } from '../i18n/util';
+import SplashLayout from '../layouts/SplashLayout.astro';
+
+export const getStaticPaths = () => Object.keys(languages).map((lang) => ({ params: { lang } }));
+const t = useTranslations(Astro);
 ---
 
-<Layout title="Tesouro dos fiéis">
-  <h1>Page not found</h1>
-  <h1>Upps, something is wrong, the requested page not found!</h1>
-  <a href="/">Back home</a>
-</Layout>
+<SplashLayout title={t('404.title')}>
+	<h1>404</h1>
+	<p>{t('404.content')}</p>
+	<a href={`/`}>{t('404.linkText')}</a>
+</SplashLayout>
+
+<script>
+	window.addEventListener('load', () => (window as any).fathom.trackGoal('4KN9VI2W', 0));
+</script>
