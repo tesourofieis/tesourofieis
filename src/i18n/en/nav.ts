@@ -21,9 +21,9 @@ export default [
 	{ text: 'Basics', header: true, type: 'learn', key: 'basics' },
 
 	{
-		text: 'Project Structure',
-		slug: 'core-concepts/project-structure',
-		key: 'core-concepts/project-structure',
+		text: 'Saltério',
+		slug: 'salterio',
+		key: 'salterio',
 	},
 	{
 		text: 'Components',
