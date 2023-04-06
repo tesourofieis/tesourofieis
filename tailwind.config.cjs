@@ -10,7 +10,7 @@ module.exports = {
 			addComponents({
 				'.dropcap': {
 					...apply(
-						'first-letter:float-left first-letter:text-7xl first-letter:pr-4 first-letter:font-black first-letter:text-red-500'
+						'first-letter:float-left first-letter:text-7xl first-letter:pr-4 first-letter:font-black first-letter:text-red-600'
 					),
 				},
 			});

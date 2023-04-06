@@ -131,11 +131,11 @@ em {
   color: #df2321;
 }
 
-.dropcaps {
+.dropcap {
   text-indent: 0;
 }
 
-.dropcaps:first-letter {
+.dropcap:first-letter {
   /* margin: 0.08em 0 0.1em 0; */
   padding-top: 6px;
   padding-right: 8px;

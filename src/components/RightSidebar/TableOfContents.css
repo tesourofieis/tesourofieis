@@ -82,8 +82,6 @@
 	transform: rotate(0);
 	transition: 0.15s transform ease;
 	vertical-align: middle;
-	fill: var(--theme-accent-secondary);
-	stroke: var(--theme-accent-secondary);
 }
 
 @media (forced-colors: active) {
