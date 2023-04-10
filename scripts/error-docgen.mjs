@@ -16,8 +16,6 @@ const HEADER = `---
 # Translators, please remove this note and the <DontEditWarning/> component.
 
 title: Error reference
-i18nReady: true
-githubURL: https://github.com/withastro/astro/blob/main/packages/astro/src/core/errors/errors-data.ts
 ---
 
 import DontEditWarning from '~/components/DontEditWarning.astro'
@@ -203,7 +201,6 @@ function getErrorReferenceEntryHeader(errorTitle) {
 # Translators, please remove this note and the <DontEditWarning/> component.
 
 title: ${errorTitle}
-i18nReady: true
 githubURL: https://github.com/withastro/astro/blob/main/packages/astro/src/core/errors/errors-data.ts
 ---
 import DontEditWarning from '~/components/DontEditWarning.astro'

@@ -1,0 +1,54 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Efrém, Diácono, Conf. e Doutor <em>18 de Junho</em></h2>
+
+<em>Como na Missa In médio Ecclésiae, página doutores, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui Ecclésiam tuam beáti Ephræm Confessóris tui et Doctoris mira eruditióne et præcláris vitæ méritis illustráre voluísti: te súpplices exorámus; ut, ipso intercedénte, eam advérsus erróris et pravitátis insídias perénni tua virtúte deféndas. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que quisestes ilustrar a vossa Igreja com a brilhante erudição e com os méritos da preclara vida do B. Efrém, vosso Confessor e Doutor, humildemente Vos suplicamos que pela sua intercessão a defendais com vosso perpétuo poder das insídias do erro e da perversidade. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração <em>S. S. Marcos e Marceliano</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum tuórum Marci et Marcelliáni natalítia cólimus; a cunctis malis imminéntibus eórum intercessiónibus liberémur. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus Omnipotente, celebrando nós o nascimento dos vossos Santos Mártires Marcos e Marceliano, permiti, Vos suplicamos, que por sua intercessão sejamos livres de todos os males que nos ameaçam. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta <em>S. S. Mártires</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Múnera tibi, Dómine, dicáta sanctífica: et, intercedéntibus sanctis Martýribus tuis Marco et Marcelliáno, per eadem nos placátus inténde. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Santificai, Senhor, estes dons que Vos são oferecidos, a fim de que pela intercessão dos vossos Santos Mártires Marcos e Marceliano Vos digneis aplacar-Vos e olhardes aplacado para nós. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">PostComúnio <em>S. S. Mártires</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Salutáris tui, Dómine, múnere satiáti, súpplices exorámus: ut, cujus lætámur gustu, intercedéntibus sanctis Martýribus tuis Marco et Marcelliáno, renovémur efféctu. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Saciados com este dom salutar, humildemente Vos suplicamos que, havendo recebido com alegria este sacramento, sejamos, por intercessão dos vossos Santos Mártires Marcos e Marceliano, restaurados pelo seu eficaz efeito. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

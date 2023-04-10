@@ -11,8 +11,8 @@ import { getNavLinks } from '../util/getNavLinks';
 import BaseLayout from './BaseLayout.astro';
 
 export interface Props {
-	content: CollectionEntry<'docs'>['data'];
-	headings: MarkdownHeading[];
+	content: CollectionEntry<'tesouro'>['data'];
+	headings?: MarkdownHeading[];
 }
 
 const { content, headings } = Astro.props;

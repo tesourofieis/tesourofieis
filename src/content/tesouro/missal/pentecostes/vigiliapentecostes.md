@@ -1,0 +1,233 @@
+---
+title: todo
+---
+<h2 class="text-center">Vigília de Pentecostes <em>Estação em S. João de Latrão</em></h2>
+
+<h3 class="text-center">Profecias</h3>
+
+<h4 class="text-center">1.ª Profecia</h4>P<em>Página terceiraprofecia</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui in Abrahæ fámuli tui opere humáno generi obœdiéntiæ exémpla præbuísti; concéde nobis, et nostræ voluntátis pravitátem frángere, et tuórum præceptórum rectitúdinem in ómnibus adimplére. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que pelo sacrifício do vosso servo Abraão destes ao género humano exemplo de obediência, concedei-nos a graça de esmagarmos a nossa vontade e de cumprirmos em todas as coisas a rectidão dos vossos santos preceitos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">2.ª Profecia e Trato <em>Página quartaprofecia</em></h4>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui primis tempóribus impléta mirácula novi Testaménti luce reserásti, ut et Mare Rubrum forma sacri fontis exsísteret, et liberáta plebs ab Ægyptíaca servitúte christiáni pópuli sacraménta præférret: da, ut omnes gentes, Israélis privilégium mérito fídei consecútæ, Spíritus tui participatióne regeneréntur. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que nos explicastes com a luz do Novo Testamento os milagres dos primeiros tempos, mostrando-nos no mar Vermelho a imagem da fonte sagrada e no povo libertado da escravidão do Egipto a figura do povo cristão, fazei que todos os povos, alcançando pelos merecimentos da Fé o privilégio de filhos de Israel, sejam regenerados pela recepção do vosso Espírito. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">3.ª Profecia e Trato <em>Página 11profecia</em></h4>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, glorificátio fidélium et vita justórum, qui per Móysen, fámulum tuum, nos quoque modulatióne sacri cárminis erudísti: univérsis géntibus misericórdiæ tuæ munus operáre, tribuéndo beatitúdinem, auferéndo terrórem; ut, quod pronuntiátum est ad supplícium, in remédium transferátur ætérnum. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, exaltação dos fiéis e vida dos justos, que quisestes também instruir-nos com o cântico sagrado do vosso servo Moisés, fazei sentir o beneficio da vossa misericórdia a todas as nações, tornando-as felizes e livrando-as de todo o terror, a fim de que as ameaças do castigo eterno se tornem em remédio de salvação eterna. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">4.ª Profecia e Trato <em>Página 8profecia</em></h4>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Omnípotens sempitérne Deus, qui, per únicum Fílium tuum, Ecclésiæ tuæ demonstrásti te esse cultórem, omnem pálmitem, fructum in eodem Christo tuo, qui vera vitis est, afferéntem, cleménter éxcolens, ut fructus áfferat amplióres: fidélibus tuis, quos velut víneam ex Ægýpto per fontem baptísmi transtulísti, nullæ peccatórum spinæ præváleant; ut, Spíritus tui sanctificatióne muníti, perpétua fruge diténtur. Per eúndem Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus omnipotente e eterno, que pelo vosso Filho Unigénito demonstrastes a solicitude com que cultivais a vossa Igreja, cuidando benignamente de toda a videira que der frutos neste mesmo Jesus Cristo, vosso Filho, que é a verdadeira vinha, para produzir frutos com mais abundância: concedei aos vossos fiéis, os quais, como uma vinha, foram transplantados do Egipto através das águas do Baptismo, que não brote deles nenhum espinho do pecado, mas antes, protegidos pelo vosso Espírito santificador, produzam frutos perpétuos. Pelo mesmo nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">5.ª Profecia <em>Página 6profecia</em></h4>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui nobis per Prophetárum ora præcepísti temporália relínquere atque ad ætérna festináre: da fámulis tuis; ut, quæ a te jussa cognóvimus, implére cœlésti inspiratióne valeámus. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que pela boca dos Profetas nos ordenastes que abandonássemos os bens temporais e procurássemos os eternos, concedei aos vossos servos a graça de conhecerem os vossos Mandamentos e de poderem cumpri-los, sob a vossa celestial inspiração. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">6.ª Profecia <em>Página 7profecia</em></h4>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Dómine, Deus virtútum, qui collápsa réparas et reparáta consérvas: auge pópulos in tui nóminis sanctificatióne renovándos; ut omnes, qui sacro baptísmate diluúntur, tua semper inspiratióne dirigántur. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Senhor, Deus das virtudes, que restaurais o que está arruinado e conservais o que restaurastes, aumentai o número dos povos que devem ser regenerados pela invocação santificadora do vosso nome, a fim de que todos aqueles que são regenerados pelo santo Baptismo sejam sempre dirigidos pelas vossas inspirações. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h3 class="text-center"><a href="#piabaptismal">Bênção da Pia Baptismal</a></h3>
+
+<h4 class="text-center">Ladainha dos Santos</h4>
+
+{% include ladainhas/ladainhasantos.html %}
+
+<em>Nas Missas rezadas suprimem-se as Profecias, a Bênção e as Ladainhas.</em>
+
+<h2 class="text-center">Missa da Vigília de Pentecostes</h2>
+
+<h4 class="text-center">Intróito <em>Ez. 36, 23, 24 & 25-26</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Cum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum, allelúja, allelúja. <em>Ps. 33, 2</em> Benedícam Dóminum in omni témpore: semper laus ejus in ore meo.
+V. Gloria Patri <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Logo que tenha sido santificado no meio de vós, congregar-vos-ei de todos os países e espalharei sobre vós uma água pura, que vos purificará de todas as manchas: e vos darei um espírito novo, aleluia, aleluia. <em>Sl. 33, 2</em> Bendirei o Senhor em todos os tempos: na minha boca estarão sempre louvores em sua honra.
+V. Glória ao Pai <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Præsta, quǽsumus, omnípotens Deus: ut claritatis tuæ super nos splendor effúlgeat; et lux tuæ lucis corda eórum, qui per grátiam tuam renáti sunt, Sancti Spíritus illustratióne confírmet. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Concedei-nos, Senhor omnipotente, Vos suplicamos! que o esplendor da vossa glória brilhe sobre nós e que o fulgor da vossa luz esclareça e fortifique com a ilustração do Espírito Santo os corações daqueles que a vossa graça fez renascer. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Epístola <em>Act. 19, 1-8</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+Léctio Actuum Apostolorum.
+</div>
+<div class="text-justify">
+Lição dos Actos dos Apóstolos.
+</div>
+<div class="dropcap text-justify">
+In diébus illis: Factum est, cum Apóllo esset Corínthi, ut Paulus, peragrátis superióribus pártibus, veníret Ephesum et inveníret quosdam discípulos: dixítque ad eos: Si Spíritum Sanctum accepístis credéntes? At illi dixérunt ad eum: Sed neque, si Spíritus Sanctus est, audívimus. Ille vero ait: In quo ergo baptizáti estis? Qui dixérunt: In Joannis baptísmate. Dixit autem Paulus: Joánnes baptizávit baptísmo pœniténtiæ pópulum, dicens: In eum, qui ventúrus esset post ipsum, ut créderent, hoc est in Jesum. His audítis, baptizáti sunt in nómine Dómini Jesu. Et cum ímposuísset illis manus Paulus, venit Spíritus Sanctus super eos, et loquebántur linguis, et prophetábant. Erant autem omnes viri fere duódecim. Introgréssus autem synagógam, cum fidúcia loquebátur per tres menses, dísputans et suádens de regno Dei.
+</div>
+<div class="dropcap text-justify">
+Naqueles dias, enquanto Apolo estava em Corinto, aconteceu que Paulo visitou as regiões altas e chegou a Éfeso, onde encontrou alguns discípulos. Então disse-lhes: «Recebestes já o Espírito Santo, quando abraçastes a fé?». Eles responderam-Lhe: «Nem sequer ouvimos dizer que existia o Espírito Santo!». Ele disse-lhes: «Em que baptismo, pois, fostes baptizados?». Ao que responderam: «No baptismo de João». E Paulo disse: «João baptizou o povo no baptismo de penitência, dizendo-lhe que acreditasse naquele que havia de vir depois dele, isto é, em Jesus». Tendo ouvido isto, foram baptizados no nome do Senhor Jesus. Logo Paulo lhes impôs as mãos, tendo o Espírito Santo descido sobre eles. E começaram a falar várias línguas e a profetizar! Eram estes, ao todo, cerca de doze varões. Em seguida Paulo entrou na sinagoga, onde falou durante três meses com muita sabedoria acerca do reino de Deus, discutindo e persuadindo os assistentes.
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+Allelúja. V. <em>Ps. 106, 1</em> Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericordia ejus.
+</div>
+<div class="text-justify">
+Aleluia. V. <em>Sl. 106, 1</em> Louvai o Senhor, que é bom, pois a sua misericórdia é eterna.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Trato <em>Sl. 116, 1-2</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli. V. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum.
+</div>
+<div class="dropcap text-justify">
+Louvai o Senhor, ó nações todas: glorificai-O, ó povos: V. Pois grande é a sua misericórdia para nós: e a verdade do Senhor permanece perpetuamente.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Evangelho <em>Jo. 14, 15-21</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+&#10016; Sequéntia sancti Evangélii secúndum Joánnem.
+</div>
+<div class="text-justify">
+&#10016; Continuação do santo Evangelho segundo S. João.
+</div>
+<div class="dropcap text-justify">
+In illo témpore: Dixit Jesus discípulis suis: Si dilígitis me, mandáta mea serváte. Et ego rogábo Patrem, et alium Paráclitum dabit vobis, ut máneat vobíscum in ætérnum, Spíritum veritátis, quem mundus non potest accípere, quia non videt eum nec scit eum. Vos autem cognoscétis eum: quia apud vos manébit et in vobis erit. Non relínquam vos órphanos: véniam ad vos. Adhuc módicum: et mundus me jam non videt. Vos autem vidétis me, quia ego vivo, et vos vivétis, In illo die vos cognoscétis, quia ego sum in Patre meo, et vos in me, et ego in vobis. Qui habet mandáta mea et servat ea: ille est, qui díligit me. Qui autem díligit me, diligétur a Patre meo: et ego díligam eum, et manifestábo ei meípsum.
+</div>
+<div class="dropcap text-justify">
+Naquele tempo, disse Jesus aos seus discípulos: «Se me amais, observai os meus mandamentos. E rogarei ao Pai que vos dê um outro Paráclito, para que ele permaneça sempre convosco - o Espírito da verdade, que o mundo não pode receber, porque o não vê, nem conhece. Porém, vós conhecê-lo-eis, porque permanecerá no o meio de vós e viverá em vós. Não vos deixarei órfãos; Eu virei a vós. Ainda um pouco, e o mundo me não verá mais; mas vós ver-me-eis, porque Eu vivo, e vós também vivereis. Naquele dia conhecereis que estou no meu Pai, e que vós estais em mim e Eu em vós. Aquele que recebe os meus mandamentos e os observa ama-me, Ora aquele que me amar será amado pelo meu Pai; e Eu o amarei e a ele me manifestarei».
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Ofertório <em>Sl. 103, 30-31</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Emítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ: sit glória Dómini in sǽcula, allelúja.
+</div>
+<div class="dropcap text-justify">
+Enviai o vosso Espírito e serão criados; e renovar-se-á a face da terra. Seja a glória do Senhor exaltada em todos os séculos, aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Múnera, quǽsumus, Dómine, obláta sanctífica: et corda nostra Sancti Spíritus illustratióne emúnda. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Santificai, Senhor, Vos rogamos, os dons que Vos oferecemos, e purificai os nossos corações com as inspirações do Espírito Santo. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Comúnio <em>Jo. 7, 37-39</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Ultimo festivitátis die dicébat Jesus: Qui in me credit, flúmina de ventre ejus fluent aquæ vivæ: hoc autem dixit de Spíritu, quem acceptúri erant credéntes in eum, allelúja, allelúja.
+</div>
+<div class="dropcap text-justify">
+No último dia da festa dizia Jesus: «Rios de água viva sairão dos corações daqueles que crêem em mim». E dizia isto a respeito do Espírito que deviam receber aqueles que acreditassem n’Ele, aleluia, aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris íntima aspersióne fecúndet. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Senhor, que a efusão do Espírito Santo purifique os nossos corações; e que, penetrando neles, a aspersão do seu orvalho fecunde o íntimo das nossas almas. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

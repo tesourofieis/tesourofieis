@@ -1,0 +1,61 @@
+---
+title: todo
+---
+
+<em>Tudo como no primeiro oficio, excepto o seguinte:</em>
+
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+<em>Ant.</em> Ecce, Maria genuit nobis Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus Dei, ecce qui tollit peccata mundi, (allelúja).
+</div>
+<div class="text-justify">
+<em>Ant.</em> Eis, Maria deu à luz o nosso Salvador, que João reconheceu e exclamou: eis o Cordeiro de Deus, Aquele que tira o pecado do mundo, (aleluia).
+</div>
+</div>
+</div>
+
+<h3 class="text-center" id="item-17-1">Pequeno Capítulo - <em>Ecl. 24, 19-20</em></h3>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">In plateis sicut cinnamomum et balsamum aromatizans odorem dedi: quasi myrrha electa, dedi suavitatem odoris.
+</div>
+<div class="dropcap text-justify">Nas praças assim como o cinamomo e o bálsamo, que difundem cheiro, dei eu fragrância; como a mirra, dei cheiro de suavidade.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Deo grátias.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Graças a Deus.
+</div>
+<div class="text-justify">
+V. Post partum, Virgo, invioláta permansísti.
+</div>
+<div class="text-justify">
+V. Despois do parto permanecestes imaculada.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Dei Génetrix, intercéde pro nobis.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Intercedei por nós, ó Mãe de Deus.
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+<div class="text-danger text-center"> Orémus. </div>
+<div class="text-danger text-center"> Oremos. </div>
+<div class="dropcap text-justify">Deus, qui salutis æternæ, beatæ Mariæ virginitate fœcunda, humano generi præmia præstitisti: tribue, quǽsumus; ut ipsam pro nobis intercedere sentiamus, per quam meruimus auctorem vitæ suscipere, Dominum nostrum Jesum Christum Filium tuum. Qui tecum vivit et regnat in unitate Spiritus Sancti, Deus, per omnia sæcula sæculorum.
+</div>
+<div class="dropcap text-justify">Ó Deus, que pela virgindade fecunda da bem-aventurada Maria, destes ao género humano as gratificações da salvação eterna: concedei-nos, Vos rogamos, que experienciemos sua intercessão por nós, dela pela qual recebemos o autor da vida, Nosso Senhor Jesus Cristo, vosso Filho. Que convosco, e com o Espírito Santo, vive e reina por todos os séculos.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Amen.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Amen.
+</div>
+</div>
+</div>

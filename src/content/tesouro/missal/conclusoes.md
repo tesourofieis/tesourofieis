@@ -1,0 +1,73 @@
+---
+title: todo
+---
+<h1 class="text-center">Conclusão das Orações, Secretas e Postcomúnios</h1>
+
+<em>Para maior facilidade, damos a seguir as conclusões por extenso das Orações, Secretas e Postcomúnios das Missas, as quais, ordinariamente, estão indicadas no Missal, de modo abreviado.
+
+<h4 class="text-center">1.ª - Quando se dirige ao Pai, concluir-se-á:</h4>
+
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Per Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia Sæcula sæculórum. Amen.
+</div>
+<div class="dropcap text-justify">
+Por nosso Senhor Jesus, vosso Filho, que convosco vive e reina em unidade do Espírito Santo, Deus, por todos os séculos dos séculos. Amen.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">2.ª - Quando se menciona o Filho no princípio:</h4>
+
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sæcula sæculórum. Amen.
+</div>
+<div class="dropcap text-justify">
+Pelo mesmo nosso Senhor Jesus Cristo, vosso Filho, que convosco vive e reina em unidade do Espírito Santo, Deus, por todos os séculos dos séculos. Amen.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">3.ª - Quando se menciona o Filho no fim, concluir-se-á:</h4>
+
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sæcula sæculórum. Amen.
+</div>
+<div class="dropcap text-justify">
+Que convosco vive e reina em unidade do Espírito Santo, Deus, por todos os séculos dos séculos. Amen.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">4.ª - Quando se dirige ao Filho concluir-se-á:</h4>
+
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus, per ómnia sæcula sæculórum. Amen.
+</div>
+<div class="dropcap text-justify">
+Ó Vós, que viveis e reinais com Deus Pai em unidade do Espírito Santo, Deus, por todos os séculos dos séculos. Amen.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">5.ª - Quando se menciona o Espírito Santo, concluir-se-á:</h4>
+
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+... in unitáte ejúsdem Spíritus Sancti, Deus, per ómnia sæcula sæculórum. Amen.
+</div>
+<div class="dropcap text-justify">
+... em unidade do mesmo Espírito Santo, Deus, por todos os séculos dos séculos. Amen.
+</div>
+</div>
+</div>
+
+<em>Quando na mesma Missa se recitam diversas Orações, Secretas e Postcomúnios, somente a primeira e a última terão a conclusão como se indica atrás. Terminadas as conclusões, os fiéis respondem: Amen.</em>

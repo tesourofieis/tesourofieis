@@ -1,0 +1,62 @@
+---
+title: todo
+---
+<h2 class="text-center">Santa Cecília, Virgem e Mártir <em>22 de Novembro</em></h2>
+
+<em>Como na Missa Loquébar, página virgensmartires1, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui nos ánnua beátæ Caeciliae Vírginis et Mártyris tuæ sollemnitáte lætíficas: da, ut, quam venerámur offício, étiam piæ conversatiónis sequámur exémplo. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que nos alegrais com a solenidade anual da B. Cecília, vossa Virgem e Mártir, dignai-Vos permitir que, honrando-a com estes cultos, imitemos também os exemplos da sua piedosa vida. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Epístola <em>Página virgensmartires2</em></h4>
+
+<h4 class="text-center">Gradual <em>Sl. 44, 11 & 12</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam. V. <em>ibid., 5</em> Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.
+</div>
+<div class="dropcap text-justify">
+Escutai, ó minha filha, vede e inclinai o vosso ouvido; o Rei está cheio de amor por vós, por causa da vossa beleza! V. <em>ibid., 5</em> Com a vossa glória e com vossa formosura caminhai, triunfai e reinai.
+</div>
+<div class="text-justify">
+Allelúja, allelúja. V. <em>Matth. 25, 4 & 6</em> Quinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. Allelúja.
+</div>
+<div class="text-justify">
+Aleluia, aleluia. V. <em>Mt. 25, 4 & 6</em> As cinco virgens prudentes tomaram óleo em seus vasos para suas lâmpadas. No meio da noite uma voz soou: eis que chega o esposo: ide ao encontro de Cristo, Senhor. Aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Hæc hóstia, Dómine, placatiónis et laudis, quǽsumus: ut, intercedénte beáta Cæcília Vírgine et Mártyre tua, nos propitiatióne tua dignos semper effíciat. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Que esta hóstia de propiciação e de louvor, Senhor, Vos rogamos, nos torne sempre dignos da vossa misericórdia, pela intercessão da B. Cecília, vossa Virgem e Mártir. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Saciastes, Senhor, a vossa família com vossos sacratíssimos dons; e dignai-Vos favorecer-nos sempre, Vos imploramos, pela intercessão daquela cuja festa celebramos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

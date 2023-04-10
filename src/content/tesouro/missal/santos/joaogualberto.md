@@ -1,0 +1,62 @@
+---
+title: todo
+---
+<h2 class="text-center">S. João Gualberto, Abade <em>12 de Julho</em></h2>
+
+<em>Como na Missa Os justi, página abades, excepto:</em>
+
+<h4 class="text-center">Evangelho <em>Mt. 5, 48-48</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Sequéntia sancti Evangélii secúndum Matthǽum.
+</div>
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Continuação do santo Evangelho segundo S. Mateus.
+</div>
+<div class="dropcap text-justify">
+In illo témpore: Dixit Jesus discípulis suis: Audístis, quia dictum est: Diliges próximum tuum, et ódio habébis inimícum tuum. Ego autem dico vobis: Dilígite inimícos vestros, benefácite his, qui odérunt vos, et oráte pro persequéntibus et calumniántibus vos, ut sitis fílii Patris vestri, qui in cœlis est: qui solem suum oriri facit super bonos et malos, et pluit super justos et injústos. Si enim dilígitis eos, qui vos díligunt, quam mercédem habébitis? nonne et publicáni hoc fáciunt? Et si salutavéritis fratres vestros tantum, quid ámplius tácitis? nonne et éthnici hoc fáciunt? Estóte ergo vos perfécti, sicut et Pater vester cœléstis perféctus est.
+</div>
+<div class="dropcap text-justify">
+Naquele tempo, disse Jesus aos seus discípulos: «Aprendestes o que vos ensinaram: «amareis o vosso próximo e aborreceis o vosso inimigo?». Pois Eu vos digo: amai os vossos inimigos; fazei bem àqueles que vos odeiam; rezai pelos que vos perseguem e caluniam, a fim de que sejais filhos do vosso Pai, que está nos céus, o qual faz nascer o sol para os maus e bons e chover para os justos e injustos. Se amais os que vos amam, que recompensa mereceis? Não procedem do mesmo modo os publicanos? Se saudais somente os vossos irmãos, que fazeis mais do que os outros? Não procedem assim os pagãos? Sede, portanto, perfeitos, como o vosso Pai celestial é perfeito».
+</div>
+</div>
+</div>
+
+<h3 class="text-center">Comemoração dos Santos Mártires Nabor e Félix</h3>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Præsta, quǽsumus, Dómine: ut, sicut nos sanctórum Martyrum tuórum Nabóris et Felícis natalítia celebránda non desérunt; ita júgiter suffrágiis comitántur. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Senhor, assim como nós não cessamos de celebrar o natalício dos vossos Santos Mártires Nabor e Félix, assim também, Vos suplicamos, sejamos sempre socorridos com seus sufrágios. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Múnera plebis tuæ, quǽsumus, Dómine, sanetórum Mártyrum tuórum Nabóris et Felícis fiant grata suffrágiis: et, quorum triúmphis tuo nómini offeruntur, ipsorum digna perficiantur et méritis. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Dignai-Vos permitir, Senhor, Vos imploramos, que os dons do vosso povo Vos sejam agradáveis pelos sufrágios dos vossos Santos Nabor e Félix; e, pelos méritos daqueles em cuja honra são oferecidos ao vosso nome, fazei que sejam dignos de Vós. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Natalítiis Sanctórum tuórum, quǽsumus, Dómine: ut, sacraménti múnere vegetáti, bonis, quibus per tuam grátiam nunc fovémur, perfruámur ætérnis. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Fortalecidos com a recepção do sacramento que recebemos neste natalício dos vossos Santos, Vos suplicamos, Senhor, permiti que gozemos na eternidade aqueles bens com que a vossa graça nos favoreceu nesta vida. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

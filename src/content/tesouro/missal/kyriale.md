@@ -1,0 +1,18 @@
+---
+title: todo
+---
+<h1 class="text-center">Kyriale</h1>
+
+<h2 class="text-center">Missa VIII - Festas de 2ª Classe <em>de Angeli</em></h2>
+
+<!-- \gregorioscore{scores/kyriale/ky--kyrie_viii--solesme
+
+\gregorioscore{scores/kyriale/ky--gloria_viii--solesme
+
+\gregorioscore{scores/kyriale/ky--sanctus_viii--solesme
+
+\gregorioscore{scores/kyriale/ky--agnus_viii--solesme
+
+\gregorioscore{scores/kyriale/ky--ite_viii--solesme
+
+\gregorioscore{scores/kyriale/ky--benedicamus_viii--solesmes -->

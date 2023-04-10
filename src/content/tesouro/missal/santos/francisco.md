@@ -1,0 +1,32 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Francisco <em>4 de Outubro</em></h2>
+
+<em>Como na Missa Imp. dos Estigmas em S. Francisco, a 17 de Setembro, página estigmasfrancisco, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui Ecclésiam tuam, beáti Francisci méritis fœtu novæ prolis amplíficas: tríbue nobis; ex ejus imitatióne, terréna despícere et cœléstium donórum semper participatióne gaudére. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que pelos méritos do B. Francisco enriquecestes a vossa Igreja, dando-lhe uma nova família, concedei-nos a graça de imitá-lo, desprezando os bens terrenos, e de sempre nos alegrarmos com a participação dos dons celestiais. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Evangelho <em>Página pauloeremita</em></h4>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Ecclésiam tuam, quǽsumus, Dómine, grátia cœléstis amplíficet: quam beáti Francísci Confessóris tui illumináre voluísti gloriósis méritis et exémplis. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Dignai-Vos, Senhor, Vos suplicamos, com a graça celestial dilatar a vossa Igreja, a qual quisestes ilustrar com os gloriosos méritos e exemplos do B. Francisco, vosso Confessor. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

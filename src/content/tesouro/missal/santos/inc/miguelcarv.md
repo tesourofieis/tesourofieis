@@ -1,0 +1,18 @@
+---
+title: todo
+---
+<h2 class="text-center">B. Miguel de Carvalho e Outros, Márts. <em>Na Arquidiocese de Braga, 1 de Março</em></h2>
+
+<em>Como na Missa Sapiéntiam sanctórum, página muitosmartires2, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem com sua preciosa profissão de fé; e que pela sua piedosa intercessão sejamos continuamente favorecidos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

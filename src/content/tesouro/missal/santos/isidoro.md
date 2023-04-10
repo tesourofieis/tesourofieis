@@ -1,0 +1,6 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Isidoro, B. Conf. e Doutor <em>4 de Abril</em></h2>
+
+<em>Como na Missa In médio Ecclésiae, página doutores</em>

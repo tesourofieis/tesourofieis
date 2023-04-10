@@ -1,0 +1,52 @@
+---
+title: Completas 2
+---
+<em>Tudo como no primeiro oficio, excepto o seguinte:</em>
+
+<h3 class="text-center" id="item-22-1">Pequeno Capítulo - <em>Is. 7, 14-15</em></h3>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">Ecce Virgo concipiet, et pariet filium, et vocabitur nomen ejus Emmanuel. Butyrum et mel comedet, ut sciat reprobare malum, et eligere bonum.
+</div>
+<div class="dropcap text-justify">Pois por isso o mesmo Senhor vos dará este sinal: Uma virgem conceberá e dará à luz um filho, e o seu nome será Emanuel. Ele comerá manteiga e mel, até que saiba rejeitar o mal e escolher o bem.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Deo gratias.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Graças a Deus.
+</div>
+<div class="text-justify">
+V. Angelus Dómini nuntiávit Maríæ.
+</div>
+<div class="text-justify">
+V. O Anjo do Senhor anunciou a Maria.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Et concépit de Spíritu Sancto.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> E Ela concebeu do Espírito Santo.
+</div>
+<div class="text-justify">
+<em>Nunc. Ant.</em> Spiritus Sanctus in te descendet, Maria: ne timeas, habebis in utero Filium Dei, (Allelúja).
+</div>
+<div class="text-justify">
+<em>Nunc. Ant.</em> O Espírito Santo descerá sobre vós, ó Maria; não temais: concebereis, e tereis no ventre o Filho de Deus, (Aleluia).
+</div>
+<div class="text-danger text-center"> Orémus. </div>
+<div class="text-danger text-center"> Oremos. </div>
+<div class="dropcap text-justify">Deus, qui de beatæ Mariæ Virginis utero Verbum tuum, Angelo nuntiante, carnem suscipere voluisti: præsta supplicibus tuis; ut qui vere eam Genetricem Dei credimus, ejus apud te intercessionibus adjuvemur. Per eundem Dominum nostrum Jesum Christum.
+</div>
+<div class="dropcap text-justify">Ó Deus, que pela anunciação do Anjo quisestes que o vosso Verbo se vestisse da nossa carne nas entranhas da bem-aventurada Virgem Maria: nós, vossos humildes servos, cremos ser ela a verdadeira Mãe de Deus, concedei-nos que nos ajudem as suas intercessões para convosco. Pelo mesmo Jesus Cristo Senhor Nosso.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Amen.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Amen.
+</div>
+</div>
+</div>
+
+<em>Acabar com uma Antífona de Nossa Senhora.</em>

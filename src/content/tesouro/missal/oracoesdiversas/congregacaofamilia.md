@@ -1,0 +1,40 @@
+---
+title: todo
+---
+<h2 class="text-center">8.ª Por uma Congregação e Família</h2>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Defénde, quǽsumus, Dómine, beáta María semper Vírgine intercedénte, istam ab omni adversitáte famíliam: et toto corde tibi prostrátam, ab hóstium propítius tuére cleménter insídiis. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Pela intercessão da B. sempre Virgem Maria, defendei, Senhor, Vos suplicamos, esta família de todas as adversidades; e, visto que ela está prostrada de todo o coração diante de Vós, sede-lhe propício e, clementemente, protegei-a das insídias dos seus inimigos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Súscipe, quǽsumus, omnípotens Deus, oblatiónem nostræ devotiónis: et, per virtútem hujus sacraménti, fámulos tuos a cunctis adversitátibus prótege. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus omnipotente, Vos pedimos, aceitai esta oferta da nossa devoção; e pela virtude deste sacramento protegei os vossos servos de todas as adversidades. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Sumptis redemptiónis nostræ munéribus: præsta, quǽsumus, miséricors Deus; eórum nobis celebratióne, tuæ protectiónis contra omnes adversitátes subsídium. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Permiti, ó Deus de misericórdia, Vos rogamos, que, havendo nós recebido os dons da nossa redenção, sintamos o socorro da vossa protecção contra todas as adversidades. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

@@ -1,0 +1,42 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Cirilo de Alexandria, B. Conf. e Dr. <em>9 de Fevereiro</em></h2>
+
+<em>Como na Missa In médio Ecclésiae, página doutores, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui beátum Cyríllum Confessórem tuum atque Pontíficem divínæ maternitátis beatíssimæ Vírginis Maríæ assertórem invíctum effecísti: concéde, ipso intercedénte; ut, qui vere eam Genetrícem Dei crédimus, matérna ejúsdem protectióne salvémur. Per eúndem Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que tornastes o B. Cirilo, vosso Confessor e Pontífice, defensor invencível da divina maternidade da S. S. Virgem Maria, a nós, que acreditamos que ela é verdadeiramente Mãe de Deus, concedei por sua intercessão que sejamos salvos pela sua maternal protecção. Pelo <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Múnera nostra, omnípotens Deus, benígnus réspice: et, intercedénte beáto Cyríllo, præsta; ut unigénitum tuum Jesum Christum, Dóminum nostrum in tua tecum glória coætérnum, in córdibus nostris digne suscípere mereámur: Qui tecum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Deus omnipotente, olhai benigno para os nossos dons; e por intercessão do B. Cirilo, concedei-nos que possamos receber dignamente nos nossos corações a N. S. Jesus Cristo, vosso Filho Unigénito, que é coeterno convosco na glória. Ele, que, sendo Deus <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Divínis, Dómine, refécti mystériis, te súpplices deprecámur: ut, exémplis et méritis beáti Cyrílli Pontíficis adjúti, sanctíssimæ Genetríci Unigéniti tui digne famulári valeámus: Qui tecum vivit <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Fortalecidos, Senhor, com os divinos mystérios, Vos imploramos instantemente que, auxiliados com os exemplos e méritos do B. Pontífice Cirilo, possamos servir dignamente a S. S. Mãe do vosso Filho Unigénito. Ele, que <em>&c.</em>
+</div>
+</div>
+</div>

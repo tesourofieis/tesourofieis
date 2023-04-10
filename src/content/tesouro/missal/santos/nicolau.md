@@ -1,0 +1,104 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Nicolau, B. e Conf. <em>6 de Dezembro</em></h2>
+
+<h4 class="text-center">Intróito <em>Página martirpontificeforapascal</em></h4>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui beátum Nicoláum Pontíficem innúmeris decorásti miráculis: tríbue, quǽsumus; ut ejus méritis et précibus a gehénnæ incéndiis liberémur. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que distinguistes o B. Pontífice Nicolau, concedendo-lhe o dom de praticar inumeráveis milagres, permiti, Vos suplicamos, que pelos seus méritos e preces sejamos preservados do fogo do inferno. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Epístola <em>Heb. 13, 7-17</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
+</div>
+<div class="text-justify">
+Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
+</div>
+<div class="dropcap text-justify">
+Fratres: Mementóte præpositórum vestrórum, qui vobis locúti sunt verbum Dei: quorum intuéntes éxitum conversatiónis, imitámini fidem. Jesus Christus heri et hódie: ipse et in sǽcula. Doctrínis váriis et peregrínis nolíte abdúci. Optimum est enim grátia stabilíre cor, non escis, quæ non profuérunt ambulántibus in eis. Habémus altáre, de quo édere non habent potestátem, qui tabernáculo deserviunt. Quorum enim animálium infértur sanguis pro peccáto in Sancta per pontíficem, horum córpora cremántur extra castra. Propter quod et Jesus, ut sanctificáret per suum sánguinem pópulum, extra portam passus est. Exeámus ígitur ad eum extra castra, impropérium ejus portántes. Non enim habémus hic manéntem civitátem, sed futúram inquírimus. Per ipsum ergo offerámus hóstiam laudis semper Deo, id est fructum labiórum confiténtium nómini ejus. Beneficéntiæ autem et communiónis nolíte oblivísci: tálibus enim hóstiis promerétur Deus. Obœdíte præpósitis vestris et subjacéte eis. Ipsi enim pervígilant, quasi ratiónem pro animábus vestris redditúri.
+</div>
+<div class="dropcap text-justify">
+Meus irmãos: Lembrai-vos dos vossos pastores que vos pregaram a palavra de Deus; e, considerando qual foi o fim da sua vida, imitai a sua fé. Jesus Cristo é o mesmo ontem e hoje, e será o mesmo em todos os séculos! Não vos deixeis iludir com doutrinas diversas e estranhas, pois é melhor corroborar o coração com a graça do que procurar alimentos que em nada aproveitam aos que deles usam. Temos um altar do qual os ministros, que servem o tabernáculo, não têm o direito de comer. Os animais, cujo sangue para a expiação dos pecados o sacerdote levava para o santuário, eram queimados fora do campo. Por isso também Jesus, devendo santificar o povo com seu sangue, padeceu fora de portas. Portanto vamos a Ele fora dos arraiais, levando sobre nós a ignomínia da sua cruz; pois não temos aqui cidade permanente, mas buscamos a que há-de vir. Ofereçamos, portanto, por Ele sem cessar um sacrifício de louvor a Deus, isto é, o fruto dos lábios que confessam o seu nome. E não vos esqueçais de praticar a beneficência e a liberalidade, que são sacrifícios muito agradáveis a Deus. Obedeci aos vossos pastores e sede-lhe submissos; pois elos vigiam as vossas almas, das quais têm de dar conta.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Gradual <em>Sl. 88, 21-23</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. V. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.
+</div>
+<div class="dropcap text-justify">
+Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha mão o auxiliará e o meu braço o fortalecerá. V. Contra ele não prevalecerá o inimigo, e o filho da iniquidade não poderá fazer-lhe mal.
+</div>
+<div class="text-justify">
+Allelúja, allelúja. V. <em>Ps. 91, 13</em> Justus ut palma florébit: sicut cedrus Líbani multiplicábitur. Allelúja.
+</div>
+<div class="text-justify">
+Aleluia, aleluia. V. <em>Sl. 91, 13</em> O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano. Aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Evangelho <em>Página confessorespontifices1</em></h4>
+
+<h4 class="text-center">Ofertório <em>Sl. 88, 25</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus.
+</div>
+<div class="dropcap text-justify">
+A minha verdade e a minha misericórdia estarão com ele: e o seu poder elevar-se-á pelo meu nome.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte sancti Antístitis tui Nicolái offérimus: ut per ea vita nostra inter advérsa et próspera úbique dirigátur. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Santificai, ó Senhor, nosso Deus, estes dons, que Vos apresentamos na solenidade do vosso santo Pontífice Nicolau, a fim de que por meio deles possamos sempre proceder com rectidão, tanto nas adversidades, como nas prosperidades. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Comúnio <em>Sl. 88, 36-38</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Semel jurávi in sancto meo: Semen ejus in ætérnum manebit, et sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in ætérnum, et testis in cœlo fidélis.
+</div>
+<div class="dropcap text-justify">
+Jurei uma vez por minha santidade: a sua descendência durará eternamente e o seu trono brilhará perante mim, como o sol, e, como a lua, permanecerá para sempre, e será testemunho fiel no céu.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Sacrifícia, quæ súmpsimus, Dómine, pro sollemnitáte sancti Pontíficis tui Nicolái, sempitérna nos protectióne consérvent. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Que o sacrifício de que participámos, celebrando a festa do santo Pontífice Nicolau, Senhor, nos alcance perpetuamente a vossa protecção. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

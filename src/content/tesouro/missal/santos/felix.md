@@ -1,0 +1,42 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Félix, Presb. e Márt. <em>14 de Janeiro</em></h2>
+
+<em>Como na Missa Lætábitur justus, página martirnaopontifice2, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Concéde, quǽsumus, quaténus, quorum sollémnia ágimus, étiam actus imitémur. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Concedei-nos, ó omnipotente Deus, que os exemplos dos vossos Santos nos incitem a uma vida melhor, de que modo que imitemos também as acções daquele cuja solenidade celebramos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Hóstias tibi, Dómine, beáti Félicis Mártyris tui dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Aceitai benignamente, Senhor, as hóstias que Vos oferecemos em honra dos méritos do B. Félix, vosso Mártir, e permiti que nos alcancem o vosso perpétuo auxílio. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Quǽsumus, Dómine, salutáribus repléti mystériis: ut, beáti Félicis Mártyris tui, cujus sollémnia celebrámus, oratiónibus adjuvémur. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Havendo sido saciados com os salutares dons, dignai-Vos conceder-nos, Senhor, que sejamos auxiliados pelas orações do vosso B. Mártir Félix, cuja solenidade celebrámos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

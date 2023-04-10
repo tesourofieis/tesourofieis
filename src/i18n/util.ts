@@ -1,4 +1,4 @@
-import type { NavDict, UIDict, UIDictionaryKeys } from './translation-checkers';
+import type { UIDict, UIDictionaryKeys } from './translation-checkers';
 
 /**
  * Convert the map of modules returned by `import.meta.globEager` to an object
@@ -14,9 +14,6 @@ function mapDefaultExports<T>(modules: Record<string, { default: T }>) {
 }
 
 const translations = mapDefaultExports<UIDict>(import.meta.glob('./*/ui.ts', { eager: true }));
-export const navTranslations = mapDefaultExports<NavDict>(
-	import.meta.glob('./*/nav.ts', { eager: true })
-);
 
 /**
  * Create a helper function for getting translated strings.

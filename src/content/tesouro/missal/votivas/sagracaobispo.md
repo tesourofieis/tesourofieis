@@ -1,0 +1,42 @@
+---
+title: todo
+---
+<h2 class="text-center">Na Sagração de um Bispo</h2>
+
+<em>Missa Própria do dia, acrescentando-se à Oração, à Secreta e ao Postcomúnio, sob a mesma conclusão, o seguinte:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Adésto supplicatiónibus nostris, omnípotens Deus: ut, quod humilitátis nostræ geréndum est ministério, tuæ virtútis impleátur efféctu. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó omnipotente Deus, atendei às nossas súplicas, a fim de que aquilo que praticamos pelo nosso humilde ministério, tenha efeito pelo vosso poder. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Súscipe, Dómine, múmera, quæ tibi offérimus pro hoc fámulo tuo: ut propítius in eo tua dona custódias. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Aceitai, Senhor, as oblatas que Vos Oferecemos em benefício deste vosso servo, a fim de que, propiciamente, conserveis nela os vossos dons. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Súscipe, Dómine, múnera, quæ tibi offérimus pro me fámulo tuo: ut propítius in me tua dona custódias. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Senhor, Vos suplicamos, que nos sejam salutares os remédios da vossa misericórdia; e que, propiciamente, eles de tal modo nos reanimem e alentem que em todo nosso ministério Vos consigamos agradar. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

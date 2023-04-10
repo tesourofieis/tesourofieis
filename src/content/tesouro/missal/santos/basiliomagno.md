@@ -1,0 +1,26 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Basílio Magno, B. Conf. e Doutor <em>14 de Junho</em></h2>
+
+<em>Como na Missa In médio Ecclésiae, página doutores, excepto:</em>
+
+<h4 class="text-center">Oração, Ofertório, Secreta e Postcomúnio <em>Página confessorespontifices2</em></h4>
+
+<h4 class="text-center">Evangelho <em>Lc. 14, 26-35</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Sequéntia sancti Evangélii secúndum Lucam.
+</div>
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Continuação do santo Evangelho segundo S. Lucas.
+</div>
+<div class="dropcap text-justify">
+In illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus. Et qui non bájulat crucem suam, et venit post me, non potest meus esse discípulus. Quis enim ex vobis volens turrim ædificáre, non prius sedens cómputat sumptus, qui necessárii sunt, si hábeat ad perficiéndum; ne, posteáquam posúerit fundaméntum, et non potúerit perfícere, omnes, qui vident, incípiant illúdere ei, dicéntes: Quia hic homo cœpit ædificáre, et non pótuit consummáre? Aut quis rex iturus commíttere bellum advérsus álium regem, non sedens prius cógitat, si possit cum decem mílibus occúrrere ei, qui cum vigínti mílibus venit ad se? Alióquin, adhuc illo longe agénte, legatiónem mittens, rogat ea, quæ pacis sunt. Sic ergo omnis ex vobis, qui non renúntiat ómnibus, quæ póssidet, non potest meus esse discípulus. Bonum est sal. Si autem sal evanúerit, in quo condiétur? Neque in terram neque in sterquilínium útile est, sed foras mittétur. Qui habet aures audiéndi, áudiat.
+</div>
+<div class="dropcap text-justify">
+Naquele tempo, disse Jesus às turbas: «Se alguém vem a mim e não despreza seu pai, sua mãe, sua mulher e filhos, seus irmãos e irmãs e até mesmo a sua própria vida, não pode ser meu discípulo. E todo aquele que não leva a sua cruz não pode ser meu discípulo. Com efeito, qual é de vós que, querendo edificar uma torre, não calcula primeiramente com cuidado os gastos necessários, para ver se possui meios para a acabar? Pois poderá acontecer que, depois de haver lançado os alicerces e não podendo acabar a torre, comecem a zombar dele aqueles que o vêem, dizendo: «Este homem começou a edificar e não pôde acabar!». Ou qual é o rei que, preparando-se para pelejar com outro rei, não considera primeiramente se com um exército de dez mil homens poderá fazer frente ao inimigo, que avança contra ele com vinte mil homens? Se vê que não pode combater, estando ainda o outro longe, manda-lhe uma embaixada a pedir-lhe a paz. Assim, pois, todo aquele de vós que não renunciar a tudo quanto possui não pode ser meu discípulo. O sal é bom; mas, se perder a força, com que se há-de salgar? Ele não será útil nem para a terra, nem para o lugar imundo: porém, será lançado fora».
+</div>
+</div>
+</div>

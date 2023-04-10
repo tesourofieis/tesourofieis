@@ -1,0 +1,42 @@
+---
+title: todo
+---
+<h2 class="text-center">Santo António de Lisboa <em>13 de Junho</em></h2>
+
+<em>Como na Missa In médio Ecclésiae, página doutores, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Ecclésiam tuam, Deus, beáti Antónii Confessóris tui atque Doctóris solémnitas votiva lætíficet: ut spirituálibus semper muniátur auxíliis et gáudiis pérfrui mereátur ætérnis. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Que a festa anual do B. António, vosso Confessor e Doutor, alegre a vossa Igreja, Senhor, a fim de que, fortalecida sempre com os auxílios espirituais, mereça desfrutar os gozos eternos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Præsens oblátio fiat, Dómine, pópulo tuo salutáris: pro quo dignátus es Patri tuo te vivéntem hóstiam immoláre: Qui cum eódem Deo Patre et Spíritu Sancto vivis et regnas <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Fazei, Senhor, que a presente oblação seja salutar ao vosso povo, pelo qual Vos dignastes imolar-Vos ao vosso Pai, como hóstia viva. Ó Vós, que, sendo Deus <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Divínis, Dómine, munéribus satiáti: quǽsumus; ut, beáti Antónii Confessóris tui atque Doctóris méritis et intercessióne, salutáris sacrifícii sentiámus efféctum. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Saciados com os divinos dons, Vos suplicamos, Senhor, que pela intercessão e méritos do B. António, vosso Confessor e Doutor, sintamos o efeito deste salutar sacrifício. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

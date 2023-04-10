@@ -1,0 +1,116 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Francisco Xavier, Confessor <em>3 de Dezembro</em></h2>
+
+<h4 class="text-center">Intróito <em>Sl. 118, 46-47</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis. <em>Ps. 110, 1-2</em> Laudáte Dóminum, omnes gentes, laudáte eum, omnes pópuli: quóniam confirmáta est super nos misericórdia ejus, et véritas Dómini manet in ætérnum.
+V. Gloria Patri <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Falava dos vossos testemunhos sem vergonha na presença dos reis: e meditava nos vossos mandamentos, que amava profundamente. <em>Sl. 110, 1-2</em> Louvai o Senhor, ó vós, todas as nações; louvai-O, ó vós, todos os povos; pois a sua misericórdia para connosco manifestou-se claramente e a verdade do Senhor permanece eternamente.
+V. Glória ao Pai <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui Indiárum gentes beáti Francísci prædicatióne et miráculis Ecclésiæ tuæ aggregáre voluísti: concéde propítius; ut, cujus gloriósa mérita venerámur, virtútum quoque imitémur exémpla. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que pela pregação e milagres do B. Francisco quisestes chamar à vossa Igreja os povos das Índias, concedei-nos propício que, venerando os seus gloriosos méritos, imitemos, também, os exemplos das suas virtudes. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Epístola <em>Página andreapostolo</em></h4>
+
+<h4 class="text-center">Gradual <em>Sl. 91, 13 & 14</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. V. <em>ibid., 3</em> Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.
+</div>
+<div class="dropcap text-justify">
+O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano, na casa do Senhor. V. <em>ibid., 3</em> Para publicar de manhã a vossa misericórdia; e de noite a vossa verdade.
+</div>
+<div class="text-justify">
+Allelúja, allelúja. V. <em>Jac. 1, 12</em> Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.
+</div>
+<div class="text-justify">
+Aleluia, aleluia. V. <em>Tg. 1, 12</em> Bem-aventurado o varão que sabe sofrer a tentação, porque, quando acabar a tentação, receberá a coroa da vida. Aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Evangelho <em>Mc. 16, 15-18</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Sequéntia sancti Evangélii secúndum Marcum.
+</div>
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Continuação do santo Evangelho segundo S. Marcos.
+</div>
+<div class="dropcap text-justify">
+In illo témpore: Dixit Jesus discípulis suis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúra. Qui credíderit, et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequántur: In nómine meo dæmónia ejícient: linguis loquántur novis: serpéntes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt.
+</div>
+<div class="dropcap text-justify">
+Naquele tempo, disse Jesus aos seus discípulos: «Ide pelo mundo inteiro e pregai o Evangelho a todas as criaturas. Quem acreditar e for baptizado será salvo; quem não acreditar será condenado. Eis os milagres que acompanharão aqueles que acreditarem: Em meu nome expulsarão os demónios; falarão novas línguas; tirarão com suas serpentes; se beberem alguma coisa mortífera, lhes não fará dano; e imporão as mãos sobre os enfermos, que serão curados».
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Ofertório <em>Sl. 88, 25</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus.
+</div>
+<div class="dropcap text-justify">
+A minha verdade e a minha misericórdia estarão com ele, e, por virtude do meu nome, será exaltado o seu poder.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis oblátio, et pro tuórum tibi grata sit honóre Sanctórum, et nos córpore páriter et mente puríficet. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Concedei-nos, ó Deus omnipotente, que esta oferta da nossa humildade, servindo para honrar os vossos Santos, Vos seja agradável; e que ao mesmo tempo nos purifique o corpo e a alma. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Comúnio <em>Mt. 24,46-47</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum.
+</div>
+<div class="dropcap text-justify">
+Bem-aventurado o servo que o Senhor, quando vier, achar vigilante. Em verdade vos digo que lhe dará a administração de todos seus bens.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedénte beáto Francísco Confessóre tuo, per hæc contra ómnia advérsa muniámur. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Havendo nós, ó Deus omnipotente, recebido o alimento celestial, permiti, Vos suplicamos, que, pela intercessão do B. Francisco, vosso Confessor, sejamos fortalecidos contra todas as adversidades. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

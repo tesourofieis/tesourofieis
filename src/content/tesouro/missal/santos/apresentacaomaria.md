@@ -1,0 +1,18 @@
+---
+title: todo
+---
+<h2 class="text-center">Apresentação da B. V. Maria <em>21 de Novembro</em></h2>
+
+<em>Como na Missa Salve, sancta Parens, página comumfestasmaria1, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui beátam Maríam semper Vírginem, Spíritus Sancti habitáculum, hodiérna die in templo præsentári voluísti: præsta, quǽsumus; ut, ejus intercessióne, in templo glóriæ tuæ præsentári mereámur. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que quisestes que a B. V. Maria, em quem habitava o Espírito Santo, fosse neste dia apresentada no templo, permiti pela sua intercessão que mereçamos ser apresentados no templo da vossa glória. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

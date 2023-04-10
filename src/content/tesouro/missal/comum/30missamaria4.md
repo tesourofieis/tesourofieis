@@ -1,0 +1,50 @@
+---
+title: todo
+---
+<h2 class="text-center">4.ª Missa - Desde a Páscoa até ao Pentecostes <em>Missa Salve, sancta Parens da Virgem Maria</em></h2>
+
+<em>Como na Missa Precedente, excepto o seguinte:</em>
+
+
+<em>Depois da Epistola diz-se:</em>
+
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+Allelúja, allelúja. V. <em>Num. 17, 8</em> Virga Jesse flóruit: Virgo Deum et hóminem génuit: pacem Deus réddidit, in se reconcílians ima summis. Allelúja. V. <em>Luc. 1, 28</em> Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.
+</div>
+<div class="text-justify">
+Aleluia, aleluia. V. <em>Nm. 17, 8</em> A vara de Jessé floresceu: e a Virgem deu à luz o Homem-Deus: restabeleceu Deus a paz, conciliando na sua pessoa a nossa baixeza com sua suprema grandeza. Aleluia. V. <em>Lc. 1, 28</em> Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós entre as mulheres. Aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Evangelho <em>Jo. 19, 25-27</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Sequéntia sancti Evangélii secúndum Joánnem.
+</div>
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Continuação do santo Evangelho segundo S. João.
+</div>
+<div class="dropcap text-justify">
+In illo témpore: Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et María Magdaléne. Cum vidísset ergo Jesus Matrem, et discípulum stantem, quem diligébat, dicit Matri suæ: Múlier, ecce fílius tuus. Deinde dicit discípulo: Ecce Mater tua. Et ex illa hora accépit eam discípulus in sua.
+</div>
+<div class="dropcap text-justify">
+Naquele tempo, estavam, junto à cruz de Jesus, sua Mãe e a irmã de sua Mãe, Maria, mulher de Cléofas, e Maria Madalena. Vendo Jesus sua Mãe e, perto dela, o discípulo Ele preferia, disse a sua Mãe: «Mulher, eis o vosso filho!». Depois disse ao discípulo: «Eis a tua Mãe!». E desde aquela hora levou-a o discípulo consigo.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Ofertório</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Beáta es, Virgo María, quæ ómnium portásti Greatórem: genuísti qui te fecit, et in ætérnum pérmanes Virgo, allelúja.
+</div>
+<div class="dropcap text-justify">
+Sois bem-aventurada, ó Virgem Maria, pois fostes digna de trazer em vosso seio o Criador do mundo. Vós gerastes Aquele que vos criou e permanecestes eternamente Virgem. Aleluia.
+</div>
+</div>
+</div>

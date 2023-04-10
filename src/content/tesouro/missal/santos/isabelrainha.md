@@ -1,0 +1,116 @@
+---
+title: todo
+---
+<h2 class="text-center">Santa Isabel, Rainha de Portugal <em>8 de Julho</em></h2>
+
+<h4 class="text-center">Intróito</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Elisabeth reginæ: de cujus solemnitáte gaudent Angeli, et colláudant Fílium Dei. <em>Ps. 118, 1</em> Beáti immaculáti in via: qui ámbulant in lege Dómini.
+V. Gloria Patri <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Alegremo-nos todos no Senhor, no dia em que celebramos a festa em honra da B. Rainha Isabel: os Anjos regozijam-se com esta festa e louvam em harmonias o Filho de Deus. <em>Sl. 118, 1</em> Bem-aventurados aqueles que procedem sem mácula: e que andam na lei do Senhor.
+V. Glória ao Pai <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Clementíssime Deus, qui beátam Elísabeth regínam, inter céteras egrégias dotes, béllíci furóris sedándi prærogatíva decorásti: da nobis, ejus intercessíóne; post mortális vitæ, quam supplícíter pétimus, pacem, ad ætérna gáudia perveníre. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó clementíssimo Deus, que entre outros eminentes dotes ornastes a B. Isabel com a prerrogativa de aplacar os furores da guerra, Concedei-nos por sua intercessão que, depois de havermos durante esta vida mortal gozado a paz, como humildemente pedimos, alcancemos também as alegrias eternas. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Epístola <em>Ecl. 26, 19-24</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+Léctio libri Sapiéntiæ.
+</div>
+<div class="text-justify">
+Lição do Livro da Sabedoria.
+</div>
+<div class="dropcap text-justify">
+Grátia super grátiam, múlier sancta et pudoráta. Omnis autem ponderátio non est digna continéntis ánimæ. Sicut sol óriens mundo in altíssimis Dei, sic mulíeris bonæ spécies in ornaméntum domus ejus. Lucérna splendens super candelábrum sanctum, et spécies faciéi super ætátem stábilem. Coluúmnæ áureæ super bases argénteas, et pedes firmi super plantas státibilis mulíeris. Fundaménta ætérna super petram sólidam, et mandáta Dei in corde mulíeris sanctæ.
+</div>
+<div class="dropcap text-justify">
+A mulher santa e casta é uma graça sobre graça: pois nem toda a riqueza é digna da alma casta. Assim como o sol, ao despontar nas alturas de Deus, ilumina o mundo, assim também a beleza da mulher virtuosa é ornamento da sua casa. A beleza do rosto feminino na idade madura é como uma lâmpada que brilha sobre um candelabro santo. Como colunas de ouro assentes sobre bases de prata, assim estão firmes sobre as suas plantas os pés da mulher constante. Os Mandamentos de Deus no coração da mulher santa são como alicerces eternos, assentes sobre a pedra sólida.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Gradual</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Verbo Dómini contínuit cælum: lenívit iracúndiam Dómini, et conciliávit cor Patris ad fílium. V. <em>ibid., 15</em> In vita sua fecit magnália, et in morte mirabília operáta est.
+</div>
+<div class="dropcap text-justify">
+Com a palavra do Senhor conteve o céu, afastou a ira do Senhor e conciliou o coração do pai com o do filho. V. <em>ibid., 15</em> Durante a sua vida praticou maravilhas e na morte operou milagres.
+</div>
+<div class="text-justify">
+Allelúja, allelúja. V. Áspice, quæ sólio résides, regína, supérno, nos quondam hic pópulos, Elisabétha, tuos. Allelúja.
+</div>
+<div class="text-justify">
+Aleluia, aleluia. V. Ó Rainha Isabel, que residis em excelso trono, olhai benignamente para nós, que outrora fomos na terra vossos súbditos. Aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Evangelho <em>Página evangelhovirgensmartires2</em></h4>
+
+<h4 class="text-center">Ofertório <em>Sl. 44, 13 & 10</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Vultum tuum deprecabúntur omnes divítes plebis: fíliæ regum in honóre tuo.
+</div>
+<div class="dropcap text-justify">
+Todos os poderosos da terra implorarão o vosso olhar: as filhas dos reis honrar-vos-ão.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui in honórem beátæ Elísabeth, regínæ has tibi solémnes hóstias offérri voluísti: da nobis; ut ejus vestígia secúti, et oratióne adjúti, tibi, cui servíre regnáre est, toto corde serviámus in terra, ac tecum regnémus in cælo. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que quisestes que este solene sacrifício Vos fosse oferecido em honra da B. Rainha Isabel, fazei que, seguindo nós seus passos e auxiliados pelas suas preces, Vos sirvamos na terra, lembrando-nos de que «servir-Vos é reinar», e convosco reinemos no céu. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Comúnio <em>Sl. 44, 10</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Ástitit regína a déxteris tuis in vestítu deauráto, circúmdata varietáte.
+</div>
+<div class="dropcap text-justify">
+À vossa dextra está a Rainha, vestida com seu manto de ouro e cercada de variedade.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Regáli ac sacro convívio, Dómine Jesu Christe, in quo tu es ipse verus cibus et potus, nos, quæsumus, dignos effíciat: et cáritas tua imménsa, et beátæ Elisabeth regínæ intercéssio gloriósa: Qui vivis et regnas <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Permiti, ó Senhor Jesus Cristo, Vos suplicamos, que a imensa caridade e a gloriosa protecção da B. Rainha Isabel nos façam dignos do real e sagrado banquete em que Vós próprio sois a Verdadeira comida e bebida. Ó Vós, que, sendo Deus <em>&c.</em>
+</div>
+</div>
+</div>

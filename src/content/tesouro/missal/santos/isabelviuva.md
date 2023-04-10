@@ -1,0 +1,18 @@
+---
+title: todo
+---
+<h2 class="text-center">Santa Isabel, Viúva <em>19 de Novembro</em></h2>
+
+<em>Como na Missa Cognóvi, Dómine, página nemvirgensnemmartires, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Tuórum corda fidélium, Deus miserátor, illústra: et, beátæ Elisabeth précibus gloriósis; fac nos próspera mundi despícere, et cœlésti semper consolatióne gaudére. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus de misericórdia, esclarecei os corações dos vossos fiéis; e, pelas gloriosas preces da B. Isabel, concedei-nos a graça de desprezarmos as prosperidades deste mundo e de gozarmos perpetuamente a consolação celestial. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

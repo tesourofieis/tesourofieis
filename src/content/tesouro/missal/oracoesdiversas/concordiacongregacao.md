@@ -1,0 +1,40 @@
+---
+title: todo
+---
+<h2 class="text-center">9.ª Pela concórdia na Congregação</h2>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, lárgiter pacis et amátor cantátis: da fámulis tuis veram cum tua voluntáte concórdiam; ut ab ómnibus, quæ nos pulsant, tentatiónibus liberémur. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que dais a paz e amais a caridade, concedei aos vossos servos a verdadeira união com vossa vontade a fim de que sejamos livres de todas as tentações que nos perseguem. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+His sacrifíciis, Dómine, quǽsumus, concéde placátus: ut, qui própriis orámus absólvi delíctis, non gravémur extérnis. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Aplacado com este sacrifício, Senhor, concedei-nos, Vos pedimos, que nós, querendo ser absolvidos dos nossos próprios pecados, não sejamos sobrecarregados com os alheios. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Spíritum nobis, Dómine, tuæ cantátis infúnde: ut, quos uno pane cœlésti satiásti, tua fácias pietáte concórdes. Per Dóminum <em>&c.</em> in unitáte ejusdem.
+</div>
+<div class="dropcap text-justify">
+Infundi em nós, Senhor, o espírito da vossa caridade, para que misericordiosamente torneis unidos de coração aqueles a quem saciastes com o mesmo Pão celestial. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

@@ -1,0 +1,19 @@
+---
+title: todo
+---
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+V. Oh mi Jesu, dimitte nobis débita nostra, líbera nos ab igne inférni,
+</div>
+<div class="text-justify">
+V. Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno,
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Conduc in cælum omnes animas, præsértim illas quæ máxime indigent misericórdia tua.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Levai as alminhas todas para o Céu e socorrei principalmente as que mais precisarem.
+</div>
+</div>
+</div>
