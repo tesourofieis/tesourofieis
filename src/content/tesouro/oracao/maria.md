@@ -1,0 +1,201 @@
+---
+title: todo
+---
+<h1>Santa Maria</h1>
+
+<h2></h2>Augusta Rainha dos Anjos
+
+Augusta Rainha dos Anjos, Vós que recebestes de Deus o poder e a missão de esmagar a cabeça de Satanás, humildemente Vos rogamos que envieis as Legiões Celestes para que às vossas ordens persigam e combatam os demónios por toda a parte, refreando a sua audácia e precipitando-os no abysmo.\par
+Quem é como Deus? Ó Bondosa e Carinhosa Mãe, Vós sereis sempre o nosso amor e a nossa esperança.\par
+Ó divina Mãe, enviai os Santos Anjos em nossa defesa, afastando para longe de nós o cruel inimigo.\par
+Santos Anjos e Arcanjos, defendei-nos e guardai-nos. Amen.\par
+
+<h2>Consagração a Nossa Senhora</h2>
+
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+Domina mea!
+O Mater mea!
+</div>
+<div class="text-justify">
+Ó Senhora, minha!
+Ó minha Mãe!
+</div>
+<div class="text-justify">
+Tibi me totum offero, atque, ut me tibi probem devotum, consecro tibi hodie oculos meos, aures meas, os meum, cor meum, plane me totum.
+</div>
+<div class="text-justify">
+Eu me ofereço todo a Vós e em prova da minha devoção para convosco Vos consagro neste dia os meus olhos, os meus ouvidos, a minha boca, o meu coração e inteiramente todo meu ser.
+</div>
+<div class="text-justify">
+Quóniam itaque tuus sum, o bona Mater, serva me, defende me ut rem et possessionem tuam. Amen.
+</div>
+<div class="text-justify">
+E porque assim sou todo vosso, ó incomparável Mãe, guardai-me e defendei-me como coisa e propriedade vossa. Amen.
+</div>
+</div>
+</div>
+
+<h2>Rainha do Santo Rosário</h2>
+
+Ó Imaculada Rainha do Santo Rosário. Virgem Maria, Mãe de Deus e Mãe nossa, lembrai-Vos das vossas antigas promessas feitas aos nossos antepassados e dos triunfos que por Vós eles conseguiram. Pelo vosso Rosário, ó Maria, eles conservaram íntegras a fé e a religião do seu baptismo, venceram os hereges, inimigos da nossa Pátria e permaneceram fiéis à santa Igreja Católica.\par
+O erro quer corromper a verdade da nossa fé cristã e católica. Ó Rainha do Santo Rosário, defendei e guarda as nossas crenças puras de todo o erro.\par
+O espírito do mal quer corromper as tradições cristãs das nossas famílias e os costumes santos que a nossa religião Católica nos inspira e pede.\par
+Ó Rainha do Santo Rosário, amparai e conservai o nosso espírito cristão e defendei-nos das venenosas infiltrações do espírito do mal.\par
+Sede nosso amparo, nossa Rainha e nossa Mãe; nós Vos invocaremos, louvaremos, serviremos e amaremos pelo Rosário, seremos fiéis em rezar as suas dezenas e media. Seus mystérios amaremos, serviremos a Jesus e pela vossa intercessão, ó Virgem Imaculada conseguiremos a graça e o amor de Deus e nos salvaremos para sempre. Amen.\par
+Rainha do Santíssimo Rosário, protegei-nos.\par
+S. Domingos de Gusmão, rogai por nós.\par
+
+<h2>Tota Púlchra es, Maria</h2>
+
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+V. Tota púlchra es, Maria.
+</div>
+<div class="text-justify">
+V. Toda sois formosa, ó Maria.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Tota púlchra es, Maria.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Toda sois formosa, ó Maria.
+</div>
+<div class="text-justify">
+V. Et mácula originalis non est in te.
+</div>
+<div class="text-justify">
+V. E mácula original não há em Vós.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Et mácula originális non est in te.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> E mácula original não há em Vós.
+</div>
+<div class="text-justify">
+V. Tu, gloria Jerusalem.
+</div>
+<div class="text-justify">
+V. Vós sois a glória de Jerusalém.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Tu, lætitia Israël.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Vós a alegria de Israel.
+</div>
+<div class="text-justify">
+V. Tu, honorificentia populi nostri.
+</div>
+<div class="text-justify">
+V. Vós a honra do nosso povo.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Tu, advocata peccatorum.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Vós a advogada dos pecadores.
+</div>
+<div class="text-justify">
+V. O Maria.
+</div>
+<div class="text-justify">
+V. Ó Maria.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> O Maria.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Ó Maria.
+</div>
+<div class="text-justify">
+V. Virgo prudentissima.
+</div>
+<div class="text-justify">
+V. Virgem prudentíssima.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Mater clementissima.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Mãe clementíssima.
+</div>
+<div class="text-justify">
+V. Ora pro nobis.
+</div>
+<div class="text-justify">
+V. Rogai por nós.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Intercede pro nobis ad Dominum Jesum Christum.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Intercedei por nós a Nosso Senhor Jesus Cristo.
+</div>
+<div class="text-justify">
+V. In conceptione tua, Immaculata fuisti.
+</div>
+<div class="text-justify">
+V. Vós fostes, ó Virgem, Imaculada em vossa Conceição.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Ora pro nobis Patrem cujus Filium peperisti.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Rogai por nós ao Pai, cujo Filho destes à luz.
+</div>
+<div class="text-justify">
+V. Domina, protege orationem meam.
+</div>
+<div class="text-justify">
+V. Protegei, Senhora, a minha oração.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> Et clamor meus ad te veniat.
+</div>
+<div class="text-justify">
+<span class="text-danger">R.</span> E chegue até vós o meu clamor.
+</div>
+<div class="text-danger text-center">
+Orémus.
+</div>
+<div class="text-danger text-center">
+Oremos.
+</div>
+<div class="dropcap text-justify">
+Sancta Maria, regina cælorum, mater Domini nostri Jesu Christi, et mundi domina, quæ nullum derelinquis, et nullum despicis: respice me, domina, clementer oculo pietatis, et impetra mihi apud tuum dilectum Filium cunctorum veniam peccatorum: ut qui nunc tuam sanctam et immaculatam conceptionem devoto affectu recolo, æternæ in futurum beatitudinis, bravium capiam, ipso, quem virgo peperisti, donante Domino nostro Jesu Christo: qui cum Patre et Sancto Spiritu vivit et regnat, in Trinitate perfecta, Deus, in sæcula sæculorum. <span class="text-danger">R.</span> Amen.
+</div>
+<div class="dropcap text-justify">
+Santa Maria, Rainha dos céus, Mãe de nosso Senhor Jesus Cristo e Senhora do mundo, que a ninguém desamparais nem desprezais; ponde, Senhora, em mim os olhos da vossa piedade e alcançai-me do vosso amado Filho o perdão de todos meus pecados, para que, venerando agora afectuosamente a vossa Imaculada Conceição, mereça na outra vida a coroa da eterna bem-aventurança: por mercê d’Aquele que vós, virgem, destes à luz, Jesus Cristo, Senhor nosso, que com o Pai e o Espírito Santo vive e reina em Trindade perfeita, Deus pelos séculos dos séculos. <span class="text-danger">R.</span> Amen.
+</div>
+</div>
+</div>
+
+<h2 class="text-center">Memoráre</h2>
+
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Memoráre, O piíssima Virgo Maria, non esse auditum a sæculo, quemquam ad tua currentem præsidia, tua implorantem auxilia, tua petentem suffragia, esse derelictum. Ego tali animatus confidéntia, ad te, Virgo Vírginum, Mater, curro, ad te venio, coram te gemens peccátor assisto. Noli, Mater Verbi, verba mea despícere; sed audi propitia et exáudi. Amen.
+</div>
+<div class="dropcap text-justify">
+Lembrai-Vos, ó piíssima Virgem Maria, que jamais se ouviu dizer que algum dos que têm recorrido à vossa protecção, implorado a vossa assistência, e reclamado o vosso socorro, fosse por Vós desamparado. Animado eu de tal confiança, a Vós recorro, Virgem das virgens, minha Mãe, a Vós venho, pecador gemendo perante Vós. Minhas súplicas, ó Mãe do Verbo, não desprezeis, mas ouvi-as propiciamente e atendei-me. Amen.
+</div>
+</div>
+</div>
+
+<h2>Sub tuum præsídium</h2>
+
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Sub tuum præsídium confúgimus, sancta Dei Génetrix; nostras deprecatiónes ne despícias in necessitátibus; sed a perículis cunctis líbera nos semper, Virgo gloriósa et benedícta. Amen.
+</div>
+<div class="dropcap text-justify">
+À vossa protecção recorremos, Santa Mãe de Deus; não desprezeis as nossas súplicas em nossas necessidades; mas livrai-nos sempre de todos os perigos, ó Virgem gloriosa e bendita. Amen.
+</div>
+</div>
+</div>

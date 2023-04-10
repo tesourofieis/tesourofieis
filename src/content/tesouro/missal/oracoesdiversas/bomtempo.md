@@ -1,0 +1,40 @@
+---
+title: todo
+---
+<h2 class="text-center">17.ª Para implorar o bom tempo</h2>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Ad te nos, Dómine, clamántes exáudi: et áëris serenitátem nobis tríbue supplicántibus; ut, qui juste pro peccátis nostris afflígimur, misericórdia tua præveniénte, cleméntiam sentiámus. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ouvi, Senhor, aqueles que por Vós clamam, e, Vo-lo pedimos, concedei-nos tempo sereno nos astros, a fim de que nós, que fomos punidos justamente pelos nossos pecados, sejamos remediados pela vossa misericórdia e sintamos a vossa clemência Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Prævéniat nos, quǽsumus, Dómine, grátia tua semper et subsequátur: et has oblatiónes, quas pro peccátis nostris nómini tuo consecrándas deférimus, benígnus assúme; ut, per intercessiónem Sanctórum tuórum, cunctis nobis profíciant ad salútem. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Senhor, Vos suplicamos, permiti que a vossa graça nos remedeie e nos acompanhe sempre; e que Vos digneis aceitar benignamente estas oblatas, que vamos consagrar em honra do vosso santo nome, como reparação dos nossos pecados, a fim de que por intercessão dos vossos Santos a todos aproveitem para a salvação. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Quǽsumus, omnípotens Deus, cleméntiam tuam: ut inundántiam coérceas ímbrium, et hilaritátem vultus tui nobis impertíri dignéris. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó omnipotente Deus, pedimos à vossa clemência se digne suspender as torrentes da chuva, que nos inunda, e Vos digneis mostrar-nos aspecto agradável. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

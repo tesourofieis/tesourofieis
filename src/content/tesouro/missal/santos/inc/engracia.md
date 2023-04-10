@@ -1,0 +1,18 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Engrácia, Virgem e Mártir <em>16 de Abril</em></h2>
+
+<em>Como na Missa Loquébar, página virgensmartires1, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Ó Deus omnipotente e sempiterno, que escolheis os fracos do mundo para com eles confundirdes os poderosos, a nós, que celebramos esta solenidade em honra da B. Engrácia, vossa Virgem e Mártir, concedei propício que junto de Vós sintamos o seu patrocínio. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

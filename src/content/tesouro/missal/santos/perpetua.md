@@ -1,0 +1,18 @@
+---
+title: todo
+---
+<h2 class="text-center">S. S. Perpétua e Felicidade, Mártires <em>6 de Março</em></h2>
+
+<em>Como na Missa Me exspectavérunt, página 19muitasvirgensmartires, excepto:</em>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Mýsticis, Dómine, repléti sumus votis et gáudiis: præsta, quǽsumus; ut intercessiónibus sanctárum Mártyrum tuárum Perpétuæ et Felicitátis, quæ temporáliter ágimus, spirituáliter consequámur. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Saciados com as alegrias místicas, que são objecto dos nossos desejos, concedei-nos, Vos suplicamos, Senhor, que por intercessão das vossas Santas Mártires Perpétua e Felicidade alcancemos os eternos efeitos do que praticámos neste mundo. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

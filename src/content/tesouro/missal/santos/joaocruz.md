@@ -1,0 +1,54 @@
+---
+title: todo
+---
+<h2 class="text-center">S. João da Cruz <em>24 de Novembro</em></h2>
+
+<em>Como na Missa In médio Ecclésiae, página doutores, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que tornastes notável o vosso Santo Confessor e Doutor João pela abnegação perfeita de si próprio e pelo amor à Cruz, fazei que, diligenciando imitá-lo, alcancemos a glória eterna. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Ouvi as nossas súplicas, Senhor, a fim de que, reconhecendo-nos réus pelas nossas iniquidades, sejamos absolvidos pela intercessão do vosso B. Mártir Crisógono. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Deixai-Vos aplacar, Senhor, com a oferta destes dons, Vos suplicamos; e, pela intercessão do B. Crisógono, vosso Mártir, preservai-nos de todos os perigos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Que a recepção do vosso sacramento, Senhor, nos purifique das nossas faltas ocultas e nos livre das insídias dos nossos inimigos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

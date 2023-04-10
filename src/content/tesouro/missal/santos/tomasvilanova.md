@@ -1,0 +1,58 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Tomás de Vilanova, B. e C. <em>22 de Setembro</em></h2>
+
+<em>Como na Missa Státuit ei, página confessorespontifices1, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui beátum Thomam Pontíficem insígnis in páuperes misericórdiæ virtúte decorásti: quǽsumus; ut, ejus intercessióne, in omnes, qui te deprecántur, divítias misericórdiæ tuæ benígnus effúndas. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que ilustrastes o B. Pontífice Tomás com a virtude de uma insigne compaixão para com os pobres, permiti, Vos rogamos, que sua intercessão alcance da vossa bondade a efusão dos tesouros da vossa misericórdia para com aqueles que Vo-la imploram. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta e Postcomúnio <em>Página confessorespontifices2</em></h4>
+
+<h3 class="text-center">Comemoração dos Santos Mártires Maurício e seus Companheiros <em>22 de Setembro</em></h3>
+
+<h4 class="text-center">Oração <em>S. Maurício e Outros</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Annue, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum Maurítii et Sociórum ejus nos lætíficet festíva sollémnitas; ut, quorum suffrágiis nítimur, eórum natalítiis gloriémur. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Concedei-nos, ó Deus omnipotente, Vos rogamos, que a solene festa dos vossos Santos Mártires Maurício e seus Companheiros nos encha de alegria, a fim de que com o auxílio das suas orações participemos da glória do seu nascimento no céu. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta <em>S. Maurício e Outros</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Réspice, quǽsumus, Dómine, múnera, quæ in sanctórum Mártyrum tuórum Maurítii et Sociórum ejus commemoratióne deférimus: et præsta; ut, quorum honóre sunt grata, eórum nobis fiant intercessióne perpétua. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Dignai-Vos olhar, Senhor, Vos rogamos, para os dons que Vos apresentamos em memória dos vossos Santos Mártires Maurício e seus Companheiros, e permiti que, sendo-Vos agradáveis, pois são oferecidos em sua honra, nos assegurem eternamente, pela sua intercessão, a felicidade. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">PostComúnio <em>S. Maurício e Outros</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Cœléstibus refécti sacraméntis et gáudiis: súpplices te rogámus, Dómine; ut, quorum gloriámur triúmphis, protegámur auxíliis. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Confortados com estes sacramentos e com estas delícias celestiais, Senhor, Vos rogamos, dignai-Vos conceder-nos a protecção daqueles de cujos triunfos nos gloriamos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

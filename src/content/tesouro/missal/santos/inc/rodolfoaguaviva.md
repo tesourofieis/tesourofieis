@@ -1,0 +1,18 @@
+---
+title: todo
+---
+<h2 class="text-center">B. Rodolfo Água-Viva e Outros, Márts <em>27 de Julho</em></h2>
+
+<em>Como na Missa Sapiéntiam sanctórum, página muitosmartires2, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Vos pedimos, permiti que a veneranda oblação dos vossos B. B. Mártires Rodolfo, Afonso, Pedro, António e Francisco Vos recomende as nossas orações, a fim de que, pelo seu exemplo e intercessão, também nos imolemos, como hóstia viva por Vós recebida, em honra do vosso santo nome. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

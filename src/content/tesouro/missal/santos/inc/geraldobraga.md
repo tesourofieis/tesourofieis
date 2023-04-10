@@ -1,0 +1,101 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Geraldo, Bispo e Conf. <em>Na Arquidiocese de Braga, 5 de Dezembro</em></h2>
+
+<h4 class="text-center">Intróito</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+<em></em>
+V. Gloria Patri <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Um ínclito Confessor de Deus, lustre muito esplendoroso ante o Senhor, pérola e modelo dos Prelados, hoje coroado, com o qual as celestiais coortes rejubilam, entra nos céus, onde sem fim reina com Cristo. Ó justos, exultai no Senhor: àqueles que têm o coração recto fica bem a glória.
+V. Glória ao Pai <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Ó Senhor, Vos suplicamos, que os preciosos méritos do B. Geraldo, vosso Confessor e Pontífice, nos defendam; e que por suas preces seja bem dirigida a Igreja. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Epístola <em>Página martires</em></h4>
+
+<h4 class="text-center">Gradual</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Veneremos devotadamente, do íntimo do coração e da alma, a veneranda festividade de hoje, em que o B. Geraldo, Confessor de Cristo, passou alegre deste mundo para os céus. Por isso o B. Geraldo, acabado o tempo da sua vida, é alistado nos exércitos celestiais.
+</div>
+<div class="text-justify">
+
+</div>
+<div class="text-justify">
+Aleluia, aleluia. Geraldo foi esse servo do Senhor que, lutando à hora da sua morte com o demónio, o venceu. Aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Evangelho <em>Página confessoresnaopontifices1</em></h4>
+
+<h4 class="text-center">Ofertório</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Alegra-te, cidade de Braga, com tão excelso Padroeiro, o qual permitiu Deus que fosse sepultado dentro dos teus muros. Por seu intermédio obtiveste de Deus milagres inumeráveis.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Seja aceite na vossa presença, ó Senhor, a oblação do vosso fiel povo e permiti que lhe seja salutar, por intercessão do B. Geraldo, vosso Confessor e Pontífice, em cuja solenidade ela Vos é oferecida. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Comúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Ó quão glorioso é este Confessor de Deus, com o qual no céu exultam os exércitos dos Santos!
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Ó Deus, remunerador das almas fiéis, concedei-nos a graça de alcançarmos o perdão por intermédio das preces do B. Geraldo, vosso Confessor e Pontífice, cuja veneranda festividade hoje celebramos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

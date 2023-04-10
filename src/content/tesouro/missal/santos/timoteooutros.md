@@ -1,0 +1,42 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Timóteo e Outros, Mártires <em>22 de Agosto</em></h2>
+
+<em>Como na Missa Salus autem, página muitosmartires3, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Aixílium tuum nobis, Dómine, quǽsumus, placátus impende: et, intercedéntibus beátis Martýribus tuis Timótheo, Hippolýto et Symphoriáno, déxteram super nos tuæ propitiatiónis exténde. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Deixai-Vos aplacar, Senhor, e concedei-nos o vosso auxílio; e pela intercessão dos vossos B. B. Mártires Timóteo, Hipólito e Sinforiano dignai-Vos amparar-nos com vossa mão propícia. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Aceitai, Senhor, esta oferta, que o vosso povo escolhido oferece em honra dos vossos Santos, por cujos méritos reconhece ter alcançado auxílio na tribulação. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Divíni muneris largitate satiáti, quǽsumus, Dómine, Deus noster: ut, intercedéntibus sanctis Martýribus tuis Timótheo, Hippolýto et Symphoriáno, in ejus semper participatióne vivámus. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Saciados abundantemente com o dom divino, ó Senhor, nosso Deus, Vos suplicamos, fazei, pela intercessão dos vossos Santos Mártires Timóteo, Hipólito e Sinforiano, que participemos sempre dele durante toda nossa vida. Por nosso <em>&c.</em>
+</div>
+</div>
+</div>

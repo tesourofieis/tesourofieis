@@ -1,0 +1,16 @@
+---
+title: todo
+---
+<h2 class="text-center">Trasladação de S. Geraldo <em>Na Arquidiocese de Braga, 19 de Dezembro</em></h2>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que enriquecestes a Igreja Bracarense com o preciosíssimo corpo do B. Geraldo, concedei-nos propício que imitemos fielmente os exemplos das virtudes daquele cujas relíquias honramos com filial devoção. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

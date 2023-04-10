@@ -1,0 +1,79 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Pedro Nolasco, Conf. <em>28 de Janeiro</em></h2>
+
+<em>Como Missa Justus ut palma, página confessoresnaopontifices2, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui in tuæ caritátis exémplum ad fidélium redemptiónem sanctum Petrum Ecclésiam tuam nova prole fœcundáre divínitus docuísti: ipsíus nobis intercessióne concéde; a peccáti servitúte solútis, in cœlésti pátria perpétua libertáte gaudére: Qui vivis et regnas <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que em prova da vossa caridade quisestes inspirar sobrenaturalmente S. Pedro a fundar na vossa Igreja uma nova família, destinada à redenção dos fiéis cativos, concedei-nos por sua intercessão que, livres nós do cativeiro do pecado, gozemos perpétua liberdade na pátria celestial. Ó Vós, que, sendo Deus, viveis <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração <em>Comemoração Santa Inês</em></h4>
+
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Deus, qui nos ánnua beátæ Agnetis Vírginis et Martyris tuæ sollemnitáte lætíficas: da, quǽsumus; ut, quam venerámur officio, étiam piæ conversatiónis sequámur exémplo. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus, que nos alegrais com a solenidade anual da B. Inês, vossa Virgem e Mártir, concedei-nos a graça, Vos suplicamos, de imitar os exemplos daquela cuja festa celebramos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum quibus nos et præséntibus éxui malis confídimus et futúris. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Vos oferecemos este sacrifício de louvor em memória dos vossos Santos, para que por meio deles nos livremos dos males presentes e futuros. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta <em>Comemoração Santa Inês</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Super has, quǽsumus, Dómine, hóstias benedíctio copiósa descéndat: quæ et sanctificatiónem nobis cleménter operétur, et de Mártyrum nos sollemnitáte lætíficet. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Que estas hóstias, Senhor, que Vos oferecemos façam descer sobre nós uma bênção abundante, a qual produza em nós por vossa clemência nossa santificação e nos alegre com a solenidade dos vossos Mártires. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Fortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, ó nosso Deus, que nos protejam as preces daquele em cuja memória os recebermos. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">PostComúnio <em>Comemoração Santa Inês</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Súmpsimus, Dómine, celebritátis ánnuæ votiva sacraménta: præsta, quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Senhor, havendo recebido os sacramentos que Vos são oferecidos nesta festa anual, concedei-nos, Vos suplicamos, que eles nos alcancem os remédios para a vida presente e para a eterna. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

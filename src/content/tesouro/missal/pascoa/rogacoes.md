@@ -1,0 +1,149 @@
+---
+title: todo
+---
+<h2 class="text-center">Dias de Rogação <em>25 de Abril e nos 3 dias antes da Ascensão</em></h2>
+
+<h3 class="text-center">Procissão</h3>
+
+<h4 class="text-center">Antífona</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Exsurge, Dómine, ádjuva nos, et líbera nos propter nomen tuum. <em>Psalm</em> Deus, áuribus nostris audívimus, patres nostri annuntiavérunt nobis.
+V. Glória Patri <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Levantai-Vos, ó Senhor, ajudai-nos, e resgatai-nos por causa do vosso nome. <em>Salmo</em> Nós ouvimos, ó Deus, com os nossos próprios ouvidos, anunciaram-nos nossos pais a obra que fizestes nos seus dias e nos dias antigos.
+V. Glória ao Pai <em>&c.</em>
+</div>
+</div>
+</div>
+
+<em>Salmo 69 encontra-se logo após a Ladaínha</em>
+
+<h4 class="text-center">Ladainha de Todos os Santos</h4>
+
+{% include ladainhas/ladainhasantos.html %}
+
+<h2 class="text-center">Missa das Rogações</h2>
+
+<h4 class="text-center">Intróito <em>Sl. 17, 7</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Exaudívit de templo sancto suo vocem meam, allelúja: et clamor meus in conspectu ejus, introívit in aures ejus, allelúja, allelúja. <em>Ps. ibid., 2-3</em> Díligam te, Dómine, virtus mea: Dóminus firmaméntum meum et refúgium meum et liberátor meus.
+V. Gloria Patri <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Lá no seu santo templo ouviu Ele a minha voz, aleluia: e o meu clamor chegou à sua presença e soou a seus ouvidos: aleluia, aleluia. <em>Sl. ibid., 2-3</em> Eu vos amo, Senhor, que sois a minha força; sois, ó Senhor, o meu sustentáculo, o meu refúgio e a minha salvação.
+V. Glória ao Pai <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Præsta, quǽsumus, omnípotens Deus: ut, qui in afflictióne nostra de tua pietáte confídimus; contra advérsa ómnia, tua semper protectióne muniámur. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Ó Deus omnipotente, Vos suplicamos, concedei-nos a graça de confiarmos sempre na vossa bondade no meio das nossas tribulações e de estarmos sempre munidos com vosso socorro no meio das adversidades. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Epístola <em>Tg. 5, 16-20</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+Léctio Epístolæ beáti Jacóbi Apóstoli.
+</div>
+<div class="text-justify">
+Lição da Ep.ª do B. Ap.º Tiago.
+</div>
+<div class="dropcap text-justify">
+Caríssimi: Confitémini altérutrum peccáta vestra, et oráte pro ínvicem, ut salvémini: multum enim valet deprecátio justi assídua. Elías homo erat símilis nobis passíbilis: et oratióne orávit, ut non plúeret super terram, et non pluit annos tres et menses sex. Et rursum orávit: et cœlum dedit plúviam et terra dedit fructum suum. Fratres mei, si quis ex vobis erráverit a veritáte et convérterit quis eum: scire debet, quóniam, qui convérti fécerit peccatórem ab erróre viæ suæ, salvábit ánimam ejus a morte, et opériet multitúdinem peccatórum.
+</div>
+<div class="dropcap text-justify">
+Caríssimos: Confessai as vossas culpas uns aos outros e orai uns pelos outros, a fim de que sejais salvos; pois a oração assídua do justo vale muito. Elias era um homem sujeito às mesmas misérias do que nós. Pois ele pediu instantemente que não chovesse, e durante três anos e seis meses não choveu. E tornou a orar, pedindo chuva, e esta caiu do céu e a terra produziu frutos. Meus irmãos: se algum de vós se afastou da verdade e alguém o tenha convertido, saiba que aquele que afastar um pecador do caminho do erro salvará a sua alma da morte e apagará uma multidão de pecados.
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+Allelúja. V. <em>Ps. 117, 1</em> Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus.
+</div>
+<div class="text-justify">
+Aleluia. V. <em>Sl. 117, 1</em> Louvai o Senhor, pois Ele é bom: a sua misericórdia é eterna.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Evangelho <em>Lc. 11, 5-13</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Sequéntia sancti Evangélii secúndum Lucam.
+</div>
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Continuação do santo Evangelho segundo S. Lucas.
+</div>
+<div class="dropcap text-justify">
+In illo témpore: Dixit Jesus discípulis suis: Quis vestrum habébit amícum, et íbit ad illum média nocte, et dicet illi: Amíce, cómmoda mihi tres panes, quóniam amícus meus venit de via ad me, et non hábeo quod ponam ante illum: et ille deíntus respóndens, dicat: Noli mihi moléstus esse, jam óstium clausum est, et púeri mei mecum sunt in cubíli, non possum súrgere et dare tibi. Et si ille perseveráverit pulsans: dico vobis, etsi non dabit illi surgens, eo quod amícus ejus sit, propter improbitátem tamen ejus surget et dabit illi, quotquot habet necessários. Et ego dico vobis: Pétite, et dábitur vobis: quǽrite, et inveniétis: pulsáte, et aperiétur vobis. Omnis enim, qui petit, áccipit: et qui quærit, invénit: et pulsánti aperietur, Quis autem ex vobis patrem pétii panem, numquid lápidem dabit illi? Aut piscem: numquid pro pisce serpéntem dabit illi? Aut si petíerit ovum: numquid pórriget illi scorpiónem? Si ergo vos, cum sitis mali, nostis bona data dare fíliis vestris: quanto magis Pater vester de cœlo dabit spíritum bonum peténtibus se?
+</div>
+<div class="dropcap text-justify">
+Naquele tempo, disse Jesus aos seus discípulos: «Se algum de vós tiver um amigo, e for à meia-noite encontrá-lo, dizendo-lhe: «Empresta-me três pães, porque um dos meus amigos chegou agora de viagem a minha casa e não tenho que dar-lhe» ; e esse amigo responder de dentro de casa: «Não me importunes, pois a porta já está fechada; eu e os meus filhos estamos deitados e não posso levantar-me», digo-vos que, se o primeiro continuar a bater à porta, ainda que o outro se não levante para lhe dar o pão por ser seu amigo, levantar-se-á para não ser importunado; e dar-lhe-á tanto quanto carecer. Assim vos digo eu: pedi e recebereis; buscai e encontrareis; batei e abrir-se-vos-á. Porquanto todo aquele que pedir receberá; todo aquele, que procurar achará; todo aquele que bater abrir-se-lhe-á. Se algum de vós pedir um pão a seu pai, porventura este lhe dará uma pedra? Ou, se lhe pedir um peixe, dar-lhe-á uma serpente? Ou, se lhe pedir um ovo, dar-lhe-á um escorpião? Pois se vós, sendo maus, sabeis, contudo, dar coisas boas a vossos filhos, quanto mais vosso Pai celestial dará o Espírito Santo àqueles que lho pedirem».
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Ofertório <em>Sl. 108, 30-31</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Confitébor Dómino nimis in ore meo: et in médio multórum laudábo eum, qui ástitit a dextris páuperis: ut salvam fáceret a persequéntibus ánimam meam, allelúja.
+</div>
+<div class="dropcap text-justify">
+Louvarei o Senhor com a minha boca, sonoramente: louvá-l’O-ci perante a multidão: pois esteve à direita do pobre para salvar a minha alma dos que a perseguiam, aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Hæc múnera, quǽsumus, Dómine, et víncula nostræ pravitátis absólvant, et tuæ nobis misericórdiæ dona concílient. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Que estas oblações, Senhor, Vos suplicamos, nos livrem dos laços da nossa malícia e nos alcancem os dons da vossa misericórdia. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Comúnio <em>Lc. 11, 9-10</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Petite, et accipiétis: quǽrite, et inveniétis: pulsáte, et aperiétur vobis: omnis enim qui pétii, áccipit: et qui quærit, invénit: et pulsánti aperiétur, allelúja.
+</div>
+<div class="dropcap text-justify">
+Pedi e recebereis; buscai e achareis; batei e abrir-se-vos-á. Pois todo o que pede recebe; todo o que procura acha; todo o que bate abrir-se-lhe-á, aleluia.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Vota nostra, quǽsumus, Dómine, pio favóre proséquere: ut, dum dona tua in tribulatióne percípimus, de consolatióne nostra in tuo amóre crescámus. Per Dóminum nostrum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Dignai-Vos acolher favoravelmente, Senhor, Vos suplicamos, os nossos votos, a fim de que, recebendo os vossos dons na tribulação, cresçamos no vosso amor com a consolação que nos dais. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

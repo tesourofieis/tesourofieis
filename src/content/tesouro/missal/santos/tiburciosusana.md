@@ -1,0 +1,44 @@
+---
+title: todo
+---
+<h2 class="text-center">S. S. Tibúrcio e Susana, Mártires <em>11 de Agosto</em></h2>
+
+<em>Como na Missa Salus autem, página muitosmartires3, excepto:</em>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Sanctórum Martyrum tuórum Tiburtii et Susánnæ nos, Dómine, fóveant continuáta præsídia: quia non désinis propítius intuéri; quos tálibus auxíliis concésseris adjuvári. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Permiti, Senhor, que nos favoreça o contínuo auxílio dos vossos Santos Mártires Tibúrcio e Susana, pois não podeis deixar de acolher propiciamente aqueles a quem concedeis o socorro de tal protecção. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Epístola <em>Página fabiaosebastiao</em></h4>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Adésto, Dómine, précibus pópuli tui, adésto munéribus: ut, quæ sacris sunt obláta mystériis, tuórum tibi pláceant intercessióne Sanctórum. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Atendei, Senhor, às preces do vosso povo e recebei as suas ofertas, a fim de que, pela intercessão dos vossos Santos Mártires, a oblação destes mystérios Vos seja agradável. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Súmpsimus, Dómine, pignus redemptiónis ætérnæ: quod sit nobis, quǽsumus, interveniéntibus sanctis Martýribus tuis, vitæ præséntis auxílium páriter et futúræ. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Recebemos, Senhor, o penhor da eterna redenção; e permiti, pela intercessão dos vossos Santos Mártires, que nos sirva de auxílio, tanto na vida presente, como na futura. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>

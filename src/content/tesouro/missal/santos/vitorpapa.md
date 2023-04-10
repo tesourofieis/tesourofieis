@@ -1,0 +1,6 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Vítor, Papa e Mártir <em>28 de Julho</em></h2>
+
+<em>Como na Missa Si díligis me, página sumospontifices</em>

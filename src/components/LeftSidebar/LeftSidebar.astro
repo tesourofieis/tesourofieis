@@ -1,9 +1,10 @@
 ---
 import { removeLeadingSlash, removeTrailingSlash } from '../../util';
-import { navTranslations, useTranslations } from '../../i18n/util';
+import { useTranslations } from '../../i18n/util';
 import SidebarContent from './SidebarContent.astro';
 import CommunityMenu from '../RightSidebar/CommunityMenu.astro';
 import ThemeToggleButton from '../Header/ThemeToggleButton';
+import { nav } from '../../util/getNavLinks';
 
 export interface Props {
 	currentPage: string;
@@ -15,7 +16,7 @@ const { currentPage } = Astro.props as Props;
 const currentPageMatch = removeLeadingSlash(removeTrailingSlash(currentPage));
 
 // Group nav menu by sections to properly render.
-const sidebarSections = navTranslations['en'].reduce((collection, item) => {
+const sidebarSections = nav.reduce((collection, item) => {
 	if ('header' in item) {
 		collection.push({ ...item, children: [] });
 	} else {

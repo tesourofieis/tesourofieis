@@ -1,0 +1,6 @@
+---
+title: todo
+---
+<h2 class="text-center">S. Cornélio, Papa e Mártir <em>16 de Setembro</em></h2>
+
+<em>Como na Missa Si díligis me, página sumospontifices</em>

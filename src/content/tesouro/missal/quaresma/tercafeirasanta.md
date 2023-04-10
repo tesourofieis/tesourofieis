@@ -1,0 +1,237 @@
+---
+title: todo
+---
+<h2 class="text-center">Terça-Feira Santa <em>Estação em Santa Prisca</em></h2>
+
+<h4 class="text-center">Intróito <em>Gl. 6, 14</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Nos autem gloriári oportet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus. <em>Ps. 66, 2</em> Deus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri.
+V. Gloria Patri <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Convém que nos gloriemos com a Cruz de nosso Senhor Jesus Cristo, pois Ele é a nossa salvação, vida e ressurreição, Por Ele fomos salvos e livres. <em>Sl. 66, 2</em> Que o Senhor tenha misericórdia de nós e nos abençoe; que faça resplandecer sobre nós o brilho da sua face e se compadeça de nós.
+V. Glória ao Pai <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Omnípotens sempitérne Deus: da nobis ita Domínicæ passiónis sacraménta perágere; ut indulgéntiam percípere mereámur. Per eúndem Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Omnipotente e sempiterno Deus, concedei-nos a graça de celebrarmos os mystérios da Paixão do Senhor de tal sorte que mereçamos receber o perdão das nossas faltas. Pelo mesmo nosso <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Epístola <em>Jr. 11, 18-20</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+Léctio Jeremíæ Prophétæ.
+</div>
+<div class="text-justify">
+Lição do Profeta Jeremias.
+</div>
+<div class="dropcap text-justify">
+In diébus illis: Dixit Jeremías: Dómine, demonstrásti mihi, et cognóvi: tunc ostendísti mihi stúdia eórum. Et ego quasi agnus mansúetus, qui portátur ad víctimam: et non cognóvi, quia cogitavérunt super me consília, dicéntes: Mittámus lignum in panem ejus, et eradámus eum de terra vivéntium, et nomen ejus non memorétur ámplius. Tu autem, Dómine Sábaoth, qui júdicas juste et probas renes et corda, vídeam ultiónem tuam ex eis: tibi enim revelávi causam meam, Dómine, Deus meus.
+</div>
+<div class="dropcap text-justify">
+Naqueles dias, falou assim Jeremias: «Senhor, fizestes-me conhecer os seus pensamentos e fiquei ciente; então fiquei conhecendo os seus desígnios. Eu era como um cordeiro manso, que ia conduzido para ser imolado como vítima. Ignorava que conspiravam contra mim e diziam: «Destruamos a árvore com seu fruto; arranquemo-la da terra dos vivos e apaguemos a recordação do seu nome». Mas Vós, Senhor dos exércitos, que julgais com justiça e perscrutais os rins e os corações, mostrai-me a vingança que haveis de tirar deles; pois a Vós, ó Senhor, meu Deus, entreguei a minha causa».
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Gradual <em>Sl. 34, 13 & 1-2</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Ego autem, dum mihi molésti essent, induébam me cilício, et humiliábam in jejúnio ánimam meam: et orátio mea in sinu meo convertétur. V. Júdica, Dómine, nocéntes me, expúgna impugnántes me: apprehénde arma et scutum, et exsúrge in adjutórium mihi.
+</div>
+<div class="dropcap text-justify">
+Eu, porém, enquanto me molestavam, revestia-me com o cilício, humilhava a minha alma com jejuns e orava silenciosamente com a cabeça inclinada. Julgai, Senhor, os que me perseguem; expurgai aqueles que me combatem; empunhai as armas e o escudo: e vinde em meu auxílio.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Narração da Paixão <em>Mc. 14, 1-72; 15, 1-46</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Pássio Dómini nostri Jesu Christi secúndum Marcum.
+</div>
+<div class="text-justify">
+<span class="text-danger">&#10016;</span> Paixão de N. S. Jesus Cristo, segundo S. Marcos.
+</div>
+<div class="dropcap text-justify">
+In illo témpore: Erat Pascha, et ázyma post bíduum, et quærébant summi sacerdótes et scribæ, quómodo Jesum dolo tenérent et occíderent. Dicébant autem: <em>S. </em> Non in die festo, ne forte tumúltus fíeret in pópulo. <em>C. </em> Et cum esset Jesus Bethániæ in domo Simónis leprósi, et recúmberet: venit múlier habens alabástrum unguénti nardi spicáti pretiósi, et fracto alabástro, effúdit super caput ejus. Erant autem quidam indígne feréntes intra semetípsos, et dicéntes: <em>S. </em> Ut quid perdítio ista unguénti facta est? Póterat enim unguéntum istud venúmdari plus quam trecéntis denáriis, et dari paupéribus. <em>C. </em> Et fremébant in eam. Jesus autem dixit: <span class="text-danger">&#10016;</span> Sínite eam: quid illi molésti estis? Bonum opus operáta est in me. Semper enim páuperes habétis vobíscum: et cum voluéritis, potéstis illis benefácere: me autem non semper habétis. Quod hábuit hæc, fecit: prævénit úngere corpus meum in sepultúram. Amen, dico vobis: Ubicúmque prædicátum fúerit Evangélium istud in univérso mundo, et, quod fecit hæc, narrábitur in memóriam ejus. <em>C. </em> Et Judas Iscariótes, unus de duódecim, ábiit ad summos sacerdótes, ut próderet eum illis. Qui audiéntes, gavísi sunt: et promisérunt ei pecúniam se datúros. Et quærébat, quómodo illum opportúne tráderet.
+</div>
+<div class="dropcap text-justify">
+Naquele tempo, a Páscoa e os ázimos eram dois dias depois; e os príncipes dos sacerdotes e os escribas procuravam, traiçoeiramente, prender Jesus e matá-l’O. Diziam, portanto: <em>S. </em> «Não o façamos, porém, no dia da festa, para o povo se não amotinar». <em>C. </em> E, encontrando-se Jesus em Betânia, na casa de Simão, o leproso, a cuja mesa se assentara, veio uma mulher com um vaso de alabastro, cheio de precioso bálsamo de espigas de nardo, e, quebrando o vaso, derramou o perfume sobre a cabeça de Jesus. Ora, alguns dos que lá estavam indignaram-se intimamente e disseram: <em>S. </em> «Para que tal desperdício de bálsamo? Podia este precioso unguento ser vendido por mais de trezentos dinheiros, para serem dados aos pobres». <em>C. </em> E murmuravam contra ela. Então, disse Jesus: <span class="text-danger">&#10016;</span> «Deixai-a; porque a molestais? Praticou uma boa obra para comigo, pois pobres sempre os tereis convosco e podereis fazer-lhes bem, quando quiserdes; mas a mim me não tereis sempre. Fez o que pôde; antecipou-se a ungir o meu corpo para a sepultura. Em verdade, em verdade vos digo: onde quer que seja pregado este Evangelho (e sê-lo-á em todo o mundo) será contado em sua memória o que esta mulher agora praticou». <em>C. </em> Então Judas Iscariotes, um dos Doze, foi ter com os príncipes dos sacerdotes, para lhes entregar Jesus. Ouviram-no estes com alegria, prometendo dar-lhe dinheiro. Desde logo, Judas procurava ocasião favorável para O entregar.
+</div>
+<div class="text-justify">
+Et primo die azymórum quando pascha immolábant, dicunt ei discípuli: <em>S. </em> Quo vis eámus, et parémus tibi, ut mandúces pascha? <em>C. </em> Et mittit duos ex discípulis suis, et dicit eis: <span class="text-danger">&#10016;</span> Ite in civitátem: et occúrret vobis homo lagénam aquæ bájulans, sequímini eum: et quocúmque introíerit, dícite dómino domus, quia Magíster dicit: Ubi est reféctio mea, ubi pascha cum discípulis meis mandúcem? Et ipse vobis demonstrábit cenáculum grande stratum: et illic paráte nobis. <em>C. </em> Et abiérunt discípuli ejus, et venérunt in civitátem: et invenérunt, sicut díxerat illis, et paravérunt pascha.
+</div>
+<div class="text-justify">
+No primeiro dia dos ázimos, em que se celebrava a Páscoa, disseram os discípulos a Jesus: <em>S. </em> «Onde quereis que vamos preparar o que é preciso para comer a Páscoa?». <em>C. </em> E Jesus mandou dois discípulos, a quem disse: <span class="text-danger">&#10016;</span> «Ide à cidade; lá encontrareis um homem, conduzindo um cântaro de água. Acompanhai-o; e, onde ele entrar, dizei ao dono da casa: «O Mestre manda dizer-te: onde está a sala em que hei-de comer a Páscoa com meus discípulos?». Ele vos mostrará um grande cenáculo mobilado. Aí preparareis o que é necessário». <em>C. </em> Partiram logo os discípulos e chegaram à cidade, havendo encontrado tudo, como lhes dissera Jesus, e tendo preparado aí a Páscoa.
+</div>
+<div class="text-justify">
+Véspere autem facto, venit cum duódecim. Et discumbéntibus eis et manducántibus, ait Jesus: <span class="text-danger">&#10016;</span> Amen, dico vobis, quia unus ex vobis tradet me, qui mánducat mecum. <em>C. </em> At illi cœpérunt contristári et dícere ei singulátim: <em>S. </em> Numquid ego? <em>C. </em> Qui ait illis: <span class="text-danger">&#10016;</span> Unus ex duódecim, qui intíngit mecum manum in catíno. Et Fílius quidem hóminis vadit, sicut scriptum est de eo: væ autem hómini illi, per quem Fílius hóminis tradétur. Bonum erat ei, si non esset natus homo ille.
+</div>
+<div class="text-justify">
+Quando chegou a tarde, veio Jesus com os Doze, assentaram-se à mesa e começaram a comer. E disse Jesus: <span class="text-danger">&#10016;</span> «Em verdade vos digo: um de vós, que come comigo, trair-me-á». <em>C. </em> Todos começaram a entristecer-se e a dizer cada um por sua vez: <em>S. </em> «Porventura sou eu?». <em>C. </em> Ele respondeu-lhes: <span class="text-danger">&#10016;</span> «É um dos Doze que mete a mão comigo no prato. Na verdade, o Filho do homem vai morrer, Segundo o que está escrito a seu respeito; porém, infeliz daquele por quem o Filho do homem for entregue. Melhor fora para esse homem não ter nascido!».
+</div>
+<div class="text-justify">
+<em>C. </em> Et manducántibus illis, accépit Jesus panem: et benedícens fregit, et dedit eis, et ait: <span class="text-danger">&#10016;</span> Súmite, hoc est corpus meum. <em>C. </em> Et accépto cálice, grátias agens dedit eis: et bibérunt ex illo omnes. Et ait illis: <span class="text-danger">&#10016;</span> Hic est sanguis meus novi Testaménti, qui pro multis effundétur. Amen, dico vobis, quia jam non bibam de hoc genímine vitis usque in diem illum, cum illud bibam novum in regno Dei.
+</div>
+<div class="text-justify">
+<em>C. </em> Enquanto comiam, tomou Jesus o pão, benzeu-o, partiu-o e deu-o a comer, dizendo: <span class="text-danger">&#10016;</span> «Tomai; isto é o meu corpo». <em>C. </em> E, segurando também o cálice, deu graças, entregou-o aos discípulos e todos dele beberam. E disse-lhes: <span class="text-danger">&#10016;</span> «Este é o meu sangue, o sangue do Novo Testamento, que será derramado por muitos. Em verdade vos digo: já não tornarei a beber deste fruto até ao dia em que de novo o beba no reino de Deus».
+</div>
+<div class="text-justify">
+<em>C. </em> Et hymno dicto, exiérunt in montem Olivárum. Et ait eis Jesus: <span class="text-danger">&#10016;</span> Omnes scandalizabímini in me in nocte ista: quia scriptum est: Percútiam pastórem, et dispergéntur oves. Sed postquam resurréxero, præcédam vos in Galilǽam, <em>C. </em> Petrus autem ait illi: <em>S. </em> Et si omnes scandalizáti fúerint in te, sed non ego. <em>C. </em> Et ait illi Jesus: <span class="text-danger">&#10016;</span> Amen, dico tibi, quia tu hódie in nocte hac, priúsquam gallus vocem bis déderit, ter me es negatúrus. <em>C. </em> At ille ámplius loquebátur: <em>S. </em> Et si oportúerit me simul cómmon tibi, non te negábo. <em>C. </em> Simíliter autem et omnes dicébant.
+</div>
+<div class="text-justify">
+<em>C. </em> Após o cântico do hino, saíram para o monte das Oliveiras. Então, disse-lhes Jesus: <span class="text-danger">&#10016;</span> «Por minha causa esta noite ficareis escandalizados, pois está escrito: «Ferirei o pastor e as ovelhas ficarão dispersas». Mas, quando ressuscitar, irei adiante de vós para a Galileia». <em>C. </em> Pedro disse-lhe: <em>S. </em> «Ainda que todos se escandalizem, nunca me escandalizarei». <em>C. </em> Jesus respondeu-lhe: <span class="text-danger">&#10016;</span> «Em verdade te digo: hoje, esta noite, antes de o galo cantar duas vezes, tu me negarás três vezes!». <em>C. </em> Contudo, Pedro insistia, dizendo: <em>S. </em> «Ainda mesmo que seja necessário morrer convosco, não Vos negarei!». <em>C. </em> E o mesmo diziam todos os outros.
+</div>
+<div class="text-justify">
+Et véniunt in prǽdium, cui nomen Gethsémani. Et ait discípulis suis: <span class="text-danger">&#10016;</span> Sedéte hic, donec orem. <em>C. </em> Et assúmit Petrum et Jacóbum et Joánnem secum: et cœpit pavére et tædére. Et ait illis: <span class="text-danger">&#10016;</span> Tristis est anima mea usque ad mortem: sustinéte hic, et vigiláte. <em>C. </em> Et cum processísset páululum, prócidit super terram: et orábat, ut, si fíeri posset, transíret ab eo hora: et dixit: <span class="text-danger">&#10016;</span> Abba, Pater, ómnia tibi possibília sunt, transfer cálicem hunc a me: sed non quod ego volo, sed quod tu. <em>C. </em> Et venit et invénit eos dormiéntes. Et ait Petro: <span class="text-danger">&#10016;</span> Simon, dormis? non potuísti una hora vigiláre? Vigilate et oráte, ut non intrétis in tentatiónem. Spíritus quidem promptus est, caro vero infírma. <em>C. </em> Et íterum ábiens orávit, eúndem sermónem dicens. Et revérsus, dénuo invénit eos dormiéntes (erant enim óculi eórum gravati) et ignorábant, quid respondérent ei. Et venit tértio, et ait illis: <span class="text-danger">&#10016;</span> Dormíte jam et requiéscite. Súfficit: venit hora: ecce, Fílius hóminis tradétur in manus peccatórum. Súrgite, eámus: ecce, qui me tradet, prope est.
+</div>
+<div class="text-justify">
+Em seguida vieram para uma propriedade chamada Getsémani, dizendo Jesus aos discípulos: <span class="text-danger">&#10016;</span> «Assentai-vos aqui, enquanto vou orar». <em>C. </em> E, levando consigo Pedro, Tiago e João, começou a angustiar-se. E disse-lhes: <span class="text-danger">&#10016;</span> «Minha alma está triste até à morte; ficai aqui e vigiai». <em>C. </em> Depois Jesus avançou um pouco mais e foi prostrar-se na terra, orando, a fim de que, se fosse possível, aquela hora se afastasse; e dizia: <span class="text-danger">&#10016;</span> «Meu Pai, tudo Vos é possível. Afastai, pois, de mim este cálice; contudo, não se faça o que quero, mas sim o que Vós quereis». <em>C. </em> Depois veio ter com eles, achando-os a dormir. Disse, pois, a Pedro: <span class="text-danger">&#10016;</span> «Simão, tu dormes? Não pudeste vigiar uma hora? Vigiai e orai para não cairdes em tentação. O espírito, na verdade, está pronto, mas a carne é fraca». <em>C. </em> E, afastando-se, novamente orou, repetindo as mesmas palavras. Depois voltou ao encontro dos discípulos, que estavam a dormir (até tinham os olhos pegados) e nem sabiam o que responder-Lhe. Terceira vez veio Jesus e disse-lhes: <span class="text-danger">&#10016;</span> «Dormi, agora, e descansai. Basta! A hora é chegada em que o Filho do homem vai ser entregue aos pecadores. Erguei-vos e vamos. Eis que se aproxima aquele que me há-de entregar».
+</div>
+<div class="text-justify">
+<em>C. </em> Et, adhuc eo loquénte, venit Judas Iscariótes, unus de duódecim, et cum eo turba multa cum gládiis et lignis, a summis sacerdótibus et scribis et senióribus. Déderat autem tráditor ejus signum eis, diceris: <em>S. </em> Quemcúmque osculátus fúero, ipse est, tenéte eum et dúcite caute. <em>C. </em> Et cum venísset, statim accédens ad eum, ait: <em>S. </em> Ave, Rabbi. <em>C. </em> Et osculátus est eum. At illi manus injecérunt in eum, et tenuérunt eum. Unus autem quidam de circumstántibus, edúcens gládium, percussit servum summi sacerdótis: et amputávit illi aurículam. Et respóndens Jesus, ait illis: <span class="text-danger">&#10016;</span> Tamquam ad latrónem exístis cum gládiis et lignis comprehéndere me? cotídie eram apud vos in templo docens, et non me tenuístis. Sed ut impleántur Scriptúræ. <em>C. </em> Tunc discípuli ejus relinquéntes eum, omnes fugérunt. Adoléscens autem quidam sequebátur eum amíctus síndone super nudo: et tenuérunt eum. At ille, rejécta síndone, nudus profúgit ab eis.
+</div>
+<div class="text-justify">
+<em>C. </em> Ainda Ele falava, quando chegou Judas, um dos Doze, e com ele numerosa turba armada com espadas e paus, enviada pelos príncipes dos sacerdotes, pelos escribas e pelos anciãos. O traidor havia-lhes dado este sinal: <em>S. </em> «Aquele que eu beijar é o próprio; prendei-o e segurai-o, cuidadosamente». <em>C. </em> Logo que Judas foi ter com Jesus, disse-Lhe: <em>S. </em> «Eu vos saúdo, ó Mestre». <em>C. </em> E beijou-O. Então, lançaram-Lhe as mãos e prenderam-n’O. Porém, um dos que estavam presentes puxou por uma espada, feriu um servo do sumo sacerdote e cortou-lhe uma orelha. Jesus falou, dizendo-lhes: <span class="text-danger">&#10016;</span> «Viestes com espadas e paus para me prender, como se fora um ladrão? Todos os dias estava convosco, ensinando no templo, e não me prendestes. Isto, porém, assim acontece para se cumprirem as Escrituras». <em>C. </em> Então, os seus discípulos, abandonando-O, fugiram todos. Seguia-O, porém, um adolescente coberto com um lençol. Logo o prenderam, também; mas ele, desembaraçando-se do lençol, fugiu das suas mãos, assim mesmo nu.
+</div>
+<div class="text-justify">
+Et adduxérunt Jesum ad summum sacerdótem: et convenérunt omnes sacerdótes et scribæ et senióres. Petrus autem a longe secútus est eum usque intro in átrium summi sacerdótis: et sedébat cum minístris ad ignem, et calefaciébat se. Summi vero sacerdótes et omne concílium quærébant advérsus Jesum testimónium, ut eum morti tráderent, nec inveniébant. Multi enim testimónium falsum dicébant advérsus eum: et conveniéntia testimónia non erant. Et quidam surgéntes, falsum testimónium ferébant advérsus eum, dicéntes: <em>S. </em> Quóniam nos audívimus eum dicéntem: Ego dissólvant! templum hoc manufáctum, et per tríduum áliud non manufáctum ædificábo. <em>C. </em> Et non erat convéniens testimónium illórum. Et exsúrgens summus sacérdos in médium, interrogávit Jesum, dicens: <em>S. </em> Non respóndes quidquam ad ea, quæ tibi objiciúntur ab his? <em>C. </em> Ille autem tacébat et nihil respóndit. Rursum summus sacérdos interrogábat eum, et dixit ei: <em>S. </em> Tu es Christus, Fílius Dei benedícti? <em>C. </em> Jesus autem dixit illi: <span class="text-danger">&#10016;</span> Ego sum: et vidébitis Fílium hóminis sedéntem a dextris virtútis Dei, et veniéntem cum núbibus cœli. <em>C. </em> Summus autem sacérdos scindens vestiménta sua, ait: <em>S. </em> Quid adhuc desiderámus testes? Audístis blasphémiam: quid vobis videtur? <em>C. </em> Qui omnes condemnavérunt eum esse reum mortis. Et cœpérunt quidam conspúere eum, et veláre fáciem ejus, et cólaphis eum cǽdere, et dícere ei: <em>S. </em> Prophetíza. <em>C. </em> Et minístri álapis cum cædébant.
+</div>
+<div class="text-justify">
+E conduziram Jesus à presença do sumo sacerdote, reunindo-se todos os sacerdotes, escribas e anciãos. Pedro seguia-O de longe, indo até ao pátio do sumo sacerdote, assentando-se ao fogo, juntamente com os oficiais, e se aquecendo. Entretanto, os príncipes dos sacerdotes e todo o conselho buscavam algum testemunho contra Jesus, para o condenarem à morte; mas nada encontravam, pois, ainda que bastantes depusessem contra Ele, não eram concordes os depoimentos. Alguns, levantando-se, testemunhavam falsamente, dizendo: <em>S. </em> «Ouvimo-l’O dizer: «Destruirei este templo, construído pelos homens, e no espaço de três dias edificarei outro sem ser obra dos homens». <em>C. </em> E não concordavam os testemunhos. Ergueu-se, então, o sumo sacerdote, no meio de todos, e interrogou Jesus: <em>S. </em> «Nada respondeis ao que estes depõem contra Vós?». <em>C. </em> Ele, porém, calava-se e nada respondia. Segunda vez o interrogou o sumo sacerdote e disse-Lhe: <em>S. </em> «Sois Vós o Cristo, Filho de Deus bendito?». <em>C. </em> Jesus respondeu-lhe: <span class="text-danger">&#10016;</span> «Sou eu; e vereis o Filho do homem, assentado à direita de Deus, vir descendo à terra, apoiando-se nas nuvens dos céus». <em>C. </em> Logo, o sumo sacerdote, rasgando os vestidos, disse: <em>S. </em> «Para que queremos mais testemunhos? Ouvistes a blasfémia. Que vos parece?». <em>C. </em> E todos O condenaram como réu de morte. Alguns começaram a cuspir sobre Ele; outros tapavam-Lhe o rosto; e ainda outros davam-Lhe socos e diziam-Lhe: <em>S. </em> «Adivinha». <em>C. </em> E os oficiais davam-Lhe bofetadas.
+</div>
+<div class="text-justify">
+Et cum esset Petrus in átrio deórsum, venit una ex ancíllis summi sacerdótis: et cum vidísset Petrum calefaciéntem se, aspíciens illum, ait: <em>S. </em> Et tu cum Jesu Nazaréno eras. <em>C. </em> At ille negávit, dicens: <em>S. </em> Neque scio neque novi, quid dicas. <em>C. </em> Et éxiit foras ante átrium, et gallus cantávit. Rursus autem cum vidísset illum ancílla, cœpit dícere circumstántibus: Quia hic ex illis est. At ille íterum negávit. Et post pusíllum rursus, qui astábant, dicébant Petro: <em>S. </em> Vere ex illis es: nam et Galilǽus es. <em>C. </em> Ille autem cœpit anathematizáre et juráre: Quia néscio hóminem istum, quem dícitis. Et statim gallus íterum cantávit. Et recordátus est Petrus verbi, quod díxerat ei Jesus: Priúsquam gallus cantet bis, ter me negábis. Et cœpit flere.
+</div>
+<div class="text-justify">
+Entretanto, estando Pedro em baixo, no pátio, veio uma das criadas do sumo sacerdote; e, vendo que ele se aquecia, disse, fitando-o: <em>S. </em> «Tu também estavas com Jesus Nazareno». <em>C. </em> Ele negou, dizendo: <em>S. </em> «Nem O conheço, nem sei o que dizes!». <em>C. </em> E saiu para fora, diante do pátio. Logo cantou o galo. Novamente a criada o viu e começou a dizer aos circunstantes: «Este é um dos d’Ele». De novo Pedro negou o que a criada afirmava. Pouco tempo passado, aqueles que ali estavam diziam também a Pedro: <em>S. </em> «Realmente, tu pertences a eles, pois conhecemos que és galileu». <em>C. </em> Ele, porém, começou a praguejar, e disse com juramento: «Não conheço o homem de quem falais!». Logo cantou o galo segunda vez. Então Pedro recordou-se daquelas palavras que dissera Jesus: «Antes de o galo cantar duas vezes, tu me negarás três». E começou a chorar!
+</div>
+<div class="text-justify">
+Et conféstim mane consílium faciéntes summi sacerdótes, cum senióribus et scribis et univérso concílio, vinciéntes Jesum, duxérunt, et tradidérunt Piláto. Et interrogávit eum Pilátus: <em>S. </em> Tu es Rex Judæórum? <em>C. </em> At ille respóndens, ait illi: <span class="text-danger">&#10016;</span> Tu dicis. <em>C. </em> Et accusábant eum summi sacerdótes in multis. Pilátus autem rursum interrogávit eum, dicens: <em>S. </em> Non respóndes quidquam? vide, in quantis te accúsant. <em>C. </em> Jesus autem ámplius nihil respóndit, ita ut mirarétur Pilátus. Per diem autem festum solébat dimíttere illis unum ex vinctis, quemcúmque petiíssent. Erat autem, qui dicebátur Barábbas, qui cum seditiósis erat vinctus, qui in seditióne fécerat homicídium. Et cum ascendísset turba, cœpit rogáre, sicut semper faciébat illis. Pilátus autem respóndit eis, et dixit: <em>S. </em> Vultis dimíttam vobis Regem Judæórum? <em>C. </em> Sciébat enim, quod per invídiam tradidíssent eum summi sacerdótes. Pontifices autem concitavérunt turbam, ut magis Barábbam dimítteret eis. Pilátus autem íterum respóndens, ait illis: <em>S. </em> Quid ergo vultis fáciam Regi Judæórum? <em>C. </em> At illi íterum clamavérunt: <em>S. </em> Crucifíge eum. <em>C. </em> Pilátus vero dicébat illis: <em>S. </em> Quid enim mali fecit? <em>C. </em> At illi magis clamábant: <em>S. </em> Crucifíge eum. <em>C. </em> Pilátus autem volens populo satisfácere, dimisit illis Barábbam, et trádidit Jesum flagellis cæsum, ut crucifígerétur. Mílites autem duxérunt eum in átrium prætórii, et cónvocant totam cohórtem, et índuunt eum púrpura, et impónunt ei plecténtes spíneam corónam. Et cœpérunt salutáre eum: Ave, Rex Judæórum. Et percutiébant caput ejus arúndine: et conspuébant eum et, ponéntes génua, adorábant eum. Et postquam illusérunt ei, exuérunt illum púrpura, et induérunt eum vestiméntis suis: et edúcunt illum, ut crucifígerent eum.
+</div>
+<div class="text-justify">
+Manhã cedo, sem demora, formaram conselho os príncipes dos sacerdotes com os anciãos, escribas e todos os que a ele pertenciam. Manietaram Jesus e conduziram-n’O à presença de Pilatos, a quem O entregaram. Este perguntou-Lhe: <em>S. </em> «Sois o rei dos judeus?». <em>C. </em> Respondendo, Jesus disse: <span class="text-danger">&#10016;</span> «Tu o dizes». <em>C. </em> Entretanto, os príncipes dos sacerdotes acusavam-n’O de muitas coisas. Pilatos voltou a interrogá-l’O, dizendo: <em>S. </em> «Nada respondeis? Vede de quantas coisas Vos acusam». <em>C. </em> Jesus, porém, nada respondeu, de maneira que Pilatos estava admirado. Era costume no dia da festa soltar um preso qualquer que o povo pedisse. Ora, havia um, chamado Barrabás, que estava preso como sedicioso e que durante uma sedição cometera um homicídio. Reunindo-se o povo, começou a pedir que concedesse a graça que sempre fazia. Disse, pois, Pilatos: <em>S. </em> «Quereis que vos solte o Rei dos judeus?». <em>C. </em> Porquanto, Pilatos sabia que os príncipes dos sacerdotes lho tinham entregado, movidos pela inveja. Mas os pontífices excitaram o povo, a fim de que Pilatos soltasse antes Barrabás. De novo Pilatos falou ao povo e disse-lhe: <em>S. </em> «Que quereis que faça ao Rei dos judeus?». <em>C. </em> Eles tornaram a clamar: <em>S. </em> «Crucificai-O». <em>C. </em> Pilatos respondeu-lhes: <em>S. </em> «Que mal fez Ele?». <em>C. </em> Porém, o povo clamava, cada vez com mais força: <em>S. </em> «Crucificai-O». <em>C. </em> Entretanto, Pilatos, querendo satisfazer a vontade do povo, soltou logo Barrabás, como lhe pediam; e, havendo mandado açoitar Jesus, entregou-lho para O crucificarem. Os soldados levaram Jesus para o pátio do pretório, convocando toda a coorte, vestiram-n’O de púrpura, impuseram-Lhe na cabeça uma coroa de espinhos, que eles teceram, e começaram a saudá-l’O: <em>S. </em> «Salve, ó Rei dos judeus!». <em>C. </em> E batiam-Lhe na cabeça com uma cana, cuspiam-Lhe no rosto e, prostrados de joelhos, adoravam-n’O. Depois de O escarnecerem desta maneira, despiram-Lhe a púrpura e envergaram-Lhe os seus vestidos. Então, levaram-n’O para O crucificar.
+</div>
+<div class="text-justify">
+Et angariavérunt prætereúntem quémpiam, Simónem Cyrenǽum, veniéntem de villa, patrem Alexándri et Rufi, ut tólleret crucem ejus. Et perdúcunt illum in Gólgotha locum, quod est interpretátum Calváriæ locus. Et dabant ei bíbere myrrhátum vinum: et non accépit. Et crucifigéntes eum, divisérunt vestiménta ejus, mitténtes sortem super eis, quis quid tólleret. Erat autem hora tértia: et crucifixérunt eum. Et erat títulus causæ ejus inscríptus: Rex Judæórum. Et cum eo crucifígunt duos latrónes: unum a dextris et alium a sinístris ejus. Et impléta est Scriptúra, quæ dicit: Et cum iníquis reputátus est. Et prætereúntes blasphemábant eum, movéntes cápita sua et dicéntes: <em>S. </em> Vah, qui déstruis templum Dei, et in tribus diébus reædíficas: salvum fac temetípsum, descéndens de cruce. <em>C. </em> Simíliter et summi sacerdótes illudéntes, ad altérutrum cum scribis dicébant: <em>S. </em> Alios salvos fecit, seípsum non potest salvum fácere. Christus Rex Israël descéndat nunc de cruce, ut videámus et credámus. <em>C. </em> Et qui cum eo crucifíxi erant, conviciabántur ei. Et facta hora sexta, ténebræ factæ sunt per totam terram, usque in horam nonam.
+</div>
+<div class="text-justify">
+E eis que encontraram um homem, que passava, vindo de uma herdade, o qual se chamava Simão Cireneu e era pai de Alexandre e de Rufo; logo o constrangeram a levar a cruz de Jesus, caminhando para o lugar chamado Gólgota, que quer dizer: Calvário. E deram-Lhe a beber vinho misturado com mirra, o que Ele rejeitou. Então crucificaram-n’O, repartindo os seus vestidos, sobre os quais deitaram sortes para ver a quem haviam de ficar pertencendo. Era cerca da hora tércia quando O crucificaram. Estava na cruz esta inscrição, designando a causa da sua condenação: «Rei dos judeus». Ao mesmo tempo crucificaram dois ladrões, um à direita e outro à esquerda, cumprindo-se assim o que dizia a Escritura: «Foi colocado no meio de malfeitores». Aqueles que passavam blasfemavam dele, abanando a cabeça e dizendo: <em>S. </em> «Então, tu, que destróis o templo de Deus e o reedificas em três dias, te não salvas agora a ti mesmo, descendo da cruz?!». <em>C. </em> Escarnecendo desta maneira, os príncipes dos sacerdotes e os escribas diziam uns aos outros: <em>S. </em> «Salvou os outros e não pode salvar-se a si próprio?! Que Cristo, Deus de Israel, desça agora da cruz, para que vejamos e acreditemos». <em>C. </em> Até aqueles que estavam crucificados com Ele O injuriavam! Quando era a hora sexta do dia, cobriu-se toda a terra de trevas e assim esteve até à hora nona.
+</div>
+<div class="text-justify">
+Et hora nona exclamávit Jesus voce magna, dicens: <span class="text-danger">&#10016;</span> Eloi, Eloi, lamma sabactháni? <em>C. </em> Quod est interpretátum: <span class="text-danger">&#10016;</span> Deus meus, Deus meus, ut quid dereliquísti me? <em>C. </em> Et quidam de circumstántibus audiéntes, dicébant: <em>S. </em> Ecce, Elíam vocat. <em>C. </em> Currens autem unus, et implens spóngiam acéto, circumponénsque cálamo, potum dabat ei, dicens: <em>S. </em> Sínite, videámus, si véniat Elías ad deponéndum eum. <em>C. </em> Jesus autem emíssa voce magna exspirávit.
+</div>
+<div class="text-justify">
+Pela hora nona, exclamou Jesus com voz forte: <span class="text-danger">&#10016;</span> «Eloi, Eloi, lamma sabatáni». <em>C. </em> O que quer dizer: <span class="text-danger">&#10016;</span> «Meu Deus, meu Deus, porque me abandonastes?». <em>C. </em> Alguns dos que ali estavam, ouvindo isto, diziam: <em>S. </em> «Eis que chama por Elias». <em>C. </em> E um deles correu a ensopar em vinagre uma esponja, e, colocando-a na extremidade de uma cana, apresentou-Lha para beber, dizendo: <em>S. </em> «Deixai; vejamos se Elias vem descê-l’O». <em>C. </em> Jesus, porém, dando um grande brado, expirou.
+</div>
+<div class="text-justify">
+<em>(Hic genuflectitur, et pausatur aliquantulum)</em>
+</div>
+<div class="text-justify">
+<em>Aqui ajoelha-se durante alguns instantes, meditando-se no que se leu.</em>
+</div>
+<div class="text-justify">
+Et velum templi scissum est in duo, a summo usque deórsum. Videns autem centúrio, qui ex advérso stabat, quia sic clamans exspirásset, ait: <em>S. </em> Vere hic homo Fílius Dei erat. <em>C. </em> Erant autem et mulíeres de longe aspiciéntes: inter quas erat María Magdaléne, et María Jacóbi minóris, et Joseph mater, et Salóme: et cum esset in Galilǽa, sequebántur eum, et ministrábant ei, et áliæ multæ, quæ simul cum eo ascénderant Jerosólymam.
+
+</div>
+<div class="text-justify">
+Então, rasgou-se o véu do templo em duas partes, de alto a baixo. E o centurião, que estava em frente, vendo que Jesus expirava, disse em voz alta: <em>S. </em> «Verdadeiramente, este homem era o Filho de Deus!». <em>C. </em> Encontravam-se também ali algumas mulheres, olhando de longe, entre as quais Maria Madalena, Maria, mãe de Tiago-menor e de José, e Salomé, as quais costumavam segui-l’O e servi-l’O, quando estava na Galileia; e estavam também muitas outras que haviam subido a Jerusalém, juntamente com Ele.
+</div>
+<div class="text-justify">
+Quod sequitur, cantatur in tono Evangelii: et alia fiunt ut supra in Dominica.
+</div>
+<div class="text-justify">
+<em>Terminada esta leitura, o Celebrante vai ao meio do Altar e recita em voz baixa o MUNDA COR MEUM. Depois Prossegue em tom de Evangelho:</em>
+</div>
+<div class="text-justify">
+Et cum jam sero esset factum (quia erat Parascéve, quod est ante sábbatum) venit Joseph ab Arimathǽa, nóbilis decúrio, qui et ipse erat exspéctans regnum Dei, et audácter introívit ad Pilátum, et pétiit corpus Jesu. Pilátus autem mirabátur, si jam obiísset. Et accersíto centurióne, interrogávit eum, si jam mórtuus esset. Et cum cognovísset a centurióne, donávit corpus Joseph. Joseph autem mercátus síndonem, et depónens eum invólvit síndone, et pósuit eum in monuménto, quod erat excísum de petra, et advólvit lápidem ad óstium monuménti.
+</div>
+<div class="text-justify">
+Havendo chegado a tarde (visto que era o dia da preparação, o qual é na véspera de sábado), veio José de Arimateia, nobre senador, que esperava o reino de Deus. Ousadamente, foi falar com Pilatos, pedindo-lhe o corpo de Jesus. Admirou-se Pilatos de que Jesus houvesse já morrido, mandando chamar à sua presença o centurião e perguntando-lhe se Jesus já estava morto. E, como conhecesse o que se passara, deu o corpo a José. Este comprou um lençol, tirou Jesus da cruz, amortalhou-O nesse lençol, depositou-O em um sepulcro, cavado na rocha, e depois colocou uma pedra à entrada do sepulcro.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Ofertório <em>Sl. 139, 5</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Custódi me, Dómine, de manu peccatóris: et ab homínibus iníquis éripe me.
+</div>
+<div class="dropcap text-justify">
+Não me deixeis, Senhor, cair nas mãos dos pecadores; livrai-me dos homens iníquos.
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Secreta</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Sacrifícia nos, quǽsumus, Dómine, propénsius ista restáurent: quæ medicinálibus sunt institúta jejúniis. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Permiti, Senhor, Vos imploramos, que estes sacrifícios, acompanhados com os salutares Jejuns, que nos são preceituados, renovem o vigor das nossas almas. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Comúnio <em>Sl. 68, 13-14</em></h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Advérsum me exercebántur, qui sedébant in porta: et in me psallébant, qui bibébant vinum: ego vero oratiónem meam ad te, Dómine: tempus benepláciti, Deus, in multitúdine misericórdiæ tuæ.
+</div>
+<div class="dropcap text-justify">
+Ergueram-se contra mim os que estavam assentados à porta da cidade; cantaram injúrias contra mim os que costumam embriagar-se! Eu, porém, ó Senhor, a Vós dirijo a minha prece. Ó Deus, eis o tempo propício para manifestardes benevolência, segundo a vossa infinita misericórdia!
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Postcomúnio</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="dropcap text-justify">
+Sanctificatiónibus tuis, omnípotens Deus: et vitia nostra curéntur, et remédia nobis sempitérna provéniant. Per Dóminum <em>&c.</em>
+</div>
+<div class="dropcap text-justify">
+Que estes meios de santificação, ó Deus omnipotente, possam curar-nos de todos nossos vícios e que nos sejam aplicados os remédios da salvação eterna. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
+
+<h4 class="text-center">Oração sobre o povo</h4>
+<div class="container-fluid">
+<div class="row">
+<div class="text-danger text-center"> Orémus.</div>
+<div class="text-danger text-center"> Oremos.</div>
+<div class="text-justify">
+Humiliáte cápita vestra Deo.
+</div>
+<div class="text-justify">
+Inclinai as vossas cabeças diante de Deus.
+</div>
+<div class="text-justify">
+Tua nos misericórdia, Deus, et ab omni subreptióne vetustátis expúrget, et capáces sanctæ novitátis effíciat. Per Dóminum <em>&c.</em>
+</div>
+<div class="text-justify">
+Que a vossa misericórdia, ó Deus, nos purifique dos restos do «homem velho» e nos torne capazes de uma santa renovação. Por nosso Senhor <em>&c.</em>
+</div>
+</div>
+</div>
