@@ -1,0 +1,7 @@
+---
+const today = new Date().toISOString().split('T')[0];
+
+const mass = await import(`../../date/${today}`);
+---
+
+<div>{JSON.stringify(mass.default[0].info)}</div>
