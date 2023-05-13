@@ -9,9 +9,6 @@ import tailwind from '@astrojs/tailwind'; // https://astro.build/config
 // https://astro.build/config
 export default defineConfig({
 	output: 'static',
-	build: {
-		assets: 'static',
-	},
 	site: 'https://tesourofieis.com/',
 	integrations: [
 		AutoImport({
