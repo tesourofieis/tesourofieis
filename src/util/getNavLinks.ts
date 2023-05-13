@@ -16,43 +16,18 @@ interface PreviousAndNext {
 }
 
 export const nav = [
-	{ text: 'Start Here', header: true, type: 'learn', key: 'startHere' },
-	{ text: 'Getting Started', slug: 'getting-started', key: 'getting-started' },
-	{ text: 'Installation', slug: 'install/auto', key: 'install' },
-	{ text: 'Editor Setup', slug: 'editor-setup', key: 'editor-setup' },
+	{ text: 'Oração', header: true, type: 'learn', key: 'oratio' },
+	{ text: 'Rosário', slug: 'oracao/rosario', key: 'rosario' },
+	{ text: 'Angelus', slug: 'oracao/angelus', key: 'angelus' },
+	{ text: 'Pequeno Ofício', slug: 'oracao/oficio', key: 'oficio' },
 
-	{ text: 'Core Concepts', header: true, type: 'learn', key: 'coreConcepts' },
-	{ text: 'Why Astro', slug: 'concepts/why-astro', key: 'concepts/why-astro' },
-	{ text: 'MPA vs. SPA', slug: 'concepts/mpa-vs-spa', key: 'concepts/mpa-vs-spa' },
-	{ text: 'Astro Islands', slug: 'concepts/islands', key: 'concepts/islands' },
-
-	{ text: 'Basics', header: true, type: 'learn', key: 'basics' },
+	{ text: 'Canto', header: true, type: 'learn', key: 'canto' },
 
 	{
 		text: 'Saltério',
-		slug: 'salterio',
+		slug: 'canto/salterio',
 		key: 'salterio',
 	},
-	{
-		text: 'Components',
-		slug: 'core-concepts/astro-components',
-		key: 'core-concepts/astro-components',
-	},
-	{ text: 'Pages', slug: 'core-concepts/astro-pages', key: 'core-concepts/astro-pages' },
-	{ text: 'Layouts', slug: 'core-concepts/layouts', key: 'core-concepts/layouts' },
-
-	{
-		text: 'Astro Template Syntax',
-		slug: 'core-concepts/astro-syntax',
-		key: 'core-concepts/astro-syntax',
-	},
-	{
-		text: 'UI Frameworks',
-		slug: 'core-concepts/framework-components',
-		key: 'core-concepts/framework-components',
-	},
-	{ text: 'Routing', slug: 'core-concepts/routing', key: 'core-concepts/routing' },
-	{ text: 'Endpoints', slug: 'core-concepts/endpoints', key: 'core-concepts/endpoints' },
 ] as const;
 
 /**

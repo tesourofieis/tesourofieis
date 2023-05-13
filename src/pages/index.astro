@@ -1,1 +1,53 @@
-<meta http-equiv="refresh" content={`0;url=/getting-started/`} />
+---
+// import fs from 'node:fs/promises';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import MainLayout from '~/layouts/MainLayout.astro';
+import SplashLayout from '~/layouts/SplashLayout.astro';
+
+interface Mass {
+	info: Info;
+	sections: Section[];
+}
+
+interface Info {
+	additional_info: string[];
+	colors: string[];
+	date: Date;
+	description: string;
+	id: string;
+	rank: number;
+	supplements: any[];
+	tempora: null;
+	title: string;
+}
+
+interface Section {
+	body: string[][];
+	id: string;
+	label: string;
+}
+
+const today = new Date().toISOString().split('T')[0];
+
+const data = await import(`../date/${today}.json`);
+
+const mass: Mass = data.default[0];
+const info: Info = mass.info;
+const section: Section[] = mass.sections;
+---
+
+<MainLayout content={{ title: 'Missa' }}>
+	<h1>{info.title}</h1>
+	{
+		section.map((item) => (
+			<>
+				<h1>{item.label}</h1>
+				<>
+					<div>{item.body[0][1]}</div>
+
+					<div>{item.body[0][0]}</div>
+				</>
+			</>
+		))
+	}
+</MainLayout>
