@@ -31,20 +31,59 @@ const data = await import(`../date/${today}.json`);
 const mass: Mass = data.default[0];
 const info: Info = mass.info;
 const section: Section[] = mass.sections;
+
+const rank = { 1: '1 classe', 2: '2 classe', 3: '3 classe', 4: '4 classe' }[info.rank];
+
+const colors = { w: 'white', r: 'red' }[info.colors[0]];
+
+let title = info.title;
+
+if (title == null) {
+	title = info.date.toLocaleString();
+}
 ---
 
-<MainLayout content={{ title: 'Missa' }}>
-	<h1>{info.title}</h1>
+<MainLayout content={{ title: '' }}>
+	{JSON.stringify(info, null, 2)}
+	<div>
+		<p>
+			<em class="text-2xl text-red-500">{rank}</em>
+		<h1 class="text-5xl">{title}</h1>
+		</p>
+
+		<p>
+		<em class="text-red-500">{info.additional_info}</em>
+		<em class="text-red-500">{info.description}</em>
+		<em class="text-red-500">{colors}</em>
+		<em class="text-red-500">{info.supplements}</em>
+		<em class="text-red-500">{info.date}</em>
+		</p>
+		<p class=""></p>
+	</div>
 	{
 		section.map((item) => (
-			<>
-				<h1>{item.label}</h1>
-				<>
-					<div>{item.body[0][1]}</div>
+			<div class="p-3">
+				<h1 class="text-3xl mb-3">{item.label}</h1>
+				<div class="grid grid-cols-2 gap-3">
+					<div>
+						{item.body[0][1].match(/\*([^*]+)\*/) ? (
+							<em class="text-red-500">{item.body[0][1].split(/\*([^*]+)\*/)[1]}</em>
+							<div>{item.body[0][1].split(/\*([^*]+)\*/)[2]}</div>
+						) : (
+							<div>{item.body[0][1]}</div>
+						)}
+					</div>
 
-					<div>{item.body[0][0]}</div>
-				</>
-			</>
+					<div>
+						{item.body[0][0].match(/\*([^*]+)\*/) ? (
+							<em class="text-red-500">{item.body[0][1].split(/\*([^*]+)\*/)[1]}</em>
+							<div>{item.body[0][0].split(/\*([^*]+)\*/)[2]}</div>
+						) : (
+							<div>{item.body[0][0]}</div>
+						)}
+					</div>
+				</div>
+			</div>
 		))
 	}
 </MainLayout>
