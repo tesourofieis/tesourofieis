@@ -47,14 +47,9 @@ let selectedResource;
 let textFeria = "Feria";
 
 // Making :contains case insensitive
-$.expr[":"].contains = $.expr.createPseudo(function(arg) {
-  return function(elem) {
-    return (
-      $(elem)
-        .text()
-        .toUpperCase()
-        .indexOf(arg.toUpperCase()) >= 0
-    );
+$.expr[":"].contains = $.expr.createPseudo(function (arg) {
+  return function (elem) {
+    return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
   };
 });
 
@@ -70,7 +65,7 @@ function setResourceId(resourceId) {
  **/
 function renderTemplate(template, data) {
   function _render(props) {
-    return function(tok, i) {
+    return function (tok, i) {
       return i % 2 ? props[tok] : tok;
     };
   }
@@ -205,13 +200,13 @@ class ProperContentLoader {
     }
     loader.show();
     let titles = [];
-    $.getJSON(self.apiEndpoint + resourceId, function(data) {
+    $.getJSON(self.apiEndpoint + resourceId, function (data) {
       $loadedContent.empty();
       let properTabsContent = $(renderTemplate($templateProperTabsContent));
       let properTabs = $(renderTemplate($templateProperTabs));
       window.scrollTo(0, 0);
 
-      $.each(data, function(index, item) {
+      $.each(data, function (index, item) {
         let info = item["info"];
         let title = info.title;
         let description = info.description;
@@ -219,9 +214,9 @@ class ProperContentLoader {
         let sections = item.sections;
         let colors = info.colors;
         let colorMarkers = "";
-        $.each(colors, function(i, color) {
+        $.each(colors, function (i, color) {
           colorMarkers += renderTemplate($templateColorMarker, {
-            color: color
+            color: color,
           });
         });
         let additional_info = [];
@@ -252,7 +247,7 @@ class ProperContentLoader {
           properTab = $(
             renderTemplate($templateProperActiveTab, {
               index: index,
-              title: title
+              title: title,
             })
           );
           properTabContent = $(
@@ -275,7 +270,7 @@ class ProperContentLoader {
             additional_info: additional_info.join(
               '</em> | <em class="rubric">'
             ),
-            description: description.split("\n").join("<br />")
+            description: description.split("\n").join("<br />"),
           })
         ).appendTo(properTabContent);
 
@@ -283,7 +278,7 @@ class ProperContentLoader {
           let supplementsList = $(
             renderTemplate($templateContentSupplementList, {})
           );
-          $.each(supplements, function(index, supplement) {
+          $.each(supplements, function (index, supplement) {
             let template;
             if (
               (supplement.path, supplement.path.valueOf().startsWith("http"))
@@ -296,7 +291,7 @@ class ProperContentLoader {
               renderTemplate(template, {
                 path: supplement.path,
                 label: supplement.label,
-                resourceId: resourceId
+                resourceId: resourceId,
               })
             ).appendTo(supplementsList);
             if (index + 1 < supplements.length) {
@@ -306,25 +301,25 @@ class ProperContentLoader {
           supplementsList.appendTo(properTabContent);
         }
 
-        $.each(sections, function(i, section) {
+        $.each(sections, function (i, section) {
           $(
             renderTemplate($templateContentColumnsLabel, {
               labelVernacular: section.label,
-              labelLatin: section.id
+              labelLatin: section.id,
             })
           ).appendTo(properTabContent);
-          $.each(section.body, function(i, paragraph) {
+          $.each(section.body, function (i, paragraph) {
             if (paragraph.length === 2) {
               $(
                 renderTemplate($templateContentColumnsBody, {
                   sectionVernacular: self.htmlify(paragraph[0]),
-                  sectionLatin: self.htmlify(paragraph[1])
+                  sectionLatin: self.htmlify(paragraph[1]),
                 })
               ).appendTo(properTabContent);
             } else {
               $(
                 renderTemplate($templateContentNoColumns, {
-                  text: self.htmlify(paragraph[0])
+                  text: self.htmlify(paragraph[0]),
                 })
               ).appendTo(properTabContent);
             }
@@ -337,32 +332,32 @@ class ProperContentLoader {
       }
       properTabsContent.appendTo($loadedContent);
     })
-      .done(function() {
+      .done(function () {
         loadedResource = resourceId;
         if (isHistoryReplace === true) {
           window.history.replaceState(
             { resourceId: resourceId },
             "",
-            "/" + "missa" + "/" + resourceId
+            "/" + self.urlPart + "/" + resourceId
           );
         } else {
           window.history.pushState(
             { resourceId: resourceId },
             "",
-            "/" + "missa" + "/" + resourceId
+            "/" + self.urlPart + "/" + resourceId
           );
         }
-        document.title = titles[0] + " | " + "Missale Meum";
+        document.title = "Tesouro dos Fiéis" + " - " + titles[0];
         if (navbarIsCollapsed()) {
           $sidebarAndContent.removeClass("active");
         }
         adaptSectionColumns();
         self.doneCallback();
       })
-      .fail(function() {
+      .fail(function () {
         alert(config.translation.cannotLoadMessage);
       })
-      .always(function() {
+      .always(function () {
         loader.hide();
       });
   }
@@ -379,16 +374,16 @@ class ProperContentLoader {
       1: config.translation.class1,
       2: config.translation.class2,
       3: config.translation.class3,
-      4: config.translation.class4
+      4: config.translation.class4,
     }[rank];
   }
 }
 
-$window.on("load", function() {
+$window.on("load", function () {
   /**
    * Toggle sidebar on hamburger menu click ..
    **/
-  $("#sidebar-collapse").on("click", function() {
+  $("#sidebar-collapse").on("click", function () {
     $sidebarAndContent.toggleClass("active");
   });
 
@@ -397,10 +392,10 @@ $window.on("load", function() {
    **/
   let sidebarTouchXPos = 0;
   $wrapper
-    .on("touchstart", function(e) {
+    .on("touchstart", function (e) {
       sidebarTouchXPos = e.originalEvent.touches[0].pageX;
     })
-    .on("touchend", function(e) {
+    .on("touchend", function (e) {
       if (navbarIsCollapsed()) {
         if (
           (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 80 &&
@@ -416,7 +411,7 @@ $window.on("load", function() {
   /**
    * .. and close it on touch in the main area in small view
    **/
-  $main.on("touchstart", function(e) {
+  $main.on("touchstart", function (e) {
     if (navbarIsCollapsed()) {
       $sidebarAndContent.removeClass("active");
     }

@@ -30,7 +30,7 @@ $(window).on("load", function () {
   const $searchInput = $("input#search-input");
 
   function init() {
-    moment.locale("pt");
+    moment.locale();
     loadProper(getDate());
     adaptSectionColumns();
   }
@@ -47,8 +47,7 @@ $(window).on("load", function () {
    * Obtain date from url hash or use today date if not provided or invalid.
    **/
   function getDate() {
-    let tmpDate = document.location.hash.replace("#", "");
-    tmpDate = moment(tmpDate, "YYYY-MM-DD");
+    let tmpDate = moment(tmpDate, "YYYY-MM-DD");
     if (!tmpDate.isValid()) {
       tmpDate = moment();
     }
@@ -125,7 +124,7 @@ $(window).on("load", function () {
       $main.empty();
       window.scrollTo(0, 0);
 
-      $.each(data, function (index, item) {
+      $.each(data, function (_, item) {
         let title = item["info"].title;
         let description = item["info"].description;
         let sectionsVernacular = item.proper_vernacular;
@@ -151,7 +150,7 @@ $(window).on("load", function () {
           })
         ).appendTo($main);
 
-        $.each([sectionsVernacular, sectionsLatin], function (i, sections) {
+        $.each([sectionsVernacular, sectionsLatin], function (_, sections) {
           // replacing all surrounding asterisks with surrounding <em>s in body
           $.each(sections, function (x, y) {
             sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>");
@@ -243,7 +242,6 @@ $(window).on("load", function () {
     maxDate: config.maxDate,
     useCurrent: false,
     autoclose: true,
-    locale: "pt",
     widgetPositioning: {
       horizontal: "left",
       vertical: "bottom",

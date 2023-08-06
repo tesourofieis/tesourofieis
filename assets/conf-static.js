@@ -2,7 +2,7 @@
  * Configuration for data provided by the API
  **/
 let config = {
-  lang: "pt",
+  lang: "date",
   calendarEndpoint: "/date/",
   dateEndpoint: "/date/",
   properEndpoint: "/date/proper/",
@@ -16,6 +16,6 @@ let config = {
     class3: "3ª classe",
     class4: "4ª classe",
     cannotLoadMessage:
-      "Foi-nos impossível carregar os dados. Tente limpar os dados do browser"
-  }
+      "Foi-nos impossível carregar os dados. Tente limpar os dados do browser",
+  },
 };

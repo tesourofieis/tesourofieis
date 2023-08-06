@@ -26,7 +26,7 @@ $window.on("load", function () {
   );
 
   function init() {
-      moment.locale(config.lang);
+    moment.locale(config.lang);
     ploader.load(getResourceId(), false);
   }
 
@@ -39,7 +39,7 @@ $window.on("load", function () {
    **/
 
   function getResourceId() {
-    if (selectedResource === undefined) {
+    if (!selectedResource) {
       let url = window.location.href.replace(/#.*/, "");
       selectedResource = url.split("/").reverse()[0];
     }
