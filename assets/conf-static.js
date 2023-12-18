@@ -16,6 +16,6 @@ let config = {
     class3: "3ª classe",
     class4: "4ª classe",
     cannotLoadMessage:
-      "Foi-nos impossível carregar os dados. Tente limpar os dados do browser"
-  }
+      "Foi-nos impossível carregar os dados. Tente limpar os dados do browser",
+  },
 };

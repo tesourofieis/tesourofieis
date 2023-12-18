@@ -13,10 +13,10 @@ $(window).on("load", function () {
   });
 
   const templateSidebarCalendarItem = $(
-    "#template-sidebar-calendar-item"
+    "#template-sidebar-calendar-item",
   ).text();
   const templateSidebarCalendarItemYear = $(
-    "#template-sidebar-calendar-item-year"
+    "#template-sidebar-calendar-item-year",
   ).text();
   const templateContentIntro = $("#template-content-intro").text();
   const templateContentColumns = $("#template-content-columns").text();
@@ -47,7 +47,7 @@ $(window).on("load", function () {
    * Obtain date from url hash or use today date if not provided or invalid.
    **/
   function getDate() {
-    let tmpDate = document.location.hash.replace("#", "");
+    let tmpDate = document.location.hash;
     tmpDate = moment(tmpDate, "YYYY-MM-DD");
     if (!tmpDate.isValid()) {
       tmpDate = moment();
@@ -73,7 +73,7 @@ $(window).on("load", function () {
           renderTemplate(templateSidebarCalendarItemYear, {
             date: prevYearLastDay,
             year: prevYear,
-          })
+          }),
         ).appendTo(sidebarUl);
       }
 
@@ -94,7 +94,7 @@ $(window).on("load", function () {
             date: date,
             celebration: celebration,
             additional_info: additional_info.join(" | "),
-          })
+          }),
         ).appendTo(sidebarUl);
       });
 
@@ -105,7 +105,7 @@ $(window).on("load", function () {
           renderTemplate(templateSidebarCalendarItemYear, {
             date: nextYearFirstDay,
             year: nextYear,
-          })
+          }),
         ).appendTo(sidebarUl);
       }
 
@@ -145,10 +145,10 @@ $(window).on("load", function () {
           renderTemplate(templateContentIntro, {
             title: title,
             additional_info: additional_info.join(
-              '</em> | <em class="rubric">'
+              '</em> | <em class="rubric">',
             ),
             description: description.split("\n").join("<br />"),
-          })
+          }),
         ).appendTo($main);
 
         $.each([sectionsVernacular, sectionsLatin], function (i, sections) {
@@ -172,7 +172,7 @@ $(window).on("load", function () {
                 .join("<br />"),
               labelLatin: sectionLatin.label,
               sectionLatin: sectionLatin.body.split("\n").join("<br />"),
-            })
+            }),
           ).appendTo($main);
         }
       });
@@ -201,7 +201,7 @@ $(window).on("load", function () {
       if (Math.abs(itemPosition) > $sidebar.height() * 0.6) {
         $sidebar.animate(
           { scrollTop: sidebarPosition + itemPosition - 100 },
-          200
+          200,
         );
       }
     }
