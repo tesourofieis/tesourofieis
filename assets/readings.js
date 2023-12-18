@@ -47,7 +47,7 @@ $(window).on("load", function () {
    * Obtain date from url hash or use today date if not provided or invalid.
    **/
   function getDate() {
-    let tmpDate = document.location.hash.replace("#", "");
+    let tmpDate = document.location.hash;
     tmpDate = moment(tmpDate, "YYYY-MM-DD");
     if (!tmpDate.isValid()) {
       tmpDate = moment();

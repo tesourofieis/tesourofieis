@@ -40,7 +40,7 @@ $window.on("load", function () {
 
   function getResourceId() {
     if (selectedResource === undefined) {
-      let url = window.location.href.replace(/#.*/, "");
+      let url = window.location.href;
       selectedResource = url.split("/").reverse()[0];
     }
     let tmpDate = moment(selectedResource, "YYYY-MM-DD");

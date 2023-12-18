@@ -133,7 +133,7 @@ class Loader {
   }
 }
 
-loader = new Loader();
+let loader = new Loader();
 
 function printContent(template, content) {
   let newWindow = window.open("", "", "width=650, height=750");
@@ -214,7 +214,7 @@ class ProperContentLoader {
         let sections = item.sections;
         let colors = info.colors;
         let colorMarkers = "";
-        $.each(colors, function (i, color) {
+        $.each(colors, function (_i, color) {
           colorMarkers += renderTemplate($templateColorMarker, {
             color: color,
           });
@@ -301,14 +301,14 @@ class ProperContentLoader {
           supplementsList.appendTo(properTabContent);
         }
 
-        $.each(sections, function (i, section) {
+        $.each(sections, function (_i, section) {
           $(
             renderTemplate($templateContentColumnsLabel, {
               labelVernacular: section.label,
               labelLatin: section.id,
             }),
           ).appendTo(properTabContent);
-          $.each(section.body, function (i, paragraph) {
+          $.each(section.body, function (_i, paragraph) {
             if (paragraph.length === 2) {
               $(
                 renderTemplate($templateContentColumnsBody, {
@@ -338,16 +338,16 @@ class ProperContentLoader {
           window.history.replaceState(
             { resourceId: resourceId },
             "",
-            "/" + "missa" + "/" + resourceId,
+            "/" + "missa" + "#" + resourceId,
           );
         } else {
           window.history.pushState(
             { resourceId: resourceId },
             "",
-            "/" + "missa" + "/" + resourceId,
+            "/" + "missa" + "#" + resourceId,
           );
         }
-        document.title = titles[0] + " | " + "Missale Meum";
+        document.title = titles[0] + " | " + "Tesouro dos Fiéis";
         if (navbarIsCollapsed()) {
           $sidebarAndContent.removeClass("active");
         }
@@ -411,7 +411,7 @@ $window.on("load", function () {
   /**
    * .. and close it on touch in the main area in small view
    **/
-  $main.on("touchstart", function (e) {
+  $main.on("touchstart", function () {
     if (navbarIsCollapsed()) {
       $sidebarAndContent.removeClass("active");
     }
