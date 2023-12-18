@@ -1,5 +1,5 @@
 importScripts(
-  "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.js"
+  "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.js",
 );
 
 let today = moment(new Date()).format("YYYY-MM-DD");
@@ -91,12 +91,12 @@ const PRECACHE_URLS = [
   "./img/1.gif",
 ];
 
-const PRECACHE = "precache-v0.4.1";
+const PRECACHE = "precache-v0.4.2";
 const RUNTIME = "runtime";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(PRECACHE).then((cache) => cache.addAll(PRECACHE_URLS))
+    caches.open(PRECACHE).then((cache) => cache.addAll(PRECACHE_URLS)),
   );
 });
 
@@ -116,17 +116,17 @@ self.addEventListener("activate", (event) => {
       .keys()
       .then((cacheNames) => {
         return cacheNames.filter(
-          (cacheName) => !currentCaches.includes(cacheName)
+          (cacheName) => !currentCaches.includes(cacheName),
         );
       })
       .then((cachesToDelete) => {
         return Promise.all(
           cachesToDelete.map((cacheToDelete) => {
             return caches.delete(cacheToDelete);
-          })
+          }),
         );
       })
-      .then(() => self.clients.claim())
+      .then(() => self.clients.claim()),
   );
 });
 
@@ -137,6 +137,6 @@ self.addEventListener("fetch", function (event) {
         return response;
       }
       return fetch(event.request);
-    })
+    }),
   );
 });
