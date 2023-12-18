@@ -22,11 +22,11 @@ $window.on("load", function () {
     function () {
       markSidebarItemActiveWithReload(getResourceId());
       $datetimepicker4.datetimepicker("date", getResourceId());
-    }
+    },
   );
 
   function init() {
-      moment.locale(config.lang);
+    moment.locale(config.lang);
     ploader.load(getResourceId(), false);
   }
 
@@ -70,7 +70,7 @@ $window.on("load", function () {
           renderTemplate($templateSidebarCalendarItemYear, {
             date: prevYearLastDay,
             year: prevYear,
-          })
+          }),
         ).appendTo($sidebarUl);
       }
 
@@ -99,7 +99,7 @@ $window.on("load", function () {
             celebration: celebration,
             additional_info: additional_info.join(" | "),
             color: color,
-          })
+          }),
         );
         if (parsedDate.weekday() === config.saturday) {
           sidebarCalendarItem.addClass("saturday");
@@ -112,7 +112,7 @@ $window.on("load", function () {
           renderTemplate($templateSidebarCalendarItemYear, {
             date: nextYearFirstDay,
             year: nextYear,
-          })
+          }),
         ).appendTo($sidebarUl);
       }
     })
@@ -120,7 +120,7 @@ $window.on("load", function () {
         markItemActiveCallback(date);
         $searchInput.attr(
           "placeholder",
-          config.translation.searchIn + year + "..."
+          config.translation.searchIn + year + "...",
         );
       })
       .fail(function () {
