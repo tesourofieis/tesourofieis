@@ -232,8 +232,7 @@ $window.on("load", function () {
       var currentX = event.originalEvent.touches[0].clientX;
       var deltaX = currentX - initialX;
 
-      // Adjust this threshold to determine how much horizontal movement is considered a swipe
-      var swipeThreshold = 50;
+      var swipeThreshold = 75;
 
       var date = getResourceId();
 
