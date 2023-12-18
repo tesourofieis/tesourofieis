@@ -221,9 +221,11 @@ $window.on("load", function () {
   $(document).ready(function () {
     var content = $("#content");
     var initialX = null;
+    var changeMade = false;
 
     content.on("touchstart", function (event) {
       initialX = event.originalEvent.touches[0].clientX;
+      changeMade = false;
     });
 
     content.on("touchmove", function (event) {
@@ -239,6 +241,7 @@ $window.on("load", function () {
         var add = moment(date, "YYYY-MM-DD").add(1, "day").format("YYYY-MM-DD");
         setResourceId(add);
         ploader.load(add, true);
+        changeMade = true;
       } else if (deltaX < -swipeThreshold) {
         var sub = moment(getResourceId(), "YYYY-MM-DD")
           .subtract(1, "day")
@@ -246,6 +249,7 @@ $window.on("load", function () {
 
         setResourceId(sub);
         ploader.load(sub, true);
+        changeMade = true;
       }
     });
   });
