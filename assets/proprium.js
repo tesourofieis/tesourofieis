@@ -11,7 +11,6 @@ $window.on("load", function () {
 
   // Localized strings
 
-  const $sidebarAndContent = $("#sidebar, #content");
   const $datetimepicker4 = $("#datetimepicker4");
 
   const $sidebarUl = $sidebar.find("ul");
@@ -216,5 +215,38 @@ $window.on("load", function () {
 
   $("#print").on("click", function () {
     printContent($templateContentPrint, $loadedContent.html());
+  });
+
+  // Swipe left or right changes the day
+  $(document).ready(function () {
+    var content = $("#content");
+    var initialX = null;
+
+    content.on("touchstart", function (event) {
+      initialX = event.originalEvent.touches[0].clientX;
+    });
+
+    content.on("touchmove", function (event) {
+      var currentX = event.originalEvent.touches[0].clientX;
+      var deltaX = currentX - initialX;
+
+      // Adjust this threshold to determine how much horizontal movement is considered a swipe
+      var swipeThreshold = 50;
+
+      var date = getResourceId();
+
+      if (deltaX > swipeThreshold) {
+        var add = moment(date, "YYYY-MM-DD").add(1, "day").format("YYYY-MM-DD");
+        setResourceId(add);
+        ploader.load(add, true);
+      } else if (deltaX < -swipeThreshold) {
+        var sub = moment(getResourceId(), "YYYY-MM-DD")
+          .subtract(1, "day")
+          .format("YYYY-MM-DD");
+
+        setResourceId(sub);
+        ploader.load(sub, true);
+      }
+    });
   });
 });
