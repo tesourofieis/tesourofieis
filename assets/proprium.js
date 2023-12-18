@@ -221,34 +221,29 @@ $window.on("load", function () {
   $(document).ready(function () {
     var content = $("#content");
     var initialX = null;
-    var changeMade = false;
 
     content.on("touchstart", function (event) {
       initialX = event.originalEvent.touches[0].clientX;
-      changeMade = false;
     });
 
-    content.on("touchmove", function (event) {
-      var currentX = event.originalEvent.touches[0].clientX;
-      var deltaX = currentX - initialX;
+    content.on("touchend", function (event) {
+      var finalX = event.originalEvent.changedTouches[0].clientX;
+      var deltaX = finalX - initialX;
 
       var swipeThreshold = 75;
 
-      var date = getResourceId();
-
       if (deltaX > swipeThreshold) {
-        var add = moment(date, "YYYY-MM-DD").add(1, "day").format("YYYY-MM-DD");
+        var add = moment(getResourceId(), "YYYY-MM-DD")
+          .add(1, "day")
+          .format("YYYY-MM-DD");
         setResourceId(add);
         ploader.load(add, true);
-        changeMade = true;
       } else if (deltaX < -swipeThreshold) {
         var sub = moment(getResourceId(), "YYYY-MM-DD")
           .subtract(1, "day")
           .format("YYYY-MM-DD");
-
         setResourceId(sub);
         ploader.load(sub, true);
-        changeMade = true;
       }
     });
   });
