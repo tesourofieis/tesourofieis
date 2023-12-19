@@ -239,12 +239,9 @@ $window.on("load", function () {
 
       // Calculate the absolute values for deltaX and deltaY
       var absDeltaX = Math.abs(deltaX);
-      var absDeltaY = Math.abs(
-        event.originalEvent.changedTouches[0].clientY - initialX,
-      );
 
-      // Check if the swipe is primarily horizontal and exceeds the threshold
-      if (absDeltaX > swipeThreshold && absDeltaY <= 10) {
+      // Check if the swipe is primarily horizontal
+      if (absDeltaX > swipeThreshold) {
         if (deltaX > 0) {
           // Swipe right (add one day)
           var add = moment(getResourceId(), "YYYY-MM-DD")
