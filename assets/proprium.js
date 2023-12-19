@@ -232,7 +232,7 @@ $window.on("load", function () {
 
       var swipeThreshold = 75;
 
-      if (deltaX > swipeThreshold) {
+      if (deltaX < swipeThreshold) {
         var add = moment(getResourceId(), "YYYY-MM-DD")
           .add(1, "day")
           .format("YYYY-MM-DD");
