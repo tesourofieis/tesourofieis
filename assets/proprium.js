@@ -227,24 +227,43 @@ $window.on("load", function () {
     });
 
     content.on("touchend", function (event) {
+      if (initialX === null) {
+        return; // No touchstart recorded
+      }
+
       var finalX = event.originalEvent.changedTouches[0].clientX;
       var deltaX = finalX - initialX;
 
-      var swipeThreshold = 75;
+      // Adjust this threshold based on your requirements
+      var swipeThreshold = 50;
 
-      if (deltaX < swipeThreshold) {
-        var add = moment(getResourceId(), "YYYY-MM-DD")
-          .add(1, "day")
-          .format("YYYY-MM-DD");
-        setResourceId(add);
-        ploader.load(add, true);
-      } else if (deltaX < -swipeThreshold) {
-        var sub = moment(getResourceId(), "YYYY-MM-DD")
-          .subtract(1, "day")
-          .format("YYYY-MM-DD");
-        setResourceId(sub);
-        ploader.load(sub, true);
+      // Calculate the absolute values for deltaX and deltaY
+      var absDeltaX = Math.abs(deltaX);
+      var absDeltaY = Math.abs(
+        event.originalEvent.changedTouches[0].clientY - initialX,
+      );
+
+      // Check if the swipe is primarily horizontal and exceeds the threshold
+      if (absDeltaX > swipeThreshold && absDeltaY <= 10) {
+        if (deltaX > 0) {
+          // Swipe right (add one day)
+          var add = moment(getResourceId(), "YYYY-MM-DD")
+            .add(1, "day")
+            .format("YYYY-MM-DD");
+          setResourceId(add);
+          ploader.load(add, true);
+        } else if (deltaX < 0) {
+          // Swipe left (subtract one day)
+          var sub = moment(getResourceId(), "YYYY-MM-DD")
+            .subtract(1, "day")
+            .format("YYYY-MM-DD");
+          setResourceId(sub);
+          ploader.load(sub, true);
+        }
       }
+
+      // Reset initialX for the next touchstart
+      initialX = null;
     });
   });
 });
