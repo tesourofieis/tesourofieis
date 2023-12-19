@@ -1,11 +1,5 @@
 <nav class="navbar navbar-dark navbar-expand-xl fixed-top mobile">
 
-  {% if page.title == "Santa Missa Diária" %}
-  <button id="sidebar-collapse" class="navbar-toggler" type="button">
-    <span><a class="nav-brand d-inline-block"><span class="iconify" data-icon="fa:calendar-o" data-inline="false"></span></a></span>
-  </button>
-  {% endif %}
-
   <a class="nav-link navbar-brand mx-auto logo" href="{{"/" | relative_url }}"><img src="../img/faviconWhite.svg" width="30px" alt="logo"></a>
   <span class="mr-2">🌕</span>
   <div class="custom-control custom-switch">          
@@ -15,12 +9,6 @@
 </nav>
 
 <nav class="navbar navbar-dark navbar-expand-xl fixed-top desktop" id="main-nav">
-
-  {% if page.title == "Santa Missa Diária" %}
-  <button id="sidebar-collapse" class="navbar-toggler" type="button">
-    <span><a class="nav-brand d-inline-block"><span class="iconify" data-icon="fa:calendar-o" data-inline="false"></span></a></span>
-  </button>
-  {% endif %}
 
   <a class="nav-link navbar-brand mr-0 mr-md-2 logo" href="{{"/" | relative_url }}"><img src="../img/faviconWhite.svg" width="30px" alt="logo"></a>
           <span class="mr-2">🌕</span>

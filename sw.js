@@ -63,7 +63,6 @@ const PRECACHE_URLS = [
   "./ordinariomissa",
   "./oracoesleoninas",
   "./salterio",
-  "./img/spinner.gif",
   "./assets/style.css",
   "./assets/script.js",
   "./assets/missa.css",

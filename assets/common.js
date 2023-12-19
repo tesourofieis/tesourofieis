@@ -2,16 +2,8 @@ const $window = $(window);
 const $wrapper = $("div.wrapper");
 const $main = $("main");
 const $loadedContent = $("main div#loaded-content");
-const $sidebarAndContent = $("#sidebar, #content");
-const $buttonSidebarCollapse = $("button#sidebar-collapse");
 const langSwitchLatin = "lang-switch-latin";
-const $sidebar = $("nav#sidebar");
-const $sidebarTools = $("div#sidebar-tools");
 
-const $templateSidebarCalendarItem = $("#template-sidebar-item").text();
-const $templateSidebarCalendarItemYear = $(
-  "#template-sidebar-item-year",
-).text();
 const $templateContent = $("#template-content").text();
 
 const $templateProperTabs = $("#template-proper-tabs").text();
@@ -108,10 +100,6 @@ function toggleLangSections(id) {
   }
 }
 
-function navbarIsCollapsed() {
-  return $buttonSidebarCollapse.is(":visible");
-}
-
 class Loader {
   constructor() {
     this.loaderCounter = 0;
@@ -144,53 +132,15 @@ function printContent(template, content) {
   return true;
 }
 
-function markSidebarItemActive(resourceId) {
-  resourceId = resourceId.replace("/", "-");
-  $sidebar.find("li.sidebar-item").removeClass("active");
-  let newActive = $("li#sidebar-item-" + resourceId);
-
-  if (newActive.length !== 0) {
-    newActive.addClass("active");
-    let itemPosition = newActive.position().top;
-    let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
-
-    if (
-      itemPosition > $sidebar.height() * 0.6 ||
-      itemPosition < $sidebarTools.height() * 1.5
-    ) {
-      $sidebar.animate(
-        { scrollTop: sidebarPosition + itemPosition - 100 },
-        200,
-      );
-    }
-  }
-}
-
-function filterSidebarItems(searchString, toggleSidebarItemCallback) {
-  if (searchString === "") {
-    let itemsAll = $sidebar.find("li.sidebar-item");
-    itemsAll.show();
-    toggleSidebarItemCallback();
-  } else if (searchString.length > 2) {
-    let itemsAll = $sidebar.find("li.sidebar-item");
-    itemsAll.hide();
-    $('li.sidebar-item div:contains("' + searchString + '")')
-      .parent()
-      .parent()
-      .show("fast");
-  }
-}
-
 /**
  * Obtain a proper for the given `date` through AJAX call and populate
  * the main element with Bootstrap grid.
  * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
  **/
 class ProperContentLoader {
-  constructor(apiEndpoint, urlPart, doneCallback) {
+  constructor(apiEndpoint, urlPart) {
     this.apiEndpoint = apiEndpoint;
     this.urlPart = urlPart;
-    this.doneCallback = doneCallback;
   }
 
   load(resourceId, isHistoryReplace) {
@@ -348,11 +298,7 @@ class ProperContentLoader {
           );
         }
         document.title = titles[0] + " | " + "Tesouro dos Fiéis";
-        if (navbarIsCollapsed()) {
-          $sidebarAndContent.removeClass("active");
-        }
         adaptSectionColumns();
-        self.doneCallback();
       })
       .fail(function () {
         alert(config.translation.cannotLoadMessage);
@@ -378,42 +324,3 @@ class ProperContentLoader {
     }[rank];
   }
 }
-
-$window.on("load", function () {
-  /**
-   * Toggle sidebar on hamburger menu click ..
-   **/
-  $("#sidebar-collapse").on("click", function () {
-    $sidebarAndContent.toggleClass("active");
-  });
-
-  /**
-   * .. and on swipe ..
-   **/
-  let sidebarTouchXPos = 0;
-  $wrapper
-    .on("touchstart", function (e) {
-      sidebarTouchXPos = e.originalEvent.touches[0].pageX;
-    })
-    .on("touchend", function (e) {
-      if (navbarIsCollapsed()) {
-        if (
-          (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 80 &&
-            $sidebarAndContent.hasClass("active")) ||
-          (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX < -80 &&
-            !$sidebarAndContent.hasClass("active"))
-        ) {
-          $sidebarAndContent.toggleClass("active");
-        }
-      }
-    });
-
-  /**
-   * .. and close it on touch in the main area in small view
-   **/
-  $main.on("touchstart", function () {
-    if (navbarIsCollapsed()) {
-      $sidebarAndContent.removeClass("active");
-    }
-  });
-});

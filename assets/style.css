@@ -102,30 +102,6 @@ html {
   background-color: black;
 }
 
-.sidebar-color-marker {
-  border-left: 3px solid;
-}
-
-.sidebar-color-marker-r {
-  border-left-color: red;
-}
-
-.sidebar-color-marker-g {
-  border-left-color: green;
-}
-
-.sidebar-color-marker-w {
-  border-left-color: lightgray;
-}
-
-.sidebar-color-marker-v {
-  border-left-color: violet;
-}
-
-.sidebar-color-marker-b {
-  border-left-color: black;
-}
-
 em {
   text-align: center !important;
   color: #df2321;
