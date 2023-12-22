@@ -107,11 +107,10 @@ title: Santa Missa Diária
   </li>
 </script>
 <script id="template-proper-tabs" type="text/x-custom-template">
-  <ul id="proper-tabs" class="nav nav-pills">
+  <ul id="proper-tabs" class="nav">
       <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active btn-secondary" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Proper') }}</a>
-          <div class="dropdown-menu">
-          </div>
+          <button type="button" class="dropdown-toggle btn btn-outline btn-danger text-danger" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Proper') }} Missas</button>
+          <div class="dropdown-menu"> </div>
       </li>
   </ul>
 </script>
@@ -134,6 +133,20 @@ title: Santa Missa Diária
   <h1 class="display-8 text-center">${title}</h1>
   <p class="text-center">${color_markers} | <em class="rubric">${additional_info}</em></p>
   <em>${description}</em>
+</script>
+
+<script id="template-content-share" type="text/x-custom-template">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <a
+        href="https://twitter.com/share"
+        class="twitter-share-button"
+        data-show-count="true"
+        data-text="🙏"
+        data-via="tesourofieis">
+        ></a>
+    </div>
+  </div>
 </script>
 <script id="template-content-supplement-list" type="text/x-custom-template">
   <p class="supplement">Suplement: </p>
@@ -185,4 +198,3 @@ title: Santa Missa Diária
   <body onload="window.print()" style='margin: 4%; min-width: 300px;'>${main}</body>
   </html>
 </script>
-

@@ -24,6 +24,7 @@ const $templateProperActiveTabContent = $(
 ).text();
 
 const $templateContentIntro = $("#template-content-intro").text();
+const $templateContentShare = $("#template-content-share").text();
 const $templateContentSupplementList = $(
   "#template-content-supplement-list",
 ).text();
@@ -247,7 +248,7 @@ class ProperContentLoader {
           properTab = $(
             renderTemplate($templateProperActiveTab, {
               index: index,
-              title: title,
+              title: `${index + 1}-${title}`,
             }),
           );
           properTabContent = $(
@@ -255,7 +256,10 @@ class ProperContentLoader {
           );
         } else {
           properTab = $(
-            renderTemplate($templateProperTab, { index: index, title: title }),
+            renderTemplate($templateProperTab, {
+              index: index,
+              title: `${index + 1}-${title}`,
+            }),
           );
           properTabContent = $(
             renderTemplate($templateProperTabContent, { index: index }),
@@ -273,6 +277,8 @@ class ProperContentLoader {
             description: description.split("\n").join("<br />"),
           }),
         ).appendTo(properTabContent);
+
+        $(renderTemplate($templateContentShare, {})).appendTo(properTabContent);
 
         if (supplements !== undefined && supplements.length > 0) {
           let supplementsList = $(
