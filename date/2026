@@ -24,9 +24,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10b:4:w",
-        "rank": 4,
-        "title": "2\u00aa Missa da Virgem Maria - Missa Vultum tuum"
+        "id": "commune:C10b:0:w",
+        "rank": 0,
+        "title": "II Missa da Virgem Maria \u2013 Vultum Tuum"
       }
     ],
     "commemoration": [],
@@ -86,9 +86,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10b:4:w",
-        "rank": 4,
-        "title": "2\u00aa Missa da Virgem Maria - Missa Vultum tuum"
+        "id": "commune:C10b:0:w",
+        "rank": 0,
+        "title": "II Missa da Virgem Maria \u2013 Vultum Tuum"
       }
     ],
     "commemoration": [],
@@ -139,7 +139,7 @@
         ],
         "id": "sancti:01-13:2:w",
         "rank": 2,
-        "title": "Dia da oitava da Epifania"
+        "title": "Comemora\u00e7\u00e3o do Baptismo do Senhor"
       }
     ],
     "commemoration": [],
@@ -864,9 +864,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10c:4:w",
-        "rank": 4,
-        "title": "3\u00ba Missa da Virgem Maria \u2013 Salve, Sancta Parens"
+        "id": "commune:C10c:0:w",
+        "rank": 0,
+        "title": "III Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [
@@ -2445,9 +2445,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10Pasc:4:w",
-        "rank": 4,
-        "title": "4 Missa da Virgem Maria \u2013 Salve, Sancta Parens"
+        "id": "commune:C10Pasc:0:w",
+        "rank": 0,
+        "title": "IV Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -3098,9 +3098,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10Pasc:4:w",
-        "rank": 4,
-        "title": "4 Missa da Virgem Maria \u2013 Salve, Sancta Parens"
+        "id": "commune:C10Pasc:0:w",
+        "rank": 0,
+        "title": "IV Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -3858,9 +3858,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10t:4:w",
-        "rank": 4,
-        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
+        "id": "commune:C10t:0:w",
+        "rank": 0,
+        "title": "V Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [
@@ -4028,9 +4028,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10t:4:w",
-        "rank": 4,
-        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
+        "id": "commune:C10t:0:w",
+        "rank": 0,
+        "title": "V Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -4189,9 +4189,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10t:4:w",
-        "rank": 4,
-        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
+        "id": "commune:C10t:0:w",
+        "rank": 0,
+        "title": "V Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -4332,9 +4332,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10t:4:w",
-        "rank": 4,
-        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
+        "id": "commune:C10t:0:w",
+        "rank": 0,
+        "title": "V Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [
@@ -4824,9 +4824,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10t:4:w",
-        "rank": 4,
-        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
+        "id": "commune:C10t:0:w",
+        "rank": 0,
+        "title": "V Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [
@@ -6890,9 +6890,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10t:4:w",
-        "rank": 4,
-        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
+        "id": "commune:C10t:0:w",
+        "rank": 0,
+        "title": "V Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -7040,9 +7040,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10t:4:w",
-        "rank": 4,
-        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
+        "id": "commune:C10t:0:w",
+        "rank": 0,
+        "title": "V Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -7514,9 +7514,9 @@
         "colors": [
           "w"
         ],
-        "id": "tempora:C10t:4:w",
-        "rank": 4,
-        "title": "5\u00aa Missa da Virgem Maria - Missa Salve, sancta Parens"
+        "id": "commune:C10t:0:w",
+        "rank": 0,
+        "title": "V Missa da Virgem Maria \u2013 Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
