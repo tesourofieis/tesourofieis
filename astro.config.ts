@@ -6,10 +6,20 @@ import { asideAutoImport, astroAsides } from './integrations/astro-asides';
 import { theme } from './syntax-highlighting-theme';
 import tailwind from '@astrojs/tailwind'; // https://astro.build/config
 
+import react from '@astrojs/react';
+
 // https://astro.build/config
 export default defineConfig({
-	output: 'static',
+	output: 'server',
 	site: 'https://tesourofieis.com/',
+	vite: {
+		server: {
+			watch: {
+				usePolling: false,
+				depth: 3,
+			},
+		},
+	},
 	integrations: [
 		AutoImport({
 			imports: [asideAutoImport],
@@ -20,6 +30,7 @@ export default defineConfig({
 		astroAsides(),
 		mdx(),
 		tailwind(),
+		react(),
 	],
 	markdown: {
 		syntaxHighlight: 'shiki',
