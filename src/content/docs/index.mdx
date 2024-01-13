@@ -1,46 +1,47 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Início
+description: Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.
 template: splash
 hero:
   title: |
-    Welcome to Starlight with
     <span
       class="font-black text-transparent
         bg-clip-text bg-gradient-to-b
         from-accent-700 to-accent-400
         dark:from-accent-500 dark:to-accent-200"
     >
-      Tailwind
+      Tesouro
     </span>
-  tagline: Congrats on setting up a new Starlight project!
+    dos Fiéis
+  tagline: Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.
   image:
-    file: ../../assets/houston.webp
+    file: ../../../public/favicon.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Missa diária
+      link: /missa
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Procura" icon="magnifier">
+		Eficiente busca de todo o material
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+
+	<Card title="Devocionário" icon="star">
+		Rosário, Saltério, Orações do dia, Pequeno Ofício de Nossa Senhora
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+
+	<Card title="Ritual" icon="star">
+		Missa, Adoração
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+
+	<Card title="Fé" icon="star">
+		Catecismo, Verdades da fé, Juramento anti-modernista
 	</Card>
 </CardGrid>
+
+### Em Portugal se conservará sempre o dogma da fé

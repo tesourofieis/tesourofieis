@@ -8,7 +8,7 @@ export default defineConfig({
     starlight({
       title: "Tesouro dos Fieis",
       logo: {
-        src: "./src/assets/my-logo.svg",
+        src: "./public/favicon.svg",
       },
       social: {
         github: "https://github.com/tesourofieis/tesourofieis",
