@@ -1,5 +1,5 @@
 {
-  "name": "tesourofieis",
+  "name": "starlight",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -7,21 +7,22 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "deploy": "wrangler pages deploy ./dist",
-    "deploy-preview": "wrangler pages dev ./dist",
-    "test": "vitest"
+    "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^4.0.2",
-    "astro": "^4.0.9",
-    "date-fns": "^3.0.6"
+    "@astrojs/check": "^0.3.4",
+    "@astrojs/starlight": "^0.15.2",
+    "@astrojs/starlight-tailwind": "^2.0.1",
+    "@astrojs/tailwind": "^5.0.3",
+    "@fontsource/berkshire-swash": "^5.0.18",
+    "@fontsource/cardo": "^5.0.8",
+    "astro": "^4.0.1",
+    "date-fns": "^3.1.0",
+    "sharp": "^0.32.5",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.3.4",
-    "@astrojs/node": "^7.0.4",
-    "@types/node": "^20.10.6",
-    "typescript": "^5.3.3",
-    "vitest": "^1.1.1"
+    "@tailwindcss/typography": "^0.5.10"
   }
 }
