@@ -1,0 +1,20 @@
+[Lectio5]
+@Sancti/08-24:Lectio4:s/When .*//s
+
+[Lectio6]
+@Sancti/08-24:Lectio4:s/.* When /When /s s/$/~/
+@Sancti/08-24:Lectio5:s/This .*//s
+
+[Lectio7]
+@Sancti/08-24:Lectio5:s/.* This/This/s
+
+[Lectio9]
+@Sancti/08-24:Lectio7:s/The .*//s
+
+[Lectio10]
+@Sancti/08-24:Lectio7:s/.* The /The /s s/$/~/
+@Sancti/08-24:Lectio8:s/What doth it not.*//s
+
+[Lectio11]
+@Sancti/08-24:Lectio8:s/.* What doth it not/What doth it not/s
+

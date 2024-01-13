@@ -1,0 +1,35 @@
+[Lectio2]
+@Tempora/Quadp2-0:Lectio1:s/5:31; // s/1-4/4-6/ s/31 .*4 /4 /s
+@Tempora/Quadp2-0:Lectio2:s/!.*// s/ And being.*//s
+
+[Lectio3]
+@Tempora/Quadp2-0:Lectio2:s/5-8/6-10/ s/5.*(And being)/6 $1/s
+@Tempora/Quadp2-0:Lectio3:s/!.*// s/11 .*//s
+
+[Lectio5]
+@Tempora/Quadp2-0:Lectio4:s/God's .*//s
+
+[Lectio6]
+@Tempora/Quadp2-0:Lectio4:s/.* God's /God's /s
+
+[Ant Matutinum 3N]
+Some seed fell on good ground, and gave fruit one hundred-fold.
+V. Be thou exalted, O Lord, in thy own strength.
+R. We will sing and praise thy power.
+
+[Lectio9]
+@Tempora/Quadp2-0:Lectio7:s/Therefore .*//s
+
+[Lectio10]
+@Tempora/Quadp2-0:Lectio7:s/.* Therefore /Therefore /s s/$/~/
+@Tempora/Quadp2-0:Lectio8:s/If I .*//s
+
+[Lectio11]
+@Tempora/Quadp2-0:Lectio8:s/.* If I /If I /s
+
+[Responsory11]
+R. And the ark rested in the seventh month upon the mountains of Armenia
+* And the waters were going and decreasing until the tenth month.
+V. For in the tenth month, the first day of the month, the tops of the mountains appeared.
+R. And the waters were going and decreasing until the tenth month.
+

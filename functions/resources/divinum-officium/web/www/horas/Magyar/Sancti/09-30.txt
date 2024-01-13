@@ -1,0 +1,18 @@
+[Rank]
+S. Hieronymi Presbyteris Confessoris et Ecclesiae Doctoris;;Duplex;;3;;vide C5a
+
+[Name]
+Jerome
+
+[Rule]
+vide C5a;
+9 lectiones
+
+[Lectio7]
+Evangélium szent Máté Apostol kőnyvéből
+!Matt 5:13-19
+Azon időben így szólt Jézus tanitványaihoz: Ti vagytok a föld sója. Ha a só izét veszti, ugyan mivel sózzák meg? És így tovább.
+_
+Homily by St Jerome, Priest (at Bethlehem.)
+!Book i. Comm. on Matth. v.
+Apostles and teachers are called salt, for it is by them that the whole mass of mankind is seasoned. But if the salt have lost his savour, wherewith shall it be salted? If the teacher have gone astray, by what other teacher is he to be corrected? It is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men. This is a figure taken from farming. Salt is used to savour food withal, and to preserve meat, but it hath no other use. In sooth, we read in the Scriptures of some cities which were sown with salt in the fury of their conquerors, that no bud of life might ever spring there again.

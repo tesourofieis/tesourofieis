@@ -1,0 +1,27 @@
+[Rank]
+XXI Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Symbolum Athanasium
+
+[Oratio]
+Prosimy Cię, Panie, strzeż miłościwie czeladki Twojej, aby dzięki Twej opiece była wolna od wszelkich przeciwności, a przez dobre czyny oddana czci Imienia Twego.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według św. Mateusza
+!Mt 18:23-35
+Onego czasu: Rzekł Jezus uczniom swoim tę przypowieść: „Podobne jest Królestwo Niebieskie człowiekowi królowi, który chciał się obliczyć ze sługami swymi”. I tak dalej.
+_
+Homilia świętego Hieronima, Kapłana
+!Księga 3. Komentarza, do rozdz. 18. Ewangelii wg św. Mateusza
+Jest zwyczajem Syryjczyków, a zwłaszcza mieszkańców Palestyny, dołączać do każdej swej wypowiedzi przypowieści, aby dzięki porównaniu i przykładom, to było uchwycone przez słuchaczy, co wyrażone przez proste przykazanie może nie być przyjęte. Chrystus Pan polecił więc Piotrowi – posługując się obrazem króla i pana oraz sługi, który będąc winien dziesięć tysięcy talentów, poprosił pana o łaskę i ją uzyskał – aby on sam także odpuścił swoim współsługom popełniającym mniejsze wykroczenia. Jeśli bowiem ów król i pan tak łatwo odpuścił słudze, który mu był winien dziesięć tysięcy talentów, to o ileż bardziej sami słudzy powinni odpuszczać mniejsze winy swoim współsługom?
+
+[Ant 2]
+Ale powiedział * Pan słudze: Oddaj, coś winien. A upadłszy sługa on, prosił go, mówiąc: Miéj cierpliwość nademną, a wszystko tobie oddam.
+
+[Ant 3]
+Sługo niecnotliwy, * wszystek dług odpuściłem ci, iżeś mię prosił: izali tedy i ty nie miałeś się zmiłować nad towarzyszem swoim, jakom się i ja zmiłował na tobą? Alleluja.

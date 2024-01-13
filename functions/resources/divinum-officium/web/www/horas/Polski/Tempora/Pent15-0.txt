@@ -1,0 +1,27 @@
+[Rank]
+XV Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Symbolum Athanasium
+
+[Oratio]
+Niechaj miłosierdzie Twoje oczyszcza i wzmacnia nieustannie Kościół Twój, o Panie, a że bez Ciebie istnieć nie możemy, niechaj łaska Twoja zawsze nami rządzi.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Łukasza
+!Łk 7:11-16
+Onego czasu: Jezus szedł do miasta, które zowią Naim, a z Nim szli uczniowie Jego i rzesza wielka. I tak dalej.
+_
+Homilia świętego Augustyna, Biskupa
+!Kazanie 44. o Słowach Pana, na początku
+Z tego młodzieńca zmartwychwstałego uradowała się matka wdowa; z ludzi codziennie duchowo wskrzeszanych cieszy się matka Kościół. Ten umarł na ciele, owi na duchu. Tego śmierć widzialna jest widzialnie opłakiwana; niewidzialnej śmierci owych nikt nie stara się zgłębić ani dostrzec. Poszedł ich szukać Ten, który wiedział, że są martwi; a tylko Ten wiedział, że umarli, który mógł ich ożywić. Jeśliby Pan nie przyszedł dla wskrzeszenia umarłych, to nie mówiłby Apostoł: Zbudź się, który śpisz, i powstań z martwych, a oświeci cię Chrystus.
+
+[Ant 2]
+Szedł Jezus * do miasta, które zowią Naim: i oto wynoszono umarłego syna jedynego matki jego.
+
+[Ant 3]
+Prorok wielki * powstał między nami, a iż Bóg nawiedził lud swój.

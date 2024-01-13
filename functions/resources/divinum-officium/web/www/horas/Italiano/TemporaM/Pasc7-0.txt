@@ -1,0 +1,50 @@
+[Lectio2]
+@Tempora/Pasc1-2:Lectio1:2 s/1-8/6-11/
+@Tempora/Pasc1-2:Lectio1:8-10
+9 Parti, e Medi ed Elamiti, e abitanti della Mesopotamia, e della Giudea, e della Cappadocia, del Ponto, e dell'Asia,
+10 della Frigia, e della Panfilia, dell'Egitto e dei paesi della Libia, che è intorno a Cirene, e pellegrini Romani,
+11 tanto Giudei, come proseliti. Cretesi, ed Arabi : abbiamo udito costoro discorrere nelle nostre lingue delle grandezze di Dio.
+
+[Lectio3]
+!Act. 2:12-15
+12 E tutti si stupivano, ed eran pieni di meraviglia dicendo l'uno all'altro : Che sarà mai questo?
+13 Altri poi facendosene beffe dicevano : Sono pieni di vino dolce. 
+@Tempora/Pasc1-2:Lectio2:2-3
+
+[Lectio5]
+Sermone di San Leone Papa
+!Serm. 85 sulla Pentecoste. Cap 1
+Carissimi, i cuori di tutti i cattolici sanno che la solennità odierna è da venerare tra le feste principali. E non c'è dubbio, quanto grande reverenza sia dovuta a questo giorno, che lo Spirito Santo consacrò con l'altissimo miracolo del suo dono.
+
+[Lectio6]
+Infatti da quel giorno, in cui il Signore ascese sopra ogni altezza dei cieli per sedersi alla destra di Dio Padre, questo è il decimo, che dalla resurrezione del medesimo è per noi il cinquantesimo che in quello è sorto da quel che iniziò, contenente in sé grandi misteri di antichi sacramenti e di nuovi; coi quali è molto apertamente dichiarato sia che la grazia è stata preannunziata tramite la legge e la legge implementata tramite la grazia.
+
+[Lectio7]
+Come infatti al popolo Ebreo una volta liberato dagli Egiziani, il cinquantesimo giorno dopo l'immolazione dell'agnello, la Legge fu data sul monte Sinai; così dopo la passione, nella quale il vero Agnello di Dio fu ucciso, il giorno cinquantesimo dalla resurrezione lo Spirito Santo fu mandato sugli apostoli e il popolo dei credenti, in modo che il Cristiano conosca facilmente, che gli inizi dell'Antico Testamento erano serviti ai principi Evangelici, e fosse stato stabilito un secondo patto dal medesimo Spirito, da cui il primo era stato costituito.
+
+[Lectio8]
+!Cap II
+Da questo giorno dunque la tromba della predicazione Evangelico tuonò: da questo giorno le piogge dei carismi, i fiumi delle benedizioni, irrigarono ogni deserto ed ogni area secca: poiché per rinnovare la faccia delle terra lo Spirito di Dio era trasportato sulle acque; e per rimuovere le vecchie tenebre, brillavano i lampi della nuova luce, con splendore di lingue tremolanti, e fossero concepiti la luminosa parola del Signore e il discorso infuocata,
+in cui, per creare comprensione e consumare il peccato,  fosse presente l'efficacia di illuminare e la forza di bruciare.
+
+[Lectio9]
+@Tempora/Pasc7-0:Lectio1:s/ Chi.*//s
+
+[Lectio10]
+@Tempora/Pasc7-0:Lectio1:s/.*(Chi)/$1/s s/$/~/
+@Tempora/Pasc7-0:Lectio2:s/ Ma.*//s
+
+[Lectio11]
+@Tempora/Pasc7-0:Lectio2:s/.*(Ma)/$1/s s/$/~/
+@Tempora/Pasc7-0:Lectio3:s/ Certo.*//s
+
+[Lectio12]
+@Tempora/Pasc7-0:Lectio3:s/.*(Certo)/$1/s
+
+[MM Capitulum]
+!Atti 2:2
+E all'improvviso venne dal cielo un rumore, come di vento che si avanza impetuoso, e riempì tutta la casa dove si trovavano raccolti. 
+$Deo gratias
+_
+V. Parlavano gli Apostoli in varie lingue, alleluia.
+R. Delle grandezze di Dio, alleluia.

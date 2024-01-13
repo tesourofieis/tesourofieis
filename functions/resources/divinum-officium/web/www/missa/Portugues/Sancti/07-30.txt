@@ -1,0 +1,47 @@
+[Rank]
+S. Abdon et Senen Martyrum;;Simplex;;1.1;;vide C3
+
+[Rule]
+vide C3;
+Gloria
+
+[Comment]
+# 30 VII – S.S. Ábdon e Senen, Mártires
+! Comemoração
+! Paramentos vermelhos
+
+[Oratio]
+Ó Deus, que conferistes aos vossos Santos Ábdon e Senen os tesouros abundantes da vossa graça para poderem alcançar a glória, concedei aos vossos servos o perdão dos seus pecados, a fim de que pelo valor dos méritos dos vossos Santos mereçamos ser livres de todas as adversidades.
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+!2 Cor 6:4-10
+Meus irmãos: Mostremo-nos dignos ministros de Deus em todas as coisas, principalmente com muita paciência, tanto nas tribulações, nas necessidades, nas angústias, nos açoites, nas prisões, nas revoltas, nas fadigas, nas vigílias e nos jejuns, como pela pureza, pela ciência, pela longanimidade, pela bondade, pelo Espírito Santo, pela verdadeira caridade, pela palavra da verdade, pelo poder de Deus, pelas armas da justiça com que combatemos à direita e à esquerda; na honra e na ignomínia; na boa e na má fama; sendo julgados sedutores, ainda que sejamos sinceros e verdadeiros; sendo julgados desconhecidos, e, contudo, sendo bastante conhecidos; sendo considerados moribundos, e, contudo, estando bem vivos; sendo considerados condenados, e, contudo, escapando à morte; sendo julgados tristes, mas estando alegres; sendo julgados pobres, mas enriquecendo muitos; sendo considerados como não tendo nada, mas possuindo tudo.
+
+[Graduale]
+!Ex 15:11
+Deus é glorioso em seus Santos: e admirável na sua majestade, praticando prodígios.
+!Ex 15:6
+V. Senhor, a vossa dextra engrandeceu-se pela sua força: a vossa dextra esmagou os inimigos.
+!Sb 3:1
+V. Deus é glorioso em seus Santos: e admirável na sua majestade, praticando prodígios.
+
+[Evangelium]
+@Sancti/11-01:Evangelium
+
+[Offertorium]
+!Sl 67:36
+Deus é admirável em seus Santos. Deus de Israel dará ao seu povo a força e a coragem. Bendito Ele seja, pois. Aleluia.
+
+[Secreta]
+Senhor, Vos suplicamos, fazei que esta hóstia, que Vos oferecemos em honra do nascimento no céu dos vossos Santos Mártires, nos livre das cadeias dos nossos pecados e nos alcance os dons da vossa misericórdia.
+$Per Dominum
+
+[Communio]
+!Sl 78:2; 78:11
+Senhor, deram como alimento às aves do céu os corpos dos vossos servos, que haviam sido mortos, e deram as carnes dos vossos Santos às feras da terra. Pelo poder do vosso braço Conservai os filhos daqueles que foram mortos.
+
+[Postcommunio]
+Fazei, Senhor, pela virtude deste mystério, que os nossos vícios sejam apagados e que, pela intercessão dos vossos Santos Mártires Ábdon e Senen, sejam realizados os nossos justos desejos.
+$Per Dominum

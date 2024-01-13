@@ -1,0 +1,42 @@
+[Rank]
+S. Vincentii Ferrerii Confessoris;;Duplex;;3;;vide C5
+
+[RankNewcal]
+S. Vincentii Ferrerii Confessoris;;Duplex optional;;2;;vide C5
+
+[Rule]
+vide C5;
+Gloria
+
+[Comment]
+# 05 IV – São Vicente Ferrer, Confessor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+Ó Deus, que Vos dignastes ilustrar a vossa Igreja com os méritos e a pregação do B. Vicente, vosso Confessor, concedei a estes vossos servos a graça de serem instruídos com seus exemplos e livres de todas as adversidades pela sua protecção.
+$Per Dominum
+
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+@Commune/C5:Graduale
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+@Commune/C5:Offertorium
+
+[Secreta]
+@Commune/C5:Secreta
+
+[Communio]
+@Commune/C5:Communio
+
+[Postcommunio]
+@Commune/C5:Postcommunio

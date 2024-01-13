@@ -1,0 +1,55 @@
+[Rank]
+S. Joachim Confessoris, Patris B. Mariae Virginis;;Duplex II class;;5.1;;ex C5
+
+[Rank1960]
+S. Joachim Confessoris, Patris B. Mariae Virginis;;Duplex II class;;5;;ex C5
+
+[Rule]
+ex C5;
+Gloria
+
+[Comment]
+# 16 VIII – S. Joaquim, Pai da Nossa Senhora
+! 2 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl 111:9
+v. Distribuiu liberalmente os seus bens pelos pobres: a sua justiça subsistirá em todos os séculos dos séculos: e o seu poder será exaltado com glória.
+!Sl 111:1
+Bem-aventurado o varão que teme o Senhor e que põe todo o zelo em cumprir os mandamentos.
+&Gloria
+v. Distribuiu liberalmente os seus bens pelos pobres: a sua justiça subsistirá em todos os séculos dos séculos: e o seu poder será exaltado com glória.
+
+[Oratio]
+Ó Deus, que, de preferência a todos vossos Santos, quisestes que o B. Joaquim fosse o Pai da Mãe de vosso Filho, concedei-nos, Vos suplicamos, que experimentemos o perpétuo patrocínio daquele cuja festa celebramos.
+$Per eundem
+
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+!Sl 111:9; 111:2
+Distribuiu liberalmente os seus bens pelos pobres: a sua justiça permanecerá em todos os séculos dos séculos.
+V. Sua descendência será poderosa na terra, pois a geração dos justos será abençoada. Aleluia, aleluia.
+Ó S. Joaquim, Esposo de Santa Ana, Pai da Virgem-Mãe, concedei na terra aos vossos os socorros necessários para a salvação. Aleluia.
+
+[Evangelium]
+Início do santo Evangelho segundo S. Mateus.
+!Mt 1:1-16
+Livro da geração de Jesus Cristo, filho de David, filho de Abraão. Abraão gerou Isaque. Isaque gerou Jacob. Jacob gerou Judas e seus irmãos. Judas gerou Fares e Zarão de Tamar. Fares gerou Esron. Esron gerou Aarão. Aarão gerou Aminadabe. Aminadabe gerou Naássão. Naássão gerou Salmão. Salmão gerou Booz de Raabe. Booz gerou Obede de Rute. Obede gerou Jesse. Jesse gerou o Rei David. David gerou Salomão daquela que fora mulher de Urias. Salomão gerou Roboão. Roboão gerou Abias. Abias gerou Asa. Asa gerou Josafá. Josafá gerou Jorão. Jorão gerou Ozias. Ozias gerou Joatão. Joatão gerou Acás. Acás gerou Ezequias. Ezequias gerou Manasses. Manasses gerou Amão. Amão gerou Josias. Josias gerou Jeconias e os seus irmãos, na deportação da Babilónia. E depois da deportação da Babilónia Jeconias gerou Salátiel. Salátiel gerou Zoróbabel. Zoróbabel gerou Abiude. Abiude gerou Eliacim. Eliacim gerou Azor. Azor gerou Sadoc. Sadoc gerou Aquim. Aquim gerou Éliude. Éliude gerou Eleazar. Eleazar gerou Matam. Matam gerou Jacob. E Jacob gerou José, esposo de Maria, da qual nasceu Jesus, que é chamado Cristo.
+
+[Offertorium]
+!Sl 8:6-7
+Vós o coroastes, Senhor, com glória e honras; Vós o estabelecestes acima das obras das vossas mãos.
+
+[Secreta]
+Recebei, ó clementíssimo Deus, o sacrifício que oferecemos à vossa majestade em honra do santo Patriarca Joaquim, Pai da Virgem Maria, a fim de que, pela sua intercessão, unida à de sua esposa e à de sua B. Filha, mereçamos alcançar a plena remissão dos nossos pecados e a glória eterna.
+$Per Dominum
+
+[Communio]
+Eis o servo fiel e prudente que o Senhor estabeleceu acima da sua família para distribuir oportunamente a cada um a sua medida de trigo.
+!Lc 12:42
+[Postcommunio]
+Fazei, ó Deus omnipotente, Vos suplicamos, que pelas preces e méritos do B. Joaquim, Pai da Mãe do vosso amado Filho, nosso Senhor Jesus Cristo, estes sacramentos, que recebemos, nos tornem comparticipantes da vossa graça na vida presente e da vossa eterna glória na vida futura.
+$Per eundem

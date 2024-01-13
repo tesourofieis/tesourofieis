@@ -1,0 +1,123 @@
+[Name]
+Officium Defunctorum
+
+[Rule]
+Psalmi Dominca
+Antiphonas horas
+Capitulum Versum 2 ad Laudes et Vesperas
+Omit Incipit Hymnus Capitulum Lectio Preces Commemoratio Suffragium Conclusion
+Limit Benedictiones Oratio
+Requiem gloria
+Special preces
+9 lectiones
+
+[Oratio_Fid]
+&Dominus_vobiscum2
+_
+$Oremus
+v. Isten ki a mindenség teremtője és megvátója vagy bocsásd meg szolgáid~
+és szolgálóid vétkeit, és könyörgéseink által add meg nekik a megbocsájtást~
+amire mindig vágyakoztak
+$Qui vivis
+
+[Oratio 1]
+&pater_noster
+_
+&psalm(145)
+(sed rubrica 1955 aut rubrica 1960 aut rubrica monastica omittitur)
+_
+[Oratio 2]
+&pater_noster
+
+[Invit]
+A Királyt, aki által minden él * jöjjetek, imádjuk!
+
+[Lectio1]
+Olvasmány Jób könyvéből
+!Job 7:16-21
+16 Eltűnök én immár, nem élek örökké, hagyj hát magamra, éltem egy lehelet.
+17 Vajon mi az ember, hogy oly nagyra tartod, arra méltatod, hogy törődj vele.
+18 Hisz meglátogatod minden áldott reggel, és próbára teszed minden pillanatban.
+19 Mily rég nem veszed le tekinteted rólam! Arra sem hagysz időt, hogy nyálam lenyeljem.
+20 Vétkeztem? Mit tettem? Mondd, emberek őre! Támadó kedvednek miért vagyok céltábla? Miért vagyok terhedre?
+21 Miért nem bocsátod meg a bűneimet, vétkem fölött miért nem hunysz szemet?
+
+[Lectio2]
+!Job 10:1-7
+1 Undorral tekintek saját életemre, szabadon hagyom, áradjon panaszom, gyötrődő lelkemet kiöntöm.
+2 Esengek Istenhez: Ne ítélj el! Hadd tudjam meg, miért támadtál meg!
+3 Hasznod van tán abból, ha erőszakhoz nyúlsz, kezed remekművét hogyha meggyalázod, a bűnösök terveit meg jóváhagyod?
+4 Csak tán nincs húsból a te szemed is, hogy mint ember szokott, te is csak úgy lássál?
+5 Napjaid hasonlók az ember napjaihoz, s esztendeid az ember éveihez,
+6 hogy bűnöm keresed s kutatsz vétkem után,
+7 noha jól tudod, hogy nem vagyok bűnös? Nem szabadít ki senki sem kezedből?
+
+[Lectio3]
+!Job 10:8-12
+8 A te kezed formált és teremtett, most meg mást gondoltál, s elpusztítasz?
+9 Agyagból formáltál - csak emlékezzél! -, s most újra porrá változtatnál vissza?
+10 Nemde kiöntöttél, mint a tejet szokták, aztán sajt módjára hagytál megalvadni.
+11 Bőrbe meg húsba nem te öltöztettél, s csontokkal, inakkal nem te szőttél át?
+12 Életet, kegyelmet te adtál nekem, őrködj hát éberen a lelkem fölött!
+
+[Lectio4]
+Jób könyvéből
+!Job 13:22-28
+22 Aztán szólíts, és én megfelelek neked, de én szóljak előbb, s te csak választ adj.
+23 Mekkorák lehetnek bűneim, hibáim? Fedd fel adósságom s minden gonosztettem!
+24 Miért rejted el arcodat előlem, miért veszel olybá, mint ellenségedet?
+25 Hulló falevelet akarsz ijesztgetni, kiszáradt pozdorját üldözőbe venni?
+26 Keserű dolgokat írsz elő számomra, ifjú botlásaim írod rovásomra.
+27 Te zártad a lábam kalodába, minden utamat szemmel tartod, és vonást húzol a lábam körül.
+28 Mint a pudvás fa, szétesik életem, mint a ruhadarab, amit molyok rágnak.
+
+[Lectio5]
+!Job 14:1-6
+1 Minden ember, aki anyától született, szegény a napokban, de jóllakik gonddal.
+2 Mint virág kinyílik, azután elhervad, eltűnik, mint árnyék, nincsen maradása.
+3 Nyitva tartod te is szemedet fölötte, s bírói székedhez viszed ítéletre.
+4 Tisztátalantól vajh születhet-e tiszta? Nem, egyetlen egy sem!
+5 Hogyha már előre kimérted napjait, hónapjai számát meghatároztad, s kijelölted célját, amit túl nem léphet,
+6 akkor ne nézz rá, hagyd inkább magára, amíg le nem tölti idejét a szolga.
+
+[Lectio6]
+!Job 14:13-16
+13 Ó, bár elrejtenél az alvilág ölében, elbújtatnál, míg haragod elül, adnál nekem időt, aztán gondolnál rám!
+14 Ha meghalna az ember, de föléledne újra, szolgálati időm szívesen tölteném, míg nem jön valaki, aki fölváltana.
+15 Akkor szólíthatnál, és én válaszolnék, akkor te is vágynál kezed műve után.
+16 Megszámlálnád akkor minden lépésemet, s nem arra figyelnél, mikor lépek félre.
+
+[Lectio7]
+Jób könyvéből
+!Job 17:1-3; 17:11-15
+1 Összetörött immár énbennem a lélek, és miattam gyűlnek egybe a sírásók.
+2 Valóban, gúnyolódók céltáblája lettem, s azt kell egyre néznem, hogyan civakodnak.
+3 Tégy le óvadékot értem önmagadnál! Ki volna más, ki értem kezességet vállal?
+11 Napjaim elenyésznek, terveim meg egyre távolabb kerülnek, a szívem rostjait szétmarcangolták.
+12 "A napnak kitér az éj - így szokták mondani -, közel a fény, amely elűzi a sötétséget."
+13 Alvilágban lakni, ez a reménységem, ágyamat megvetni, ott a sötétségben.
+14 Síromhoz így szólok: "Az apám vagy nékem!" A férgekhez meg: "Anyám, s nővéreim!"
+15 Hol marad számomra még bármi reménység, ki leli meg - a boldogságomat?
+
+[Lectio8]
+!Job 19:20-27
+20 És a bőröm alatt elpusztul a húsom, csontjaim csupaszok, mint valami fogak.
+21 Könyörüljetek meg rajtam, barátaim, mert utolért az Istennek keze.
+22 Miért üldöztök ti is, akárcsak az Isten? Nem tudtok már végre jóllakni húsommal?
+23 Ó, bárcsak fölírná szavaim valaki, följegyezné őket egy táblára!
+24 Ó, bár vasvésővel, aztán íróónnal örökre bevésnék őket a sziklába!
+25 Tudom jól, él ügyem szószólója, ő lép majd föl utoljára a földön.
+26 Hogyha fölébredek, maga mellé állít, és meglátom még testemből az Istent.
+27 Látni fogom, s ő a pártomon lesz, kit szemem lát, az nem lesz majd idegen, vágyódás tölti el veséimet.
+
+[Lectio9]
+!Job 10:18-22
+18 Miért hoztál elő anyámnak méhéből? Haltam volna meg, mielőtt szem látott!
+19 Úgy volnék csak, mintha sose lettem volna, vittek volna sírba anyámnak méhéből.
+20 Éltem napjainak nem kevés a száma? Vedd le rólam szemed, hadd örüljek egy kicsit,
+21 mielőtt elmegyek, s vissza nem térek a sötétség és az árnyék országából.
+22 A sötétség honából, hol nincs semmi rend, hol a napvilág is fekete éjszaka.
+
+[Oratio 21]
+&pater_noster
+&psalm(129)

@@ -1,0 +1,6 @@
+[Rank]
+S. Canuti Regis et Martyrum;;Semiduplex;;2;;vide C2
+
+[Rule]
+vide C2;
+Gloria

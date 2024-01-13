@@ -1,0 +1,12 @@
+[Rank]
+Ss. Mauritii et Sociorum Martyrum;;Simplex;;1.1;;vide C3
+
+[Rule]
+vide C3;
+
+[Oratio]
+Annue, quǽsumus, omnípotens Deus: ut sanctórum Mártyrum tuórum Maurítii et Sociórum ejus nos lætíficet festíva solémnitas; ut, quorum suffrágiis nítimur, eórum natalíciis gloriémur.
+$Per Dominum
+
+[Lectio93]
+@Sancti/09-22::s/^!.*//

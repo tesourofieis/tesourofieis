@@ -1,0 +1,58 @@
+[Rank]
+Dominica IX Post Pentecosten;;Semiduplex;;5
+
+[Rule]
+Gloria
+Credo
+Prefatio=Trinitate
+Suffr=Sanctorum;Maria3,Ecclesiae,Papa;;
+
+[Comment]
+# Nono Domingo depois de Pentecostes
+! 2 classe
+! Paramentos verdes
+
+[Introitus]
+!Sl 53:6-7
+v. Eis que Deus vem em meu auxílio: eis que o Senhor é o sustentáculo da minha alma! Lançai, pois, sobre os meus inimigos, ó Deus, meu protector, o mal que me querem fazer; e, conforme a vossa palavra verdadeira, exterminai-os.
+!Sl 53:3
+Ó Deus, pelo vosso nome, salvai-me; e, pelo vosso poder, livrai-me.
+&Gloria
+v. Eis que Deus vem em meu auxílio: eis que o Senhor é o sustentáculo da minha alma! Lançai, pois, sobre os meus inimigos, ó Deus, meu protector, o mal que me querem fazer; e, conforme a vossa palavra verdadeira, exterminai-os.
+
+[Oratio]
+Que os ouvidos da vossa misericórdia, Senhor, sejam atentos às preces dos vossos suplicantes; e, para que lhes concedais o que Vos suplicam, inspirai-os a que Vos peçam o que seja do vosso agrado.
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+!1 Cor. 10:6-13
+Meus irmãos: Não sejamos concupiscentes das coisas más, como nossos antepassados, nem vos torneis idólatras, como alguns deles, a respeito dos quais está escrito: «Assentou-se o povo para comer e beber, e levantou-se para se divertir». Não cometamos, pois, acções impuras, como alguns deles o fizeram, pelo que pereceram em um só dia vinte e três mil. Não tentemos a Cristo, como alguns deles tentaram, pelo que pereceram de mordeduras de serpentes. Não murmureis, como alguns deles murmuraram, pelo que foram feridos mortalmente pelo Anjo exterminador. Todas estas coisas eram como que figuras, e foram escritas para advertência de nós, que viemos no fim dos tempos. Aquele, pois, que crê estar seguro, tenha cuidado, não caia. Nenhuma tentação nos sobreveio que não fosse humana; porém, Deus é fiel e não permitirá que sejais tentados além das vossas forças, mas antes fará que tireis proveito da tentação, a fim de que possais suportá-la.
+
+[Graduale]
+!Sl 8:2
+Ó Senhor, nosso Deus, como é admirável o vosso nome em todo o universo.
+V. Vossa magnificência eleva-se sobre os céus! Aleluia, aleluia. 
+!Sl 58:2
+V. Livrai-me das mãos dos meus inimigos, ó meu Deus; livrai-me daqueles que se insurgem contra mim. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Lucas.
+!Lc 19:41-47
+Naquele tempo, havendo Jesus chegado próximo de Jerusalém e vendo esta cidade, chorou sobre ela, dizendo: «Ah! se tu, ao menos neste dia, que te foi dado, conhecesses o que te pode dar a paz!... Mas, entretanto, tudo está oculto a teus olhos! Pois virão dias infelizes para ti, em que os teus inimigos te cercarão de trincheiras, te sitiarão e te fecharão por todos os lados. Então, te destruirão completamente, assim como aos teus filhos, que estão dentro de ti, não deixando pedra sobre pedra. Porquanto não quiseste conhecer o tempo em que foste visitada». Depois Jesus entrou no templo, expulsando aqueles que lá vendiam ou compravam; e dizia-lhes: Está escrito: «Minha casa é casa de oração, fizestes dela caverna de ladrões!». E Jesus ensinava todos os dias no templo.
+
+[Offertorium]
+!Sl 18:9-12
+Os preceitos do Senhor são justos: alegram o coração. Seus juízos são mais doces do que o mel e o favo do mel. Assim, pois, o vosso servo, Senhor, guardá-los-á.
+
+[Secreta]
+Concedei-nos, Senhor, Vos suplicamos, a graça de recebermos frequente e dignamente estes mystérios, pois cada vez que se celebra este sacrifício opera-se o fruto da nossa redenção.
+$Per Dominum
+
+[Communio]
+!Jo 6:57
+Aquele que come a minha Carne e bebe o meu Sangue permanece em mim e Eu permaneço nele, diz o Senhor.
+
+[Postcommunio]
+Permiti, Senhor, Vos suplicamos, que a nossa comunhão deste sacramento cada vez mais nos purifique e una a Vós.
+$Per Dominum

@@ -1,0 +1,47 @@
+[Rank]
+S. Johanni Baptistae de la Salle Confessoris;;Duplex;;3;;vide C5
+
+[Rule]
+Gloria
+
+S. Joannis Baptistæ de la Salle
+Confessoris
+Duplex
+
+[Comment]
+# 15 V – S. João Baptista de la Salle, Confessor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+Ó Deus, que para o ensino dos pobres e para a firmeza dos jovens no caminho da verdade fizestes aparecer o Santo Confessor João Baptista, pelo qual fundastes uma nova família na Igreja, concedei-nos propício que, pela sua intercessão e seguindo o seu exemplo, sejamos devorados pelo zelo da glória de Deus para a salvação das almas, a fim de que possamos tornar-nos seus companheiros de glória no céu.
+$Per Dominum
+
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+Aleluia, aleluia
+!Tg 1:12.
+Bem-aventurado o varão que sabe sofrer a tentação, porque, quando acabar a tentação, receberá a coroa da vida. Aleluia.
+!Sb 45:9
+O Senhor amou-o, ornou-o e revestiu-o com a túnica da glória. Aleluia.
+
+[Evangelium]
+@Sancti/01-31:Evangelium
+
+[Offertorium]
+!Sl 88:25
+@Commune/C5:Offertorium
+
+[Secreta]
+@Commune/C5:Secreta
+
+[Communio]
+@Commune/C5:Communio
+
+[Postcommunio]
+@Commune/C5:Postcommunio

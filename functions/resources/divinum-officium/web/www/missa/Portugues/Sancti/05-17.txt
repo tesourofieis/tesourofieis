@@ -1,0 +1,38 @@
+[Rank]
+S. Paschalis Baylon Confessoris;;Duplex;;3;;vide C5
+
+[Rule]
+Gloria
+
+[Comment]
+# 17 V – S. Pascoal Bailão, Confessor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+Ó Deus, que enriquecestes o B. Pascoal, vosso Confessor, com precioso afecto para com os sagrados mystérios do vosso Corpo e Sangue, concedei-nos propício que alcancemos neste divino banquete a mesma abundância de graças que ele alcançou.
+$Qui vivis
+
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+@Commune/C5:Graduale
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+@Commune/C5:Offertorium
+
+[Secreta]
+@Commune/C5:Secreta
+
+[Communio]
+@Commune/C5:Communio
+
+[Postcommunio]
+@Commune/C5:Postcommunio

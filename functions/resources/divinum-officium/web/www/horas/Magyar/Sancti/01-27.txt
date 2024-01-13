@@ -1,0 +1,9 @@
+[Rank]
+S. Joannis Chrysostomi Episcopi Confessoris Ecclaesiae Doctoris;;Duplex;;3;;vide C4a
+
+[Name]
+Aranyszáju szent János
+
+[Rule]
+vide C4a;mtv
+9 lectiones

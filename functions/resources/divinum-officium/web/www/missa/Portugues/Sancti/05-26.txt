@@ -1,0 +1,79 @@
+[Rank]
+S. Philippi Neri Confessoris;;Duplex;;3;;vide C5
+
+[Rule]
+vide C5;
+9 lectiones
+CPapaM=Eleuthérium;
+Gloria
+
+[Comment]
+# 26 V – S. Filipe Néri, Confessor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+!Rm 5:5
+O amor de Deus difundiu-se nos nossos corações pelo seu Espírito que habita em nós. (T.P. Aleluia, aleluia.).
+!Sl 102:1
+Bendizei, ó minha alma, o Senhor: que tudo quanto me pertence bendiga o seu santo nome.
+&Gloria
+O amor de Deus difundiu-se nos nossos corações pelo seu Espírito que habita em nós. (T.P. Aleluia, aleluia.).
+
+[Oratio]
+Ó Deus, que elevastes o B. Filipe, vosso Confessor, à sublime glória dos vossos Santos, concedei-nos propício que, celebrando com alegria esta festa, alcancemos proveito com o exemplo das suas virtudes.
+$Per Dominum
+
+[Lectio]
+@Sancti/03-07:Lectio
+
+[Graduale]
+!Sl 33:12; 33:6
+Vinde, meus filhos, e escutai-me: Ensinar-vos-ei a temer o Senhor.
+V. Aproximai-Vos d’Ele e ficareis iluminados: então a vossa face não ficará envergonhada.
+!Lm 1:13
+Do alto dos céus enviou e fogo sobre os meus ossos e instruiu-me. Aleluia.
+
+[GradualeP]
+Aleluia, aleluia.
+!Lm 1:13
+Do alto dos céus enviou e fogo sobre os meus ossos e instruiu-me. Aleluia
+!Sl 38:4
+Meu coração inflamou-se no meu peito. Enquanto eu meditava, o fogo abrasou-me. Aleluia.
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+!Sl 118:32
+Eu corri pelo caminho dos vossos mandamentos, porquanto dilatastes o meu coração. (T.P. Aleluia.)
+
+[Secreta]
+Olhai aplacado para o presente sacrifício, Senhor, Vos suplicamos, e fazei que o Espírito Santo nos inflame naquele fogo que penetrou maravilhosamente no coração do B. Filipe.
+$Per Dominum ejusdem
+
+[Communio]
+!Sl 83:3
+O meu coração e a minha carne exultaram em Deus vivo. (T.P. Aleluia.)
+
+[Postcommunio]
+Alimentados com as celestiais delícias, Senhor, Vos pedimos que, pelos méritos do B. Filipe, vosso Confessor, e imitando os seus exemplos, aspiremos sempre a este alimento, que nos dará a verdadeira vida.
+$Per Dominum
+
+[Commemoratio Oratio]
+! de S. Eleutério, Papa e Mártir
+@Commune/C2c:Oratio:s/N\./Eleutério/
+(sed communi Summorum Pontificum dicitur)
+@Commune/C4b:Oratio
+
+[Commemoratio Secreta]
+! de S. Eleutério, Papa e Mártir
+@Commune/C2c:Secreta:s/N\./Eleutério/
+(sed communi Summorum Pontificum dicitur)
+@Commune/C4b:Secreta
+
+[Commemoratio Postcommunio]
+! de S. Eleutério, Papa e Mártir
+@Commune/C2c:Postcommunio:s/N\./Eleutério/
+(sed communi Summorum Pontificum dicitur)
+@Commune/C4b:Postcommunio

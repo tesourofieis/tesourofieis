@@ -1,0 +1,59 @@
+[Rank]
+S. Bonifatii Episc. et Mart.;;Duplex;;3;;vide C2
+
+[Rule]
+vide C2;
+Gloria
+
+[Comment]
+# 05 VI – S. Bonifácio, Bispo e Mártir
+! 3 classe
+! Paramentos vermelhos
+
+[Introitus]
+!Is 65:19; 65:23
+v. Exultarei tem Jerusalém e alegrar-me-ei com meu povo: e nunca mais se ouvirá a voz das lágrimas, nem do clamor. Meus eleitos não trabalharão baldadamente, nem frutificarão na perturbação, pois constituem a geração bendita do Senhor: e os seus netos serão abençoados com eles. (T. P. Aleluia, aleluia.)
+!Sl 43:2
+Ó Deus, ouvimos com os nossos ouvidos; os nossos pais contaram-nos o que fizestes nos seus dias.
+&Gloria
+v. Exultarei tem Jerusalém e alegrar-me-ei com meu povo: e nunca mais se ouvirá a voz das lágrimas, nem do clamor. Meus eleitos não trabalharão baldadamente, nem frutificarão na perturbação, pois constituem a geração bendita do Senhor: e os seus netos serão abençoados com eles. (T. P. Aleluia, aleluia.)
+
+[Oratio]
+Ó Deus, que Vos dignastes chamar uma multidão de povos ao conhecimento do vosso nome pelo zelo do B. Bonifácio, vosso Mártir e Pontífice, concedei-nos propício que alcancemos o Patrocínio daquele cuja festa celebramos.
+$Per Dominum
+
+[Lectio]
+@Sancti/02-12:Lectio
+
+[Graduale]
+!1 P 4:13-14
+Havendo tomado parte nos sofrimentos de Cristo, regozijai-vos, a fim de que, quando a sua glória seja manifestada, sejais cumulados de alegria
+V. Se sois ultrajados por causa do nome de Cristo, sereis bem-aventurados; pois a honra, a glória e a virtude de Deus e o seu Espírito repousarão sobre vós. Aleluia, aleluia.
+!Is 66:12
+Farei correr sobre ele como que um rio de paz, e como que uma torrente a trasbordar de glória. Aleluia.
+
+[GradualeP]
+Aleluia, aleluia.
+!Is 66:10; 66:14
+Alegrai-vos e exultai com Jerusalém, ó vós, que amais o Senhor. Aleluia
+V. Vereis e alegrar-se-á o vosso coração. A mão do Senhor manifestar-se-á nos seus servos. Aleluia.
+
+[Evangelium]
+@Sancti/11-01:Evangelium
+
+[Offertorium]
+!Sl 15:7-8
+Bendirei o Senhor, que me deu a inteligência. Tenho os meus olhos voltados constantemente para Deus; e, visto que Ele está à minha dextra, não serei abalado. (T. P. Aleluia.)
+
+[Secreta]
+Senhor, Vos rogamos, fazei descer sobre estas hóstias abundantes bênçãos, a fim de que pela vossa misericórdia operem a nossa santificação e nos alegrem na solenidade de S. Bonifácio, vosso Mártir e Pontífice.
+$Per Dominum
+
+[Communio]
+!Ap 3:21
+Aquele que houver vencido tomará lugar comigo no meu trono, assim como Eu, que também venci, estou assentado com meu Pai no seu trono. (T. P. Aleluia.)
+
+[Postcommunio]
+Senhor, santificados com estes salutares mystérios, Vos suplicamos, não permitais que nos faltem as piedosas orações daquele que nos concedestes como nosso protector e guia.
+$Per Dominum
+

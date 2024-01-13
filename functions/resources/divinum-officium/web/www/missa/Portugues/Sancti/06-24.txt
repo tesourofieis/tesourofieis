@@ -1,0 +1,59 @@
+[Rank]
+In Nativitate S. Johannis Baptistae;;Duplex I classis cum Octava communi;;7;;
+
+[Rank1960]
+In Nativitate S. Joannis Baptistae;;Duplex I classis;;6;;
+
+[Rule]
+Gloria
+Credo
+
+[Comment]
+# 24 VI – Nascimento de S. João Baptista
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Is 49:1; 49:2
+v. O Senhor chamou-me pelo meu nome quando eu ainda estava no seio da minha mãe: e Ele tornou a minha boca semelhante a uma espada aguçada, protegeu-me com a sombra da sua mão, dispondo-me como uma flecha escolhida.
+!Sl 91:2
+É bom louvar o Senhor; e cantar o vosso nome, ó Altíssimo.
+&Gloria
+v. O Senhor chamou-me pelo meu nome quando eu ainda estava no seio da minha mãe: e Ele tornou a minha boca semelhante a uma espada aguçada, protegeu-me com a sombra da sua mão, dispondo-me como uma flecha escolhida.
+
+[Oratio]
+Ó Deus, que tornastes este dia memorável com o nascimento do B. João Baptista, concedei ao vosso povo a graça dos gozos espirituais; e guiai os corações de todos vossos fiéis pelo caminho da salvação eterna.
+$Per Dominum
+
+[Lectio]
+Lição do Profeta Isaías.
+!Is 49:1-3; 49:5-7
+Escutai, ó ilhas, e vós, ó povos longínquos, ouvi: «O Senhor chamou-me quando eu ainda estava no seio de minha mãe e recordou-se do meu nome quando ainda estava nas entranhas dela. E Ele tornou a minha boca semelhante a uma espada aguçada, protegendo-me com a sombra da sua mão, dispondo-me como uma flecha escolhida e recolhendo-me na sua bainha». E disse-me: «Ó Israel, és o meu servo; em ti serei glorificado!». Agora o Senhor, que me formou, já desde o seio de minha mãe para ser o seu servo, disse-me: «Eis que te escolhi para seres a luz dos povos e a salvação que envio até aos confins da terra. Os reis te verão; os príncipes se erguerão e te adorarão por causa do Senhor e do santo de Israel que te escolheu».
+
+[Graduale]
+!Jr 1:5; 1:9
+Antes de te formar no seio de tua mãe, já te conhecia: e antes de saíres dele, já te santificara.
+V. O Senhor estendeu a sua mão, tocou com ela na minha boca e disse-me: Aleluia, aleluia.
+!Lc 1:76
+Tu, ó menino, serás chamado Profeta do Altíssimo; pois caminharás adiante do Senhor para preparar as suas vias. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Lucas.
+!Lc 1:57-68
+Havendo chegado o tempo em que Isabel devia dar à luz, deu ela à luz o seu filho. E os vizinhos e parentes compreenderam que o Senhor manifestara nela sua misericórdia, felicitando-a por essa graça. E aconteceu que no oitavo dia vieram para ser circuncidado o menino, chamando-lhe Zacarias, do nome de seu pai. Mas a mãe, tomando a palavra, disse: «Não; chamar-se-á João!». E responderam-lhe: «Não há ninguém na tua família com este nome!». E perguntaram por sinais ao pai do menino como queria que lhe chamassem. Então este, pedindo a tabela, escreveu: «João é o seu nome!». E todos ficaram admirados. No mesmo instante a sua boca abriu-se e a sua língua desatou-se, falando e bendizendo o Senhor. Logo se espalhou o temor pelos vizinhos, divulgando-se a notícia destas maravilhas por todo o país das montanhas da Judeia. E aqueles que ouviam isto guardavam-no no coração, dizendo: «Quem pensais que será este menino? Eis que a mão do Senhor está com ele». E Zacarias, seu pai, ficou cheio do Espírito Santo e profetizou, dizendo: «Bendito seja o Senhor, Deus de Israel, que visitou e resgatou o seu povo».
+
+[Offertorium]
+!Sl 91:13
+O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano. Aleluia.
+
+[Secreta]
+Enchemos os vossos altares com ofertas, Senhor, a fim de celebrarmos com as honras que merece o nascimento daquele que profetizou a vinda do Salvador do mundo e que manifestou ao povo a presença de nosso Senhor Jesus Cristo, vosso Filho:
+$Qui tecum
+
+[Communio]
+!Lc 1:76
+Tu, ó menino, serás chamado Profeta do Altíssimo; pois caminharás adiante do Senhor para preparar as suas vias.
+
+[Postcommunio]
+Que a vossa Igreja, Senhor, goze a alegria do nascimento do B. João Baptista, que nos tornou conhecido o autor da sua regeneração: nosso Senhor Jesus Cristo, vosso Filho:
+$Qui tecum

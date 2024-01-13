@@ -1,0 +1,12 @@
+@Commune/C12
+
+[Rank]
+Officium Parvum Beatae Mariae Virginis tempore Septuagesimae usque Sabbato Sancto;;Simplex;;1
+
+[Rule]
+Ave only
+Doxology=Nat
+Omit Suffragium
+Special Benedictio
+Votive nocturn
+no Te Deum

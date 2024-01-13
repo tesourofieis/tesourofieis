@@ -1,0 +1,12 @@
+
+[Lectio6]
+@Tempora/Epi1-0a:Lectio5:s/For this .*//s
+
+[Lectio7]
+@Tempora/Epi1-0a:Lectio5:s/.* For this /For this /s
+
+[Lectio10]
+@Tempora/Epi1-0a:Lectio8:s/On another .*//s
+
+[Lectio11]
+@Tempora/Epi1-0a:Lectio8:s/.* On another /On another /s

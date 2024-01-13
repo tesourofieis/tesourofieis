@@ -1,0 +1,109 @@
+[Padre Nuestro]
+$Pater noster
+
+[Padre Nuestro]
+&pater-noster
+
+[Ave María]
+$Ave Maria
+
+[Credo]
+$Credo
+
+[Gloria]
+&Gloria
+
+[sin Gloria]
+
+[Gloria]
+&Gloria1
+
+[Réquiem]
+$Requiem
+
+[Aleluya]
+&Alleluia
+
+[Praise be to Thee]
+&Alleluia
+
+[El Señor esté con vosotros]
+&Dominus_vobiscum
+
+[O Lord hear my prayer]
+&Dominus_vobiscum
+
+[Yo confieso]
+$Confiteor
+
+[Misereatur]
+$Misereatur
+
+[Indulgentiam]
+$Indulgentiam
+
+[Señor, ábreme los labios]
+$Domine labia
+
+[Dios mío, ven en mi auxilio]
+$Deus in adjutorium
+
+[Tú, Señor, ten piedad]
+$Tu autem
+
+[Open my mouth]
+$Aperi
+
+[Bendigamos al Señor]
+&Benedicamus_Domino
+
+[Las almas de los fieles]
+$Fidelium animae
+
+[Himno]
+Hymnus
+
+[Salmo]
+Psalmus
+
+[Oremos]
+Oremus
+
+[Por Nuestro Señor Jesucristo]
+$Per Dominum
+
+[Por Nuestro Señor Jesucristo]
+$Per Dominum eiusdem
+
+[Tú que vives y reinas]
+$Qui cum Patre
+
+[Por el mismo Señor]
+$Per eumdem
+
+[Tú que vives y reinas]
+$Qui vivis
+
+[Que vive y reina]
+$Qui tecum
+
+[A la Sacrosanta]
+$Sacrosanctaea
+
+[Te Deum]
+&teDeum
+
+[Demos gracias a Dios]
+$Deo gratias
+
+[Lección]
+Lectio
+
+[Antes]
+Ante
+
+[Oficio Divino]
+Divinum Officium
+
+[Después]
+Post

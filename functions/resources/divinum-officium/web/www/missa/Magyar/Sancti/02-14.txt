@@ -1,0 +1,10 @@
+[Rank]
+S. Valentini;;Simplex;;1.1;;vide C2
+
+[Name]
+Valentini
+
+[Rule]
+vide C2;
+Gloria
+

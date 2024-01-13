@@ -1,0 +1,58 @@
+[Rank]
+Dominica X Post Pentecosten;;Semiduplex;;5
+
+[Rule]
+Gloria
+Credo
+Prefatio=Trinitate
+Suffr=Sanctorum;Maria3,Ecclesiae,Papa;;
+
+[Comment]
+# Décimo Domingo depois de Pentecostes
+! 2 classe
+! Paramentos verdes
+
+[Introitus]
+!Sl 54:17-18; 54:20 54:23.
+v. Como invocasse o Senhor, ouviu Ele a minha voz e protegeu-me contra os que me combatem. Aquele que existia antes dos séculos e subsistirá eternamente humilhou-os. Depositai nas mãos do Senhor todas as preocupações, pois Ele vos sustentará.
+!Sl 54:2-3
+Ouvi, Senhor, a minha oração e não desprezeis a minha humilde súplica: escutai-me, ouvi-me.
+&Gloria
+v. Como invocasse o Senhor, ouviu Ele a minha voz e protegeu-me contra os que me combatem. Aquele que existia antes dos séculos e subsistirá eternamente humilhou-os. Depositai nas mãos do Senhor todas as preocupações, pois Ele vos sustentará.
+
+[Oratio]
+Ó Deus, que manifestais principalmente o vosso poder perdoando ao pecador e compadecendo-Vos das suas misérias, multiplicai sobre nós a abundância da vossa misericórdia, a fim de que, suspirando durante esta vida pelos bens que nos prometestes, nos tornamos participantes deles no céu.
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+!1 Cor. 12:2-11
+Meus irmãos: Recordai-vos de que, quando éreis pagãos, íeis aos ídolos mudos, sempre que vos conduziam. Ora, eu vos digo que ninguém, inspirado pelo Espírito de Deus, poderá anatematizar Jesus; nem ninguém, também, poderá dizer que Jesus é Senhor, senão inspirado pelo Espírito Santo. Na verdade, há diversas graças; porém o Espírito é o mesmo. Há diversos ministérios; porém o mesmo Senhor. Há diversidade de operações; porém não há senão um só Deus, que opera todas as coisas em nós. Os dons do Espírito Santo, que se manifestam em cada um, são para utilidade comum. A um é dado pelo Espírito o dom de falar com sabedoria; a outro é dado pelo mesmo Espírito o dom de falar com ciência; a um outro é dada a fé pelo mesmo Espírito; este recebe do mesmo Espírito a graça de curar os enfermos; aquele alcança o dom dos milagres; um outro o dom das profecias, aqueloutro o discernimento dos espíritos; este o dom de falar diversas línguas; e ainda aqueloutro o dom de as interpretar. É, porém, só um e o mesmo Espírito que produz todos este dons, distribuindo-os a cada um em particular como Lhe apraz.
+
+[Graduale]
+!Sl 16:8, 2.
+Guardai-me, Senhor, como a pupila olhos: acolhei-me à sombra das vossas o Senhor.
+V. Que os vossos lábios pronunciem o meu juízo: e que os vossos olhos vejam a minha justiça. Aleluia, aleluia. 
+!Sl 64:2
+V. Diante de Vós, Senhor, é conveniente cantar hinos em Sião: diante de Vós deve cada um cumprir os seus votos em Jerusalém. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Lucas.
+!Lc 18:9-14
+Naquele tempo, disse Jesus esta parábola a uns certos que se presumiam justos e punham a confiança em si próprios, desprezando os outros: «dois homens subiram ao templo a orar, sendo um fariseu e o outro publicano. O fariseu, estando de pé, orava assim no seu íntimo: «Ő Deus, dou-Vos graças, porque não sou como os outros homens, que são ladrões, injustos e adúlteros, nem mesmo como este publicano; pois jejuo duas vezes na semana e pago o dízimo dos meus rendimentos». O publicano, ao contrário, conservando-se afastado, não ousava, sequer, levantar os olhos para o céu, e batia no peito, dizendo: «Meu Deus, tende piedade de mim, que sou um pobre pecador». Eu vos declaro, disse Jesus, que este voltou para sua casa justificado, mas não o outro; pois quem se eleva será humilhado, e quem se humilha será exaltado».
+
+[Offertorium]
+!Sl 24:1-3
+A Vós elevei a minha alma. O Deus, confio em Vós: não permitireis que e confundido e envergonhado: nem vencido meus inimigos; porquanto aqueles que em Vós confiam não serão confundidos.
+
+[Secreta]
+A Vós, Senhor, é devida a homenagem destes sacrifícios, pois fostes Vós que permitindo-nos que os oferecêssemos em glória do vosso nome, os tornastes remédio das nossas almas.
+$Per Dominum
+
+[Communio]
+!Sl 50:21
+Dignai-Vos, Senhor, aceitar sobre o vosso Altar o sacrifício da justiça, as ofertas e os holocaustos.
+
+[Postcommunio]
+Vos suplicamos, ó Senhor, nosso Deus, não priveis do vosso auxílio àqueles a quem não cessais de alimentar com os divinos sacramentos.
+$Per Dominum

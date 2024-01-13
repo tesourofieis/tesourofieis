@@ -1,0 +1,64 @@
+[Rank]
+Die IV infra octavam Paschae;;Semiduplex I classis;;6;;ex Pasc0-0
+
+[Rule]
+ex Pasc0-0;
+Credo
+Sequentia
+Suffr=Ecclesiae,Papa;;
+
+[Comment]
+# Quarta-feira Pascal
+! Estação em São Lourenço fora dos muros
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Mt 25:34
+v. Vinde, benditos do meu Pai, recebei o reino, aleluia: que foi preparado para vós desde a criação do mundo, aleluia, aleluia, aleluia.
+!Sl 95:1
+v. Cantai ao Senhor um cântico novo: que toda a terra cante hinos ao Senhor.
+&Gloria
+v. Vinde, benditos do meu Pai, recebei o reino, aleluia: que foi preparado para vós desde a criação do mundo, aleluia, aleluia, aleluia.
+
+[Oratio]
+Ó Deus, que nos alegrais anualmente com a celebração da solenidade da Ressurreição do Senhor, permiti benigno que, celebrando nós estas festas neste tempo, mereçamos alcançar os gozos eternos.
+$Per eumdem
+
+[Lectio]
+Lição dos Actos dos Apóstolos.
+!Act 3:13-15; 3:17-19
+v. Naqueles dias, Pedro, tomando a palavra, disse: «Varões de Israel e vós todos, que temeis a Deus, ouvi: Deus de Abraão, Deus de Isaque, Deus de Jacob e de nossos pais glorificou o seu Filho Jesus, que entregastes e atraiçoastes perante Pilatos, quando este O julgava e queria livrá-l’O. Vós atraiçoastes o Santo e o Justo: pedistes que um homicida fosse livre e matastes o autor da vida, o qual Deus, porém, ressuscitou dos mortos! De tudo isto somos testemunhas. Contudo, meus irmãos, sei que assim procedestes por ignorância; e do mesmo modo os vossos príncipes. Mas foi assim que Deus cumpriu tudo o que havia sido predito pelos Profetas, e que seu Cristo tinha de sofrer. Fazei, pois, penitência e convertei-vos, para que os vossos pecados vos sejam perdoados».
+
+[Graduale]
+Alleluia, alleluia
+!Sl 117:24; 117:16
+v. Eis o dia que o Senhor fez: exultemos e alegremo-nos nele.
+V. A dextra do Senhor manifestou o seu poder: a dextra do Senhor exaltou-me! Aleluia, aleluia.
+!Lc 24:34
+v. O Senhor ressuscitou verdadeiramente e apareceu a Pedro.
+
+[Sequentia]
+@Tempora/Pasc0-0:Sequentia
+
+[Evangelium]
+O Senhor ressuscitou verdadeiramente e apareceu a Pedro.
+!Jo 21:1-14
+v. Naquele tempo, Jesus apareceu novamente aos discípulos, junto do mar de Tiberíades. Manifestou-se assim: estavam juntos Simão-Pedro, Tomé, chamado o Dídimo, Natánael, que era de Caná de Galileia, os filhos de Zebedeu e dois outros discípulos. Então Simão-Pedro disse: «Eu vou pescar». Eles disseram: «Também iremos convosco». Saíram, então, e subiram para uma barca. Porém, durante toda a noite nada pescaram. Sendo já de manhã, Jesus apareceu na praia, mas os discípulos O não conheceram. Então Jesus disse-lhes: «Filhos, tendes alguma coisa para comer?». Responderam-Lhe: «Não». Ele disse-lhes: «Lançai a rede à direita da barca e achareis peixes». Lançaram-na eles, e já não podiam recolhê-la, tanta era a quantidade de peixes que continha. Então o discípulo, que Jesus preferia, disse a Pedro: «É o Senhor!». Simão-Pedro, ouvindo que era o Senhor, cingiu-se com a túnica (pois estava nu) e lançou-se ao mar. E os outros discípulos vieram com a barca (pois estavam um pouco afastados da terra, cerca de duzentos côvados), conduzindo a rede com os peixes. Logo que desceram para a terra, viram as brasas acesas, um peixe em cima delas e pão. E Jesus disse-lhes: «Dai-me desses peixes que pescastes agora». Subiu Pedro para a barca, puxou a rede para terra e tirou cento e cinquenta e três peixes grandes; e, sendo tantos, a rede se não rompeu! Disse-lhes, então, Jesus: «Vinde e comei». E nenhum dos discípulos presentes ousava perguntar-Lhe: «Quem sois?» (pois sabiam que era o Senhor). E Jesus aproximou-se, tomou o pão e deu-lhes dele; e o mesmo fez quanto ao peixe. Era esta já a terceira vez que Jesus aparecia a seus discípulos, após a ressurreição dos mortos.
+
+[Offertorium]
+!Sl 77:23-25
+v. O Senhor abriu as portas do céu e fez chover maná para alimentar o seu povo: deu-lhes o pão do céu: o homem comeu o pão dos Anjos, aleluia.
+
+[Secreta]
+No meio das alegrias pascais imolamos, Senhor, este sacrifício, que é para a vossa Igreja o alimento admirável de que se nutre e sustenta.
+$Per Dominum
+
+[Communio]
+!Rm 6:9
+v. Cristo, ressuscitado, já não torna a morrer, aleluia: a morte nunca mais terá poder sobre Ele, aleluia, aleluia.
+
+[Postcommunio]
+Senhor, dignai-Vos purificar-nos de todos os restos do «homem velho», e permiti que a sagrada recepção deste sacramento nos torne criaturas novas.
+$Qui vivis
+

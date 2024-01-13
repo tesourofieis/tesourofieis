@@ -1,0 +1,41 @@
+[Adv1-0]
+A mi Urunk, Jézus Krisztus Adventjének első vasárnapja.
+
+[Nat1-0]
+Jézus Legszentebb Nevének ünnepe.
+
+[Nat2-0]
+Jézus, Mária és József Szent Családjának ünnepe; mely a legszentebb példát nyújtja azon keresztény családoknak, akik segítségüket megfelelően kérik.
+
+[Pasc5-4]
+Az Olajfák hegyén a mi Urunk, Jézus Krisztus mennybemenetele.
+
+[Pasc6-4]
+A mi Urunk, Jézus Krisztus mennybemenetelének nyolcada.
+
+[Pasc6-6]
+Pünkösd vigíliája.
+
+[Pasc7-0]
+Pünkösd napja, amikor a Szentlélek Jeruzsálemben lángnyelvek alakjában leszállt a tanítványokra.
+
+[Pent01-0]
+A legszentebb és oszthatatlan Háromság ünnepe, és Pünkösd nyolcada.
+
+[Pent01-4]
+Krisztus Legszentebb Testének ünnepe.
+
+[Pent02-4]
+Krisztus Legszentebb Testének nyolcada.
+
+[Pent02-5]
+Jézus Legszentebb Szívének ünnepe.
+
+[Pent03-5]
+Jézus Legszentebb Szívének nyolcada.
+
+[10-DU]
+A mi Urunk, Jézus Krisztus Király ünnepe.
+
+[Nativity]
+A világ teremtésétől, mikor Isten kezdetben teremtette az eget és a földet, az 5199-ik évében, a vízözöntől 2957-ik évben, Ábrahám születésétől 2015-ik évben, Mózesnek és a zsidó népnek Egyiptomból való kijövetele óta 1510-ik évben, Dávidnak királlyá való fölkenése óta 1032-ik évben, Dániel jövendölésétől a 65-ik év-hétben, Olimpiász 194-ik évében, Róma alapításától a 752-ik évben, Oktáviánusz Augusztusz uralkodásának 42-ik évében, mikor a földkerekségen béke honolt, a világ hatodik korszakában: Jézus Krisztua, az örök Isten, az örök Atyának Fia, meg akarván menteni szentséges jövetelével a világot, a Szentlélektől fogantatván, a fogantatás után a kilencedik hónapban (Felemelt hangon és mindnyájan letérdelünk) Júda Betlehemében, Szűz Máriától emberré lévén, megszületett.

@@ -1,0 +1,62 @@
+[Rank]
+Sabbato in Albis;;Semiduplex I class;;6;;ex Pasc0-0
+
+[Rule]
+ex Pasc0-0;
+Credo
+Sequentia
+Suffr=Ecclesiae,Papa;;
+
+[Comment]
+# Sábado Pascal
+! Estação em São João de Latrão
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl 104:43
+v. O Senhor fez sair o seu povo no meio de transportes de alegria, aleluia: e os seus escolhidos com grande júbilo, aleluia, aleluia.
+!Sl 104:1
+v. Louvai o Senhor e aclamai o seu santo nome; anunciai as suas obras a todos os povos.
+&Gloria
+v. O Senhor fez sair o seu povo no meio de transportes de alegria, aleluia: e os seus escolhidos com grande júbilo, aleluia, aleluia.
+
+[Oratio]
+Havendo celebrado religiosamente as festas pascais, ó Deus omnipotente, Vos suplicamos, concedei-nos a graça de alcançarmos, por virtude delas, os gozos eternos. 
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Pedro.
+!1 Pe 2:1-10
+v. Caríssimos: despojando-vos de toda a malícia, engano, dissimulações, invejas e murmurações, desejai, como crianças recém-nascidas, o leite espiritual e sem mistura, a fim de que por meio dele possais crescer na salvação, se é que já sentistes o gozo da bondade do Senhor. Aproximai-vos do Senhor, que é a pedra viva, desprezada pelos homens, mas escolhida e honrada por Deus. E vós, também, oferecei-vos como pedras vivas com que se edifique uma casa espiritual para um sacerdócio santo, para oferecer sacrifícios espirituais agradáveis a Deus, por Jesus Cristo. Porquanto, diz a Escritura: «Eis que ponho em Sião uma pedra angular, escolhida e preciosa: e quem acreditar nela não será confundido». Esta pedra será uma fonte de glória para vós, crentes; porém, para aqueles que não crêem, esta pedra (que foi rejeitada pelos edificadores e se tornou na pedra angular) será uma pedra de tropeço e um rochedo de escândalo para aqueles que contrariam a palavra de Deus e não crêem naquilo para que haviam sido preparados. Contudo, vós constituireis uma raça escolhida, um sacerdócio real, uma nação santa e um povo do seu património, para anunciardes as perfeições d’Aquele que vos chamou das trevas à sua luz admirável: vós, que outrora não éreis o seu povo, mas que o sois agora; vós, que outrora não havíeis alcançado misericórdia, mas a alcançastes agora.
+
+[Graduale]
+Aleluia, aleluia
+!Sl 117:24
+Eis o dia que o Senhor fez: exultemos e alegremo-nos nele. Aleluia.
+!Sl 112:1
+v.  Louvai, ó meninos, o Senhor: louvai o nome do Senhor.
+
+[Sequentia]
+@Tempora/Pasc0-0:Sequentia
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. João.
+!Jo 20:1-9
+v. Naquele tempo, no primeiro dia da semana, sendo de madrugada e ainda com escuridão, Maria Madalena veio ao sepulcro e viu que a pedra estava tirada. Logo, a correr, veio ter com Simão-Pedro e com o outro discípulo, que o Senhor preferia, e disse-lhes: «Tiraram do sepulcro o Senhor e não sabemos onde O puseram». Pedro saiu com o outro discípulo, indo a correr ao sepulcro. Corriam os dois ao mesmo tempo, mas o outro discípulo corria mais veloz do que Pedro, chegando primeiro ao sepulcro. Inclinando-se ele, então, para dentro, viu Ia os lençóis no chão; todavia não entrou. Veio depois Simão-Pedro, que o seguia, o qual entrou no sepulcro e viu lá os lençóis no chão e o sudário, que havia sido colocado em cima da sua cabeça, o qual estava separado dos lençóis, em outro lugar. Depois entrou também o outro discípulo, que havia chegado primeiro ao sepulcro, e viu e acreditou: pois não sabiam ainda que, segundo a Escritura, Ele devia ressuscitar dos mortos.
+
+[Offertorium]
+!Sl 117:26-27
+v. Bendito seja aquele que vem em nome do Senhor. Do íntimo da casa do Senhor Vos bendizemos. O Senhor é verdadeiramente Deus e fez brilhar diante de nós a sua luz, aleluia, aleluia.
+
+[Secreta]
+Fazei, Senhor, Vos suplicamos, que nos alegremos sempre com estes mystérios pascais, a fim de que os trabalhos da nossa reparação sejam causa perpétua da nossa alegria.
+$Per Dominum
+
+[Communio]
+!Gl 3:27
+v. Vós todos, baptizados no nome de Cristo, fostes revestidos de Cristo, aleluia.
+
+[Postcommunio]
+Estando nós fortalecidos com a graça da nossa redenção, Vos suplicamos, Senhor, que este auxílio da salvação eterna aumente em nós sempre o dom da verdadeira fé.
+$Per Dominum

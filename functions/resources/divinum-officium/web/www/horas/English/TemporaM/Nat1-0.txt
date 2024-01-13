@@ -1,0 +1,26 @@
+[Lectio5]
+@Tempora/Nat1-0:Lectio4:s/look .*//s
+
+[Lectio6]
+@Tempora/Nat1-0:Lectio4:s/.* look /Look /s s/$/~/
+@Tempora/Nat1-0:Lectio5:s/He cometh .*//s
+
+[Lectio7]
+@Tempora/Nat1-0:Lectio5:s/.* He cometh /He cometh /s s/$/~/
+@Tempora/Nat1-0:Lectio6:s/The proclamation .*//s
+
+[Lectio8]
+@Tempora/Nat1-0:Lectio6:s/.* The proclamation /The proclamation /s
+
+[Lectio9]
+@Tempora/Nat1-0:Lectio7
+
+[Lectio10]
+@Tempora/Nat1-0:Lectio8:s/For, .*//s
+
+[Lectio11]
+@Tempora/Nat1-0:Lectio8:s/.* For, /For, /s
+
+[Lectio12]
+@Tempora/Nat1-0:Lectio9
+

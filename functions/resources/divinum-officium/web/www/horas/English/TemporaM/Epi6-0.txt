@@ -1,0 +1,16 @@
+[Lectio5]
+@Tempora/Epi6-0:Lectio4:s/ and again.*//s
+
+[Lectio6]
+@Tempora/Epi6-0:Lectio4:s/.* and again/And again/s
+
+[Lectio9]
+@Tempora/Epi6-0:Lectio7:s/By the .*//s
+
+[Lectio10]
+@Tempora/Epi6-0:Lectio7:s/.* By the/By the/s s/$/~/
+@Tempora/Epi6-0:Lectio8:s/The preaching .*//s
+
+[Lectio11]
+@Tempora/Epi6-0:Lectio8:s/.* The preaching/The preaching/s
+

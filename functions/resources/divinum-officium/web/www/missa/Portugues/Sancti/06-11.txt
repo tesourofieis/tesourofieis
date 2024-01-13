@@ -1,0 +1,61 @@
+[Rank]
+S. Barnabae Apostoli;;Duplex majus;;4;;ex C1
+
+[Rank1960]
+S. Barnabae Apostoli;;Duplex;;3;;vide C1
+
+[Rule]
+ex C1;
+Gloria
+Credo
+Prefatio=Apostolis
+
+[Comment]
+# 11 VI – S. Barnabé, Apóstolo
+! 3 classe
+! Paramentos vermelhos
+
+[Introitus]
+!Sl 138:17
+v. Vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu poder se fortaleceu extraordinariamente.
+!Sl 138:1-2
+Senhor, perscrutastes o meu íntimo e ficastes conhecendo-me: ficastes conhecendo quando me deito e quando me levanto.
+&Gloria
+v. Vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu poder se fortaleceu extraordinariamente.
+
+[Oratio]
+Ó Deus, que nos alegrais com os méritos e intercessão do B. Barnabé, vosso Apóstolo, concedei-nos propício que, suplicando os vossos benefícios pela sua intercessão, os obtenhamos por efeito da vossa graça.
+$Per Dominum
+
+[Lectio]
+Lição dos Actos dos Apóstolos.
+! Act 11:21-26; 13:1-3
+Naqueles dias, um grande número de pessoas acreditaram e converteram-se ao Senhor em Antioquia; e, havendo esta notícia chegado à igreja de Jerusalém, mandaram Barnabé a Antioquia, o qual, tendo lá chegado e visto a graça de Deus, alegrou-se, exortando-os a perseverarem no Senhor com o coração firme, pois ele era um homem bom e cheio de Espírito Santo e de fé. Desta maneira muitas pessoas se uniram ao Senhor. Barnabé foi em seguida a Tarso em procura de Saulo, e, tendo-o encontrado, levou-o para Antioquia, onde permaneceram um ano inteiro nesta igreja, instruindo muitas pessoas. Foi em Antioquia o lugar onde os discípulos receberam pela primeira vez o nome de cristãos. Havia, então, na igreja de Antioquia, profetas e doutores, entre os quais Barnabé, Simão, chamado o negro, Lúcio de Cirene, Manaém, irmão colaço de Herodes Tetrarca, e Saulo. Ora, enquanto ofereciam ao Senhor os mystérios e jejuavam, o Espírito Santo disse-lhes: «Separai Saulo e Barnabé para a obra a que os destinei». E, então, tendo jejuado e orado, impuseram-lhes as mãos e enviaram-nos.
+
+[Graduale]
+!Sl 18:5; 18:2
+O som da sua voz espalhou-se por toda a terra: as suas palavras soaram até aos confins do mundo.
+V. Os céus apregoam a glória do Senhor e o firmamento manifesta as obras das suas mãos. Aleluia, aleluia.
+!Jo 15:16
+Eu vos escolhi para que possais ir e alcançar fruto; e para que esse vosso fruto permaneça. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Mateus.
+!Mt 10:16-22
+Naquele tempo, disse Jesus aos seus discípulos: «Eis que vos envio, como ovelhas no meio de lobos. Sede, pois, prudentes, como as serpentes, e simples, como as pombas. Acautelai-vos, portanto, com os homens; porque vos entregarão aos tribunais e vos flagelarão nas suas sinagogas. Sereis conduzidos por amor de mim à presença dos governadores e dos reis para dardes testemunho de mim, diante deles e dos povos. Quando vos entregarem, não penseis de que maneira lhes haveis de falar e que palavras lhes devereis dizer, porque naquela mesma hora vos será transmitido o que houverdes de responder; pois não sois vós que falareis: o Espírito do vosso Pai é que falará em vós. E o irmão entregará à morte o irmão; o pai entregará o filho; e os filhos se levantarão contra os pais e lhes darão a morte. Sereis odiados por todos por causa do meu nome, mas quem perseverar até ao fim será salvo».
+
+[Offertorium]
+!Sl 44:17-18
+Vós os constituireis príncipes em toda a terra: e perpetuarão o vosso nome, Senhor, de geração em geração.
+
+[Secreta]
+Santificai, Senhor, estes dons que Vos são oferecidos, e, por intercessão do B. Barnabé, vosso Apóstolo, fazei que nos purifiquem das manchas dos nossos pecados.
+$Per Dominum
+
+[Communio]
+!Mt 19:28
+Vós, que me seguistes, vos assentareis sobre tronos e julgareis as dozes tribos de Israel.
+ 
+[Postcommunio]
+Ó Deus omnipotente, Vos rogamos humildemente que pela intercessão do B. Barnabé, vosso Apóstolo, concedais àqueles que alimentais com vossos sacramentos a graça de Vos servirem dignamente com acções que Vos sejam agradáveis.
+$Per Dominum

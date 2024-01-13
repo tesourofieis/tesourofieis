@@ -1,0 +1,57 @@
+[Rank]
+Dominica II Post Pascha;;Semiduplex;;5;;
+
+[Rule]
+Gloria
+Credo
+Suffr=Maria3;Ecclesiae,Papa;;
+
+[Comment]
+# Segundo Domingo depois da Páscoa
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl 32:5-6
+v. A misericórdia do Senhor enche toda a terra, aleluia! A palavra do Senhor criou os céus, aleluia, aleluia
+!Sl 32:1
+Ó justos, exultai de alegria e aclamai o Senhor; pois é bom que os justos O louvem.
+&Gloria
+v. A misericórdia do Senhor enche toda a terra, aleluia! A palavra do Senhor criou os céus, aleluia, aleluia
+
+[Oratio]
+Ó Deus, que pela humilhação do vosso Filho livrastes o mundo do abatimento em que jazia, concedei aos vossos fiéis a alegria perpétua, a fim de que aqueles que livrastes da morte eterna se tornem participantes dos gozos sempiternos.
+$Per eumdem
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Pedro.
+!1 Pe 2:21-25
+Caríssimos: Cristo padeceu por nós, deixando-nos o exemplo, para que seguíssemos as suas pegadas: Ele, que não cometeu pecado; Ele, em cuja boca não apareceu qualquer engano; Ele, que, mesmo injuriado, não correspondeu com injúrias; Ele, que, maltratado não ameaçava, mas entregava-se a quem O julgava injustamente; Ele, que levou os nossos pecados no seu corpo sobre o madeiro da Cruz, a fim de que, sendo nós mortos para os pecados, vivamos para a justiça; Ele, em cujas chagas fomos curados. Pois vós éreis como ovelhas desgarradas, mas agora estais convertidos ao pastor e ao bispo das vossas almas.
+
+[Graduale]
+Aleluia, aleluia.
+!Lc 24:35
+Os dois discípulos reconheceram o Senhor Jesus pela fracção do pão. Aleluia.
+!Jo 10:14
+Eu sou o bom Pastor; conheço as minhas ovelhas, e elas conhecem-me, aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. João.
+!Jo 10:11-16
+Naquele tempo, disse Jesus aos fariseus: «Eu sou o bom Pastor. O bom Pastor dá a vida pelas suas ovelhas. Porém o mercenário, e o que não é pastor e a quem as ovelhas não pertencem, vê vir o lobo, abandona as ovelhas e foge. Então o lobo arrebata as ovelhas e dispersa-as. O mercenário procede assim, porque é mercenário e porque não tem cuidado com as ovelhas. Eu sou o bom Pastor. Eu conheço as minhas ovelhas, e elas conhecem-me; assim como meu Pai me conhece, e Eu conheço meu Pai. Eu dou a vida pelas minhas ovelhas. Tenho ainda outras ovelhas que não pertencem a este aprisco. É preciso que as atraia, e que ouçam a minha voz, para que não haja senão um só aprisco e um só pastor».
+
+[Offertorium]
+!Sl 62:2; 62:5
+Ó Deus, ó meu Deus, a Vós recorro desde manhã: E erguerei as minhas mãos em honra do vosso nome, aleluia.
+
+[Secreta]
+Senhor, que esta oblação sagrada nos alcance sempre a vossa salutar bênção, a fim de que produza os efeitos do mystério que ela renova.
+$Per Dominum
+
+[Communio]
+!Jo 10:14
+Eu sou o bom Pastor, aleluia; conheço as minhas ovelhas, e elas conhecem-me, aleluia.
+
+[Postcommunio]
+Ó Deus omnipotente, Vos suplicamos, permiti que, havendo alcançado de Vós a graça da vida nova, sempre nos gloriemos com este dom, que nos dispensais.
+$Per Dominum

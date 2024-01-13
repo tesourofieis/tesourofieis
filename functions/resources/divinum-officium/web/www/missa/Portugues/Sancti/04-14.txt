@@ -1,0 +1,75 @@
+[Rank]
+S. Justini Martyris;;Duplex;;3;;vide C2
+
+[Rule]
+vide C2;
+
+[Comment]
+# 14 IV – São Justino, Mártir
+! 3 classe
+! Paramentos vermelhos
+
+[Introitus]
+!Sl 118:85; 118:46
+v. Os maus narraram-me fábulas, mas não se assemelhavam à vossa lei. Porém, publiquei os vossos ensinos na presença dos reis e não fui confundido. (T.P. Aleluia, aleluia.)
+!Sl 118:1;
+Bem-aventurados aqueles que são imaculados na sua vida: e que caminham segundo a lei do Senhor.
+&Gloria
+v. Os maus narraram-me fábulas, mas não se assemelhavam à vossa lei. Porém, publiquei os vossos ensinos na presença dos reis e não fui confundido. (T.P. Aleluia, aleluia.)
+
+[Oratio]
+Ó Deus, que pela «loucura da cruz» instruístes admiravelmente o B. Mártir Justino com a eminente ciência de Jesus Cristo, concedei-nos por sua intercessão que, repelindo todos os erros que nos cercam, consigamos possuir uma fé firme.
+$Per eundem
+
+[Commemoratio Oratio]
+! Comemoração S. S. Tibúrcio e Susana, Mártires
+@Sancti/04-14t:Oratio
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+!1 Cor 1:18-25; 1:30
+Meus irmãos: A doutrina da cruz é loucura para aqueles que se perdem; mas para aqueles que se salvam, isto é, para nós, é virtude de Deus; pois está escrito: «Eu destruirei a sabedoria dos sábios e reprovarei a prudência dos prudentes». Onde está o sábio? Onde está o doutor da lei? Onde está o investigador deste mundo? Porventura não mostrou Deus que a sabedoria deste mundo é loucura? Na verdade, ainda que na sabedoria de Deus, o mundo não conheceu Deus pela sua sabedoria, contudo aprouve a Deus pela loucura da pregação salvar aqueles que acreditassem n’Ele. Enquanto que os judeus pedem milagres e os gregos procuram a sabedoria, nós pregamos Cristo crucificado, que é, na verdade, escândalo para os judeus e loucura para os pagãos; mas para os que são chamados, quer judeus, quer gregos, é poder de Deus e sabedoria de Deus; pois o que parece estulto em Deus é mais sábio do que a sabedoria dos homens; e o que parece fraco em Deus é mais forte do que os homens. É por Ele que estais em Jesus Cristo, que por Deus se fez nossa sabedoria, justiça, santificação e redenção.
+
+[Graduale]
+!1 Cor 3:19; 3:20
+v. A sabedoria deste mundo é estultícia diante de Deus; pois está escrito: «O Senhor conhece os pensamentos dos sábios e sabe que eles são vãos». Aleluia.
+!1 Cor 1:19
+Destruirei a sabedoria dos sábios e reprovarei a prodência dos prudentes. Aleluia, aleluia.
+v. A sabedoria deste mundo é estultícia diante de Deus; pois está escrito: «O Senhor conhece os pensamentos dos sábios e sabe que eles são vãos». Aleluia.
+!Fl 3:8
+Na verdade reputo tudo como perda em comparação da eminente ciência de Jesus Cristo, meu Senhor. Aleluia.
+
+[Tractus]
+!1 Cor 2:2; 2:7-8
+Eu julgo que não devo conhecer outra coisa entre vós senão Jesus Cristo, e Jesus Cristo crucificado.
+V. Falamos da sabedoria de Deus que é um mystério, pois está encoberta essa sabedoria por Deus predestinada, antes de todos os séculos, para nossa glória.
+V. A qual nenhum dos príncipes deste século conheceu. Porque se eles a tivessem conhecido, nunca crucificariam ao Senhor de glória.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Lucas.
+!Lc 12:2-8
+Naquele tempo disse Jesus aos seus discípulos: «Nada há oculto que não chegue a ser descoberto, nem segredo que não venha a ser revelado. Até aquelas coisas que dissestes nas trevas serão publicadas à luz; e o que dissestes ao ouvido, no recôndito dos vossos cubículos, será apregoado sobre os telhados. Digo-vos, porém, a vós, que sois meus amigos: não tenhais receio daqueles que matam o corpo e depois não podem fazer mais nada. Sabeis quem deveis temer? Temei Aquele que, depois de dar a morte, tem ainda o poder de lançar no inferno. Sim; Eu vo-lo digo: temei Este. Porventura se não vendem cinco pássaros por dois quartos? Contudo nem um só deles fica em esquecimento diante de Deus! Até os cabelos da vossa cabeça estão contados! Não tenhais, pois, receio. Vós valeis mais que muitos pássaros. Também vos digo: todo aquele que me confessar diante dos homens, o Filho do homem o reconhecerá igualmente diante dos Anjos de Deus».
+
+[Offertorium]
+!1 Cor 2:2
+Eu julgo que não devo conhecer outra coisa entre vós senão Jesus Cristo, e Jesus Cristo crucificado. (T.P. Aleluia.)
+
+[Secreta]
+Aceitai benigno, Vos suplicamos, ó Senhor e Deus, as nossas ofertas neste adorável mystério que o Santo Mártir Justino defendeu ardentemente contra as calúnias dos ímpios.
+$Per Dominum
+
+[Commemoratio Secreta]
+! Comemoração S. S. Tibúrcio e Susana, Mártirea
+@Sancti/04-14t:Secreta
+
+[Communio]
+!2 Tm 4:8
+Está reservada para mim a coroa da justiça, a qual o Senhor, que é Juiz justo, me entregará no dia da sua vinda. (T.P. Aleluia.)
+
+[Postcommunio]
+Sustentados com o alimento celestial, Vos suplicamos, Senhor, que, seguindo as advertências do B. Justino, vosso Mártir, permaneçamos em contínuas acções de graças pelos dons recebidos.
+$Per Dominum.
+
+[Commemoratio Postcommunio]
+! Comemoração S. S. Tibúrcio e Susana, Mártire
+@Sancti/04-14t:Postcommunio

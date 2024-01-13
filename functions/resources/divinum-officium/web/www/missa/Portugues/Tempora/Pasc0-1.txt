@@ -1,0 +1,63 @@
+[Rank]
+Die II infra octavam Paschae;;Duplex I classis;;7;;ex Pasc0-0
+
+[Rule]
+ex Pasc0-0;
+Credo
+Sequentia
+
+[Comment]
+# Segunda-feira Pascal
+! Estação em São Pedro
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Exod 13:5; 13:9
+v. O Senhor vos introduziu em um país onde correm leite e mel, aleluia: para que a Lei do Senhor esteja sempre na vossa boca, aleluia, aleluia.
+!Sl 104:1
+v. Louvai o Senhor, invocai o seu nome e anunciai as suas obras em todos os povos.
+&Gloria
+v. O Senhor vos introduziu em um país onde correm leite e mel, aleluia: para que a Lei do Senhor esteja sempre na vossa boca, aleluia, aleluia.
+
+[Oratio]
+Ó Deus, que nesta solenidade pascal trouxestes ao mundo os remédios eficazes, continuai a espalhar, Vos suplicamos, os dons celestiais sobre o vosso povo, para que mereça alcançar a perfeita liberdade e consiga a vida eterna.
+$Per Dominum
+
+[Lectio]
+Lição dos Actos dos Apóstolos.
+!Act 10:37-43.
+v. Naqueles dias, estando Pedro no meio do povo, disse: «Meus irmãos: Sabeis o que se passou em toda a Judeia, a começar pela Galileia, a respeito de Jesus de Nazaré, desde, o baptismo, que João pregou; como Deus O ungiu com o Espírito Santo e com o poder; como Ele passou pela terra, praticando o bom e curando os que estavam possessos pelo demónio, pois Deus estava com Ele. Nós somos testemunhas de tudo o que praticou na região dos judeus em Jerusalém, onde O mataram, pregando-O numa cruz. Mas Deus ressuscitou-O ao terceiro dia e quis que Ele se manifestasse, não a todo o povo, mas às testemunhas que antecipadamente escolhera, entre as quais nós, que comemos e bebemos com Ele, após a sua ressurreição dos mortos. Ele nos mandou pregar ao povo e afirmar que foi estabelecido por Deus como Juiz dos vivos e dos mortos. É a Ele que todos os Profetas se referem quando testemunham: «que todos os que acreditaram n’Ele alcançarão em virtude do seu nome a remissão de seus pecados».
+
+[Graduale]
+Aleluia, aleluia.
+!Sl 117:24; 117:2.
+Eis o dia que o -Senhor fez: exultemos e alegremo-nos nele.
+V. Diga, agora, Israel: Deus é bom; a sua misericórdia é eterna.
+Aleluia, aleluia.
+!Mt 28:2
+v. Um anjo do Senhor desceu do céu, e, chegando-se, revolveu a pedra e assentou-se sobre ela.
+
+[Sequentia]
+@Tempora/Pasc0-0:Sequentia
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Lucas.
+!Lc 24:13-35
+v. Naquele tempo, iam dois discípulos, naquele mesmo dia, para uma aldeia chamada Emaús, distante de Jerusalém sessenta estádios, os quais iam conversando nas coisas que haviam sucedido. Ora aconteceu que, enquanto falavam e discutiam, aproximou-se Jesus e acompanhou-os; mas os olhos deles estavam tão entenebrecidos que O não conheceram. Jesus disse-lhes, então: «Que assuntos são esses em que vos entretendes, mesmo pelo caminho, e que vos mostram tão tristes?». Respondendo um deles, chamado Cléofas, disse-Lhe: «Só Vós sois tão alheio a Jerusalém, que ignorais o que se passou durante estes dias?». Ele disse: «Que foi?». E responderam: «O que diz respeito a Jesus Nazareno, que era um Profeta poderoso em obras e em palavras, diante de Deus e de todo o povo: e como os nossos príncipes dos sacerdotes e magistrados O entregaram, para ser condenado à morte, e O crucificaram. Nós esperávamos que fosse Ele quem resgatasse Israel, mas com tudo isto já hoje é o terceiro dia, depois que estas coisas aconteceram. É verdade que algumas mulheres, que são da nossa grei, nos causaram espanto, dizendo que, havendo ido de madrugada ao sepulcro, não tinham encontrado o corpo de Jesus; e vieram dizer que tinham visto um Anjo que lhes dissera estar Ele vivo. Alguns dos nossos foram ao sepulcro e encontraram as coisas como as mulheres haviam dito: mas O não viram». Então Jesus disse-lhes: «Ó insensatos, cujo coração é lento em acreditar o que os Profetas anunciaram! Porventura não convinha que Cristo padecesse essas coisas e que entrasse na sua glória?». E, começando em Moisés e percorrendo todos os Profetas, explicou-lhes tudo o que as Escrituras continham a seu respeito. Quando já estavam perto da aldeia para onde se dirigiam, Jesus deu a entender que ia mais longe. Porém, eles suplicaram-Lhe: «Ficai connosco, pois faz-se tarde e anoitece». Então, Jesus entrou com eles. Ora, aconteceu que, enquanto estava à mesa com eles, tomou o pão, benzeu-o e, partindo-o, apresentou-lho. Então abriram-se-lhes os olhos e reconhceram-n’O: mas Ele desapareceu da sua vista. E disseram um ao outro: «Porventura, enquanto Ele nos falava no caminho e explicava as Escrituras os nossos corações não pulsavam ardentemente?». E, erguendo-se imediatamente, voltaram a Jerusalém, onde estavam reunidos os Onze e os que estavam com estes, os quais lhes disseram: «O Senhor ressuscitou, verdadeiramente; já apareceu a Simão». E eles contaram o que se havia passado no caminho e, como O tinham reconhecido pela fracção do pão.
+
+[Offertorium]
+!Mt 28:2; 28:5-6
+v. Um Anjo do Senhor desceu do céu e disse às mulheres: «Aquele a quem buscais ressuscitou, como Ele havia dito», aleluia.
+
+[Secreta]
+Senhor, dignai-Vos aceitar com a oferta destas hóstias as preces do vosso povo, para que os mystérios da Páscoa, agora iniciados, nos sirvam, com vosso auxílio, de remédio para a eternidade.
+$Per Dominum
+
+[Communio]
+!Lc 24:34
+Ressuscitou o Senhor e apareceu a Pedro, aleluia.
+
+[Postcommunio]
+Infundi em nós, Senhor, o espírito da vossa caridade, para que todos aqueles que foram alimentados com vossos sacramentos nesta festa pascal vivam unidos em perfeita concórdia, pela vossa bondade.
+$Per Dominum eiusdem

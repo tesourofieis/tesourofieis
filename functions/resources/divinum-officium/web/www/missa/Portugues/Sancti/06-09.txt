@@ -1,0 +1,45 @@
+[Rank]
+Ss. Primi et Feliciani Martyrum;;Simplex;;1.1;;vide C3
+
+[Rule]
+vide C3;
+
+[Comment]
+# 09 VI – S. S. Primo e Feliciano, Mártires
+! Comemoração
+! Paramentos vermelhos 
+
+[Introitus]
+@Commune/C3a:Introitus
+
+[Oratio]
+Permiti, Senhor, Vos rogamos, que celebremos sempre fielmente a festa dos vossos Santos Mártires Primo e Feliciano, a fim de que pela sua intercessão sintamos os benefícios da vossa protecção.
+$Per Dominum
+
+[Lectio]
+@Commune/C3a:Lectio
+
+[Graduale]
+!Sl 88:6; 88:2
+Que os céus publiquem as vossas maravilhas, Senhor! Que se publique também na assembleia dos santos a vossa fidelidade.
+V. Cantarei eternamente as vossas misericórdias, Senhor! Sim, de geração em geração eu as cantarei! Aleluia, aleluia.
+V. Esta é a verdadeira fraternidade que venceu os crimes do mundo. Ela seguiu Cristo, possuindo gloriosamente o reino celestial. Aleluia.
+
+[Evangelium]
+@Sancti/01-15:Evangelium
+
+[Offertorium]
+!Sl 67:36
+Deus é admirável em seus santos. É o Deus de Israel quem dá força e coragem ao seu povo. Bendito seja Deus, aleluia.
+
+[Secreta]
+Senhor, que esta hóstia, que vai ser consagrada na celebração deste precioso mystério, Vos aplaque; e, Vos suplicamos, que ela apague os nossos pecados e Vos torne agradáveis os votos dos vossos servos.
+$Per Dominum
+
+[Communio]
+!Jo 15:16
+Eu vos escolhi no mundo, para que possais ir e alcanceis fruto; e que esse fruto permaneça.
+
+[Postcommunio]
+Ó Deus omnipotente, Vos suplicamos, permiti que estes celestiais mystérios, com os quais celebramos a solenidade dos vossos Santos Mártires Primo e Feliciano, nos alcancem o perdão da vossa misericórdia.
+$Per Dominum

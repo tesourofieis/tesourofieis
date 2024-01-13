@@ -1,0 +1,31 @@
+
+[Lectio5]
+@Tempora/Quad3-0:Lectio4:s/Right .*//s
+
+[Lectio6]
+@Tempora/Quad3-0:Lectio4:s/.* Right /Right /s s/$/~/
+@Tempora/Quad3-0:Lectio5:s/But this .*//s
+
+[Lectio7]
+@Tempora/Quad3-0:Lectio5:s/.* But this /But this /s s/$/~/
+@Tempora/Quad3-0:Lectio6:s/Well, .*//s
+
+[Lectio8]
+@Tempora/Quad3-0:Lectio6:s/.* Well, /Well, /s
+
+[Ant Matutinum 3N]
+If I by the finger of God cast out devils; doubtless the kingdom of God is come upon you.;;269;270;271
+
+[Lectio9]
+@Tempora/Quad3-0:Lectio7:s/But some .*//s
+
+[Lectio10]
+@Tempora/Quad3-0:Lectio7:s/.* But some /But some /s s/$/~/
+@Tempora/Quad3-0:Lectio8:s/And others, .*//s
+
+[Lectio11]
+@Tempora/Quad3-0:Lectio8:s/.* And others, /And others, /s
+
+[Lectio12]
+@Tempora/Quad3-0:Lectio9
+

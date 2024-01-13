@@ -1,0 +1,55 @@
+[Rank]
+Feria Secunda in Rogationibus;;Feria;;2
+
+[Rule]
+no Gloria
+no Credo
+Suffr=Maria3;Ecclesiae,Papa;;
+
+[Comment]
+# Segunda-feira das Rogações
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl 17:7
+v. Lá no seu santo templo ouviu Ele a minha voz, aleluia: e o meu clamor chegou à sua presença e soou a seus ouvidos: aleluia, aleluia.
+!Sl 17:2-3
+v. Eu vos amo, Senhor, que sois a minha força; sois, ó Senhor, o meu sustentáculo, o meu refúgio e a minha salvação.
+&Gloria
+v. Lá no seu santo templo ouviu Ele a minha voz, aleluia: e o meu clamor chegou à sua presença e soou a seus ouvidos: aleluia, aleluia.
+
+[Oratio]
+Ó Deus omnipotente, Vos suplicamos, concedei-nos a graça de confiarmos sempre na vossa bondade no meio das nossas tribulações e de estarmos sempre munidos com vosso socorro no meio das adversidades.
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Tiago.
+!Tg 5:16-20
+v. Caríssimos: Confessai as vossas culpas uns aos outros e orai uns pelos outros, a fim de que sejais salvos; pois a oração assídua do justo vale muito. Elias era um homem sujeito às mesmas misérias do que nós. Pois ele pediu instantemente que não chovesse, e durante três anos e seis meses não choveu. E tornou a orar, pedindo chuva, e esta caiu do céu e a terra produziu frutos. Meus irmãos: se algum de vós se afastou da verdade e alguém o tenha convertido, saiba que aquele que afastar um pecador do caminho do erro salvará a sua alma da morte e apagará uma multidão de pecados.
+
+[Graduale]
+Aleluia, aleluia
+!Sl 117:1
+v. Louvai o Senhor, pois Ele é bom: a sua misericórdia é eterna.
+
+[Evangelium]
+Continuação ++ do Santo Evangelho segundo S. Lucas.
+!Lc 11:5-13
+v. Naquele tempo, disse Jesus aos seus discípulos: «Se algum de vós tiver um amigo, e for à meia-noite encontrá-lo, dizendo-lhe: «Empresta-me três pães, porque um dos meus amigos chegou agora de viagem a minha casa e não tenho que dar-lhe» ; e esse amigo responder de dentro de casa: «Não me importunes, pois a porta já está fechada; eu e os meus filhos estamos deitados e não posso levantar-me», digo-vos que, se o primeiro continuar a bater à porta, ainda que o outro se não levante para lhe dar o pão por ser seu amigo, levantar-se-á para não ser importunado; e dar-lhe-á tanto quanto carecer. Assim vos digo eu: pedi e recebereis; buscai e encontrareis; batei e abrir-se-vos-á. Porquanto todo aquele que pedir receberá; todo aquele, que procurar achará; todo aquele que bater abrir-se-lhe-á. Se algum de vós pedir um pão a seu pai, porventura este lhe dará uma pedra? Ou, se lhe pedir um peixe, dar-lhe-á uma serpente? Ou, se lhe pedir um ovo, dar-lhe-á um escorpião? Pois se vós, sendo maus, sabeis, contudo, dar coisas boas a vossos filhos, quanto mais vosso Pai celestial dará o Espírito Santo àqueles que lho pedirem».
+
+[Offertorium]
+!Sl 108:30-31
+v. Louvarei o Senhor com a minha boca, sonoramente: louvá-l’O-ci perante a multidão: pois esteve à direita do pobre para salvar a minha alma dos que a perseguiam, aleluia.
+
+[Secreta]
+Que estas oblações, Senhor, Vos suplicamos, nos livrem dos laços da nossa malícia e nos alcancem os dons da vossa misericórdia.
+$Per Dominum.
+
+[Communio]
+!Lc 11:9-10
+v. Pedi e recebereis; buscai e achareis; batei e abrir-se-vos-á. Pois todo o que pede recebe; todo o que procura acha; todo o que bate abrir-se-lhe-á, aleluia.
+
+[Postcommunio]
+Dignai-Vos acolher favoravelmente, Senhor, Vos suplicamos, os nossos votos, a fim de que, recebendo os vossos dons na tribulação, cresçamos no vosso amor com a consolação que nos dais.
+$Per Dominum

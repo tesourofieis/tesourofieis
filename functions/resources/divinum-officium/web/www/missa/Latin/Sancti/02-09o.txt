@@ -1,0 +1,24 @@
+[Rank]
+S. Apollonia virgin and martyr;;Simplex;;1.1;;vide C6
+
+[Rule]
+vide C6;
+
+[Oratio]
+Deus qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili victóriam martýrii contulísti: concéde propítius; ut, qui beátæ Apollóniæ Vírginis et Mártyris tuæ natalícia cólimus, per ejus ad te exémpla gradiámur.
+$Per Dominum
+
+
+[Introitus]
+
+[Lectio]
+
+[Graduale]
+
+[Evangelium]
+
+[Offertorium]
+
+[Secreta]
+
+[Postcommunio]

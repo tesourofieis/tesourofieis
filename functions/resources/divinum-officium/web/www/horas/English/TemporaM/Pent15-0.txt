@@ -1,0 +1,10 @@
+[Lectio10]
+@Tempora/Pent15-0:Lectio8:s/For our .*//s
+
+[Lectio11]
+@Tempora/Pent15-0:Lectio8:s/.* For our/For our/s s/$/~/
+@Tempora/Pent15-0:Lectio9:s/, and as.*/./s
+
+[Lectio12]
+@Tempora/Pent15-0:Lectio9:s/.*, and as/And as/s
+

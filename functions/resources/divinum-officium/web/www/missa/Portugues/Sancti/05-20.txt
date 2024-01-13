@@ -1,0 +1,39 @@
+[Rank]
+S. Bernardini Senensis Confessoris;;Semiduplex;;2.1;;vide C5
+
+[Rule]
+vide C5;
+Gloria
+
+[Comment]
+# 20 V – S. Bernardino de Sena, Confessor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+Senhor Jesus Cristo, que concedestes ao B. Bernardino, vosso Confessor, um ardente amor ao vosso Santo nome, dignai-Vos infundir em nossas almas pelos seus méritos e intercessão o espírito da vossa caridade.
+$Qui vivis
+
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+@Commune/C5:Graduale
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+@Commune/C5:Offertorium
+
+[Secreta]
+@Commune/C5:Secreta
+
+[Communio]
+@Commune/C5:Communio
+
+[Postcommunio]
+@Commune/C5:Postcommunio

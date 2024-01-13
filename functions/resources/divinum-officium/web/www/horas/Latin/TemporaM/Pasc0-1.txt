@@ -1,0 +1,28 @@
+@Tempora/Pasc0-1
+
+[Rule]
+ex Pasc0-0
+Psalmi Dominica
+Doxology=Pasc
+
+[Lectio1]
+@Tempora/Pasc0-1:Lectio1:s/ De se.*//s
+
+[Responsory1]
+@Tempora/Pasc1-0:Responsory2
+
+[Lectio2]
+@Tempora/Pasc0-1:Lectio1:s/.*De se/De se/s s/$/~/
+@Tempora/Pasc0-1:Lectio2:s/Prob.ndi.*//s
+
+[Responsory2]
+@Tempora/Pasc0-0
+
+[Lectio3]
+@Tempora/Pasc0-1:Lectio2:s/.*Prob.ndi/Probándi/s s/$/~/
+@Tempora/Pasc0-1:Lectio3
+
+[Responsory3]
+@Tempora/Pasc0-1:Responsory1
+
+[utf8 ą]

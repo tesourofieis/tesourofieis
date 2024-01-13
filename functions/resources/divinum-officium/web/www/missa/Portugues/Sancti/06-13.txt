@@ -1,0 +1,45 @@
+[Rank]
+S. Antonii de Padua Confessoris;;Duplex;;3;;vide C5
+
+[Rule]
+vide C5;
+Gloria
+
+[Comment]
+# 13 VI – Santo António de Lisboa, onfessor e Doutor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+Que a festa anual do B. António, vosso Confessor e Doutor, alegre a vossa Igreja, Senhor, a fim de que, fortalecida sempre com os auxílios espirituais, mereça desfrutar os gozos eternos.
+$Per Dominum
+
+[Lectio]
+@Commune/C4a:Lectio
+
+[Graduale]
+!Sl 91:13; 91:14
+V. O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano, na casa do Senhor.
+!Sl 91:3
+V. Para publicar de manhã a vossa misericórdia; e de noite a vossa verdade. Aleluia, aleluia.
+!Sl 45:9
+O Senhor o amou e adornou: e revestiu-o com uma túnica de glória. Aleluia.
+
+[Evangelium]
+@Commune/C4a:Evangelium
+
+[Offertorium]
+@Commune/C5:Offertorium
+
+[Secreta]
+Fazei, Senhor, que a presente oblação seja salutar ao vosso povo, pelo qual Vos dignastes imolar-Vos ao vosso Pai, como hóstia viva.
+
+[Communio]
+@Commune/C5:Communio
+
+[Postcommunio]
+Saciados com os divinos dons, Vos suplicamos, Senhor, que pela intercessão e méritos do B. António, vosso Confessor e Doutor, sintamos o efeito deste salutar sacrifício.
+$Per Dominum

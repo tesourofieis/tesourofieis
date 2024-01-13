@@ -1,0 +1,61 @@
+[Rank]
+S. Cajetani Confessoris;;Duplex;;3;;vide C5
+
+[Rule]
+vide C5;
+9 lectiones
+Gloria
+
+[Comment]
+# 7 VIII – S. Caetano, Confessor
+! 3 classe
+! Paramentos brancos
+
+S. Donato, Bispo e Mártir
+! Comemoração
+! Paramentos vermelhos
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+Ó Deus, que concedestes ao B. Caetano, vosso Confessor, a graça de imitar o modo de vida dos Apóstolos, permiti-nos, pela sua intercessão e exemplo, que sempre depositemos em Vós a nossa confiança e somente aspiremos aos bens celestiais.
+$Per Dominum
+
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+@Commune/C5:Graduale
+
+[Evangelium]
+@Tempora/Pent14-0:Evangelium
+
+[Offertorium]
+@Commune/C5:Offertorium
+
+[Secreta]
+Ó Deus omnipotente, Vos suplicamos, fazei que esta oblata da nossa humildade em honra dos vossos Santos Vos seja agradável e nos purifique ao mesmo tempo o corpo e a alma.
+$Per Dominum
+
+[Communio]
+@Commune/C5:Communio
+
+[Postcommunio]
+Havendo recebido o alimento celestial, ó Deus omnipotente, Vos suplicamos, fazei que pela intercessão do B. Caetano, vosso Confessor, sejamos fortalecidos contra todas as adversidades.
+$Per Dominum
+
+[Commemoratio Oratio]
+! S. Donato
+Ó Deus, que sois a glória dos vossos sacerdotes, permiti, Vos suplicamos, que experimentemos o auxílio do vosso Santo Mártir e Bispo Donato, cuja festa celebramos.
+$Per Dominum
+
+[Commemoratio Secreta]
+! S. Donato
+Senhor, Vos suplicamos, fazei que pela intercessão do vosso Santo Mártir e Bispo Donato, a quem honramos oferecendo estes dons em louvor do vosso nome, sintamos aumentar em nós os frutos de uma devoção piedosa.
+$Per Dominum
+
+[Commemoratio Postcommunio]
+! S. Donato
+Omnipotente e misericordioso Deus, que nos tornastes participantes e ministros dos vossos sacramentos, concedei-nos, Vos imploramos, que pela intercessão do B. Donato, vosso Mártir e Pontífice, não só gozemos a comparticipação da sua fé, mas como ele Vos sirvamos dignamente.
+$Per Dominum

@@ -1,0 +1,27 @@
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+Deus, qui beátum Cesláum virgíneo morum candóre prǽditum, et salútis animárum zelo succénsum, in divérsis natiónum pópulis óperum sanctitáte et fídei propagatióne mirábilem effecísti: præsta, quǽsumus; ut, eius intercessióne, simus semper in fide stábiles, et ad te, qui solus es ætérnæ salútis auctor ac largítor, misericórdiæ tuæ múnere perveníre valeámus.
+$Per Dominum
+
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+@Commune/C5:Graduale
+
+[Evangelium]
+@Sancti/04-25:Evangelium
+
+[Offertorium]
+@Commune/C5:Offertorium
+
+[Secreta]
+@Commune/C5:Secreta
+
+[Communio]
+@Commune/C5:Communio
+
+[Postcommunio]
+@Commune/C5:Postcommunio

@@ -1,0 +1,14 @@
+[Lectio9]
+@Tempora/Pent20-0:Lectio7:s/Wherefore then.*//s
+
+[Lectio10]
+@Tempora/Pent20-0:Lectio7:s/.* Wherefore /Wherefore /s s/$/~/
+@Tempora/Pent20-0:Lectio8:s/He believed .*//s
+
+[Lectio11]
+@Tempora/Pent20-0:Lectio8:s/.* He believed /He believed /s s/$/~/
+@Tempora/Pent20-0:Lectio9:s/Thus .*//s
+
+[Lectio12]
+@Tempora/Pent20-0:Lectio9:s/.* Thus /Thus /s
+

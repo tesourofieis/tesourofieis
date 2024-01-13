@@ -1,0 +1,68 @@
+[Rank]
+S. Augustini Episcopi et Confessoris et Ecclesiae Doctoris;;Duplex;;3;;vide C4a
+
+[Name]
+Augustine
+
+[Rule]
+vide C4a;
+Gloria
+CredoDA
+
+[Comment]
+# 28 VIII – Santo Agostinho, Bispo, Confessor e Doutor
+! 3 classe
+! Paramentos brancos
+
+S. Hermes, Mártir
+! Comemoração
+! Paramentos vermelhos
+
+[Introitus]
+@Commune/C4a:Introitus
+
+[Oratio]
+Ouvi benigno, ó Deus omnipotente, as nossas súplicas, e, visto que nos permitis confiarmos na vossa bondade, concedei-nos, pela intercessão do B. Agostinho, vosso Confessor e Pontífice, a graça de alcançarmos o efeito benigno da vossa habitual misericórdia.
+$Per Dominum
+
+[Lectio]
+@Commune/C4a:Lectio
+
+[Graduale]
+!Sl 36:30-31
+A boca do justo falará com sabedoria e a sua língua proclamará a justiça.
+V. A lei do seu Deus está no seu coração e os seus pés não tropeçarão. Aleluia, aleluia.
+!Sl 88:21
+Encontrei o meu servo David e ungi-o com meu óleo sagrado. Aleluia.
+
+[Evangelium]
+@Commune/C4a:Evangelium
+
+[Offertorium]
+@Commune/C4a:Offertorium
+
+[Secreta]
+@Commune/C4a:Secreta
+
+[Communio]
+@Commune/C4a:Communio
+
+[Postcommunio]
+@Commune/C4a:Postcommunio
+
+[Commemoratio Oratio]
+! S. Hermes, Mártir
+Ó Deus, que fortalecestes o B. Hermes, vosso Mártir, com a virtude da constância no seu suplício, concedei-nos, pelo vosso amor, que, seguindo seu exemplo, desprezemos as prosperidades deste mundo e nunca temamos as adversidades.
+$Per Dominum
+
+[Commemoratio Secreta]
+! S. Hermes, Mártir
+Vos oferecemos, Senhor, em memória dos vossos Santos, este sacrifício de louvor; e, Vos imploramos, fazei que aquilo que lhe alcançou a glória sirva de proveito à nossa salvação.
+$Per Dominum
+
+[Commemoratio Postcommunio]
+! S. Hermes, Mártir
+Saciados, Senhor, com a celestial bênção, invocamos a vossa clemência, a fim de que pela intercessão do B. Hermes, vosso Mártir, alcancemos os salutares efeitos do sacrifício, que humildemente celebramos.
+$Per Dominum
+
+

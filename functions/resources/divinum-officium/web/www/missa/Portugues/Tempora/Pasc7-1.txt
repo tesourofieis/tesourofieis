@@ -1,0 +1,64 @@
+[Rank]
+Die II infra octavam Pentecostes;;Duplex I classis;;7
+
+[RankNewcal]
+Feria II post Pentecostes;;Feria;;1;;
+
+[Rule]
+Gloria
+Sequentia
+Credo
+Prefatio=Spiritu
+
+[Comment]
+# Segunda-feira de Pentecostes
+! Estação em São Pedro Ad Vincula
+! 1 classe
+! Paramentos vermelhos
+
+[Introitus]
+!Sl. 80:17
+v. Alimentou-os Deus com o pão mais puro, aleluia: e saciou-os com o mel que fez brotar de uma rocha, aleluia, aleluia.
+!Sl 80:2
+Louvai alegremente o Senhor, que é o nosso sustentáculo; aclamai com hinos de alegria o Deus de Jacob.
+&Gloria
+v. Alimentou-os Deus com o pão mais puro, aleluia: e saciou-os com o mel que fez brotar de uma rocha, aleluia, aleluia.
+
+[Oratio]
+Ó Deus, que enviastes o Espírito Santo aos vossos Apóstolos, atendei às pias orações do vosso povo, a fim de que àqueles a quem já destes a fé concedais também a paz.
+$Per Dominum eiusdem
+
+[Lectio]
+Lição dos Actos dos Apóstolos.
+!Act 10:34, 42-48
+Naqueles dias, Pedro, tomando a palavra, disse: «Varões, meus irmãos, o Senhor mandou-nos pregar ao povo e testemunhar que foi Ele quem Deus instituiu Juiz dos vivos e dos mortos. Todos os Profetas afirmam a seu respeito que aqueles que acreditarem n’Ele receberão a remissão dos pecados pelo poder do seu nome». Eis que, enquanto Pedro falava, desceu o Espírito Santo sobre aqueles que escutavam as suas palavras. E os fiéis circundados, que tinham vindo com Pedro, admiraram-se de que a graça do Espírito Santo descesse também sobre os pagãos, pois ouviram-nos falar diversas línguas e dar glória a Deus. Então, disse Pedro: «Acaso poder-se-á recusar e Baptismo àqueles que, como vós, receberam o Espírito Santo?». E mandou que fossem baptizados no nome do nosso Senhor Jesus Cristo.
+
+[Graduale]
+Aleluia, aleluia.
+!Act 2:4
+V. Os Apóstolos publicavam em diversas línguas as maravilhas de Deus. Aleluia. (Geuflecte-se)
+V. Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.
+
+[Sequentia]
+@Tempora/Pasc7-0:Sequentia
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. João.
+!Jo 3:16-21
+Naquele tempo, disse Jesus a Nicodemos: «Deus amou de tal modo o mundo que deu o seu Filho Unigénito, para que todo aquele que acreditar n’Ele não pereça, mas alcance a vida eterna. Porquanto Deus não mandou o seu Filho ao Inundo para condenar o mundo, mas para o salvar por seu intermédio. Aquele que crê n’Elc não é condenado; mas aquele que não crê já está condenado, porque não acreditou no nome do Filho Unigénito de Deus. Eis qual a causa da condenação: é que a luz veio ao mundo, mas os homens amaram mais as trevas do que a luz; e as suas obras foram más. Todo o que procede mal detesta a luz e não aparece à luz, para que suas obras não sejam censuradas. Mas aquele que procede com rectidão aparece à luz, para que se saiba que suas obras são praticadas em nome de Deus».
+
+[Offertorium]
+!Sl. 17:14, 16
+Lá do céu o Senhor trovejou: e o Altíssimo fez ouvir a sua voz: então irromperam as fontes das águas, aleluia.
+
+[Secreta]
+Dignai-Vos, Senhor, Vos rogamos, santificar estas ofertas, e, recebendo a oblação desta hóstia espiritual, fazei que nos tornemos em um dom eterno a Vós oferecido.
+$Per Dominum eiusdem
+
+[Communio]
+!Jo 14:26
+O Espírito Santo vos inspirará, aleluia, tudo o que vos tenho ensinado, aleluia, aleluia.
+
+[Postcommunio]
+Assisti ao vosso povo, Senhor, Vos suplicamos, e, havendo-o sustentado com os mystérios celestiais, defendei-o contra o furor dos inimigos.
+$Per Dominum eiusdem

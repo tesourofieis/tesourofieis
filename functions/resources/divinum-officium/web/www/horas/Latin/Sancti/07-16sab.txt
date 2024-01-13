@@ -1,0 +1,16 @@
+[Rank]
+Sanctæ Mariæ Sabbato;;Feria;;2;;ex C10
+
+[Rule]
+Special Benedictio
+Doxology=Nat
+no secunda vesperas
+
+[Oratio]
+@Sancti/07-16
+
+[Ant 2]
+@Sancti/07-16
+
+[Versum 2]
+@Commune/C10:Versum 1

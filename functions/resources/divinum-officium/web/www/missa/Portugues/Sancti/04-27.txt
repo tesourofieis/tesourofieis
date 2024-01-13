@@ -1,0 +1,54 @@
+[Rank]
+S. Petri Canisii Confessoris et Ecclesiae Doctoris;;Duplex;;3;;vide C5a
+
+[RankNewcal]
+S. Petri Canisii Confessoris et Ecclesiae Doctoris;;Duplex optional;;2;;vide C5a
+
+[Rule]
+vide C5a;
+Gloria
+CredoDA
+
+[Name]
+Petre
+
+[Comment]
+# 27 IV – S. Pedro Canísio, Confessor e Doutor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+@Commune/C4a:Introitus
+
+[Oratio]
+Ó Deus, que revestistes o B. Pedro, vosso Confessor, com os dons da virtude e da ciência para a defesa da fé católica, concedei-nos propício que seus exemplos e ensinos atraiam ao caminho da salvação aqueles que caíram no erro e façam perseverar os fiéis na confissão da verdade.
+$Per Dominum
+
+[Lectio]
+@Commune/C4a:Lectio
+
+[Graduale]
+@Commune/C4a:Graduale
+
+[GradualeP]
+@Commune/C4a:GradualeP
+
+[Tractus]
+@Commune/C4a:Tractus
+
+[Evangelium]
+@Commune/C4a:Evangelium
+
+[Offertorium]
+@Commune/C4a:Offertorium
+
+[Secreta]
+@Commune/C4a:Secreta
+$Per Dominum.
+
+[Communio]
+@Commune/C4a:Communio
+
+[Postcommunio]
+@Commune/C4a:Postcommunio
+$Per Dominum

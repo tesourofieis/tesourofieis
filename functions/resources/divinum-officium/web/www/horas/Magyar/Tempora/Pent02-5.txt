@@ -1,0 +1,76 @@
+[Rank]
+Sanctissimi Cordis Domini Nostri Jesu Christi;;Duplex I classis cum Octava privilegita III ordinis;;6
+
+[Rank1960]
+Sanctissimi Cordis Domini Nostri Jesu Christi;;Duplex I classis;;6
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Doxology=Hearth
+Prima=53
+Festum Domini
+
+[Capitulum Vespera]
+!Eph 3:8-9
+v. Testverek: Nekem, az összes szent közül a legkisebbnek jutott osztályrészül a kegyelem, hogy Krisztus felfoghatatlan gazdagságát hirdessem a pogányoknak, és felvilágosítsak minden embert, hogyan valósult meg ez a titok, amely kezdettől fogva el volt rejtve az Istenben, a mindenség teremtőjében,
+$Deo gratias
+
+[Lectio1]
+Olvasmány Jeremiás próféta könyvéből
+!Jer 24:5-7
+5 Ezt mondja az Úr, Izrael Istene: Amint jó ez a füge, ugyanolyan jóakarattal törődöm majd Júda száműzötteivel, akiket elküldtem erről a helyről a káldeusok földjére.
+6 Feléjük fordítom tekintetem, hogy jót tegyek velük, és visszahozom őket ebbe az országba. Mert fölépíteni akarom őket, nem lerombolni; elültetni őket, nem kigyomlálni.
+7 És szívet adok nekik, hogy elismerjék: én vagyok az Úr. Ok az én népem lesznek, én meg Istenük leszek, mert teljes szívükből hozzám térnek.
+
+[Lectio2]
+!Jer Jer 30:18-19; 30:21-24
+18 Ezt mondja az Úr: Helyreállítom Jákob sátrait, és megkönyörülök hajlékain. Újraépítik romjaiból a várost, és a palotát is a maga helyén.
+19 Hálaadás hallatszik onnan és örömnek szava. 
+21 Vezérük közülük származik, és fejedelmük a maguk köréből. Színem elé engedem, úgyhogy elém járulhat. Mert ki merné életét kockáztatni, hogy elém járuljon? mondja az Úr.
+22 Így ti az én népem lesztek, én meg a ti Istenetek leszek.
+23 De megindul az Úr haragjának fergetege is, és pusztító vihar zúdul a gonoszok fejére.
+24 Az Úr fölgerjedt haragja nem csillapul le, míg csak végbe nem viszi és meg nem valósítja szívének szándékait; az idők végén értitek ezt meg.
+
+[Lectio3]
+!Jer 31:1-3; 31:31-33
+1 Abban az időben - mondja az Úr - Izrael minden nemzetségének Istene leszek, ők meg az én népem lesznek.
+2 Ezt mondja az Úr: Kegyelmet talált a pusztában a kardtól megmenekült nép: Izrael nyugalma felé tart.
+3 Megjelent neki a távolból az Úr: örök szeretettel szerettelek, azért megő riztem irántad irgalmasságomat.
+31 Igen, jönnek napok - mondja az Úr -, amikor új szövetséget kötök Izrael házával és Júda házával.
+32 De nem olyan szövetséget, mint amilyet atyáikkal kötöttem azon a napon, amikor kézen fogva kivezettem őket Egyiptom földjéről. Azt a szövetségemet ugyanis megszegték, holott én uruk voltam - mondja az Úr.
+33 Ez lesz az a szövetség, amelyet majd Izrael házával kötök, ha elérkeznek azok a napok - mondja az Úr: Bensejükbe adom törvényemet, és a szívükbe írom. Én Istenük leszek, ők meg az én népem lesznek.
+
+[Lectio7]
+Evangélium szent János Apostol kőnyvéből
+!John 19:31-37
+At that time : The Jews, because it was the Preparation, that the bodies should not remain upon the cross on the Sabbath Day, for that Sabbath Day was an high day, besought Pilate that their legs might broken, and that they might be taken away. And so on,
+_
+A Homily by St. Bonaventure the Bishop
+!Liber de ligno vitć, num. 30
+In order that the Church might be taken out of the side of Christ, in his deep sleep on the Cross, and that the Scripture might be fulfilled which saith : They shall look on him whom they pierced : it was divinely ordained that one of the soldiers should pierce his sacred side with a spear, and open it. Then forthwith there came flowing out blood and water, which was the price of our salvation, pouring forth from its mountain-source, in sooth, from the secret places of his Heart, to give power to the Sacraments of the Church, to bestow the life of grace, and to be as a saving drink of living waters, flowing up to life eternal for those who were already quickened in Christ. Arise, then, O soul beloved of Christ. Cease not thy vigilance, place there thy lips, and drink the waters from the fount of salvation.
+
+[Capitulum Laudes]
+!Eph 3:8-9
+v. Testverek: Nekem, az összes szent közül a legkisebbnek jutott osztályrészül a kegyelem, hogy Krisztus felfoghatatlan gazdagságát hirdessem a pogányoknak, és felvilágosítsak minden embert, hogyan valósult meg ez a titok, amely kezdettől fogva el volt rejtve az Istenben, a mindenség teremtőjében,
+$Deo gratias
+
+[Lectio Prima]
+!Eph 3:17-19
+v. Verjetek gyökeret verjetek és vessetek alapot a szeretetben. Akkor majd fel tudjátok fogni az összes szenttel együtt, mi a szélesség és a hosszúság, a magasság és a mélység, megismeritek Krisztusnak minden értelmet meghaladó szeretetét, és beteltek az Isten egész teljességével.
+
+[Capitulum Tertia]
+!Eph 3:8-9
+v. Testverek: Nekem, az összes szent közül a legkisebbnek jutott osztályrészül a kegyelem, hogy Krisztus felfoghatatlan gazdagságát hirdessem a pogányoknak, és felvilágosítsak minden embert, hogyan valósult meg ez a titok, amely kezdettől fogva el volt rejtve az Istenben, a mindenség teremtőjében,
+$Deo gratias
+
+[Capitulum Sexta]
+!Eph 3:14-17
+v. Ezért meghajtom térdemet az Atya előtt; tole származik minden közösség az égben és a földön. Adja meg nektek dicsoségének gazdagsága szerint, hogy Lelke által megerősödjetek benso emberré,
+$Deo gratias
+
+[Capitulum Nona]
+!Eph 3:17-19
+v. Verjetek gyökeret verjetek és vessetek alapot a szeretetben. Akkor majd fel tudjátok fogni az összes szenttel együtt, mi a szélesség és a hosszúság, a magasság és a mélység, megismeritek Krisztusnak minden értelmet meghaladó szeretetét, és beteltek az Isten egész teljességével.
+$Deo gratias
