@@ -7,6 +7,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Tesouro dos Fieis",
+      logo: {
+        src: "./src/assets/my-logo.svg",
+      },
       social: {
         github: "https://github.com/tesourofieis/tesourofieis",
         "x.com": "https://x.com/tesourofieis",
