@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">S. Anacleto, Papa e Mártir <em>13 de Julho</em></h2>
-
-<em>Como na Missa Si díligis me, página sumospontifices</em>

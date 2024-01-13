@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">S. Jacinto, Conf. <em>17 de Agosto</em></h2>
-
-<em>Como na Missa Os justi, página confessoresnaopontifices1</em>

@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">Missa Votiva do Imaculado Coração da B. V. Maria <em>13 de Maio</em></h2>
-
-<em>Como na Missa do Imaculado Coração da B. V. Maria, a 22 de Agosto, página imaculadocoracaomaria</em>.

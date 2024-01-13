@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">Comemoração de S. Ponciano, Papa e Mártir <em>19 de Agosto</em></h2>
-
-<em>Como na Missa Si díligis me, página sumospontifices</em>

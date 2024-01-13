@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">Festa do Santíssimo Sacramento <em>24 de Março</em></h2>
-
-<em>Em todoas as igrejas de Portugal é permitido, neste dia, celebrar em honra do Santíssimo Sacramento, a Missa, que será do Santíssimo Corpo de Cristo, página santissimocorpocristo, com Glória e Credo.</em>

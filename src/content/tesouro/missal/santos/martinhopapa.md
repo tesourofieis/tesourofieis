@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">S. Martinho, Papa e Mártir <em>12 de Novembro</em></h2>
-
-<em>Como na Missa Si díligis me, página sumospontifices</em>

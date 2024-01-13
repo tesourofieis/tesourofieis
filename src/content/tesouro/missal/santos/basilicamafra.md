@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">Dedico da Basílica de Mafra <em>22 de Outubro</em></h2>
-
-<em>Como na Missa Terríbilis est, página dedicacaoigreja</em>

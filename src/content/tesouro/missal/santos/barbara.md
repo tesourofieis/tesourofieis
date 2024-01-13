@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">Santa Bárbara, Virgem e Mártir <em>4 de Dezembro</em></h2>
-
-<em>Como na Missa Loquébar, página virgensmartires1</em>

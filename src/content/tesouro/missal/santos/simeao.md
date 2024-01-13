@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">S. Simeão, B. e Mártir <em>18 de Fevereiro</em></h2>
-
-<em>Como na Missa Státuit ei Dóminus, página martirpontificeforapascal</em>
