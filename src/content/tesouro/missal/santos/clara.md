@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">S. Clara, Virgem <em>12 de Agosto</em></h2>
-
-<em>Como na Missa Dilexísti justitiam, página virgemnaomartir1</em>

@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">S. Félix II, Papa e Mártir <em>29 de Julho</em></h2>
-
-<em>Como na Missa Si díligis me, página sumospontifices.</em>

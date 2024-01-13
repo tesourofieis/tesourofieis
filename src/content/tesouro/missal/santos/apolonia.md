@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">Santa Apolónia, V. e Márt. <em>9 de Fevereiro</em></h2>
-
-<em>Como na Missa Loquébar, página virgensmartires1</em>

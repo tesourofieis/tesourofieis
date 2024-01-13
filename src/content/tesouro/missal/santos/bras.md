@@ -1,6 +1,0 @@
----
-title: todo
----
-<h2 class="text-center">S. Brás, B. e Márt. <em>3 de Fevereiro</em></h2>
-
-<em>Como na Missa Sacerdótes Dei, página martirpontifice</em>
