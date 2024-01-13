@@ -1,0 +1,28 @@
+[Lectio5]
+@Tempora/Pasc3-0:Lectio4:s/Thus he.*//s
+
+[Lectio6]
+@Tempora/Pasc3-0:Lectio4:s/.* Thus he/Thus he/s s/$/~/
+@Tempora/Pasc3-0:Lectio5:s/Of course, .*//s
+
+[Lectio7]
+@Tempora/Pasc3-0:Lectio5:s/.* Of course, /Of course, /s s/$/~/
+@Tempora/Pasc3-0:Lectio6:s/Every .*//s
+
+[Lectio8]
+@Tempora/Pasc3-0:Lectio6:s/.* Every /Every /s
+
+[Lectio9]
+@Tempora/Pasc3-0:Lectio7:s/And thus .*//s
+
+[Lectio10]
+@Tempora/Pasc3-0:Lectio7:s/.* And thus /And thus /s s/$/~/
+@Tempora/Pasc3-0:Lectio8:s/But He .*//s
+
+[Lectio11]
+@Tempora/Pasc3-0:Lectio8:s/.* But He /But He /s s/$/~/
+@Tempora/Pasc3-0:Lectio9:s/Therefore, .*//s
+
+[Lectio12]
+@Tempora/Pasc3-0:Lectio9:s/.* Therefore, /Therefore, /s
+

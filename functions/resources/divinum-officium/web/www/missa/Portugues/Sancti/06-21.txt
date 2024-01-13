@@ -1,0 +1,55 @@
+[Rank]
+S. Aloisii Gonzagae Confessoris;;Duplex;;3;;vide C5
+
+[Rule]
+vide C5;
+Gloria
+
+[Comment]
+# 21 VI – S. Luís Gonzaga, Confessor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl 8:6
+v. Vós o criastes um pouco abaixo dos Anjos: Vós o coroastes com honra e glória.
+!Sl 148:2
+Que todos os Anjos do Senhor louvem o Senhor; que todos os exércitos do Senhor louvem o Senhor.
+&Gloria
+v. Vós o criastes um pouco abaixo dos Anjos: Vós o coroastes com honra e glória.
+
+[Oratio]
+Ó Deus, distribuidor dos dons celestiais, que reunistes no angélico jovem Luís uma brilhante inocência de vida com uma não menos admirável penitência, concedei-nos pelos seus méritos e preces que o imitemos na penitência, já que o não acompanhamos na inocência.
+$Per Dominum
+
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+!Sl 70:5-6
+Desde a minha juventude, Senhor, sois a minha esperança; desde o meu nascimento fiquei ligado a Vós; e desde o seio de minha mãe sois o meu protector.
+!Sl 40:13
+V. Acolhestes-me por causa da minha inocência: e quisestes que ficasse sempre na vossa presença. Aleluia, aleluia.
+!Sl 64:5
+Bem-aventurado aquele que escolhestes e chamastes para junto de Vós, pois habitará nos átrios do Senhor. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Mateus.
+!Mt 22:29-40
+Naquele tempo, respondendo Jesus aos saduceus, disse-lhes: «Estais no erro e não compreendeis nem as Escrituras, nem o poder de Deus; pois após a ressurreição os homens se não ligarão a mulheres, nem as mulheres tomarão maridos; mas serão como os Anjos de Deus no céu. Acerca da ressurreição dos mortos, não lestes o que está escrito quando Deus vos disse: «Eu son o Deus de Abraão, o Deus de Isaque e de Jacob? Deus não é dos mortos, mas dos vivos». E as turbas, que o escutavam, estavam admiradas da sua doutrina. Porém os fariseus, ouvindo dizer que Ele fizera calar os saduceus, reuniram-se em conselho; e um deles, que era doutor da Lei, fez-lhe esta interrogação para O tentar: «Mestre, qual é o maior mandamento da Lei?». Jesus disse-lhe: «Amarás o Senhor, teu Deus, com todo teu coração, com toda tua alma e com todo teu entendimento. Este é o maior e o primeiro mandamento. Porém, há um segundo, igual a este, qual é: amarás o teu próximo como a ti mesmo. Nestes dois mandamentos se encerram toda a Lei e os Profetas».
+
+[Offertorium]
+!Sl 23:3-4
+Quem ascenderá à montanha do Senhor? Quem permanecerá no seu lugar sagrado? Aqueles cujas mãos são inocentes e cujo coração é puro.
+
+[Secreta]
+Para que sejamos admitidos ao celestial banquete, concedei-nos, Senhor, que sejamos revestidos com a veste nupcial que o B. Luís, com suas fervorosas disposições e lágrimas contínuas, ornava de pérolas preciosas.
+$Per Dominum
+
+[Communio]
+!Sl 77:24-25
+Deu-lhe o pão do céu: o homem comeu o pão dos Anjos.
+
+[Postcommunio]
+Havendo nós sido alimentados com o Pão dos Anjos, concedei-nos, Senhor, que vivamos também como os Anjos, e, imitando o exemplo daquele que festejamos hoje, vivamos apresentando-Vos sempre a nossa acção de graças.
+$Per Dominum

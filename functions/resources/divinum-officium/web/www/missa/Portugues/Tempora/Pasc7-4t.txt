@@ -1,0 +1,54 @@
+[Rank]
+Die Quinta infra octavam Pentecostes;;Semiduplex I classis;;5;;ex Pasc7-0
+
+[Rank1960]
+Die Quinta infra octavam Pentecostes;;Semiduplex I classis;;6;;ex Pasc7-0
+
+[RankNewcal]
+Feria V post Pentecostes;;Feria;;1;;
+
+[Rule]
+Gloria
+Sequentia
+Credo
+Prefatio=Spiritu
+
+[Comment]
+# Quinta-feira de Pentecostes
+! Estação em São Lourenço fora dos Muros
+! 1 classe
+! Paramentos vermelhos
+
+[Introitus]
+@Tempora/Pasc7-0:Introitus
+
+[Oratio]
+@Tempora/Pasc7-0:Oratio
+
+[Lectio]
+Lição dos Actos dos Apóstolos.
+!Act 8:5-8
+Naqueles dias, descendo Filipe à cidade de Samaria, pregava Cristo aos seus habitantes. As multidões estavam atentas ao que dizia, escutando-o unanimemente e vendo os milagres que operava. Muitos espíritos imundos saíam de várias pessoas, que estavam possessas, gritando em voz alta. E também muitos paralíticos e coxos eram curados, havendo grande alegria naquela cidade.
+
+[Graduale]
+@Tempora/Pasc7-0:Graduale
+
+[Sequentia]
+@Tempora/Pasc7-0:Sequentia
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Lucas.
+!Lc 9:1-6
+Naquele tempo, havendo Jesus reunido os Doze Apóstolos, deu-lhes poder e autoridade sobre todos os demónios e também o poder de curar os enfermos. Depois, mandou-os pregar o reino de Deus e curar os enfermos, e disse-lhes: «Não leveis nada pelo caminho: nem bordão, nem saco, nem pão, nem dinheiro; não tenhais duas túnicas; em qualquer casa em que entrardes, permanecei aí e não queirais sair; quando encontrardes pessoas que não queiram receber-vos, saí dessa cidade e sacudi até o pó dos vossos pés, a fim de que isso sirva de testemunho contra elas». Então partiram; e andavam de aldeia em aldeia, evangelizando e curando os enfermos em toda a parte.
+
+[Offertorium]
+@Tempora/Pasc7-0:Offertorium
+
+[Secreta]
+@Tempora/Pasc7-0:Secreta
+
+[Communio]
+@Tempora/Pasc7-0:Communio
+
+[Postcommunio]
+@Tempora/Pasc7-0:Postcommuni

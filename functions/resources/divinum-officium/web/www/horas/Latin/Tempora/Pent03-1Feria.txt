@@ -1,0 +1,26 @@
+[Rank]
+Feria secunda infra Hebdomadam III post Octavam Pentecostes;;Feria;;1
+
+[Rule]
+Oratio Dominica
+
+[Lectio1]
+@Tempora/Pent03-1
+
+[Responsory1]
+R. Recordáre, Dómine, testaménti tui, et dic Angelo percutiénti: Cesset jam manus tua, 
+* Ut non desolétur terra, et ne perdas omnem ánimam vivam.
+V. Ego sum qui peccávi, ego qui iníque egi: isti qui oves sunt, quid fecérunt? Avertátur, óbsecro, furor tuus, Dómine, a pópulo tuo.
+R. Ut non desolétur terra, et ne perdas omnem ánimam vivam.
+
+[Lectio2]
+@Tempora/Pent03-1
+
+[Responsory2]
+@Tempora/Pent01-3
+
+[Lectio3]
+@Tempora/Pent03-1
+
+[Responsory3]
+@Tempora/Pent01-3

@@ -1,0 +1,52 @@
+[Rank]
+S. Josephi Calasanctii Confessoris;;Duplex;;3;;vide C5
+
+[Rule]
+vide C5;
+Gloria
+
+[Comment]
+# 27 VIII – S. José Calasans, Confessor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl 33:12
+v. Vinde, meus filhos; escutai-me e vos ensinarei a temer o Senhor.
+!Sl 33:2
+Bendirei o Senhor em todas as ocasiões: o seu louvor estará sempre na minha boca.
+&Gloria
+v. Vinde, meus filhos; escutai-me e vos ensinarei a temer o Senhor.
+
+[Oratio]
+Ó Deus, que por S. José, vosso Confessor, Vos dignastes proporcionar à vossa Igreja novo auxílio para a formação da juventude na ciência e na piedade, concedei-nos, vos rogamos, que pelo seu exemplo e intercessão possamos proceder e ensinar de tal modo que consigamos alcançar os prémios eternos.
+$Per Dominum
+
+[Lectio]
+@Commune/C2:Lectio
+
+[Graduale]
+!Sl 36:30-31
+A boca do justo falará com sabedoria e a sua língua proclamará a justiça!
+V. A lei do seu Deus está no seu coração e os seus pés não tropeçarão. Aleluia, aleluia.
+!Tg 1:12
+Bem-aventurado o varão que sofre a tentação, porque, depois de ser provado, receberá a coroa da vida. Aleluia.
+
+[Evangelium]
+@Sancti/01-31:Evangelium
+
+[Offertorium]
+!Sl 9:17
+O Senhor ouviu o desejo dos pobres; os seus ouvidos escutaram a pureza do seu coração.
+
+[Secreta]
+Cumulamos, Senhor, os vossos altares com dons e oblatas, a fim de que nos alcancem misericórdia pelas orações daquele que nos proporcionastes para nos auxiliar com seu patrocínio.
+$Per Dominum
+
+[Communio]
+!Mc 10:14
+Deixai aproximarem-se de mim as criancinhas e as não afasteis, pois delas é o reino de Deus.
+
+[Postcommunio]
+Santificados, Senhor, com estes salutares mystérios, Vos rogamos que pela intercessão de S. José, vosso Confessor, permitais que aumentemos sempre cada vez mais a nossa piedade.
+$Per Dominum

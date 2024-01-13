@@ -1,0 +1,27 @@
+[Rank]
+XIV Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Symbolum Athanasium
+
+[Oratio]
+Strzeż, prosimy Cię Panie, Kościół swój nieustanną opieką swoją, a że śmiertelna natura ludzka bez Ciebie ostać się nie może, niech Twoja ciągła pomoc od złych rzeczy nas chroni, a do zbawiennych prowadzi.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Mateusza
+!Mt 6:24-33
+Onego czasu: Rzekł Jezus uczniom swoim: „Nikt nie może dwom panom służyć”. I tak dalej.
+_
+Homilia świętego Augustyna, Biskupa
+!Księga 2. o Kazaniu Pana na górze, rozdz. 14.
+Nikt nie może dwom panom służyć. Zdanie to należy odnieść do tej samej intencji, z jaką się coś czyni, a którą Pan nasz wykłada dalej, mówiąc: Bo albo jednego będzie nienawidził, a drugiego będzie miłował: albo przy jednym stać będzie, a drugim wzgardzi. Słowa te należy starannie rozważyć, bo Jezus pokazuje, kim są ci dwaj panowie, gdy mówi w następnym wersecie: Nie możecie Bogu służyć i mamonie. Hebrajczycy podobno nazywają bogactwa „mamoną”. Odpowiada temu i nazwa fenicka, ponieważ u Fenicjan zysk nazywa się „mamoną”.
+
+[Ant 2]
+Nie troszczcie się tedy, * mówiąc: Cóż będziemy jeść albo co będziemy pić? albowiem Ojciec wasz, wie co jest wam potrzebne, alleluja.
+
+[Ant 3]
+Szukajcież naprzód * królestwa Bożego i sprawiedliwości jego, a to wszystko będzie wam przydane. alleluja.

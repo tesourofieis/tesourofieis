@@ -1,0 +1,100 @@
+[Rank]
+Dominica Pentecostes;;Duplex I Classis cum Octava privilegiata I ordinis;;7
+
+[Rule]
+Gloria
+Sequentia
+Credo
+Prefatio=Spiritu=today;
+
+[Comment]
+# Domingo de Pentecostes
+! Estação em São Pedro
+! 1 classe com oitava
+! Paramentos vermelhos
+
+[Introitus]
+!Sb 1:7.
+v. O Espírito do Senhor encheu todo o universo, aleluia. Ele, que abrange todas as coisas, sabe tudo quanto se diz: aleluia, aleluia.
+!Sl. 67:2
+Erga-se Deus e sejam dispersos os seus inimigos: fujam da sua presença os seus inimigos!
+&Gloria
+v. O Espírito do Senhor encheu todo o universo, aleluia. Ele, que abrange todas as coisas, sabe tudo quanto se diz: aleluia, aleluia.
+
+[Oratio]
+Ó Deus, que neste dia instruístes os corações dos fiéis, infundindo-lhes os dons do Espírito Santo, concedei-nos pelo mesmo Espírito a graça de amarmos o que é recto e de gozarmos incessantemente as suas consolações.
+$Per Dominum eiusdem
+
+[Lectio]
+Lição dos Actos dos Apóstolos.
+!Act 2:1-11.
+Quando chegou o dia de Pentecostes, os discípulos estavam todos reunidos no mesmo lugar. De repente, ouviu-se um ruído, vindo do céu, semelhante a um vento impetuoso, que encheu toda a casa onde estavam reunidos. Então, apareceram-lhes línguas de fogo, que se dividiram umas das outras e pousaram sobre cada um deles, ficando ao mesmo tempo cheios de Espírito Santo e começando a falar várias línguas, corno o Espírito Santo lhes concedia que falassem. Estavam, então, em Jerusalém, judeus e homens religiosos de todas as nações, que existem na terra. Logo que este ruído foi ouvido correram muitas pessoas em multidão ao lugar e ficaram admiradas, porque cada uma ouvia os discípulos falar na sua própria língua. E as pessoas estavam de tal modo fora de si e maravilhadas que diziam: «Porventura estes, que nos falam, não são galileus? Como é, pois, que os ouvimos falar, a cada um de nós, na língua do nosso país natal? Partos, Medos, Elamitas, habitantes da Mesopotâmia, da Judeia, da Capadócia, do Ponto e da Ásia, da Frígia e da Panfília, do Egipto, dos confins da Líbia, vizinha da Cirene, até os romanos de passagem e também os judeus e os prosélitos, os de Creta e da Arábia ouvimos os Apóstolos, nas nossas próprias línguas, encarecer as grandezas de Deus».
+
+[Graduale]
+Aleluia, aleluia.
+!Sl. 103:30
+V. Enviai o vosso Espírito, e uma nova criação se operará: e renovareis a face da terra. Aleluia. (Genuflecte-se)
+V. Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.
+
+[Sequentia]
+Vinde, ó Espírito Santo,
+e enviai do céu um raio
+da vossa divina luz.
+_
+Vinde, ó pai dos pobres;
+vinde, distribuidor de todos os dons;
+vinde, luz dos corações.
+_
+Consolador supremo,
+doce hóspede da alma,
+suave refrigério!
+_
+No trabalho sois repouso;
+sois calma no ardor;
+e consolação no pranto.
+_
+Ó luz felicíssima,
+enchei até ao íntimo os corações
+dos vossos fiéis.
+_
+Sem a vossa assistência
+nada há bom no homem,
+nada há que seja puro.
+_
+Lavai, pois, o que está manchado;
+regai o que está seco;
+curai o que está enfermo.
+_
+Abrandai o que é duro;
+aquecei o que está frio;
+guiai o que anda errado.
+_
+Concedei aos fiéis,
+que em Vós confiam,
+os sete dons sagrados.
+_
+Dai-lhes o mérito da virtude;
+dai-lhes um fim feliz;
+dai-lhes o gozo eterno.
+Amen. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. João.
+! Jo 14:23-31.
+Naquele tempo, disse Jesus aos discípulos: «Se alguém me ama, guardará a minha doutrina; e meu Pai o amará. E viremos a ele e nele faremos nossa morada. Quem me não ama, não guarda os meus ensinos». A doutrina que ouvis não é minha, mas daquele que me enviou, isto é, do Pai. Disse-vos todas estas coisas, enquanto estive convosco. Porém o Paráclito o Espírito Santo que o Pai vos enviará em meu nome, ensinar-vos-á todas as coisas e vos inspirará tudo o que vos ensinei. Deixo-vos a paz; dou-vos a minha paz; mas a paz que vos dou não é como a que o mundo dá. Que o vosso coração não se perturbe, nem se intimide. Ouvistes o que disse: «Eu vou, mas depois volto». Se me amais regozijar-vos-eis por Eu ir ao Pai, pois o Pai é maior do que Eu. Digo-vos estas coisas, antes de acontecerem, para que, quando acontecerem, acrediteis nelas. Já não falarei mais convosco, pois eis que vem o príncipe deste mundo. Ele não tem poder em mim, mas é para que o mundo conheça que amo o Pai e que procedo conforme o que o Pai me mandou.
+
+[Offertorium]
+!Sl 67:2-3
+Confirmai, ó Deus, o que em nós começastes. Lá, no vosso templo, em Jerusalém, os reis oferecer-Vos-ão suas dádivas, aleluia.
+
+[Secreta]
+Santificai, Senhor, Vos suplicamos, os dons que Vos oferecemos, e purificai os nossos corações com a luz do Espírito Santo.
+$Per Dominum eiusdem
+
+[Communio]
+!Act 2:2; 2:4
+De repente, ouviu-se, vindo do céu, um ruído, semelhante a um vento impetuoso, que encheu a casa onde estavam reunidos, aleluia: e ficaram cheios do Espírito Santo, anunciando as maravilhas de Deus, aleluia.
+
+[Postcommunio]
+Senhor, que a efusão do Espírito Santo purifique os nossos corações e que, penetrando neles, a aspersão do seu orvalho fecunde o íntimo das nossas almas.
+$Per Dominum eiusdem

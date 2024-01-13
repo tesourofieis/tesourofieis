@@ -1,0 +1,27 @@
+[Rank]
+XXIII Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Symbolum Athanasium
+
+[Oratio]
+Przebacz, Panie, prosimy Cię, winy ludu Twego, abyśmy przez miłosierdzie Twoje zostali uwolnieni od więzów grzechu, któremiśmy skrępowani wskutek słabości naszej.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Mateusza
+!Mt 9:18-26
+Onego czasu: Gdy Jezus mówił do rzesz, oto książę pewien przystąpił i pokłonił Mu się, mówiąc: „Panie, córka moja chwilę temu skonała”. I tak dalej.
+_
+Homilia świętego Hieronima, Kapłana
+!Księga 1. Komentarza, do rozdz. 9. Ewangelii wg św. Mateusza
+Ósmy to znak, w którym książę prosi o wskrzeszenie swej córki, nie chcąc być wykluczonym z tajemnicy prawdziwego obrzezania, ale podchodzi kobieta cierpiąca na upływ krwi i to ona jest uzdrawiana jako ósma, aby córka księcia, wyłączona z ósmego miejsca, przeszła na dziewiąte, według tego co jest napisane w psalmach: Etiopia wcześniej wyciągnie swe ręce do Boga i (co pisze święty Paweł): Gdy wszyscy poganie wejdą do Kościoła, wówczas cały Izrael zbawiony będzie.
+
+[Ant 2]
+Bo mówiła sama w sobie: * Bym się tylko dotknęła szaty Jego, będę zdrowa.
+
+[Ant 3]
+A Jezus obróciwszy się, * i ujrzawszy ją rzekł: Ufaj, córko, wiara twoja ciebie uzdrowiła, alleluja.

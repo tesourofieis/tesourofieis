@@ -1,0 +1,169 @@
+[Rank]
+Festum Sanctissimi Corporis Christi cum Octava privilegiata II ordinis;;Duplex I classis;;7
+
+[Rank1960]
+Festum Sanctissimi Corporis Christi;;Duplex I classis;;7
+
+[Rule]
+Gloria
+Credo
+Prefatio=Nat
+(sed rubrica 1960)
+Prefatio=Communis
+Sequentia
+
+[Comment]
+# Santíssimo Corpo de Cristo
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl. 80:17.
+v. O Senhor alimentou-os com a flor da farinha, aleluia: e saciou-os com o mel tirado do rochedo, aleluia, aleluia, aleluia.
+!Sl 80:2
+Exultai de alegria e louvai a Deus, que é o nosso sustentáculo: Aclamai com júbilo Deus de Jacob.
+&Gloria
+v. O Senhor alimentou-os com a flor da farinha, aleluia: e saciou-os com o mel tirado do rochedo, aleluia, aleluia, aleluia.
+
+[Oratio]
+Ó Deus, que neste admirável sacramento nos deixastes o memorial da vossa Paixão, concedei-nos, Vos pedimos, que de tal sorte veneremos os sacratíssimos mystérios do vosso Corpo e Sangue, que sintamos perpetuamente no nosso íntimo o fruto da vossa Redenção.
+$Qui vivis
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+!1 Cor 11:23-29
+Meus irmãos: Foi com o Senhor que aprendi aquilo que vos ensinei: Que o Senhor Jesus, naquela mesma noite em que foi traído, tomou o pão, e, dando graças, partiu-o e disse: «Tomai e comei: isto é o meu corpo, que será entregue por amor de vós. Fazei isto em minha memória». E, de modo semelhante, após a ceia, tomou também o cálice, dizendo: «Este cálice é a nova aliança no meu sangue. Fazei isto todas as vezes que o beberdes, em minha memória; pois todas as vezes que comerdes este pão e que beberdes este cálice, anunciareis a morte do Senhor, até que Ele venha». Assim, todo aquele que comer o pão ou beber o cálice do Senhor indignamente, será réu do Corpo e do Sangue do Senhor. Examine-se, pois, o homem a si mesmo; e, depois, coma deste pão e beba deste cálice; pois o que come e bebe indignamente, come e bebe a sua própria condenação, não distinguindo o Corpo do Senhor.
+
+[Graduale]
+!Sl. 144:15-16.
+Todos os olhos, Senhor, estão voltados para Vós, cheios de esperança: Pois dais a cada um, oportunamente, o seu sustento.
+V. Abris as vossas mãos e saciais todos os viventes com vossas bênçãos. Aleluia, aleluia.
+! Jo 6:56 - 57. 
+V. Minha Carne é verdadeira comida; e o meu Sangue é verdadeira bebida. Aquele, pois, que come a minha carne e bebe o meu sangue permanece em mim e Eu nele.
+
+[Sequentia]
+Louva, ó Sião, louva o teu Salvador!
+Louva com hinos e cânticos
+O teu Principe e Pastor!
+_
+Louva-O tanto quanto possas:
+Nem tu podes louvá-l’O dignamente,
+Pois está acima de todos os louvores.
+_
+O tema dos teus louvores,
+O Pão vivo e vital
+É nos oferecido hoje.
+_
+O qual, na ceia
+Ao grupo dos Doze Irmãos
+Foi dado sem dúvida.
+_
+Que o louvor seja perene, sonoro e melodioso:
+Que seja agradável e belo,
+Como a alegria que transporta as nossas almas!
+_
+Eis o dia solene,
+Que nos recorda a primitiva instituição
+Deste Banquete divino.
+_
+Nesta mesa do novo Rei
+A Páscoa da nova Lei
+Acaba com a páscoa antiga.
+_
+O rito antigo cede o lugar ao novo,
+Como a imagem desaparece diante da realidade,
+E a luz apaga a noite.
+_
+Aquilo que Cristo praticou na Ceia,
+Mandou que fizéssemos,
+Também, em sua memória.
+_
+E nós, instruídos pelo mandato divino,
+Consagrámos o pão
+E o vinho em hóstia de salvação.
+_
+É um dogma de fé para os cristãos
+Que o pão passa para Carne de Cristo
+E o vinho para seu Sangue.
+_
+Aquilo que não compreendeis, nem vedes,
+A fé viva o afirma
+Sem alterar a ordem da natureza.
+_
+Debaixo de diversas espécies,
+Distintas somente por sinais exteriores,
+Ocultam-se sublimes realidades.
+_
+A Carne é alimento, o Sangue bebida;
+Mas Cristo existe inteiro
+Em cada espécie.
+_
+Quem O recebe, nem O parte,
+Nem O corta, nem O divide;
+Porém recebe-O inteiro.
+_
+Quem O receba uma só pessoa, quer O recebam mil,
+Todas recebem o mesmo:
+Recebem-n’O sem O consumirem.
+_
+Recebem-n’O bons e maus;
+Porém com efeitos diferentes:
+Uns encontram vida; outros a morte!
+_
+Para os maus é morte e para os bons é vida.
+Vede que diferentes são
+Os efeitos que produz o mesmo alimento!
+_
+Que a vossa fé não vacile quando a hóstia é dividida;
+Mas lembrai-vos de que Jesus
+Tanto está no fragmento,
+Como na hóstia inteira.
+_
+A substância não é dividida:
+Somente o sinal é que é partido,
+Mas sem diminuição, nem no estado,
+Nem na grandeza do que está sob as espécies.
+_
+Eis o Pão dos Anjos
+Que se fez alimento dos homens viadores,
+Verdadeiro pão dos inocentes,
+Que não deve ser dado aos cães!
+_
+Antigamente foi representado por figuras:
+Imolado com Isaque
+E significado no cordeiro pascal
+E no maná do deserto.
+_
+Ó bom Pastor, ó Pão verdadeiro,
+Ó Jesus, tende piedade de nós:
+Alimentai-nos, defendei-nos do mal
+Permiti que gozemos os verdadeiros
+Bens da terra dos vivos.
+_
+Ó Vós, que tudo conheceis e podeis:
+Ó Vós, que nos alimentais nesta vida mortal,
+Tornai-nos co-herdeiros
+Companheiros dos habitantes
+Da cidade celestial.
+Amen. Alleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. João.
+! Jo 6:56-59.
+Naquele tempo, disse Jesus aos judeus: «Minha Carne é verdadeira comida e o meu Sangue é verdadeira bebida. Quem come a minha Carne e bebe o meu Sangue permanece em mim e Eu nele. Assim como meu Pai, que é fonte de vida e me mandou, e Eu vivo de meu Pai, assim também aquele que me comer viverá de mim. Este é o pão que desceu do céu. Porém não é como o maná, que os vossos pais comeram havendo morrido mais tarde. Quem comer este pão viverá eternamente».
+
+[Offertorium]
+!Lev 21:6
+Os sacerdotes do Senhor oferecem a Deus incenso e pães: eis porque serão santos diante de Deus e não profanarão o seu nome, aleluia.
+
+[Secreta]
+Senhor, Vos imploramos, dignai-Vos conceder à vossa Igreja os dons da unidade e da paz, que misticamente se figuram nas ofertas que Vos apresentamos.
+$Per Dominum
+
+[Communio]
+!1 Cor. 11:26-27.
+Todas as vezes que comerdes este Pão e beberdes este Cálice anunciareis a morte do Senhor, até que Ele venha. Assim, todo aquele que comer este Pão ou beber este Cálice indignamente será réu do Corpo e do Sangue do Senhor. Aleluia.
+
+[Postcommunio]
+Fazei, Senhor, Vos imploramos, que alcancemos eternamente a vossa divindade na glória eterna, que é figurada neste mundo pela recepção temporal do vosso Corpo e Sangue preciosíssimos.
+$Qui vivis

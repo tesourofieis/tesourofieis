@@ -1,0 +1,41 @@
+[Rank]
+S. Joannis Eudes Confessoris;;Duplex;;3;;vide C5
+
+[RankNewcal]
+S. Joannis Eudes Confessoris;;Duplex optional;;2;;vide C5
+
+[Rule]
+Gloria
+
+[Comment]
+# 19 VIII – S. João Eudes, Confessor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+Ó Deus, que, para promover o culto em honra dos Sagrados Corações de Jesus e de Maria, inflamastes com zelo admirável o B. João, vosso Confessor, e por ele Vos dignastes criar novas famílias na vossa Igreja, concedei-nos, Vos pedimos, que sejamos edificados com os exemplos das virtudes daquele cujos piedosos méritos veneramos.
+$Per eundem
+
+[Lectio]
+@Commune/C5:Lectio
+
+[Graduale]
+@Commune/C5:Graduale
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+@Commune/C5:Offertorium
+
+[Secreta]
+@Commune/C5:Secreta
+
+[Communio]
+@Commune/C5:Communio
+
+[Postcommunio]
+@Commune/C5:Postcommunio

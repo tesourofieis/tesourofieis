@@ -1,0 +1,58 @@
+[Rank]
+SS. Apostolorum Petri et Pauli;;Duplex I classis cum octava communi;;7;;ex C1
+
+[Rank1960]
+SS. Apostolorum Petri et Pauli;;Duplex 1 classis;;6;;vide C1
+
+[Rule]
+vide C1;
+Gloria
+Credo
+Prefatio=Apostolis
+
+[Comment]
+# 29 VI – Santíssimos Apóstolos Pedro e Paulo
+! 1 classe
+! Paramentos vermelhos
+
+[Introitus]
+!Act 12:11
+v. Agora reconheço, verdadeiramente, que o Senhor enviou o seu Anjo: e me livrou das mãos de Herodes e daquilo que esperava o povo judaico!
+!Sl 138:1-2
+Experimentastes-me, Senhor, e ficastes-me conhecendo: ficastes conhecendo quando me deito e quando me levanto.
+&Gloria
+v. Agora reconheço, verdadeiramente, que o Senhor enviou o seu Anjo: e me livrou das mãos de Herodes e daquilo que esperava o povo judaico!
+
+[Oratio]
+Ó Deus, que consagrastes este dia com o martírio dos vossos Apóstolos Pedro e Paulo, concedei à vossa Igreja a graça de seguir em tudo as lições daqueles pelos quais a religião teve princípio.
+$Per Dominum
+
+[Lectio]
+Lição dos Actos dos Apóstolos.
+!Act 12:1-11
+Naqueles dias, mandou o rei Herodes que perseguissem alguns membros pertencentes à Igreja. Então, mandou matar à espada Tiago, irmão de João; e, vendo que isto agradava aos judeus, mandou também prender Pedro. Isto aconteceu no dia dos Ázimos. Havendo, pois, Pedro sido preso, mandou-o para o cárcere, encarregando a sua guarda a quatro esquadras de quatro soldados cada uma; e querendo que, depois da Páscoa, comparecesse diante de todo o povo. Enquanto Pedro estava guardado no cárcere, a Igreja dirigia incessantes preces a Deus em seu favor. Ora, durante a noite precedente ao dia que Herodes designara para o suplício, dormia Pedro entre dois soldados, estando ligado com duas correntes e guardando os soldados a porta da prisão. E eis que um Anjo do Senhor apareceu e uma luz brilhou na prisão, o qual, tocando no lado de Pedro, acordou-o, dizendo: «Ergue-te depressa». Logo as cadeias caíram das suas mãos. Então disse-lhe o Anjo: «Toma o teu cinto e calça-te». Ele assim fez. E o Anjo continuou: «Enverga a tua capa e segue-me». Pedro saiu e seguiu-o, não sabendo se aquilo que o Anjo fazia era realidade, mas pensando que era uma visão. Logo que passaram o primeiro e o segundo posto dos guardas, chegaram à porta de ferro que conduz à cidade, a qual se abriu por si diante deles. Tendo-a passado, entraram em uma rua, em cuja extremidade o Anjo deixou Pedro. Então este, voltando a si, disse: «Agora reconheço, verdadeiramente, que o Senhor enviou o seu Anjo e me livrou de Herodes e daquilo que esperava o povo judaico!».
+
+[Graduale]
+!Sl 44:17-18
+Constitui-los-eis príncipes em toda a terra: e perpetuarão, ó Senhor, a recordação do vosso nome.
+Para substituir vossos pais, dar-vos-á filhos: e, assim, os povos Vos louvarão em todos os séculos dos séculos. Aleluia, aleluia.
+!Mt 18:18
+Tu és Pedro e sobre esta pedra edificarei a minha Igreja. Aleluia.
+
+[Evangelium]
+@Commune/C4b:Evangelium
+
+[Offertorium]
+!Sl 44:17-18
+Constitui-los-eis príncipes em toda a terra: e perpetuarão, ó Senhor, a recordação do vosso nome, em todos os séculos dos séculos.
+
+[Secreta]
+Senhor, que a oração dos vossos Apóstolos acompanhe as hóstias que vamos consagrar em honra do vosso nome, e permiti que nos sirvam de expiação das nossas faltas e de nossa defesa.
+$Per Dominum
+
+[Communio]
+@Commune/C4b:Communio
+
+[Postcommunio]
+Dignai-Vos, Senhor, pela intercessão dos vossos Apóstolos, preservar de todas as adversidades aqueles que saciastes com o alimento celestial.
+$Per Dominum

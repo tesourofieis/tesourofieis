@@ -1,0 +1,11 @@
+[Rank]
+S. Remigii Episcopi Confessoris;;Simplex;;1.1;;vide C4
+
+[Rule]
+vide C4;
+Suffragium=Maria3;Papa;Ecclesia;;
+
+[Oratio]
+Da, quǽsumus omnípotens Deus: ut beáti Remígii Confessóris tui atque Pontíficis veneránda solémnitas, et devotiónem nobis áugeat et salútem.
+$Per Dominum
+

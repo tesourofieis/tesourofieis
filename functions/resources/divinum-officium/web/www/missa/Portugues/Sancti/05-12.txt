@@ -1,0 +1,52 @@
+[Rank]
+Ss. Nerei, Achillei et Domitillae Virginis atque Pancratii Martyrum;;Semiduplex;;2;;vide C3
+
+[Rank1570]
+Ss. Nerei, Achillei et Domitillae Virginis atque Pancratii Martyrum;;Simplex;;1.1;;vide C3
+
+[Rule]
+Gloria
+
+[Comment]
+# 12 V – Santos Néreo, Aquiles, Domitila e Pancrácio, Mártires
+! 3 classe
+! Paramentos vermelhos
+
+[Introitus]
+!Sl 32:18-20
+v. Eis que os olhos do Senhor se dirigem aos que o temem, e esperam na sua misericórdia, aleluia: para livrar as suas almas da morte: porque Ele é o nosso socorro e o nosso protector, aleluia, aleluia.
+!Sl 32:1
+Justos, alegrai-vos no Senhor: aos rectos convém que o louvem.
+&Gloria
+v. Eis que os olhos do Senhor se dirigem aos que o temem, e esperam na sua misericórdia, aleluia: para livrar as suas almas da morte: porque Ele é o nosso socorro e o nosso protector, aleluia, aleluia.
+
+[Oratio]
+Fazei, Senhor, Vos suplicamos, que a feliz solenidade dos vossos Mártires Néreo, Aquiles, Domitila e Pancrácio nos reanime e nos torne dignos de Vos servirmos.
+$Per Dominium
+
+[Lectio]
+@Commune/C2p:Lectio
+
+[Graduale]
+Aleluia, aleluia.
+V. Esta é a verdadeira fraternidade que venceu os crimes do mundo; eles seguiram ao Cristo e possuem com glória o reino celeste. Aleluia.
+V. A Vós louva o cândido exército dos Mártires, Senhor. Aleluia.
+
+[Evangelium]
+@Tempora/Pent20-0:Evangelium
+
+[Offertorium]
+!Sl 88:6
+Os céus publicarão, Senhor, as vossas maravilhas e se louvará a vossa verdade na assembleia dos Santos, aleluia, aleluia.
+
+[Secreta]
+Dignai-Vos receber, Senhor, com ânimo agradável a confissão dos vossos Santos Mártires Néreo, Aquiles, Domitila e Pancrácio; e que ela Vos disponha a aceitardes as nossas ofertas e elas nos tornem sempre merecedores da vossa indulgência.
+$Per Dominum
+
+[Communio]
+!Sl 32:1
+Exultai, ó justos, no Senhor, aleluia: aos rectos convém que O louvem.
+
+[Postcommunio]
+Vos pedimos, Senhor, fazei que pelas preces dos vossos Mártires Néreo, Aquiles, Domitila e Pancrácio os sagrados mystérios, que recebemos, Vos tornem cada vez mais propício para connosco.
+$Per Dominum

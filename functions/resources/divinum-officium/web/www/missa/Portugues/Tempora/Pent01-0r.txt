@@ -1,0 +1,72 @@
+[Rank]
+Dominica Sanctissimae Trinitatis;;Duplex I classis;;6.5
+
+[Rule]
+Gloria
+Credo
+Prefatio=Trinitate
+
+[Comment]
+# Domingo da Santíssima Trindade
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Tob 12:6
+v. Bendita seja a Santíssima Trindade e a indivisível Unidade! Nós A louvamos; pois foi misericordiosa para connosco.
+!Sl 8:2
+Senhor, nosso Deus, como o vosso nome é admirável em todo o universo!
+&Gloria
+v. Bendita seja a Santíssima Trindade e a indivisível Unidade! Nós A louvamos; pois foi misericordiosa para connosco.
+
+[Oratio]
+Ó omnipotente e eterno Deus, que quisestes que os vossos fiéis, acreditando e confessando a verdadeira fé, conhecessem a glória da sempiterna Trindade e adorassem a Unidade no poder da sua majestade, permiti, Vos imploramos, que, guardando nós firmemente a mesma fé, vençamos sempre todas as adversidades.
+$Per Dominum
+
+[Commemoratio Oratio]
+! para Domingo
+Ó Deus, força dos que em Vós esperam, ouvi, Vos rogamos, as nossas orações, e, como a fraqueza mortal nada pode sem Vós, concedei auxílio de vossa graça, para ao executar os vossos mandamentos, podermos agradar-Vos pela nossa vontade e acção.
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
+!Rm. 11:33-36.
+Ó abysmo das riquezas, da sabedoria e da ciência de Deus! Como são incompreensíveis os seus juízos e impenetráveis os seus caminhos! Pois quem, porventura, conheceu já os desígnios do Senhor? Quem foi seu conselheiro? Quem foi o primeiro a dar-Lhe alguma coisa, para depois receber recompensa? Pois tudo quanto existe é d’Ele, para Ele e n’Ele. A Ele, pois, seja dada glória em todos os séculos. Amen.
+
+[Graduale]
+!Dn 3:55-56
+Bendito sois, Senhor, que sondais as profundezas dos abysmos e estais assentado sobre os Querubins!
+V. Sim, Senhor, sois bendito no firmamento do céu; e digno de louvor em todos os séculos. Aleluia, aleluia.
+!Dn 3:52
+Bendito sois, Senhor, Deus de nossos pais, e digno de louvor em todos os séculos. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Mateus.
+!Mt 28:18-20
+Naquele tempo, disse Jesus aos discípulos: «Todo o poder me foi dado no céu e na terra. Ide, pois; ensinai todos os povos, baptizando-os em nome do Pai, e do Filho, e do Espírito Santo. Ensinai-os a observar tudo o que vos mandei. E sabei que estou convosco todos os dias até à consumação dos séculos».
+
+[Offertorium]
+!Tb. 12:6.
+Bendito seja Deus Pai, e o Filho Unigénito de Deus, e também o Espírito Santo: pois foi misericordioso para connosco.
+
+[Secreta]
+Dignai-Vos, Senhor, nosso Deus, Vos suplicamos, pela invocação do vosso santo nome, santificar esta hóstia, que Vos oferecemos; e que por ela nos convertamos em dom perpétuo de homenagem à vossa majestade.
+$Per Dominum
+
+[Commemoratio Secreta]
+! para Domingo
+Dignai-Vos aceitar, benigno, as hóstias que Vos oferecemos, Senhor, concedendo-nos por elas, perpétuo socorro.
+$Per Dominum
+
+[Communio]
+!Tb 12:6
+Bendizemos Deus do céu e cantamos os seus louvores diante de todos os viventes: pois foi misericordioso para connosco.
+
+[Postcommunio]
+Que a recepção deste sacramento, assim como a crença, que confessamos, na santa e eterna Trindade e indivisível Unidade, nos sirvam, Senhor, de proveito para a salvação da alma e do corpo.
+$Per Dominum
+
+[Commemoratio Postcommunio]
+! para Domingo
+Cumulados com tão grandes bens, ó Senhor, fazei-nos aproveitar, como Vos pedimos, dos salutares dons e jamais cessarmos o vosso louvor.
+$Per Dominum

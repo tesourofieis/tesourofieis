@@ -1,0 +1,53 @@
+[Nat]
+¡Oh Jesús, que naciste de la Virgen!, 
+gloria sea dada a Ti, en unión 
+con el Padre y el Espíritu Santo, 
+por los siglos sempiternos. 
+Amén.
+
+[Epi]
+¡Oh Jesús, que te mostraste a los gentiles!, 
+gloria sea dada a ti en unión 
+con el Padre y el Espíritu Santo, 
+por los siglos sempiternos. 
+Amén.
+
+[Pasc]
+Gloria sea dada a Dios Padre, 
+y al Hijo, que resucitó 
+de entre los muertos, y al Paráclito, 
+por los siglos de los siglos.
+Amén.
+
+[Asc]
+Gloria a ti, Señor,
+que asciendes por encima de los astros,
+con el Padre y el Espíritu Santo
+por los siglos eternos.
+Amén.
+
+[AscT]
+@:Asc
+
+[Pent]
+Gloria sea dada a Dios Padre, 
+y al Hijo, que resucitó 
+de entre los muertos, y al Paráclito, 
+por los siglos de los siglos.
+Amén.
+
+[Corp]
+¡Oh Jesús, que naciste de la Virgen!, 
+gloria sea dada a Ti, en unión 
+con el Padre y el Espíritu Santo, 
+por los siglos sempiternos. 
+Amén.
+
+[Heart]
+¡Oh Jesús, que derramas la gracia por tu Corazón!, 
+gloria sea dada a Ti, en unión 
+con el Padre y el Espíritu Santo, 
+por los siglos sempiternos. 
+Amén.
+
+

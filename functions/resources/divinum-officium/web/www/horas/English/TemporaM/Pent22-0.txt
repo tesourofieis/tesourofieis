@@ -1,0 +1,14 @@
+[Lectio9]
+@Tempora/Pent22-0:Lectio7:s/They.*//
+
+[Lectio10]
+@Tempora/Pent22-0:Lectio7:s/.* They /They /s s/$/~/
+@Tempora/Pent22-0:Lectio8:s/They .*//s
+
+[Lectio11]
+@Tempora/Pent22-0:Lectio8:s/.* They /They /s s/$/~/
+@Tempora/Pent22-0:Lectio9:s/But if .*//s
+
+[Lectio12]
+@Tempora/Pent22-0:Lectio9:s/.* But if /But if /s
+

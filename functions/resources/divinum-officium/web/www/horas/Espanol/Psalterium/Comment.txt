@@ -1,0 +1,30 @@
+[Source]
+del Salterio del día correspondiente
+del Salterio del Tiempo correspondiente
+del Propio del Tiempo
+del Propio de los Santos
+del Común o de la Fiesta
+Tiempo Ordinario
+Salmos y Antífonas del domingo
+Votiva
+
+[Preces]
+incluido
+omitido
+especial
+
+[Prima_Special]
+festiva
+ferial
+
+[Suffragium]
+omitido
+Tiempo Ordinario
+del Tiempo Pascual
+Tridentino
+
+[Lectio]
+Conmemoración del día
+Conmemoración del domingo
+Conmemoración de los Santos
+Conmemoración de la Vigilia de la Epifanía

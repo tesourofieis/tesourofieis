@@ -1,0 +1,62 @@
+[Rank]
+Die VI infra octavam Paschae;;Semiduplex I class;;6;;ex Pasc0-0
+
+[Rule]
+ex Pasc0-0;
+Credo
+Sequentia
+Suffr=Ecclesiae,Papa;;
+
+[Comment]
+# Sexta-feira Pascal
+! Estação em Santa Maria dos Mártires
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl 77:53
+v. O Senhor conduziu-os cheios de esperança, aleluia: enquanto que aos seus inimigos submergiu-os no mar, aleluia, aleluia, aleluia.
+!Sl 77:1
+v. Atende à minha lei, ó meu povo: escuta as palavras da minha boca.
+&Gloria
+v. O Senhor conduziu-os cheios de esperança, aleluia: enquanto que aos seus inimigos submergiu-os no mar, aleluia, aleluia, aleluia.
+
+[Oratio]
+Deus omnipotente e eterno, que por meio do sacramento pascal estabelecestes uma aliança de reconciliação com a humanidade, concedei às nossas almas a graça de imitarem em suas acções o que confessam durante esta festa.
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Pedro.
+!1 Pe 3:18-22
+v. Caríssimos: Cristo morreu uma só vez pelos nossos pecados: Ele, o justo, pelos injustos, a fim de nos oferecer a Deus, depois de haver sido morto na carne, mas voltou à vida pelo Espírito, Foi também com este espírito que pregou aos espíritos, que estavam na prisão, e que outrora haviam sido incrédulos, quando nos dias de Noé esperavam a paciência de Deus, enquanto se construía a arca, na qual poucas pessoas, isto é, somente oito, foram salvas das águas. Isto era a figura do Baptismo, pelo qual deveis ser salvos. Este Baptismo não consiste na purificação das manchas da carne, mas na promessa que fazeis quando vos perguntam se quereis guardar em Deus a vossa consciência pura a qual salvação vos é dada pela ressurreição de nosso Senhor Jesus Cristo, que está à dextra de Deus.
+
+[Graduale]
+Aleluia, aleluia
+!Sl 117:24; 117:26-27
+v.  Eis o dia que o Senhor fez: exultemos e alegremo-nos nele. Bendito seja Aquele que vem em nome do Senhor: o Senhor e Deus fez resplandecer sobre nós a sua luz. Aleluia, aleluia.
+!Sl 95:10
+v. Dizei aos povos: o Senhor reinou pelo madeiro.
+
+[Sequentia]
+@Tempora/Pasc0-0:Sequentia
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Mateus
+!Mt 28:16-20
+v. Naquele tempo, partiram os Onze discípulos para a Galileia, dirigindo-se ao monte onde o Senhor os havia mandado ir. E, vendo eles Jesus, logo O adoraram; ficando, contudo, alguns deles na dúvida. Entretanto, Jesus foi-se aproximando e falou-lhes, dizendo: «Todo o poder me foi dado no céu e na terra. Ide, pois, ensinai todos os povos e baptizai-os em nome do Pai, e do Filho, e do Espírito Santo, ensinando-os a observar tudo o que vos ordenei. Eu permanecerei convosco todos os dias até à consumação dos séculos».
+
+[Offertorium]
+!Ex 12:14
+v. Este dia ficar-vos-á memorável, aleluia: celebrá-lo-eis de geração em geração com uma festa solene em honra do Senhor: e ficará uma instituição perpétua, aleluia, aleluia, aleluia.
+
+[Secreta]
+Vos suplicamos, Senhor, recebei benigno as hóstias, que Vos oferecemos; e que elas sirvam de expiação dos pecados dos recém-nascidos e para alcançarmos o socorro celestial.
+$Per Dominum
+
+[Communio]
+!Mt 28:18-19
+v. Todo o poder me foi dado no céu e na terra, aleluia: ide, pois, ensinai todos os povos e baptizai-os em nome do Pai, e do Filho, e do Espírito Santo, aleluia, aleluia.
+
+[Postcommunio]
+Olhai para o vosso povo, Senhor; e, assim como Vos dignastes renová-lo com os mystérios eternos, assim também Vos digneis absolvê-lo das ofensas cometidas neste mundo.
+$Per Dominum

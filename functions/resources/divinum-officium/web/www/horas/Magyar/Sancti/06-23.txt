@@ -1,0 +1,21 @@
+[Rank]
+In Vigilia S. Johannis Baptistae;;Simplex;;1
+
+[Rank1960]
+In Vigilia S. Johannis Baptistae;;Duplex II classis;;5
+
+[Rule]
+Responsory Feria
+Preces feriales
+Versum Feria
+no Te Deum
+Laudes 2 
+
+[Lectio1]
+Evangélium szent Lukács Evangélista kőnyvéből
+!Luke 1:5-17
+Heródesnek, Júdea királyának korában élt egy Abia osztályából való Zakariás nevű pap. Felesége Áron leányai közé tartozott, s Erzsébetnek hívták. E's i'gy tovabb
+_
+Homily by St Ambrose, Bishop of Milan.
+!Bk. i. on Luke.
+The Divine Scriptures teach us that we are behoven to praise the lives, not only of those concerning whom we are to speak honourably, but the lives also of their fathers, so as to show that that which we will praise in our subjects was in them a gift inherited from the bright purity of the source from which they came. What other meaning can the holy Evangelist have had in this place but to glorify St John the Baptist, as well for having been the offspring of such parents, as for his miracles, his life, his gifts, and his sufferings So likewise is praise ascribed to Hannah, the mother of Samuel so also did Isaac draw from his parents that noble godliness which he in his turn bequeathed to his children. Thus it is told not only that Zacharias was a Priest, but a Priest of the course of Abia, that is to say, of a family noble among the noblest.

@@ -1,0 +1,54 @@
+[Rank]
+S. Athanasii Confessoris Ecclesiae Doctoris;;Duplex;;3;;vide C4a
+
+[Rule]
+Gloria
+CredoDA
+
+[Name]
+Athanase
+
+[Comment]
+# 02 V – São Atanásio, Bispo, Confessor e Doutor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+@Commune/C4a:Introitus
+
+[Oratio]
+Atendei, como Vos pedimos, Senhor, as orações que Vos dirigimos na solenidade de Santo Atanásio, vosso Confessor e Pontífice; e, pelos méritos e intercessão deste vosso fiel servo, concedei-nos o perdão de todos os nossos pecados.
+$Per Dominum.
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+!2 Cor 4:5-14
+Meus irmãos: Não nos pregamos a nós próprios, mas a Jesus Cristo, nosso Senhor. Consideramo-nos como vossos servos por Jesus, pois o mesmo Deus, que fez sair a luz das trevas, fez também brilhar a sua luz nos nossos corações, a fim de que pudéssemos iluminar os outros com o conhecimento da glória de Deus, que resplandece na face de Jesus Cristo. Porém, possuímos este tesouro em vasos de barro, para que a sublimidade deste trabalho seja atribuída a Deus e não a nós. Sofremos tribulações em todas as coisas, mas não desanimamos; encontramo-nos em grandes apuros, mas não sucumbimos; somos perseguidos, mas não desesperamos; somos esmagados, mas não perecemos. Trazemos sempre no nosso corpo a morte de Jesus, a fim de que a vida de Jesus se manifeste também na nossa carne mortal; porque nós, que vivemos, somos incessantemente entregues à morte por causa de Jesus, a fim de que a vida de Jesus seja manifestada em nós. Desta maneira a morte opera em nós, e a vida em vós. Mas, visto que temos um mesmo espírito de fé, conforme o que está escrito: «acreditei e por isso falei», nós também acreditamos, por isso mesmo é que falamos, convencidos de que Aquele que ressuscitou Jesus nos ressuscitará também com Jesus e nos colocará convosco.
+
+[Graduale]
+Aleluia, aleluia.
+!Sl 109:4
+V. Tu és sacerdote para sempre, segundo a ordem de Melquisedeque! Aleluia.
+!Tg 1:12
+Bem-aventurado o varão que sofre tentação; pois, quando acabar a tentação, receberá a coroa da vida. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Mateus.
+!Mt 10:23-28
+Encontrei o meu servo David e ungi-o com meu óleo sagrado: e a minha mão o auxiliará e o meu braço o fortalecerá, aleluia.
+
+[Offertorium]
+!Sl 88:21-22
+Achei David meu servo a quem ungi com o meu óleo santo, porque a minha mão o auxiliará e o meu braço o confortará, aleluia.
+
+[Secreta]
+A solenidade anual de S. Atanásio, vosso Confessor e Pontífice, nos faça, ó Senhor, agradáveis à vossa bondade, para que este sacrifício expiatório aumente a glória do vosso servo e nos grangeie os dons de vossa graça.
+$Per Dominum
+
+[Communio]
+!Mt 10:27
+Aquilo que vos digo ao ouvido pregai-o sobre os tectos, aleluia.
+
+[Postcommunio]
+Deus remunerador das almas fiéis, concedei-nos, pelas orações do bem-aventurado Atanásio vosso Confessor e Pontífice, cuja festa solenemente celebramos, o perdão de nossas culpas.
+$Per Dominum

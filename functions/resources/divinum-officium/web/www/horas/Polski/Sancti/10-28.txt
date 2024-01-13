@@ -1,0 +1,34 @@
+[Rank]
+Śś. Szymona i Judy Apostołów;;Duplex 2 classis;;5.1;;ex C1
+
+[Rank1960]
+Śś. Szymona i Judy Apostołów;;Duplex 2 classis;;5;;ex C1
+
+[Rule]
+ex C1;
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+
+[Oratio]
+Boże, któryś nam przez błogosławionych Apostołów Twoich, Szymona i Judę do poznania Twego Imienia dojść pozwolił, daj nam, abyśmy postępując w cnocie, cześć im oddawali, a czcząc ich, w cnocie postępowali.
+$Per Dominum
+
+[Lectio4]
+Szymon Chananeus, którego Zelotes zowią i Tadeusz co i Judas pisano, który List jeden katolicki pisał Apostołowie Pańscy. Jeden z nich to jest Szymon Egipt, a drugi to Judas Mezopotamię z kazaniem Ewangeliej przebieżeli, a potym się społem oba zeszli w Perskiej ziemi gdzie niezliczonych dzieci Jezusowi Chrystusowi narodzili i wiarę w dalekich i wielkich a dzikich owych narodach rozsiali. Nauką i cudami i sławną śmiercią męczeńską przenajświętsze imię Chrystusowe objaśnili.
+
+[Lectio7]
+Czytanie Ewangelii świętej według Jana
+!J 15:17-25
+Onego czasu: Rzekł Jezus uczniom swoim: „To wam przykazuję, abyście się wzajemnie miłowali. Jeśli was świat nienawidzi, wiedzcie, że Mnie znienawidził pierwej niż was”. I tak dalej.
+_
+Homilia świętego Augustyna, Biskupa
+!Traktat 87. na Ewangelię wg św. Jana
+W czytaniu Ewangelii, które poprzedziło dzisiejsze, Pan powiedział: Nie wyście Mnie wybrali, alem Ja was wybrał i ustanowiłem was, abyście poszli i owoc przynieśli, i żeby owoc wasz trwał; aby Ojciec dał wam, o cokolwiek prosić Go będziecie w imię moje. Tutaj zaś mówi: To wam przykazuję, abyście się wzajemnie miłowali. Stąd winniśmy pojmować, iż to jest nasz owoc, o którym mówił: Ja was wybrałem, abyście poszli i owoc przynieśli, i żeby owoc wasz trwał. A słowa, które dołączył: Aby Ojciec dał wam, o cokolwiek prosić Go będziecie w imię moje, oznaczają, że tylko wtedy nam tego udzieli, jeśli będziemy się wzajemnie miłować. Bo okazał nam miłość Ten sam, który nas wybrał, gdy nie przynosiliśmy owocu (wszak nie myśmy Go wybrali), i ustanowił nas, abyśmy szli i owoc przynosili, czyli się wzajemnie miłowali.
+
+[Lectio8]
+Miłość więc jest naszym owocem, którą określa Apostoł, że jest z czystego serca i z dobrego sumienia, a z wiary nieobłudnej. Tą miłością miłujemy się wzajemnie, tą miłujemy Boga. Nie miłowalibyśmy się bowiem prawdziwą miłością, gdybyśmy nie kochali Boga. Miłuje bowiem każdy bliźniego swego, jako siebie samego, jeśli miłuje Boga; jeśli zaś nie miłuje Boga, nie miłuje siebie. Albowiem na tych dwóch przykazaniach miłości całe Prawo zawisło i Prorocy. To jest naszym owocem. Polecając więc nam zyskanie tego owocu, mówi: To wam przykazuję, abyście się wzajemnie miłowali. Toteż i Apostoł Paweł, chcąc przeciw uczynkom ciała zalecać owoc ducha, na początku to postawił: Owocem ducha jest miłość, a następnie, jakby z tego początku powstałe i z nim złączone, wymienił: wesele, pokój, wspaniałomyślność, uprzejmość, dobroć, wierność, łagodność, wstrzemięźliwość, czystość.
+
+[Lectio9]
+Czy zaś dobrze się raduje ten, kto nie miłuje dobra, które by mu radość sprawiało? Kto może mieć prawdziwy pokój, jeśli nie z tym, którego prawdziwie miłuje? Kto jest wspaniałomyślny, pozostając wytrwale w dobrym, jeśli żarliwie nie miłuje? Kto jest uprzejmy, jeśli nie kocha tego, kogo wspiera? Kto jest dobry, jeśli miłość tego nie sprawi? Kto zbawiennie wierzy, jeśli go nie pobudza wiara przez miłość czynna? Kto z pożytkiem jest łagodny, jeśli miłość nim nie kieruje? Kto od tego się powstrzyma, co by go skalało, jeśli nie kocha tego, co by mu cześć przyniosło? Słusznie tedy dobry Nauczyciel tak często miłość zaleca, jakby tylko ją należało przykazywać, bo bez niej nie mogą przynieść pożytku inne dobre czyny i mieć jej nie można bez innych dobrych czynności, które człowieka czynią dobrym.
+&teDeum

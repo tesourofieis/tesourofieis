@@ -1,0 +1,64 @@
+[Rank]
+Die III infra octavam Pentecostes;;Duplex I classis;;7;;ex Pasc7-0
+
+[RankNewcal]
+Feria III post Pentecostes;;Feria;;1;;
+
+[Rule]
+Gloria
+Sequentia
+Credo
+Prefatio=Spiritu
+
+[Comment]
+# Terça-feira de Pentecostes
+! Estação em Santa Anastácia
+! 1 classe
+! Paramentos vermelhos
+
+[Introitus]
+!Esd 2:36-37
+v. Recebei com alegria as delícias da vossa glória, aleluia: dai graças a Deus, aleluia: que vos chamou aos reinos celestiais, aleluia, aleluia.
+!Sl 77:1
+Escutai a minha lei, ó meu povo: escutai as palavras que saem da minha boca.
+&Gloria
+v. Recebei com alegria as delícias da vossa glória, aleluia: dai graças a Deus, aleluia: que vos chamou aos reinos celestiais, aleluia, aleluia.
+
+[Oratio]
+Senhor, Vos suplicamos, fazei que a virtude do Espírito Santo nos assista; e que pela sua clemência purifique os nossos corações e nos defenda de todas as adversidades.
+$Per Dominum eiusdem
+
+[Lectio]
+Lição dos Actos dos Apóstolos.
+!Act 8:14-17.
+Naqueles dias, quando os Apóstolos estavam em Jerusalém, souberam que a Samaria recebera a palavra de Deus; e por isso enviaram para lá Pedro e João, os quais, logo que chegaram, oraram por eles, para que recebessem o Espírito Santo, que não havia ainda descido sobre nenhum deles, pois somente haviam sido baptizados no nome do Senhor Jesus. Então impuseram-lhes as mãos, recebendo o Espírito Santo.
+
+[Graduale]
+Aleluia, aleluia. 
+!Jo 14:26
+O Espírito Santo vos inspirará tudo o que vos tenho ensinado, aleluia. (Genuflecte-se)
+V. Vinde, Espírito Santo, enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.
+
+[Sequentia]
+@Tempora/Pasc7-0:Sequentia
+
+[Evangelium]
+Continuação ++ do Santo Evangelho segundo S. João.
+! Jo 10:1-10.
+Naquele tempo, disse Jesus aos fariseus: «Em verdade, em verdade vos digo: aquele que não entra pela porta no estábulo das ovelhas, mas entra por outro lugar, é ladrão e salteador. O pastor das ovelhas entra pela porta. A este abre o porteiro a porta e as ovelhas ouvem a sua voz. Ele chama as ovelhas pelos seus próprios nomes e fá-las sair. E, quando sai com elas, vai adiante e elas seguem-no, pois conhecem a sua voz. Mas não acompanharão um estranho; antes fugirão dele, porque não conhecem a voz dos estranhos». Jesus disse-lhes esta parábola, mas eles não compreenderam o seu sentido. E Jesus disse-lhes novamente: «Em verdade, em verdade vos digo: Eu sou a porta das ovelhas. Todos quantos vieram são ladrões e salteadores, por isso as minhas ovelhas os não ouviram. Eu sou a porta. Se alguém entrar por mim, será salvo: entrará e sairá e encontrará alimento. O ladrão não vem senão para devorar, roubar e destruir. Eu, porém, venho para que minhas ovelhas possuam a vida, e a possuam com abundância».
+
+[Offertorium]
+!Sl 77:23-25
+O Senhor abriu as portas do céu: fez chover maná, para que o comessem: e deu-lhes o pão do céu. O homem comeu o pão dos Anjos, aleluia.
+
+[Secreta]
+Senhor, Vos suplicamos, fazei que a oferta deste sacrifício nos purifique e nos torne dignos de participarmos deste mystério sagrado.
+$Per Dominum eiusdem
+
+[Communio]
+! Jo 15:26; 16:14; 17:1-5.
+O Espírito, que procede do Pai, aleluia, glorificar-me-á, aleluia, aleluia.
+
+[Postcommunio]
+Senhor, Vos suplicamos, permiti que o Espírito Santo restaure com estes divinos sacramentos as nossas almas, pois Ele é a remissão de todos os pecados.
+$Per Dominum eiusdem

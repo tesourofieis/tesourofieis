@@ -1,0 +1,45 @@
+[Rank]
+Ss. Martyrum Machabaeorum;;Simplex;;1.1;;vide C3
+
+[Rule]
+vide C3;
+
+[Comment]
+# 1 VIII – S.S. Macabeus, Mártires
+! Comemoração
+! Paramentos vermelhos
+
+[Introitus]
+@Sancti/03-10:Introitus
+
+[Oratio]
+Fazei, Senhor, que a vitória destes irmãos Mártires nos alegre, proporcionando à nossa fé aumento de vigor; e que nos sirva de consolação pela sua múltipla intercessão.
+$Per Dominum
+
+[Lectio]
+@Sancti/01-20:Lectio
+
+[Graduale]
+!Sl 132:1-2
+Oh! como é bom e suave que os irmãos habitem juntos!
+V. É como o perfume suave espalhado na cabeça de Aarão, e que corre pela barba: pela barba de Aarão. Aleluia, aleluia.
+V. Esta é a verdadeira fraternidade que venceu os crimes do mundo: ela seguiu Cristo e por isso possuirá gloriosamente o reino do céu. Aleluia.
+
+[Evangelium]
+@Commune/C3b:Evangelium
+
+[Offertorium]
+!Sl 149:5-6
+Os santos na glória exultarão de prazer, e nos seus aposentos terão a maior alegria. Os louvores com que exaltam a Deus, estarão sempre em seus lábios, aleluia.
+
+[Secreta]
+Que nós possamos, Senhor, celebrar com devoção os vossos sagrados mystérios em honra dos vossos Mártires, a fim de que sintamos aumentar o vosso auxílio e a nossa alegria.
+$Per Dominum
+
+[Communio]
+!Lc 12:4
+Digo-vos, pois, a vós meus amigos: não tenhais medo daqueles que vos perseguem.
+
+[Postcommunio]
+Concedei-nos, ó Deus omnipotente, que imitemos em nossos progressos na fé aquele cuja memória honrámos, participando deste sacramento.
+$Per Dominum

@@ -1,0 +1,202 @@
+[Rank]
+Septem Dolorum Beatae Máriae Virgine;;Duplex majus;;4
+
+[Rank1960]
+Septem Dolorum Beatae Máriae Virgine;;Commemoratio;;1
+
+[Rule]
+Psalmi Dominica
+Antiphonas horas
+9 lectiones
+Gloria responsory
+
+[Capitulum Vespera]
+!Isa 53:1-2
+v. Ki hitt abban, amit hallottunk, és az Úr karja ki előtt nyilvánult meg? Úgy nőtt fel előttünk, mint a hajtás, és mint a gyökér a szomjas földből. Nem volt sem szép, sem ékes [hiszen láttuk], a külsejére nézve nem volt vonzó.
+$Deo gratias
+
+[Hymnus Vespera]
+Áll a fájdalomnak anyja,
+Kín az arcát könnybe vonja,
+Úgy siratja szent Fiát.
+_
+Gyász a lelkét meggyötörte,
+Kín és bánat összetörte,
+Tőrnek éle járta át.
+_
+Ó mi nagy volt ama drága
+Szűzanya szomorúsága,
+Egyszülött szent magzatán!
+_
+Mennyit sírt és hogy kesergett,
+Látván azt a nagy keservet,
+Azt a nagy kínt szent Fián.
+_
+Ki ne sírna, melyik ember,
+hogyha ennyi gyötrelemben
+Látja lankadozni őt?
+_
+Ki nem sírna Máriával,
+Hogyha látja szent Fiával
+Szenvedni a szent Szülőt!
+_
+Népét hogy megmossa szennytől,
+Látta tenger gyötrelemtől
+Roskadozni Jézusát.
+_
+Látta édes egy szülöttét,
+Halálos nagy elepedtét,
+Látta, hogy halálra vált.
+_
+Szeretetnek szent kútfője,
+Add, a fájdalomnak tőre
+Járjon át a lelkemen.
+_
+Hogy szívemben lángra kelne
+Krisztusomnak szent szerelme.
+Segíts neki tetszenem.
+Ámen.
+
+[Commemoratio 1]
+!commemoratio Ferić Quintae
+Ant. With desire I have desired * to eat this Passover with you before I suffer.
+_
+V. Deliver me, O Lord, from the evil man.
+R. Preserve me from the wicked man.
+_
+!Könyörgés
+O Lord, we beseech thee deal mercifully with thy people, and fill plentifully with the rich things of thy commandments all them who at this time do, to fulfil thy will, turn away from that which displeaseth thee.
+$Per Dominum
+
+[Hymnus Matutinum]
+Esdek, hogy szívembe véssed,
+Szűzanyám, nagy szenvedésed
+S az Átvertnek sebeit,
+_
+Gyermekednek, a sebzettnek,
+Ki miattam szenvedett meg,
+Osszam meg gyötrelmeit.
+_
+Add meg, kérlek, hogy mig élek,
+Együtt sírjak mindig véled
+S azzal, ki a fán eped.
+_
+A keresztnél veled állni,
+Gyászban veled eggyé válni:
+Erre űz a szeretet.
+Ámen.
+
+[Lectio1]
+Olvasmány Izaiás próféta könyvéből
+!Isa 53:1-5
+1 Ki hitt abban, amit hallottunk, és az Úr karja ki előtt nyilvánult meg?
+2 Úgy nőtt fel előttünk, mint a hajtás, és mint a gyökér a szomjas földből. Nem volt sem szép, sem ékes [hiszen láttuk], a külsejére nézve nem volt vonzó.
+3 Megvetett volt, utolsó az emberek között, a fájdalmak férfia, aki tudta, mi a szenvedés; olyan, aki elől iszonyattal eltakarjuk arcunkat, megvetett, akit bizony nem becsültünk sokra.
+4 Bár a mi betegségeinket viselte, és a mi fájdalmaink nehezedtek rá, mégis (Istentől) megvertnek néztük, olyannak, akire lesújtott az Isten, és akit megalázott.
+5 Igen, a mi bűneinkért szúrták át, a mi gonoszságainkért törték össze; a mi békességünkért érte utol a büntetés, az ő sebei szereztek nekünk gyógyulást.
+
+[Lectio2]
+!Isa 53:6-9
+6 Mi mindnyájan, mint a juhok, tévelyegtünk, ki-ki a maga útjára tért, és az Úr mégis az ő vállára rakta mindnyájunk gonoszságát.
+7 Megkínozták, s ő alázattal elviselte, nem nyitotta ki a száját. Mint a juh, amelyet leölni visznek, vagy amint a bárány elnémul nyírója előtt, ő sem nyitotta ki a száját.
+8 Erőszakos ítélettel végeztek vele. Ugyan ki törődik egyáltalán ügyével? Igen, kitépték az élők földjéből, és bűneink miatt halállal sújtották.
+9 A gonoszok közt adtak neki sírboltot, és a gazdagok mellé temették el, bár nem vitt végbe gonoszságot, sem álnokság nem volt a szájában.
+
+[Lectio3]
+!Isa 53:10-12
+10 Úgy tetszett az Úrnak, hogy összetöri a szenvedéssel. Ha odaadja életét engesztelő áldozatul: látni fogja utódait, hosszúra nyúlik élete, és teljesül általa az Úr akarata.
+11 "Majd ha véget ér lelkének gyötrelme, látni fogja a világosságot, és megelégedés tölti el. Szenvedésével sokakat megigazultakká tesz szolgám, mivel gonoszságaikat magára vállalta.
+12 Ezért osztályrészül sokakat adok neki, és a hatalmasok lesznek a zsákmánya, amiért életét halálra adta, és a gonosztevők közé sorolták, noha sokak vétkeit hordozta, és közben imádkozott a bűnösökért."
+
+[Lectio7]
+Evangélium szent János Apostol kőnyvéből
+!John 19:25-27.
+Azon időben Jézus keresztje alatt ott állt anyja, anyjának nővére, Mária, aki Kleofás felesége volt és Mária Magdolna. És így tovább.
+_
+Homily by St Austin, Bishop (of Hippo.)
+!11th Tract on John.
+This is that hour whereof Jesus, when He was about to turn water into wine, had said unto His Mother Woman, what have I to do with thee? Mine hour is not yet come. (John ii. 4.) He had spoken of this hour, which then was not yet come, wherein, being about to die, it should be His duty to acknowledge her of whom He had been born in a dying Body. Then, since He was about to work the works of God, He thrust from Him, as though He knew her not, her who was His Mother, not in that nature as touching which He is equal to the Father, but in that as touching~
+which He is inferior to the Father. But now, since He is suffering the pains of Man, He careth, with a Man's love, for her of whom He hath been made Man. And herein He giveth us a lesson. He doth that which He would have us to do. The Good Master, by His Own example, commandeth that among His disciples, dutiful children should succour their parents, as though even that Tree whereupon His dying Limbs were nailed, even that Tree were to be a pulpit for His teaching.
+
+[Lectio9]
+!de Homilia Ferić.
+Evangélium szent János könyvéből
+!John 11:47-54
+Azon időben a főpapok és a farizeusok összehívták a főtanácsot, és megkérdezték: "Mit tegyünk? Ez az ember nagyon sok csodát tesz. És így tovább.
+_
+Homily by St Austin, Bishop (of Hippo.)
+!49th Tract on John.
+The chief Priests and the Pharisees took counsel together, but Let us believe in Him was not one of the suggestions offered. Those lost creatures thought much more how they might hurt and undo Him, than how they might save themselves from perishing. And yet they were afraid, and took counsel together, and said What do we? For this Man doeth many miracles. If we let Him thus alone, all men will believe on Him; and the Romans shall come and take away both our place and our nation. They were afraid of losing temporal things, but they gave no thought to eternal life, and so they lost both.
+&teDeum
+
+[Capitulum Laudes]
+!Isa 53:1-2
+v. Ki hitt abban, amit hallottunk, és az Úr karja ki előtt nyilvánult meg? Úgy nőtt fel előttünk, mint a hajtás, és mint a gyökér a szomjas földből. Nem volt sem szép, sem ékes [hiszen láttuk], a külsejére nézve nem volt vonzó.
+$Deo gratias
+
+[Hymnus Laudes]
+Dicső szűze szent szűzeknek,
+Hadd ízleljem kelyhedet meg:
+Add nekem fájdalmaid:
+_
+Add tisztelnem, add viselnem,
+S nem felednem: holt Szerelmem,
+Krisztusomnak kínjait.
+_
+Sebeivel sebesítsen,
+Szent mámorba részegítsen
+Buzgó vérével Fiad.
+_
+Hogy ne jussak ama tűzbe,
+Védj meg engem, drága Szűz te,
+Ha az ítélet riad.
+_
+Krisztusom, ha jő halálom,
+Anyád szeme rám találjon,
+És elhívjon engemet.
+_
+S hogyha testem porba tér meg,
+Lelkem akkor a nagy égnek
+Dicsőségét lelje meg.
+Ámen.
+
+[Commemoratio 2]
+!Commemoratio Feria Sexta
+Ant. Now the Jews' Feastday was at hand, and the chief Priests sought how they might kill Jesus; but they feared the people.
+_
+V. Deliver me from mine enemies, O my God.
+R. And defend me from them that rise up against me.
+_
+!Könyörgés.
+We beseech thee, O Lord, pour thy grace into our hearts, that all we who of our own will do check our sins with the curb of mortification, may suffer here, and escape condemnation to eternal punishment hereafter.
+$Per Dominum
+
+[Lectio Prima]
+!Isa 53:8
+v. Erőszakos ítélettel végeztek vele. Ugyan ki törődik egyáltalán ügyével? Igen, kitépték az élők földjéből, és bűneink miatt halállal sújtották.
+
+[Capitulum Tertia]
+!Isa 53:1-2
+v. Ki hitt abban, amit hallottunk, és az Úr karja ki előtt nyilvánult meg? Úgy nőtt fel előttünk, mint a hajtás, és mint a gyökér a szomjas földből. Nem volt sem szép, sem ékes [hiszen láttuk], a külsejére nézve nem volt vonzó.
+$Deo gratias
+
+[Capitulum Sexta]
+!Isa 53:5
+v. Igen, a mi bűneinkért szúrták át, a mi gonoszságainkért törték össze; a mi békességünkért érte utol a büntetés, az ő sebei szereztek nekünk gyógyulást.
+$Deo gratias
+
+[Capitulum Nona]
+!Isa 53:8
+v. Erőszakos ítélettel végeztek vele. Ugyan ki törődik egyáltalán ügyével? Igen, kitépték az élők földjéből, és bűneink miatt halállal sújtották.
+$Deo gratias
+
+[Commemoratio 3]
+!Commemoratio Ferić Sextae
+Ant. The chief Priests consulted that they might kill Jesus, but they said Not on the Feast-day, lest there be an uproar among the people.
+_
+V. Deliver me from mine enemies, O my God.
+R. And defend me from them that rise up against me.
+_
+!Könyörgés
+Grant, we beseech thee, O Almighty God, that we who seek the grace of thy protection, being delivered from all evils, may serve thee ever in peace and quietness of spirit.
+$Per Dominum

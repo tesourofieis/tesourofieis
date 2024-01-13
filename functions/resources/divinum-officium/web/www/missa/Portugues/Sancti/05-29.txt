@@ -1,0 +1,42 @@
+[Rank]
+S. Mariae Magdalenae de Pazzis Virginis;;Semiduplex;;2.1;;vide C6
+
+[Rule]
+vide C6;
+Gloria
+
+[Comment]
+# 29 V – S. Maria Madalena de Pazzi, Virgem
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+@Commune/C6:Introitus
+
+[Oratio]
+Ó Deus, que amais a virgindade e ornastes com dons celestiais a B. Maria Madalena, vossa Virgem, cujo coração estava abrasado em amor por Vós, concedei-nos que, honrando-a nós com a celebração desta festa, a imitemos também na sua pureza e caridade.
+$Per Dominum
+
+[Lectio]
+@Commune/C6:Lectio
+
+[Graduale]
+@Commune/C6:Graduale
+
+[GradualeP]
+@Commune/C6:GradualeP
+
+[Evangelium]
+@Commune/C6:Evangelium
+
+[Offertorium]
+@Commune/C6:Offertorium
+
+[Secreta]
+@Commune/C6:Secreta
+
+[Communio]
+@Commune/C6:Communio
+
+[Postcommunio]
+@Commune/C6:Postcommunio

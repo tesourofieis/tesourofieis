@@ -1,0 +1,17 @@
+[Rank]
+Poniedziałek Dni Krzyżowych;;Feria;;1.6
+
+[Rule]
+Una Antiphona
+Laudes Litania
+Doxology=Pasc
+
+[Ant 2]
+Proście, a weźmiecie: * szukajcie, a znajdziecie: kołaczcie, a będzie wam otworzono, alleluja.
+
+[Oratio 2]
+Daj nam, prosimy Cię, wszechmogący Boże, abyśmy w troskach naszych jedynie w Twej dobroci nadzieję pokładając, zawsze Twoją obroną od wszelkich przeciwności zasłonieni byli.
+$Per Dominum.
+
+[Ant 3]
+Ojciec miłuje * was, żeście wy mię umiłowali, i uwierzyliście, alleluja.

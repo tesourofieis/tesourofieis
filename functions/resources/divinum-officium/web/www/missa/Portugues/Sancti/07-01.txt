@@ -1,0 +1,57 @@
+[Rank]
+Pretiosissimi Sanguinis Domini Nostri Jesu Christi;;Duplex I classis;;6;;
+
+[Rule]
+Gloria
+Credo
+Prefatio=Quad5;
+
+[Comment]
+# 01 VII – Preciosíssimo Sangue de nosso Senhor Jesus Cristo
+! 1 classe
+! Paramentos vermelhos
+
+[Introitus]
+!Apoc 5:9-10
+v. Com o vosso Sangue, Senhor, nos resgatastes de todas as tribos, de todas as línguas, de todos os povos e de todas as nações; e fizestes de nós um reino para o nosso Deus.
+!Sl 88:2
+Cantarei eternamente as misericórdias do Senhor; de geração em geração a minha boca publicará a vossa verdade.
+&Gloria
+v. Com o vosso Sangue, Senhor, nos resgatastes de todas as tribos, de todas as línguas, de todos os povos e de todas as nações; e fizestes de nós um reino para o nosso Deus.
+
+[Oratio]
+Ó Deus omnipotente e eterno, que instituístes o vosso Filho Unigénito Redentor do mundo e quisestes ser aplacado com seu Sangue, concedei-nos a graça, Vos suplicamos, de honrarmos com culto solene este preço da nossa salvação e de, pela sua virtude, sermos preservados dos males da vida presente de modo a gozarmos eternamente os seus frutos nos céus.
+$Per eundem
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
+!Heb 9:11-15
+Meus irmãos: Jesus Cristo, vindo como Pontífice dos bens futuros, penetrou em um tabernáculo maior e mais que não foi fabricado por mão humana, isto é, que não teve criação terrena; e, sem recorrer ao sangue dos carneiros ou dos bois, mas pelo seu próprio sangue, entrou uma vez no santuário, tendo alcançado a salvação eterna. Com efeito, se o sangue dos carneiros e dos bois e a aspersão da cinza de vitela santificam aqueles que estão manchados, dando-lhes a pureza legal e exterior, quanto mais o sangue de Cristo (que pelo Espírito Santo se ofereceu a si mesmo a Deus como vítima imaculada) purificará a nossa consciência das obras mortas, para nos tornar capazes de servir Deus vivo! Por isso Ele é o mediador do Novo Testamento, a fim de que sua morte, servindo de resgate das prevaricações cometidas no Antigo Testamento, transmita a eterna aliança prometida àqueles que foram chamados em N. S. Jesus Cristo.
+
+[Graduale]
+!1 J 5:6; 5:7-8
+Este é Jesus Cristo, que veio pela água e pelo sangue: não pela água, somente, mas pela água e pelo sangue.
+V. Três são os que dão testemunho no céu: o Pai, o Verbo e o Espírito Santo, e estes três são um só. E três são os que dão testemunho na terra: o espírito, a água e o sangue, e estes três são um só! Aleluia, aleluia.
+!1 Jo 5:9
+V. Se recebemos o testemunho dos homens, maior é o testemunho de Deus. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. João.
+!Jo 19:30-35
+Naquele tempo, havendo Jesus bebido o vinagre, disse: «Tudo está consumado!». E, inclinando a cabeça, entregou o Espírito. Porém os judeus (como aquele dia era o da Preparação), para que os corpos não ficassem na cruz no sábado (pois aquele Sábado era dia solene), rogaram a Pilatos licença para lhes quebrarem as pernas e os tirarem. Vieram, então, os soldados e quebraram as pernas ao primeiro e depois ao outro que haviam sido crucificados com Ele. Quando, porém, chegaram a Jesus, vendo que já estava morto, Lhe não quebraram as pernas, mas um dos soldados abriu-Lhe o lado com uma lança, saindo dali imediatamente sangue e água. E aquele que viu isto dá testemunho, sendo verdadeiro o seu testemunho.
+
+[Offertorium]
+!1 Cor 10:16
+O cálice de bênção, que nós benzemos, não é, porventura, a comunhão do Sangue de Cristo? E o pão, que nós partimos, não é a participação do Corpo do Senhor?
+
+[Secreta]
+Dignai-Vos permitir, Senhor, que por estes divinos mystérios nos aproximemos de Jesus o mediador do Novo Testamento e que renovemos a efusão do seu Sangue sobre os vossos altares, ó Senhor dos exércitos, o qual é mais eloquente do que o sangue de Abel.
+$Per eundem
+
+[Communio]
+!Heb 9:28
+Cristo ofereceu-se uma vez para apagar os pecados de muitos; em uma segunda vez Ele aparecerá não já para expiar os pecados, mas para salvar aqueles que O esperam.
+
+[Postcommunio]
+Havendo sido admitidos à sagrada mesa, Senhor, bebemos com alegria as águas nas fontes do Salvador; e, Vos suplicamos, permiti que seu Sangue se torne para nós numa fonte de água viva, brotando até à vida eterna.
+$Qui tecum

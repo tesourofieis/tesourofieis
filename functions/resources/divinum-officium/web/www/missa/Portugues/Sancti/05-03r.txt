@@ -1,0 +1,22 @@
+[Rank]
+Ss. Alexandri et Sociorum Martyrum;;Simplex;;1.1;;vide C3
+
+[Rule]
+vide C3;
+
+[Comment]
+# 03 V – S. Alexandre, Papa e Mártir
+! Comemoração
+! Paramentos vermelhos
+
+[Oratio]
+Fazei, como Vos pedimos, ó Deus omnipotente, que, celebrando o natal de vossos Santos, Alexandre, Evêncio, Teodolo e Juvenal, sejamos libertados, por sua intercessão, de todos os males iminentes.
+$Per Dominum
+
+[Secreta]
+Sobre estas hóstias desça, como Vos pedimos, Senhor, copiosa bênção que opere piedosamente a nossa santificação e nos alegre na solenidade dos vossos Santos.
+$Per Dominum
+
+[Postcommunio]
+Restaurados pela participação do dom sagrado, nós vos pedimos, Senhor, nosso Deus, que, pela intercessão de vossos Santos Alexandre, Evêncio, Teodolo Juvenal, cuja solenidade celebramos, experimentemos os seus efeitos.
+$Per Dominum

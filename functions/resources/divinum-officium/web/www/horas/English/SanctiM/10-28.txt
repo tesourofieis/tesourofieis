@@ -1,0 +1,11 @@
+
+[Lectio9]
+@Sancti/10-28:Lectio7:s/That whatsoever.*//s
+
+[Lectio10]
+@Sancti/10-28:Lectio7:s/.*That whatsoever/That whatsoever/s s/$/~/
+@Sancti/10-28:Lectio8:s/And concerning.*//s
+
+[Lectio11]
+@Sancti/10-28:Lectio8:s/.*And concerning/And concerning/s
+

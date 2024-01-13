@@ -1,0 +1,5 @@
+[Rank]
+S. Petri Damiani Confessoris;;Simplex;;1.1;;vide C4
+
+[Oratio]
+@Commune/C4a::s/N\. /Petri /

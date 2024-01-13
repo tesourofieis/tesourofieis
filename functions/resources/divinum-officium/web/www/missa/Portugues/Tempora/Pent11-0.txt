@@ -1,0 +1,58 @@
+[Rank]
+Dominica XI Post Pentecosten;;Semiduplex;;5
+
+[Rule]
+Gloria
+Credo
+Prefatio=Trinitate
+Suffr=Sanctorum;Maria3,Ecclesiae,Papa;;
+
+[Comment]
+# Décimo Primeiro Domingo depois de Pentecostes
+! 2 classe
+! Paramentos verdes
+
+[Introitus]
+!Sl 67:6 67:7 67:36
+v. Deus está na sua santa morada: Deus dará morada na sua casa àqueles que possuem o mesmo espírito: Ele dará ao seu povo fortaleza e constância.
+!Sl 67:2
+Erga-se Deus e sejam dispersos os seus inimigos: Que aqueles que o odeiam fujam da sua presença.
+&Gloria
+v. Deus está na sua santa morada: Deus dará morada na sua casa àqueles que possuem o mesmo espírito: Ele dará ao seu povo fortaleza e constância.
+
+[Oratio]
+Deus omnipotente e sempiterno, que pela abundância da vossa bondade excedeis os méritos e os desejos dos suplicantes, espalhai a vossa misericórdia sobre nós, de modo que nos sejam perdoados aqueles castigos, que a nossa consciência teme, e nos sejam concedidas aquelas graças, que não ousamos pedir:
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+!1 Cor. 15:1-10
+Meus irmãos: Chamo a vossa atenção para o Evangelho que já vos preguei e recebestes. Nele permanecereis firmes, sendo por ele que sereis salvos, se porventura o cumprirdes tal como vo-lo anunciei; pois, se não fora assim, teríeis abraçado a fé inutilmente. Em primeiro lugar, ensinei-vos o que também aprendi, isto é: Que Cristo morreu por causa dos nossos pecados, segundo as Escrituras; que foi sepultado e ressuscitou ao terceiro dia, segundo as mesmas Escrituras; que apareceu a Cefas e seguidamente aos outros Onze Apóstolos; que, depois, foi visto por mais de quinhentos irmãos, que estavam reunidos, alguns dos quais estão vivos e outros já morreram; que, igualmente, foi visto por Tiago e logo pelos outros Apóstolos. Finalmente, depois dos outros, foi visto por mim, que sou o mais imperfeito de todos. Sim; sou o mínimo dos Apóstolos, assim como sou indigno de ser chamado Apóstolo, pois fui perseguidor da Igreja de Deus. Mas, pela graça de Deus, sou o que sou, e a sua graça não ficou estéril em mim.
+
+[Graduale]
+!Sl 27:7
+O meu coração confiou em Deus, que veio em meu socorro. Então a minha carne remoçou. Eis porque louvarei o Senhor com todo o coração.
+V. Clamei por Vós, Senhor! Meu Deus, não fecheis os ouvidos à minha voz, nem Vos afasteis de mim. Aleluia, aleluia. 
+!Sl 80:2-3
+V. Exultai de alegria em Deus, que é o nosso protector: Cantai hinos em honra de Deus de Jacob: Tocai em tom alegre o saltério e a cítara. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Marcos.
+!Mc 7:31-37
+Naquele tempo saindo Jesus do território de Tiro, veio por Sidónia, através da Decápole, até ao mar da Galileia. Então, apresentaram-lhe um surdo-mudo e suplicaram-Lhe que pusesse as mãos sobre ele. Jesus, separando-o da multidão, pôs-lhe os dedos nos ouvidos e saliva na língua. Depois, erguendo os olhos ao céu, deu um suspiro e disse: «Ephpheta», isto é, abre-te! E logo se abriram os ouvidos deste homem e se partiu a prisão da sua língua, falando distintamente. Então Jesus impôs-lhes que não dissessem a ninguém o que se passara; mas, quanto mais os proibia, mais o publicavam; e, cheios de admiração, diziam: Ele fez bem tudo, fez ouvir os surdos e falar os mudos.
+
+[Offertorium]
+!Sl 29:2-3
+Exaltar-Vos-ei, Senhor, porque me atendestes e não deixastes que meus inimigos escarnecem de mim. Clamei por Vós, Senhor, e curaste-me!
+
+[Secreta]
+Dignai-Vos, Senhor, Vos suplicamos, olhar propício para a nossa homenagem, a fim de que a nossa oferta Vos seja agradável e sirva de auxílio para a nossa fraqueza.
+$Per Dominum
+
+[Communio]
+!Prov 3:9-10
+Honrai o Senhor, oferecendo-Lhe os vossos bens e as primícias dos vossos frutos. Então os vossos celeiros ficarão cheios de trigo e os vossos lagares trasbordarão de vinho.
+
+[Postcommunio]
+Permiti, Senhor, Vos suplicamos, que, pela recepção do vosso sacramento, sintamos o vosso conforto na alma e no corpo, a fim de que, salvando-se ambos, possamos gozar na glória a plenitude deste remédio celestial.
+$Per Dominum

@@ -1,0 +1,13 @@
+
+[Lectio6]
+@Tempora/Epi3-0:Lectio5:s/Whence .*//s
+
+[Lectio7]
+@Tempora/Epi3-0:Lectio5:s/.* Whence /Whence /s
+
+[Lectio10]
+@Tempora/Epi3-0:Lectio8:s/And Jesus .*//s
+
+[Lectio11]
+@Tempora/Epi3-0:Lectio8:s/.* And Jesus /And Jesus /s
+

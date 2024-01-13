@@ -1,0 +1,27 @@
+[Rank]
+XVIII Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+
+[Rule]
+9 lectiones
+Psalmi Dominica
+Antiphonas horas
+Symbolum Athanasium
+
+[Oratio]
+Prosimy Cię, Panie, niech działanie miłosierdzia Twego nami kieruje, bo bez Ciebie nie możemy podobać się Tobie.
+$Per Dominum
+
+[Lectio7]
+Czytanie Ewangelii świętej według Mateusza
+!Mt 9:1-8
+Onego czasu: Jezus, wstąpiwszy do łodzi, przeprawił się i przybył do miasta swego. I tak dalej.
+_
+Homilia świętego Piotra Chryzologa
+!Kazanie 50.
+Dzisiejsze czytanie Ewangelii ukazało, że Chrystus poprzez ludzkie czyny spełniał Boskie tajemnice, a poprzez rzeczy widzialne dokonywał tego, co niewidzialne. Ewangelista powiada, że Pan wstąpił do łodzi, przeprawił się i przybył do miasta swego. Ale czy to nie On, rozsunąwszy fale, odsłonił dno morza, aby lud izraelski przeszedł suchą stopą pomiędzy znieruchomiałymi zwałami wód, jakby przez dolinę pośród górskich szczytów? Czy to nie On wyrównał wzburzone odmęty morskie pod stopami Piotra, aby droga wodna dała solidne wsparcie dla kroków ludzkich?
+
+[Ant 2]
+Pan rzekł * do paralityka: Ufaj synu, odpuszczają się tobie grzechy twoje.
+
+[Ant 3]
+Wziął tedy * powietrzem ruszony łoże swe, na którem leżał, chwaląc Boga: a wszystek lud widząc to, wielbił Boga.

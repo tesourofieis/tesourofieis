@@ -1,0 +1,394 @@
+[Name]
+Commun des confesseurs pontifes
+
+[Rule]
+Psalmi Dominica
+Antiphonas horas
+Psalm5 Vespera=116
+Psalm5 Vespera3=131
+
+[Ant Vespera]
+Voici le grand-prêtre * qui, pendant sa vie, a plu à Dieu et a été trouvé juste.
+Il ne s’en est pas trouvé * de semblable à lui pour conserver la loi du Très-Haut.
+C’est pourquoi, par serment, * le Seigneur l'a fait grandir pour Son peuple.
+Prêtres de Dieu, * bénissez le Seigneur ! Serviteurs du Seigneur, dites un hymne à Dieu, alléluia !
+Serviteur bon * et fidèle, entre dans la joie de ton Seigneur.
+
+[Capitulum Vespera]
+!Sir 44:16-17
+v. Voici un grand-prêtre qui, aux jours de sa vie, a plu à Dieu et a été trouvé juste, et qui, au temps de sa colère, est devenu réconciliation.
+$Deo gratias
+
+[Hymnus Vespera]
+{:H-Isteconfessor:}v. Ce confesseur du Seigneur,
+Que les peuples de toute la terre célèbrent par une pieuse louange,
+Aujourd’hui a obtenu
+La joie de monter aux sièges des bienheureux.
+_
+Pieux, prudent, humble, pudique,
+Il a mené une vie sobre, sans faute,
+Tant que ses membres ont été animés
+Du souffle de la vie.
+_
+Par son puissant mérite, souvent,
+La maladie est terrassée ;
+Les corps infirmes qui gisaient là
+Sont rendus à la santé.
+_
+Aussi notre chœur chante en son honneur 
+Une louange déférente à ses palmes glorieuses
+Pour que ses pieuses prières
+Nous aident en tout temps.
+_
+Salut, honneur, puissance à Celui qui,
+Brillant sur le trône du ciel,
+Gouverne l’enchaînement du monde entier,
+Dieu trine et un, 
+Amen.
+
+[Hymnus1 Vespera]
+{:H-Isteconfessor:}v. Ce confesseur du Seigneur,
+Que les peuples de toute la terre célèbrent par une pieuse louange,
+Aujourd’hui a obtenu dans la joie
+Les suprêmes honneurs de la gloire.
+_
+Pieux, prudent, humble, pudique,
+Il a mené une vie sobre, sans faute,
+Tant que ses membres ont été animés
+Du souffle de la vie.
+_
+Par son puissant mérite, souvent,
+La maladie est terrassée ;
+Les corps infirmes qui gisaient là
+Sont rendus à la santé.
+_
+Aussi notre chœur chante en son honneur 
+Une louange déférente à ses palmes glorieuses
+Pour que ses pieuses prières
+Nous aident en tout temps.
+_
+Salut, honneur, puissance à Celui qui,
+Brillant sur le trône du ciel,
+Gouverne l’enchaînement du monde entier,
+Dieu trine et un, 
+Amen.
+
+[Versum 1]
+V. Le Seigneur l'a aimé et l'a paré.
+R. Il l'a revêtu de la robe de gloire.
+
+[Ant 1]
+Prêtre et Pontife * artisan des vertus, bon pasteur du peuple, priez pour nous le Seigneur.
+
+[Invit]
+Au Seigneur, Roi des Confesseurs, * Venez, offrons l'adoration.
+
+[Hymnus Matutinum]
+@Commune/C4:Hymnus Vespera
+
+[Hymnus1 Matutinum]
+@Commune/C4:Hymnus1 Vespera
+
+[Ant Matutinum]
+Bienheureux l’homme qui médite la loi du Seigneur : sa volonté reste constante, jour et nuit, et toutes ses oeuvres toujours réussiront.;;1
+Heureux ce Saint qui a eu confiance dans le Seigneur, a prêché le commandement du Seigneur et a été établi sur sa montagne sainte.;;2
+Vous êtes ma gloire, et vous êtes mon soutien, Seigneur ; vous avez relevé ma tête et, du haut de votre montagne sainte, vous m’avez exaucé.;;3
+V. Le Seigneur l’a aimé et l’a paré.
+R. Il l’a revêtu d’une robe de gloire.
+Le Seigneur * a exaucé son Saint qui l’invoquait ; le Seigneur l’a exaucé et l’a établi dans la paix.;;4
+Qu’ils se réjouissent, tous ceux qui espèrent en vous. Seigneur ; car vous avez béni le juste et du bouclier de votre faveur vous l’avez couronné.;;5
+Seigneur, notre Seigneur, qu’admirable est votre nom par toute la terre : car de gloire et d’honneur, vous avez couronné votre Saint et vous l’avez étabh sur les oeuvres de vos mains.;;8
+V. Le Seigneur l’a choisi pour son prêtre.
+R. Pour lui sacrifier l’hostie de louange.
+Seigneur, * ce Saint habitera dans votre tabernacle, il a pratiqué la justice et il reposera sur votre montagne sainte.;;14
+La vie qu’il vous a demandée, * vous la lui avez donnée, Seigneur, vous l’avez couvert de gloire et de splendeur, vous avez mis sur sa tête, une couronne en pierre précieuse.;;20
+Celui-ci recevra la bénédiction du Seigneur et la miséricorde du Dieu son sauveur ; car voilà bien la génération de ceux qui cherchent le Seigneur.;;23
+V. Tu es Prêtre pour l’éternité.
+R. Selon l’ordre de Melchisédech.
+
+[Lectio1]
+Du premier Epitre du Bienheureux Pau Apôtre à Timothée
+!1 Tim 3:1-7
+01 Voici une parole digne de foi : si quelqu’un aspire à la responsabilité d’une communauté, c’est une belle tâche qu’il désire.
+02 Le responsable doit être irréprochable, époux d’une seule femme, un homme sobre, raisonnable, équilibré, accueillant, capable d’enseigner,
+03 ni buveur ni brutal mais bienveillant, ni querelleur ni cupide.
+04 Il faut qu’il dirige bien les gens de sa propre maison, qu’il obtienne de ses enfants l’obéissance et se fasse respecter.
+05 Car si quelqu’un ne sait pas diriger sa propre maison, comment pourrait-il prendre en charge une Église de Dieu ?
+06 Il ne doit pas être un nouveau converti ; sinon, aveuglé par l’orgueil, il pourrait tomber sous la même condamnation que le diable.
+07 Il faut aussi que les gens du dehors portent sur lui un bon témoignage, pour qu’il échappe au mépris des hommes et au piège du diable.
+
+[Responsory1]
+R. Très bien, bon et fidèle serviteur, parce que tu as été fidèle pour peu de choses, je t’établirai sur beaucoup :
+* Entre dans la joie de ton Seigneur.
+V. Seigneur, vous m’aviez confié cinq talents, en voici cinq autres que j’ai gagnés.
+R. Entre dans la joie de ton Seigneur.
+
+[Lectio2]
+De l'Epitre à Tite
+!Titus 1:7-11
+07 Il faut en effet que le responsable de communauté soit sans reproche, puisqu’il est l’intendant de Dieu ; il ne doit être ni arrogant, ni coléreux, ni buveur, ni brutal, ni avide de profits malhonnêtes ;
+08 mais il doit être accueillant, ami du bien, raisonnable, juste, saint, maître de lui.
+09 Il doit être attaché à la parole digne de foi, celle qui est conforme à la doctrine, pour être capable d’exhorter en donnant un enseignement solide, et aussi de réfuter les opposants.
+10 Car il y a beaucoup de réfractaires, des gens au discours inconsistant, des marchands d’illusion, surtout parmi ceux qui viennent du judaïsme.
+11 Il faut fermer la bouche à ces gens qui, pour faire des profits malhonnêtes, bouleversent des maisons entières, en enseignant ce qu’il ne faut pas.
+
+[Responsory2]
+R. Voici le grand pontife, qui pendant sa vie a plu à Dieu :
+* C’est pourquoi par serment le Seigneur l’a fait grandir pour son peuple.
+V. La bénédiction de toutes les nations, il la lui a donnée, et il a confirmé son alliance sur sa tête.
+R. C’est pourquoi par serment le Seigneur l’a fait grandir pour son peuple.
+
+[Lectio3]
+!Titus 2:1-8
+01 Quant à toi, dis ce qui est conforme à l’enseignement de la saine doctrine.
+02 Que les hommes âgés soient sobres, dignes de respect, pondérés, et solides dans la foi, la charité et la persévérance.
+03 De même, que les femmes âgées mènent une vie sainte, ne soient pas médisantes ni esclaves de la boisson, et qu’elles soient de bon conseil,
+04 pour apprendre aux jeunes femmes à aimer leur mari et leurs enfants,
+05 à être raisonnables et pures, bonnes maîtresses de maison, aimables, soumises à leur mari, afin que la parole de Dieu ne soit pas exposée au blasphème.
+06 Les jeunes aussi, exhorte-les à être raisonnables
+07 en toutes choses. Toi-même, sois un modèle par ta façon de bien agir, par un enseignement sans défaut et digne de respect,
+08 par la solidité inattaquable de ta parole, pour la plus grande confusion de l’adversaire, qui ne trouvera aucune critique à faire sur nous.
+
+[Responsory3]
+R. Le Seigneur l’a juré et il ne se dédira pas :
+* Tu es prêtre pour l’éternité, selon le type de Melchisé- dech.
+V. Le Seigneur a dit à mon Seigneur : Assieds-toi à ma droite.
+R. Tu es prêtre pour l’éternité, selon le type de Melchisé- dech.
+&Gloria
+R. Tu es prêtre pour l’éternité, selon le type de Melchisé- dech.
+
+[Lectio4]
+Sermon de saint Maxime, Évêque.
+!Homélie 59, la 2™ de S. Eusèbe de Verceil
+Aux louanges de notre saint et bienheureux Père N... dont nous célébrons la fête aujourd’hui, essayer d’ajouter quelque chose, c’est les diminuer, puisque la grâce de ses vertus ne doit pas s’exposer en paroles, mais se prouver par les faits. Car, si l’Écriture nous dit : La gloire du père, c’est le fils sage *, combien grande est la gloire de celui qui se réjouit de la sagesse et de la dévotion de tant de fils. C’est en effet dans le Christ Jésus, que par l’Évangile, il nous a lui-même engendrés.
+
+[Responsory4]
+R. J’ai trouvé David, mon serviteur, je l’ai oint de mon huile sainte :
+* Car ma main le secourra.
+V. L’ennemi ne gagnera rien, sur lui et le fils d’iniquité ne lui nuira pas.
+R. Car ma main le secourra.
+
+[Lectio5]
+C'est ainsi que tout ce qu’il y a de vertu et de grâce dans ce peuple saint découle de lui, comme d’une source très limpide, découle la pureté de tous les petits ruisseaux. En effet, c’est parce qu’il pratiquait une chasteté courageuse, parce qu’il se faisait un honneur de vivre dans une abstinence rigoureuse, parce qu’il était doué des charmes de la douceur, qu’il a porté les hommes à aimer Dieu ; et c’est parce qu’il brillait dans l’administration de sa charge pastorale, qu’il a laissé parmi ses disciples, de nombreux imitateurs de son sacerdoce.
+
+[Responsory5]
+R. J’ai donné mon secours au puissant et j’ai élevé celui que j’ai élu parmi mon peuple.
+* Car ma main le secourra.
+V. J’ai trouvé David mon serviteur et je l’ai oint de mon huile sainte.
+R. Car ma main le secourra.
+
+[Lectio6]
+C’est avec raison qu’en ce jour rendu pour nous très joyeux, par le passage au ciel, de notre Bienheureux Père AT..., nous avons chanté ce verset du psaume : La mémoire du juste sera éternelle. Il est digne en effet de demeurer dans la mémoire des hommes, celui qui est passé aux joies des Anges. Une parole divine nous apprend à ne louer personne pendant sa vie ; ce qui revient à dire : Louez l’homme après sa mort, exaltez-le quand il n’est plus. Il est plus utile de combler d’éloges la mémoire des hommes que de leur décerner la gloire pendant leur existence, cela pour une double raison : afin d’exalter surtout les mérites de la sainteté, quand la flatterie ne peut plus être le mobile de celui qui loue, et ne peut plus enorgueillir celui qui en est l’objet.
+
+[Responsory6]
+R. Voici celui qui devant Dieu accomplit de grandes vertus et toute la terre fut remplie de son enseignement :
+* A lui d’intercéder pour les péchés de tous les peuples.
+V. Voici celui qui méprisa la vie du monde et parvint aux royaumes célestes.
+R. A lui d’intercéder pour les péchés de tous les peuples.
+&Gloria
+R. A lui d’intercéder pour les péchés de tous les peuples.
+
+[Lectio7]
+Lecture du saint Évangile selon saint Matthieu
+!Matt 25:14-23
+En ce temps-là, Jésus dit à ses disciples cette parabole : Un homme partant en voyage appela ses serviteurs, et leur remit ses biens. Et le reste.
+_
+Homélie de saint Grégoire, pape.
+!Homélie 9 sur l'Évangile.
+La leçon du saint Évangile, frères bien-aimés, ,1 À nous avertit de réfléchir attentivement, afin que nous, qui avons reçu en ce monde plus que les autres, nous ne soyons pas jugés plus sévèrement par l’Auteur du monde. Avec la largesse des dons, grandit l’exigence des comptes. Chacun doit donc prendre motif du don qu’il reçoit, pour être d’autant plus humble et se dévouer d’autant plus promptement au service de Dieu, qu’il s’aperçoit devoir rendre compte de plus d’obligations. Voilà cet homme qui part en voyage, il appelle ses serviteurs et leur distribue des talents à faire fructifier. Mais longtemps après il revient pour demander des comptes. Il récompense du gain qu’ils apportent ceux qui ont travaillé, mais il condamne le serviteur indolent dans la pratique du bien.
+
+[Responsory7]
+R. Le Seigneur l’a aimé et l’a paré ; il l’a revêtu d’une robe de gloire :
+* Et il l’a couronné aux portes du paradis.
+V. Le Seigneur l’a revêtu de la cuirasse de la foi et il l’a paré.
+R. Et il l’a couronné aux portes du paradis.
+
+[Lectio8]
+Quel est donc cet homme qui part pour un voyage, sinon notre Rédempteur qui, dans la chair même qu’il avait prise, est monté au ciel? Car la terre est le lieu propre de la chair : et celle-ci est en quelque sorte conduite en pèlerinage, quand elle est placée dans le ciel par notre Rédempteur. Mais cet homme, partant pour un voyage, remit ses biens à ses serviteurs, parce qu’il laissa à ses fidèles des dons spirituels. A l’un il confia cinq talents, à un autre, deux, à un troisième, un seul. C’est qu’en effet le corps a cinq sens : la vue, l’ouïe, le goût, l’odorat et le toucher. Le don des cinq talents exprime donc le don des cinq sens, c’est-à-dire de la connaissance des choses extérieures. Les deux talents désignent l’intelligence et l’action. L’unique talent représente seulement l’intelligence.
+
+[Responsory8]
+R. Ceignez vos reins, et ayez en vos mains des lampes allumées ;
+* Soyez semblables à des hommes qui attendent que leur maître revienne des noces.
+V. Veillez donc, parce que vous ne savez pas à quelle heure votre Seigneur viendra.
+R. Soyez semblables à des hommes qui attendent que leur maître revienne des noces.
+&Gloria
+R. Soyez semblables à des hommes qui attendent que leur maître revienne des noces.
+
+[Lectio9]
+Mais celui qui avait reçu cinq talents, en gagna cinq autres : il est en effet des hommes qui, bien qu’ils ne sachent pas pénétrer les choses profondes et cachées, s’efforcent, en vue de la patrie céleste, d’enseigner le bien à ceux à qui ils peuvent l’enseigner. Des talents extérieurs qu’ils ont reçus, ils apportent le double en se gardant des attaques de la chair et de l’ambition des choses terrestres et de la jouissance des choses visibles, et en apprenant aussi aux autres à s’en garder. D’autres hommes sont comme enrichis de deux talents, à savoir l’intelligence et l’action : ils comprennent les subtilités des choses profondes et font à l’extérieur des oeuvres admirables. En prêchant aux autres par leur science et par leurs actions, ils rapportent de ce négoce un double gain.
+
+[Ant Laudes]
+Voici le grand-prêtre * qui, pendant sa vie, a plu à Dieu et a été trouvé juste.
+Il ne s’en est pas trouvé * de semblable à lui pour conserver la loi du Très-Haut.
+C’est pourquoi, par serment, * le Seigneur l’a fait grandir pour Son peuple.
+Prêtres de Dieu, * bénissez le Seigneur ! Serviteurs du Seigneur, dites un hymne à Dieu, alléluia ! 
+Serviteur bon * et fidèle, entre dans la joie de ton Seigneur.
+
+[Capitulum Laudes]
+@:Capitulum Vespera
+
+[Hymnus Laudes]
+{:H-Jesuredemptoromnium:}v.Jésus, Rédempteur de tous les hommes,
+Immortelle couronne des Pontifes,
+Montrez votre clémence au jour de cette fête ;
+Pardonnez aux âmes qui vous prient.
+_
+Le peuple fidèle célèbre
+Les solennités annuelles de ce saint
+Qui s'est illustré comme confesseur
+De votre nom sacré.
+_
+Il a vaincu et le monde et ses joies ;
+Il a dédaigné les plaisirs qui s'enfuient,
+Il possède aujourd'hui, en retour
+L'éternité au milieu des anges.
+_
+Accordez-nous, Dieu bon,
+De suivre ses traces,
+Remettez, par son intercession,
+A vos pauvres serviteurs la dette de leurs péchés.
+_
+* O Christ, Roi très miséricordieux,
+Gloire à Vous, ainsi qu'au Père,
+Avec l'Esprit Paraclet,
+Maintenant et dans tous les siècles.
+Ainsi soit-il.
+
+[Versum 2]
+V. Le Seigneur l’a conduit par des voies de droiture.
+R. Et il lui a montré le royaume de Dieu.
+
+[Ant 2]
+C’est bien, serviteur bon * et fidèle, parce que tu as été fidèle sur peu de choses, je t’établirai sur beaucoup, dit le Seigneur.
+
+[Oratio]
+v. Accordez à notre prière, Dieu tout-puissant, que la vénérable solennité de votre bienheureux N., Confesseur et Pontife, augmente en nous dévotion et santé. Par Notre-Seigneur.
+$Per Dominum.
+
+[Oratio1]
+v. Exaucez, Seigneur, s’il Vous plaît, les prières qu’en la solennité du bienheureux N., Votre Confesseur et Pontife, nous vous présentons et, par l’intercession des mérites de celui qui a obtenu de Vous servir dignement, absolvez-nous de tous nos péchés.
+$Per Dominum.
+
+[Oratio2]
+v. Dieu, vous avez fait à votre peuple la grâce d’avoir le bienheureux N., pour ministre du salut éternel : faites, nous vous en prions, que nous méritions d’avoir pour intercesseur dans les cieux celui qui nous a donné sur terre la doctrine de vie.
+$Per Dominum
+
+[Oratio9]
+v. O Pasteur éternel, veillez avec bonté sur votre troupeau : assurez-lui une protection constante par saint N. Souverain Pontife, à qui vous avez donné d’être pasteur de toute l’Église.
+$Per Dominum
+
+[Oratio91]
+v. O Pasteur éternel, veillez avec bonté sur votre troupeau : assurez-lui une protection constante par saints N. et N. , vos bienheureux Martyrs et Souverains Pontifes, à qui vous avez donné d’être pasteurs de toute l’Église.
+$Per Dominum
+
+[Lectio Prima]
+!Sir 45:19-20
+v. Dieu lui a donné d’exercer les fonctions sacerdotales, de célébrer les louanges de son nom et de lui offrir un digne encens en odeur de suavité.
+
+[Capitulum Tertia]
+@:Capitulum Vespera
+
+[Responsory Tertia]
+R.br. Le Seigneur l’a aimé. * Et l’a paré.
+R. Le Seigneur l’a aimé. * Et l’a paré.
+V. Il l’a revêtu de la robe de gloire.
+R. Et l’a paré.
+&Gloria
+R. Le Seigneur l’a aimé. * Et l’a paré.
+_
+V. Le Seigneur l’a choisi pour être son prêtre.
+R. Pour lui sacrifier l’hostie de louange.
+
+[Capitulum Sexta]
+!Sir 44:20 ; 44:22
+v. On n’en a point trouvé de semblable à lui, pour la conservation de la loi du Très-Haut; c’est pourquoi le Seigneur, par serment, l’a fait grandir pour son peuple.
+$Deo gratias
+
+[Responsory Sexta]
+R.br. Le Seigneur l’a choisi, * Pour être son prêtre.
+R. Le Seigneur l’a choisi, * Pour être son prêtre.
+V. Pour lui sacrifier l’hostie de louange.
+R. Pour être son prêtre.
+&Gloria
+R. Le Seigneur l’a choisi, * Pour être son prêtre.
+_
+V. Tu es prêtre pour l’éternité.
+R. Selon l’ordre de Melchisédech.
+
+[Capitulum Nona]
+@:Lectio Prima
+$Deo gratias
+
+[Responsory Nona]
+R.br. Tu es prêtre * Pour l’éternité.
+R. Tu es prêtre * Pour l’éternité.
+V. Selon l’ordre de Melchisédech.
+R. Pour l’éternité.
+&Gloria
+R. Tu es prêtre * Pour l’éternité.
+_
+V.Le Seigneur l'a conduit par des voies de droiture.
+R. Et il lui a montré le royaume de Dieu.
+
+[Versum 3]
+@:Versum 2
+
+[Ant 3]
+Le Seigneur l'a aimé, * et l'a paré. Il l'a revêtu de la robe de gloire et l'a couronné aux portes du paradis.
+
+[Ant 3 summi Pontificis]
+Tandis qu'il était Souverain Pontife, * il n'a craint rien de terrestre, mais il s'en est allé glorieux au royaume céleste.
+
+[Lectio1 in 2 loco]
+De libro Ecclesiastici
+!Sir 44:1-5
+01 Faisons l’éloge de ces hommes glorieux qui sont nos ancêtres.
+02 Le Seigneur a créé la gloire à profusion ; il manifeste sa grandeur depuis toujours.
+03 C’étaient des souverains de royaumes, des hommes renommés pour leur puissance, des conseillers clairvoyants, des messagers de prophéties,
+04 des guides du peuple par leurs conseils, leur compétence à l’instruire et les sages paroles de leur enseignement.
+05 Ils inventaient des chants mélodieux et mettaient par écrit des récits poétiques.
+
+[Lectio2 in 2 loco]
+!Sir 44:6-9
+06 C’étaient des hommes riches et influents, qui vivaient, paisibles, dans leurs domaines.
+07 Tous ceux-là ont connu la gloire en leur temps et, de leur vivant, ils ont été à l’honneur.
+08 Il y en a, parmi eux, qui ont laissé un nom ; ainsi peut-on faire leur éloge.
+09 Il y en a d’autres dont le souvenir s’est perdu ; ils sont morts, et c’est comme s’ils n’avaient jamais existé, c’est comme s’ils n’étaient jamais nés, et de même leurs enfants après eux.
+
+[Lectio3 in 2 loco]
+!Sir 44:10-15
+10 Il n’en est pas ainsi des hommes de miséricorde, leurs œuvres de justice n’ont pas été oubliées.
+11 Avec leur postérité se maintiendra le bel héritage que sont leurs descendants.
+12 Leur postérité a persévéré dans les lois de l’Alliance, leurs enfants y sont restés fidèles grâce à eux.
+13 Leur descendance subsistera toujours, jamais leur gloire ne sera effacée.
+14 Leurs corps ont été ensevelis dans la paix, et leur nom reste vivant pour toutes les générations.
+15 Les peuples raconteront leur sagesse, l’assemblée proclamera leurs louanges.
+
+[Lectio4 in 2 loco]
+Sermon de saint Maxime, Évêque.
+!Homélie 59, 2™ pour S. Eusèbe.
+Du Bienheureux Père N... exaltons sans crainte les mérites désormais hors de tout conteste. Tenant avec fermeté le gouvernail de la foi, il a dès lors jeté l’ancre de l’espérance sur un rivage tranquille et il a fait entrer au port désiré, son navire rempli de richesses célestes et de biens étemels. Il a tenu infatigablement le bouclier de la crainte de Dieu, contre tous ses ennemis, jusqu’à ce qu’il obtienne la victoire. Le cours de toute sa vie fut-il autre chose qu’un combat contre l’ennemi qui veille ?
+
+[Lectio5 in 2 loco]
+A combien d’aveugles, errant loin du chemin de la vérité et déjà suspendus comme du haut d’un rocher sur l’abîme, n’a-t-il pas rendu la vue perdue et guéri ce regard par lequel on voit le Christ? A combien de sourds coupables d’infidélité, n’a-t-il pas donné cette ouïe précieuse pour entendre la voix des commandements célestes, afin qu’à Dieu les appelant à sa miséricorde, ils répondent par leur obéissance? Que d’âmes blessées n’a-t-il pas, par son éloquence angélique et sa prière, guéries de leur infirmité.
+
+[Lectio6 in 2 loco]
+Combien d’hommes à la volonté brisée dans la souillure du péché, par une longue insouciance et couverts d’une sorte de lèpre contagieuse, n’a-t-il pas purifiés par ses réprimandes et ses exhortations, expiant leurs péchés, grâce à l’opération de Dieu en lui? Combien d’âmes vivant dans un corps, mais déjà mortes, accablées et ensevelies sous le poids de leurs fautes, n’a-t-il pas ressuscitées à Dieu, en les appelant au repentir comme à la lumière? En sorte qu’imitateur admirable de son Seigneur, ces âmes déjà mortes à Dieu, il les a fait, au contraire, mourir au péché, d’une mort vivifiante.
+
+[Lectio7 in 2 loco]
+Lecture du saint Évangile selon saint Matthieu
+!Matt 16, 13-19.
+En ce temps-là Jésus vint dans la région de Césarée de Philippe et il posait cette question à ses disciples : « Qui, dit-on, qu’est le Fils de l’homme? » Et le reste.
+_
+Homélie de saint Léon, Pape.
+!Sermon II pour l'anniversaire de son élévation au pontificat, avant le milieu.
+Comme le rapporte la lecture d’Évangile, le Seigneur avait interrogé ses disciples pour leur demander qui ils croyaient qu’il fût (car les opinions étaient très partagées) ; et saint Pierre avait répondu : « Vous êtes le Christ, le Fils du Dieu vivant. » Le Seigneur lui dit : « Bienheureux es-tu, Simon Bar- Jona, car ce n’est pas la chair et le sang qui te l’ont révélé, mais mon Père qui est dans les deux. Et moi je te dis que tu es Pierre, et sur cette pierre je bâtirai mon Église, et les puissances du mal ne remporteront point sur elle. Et je te donnerai les defs du royaume des deux : tout ce que tu lieras sur la terre sera lié aussi dans les deux, et tout ce que tu délieras sur la terre sera délié aussi dans les deux. » Eh bien, elle demeure, cette disposition de la Vérité et saint Pierre qui garde cette solidité de la pierre qu’il a reçue n’a pas abandonné le gouvernail de l’Église qui lui a été confié.
+
+[Lectio8 in 2 loco]
+!Can. 27.
+Car, dans l’Église universelle, Pierre dit chaque jour : « Vous êtes le Christ, le Fils du Dieu vivant », et toute langue qui confesse le Seigneur est chargée de toute l’autorité de cette parole. Telle est la foi qui vainc le diable et délie les chaînes de ses captifs. C’est elle qui introduit dans le del ceux qu’elle arrache au monde et les puissances du mal ne peuvent l’emporter sur elle. Elle est divinement fortifiée par une telle solidité, si bien que ni la perversité hérétique ne peut la corrompre, ni l’incrédulité païenne la terrasser. C’est ainsi, mes bien- aimés, qu’il faut célébrer la fête d’aujourd’hui par un hommage spirituel : afin qu’en mon humble personne on discerne et on honore celui en qui se perpétue la sollicitude de tous les pasteurs, lorsqu’il garde ses brebis selon le mandat qu’il en a reçu, et sa dignité ne disparaît pas lorsqu’elle tombe aux mains d’un indigne successeur.
+
+[Lectio9 in 2 loco]
+Puisque nous adressons ces exhortations aux oreilles de votre sainteté, croyez que celui qui vous parle est celui-là même dont nous occupons la fonction ; car c’est avec son amour que nous vous avertissons et nous ne vous prêchons pas autre chose que ce qu’il a enseigné, lorsque nous vous exhortons à mener, ayant ceint les reins de votre âme, une vie chaste et sobre, dans la crainte du Seigneur. Vous êtes, comme dit l’Apôtre, ma joie et ma couronne si votre foi, qui depuis le début de l’Évangile a été prêchée dans le monde entier, se maintient dans la charité et la sainteté. Sans doute il faut que toute l’Église, répandue sur toute la surface de la terre, fleurisse de toutes les vertus ; mais il faut que vous, entre les autres peuples, vous l’emportiez par les mérites de votre piété, vous qui avez été fondés sur la citadelle même de la pierre apostolique ; car si Notre-Seigneur Jésus-Christ vous a rachetés avec tous, le saint Apôtre Pierre vous a enseignés plus que tous les autres.
+&teDeum
+

@@ -1,0 +1,99 @@
+[Name]
+Commune non Virginum Martyrum
+
+[Rule]
+Psalmi Dominica
+Antiphonas horas
+
+[Ant Vespera]
+Amíg asztalánál mulat a király * nárduszom jó illatot áraszt magából;;109
+Keneteidnek illata kellemes, mint a kiöntött olaj, olyan a neved, azért szeretnek a lányok;;112
+Nézd, elmúlt a tél, elállt az eső, elvonult, kelj föl, kedvesem, gyere;;121
+Jöjj kedvesem, ülj trónomra;;126
+Isten kiválasztotta őt Jeruzsálem leányai közül;;147
+
+[Capitulum Vespera]
+!Sir 51:1-3
+v. Hálát adok neked, Uram Királyom! És dicsérlek téged, szabadító Istenemet. Hálát adok a te nevednek, mert segítöm és oltalmazóm lettél. Megszabadítottad testemet a romlástól
+$Deo gratias.
+
+[Hymnus Vespera]
+{:H-Tristeserantapostoli:}v. A férfias szívű, erős
+Asszonyt dícséri énekünk.
+Dicsőségét, erényeit
+Mind a világon hirdetik.
+_
+Krisztus szerelmétől sebes,
+S a föld ártalmas élvei
+Bosszantják és meredeken
+Az égnek törnek léptei.
+_
+A testet bőjttel fékezi,
+Imádság édes étele
+Táplálja lelkét szűntelen,
+Igy nyeri meg a mennyeket.
+_
+Krisztus, erősek ereje,
+Minden nagy dolgok kútfeje,
+Az ő szavára légy kegyes
+És halld meg esdő énekünk.
+_
+Dícsérjük az örök Atyát,
+Dícsérjük egyszülött Fiát,
+És velük a Vígasztalót,
+Most és örök időkön át.
+Ámen.
+
+[Invit]
+Áldott szentjére N. -re emlékezve * áldjuk az Urat
+
+[Hymnus Matutinum]
+{:H-Virginisproles:}v. Ő imájáért, kegyes Isten, engedd
+El bűnünk zsoldját, amit érdemeltünk,
+Hogy visszhangozzék a kitisztult szívből
+Ájtatos ének.
+_
+Áldás, dícséret legyen az Atyának,
+Egyszülöttének s vele Szentléleknek,
+Háromságban- egy örök Istenünknek,
+Minden időben.
+Ámen.
+
+[Lectio7]
+Evangélium szent Máté Apostol kőnyvéből
+!Matt 13:44
+A mennyek országa hasonlít a szántóföldben elrejtett kincshez. És így tovább.
+
+[Ant Laudes]
+Amíg asztalánál mulat a király * nárduszom jó illatot áraszt magából
+Keneteidnek illata kellemes, mint a kiöntött olaj, olyan a neved, azért szeretnek a lányok
+Nézd, elmúlt a tél, elállt az eső, elvonult, kelj föl, kedvesem, gyere
+Jöjj kedvesem, ülj trónomra
+Isten kiválasztotta őt Jeruzsálem leányai közül
+
+[Ant 2]
+Magasztaljátok keze munkájáért * a városkapuknál dicsérjék tetteit
+
+[Oratio]
+Figyelj ránk Megváltó Istenünk, hogy akik szent N. ünnepén örvendezünk, jáborságot és áhitatot tanuljuk tőle
+$Per Dominum
+
+[Oratio1]
+Isten ki csodálatos erőd által a vértanúság győzelmét a gyenge női nemnek is megadtad, add meg kérünk hogy akik boldog N. vértanú szűletésnapját űnnepeljük példája álta hozzád kőzeledjünk
+$Per Dominum.
+
+[Oratio2]
+Add meg kérünk Urunk Istenünk hogy szent vértanúidat N. és N. el nem múlo himnuszokkal ünnepeljük, és ha nem vagyunk méltóak értelmünkkel felérni, alázatosan próbalkozzunk követni
+$Per Dominum
+
+[Lectio Prima]
+!Sir 51:8; 51:12
+v. Mindhalálig dicséri lelkem az Urat; kimented, Uram, a te rád várakozókat, és kiszabadítod öket a pogányok kezeiböl.
+
+[Capitulum Sexta]
+!Sir 51:4-5
+v. És megszabadítottál engem a te neved irgalmának sokasága szerint az elnyelésemre készölt ordítóktól, az én lelkemet keresök kezeiböl, és a háborúság kapuiból, mely körölvett engem,
+$Deo gratias.
+
+[Ant 3]
+Kiterjeszti kezét az elnyomott fölé * a szűkölködőnek meg a karját nyújtja, a tétlen lustaság nem kenyere.

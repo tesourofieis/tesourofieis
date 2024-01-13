@@ -1,0 +1,17 @@
+
+[Lectio5]
+@Tempora/Epi4-0:Lectio4:s/In all .*//s
+
+[Lectio6]
+@Tempora/Epi4-0:Lectio4:s/.* In all /In all /s s/$/~/
+@Tempora/Epi4-0:Lectio5:s/The creature .*//s
+
+[Lectio7]
+@Tempora/Epi4-0:Lectio5:s/.* The creature /The creature /s
+
+[Lectio10]
+@Tempora/Epi4-0:Lectio8:s/Then .*//s
+
+[Lectio11]
+@Tempora/Epi4-0:Lectio8:s/.* Then /Then /s
+

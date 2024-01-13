@@ -1,0 +1,46 @@
+[Rank]
+Ss. Nazarii et Celsi Martyrum, Victoris I Papæ et Martyris ac Innocentii I Papæ et Confessoris;;Semiduplex;;2;;vide C3
+
+[Rank1960]
+Ss. Nazarii et Celsi Martyrum, Victoris I Papæ et Martyris ac Innocentii I Papæ et Confessoris;;Semiduplex;;3;;vide C3
+
+[Rule]
+vide C3;
+Gloria
+
+[Comment]
+# 28 VII – S.S. Nazário e Celso, Mártire, Victor I, Papa e Mártir, Inocêncio, Papa e Confessor
+! 3 classe
+! Paramentos vermelhos
+
+[Introitus]
+@Commune/C3:Introitus
+
+[Oratio]
+Que a gloriosa profissão de fé dos vossos Santos Nazário, Celso, Vítor e Inocêncio nos fortaleça, Senhor, e que da vossa bondade alcancemos socorro para a nossa fraqueza.
+$Per Dominum
+
+[Lectio]
+Lição do Livro da Sabedoria.
+!Sb 10:17-29
+Deus concedeu aos justos a recompensa dos seus trabalhos, conduzindo-os por um caminho admirável. Foi para eles sombra durante o dia e luz das estrelas durante a noite. Fê-los atravessar o mar Vermelho e guiou-os através das águas caudalosas. E submergiu no mar os seus inimigos, arrojando à praia os cadáveres. Eis porque os justos arrebataram os despojos dos ímpios, cantaram hinos em honra do vosso santo nome, ó Senhor, e louvaram em harmonia a vossa mão vitoriosa, ó Senhor, nosso Deus.
+
+[Graduale]
+@Commune/C3:Graduale
+
+[Evangelium]
+@Commune/C3:Evangelium
+
+[Offertorium]
+@Commune/C3:Offertorium
+
+[Secreta]
+Ó Deus omnipotente, permiti que, oferecendo-Vos estas oblatas em honra dos vossos Santos Nazário, Celso, Vítor e Inocêncio, possamos aplacar-Vos, e, aceitando-as Vós, por elas alcancemos a vida.
+$Per Dominum
+
+[Communio]
+@Commune/C3:Communio
+
+[Postcommunio]
+Deixai-Vos aplacar, Senhor, pela intercessão dos vossos Santos Nazário, Celso, Vítor e Inocêncio e, Vos suplicamos, permiti que estes mystérios, celebrados temporalmente, nos façam alcançar a salvação perpétua.
+$Per Dominum

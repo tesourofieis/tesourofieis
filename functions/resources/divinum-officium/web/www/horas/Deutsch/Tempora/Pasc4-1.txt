@@ -1,0 +1,51 @@
+[Rank]
+Montag der vierten Woche nach der Osteroktav;;Feria;;1
+
+[Rule]
+Oratio Dominica
+Una Antiphona
+Feria Te Deum
+
+[Lectio1]
+Aus dem Briefe des heiligen Apostels Jakobus.
+!Jak 1,17-20
+17 Geliebteste, alles, was es an besten Gaben und an allseitig guten Spenden gibt, geht aus von dem alles bestrahlenden Vater, bei dem es keine Umwandlung gibt und keinen Schatten einer Wesensänderung.
+18 Aus Liebe nämlich hat er uns ein Leben von Kindern gegeben, auf Grund seiner übergroßen Güte, damit wir ein ganz besonderes Meisterwerk seien unter seinen Gebilden. 
+19 Ihr seid Wissende, meine geliebtesten Brüder. Es mag deshalb jedermann schnell zum Hören, langsam zum Reden sein, langsam auch zum Zürnen;
+20 des Menschen Zorn wirkt nämlich nicht, was vor Gott recht ist.
+
+[Responsory1]
+R. Nun mögen alle singen, die gerettet worden, alleluja,
+* Von dem Herrn, alleluja, alleluja.
+V. Die er befreit aus der Gewalt des Feindes und die er versammelt aus der Fremde.
+R. Von dem Herrn, alleluja, alleluja.
+
+[Lectio2]
+!Jak 1,21-24
+21 Deshalb legt ab allen Schmutz und alles, was sich an Schlechtigkeit aufgehäuft hat, und pflegt mit Ausdauer das euch eingepflanzte hehre Gut, das geeignet ist, eure Seelen zum Heil zu führen.
+22 Seid aber Befolger des Gesagten und nicht bloß Hörer, die sich selbst betrügen.
+23 Denn wenn einer nur Hörer und nicht Befolger des Gesagten ist, der gleicht einem Mann, der sein ihm angeborenes Gesicht im Spiegel anblickt: 
+24 denn er blickt sich an, geht weg und vergisst sofort, wie er ausgesehen hat.
+
+[Responsory2]
+R. Singt dem Herrn, alleluja,
+* Spielt ihm auf der Harfe, alleluja.
+V. Erweiset Ruhm dem Herrn und Ehre, erweiset Ehre der Majestät des Herrn.
+R. Spielt ihm auf der Harfe, alleluja.
+&Gloria
+R. Spielt ihm auf der Harfe, alleluja.
+
+[Lectio3]
+!Jak 1,25-27
+25 Wer aber ganz hineinschaut in die so erhabene, den Freiheitsadel begründende Lehre und darin ausharrt, nicht als ein vergesslicher Hörer, sondern als tätiger Befolger, wird durch sein Verhalten zur Seligkeit gelangen.
+26 Wenn aber jemand meint, fromm zu sein, aber seine Zunge nicht zügelt und seinen Sinn zum Bösen lenkt, dessen Frömmigkeit ist nichts wert.
+27 Eine lautere und fehlerlose Frömmigkeit vor Gott dem Vater ist das: Sich der Witwen und Waisen in ihrer Not annehmen und sich frei bewahren vor dem Schmutz dieser Welt.
+
+[Responsory3]
+@Tempora/Pasc4-0:Responsory3
+
+[Ant 2]
+War nicht unser Herz * in uns in der Glut Jesu brennend, als er mit uns auf dem Wege redete? Alleluia.
+
+[Ant 3]
+Ich sage euch die Wahrheit: * es ist gut für euch, dass ich hingehe; wenn ich nämlich nicht hingehe, kommt der Beistand nicht zu euch, alleluja.

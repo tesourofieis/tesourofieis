@@ -1,0 +1,71 @@
+[Rank]
+Dominica III Post Pascha;;Semiduplex;;5;;
+
+[Rule]
+Gloria
+Credo
+
+[Comment]
+# Terceiro Domingo depois da Páscoa
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl 65:1-2
+v. Que todos os povos da terra entoem cânticos de alegria em honra de Deus, aleluia: cantai a glória do seu nome, aleluia: rendei honra e louvor ao Senhor, aleluia, aleluia.
+!Sl 65:3
+v. Dizei a Deus: «Quão admiráveis, Senhor, são as vossas obras! Tão grande é o vosso poder, que sois glorificado até pelos vossos inimigos!».
+&Gloria
+v. Que todos os povos da terra entoem cânticos de alegria em honra de Deus, aleluia: cantai a glória do seu nome, aleluia: rendei honra e louvor ao Senhor, aleluia, aleluia.
+
+[Oratio]
+Ó Deus, que com a luz da verdade esclareceis aqueles que estão no caminho do erro para que possam voltar ao caminho da justiça, concedei aos que professam a fé cristã, que rejeitem tudo quanto é contrário ao nome cristão e sigam o que lhe é conforme.
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Pedro.
+!1 Pe 2:11-19
+v. Caríssimos: Como estrangeiros e peregrinos que sois, exorto-vos a que vos abstenhais dos apetites carnais, que são contrários à alma. Tende uma conduta honesta entre os povos, a fim de que, em vez de vos caluniarem, como a malfeitores, observem as vossas boas obras, e por causa delas glorifiquem o Senhor, no dia da sua visita. Sede, pois, sujeitos por amor de Deus a toda a instituição humana, seja ao rei, como soberano, seja aos governadores, como delegados dele, para castigo dos malfeitores e louvor dos beneméritos; pois é vontade de Deus que, praticando o bem, caleis a ignorância dos homens insensatos. Portai-vos como homens livres, não para fazer da liberdade capa para tapar a malícia, mas para mostrardes que sois servos de Deus. Honrai todos os homens; amai os vossos irmãos; temei a Deus; honrai o rei. Vós, como servos, sede submissos com todo o respeito a vossos senhores, não somente àqueles que são bons e pacíficos, mas também aos que são rigorosos; porquanto isto agrada a Deus, em nosso Senhor Jesus Cristo.
+
+[Graduale]
+Aleluia, aleluia
+!Sl 110:9
+v. O Senhor mandou a salvação ao seu povo. Aleluia.
+!Lc 24:46
+v. Era preciso que Cristo sofresse, para que depois ressuscitasse dos mortos e entrasse assim na glória, aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. João.
+!Jo 16:16-22
+v. Naquele tempo, disse Jesus aos discípulos: «Ainda um pouco de tempo e me não vereis mais; e ainda um pouco de tempo e me tornareis a ver, porque vou ao Pai». Disseram, então, alguns discípulos uns aos outros: «Que significa isto que nos diz: «Ainda um pouco de tempo e me não vereis mais; e mais um pouco de tempo e me tornareis a ver, porque vou ao Pai?». E diziam os discípulos: «Que quer Ele dizer com estas palavras: «Ainda um pouco?». Ignoramos o que quer dizer». Então Jesus, conhecendo que queriam interrogá-l’O, disse-lhes: «Interrogai-vos uns aos outros, porque disse: «Ainda um pouco de tempo e me não vereis mais; e ainda um pouco de tempo e me tornareis a ver?». Em verdade, em verdade vos digo: Chorareis e vos lamentareis, enquanto o mundo se regozija; afligir-vos-eis; mas a vossa tristeza tornar-se-á em gozo. A mulher, quando dá à luz o filho, está triste, porque chegou a sua hora; mas, logo que a criança nasce, esquece as dores que sofreu, com a alegria de ter trazido ao mundo uma criatura humana. Assim, vós, agora, estais tristes; mas outra vez vos verei e o vosso coração estará cheio de gozo; e ninguém vos tirará a alegria».
+
+[Offertorium]
+!Sl 145:2
+v. Louvai o Senhor, ó minha alma. Louvarei o Senhor durante toda a vida: cantarei hinos ao meu Deus, enquanto viver, aleluia.
+
+[Secreta]
+Ó Senhor, por meio destes sagrados mystérios mitigai-nos os desejos terrenos e ensinai-nos a amar as coisas celestiais.
+$Per Dominum
+
+[Communio]
+!Jo 16:16
+v. Ainda um pouco de tempo e me não vereis mais, aleluia; e ainda um pouco de tempo e me tornareis a ver, porque vou para meu Pai, aleluia, aleluia.
+
+[Postcommunio]
+Senhor, Vos suplicamos, permiti que os sacramentos, que recebemos, nos restaurem, tornando-se em alimento para as nossas almas e em auxílio para os nossos corpos.
+$Per Dominum
+
+[Commemoratio Oratio]
+! Oitavária de S. José
+Ó Deus, que com inefável providência Vos dignas-tes eleger o bem-aventurado José para esposo de vossa Mãe Santíssima; concedei-nos, como Vos suplicamos, que o venerando como nosso protector na terra, o mereçamos ter como intercessor no céu.
+$Qui vivis
+
+[Commemoratio Secreta]
+! Oitavária de S. José
+Apoiando-nos sobre o patrocínio do Esposo de vossa Mãe Santíssima, imploramos a vossa clemência, Senhor, para que inspireis aos nossos corações o desprezo pelas coisas terrestres e façais Vos amarmos com caridade perfeita, Vós, o verdadeira Deus.
+$Qui vivis
+
+[Commemoratio Postcommunio]
+! Oitavária de S. José
+Saciados na fonte do divino sacramento, ó Deus e Senhor nosso, humildemente Vos suplicamos que, assim como nos fazeis gozar a protecção do bem-aventurado José, também, pelos seus méritos e intercessão, nos façais participantes da gloriosa celeste.
+$Per Dominum

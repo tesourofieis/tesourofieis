@@ -1,0 +1,74 @@
+[Rank]
+S. Jacobi Apostoli;;Duplex II classis;;5.1;;ex C1
+
+[Rank1960]
+S. Jacobi Apostoli;;Duplex II classis;;5;;ex C1
+
+[Rule]
+ex C1;
+Gloria
+Credo
+
+[Comment]
+# 25 VII – S. Tiago, Apóstolo
+! 2 classe
+! Paramentos vermelhos
+
+São Cristovão, Mártir
+! Comemoração
+! Paramentos vermelhos
+
+[Introitus]
+@Sancti/02-24:Introitus
+
+[Oratio]
+Sede, Senhor, o santificador e o protector do povo, a fim de que, munido com o auxílio do vosso Apóstolo Tiago, ele Vos seja agradável pela sua sã conduta e Vos sirva com tranquilidade de espírito.
+$Per Dominum
+
+[Commemoratio Oratio]
+! São Cristovão
+Ó Deus omnipotente, permiti que, celebrando nós o nascimento do B. Cristovão, vosso Mártir, e pela sua intercessão, alcancemos a graça de sermos confirmados no amor ao vosso Nome.
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+!1 Cor 4:9-15
+Meus irmãos: Penso que Deus nos trata a nós, seus Apóstolos, como se fôssemos os últimos homens destinados à morte, pois nos tornámos espectáculo do mundo, dos Anjos e dos homens. Tornámo-nos insensatos por amor de Cristo; mas vós sois prudentes em Cristo. Nós somos fracos, mas vós sois fortes; sois respeitados, e nós desprezados. Até a esta hora, sofremos a fome, a sede, a nudez, os maus tratos; não temos morada fixa; trabalhamos com muita dificuldade com as nossas mãos; amaldiçoam-nos e abençoamos; perseguem-nos e suportamo-los; injuriam-nos e rezamos por eles; enfim, até agora têm-nos tratado como se fôssemos a escumalha do mundo, por todos desprezada. Escrevo estas coisas não para vos envergonhar, mas para vo-las dar a conhecer, como meus filhos caríssimos que sois, pois, ainda que tivésseis dez mil mestres em Cristo, nem por isso teríeis muitos pais, visto que fui eu que pelo Evangelho vos gerei em Jesus Cristo.
+
+[Graduale]
+!Sl 44:17; 44:18
+Vós os instituístes príncipes em todo o universo: e eles, Senhor, perpetuarão a glória do vosso nome em toda a terra.
+V. Para substituir os vossos pais, nascer-vos-ão filhos: pelo que os povos vos louvarão.  Aleluia, aleluia.
+!Jo 15:16
+Eu vos escolhi para irdes pelo mundo e alcançardes fruto; e que o vosso fruto permaneça. Aleluia.
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Mateus.
+!Mt 20:20-23
+Naquele tempo, a mãe dos filhos de Zebedeu aproximou-se de Jesus com seus dois filhos, adorando-O e querendo pedir-Lhe alguma coisa. Jesus disse-lhe: «Que quereis?». Ela respondeu: «Ordenai que estes meus dois filhos se assentem, um à vossa direita e o outro à vossa esquerda, no vosso reino». Jesus respondeu-lhe: «Não sabeis o que pedis. Podeis beber o cálice que Eu devo beber?». Eles responderam: «Podemos». E Jesus disse-lhes: «Bebereis, com efeito, o meu cálice; porém não depende de mim conceder-vos um lugar à minha direita ou à minha esquerda, pois isso é para aqueles para quem meu Pai o preparou».
+
+[Offertorium]
+!Sl 18:5
+O som da sua voz ecoou por toda a terra; e as suas palavras prolongaram-se até às extremidades da terra.
+
+[Secreta]
+Permiti, Senhor, Vos suplicamos, que o glorioso martírio do B. Apóstolo Tiago nos alcance a graça de receberdes as ofertas do vosso povo, e, apesar dos nossos méritos serem insuficientes, fazei que sua deprecação Vo-las torne agradáveis.
+$Per Dominum
+
+[Commemoratio Secreta]
+! São Cristovão
+Havendo Vós, Senhor, aceitado as nossas ofertas e orações, dignai-Vos purificar-nos com vossos celestiais mystérios e ouvir-nos benignamente.
+$Per Dominum
+
+[Communio]
+!Mt 19:28
+Vós, que me seguistes, assentar-vos-eis sobre tronos e julgareis as doze tribos de Israel.
+
+[Postcommunio]
+Auxiliai-nos, Senhor, Vos suplicamos, pela intercessão do vosso B. Apóstolo Tiago, em cuja festa recebemos com júbilo os sacrossantos méritos.
+$Per Dominum
+
+[Commemoratio Postcommunio]
+! São Cristovão
+Permiti, ó Senhor, nosso Deus, Vos suplicamos, que, assim como nos alegramos, comemorando nesta vida pelo nosso ministério a memória dos vossos Santos, assim também tenhamos a felicidade de os contemplar na eternidade.
+$Per Dominum

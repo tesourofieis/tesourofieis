@@ -1,0 +1,25 @@
+@Tempora/Pasc6-3
+
+[Rank]
+Feria IV post Ascensionem;;Feria;;1;;vide TemporaM/Pasc5-4
+
+[Rule]
+
+[Oratio]
+@Tempora/Pasc6-0
+
+[Capitulum Vespera]
+@TemporaM/Pasc5-5
+
+[Capitulum Laudes]
+@TemporaM/Pasc5-5
+
+[Capitulum Tertia]
+@TemporaM/Pasc5-5
+
+[Capitulum Sexta]
+@TemporaM/Pasc5-5
+
+[Capitulum Nona]
+@TemporaM/Pasc5-5
+

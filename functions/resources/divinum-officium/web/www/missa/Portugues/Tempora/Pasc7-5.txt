@@ -1,0 +1,67 @@
+[Rank]
+Feria Sexta Quattuor Temporum Pentecostes;;Semiduplex I classis;;5;;ex Pasc7-0
+
+[Rank]
+Feria Sexta Quattuor Temporum Pentecostes;;Semiduplex I classis;;6;;ex Pasc7-0
+
+[RankNewcal]
+Feria VI post Pentecostes;;Feria;;1;;
+
+[Rule]
+Gloria
+Sequentia
+Credo
+Prefatio=Spiritu
+
+[Comment]
+# Sexta-feira das Têmporas de Pentecostes
+! Estação nos Doze Apóstolos
+! 1 classe
+! Paramentos vermelhos
+
+[Introitus]
+!Sl 70:8; 70:23
+v. Que a minha boca se encha com vossos louvores, aleluia: para que eu possa cantar, aleluia. E alegrar-se-ão os meus lábios quando cantarem vossos hinos, aleluia, aleluia.
+!Sl 70:1-2
+Senhor, confio em Vós, não serei confundido para sempre; pois a vossa justiça me livrará e salvará.
+&Gloria
+v. Que a minha boca se encha com vossos louvores, aleluia: para que eu possa cantar, aleluia. E alegrar-se-ão os meus lábios quando cantarem vossos hinos, aleluia, aleluia.
+
+[Oratio]
+Ó Deus misericordioso, Vos suplicamos, concedei à vossa Igreja que, havendo sido instituída pelo Espírito Santo, não seja de modo algum perturbada pelos ataques dos seus inimigos.
+$Per Dominum eiusdem
+
+[Lectio]
+Lição do Profeta Joel.
+!Jl 2:23-24; 26-27
+Isto diz o Senhor Deus: «Alegrai-vos, ó filhos de Sião, rejubilai no Senhor, vosso Deus, pois deu-vos um Mestre, que vos ensinará a justiça e fará cair sobre vós, como outrora, as chuvas do outono e da primavera. Vossas eiras encher-se-ão de trigo e os lagares de vinho e de azeite. Comereis com abundância e sereis fartos. E louvareis o nome do Senhor, vosso Deus, que tantas maravilhas praticou para vosso benefício. Meu povo não mais será confundido. Então conhecereis que sou Eu que estou no meio de Israel; que sou o Senhor, vosso Deus; e que outro Deus não existe. Meu povo não será mais confundido»: isto diz o Senhor omnipotente.
+
+[Graduale]
+Aleluia, aleluia.
+!Sb 12:1
+Senhor, como é bom e suave o vosso Espírito! Aleluia (Genuflecte-se)
+V. Vinde ó Espírito Santo; enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.
+
+[Sequentia]
+@Tempora/Pasc7-0:Sequentia
+
+[Evangelium]
+Continuação ++ do santo Evangelho segundo S. Lucas.
+!Lc 5:17-26
+Naquele tempo, aconteceu que Jesus ensinava. Estavam ao pé dele, assentados também, alguns fariseus e doutores da lei, que tinham vindo das aldeias da Galileia, da Judeia e de Jerusalém. E o poder do Senhor manifestava-se ali pelas suas curas. Então, eis que uns homens trouxeram num leito um paralítico, diligenciando levá-lo presença de Jesus. Não encontrando lugar, pois a multidão era grande, subiram ao telhado e através das telhas desceram o paralítico no leito, no meio de todos e na presença de Jesus. Vendo Jesus a fé destes homens, disse: «Homem, os teus pecados são-te perdoados». Então os escribas e os fariseus começaram a raciocinar nestas palavras e disseram: «Quem é este que blasfema desta maneira? Quem pode perdoar pecados senão só Deus?». Jesus, conhecendo os pensamentos deles, tomou a palavra e disse: «Que pensais no íntimo dos vossos corações? Qual é mais fácil dizer: são-te perdoados os teus pecados, ou levanta-te e caminha? Pois para que conheçais que o Filho do homem tem poder na terra para perdoar pecados: Eu te ordeno, (disse ao paralítico) levanta-te, leva o teu leito e vai para tua casa!». E naquele mesmo instante levantou-se o paralítico, pegou no leito em que viera deitado e foi para sua casa, dando graças a Deus. Todos ficaram atónitos, dizendo: «Hoje vimos maravilhas!».
+
+[Offertorium]
+!Sl 145:1-2
+Ó minha alma, louva o Senhor! Louvarei o Senhor em toda minha vida: louvarei o Senhor, enquanto eu viver, aleluia.
+
+[Secreta]
+Que aquele fogo divino, ó Senhor, de que o Espírito Santo abrasou os corações dos discípulos de Jesus Cristo, vosso Filho, consuma o sacrifício que oferecemos diante de vossos olhos.
+$Per Dominum eiusdem
+
+[Communio]
+!Jo 14:18
+Não vos deixarei órfãos: de novo virei a vós, aleluia: e o vosso coração se alegrará, aleluia.
+
+[Postcommunio]
+Recebemos, Senhor, os dons do divino mystério; e permiti, Vos suplicamos humildemente, que este sacrifício, que mandastes consumar em vossa memória, se torne em auxílio da nossa fraqueza.
+$Qui vivis

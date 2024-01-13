@@ -1,0 +1,43 @@
+@Tempora/Pasc6-6
+
+[Rank]
+In Vigilia Pentecostes;;I classis Semiduplex;;7;;vide TemporaM/Pasc5-4
+
+[Rule]
+
+
+[Oratio]
+@Tempora/Pasc6-0
+
+[Lectio1]
+@:Lectio7
+
+[Responsory1]
+@Tempora/Pasc5-4:Responsory7
+
+[Lectio2]
+@:Lectio8
+
+[Responsory2]
+@Tempora/Pasc5-4:Responsory8
+
+[Lectio3]
+@:Lectio9
+
+[Responsory3]
+@Tempora/Pasc6-0:Responsory8
+
+[Capitulum Vespera]
+@TemporaM/Pasc5-5
+
+[Capitulum Laudes]
+@TemporaM/Pasc5-5
+
+[Capitulum Tertia]
+@TemporaM/Pasc5-5
+
+[Capitulum Sexta]
+@TemporaM/Pasc5-5
+
+[Capitulum Nona]
+@TemporaM/Pasc5-5

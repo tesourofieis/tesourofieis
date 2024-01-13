@@ -1,0 +1,56 @@
+[Rank]
+Dominica V Post Pascha;;Semiduplex;;5;;
+
+[Rule]
+Gloria
+Credo
+Suffr=Maria3;Ecclesiae,Papa;;
+
+[Comment]
+# Quinto Domingo depois da Páscoa
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Is 48:20
+v. Com voz de alegria anunciai, fazei ouvir: aleluia; proclamai até aos confins da terra; o Senhor libertou o povo, aleluia, aleluia.
+!Sl 65:1-2
+v. Ó povos de toda a terra, aclamai Deus com júbilo: cantai hinos em honra do seu nome: rendei-Lhe honras e louvores.
+&Gloria
+v. Com voz de alegria anunciai, fazei ouvir: aleluia; proclamai até aos confins da terra; o Senhor libertou o povo, aleluia, aleluia..
+
+[Oratio]
+Ó Deus, origem de todos os bens, dignai-Vos conceder a estes fiéis suplicantes que por vossa inspiração meditemos naquilo que é recto, e, sob o vosso império, cumpramos aquilo em que meditámos.
+$Per Dominum.
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º Tiago.
+!Tg 1:22-27
+v. Caríssimos: Sede praticantes do ensino da palavra, e não vos contenteis em ouvi-la, pois vos enganais. Se alguém ouve a palavra e a não cumpre, é semelhante a um homem que vê em um espelho o seu rosto natural e, apenas o vê, retira-se, esquecendo logo o que era. Aquele, porém, que grava bem no espírito a lei perfeita da liberdade, e a enraíza em si, não ouvindo para logo esquecer, mas para praticar com suas acções o que ouviu, esse encontrará a felicidade nas suas acções. Se alguém pensa ser religioso, e não refreia a língua, engana o seu Próprio coração, e a sua religião é vã. A religião pura e imaculada para com o nosso Deus ai consiste em visitar os órfãos e as viúvas nas tribulações e em conservar-se puro no meio da corrupção do mundo.
+
+[Graduale]
+Aleluia, aleluia.
+V. Cristo ressuscitou e fez brilhar a sua luz sobre nós, que fomos remidos com seu sangue. Aleluia.
+!Jo 16:28
+v. Eu saí do Pai e vim ao mundo: e agora deixo o mundo e volto para o Pai. Aleluia.
+
+[Evangelium]
+Continuação ++ do Santo Evangelho segundo S. João.
+!Jo 16:23-30
+v. Naquele tempo, disse Jesus aos seus discípulos: «Em verdade, em verdade vos digo: Se pedirdes ao meu Pai alguma coisa em meu nome, Ele vo-la dará. Até agora nada pedistes em meu nome. Pedi e recebereis, para que a vossa alegria seja perfeita. Tenho-vos dito estas coisas, servindo-me de parábolas. Chegou a hora em que vos não falarei por meio de parábolas a respeito do Pai, mas claramente. Nesse dia pedireis em meu nome, e não digo que pedirei por vós ao Pai, porque o próprio Pai vos ama, pois me amais e acreditastes que saí do Pai. Eu saí do Pai e vim ao mundo; e, agora, deixo o mundo e volto para o Pai». Então os discípulos disseram-Lhe: «Agora falais claramente e sem parábolas; agora conhecemos que sabeis tudo e que não é mister que ninguém Vos interrogue. Eis porque cremos que saístes do Pai».
+
+[Offertorium]
+!Sl 65:8-9; 65:20
+v. Ó povos, bendizei o Senhor, nosso Deus, e fazei ressoar cânticos em seu louvor; pois foi Ele quem conservou a vida à minha alma e não permitiu que meus pés tropeçassem. Bendito seja Deus, que não rejeitou a minha oração, nem me faltou com sua misericórdia, aleluia.
+
+[Secreta]
+Dignai-Vos, Senhor, aceitar as preces dos fiéis juntamente com as hóstias que Vos são oferecidas; e, em recompensa deste dever da nossa pia devoção, permiti que alcancemos a glória celestial.
+$Per Dominum
+
+[Communio]
+!Sl 95:2
+v. Cantai hinos em honra do Senhor: cantai hinos em honra do Senhor: bendizei o seu nome; proclamai constantemente, dia a dia, a salvação que nos concede, aleluia, aleluia.
+
+[Postcommunio]
+Havendo nós sido fortalecidos com o Pão da mesa celestial, concedei-nos, Senhor, a graça de desejarmos o que é justo e de alcançarmos o que desejamos.
+$Per Dominum

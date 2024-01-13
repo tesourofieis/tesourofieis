@@ -1,0 +1,21 @@
+
+[Lectio6]
+@Tempora/Epi5-0:Lectio5:s/The first .*//s
+
+[Lectio7]
+@Tempora/Epi5-0:Lectio5:s/.* The first /The first /s s/$/~/
+@Tempora/Epi5-0:Lectio6:s/For what .*//s
+
+[Lectio8]
+@Tempora/Epi5-0:Lectio6:s/.* For what /For what /s
+
+[Lectio10]
+@Tempora/Epi5-0:Lectio8:s/But they .*//s
+
+[Lectio11]
+@Tempora/Epi5-0:Lectio8:s/.* But they /But they /s s/$/~/
+@Tempora/Epi5-0:Lectio9:s/For the .*//s
+
+[Lectio12]
+@Tempora/Epi5-0:Lectio9:s/.* For the /For the /s
+

@@ -1,0 +1,55 @@
+[Rank]
+S. Joannis a Capistrano Confessoris;;Semiduplex;;2.1;;vide C5
+
+[Rule]
+vide C5;
+Gloria
+
+[Comment]
+# 28 III – São João Capistrano, Confessor
+! 3 classe
+! Paramentos brancos
+
+[Introitus]
+!Hab 3:18-19
+v. Alegrar-me-ei no Senhor; rejubilarei em Deus, meu Salvador. O Senhor, meu Deus, é a minha fortaleza.
+!Sl 80:2
+Exultai de alegria, louvando Deus, que é o nosso sustentáculo: aclamai com júbilo Deus de Jacob.
+&Gloria
+v. Alegrar-me-ei no Senhor; rejubilarei em Deus, meu Salvador. O Senhor, meu Deus, é a minha fortaleza.
+
+[Oratio]
+Ó Deus, que pelo B. João permitistes que os vossos fiéis, graças à virtude do Santíssimo Nome de Jesus, triunfassem dos inimigos da Cruz, concedei-nos, Vos suplicamos, que, havendo resistido por sua intercessão às tentações dos inimigos, mereçamos receber de vossas mãos a coroa de justiça.
+$Per eundem
+
+[Lectio]
+@Sancti/03-27:Lectio
+
+[Tractus]
+!Sl 21:24-25
+Ó vós, que temeis o Senhor, louvai-O! Vós todos, que sois descendentes de Jacob, glorificai-O!
+V. Tema-O toda a geração de Israel: pois não desprezou, nem desdenhou a oração do pobre.
+!Ex 15:2-3
+O Senhor é a minha fortaleza e o objecto dos meus louvores. Foi Ele, que é o meu Deus, quem me salvou: eu O glorificarei. 
+V. O Senhor mostrou-se um guerreiro invencível: o seu nome é omnipotente. 
+!Jdt. 16, 3
+O Senhor é o vencedor das batalhas. Senhor é o seu nome!
+
+[Evangelium]
+@Tempora/Pasc7-4:Evangelium
+
+[Offertorium]
+!Sb 46:6
+Invocou o Omnipotente, o Altíssimo, quando os inimigos o atacaram por todos os lados: e Deus, infinito e santo, escutou-o.
+
+[Secreta]
+Olhai aplacado, Senhor, para esta vítima, que imolamos em vossa honra, a fim de que por intercessão do B. João, vosso Confessor, nos acolha com segurança, e sob a vossa protecção possamos repelir as insídias dos inimigos.
+$Per Dominum
+
+[Communio]
+!Sb 10:20
+Celebraram com seus cânticos o vosso santo nome, ó Senhor, e louvaram a vossa mão vitoriosa.
+
+[Postcommunio]
+Saciados com o alimento celestial e fortalecidos com a bebida espiritual, Vos pedimos, ó Deus omnipotente, por intercessão do B. João, vosso Confessor, defendei-nos contra o inimigo maligno e conservai a vossa Igreja em contínua paz.
+$Per Dominum

@@ -1,0 +1,18 @@
+[Responsory3]
+R. Beata sei tu, santa vergine Maria, e molto degna di ogni lode:
+* poiché da te è nato il sole di giustizia. Cristo, nostro Dio.
+V. Prega per il popolo, intervieni per il clero, intercedi per il ceto femminile religioso: sentano il tuo aiuto tutti coloro che celebrano la tua santa commemo razione.
+R. Poiché da te è nato il sole di giustizia.
+&Gloria
+R. Cristo, nostro Dio.
+
+[Capitulum Vespera]
+!Sir 24:14
+v. Da principio e prima dei secoli  io sono stata creata, e fino all'età futura non cesserò di esistere, ed ho servito nel santuario alla sua presenza.  
+$Deo gratias.
+
+[Lectio11]
+!from tempora
+
+[Lectio21]
+!from tempora

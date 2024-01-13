@@ -1,0 +1,74 @@
+[Rank]
+Dominica II. Post Pentecosten;;Semiduplex I classis;;5.9;;ex Tempora/Pent01-4
+
+[Rank1960]
+Dominica II post Octavam Pentecostes;;Duplex II classis;;5
+
+[Rule]
+ex Tempora/Pent01-4
+Gloria
+Credo
+Prefatio=Nat
+Prefatio1960=Trinitate
+
+[Comment]
+# Segundo Domingo depois de Pentecostes, Dentro Oitavária do SS. Corpo do Senhor
+! 1 classe
+! Paramentos brancos
+
+[Introitus]
+!Sl. 17:19-20.
+v. O Senhor fez-se o meu protector e conduziu-me para o largo: E, porque me amava, salvou-me.
+!Sl 17:2-3
+Amar-Vos-ei, Senhor, pois sois a minha fortaleza. Sim, o Senhor é o meu sustentáculo, refúgio e libertador.
+&Gloria
+v. O Senhor fez-se o meu protector e conduziu-me para o largo: E, porque me amava, salvou-me.
+
+[Oratio]
+Fazei, Senhor, que possuamos perpetuamente o temor e o amor do vosso santo nome, porquanto nunca cessais de inspirar e dirigir aqueles em quem infundistes solidamente o vosso amor.
+$Per Dominum
+
+[Lectio]
+Lição da Ep.ª do B. Ap.º João.
+!1 Jo 3:13-18.
+Caríssimos: Não vos admireis se porventura o mundo vos odeia. Sabemos que passámos da morte à vida, porque amamos os nossos irmãos. Aquele que não ama, permanece na morte. Aquele que odiar o seu irmão, é homicida; e bem sabeis que em nenhum homicida permanece a vida eterna. Por este sinal conhecemos o amor de Deus: É que, assim como Ele deu a vida por nós, assim também devemos dar a vida pelos nossos irmãos. Se alguém, tendo bens neste mundo e vendo seu irmão com necessidade, lhe fecha o coração, porventura permanece nele o amor de Deus? Meus filhinhos: Não amemos somente com palavras e com desejos, mas com obras e verdade.
+
+[Graduale]
+!Sl. 119:1-2.
+Quando estava na tribulação, clamei pelo Senhor, que me ouviu.
+V. Livrai, Senhor, a minha alma dos lábios mentirosos e da língua traiçoeira. Aleluia, aleluia.
+!Sl 7:2
+V. Senhor, meu Deus, refugio-me em Vós: salvai-me das mãos dos meus perseguidores: livrai-me. Aleluia.
+
+[Evangelium]
+Continuação ++ do Santo Evangelho segundo S. Lucas.
+!Lc 14:16-24.
+Naquele tempo, disse Jesus aos fariseus esta parábola: «Um homem fez uma lauta ceia, convidando para assistir muitas pessoas. À hora da comida, mandou um servo dizer aos convidados que viessem, porque estava tudo preparado. Então, todos, unanimemente, se escusaram. O primeiro disse-lhe: Comprei um campo e tenho necessidade de ir vê-lo; rogo-te, pois, me dês como escusado, segundo disse: Comprei cinco juntas de bois, e vou experimentá-las; peço-te, pois, me escuses. Um outro disse: Eu casei-me; portanto, não posso assistir. Voltando o servo, contou ao senhor todas estas coisas. Então este indignou-se e disse ao servo: Vai depressa por essas praças e ruas da cidade, e conduz para aqui os pobres, os aleijados, os cegos e os coxos. Depois disse o servo: Senhor, fiz o que me mandastes e ainda há lugar. Respondeu ele ao servo: «Vai pelos caminhos e valados e obriga-os a entrar, porque quero que minha casa fique cheia. Eu vos afirmo que nenhum do que haviam sido convidados provará a minha ceia».
+
+[Offertorium]
+!Sl. 6:5.
+Senhor, volvei para mim a vossa face: e livrai a minha alma: salvai-me pela vossa misericórdia.
+
+[Secreta]
+Senhor, que a oblação que vai ser consagrada ao vosso nome nos purifique; e que dia a dia nos aperfeiçoe na prática de uma vida toda celestial.
+$Per Dominum
+
+[Communio]
+!Sl. 12:6.
+Cantarei hinos ao Senhor, porque me cumulou de benefícios. Cantarei salmos ao nome do altíssimo Senhor.
+
+[Postcommunio]
+Havendo recebido estes dons sacratíssimos. Vos imploramos, Senhor, fazei que pela recepção frequente deste mystério nos sejam aumentados os frutos da salvação.
+$Per Dominum
+
+[Commemoratio Oratio]
+! Oitava do Corpo de Cristo
+@Tempora/Pent01-4:Oratio
+
+[Commemoratio Secreta]
+! Oitava do Corpo de Cristo
+@Tempora/Pent01-4:Secreta
+
+[Commemoratio Postcommunio]
+! Oitava do Corpo de Cristo
+@Tempora/Pent04-1:Postcommunio

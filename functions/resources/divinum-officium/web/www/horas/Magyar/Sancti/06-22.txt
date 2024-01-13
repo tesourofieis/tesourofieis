@@ -1,0 +1,19 @@
+[Rank]
+S. Paulini episcopi et Confessoris;;Duplex;;3;;vide C4
+
+[Rank1960]
+S. Paulini episcopi et Confessoris;;Duplex;;3;;vide C4
+
+[RankNewcal]
+S. Paulini episcopi et Confessoris;;Duplex optional;;2;;vide C4
+
+[Rule]
+vide C4;
+9 lectiones
+
+[Versum 3]
+V. Az igazat az Úr egyenes utakon vezeti
+R. Megmutatja neki Isten országát
+
+[Ant 3]
+A férfi aki megveti * a világot és a földi dolgokat győzelmes, égi kincseket gyüjt szava és keze 

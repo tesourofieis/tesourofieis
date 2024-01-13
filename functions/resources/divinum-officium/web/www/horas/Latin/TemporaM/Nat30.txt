@@ -1,0 +1,31 @@
+[Rank]
+Die VI infra Octavam Nativitatem Domini;;Duplex II class;;4.9;;ex Sancti/12-25
+
+[Rule]
+Psalmi Dominica
+Antiphonas horas
+
+[Lectio1]
+@Tempora/Nat30:Lectio7
+
+[Responsory1]
+@SanctiM/12-25:Responsory11
+
+[Lectio2]
+@Tempora/Nat30:Lectio8
+
+[Responsory2]
+@Sancti/12-25:Responsory8
+
+[Lectio3]
+@Tempora/Nat30:Lectio9
+
+[Responsory3]
+@Tempora/Nat1-0:Responsory8
+
+[Ant Vespera]
+@Sancti/12-25:Ant Vespera 3:s/.*;;129/;;131/
+
+[MM Capitulum]
+@Psalterium/Matutinum Special:MM Capitulum Nat:1-4
+@Sancti/12-25:Versum 2
