@@ -6,3 +6,9 @@
 Add additional Tailwind styles to this file, for example with @layer:
 https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
+
+/* .sl-markdown-content */
+/*   :not(a, strong, em, del, span, input, code) */
+/*   + :not(a, strong, em, del, span, input, code, :where(.not-content *)) { */
+/*   margin-top: 0; */
+/* } */
