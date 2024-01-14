@@ -23,24 +23,60 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: "Missal",
+          items: [
+            { label: "Calendario", link: "/missal/calendario" },
+            { label: "Missa do dia", link: "/missal/dia" },
+            { label: "Próprio de Portugal", link: "/missal/proprioportugal" },
+          ],
+        },
+        {
           label: "Devocionario",
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Rosario", link: "/rosario" },
-            { label: "Salterio", link: "/salterio" },
-            { label: "Oracao da manha", link: "/oracaomanha" },
-            { label: "Angelus", link: "/angelus" },
-            { label: "Oracao da noite", link: "/oracaonoite" },
+            { label: "Rosario", link: "/devocionario/rosario" },
+            { label: "Salterio", link: "/devocionario/salterio" },
+            { label: "Adoração", link: "/devocionario/adoracao" },
+            { label: "Oracao da manha", link: "/devocionario/oracaomanha" },
+            { label: "Angelus", link: "/devocionario/angelus" },
+            { label: "Oracao da noite", link: "/devocionario/oracaonoite" },
             {
               label: "Pequeno Oficio de Nossa Senhora",
               items: [
-                { label: "Matinas", link: "/oficion/matinas" },
-                { label: "Vésperas", link: "/oficion/vesperas" },
-                { label: "Completas", link: "/oficion/completas" },
+                { label: "Matinas", link: "/devocionario/oficio/matinas" },
+                { label: "Vésperas", link: "/devocionario/oficio/vesperas" },
+                { label: "Completas", link: "/devocionario/oficio/completas" },
               ],
             },
             {
-              label: "Cãnticos",
+              label: "Orações",
+              items: [
+                { label: "Pai nosso", link: "/oracoes/pai-nosso" },
+                { label: "Ave Maria", link: "/oracoes/ave-maria" },
+                { label: "Glória", link: "/oracoes/gloria" },
+                {
+                  label: "Ladaínhas",
+                  items: [
+                    { label: "Ladaínha Z", link: "/oracoes/ladainhas/z" },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          label: "Fe",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "Catecismo", link: "/fe/catecismo" },
+            { label: "Verdades", link: "/fe/verdades" },
+            { label: "Juramento", link: "/fe/verdades" },
+          ],
+        },
+        {
+          label: "Cãnticos",
+          items: [
+            {
+              label: "Sacros",
               items: [
                 {
                   label: "Antifonas de Nossa Senhora",
@@ -73,11 +109,12 @@ export default defineConfig({
               ],
             },
             {
-              label: "Orações",
+              label: "Populares",
               items: [
-                { label: "Pai nosso", link: "/oracoes/pai-nosso" },
-                { label: "Ave Maria", link: "/oracoes/ave-maria" },
-                { label: "Glória", link: "/oracoes/gloria" },
+                {
+                  label: "Salve Nobre Padroeira",
+                  link: "/canticos/Populares/salvenobre",
+                },
               ],
             },
           ],
@@ -85,17 +122,12 @@ export default defineConfig({
         {
           label: "Ritual",
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Missa", link: "/missa" },
-            { label: "Adoracao", link: "/adoracao" },
-          ],
-        },
-        {
-          label: "Fe",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Catecismo", link: "/catecismo" },
-            { label: "Verdades", link: "/verdades" },
+            { label: "Baptismo", link: "/ritual/baptismo" },
+            { label: "Confirmação", link: "/ritual/confirmacao" },
+            { label: "Matrimónio", link: "/ritual/matrimonio" },
+            { label: "Extrema Unção", link: "/ritual/extremauncao" },
+            { label: "Requiem", link: "/ritual/requiem" },
+            { label: "Penitência", link: "/ritual/penitencia" },
           ],
         },
       ],
