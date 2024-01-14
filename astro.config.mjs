@@ -7,6 +7,12 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Tesouro dos Fieis",
+      locales: {
+        root: {
+          label: "Português",
+          lang: "pt",
+        },
+      },
       logo: {
         src: "./public/favicon.svg",
       },
