@@ -26,7 +26,7 @@ Install and run the project `Missal1962` with:
 - python 3.9
 - jekyll
 
-```
+```bash
 cd missal1962
 pipenv install --dev
 pipenv shell
