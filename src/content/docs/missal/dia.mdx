@@ -7,11 +7,10 @@ import { yyyyMMDD } from "../../../../lib/src/utils.ts";
 
 export const day = getDay(yyyyMMDD(new Date()));
 
-<div>
-  {day.vernacular_section.map((i) => (
-    <>
-      <h1>{i.id}</h1>
-      {i.body.map((b) => (b.startsWith("!") ? <h6>{b}</h6> : <span>{b}</span>))}
-    </>
-  ))}
-</div>
+### {day.info.title}
+
+{JSON.stringify({day: day.info}, null, 2)}
+
+{JSON.stringify({day: day.vernacular_section}, null, 2)}
+
+{JSON.stringify({day: day.latin_section}, null, 2)}
