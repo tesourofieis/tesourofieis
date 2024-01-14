@@ -33,12 +33,51 @@ export default defineConfig({
             { label: "Oracao da noite", link: "/oracaonoite" },
             {
               label: "Pequeno Oficio de Nossa Senhora",
-              items: [{ label: "Matinas", link: "/oficion/matinas" }],
+              items: [
+                { label: "Matinas", link: "/oficion/matinas" },
+                { label: "Vésperas", link: "/oficion/vesperas" },
+                { label: "Completas", link: "/oficion/completas" },
+              ],
             },
             {
-              label: "Canto",
+              label: "Cãnticos",
               items: [
-                { label: "Antifonas de Nossa Senhora", link: "/antifonas" },
+                {
+                  label: "Antifonas de Nossa Senhora",
+                  link: "/canticos/sacros/antifonas",
+                },
+                {
+                  label: "Adoro te devote",
+                  link: "/canticos/sacros/adorote",
+                },
+                {
+                  label: "Ave verum",
+                  link: "/canticos/sacros/aveverum",
+                },
+                {
+                  label: "Ecce panis angelorum",
+                  link: "/canticos/sacros/eccepanisangelorum",
+                },
+                {
+                  label: "Parce domine",
+                  link: "/canticos/sacros/parcedomine",
+                },
+                {
+                  label: "O Salutaris",
+                  link: "/canticos/sacros/salutaris",
+                },
+                {
+                  label: "Tantum ergo",
+                  link: "/canticos/sacros/tantumergo",
+                },
+              ],
+            },
+            {
+              label: "Orações",
+              items: [
+                { label: "Pai nosso", link: "/oracoes/pai-nosso" },
+                { label: "Ave Maria", link: "/oracoes/ave-maria" },
+                { label: "Glória", link: "/oracoes/gloria" },
               ],
             },
           ],
