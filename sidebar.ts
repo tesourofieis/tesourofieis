@@ -1,12 +1,12 @@
 export const sidebar = [
-  {
-    label: "Missal",
-    items: [
-      { label: "Calendario", link: "/missal/calendario" },
-      { label: "Missa do dia", link: "/missal/dia" },
-      { label: "Próprio de Portugal", link: "/missal/proprioportugal" },
-    ],
-  },
+  // {
+  //   label: "Missal",
+  //   items: [
+  //     { label: "Calendario", link: "/missal/calendario" },
+  //     { label: "Missa do dia", link: "/missal/dia" },
+  //     { label: "Próprio de Portugal", link: "/missal/proprioportugal" },
+  //   ],
+  // },
   {
     label: "Devocionario",
     items: [
