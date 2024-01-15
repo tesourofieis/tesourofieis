@@ -628,6 +628,11 @@ export const sidebar = [
         collapsed: true,
         items: [
           { label: "Matinas", link: "/devocionario/oficio/matinas" },
+          { label: "Lauds", link: "/devocionario/oficio/lauds" },
+          { label: "Prima", link: "/devocionario/oficio/prima" },
+          { label: "Terça", link: "/devocionario/oficio/terca" },
+          { label: "Sexta", link: "/devocionario/oficio/sexta" },
+          { label: "Noa", link: "/devocionario/oficio/noa" },
           { label: "Vésperas", link: "/devocionario/oficio/vesperas" },
           { label: "Completas", link: "/devocionario/oficio/completas" },
         ],
@@ -639,9 +644,54 @@ export const sidebar = [
           { label: "Pai nosso", link: "/devocionario/oracoes/painosso" },
           { label: "Ave Maria", link: "/devocionario/oracoes/avemaria" },
           { label: "Glória", link: "/devocionario/oracoes/gloria" },
+          { label: "Deus Pai", link: "/devocionario/oracoes/deuspai" },
+          {
+            label: "Nosson Senhor Jesus Cristo",
+            link: "/devocionario/oracoes/jesus",
+          },
+          {
+            label: "Espírito Santo",
+            link: "/devocionario/oracoes/espiritosanto",
+          },
           {
             label: "Portugal",
             link: "/devocionario/oracoes/portugal",
+          },
+          {
+            label: "Fátima",
+            link: "/devocionario/oracoes/fatima",
+          },
+          {
+            label: "São José",
+            link: "/devocionario/oracoes/jose",
+          },
+          {
+            label: "São Miguel Arcanjo",
+            link: "/devocionario/oracoes/saomiguel",
+          },
+          {
+            label: "Terço Bernardes",
+            link: "/devocionario/oracoes/tercobernardes",
+          },
+          {
+            label: "Antifonas do Ó",
+            link: "/devocionario/oracoes/antifonasdoo",
+          },
+          {
+            label: "Acto de Caridade",
+            link: "/devocionario/oracoes/actocaridade",
+          },
+          {
+            label: "Acto de Contrição",
+            link: "/devocionario/oracoes/actocontricao",
+          },
+          {
+            label: "Acto de Esperança",
+            link: "/devocionario/oracoes/actoesperanca",
+          },
+          {
+            label: "Acto de Fé",
+            link: "/devocionario/oracoes/actofe",
           },
           {
             label: "Ladaínhas",
@@ -678,7 +728,7 @@ export const sidebar = [
             ],
           },
           {
-            label: "Antifonas de Nossa Senhora",
+            label: "Antífonas de Nossa Senhora",
             collapsed: true,
             items: [
               {
