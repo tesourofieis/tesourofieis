@@ -634,10 +634,15 @@ export const sidebar = [
       },
       {
         label: "Orações",
+        collapsed: true,
         items: [
-          { label: "Pai nosso", link: "/oracoes/pai-nosso" },
-          { label: "Ave Maria", link: "/oracoes/ave-maria" },
-          { label: "Glória", link: "/oracoes/gloria" },
+          { label: "Pai nosso", link: "/devocionario/oracoes/painosso" },
+          { label: "Ave Maria", link: "/devocionario/oracoes/avemaria" },
+          { label: "Glória", link: "/devocionario/oracoes/gloria" },
+          {
+            label: "Portugal",
+            link: "/devocionario/oracoes/portugal",
+          },
           {
             label: "Ladaínhas",
             collapsed: true,
@@ -646,23 +651,29 @@ export const sidebar = [
                 label: "Coração de Jesus",
                 link: "/oracoes/ladainhas/coracaojesus",
               },
-              { label: "São José", link: "/oracoes/ladainhas/jose" },
-              { label: "Loreto", link: "/oracoes/ladainhas/loreto" },
+              {
+                label: "São José",
+                link: "/devocionario/oracoes/ladainhas/jose",
+              },
+              {
+                label: "Loreto",
+                link: "/devocionario/oracoes/ladainhas/loreto",
+              },
               {
                 label: "Nome Jesus",
-                link: "/oracoes/ladainhas/nomejesus",
+                link: "/devocionario/oracoes/ladainhas/nomejesus",
               },
               {
                 label: "Sangue Jesus",
-                link: "/oracoes/ladainhas/sanguejesus",
+                link: "/devocionario/oracoes/ladainhas/sanguejesus",
               },
               {
                 label: "Santa Isabel",
-                link: "/oracoes/ladainhas/isabel",
+                link: "/devocionario/oracoes/ladainhas/isabel",
               },
               {
                 label: "Todos os Santos",
-                link: "/oracoes/ladainhas/santos",
+                link: "/devocionario/oracoes/ladainhas/santos",
               },
             ],
           },
@@ -672,19 +683,19 @@ export const sidebar = [
             items: [
               {
                 label: "Ave, Regína cælórum",
-                link: "/oracoes/antifonas/avereginacaelorum",
+                link: "/devocionario/oracoes/antifonas/avereginacaelorum",
               },
               {
                 label: "Regína cæli",
-                link: "/oracoes/antifonas/reginacaeli",
+                link: "/devocionario/oracoes/antifonas/reginacaeli",
               },
               {
                 label: "Salve, Regina",
-                link: "/oracoes/antifonas/salveregina",
+                link: "/devocionario/oracoes/antifonas/salveregina",
               },
               {
                 label: "Alma Redemptóris Mater",
-                link: "/oracoes/antifonas/almaredemptorismater",
+                link: "devocionario/oracoes/antifonas/almaredemptorismater",
               },
             ],
           },
