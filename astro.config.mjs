@@ -18,8 +18,9 @@ export default defineConfig({
         src: "./public/favicon.svg",
       },
       social: {
-        github: "https://github.com/tesourofieis/tesourofieis",
         "x.com": "https://x.com/tesourofieis",
+        github: "https://github.com/tesourofieis/tesourofieis",
+        patreon: "https://www.patreon.com/tesourofieis",
         email: "mailto:info@tesourofieis.com",
       },
       sidebar: sidebar,
