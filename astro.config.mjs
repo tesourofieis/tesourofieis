@@ -34,7 +34,14 @@ export default defineConfig({
           label: "Devocionario",
           items: [
             { label: "Rosario", link: "/devocionario/rosario" },
-            { label: "Salterio", link: "/devocionario/salterio" },
+            {
+              label: "Salterio",
+              items: [
+                { label: "001", link: "/devocionario/salterio/001" },
+                { label: "002", link: "/devocionario/salterio/002" },
+                { label: "003", link: "/devocionario/salterio/003" },
+              ],
+            },
             { label: "Adoração", link: "/devocionario/adoracao" },
             { label: "Oracao da manha", link: "/devocionario/oracaomanha" },
             { label: "Angelus", link: "/devocionario/angelus" },
@@ -56,7 +63,28 @@ export default defineConfig({
                 {
                   label: "Ladaínhas",
                   items: [
-                    { label: "Ladaínha Z", link: "/oracoes/ladainhas/z" },
+                    {
+                      label: "Coração de Jesus",
+                      link: "/oracoes/ladainhas/coracaojesus",
+                    },
+                    { label: "São José", link: "/oracoes/ladainhas/jose" },
+                    { label: "Loreto", link: "/oracoes/ladainhas/loreto" },
+                    {
+                      label: "Nome Jesus",
+                      link: "/oracoes/ladainhas/nomejesus",
+                    },
+                    {
+                      label: "Sangue Jesus",
+                      link: "/oracoes/ladainhas/sanguejesus",
+                    },
+                    {
+                      label: "Santa Isabel",
+                      link: "/oracoes/ladainhas/isabel",
+                    },
+                    {
+                      label: "Todos os Santos",
+                      link: "/oracoes/ladainhas/santos",
+                    },
                   ],
                 },
               ],
