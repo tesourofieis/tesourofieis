@@ -620,9 +620,15 @@ export const sidebar = [
         ],
       },
       { label: "Adoração", link: "/devocionario/adoracao" },
-      { label: "Oracao da manha", link: "/devocionario/oracaomanha" },
-      { label: "Angelus", link: "/devocionario/angelus" },
-      { label: "Oracao da noite", link: "/devocionario/oracaonoite" },
+      {
+        label: "Oracões do dia",
+        collapsed: true,
+        items: [
+          { label: "Oração da manhã", link: "/devocionario/dia/oracaomanha" },
+          { label: "Angelus", link: "/devocionario/dia/angelus" },
+          { label: "Oração da noite", link: "/devocionario/dia/oracaonoite" },
+        ],
+      },
       {
         label: "Pequeno Oficio de Nossa Senhora",
         collapsed: true,
