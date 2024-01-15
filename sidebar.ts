@@ -666,6 +666,28 @@ export const sidebar = [
               },
             ],
           },
+          {
+            label: "Antifonas de Nossa Senhora",
+            collapsed: true,
+            items: [
+              {
+                label: "Ave, Regína cælórum",
+                link: "/oracoes/antifonas/avereginacaelorum",
+              },
+              {
+                label: "Regína cæli",
+                link: "/oracoes/antifonas/reginacaeli",
+              },
+              {
+                label: "Salve, Regina",
+                link: "/oracoes/antifonas/salveregina",
+              },
+              {
+                label: "Alma Redemptóris Mater",
+                link: "/oracoes/antifonas/almaredemptorismater",
+              },
+            ],
+          },
         ],
       },
     ],
@@ -686,10 +708,6 @@ export const sidebar = [
         label: "Sacros",
         collapsed: true,
         items: [
-          {
-            label: "Antifonas de Nossa Senhora",
-            link: "/canticos/sacros/antifonas",
-          },
           {
             label: "Adoro te devote",
             link: "/canticos/sacros/adorote",
