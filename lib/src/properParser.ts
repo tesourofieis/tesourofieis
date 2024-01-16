@@ -1,5 +1,4 @@
 import * as fs from "fs";
-import * as path from "path";
 import {
   ASTERISK,
   DIVOFF_LANG_MAP,
@@ -14,7 +13,6 @@ import {
   PREFATIO_OMIT,
   REFERENCE_REGEX,
   SECTION_REGEX,
-  SECTION_VERSE,
   TRACTUS,
   VISIBLE_SECTIONS,
   getTranslation,
@@ -104,9 +102,7 @@ class ProperParser {
     }
 
     // Moving data from "Comment" section up as direct properties of a Proper object
-    const parsedComment: Record<string, unknown> = this._parseComment(
-      proper.popSection("Comment"),
-    );
+    const parsedComment = this._parseComment(proper.popSection("Comment"));
     try {
       proper.title = this.translations[lang].TITLES[this.proper_id];
     } catch (error) {

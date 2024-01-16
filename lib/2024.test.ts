@@ -1,4 +1,5 @@
-import { getCalendar, getDate } from "./entrypoint.ts";
+import { getcalendar } from "./getCalendar.ts";
+import { getDay } from "./getDay.ts";
 import { addDays, getYear } from "date-fns";
 import { yyyyMMDD } from "./src/utils.ts";
 import { test, expect } from "vitest";
@@ -10,7 +11,7 @@ test("getDate should return the proper of the day for 2024", () => {
   const propers = [];
 
   while (getYear(date) === getYear(firstDate)) {
-    propers.push(getDate(yyyyMMDD(date)));
+    propers.push(getDay(yyyyMMDD(date)));
     date = addDays(date, 1);
   }
 
@@ -18,9 +19,9 @@ test("getDate should return the proper of the day for 2024", () => {
 });
 
 test("getCalendary should return the calendar for 2024", () => {
-  let date = "2024-01-01";
+  const date = "2024-01-01";
 
-  const calendar = getCalendar(getYear(date));
+  const calendar = getcalendar(getYear(date));
 
   expect(calendar).toMatchSnapshot();
 });
