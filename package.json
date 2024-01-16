@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
@@ -23,6 +24,14 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10"
+    "@biomejs/biome": "1.5.2",
+    "@tailwindcss/typography": "^0.5.10",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0"
+  },
+  "lint-staged": {
+    "*.{json,md,mdx,ts}": [
+      "npx prettier src -w"
+    ]
   }
 }
