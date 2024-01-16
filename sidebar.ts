@@ -3,9 +3,34 @@ export const sidebar = [
     label: "Missal",
     items: [
       {
-        label: "Votivas",
+        label: "Advento",
         collapsed: true,
-        autogenerate: { directory: "missal/votivas" },
+        autogenerate: { directory: "missal/advento" },
+      },
+      {
+        label: "Natal",
+        collapsed: true,
+        autogenerate: { directory: "missal/natal" },
+      },
+      {
+        label: "Epifania",
+        collapsed: true,
+        autogenerate: { directory: "missal/epifania" },
+      },
+      {
+        label: "Quaresma",
+        collapsed: true,
+        autogenerate: { directory: "missal/quaresma" },
+      },
+      {
+        label: "Páscoa",
+        collapsed: true,
+        autogenerate: { directory: "missal/pascoa" },
+      },
+      {
+        label: "Pentecostes",
+        collapsed: true,
+        autogenerate: { directory: "missal/pentecostes" },
       },
       {
         label: "Santos",
@@ -16,6 +41,16 @@ export const sidebar = [
         label: "Comum",
         collapsed: true,
         autogenerate: { directory: "missal/comum" },
+      },
+      {
+        label: "Votivas",
+        collapsed: true,
+        autogenerate: { directory: "missal/votivas" },
+      },
+      {
+        label: "Orações Diversas",
+        collapsed: true,
+        autogenerate: { directory: "missal/oracoesdiversas" },
       },
       {
         label: "Prefácios",
