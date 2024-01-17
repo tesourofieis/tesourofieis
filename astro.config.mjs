@@ -7,7 +7,7 @@ import { sidebar } from "./sidebar.ts";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Tesouro dos Fieis",
+      title: "Tesouro dos Fiéis",
       locales: {
         root: {
           label: "Português",

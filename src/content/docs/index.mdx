@@ -15,7 +15,16 @@ hero:
   tagline: Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.
   image:
     file: ../../../public/favicon.svg
+  actions:
+    - text: Missa do Dia
+      icon: rocket
+      link: /missal/dia
+      variant: primary
+    - text: Rosário
+      icon: right-arrow
+      link: /devocionario/rosario
 tableOfContents: false
+
 banner:
   content: |
     Em Portugal se conservará sempre o dogma da fé
@@ -25,20 +34,38 @@ banner:
 import { Card, CardGrid } from "@astrojs/starlight/components";
 
 <CardGrid stagger>
-	<Card title="Procura" icon="magnifier">
-		Eficiente busca de todo o material
-	</Card>
+  <Card title="Missal" icon="star">
+    Missal Romano
 
-    <Card title="Devocionário" icon="star">
-    	Rosário, Saltério, Orações do dia, Pequeno Ofício de Nossa Senhora
-    </Card>
+    [Dia](/missal/dia), [Calendário](/missal/calendario)
 
-    <Card title="Ritual" icon="star">
-    	Missa, Adoração
-    </Card>
+  </Card>
+  <Card title="Devocionário" icon="star">
+    Devocionário tradicional
 
-    <Card title="Fé" icon="star">
-    	Catecismo, Verdades da fé, Juramento anti-modernista
-    </Card>
+    [Rosário](/devocionario/rosario), [Saltério](/devocionario/salterio),
+    [Orações do dia](/devocionario/dia), [Adoração](/devocionario/adoracao),
+    [Pequeno Ofício de Nossa Senhora](/devocionario/oficio),
+    [Ladaínhas](/devocionario/ladainhas)
 
+  </Card>
+  <Card title="Fé" icon="star">
+    Fé Verdadeira
+
+    [Catecismo](/fe/catecismo), [Verdades da fé](/fe/verdades), [Juramento
+    anti-modernista](/fe/juramento)
+
+  </Card>
+  <Card title="Ritual" icon="star">
+    Ritual Romano
+
+    [Penitência](/ritual/penitencia), [Baptismo](/ritual/baptismo)
+
+  </Card>
+  <Card title="Cânticos" icon="star">
+    Canto sacro e popular
+
+    [Sacros](/canticos/sacros), [Populares](/canticos/populares)
+
+  </Card>
 </CardGrid>
