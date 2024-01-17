@@ -2,6 +2,8 @@ export const sidebar = [
   {
     label: "Missal",
     items: [
+      { label: "Dia", link: "/missal/dia" },
+      { label: "Calendário", link: "/missal/calendario" },
       {
         label: "Advento",
         collapsed: true,
@@ -56,6 +58,11 @@ export const sidebar = [
         label: "Prefácios",
         collapsed: true,
         autogenerate: { directory: "missal/prefacios" },
+      },
+      {
+        label: "Orações Complementares",
+        collapsed: true,
+        autogenerate: { directory: "missal/complementares" },
       },
     ],
   },
