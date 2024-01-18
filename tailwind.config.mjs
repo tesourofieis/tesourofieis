@@ -17,5 +17,5 @@ export default {
       },
     },
   },
-  plugins: [starlightPlugin(), require("@tailwindcss/typography")],
+  plugins: [starlightPlugin()],
 };
