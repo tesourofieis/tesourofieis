@@ -5,9 +5,13 @@ import { sidebar } from "./sidebar.ts";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://tesourofieis.com",
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
+      editLink: {
+        baseUrl: "https://github.com/tesourofieis/tesourofieis/edit/master/",
+      },
       locales: {
         root: {
           label: "Português",
