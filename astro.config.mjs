@@ -26,6 +26,7 @@ export default defineConfig({
         github: "https://github.com/tesourofieis/tesourofieis",
         patreon: "https://www.patreon.com/tesourofieis",
         email: "mailto:info@tesourofieis.com",
+        discord: "https://discord.gg/Ga8Xnjmk62",
       },
       sidebar: sidebar,
       customCss: [
