@@ -1,3 +1,34 @@
 ---
 title: Calendário
 ---
+
+import { getCalendar } from "../../../../lib/getCalendar.ts";
+
+import { yyyyMMDD } from "../../../../lib/src/utils.ts";
+
+import { Card } from "@astrojs/starlight/components";
+
+export const day = yyyyMMDD(new Date());
+
+export const calendar = getCalendar(new Date(day).getFullYear());
+
+<div>
+  {Object.entries(calendar).map(([date, celebrations]) => (
+    <div key={date}>
+      {!celebrations.celebration.length &&
+        !celebrations.commemoration.length &&
+        !celebrations.tempora.length && (
+          <Card>
+            <h5>Feria</h5>
+            <p>{date}</p>
+          </Card>
+        )}
+      {celebrations.celebration.map((celebration) => (
+        <Card key={celebration.id}>
+          <h5>{celebration.title}</h5>
+          <p>{date}</p>
+        </Card>
+      ))}
+    </div>
+  ))}
+</div>

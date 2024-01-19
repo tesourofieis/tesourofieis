@@ -77,8 +77,7 @@ interface ProperDay {
     supplements: unknown[];
     date: string;
   };
-  latin_section: Section[];
-  vernacular_section: Section[];
+  sections: Section[][];
 }
 
 interface Section {
@@ -107,18 +106,28 @@ function format_propers(propers: Proper[], day?: Day): ProperDay {
 
   return {
     info: info,
-    latin_section: format_proper_section(propers_latin),
-    vernacular_section: format_proper_section(propers_vernacular),
+    sections: format_proper_section(propers_latin, propers_vernacular),
   };
 }
 
-function format_proper_section(propers: Proper) {
-  const pl: Section[] = [];
+function format_proper_section(
+  propers_latin: Proper,
+  propers_vernacular: Proper,
+) {
+  const pl = [];
 
-  for (const item of propers.serialize()) {
+  const latin = propers_latin.serialize();
+
+  for (const vernacular of propers_vernacular.serialize()) {
     pl.push({
-      id: item.id,
-      body: item.body,
+      id: {
+        vernacular: vernacular.id,
+        latin: latin.find((i) => i.id === vernacular.id).id,
+      },
+      body: {
+        vernacular: vernacular.body,
+        latin: latin.find((i) => i.id === vernacular.id).body,
+      },
     });
   }
 
