@@ -31,7 +31,118 @@ banner:
     - Nossa Senhora de Fátima
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { getDay } from "../../../lib/getDay.ts";
+import { yyyyMMDD } from "../../../lib/src/utils.ts";
+
+import { getHours, getMinutes } from "date-fns";
+
+import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
+
+export function getPrayerTimeCategory(date) {
+  const hour = getHours(date);
+  if (hour >= 0 && hour < 3) {
+    return (
+      <LinkCard
+        title="Pequeno Ofício de Nossa Senhora"
+        description="Matina"
+        href="/devocionario/oficio/matinas"
+      />
+    );
+  } else if (hour >= 3 && hour < 6) {
+    return (
+      <LinkCard
+        title="Pequeno Ofício de Nossa Senhora"
+        description="Lauds"
+        href="/devocionario/oficio/lauds"
+      />
+    );
+  } else if (hour >= 6 && hour < 9) {
+    return (
+      <LinkCard
+        title="Pequeno Ofício de Nossa Senhora"
+        description="Prima"
+        href="/devocionario/oficio/prima"
+      />
+    );
+  } else if (hour >= 9 && hour < 12) {
+    return (
+      <LinkCard
+        title="Pequeno Ofício de Nossa Senhora"
+        description="Terça"
+        href="/devocionario/oficio/terca"
+      />
+    );
+  } else if (hour >= 12 && hour < 15) {
+    return (
+      <LinkCard
+        title="Pequeno Ofício de Nossa Senhora"
+        description="Sexta"
+        href="/devocionario/oficio/sexta"
+      />
+    );
+  } else if (hour >= 15 && hour < 18) {
+    return (
+      <LinkCard
+        title="Pequeno Ofício de Nossa Senhora"
+        description="Noa"
+        href="/devocionario/oficio/noa"
+      />
+    );
+  } else if (hour >= 18 && hour < 21) {
+    return (
+      <LinkCard
+        title="Horas"
+        description="Vésperas"
+        href="/devocionario/oficio/vesperas"
+      />
+    );
+  } else {
+    return (
+      <LinkCard
+        title="Horas"
+        description="Completas"
+        href="/devocionario/oficio/completas"
+      />
+    );
+  }
+}
+
+export const day = getDay(yyyyMMDD(new Date()));
+
+export function getTimeCategory(date) {
+  const hour = getHours(date);
+  const minute = getMinutes(date);
+  // Angelus is traditionally prayed at 6:00 AM, 12:00 PM (noon), and 6:00 PM
+  const isAngelus =
+    (hour === 6 || hour === 12 || hour === 18) && Math.abs(minute - 0) <= 15;
+  if (isAngelus) return { title: "Angelus", href: "/devocionario/dia/angelus" };
+  // Morning is considered between 6:30 AM and 9:30 AM
+  const isMorning =
+    (hour === 6 && minute >= 30) ||
+    (hour > 6 && hour < 9) ||
+    (hour === 9 && minute <= 30);
+  if (isMorning)
+    return { title: "Oração da Manhã", href: "/devocionario/dia/oracaomanha" };
+  // Night is considered between 8:00 PM and 3:00 AM
+  const isNight = hour >= 20 || (hour >= 0 && hour < 3);
+  if (isMorning)
+    return { title: "Oração da Noite", href: "/devocionario/dia/oracaonoite" };
+}
+
+export const time = getTimeCategory(new Date());
+
+<Card title={new Date().toLocaleString()} icon="magnifier">
+  <Card>
+    <caption>Hoje</caption>
+    <h4>{day.info.title}</h4>
+  </Card>
+  {getPrayerTimeCategory(new Date())}
+  {time?.title && (
+    <Card>
+      <LinkCard title={time?.title} href={time?.href} />
+    </Card>
+  )}
+</Card>
 
 <CardGrid stagger>
   <Card title="Missal" icon="star">
