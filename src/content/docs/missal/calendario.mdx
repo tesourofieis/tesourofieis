@@ -27,6 +27,21 @@ export const calendar = getCalendar(new Date(day).getFullYear());
         <Card key={celebration.id}>
           <h5>{celebration.title}</h5>
           <p>{date}</p>
+          <caption>{JSON.stringify(celebration)}</caption>
+        </Card>
+      ))}
+      {celebrations.tempora.map((tempora) => (
+        <Card key={tempora.id}>
+          <h5>{tempora.title}</h5>
+          <p>{date}</p>
+          <caption>{JSON.stringify(tempora)}</caption>
+        </Card>
+      ))}
+      {celebrations.commemoration.map((commemoration) => (
+        <Card key={commemoration.id}>
+          <h5>{commemoration.title}</h5>
+          <p>{date}</p>
+          <caption>{JSON.stringify(commemoration)}</caption>
         </Card>
       ))}
     </div>

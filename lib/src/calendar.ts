@@ -153,11 +153,7 @@ class Calendar {
 
       const dateKey = yyyyMMDD(currentDate);
 
-      if (
-        this._container.get(dateKey) &&
-        this._container.get(dateKey).celebration.length &&
-        !overwrite
-      ) {
+      if (this._container.get(dateKey)?.celebration.length && !overwrite) {
         break;
       }
 
@@ -221,7 +217,7 @@ class Calendar {
         this,
         date_,
         this._container.get(date_)?.tempora,
-        (this._container.get(date_)?.celebration).concat(shifted),
+        this._container.get(date_)?.celebration.concat(shifted),
         LANGUAGE,
       );
 

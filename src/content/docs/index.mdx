@@ -131,17 +131,24 @@ export function getTimeCategory(date) {
 
 export const time = getTimeCategory(new Date());
 
-<Card title={new Date().toLocaleString()} icon="magnifier">
+{JSON.stringify({day: day.info}, null, 2)}
+
+<Card
+  title={new Date().toLocaleString("pt", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+  })}
+  icon="magnifier"
+>
   <Card>
     <caption>Hoje</caption>
     <h4>{day.info.title}</h4>
+    <LinkCard title={day.info.title} href={day.info.title} />
   </Card>
   {getPrayerTimeCategory(new Date())}
-  {time?.title && (
-    <Card>
-      <LinkCard title={time?.title} href={time?.href} />
-    </Card>
-  )}
+  {time && <LinkCard title={time?.title} href={time?.href} />}
 </Card>
 
 <CardGrid stagger>

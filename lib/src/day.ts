@@ -35,14 +35,12 @@ import { Calendar } from "./calendar.ts";
 // """
 class Day {
   date: string;
-  calendar: Calendar;
   tempora: Observance[] = [];
   celebration: Observance[] = [];
   commemoration: Observance[] = [];
 
   constructor(date: string, calendar: Calendar) {
     this.date = date;
-    this.calendar = calendar;
   }
 
   get all(): Observance[] {
@@ -73,11 +71,14 @@ class Day {
     return this.celebration.length > 0 ? this.celebration[0].rank : undefined;
   }
 
-  getProper() {
-    const celebrationPropers = this.calculateProper(this.celebration);
+  getProper(calendar: Calendar) {
+    const celebrationPropers = this.calculateProper(calendar, this.celebration);
 
     if (this.commemoration.length) {
-      const commemorationPropers = this.calculateProper(this.commemoration);
+      const commemorationPropers = this.calculateProper(
+        calendar,
+        this.commemoration,
+      );
       if (celebrationPropers) {
         for (const celebrationProper of celebrationPropers) {
           for (let i = 0; i < 2; i++) {
@@ -94,7 +95,7 @@ class Day {
     return celebrationPropers;
   }
 
-  private calculateProper(observances: Observance[]) {
+  private calculateProper(calendar: Calendar, observances: Observance[]) {
     if (observances.length && observances.every((i) => i.hasProper())) {
       const result = [];
       for (const observance of observances) {
@@ -112,7 +113,7 @@ class Day {
     }
 
     // It's a feria day without its own proper for which the last Sunday's proper is used
-    const inferredObservances = this.inferObservance();
+    const inferredObservances = this.inferObservance(calendar);
 
     const rank =
       observances.length && !match(observances, FERIA)
@@ -138,11 +139,10 @@ class Day {
       }
     }
 
-    console.log("!!!!!!!!!propers", propers);
     return propers;
   }
 
-  private inferObservance() {
+  private inferObservance(calendar: Calendar) {
     let date = new Date(this.date);
 
     // No proper for this day, get one from the latest Sunday
@@ -166,7 +166,7 @@ class Day {
       console.log(date);
     }
 
-    const day = this.calendar.get(yyyyMMDD(date));
+    const day = calendar.get(yyyyMMDD(date));
 
     if (day?.celebration.length) {
       // Handling exceptions
