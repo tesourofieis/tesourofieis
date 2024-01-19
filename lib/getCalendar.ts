@@ -6,4 +6,10 @@ function getCalendar(year: number) {
   return calendar.serialize();
 }
 
-export { getCalendar };
+function getCalendarDay(year: number, date: string) {
+  const calendar = new Calendar(year).get(date);
+
+  return calendar;
+}
+
+export { getCalendar, getCalendarDay };
