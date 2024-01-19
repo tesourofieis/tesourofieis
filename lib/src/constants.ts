@@ -614,8 +614,6 @@ export const TEMPORA_NAT1_1 = "tempora:Nat1-1:2:w"; // Ordinary day in the Octav
 export const TEMPORA_NAT2_0 = "tempora:Nat2-0:2:w"; // Feast of the Holy Name of Jesus
 
 // SANCTI - days which have fixed date
-// TODO: to add portuguese only masses we can add eg
-// export const SANCTI_01_01_PT = "sancti:01-01-Portugues:1:w"; // Portuguese only mass
 export const SANCTI_10_DUr = "sancti:10-DUr:1:w"; // Feast of Christ the King; last Sunday of October
 export const SANCTI_01_01 = "sancti:01-01:1:w"; // Octave of the Nativity
 export const SANCTI_01_06 = "sancti:01-06:1:w"; // Epiphany
