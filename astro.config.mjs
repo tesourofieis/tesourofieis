@@ -39,4 +39,7 @@ export default defineConfig({
     }),
     tailwind({ applyBaseStyles: false }),
   ],
+  test: {
+    watch: false,
+  },
 });

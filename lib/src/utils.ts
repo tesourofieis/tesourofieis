@@ -10,7 +10,7 @@ type Pattern = string | RegExp;
 function match(
   observances: string | Observance | Array<string | Observance>,
   patterns: Array<Pattern> | Pattern,
-): Observance | undefined {
+) {
   if (!Array.isArray(observances)) {
     observances = [observances];
   }
@@ -31,8 +31,6 @@ function match(
       }
     }
   }
-
-  return;
 }
 
 function yyyyMMDD(date: Date) {
