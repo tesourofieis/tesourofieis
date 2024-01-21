@@ -89,7 +89,7 @@ describe("calendar", () => {
     });
   });
 
-  test.only("commemoration gabriel", () => {
+  test("commemoration gabriel", () => {
     const calendar = new Calendar(2024);
     expect(calendar.get("2024-03-24")).toMatchObject({
       date: "2024-03-24",
@@ -111,7 +111,7 @@ describe("calendar", () => {
           colors: ["w"],
           id: "sancti:03-24:3:w",
           rank: 3,
-          title: "S. Gabriel Arcanjo",
+          titjle: "S. Gabriel Arcanjo",
         },
       ],
       tempora: [

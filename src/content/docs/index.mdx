@@ -108,8 +108,8 @@ export function getPrayerTimeCategory(date) {
 }
 
 export const calendar = getCalendarDay(
-  new Date().getFullYear(),
-  yyyyMMDD(new Date()),
+  new UTCDate().getFullYear(),
+  yyyyMMDD(new UTCDate()),
 );
 
 export function getTimeCategory(date) {
@@ -132,7 +132,7 @@ export function getTimeCategory(date) {
     return { title: "Oração da Noite", href: "/devocionario/dia/oracaonoite" };
 }
 
-export const time = getTimeCategory(new Date());
+export const time = getTimeCategory(new UTCDate());
 
 <Card
   title={new Date().toLocaleString("pt", {

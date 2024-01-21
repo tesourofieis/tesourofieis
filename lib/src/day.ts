@@ -25,6 +25,7 @@ import { Observance } from "./observance.ts";
 import { ProperConfig } from "./proper.ts";
 import { getCustomPreface, match, yyyyMMDD } from "./utils.ts";
 import { Calendar } from "./calendar.ts";
+import { UTCDate } from "@date-fns/utc";
 
 // """ Class used to keep `Observance` objects for particular days of Missal.
 //
@@ -143,7 +144,7 @@ class Day {
   }
 
   private inferObservance(calendar: Calendar) {
-    let date = new Date(this.date);
+    let date = new UTCDate(this.date);
 
     // No proper for this day, get one from the latest Sunday
     if (!isSunday(date)) {
@@ -153,14 +154,14 @@ class Day {
     }
 
     // No proper for this day, get from epiphany
-    if (isSameDay(date, new Date(getYear(this.date), 0, 6))) {
-      date = new Date(getYear(this.date), 0, 6);
+    if (isSameDay(date, new UTCDate(getYear(this.date), 0, 6))) {
+      date = new UTCDate(getYear(this.date), 0, 6);
     }
 
     // if previous sunday is in the previous calendar year
     // grab the proper from the circuncision
     if (!isSameYear(date, this.date)) {
-      date = new Date(getYear(this.date), 0, 1);
+      date = new UTCDate(getYear(this.date), 0, 1);
     }
 
     const day = calendar.get(yyyyMMDD(date));
