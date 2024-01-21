@@ -408,15 +408,17 @@ function rule_4th_class_feria_are_removed_from_celebration(
 ) {
   const fourthClassTempora = match(observances, PATTERN_TEMPORA_CLASS_4);
 
+  if (_date_ === "2024-01-18") {
+    console.log(_date_);
+  }
+
   if (fourthClassTempora) {
     const commemoration = match(observances, PATTERN_SANCTI_CLASS_4);
 
+    const a = observances.filter((o) => o !== fourthClassTempora);
+
     if (commemoration) {
-      return [
-        observances.filter((o) => o !== fourthClassTempora),
-        [commemoration],
-        [],
-      ];
+      return [[], [commemoration], []];
     }
 
     return [observances.filter((o) => o !== fourthClassTempora), [], []];
@@ -424,18 +426,24 @@ function rule_4th_class_feria_are_removed_from_celebration(
 }
 
 function rule_4th_class_commemorations_are_only_commemorated(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
+  calendar: Calendar,
+  date_: Date,
+  tempora: Observance[],
   observances: Observance[],
 ) {
   const fourthClassSancti = match(observances, PATTERN_SANCTI_CLASS_4);
 
   if (fourthClassSancti) {
+    const removedObservance = observances.find((o) => o === fourthClassSancti);
     const filteredObservances = observances.filter(
       (o) => o !== fourthClassSancti,
     );
-    return [filteredObservances, [fourthClassSancti], []];
+
+    return [
+      filteredObservances,
+      removedObservance ? [removedObservance] : [],
+      [],
+    ];
   }
 }
 
