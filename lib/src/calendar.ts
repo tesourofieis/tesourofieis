@@ -12,14 +12,12 @@ import {
   SANCTI,
   SANCTI_10_DUr,
   TEMPORA_NAT2_0,
-  TEMPORA_PASC0_0,
   WEEK_24_AFTER_PENTECOST,
 } from "./constants.ts";
 import { Observance } from "./observance.ts";
 import { rules } from "./rules.ts";
 
 import {
-  add,
   addDays,
   format,
   getDate,
@@ -48,7 +46,7 @@ class Calendar {
   }
 
   private _buildEmptyCalendar(year: number): void {
-    let date_ = new Date(year, 0, 1);
+    let date_ = new UTCDate(year, 0, 1);
 
     while (date_.getFullYear() === year) {
       this._container.set(yyyyMMDD(date_), new Day(yyyyMMDD(date_), this));
@@ -88,7 +86,7 @@ class Calendar {
       ADVENT,
       false,
       false,
-      new Date(this.year, 11, 23),
+      new UTCDate(this.year, 11, 23),
     );
     this.insertBlock(
       this.calcEmberWednesdaySeptember(this.year),
@@ -114,19 +112,19 @@ class Calendar {
       this.insertBlock(christmasOctaveSunday, NATIVITY_OCTAVE_SUNDAY);
     }
     this.insertBlock(
-      new Date(this.year, 11, 29),
+      new UTCDate(this.year, 11, 29),
       NATIVITY_OCTAVE_FERIA,
       false,
       false,
     );
     this.insertBlock(
-      new Date(this.year, 11, 30),
+      new UTCDate(this.year, 11, 30),
       NATIVITY_OCTAVE_FERIA,
       false,
       false,
     );
     this.insertBlock(
-      new Date(this.year, 11, 31),
+      new UTCDate(this.year, 11, 31),
       NATIVITY_OCTAVE_FERIA,
       false,
       false,
@@ -213,13 +211,14 @@ class Calendar {
 
   private applyRules(date_: string, shifted: Observance[]) {
     for (const rule of rules) {
-      const results = rule(
-        this,
-        date_,
-        this._container.get(date_)?.tempora,
-        [...this._container.get(date_).celebration, ...shifted],
-        LANGUAGE,
-      );
+      const results = rule(this, date_, this._container.get(date_)?.tempora, [
+        ...this._container.get(date_).celebration,
+        ...shifted,
+      ]);
+
+      if (date_ === "2023-03-24") {
+        console.log("here");
+      }
 
       if (results) {
         return results;
@@ -244,14 +243,14 @@ class Calendar {
     const m = Math.floor((a + 11 * h + 22 * l) / 451);
     const month = Math.floor((h + l - 7 * m + 114) / 31);
     const day = ((h + l - 7 * m + 114) % 31) + 1;
-    const easter = new Date(year, month - 1, day);
+    const easter = new UTCDate(year, month - 1, day);
 
     return easter;
   }
 
   private calcHolyFamily(year: number): Date {
     // Feast of the Holy Family - First Sunday after Epiphany (06 January).
-    const d = new Date(year, 0, 6); // Months are zero-indexed in JavaScript
+    const d = new UTCDate(year, 0, 6); // Months are zero-indexed in JavaScript
 
     return nextSunday(d);
   }
@@ -271,24 +270,24 @@ class Calendar {
     // """
     // First Sunday of Advent - November 27 if it's Sunday, otherwise closest Sunday.
     // """
-    const christmasDay = new Date(year, 11, 25);
+    const christmasDay = new UTCDate(year, 11, 25);
     const weekday = getDay(christmasDay);
 
     switch (weekday) {
       case 0: // Sunday
-        return new Date(getYear(christmasDay), 10, 27);
+        return new UTCDate(getYear(christmasDay), 10, 27);
       case 1: // Monday
-        return new Date(getYear(christmasDay), 11, 3);
+        return new UTCDate(getYear(christmasDay), 11, 3);
       case 2: // Tuesday
-        return new Date(getYear(christmasDay), 11, 2);
+        return new UTCDate(getYear(christmasDay), 11, 2);
       case 3: // Wednesday
-        return new Date(getYear(christmasDay), 11, 1);
+        return new UTCDate(getYear(christmasDay), 11, 1);
       case 4: // Thursday
-        return new Date(getYear(christmasDay), 10, 30);
+        return new UTCDate(getYear(christmasDay), 10, 30);
       case 5: // Friday
-        return new Date(getYear(christmasDay), 10, 29);
+        return new UTCDate(getYear(christmasDay), 10, 29);
       default: // Saturday
-        return new Date(getYear(christmasDay), 10, 28);
+        return new UTCDate(getYear(christmasDay), 10, 28);
     }
   }
 
@@ -304,7 +303,7 @@ class Calendar {
     // * directly after a week starting with TEMPORA_EPI6_0 (moved from post-epiphania period)
     //   if the number of TEMPORA_PENT*_0 Sundays in given year > 24)
     // """
-    return previousSunday(this.calcFirstAdventSunday(year));
+    return previousSunday(new UTCDate(this.calcFirstAdventSunday(year)));
   }
 
   private calcSaturdayBefore24SundayAfterPentecost(year: number): Date {
@@ -314,7 +313,7 @@ class Calendar {
     // between 23rd and 24th Sunday after Pentecost if Easter is early.
     // In such case one or more Sundays after Epiphany (TEMPORA_EPI*_0) are moved here to "fill the gap"
 
-    return previousSaturday(this.calc24SundayAfterPentecost(year));
+    return previousSaturday(new UTCDate(this.calc24SundayAfterPentecost(year)));
   }
 
   private calcEmberWednesdaySeptember(year: number): Date {
@@ -324,7 +323,7 @@ class Calendar {
     // of September according to John XXIII's motu proprio
     // "Rubricarum instructum" of June 25 1960.
     // """
-    let d = new Date(year, 8, 1);
+    let d = new UTCDate(year, 8, 1);
     while (getMonth(d) === 8) {
       if (isSunday(d) && getDate(d) >= 15 && getDate(d) <= 21) {
         break;
@@ -345,7 +344,7 @@ class Calendar {
     while (getDate(d) <= 7) {
       if (isSunday(d)) {
         if (getDate(d) === 1 || getDate(d) === 6 || getDate(d) === 7) {
-          return new Date(year, 0, 2);
+          return new UTCDate(year, 0, 2);
         }
 
         return d;
@@ -359,7 +358,7 @@ class Calendar {
 
   private calcChristKing(year: number): Date {
     // The Feast of Christ the King, last Sunday of October.
-    const d = new Date(year, 10, 1);
+    const d = new UTCDate(year, 10, 1);
 
     return previousSunday(d);
   }
@@ -368,7 +367,7 @@ class Calendar {
     // """
     // Sunday within the Octave of Christmas, falls between Dec 26 and Dec 31
     // """
-    let d = new Date(year, 11, 27); // December 27
+    let d = new UTCDate(year, 11, 27); // December 27
     while (d.getFullYear() === year) {
       if (isSunday(d)) {
         return d;
