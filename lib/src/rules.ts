@@ -252,7 +252,6 @@ function rule_shift_conflicting_1st_class_feasts(
 ) {
   // # If there are two feasts with 1st class, the one with lower priority on Precedence Table is shifted to the first
   // # day where there is no 1st and 2nd class feast.
-  // # day where there is no 1st and 2nd class feast.
   //
   //
   // # The feast of the Immaculate Conception of the Blessed Virgin Mary, however,
@@ -265,16 +264,12 @@ function rule_shift_conflicting_1st_class_feasts(
         calendar.get(yyyyMMDD(targetDate)).all.map((ld) => ld.rank),
       );
       if (!allRanks.has(1) && !allRanks.has(2)) {
-        return targetDate;
+        return yyyyMMDD(targetDate);
       }
     }
   }
 
   const firstClassFeasts = observances.filter((ld) => ld.rank === 1);
-
-  if (date_ === "2024-03-25") {
-    console.error(firstClassFeasts, calcTargetDate());
-  }
 
   if (firstClassFeasts.length > 1) {
     const targetDate = calcTargetDate();
@@ -473,7 +468,7 @@ export const rules = [
   rule_feb27,
   rule_same_class_feasts_take_over_advent_feria_and_ember_days,
   rule_lent_commemoration,
-  // rule_shift_conflicting_1st_class_feasts,
+  rule_shift_conflicting_1st_class_feasts,
   rule_lord_feast1,
   rule_lord_feast2,
   rule_first_class_feast_with_sunday_commemoration,
