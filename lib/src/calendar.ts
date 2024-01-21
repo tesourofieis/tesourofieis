@@ -12,12 +12,14 @@ import {
   SANCTI,
   SANCTI_10_DUr,
   TEMPORA_NAT2_0,
+  TEMPORA_PASC0_0,
   WEEK_24_AFTER_PENTECOST,
 } from "./constants.ts";
 import { Observance } from "./observance.ts";
 import { rules } from "./rules.ts";
 
 import {
+  add,
   addDays,
   format,
   getDate,
@@ -32,6 +34,7 @@ import {
   previousSunday,
   subDays,
 } from "date-fns";
+import { UTCDate } from "@date-fns/utc";
 
 class Calendar {
   private _container: Map<string, Day>;
@@ -92,6 +95,17 @@ class Calendar {
       EMBER_DAYS_SEPTEMBER,
     );
 
+    // HACK: why are we getting the dates after easter vigil wrong?
+    // const easter = this.calcEasterSunday(this.year);
+    // if (this._container.get(yyyyMMDD(easter))) {
+    //   this._container.get(yyyyMMDD(easter)).celebration = [
+    //     new Observance(TEMPORA_PASC0_0, yyyyMMDD(easter)),
+    //   ];
+    //   this._container.get(yyyyMMDD(easter)).tempora = [
+    //     new Observance(TEMPORA_PASC0_0, yyyyMMDD(easter)),
+    //   ];
+    // }
+
     // # Inserting single days
     const holyNameDate = this.calcHolyName(this.year);
     if (this._container.get(yyyyMMDD(holyNameDate))) {
@@ -145,7 +159,9 @@ class Calendar {
     }
 
     for (const [ii, observance_ids] of block.entries()) {
-      const currentDate = addDays(date, reverse ? -ii : ii);
+      const currentDate = addDays(new UTCDate(date), reverse ? -ii : ii);
+
+      console.error("forloop", ii, observance_ids, currentDate, date);
 
       if (!observance_ids) {
         continue;
@@ -180,7 +196,7 @@ class Calendar {
       );
 
       this._container.get(date)?.celebration.push(...days);
-      this._container.get(date)?.celebration.sort().reverse();
+      this._container.get(date)?.celebration.reverse();
     }
   }
 
@@ -200,13 +216,11 @@ class Calendar {
       this._container.get(date).celebration = celebration as Observance[];
       this._container.get(date).commemoration = commemoration as Observance[];
 
-      if (shifted) {
-        for (const [k, v] of shifted.entries()) {
-          if (!shiftedAll.get(k.toString())) {
-            shiftedAll.delete(k.toString());
-          }
-          shiftedAll.set(k.toString(), v as Observance[]);
+      for (const [k, v] of shifted.entries()) {
+        if (!shiftedAll.get(String(k))) {
+          shiftedAll.delete(String(k));
         }
+        shiftedAll.set(String(k), v as Observance[]);
       }
     }
   }
@@ -217,11 +231,11 @@ class Calendar {
         this,
         date_,
         this._container.get(date_)?.tempora,
-        this._container.get(date_)?.celebration.concat(shifted),
+        [...this._container.get(date_).celebration, ...shifted],
         LANGUAGE,
       );
 
-      if (results?.find((i) => i.length)) {
+      if (results !== null && results !== undefined) {
         return results;
       }
     }
@@ -230,34 +244,28 @@ class Calendar {
   }
 
   private calcEasterSunday(year: number): Date {
-    let y = year;
-    let g = y % 19;
-    let c = Math.floor(y / 100);
-    let h =
-      (c - Math.floor(c / 4) - Math.floor((8 * c + 13) / 25) + 19 * g + 15) %
-      30;
-    let i =
-      h -
-      Math.floor(h / 28) *
-        (1 -
-          Math.floor(h / 28) *
-            Math.floor(29 / (h + 1)) *
-            Math.floor((21 - g) / 11));
-    let j = (y + Math.floor(y / 4) + i + 2 - c + Math.floor(c / 4)) % 7;
+    const a = year % 19;
+    const b = Math.floor(year / 100);
+    const c = year % 100;
+    const d = Math.floor(b / 4);
+    const e = b % 4;
+    const f = Math.floor((b + 8) / 25);
+    const g = Math.floor((b - f + 1) / 3);
+    const h = (19 * a + b - d - g + 15) % 30;
+    const i = Math.floor(c / 4);
+    const k = c % 4;
+    const l = (32 + 2 * e + 2 * i - h - k) % 7;
+    const m = Math.floor((a + 11 * h + 22 * l) / 451);
+    const month = Math.floor((h + l - 7 * m + 114) / 31);
+    const day = ((h + l - 7 * m + 114) % 31) + 1;
+    const easter = new Date(year, month - 1, day);
 
-    // p can be from -6 to 56 corresponding to dates 22 March to 23 May
-    let p = i - j;
-
-    // Calculate the date
-    let d = 1 + ((p + 27 + Math.floor((p + 6) / 40)) % 31);
-    let m = 3 + Math.floor((p + 26) / 30);
-
-    return new Date(y, m - 1, d);
+    return easter;
   }
 
   private calcHolyFamily(year: number): Date {
     // Feast of the Holy Family - First Sunday after Epiphany (06 January).
-    let d = new Date(year, 0, 6); // Months are zero-indexed in JavaScript
+    const d = new Date(year, 0, 6); // Months are zero-indexed in JavaScript
 
     return nextSunday(d);
   }
@@ -269,7 +277,8 @@ class Calendar {
     // It's 63 days before Ressurection, ninth Sunday before Easter, the third before Ash Wednesday.
     // First day of the Ressurection Sunday - related block.
     // """
-    return subDays(this.calcEasterSunday(year), 63);
+    const easter = this.calcEasterSunday(year);
+    return subDays(easter, 63);
   }
 
   private calcFirstAdventSunday(year: number): Date {
@@ -364,17 +373,10 @@ class Calendar {
 
   private calcChristKing(year: number): Date {
     // The Feast of Christ the King, last Sunday of October.
-    let d = new Date(year, 9, 31); // Months are zero-indexed in JavaScript
+    const d = new Date(year, 10, 1);
 
-    while (getMonth(d) === 9) {
-      if (isSunday(d)) {
-        return d;
-      }
-      d = subDays(d, 1);
-    }
-
-    // Handle case when October has no Sundays
-    return addDays(d, 1);
+    // FIXME: bug date-fns is not returning the correct date
+    return previousSunday(d);
   }
 
   private calcSundayChristmasOctave(year: number): Date | null {

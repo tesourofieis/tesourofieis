@@ -1,6 +1,6 @@
 import {
   addDays,
-  getDay,
+  getDate,
   getYear,
   isAfter,
   isBefore,
@@ -65,7 +65,7 @@ function rule_nativity_has_multiple_masses(
     const nativityMasses = observances.filter((ld) =>
       ld.id.startsWith("sancti:12-25m"),
     );
-    return [nativityMasses, [], []];
+    return [nativityMasses.reverse(), [], []];
   }
 }
 
@@ -78,9 +78,9 @@ function rule_all_souls(
 ) {
   // All Souls Day; if not Sunday - Nov 2, else Nov 3; additionally, it has three masses
   if (match(observances, SANCTI_11_02_1)) {
-    const allSouls = observances.filter((ld) =>
-      ld.id.startsWith("sancti:11-02m"),
-    );
+    const allSouls = observances
+      .filter((ld) => ld.id.startsWith("sancti:11-02m"))
+      .reverse();
     if (isSunday(date_)) {
       return [
         [],
@@ -117,7 +117,7 @@ function rule_st_matthias(
   if (
     match(observances, SANCTI_02_24) &&
     isLeapYear(date_) &&
-    getDay(date_) === 24
+    getDate(date_) === 24
   ) {
     return [
       [match(observances, PATTERN_TEMPORA)],
@@ -139,7 +139,7 @@ function rule_feb27(
   if (
     match(observances, SANCTI_02_27) &&
     isLeapYear(date_) &&
-    getDay(date_) === 27
+    getDate(date_) === 27
   ) {
     return [
       [match(observances, PATTERN_TEMPORA)],
@@ -286,14 +286,12 @@ function rule_shift_conflicting_1st_class_feasts(
         calendar.get(yyyyMMDD(target_date)).all.map((ld) => ld.rank),
       );
       if (!all_ranks.has(1) && !all_ranks.has(2)) {
-        return new Date(target_date);
+        return target_date;
       }
     }
-    // Return a default date if needed
-    return new Date();
   };
 
-  const first_class_feasts = observances.filter((o) => o.rank === 1);
+  const first_class_feasts = observances.filter((o) => o.rank === 1).reverse();
   if (first_class_feasts.length > 1) {
     const [celebration, shift_day] = first_class_feasts
       .sort((a, b) => a.priority - b.priority)
@@ -363,7 +361,7 @@ function rule_first_class_feast_no_commemoration(
     return [
       [
         match(
-          observances.sort((a, b) => a.priority - b.priority),
+          [...observances].sort((a, b) => a.priority - b.priority),
           PATTERN_CLASS_1,
         ),
       ],
@@ -390,9 +388,8 @@ function rule_2nd_class_sunday(
   if (pattern_tempora_sunday_class_2 && isSunday(date_)) {
     if (pattern_sancti_class_2) {
       return [[pattern_sancti_class_2], [pattern_tempora_sunday_class_2], []];
-    } else {
-      return [[pattern_tempora_sunday_class_2], [], []];
     }
+    return [[pattern_tempora_sunday_class_2], [], []];
   }
 }
 
@@ -403,6 +400,7 @@ function rule_1st_class_feria(
   observances: Observance[],
   _lang: string,
 ) {
+  // # Ash wednesday and holy week always wins
   if (
     match(observances, [
       TEMPORA_QUAD6_1,
@@ -416,34 +414,6 @@ function rule_1st_class_feria(
     ])
   ) {
     return [[match(observances, PATTERN_TEMPORA)], [], []];
-  }
-}
-
-function rule_3rd_class_local_saint_celebrated_3rd_class_general_saint_commemorated(
-  _calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
-  observances: Observance[],
-  _lang: string,
-) {
-  const thirdClassLocalSancti = observances.filter((i) =>
-    match(i.id, PATTERN_SANCTI_CLASS_3_LOCAL),
-  );
-
-  if (thirdClassLocalSancti.length > 0) {
-    const thirdClassSancti = observances.filter(
-      (i) =>
-        match(i.id, PATTERN_SANCTI_CLASS_3) &&
-        !match(i.id, PATTERN_SANCTI_CLASS_3_LOCAL),
-    );
-
-    if (thirdClassSancti.length > 0) {
-      return [
-        thirdClassLocalSancti.map((o) => new Observance(o.id, date_)),
-        thirdClassSancti.map((o) => new Observance(o.id, date_)),
-        [],
-      ];
-    }
   }
 }
 
@@ -500,28 +470,27 @@ function rule_general(
   // Default rule for situations not handled by any of the above
   if (observances.length === 0) {
     return [[], [], []];
-  } else if (observances.length === 1) {
-    return [observances, [], []];
-  } else {
-    const [first, second] = observances
-      .slice()
-      .sort(
-        (a, b) =>
-          a.priority - b.priority ||
-          a.rank - b.rank ||
-          a.flexibility.localeCompare(b.flexibility),
-      )
-      .slice(0, 2);
-
-    if (
-      match(first, PATTERN_TEMPORA_SUNDAY) ||
-      (tempora.length > 0 && second.id === tempora[0].id)
-    ) {
-      return [[first], [], []];
-    }
-
-    return [[first], [second], []];
   }
+  if (observances.length === 1) {
+    return [observances, [], []];
+  }
+  const [first, second] = observances
+    .sort(
+      (a, b) =>
+        a.priority - b.priority ||
+        a.rank - b.rank ||
+        a.flexibility.localeCompare(b.flexibility),
+    )
+    .slice(0, 2);
+
+  if (
+    match(first, PATTERN_TEMPORA_SUNDAY) ||
+    (tempora.length > 0 && second.id === tempora[0].id)
+  ) {
+    return [[first], [], []];
+  }
+
+  return [[first], [second], []];
 }
 
 export const rules = [
@@ -540,7 +509,6 @@ export const rules = [
   rule_2nd_class_sunday,
   rule_1st_class_feria,
   rule_bmv_office_on_saturday,
-  rule_3rd_class_local_saint_celebrated_3rd_class_general_saint_commemorated,
   rule_4th_class_feria_are_removed_from_celebration,
   rule_4th_class_commemorations_are_only_commemorated,
   rule_general,

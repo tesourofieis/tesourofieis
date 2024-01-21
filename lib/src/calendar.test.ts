@@ -2,7 +2,7 @@ import { describe, expect, test } from "vitest";
 import { Calendar } from "./calendar";
 
 describe("calendar", () => {
-  test.skip("easter", () => {
+  test("easter", () => {
     const calendar = new Calendar(2024);
     expect(calendar.get("2024-03-30")).toMatchObject({
       celebration: [
@@ -38,6 +38,10 @@ describe("calendar", () => {
         {
           colors: ["w"],
           id: "tempora:Pasc0-0:1:w",
+          date: "2024-03-31",
+          flexibility: "tempora",
+          name: "Pasc0-0",
+          priority: 3,
           rank: 1,
           title: "Domingo da Ressurreição",
           weekday: 0,
@@ -51,6 +55,35 @@ describe("calendar", () => {
           rank: 1,
           title: "Domingo da Ressurreição",
           weekday: 0,
+        },
+      ],
+    });
+    expect(calendar.get("2024-04-01")).toMatchObject({
+      celebration: [
+        {
+          colors: ["w"],
+          date: "2024-04-01",
+          flexibility: "tempora",
+          id: "tempora:Pasc0-1:1:w",
+          name: "Pasc0-1",
+          priority: 29,
+          rank: 1,
+          title: "Segunda-feira Pascal",
+          weekday: 1,
+        },
+      ],
+      commemoration: [],
+      tempora: [
+        {
+          colors: ["w"],
+          date: "2024-04-01",
+          flexibility: "tempora",
+          id: "tempora:Pasc0-1:1:w",
+          name: "Pasc0-1",
+          priority: 29,
+          rank: 1,
+          title: "Segunda-feira Pascal",
+          weekday: 1,
         },
       ],
     });

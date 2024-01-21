@@ -57,7 +57,6 @@ export const CUSTOM_DIVOFF_DIR: string = `${RESOURCES_DIR}/divinum-officium-cust
 export const PROPERS_DIR: string = `${RESOURCES_DIR}/propers`;
 export const SUPPLEMENT_DIR: string = `${RESOURCES_DIR}/supplement`;
 
-export const SUNDAY: number = 0;
 export const LANGUAGE_LATIN: string = "Latin";
 export const LANGUAGE: string = "Portugues";
 export const LANGUAGES: Record<string, string> = {

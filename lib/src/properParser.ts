@@ -61,7 +61,6 @@ class ProperParser {
         partial_path,
         LANGUAGE_LATIN,
       );
-      console.log([proper_vernacular, proper_latin]);
       return [proper_vernacular, proper_latin];
     } catch (error) {
       if (error) {
@@ -78,7 +77,6 @@ class ProperParser {
     const parsedSource = this._parseSource(partialPath, lang);
 
     const proper = new Proper(this.proper_id, parsedSource);
-    console.log(proper);
 
     // Reference in Rule section in 'vide' or 'ex' clause - load all sections
     // from the referenced file and get sections that are not explicitly defined in the current proper.

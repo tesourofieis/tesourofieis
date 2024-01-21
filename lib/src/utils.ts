@@ -84,8 +84,6 @@ interface Section {
 }
 
 function format_propers(propers: Proper[], day?: Day): ProperDay {
-  console.log("propers1", propers);
-
   const [propers_vernacular, propers_latin] = propers;
   const title = propers_vernacular.title;
   const tempora_name = day ? day.getTemporaName() : null;
