@@ -1,19 +1,3 @@
-export function getBlocks() {
-  return {
-    POST_EPIPHANY,
-    FROM_PRE_LENT_TO_POST_PENTECOST,
-    EMBER_DAYS_SEPTEMBER,
-    WEEK_24_AFTER_PENTECOST,
-    ADVENT,
-    NATIVITY_OCTAVE_SUNDAY,
-    NATIVITY_OCTAVE_FERIA,
-    HOLY_NAME,
-    CHRIST_KING,
-    SUNDAY_IN_CHRISTMAS_OCTAVE,
-    SANCTI,
-  };
-}
-
 export function getTranslation(lang: string) {
   if (lang === LANGUAGE) {
     return {
