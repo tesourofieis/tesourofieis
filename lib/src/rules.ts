@@ -326,7 +326,6 @@ function rule_lord_feast2(
     match(observances, FEASTS_OF_JESUS_CLASS_1_AND_2) &&
     match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)
   ) {
-    // HACK: first class feasts vs sundays
     return [[match(observances, PATTERN_SANCTI_CLASS_1_OR_2)], [], []];
   }
 }

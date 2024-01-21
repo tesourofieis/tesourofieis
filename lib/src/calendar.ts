@@ -108,11 +108,22 @@ class Calendar {
 
     // # Inserting single days
     const holyNameDate = this.calcHolyName(this.year);
-    if (this._container.get(yyyyMMDD(holyNameDate))) {
-      this._container.get(yyyyMMDD(holyNameDate)).celebration = [
-        new Observance(TEMPORA_NAT2_0, yyyyMMDD(holyNameDate)),
-      ];
-    }
+
+    console.error("holyNameDate", holyNameDate);
+
+    console.error(
+      "_container before",
+      this._container.get(yyyyMMDD(holyNameDate)),
+    );
+
+    this._container.get(yyyyMMDD(holyNameDate)).celebration = [
+      new Observance(TEMPORA_NAT2_0, yyyyMMDD(holyNameDate)),
+    ];
+
+    console.error(
+      "_container after",
+      this._container.get(yyyyMMDD(holyNameDate)),
+    );
 
     const christKingDate = this.calcChristKing(this.year);
     if (this._container.get(yyyyMMDD(christKingDate))) {
@@ -143,6 +154,10 @@ class Calendar {
       false,
       false,
     );
+    console.error(
+      "_container end",
+      this._container.get(yyyyMMDD(holyNameDate)),
+    );
   }
 
   private insertBlock(
@@ -160,8 +175,6 @@ class Calendar {
 
     for (const [ii, observance_ids] of block.entries()) {
       const currentDate = addDays(new UTCDate(date), reverse ? -ii : ii);
-
-      console.error("forloop", ii, observance_ids, currentDate, date);
 
       if (!observance_ids) {
         continue;
@@ -207,6 +220,11 @@ class Calendar {
     // """
     const shiftedAll: Map<string, Observance[]> = new Map();
 
+    console.error(
+      "_container resolveConcurrency start",
+      this._container.get("2024-01-02"),
+    );
+
     for (const [date] of this._container.entries()) {
       const [celebration, commemoration, shifted] = this.applyRules(
         date,
@@ -216,6 +234,10 @@ class Calendar {
       this._container.get(date).celebration = celebration as Observance[];
       this._container.get(date).commemoration = commemoration as Observance[];
 
+      if (date === "2024-01-02") {
+        console.log(celebration, commemoration, shifted);
+      }
+
       for (const [k, v] of shifted.entries()) {
         if (!shiftedAll.get(String(k))) {
           shiftedAll.delete(String(k));
@@ -223,6 +245,11 @@ class Calendar {
         shiftedAll.set(String(k), v as Observance[]);
       }
     }
+
+    console.error(
+      "_container resolveConcurrency end",
+      this._container.get("2024-01-02"),
+    );
   }
 
   private applyRules(date_: string, shifted: Observance[]) {
@@ -235,12 +262,20 @@ class Calendar {
         LANGUAGE,
       );
 
-      if (results !== null && results !== undefined) {
+      if (date_ === "2024-01-02") {
+        console.log(rule);
+      }
+
+      if (
+        results !== null &&
+        results !== undefined &&
+        results.some((i) => i.length)
+      ) {
         return results;
       }
     }
 
-    return [this._container.get(date_)?.celebration, [], []];
+    return [this._container.get(date_).celebration, [], []];
   }
 
   private calcEasterSunday(year: number): Date {
@@ -354,14 +389,15 @@ class Calendar {
     // Kept on the First Sunday of the year; but if this Sunday falls on
     // 1st, 6th or 7th January, the feast is kept on 2nd January.
     // """
-    let d = new Date(year, 0, 1);
+    let d = new UTCDate(year, 0, 1);
 
     while (getDate(d) <= 7) {
-      if ([1, 6, 7].includes(getDate(d)) && isSunday(d)) {
-        return new Date(year, 0, 2);
-      }
-
+      console.log(d, getDate(d), isSunday(d));
       if (isSunday(d)) {
+        if (getDate(d) === 1 || getDate(d) === 6 || getDate(d) === 7) {
+          return new Date(year, 0, 2);
+        }
+
         return d;
       }
 
