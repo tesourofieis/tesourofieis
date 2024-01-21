@@ -225,7 +225,7 @@ function rule_lent_commemoration(
   if (lentObservance) {
     const sancti = match(observances, [PATTERN_SANCTI]);
 
-    if (!sancti) {
+    if (!sancti?.rank) {
       return [[lentObservance], [], []];
     }
 
@@ -257,39 +257,33 @@ function rule_shift_conflicting_1st_class_feasts(
   //
   // # The feast of the Immaculate Conception of the Blessed Virgin Mary, however,
   // # is preferred to the Sunday of Advent on which it may occur. (General Rubrics, 15)
-  if (
-    new UTCDate(date_) === new UTCDate(getYear(date_), 11, 8) &&
-    isSunday(date_)
-  ) {
-    return [
-      [match(observances, PATTERN_SANCTI)],
-      [match(observances, PATTERN_TEMPORA)],
-      [],
-    ];
-  }
-
-  const _calc_target_date = (): Date => {
-    let target_date = new UTCDate(date_);
-    while (getYear(target_date) === getYear(date_)) {
-      target_date = addDays(target_date, 1);
-      const all_ranks = new Set(
-        calendar.get(yyyyMMDD(target_date)).all.map((ld) => ld.rank),
+  function calcTargetDate() {
+    let targetDate = new UTCDate(date_);
+    while (getYear(targetDate) === getYear(date_)) {
+      targetDate = addDays(targetDate, 1);
+      const allRanks = new Set(
+        calendar.get(yyyyMMDD(targetDate)).all.map((ld) => ld.rank),
       );
-      if (!all_ranks.has(1) && !all_ranks.has(2)) {
-        return target_date;
+      if (!allRanks.has(1) && !allRanks.has(2)) {
+        return targetDate;
       }
     }
-  };
+  }
 
-  const first_class_feasts = observances.filter((o) => o.rank === 1).reverse();
-  if (first_class_feasts.length > 1) {
-    const [celebration, shift_day] = first_class_feasts
+  const firstClassFeasts = observances.filter((ld) => ld.rank === 1);
+
+  if (date_ === "2024-03-25") {
+    console.error(firstClassFeasts, calcTargetDate());
+  }
+
+  if (firstClassFeasts.length > 1) {
+    const targetDate = calcTargetDate();
+
+    const [celebration, shiftDay] = firstClassFeasts
       .sort((a, b) => a.priority - b.priority)
       .slice(0, 2);
-    const to_shift: [Date, Observance[]][] = [
-      [_calc_target_date(), [shift_day]],
-    ];
-    return [[celebration], [], to_shift];
+    const toShift = [[calcTargetDate(), [shiftDay]]];
+    return [[celebration], [], toShift];
   }
 }
 
@@ -332,6 +326,9 @@ function rule_first_class_feast_with_sunday_commemoration(
     match(observances, SANCTI_09_29) &&
     match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)
   ) {
+    if (_date_ === "2024-12-08") {
+      console.log(_date_);
+    }
     return [
       [match(observances, PATTERN_CLASS_1)],
       [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)],
@@ -408,10 +405,6 @@ function rule_4th_class_feria_are_removed_from_celebration(
 ) {
   const fourthClassTempora = match(observances, PATTERN_TEMPORA_CLASS_4);
 
-  if (_date_ === "2024-01-18") {
-    console.log(_date_);
-  }
-
   if (fourthClassTempora) {
     const commemoration = match(observances, PATTERN_SANCTI_CLASS_4);
 
@@ -469,13 +462,6 @@ function rule_general(
     )
     .slice(0, 2);
 
-  if (
-    match(first, PATTERN_TEMPORA_SUNDAY) ||
-    (tempora.length > 0 && second.id === tempora[0].id)
-  ) {
-    return [[first], [], []];
-  }
-
   return [[first], [second], []];
 }
 
@@ -487,7 +473,7 @@ export const rules = [
   rule_feb27,
   rule_same_class_feasts_take_over_advent_feria_and_ember_days,
   rule_lent_commemoration,
-  rule_shift_conflicting_1st_class_feasts,
+  // rule_shift_conflicting_1st_class_feasts,
   rule_lord_feast1,
   rule_lord_feast2,
   rule_first_class_feast_with_sunday_commemoration,
