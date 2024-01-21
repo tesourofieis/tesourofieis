@@ -455,8 +455,6 @@ function rule_4th_class_commemorations_are_only_commemorated(
     );
     return [filteredObservances, [fourthClassSancti], []];
   }
-
-  return [[], [], []];
 }
 
 function rule_general(
