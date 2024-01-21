@@ -149,21 +149,18 @@ class Day {
     if (!isSunday(date)) {
       if (isSameYear(date, this.date)) {
         date = previousSunday(date);
-        console.log(date);
       }
     }
 
     // No proper for this day, get from epiphany
     if (isSameDay(date, new Date(getYear(this.date), 0, 6))) {
       date = new Date(getYear(this.date), 0, 6);
-      console.log(date);
     }
 
     // if previous sunday is in the previous calendar year
     // grab the proper from the circuncision
     if (!isSameYear(date, this.date)) {
       date = new Date(getYear(this.date), 0, 1);
-      console.log(date);
     }
 
     const day = calendar.get(yyyyMMDD(date));
