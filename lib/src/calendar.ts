@@ -184,27 +184,29 @@ class Calendar {
     }
   }
 
+  // Apply `kalendar.rules.*` to the initially instantiated Calendar to fix the situations
+  // where more than one Observance falls in the same day.
   private resolveConcurrency() {
-    // """
-    // Apply `kalendar.rules.*` to the initially instantiated Calendar to fix the situations
-    // where more than one Observance falls in the same day.
-    // """
-    const shiftedAll: Map<string, Observance[]> = new Map();
+    const shiftedAll: { [date: string]: Observance[] } = {};
 
-    for (const [date] of this._container.entries()) {
+    for (const [date_, day] of this._container.entries()) {
       const [celebration, commemoration, shifted] = this.applyRules(
-        date,
-        shiftedAll.get(date) || [],
+        date_,
+        shiftedAll[date_] || [],
       );
 
-      this._container.get(date).celebration = celebration as Observance[];
-      this._container.get(date).commemoration = commemoration as Observance[];
+      this._container.get(date_).celebration = celebration as Observance[];
+      this._container.get(date_).commemoration = commemoration as Observance[];
 
-      for (const [k, v] of shifted.entries()) {
-        if (!shiftedAll.get(String(k))) {
-          shiftedAll.delete(String(k));
+      if (date_ === "2024-03-25") {
+        console.log(date_);
+      }
+
+      for (const [k, v] of shifted) {
+        if (!shiftedAll[k]) {
+          shiftedAll[k] = [];
         }
-        shiftedAll.set(String(k), v as Observance[]);
+        shiftedAll[k].push(...(Array.isArray(v) ? v : [v]));
       }
     }
   }
@@ -216,10 +218,9 @@ class Calendar {
         ...shifted,
       ]);
 
-      if (date_ === "2024-01-18") {
-        console.log(date_)
-        console.log("here");
-      }
+    if (date_ === "2024-12-08") {
+      console.log(date_);
+    }
 
       if (results) {
         return results;
