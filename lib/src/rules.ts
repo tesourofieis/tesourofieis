@@ -20,8 +20,6 @@ import {
   PATTERN_SANCTI,
   PATTERN_SANCTI_CLASS_1_OR_2,
   PATTERN_SANCTI_CLASS_2,
-  PATTERN_SANCTI_CLASS_3,
-  PATTERN_SANCTI_CLASS_3_LOCAL,
   PATTERN_SANCTI_CLASS_4,
   PATTERN_TEMPORA,
   PATTERN_TEMPORA_CLASS_4,
@@ -356,17 +354,12 @@ function rule_first_class_feast_no_commemoration(
   observances: Observance[],
   _lang: string,
 ) {
+  // FIXME: feast where no commemoration allowed have commemoration
   if (match(observances, PATTERN_CLASS_1)) {
-    return [
-      [
-        match(
-          [...observances].sort((a, b) => a.priority - b.priority),
-          PATTERN_CLASS_1,
-        ),
-      ],
-      [],
-      [],
-    ];
+    const sortedObservances = observances
+      .slice()
+      .sort((a, b) => a.priority - b.priority);
+    return [[match(sortedObservances, PATTERN_CLASS_1)], [], []];
   }
 }
 

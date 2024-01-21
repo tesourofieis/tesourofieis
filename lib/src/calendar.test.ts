@@ -89,6 +89,47 @@ describe("calendar", () => {
     });
   });
 
+  test.only("commemoration gabriel", () => {
+    const calendar = new Calendar(2024);
+    expect(calendar.get("2024-03-24")).toMatchObject({
+      date: "2024-03-24",
+      celebration: [
+        {
+          colors: ["r", "v"],
+          id: "tempora:Quad6-0r:1:rv",
+          rank: 1,
+          title: "Domingo de Ramos",
+          name: "Quad6-0r",
+          priority: 19,
+          date: "2024-03-24",
+          flexibility: "tempora",
+          weekday: 0,
+        },
+      ],
+      commemoration: [
+        {
+          colors: ["w"],
+          id: "sancti:03-24:3:w",
+          rank: 3,
+          title: "S. Gabriel Arcanjo",
+        },
+      ],
+      tempora: [
+        {
+          colors: ["r", "v"],
+          id: "tempora:Quad6-0r:1:rv",
+          rank: 1,
+          title: "Domingo de Ramos",
+          date: "2024-03-24",
+          flexibility: "tempora",
+          name: "Quad6-0r",
+          priority: 19,
+          weekday: 0,
+        },
+      ],
+    });
+  });
+
   test("santissimo nome jesus", () => {
     const calendar = new Calendar(2024);
     expect(calendar.get("2024-01-02")).toMatchObject({
