@@ -243,9 +243,14 @@ describe("calendar", () => {
       tempora: [
         {
           colors: ["w"],
+          date: "2024-04-08",
+          flexibility: "tempora",
           id: "tempora:Pasc1-1:4:w",
+          name: "Pasc1-1",
+          priority: 80,
           rank: 4,
           title: "Segunda-feira da 1º semana depois da Páscoa",
+          weekday: 1,
         },
       ],
     });
