@@ -95,35 +95,12 @@ class Calendar {
       EMBER_DAYS_SEPTEMBER,
     );
 
-    // HACK: why are we getting the dates after easter vigil wrong?
-    // const easter = this.calcEasterSunday(this.year);
-    // if (this._container.get(yyyyMMDD(easter))) {
-    //   this._container.get(yyyyMMDD(easter)).celebration = [
-    //     new Observance(TEMPORA_PASC0_0, yyyyMMDD(easter)),
-    //   ];
-    //   this._container.get(yyyyMMDD(easter)).tempora = [
-    //     new Observance(TEMPORA_PASC0_0, yyyyMMDD(easter)),
-    //   ];
-    // }
-
     // # Inserting single days
     const holyNameDate = this.calcHolyName(this.year);
-
-    console.error("holyNameDate", holyNameDate);
-
-    console.error(
-      "_container before",
-      this._container.get(yyyyMMDD(holyNameDate)),
-    );
 
     this._container.get(yyyyMMDD(holyNameDate)).celebration = [
       new Observance(TEMPORA_NAT2_0, yyyyMMDD(holyNameDate)),
     ];
-
-    console.error(
-      "_container after",
-      this._container.get(yyyyMMDD(holyNameDate)),
-    );
 
     const christKingDate = this.calcChristKing(this.year);
     if (this._container.get(yyyyMMDD(christKingDate))) {
@@ -153,10 +130,6 @@ class Calendar {
       NATIVITY_OCTAVE_FERIA,
       false,
       false,
-    );
-    console.error(
-      "_container end",
-      this._container.get(yyyyMMDD(holyNameDate)),
     );
   }
 
@@ -220,11 +193,6 @@ class Calendar {
     // """
     const shiftedAll: Map<string, Observance[]> = new Map();
 
-    console.error(
-      "_container resolveConcurrency start",
-      this._container.get("2024-01-02"),
-    );
-
     for (const [date] of this._container.entries()) {
       const [celebration, commemoration, shifted] = this.applyRules(
         date,
@@ -234,10 +202,6 @@ class Calendar {
       this._container.get(date).celebration = celebration as Observance[];
       this._container.get(date).commemoration = commemoration as Observance[];
 
-      if (date === "2024-01-02") {
-        console.log(celebration, commemoration, shifted);
-      }
-
       for (const [k, v] of shifted.entries()) {
         if (!shiftedAll.get(String(k))) {
           shiftedAll.delete(String(k));
@@ -245,11 +209,6 @@ class Calendar {
         shiftedAll.set(String(k), v as Observance[]);
       }
     }
-
-    console.error(
-      "_container resolveConcurrency end",
-      this._container.get("2024-01-02"),
-    );
   }
 
   private applyRules(date_: string, shifted: Observance[]) {
@@ -262,15 +221,7 @@ class Calendar {
         LANGUAGE,
       );
 
-      if (date_ === "2024-01-02") {
-        console.log(rule);
-      }
-
-      if (
-        results !== null &&
-        results !== undefined &&
-        results.some((i) => i.length)
-      ) {
+      if (results) {
         return results;
       }
     }
@@ -392,7 +343,6 @@ class Calendar {
     let d = new UTCDate(year, 0, 1);
 
     while (getDate(d) <= 7) {
-      console.log(d, getDate(d), isSunday(d));
       if (isSunday(d)) {
         if (getDate(d) === 1 || getDate(d) === 6 || getDate(d) === 7) {
           return new Date(year, 0, 2);
@@ -411,7 +361,6 @@ class Calendar {
     // The Feast of Christ the King, last Sunday of October.
     const d = new Date(year, 10, 1);
 
-    // FIXME: bug date-fns is not returning the correct date
     return previousSunday(d);
   }
 

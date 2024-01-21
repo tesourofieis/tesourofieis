@@ -89,7 +89,7 @@ describe("calendar", () => {
     });
   });
 
-  test.only("santissimo nome jesus", () => {
+  test("santissimo nome jesus", () => {
     const calendar = new Calendar(2024);
     expect(calendar.get("2024-01-02")).toMatchObject({
       date: "2024-01-02",
@@ -111,154 +111,30 @@ describe("calendar", () => {
     });
   });
 
-  test("renders", () => {
+  test("no celebration when tempora", () => {
     const calendar = new Calendar(2024);
-
-    // FIXME:
-    //    "2024-01-02": Object {
-    // -     "celebration": Array [
-    // -       Object {
-    // -         "colors": Array [
-    // -           "w",
-    // -         ],
-    // -         "id": "tempora:Nat2-0:2:w",
-    // -         "rank": 2,
-    // -         "title": "Santíssimo Nome de Jesus",
-    // -       },
-    // -     ],
-    // +     "celebration": Array [],
-    //       "commemoration": Array [],
-    //       "tempora": Array [],
-    //     },
-    //     "2024-01-18": Object {
-    // -     "celebration": Array [],
-    // +     "celebration": Array [
-    // +       Object {
-    // +         "colors": Array [
-    // +           "w",
-    // +         ],
-    // +         "id": "sancti:01-18r:4:w",
-    // +         "rank": 4,
-    // +         "title": "Santa Prisca, Mártir",
-    // +       },
-    // +     ],
-    //     "2024-01-19": Object {
-    // -     "celebration": Array [],
-    // +     "celebration": Array [
-    // +       Object {
-    // +         "colors": Array [
-    // +           "r",
-    // +         ],
-    // +         "id": "sancti:01-19:4:r",
-    // +         "rank": 4,
-    // +         "title": "S.S. Mário, Marta, Audifax e Abachum",
-    // +       },
-    // +     ],
-    //     "2024-02-28": Object {
-    //       "celebration": Array [
-    //         Object {
-    //           "colors": Array [
-    //             "v",
-    //           ],
-    //           "id": "tempora:Quad2-3:3:v",
-    //           "rank": 3,
-    //           "title": "Quarta-feira da 2ª semana da Quaresma",
-    //         },
-    //       ],
-    // -     "commemoration": Array [
-    // -       Object {
-    // -         "colors": Array [
-    // -           "w",
-    // -         ],
-    // -         "id": "sancti:02-27:3:w",
-    // -         "rank": 3,
-    // -         "title": "S. Gabriel de Nossa Senhora das Dores",
-    // -       },
-    // -     ],
-    // +     "commemoration": Array [],
-    //       "tempora": Array [
-    //         Object {
-    //           "colors": Array [
-    //             "v",
-    //           ],
-    //           "id": "tempora:Quad2-3:3:v",
-    //           "rank": 3,
-    //           "title": "Quarta-feira da 2ª semana da Quaresma",
-    //         },
-    //       ],
-    //     },
-    //     "2024-03-24": Object {
-    //       "celebration": Array [
-    //         Object {
-    //           "colors": Array [
-    //             "r",
-    //             "v",
-    //           ],
-    //           "id": "tempora:Quad6-0r:1:rv",
-    //           "rank": 1,
-    //           "title": "Domingo de Ramos",
-    //         },
-    //       ],
-    // -     "commemoration": Array [
-    // -       Object {
-    // -         "colors": Array [
-    // -           "w",
-    // -         ],
-    // -         "id": "sancti:03-24:3:w",
-    // -         "rank": 3,
-    // -         "title": "S. Gabriel Arcanjo",
-    // -       },
-    // -     ],
-    // +     "commemoration": Array [],
-    //       "tempora": Array [
-    //         Object {
-    //           "colors": Array [
-    //             "r",
-    //             "v",
-    //           ],
-    //           "id": "tempora:Quad6-0r:1:rv",
-    //           "rank": 1,
-    //           "title": "Domingo de Ramos",
-    //         },
-    //       ],
-    //     },
-    //     "2024-03-31": Object {
-    //       "celebration": Array [
-    //         Object {
-    //           "colors": Array [
-    //             "w",
-    //           ],
-    // -         "id": "tempora:Pasc0-0:1:w",
-    // -         "rank": 1,
-    // -         "title": "Domingo da Ressurreição",
-    // -       },
-    // -     ],
-    // TODO:
-    // from easter onwards all dates are one day off
-    //
-    console.debug(printAll(calendar));
-
-    expect(printAll(calendar)).toMatchObject({
-      "2024-03-31": {
-        celebration: [
-          {
-            colors: ["w"],
-            id: "tempora:Pasc0-0:1:w",
-            rank: 1,
-            title: "Domingo da Ressurreição",
-          },
-        ],
-        commemoration: [],
-        tempora: [
-          {
-            colors: ["w"],
-            id: "tempora:Pasc0-0:1:w",
-            rank: 1,
-            title: "Domingo da Ressurreição",
-          },
-        ],
-      },
+    expect(calendar.get("2024-01-08")).toMatchObject({
+      date: "2024-01-08",
+      celebration: [],
+      commemoration: [],
+      tempora: [
+        {
+          colors: ["w"],
+          date: "2024-01-08",
+          flexibility: "tempora",
+          id: "tempora:Epi1-1:4:w",
+          name: "Epi1-1",
+          priority: 80,
+          rank: 4,
+          title: "Segunda-feira da semana após a Epifania",
+          weekday: 1,
+        },
+      ],
     });
+  });
+
+  test("renders entire calendar correctly", () => {
+    const calendar = new Calendar(2024);
 
     expect(printAll(calendar)).toMatchObject({
       "2024-01-01": {
