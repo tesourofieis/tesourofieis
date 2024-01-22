@@ -73,11 +73,9 @@ interface ProperDay {
     id: string;
     title: string;
     description: string;
-    tags: string[];
     tempora: string;
     rank: number;
     colors: string[];
-    supplements: unknown[];
     date: string;
   };
   sections: Section[][];
@@ -97,11 +95,9 @@ function format_propers(propers: Proper[], day?: Day): ProperDay {
     id: propers_vernacular.id,
     title: title,
     description: propers_vernacular.description,
-    tags: propers_vernacular.tags,
     tempora: tempora_name !== title ? tempora_name : null,
     rank: propers_vernacular.rank,
     colors: propers_vernacular.colors,
-    supplements: propers_vernacular.supplements,
     date: day ? day.date : null,
   };
 
@@ -121,13 +117,10 @@ function format_proper_section(
 
   for (const vernacular of propers_vernacular.serialize()) {
     pl.push({
-      id: {
-        vernacular: vernacular.id,
-        latin: latin.find((i) => i.id === vernacular.id).id,
-      },
+      id: vernacular.id,
       body: {
-        vernacular: vernacular.body,
         latin: latin.find((i) => i.id === vernacular.id).body,
+        vernacular: vernacular.body,
       },
     });
   }
