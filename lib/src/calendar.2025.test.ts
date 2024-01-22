@@ -386,7 +386,14 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:01-26:3:r",
+            rank: 3,
+            title: "S. Policarpo, Bispo e Mártir",
+          },
+        ],
       },
       "2025-01-27": {
         tempora: [
@@ -653,7 +660,15 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:02-09:3:w",
+            rank: 3,
+            title:
+              "S. Cirilo de Alexandria, Bispo, Confessor e Doutor da Igreja",
+          },
+        ],
       },
       "2025-02-10": {
         tempora: [
@@ -891,7 +906,14 @@ describe("calendar 2025", () => {
             colors: ["v"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:02-23:3:w",
+            rank: 3,
+            title: "S. Pedro Damião, Bispo, Confessor e Doutor da Igreja",
+          },
+        ],
       },
       "2025-02-24": {
         tempora: [
@@ -2304,7 +2326,14 @@ describe("calendar 2025", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:05-04:3:w",
+            rank: 3,
+            title: "S. Mónica, Viúva",
+          },
+        ],
       },
       "2025-05-05": {
         tempora: [
@@ -2572,7 +2601,14 @@ describe("calendar 2025", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:05-18:3:r",
+            rank: 3,
+            title: "S. Venâncio, Mártir",
+          },
+        ],
       },
       "2025-05-19": {
         tempora: [
@@ -2684,7 +2720,14 @@ describe("calendar 2025", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:05-25:3:w",
+            rank: 3,
+            title: "S. Gregório VII, Papa e Confessor",
+          },
+        ],
       },
       "2025-05-26": {
         tempora: [
@@ -2824,7 +2867,14 @@ describe("calendar 2025", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:06-01:3:w",
+            rank: 3,
+            title: "Santa Angela Mericia",
+          },
+        ],
       },
       "2025-06-02": {
         tempora: [
@@ -3083,7 +3133,14 @@ describe("calendar 2025", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:06-15:3:w",
+            rank: 3,
+            title: "S.S. Vito, Modesto e Crescência, Mártires",
+          },
+        ],
       },
       "2025-06-16": {
         tempora: [
@@ -3212,7 +3269,14 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:06-22:3:w",
+            rank: 3,
+            title: "S. Paulino, Bispo e Confessor",
+          },
+        ],
       },
       "2025-06-23": {
         tempora: [
@@ -3225,8 +3289,8 @@ describe("calendar 2025", () => {
         ],
         celebration: [
           {
-            id: "sancti:06-23:2:v",
-            rank: 2,
+            id: "sancti:06-23:3:v",
+            rank: 3,
             title: "Vig\u00edlia da Natividade de S. J\u00e3o Baptista",
             colors: ["v"],
           },
@@ -3731,7 +3795,14 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:07-20:3:r",
+            rank: 3,
+            title: "S. Jerónimo Emiliano",
+          },
+        ],
       },
       "2025-07-21": {
         tempora: [
@@ -4272,7 +4343,14 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:08-17:3:w",
+            rank: 3,
+            title: "S. Jacinto, Confessor",
+          },
+        ],
       },
       "2025-08-18": {
         tempora: [
@@ -4545,7 +4623,14 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:08-31:3:w",
+            rank: 3,
+            title: "S. Raimundo Nonato, Confessor",
+          },
+        ],
       },
       "2025-09-01": {
         tempora: [
@@ -5105,7 +5190,14 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:09-28:3:r",
+            rank: 3,
+            title: "S. Venceslau, Mártir",
+          },
+        ],
       },
       "2025-09-29": {
         tempora: [
@@ -5504,7 +5596,14 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:10-19:3:w",
+            rank: 3,
+            title: "S. Pedro de Alcântara, Confessor",
+          },
+        ],
       },
       "2025-10-20": {
         tempora: [
@@ -6014,7 +6113,14 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:11-16:3:w",
+            rank: 3,
+            title: "S. Gertrudes, Virgem",
+          },
+        ],
       },
       "2025-11-17": {
         tempora: [
@@ -6147,7 +6253,14 @@ describe("calendar 2025", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:11-23:3:r",
+            rank: 3,
+            title: "S. Clemente I, Papa e Mártir",
+          },
+        ],
       },
       "2025-11-24": {
         tempora: [
