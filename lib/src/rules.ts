@@ -301,15 +301,14 @@ function rule_shift_conflicting_1st_class_feasts(
   }
 }
 
+// if we have second class feasts and first class
+// transfer second class to next available
 function rule_shift_conflicting_second_class_feasts(
   calendar: Calendar,
   date_: string,
   _tempora: Observance[],
   observances: Observance[],
 ) {
-  // # If there are two feasts with 1st class, the one with lower priority on Precedence Table is shifted to the first
-  // # day where there is no 1st and 2nd class feast.
-
   function calcTargetDate() {
     let targetDate = new UTCDate(date_);
     while (getYear(targetDate) === getYear(date_)) {
