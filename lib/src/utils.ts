@@ -4,16 +4,18 @@ import fs from "fs";
 import { Observance } from "./observance.ts";
 import { Proper } from "./proper.ts";
 import { Day } from "./day.ts";
+import type { Calendar } from "./calendar.ts";
 
 type Pattern = string | RegExp;
 
 function match(
-  observances: string | Observance | Array<string | Observance>,
-  patterns: Array<Pattern> | Pattern,
-) {
+  observances: string | Observance | (string | Observance)[],
+  patterns: string | Pattern | (string | Pattern)[],
+): Observance | undefined {
   if (!Array.isArray(observances)) {
     observances = [observances];
   }
+
   if (!Array.isArray(patterns)) {
     patterns = [patterns];
   }
@@ -23,10 +25,13 @@ function match(
       typeof observance === "string" ? observance : observance.id;
 
     for (const pattern of patterns) {
-      const patternRegex =
-        typeof pattern === "string" ? new RegExp(pattern) : pattern;
-
-      if (patternRegex.test(observanceId)) {
+      if (
+        typeof pattern === "string" &&
+        new RegExp(pattern).test(observanceId)
+      ) {
+        return observance as Observance;
+      }
+      if (pattern instanceof RegExp && pattern.test(observanceId)) {
         return observance as Observance;
       }
     }
@@ -130,10 +135,15 @@ function format_proper_section(
   return pl;
 }
 
+function printAll(calendar: Calendar) {
+  return calendar.serialize();
+}
+
 export {
   match,
   getCustomPreface,
   getPregeneratedProper,
   yyyyMMDD,
   format_propers,
+  printAll,
 };

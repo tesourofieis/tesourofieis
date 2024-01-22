@@ -1,10 +1,12 @@
 import {
   addDays,
   getDate,
+  getMonth,
   getYear,
   isAfter,
   isBefore,
   isLeapYear,
+  isSameDay,
   isSaturday,
   isSunday,
 } from "date-fns";
@@ -50,6 +52,7 @@ import {
 } from "./constants.ts";
 import { match, yyyyMMDD } from "./utils.ts";
 import { UTCDate } from "@date-fns/utc";
+import { isSameMonth } from "date-fns/isSameMonth";
 
 // Nativity Vigil takes place of 4th Advent Sunday.
 function rule_nativity_has_multiple_masses(
@@ -116,7 +119,10 @@ function rule_st_matthias(
     return [
       [match(observances, PATTERN_TEMPORA)],
       [],
-      [[addDays(date_, 1), match(observances, SANCTI_02_24)]],
+      [
+        yyyyMMDD(addDays(new UTCDate(date_), 1)),
+        match(observances, SANCTI_02_24),
+      ],
     ];
   }
 }
@@ -136,7 +142,10 @@ function rule_feb27(
     return [
       [match(observances, PATTERN_TEMPORA)],
       [],
-      [[addDays(date_, 1), match(observances, SANCTI_02_27)]],
+      [
+        yyyyMMDD(addDays(new UTCDate(date_), 1)),
+        match(observances, SANCTI_02_27),
+      ],
     ];
   }
 }
@@ -256,6 +265,15 @@ function rule_shift_conflicting_1st_class_feasts(
   //
   // # The feast of the Immaculate Conception of the Blessed Virgin Mary, however,
   // # is preferred to the Sunday of Advent on which it may occur. (General Rubrics, 15)
+
+  if (getDate(date_) === 8 && getMonth(date_) === 11 && isSunday(date_)) {
+    return [
+      [match(observances, PATTERN_SANCTI)],
+      [match(observances, PATTERN_TEMPORA)],
+      [],
+    ];
+  }
+
   function calcTargetDate() {
     let targetDate = new UTCDate(date_);
     while (getYear(targetDate) === getYear(date_)) {
@@ -321,9 +339,6 @@ function rule_first_class_feast_with_sunday_commemoration(
     match(observances, SANCTI_09_29) &&
     match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)
   ) {
-    if (_date_ === "2024-12-08") {
-      console.log(_date_);
-    }
     return [
       [match(observances, PATTERN_CLASS_1)],
       [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)],

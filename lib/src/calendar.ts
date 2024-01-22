@@ -198,10 +198,6 @@ class Calendar {
       this._container.get(date_).celebration = celebration as Observance[];
       this._container.get(date_).commemoration = commemoration as Observance[];
 
-      if (date_ === "2024-03-25") {
-        console.log(date_);
-      }
-
       for (const [k, v] of shifted) {
         if (!shiftedAll[k]) {
           shiftedAll[k] = [];
@@ -218,9 +214,9 @@ class Calendar {
         ...shifted,
       ]);
 
-    if (date_ === "2024-12-08") {
-      console.log(date_);
-    }
+      if(date_ === "2024-12-08"){
+        console.log(date_)
+      }
 
       if (results) {
         return results;
