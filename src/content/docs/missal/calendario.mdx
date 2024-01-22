@@ -14,36 +14,27 @@ export const calendar = getCalendar(new Date(day).getFullYear());
 
 <div>
   {Object.entries(calendar).map(([date, celebrations]) => (
-    <div key={date}>
-      {!celebrations.celebration.length &&
-        !celebrations.commemoration.length &&
-        !celebrations.tempora.length && (
-          <Card>
-            <h5>Feria</h5>
-            <p>{date}</p>
-          </Card>
-        )}
-      {celebrations.celebration.map((celebration) => (
-        <Card key={celebration.id}>
-          <h5>{celebration.title}</h5>
-          <p>{date}</p>
-          <caption>{JSON.stringify(celebration)}</caption>
-        </Card>
-      ))}
-      {celebrations.tempora.map((tempora) => (
-        <Card key={tempora.id}>
-          <h5>{tempora.title}</h5>
-          <p>{date}</p>
-          <caption>{JSON.stringify(tempora)}</caption>
-        </Card>
-      ))}
+    <Card key={date}>
+      {celebrations.celebration
+        ? celebrations.celebration.map((celebration) => (
+            <>
+              <h5>{celebration.title}</h5>
+              <p>{date}</p>
+              <caption>{JSON.stringify(celebration)}</caption>
+            </>
+          ))
+        : celebrations.tempora.map((tempora) => (
+            <>
+              <h5>{tempora.title}</h5>
+              <p>{date}</p>
+              <caption>{JSON.stringify(tempora)}</caption>
+            </>
+          ))}
       {celebrations.commemoration.map((commemoration) => (
-        <Card key={commemoration.id}>
-          <h5>{commemoration.title}</h5>
-          <p>{date}</p>
-          <caption>{JSON.stringify(commemoration)}</caption>
-        </Card>
+        <>
+          <caption>{commemoration.title}</caption>
+        </>
       ))}
-    </div>
+    </Card>
   ))}
 </div>
