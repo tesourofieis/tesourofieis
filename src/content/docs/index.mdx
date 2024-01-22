@@ -116,8 +116,7 @@ export function getTimeCategory(date) {
   const hour = getHours(date);
   const minute = getMinutes(date);
   // Angelus is traditionally prayed at 6:00 AM, 12:00 PM (noon), and 6:00 PM
-  const isAngelus =
-    (hour === 6 || hour === 12 || hour === 18) && Math.abs(minute - 0) <= 15;
+  const isAngelus = hour === 6 || hour === 12 || hour === 18;
   if (isAngelus) return { title: "Angelus", href: "/devocionario/dia/angelus" };
   // Morning is considered between 6:30 AM and 9:30 AM
   const isMorning =
