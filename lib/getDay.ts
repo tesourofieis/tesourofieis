@@ -7,7 +7,7 @@ function getDay(date: string) {
 
   const day = calendar.get(date);
 
-  const proper = day?.getProper();
+  const proper = day?.getProper(calendar);
 
   const format = format_propers(proper);
 
