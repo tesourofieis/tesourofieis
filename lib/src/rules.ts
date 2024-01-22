@@ -6,7 +6,6 @@ import {
   isAfter,
   isBefore,
   isLeapYear,
-  isSameDay,
   isSaturday,
   isSunday,
 } from "date-fns";
@@ -27,7 +26,6 @@ import {
   PATTERN_TEMPORA_CLASS_4,
   PATTERN_TEMPORA_SUNDAY,
   PATTERN_TEMPORA_SUNDAY_CLASS_2,
-  SANCTI_01_13,
   SANCTI_02_24,
   SANCTI_02_27,
   SANCTI_09_29,
@@ -39,23 +37,15 @@ import {
   COMMUNE_C_10C,
   COMMUNE_C_10PASC,
   COMMUNE_C_10T,
-  TEMPORA_EPI1_0,
-  TEMPORA_PASC0_0,
-  TEMPORA_QUAD6_1,
-  TEMPORA_QUAD6_2,
   TEMPORA_QUAD6_3,
-  TEMPORA_QUAD6_4,
-  TEMPORA_QUAD6_5,
-  TEMPORA_QUAD6_6,
-  TEMPORA_QUADP3_3,
   TYPE_SANCTI,
-  PATTERN_CLASS_2,
-  PATTERN_ADVENT_SUNDAY,
   PATTERN_SUNDAY,
+  PATTERN_SANCTI_CLASS_1,
+  PATTERN_LENT_SUNDAY,
+  TEMPORA_PASC1_0,
 } from "./constants.ts";
 import { match, yyyyMMDD } from "./utils.ts";
 import { UTCDate } from "@date-fns/utc";
-import { isSameMonth } from "date-fns/isSameMonth";
 
 // Nativity Vigil takes place of 4th Advent Sunday.
 function rule_nativity_has_multiple_masses(
@@ -302,7 +292,7 @@ function rule_shift_conflicting_1st_class_feasts(
   }
 }
 
-// if we have second class feasts and first class
+// if we have first and second class feasts
 // transfer second class to next available
 function rule_shift_conflicting_second_class_feasts(
   calendar: Calendar,
@@ -335,21 +325,7 @@ function rule_shift_conflicting_second_class_feasts(
   }
 }
 
-// A 1st class feast of the Lord occurring on a Sunday or Feria
-// takes the place of that day with all rights and privileges;
-// hence there is no commemoration of the day.
-function rule_lord_feast1(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
-  observances: Observance[],
-) {
-  if (match(observances, SANCTI_01_13) && match(observances, TEMPORA_EPI1_0)) {
-    return [[match(observances, TEMPORA_EPI1_0)], [], []];
-  }
-}
-
-function rule_lord_feast2(
+function rule_lord_feast(
   _calendar: Calendar,
   _date_: string,
   _tempora: Observance[],
@@ -360,25 +336,6 @@ function rule_lord_feast2(
     match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)
   ) {
     return [[match(observances, PATTERN_SANCTI_CLASS_1_OR_2)], [], []];
-  }
-}
-
-// In case of some 1st class feasts the Sunday is commemorated, e.g. St. Michael the Archangel on Sunday 2019-09-29
-function rule_first_class_feast_with_sunday_commemoration(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
-  observances: Observance[],
-) {
-  if (
-    match(observances, SANCTI_09_29) &&
-    match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)
-  ) {
-    return [
-      [match(observances, PATTERN_CLASS_1)],
-      [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)],
-      [],
-    ];
   }
 }
 
@@ -405,40 +362,71 @@ function rule_2nd_class_sunday_tempora(
   }
 }
 
-function rule_first_class_feast_no_commemoration(
+function rule_commemoration(
   _calendar: Calendar,
   _date_: string,
   _tempora: Observance[],
   observances: Observance[],
 ) {
-  if (match(observances, PATTERN_CLASS_1)) {
-    const sortedObservances = observances
-      .slice()
-      .sort((a, b) => a.priority - b.priority);
-    return [[match(sortedObservances, PATTERN_CLASS_1)], [], []];
-  }
-}
+  const pattern_sancti = match(observances, PATTERN_SANCTI);
 
-// # Ash wednesday and holy week always wins
-function rule_1st_class_feria(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
-  observances: Observance[],
-) {
+  const sundays = match(observances, PATTERN_SUNDAY);
+
+  const sundaysLent = match(observances, PATTERN_LENT_SUNDAY);
+
+  const albis = match(observances, TEMPORA_PASC1_0);
+
+  const firstClassSaints = match(observances, PATTERN_SANCTI_CLASS_1);
+
+  // In case of some 1st class feasts the Sunday is commemorated,
+  // e.g. St. Michael the Archangel on Sunday 2019-09-29
   if (
-    match(observances, [
-      TEMPORA_QUAD6_1,
-      TEMPORA_QUAD6_2,
-      TEMPORA_QUAD6_3,
-      TEMPORA_QUAD6_4,
-      TEMPORA_QUAD6_5,
-      TEMPORA_QUAD6_6,
-      TEMPORA_PASC0_0,
-      TEMPORA_QUADP3_3,
-    ])
+    match(observances, SANCTI_09_29) &&
+    match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)
   ) {
-    return [[match(observances, PATTERN_TEMPORA)], [], []];
+    return [
+      [match(observances, PATTERN_CLASS_1)],
+      [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)],
+      [],
+    ];
+  }
+
+  // if sundays outside lent and easter week
+  if (!sundaysLent && !albis && sundays && pattern_sancti) {
+    // if sunday is second class and sancti first class
+    // celebrate the sancti without sunday commemoration
+    if (firstClassSaints && sundays?.rank === 2) {
+      return [[firstClassSaints], [], []];
+    }
+
+    // if sancti second class sunday is commemorated
+    if (pattern_sancti.rank <= 2) {
+      return [[pattern_sancti], [sundays], []];
+    }
+
+    // if sancti third class is commemorated
+    if (pattern_sancti.rank === 3) {
+      return [[sundays], [pattern_sancti], []];
+    }
+
+    // if sancti is fourth class skip
+    if (pattern_sancti.rank === 4) {
+      return;
+    }
+
+    // else sundays with sancti commemoration
+    return [[sundays], [pattern_sancti], []];
+  }
+
+  // if not on sunday and first class sancti
+  // no commemoration takes place
+  if (!sundays && firstClassSaints) {
+    return [[firstClassSaints], [], []];
+  }
+
+  // else first class without commemoration
+  if (match(observances, PATTERN_CLASS_1)) {
+    return [[match(observances, PATTERN_CLASS_1)], [], []];
   }
 }
 
@@ -453,35 +441,11 @@ function rule_4th_class_feria_are_removed_from_celebration(
   if (fourthClassTempora) {
     const commemoration = match(observances, PATTERN_SANCTI_CLASS_4);
 
-    const a = observances.filter((o) => o !== fourthClassTempora);
-
     if (commemoration) {
       return [[], [commemoration], []];
     }
 
     return [observances.filter((o) => o !== fourthClassTempora), [], []];
-  }
-}
-
-function rule_4th_class_commemorations_are_only_commemorated(
-  calendar: Calendar,
-  date_: string,
-  tempora: Observance[],
-  observances: Observance[],
-) {
-  const fourthClassSancti = match(observances, PATTERN_SANCTI_CLASS_4);
-
-  if (fourthClassSancti) {
-    const removedObservance = observances.find((o) => o === fourthClassSancti);
-    const filteredObservances = observances.filter(
-      (o) => o !== fourthClassSancti,
-    );
-
-    return [
-      filteredObservances,
-      removedObservance ? [removedObservance] : [],
-      [],
-    ];
   }
 }
 
@@ -520,14 +484,10 @@ export const rules = [
   rule_lent_commemoration,
   rule_shift_conflicting_1st_class_feasts,
   rule_shift_conflicting_second_class_feasts,
-  rule_lord_feast1,
-  rule_lord_feast2,
-  rule_first_class_feast_with_sunday_commemoration,
-  rule_first_class_feast_no_commemoration,
+  rule_lord_feast,
+  rule_commemoration,
   rule_2nd_class_sunday_tempora,
-  rule_1st_class_feria,
   rule_bmv_office_on_saturday,
   rule_4th_class_feria_are_removed_from_celebration,
-  rule_4th_class_commemorations_are_only_commemorated,
   rule_general,
 ];

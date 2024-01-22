@@ -173,7 +173,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:01-14:3:w",
+            rank: 3,
+            title: "S. Hilário, Bispo Confessor e Doutor",
+          },
+        ],
       },
       "2024-01-15": {
         tempora: [
@@ -306,7 +313,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:01-21:3:r",
+            rank: 3,
+            title: "S. Inês, Virgem e Mártir",
+          },
+        ],
       },
       "2024-01-22": {
         tempora: [
@@ -440,7 +454,14 @@ describe("calendar", () => {
             colors: ["v"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:01-28:3:w",
+            rank: 3,
+            title: "S. Pedro Nolasco, Confessor",
+          },
+        ],
       },
       "2024-01-29": {
         tempora: [
@@ -580,7 +601,14 @@ describe("calendar", () => {
             colors: ["v"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:02-04:3:w",
+            rank: 3,
+            title: "S. André Corsino, Bispo e Confessor",
+          },
+        ],
       },
       "2024-02-05": {
         tempora: [
@@ -714,7 +742,14 @@ describe("calendar", () => {
             colors: ["v"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:02-11:3:w",
+            rank: 3,
+            title: "Aparição de Nossa Senhora, em Lourdes",
+          },
+        ],
       },
       "2024-02-12": {
         tempora: [
@@ -1988,7 +2023,14 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:04-14:3:r",
+            rank: 3,
+            title: "S. Justino, Mártir",
+          },
+        ],
       },
       "2024-04-15": {
         tempora: [
@@ -2100,7 +2142,14 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:04-21:3:w",
+            rank: 3,
+            title: "S. Anselmo, Bispo, Confessor e Doutor da Igreja",
+          },
+        ],
       },
       "2024-04-22": {
         tempora: [
@@ -2233,7 +2282,14 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:04-28:3:w",
+            rank: 3,
+            title: "S. Paulo da Cruz, Confessor",
+          },
+        ],
       },
       "2024-04-29": {
         tempora: [
@@ -2366,7 +2422,14 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:05-05:3:w",
+            rank: 3,
+            title: "S. Pio V, Papa e Confessor",
+          },
+        ],
       },
       "2024-05-06": {
         tempora: [
@@ -2506,7 +2569,15 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:05-12:3:r",
+            rank: 3,
+            title:
+              "S.S. Nereu, Achileu, Domitila, Virgem e Pancracio, Mártires",
+          },
+        ],
       },
       "2024-05-13": {
         tempora: [
@@ -2632,7 +2703,14 @@ describe("calendar", () => {
             colors: ["r"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:05-19:3:w",
+            rank: 3,
+            title: "S. Pedro Celestino, Papa e Confessor",
+          },
+        ],
       },
       "2024-05-20": {
         tempora: [
@@ -2765,7 +2843,14 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:05-26:3:w",
+            rank: 3,
+            title: "S. Filipe Néri, Confessor",
+          },
+        ],
       },
       "2024-05-27": {
         tempora: [
@@ -3287,18 +3372,18 @@ describe("calendar", () => {
         ],
         celebration: [
           {
-            id: "sancti:06-23:2:v",
-            rank: 2,
-            title: "Vig\u00edlia da Natividade de S. J\u00e3o Baptista",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [
-          {
             id: "tempora:Pent05-0:2:g",
             rank: 2,
             title: "5\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
+          },
+        ],
+        commemoration: [
+          {
+            id: "sancti:06-23:3:v",
+            rank: 3,
+            title: "Vig\u00edlia da Natividade de S. J\u00e3o Baptista",
+            colors: ["v"],
           },
         ],
       },
@@ -3426,7 +3511,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:06-30:3:r",
+            rank: 3,
+            title: "Comemoração S. Paulo, Apóstolo",
+          },
+        ],
       },
       "2024-07-01": {
         tempora: [
@@ -3552,7 +3644,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:07-07:3:w",
+            rank: 3,
+            title: "S.S. Cirilo e Metódio, Bispos e Confessores",
+          },
+        ],
       },
       "2024-07-08": {
         tempora: [
@@ -3679,7 +3778,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:07-14:3:w",
+            rank: 3,
+            title: "S. Boaventura, Bispo, Confessor e Doutor da Igreja",
+          },
+        ],
       },
       "2024-07-15": {
         tempora: [
@@ -3812,7 +3918,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:07-21r:3:w",
+            rank: 3,
+            title: "S. Praxedes de Brindisi, Confessor e Doutor da Igreja",
+          },
+        ],
       },
       "2024-07-22": {
         tempora: [
@@ -3952,7 +4065,15 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:07-28:3:r",
+            rank: 3,
+            title:
+              "S.S. Nazário e Celso, Mártires, S. Victor I, Papa e Mártir, S. Inocêncio I, Papa e Confessor",
+          },
+        ],
       },
       "2024-07-29": {
         tempora: [
@@ -4086,7 +4207,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:08-04:3:w",
+            rank: 3,
+            title: "S. Domingos, Confessor",
+          },
+        ],
       },
       "2024-08-05": {
         tempora: [
@@ -4485,7 +4613,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:08-25:3:w",
+            rank: 3,
+            title: "S. Luís, Rei de França e Confessor",
+          },
+        ],
       },
       "2024-08-26": {
         tempora: [
@@ -5031,7 +5166,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:09-22:3:w",
+            rank: 3,
+            title: "S. Tomás de Vilanova, Bispo e Confessor",
+          },
+        ],
       },
       "2024-09-23": {
         tempora: [
@@ -5304,7 +5446,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:10-06:3:w",
+            rank: 3,
+            title: "S. Bruno, Confessor",
+          },
+        ],
       },
       "2024-10-07": {
         tempora: [
@@ -5437,7 +5586,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:10-13:3:w",
+            rank: 3,
+            title: "S. Eduardo, Confessor",
+          },
+        ],
       },
       "2024-10-14": {
         tempora: [
@@ -5570,7 +5726,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:10-20:3:w",
+            rank: 3,
+            title: "S. João Câncio, Confessor",
+          },
+        ],
       },
       "2024-10-21": {
         tempora: [
@@ -5935,7 +6098,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:11-10:3:w",
+            rank: 3,
+            title: "S. André de Avelino, Confessor",
+          },
+        ],
       },
       "2024-11-11": {
         tempora: [
@@ -6068,7 +6238,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:11-17:3:w",
+            rank: 3,
+            title: "S. Gregório Taumaturgo, Bispo e Confessor",
+          },
+        ],
       },
       "2024-11-18": {
         tempora: [
@@ -6201,7 +6378,14 @@ describe("calendar", () => {
             colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:11-24:3:w",
+            rank: 3,
+            title: "S. João da Cruz, Confessor e Doutor da Igreja",
+          },
+        ],
       },
       "2024-11-25": {
         tempora: [
