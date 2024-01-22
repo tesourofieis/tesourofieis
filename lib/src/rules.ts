@@ -82,11 +82,7 @@ function rule_all_souls(
       .filter((ld) => ld.id.startsWith("sancti:11-02m"))
       .reverse();
     if (isSunday(date_)) {
-      return [
-        [],
-        [match(observances, PATTERN_TEMPORA_SUNDAY)],
-        [[new UTCDate(getYear(date_), 10, 3), allSouls]],
-      ];
+      return [allSouls, [match(observances, PATTERN_TEMPORA_SUNDAY)], []];
     }
     return [allSouls, [], []];
   }

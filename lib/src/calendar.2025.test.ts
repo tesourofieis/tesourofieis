@@ -5720,43 +5720,40 @@ describe("calendar 2025", () => {
         commemoration: [],
       },
       "2025-11-02": {
-        tempora: [
+        celebration: [
           {
-            id: "tempora:Pent21-0:2:g",
-            rank: 2,
-            title: "21\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
+            colors: ["b"],
+            id: "sancti:11-02m1:1:b",
+            rank: 1,
+            title: "Comemoração dos Fiéis Defuntos, 1ª Missa",
+          },
+          {
+            colors: ["b"],
+            id: "sancti:11-02m2:1:b",
+            rank: 1,
+            title: "Comemoração dos Fiéis Defuntos, 2ª Missa",
+          },
+          {
+            colors: ["b"],
+            id: "sancti:11-02m3:1:b",
+            rank: 1,
+            title: "Comemoração dos Fiéis Defuntos, 3ª Missa",
           },
         ],
         commemoration: [
           {
+            colors: ["g"],
             id: "tempora:Pent21-0:2:g",
             rank: 2,
-            title: "21\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
+            title: "21º Domingo depois de Pentecostes",
           },
         ],
-        celebration: [
+        tempora: [
           {
-            id: "sancti:11-02m1:1:b",
-            rank: 1,
-            title:
-              "Comemora\u00e7\u00e3o dos Fi\u00e9is Defuntos, 1\u00aa Missa",
-            colors: ["b"],
-          },
-          {
-            id: "sancti:11-02m2:1:b",
-            rank: 1,
-            title:
-              "Comemora\u00e7\u00e3o dos Fi\u00e9is Defuntos, 2\u00aa Missa",
-            colors: ["b"],
-          },
-          {
-            id: "sancti:11-02m3:1:b",
-            rank: 1,
-            title:
-              "Comemora\u00e7\u00e3o dos Fi\u00e9is Defuntos, 3\u00aa Missa",
-            colors: ["b"],
+            colors: ["g"],
+            id: "tempora:Pent21-0:2:g",
+            rank: 2,
+            title: "21º Domingo depois de Pentecostes",
           },
         ],
       },
