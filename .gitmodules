@@ -1,0 +1,3 @@
+[submodule "divinum-officium"]
+	path = lib/resources/divinum-officium
+	url = git@github.com:tesourofieis/divinum-officium

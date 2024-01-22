@@ -121,8 +121,6 @@ export class Proper extends ParsedSource {
   colors: string[];
   rank: number | null = null;
   additionalInfo: string[] = [];
-  supplements: unknown[] = [];
-  tags: string[] | null = [];
   commemorationsNamesTranslations: Record<string, null> = {
     COMMEMORATION: null,
     COMMEMORATED_ORATIO: null,

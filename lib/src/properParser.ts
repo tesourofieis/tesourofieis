@@ -127,10 +127,7 @@ class ProperParser {
     let sectionName: string | null = null;
     let concatLine = false;
     const fullPath = this._get_full_path(partialPath, lang);
-    // if (!fullPath) {
-    //   console.error(`Proper not found. full_path => ${fullPath}`);
-    // }
-    // Assuming 'fs' module for file operations
+
     const fileContent: string = fs.readFileSync(
       fullPath || partialPath,
       "utf8",
@@ -190,7 +187,7 @@ class ProperParser {
               );
 
               const nestedSection = nestedProper.getSection(nestedSectionName);
-              if (!nestedSection) {
+              if (nestedSection) {
                 parsedSource
                   .getSection(sectionName)
                   .extendBody(nestedSection.body);
@@ -441,29 +438,8 @@ class ProperParser {
   }
 
   _get_full_path(partial_path: string, lang: string = LANGUAGE) {
-    // let currentDir = __dirname;
-    // const full_path = path.join(
-    //   currentDir,
-    //   "../resources/divinum-officium-custom",
-    //   "web",
-    //   "www",
-    //   "missa",
-    //   DIVOFF_LANG_MAP[lang],
-    //   partial_path,
-    // );
-
     const full_path = `./lib/resources/divinum-officium-custom/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
     if (!fs.existsSync(full_path)) {
-      // const fallback_path = path.join(
-      //   currentDir,
-      //   "../resources/divinum-officium",
-      //   "web",
-      //   "www",
-      //   "missa",
-      //   DIVOFF_LANG_MAP[lang],
-      //   partial_path,
-      // );
-
       const fallback_path = `./lib/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
       if (!fs.existsSync(fallback_path)) {
         return;

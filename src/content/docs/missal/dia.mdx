@@ -1,5 +1,5 @@
 ---
-title: Santa Missa
+title: Missa do dia
 ---
 
 import { getDay } from "../../../../lib/getDay.ts";
@@ -7,22 +7,16 @@ import { yyyyMMDD } from "../../../../lib/src/utils.ts";
 
 export const day = getDay(yyyyMMDD(new Date()));
 
-export const title = day.info.title;
-
-## <h1>{title}</h1>
-
-export const introitusSection = day.sections.find(
-  (section) => section.id.latin === "Introitus",
-);
-
 <div>
-  {day.sections.map((section) => (
-    <>
-      <h2>{section.id.vernacular}</h2>
-      <div className="grid grid-cols-2 gap-5">
-        <span class="text-justify">{section.body.latin}</span>
-        <span class="text-justify">{section.body.vernacular}</span>
-      </div>
-    </>
-  ))}
+  {day.sections
+    .filter((_, idx) => idx > 2)
+    .map((section) => (
+      <>
+        <h2 id={section.id.toLowerCase()}>{section.id}</h2>
+        <div className="grid grid-cols-2 gap-5">
+          <span class="text-justify">{section.body.latin}</span>
+          <span class="text-justify">{section.body.vernacular}</span>
+        </div>
+      </>
+    ))}
 </div>
