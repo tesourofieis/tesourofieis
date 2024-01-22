@@ -51,6 +51,7 @@ import {
   TYPE_SANCTI,
   PATTERN_CLASS_2,
   PATTERN_ADVENT_SUNDAY,
+  PATTERN_SUNDAY,
 } from "./constants.ts";
 import { match, yyyyMMDD } from "./utils.ts";
 import { UTCDate } from "@date-fns/utc";
@@ -388,18 +389,19 @@ function rule_2nd_class_sunday_tempora(
   _tempora: Observance[],
   observances: Observance[],
 ) {
-  const pattern_tempora_sunday_class_2 = match(
-    observances,
-    PATTERN_TEMPORA_SUNDAY_CLASS_2,
-  );
+  const pattern_sunday_class_2 = match(observances, PATTERN_SUNDAY);
 
   const pattern_sancti_class_2 = match(observances, PATTERN_SANCTI_CLASS_2);
 
-  if (pattern_tempora_sunday_class_2 && isSunday(date_)) {
+  if (
+    pattern_sunday_class_2 &&
+    pattern_sunday_class_2.rank === 2 &&
+    isSunday(date_)
+  ) {
     if (pattern_sancti_class_2) {
-      return [[pattern_sancti_class_2], [pattern_tempora_sunday_class_2], []];
+      return [[pattern_sancti_class_2], [pattern_sunday_class_2], []];
     }
-    return [[pattern_tempora_sunday_class_2], [], []];
+    return [[pattern_sunday_class_2], [], []];
   }
 }
 
