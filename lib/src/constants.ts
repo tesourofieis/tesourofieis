@@ -83,6 +83,7 @@ export const PATTERN_EASTER_PREFATIO: RegExp =
   /^tempora:Pasc([0-4]|5-0|5-1|5-2|5-3)/;
 export const PATTERN_ASCENSION_PREFATIO: RegExp =
   /^tempora:Pasc(5-4|5-5|5-6|6-0|6-1|6-2|6-3|6-4|6-5)/;
+export const PATTERN_SUNDAY: RegExp = /^tempora:.*\d-0.*/;
 export const PATTERN_LENT_SUNDAY: RegExp = /^tempora:Quad\d-0.*/;
 export const PATTERN_TEMPORA_SUNDAY: RegExp = /^tempora:.*/;
 export const PATTERN_TEMPORA_SUNDAY_CLASS_1: RegExp = /^tempora:.*:1:.*/;
