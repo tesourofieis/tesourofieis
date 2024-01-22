@@ -116,8 +116,10 @@ function rule_st_matthias(
       [match(observances, PATTERN_TEMPORA)],
       [],
       [
-        yyyyMMDD(addDays(new UTCDate(date_), 1)),
-        match(observances, SANCTI_02_24),
+        [
+          yyyyMMDD(addDays(new UTCDate(date_), 1)),
+          match(observances, SANCTI_02_24),
+        ],
       ],
     ];
   }
@@ -139,8 +141,10 @@ function rule_feb27(
       [match(observances, PATTERN_TEMPORA)],
       [],
       [
-        yyyyMMDD(addDays(new UTCDate(date_), 1)),
-        match(observances, SANCTI_02_27),
+        [
+          yyyyMMDD(addDays(new UTCDate(date_), 1)),
+          match(observances, SANCTI_02_27),
+        ],
       ],
     ];
   }
