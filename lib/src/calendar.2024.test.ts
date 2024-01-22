@@ -550,7 +550,7 @@ describe("calendar", () => {
           {
             id: "commune:C10c:0:w",
             rank: 0,
-            title: "III Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "3º Missa da Virgem Maria – Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -1003,6 +1003,14 @@ describe("calendar", () => {
         commemoration: [],
       },
       "2024-02-26": {
+        celebration: [
+          {
+            colors: ["r"],
+            id: "sancti:02-24:2:r",
+            rank: 2,
+            title: "S. Matias, Apóstolo",
+          },
+        ],
         tempora: [
           {
             id: "tempora:Quad2-1:3:v",
@@ -1011,7 +1019,7 @@ describe("calendar", () => {
             colors: ["v"],
           },
         ],
-        celebration: [
+        commemoration: [
           {
             id: "tempora:Quad2-1:3:v",
             rank: 3,
@@ -1019,7 +1027,6 @@ describe("calendar", () => {
             colors: ["v"],
           },
         ],
-        commemoration: [],
       },
       "2024-02-27": {
         tempora: [
@@ -2070,7 +2077,7 @@ describe("calendar", () => {
           {
             id: "commune:C10Pasc:0:w",
             rank: 0,
-            title: "IV Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "4 Missa da Virgem Maria – Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -2476,7 +2483,7 @@ describe("calendar", () => {
           {
             id: "commune:C10Pasc:0:w",
             rank: 0,
-            title: "IV Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "4 Missa da Virgem Maria – Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -2997,7 +3004,7 @@ describe("calendar", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -3522,7 +3529,7 @@ describe("calendar", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -3649,7 +3656,7 @@ describe("calendar", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -3915,7 +3922,7 @@ describe("calendar", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -4056,7 +4063,7 @@ describe("calendar", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -4707,7 +4714,7 @@ describe("calendar", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -5267,7 +5274,7 @@ describe("calendar", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -5407,7 +5414,7 @@ describe("calendar", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -5666,7 +5673,7 @@ describe("calendar", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],

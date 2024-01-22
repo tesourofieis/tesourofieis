@@ -49,6 +49,8 @@ import {
   TEMPORA_QUAD6_6,
   TEMPORA_QUADP3_3,
   TYPE_SANCTI,
+  PATTERN_CLASS_2,
+  PATTERN_ADVENT_SUNDAY,
 } from "./constants.ts";
 import { match, yyyyMMDD } from "./utils.ts";
 import { UTCDate } from "@date-fns/utc";
@@ -262,7 +264,6 @@ function rule_shift_conflicting_1st_class_feasts(
   // # If there are two feasts with 1st class, the one with lower priority on Precedence Table is shifted to the first
   // # day where there is no 1st and 2nd class feast.
   //
-  //
   // # The feast of the Immaculate Conception of the Blessed Virgin Mary, however,
   // # is preferred to the Sunday of Advent on which it may occur. (General Rubrics, 15)
 
@@ -295,8 +296,42 @@ function rule_shift_conflicting_1st_class_feasts(
     const [celebration, shiftDay] = firstClassFeasts
       .sort((a, b) => a.priority - b.priority)
       .slice(0, 2);
-    const toShift = [[calcTargetDate(), [shiftDay]]];
+    const toShift = [[targetDate, [shiftDay]]];
     return [[celebration], [], toShift];
+  }
+}
+
+function rule_shift_conflicting_second_class_feasts(
+  calendar: Calendar,
+  date_: string,
+  _tempora: Observance[],
+  observances: Observance[],
+) {
+  // # If there are two feasts with 1st class, the one with lower priority on Precedence Table is shifted to the first
+  // # day where there is no 1st and 2nd class feast.
+
+  function calcTargetDate() {
+    let targetDate = new UTCDate(date_);
+    while (getYear(targetDate) === getYear(date_)) {
+      targetDate = addDays(targetDate, 1);
+      const allRanks = new Set(
+        calendar.get(yyyyMMDD(targetDate))?.all.map((ld) => ld.rank),
+      );
+      if (!allRanks.has(1)) {
+        return yyyyMMDD(targetDate);
+      }
+    }
+  }
+
+  const firstClassFeasts = observances.filter((ld) => ld.rank === 1);
+
+  const secondClassFeasts = match(observances, PATTERN_SANCTI_CLASS_2);
+
+  if (firstClassFeasts.length && secondClassFeasts?.rank === 2) {
+    const targetDate = calcTargetDate();
+
+    const toShift = [[targetDate, match(observances, PATTERN_SANCTI_CLASS_2)]];
+    return [[firstClassFeasts[0]], [], toShift];
   }
 }
 
@@ -347,23 +382,8 @@ function rule_first_class_feast_with_sunday_commemoration(
   }
 }
 
-function rule_first_class_feast_no_commemoration(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
-  observances: Observance[],
-) {
-  // FIXME: feast where no commemoration allowed have commemoration
-  if (match(observances, PATTERN_CLASS_1)) {
-    const sortedObservances = observances
-      .slice()
-      .sort((a, b) => a.priority - b.priority);
-    return [[match(sortedObservances, PATTERN_CLASS_1)], [], []];
-  }
-}
-
 // When 2nd class Sunday occurs along with 2nd class feast, the Sunday takes precedence and the feast is commemorated
-function rule_2nd_class_sunday(
+function rule_2nd_class_sunday_tempora(
   _calendar: Calendar,
   date_: string,
   _tempora: Observance[],
@@ -381,6 +401,20 @@ function rule_2nd_class_sunday(
       return [[pattern_sancti_class_2], [pattern_tempora_sunday_class_2], []];
     }
     return [[pattern_tempora_sunday_class_2], [], []];
+  }
+}
+
+function rule_first_class_feast_no_commemoration(
+  _calendar: Calendar,
+  _date_: string,
+  _tempora: Observance[],
+  observances: Observance[],
+) {
+  if (match(observances, PATTERN_CLASS_1)) {
+    const sortedObservances = observances
+      .slice()
+      .sort((a, b) => a.priority - b.priority);
+    return [[match(sortedObservances, PATTERN_CLASS_1)], [], []];
   }
 }
 
@@ -430,7 +464,7 @@ function rule_4th_class_feria_are_removed_from_celebration(
 
 function rule_4th_class_commemorations_are_only_commemorated(
   calendar: Calendar,
-  date_: Date,
+  date_: string,
   tempora: Observance[],
   observances: Observance[],
 ) {
@@ -466,8 +500,8 @@ function rule_general(
   const [first, second] = observances
     .sort(
       (a, b) =>
-        a.priority - b.priority ||
         a.rank - b.rank ||
+        a.priority - b.priority ||
         a.flexibility.localeCompare(b.flexibility),
     )
     .slice(0, 2);
@@ -484,11 +518,12 @@ export const rules = [
   rule_same_class_feasts_take_over_advent_feria_and_ember_days,
   rule_lent_commemoration,
   rule_shift_conflicting_1st_class_feasts,
+  rule_shift_conflicting_second_class_feasts,
   rule_lord_feast1,
   rule_lord_feast2,
   rule_first_class_feast_with_sunday_commemoration,
   rule_first_class_feast_no_commemoration,
-  rule_2nd_class_sunday,
+  rule_2nd_class_sunday_tempora,
   rule_1st_class_feria,
   rule_bmv_office_on_saturday,
   rule_4th_class_feria_are_removed_from_celebration,

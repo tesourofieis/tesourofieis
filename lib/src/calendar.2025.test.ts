@@ -34,7 +34,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10b:0:w",
             rank: 0,
-            title: "II Missa da Virgem Maria \u2013 Vultum Tuum",
+            title: "2ª Missa da Virgem Maria - Missa Vultum tuum",
             colors: ["w"],
           },
         ],
@@ -90,7 +90,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10b:0:w",
             rank: 0,
-            title: "II Missa da Virgem Maria \u2013 Vultum Tuum",
+            title: "2ª Missa da Virgem Maria - Missa Vultum tuum",
             colors: ["w"],
           },
         ],
@@ -223,7 +223,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10b:0:w",
             rank: 0,
-            title: "II Missa da Virgem Maria \u2013 Vultum Tuum",
+            title: "2ª Missa da Virgem Maria - Missa Vultum tuum",
             colors: ["w"],
           },
         ],
@@ -756,7 +756,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10c:0:w",
             rank: 0,
-            title: "III Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "3º Missa da Virgem Maria – Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -980,7 +980,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10c:0:w",
             rank: 0,
-            title: "III Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "3º Missa da Virgem Maria – Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -2183,6 +2183,12 @@ describe("calendar 2025", () => {
             title: "S. Paulo da Cruz, Confessor",
             colors: ["w"],
           },
+          {
+            colors: ["r"],
+            id: "sancti:04-25:2:r",
+            rank: 2,
+            title: "S. Marcos, Evangelista",
+          },
         ],
         commemoration: [],
       },
@@ -2655,7 +2661,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10Pasc:0:w",
             rank: 0,
-            title: "IV Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "4 Missa da Virgem Maria – Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -4642,7 +4648,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -4775,7 +4781,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -4915,7 +4921,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -5601,7 +5607,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -5838,7 +5844,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -6237,7 +6243,7 @@ describe("calendar 2025", () => {
           {
             id: "commune:C10t:0:w",
             rank: 0,
-            title: "V Missa da Virgem Maria \u2013 Salve, Sancta Parens",
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
             colors: ["w"],
           },
         ],
@@ -6267,14 +6273,7 @@ describe("calendar 2025", () => {
             colors: ["v"],
           },
         ],
-        commemoration: [
-          {
-            id: "sancti:11-30:2:r",
-            rank: 2,
-            title: "S. Andr\u00e9, Ap\u00f3stolo",
-            colors: ["r"],
-          },
-        ],
+        commemoration: [],
       },
       "2025-12-01": {
         tempora: [
@@ -6287,13 +6286,20 @@ describe("calendar 2025", () => {
         ],
         celebration: [
           {
+            colors: ["r"],
+            id: "sancti:11-30:2:r",
+            rank: 2,
+            title: "S. André, Apóstolo",
+          },
+        ],
+        commemoration: [
+          {
             id: "tempora:Adv1-1:3:v",
             rank: 3,
             title: "Segunda-feira da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
-        commemoration: [],
       },
       "2025-12-02": {
         tempora: [
@@ -6744,14 +6750,7 @@ describe("calendar 2025", () => {
             colors: ["v"],
           },
         ],
-        commemoration: [
-          {
-            id: "sancti:12-21:2:r",
-            rank: 2,
-            title: "S. Tom\u00e9, Ap\u00f3stolo",
-            colors: ["r"],
-          },
-        ],
+        commemoration: [],
       },
       "2025-12-22": {
         tempora: [
@@ -6764,13 +6763,20 @@ describe("calendar 2025", () => {
         ],
         celebration: [
           {
+            colors: ["r"],
+            id: "sancti:12-21:2:r",
+            rank: 2,
+            title: "S. Tomé, Apóstolo",
+          },
+        ],
+        commemoration: [
+          {
             id: "tempora:Adv4-1:2:v",
             rank: 2,
             title: "Segunda-feira da 4\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
-        commemoration: [],
       },
       "2025-12-23": {
         tempora: [
