@@ -4,6 +4,7 @@ export const sidebar = [
     items: [
       { label: "Dia", link: "/missal/dia" },
       { label: "Calendário", link: "/missal/calendario" },
+      { label: "Ordo", link: "/missal/ordo" },
       {
         label: "Advento",
         collapsed: true,
