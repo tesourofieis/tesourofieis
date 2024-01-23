@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
+import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 
 // https://astro.build/config
 export default defineConfig({
@@ -39,7 +40,17 @@ export default defineConfig({
     }),
     tailwind({ applyBaseStyles: false }),
   ],
+  markdown: {
+    rehypePlugins: [rehypeHeadingIds],
+  },
   test: {
     watch: false,
+  },
+  vite: {
+    server: {
+      watch: {
+        ignored: ["**/lib/resources**/*"],
+      },
+    },
   },
 });
