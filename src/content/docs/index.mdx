@@ -2,16 +2,7 @@
 title: Início
 description: Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.
 hero:
-  title: |
-    <span
-      class="font-black text-transparent
-        bg-clip-text bg-gradient-to-b
-        from-accent-700 to-accent-400
-        dark:from-accent-500 dark:to-accent-200"
-    >
-      Tesouro
-    </span>
-    dos Fiéis
+  title: Tesouro dos Fiéis
   tagline: Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.
   image:
     file: ../../../public/favicon.svg
@@ -37,6 +28,8 @@ import { yyyyMMDD } from "../../../lib/src/utils.ts";
 import { getHours, getMinutes } from "date-fns";
 
 import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
+
+export const date = new Date();
 
 export function getPrayerTimeCategory(date) {
   const hour = getHours(date);
@@ -108,30 +101,39 @@ export function getPrayerTimeCategory(date) {
 }
 
 export const calendar = getCalendarDay(
-  new UTCDate().getFullYear(),
-  yyyyMMDD(new UTCDate()),
+  new Date(date).getFullYear(),
+  yyyyMMDD(new Date()),
 );
 
-export function getTimeCategory(date) {
+export function getPrayer(date) {
   const hour = getHours(date);
   const minute = getMinutes(date);
-  // Angelus is traditionally prayed at 6:00 AM, 12:00 PM (noon), and 6:00 PM
-  const isAngelus = hour === 6 || hour === 12 || hour === 18;
-  if (isAngelus) return { title: "Angelus", href: "/devocionario/dia/angelus" };
   // Morning is considered between 6:30 AM and 9:30 AM
   const isMorning =
     (hour === 6 && minute >= 30) ||
     (hour > 6 && hour < 9) ||
     (hour === 9 && minute <= 30);
   if (isMorning)
-    return { title: "Oração da Manhã", href: "/devocionario/dia/oracaomanha" };
+    return (
+      <LinkCard title="Oração da Manhã" href="/devocionario/dia/oracaomanha" />
+    );
   // Night is considered between 8:00 PM and 3:00 AM
   const isNight = hour >= 20 || (hour >= 0 && hour < 3);
   if (isMorning)
-    return { title: "Oração da Noite", href: "/devocionario/dia/oracaonoite" };
+    return (
+      <LinkCard title="Oração da Noite" href="/devocionario/dia/oracaonoite" />
+    );
 }
 
-export const time = getTimeCategory(new UTCDate());
+export function getAngelus(date) {
+  const hour = getHours(date);
+  const minute = getMinutes(date);
+  // Angelus is traditionally prayed at 6:00 AM, 12:00 PM (noon), and 6:00 PM
+  const isAngelus = hour === 6 || hour === 12 || hour === 18;
+  if (isAngelus) {
+    return <LinkCard title="Angelus" href="/devocionario/dia/angelus" />;
+  }
+}
 
 <Card
   title={new Date().toLocaleString("pt", {
@@ -142,69 +144,47 @@ export const time = getTimeCategory(new UTCDate());
   })}
   icon="magnifier"
 >
-  <Card>
-    <div>
-      <h3>Tempora</h3>
-      {calendar.tempora.map((item) => (
-        <div key={item.id}>
-          <p>{item.title}</p>
-          <caption>{item.id}</caption>
-        </div>
-      ))}
-      <h3>Celebration</h3>
-      {calendar.celebration.map((item) => (
-        <div key={item.id}>
-          <p>{item.title}</p>
-          <caption>{item.id}</caption>
-        </div>
-      ))}
-      <h3>Commemoration</h3>
-      {calendar.commemoration.map((item) => (
-        <div key={item.id}>
-          <p>{item.title}</p>
-          <caption>{item.id}</caption>
-        </div>
-      ))}
-    </div>
-    {JSON.stringify(calendar, null, 2)}
-  </Card>
+  <LinkCard
+    href={`/missal/dia#${date}`}
+    title={
+      calendar.celebration[0]?.title ||
+      calendar.tempora[0]?.title ||
+      calendar.commemoration[0]?.title ||
+      "Feria"
+    }
+    description={calendar.commemoration[0]?.title}
+  />
   {getPrayerTimeCategory(new Date())}
-  {time && <LinkCard title={time?.title} href={time?.href} />}
+  {getAngelus(new Date())}
+  {getPrayer(new Date())}
 </Card>
 
 <CardGrid stagger>
   <Card title="Missal" icon="star">
-    Missal Romano
-
-    [Dia](/missal/dia), [Calendário](/missal/calendario)
-
-  </Card>
-  <Card title="Devocionário" icon="star">
-    Devocionário tradicional
-
-    [Rosário](/devocionario/rosario), [Saltério](/devocionario/salterio),
-    [Orações do dia](/devocionario/dia), [Adoração](/devocionario/adoracao),
-    [Pequeno Ofício de Nossa Senhora](/devocionario/oficio),
-    [Ladaínhas](/devocionario/ladainhas)
-
-  </Card>
-  <Card title="Fé" icon="star">
-    Fé Verdadeira
-
-    [Catecismo](/fe/catecismo), [Verdades da fé](/fe/verdades), [Juramento
-    anti-modernista](/fe/juramento)
-
+    <LinkCard href={`/missal/dia#${date}`} title="Missa do dia" />
+    <LinkCard href={`/missal/calendario#${date}`} title="Calendário" />
   </Card>
   <Card title="Ritual" icon="star">
-    Ritual Romano
-
-    [Penitência](/ritual/penitencia), [Baptismo](/ritual/baptismo)
-
+    <LinkCard href="/ritual/penitencia" title="Penitência" />
+    <LinkCard href="/ritual/baptismo" title="Baptismo" />
+  </Card>
+  <Card title="Fé" icon="star">
+    <LinkCard href="/fe/catecismo" title="Catecismo" />
+    <LinkCard href="/fe/verdades" title="Verdades da fé" />
+    <LinkCard href="/fe/juramento" title="Juramento anti-modernista" />
   </Card>
   <Card title="Cânticos" icon="star">
-    Canto sacro e popular
-
-    [Sacros](/canticos/sacros), [Populares](/canticos/populares)
-
+    <LinkCard href="/canticos/sacros" title="Sacros" />
+  </Card>
+  <Card title="Devocionário" icon="star">
+    <LinkCard href="/devocionario/rosario" title="Rosário" />
+    <LinkCard href="/devocionario/salterio" title="Saltério" />
+    <LinkCard href="/devocionario/adoracao" title="Adoração" />
+    <LinkCard href="/devocionario/dia" title="Orações do dia" />
+    <LinkCard
+      href="/devocionario/oficio"
+      title="Pequeno Ofício de Nossa Senhora"
+    />
+    <LinkCard href="/devocionario/ladainhas" title="Ladaínhas" />
   </Card>
 </CardGrid>
