@@ -14,7 +14,18 @@ export const calendar = getCalendar(new Date(day).getFullYear());
 
 <div>
   {Object.entries(calendar).map(([date, celebrations]) => (
-    <Card key={date} title={date} icon="document">
+    <div
+      class={`border rounded p-3 ${date === day ? "bg-red-500 text-white" : ""}`}
+    >
+      <h2 id={date} />
+      {date === day ? (
+        <>
+          <h5>Hoje</h5>
+          <caption>{date}</caption>
+        </>
+      ) : (
+        <caption>{date}</caption>
+      )}
       <LinkCard
         href={`/missal/dia#${date}`}
         title={
@@ -25,6 +36,7 @@ export const calendar = getCalendar(new Date(day).getFullYear());
         }
         description={celebrations.commemoration[0]?.title}
       />
-    </Card>
+      <caption></caption>
+    </div>
   ))}
 </div>
