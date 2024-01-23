@@ -7,12 +7,12 @@ export const sidebar = [
       {
         label: "Advento",
         collapsed: true,
-        autogenerate: { directory: "missal/advento", index: true },
+        autogenerate: { directory: "missal/advento" },
       },
       {
         label: "Natal",
         collapsed: true,
-        autogenerate: { directory: "missal/natal", index: true },
+        autogenerate: { directory: "missal/natal" },
       },
       {
         label: "Epifania",
