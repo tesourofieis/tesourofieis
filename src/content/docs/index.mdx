@@ -5,7 +5,7 @@ hero:
   title: Tesouro dos Fiéis
   tagline: Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.
   image:
-    file: ../../../public/favicon.svg
+    file: /public/5.png
   actions:
     - text: Missa do Dia
       icon: rocket
@@ -109,25 +109,23 @@ export function getPrayer(date) {
   const hour = getHours(date);
   const minute = getMinutes(date);
   // Morning is considered between 6:30 AM and 9:30 AM
-  const isMorning =
-    (hour === 6 && minute >= 30) ||
-    (hour > 6 && hour < 9) ||
-    (hour === 9 && minute <= 30);
-  if (isMorning)
+  const isMorning = hour >= 5 && hour < 10;
+  if (isMorning) {
     return (
       <LinkCard title="Oração da Manhã" href="/devocionario/dia/oracaomanha" />
     );
+  }
   // Night is considered between 8:00 PM and 3:00 AM
-  const isNight = hour >= 20 || (hour >= 0 && hour < 3);
-  if (isMorning)
+  const isNight = hour >= 20 && hour <= 3;
+  if (isNight) {
     return (
       <LinkCard title="Oração da Noite" href="/devocionario/dia/oracaonoite" />
     );
+  }
 }
 
 export function getAngelus(date) {
   const hour = getHours(date);
-  const minute = getMinutes(date);
   // Angelus is traditionally prayed at 6:00 AM, 12:00 PM (noon), and 6:00 PM
   const isAngelus = hour === 6 || hour === 12 || hour === 18;
   if (isAngelus) {
@@ -135,17 +133,18 @@ export function getAngelus(date) {
   }
 }
 
-<Card
-  title={new Date().toLocaleString("pt", {
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-    hour: "numeric",
-  })}
-  icon="magnifier"
->
+<Card title="Dia e hora" icon="information">
+  <caption>
+    {new Date().toLocaleString("pt", {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+    })}
+  </caption>
+  <img class="rounded" src="../../../public/1.gif" alt="missal" />
   <LinkCard
-    href={`/missal/dia#${date}`}
+    href={`/missal/dia#${yyyyMMDD(date)}`}
     title={
       calendar.celebration[0]?.title ||
       calendar.tempora[0]?.title ||
@@ -159,32 +158,11 @@ export function getAngelus(date) {
   {getPrayer(new Date())}
 </Card>
 
-<CardGrid stagger>
-  <Card title="Missal" icon="star">
-    <LinkCard href={`/missal/dia#${date}`} title="Missa do dia" />
-    <LinkCard href={`/missal/calendario#${date}`} title="Calendário" />
-  </Card>
-  <Card title="Ritual" icon="star">
-    <LinkCard href="/ritual/penitencia" title="Penitência" />
-    <LinkCard href="/ritual/baptismo" title="Baptismo" />
-  </Card>
-  <Card title="Fé" icon="star">
-    <LinkCard href="/fe/catecismo" title="Catecismo" />
-    <LinkCard href="/fe/verdades" title="Verdades da fé" />
-    <LinkCard href="/fe/juramento" title="Juramento anti-modernista" />
-  </Card>
-  <Card title="Cânticos" icon="star">
-    <LinkCard href="/canticos/sacros" title="Sacros" />
-  </Card>
-  <Card title="Devocionário" icon="star">
-    <LinkCard href="/devocionario/rosario" title="Rosário" />
-    <LinkCard href="/devocionario/salterio" title="Saltério" />
-    <LinkCard href="/devocionario/adoracao" title="Adoração" />
-    <LinkCard href="/devocionario/dia" title="Orações do dia" />
-    <LinkCard
-      href="/devocionario/oficio"
-      title="Pequeno Ofício de Nossa Senhora"
-    />
-    <LinkCard href="/devocionario/ladainhas" title="Ladaínhas" />
-  </Card>
-</CardGrid>
+<Card title="Ir para" icon="open-book">
+
+  <LinkCard href="/missal" title="Missal" />
+  <LinkCard href="/ritual" title="Ritual" />
+  <LinkCard href="/fe" title="Fé" />
+  <LinkCard href="/canticos" title="Cânticos" />
+  <LinkCard href="/devocionario" title="Devocionário" />
+</Card>

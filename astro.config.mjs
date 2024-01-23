@@ -25,9 +25,8 @@ export default defineConfig({
       social: {
         "x.com": "https://x.com/tesourofieis",
         github: "https://github.com/tesourofieis/tesourofieis",
-        patreon: "https://www.patreon.com/tesourofieis",
-        email: "mailto:info@tesourofieis.com",
         discord: "https://discord.gg/Ga8Xnjmk62",
+        patreon: "https://www.patreon.com/tesourofieis",
       },
       sidebar: sidebar,
       customCss: [
