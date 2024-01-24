@@ -1,0 +1,75 @@
+---
+import { getCalendarDay } from "../../lib/getCalendar.ts";
+import { yyyyMMDD } from "../../lib/src/utils.ts";
+
+import { getHours } from "date-fns";
+import { Card, LinkCard } from "@astrojs/starlight/components";
+
+import  Office  from "./Office.astro";
+
+const date = new Date();
+
+
+const calendar = getCalendarDay(
+  new Date(date).getFullYear(),
+  yyyyMMDD(new Date()),
+);
+
+function getPrayer(date: Date) {
+  const hour = getHours(date);
+  // Morning is considered between 6:30 AM and 9:30 AM
+  const isMorning = hour >= 5 && hour < 10;
+  if (isMorning) {
+    return { isMorning: true, isNight: false};
+  }
+  // Night is considered between 8:00 PM and 3:00 AM
+  const isNight = hour >= 20 && hour <= 3;
+  if (isNight) {
+    return { isNight: true, isMorning: false};
+  }
+
+    return { isNight: false, isMorning: false};
+}
+
+function getAngelus(date: Date) {
+  const hour = getHours(date);
+  // Angelus is traditionally prayed at 6:00 AM, 12:00 PM (noon), and 6:00 PM
+  const isAngelus = hour === 6 || hour === 12 || hour === 18;
+  if (isAngelus) {
+    return true;
+  }
+}
+---
+
+<Card title="Dia e hora" icon="information">
+  <caption>
+    {new Date().toLocaleString("pt", {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      second: "numeric"
+    })}
+  </caption>
+  <img class="rounded" src="/1.gif" alt="missal" />
+  <LinkCard
+    href={`/missal/dia#${yyyyMMDD(date)}`}
+    title={
+      calendar.celebration[0]?.title ||
+      calendar.tempora[0]?.title ||
+      calendar.commemoration[0]?.title ||
+      "Feria"
+    }
+    description={calendar.commemoration[0]?.title}
+  />
+  <Office date={date} /></Office>
+  {getAngelus(new Date()) && (
+    <LinkCard title="Angelus" href="/devocionario/dia/angelus" />
+  )}
+  {getPrayer(new Date()).isMorning && (
+      <LinkCard title="Oração da Manhã" href="/devocionario/dia/oracaomanha" />
+  )}
+  {getPrayer(new Date()).isNight && (
+      <LinkCard title="Oração da Noite" href="/devocionario/dia/oracaonoite" />
+  )}
+</Card>
