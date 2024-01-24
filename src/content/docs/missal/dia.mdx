@@ -11,12 +11,24 @@ export const day = getDay(yyyyMMDD(new Date()));
   {day.sections
     .filter((_, idx) => idx > 2)
     .map((section) => (
-      <>
+      <div key={section.id}>
         <h2 id={section.id.toLowerCase()}>{section.id}</h2>
         <div className="grid grid-cols-2 gap-5">
-          <span class="text-justify">{section.body.latin}</span>
-          <span class="text-justify">{section.body.vernacular}</span>
+          <span className="prose">
+            {section.body.latin.map((text, idx) => (
+              <p key={idx} className="text-justify">
+                {text}
+              </p>
+            ))}
+          </span>
+          <span className="prose">
+            {section.body.vernacular.map((text, idx) => (
+              <p key={idx} className="text-justify">
+                {text}
+              </p>
+            ))}
+          </span>
         </div>
-      </>
+      </div>
     ))}
 </div>

@@ -1879,7 +1879,7 @@ export const TRANSFORMATIONS = [
   { pattern: /^!x!/, replacement: "!" },
   { pattern: /^!! *(.*)/, replacement: "### $1" },
   { pattern: /^\[([^\]^]*)\]/, replacement: "### $1" },
-  // { pattern: /^! *(.*)/, replacement: "*$1*" },
+  { pattern: /^! *(.*)/, replacement: "$1" }, // Verse
   { pattern: /^v\. */, replacement: "" },
   { pattern: /^_/, replacement: "" },
   { pattern: /\(\(/, replacement: "(" },
@@ -3414,7 +3414,7 @@ export const TRANSFORMATIONS_PT = [
   { pattern: /^!x!/, replacement: "!" },
   { pattern: /^!! *(.*)/, replacement: "### $1" },
   { pattern: /^\[([^\]^]*)\]/, replacement: "### $1" },
-  // { pattern: /^! *(.*)/, replacement: "*$1*" },
+  { pattern: /^! *(.*)/, replacement: "$1" }, // Verse
   { pattern: /^v\. */, replacement: "" },
   { pattern: /^_/, replacement: "" },
   { pattern: /\(\(/, replacement: "(" },

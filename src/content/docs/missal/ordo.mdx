@@ -321,10 +321,26 @@ todos se benzem, ao mesmo tempo que o celebrante.
 
 export const introitus = findSectionBody(day, "Introitus");
 
-<div className="grid grid-cols-2 gap-5">
-  <span class="section-latin">{introitus.body.latin}</span>
-  <span class="section-vernacular">{introitus.body.vernacular}</span>
-</div>
+import { Card } from "@astrojs/starlight/components";
+
+<Card title="Intróito">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {introitus.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {introitus.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 ### Kyrie Eleison
 
@@ -426,17 +442,31 @@ O Sacerdote, diante do missal, recita a Colecta. Breve oração que resume e
 apresenta a Deus os votos de todos os fiéis, votos estes sugeridos pelo
 mystério ou solenidade do dia.
 
-export const oratio = findSectionBody(day, "Oratio");
-
 <div className="grid grid-cols-2 gap-5">
   <span class="text-red-500 text-center"> Orémus.</span>
   <span class="text-red-500 text-center"> Oremos.</span>
 </div>
 
-<div className="grid grid-cols-2 gap-5">
-  <span class="section-latin">{oratio.body.latin}</span>
-  <span class="section-vernacular">{oratio.body.vernacular}</span>
-</div>
+export const oratio = findSectionBody(day, "Oratio");
+
+<Card title="Oração">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {oratio.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {oratio.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 <div className="grid grid-cols-2 gap-5">
   <span class="text-justify">V. ...per ómnia sǽculua sæculórum.</span>
@@ -453,10 +483,24 @@ export const oratio = findSectionBody(day, "Oratio");
 
 export const lectio = findSectionBody(day, "Lectio");
 
-<div className="grid grid-cols-2 gap-5">
-  <span class="section-latin">{lectio.body.latin}</span>
-  <span class="section-vernacular">{lectio.body.latin}</span>
-</div>
+<Card title="Epístola">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {lectio.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {lectio.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 <div className="grid grid-cols-2 gap-5">
   <div class="text-justify">
@@ -469,15 +513,29 @@ export const lectio = findSectionBody(day, "Lectio");
 
 ### Gradual do dia
 
-export const graduale = findSectionBody(day, "Graduale");
-
 A oração curta de acção de graças, consiste geralmente de dois ou três versos
 retirados dos Salmos ou do Antigo Testamento.
 
-<div className="grid grid-cols-2 gap-5">
-  <div class="section-latin">{graduale.body.latin}</div>
-  <div class="section-vernacular">{graduale.body.latin}</div>
-</div>
+export const graduale = findSectionBody(day, "Graduale");
+
+<Card title="Gradual">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {graduale.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {graduale.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 No Tempo da Septuagésima, o Allelúja é substituído pelo Trato. No Tempo
 Pascal, omite-se o Gradual, e dizem-se dois Allelúja.
@@ -486,33 +544,33 @@ Enquanto o Acólito muda o Missal, o Sacerdote inclina-se profundamente no meio
 do Altar, dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Munda cor meum ac labia mea, omnípotens Deus, qui labia Isaíæ Prophétæ
     cálculo mundásti igníto: ita me tua grata miseratióne dignáre mundáre, ut
     sanctum Evangélium tuum digne váleam nuntiáre. Per Christum, Dóminum
     nostrum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Ó omnipotente Deus, assim como purificastes os lábios do Profeta Isaías com
     uma brasa de fogo, assim também purificais agora o meu coração e os meus
     lábios. Dignai-Vos, pela vossa benigna misericórdia, purificar-me
     inteiramente, para que possa dignamente anunciar o vosso Evangelho. Amen.
-  </div>
+  </span>
 </div>
 
 Seguidamente recita-se a fórmula da Bênção, a qual só se omite nas Missas de
 Réquiem e na Sexta-Feira Santa:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Jube Dómine benedícere. Dóminus sit in corde meo, et in lábiis meis: ut dine
     et competénter annúntiem. Evangélium suum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Dignai-Vos, Senhor, abençoar-me. Que o Senhor esteja no meu coração e nos
     meus lábios, para que possa digna e devidamente anunciar seu Evangelho.
     Amen.
-  </div>
+  </span>
 </div>
 
 Às primeiras palavras - Sequéntia, &c. faz-se o sinal da cruz na testa, na
@@ -526,63 +584,69 @@ leitura, é reverentemente beijado pelo Sacerdote.
 
 ### Evangelho do dia
 
-export const evangelium = findSectionBody(day, "Evangelium");
-
 É um momento solene! Toda a assistência está de pé.
 
+export const evangelium = findSectionBody(day, "Evangelium");
+
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Dóminus vobíscum.</div>
-  <div class="text-justify">V. O Senhor esteja convosco.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Dóminus vobíscum.</span>
+  <span class="text-justify">V. O Senhor esteja convosco.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Et cum spíritu tuo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> E com vosso espírito.
-  </div>
-  <div class="text-justify">
-    V. Sequéntia <span class="text-red-500">&#10016;</span> sancti Evangélii
-    secúndum <em>N.</em>
-  </div>
-  <div class="text-justify">
-    V. Continuação <span class="text-red-500">&#10016;</span> do santo
-    Evangelho, segundo <em>N.</em>
-  </div>
+  </span>
 </div>
 
-<div class="row">
-  <div class="section-latin">{evangelium.body.latin}</div>
-  <div class="section-vernacular">{evangelium.body.vernacular}</div>
-</div>
+<Card title="Evangelho">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {evangelium.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {evangelium.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Glória tibi, Dómine.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Glória a Vós, Senhor.
-  </div>
+  </span>
 </div>
 
 O celebrante beija o sagrado texto, dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Per evangélica dicta deleántur nostra delícta.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Que pelas palavras do Evangelho nos sejam perdoados os nossos pecados.
-  </div>
+  </span>
 </div>
 
 Digamos solenemente:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Laus tibi, Christe.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Louvores a Vós, ó Cristo.
-  </div>
+  </span>
 </div>
 
 ### Credo
@@ -592,35 +656,35 @@ Credo. Este só se diz aos Domingos, e em algumas festas de 1ª. Classe. É
 cantado em Missas Solenes.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Credo ín unum Deum. Patrem omnipoténtem, factórem cœli et terræ, visibílium
     ómnium et invisibílium. Et in unum Dóminum Jesum Christum, Fílium Dei
     unigénitum. Et ex Patre natum ante ómnia sǽcula. Deum de Deo, lumen de
     lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri:
     per quem ómnia facta sunt. Qui propter nos hómines et propter nostram
     salútem descéndit de cœlis. <em>(Hic genuflectitur).</em>
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Creio em um só Deus. Pai, todo poderoso, criador do Céu e da Terra, de todas
     as coisas visíveis e invisíveis. E creio em um só Senhor, Jesus Cristo,
     Filho Unigénito de Deus, nascido do Pai antes de todos os séculos. Deus de
     Deus, Luz da Luz, Deus verdadeiro de Deus verdadeiro. Gerado, não criado,
     consubstancial ao Pai: por Ele todas as coisas foram feitas. E por nós,
     homens, e para nossa salvação desceu dos céus. <em>(todos se ajoelham).</em>
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <b>
       Et incarnátus est de Spíritu Sancto ex María Vírgine:{" "}
       <em>Et homo factus est.</em>
     </b>
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <b>
       E encarnou pelo Espírito Santo, no seio da Virgem Maria:{" "}
       <em>E foi feito homem.</em>
     </b>
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et
     resurréxit tértia die, secúndum Scriptúras. Et ascéndit in cœlum: sedet ad
     déxteram Patris. Et íterum ventúrus est cum glória judicáre vivos et
@@ -630,8 +694,8 @@ cantado em Missas Solenes.
     cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem
     peccatórum. Et exspécto resurrectiónem mortuórum. Et{" "}
     <span class="text-red-500">&#10016;</span> vitam ventúri sǽculi.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Também por nós foi crucificado sob Pôncio Pilatos, padeceu e foi sepultado.
     Ressuscitou ao terceiro dia, conforme as Escrituras, e subiu aos céus, onde
     está sentado à direita do Pai. De novo há-de vir em sua glória, para julgar
@@ -641,13 +705,13 @@ cantado em Missas Solenes.
     santa, católica e apostólica. Confesso um só baptismo para a remissão dos
     pecados. E espero a ressurreição dos mortos, e{" "}
     <span class="text-red-500">&#10016;</span> a vida do mundo que há-de vir.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
+  </span>
 </div>
 
 ## Missa dos Fiéis
@@ -658,29 +722,43 @@ Com o Ofertório, começa a segunda parte da Missa ou Sacrifício propriamente
 dito. O celebrante beija o Altar e voltado para o povo diz:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Dóminus vobíscum.</div>
-  <div class="text-justify">V. O Senhor esteja convosco.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Dóminus vobíscum.</span>
+  <span class="text-justify">V. O Senhor esteja convosco.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Et cum spíritu tuo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> E com vosso espírito.
-  </div>
+  </span>
 </div>
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-center">V. Orémus.</div>
-  <div class="text-center">V. Oremos.</div>
+  <span class="text-center">V. Orémus.</span>
+  <span class="text-center">V. Oremos.</span>
 </div>
 
 ### Ofertório do dia
 
 export const offertorium = findSectionBody(day, "Offertorium");
 
-<div className="grid grid-cols-2 gap-5">
-  <div class="section-latin">{offertorium.body.latin}</div>
-  <div class="section-vernacular">{offertorium.body.vernacular}</div>
-</div>
+<Card title="Ofertório">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {offertorium.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {offertorium.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 #### Oferecimento do pão:
 
@@ -689,86 +767,86 @@ com o pão, que vai ser consagrado. (O Acólito vai buscar o vinho e a água à
 credência, levando-os Altar). O Sacerdote oferece-os a Deus, dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Súscipe, sancte Pater, omnipotens ætérne Deus, hanc immaculátam hóstiam,
     quam ego indígnus fámulus tuus óffero tibi Deo meo vivo et vero, pro
     innumerabílibus peccátis, et offensiónibus, et neglegéntiis meis, et pro
     ómnibus circumstántibus, sed et pro ómnibus fidélibus christiánis vivis
     atque defúnctis: ut mihi, et illis profíciat ad salútem in vitam ætérnam.
     Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Recebei, ó Pai santo, Deus omnipotente e eterno, esta hóstia imaculada, que
     eu, vosso indigno servo, Vos ofereço, ó meu Deus vivo e verdadeiro, pelos
     meus inumeráveis pecados, ofensas e negligências, por todos os assistentes e
     por todos os cristãos vivos e mortos, a fim de que sirva de proveito para a
     minha salvação, para a deles e para a vida eterna. Amen.
-  </div>
+  </span>
 </div>
 
 Ao lado direito do altar, o celebrante deita vinho no cálice, a que mistura
 umas gotas de água, dizendo a seguinte oração:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Deus, qui humánæ substántiæ dignitátem mirabíliter condidísti, et mirabílius
     reformásti: da nobis per hujus aquæ et vini mystérium, ejus divinitátis esse
     consórtes, qui humanitátis nostræ fíeri dignátus est párticeps, Jesus
     Christus, Fílius tuus, Dóminus noster: Qui tecum vivit et regnat in unitáte
     Spíritus Sancti Deus: per ómnia sǽcula sæculórum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Ó Deus, que maravilhosamente criastes a dignidade da natureza humana e que
     mais prodigiosamente ainda a reformastes, permiti que pela mistura simbólica
     desta água e deste vinho sejamos participantes da divindade daquele que quis
     assumir a nossa humanidade, Jesus Cristo, vosso Filho, nosso Senhor, que,
     sendo Deus, vive e reina convosco em unidade do Espírito Santo, em todos os
     séculos dos séculos. Amen.
-  </div>
+  </span>
 </div>
 
 No meio do altar, o celebrante faz o oferecimento do cálice:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Offérimus tibi, Dómine, cálicem salutáris, tuam deprecántes cleméntiam: ut
     in conspéctu divínæ majestátis tuæ, pro nostra et totíus mundi salúte, cum
     odóre suavitátis ascéndat. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Vos oferecemos, Senhor, o Cálice da salvação; e Vos suplicamos que
     misericordiosamente o façais subir, como suave perfume, diante da vossa
     divina majestade, para nossa salvação e de todo o mundo. Amen.
-  </div>
+  </span>
 </div>
 
 Depois, inclinando-se diz:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     In spíritu humilitátis et in ánimo contríto suscipiámur a te, Dómine: et sic
     fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi, Dómine
     Deus.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Em humildade e contrição, sejamos recebidos por Vós, Senhor; e assim este
     sacrifício, ó Deus, se torne agradável aos vossos olhos.
-  </div>
+  </span>
 </div>
 
 Invocação do Espírito Santo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Veni, sanctificátor omnípotens ætérne Deus: et bene{" "}
     <span class="text-red-500">&#10016;</span> dic hoc sacrifícium, tuo sancto
     nómini præparátum.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Vinde, ó Santificador omnipotente, Deus eterno, e abençoai{" "}
     <span class="text-red-500">&#10016;</span> este sacrifício, preparado para a
     glória do vosso Santo Nome.
-  </div>
+  </span>
 </div>
 
 #### Incensão
@@ -780,62 +858,62 @@ presentes.
 #### Bênção do Incenso:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Per intercessiónem beáti Michǽlis Archángeli, stantis a dextris altáris
     incénsi, et ómnium electórum suórum, incénsum istud dignétur Dóminus bene{" "}
     <span class="text-red-500">&#10016;</span> dícere, et in odórem suavitátis
     accípere. Per Christum, Dóminum nostrum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Dignai-Vos Senhor, pela intercessão do bem-aventurado Arcanjo Miguel, que
     está de pé à direita do altar do incenso, e de todos vossos eleitos,
     abençoar <span class="text-red-500">&#10016;</span> este incenso e aceitá-lo
     como odor de suavidade. Por Cristo, Senhor nosso. Amen.
-  </div>
+  </span>
 </div>
 
 O Sacerdote incensa primeiro as oblatas:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Incénsum istud a te benedíctum ascéndat ad te, Dómine: et descéndat super
     nos misericórdia tua.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Que este incenso, por Vós abençoado, suba até Vós, Senhor; e desça sobre nós
     a vossa misericórdia.
-  </div>
+  </span>
 </div>
 
 Em seguida incensa a cruz e o altar, dizendo, entretanto, os seguintes
 versículos, retirados do Salmo 140:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Dirigátur, Dómine, orátio mea, sicut incénsum, in conspéctu tuo: elevátio
     mánuum meárum sacrifícium vespertínum. Pone, Dómine, custódiam ori meo, et
     óstium circumstántiæ lábiis meis: ut non declínet cor meum in verba malítiæ,
     ad excusándas excusatiónes in peccátis.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Suba como incenso até Vós, Senhor, a minha oração: a elevação das minhas
     mãos seja como o sacrifício vespertino. Colocai, Senhor, uma guarda em minha
     boca, e uma porta em volta de meus lábios. Não deixes que meu coração se
     deixe arrastar por palavras de maldade, procurando desculpas para pecar.
-  </div>
+  </span>
 </div>
 
 O celebrante entrega o turíbulo ao Diácono, dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Accéndat in nobis Dóminus ignem sui
     amóris, et flammam ætérnæ caritátis. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Que o Senhor acenda em nós o fogo do
     seu amor e a chama da eterna caridade. Amen.
-  </div>
+  </span>
 </div>
 
 O Diácono incensa o Sacerdote, e depois todos os outros por ordem. Nas Missas
@@ -848,46 +926,46 @@ Sacrifício. O Sacerdote vai à direita do altar e lava as mãos, dizendo,
 entretanto, os seguintes versículos do salmo 25:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Lavábo inter innocéntes manus meas: et circúmdabo altáre tuum. Dómine:
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Lavarei as minhas mãos, como os inocentes, e rodearei, Senhor o vosso altar:
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Ut áudiam vocem laudis, et enárrem univérsa mirabília tua. Dómine, diléxi
     decórem domus tuæ et locum habitatiónis glóriæ tuæ.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Para ouvir a voz dos vossos louvores e publicar todas as vossas maravilhas.
     Amei, Senhor, o decoro da vossa casa e o lugar onde reside a vossa glória.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Ne perdas cum ímpiis, Deus, ánimam meam, et cum viris sánguinum vitam meam:
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Não deixeis, ó meu Deus, a minha alma perder-se com os ímpios, nem a minha
     vida com os homens sanguinários:
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     In quorum mánibus iniquitátes sunt: déxtera eórum repléta est munéribus. Ego
     autem in innocéntia mea ingréssus sum: rédime me et miserére mei. Pes meus
     stetit in dirécto: in ecclésiis benedícam te, Dómine.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Que têm as mãos manchadas de iniquidades e a mão direita cheia de dádivas.
     Pois que tenho vivido na inocência, salvai-me e tende misericórdia de mim.
     Meus pés continuam firmes no caminho direito: e hei-de bendizer-Vos, Senhor,
     em todas as assembleias.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et
     nunc, et semper: et in sǽcula sæculórum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Glória ao Pai, e ao Filho, e ao Espírito Santo. Assim como era no princípio,
     e agora, e sempre, por todos os séculos dos séculos. Amen.
-  </div>
+  </span>
 </div>
 
 Nas Missas de defuntos e do Tempo da Paixão omite-se o Glória Patri.
@@ -897,7 +975,7 @@ Nas Missas de defuntos e do Tempo da Paixão omite-se o Glória Patri.
 Inclinado, ao meio do altar, o Sacerdote diz:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Súscipe, sancta Trinitas, hanc oblatiónem, quam tibi offérimus ob
     memóriam passiónis, resurrectiónis, et ascensiónis Jesu Christi, Dómini
     nostri: et in honórem beátæ Maríæ semper Vírginis, et beáti Joannis
@@ -905,8 +983,8 @@ Inclinado, ao meio do altar, o Sacerdote diz:
     Sanctórum: ut illis profíciat ad honórem, nobis autem ad salútem: et illi
     pro nobis intercédere dignéntur in cœlis, quorum memóriam ágimus in terris.
     Per eúndem Christum, Dóminum nostrum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Recebei, ó Santíssima Trindade, esta oblação, que Vos oferecemos em
     memória da Paixão, da Ressurreição e da Ascensão de N. S. Jesus Cristo: e em
     honra da bem-aventurada sempre Virgem Maria, do bem-aventurado João Baptista
@@ -914,7 +992,7 @@ Inclinado, ao meio do altar, o Sacerdote diz:
     os Santos: para que esta oblação lhes sirva de glória e a nós de salvação: e
     aqueles, cuja memória honramos na terra, se dignem interceder por nós no
     céu. Pelo mesmo Jesus Cristo, nosso Senhor. Amen.
-  </div>
+  </span>
 </div>
 
 Beija o Altar e voltando-se para os fiéis, o Sacerdote convida-os a orar com
@@ -923,31 +1001,31 @@ ele:
 #### Orate Frates
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Oráte, fratres: ut meum ac vestrum sacrifícium acceptábile fiat apud Deum
     Patrem omnipoténtem.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Orai, meus irmãos, a fim de que meu sacrifício, que é também vosso, seja
     recebido por Deus Pai omnipotente.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Suscípiat Dóminus sacrifícium de
     mánibus tuis ad laudem et glóriam nominis sui, ad utilitátem quoque nostram,
     totiúsque Ecclésiæ suæ sanctæ.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Que o Senhor receba por vossas mãos
     este sacrifício para a honra e glória de seu Nome, e também para a nossa
     utilidade e de toda sua santa Igreja.
-  </div>
+  </span>
 </div>
 
 O Sacerdote responde, em voz baixa:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Amen.</div>
-  <div class="text-justify">V. Amen.</div>
+  <span class="text-justify">V. Amen.</span>
+  <span class="text-justify">V. Amen.</span>
 </div>
 
 Em seguida lê a Secreta. À Secreta principal, podem, em certas Missas,
@@ -957,20 +1035,34 @@ ajuntar-se outras, em número igual e segundo as mesmas regras da Colecta.
 
 export const secreta = findSectionBody(day, "Secreta");
 
-<div className="grid grid-cols-2 gap-5">
-  <div class="section-latin">{secreta.body.latin}</div>
-  <div class="section-vernacular">{secreta.body.vernacular}</div>
-</div>
+<Card title="Secreta">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {secreta.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {secreta.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. ...Per ómnia sǽcula sæculórum.</div>
-  <div class="text-justify">V. ...Por todos os séculos dos séculos.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. ...Per ómnia sǽcula sæculórum.</span>
+  <span class="text-justify">V. ...Por todos os séculos dos séculos.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
+  </span>
 </div>
 
 ### Canon Missæ
@@ -981,60 +1073,74 @@ Curto diálogo introdutório entre o Sacerdote e os fiéis desperta nas almas os
 sentimentos de acção de graças que convêm à celebração dos santos mystérios.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Dóminus vobíscum.</div>
-  <div class="text-justify">V. O Senhor esteja convosco.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Dóminus vobíscum.</span>
+  <span class="text-justify">V. O Senhor esteja convosco.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Et cum spíritu tuo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> E com vosso espírito.
-  </div>
-  <div class="text-justify">V. Sursum corda.</div>
-  <div class="text-justify">V. Corações ao alto.</div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">V. Sursum corda.</span>
+  <span class="text-justify">V. Corações ao alto.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Habémus ad Dóminum.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Assim os temos para o Senhor.
-  </div>
-  <div class="text-justify">V. Grátias agámus Dómino, Deo nostro.</div>
-  <div class="text-justify">V. Demos graças ao Senhor, Nosso Deus.</div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">V. Grátias agámus Dómino, Deo nostro.</span>
+  <span class="text-justify">V. Demos graças ao Senhor, Nosso Deus.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Dignum et justum est.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Assim é digno e justo.
-  </div>
+  </span>
 </div>
 
 ### Prefácio do dia
 
 export const prefatio = findSectionBody(day, "Prefatio");
 
-<div className="grid grid-cols-2 gap-5">
-  <div class="section-latin">{prefatio.body.latin}</div>
-  <div class="section-vernacular">{prefatio.body.vernacular}</div>
-</div>
+<Card title="Prefácio">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {prefatio.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {prefatio.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 ### Sanctus
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Sanctus, Sanctus, Sanctus Dóminus, Deus Sábaoth. Pleni sunt cœli et terra
     glória tua. Hosánna in excélsis.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Santo, Santo, Santo, Senhor Deus do Universo. O céu e a terra proclamam a
     vossa glória. Hossana nas alturas.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Benedíctus, <span class="text-red-500">&#10016;</span> qui venit in nómine
     Dómini. Hosánna in excélsis.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Bendito <span class="text-red-500">&#10016;</span> o que vem em nome do
     Senhor. Hosana nas alturas.
-  </div>
+  </span>
 </div>
 
 ### Cânon
@@ -1043,7 +1149,7 @@ O Sacerdote, levanta os olhos para o céu, inclina-se, beija o altar e continua
 a grande oração sacerdotal.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Te Igitur clementíssime Pater, per Jesum Christum, Fílium tuum, Dóminum
     nostrum, súpplices rogámus, ac pétimus, uti accepta habeas et benedícas, hæc{" "}
     <span class="text-red-500">&#10016;</span> dona, hæc{" "}
@@ -1053,8 +1159,8 @@ a grande oração sacerdotal.
     pacificáre, custodíre, adunáre et régere dignéris toto orbe terrárum: una
     cum fámulo tuo Papa nostro <em>N. </em>et Antístite nostro <em>N. </em>et
     ómnibus orthodóxis, atque cathólicæ et apostólicæ fídei cultóribus.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     A Vós, pois, rogamos e pedimos, ó clementíssimo Pai, por Jesus Cristo, vosso
     Filho e nosso Senhor, que estes <span class="text-red-500">&#10016;</span>{" "}
     dons, estas <span class="text-red-500">&#10016;</span> ofertas, estes{" "}
@@ -1064,27 +1170,27 @@ a grande oração sacerdotal.
     uni-la e governá-la por toda a terra, em comunhão com vosso servo, nosso
     Papa <em>N. </em>com o nosso Bispo <em>N. </em>e com todos os ortodoxos e os
     que professam a fé católica e apostólica.
-  </div>
+  </span>
 </div>
 
 #### Memento dos vivos
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Meménto, Dómine, famulórum famularúmque tuarum <em>N. </em>et <em>N. </em>
     et ómnium circumstántium, quorum tibi fides cógnita est et nota devótio, pro
     quibus tibi offérimus: vel qui tibi ófferunt hoc sacrifícium laudis, pro se suísque
     ómnibus: pro redemptióne animárum suárum, pro spe salútis et incolumitátis suæ:
     tibíque reddunt vota sua ætérno Deo, vivo et vero.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Lembrai-Vos, Senhor, dos vossos servos <em>N. </em>e <em>N. </em>e de todos
     os que aqui estão presentes, cuja fé Vos é conhecida e a piedade é notória:
     pelos quais Vos oferecemos, ou eles Vos oferecem, este sacrifício de louvor
     por si próprios e por todos seus, pela redenção das suas almas, pela
     esperança da sua salvação: é a Vós que oferecem as homenagens, como Deus
     eterno, vivo e verdadeiro, que sois.
-  </div>
+  </span>
 </div>
 
 #### Memória dos Santos
@@ -1093,7 +1199,7 @@ Para além destes Comunicantes, existem também para o Natal, Epifania,
 Quinta-Feira Santa, Sábado de Aleluia e Páscoa, Ascensão e Pentecostes.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Communicántes, et memóriam venerántes, in primis gloriósæ semper Vírginis
     Maríæ, Genitrícis Dei et Dómini nostri Jesu Christi: sed et beatórum
     Apostolórum ac Mártyrum tuórum, Petri et Pauli, Andréæ, Jacóbi, Joánnis,
@@ -1102,8 +1208,8 @@ Quinta-Feira Santa, Sábado de Aleluia e Páscoa, Ascensão e Pentecostes.
     et Pauli, Cosmæ et Damiáni: et ómnium Sanctórum tuórum; quorum méritis
     precibúsque concédas, ut in ómnibus protectiónis tuæ muniámur auxílio. Per
     eúndem Christum, Dóminum nostrum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Unidos em uma mesma comunhão, primeiramente honramos a memória da gloriosa
     sempre Virgem Maria, Mãe de Jesus Cristo, nosso Deus e Senhor, e depois
     também a dos vossos bem-aventurados Apóstolos e Mártires: Pedro e Paulo,
@@ -1112,7 +1218,7 @@ Quinta-Feira Santa, Sábado de Aleluia e Páscoa, Ascensão e Pentecostes.
     e Paulo, Cosme e Damião: e de todos vossos Santos. Dignai-Vos permitir que
     por seus méritos e preces gozemos o poderoso auxílio da vossa protecção.
     Pelo mesmo Cristo, nosso Senhor. Amen.
-  </div>
+  </span>
 </div>
 
 ### Orações na Consagração
@@ -1120,25 +1226,25 @@ Quinta-Feira Santa, Sábado de Aleluia e Páscoa, Ascensão e Pentecostes.
 Estendendo as mãos sobre as oblatas, o celebrante diz:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Hanc igitur oblatiónem servitutis nostræ, sed et cunctæ famíliæ tuæ,
     quǽsumus, Dómine, ut placátus accípias: diésque nostros in tua pace
     dispónas, atque ab ætérna damnatióne nos éripi, et in electórum tuórum
     júbeas grege numerári. Per Christum, Dóminum nostrum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Por este motivo, Senhor, Vos rogamos que Vos dignais receber favoravelmente
     esta oferta que eu, vosso indigno servo, e toda a vossa família Vos fazemos;
     concedei-nos o gozo da vossa paz nos nossos dias, livrai-nos da condenação
     eterna e admiti-nos ao número dos vossos escolhidos. Por Cristo, nosso
     Senhor. Amen.
-  </div>
+  </span>
 </div>
 
 O Sacerdote abençoa as oblatas dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Quam oblatiónem tu, Deus, in ómnibus, quǽsumus, bene{" "}
     <span class="text-red-500">&#10016;</span> díctam, adscríp{" "}
     <span class="text-red-500">&#10016;</span> tam, ra{" "}
@@ -1147,12 +1253,12 @@ O Sacerdote abençoa as oblatas dizendo:
     <span class="text-red-500">&#10016;</span> pus, et San{" "}
     <span class="text-red-500">&#10016;</span> guis fiat dilectíssimi Fílii tui,
     Dómini nostri Jesu Christi.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Que esta oblação, ó Deus, Vos imploramos, seja abençoada, aprovada,
     confirmada, digna e aceitável, a fim de que se converta para nós no Corpo e
     no Sangue de vosso amado Filho, nosso Senhor Jesus Cristo.
-  </div>
+  </span>
 </div>
 
 #### Consagração e Elevação da Hóstia
@@ -1162,54 +1268,54 @@ seguida adora-a, e eleva-a aos olhos dos fiéis, para que todos a adorem em
 silêncio. O mesmo faz, depois, para a consagração do Cálice.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Qui prídie quam paterétur, accépit panem in sanctas ac venerábiles manus
     suas, et elevátis óculis in cœlum ad te Deum, Patrem suum omnipoténtem, tibi
     grátias agens, bene <span class="text-red-500">&#10016;</span> dixit,
     fregit, dedítque discípulis suis, dicens: Accípite, et manducáte ex hoc
     omnes.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     O qual, na véspera da sua paixão tomou o pão em suas santas e veneráveis
     mãos: e, erguendo os olhos ao céu, a Vós, Deus seu Pai omnipotente, e
     dando-Vos graças, abençoou-o <span class="text-red-500">&#10016;</span>,
     partiu-o e deu-o aos seus discípulos, dizendo: Tomai todos e comei:
-  </div>
+  </span>
 </div>
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     <b>Hoc est enim Corpus meum.</b>
-  </div>
-  <div class="text-center">
+  </span>
+  <span class="text-center">
     <b>Pois isto é o meu Corpo.</b>
-  </div>
+  </span>
 </div>
 
 #### Consagração e Elevação do Cálice:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Símili modo postquam cœnátum est, accípiens et hunc præclárum Cálicem in
     sanctas ac venerábiles manus suas: tibi grátias agens, bene{" "}
     <span class="text-red-500">&#10016;</span> dixit, dedítque discípulis suis,
     dicens: Accípite, et bíbite ex eo omnes.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Do mesmo modo, Jesus, após a Ceia, tomou em suas santas e veneráveis mãos
     este precioso Cálice, e, novamente, dando-Vos graças, abençoou-o{" "}
     <span class="text-red-500">&#10016;</span> e deu-o aos seus discípulos
     dizendo:
-  </div>
-  <div class="text-center">
+  </span>
+  <span class="text-center">
     <em>
       <b>
         Hic est enim Calix Sánguinis mei, novi et ætérni testaménti: mystérium
         fídei: qui pro vobis et pro multis effundétur in remissiónem peccatórum.
       </b>
     </em>
-  </div>
-  <div class="text-center">
+  </span>
+  <span class="text-center">
     <em>
       <b>
         Pois isto é o Cálice do meu Sangue do novo e eterno testamento, mystério
@@ -1217,18 +1323,18 @@ silêncio. O mesmo faz, depois, para a consagração do Cálice.
         pecados.
       </b>
     </em>
-  </div>
+  </span>
 </div>
 
 Depois da consagração do Cálice, o Sacerdote diz com uma voz baixa:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Hæc quotiescúmque fecéritis, in mei memóriam faciétis.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Todas as vezes que fizerdes isto, fazei-o em memória de mim.
-  </div>
+  </span>
 </div>
 
 #### Oblação da Vítima a Deus
@@ -1236,7 +1342,7 @@ Depois da consagração do Cálice, o Sacerdote diz com uma voz baixa:
 O Sacerdote continua depois as orações do Cânon:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Unde et mémores, Dómine, nos servi tui, sed et plebs tua sancta, ejusdem
     Christi Fílii tui, Dómini nostri, tam beátæ passiónis, nec non et ab ínferis
     resurrectiónis, sed et in cœlos gloriósæ ascensiónis: offérimus præcláræ
@@ -1246,8 +1352,8 @@ O Sacerdote continua depois as orações do Cânon:
     <span class="text-red-500">&#10016;</span> immaculátam, Panem{" "}
     <span class="text-red-500">&#10016;</span> sanctum vitæ ætérnæ, et Calicem{" "}
     <span class="text-red-500">&#10016;</span> salútis perpétuæ.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Por este motivo, Senhor, nós, vossos servos, e o vosso povo santo,
     lembrando-nos da bem-aventurada Paixão do mesmo Cristo, vosso Filho e Senhor
     nosso, assim como também da sua Ressurreição dos mortos e da sua gloriosa
@@ -1257,30 +1363,30 @@ O Sacerdote continua depois as orações do Cânon:
     <span class="text-red-500">&#10016;</span> imaculada, o Pão{" "}
     <span class="text-red-500">&#10016;</span> santo da vida eterna e o Cálice{" "}
     <span class="text-red-500">&#10016;</span> da salvação perpétua.
-  </div>
+  </span>
 </div>
 
 Com as mãos afastadas, contínua:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Supra quæ propítio ac seréno vultu respícere dignéris: et accépta habére,
     sicúti accépta habére dignátus es múnera púeri tui justi Abel, et
     sacrifícium Patriárchæ nostri Abrahæ: et quod tibi óbtulit summus sacérdos
     tuus Melchísedech, sanctum sacrifícium, immaculátam hóstiam.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Sobre estas ofertas dignai-Vos lançar um olhar propício e benévolo e
     aceitá-las, como Vos dignastes receber os dons do justo Abel, vosso servo, o
     sacrifício do nosso Patriarca Abraão e o que Vos ofereceu o Sumo sacerdote
     Melquisedeque, pois este é um sacrifício santo, uma hóstia imaculada.
-  </div>
+  </span>
 </div>
 
 Profundamente inclinado, o Sacerdote diz:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Súpplices te rogámus, omnípotens Deus: jube hæc perférri per manus sancti
     Ángeli tui in sublíme altáre tuum, in conspéctu divínæ majestátis tuæ: ut,
     quotquot ex hac altáris participatióne sacrosánctum Fílii tui Cor{" "}
@@ -1288,8 +1394,8 @@ Profundamente inclinado, o Sacerdote diz:
     <span class="text-red-500">&#10016;</span> guinem sumpsérimus, omni
     benedictióne cœlésti et grátia repleámur. Per eúndem Christum, Dóminum
     nostrum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Humildemente Vos rogamos, ó Deus omnipotente, ordeneis que estas ofertas
     sejam apresentadas no altar sublime pelas mãos do vosso Santo Anjo, na
     presença da vossa divina majestade, a fim de que todos aqueles que
@@ -1298,7 +1404,7 @@ Profundamente inclinado, o Sacerdote diz:
     <span class="text-red-500">&#10016;</span> de vosso Filho sejam repletos de
     todas as bênçãos do céu e de todas as graças. Pelo mesmo Cristo, nosso
     Senhor. Amen.
-  </div>
+  </span>
 </div>
 
 ### Orações depois da Consagração
@@ -1306,25 +1412,25 @@ Profundamente inclinado, o Sacerdote diz:
 #### Memento dos defuntos:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Meménto étiam, Dómine, famulórum famularúmque tuárum <em>N. </em>et{" "}
     <em>N.</em>, qui nos præcessérunt cum signo fídei, et dórmiunt in somno
     pacis.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Lembrai-Vos também Senhor, dos vossos servos e servas <em>N. </em>e{" "}
     <em>N.</em>, que partiram antes de nós, marcados com o sinal da fé, e agora
     dormem o sono da paz.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Ipsis, Dómine, et ómnibus in Christo quiescéntibus locum refrigérii, lucis
     pacis ut indúlgeas, deprecámur. Per eúndem Christum, Dóminum nostrum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Vos suplicamos, Senhor, dignai-Vos conceder a estes, assim como a todos os
     que descansam em Cristo, um lugar de consolação, de luz e de paz. Pelo mesmo
     Cristo, nosso Senhor. Amen.
-  </div>
+  </span>
 </div>
 
 #### Invocação dos Santos
@@ -1332,7 +1438,7 @@ Profundamente inclinado, o Sacerdote diz:
 O Sacerdote bate no peito, dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Nobis quoque peccatóribus Extensis manibus ut prius, secrete prosequitur:
     fámulis tuis, de multitúdine miseratiónum tuárum sperántibus, partem áliquam
     et societátem donáre dignéris, cum tuis sanctis Apóstolis et Martýribus: cum
@@ -1340,8 +1446,8 @@ O Sacerdote bate no peito, dizendo:
     Felicitáte, Perpétua, Agatha, Lúcia, Agnéte, Cæcília, Anastásia, et ómnibus
     Sanctis tuis: intra quorum nos consórtium, non æstimátor mériti, sed véniæ,
     quǽsumus, largítor admítte. Per Christum, Dóminum nostrum.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     E também a nós, pecadores, vossos servos, que esperamos na grandeza das
     vossas misericórdias, dignai-Vos conceder-nos alguma parte na vossa herança
     e sociedade com vossos Santos Apóstolos e Mártires: João, Estêvão, Matias,
@@ -1349,52 +1455,52 @@ O Sacerdote bate no peito, dizendo:
     Luzia, Inês, Cecília, Anastácia e com todos os Santos, em cuja companhia,
     Vos pedimos, nos recebais, não em consideração dos nossos merecimentos, mas
     segundo a liberalidade da vossa misericórdia. Por Cristo, nosso Senhor.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Per quem hæc ómnia, Dómine, semper bona creas, sanctí{" "}
     <span class="text-red-500">&#10016;</span> ficas, viví{" "}
     <span class="text-red-500">&#10016;</span> ficas, bene{" "}
     <span class="text-red-500">&#10016;</span> dícis et præstas nobis.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Por quem, Senhor, sempre criais estes bens e os santificais{" "}
     <span class="text-red-500">&#10016;</span>, vivificais{" "}
     <span class="text-red-500">&#10016;</span>, abençoais{" "}
     <span class="text-red-500">&#10016;</span> e no-los concedeis.
-  </div>
+  </span>
 </div>
 
 #### Doxologia Final
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Per ip <span class="text-red-500">&#10016;</span> sum, et cum ip{" "}
     <span class="text-red-500">&#10016;</span> so, et in ip{" "}
     <span class="text-red-500">&#10016;</span> so, est tibi Deo Patri{" "}
     <span class="text-red-500">&#10016;</span> omnipotenti, in unitáte Spíritus{" "}
     <span class="text-red-500">&#10016;</span> Sancti, omnis honor, et glória.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Por Ele <span class="text-red-500">&#10016;</span>, com Ele{" "}
     <span class="text-red-500">&#10016;</span> e n’Ele{" "}
     <span class="text-red-500">&#10016;</span>, a Vós, ó Deus Pai
     todo-o-poderoso <span class="text-red-500">&#10016;</span>, na unidade do
     Espírito <span class="text-red-500">&#10016;</span> Santo, pertence, e Vos é
     dada, toda a honra e glória.
-  </div>
+  </span>
 </div>
 
 <em>O Sacerdote termina em voz alta:</em>
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Per ómnia sǽcula sæculórum.</div>
-  <div class="text-justify">V. Por todos os séculos dos séculos.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Per ómnia sǽcula sæculórum.</span>
+  <span class="text-justify">V. Por todos os séculos dos séculos.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
+  </span>
 </div>
 
 ### Rito da Comunhão
@@ -1404,39 +1510,39 @@ Participação no Sacrifício
 Terminado o Cânon, o Sacerdote diz em voz alta:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-red-500 text-center"> Orémus.</div>
-  <div class="text-red-500 text-center"> Oremos.</div>
-  <div class="text-justify">
+  <span class="text-red-500 text-center"> Orémus.</span>
+  <span class="text-red-500 text-center"> Oremos.</span>
+  <span class="text-justify">
     Præcéptis salutáribus móniti, et divína institutióne formáti, audémus
     dícere:
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Instruídos com os salutares preceitos do Salvador e dirigidos pelos seus
     divinos ensinamentos, ousamos dizer:
-  </div>
+  </span>
 </div>
 
 ### Pater Noster
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Pater noster, qui es in cælis: sanctificétur nomen tuum: advéniat regnum
     tuum: fiat volúntas tua, sicut in cælo, et in terra. Panem nostrum
     quotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos
     dimíttimus debitóribus nostris. Et ne nos indúcas in tentatiónem.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Pai nosso que estais nos céus; santificado seja o vosso nome; venha a nós o
     vosso reino; seja feita a vossa vontade, assim na terra como no céu. O pão
     nosso de cada dia nos dai hoje; perdoai-nos as nossas dívidas, assim como
     nós perdoamos aos nossos devedores e não nos deixeis cair em tentação:
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Sed líbera nos a malo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Mas livrai-nos do mal.
-  </div>
+  </span>
 </div>
 
 O Sacerdote diz Amen em voz baixa, e continua:
@@ -1444,21 +1550,21 @@ O Sacerdote diz Amen em voz baixa, e continua:
 #### Líbera nos
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Libera nos, quǽsumus, Dómine, ab ómnibus malis, prætéritis, præséntibus et
     futúris: et intercedénte beáta et gloriósa semper Vírgine Dei Genetríce
     María, cum beátis Apóstolis tuis Petro et Paulo, atque Andréa, et ómnibus
     Sanctis, da propítius pacem in diébus nostris: ut, ope misericórdiæ tuæ
     adjúti, et a peccáto simus semper líberi et ab omni perturbatióne secúri.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Livrai-nos, Senhor, Vos suplicamos, de todos os males passados, presentes e
     futuros; e, pela intercessão da bem-aventurada e gloriosa sempre Virgem
     Maria, Mãe de Deus, e dos bem-aventurados Apóstolos Pedro e Paulo e André, e
     de todos os Santos, dai-nos, benignamente, a paz nos nossos dias, a fim de
     que auxiliados com vossa misericórdia, sejamos sempre livres do pecado e
     seguros de toda a perturbação.
-  </div>
+  </span>
 </div>
 
 O Sacerdote descobre o Cálice, genuflecte e segura com os dedos polegar e
@@ -1467,14 +1573,14 @@ indicador da mão direita a Hóstia, que ergue até ao cimo do cálice.
 #### Fracção da Hóstia
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum. Qui tecum vivit et
     regnat in unitáte Spíritus Sancti Deus.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Pelo mesmo nosso Senhor Jesus Cristo, vosso Filho: que convosco vive e reina
     em unidade de Deus Espírito Santo.
-  </div>
+  </span>
 </div>
 
 O Sacerdote parte a Hóstia ao meio, de uma das partes tira um pequeno
@@ -1486,44 +1592,44 @@ fraccionou, coloca-a sobre o Cálice, que segura pelo nós, e acrescenta em voz
 alta:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Per ómnia sæcula sæculórum.</div>
-  <div class="text-justify">V. Por todos os séculos dos séculos.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Per ómnia sæcula sæculórum.</span>
+  <span class="text-justify">V. Por todos os séculos dos séculos.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
+  </span>
 </div>
 
 O Sacerdote faz três vezes o sinal da Cruz com a Divina Partícula sobre o
 Cálice:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Pax <span class="text-red-500">&#10016;</span> Dómini sit{" "}
     <span class="text-red-500">&#10016;</span> semper{" "}
     <span class="text-red-500">&#10016;</span> vobíscum.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Que a paz <span class="text-red-500">&#10016;</span> do Senhor esteja{" "}
     <span class="text-red-500">&#10016;</span> sempre{" "}
     <span class="text-red-500">&#10016;</span> convosco.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Et cum spíritu tuo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> E com vosso espírito.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Hæc commíxtio, et consecrátio Córporis et Sánguinis Dómini nostri Jesu
     Christi, fiat accipiéntibus nobis in vitam ætérnam. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Que esta mistura e esta consagração do Corpo e do Sangue de nosso Senhor
     Jesus Cristo sejam penhor de vida eterna para nós que a receberemos. Amen.
-  </div>
+  </span>
 </div>
 
 ### Agnus Dei
@@ -1533,24 +1639,24 @@ Defuntos, não se bate no peito e em vez de miserére nobis, diz-se: Dona eis
 requiem; na terceira parte: dona eis requiem sempiternam.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Agnus Dei, qui tollis peccáta mundi: miserére nobis.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Cordeiro de Deus, que tirais o pecado do mundo, tende piedade de nós.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Agnus Dei, qui tollis peccáta mundi: miserére nobis.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Cordeiro de Deus, que tirais o pecado do mundo, tende piedade de nós.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Agnus Dei, qui tollis peccáta mundi: dona nobis pacem.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Cordeiro de Deus, que tirais o pecado do mundo, dai-nos a paz.
-  </div>
+  </span>
 </div>
 
 ### Orações para a Comunhão
@@ -1559,48 +1665,48 @@ Inclinado, recita as três orações seguintes, pela paz, santificação e graç
 Igreja.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Dómine Jesu Christe, qui dixísti Apóstolis tuis: Pacem relínquo vobis, pacem
     meam do vobis: ne respícias peccáta mea, sed fidem Ecclésiæ tuæ; eámque
     secúndum voluntátem tuam pacifícáre et coadunáre dignéris: Qui vivis et
     regnas Deus per ómnia sǽcula sæculórum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Senhor Jesus Cristo, que dissestes aos vossos Apóstolos: «Eu vos deixo a
     paz, dou-vos a minha paz», não olheis para os meus pecados, mas para a fé da
     vossa Igreja: concedei-lhe paz e união, segundo a vossa vontade: Vós, que,
     sendo Deus, viveis e reinais em todos os séculos dos séculos. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Dómine Jesu Christe, Fili Dei vivi, qui ex voluntáte Patris, cooperánte
     Spíritu Sancto, per mortem tuam mundum vivificásti: líbera me per hoc
     sacrosánctum Corpus et Sánguinem tuum ab ómnibus iniquitátibus meis, et
     univérsis malis: et fac me tuis semper inhærére mandátis, et a te numquam
     separári permíttas: Qui cum eódem Deo Patre et Spíritu Sancto vivis et
     regnas Deus in sǽcula sæculórum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Senhor Jesus Cristo, Filho de Deus vivo, que, por vontade do Pai, cooperando
     o Espírito Santo, pela vossa morte, destes a vida ao mundo: livrai-nos de
     todos os males por este vosso sacrossanto Corpo e Sangue. Permiti que cumpra
     sempre os vossos preceitos e nunca me afaste de Vós: que sendo Deus, viveis
     e reinais com o mesmo Deus Pai e Espírito Santo em todos os séculos dos
     séculos. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Percéptio Córporis tui, Dómine Jesu Christe, quod ego indígnus súmere
     præsúmo, non mihi provéniat in judícium et condemnatiónem: sed pro tua
     pietáte prosit mihi ad tutaméntum mentis et córporis, et ad medélam
     percipiéndam: Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti
     Deus, per ómnia sǽcula sæculórum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Senhor Jesus Cristo, que este vosso Corpo, que, eu, ainda que indigno, vou
     receber, não seja para meu juízo e condenação, mas que, pela vossa
     misericórdia, sirva à minha alma e ao meu corpo de defesa e de remédio
     salutar: Vós, que, sendo Deus, viveis e reinais com Deus Pai em unidade de
     Deus Espírito Santo em todos os séculos dos séculos. Amen.
-  </div>
+  </span>
 </div>
 
 ### Comunhão do celebrante
@@ -1608,54 +1714,54 @@ Igreja.
 O Sacerdote genuflecte e pegando depois na sagrada Hóstia.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Panem cœléstem accipiam, et nomen Dómini invocábo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Tomarei o Pão do céu e invocarei o nome do Senhor.
-  </div>
+  </span>
 </div>
 
 Em seguida bate três vezes no peito.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et
     sanábitur ánima mea.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Senhor, eu não sou digno de que entreis na minha morada, mas dizei uma só
     palavra e a minha alma será salva.
-  </div>
+  </span>
 </div>
 
 Faz sobre si o sinal da cruz com a sagrada Hóstia, antes de a comungar.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Corpus Dómini nostri Jesu Christi custódiat ánimam meam in vitam ætérnam.
     Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Que o Corpo de nosso Senhor Jesus Cristo guarde a minha alma para a vida
     eterna. Amen.
-  </div>
+  </span>
 </div>
 
 Recolhe-se por uns instantes. Toma o preciosíssimo Sangue, fazendo antes sobre
 si o sinal da cruz.
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Quid retríbuam Dómino pro ómnibus, quæ retríbuit mihi? Cálicem salutáris
     accípiam, et nomen Dómini invocábo. Laudans invocábo Dóminum, et ab inimícis
     meis salvus ero.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Como retribuirei ao Senhor os bens que Ele se dignou dispensar-me? Tomarei o
     Cálice da salvação e invocarei o nome do Senhor, louvando-O, e ficarei livre
     dos meus inimigos.
-  </div>
+  </span>
 </div>
 
 Depois segura com a mão direita o Cálice pelo nó (enquanto a não esquerda
@@ -1663,14 +1769,14 @@ empunha a patena), traça com o Cálice o sinal da Cruz e bebe o Sangue Divino!
 Neste momento diz:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Sanguis Dómini nostri Jesu Christi custódiat ánimam meam in vitam ætérnam.
     Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Que o Sangue de nosso Senhor Jesus Cristo guarde a minha alma para a vida
     eterna. Amen.
-  </div>
+  </span>
 </div>
 
 #### Comunhão dos fiéis
@@ -1678,106 +1784,106 @@ Neste momento diz:
 Os fiéis, ou o acólito por eles, recitam o Confíteor:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Confíteor Deo omnipoténti, beátæ Maríæ
     semper Vírgini, beáto Michǽli Archángelo, beáto Joánni Baptístæ, sanctis
     Apóstolis Petro et Paulo, ómnibus Sanctis, et tibi, pater: quia peccávi
     nimis cogitatióne, verbo et ópere:
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Eu me confesso a Deus, todo poderoso, à
     bem-aventurada sempre Virgem Maria, ao bem-aventurado S. Miguel Arcanjo, ao
     bem-aventurado S. João Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, a
     todos os santos, e a vós, Padre: que pequei muitas vezes por pensamentos,
     palavras e obras:
-  </div>
+  </span>
 </div>
 
 Batendo três vezes no peito:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     <b>Mea culpa, mea culpa, mea máxima culpa.</b>
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <b>Por minha culpa, por minha culpa, por minha tão grande culpa.</b>
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Ideo precor beátam Maríam semper Vírginem, beátum Michǽlem Archángelum,
     beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum, omnes Sanctos,
     et te, pater, orare pro me ad Dóminum, Deum nostrum.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Portanto rogo à bem-aventurada sempre Virgem Maria, ao bem-aventurado S.
     Miguel Arcanjo, ao bem-aventurado S. João Baptista, aos Santos Apóstolos S.
     Pedro e S. Paulo, a todos os Santos e a vós, Padre, que rogueis a Deus,
     nosso Senhor, por mim.
-  </div>
+  </span>
 </div>
 
 Voltando-se para os fiéis, o Sacerdote dá a absolvição em voz alta:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Misereátur vestri omnípotens Deus, et, dimíssis peccátis vestris,
     perdúcat vos ad vitam ætérnam.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Compadeça-se de vós o Senhor omnipotente; vos perdoe os pecados e guie
     até à vida eterna.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
+  </span>
 </div>
 
 Fazendo o Sinal da Cruz, diz:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Indulgéntiam, <span class="text-red-500">&#10016;</span> absolutionem et
     remissiónem peccatórum nostrórum tríbuat nobis omnípotens et miséricors
     Dóminus.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Que o Senhor <span class="text-red-500">&#10016;</span> omnipotente e
     misericordioso nos conceda o perdão, a absolvição e a remissão dos nossos
     pecados.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
+  </span>
 </div>
 
 O Sacerdote volta-se para o altar, genuflecte e voltando-se para os fiéis
 ergue a Hóstia, dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Ecce Agnus Dei, ecce qui tollit peccáta mundi.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Eis o Cordeiro de Deus; eis Aquele que tira os pecados do mundo.
-  </div>
+  </span>
 </div>
 
 E em seguida, três vezes batendo no peito e dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Dómine, non sum dignus, ut intres sub
     tectum meum: sed tantum dic verbo, et sanábitur ánima mea.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Senhor, eu não sou digno de que entreis
     na minha morada, mas dizei uma só palavra e a minha alma será salva.
-  </div>
+  </span>
 </div>
 
 Estando convenientemente preparado aquele que quiser Comungar, aproximar-se-á
@@ -1785,14 +1891,14 @@ do Comungatório, ajoelhando e recebendo a Divina Hóstia na língua. O Sacerdot
 diz a cada um dos comungantes:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Corpus Dómini nostri Jesu Christi custódiat ánimam tuam in vitam ætérnam.
     Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Que o Corpo de nosso Senhor Jesus Cristo guarde a tua alma para a vida
     eterna. Amen.
-  </div>
+  </span>
 </div>
 
 ### Acção de Graças
@@ -1803,26 +1909,26 @@ O Sacerdote purifica primeiro o cálice e depois os dedos, e toma as abluções.
 Entretanto vai dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     Quod ore súmpsimus, Dómine, pura mente capiámus: et de munere temporáli fiat
     nobis remédium sempitérnum.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Que conservemos com pureza de coração, Senhor, o que a boca acaba de
     receber; e que esta dádiva temporal se torne para nós remédio sempiterno.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Corpus tuum, Dómine, quod sumpsi, et Sanguis, quem potávi, adhǽreat
     viscéribus meis: et præsta; ut in me non remáneat scélerum mácula, quem pura
     et sancta refecérunt sacraménta: Qui vivis et regnas in sǽcula sæculórum..
     Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     Senhor, que o vosso Corpo, que recebi, e o vosso sangue, que bebi, se unam
     intimamente ás minhas entranhas; dignai-Vos permitir, Senhor, que não fique
     em mim mancha alguma de pecado, agora que estou confortado com sacramentos
     tão puros e santos: Vós, que viveis e reinais em todos os séculos. Amen.
-  </div>
+  </span>
 </div>
 
 Purifica o cálice e deixa-o, coberto, no meio do altar. Nas Missas solenes, é
@@ -1830,35 +1936,63 @@ o subdiácono quem purifica o cálice e o leva para a credencia.
 
 ### Comúnio do dia
 
-export const communio = findSectionBody(day, "Communio");
-
 O Sacerdote passa para o lado direito do altar, e recita a antífona da
 Comunhão.
 
-<div className="grid grid-cols-2 gap-5">
-  <div class="section-latin">{communio.body.latin}</div>
-  <div class="section-vernacular">{communio.body.vernacular}</div>
-</div>
+export const communio = findSectionBody(day, "Communio");
+
+<Card title="Comúnio">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {communio.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {communio.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Dóminus vobíscum.</div>
-  <div class="text-justify">V. O Senhor esteja convosco.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Dóminus vobíscum.</span>
+  <span class="text-justify">V. O Senhor esteja convosco.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Et cum spíritu tuo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> E com vosso espírito.
-  </div>
+  </span>
 </div>
 
 ### Postcomúnio do dia
 
 export const postcommunio = findSectionBody(day, "Postcommunio");
 
-<div className="grid grid-cols-2 gap-5">
-  <div class="section-latin">{postcommunio.body.latin}</div>
-  <div class="section-vernacular">{postcommunio.body.vernacular}</div>
-</div>
+<Card title="Postcomúnio">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose">
+      {postcommunio.body.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose">
+      {postcommunio.body.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
 
 ### Despedida e Bênção
 
@@ -1866,85 +2000,85 @@ O Sacerdote volta ao meio do altar, beija-o, e, voltando-se para os fiéis
 saúda-os:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Dóminus vobíscum.</div>
-  <div class="text-justify">V. O Senhor esteja convosco.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Dóminus vobíscum.</span>
+  <span class="text-justify">V. O Senhor esteja convosco.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Et cum spíritu tuo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> E com vosso espírito.
-  </div>
-  <div class="text-justify">V. Ite, Missa est.</div>
-  <div class="text-justify">V. Ide-vos, acabou a Missa.</div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">V. Ite, Missa est.</span>
+  <span class="text-justify">V. Ide-vos, acabou a Missa.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Deo grátias.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Graças a Deus.
-  </div>
+  </span>
 </div>
 
 Se alguma acção litúrgica se segue à Missa, diz-se:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Benedicámus Dómino.</div>
-  <div class="text-justify">V. Bendigamos o Senhor.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Benedicámus Dómino.</span>
+  <span class="text-justify">V. Bendigamos o Senhor.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Deo Grátias.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Graças a Deus.
-  </div>
+  </span>
 </div>
 
 <em>Nas Missas dos Defuntos:</em>
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Requiéscant in pace.</div>
-  <div class="text-justify">V. Que descansem em paz.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Requiéscant in pace.</span>
+  <span class="text-justify">V. Que descansem em paz.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
+  </span>
 </div>
 
 Voltando-se para o altar, recita a seguinte oração:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Pláceat tibi, sancta Trínitas, obséquium servitútis meæ: et præsta; ut
     sacrifícium, quod óculis tuæ majestátis indígnus óbtuli, tibi sit
     acceptábile, mihíque et ómnibus, pro quibus illud óbtuli, sit, te miseránte,
     propitiábile. Per Christum, Dóminum nostrum. Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Santíssima Trindade, seja-Vos agradável a homenagem da minha escravidão,
     a fim de que este sacrifício, que, ainda indignamente, ofereci à vossa
     divina majestade, seja aceite por Vós, e, pela vossa misericórdia, se torne
     propiciatório para mim e para todos aqueles por quem o ofereci. Por Cristo,
     Nosso Senhor. Amen.
-  </div>
+  </span>
 </div>
 
 Beija o altar, volta-se para a assistência, e dá a bênção, dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     V. Benedícat vos omnípotens Deus, Pater, et Fílius,{" "}
     <span class="text-red-500">&#10016;</span> et Spíritus Sanctus.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     V. Que desça sobre vós a bênção do omnipotente Deus: Pai, e Filho,{" "}
     <span class="text-red-500">&#10016;</span> e Espírito Santo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
-  </div>
+  </span>
 </div>
 
 ### Último Evangelho
@@ -1954,35 +2088,35 @@ Evangelho, o princípio do Evangelho de S. João (que se omite na Quinta-feira
 Santa e na Vigília pascal).
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">V. Dóminus vobíscum.</div>
-  <div class="text-justify">V. O Senhor esteja convosco.</div>
-  <div class="text-justify">
+  <span class="text-justify">V. Dóminus vobíscum.</span>
+  <span class="text-justify">V. O Senhor esteja convosco.</span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Et cum spíritu tuo.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> E com vosso espírito.
-  </div>
+  </span>
 </div>
 
 Despois faz o sinal da Cruz na Sacra (ou no Missal) e na sua testa, boca e
 peito, dizendo:
 
 <div className="grid grid-cols-2 gap-5">
-  <div class="text-justify">
+  <span class="text-justify">
     <span class="text-red-500">&#10016;</span> Initium sancti Evangélii secúndum
     Joánnem.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">&#10016;</span> Princípio do santo Evangelho
     segundo S. João.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Glória tibi, Dómine.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Glória a Vós, Senhor.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc
     erat in princípio apud Deum. Omnia per ipsum facta sunt: et sine ipso factum
     est nihil, quod factum est: in ipso vita erat, et vita erat lux hóminum: et
@@ -1998,8 +2132,8 @@ peito, dizendo:
     <em>(Hic genuflectitur)</em> Et Verbum caro factum est, et habitávit in
     nobis: et vídimus glóriam ejus, glóriam quasi Unigéniti a Patre, plenum
     grátiæ et veritátis.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     No princípio existia o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.
     Este estava no princípio com Deus. Todas as coisas foram por Ele criadas, e
     nada daquilo que foi criado teria sido criado sem Ele. N’Ele havia vida, e a
@@ -2016,13 +2150,13 @@ peito, dizendo:
     fez-se carne <em>(genuflecte-se)</em> e habitou entre nós; e contemplamos a
     sua glória, como era própria do Filho Unigénito do Pai, cheio de graça e de
     verdade.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Deo grátias.
-  </div>
-  <div class="text-justify">
+  </span>
+  <span class="text-justify">
     <span class="text-red-500">R.</span> Graças a Deus.
-  </div>
+  </span>
 </div>
 
 ## Orações Leoninas
