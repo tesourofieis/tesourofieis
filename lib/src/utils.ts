@@ -5,6 +5,8 @@ import { Observance } from "./observance.ts";
 import { Proper } from "./proper.ts";
 import { Day } from "./day.ts";
 import type { Calendar } from "./calendar.ts";
+import type { UTCDate } from "@date-fns/utc";
+import { format } from "date-fns";
 
 type Pattern = string | RegExp;
 
@@ -38,8 +40,8 @@ function match(
   }
 }
 
-function yyyyMMDD(date: Date) {
-  return date.toISOString().split("T")[0];
+function yyyyMMDD(date: Date | UTCDate) {
+  return format(date, "yyyy-MM-dd");
 }
 
 function getCustomPreface(
