@@ -2,82 +2,91 @@ import { getCalendarDay } from "../../lib/getCalendar.ts";
 import { yyyyMMDD } from "../../lib/src/utils.ts";
 
 import { useState, useEffect } from "react";
-
 import { getHours } from "date-fns";
-
 import Office from "./Office";
+import LinkCard from "./LinkCard.tsx";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
-
+  const [currentHour, setCurrentHour] = useState(getHours(date));
   const calendar = getCalendarDay(
     new Date(date).getFullYear(),
     yyyyMMDD(new Date()),
   );
-
-  function getPrayer(date: Date) {
-    const hour = getHours(date);
-    // Morning is considered between 6:30 AM and 9:30 AM
-    const isMorning = hour >= 5 && hour < 10;
-    if (isMorning) {
-      return { isMorning: true, isNight: false };
-    }
-    // Night is considered between 8:00 PM and 3:00 AM
-    const isNight = hour >= 20 && hour <= 3;
-    if (isNight) {
-      return { isNight: true, isMorning: false };
-    }
-
-    return { isNight: false, isMorning: false };
-  }
-
-  function getAngelus(date: Date) {
-    const hour = getHours(date);
-    // Angelus is traditionally prayed at 6:00 AM, 12:00 PM (noon), and 6:00 PM
-    const isAngelus = hour === 6 || hour === 12 || hour === 18;
-    if (isAngelus) {
-      return true;
-    }
-  }
+  const currentPrayer = getPrayer(new Date());
 
   useEffect(() => {
     const intervalId = setInterval(
       () => {
-        setDate(new Date());
+        const newDate = new Date();
+        setDate(newDate);
+
+        const newHour = getHours(newDate);
+        if (newHour !== currentHour) {
+          setCurrentHour(newHour);
+        }
       },
       1000 * 60 * 60,
     );
+
     return () => clearInterval(intervalId);
-  }, []);
+  }, [currentHour]);
+
+  function getPrayer(date: Date) {
+    const hour = getHours(date);
+    const isMorning = hour >= 5 && hour < 10;
+    const isNight = hour >= 20 || (hour >= 0 && hour <= 3);
+    return { isMorning, isNight };
+  }
+
+  function getAngelus(date: Date) {
+    const hour = getHours(date);
+    return hour === 6 || hour === 12 || hour === 18;
+  }
 
   return (
-    <div className="border border-red-500 rounded p-3">
-      <caption>{new Date().toLocaleString()}</caption>
-      <img className="rounded" src="/1.gif" alt="missal" />
-      <a href={`/missal/dia#${yyyyMMDD(date)}`}>
-        <p>
-          {calendar.celebration[0]?.title ||
-            calendar.tempora[0]?.title ||
-            calendar.commemoration[0]?.title ||
-            "Feria"}
-        </p>
-        <caption>{calendar.commemoration[0]?.title}</caption>
-      </a>
+    <div className="border border-gray-300 rounded p-3 gap-3">
+      <h3>Dia e Hora</h3>
+      <h6>
+        {new Date().toLocaleTimeString("pt", {
+          month: "long",
+          weekday: "long",
+          day: "2-digit",
+          hour: "numeric",
+        })}
+      </h6>
+      <em>
+        Muda a Missa, o Ofício, o Angelus e as orações do dia consoante o dia e
+        a hora
+      </em>
+      <LinkCard
+        link={`/missal/dia#${yyyyMMDD(date)}`}
+        title={
+          calendar.celebration[0]?.title ||
+          calendar.tempora[0]?.title ||
+          calendar.commemoration[0]?.title ||
+          "Feria"
+        }
+        caption={calendar.commemoration[0]?.title}
+      />
+      <img className="rounded" src="/1.gif" alt="bernardo" />
       <Office />
       {getAngelus(new Date()) && (
-        <div>
-          <a href="/devocionario/dia/angelus">"Angelus"</a>
-        </div>
+        <LinkCard link="/devocionario/dia/angelus" title="Angelus" caption="" />
       )}
-      {getPrayer(new Date()).isMorning && (
-        <div>
-          <a href="/devocionario/dia/oracaomanha">"Oração da Manhã"</a>
-        </div>
+      {currentPrayer.isMorning && (
+        <LinkCard
+          link="/devocionario/dia/oracaomanha"
+          title="Oração da Manhã"
+          caption=""
+        />
       )}
-      {getPrayer(new Date()).isNight && (
-        <div>
-          <a href="/devocionario/dia/oracaonoite">"Oração da Noite"</a>
-        </div>
+      {currentPrayer.isNight && (
+        <LinkCard
+          link="/devocionario/dia/oracaonoite"
+          title="Oração da Noite"
+          caption=""
+        />
       )}
     </div>
   );
