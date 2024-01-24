@@ -1,12 +1,14 @@
 import { getCalendarDay } from "../../lib/getCalendar.ts";
 import { yyyyMMDD } from "../../lib/src/utils.ts";
 
+import { useState, useEffect } from "react";
+
 import { getHours } from "date-fns";
 
 import Office from "./Office";
 
 export default function InteractiveCard() {
-  const date = new Date();
+  const [date, setDate] = useState(new Date());
 
   const calendar = getCalendarDay(
     new Date(date).getFullYear(),
@@ -37,6 +39,16 @@ export default function InteractiveCard() {
       return true;
     }
   }
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => {
+        setDate(new Date());
+      },
+      1000 * 60 * 60,
+    );
+    return () => clearInterval(intervalId);
+  }, []);
 
   return (
     <div className="border border-red-500 rounded p-3">
