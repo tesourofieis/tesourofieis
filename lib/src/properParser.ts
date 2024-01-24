@@ -109,8 +109,6 @@ class ProperParser {
     }
     proper.description = parsedComment.description;
     proper.additionalInfo = parsedComment.additionalInfo;
-    proper.supplements =
-      this.translations[lang].SUPPLEMENTS[this.proper_id] || [];
     this._addPrefaces(proper, lang);
     this._filterSections(proper);
     this._amendSectionsContents(proper);
