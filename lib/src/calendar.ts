@@ -199,6 +199,7 @@ class Calendar {
       this._container.get(date_).commemoration = commemoration as Observance[];
 
       if (shifted) {
+        // @ts-ignore
         for (const [k, v] of shifted) {
           if (!shiftedAll[k]) {
             shiftedAll[k] = [];
