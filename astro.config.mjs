@@ -4,9 +4,11 @@ import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 
+import react from "@astrojs/react";
+
 // https://astro.build/config
 export default defineConfig({
-  site: "https://tesourofieis.com",
+  site: "https://tesourofieis,.com",
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
@@ -37,7 +39,10 @@ export default defineConfig({
         "@fontsource/berkshire-swash",
       ],
     }),
-    tailwind({ applyBaseStyles: false }),
+    tailwind({
+      applyBaseStyles: false,
+    }),
+    react(),
   ],
   markdown: {
     rehypePlugins: [rehypeHeadingIds],
@@ -53,3 +58,4 @@ export default defineConfig({
     },
   },
 });
+
