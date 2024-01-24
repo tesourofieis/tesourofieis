@@ -119,7 +119,7 @@ function format_proper_section(
     pl.push({
       id: vernacular.id,
       body: {
-        latin: latin.find((i) => i.id === vernacular.id).body,
+        latin: latin.find((i) => i.id === vernacular.id)?.body,
         vernacular: vernacular.body,
       },
     });
