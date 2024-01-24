@@ -49,10 +49,6 @@ export class Section {
     this.body = [...this.body, ...bodyPart];
   }
 
-  appendToBody(bodyPart: string): void {
-    this.body.push(bodyPart);
-  }
-
   serialize() {
     return {
       id: this.id,
