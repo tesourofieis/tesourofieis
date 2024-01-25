@@ -3,12 +3,14 @@ import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
-
 import react from "@astrojs/react";
+
+import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://tesourofieis,.com",
+  site: "https://tesourofieis.com",
+  output: "hybrid",
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
@@ -60,4 +62,6 @@ export default defineConfig({
   image: {
     service: passthroughImageService(),
   },
+  adapter: netlify(),
 });
+

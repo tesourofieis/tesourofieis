@@ -24,7 +24,7 @@ export default function Mass() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/api/missa/${yyyyMMDD(date)}.json`);
+        const response = await fetch(`/api/missal/dia/${yyyyMMDD(date)}.json`);
         const result = await response.json();
         setCalendar(result.calendar);
         setProper(result.proper);
