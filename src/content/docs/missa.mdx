@@ -1,10 +1,10 @@
 ---
 title: Missa do dia
-template: splash
 ---
 
+export const prerender = false;
 import Mass from "../../components/Mass.tsx";
 
 <div>
-  <Mass />
+  <Mass client:load />
 </div>
