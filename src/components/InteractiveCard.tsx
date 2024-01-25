@@ -68,24 +68,26 @@ export default function InteractiveCard() {
           "Feria"
         }
         caption={calendar.commemoration[0]?.title}
+        description={"Missa do dia"}
       />
-      <img className="rounded" src="/1.gif" alt="bernardo" />
       <Office />
       {getAngelus(new Date()) && (
-        <LinkCard link="/devocionario/dia/angelus" title="Angelus" caption="" />
+        <LinkCard
+          link="/devocionario/dia/angelus"
+          title="Angelus"
+          description="Hora do Angelus"
+        />
       )}
       {currentPrayer.isMorning && (
         <LinkCard
           link="/devocionario/dia/oracaomanha"
           title="Oração da Manhã"
-          caption=""
         />
       )}
       {currentPrayer.isNight && (
         <LinkCard
           link="/devocionario/dia/oracaonoite"
           title="Oração da Noite"
-          caption=""
         />
       )}
     </div>

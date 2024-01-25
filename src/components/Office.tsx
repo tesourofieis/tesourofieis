@@ -9,8 +9,8 @@ export default function Office() {
     return (
       <LinkCard
         link="/devocionario/oficio/matinas"
-        caption="Matina"
-        title="Pequeno Ofício de Nossa Senhora"
+        title="Matina"
+        description="Pequeno Ofício de Nossa Senhora"
       />
     );
   }
@@ -19,8 +19,8 @@ export default function Office() {
     return (
       <LinkCard
         link="/devocionario/oficio/lauds"
-        caption="Lauds"
-        title="Pequeno Ofício de Nossa Senhora"
+        title="Lauds"
+        description="Pequeno Ofício de Nossa Senhora"
       />
     );
   }
@@ -29,8 +29,8 @@ export default function Office() {
     return (
       <LinkCard
         link="/devocionario/oficio/prima"
-        caption="Prima"
-        title="Pequeno Ofício de Nossa Senhora"
+        title="Prima"
+        description="Pequeno Ofício de Nossa Senhora"
       />
     );
   }
@@ -39,8 +39,8 @@ export default function Office() {
     return (
       <LinkCard
         link="/devocionario/oficio/terca"
-        caption="Terça"
-        title="Pequeno Ofício de Nossa Senhora"
+        title="Terça"
+        description="Pequeno Ofício de Nossa Senhora"
       />
     );
   }
@@ -49,8 +49,8 @@ export default function Office() {
     return (
       <LinkCard
         link="/devocionario/oficio/sexta"
-        caption="Sexta"
-        title="Pequeno Ofício de Nossa Senhora"
+        title="Sexta"
+        description="Pequeno Ofício de Nossa Senhora"
       />
     );
   }
@@ -59,8 +59,8 @@ export default function Office() {
     return (
       <LinkCard
         link="/devocionario/oficio/noa"
-        caption="Noa"
-        title="Pequeno Ofício de Nossa Senhora"
+        title="Noa"
+        description="Pequeno Ofício de Nossa Senhora"
       />
     );
   }
@@ -69,8 +69,8 @@ export default function Office() {
     return (
       <LinkCard
         link="/devocionario/oficio/vesperas"
-        caption="Vésperas"
-        title="Pequeno Ofício de Nossa Senhora"
+        title="Vésperas"
+        description="Pequeno Ofício de Nossa Senhora"
       />
     );
   }
@@ -79,8 +79,8 @@ export default function Office() {
     return (
       <LinkCard
         link="/devocionario/oficio/completas"
-        caption="Completas"
-        title="Pequeno Ofício de Nossa Senhora"
+        title="Completas"
+        description="Pequeno Ofício de Nossa Senhora"
       />
     );
   }

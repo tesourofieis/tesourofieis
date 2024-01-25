@@ -1,4 +1,4 @@
-import { defineConfig } from "astro/config";
+import { defineConfig, passthroughImageService } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
@@ -9,6 +9,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: "https://tesourofieis,.com",
+  output: "hybrid",
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
@@ -57,5 +58,7 @@ export default defineConfig({
       },
     },
   },
+  image: {
+    service: passthroughImageService(),
+  },
 });
-
