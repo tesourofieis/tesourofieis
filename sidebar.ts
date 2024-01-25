@@ -2,6 +2,7 @@ export const sidebar = [
   {
     label: "Missal",
     items: [
+      { label: "Dia", link: "/missa" },
       { label: "Ordo", link: "/missal/ordo" },
       {
         label: "Advento",

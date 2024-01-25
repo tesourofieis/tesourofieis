@@ -70,7 +70,7 @@ function getPregeneratedProper(lang: string, properId: string) {
   return null;
 }
 
-interface ProperDay {
+export interface ProperDay {
   info: {
     id: string;
     title: string;

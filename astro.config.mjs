@@ -9,7 +9,6 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: "https://tesourofieis,.com",
-  output: "hybrid",
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
