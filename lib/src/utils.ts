@@ -80,12 +80,15 @@ interface ProperDay {
     colors: string[];
     date: string;
   };
-  sections: Section[][];
+  sections: Section[];
 }
 
 interface Section {
   id: string;
-  body: string[];
+  body: {
+    latin: string[];
+    vernacular: string[];
+  };
 }
 
 function format_propers(propers: Proper[], day?: Day): ProperDay {

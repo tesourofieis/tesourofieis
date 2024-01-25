@@ -1,11 +1,22 @@
-export default function LinkCard({ link, caption, title }) {
+export default function LinkCard({
+  link,
+  caption,
+  title,
+  description,
+}: {
+  link?: string;
+  title: string;
+  caption?: string;
+  description?: string;
+}) {
   return (
     <a
       href={link}
-      className="block border my-3 bg-gray-50 border-gray-300 rounded p-3 hover:bg-red-50 no-underline"
+      className="block border my-3 border-gray-500 rounded p-3 hover:border-red-500 no-underline"
     >
+      <em className="text-gray-500">{description}</em>
       <p className="font-bold">{title}</p>
-      <caption>{caption}</caption>
+      <caption className="font-mono">{caption}</caption>
     </a>
   );
 }
