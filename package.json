@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prepare": "husky install",
+    "prepare": "npx husky install",
     "test": "vitest"
   },
   "dependencies": {
@@ -18,9 +18,8 @@
     "@astrojs/starlight": "^0.15.4",
     "@astrojs/starlight-tailwind": "^2.0.1",
     "@astrojs/tailwind": "^5.0.3",
+    "@astrojs/vercel": "^7.0.1",
     "@date-fns/utc": "^1.1.1",
-    "@fontsource/berkshire-swash": "^5.0.18",
-    "@fontsource/cardo": "^5.0.8",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "astro": "^4.2.3",
@@ -31,9 +30,11 @@
     "tailwindcss": "^3.3.3",
     "typescript": "^5.3.3"
   },
+  "optionalDependencies": {
+    "husky": "^8.0.3"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.5.2",
-    "husky": "^8.0.0",
     "lint-staged": "^15.2.0",
     "vitest": "^1.2.1"
   },
