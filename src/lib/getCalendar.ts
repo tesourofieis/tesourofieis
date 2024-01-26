@@ -1,4 +1,4 @@
-import { Calendar } from "./src/calendar.ts";
+import { Calendar } from "./calendar.ts";
 
 function getCalendar(year: number) {
   const calendar = new Calendar(year);

@@ -1,10 +1,10 @@
 import { addDays, subDays } from "date-fns";
 
-import type { ProperDay } from "../lib/src/utils";
-import { yyyyMMDD } from "../lib/src/utils";
+import type { ProperDay } from "../lib/utils";
+import { yyyyMMDD } from "../lib/utils";
 import { Suspense, useEffect, useState } from "react";
 import LinkCard from "./LinkCard";
-import { Calendar } from "../lib/src/calendar";
+import { Calendar } from "../lib/calendar";
 
 export default function Mass() {
   const [date, setDate] = useState<Date>(new Date());

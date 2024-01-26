@@ -436,9 +436,9 @@ class ProperParser {
   }
 
   _get_full_path(partial_path: string, lang: string = LANGUAGE) {
-    const full_path = `./lib/resources/divinum-officium-custom/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
+    const full_path = `./resources/divinum-officium-custom/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
     if (!fs.existsSync(full_path)) {
-      const fallback_path = `./lib/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
+      const fallback_path = `./resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
       if (!fs.existsSync(fallback_path)) {
         return;
       }
