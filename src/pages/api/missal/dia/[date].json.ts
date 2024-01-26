@@ -1,5 +1,5 @@
-import { getCalendar } from "../../../../../lib/getCalendar";
-import { format_propers } from "../../../../../lib/src/utils";
+import { getCalendar } from "../../../../lib/getCalendar";
+import { format_propers } from "../../../../lib/src/utils";
 
 export const prerender = false;
 
