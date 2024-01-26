@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Calendar as CalendarType } from "../../lib/src/calendar";
-import { yyyyMMDD } from "../../lib/src/utils";
 
 import {
   format,
@@ -11,22 +10,6 @@ import {
   eachDayOfInterval,
   getYear,
 } from "date-fns";
-
-interface Celebration {
-  title: string;
-  // Add other properties as needed
-}
-
-interface Celebrations {
-  celebration: Celebration[];
-  tempora: Celebration[];
-  commemoration: Celebration[];
-  // Add other properties as needed
-}
-
-interface CalendarType {
-  [date: string]: Celebrations;
-}
 
 interface LinkCardProps {
   title: string;
@@ -111,30 +94,36 @@ const Calendar: React.FC = () => {
               borderRadius: "8px",
             }} // Adjust styles as needed
           >
-            {calendar &&
-              calendar[format(day, "yyyy-MM-dd")] &&
+            {calendar?.[format(day, "yyyy-MM-dd")] &&
               (calendar[format(day, "yyyy-MM-dd")].celebration.length > 0 ? (
                 calendar[format(day, "yyyy-MM-dd")].celebration.map(
                   (celebration, index) => (
-                    <LinkCard
-                      key={index}
-                      title={
-                        celebration.title ||
-                        calendar[format(day, "yyyy-MM-dd")].tempora[index]
-                          ?.title ||
-                        calendar[format(day, "yyyy-MM-dd")].commemoration[index]
-                          ?.title ||
-                        "Feria"
-                      }
-                      description={
-                        calendar[format(day, "yyyy-MM-dd")].commemoration[index]
-                          ?.title
-                      }
-                    />
+                    <a href={`/missal/dia/${format(day, "yyyy-MM-dd")}`}>
+                      <LinkCard
+                        key={index}
+                        title={
+                          celebration.title ||
+                          calendar[format(day, "yyyy-MM-dd")].tempora[index]
+                            ?.title ||
+                          calendar[format(day, "yyyy-MM-dd")].commemoration[
+                            index
+                          ]?.title ||
+                          "Feria"
+                        }
+                        description={
+                          calendar[format(day, "yyyy-MM-dd")].commemoration[
+                            index
+                          ]?.title
+                        }
+                      />
+                    </a>
                   ),
                 )
               ) : (
-                <LinkCard key="default" title="Feria" description="" />
+                <>
+                  <LinkCard key="default" title="Feria" description="" />
+                  <a href={`/missal/dia/${format(day, "yyyy-MM-dd")}`} />
+                </>
               ))}
           </div>
         ))}

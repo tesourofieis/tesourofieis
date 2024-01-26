@@ -4,8 +4,7 @@ import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import react from "@astrojs/react";
-
-import netlify from "@astrojs/netlify";
+import vercelServerless from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
@@ -33,13 +32,7 @@ export default defineConfig({
         patreon: "https://www.patreon.com/tesourofieis",
       },
       sidebar: sidebar,
-      customCss: [
-        "./src/tailwind.css",
-        // Fontsource files for to regular and semi-bold font weights.
-        "@fontsource/cardo/400.css",
-        "@fontsource/cardo/700.css",
-        "@fontsource/berkshire-swash",
-      ],
+      customCss: ["./src/tailwind.css"],
     }),
     tailwind({
       applyBaseStyles: false,
@@ -55,13 +48,16 @@ export default defineConfig({
   vite: {
     server: {
       watch: {
-        ignored: ["**/lib/resources**/*"],
+        ignored: [
+          "lib/resources/divinum-officium",
+          "!lib/resources/divinum-officium/web/www/missa/Portugues",
+          "!lib/resources/divinum-officium/web/www/missa/Latin",
+        ],
       },
     },
   },
   image: {
     service: passthroughImageService(),
   },
-  adapter: netlify(),
+  adapter: vercelServerless({}),
 });
-

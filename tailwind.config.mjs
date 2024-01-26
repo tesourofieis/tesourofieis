@@ -12,9 +12,6 @@ export default {
         // Your preferred gray scale. Zinc is closest to Starlight’s defaults.
         gray: colors.zinc,
       },
-      fontFamily: {
-        serif: ['"Cardo"'],
-      },
     },
   },
   plugins: [starlightPlugin()],
