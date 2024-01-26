@@ -95,7 +95,7 @@ export const sidebar = [
     ],
   },
   {
-    label: "Fe",
+    label: "Fé",
     autogenerate: { directory: "fe" },
   },
   {
