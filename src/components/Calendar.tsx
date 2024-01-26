@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Calendar as CalendarType } from "../lib/src/calendar";
+import { Calendar as CalendarType } from "../lib/calendar";
 
 import {
   format,

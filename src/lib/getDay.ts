@@ -1,6 +1,6 @@
 import { getYear } from "date-fns";
-import { Calendar } from "./src/calendar.ts";
-import { format_propers } from "./src/utils.ts";
+import { Calendar } from "./calendar.ts";
+import { format_propers } from "./utils.ts";
 
 function getDay(date: string) {
   const calendar = new Calendar(getYear(date));

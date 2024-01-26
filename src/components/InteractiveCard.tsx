@@ -1,5 +1,5 @@
 import { getCalendarDay } from "../lib/getCalendar.ts";
-import { yyyyMMDD } from "../lib/src/utils.ts";
+import { yyyyMMDD } from "../lib/utils.ts";
 
 import { useState, useEffect } from "react";
 import { getHours } from "date-fns";
