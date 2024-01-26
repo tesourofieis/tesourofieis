@@ -1,5 +1,6 @@
 import colors from "tailwindcss/colors";
 import starlightPlugin from "@astrojs/starlight-tailwind";
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -12,7 +13,11 @@ export default {
         // Your preferred gray scale. Zinc is closest to Starlight’s defaults.
         gray: colors.zinc,
       },
+      fontFamily: {
+        display: ['"Berkshire Swash"', ...defaultTheme.fontFamily.serif],
+        body: ['"Cardo"', ...defaultTheme.fontFamily.serif],
+      },
     },
   },
-  plugins: [starlightPlugin()],
+  plugins: [starlightPlugin(), require("@tailwindcss/typography")],
 };
