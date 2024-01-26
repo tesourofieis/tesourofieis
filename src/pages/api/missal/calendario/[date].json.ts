@@ -1,4 +1,4 @@
-import { getCalendar } from "../../../../../lib/getCalendar.ts";
+import { getCalendar } from "../../../../lib/getCalendar.ts";
 
 export const prerender = false;
 

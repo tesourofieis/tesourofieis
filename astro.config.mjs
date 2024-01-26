@@ -49,9 +49,9 @@ export default defineConfig({
     server: {
       watch: {
         ignored: [
-          "lib/resources/divinum-officium",
-          "!lib/resources/divinum-officium/web/www/missa/Portugues",
-          "!lib/resources/divinum-officium/web/www/missa/Latin",
+          "src/lib/resources/divinum-officium",
+          "!src/lib/resources/divinum-officium/web/www/missa/Portugues",
+          "!src/lib/resources/divinum-officium/web/www/missa/Latin",
         ],
       },
     },
@@ -62,8 +62,8 @@ export default defineConfig({
 
   adapter: vercelServerless({
     includeFiles: [
-      "./lib/resources/divinum-officium/web/www/missa/Portugues",
-      "./lib/resources/divinum-officium/web/www/missa/Latin",
+      "src/lib/resources/divinum-officium/web/www/missa/Portugues",
+      "src/lib/resources/divinum-officium/web/www/missa/Latin",
     ],
   }),
 });
