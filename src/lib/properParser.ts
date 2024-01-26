@@ -126,6 +126,7 @@ class ProperParser {
     let concatLine = false;
     const fullPath = this._get_full_path(partialPath, lang);
 
+    console.error(fullPath);
     const fileContent: string = fs.readFileSync(
       fullPath || partialPath,
       "utf8",
@@ -436,9 +437,9 @@ class ProperParser {
   }
 
   _get_full_path(partial_path: string, lang: string = LANGUAGE) {
-    const full_path = `./resources/divinum-officium-custom/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
+    const full_path = `${process.cwd()}/src/lib/resources/divinum-officium-custom/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
     if (!fs.existsSync(full_path)) {
-      const fallback_path = `./resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
+      const fallback_path = `${process.cwd()}/src/lib/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
       if (!fs.existsSync(fallback_path)) {
         return;
       }
