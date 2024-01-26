@@ -59,5 +59,10 @@ export default defineConfig({
   image: {
     service: passthroughImageService(),
   },
-  adapter: vercelServerless({}),
+  adapter: vercelServerless({
+    includeFiles: [
+      "lib/resources/divinum-officium/web/www/missa/Portugues",
+      "lib/resources/divinum-officium/web/www/missa/Latin",
+    ],
+  }),
 });
