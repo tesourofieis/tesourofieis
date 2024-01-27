@@ -38,7 +38,8 @@ export default function Mass() {
         `[data-date="${date}"]`,
       );
       if (selectedButton) {
-        selectedButton.scrollIntoView({ behavior: "smooth" });
+        selectedButton.scrollIntoView();
+        setIsSidebarCollapsed(true);
       }
     }
   }, [date, calendar]);
@@ -84,7 +85,7 @@ export default function Mass() {
             ))}
             <div
               ref={calendarRef}
-              className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full fixed left-0 top-10 overflow-y-auto transition-all duration-300 not-content`}
+              className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full divide-y fixed left-0 top-10 overflow-y-auto transition-all duration-300 not-content`}
             >
               <button
                 type="button"
@@ -95,7 +96,7 @@ export default function Mass() {
               </button>
               {Object.entries(calendar).map(([calendarDate, celebrations]) => (
                 <button
-                  className={`flex flex-col my-1  w-full cursor-pointer ${calendarDate === date && "bg-zinc-200 dark:bg-zinc-800"}`}
+                  className={`flex flex-col w-full cursor-pointer bg-zinc-100 dark:bg-zinc-900 ${calendarDate === date && "bg-zinc-200 dark:bg-zinc-800"}`}
                   type="button"
                   onClick={() => setDate(calendarDate)}
                   data-date={calendarDate}
@@ -106,10 +107,10 @@ export default function Mass() {
                       celebrations.commemoration[0]?.title ||
                       "Feria"}
                   </p>
-                  <em className="text-xs font-sans text-left">
+                  <em className="text-xs text-left">
                     {celebrations.commemoration[0]?.title}
                   </em>
-                  <caption className="flex items-center gap-2 font-sm font-sans">
+                  <caption className="flex items-center gap-2 font-sm">
                     <div
                       className={`h-2 w-2 rounded-full ${getColor(
                         celebrations.celebration[0]?.colors[0] ||
@@ -119,6 +120,7 @@ export default function Mass() {
                     />
                     {calendarDate}
                   </caption>
+                  <div className="divide-y-2 h-full divide-green-500" />
                 </button>
               ))}
             </div>
