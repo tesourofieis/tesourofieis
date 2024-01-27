@@ -41,7 +41,7 @@ export default function Mass() {
         selectedButton.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [date, calendar);
+  }, [date, calendar]);
 
   function getColor(color: string) {
     switch (color) {
