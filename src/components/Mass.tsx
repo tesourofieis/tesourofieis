@@ -37,11 +37,11 @@ export default function Mass() {
       const selectedButton = calendarRef.current.querySelector(
         `[data-date="${date}"]`,
       );
-      if (selectedButton && !isSidebarCollapsed) {
+      if (selectedButton) {
         selectedButton.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [date, calendar, isSidebarCollapsed]);
+  }, [date, calendar);
 
   function getColor(color: string) {
     switch (color) {
