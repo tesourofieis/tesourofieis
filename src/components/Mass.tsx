@@ -46,17 +46,17 @@ export default function Mass() {
   function getColor(color: string) {
     switch (color) {
       case "w":
-        return "text-gray-500";
+        return "bg-gray-500";
       case "r":
-        return "text-red-500";
+        return "bg-red-500";
       case "g":
-        return "text-green-500";
+        return "bg-green-500";
       case "v":
-        return "text-violet-500";
+        return "bg-violet-500";
       case "b":
-        return "text-black";
+        return "bg-black";
       default:
-        return "text-gray-500";
+        return "bg-gray-500";
     }
   }
 
@@ -84,7 +84,7 @@ export default function Mass() {
             ))}
             <div
               ref={calendarRef}
-              className={`${isSidebarCollapsed ? "w-0" : "w-48"} text-sm h-full fixed left-0 top-10 overflow-y-auto transition-all duration-300 not-content`}
+              className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full fixed left-0 top-10 overflow-y-auto transition-all duration-300 not-content`}
             >
               <button
                 type="button"
@@ -95,11 +95,7 @@ export default function Mass() {
               </button>
               {Object.entries(calendar).map(([calendarDate, celebrations]) => (
                 <button
-                  className={`flex flex-col bg-zinc-100 dark:bg-zinc-900 my-1 ${calendarDate === date && "border-zinc-100 dark:border-zinc-900 border-l-red-500 border-8"} w-full cursor-pointer ${getColor(
-                    celebrations.celebration[0]?.colors[0] ||
-                      celebrations.commemoration[0]?.colors[0] ||
-                      celebrations.tempora[0]?.colors[0],
-                  )}`}
+                  className={`flex flex-col my-1  w-full cursor-pointer ${calendarDate === date && "bg-zinc-200 dark:bg-zinc-800"}`}
                   type="button"
                   onClick={() => setDate(calendarDate)}
                   data-date={calendarDate}
@@ -113,7 +109,14 @@ export default function Mass() {
                   <em className="text-xs font-sans text-left">
                     {celebrations.commemoration[0]?.title}
                   </em>
-                  <caption className="font-sm font-sans">
+                  <caption className="flex items-center gap-2 font-sm font-sans">
+                    <div
+                      className={`h-2 w-2 rounded-full ${getColor(
+                        celebrations.celebration[0]?.colors[0] ||
+                          celebrations.commemoration[0]?.colors[0] ||
+                          celebrations.tempora[0]?.colors[0],
+                      )}`}
+                    />
                     {calendarDate}
                   </caption>
                 </button>
