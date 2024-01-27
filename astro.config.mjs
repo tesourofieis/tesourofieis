@@ -4,7 +4,6 @@ import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import react from "@astrojs/react";
-import vercelServerless from "@astrojs/vercel/serverless";
 import netlifyIntegration from "@astrojs/netlify";
 
 // https://astro.build/config
@@ -63,12 +62,5 @@ export default defineConfig({
   image: {
     service: passthroughImageService(),
   },
-
-  // adapter: netlifyIntegration(),
-  adapter: vercelServerless({
-    includeFiles: [
-      "src/lib/resources/divinum-officium/web/www/missa/Portugues",
-      "src/lib/resources/divinum-officium/web/www/missa/Latin",
-    ],
-  }),
+  adapter: netlifyIntegration(),
 });
