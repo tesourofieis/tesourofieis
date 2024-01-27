@@ -64,11 +64,11 @@ export default defineConfig({
     service: passthroughImageService(),
   },
 
-  adapter: netlifyIntegration(),
-  // adapter: vercelServerless({
-  //   includeFiles: [
-  //     "src/lib/resources/divinum-officium/web/www/missa/Portugues",
-  //     "src/lib/resources/divinum-officium/web/www/missa/Latin",
-  //   ],
-  // }),
+  // adapter: netlifyIntegration(),
+  adapter: vercelServerless({
+    includeFiles: [
+      "src/lib/resources/divinum-officium/web/www/missa/Portugues",
+      "src/lib/resources/divinum-officium/web/www/missa/Latin",
+    ],
+  }),
 });
