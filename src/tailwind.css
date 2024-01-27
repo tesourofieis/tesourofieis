@@ -13,6 +13,7 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 @layer base {
   body {
     @apply font-body;
+    font-size: 18px;
   }
 
   h1,

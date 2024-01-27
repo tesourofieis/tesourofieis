@@ -1,9 +1,6 @@
-import { addDays, format, subDays } from "date-fns";
-
 import type { ProperDay } from "../lib/utils";
 import { yyyyMMDD } from "../lib/utils";
 import { Suspense, useEffect, useRef, useState } from "react";
-import LinkCard from "./LinkCard";
 import { Calendar } from "../lib/calendar";
 
 export default function Mass() {
@@ -12,7 +9,7 @@ export default function Mass() {
 
   const [calendar, setCalendar] = useState<Calendar["serialize"]>();
 
-  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(true);
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarCollapsed(!isSidebarCollapsed);
@@ -40,11 +37,11 @@ export default function Mass() {
       const selectedButton = calendarRef.current.querySelector(
         `[data-date="${date}"]`,
       );
-      if (selectedButton) {
-        selectedButton.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (selectedButton && !isSidebarCollapsed) {
+        selectedButton.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [date, calendar]);
+  }, [date, calendar, isSidebarCollapsed]);
 
   function getColor(color: string) {
     switch (color) {
@@ -74,7 +71,7 @@ export default function Mass() {
                   <div
                     className={`not-content ml-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
                   >
-                    <h1>
+                    <h1 className="text-center">
                       {celebrations.celebration[0]?.title ||
                         celebrations.tempora[0]?.title ||
                         celebrations.commemoration[0]?.title ||
@@ -87,18 +84,18 @@ export default function Mass() {
             ))}
             <div
               ref={calendarRef}
-              className={`${isSidebarCollapsed ? "w-0" : "w-48"} h-full fixed left-0 top-10 overflow-y-auto transition-all duration-300 not-content`}
+              className={`${isSidebarCollapsed ? "w-0" : "w-48"} text-sm h-full fixed left-0 top-10 overflow-y-auto transition-all duration-300 not-content`}
             >
               <button
                 type="button"
-                className={`fixed ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2 transition-all duration-300`}
+                className={`fixed h-11 w-5 ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2 transition-all duration-300`}
                 onClick={toggleSidebar}
               >
                 {isSidebarCollapsed ? "»" : "«"}
               </button>
               {Object.entries(calendar).map(([calendarDate, celebrations]) => (
                 <button
-                  className={`flex flex-col bg-gray-100 my-1 ${calendarDate === date && "border-gray-100 border-l-red-500 border-8"} w-full cursor-pointer ${getColor(
+                  className={`flex flex-col bg-zinc-100 dark:bg-zinc-900 my-1 ${calendarDate === date && "border-zinc-100 dark:border-zinc-900 border-l-red-500 border-8"} w-full cursor-pointer ${getColor(
                     celebrations.celebration[0]?.colors[0] ||
                       celebrations.commemoration[0]?.colors[0] ||
                       celebrations.tempora[0]?.colors[0],
@@ -132,20 +129,28 @@ export default function Mass() {
               .filter((_, idx) => idx > 2)
               .map((section) => (
                 <div key={section.id}>
-                  <h2 id={section.id.toLowerCase()}>{section.id}</h2>
+                  <h2
+                    className="text-center text-red-500"
+                    id={section.id.toLowerCase()}
+                  >
+                    {section.id}
+                  </h2>
                   <div className="grid grid-cols-2 gap-5">
-                    <span className="prose">
+                    <span className="">
                       {section.body.latin.map((text) => (
-                        <p key={`latin-${section.id}`} className="text-justify">
+                        <p
+                          key={`latin-${section.id}`}
+                          className="text-justify my-2"
+                        >
                           {text}
                         </p>
                       ))}
                     </span>
-                    <span className="prose">
+                    <span className="">
                       {section.body.vernacular.map((text) => (
                         <p
                           key={`vernacular-${section.id}`}
-                          className="text-justify"
+                          className="text-justify my-2"
                         >
                           {text}
                         </p>
