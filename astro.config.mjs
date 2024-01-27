@@ -14,6 +14,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
+      components: {
+        Head: "./src/components/Head.astro",
+      },
       editLink: {
         baseUrl: "https://github.com/tesourofieis/tesourofieis/edit/master/",
       },

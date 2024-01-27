@@ -1,0 +1,10 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Head.astro';
+
+---
+
+<Default {...Astro.props} />
+<link rel="manifest" href="manifest.json" />
+<ViewTransitions />
