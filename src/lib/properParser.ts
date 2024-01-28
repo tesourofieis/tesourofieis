@@ -353,7 +353,7 @@ class ProperParser {
       const body = gradual.body;
 
       for (let i = 0; i < body.length; i++) {
-        body[i] = body[i].replace(new RegExp(PATTERN_ALLELUIA, "g"), "");
+        body[i] = body[i]?.replace(new RegExp(PATTERN_ALLELUIA, "g"), "");
       }
     }
 

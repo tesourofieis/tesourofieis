@@ -25,14 +25,12 @@ export class ProperConfig {
     // interReadingsSection == null - show all sections defined in the source
     if (interReadingsSection !== null) {
       const validSections = [null, GRADUALE, TRACTUS, GRADUALE_PASCHAL];
-      console.debug("validSections", validSections);
       if (!validSections.includes(interReadingsSection)) {
         console.error(`Invalid interReadingsSection: ${interReadingsSection}`);
       }
     }
     this.preface = preface;
     this.interReadingsSection = interReadingsSection;
-    console.debug("##########interReadingsSection", interReadingsSection);
     this.stripAlleluia = stripAlleluia;
   }
 }
@@ -62,7 +60,7 @@ export class Section {
   }
 
   toString(): string {
-    const bodyShort = this.body.join(" ").substring(0, 32);
+    const bodyShort = this.body?.join(" ").substring(0, 32);
     return `${this.id} ${bodyShort}`;
   }
 
@@ -208,7 +206,7 @@ export class Proper extends ParsedSource {
           const commemoratedSection =
             commemoration.getSection(sourceSectionName);
 
-          commemoratedSection.body.unshift(
+          commemoratedSection.body?.unshift(
             `* ${this.commemorationsNamesTranslations[COMMEMORATION]} ${commemoration.title} *`,
           );
           commemoratedSection.id = commemoratedSectionName;
