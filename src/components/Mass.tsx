@@ -152,9 +152,9 @@ export default function Mass() {
                 </h2>
                 <div className="grid grid-cols-2 gap-5">
                   <span className="">
-                    {section.body.latin.map((text) => (
+                    {section.body.latin.map((text, i) => (
                       <p
-                        key={`latin-${section.id}`}
+                        key={`latin-${section.id}-${i}`}
                         className="text-justify my-2"
                       >
                         {text}
@@ -162,9 +162,9 @@ export default function Mass() {
                     ))}
                   </span>
                   <span className="">
-                    {section.body.vernacular.map((text) => (
+                    {section.body.vernacular.map((text, i) => (
                       <p
-                        key={`vernacular-${section.id}`}
+                        key={`vernacular-${section.id}-${i}`}
                         className="text-justify my-2"
                       >
                         {text}
