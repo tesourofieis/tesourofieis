@@ -60,7 +60,7 @@ export default function InteractiveCard() {
         a hora
       </em>
       <LinkCard
-        link="/missa"
+        link="/missal/dia"
         title={
           calendar.celebration[0]?.title ||
           calendar.tempora[0]?.title ||

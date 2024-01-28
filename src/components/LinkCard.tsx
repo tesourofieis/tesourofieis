@@ -14,9 +14,11 @@ export default function LinkCard({
       href={link}
       className="block border my-3 border-gray-500 rounded p-3 hover:border-red-500 no-underline"
     >
-      <em className="text-gray-500">{description}</em>
-      <p className="font-bold">{title}</p>
-      <caption className="font-mono">{caption}</caption>
+      <div className="flex flex-col">
+        <em className="text-gray-500">{description}</em>
+        <p className="font-bold">{title}</p>
+        {caption && <caption className="font-sm text-left">{caption}</caption>}
+      </div>
     </a>
   );
 }
