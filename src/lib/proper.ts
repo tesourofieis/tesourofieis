@@ -3,9 +3,12 @@ import {
   COMMEMORATED_POSTCOMMUNIO,
   COMMEMORATED_SECRETA,
   COMMEMORATION,
+  GRADUALE,
+  GRADUALE_PASCHAL,
   ORATIO,
   POSTCOMMUNIO,
   SECRETA,
+  TRACTUS,
   VISIBLE_SECTIONS,
 } from "./constants.ts";
 
@@ -21,13 +24,15 @@ export class ProperConfig {
   ) {
     // interReadingsSection == null - show all sections defined in the source
     if (interReadingsSection !== null) {
-      const validSections = [null, "GRADUALE", "TRACTUS", "GRADUALE_PASCHAL"];
+      const validSections = [null, GRADUALE, TRACTUS, GRADUALE_PASCHAL];
+      console.debug("validSections", validSections);
       if (!validSections.includes(interReadingsSection)) {
         console.error(`Invalid interReadingsSection: ${interReadingsSection}`);
       }
     }
     this.preface = preface;
     this.interReadingsSection = interReadingsSection;
+    console.debug("##########interReadingsSection", interReadingsSection);
     this.stripAlleluia = stripAlleluia;
   }
 }
