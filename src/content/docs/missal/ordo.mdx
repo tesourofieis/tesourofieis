@@ -10,7 +10,9 @@ export const date = yyyyMMDD(new Date());
 export const day = getDay(date);
 
 export const findSectionBody = (day, sectionId) => {
+  console.error(day);
   const section = day.sections.find((sec) => sec.id === sectionId);
+  console.debug(section);
   return section;
 };
 
@@ -325,15 +327,15 @@ import { Card } from "@astrojs/starlight/components";
 
 <Card title="Intróito">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {introitus.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {introitus?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {introitus.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {introitus?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
@@ -451,15 +453,15 @@ export const oratio = findSectionBody(day, "Oratio");
 
 <Card title="Oração">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {oratio.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {oratio?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {oratio.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {oratio?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
@@ -485,15 +487,15 @@ export const lectio = findSectionBody(day, "Lectio");
 
 <Card title="Epístola">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {lectio.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {lectio?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {lectio.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {lectio?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
@@ -517,18 +519,22 @@ A oração curta de acção de graças, consiste geralmente de dois ou três ver
 retirados dos Salmos ou do Antigo Testamento.
 
 export const graduale = findSectionBody(day, "Graduale");
+export const gradualeF = findSectionBody(day, "GradualeF");
+export const gradualeP = findSectionBody(day, "GradualeP");
+
+{graduale && (
 
 <Card title="Gradual">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {graduale.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {graduale?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {graduale.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {graduale?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
@@ -536,6 +542,75 @@ export const graduale = findSectionBody(day, "Graduale");
     </span>
   </div>
 </Card>
+)}
+
+{gradualeF && (
+
+<Card title="Gradual">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose-slate">
+      {gradualeF?.body?.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose-slate">
+      {gradualeF?.body?.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
+)}
+
+{gradualeP && (
+
+<Card title="Gradual">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose-slate">
+      {gradualeP?.body?.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose-slate">
+      {gradualeP?.body?.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
+)}
+
+export const tractus = findSectionBody(day, "Tractus");
+
+{tractus && (
+
+<Card title="Tractus">
+  <div class="grid grid-cols-2 gap-5">
+    <span className="prose-slate">
+      {tractus?.body?.latin.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+    <span className="prose-slate">
+      {tractus?.body?.vernacular.map((text, idx) => (
+        <p key={idx} className="block mt-1 text-justify">
+          {text}
+        </p>
+      ))}
+    </span>
+  </div>
+</Card>
+)}
 
 No Tempo da Septuagésima, o Allelúja é substituído pelo Trato. No Tempo
 Pascal, omite-se o Gradual, e dizem-se dois Allelúja.
@@ -601,15 +676,15 @@ export const evangelium = findSectionBody(day, "Evangelium");
 
 <Card title="Evangelho">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {evangelium.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {evangelium?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {evangelium.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {evangelium?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
@@ -743,15 +818,15 @@ export const offertorium = findSectionBody(day, "Offertorium");
 
 <Card title="Ofertório">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {offertorium.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {offertorium?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {offertorium.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {offertorium?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
@@ -1037,15 +1112,15 @@ export const secreta = findSectionBody(day, "Secreta");
 
 <Card title="Secreta">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {secreta.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {secreta?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {secreta.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {secreta?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
@@ -1105,15 +1180,15 @@ export const prefatio = findSectionBody(day, "Prefatio");
 
 <Card title="Prefácio">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {prefatio.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {prefatio?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {prefatio.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {prefatio?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
@@ -1943,15 +2018,15 @@ export const communio = findSectionBody(day, "Communio");
 
 <Card title="Comúnio">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {communio.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {communio?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {communio.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {communio?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
@@ -1977,15 +2052,15 @@ export const postcommunio = findSectionBody(day, "Postcommunio");
 
 <Card title="Postcomúnio">
   <div class="grid grid-cols-2 gap-5">
-    <span className="prose">
-      {postcommunio.body.latin.map((text, idx) => (
+    <span className="prose-slate">
+      {postcommunio?.body?.latin.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
       ))}
     </span>
-    <span className="prose">
-      {postcommunio.body.vernacular.map((text, idx) => (
+    <span className="prose-slate">
+      {postcommunio?.body?.vernacular.map((text, idx) => (
         <p key={idx} className="block mt-1 text-justify">
           {text}
         </p>
