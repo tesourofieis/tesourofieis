@@ -5,6 +5,7 @@ import { Calendar } from "../lib/calendar";
 
 export default function Mass() {
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
+  const [error, setError] = useState<boolean>(false);
   const calendarRef = useRef(null);
 
   const [calendar, setCalendar] = useState<Calendar["serialize"]>();
@@ -25,7 +26,7 @@ export default function Mass() {
         setCalendar(result.calendar);
         setProper(result.proper);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        setError(true);
       }
     };
     fetchData();
@@ -61,112 +62,120 @@ export default function Mass() {
     }
   }
 
+  if (error)
+    return (
+      <div>
+        <p>Ocorreu um erro ao gerar os próprios, procure no Missal</p>
+        <a href="/missal">Ir para o Missal</a>
+      </div>
+    );
+
+  if (!calendar) return <p>A gerar...</p>;
+
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <div className="">
-        {calendar && (
-          <>
-            {Object.entries(calendar).map(([calendarDate, celebrations]) => (
-              <>
-                {calendarDate === date && (
-                  <div
-                    className={`not-content ml-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
-                  >
-                    <h1 className="text-center">
-                      {celebrations.celebration[0]?.title ||
-                        celebrations.tempora[0]?.title ||
-                        celebrations.commemoration[0]?.title ||
-                        "Feria"}
-                    </h1>
-                    <p>{celebrations.commemoration[0]?.title}</p>
-                  </div>
-                )}
-              </>
-            ))}
-            <div
-              ref={calendarRef}
-              className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full divide-y fixed left-0 top-10 overflow-y-auto transition-all duration-300 not-content`}
-            >
-              <button
-                type="button"
-                className={`fixed h-11 w-5 ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2 transition-all duration-300`}
-                onClick={toggleSidebar}
-              >
-                {isSidebarCollapsed ? "»" : "«"}
-              </button>
-              {Object.entries(calendar).map(([calendarDate, celebrations]) => (
-                <button
-                  className={`flex flex-col w-full cursor-pointer bg-zinc-100 dark:bg-zinc-900 ${calendarDate === date && "bg-zinc-200 dark:bg-zinc-800"}`}
-                  type="button"
-                  onClick={() => setDate(calendarDate)}
-                  data-date={calendarDate}
+    <>
+      {calendar && (
+        <>
+          {Object.entries(calendar).map(([calendarDate, celebrations]) => (
+            <>
+              {calendarDate === date && (
+                <div
+                  className={`not-content ml-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
                 >
-                  <p className="font-display text-left">
+                  <h1 className="text-center">
                     {celebrations.celebration[0]?.title ||
                       celebrations.tempora[0]?.title ||
                       celebrations.commemoration[0]?.title ||
                       "Feria"}
-                  </p>
-                  <em className="text-xs text-left">
-                    {celebrations.commemoration[0]?.title}
-                  </em>
-                  <caption className="flex items-center gap-2 font-sm">
-                    <div
-                      className={`h-2 w-2 rounded-full ${getColor(
-                        celebrations.celebration[0]?.colors[0] ||
-                          celebrations.commemoration[0]?.colors[0] ||
-                          celebrations.tempora[0]?.colors[0],
-                      )}`}
-                    />
-                    {calendarDate}
-                  </caption>
-                  <div className="divide-y-2 h-full divide-green-500" />
-                </button>
-              ))}
-            </div>
-          </>
-        )}
-        {proper && (
-          <div
-            className={`not-content ml-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
-          >
-            {proper.sections
-              .filter((_, idx) => idx > 2)
-              .map((section) => (
-                <div key={section.id}>
-                  <h2
-                    className="text-center text-red-500"
-                    id={section.id.toLowerCase()}
-                  >
-                    {section.id}
-                  </h2>
-                  <div className="grid grid-cols-2 gap-5">
-                    <span className="">
-                      {section.body.latin.map((text) => (
-                        <p
-                          key={`latin-${section.id}`}
-                          className="text-justify my-2"
-                        >
-                          {text}
-                        </p>
-                      ))}
-                    </span>
-                    <span className="">
-                      {section.body.vernacular.map((text) => (
-                        <p
-                          key={`vernacular-${section.id}`}
-                          className="text-justify my-2"
-                        >
-                          {text}
-                        </p>
-                      ))}
-                    </span>
-                  </div>
+                  </h1>
+                  <p>{celebrations.commemoration[0]?.title}</p>
                 </div>
-              ))}
+              )}
+            </>
+          ))}
+          <div
+            ref={calendarRef}
+            className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full divide-y fixed left-0 top-10 overflow-y-auto transition-all duration-300 not-content`}
+          >
+            <button
+              type="button"
+              className={`fixed h-11 w-5 ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2 transition-all duration-300`}
+              onClick={toggleSidebar}
+            >
+              {isSidebarCollapsed ? "»" : "«"}
+            </button>
+            {Object.entries(calendar).map(([calendarDate, celebrations]) => (
+              <button
+                className={`flex flex-col w-full cursor-pointer bg-zinc-100 dark:bg-zinc-900 ${calendarDate === date && "bg-zinc-200 dark:bg-zinc-800"}`}
+                type="button"
+                onClick={() => setDate(calendarDate)}
+                data-date={calendarDate}
+              >
+                <p className="font-display text-left">
+                  {celebrations.celebration[0]?.title ||
+                    celebrations.tempora[0]?.title ||
+                    celebrations.commemoration[0]?.title ||
+                    "Feria"}
+                </p>
+                <em className="text-xs text-left">
+                  {celebrations.commemoration[0]?.title}
+                </em>
+                <caption className="flex items-center gap-2 font-sm">
+                  <div
+                    className={`h-2 w-2 rounded-full ${getColor(
+                      celebrations.celebration[0]?.colors[0] ||
+                        celebrations.commemoration[0]?.colors[0] ||
+                        celebrations.tempora[0]?.colors[0],
+                    )}`}
+                  />
+                  {calendarDate}
+                </caption>
+                <div className="divide-y-2 h-full divide-green-500" />
+              </button>
+            ))}
           </div>
-        )}
-      </div>
-    </Suspense>
+        </>
+      )}
+      {proper && (
+        <div
+          className={`not-content ml-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
+        >
+          {proper.sections
+            .filter((_, idx) => idx > 2)
+            .map((section) => (
+              <div key={section.id}>
+                <h2
+                  className="text-center text-red-500"
+                  id={section.id.toLowerCase()}
+                >
+                  {section.id}
+                </h2>
+                <div className="grid grid-cols-2 gap-5">
+                  <span className="">
+                    {section.body.latin.map((text) => (
+                      <p
+                        key={`latin-${section.id}`}
+                        className="text-justify my-2"
+                      >
+                        {text}
+                      </p>
+                    ))}
+                  </span>
+                  <span className="">
+                    {section.body.vernacular.map((text) => (
+                      <p
+                        key={`vernacular-${section.id}`}
+                        className="text-justify my-2"
+                      >
+                        {text}
+                      </p>
+                    ))}
+                  </span>
+                </div>
+              </div>
+            ))}
+        </div>
+      )}
+    </>
   );
 }
