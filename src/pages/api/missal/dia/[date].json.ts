@@ -21,7 +21,7 @@ export async function GET({ params }) {
         "Cache-Control": "public, max-age=0, must-revalidate", // Tell browsers to always revalidate
         "Netlify-CDN-Cache-Control":
           "public, max-age=31536000, must-revalidate", // Tell Edge to cache asset for up to a year,
-        "Cache-Tag": `${date}`,
+        "Cache-Tag": `app-version-${process.env.npm_package_version}/mass-date-${date}`,
       },
     },
   );

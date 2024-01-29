@@ -43,7 +43,7 @@ export default function Mass() {
         selectedButton.scrollIntoView();
       }
     }
-  }, [date, calendar, isSidebarCollapsed]);
+  }, [date, isSidebarCollapsed]);
 
   function getColor(color: string) {
     switch (color) {
