@@ -9,6 +9,7 @@ import netlifyIntegration from "@astrojs/netlify";
 // https://astro.build/config
 export default defineConfig({
   site: "https://tesourofieis.com",
+  compressHTML: true,
   output: "hybrid",
   integrations: [
     starlight({

@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { getHours } from "date-fns";
 import Office from "./Office";
 import LinkCard from "./LinkCard.tsx";
+import Loading from "./Loading.tsx";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
@@ -42,6 +43,14 @@ export default function InteractiveCard() {
   function getAngelus(date: Date) {
     const hour = getHours(date);
     return hour === 6 || hour === 12 || hour === 18;
+  }
+
+  if (!calendar) {
+    return (
+      <div className="border border-gray-300 rounded p-3 gap-3 grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
+        <Loading />
+      </div>
+    );
   }
 
   return (

@@ -142,7 +142,7 @@ export class Proper extends ParsedSource {
 
   serialize() {
     const list_ = this.values()
-      .map((v) => v.serialize())
+      .map((v) => v?.serialize())
       .sort((a, b) => {
         const indexA = VISIBLE_SECTIONS.indexOf(a.id);
         const indexB = VISIBLE_SECTIONS.indexOf(b.id);

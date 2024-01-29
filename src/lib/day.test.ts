@@ -826,4 +826,27 @@ describe("day", () => {
       ],
     });
   });
+
+  test("2024-11-02", () => {
+    const calendar = new Calendar(2024);
+
+    const day = calendar.get("2024-11-02");
+
+    const proper = day?.getProper(calendar);
+
+    const formated = format_propers(proper);
+
+    console.log(formated);
+
+    expect(formated).toMatchObject({
+      info: {
+        colors: ["w"],
+        date: null,
+        id: "sancti:01-29:3:w",
+        rank: 3,
+        tempora: null,
+        title: "Comemoração dos Fiéis Defuntos, 1ª Missa",
+      },
+    });
+  });
 });
