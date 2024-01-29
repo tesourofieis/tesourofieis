@@ -1,8 +1,8 @@
 import type { ProperDay } from "../lib/utils";
 import { yyyyMMDD } from "../lib/utils";
-import { Suspense, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Calendar } from "../lib/calendar";
-import { VISIBLE_SECTIONS, type SectionIds } from "../lib/constants";
+import { VISIBLE_SECTIONS } from "../lib/constants";
 
 export default function Mass() {
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
@@ -11,7 +11,7 @@ export default function Mass() {
 
   const [calendar, setCalendar] = useState<Calendar["serialize"]>();
 
-  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(true);
 
   const toggleSidebar = () => {
     setIsSidebarCollapsed(!isSidebarCollapsed);
@@ -39,12 +39,11 @@ export default function Mass() {
       const selectedButton = calendarRef.current.querySelector(
         `[data-date="${date}"]`,
       );
-      if (selectedButton) {
+      if (selectedButton && !isSidebarCollapsed) {
         selectedButton.scrollIntoView();
-        setIsSidebarCollapsed(true);
       }
     }
-  }, [date, calendar]);
+  }, [date, calendar, isSidebarCollapsed]);
 
   function getColor(color: string) {
     switch (color) {
@@ -71,7 +70,12 @@ export default function Mass() {
       </div>
     );
 
-  if (!calendar) return <p>A gerar...</p>;
+  if (!calendar)
+    return (
+      <div className="mt-2">
+        <p>A gerar...</p>
+      </div>
+    );
 
   return (
     <>
@@ -81,7 +85,7 @@ export default function Mass() {
             <>
               {calendarDate === date && (
                 <div
-                  className={`not-content ml-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
+                  className={`not-content ml-${isSidebarCollapsed ? "0" : "48"}`}
                 >
                   <h1 className="text-center">
                     {celebrations.celebration[0]?.title ||
@@ -96,11 +100,11 @@ export default function Mass() {
           ))}
           <div
             ref={calendarRef}
-            className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full divide-y fixed left-0 top-10 overflow-y-auto transition-all duration-300 not-content`}
+            className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full divide-y fixed left-0 top-10 overflow-y-auto not-content`}
           >
             <button
               type="button"
-              className={`fixed h-11 w-5 ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2 transition-all duration-300`}
+              className={`fixed h-11 w-5 ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2`}
               onClick={toggleSidebar}
             >
               {isSidebarCollapsed ? "»" : "«"}
