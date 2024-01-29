@@ -7,4 +7,16 @@ import Default from '@astrojs/starlight/components/Head.astro';
 
 <Default {...Astro.props} />
 <link rel="manifest" href="manifest.json" />
+  <!-- Include the script tag for registering the service worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js')
+        .then(function(registration) {
+          console.log('Service Worker registered with scope:', registration.scope);
+        })
+        .catch(function(error) {
+          console.error('Error registering Service Worker:', error);
+        });
+    }
+  </script>
 <ViewTransitions />
