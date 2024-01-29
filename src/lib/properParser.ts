@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import * as path from "path";
 import {
   ASTERISK,
   DIVOFF_LANG_MAP,
@@ -8,7 +9,6 @@ import {
   LANGUAGE_LATIN,
   OBSERVANCES_WITHOUT_OWN_PROPER,
   PATTERN_ALLELUIA,
-  PATTERN_COMMEMORATION,
   PREFATIO_COMMUNIS,
   PREFATIO_OMIT,
   REFERENCE_REGEX,
@@ -99,19 +99,16 @@ class ProperParser {
       proper.merge(this._parseSource(nestedPath, lang));
     }
 
-    // Moving data from "Comment" section up as direct properties of a Proper object
-    const parsedComment = this._parseComment(proper.popSection("Comment"));
     try {
       proper.title = this.translations[lang].TITLES[this.proper_id];
     } catch (error) {
       // Handling very rare case when proper's source exists but rank or color in the ID is invalid
       console.error(`Proper ${this.proper_id} not found`);
     }
-    proper.description = parsedComment.description;
-    proper.additionalInfo = parsedComment.additionalInfo;
     this._addPrefaces(proper, lang);
     this._filterSections(proper);
     this._amendSectionsContents(proper);
+    this.translateSectionTitles(proper, lang);
 
     return proper;
   }
@@ -229,49 +226,6 @@ class ProperParser {
     return parsedSource;
   }
 
-  private _parseComment(comment: Section | null) {
-    const parsedComment: {
-      title: string | null;
-      description: string;
-      rank: number | null;
-      additionalInfo: string[];
-    } = {
-      title: null,
-      description: "",
-      rank: null,
-      additionalInfo: [],
-    };
-
-    if (!comment) {
-      return parsedComment;
-    }
-
-    for (const ln of comment.getBody()) {
-      if (ln.startsWith("#")) {
-        parsedComment.title = ln
-          .trim()
-          .substring(1)
-          .replace(/[–—-]/g, "")
-          .trim();
-      } else if (ln.trim().startsWith("*") && ln.endsWith("*")) {
-        const infoItem = ln.replace(/\*/g, "").trim();
-        try {
-          parsedComment.rank = parseInt(infoItem.split(" ")[0], 10);
-        } catch (error) {
-          if (PATTERN_COMMEMORATION.toLowerCase() === infoItem.toLowerCase()) {
-            parsedComment.rank = 4;
-          } else {
-            parsedComment.additionalInfo.push(infoItem);
-          }
-        }
-      } else {
-        parsedComment.description += `${ln}\n`;
-      }
-    }
-
-    return parsedComment;
-  }
-
   private _normalize(ln: string, lang: string) {
     for (const { pattern, replacement } of this.translations[lang]
       .TRANSFORMATIONS) {
@@ -294,42 +248,39 @@ class ProperParser {
   }
 
   private _filterSections(proper: Proper) {
-    const notVisible = (sectionId: string): boolean =>
-      !(sectionId in VISIBLE_SECTIONS);
+    function notVisible(sectionId: string): boolean {
+      return !VISIBLE_SECTIONS.includes(sectionId);
+    }
 
-    const isExcluded = (properId: string, sectionId: string): boolean => {
-      return new Set([properId, ASTERISK]).has(sectionId);
-    };
-
-    const getExcludedInterReadingsSections = (
+    function getExcludedInterReadingsSections(
       config: ProperConfig,
       proper: ParsedSource,
-    ): string[] => {
+    ): string[] {
       if (
         config.interReadingsSection === GRADUALE &&
-        !proper.getSection(GRADUALE)
+        proper.getSection(GRADUALE)
       ) {
         return [GRADUALE_PASCHAL, TRACTUS];
-      }
-      if (config.interReadingsSection === GRADUALE_PASCHAL) {
-        if (!proper.getSection(GRADUALE_PASCHAL)) {
+      } else if (config.interReadingsSection === GRADUALE_PASCHAL) {
+        if (proper.getSection(GRADUALE_PASCHAL) !== null) {
           return [GRADUALE, TRACTUS];
+        } else {
+          return [TRACTUS];
         }
-        return [TRACTUS];
-      }
-      if (config.interReadingsSection === TRACTUS) {
-        if (!proper.getSection(TRACTUS)) {
+      } else if (config.interReadingsSection === TRACTUS) {
+        if (proper.getSection(TRACTUS) !== null) {
           return [GRADUALE, GRADUALE_PASCHAL];
+        } else {
+          return [GRADUALE_PASCHAL];
         }
-        return [GRADUALE_PASCHAL];
       }
       return [];
-    };
+    }
 
     const sectionsToRemove: Set<string> = new Set();
 
     for (const sectionId of Object.keys(proper)) {
-      if (notVisible(sectionId) || isExcluded(proper.id, sectionId)) {
+      if (notVisible(sectionId)) {
         sectionsToRemove.add(sectionId);
       }
     }
@@ -346,7 +297,7 @@ class ProperParser {
     return proper;
   }
 
-  private _amendSectionsContents(proper: ParsedSource) {
+  private _amendSectionsContents(proper: Proper) {
     const gradual = proper.getSection(GRADUALE);
 
     if (this.config.stripAlleluia && !gradual) {
@@ -356,6 +307,14 @@ class ProperParser {
         body[i] = body[i]?.replace(new RegExp(PATTERN_ALLELUIA, "g"), "");
       }
     }
+
+    return proper;
+  }
+
+  private translateSectionTitles(proper: Proper, lang: string) {
+    proper.commemorationsNamesTranslations =
+      this.translations[lang].COMMEMORATIONS;
+    const sectionIds = Array.from(proper.keys());
 
     return proper;
   }
@@ -437,9 +396,17 @@ class ProperParser {
   }
 
   _get_full_path(partial_path: string, lang: string = LANGUAGE) {
-    const full_path = `${process.cwd()}/src/lib/resources/divinum-officium-custom/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
+    const full_path = path.join(
+      process.cwd(),
+      "src/lib",
+      `/resources/divinum-officium-custom/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`,
+    );
     if (!fs.existsSync(full_path)) {
-      const fallback_path = `${process.cwd()}/src/lib/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`;
+      const fallback_path = path.join(
+        process.cwd(),
+        "src/lib",
+        `/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`,
+      );
       if (!fs.existsSync(fallback_path)) {
         return;
       }

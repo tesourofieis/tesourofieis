@@ -2,6 +2,7 @@ import type { ProperDay } from "../lib/utils";
 import { yyyyMMDD } from "../lib/utils";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { Calendar } from "../lib/calendar";
+import { VISIBLE_SECTIONS, type SectionIds } from "../lib/constants";
 
 export default function Mass() {
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
@@ -141,18 +142,18 @@ export default function Mass() {
           className={`not-content ml-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
         >
           {proper.sections
-            .filter((_, idx) => idx > 2)
+            .filter(({ id }) => VISIBLE_SECTIONS.includes(id))
             .map((section) => (
-              <div key={section.id}>
+              <div key={section?.id}>
                 <h2
                   className="text-center text-red-500"
-                  id={section.id.toLowerCase()}
+                  id={section?.id.toLowerCase()}
                 >
-                  {section.id}
+                  {section?.id}
                 </h2>
                 <div className="grid grid-cols-2 gap-5">
                   <span className="">
-                    {section.body?.latin.map((text, i) => (
+                    {section?.body?.latin?.map((text, i) => (
                       <p
                         key={`latin-${section.id}-${i}`}
                         className="text-justify my-2"
@@ -162,7 +163,7 @@ export default function Mass() {
                     ))}
                   </span>
                   <span className="">
-                    {section.body?.vernacular.map((text, i) => (
+                    {section?.body?.vernacular?.map((text, i) => (
                       <p
                         key={`vernacular-${section.id}-${i}`}
                         className="text-justify my-2"

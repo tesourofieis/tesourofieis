@@ -139,7 +139,7 @@ export const TEMPORA_RANK_MAP: {
 ];
 
 export const VISIBLE_SECTIONS = [
-  "Comment",
+  // "Comment",
   // Atypical sections
   // 02-02, feast of the Purification of the B.V.M.
   "De Benedictione Candelarum",

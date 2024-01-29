@@ -22,7 +22,7 @@ import {
   TRACTUS,
 } from "./constants.ts";
 import { Observance } from "./observance.ts";
-import { ProperConfig } from "./proper.ts";
+import { Proper, ProperConfig } from "./proper.ts";
 import { getCustomPreface, match, yyyyMMDD } from "./utils.ts";
 import { Calendar } from "./calendar.ts";
 import { UTCDate } from "@date-fns/utc";
@@ -73,24 +73,23 @@ class Day {
   }
 
   getProper(calendar: Calendar) {
+    /**
+     * Get proper that is used in today Mass. If given day does not have a dedicated proper,
+     * use the one from the latest Sunday.
+     */
+
     const celebrationPropers = this.calculateProper(calendar, this.celebration);
 
     if (this.commemoration.length) {
       const commemorationPropers = this.calculateProper(
         calendar,
         this.commemoration,
+        true,
       );
-      if (celebrationPropers) {
-        for (const celebrationProper of celebrationPropers) {
-          for (let i = 0; i < 2; i++) {
-            if (celebrationProper?.length) {
-              celebrationProper[i].addCommemorations(
-                commemorationPropers.map((j) => j[i]),
-              );
-            }
-          }
-        }
-      }
+
+      celebrationPropers.map((celebrationProper, i) => {
+        celebrationProper.addCommemorations(commemorationPropers[i]);
+      });
     }
 
     return celebrationPropers;
@@ -98,7 +97,7 @@ class Day {
 
   private calculateProper(calendar: Calendar, observances: Observance[]) {
     if (observances.length && observances.every((i) => i.hasProper())) {
-      const result = [];
+      const result: Proper[][] = [];
       for (const observance of observances) {
         const interReadingsSection = this.inferInterReadingSection(observance);
         const preface = getCustomPreface(observance, this.tempora[0]);
