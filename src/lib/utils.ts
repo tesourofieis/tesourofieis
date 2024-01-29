@@ -74,7 +74,6 @@ export interface ProperDay {
   info: {
     id: string;
     title: string;
-    description: string;
     tempora: string;
     rank: number;
     colors: string[];
@@ -99,7 +98,6 @@ function format_propers(propers: Proper[], day?: Day): ProperDay {
   const info = {
     id: propers_vernacular.id,
     title: title,
-    description: propers_vernacular.description,
     tempora: tempora_name !== title ? tempora_name : null,
     rank: propers_vernacular.rank,
     colors: propers_vernacular.colors,
