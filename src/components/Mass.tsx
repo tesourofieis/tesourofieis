@@ -3,6 +3,7 @@ import { yyyyMMDD } from "../lib/utils";
 import { useEffect, useRef, useState } from "react";
 import { Calendar } from "../lib/calendar";
 import { VISIBLE_SECTIONS } from "../lib/constants";
+import Loading from "./Loading";
 
 export default function Mass() {
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
@@ -72,8 +73,9 @@ export default function Mass() {
 
   if (!calendar)
     return (
-      <div className="mt-2">
-        <p>A gerar...</p>
+      <div className="mt-2 flex flex-col justify-center items-center">
+        <p> A gerar...</p>
+        <Loading />
       </div>
     );
 

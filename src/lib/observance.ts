@@ -119,7 +119,7 @@ export class Observance {
       ]) {
         proper.setSection(
           section,
-          properSunday23PostPentecost[i][0].getSection(section),
+          properSunday23PostPentecost[i][0]?.getSection(section),
         );
       }
     }

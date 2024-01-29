@@ -26,7 +26,11 @@ import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
 
 import InteractiveCard from "../../components/InteractiveCard";
 
-<InteractiveCard client:load />
+import Notifications from "../../components/Notifications.tsx";
+
+<Notifications client:only />
+
+<InteractiveCard client:idle />
 
 <img className="rounded" src="/1.gif" alt="bernardo" />
 

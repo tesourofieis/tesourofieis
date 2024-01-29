@@ -120,10 +120,10 @@ function format_proper_section(
 
   for (const vernacular of propers_vernacular.serialize()) {
     pl.push({
-      id: vernacular.id,
+      id: vernacular?.id,
       body: {
-        latin: latin.find((i) => i.id === vernacular.id)?.body,
-        vernacular: vernacular.body,
+        latin: latin.find((i) => i?.id === vernacular?.id)?.body,
+        vernacular: vernacular?.body,
       },
     });
   }
