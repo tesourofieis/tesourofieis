@@ -16,6 +16,10 @@ export async function GET({ params }) {
     }),
     {
       status: 200,
+      headers: {
+        "Cache-Control": "public, max-age=31536000, must-revalidate", // Tell browsers to always revalidate
+        "Cache-Tag": `app-version-v.0.0.2/mass-date-${date}`,
+      },
     },
   );
 }
