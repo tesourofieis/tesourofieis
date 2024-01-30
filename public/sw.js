@@ -6,7 +6,7 @@ async function generateMonthlyApiUrls() {
   const apiUrls = [];
   const currentDate = new Date();
   const endDate = new Date(currentDate);
-  endDate.setDate(endDate.getDate() + 30);
+  endDate.setDate(endDate.getDate() + 1);
 
   while (currentDate <= endDate) {
     const apiUrl = `https://tesourofieis.com/${API_BASE_URL}/${
