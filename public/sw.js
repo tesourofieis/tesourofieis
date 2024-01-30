@@ -1,4 +1,4 @@
-const CACHE_NAME = "precache-v0.4.9";
+const CACHE_NAME = "precache-v0.5.0";
 
 const API_BASE_URL = "api/missal/dia";
 
@@ -9,7 +9,9 @@ async function generateMonthlyApiUrls() {
   endDate.setDate(endDate.getDate() + 30);
 
   while (currentDate <= endDate) {
-    const apiUrl = `https://tesourofieis.com/${API_BASE_URL}/${currentDate.toISOString().split("T")[0]}.json`;
+    const apiUrl = `https://tesourofieis.com/${API_BASE_URL}/${
+      currentDate.toISOString().split("T")[0]
+    }.json`;
     apiUrls.push(apiUrl);
     currentDate.setDate(currentDate.getDate() + 1);
   }
