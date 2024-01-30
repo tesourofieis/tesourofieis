@@ -7,6 +7,16 @@ export const prerender = false;
 
 import Mass from "../../../components/Mass.tsx";
 
-Textos gerados, pode também aceder ao [Missal](/missal) onde encontrará os textos tal e qual se encontram num Missal normal e pode também pesquisar o próprio pretendido.
-
 <Mass client:idle />
+
+import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
+
+<Card title="Informção" icon="information">
+
+Calendário calculado e textos gerados a partir do project [Divinum Officium](https://www.divinumofficium.com/).
+
+Pode aceder ao [Missal](/missal) onde encontrará os próprios tal e qual num missal normal.
+
+Pode também pesquisar o próprio pretendido.
+
+</Card>

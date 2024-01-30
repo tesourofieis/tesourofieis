@@ -6,7 +6,10 @@ import Default from '@astrojs/starlight/components/Head.astro';
 ---
 
 <Default {...Astro.props} />
+
 <link rel="manifest" href="/manifest.json" />
+
+<meta name="theme-color" content="rgb(17 24 39)"/>
 
 <script type="text/javascript">
   window.onload = () => 'serviceWorker' in navigator && navigator.serviceWorker.register('/sw.js').then((registration) => registration.update()).catch((err) => {});
