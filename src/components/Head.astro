@@ -13,6 +13,11 @@ import Default from '@astrojs/starlight/components/Head.astro';
 
 <script type="text/javascript">
   window.onload = () => 'serviceWorker' in navigator && navigator.serviceWorker.register('/sw.js').then((registration) => registration.update()).catch((err) => {});
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then((registration) => {
+      registration.active.postMessage({ action: 'skipWaiting' });
+    });
+  }
 </script>
 
 <!-- Google tag (gtag.js) -->
