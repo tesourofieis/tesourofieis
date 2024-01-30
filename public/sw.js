@@ -63,13 +63,6 @@ function scheduleDailyNotifications(title, options, hours) {
       self.registration.showNotification(title, options);
     }
   }, 3600000);
-
-  if (hours === 18) {
-    setTimeout(
-      () => clearInterval(intervalId),
-      3600000 * (18 - now.getHours()),
-    );
-  }
 }
 
 self.addEventListener("notificationclick", (event) => {
@@ -83,7 +76,7 @@ self.addEventListener("notificationclick", (event) => {
   switch (notificationId) {
     case 6:
     case 12:
-    case 17:
+    case 18:
       event.waitUntil(
         clients
           .matchAll({
@@ -115,5 +108,5 @@ scheduleDailyNotifications(
 scheduleDailyNotifications(
   "Hora do Angelus",
   { body: "Toque das Ave Marias" },
-  17,
+  18,
 );
