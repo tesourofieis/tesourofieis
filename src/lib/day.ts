@@ -40,7 +40,7 @@ class Day {
   celebration: Observance[] = [];
   commemoration: Observance[] = [];
 
-  constructor(date: string, calendar: Calendar) {
+  constructor(date: string) {
     this.date = date;
   }
 
@@ -84,7 +84,6 @@ class Day {
       const commemorationPropers = this.calculateProper(
         calendar,
         this.commemoration,
-        true,
       );
 
       celebrationPropers.map((celebrationProper, i) => {

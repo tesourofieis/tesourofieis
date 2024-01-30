@@ -1,7 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
 import {
-  ASTERISK,
   DIVOFF_LANG_MAP,
   GRADUALE,
   GRADUALE_PASCHAL,
@@ -314,7 +313,6 @@ class ProperParser {
   private translateSectionTitles(proper: Proper, lang: string) {
     proper.commemorationsNamesTranslations =
       this.translations[lang].COMMEMORATIONS;
-    const sectionIds = Array.from(proper.keys());
 
     return proper;
   }

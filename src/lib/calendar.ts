@@ -48,7 +48,7 @@ class Calendar {
     let date_ = new UTCDate(year, 0, 1);
 
     while (date_.getFullYear() === year) {
-      this._container.set(yyyyMMDD(date_), new Day(yyyyMMDD(date_), this));
+      this._container.set(yyyyMMDD(date_), new Day(yyyyMMDD(date_)));
       date_ = addDays(date_, 1);
     }
   }
@@ -188,7 +188,7 @@ class Calendar {
   private resolveConcurrency() {
     const shiftedAll: { [date: string]: Observance[] } = {};
 
-    for (const [date_, day] of this._container.entries()) {
+    for (const [date_] of this._container.entries()) {
       const [celebration, commemoration, shifted] = this.applyRules(
         date_,
         shiftedAll[date_] || [],

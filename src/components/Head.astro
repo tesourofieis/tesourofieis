@@ -12,13 +12,13 @@ import Default from '@astrojs/starlight/components/Head.astro';
 <meta name="theme-color" content="rgb(17 24 39)"/>
 
 <script type="text/javascript">
-  window.onload = () => 'serviceWorker' in navigator && navigator.serviceWorker.register('/sw.js').then((registration) => registration.update()).catch((err) => {});
+  window.onload = () => 'serviceWorker' in navigator && navigator.serviceWorker.register('/sw.js').then((registration) => registration.update()).catch((err) => console.error(err));
 </script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146185260-1"></script>
 
-<script>
+<script type="text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
