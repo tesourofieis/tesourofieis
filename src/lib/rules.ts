@@ -452,7 +452,7 @@ function rule_4th_class_feria_are_removed_from_celebration(
 function rule_general(
   _calendar: Calendar,
   _date_: string,
-  tempora: Observance[],
+  _tempora: Observance[],
   observances: Observance[],
 ) {
   // Default rule for situations not handled by any of the above

@@ -2,7 +2,8 @@ import {
   COMMEMORATED_ORATIO,
   COMMEMORATED_POSTCOMMUNIO,
   COMMEMORATED_SECRETA,
-  COMMEMORATION,
+  COMMEMORATIONS,
+  COMMEMORATIONS_PT,
   GRADUALE,
   GRADUALE_PASCHAL,
   ORATIO,
@@ -118,12 +119,9 @@ export class Proper extends ParsedSource {
   id: string;
   colors: string[];
   rank: number | null = null;
-  commemorationsNamesTranslations = {
-    COMMEMORATION: null,
-    COMMEMORATED_ORATIO: null,
-    COMMEMORATED_SECRETA: null,
-    COMMEMORATED_POSTCOMMUNIO: null,
-  };
+  commemorationsNamesTranslations:
+    | typeof COMMEMORATIONS_PT
+    | typeof COMMEMORATIONS;
 
   constructor(id: string, parsedSource: ParsedSource | null = null) {
     super();
