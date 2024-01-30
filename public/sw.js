@@ -9,7 +9,7 @@ async function generateMonthlyApiUrls() {
   endDate.setDate(endDate.getDate() + 30);
 
   while (currentDate <= endDate) {
-    const apiUrl = `http://localhost:4321//${API_BASE_URL}/${currentDate.toISOString().split("T")[0]}.json`;
+    const apiUrl = `https://tesourofieis.com/${API_BASE_URL}/${currentDate.toISOString().split("T")[0]}.json`;
     apiUrls.push(apiUrl);
     currentDate.setDate(currentDate.getDate() + 1);
   }
@@ -59,6 +59,7 @@ function scheduleDailyNotifications(title, options, hours, redirectUrl) {
 
       // Add the notificationId to the options
       options.data = { notificationId };
+      options.icon = "./favicon72.png";
 
       // Show the notification
       self.registration.showNotification(title, options);

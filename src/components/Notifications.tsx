@@ -1,19 +1,29 @@
-import React, { useEffect } from "react";
+import { BellIcon } from "@heroicons/react/16/solid";
 
 export default function Notifications() {
-  const requestPermission = () => {
+  const requestPermission = async () => {
     if (!("Notification" in window)) {
       throw new Error("Notification not supported");
     }
-    const permission = window.Notification.requestPermission();
+    const permission = await window.Notification.requestPermission();
     if (permission !== "granted") {
       throw new Error("Permission not granted for Notification");
     }
   };
 
-  return (
-    <div>
-      <button onClick={() => requestPermission()}>Receber notificações</button>
-    </div>
-  );
+  if (window && "Notification" in window) {
+    const permissionStatus = Notification.permission;
+
+    if (permissionStatus !== "granted") {
+      return (
+        <button
+          type="button"
+          className="flex cursor-pointer items-center bg-transparent gap-2"
+          onClick={() => requestPermission()}
+        >
+          <BellIcon className="w-5 h-5" /> Receber notificações
+        </button>
+      );
+    }
+  }
 }

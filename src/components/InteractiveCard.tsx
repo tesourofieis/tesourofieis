@@ -6,6 +6,7 @@ import { getHours } from "date-fns";
 import Office from "./Office";
 import LinkCard from "./LinkCard.tsx";
 import Loading from "./Loading.tsx";
+import Notifications from "./Notifications";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
@@ -47,7 +48,7 @@ export default function InteractiveCard() {
 
   if (!calendar) {
     return (
-      <div className="border border-gray-300 rounded p-3 gap-3 grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
+      <div className="border border-gray-300 gap-3 grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
         <Loading />
       </div>
     );
@@ -55,7 +56,10 @@ export default function InteractiveCard() {
 
   return (
     <div className="border border-gray-300 rounded p-3 gap-3">
-      <h3>Dia e Hora</h3>
+      <div className="flex justify-between not-content">
+        <h2>Dia e Hora</h2>
+        {window && <Notifications />}
+      </div>
       <h6>
         {new Date().toLocaleTimeString("pt", {
           month: "long",
