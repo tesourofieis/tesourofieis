@@ -20,9 +20,18 @@
     },
     {
       "src": "favicon180.png",
-      "sizes": "180",
+      "sizes": "180x180",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "1.gif",
+      "sizes": "900x450",
+      "type": "image/gif",
+      "form_factor": "wide",
+      "label": "Missa de São Bernardo"
     }
   ]
 }

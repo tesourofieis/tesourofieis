@@ -9,7 +9,7 @@ async function generateMonthlyApiUrls() {
   endDate.setDate(endDate.getDate() + 30);
 
   while (currentDate <= endDate) {
-    const apiUrl = `https://tesourofieis.com/${API_BASE_URL}/${currentDate.toISOString().split("T")[0]}.json`;
+    const apiUrl = `http://localhost:4321/${API_BASE_URL}/${currentDate.toISOString().split("T")[0]}.json`;
     apiUrls.push(apiUrl);
     currentDate.setDate(currentDate.getDate() + 1);
   }
@@ -48,74 +48,72 @@ self.addEventListener("fetch", (event) => {
   );
 });
 
-function scheduleDailyNotifications(title, options, hours, redirectUrl) {
+function scheduleDailyNotifications(title, options, hours) {
   setInterval(() => {
     const now = new Date();
     const currentHour = now.getHours();
 
     if (currentHour === hours) {
-      // Add a unique identifier for each notification
-      const notificationId = `notification-${hours}`;
+      const notificationId = hours;
 
-      // Add the notificationId to the options
       options.data = { notificationId };
-      options.icon = "./favicon72.png";
+      options.icon = "/favicon72.png";
 
       // Show the notification
       self.registration.showNotification(title, options);
     }
-  }, 3600000); // Check every hour
+  }, 3600000);
+
+  if (hours === 18) {
+    setTimeout(
+      () => clearInterval(intervalId),
+      3600000 * (18 - now.getHours()),
+    );
+  }
 }
 
 self.addEventListener("notificationclick", (event) => {
   const clickedNotification = event.notification;
   clickedNotification.close();
 
-  // Extract the notificationId from the data
   const { notificationId } = event.notification.data;
 
-  // Define the redirect URL based on the notificationId
-  let redirectUrl;
-  switch (notificationId) {
-    case "notification-6":
-    case "notification-12":
-    case "notification-18":
-      redirectUrl = "/devocionario/angelus";
-      break;
-    case "notification-8":
-      redirectUrl = "/missal/dia";
-      break;
-    // Add more cases as needed
-  }
+  console.log("notificationId", event.notification.data);
 
-  // Open the specified URL
-  if (redirectUrl) {
-    clients.openWindow(redirectUrl);
+  switch (notificationId) {
+    case 6:
+    case 12:
+    case 17:
+      event.waitUntil(
+        clients
+          .matchAll({
+            type: "window",
+          })
+          .then((clientList) => {
+            for (const client of clientList) {
+              if (client.url === "/" && "focus" in client)
+                return client.focus();
+            }
+            if (clients.openWindow)
+              return clients.openWindow("devocionario/dia/angelus");
+          }),
+      );
+      break;
   }
 });
 
-// Schedule notifications for 6 AM, 12 PM, 6 PM, and 8 AM
 scheduleDailyNotifications(
-  "Angelus Notification",
+  "Hora do Angelus",
   { body: "Toque das Ave Marias" },
   6,
-  "/devocionario/dia/angelus",
 );
 scheduleDailyNotifications(
-  "Angelus Notification",
+  "Hora do Angelus",
   { body: "Toque das Ave Marias" },
   12,
-  "/devocionario/dia/angelus",
 );
 scheduleDailyNotifications(
-  "Angelus Notification",
+  "Hora do Angelus",
   { body: "Toque das Ave Marias" },
-  18,
-  "/devocionario/dia/angelus",
-);
-scheduleDailyNotifications(
-  "Mass Notification",
-  { body: "Missa do dia" },
-  8,
-  "/missal/dia",
+  17,
 );
