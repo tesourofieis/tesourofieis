@@ -1,4 +1,4 @@
-const CACHE_NAME = "precache-v0.5.1";
+const CACHE_NAME = "precache-v0.5.2";
 
 const API_BASE_URL = "api/missal/dia";
 
@@ -30,53 +30,29 @@ self.addEventListener("install", (event) => {
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches
-      .keys()
-      .then((cacheNames) => {
-        return Promise.all(
-          cacheNames.map((cacheName) => {
-            if (cacheName !== CACHE_NAME) {
-              return caches.delete(cacheName);
-            }
-          }),
-        );
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName !== currentCacheName) {
+            return caches.delete(cacheName);
+          }
+        }),
+      );
+    }),
+    generateMonthlyApiUrls()
+      .then(() => {
+        return self.clients.claim();
       })
       .then(() => {
+        // Reload all open pages
         return self.clients.matchAll({ type: "window" });
       })
       .then((clients) => {
-        return Promise.all(
-          clients.map((client) => {
-            if ("navigate" in client) {
-              return client.navigate(client.url);
-            }
-          }),
-        );
-      })
-      .then(() => {
-        return generateMonthlyApiUrls();
-      })
-      .then(() => {
-        return self.clients.claim();
+        clients.forEach((client) => {
+          client.navigate(client.url);
+        });
       }),
   );
-});
-
-self.addEventListener("message", (event) => {
-  if (event.data && event.data.action === "skipWaiting") {
-    self.skipWaiting();
-    self.clients.matchAll().then((clients) => {
-      clients.forEach((client) => {
-        client.postMessage({ action: "reloadPage" });
-      });
-    });
-  } else if (event.data && event.data.action === "reloadPage") {
-    self.clients.matchAll().then((clients) => {
-      clients.forEach((client) => {
-        client.postMessage({ action: "reloadPage" });
-      });
-    });
-  }
 });
 
 self.addEventListener("fetch", (event) => {
