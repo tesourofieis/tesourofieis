@@ -1,31 +1,9 @@
-const CACHE_NAME = "precache-v0.5.3";
+const CACHE_NAME = "precache-v0.5.4";
 
 const API_BASE_URL = "api/missal/dia";
 
-async function generateMonthlyApiUrls() {
-  const apiUrls = [];
-  const currentDate = new Date();
-  const endDate = new Date(currentDate);
-  endDate.setDate(endDate.getDate() + 1);
-
-  while (currentDate <= endDate) {
-    const apiUrl = `https://tesourofieis.com/${API_BASE_URL}/${
-      currentDate.toISOString().split("T")[0]
-    }.json`;
-    apiUrls.push(apiUrl);
-    currentDate.setDate(currentDate.getDate() + 1);
-  }
-
-  const cache = await caches.open(CACHE_NAME);
-  return await cache.addAll(apiUrls);
-}
-
-self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(["./"]);
-    }),
-  );
+self.addEventListener("install", () => {
+  self.skipWaiting();
 });
 
 self.addEventListener("activate", (event) => {
@@ -33,38 +11,11 @@ self.addEventListener("activate", (event) => {
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
-          if (cacheName !== currentCacheName) {
+          if (cacheName !== CACHE_NAME) {
             return caches.delete(cacheName);
           }
         }),
       );
-    }),
-    generateMonthlyApiUrls()
-      .then(() => {
-        return self.clients.claim();
-      })
-      .then(() => {
-        // Reload all open pages
-        return self.clients.matchAll({ type: "window" });
-      })
-      .then((clients) => {
-        clients.forEach((client) => {
-          client.navigate(client.url);
-        });
-      }),
-  );
-});
-
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches.match(event.request).then((response) => {
-      if (response) {
-        console.log("Serving from cache:", event.request.url);
-        return response;
-      }
-
-      console.log("Fetching from network:", event.request.url);
-      return fetch(event.request);
     }),
   );
 });
