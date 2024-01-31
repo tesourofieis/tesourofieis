@@ -2,7 +2,6 @@ import { getCalendar } from "../../../../lib/getCalendar";
 import { format_propers } from "../../../../lib/utils";
 
 export const GET = ({ params }) => {
-  console.log("params", params);
   const { date } = params;
   const calendar = getCalendar(new Date(date).getFullYear());
   const day = calendar.get(date);
