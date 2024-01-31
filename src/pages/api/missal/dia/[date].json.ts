@@ -17,7 +17,9 @@ export async function GET({ params }) {
     {
       status: 200,
       headers: {
-        "Cache-Control": "public, max-age=31536000", // Tell browsers to always revalidate
+        "Cache-Control": "public, max-age=31536000",
+        "CDN-Cache-Control": "public, max-age=31536000",
+        // change version only when api code changes
         "Cache-Tag": `app-version-v.0.0.2/mass-date-${date}`,
       },
     },
