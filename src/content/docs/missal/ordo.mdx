@@ -10,15 +10,13 @@ export const date = yyyyMMDD(new Date());
 export const day = getDay(date);
 
 export const findSectionBody = (day, sectionId) => {
-  console.error(day);
   const section = day.sections.find((sec) => sec.id === sectionId);
-  console.debug(section);
   return section;
 };
 
 Missa do dia: **{day.info.title}**
 
-<LinkCard title={day.info.title} href={`/missal/dia#${date}`} />
+<LinkCard title={day.info.title} href="/missal/dia" />
 
 ## Missa dos Catecúmenos
 

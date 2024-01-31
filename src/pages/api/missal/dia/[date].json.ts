@@ -1,15 +1,9 @@
 import { getCalendar } from "../../../../lib/getCalendar";
 import { format_propers } from "../../../../lib/utils";
 
-export async function getStaticPaths() {
-  const calendar = getCalendar(new Date().getFullYear());
-  return Object.entries(calendar).map(([calendarDate]) => ({
-    params: { date: calendarDate },
-  }));
-}
-
-export async function GET({ params }) {
-  const date = params.date;
+export const GET = ({ params }) => {
+  console.log("params", params);
+  const { date } = params;
   const calendar = getCalendar(new Date(date).getFullYear());
   const day = calendar.get(date);
   const proper = day?.getProper(calendar);
@@ -29,4 +23,13 @@ export async function GET({ params }) {
       },
     },
   );
+};
+
+export function getStaticPaths() {
+  const calendar = getCalendar(new Date().getFullYear()).serialize();
+  return Object.entries(calendar).map(([calendarDate]) => {
+    return {
+      params: { date: calendarDate },
+    };
+  });
 }
