@@ -1,7 +1,12 @@
 import { getCalendar } from "../../../../lib/getCalendar";
 import { format_propers } from "../../../../lib/utils";
 
-export const prerender = false;
+export async function getStaticPaths() {
+  const calendar = getCalendar(new Date().getFullYear());
+  return Object.entries(calendar).map(([calendarDate]) => ({
+    params: { date: calendarDate },
+  }));
+}
 
 export async function GET({ params }) {
   const date = params.date;
