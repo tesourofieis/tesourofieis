@@ -102,29 +102,29 @@ export default function Mass() {
           ))}
           <div
             ref={calendarRef}
-            className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full divide-y fixed left-0 top-10 overflow-y-auto not-content`}
+            className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full divide-y fixed right-0 top-10 overflow-y-auto not-content`}
           >
             <button
               type="button"
-              className={`fixed h-11 w-5 ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2`}
+              className={`fixed h-11 w-5 ${isSidebarCollapsed ? "right-0" : "right-48"} top-1/2`}
               onClick={toggleSidebar}
             >
-              {isSidebarCollapsed ? "»" : "«"}
+              {isSidebarCollapsed ? "«" : "»"}
             </button>
             {Object.entries(calendar).map(([calendarDate, celebrations]) => (
               <button
-                className={`flex flex-col w-full cursor-pointer bg-zinc-100 dark:bg-zinc-900 ${calendarDate === date && "bg-zinc-200 dark:bg-zinc-800"}`}
+                className={`flex flex-col w-full cursor-pointer bg-zinc-100 dark:bg-zinc-900 ${calendarDate === date && "bg-zinc-300 dark:bg-zinc-700"}`}
                 type="button"
                 onClick={() => setDate(calendarDate)}
                 data-date={calendarDate}
               >
-                <p className="font-display text-left">
+                <p className="font-display text-right">
                   {celebrations.celebration[0]?.title ||
                     celebrations.tempora[0]?.title ||
                     celebrations.commemoration[0]?.title ||
                     "Feria"}
                 </p>
-                <em className="text-xs text-left">
+                <em className="text-xs text-right">
                   {celebrations.commemoration[0]?.title}
                 </em>
                 <caption className="flex items-center gap-2 font-sm">
@@ -145,7 +145,7 @@ export default function Mass() {
       )}
       {proper && (
         <div
-          className={`not-content ml-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
+          className={`not-content mr-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
         >
           {proper.sections
             .filter(({ id }) => VISIBLE_SECTIONS.includes(id))
