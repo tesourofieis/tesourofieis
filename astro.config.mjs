@@ -63,5 +63,8 @@ export default defineConfig({
   image: {
     service: passthroughImageService(),
   },
-  adapter: netlifyIntegration(),
+  adapter: netlifyIntegration({
+    cacheOnDemandPages: true,
+    edgeMiddleware: false,
+  }),
 });
