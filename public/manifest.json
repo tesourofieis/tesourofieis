@@ -1,5 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "id": "tesourofieis",
   "name": "Tesouro dos Fiéis",
   "short_name": "Tesouro dos Fiéis",
   "start_url": "/",
@@ -14,24 +15,19 @@
       "type": "image/png"
     },
     {
-      "src": "favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
+      "src": "favicon256.png",
+      "sizes": "256x256",
+      "type": "image/png"
     },
     {
-      "src": "favicon180.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "screenshots": [
+      "src": "favicon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
     {
-      "src": "1.gif",
-      "sizes": "900x450",
-      "type": "image/gif",
-      "form_factor": "wide",
-      "label": "Missa de São Bernardo"
+      "src": "favicon72.png",
+      "sizes": "72x72",
+      "type": "image/png"
     }
   ]
 }
