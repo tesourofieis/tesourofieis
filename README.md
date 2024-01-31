@@ -2,7 +2,12 @@
 
 # Tesouro dos Fiéis
 
-![logo](./public/favicon.svg)
+<p align="center">
+  <samp>
+    <img width="50px" src="./public/favicon.svg" />
+  </samp>
+</p>
+
 
 Espaço dedicado à oração, exposição e preservação das santas tradições da igreja.
 
