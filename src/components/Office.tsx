@@ -18,8 +18,8 @@ export default function Office() {
   if (hour >= 3 && hour < 6) {
     return (
       <LinkCard
-        link="/devocionario/oficio/lauds"
-        title="Lauds"
+        link="/devocionario/oficio/laudes"
+        title="Laudes"
         description="Pequeno Ofício de Nossa Senhora"
       />
     );

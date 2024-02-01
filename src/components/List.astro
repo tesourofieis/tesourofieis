@@ -3,31 +3,21 @@ import {getCollection} from "astro:content";
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 
-const {slug} = Astro.params;
+const { slug } = Astro.params;
 
-let count2 = 0;
 const allPages = await getCollection('docs');
 let searchPages = allPages.filter((p) => {
-    //using undefined because I do not know how to get the actual locale for the browser reliably.
-  if(p.slug.localeCompare(slug,undefined, {sensitivity: 'base'})) {
-    return p.id.toLocaleLowerCase().startsWith(slug);
-  }
-  count2++;
-  return false;
-})
 
-searchPages = searchPages.sort((a,b) => {
-  if(a.data.sidebar.order && b.data.sidebar.order) {
-    return a.data.sidebar.order - b.data.sidebar.order;
-  } else if (a.data.sidebar.order) {
-    return 0 - a.data.sidebar.order;
-  } else if (b.data.sidebar.order) {
-    return b.data.sidebar.order - 0
-  } else {
-    return (a.data.title.localeCompare(b.data.title, undefined, {sensitivity: 'base'}))
+  if(p.id.startsWith(slug)) {
+    if(slug.split("/").length === p.id.split("/").length && p.id.includes("index")) {
+      return;
+    }
+
+    if(p.id.split("/").length === 1 || !p.id[0].match("index") || p.id.match("mdx")) {
+      return true;
+    }
   }
 })
-
 
 ---
 
