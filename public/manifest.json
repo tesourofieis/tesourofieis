@@ -1,13 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "id": "tesourofieis",
+  "theme_color": "##ef4444",
+  "background_color": "#27272a",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
   "name": "Tesouro dos Fiéis",
   "short_name": "Tesouro dos Fiéis",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "rgb(17 24 39)",
   "description": "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja",
-  "theme_color": "rgb(17 24 39)",
   "icons": [
     {
       "src": "favicon512.png",
@@ -27,6 +28,12 @@
     {
       "src": "favicon72.png",
       "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "favicon512.png",
       "type": "image/png"
     }
   ]

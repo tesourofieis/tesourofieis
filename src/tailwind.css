@@ -11,6 +11,38 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
 
 @layer base {
+  /* Dark Theme */
+  :root {
+    --sl-color-white: theme("colors.white");
+    --sl-color-gray-1: theme("colors.zinc.200");
+    --sl-color-gray-2: theme("colors.zinc.300");
+    --sl-color-gray-3: theme("colors.zinc.500");
+    --sl-color-gray-4: theme("colors.zinc.600");
+    --sl-color-gray-5: theme("colors.zinc.700");
+    --sl-color-gray-6: theme("colors.zinc.800");
+    --sl-color-black: theme("colors.zinc.950");
+
+    --sl-color-text-accent: theme("colors.red.500");
+    --sl-color-bg-accent: theme("colors.zinc.800");
+    --sl-color-banner-text: theme("colors.red.500");
+  }
+
+  /* Light Theme */
+  :root[data-theme="light"] {
+    --sl-color-white: theme("colors.zinc.900");
+    --sl-color-gray-1: theme("colors.zinc.800");
+    --sl-color-gray-2: theme("colors.zinc.700");
+    --sl-color-gray-3: theme("colors.zinc.500");
+    --sl-color-gray-4: theme("colors.zinc.400");
+    --sl-color-gray-5: theme("colors.zinc.300");
+    --sl-color-gray-6: theme("colors.zinc.200");
+    --sl-color-gray-7: theme("colors.zinc.100");
+
+    --sl-color-text-accent: theme("colors.red.500");
+    --sl-color-bg-accent: theme("colors.zinc.100");
+    --sl-color-banner-text: theme("colors.red.500");
+  }
+
   body {
     @apply font-body;
     font-size: 18px;
@@ -23,5 +55,6 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
   h5,
   h6 {
     @apply font-display;
+    color: theme("colors.red.500");
   }
 }

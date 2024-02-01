@@ -4,17 +4,157 @@ import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import react from "@astrojs/react";
+const site = "https://tesourofieis.com";
+import sitemap from "@astrojs/sitemap";
+
+import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://tesourofieis.com",
-  compressHTML: true,
+  site: site,
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
-      components: {
-        Head: "./src/components/Head.astro",
-      },
+      head: [
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:image",
+            content: `${site}/og.png`,
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "twitter:image",
+            content: `${site}/og.png`,
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "og:description",
+            property: "og:description",
+            content:
+              "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "og:url",
+            property: "og:url",
+            content: site,
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:card",
+            content: "summary_large_image",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:title",
+            content: "Tesouro dos Fiéis",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:description",
+            content:
+              "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:image:alt",
+            content: "Tesouro dos Fiéis",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:site",
+            content: "@tesourofieis",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:creator",
+            content: "@tesourofieis",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:domain",
+            content: site,
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "keywords",
+            content:
+              "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "author",
+            content: "Tesouro dos Fiéis",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "robots",
+            content: "index, follow",
+          },
+        },
+        {
+          tag: "link",
+          attrs: {
+            rel: "manifest",
+            href: "/manifest.json",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "theme-color",
+            content: "#ef4444",
+          },
+        },
+        {
+          tag: "script",
+          attrs: {
+            async: true,
+            src: "https://www.googletagmanager.com/gtag/js?id=id=UA-146185260-1",
+          },
+        },
+        {
+          tag: "script",
+          attrs: {
+            async: true,
+            src: "/scripts/analytics.js",
+          },
+        },
+        {
+          tag: "script",
+          attrs: {
+            async: true,
+            src: "/scripts/sw.js",
+          },
+        },
+      ],
       editLink: {
         baseUrl: "https://github.com/tesourofieis/tesourofieis/edit/master/",
       },
@@ -40,6 +180,8 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     react(),
+    sitemap(),
+    robotsTxt(),
   ],
   markdown: {
     rehypePlugins: [rehypeHeadingIds],
@@ -62,3 +204,4 @@ export default defineConfig({
     service: passthroughImageService(),
   },
 });
+
