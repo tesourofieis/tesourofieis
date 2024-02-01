@@ -143,13 +143,13 @@ export default defineConfig({
         {
           tag: "script",
           attrs: {
-            src: "scripts/analytics.js",
+            src: "/scripts/analytics.js",
           },
         },
         {
           tag: "script",
           attrs: {
-            src: "scripts/onload.js",
+            src: "/scripts/onload.js",
           },
         },
       ],

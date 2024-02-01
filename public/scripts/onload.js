@@ -1,7 +1,7 @@
 window.onload = () => {
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker
-      .register("./sw.js")
+      .register("/sw.js")
       .then((registration) => registration.update())
       .catch((err) => console.error(err));
 

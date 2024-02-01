@@ -79,12 +79,25 @@ export const sidebar = [
       {
         label: "Oracões do dia",
         collapsed: true,
-        autogenerate: { directory: "devocionario/dia" },
+        items: [
+          { label: "Oração da Manhã", link: "/devocionario/dia/oracaomanha" },
+          { label: "Angelus", link: "/devocionario/dia/angelus" },
+          { label: "Oração da Noite", link: "/devocionario/dia/oracaonoite" },
+        ],
       },
       {
         label: "Pequeno Oficio de Nossa Senhora",
         collapsed: true,
-        autogenerate: { directory: "devocionario/oficio" },
+        items: [
+          { label: "Matinas", link: "/devocionario/oficio/matinas" },
+          { label: "Laudes", link: "/devocionario/oficio/laudes" },
+          { label: "Prima", link: "/devocionario/oficio/prima" },
+          { label: "Terça", link: "/devocionario/oficio/terca" },
+          { label: "Sexta", link: "/devocionario/oficio/sexta" },
+          { label: "Noa", link: "/devocionario/oficio/noa" },
+          { label: "Vésperas", link: "/devocionario/oficio/vesperas" },
+          { label: "Completas", link: "/devocionario/oficio/completas" },
+        ],
       },
       {
         label: "Orações",
@@ -95,11 +108,23 @@ export const sidebar = [
   },
   {
     label: "Fé",
-    autogenerate: { directory: "fe" },
+    items: [
+      {
+        label: "Catecismo",
+        link: "/fe/catecismo",
+      },
+      {
+        label: "Verdades da Fé",
+        link: "/fe/verdades",
+      },
+      {
+        label: "Juramento anti-modernista",
+        link: "/fe/juramento",
+      },
+    ],
   },
   {
     label: "Cãnticos",
-    autogenerate: { directory: "canticos" },
     items: [
       {
         label: "Sacros",
