@@ -4,19 +4,11 @@ title: Ordo Missæ
 
 import { getDay } from "../../../lib/getDay.ts";
 import { yyyyMMDD } from "../../../lib/utils.ts";
-import { LinkCard } from "@astrojs/starlight/components";
+import { Card, LinkCard } from "@astrojs/starlight/components";
 
-export const date = yyyyMMDD(new Date());
-export const day = getDay(date);
+import Proper from "../../../components/Proper.tsx";
 
-export const findSectionBody = (day, sectionId) => {
-  const section = day.sections.find((sec) => sec.id === sectionId);
-  return section;
-};
-
-Missa do dia: **{day.info.title}**
-
-<LinkCard title={day.info.title} href="/missal/dia" />
+<Proper client:visible />
 
 ## Missa dos Catecúmenos
 
@@ -319,27 +311,8 @@ Epístola, e lê o Intróito. Canto solene de entrada, o Intróito como que
 enuncia o tema geral da Missa ou solenidade do dia. Às primeiras palavras,
 todos se benzem, ao mesmo tempo que o celebrante.
 
-export const introitus = findSectionBody(day, "Introitus");
-
-import { Card } from "@astrojs/starlight/components";
-
-<Card title="Intróito">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {introitus?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {introitus?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Introitus" />
 </Card>
 
 ### Kyrie Eleison
@@ -447,25 +420,8 @@ mystério ou solenidade do dia.
   <span class="text-red-500 text-center"> Oremos.</span>
 </div>
 
-export const oratio = findSectionBody(day, "Oratio");
-
-<Card title="Oração">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {oratio?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {oratio?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Oratio" />
 </Card>
 
 <div className="grid grid-cols-2 gap-5">
@@ -481,25 +437,8 @@ export const oratio = findSectionBody(day, "Oratio");
 
 ### Epístola do dia
 
-export const lectio = findSectionBody(day, "Lectio");
-
-<Card title="Epístola">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {lectio?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {lectio?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Lectio" />
 </Card>
 
 <div className="grid grid-cols-2 gap-5">
@@ -516,99 +455,13 @@ export const lectio = findSectionBody(day, "Lectio");
 A oração curta de acção de graças, consiste geralmente de dois ou três versos
 retirados dos Salmos ou do Antigo Testamento.
 
-export const graduale = findSectionBody(day, "Graduale");
-export const gradualeF = findSectionBody(day, "GradualeF");
-export const gradualeP = findSectionBody(day, "GradualeP");
-
-{graduale && (
-
-<Card title="Gradual">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {graduale?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {graduale?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Graduale" />
 </Card>
-)}
 
-{gradualeF && (
-
-<Card title="Gradual">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {gradualeF?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {gradualeF?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Tractus" />
 </Card>
-)}
-
-{gradualeP && (
-
-<Card title="Gradual">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {gradualeP?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {gradualeP?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
-</Card>
-)}
-
-export const tractus = findSectionBody(day, "Tractus");
-
-{tractus && (
-
-<Card title="Tractus">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {tractus?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {tractus?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
-</Card>
-)}
 
 No Tempo da Septuagésima, o Allelúja é substituído pelo Trato. No Tempo
 Pascal, omite-se o Gradual, e dizem-se dois Allelúja.
@@ -659,8 +512,6 @@ leitura, é reverentemente beijado pelo Sacerdote.
 
 É um momento solene! Toda a assistência está de pé.
 
-export const evangelium = findSectionBody(day, "Evangelium");
-
 <div className="grid grid-cols-2 gap-5">
   <span class="text-justify">V. Dóminus vobíscum.</span>
   <span class="text-justify">V. O Senhor esteja convosco.</span>
@@ -672,23 +523,8 @@ export const evangelium = findSectionBody(day, "Evangelium");
   </span>
 </div>
 
-<Card title="Evangelho">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {evangelium?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {evangelium?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Evangelium" />
 </Card>
 
 <div className="grid grid-cols-2 gap-5">
@@ -812,25 +648,8 @@ dito. O celebrante beija o Altar e voltado para o povo diz:
 
 ### Ofertório do dia
 
-export const offertorium = findSectionBody(day, "Offertorium");
-
-<Card title="Ofertório">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {offertorium?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {offertorium?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Offertorium" />
 </Card>
 
 #### Oferecimento do pão:
@@ -1106,25 +925,8 @@ ajuntar-se outras, em número igual e segundo as mesmas regras da Colecta.
 
 ### Secreta do dia
 
-export const secreta = findSectionBody(day, "Secreta");
-
-<Card title="Secreta">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {secreta?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {secreta?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Secreta" />
 </Card>
 
 <div className="grid grid-cols-2 gap-5">
@@ -1174,25 +976,8 @@ sentimentos de acção de graças que convêm à celebração dos santos mystér
 
 ### Prefácio do dia
 
-export const prefatio = findSectionBody(day, "Prefatio");
-
-<Card title="Prefácio">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {prefatio?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {prefatio?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Prefatio" />
 </Card>
 
 ### Sanctus
@@ -2012,25 +1797,8 @@ o subdiácono quem purifica o cálice e o leva para a credencia.
 O Sacerdote passa para o lado direito do altar, e recita a antífona da
 Comunhão.
 
-export const communio = findSectionBody(day, "Communio");
-
-<Card title="Comúnio">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {communio?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {communio?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Communio" />
 </Card>
 
 <div className="grid grid-cols-2 gap-5">
@@ -2046,25 +1814,8 @@ export const communio = findSectionBody(day, "Communio");
 
 ### Postcomúnio do dia
 
-export const postcommunio = findSectionBody(day, "Postcommunio");
-
-<Card title="Postcomúnio">
-  <div class="grid grid-cols-2 gap-5">
-    <span className="prose-slate">
-      {postcommunio?.body?.latin.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-    <span className="prose-slate">
-      {postcommunio?.body?.vernacular.map((text, idx) => (
-        <p key={idx} className="block mt-1 text-justify">
-          {text}
-        </p>
-      ))}
-    </span>
-  </div>
+<Card>
+  <Proper client:visible section="Postcommunio" />
 </Card>
 
 ### Despedida e Bênção

@@ -143,15 +143,13 @@ export default defineConfig({
         {
           tag: "script",
           attrs: {
-            async: true,
-            src: "/scripts/analytics.js",
+            src: "scripts/analytics.js",
           },
         },
         {
           tag: "script",
           attrs: {
-            async: true,
-            src: "/scripts/sw.js",
+            src: "scripts/onload.js",
           },
         },
       ],
@@ -204,4 +202,3 @@ export default defineConfig({
     service: passthroughImageService(),
   },
 });
-
