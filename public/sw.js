@@ -1,4 +1,4 @@
-const CACHE_NAME = "precache-v0.5.5";
+const CACHE_NAME = "precache-v0.5.6";
 
 const API_BASE_URL = "api/missal/dia";
 
