@@ -34,7 +34,7 @@ function scheduleDailyNotifications(title, options, hours) {
       // Show the notification
       self.registration.showNotification(title, options);
     }
-  }, 3600000);
+  }, 60_000);
 }
 
 self.addEventListener("notificationclick", (event) => {
