@@ -1,4 +1,4 @@
-import { BellIcon } from "@heroicons/react/16/solid";
+import { Icon } from "@iconify-icon/react";
 
 export default function Notifications() {
   const requestPermission = async () => {
@@ -21,7 +21,8 @@ export default function Notifications() {
           className="flex cursor-pointer items-center bg-transparent gap-2"
           onClick={() => requestPermission()}
         >
-          <BellIcon className="w-5 h-5" /> Receber notificações
+          <Icon icon="heroicons:bell" className="w-5 h-5" /> Receber
+          notificações
         </button>
       );
     }

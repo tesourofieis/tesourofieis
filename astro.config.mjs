@@ -6,6 +6,7 @@ import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import react from "@astrojs/react";
 const site = "https://tesourofieis.com";
 import sitemap from "@astrojs/sitemap";
+import Icons from "unplugin-icons/vite";
 
 import robotsTxt from "astro-robots-txt";
 
@@ -130,7 +131,7 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             name: "theme-color",
-            content: "#ef4444",
+            content: "#3f3f46",
           },
         },
         {
@@ -188,6 +189,7 @@ export default defineConfig({
     watch: false,
   },
   vite: {
+    plugins: [Icons({ compiler: "astro" })],
     server: {
       watch: {
         ignored: [

@@ -20,13 +20,13 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-function scheduleDailyNotifications(title, options, hours) {
+function scheduleDailyNotifications(title, options, time) {
   setInterval(() => {
     const now = new Date();
-    const currentHour = now.getHours();
+    const current = `${now.getHours()}:${now.getMinutes()}`;
 
-    if (currentHour === hours) {
-      const notificationId = hours;
+    if (current === time) {
+      const notificationId = time;
 
       options.data = { notificationId };
       options.icon = "/favicon72.png";
@@ -46,9 +46,9 @@ self.addEventListener("notificationclick", (event) => {
   console.log("notificationId", event.notification.data);
 
   switch (notificationId) {
-    case 6:
-    case 12:
-    case 18:
+    case "6:00":
+    case "12:00":
+    case "18:00":
       event.waitUntil(
         clients
           .matchAll({
@@ -70,15 +70,15 @@ self.addEventListener("notificationclick", (event) => {
 scheduleDailyNotifications(
   "Hora do Angelus",
   { body: "Toque das Ave Marias" },
-  6,
+  "6:00",
 );
 scheduleDailyNotifications(
   "Hora do Angelus",
   { body: "Toque das Ave Marias" },
-  12,
+  "12:00",
 );
 scheduleDailyNotifications(
   "Hora do Angelus",
   { body: "Toque das Ave Marias" },
-  18,
+  "18:00",
 );
