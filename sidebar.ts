@@ -131,11 +131,6 @@ export const sidebar = [
         collapsed: true,
         autogenerate: { directory: "canticos/sacros" },
       },
-      {
-        label: "Populares",
-        collapsed: true,
-        autogenerate: { directory: "canticos/populares" },
-      },
     ],
   },
   {
