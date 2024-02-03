@@ -3,7 +3,7 @@ const CACHE_NAME = "precache-v0.5.8";
 const API_BASE_URL = "api/missal/dia";
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(scheduleDailyNotifications());
+  event.waitUntil(scheduleAngelusNotifications());
   self.skipWaiting();
 });
 
@@ -22,72 +22,50 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("sync", (event) => {
-  if (event.tag === "daily-notifications") {
-    event.waitUntil(scheduleDailyNotifications());
+  if (event.tag === "angelus-notifications") {
+    event.waitUntil(
+      scheduleAngelusNotifications().catch((error) => {
+        console.error("Error scheduling Angelus notifications:", error);
+      }),
+    );
   }
 });
 
-function showNotification(title, options) {
-  options.icon = "/favicon72.png";
-  options.timestamp = new Date().toLocaleString("pt");
-  options.requireInteraction = true;
-  self.registration.showNotification(title, options);
-}
-
-function scheduleDailyNotifications() {
+function scheduleAngelusNotifications() {
   const now = new Date();
   const currentHour = now.getHours();
+  const currentMinute = now.getMinutes();
+  const currentSecond = now.getSeconds();
+  const date = `${currentHour}:${currentMinute}:${currentSecond}`;
 
-  let nextNotificationTime;
-
-  if (currentHour < 6) {
-    nextNotificationTime = new Date(
-      now.getFullYear(),
-      now.getMonth(),
-      now.getDate(),
-      6,
-      0,
-      0,
-      0,
-    );
-  } else if (currentHour < 12) {
-    nextNotificationTime = new Date(
-      now.getFullYear(),
-      now.getMonth(),
-      now.getDate(),
-      12,
-      0,
-      0,
-      0,
-    );
-  } else if (currentHour < 18) {
-    nextNotificationTime = new Date(
-      now.getFullYear(),
-      now.getMonth(),
-      now.getDate(),
-      18,
-      0,
-      0,
-      0,
-    );
-  } else {
-    nextNotificationTime = new Date(
-      now.getFullYear(),
-      now.getMonth(),
-      now.getDate() + 1,
-      6,
-      0,
-      0,
-      0,
-    );
+  switch (date) {
+    case "6:0:0":
+    case "12:0:0":
+    case "18:0:0":
+    case "0:22:0":
+      self.registration.showNotification("Hora do Angelus", {
+        tag: "alert",
+        body: `Toque das Avé Marias - hora ${currentHour}`,
+        icon: "/favicon72.png",
+        requireInteraction: true,
+        timestamp: new Date().toLocaleString("pt", {
+          hour: "2-digit",
+          minute: "2-digit",
+        }),
+        actions: [
+          {
+            action: "open",
+            title: "Abrir",
+          },
+          {
+            action: "close",
+            title: "Fechar",
+          },
+        ],
+        vibrate: [200, 100, 200],
+        renotify: true,
+      });
   }
-
-  const timeUntilNextNotification = nextNotificationTime - now;
-
-  setTimeout(() => {
-    showNotification("Hora do Angelus", { body: "Toque das Ave Marias" });
-    scheduleDailyNotifications(); // Schedule the next notification for the same day
-  }, timeUntilNextNotification);
 }
 
 self.addEventListener("notificationclick", (event) => {
@@ -109,5 +87,4 @@ self.addEventListener("notificationclick", (event) => {
   );
 });
 
-// Schedule the first set of notifications
-scheduleDailyNotifications();
+scheduleAngelusNotifications();

@@ -150,6 +150,7 @@ export default defineConfig({
         {
           tag: "script",
           attrs: {
+            type: "module",
             src: "/scripts/onload.js",
           },
         },
