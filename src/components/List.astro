@@ -9,11 +9,11 @@ const allPages = await getCollection('docs');
 let searchPages = allPages.filter((p) => {
 
   if(p.id.startsWith(slug)) {
-    if(slug.split("/").length === p.id.split("/").length && p.id.includes("index")) {
+    if(p.id.split("/").length === 2 && p.id.includes("index")) {
       return;
     }
 
-    if(p.id.split("/").length === 1 || !p.id[0].match("index") || p.id.match("mdx")) {
+    if(p.id.split("/").length === 2 || p.id.includes("index")){
       return true;
     }
   }
