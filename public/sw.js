@@ -1,8 +1,9 @@
-const CACHE_NAME = "precache-v0.5.7";
+const CACHE_NAME = "precache-v0.5.8";
 
 const API_BASE_URL = "api/missal/dia";
 
-self.addEventListener("install", () => {
+self.addEventListener("install", (event) => {
+  event.waitUntil(scheduleDailyNotifications());
   self.skipWaiting();
 });
 
@@ -18,6 +19,12 @@ self.addEventListener("activate", (event) => {
       );
     }),
   );
+});
+
+self.addEventListener("sync", (event) => {
+  if (event.tag === "daily-notifications") {
+    event.waitUntil(scheduleDailyNotifications());
+  }
 });
 
 function showNotification(title, options) {
@@ -79,12 +86,7 @@ function scheduleDailyNotifications() {
 
   setTimeout(() => {
     showNotification("Hora do Angelus", { body: "Toque das Ave Marias" });
-    setTimeout(
-      () => {
-        scheduleDailyNotifications();
-      },
-      24 * 60 * 60 * 1000,
-    ); // 24 hours
+    scheduleDailyNotifications(); // Schedule the next notification for the same day
   }, timeUntilNextNotification);
 }
 
