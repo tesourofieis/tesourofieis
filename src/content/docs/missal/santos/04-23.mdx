@@ -2,7 +2,11 @@
 title: S. Jorge, Patrono de Portugal
 ---
 
-<em>Como na Missa Protexísti me, página martir, excepto:</em>
+<em>Como na Missa Protexísti me, excepto:</em>
+
+import { LinkCard } from "@astrojs/starlight/components";
+
+<LinkCard href="/missal/comum/9martir" title="Mártir - Missa Protexísti me" />
 
 ### Oração
 
@@ -22,7 +26,10 @@ title: S. Jorge, Patrono de Portugal
 
 ### Epístola
 
-_Página martirnaopontifice2_
+<LinkCard
+  href="/missal/comum/5martirnaopontifice2#epístola"
+  title="Mártir não Pontífice - Missa Lætábitur justus"
+/>
 
 ### Secreta
 
