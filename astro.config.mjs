@@ -7,6 +7,7 @@ import react from "@astrojs/react";
 const site = "https://tesourofieis.com";
 import sitemap from "@astrojs/sitemap";
 import Icons from "unplugin-icons/vite";
+import partytown from "@astrojs/partytown";
 
 import robotsTxt from "astro-robots-txt";
 
@@ -16,6 +17,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
+      components: {
+        Head: "./src/components/Head.astro",
+      },
       head: [
         {
           tag: "meta",
@@ -137,22 +141,22 @@ export default defineConfig({
         {
           tag: "script",
           attrs: {
+            type: "text/partytown",
+            src: "https://www.googletagmanager.com/gtag/js?id=G-CYLKZM1NJQ",
             async: true,
-            src: "https://www.googletagmanager.com/gtag/js?id=id=UA-146185260-1",
           },
         },
         {
           tag: "script",
           attrs: {
-            src: "/scripts/analytics.js",
+            type: "text/partytown",
           },
-        },
-        {
-          tag: "script",
-          attrs: {
-            type: "module",
-            src: "/scripts/onload.js",
-          },
+          content: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-CYLKZM1NJQ');`,
         },
       ],
       editLink: {
@@ -182,6 +186,11 @@ export default defineConfig({
     react(),
     sitemap(),
     robotsTxt(),
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
   ],
   markdown: {
     rehypePlugins: [rehypeHeadingIds],
