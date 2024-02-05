@@ -13,9 +13,6 @@ self.addEventListener("push", () => {
   self.registration.showNotification("Hora do Angelus", {
     body: currentHour,
     icon: "/favicon72.png",
-    requireInteraction: true,
-    vibrate: [200, 100, 200],
-    renotify: true,
   });
 });
 
