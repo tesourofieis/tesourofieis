@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
+    "@astrojs/partytown": "^2.0.4",
     "@astrojs/react": "^3.0.9",
     "@astrojs/starlight": "^0.15.4",
     "@astrojs/starlight-tailwind": "^2.0.1",

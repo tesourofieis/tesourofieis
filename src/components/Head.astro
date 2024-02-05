@@ -1,0 +1,39 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Head.astro';
+---
+
+<Default {...Astro.props} />
+
+<script>
+  import { initializeApp } from "firebase/app";
+  import { getAnalytics } from "firebase/analytics";
+  import { getToken, getMessaging } from "firebase/messaging";
+
+  export const firebaseConfig = {
+    apiKey: import.meta.env.PUBLIC_API_KEY,
+    authDomain: import.meta.env.PUBLIC_AUTH_DOMAIN,
+    projectId: import.meta.env.PUBLIC_PROJECT_ID,
+    storageBucket: import.meta.env.PUBLIC_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.PUBLIC_MESSAGING_SENDER_ID,
+    appId: import.meta.env.PUBLIC_APP_ID,
+    measurementId: import.meta.env.PUBLIC_MEASUREMENT_ID,
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const messaging = getMessaging();
+  window.onload = () =>
+  "serviceWorker" in navigator
+    navigator.serviceWorker
+      .register("/firebase-messaging-sw.js")
+      .then(async (registration) => {
+        await getToken(messaging, {
+          vapidKey: import.meta.env.PUBLIC_VAPID_KEY,
+          serviceWorkerRegistration: registration,
+        }).then((currentToken) => {
+          // console.log(currentToken);
+        });
+      })
+</script>
+
