@@ -1,11 +1,11 @@
-import { getCalendarDay } from "../lib/getCalendar.ts";
-import { yyyyMMDD } from "../lib/utils.ts";
+import { getCalendarDay } from "../lib/getCalendar";
+import { yyyyMMDD } from "../lib/utils";
 
 import { useState, useEffect } from "react";
 import { getHours } from "date-fns";
 import Office from "./Office";
-import LinkCard from "./LinkCard.tsx";
-import Loading from "./Loading.tsx";
+import LinkCard from "./LinkCard";
+import Loading from "./Loading";
 import Notifications from "./Notifications";
 
 export default function InteractiveCard() {

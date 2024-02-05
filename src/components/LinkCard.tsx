@@ -17,7 +17,7 @@ export default function LinkCard({
       <div className="flex flex-col">
         <em className="text-gray-500">{description}</em>
         <p className="font-bold">{title}</p>
-        {caption && <caption className="font-sm text-left">{caption}</caption>}
+        {caption && <p className="font-sm text-left">{caption}</p>}
       </div>
     </a>
   );
