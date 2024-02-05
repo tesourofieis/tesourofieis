@@ -33,7 +33,7 @@
     {
       "purpose": "maskable",
       "sizes": "512x512",
-      "src": "favicon512.png",
+      "src": "maskable_icon_x512.png",
       "type": "image/png"
     }
   ]
