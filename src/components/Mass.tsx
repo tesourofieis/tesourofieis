@@ -4,8 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import { Calendar } from "../lib/calendar";
 import { VISIBLE_SECTIONS } from "../lib/constants";
 import Loading from "./Loading";
+import { Icon } from "@iconify-icon/react";
 
 export default function Mass() {
+  const today = yyyyMMDD(new Date());
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
   const [error, setError] = useState<boolean>(false);
   const calendarRef = useRef(null);
@@ -41,7 +43,7 @@ export default function Mass() {
         `[data-date="${date}"]`,
       );
       if (selectedButton && !isSidebarCollapsed) {
-        selectedButton.scrollIntoView();
+        selectedButton.scrollIntoView({ block: "center" });
       }
     }
   }, [date, isSidebarCollapsed]);
@@ -102,18 +104,22 @@ export default function Mass() {
           ))}
           <div
             ref={calendarRef}
-            className={`${isSidebarCollapsed ? "w-0" : "w-48"} bg-zinc-100 dark:bg-zinc-900 text-sm h-full divide-y fixed right-0 top-10 overflow-y-auto not-content`}
+            className={`${isSidebarCollapsed ? "w-0" : "w-48"} border-4 border-zinc-200 dark:border-zinc-700 text-sm h-full divide-y divide-zinc-200 dark:divide-zinc-700 fixed right-0 top-10 overflow-y-auto not-content`}
           >
             <button
               type="button"
-              className={`fixed h-11 w-5 ${isSidebarCollapsed ? "right-0" : "right-48"} top-1/2`}
+              className={`fixed flex bg-zinc-300 dark:bg-zinc-600 items-center justify-center h-16 w-8 ${isSidebarCollapsed ? "right-0" : "right-48"} top-1/2 translate-y-9`}
               onClick={toggleSidebar}
             >
-              {isSidebarCollapsed ? "«" : "»"}
+              {isSidebarCollapsed ? (
+                <Icon icon="heroicons:chevron-left" className="text-xl" />
+              ) : (
+                <Icon icon="heroicons:chevron-right" className="text-xl" />
+              )}
             </button>
             {Object.entries(calendar).map(([calendarDate, celebrations]) => (
               <button
-                className={`flex flex-col w-full cursor-pointer bg-zinc-100 dark:bg-zinc-900 ${calendarDate === date && "bg-zinc-300 dark:bg-zinc-700"}`}
+                className={`flex flex-col w-full cursor-pointer bg-zinc-100 dark:bg-zinc-900 ${calendarDate === date && "bg-zinc-300 dark:bg-zinc-600"} ${calendarDate === today && "border border-zinc-500"}`}
                 type="button"
                 onClick={() => setDate(calendarDate)}
                 data-date={calendarDate}
@@ -127,17 +133,16 @@ export default function Mass() {
                 <em className="text-xs text-right">
                   {celebrations.commemoration[0]?.title}
                 </em>
-                <caption className="flex items-center gap-2 font-sm">
+                <div className="flex items-center gap-2 font-sm justify-end">
                   <div
                     className={`h-2 w-2 rounded-full ${getColor(
                       celebrations.celebration[0]?.colors[0] ||
                         celebrations.commemoration[0]?.colors[0] ||
                         celebrations.tempora[0]?.colors[0],
-                    )}`}
+                    )} text-right`}
                   />
                   {calendarDate}
-                </caption>
-                <div className="divide-y-2 h-full divide-green-500" />
+                </div>
               </button>
             ))}
           </div>
