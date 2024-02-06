@@ -2,6 +2,8 @@
 title: S. Geraldo, Bispo e Conf. - Na Arquidiocese de Braga
 ---
 
+import { LinkCard } from "@astrojs/starlight/components";
+
 ### Intróito
 
 <div class="grid grid-cols-2 gap-5">
@@ -31,8 +33,6 @@ title: S. Geraldo, Bispo e Conf. - Na Arquidiocese de Braga
 
 ### Epístola
 
-import { LinkCard } from "@astrojs/starlight/components";
-
 <LinkCard
   href="/missal/comum/10martires#epístola"
   title="Mártires - Missa Sancti tui"
@@ -57,7 +57,10 @@ import { LinkCard } from "@astrojs/starlight/components";
 
 ### Evangelho
 
-_Página confessoresnaopontifices1_
+<LinkCard
+  href="/missal/comum/14confessoresnaopontifices1#evangelho"
+  title="Confessores não Pontífices - Missa Os justi"
+/>
 
 ### Ofertório
 
