@@ -10,10 +10,19 @@ self.addEventListener("push", () => {
   const now = new Date();
   const currentHour = now.getHours();
 
-  self.registration.showNotification("Hora do Angelus", {
-    body: currentHour,
-    icon: "/favicon72.png",
-  });
+  switch (currentHour) {
+    case 6:
+    case 12:
+    case 18:
+      return self.registration.showNotification("Hora do Angelus", {
+        body: `Toque das Avés Marias - Hora ${currentHour}`,
+        icon: "./murillo.jpeg",
+        badge: "/favicon72.png",
+        requireInteraction: true,
+      });
+    default:
+      break;
+  }
 });
 
 self.addEventListener("notificationclick", (event) => {
