@@ -55,6 +55,5 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
   h5,
   h6 {
     @apply font-display;
-    color: theme("colors.red.500");
   }
 }
