@@ -169,7 +169,7 @@ export default defineConfig({
         },
       },
       logo: {
-        src: "./public/favicon.svg",
+        src: "./src/assets/favicon.svg",
       },
       social: {
         "x.com": "https://x.com/tesourofieis",
