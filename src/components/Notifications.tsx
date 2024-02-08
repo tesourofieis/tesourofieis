@@ -18,6 +18,7 @@ export default function Notifications() {
       return (
         <button
           type="button"
+          aria-label="add-notifications"
           className="flex cursor-pointer items-center bg-transparent gap-2"
           onClick={() => requestPermission()}
         >
