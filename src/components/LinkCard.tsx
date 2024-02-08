@@ -12,7 +12,7 @@ export default function LinkCard({
   return (
     <a
       href={link}
-      className="block border my-3 border-gray-500 rounded p-3 hover:border-red-500 no-underline"
+      className="block border my-3 border-gray-500 rounded p-3 hover:border-sepia-500 no-underline"
     >
       <div className="flex flex-col">
         <em className="text-gray-500">{description}</em>

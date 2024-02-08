@@ -104,11 +104,11 @@ export default function Mass() {
           ))}
           <div
             ref={calendarRef}
-            className={`${isSidebarCollapsed ? "w-0" : "w-48"} border-4 border-zinc-200 dark:border-zinc-700 text-sm h-full divide-y divide-zinc-200 dark:divide-zinc-700 fixed right-0 top-10 overflow-y-auto not-content`}
+            className={`${isSidebarCollapsed ? "w-0" : "w-48"} border-4 border-sepia-200 dark:border-sepia-700 text-sm h-full divide-y divide-sepia-200 dark:divide-sepia-700 fixed right-0 top-10 overflow-y-auto not-content`}
           >
             <button
               type="button"
-              className={`fixed flex bg-zinc-300 dark:bg-zinc-600 items-center justify-center h-16 w-8 ${isSidebarCollapsed ? "right-0" : "right-48"} top-1/2 translate-y-9`}
+              className={`fixed flex bg-sepia-300 dark:bg-sepia-600 items-center justify-center h-16 w-8 ${isSidebarCollapsed ? "right-0" : "right-48"} top-1/2 translate-y-9`}
               onClick={toggleSidebar}
             >
               {isSidebarCollapsed ? (
@@ -119,7 +119,7 @@ export default function Mass() {
             </button>
             {Object.entries(calendar).map(([calendarDate, celebrations]) => (
               <button
-                className={`flex flex-col w-full cursor-pointer bg-zinc-100 dark:bg-zinc-900 ${calendarDate === date && "bg-zinc-300 dark:bg-zinc-600"} ${calendarDate === today && "border border-zinc-500"}`}
+                className={`flex flex-col w-full cursor-pointer bg-sepia-100 dark:bg-sepia-900 ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-600"} ${calendarDate === today && "border border-sepia-500"}`}
                 type="button"
                 onClick={() => setDate(calendarDate)}
                 data-date={calendarDate}
