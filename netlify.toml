@@ -1,3 +1,14 @@
 [build]
   command = "astro build"
   publish = "dist"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
+
+[schedule]
+  # Run the function at 6am UTC (9am if you are in UTC+3 timezone)
+  "6am" = "sendPushNotification"
+  # Run the function at 12pm UTC (3pm if you are in UTC+3 timezone)
+  "12pm" = "sendPushNotification"
+  # Run the function at 6pm UTC (9pm if you are in UTC+3 timezone)
+  "6pm" = "sendPushNotification"
