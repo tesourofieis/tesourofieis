@@ -119,7 +119,7 @@ export default function Mass() {
             </button>
             {Object.entries(calendar).map(([calendarDate, celebrations]) => (
               <button
-                className={`flex flex-col w-full cursor-pointer bg-sepia-100 dark:bg-sepia-900 ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-600"} ${calendarDate === today && "border border-sepia-500"}`}
+                className={`flex flex-col w-full cursor-pointer bg-sepia-100 dark:bg-sepia-900 ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-700"} ${calendarDate === today && "bg-sepia-200 dark:bg-sepia-800"}`}
                 type="button"
                 onClick={() => setDate(calendarDate)}
                 data-date={calendarDate}
@@ -157,7 +157,7 @@ export default function Mass() {
             .map((section) => (
               <div key={section?.id}>
                 <h2
-                  className="text-center text-red-500"
+                  className="text-center text-sepia-500"
                   id={section?.id.toLowerCase()}
                 >
                   {section?.id}

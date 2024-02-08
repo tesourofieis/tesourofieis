@@ -8,16 +8,18 @@ export default {
   theme: {
     extend: {
       colors: {
+        accent: colors.red,
+        gray: colors.sepia,
         sepia: {
-          900: "#2B2718",
-          800: "#473e30",
-          700: "#695F4D",
-          600: "#bfae98",
-          500: "#cba57e",
-          400: "#dfba9d",
-          300: "#f1d4be",
-          200: "#eee6d9",
-          100: "#fcf7ea",
+          900: "#1d2021",
+          800: "#32302f",
+          700: "#504945",
+          600: "#7c6f64",
+          500: "#bfae98",
+          400: "#cba57e",
+          300: "#e2bda0",
+          200: "#f3dbc9",
+          100: "#eee6d9",
         },
       },
       fontFamily: {

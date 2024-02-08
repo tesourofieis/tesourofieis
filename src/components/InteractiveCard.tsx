@@ -55,7 +55,7 @@ export default function InteractiveCard() {
   }
 
   return (
-    <div className="border border-gray-300 rounded p-3 gap-3">
+    <div className="border border-sepia-600 rounded p-3 gap-3">
       <div className="flex justify-between not-content">
         <h2>Dia e Hora</h2>
         {window && <Notifications />}

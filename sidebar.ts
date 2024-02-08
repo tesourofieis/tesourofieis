@@ -124,7 +124,7 @@ export const sidebar = [
     ],
   },
   {
-    label: "Cãnticos",
+    label: "Cânticos",
     items: [
       {
         label: "Sacros",
