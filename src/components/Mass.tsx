@@ -104,33 +104,33 @@ export default function Mass() {
           ))}
           <div
             ref={calendarRef}
-            className={`${isSidebarCollapsed ? "w-0" : "w-48"} border-4 border-sepia-200 dark:border-sepia-700 text-sm h-full divide-y divide-sepia-200 dark:divide-sepia-700 fixed right-0 top-10 overflow-y-auto not-content`}
+            className={`${isSidebarCollapsed ? "w-0" : "w-48"} border-4 border-sepia-200 dark:border-sepia-700 text-sm h-full divide-y divide-sepia-200 dark:divide-sepia-700 fixed left-0 top-10 overflow-y-auto not-content`}
           >
             <button
               type="button"
-              className={`fixed flex bg-sepia-300 dark:bg-sepia-600 items-center justify-center h-16 w-8 ${isSidebarCollapsed ? "right-0" : "right-48"} top-1/2 translate-y-9`}
+              className={`fixed flex bg-sepia-300 dark:bg-sepia-600 items-center justify-center h-16 w-8 ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2 translate-y-9`}
               onClick={toggleSidebar}
             >
               {isSidebarCollapsed ? (
-                <Icon icon="heroicons:chevron-left" className="text-xl" />
-              ) : (
                 <Icon icon="heroicons:chevron-right" className="text-xl" />
+              ) : (
+                <Icon icon="heroicons:chevron-left" className="text-xl" />
               )}
             </button>
             {Object.entries(calendar).map(([calendarDate, celebrations]) => (
               <button
-                className={`flex flex-col w-full cursor-pointer bg-sepia-100 dark:bg-sepia-900 ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-700"} ${calendarDate === today && "bg-sepia-200 dark:bg-sepia-800"}`}
+                className={`flex flex-col w-full cursor-pointer bg-sepia-100 dark:bg-sepia-800 ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-400"} ${calendarDate === today && "bg-sepia-200 dark:bg-sepia-500"}`}
                 type="button"
                 onClick={() => setDate(calendarDate)}
                 data-date={calendarDate}
               >
-                <p className="font-display text-right">
+                <p className="font-display text-left">
                   {celebrations.celebration[0]?.title ||
                     celebrations.tempora[0]?.title ||
                     celebrations.commemoration[0]?.title ||
                     "Feria"}
                 </p>
-                <em className="text-xs text-right">
+                <em className="text-xs text-left">
                   {celebrations.commemoration[0]?.title}
                 </em>
                 <div className="flex items-center gap-2 font-sm justify-end">
@@ -139,7 +139,7 @@ export default function Mass() {
                       celebrations.celebration[0]?.colors[0] ||
                         celebrations.commemoration[0]?.colors[0] ||
                         celebrations.tempora[0]?.colors[0],
-                    )} text-right`}
+                    )} text-left`}
                   />
                   {calendarDate}
                 </div>

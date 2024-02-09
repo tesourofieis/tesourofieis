@@ -17,9 +17,10 @@ export default {
           600: "#7c6f64",
           500: "#bfae98",
           400: "#cba57e",
-          300: "#e2bda0",
-          200: "#f3dbc9",
+          300: "#e2c1a2",
+          200: "#f2ddc7",
           100: "#eee6d9",
+          50: "#f4eadd",
         },
       },
       fontFamily: {
