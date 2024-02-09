@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* other default colors */
+
+/* more default colors */
+
 /*
 Add additional Tailwind styles to this file, for example with @layer:
 https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
@@ -13,34 +17,41 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 @layer base {
   /* Dark Theme */
   :root {
-    --sl-color-white: theme("colors.zinc.100");
-    --sl-color-gray-1: theme("colors.zinc.200");
-    --sl-color-gray-2: theme("colors.zinc.300");
-    --sl-color-gray-3: theme("colors.zinc.400");
-    --sl-color-gray-4: theme("colors.zinc.500");
-    --sl-color-gray-5: theme("colors.zinc.600");
-    --sl-color-gray-6: theme("colors.zinc.700");
-    --sl-color-black: theme("colors.zinc.800");
+    --sl-color-white: theme("colors.sepia.200");
+    --sl-color-gray-1: theme("colors.sepia.300");
+    --sl-color-gray-2: theme("colors.sepia.400");
+    --sl-color-gray-3: theme("colors.sepia.500");
+    --sl-color-gray-4: theme("colors.sepia.600");
+    --sl-color-gray-5: theme("colors.sepia.700");
+    --sl-color-gray-6: theme("colors.sepia.800");
+    --sl-color-gray-7: theme("colors.sepia.900");
 
-    --sl-color-text-accent: theme("colors.red.500");
-    --sl-color-bg-accent: theme("colors.zinc.700");
-    --sl-color-banner-text: theme("colors.zinc.300");
+    --sl-color-text-accent: theme("colors.sepia.300");
+    --sl-color-bg-accent: theme("colors.sepia.700");
+    --sl-color-banner-text: theme("colors.sepia.300");
+    --sl-color-black: theme("colors.sepia.900");
+    --sl-color-blue-low: theme("colors.sepia.700");
+    --sl-color-text: theme("colors.sepia.200");
   }
 
   /* Light Theme */
   :root[data-theme="light"] {
-    --sl-color-white: theme("colors.zinc.800");
-    --sl-color-gray-1: theme("colors.zinc.700");
-    --sl-color-gray-2: theme("colors.zinc.600");
-    --sl-color-gray-3: theme("colors.zinc.500");
-    --sl-color-gray-4: theme("colors.zinc.400");
-    --sl-color-gray-5: theme("colors.zinc.300");
-    --sl-color-gray-6: theme("colors.zinc.200");
-    --sl-color-gray-7: theme("colors.zinc.100");
+    --sl-color-white: theme("colors.sepia.900");
+    --sl-color-gray-1: theme("colors.sepia.800");
+    --sl-color-gray-2: theme("colors.sepia.700");
+    --sl-color-gray-3: theme("colors.sepia.600");
+    --sl-color-gray-4: theme("colors.sepia.500");
+    --sl-color-gray-5: theme("colors.sepia.400");
+    --sl-color-gray-6: theme("colors.sepia.300");
+    --sl-color-gray-7: theme("colors.sepia.200");
 
-    --sl-color-text-accent: theme("colors.red.500");
-    --sl-color-bg-accent: theme("colors.zinc.100");
-    --sl-color-banner-text: theme("colors.zinc.500");
+    --sl-color-text-accent: theme("colors.sepia.800");
+    --sl-color-bg-accent: theme("colors.sepia.300");
+    --sl-color-black: theme("colors.sepia.100");
+    --sl-color-banner-text: theme("colors.sepia.700");
+    --sl-color-blue-low: theme("colors.sepia.400");
+    --sl-color-text: theme("colors.sepia.900");
+    --sl-color-bg-sidebar: theme("colors.sepia.200");
   }
 
   body {
@@ -48,8 +59,12 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
     font-size: 18px;
   }
 
+  h2 {
+    @apply font-display;
+    color: theme("colors.red.600") !important;
+  }
+
   h1,
-  h2,
   h3,
   h4,
   h5,
