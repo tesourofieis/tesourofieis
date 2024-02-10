@@ -2,8 +2,10 @@
 title: Vésperas
 ---
 
-# Vésperas 1
+import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+<Tabs>
+  <TabItem label="Depois da Purificação">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     V. Deus <span class="text-red-500">&#10016;</span> in adjutórium meum
@@ -330,11 +332,8 @@ import Magnificat from "./../../canticos/sacros/magnificat.mdx";
     <span class="text-red-500">R.</span> Amen.
   </span>
 </div>
-
-<em>Acabar com uma Antífona de Nossa Senhora.</em>
-
-# Vésperas 2
-
+  </TabItem>
+  <TabItem label="No Advento">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     V. Deus <span class="text-red-500">&#10016;</span> in adjutórium meum
@@ -603,11 +602,8 @@ _Is. 11, 1-2_
     <span class="text-red-500">R.</span> Amen.
   </span>
 </div>
-
-<em>Acabar com uma Antífona de Nossa Senhora.</em>
-
-# Vésperas 3
-
+  </TabItem>
+  <TabItem label="No Natal">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     V. Deus <span class="text-red-500">&#10016;</span> in adjutórium meum
@@ -898,5 +894,9 @@ _Ecl. 24, 14_
     <span class="text-red-500">R.</span> Amen.
   </span>
 </div>
+  </TabItem>
+</Tabs>
 
-<em>Acabar com uma Antífona de Nossa Senhora.</em>
+:::note
+Acabar com uma [Antífona de Nossa Senhora](/devocionario/oracoes/antifonas).
+:::

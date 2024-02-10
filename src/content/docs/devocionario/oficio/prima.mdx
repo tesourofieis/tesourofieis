@@ -2,8 +2,6 @@
 title: Prima
 ---
 
-# Prima 1
-
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     V. Deus <span class="text-red-500">&#10016;</span> in adjutórium meum
@@ -69,6 +67,10 @@ import Salmo116 from "./../salterio/116.mdx";
 
 <Salmo116 />
 
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+
+<Tabs>
+  <TabItem label="Depois da Purificação">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     <em>Ant.</em> Assumpta est Maria in cælum: gaudete angeli, laudantes
@@ -152,40 +154,9 @@ _Ct. 6, 9_
   <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
   </span>
-  <span class="text-justify">V. Domine, exaudi orationem meam.</span>
-  <span class="text-justify">V. Ouvi, Senhor, a minha oração.</span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Et clamor meus ad te veniat.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> E o meu clamor chegue até Vós.
-  </span>
-  <span class="text-justify">V. Benedicamus Domino.</span>
-  <span class="text-justify">V. Bendigamos o Senhor.</span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Deo gratias.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Graças a Deus.
-  </span>
-  <span class="text-justify">
-    V. Fidelium animæ per misericordiam Dei, requiescant in pace.
-  </span>
-  <span class="text-justify">
-    V. E que as almas dos fiéis, pela misericórdia de Deus, descansem em paz.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
 </div>
-
-# Prima 2
-
-<em>Tudo como no primeiro oficio, excepto o seguinte:</em>
-
+  </TabItem>
+  <TabItem label="No Advento">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     <em>Ant.</em> Missus est Gabriel Angelus ad Maríam, Vírginem, desponsatam
@@ -272,11 +243,8 @@ _Is. 7, 14-15_
     <span class="text-red-500">R.</span> Amen.
   </span>
 </div>
-
-# Prima 3
-
-<em>Tudo como no primeiro oficio, excepto o seguinte:</em>
-
+  </TabItem>
+  <TabItem label="No Natal">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     <em>Ant.</em> O admirabile commercium: Creator generis humani, animatum
@@ -287,6 +255,37 @@ _Is. 7, 14-15_
     <em>Ant.</em> Ó admirável permuta! O Criador do género humano, tomando corpo
     e alma, dignou-se nascer de uma Virgem; e, feito homem sem progenitor,
     tornou-nos participantes da sua divindade.
+  </span>
+</div>
+
+## Pequeno Capítulo
+
+_Ct. 6, 9_
+
+<div class="grid grid-cols-2 gap-5">
+  <span class="text-justify">
+    Quæ est ista, quæ progréditur quasi auróra consúrgens, pulchra ut luna,
+    elécta ut sol, terribilis ut castrorum acies ordinata?
+  </span>
+  <span class="text-justify">
+    Quem é esta que aparece como a aurora quando desponta, formosa como a lua,
+    eleita, como o sol, terrível como um exército formado em linha?
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Deo grátias.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Graças a Deus.
+  </span>
+  <span class="text-justify">V. Dignare me laudare te, Virgo sacrata.</span>
+  <span class="text-justify">
+    V. Dignai-vos, sagrada Virgem, de que eu vos louve.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Da mihi virtutem contra hostes tuos.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Dai-me esforço contra vossos inimigos.
   </span>
 </div>
 
@@ -335,3 +334,40 @@ _Is. 7, 14-15_
     <span class="text-red-500">R.</span> Amen.
   </span>
 </div>
+  </TabItem>
+</Tabs>
+
+<div class="grid grid-cols-2 gap-5">
+  <span class="text-justify">V. Domine, exaudi orationem meam.</span>
+  <span class="text-justify">V. Ouvi, Senhor, a minha oração.</span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Et clamor meus ad te veniat.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> E o meu clamor chegue até Vós.
+  </span>
+  <span class="text-justify">V. Benedicamus Domino.</span>
+  <span class="text-justify">V. Bendigamos o Senhor.</span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Deo gratias.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Graças a Deus.
+  </span>
+  <span class="text-justify">
+    V. Fidelium animæ per misericordiam Dei, requiescant in pace.
+  </span>
+  <span class="text-justify">
+    V. E que as almas dos fiéis, pela misericórdia de Deus, descansem em paz.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Amen.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Amen.
+  </span>
+</div>
+
+:::note
+Acabar com uma [Antífona de Nossa Senhora](/devocionario/oracoes/antifonas).
+:::

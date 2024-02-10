@@ -2,8 +2,6 @@
 title: Matinas
 ---
 
-# Matinas 1
-
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     V. Domine, <span class="text-red-500">&#10016;</span> labia mea aperies.
@@ -381,8 +379,12 @@ import Salmo86 from "./../salterio/086.mdx";
   Sábado.
 </em>
 
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+
 ## Terceiro Nocturno
 
+<Tabs>
+  <TabItem label="Depois da Purificação">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     <em>Ant.</em> Gaude, Maria Virgo: cunctas hæreses sola intermenisti in
@@ -393,6 +395,26 @@ import Salmo86 from "./../salterio/086.mdx";
     todas as heresias em todo o mundo.
   </span>
 </div>
+    </TabItem>
+  <TabItem label="No Advento">
+
+:::note
+Na Quarta-feira, no Sábado e na Festa da Anunciação, a última Antífona é a
+seguinte; são próprias as Lições e Responsórios que seguem.
+:::
+
+<div class="grid grid-cols-2 gap-5">
+  <span class="text-justify">
+    <em>Ant.</em> Angelus Domini nuntiavit Mariæ, et concepit de Spiritu Sancto,
+    (Allelúja)
+  </span>
+  <span class="text-justify">
+    <em>Ant.</em> O Anjo do Senhor anunciou a Maria, e ela concebeu do Espírito
+    Santo.
+  </span>
+</div>
+  </TabItem>
+</Tabs>
 
 import Salmo95 from "./../salterio/095.mdx";
 
@@ -439,6 +461,8 @@ import Salmo96 from "./../salterio/096.mdx";
   </span>
 </div>
 
+<Tabs>
+  <TabItem label="Depois da Purificação">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     <em>Ant.</em> Post partum virgo inviolata permansisti: Dei Genitrix,
@@ -762,11 +786,11 @@ import TeDeum from "./../../canticos/sacros/tedeum.mdx";
 
 <TeDeum />
 
-<em>
-  As Matinas acabam depois do Terceiro Responsório ou do Te Deum, porque é usual
-  depois das Matinas passar-se directamente para as Laudes. No entanto, se não
-  continuar para as Laudes diz:
-</em>
+:::note
+As Matinas acabam depois do Terceiro Responsório ou do Te Deum, porque é usual
+depois das Matinas passar-se directamente para as Laudes. No entanto, se não
+continuar para as Laudes diz:
+:::
 
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">V. Domine, exaudi orationem meam.</span>
@@ -797,44 +821,9 @@ import TeDeum from "./../../canticos/sacros/tedeum.mdx";
   <span class="text-justify">
     <span class="text-red-500">R.</span> Amen.
   </span>
-  <span class="text-justify">V. Domine, exaudi orationem meam.</span>
-  <span class="text-justify">V. Ouvi, Senhor, a minha oração.</span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Et clamor meus ad te veniat.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> E o meu clamor chegue até Vós.
-  </span>
-  <span class="text-justify">V. Benedicamus Domino.</span>
-  <span class="text-justify">V. Bendigamos o Senhor.</span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Deo gratias.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Graças a Deus.
-  </span>
-  <span class="text-justify">
-    V. Fidelium animæ per misericordiam Dei, requiescant in pace.
-  </span>
-  <span class="text-justify">
-    V. E que as almas dos fiéis, pela misericórdia de Deus, descansem em paz.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
 </div>
-
-# Matinas 2
-
-<em>
-  Tudo como no primeiro oficio, excepto o seguinte: No Terceiro Nocturno, na
-  Quarta-feira, no Sábado e na Festa da Anunciação, a última Antífona é a
-  seguinte; são próprias as Lições e Responsórios que seguem.
-</em>
-
+  </TabItem>
+  <TabItem label="No Advento">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     <em>Ant.</em> Angelus Domini nuntiavit Mariæ, et concepit de Spiritu Sancto,
@@ -1026,10 +1015,10 @@ _Lc. 1, 29-33_
   </span>
 </div>
 
-<em>
-  Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o seguinte no
-  fim do Responsório:
-</em>
+:::note
+Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o seguinte no
+fim do Responsório:
+:::
 
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
@@ -1149,3 +1138,40 @@ _Lc. 1, 34-38_
     todas as mulheres.
   </span>
 </div>
+  </TabItem>
+</Tabs>
+
+<div class="grid grid-cols-2 gap-5">
+  <span class="text-justify">V. Domine, exaudi orationem meam.</span>
+  <span class="text-justify">V. Ouvi, Senhor, a minha oração.</span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Et clamor meus ad te veniat.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> E o meu clamor chegue até Vós.
+  </span>
+  <span class="text-justify">V. Benedicamus Domino.</span>
+  <span class="text-justify">V. Bendigamos o Senhor.</span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Deo gratias.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Graças a Deus.
+  </span>
+  <span class="text-justify">
+    V. Fidelium animæ per misericordiam Dei, requiescant in pace.
+  </span>
+  <span class="text-justify">
+    V. E que as almas dos fiéis, pela misericórdia de Deus, descansem em paz.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Amen.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Amen.
+  </span>
+</div>
+
+:::note
+Acabar com uma [Antífona de Nossa Senhora](/devocionario/oracoes/antifonas).
+:::
