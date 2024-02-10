@@ -159,9 +159,6 @@ export default defineConfig({
             gtag('config', 'G-CYLKZM1NJQ');`,
         },
       ],
-      editLink: {
-        baseUrl: "https://github.com/tesourofieis/tesourofieis/edit/master/",
-      },
       locales: {
         root: {
           label: "Português",

@@ -2,7 +2,10 @@
 title: Matinas
 ---
 
-# Matinas 1
+:::note
+Meditemos no nascimento do Salvador, no monte das oliveiras,
+na sua agonia e nas cordas com que o amarraram.
+:::
 
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
@@ -47,10 +50,10 @@ title: Matinas
   </span>
 </div>
 
-<em>
-  Desde o Sábado antes do Domingo da Septuagésima até às vésperas do Sábado
-  Santo, em vez de Allelúja, é dito:
-</em>
+:::note
+Desde o Sábado antes do Domingo da Septuagésima até às vésperas do Sábado
+Santo, em vez de Allelúja, é dito:
+:::
 
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">Laus tibi, Domine, Rex æternæ gloriæ.</span>
@@ -192,11 +195,10 @@ import QuemTerra from "./../../canticos/sacros/quemterra.mdx";
 
 <QuemTerra />
 
-<em>
-  Os três Salmos seguintes, com suas Antífonas, dizem-se no Domingo,
-  Segunda-feira e Quinta-feira.
-</em>
+import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+<Tabs>
+  <TabItem label="Domingo, Segunda e Quinta feira">
 ## Primeiro Nocturno
 
 <div class="grid grid-cols-2 gap-5">
@@ -280,14 +282,8 @@ import Salmo23 from "./../salterio/023.mdx";
     Virgem.
   </span>
 </div>
-
-<em>Absolvições, Lições e Responsórios, como no fim do terceiro Nocturno.</em>
-
-<em>
-  Os três Salmos seguintes, com suas Antífonas, dizem-se na Terça-Feira e
-  Sexta-feira.
-</em>
-
+  </TabItem>
+  <TabItem label="Terça e Sexta feira">
 ## Segundo Nocturno
 
 <div class="grid grid-cols-2 gap-5">
@@ -373,16 +369,13 @@ import Salmo86 from "./../salterio/086.mdx";
     estão cheios de alegria.
   </span>
 </div>
-
-<em>Absolvições, Lições e Responsórios, como no fim do terceiro Nocturno.</em>
-
-<em>
-  Os três Salmos seguintes, com suas Antífonas, dizem-se na Quarta-Feira e
-  Sábado.
-</em>
+</TabItem>
+<TabItem label="Quarta-feira e Sábado">
 
 ## Terceiro Nocturno
 
+<Tabs>
+<TabItem label="Depois da Purificação">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     <em>Ant.</em> Gaude, Maria Virgo: cunctas hæreses sola intermenisti in
@@ -393,6 +386,21 @@ import Salmo86 from "./../salterio/086.mdx";
     todas as heresias em todo o mundo.
   </span>
 </div>
+</TabItem>
+<TabItem label="No Advento">
+
+<div class="grid grid-cols-2 gap-5">
+  <span class="text-justify">
+    <em>Ant.</em> Angelus Domini nuntiavit Mariæ, et concepit de Spiritu Sancto,
+    (Allelúja)
+  </span>
+  <span class="text-justify">
+    <em>Ant.</em> O Anjo do Senhor anunciou a Maria, e ela concebeu do Espírito
+    Santo.
+  </span>
+</div>
+</TabItem>
+</Tabs>
 
 import Salmo95 from "./../salterio/095.mdx";
 
@@ -439,16 +447,32 @@ import Salmo96 from "./../salterio/096.mdx";
   </span>
 </div>
 
-<div class="grid grid-cols-2 gap-5">
-  <span class="text-justify">
-    <em>Ant.</em> Post partum virgo inviolata permansisti: Dei Genitrix,
-    intercede pro nobis.
-  </span>
-  <span class="text-justify">
-    <em>Ant.</em> Depois do parto permanecestes virgem imaculada; Mãe de Deus,
-    intercedei por nós.
-  </span>
-</div>
+<Tabs>
+  <TabItem label="Depois da Purificação">
+    <div class="grid grid-cols-2 gap-5">
+      <span class="text-justify">
+        <em>Ant.</em> Post partum virgo inviolata permansisti: Dei Genitrix,
+        intercede pro nobis.
+      </span>
+      <span class="text-justify">
+        <em>Ant.</em> Depois do parto permanecestes virgem imaculada; Mãe de
+        Deus, intercedei por nós.
+      </span>
+    </div>
+  </TabItem>
+  <TabItem label="No Advento">
+    <div class="grid grid-cols-2 gap-5">
+      <span class="text-justify">
+        <em>Ant.</em> Angelus Domini nuntiavit Mariæ, et concepit de Spiritu
+        Sancto, (Allelúja)
+      </span>
+      <span class="text-justify">
+        <em>Ant.</em> O Anjo do Senhor anunciou a Maria, e ela concebeu do
+        Espírito Santo.
+      </span>
+    </div>
+  </TabItem>
+</Tabs>
 
 import Salmo97 from "./../salterio/097.mdx";
 
@@ -456,6 +480,8 @@ import Salmo97 from "./../salterio/097.mdx";
 
 <Salmo97 />
 
+<Tabs>
+<TabItem label="Depois da Purificação">
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
     <em>Ant.</em> Post partum virgo inviolata permansisti: Dei Genitrix,
@@ -466,6 +492,23 @@ import Salmo97 from "./../salterio/097.mdx";
     intercedei por nós.
   </span>
 </div>
+
+  </TabItem>
+  <TabItem label="No Advento">
+<div class="grid grid-cols-2 gap-5">
+  <span class="text-justify">
+    <em>Ant.</em> Angelus Domini nuntiavit Mariæ, et concepit de Spiritu Sancto,
+    (Allelúja)
+  </span>
+  <span class="text-justify">
+    <em>Ant.</em> O Anjo do Senhor anunciou a Maria, e ela concebeu do Espírito
+    Santo.
+  </span>
+</div>
+</TabItem>
+</Tabs>
+  </TabItem>
+</Tabs>
 
 ## Versículo
 
@@ -526,6 +569,8 @@ import Salmo97 from "./../salterio/097.mdx";
   </span>
 </div>
 
+<Tabs>
+<TabItem label="Depois da Natal">
 ## Lição 1
 
 _Ecl. 24, 11-13_
@@ -639,10 +684,10 @@ _Ecl. 24, 15-16_
   </span>
 </div>
 
-<em>
-  Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o seguinte no
-  fim do Responsório:
-</em>
+:::note
+Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o seguinte no
+fim do Responsório:
+:::
 
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
@@ -709,11 +754,11 @@ _Ecl. 24, 17-20_
   </span>
 </div>
 
-<em>
-  O Te Deum não é dito no Advento, ou da Septuagésima até à Páscoa, excluindo as
-  Festas de Nossa Senhora. O seguinte Responsório é dito quando o Te Deum é
-  omitido:
-</em>
+:::note
+O Te Deum não é dito no Advento, ou da Septuagésima até à Páscoa, excluindo as
+Festas de Nossa Senhora. O seguinte Responsório é dito quando o Te Deum é
+omitido:
+:::
 
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
@@ -755,148 +800,8 @@ _Ecl. 24, 17-20_
     <span class="text-red-500">R.</span> Jesus Cristo, nosso Deus.
   </span>
 </div>
-
-import TeDeum from "./../../canticos/sacros/tedeum.mdx";
-
-## Te Deum
-
-<TeDeum />
-
-<em>
-  As Matinas acabam depois do Terceiro Responsório ou do Te Deum, porque é usual
-  depois das Matinas passar-se directamente para as Laudes. No entanto, se não
-  continuar para as Laudes diz:
-</em>
-
-<div class="grid grid-cols-2 gap-5">
-  <span class="text-justify">V. Domine, exaudi orationem meam.</span>
-  <span class="text-justify">V. Ouvi, Senhor, a minha oração.</span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Et clamor meus ad te veniat.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> E o meu clamor chegue até Vós.
-  </span>
-  <span class="text-red-500 text-center">Orémus.</span>
-  <span class="text-red-500 text-center">Oremos.</span>
-  <span class="text-justify">
-    Concede nos famulos tuos, quǽsumus, Domine Deus, perpetua mentis et corporis
-    sanitate gaudere: et gloriosa beatæ Mariæ semper Virginis intercessione, a
-    præsenti liberari tristitia, et æterna perfrui lætitia. Per Dominum nostrum
-    Jesum Christum.
-  </span>
-  <span class="text-justify">
-    Senhor Deus, nós Vos suplicamos que concedais a vossos servos lograr uma
-    perpétua saúde de corpo e alma, e que pela intercessão gloriosa da
-    bem-aventurada sempre Virgem Maria sejamos livres da presente tristeza, e
-    gozemos da eterna alegria. Por Jesus Cristo nosso Senhor.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-  <span class="text-justify">V. Domine, exaudi orationem meam.</span>
-  <span class="text-justify">V. Ouvi, Senhor, a minha oração.</span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Et clamor meus ad te veniat.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> E o meu clamor chegue até Vós.
-  </span>
-  <span class="text-justify">V. Benedicamus Domino.</span>
-  <span class="text-justify">V. Bendigamos o Senhor.</span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Deo gratias.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Graças a Deus.
-  </span>
-  <span class="text-justify">
-    V. Fidelium animæ per misericordiam Dei, requiescant in pace.
-  </span>
-  <span class="text-justify">
-    V. E que as almas dos fiéis, pela misericórdia de Deus, descansem em paz.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-</div>
-
-# Matinas 2
-
-<em>
-  Tudo como no primeiro oficio, excepto o seguinte: No Terceiro Nocturno, na
-  Quarta-feira, no Sábado e na Festa da Anunciação, a última Antífona é a
-  seguinte; são próprias as Lições e Responsórios que seguem.
-</em>
-
-<div class="grid grid-cols-2 gap-5">
-  <span class="text-justify">
-    <em>Ant.</em> Angelus Domini nuntiavit Mariæ, et concepit de Spiritu Sancto,
-    (Allelúja)
-  </span>
-  <span class="text-justify">
-    <em>Ant.</em> O Anjo do Senhor anunciou a Maria, e ela concebeu do Espírito
-    Santo.
-  </span>
-</div>
-
-## Salmo 97
-
-<Salmo97 />
-
-<div class="grid grid-cols-2 gap-5">
-  <span class="text-justify">
-    <em>Ant.</em> Angelus Domini nuntiavit Mariæ, et concepit de Spiritu Sancto,
-    (Allelúja)
-  </span>
-  <span class="text-justify">
-    <em>Ant.</em> O Anjo do Senhor anunciou a Maria, e ela concebeu do Espírito
-    Santo.
-  </span>
-</div>
-
-## Absolvição
-
-<div class="grid grid-cols-2 gap-5">
-  <span class="text-justify">
-    Precibus et meritis beatæ Mariæ semper Virginis, et omnium Sanctorum,
-    perducat nos Dominus ad regna cælorum.
-  </span>
-  <span class="text-justify">
-    Pelos rogos e merecimentos da bem-aventurada Virgem Maria, e de todos os
-    Santos, nos conduza o Senhor ao reino dos céus.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-  <span class="text-justify">V. Jube, Domine, benedicere.</span>
-  <span class="text-justify">V. Dai-me, ó Senhor, a vossa bênção.</span>
-</div>
-
-## Bênção
-
-<div class="grid grid-cols-2 gap-5">
-  <span class="text-justify">Nos cum prole pia benedicat Virgo Maria.</span>
-  <span class="text-justify">
-    Benza-nos a Virgem Maria com seu piíssimo Filho.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-  <span class="text-justify">
-    <span class="text-red-500">R.</span> Amen.
-  </span>
-</div>
-
+</TabItem>
+<TabItem label="No Advento">
 ## Lição 1
 
 _Lc. 1, 26-28_
@@ -1026,10 +931,10 @@ _Lc. 1, 29-33_
   </span>
 </div>
 
-<em>
-  Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o seguinte no
-  fim do Responsório:
-</em>
+:::note
+Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o seguinte no
+fim do Responsório:
+:::
 
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
@@ -1102,10 +1007,10 @@ _Lc. 1, 34-38_
   </span>
 </div>
 
-<em>
-  O Te Deum não é dito no Advento, excluindo as Festas de Nossa Senhora. O
-  seguinte Responsório é dito quando o Te Deum é omitido:
-</em>
+:::note
+O Te Deum não é dito no Advento, excluindo as Festas de Nossa Senhora. O
+seguinte Responsório é dito quando o Te Deum é omitido:
+:::
 
 <div class="grid grid-cols-2 gap-5">
   <span class="text-justify">
@@ -1149,3 +1054,87 @@ _Lc. 1, 34-38_
     todas as mulheres.
   </span>
 </div>
+</TabItem>
+</Tabs>
+
+import TeDeum from "./../../canticos/sacros/tedeum.mdx";
+
+## Te Deum
+
+<TeDeum />
+
+:::note
+As Matinas acabam depois do Terceiro Responsório ou do Te Deum, porque é usual
+depois das Matinas passar-se directamente para as Laudes. No entanto, se não
+continuar para as Laudes diz:
+:::
+
+<div class="grid grid-cols-2 gap-5">
+  <span class="text-justify">V. Domine, exaudi orationem meam.</span>
+  <span class="text-justify">V. Ouvi, Senhor, a minha oração.</span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Et clamor meus ad te veniat.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> E o meu clamor chegue até Vós.
+  </span>
+</div>
+
+<div class="grid grid-cols-2 gap-5">
+  <span class="text-red-500 text-center">Orémus.</span>
+  <span class="text-red-500 text-center">Oremos.</span>
+  <span class="text-justify">
+    Deus, cujus misericórdiæ non est númerus et bonitátis infinítus est
+    thesáurus, piíssmimæ majestáti tuæ pro collátis donis grátias ágimus, tuam
+    semper cleméntiam exorántes, ut qui peténtibus postuláta concédis, eósdem
+    non déserens, ad prǽmia futúra dispónas. Per Christum Dóminum nostrum.
+  </span>
+  <span class="text-justify">
+    Ó Deus, cuja misericórdia é infinita e cuja bondade é um tesouro
+    inesgotável, dignai-Vos aceitar as graças que rendemos à vossa clemência
+    pelos benefícios que nos concedestes; e Vos pedimos que, atendendo
+    benignamente às orações dos vossos suplicantes, não fiquem abandonados e
+    possam alcançar as recompensas futuras. Por Cristo, nosso Senhor.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Amen.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Amen.
+  </span>
+</div>
+
+<div class="grid grid-cols-2 gap-5">
+  <span class="text-justify">V. Domine, exaudi orationem meam.</span>
+  <span class="text-justify">V. Ouvi, Senhor, a minha oração.</span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Et clamor meus ad te veniat.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> E o meu clamor chegue até Vós.
+  </span>
+  <span class="text-justify">V. Benedicamus Domino.</span>
+  <span class="text-justify">V. Bendigamos o Senhor.</span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Deo gratias.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Graças a Deus.
+  </span>
+  <span class="text-justify">
+    V. Fidelium animæ per misericordiam Dei, requiescant in pace.
+  </span>
+  <span class="text-justify">
+    V. E que as almas dos fiéis, pela misericórdia de Deus, descansem em paz.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Amen.
+  </span>
+  <span class="text-justify">
+    <span class="text-red-500">R.</span> Amen.
+  </span>
+</div>
+
+:::note
+Acabar com uma [Antífona de Nossa Senhora](/devocionario/oracoes/antifonas).
+:::
