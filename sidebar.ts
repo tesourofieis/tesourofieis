@@ -60,15 +60,48 @@ export const sidebar = [
         autogenerate: { directory: "missal/prefacios" },
       },
       {
+        label: "Orações Preliminares",
+        link: "/missal/oracoespreliminares",
+      },
+      {
+        label: "Paramentação do Sacerdote",
+        link: "/missal/paramentacaosacerdote",
+      },
+      {
         label: "Orações Complementares",
-        collapsed: true,
-        autogenerate: { directory: "missal/complementares" },
+        link: "/missal/oracoescomplementares",
+      },
+      { label: "Orações antes Comunhão", link: "/missal/oracoesantescomunhao" },
+      {
+        label: "Orações depois Comunhão",
+        link: "/missal/oracoesdepoiscomunhao",
+      },
+      {
+        label: "Asperges",
+        link: "/missal/aspergesme",
+      },
+      {
+        label: "Vidi Aquam",
+        link: "/missal/vidiaquam",
+      },
+      {
+        label: "Orações Leoninas",
+        link: "/missal/oracoesleoninas",
+      },
+      {
+        label: "Ofício dos Agonizantes",
+        link: "/missal/oficioagonizantes",
+      },
+      {
+        label: "Ofício dos Defuntos",
+        link: "/missal/oficiodefuntos",
       },
     ],
   },
   {
     label: "Devocionario",
     items: [
+      { label: "Introdução", link: "/devocionario/introducao" },
       { label: "Rosario", link: "/devocionario/rosario" },
       {
         label: "Salterio",
@@ -76,10 +109,12 @@ export const sidebar = [
         autogenerate: { directory: "devocionario/salterio" },
       },
       { label: "Adoração", link: "/devocionario/adoracao" },
+      { label: "Via Sacra", link: "/devocionario/viasacra" },
       {
         label: "Oracões do dia",
         collapsed: true,
         items: [
+          { label: "Bençãos", link: "/devocionario/dia/bencaos" },
           { label: "Oração da Manhã", link: "/devocionario/dia/oracaomanha" },
           { label: "Angelus", link: "/devocionario/dia/angelus" },
           { label: "Oração da Noite", link: "/devocionario/dia/oracaonoite" },
