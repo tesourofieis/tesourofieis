@@ -42,7 +42,9 @@
   "devDependencies": {
     "@biomejs/biome": "1.5.2",
     "@iconify-icon/react": "^1.0.8",
+    "@playwright/test": "^1.41.2",
     "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.11.17",
     "lint-staged": "^15.2.0",
     "vitest": "^1.2.1"
   },
