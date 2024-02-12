@@ -80,7 +80,7 @@ export const sidebar = [
         link: "/missal/oracoesdepoiscomunhao",
       },
       {
-        label: "Asperges",
+        label: "Asperges me",
         link: "/missal/aspergesme",
       },
       {
@@ -105,13 +105,8 @@ export const sidebar = [
     label: "Devocionario",
     items: [
       { label: "Introdução", link: "/devocionario/introducao" },
-      { label: "Rosario", link: "/devocionario/rosario" },
-      {
-        label: "Salterio",
-        collapsed: true,
-        autogenerate: { directory: "devocionario/salterio" },
-      },
       { label: "Adoração", link: "/devocionario/adoracao" },
+      { label: "Rosario", link: "/devocionario/rosario" },
       { label: "Via Sacra", link: "/devocionario/viasacra" },
       {
         label: "Antífonas de Nossa Senhora",
@@ -129,6 +124,11 @@ export const sidebar = [
         ],
       },
       {
+        label: "Orações Diversas",
+        collapsed: true,
+        autogenerate: { directory: "devocionario/oracoes" },
+      },
+      {
         label: "Pequeno Oficio de Nossa Senhora",
         collapsed: true,
         items: [
@@ -143,9 +143,9 @@ export const sidebar = [
         ],
       },
       {
-        label: "Orações",
+        label: "Salterio",
         collapsed: true,
-        autogenerate: { directory: "devocionario/oracoes" },
+        autogenerate: { directory: "devocionario/salterio" },
       },
     ],
   },
