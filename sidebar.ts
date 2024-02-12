@@ -71,9 +71,12 @@ export const sidebar = [
         label: "Orações Complementares",
         link: "/missal/oracoescomplementares",
       },
-      { label: "Orações antes Comunhão", link: "/missal/oracoesantescomunhao" },
       {
-        label: "Orações depois Comunhão",
+        label: "Orações para antes da Comunhão",
+        link: "/missal/oracoesantescomunhao",
+      },
+      {
+        label: "Orações para depois da Comunhão",
         link: "/missal/oracoesdepoiscomunhao",
       },
       {
@@ -110,6 +113,11 @@ export const sidebar = [
       },
       { label: "Adoração", link: "/devocionario/adoracao" },
       { label: "Via Sacra", link: "/devocionario/viasacra" },
+      {
+        label: "Antífonas de Nossa Senhora",
+        collapsed: true,
+        autogenerate: { directory: "devocionario/antifonas" },
+      },
       {
         label: "Oracões do dia",
         collapsed: true,
