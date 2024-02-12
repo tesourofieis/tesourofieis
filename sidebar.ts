@@ -60,30 +60,73 @@ export const sidebar = [
         autogenerate: { directory: "missal/prefacios" },
       },
       {
+        label: "Orações Preliminares",
+        link: "/missal/oracoespreliminares",
+      },
+      {
+        label: "Paramentação do Sacerdote",
+        link: "/missal/paramentacaosacerdote",
+      },
+      {
         label: "Orações Complementares",
-        collapsed: true,
-        autogenerate: { directory: "missal/complementares" },
+        link: "/missal/oracoescomplementares",
+      },
+      {
+        label: "Orações para antes da Comunhão",
+        link: "/missal/oracoesantescomunhao",
+      },
+      {
+        label: "Orações para depois da Comunhão",
+        link: "/missal/oracoesdepoiscomunhao",
+      },
+      {
+        label: "Asperges me",
+        link: "/missal/aspergesme",
+      },
+      {
+        label: "Vidi Aquam",
+        link: "/missal/vidiaquam",
+      },
+      {
+        label: "Orações Leoninas",
+        link: "/missal/oracoesleoninas",
+      },
+      {
+        label: "Ofício dos Agonizantes",
+        link: "/missal/oficioagonizantes",
+      },
+      {
+        label: "Ofício dos Defuntos",
+        link: "/missal/oficiodefuntos",
       },
     ],
   },
   {
     label: "Devocionario",
     items: [
-      { label: "Rosario", link: "/devocionario/rosario" },
-      {
-        label: "Salterio",
-        collapsed: true,
-        autogenerate: { directory: "devocionario/salterio" },
-      },
+      { label: "Introdução", link: "/devocionario/introducao" },
       { label: "Adoração", link: "/devocionario/adoracao" },
+      { label: "Rosario", link: "/devocionario/rosario" },
+      { label: "Via Sacra", link: "/devocionario/viasacra" },
+      {
+        label: "Antífonas de Nossa Senhora",
+        collapsed: true,
+        autogenerate: { directory: "devocionario/antifonas" },
+      },
       {
         label: "Oracões do dia",
         collapsed: true,
         items: [
+          { label: "Bençãos", link: "/devocionario/dia/bencaos" },
           { label: "Oração da Manhã", link: "/devocionario/dia/oracaomanha" },
           { label: "Angelus", link: "/devocionario/dia/angelus" },
           { label: "Oração da Noite", link: "/devocionario/dia/oracaonoite" },
         ],
+      },
+      {
+        label: "Orações Diversas",
+        collapsed: true,
+        autogenerate: { directory: "devocionario/oracoes" },
       },
       {
         label: "Pequeno Oficio de Nossa Senhora",
@@ -100,9 +143,9 @@ export const sidebar = [
         ],
       },
       {
-        label: "Orações",
+        label: "Salterio",
         collapsed: true,
-        autogenerate: { directory: "devocionario/oracoes" },
+        autogenerate: { directory: "devocionario/salterio" },
       },
     ],
   },
