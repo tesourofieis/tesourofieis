@@ -48,30 +48,30 @@ export default function InteractiveCard() {
 
   if (!calendar) {
     return (
-      <div className="border border-gray-300 gap-3 grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
+      <div className="shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-100 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-600 gap-5 grid min-h-[140px] w-full place-items-center overflow-x-scroll p-6 lg:overflow-visible">
         <Loading />
       </div>
     );
   }
 
   return (
-    <div className="border border-sepia-600 rounded p-3 gap-3">
+    <div className="flex flex-col shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-100 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-600 no-underline p-4 gap-5">
       <div className="flex justify-between not-content">
         <h2>Dia e Hora</h2>
         {window && <Notifications />}
       </div>
-      <h6>
+      <span className="italic">
+        Muda a Missa, o Ofício, o Angelus e as orações do dia consoante o dia e
+        a hora
+      </span>
+      <span className="font-bold">
         {new Date().toLocaleTimeString("pt", {
           month: "long",
           weekday: "long",
           day: "2-digit",
           hour: "numeric",
         })}
-      </h6>
-      <em>
-        Muda a Missa, o Ofício, o Angelus e as orações do dia consoante o dia e
-        a hora
-      </em>
+      </span>
       <LinkCard
         link="/missal/dia"
         title={

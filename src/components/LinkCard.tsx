@@ -1,3 +1,5 @@
+import { Icon } from "@iconify-icon/react";
+
 export default function LinkCard({
   link,
   caption,
@@ -12,12 +14,15 @@ export default function LinkCard({
   return (
     <a
       href={link}
-      className="block border my-3 border-gray-500 rounded p-3 hover:border-sepia-500 no-underline"
+      className="block shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-200 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-400 no-underline p-4"
     >
-      <div className="flex flex-col">
-        <em className="text-gray-500">{description}</em>
-        <p className="font-bold">{title}</p>
-        {caption && <p className="font-sm text-left">{caption}</p>}
+      <div className="">
+        <div className="flex justify-between items-center">
+          <span className="font-bold">{title}</span>
+          <Icon className="text-sm" icon="ooui:arrow-previous-rtl" />
+        </div>
+        <span className="text-sepia-600">{description}</span>
+        {caption && <p className="font-sm">{caption}</p>}
       </div>
     </a>
   );
