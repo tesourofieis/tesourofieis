@@ -5,7 +5,7 @@ import Default from '@astrojs/starlight/components/Head.astro';
 
 <Default {...Astro.props} />
 
-<script>
+<script defer={true}>
   import { initializeApp } from "firebase/app";
   import { getAnalytics } from "firebase/analytics";
   import { getToken, getMessaging } from "firebase/messaging";
