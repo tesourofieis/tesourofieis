@@ -38,15 +38,6 @@ export default defineConfig({
         {
           tag: "meta",
           attrs: {
-            name: "og:description",
-            property: "og:description",
-            content:
-              "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja",
-          },
-        },
-        {
-          tag: "meta",
-          attrs: {
             name: "og:url",
             property: "og:url",
             content: site,
@@ -64,14 +55,6 @@ export default defineConfig({
           attrs: {
             name: "twitter:title",
             content: "Tesouro dos Fiéis",
-          },
-        },
-        {
-          tag: "meta",
-          attrs: {
-            name: "twitter:description",
-            content:
-              "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja",
           },
         },
         {
@@ -135,7 +118,7 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             name: "theme-color",
-            content: "#3f3f46",
+            content: "#32302f",
           },
         },
         {
