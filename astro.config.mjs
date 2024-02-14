@@ -126,13 +126,14 @@ export default defineConfig({
           attrs: {
             type: "text/partytown",
             src: "https://www.googletagmanager.com/gtag/js?id=G-CYLKZM1NJQ",
-            async: true,
+            defer: true,
           },
         },
         {
           tag: "script",
           attrs: {
             type: "text/partytown",
+            defer: true,
           },
           content: `
             window.dataLayer = window.dataLayer || [];
