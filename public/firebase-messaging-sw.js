@@ -17,8 +17,7 @@ self.addEventListener("push", () => {
       return self.registration.showNotification("Hora do Angelus", {
         body: `Toque das Avés Marias - Hora ${currentHour}`,
         icon: "./murillo.jpeg",
-        badge: "/favicon72.png",
-        requireInteraction: true,
+        badge: "./maskable_icon_x512.png",
       });
     default:
       break;
