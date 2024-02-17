@@ -31,7 +31,6 @@ export default {
         ],
         body: [
           "EB Garamond Variable",
-          "Noto Serif Variable",
           ...defaultTheme.fontFamily.serif,
           ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
         ],
