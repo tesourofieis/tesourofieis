@@ -26,8 +26,8 @@ export default {
       fontFamily: {
         display: ['"Berkshire Swash"', ...defaultTheme.fontFamily.serif],
         body: [
-          "Noto Serif Variable",
           "EB Garamond Variable",
+          "Noto Serif Variable",
           ...defaultTheme.fontFamily.serif,
         ],
       },
