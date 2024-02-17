@@ -24,11 +24,16 @@ export default {
         },
       },
       fontFamily: {
-        display: ['"Berkshire Swash"', ...defaultTheme.fontFamily.serif],
+        display: [
+          '"Berkshire Swash"',
+          ...defaultTheme.fontFamily.serif,
+          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
+        ],
         body: [
           "EB Garamond Variable",
           "Noto Serif Variable",
           ...defaultTheme.fontFamily.serif,
+          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
         ],
       },
     },
