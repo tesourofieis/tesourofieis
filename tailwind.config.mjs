@@ -25,7 +25,11 @@ export default {
       },
       fontFamily: {
         display: ['"Berkshire Swash"', ...defaultTheme.fontFamily.serif],
-        body: ['"Cardo"', ...defaultTheme.fontFamily.serif],
+        body: [
+          "Noto Serif Variable",
+          "EB Garamond Variable",
+          ...defaultTheme.fontFamily.serif,
+        ],
       },
     },
   },
