@@ -46,11 +46,12 @@
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20.11.17",
     "lint-staged": "^15.2.0",
+    "prettier": "^3.2.5",
     "vitest": "^1.2.1"
   },
   "lint-staged": {
     "*.{json,md,mdx,ts}": [
-      "npx prettier src -w"
+      "prettier src -w"
     ]
   }
 }
