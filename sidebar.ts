@@ -5,7 +5,7 @@ export const sidebar = [
       {
         label: "Dia",
         link: "/missal/dia",
-        badge: { text: "Varia", variant: "note" },
+        badge: { text: "Varia com dia", variant: "note" },
       },
       {
         label: "Ordo",
@@ -114,7 +114,11 @@ export const sidebar = [
   {
     label: "Devocionario",
     items: [
-      { label: "Introdução", link: "/devocionario/introducao" },
+      {
+        label: "Introdução",
+        link: "/devocionario/introducao",
+        badge: { text: "Novo", variant: "success" },
+      },
       { label: "Adoração", link: "/devocionario/adoracao" },
       { label: "Rosario", link: "/devocionario/rosario" },
       {

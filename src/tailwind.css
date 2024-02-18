@@ -1,5 +1,6 @@
 @import "@fontsource/berkshire-swash";
 @import "@fontsource-variable/eb-garamond";
+@import "@fontsource/cardo";
 
 @tailwind base;
 @tailwind components;
@@ -47,11 +48,12 @@
 
   body {
     @apply font-body;
-    font-size: 18px;
+    font-size: 1.26rem;
+    line-height: 1.6;
   }
 
   h2 {
-    @apply font-display;
+    @apply font-display text-center;
     color: theme("colors.red.600") !important;
   }
 
@@ -60,7 +62,7 @@
   h4,
   h5,
   h6 {
-    @apply font-display;
+    @apply font-display text-center;
   }
 }
 

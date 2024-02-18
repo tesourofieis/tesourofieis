@@ -25,17 +25,18 @@ export default {
       },
       fontFamily: {
         display: [
-          '"Berkshire Swash"',
+          "Berkshire Swash",
           ...defaultTheme.fontFamily.serif,
           ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
         ],
         body: [
           "EB Garamond Variable",
+          "Cardo",
           ...defaultTheme.fontFamily.serif,
           ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
         ],
       },
     },
   },
-  plugins: [starlightPlugin(), require("@tailwindcss/typography")],
+  plugins: [starlightPlugin()],
 };
