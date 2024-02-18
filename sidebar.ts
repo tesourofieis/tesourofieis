@@ -114,6 +114,11 @@ export const sidebar = [
         autogenerate: { directory: "devocionario/antifonas" },
       },
       {
+        label: "Ladaínhas",
+        collapsed: true,
+        autogenerate: { directory: "devocionario/ladainhas" },
+      },
+      {
         label: "Oracões do dia",
         collapsed: true,
         items: [
