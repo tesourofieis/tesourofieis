@@ -1,18 +1,9 @@
-@import "@fontsource/eb-garamond";
 @import "@fontsource/berkshire-swash";
+@import "@fontsource-variable/eb-garamond";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* other default colors */
-
-/* more default colors */
-
-/*
-Add additional Tailwind styles to this file, for example with @layer:
-https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
-*/
 
 @layer base {
   /* Dark Theme */
@@ -74,5 +65,5 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 }
 
 .side-by-side {
-  @apply grid grid-cols-2 gap-5 text-justify;
+  @apply grid grid-cols-2 gap-5 text-justify prose;
 }
