@@ -50,7 +50,7 @@ export default function Proper({
               {section?.id}
             </h2>
             <p className="text-center">{proper?.info.title}</p>
-            <div className="grid grid-cols-2 gap-5">
+            <div className="side-by-side not-content">
               <span className="">
                 {section?.body?.latin?.map((text, i) => (
                   <p

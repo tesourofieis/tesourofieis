@@ -65,5 +65,5 @@
 }
 
 .side-by-side {
-  @apply grid grid-cols-2 gap-5 text-justify prose;
+  @apply grid grid-cols-2 gap-5 text-justify;
 }
