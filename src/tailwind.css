@@ -1,18 +1,9 @@
-@import "@fontsource/cardo";
 @import "@fontsource/berkshire-swash";
+@import "@fontsource-variable/eb-garamond";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* other default colors */
-
-/* more default colors */
-
-/*
-Add additional Tailwind styles to this file, for example with @layer:
-https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
-*/
 
 @layer base {
   /* Dark Theme */
@@ -30,7 +21,6 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
     --sl-color-bg-accent: theme("colors.sepia.700");
     --sl-color-banner-text: theme("colors.sepia.300");
     --sl-color-black: theme("colors.sepia.900");
-    --sl-color-blue-low: theme("colors.sepia.700");
     --sl-color-text: theme("colors.sepia.200");
   }
 
@@ -49,18 +39,18 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
     --sl-color-bg-accent: theme("colors.sepia.300");
     --sl-color-black: theme("colors.sepia.100");
     --sl-color-banner-text: theme("colors.sepia.700");
-    --sl-color-blue-low: theme("colors.sepia.400");
     --sl-color-text: theme("colors.sepia.900");
     --sl-color-bg-sidebar: theme("colors.sepia.200");
   }
 
   body {
     @apply font-body;
-    font-size: 18px;
+    font-size: 1.26rem;
+    line-height: 1.6;
   }
 
   h2 {
-    @apply font-display;
+    @apply font-display text-center;
     color: theme("colors.red.600") !important;
   }
 
@@ -69,6 +59,28 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
   h4,
   h5,
   h6 {
-    @apply font-display;
+    @apply font-display text-center;
   }
 }
+
+.side-by-side {
+  @apply grid grid-cols-2 gap-5 text-justify;
+}
+
+.cross {
+  padding: 1px 10px;
+  text-align: center;
+}
+
+aside:not([class]) {
+  @apply p-4 rounded bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  border-inline-start: 0.25rem solid;
+}
+
+em {
+  @apply py-1 px-1 rounded bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+}
+
+/* aside a { */
+/*   @apply underline text-blue-800 dark:text-blue-300; */
+/* } */

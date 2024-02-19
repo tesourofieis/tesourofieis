@@ -19,8 +19,8 @@
     "@astrojs/starlight-tailwind": "^2.0.1",
     "@astrojs/tailwind": "^5.1.0",
     "@date-fns/utc": "^1.1.1",
+    "@fontsource-variable/eb-garamond": "^5.0.17",
     "@fontsource/berkshire-swash": "^5.0.18",
-    "@fontsource/cardo": "^5.0.8",
     "@iconify/json": "^2.2.178",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
@@ -40,17 +40,16 @@
     "husky": "^8.0.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.2",
     "@iconify-icon/react": "^1.0.8",
     "@playwright/test": "^1.41.2",
-    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20.11.17",
     "lint-staged": "^15.2.0",
+    "prettier": "^3.2.5",
     "vitest": "^1.2.1"
   },
   "lint-staged": {
     "*.{json,md,mdx,ts}": [
-      "npx prettier src -w"
+      "prettier src -w"
     ]
   }
 }

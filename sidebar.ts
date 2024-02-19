@@ -2,8 +2,17 @@ export const sidebar = [
   {
     label: "Missal",
     items: [
-      { label: "Dia", link: "/missal/dia" },
-      { label: "Ordo", link: "/missal/ordo" },
+      {
+        label: "Dia",
+        link: "/missal/dia",
+        badge: { text: "Variável" },
+      },
+      {
+        label: "Ordo",
+        link: "/missal/ordo",
+
+        badge: { text: "Variável" },
+      },
       {
         label: "Advento",
         collapsed: true,
@@ -23,6 +32,7 @@ export const sidebar = [
         label: "Quaresma",
         collapsed: true,
         autogenerate: { directory: "missal/quaresma" },
+        badge: { text: "Tempo presente" },
       },
       {
         label: "Páscoa",
@@ -104,20 +114,38 @@ export const sidebar = [
   {
     label: "Devocionario",
     items: [
-      { label: "Introdução", link: "/devocionario/introducao" },
+      {
+        label: "Introdução",
+        link: "/devocionario/introducao",
+        badge: { text: "Novo" },
+      },
       { label: "Adoração", link: "/devocionario/adoracao" },
       { label: "Rosario", link: "/devocionario/rosario" },
-      { label: "Via Sacra", link: "/devocionario/viasacra" },
+      {
+        label: "Via Sacra",
+        link: "/devocionario/viasacra",
+        badge: { text: "Novo" },
+      },
       {
         label: "Antífonas de Nossa Senhora",
         collapsed: true,
         autogenerate: { directory: "devocionario/antifonas" },
       },
       {
+        label: "Ladainhas",
+        collapsed: true,
+        autogenerate: { directory: "devocionario/ladainhas" },
+        badge: { text: "Novo" },
+      },
+      {
         label: "Oracões do dia",
         collapsed: true,
         items: [
-          { label: "Bençãos", link: "/devocionario/dia/bencaos" },
+          {
+            label: "Bençãos",
+            link: "/devocionario/dia/bencaos",
+            badge: { text: "Novo" },
+          },
           { label: "Oração da Manhã", link: "/devocionario/dia/oracaomanha" },
           { label: "Angelus", link: "/devocionario/dia/angelus" },
           { label: "Oração da Noite", link: "/devocionario/dia/oracaonoite" },
@@ -163,6 +191,7 @@ export const sidebar = [
       {
         label: "Juramento anti-modernista",
         link: "/fe/juramento",
+        badge: { text: "Novo" },
       },
     ],
   },
@@ -178,6 +207,7 @@ export const sidebar = [
         label: "Populares",
         collapsed: true,
         autogenerate: { directory: "canticos/populares" },
+        badge: { text: "Novo" },
       },
     ],
   },
