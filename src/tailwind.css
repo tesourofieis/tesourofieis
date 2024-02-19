@@ -1,6 +1,5 @@
 @import "@fontsource/berkshire-swash";
 @import "@fontsource-variable/eb-garamond";
-@import "@fontsource/cardo";
 
 @tailwind base;
 @tailwind components;
@@ -22,7 +21,6 @@
     --sl-color-bg-accent: theme("colors.sepia.700");
     --sl-color-banner-text: theme("colors.sepia.300");
     --sl-color-black: theme("colors.sepia.900");
-    --sl-color-blue-low: theme("colors.sepia.700");
     --sl-color-text: theme("colors.sepia.200");
   }
 
@@ -41,7 +39,6 @@
     --sl-color-bg-accent: theme("colors.sepia.300");
     --sl-color-black: theme("colors.sepia.100");
     --sl-color-banner-text: theme("colors.sepia.700");
-    --sl-color-blue-low: theme("colors.sepia.400");
     --sl-color-text: theme("colors.sepia.900");
     --sl-color-bg-sidebar: theme("colors.sepia.200");
   }
@@ -77,6 +74,7 @@
 
 aside:not([class]) {
   @apply p-4 rounded bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  border-inline-start: 0.25rem solid;
 }
 
 em {
