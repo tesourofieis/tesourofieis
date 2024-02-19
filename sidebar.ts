@@ -5,13 +5,13 @@ export const sidebar = [
       {
         label: "Dia",
         link: "/missal/dia",
-        badge: { text: "Varia com dia", variant: "note" },
+        badge: { text: "Variável", variant: "note" },
       },
       {
         label: "Ordo",
         link: "/missal/ordo",
 
-        badge: { text: "Varia", variant: "note" },
+        badge: { text: "Variável", variant: "note" },
       },
       {
         label: "Advento",
@@ -132,7 +132,7 @@ export const sidebar = [
         autogenerate: { directory: "devocionario/antifonas" },
       },
       {
-        label: "Ladaínhas",
+        label: "Ladainhas",
         collapsed: true,
         autogenerate: { directory: "devocionario/ladainhas" },
         badge: { text: "Novo", variant: "success" },
