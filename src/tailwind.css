@@ -69,3 +69,20 @@
 .side-by-side {
   @apply grid grid-cols-2 gap-5 text-justify;
 }
+
+.cross {
+  padding: 1px 10px;
+  text-align: center;
+}
+
+aside:not([class]) {
+  @apply p-4 rounded bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+}
+
+em {
+  @apply py-1 px-1 rounded bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+}
+
+/* aside a { */
+/*   @apply underline text-blue-800 dark:text-blue-300; */
+/* } */
