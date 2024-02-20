@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../calendar";
-import { format_propers } from "../utils";
+import { Calendar } from "../src/lib/calendar";
+import { format_propers } from "../src/lib/utils";
 
 test("2024-02-02", () => {
   const calendar = new Calendar(2024);

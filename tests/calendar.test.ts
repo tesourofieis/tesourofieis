@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { Calendar } from "../calendar";
+import { Calendar } from "../src/lib/calendar";
 
 describe("calendar", () => {
   test("easter", () => {
