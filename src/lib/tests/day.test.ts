@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
-import { Calendar } from "./calendar";
-import { format_propers } from "./utils";
+import { Calendar } from "../calendar";
+import { format_propers } from "../utils";
 
 describe("day", () => {
   test("2024-01-22", () => {
