@@ -107,6 +107,8 @@ class Day {
         );
         const proper = observance.getProper(properConfig);
         result.push(proper);
+
+        console.log(result);
       }
       return result[0];
     }
