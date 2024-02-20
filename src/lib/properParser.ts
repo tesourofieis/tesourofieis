@@ -60,7 +60,7 @@ class ProperParser {
         partial_path,
         LANGUAGE_LATIN,
       );
-      return [proper_vernacular, proper_latin];
+      return [[proper_vernacular, proper_latin]];
     } catch (error) {
       if (error) {
         console.error(

@@ -9,12 +9,743 @@ test("2024-12-25", () => {
 
   const propers = day?.getProper(calendar);
 
-  // const formated = format_propers(proper);
-  //
-  console.log(propers);
+  const formated = format_propers(propers);
 
-  expect(propers).toMatchObject({
-    info: {},
-    sections: [],
-  });
+  expect(formated).toMatchObject([
+    {
+      info: {
+        colors: ["w"],
+        date: null,
+        id: "sancti:12-25m1:1:w",
+        rank: 1,
+        tempora: null,
+        title: "Missa da Noite de Natal de N. S. Jesus Cristo",
+      },
+      sections: [
+        {
+          body: {
+            latin: ["In Nativitate Domini in nocte;;Duplex I Classis;;7", ""],
+            vernacular: [
+              "In Nativitate Domini in nocte;;Duplex I Classis;;7",
+              "",
+            ],
+          },
+          id: "Rank",
+        },
+        {
+          body: {
+            latin: [
+              "Gloria",
+              "Credo",
+              "Prefatio=Nat",
+              "celebranda aut missa prima aut missa secunda aut missa tertia",
+              "",
+            ],
+            vernacular: [
+              "Gloria",
+              "Credo",
+              "Prefatio=Nat",
+              "celebranda aut missa prima aut missa secunda aut missa tertia",
+              "",
+            ],
+          },
+          id: "Rule",
+        },
+        {
+          body: {
+            latin: undefined,
+            vernacular: [
+              "## 25 XII – Primeira Missa, à meia-noite de Natal de N. S. Jesus Cristo",
+              "Estação em Santa Maria Maior, no Presépio",
+              "1 classe",
+              "Paramentos brancos",
+              "",
+            ],
+          },
+          id: "Comment",
+        },
+        {
+          body: {
+            latin: [
+              "Ps 2:7.",
+              "Dóminus dixit ad me: Fílius meus es tu, ego hódie génui te.",
+              "Ps 2:1",
+              "Quare fremuérunt gentes: et pópuli meditáti sunt inánia?",
+              "Glória Patri…",
+              "Dóminus dixit ad me: Fílius meus es tu, ego hódie génui te.",
+              "",
+            ],
+            vernacular: [
+              "Sl 2:7",
+              "O Senhor disse-me: Sois o meu Filho: Eu Vos gerei hoje.",
+              "Sl 2:1",
+              "Porque se agitaram as nações? Porque meditaram os povos vãos projectos contra mim?",
+              "Glória ao Pai.",
+              "O Senhor disse-me: Sois o meu Filho: Eu Vos gerei hoje.",
+              "",
+            ],
+          },
+          id: "Introitus",
+        },
+        {
+          body: {
+            latin: [
+              "Deus, qui hanc sacratíssimam noctem veri lúminis fecísti illustratióne claréscere: da, quǽsumus; ut, cujus lucis mystéria in terra cognóvimus, ejus quoque gáudiis in cœlo perfruámur:",
+              "Qui tecum…",
+              "",
+            ],
+            vernacular: [
+              "Ó Deus, que fizestes brilhar nesta noite santíssima os esplendores da verdadeira luz, permiti, Vos pedimos, que, depois de havermos conhecido esta luz misteriosa neste mundo, possamos gozar no céu as delícias de que é origem Aquele que,",
+              "Que convosco vive...",
+              "",
+            ],
+          },
+          id: "Oratio",
+        },
+        {
+          body: {
+            latin: [
+              "Léctio Epístolæ beati Pauli Apóstoli ad Titum",
+              "Tit 2:11-15",
+              "Caríssime: Appáruit grátia Dei Salvatóris nostri ómnibus homínibus, erúdiens nos, ut, abnegántes impietátem et sæculária desidéria, sóbrie et juste et pie vivámus in hoc sǽculo, exspectántes beátam spem et advéntum glóriæ magni Dei et Salvatóris nostri Jesu Christi: qui dedit semetípsum pro nobis: ut nos redímeret ab omni iniquitáte, et mundáret sibi pópulum acceptábilem, sectatórem bonórum óperum. Hæc lóquere et exhortáre: in Christo Jesu, Dómino nostro.",
+              "",
+              "",
+            ],
+            vernacular: [
+              "Lição da Ep.ª do B. Ap.º Paulo a Tito.",
+              "Tt 2:11-15",
+              "Caríssimo: A graça de Deus, nosso Salvador, manifestou-se a todos os homens, ensinando-nos, a fim de que, repudiando a impiedade e os apetites terrenos, vivamos neste mundo com temperança, justiça e piedade, pensando na esperança, na bem-aventurança eterna e na vinda da glória do nosso grande Deus e Salvador, Jesus Cristo: que se ofereceu espontaneamente por nós, para nos resgatar de todas as iniquidades, e tornar-nos numa raça purificada, escolhida e zelosa em suas boas obras. Ensina e prega estas cousas, em Jesus Cristo, nosso Senhor!",
+              "",
+            ],
+          },
+          id: "Lectio",
+        },
+        {
+          body: {
+            latin: [
+              "Ps 109:3; 109:1",
+              "Tecum princípium in die virtútis tuæ: in splendóribus Sanctórum, ex útero ante lucíferum génui te.",
+              "℣. Dixit Dóminus Dómino meo: Sede a dextris meis: donec ponam inimícos tuos, scabéllum pedum tuórum. Allelúja, allelúja.",
+              "Ps 2:7",
+              "℣. Dóminus dixit ad me: Fílius meus es tu, ego hódie génui te. Allelúja.",
+              "",
+            ],
+            vernacular: [
+              "Sl 109:3; 109:1",
+              "Em Vós estará o poder soberano no dia do vosso império, no meio dos esplendores dos escolhidos.",
+              "℣. Eu Vos gerei no meu seio, antes da aurora. O soberano Senhor disse ao meu Senhor: «Assentai-Vos à minha dextra até que eu torne os meus inimigos em escabelo dos vossos pés». Aleluia, aleluia.",
+              "Sl 2:7",
+              "℣. O Senhor disse-me: «Vós sois o meu Filho; gerei-Vos hoje». Aleluia.",
+              "",
+            ],
+          },
+          id: "Graduale",
+        },
+        {
+          body: {
+            latin: [
+              "Sequéntia ☩ sancti Evangélii secundum Lucam",
+              "Luc 2:1-14",
+              "In illo témpore: Exiit edíctum a Cæsare Augústo, ut describerétur univérsus orbis. Hæc descríptio prima facta est a præside Sýriæ Cyríno: et ibant omnes ut profiteréntur sínguli in suam civitátem. Ascéndit autem et Joseph a Galilæa de civitáte Názareth, in Judæam in civitátem David, quæ vocatur Béthlehem: eo quod esset de domo et fámilia David, ut profiterétur cum María desponsáta sibi uxóre prægnánte. Factum est autem, cum essent ibi, impléti sunt dies, ut páreret. Et péperit fílium suum primogénitum, et pannis eum invólvit, et reclinávit eum in præsépio: quia non erat eis locus in diversório. Et pastóres erant in regióne eádem vigilántes, et custodiéntes vigílias noctis super gregem suum. Et ecce, Angelus Dómini stetit juxta illos, et cláritas Dei circumfúlsit illos, et timuérunt timóre magno. Et dixit illis Angelus: Nolíte timére: ecce enim, evangelízo vobis gáudium magnum, quod erit omni pópulo: quia natus est vobis hódie Salvátor, qui est Christus Dóminus, in civitáte David. Et hoc vobis signum: Inveniétis infántem pannis involútum, et pósitum in præsépio. Et súbito facta est cum Angelo multitúdo milítiæ cœléstis, laudántium Deum et dicéntium: Glória in altíssimis Deo, et in terra pax hóminibus bonæ voluntátis.",
+              "",
+            ],
+            vernacular: [
+              "Continuação ☩ do santo Evangelho segundo S. Lucas.",
+              "Lc 2:1-14",
+              "Naquele tempo, foi publicado um édito de César Augusto para que se fizesse o recenseamento de todo o universo. Este primeiro recenseamento foi feito por Cirino, governador da Síria. E todos, pois, iam à sua cidade para se inscreverem. José saiu também da Galileia, da cidade de Nazaré, para a Judeia, e foi a Belém, cidade de David, porque ele era da casa e da família de David, para aí ser recenseado com Maria, sua esposa, que estava próximo a dar à luz. Ora, aconteceu que, enquanto eles estavam em Belém, completaram-se os dias em que ela devia dar à luz. E, com efeito, ela deu à luz o seu Filho primogénito, envolvendo-O em uns panos e colocando-O em um presépio, porque não tiveram lugar na hospedaria. Ora, havia naquele lugar uns pastores, guardando durante a noite os seus gados; e eis que um Anjo do céu lhes apareceu, envolvendo-os com a claridade de Deus, o que os encheu de grande temor. Então, o Anjo disse-lhes: «Não tenhais receio, pois venho anunciar-vos uma grande alegria, que se estenderá a todo o povo: é que nasceu hoje, na cidade de David, um Salvador, que é o Cristo Senhor. Isto vos servirá de sinal: Achareis um Menino, envolvido em uns panos e deitado num presépio», E no mesmo instante reuniu-se com o Anjo uma multidão da milícia celestial, louvando Deus e dizendo: «Glória a Deus no mais alto dos céus, e, na terra, paz aos homens de boa vontade!»",
+              "",
+            ],
+          },
+          id: "Evangelium",
+        },
+        {
+          body: {
+            latin: [
+              "Ps 95:11; 95:13",
+              "Læténtur cœli et exsúltet terra ante fáciem Dómini: quóniam venit.",
+              "",
+            ],
+            vernacular: [
+              "Sl 95:11; 95:13",
+              "Alegrem-se os céus! Regozije-se a terra ante a face do Senhor, pois Ele veio.",
+              "",
+            ],
+          },
+          id: "Offertorium",
+        },
+        {
+          body: {
+            latin: [
+              "Accépta tibi sit, Dómine, quǽsumus, hodiérnæ festivitátis oblátio: ut, tua gratia largiénte, per hæc sacrosáncta commércia, in illíus inveniámur forma, in quo tecum est nostra substántia:",
+              "Qui tecum…",
+              "",
+            ],
+            vernacular: [
+              "Dignai-Vos, Senhor, aceitar a oblação que Vos oferecemos na festividade deste dia, e pela vossa graça permiti que por meio deste sacrossanto comércio nos assemelhemos Àquele em quem a nossa substância humana está unida à vossa divindade.",
+              "Que convosco vive...",
+              "",
+            ],
+          },
+          id: "Secreta",
+        },
+        {
+          body: {
+            latin: [
+              "de Nativitate Domini",
+              "Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Quia per incarnáti Verbi mystérium nova mentis nostræ óculis lux tuæ claritátis infúlsit: ut, dum visibíliter Deum cognóscimus, per hunc in invisibílium amorem rapiámur. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cæléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes.",
+              "",
+            ],
+            vernacular: [
+              "do Natal",
+              "Verdadeiramente é digno e justo, racional e salutar dar-Vos graças, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo mystério do Verbo Incarnado um novo clarão do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira visível, sejamos inspirados por Ele no amor às cousas invisíveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Dominações e com toda a milícia do exército celestial, cantamos o hino da vossa glória, dizendo incessantemente:",
+              "",
+            ],
+          },
+          id: "Prefatio",
+        },
+        {
+          body: {
+            latin: [
+              "Ps 109:3",
+              "In splendóribus Sanctórum, ex útero ante lucíferum génui te.",
+              "",
+            ],
+            vernacular: [
+              "Sl 109:3",
+              "Eu Vos gerei no meu seio, antes do romper da aurora, entre os esplendores dos escolhidos.",
+              "",
+            ],
+          },
+          id: "Communio",
+        },
+        {
+          body: {
+            latin: [
+              "Da nobis, quǽsumus, Dómine, Deus noster: ut, qui Nativitátem Dómini nostri Jesu Christi mystériis nos frequentáre gaudémus; dignis conversatiónibus ad ejus mereámur perveníre consórtium:",
+              "Qui tecum…",
+              "",
+            ],
+            vernacular: [
+              "Senhor, nosso Deus, permiti, Vos suplicamos, que, celebrando alegremente o Nascimento de nosso Senhor Jesus Cristo, pela frequência destes divinos mystérios, mereçamos, com uma conduta santa, gozar a união perfeita com Aquele:",
+              "Que convosco vive...",
+              "",
+            ],
+          },
+          id: "Postcommunio",
+        },
+      ],
+    },
+    {
+      info: {
+        colors: ["w"],
+        date: null,
+        id: "sancti:12-25m2:1:w",
+        rank: 1,
+        tempora: null,
+        title: "Missa da Aurora de Natal de N. S. Jesus Cristo",
+      },
+      sections: [
+        {
+          body: {
+            latin: [
+              "In Nativitatis Domini in aurora;;Duplex I Classis;;6.5",
+              "",
+            ],
+            vernacular: [
+              "In Nativitatis Domini in aurora;;Duplex I Classis;;6.5",
+              "",
+            ],
+          },
+          id: "Rank",
+        },
+        {
+          body: {
+            latin: [
+              "Gloria",
+              "Credo",
+              "Prefatio=Nat",
+              "celebranda aut missa prima aut missa secunda aut missa tertia",
+              "",
+            ],
+            vernacular: [
+              "Gloria",
+              "Credo",
+              "Prefatio=Nat",
+              "celebranda aut missa prima aut missa secunda aut missa tertia",
+              "",
+            ],
+          },
+          id: "Rule",
+        },
+        {
+          body: {
+            latin: undefined,
+            vernacular: [
+              "## 25 XII – Segunda Missa, ao romper da aurora do Natal de N. S. Jesus Cristo",
+              "Estação em Santa Anastácia",
+              "1 classe",
+              "Paramentos brancos",
+              "",
+            ],
+          },
+          id: "Comment",
+        },
+        {
+          body: {
+            latin: [
+              "Is 9:2 et 6.",
+              "Lux fulgébit hódie super nos: quia natus est nobis Dóminus: et vocábitur Admirábilis, Deus, Princeps pacis, Pater futúri sǽculi: cujus regni non erit finis.",
+              "Ps 92:1",
+              "Dóminus regnávit, decórem indútus est: indútus est Dóminus fortitúdinem, et præcínxit se.",
+              "Glória Patri…",
+              "Lux fulgébit hódie super nos: quia natus est nobis Dóminus: et vocábitur Admirábilis, Deus, Princeps pacis, Pater futúri sǽculi: cujus regni non erit finis.",
+              "",
+            ],
+            vernacular: [
+              "Is 9:2,6",
+              "A luz brilhará hoje sobre nós: pois o Senhor nasceu para nós: e será chamado Admirável, Deus, Príncipe da Paz, Pai da eternidade; seu reino não terá fim.",
+              "Sl 92:1",
+              "O Senhor reinou e revestiu-se de majestade: o Senhor revestiu-se com a túnica da fortaleza e cingiu-se para o combate.",
+              "Glória ao Pai.",
+              "A luz brilhará hoje sobre nós: pois o Senhor nasceu para nós: e será chamado Admirável, Deus, Príncipe da Paz, Pai da eternidade; seu reino não terá fim.",
+              "",
+            ],
+          },
+          id: "Introitus",
+        },
+        {
+          body: {
+            latin: [
+              "Da nobis, quǽsumus, omnípotens Deus: ut, qui nova incarnáti Verbi tui luce perfúndimur; hoc in nostro respléndeat ópere, quod per fidem fulget in mente.",
+              "Per eúndem…",
+              "",
+            ],
+            vernacular: [
+              "Ó Deus omnipotente, que Vos dignastes esclarecer-nos com a nova luz do Verbo Incarnado, permiti ainda, Vos suplicamos, que o brilho desta mesma luz, que pela fé ilustra as nossas almas, resplandeça nas nossas acções.",
+              "Pelo mesmo nosso Senhor...",
+              "",
+            ],
+          },
+          id: "Oratio",
+        },
+        {
+          body: {
+            latin: [
+              "Pro S. Anastasiæ",
+              "Da, quǽsumus, omnípotens Deus: ut, qui beátæ Anastásiæ Mártyris tuæ sollémnia cólimus; ejus apud te patrocínia sentiámus.",
+              "Per Dominum…",
+              "",
+            ],
+            vernacular: [
+              "de S. Anastácia",
+              "Dignai-Vos permitir, ó Deus omnipotente, que sintamos junto de Vós a protecção da B. Anastácia, vossa Mártir, cuja memória comemoramos festivamente.",
+              "Por nosso Senhor...",
+              "",
+            ],
+          },
+          id: "Commemoratio Oratio",
+        },
+        {
+          body: {
+            latin: [
+              "Lectio Epístolæ beati Pauli Apostoli ad Titum",
+              "Tit 3:4-7",
+              "Caríssime: Appáruit benígnitas et humánitas Salvatóris nostri Dei: non ex opéribus justítiæ, quæ fécimus nos, sed secúndum suam misericórdiam salvos nos fecit per lavácrum regeneratiónis et renovatiónis Spíritus Sancti, quem effúdit in nos abúnde per Jesum Christum, Salvatorem nostrum: ut, justificáti grátia ipsíus, herédes simus secúndum spem vitæ ætérnæ: in Christo Jesu, Dómino nostro.",
+              "",
+            ],
+            vernacular: [
+              "Lição da Ep.ª do B. Ap.º Paulo a Tito.",
+              "Tt 3:4-7",
+              "Caríssimo: A bondade e o amor de Deus, nosso Salvador, se manifestaram. Ele salvou-nos, não por causa das obras de justiça que houvéssemos praticado, mas pela sua misericórdia, lavando-nos em um banho de regeneração e de renovação do Espírito Santo, que lançou copiosamente sobre nós por Jesus Cristo, nosso Salvador, a fim de que, justificados pela sua graça, nos tornemos herdeiros da vida eterna, segundo a esperança que depositamos em Jesus Cristo, nosso Senhor.",
+              "",
+            ],
+          },
+          id: "Lectio",
+        },
+        {
+          body: {
+            latin: [
+              "Ps 117:26; 117:27; 117:23",
+              "Benedíctus, qui venit in nómine Dómini: Deus Dóminus, et illúxit nobis.",
+              "℣. A Dómino factum est istud: et est mirábile in óculis nostris. Allelúja, allelúja.",
+              "Ps 92:1",
+              "℣. Dóminus regnávit, decórem índuit: índuit Dóminus fortitúdinem, et præcínxit se virtúte. Allelúja.",
+              "",
+            ],
+            vernacular: [
+              "Sl 117:26; 117:27; 117:23",
+              "Bendito seja Aquele que vem em nome do Senhor! O Senhor é Deus e a sua luz resplandeceu sobre nós.",
+              "℣. Foi o Senhor quem criou esta maravilha, que brilha aos nossos olhos. Aleluia, aleluia.",
+              "Sl 92:1",
+              "℣.  Senhor reina e revestiu-se de majestade: o Senhor revestiu-se com a túnica da fortaleza e cingiu-se para o combate. Aleluia.",
+              "",
+            ],
+          },
+          id: "Graduale",
+        },
+        {
+          body: {
+            latin: [
+              "Sequéntia ☩ sancti Evangélii secúndum Lucam",
+              "Luc 2:15-20",
+              "In illo témpore: Pastóres loquebántur ad ínvicem: Transeámus usque Béthlehem, et videámus hoc verbum, quod factum est, quod Dóminus osténdit nobis. Et venérunt festinántes: et invenérunt Maríam et Joseph. et Infántem pósitum in præsépio. Vidéntes autem cognovérunt de verbo, quod dictum erat illis de Púero hoc. Et omnes, qui audiérunt, miráti sunt: et de his, quæ dicta erant a pastóribus ad ipsos. María autem conservábat ómnia verba hæc, cónferens in corde suo. Et revérsi sunt pastóres, glorificántes et laudántes Deum in ómnibus, quæ audíerant et víderant, sicut dictum est ad illos.",
+              "",
+            ],
+            vernacular: [
+              "Continuação ☩ do santo Evangelho segundo S. Lucas.",
+              "Lc 2:15-20",
+              "Naquele tempo, disseram os pastores uns aos outros: «Vamos até Belém e vejamos o que foi isto que aconteceu, que o Senhor nos revelou». Vieram, então, a toda a pressa, e encontraram Maria, José e o Menino deitado no presépio. Vendo isto, conheceram a verdade do que lhes havia sido revelado acerca deste Menino. E todos quantos ouviam falar os pastores ficavam admirados do que eles diziam. Ora Maria conservava todas estas cousas e meditava-as no seu íntimo. E os pastores retiraram-se, glorificando e louvando Deus pelo que tinham visto e ouvido, segundo o que lhes havia sido revelado.",
+              "",
+            ],
+          },
+          id: "Evangelium",
+        },
+        {
+          body: {
+            latin: [
+              "Ps 92:1-2",
+              "Deus firmávit orbem terræ, qui non commovébitur: paráta sedes tua, Deus, ex tunc, a sǽculo tu es.",
+              "",
+            ],
+            vernacular: [
+              "Deus firmou de tal modo o globo da terra que nunca mais será destruído: vosso trono, ó Deus, existe desde a eternidade, pois Vós existis antes dos séculos!",
+              "",
+            ],
+          },
+          id: "Offertorium",
+        },
+        {
+          body: {
+            latin: [
+              "Múnera nostra, quǽsumus, Dómine, Nativitátis hodiérnæ mystériis apta provéniant, et pacem nobis semper infúndant: ut, sicut homo génitus idem refúlsit et Deus, sic nobis hæc terréna substántia cónferat, quod divínum est.",
+              "Per eúndem…",
+              "",
+            ],
+            vernacular: [
+              "Que estas nossas ofertas, Senhor, Vos suplicamos, se tornem dignas dos mystérios do Nascimento deste dia, e nos infundam perpetuamente a paz, para que, assim como Aquele que nasceu como homem fez ao mesmo tempo realçar a sua divindade, assim também esta Substância terrena (o pão e o vinho) nos comunique o que é divino.",
+              "Pelo mesmo nosso Senhor...",
+              "",
+            ],
+          },
+          id: "Secreta",
+        },
+        {
+          body: {
+            latin: [
+              "Pro S. Anastasia",
+              "Accipe, quǽsumus, Dómine, múnera dignánter obláta: et, beátæ Anastásiæ Mártyris tuæ suffragántibus méritis, ad nostræ salútis auxílium proveníre concéde.",
+              "Per Dominum…",
+              "",
+            ],
+            vernacular: [
+              "de S. Anastácia",
+              "Dignai-Vos aceitar, Senhor, as ofertas que respeitosamente Vos apresentamos, e, pelos sufrágios e méritos da B. Anastácia, vossa Mártir, fazei que nos sirvam de auxílio para a salvação.",
+              "Por nosso Senhor...",
+              "",
+            ],
+          },
+          id: "Commemoratio Secreta",
+        },
+        {
+          body: {
+            latin: [
+              "de Nativitate Domini",
+              "Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Quia per incarnáti Verbi mystérium nova mentis nostræ óculis lux tuæ claritátis infúlsit: ut, dum visibíliter Deum cognóscimus, per hunc in invisibílium amorem rapiámur. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cæléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes.",
+              "",
+            ],
+            vernacular: [
+              "do Natal",
+              "Verdadeiramente é digno e justo, racional e salutar dar-Vos graças, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo mystério do Verbo Incarnado um novo clarão do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira visível, sejamos inspirados por Ele no amor às cousas invisíveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Dominações e com toda a milícia do exército celestial, cantamos o hino da vossa glória, dizendo incessantemente:",
+              "",
+            ],
+          },
+          id: "Prefatio",
+        },
+        {
+          body: {
+            latin: [
+              "Zach 9:9",
+              "Exsúlta, fília Sion, lauda, fília Jerúsalem: ecce, Rex tuus venit sanctus et Salvátor mundi.",
+              "",
+            ],
+            vernacular: [
+              "Zc 9:9",
+              "Alegra-te, filha de Sião; canta alegremente, filha de Jerusalém: eis que vem o teu Rei, que é o Santo e o Salvador do mundo.",
+              "",
+            ],
+          },
+          id: "Communio",
+        },
+        {
+          body: {
+            latin: [
+              "Hujus nos, Dómine, sacraménti semper nóvitas natális instáuret: cujus Natívitas singuláris humánam réppulit vetustátem.",
+              "Per eúndem…",
+              "",
+            ],
+            vernacular: [
+              "Permiti, Senhor, que as nossas almas sejam regeneradas pelo novo Nascimento d’Aquele que se dá neste sacramento, cujo admirável Nascimento destruiu o «homem velho».",
+              "Pelo mesmo nosso Senhor...",
+              "",
+            ],
+          },
+          id: "Postcommunio",
+        },
+        {
+          body: {
+            latin: [
+              "Pro S. Anastasia",
+              "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.",
+              "Per Dominum…",
+              "",
+            ],
+            vernacular: [
+              "de S. Anastácia",
+              "Saciastes, Senhor, a vossa família com os vossos sacratíssimos dons; e, Vos imploramos, confortai-nos sempre com a intercessão daquela cuja solenidade celebramos.",
+              "Por nosso Senhor...",
+              "",
+            ],
+          },
+          id: "Commemoratio Postcommunio",
+        },
+      ],
+    },
+    {
+      info: {
+        colors: ["w"],
+        date: null,
+        id: "sancti:12-25m3:1:w",
+        rank: 1,
+        tempora: null,
+        title: "Missa do Dia de Natal de N. S. Jesus Cristo",
+      },
+      sections: [
+        {
+          body: {
+            latin: ["In die Nativitatis Domini;;Duplex I Classis;;7", ""],
+            vernacular: ["In die Nativitatis Domini;;Duplex I Classis;;7", ""],
+          },
+          id: "Rank",
+        },
+        {
+          body: {
+            latin: [
+              "Gloria",
+              "Credo",
+              "Prefatio=Nat",
+              "celebranda aut missa prima aut missa secunda aut missa tertia",
+              "(rubrica 1960) no Ultima Evangelium",
+              "",
+            ],
+            vernacular: [
+              "Gloria",
+              "Credo",
+              "Prefatio=Nat",
+              "celebranda aut missa prima aut missa secunda aut missa tertia",
+              "(rubrica 1960) no Ultima Evangelium",
+              "",
+            ],
+          },
+          id: "Rule",
+        },
+        {
+          body: {
+            latin: undefined,
+            vernacular: [
+              "## 25 XII – Terceira Missa, no dia da Festa Natal de N. S. Jesus Cristo",
+              "Estação em Santa Maria Maior",
+              "1 classe",
+              "Paramentos brancos",
+              "",
+            ],
+          },
+          id: "Comment",
+        },
+        {
+          body: {
+            latin: [
+              "Sequéntia ☩ sancti Evangélii secúndum Matthǽum",
+              "Matt 2:1-12",
+              "Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce, Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui natus est rex Judæórum? Vidimus enim stellam ejus in Oriénte, et vénimus adoráre eum. Audiens autem Heródes rex, turbatus est, et omnis Jerosólyma cum illo. Et cóngregans omnes principes sacerdotum et scribas pópuli, sciscitabátur ab eis, ubi Christus nasceretur. At illi dixérunt ei: In Béthlehem Judæ: sic enim scriptum est per Prophétam: Et tu, Béthlehem terra Juda, nequaquam mínima es in princípibus Juda; ex te enim éxiet dux, qui regat pópulum meum Israël. Tunc Heródes, clam vocátis Magis, diligénter dídicit ab eis tempus stellæ, quæ appáruit eis: et mittens illos in Béthlehem, dixit: Ite, et interrogáte diligénter de púero: et cum invenéritis, renuntiáte mihi, ut et ego véniens adórem eum. Qui cum audíssent regem, abiérunt. Et ecce, stella, quam víderant in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et intrántes domum, invenérunt Púerum cum María Matre ejus, (hic genuflectitur) et procidéntes adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera, aurum, thus et myrrham. Et respónso accépto in somnis, ne redírent ad Heródem, per aliam viam revérsi sunt in regiónem suam.",
+              "",
+              "",
+            ],
+            vernacular: [
+              "Continuação ☩ do santo Evangelho segundo S. Mateus.",
+              "Mt. 2:19-23",
+              "Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes, eis que vieram a Jerusalém os Magos do Oriente, dizendo: «Onde está o Rei dos Judeus, que acaba de nascer? Pois vimos a sua estrela no Oriente e viemos adorá-l’O». Logo que o rei Herodes ouviu esta notícia, ficou perturbado, assim como toda a gente de Jerusalém, convocando logo todos os príncipes dos sacerdotes e os escribas do povo, para saber deles onde deveria nascer Cristo. Responderam-lhe eles: «Em Belém, de Judá, pois está escrito pelo Profeta: «E tu, Belém, terra de Judá, não serás certamente a menos importante entre as terras principais de Judá, pois em ti nascerá o Rei, que governará o meu povo de Israel». Então Herodes mandou chamar em segredo os Magos, informando-se com eles diligentemente acerca do tempo em que a estrela havia aparecido. E enviando-os a Belém, disse-lhes: «Ide, procurai diligentemente o Menino, e, logo que O houverdes achado, avisai-me, para que eu vá, também, adorá-l’O». Os Magos, tendo ouvido estas palavras, partiram. Ora, a estrela, que tinham visto no Oriente ia adiante deles, até que, chegando ao lugar onde estava o Menino, parou. Quando os Magos viram a estrela, alegraram-se muito. Entrando, então, na casa, encontraram o Menino com Maria, sua mãe; e, de joelhos, O adoraram. (Todos devem ajoelhar) E, tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro, incenso e mirra. Depois, havendo tido aviso em sonhos de que não deveriam voltar a encontrar Herodes, retiraram-se por outro caminho para o seu país.",
+              "",
+            ],
+          },
+          id: "Ultima Evangelium",
+        },
+        {
+          body: {
+            latin: [
+              "Isa 9:6",
+              "Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.",
+              "Ps 97:1",
+              "Cantáte Dómino cánticum novum, quia mirabília fecit.",
+              "Glória Patri…",
+              "Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.",
+              "",
+            ],
+            vernacular: [
+              "Is 9:6",
+              "Nasceu para nós um Menino e foi-nos dado um Filho, que traz sobre os seus ombros o manto da realeza, o qual será chamado «Anjo do admirável conselho».",
+              "Sl 97:1",
+              "Cantai ao Senhor um hino novo, pois Ele praticou maravilhas.",
+              "Glória ao Pai.",
+              "Nasceu para nós um Menino e foi-nos dado um Filho, que traz sobre os seus ombros o manto da realeza, o qual será chamado «Anjo do admirável conselho».",
+              "",
+            ],
+          },
+          id: "Introitus",
+        },
+        {
+          body: {
+            latin: [
+              "Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.",
+              "Per eúndem…",
+              "",
+            ],
+            vernacular: [
+              "Ó Deus omnipotente, Vos imploramos, dignai-Vos permitir que o novo Nascimento do vosso Filho Unigénito Incarnado nos livre do antigo cativeiro em que nos conserva o jugo do pecado.",
+              "Pelo mesmo nosso Senhor...",
+              "",
+            ],
+          },
+          id: "Oratio",
+        },
+        {
+          body: {
+            latin: [
+              "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos",
+              "Hebr 1:1-12",
+              "Multifáriam, multísque modis olim Deus loquens pátribus in Prophétis: novíssime diébus istis locútus est nobis in Fílio, quem constítuit herédem universórum, per quem fecit et sǽcula: qui cum sit splendor glóriæ, et figúra substántia? ejus, portánsque ómnia verbo virtútis suæ, purgatiónem peccatórum fáciens, sedet ad déxteram majestátis in excélsis: tanto mélior Angelis efféctus, quanto differéntius præ illis nomen hereditávit. Cui enim dixit aliquándo Angelórum: Fílius meus es tu, ego hódie génui te? Et rursum: Ego ero illi in patrem, et ipse erit mihi in fílium? Et cum íterum introdúcit Primogénitum in orbem terræ, dicit: Et adórent eum omnes Angeli Dei. Et ad Angelos quidem dicit: Qui facit Angelos suos spíritus, et minístros suos flammam ignis. Ad Fílium autem: Thronus tuus, Deus, in sǽculum sǽculi: virga æquitátis, virga regni tui. Dilexísti justítiam et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo exsultatiónis præ particípibus tuis. Et: Tu in princípio, Dómine, terram fundásti: et ópera mánuum tuárum sunt cœli. Ipsi períbunt, tu autem permanébis; et omnes ut vestiméntum veteráscent: et velut amíctum mutábis eos, et mutabúntur: tu autem idem ipse es, et anni tui non defícient.",
+              "",
+            ],
+            vernacular: [
+              "Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.",
+              "Heb 1:1-12",
+              "Deus, que falara muitas vezes e de muitas maneiras a nossos pais pelos Profetas, falou-nos nos últimos tempos pelo seu Filho, que constituíra herdeiro de todas as cousas, e por quem, também, criou os séculos, o qual, sendo a irradiação esplendorosa da sua glória e a figura da sua substância e sustentando todas as cousas com sua palavra omnipotente depois de nos haver purificado dos nossos pecados, assentou-se à dextra da majestade divina, no mais alto dos céus, tanto mais superior aos Anjos quanto mais excelente e maior é o nome que herdou. Com efeito, a qual dos Anjos disse Deus estas palavras: «Tu és o meu Filho, gerei-te hoje?». E ainda estoutras: «Eu serei sen Pai e Ele será para mim Filho?». E também, quando mandou o seu primogénito ao mundo, disse: «Que todos os Anjos de Deus O adorem!». E, pelo que respeita aos Anjos, a Escritura diz: «Ele, que aos Anjos faz ventos e aos seus ministros chamas de fogo». Mas a respeito do Filho exprime-se assim: «Vosso trono, ó Deus, será eterno; o ceptro da vossa realeza será um ceptro de justiça e de rectidão. Vós amastes a justiça e odiastes a iniquidade. Por isso, ó Deus, o vosso Deus (o Pai) Vos ungiu com o bálsamo da alegria, mais ainda do que àqueles que convosco participam da glória». E também disse: «Vós, Senhor, no princípio criastes a terra; os céus são obra das vossas mãos. Eles perecerão, mas Vós permanecereis; eles envelhecerão todos, como um vestido, e Vós os mudareis, como se fossem um manto, e ficarão mudados; mas Vós sois sempre o mesmo, e os anos não acabarão para Vós».",
+              "",
+            ],
+          },
+          id: "Lectio",
+        },
+        {
+          body: {
+            latin: [
+              "Ps 97:3; 97:2",
+              "Vidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra.",
+              "℣. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam. Allelúja, allelúja.",
+              "℣. Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia hódie descéndit lux magna super terram. Allelúja.",
+              "",
+            ],
+            vernacular: [
+              "Sl 97:3; 97:2",
+              "Toda a terra viu o Salvador, que o nosso Deus enviou: aclamai Deus, ó povos de toda a terra.",
+              "℣. O Senhor manifestou o Salvador, que havia prometido: e manifestou a sua justiça aos olhos dos povos. Aleluia, aleluia.",
+              "℣. Um dia de santidade resplandeceu para nós: vinde, ó povos, e adorai o Senhor: pois hoje desceu a grande luz à terra. Aleluia.",
+              "",
+            ],
+          },
+          id: "Graduale",
+        },
+        {
+          body: {
+            latin: [
+              "Initium ☩ sancti Evangélii secúndum Joánnem",
+              "Joann 1:1-14",
+              "In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in princípio apud Deum. Omnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est: in ipso vita erat, et vita erat lux hóminum: et lux in ténebris lucet, et ténebræ eam non comprehendérunt. Fuit homo missus a Deo, cui nomen erat Joánnes. Hic venit in testimónium, ut testimónium perhibéret de lúmine, ut omnes créderent per illum. Non erat ille lux, sed ut testimónium perhibéret de lúmine. Erat lux vera, quæ illúminat omnem hóminem veniéntem in hunc mundum. In mundo erat, et mundus per ipsum factus est, et mundus eum non cognóvit. In própria venit, et sui eum non recepérunt. Quotquot autem recepérunt eum, dedit eis potestátem fílios Dei fíeri, his, qui credunt in nómine ejus: qui non ex sanguínibus, neque ex voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt. (Hic genuflectitur) Et Verbum caro factum est, et habitávit in nobis: et vídimus glóriam ejus, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.",
+              "",
+            ],
+            vernacular: [
+              "Continuação ☩ do santo Evangelho segundo S. João.",
+              "Jo 1:1-14",
+              "No princípio existia o Verbo, e o Verbo estava com Deus, e o Verbo era Deus. Este estava no princípio com Deus. Todas as cousas foram por Ele criadas, e nada daquilo que foi criado teria sido criado sem Ele. N’Ele havia vida, e a vida era a luz dos homens. A luz resplandeceu nas trevas, mas as trevas a não receberam. Apareceu um homem, mandado por Deus, e o seu nome era João, o qual veio como testemunha, para dar testemunho da luz, a fim de que por ele todos acreditassem. Ele não era a luz, mas aquele que havia de dar testemunho da luz. Existia a luz verdadeira, a luz que ilumina todo o homem que vem a este mundo. Ele estava no mundo, e o mundo, embora houvesse sido criado por Ele, O não conheceu. Veio ao que era seu, e os seus O não receberam. Porém, Ele a todos quantos O receberam e aos que acreditaram no seu nome deu o poder de serem filhos de Deus, os quais não nasceram do sangue, nem do desejo da carne, mas somente da vontade de Deus. E o Verbo fez-se carne (genuflecte-se) e habitou entre nós; e contemplamos a sua glória, como era própria do Filho Unigénito do Pai, cheio de graça e de verdade.",
+              "",
+            ],
+          },
+          id: "Evangelium",
+        },
+        {
+          body: {
+            latin: [
+              "Ps 88:12; 88:15",
+              "Tui sunt cœli et tua est terra: orbem terrárum et plenitúdinem ejus tu fundásti: justítia et judícium præparátio sedis tuæ.",
+              "",
+            ],
+            vernacular: [
+              "Sl 88:12; 88:15",
+              "A Vós, Senhor, pertencem os céus e a terra; pois criastes o universo e tudo o que ele encerra. A justiça e a equidade são a base do vosso trono.",
+              "",
+            ],
+          },
+          id: "Offertorium",
+        },
+        {
+          body: {
+            latin: [
+              "Obláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica: nosque a peccatórum nostrórum máculis emúnda.",
+              "Per eúndem…",
+              "",
+            ],
+            vernacular: [
+              "Santificai, Senhor, pelo novo Nascimento do vosso Filho Unigénito, as oblatas que Vos apresentamos, e purificai-nos das manchas dos nossos pecados.",
+              "Pelo mesmo nosso Senhor...",
+              "",
+            ],
+          },
+          id: "Secreta",
+        },
+        {
+          body: {
+            latin: [
+              "de Nativitate Domini",
+              "Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Quia per incarnáti Verbi mystérium nova mentis nostræ óculis lux tuæ claritátis infúlsit: ut, dum visibíliter Deum cognóscimus, per hunc in invisibílium amorem rapiámur. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cæléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes.",
+              "",
+            ],
+            vernacular: [
+              "do Natal",
+              "Verdadeiramente é digno e justo, racional e salutar dar-Vos graças, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo mystério do Verbo Incarnado um novo clarão do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira visível, sejamos inspirados por Ele no amor às cousas invisíveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Dominações e com toda a milícia do exército celestial, cantamos o hino da vossa glória, dizendo incessantemente:",
+              "",
+            ],
+          },
+          id: "Prefatio",
+        },
+        {
+          body: {
+            latin: [
+              "Ps 97:3",
+              "Vidérunt omnes fines terræ salutáre Dei nostri.",
+              "",
+            ],
+            vernacular: [
+              "Sl 97:3",
+              "Toda a terra contemplou o Salvador que o nosso Deus enviou.",
+              "",
+            ],
+          },
+          id: "Communio",
+        },
+        {
+          body: {
+            latin: [
+              "Præsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínæ nobis generatiónis est auctor; ita et immortalitátis sit ipse largítor:",
+              "Qui tecum…",
+              "",
+            ],
+            vernacular: [
+              "Ó Deus omnipotente, dignai-Vos permitir que, assim como o Salvador do mundo, nascendo neste dia, nos comunicou a geração divina, assim também nos conceda a imortalidade.",
+              "Que convosco vive...",
+              "",
+            ],
+          },
+          id: "Postcommunio",
+        },
+      ],
+    },
+  ]);
 });

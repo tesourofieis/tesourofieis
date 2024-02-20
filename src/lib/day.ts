@@ -77,7 +77,6 @@ class Day {
      * Get proper that is used in today Mass. If given day does not have a dedicated proper,
      * use the one from the latest Sunday.
      */
-
     const celebrationPropers = this.calculateProper(calendar, this.celebration);
 
     if (this.commemoration.length) {
@@ -85,10 +84,19 @@ class Day {
         calendar,
         this.commemoration,
       );
-
-      celebrationPropers.map((celebrationProper, i) => {
-        celebrationProper.addCommemorations(commemorationPropers[i]);
-      });
+      for (const celebrationProper of celebrationPropers) {
+        for (const i of [0, 1]) {
+          const proper = celebrationProper[i];
+          if (proper) {
+            const commemorations = commemorationPropers
+              .filter((cp) => proper.id !== cp[i].id)
+              .map((cp) => cp[i]);
+            if (proper && commemorations.length) {
+              proper.addCommemorations(commemorations);
+            }
+          }
+        }
+      }
     }
 
     return celebrationPropers;
@@ -107,26 +115,20 @@ class Day {
         );
         const proper = observance.getProper(properConfig);
         result.push(proper);
-
-        console.log(result);
       }
-      return result[0];
+      return result;
     }
 
-    // It's a feria day without its own proper for which the last Sunday's proper is used
     const inferredObservances = this.inferObservance(calendar);
-
     const rank =
       observances.length && !match(observances, FERIA)
         ? observances[0].rank
         : 4;
-
     const preface = getCustomPreface(
       observances.length && !match(observances, FERIA)
         ? observances[0]
         : inferredObservances,
     );
-
     const prefaceOrDefault = !preface ? preface : PREFATIO_COMMUNIS;
     const config: ProperConfig = {
       preface: prefaceOrDefault,

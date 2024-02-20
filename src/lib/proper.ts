@@ -2,6 +2,7 @@ import {
   COMMEMORATED_ORATIO,
   COMMEMORATED_POSTCOMMUNIO,
   COMMEMORATED_SECRETA,
+  COMMEMORATION,
   COMMEMORATIONS,
   COMMEMORATIONS_PT,
   GRADUALE,
@@ -185,31 +186,32 @@ export class Proper extends ParsedSource {
     return rules[ruleName] ?? null;
   }
 
-  addCommemorations(commemoration: Proper) {
-    const sections = [
-      {
-        commemorated_section_name: COMMEMORATED_ORATIO,
-        source_section_name: ORATIO,
-      },
-      {
-        commemorated_section_name: COMMEMORATED_SECRETA,
-        source_section_name: SECRETA,
-      },
-      {
-        commemorated_section_name: COMMEMORATED_POSTCOMMUNIO,
-        source_section_name: POSTCOMMUNIO,
-      },
-    ];
-
-    for (const { commemorated_section_name, source_section_name } of sections) {
-      const commemorated_section =
-        commemoration.getSection(source_section_name);
-
-      commemorated_section.body.unshift(commemoration.title);
-
-      commemorated_section.id = commemorated_section_name;
-
-      this.setSection(commemorated_section_name, commemorated_section);
+  addCommemorations(commemorations: Proper[]) {
+    for (const commemoration of commemorations) {
+      const sections = [
+        {
+          commemorated_section_name: COMMEMORATED_ORATIO,
+          source_section_name: ORATIO,
+        },
+        {
+          commemorated_section_name: COMMEMORATED_SECRETA,
+          source_section_name: SECRETA,
+        },
+        {
+          commemorated_section_name: COMMEMORATED_POSTCOMMUNIO,
+          source_section_name: POSTCOMMUNIO,
+        },
+      ];
+      for (const {
+        commemorated_section_name,
+        source_section_name,
+      } of sections) {
+        const commemoratedSection =
+          commemoration.getSection(source_section_name);
+        commemoratedSection.body.unshift(commemoration.title);
+        commemoratedSection.id = commemorated_section_name;
+        this.setSection(commemorated_section_name, commemoratedSection);
+      }
     }
   }
 

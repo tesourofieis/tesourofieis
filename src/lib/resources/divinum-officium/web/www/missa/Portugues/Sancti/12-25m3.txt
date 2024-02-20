@@ -9,7 +9,7 @@ celebranda aut missa prima aut missa secunda aut missa tertia
 (rubrica 1960) no Ultima Evangelium
 
 [Comment]
-# 25 XII – Natal de N. S. Jesus Cristo — Terceira Missa: no dia da Festa
+# 25 XII – Terceira Missa, no dia da Festa Natal de N. S. Jesus Cristo
 ! Estação em Santa Maria Maior
 ! 1 classe
 ! Paramentos brancos

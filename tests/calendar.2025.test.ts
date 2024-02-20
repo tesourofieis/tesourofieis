@@ -6928,19 +6928,19 @@ describe("calendar 2025", () => {
           {
             id: "sancti:12-25m1:1:w",
             rank: 1,
-            title: "Natal de N. S. Jesus Cristo",
+            title: "Missa da Noite de Natal de N. S. Jesus Cristo",
             colors: ["w"],
           },
           {
             id: "sancti:12-25m2:1:w",
             rank: 1,
-            title: "Natal de N. S. Jesus Cristo",
+            title: "Missa da Aurora de Natal de N. S. Jesus Cristo",
             colors: ["w"],
           },
           {
             id: "sancti:12-25m3:1:w",
             rank: 1,
-            title: "Natal de N. S. Jesus Cristo",
+            title: "Missa do Dia de Natal de N. S. Jesus Cristo",
             colors: ["w"],
           },
         ],

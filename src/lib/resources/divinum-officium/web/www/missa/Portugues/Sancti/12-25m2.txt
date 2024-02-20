@@ -8,7 +8,7 @@ Prefatio=Nat
 celebranda aut missa prima aut missa secunda aut missa tertia
 
 [Comment]
-# 25 XII – Natal de N. S. Jesus Cristo — Segunda Missa: ao romper da aurora
+# 25 XII – Segunda Missa, ao romper da aurora do Natal de N. S. Jesus Cristo
 ! Estação em Santa Anastácia
 ! 1 classe
 ! Paramentos brancos
