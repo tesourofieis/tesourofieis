@@ -129,12 +129,14 @@ function format_proper_section(
   const vernacularPropers = propers_vernacular.serialize();
 
   for (const vernacular of vernacularPropers) {
-    const latinProp = latinPropers.find((latin) => latin.id === vernacular.id);
+    const latinProp = latinPropers.find(
+      (latin) => latin?.id === vernacular?.id,
+    );
     const latinBody = latinProp?.body;
-    const vernacularBody = vernacular.body;
+    const vernacularBody = vernacular?.body;
 
     pl.push({
-      id: vernacular.id,
+      id: vernacular?.id,
       body: {
         latin: latinBody,
         vernacular: vernacularBody,
