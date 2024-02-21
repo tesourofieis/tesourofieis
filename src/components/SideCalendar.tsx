@@ -70,7 +70,7 @@ export const SideCalendar = ({
           </button>
           {Object.entries(calendar).map(([calendarDate, celebrations]) => (
             <button
-              className={`flex flex-col w-full cursor-pointer bg-sepia-100 dark:bg-sepia-800 ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-400"} ${calendarDate === today && "bg-sepia-200 dark:bg-sepia-500"}`}
+              className={`flex flex-col w-full cursor-pointer bg-sepia-100 dark:bg-sepia-800 ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-600"} ${calendarDate === today && "bg-sepia-200 dark:bg-sepia-700"}`}
               type="button"
               onClick={() => setDate(calendarDate)}
               data-date={calendarDate}

@@ -87,14 +87,31 @@ export default function Mass() {
                 className={`${index === activeTab ? "" : "hidden"}`}
               >
                 <div className="flex items-center justify-center mb-2">
-                  <div
-                    className={`h-16 w-2 mr-5 rounded-full ${getColor(
-                      sections.info.colors[0],
-                    )} text-left`}
-                  />
-                  <h1 className="text-center">
-                    {sections.info?.title || sections.info.tempora || "Feria"}
-                  </h1>
+                  {Object.entries(calendar).map(
+                    ([calendarDate, celebrations]) => (
+                      <>
+                        {calendarDate === date && (
+                          <>
+                            <div
+                              className={`h-16 w-2 mr-5 rounded-full ${getColor(
+                                celebrations.celebration[0] ||
+                                  celebrations.tempora[0]?.colors,
+                              )} text-left`}
+                            />
+                            <div>
+                              <h1 className="text-center">
+                                {celebrations.celebration[0]?.title ||
+                                  celebrations.tempora[0]?.title ||
+                                  celebrations.commemoration[0]?.title ||
+                                  "Feria"}
+                              </h1>
+                              <p>{celebrations.commemoration[0]?.title}</p>
+                            </div>
+                          </>
+                        )}
+                      </>
+                    ),
+                  )}
                 </div>
                 {sections.sections
                   .filter(({ id }) => VISIBLE_SECTIONS.includes(id))

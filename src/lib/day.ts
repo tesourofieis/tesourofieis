@@ -89,7 +89,10 @@ class Day {
           const proper = celebrationProper[i];
           if (proper) {
             const commemorations = commemorationPropers
-              .filter((cp) => proper.id !== cp[i].id)
+              .filter(
+                (commemorationProper) =>
+                  proper.id !== commemorationProper[i].id,
+              )
               .map((cp) => cp[i]);
             if (proper && commemorations.length) {
               proper.addCommemorations(commemorations);
@@ -142,7 +145,7 @@ class Day {
       }
     }
 
-    return propers;
+    return [propers];
   }
 
   private inferObservance(calendar: Calendar) {
