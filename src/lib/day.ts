@@ -48,28 +48,28 @@ class Day {
     return [...this.tempora, ...this.celebration, ...this.commemoration];
   }
 
-  getTemporaId(): string | undefined {
-    return this.tempora.length > 0 ? this.tempora[0].id : undefined;
+  getTemporaId() {
+    return this.tempora[0].id;
   }
 
-  getTemporaName(): string | undefined {
-    return this.tempora.length > 0 ? this.tempora[0].title : undefined;
+  getTemporaName() {
+    return this.tempora[0]?.title;
   }
 
-  getCelebrationId(): string | undefined {
-    return this.celebration.length > 0 ? this.celebration[0].id : undefined;
+  getCelebrationId() {
+    return this.celebration[0]?.id;
   }
 
-  getCelebrationName(): string | undefined {
-    return this.celebration.length > 0 ? this.celebration[0].title : undefined;
+  getCelebrationName() {
+    return this.celebration[0]?.title;
   }
 
-  getCelebrationColors(): string[] | undefined {
-    return this.celebration.length > 0 ? this.celebration[0].colors : undefined;
+  getCelebrationColors() {
+    return this.celebration[0]?.colors;
   }
 
-  getCelebrationRank(): number | undefined {
-    return this.celebration.length > 0 ? this.celebration[0].rank : undefined;
+  getCelebrationRank() {
+    return this.celebration[0]?.rank;
   }
 
   getProper(calendar: Calendar) {

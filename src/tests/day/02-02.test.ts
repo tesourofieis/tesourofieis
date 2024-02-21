@@ -1,26 +1,47 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../lib/calendar";
-import { format_propers } from "../lib/utils";
+import { getDay } from "../../lib/getDay";
 
 test("2024-02-02", () => {
-  const calendar = new Calendar(2024);
+  const proper = getDay("2024-02-02");
 
-  const day = calendar.get("2024-02-02");
-
-  const proper = day?.getProper(calendar);
-
-  console.log(proper);
-
-  const formated = format_propers(proper);
-
-  expect(formated).toMatchObject([
+  expect(proper).toMatchObject([
     {
       info: {
         colors: ["w"],
-        date: undefined,
+        date: "2024-02-02",
+        day: {
+          celebration: [
+            {
+              colors: ["w"],
+              date: "2024-02-02",
+              flexibility: "sancti",
+              id: "sancti:02-02:2:w",
+              name: "02-02",
+              priority: 46,
+              rank: 2,
+              title: "Purificação da B. V. Maria",
+              weekday: 5,
+            },
+          ],
+          commemoration: [],
+          date: "2024-02-02",
+          tempora: [
+            {
+              colors: ["v"],
+              date: "2024-02-02",
+              flexibility: "tempora",
+              id: "tempora:Quadp1-5:4:v",
+              name: "Quadp1-5",
+              priority: 80,
+              rank: 4,
+              title: "Sexta-feira da semana da Septuagésima",
+              weekday: 5,
+            },
+          ],
+        },
         id: "sancti:02-02:2:w",
         rank: 2,
-        tempora: undefined,
+        tempora: "Sexta-feira da semana da Septuagésima",
         title: "Purificação da B. V. Maria",
       },
       sections: [

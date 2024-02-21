@@ -1,22 +1,57 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../lib/calendar";
-import { format_propers } from "../lib/utils";
+import { getDay } from "../../lib/getDay";
 
 test("2024-12-25", () => {
-  const calendar = new Calendar(2024);
+  const proper = getDay("2024-12-25");
 
-  const day = calendar.get("2024-12-25");
-
-  const propers = day?.getProper(calendar);
-
-  const formated = format_propers(propers);
-
-  expect(formated).toMatchObject([
+  expect(proper).toMatchObject([
     {
       info: {
         colors: ["w"],
+        date: "2024-12-25",
+        day: {
+          celebration: [
+            {
+              colors: ["w"],
+              date: "2024-12-25",
+              flexibility: "sancti",
+              id: "sancti:12-25m1:1:w",
+              name: "12-25m1",
+              priority: 0,
+              rank: 1,
+              title: "Missa da Noite de Natal de N. S. Jesus Cristo",
+              weekday: 3,
+            },
+            {
+              colors: ["w"],
+              date: "2024-12-25",
+              flexibility: "sancti",
+              id: "sancti:12-25m2:1:w",
+              name: "12-25m2",
+              priority: 1,
+              rank: 1,
+              title: "Missa da Aurora de Natal de N. S. Jesus Cristo",
+              weekday: 3,
+            },
+            {
+              colors: ["w"],
+              date: "2024-12-25",
+              flexibility: "sancti",
+              id: "sancti:12-25m3:1:w",
+              name: "12-25m3",
+              priority: 2,
+              rank: 1,
+              title: "Missa do Dia de Natal de N. S. Jesus Cristo",
+              weekday: 3,
+            },
+          ],
+          commemoration: [],
+          date: "2024-12-25",
+          tempora: [],
+        },
         id: "sancti:12-25m1:1:w",
         rank: 1,
+        tempora: undefined,
         title: "Missa da Noite de Natal de N. S. Jesus Cristo",
       },
       sections: [
@@ -236,8 +271,50 @@ test("2024-12-25", () => {
     {
       info: {
         colors: ["w"],
+        date: "2024-12-25",
+        day: {
+          celebration: [
+            {
+              colors: ["w"],
+              date: "2024-12-25",
+              flexibility: "sancti",
+              id: "sancti:12-25m1:1:w",
+              name: "12-25m1",
+              priority: 0,
+              rank: 1,
+              title: "Missa da Noite de Natal de N. S. Jesus Cristo",
+              weekday: 3,
+            },
+            {
+              colors: ["w"],
+              date: "2024-12-25",
+              flexibility: "sancti",
+              id: "sancti:12-25m2:1:w",
+              name: "12-25m2",
+              priority: 1,
+              rank: 1,
+              title: "Missa da Aurora de Natal de N. S. Jesus Cristo",
+              weekday: 3,
+            },
+            {
+              colors: ["w"],
+              date: "2024-12-25",
+              flexibility: "sancti",
+              id: "sancti:12-25m3:1:w",
+              name: "12-25m3",
+              priority: 2,
+              rank: 1,
+              title: "Missa do Dia de Natal de N. S. Jesus Cristo",
+              weekday: 3,
+            },
+          ],
+          commemoration: [],
+          date: "2024-12-25",
+          tempora: [],
+        },
         id: "sancti:12-25m2:1:w",
         rank: 1,
+        tempora: undefined,
         title: "Missa da Aurora de Natal de N. S. Jesus Cristo",
       },
       sections: [
@@ -509,7 +586,47 @@ test("2024-12-25", () => {
     {
       info: {
         colors: ["w"],
-        date: undefined,
+        date: "2024-12-25",
+        day: {
+          celebration: [
+            {
+              colors: ["w"],
+              date: "2024-12-25",
+              flexibility: "sancti",
+              id: "sancti:12-25m1:1:w",
+              name: "12-25m1",
+              priority: 0,
+              rank: 1,
+              title: "Missa da Noite de Natal de N. S. Jesus Cristo",
+              weekday: 3,
+            },
+            {
+              colors: ["w"],
+              date: "2024-12-25",
+              flexibility: "sancti",
+              id: "sancti:12-25m2:1:w",
+              name: "12-25m2",
+              priority: 1,
+              rank: 1,
+              title: "Missa da Aurora de Natal de N. S. Jesus Cristo",
+              weekday: 3,
+            },
+            {
+              colors: ["w"],
+              date: "2024-12-25",
+              flexibility: "sancti",
+              id: "sancti:12-25m3:1:w",
+              name: "12-25m3",
+              priority: 2,
+              rank: 1,
+              title: "Missa do Dia de Natal de N. S. Jesus Cristo",
+              weekday: 3,
+            },
+          ],
+          commemoration: [],
+          date: "2024-12-25",
+          tempora: [],
+        },
         id: "sancti:12-25m3:1:w",
         rank: 1,
         tempora: undefined,

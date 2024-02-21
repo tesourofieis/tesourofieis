@@ -1,27 +1,60 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../lib/calendar";
-import { format_propers } from "../lib/utils";
+import { getDay } from "../../lib/getDay";
 
 test("2024-01-28", () => {
-  const calendar = new Calendar(2024);
+  const proper = getDay("2024-01-28");
 
-  const day = calendar.get("2024-01-28");
-
-  const proper = day?.getProper(calendar);
-
-  const formated = format_propers(proper);
-
-  console.log(formated);
-
-  expect(formated).toMatchObject([
+  expect(proper).toMatchObject([
     {
       info: {
         colors: ["v"],
-        date: undefined,
         id: "tempora:Quadp1-0:2:v",
         rank: 2,
-        tempora: undefined,
+        tempora: null,
         title: "Domingo da Septuagésima",
+        date: "2024-01-28",
+        day: {
+          celebration: [
+            {
+              colors: ["v"],
+              date: "2024-01-28",
+              flexibility: "tempora",
+              id: "tempora:Quadp1-0:2:v",
+              name: "Quadp1-0",
+              priority: 45,
+              rank: 2,
+              title: "Domingo da Septuagésima",
+              weekday: 0,
+            },
+          ],
+          commemoration: [
+            {
+              colors: ["w"],
+              date: "2024-01-28",
+              flexibility: "sancti",
+              id: "sancti:01-28:3:w",
+              name: "01-28",
+              priority: 79,
+              rank: 3,
+              title: "S. Pedro Nolasco, Confessor",
+              weekday: 0,
+            },
+          ],
+          date: "2024-01-28",
+          tempora: [
+            {
+              colors: ["v"],
+              date: "2024-01-28",
+              flexibility: "tempora",
+              id: "tempora:Quadp1-0:2:v",
+              name: "Quadp1-0",
+              priority: 45,
+              rank: 2,
+              title: "Domingo da Septuagésima",
+              weekday: 0,
+            },
+          ],
+        },
       },
       sections: [
         {

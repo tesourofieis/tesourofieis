@@ -1,13 +1,12 @@
 import { describe, expect, test } from "vitest";
-import { Calendar } from "../lib/calendar";
-import { printAll } from "../lib/utils";
+import { getCalendar } from "../../lib/getCalendar";
+import { printAll } from "../../lib/utils";
 
-describe("calendar", () => {
-  test("renders entire calendar correctly", () => {
-    const calendar = new Calendar(2024);
-
+describe("calendar 2025", () => {
+  test("should render the correct calendar", () => {
+    const calendar = getCalendar(2025);
     expect(printAll(calendar)).toMatchObject({
-      "2024-01-01": {
+      "2025-01-01": {
         tempora: [],
         celebration: [
           {
@@ -19,7 +18,29 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-02": {
+      "2025-01-02": {
+        tempora: [],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-01-03": {
+        tempora: [],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-01-04": {
+        tempora: [],
+        celebration: [
+          {
+            id: "commune:C10b:0:w",
+            rank: 0,
+            title: "2ª Missa da Virgem Maria - Missa Vultum tuum",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-01-05": {
         tempora: [],
         celebration: [
           {
@@ -31,22 +52,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-03": {
-        tempora: [],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-01-04": {
-        tempora: [],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-01-05": {
-        tempora: [],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-01-06": {
+      "2025-01-06": {
         tempora: [],
         celebration: [
           {
@@ -58,7 +64,39 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-07": {
+      "2025-01-07": {
+        tempora: [],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-01-08": {
+        tempora: [],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-01-09": {
+        tempora: [],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-01-10": {
+        tempora: [],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-01-11": {
+        tempora: [],
+        celebration: [
+          {
+            id: "commune:C10b:0:w",
+            rank: 0,
+            title: "2ª Missa da Virgem Maria - Missa Vultum tuum",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-01-12": {
         tempora: [
           {
             id: "tempora:Epi1-0:2:w",
@@ -77,72 +115,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-08": {
+      "2025-01-13": {
         tempora: [
           {
             id: "tempora:Epi1-1:4:w",
             rank: 4,
             title: "Segunda-feira da semana ap\u00f3s a Epifania",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-01-09": {
-        tempora: [
-          {
-            id: "tempora:Epi1-2:4:w",
-            rank: 4,
-            title: "Ter\u00e7a-feira da semana ap\u00f3s a Epifania",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-01-10": {
-        tempora: [
-          {
-            id: "tempora:Epi1-3:4:w",
-            rank: 4,
-            title: "Quarta-feira da semana ap\u00f3s a Epifania",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-01-11": {
-        tempora: [
-          {
-            id: "tempora:Epi1-4:4:w",
-            rank: 4,
-            title: "Quinta-feira da semana ap\u00f3s a Epifania",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-01-12": {
-        tempora: [
-          {
-            id: "tempora:Epi1-5:4:w",
-            rank: 4,
-            title: "Sexta-feira da semana ap\u00f3s a Epifania",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-01-13": {
-        tempora: [
-          {
-            id: "tempora:Epi1-6:4:w",
-            rank: 4,
-            title: "S\u00e1bado da semana ap\u00f3s a Epifania",
             colors: ["w"],
           },
         ],
@@ -156,39 +134,32 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-14": {
+      "2025-01-14": {
         tempora: [
           {
-            id: "tempora:Epi2-0:2:g",
-            rank: 2,
-            title: "2\u00ba Domingo ap\u00f3s a Epifania",
-            colors: ["g"],
+            id: "tempora:Epi1-2:4:w",
+            rank: 4,
+            title: "Ter\u00e7a-feira da semana ap\u00f3s a Epifania",
+            colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Epi2-0:2:g",
-            rank: 2,
-            title: "2\u00ba Domingo ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
             id: "sancti:01-14:3:w",
             rank: 3,
-            title: "S. Hilário, Bispo Confessor e Doutor",
+            title: "S. Hil\u00e1rio, Bispo Confessor e Doutor",
+            colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-01-15": {
+      "2025-01-15": {
         tempora: [
           {
-            id: "tempora:Epi2-1:4:g",
+            id: "tempora:Epi1-3:4:w",
             rank: 4,
-            title: "Segunda-feira da 2\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
+            title: "Quarta-feira da semana ap\u00f3s a Epifania",
+            colors: ["w"],
           },
         ],
         celebration: [
@@ -201,13 +172,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-16": {
+      "2025-01-16": {
         tempora: [
           {
-            id: "tempora:Epi2-2:4:g",
+            id: "tempora:Epi1-4:4:w",
             rank: 4,
-            title: "Ter\u00e7a-feira da 2\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
+            title: "Quinta-feira da semana ap\u00f3s a Epifania",
+            colors: ["w"],
           },
         ],
         celebration: [
@@ -220,13 +191,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-17": {
+      "2025-01-17": {
         tempora: [
           {
-            id: "tempora:Epi2-3:4:g",
+            id: "tempora:Epi1-5:4:w",
             rank: 4,
-            title: "Quarta-feira da 2\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
+            title: "Sexta-feira da semana ap\u00f3s a Epifania",
+            colors: ["w"],
           },
         ],
         celebration: [
@@ -239,16 +210,23 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-18": {
+      "2025-01-18": {
         tempora: [
           {
-            id: "tempora:Epi2-4:4:g",
+            id: "tempora:Epi1-6:4:w",
             rank: 4,
-            title: "Quinta-feira da 2\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
+            title: "S\u00e1bado da semana ap\u00f3s a Epifania",
+            colors: ["w"],
           },
         ],
-        celebration: [],
+        celebration: [
+          {
+            id: "commune:C10b:0:w",
+            rank: 0,
+            title: "2ª Missa da Virgem Maria - Missa Vultum tuum",
+            colors: ["w"],
+          },
+        ],
         commemoration: [
           {
             id: "sancti:01-18r:4:w",
@@ -258,31 +236,31 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-01-19": {
+      "2025-01-19": {
         tempora: [
           {
-            id: "tempora:Epi2-5:4:g",
-            rank: 4,
-            title: "Sexta-feira da 2\u00aa semana ap\u00f3s a Epifania",
+            id: "tempora:Epi2-0:2:g",
+            rank: 2,
+            title: "2\u00ba Domingo ap\u00f3s a Epifania",
             colors: ["g"],
           },
         ],
-        celebration: [],
-        commemoration: [
+        celebration: [
           {
-            id: "sancti:01-19:4:r",
-            rank: 4,
-            title: "S.S. M\u00e1rio, Marta, Audifax e Abachum",
-            colors: ["r"],
+            id: "tempora:Epi2-0:2:g",
+            rank: 2,
+            title: "2\u00ba Domingo ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
+        commemoration: [],
       },
-      "2024-01-20": {
+      "2025-01-20": {
         tempora: [
           {
-            id: "tempora:Epi2-6:4:g",
+            id: "tempora:Epi2-1:4:g",
             rank: 4,
-            title: "S\u00e1bado da 2\u00aa semana ap\u00f3s a Epifania",
+            title: "Segunda-feira da 2\u00aa semana ap\u00f3s a Epifania",
             colors: ["g"],
           },
         ],
@@ -296,7 +274,102 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-21": {
+      "2025-01-21": {
+        tempora: [
+          {
+            id: "tempora:Epi2-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 2\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:01-21:3:r",
+            rank: 3,
+            title: "S. In\u00eas, Virgem e M\u00e1rtir",
+            colors: ["r"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-01-22": {
+        tempora: [
+          {
+            id: "tempora:Epi2-3:4:g",
+            rank: 4,
+            title: "Quarta-feira da 2\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:01-22:3:r",
+            rank: 3,
+            title: "S.S. Vicente e Anast\u00e1cio, M\u00e1rtires",
+            colors: ["r"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-01-23": {
+        tempora: [
+          {
+            id: "tempora:Epi2-4:4:g",
+            rank: 4,
+            title: "Quinta-feira da 2\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:01-23:3:w",
+            rank: 3,
+            title: "S. Raimundo de Penhafort, Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-01-24": {
+        tempora: [
+          {
+            id: "tempora:Epi2-5:4:g",
+            rank: 4,
+            title: "Sexta-feira da 2\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:01-24:3:r",
+            rank: 3,
+            title: "S. Tim\u00f3teo, Bispo e M\u00e1rtir",
+            colors: ["r"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-01-25": {
+        tempora: [
+          {
+            id: "tempora:Epi2-6:4:g",
+            rank: 4,
+            title: "S\u00e1bado da 2\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:01-25r:3:w",
+            rank: 3,
+            title: "Convers\u00e3o S. Paulo, Ap\u00f3stolo",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-01-26": {
         tempora: [
           {
             id: "tempora:Epi3-0:2:g",
@@ -316,113 +389,18 @@ describe("calendar", () => {
         commemoration: [
           {
             colors: ["r"],
-            id: "sancti:01-21:3:r",
+            id: "sancti:01-26:3:r",
             rank: 3,
-            title: "S. Inês, Virgem e Mártir",
+            title: "S. Policarpo, Bispo e Mártir",
           },
         ],
       },
-      "2024-01-22": {
+      "2025-01-27": {
         tempora: [
           {
             id: "tempora:Epi3-1:4:g",
             rank: 4,
             title: "Segunda-feira da 3\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:01-22:3:r",
-            rank: 3,
-            title: "S.S. Vicente e Anast\u00e1cio, M\u00e1rtires",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-01-23": {
-        tempora: [
-          {
-            id: "tempora:Epi3-2:4:g",
-            rank: 4,
-            title: "Ter\u00e7a-feira da 3\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:01-23:3:w",
-            rank: 3,
-            title: "S. Raimundo de Penhafort, Confessor",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-01-24": {
-        tempora: [
-          {
-            id: "tempora:Epi3-3:4:g",
-            rank: 4,
-            title: "Quarta-feira da 3\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:01-24:3:r",
-            rank: 3,
-            title: "S. Tim\u00f3teo, Bispo e M\u00e1rtir",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-01-25": {
-        tempora: [
-          {
-            id: "tempora:Epi3-4:4:g",
-            rank: 4,
-            title: "Quinta-feira da 3\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:01-25r:3:w",
-            rank: 3,
-            title: "Convers\u00e3o S. Paulo, Ap\u00f3stolo",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-01-26": {
-        tempora: [
-          {
-            id: "tempora:Epi3-5:4:g",
-            rank: 4,
-            title: "Sexta-feira da 3\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:01-26:3:r",
-            rank: 3,
-            title: "S. Policarpo, Bispo e M\u00e1rtir",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-01-27": {
-        tempora: [
-          {
-            id: "tempora:Epi3-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 3\u00aa semana ap\u00f3s a Epifania",
             colors: ["g"],
           },
         ],
@@ -437,39 +415,32 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-28": {
+      "2025-01-28": {
         tempora: [
           {
-            id: "tempora:Quadp1-0:2:v",
-            rank: 2,
-            title: "Domingo da Septuag\u00e9sima",
-            colors: ["v"],
+            id: "tempora:Epi3-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 3\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quadp1-0:2:v",
-            rank: 2,
-            title: "Domingo da Septuag\u00e9sima",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
             id: "sancti:01-28:3:w",
             rank: 3,
             title: "S. Pedro Nolasco, Confessor",
+            colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-01-29": {
+      "2025-01-29": {
         tempora: [
           {
-            id: "tempora:Quadp1-1:4:v",
+            id: "tempora:Epi3-3:4:g",
             rank: 4,
-            title: "Segunda-feira da semana da Septuag\u00e9sima",
-            colors: ["v"],
+            title: "Quarta-feira da 3\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -482,13 +453,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-30": {
+      "2025-01-30": {
         tempora: [
           {
-            id: "tempora:Quadp1-2:4:v",
+            id: "tempora:Epi3-4:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da semana da Septuag\u00e9sima",
-            colors: ["v"],
+            title: "Quinta-feira da 3\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -501,13 +472,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-01-31": {
+      "2025-01-31": {
         tempora: [
           {
-            id: "tempora:Quadp1-3:4:v",
+            id: "tempora:Epi3-5:4:g",
             rank: 4,
-            title: "Quarta-feira da semana da Septuag\u00e9sima",
-            colors: ["v"],
+            title: "Sexta-feira da 3\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -520,13 +491,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-02-01": {
+      "2025-02-01": {
         tempora: [
           {
-            id: "tempora:Quadp1-4:4:v",
+            id: "tempora:Epi3-6:4:g",
             rank: 4,
-            title: "Quinta-feira da semana da Septuag\u00e9sima",
-            colors: ["v"],
+            title: "S\u00e1bado da 3\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -539,13 +510,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-02-02": {
+      "2025-02-02": {
         tempora: [
           {
-            id: "tempora:Quadp1-5:4:v",
-            rank: 4,
-            title: "Sexta-feira da semana da Septuag\u00e9sima",
-            colors: ["v"],
+            id: "tempora:Epi4-0:2:g",
+            rank: 2,
+            title: "4\u00ba Domingo ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -558,23 +529,16 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-02-03": {
+      "2025-02-03": {
         tempora: [
           {
-            id: "tempora:Quadp1-6:4:v",
+            id: "tempora:Epi4-1:4:g",
             rank: 4,
-            title: "S\u00e1bado da semana da Septuag\u00e9sima",
-            colors: ["v"],
+            title: "Segunda-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
-        celebration: [
-          {
-            id: "commune:C10c:0:w",
-            rank: 0,
-            title: "3º Missa da Virgem Maria – Missa Salve, Sancta Parens",
-            colors: ["w"],
-          },
-        ],
+        celebration: [],
         commemoration: [
           {
             id: "sancti:02-03:4:r",
@@ -584,39 +548,32 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-02-04": {
+      "2025-02-04": {
         tempora: [
           {
-            id: "tempora:Quadp2-0:2:v",
-            rank: 2,
-            title: "Domingo da Sexag\u00e9sima",
-            colors: ["v"],
+            id: "tempora:Epi4-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quadp2-0:2:v",
-            rank: 2,
-            title: "Domingo da Sexag\u00e9sima",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
             id: "sancti:02-04:3:w",
             rank: 3,
-            title: "S. André Corsino, Bispo e Confessor",
+            title: "S. Andr\u00e9 Corsino, Bispo e Confessor",
+            colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-02-05": {
+      "2025-02-05": {
         tempora: [
           {
-            id: "tempora:Quadp2-1:4:v",
+            id: "tempora:Epi4-3:4:g",
             rank: 4,
-            title: "Segunda-feira da semana da Sexag\u00e9sima",
-            colors: ["v"],
+            title: "Quarta-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -629,13 +586,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-02-06": {
+      "2025-02-06": {
         tempora: [
           {
-            id: "tempora:Quadp2-2:4:v",
+            id: "tempora:Epi4-4:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da semana da Sexag\u00e9sima",
-            colors: ["v"],
+            title: "Quinta-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -648,13 +605,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-02-07": {
+      "2025-02-07": {
         tempora: [
           {
-            id: "tempora:Quadp2-3:4:v",
+            id: "tempora:Epi4-5:4:g",
             rank: 4,
-            title: "Quarta-feira da semana da Sexag\u00e9sima",
-            colors: ["v"],
+            title: "Sexta-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -667,13 +624,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-02-08": {
+      "2025-02-08": {
         tempora: [
           {
-            id: "tempora:Quadp2-4:4:v",
+            id: "tempora:Epi4-6:4:g",
             rank: 4,
-            title: "Quinta-feira da semana da Sexag\u00e9sima",
-            colors: ["v"],
+            title: "S\u00e1bado da 4\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -686,33 +643,40 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-02-09": {
+      "2025-02-09": {
         tempora: [
           {
-            id: "tempora:Quadp2-5:4:v",
-            rank: 4,
-            title: "Sexta-feira da semana da Sexag\u00e9sima",
-            colors: ["v"],
+            id: "tempora:Epi5-0:2:g",
+            rank: 2,
+            title: "5\u00ba Domingo ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
           {
+            id: "tempora:Epi5-0:2:g",
+            rank: 2,
+            title: "5\u00ba Domingo ap\u00f3s a Epifania",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [
+          {
+            colors: ["w"],
             id: "sancti:02-09:3:w",
             rank: 3,
             title:
               "S. Cirilo de Alexandria, Bispo, Confessor e Doutor da Igreja",
-            colors: ["w"],
           },
         ],
-        commemoration: [],
       },
-      "2024-02-10": {
+      "2025-02-10": {
         tempora: [
           {
-            id: "tempora:Quadp2-6:4:v",
+            id: "tempora:Epi5-1:4:g",
             rank: 4,
-            title: "S\u00e1bado da semana da Sexag\u00e9sima",
-            colors: ["v"],
+            title: "Segunda-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -725,39 +689,32 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-02-11": {
+      "2025-02-11": {
         tempora: [
           {
-            id: "tempora:Quadp3-0:2:v",
-            rank: 2,
-            title: "Domingo da Quinquag\u00e9sima",
-            colors: ["v"],
+            id: "tempora:Epi5-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quadp3-0:2:v",
-            rank: 2,
-            title: "Domingo da Quinquag\u00e9sima",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
             id: "sancti:02-11:3:w",
             rank: 3,
-            title: "Aparição de Nossa Senhora, em Lourdes",
+            title: "Apari\u00e7\u00e3o de Nossa Senhora, em Lourdes",
+            colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-02-12": {
+      "2025-02-12": {
         tempora: [
           {
-            id: "tempora:Quadp3-1:4:v",
+            id: "tempora:Epi5-3:4:g",
             rank: 4,
-            title: "Segunda-feira da semana da Quinquag\u00e9sima",
-            colors: ["v"],
+            title: "Quarta-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -770,52 +727,52 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-02-13": {
+      "2025-02-13": {
         tempora: [
           {
-            id: "tempora:Quadp3-2:4:v",
+            id: "tempora:Epi5-4:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da semana da Quinquag\u00e9sima",
-            colors: ["v"],
+            title: "Quinta-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-02-14": {
+      "2025-02-14": {
         tempora: [
           {
-            id: "tempora:Quadp3-3:1:v",
-            rank: 1,
-            title: "Quarta-feira de Cinzas",
-            colors: ["v"],
+            id: "tempora:Epi5-5:4:g",
+            rank: 4,
+            title: "Sexta-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
-        celebration: [
+        celebration: [],
+        commemoration: [
           {
-            id: "tempora:Quadp3-3:1:v",
-            rank: 1,
-            title: "Quarta-feira de Cinzas",
-            colors: ["v"],
+            id: "sancti:02-14:4:r",
+            rank: 4,
+            title: "S. Valentim, Presb\u00edtero e M\u00e1rtir",
+            colors: ["r"],
           },
         ],
-        commemoration: [],
       },
-      "2024-02-15": {
+      "2025-02-15": {
         tempora: [
           {
-            id: "tempora:Quadp3-4:3:v",
-            rank: 3,
-            title: "Quinta-feira depois das Cinzas",
-            colors: ["v"],
+            id: "tempora:Epi5-6:4:g",
+            rank: 4,
+            title: "S\u00e1bado da 5\u00aa semana ap\u00f3s a Epifania",
+            colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quadp3-4:3:v",
-            rank: 3,
-            title: "Quinta-feira depois das Cinzas",
-            colors: ["v"],
+            id: "commune:C10c:0:w",
+            rank: 0,
+            title: "3º Missa da Virgem Maria – Missa Salve, Sancta Parens",
+            colors: ["w"],
           },
         ],
         commemoration: [
@@ -827,128 +784,98 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-02-16": {
+      "2025-02-16": {
         tempora: [
           {
-            id: "tempora:Quadp3-5:3:v",
-            rank: 3,
-            title: "Sexta-feira depois das Cinzas",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quadp3-5:3:v",
-            rank: 3,
-            title: "Sexta-feira depois das Cinzas",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-02-17": {
-        tempora: [
-          {
-            id: "tempora:Quadp3-6:3:v",
-            rank: 3,
-            title: "S\u00e1bado depois das Cinzas",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quadp3-6:3:v",
-            rank: 3,
-            title: "S\u00e1bado depois das Cinzas",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-02-18": {
-        tempora: [
-          {
-            id: "tempora:Quad1-0:1:v",
-            rank: 1,
-            title: "1\u00ba Domingo da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad1-0:1:v",
-            rank: 1,
-            title: "1\u00ba Domingo da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-02-19": {
-        tempora: [
-          {
-            id: "tempora:Quad1-1:3:v",
-            rank: 3,
-            title: "Segunda-feira da 1\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad1-1:3:v",
-            rank: 3,
-            title: "Segunda-feira da 1\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-02-20": {
-        tempora: [
-          {
-            id: "tempora:Quad1-2:3:v",
-            rank: 3,
-            title: "Ter\u00e7a-feira da 1\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad1-2:3:v",
-            rank: 3,
-            title: "Ter\u00e7a-feira da 1\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-02-21": {
-        tempora: [
-          {
-            id: "tempora:Quad1-3:2:v",
+            id: "tempora:Quadp1-0:2:v",
             rank: 2,
-            title:
-              "Quarta-feira da 1\u00aa Semana da Quaresma, T\u00eamporas da Primavera",
+            title: "Domingo da Septuag\u00e9sima",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad1-3:2:v",
+            id: "tempora:Quadp1-0:2:v",
             rank: 2,
-            title:
-              "Quarta-feira da 1\u00aa Semana da Quaresma, T\u00eamporas da Primavera",
+            title: "Domingo da Septuag\u00e9sima",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-02-22": {
+      "2025-02-17": {
         tempora: [
           {
-            id: "tempora:Quad1-4:3:v",
-            rank: 3,
-            title: "Quinta-feira da 1\u00aa semana da Quaresma",
+            id: "tempora:Quadp1-1:4:v",
+            rank: 4,
+            title: "Segunda-feira da semana da Septuag\u00e9sima",
+            colors: ["v"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-02-18": {
+        tempora: [
+          {
+            id: "tempora:Quadp1-2:4:v",
+            rank: 4,
+            title: "Ter\u00e7a-feira da semana da Septuag\u00e9sima",
+            colors: ["v"],
+          },
+        ],
+        celebration: [],
+        commemoration: [
+          {
+            id: "sancti:02-18:4:r",
+            rank: 4,
+            title: "S. Sime\u00e3o, Bispo e M\u00e1rtir",
+            colors: ["r"],
+          },
+        ],
+      },
+      "2025-02-19": {
+        tempora: [
+          {
+            id: "tempora:Quadp1-3:4:v",
+            rank: 4,
+            title: "Quarta-feira da semana da Septuag\u00e9sima",
+            colors: ["v"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-02-20": {
+        tempora: [
+          {
+            id: "tempora:Quadp1-4:4:v",
+            rank: 4,
+            title: "Quinta-feira da semana da Septuag\u00e9sima",
+            colors: ["v"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-02-21": {
+        tempora: [
+          {
+            id: "tempora:Quadp1-5:4:v",
+            rank: 4,
+            title: "Sexta-feira da semana da Septuag\u00e9sima",
+            colors: ["v"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-02-22": {
+        tempora: [
+          {
+            id: "tempora:Quadp1-6:4:v",
+            rank: 4,
+            title: "S\u00e1bado da semana da Septuag\u00e9sima",
             colors: ["v"],
           },
         ],
@@ -960,146 +887,87 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [
-          {
-            id: "tempora:Quad1-4:3:v",
-            rank: 3,
-            title: "Quinta-feira da 1\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
+        commemoration: [],
       },
-      "2024-02-23": {
+      "2025-02-23": {
         tempora: [
           {
-            id: "tempora:Quad1-5:2:v",
+            id: "tempora:Quadp2-0:2:v",
             rank: 2,
-            title:
-              "Sexta-feira 1\u00aa semana da Quaresma, T\u00eamporas da Primavera",
+            title: "Domingo da Sexag\u00e9sima",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad1-5:2:v",
+            id: "tempora:Quadp2-0:2:v",
             rank: 2,
-            title:
-              "Sexta-feira 1\u00aa semana da Quaresma, T\u00eamporas da Primavera",
+            title: "Domingo da Sexag\u00e9sima",
             colors: ["v"],
           },
         ],
         commemoration: [
           {
+            colors: ["w"],
             id: "sancti:02-23:3:w",
             rank: 3,
-            title: "S. Pedro Dami\u00e3o, Bispo, Confessor e Doutor da Igreja",
-            colors: ["w"],
+            title: "S. Pedro Damião, Bispo, Confessor e Doutor da Igreja",
           },
         ],
       },
-      "2024-02-24": {
+      "2025-02-24": {
         tempora: [
           {
-            id: "tempora:Quad1-6:2:v",
-            rank: 2,
-            title:
-              "S\u00e1bado da 1\u00aa semana da Quaresma, T\u00eamporas da Primavera",
+            id: "tempora:Quadp2-1:4:v",
+            rank: 4,
+            title: "Segunda-feira da semana da Sexag\u00e9sima",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad1-6:2:v",
-            rank: 2,
-            title:
-              "S\u00e1bado da 1\u00aa semana da Quaresma, T\u00eamporas da Primavera",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-02-25": {
-        tempora: [
-          {
-            id: "tempora:Quad2-0:1:v",
-            rank: 1,
-            title: "2\u00ba Domingo da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad2-0:1:v",
-            rank: 1,
-            title: "2\u00ba Domingo da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-02-26": {
-        celebration: [
-          {
-            colors: ["r"],
             id: "sancti:02-24:2:r",
             rank: 2,
-            title: "S. Matias, Apóstolo",
-          },
-        ],
-        tempora: [
-          {
-            id: "tempora:Quad2-1:3:v",
-            rank: 3,
-            title: "Segunda-feira da 2\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [
-          {
-            id: "tempora:Quad2-1:3:v",
-            rank: 3,
-            title: "Segunda-feira da 2\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-      },
-      "2024-02-27": {
-        tempora: [
-          {
-            id: "tempora:Quad2-2:3:v",
-            rank: 3,
-            title: "Ter\u00e7a-feira da 2\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad2-2:3:v",
-            rank: 3,
-            title: "Ter\u00e7a-feira da 2\u00aa semana da Quaresma",
-            colors: ["v"],
+            title: "S. Matias, Ap\u00f3stolo",
+            colors: ["r"],
           },
         ],
         commemoration: [],
       },
-      "2024-02-28": {
+      "2025-02-25": {
         tempora: [
           {
-            id: "tempora:Quad2-3:3:v",
-            rank: 3,
-            title: "Quarta-feira da 2\u00aa semana da Quaresma",
+            id: "tempora:Quadp2-2:4:v",
+            rank: 4,
+            title: "Ter\u00e7a-feira da semana da Sexag\u00e9sima",
+            colors: ["v"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-02-26": {
+        tempora: [
+          {
+            id: "tempora:Quadp2-3:4:v",
+            rank: 4,
+            title: "Quarta-feira da semana da Sexag\u00e9sima",
+            colors: ["v"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-02-27": {
+        tempora: [
+          {
+            id: "tempora:Quadp2-4:4:v",
+            rank: 4,
+            title: "Quinta-feira da semana da Sexag\u00e9sima",
             colors: ["v"],
           },
         ],
         celebration: [
-          {
-            id: "tempora:Quad2-3:3:v",
-            rank: 3,
-            title: "Quarta-feira da 2\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [
           {
             id: "sancti:02-27:3:w",
             rank: 3,
@@ -1107,101 +975,80 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-02-29": {
+      "2025-02-28": {
         tempora: [
           {
-            id: "tempora:Quad2-4:3:v",
-            rank: 3,
-            title: "Quinta-feira da 2\u00aa semana da Quaresma",
+            id: "tempora:Quadp2-5:4:v",
+            rank: 4,
+            title: "Sexta-feira da semana da Sexag\u00e9sima",
+            colors: ["v"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-03-01": {
+        tempora: [
+          {
+            id: "tempora:Quadp2-6:4:v",
+            rank: 4,
+            title: "S\u00e1bado da semana da Sexag\u00e9sima",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad2-4:3:v",
-            rank: 3,
-            title: "Quinta-feira da 2\u00aa semana da Quaresma",
+            id: "commune:C10c:0:w",
+            rank: 0,
+            title: "3º Missa da Virgem Maria – Missa Salve, Sancta Parens",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-03-02": {
+        tempora: [
+          {
+            id: "tempora:Quadp3-0:2:v",
+            rank: 2,
+            title: "Domingo da Quinquag\u00e9sima",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quadp3-0:2:v",
+            rank: 2,
+            title: "Domingo da Quinquag\u00e9sima",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-03-01": {
+      "2025-03-03": {
         tempora: [
           {
-            id: "tempora:Quad2-5:3:v",
-            rank: 3,
-            title: "Sexta-feira da 2\u00aa semana da Quaresma",
+            id: "tempora:Quadp3-1:4:v",
+            rank: 4,
+            title: "Segunda-feira da semana da Quinquag\u00e9sima",
             colors: ["v"],
           },
         ],
-        celebration: [
-          {
-            id: "tempora:Quad2-5:3:v",
-            rank: 3,
-            title: "Sexta-feira da 2\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
+        celebration: [],
         commemoration: [],
       },
-      "2024-03-02": {
+      "2025-03-04": {
         tempora: [
           {
-            id: "tempora:Quad2-6:3:v",
-            rank: 3,
-            title: "S\u00e1bado da 2\u00aa semana da Quaresma",
+            id: "tempora:Quadp3-2:4:v",
+            rank: 4,
+            title: "Ter\u00e7a-feira da semana da Quinquag\u00e9sima",
             colors: ["v"],
           },
         ],
         celebration: [
-          {
-            id: "tempora:Quad2-6:3:v",
-            rank: 3,
-            title: "S\u00e1bado da 2\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-03": {
-        tempora: [
-          {
-            id: "tempora:Quad3-0:1:v",
-            rank: 1,
-            title: "3\u00ba Domingo da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad3-0:1:v",
-            rank: 1,
-            title: "3\u00ba Domingo da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-04": {
-        tempora: [
-          {
-            id: "tempora:Quad3-1:3:v",
-            rank: 3,
-            title: "Segunda-feira da 3\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad3-1:3:v",
-            rank: 3,
-            title: "Segunda-feira da 3\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [
           {
             id: "sancti:03-04:3:w",
             rank: 3,
@@ -1209,40 +1056,41 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-03-05": {
+      "2025-03-05": {
         tempora: [
           {
-            id: "tempora:Quad3-2:3:v",
-            rank: 3,
-            title: "Ter\u00e7a-feira da 3\u00aa semana da Quaresma",
+            id: "tempora:Quadp3-3:1:v",
+            rank: 1,
+            title: "Quarta-feira de Cinzas",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad3-2:3:v",
-            rank: 3,
-            title: "Ter\u00e7a-feira da 3\u00aa semana da Quaresma",
+            id: "tempora:Quadp3-3:1:v",
+            rank: 1,
+            title: "Quarta-feira de Cinzas",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-03-06": {
+      "2025-03-06": {
         tempora: [
           {
-            id: "tempora:Quad3-3:3:v",
+            id: "tempora:Quadp3-4:3:v",
             rank: 3,
-            title: "Quarta-feira da 3\u00aa semana da Quaresma",
+            title: "Quinta-feira depois das Cinzas",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad3-3:3:v",
+            id: "tempora:Quadp3-4:3:v",
             rank: 3,
-            title: "Quarta-feira da 3\u00aa semana da Quaresma",
+            title: "Quinta-feira depois das Cinzas",
             colors: ["v"],
           },
         ],
@@ -1255,20 +1103,20 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-03-07": {
+      "2025-03-07": {
         tempora: [
           {
-            id: "tempora:Quad3-4:3:v",
+            id: "tempora:Quadp3-5:3:v",
             rank: 3,
-            title: "Quinta-feira da 3\u00aa semana da Quaresma",
+            title: "Sexta-feira depois das Cinzas",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad3-4:3:v",
+            id: "tempora:Quadp3-5:3:v",
             rank: 3,
-            title: "Quinta-feira da 3\u00aa semana da Quaresma",
+            title: "Sexta-feira depois das Cinzas",
             colors: ["v"],
           },
         ],
@@ -1281,20 +1129,20 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-03-08": {
+      "2025-03-08": {
         tempora: [
           {
-            id: "tempora:Quad3-5:3:v",
+            id: "tempora:Quadp3-6:3:v",
             rank: 3,
-            title: "Sexta-feira da 3\u00aa semana da Quaresma",
+            title: "S\u00e1bado depois das Cinzas",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad3-5:3:v",
+            id: "tempora:Quadp3-6:3:v",
             rank: 3,
-            title: "Sexta-feira da 3\u00aa semana da Quaresma",
+            title: "S\u00e1bado depois das Cinzas",
             colors: ["v"],
           },
         ],
@@ -1307,84 +1155,86 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-03-09": {
+      "2025-03-09": {
         tempora: [
           {
-            id: "tempora:Quad3-6:3:v",
-            rank: 3,
-            title: "S\u00e1bado da 3\u00aa semana da Quaresma",
+            id: "tempora:Quad1-0:1:v",
+            rank: 1,
+            title: "1\u00ba Domingo da Quaresma",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad3-6:3:v",
+            id: "tempora:Quad1-0:1:v",
+            rank: 1,
+            title: "1\u00ba Domingo da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-03-10": {
+        tempora: [
+          {
+            id: "tempora:Quad1-1:3:v",
             rank: 3,
-            title: "S\u00e1bado da 3\u00aa semana da Quaresma",
+            title: "Segunda-feira da 1\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad1-1:3:v",
+            rank: 3,
+            title: "Segunda-feira da 1\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         commemoration: [
           {
-            id: "sancti:03-09:3:w",
+            id: "sancti:03-10:3:r",
             rank: 3,
-            title: "S. Francisca Romana, Vi\u00fava",
-            colors: ["w"],
+            title: "S.S. Quarenta M\u00e1rtires",
+            colors: ["r"],
           },
         ],
       },
-      "2024-03-10": {
+      "2025-03-11": {
         tempora: [
           {
-            id: "tempora:Quad4-0:1:v",
-            rank: 1,
-            title: "4\u00ba Domingo da Quaresma",
+            id: "tempora:Quad1-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 1\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad4-0:1:v",
-            rank: 1,
-            title: "4\u00ba Domingo da Quaresma",
+            id: "tempora:Quad1-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 1\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-03-11": {
+      "2025-03-12": {
         tempora: [
           {
-            id: "tempora:Quad4-1:3:v",
-            rank: 3,
-            title: "Segunda-feira da 4\u00aa semana da Quaresma",
+            id: "tempora:Quad1-3:2:v",
+            rank: 2,
+            title:
+              "Quarta-feira da 1\u00aa Semana da Quaresma, T\u00eamporas da Primavera",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad4-1:3:v",
-            rank: 3,
-            title: "Segunda-feira da 4\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-12": {
-        tempora: [
-          {
-            id: "tempora:Quad4-2:3:v",
-            rank: 3,
-            title: "Ter\u00e7a-feira da 4\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad4-2:3:v",
-            rank: 3,
-            title: "Ter\u00e7a-feira da 4\u00aa semana da Quaresma",
+            id: "tempora:Quad1-3:2:v",
+            rank: 2,
+            title:
+              "Quarta-feira da 1\u00aa Semana da Quaresma, T\u00eamporas da Primavera",
             colors: ["v"],
           },
         ],
@@ -1397,115 +1247,126 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-03-13": {
+      "2025-03-13": {
         tempora: [
           {
-            id: "tempora:Quad4-3:3:v",
+            id: "tempora:Quad1-4:3:v",
             rank: 3,
-            title: "Quarta-feira da 4\u00aa semana da Quaresma",
+            title: "Quinta-feira da 1\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad4-3:3:v",
+            id: "tempora:Quad1-4:3:v",
             rank: 3,
-            title: "Quarta-feira da 4\u00aa semana da Quaresma",
+            title: "Quinta-feira da 1\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-03-14": {
+      "2025-03-14": {
         tempora: [
           {
-            id: "tempora:Quad4-4:3:v",
-            rank: 3,
-            title: "Quinta-feira da 4\u00aa semana da Quaresma",
+            id: "tempora:Quad1-5:2:v",
+            rank: 2,
+            title:
+              "Sexta-feira 1\u00aa semana da Quaresma, T\u00eamporas da Primavera",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad4-4:3:v",
-            rank: 3,
-            title: "Quinta-feira da 4\u00aa semana da Quaresma",
+            id: "tempora:Quad1-5:2:v",
+            rank: 2,
+            title:
+              "Sexta-feira 1\u00aa semana da Quaresma, T\u00eamporas da Primavera",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-03-15": {
+      "2025-03-15": {
         tempora: [
           {
-            id: "tempora:Quad4-5:3:v",
-            rank: 3,
-            title: "Sexta-feira da 4\u00aa semana da Quaresma",
+            id: "tempora:Quad1-6:2:v",
+            rank: 2,
+            title:
+              "S\u00e1bado da 1\u00aa semana da Quaresma, T\u00eamporas da Primavera",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad4-5:3:v",
-            rank: 3,
-            title: "Sexta-feira da 4\u00aa semana da Quaresma",
+            id: "tempora:Quad1-6:2:v",
+            rank: 2,
+            title:
+              "S\u00e1bado da 1\u00aa semana da Quaresma, T\u00eamporas da Primavera",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-03-16": {
+      "2025-03-16": {
         tempora: [
           {
-            id: "tempora:Quad4-6:3:v",
-            rank: 3,
-            title: "S\u00e1bado da 4\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad4-6:3:v",
-            rank: 3,
-            title: "S\u00e1bado da 4\u00aa semana da Quaresma",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-17": {
-        tempora: [
-          {
-            id: "tempora:Quad5-0:1:v",
+            id: "tempora:Quad2-0:1:v",
             rank: 1,
-            title: "Domingo da Paix\u00e3o",
+            title: "2\u00ba Domingo da Quaresma",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad5-0:1:v",
+            id: "tempora:Quad2-0:1:v",
             rank: 1,
-            title: "Domingo da Paix\u00e3o",
+            title: "2\u00ba Domingo da Quaresma",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-03-18": {
+      "2025-03-17": {
         tempora: [
           {
-            id: "tempora:Quad5-1:3:v",
+            id: "tempora:Quad2-1:3:v",
             rank: 3,
-            title: "Segunda-feira da semana da Paix\u00e3o",
+            title: "Segunda-feira da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad5-1:3:v",
+            id: "tempora:Quad2-1:3:v",
             rank: 3,
-            title: "Segunda-feira da semana da Paix\u00e3o",
+            title: "Segunda-feira da 2\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [
+          {
+            id: "sancti:03-17:3:w",
+            rank: 3,
+            title: "S. Patr\u00edcio, Bispo e Confessor",
+            colors: ["w"],
+          },
+        ],
+      },
+      "2025-03-18": {
+        tempora: [
+          {
+            id: "tempora:Quad2-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 2\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad2-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
@@ -1519,12 +1380,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-03-19": {
+      "2025-03-19": {
         tempora: [
           {
-            id: "tempora:Quad5-2:3:v",
+            id: "tempora:Quad2-3:3:v",
             rank: 3,
-            title: "Ter\u00e7a-feira da semana da Paix\u00e3o",
+            title: "Quarta-feira da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
@@ -1538,46 +1399,46 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "tempora:Quad5-2:3:v",
+            id: "tempora:Quad2-3:3:v",
             rank: 3,
-            title: "Ter\u00e7a-feira da semana da Paix\u00e3o",
+            title: "Quarta-feira da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
       },
-      "2024-03-20": {
+      "2025-03-20": {
         tempora: [
           {
-            id: "tempora:Quad5-3:3:v",
+            id: "tempora:Quad2-4:3:v",
             rank: 3,
-            title: "Quarta-feira da semana da Paix\u00e3o",
+            title: "Quinta-feira da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad5-3:3:v",
+            id: "tempora:Quad2-4:3:v",
             rank: 3,
-            title: "Quarta-feira da semana da Paix\u00e3o",
+            title: "Quinta-feira da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-03-21": {
+      "2025-03-21": {
         tempora: [
           {
-            id: "tempora:Quad5-4:3:v",
+            id: "tempora:Quad2-5:3:v",
             rank: 3,
-            title: "Quinta-feira da semana da Paix\u00e3o",
+            title: "Sexta-feira da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad5-4:3:v",
+            id: "tempora:Quad2-5:3:v",
             rank: 3,
-            title: "Quinta-feira da semana da Paix\u00e3o",
+            title: "Sexta-feira da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
@@ -1590,336 +1451,77 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-03-22": {
+      "2025-03-22": {
         tempora: [
           {
-            id: "tempora:Quad5-5Feria:3:v",
+            id: "tempora:Quad2-6:3:v",
             rank: 3,
-            title: "Sexta-feira da semana da Paix\u00e3o",
+            title: "S\u00e1bado da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad5-5Feria:3:v",
+            id: "tempora:Quad2-6:3:v",
             rank: 3,
-            title: "Sexta-feira da semana da Paix\u00e3o",
+            title: "S\u00e1bado da 2\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-03-23": {
+      "2025-03-23": {
         tempora: [
           {
-            id: "tempora:Quad5-6:3:v",
+            id: "tempora:Quad3-0:1:v",
+            rank: 1,
+            title: "3\u00ba Domingo da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad3-0:1:v",
+            rank: 1,
+            title: "3\u00ba Domingo da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-03-24": {
+        tempora: [
+          {
+            id: "tempora:Quad3-1:3:v",
             rank: 3,
-            title: "S\u00e1bado da semana da Paix\u00e3o",
+            title: "Segunda-feira da 3\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Quad5-6:3:v",
+            id: "tempora:Quad3-1:3:v",
             rank: 3,
-            title: "S\u00e1bado da semana da Paix\u00e3o",
+            title: "Segunda-feira da 3\u00aa semana da Quaresma",
             colors: ["v"],
           },
         ],
-        commemoration: [],
-      },
-      "2024-03-24": {
-        tempora: [
+        commemoration: [
           {
-            id: "tempora:Quad6-0r:1:rv",
-            rank: 1,
-            title: "Domingo de Ramos",
-            colors: ["r", "v"],
+            id: "sancti:03-24:3:w",
+            rank: 3,
+            title: "S. Gabriel Arcanjo",
+            colors: ["w"],
           },
         ],
-        celebration: [
-          {
-            id: "tempora:Quad6-0r:1:rv",
-            rank: 1,
-            title: "Domingo de Ramos",
-            colors: ["r", "v"],
-          },
-        ],
-        commemoration: [],
       },
-      "2024-03-25": {
+      "2025-03-25": {
         tempora: [
           {
-            id: "tempora:Quad6-1:1:v",
-            rank: 1,
-            title: "Segunda-feira Santa",
+            id: "tempora:Quad3-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 3\u00aa semana da Quaresma",
             colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad6-1:1:v",
-            rank: 1,
-            title: "Segunda-feira Santa",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-26": {
-        tempora: [
-          {
-            id: "tempora:Quad6-2:1:v",
-            rank: 1,
-            title: "Ter\u00e7a-feira Santa",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad6-2:1:v",
-            rank: 1,
-            title: "Ter\u00e7a-feira Santa",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-27": {
-        tempora: [
-          {
-            id: "tempora:Quad6-3:1:v",
-            rank: 1,
-            title: "Quarta-feira Santa",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad6-3:1:v",
-            rank: 1,
-            title: "Quarta-feira Santa",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-28": {
-        tempora: [
-          {
-            id: "tempora:Quad6-4r:1:w",
-            rank: 1,
-            title: "Quinta-feira Santa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad6-4r:1:w",
-            rank: 1,
-            title: "Quinta-feira Santa",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-29": {
-        tempora: [
-          {
-            id: "tempora:Quad6-5r:1:bv",
-            rank: 1,
-            title: "Sexta-feira Santa",
-            colors: ["b", "v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad6-5r:1:bv",
-            rank: 1,
-            title: "Sexta-feira Santa",
-            colors: ["b", "v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-30": {
-        tempora: [
-          {
-            id: "tempora:Quad6-6r:1:vw",
-            rank: 1,
-            title: "S\u00e1bado Santo",
-            colors: ["v", "w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Quad6-6r:1:vw",
-            rank: 1,
-            title: "S\u00e1bado Santo",
-            colors: ["v", "w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-03-31": {
-        tempora: [
-          {
-            id: "tempora:Pasc0-0:1:w",
-            rank: 1,
-            title: "Domingo da Ressurrei\u00e7\u00e3o",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc0-0:1:w",
-            rank: 1,
-            title: "Domingo da Ressurrei\u00e7\u00e3o",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-01": {
-        tempora: [
-          {
-            id: "tempora:Pasc0-1:1:w",
-            rank: 1,
-            title: "Segunda-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc0-1:1:w",
-            rank: 1,
-            title: "Segunda-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-02": {
-        tempora: [
-          {
-            id: "tempora:Pasc0-2:1:w",
-            rank: 1,
-            title: "Ter\u00e7a-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc0-2:1:w",
-            rank: 1,
-            title: "Ter\u00e7a-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-03": {
-        tempora: [
-          {
-            id: "tempora:Pasc0-3:1:w",
-            rank: 1,
-            title: "Quarta-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc0-3:1:w",
-            rank: 1,
-            title: "Quarta-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-04": {
-        tempora: [
-          {
-            id: "tempora:Pasc0-4:1:w",
-            rank: 1,
-            title: "Quinta-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc0-4:1:w",
-            rank: 1,
-            title: "Quinta-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-05": {
-        tempora: [
-          {
-            id: "tempora:Pasc0-5:1:w",
-            rank: 1,
-            title: "Sexta-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc0-5:1:w",
-            rank: 1,
-            title: "Sexta-feira Pascal",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-06": {
-        tempora: [
-          {
-            id: "tempora:Pasc0-6:1:w",
-            rank: 1,
-            title: "S\u00e1bado Pascal",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc0-6:1:w",
-            rank: 1,
-            title: "S\u00e1bado Pascal",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-07": {
-        tempora: [
-          {
-            id: "tempora:Pasc1-0:1:w",
-            rank: 1,
-            title: "Domingo in Albis",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc1-0:1:w",
-            rank: 1,
-            title: "Domingo in Albis",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-08": {
-        tempora: [
-          {
-            id: "tempora:Pasc1-1:4:w",
-            rank: 4,
-            title: "Segunda-feira da 1\u00ba semana depois da P\u00e1scoa",
-            colors: ["w"],
           },
         ],
         celebration: [
@@ -1930,42 +1532,351 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
-      },
-      "2024-04-09": {
-        tempora: [
+        commemoration: [
           {
-            id: "tempora:Pasc1-2:4:w",
-            rank: 4,
-            title: "Ter\u00e7a-feira da 1\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
+            id: "tempora:Quad3-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 3\u00aa semana da Quaresma",
+            colors: ["v"],
           },
         ],
-        celebration: [],
-        commemoration: [],
       },
-      "2024-04-10": {
+      "2025-03-26": {
         tempora: [
           {
-            id: "tempora:Pasc1-3:4:w",
-            rank: 4,
-            title: "Quarta-feira da 1\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-04-11": {
-        tempora: [
-          {
-            id: "tempora:Pasc1-4:4:w",
-            rank: 4,
-            title: "Quinta-feira da 1\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
+            id: "tempora:Quad3-3:3:v",
+            rank: 3,
+            title: "Quarta-feira da 3\u00aa semana da Quaresma",
+            colors: ["v"],
           },
         ],
         celebration: [
+          {
+            id: "tempora:Quad3-3:3:v",
+            rank: 3,
+            title: "Quarta-feira da 3\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-03-27": {
+        tempora: [
+          {
+            id: "tempora:Quad3-4:3:v",
+            rank: 3,
+            title: "Quinta-feira da 3\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad3-4:3:v",
+            rank: 3,
+            title: "Quinta-feira da 3\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [
+          {
+            id: "sancti:03-27:3:w",
+            rank: 3,
+            title: "S. Jo\u00e3o Damasceno, Confessor e Doutor da Igreja",
+            colors: ["w"],
+          },
+        ],
+      },
+      "2025-03-28": {
+        tempora: [
+          {
+            id: "tempora:Quad3-5:3:v",
+            rank: 3,
+            title: "Sexta-feira da 3\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad3-5:3:v",
+            rank: 3,
+            title: "Sexta-feira da 3\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [
+          {
+            id: "sancti:03-28:3:w",
+            rank: 3,
+            title: "S. Jo\u00e3o Capistrano, Confessor",
+            colors: ["w"],
+          },
+        ],
+      },
+      "2025-03-29": {
+        tempora: [
+          {
+            id: "tempora:Quad3-6:3:v",
+            rank: 3,
+            title: "S\u00e1bado da 3\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad3-6:3:v",
+            rank: 3,
+            title: "S\u00e1bado da 3\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-03-30": {
+        tempora: [
+          {
+            id: "tempora:Quad4-0:1:v",
+            rank: 1,
+            title: "4\u00ba Domingo da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad4-0:1:v",
+            rank: 1,
+            title: "4\u00ba Domingo da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-03-31": {
+        tempora: [
+          {
+            id: "tempora:Quad4-1:3:v",
+            rank: 3,
+            title: "Segunda-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad4-1:3:v",
+            rank: 3,
+            title: "Segunda-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-01": {
+        tempora: [
+          {
+            id: "tempora:Quad4-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad4-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-02": {
+        tempora: [
+          {
+            id: "tempora:Quad4-3:3:v",
+            rank: 3,
+            title: "Quarta-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad4-3:3:v",
+            rank: 3,
+            title: "Quarta-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-03": {
+        tempora: [
+          {
+            id: "tempora:Quad4-4:3:v",
+            rank: 3,
+            title: "Quinta-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad4-4:3:v",
+            rank: 3,
+            title: "Quinta-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-04": {
+        tempora: [
+          {
+            id: "tempora:Quad4-5:3:v",
+            rank: 3,
+            title: "Sexta-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad4-5:3:v",
+            rank: 3,
+            title: "Sexta-feira da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-05": {
+        tempora: [
+          {
+            id: "tempora:Quad4-6:3:v",
+            rank: 3,
+            title: "S\u00e1bado da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad4-6:3:v",
+            rank: 3,
+            title: "S\u00e1bado da 4\u00aa semana da Quaresma",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-06": {
+        tempora: [
+          {
+            id: "tempora:Quad5-0:1:v",
+            rank: 1,
+            title: "Domingo da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad5-0:1:v",
+            rank: 1,
+            title: "Domingo da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-07": {
+        tempora: [
+          {
+            id: "tempora:Quad5-1:3:v",
+            rank: 3,
+            title: "Segunda-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad5-1:3:v",
+            rank: 3,
+            title: "Segunda-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-08": {
+        tempora: [
+          {
+            id: "tempora:Quad5-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad5-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-09": {
+        tempora: [
+          {
+            id: "tempora:Quad5-3:3:v",
+            rank: 3,
+            title: "Quarta-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad5-3:3:v",
+            rank: 3,
+            title: "Quarta-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-10": {
+        tempora: [
+          {
+            id: "tempora:Quad5-4:3:v",
+            rank: 3,
+            title: "Quinta-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad5-4:3:v",
+            rank: 3,
+            title: "Quinta-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-11": {
+        tempora: [
+          {
+            id: "tempora:Quad5-5Feria:3:v",
+            rank: 3,
+            title: "Sexta-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad5-5Feria:3:v",
+            rank: 3,
+            title: "Sexta-feira da semana da Paix\u00e3o",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [
           {
             id: "sancti:04-11:3:w",
             rank: 3,
@@ -1973,330 +1884,342 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
       },
-      "2024-04-12": {
+      "2025-04-12": {
         tempora: [
           {
-            id: "tempora:Pasc1-5:4:w",
-            rank: 4,
-            title: "Sexta-feira da 1\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-04-13": {
-        tempora: [
-          {
-            id: "tempora:Pasc1-6:4:w",
-            rank: 4,
-            title: "S\u00e1bado da 1\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:04-13:3:r",
+            id: "tempora:Quad5-6:3:v",
             rank: 3,
-            title: "S. Hermenegildo, M\u00e1rtir",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-14": {
-        tempora: [
-          {
-            id: "tempora:Pasc2-0:2:w",
-            rank: 2,
-            title: "2\u00ba Domingo depois da P\u00e1scoa",
-            colors: ["w"],
+            title: "S\u00e1bado da semana da Paix\u00e3o",
+            colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pasc2-0:2:w",
-            rank: 2,
-            title: "2\u00ba Domingo depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["r"],
-            id: "sancti:04-14:3:r",
+            id: "tempora:Quad5-6:3:v",
             rank: 3,
-            title: "S. Justino, Mártir",
+            title: "S\u00e1bado da semana da Paix\u00e3o",
+            colors: ["v"],
           },
         ],
-      },
-      "2024-04-15": {
-        tempora: [
-          {
-            id: "tempora:Pasc2-1:4:w",
-            rank: 4,
-            title: "Segunda-feira da 2\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
         commemoration: [],
       },
-      "2024-04-16": {
+      "2025-04-13": {
         tempora: [
           {
-            id: "tempora:Pasc2-2:4:w",
-            rank: 4,
-            title: "Ter\u00e7a-feira da 2\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
+            id: "tempora:Quad6-0r:1:rv",
+            rank: 1,
+            title: "Domingo de Ramos",
+            colors: ["r", "v"],
           },
         ],
-        celebration: [],
+        celebration: [
+          {
+            id: "tempora:Quad6-0r:1:rv",
+            rank: 1,
+            title: "Domingo de Ramos",
+            colors: ["r", "v"],
+          },
+        ],
         commemoration: [],
       },
-      "2024-04-17": {
+      "2025-04-14": {
         tempora: [
           {
-            id: "tempora:Pasc2-3:2:w",
-            rank: 2,
-            title: "S. Jos\u00e9, Padroeiro da Santa Igreja e dos Moribundos",
+            id: "tempora:Quad6-1:1:v",
+            rank: 1,
+            title: "Segunda-feira Santa",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad6-1:1:v",
+            rank: 1,
+            title: "Segunda-feira Santa",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-15": {
+        tempora: [
+          {
+            id: "tempora:Quad6-2:1:v",
+            rank: 1,
+            title: "Ter\u00e7a-feira Santa",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad6-2:1:v",
+            rank: 1,
+            title: "Ter\u00e7a-feira Santa",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-16": {
+        tempora: [
+          {
+            id: "tempora:Quad6-3:1:v",
+            rank: 1,
+            title: "Quarta-feira Santa",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Quad6-3:1:v",
+            rank: 1,
+            title: "Quarta-feira Santa",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-17": {
+        tempora: [
+          {
+            id: "tempora:Quad6-4r:1:w",
+            rank: 1,
+            title: "Quinta-feira Santa",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pasc2-3:2:w",
-            rank: 2,
-            title: "S. Jos\u00e9, Padroeiro da Santa Igreja e dos Moribundos",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [
-          {
-            id: "sancti:04-17:4:r",
-            rank: 4,
-            title: "S. Aniceto, Papa e M\u00e1rtir",
-            colors: ["r"],
-          },
-        ],
-      },
-      "2024-04-18": {
-        tempora: [
-          {
-            id: "tempora:Pasc2-4Feria:4:w",
-            rank: 4,
-            title: "Quinta-feira da 2\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-04-19": {
-        tempora: [
-          {
-            id: "tempora:Pasc2-5Feria:4:w",
-            rank: 4,
-            title: "Sexta-feira da 2\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-04-20": {
-        tempora: [
-          {
-            id: "tempora:Pasc2-6Feria:4:w",
-            rank: 4,
-            title: "S\u00e1bado da 2\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "commune:C10Pasc:0:w",
-            rank: 0,
-            title: "4 Missa da Virgem Maria – Missa Salve, Sancta Parens",
+            id: "tempora:Quad6-4r:1:w",
+            rank: 1,
+            title: "Quinta-feira Santa",
             colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-04-21": {
+      "2025-04-18": {
         tempora: [
           {
-            id: "tempora:Pasc3-0r:2:w",
-            rank: 2,
-            title: "3\u00ba Domingo depois da P\u00e1scoa",
-            colors: ["w"],
+            id: "tempora:Quad6-5r:1:bv",
+            rank: 1,
+            title: "Sexta-feira Santa",
+            colors: ["b", "v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pasc3-0r:2:w",
-            rank: 2,
-            title: "3\u00ba Domingo depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
-            id: "sancti:04-21:3:w",
-            rank: 3,
-            title: "S. Anselmo, Bispo, Confessor e Doutor da Igreja",
-          },
-        ],
-      },
-      "2024-04-22": {
-        tempora: [
-          {
-            id: "tempora:Pasc3-1Feria:4:w",
-            rank: 4,
-            title: "Segunda-feira da 3\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:04-22:3:r",
-            rank: 3,
-            title: "S.S. Sotero e Caio, Papas e M\u00e1rtires",
-            colors: ["r"],
+            id: "tempora:Quad6-5r:1:bv",
+            rank: 1,
+            title: "Sexta-feira Santa",
+            colors: ["b", "v"],
           },
         ],
         commemoration: [],
       },
-      "2024-04-23": {
+      "2025-04-19": {
         tempora: [
           {
-            id: "tempora:Pasc3-2Feria:4:w",
-            rank: 4,
-            title: "Ter\u00e7a-feira da 3\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [],
-        commemoration: [
-          {
-            id: "sancti:04-23:4:r",
-            rank: 4,
-            title: "S. Jorge, M\u00e1rtir",
-            colors: ["r"],
-          },
-        ],
-      },
-      "2024-04-24": {
-        tempora: [
-          {
-            id: "tempora:Pasc3-3Feria:4:w",
-            rank: 4,
-            title: "Quarta-feira da 3\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
+            id: "tempora:Quad6-6r:1:vw",
+            rank: 1,
+            title: "S\u00e1bado Santo",
+            colors: ["v", "w"],
           },
         ],
         celebration: [
           {
-            id: "sancti:04-24:3:r",
-            rank: 3,
-            title: "S. Fiel de Sigmaringen, M\u00e1rtir",
-            colors: ["r"],
+            id: "tempora:Quad6-6r:1:vw",
+            rank: 1,
+            title: "S\u00e1bado Santo",
+            colors: ["v", "w"],
           },
         ],
         commemoration: [],
       },
-      "2024-04-25": {
+      "2025-04-20": {
         tempora: [
           {
-            id: "tempora:Pasc3-4:4:w",
-            rank: 4,
-            title: "Quinta-feira da 3\u00aa semana depois da P\u00e1scoa",
+            id: "tempora:Pasc0-0:1:w",
+            rank: 1,
+            title: "Domingo da Ressurrei\u00e7\u00e3o",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "sancti:04-25:2:r",
-            rank: 2,
-            title: "S. Marcos, Evangelista",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-26": {
-        tempora: [
-          {
-            id: "tempora:Pasc3-5:4:w",
-            rank: 4,
-            title: "Sexta-feira da 3\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:04-26:3:r",
-            rank: 3,
-            title: "S.S. Cleto e Marcelino, Papas e M\u00e1rtires",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-04-27": {
-        tempora: [
-          {
-            id: "tempora:Pasc3-6:4:w",
-            rank: 4,
-            title: "S\u00e1bado da 3\u00aa semana depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:04-27:3:w",
-            rank: 3,
-            title: "S. Pedro Can\u00edsio, Confessor e Doutor da Igreja",
+            id: "tempora:Pasc0-0:1:w",
+            rank: 1,
+            title: "Domingo da Ressurrei\u00e7\u00e3o",
             colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-04-28": {
+      "2025-04-21": {
         tempora: [
           {
-            id: "tempora:Pasc4-0:2:w",
-            rank: 2,
-            title: "4\u00ba Domingo depois da P\u00e1scoa",
+            id: "tempora:Pasc0-1:1:w",
+            rank: 1,
+            title: "Segunda-feira Pascal",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pasc4-0:2:w",
-            rank: 2,
-            title: "4\u00ba Domingo depois da P\u00e1scoa",
+            id: "tempora:Pasc0-1:1:w",
+            rank: 1,
+            title: "Segunda-feira Pascal",
             colors: ["w"],
           },
         ],
-        commemoration: [
+        commemoration: [],
+      },
+      "2025-04-22": {
+        tempora: [
           {
+            id: "tempora:Pasc0-2:1:w",
+            rank: 1,
+            title: "Ter\u00e7a-feira Pascal",
             colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc0-2:1:w",
+            rank: 1,
+            title: "Ter\u00e7a-feira Pascal",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-23": {
+        tempora: [
+          {
+            id: "tempora:Pasc0-3:1:w",
+            rank: 1,
+            title: "Quarta-feira Pascal",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc0-3:1:w",
+            rank: 1,
+            title: "Quarta-feira Pascal",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-24": {
+        tempora: [
+          {
+            id: "tempora:Pasc0-4:1:w",
+            rank: 1,
+            title: "Quinta-feira Pascal",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc0-4:1:w",
+            rank: 1,
+            title: "Quinta-feira Pascal",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-25": {
+        tempora: [
+          {
+            id: "tempora:Pasc0-5:1:w",
+            rank: 1,
+            title: "Sexta-feira Pascal",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc0-5:1:w",
+            rank: 1,
+            title: "Sexta-feira Pascal",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-26": {
+        tempora: [
+          {
+            id: "tempora:Pasc0-6:1:w",
+            rank: 1,
+            title: "S\u00e1bado Pascal",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc0-6:1:w",
+            rank: 1,
+            title: "S\u00e1bado Pascal",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-27": {
+        tempora: [
+          {
+            id: "tempora:Pasc1-0:1:w",
+            rank: 1,
+            title: "Domingo in Albis",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc1-0:1:w",
+            rank: 1,
+            title: "Domingo in Albis",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-04-28": {
+        tempora: [
+          {
+            id: "tempora:Pasc1-1:4:w",
+            rank: 4,
+            title: "Segunda-feira da 1\u00ba semana depois da P\u00e1scoa",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
             id: "sancti:04-28:3:w",
             rank: 3,
             title: "S. Paulo da Cruz, Confessor",
+            colors: ["w"],
+          },
+          {
+            colors: ["r"],
+            id: "sancti:04-25:2:r",
+            rank: 2,
+            title: "S. Marcos, Evangelista",
           },
         ],
+        commemoration: [],
       },
-      "2024-04-29": {
+      "2025-04-29": {
         tempora: [
           {
-            id: "tempora:Pasc4-1:4:w",
+            id: "tempora:Pasc1-2:4:w",
             rank: 4,
-            title: "Segunda-feira da 4\u00aa semana depois da P\u00e1scoa",
+            title: "Ter\u00e7a-feira da 1\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2310,12 +2233,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-04-30": {
+      "2025-04-30": {
         tempora: [
           {
-            id: "tempora:Pasc4-2:4:w",
+            id: "tempora:Pasc1-3:4:w",
             rank: 4,
-            title: "Ter\u00e7a-feira da 4\u00aa semana depois da P\u00e1scoa",
+            title: "Quarta-feira da 1\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2329,12 +2252,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-01": {
+      "2025-05-01": {
         tempora: [
           {
-            id: "tempora:Pasc4-3:4:w",
+            id: "tempora:Pasc1-4:4:w",
             rank: 4,
-            title: "Quarta-feira da 4\u00aa semana depois da P\u00e1scoa",
+            title: "Quinta-feira da 1\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2348,12 +2271,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-02": {
+      "2025-05-02": {
         tempora: [
           {
-            id: "tempora:Pasc4-4:4:w",
+            id: "tempora:Pasc1-5:4:w",
             rank: 4,
-            title: "Quinta-feira da 4\u00aa semana depois da P\u00e1scoa",
+            title: "Sexta-feira da 1\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2367,12 +2290,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-03": {
+      "2025-05-03": {
         tempora: [
           {
-            id: "tempora:Pasc4-5:4:w",
+            id: "tempora:Pasc1-6:4:w",
             rank: 4,
-            title: "Sexta-feira da 4\u00aa semana depois da P\u00e1scoa",
+            title: "S\u00e1bado da 1\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2386,58 +2309,58 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-04": {
+      "2025-05-04": {
         tempora: [
           {
-            id: "tempora:Pasc4-6:4:w",
-            rank: 4,
-            title: "S\u00e1bado da 4\u00aa semana depois da P\u00e1scoa",
+            id: "tempora:Pasc2-0:2:w",
+            rank: 2,
+            title: "2\u00ba Domingo depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "sancti:05-04:3:w",
-            rank: 3,
-            title: "S. M\u00f3nica, Vi\u00fava",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-05-05": {
-        tempora: [
-          {
-            id: "tempora:Pasc5-0:2:w",
+            id: "tempora:Pasc2-0:2:w",
             rank: 2,
-            title: "5\u00ba Domingo depois da P\u00e1scoa",
-            colors: ["w"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc5-0:2:w",
-            rank: 2,
-            title: "5\u00ba Domingo depois da P\u00e1scoa",
+            title: "2\u00ba Domingo depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         commemoration: [
           {
             colors: ["w"],
-            id: "sancti:05-05:3:w",
+            id: "sancti:05-04:3:w",
             rank: 3,
-            title: "S. Pio V, Papa e Confessor",
+            title: "S. Mónica, Viúva",
           },
         ],
       },
-      "2024-05-06": {
+      "2025-05-05": {
         tempora: [
           {
-            id: "tempora:Pasc5-1:4:v",
+            id: "tempora:Pasc2-1:4:w",
             rank: 4,
-            title: "Segunda-feira das Roga\u00e7\u00f5es",
-            colors: ["v"],
+            title: "Segunda-feira da 2\u00aa semana depois da P\u00e1scoa",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:05-05:3:w",
+            rank: 3,
+            title: "S. Pio V, Papa e Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-05-06": {
+        tempora: [
+          {
+            id: "tempora:Pasc2-2:4:w",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 2\u00aa semana depois da P\u00e1scoa",
+            colors: ["w"],
           },
         ],
         celebration: [
@@ -2450,16 +2373,24 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-07": {
+      "2025-05-07": {
         tempora: [
           {
-            id: "tempora:Pasc5-2:4:w",
-            rank: 4,
-            title: "Ter\u00e7a-feira das Roga\u00e7\u00f5es",
+            id: "tempora:Pasc2-3:2:w",
+            rank: 2,
+            title: "S. Jos\u00e9, Padroeiro da Santa Igreja e dos Moribundos",
             colors: ["w"],
           },
         ],
         celebration: [
+          {
+            id: "tempora:Pasc2-3:2:w",
+            rank: 2,
+            title: "S. Jos\u00e9, Padroeiro da Santa Igreja e dos Moribundos",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [
           {
             id: "sancti:05-07:3:r",
             rank: 3,
@@ -2467,26 +2398,17 @@ describe("calendar", () => {
             colors: ["r"],
           },
         ],
-        commemoration: [],
       },
-      "2024-05-08": {
+      "2025-05-08": {
         tempora: [
           {
-            id: "tempora:Pasc5-3:2:w",
-            rank: 2,
-            title: "Vig\u00edlia da Ascens\u00e3o",
+            id: "tempora:Pasc2-4Feria:4:w",
+            rank: 4,
+            title: "Quinta-feira da 2\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         celebration: [
-          {
-            id: "tempora:Pasc5-3:2:w",
-            rank: 2,
-            title: "Vig\u00edlia da Ascens\u00e3o",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [
           {
             id: "sancti:05-08:2:w",
             rank: 2,
@@ -2494,32 +2416,34 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-05-09": {
+      "2025-05-09": {
         tempora: [
           {
-            id: "tempora:Pasc5-4:1:w",
-            rank: 1,
-            title: "Ascens\u00e3o",
+            id: "tempora:Pasc2-5Feria:4:w",
+            rank: 4,
+            title: "Sexta-feira da 2\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pasc5-4:1:w",
-            rank: 1,
-            title: "Ascens\u00e3o",
+            id: "sancti:05-09:3:w",
+            rank: 3,
+            title:
+              "S. Greg\u00f3rio de Nazianzeno, Bispo, Confessor e Doutor da Igreja",
             colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-05-10": {
+      "2025-05-10": {
         tempora: [
           {
-            id: "tempora:Pasc5-5:4:w",
+            id: "tempora:Pasc2-6Feria:4:w",
             rank: 4,
-            title: "Sexta-feira depois da Ascens\u00e3o",
+            title: "S\u00e1bado da 2\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2533,58 +2457,51 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-11": {
+      "2025-05-11": {
         tempora: [
           {
-            id: "tempora:Pasc5-6:4:w",
-            rank: 4,
-            title: "S\u00e1bado depois da Ascens\u00e3o",
+            id: "tempora:Pasc3-0r:2:w",
+            rank: 2,
+            title: "3\u00ba Domingo depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "commune:C10Pasc:0:w",
-            rank: 0,
-            title: "4 Missa da Virgem Maria – Missa Salve, Sancta Parens",
+            id: "tempora:Pasc3-0r:2:w",
+            rank: 2,
+            title: "3\u00ba Domingo depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-05-12": {
+      "2025-05-12": {
         tempora: [
           {
-            id: "tempora:Pasc6-0:2:w",
-            rank: 2,
-            title: "Domingo depois da Ascens\u00e3o",
+            id: "tempora:Pasc3-1Feria:4:w",
+            rank: 4,
+            title: "Segunda-feira da 3\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pasc6-0:2:w",
-            rank: 2,
-            title: "Domingo depois da Ascens\u00e3o",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["r"],
             id: "sancti:05-12:3:r",
             rank: 3,
             title:
-              "S.S. Nereu, Achileu, Domitila, Virgem e Pancracio, Mártires",
+              "S.S. Nereu, Achileu, Domitila, Virgem e Pancracio, M\u00e1rtires",
+            colors: ["r"],
           },
         ],
+        commemoration: [],
       },
-      "2024-05-13": {
+      "2025-05-13": {
         tempora: [
           {
-            id: "tempora:Pasc6-1:4:w",
+            id: "tempora:Pasc3-2Feria:4:w",
             rank: 4,
-            title: "Segunda-feira da semana depois da Ascens\u00e3o",
+            title: "Ter\u00e7a-feira da 3\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2598,12 +2515,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-14": {
+      "2025-05-14": {
         tempora: [
           {
-            id: "tempora:Pasc6-2:4:w",
+            id: "tempora:Pasc3-3Feria:4:w",
             rank: 4,
-            title: "Ter\u00e7a-feira da semana depois da Ascens\u00e3o",
+            title: "Quarta-feira da 3\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2617,12 +2534,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-05-15": {
+      "2025-05-15": {
         tempora: [
           {
-            id: "tempora:Pasc6-3:4:w",
+            id: "tempora:Pasc3-4:4:w",
             rank: 4,
-            title: "Quarta-feira da semana depois da Ascens\u00e3o",
+            title: "Quinta-feira da 3\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2636,24 +2553,24 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-16": {
+      "2025-05-16": {
         tempora: [
           {
-            id: "tempora:Pasc6-4r:4:w",
+            id: "tempora:Pasc3-5:4:w",
             rank: 4,
-            title: "Quinta-feira da semana depois da Ascens\u00e3o",
+            title: "Sexta-feira da 3\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-05-17": {
+      "2025-05-17": {
         tempora: [
           {
-            id: "tempora:Pasc6-5:4:w",
+            id: "tempora:Pasc3-6:4:w",
             rank: 4,
-            title: "Sexta-feira da semana depois da Ascens\u00e3o",
+            title: "S\u00e1bado da 3\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
@@ -2667,199 +2584,177 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-18": {
+      "2025-05-18": {
         tempora: [
           {
-            id: "tempora:Pasc6-6:1:r",
-            rank: 1,
-            title: "Vig\u00edlia de Pentecostes",
-            colors: ["r"],
+            id: "tempora:Pasc4-0:2:w",
+            rank: 2,
+            title: "4\u00ba Domingo depois da P\u00e1scoa",
+            colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pasc6-6:1:r",
-            rank: 1,
-            title: "Vig\u00edlia de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-05-19": {
-        tempora: [
-          {
-            id: "tempora:Pasc7-0:1:r",
-            rank: 1,
-            title: "Domingo de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc7-0:1:r",
-            rank: 1,
-            title: "Domingo de Pentecostes",
-            colors: ["r"],
+            id: "tempora:Pasc4-0:2:w",
+            rank: 2,
+            title: "4\u00ba Domingo depois da P\u00e1scoa",
+            colors: ["w"],
           },
         ],
         commemoration: [
           {
+            colors: ["r"],
+            id: "sancti:05-18:3:r",
+            rank: 3,
+            title: "S. Venâncio, Mártir",
+          },
+        ],
+      },
+      "2025-05-19": {
+        tempora: [
+          {
+            id: "tempora:Pasc4-1:4:w",
+            rank: 4,
+            title: "Segunda-feira da 4\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
             id: "sancti:05-19:3:w",
             rank: 3,
             title: "S. Pedro Celestino, Papa e Confessor",
-          },
-        ],
-      },
-      "2024-05-20": {
-        tempora: [
-          {
-            id: "tempora:Pasc7-1:1:r",
-            rank: 1,
-            title: "Segunda-feira na semana da oitava de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc7-1:1:r",
-            rank: 1,
-            title: "Segunda-feira na semana da oitava de Pentecostes",
-            colors: ["r"],
+            colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-05-21": {
+      "2025-05-20": {
         tempora: [
           {
-            id: "tempora:Pasc7-2:1:r",
-            rank: 1,
-            title: "Ter\u00e7a-feira na semana da oitava de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc7-2:1:r",
-            rank: 1,
-            title: "Ter\u00e7a-feira na semana da oitava de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-05-22": {
-        tempora: [
-          {
-            id: "tempora:Pasc7-3:1:r",
-            rank: 1,
-            title: "Quarta-feira das T\u00eamporas de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc7-3:1:r",
-            rank: 1,
-            title: "Quarta-feira das T\u00eamporas de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-05-23": {
-        tempora: [
-          {
-            id: "tempora:Pasc7-4:1:r",
-            rank: 1,
-            title: "Quinta-feira na semana da oitava de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc7-4:1:r",
-            rank: 1,
-            title: "Quinta-feira na semana da oitava de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-05-24": {
-        tempora: [
-          {
-            id: "tempora:Pasc7-5:1:r",
-            rank: 1,
-            title: "Sexta-feira das T\u00eamporas de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc7-5:1:r",
-            rank: 1,
-            title: "Sexta-feira das T\u00eamporas de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-05-25": {
-        tempora: [
-          {
-            id: "tempora:Pasc7-6:1:r",
-            rank: 1,
-            title: "S\u00e1bado das T\u00eamporas de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pasc7-6:1:r",
-            rank: 1,
-            title: "S\u00e1bado das T\u00eamporas de Pentecostes",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-05-26": {
-        tempora: [
-          {
-            id: "tempora:Pent01-0r:1:w",
-            rank: 1,
-            title: "Domingo da Sant\u00edssima Trindade",
+            id: "tempora:Pasc4-2:4:w",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 4\u00aa semana depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pent01-0r:1:w",
-            rank: 1,
-            title: "Domingo da Sant\u00edssima Trindade",
+            id: "sancti:05-20:3:w",
+            rank: 3,
+            title: "S. Bernardino de Sena, Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-05-21": {
+        tempora: [
+          {
+            id: "tempora:Pasc4-3:4:w",
+            rank: 4,
+            title: "Quarta-feira da 4\u00aa semana depois da P\u00e1scoa",
+            colors: ["w"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-05-22": {
+        tempora: [
+          {
+            id: "tempora:Pasc4-4:4:w",
+            rank: 4,
+            title: "Quinta-feira da 4\u00aa semana depois da P\u00e1scoa",
+            colors: ["w"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-05-23": {
+        tempora: [
+          {
+            id: "tempora:Pasc4-5:4:w",
+            rank: 4,
+            title: "Sexta-feira da 4\u00aa semana depois da P\u00e1scoa",
+            colors: ["w"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-05-24": {
+        tempora: [
+          {
+            id: "tempora:Pasc4-6:4:w",
+            rank: 4,
+            title: "S\u00e1bado da 4\u00aa semana depois da P\u00e1scoa",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "commune:C10Pasc:0:w",
+            rank: 0,
+            title: "4 Missa da Virgem Maria – Missa Salve, Sancta Parens",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-05-25": {
+        tempora: [
+          {
+            id: "tempora:Pasc5-0:2:w",
+            rank: 2,
+            title: "5\u00ba Domingo depois da P\u00e1scoa",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc5-0:2:w",
+            rank: 2,
+            title: "5\u00ba Domingo depois da P\u00e1scoa",
             colors: ["w"],
           },
         ],
         commemoration: [
           {
             colors: ["w"],
-            id: "sancti:05-26:3:w",
+            id: "sancti:05-25:3:w",
             rank: 3,
-            title: "S. Filipe Néri, Confessor",
+            title: "S. Gregório VII, Papa e Confessor",
           },
         ],
       },
-      "2024-05-27": {
+      "2025-05-26": {
         tempora: [
           {
-            id: "tempora:Pent01-1:4:g",
+            id: "tempora:Pasc5-1:4:v",
             rank: 4,
-            title:
-              "Segunda-feira depois 1\u00aa semana da oitava de Pentecostes",
-            colors: ["g"],
+            title: "Segunda-feira das Roga\u00e7\u00f5es",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:05-26:3:w",
+            rank: 3,
+            title: "S. Filipe N\u00e9ri, Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-05-27": {
+        tempora: [
+          {
+            id: "tempora:Pasc5-2:4:w",
+            rank: 4,
+            title: "Ter\u00e7a-feira das Roga\u00e7\u00f5es",
+            colors: ["w"],
           },
         ],
         celebration: [
@@ -2872,17 +2767,24 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-05-28": {
+      "2025-05-28": {
         tempora: [
           {
-            id: "tempora:Pent01-2:4:g",
-            rank: 4,
-            title:
-              "Ter\u00e7a-feira depois 1\u00aa semana da oitava de Pentecostes",
-            colors: ["g"],
+            id: "tempora:Pasc5-3:2:w",
+            rank: 2,
+            title: "Vig\u00edlia da Ascens\u00e3o",
+            colors: ["w"],
           },
         ],
         celebration: [
+          {
+            id: "tempora:Pasc5-3:2:w",
+            rank: 2,
+            title: "Vig\u00edlia da Ascens\u00e3o",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [
           {
             id: "sancti:05-28:3:w",
             rank: 3,
@@ -2890,54 +2792,52 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
       },
-      "2024-05-29": {
+      "2025-05-29": {
         tempora: [
           {
-            id: "tempora:Pent01-3:4:g",
-            rank: 4,
-            title:
-              "Quarta-feira depois 1\u00aa semana da oitava de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:05-29:3:w",
-            rank: 3,
-            title: "S. Maria Madalena de Pazzi, Virgem",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-05-30": {
-        tempora: [
-          {
-            id: "tempora:Pent01-4:1:w",
+            id: "tempora:Pasc5-4:1:w",
             rank: 1,
-            title: "Sant\u00edssimo Corpo de Cristo",
+            title: "Ascens\u00e3o",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pent01-4:1:w",
+            id: "tempora:Pasc5-4:1:w",
             rank: 1,
-            title: "Sant\u00edssimo Corpo de Cristo",
+            title: "Ascens\u00e3o",
             colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-05-31": {
+      "2025-05-30": {
         tempora: [
           {
-            id: "tempora:Pent01-5:4:g",
+            id: "tempora:Pasc5-5:4:w",
             rank: 4,
-            title: "Sexta-feira depois 1\u00aa semana da oitava de Pentecostes",
-            colors: ["g"],
+            title: "Sexta-feira depois da Ascens\u00e3o",
+            colors: ["w"],
+          },
+        ],
+        celebration: [],
+        commemoration: [
+          {
+            id: "sancti:05-30:4:r",
+            rank: 4,
+            title: "S. F\u00e9lix I, Papa e M\u00e1rtir",
+            colors: ["r"],
+          },
+        ],
+      },
+      "2025-05-31": {
+        tempora: [
+          {
+            id: "tempora:Pasc5-6:4:w",
+            rank: 4,
+            title: "S\u00e1bado depois da Ascens\u00e3o",
+            colors: ["w"],
           },
         ],
         celebration: [
@@ -2950,63 +2850,70 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-01": {
+      "2025-06-01": {
         tempora: [
           {
-            id: "tempora:Pent01-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado depois 1\u00aa semana da oitava de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:06-01:3:w",
-            rank: 3,
-            title: "Santa Angela Mericia",
+            id: "tempora:Pasc6-0:2:w",
+            rank: 2,
+            title: "Domingo depois da Ascens\u00e3o",
             colors: ["w"],
           },
         ],
-        commemoration: [],
-      },
-      "2024-06-02": {
-        tempora: [
-          {
-            id: "tempora:Pent02-0r:2:g",
-            rank: 2,
-            title: "2\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
         celebration: [
           {
-            id: "tempora:Pent02-0r:2:g",
+            id: "tempora:Pasc6-0:2:w",
             rank: 2,
-            title: "2\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
+            title: "Domingo depois da Ascens\u00e3o",
+            colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:06-01:3:w",
+            rank: 3,
+            title: "Santa Angela Mericia",
+          },
+        ],
       },
-      "2024-06-03": {
+      "2025-06-02": {
         tempora: [
           {
-            id: "tempora:Pent02-1:4:g",
+            id: "tempora:Pasc6-1:4:w",
             rank: 4,
-            title: "Segunda-feira da 2\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            title: "Segunda-feira da semana depois da Ascens\u00e3o",
+            colors: ["w"],
+          },
+        ],
+        celebration: [],
+        commemoration: [
+          {
+            id: "sancti:06-02:4:r",
+            rank: 4,
+            title: "S.S. Marcelino e Pedro, M\u00e1rtires e Erasmo, Bispo",
+            colors: ["r"],
+          },
+        ],
+      },
+      "2025-06-03": {
+        tempora: [
+          {
+            id: "tempora:Pasc6-2:4:w",
+            rank: 4,
+            title: "Ter\u00e7a-feira da semana depois da Ascens\u00e3o",
+            colors: ["w"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-06-04": {
+      "2025-06-04": {
         tempora: [
           {
-            id: "tempora:Pent02-2:4:g",
+            id: "tempora:Pasc6-3:4:w",
             rank: 4,
-            title: "Ter\u00e7a-feira da 2\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            title: "Quarta-feira da semana depois da Ascens\u00e3o",
+            colors: ["w"],
           },
         ],
         celebration: [
@@ -3019,13 +2926,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-05": {
+      "2025-06-05": {
         tempora: [
           {
-            id: "tempora:Pent02-3:4:g",
+            id: "tempora:Pasc6-4r:4:w",
             rank: 4,
-            title: "Quarta-feira da 2\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            title: "Quinta-feira da semana depois da Ascens\u00e3o",
+            colors: ["w"],
           },
         ],
         celebration: [
@@ -3038,13 +2945,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-06": {
+      "2025-06-06": {
         tempora: [
           {
-            id: "tempora:Pent02-4:4:g",
+            id: "tempora:Pasc6-5:4:w",
             rank: 4,
-            title: "Quinta-feira da 2\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            title: "Sexta-feira da semana depois da Ascens\u00e3o",
+            colors: ["w"],
           },
         ],
         celebration: [
@@ -3057,202 +2964,204 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-07": {
+      "2025-06-07": {
         tempora: [
           {
-            id: "tempora:Pent02-5:1:w",
+            id: "tempora:Pasc6-6:1:r",
             rank: 1,
-            title: "Sant\u00edssimo Cora\u00e7\u00e3o de Jesus",
-            colors: ["w"],
+            title: "Vig\u00edlia de Pentecostes",
+            colors: ["r"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pent02-5:1:w",
+            id: "tempora:Pasc6-6:1:r",
             rank: 1,
-            title: "Sant\u00edssimo Cora\u00e7\u00e3o de Jesus",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-06-08": {
-        tempora: [
-          {
-            id: "tempora:Pent02-6Feria:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 2\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "commune:C10t:0:w",
-            rank: 0,
-            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-06-09": {
-        tempora: [
-          {
-            id: "tempora:Pent03-0r:2:g",
-            rank: 2,
-            title: "3\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent03-0r:2:g",
-            rank: 2,
-            title: "3\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-06-10": {
-        tempora: [
-          {
-            id: "tempora:Pent03-1Feria:4:g",
-            rank: 4,
-            title: "Segunda-feira da 3\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:06-10:3:w",
-            rank: 3,
-            title: "Santa Margarida, Vi\u00fava",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-06-11": {
-        tempora: [
-          {
-            id: "tempora:Pent03-2Feria:4:g",
-            rank: 4,
-            title: "Ter\u00e7a-feira da 3\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:06-11:3:r",
-            rank: 3,
-            title: "S. Barnab\u00e9, Ap\u00f3stolo",
+            title: "Vig\u00edlia de Pentecostes",
             colors: ["r"],
           },
         ],
         commemoration: [],
       },
-      "2024-06-12": {
+      "2025-06-08": {
         tempora: [
           {
-            id: "tempora:Pent03-3Feria:4:g",
-            rank: 4,
-            title: "Quarta-feira da 3\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            id: "tempora:Pasc7-0:1:r",
+            rank: 1,
+            title: "Domingo de Pentecostes",
+            colors: ["r"],
           },
         ],
         celebration: [
           {
-            id: "sancti:06-12:3:r",
-            rank: 3,
-            title: "S. Jo\u00e3o de Facundo, Confessor",
+            id: "tempora:Pasc7-0:1:r",
+            rank: 1,
+            title: "Domingo de Pentecostes",
             colors: ["r"],
           },
         ],
         commemoration: [],
       },
-      "2024-06-13": {
+      "2025-06-09": {
         tempora: [
           {
-            id: "tempora:Pent03-4Feria:4:g",
-            rank: 4,
-            title: "Quinta-feira da 3\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            id: "tempora:Pasc7-1:1:r",
+            rank: 1,
+            title: "Segunda-feira na semana da oitava de Pentecostes",
+            colors: ["r"],
           },
         ],
         celebration: [
           {
-            id: "sancti:06-13:3:w",
-            rank: 3,
-            title: "S. Ant\u00f3nio de Lisboa, Confessor e Doutor da Igreja",
-            colors: ["w"],
+            id: "tempora:Pasc7-1:1:r",
+            rank: 1,
+            title: "Segunda-feira na semana da oitava de Pentecostes",
+            colors: ["r"],
           },
         ],
         commemoration: [],
       },
-      "2024-06-14": {
+      "2025-06-10": {
         tempora: [
           {
-            id: "tempora:Pent03-5Feria:4:g",
-            rank: 4,
-            title: "Sexta-feira da 3\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            id: "tempora:Pasc7-2:1:r",
+            rank: 1,
+            title: "Ter\u00e7a-feira na semana da oitava de Pentecostes",
+            colors: ["r"],
           },
         ],
         celebration: [
           {
-            id: "sancti:06-14:3:w",
-            rank: 3,
-            title: "S. Bas\u00edlio Magno, Confessor, Bispo e Doutor da Igreja",
-            colors: ["w"],
+            id: "tempora:Pasc7-2:1:r",
+            rank: 1,
+            title: "Ter\u00e7a-feira na semana da oitava de Pentecostes",
+            colors: ["r"],
           },
         ],
         commemoration: [],
       },
-      "2024-06-15": {
+      "2025-06-11": {
         tempora: [
           {
-            id: "tempora:Pent03-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 3\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            id: "tempora:Pasc7-3:1:r",
+            rank: 1,
+            title: "Quarta-feira das T\u00eamporas de Pentecostes",
+            colors: ["r"],
           },
         ],
         celebration: [
           {
+            id: "tempora:Pasc7-3:1:r",
+            rank: 1,
+            title: "Quarta-feira das T\u00eamporas de Pentecostes",
+            colors: ["r"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-06-12": {
+        tempora: [
+          {
+            id: "tempora:Pasc7-4:1:r",
+            rank: 1,
+            title: "Quinta-feira na semana da oitava de Pentecostes",
+            colors: ["r"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc7-4:1:r",
+            rank: 1,
+            title: "Quinta-feira na semana da oitava de Pentecostes",
+            colors: ["r"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-06-13": {
+        tempora: [
+          {
+            id: "tempora:Pasc7-5:1:r",
+            rank: 1,
+            title: "Sexta-feira das T\u00eamporas de Pentecostes",
+            colors: ["r"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc7-5:1:r",
+            rank: 1,
+            title: "Sexta-feira das T\u00eamporas de Pentecostes",
+            colors: ["r"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-06-14": {
+        tempora: [
+          {
+            id: "tempora:Pasc7-6:1:r",
+            rank: 1,
+            title: "S\u00e1bado das T\u00eamporas de Pentecostes",
+            colors: ["r"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pasc7-6:1:r",
+            rank: 1,
+            title: "S\u00e1bado das T\u00eamporas de Pentecostes",
+            colors: ["r"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-06-15": {
+        tempora: [
+          {
+            id: "tempora:Pent01-0r:1:w",
+            rank: 1,
+            title: "Domingo da Sant\u00edssima Trindade",
+            colors: ["w"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pent01-0r:1:w",
+            rank: 1,
+            title: "Domingo da Sant\u00edssima Trindade",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [
+          {
+            colors: ["w"],
             id: "sancti:06-15:3:w",
             rank: 3,
-            title: "S.S. Vito, Modesto e Cresc\u00eancia, M\u00e1rtires",
-            colors: ["w"],
+            title: "S.S. Vito, Modesto e Crescência, Mártires",
           },
         ],
-        commemoration: [],
       },
-      "2024-06-16": {
+      "2025-06-16": {
         tempora: [
           {
-            id: "tempora:Pent04-0:2:g",
-            rank: 2,
-            title: "4\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent04-0:2:g",
-            rank: 2,
-            title: "4\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-06-17": {
-        tempora: [
-          {
-            id: "tempora:Pent04-1:4:g",
+            id: "tempora:Pent01-1:4:g",
             rank: 4,
-            title: "Segunda-feira da 4\u00aa semana depois de Pentecostes",
+            title:
+              "Segunda-feira depois 1\u00aa semana da oitava de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-06-17": {
+        tempora: [
+          {
+            id: "tempora:Pent01-2:4:g",
+            rank: 4,
+            title:
+              "Ter\u00e7a-feira depois 1\u00aa semana da oitava de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3266,12 +3175,13 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-18": {
+      "2025-06-18": {
         tempora: [
           {
-            id: "tempora:Pent04-2:4:g",
+            id: "tempora:Pent01-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 4\u00aa semana depois de Pentecostes",
+            title:
+              "Quarta-feira depois 1\u00aa semana da oitava de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3285,31 +3195,31 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-19": {
+      "2025-06-19": {
         tempora: [
           {
-            id: "tempora:Pent04-3:4:g",
-            rank: 4,
-            title: "Quarta-feira da 4\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            id: "tempora:Pent01-4:1:w",
+            rank: 1,
+            title: "Sant\u00edssimo Corpo de Cristo",
+            colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "sancti:06-19:3:r",
-            rank: 3,
-            title: "S. Juliana Falconi\u00e9ri, Virgem",
-            colors: ["r"],
+            id: "tempora:Pent01-4:1:w",
+            rank: 1,
+            title: "Sant\u00edssimo Corpo de Cristo",
+            colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-06-20": {
+      "2025-06-20": {
         tempora: [
           {
-            id: "tempora:Pent04-4:4:g",
+            id: "tempora:Pent01-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 4\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira depois 1\u00aa semana da oitava de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3323,12 +3233,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-06-21": {
+      "2025-06-21": {
         tempora: [
           {
-            id: "tempora:Pent04-5:4:g",
+            id: "tempora:Pent01-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 4\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado depois 1\u00aa semana da oitava de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3342,43 +3252,42 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-22": {
+      "2025-06-22": {
         tempora: [
           {
-            id: "tempora:Pent04-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 4\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent02-0r:2:g",
+            rank: 2,
+            title: "2\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "sancti:06-22:3:w",
-            rank: 3,
-            title: "S. Paulino, Bispo e Confessor",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-06-23": {
-        tempora: [
-          {
-            id: "tempora:Pent05-0:2:g",
+            id: "tempora:Pent02-0r:2:g",
             rank: 2,
-            title: "5\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent05-0:2:g",
-            rank: 2,
-            title: "5\u00ba Domingo depois de Pentecostes",
+            title: "2\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:06-22:3:w",
+            rank: 3,
+            title: "S. Paulino, Bispo e Confessor",
+          },
+        ],
+      },
+      "2025-06-23": {
+        tempora: [
+          {
+            id: "tempora:Pent02-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 2\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
           {
             id: "sancti:06-23:3:v",
             rank: 3,
@@ -3386,13 +3295,14 @@ describe("calendar", () => {
             colors: ["v"],
           },
         ],
+        commemoration: [],
       },
-      "2024-06-24": {
+      "2025-06-24": {
         tempora: [
           {
-            id: "tempora:Pent05-1:4:g",
+            id: "tempora:Pent02-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 5\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 2\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3406,12 +3316,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-25": {
+      "2025-06-25": {
         tempora: [
           {
-            id: "tempora:Pent05-2:4:g",
+            id: "tempora:Pent02-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 5\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 2\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3425,12 +3335,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-26": {
+      "2025-06-26": {
         tempora: [
           {
-            id: "tempora:Pent05-3:4:g",
+            id: "tempora:Pent02-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 5\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 2\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3444,24 +3354,31 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-27": {
+      "2025-06-27": {
         tempora: [
           {
-            id: "tempora:Pent05-4:4:g",
-            rank: 4,
-            title: "Quinta-feira da 5\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            id: "tempora:Pent02-5:1:w",
+            rank: 1,
+            title: "Sant\u00edssimo Cora\u00e7\u00e3o de Jesus",
+            colors: ["w"],
           },
         ],
-        celebration: [],
+        celebration: [
+          {
+            id: "tempora:Pent02-5:1:w",
+            rank: 1,
+            title: "Sant\u00edssimo Cora\u00e7\u00e3o de Jesus",
+            colors: ["w"],
+          },
+        ],
         commemoration: [],
       },
-      "2024-06-28": {
+      "2025-06-28": {
         tempora: [
           {
-            id: "tempora:Pent05-5:4:g",
+            id: "tempora:Pent02-6Feria:4:g",
             rank: 4,
-            title: "Sexta-feira da 5\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 2\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3475,12 +3392,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-29": {
+      "2025-06-29": {
         tempora: [
           {
-            id: "tempora:Pent05-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 5\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent03-0r:2:g",
+            rank: 2,
+            title: "3\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3494,38 +3411,31 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-06-30": {
+      "2025-06-30": {
         tempora: [
           {
-            id: "tempora:Pent06-0:2:g",
-            rank: 2,
-            title: "6\u00ba Domingo depois de Pentecostes",
+            id: "tempora:Pent03-1Feria:4:g",
+            rank: 4,
+            title: "Segunda-feira da 3\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pent06-0:2:g",
-            rank: 2,
-            title: "6\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["r"],
             id: "sancti:06-30:3:r",
             rank: 3,
-            title: "Comemoração S. Paulo, Apóstolo",
+            title: "Comemora\u00e7\u00e3o S. Paulo, Ap\u00f3stolo",
+            colors: ["r"],
           },
         ],
+        commemoration: [],
       },
-      "2024-07-01": {
+      "2025-07-01": {
         tempora: [
           {
-            id: "tempora:Pent06-1:4:g",
+            id: "tempora:Pent03-2Feria:4:g",
             rank: 4,
-            title: "Segunda-feira da 6\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 3\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3539,12 +3449,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-02": {
+      "2025-07-02": {
         tempora: [
           {
-            id: "tempora:Pent06-2:4:g",
+            id: "tempora:Pent03-3Feria:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 6\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 3\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3558,12 +3468,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-03": {
+      "2025-07-03": {
         tempora: [
           {
-            id: "tempora:Pent06-3:4:g",
+            id: "tempora:Pent03-4Feria:4:g",
             rank: 4,
-            title: "Quarta-feira da 6\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 3\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3577,24 +3487,24 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-04": {
+      "2025-07-04": {
         tempora: [
           {
-            id: "tempora:Pent06-4:4:g",
+            id: "tempora:Pent03-5Feria:4:g",
             rank: 4,
-            title: "Quinta-feira da 6\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 3\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-07-05": {
+      "2025-07-05": {
         tempora: [
           {
-            id: "tempora:Pent06-5:4:g",
+            id: "tempora:Pent03-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 6\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 3\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3608,57 +3518,50 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-06": {
+      "2025-07-06": {
         tempora: [
           {
-            id: "tempora:Pent06-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 6\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent04-0:2:g",
+            rank: 2,
+            title: "4\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "commune:C10t:0:w",
-            rank: 0,
-            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
+            id: "tempora:Pent04-0:2:g",
+            rank: 2,
+            title: "4\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-07-07": {
+        tempora: [
+          {
+            id: "tempora:Pent04-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 4\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:07-07:3:w",
+            rank: 3,
+            title: "S.S. Cirilo e Met\u00f3dio, Bispos e Confessores",
             colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-07-07": {
+      "2025-07-08": {
         tempora: [
           {
-            id: "tempora:Pent07-0:2:g",
-            rank: 2,
-            title: "7\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent07-0:2:g",
-            rank: 2,
-            title: "7\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
-            id: "sancti:07-07:3:w",
-            rank: 3,
-            title: "S.S. Cirilo e Metódio, Bispos e Confessores",
-          },
-        ],
-      },
-      "2024-07-08": {
-        tempora: [
-          {
-            id: "tempora:Pent07-1:4:g",
+            id: "tempora:Pent04-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 7\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 4\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3672,24 +3575,24 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-09": {
+      "2025-07-09": {
         tempora: [
           {
-            id: "tempora:Pent07-2:4:g",
+            id: "tempora:Pent04-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 7\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 4\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-07-10": {
+      "2025-07-10": {
         tempora: [
           {
-            id: "tempora:Pent07-3:4:g",
+            id: "tempora:Pent04-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 7\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 4\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3704,12 +3607,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-11": {
+      "2025-07-11": {
         tempora: [
           {
-            id: "tempora:Pent07-4:4:g",
+            id: "tempora:Pent04-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 7\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 4\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3723,12 +3626,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-07-12": {
+      "2025-07-12": {
         tempora: [
           {
-            id: "tempora:Pent07-5:4:g",
+            id: "tempora:Pent04-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 7\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 4\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3742,57 +3645,50 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-13": {
+      "2025-07-13": {
         tempora: [
           {
-            id: "tempora:Pent07-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 7\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent05-0:2:g",
+            rank: 2,
+            title: "5\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "commune:C10t:0:w",
-            rank: 0,
-            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
+            id: "tempora:Pent05-0:2:g",
+            rank: 2,
+            title: "5\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-07-14": {
+        tempora: [
+          {
+            id: "tempora:Pent05-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 5\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:07-14:3:w",
+            rank: 3,
+            title: "S. Boaventura, Bispo, Confessor e Doutor da Igreja",
             colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-07-14": {
+      "2025-07-15": {
         tempora: [
           {
-            id: "tempora:Pent08-0:2:g",
-            rank: 2,
-            title: "8\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent08-0:2:g",
-            rank: 2,
-            title: "8\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
-            id: "sancti:07-14:3:w",
-            rank: 3,
-            title: "S. Boaventura, Bispo, Confessor e Doutor da Igreja",
-          },
-        ],
-      },
-      "2024-07-15": {
-        tempora: [
-          {
-            id: "tempora:Pent08-1:4:g",
+            id: "tempora:Pent05-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 8\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 5\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3806,12 +3702,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-16": {
+      "2025-07-16": {
         tempora: [
           {
-            id: "tempora:Pent08-2:4:g",
+            id: "tempora:Pent05-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 8\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 5\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3825,12 +3721,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-07-17": {
+      "2025-07-17": {
         tempora: [
           {
-            id: "tempora:Pent08-3:4:g",
+            id: "tempora:Pent05-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 8\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 5\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3844,12 +3740,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-07-18": {
+      "2025-07-18": {
         tempora: [
           {
-            id: "tempora:Pent08-4:4:g",
+            id: "tempora:Pent05-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 8\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 5\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3863,12 +3759,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-19": {
+      "2025-07-19": {
         tempora: [
           {
-            id: "tempora:Pent08-5:4:g",
+            id: "tempora:Pent05-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 8\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 5\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3882,57 +3778,57 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-20": {
+      "2025-07-20": {
         tempora: [
           {
-            id: "tempora:Pent08-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 8\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent06-0:2:g",
+            rank: 2,
+            title: "6\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "sancti:07-20:3:r",
-            rank: 3,
-            title: "S. Jer\u00f3nimo Emiliano",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-07-21": {
-        tempora: [
-          {
-            id: "tempora:Pent09-0:2:g",
+            id: "tempora:Pent06-0:2:g",
             rank: 2,
-            title: "9\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent09-0:2:g",
-            rank: 2,
-            title: "9\u00ba Domingo depois de Pentecostes",
+            title: "6\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         commemoration: [
           {
-            colors: ["w"],
-            id: "sancti:07-21r:3:w",
+            colors: ["r"],
+            id: "sancti:07-20:3:r",
             rank: 3,
-            title: "S. Praxedes de Brindisi, Confessor e Doutor da Igreja",
+            title: "S. Jerónimo Emiliano",
           },
         ],
       },
-      "2024-07-22": {
+      "2025-07-21": {
         tempora: [
           {
-            id: "tempora:Pent09-1:4:g",
+            id: "tempora:Pent06-1:4:g",
             rank: 4,
-            title: "Segunda-feira da 9\u00aa semana depois de Pentecostes",
+            title: "Segunda-feira da 6\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:07-21r:3:w",
+            rank: 3,
+            title: "S. Praxedes de Brindisi, Confessor e Doutor da Igreja",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-07-22": {
+        tempora: [
+          {
+            id: "tempora:Pent06-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 6\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3946,12 +3842,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-23": {
+      "2025-07-23": {
         tempora: [
           {
-            id: "tempora:Pent09-2:4:g",
+            id: "tempora:Pent06-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 9\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 6\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3965,12 +3861,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-24": {
+      "2025-07-24": {
         tempora: [
           {
-            id: "tempora:Pent09-3:4:g",
+            id: "tempora:Pent06-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 9\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 6\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -3984,12 +3880,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-07-25": {
+      "2025-07-25": {
         tempora: [
           {
-            id: "tempora:Pent09-4:4:g",
+            id: "tempora:Pent06-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 9\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 6\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4003,12 +3899,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-26": {
+      "2025-07-26": {
         tempora: [
           {
-            id: "tempora:Pent09-5:4:g",
+            id: "tempora:Pent06-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 9\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 6\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4022,65 +3918,51 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-27": {
+      "2025-07-27": {
         tempora: [
           {
-            id: "tempora:Pent09-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 9\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent07-0:2:g",
+            rank: 2,
+            title: "7\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "commune:C10t:0:w",
-            rank: 0,
-            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
-            colors: ["w"],
+            id: "tempora:Pent07-0:2:g",
+            rank: 2,
+            title: "7\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
           },
         ],
-        commemoration: [
-          {
-            id: "sancti:07-27:4:r",
-            rank: 4,
-            title: "S. Pantale\u00e3o, M\u00e1rtir",
-            colors: ["r"],
-          },
-        ],
+        commemoration: [],
       },
-      "2024-07-28": {
+      "2025-07-28": {
         tempora: [
           {
-            id: "tempora:Pent10-0:2:g",
-            rank: 2,
-            title: "10\u00ba Domingo depois de Pentecostes",
+            id: "tempora:Pent07-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 7\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pent10-0:2:g",
-            rank: 2,
-            title: "10\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["r"],
             id: "sancti:07-28:3:r",
             rank: 3,
             title:
-              "S.S. Nazário e Celso, Mártires, S. Victor I, Papa e Mártir, S. Inocêncio I, Papa e Confessor",
+              "S.S. Naz\u00e1rio e Celso, M\u00e1rtires, S. Victor I, Papa e M\u00e1rtir, S. Inoc\u00eancio I, Papa e Confessor",
+            colors: ["r"],
           },
         ],
+        commemoration: [],
       },
-      "2024-07-29": {
+      "2025-07-29": {
         tempora: [
           {
-            id: "tempora:Pent10-1:4:g",
+            id: "tempora:Pent07-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 10\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 7\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4094,12 +3976,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-07-30": {
+      "2025-07-30": {
         tempora: [
           {
-            id: "tempora:Pent10-2:4:g",
+            id: "tempora:Pent07-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 10\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 7\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4113,12 +3995,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-07-31": {
+      "2025-07-31": {
         tempora: [
           {
-            id: "tempora:Pent10-3:4:g",
+            id: "tempora:Pent07-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 10\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 7\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4132,12 +4014,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-01": {
+      "2025-08-01": {
         tempora: [
           {
-            id: "tempora:Pent10-4:4:g",
+            id: "tempora:Pent07-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 10\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 7\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4151,12 +4033,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-08-02": {
+      "2025-08-02": {
         tempora: [
           {
-            id: "tempora:Pent10-5:4:g",
+            id: "tempora:Pent07-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 10\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 7\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4171,57 +4053,50 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-03": {
+      "2025-08-03": {
         tempora: [
           {
-            id: "tempora:Pent10-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 10\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent08-0:2:g",
+            rank: 2,
+            title: "8\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "commune:C10t:0:w",
-            rank: 0,
-            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
+            id: "tempora:Pent08-0:2:g",
+            rank: 2,
+            title: "8\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-08-04": {
+        tempora: [
+          {
+            id: "tempora:Pent08-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 8\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:08-04:3:w",
+            rank: 3,
+            title: "S. Domingos, Confessor",
             colors: ["w"],
           },
         ],
         commemoration: [],
       },
-      "2024-08-04": {
+      "2025-08-05": {
         tempora: [
           {
-            id: "tempora:Pent11-0:2:g",
-            rank: 2,
-            title: "11\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent11-0:2:g",
-            rank: 2,
-            title: "11\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
-            id: "sancti:08-04:3:w",
-            rank: 3,
-            title: "S. Domingos, Confessor",
-          },
-        ],
-      },
-      "2024-08-05": {
-        tempora: [
-          {
-            id: "tempora:Pent11-1:4:g",
+            id: "tempora:Pent08-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 11\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 8\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4235,12 +4110,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-06": {
+      "2025-08-06": {
         tempora: [
           {
-            id: "tempora:Pent11-2:4:g",
+            id: "tempora:Pent08-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 11\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 8\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4254,12 +4129,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-07": {
+      "2025-08-07": {
         tempora: [
           {
-            id: "tempora:Pent11-3:4:g",
+            id: "tempora:Pent08-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 11\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 8\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4273,12 +4148,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-08": {
+      "2025-08-08": {
         tempora: [
           {
-            id: "tempora:Pent11-4:4:g",
+            id: "tempora:Pent08-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 11\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 8\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4292,12 +4167,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-09": {
+      "2025-08-09": {
         tempora: [
           {
-            id: "tempora:Pent11-5:4:g",
+            id: "tempora:Pent08-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 11\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 8\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4311,12 +4186,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-10": {
+      "2025-08-10": {
         tempora: [
           {
-            id: "tempora:Pent11-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 11\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent09-0:2:g",
+            rank: 2,
+            title: "9\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4328,33 +4203,40 @@ describe("calendar", () => {
             colors: ["r"],
           },
         ],
-        commemoration: [],
-      },
-      "2024-08-11": {
-        tempora: [
+        commemoration: [
           {
-            id: "tempora:Pent12-0:2:g",
+            id: "tempora:Pent09-0:2:g",
             rank: 2,
-            title: "12\u00ba Domingo depois de Pentecostes",
+            title: "9\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
-        celebration: [
-          {
-            id: "tempora:Pent12-0:2:g",
-            rank: 2,
-            title: "12\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [],
       },
-      "2024-08-12": {
+      "2025-08-11": {
         tempora: [
           {
-            id: "tempora:Pent12-1:4:g",
+            id: "tempora:Pent09-1:4:g",
             rank: 4,
-            title: "Segunda-feira da 12\u00aa semana depois de Pentecostes",
+            title: "Segunda-feira da 9\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [],
+        commemoration: [
+          {
+            id: "sancti:08-11:4:r",
+            rank: 4,
+            title: "S.S. Tib\u00farcio e Susana, M\u00e1rtires",
+            colors: ["r"],
+          },
+        ],
+      },
+      "2025-08-12": {
+        tempora: [
+          {
+            id: "tempora:Pent09-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 9\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4368,12 +4250,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-13": {
+      "2025-08-13": {
         tempora: [
           {
-            id: "tempora:Pent12-2:4:g",
+            id: "tempora:Pent09-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 12\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 9\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4387,12 +4269,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-08-14": {
+      "2025-08-14": {
         tempora: [
           {
-            id: "tempora:Pent12-3:4:g",
+            id: "tempora:Pent09-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 12\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 9\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4406,12 +4288,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-15": {
+      "2025-08-15": {
         tempora: [
           {
-            id: "tempora:Pent12-4:4:g",
+            id: "tempora:Pent09-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 12\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 9\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4425,12 +4307,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-16": {
+      "2025-08-16": {
         tempora: [
           {
-            id: "tempora:Pent12-5:4:g",
+            id: "tempora:Pent09-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 12\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 9\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4444,50 +4326,57 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-17": {
+      "2025-08-17": {
         tempora: [
           {
-            id: "tempora:Pent12-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 12\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent10-0:2:g",
+            rank: 2,
+            title: "10\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
+            id: "tempora:Pent10-0:2:g",
+            rank: 2,
+            title: "10\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [
+          {
+            colors: ["w"],
             id: "sancti:08-17:3:w",
             rank: 3,
             title: "S. Jacinto, Confessor",
+          },
+        ],
+      },
+      "2025-08-18": {
+        tempora: [
+          {
+            id: "tempora:Pent10-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 10\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [],
+        commemoration: [
+          {
+            id: "sancti:08-18r:4:w",
+            rank: 4,
+            title: "S. Agapito, M\u00e1rtir",
             colors: ["w"],
           },
         ],
-        commemoration: [],
       },
-      "2024-08-18": {
+      "2025-08-19": {
         tempora: [
           {
-            id: "tempora:Pent13-0:2:g",
-            rank: 2,
-            title: "13\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent13-0:2:g",
-            rank: 2,
-            title: "13\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-08-19": {
-        tempora: [
-          {
-            id: "tempora:Pent13-1:4:g",
+            id: "tempora:Pent10-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 13\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 10\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4501,12 +4390,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-20": {
+      "2025-08-20": {
         tempora: [
           {
-            id: "tempora:Pent13-2:4:g",
+            id: "tempora:Pent10-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 13\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 10\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4520,12 +4409,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-21": {
+      "2025-08-21": {
         tempora: [
           {
-            id: "tempora:Pent13-3:4:g",
+            id: "tempora:Pent10-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 13\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 10\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4539,12 +4428,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-22": {
+      "2025-08-22": {
         tempora: [
           {
-            id: "tempora:Pent13-4:4:g",
+            id: "tempora:Pent10-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 13\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 10\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4558,12 +4447,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-23": {
+      "2025-08-23": {
         tempora: [
           {
-            id: "tempora:Pent13-5:4:g",
+            id: "tempora:Pent10-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 13\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 10\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4577,12 +4466,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-24": {
+      "2025-08-24": {
         tempora: [
           {
-            id: "tempora:Pent13-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 13\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent11-0:2:g",
+            rank: 2,
+            title: "11\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4594,40 +4483,40 @@ describe("calendar", () => {
             colors: ["r"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            id: "tempora:Pent11-0:2:g",
+            rank: 2,
+            title: "11\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
       },
-      "2024-08-25": {
+      "2025-08-25": {
         tempora: [
           {
-            id: "tempora:Pent14-0:2:g",
-            rank: 2,
-            title: "14\u00ba Domingo depois de Pentecostes",
+            id: "tempora:Pent11-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 11\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pent14-0:2:g",
-            rank: 2,
-            title: "14\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
             id: "sancti:08-25:3:w",
             rank: 3,
-            title: "S. Luís, Rei de França e Confessor",
+            title: "S. Lu\u00eds, Rei de Fran\u00e7a e Confessor",
+            colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-08-26": {
+      "2025-08-26": {
         tempora: [
           {
-            id: "tempora:Pent14-1:4:g",
+            id: "tempora:Pent11-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 14\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 11\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4641,12 +4530,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-08-27": {
+      "2025-08-27": {
         tempora: [
           {
-            id: "tempora:Pent14-2:4:g",
+            id: "tempora:Pent11-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 14\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 11\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4660,12 +4549,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-28": {
+      "2025-08-28": {
         tempora: [
           {
-            id: "tempora:Pent14-3:4:g",
+            id: "tempora:Pent11-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 14\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 11\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4679,12 +4568,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-29": {
+      "2025-08-29": {
         tempora: [
           {
-            id: "tempora:Pent14-4:4:g",
+            id: "tempora:Pent11-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 14\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 11\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4698,12 +4587,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-30": {
+      "2025-08-30": {
         tempora: [
           {
-            id: "tempora:Pent14-5:4:g",
+            id: "tempora:Pent11-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 14\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 11\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4717,50 +4606,57 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-08-31": {
+      "2025-08-31": {
         tempora: [
           {
-            id: "tempora:Pent14-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 14\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent12-0:2:g",
+            rank: 2,
+            title: "12\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
+            id: "tempora:Pent12-0:2:g",
+            rank: 2,
+            title: "12\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [
+          {
+            colors: ["w"],
             id: "sancti:08-31:3:w",
             rank: 3,
             title: "S. Raimundo Nonato, Confessor",
+          },
+        ],
+      },
+      "2025-09-01": {
+        tempora: [
+          {
+            id: "tempora:Pent12-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 12\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [],
+        commemoration: [
+          {
+            id: "sancti:09-01:4:w",
+            rank: 4,
+            title: "S. Eg\u00eddio, Abade",
             colors: ["w"],
           },
         ],
-        commemoration: [],
       },
-      "2024-09-01": {
+      "2025-09-02": {
         tempora: [
           {
-            id: "tempora:Pent15-0:2:g",
-            rank: 2,
-            title: "15\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent15-0:2:g",
-            rank: 2,
-            title: "15\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-09-02": {
-        tempora: [
-          {
-            id: "tempora:Pent15-1:4:g",
+            id: "tempora:Pent12-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 15\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 12\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4774,12 +4670,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-09-03": {
+      "2025-09-03": {
         tempora: [
           {
-            id: "tempora:Pent15-2:4:g",
+            id: "tempora:Pent12-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 15\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 12\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4793,24 +4689,24 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-09-04": {
+      "2025-09-04": {
         tempora: [
           {
-            id: "tempora:Pent15-3:4:g",
+            id: "tempora:Pent12-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 15\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 12\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-09-05": {
+      "2025-09-05": {
         tempora: [
           {
-            id: "tempora:Pent15-4:4:g",
+            id: "tempora:Pent12-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 15\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 12\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4824,24 +4720,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-09-06": {
+      "2025-09-06": {
         tempora: [
           {
-            id: "tempora:Pent15-5:4:g",
+            id: "tempora:Pent12-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 15\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-09-07": {
-        tempora: [
-          {
-            id: "tempora:Pent15-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 15\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 12\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4855,12 +4739,31 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-09-08": {
+      "2025-09-07": {
         tempora: [
           {
-            id: "tempora:Pent16-0:2:g",
+            id: "tempora:Pent13-0:2:g",
             rank: 2,
-            title: "16\u00ba Domingo depois de Pentecostes",
+            title: "13\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pent13-0:2:g",
+            rank: 2,
+            title: "13\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-09-08": {
+        tempora: [
+          {
+            id: "tempora:Pent13-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 13\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4872,21 +4775,14 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [
-          {
-            id: "tempora:Pent16-0:2:g",
-            rank: 2,
-            title: "16\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
+        commemoration: [],
       },
-      "2024-09-09": {
+      "2025-09-09": {
         tempora: [
           {
-            id: "tempora:Pent16-1:4:g",
+            id: "tempora:Pent13-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 16\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 13\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4900,12 +4796,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-09-10": {
+      "2025-09-10": {
         tempora: [
           {
-            id: "tempora:Pent16-2:4:g",
+            id: "tempora:Pent13-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 16\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 13\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4919,12 +4815,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-09-11": {
+      "2025-09-11": {
         tempora: [
           {
-            id: "tempora:Pent16-3:4:g",
+            id: "tempora:Pent13-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 16\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 13\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4938,12 +4834,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-09-12": {
+      "2025-09-12": {
         tempora: [
           {
-            id: "tempora:Pent16-4:4:g",
+            id: "tempora:Pent13-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 16\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 13\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4957,24 +4853,31 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-09-13": {
+      "2025-09-13": {
         tempora: [
           {
-            id: "tempora:Pent16-5:4:g",
+            id: "tempora:Pent13-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 16\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 13\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
-        celebration: [],
+        celebration: [
+          {
+            id: "commune:C10t:0:w",
+            rank: 0,
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
+            colors: ["w"],
+          },
+        ],
         commemoration: [],
       },
-      "2024-09-14": {
+      "2025-09-14": {
         tempora: [
           {
-            id: "tempora:Pent16-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 16\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent14-0:2:g",
+            rank: 2,
+            title: "14\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -4986,14 +4889,21 @@ describe("calendar", () => {
             colors: ["r"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            id: "tempora:Pent14-0:2:g",
+            rank: 2,
+            title: "14\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
       },
-      "2024-09-15": {
+      "2025-09-15": {
         tempora: [
           {
-            id: "tempora:Pent17-0:2:g",
-            rank: 2,
-            title: "17\u00ba Domingo depois de Pentecostes",
+            id: "tempora:Pent14-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 14\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5005,21 +4915,14 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [
-          {
-            id: "tempora:Pent17-0:2:g",
-            rank: 2,
-            title: "17\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
+        commemoration: [],
       },
-      "2024-09-16": {
+      "2025-09-16": {
         tempora: [
           {
-            id: "tempora:Pent17-1:4:g",
+            id: "tempora:Pent14-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 17\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 14\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5033,12 +4936,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-09-17": {
+      "2025-09-17": {
         tempora: [
           {
-            id: "tempora:Pent17-2:4:g",
+            id: "tempora:Pent14-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 17\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 14\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5052,24 +4955,16 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-09-18": {
+      "2025-09-18": {
         tempora: [
           {
-            id: "tempora:093-3:2:v",
-            rank: 2,
-            title: "Quarta-feira das T\u00eamporas de Setembro",
-            colors: ["v"],
+            id: "tempora:Pent14-4:4:g",
+            rank: 4,
+            title: "Quinta-feira da 14\u00aa semana depois de Pentecostes",
+            colors: ["g"],
           },
         ],
         celebration: [
-          {
-            id: "tempora:093-3:2:v",
-            rank: 2,
-            title: "Quarta-feira das T\u00eamporas de Setembro",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [
           {
             id: "sancti:09-18r:3:w",
             rank: 3,
@@ -5077,13 +4972,14 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-09-19": {
+      "2025-09-19": {
         tempora: [
           {
-            id: "tempora:Pent17-4:4:g",
+            id: "tempora:Pent14-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 17\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 14\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5097,21 +4993,21 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-09-20": {
+      "2025-09-20": {
         tempora: [
           {
-            id: "tempora:093-5:2:v",
-            rank: 2,
-            title: "Sexta-feira das T\u00eamporas de Setembro",
-            colors: ["v"],
+            id: "tempora:Pent14-6:4:g",
+            rank: 4,
+            title: "S\u00e1bado da 14\u00aa semana depois de Pentecostes",
+            colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:093-5:2:v",
-            rank: 2,
-            title: "Sexta-feira das T\u00eamporas de Setembro",
-            colors: ["v"],
+            id: "commune:C10t:0:w",
+            rank: 0,
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
+            colors: ["w"],
           },
         ],
         commemoration: [
@@ -5123,13 +5019,13 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-09-21": {
+      "2025-09-21": {
         tempora: [
           {
-            id: "tempora:093-6:2:v",
+            id: "tempora:Pent15-0:2:g",
             rank: 2,
-            title: "S\u00e1bado das T\u00eamporas de Setembro",
-            colors: ["v"],
+            title: "15\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
           },
         ],
         celebration: [
@@ -5142,45 +5038,38 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "tempora:093-6:2:v",
+            id: "tempora:Pent15-0:2:g",
             rank: 2,
-            title: "S\u00e1bado das T\u00eamporas de Setembro",
-            colors: ["v"],
+            title: "15\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
           },
         ],
       },
-      "2024-09-22": {
+      "2025-09-22": {
         tempora: [
           {
-            id: "tempora:Pent18-0:2:g",
-            rank: 2,
-            title: "18\u00ba Domingo depois de Pentecostes",
+            id: "tempora:Pent15-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 15\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Pent18-0:2:g",
-            rank: 2,
-            title: "18\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
             id: "sancti:09-22:3:w",
             rank: 3,
-            title: "S. Tomás de Vilanova, Bispo e Confessor",
+            title: "S. Tom\u00e1s de Vilanova, Bispo e Confessor",
+            colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-09-23": {
+      "2025-09-23": {
         tempora: [
           {
-            id: "tempora:Pent18-1:4:g",
+            id: "tempora:Pent15-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 18\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 15\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5194,16 +5083,23 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-09-24": {
+      "2025-09-24": {
         tempora: [
           {
-            id: "tempora:Pent18-2:4:g",
-            rank: 4,
-            title: "Ter\u00e7a-feira da 18\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            id: "tempora:093-3:2:v",
+            rank: 2,
+            title: "Quarta-feira das T\u00eamporas de Setembro",
+            colors: ["v"],
           },
         ],
-        celebration: [],
+        celebration: [
+          {
+            id: "tempora:093-3:2:v",
+            rank: 2,
+            title: "Quarta-feira das T\u00eamporas de Setembro",
+            colors: ["v"],
+          },
+        ],
         commemoration: [
           {
             id: "sancti:09-24:4:w",
@@ -5213,28 +5109,35 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-09-25": {
+      "2025-09-25": {
         tempora: [
           {
-            id: "tempora:Pent18-3:4:g",
+            id: "tempora:Pent15-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 18\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 15\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-09-26": {
+      "2025-09-26": {
         tempora: [
           {
-            id: "tempora:Pent18-4:4:g",
-            rank: 4,
-            title: "Quinta-feira da 18\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            id: "tempora:093-5:2:v",
+            rank: 2,
+            title: "Sexta-feira das T\u00eamporas de Setembro",
+            colors: ["v"],
           },
         ],
-        celebration: [],
+        celebration: [
+          {
+            id: "tempora:093-5:2:v",
+            rank: 2,
+            title: "Sexta-feira das T\u00eamporas de Setembro",
+            colors: ["v"],
+          },
+        ],
         commemoration: [
           {
             id: "sancti:09-26:4:r",
@@ -5244,16 +5147,24 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-09-27": {
+      "2025-09-27": {
         tempora: [
           {
-            id: "tempora:Pent18-5:4:g",
-            rank: 4,
-            title: "Sexta-feira da 18\u00aa semana depois de Pentecostes",
-            colors: ["g"],
+            id: "tempora:093-6:2:v",
+            rank: 2,
+            title: "S\u00e1bado das T\u00eamporas de Setembro",
+            colors: ["v"],
           },
         ],
         celebration: [
+          {
+            id: "tempora:093-6:2:v",
+            rank: 2,
+            title: "S\u00e1bado das T\u00eamporas de Setembro",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [
           {
             id: "sancti:09-27:3:r",
             rank: 3,
@@ -5261,33 +5172,39 @@ describe("calendar", () => {
             colors: ["r"],
           },
         ],
-        commemoration: [],
       },
-      "2024-09-28": {
+      "2025-09-28": {
         tempora: [
           {
-            id: "tempora:Pent18-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 18\u00aa semana depois de Pentecostes",
+            id: "tempora:Pent16-0:2:g",
+            rank: 2,
+            title: "16\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "sancti:09-28:3:r",
-            rank: 3,
-            title: "S. Venceslau, M\u00e1rtir",
-            colors: ["r"],
+            id: "tempora:Pent16-0:2:g",
+            rank: 2,
+            title: "16\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            colors: ["r"],
+            id: "sancti:09-28:3:r",
+            rank: 3,
+            title: "S. Venceslau, Mártir",
+          },
+        ],
       },
-      "2024-09-29": {
+      "2025-09-29": {
         tempora: [
           {
-            id: "tempora:Pent19-0:2:g",
-            rank: 2,
-            title: "19\u00ba Domingo depois de Pentecostes",
+            id: "tempora:Pent16-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 16\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5299,21 +5216,14 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [
-          {
-            id: "tempora:Pent19-0:2:g",
-            rank: 2,
-            title: "19\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
+        commemoration: [],
       },
-      "2024-09-30": {
+      "2025-09-30": {
         tempora: [
           {
-            id: "tempora:Pent19-1:4:g",
+            id: "tempora:Pent16-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 19\u00aa semana depois de Pentecostes",
+            title: "Ter\u00e7a-feira da 16\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5327,12 +5237,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-10-01": {
+      "2025-10-01": {
         tempora: [
           {
-            id: "tempora:Pent19-2:4:g",
+            id: "tempora:Pent16-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 19\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 16\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5346,12 +5256,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-10-02": {
+      "2025-10-02": {
         tempora: [
           {
-            id: "tempora:Pent19-3:4:g",
+            id: "tempora:Pent16-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 19\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 16\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5365,12 +5275,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-10-03": {
+      "2025-10-03": {
         tempora: [
           {
-            id: "tempora:Pent19-4:4:g",
+            id: "tempora:Pent16-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 19\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 16\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5384,12 +5294,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-10-04": {
+      "2025-10-04": {
         tempora: [
           {
-            id: "tempora:Pent19-5:4:g",
+            id: "tempora:Pent16-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 19\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 16\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5403,7 +5313,387 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-10-05": {
+      "2025-10-05": {
+        tempora: [
+          {
+            id: "tempora:Pent17-0:2:g",
+            rank: 2,
+            title: "17\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pent17-0:2:g",
+            rank: 2,
+            title: "17\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-06": {
+        tempora: [
+          {
+            id: "tempora:Pent17-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 17\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-06:3:w",
+            rank: 3,
+            title: "S. Bruno, Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-07": {
+        tempora: [
+          {
+            id: "tempora:Pent17-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 17\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-07r:2:w",
+            rank: 2,
+            title: "SS. Ros\u00e1rio da B. V. Maria",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-08": {
+        tempora: [
+          {
+            id: "tempora:Pent17-3:4:g",
+            rank: 4,
+            title: "Quarta-feira da 17\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-08r:3:w",
+            rank: 3,
+            title: "Santa Br\u00edgida, Vi\u00fava",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-09": {
+        tempora: [
+          {
+            id: "tempora:Pent17-4:4:g",
+            rank: 4,
+            title: "Quinta-feira da 17\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-09:3:w",
+            rank: 3,
+            title: "S. Jo\u00e3o Leonardo, Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-10": {
+        tempora: [
+          {
+            id: "tempora:Pent17-5:4:g",
+            rank: 4,
+            title: "Sexta-feira da 17\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-10:3:w",
+            rank: 3,
+            title: "S. Francisco de B\u00f3rgia",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-11": {
+        tempora: [
+          {
+            id: "tempora:Pent17-6:4:g",
+            rank: 4,
+            title: "S\u00e1bado da 17\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-11:2:w",
+            rank: 2,
+            title: "Maternidade da B. V. Maria",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-12": {
+        tempora: [
+          {
+            id: "tempora:Pent18-0:2:g",
+            rank: 2,
+            title: "18\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pent18-0:2:g",
+            rank: 2,
+            title: "18\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-13": {
+        tempora: [
+          {
+            id: "tempora:Pent18-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 18\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-13:3:w",
+            rank: 3,
+            title: "S. Eduardo, Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-14": {
+        tempora: [
+          {
+            id: "tempora:Pent18-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 18\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-14:3:r",
+            rank: 3,
+            title: "S. Calisto I, Papa e M\u00e1rtir",
+            colors: ["r"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-15": {
+        tempora: [
+          {
+            id: "tempora:Pent18-3:4:g",
+            rank: 4,
+            title: "Quarta-feira da 18\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-15:3:w",
+            rank: 3,
+            title: "Santa Teresa, Virgem",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-16": {
+        tempora: [
+          {
+            id: "tempora:Pent18-4:4:g",
+            rank: 4,
+            title: "Quinta-feira da 18\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-16:3:w",
+            rank: 3,
+            title: "Santa Hedviges, Vi\u00fava",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-17": {
+        tempora: [
+          {
+            id: "tempora:Pent18-5:4:g",
+            rank: 4,
+            title: "Sexta-feira da 18\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-17:3:w",
+            rank: 3,
+            title: "Santa Margarida Maria, Virgem",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-18": {
+        tempora: [
+          {
+            id: "tempora:Pent18-6:4:g",
+            rank: 4,
+            title: "S\u00e1bado da 18\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-18:2:r",
+            rank: 2,
+            title: "S. Lucas, Evangelista",
+            colors: ["r"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-19": {
+        tempora: [
+          {
+            id: "tempora:Pent19-0:2:g",
+            rank: 2,
+            title: "19\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Pent19-0:2:g",
+            rank: 2,
+            title: "19\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        commemoration: [
+          {
+            colors: ["w"],
+            id: "sancti:10-19:3:w",
+            rank: 3,
+            title: "S. Pedro de Alcântara, Confessor",
+          },
+        ],
+      },
+      "2025-10-20": {
+        tempora: [
+          {
+            id: "tempora:Pent19-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 19\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-20:3:w",
+            rank: 3,
+            title: "S. Jo\u00e3o C\u00e2ncio, Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-21": {
+        tempora: [
+          {
+            id: "tempora:Pent19-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 19\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [],
+        commemoration: [
+          {
+            id: "sancti:10-21:4:w",
+            rank: 4,
+            title: "S. Hilari\u00e3o, Abade",
+            colors: ["w"],
+          },
+        ],
+      },
+      "2025-10-22": {
+        tempora: [
+          {
+            id: "tempora:Pent19-3:4:g",
+            rank: 4,
+            title: "Quarta-feira da 19\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-10-23": {
+        tempora: [
+          {
+            id: "tempora:Pent19-4:4:g",
+            rank: 4,
+            title: "Quinta-feira da 19\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-23r:3:w",
+            rank: 3,
+            title: "S. Ant\u00f3nio Maria Claret, Bispo e Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-24": {
+        tempora: [
+          {
+            id: "tempora:Pent19-5:4:g",
+            rank: 4,
+            title: "Sexta-feira da 19\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:10-24:3:w",
+            rank: 3,
+            title: "S. Rafael, Arcanjo",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-10-25": {
         tempora: [
           {
             id: "tempora:Pent19-6:4:g",
@@ -5422,400 +5712,6 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "sancti:10-05:4:r",
-            rank: 4,
-            title: "S. Pl\u00e1cido e Companheiros M\u00e1rtires",
-            colors: ["r"],
-          },
-        ],
-      },
-      "2024-10-06": {
-        tempora: [
-          {
-            id: "tempora:Pent20-0:2:g",
-            rank: 2,
-            title: "20\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent20-0:2:g",
-            rank: 2,
-            title: "20\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
-            id: "sancti:10-06:3:w",
-            rank: 3,
-            title: "S. Bruno, Confessor",
-          },
-        ],
-      },
-      "2024-10-07": {
-        tempora: [
-          {
-            id: "tempora:Pent20-1:4:g",
-            rank: 4,
-            title: "Segunda-feira da 20\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-07r:2:w",
-            rank: 2,
-            title: "SS. Ros\u00e1rio da B. V. Maria",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-08": {
-        tempora: [
-          {
-            id: "tempora:Pent20-2:4:g",
-            rank: 4,
-            title: "Ter\u00e7a-feira da 20\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-08r:3:w",
-            rank: 3,
-            title: "Santa Br\u00edgida, Vi\u00fava",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-09": {
-        tempora: [
-          {
-            id: "tempora:Pent20-3:4:g",
-            rank: 4,
-            title: "Quarta-feira da 20\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-09:3:w",
-            rank: 3,
-            title: "S. Jo\u00e3o Leonardo, Confessor",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-10": {
-        tempora: [
-          {
-            id: "tempora:Pent20-4:4:g",
-            rank: 4,
-            title: "Quinta-feira da 20\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-10:3:w",
-            rank: 3,
-            title: "S. Francisco de B\u00f3rgia",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-11": {
-        tempora: [
-          {
-            id: "tempora:Pent20-5:4:g",
-            rank: 4,
-            title: "Sexta-feira da 20\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-11:2:w",
-            rank: 2,
-            title: "Maternidade da B. V. Maria",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-12": {
-        tempora: [
-          {
-            id: "tempora:Pent20-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 20\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "commune:C10t:0:w",
-            rank: 0,
-            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-13": {
-        tempora: [
-          {
-            id: "tempora:Pent21-0:2:g",
-            rank: 2,
-            title: "21\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent21-0:2:g",
-            rank: 2,
-            title: "21\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
-            id: "sancti:10-13:3:w",
-            rank: 3,
-            title: "S. Eduardo, Confessor",
-          },
-        ],
-      },
-      "2024-10-14": {
-        tempora: [
-          {
-            id: "tempora:Pent21-1:4:g",
-            rank: 4,
-            title: "Segunda-feira da 21\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-14:3:r",
-            rank: 3,
-            title: "S. Calisto I, Papa e M\u00e1rtir",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-15": {
-        tempora: [
-          {
-            id: "tempora:Pent21-2:4:g",
-            rank: 4,
-            title: "Ter\u00e7a-feira da 21\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-15:3:w",
-            rank: 3,
-            title: "Santa Teresa, Virgem",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-16": {
-        tempora: [
-          {
-            id: "tempora:Pent21-3:4:g",
-            rank: 4,
-            title: "Quarta-feira da 21\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-16:3:w",
-            rank: 3,
-            title: "Santa Hedviges, Vi\u00fava",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-17": {
-        tempora: [
-          {
-            id: "tempora:Pent21-4:4:g",
-            rank: 4,
-            title: "Quinta-feira da 21\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-17:3:w",
-            rank: 3,
-            title: "Santa Margarida Maria, Virgem",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-18": {
-        tempora: [
-          {
-            id: "tempora:Pent21-5:4:g",
-            rank: 4,
-            title: "Sexta-feira da 21\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-18:2:r",
-            rank: 2,
-            title: "S. Lucas, Evangelista",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-19": {
-        tempora: [
-          {
-            id: "tempora:Pent21-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 21\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-19:3:w",
-            rank: 3,
-            title: "S. Pedro de Alc\u00e2ntara, Confessor",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-20": {
-        tempora: [
-          {
-            id: "tempora:Pent22-0:2:g",
-            rank: 2,
-            title: "22\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Pent22-0:2:g",
-            rank: 2,
-            title: "22\u00ba Domingo depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
-            id: "sancti:10-20:3:w",
-            rank: 3,
-            title: "S. João Câncio, Confessor",
-          },
-        ],
-      },
-      "2024-10-21": {
-        tempora: [
-          {
-            id: "tempora:Pent22-1:4:g",
-            rank: 4,
-            title: "Segunda-feira da 22\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [],
-        commemoration: [
-          {
-            id: "sancti:10-21:4:w",
-            rank: 4,
-            title: "S. Hilari\u00e3o, Abade",
-            colors: ["w"],
-          },
-        ],
-      },
-      "2024-10-22": {
-        tempora: [
-          {
-            id: "tempora:Pent22-2:4:g",
-            rank: 4,
-            title: "Ter\u00e7a-feira da 22\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-10-23": {
-        tempora: [
-          {
-            id: "tempora:Pent22-3:4:g",
-            rank: 4,
-            title: "Quarta-feira da 22\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-23r:3:w",
-            rank: 3,
-            title: "S. Ant\u00f3nio Maria Claret, Bispo e Confessor",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-24": {
-        tempora: [
-          {
-            id: "tempora:Pent22-4:4:g",
-            rank: 4,
-            title: "Quinta-feira da 22\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:10-24:3:w",
-            rank: 3,
-            title: "S. Rafael, Arcanjo",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-25": {
-        tempora: [
-          {
-            id: "tempora:Pent22-5:4:g",
-            rank: 4,
-            title: "Sexta-feira da 22\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [],
-        commemoration: [
-          {
             id: "sancti:10-25:4:r",
             rank: 4,
             title: "S.S. Crisanto e Daria, M\u00e1rtires",
@@ -5823,31 +5719,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-10-26": {
+      "2025-10-26": {
         tempora: [
           {
-            id: "tempora:Pent22-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 22\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "commune:C10t:0:w",
-            rank: 0,
-            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-10-27": {
-        tempora: [
-          {
-            id: "tempora:Pent23-0:2:g",
+            id: "tempora:Pent20-0:2:g",
             rank: 2,
-            title: "23\u00ba Domingo depois de Pentecostes",
+            title: "20\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5861,12 +5738,24 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-10-28": {
+      "2025-10-27": {
         tempora: [
           {
-            id: "tempora:Pent23-1:4:g",
+            id: "tempora:Pent20-1:4:g",
             rank: 4,
-            title: "Segunda-feira da 23\u00aa semana depois de Pentecostes",
+            title: "Segunda-feira da 20\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-10-28": {
+        tempora: [
+          {
+            id: "tempora:Pent20-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 20\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5880,48 +5769,48 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-10-29": {
+      "2025-10-29": {
         tempora: [
           {
-            id: "tempora:Pent23-2:4:g",
+            id: "tempora:Pent20-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 23\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 20\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-10-30": {
+      "2025-10-30": {
         tempora: [
           {
-            id: "tempora:Pent23-3:4:g",
+            id: "tempora:Pent20-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 23\u00aa semana depois de Pentecostes",
+            title: "Quinta-feira da 20\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-10-31": {
+      "2025-10-31": {
         tempora: [
           {
-            id: "tempora:Pent23-4:4:g",
+            id: "tempora:Pent20-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 23\u00aa semana depois de Pentecostes",
+            title: "Sexta-feira da 20\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-11-01": {
+      "2025-11-01": {
         tempora: [
           {
-            id: "tempora:Pent23-5:4:g",
+            id: "tempora:Pent20-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 23\u00aa semana depois de Pentecostes",
+            title: "S\u00e1bado da 20\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -5935,65 +5824,63 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-02": {
-        tempora: [
-          {
-            id: "tempora:Pent23-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 23\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
+      "2025-11-02": {
         celebration: [
           {
+            colors: ["b"],
             id: "sancti:11-02m1:1:b",
             rank: 1,
-            title:
-              "Comemora\u00e7\u00e3o dos Fi\u00e9is Defuntos, 1\u00aa Missa",
-            colors: ["b"],
+            title: "Comemoração dos Fiéis Defuntos, 1ª Missa",
           },
           {
+            colors: ["b"],
             id: "sancti:11-02m2:1:b",
             rank: 1,
-            title:
-              "Comemora\u00e7\u00e3o dos Fi\u00e9is Defuntos, 2\u00aa Missa",
-            colors: ["b"],
+            title: "Comemoração dos Fiéis Defuntos, 2ª Missa",
           },
           {
+            colors: ["b"],
             id: "sancti:11-02m3:1:b",
             rank: 1,
-            title:
-              "Comemora\u00e7\u00e3o dos Fi\u00e9is Defuntos, 3\u00aa Missa",
-            colors: ["b"],
+            title: "Comemoração dos Fiéis Defuntos, 3ª Missa",
           },
         ],
-        commemoration: [],
-      },
-      "2024-11-03": {
+        commemoration: [
+          {
+            colors: ["g"],
+            id: "tempora:Pent21-0:2:g",
+            rank: 2,
+            title: "21º Domingo depois de Pentecostes",
+          },
+        ],
         tempora: [
           {
-            id: "tempora:Epi4-0:2:g",
-            rank: 2,
-            title: "4\u00ba Domingo ap\u00f3s a Epifania",
             colors: ["g"],
+            id: "tempora:Pent21-0:2:g",
+            rank: 2,
+            title: "21º Domingo depois de Pentecostes",
           },
         ],
-        celebration: [
-          {
-            id: "tempora:Epi4-0:2:g",
-            rank: 2,
-            title: "4\u00ba Domingo ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [],
       },
-      "2024-11-04": {
+      "2025-11-03": {
         tempora: [
           {
-            id: "tempora:Epi4-1:4:g",
+            id: "tempora:Pent21-1:4:g",
             rank: 4,
-            title: "Segunda-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            title: "Segunda-feira da 21\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+
+        celebration: [],
+        commemoration: [],
+      },
+      "2025-11-04": {
+        tempora: [
+          {
+            id: "tempora:Pent21-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 21\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6007,52 +5894,59 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-05": {
+      "2025-11-05": {
         tempora: [
           {
-            id: "tempora:Epi4-2:4:g",
+            id: "tempora:Pent21-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            title: "Quarta-feira da 21\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-11-06": {
+      "2025-11-06": {
         tempora: [
           {
-            id: "tempora:Epi4-3:4:g",
+            id: "tempora:Pent21-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            title: "Quinta-feira da 21\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-11-07": {
+      "2025-11-07": {
         tempora: [
           {
-            id: "tempora:Epi4-4:4:g",
+            id: "tempora:Pent21-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            title: "Sexta-feira da 21\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [],
         commemoration: [],
       },
-      "2024-11-08": {
+      "2025-11-08": {
         tempora: [
           {
-            id: "tempora:Epi4-5:4:g",
+            id: "tempora:Pent21-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 4\u00aa semana ap\u00f3s a Epifania",
+            title: "S\u00e1bado da 21\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
-        celebration: [],
+        celebration: [
+          {
+            id: "commune:C10t:0:w",
+            rank: 0,
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
+            colors: ["w"],
+          },
+        ],
         commemoration: [
           {
             id: "sancti:11-08r:4:r",
@@ -6062,12 +5956,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-11-09": {
+      "2025-11-09": {
         tempora: [
           {
-            id: "tempora:Epi4-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 4\u00aa semana ap\u00f3s a Epifania",
+            id: "tempora:Pent22-0:2:g",
+            rank: 2,
+            title: "22\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6079,40 +5973,40 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            id: "tempora:Pent22-0:2:g",
+            rank: 2,
+            title: "22\u00ba Domingo depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
       },
-      "2024-11-10": {
+      "2025-11-10": {
         tempora: [
           {
-            id: "tempora:Epi5-0:2:g",
-            rank: 2,
-            title: "5\u00ba Domingo ap\u00f3s a Epifania",
+            id: "tempora:Pent22-1:4:g",
+            rank: 4,
+            title: "Segunda-feira da 22\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Epi5-0:2:g",
-            rank: 2,
-            title: "5\u00ba Domingo ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        commemoration: [
-          {
-            colors: ["w"],
             id: "sancti:11-10:3:w",
             rank: 3,
-            title: "S. André de Avelino, Confessor",
+            title: "S. Andr\u00e9 de Avelino, Confessor",
+            colors: ["w"],
           },
         ],
+        commemoration: [],
       },
-      "2024-11-11": {
+      "2025-11-11": {
         tempora: [
           {
-            id: "tempora:Epi5-1:4:g",
+            id: "tempora:Pent22-2:4:g",
             rank: 4,
-            title: "Segunda-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            title: "Ter\u00e7a-feira da 22\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6126,12 +6020,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-12": {
+      "2025-11-12": {
         tempora: [
           {
-            id: "tempora:Epi5-2:4:g",
+            id: "tempora:Pent22-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            title: "Quarta-feira da 22\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6145,12 +6039,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-13": {
+      "2025-11-13": {
         tempora: [
           {
-            id: "tempora:Epi5-3:4:g",
+            id: "tempora:Pent22-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            title: "Quinta-feira da 22\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6164,12 +6058,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-11-14": {
+      "2025-11-14": {
         tempora: [
           {
-            id: "tempora:Epi5-4:4:g",
+            id: "tempora:Pent22-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            title: "Sexta-feira da 22\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6183,12 +6077,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-15": {
+      "2025-11-15": {
         tempora: [
           {
-            id: "tempora:Epi5-5:4:g",
+            id: "tempora:Pent22-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 5\u00aa semana ap\u00f3s a Epifania",
+            title: "S\u00e1bado da 22\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6202,57 +6096,57 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-16": {
+      "2025-11-16": {
         tempora: [
           {
-            id: "tempora:Epi5-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 5\u00aa semana ap\u00f3s a Epifania",
+            id: "tempora:Pent23-0:2:g",
+            rank: 2,
+            title: "23\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         celebration: [
           {
-            id: "sancti:11-16:3:w",
-            rank: 3,
-            title: "S. Gertrudes, Virgem",
-            colors: ["w"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-11-17": {
-        tempora: [
-          {
-            id: "tempora:Epi6-0:2:g",
+            id: "tempora:Pent23-0:2:g",
             rank: 2,
-            title: "6\u00ba Domingo ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Epi6-0:2:g",
-            rank: 2,
-            title: "6\u00ba Domingo ap\u00f3s a Epifania",
+            title: "23\u00ba Domingo depois de Pentecostes",
             colors: ["g"],
           },
         ],
         commemoration: [
           {
             colors: ["w"],
-            id: "sancti:11-17:3:w",
+            id: "sancti:11-16:3:w",
             rank: 3,
-            title: "S. Gregório Taumaturgo, Bispo e Confessor",
+            title: "S. Gertrudes, Virgem",
           },
         ],
       },
-      "2024-11-18": {
+      "2025-11-17": {
         tempora: [
           {
-            id: "tempora:Epi6-1:4:g",
+            id: "tempora:Pent23-1:4:g",
             rank: 4,
-            title: "Segunda-feira da 6\u00aa semana ap\u00f3s a Epifania",
+            title: "Segunda-feira da 23\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:11-17:3:w",
+            rank: 3,
+            title: "S. Greg\u00f3rio Taumaturgo, Bispo e Confessor",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-11-18": {
+        tempora: [
+          {
+            id: "tempora:Pent23-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 23\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6266,12 +6160,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-19": {
+      "2025-11-19": {
         tempora: [
           {
-            id: "tempora:Epi6-2:4:g",
+            id: "tempora:Pent23-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 6\u00aa semana ap\u00f3s a Epifania",
+            title: "Quarta-feira da 23\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6285,12 +6179,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-20": {
+      "2025-11-20": {
         tempora: [
           {
-            id: "tempora:Epi6-3:4:g",
+            id: "tempora:Pent23-4:4:g",
             rank: 4,
-            title: "Quarta-feira da 6\u00aa semana ap\u00f3s a Epifania",
+            title: "Quinta-feira da 23\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6304,12 +6198,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-21": {
+      "2025-11-21": {
         tempora: [
           {
-            id: "tempora:Epi6-4:4:g",
+            id: "tempora:Pent23-5:4:g",
             rank: 4,
-            title: "Quinta-feira da 6\u00aa semana ap\u00f3s a Epifania",
+            title: "Sexta-feira da 23\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6323,12 +6217,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-22": {
+      "2025-11-22": {
         tempora: [
           {
-            id: "tempora:Epi6-5:4:g",
+            id: "tempora:Pent23-6:4:g",
             rank: 4,
-            title: "Sexta-feira da 6\u00aa semana ap\u00f3s a Epifania",
+            title: "S\u00e1bado da 23\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6342,26 +6236,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-23": {
-        tempora: [
-          {
-            id: "tempora:Epi6-6:4:g",
-            rank: 4,
-            title: "S\u00e1bado da 6\u00aa semana ap\u00f3s a Epifania",
-            colors: ["g"],
-          },
-        ],
-        celebration: [
-          {
-            id: "sancti:11-23:3:r",
-            rank: 3,
-            title: "S. Clemente I, Papa e M\u00e1rtir",
-            colors: ["r"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-11-24": {
+      "2025-11-23": {
         tempora: [
           {
             id: "tempora:Pent24-0:2:g",
@@ -6380,19 +6255,38 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            colors: ["w"],
-            id: "sancti:11-24:3:w",
+            colors: ["r"],
+            id: "sancti:11-23:3:r",
             rank: 3,
-            title: "S. João da Cruz, Confessor e Doutor da Igreja",
+            title: "S. Clemente I, Papa e Mártir",
           },
         ],
       },
-      "2024-11-25": {
+      "2025-11-24": {
         tempora: [
           {
             id: "tempora:Pent24-1:4:g",
             rank: 4,
             title: "Segunda-feira da 24\u00aa semana depois de Pentecostes",
+            colors: ["g"],
+          },
+        ],
+        celebration: [
+          {
+            id: "sancti:11-24:3:w",
+            rank: 3,
+            title: "S. Jo\u00e3o da Cruz, Confessor e Doutor da Igreja",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-11-25": {
+        tempora: [
+          {
+            id: "tempora:Pent24-2:4:g",
+            rank: 4,
+            title: "Ter\u00e7a-feira da 24\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6406,12 +6300,12 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-26": {
+      "2025-11-26": {
         tempora: [
           {
-            id: "tempora:Pent24-2:4:g",
+            id: "tempora:Pent24-3:4:g",
             rank: 4,
-            title: "Ter\u00e7a-feira da 24\u00aa semana depois de Pentecostes",
+            title: "Quarta-feira da 24\u00aa semana depois de Pentecostes",
             colors: ["g"],
           },
         ],
@@ -6425,19 +6319,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-11-27": {
-        tempora: [
-          {
-            id: "tempora:Pent24-3:4:g",
-            rank: 4,
-            title: "Quarta-feira da 24\u00aa semana depois de Pentecostes",
-            colors: ["g"],
-          },
-        ],
-        celebration: [],
-        commemoration: [],
-      },
-      "2024-11-28": {
+      "2025-11-27": {
         tempora: [
           {
             id: "tempora:Pent24-4:4:g",
@@ -6449,7 +6331,7 @@ describe("calendar", () => {
         celebration: [],
         commemoration: [],
       },
-      "2024-11-29": {
+      "2025-11-28": {
         tempora: [
           {
             id: "tempora:Pent24-5:4:g",
@@ -6459,16 +6341,9 @@ describe("calendar", () => {
           },
         ],
         celebration: [],
-        commemoration: [
-          {
-            id: "sancti:11-29r:4:r",
-            rank: 4,
-            title: "S. Saturnino, M\u00e1rtir",
-            colors: ["r"],
-          },
-        ],
+        commemoration: [],
       },
-      "2024-11-30": {
+      "2025-11-29": {
         tempora: [
           {
             id: "tempora:Pent24-6:4:g",
@@ -6479,15 +6354,22 @@ describe("calendar", () => {
         ],
         celebration: [
           {
-            id: "sancti:11-30:2:r",
-            rank: 2,
-            title: "S. Andr\u00e9, Ap\u00f3stolo",
+            id: "commune:C10t:0:w",
+            rank: 0,
+            title: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
+            colors: ["w"],
+          },
+        ],
+        commemoration: [
+          {
+            id: "sancti:11-29r:4:r",
+            rank: 4,
+            title: "S. Saturnino, M\u00e1rtir",
             colors: ["r"],
           },
         ],
-        commemoration: [],
       },
-      "2024-12-01": {
+      "2025-11-30": {
         tempora: [
           {
             id: "tempora:Adv1-0:1:v",
@@ -6506,12 +6388,38 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-02": {
+      "2025-12-01": {
         tempora: [
           {
             id: "tempora:Adv1-1:3:v",
             rank: 3,
             title: "Segunda-feira da 1\u00aa semana do Advento",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            colors: ["r"],
+            id: "sancti:11-30:2:r",
+            rank: 2,
+            title: "S. André, Apóstolo",
+          },
+        ],
+        commemoration: [
+          {
+            id: "tempora:Adv1-1:3:v",
+            rank: 3,
+            title: "Segunda-feira da 1\u00aa semana do Advento",
+            colors: ["v"],
+          },
+        ],
+      },
+      "2025-12-02": {
+        tempora: [
+          {
+            id: "tempora:Adv1-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6525,19 +6433,19 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "tempora:Adv1-1:3:v",
+            id: "tempora:Adv1-2:3:v",
             rank: 3,
-            title: "Segunda-feira da 1\u00aa semana do Advento",
+            title: "Ter\u00e7a-feira da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
       },
-      "2024-12-03": {
+      "2025-12-03": {
         tempora: [
           {
-            id: "tempora:Adv1-2:3:v",
+            id: "tempora:Adv1-3:3:v",
             rank: 3,
-            title: "Ter\u00e7a-feira da 1\u00aa semana do Advento",
+            title: "Quarta-feira da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6551,19 +6459,19 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "tempora:Adv1-2:3:v",
+            id: "tempora:Adv1-3:3:v",
             rank: 3,
-            title: "Ter\u00e7a-feira da 1\u00aa semana do Advento",
+            title: "Quarta-feira da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
       },
-      "2024-12-04": {
+      "2025-12-04": {
         tempora: [
           {
-            id: "tempora:Adv1-3:3:v",
+            id: "tempora:Adv1-4:3:v",
             rank: 3,
-            title: "Quarta-feira da 1\u00aa semana do Advento",
+            title: "Quinta-feira da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6578,27 +6486,27 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "tempora:Adv1-3:3:v",
+            id: "tempora:Adv1-4:3:v",
             rank: 3,
-            title: "Quarta-feira da 1\u00aa semana do Advento",
+            title: "Quinta-feira da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
       },
-      "2024-12-05": {
+      "2025-12-05": {
         tempora: [
           {
-            id: "tempora:Adv1-4:3:v",
+            id: "tempora:Adv1-5:3:v",
             rank: 3,
-            title: "Quinta-feira da 1\u00aa semana do Advento",
+            title: "Sexta-feira da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Adv1-4:3:v",
+            id: "tempora:Adv1-5:3:v",
             rank: 3,
-            title: "Quinta-feira da 1\u00aa semana do Advento",
+            title: "Sexta-feira da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6611,12 +6519,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-12-06": {
+      "2025-12-06": {
         tempora: [
           {
-            id: "tempora:Adv1-5:3:v",
+            id: "tempora:Adv1-6:3:v",
             rank: 3,
-            title: "Sexta-feira da 1\u00aa semana do Advento",
+            title: "S\u00e1bado da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6630,23 +6538,31 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "tempora:Adv1-5:3:v",
-            rank: 3,
-            title: "Sexta-feira da 1\u00aa semana do Advento",
-            colors: ["v"],
-          },
-        ],
-      },
-      "2024-12-07": {
-        tempora: [
-          {
             id: "tempora:Adv1-6:3:v",
             rank: 3,
             title: "S\u00e1bado da 1\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
+      },
+      "2025-12-07": {
+        tempora: [
+          {
+            id: "tempora:Adv2-0:1:v",
+            rank: 1,
+            title: "2\u00ba Domingo do Advento",
+            colors: ["v"],
+          },
+        ],
         celebration: [
+          {
+            id: "tempora:Adv2-0:1:v",
+            rank: 1,
+            title: "2\u00ba Domingo do Advento",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [
           {
             id: "sancti:12-07:3:w",
             rank: 3,
@@ -6654,21 +6570,13 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [
-          {
-            id: "tempora:Adv1-6:3:v",
-            rank: 3,
-            title: "S\u00e1bado da 1\u00aa semana do Advento",
-            colors: ["v"],
-          },
-        ],
       },
-      "2024-12-08": {
+      "2025-12-08": {
         tempora: [
           {
-            id: "tempora:Adv2-0:1:v",
-            rank: 1,
-            title: "2\u00ba Domingo do Advento",
+            id: "tempora:Adv2-1:3:v",
+            rank: 3,
+            title: "Segunda-feira da 2\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6680,48 +6588,41 @@ describe("calendar", () => {
             colors: ["w"],
           },
         ],
-        commemoration: [
-          {
-            id: "tempora:Adv2-0:1:v",
-            rank: 1,
-            title: "2\u00ba Domingo do Advento",
-            colors: ["v"],
-          },
-        ],
+        commemoration: [],
       },
-      "2024-12-09": {
+      "2025-12-09": {
         tempora: [
           {
-            id: "tempora:Adv2-1:3:v",
+            id: "tempora:Adv2-2:3:v",
             rank: 3,
-            title: "Segunda-feira da 2\u00aa semana do Advento",
+            title: "Ter\u00e7a-feira da 2\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Adv2-1:3:v",
+            id: "tempora:Adv2-2:3:v",
             rank: 3,
-            title: "Segunda-feira da 2\u00aa semana do Advento",
+            title: "Ter\u00e7a-feira da 2\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-12-10": {
+      "2025-12-10": {
         tempora: [
           {
-            id: "tempora:Adv2-2:3:v",
+            id: "tempora:Adv2-3:3:v",
             rank: 3,
-            title: "Ter\u00e7a-feira da 2\u00aa semana do Advento",
+            title: "Quarta-feira da 2\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Adv2-2:3:v",
+            id: "tempora:Adv2-3:3:v",
             rank: 3,
-            title: "Ter\u00e7a-feira da 2\u00aa semana do Advento",
+            title: "Quarta-feira da 2\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6734,12 +6635,12 @@ describe("calendar", () => {
           },
         ],
       },
-      "2024-12-11": {
+      "2025-12-11": {
         tempora: [
           {
-            id: "tempora:Adv2-3:3:v",
+            id: "tempora:Adv2-4:3:v",
             rank: 3,
-            title: "Quarta-feira da 2\u00aa semana do Advento",
+            title: "Quinta-feira da 2\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6753,38 +6654,38 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "tempora:Adv2-3:3:v",
-            rank: 3,
-            title: "Quarta-feira da 2\u00aa semana do Advento",
-            colors: ["v"],
-          },
-        ],
-      },
-      "2024-12-12": {
-        tempora: [
-          {
             id: "tempora:Adv2-4:3:v",
             rank: 3,
             title: "Quinta-feira da 2\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
-        celebration: [
-          {
-            id: "tempora:Adv2-4:3:v",
-            rank: 3,
-            title: "Quinta-feira da 2\u00aa semana do Advento",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
       },
-      "2024-12-13": {
+      "2025-12-12": {
         tempora: [
           {
             id: "tempora:Adv2-5:3:v",
             rank: 3,
             title: "Sexta-feira da 2\u00aa semana do Advento",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Adv2-5:3:v",
+            rank: 3,
+            title: "Sexta-feira da 2\u00aa semana do Advento",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-12-13": {
+        tempora: [
+          {
+            id: "tempora:Adv2-6:3:v",
+            rank: 3,
+            title: "S\u00e1bado da 2\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6798,33 +6699,14 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "tempora:Adv2-5:3:v",
-            rank: 3,
-            title: "Sexta-feira da 2\u00aa semana do Advento",
-            colors: ["v"],
-          },
-        ],
-      },
-      "2024-12-14": {
-        tempora: [
-          {
             id: "tempora:Adv2-6:3:v",
             rank: 3,
             title: "S\u00e1bado da 2\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
-        celebration: [
-          {
-            id: "tempora:Adv2-6:3:v",
-            rank: 3,
-            title: "S\u00e1bado da 2\u00aa semana do Advento",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
       },
-      "2024-12-15": {
+      "2025-12-14": {
         tempora: [
           {
             id: "tempora:Adv3-0:1:v",
@@ -6843,12 +6725,31 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-16": {
+      "2025-12-15": {
         tempora: [
           {
             id: "tempora:Adv3-1:3:v",
             rank: 3,
             title: "Segunda-feira da 3\u00aa semana do Advento",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Adv3-1:3:v",
+            rank: 3,
+            title: "Segunda-feira da 3\u00aa semana do Advento",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-12-16": {
+        tempora: [
+          {
+            id: "tempora:Adv3-2:3:v",
+            rank: 3,
+            title: "Ter\u00e7a-feira da 3\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
@@ -6862,33 +6763,14 @@ describe("calendar", () => {
         ],
         commemoration: [
           {
-            id: "tempora:Adv3-1:3:v",
+            id: "tempora:Adv3-2:3:v",
             rank: 3,
-            title: "Segunda-feira da 3\u00aa semana do Advento",
-            colors: ["v"],
-          },
-        ],
-      },
-      "2024-12-17": {
-        tempora: [
-          {
-            id: "tempora:Adv3-2:2:v",
-            rank: 2,
             title: "Ter\u00e7a-feira da 3\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
-        celebration: [
-          {
-            id: "tempora:Adv3-2:2:v",
-            rank: 2,
-            title: "Ter\u00e7a-feira da 3\u00aa semana do Advento",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
       },
-      "2024-12-18": {
+      "2025-12-17": {
         tempora: [
           {
             id: "tempora:Adv3-3:2:v",
@@ -6907,7 +6789,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-19": {
+      "2025-12-18": {
         tempora: [
           {
             id: "tempora:Adv3-4:2:v",
@@ -6926,7 +6808,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-20": {
+      "2025-12-19": {
         tempora: [
           {
             id: "tempora:Adv3-5:2:v",
@@ -6945,7 +6827,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-21": {
+      "2025-12-20": {
         tempora: [
           {
             id: "tempora:Adv3-6:2:v",
@@ -6956,60 +6838,79 @@ describe("calendar", () => {
         ],
         celebration: [
           {
+            id: "tempora:Adv3-6:2:v",
+            rank: 2,
+            title: "S\u00e1bado das T\u00eamporas de Inverno",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-12-21": {
+        tempora: [
+          {
+            id: "tempora:Adv4-0:1:v",
+            rank: 1,
+            title: "4\u00ba Domingo do Advento",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            id: "tempora:Adv4-0:1:v",
+            rank: 1,
+            title: "4\u00ba Domingo do Advento",
+            colors: ["v"],
+          },
+        ],
+        commemoration: [],
+      },
+      "2025-12-22": {
+        tempora: [
+          {
+            id: "tempora:Adv4-1:2:v",
+            rank: 2,
+            title: "Segunda-feira da 4\u00aa semana do Advento",
+            colors: ["v"],
+          },
+        ],
+        celebration: [
+          {
+            colors: ["r"],
             id: "sancti:12-21:2:r",
             rank: 2,
-            title: "S. Tom\u00e9, Ap\u00f3stolo",
-            colors: ["r"],
+            title: "S. Tomé, Apóstolo",
           },
         ],
         commemoration: [
           {
-            id: "tempora:Adv3-6:2:v",
-            rank: 2,
-            title: "S\u00e1bado das T\u00eamporas de Inverno",
-            colors: ["v"],
-          },
-        ],
-      },
-      "2024-12-22": {
-        tempora: [
-          {
-            id: "tempora:Adv4-0:1:v",
-            rank: 1,
-            title: "4\u00ba Domingo do Advento",
-            colors: ["v"],
-          },
-        ],
-        celebration: [
-          {
-            id: "tempora:Adv4-0:1:v",
-            rank: 1,
-            title: "4\u00ba Domingo do Advento",
-            colors: ["v"],
-          },
-        ],
-        commemoration: [],
-      },
-      "2024-12-23": {
-        tempora: [
-          {
             id: "tempora:Adv4-1:2:v",
             rank: 2,
             title: "Segunda-feira da 4\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
+      },
+      "2025-12-23": {
+        tempora: [
+          {
+            id: "tempora:Adv4-2:2:v",
+            rank: 2,
+            title: "Ter\u00e7a-feira da 4\u00aa semana do Advento",
+            colors: ["v"],
+          },
+        ],
         celebration: [
           {
-            id: "tempora:Adv4-1:2:v",
+            id: "tempora:Adv4-2:2:v",
             rank: 2,
-            title: "Segunda-feira da 4\u00aa semana do Advento",
+            title: "Ter\u00e7a-feira da 4\u00aa semana do Advento",
             colors: ["v"],
           },
         ],
         commemoration: [],
       },
-      "2024-12-24": {
+      "2025-12-24": {
         tempora: [],
         celebration: [
           {
@@ -7021,7 +6922,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-25": {
+      "2025-12-25": {
         tempora: [],
         celebration: [
           {
@@ -7045,7 +6946,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-26": {
+      "2025-12-26": {
         tempora: [],
         celebration: [
           {
@@ -7057,7 +6958,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-27": {
+      "2025-12-27": {
         tempora: [],
         celebration: [
           {
@@ -7069,8 +6970,15 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-28": {
-        tempora: [],
+      "2025-12-28": {
+        tempora: [
+          {
+            id: "tempora:Nat1-0:2:w",
+            rank: 2,
+            title: "Domingo dentro do Oitav\u00e1rio do Natal",
+            colors: ["w"],
+          },
+        ],
         celebration: [
           {
             id: "sancti:12-28:2:r",
@@ -7079,28 +6987,42 @@ describe("calendar", () => {
             colors: ["r"],
           },
         ],
-        commemoration: [],
-      },
-      "2024-12-29": {
-        tempora: [
+        commemoration: [
           {
             id: "tempora:Nat1-0:2:w",
             rank: 2,
             title: "Domingo dentro do Oitav\u00e1rio do Natal",
+            colors: ["w"],
+          },
+        ],
+      },
+      "2025-12-29": {
+        tempora: [
+          {
+            id: "tempora:Nat1-1:2:w",
+            rank: 2,
+            title: "Feria na Oitav\u00e1ria do Natal",
             colors: ["w"],
           },
         ],
         celebration: [
           {
-            id: "tempora:Nat1-0:2:w",
+            id: "tempora:Nat1-1:2:w",
             rank: 2,
-            title: "Domingo dentro do Oitav\u00e1rio do Natal",
+            title: "Feria na Oitav\u00e1ria do Natal",
             colors: ["w"],
           },
         ],
-        commemoration: [],
+        commemoration: [
+          {
+            id: "sancti:12-29r:4:r",
+            rank: 4,
+            title: "S. Tom\u00e1s de Cantu\u00e1ria, Bispo e M\u00e1rtir",
+            colors: ["r"],
+          },
+        ],
       },
-      "2024-12-30": {
+      "2025-12-30": {
         tempora: [
           {
             id: "tempora:Nat1-1:2:w",
@@ -7119,7 +7041,7 @@ describe("calendar", () => {
         ],
         commemoration: [],
       },
-      "2024-12-31": {
+      "2025-12-31": {
         tempora: [
           {
             id: "tempora:Nat1-1:2:w",

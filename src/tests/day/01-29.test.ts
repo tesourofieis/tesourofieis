@@ -1,24 +1,48 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../lib/calendar";
-import { format_propers } from "../lib/utils";
+import { getDay } from "../../lib/getDay";
 
 test("2024-01-29", () => {
-  const calendar = new Calendar(2024);
+  const proper = getDay("2024-01-29");
 
-  const day = calendar.get("2024-01-29");
-
-  const proper = day?.getProper(calendar);
-
-  const formated = format_propers(proper);
-
-  expect(formated).toMatchObject([
+  expect(proper).toMatchObject([
     {
       info: {
         colors: ["w"],
-        date: undefined,
+        date: "2024-01-29",
+        day: {
+          celebration: [
+            {
+              colors: ["w"],
+              date: "2024-01-29",
+              flexibility: "sancti",
+              id: "sancti:01-29:3:w",
+              name: "01-29",
+              priority: 79,
+              rank: 3,
+              title:
+                "S. Francisco de Sales, Bispo, Confessor e Doutor da Igreja",
+              weekday: 1,
+            },
+          ],
+          commemoration: [],
+          date: "2024-01-29",
+          tempora: [
+            {
+              colors: ["v"],
+              date: "2024-01-29",
+              flexibility: "tempora",
+              id: "tempora:Quadp1-1:4:v",
+              name: "Quadp1-1",
+              priority: 80,
+              rank: 4,
+              title: "Segunda-feira da semana da Septuagésima",
+              weekday: 1,
+            },
+          ],
+        },
         id: "sancti:01-29:3:w",
         rank: 3,
-        tempora: undefined,
+        tempora: "Segunda-feira da semana da Septuagésima",
         title: "S. Francisco de Sales, Bispo, Confessor e Doutor da Igreja",
       },
       sections: [

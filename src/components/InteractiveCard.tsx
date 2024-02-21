@@ -11,10 +11,7 @@ import Notifications from "./Notifications";
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
   const [currentHour, setCurrentHour] = useState(getHours(date));
-  const calendar = getCalendarDay(
-    new Date(date).getFullYear(),
-    yyyyMMDD(new Date()),
-  );
+  const calendar = getCalendarDay(yyyyMMDD(new Date()));
   const currentPrayer = getPrayer(new Date());
 
   useEffect(() => {

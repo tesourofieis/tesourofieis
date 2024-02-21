@@ -1,26 +1,69 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../lib/calendar";
-import { format_propers } from "../lib/utils";
+import { getDay } from "../../lib/getDay";
 
 test("2024-11-02", () => {
-  const calendar = new Calendar(2024);
+  const proper = getDay("2024-11-02");
 
-  const day = calendar.get("2024-11-02");
-
-  const proper = day?.getProper(calendar);
-
-  const formated = format_propers(proper);
-
-  console.log(formated);
-
-  expect(formated).toMatchObject([
+  expect(proper).toMatchObject([
     {
       info: {
         colors: ["b"],
-        date: undefined,
+        date: "2024-11-02",
+        day: {
+          celebration: [
+            {
+              colors: ["b"],
+              date: "2024-11-02",
+              flexibility: "sancti",
+              id: "sancti:11-02m1:1:b",
+              name: "11-02m1",
+              priority: 25,
+              rank: 1,
+              title: "Comemoração dos Fiéis Defuntos, 1ª Missa",
+              weekday: 6,
+            },
+            {
+              colors: ["b"],
+              date: "2024-11-02",
+              flexibility: "sancti",
+              id: "sancti:11-02m2:1:b",
+              name: "11-02m2",
+              priority: 26,
+              rank: 1,
+              title: "Comemoração dos Fiéis Defuntos, 2ª Missa",
+              weekday: 6,
+            },
+            {
+              colors: ["b"],
+              date: "2024-11-02",
+              flexibility: "sancti",
+              id: "sancti:11-02m3:1:b",
+              name: "11-02m3",
+              priority: 27,
+              rank: 1,
+              title: "Comemoração dos Fiéis Defuntos, 3ª Missa",
+              weekday: 6,
+            },
+          ],
+          commemoration: [],
+          date: "2024-11-02",
+          tempora: [
+            {
+              colors: ["g"],
+              date: "2024-11-02",
+              flexibility: "tempora",
+              id: "tempora:Pent23-6:4:g",
+              name: "Pent23-6",
+              priority: 80,
+              rank: 4,
+              title: "Sábado da 23ª semana depois de Pentecostes",
+              weekday: 6,
+            },
+          ],
+        },
         id: "sancti:11-02m1:1:b",
         rank: 1,
-        tempora: undefined,
+        tempora: "Sábado da 23ª semana depois de Pentecostes",
         title: "Comemoração dos Fiéis Defuntos, 1ª Missa",
       },
       sections: [
@@ -451,10 +494,62 @@ test("2024-11-02", () => {
     {
       info: {
         colors: ["b"],
-        date: undefined,
+        date: "2024-11-02",
+        day: {
+          celebration: [
+            {
+              colors: ["b"],
+              date: "2024-11-02",
+              flexibility: "sancti",
+              id: "sancti:11-02m1:1:b",
+              name: "11-02m1",
+              priority: 25,
+              rank: 1,
+              title: "Comemoração dos Fiéis Defuntos, 1ª Missa",
+              weekday: 6,
+            },
+            {
+              colors: ["b"],
+              date: "2024-11-02",
+              flexibility: "sancti",
+              id: "sancti:11-02m2:1:b",
+              name: "11-02m2",
+              priority: 26,
+              rank: 1,
+              title: "Comemoração dos Fiéis Defuntos, 2ª Missa",
+              weekday: 6,
+            },
+            {
+              colors: ["b"],
+              date: "2024-11-02",
+              flexibility: "sancti",
+              id: "sancti:11-02m3:1:b",
+              name: "11-02m3",
+              priority: 27,
+              rank: 1,
+              title: "Comemoração dos Fiéis Defuntos, 3ª Missa",
+              weekday: 6,
+            },
+          ],
+          commemoration: [],
+          date: "2024-11-02",
+          tempora: [
+            {
+              colors: ["g"],
+              date: "2024-11-02",
+              flexibility: "tempora",
+              id: "tempora:Pent23-6:4:g",
+              name: "Pent23-6",
+              priority: 80,
+              rank: 4,
+              title: "Sábado da 23ª semana depois de Pentecostes",
+              weekday: 6,
+            },
+          ],
+        },
         id: "sancti:11-02m2:1:b",
         rank: 1,
-        tempora: undefined,
+        tempora: "Sábado da 23ª semana depois de Pentecostes",
         title: "Comemoração dos Fiéis Defuntos, 2ª Missa",
       },
       sections: [
@@ -887,10 +982,62 @@ test("2024-11-02", () => {
     {
       info: {
         colors: ["b"],
-        date: undefined,
+        date: "2024-11-02",
+        day: {
+          celebration: [
+            {
+              colors: ["b"],
+              date: "2024-11-02",
+              flexibility: "sancti",
+              id: "sancti:11-02m1:1:b",
+              name: "11-02m1",
+              priority: 25,
+              rank: 1,
+              title: "Comemoração dos Fiéis Defuntos, 1ª Missa",
+              weekday: 6,
+            },
+            {
+              colors: ["b"],
+              date: "2024-11-02",
+              flexibility: "sancti",
+              id: "sancti:11-02m2:1:b",
+              name: "11-02m2",
+              priority: 26,
+              rank: 1,
+              title: "Comemoração dos Fiéis Defuntos, 2ª Missa",
+              weekday: 6,
+            },
+            {
+              colors: ["b"],
+              date: "2024-11-02",
+              flexibility: "sancti",
+              id: "sancti:11-02m3:1:b",
+              name: "11-02m3",
+              priority: 27,
+              rank: 1,
+              title: "Comemoração dos Fiéis Defuntos, 3ª Missa",
+              weekday: 6,
+            },
+          ],
+          commemoration: [],
+          date: "2024-11-02",
+          tempora: [
+            {
+              colors: ["g"],
+              date: "2024-11-02",
+              flexibility: "tempora",
+              id: "tempora:Pent23-6:4:g",
+              name: "Pent23-6",
+              priority: 80,
+              rank: 4,
+              title: "Sábado da 23ª semana depois de Pentecostes",
+              weekday: 6,
+            },
+          ],
+        },
         id: "sancti:11-02m3:1:b",
         rank: 1,
-        tempora: undefined,
+        tempora: "Sábado da 23ª semana depois de Pentecostes",
         title: "Comemoração dos Fiéis Defuntos, 3ª Missa",
       },
       sections: [

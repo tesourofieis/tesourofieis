@@ -78,6 +78,7 @@ export interface ProperDay {
     rank: number;
     colors: string[];
     date: string;
+    day: Day;
   };
   sections: Section[];
 }
@@ -104,11 +105,12 @@ function format_propers(
 
     const info = {
       id: propersVernacular.id,
-      title: title,
+      title: title || "Feria",
       tempora: temporaName !== title ? temporaName : null,
       rank: propersVernacular.rank,
       colors: propersVernacular.colors,
       date: day?.date,
+      day: day,
     };
 
     return {
