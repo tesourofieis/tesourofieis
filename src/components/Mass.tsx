@@ -5,6 +5,7 @@ import { Calendar } from "../lib/calendar";
 import { VISIBLE_SECTIONS } from "../lib/constants";
 import Loading from "./Loading";
 import { SideCalendar, getColor } from "./SideCalendar";
+import { Icon } from "@iconify-icon/react/dist/iconify.js";
 
 export default function Mass() {
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
@@ -12,6 +13,8 @@ export default function Mass() {
   const [activeTab, setActiveTab] = useState(0);
 
   const [calendar, setCalendar] = useState<Calendar["serialize"]>();
+
+  const [info, setInfo] = useState<ProperDay["info"]>();
 
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(true);
 
@@ -28,6 +31,7 @@ export default function Mass() {
         const result = await response.json();
         setCalendar(result.calendar);
         setProper(result.proper);
+        setInfo(result.proper[0].info);
       } catch (error) {
         setError(true);
       }
@@ -80,39 +84,36 @@ export default function Mass() {
             </div>
           )}
 
+          {info && (
+            <div>
+              {info.day.celebration.length || info.day.tempora.length ? (
+                <h1 className="text-center">{info.title}</h1>
+              ) : (
+                <h1 className="text-center">Feria</h1>
+              )}
+
+              <h6 className="text-center">
+                {info.day.commemoration[0]?.title}
+              </h6>
+              <div className="flex items-center gap-2 font-sm justify-center">
+                {info.tempora && info.tempora}
+                <Icon icon="mdi:calendar" /> {info.date}
+                <Icon icon="mdi:clothes-hanger" />
+                <div
+                  className={`h-3 w-3 rounded-full ${getColor(info.colors[0])}`}
+                />
+                Classe {info.rank}
+              </div>
+            </div>
+          )}
+
           <div>
             {proper.map((sections, index) => (
               <div
                 key={index}
                 className={`${index === activeTab ? "" : "hidden"}`}
               >
-                <div className="flex items-center justify-center mb-2">
-                  {Object.entries(calendar).map(
-                    ([calendarDate, celebrations]) => (
-                      <>
-                        {calendarDate === date && (
-                          <>
-                            <div
-                              className={`h-16 w-2 mr-5 rounded-full ${getColor(
-                                celebrations.celebration[0] ||
-                                  celebrations.tempora[0]?.colors,
-                              )} text-left`}
-                            />
-                            <div>
-                              <h1 className="text-center">
-                                {celebrations.celebration[0]?.title ||
-                                  celebrations.tempora[0]?.title ||
-                                  celebrations.commemoration[0]?.title ||
-                                  "Feria"}
-                              </h1>
-                              <p>{celebrations.commemoration[0]?.title}</p>
-                            </div>
-                          </>
-                        )}
-                      </>
-                    ),
-                  )}
-                </div>
+                <div className="flex items-center justify-center mb-2"></div>
                 {sections.sections
                   .filter(({ id }) => VISIBLE_SECTIONS.includes(id))
                   .map((section, sectionIndex) => (
