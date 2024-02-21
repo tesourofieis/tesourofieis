@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Calendar } from "../lib/calendar";
 import { VISIBLE_SECTIONS } from "../lib/constants";
 import Loading from "./Loading";
-import { SideCalendar } from "./SideCalendar";
+import { SideCalendar, getColor } from "./SideCalendar";
 
 export default function Mass() {
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
@@ -66,7 +66,7 @@ export default function Mass() {
         <div
           className={`not-content mr-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
         >
-          {proper.length > 0 && (
+          {proper.length > 1 && (
             <div className="flex mb-4 justify-center">
               {proper.map((sections, index) => (
                 <button
@@ -86,6 +86,16 @@ export default function Mass() {
                 key={index}
                 className={`${index === activeTab ? "" : "hidden"}`}
               >
+                <div className="flex items-center justify-center mb-2">
+                  <div
+                    className={`h-16 w-2 mr-5 rounded-full ${getColor(
+                      sections.info.colors[0],
+                    )} text-left`}
+                  />
+                  <h1 className="text-center">
+                    {sections.info?.title || sections.info.tempora || "Feria"}
+                  </h1>
+                </div>
                 {sections.sections
                   .filter(({ id }) => VISIBLE_SECTIONS.includes(id))
                   .map((section, sectionIndex) => (
