@@ -88,7 +88,7 @@ test("2024-12-25", () => {
           body: {
             latin: undefined,
             vernacular: [
-              "## 25 XII – Primeira Missa, à meia-noite de Natal de N. S. Jesus Cristo",
+              "## 25 XII – Natal de N. S. Jesus Cristo — Primeira Missa: à meia-noite",
               "Estação em Santa Maria Maior, no Presépio",
               "1 classe",
               "Paramentos brancos",
@@ -354,7 +354,7 @@ test("2024-12-25", () => {
           body: {
             latin: undefined,
             vernacular: [
-              "## 25 XII – Segunda Missa, ao romper da aurora do Natal de N. S. Jesus Cristo",
+              "## 25 XII – Natal de N. S. Jesus Cristo — Segunda Missa: ao romper da aurora",
               "Estação em Santa Anastácia",
               "1 classe",
               "Paramentos brancos",
@@ -665,7 +665,7 @@ test("2024-12-25", () => {
           body: {
             latin: undefined,
             vernacular: [
-              "## 25 XII – Terceira Missa, no dia da Festa Natal de N. S. Jesus Cristo",
+              "## 25 XII – Natal de N. S. Jesus Cristo — Terceira Missa: no dia da Festa",
               "Estação em Santa Maria Maior",
               "1 classe",
               "Paramentos brancos",
@@ -687,7 +687,6 @@ test("2024-12-25", () => {
               "Continuação ☩ do santo Evangelho segundo S. Mateus.",
               "Mt. 2:19-23",
               "Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes, eis que vieram a Jerusalém os Magos do Oriente, dizendo: «Onde está o Rei dos Judeus, que acaba de nascer? Pois vimos a sua estrela no Oriente e viemos adorá-l’O». Logo que o rei Herodes ouviu esta notícia, ficou perturbado, assim como toda a gente de Jerusalém, convocando logo todos os príncipes dos sacerdotes e os escribas do povo, para saber deles onde deveria nascer Cristo. Responderam-lhe eles: «Em Belém, de Judá, pois está escrito pelo Profeta: «E tu, Belém, terra de Judá, não serás certamente a menos importante entre as terras principais de Judá, pois em ti nascerá o Rei, que governará o meu povo de Israel». Então Herodes mandou chamar em segredo os Magos, informando-se com eles diligentemente acerca do tempo em que a estrela havia aparecido. E enviando-os a Belém, disse-lhes: «Ide, procurai diligentemente o Menino, e, logo que O houverdes achado, avisai-me, para que eu vá, também, adorá-l’O». Os Magos, tendo ouvido estas palavras, partiram. Ora, a estrela, que tinham visto no Oriente ia adiante deles, até que, chegando ao lugar onde estava o Menino, parou. Quando os Magos viram a estrela, alegraram-se muito. Entrando, então, na casa, encontraram o Menino com Maria, sua mãe; e, de joelhos, O adoraram. (Todos devem ajoelhar) E, tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro, incenso e mirra. Depois, havendo tido aviso em sonhos de que não deveriam voltar a encontrar Herodes, retiraram-se por outro caminho para o seu país.",
-              "",
             ],
           },
           id: "Ultima Evangelium",
