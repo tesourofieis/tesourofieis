@@ -1,7 +1,6 @@
 import type { ProperDay } from "../lib/utils";
 import { yyyyMMDD } from "../lib/utils";
 import { useEffect, useState } from "react";
-import { Calendar } from "../lib/calendar";
 import { VISIBLE_SECTIONS } from "../lib/constants";
 import Loading from "./Loading";
 import { SideCalendar, getColor } from "./SideCalendar";
@@ -11,8 +10,6 @@ export default function Mass() {
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
   const [error, setError] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState(0);
-
-  const [calendar, setCalendar] = useState<Calendar["serialize"]>();
 
   const [info, setInfo] = useState<ProperDay["info"]>();
 
@@ -29,7 +26,6 @@ export default function Mass() {
       try {
         const response = await fetch(`/api/missal/dia/${date}.json`);
         const result = await response.json();
-        setCalendar(result.calendar);
         setProper(result.proper);
         setInfo(result.proper[0].info);
       } catch (error) {
@@ -39,6 +35,12 @@ export default function Mass() {
     fetchData();
   }, [date]);
 
+  useEffect(() => {
+    if (proper) {
+      setInfo(proper[activeTab].info);
+    }
+  }, [activeTab]);
+
   if (error)
     return (
       <div>
@@ -47,7 +49,7 @@ export default function Mass() {
       </div>
     );
 
-  if (!calendar)
+  if (!proper)
     return (
       <div className="mt-2 flex flex-col justify-center items-center">
         <p> A gerar...</p>
@@ -57,15 +59,12 @@ export default function Mass() {
 
   return (
     <>
-      {calendar && (
-        <SideCalendar
-          calendar={calendar}
-          isSidebarCollapsed={isSidebarCollapsed}
-          toggleSidebar={toggleSidebar}
-          date={date}
-          setDate={setDate}
-        />
-      )}
+      <SideCalendar
+        isSidebarCollapsed={isSidebarCollapsed}
+        toggleSidebar={toggleSidebar}
+        date={date}
+        setDate={setDate}
+      />
       {proper && (
         <div
           className={`not-content mr-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
@@ -84,7 +83,7 @@ export default function Mass() {
             </div>
           )}
 
-          {info && (
+          {info?.day && (
             <div>
               {info.day.celebration.length || info.day.tempora.length ? (
                 <h1 className="text-center">{info.title}</h1>

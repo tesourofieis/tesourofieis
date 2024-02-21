@@ -91,31 +91,26 @@ interface Section {
   };
 }
 
-function format_propers(
-  propers: Proper[][] | Proper[],
-  day?: Day,
-): ProperDay[] {
-  return (propers as Proper[][]).map((pairOrSingle) => {
-    const [propersVernacular, propersLatin] = Array.isArray(pairOrSingle)
-      ? pairOrSingle
-      : [pairOrSingle];
+function format_propers(propers: Proper[][], day: Day): ProperDay[] {
+  return propers.map((proper) => {
+    const [properVernacular, properLatin] = proper;
 
-    const title = propersVernacular.title;
-    const temporaName = day?.getTemporaName();
+    const title = properVernacular.title;
+    const temporaName = day.getTemporaName();
 
     const info = {
-      id: propersVernacular.id,
+      id: properVernacular.id,
       title: title || "Feria",
       tempora: temporaName !== title ? temporaName : null,
-      rank: propersVernacular.rank,
-      colors: propersVernacular.colors,
-      date: day?.date,
+      rank: properVernacular.rank,
+      colors: properVernacular.colors,
+      date: day.date,
       day: day,
     };
 
     return {
       info: info,
-      sections: format_proper_section(propersLatin, propersVernacular),
+      sections: format_proper_section(properLatin, properVernacular),
     };
   });
 }

@@ -1,13 +1,14 @@
 import { useEffect, useRef } from "react";
-import type { Calendar } from "../lib/calendar";
 
 import { Icon } from "@iconify-icon/react";
 import { yyyyMMDD } from "../lib/utils";
+import { getYear } from "date-fns";
+import { getCalendar } from "../lib/getCalendar";
 
 export function getColor(color: string) {
   switch (color) {
     case "w":
-      return "bg-gray-500";
+      return "bg-white";
     case "r":
       return "bg-red-500";
     case "g":
@@ -22,18 +23,18 @@ export function getColor(color: string) {
 }
 
 export const SideCalendar = ({
-  calendar,
   isSidebarCollapsed,
   toggleSidebar,
   date,
   setDate,
 }: {
-  calendar: Calendar["serialize"];
   isSidebarCollapsed: boolean;
   toggleSidebar: () => void;
   date: string;
   setDate: (date: string) => void;
 }) => {
+  const calendar = getCalendar(getYear(new Date())).serialize();
+
   const calendarRef = useRef(null);
 
   const today = yyyyMMDD(new Date());
@@ -55,22 +56,32 @@ export const SideCalendar = ({
       {calendar && (
         <div
           ref={calendarRef}
-          className={`${isSidebarCollapsed ? "w-0" : "w-48"} border-4 border-sepia-200 dark:border-sepia-700 text-sm h-full divide-y divide-sepia-200 dark:divide-sepia-700 fixed left-0 top-10 overflow-y-auto not-content`}
+          className={`${isSidebarCollapsed ? "w-0" : "w-48"} text-sm h-full divide-y divide-sepia-200 dark:divide-sepia-700 fixed left-0 top-10 overflow-y-auto not-content`}
         >
           <button
             type="button"
-            className={`fixed flex bg-sepia-300 dark:bg-sepia-600 items-center justify-center h-16 w-8 ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2 translate-y-9`}
+            className={`fixed cursor-pointer flex bg-sepia-300 dark:bg-sepia-600 items-center justify-center h-16 w-8 ${isSidebarCollapsed ? "left-0" : "left-48"} top-1/2 translate-y-9`}
             onClick={toggleSidebar}
           >
             {isSidebarCollapsed ? (
-              <Icon icon="heroicons:chevron-right" className="text-xl" />
+              <Icon
+                icon="heroicons:chevron-right"
+                className="text-xl hover:text-2xl"
+              />
             ) : (
-              <Icon icon="heroicons:chevron-left" className="text-xl" />
+              <Icon
+                icon="heroicons:chevron-left"
+                className="text-xl hover:text-2xl"
+              />
             )}
           </button>
           {Object.entries(calendar).map(([calendarDate, celebrations]) => (
             <button
-              className={`flex flex-col w-full cursor-pointer bg-sepia-100 dark:bg-sepia-800 ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-600"} ${calendarDate === today && "bg-sepia-200 dark:bg-sepia-700"}`}
+              className={`flex flex-col w-full hover:bg-sepia-200 dark:hover:bg-sepia-900
+                cursor-pointer bg-sepia-100 dark:bg-sepia-800
+                ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-500"}
+                ${calendarDate === today && "bg-sepia-200 dark:bg-sepia-400"}
+              `}
               type="button"
               onClick={() => setDate(calendarDate)}
               data-date={calendarDate}
@@ -81,9 +92,9 @@ export const SideCalendar = ({
                   celebrations.commemoration[0]?.title ||
                   "Feria"}
               </p>
-              <em className="text-xs text-left">
+              <p className="text-xs text-left">
                 {celebrations.commemoration[0]?.title}
-              </em>
+              </p>
               <div className="flex items-center gap-2 font-sm justify-end">
                 <div
                   className={`h-2 w-2 rounded-full ${getColor(

@@ -3,11 +3,9 @@ import { getDay } from "../../../../lib/getDay";
 
 export const GET = ({ params }) => {
   const { date } = params;
-  const calendar = getCalendar(new Date(date).getFullYear());
   const proper = getDay(date);
   return new Response(
     JSON.stringify({
-      calendar: calendar.serialize(),
       proper: proper,
     }),
     {
