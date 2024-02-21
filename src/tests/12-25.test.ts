@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../src/lib/calendar";
-import { format_propers } from "../src/lib/utils";
+import { Calendar } from "../lib/calendar";
+import { format_propers } from "../lib/utils";
 
 test("2024-12-25", () => {
   const calendar = new Calendar(2024);
@@ -15,10 +15,8 @@ test("2024-12-25", () => {
     {
       info: {
         colors: ["w"],
-        date: null,
         id: "sancti:12-25m1:1:w",
         rank: 1,
-        tempora: null,
         title: "Missa da Noite de Natal de N. S. Jesus Cristo",
       },
       sections: [
@@ -238,10 +236,8 @@ test("2024-12-25", () => {
     {
       info: {
         colors: ["w"],
-        date: null,
         id: "sancti:12-25m2:1:w",
         rank: 1,
-        tempora: null,
         title: "Missa da Aurora de Natal de N. S. Jesus Cristo",
       },
       sections: [
@@ -513,10 +509,10 @@ test("2024-12-25", () => {
     {
       info: {
         colors: ["w"],
-        date: null,
+        date: undefined,
         id: "sancti:12-25m3:1:w",
         rank: 1,
-        tempora: null,
+        tempora: undefined,
         title: "Missa do Dia de Natal de N. S. Jesus Cristo",
       },
       sections: [

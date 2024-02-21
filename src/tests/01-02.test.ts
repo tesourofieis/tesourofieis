@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../src/lib/calendar";
-import { format_propers } from "../src/lib/utils";
+import { Calendar } from "../lib/calendar";
+import { format_propers } from "../lib/utils";
 
 test("2024-01-22", () => {
   const calendar = new Calendar(2024);
@@ -15,10 +15,10 @@ test("2024-01-22", () => {
     {
       info: {
         colors: ["r"],
-        date: null,
+        date: undefined,
         id: "sancti:01-22:3:r",
         rank: 3,
-        tempora: null,
+        tempora: undefined,
         title: "S.S. Vicente e Anastácio, Mártires",
       },
       sections: [

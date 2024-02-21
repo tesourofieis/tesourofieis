@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "prepare": "npx husky install",
-    "test": "vitest ./tests"
+    "test": "vitest ./src/tests"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",

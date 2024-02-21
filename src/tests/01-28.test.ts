@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../src/lib/calendar";
-import { format_propers } from "../src/lib/utils";
+import { Calendar } from "../lib/calendar";
+import { format_propers } from "../lib/utils";
 
 test("2024-01-28", () => {
   const calendar = new Calendar(2024);
@@ -17,10 +17,10 @@ test("2024-01-28", () => {
     {
       info: {
         colors: ["v"],
-        date: null,
+        date: undefined,
         id: "tempora:Quadp1-0:2:v",
         rank: 2,
-        tempora: null,
+        tempora: undefined,
         title: "Domingo da Septuagésima",
       },
       sections: [

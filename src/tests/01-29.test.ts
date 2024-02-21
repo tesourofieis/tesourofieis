@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../src/lib/calendar";
-import { format_propers } from "../src/lib/utils";
+import { Calendar } from "../lib/calendar";
+import { format_propers } from "../lib/utils";
 
 test("2024-01-29", () => {
   const calendar = new Calendar(2024);
@@ -11,16 +11,14 @@ test("2024-01-29", () => {
 
   const formated = format_propers(proper);
 
-  console.log(formated);
-
   expect(formated).toMatchObject([
     {
       info: {
         colors: ["w"],
-        date: null,
+        date: undefined,
         id: "sancti:01-29:3:w",
         rank: 3,
-        tempora: null,
+        tempora: undefined,
         title: "S. Francisco de Sales, Bispo, Confessor e Doutor da Igreja",
       },
       sections: [

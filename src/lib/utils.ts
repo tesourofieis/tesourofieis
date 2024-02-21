@@ -90,25 +90,30 @@ interface Section {
   };
 }
 
-function format_propers(propers: Proper[][], day?: Day): ProperDay[] {
-  return propers.map(([p]) => {
-    const [propers_vernacular, propers_latin] = p as unknown as Proper[];
-    console.debug(propers_latin, propers_vernacular);
-    const title = propers_vernacular.title;
-    const tempora_name = day ? day.getTemporaName() : null;
+function format_propers(
+  propers: Proper[][] | Proper[],
+  day?: Day,
+): ProperDay[] {
+  return (propers as Proper[][]).map((pairOrSingle) => {
+    const [propersVernacular, propersLatin] = Array.isArray(pairOrSingle)
+      ? pairOrSingle
+      : [pairOrSingle];
+
+    const title = propersVernacular.title;
+    const temporaName = day?.getTemporaName();
 
     const info = {
-      id: propers_vernacular.id,
+      id: propersVernacular.id,
       title: title,
-      tempora: tempora_name !== title ? tempora_name : null,
-      rank: propers_vernacular.rank,
-      colors: propers_vernacular.colors,
-      date: day ? day.date : null,
+      tempora: temporaName !== title ? temporaName : null,
+      rank: propersVernacular.rank,
+      colors: propersVernacular.colors,
+      date: day?.date,
     };
 
     return {
       info: info,
-      sections: format_proper_section(propers_latin, propers_vernacular),
+      sections: format_proper_section(propersLatin, propersVernacular),
     };
   });
 }

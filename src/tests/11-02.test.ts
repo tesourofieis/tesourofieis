@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../src/lib/calendar";
-import { format_propers } from "../src/lib/utils";
+import { Calendar } from "../lib/calendar";
+import { format_propers } from "../lib/utils";
 
 test("2024-11-02", () => {
   const calendar = new Calendar(2024);
@@ -17,10 +17,10 @@ test("2024-11-02", () => {
     {
       info: {
         colors: ["b"],
-        date: null,
+        date: undefined,
         id: "sancti:11-02m1:1:b",
         rank: 1,
-        tempora: null,
+        tempora: undefined,
         title: "Comemoração dos Fiéis Defuntos, 1ª Missa",
       },
       sections: [
@@ -451,10 +451,10 @@ test("2024-11-02", () => {
     {
       info: {
         colors: ["b"],
-        date: null,
+        date: undefined,
         id: "sancti:11-02m2:1:b",
         rank: 1,
-        tempora: null,
+        tempora: undefined,
         title: "Comemoração dos Fiéis Defuntos, 2ª Missa",
       },
       sections: [
@@ -887,10 +887,10 @@ test("2024-11-02", () => {
     {
       info: {
         colors: ["b"],
-        date: null,
+        date: undefined,
         id: "sancti:11-02m3:1:b",
         rank: 1,
-        tempora: null,
+        tempora: undefined,
         title: "Comemoração dos Fiéis Defuntos, 3ª Missa",
       },
       sections: [

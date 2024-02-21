@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../src/lib/calendar";
-import { format_propers } from "../src/lib/utils";
+import { Calendar } from "../lib/calendar";
+import { format_propers } from "../lib/utils";
 
 test("2024-02-02", () => {
   const calendar = new Calendar(2024);
@@ -17,10 +17,10 @@ test("2024-02-02", () => {
     {
       info: {
         colors: ["w"],
-        date: null,
+        date: undefined,
         id: "sancti:02-02:2:w",
         rank: 2,
-        tempora: null,
+        tempora: undefined,
         title: "Purificação da B. V. Maria",
       },
       sections: [
