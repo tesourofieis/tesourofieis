@@ -1,9 +1,0 @@
-@Sancti/08-23t
-
-[Lectio Vigilia]
-!Wigilja Św. Bartłomieja Apostoła
-@Commune/C1v:Lectio1
-
-[Oratio Vigilia]
-!Wigilja Św. Bartłomieja Apostoła
-@Sancti/08-23o:Oratio

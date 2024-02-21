@@ -1,1 +1,0 @@
-#= sunday letter: c, rule number: 21, next: 2066, prev: 2004
