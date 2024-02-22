@@ -5,9 +5,10 @@ import { VISIBLE_SECTIONS } from "../lib/constants";
 import Loading from "./Loading";
 import { SideCalendar, getColor } from "./SideCalendar";
 import { Icon } from "@iconify-icon/react/dist/iconify.js";
+import React from "react";
 
 export default function Mass() {
-  const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
+  const [date, setDate] = useState<string>("2024-03-28");
   const [error, setError] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState(0);
 
@@ -124,26 +125,25 @@ export default function Mass() {
                         {section.id}
                       </h2>
                       <div className="side-by-side not-content">
-                        <span className="">
-                          {section.body.latin.map((text, i) => (
-                            <p
-                              key={`latin-${section.id}-${i}`}
-                              className="text-justify my-2"
-                            >
-                              {text}
-                            </p>
-                          ))}
-                        </span>
-                        <span className="">
-                          {section.body.vernacular.map((text, i) => (
-                            <p
-                              key={`vernacular-${section.id}-${i}`}
-                              className="text-justify my-2"
-                            >
-                              {text}
-                            </p>
-                          ))}
-                        </span>
+                        {section.body.latin.map((latinText, i) => (
+                          <React.Fragment key={`latin-${section.id}-${i}`}>
+                            <span>
+                              <p className="text-justify my-2">{latinText}</p>
+                            </span>
+                            {/* Check if there's a corresponding vernacular text */}
+                            {section.body.vernacular[i] ? (
+                              <span>
+                                <p className="text-justify my-2">
+                                  {section.body.vernacular[i]}
+                                </p>
+                              </span>
+                            ) : (
+                              <span>
+                                <p className="text-justify my-2"></p>
+                              </span>
+                            )}
+                          </React.Fragment>
+                        ))}
                       </div>
                     </div>
                   ))}

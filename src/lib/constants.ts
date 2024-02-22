@@ -146,20 +146,26 @@ export const VISIBLE_SECTIONS = [
   "De Distributione Candelarum",
   "De Processione",
   // Quad6-0r, Dominica II Passionis seu in Palmis
+  "Prelude",
   "Benedictio Palmorum",
+  "Pueri Hebræorum",
+  "Responsorium",
   "De distributione ramorum",
   "De lectione Evangelica",
   "De processione cum ramis benedictis",
   "Hymnus ad Christum Regem",
-  // Quad6-5r, Feria Sexta in Parasceve
+  // Quad6-5, Feria Sexta in Parasceve
   "Lectiones",
   "Passio",
-  "Oratio Fidelium",
-  "Crucis Adoratione",
-  "CommunioQ",
-  // Quad6-5r, Sabbato Sancto
+  "Intercessiones",
+  "Adoratio crucis",
+  // Quad6-5, Sabbato Sancto
   "Benedictio ignis",
-  "De benedictione cerei Paschalis",
+  "Benedictio cerei",
+  "Prophetiæ",
+  "Prophetia Prima",
+  "Benedictio Fontis",
+  "Litaniæ",
   "De solemni processione",
   "De praeconio paschali",
   "De lectionibus",
@@ -171,6 +177,8 @@ export const VISIBLE_SECTIONS = [
   // Feria IV Cinerum
   "Benedictio cinerum",
   // Common sections
+  "Kyrie",
+  "Gloria",
   INTROIT,
   ORATIO,
   "LectioL1",
@@ -195,21 +203,27 @@ export const VISIBLE_SECTIONS = [
   TRACTUS,
   "Sequentia",
   EVANGELIUM,
+  "Incense",
   "Maundi", // Quad6-4r, Feria Quinta in Coena Domini
   OFFERTORIUM,
   // 'OffertoriumP',  Ignoring for now
   SECRETA,
   COMMEMORATED_SECRETA,
   PREFATIO,
+  "Canon",
+  "Preparatio Communionis",
   "Pro Laudibus", // Quad6-5r, Sabbato Sancto
   "Communicantes",
   COMMUNIO,
+  "Communio Populi",
   // 'CommunioP',  Ignoring for now
   POSTCOMMUNIO,
   COMMEMORATED_POSTCOMMUNIO,
   "Conclusio", // Quad6-5r, Sabbato Sancto
   "Super populum",
   "Post Missam", // Quad6-4r, Feria Quinta in Coena Domini
+  "Pange Lingua",
+  "Pro Vesperis",
   "Denudatione altaris", // Quad6-4r, Feria Quinta in Coena Domini
 ];
 
@@ -325,13 +339,13 @@ export const TEMPORA_QUAD5_3 = "tempora:Quad5-3:3:v";
 export const TEMPORA_QUAD5_4 = "tempora:Quad5-4:3:v";
 export const TEMPORA_QUAD5_5 = "tempora:Quad5-5Feria:3:v";
 export const TEMPORA_QUAD5_6 = "tempora:Quad5-6:3:v";
-export const TEMPORA_QUAD6_0 = "tempora:Quad6-0r:1:rv"; // 2nd Passion Sunday (Palm Sunday)
+export const TEMPORA_QUAD6_0 = "tempora:Quad6-0:1:rv"; // 2nd Passion Sunday (Palm Sunday)
 export const TEMPORA_QUAD6_1 = "tempora:Quad6-1:1:v";
 export const TEMPORA_QUAD6_2 = "tempora:Quad6-2:1:v";
 export const TEMPORA_QUAD6_3 = "tempora:Quad6-3:1:v";
-export const TEMPORA_QUAD6_4 = "tempora:Quad6-4r:1:w"; // Maundy Thursday
-export const TEMPORA_QUAD6_5 = "tempora:Quad6-5r:1:bv"; // Good Friday
-export const TEMPORA_QUAD6_6 = "tempora:Quad6-6r:1:vw"; // Holy Saturday
+export const TEMPORA_QUAD6_4 = "tempora:Quad6-4t:1:w"; // Maundy Thursday
+export const TEMPORA_QUAD6_5 = "tempora:Quad6-5:1:bv"; // Good Friday
+export const TEMPORA_QUAD6_6 = "tempora:Quad6-6:1:vw"; // Holy Saturday
 
 export const TEMPORA_PASC0_0 = "tempora:Pasc0-0:1:w"; // Resurrection Sunday
 export const TEMPORA_PASC0_1 = "tempora:Pasc0-1:1:w";

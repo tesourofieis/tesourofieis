@@ -183,9 +183,9 @@ export default defineConfig({
     server: {
       watch: {
         ignored: [
-          "src/lib/resources/divinum-officium",
-          "!src/lib/resources/divinum-officium/web/www/missa/Portugues",
-          "!src/lib/resources/divinum-officium/web/www/missa/Latin",
+          "**/src/lib/resources/divinum-officium/**",
+          "!**/src/lib/resources/divinum-officium/web/www/missa/Portugues/**",
+          "!**/src/lib/resources/divinum-officium/web/www/missa/Latin/**",
         ],
       },
     },
