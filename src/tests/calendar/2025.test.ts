@@ -1907,7 +1907,7 @@ describe("calendar 2025", () => {
       "2025-04-13": {
         tempora: [
           {
-            id: "tempora:Quad6-0r:1:rv",
+            id: "tempora:Quad6-0:1:rv",
             rank: 1,
             title: "Domingo de Ramos",
             colors: ["r", "v"],
@@ -1915,7 +1915,7 @@ describe("calendar 2025", () => {
         ],
         celebration: [
           {
-            id: "tempora:Quad6-0r:1:rv",
+            id: "tempora:Quad6-0:1:rv",
             rank: 1,
             title: "Domingo de Ramos",
             colors: ["r", "v"],
@@ -1983,7 +1983,7 @@ describe("calendar 2025", () => {
       "2025-04-17": {
         tempora: [
           {
-            id: "tempora:Quad6-4r:1:w",
+            id: "tempora:Quad6-4t:1:w",
             rank: 1,
             title: "Quinta-feira Santa",
             colors: ["w"],
@@ -1991,7 +1991,7 @@ describe("calendar 2025", () => {
         ],
         celebration: [
           {
-            id: "tempora:Quad6-4r:1:w",
+            id: "tempora:Quad6-4t:1:w",
             rank: 1,
             title: "Quinta-feira Santa",
             colors: ["w"],
@@ -2002,7 +2002,7 @@ describe("calendar 2025", () => {
       "2025-04-18": {
         tempora: [
           {
-            id: "tempora:Quad6-5r:1:bv",
+            id: "tempora:Quad6-5:1:bv",
             rank: 1,
             title: "Sexta-feira Santa",
             colors: ["b", "v"],
@@ -2010,7 +2010,7 @@ describe("calendar 2025", () => {
         ],
         celebration: [
           {
-            id: "tempora:Quad6-5r:1:bv",
+            id: "tempora:Quad6-5:1:bv",
             rank: 1,
             title: "Sexta-feira Santa",
             colors: ["b", "v"],
@@ -2021,7 +2021,7 @@ describe("calendar 2025", () => {
       "2025-04-19": {
         tempora: [
           {
-            id: "tempora:Quad6-6r:1:vw",
+            id: "tempora:Quad6-6:1:vw",
             rank: 1,
             title: "S\u00e1bado Santo",
             colors: ["v", "w"],
@@ -2029,7 +2029,7 @@ describe("calendar 2025", () => {
         ],
         celebration: [
           {
-            id: "tempora:Quad6-6r:1:vw",
+            id: "tempora:Quad6-6:1:vw",
             rank: 1,
             title: "S\u00e1bado Santo",
             colors: ["v", "w"],
