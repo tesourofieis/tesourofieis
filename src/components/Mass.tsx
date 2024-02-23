@@ -1,14 +1,12 @@
-import type { ProperDay } from "../lib/utils";
-import { yyyyMMDD } from "../lib/utils";
+import { yyyyMMDD, type ProperDay } from "../lib/utils";
 import { useEffect, useState } from "react";
-import { VISIBLE_SECTIONS } from "../lib/constants";
 import Loading from "./Loading";
 import { SideCalendar, getColor } from "./SideCalendar";
 import { Icon } from "@iconify-icon/react/dist/iconify.js";
 import React from "react";
 
 export default function Mass() {
-  const [date, setDate] = useState<string>("2024-03-28");
+  const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
   const [error, setError] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState(0);
 
@@ -115,7 +113,13 @@ export default function Mass() {
               >
                 <div className="flex items-center justify-center mb-2"></div>
                 {sections.sections
-                  .filter(({ id }) => VISIBLE_SECTIONS.includes(id))
+                  .filter(
+                    ({ id }) =>
+                      !(
+                        id.startsWith("Rank") ||
+                        ["Rule", "Comment", "Name"].includes(id)
+                      ),
+                  )
                   .map((section, sectionIndex) => (
                     <div key={sectionIndex}>
                       <h2
@@ -125,7 +129,7 @@ export default function Mass() {
                         {section.id}
                       </h2>
                       <div className="side-by-side not-content">
-                        {section.body.latin.map((latinText, i) => (
+                        {section.body.latin?.map((latinText, i) => (
                           <React.Fragment key={`latin-${section.id}-${i}`}>
                             <span>
                               <p className="text-justify my-2">{latinText}</p>

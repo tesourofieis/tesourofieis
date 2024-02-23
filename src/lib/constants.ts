@@ -147,7 +147,7 @@ export const VISIBLE_SECTIONS = [
   "De Processione",
   // Quad6-0r, Dominica II Passionis seu in Palmis
   "Prelude",
-  "Benedictio Palmorum",
+  "Benedictio palmorum",
   "Pueri Hebræorum",
   "Responsorium",
   "De distributione ramorum",
@@ -203,6 +203,10 @@ export const VISIBLE_SECTIONS = [
   TRACTUS,
   "Sequentia",
   EVANGELIUM,
+  "Evangelium1",
+  "Evangelium2",
+  "Evangelium3",
+  "Evangelium4",
   "Incense",
   "Maundi", // Quad6-4r, Feria Quinta in Coena Domini
   OFFERTORIUM,
@@ -1812,7 +1816,7 @@ export const SECTION_LABELS = {
   Sequentia: "Sequentia",
   "Super populum": "Super populum",
   Prefatio: "Prefatio",
-  Tractus: "Graduale",
+  Tractus: "Tractus",
   // 02-02, feast of the Purification of the B.V.M.
   "De Benedictione Candelarum": "De Benedictione Candelarum",
   "De Distributione Candelarum": "De Distributione Candelarum",

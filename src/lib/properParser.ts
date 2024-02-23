@@ -13,7 +13,6 @@ import {
   REFERENCE_REGEX,
   SECTION_REGEX,
   TRACTUS,
-  VISIBLE_SECTIONS,
   getTranslation,
 } from "./constants.ts";
 import { ProperConfig, Proper, Section, ParsedSource } from "./proper.ts";
@@ -247,10 +246,6 @@ class ProperParser {
   }
 
   private _filterSections(proper: Proper) {
-    function notVisible(sectionId: string): boolean {
-      return !VISIBLE_SECTIONS.includes(sectionId);
-    }
-
     function getExcludedInterReadingsSections(
       config: ProperConfig,
       proper: ParsedSource,
@@ -277,12 +272,6 @@ class ProperParser {
     }
 
     const sectionsToRemove: Set<string> = new Set();
-
-    for (const sectionId of Object.keys(proper)) {
-      if (notVisible(sectionId)) {
-        sectionsToRemove.add(sectionId);
-      }
-    }
 
     sectionsToRemove.add(
       // @ts-ignore
@@ -363,8 +352,8 @@ class ProperParser {
           ln.includes("(deinde dicuntur)") ||
           ln.includes("(sed communi Summorum Pontificum dicitur)")
         ) {
-          // Start skipping lines from now on
-          omit = true;
+          // Stop skipping lines from now on
+          omit = false;
           continue;
         }
 

@@ -1,13 +1,8 @@
 import { useEffect, useState } from "react";
-import type { VISIBLE_SECTIONS } from "../lib/constants";
 import { yyyyMMDD, type ProperDay } from "../lib/utils";
 import Loading from "./Loading";
 
-export default function Proper({
-  section,
-}: {
-  section?: (typeof VISIBLE_SECTIONS)[number];
-}) {
+export default function Proper({ section }: { section?: string }) {
   const [proper, setProper] = useState<ProperDay>();
 
   const date = yyyyMMDD(new Date());
