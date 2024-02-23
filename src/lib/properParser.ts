@@ -162,9 +162,12 @@ class ProperParser {
 
       if (!lookupSection || lookupSection === sectionName) {
         if (ln.match(SECTION_REGEX)) {
-          parsedSource.setSection(sectionName, new Section(sectionName));
+          // Create a new section and insert it into parsedSource
+          const section = new Section(sectionName);
+          parsedSource.setSection(sectionName, section);
         } else {
           if (REFERENCE_REGEX.test(ln)) {
+            // Handle references
             const [, pathBit, nestedSectionName] =
               REFERENCE_REGEX.exec(ln) || [];
             if (pathBit) {
@@ -193,24 +196,25 @@ class ProperParser {
             } else {
               // Reference to another section in the current file
               const nestedSectionBody =
-                parsedSource.getSection(nestedSectionName).body;
+                parsedSource.getSection(nestedSectionName)?.body || [];
               parsedSource
                 .getSection(sectionName)
                 .extendBody(nestedSectionBody);
             }
           } else {
-            // Finally, a regular line...
-            // Line ending with `~` indicates that the next line should be treated as its continuation
+            // Regular line
             const appendLn = ln.replace(/~$/, " ");
             if (!parsedSource.getSection(sectionName)) {
+              // Create a new section if it doesn't exist
               parsedSource.setSection(sectionName, new Section(sectionName));
             }
+            // Insert lines in order
+            const sectionBody =
+              parsedSource.getSection(sectionName)?.body || [];
             if (concatLine) {
-              parsedSource.getSection(sectionName).body[
-                parsedSource.getSection(sectionName).body.length - 1
-              ] += appendLn;
+              sectionBody[sectionBody.length - 1] += appendLn;
             } else {
-              parsedSource.getSection(sectionName).body.push(appendLn);
+              sectionBody.push(appendLn);
             }
             concatLine = ln.endsWith("~");
           }
@@ -352,8 +356,8 @@ class ProperParser {
           ln.includes("(deinde dicuntur)") ||
           ln.includes("(sed communi Summorum Pontificum dicitur)")
         ) {
-          // Stop skipping lines from now on
-          omit = false;
+          // Start skipping lines from now on
+          omit = true;
           continue;
         }
 

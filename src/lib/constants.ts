@@ -138,98 +138,14 @@ export const TEMPORA_RANK_MAP: {
   { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 23, rank: 2 },
 ];
 
-export const VISIBLE_SECTIONS = [
-  // "Comment",
-  // Atypical sections
-  // 02-02, feast of the Purification of the B.V.M.
-  "De Benedictione Candelarum",
-  "De Distributione Candelarum",
-  "De Processione",
-  // Quad6-0r, Dominica II Passionis seu in Palmis
-  "Prelude",
-  "Benedictio palmorum",
-  "Pueri Hebræorum",
-  "Responsorium",
-  "De distributione ramorum",
-  "De lectione Evangelica",
-  "De processione cum ramis benedictis",
-  "Hymnus ad Christum Regem",
-  // Quad6-5, Feria Sexta in Parasceve
-  "Lectiones",
-  "Passio",
-  "Intercessiones",
-  "Adoratio crucis",
-  // Quad6-5, Sabbato Sancto
-  "Benedictio ignis",
-  "Benedictio cerei",
-  "Prophetiæ",
-  "Prophetia Prima",
-  "Benedictio Fontis",
-  "Litaniæ",
-  "De solemni processione",
-  "De praeconio paschali",
-  "De lectionibus",
-  "De prima parte Litaniarum",
-  "De benedictione aquae baptismalis",
-  "De renovatione promissionum baptismatis",
-  "De altera parte Litaniarum",
-  "De Missa solemni Vigiliae paschalis",
-  // Feria IV Cinerum
-  "Benedictio cinerum",
-  // Common sections
-  "Kyrie",
-  "Gloria",
-  INTROIT,
-  ORATIO,
-  "LectioL1",
-  "GradualeL1",
-  "OratioL1",
-  "LectioL2",
-  "GradualeL2",
-  "OratioL2",
-  "LectioL3",
-  "GradualeL3",
-  "OratioL3",
-  "LectioL4",
-  "GradualeL4",
-  "OratioL4",
-  "LectioL5",
-  "GradualeL5",
-  "OratioL5",
-  COMMEMORATED_ORATIO,
-  LECTIO,
-  GRADUALE,
-  GRADUALE_PASCHAL,
-  TRACTUS,
-  "Sequentia",
-  EVANGELIUM,
+export const INVISIBLE_SECTIONS = [
+  "Rule",
+  "Comment",
+  "Name",
   "Evangelium1",
   "Evangelium2",
   "Evangelium3",
   "Evangelium4",
-  "Incense",
-  "Maundi", // Quad6-4r, Feria Quinta in Coena Domini
-  OFFERTORIUM,
-  // 'OffertoriumP',  Ignoring for now
-  SECRETA,
-  COMMEMORATED_SECRETA,
-  PREFATIO,
-  "Canon",
-  "Preparatio Communionis",
-  "Pro Laudibus", // Quad6-5r, Sabbato Sancto
-  "Communicantes",
-  COMMUNIO,
-  "Communio Populi",
-  // 'CommunioP',  Ignoring for now
-  POSTCOMMUNIO,
-  COMMEMORATED_POSTCOMMUNIO,
-  "Conclusio", // Quad6-5r, Sabbato Sancto
-  "Super populum",
-  "Post Missam", // Quad6-4r, Feria Quinta in Coena Domini
-  "Pange Lingua",
-  "Pro Vesperis",
-  "Denudatione altaris", // Quad6-4r, Feria Quinta in Coena Domini
-  "Lotio pedum",
 ];
 
 // References to the sections that do not exist in the source files and are ignored
@@ -1896,7 +1812,9 @@ export const TRANSFORMATIONS = [
   { pattern: /R\./, replacement: "℟." },
   { pattern: /^#/, replacement: "##" },
   { pattern: /^!x!/, replacement: "!" },
+  { pattern: /^!!! *(.*)/, replacement: "$1" },
   { pattern: /^!! *(.*)/, replacement: "### $1" },
+  { pattern: /^!Tractus *(.*)/, replacement: "### $1" },
   { pattern: /^\[([^\]^]*)\]/, replacement: "### $1" },
   { pattern: /^! *(.*)/, replacement: "$1" }, // Verse
   { pattern: /^v\. */, replacement: "" },
@@ -3431,7 +3349,9 @@ export const TRANSFORMATIONS_PT = [
   { pattern: /R\./, replacement: "℟." },
   { pattern: /^#/, replacement: "##" },
   { pattern: /^!x!/, replacement: "!" },
+  { pattern: /^!!! *(.*)/, replacement: "$1" },
   { pattern: /^!! *(.*)/, replacement: "### $1" },
+  { pattern: /^!Tractus *(.*)/, replacement: "### $1" },
   { pattern: /^\[([^\]^]*)\]/, replacement: "### $1" },
   { pattern: /^! *(.*)/, replacement: "$1" }, // Verse
   { pattern: /^v\. */, replacement: "" },

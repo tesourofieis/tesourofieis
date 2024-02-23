@@ -8,9 +8,9 @@ import {
   GRADUALE_PASCHAL,
   ORATIO,
   POSTCOMMUNIO,
+  PREFATIO,
   SECRETA,
   TRACTUS,
-  VISIBLE_SECTIONS,
 } from "./constants.ts";
 
 export class ProperConfig {
@@ -139,13 +139,20 @@ export class Proper extends ParsedSource {
   }
 
   serialize() {
-    const list_ = this.values()
-      .map((v) => v?.serialize())
-      .sort((a, b) => {
-        const indexA = VISIBLE_SECTIONS.indexOf(a.id);
-        const indexB = VISIBLE_SECTIONS.indexOf(b.id);
-        return indexA - indexB;
-      });
+    const list_ = this.values().map((v) => v?.serialize());
+
+    const secretaIndex = list_.findIndex((section) => section?.id === SECRETA);
+    if (secretaIndex !== -1) {
+      const prefatioIndex = list_.findIndex(
+        (section) => section?.id === PREFATIO,
+      );
+      if (prefatioIndex !== -1) {
+        // Remove "PREFATIO" from the list
+        const prefatioSection = list_.splice(prefatioIndex, 1)[0];
+        // Insert "PREFATIO" after "SECRETA"
+        list_.splice(secretaIndex + 1, 0, prefatioSection);
+      }
+    }
 
     return list_;
   }

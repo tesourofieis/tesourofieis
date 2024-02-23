@@ -4,6 +4,7 @@ import Loading from "./Loading";
 import { SideCalendar, getColor } from "./SideCalendar";
 import { Icon } from "@iconify-icon/react/dist/iconify.js";
 import React from "react";
+import { INVISIBLE_SECTIONS } from "../lib/constants";
 
 export default function Mass() {
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
@@ -116,8 +117,7 @@ export default function Mass() {
                   .filter(
                     ({ id }) =>
                       !(
-                        id.startsWith("Rank") ||
-                        ["Rule", "Comment", "Name"].includes(id)
+                        id.startsWith("Rank") || INVISIBLE_SECTIONS.includes(id)
                       ),
                   )
                   .map((section, sectionIndex) => (
