@@ -6,7 +6,7 @@ import { Icon } from "@iconify-icon/react/dist/iconify.js";
 import React from "react";
 
 export default function Mass() {
-  const [date, setDate] = useState<string>("2024-03-28");
+  const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
   const [error, setError] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState(0);
 
