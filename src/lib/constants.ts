@@ -229,6 +229,7 @@ export const VISIBLE_SECTIONS = [
   "Pange Lingua",
   "Pro Vesperis",
   "Denudatione altaris", // Quad6-4r, Feria Quinta in Coena Domini
+  "Lotio pedum",
 ];
 
 // References to the sections that do not exist in the source files and are ignored
