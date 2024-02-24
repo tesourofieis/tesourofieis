@@ -6,6 +6,7 @@ import {
   GRADUALE_PASCHAL,
   LANGUAGE,
   LANGUAGE_LATIN,
+  NORMAL_SECTIONS,
   OBSERVANCES_WITHOUT_OWN_PROPER,
   PATTERN_ALLELUIA,
   PREFATIO_COMMUNIS,
@@ -13,17 +14,9 @@ import {
   REFERENCE_REGEX,
   SECTION_REGEX,
   TRACTUS,
-  NORMAL_SECTIONS,
   getTranslation,
-  SUB_SECTION_REGEX,
 } from "./constants.ts";
-import {
-  ProperConfig,
-  Proper,
-  Section,
-  ParsedSource,
-  SubSection,
-} from "./proper.ts";
+import { ProperConfig, Proper, Section, ParsedSource } from "./proper.ts";
 import { match } from "./utils.ts";
 
 class ProperParser {
@@ -39,10 +32,6 @@ class ProperParser {
   }
 
   proper_exists(): boolean {
-    console.debug(
-      !match(this.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) &&
-        !!this._get_full_path(this._get_partial_path(), LANGUAGE),
-    );
     return (
       !match(this.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) &&
       !!this._get_full_path(this._get_partial_path(), LANGUAGE)
@@ -126,9 +115,7 @@ class ProperParser {
   ) {
     let parsedSource = new ParsedSource();
     let sectionName: string | null = null;
-    let subSectionName: string | null = null;
     let concatLine = false;
-    let currentSection: Section | null = null;
     const fullPath = this._get_full_path(partialPath, lang);
 
     const fileContent: string = fs.readFileSync(
@@ -167,22 +154,12 @@ class ProperParser {
 
       if (ln.search(SECTION_REGEX) !== -1) {
         sectionName = ln.replace(SECTION_REGEX, "$1");
-        currentSection = new Section(sectionName);
-        parsedSource.setSection(sectionName, currentSection);
-      }
-
-      if (ln.search(SUB_SECTION_REGEX) !== -1) {
-        subSectionName = ln.replace(SUB_SECTION_REGEX, "$1");
-        if (currentSection) {
-          currentSection.setSubSection(
-            subSectionName,
-            new SubSection(subSectionName),
-          );
-        }
       }
 
       if (!lookupSection || lookupSection === sectionName) {
-        if (currentSection) {
+        if (ln.match(SECTION_REGEX)) {
+          parsedSource.setSection(sectionName, new Section(sectionName));
+        } else {
           if (REFERENCE_REGEX.test(ln)) {
             const [, pathBit, nestedSectionName] =
               REFERENCE_REGEX.exec(ln) || [];
@@ -201,7 +178,9 @@ class ProperParser {
 
               const nestedSection = nestedProper.getSection(nestedSectionName);
               if (nestedSection) {
-                currentSection.extendBody(nestedSection.body);
+                parsedSource
+                  .getSection(sectionName)
+                  .extendBody(nestedSection.body);
               } else {
                 console.error(
                   `Section \`${nestedSectionName}\` referenced from \`${fullPath}\` is missing in \`${nestedPath}\``,
@@ -211,16 +190,23 @@ class ProperParser {
               // Reference to another section in the current file
               const nestedSectionBody =
                 parsedSource.getSection(nestedSectionName).body;
-              currentSection.extendBody(nestedSectionBody);
+              parsedSource
+                .getSection(sectionName)
+                .extendBody(nestedSectionBody);
             }
           } else {
             // Finally, a regular line...
             // Line ending with `~` indicates that the next line should be treated as its continuation
             const appendLn = ln.replace(/~$/, " ");
+            if (!parsedSource.getSection(sectionName)) {
+              parsedSource.setSection(sectionName, new Section(sectionName));
+            }
             if (concatLine) {
-              currentSection.extendBody([appendLn]);
+              parsedSource.getSection(sectionName).body[
+                parsedSource.getSection(sectionName).body.length - 1
+              ] += appendLn;
             } else {
-              currentSection.extendBody([appendLn]);
+              parsedSource.getSection(sectionName).body.push(appendLn);
             }
             concatLine = ln.endsWith("~");
           }

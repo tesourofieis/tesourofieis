@@ -116,33 +116,6 @@ export default function Mass() {
                 <div className="flex items-center justify-center mb-2"></div>
                 {sections.sections.map((section, sectionIndex) => (
                   <>
-                    {section.subsections?.map((subsection, subSectionIndex) => (
-                      <div key={`subsection-${section.id}-${subSectionIndex}`}>
-                        {/* Render subsection title as h4 */}
-                        <h4>{subsection.id}</h4>
-                        {/* Render subsection content */}
-                        {subsection.body.latin?.map((latinText, i) => (
-                          <React.Fragment key={`latin-${section.id}-${i}`}>
-                            <span>
-                              <p className="text-justify my-2">{latinText}</p>
-                            </span>
-                            {/* Check if there's a corresponding vernacular text */}
-                            {subsection.body.vernacular[i] ? (
-                              <span>
-                                <p className="text-justify my-2">
-                                  {subsection.body.vernacular[i]}
-                                </p>
-                              </span>
-                            ) : (
-                              <span>
-                                <p className="text-justify my-2"></p>
-                              </span>
-                            )}
-                          </React.Fragment>
-                        ))}
-                      </div>
-                    ))}
-
                     <div key={sectionIndex}>
                       <h2
                         className="text-center text-sepia-500"
