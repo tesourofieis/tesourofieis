@@ -51,62 +51,7 @@ exports[`2024-02-02 1`] = `
       {
         "body": {
           "latin": [
-            "In Purificatione Beatæ Mariæ Virginis;;Duplex 2 class;;5.1;;ex C11",
-            "",
-          ],
-          "vernacular": [
-            "In Purificatione Beatæ Mariæ Virginis;;Duplex 2 class;;5.1;;ex C11",
-            "",
-          ],
-        },
-        "id": "Rank",
-      },
-      {
-        "body": {
-          "latin": [
-            "In Purificatione Beatæ Mariæ Virginis;;Duplex 2 class;;5;;ex C11",
-            "",
-          ],
-          "vernacular": [
-            "In Purificatione Beatæ Mariæ Virginis;;Duplex 2 class;;5;;ex C11",
-            "",
-          ],
-        },
-        "id": "Rank (rubrica 196)",
-      },
-      {
-        "body": {
-          "latin": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Nat",
-            "(rubrica 1960) omit commemoratio incipit",
-            "(rubrica 1960) Festum Domini",
-            "Prelude",
-            "",
-          ],
-          "vernacular": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Nat",
-            "(rubrica 1960) omit commemoratio incipit",
-            "(rubrica 1960) Festum Domini",
-            "Prelude",
-            "",
-          ],
-        },
-        "id": "Rule",
-      },
-      {
-        "body": {
-          "latin": [],
-          "vernacular": [],
-        },
-        "id": "Prelude(rubrica 1570 aut rubrica divino)",
-      },
-      {
-        "body": {
-          "latin": [
+            "## Benedictio Candelarum",
             "Finita Tertia, Sacerdos indutus Pluviali violaceo, vel sine Casula, cum Ministris similiter indutis, procedit ad benedicendum Candelas, in medio ante Altare vel ad cornu Epistolæ positas, et ipse, ibidem stans versus ad Altare, dicit manibus junctis in tono Orationis Missæ ferialis:",
             "℣. Dóminus vobíscum.",
             "℟. Et cum spíritu tuo.",
@@ -185,6 +130,7 @@ exports[`2024-02-02 1`] = `
             "",
           ],
           "vernacular": [
+            "## Benedictio Candelarum",
             "Se a bênção das velas e a procissão não poderem ser feitas na sua forma solene, devido à ausência de ministros sagrados, é aceitável fazer-se da forma simples, até sem canto, desde que pelo menos três acólitos assistam o celebrante. O celebrante paramenta-se com capa branca ou sem casula, e segue com os ministros que se vestem similarmente para abençoar as velas, que são colocadas no centro do altar ou no lado da epístola. Em pé, de frente para o altar, o padre canta sem entoação, com as mão unidas:",
             "℣. O Senhor seja convosco.",
             "℟. E com o vosso espírito.",
@@ -262,20 +208,7 @@ exports[`2024-02-02 1`] = `
             "",
           ],
         },
-        "id": "Benedictio Candelarum",
-      },
-      {
-        "body": {
-          "latin": [
-            "In Festis Beatae Mariae Virginis, Salve Sancte Parens",
-            "",
-          ],
-          "vernacular": [
-            "In Festis Beatae Mariae Virginis, Salve Sancte Parens",
-            "",
-          ],
-        },
-        "id": "Name",
+        "id": "Prelude(rubrica 1570 aut rubrica divino)",
       },
       {
         "body": {

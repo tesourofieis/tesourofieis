@@ -51,61 +51,6 @@ exports[`2024-01-29 1`] = `
       {
         "body": {
           "latin": [
-            "S. Francisci Salesii Episcopi Confessoris Ecclesiæ Doctoris;;Duplex;;3;;vide C4a",
-            "",
-          ],
-          "vernacular": [
-            "S. Francisci Salesii Episcopi Confessoris Ecclesiae Doctoris;;Duplex;;3;;vide C4a",
-            "",
-          ],
-        },
-        "id": "Rank",
-      },
-      {
-        "body": {
-          "latin": [
-            "Francisce",
-            "",
-          ],
-          "vernacular": [
-            "Francisce",
-            "",
-          ],
-        },
-        "id": "Name",
-      },
-      {
-        "body": {
-          "latin": [
-            "vide C4a;",
-            "Gloria",
-            "CredoDA",
-            "",
-          ],
-          "vernacular": [
-            "vide C4a;",
-            "Gloria",
-            "CredoDA",
-            "",
-          ],
-        },
-        "id": "Rule",
-      },
-      {
-        "body": {
-          "latin": undefined,
-          "vernacular": [
-            "## 29 I – S. Francisco de Sales, Bispo Confessor e Doutor",
-            "3 classe",
-            "Paramentos brancos",
-            "",
-          ],
-        },
-        "id": "Comment",
-      },
-      {
-        "body": {
-          "latin": [
             "Eccli 15:5",
             "In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)",
             "Ps 91:2",

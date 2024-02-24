@@ -51,36 +51,6 @@ exports[`2024-11-03 1`] = `
       {
         "body": {
           "latin": [
-            "Dominica IV Post Epiphaniam;;Semiduplex;;5",
-            "",
-          ],
-          "vernacular": [
-            "Dominica IV Post Epiphaniam;;Semiduplex;;5",
-            "",
-          ],
-        },
-        "id": "Rank",
-      },
-      {
-        "body": {
-          "latin": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Trinitate",
-            "",
-          ],
-          "vernacular": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Trinitate",
-            "",
-          ],
-        },
-        "id": "Rule",
-      },
-      {
-        "body": {
-          "latin": [
             "Ps 96:7-8",
             "Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judæ.",
             "Ps 96:1",

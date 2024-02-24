@@ -2,7 +2,7 @@ import { CUSTOM_PREFACES, PROPERS_DIR } from "./constants.ts";
 import path from "path";
 import fs from "fs";
 import { Observance } from "./observance.ts";
-import { Proper } from "./proper.ts";
+import { Proper, SubSection } from "./proper.ts";
 import { Day } from "./day.ts";
 import type { Calendar } from "./calendar.ts";
 import type { UTCDate } from "@date-fns/utc";
@@ -89,6 +89,13 @@ interface Section {
     latin: string[];
     vernacular: string[];
   };
+  subSections?: {
+    id: string;
+    body: {
+      latin: string[];
+      vernacular: string[];
+    };
+  }[];
 }
 
 function format_propers(propers: Proper[][], day: Day): ProperDay[] {
@@ -127,14 +134,19 @@ function format_proper_section(
     const latinProp = latinPropers.find(
       (latin) => latin?.id === vernacular?.id,
     );
-    const latinBody = latinProp?.body;
-    const vernacularBody = vernacular?.body;
 
     pl.push({
-      id: vernacular?.id,
+      id: latinProp?.id,
       body: {
-        latin: latinBody,
-        vernacular: vernacularBody,
+        latin: latinProp.body,
+        vernacular: vernacular.body,
+        subsections: {
+          id: latinProp.subSections?.id,
+          body: {
+            latin: latinProp.subSections?.body,
+            vernacular: vernacular.subSections?.body,
+          },
+        },
       },
     });
   }

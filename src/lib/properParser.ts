@@ -13,9 +13,17 @@ import {
   REFERENCE_REGEX,
   SECTION_REGEX,
   TRACTUS,
+  NORMAL_SECTIONS,
   getTranslation,
+  SUB_SECTION_REGEX,
 } from "./constants.ts";
-import { ProperConfig, Proper, Section, ParsedSource } from "./proper.ts";
+import {
+  ProperConfig,
+  Proper,
+  Section,
+  ParsedSource,
+  SubSection,
+} from "./proper.ts";
 import { match } from "./utils.ts";
 
 class ProperParser {
@@ -118,10 +126,11 @@ class ProperParser {
   ) {
     let parsedSource = new ParsedSource();
     let sectionName: string | null = null;
+    let subSectionName: string | null = null;
     let concatLine = false;
+    let currentSection: Section | null = null;
     const fullPath = this._get_full_path(partialPath, lang);
 
-    console.error(fullPath);
     const fileContent: string = fs.readFileSync(
       fullPath || partialPath,
       "utf8",
@@ -158,16 +167,23 @@ class ProperParser {
 
       if (ln.search(SECTION_REGEX) !== -1) {
         sectionName = ln.replace(SECTION_REGEX, "$1");
+        currentSection = new Section(sectionName);
+        parsedSource.setSection(sectionName, currentSection);
+      }
+
+      if (ln.search(SUB_SECTION_REGEX) !== -1) {
+        subSectionName = ln.replace(SUB_SECTION_REGEX, "$1");
+        if (currentSection) {
+          currentSection.setSubSection(
+            subSectionName,
+            new SubSection(subSectionName),
+          );
+        }
       }
 
       if (!lookupSection || lookupSection === sectionName) {
-        if (ln.match(SECTION_REGEX)) {
-          // Create a new section and insert it into parsedSource
-          const section = new Section(sectionName);
-          parsedSource.setSection(sectionName, section);
-        } else {
+        if (currentSection) {
           if (REFERENCE_REGEX.test(ln)) {
-            // Handle references
             const [, pathBit, nestedSectionName] =
               REFERENCE_REGEX.exec(ln) || [];
             if (pathBit) {
@@ -185,9 +201,7 @@ class ProperParser {
 
               const nestedSection = nestedProper.getSection(nestedSectionName);
               if (nestedSection) {
-                parsedSource
-                  .getSection(sectionName)
-                  .extendBody(nestedSection.body);
+                currentSection.extendBody(nestedSection.body);
               } else {
                 console.error(
                   `Section \`${nestedSectionName}\` referenced from \`${fullPath}\` is missing in \`${nestedPath}\``,
@@ -196,25 +210,17 @@ class ProperParser {
             } else {
               // Reference to another section in the current file
               const nestedSectionBody =
-                parsedSource.getSection(nestedSectionName)?.body || [];
-              parsedSource
-                .getSection(sectionName)
-                .extendBody(nestedSectionBody);
+                parsedSource.getSection(nestedSectionName).body;
+              currentSection.extendBody(nestedSectionBody);
             }
           } else {
-            // Regular line
+            // Finally, a regular line...
+            // Line ending with `~` indicates that the next line should be treated as its continuation
             const appendLn = ln.replace(/~$/, " ");
-            if (!parsedSource.getSection(sectionName)) {
-              // Create a new section if it doesn't exist
-              parsedSource.setSection(sectionName, new Section(sectionName));
-            }
-            // Insert lines in order
-            const sectionBody =
-              parsedSource.getSection(sectionName)?.body || [];
             if (concatLine) {
-              sectionBody[sectionBody.length - 1] += appendLn;
+              currentSection.extendBody([appendLn]);
             } else {
-              sectionBody.push(appendLn);
+              currentSection.extendBody([appendLn]);
             }
             concatLine = ln.endsWith("~");
           }
@@ -250,6 +256,10 @@ class ProperParser {
   }
 
   private _filterSections(proper: Proper) {
+    function notVisible(sectionId: string): boolean {
+      return !NORMAL_SECTIONS.includes(sectionId);
+    }
+
     function getExcludedInterReadingsSections(
       config: ProperConfig,
       proper: ParsedSource,
@@ -276,6 +286,12 @@ class ProperParser {
     }
 
     const sectionsToRemove: Set<string> = new Set();
+
+    for (const [id] of proper.items()) {
+      if (notVisible(id)) {
+        sectionsToRemove.add(id);
+      }
+    }
 
     sectionsToRemove.add(
       // @ts-ignore
@@ -356,8 +372,8 @@ class ProperParser {
           ln.includes("(deinde dicuntur)") ||
           ln.includes("(sed communi Summorum Pontificum dicitur)")
         ) {
-          // Start skipping lines from now on
-          omit = true;
+          // Stop skipping lines from now on
+          omit = false;
           continue;
         }
 
@@ -390,21 +406,13 @@ class ProperParser {
     const full_path = path.join(
       process.cwd(),
       "src/lib",
-      `/resources/divinum-officium-custom/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`,
+      `/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`,
     );
+
     if (!fs.existsSync(full_path)) {
-      const fallback_path = path.join(
-        process.cwd(),
-        "src/lib",
-        `/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`,
-      );
-      if (!fs.existsSync(fallback_path)) {
-        return;
-      }
-      console.error(fallback_path);
-      return fallback_path;
+      return;
     }
-    console.error(full_path);
+
     return full_path;
   }
 

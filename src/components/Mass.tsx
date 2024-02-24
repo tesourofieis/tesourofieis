@@ -4,10 +4,9 @@ import Loading from "./Loading";
 import { SideCalendar, getColor } from "./SideCalendar";
 import { Icon } from "@iconify-icon/react/dist/iconify.js";
 import React from "react";
-import { INVISIBLE_SECTIONS } from "../lib/constants";
 
 export default function Mass() {
-  const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
+  const [date, setDate] = useState<string>("2024-02-02");
   const [error, setError] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState(0);
 
@@ -65,6 +64,8 @@ export default function Mass() {
         date={date}
         setDate={setDate}
       />
+
+      {JSON.stringify(proper, null, 2)}
       {proper && (
         <div
           className={`not-content mr-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
@@ -113,14 +114,35 @@ export default function Mass() {
                 className={`${index === activeTab ? "" : "hidden"}`}
               >
                 <div className="flex items-center justify-center mb-2"></div>
-                {sections.sections
-                  .filter(
-                    ({ id }) =>
-                      !(
-                        id.startsWith("Rank") || INVISIBLE_SECTIONS.includes(id)
-                      ),
-                  )
-                  .map((section, sectionIndex) => (
+                {sections.sections.map((section, sectionIndex) => (
+                  <>
+                    {section.subsections?.map((subsection, subSectionIndex) => (
+                      <div key={`subsection-${section.id}-${subSectionIndex}`}>
+                        {/* Render subsection title as h4 */}
+                        <h4>{subsection.id}</h4>
+                        {/* Render subsection content */}
+                        {subsection.body.latin?.map((latinText, i) => (
+                          <React.Fragment key={`latin-${section.id}-${i}`}>
+                            <span>
+                              <p className="text-justify my-2">{latinText}</p>
+                            </span>
+                            {/* Check if there's a corresponding vernacular text */}
+                            {subsection.body.vernacular[i] ? (
+                              <span>
+                                <p className="text-justify my-2">
+                                  {subsection.body.vernacular[i]}
+                                </p>
+                              </span>
+                            ) : (
+                              <span>
+                                <p className="text-justify my-2"></p>
+                              </span>
+                            )}
+                          </React.Fragment>
+                        ))}
+                      </div>
+                    ))}
+
                     <div key={sectionIndex}>
                       <h2
                         className="text-center text-sepia-500"
@@ -150,7 +172,8 @@ export default function Mass() {
                         ))}
                       </div>
                     </div>
-                  ))}
+                  </>
+                ))}
               </div>
             ))}
           </div>

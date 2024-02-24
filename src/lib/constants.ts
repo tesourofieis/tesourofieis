@@ -138,7 +138,7 @@ export const TEMPORA_RANK_MAP: {
   { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 23, rank: 2 },
 ];
 
-export const INVISIBLE_SECTIONS = [
+export const IGNORED_REFERENCES = [
   "Rule",
   "Comment",
   "Name",
@@ -148,14 +148,53 @@ export const INVISIBLE_SECTIONS = [
   "Evangelium4",
 ];
 
-// References to the sections that do not exist in the source files and are ignored
-// on purpose as they make sense in the context of Divinum Officium, but not in Missalemeum
-// const IGNORED_REFERENCES = [
-//   "Oratio Gregem",
-//   "Secreta Gregem",
-//   "Postcommunio Gregem",
-//   "Munda Cor Passionis",
-// ];
+export const NORMAL_SECTIONS = [
+  "Prelude",
+  "Prelude(rubrica 1570 aut rubrica divino)",
+  "De Benedictione Candelarum", // 02-02
+  "Kyrie",
+  "Gloria",
+  INTROIT,
+  ORATIO,
+  "LectioL1",
+  "GradualeL1",
+  "OratioL1",
+  "LectioL2",
+  "GradualeL2",
+  "OratioL2",
+  "LectioL3",
+  "GradualeL3",
+  "OratioL3",
+  "LectioL4",
+  "GradualeL4",
+  "OratioL4",
+  "LectioL5",
+  "GradualeL5",
+  "OratioL5",
+  COMMEMORATED_ORATIO,
+  LECTIO,
+  GRADUALE,
+  GRADUALE_PASCHAL,
+  TRACTUS,
+  "Sequentia",
+  EVANGELIUM,
+  OFFERTORIUM,
+  "OffertoriumP",
+  SECRETA,
+  COMMEMORATED_SECRETA,
+  PREFATIO,
+  "Canon",
+  "Preparatio Communionis",
+  "Communicantes",
+  COMMUNIO,
+  "Communio Populi",
+  "CommunioP",
+  POSTCOMMUNIO,
+  COMMEMORATED_POSTCOMMUNIO,
+  "Super populum",
+  "Ultima Evangelium",
+  "Post Missam",
+];
 
 export const FERIA = ":feria:4:w";
 // TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
@@ -1018,7 +1057,8 @@ export const OBSERVANCES_WITHOUT_OWN_PROPER: RegExp[] = [
 ];
 
 export const REFERENCE_REGEX: RegExp = /^@([\w/\-]*):?([^:]*)[: ]*(.*)/;
-export const SECTION_REGEX: RegExp = /^### *(.*)/;
+export const SECTION_REGEX: RegExp = /^SECTION *(.*)/;
+export const SUB_SECTION_REGEX: RegExp = /^SUBSECTION *(.*)/;
 export const SECTION_VERSE: RegExp = /^! *(.*)/;
 
 export const TITLES: Record<string, string> = {
@@ -1813,9 +1853,8 @@ export const TRANSFORMATIONS = [
   { pattern: /^#/, replacement: "##" },
   { pattern: /^!x!/, replacement: "!" },
   { pattern: /^!!! *(.*)/, replacement: "$1" },
-  { pattern: /^!! *(.*)/, replacement: "### $1" },
-  { pattern: /^!Tractus *(.*)/, replacement: "### $1" },
-  { pattern: /^\[([^\]^]*)\]/, replacement: "### $1" },
+  { pattern: /^!! *(.*)/, replacement: "SUBSECTION $1" },
+  { pattern: /^\[([^\]^]*)\]/, replacement: "SECTION $1" },
   { pattern: /^! *(.*)/, replacement: "$1" }, // Verse
   { pattern: /^v\. */, replacement: "" },
   { pattern: /^_/, replacement: "" },
@@ -3350,9 +3389,8 @@ export const TRANSFORMATIONS_PT = [
   { pattern: /^#/, replacement: "##" },
   { pattern: /^!x!/, replacement: "!" },
   { pattern: /^!!! *(.*)/, replacement: "$1" },
-  { pattern: /^!! *(.*)/, replacement: "### $1" },
-  { pattern: /^!Tractus *(.*)/, replacement: "### $1" },
-  { pattern: /^\[([^\]^]*)\]/, replacement: "### $1" },
+  { pattern: /^!! *(.*)/, replacement: "SUBSECTION $1" },
+  { pattern: /^\[([^\]^]*)\]/, replacement: "SECTION $1" },
   { pattern: /^! *(.*)/, replacement: "$1" }, // Verse
   { pattern: /^v\. */, replacement: "" },
   { pattern: /^_/, replacement: "" },

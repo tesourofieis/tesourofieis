@@ -6,9 +6,9 @@ import {
   COMMEMORATIONS_PT,
   GRADUALE,
   GRADUALE_PASCHAL,
+  NORMAL_SECTIONS,
   ORATIO,
   POSTCOMMUNIO,
-  PREFATIO,
   SECRETA,
   TRACTUS,
 } from "./constants.ts";
@@ -36,7 +36,7 @@ export class ProperConfig {
   }
 }
 
-export class Section {
+export class SubSection {
   id = "";
   body: string[] = [];
 
@@ -65,6 +65,45 @@ export class Section {
     return `${this.id} ${bodyShort}`;
   }
 
+  [Symbol.toStringTag] = "SubSection";
+}
+
+export class Section {
+  id = "";
+  body: string[] = [];
+  subSections: Record<string, SubSection> = {};
+
+  constructor(id: string, body: string[] | null = null) {
+    this.id = id;
+    this.body = body || [];
+    this.subSections = {};
+  }
+
+  getBody(): string[] {
+    return this.body;
+  }
+
+  extendBody(bodyPart: string[]): void {
+    this.body = [...this.body, ...bodyPart];
+  }
+
+  setSubSection(subSectionName: string, subSection: SubSection): void {
+    this.subSections[subSectionName] = subSection;
+  }
+
+  serialize() {
+    return {
+      id: this.id,
+      body: this.body,
+      subSections: this.subSections,
+    };
+  }
+
+  toString(): string {
+    const bodyShort = this.body?.join(" ").substring(0, 32);
+    return `${this.id} ${bodyShort}`;
+  }
+
   [Symbol.toStringTag] = "Section";
 }
 
@@ -81,6 +120,60 @@ export class ParsedSource {
 
   setSection(sectionName: string, section: Section): void {
     this._container[sectionName] = section;
+  }
+
+  getSubSection(
+    sectionName: string,
+    subSectionName: string,
+  ): SubSection | null {
+    const section = this._container[sectionName];
+    if (section) {
+      return this._getSubSectionRecursive(section, subSectionName);
+    }
+    return null;
+  }
+
+  private _getSubSectionRecursive(
+    section: Section,
+    subSectionName: string,
+  ): SubSection | null {
+    const subSections = section.subSections;
+    if (subSections[subSectionName]) {
+      return subSections[subSectionName];
+    } else {
+      for (const subSection of Object.values(subSections)) {
+        const result = this._getSubSectionRecursive(subSection, subSectionName);
+        if (result) {
+          return result;
+        }
+      }
+    }
+    return null;
+  }
+
+  setSubSection(
+    sectionName: string,
+    subSectionName: string,
+    subSection: SubSection,
+  ): void {
+    if (this._container[sectionName]) {
+      this._setSubSectionRecursive(
+        this._container[sectionName],
+        subSectionName,
+        subSection,
+      );
+    }
+  }
+
+  private _setSubSectionRecursive(
+    section: Section,
+    subSectionName: string,
+    subSection: SubSection,
+  ): void {
+    if (!section.subSections) {
+      section.subSections = {};
+    }
+    section.subSections[subSectionName] = subSection;
   }
 
   popSection(sectionId: string): Section | null {
@@ -139,20 +232,13 @@ export class Proper extends ParsedSource {
   }
 
   serialize() {
-    const list_ = this.values().map((v) => v?.serialize());
-
-    const secretaIndex = list_.findIndex((section) => section?.id === SECRETA);
-    if (secretaIndex !== -1) {
-      const prefatioIndex = list_.findIndex(
-        (section) => section?.id === PREFATIO,
-      );
-      if (prefatioIndex !== -1) {
-        // Remove "PREFATIO" from the list
-        const prefatioSection = list_.splice(prefatioIndex, 1)[0];
-        // Insert "PREFATIO" after "SECRETA"
-        list_.splice(secretaIndex + 1, 0, prefatioSection);
-      }
-    }
+    const list_ = this.values()
+      .map((v) => v?.serialize())
+      .sort((a, b) => {
+        const indexA = NORMAL_SECTIONS.indexOf(a.id);
+        const indexB = NORMAL_SECTIONS.indexOf(b.id);
+        return indexA - indexB;
+      });
 
     return list_;
   }

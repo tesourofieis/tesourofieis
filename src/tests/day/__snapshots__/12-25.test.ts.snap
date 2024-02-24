@@ -63,51 +63,6 @@ exports[`2024-12-25 1`] = `
       {
         "body": {
           "latin": [
-            "In Nativitate Domini in nocte;;Duplex I Classis;;7",
-            "",
-          ],
-          "vernacular": [
-            "In Nativitate Domini in nocte;;Duplex I Classis;;7",
-            "",
-          ],
-        },
-        "id": "Rank",
-      },
-      {
-        "body": {
-          "latin": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Nat",
-            "celebranda aut missa prima aut missa secunda aut missa tertia",
-            "",
-          ],
-          "vernacular": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Nat",
-            "celebranda aut missa prima aut missa secunda aut missa tertia",
-            "",
-          ],
-        },
-        "id": "Rule",
-      },
-      {
-        "body": {
-          "latin": undefined,
-          "vernacular": [
-            "## 25 XII – Natal de N. S. Jesus Cristo — Primeira Missa: à meia-noite",
-            "Estação em Santa Maria Maior, no Presépio",
-            "1 classe",
-            "Paramentos brancos",
-            "",
-          ],
-        },
-        "id": "Comment",
-      },
-      {
-        "body": {
-          "latin": [
             "Ps 2:7.",
             "Dóminus dixit ad me: Fílius meus es tu, ego hódie génui te.",
             "Ps 2:1",
@@ -334,51 +289,6 @@ exports[`2024-12-25 1`] = `
       "title": "Missa da Aurora de Natal de N. S. Jesus Cristo",
     },
     "sections": [
-      {
-        "body": {
-          "latin": [
-            "In Nativitatis Domini in aurora;;Duplex I Classis;;6.5",
-            "",
-          ],
-          "vernacular": [
-            "In Nativitatis Domini in aurora;;Duplex I Classis;;6.5",
-            "",
-          ],
-        },
-        "id": "Rank",
-      },
-      {
-        "body": {
-          "latin": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Nat",
-            "celebranda aut missa prima aut missa secunda aut missa tertia",
-            "",
-          ],
-          "vernacular": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Nat",
-            "celebranda aut missa prima aut missa secunda aut missa tertia",
-            "",
-          ],
-        },
-        "id": "Rule",
-      },
-      {
-        "body": {
-          "latin": undefined,
-          "vernacular": [
-            "## 25 XII – Natal de N. S. Jesus Cristo — Segunda Missa: ao romper da aurora",
-            "Estação em Santa Anastácia",
-            "1 classe",
-            "Paramentos brancos",
-            "",
-          ],
-        },
-        "id": "Comment",
-      },
       {
         "body": {
           "latin": [
@@ -660,70 +570,6 @@ exports[`2024-12-25 1`] = `
       {
         "body": {
           "latin": [
-            "In die Nativitatis Domini;;Duplex I Classis;;7",
-            "",
-          ],
-          "vernacular": [
-            "In die Nativitatis Domini;;Duplex I Classis;;7",
-            "",
-          ],
-        },
-        "id": "Rank",
-      },
-      {
-        "body": {
-          "latin": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Nat",
-            "celebranda aut missa prima aut missa secunda aut missa tertia",
-            "(rubrica 1960) no Ultima Evangelium",
-            "",
-          ],
-          "vernacular": [
-            "Gloria",
-            "Credo",
-            "Prefatio=Nat",
-            "celebranda aut missa prima aut missa secunda aut missa tertia",
-            "(rubrica 1960) no Ultima Evangelium",
-            "",
-          ],
-        },
-        "id": "Rule",
-      },
-      {
-        "body": {
-          "latin": undefined,
-          "vernacular": [
-            "## 25 XII – Natal de N. S. Jesus Cristo — Terceira Missa: no dia da Festa",
-            "Estação em Santa Maria Maior",
-            "1 classe",
-            "Paramentos brancos",
-            "",
-          ],
-        },
-        "id": "Comment",
-      },
-      {
-        "body": {
-          "latin": [
-            "Sequéntia ☩ sancti Evangélii secúndum Matthǽum",
-            "Matt 2:1-12",
-            "Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce, Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui natus est rex Judæórum? Vidimus enim stellam ejus in Oriénte, et vénimus adoráre eum. Audiens autem Heródes rex, turbatus est, et omnis Jerosólyma cum illo. Et cóngregans omnes principes sacerdotum et scribas pópuli, sciscitabátur ab eis, ubi Christus nasceretur. At illi dixérunt ei: In Béthlehem Judæ: sic enim scriptum est per Prophétam: Et tu, Béthlehem terra Juda, nequaquam mínima es in princípibus Juda; ex te enim éxiet dux, qui regat pópulum meum Israël. Tunc Heródes, clam vocátis Magis, diligénter dídicit ab eis tempus stellæ, quæ appáruit eis: et mittens illos in Béthlehem, dixit: Ite, et interrogáte diligénter de púero: et cum invenéritis, renuntiáte mihi, ut et ego véniens adórem eum. Qui cum audíssent regem, abiérunt. Et ecce, stella, quam víderant in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et intrántes domum, invenérunt Púerum cum María Matre ejus, (hic genuflectitur) et procidéntes adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera, aurum, thus et myrrham. Et respónso accépto in somnis, ne redírent ad Heródem, per aliam viam revérsi sunt in regiónem suam.",
-            "",
-            "",
-          ],
-          "vernacular": [
-            "Continuação ☩ do santo Evangelho segundo S. Mateus.",
-            "Mt. 2:19-23",
-            "Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes, eis que vieram a Jerusalém os Magos do Oriente, dizendo: «Onde está o Rei dos Judeus, que acaba de nascer? Pois vimos a sua estrela no Oriente e viemos adorá-l’O». Logo que o rei Herodes ouviu esta notícia, ficou perturbado, assim como toda a gente de Jerusalém, convocando logo todos os príncipes dos sacerdotes e os escribas do povo, para saber deles onde deveria nascer Cristo. Responderam-lhe eles: «Em Belém, de Judá, pois está escrito pelo Profeta: «E tu, Belém, terra de Judá, não serás certamente a menos importante entre as terras principais de Judá, pois em ti nascerá o Rei, que governará o meu povo de Israel». Então Herodes mandou chamar em segredo os Magos, informando-se com eles diligentemente acerca do tempo em que a estrela havia aparecido. E enviando-os a Belém, disse-lhes: «Ide, procurai diligentemente o Menino, e, logo que O houverdes achado, avisai-me, para que eu vá, também, adorá-l’O». Os Magos, tendo ouvido estas palavras, partiram. Ora, a estrela, que tinham visto no Oriente ia adiante deles, até que, chegando ao lugar onde estava o Menino, parou. Quando os Magos viram a estrela, alegraram-se muito. Entrando, então, na casa, encontraram o Menino com Maria, sua mãe; e, de joelhos, O adoraram. (Todos devem ajoelhar) E, tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro, incenso e mirra. Depois, havendo tido aviso em sonhos de que não deveriam voltar a encontrar Herodes, retiraram-se por outro caminho para o seu país.",
-          ],
-        },
-        "id": "Ultima Evangelium",
-      },
-      {
-        "body": {
-          "latin": [
             "Isa 9:6",
             "Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.",
             "Ps 97:1",
@@ -886,6 +732,23 @@ exports[`2024-12-25 1`] = `
           ],
         },
         "id": "Postcommunio",
+      },
+      {
+        "body": {
+          "latin": [
+            "Sequéntia ☩ sancti Evangélii secúndum Matthǽum",
+            "Matt 2:1-12",
+            "Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce, Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui natus est rex Judæórum? Vidimus enim stellam ejus in Oriénte, et vénimus adoráre eum. Audiens autem Heródes rex, turbatus est, et omnis Jerosólyma cum illo. Et cóngregans omnes principes sacerdotum et scribas pópuli, sciscitabátur ab eis, ubi Christus nasceretur. At illi dixérunt ei: In Béthlehem Judæ: sic enim scriptum est per Prophétam: Et tu, Béthlehem terra Juda, nequaquam mínima es in princípibus Juda; ex te enim éxiet dux, qui regat pópulum meum Israël. Tunc Heródes, clam vocátis Magis, diligénter dídicit ab eis tempus stellæ, quæ appáruit eis: et mittens illos in Béthlehem, dixit: Ite, et interrogáte diligénter de púero: et cum invenéritis, renuntiáte mihi, ut et ego véniens adórem eum. Qui cum audíssent regem, abiérunt. Et ecce, stella, quam víderant in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et intrántes domum, invenérunt Púerum cum María Matre ejus, (hic genuflectitur) et procidéntes adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera, aurum, thus et myrrham. Et respónso accépto in somnis, ne redírent ad Heródem, per aliam viam revérsi sunt in regiónem suam.",
+            "",
+            "",
+          ],
+          "vernacular": [
+            "Continuação ☩ do santo Evangelho segundo S. Mateus.",
+            "Mt. 2:19-23",
+            "Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes, eis que vieram a Jerusalém os Magos do Oriente, dizendo: «Onde está o Rei dos Judeus, que acaba de nascer? Pois vimos a sua estrela no Oriente e viemos adorá-l’O». Logo que o rei Herodes ouviu esta notícia, ficou perturbado, assim como toda a gente de Jerusalém, convocando logo todos os príncipes dos sacerdotes e os escribas do povo, para saber deles onde deveria nascer Cristo. Responderam-lhe eles: «Em Belém, de Judá, pois está escrito pelo Profeta: «E tu, Belém, terra de Judá, não serás certamente a menos importante entre as terras principais de Judá, pois em ti nascerá o Rei, que governará o meu povo de Israel». Então Herodes mandou chamar em segredo os Magos, informando-se com eles diligentemente acerca do tempo em que a estrela havia aparecido. E enviando-os a Belém, disse-lhes: «Ide, procurai diligentemente o Menino, e, logo que O houverdes achado, avisai-me, para que eu vá, também, adorá-l’O». Os Magos, tendo ouvido estas palavras, partiram. Ora, a estrela, que tinham visto no Oriente ia adiante deles, até que, chegando ao lugar onde estava o Menino, parou. Quando os Magos viram a estrela, alegraram-se muito. Entrando, então, na casa, encontraram o Menino com Maria, sua mãe; e, de joelhos, O adoraram. (Todos devem ajoelhar) E, tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro, incenso e mirra. Depois, havendo tido aviso em sonhos de que não deveriam voltar a encontrar Herodes, retiraram-se por outro caminho para o seu país.",
+          ],
+        },
+        "id": "Ultima Evangelium",
       },
     ],
   },

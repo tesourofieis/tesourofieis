@@ -51,59 +51,6 @@ exports[`2024-01-22 1`] = `
       {
         "body": {
           "latin": [
-            "Ss. Vincentii et Anastasii Martyrum;;Semiduplex;;2.2;;vide C3",
-            "",
-          ],
-          "vernacular": [
-            "Ss. Vincentii et Anastasii Martyrum;;Semiduplex;;2;;vide C3",
-            "",
-          ],
-        },
-        "id": "Rank",
-      },
-      {
-        "body": {
-          "latin": [
-            "vide C3;",
-            "Gloria",
-            "",
-          ],
-          "vernacular": [
-            "vide C3;",
-            "Gloria",
-            "",
-          ],
-        },
-        "id": "Rule",
-      },
-      {
-        "body": {
-          "latin": undefined,
-          "vernacular": [
-            "## 22 I – S. S. Vicente e Anastácio, Mártires",
-            "3 classe",
-            "Paramentos vermelhos",
-            "",
-          ],
-        },
-        "id": "Comment",
-      },
-      {
-        "body": {
-          "latin": [
-            "Commune Plurimorum Martyrum Intret in conspectu",
-            "",
-          ],
-          "vernacular": [
-            "Commune Plurimorum Martyrum Intret in conspectu",
-            "",
-          ],
-        },
-        "id": "Name",
-      },
-      {
-        "body": {
-          "latin": [
             "Ps 78:11-12; 78:10",
             "Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est.",
             "Ps 78:1",
