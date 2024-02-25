@@ -136,16 +136,16 @@ function format_proper_section(
       body: {
         latin: latinProp?.body,
         vernacular: vernacular?.body,
-        subsections: latinProp.subSections.map((latin) => ({
-          id: latin.id,
-          body: {
-            latin: latin.body,
-            vernacular: vernacular.subSections.find(
-              (vernacular) => vernacular.id === latin.id,
-            ).body,
-          },
-        })),
       },
+      subSections: latinProp.subSections.map((latin) => ({
+        id: latin.id,
+        body: {
+          latin: latin.body,
+          vernacular: vernacular.subSections.find(
+            (vernacular) => vernacular.id === latin.id,
+          ).body,
+        },
+      })),
     });
   }
 
