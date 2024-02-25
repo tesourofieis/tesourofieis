@@ -89,29 +89,32 @@ interface Section {
     latin: string[];
     vernacular: string[];
   };
+  subSections?: Section[];
 }
 
 function format_propers(propers: Proper[][], day: Day): ProperDay[] {
-  return propers.map((proper) => {
-    const [properVernacular, properLatin] = proper;
+  return propers?.map((proper) => {
+    if (proper) {
+      const [properVernacular, properLatin] = proper;
 
-    const title = properVernacular.title;
-    const temporaName = day.getTemporaName();
+      const title = properVernacular.title;
+      const temporaName = day.getTemporaName();
 
-    const info = {
-      id: properVernacular.id,
-      title: title || "Feria",
-      tempora: temporaName !== title ? temporaName : null,
-      rank: properVernacular.rank,
-      colors: properVernacular.colors,
-      date: day.date,
-      day: day,
-    };
+      const info = {
+        id: properVernacular.id,
+        title: title || "Feria",
+        tempora: temporaName !== title ? temporaName : null,
+        rank: properVernacular.rank,
+        colors: properVernacular.colors,
+        date: day.date,
+        day: day,
+      };
 
-    return {
-      info: info,
-      sections: format_proper_section(properLatin, properVernacular),
-    };
+      return {
+        info: info,
+        sections: format_proper_section(properLatin, properVernacular),
+      };
+    }
   });
 }
 
@@ -133,6 +136,15 @@ function format_proper_section(
       body: {
         latin: latinProp?.body,
         vernacular: vernacular?.body,
+        subsections: latinProp.subSections.map((latin) => ({
+          id: latin.id,
+          body: {
+            latin: latin.body,
+            vernacular: vernacular.subSections.find(
+              (vernacular) => vernacular.id === latin.id,
+            ).body,
+          },
+        })),
       },
     });
   }

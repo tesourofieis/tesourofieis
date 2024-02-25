@@ -39,8 +39,9 @@ export class ProperConfig {
 export class Section {
   id = "";
   body: string[] = [];
+  subSections: Section[] = [];
 
-  constructor(id: string, body: string[] | null = null) {
+  constructor(id: string, body: string[] = []) {
     this.id = id;
     this.body = body || [];
   }
@@ -53,10 +54,18 @@ export class Section {
     this.body = [...this.body, ...bodyPart];
   }
 
+  addSubsection(subsection: Section): void {
+    this.subSections.push(subsection);
+  }
+
   serialize() {
     return {
       id: this.id,
       body: this.body,
+      subSections: this.subSections.map((i) => ({
+        id: i.id,
+        body: i.body,
+      })),
     };
   }
 
@@ -77,6 +86,14 @@ export class ParsedSource {
 
   getSection(sectionId: string): Section | null {
     return this._container[sectionId] || null;
+  }
+
+  getSubSection(sectionId: string, subSectionId: string): Section | null {
+    return (
+      this._container[sectionId].subSections.find(
+        (i) => i.id === subSectionId,
+      ) || null
+    );
   }
 
   setSection(sectionName: string, section: Section): void {

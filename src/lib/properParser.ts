@@ -13,6 +13,7 @@ import {
   PREFATIO_OMIT,
   REFERENCE_REGEX,
   SECTION_REGEX,
+  SUB_SECTION_REGEX,
   TRACTUS,
   getTranslation,
 } from "./constants.ts";
@@ -115,6 +116,7 @@ class ProperParser {
   ) {
     let parsedSource = new ParsedSource();
     let sectionName: string | null = null;
+    let subSectionName: string | null = null;
     let concatLine = false;
     const fullPath = this._get_full_path(partialPath, lang);
 
@@ -154,11 +156,17 @@ class ProperParser {
 
       if (ln.search(SECTION_REGEX) !== -1) {
         sectionName = ln.replace(SECTION_REGEX, "$1");
+        subSectionName = null;
       }
 
       if (!lookupSection || lookupSection === sectionName) {
         if (ln.match(SECTION_REGEX)) {
           parsedSource.setSection(sectionName, new Section(sectionName));
+        } else if (ln.match(SUB_SECTION_REGEX)) {
+          subSectionName = ln.replace(SUB_SECTION_REGEX, "$1");
+          parsedSource._container[sectionName].addSubsection(
+            new Section(subSectionName),
+          );
         } else {
           if (REFERENCE_REGEX.test(ln)) {
             const [, pathBit, nestedSectionName] =
@@ -206,7 +214,13 @@ class ProperParser {
                 parsedSource.getSection(sectionName).body.length - 1
               ] += appendLn;
             } else {
-              parsedSource.getSection(sectionName).body.push(appendLn);
+              if (sectionName && subSectionName) {
+                parsedSource
+                  .getSubSection(sectionName, subSectionName)
+                  .body.push(appendLn);
+              } else {
+                parsedSource._container[sectionName].body.push(appendLn);
+              }
             }
             concatLine = ln.endsWith("~");
           }
