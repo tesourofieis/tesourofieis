@@ -71,6 +71,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Introitus",
+        "subSections": [],
       },
       {
         "body": {
@@ -86,6 +87,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Oratio",
+        "subSections": [],
       },
       {
         "body": {
@@ -104,6 +106,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Lectio",
+        "subSections": [],
       },
       {
         "body": {
@@ -128,6 +131,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Graduale",
+        "subSections": [],
       },
       {
         "body": {
@@ -155,6 +159,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Tractus",
+        "subSections": [],
       },
       {
         "body": {
@@ -173,6 +178,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Evangelium",
+        "subSections": [],
       },
       {
         "body": {
@@ -191,6 +197,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Offertorium",
+        "subSections": [],
       },
       {
         "body": {
@@ -206,6 +213,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Secreta",
+        "subSections": [],
       },
       {
         "body": {
@@ -221,6 +229,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Prefatio",
+        "subSections": [],
       },
       {
         "body": {
@@ -237,6 +246,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Communio",
+        "subSections": [],
       },
       {
         "body": {
@@ -252,6 +262,7 @@ exports[`2024-01-22 1`] = `
           ],
         },
         "id": "Postcommunio",
+        "subSections": [],
       },
     ],
   },
@@ -317,7 +328,6 @@ exports[`2024-02-25 1`] = `
             "Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris.",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "Sl 24:6, 3, 22.",
             "Lembrai-Vos, Senhor, de que a vossa bondade e misericórdia são eternas! Que os nossos inimigos nunca triunfem de nós. Ó Deus de Israel, livrai-nos de todas nossas angústias.",
@@ -329,6 +339,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Introitus",
+        "subSections": [],
       },
       {
         "body": {
@@ -337,7 +348,6 @@ exports[`2024-02-25 1`] = `
             "Per Dominum…",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "Ó Deus, que conheceis como somos destituídos de toda a virtude, guardai-nos interior e exteriormente, a fim de que o nosso corpo seja preservado de todas as adversidades e a nossa alma purificada de todos os maus pensamentos.",
             "Por nosso Senhor...",
@@ -345,6 +355,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Oratio",
+        "subSections": [],
       },
       {
         "body": {
@@ -354,7 +365,6 @@ exports[`2024-02-25 1`] = `
             "Fratres: Rogámus vos et obsecrámus in Dómino Jesu: ut, quemádmodum accepístis a nobis, quómodo opórteat vos ambuláre et placére Deo, sic et ambulétis, ut abundétis magis. Scitis enim, quæ præcépta déderim vobis Per Dominum Jesum. Hæc est enim volúntas Dei, sanctificátio vestra: ut abstineátis vos a fornicatióne, ut sciat unusquísque vestrum vas suum possidére in sanctificatióne et honóre; non in passióne desidérii, sicut et gentes, quæ ignórant Deum: et ne quis supergrediátur neque circumvéniat in negótio fratrem suum: quóniam vindex est Dóminus de his ómnibus, sicut prædíximus vobis et testificáti sumus. Non enim vocávit nos Deus in immundítiam, sed in sanctificatiónem: in Christo Jesu, Dómino nostro.",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.",
             "1 Ts 4:1-7",
@@ -363,6 +373,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Lectio",
+        "subSections": [],
       },
       {
         "body": {
@@ -379,7 +390,6 @@ exports[`2024-02-25 1`] = `
             "℣. Meménto nostri, Dómine, in beneplácito pópuli tui: vísita nos in salutári tuo.",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "Sl 24:17-18",
             "As tribulações do meu coração cresceram. Ó Senhor, livrai-me das minhas misérias.",
@@ -395,6 +405,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Graduale",
+        "subSections": [],
       },
       {
         "body": {
@@ -404,7 +415,6 @@ exports[`2024-02-25 1`] = `
             "In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem eius, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Móyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eis: Súrgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "Continuação ☩ do santo Evangelho segundo S. Mateus.",
             "Mt. 17:1-9",
@@ -413,6 +423,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Evangelium",
+        "subSections": [],
       },
       {
         "body": {
@@ -421,7 +432,6 @@ exports[`2024-02-25 1`] = `
             "Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi.",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "Sl 118:47-48",
             "Meditarei nos vossos Mandamentos, que muito amo: e levantarei as minhas mãos para cumprir esses Mandamentos, que, repito, muito amo.",
@@ -429,6 +439,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Offertorium",
+        "subSections": [],
       },
       {
         "body": {
@@ -437,7 +448,6 @@ exports[`2024-02-25 1`] = `
             "Per Dominum…",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "Senhor, Vos suplicamos, dignai-Vos olhar benigno para o presente sacrifício, a fim de que sirva de proveito à nossa piedade e à nossa salvação.",
             "Por nosso Senhor...",
@@ -445,6 +455,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Secreta",
+        "subSections": [],
       },
       {
         "body": {
@@ -453,7 +464,6 @@ exports[`2024-02-25 1`] = `
             "Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens ætérne Deus: Qui corporáli ieiúnio vítia cómprimis, mentem élevas, virtútem largíris et prǽmia: per Christum Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces, ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "da Quaresma",
             "Verdadeiramente é digno e justo, racional e salutar dar-Vos graças em todos os lugares e sempre, Senhor santo, Pai omnipotente, eterno Deus, pois Vós, pelo jejum natural, reprimis os vícios, elevais o espírito e concedeis-nos a virtude e o prémio por Cristo, nosso Senhor: pelo qual os Anjos louvam a vossa majestade, as Dominações a adoram e as Potestades trémulas a reverenciam; e os Céus, as Virtudes dos Céus e os bem-aventurados Serafins se associam em comum louvor. Dignai-Vos permitir, Senhor, que as nossas vozes suplicantes se unam às deles, dizendo:",
@@ -461,6 +471,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Prefatio",
+        "subSections": [],
       },
       {
         "body": {
@@ -469,7 +480,6 @@ exports[`2024-02-25 1`] = `
             "Intéllege clamórem meum: inténde voci oratiónis meæ, Rex meus et Deus meus: quóniam ad te orábo, Dómine.",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "Sl 5:2-4",
             "Ouvi o meu clamor; ouvi a minha oração, ó meu Rei, ó meu Deus; pois orei a Vós.",
@@ -477,6 +487,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Communio",
+        "subSections": [],
       },
       {
         "body": {
@@ -485,7 +496,6 @@ exports[`2024-02-25 1`] = `
             "Per Dominum…",
             "",
           ],
-          "subsections": [],
           "vernacular": [
             "Ó Deus omnipotente, Vos suplicamos instantemente que aqueles a quem sustentais com vossos sacramentos tenham uma conduta de vida que Vos seja agradável.",
             "Por nosso Senhor...",
@@ -493,6 +503,7 @@ exports[`2024-02-25 1`] = `
           ],
         },
         "id": "Postcommunio",
+        "subSections": [],
       },
     ],
   },

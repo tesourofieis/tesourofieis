@@ -137,13 +137,13 @@ function format_proper_section(
         latin: latinProp?.body,
         vernacular: vernacular?.body,
       },
-      subSections: latinProp.subSections.map((latin) => ({
-        id: latin.id,
+      subSections: latinProp?.subSections?.map((latin) => ({
+        id: latin?.id,
         body: {
-          latin: latin.body,
+          latin: latin?.body,
           vernacular: vernacular.subSections.find(
             (vernacular) => vernacular.id === latin.id,
-          ).body,
+          )?.body,
         },
       })),
     });
