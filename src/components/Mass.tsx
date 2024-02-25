@@ -6,7 +6,7 @@ import { Icon } from "@iconify-icon/react/dist/iconify.js";
 import React from "react";
 
 export default function Mass() {
-  const [date, setDate] = useState<string>("2024-02-02");
+  const [date, setDate] = useState<string>("2024-03-24");
   const [error, setError] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState(0);
 
@@ -114,36 +114,6 @@ export default function Mass() {
               >
                 {sections.sections.map((section, sectionIndex) => (
                   <>
-                    {section.subSections?.map((subsection, subSectionIndex) => (
-                      <div key={`subsection-${section.id}-${subSectionIndex}`}>
-                        {/* Render subsection title as h4 */}
-                        <h4>{subsection.id}</h4>
-                        {/* Render subsection content */}
-
-                        <div className="side-by-side not-content">
-                          {subsection.body.latin?.map((latinText, i) => (
-                            <React.Fragment key={`latin-${section.id}-${i}`}>
-                              <span>
-                                <p className="text-justify my-2">{latinText}</p>
-                              </span>
-                              {/* Check if there's a corresponding vernacular text */}
-                              {subsection.body.vernacular[i] ? (
-                                <span>
-                                  <p className="text-justify my-2">
-                                    {subsection.body.vernacular[i]}
-                                  </p>
-                                </span>
-                              ) : (
-                                <span>
-                                  <p className="text-justify my-2"></p>
-                                </span>
-                              )}
-                            </React.Fragment>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-
                     <div key={sectionIndex}>
                       <h2
                         className="text-center text-sepia-500"
@@ -151,6 +121,43 @@ export default function Mass() {
                       >
                         {section.id}
                       </h2>
+                      {section.subSections?.map(
+                        (subsection, subSectionIndex) => (
+                          <div
+                            key={`subsection-${section.id}-${subSectionIndex}`}
+                          >
+                            {/* Render subsection title as h4 */}
+                            <h4>{subsection.id}</h4>
+                            {/* Render subsection content */}
+
+                            <div className="side-by-side not-content">
+                              {subsection.body.latin?.map((latinText, i) => (
+                                <React.Fragment
+                                  key={`latin-${section.id}-${i}`}
+                                >
+                                  <span>
+                                    <p className="text-justify my-2">
+                                      {latinText}
+                                    </p>
+                                  </span>
+                                  {/* Check if there's a corresponding vernacular text */}
+                                  {subsection.body.vernacular[i] ? (
+                                    <span>
+                                      <p className="text-justify my-2">
+                                        {subsection.body.vernacular[i]}
+                                      </p>
+                                    </span>
+                                  ) : (
+                                    <span>
+                                      <p className="text-justify my-2"></p>
+                                    </span>
+                                  )}
+                                </React.Fragment>
+                              ))}
+                            </div>
+                          </div>
+                        ),
+                      )}
                       <div className="side-by-side not-content">
                         {section.body.latin?.map((latinText, i) => (
                           <React.Fragment key={`latin-${section.id}-${i}`}>

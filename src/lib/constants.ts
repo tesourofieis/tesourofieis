@@ -129,14 +129,14 @@ export const TEMPORA_RANK_MAP: {
   day: number;
   rank: number;
 }[] = [
-    { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 17, rank: 2 },
-    { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 18, rank: 2 },
-    { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 19, rank: 2 },
-    { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 20, rank: 2 },
-    { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 21, rank: 2 },
-    { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 22, rank: 2 },
-    { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 23, rank: 2 },
-  ];
+  { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 17, rank: 2 },
+  { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 18, rank: 2 },
+  { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 19, rank: 2 },
+  { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 20, rank: 2 },
+  { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 21, rank: 2 },
+  { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 22, rank: 2 },
+  { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 23, rank: 2 },
+];
 
 export const IGNORED_REFERENCES = [
   "Rule",
@@ -1058,7 +1058,7 @@ export const OBSERVANCES_WITHOUT_OWN_PROPER: RegExp[] = [
 
 export const REFERENCE_REGEX: RegExp = /^@([\w/\-]*):?([^:]*)[: ]*(.*)/;
 export const SECTION_REGEX: RegExp = /^SECTION *(.*)/;
-export const SUB_SECTION_REGEX: RegExp = /^SUBSECTION *(.*)/;
+export const SUB_SECTION_REGEX: RegExp = /(^SUBSECTION|^##) *(.*)/;
 export const SECTION_VERSE: RegExp = /^! *(.*)/;
 
 export const TITLES: Record<string, string> = {

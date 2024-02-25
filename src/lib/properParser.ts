@@ -163,7 +163,7 @@ class ProperParser {
         if (ln.match(SECTION_REGEX)) {
           parsedSource.setSection(sectionName, new Section(sectionName));
         } else if (ln.match(SUB_SECTION_REGEX)) {
-          subSectionName = ln.replace(SUB_SECTION_REGEX, "$1");
+          subSectionName = ln.replace(SUB_SECTION_REGEX, "$2");
           parsedSource._container[sectionName].addSubsection(
             new Section(subSectionName),
           );
