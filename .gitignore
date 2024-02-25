@@ -8,9 +8,7 @@ node_modules/
 # Local Netlify folder
 .netlify
 
-.vercel
 .env
-/test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/

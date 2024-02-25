@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { Icon } from "@iconify-icon/react";
 import { yyyyMMDD } from "../lib/utils";
@@ -33,7 +33,7 @@ export const SideCalendar = ({
   date: string;
   setDate: (date: string) => void;
 }) => {
-  const calendar = getCalendar(getYear(new Date())).serialize();
+  const calendar = getCalendar(getYear(new Date()));
 
   const calendarRef = useRef(null);
 
@@ -75,32 +75,33 @@ export const SideCalendar = ({
               />
             )}
           </button>
-          {Object.entries(calendar).map(([calendarDate, celebrations]) => (
+          {Object.entries(calendar.serialize()).map(([calendarDate, day]) => (
             <button
+              key={calendarDate}
               className={`flex flex-col w-full hover:bg-sepia-200 dark:hover:bg-sepia-900
-                cursor-pointer bg-sepia-100 dark:bg-sepia-800
-                ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-500"}
-                ${calendarDate === today && "bg-sepia-200 dark:bg-sepia-400"}
-              `}
+              cursor-pointer bg-sepia-100 dark:bg-sepia-800
+              ${calendarDate === date && "bg-sepia-300 dark:bg-sepia-500"}
+              ${calendarDate === today && "bg-sepia-200 dark:bg-sepia-400"}
+            `}
               type="button"
               onClick={() => setDate(calendarDate)}
               data-date={calendarDate}
             >
               <p className="font-display text-left">
-                {celebrations.celebration[0]?.title ||
-                  celebrations.tempora[0]?.title ||
-                  celebrations.commemoration[0]?.title ||
+                {(day.celebration && day.celebration[0]?.title) ||
+                  (day.tempora && day.tempora[0]?.title) ||
+                  (day.commemoration && day.commemoration[0]?.title) ||
                   "Feria"}
               </p>
               <p className="text-xs text-left">
-                {celebrations.commemoration[0]?.title}
+                {day.commemoration && day.commemoration[0]?.title}
               </p>
               <div className="flex items-center gap-2 font-sm justify-end">
                 <div
                   className={`h-2 w-2 rounded-full ${getColor(
-                    celebrations.celebration[0]?.colors[0] ||
-                      celebrations.commemoration[0]?.colors[0] ||
-                      celebrations.tempora[0]?.colors[0],
+                    (day.celebration && day.celebration[0]?.colors[0]) ||
+                      (day.commemoration && day.commemoration[0]?.colors[0]) ||
+                      (day.tempora && day.tempora[0]?.colors[0]),
                   )} text-left`}
                 />
                 {calendarDate}

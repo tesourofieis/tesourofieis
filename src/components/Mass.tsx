@@ -121,6 +121,27 @@ export default function Mass() {
                       >
                         {section.id}
                       </h2>
+                      <div className="side-by-side not-content">
+                        {section.body.latin?.map((latinText, i) => (
+                          <React.Fragment key={`latin-${section.id}-${i}`}>
+                            <span>
+                              <p className="text-justify my-2">{latinText}</p>
+                            </span>
+                            {/* Check if there's a corresponding vernacular text */}
+                            {section.body.vernacular[i] ? (
+                              <span>
+                                <p className="text-justify my-2">
+                                  {section.body.vernacular[i]}
+                                </p>
+                              </span>
+                            ) : (
+                              <span>
+                                <p className="text-justify my-2"></p>
+                              </span>
+                            )}
+                          </React.Fragment>
+                        ))}
+                      </div>
                       {section.subSections?.map(
                         (subsection, subSectionIndex) => (
                           <div
@@ -158,27 +179,6 @@ export default function Mass() {
                           </div>
                         ),
                       )}
-                      <div className="side-by-side not-content">
-                        {section.body.latin?.map((latinText, i) => (
-                          <React.Fragment key={`latin-${section.id}-${i}`}>
-                            <span>
-                              <p className="text-justify my-2">{latinText}</p>
-                            </span>
-                            {/* Check if there's a corresponding vernacular text */}
-                            {section.body.vernacular[i] ? (
-                              <span>
-                                <p className="text-justify my-2">
-                                  {section.body.vernacular[i]}
-                                </p>
-                              </span>
-                            ) : (
-                              <span>
-                                <p className="text-justify my-2"></p>
-                              </span>
-                            )}
-                          </React.Fragment>
-                        ))}
-                      </div>
                     </div>
                   </>
                 ))}

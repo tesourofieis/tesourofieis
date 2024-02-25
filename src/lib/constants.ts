@@ -1058,7 +1058,7 @@ export const OBSERVANCES_WITHOUT_OWN_PROPER: RegExp[] = [
 
 export const REFERENCE_REGEX: RegExp = /^@([\w/\-]*):?([^:]*)[: ]*(.*)/;
 export const SECTION_REGEX: RegExp = /^SECTION *(.*)/;
-export const SUB_SECTION_REGEX: RegExp = /(^SUBSECTION|^##) *(.*)/;
+export const SUB_SECTION_REGEX: RegExp = /^SUBSECTION *(.*)/;
 export const SECTION_VERSE: RegExp = /^! *(.*)/;
 
 export const TITLES: Record<string, string> = {
