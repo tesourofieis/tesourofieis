@@ -141,9 +141,10 @@ function format_proper_section(
         id: latin?.id,
         body: {
           latin: latin?.body,
-          vernacular: vernacular.subSections.find(
-            (vernacular) => vernacular.id === latin.id,
-          )?.body,
+          vernacular:
+            vernacular.subSections.find(
+              (vernacular) => vernacular.id === latin.id,
+            )?.body ?? "",
         },
       })),
     });
