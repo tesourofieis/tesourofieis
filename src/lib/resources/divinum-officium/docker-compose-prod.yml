@@ -1,9 +1,0 @@
-version: '3.5'
-
-# This docker-compose file is for running in a local production-like context. 
-
-services:
-  web:
-    image: ghcr.io/divinumofficium/divinum-officium:master
-    ports:
-      - 80:80

@@ -48,28 +48,28 @@ class Day {
     return [...this.tempora, ...this.celebration, ...this.commemoration];
   }
 
-  getTemporaId(): string | undefined {
-    return this.tempora.length > 0 ? this.tempora[0].id : undefined;
+  getTemporaId() {
+    return this.tempora[0].id;
   }
 
-  getTemporaName(): string | undefined {
-    return this.tempora.length > 0 ? this.tempora[0].title : undefined;
+  getTemporaName() {
+    return this.tempora[0]?.title;
   }
 
-  getCelebrationId(): string | undefined {
-    return this.celebration.length > 0 ? this.celebration[0].id : undefined;
+  getCelebrationId() {
+    return this.celebration[0]?.id;
   }
 
-  getCelebrationName(): string | undefined {
-    return this.celebration.length > 0 ? this.celebration[0].title : undefined;
+  getCelebrationName() {
+    return this.celebration[0]?.title;
   }
 
-  getCelebrationColors(): string[] | undefined {
-    return this.celebration.length > 0 ? this.celebration[0].colors : undefined;
+  getCelebrationColors() {
+    return this.celebration[0]?.colors;
   }
 
-  getCelebrationRank(): number | undefined {
-    return this.celebration.length > 0 ? this.celebration[0].rank : undefined;
+  getCelebrationRank() {
+    return this.celebration[0]?.rank;
   }
 
   getProper(calendar: Calendar) {
@@ -77,7 +77,6 @@ class Day {
      * Get proper that is used in today Mass. If given day does not have a dedicated proper,
      * use the one from the latest Sunday.
      */
-
     const celebrationPropers = this.calculateProper(calendar, this.celebration);
 
     if (this.commemoration.length) {
@@ -85,10 +84,22 @@ class Day {
         calendar,
         this.commemoration,
       );
-
-      celebrationPropers.map((celebrationProper, i) => {
-        celebrationProper.addCommemorations(commemorationPropers[i]);
-      });
+      for (const celebrationProper of celebrationPropers) {
+        for (const i of [0, 1]) {
+          const proper = celebrationProper[i];
+          if (proper) {
+            const commemorations = commemorationPropers
+              .filter(
+                (commemorationProper) =>
+                  proper.id !== commemorationProper[i].id,
+              )
+              .map((cp) => cp[i]);
+            if (proper && commemorations.length) {
+              proper.addCommemorations(commemorations);
+            }
+          }
+        }
+      }
     }
 
     return celebrationPropers;
@@ -108,23 +119,19 @@ class Day {
         const proper = observance.getProper(properConfig);
         result.push(proper);
       }
-      return result[0];
+      return result;
     }
 
-    // It's a feria day without its own proper for which the last Sunday's proper is used
     const inferredObservances = this.inferObservance(calendar);
-
     const rank =
       observances.length && !match(observances, FERIA)
         ? observances[0].rank
         : 4;
-
     const preface = getCustomPreface(
       observances.length && !match(observances, FERIA)
         ? observances[0]
         : inferredObservances,
     );
-
     const prefaceOrDefault = !preface ? preface : PREFATIO_COMMUNIS;
     const config: ProperConfig = {
       preface: prefaceOrDefault,
@@ -138,7 +145,7 @@ class Day {
       }
     }
 
-    return propers;
+    return [propers];
   }
 
   private inferObservance(calendar: Calendar) {

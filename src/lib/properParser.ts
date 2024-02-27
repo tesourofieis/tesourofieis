@@ -6,14 +6,15 @@ import {
   GRADUALE_PASCHAL,
   LANGUAGE,
   LANGUAGE_LATIN,
+  NORMAL_SECTIONS,
   OBSERVANCES_WITHOUT_OWN_PROPER,
   PATTERN_ALLELUIA,
   PREFATIO_COMMUNIS,
   PREFATIO_OMIT,
   REFERENCE_REGEX,
   SECTION_REGEX,
+  SUB_SECTION_REGEX,
   TRACTUS,
-  VISIBLE_SECTIONS,
   getTranslation,
 } from "./constants.ts";
 import { ProperConfig, Proper, Section, ParsedSource } from "./proper.ts";
@@ -32,10 +33,6 @@ class ProperParser {
   }
 
   proper_exists(): boolean {
-    console.debug(
-      !match(this.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) &&
-        !!this._get_full_path(this._get_partial_path(), LANGUAGE),
-    );
     return (
       !match(this.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) &&
       !!this._get_full_path(this._get_partial_path(), LANGUAGE)
@@ -119,10 +116,10 @@ class ProperParser {
   ) {
     let parsedSource = new ParsedSource();
     let sectionName: string | null = null;
+    let subSectionName: string | null = null;
     let concatLine = false;
     const fullPath = this._get_full_path(partialPath, lang);
 
-    console.error(fullPath);
     const fileContent: string = fs.readFileSync(
       fullPath || partialPath,
       "utf8",
@@ -159,11 +156,17 @@ class ProperParser {
 
       if (ln.search(SECTION_REGEX) !== -1) {
         sectionName = ln.replace(SECTION_REGEX, "$1");
+        subSectionName = null;
       }
 
       if (!lookupSection || lookupSection === sectionName) {
         if (ln.match(SECTION_REGEX)) {
           parsedSource.setSection(sectionName, new Section(sectionName));
+        } else if (ln.match(SUB_SECTION_REGEX)) {
+          subSectionName = ln.replace(SUB_SECTION_REGEX, "$1");
+          parsedSource._container[sectionName].addSubsection(
+            new Section(subSectionName),
+          );
         } else {
           if (REFERENCE_REGEX.test(ln)) {
             const [, pathBit, nestedSectionName] =
@@ -211,7 +214,13 @@ class ProperParser {
                 parsedSource.getSection(sectionName).body.length - 1
               ] += appendLn;
             } else {
-              parsedSource.getSection(sectionName).body.push(appendLn);
+              if (sectionName && subSectionName) {
+                parsedSource
+                  .getSubSection(sectionName, subSectionName)
+                  .body.push(appendLn);
+              } else {
+                parsedSource._container[sectionName].body.push(appendLn);
+              }
             }
             concatLine = ln.endsWith("~");
           }
@@ -248,7 +257,7 @@ class ProperParser {
 
   private _filterSections(proper: Proper) {
     function notVisible(sectionId: string): boolean {
-      return !VISIBLE_SECTIONS.includes(sectionId);
+      return !NORMAL_SECTIONS.includes(sectionId);
     }
 
     function getExcludedInterReadingsSections(
@@ -278,9 +287,9 @@ class ProperParser {
 
     const sectionsToRemove: Set<string> = new Set();
 
-    for (const sectionId of Object.keys(proper)) {
-      if (notVisible(sectionId)) {
-        sectionsToRemove.add(sectionId);
+    for (const [id] of proper.items()) {
+      if (notVisible(id)) {
+        sectionsToRemove.add(id);
       }
     }
 
@@ -363,8 +372,8 @@ class ProperParser {
           ln.includes("(deinde dicuntur)") ||
           ln.includes("(sed communi Summorum Pontificum dicitur)")
         ) {
-          // Start skipping lines from now on
-          omit = true;
+          // Stop skipping lines from now on
+          omit = false;
           continue;
         }
 
@@ -397,21 +406,13 @@ class ProperParser {
     const full_path = path.join(
       process.cwd(),
       "src/lib",
-      `/resources/divinum-officium-custom/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`,
+      `/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`,
     );
+
     if (!fs.existsSync(full_path)) {
-      const fallback_path = path.join(
-        process.cwd(),
-        "src/lib",
-        `/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`,
-      );
-      if (!fs.existsSync(fallback_path)) {
-        return;
-      }
-      console.error(fallback_path);
-      return fallback_path;
+      return;
     }
-    console.error(full_path);
+
     return full_path;
   }
 

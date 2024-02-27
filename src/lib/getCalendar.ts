@@ -1,3 +1,4 @@
+import { getYear } from "date-fns";
 import { Calendar } from "./calendar.ts";
 
 function getCalendar(year: number) {
@@ -6,8 +7,8 @@ function getCalendar(year: number) {
   return calendar;
 }
 
-function getCalendarDay(year: number, date: string) {
-  const calendar = new Calendar(year).get(date);
+function getCalendarDay(date: string) {
+  const calendar = new Calendar(getYear(date)).get(date);
 
   return calendar;
 }

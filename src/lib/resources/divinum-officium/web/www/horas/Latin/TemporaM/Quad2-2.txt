@@ -1,5 +1,0 @@
-@Tempora/Quad2-2
-
-[Rank]
-Feria Tertia infra Hebdomadam II in Quadragesima;;Feria major;;3
-

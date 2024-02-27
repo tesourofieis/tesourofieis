@@ -1,4 +1,0 @@
-@Sancti/01-09
-
-[Rank]
-Die Nona Januarii;;Feria;;1.2;;vide Sancti/01-06

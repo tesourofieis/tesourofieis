@@ -389,7 +389,7 @@ class Calendar {
     return this._container.entries();
   }
 
-  serialize() {
+  serialize(): { [date: string]: Day } {
     const serialized = {};
     for (const [date_, day] of this.items()) {
       serialized[date_] = day.serialize();

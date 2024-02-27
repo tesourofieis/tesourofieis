@@ -1,7 +1,0 @@
-[Name]
-Commune plurimorum Virginum
-
-[Rule]
-Psalmi Dominica
-Antiphonas horas
-

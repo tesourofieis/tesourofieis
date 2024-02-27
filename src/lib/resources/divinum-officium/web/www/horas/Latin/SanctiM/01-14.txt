@@ -1,4 +1,0 @@
-@Sancti/01-14
-
-[Rank]
-S. Hilarii Episcopi Confessoris Ecclesiæ Doctoris;;Simplex;;1.1;;vide C4

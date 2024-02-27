@@ -6,11 +6,11 @@ import {
   COMMEMORATIONS_PT,
   GRADUALE,
   GRADUALE_PASCHAL,
+  NORMAL_SECTIONS,
   ORATIO,
   POSTCOMMUNIO,
   SECRETA,
   TRACTUS,
-  VISIBLE_SECTIONS,
 } from "./constants.ts";
 
 export class ProperConfig {
@@ -39,8 +39,9 @@ export class ProperConfig {
 export class Section {
   id = "";
   body: string[] = [];
+  subSections: Section[] = [];
 
-  constructor(id: string, body: string[] | null = null) {
+  constructor(id: string, body: string[] = []) {
     this.id = id;
     this.body = body || [];
   }
@@ -53,10 +54,18 @@ export class Section {
     this.body = [...this.body, ...bodyPart];
   }
 
+  addSubsection(subsection: Section): void {
+    this.subSections.push(subsection);
+  }
+
   serialize() {
     return {
       id: this.id,
       body: this.body,
+      subSections: this.subSections.map((i) => ({
+        id: i.id,
+        body: i.body,
+      })),
     };
   }
 
@@ -77,6 +86,14 @@ export class ParsedSource {
 
   getSection(sectionId: string): Section | null {
     return this._container[sectionId] || null;
+  }
+
+  getSubSection(sectionId: string, subSectionId: string): Section | null {
+    return (
+      this._container[sectionId].subSections.find(
+        (i) => i.id === subSectionId,
+      ) || null
+    );
   }
 
   setSection(sectionName: string, section: Section): void {
@@ -142,8 +159,8 @@ export class Proper extends ParsedSource {
     const list_ = this.values()
       .map((v) => v?.serialize())
       .sort((a, b) => {
-        const indexA = VISIBLE_SECTIONS.indexOf(a.id);
-        const indexB = VISIBLE_SECTIONS.indexOf(b.id);
+        const indexA = NORMAL_SECTIONS.indexOf(a.id);
+        const indexB = NORMAL_SECTIONS.indexOf(b.id);
         return indexA - indexB;
       });
 
@@ -185,31 +202,32 @@ export class Proper extends ParsedSource {
     return rules[ruleName] ?? null;
   }
 
-  addCommemorations(commemoration: Proper) {
-    const sections = [
-      {
-        commemorated_section_name: COMMEMORATED_ORATIO,
-        source_section_name: ORATIO,
-      },
-      {
-        commemorated_section_name: COMMEMORATED_SECRETA,
-        source_section_name: SECRETA,
-      },
-      {
-        commemorated_section_name: COMMEMORATED_POSTCOMMUNIO,
-        source_section_name: POSTCOMMUNIO,
-      },
-    ];
-
-    for (const { commemorated_section_name, source_section_name } of sections) {
-      const commemorated_section =
-        commemoration.getSection(source_section_name);
-
-      commemorated_section.body.unshift(commemoration.title);
-
-      commemorated_section.id = commemorated_section_name;
-
-      this.setSection(commemorated_section_name, commemorated_section);
+  addCommemorations(commemorations: Proper[]) {
+    for (const commemoration of commemorations) {
+      const sections = [
+        {
+          commemorated_section_name: COMMEMORATED_ORATIO,
+          source_section_name: ORATIO,
+        },
+        {
+          commemorated_section_name: COMMEMORATED_SECRETA,
+          source_section_name: SECRETA,
+        },
+        {
+          commemorated_section_name: COMMEMORATED_POSTCOMMUNIO,
+          source_section_name: POSTCOMMUNIO,
+        },
+      ];
+      for (const {
+        commemorated_section_name,
+        source_section_name,
+      } of sections) {
+        const commemoratedSection =
+          commemoration.getSection(source_section_name);
+        commemoratedSection.body.unshift(commemoration.title);
+        commemoratedSection.id = commemorated_section_name;
+        this.setSection(commemorated_section_name, commemoratedSection);
+      }
     }
   }
 

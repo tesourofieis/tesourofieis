@@ -1,7 +1,0 @@
-[Rank]
-S. Dorothy virgin and martyr;;Simplex;;1.1;;vide C6a
-
-[Rule]
-vide C6a;
-Gloria
-

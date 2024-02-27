@@ -1,16 +1,12 @@
 import { getCalendar } from "../../../../lib/getCalendar";
-import { format_propers } from "../../../../lib/utils";
+import { getDay } from "../../../../lib/getDay";
 
 export const GET = ({ params }) => {
   const { date } = params;
-  const calendar = getCalendar(new Date(date).getFullYear());
-  const day = calendar.get(date);
-  const proper = day?.getProper(calendar);
-  const format = format_propers(proper);
+  const proper = getDay(date);
   return new Response(
     JSON.stringify({
-      calendar: calendar.serialize(),
-      proper: format,
+      proper: proper,
     }),
     {
       status: 200,

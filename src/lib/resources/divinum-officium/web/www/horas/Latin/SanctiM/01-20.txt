@@ -1,4 +1,0 @@
-@Sancti/01-20
-
-[Responsory3]
-@Commune/C3:Responsory1

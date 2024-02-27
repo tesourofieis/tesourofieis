@@ -1,8 +1,0 @@
-@Tempora/Pent02-4
-
-[Rank]
-Feria V infra Hebdomadam II post Octavam Pentecostes;;Feria;;1
-
-[Rule]
- 
-

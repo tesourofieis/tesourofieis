@@ -1,5 +1,0 @@
-@Tempora/Quad4-3
-
-[Rank]
-Feria Quarta infra Hebdomadam IV in Quadragesima;;Feria major;;3
-

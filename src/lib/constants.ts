@@ -138,39 +138,22 @@ export const TEMPORA_RANK_MAP: {
   { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 23, rank: 2 },
 ];
 
-export const VISIBLE_SECTIONS = [
-  // "Comment",
-  // Atypical sections
-  // 02-02, feast of the Purification of the B.V.M.
-  "De Benedictione Candelarum",
-  "De Distributione Candelarum",
-  "De Processione",
-  // Quad6-0r, Dominica II Passionis seu in Palmis
-  "Benedictio Palmorum",
-  "De distributione ramorum",
-  "De lectione Evangelica",
-  "De processione cum ramis benedictis",
-  "Hymnus ad Christum Regem",
-  // Quad6-5r, Feria Sexta in Parasceve
-  "Lectiones",
-  "Passio",
-  "Oratio Fidelium",
-  "Crucis Adoratione",
-  "CommunioQ",
-  // Quad6-5r, Sabbato Sancto
-  "Benedictio ignis",
-  "De benedictione cerei Paschalis",
-  "De solemni processione",
-  "De praeconio paschali",
-  "De lectionibus",
-  "De prima parte Litaniarum",
-  "De benedictione aquae baptismalis",
-  "De renovatione promissionum baptismatis",
-  "De altera parte Litaniarum",
-  "De Missa solemni Vigiliae paschalis",
-  // Feria IV Cinerum
-  "Benedictio cinerum",
-  // Common sections
+export const IGNORED_REFERENCES = [
+  "Rule",
+  "Comment",
+  "Name",
+  "Evangelium1",
+  "Evangelium2",
+  "Evangelium3",
+  "Evangelium4",
+];
+
+export const NORMAL_SECTIONS = [
+  "Prelude",
+  "Prelude(rubrica 1570 aut rubrica divino)",
+  "De Benedictione Candelarum", // 02-02
+  "Kyrie",
+  "Gloria",
   INTROIT,
   ORATIO,
   "LectioL1",
@@ -195,32 +178,23 @@ export const VISIBLE_SECTIONS = [
   TRACTUS,
   "Sequentia",
   EVANGELIUM,
-  "Maundi", // Quad6-4r, Feria Quinta in Coena Domini
   OFFERTORIUM,
-  // 'OffertoriumP',  Ignoring for now
+  "OffertoriumP",
   SECRETA,
   COMMEMORATED_SECRETA,
   PREFATIO,
-  "Pro Laudibus", // Quad6-5r, Sabbato Sancto
+  "Canon",
+  "Preparatio Communionis",
   "Communicantes",
   COMMUNIO,
-  // 'CommunioP',  Ignoring for now
+  "Communio Populi",
+  "CommunioP",
   POSTCOMMUNIO,
   COMMEMORATED_POSTCOMMUNIO,
-  "Conclusio", // Quad6-5r, Sabbato Sancto
   "Super populum",
-  "Post Missam", // Quad6-4r, Feria Quinta in Coena Domini
-  "Denudatione altaris", // Quad6-4r, Feria Quinta in Coena Domini
+  "Ultima Evangelium",
+  "Post Missam",
 ];
-
-// References to the sections that do not exist in the source files and are ignored
-// on purpose as they make sense in the context of Divinum Officium, but not in Missalemeum
-// const IGNORED_REFERENCES = [
-//   "Oratio Gregem",
-//   "Secreta Gregem",
-//   "Postcommunio Gregem",
-//   "Munda Cor Passionis",
-// ];
 
 export const FERIA = ":feria:4:w";
 // TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
@@ -325,13 +299,13 @@ export const TEMPORA_QUAD5_3 = "tempora:Quad5-3:3:v";
 export const TEMPORA_QUAD5_4 = "tempora:Quad5-4:3:v";
 export const TEMPORA_QUAD5_5 = "tempora:Quad5-5Feria:3:v";
 export const TEMPORA_QUAD5_6 = "tempora:Quad5-6:3:v";
-export const TEMPORA_QUAD6_0 = "tempora:Quad6-0r:1:rv"; // 2nd Passion Sunday (Palm Sunday)
+export const TEMPORA_QUAD6_0 = "tempora:Quad6-0:1:rv"; // 2nd Passion Sunday (Palm Sunday)
 export const TEMPORA_QUAD6_1 = "tempora:Quad6-1:1:v";
 export const TEMPORA_QUAD6_2 = "tempora:Quad6-2:1:v";
 export const TEMPORA_QUAD6_3 = "tempora:Quad6-3:1:v";
-export const TEMPORA_QUAD6_4 = "tempora:Quad6-4r:1:w"; // Maundy Thursday
-export const TEMPORA_QUAD6_5 = "tempora:Quad6-5r:1:bv"; // Good Friday
-export const TEMPORA_QUAD6_6 = "tempora:Quad6-6r:1:vw"; // Holy Saturday
+export const TEMPORA_QUAD6_4 = "tempora:Quad6-4t:1:w"; // Maundy Thursday
+export const TEMPORA_QUAD6_5 = "tempora:Quad6-5:1:bv"; // Good Friday
+export const TEMPORA_QUAD6_6 = "tempora:Quad6-6:1:vw"; // Holy Saturday
 
 export const TEMPORA_PASC0_0 = "tempora:Pasc0-0:1:w"; // Resurrection Sunday
 export const TEMPORA_PASC0_1 = "tempora:Pasc0-1:1:w";
@@ -1083,7 +1057,8 @@ export const OBSERVANCES_WITHOUT_OWN_PROPER: RegExp[] = [
 ];
 
 export const REFERENCE_REGEX: RegExp = /^@([\w/\-]*):?([^:]*)[: ]*(.*)/;
-export const SECTION_REGEX: RegExp = /^### *(.*)/;
+export const SECTION_REGEX: RegExp = /^SECTION *(.*)/;
+export const SUB_SECTION_REGEX: RegExp = /^SUBSECTION *(.*)/;
 export const SECTION_VERSE: RegExp = /^! *(.*)/;
 
 export const TITLES: Record<string, string> = {
@@ -1798,7 +1773,7 @@ export const SECTION_LABELS = {
   Sequentia: "Sequentia",
   "Super populum": "Super populum",
   Prefatio: "Prefatio",
-  Tractus: "Graduale",
+  Tractus: "Tractus",
   // 02-02, feast of the Purification of the B.V.M.
   "De Benedictione Candelarum": "De Benedictione Candelarum",
   "De Distributione Candelarum": "De Distributione Candelarum",
@@ -1875,10 +1850,12 @@ export const TRANSFORMATIONS = [
   { pattern: /\+/, replacement: "☩" },
   { pattern: /V\./, replacement: "℣." },
   { pattern: /R\./, replacement: "℟." },
-  { pattern: /^#/, replacement: "##" },
-  { pattern: /^!x!/, replacement: "!" },
-  { pattern: /^!! *(.*)/, replacement: "### $1" },
-  { pattern: /^\[([^\]^]*)\]/, replacement: "### $1" },
+  { pattern: /^#.(.*)/, replacement: "" },
+  { pattern: /^!x! *(.*)/, replacement: "$1" },
+  { pattern: /^!x!! *(.*)/, replacement: "$1" },
+  { pattern: /^!!! *(.*)/, replacement: "$1" },
+  { pattern: /^!! *(.*)/, replacement: "SUBSECTION $1" },
+  { pattern: /^\[([^\]^]*)\]/, replacement: "SECTION $1" },
   { pattern: /^! *(.*)/, replacement: "$1" }, // Verse
   { pattern: /^v\. */, replacement: "" },
   { pattern: /^_/, replacement: "" },
@@ -3222,9 +3199,9 @@ export const TITLES_PT: Record<string, string> = {
   [SANCTI_12_16]: "S. Eusébio, Bispo e Mártir",
   [SANCTI_12_21]: "S. Tomé, Apóstolo",
   [SANCTI_12_24]: "Vigília Natal de N. S. Jesus Cristo",
-  [SANCTI_12_25_1]: "Natal de N. S. Jesus Cristo",
-  [SANCTI_12_25_2]: "Natal de N. S. Jesus Cristo",
-  [SANCTI_12_25_3]: "Natal de N. S. Jesus Cristo",
+  [SANCTI_12_25_1]: "Missa da Noite de Natal de N. S. Jesus Cristo",
+  [SANCTI_12_25_2]: "Missa da Aurora de Natal de N. S. Jesus Cristo",
+  [SANCTI_12_25_3]: "Missa do Dia de Natal de N. S. Jesus Cristo",
   [SANCTI_12_26]: "S. Estêvão, Primeiro Mártir",
   [SANCTI_12_27]: "S. João, Apóstolo e Evangelista",
   [SANCTI_12_28]: "Santos Inocentes",
@@ -3410,10 +3387,12 @@ export const TRANSFORMATIONS_PT = [
   { pattern: /\+/, replacement: "☩" },
   { pattern: /V\./, replacement: "℣." },
   { pattern: /R\./, replacement: "℟." },
-  { pattern: /^#/, replacement: "##" },
-  { pattern: /^!x!/, replacement: "!" },
-  { pattern: /^!! *(.*)/, replacement: "### $1" },
-  { pattern: /^\[([^\]^]*)\]/, replacement: "### $1" },
+  { pattern: /^#.(.*)/, replacement: "" },
+  { pattern: /^!x! *(.*)/, replacement: "$1" },
+  { pattern: /^!x!! *(.*)/, replacement: "$1" },
+  { pattern: /^!!! *(.*)/, replacement: "$1" },
+  { pattern: /^!! *(.*)/, replacement: "SUBSECTION $1" },
+  { pattern: /^\[([^\]^]*)\]/, replacement: "SECTION $1" },
   { pattern: /^! *(.*)/, replacement: "$1" }, // Verse
   { pattern: /^v\. */, replacement: "" },
   { pattern: /^_/, replacement: "" },

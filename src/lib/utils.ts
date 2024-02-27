@@ -78,6 +78,7 @@ export interface ProperDay {
     rank: number;
     colors: string[];
     date: string;
+    day: Day;
   };
   sections: Section[];
 }
@@ -88,26 +89,33 @@ interface Section {
     latin: string[];
     vernacular: string[];
   };
+  subSections?: Section[];
 }
 
-function format_propers(propers: Proper[], day?: Day): ProperDay {
-  const [propers_vernacular, propers_latin] = propers;
-  const title = propers_vernacular.title;
-  const tempora_name = day ? day.getTemporaName() : null;
+function format_propers(propers: Proper[][], day: Day): ProperDay[] {
+  return propers?.map((proper) => {
+    if (proper) {
+      const [properVernacular, properLatin] = proper;
 
-  const info = {
-    id: propers_vernacular.id,
-    title: title,
-    tempora: tempora_name !== title ? tempora_name : null,
-    rank: propers_vernacular.rank,
-    colors: propers_vernacular.colors,
-    date: day ? day.date : null,
-  };
+      const title = properVernacular.title;
+      const temporaName = day.getTemporaName();
 
-  return {
-    info: info,
-    sections: format_proper_section(propers_latin, propers_vernacular),
-  };
+      const info = {
+        id: properVernacular.id,
+        title: title || "Feria",
+        tempora: temporaName !== title ? temporaName : null,
+        rank: properVernacular.rank,
+        colors: properVernacular.colors,
+        date: day.date,
+        day: day,
+      };
+
+      return {
+        info: info,
+        sections: format_proper_section(properLatin, properVernacular),
+      };
+    }
+  });
 }
 
 function format_proper_section(
@@ -115,16 +123,30 @@ function format_proper_section(
   propers_vernacular: Proper,
 ) {
   const pl = [];
+  const latinPropers = propers_latin.serialize();
+  const vernacularPropers = propers_vernacular.serialize();
 
-  const latin = propers_latin.serialize();
+  for (const vernacular of vernacularPropers) {
+    const latinProp = latinPropers.find(
+      (latin) => latin?.id === vernacular?.id,
+    );
 
-  for (const vernacular of propers_vernacular.serialize()) {
     pl.push({
-      id: vernacular?.id,
+      id: latinProp?.id,
       body: {
-        latin: latin.find((i) => i?.id === vernacular?.id)?.body,
+        latin: latinProp?.body,
         vernacular: vernacular?.body,
       },
+      subSections: latinProp?.subSections?.map((latin) => ({
+        id: latin?.id,
+        body: {
+          latin: latin?.body,
+          vernacular:
+            vernacular.subSections.find(
+              (vernacular) => vernacular.id === latin.id,
+            )?.body ?? "",
+        },
+      })),
     });
   }
 

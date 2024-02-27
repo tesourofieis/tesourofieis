@@ -1,0 +1,264 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`2024-11-03 1`] = `
+[
+  {
+    "info": {
+      "colors": [
+        "g",
+      ],
+      "date": "2024-11-03",
+      "day": Day {
+        "celebration": [
+          Observance {
+            "colors": [
+              "g",
+            ],
+            "date": "2024-11-03",
+            "flexibility": "tempora",
+            "id": "tempora:Epi4-0:2:g",
+            "name": "Epi4-0",
+            "priority": 45,
+            "rank": 2,
+            "title": "4º Domingo após a Epifania",
+            "weekday": 0,
+          },
+        ],
+        "commemoration": [],
+        "date": "2024-11-03",
+        "tempora": [
+          Observance {
+            "colors": [
+              "g",
+            ],
+            "date": "2024-11-03",
+            "flexibility": "tempora",
+            "id": "tempora:Epi4-0:2:g",
+            "name": "Epi4-0",
+            "priority": 45,
+            "rank": 2,
+            "title": "4º Domingo após a Epifania",
+            "weekday": 0,
+          },
+        ],
+      },
+      "id": "tempora:Epi4-0:2:g",
+      "rank": 2,
+      "tempora": null,
+      "title": "4º Domingo após a Epifania",
+    },
+    "sections": [
+      {
+        "body": {
+          "latin": [
+            "Ps 96:7-8",
+            "Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judæ.",
+            "Ps 96:1",
+            "Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ.",
+            "Glória Patri…",
+            "Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judæ.",
+            "",
+          ],
+          "vernacular": [
+            "Sl 96:7-8",
+            "Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião: e rejubilou: e as filhas de Judá exultaram de alegria.",
+            "Sl 96:1",
+            "O Senhor reinou: alegre-se a terra e as suas muitas ilhas.",
+            "Glória ao Pai.",
+            "Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião: e rejubilou: e as filhas de Judá exultaram de alegria.",
+            "",
+          ],
+        },
+        "id": "Introitus",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Deus, qui nos, in tantis perículis constitútos, pro humána scis fragilitáte non posse subsístere: da nobis salútem mentis et córporis; ut ea, quæ pro peccátis nostris pátimur, te adjuvánte vincámus.",
+            "Per Dominum…",
+            "",
+          ],
+          "vernacular": [
+            "Ó Deus, que conheceis não poder a fraqueza humana subsistir no meio de tantos perigos que nos cercam, concedei-nos a saúde da alma e do corpo, a fim de que com vosso auxílio possamos vencer os males que devemos sofrer em castigo dos pecados.",
+            "Por nosso Senhor...",
+            "",
+          ],
+        },
+        "id": "Oratio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.",
+            "Rom 13:8-10",
+            "Fratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui enim díligit próximum, legem implévit. Nam: Non adulterábis, Non occídes, Non furáberis, Non falsum testimónium dices, Non concupísces: et si quod est áliud mandátum, in hoc verbo instaurátur: Díliges próximum tuum sicut teípsum. Diléctio próximi malum non operátur. Plenitúdo ergo legis est diléctio.",
+            "",
+          ],
+          "vernacular": [
+            "Lição da Ep.ª do B. Ap.º Paulo aos Romanos",
+            "Rom 13:8-10",
+            "Meus irmãos: Não sejais devedores a ninguém de coisa alguma, senão do amor que deveis uns aos outros; pois aquele que ama o seu próximo cumpre a lei. Com efeito, estes mandamentos de Deus: não cometerás adultério; não matarás; não roubarás; não levantarás falso testemunho; não cobiçarás as coisas alheias, e todos os outros mandamentos que há, resumem-se nestas palavras: amarás ao teu próximo como a ti próprio. O amor ao próximo não permite que se lhe faça mal. O amor é, portanto, a plenitude da lei.",
+            "",
+          ],
+        },
+        "id": "Lectio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Ps 101:16-17",
+            "Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.",
+            "℣. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua. Allelúja, allelúja.",
+            "Ps 96:1",
+            "Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. Allelúja.",
+            "",
+          ],
+          "vernacular": [
+            "Sl 101:16-17",
+            "As nações temerão o vosso nome, Senhor; e todos os reis da terra contemplarão a vossa glória.",
+            "℣. Pois o Senhor reedificou Sião: e manifestar-se-á aí na sua majestade. Aleluia, aleluia.",
+            "Sl 96:1",
+            "O Senhor reinou: alegre-se a terra e as suas muitas ilhas. Aleluia.",
+            "",
+          ],
+        },
+        "id": "Graduale",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Sequéntia ☩ sancti Evangélii secúndum Matthǽum.",
+            "Matt 8:23-27",
+            "In illo témpore: Ascendénte Jesu in navículam, secúti sunt eum discípuli ejus: et ecce, motus magnus factus est in mari, ita ut navícula operirétur flúctibus, ipse vero dormiébat. Et accessérunt ad eum discípuli ejus, et suscitavérunt eum, dicéntes: Dómine, salva nos, perímus. Et dicit eis Jesus: Quid tímidi estis, módicæ fídei? Tunc surgens, imperávit ventis et mari, et facta est tranquíllitas magna. Porro hómines miráti sunt, dicéntes: Qualis est hic, quia venti et mare obœ́diunt ei?",
+            "",
+          ],
+          "vernacular": [
+            "Continuação ☩ do santo Evangelho segundo S. Mateus",
+            "Mt 8:23-27",
+            "Naquele tempo, Jesus entrou em uma barca, sendo acompanhado pelos seus discípulos. E eis que uma grande tempestade surgiu do mar, de modo que as ondas cobriam a barca. Jesus dormia. Os discípulos aproximaram-se, então, de Jesus, dizendo: «Senhor, salvai-nos, pois perecemos!». Jesus disse-lhes: «Porque receais, homens de pouca fé?». E, erguendo-se, impôs a sua vontade aos ventos e ao mar; e fez-se uma grande bonança. E aqueles homens admiraram-se, dizendo: «Quem é Este, que até os ventos e o mar Lhe obedecem?!».",
+            "",
+          ],
+        },
+        "id": "Evangelium",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Ps 117:16; 117:17",
+            "Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.",
+            "",
+          ],
+          "vernacular": [
+            "Sl 117:16-17",
+            "A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me. Não morrerei: viverei e narrarei os prodígios do Senhor.",
+            "",
+          ],
+        },
+        "id": "Offertorium",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum fragilitátem nostram ab omni malo purget semper et múniat.",
+            "Per Dominum…",
+            "",
+          ],
+          "vernacular": [
+            "Vos suplicamos, fazei que a hóstia oferecida neste sacrifício livre a nossa fraqueza de todo o mal e a fortifique para o futuro.",
+            "Por nosso Senhor...",
+            "",
+          ],
+        },
+        "id": "Secreta",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "de sanctissima Trinitate",
+            "Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Qui cum unigénito Fílio tuo et Spíritu Sancto unus es Deus, unus es Dóminus: non in uníus singularitáte persónæ, sed in uníus Trinitáte substántiæ. Quod enim de tua glória, revelánte te, crédimus, hoc de Fílio tuo, hoc de Spíritu Sancto sine differéntia discretiónis sentímus. Ut in confessióne veræ sempiternǽque Deitátis, et in persónis propríetas, et in esséntia únitas, et in majestáte adorétur æquálitas. Quam laudant Angeli atque Archángeli, Chérubim quoque ac Séraphim: qui non cessant clamáre cotídie, una voce dicéntes:",
+            "",
+          ],
+          "vernacular": [
+            "da SS. Trindade",
+            "É verdadeiramente digno e justo, racional e salutar render-Vos graças em todos os lugares e sempre, ó Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unigénito e com o Espírito Santo sois um só Deus, um só Senhor, não na unidade de uma só pessoa, mas na Trindade de uma só substância. Porquanto, o que acreditamos a respeito da vossa glória, acreditamo-lo também, pela vossa revelação, a respeito do vosso Filho e do Espírito Santo, de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na essência a unidade e a igualdade na majestade. É esta majestade, que louvam os Anjos e Arcanjos, os Querubins e Serafins, que não cessam quotidianamente de cantar em uníssono:",
+            "",
+          ],
+        },
+        "id": "Prefatio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Luc 4:22",
+            "Mirabántur omnes de his, quæ procedébant de ore Dei.",
+            "",
+          ],
+          "vernacular": [
+            "Lc 4:22",
+            "Todos estavam admirados das palavras que saíam da boca de Deus.",
+            "",
+          ],
+        },
+        "id": "Communio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et cœléstibus semper instáurent aliméntis.",
+            "Per Dominum…",
+            "",
+          ],
+          "vernacular": [
+            "Ó Deus, que estes vossos dons nos afastem dos gozos terrenos, e nos restaurem com seu alimento celestial.",
+            "Por nosso Senhor...",
+            "",
+          ],
+        },
+        "id": "Postcommunio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": undefined,
+          "vernacular": undefined,
+        },
+        "id": undefined,
+        "subSections": undefined,
+      },
+      {
+        "body": {
+          "latin": undefined,
+          "vernacular": undefined,
+        },
+        "id": undefined,
+        "subSections": undefined,
+      },
+      {
+        "body": {
+          "latin": undefined,
+          "vernacular": undefined,
+        },
+        "id": undefined,
+        "subSections": undefined,
+      },
+      {
+        "body": {
+          "latin": undefined,
+          "vernacular": undefined,
+        },
+        "id": undefined,
+        "subSections": undefined,
+      },
+    ],
+  },
+]
+`;

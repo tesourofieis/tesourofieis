@@ -1,6 +1,0 @@
-[Lectio11]
-@Sancti/12-28:Lectio9:s/Odpowiemy .*//s
-
-[Lectio12]
-@Sancti/12-28:Lectio9:s/.* Odpowiemy /Odpowiemy /s
-

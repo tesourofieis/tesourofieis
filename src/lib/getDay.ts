@@ -9,7 +9,7 @@ function getDay(date: string) {
 
   const proper = day?.getProper(calendar);
 
-  const format = format_propers(proper);
+  const format = format_propers(proper, day);
 
   return format;
 }
