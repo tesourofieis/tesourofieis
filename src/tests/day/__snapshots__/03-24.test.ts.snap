@@ -53,44 +53,39 @@ exports[`domingo de ramos 1`] = `
     "sections": [
       {
         "body": {
-          "latin": [],
-          "vernacular": [],
+          "latin": [
+            "",
+            "Antiphona",
+            "Matt 21:9",
+            "Hosánna fílio David: benedíctus, qui venit in nómine Dómini. O Rex Israël: Hosánna in excélsis.",
+            "Deinde Sacerdos stans in cornu Epistolæ, non vertens se ad populum, dicit, manibus junctis, in tono Orationis ferialis:",
+            "℣. Dóminus vobíscum.    
+
+℟. Et cum spíritu tuo.",
+            "Oremus.",
+            "Deus, quem dilígere et amáre justítia est, ineffábilis grátiæ tuæ in nobis dona multíplica: et qui fecísti nos in morte Fílii tui speráre quæ crédimus; fac nos eódem resurgénte perveníre quo téndimus:",
+            "Qui tecum…",
+            "",
+            "Postea Subdiaconus in loco solito cantat sequentem Lectionem in tono Epistolæ, et in fine osculatur manum Sacerdotis.",
+          ],
+          "vernacular": [
+            "",
+            "Ant.",
+            "Mt 21:9",
+            "Hosana ao filho de David! Bendito seja o que vem em nome do Senhor. Ó Rei de Israel! Hosana no alto dos céus!",
+            "O Sacerdote, no lado da epístola, com as mãos juntas, sem se virar para os fiéis, canta:",
+            "℣. O Senhor seja convosco.    
+
+℟. E com o vosso espírito.",
+            "Oremos.",
+            "Ó Deus, a quem devemos amar para sermos justos, multiplicai na nossa alma os dons da vossa inefável graça; e, já que pela morte do vosso Filho quisestes que tivéssemos esperança no que constitui o objecto da nossa Fé, permiti que pela sua ressurreição alcancemos o fim a que aspiramos:",
+            "Que convosco vive...",
+            "",
+            "O subdiácono depois canta a seguinte lição, e no fim beija a mão do sacerdote:",
+          ],
         },
         "id": "Prelude",
         "subSections": [
-          {
-            "body": {
-              "latin": [
-                "Antiphona",
-                "Matt 21:9",
-                "Hosánna fílio David: benedíctus, qui venit in nómine Dómini. O Rex Israël: Hosánna in excélsis.",
-                "Deinde Sacerdos stans in cornu Epistolæ, non vertens se ad populum, dicit, manibus junctis, in tono Orationis ferialis:",
-                "℣. Dóminus vobíscum.    
-
-℟. Et cum spíritu tuo.",
-                "Oremus.",
-                "Deus, quem dilígere et amáre justítia est, ineffábilis grátiæ tuæ in nobis dona multíplica: et qui fecísti nos in morte Fílii tui speráre quæ crédimus; fac nos eódem resurgénte perveníre quo téndimus:",
-                "Qui tecum…",
-                "",
-                "Postea Subdiaconus in loco solito cantat sequentem Lectionem in tono Epistolæ, et in fine osculatur manum Sacerdotis.",
-              ],
-              "vernacular": [
-                "Ant.",
-                "Mt 21:9",
-                "Hosana ao filho de David! Bendito seja o que vem em nome do Senhor. Ó Rei de Israel! Hosana no alto dos céus!",
-                "O Sacerdote, no lado da epístola, com as mãos juntas, sem se virar para os fiéis, canta:",
-                "℣. O Senhor seja convosco.    
-
-℟. E com o vosso espírito.",
-                "Oremos.",
-                "Ó Deus, a quem devemos amar para sermos justos, multiplicai na nossa alma os dons da vossa inefável graça; e, já que pela morte do vosso Filho quisestes que tivéssemos esperança no que constitui o objecto da nossa Fé, permiti que pela sua ressurreição alcancemos o fim a que aspiramos:",
-                "Que convosco vive...",
-                "",
-                "O subdiácono depois canta a seguinte lição, e no fim beija a mão do sacerdote:",
-              ],
-            },
-            "id": "Benedictio Palmorum",
-          },
           {
             "body": {
               "latin": [
