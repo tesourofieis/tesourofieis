@@ -1,4 +1,4 @@
-name: Test
+name: On pull request
 
 on:
   pull_request:
@@ -6,7 +6,8 @@ on:
       - master
 
 jobs:
-  unit:
+  test-unit:
+    name: Test unit
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,14 +21,16 @@ jobs:
       - run: npm ci
       - run: npm test
 
-  end-to-end:
+  test-e2e:
+    needs: test-unit
+    name: End to end
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          submodules: recursive
+          cache: "npm"
           node-version: 18
       - name: Install dependencies
         run: npm ci
