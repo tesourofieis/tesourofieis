@@ -24,8 +24,8 @@ jobs:
         uses: withastro/action@v2
         with:
           path: .
-          node-version: 18
-          package-manager: npm
+          cache: "npm"
+          node-version: "18"
 
   deploy:
     needs: build
