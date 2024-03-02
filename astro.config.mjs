@@ -4,12 +4,12 @@ import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import react from "@astrojs/react";
-const site = "https://tesourofieis.com";
 import sitemap from "@astrojs/sitemap";
 import Icons from "unplugin-icons/vite";
 import partytown from "@astrojs/partytown";
-
 import robotsTxt from "astro-robots-txt";
+
+const site = "https://tesourofieis.com";
 
 // https://astro.build/config
 export default defineConfig({
