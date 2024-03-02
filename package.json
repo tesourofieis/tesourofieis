@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "prepare": "npx husky install",
-    "test": "vitest ./src/tests"
+    "test": "vitest ./src/tests",
+    "deploy-preview": "wrangler pages dev ./dist"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
@@ -45,7 +46,8 @@
     "@types/node": "^20.11.17",
     "lint-staged": "^15.2.0",
     "prettier": "^3.2.5",
-    "vitest": "^1.2.1"
+    "vitest": "^1.2.1",
+    "wrangler": "^3.30.1"
   },
   "lint-staged": {
     "*.{json,md,mdx,ts}": [
