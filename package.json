@@ -10,7 +10,9 @@
     "astro": "astro",
     "prepare": "npx husky install",
     "test": "vitest ./src/tests",
-    "deploy-preview": "wrangler pages dev ./dist"
+    "deploy-preview": "wrangler pages dev ./dist",
+    "check": "astro check && tsc --skipLibCheck",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
@@ -44,5 +46,14 @@
     "prettier": "^3.2.5",
     "vitest": "^1.2.1",
     "wrangler": "^3.30.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run check"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "npm run lint:fix"
   }
 }
