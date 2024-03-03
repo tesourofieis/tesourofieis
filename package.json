@@ -50,7 +50,7 @@
     "wrangler": "^3.30.1"
   },
   "lint-staged": {
-    "*.{json,md,mdx,ts}": [
+    "*.{json,tsx,ts}": [
       "prettier src -w"
     ]
   },
