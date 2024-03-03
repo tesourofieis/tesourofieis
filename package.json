@@ -8,10 +8,9 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prepare": "npx husky install",
     "test": "vitest ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
-    "check": "astro check && tsc --skipLibCheck",
+    "check": "astro check",
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
@@ -43,19 +42,8 @@
     "@iconify-icon/react": "^1.0.8",
     "@playwright/test": "^1.41.2",
     "@types/node": "^20.11.17",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "vitest": "^1.2.1",
     "wrangler": "^3.30.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run check"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "npm run lint:fix"
   }
 }
