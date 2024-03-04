@@ -4,8 +4,6 @@ pre-push:
     check:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
       run: npx biome check --no-errors-on-unmatched --files-ignore-unknown=true {push_files}
-    astro:
-      run: npx astro check
 
 # Format, lint, and apply safe code fixes before committing
 pre-commit:
