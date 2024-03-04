@@ -10,7 +10,8 @@
     "astro": "astro",
     "test": "vitest ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
-    "check": "npx biome check src --apply"
+    "check": "biome check src --apply",
+    "check-astro": "astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
