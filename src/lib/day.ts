@@ -1,3 +1,4 @@
+import { UTCDate } from "@date-fns/utc";
 import {
   getYear,
   isSameDay,
@@ -5,6 +6,7 @@ import {
   isSunday,
   previousSunday,
 } from "date-fns";
+import { Calendar } from "./calendar.ts";
 import {
   CUSTOM_INTER_READING_SECTIONS,
   FERIA,
@@ -24,8 +26,6 @@ import {
 import { Observance } from "./observance.ts";
 import { Proper, ProperConfig } from "./proper.ts";
 import { getCustomPreface, match, yyyyMMDD } from "./utils.ts";
-import { Calendar } from "./calendar.ts";
-import { UTCDate } from "@date-fns/utc";
 
 // """ Class used to keep `Observance` objects for particular days of Missal.
 //

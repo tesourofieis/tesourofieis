@@ -10,8 +10,8 @@
     "astro": "astro",
     "test": "vitest ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
-    "check": "astro check",
-    "lint:fix": "eslint . --fix"
+    "check": "biome check src --apply",
+    "check-astro": "astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
@@ -26,7 +26,7 @@
     "@iconify/json": "^2.2.178",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
-    "astro": "^4.4.7",
+    "astro": "^4.4.10",
     "astro-robots-txt": "^1.0.0",
     "date-fns": "^3.2.0",
     "firebase": "^10.8.0",
@@ -39,10 +39,11 @@
     "unplugin-icons": "^0.18.3"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.5.3",
     "@iconify-icon/react": "^1.0.8",
     "@playwright/test": "^1.41.2",
     "@types/node": "^20.11.17",
-    "prettier": "^3.2.5",
+    "lefthook": "^1.6.5",
     "vitest": "^1.2.1",
     "wrangler": "^3.30.1"
   }

@@ -1,4 +1,4 @@
-import { test, expect } from "vitest";
+import { expect, test } from "vitest";
 import { Calendar } from "../../lib/calendar";
 
 test("no celebration when tempora", () => {

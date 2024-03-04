@@ -1,9 +1,9 @@
-import { yyyyMMDD, type ProperDay } from "../lib/utils";
+import { Icon } from "@iconify-icon/react/dist/iconify.js";
 import { useEffect, useState } from "react";
+import React from "react";
+import { type ProperDay, yyyyMMDD } from "../lib/utils";
 import Loading from "./Loading";
 import { SideCalendar, getColor } from "./SideCalendar";
-import { Icon } from "@iconify-icon/react/dist/iconify.js";
-import React from "react";
 
 export default function Mass() {
   const [date, setDate] = useState<string>(yyyyMMDD(new Date()));
@@ -38,7 +38,7 @@ export default function Mass() {
     if (proper) {
       setInfo(proper[activeTab].info);
     }
-  }, [activeTab]);
+  }, [proper, activeTab]);
 
   if (error)
     return (
@@ -67,14 +67,20 @@ export default function Mass() {
 
       {proper && (
         <div
-          className={`not-content mr-${isSidebarCollapsed ? "0" : "48"} transition-all duration-300`}
+          className={`not-content mr-${
+            isSidebarCollapsed ? "0" : "48"
+          } transition-all duration-300`}
         >
           {proper.length > 1 && (
             <div className="flex mb-4 justify-center">
               {proper.map((sections, index) => (
                 <button
+                  type="button"
+                  // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
                   key={index}
-                  className={`text-sepia-900 bg-sepia-300 m-2  ${index === activeTab ? "border-b-4 border-red-500" : ""}`}
+                  className={`text-sepia-900 bg-sepia-300 m-2  ${
+                    index === activeTab ? "border-b-4 border-red-500" : ""
+                  }`}
                   onClick={() => setActiveTab(index)}
                 >
                   {sections.info.title}
@@ -109,11 +115,13 @@ export default function Mass() {
           <div>
             {proper.map((sections, index) => (
               <div
+                // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
                 key={index}
                 className={`${index === activeTab ? "" : "hidden"}`}
               >
                 {sections.sections.map((section, sectionIndex) => (
                   <>
+                    {/* biome-ignore lint/suspicious/noArrayIndexKey: <explanation> */}
                     <div key={sectionIndex}>
                       <h2
                         className="text-center text-sepia-500"
@@ -136,7 +144,7 @@ export default function Mass() {
                               </span>
                             ) : (
                               <span>
-                                <p className="text-justify my-2"></p>
+                                <p className="text-justify my-2" />
                               </span>
                             )}
                           </React.Fragment>
@@ -170,7 +178,7 @@ export default function Mass() {
                                     </span>
                                   ) : (
                                     <span>
-                                      <p className="text-justify my-2"></p>
+                                      <p className="text-justify my-2" />
                                     </span>
                                   )}
                                 </React.Fragment>
