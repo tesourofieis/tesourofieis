@@ -11,7 +11,7 @@
     "test": "vitest ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
     "check": "astro check",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint src --fix"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
@@ -38,10 +38,16 @@
     "typescript": "^5.3.3",
     "unplugin-icons": "^0.18.3"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
   "devDependencies": {
     "@iconify-icon/react": "^1.0.8",
     "@playwright/test": "^1.41.2",
     "@types/node": "^20.11.17",
+    "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "vitest": "^1.2.1",
     "wrangler": "^3.30.1"
