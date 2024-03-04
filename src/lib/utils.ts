@@ -1,12 +1,12 @@
-import fs from "fs";
-import path from "path";
-import type { UTCDate } from "@date-fns/utc";
-import { format } from "date-fns";
-import type { Calendar } from "./calendar.ts";
 import { CUSTOM_PREFACES, PROPERS_DIR } from "./constants.ts";
-import { Day } from "./day.ts";
+import path from "path";
+import fs from "fs";
 import { Observance } from "./observance.ts";
 import { Proper } from "./proper.ts";
+import { Day } from "./day.ts";
+import type { Calendar } from "./calendar.ts";
+import type { UTCDate } from "@date-fns/utc";
+import { format } from "date-fns";
 
 type Pattern = string | RegExp;
 
@@ -14,21 +14,19 @@ function match(
   observances: string | Observance | (string | Observance)[],
   patterns: string | Pattern | (string | Pattern)[],
 ): Observance | undefined {
-  let newObservances = [];
   if (!Array.isArray(observances)) {
-    newObservances = [observances];
+    observances = [observances];
   }
 
-  let newPatterns = [];
   if (!Array.isArray(patterns)) {
-    newPatterns = [patterns];
+    patterns = [patterns];
   }
 
-  for (const observance of newObservances) {
+  for (const observance of observances) {
     const observanceId =
       typeof observance === "string" ? observance : observance.id;
 
-    for (const pattern of newPatterns) {
+    for (const pattern of patterns) {
       if (
         typeof pattern === "string" &&
         new RegExp(pattern).test(observanceId)

@@ -137,14 +137,13 @@ class Calendar {
     overwrite = true,
     stopDate?: Date,
   ) {
-    let newBlock = block;
     if (reverse) {
       // TODO: use toReversed in order not to mutate the original
       // or slice
-      newBlock = block.slice().reverse();
+      block = block.slice().reverse();
     }
 
-    for (const [ii, observance_ids] of newBlock.entries()) {
+    for (const [ii, observance_ids] of block.entries()) {
       const currentDate = addDays(new UTCDate(date), reverse ? -ii : ii);
 
       if (!observance_ids) {

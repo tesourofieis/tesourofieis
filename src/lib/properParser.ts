@@ -235,13 +235,12 @@ class ProperParser {
   }
 
   private _normalize(ln: string, lang: string) {
-    let newLn: string;
     for (const { pattern, replacement } of this.translations[lang]
       .TRANSFORMATIONS) {
-      newLn = ln.replace(new RegExp(pattern, "g"), replacement);
+      ln = ln.replace(new RegExp(pattern, "g"), replacement);
     }
 
-    return newLn;
+    return ln;
   }
 
   private _stripNewlines(proper: ParsedSource) {
