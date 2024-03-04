@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
-import { printAll } from "../../lib/utils";
 import { getCalendar } from "../../lib/getCalendar";
+import { printAll } from "../../lib/utils";
 
 describe("calendar", () => {
   test("renders entire calendar correctly", () => {

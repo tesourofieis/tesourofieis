@@ -1,3 +1,4 @@
+import { UTCDate } from "@date-fns/utc";
 import {
   addDays,
   getDate,
@@ -10,18 +11,25 @@ import {
   isSunday,
 } from "date-fns";
 import { Calendar } from "./calendar.ts";
-import { Observance } from "./observance.ts";
 import {
+  COMMUNE_C_10A,
+  COMMUNE_C_10B,
+  COMMUNE_C_10C,
+  COMMUNE_C_10PASC,
+  COMMUNE_C_10T,
   EMBER_DAYS,
   FEASTS_OF_JESUS_CLASS_1_AND_2,
   PATTERN_ADVENT,
   PATTERN_CLASS_1,
   PATTERN_EASTER,
   PATTERN_LENT,
+  PATTERN_LENT_SUNDAY,
   PATTERN_SANCTI,
+  PATTERN_SANCTI_CLASS_1,
   PATTERN_SANCTI_CLASS_1_OR_2,
   PATTERN_SANCTI_CLASS_2,
   PATTERN_SANCTI_CLASS_4,
+  PATTERN_SUNDAY,
   PATTERN_TEMPORA,
   PATTERN_TEMPORA_CLASS_4,
   PATTERN_TEMPORA_SUNDAY,
@@ -32,20 +40,12 @@ import {
   SANCTI_11_02_1,
   SANCTI_12_24,
   SANCTI_12_25_1,
-  COMMUNE_C_10A,
-  COMMUNE_C_10B,
-  COMMUNE_C_10C,
-  COMMUNE_C_10PASC,
-  COMMUNE_C_10T,
+  TEMPORA_PASC1_0,
   TEMPORA_QUAD6_3,
   TYPE_SANCTI,
-  PATTERN_SUNDAY,
-  PATTERN_SANCTI_CLASS_1,
-  PATTERN_LENT_SUNDAY,
-  TEMPORA_PASC1_0,
 } from "./constants.ts";
+import { Observance } from "./observance.ts";
 import { match, yyyyMMDD } from "./utils.ts";
-import { UTCDate } from "@date-fns/utc";
 
 // Nativity Vigil takes place of 4th Advent Sunday.
 function rule_nativity_has_multiple_masses(

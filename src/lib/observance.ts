@@ -1,21 +1,21 @@
+import { getDate, getDay, getMonth } from "date-fns";
 import {
-  LANGUAGE,
-  PATTERN_POST_EPIPHANY_SUNDAY,
-  TABLE_OF_PRECEDENCE,
   COMMUNE_C_10A,
   COMMUNE_C_10B,
   COMMUNE_C_10C,
   COMMUNE_C_10PASC,
   COMMUNE_C_10T,
+  LANGUAGE,
+  PATTERN_POST_EPIPHANY_SUNDAY,
+  TABLE_OF_PRECEDENCE,
   TEMPORA_PENT23_0,
   TEMPORA_RANK_MAP,
   TYPE_TEMPORA,
   WEEKDAY_MAPPING,
   getTranslation,
 } from "./constants.ts";
-import { ProperParser } from "./properParser.ts";
 import { Proper, ProperConfig } from "./proper.ts";
-import { getDate, getDay, getMonth } from "date-fns";
+import { ProperParser } from "./properParser.ts";
 
 export class Observance {
   date: string;

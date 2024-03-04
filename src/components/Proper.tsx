@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { yyyyMMDD, type ProperDay } from "../lib/utils";
+import { type ProperDay, yyyyMMDD } from "../lib/utils";
 import Loading from "./Loading";
 
 export default function Proper({ section }: { section?: string }) {
@@ -18,7 +18,7 @@ export default function Proper({ section }: { section?: string }) {
       }
     };
     fetchData();
-  }, []);
+  }, [date]);
 
   if (!proper?.length)
     return (
@@ -35,10 +35,11 @@ export default function Proper({ section }: { section?: string }) {
   return (
     <>
       {proper.map((sections, index) => (
+        // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
         <div key={index}>
           {sections.sections
             .filter(({ id }) => id === section)
-            .map((section, sectionIndex) => (
+            .map((section) => (
               <div key={section?.id}>
                 <h2
                   className="text-center text-red-500"

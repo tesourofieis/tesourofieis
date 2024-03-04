@@ -16,6 +16,7 @@ import {
 import { Observance } from "./observance.ts";
 import { rules } from "./rules.ts";
 
+import { UTCDate } from "@date-fns/utc";
 import {
   addDays,
   format,
@@ -31,7 +32,6 @@ import {
   previousSunday,
   subDays,
 } from "date-fns";
-import { UTCDate } from "@date-fns/utc";
 
 class Calendar {
   private _container: Map<string, Day>;
@@ -137,13 +137,14 @@ class Calendar {
     overwrite = true,
     stopDate?: Date,
   ) {
+    let newBlock = block;
     if (reverse) {
       // TODO: use toReversed in order not to mutate the original
       // or slice
-      block = block.slice().reverse();
+      newBlock = block.slice().reverse();
     }
 
-    for (const [ii, observance_ids] of block.entries()) {
+    for (const [ii, observance_ids] of newBlock.entries()) {
       const currentDate = addDays(new UTCDate(date), reverse ? -ii : ii);
 
       if (!observance_ids) {

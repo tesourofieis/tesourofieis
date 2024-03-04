@@ -17,7 +17,7 @@ import {
   TRACTUS,
   getTranslation,
 } from "./constants.ts";
-import { ProperConfig, Proper, Section, ParsedSource } from "./proper.ts";
+import { ParsedSource, Proper, ProperConfig, Section } from "./proper.ts";
 import { match } from "./utils.ts";
 
 class ProperParser {
@@ -235,12 +235,13 @@ class ProperParser {
   }
 
   private _normalize(ln: string, lang: string) {
+    let newLn: string;
     for (const { pattern, replacement } of this.translations[lang]
       .TRANSFORMATIONS) {
-      ln = ln.replace(new RegExp(pattern, "g"), replacement);
+      newLn = ln.replace(new RegExp(pattern, "g"), replacement);
     }
 
-    return ln;
+    return newLn;
   }
 
   private _stripNewlines(proper: ParsedSource) {
@@ -269,18 +270,18 @@ class ProperParser {
         proper.getSection(GRADUALE)
       ) {
         return [GRADUALE_PASCHAL, TRACTUS];
-      } else if (config.interReadingsSection === GRADUALE_PASCHAL) {
+      }
+      if (config.interReadingsSection === GRADUALE_PASCHAL) {
         if (proper.getSection(GRADUALE_PASCHAL) !== null) {
           return [GRADUALE, TRACTUS];
-        } else {
-          return [TRACTUS];
         }
-      } else if (config.interReadingsSection === TRACTUS) {
+        return [TRACTUS];
+      }
+      if (config.interReadingsSection === TRACTUS) {
         if (proper.getSection(TRACTUS) !== null) {
           return [GRADUALE, GRADUALE_PASCHAL];
-        } else {
-          return [GRADUALE_PASCHAL];
         }
+        return [GRADUALE_PASCHAL];
       }
       return [];
     }
