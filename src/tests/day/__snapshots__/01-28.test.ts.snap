@@ -65,24 +65,6 @@ exports[`2024-01-28 1`] = `
       {
         "body": {
           "latin": [
-            "S. Petri Nolasci Confessoris",
-            "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus",
-            "Per Dominum…",
-            "",
-          ],
-          "vernacular": [
-            "S. Pedro Nolasco, Confessor",
-            "Fortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, ó nosso Deus, que nos protejam as preces daquele em cuja memória os recebermos.",
-            "Por nosso Senhor...",
-            "",
-          ],
-        },
-        "id": undefined,
-        "subSections": [],
-      },
-      {
-        "body": {
-          "latin": [
             "Ps 17:5; 17:6; 17:7",
             "Circumdedérunt me gémitus mortis, dolóres inférni circumdedérunt me: et in tribulatióne mea invocávi Dóminum, et exaudívit de templo sancto suo vocem meam.",
             "Ps 17:2-3",
@@ -238,6 +220,24 @@ exports[`2024-01-28 1`] = `
       {
         "body": {
           "latin": [
+            "S. Petri Nolasci Confessoris",
+            "Laudis tibi. Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum quibus nos et præséntibus éxui malis confídimus et futúris.",
+            "Per Dominum…",
+            "",
+          ],
+          "vernacular": [
+            "S. Pedro Nolasco, Confessor",
+            "Vos oferecemos este sacrifício de louvor em memória dos vossos Santos, para que por meio deles nos livremos dos males presentes e futuros.",
+            "Por nosso Senhor...",
+            "",
+          ],
+        },
+        "id": "Commemoratio Secreta",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
             "de sanctissima Trinitate",
             "Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Qui cum unigénito Fílio tuo et Spíritu Sancto unus es Deus, unus es Dóminus: non in uníus singularitáte persónæ, sed in uníus Trinitáte substántiæ. Quod enim de tua glória, revelánte te, crédimus, hoc de Fílio tuo, hoc de Spíritu Sancto sine differéntia discretiónis sentímus. Ut in confessióne veræ sempiternǽque Deitátis, et in persónis propríetas, et in esséntia únitas, et in majestáte adorétur æquálitas. Quam laudant Angeli atque Archángeli, Chérubim quoque ac Séraphim: qui non cessant clamáre cotídie, una voce dicéntes:",
             "",
@@ -281,6 +281,24 @@ exports[`2024-01-28 1`] = `
           ],
         },
         "id": "Postcommunio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "S. Petri Nolasci Confessoris",
+            "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus",
+            "Per Dominum…",
+            "",
+          ],
+          "vernacular": [
+            "S. Pedro Nolasco, Confessor",
+            "Fortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, ó nosso Deus, que nos protejam as preces daquele em cuja memória os recebermos.",
+            "Por nosso Senhor...",
+            "",
+          ],
+        },
+        "id": "Commemoratio Postcommunio",
         "subSections": [],
       },
     ],

@@ -203,11 +203,11 @@ export class Proper extends ParsedSource {
           sourceSectionName: ORATIO,
         },
         {
-          commemorated_section_name: COMMEMORATED_SECRETA,
+          commemoratedSectionName: COMMEMORATED_SECRETA,
           sourceSectionName: SECRETA,
         },
         {
-          commemorated_section_name: COMMEMORATED_POSTCOMMUNIO,
+          commemoratedSectionName: COMMEMORATED_POSTCOMMUNIO,
           sourceSectionName: POSTCOMMUNIO,
         },
       ];
