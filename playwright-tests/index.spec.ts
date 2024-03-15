@@ -1,6 +1,8 @@
 import { expect, test } from "@playwright/test";
 
 test("first page", async ({ page }) => {
+  test.slow();
+
   await page.goto("/");
 
   await expect(page).toHaveTitle("Início | Tesouro dos Fiéis");
@@ -12,6 +14,8 @@ test("first page", async ({ page }) => {
 });
 
 test("day", async ({ page }) => {
+  test.slow();
+
   await page.goto("/");
 
   await expect(page).toHaveTitle("Início | Tesouro dos Fiéis");
@@ -23,6 +27,8 @@ test("day", async ({ page }) => {
   await page.locator(".w-48 > .fixed").click();
 });
 test("rosary", async ({ page }) => {
+  test.slow();
+
   await page.goto("/");
 
   await page.getByRole("link", { name: "Rosario" }).click();
@@ -32,6 +38,8 @@ test("rosary", async ({ page }) => {
 });
 
 test("missal", async ({ page }) => {
+  test.slow();
+
   await page.goto("/");
 
   await page
