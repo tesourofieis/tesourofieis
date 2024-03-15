@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "vitest ./src/tests",
+    "bench": "vitest bench",
     "deploy-preview": "wrangler pages dev ./dist",
     "check": "biome check src --apply",
     "check-astro": "astro check"

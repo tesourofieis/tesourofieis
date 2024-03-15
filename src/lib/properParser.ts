@@ -35,7 +35,7 @@ class ProperParser {
   proper_exists(): boolean {
     return (
       !match(this.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) &&
-      !!this._get_full_path(this._get_partial_path(), LANGUAGE)
+      !!this.get_full_path(this.get_partial_path(), LANGUAGE)
     );
   }
 
@@ -50,7 +50,7 @@ class ProperParser {
       "Ordo/Prefationes.txt",
       LANGUAGE_LATIN,
     );
-    const partial_path = this._get_partial_path();
+    const partial_path = this.get_partial_path();
     try {
       const proper_vernacular = this._parseProperSource(partial_path, LANGUAGE);
       const proper_latin = this._parseProperSource(
@@ -80,10 +80,10 @@ class ProperParser {
     if (vide) {
       let nestedPath: string | null = null;
       if (vide.includes("/")) {
-        nestedPath = this._get_full_path(`${vide}.txt`, lang);
+        nestedPath = this.get_full_path(`${vide}.txt`, lang);
       } else {
         for (const subdir of ["Commune", "Tempora"]) {
-          nestedPath = this._get_full_path(`${subdir}/${vide}.txt`, lang);
+          nestedPath = this.get_full_path(`${subdir}/${vide}.txt`, lang);
           if (nestedPath) {
             break;
           }
@@ -118,7 +118,7 @@ class ProperParser {
     let sectionName: string | null = null;
     let subSectionName: string | null = null;
     let concatLine = false;
-    const fullPath = this._get_full_path(partialPath, lang);
+    const fullPath = this.get_full_path(partialPath, lang);
 
     const fileContent: string = fs.readFileSync(
       fullPath || partialPath,
@@ -144,7 +144,7 @@ class ProperParser {
         // from the referenced file and continue with the sections from the current one.
         const [, pathBit] = REFERENCE_REGEX.exec(ln) || [];
         const nestedPath: string =
-          this._get_full_path(`${pathBit}.txt`, lang) || partialPath;
+          this.get_full_path(`${pathBit}.txt`, lang) || partialPath;
         if (!nestedPath) {
           console.error(`Proper \`${pathBit}.txt\` not found.`);
         }
@@ -174,7 +174,7 @@ class ProperParser {
             if (pathBit) {
               // Reference to an external file - parse it recursively
               const nestedPath: string =
-                this._get_full_path(`${pathBit}.txt`, lang) || partialPath;
+                this.get_full_path(`${pathBit}.txt`, lang) || partialPath;
               if (!nestedPath) {
                 console.error(`Proper \`${pathBit}.txt\` not found.`);
               }
@@ -402,7 +402,7 @@ class ProperParser {
     return proper;
   }
 
-  _get_full_path(partial_path: string, lang: string = LANGUAGE) {
+  private get_full_path(partial_path: string, lang: string = LANGUAGE) {
     const full_path = path.join(
       process.cwd(),
       "src/lib",
@@ -416,7 +416,7 @@ class ProperParser {
     return full_path;
   }
 
-  _get_partial_path() {
+  private get_partial_path() {
     try {
       const [flex, name] = this.proper_id.split(":");
 

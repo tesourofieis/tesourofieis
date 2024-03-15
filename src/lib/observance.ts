@@ -11,7 +11,6 @@ import {
   TEMPORA_PENT23_0,
   TEMPORA_RANK_MAP,
   TYPE_TEMPORA,
-  WEEKDAY_MAPPING,
   getTranslation,
 } from "./constants.ts";
 import { Proper, ProperConfig } from "./proper.ts";
@@ -39,16 +38,14 @@ export class Observance {
   // :type date_: `date ` object
   // """
   constructor(observanceId: string, date_: string) {
-    this.date = date_;
-    const translation = getTranslation(LANGUAGE);
-
     const [flexibility, name, rank, color] = observanceId.split(":");
+    this.date = date_;
     this.flexibility = flexibility;
     this.name = name;
     this.rank = this.calcRank(observanceId, parseInt(rank, 10));
     this.colors = Array.from(color);
     this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
-    this.title = translation.TITLES[observanceId];
+    this.title = getTranslation(LANGUAGE).TITLES[observanceId];
 
     // Determine the weekday attribute based on the type of observance
     if (
@@ -61,8 +58,10 @@ export class Observance {
         COMMUNE_C_10T,
       ].includes(observanceId)
     ) {
-      this.weekday =
-        WEEKDAY_MAPPING[parseInt(name.replace(/^.*-(\d+).*$/, "$1"), 10)];
+      if (name.replace(/^.*-(\d+).*$/, "$1") === "10-Dur") {
+        this.weekday = 0;
+      }
+      this.weekday = parseInt(name.replace(/^.*-(\d+).*$/, "$1"), 10);
     } else {
       this.weekday = getDay(this.date);
     }

@@ -1,0 +1,232 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`2024-10-27 1`] = `
+[
+  {
+    "info": {
+      "colors": [
+        "w",
+      ],
+      "date": "2024-10-27",
+      "day": Day {
+        "celebration": [
+          Observance {
+            "colors": [
+              "w",
+            ],
+            "date": "2024-10-27",
+            "flexibility": "sancti",
+            "id": "sancti:10-DUr:1:w",
+            "name": "10-DUr",
+            "priority": 13,
+            "rank": 1,
+            "title": "Cristo Rei",
+            "weekday": 0,
+          },
+        ],
+        "commemoration": [],
+        "date": "2024-10-27",
+        "tempora": [
+          Observance {
+            "colors": [
+              "g",
+            ],
+            "date": "2024-10-27",
+            "flexibility": "tempora",
+            "id": "tempora:Pent23-0:2:g",
+            "name": "Pent23-0",
+            "priority": 45,
+            "rank": 2,
+            "title": "23º Domingo depois de Pentecostes",
+            "weekday": 0,
+          },
+        ],
+      },
+      "id": "sancti:10-DUr:1:w",
+      "rank": 1,
+      "tempora": "23º Domingo depois de Pentecostes",
+      "title": "Cristo Rei",
+    },
+    "sections": [
+      {
+        "body": {
+          "latin": [
+            "Apoc 5:12; 1:6",
+            "Dignus est Agnus, qui occísus est, accípere virtútem, et divinitátem, et sapiéntiam, et fortitúdinem, et honórem. Ipsi glória et impérium in sǽcula sæculórum.",
+            "Ps 71:1",
+            "Deus, judícium tuum Regi da: et justítiam tuam Fílio Regis.",
+            "Glória Patri…",
+            "Dignus est Agnus, qui occísus est, accípere virtútem, et divinitátem, et sapiéntiam, et fortitúdinem, et honórem. Ipsi glória et impérium in sǽcula sæculórum.",
+            "",
+          ],
+          "vernacular": [
+            "Apoc 5:12; 1:6",
+            "O Cordeiro, que foi imolado, é digno de receber o poder, a divindade, a sabedoria, a fortaleza, a honra: A Ele a glória e o império em todos os séculos dos séculos.",
+            "Sl 71:1",
+            "Ó Deus, dai ao Rei o poder de julgar; e a vossa justiça ao Filho do Rei.",
+            "Glória ao Pai.",
+            "O Cordeiro, que foi imolado, é digno de receber o poder, a divindade, a sabedoria, a fortaleza, a honra: A Ele a glória e o império em todos os séculos dos séculos.",
+            "",
+          ],
+        },
+        "id": "Introitus",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Omnípotens sempitérne Deus, qui in dilécto Fílio tuo, universórum Rege, ómnia instauráre voluísti: concéde propítius; ut cunctæ famíliæ géntium, peccáti vúlnere disgregátæ, ejus suavissímo subdántur império:",
+            "Qui tecum…",
+            "",
+          ],
+          "vernacular": [
+            "Omnipotente e eterno Deus, que tudo quisestes restaurar no vosso dilecto Filho, Rei de todas as cousas, concedei-nos propício que todas as famílias do mundo, livres da chaga do pecado, se submetam ao Seu suavíssimo império.",
+            "Que convosco vive...",
+            "",
+          ],
+        },
+        "id": "Oratio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.",
+            "Col 1:12-20",
+            "Fratres: Grátias ágimus Deo Patri, qui dignos nos fecit in partem sortis sanctórum in lúmine: qui erípuit nos de potestáte tenebrárum, et tránstulit in regnum Fílii dilectiónis suæ, in quo habémus redemptiónem per sánguinem ejus, remissiónem peccatórum: qui est imágo Dei invisíbilis, primogénitus omnis creatúra: quóniam in ipso cóndita sunt univérsa in cœlis et in terra, visibília et invisibília, sive Throni, sive Dominatiónes, sive Principátus, sive Potestátes: ómnia per ipsum, et in ipso creáta sunt: et ipse est ante omnes, et ómnia in ipso constant. Et ipse est caput córporis Ecclésiæ, qui est princípium, primogénitus ex mórtuis: ut sit in ómnibus ipse primátum tenens; quia in ipso complácuit omnem plenitúdinem inhabitáre; et per eum reconciliáre ómnia in ipsum, pacíficans per sánguinem crucis ejus, sive quæ in terris, sive quæ in cœlis sunt, in Christo Jesu Dómino nostro.",
+            "",
+          ],
+          "vernacular": [
+            "Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.",
+            "Col 1:12-20",
+            "Meus irmãos: Damos graças a Deus Pai, porque nos fez dignos de participar da herança dos Santos na luz, nos livrou do poder das trevas e nos conduziu para o reino do seu muito amado Filho, no qual possuímos a redenção pelo seu sangue e a remissão dos pecados. Ele é a imagem de Deus invisível e o primogénito de todas as criaturas; porquanto n’Ele foram criadas todas as cousas nos céus e na terra, visíveis e invisíveis, quer sejam os Tronos, quer as Dominações, quer os Principados, quer as Potestades. Tudo foi criado por Ele e n’Ele próprio. Ele existe antes de todas as cousas e todas as cousas subsistem por Ele. Ele é a cabeça do corpo da Igreja e o princípio e o primogénito de todos os mortais, para que assim conserve a primazia de todas as cousas, pois foi do agrado do Pai que n’Ele residisse toda a plenitude e por Ele se reconciliem em si próprio todas as cousas, pacificando pelo seu sangue na Cruz tanto o que está na terra, como o que está no céu, em nosso Senhor Jesus Cristo.",
+            "",
+          ],
+        },
+        "id": "Lectio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Ps 71:8; 78:11",
+            "Dominábitur a mari usque ad mare, et a flúmine usque ad términos orbis terrárum.",
+            "℣. Et adorábunt eum omnes reges terræ: omnes gentes sérvient ei. Allelúja, allelúja.",
+            "Dan 7:14.",
+            "Potéstas ejus, potéstas ætérna, quæ non auferétur: et regnum ejus, quod non corrumpétur. Allelúja.",
+            "",
+          ],
+          "vernacular": [
+            "Sl 71:8; 78:11",
+            "Dominará de mar a mar e desde o rio aos confins da redondeza da terra! ℣. Adorá-l’O-ão todos os reis da terra: e todos os povos O servirão! Aleluia, aleluia.",
+            "Dn 7:14",
+            "Seu poder é eterno, nunca Lhe será tirado; seu reino é tal que nunca será corrompido. Aleluia.",
+            "",
+          ],
+        },
+        "id": "Graduale",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Sequéntia ☩ sancti Evangélii secúndum Joánnem.",
+            "Joann 18:33-37",
+            "In illo témpore: Dixit Pilátus ad Jesum: Tu es Rex Judæórum? Respóndit Jesus: A temetípso hoc dicis, an álii dixérunt tibi de me? Respóndit Pilátus: Numquid ego Judǽus sum? Gens tua et pontífices tradidérunt te mihi: quid fecísti? Respóndit Jesus: Regnum meum non est de hoc mundo. Si ex hoc mundo esset regnum meum, minístri mei útique decertárent, ut non tráderer Judǽis: nunc autem regnum meum non est hinc. Dixit ítaque ei Pilátus: Ergo Rex es tu? Respóndit Jesus: Tu dicis, quia Rex sum ego. Ego in hoc natus sum et ad hoc veni in mundum, ut testimónium perhíbeam veritáti: omnis, qui est ex veritáte, audit vocem meam.",
+            "",
+          ],
+          "vernacular": [
+            "Continuação ☩ do santo Evangelho segundo S. João.",
+            "Jo 18:33-37",
+            "Naquele tempo, disse Pilatos a Jesus: «Tu és o rei dos Judeus?». Respondeu Jesus: «Tu dizes isso de ti mesmo, ou foram outros que to disseram de mim?». Respondeu Pilatos: «Sou, porventura, judeu? Foram os teus compatriotas e os pontífices que te entregaram nas minhas mãos. O que fizeste?». Jesus respondeu: «Meu reino não é deste mundo. Se o meu reino fosse deste mundo, certamente os meus ministros haviam de pelejar para que Eu não fosse entregue aos judeus; porém, Eu o declaro agora, o meu reino não é daqui». Disse-Lhe, então, Pilatos: «És, portanto, rei?». Jesus respondeu: «Tu dizes que Eu sou rei. Eu para isso nasci e para isso vim a este mundo, a fim de dar testemunho da verdade. Todo aquele que é da verdade, escuta a minha voz».",
+            "",
+          ],
+        },
+        "id": "Evangelium",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Ps 2:8.",
+            "Póstula a me, et dabo tibi gentes hereditátem tuam, et possessiónem tuam términos terræ.",
+            "",
+          ],
+          "vernacular": [
+            "Sl 2:8",
+            "Pede-me: e dar-te-ei as nações como herança; e como domínio os confins da terra!",
+            "",
+          ],
+        },
+        "id": "Offertorium",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Hóstiam tibi, Dómine, humánæ reconciliatiónis offérimus: præsta, quǽsumus; ut, quem sacrifíciis præséntibus immolámus, ipse cunctis géntibus unitátis et pacis dona concédat, Jesus Christus Fílius tuus, Dóminus noster:",
+            "Qui tecum…",
+            "",
+          ],
+          "vernacular": [
+            "Vos oferecemos, Senhor, a hóstia da reconciliação humana, implorando-Vos que este mesmo Jesus Cristo, vosso Filho e Senhor nosso, o qual imolamos no presente sacrifício, conceda a todos os povos os benefícios da união e da paz:",
+            "Que convosco vive...",
+            "",
+          ],
+        },
+        "id": "Secreta",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "de D.N. Jesu Christi Rege",
+            "Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Qui unigénitum Fílium tuum, Dóminum nostrum Jesum Christum, Sacerdótem ætérnum et universórum Regem, óleo exsultatiónis unxísti: ut, seípsum in ara crucis hóstiam immaculátam et pacíficam ófferens, redemptiónis humánæ sacraménta perágeret: et suo subjéctis império ómnibus creatúris, ætérnum et universále regnum, imménsæ tuæ tráderet Majestáti. Regnum veritátis et vitæ: regnum sanctitátis et grátiæ: regnum justítiæ, amóris et pacis. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:",
+            "",
+          ],
+          "vernacular": [
+            "de N. S. Jesus Cristo-Rei",
+            "É verdadeiramente digno e justo, racional e salutar dar-Vos graças em todos os lugares e sempre, Senhor santo, Pai omnipotente, eterno Deus, que ungistes com o óleo da alegria o vosso Filho Unigénito, nosso Senhor Jesus Cristo, como Sacerdote eterno e Rei de todas as cousas, a fim de que, oferecendo-se na ara da Cruz - qual hóstia imaculada e pacífica -, realizasse as maravilhas da redenção humana e, ficando todas as criaturas sujeitas aoseu império, desse à vossa imensa majestade um reino eterno e universal: um reino de verdade e de vida; um reino de santidade e de graça; um reino de justiça, de amor e de paz. E por isso, com os Anjos e Arcanjos, com os Tronos e Dominações e com toda a milícia do exército celestial, cantamos um hino à vossa glória, dizendo incessantemente:",
+            "",
+          ],
+        },
+        "id": "Prefatio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Ps 28:10; 28:11",
+            "Sedébit Dóminus Rex in ætérnum: Dóminus benedícet pópulo suo in pace.",
+            "",
+          ],
+          "vernacular": [
+            "Sl 28:10; 28:11",
+            "Assentar-se-á, eternamente, o Senhor como Rei e abençoará o seu povo em paz.",
+            "",
+          ],
+        },
+        "id": "Communio",
+        "subSections": [],
+      },
+      {
+        "body": {
+          "latin": [
+            "Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, qui sub Christi Regis vexíllis militáre gloriámur, cum ipso, in cœlésti sede, júgiter regnáre possímus:",
+            "Qui tecum…",
+            "",
+          ],
+          "vernacular": [
+            "Tendo nós alcançado o alimento da imortalidade, Vos suplicamos, Senhor, permiti que possamos reinar perpetuamente na celestial mansão, juntamente com Jesus Cristo, sob cujas bandeiras nos gloriamos de militar:",
+            "Que convosco vive...",
+            "",
+            "",
+          ],
+        },
+        "id": "Postcommunio",
+        "subSections": [],
+      },
+    ],
+  },
+]
+`;

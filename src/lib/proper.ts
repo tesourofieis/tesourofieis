@@ -68,13 +68,6 @@ export class Section {
       })),
     };
   }
-
-  toString(): string {
-    const bodyShort = this.body?.join(" ").substring(0, 32);
-    return `${this.id} ${bodyShort}`;
-  }
-
-  [Symbol.toStringTag] = "Section";
 }
 
 export class ParsedSource {
@@ -230,6 +223,4 @@ export class Proper extends ParsedSource {
       }
     }
   }
-
-  [Symbol.toStringTag] = "Proper";
 }
