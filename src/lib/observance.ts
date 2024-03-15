@@ -80,7 +80,7 @@ export class Observance {
   }
 
   hasProper(): boolean {
-    return new ProperParser(this.id).proper_exists();
+    return new ProperParser(this.id).properExists();
   }
 
   private calcRank(observanceId: string, originalRank: number): number {

@@ -71,32 +71,32 @@ export class Section {
 }
 
 export class ParsedSource {
-  _container: Record<string, Section> = {};
+  container: Record<string, Section> = {};
 
   constructor() {
-    this._container = {};
+    this.container = {};
   }
 
   getSection(sectionId: string): Section | null {
-    return this._container[sectionId] || null;
+    return this.container[sectionId] || null;
   }
 
   getSubSection(sectionId: string, subSectionId: string): Section | null {
     return (
-      this._container[sectionId].subSections.find(
+      this.container[sectionId].subSections.find(
         (i) => i.id === subSectionId,
       ) || null
     );
   }
 
   setSection(sectionName: string, section: Section): void {
-    this._container[sectionName] = section;
+    this.container[sectionName] = section;
   }
 
   popSection(sectionId: string): Section | null {
     try {
-      const body = this._container[sectionId];
-      delete this._container[sectionId];
+      const body = this.container[sectionId];
+      delete this.container[sectionId];
       return body;
     } catch (error) {
       return null;
@@ -104,21 +104,21 @@ export class ParsedSource {
   }
 
   keys(): string[] {
-    return Object.keys(this._container);
+    return Object.keys(this.container);
   }
 
   values(): Section[] {
-    return Object.values(this._container);
+    return Object.values(this.container);
   }
 
   items(): [string, Section][] {
-    return Object.entries(this._container);
+    return Object.entries(this.container);
   }
 
   merge(proper: ParsedSource): void {
     for (const [k, v] of proper.items()) {
-      if (!(k in this._container)) {
-        this._container[k] = v;
+      if (!(k in this.container)) {
+        this.container[k] = v;
       }
     }
   }
@@ -144,12 +144,12 @@ export class Proper extends ParsedSource {
       throw new Error(`Proper ${id} not found`);
     }
     if (parsedSource !== null) {
-      this._container = { ...parsedSource._container };
+      this.container = { ...parsedSource.container };
     }
   }
 
   serialize() {
-    const list_ = this.values()
+    const list = this.values()
       .map((v) => v?.serialize())
       .sort((a, b) => {
         const indexA = NORMAL_SECTIONS.indexOf(a.id);
@@ -157,7 +157,7 @@ export class Proper extends ParsedSource {
         return indexA - indexB;
       });
 
-    return list_;
+    return list;
   }
 
   getRule(ruleName: string): string | null {
@@ -199,8 +199,8 @@ export class Proper extends ParsedSource {
     for (const commemoration of commemorations) {
       const sections = [
         {
-          commemorated_section_name: COMMEMORATED_ORATIO,
-          source_section_name: ORATIO,
+          commemoratedSectionName: COMMEMORATED_ORATIO,
+          sourceSectionName: ORATIO,
         },
         {
           commemorated_section_name: COMMEMORATED_SECRETA,
@@ -212,14 +212,13 @@ export class Proper extends ParsedSource {
         },
       ];
       for (const {
-        commemorated_section_name,
-        source_section_name,
+        commemoratedSectionName: commemoratedSectionName,
+        sourceSectionName: sourceSectionName,
       } of sections) {
-        const commemoratedSection =
-          commemoration.getSection(source_section_name);
+        const commemoratedSection = commemoration.getSection(sourceSectionName);
         commemoratedSection.body.unshift(commemoration.title);
-        commemoratedSection.id = commemorated_section_name;
-        this.setSection(commemorated_section_name, commemoratedSection);
+        commemoratedSection.id = commemoratedSectionName;
+        this.setSection(commemoratedSectionName, commemoratedSection);
       }
     }
   }
