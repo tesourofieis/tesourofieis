@@ -21,47 +21,44 @@ import { ParsedSource, Proper, ProperConfig, Section } from "./proper.ts";
 import { match } from "./utils.ts";
 
 class ProperParser {
-  proper_id = "";
+  properId = "";
   lang: string = LANGUAGE;
   config: ProperConfig | null = null;
   translations: Record<string, ReturnType<typeof getTranslation>> = {};
   prefaces: Record<string, ParsedSource> = {};
 
-  constructor(proper_id: string, config: ProperConfig | null = null) {
-    this.proper_id = proper_id;
+  constructor(properId: string, config: ProperConfig | null = null) {
+    this.properId = properId;
     this.config = config || new ProperConfig();
   }
 
-  proper_exists(): boolean {
+  properExists(): boolean {
     return (
-      !match(this.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) &&
-      !!this.get_full_path(this.get_partial_path(), LANGUAGE)
+      !match(this.properId, OBSERVANCES_WITHOUT_OWN_PROPER) &&
+      !!this.getFullPath(this.getPartialPath(), LANGUAGE)
     );
   }
 
   parse() {
     this.translations[LANGUAGE] = getTranslation(LANGUAGE);
     this.translations[LANGUAGE_LATIN] = getTranslation(LANGUAGE_LATIN);
-    this.prefaces[LANGUAGE] = this._parseSource(
+    this.prefaces[LANGUAGE] = this.parseSource(
       "Ordo/Prefationes.txt",
       LANGUAGE,
     );
-    this.prefaces[LANGUAGE_LATIN] = this._parseSource(
+    this.prefaces[LANGUAGE_LATIN] = this.parseSource(
       "Ordo/Prefationes.txt",
       LANGUAGE_LATIN,
     );
-    const partial_path = this.get_partial_path();
+    const partialPath = this.getPartialPath();
     try {
-      const proper_vernacular = this._parseProperSource(partial_path, LANGUAGE);
-      const proper_latin = this._parseProperSource(
-        partial_path,
-        LANGUAGE_LATIN,
-      );
-      return [proper_vernacular, proper_latin];
+      const properVernacular = this.parseProperSource(partialPath, LANGUAGE);
+      const properLatin = this.parseProperSource(partialPath, LANGUAGE_LATIN);
+      return [properVernacular, properLatin];
     } catch (error) {
       if (error) {
         console.error(
-          `Proper not found. ${error} partialPath => ${partial_path}`,
+          `Proper not found. ${error} partialPath => ${partialPath}`,
         );
       } else {
         throw error;
@@ -69,10 +66,10 @@ class ProperParser {
     }
   }
 
-  private _parseProperSource(partialPath: string, lang: string) {
-    const parsedSource = this._parseSource(partialPath, lang);
+  private parseProperSource(partialPath: string, lang: string) {
+    const parsedSource = this.parseSource(partialPath, lang);
 
-    const proper = new Proper(this.proper_id, parsedSource);
+    const proper = new Proper(this.properId, parsedSource);
 
     // Reference in Rule section in 'vide' or 'ex' clause - load all sections
     // from the referenced file and get sections that are not explicitly defined in the current proper.
@@ -80,10 +77,10 @@ class ProperParser {
     if (vide) {
       let nestedPath: string | null = null;
       if (vide.includes("/")) {
-        nestedPath = this.get_full_path(`${vide}.txt`, lang);
+        nestedPath = this.getFullPath(`${vide}.txt`, lang);
       } else {
         for (const subdir of ["Commune", "Tempora"]) {
-          nestedPath = this.get_full_path(`${subdir}/${vide}.txt`, lang);
+          nestedPath = this.getFullPath(`${subdir}/${vide}.txt`, lang);
           if (nestedPath) {
             break;
           }
@@ -92,24 +89,24 @@ class ProperParser {
       if (!nestedPath) {
         console.error(`Proper from vide not found ${vide}.`);
       }
-      proper.merge(this._parseSource(nestedPath, lang));
+      proper.merge(this.parseSource(nestedPath, lang));
     }
 
     try {
-      proper.title = this.translations[lang].TITLES[this.proper_id];
+      proper.title = this.translations[lang].TITLES[this.properId];
     } catch (error) {
       // Handling very rare case when proper's source exists but rank or color in the ID is invalid
-      console.error(`Proper ${this.proper_id} not found`);
+      console.error(`Proper ${this.properId} not found`);
     }
-    this._addPrefaces(proper, lang);
-    this._filterSections(proper);
-    this._amendSectionsContents(proper);
+    this.addPrefaces(proper, lang);
+    this.filterSections(proper);
+    this.amendSectionsContents(proper);
     this.translateSectionTitles(proper, lang);
 
     return proper;
   }
 
-  private _parseSource(
+  private parseSource(
     partialPath: string,
     lang: string = LANGUAGE,
     lookupSection?: string,
@@ -118,7 +115,7 @@ class ProperParser {
     let sectionName: string | null = null;
     let subSectionName: string | null = null;
     let concatLine = false;
-    const fullPath = this.get_full_path(partialPath, lang);
+    const fullPath = this.getFullPath(partialPath, lang);
 
     const fileContent: string = fs.readFileSync(
       fullPath || partialPath,
@@ -144,15 +141,15 @@ class ProperParser {
         // from the referenced file and continue with the sections from the current one.
         const [, pathBit] = REFERENCE_REGEX.exec(ln) || [];
         const nestedPath: string =
-          this.get_full_path(`${pathBit}.txt`, lang) || partialPath;
+          this.getFullPath(`${pathBit}.txt`, lang) || partialPath;
         if (!nestedPath) {
           console.error(`Proper \`${pathBit}.txt\` not found.`);
         }
-        parsedSource.merge(this._parseSource(nestedPath, lang));
+        parsedSource.merge(this.parseSource(nestedPath, lang));
         continue;
       }
 
-      ln = this._normalize(ln, lang);
+      ln = this.normalize(ln, lang);
 
       if (ln.search(SECTION_REGEX) !== -1) {
         sectionName = ln.replace(SECTION_REGEX, "$1");
@@ -164,7 +161,7 @@ class ProperParser {
           parsedSource.setSection(sectionName, new Section(sectionName));
         } else if (ln.match(SUB_SECTION_REGEX)) {
           subSectionName = ln.replace(SUB_SECTION_REGEX, "$1");
-          parsedSource._container[sectionName].addSubsection(
+          parsedSource.container[sectionName].addSubsection(
             new Section(subSectionName),
           );
         } else {
@@ -174,11 +171,11 @@ class ProperParser {
             if (pathBit) {
               // Reference to an external file - parse it recursively
               const nestedPath: string =
-                this.get_full_path(`${pathBit}.txt`, lang) || partialPath;
+                this.getFullPath(`${pathBit}.txt`, lang) || partialPath;
               if (!nestedPath) {
                 console.error(`Proper \`${pathBit}.txt\` not found.`);
               }
-              const nestedProper = this._parseSource(
+              const nestedProper = this.parseSource(
                 nestedPath,
                 lang,
                 nestedSectionName,
@@ -219,7 +216,7 @@ class ProperParser {
                   .getSubSection(sectionName, subSectionName)
                   .body.push(appendLn);
               } else {
-                parsedSource._container[sectionName].body.push(appendLn);
+                parsedSource.container[sectionName].body.push(appendLn);
               }
             }
             concatLine = ln.endsWith("~");
@@ -228,13 +225,13 @@ class ProperParser {
       }
     }
 
-    parsedSource = this._stripNewlines(parsedSource);
-    parsedSource = this._resolveConditionals(parsedSource);
+    parsedSource = this.stripNewLines(parsedSource);
+    parsedSource = this.resolveConditionals(parsedSource);
 
     return parsedSource;
   }
 
-  private _normalize(ln: string, lang: string) {
+  private normalize(ln: string, lang: string) {
     for (const { pattern, replacement } of this.translations[lang]
       .TRANSFORMATIONS) {
       ln = ln.replace(new RegExp(pattern, "g"), replacement);
@@ -243,7 +240,7 @@ class ProperParser {
     return ln;
   }
 
-  private _stripNewlines(proper: ParsedSource) {
+  private stripNewLines(proper: ParsedSource) {
     for (const section of Object.values(proper)) {
       while (
         section.body?.length > 0 &&
@@ -255,7 +252,7 @@ class ProperParser {
     return proper;
   }
 
-  private _filterSections(proper: Proper) {
+  private filterSections(proper: Proper) {
     function notVisible(sectionId: string): boolean {
       return !NORMAL_SECTIONS.includes(sectionId);
     }
@@ -305,7 +302,7 @@ class ProperParser {
     return proper;
   }
 
-  private _amendSectionsContents(proper: Proper) {
+  private amendSectionsContents(proper: Proper) {
     const gradual = proper.getSection(GRADUALE);
 
     if (this.config.stripAlleluia && !gradual) {
@@ -326,7 +323,7 @@ class ProperParser {
     return proper;
   }
 
-  private _addPrefaces(proper: Proper, lang: string): ParsedSource {
+  private addPrefaces(proper: Proper, lang: string): ParsedSource {
     const prefaceName = this.config.preface || proper.getRule("preface");
 
     if (
@@ -347,7 +344,7 @@ class ProperParser {
     return proper;
   }
 
-  private _resolveConditionals(proper: ParsedSource) {
+  private resolveConditionals(proper: ParsedSource) {
     for (const [sectionName, section] of proper.items()) {
       const newContent: string[] = [];
       let omit = false;
@@ -402,23 +399,23 @@ class ProperParser {
     return proper;
   }
 
-  private get_full_path(partial_path: string, lang: string = LANGUAGE) {
-    const full_path = path.join(
+  private getFullPath(partialPath: string, lang: string = LANGUAGE) {
+    const fullPath = path.join(
       process.cwd(),
       "src/lib",
-      `/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partial_path}`,
+      `/resources/divinum-officium/web/www/missa/${DIVOFF_LANG_MAP[lang]}/${partialPath}`,
     );
 
-    if (!fs.existsSync(full_path)) {
+    if (!fs.existsSync(fullPath)) {
       return;
     }
 
-    return full_path;
+    return fullPath;
   }
 
-  private get_partial_path() {
+  private getPartialPath() {
     try {
-      const [flex, name] = this.proper_id.split(":");
+      const [flex, name] = this.properId.split(":");
 
       return `${flex.charAt(0).toUpperCase() + flex.slice(1)}/${name}.txt`;
     } catch (error) {
