@@ -1,4 +1,4 @@
-import { expect, test, bench } from "vitest";
+import { expect, test } from "vitest";
 import { getDay } from "../../lib/getDay";
 
 test("2024-01-22", () => {

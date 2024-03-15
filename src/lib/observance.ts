@@ -11,6 +11,7 @@ import {
   TEMPORA_PENT23_0,
   TEMPORA_RANK_MAP,
   TYPE_TEMPORA,
+  WEEKDAY_MAPPING,
   getTranslation,
 } from "./constants.ts";
 import { Proper, ProperConfig } from "./proper.ts";
@@ -58,10 +59,8 @@ export class Observance {
         COMMUNE_C_10T,
       ].includes(observanceId)
     ) {
-      if (name.replace(/^.*-(\d+).*$/, "$1") === "10-Dur") {
-        this.weekday = 0;
-      }
-      this.weekday = parseInt(name.replace(/^.*-(\d+).*$/, "$1"), 10);
+      this.weekday =
+        WEEKDAY_MAPPING[parseInt(name.replace(/^.*-(\d+).*$/, "$1"), 10)];
     } else {
       this.weekday = getDay(this.date);
     }
@@ -73,7 +72,6 @@ export class Observance {
     const date = this.date;
     const proper = new ProperParser(this.id, config).parse();
     if (this.id.match(PATTERN_POST_EPIPHANY_SUNDAY) && getMonth(date) >= 9) {
-      // @ts-ignore
       this.adjustSundayShiftedFromPostEpiphany(proper);
     }
     return proper;

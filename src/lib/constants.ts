@@ -23,6 +23,17 @@ export function getTranslation(lang: string) {
   };
 }
 
+export const WEEKDAY_MAPPING: { [key: string]: number } = {
+  "0": 0,
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5,
+  "6": 6,
+  "10-DUr": 0, // The Feast of Christ the King, last Sunday of October.
+};
+
 export const THIS_DIR: string = "/src"; // Replace with the actual path
 export const RESOURCES_DIR: string = `${THIS_DIR}/../resources`;
 export const DIVOFF_DIR: string = `${RESOURCES_DIR}/divinum-officium`;
