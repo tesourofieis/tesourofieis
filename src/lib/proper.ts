@@ -204,11 +204,11 @@ export class Proper extends ParsedSource {
         },
         {
           commemorated_section_name: COMMEMORATED_SECRETA,
-          source_section_name: SECRETA,
+          sourceSectionName: SECRETA,
         },
         {
           commemorated_section_name: COMMEMORATED_POSTCOMMUNIO,
-          source_section_name: POSTCOMMUNIO,
+          sourceSectionName: POSTCOMMUNIO,
         },
       ];
       for (const {
