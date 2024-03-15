@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
-test("navigation", async ({ page, browserName }) => {
-  test.skip(browserName === "webkit");
+test("navigation", async ({ page }) => {
+  test.slow();
 
   await page.goto("/");
 
@@ -38,8 +38,7 @@ test("navigation", async ({ page, browserName }) => {
     .click();
 });
 
-test("search", async ({ page, browserName }) => {
-  test.skip(browserName === "webkit");
+test("search", async ({ page }) => {
   await page.goto("/");
 
   await page.keyboard.press("/");
