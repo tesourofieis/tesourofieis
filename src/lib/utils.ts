@@ -92,7 +92,7 @@ interface Section {
   subSections?: Section[];
 }
 
-function format_propers(propers: Proper[][], day: Day): ProperDay[] {
+function formatPropers(propers: Proper[][], day: Day): ProperDay[] {
   return propers?.map((proper) => {
     if (proper) {
       const [properVernacular, properLatin] = proper;
@@ -112,19 +112,16 @@ function format_propers(propers: Proper[][], day: Day): ProperDay[] {
 
       return {
         info: info,
-        sections: format_proper_section(properLatin, properVernacular),
+        sections: formatProperSection(properLatin, properVernacular),
       };
     }
   });
 }
 
-function format_proper_section(
-  propers_latin: Proper,
-  propers_vernacular: Proper,
-) {
+function formatProperSection(propersLatin: Proper, propersVernacular: Proper) {
   const pl = [];
-  const latinPropers = propers_latin.serialize();
-  const vernacularPropers = propers_vernacular.serialize();
+  const latinPropers = propersLatin.serialize();
+  const vernacularPropers = propersVernacular.serialize();
 
   for (const vernacular of vernacularPropers) {
     const latinProp = latinPropers.find(
@@ -162,6 +159,6 @@ export {
   getCustomPreface,
   getPregeneratedProper,
   yyyyMMDD,
-  format_propers,
+  formatPropers,
   printAll,
 };

@@ -48,28 +48,8 @@ class Day {
     return [...this.tempora, ...this.celebration, ...this.commemoration];
   }
 
-  getTemporaId() {
-    return this.tempora[0].id;
-  }
-
   getTemporaName() {
     return this.tempora[0]?.title;
-  }
-
-  getCelebrationId() {
-    return this.celebration[0]?.id;
-  }
-
-  getCelebrationName() {
-    return this.celebration[0]?.title;
-  }
-
-  getCelebrationColors() {
-    return this.celebration[0]?.colors;
-  }
-
-  getCelebrationRank() {
-    return this.celebration[0]?.rank;
   }
 
   getProper(calendar: Calendar) {
@@ -223,12 +203,6 @@ class Day {
     }
 
     return serialized;
-  }
-
-  toString(): string {
-    return `${JSON.stringify(this.tempora)}${JSON.stringify(
-      this.celebration,
-    )}${JSON.stringify(this.commemoration)}`;
   }
 }
 

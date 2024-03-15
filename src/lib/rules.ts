@@ -48,7 +48,7 @@ import { Observance } from "./observance.ts";
 import { match, yyyyMMDD } from "./utils.ts";
 
 // Nativity Vigil takes place of 4th Advent Sunday.
-function rule_nativity_has_multiple_masses(
+function ruleNativityHasMultipleMasses(
   _calendar: Calendar,
   _date_: string,
   _tempora: Observance[],
@@ -64,7 +64,7 @@ function rule_nativity_has_multiple_masses(
 }
 
 // All Souls Day; if not Sunday - Nov 2, else Nov 3; additionally, it has three masses
-function rule_all_souls(
+function ruleAllSouls(
   _calendar: Calendar,
   date_: string,
   _tempora: Observance[],
@@ -82,7 +82,7 @@ function rule_all_souls(
 }
 
 // Nativity Vigil takes place of 4th Advent Sunday.
-function rule_nativity_vigil(
+function ruleNativityVigil(
   _calendar: Calendar,
   date_: string,
   _tempora: Observance[],
@@ -94,7 +94,7 @@ function rule_nativity_vigil(
 }
 
 // St. Matthias the Apostle, normally on Feb 24, but in leap year on Feb 25
-function rule_st_matthias(
+function ruleStMatthias(
   _calendar: Calendar,
   date_: string,
   _tempora: Observance[],
@@ -119,7 +119,7 @@ function rule_st_matthias(
 }
 
 // Feb 27, normally on Feb 27 but in leap year on Feb 28
-function rule_feb27(
+function ruleFeb27(
   _calendar: Calendar,
   date_: string,
   _tempora: Observance[],
@@ -144,7 +144,7 @@ function rule_feb27(
 }
 
 // On feria Saturdays (4th class) the celebration is B. M. V. Saturdays on the given period
-function rule_bmv_office_on_saturday(
+function ruleBmvOfficeOnSaturday(
   calendar: Calendar,
   date_: string,
   tempora: Observance[],
@@ -191,7 +191,7 @@ function rule_bmv_office_on_saturday(
   }
 }
 
-function rule_same_class_feasts_take_over_advent_feria_and_ember_days(
+function ruleSameClassFeastsTakeOverAdventFeriaAndEmberDays(
   _calendar: Calendar,
   date_: string,
   _tempora: Observance[],
@@ -216,7 +216,7 @@ function rule_same_class_feasts_take_over_advent_feria_and_ember_days(
   }
 }
 
-function rule_lent_commemoration(
+function ruleLentCommemoration(
   _calendar: Calendar,
   _date_: string,
   _tempora: Observance[],
@@ -246,7 +246,7 @@ function rule_lent_commemoration(
   }
 }
 
-function rule_shift_conflicting_1st_class_feasts(
+function ruleShiftConflicting1stClassFeasts(
   calendar: Calendar,
   date_: string,
   _tempora: Observance[],
@@ -294,7 +294,7 @@ function rule_shift_conflicting_1st_class_feasts(
 
 // if we have first and second class feasts
 // transfer second class to next available
-function rule_shift_conflicting_second_class_feasts(
+function ruleShiftConflictingSecondClassFeasts(
   calendar: Calendar,
   date_: string,
   _tempora: Observance[],
@@ -325,7 +325,7 @@ function rule_shift_conflicting_second_class_feasts(
   }
 }
 
-function rule_lord_feast(
+function ruleLordFeast(
   _calendar: Calendar,
   _date_: string,
   _tempora: Observance[],
@@ -340,35 +340,35 @@ function rule_lord_feast(
 }
 
 // When 2nd class Sunday occurs along with 2nd class feast, the Sunday takes precedence and the feast is commemorated
-function rule_2nd_class_sunday_tempora(
+function rule2ndClassSundayTempora(
   _calendar: Calendar,
   date_: string,
   _tempora: Observance[],
   observances: Observance[],
 ) {
-  const pattern_sunday_class_2 = match(observances, PATTERN_SUNDAY);
+  const patternSundayClass_2 = match(observances, PATTERN_SUNDAY);
 
-  const pattern_sancti_class_2 = match(observances, PATTERN_SANCTI_CLASS_2);
+  const patternSanctiClass_2 = match(observances, PATTERN_SANCTI_CLASS_2);
 
   if (
-    pattern_sunday_class_2 &&
-    pattern_sunday_class_2.rank === 2 &&
+    patternSundayClass_2 &&
+    patternSundayClass_2.rank === 2 &&
     isSunday(date_)
   ) {
-    if (pattern_sancti_class_2) {
-      return [[pattern_sancti_class_2], [pattern_sunday_class_2], []];
+    if (patternSanctiClass_2) {
+      return [[patternSanctiClass_2], [patternSundayClass_2], []];
     }
-    return [[pattern_sunday_class_2], [], []];
+    return [[patternSundayClass_2], [], []];
   }
 }
 
-function rule_commemoration(
+function ruleCommemoration(
   _calendar: Calendar,
   _date_: string,
   _tempora: Observance[],
   observances: Observance[],
 ) {
-  const pattern_sancti = match(observances, PATTERN_SANCTI);
+  const patternSancti = match(observances, PATTERN_SANCTI);
 
   const sundays = match(observances, PATTERN_SUNDAY);
 
@@ -392,7 +392,7 @@ function rule_commemoration(
   }
 
   // if sundays outside lent and easter week
-  if (!sundaysLent && !albis && sundays && pattern_sancti) {
+  if (!sundaysLent && !albis && sundays && patternSancti) {
     // if sunday is second class and sancti first class
     // celebrate the sancti without sunday commemoration
     if (firstClassSaints && sundays?.rank === 2) {
@@ -400,22 +400,22 @@ function rule_commemoration(
     }
 
     // if sancti second class sunday is commemorated
-    if (pattern_sancti.rank <= 2) {
-      return [[pattern_sancti], [sundays], []];
+    if (patternSancti.rank <= 2) {
+      return [[patternSancti], [sundays], []];
     }
 
     // if sancti third class is commemorated
-    if (pattern_sancti.rank === 3) {
-      return [[sundays], [pattern_sancti], []];
+    if (patternSancti.rank === 3) {
+      return [[sundays], [patternSancti], []];
     }
 
     // if sancti is fourth class skip
-    if (pattern_sancti.rank === 4) {
+    if (patternSancti.rank === 4) {
       return;
     }
 
     // else sundays with sancti commemoration
-    return [[sundays], [pattern_sancti], []];
+    return [[sundays], [patternSancti], []];
   }
 
   // if not on sunday and first class sancti
@@ -430,7 +430,7 @@ function rule_commemoration(
   }
 }
 
-function rule_4th_class_feria_are_removed_from_celebration(
+function rule4thClassFeriaAreRemovedFromCelebration(
   _calendar: Calendar,
   _date_: string,
   _tempora: Observance[],
@@ -449,7 +449,7 @@ function rule_4th_class_feria_are_removed_from_celebration(
   }
 }
 
-function rule_general(
+function ruleGeneral(
   _calendar: Calendar,
   _date_: string,
   _tempora: Observance[],
@@ -475,19 +475,19 @@ function rule_general(
 }
 
 export const rules = [
-  rule_nativity_has_multiple_masses,
-  rule_all_souls,
-  rule_nativity_vigil,
-  rule_st_matthias,
-  rule_feb27,
-  rule_same_class_feasts_take_over_advent_feria_and_ember_days,
-  rule_lent_commemoration,
-  rule_shift_conflicting_1st_class_feasts,
-  rule_shift_conflicting_second_class_feasts,
-  rule_lord_feast,
-  rule_commemoration,
-  rule_2nd_class_sunday_tempora,
-  rule_bmv_office_on_saturday,
-  rule_4th_class_feria_are_removed_from_celebration,
-  rule_general,
+  ruleNativityHasMultipleMasses,
+  ruleAllSouls,
+  ruleNativityVigil,
+  ruleStMatthias,
+  ruleFeb27,
+  ruleSameClassFeastsTakeOverAdventFeriaAndEmberDays,
+  ruleLentCommemoration,
+  ruleShiftConflicting1stClassFeasts,
+  ruleShiftConflictingSecondClassFeasts,
+  ruleLordFeast,
+  ruleCommemoration,
+  rule2ndClassSundayTempora,
+  ruleBmvOfficeOnSaturday,
+  rule4thClassFeriaAreRemovedFromCelebration,
+  ruleGeneral,
 ];

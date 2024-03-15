@@ -34,22 +34,22 @@ import {
 } from "date-fns";
 
 class Calendar {
-  private _container: Map<string, Day>;
+  private container: Map<string, Day>;
   public year: number;
 
   constructor(year: number) {
     this.year = year;
-    this._container = new Map();
-    this._buildEmptyCalendar(year);
+    this.container = new Map();
+    this.buildEmptyCalendar(year);
     this.create();
   }
 
-  private _buildEmptyCalendar(year: number): void {
-    let date_ = new UTCDate(year, 0, 1);
+  private buildEmptyCalendar(year: number): void {
+    let date = new UTCDate(year, 0, 1);
 
-    while (date_.getFullYear() === year) {
-      this._container.set(yyyyMMDD(date_), new Day(yyyyMMDD(date_)));
-      date_ = addDays(date_, 1);
+    while (date.getFullYear() === year) {
+      this.container.set(yyyyMMDD(date), new Day(yyyyMMDD(date)));
+      date = addDays(date, 1);
     }
   }
 
@@ -95,13 +95,13 @@ class Calendar {
     // # Inserting single days
     const holyNameDate = this.calcHolyName(this.year);
 
-    this._container.get(yyyyMMDD(holyNameDate)).celebration = [
+    this.container.get(yyyyMMDD(holyNameDate)).celebration = [
       new Observance(TEMPORA_NAT2_0, yyyyMMDD(holyNameDate)),
     ];
 
     const christKingDate = this.calcChristKing(this.year);
-    if (this._container.get(yyyyMMDD(christKingDate))) {
-      this._container.get(yyyyMMDD(christKingDate)).celebration = [
+    if (this.container.get(yyyyMMDD(christKingDate))) {
+      this.container.get(yyyyMMDD(christKingDate)).celebration = [
         new Observance(SANCTI_10_DUr, yyyyMMDD(christKingDate)),
       ];
     }
@@ -143,16 +143,16 @@ class Calendar {
       block = block.slice().reverse();
     }
 
-    for (const [ii, observance_ids] of block.entries()) {
+    for (const [ii, observanceIds] of block.entries()) {
       const currentDate = addDays(new UTCDate(date), reverse ? -ii : ii);
 
-      if (!observance_ids) {
+      if (!observanceIds) {
         continue;
       }
 
       const dateKey = yyyyMMDD(currentDate);
 
-      if (this._container.get(dateKey)?.celebration.length && !overwrite) {
+      if (this.container.get(dateKey)?.celebration.length && !overwrite) {
         break;
       }
 
@@ -160,26 +160,26 @@ class Calendar {
         break;
       }
 
-      if (this._container.get(dateKey)) {
-        this._container.get(dateKey).tempora = [
-          new Observance(observance_ids, dateKey),
+      if (this.container.get(dateKey)) {
+        this.container.get(dateKey).tempora = [
+          new Observance(observanceIds, dateKey),
         ];
-        this._container.get(dateKey).celebration = [
-          ...this._container.get(dateKey).tempora,
+        this.container.get(dateKey).celebration = [
+          ...this.container.get(dateKey).tempora,
         ];
       }
     }
   }
 
   private fillInSanctiDays() {
-    for (const [date] of this._container.entries()) {
+    for (const [date] of this.container.entries()) {
       const dateId = format(date, "MM-dd");
       const days = SANCTI.filter((ii) => ii.startsWith(`sancti:${dateId}`)).map(
         (ii) => new Observance(ii, date),
       );
 
-      this._container.get(date)?.celebration.push(...days);
-      this._container.get(date)?.celebration.reverse();
+      this.container.get(date)?.celebration.push(...days);
+      this.container.get(date)?.celebration.reverse();
     }
   }
 
@@ -188,14 +188,14 @@ class Calendar {
   private resolveConcurrency() {
     const shiftedAll: { [date: string]: Observance[] } = {};
 
-    for (const [date_] of this._container.entries()) {
+    for (const [date] of this.container.entries()) {
       const [celebration, commemoration, shifted] = this.applyRules(
-        date_,
-        shiftedAll[date_] || [],
+        date,
+        shiftedAll[date] || [],
       );
 
-      this._container.get(date_).celebration = celebration as Observance[];
-      this._container.get(date_).commemoration = commemoration as Observance[];
+      this.container.get(date).celebration = celebration as Observance[];
+      this.container.get(date).commemoration = commemoration as Observance[];
 
       if (shifted) {
         // @ts-ignore
@@ -209,10 +209,10 @@ class Calendar {
     }
   }
 
-  private applyRules(date_: string, shifted: Observance[]) {
+  private applyRules(date: string, shifted: Observance[]) {
     for (const rule of rules) {
-      const results = rule(this, date_, this._container.get(date_)?.tempora, [
-        ...this._container.get(date_).celebration,
+      const results = rule(this, date, this.container.get(date)?.tempora, [
+        ...this.container.get(date).celebration,
         ...shifted,
       ]);
 
@@ -221,7 +221,7 @@ class Calendar {
       }
     }
 
-    return [this._container.get(date_).celebration, [], []];
+    return [this.container.get(date).celebration, [], []];
   }
 
   private calcEasterSunday(year: number): Date {
@@ -373,20 +373,20 @@ class Calendar {
     return null;
   }
 
-  get(date_: string) {
-    return this._container.get(date_);
+  get(date: string) {
+    return this.container.get(date);
   }
 
   findDay(observanceId: string) {
-    for (const [date_, day] of this._container) {
+    for (const [date_, day] of this.container) {
       if (day.all.some((observance) => observance.id === observanceId)) {
         return [date_, day];
       }
     }
   }
 
-  items() {
-    return this._container.entries();
+  private items() {
+    return this.container.entries();
   }
 
   serialize(): { [date: string]: Day } {

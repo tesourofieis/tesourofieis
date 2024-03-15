@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "vitest ./src/tests",
+    "bench": "vitest bench",
     "deploy-preview": "wrangler pages dev ./dist",
     "check": "biome check src --apply",
     "check-astro": "astro check"
@@ -26,7 +27,7 @@
     "@iconify/json": "^2.2.178",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
-    "astro": "^4.4.10",
+    "astro": "^4.5.5",
     "astro-robots-txt": "^1.0.0",
     "date-fns": "^3.2.0",
     "firebase": "^10.8.0",

@@ -1,6 +1,6 @@
 import { getYear } from "date-fns";
 import { Calendar } from "./calendar.ts";
-import { format_propers } from "./utils.ts";
+import { formatPropers } from "./utils.ts";
 
 function getDay(date: string) {
   const calendar = new Calendar(getYear(date));
@@ -9,7 +9,7 @@ function getDay(date: string) {
 
   const proper = day?.getProper(calendar);
 
-  const format = format_propers(proper, day);
+  const format = formatPropers(proper, day);
 
   return format;
 }
