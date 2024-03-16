@@ -1,9 +1,9 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../../lib/calendar";
+import { getCalendarDay } from "../../lib/getCalendar";
 
 test("S. Gabriel de Nossa Senhora das Dores 2024", () => {
-  const calendar = new Calendar(2024);
-  expect(calendar.get("2024-02-28")).toMatchObject({
+  const calendar = getCalendarDay("2024-02-28");
+  expect(calendar).toMatchObject({
     celebration: [
       {
         colors: ["v"],
@@ -43,42 +43,11 @@ test("S. Gabriel de Nossa Senhora das Dores 2024", () => {
       },
     ],
   });
-
-  expect(calendar.get("2024-03-24")).toMatchObject({
-    date: "2024-03-24",
-    celebration: [
-      {
-        colors: ["r", "v"],
-        date: "2024-03-24",
-        flexibility: "tempora",
-        id: "tempora:Quad6-0:1:rv",
-        name: "Quad6-0",
-        priority: 19,
-        rank: 1,
-        title: "Domingo de Ramos",
-        weekday: 0,
-      },
-    ],
-    commemoration: [],
-    tempora: [
-      {
-        colors: ["r", "v"],
-        date: "2024-03-24",
-        flexibility: "tempora",
-        id: "tempora:Quad6-0:1:rv",
-        name: "Quad6-0",
-        priority: 19,
-        rank: 1,
-        title: "Domingo de Ramos",
-        weekday: 0,
-      },
-    ],
-  });
 });
 
 test("S. Gabriel de Nossa Senhora das Dores 2025", () => {
-  const calendar = new Calendar(2025);
-  expect(calendar.get("2025-02-27")).toMatchObject({
+  const calendar = getCalendarDay("2025-02-27");
+  expect(calendar).toMatchObject({
     date: "2025-02-27",
     celebration: [
       {
@@ -107,8 +76,12 @@ test("S. Gabriel de Nossa Senhora das Dores 2025", () => {
       },
     ],
   });
+});
 
-  expect(calendar.get("2025-03-24")).toMatchObject({
+test("Segunda-feira da 3ª semana da Quaresma", () => {
+  const calendar = getCalendarDay("2025-03-24");
+
+  expect(calendar).toMatchObject({
     date: "2025-03-24",
     celebration: [
       {

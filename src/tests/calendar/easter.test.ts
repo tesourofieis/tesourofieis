@@ -1,9 +1,9 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../../lib/calendar";
+import { getCalendarDay } from "../../lib/getCalendar";
 
-test("easter", () => {
-  const calendar = new Calendar(2024);
-  expect(calendar.get("2024-03-30")).toMatchObject({
+test("sabado santo", () => {
+  const calendar = getCalendarDay("2024-03-30");
+  expect(calendar).toMatchObject({
     celebration: [
       {
         colors: ["v", "w"],
@@ -32,7 +32,11 @@ test("easter", () => {
       },
     ],
   });
-  expect(calendar.get("2024-03-31")).toMatchObject({
+});
+
+test("easter", () => {
+  const calendar = getCalendarDay("2024-03-31");
+  expect(calendar).toMatchObject({
     celebration: [
       {
         colors: ["w"],
@@ -57,7 +61,11 @@ test("easter", () => {
       },
     ],
   });
-  expect(calendar.get("2024-04-01")).toMatchObject({
+});
+
+test("segunda pascal", () => {
+  const calendar = getCalendarDay("2024-04-01");
+  expect(calendar).toMatchObject({
     celebration: [
       {
         colors: ["w"],

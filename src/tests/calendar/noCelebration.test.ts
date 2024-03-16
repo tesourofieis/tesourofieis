@@ -1,9 +1,9 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../../lib/calendar";
+import { getCalendarDay } from "../../lib/getCalendar";
 
 test("no celebration when tempora", () => {
-  const calendar = new Calendar(2024);
-  expect(calendar.get("2024-01-08")).toMatchObject({
+  const calendar = getCalendarDay("2024-01-08");
+  expect(calendar).toMatchObject({
     date: "2024-01-08",
     celebration: [],
     commemoration: [],
