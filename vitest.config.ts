@@ -7,7 +7,7 @@ export default defineConfig({
       provider: "v8",
       include: ["src/lib/**/*"],
       exclude: ["src/lib/resources"],
-      reporter: ["text", "text-summary", "json"],
+      reporter: ["json-summary"],
       all: true,
     },
   },
