@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "vitest ./src/tests",
+    "coverage": "vitest run ./src/tests --coverage",
     "bench": "vitest bench",
     "deploy-preview": "wrangler pages dev ./dist",
     "check": "biome check src --apply",
@@ -44,8 +45,9 @@
     "@iconify-icon/react": "^1.0.8",
     "@playwright/test": "^1.41.2",
     "@types/node": "^20.11.17",
+    "@vitest/coverage-v8": "^1.4.0",
     "lefthook": "^1.6.5",
-    "vitest": "^1.2.1",
+    "vitest": "^1.4.0",
     "wrangler": "^3.30.1"
   }
 }
