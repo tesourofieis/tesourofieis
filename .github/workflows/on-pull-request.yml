@@ -20,11 +20,11 @@ jobs:
       - run: bun run coverage
       - uses: davelosert/vitest-coverage-report-action@v2
         with:
-          json-summary-compare-path: coverage-main/coverage-summary.json
+          json-summary-compare-path: coverage/coverage-summary.json
 
   test-e2e:
-    needs: test-unit
     name: End to end
+    needs: test-unit
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -38,3 +38,18 @@ jobs:
         run: bunx playwright install --with-deps chromium
       - name: Run Playwright tests
         run: bunx playwright test
+
+  deploy:
+    name: Deploy
+    needs: test-e2e
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy --project-name=tesourofieis
