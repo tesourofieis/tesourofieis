@@ -17,6 +17,9 @@ jobs:
       - run: bun install
       - run: bun run test
       - run: bun run bench
+      - uses: davelosert/vitest-coverage-report-action@v2
+        with:
+          json-summary-compare-path: coverage-main/coverage-summary.json
 
   test-e2e:
     needs: test-unit
