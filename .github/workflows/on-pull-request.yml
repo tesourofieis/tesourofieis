@@ -5,6 +5,9 @@ on:
     branches:
       - master
 
+permissions:
+  pull-requests: write
+
 jobs:
   test-unit:
     name: Test unit
@@ -53,3 +56,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy --project-name=tesourofieis
+          packageManager: bun
