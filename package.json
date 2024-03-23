@@ -2,6 +2,9 @@
   "name": "starlight",
   "type": "module",
   "version": "0.0.3",
+  "engines": {
+    "node": "20.9.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -9,43 +12,47 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "vitest ./src/tests",
+    "update-snapshot": "vitest -u ./src/tests",
     "bench": "vitest bench",
+    "coverage": "vitest --coverage ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
     "check": "biome check src --apply",
     "check-astro": "astro check"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.4",
     "@astrojs/partytown": "^2.0.4",
-    "@astrojs/react": "^3.0.9",
-    "@astrojs/starlight": "^0.15.4",
+    "@astrojs/react": "^3.1.0",
+    "@astrojs/starlight": "^0.21.2",
     "@astrojs/starlight-tailwind": "^2.0.1",
     "@astrojs/tailwind": "^5.1.0",
-    "@date-fns/utc": "^1.1.1",
-    "@fontsource-variable/eb-garamond": "^5.0.17",
-    "@fontsource/berkshire-swash": "^5.0.18",
-    "@iconify/json": "^2.2.178",
-    "@types/react": "^18.2.48",
-    "@types/react-dom": "^18.2.18",
-    "astro": "^4.5.5",
-    "astro-robots-txt": "^1.0.0",
-    "date-fns": "^3.2.0",
-    "firebase": "^10.8.0",
+    "@date-fns/utc": "^1.2.0",
+    "@types/react": "^18.2.69",
+    "@types/react-dom": "^18.2.22",
+    "astro": "^4.5.9",
+    "date-fns": "^3.6.0",
+    "firebase": "^10.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sharp": "^0.32.6",
-    "tailwind": "^4.0.0",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.3.3",
-    "unplugin-icons": "^0.18.3"
+    "unplugin-icons": "^0.18.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
-    "@iconify-icon/react": "^1.0.8",
-    "@playwright/test": "^1.41.2",
-    "@types/node": "^20.11.17",
-    "lefthook": "^1.6.5",
-    "vitest": "^1.2.1",
-    "wrangler": "^3.30.1"
-  }
+    "@astrojs/check": "^0.5.10",
+    "@biomejs/biome": "1.6.2",
+    "@fontsource-variable/eb-garamond": "^5.0.18",
+    "@fontsource/berkshire-swash": "^5.0.19",
+    "@iconify-icon/react": "^2.0.1",
+    "@iconify/json": "^2.2.195",
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.9.0",
+    "@vitest/coverage-v8": "^1.4.0",
+    "astro-robots-txt": "^1.0.0",
+    "lefthook": "^1.6.7",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
+  },
+  "trustedDependencies": [
+    "@biomejs/biome",
+    "protobufjs"
+  ]
 }

@@ -1,9 +1,9 @@
 import { expect, test } from "vitest";
-import { Calendar } from "../../lib/calendar";
+import { getCalendarDay } from "../../lib/getCalendar";
 
 test("Anunciação de Nossa Senhora 2024", () => {
-  const calendar = new Calendar(2024);
-  expect(calendar.get("2024-04-08")).toMatchObject({
+  const calendar = getCalendarDay("2024-04-08");
+  expect(calendar).toMatchObject({
     date: "2024-04-08",
     celebration: [
       {
@@ -31,8 +31,8 @@ test("Anunciação de Nossa Senhora 2024", () => {
 });
 
 test("Anunciação de Nossa Senhora 2025", () => {
-  const calendar = new Calendar(2025);
-  expect(calendar.get("2025-03-25")).toMatchObject({
+  const calendar = getCalendarDay("2025-03-25");
+  expect(calendar).toMatchObject({
     date: "2025-03-25",
     celebration: [
       {

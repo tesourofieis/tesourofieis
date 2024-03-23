@@ -1,0 +1,48 @@
+name: pull-request
+
+on:
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  pull-requests: write
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - run: bun run bench
+      - run: bun run test
+      - run: bun run coverage
+      - uses: davelosert/vitest-coverage-report-action@v2
+        with:
+          json-summary-compare-path: coverage/coverage-summary.json
+      - run: bunx playwright install --with-deps chromium
+      - run: bunx playwright test
+
+  deploy:
+    name: Deploy
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - name: Build
+        run: bun run build
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name tesourofieis
+          packageManager: bun
