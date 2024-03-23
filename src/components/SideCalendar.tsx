@@ -79,7 +79,7 @@ export const SideCalendar = ({
               />
             )}
           </button>
-          {Object.entries(calendar.serialize()).map(([calendarDate, day]) => (
+          {Object.entries(calendar).map(([calendarDate, day]) => (
             <button
               key={calendarDate}
               className={`flex flex-col w-full hover:bg-sepia-200 dark:hover:bg-sepia-900

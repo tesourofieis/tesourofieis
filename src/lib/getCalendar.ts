@@ -4,7 +4,7 @@ import { Calendar } from "./calendar.ts";
 function getCalendar(year: number) {
   const calendar = new Calendar(year);
 
-  return calendar;
+  return calendar.serialize();
 }
 
 function getCalendarDay(date: string) {
