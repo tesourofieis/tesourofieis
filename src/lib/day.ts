@@ -45,7 +45,7 @@ class Day {
   }
 
   get all(): Observance[] {
-    return this.tempora.concat(this.celebration).concat(this.commemoration);
+    return [...this.tempora, ...this.celebration, ...this.commemoration];
   }
 
   getTemporaName() {

@@ -164,8 +164,9 @@ class Calendar {
         this.container.get(dateKey).tempora = [
           new Observance(observanceIds, dateKey),
         ];
-        this.container.get(dateKey).celebration =
-          this.container.get(dateKey).tempora;
+        this.container.get(dateKey).celebration = [
+          ...this.container.get(dateKey).tempora,
+        ];
       }
     }
   }
@@ -177,7 +178,7 @@ class Calendar {
         (ii) => new Observance(ii, date),
       );
 
-      this.container.get(date)?.celebration.concat(days);
+      this.container.get(date)?.celebration.push(...days);
       this.container.get(date)?.celebration.reverse();
     }
   }

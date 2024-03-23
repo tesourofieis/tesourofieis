@@ -2,12 +2,12 @@ import { defineConfig } from "vitest/config";
 import codspeedPlugin from "@codspeed/vitest-plugin";
 
 export default defineConfig({
-  // plugins: [codspeedPlugin()],
+  plugins: [codspeedPlugin()],
   test: {
-    // benchmark: {
-    //   outputFile: "bench/report.json",
-    //   reporters: "json",
-    // },
+    benchmark: {
+      outputFile: "bench/report.json",
+      reporters: "json",
+    },
     watch: false,
     coverage: {
       provider: "v8",
