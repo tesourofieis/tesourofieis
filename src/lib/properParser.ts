@@ -290,10 +290,14 @@ class ProperParser {
       }
     }
 
-    sectionsToRemove.add(
-      // @ts-ignore
-      ...getExcludedInterReadingsSections(this.config, proper),
+    const excludedSections = getExcludedInterReadingsSections(
+      this.config,
+      proper,
     );
+
+    for (const sectionId of excludedSections) {
+      sectionsToRemove.add(sectionId);
+    }
 
     for (const sectionId of sectionsToRemove) {
       proper.popSection(sectionId);
