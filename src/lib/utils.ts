@@ -59,17 +59,6 @@ function getCustomPreface(
   return null;
 }
 
-function getPregeneratedProper(lang: string, properId: string) {
-  const filePath = path.join(PROPERS_DIR, lang, `${properId}.json`);
-
-  if (fs.existsSync(filePath)) {
-    const fileContent = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(fileContent);
-  }
-
-  return null;
-}
-
 export interface ProperDay {
   info: {
     id: string;
@@ -150,10 +139,4 @@ function formatProperSection(propersLatin: Proper, propersVernacular: Proper) {
   return pl;
 }
 
-export {
-  match,
-  getCustomPreface,
-  getPregeneratedProper,
-  yyyyMMDD,
-  formatPropers,
-};
+export { match, getCustomPreface, yyyyMMDD, formatPropers };
