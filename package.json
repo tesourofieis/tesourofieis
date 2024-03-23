@@ -13,7 +13,7 @@
     "astro": "astro",
     "test": "vitest ./src/tests",
     "bench": "vitest bench",
-    "coverage": "vitest coverage ./src/tests",
+    "coverage": "vitest --coverage ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
     "check": "biome check src --apply",
     "check-astro": "astro check"
@@ -38,17 +38,18 @@
   "devDependencies": {
     "@astrojs/check": "^0.5.10",
     "@biomejs/biome": "1.6.2",
-    "@iconify/json": "^2.2.195",
-    "@iconify-icon/react": "^2.0.1",
     "@fontsource-variable/eb-garamond": "^5.0.18",
     "@fontsource/berkshire-swash": "^5.0.19",
+    "@iconify-icon/react": "^2.0.1",
+    "@iconify/json": "^2.2.195",
     "@playwright/test": "^1.42.1",
     "@types/node": "^20.9.0",
+    "@vitest/coverage-v8": "^1.4.0",
     "astro-robots-txt": "^1.0.0",
     "lefthook": "^1.6.7",
-    "vitest": "^1.4.0",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
   },
   "trustedDependencies": [
     "@biomejs/biome",
