@@ -32,7 +32,6 @@
     "firebase": "^10.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sharp": "^0.33.3",
     "unplugin-icons": "^0.18.5"
   },
   "devDependencies": {
@@ -53,7 +52,6 @@
   },
   "trustedDependencies": [
     "@biomejs/biome",
-    "protobufjs",
-    "sharp"
+    "protobufjs"
   ]
 }
