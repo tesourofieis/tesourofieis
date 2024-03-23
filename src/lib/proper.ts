@@ -51,7 +51,7 @@ export class Section {
   }
 
   extendBody(bodyPart: string[]): void {
-    this.body = [...this.body, ...bodyPart];
+    this.body.concat(bodyPart);
   }
 
   addSubsection(subsection: Section): void {
@@ -144,7 +144,7 @@ export class Proper extends ParsedSource {
       throw new Error(`Proper ${id} not found`);
     }
     if (parsedSource !== null) {
-      this.container = { ...parsedSource.container };
+      this.container = parsedSource.container;
     }
   }
 
