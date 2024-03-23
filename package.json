@@ -12,6 +12,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "vitest ./src/tests",
+    "update-snapshot": "vitest -u ./src/tests",
     "bench": "vitest bench",
     "coverage": "vitest --coverage ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
