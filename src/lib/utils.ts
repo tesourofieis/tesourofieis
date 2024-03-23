@@ -150,15 +150,10 @@ function formatProperSection(propersLatin: Proper, propersVernacular: Proper) {
   return pl;
 }
 
-function printAll(calendar: Calendar) {
-  return calendar.serialize();
-}
-
 export {
   match,
   getCustomPreface,
   getPregeneratedProper,
   yyyyMMDD,
   formatPropers,
-  printAll,
 };

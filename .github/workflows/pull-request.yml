@@ -18,7 +18,11 @@ jobs:
           submodules: recursive
       - uses: oven-sh/setup-bun@v1
       - run: bun install
-      - run: bun run bench
+      - name: Run benchmarks
+        uses: CodSpeedHQ/action@v2
+        with:
+          token: ${{ secrets.CODSPEED_TOKEN }}
+          run: bun run bench
       - run: bun run test
       - run: bun run coverage
       - uses: davelosert/vitest-coverage-report-action@v2
