@@ -1,12 +1,9 @@
-import { CUSTOM_PREFACES, PROPERS_DIR } from "./constants.ts";
-import path from "path";
-import fs from "fs";
-import { Observance } from "./observance.ts";
-import { Proper } from "./proper.ts";
-import { Day } from "./day.ts";
-import type { Calendar } from "./calendar.ts";
 import type { UTCDate } from "@date-fns/utc";
 import { format } from "date-fns";
+import { CUSTOM_PREFACES } from "./constants.ts";
+import type { Day } from "./day.ts";
+import type { Observance } from "./observance.ts";
+import type { Proper } from "./proper.ts";
 
 type Pattern = string | RegExp;
 

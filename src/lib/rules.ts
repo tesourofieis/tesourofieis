@@ -10,7 +10,7 @@ import {
   isSaturday,
   isSunday,
 } from "date-fns";
-import { Calendar } from "./calendar.ts";
+import type { Calendar } from "./calendar.ts";
 import {
   COMMUNE_C_10A,
   COMMUNE_C_10B,

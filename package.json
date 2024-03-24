@@ -16,7 +16,7 @@
     "bench": "vitest bench",
     "coverage": "vitest --coverage ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
-    "check": "biome check src --apply",
+    "check": "biome check . --apply",
     "check-astro": "astro check"
   },
   "dependencies": {

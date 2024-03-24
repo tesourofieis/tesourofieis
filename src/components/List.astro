@@ -1,33 +1,31 @@
 ---
-import {getCollection} from "astro:content";
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
-
+import { getCollection } from "astro:content";
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
 
 const { slug } = Astro.params;
 
-const allPages = await getCollection('docs');
-let searchPages = allPages.filter((p) => {
-  const idParts = p.id.split('/');
-  const slugParts = slug.split('/');
+const allPages = await getCollection("docs");
+const searchPages = allPages.filter((p) => {
+  const idParts = p.id.split("/");
+  const slugParts = slug.split("/");
 
-  if(p.id.startsWith(slug)) {
+  if (p.id.startsWith(slug)) {
     // Check if id is 1 folder away from slug
     if (idParts.length === slugParts.length + 1) {
       // Check if it's an mdx file but not index.mdx
-      return p.id.endsWith('.mdx') && !p.id.endsWith('/index.mdx');
+      return p.id.endsWith(".mdx") && !p.id.endsWith("/index.mdx");
     }
 
     // Check if id is 2 folders away from slug
     if (idParts.length === slugParts.length + 2) {
       // Check if it's index.mdx
-      return p.id.endsWith('/index.mdx');
+      return p.id.endsWith("/index.mdx");
     }
 
     // For other cases, return false (do not show)
     return false;
   }
-})
-
+});
 ---
 
 <CardGrid stagger>

@@ -1,6 +1,6 @@
 {
   "files": {
-    "include": ["playwright-tests/**"],
+    "include": ["playwright-tests/**", "src/**"],
     "ignore": ["dist/**", "src/lib/resources/**"]
   },
   "organizeImports": {
@@ -9,7 +9,10 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "style": {
+        "noParameterAssign": "off"
+      }
     }
   },
   "formatter": {

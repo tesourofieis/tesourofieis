@@ -6,7 +6,7 @@ import {
   isSunday,
   previousSunday,
 } from "date-fns";
-import { Calendar } from "./calendar.ts";
+import type { Calendar } from "./calendar.ts";
 import {
   CUSTOM_INTER_READING_SECTIONS,
   FERIA,
@@ -24,7 +24,7 @@ import {
   TRACTUS,
 } from "./constants.ts";
 import { Observance } from "./observance.ts";
-import { Proper, ProperConfig } from "./proper.ts";
+import { type Proper, ProperConfig } from "./proper.ts";
 import { getCustomPreface, match, yyyyMMDD } from "./utils.ts";
 
 // """ Class used to keep `Observance` objects for particular days of Missal.

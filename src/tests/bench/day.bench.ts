@@ -1,6 +1,6 @@
 import { bench, describe } from "vitest";
-import { getDay } from "../../lib/getDay";
 import { getCalendar } from "../../lib/getCalendar";
+import { getDay } from "../../lib/getDay";
 
 describe.skip("day", () => {
   const calendar = getCalendar(new Date().getFullYear());

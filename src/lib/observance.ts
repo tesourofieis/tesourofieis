@@ -13,7 +13,7 @@ import {
   TYPE_TEMPORA,
   getTranslation,
 } from "./constants.ts";
-import { Proper, ProperConfig } from "./proper.ts";
+import type { Proper, ProperConfig } from "./proper.ts";
 import { ProperParser } from "./properParser.ts";
 
 export class Observance {
@@ -42,7 +42,7 @@ export class Observance {
     this.date = date_;
     this.flexibility = flexibility;
     this.name = name;
-    this.rank = this.calcRank(observanceId, parseInt(rank, 10));
+    this.rank = this.calcRank(observanceId, Number.parseInt(rank, 10));
     this.colors = Array.from(color);
     this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
     this.title = getTranslation(LANGUAGE).TITLES[observanceId];
@@ -61,7 +61,7 @@ export class Observance {
       if (name.replace(/^.*-(\d+).*$/, "$1") === "10-Dur") {
         this.weekday = 0;
       }
-      this.weekday = parseInt(name.replace(/^.*-(\d+).*$/, "$1"), 10);
+      this.weekday = Number.parseInt(name.replace(/^.*-(\d+).*$/, "$1"), 10);
     } else {
       this.weekday = getDay(this.date);
     }

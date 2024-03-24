@@ -2,8 +2,8 @@ import {
   COMMEMORATED_ORATIO,
   COMMEMORATED_POSTCOMMUNIO,
   COMMEMORATED_SECRETA,
-  COMMEMORATIONS,
-  COMMEMORATIONS_PT,
+  type COMMEMORATIONS,
+  type COMMEMORATIONS_PT,
   GRADUALE,
   GRADUALE_PASCHAL,
   NORMAL_SECTIONS,
@@ -138,7 +138,7 @@ export class Proper extends ParsedSource {
     this.id = id;
     try {
       const [, , rank, color] = id.split(":");
-      this.rank = parseInt(rank, 10);
+      this.rank = Number.parseInt(rank, 10);
       this.colors = color.split("");
     } catch (error) {
       throw new Error(`Proper ${id} not found`);
@@ -222,10 +222,7 @@ export class Proper extends ParsedSource {
           sourceSectionName: POSTCOMMUNIO,
         },
       ];
-      for (const {
-        commemoratedSectionName: commemoratedSectionName,
-        sourceSectionName: sourceSectionName,
-      } of sections) {
+      for (const { commemoratedSectionName, sourceSectionName } of sections) {
         const commemoratedSection = commemoration.getSection(sourceSectionName);
         commemoratedSection.body.unshift(commemoration.title);
         commemoratedSection.id = commemoratedSectionName;
