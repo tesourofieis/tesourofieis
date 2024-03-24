@@ -1,5 +1,5 @@
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "node:fs";
+import * as path from "node:path";
 import {
   DIVOFF_LANG_MAP,
   GRADUALE,
@@ -290,10 +290,14 @@ class ProperParser {
       }
     }
 
-    sectionsToRemove.add(
-      // @ts-ignore
-      ...getExcludedInterReadingsSections(this.config, proper),
+    const excludedSections = getExcludedInterReadingsSections(
+      this.config,
+      proper,
     );
+
+    for (const sectionId of excludedSections) {
+      sectionsToRemove.add(sectionId);
+    }
 
     for (const sectionId of sectionsToRemove) {
       proper.popSection(sectionId);

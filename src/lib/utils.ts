@@ -1,12 +1,9 @@
-import { CUSTOM_PREFACES, PROPERS_DIR } from "./constants.ts";
-import path from "path";
-import fs from "fs";
-import { Observance } from "./observance.ts";
-import { Proper } from "./proper.ts";
-import { Day } from "./day.ts";
-import type { Calendar } from "./calendar.ts";
 import type { UTCDate } from "@date-fns/utc";
 import { format } from "date-fns";
+import { CUSTOM_PREFACES } from "./constants.ts";
+import type { Day } from "./day.ts";
+import type { Observance } from "./observance.ts";
+import type { Proper } from "./proper.ts";
 
 type Pattern = string | RegExp;
 
@@ -56,17 +53,6 @@ function getCustomPreface(
       return preface;
     }
   }
-  return null;
-}
-
-function getPregeneratedProper(lang: string, properId: string) {
-  const filePath = path.join(PROPERS_DIR, lang, `${properId}.json`);
-
-  if (fs.existsSync(filePath)) {
-    const fileContent = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(fileContent);
-  }
-
   return null;
 }
 
@@ -150,15 +136,4 @@ function formatProperSection(propersLatin: Proper, propersVernacular: Proper) {
   return pl;
 }
 
-function printAll(calendar: Calendar) {
-  return calendar.serialize();
-}
-
-export {
-  match,
-  getCustomPreface,
-  getPregeneratedProper,
-  yyyyMMDD,
-  formatPropers,
-  printAll,
-};
+export { match, getCustomPreface, yyyyMMDD, formatPropers };

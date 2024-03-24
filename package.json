@@ -16,7 +16,7 @@
     "bench": "vitest bench",
     "coverage": "vitest --coverage ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
-    "check": "biome check src --apply",
+    "check": "biome check . --apply",
     "check-astro": "astro check"
   },
   "dependencies": {
@@ -38,6 +38,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.5.10",
     "@biomejs/biome": "1.6.2",
+    "@codspeed/vitest-plugin": "^3.1.0",
     "@fontsource-variable/eb-garamond": "^5.0.18",
     "@fontsource/berkshire-swash": "^5.0.19",
     "@iconify-icon/react": "^2.0.1",

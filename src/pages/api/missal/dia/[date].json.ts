@@ -21,7 +21,7 @@ export const GET = ({ params }) => {
 };
 
 export function getStaticPaths() {
-  const calendar = getCalendar(new Date().getFullYear()).serialize();
+  const calendar = getCalendar(new Date().getFullYear());
   return Object.entries(calendar).map(([calendarDate]) => {
     return {
       params: { date: calendarDate },

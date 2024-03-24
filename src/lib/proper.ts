@@ -2,8 +2,8 @@ import {
   COMMEMORATED_ORATIO,
   COMMEMORATED_POSTCOMMUNIO,
   COMMEMORATED_SECRETA,
-  COMMEMORATIONS,
-  COMMEMORATIONS_PT,
+  type COMMEMORATIONS,
+  type COMMEMORATIONS_PT,
   GRADUALE,
   GRADUALE_PASCHAL,
   NORMAL_SECTIONS,
@@ -51,7 +51,7 @@ export class Section {
   }
 
   extendBody(bodyPart: string[]): void {
-    this.body = [...this.body, ...bodyPart];
+    this.body = this.body.concat(bodyPart);
   }
 
   addSubsection(subsection: Section): void {
@@ -138,13 +138,13 @@ export class Proper extends ParsedSource {
     this.id = id;
     try {
       const [, , rank, color] = id.split(":");
-      this.rank = parseInt(rank, 10);
+      this.rank = Number.parseInt(rank, 10);
       this.colors = color.split("");
     } catch (error) {
       throw new Error(`Proper ${id} not found`);
     }
     if (parsedSource !== null) {
-      this.container = { ...parsedSource.container };
+      this.container = parsedSource.container;
     }
   }
 
@@ -170,8 +170,19 @@ export class Proper extends ParsedSource {
     for (const sectionName of ["Rank", "Rule"]) {
       const section = this.getSection(sectionName);
       if (section !== null) {
-        for (const line of section.getBody()) {
-          rulesSrc.push(...line.split(";").map((i) => i.trim()));
+        const body = section.getBody();
+        if (body) {
+          for (const line of body) {
+            const segments = line.split(";");
+            const trimmedSegments = [];
+            for (const segment of segments) {
+              const trimmed = segment.trim();
+              if (trimmed !== "") {
+                trimmedSegments.push(trimmed);
+              }
+            }
+            rulesSrc.push(...trimmedSegments);
+          }
         }
       }
     }
@@ -211,10 +222,7 @@ export class Proper extends ParsedSource {
           sourceSectionName: POSTCOMMUNIO,
         },
       ];
-      for (const {
-        commemoratedSectionName: commemoratedSectionName,
-        sourceSectionName: sourceSectionName,
-      } of sections) {
+      for (const { commemoratedSectionName, sourceSectionName } of sections) {
         const commemoratedSection = commemoration.getSection(sourceSectionName);
         commemoratedSection.body.unshift(commemoration.title);
         commemoratedSection.id = commemoratedSectionName;

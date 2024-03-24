@@ -18,7 +18,7 @@ jobs:
           submodules: recursive
       - uses: oven-sh/setup-bun@v1
       - run: bun install
-      - run: bun run bench
+      - run: bun run check
       - run: bun run test
       - run: bun run coverage
       - uses: davelosert/vitest-coverage-report-action@v2
@@ -26,6 +26,21 @@ jobs:
           json-summary-compare-path: coverage/coverage-summary.json
       - run: bunx playwright install --with-deps chromium
       - run: bunx playwright test
+
+  bench:
+    name: Bench
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - name: Run benchmarks
+        uses: CodSpeedHQ/action@v2
+        with:
+          token: ${{ secrets.CODSPEED_TOKEN }}
+          run: bun run bench
 
   deploy:
     name: Deploy
