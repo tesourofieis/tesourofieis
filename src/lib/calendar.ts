@@ -211,10 +211,12 @@ class Calendar {
 
   private applyRules(date: string, shifted: Observance[]) {
     for (const rule of rules) {
-      const results = rule(this, date, this.container.get(date)?.tempora, [
-        ...this.container.get(date).celebration,
-        ...shifted,
-      ]);
+      const results = rule(
+        this,
+        date,
+        this.container.get(date)?.tempora,
+        this.container.get(date).celebration.concat(shifted),
+      );
 
       if (results) {
         return results;
