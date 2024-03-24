@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tesouro dos Fiéis</string>
+    <string name="title_activity_main">Tesouro dos Fiéis</string>
+    <string name="package_name">com.tesourofieis.app</string>
+    <string name="custom_url_scheme">com.tesourofieis.app</string>
+</resources>
