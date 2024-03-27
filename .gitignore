@@ -15,4 +15,4 @@ node_modules/
 coverage
 bench/report.json
 
-src-tauri/gen/android
+src-tauri/gen/android/app/universal/release

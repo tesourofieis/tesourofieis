@@ -1,7 +1,7 @@
 {
   "files": {
     "include": ["playwright-tests/**", "src/**"],
-    "ignore": ["dist/**", "src/lib/resources/**"]
+    "ignore": ["dist/**", "src/lib/resources/**", "src-tauri"]
   },
   "organizeImports": {
     "enabled": true
