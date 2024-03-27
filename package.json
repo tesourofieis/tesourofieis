@@ -29,11 +29,11 @@
     "@date-fns/utc": "^1.2.0",
     "@tauri-apps/api": "next",
     "@tauri-apps/cli": "next",
+    "@tauri-apps/plugin-notification": "^2.0.0-beta.2",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
     "astro": "^4.5.9",
     "date-fns": "^3.6.0",
-    "firebase": "^10.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "unplugin-icons": "^0.18.5"
