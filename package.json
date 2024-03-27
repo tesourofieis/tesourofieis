@@ -1,7 +1,7 @@
 {
   "name": "starlight",
   "type": "module",
-  "version": "0.0.3",
+  "version": "1.0.1",
   "engines": {
     "node": "20.9.0"
   },
@@ -17,7 +17,8 @@
     "coverage": "vitest --coverage ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
     "check": "biome check . --apply",
-    "check-astro": "astro check"
+    "check-astro": "astro check",
+    "tauri": "tauri"
   },
   "dependencies": {
     "@astrojs/partytown": "^2.0.4",
@@ -26,6 +27,8 @@
     "@astrojs/starlight-tailwind": "^2.0.1",
     "@astrojs/tailwind": "^5.1.0",
     "@date-fns/utc": "^1.2.0",
+    "@tauri-apps/api": "next",
+    "@tauri-apps/cli": "next",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
     "astro": "^4.5.9",

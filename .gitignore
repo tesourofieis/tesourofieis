@@ -14,3 +14,5 @@ node_modules/
 /playwright/.cache/
 coverage
 bench/report.json
+
+src-tauri/gen/android/app/universal/release

@@ -154,6 +154,7 @@ export default defineConfig({
       },
       social: {
         "x.com": "https://x.com/tesourofieis",
+        discord: "https://discord.gg/EfJgnNNBsv",
         github: "https://github.com/tesourofieis/tesourofieis",
         patreon: "https://www.patreon.com/tesourofieis",
       },
