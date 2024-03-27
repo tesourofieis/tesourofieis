@@ -11,9 +11,6 @@ jobs:
       contents: write
     strategy:
       fail-fast: false
-      matrix:
-        platform: [android]
-
     runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v4
