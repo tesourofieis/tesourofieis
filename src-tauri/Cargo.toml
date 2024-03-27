@@ -1,9 +1,9 @@
 [package]
 name = "app"
-version = "0.1.0"
-description = "A Tauri App"
+version = "0.1.1"
+description = "Tesouro dos Fiéis"
 authors = ["you"]
-license = ""
+license = "mit"
 repository = ""
 edition = "2021"
 rust-version = "1.70"

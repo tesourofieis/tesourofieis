@@ -1,6 +1,5 @@
 {
   "productName": "Tesouro dos Fiéis",
-  "version": "0.1.0",
   "identifier": "com.tesourofieis.app",
   "build": {
     "frontendDist": "../dist",
