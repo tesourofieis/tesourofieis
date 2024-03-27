@@ -5,8 +5,11 @@ import { getHours } from "date-fns";
 import { useEffect, useState } from "react";
 import LinkCard from "./LinkCard";
 import Loading from "./Loading";
-import Notifications from "./Notifications";
 import Office from "./Office";
+import {
+  requestPermission,
+  sendNotification,
+} from "@tauri-apps/plugin-notification";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
@@ -38,9 +41,18 @@ export default function InteractiveCard() {
     return { isMorning, isNight };
   }
 
-  function getAngelus(date: Date) {
+  async function getAngelus(date: Date) {
     const hour = getHours(date);
-    return hour === 6 || hour === 12 || hour === 18;
+    if (hour === 23 || hour === 6 || hour === 12 || hour === 18) {
+      requestPermission();
+
+      sendNotification({
+        title: "Tesouro dos Fiéis",
+        body: `Hora do Angelus ${hour}`,
+        icon: "favicon72.png",
+      });
+      return true;
+    }
   }
 
   if (!calendar) {
@@ -55,7 +67,6 @@ export default function InteractiveCard() {
     <div className="flex flex-col shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-100 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-600 no-underline p-4 gap-5">
       <div className="flex justify-between not-content">
         <h2>Dia e Hora</h2>
-        {window && <Notifications />}
       </div>
       <span className="italic">
         Muda a Missa, o Ofício, o Angelus e as orações do dia consoante o dia e
