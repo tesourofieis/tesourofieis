@@ -17,12 +17,14 @@ jobs:
         with:
           submodules: recursive
       - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
       - name: "📦 Install"
         run: bun install --frozen-lockfile
       - name: "🔧 Build"
         run: bun run build
       - name: install Rust stable
-        uses: dtolnay/rust-toolchain@stable
+        uses: dtolnay/rust-toolchain@nightly
       - name: Install Dependencies (Ubuntu only)
         if: matrix.platform == 'ubuntu-latest'
         run: |
