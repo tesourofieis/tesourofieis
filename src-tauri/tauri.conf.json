@@ -4,8 +4,8 @@
   "build": {
     "frontendDist": "../dist",
     "devUrl": "http://localhost:4321",
-    "beforeDevCommand": "bun run dev",
-    "beforeBuildCommand": "bun run build"
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
   },
   "app": {
     "windows": [
@@ -32,5 +32,6 @@
       "icons/icon.ico"
     ]
   },
-  "$schema": "../node_modules/@tauri-apps/cli/schema.json"
+  "$schema": "../node_modules/@tauri-apps/cli/schema.json",
+  "plugins": {}
 }

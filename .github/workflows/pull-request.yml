@@ -16,17 +16,20 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-      - uses: oven-sh/setup-bun@v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: "npm"
       - name: "📦 Install"
-        run: bun install --frozen-lockfile
-      - run: bun run check
-      - run: bun run test
-      - run: bun run coverage
+        run: npm ci
+      - run: npm run check
+      - run: npm run test
+      - run: npm run coverage
       - uses: davelosert/vitest-coverage-report-action@v2
         with:
           json-summary-compare-path: coverage/coverage-summary.json
-      - run: bunx playwright install --with-deps chromium
-      - run: bunx playwright test
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test
 
   bench:
     name: Bench
@@ -35,14 +38,17 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-      - uses: oven-sh/setup-bun@v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: "npm"
       - name: "📦 Install"
-        run: bun install --frozen-lockfile
+        run: npm ci
       - name: Run benchmarks
         uses: CodSpeedHQ/action@v2
         with:
           token: ${{ secrets.CODSPEED_TOKEN }}
-          run: bun run bench
+          run: npm run bench
 
   deploy:
     name: Deploy
@@ -52,13 +58,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-      - uses: oven-sh/setup-bun@v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: "npm"
       - name: "📦 Install"
-        run: bun install --frozen-lockfile
+        run: npm ci
       - name: "🔧 Build"
-        run: bun run build
+        run: npm run build
       - name: "🔸 Cloudflare Workers - Deploy 🚀"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: bunx wrangler pages deploy dist --project-name tesourofieis
+        run: npx wrangler pages deploy dist --project-name tesourofieis
