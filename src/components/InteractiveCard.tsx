@@ -1,15 +1,15 @@
 import { getCalendarDay } from "../lib/getCalendar";
 import { yyyyMMDD } from "../lib/utils";
 
+import {
+  requestPermission,
+  sendNotification,
+} from "@tauri-apps/plugin-notification";
 import { getHours } from "date-fns";
 import { useEffect, useState } from "react";
 import LinkCard from "./LinkCard";
 import Loading from "./Loading";
 import Office from "./Office";
-import {
-  requestPermission,
-  sendNotification,
-} from "@tauri-apps/plugin-notification";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
@@ -43,7 +43,7 @@ export default function InteractiveCard() {
 
   async function getAngelus(date: Date) {
     const hour = getHours(date);
-    if (hour === 23 || hour === 6 || hour === 12 || hour === 18) {
+    if (hour === 6 || hour === 12 || hour === 18) {
       requestPermission();
 
       sendNotification({
