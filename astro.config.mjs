@@ -184,6 +184,7 @@ export default defineConfig({
           "**/src/lib/resources/divinum-officium/**",
           "!**/src/lib/resources/divinum-officium/web/www/missa/Portugues/**",
           "!**/src/lib/resources/divinum-officium/web/www/missa/Latin/**",
+          "**/src-tauri/**",
         ],
       },
     },

@@ -2,6 +2,7 @@ import { getCalendarDay } from "../lib/getCalendar";
 import { yyyyMMDD } from "../lib/utils";
 
 import {
+  ScheduleEvery,
   requestPermission,
   sendNotification,
 } from "@tauri-apps/plugin-notification";
@@ -16,6 +17,8 @@ export default function InteractiveCard() {
   const [currentHour, setCurrentHour] = useState(getHours(date));
   const calendar = getCalendarDay(yyyyMMDD(new Date()));
   const currentPrayer = getPrayer(new Date());
+
+  requestPermission();
 
   useEffect(() => {
     const intervalId = setInterval(
@@ -44,8 +47,6 @@ export default function InteractiveCard() {
   async function getAngelus(date: Date) {
     const hour = getHours(date);
     if (hour === 6 || hour === 12 || hour === 18) {
-      requestPermission();
-
       sendNotification({
         title: "Tesouro dos Fiéis",
         body: `Hora do Angelus ${hour}`,
