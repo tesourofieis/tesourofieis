@@ -37,7 +37,7 @@ jobs:
           workspaces: "./src-tauri -> target"
 
       - name: Install dependencies (ubuntu only)
-        if: matrix.platform == 'ubuntu-latest'
+        if: matrix.settings.platform == 'ubuntu-latest'
         run: |
           sudo apt-get update
           sudo apt-get install -y build-essential libwebkit2gtk-4.1-dev libssl-dev libayatana-appindicator3-dev librsvg2-dev
@@ -52,7 +52,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          if: matrix.platform != 'ubuntu-latest'
+          if: matrix.settings.platform != 'ubuntu-latest'
           args: ${{ matrix.settings.args }}
           tagName: v__VERSION__
           releaseName: "App v__VERSION__"
