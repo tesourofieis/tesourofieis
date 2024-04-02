@@ -1,6 +1,6 @@
 [package]
 name = "app"
-version = "0.1.3"
+version = "0.1.5"
 description = "Tesouro dos Fiéis"
 authors = ["you"]
 license = "mit"
