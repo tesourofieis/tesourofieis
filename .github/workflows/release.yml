@@ -51,10 +51,9 @@ jobs:
           releaseName: "App v__VERSION__"
           releaseBody: "See the assets to download this version and install."
           releaseDraft: false
-          prerelease: true
-          includeDebug: true
+          prerelease: false
+          includeDebug: false
           includeRelease: true
-          includeUpdaterJson: true
           buildIdAsVersion: true
 
   deploy:

@@ -10,12 +10,20 @@ import Icons from "unplugin-icons/vite";
 import partytown from "@astrojs/partytown";
 
 import robotsTxt from "astro-robots-txt";
+import starlightDocSearch from "@astrojs/starlight-docsearch";
 
 // https://astro.build/config
 export default defineConfig({
   site: site,
   integrations: [
     starlight({
+      plugins: [
+        starlightDocSearch({
+          appId: "ZZC8FGJ2KQ",
+          apiKey: "4f3c2e3636d82a9904d1e8cc04ac38ad",
+          indexName: "tesourofieis",
+        }),
+      ],
       title: "Tesouro dos Fiéis",
       head: [
         {
