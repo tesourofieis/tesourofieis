@@ -2,11 +2,9 @@ import { getCalendarDay } from "../lib/getCalendar";
 import { yyyyMMDD } from "../lib/utils";
 
 import {
-  ScheduleEvery,
   requestPermission,
   sendNotification,
 } from "@tauri-apps/plugin-notification";
-import { getHours } from "date-fns";
 import { useEffect, useState } from "react";
 import LinkCard from "./LinkCard";
 import Loading from "./Loading";
@@ -14,7 +12,7 @@ import Office from "./Office";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
-  const [currentHour, setCurrentHour] = useState(getHours(date));
+  const [currentHour, setCurrentHour] = useState(date.getHours());
   const calendar = getCalendarDay(yyyyMMDD(new Date()));
   const currentPrayer = getPrayer(new Date());
 
@@ -26,7 +24,7 @@ export default function InteractiveCard() {
         const newDate = new Date();
         setDate(newDate);
 
-        const newHour = getHours(newDate);
+        const newHour = newDate.getHours();
         if (newHour !== currentHour) {
           setCurrentHour(newHour);
         }
@@ -38,22 +36,19 @@ export default function InteractiveCard() {
   }, [currentHour]);
 
   function getPrayer(date: Date) {
-    const hour = getHours(date);
+    const hour = date.getHours();
     const isMorning = hour >= 5 && hour < 10;
     const isNight = hour >= 20 || (hour >= 0 && hour <= 3);
-    return { isMorning, isNight };
+    const isAngelus = hour === 6 || hour === 12 || hour === 18;
+    return { isMorning, isNight, isAngelus };
   }
 
-  async function getAngelus(date: Date) {
-    const hour = getHours(date);
-    if (hour === 6 || hour === 12 || hour === 18) {
-      sendNotification({
-        title: "Tesouro dos Fiéis",
-        body: `Hora do Angelus ${hour}`,
-        icon: "favicon72.png",
-      });
-      return true;
-    }
+  if (currentPrayer.isAngelus) {
+    sendNotification({
+      title: "Tesouro dos Fiéis",
+      body: "Hora do Angelus",
+      icon: "favicon72.png",
+    });
   }
 
   if (!calendar) {
@@ -93,7 +88,7 @@ export default function InteractiveCard() {
         description={"Missa do dia"}
       />
       <Office />
-      {getAngelus(new Date()) && (
+      {currentPrayer.isAngelus && (
         <LinkCard
           link="/devocionario/dia/angelus"
           title="Angelus"
