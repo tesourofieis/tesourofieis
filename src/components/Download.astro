@@ -1,0 +1,50 @@
+---
+import { Icon, LinkCard, CardGrid, Card } from "@astrojs/starlight/components";
+
+const data: { name: string; browser_download_url: string }[] = await fetch(
+  "https://api.github.com/repos/tesourofieis/tesourofieis/releases/latest"
+)
+.then((data) => data.json())
+.then((data) => data.assets);
+---
+
+{data && (
+  <Card title="Instalar aplicativo">
+    <div class="flex flex-wrap not-content justify-between align-middle m-3">
+        <a href="https://play.google.com/store/apps/details?id=com.tesourofieis.app">
+          <Icon name="rocket" />
+          Android
+        </a>
+
+        <a href={data.find(({ name }) => name.endsWith("_x64.dmg"))?.browser_download_url}>
+          <Icon name="apple" />
+          .dmg
+        </a>
+
+        <a href={data.find(({ name }) => name.includes("_x64-setup.exe"))?.browser_download_url}>
+          <Icon name="seti:windows" />
+          .exe
+        </a>
+
+        <a href={data.find(({ name }) => name.endsWith("_x64_en-US.msi"))?.browser_download_url}>
+          <Icon name="seti:windows" />
+          .msi
+        </a>
+
+        <a href={data.find(({ name }) => name.endsWith(".deb"))?.browser_download_url}>
+          <Icon name="linux" />
+          .deb
+        </a>
+
+        <a href={data.find(({ name }) => name.endsWith(".rpm"))?.browser_download_url}>
+          <Icon name="linux" />
+          .rpm
+        </a>
+
+        <a href={data.find(({ name }) => name.endsWith(".AppImage"))?.browser_download_url}>
+          <Icon name="linux" />
+          .AppImage
+        </a>
+    </div>
+  </Card>
+)}
