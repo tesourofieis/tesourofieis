@@ -32,7 +32,6 @@ export const sidebar = [
         label: "Quaresma",
         collapsed: true,
         autogenerate: { directory: "missal/quaresma" },
-        badge: { text: "Tempo presente" },
       },
       {
         label: "Páscoa",
