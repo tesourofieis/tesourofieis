@@ -1,7 +1,7 @@
 {
-  "name": "starlight",
+  "name": "tesourofieis",
   "type": "module",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "engines": {
     "node": "20.9.0"
   },
@@ -27,12 +27,13 @@
     "@astrojs/starlight-tailwind": "^2.0.1",
     "@astrojs/tailwind": "^5.1.0",
     "@date-fns/utc": "^1.2.0",
-    "@tauri-apps/api": "^2.0.0-beta.2",
-    "@tauri-apps/cli": "^2.0.0-beta.2",
+    "@tauri-apps/api": "^2.0.0-beta.7",
+    "@tauri-apps/cli": "^2.0.0-beta.12",
     "@tauri-apps/plugin-notification": "^2.0.0-beta.2",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
     "astro": "^4.5.9",
+    "astro-icon": "^1.1.0",
     "date-fns": "^3.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -45,6 +46,7 @@
     "@fontsource-variable/eb-garamond": "^5.0.18",
     "@fontsource/berkshire-swash": "^5.0.19",
     "@iconify-icon/react": "^2.0.1",
+    "@iconify-json/mdi": "^1.1.65",
     "@iconify/json": "^2.2.195",
     "@playwright/test": "^1.42.1",
     "@types/node": "^20.9.0",

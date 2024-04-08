@@ -1,0 +1,56 @@
+---
+import { LinkCard, CardGrid, Card } from "@astrojs/starlight/components";
+import { Icon } from 'astro-icon/components'
+
+const data: { name: string; browser_download_url: string }[] = await fetch(
+  "https://api.github.com/repos/tesourofieis/tesourofieis/releases/latest"
+)
+.then((data) => data.json())
+.then((data) => data.assets);
+---
+
+{data && (
+<div class="mb-10">
+  <h6>Instalar aplicativo</h6>
+  <div class="flex items-center justify-center gap-5">
+    <a href="https://api.github.com/repos/tesourofieis/tesourofieis/releases/latest">
+      <button
+        type="button"
+        title="Encontre para a sua versão Linux"
+        class="rounded-full shadow-md w-10 h-10 flex items-center justify-center cursor-pointer bg-transparent border border-sepia-500 hover:bg-sepia-500"
+      >
+        <Icon name="mdi:linux" />
+      </button>
+    </a>
+    <a href={data.find(({ name }) => name.includes("_x64-setup.exe"))?.browser_download_url}>
+      <button
+        type="button"
+        title="Windows .exe"
+        class="rounded-full shadow-md w-10 h-10 flex items-center justify-center cursor-pointer bg-transparent border border-sepia-500 hover:bg-sepia-500"
+      >
+        <Icon name="mdi:windows" />
+      </button>
+    </a>
+    <a href={data.find(({ name }) => name.endsWith("_x64.dmg"))?.browser_download_url}>
+      <button
+        type="button"
+        title="MacOS .dmg"
+        class="rounded-full shadow-md w-10 h-10 flex items-center justify-center cursor-pointer bg-transparent border border-sepia-500 hover:bg-sepia-500"
+      >
+        <Icon name="mdi:apple" />
+      </button>
+    </a>
+    |
+    <a href="https://groups.google.com/g/tesourofieis">
+      <button
+        type="button"
+        title="Brevemente, inscrever para pré-lançamento"
+        class="rounded-full shadow-md w-10 h-10 flex items-center justify-center cursor-pointer bg-transparent border border-zinc-500 hover:bg-zinc-500"
+      >
+        <Icon name="mdi:android" />
+      </button>
+    </a>
+  </div>
+</div>
+)}
+
