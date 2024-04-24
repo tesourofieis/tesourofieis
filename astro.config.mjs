@@ -151,8 +151,8 @@ export default defineConfig({
         src: "./src/assets/favicon.svg",
       },
       social: {
+        email: "mailto:info@tesourofieis.com",
         "x.com": "https://x.com/tesourofieis",
-        discord: "https://discord.gg/EfJgnNNBsv",
         github: "https://github.com/tesourofieis/tesourofieis",
         patreon: "https://www.patreon.com/tesourofieis",
       },
@@ -199,4 +199,3 @@ export default defineConfig({
     service: passthroughImageService(),
   },
 });
-
