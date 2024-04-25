@@ -8,13 +8,20 @@
     "beforeBuildCommand": "npm run build"
   },
   "app": {
+    "withGlobalTauri": true,
+    "trayIcon": {
+      "id": "tray",
+      "iconAsTemplate": true,
+      "iconPath": "icons/icon.ico"
+    },
     "windows": [
       {
         "title": "Tesouro dos Fiéis",
         "width": 800,
         "height": 600,
         "resizable": true,
-        "fullscreen": true
+        "fullscreen": false,
+        "center": true
       }
     ],
     "security": {
@@ -33,5 +40,15 @@
     ]
   },
   "$schema": "../node_modules/@tauri-apps/cli/schema.json",
-  "plugins": {}
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://github.com/tesourofieis/tesourofieis/releases/latest/download/latest.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVGNUQwNDM2ODRCMjBCMTIKUldRU0M3S0VOZ1JkNzRNRkxZMEkyL01wc3NGK3FNQWZ0UDBDRjdpWXZrUmFpYnhTQXloS2dnNnYK",
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  }
 }

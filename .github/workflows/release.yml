@@ -1,7 +1,9 @@
 name: release
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   publish:
@@ -14,8 +16,10 @@ jobs:
           - platform: ubuntu-latest
           - platform: windows-latest
             args: --target x86_64-pc-windows-msvc
-          - platform: macos-latest
-            args: --target x86_64-apple-darwin
+          - platform: "macos-latest" # (M1 and above).
+            args: "--target aarch64-apple-darwin"
+          - platform: "macos-latest" # Intel based macs.
+            args: "--target x86_64-apple-darwin"
     runs-on: ${{ matrix.settings.platform }}
     steps:
       - uses: actions/checkout@v4
@@ -48,9 +52,10 @@ jobs:
         run: npm run build
 
       - uses: tauri-apps/tauri-action@v0
-
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
         with:
           if: matrix.settings.platform != 'ubuntu-latest'
           args: ${{ matrix.settings.args }}
@@ -65,7 +70,6 @@ jobs:
 
   deploy:
     name: Deploy
-    needs: publish
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
