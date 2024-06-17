@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Domingo de Ramos 1`] = `
+Day {
+  "celebration": [
+    Observance {
+      "colors": [
+        "r",
+        "v",
+      ],
+      "date": "2024-03-24",
+      "flexibility": "tempora",
+      "id": "tempora:Quad6-0:1:rv",
+      "link": "missal/quaresma/Quad6-0",
+      "name": "Quad6-0",
+      "priority": 19,
+      "rank": 1,
+      "title": "Domingo de Ramos",
+      "weekday": 0,
+    },
+  ],
+  "commemoration": [],
+  "date": "2024-03-24",
+  "tempora": [
+    Observance {
+      "colors": [
+        "r",
+        "v",
+      ],
+      "date": "2024-03-24",
+      "flexibility": "tempora",
+      "id": "tempora:Quad6-0:1:rv",
+      "link": "missal/quaresma/Quad6-0",
+      "name": "Quad6-0",
+      "priority": 19,
+      "rank": 1,
+      "title": "Domingo de Ramos",
+      "weekday": 0,
+    },
+  ],
+}
+`;

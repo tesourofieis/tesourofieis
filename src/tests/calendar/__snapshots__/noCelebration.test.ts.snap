@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`no celebration when tempora 1`] = `
+Day {
+  "celebration": [
+    Observance {
+      "colors": [
+        "w",
+      ],
+      "date": "2024-01-07",
+      "flexibility": "tempora",
+      "id": "tempora:Epi1-0a:2:w",
+      "link": "missal/epifania/Epi1-0a",
+      "name": "Epi1-0a",
+      "priority": 45,
+      "rank": 2,
+      "title": "Domingo dentro do Oitavário da Epifania",
+      "weekday": 0,
+    },
+  ],
+  "commemoration": [],
+  "date": "2024-01-08",
+  "tempora": [
+    Observance {
+      "colors": [
+        "w",
+      ],
+      "date": "2024-01-08",
+      "flexibility": "tempora",
+      "id": "tempora:Epi1-1:4:w",
+      "link": "missal/epifania/Epi1-1",
+      "name": "Epi1-1",
+      "priority": 80,
+      "rank": 4,
+      "title": "Segunda-feira da semana após a Epifania",
+      "weekday": 1,
+    },
+  ],
+}
+`;

@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`santissimo nome jesus 1`] = `
+Day {
+  "celebration": [
+    Observance {
+      "colors": [
+        "w",
+      ],
+      "date": "2024-01-02",
+      "flexibility": "tempora",
+      "id": "tempora:Nat2-0:2:w",
+      "link": "missal/natal/Nat2-0",
+      "name": "Nat2-0",
+      "priority": 45,
+      "rank": 2,
+      "title": "Santíssimo Nome de Jesus",
+      "weekday": 0,
+    },
+  ],
+  "commemoration": [],
+  "date": "2024-01-02",
+  "tempora": [],
+}
+`;
