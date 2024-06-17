@@ -5,6 +5,13 @@ import {
   COMMUNE_C_10C,
   COMMUNE_C_10PASC,
   COMMUNE_C_10T,
+  PATTERN_ADVENT,
+  PATTERN_EASTER,
+  PATTERN_LENT,
+  PATTERN_POST_EPIPHANY_SUNDAY,
+  PATTERN_PRE_LENTEN,
+  PATTERN_SANCTI,
+  PATTERN_TEMPORA,
   TABLE_OF_PRECEDENCE,
   TEMPORA_RANK_MAP,
   TITLES,
@@ -80,7 +87,7 @@ class Observance {
     this.rank = this.calcRank(observanceId, Number.parseInt(rank, 10));
     this.colors = Array.from(color);
     this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
-    this.link = `missal/${this.flexibility}/${this.name}`;
+    this.link = `missal/${this.getTempora(this.name)}/${this.name}`;
     this.title = TITLES[observanceId];
 
     // Determine the weekday attribute based on the type of observance
@@ -103,6 +110,17 @@ class Observance {
     }
 
     this.priority = this.calcPriority();
+  }
+
+  private getTempora(name: string) {
+    if (PATTERN_ADVENT.test(name)) return "advento";
+    if (PATTERN_LENT.test(name)) return "quaresma";
+    if (PATTERN_EASTER.test(name)) return "pascoa";
+    if (PATTERN_POST_EPIPHANY_SUNDAY.test(name)) return "epifania";
+    if (PATTERN_PRE_LENTEN.test(name)) return "pre-quaresma";
+    if (this.flexibility === "santos") return "santos";
+
+    if (name.includes("Pent")) return "pentecostes";
   }
 
   private calcRank(observanceId: string, originalRank: number): number {
