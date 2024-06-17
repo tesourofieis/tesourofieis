@@ -61,6 +61,7 @@ class Observance {
   flexibility: string;
   name: string;
   rank: number;
+  colors: string[];
   id: string;
   link: string;
   title: string;
@@ -78,12 +79,13 @@ class Observance {
   // :type date_: `date ` object
   // """
   constructor(observanceId: string, date_: string) {
-    const [flexibility, name, rank] = observanceId.split(":");
+    const [flexibility, name, rank, color] = observanceId.split(":");
     this.date = date_;
     this.flexibility = flexibility;
     this.name = name;
     this.rank = this.calcRank(observanceId, Number.parseInt(rank, 10));
-    this.id = `${this.flexibility}:${this.name}:${this.rank}`;
+    this.colors = Array.from(color);
+    this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
     this.link = `missal/${this.getTempora(this.name)}/${this.name}`;
     this.title = TITLES[observanceId];
 
@@ -110,15 +112,16 @@ class Observance {
   }
 
   private getTempora(name: string) {
-    if (PATTERN_ADVENT.test(name)) return "advento";
-    if (PATTERN_LENT.test(name)) return "quaresma";
-    if (PATTERN_EASTER.test(name)) return "pascoa";
-    if (PATTERN_EPIPHANY.test(name)) return "epifania";
-    if (PATTERN_POST_EPIPHANY_SUNDAY.test(name)) return "epifania";
-    if (PATTERN_PRE_LENTEN.test(name)) return "pre-quaresma";
+    if (this.flexibility === "tempora") {
+      if (PATTERN_ADVENT.test(name)) return "advento";
+      if (PATTERN_EASTER.test(name)) return "pascoa";
+      if (PATTERN_POST_EPIPHANY_SUNDAY.test(name)) return "epifania";
+      if (PATTERN_EPIPHANY.test(name)) return "epifania";
+      if (PATTERN_LENT.test(name)) return "quaresma";
+      if (PATTERN_PRE_LENTEN.test(name)) return "pre-quaresma";
+      if (name.includes("Pent")) return "pentecostes";
+    }
     if (this.flexibility === "santos") return "santos";
-
-    if (name.includes("Pent")) return "pentecostes";
   }
 
   private calcRank(observanceId: string, originalRank: number): number {
@@ -148,6 +151,7 @@ class Observance {
       link: this.link,
       rank: this.rank,
       title: this.title,
+      colors: this.colors,
     };
   }
 }
