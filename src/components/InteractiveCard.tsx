@@ -77,7 +77,12 @@ export default function InteractiveCard() {
         })}
       </span>
       <LinkCard
-        link="/missal/dia"
+        link={
+          calendar.celebration[0]?.link ||
+          calendar.tempora[0]?.link ||
+          calendar.commemoration[0]?.link ||
+          "missal"
+        }
         title={
           calendar.celebration[0]?.title ||
           calendar.tempora[0]?.title ||

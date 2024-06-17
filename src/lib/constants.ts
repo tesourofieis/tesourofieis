@@ -1,15 +1,5 @@
 export const TYPE_TEMPORA: string = "tempora";
 export const TYPE_SANCTI: string = "sancti";
-export const PREFATIO_COMMUNIS: string = "Communis";
-export const PREFATIO_TRINITATE: string = "Trinitate";
-export const PREFATIO_PASCHAL: string = "Pasch";
-export const PREFATIO_APOSTOLIS: string = "Apostolis";
-export const PREFATIO_NAT: string = "Nat";
-export const PREFATIO_EPI: string = "Epi";
-export const PREFATIO_OMIT: string = "prefatio_omit";
-export const PREFATIO_LENT: string = "Quad";
-export const PREFATIO_JOSEPH: string = "Joseph";
-export const PREFATIO_ASCENSION: string = "Asc";
 export const ASTERISK: string = "*";
 
 export const PATTERN_TEMPORA: RegExp = /^tempora:.*/;
@@ -22,12 +12,8 @@ export const PATTERN_ADVENT_FERIA_BEFORE_17: RegExp = /tempora:Adv\d-[1-6]:3/;
 export const PATTERN_POST_EPIPHANY_SUNDAY: RegExp = /^tempora:Epi\d-0/;
 export const PATTERN_PRE_LENTEN: RegExp = /^tempora:Quadp\d/;
 export const PATTERN_LENT: RegExp = /^tempora:Quad(p3-[3-6]|\d)/;
-export const PATTERN_LENT_PREFATIO: RegExp = /^tempora:Quad(p3-[3-6]|[1-4]-\d)/;
 export const PATTERN_EASTER: RegExp = /^tempora:Pasc\d/;
-export const PATTERN_EASTER_PREFATIO: RegExp =
-  /^tempora:Pasc([0-4]|5-0|5-1|5-2|5-3)/;
-export const PATTERN_ASCENSION_PREFATIO: RegExp =
-  /^tempora:Pasc(5-4|5-5|5-6|6-0|6-1|6-2|6-3|6-4|6-5)/;
+/^tempora:Pasc([0-4]|5-0|5-1|5-2|5-3)/;
 export const PATTERN_SUNDAY: RegExp = /^tempora:.*\d-0.*/;
 export const PATTERN_LENT_SUNDAY: RegExp = /^tempora:Quad\d-0.*/;
 export const PATTERN_TEMPORA_SUNDAY: RegExp = /^tempora:.*/;
@@ -47,26 +33,6 @@ export const PATTERN_SANCTI_CLASS_1_OR_2: RegExp = /^sancti:.*:[12]:.*/;
 export const PATTERN_CLASS_1: RegExp = /^[a-z]+:.*:1:.*/;
 export const PATTERN_CLASS_2: RegExp = /^[a-z]+:.*:2:.*/;
 export const PATTERN_CLASS_3: RegExp = /^[a-z]+:.*:3:.*/;
-export const PATTERN_COMMEMORATION: string = "wspomnienie";
-export const PATTERN_ALLELUIA: RegExp = /allel[uú][ij]a.*/i;
-export const PATTERN_TRACT: RegExp = /.*tra[ck]t.*/i;
-
-export const INTROIT: string = "Introitus";
-export const ORATIO: string = "Oratio";
-export const LECTIO: string = "Lectio";
-export const TRACTUS: string = "Tractus";
-export const GRADUALE: string = "Graduale";
-export const GRADUALE_PASCHAL: string = "GradualeP";
-export const EVANGELIUM: string = "Evangelium";
-export const OFFERTORIUM: string = "Offertorium";
-export const SECRETA: string = "Secreta";
-export const COMMUNIO: string = "Communio";
-export const POSTCOMMUNIO: string = "Postcommunio";
-export const COMMEMORATION: string = "Commemoratio";
-export const COMMEMORATED_ORATIO: string = "Commemoratio Oratio";
-export const COMMEMORATED_SECRETA: string = "Commemoratio Secreta";
-export const COMMEMORATED_POSTCOMMUNIO: string = "Commemoratio Postcommunio";
-export const PREFATIO: string = "Prefatio";
 
 export const TEMPORA_RANK_MAP: {
   pattern: RegExp;

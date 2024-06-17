@@ -57,6 +57,7 @@ class Observance {
   rank: number;
   colors: string[];
   id: string;
+  link: string;
   title: string;
   priority: number | null;
   weekday: number | null;
@@ -79,6 +80,7 @@ class Observance {
     this.rank = this.calcRank(observanceId, Number.parseInt(rank, 10));
     this.colors = Array.from(color);
     this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
+    this.link = `missal/${this.flexibility}/${this.name}`;
     this.title = TITLES[observanceId];
 
     // Determine the weekday attribute based on the type of observance
@@ -127,6 +129,7 @@ class Observance {
   serialize() {
     return {
       id: this.id,
+      link: this.link,
       rank: this.rank,
       title: this.title,
       colors: this.colors,

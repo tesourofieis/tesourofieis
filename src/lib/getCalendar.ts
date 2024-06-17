@@ -9,6 +9,7 @@ function getCalendar(year: number) {
 
 function getCalendarDay(date: string) {
   const calendar = new Calendar(getYear(date)).get(date);
+  console.log({ calendar });
 
   return calendar;
 }
