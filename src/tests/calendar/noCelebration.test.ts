@@ -12,7 +12,7 @@ test("no celebration when tempora", () => {
         colors: ["w"],
         date: "2024-01-08",
         flexibility: "tempora",
-        id: "tempora:Epi1-1:4:w",
+        id: "tempora:epi1-1:4:w",
         name: "Epi1-1",
         priority: 80,
         rank: 4,

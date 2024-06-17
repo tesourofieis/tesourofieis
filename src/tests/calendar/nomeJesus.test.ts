@@ -11,7 +11,7 @@ test("santissimo nome jesus", () => {
         name: "Nat2-0",
         rank: 2,
         colors: ["w"],
-        id: "tempora:Nat2-0:2:w",
+        id: "tempora:nat2-0:2:w",
         title: "Santíssimo Nome de Jesus",
         priority: 45,
         weekday: 0,

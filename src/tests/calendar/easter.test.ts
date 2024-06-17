@@ -9,7 +9,7 @@ test("sabado santo", () => {
         colors: ["v", "w"],
         date: "2024-03-30",
         flexibility: "tempora",
-        id: "tempora:Quad6-6:1:vw",
+        id: "tempora:quad6-6:1:vw",
         name: "Quad6-6",
         priority: 7,
         rank: 1,
@@ -23,7 +23,7 @@ test("sabado santo", () => {
         colors: ["v", "w"],
         date: "2024-03-30",
         flexibility: "tempora",
-        id: "tempora:Quad6-6:1:vw",
+        id: "tempora:quad6-6:1:vw",
         name: "Quad6-6",
         priority: 7,
         rank: 1,
@@ -40,7 +40,7 @@ test("easter", () => {
     celebration: [
       {
         colors: ["w"],
-        id: "tempora:Pasc0-0:1:w",
+        id: "tempora:pasc0-0:1:w",
         date: "2024-03-31",
         flexibility: "tempora",
         name: "Pasc0-0",
@@ -54,7 +54,7 @@ test("easter", () => {
     tempora: [
       {
         colors: ["w"],
-        id: "tempora:Pasc0-0:1:w",
+        id: "tempora:pasc0-0:1:w",
         rank: 1,
         title: "Domingo da Ressurreição",
         weekday: 0,
@@ -71,7 +71,7 @@ test("segunda pascal", () => {
         colors: ["w"],
         date: "2024-04-01",
         flexibility: "tempora",
-        id: "tempora:Pasc0-1:1:w",
+        id: "tempora:pasc0-1:1:w",
         name: "Pasc0-1",
         priority: 29,
         rank: 1,
@@ -85,7 +85,7 @@ test("segunda pascal", () => {
         colors: ["w"],
         date: "2024-04-01",
         flexibility: "tempora",
-        id: "tempora:Pasc0-1:1:w",
+        id: "tempora:pasc0-1:1:w",
         name: "Pasc0-1",
         priority: 29,
         rank: 1,

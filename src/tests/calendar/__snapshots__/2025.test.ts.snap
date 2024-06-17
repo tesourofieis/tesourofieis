@@ -48,7 +48,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Nat2-0:2:w",
+        "id": "tempora:nat2-0:2:w",
         "link": "missal/tempora/Nat2-0",
         "rank": 2,
         "title": "Santíssimo Nome de Jesus",
@@ -113,7 +113,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Epi1-0:2:w",
+        "id": "tempora:epi1-0:2:w",
         "link": "missal/tempora/Epi1-0",
         "rank": 2,
         "title": "Sagrada Família",
@@ -125,7 +125,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Epi1-0:2:w",
+        "id": "tempora:epi1-0:2:w",
         "link": "missal/tempora/Epi1-0",
         "rank": 2,
         "title": "Sagrada Família",
@@ -150,7 +150,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Epi1-1:4:w",
+        "id": "tempora:epi1-1:4:w",
         "link": "missal/tempora/Epi1-1",
         "rank": 4,
         "title": "Segunda-feira da semana após a Epifania",
@@ -175,7 +175,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Epi1-2:4:w",
+        "id": "tempora:epi1-2:4:w",
         "link": "missal/tempora/Epi1-2",
         "rank": 4,
         "title": "Terça-feira da semana após a Epifania",
@@ -200,7 +200,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Epi1-3:4:w",
+        "id": "tempora:epi1-3:4:w",
         "link": "missal/tempora/Epi1-3",
         "rank": 4,
         "title": "Quarta-feira da semana após a Epifania",
@@ -225,7 +225,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Epi1-4:4:w",
+        "id": "tempora:epi1-4:4:w",
         "link": "missal/tempora/Epi1-4",
         "rank": 4,
         "title": "Quinta-feira da semana após a Epifania",
@@ -250,7 +250,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Epi1-5:4:w",
+        "id": "tempora:epi1-5:4:w",
         "link": "missal/tempora/Epi1-5",
         "rank": 4,
         "title": "Sexta-feira da semana após a Epifania",
@@ -285,7 +285,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Epi1-6:4:w",
+        "id": "tempora:epi1-6:4:w",
         "link": "missal/tempora/Epi1-6",
         "rank": 4,
         "title": "Sábado da semana após a Epifania",
@@ -298,7 +298,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi2-0:2:g",
+        "id": "tempora:epi2-0:2:g",
         "link": "missal/tempora/Epi2-0",
         "rank": 2,
         "title": "2º Domingo após a Epifania",
@@ -310,7 +310,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi2-0:2:g",
+        "id": "tempora:epi2-0:2:g",
         "link": "missal/tempora/Epi2-0",
         "rank": 2,
         "title": "2º Domingo após a Epifania",
@@ -335,7 +335,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi2-1:4:g",
+        "id": "tempora:epi2-1:4:g",
         "link": "missal/tempora/Epi2-1",
         "rank": 4,
         "title": "Segunda-feira da 2ª semana após a Epifania",
@@ -360,7 +360,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi2-2:4:g",
+        "id": "tempora:epi2-2:4:g",
         "link": "missal/tempora/Epi2-2",
         "rank": 4,
         "title": "Terça-feira da 2ª semana após a Epifania",
@@ -385,7 +385,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi2-3:4:g",
+        "id": "tempora:epi2-3:4:g",
         "link": "missal/tempora/Epi2-3",
         "rank": 4,
         "title": "Quarta-feira da 2ª semana após a Epifania",
@@ -410,7 +410,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi2-4:4:g",
+        "id": "tempora:epi2-4:4:g",
         "link": "missal/tempora/Epi2-4",
         "rank": 4,
         "title": "Quinta-feira da 2ª semana após a Epifania",
@@ -435,7 +435,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi2-5:4:g",
+        "id": "tempora:epi2-5:4:g",
         "link": "missal/tempora/Epi2-5",
         "rank": 4,
         "title": "Sexta-feira da 2ª semana após a Epifania",
@@ -460,7 +460,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi2-6:4:g",
+        "id": "tempora:epi2-6:4:g",
         "link": "missal/tempora/Epi2-6",
         "rank": 4,
         "title": "Sábado da 2ª semana após a Epifania",
@@ -473,7 +473,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi3-0:2:g",
+        "id": "tempora:epi3-0:2:g",
         "link": "missal/tempora/Epi3-0",
         "rank": 2,
         "title": "3º Domingo após a Epifania",
@@ -495,7 +495,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi3-0:2:g",
+        "id": "tempora:epi3-0:2:g",
         "link": "missal/tempora/Epi3-0",
         "rank": 2,
         "title": "3º Domingo após a Epifania",
@@ -520,7 +520,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi3-1:4:g",
+        "id": "tempora:epi3-1:4:g",
         "link": "missal/tempora/Epi3-1",
         "rank": 4,
         "title": "Segunda-feira da 3ª semana após a Epifania",
@@ -545,7 +545,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi3-2:4:g",
+        "id": "tempora:epi3-2:4:g",
         "link": "missal/tempora/Epi3-2",
         "rank": 4,
         "title": "Terça-feira da 3ª semana após a Epifania",
@@ -570,7 +570,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi3-3:4:g",
+        "id": "tempora:epi3-3:4:g",
         "link": "missal/tempora/Epi3-3",
         "rank": 4,
         "title": "Quarta-feira da 3ª semana após a Epifania",
@@ -595,7 +595,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi3-4:4:g",
+        "id": "tempora:epi3-4:4:g",
         "link": "missal/tempora/Epi3-4",
         "rank": 4,
         "title": "Quinta-feira da 3ª semana após a Epifania",
@@ -620,7 +620,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi3-5:4:g",
+        "id": "tempora:epi3-5:4:g",
         "link": "missal/tempora/Epi3-5",
         "rank": 4,
         "title": "Sexta-feira da 3ª semana após a Epifania",
@@ -645,7 +645,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi3-6:4:g",
+        "id": "tempora:epi3-6:4:g",
         "link": "missal/tempora/Epi3-6",
         "rank": 4,
         "title": "Sábado da 3ª semana após a Epifania",
@@ -670,7 +670,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi4-0:2:g",
+        "id": "tempora:epi4-0:2:g",
         "link": "missal/tempora/Epi4-0",
         "rank": 2,
         "title": "4º Domingo após a Epifania",
@@ -695,7 +695,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi4-1:4:g",
+        "id": "tempora:epi4-1:4:g",
         "link": "missal/tempora/Epi4-1",
         "rank": 4,
         "title": "Segunda-feira da 4ª semana após a Epifania",
@@ -720,7 +720,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi4-2:4:g",
+        "id": "tempora:epi4-2:4:g",
         "link": "missal/tempora/Epi4-2",
         "rank": 4,
         "title": "Terça-feira da 4ª semana após a Epifania",
@@ -745,7 +745,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi4-3:4:g",
+        "id": "tempora:epi4-3:4:g",
         "link": "missal/tempora/Epi4-3",
         "rank": 4,
         "title": "Quarta-feira da 4ª semana após a Epifania",
@@ -770,7 +770,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi4-4:4:g",
+        "id": "tempora:epi4-4:4:g",
         "link": "missal/tempora/Epi4-4",
         "rank": 4,
         "title": "Quinta-feira da 4ª semana após a Epifania",
@@ -795,7 +795,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi4-5:4:g",
+        "id": "tempora:epi4-5:4:g",
         "link": "missal/tempora/Epi4-5",
         "rank": 4,
         "title": "Sexta-feira da 4ª semana após a Epifania",
@@ -820,7 +820,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi4-6:4:g",
+        "id": "tempora:epi4-6:4:g",
         "link": "missal/tempora/Epi4-6",
         "rank": 4,
         "title": "Sábado da 4ª semana após a Epifania",
@@ -833,7 +833,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi5-0:2:g",
+        "id": "tempora:epi5-0:2:g",
         "link": "missal/tempora/Epi5-0",
         "rank": 2,
         "title": "5º Domingo após a Epifania",
@@ -855,7 +855,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi5-0:2:g",
+        "id": "tempora:epi5-0:2:g",
         "link": "missal/tempora/Epi5-0",
         "rank": 2,
         "title": "5º Domingo após a Epifania",
@@ -880,7 +880,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi5-1:4:g",
+        "id": "tempora:epi5-1:4:g",
         "link": "missal/tempora/Epi5-1",
         "rank": 4,
         "title": "Segunda-feira da 5ª semana após a Epifania",
@@ -905,7 +905,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi5-2:4:g",
+        "id": "tempora:epi5-2:4:g",
         "link": "missal/tempora/Epi5-2",
         "rank": 4,
         "title": "Terça-feira da 5ª semana após a Epifania",
@@ -930,7 +930,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi5-3:4:g",
+        "id": "tempora:epi5-3:4:g",
         "link": "missal/tempora/Epi5-3",
         "rank": 4,
         "title": "Quarta-feira da 5ª semana após a Epifania",
@@ -945,7 +945,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi5-4:4:g",
+        "id": "tempora:epi5-4:4:g",
         "link": "missal/tempora/Epi5-4",
         "rank": 4,
         "title": "Quinta-feira da 5ª semana após a Epifania",
@@ -970,7 +970,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi5-5:4:g",
+        "id": "tempora:epi5-5:4:g",
         "link": "missal/tempora/Epi5-5",
         "rank": 4,
         "title": "Sexta-feira da 5ª semana após a Epifania",
@@ -1005,7 +1005,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "g",
         ],
-        "id": "tempora:Epi5-6:4:g",
+        "id": "tempora:epi5-6:4:g",
         "link": "missal/tempora/Epi5-6",
         "rank": 4,
         "title": "Sábado da 5ª semana após a Epifania",
@@ -1018,7 +1018,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp1-0:2:v",
+        "id": "tempora:quadp1-0:2:v",
         "link": "missal/tempora/Quadp1-0",
         "rank": 2,
         "title": "Domingo da Septuagésima",
@@ -1030,7 +1030,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp1-0:2:v",
+        "id": "tempora:quadp1-0:2:v",
         "link": "missal/tempora/Quadp1-0",
         "rank": 2,
         "title": "Domingo da Septuagésima",
@@ -1045,7 +1045,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp1-1:4:v",
+        "id": "tempora:quadp1-1:4:v",
         "link": "missal/tempora/Quadp1-1",
         "rank": 4,
         "title": "Segunda-feira da semana da Septuagésima",
@@ -1070,7 +1070,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp1-2:4:v",
+        "id": "tempora:quadp1-2:4:v",
         "link": "missal/tempora/Quadp1-2",
         "rank": 4,
         "title": "Terça-feira da semana da Septuagésima",
@@ -1085,7 +1085,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp1-3:4:v",
+        "id": "tempora:quadp1-3:4:v",
         "link": "missal/tempora/Quadp1-3",
         "rank": 4,
         "title": "Quarta-feira da semana da Septuagésima",
@@ -1100,7 +1100,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp1-4:4:v",
+        "id": "tempora:quadp1-4:4:v",
         "link": "missal/tempora/Quadp1-4",
         "rank": 4,
         "title": "Quinta-feira da semana da Septuagésima",
@@ -1115,7 +1115,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp1-5:4:v",
+        "id": "tempora:quadp1-5:4:v",
         "link": "missal/tempora/Quadp1-5",
         "rank": 4,
         "title": "Sexta-feira da semana da Septuagésima",
@@ -1140,7 +1140,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp1-6:4:v",
+        "id": "tempora:quadp1-6:4:v",
         "link": "missal/tempora/Quadp1-6",
         "rank": 4,
         "title": "Sábado da semana da Septuagésima",
@@ -1153,7 +1153,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp2-0:2:v",
+        "id": "tempora:quadp2-0:2:v",
         "link": "missal/tempora/Quadp2-0",
         "rank": 2,
         "title": "Domingo da Sexagésima",
@@ -1175,7 +1175,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp2-0:2:v",
+        "id": "tempora:quadp2-0:2:v",
         "link": "missal/tempora/Quadp2-0",
         "rank": 2,
         "title": "Domingo da Sexagésima",
@@ -1200,7 +1200,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp2-1:4:v",
+        "id": "tempora:quadp2-1:4:v",
         "link": "missal/tempora/Quadp2-1",
         "rank": 4,
         "title": "Segunda-feira da semana da Sexagésima",
@@ -1215,7 +1215,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp2-2:4:v",
+        "id": "tempora:quadp2-2:4:v",
         "link": "missal/tempora/Quadp2-2",
         "rank": 4,
         "title": "Terça-feira da semana da Sexagésima",
@@ -1230,7 +1230,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp2-3:4:v",
+        "id": "tempora:quadp2-3:4:v",
         "link": "missal/tempora/Quadp2-3",
         "rank": 4,
         "title": "Quarta-feira da semana da Sexagésima",
@@ -1255,7 +1255,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp2-4:4:v",
+        "id": "tempora:quadp2-4:4:v",
         "link": "missal/tempora/Quadp2-4",
         "rank": 4,
         "title": "Quinta-feira da semana da Sexagésima",
@@ -1270,7 +1270,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp2-5:4:v",
+        "id": "tempora:quadp2-5:4:v",
         "link": "missal/tempora/Quadp2-5",
         "rank": 4,
         "title": "Sexta-feira da semana da Sexagésima",
@@ -1295,7 +1295,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp2-6:4:v",
+        "id": "tempora:quadp2-6:4:v",
         "link": "missal/tempora/Quadp2-6",
         "rank": 4,
         "title": "Sábado da semana da Sexagésima",
@@ -1308,7 +1308,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-0:2:v",
+        "id": "tempora:quadp3-0:2:v",
         "link": "missal/tempora/Quadp3-0",
         "rank": 2,
         "title": "Domingo da Quinquagésima",
@@ -1320,7 +1320,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-0:2:v",
+        "id": "tempora:quadp3-0:2:v",
         "link": "missal/tempora/Quadp3-0",
         "rank": 2,
         "title": "Domingo da Quinquagésima",
@@ -1335,7 +1335,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-1:4:v",
+        "id": "tempora:quadp3-1:4:v",
         "link": "missal/tempora/Quadp3-1",
         "rank": 4,
         "title": "Segunda-feira da semana da Quinquagésima",
@@ -1360,7 +1360,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-2:4:v",
+        "id": "tempora:quadp3-2:4:v",
         "link": "missal/tempora/Quadp3-2",
         "rank": 4,
         "title": "Terça-feira da semana da Quinquagésima",
@@ -1373,7 +1373,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-3:1:v",
+        "id": "tempora:quadp3-3:1:v",
         "link": "missal/tempora/Quadp3-3",
         "rank": 1,
         "title": "Quarta-feira de Cinzas",
@@ -1385,7 +1385,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-3:1:v",
+        "id": "tempora:quadp3-3:1:v",
         "link": "missal/tempora/Quadp3-3",
         "rank": 1,
         "title": "Quarta-feira de Cinzas",
@@ -1398,7 +1398,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-4:3:v",
+        "id": "tempora:quadp3-4:3:v",
         "link": "missal/tempora/Quadp3-4",
         "rank": 3,
         "title": "Quinta-feira depois das Cinzas",
@@ -1420,7 +1420,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-4:3:v",
+        "id": "tempora:quadp3-4:3:v",
         "link": "missal/tempora/Quadp3-4",
         "rank": 3,
         "title": "Quinta-feira depois das Cinzas",
@@ -1433,7 +1433,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-5:3:v",
+        "id": "tempora:quadp3-5:3:v",
         "link": "missal/tempora/Quadp3-5",
         "rank": 3,
         "title": "Sexta-feira depois das Cinzas",
@@ -1455,7 +1455,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-5:3:v",
+        "id": "tempora:quadp3-5:3:v",
         "link": "missal/tempora/Quadp3-5",
         "rank": 3,
         "title": "Sexta-feira depois das Cinzas",
@@ -1468,7 +1468,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-6:3:v",
+        "id": "tempora:quadp3-6:3:v",
         "link": "missal/tempora/Quadp3-6",
         "rank": 3,
         "title": "Sábado depois das Cinzas",
@@ -1490,7 +1490,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quadp3-6:3:v",
+        "id": "tempora:quadp3-6:3:v",
         "link": "missal/tempora/Quadp3-6",
         "rank": 3,
         "title": "Sábado depois das Cinzas",
@@ -1503,7 +1503,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-0:1:v",
+        "id": "tempora:quad1-0:1:v",
         "link": "missal/tempora/Quad1-0",
         "rank": 1,
         "title": "1º Domingo da Quaresma",
@@ -1515,7 +1515,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-0:1:v",
+        "id": "tempora:quad1-0:1:v",
         "link": "missal/tempora/Quad1-0",
         "rank": 1,
         "title": "1º Domingo da Quaresma",
@@ -1528,7 +1528,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-1:3:v",
+        "id": "tempora:quad1-1:3:v",
         "link": "missal/tempora/Quad1-1",
         "rank": 3,
         "title": "Segunda-feira da 1ª semana da Quaresma",
@@ -1550,7 +1550,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-1:3:v",
+        "id": "tempora:quad1-1:3:v",
         "link": "missal/tempora/Quad1-1",
         "rank": 3,
         "title": "Segunda-feira da 1ª semana da Quaresma",
@@ -1563,7 +1563,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-2:3:v",
+        "id": "tempora:quad1-2:3:v",
         "link": "missal/tempora/Quad1-2",
         "rank": 3,
         "title": "Terça-feira da 1ª semana da Quaresma",
@@ -1575,7 +1575,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-2:3:v",
+        "id": "tempora:quad1-2:3:v",
         "link": "missal/tempora/Quad1-2",
         "rank": 3,
         "title": "Terça-feira da 1ª semana da Quaresma",
@@ -1588,7 +1588,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-3:2:v",
+        "id": "tempora:quad1-3:2:v",
         "link": "missal/tempora/Quad1-3",
         "rank": 2,
         "title": "Quarta-feira da 1ª Semana da Quaresma, Têmporas da Primavera",
@@ -1610,7 +1610,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-3:2:v",
+        "id": "tempora:quad1-3:2:v",
         "link": "missal/tempora/Quad1-3",
         "rank": 2,
         "title": "Quarta-feira da 1ª Semana da Quaresma, Têmporas da Primavera",
@@ -1623,7 +1623,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-4:3:v",
+        "id": "tempora:quad1-4:3:v",
         "link": "missal/tempora/Quad1-4",
         "rank": 3,
         "title": "Quinta-feira da 1ª semana da Quaresma",
@@ -1635,7 +1635,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-4:3:v",
+        "id": "tempora:quad1-4:3:v",
         "link": "missal/tempora/Quad1-4",
         "rank": 3,
         "title": "Quinta-feira da 1ª semana da Quaresma",
@@ -1648,7 +1648,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-5:2:v",
+        "id": "tempora:quad1-5:2:v",
         "link": "missal/tempora/Quad1-5",
         "rank": 2,
         "title": "Sexta-feira 1ª semana da Quaresma, Têmporas da Primavera",
@@ -1660,7 +1660,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-5:2:v",
+        "id": "tempora:quad1-5:2:v",
         "link": "missal/tempora/Quad1-5",
         "rank": 2,
         "title": "Sexta-feira 1ª semana da Quaresma, Têmporas da Primavera",
@@ -1673,7 +1673,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-6:2:v",
+        "id": "tempora:quad1-6:2:v",
         "link": "missal/tempora/Quad1-6",
         "rank": 2,
         "title": "Sábado da 1ª semana da Quaresma, Têmporas da Primavera",
@@ -1685,7 +1685,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad1-6:2:v",
+        "id": "tempora:quad1-6:2:v",
         "link": "missal/tempora/Quad1-6",
         "rank": 2,
         "title": "Sábado da 1ª semana da Quaresma, Têmporas da Primavera",
@@ -1698,7 +1698,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-0:1:v",
+        "id": "tempora:quad2-0:1:v",
         "link": "missal/tempora/Quad2-0",
         "rank": 1,
         "title": "2º Domingo da Quaresma",
@@ -1710,7 +1710,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-0:1:v",
+        "id": "tempora:quad2-0:1:v",
         "link": "missal/tempora/Quad2-0",
         "rank": 1,
         "title": "2º Domingo da Quaresma",
@@ -1723,7 +1723,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-1:3:v",
+        "id": "tempora:quad2-1:3:v",
         "link": "missal/tempora/Quad2-1",
         "rank": 3,
         "title": "Segunda-feira da 2ª semana da Quaresma",
@@ -1745,7 +1745,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-1:3:v",
+        "id": "tempora:quad2-1:3:v",
         "link": "missal/tempora/Quad2-1",
         "rank": 3,
         "title": "Segunda-feira da 2ª semana da Quaresma",
@@ -1758,7 +1758,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-2:3:v",
+        "id": "tempora:quad2-2:3:v",
         "link": "missal/tempora/Quad2-2",
         "rank": 3,
         "title": "Terça-feira da 2ª semana da Quaresma",
@@ -1780,7 +1780,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-2:3:v",
+        "id": "tempora:quad2-2:3:v",
         "link": "missal/tempora/Quad2-2",
         "rank": 3,
         "title": "Terça-feira da 2ª semana da Quaresma",
@@ -1804,7 +1804,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-3:3:v",
+        "id": "tempora:quad2-3:3:v",
         "link": "missal/tempora/Quad2-3",
         "rank": 3,
         "title": "Quarta-feira da 2ª semana da Quaresma",
@@ -1815,7 +1815,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-3:3:v",
+        "id": "tempora:quad2-3:3:v",
         "link": "missal/tempora/Quad2-3",
         "rank": 3,
         "title": "Quarta-feira da 2ª semana da Quaresma",
@@ -1828,7 +1828,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-4:3:v",
+        "id": "tempora:quad2-4:3:v",
         "link": "missal/tempora/Quad2-4",
         "rank": 3,
         "title": "Quinta-feira da 2ª semana da Quaresma",
@@ -1840,7 +1840,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-4:3:v",
+        "id": "tempora:quad2-4:3:v",
         "link": "missal/tempora/Quad2-4",
         "rank": 3,
         "title": "Quinta-feira da 2ª semana da Quaresma",
@@ -1853,7 +1853,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-5:3:v",
+        "id": "tempora:quad2-5:3:v",
         "link": "missal/tempora/Quad2-5",
         "rank": 3,
         "title": "Sexta-feira da 2ª semana da Quaresma",
@@ -1875,7 +1875,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-5:3:v",
+        "id": "tempora:quad2-5:3:v",
         "link": "missal/tempora/Quad2-5",
         "rank": 3,
         "title": "Sexta-feira da 2ª semana da Quaresma",
@@ -1888,7 +1888,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-6:3:v",
+        "id": "tempora:quad2-6:3:v",
         "link": "missal/tempora/Quad2-6",
         "rank": 3,
         "title": "Sábado da 2ª semana da Quaresma",
@@ -1900,7 +1900,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad2-6:3:v",
+        "id": "tempora:quad2-6:3:v",
         "link": "missal/tempora/Quad2-6",
         "rank": 3,
         "title": "Sábado da 2ª semana da Quaresma",
@@ -1913,7 +1913,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-0:1:v",
+        "id": "tempora:quad3-0:1:v",
         "link": "missal/tempora/Quad3-0",
         "rank": 1,
         "title": "3º Domingo da Quaresma",
@@ -1925,7 +1925,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-0:1:v",
+        "id": "tempora:quad3-0:1:v",
         "link": "missal/tempora/Quad3-0",
         "rank": 1,
         "title": "3º Domingo da Quaresma",
@@ -1938,7 +1938,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-1:3:v",
+        "id": "tempora:quad3-1:3:v",
         "link": "missal/tempora/Quad3-1",
         "rank": 3,
         "title": "Segunda-feira da 3ª semana da Quaresma",
@@ -1960,7 +1960,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-1:3:v",
+        "id": "tempora:quad3-1:3:v",
         "link": "missal/tempora/Quad3-1",
         "rank": 3,
         "title": "Segunda-feira da 3ª semana da Quaresma",
@@ -1984,7 +1984,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-2:3:v",
+        "id": "tempora:quad3-2:3:v",
         "link": "missal/tempora/Quad3-2",
         "rank": 3,
         "title": "Terça-feira da 3ª semana da Quaresma",
@@ -1995,7 +1995,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-2:3:v",
+        "id": "tempora:quad3-2:3:v",
         "link": "missal/tempora/Quad3-2",
         "rank": 3,
         "title": "Terça-feira da 3ª semana da Quaresma",
@@ -2008,7 +2008,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-3:3:v",
+        "id": "tempora:quad3-3:3:v",
         "link": "missal/tempora/Quad3-3",
         "rank": 3,
         "title": "Quarta-feira da 3ª semana da Quaresma",
@@ -2020,7 +2020,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-3:3:v",
+        "id": "tempora:quad3-3:3:v",
         "link": "missal/tempora/Quad3-3",
         "rank": 3,
         "title": "Quarta-feira da 3ª semana da Quaresma",
@@ -2033,7 +2033,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-4:3:v",
+        "id": "tempora:quad3-4:3:v",
         "link": "missal/tempora/Quad3-4",
         "rank": 3,
         "title": "Quinta-feira da 3ª semana da Quaresma",
@@ -2055,7 +2055,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-4:3:v",
+        "id": "tempora:quad3-4:3:v",
         "link": "missal/tempora/Quad3-4",
         "rank": 3,
         "title": "Quinta-feira da 3ª semana da Quaresma",
@@ -2068,7 +2068,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-5:3:v",
+        "id": "tempora:quad3-5:3:v",
         "link": "missal/tempora/Quad3-5",
         "rank": 3,
         "title": "Sexta-feira da 3ª semana da Quaresma",
@@ -2090,7 +2090,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-5:3:v",
+        "id": "tempora:quad3-5:3:v",
         "link": "missal/tempora/Quad3-5",
         "rank": 3,
         "title": "Sexta-feira da 3ª semana da Quaresma",
@@ -2103,7 +2103,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-6:3:v",
+        "id": "tempora:quad3-6:3:v",
         "link": "missal/tempora/Quad3-6",
         "rank": 3,
         "title": "Sábado da 3ª semana da Quaresma",
@@ -2115,7 +2115,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad3-6:3:v",
+        "id": "tempora:quad3-6:3:v",
         "link": "missal/tempora/Quad3-6",
         "rank": 3,
         "title": "Sábado da 3ª semana da Quaresma",
@@ -2128,7 +2128,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-0:1:v",
+        "id": "tempora:quad4-0:1:v",
         "link": "missal/tempora/Quad4-0",
         "rank": 1,
         "title": "4º Domingo da Quaresma",
@@ -2140,7 +2140,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-0:1:v",
+        "id": "tempora:quad4-0:1:v",
         "link": "missal/tempora/Quad4-0",
         "rank": 1,
         "title": "4º Domingo da Quaresma",
@@ -2153,7 +2153,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-1:3:v",
+        "id": "tempora:quad4-1:3:v",
         "link": "missal/tempora/Quad4-1",
         "rank": 3,
         "title": "Segunda-feira da 4ª semana da Quaresma",
@@ -2165,7 +2165,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-1:3:v",
+        "id": "tempora:quad4-1:3:v",
         "link": "missal/tempora/Quad4-1",
         "rank": 3,
         "title": "Segunda-feira da 4ª semana da Quaresma",
@@ -2178,7 +2178,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-2:3:v",
+        "id": "tempora:quad4-2:3:v",
         "link": "missal/tempora/Quad4-2",
         "rank": 3,
         "title": "Terça-feira da 4ª semana da Quaresma",
@@ -2190,7 +2190,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-2:3:v",
+        "id": "tempora:quad4-2:3:v",
         "link": "missal/tempora/Quad4-2",
         "rank": 3,
         "title": "Terça-feira da 4ª semana da Quaresma",
@@ -2203,7 +2203,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-3:3:v",
+        "id": "tempora:quad4-3:3:v",
         "link": "missal/tempora/Quad4-3",
         "rank": 3,
         "title": "Quarta-feira da 4ª semana da Quaresma",
@@ -2215,7 +2215,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-3:3:v",
+        "id": "tempora:quad4-3:3:v",
         "link": "missal/tempora/Quad4-3",
         "rank": 3,
         "title": "Quarta-feira da 4ª semana da Quaresma",
@@ -2228,7 +2228,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-4:3:v",
+        "id": "tempora:quad4-4:3:v",
         "link": "missal/tempora/Quad4-4",
         "rank": 3,
         "title": "Quinta-feira da 4ª semana da Quaresma",
@@ -2240,7 +2240,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-4:3:v",
+        "id": "tempora:quad4-4:3:v",
         "link": "missal/tempora/Quad4-4",
         "rank": 3,
         "title": "Quinta-feira da 4ª semana da Quaresma",
@@ -2253,7 +2253,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-5:3:v",
+        "id": "tempora:quad4-5:3:v",
         "link": "missal/tempora/Quad4-5",
         "rank": 3,
         "title": "Sexta-feira da 4ª semana da Quaresma",
@@ -2265,7 +2265,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-5:3:v",
+        "id": "tempora:quad4-5:3:v",
         "link": "missal/tempora/Quad4-5",
         "rank": 3,
         "title": "Sexta-feira da 4ª semana da Quaresma",
@@ -2278,7 +2278,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-6:3:v",
+        "id": "tempora:quad4-6:3:v",
         "link": "missal/tempora/Quad4-6",
         "rank": 3,
         "title": "Sábado da 4ª semana da Quaresma",
@@ -2290,7 +2290,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad4-6:3:v",
+        "id": "tempora:quad4-6:3:v",
         "link": "missal/tempora/Quad4-6",
         "rank": 3,
         "title": "Sábado da 4ª semana da Quaresma",
@@ -2303,7 +2303,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-0:1:v",
+        "id": "tempora:quad5-0:1:v",
         "link": "missal/tempora/Quad5-0",
         "rank": 1,
         "title": "Domingo da Paixão",
@@ -2315,7 +2315,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-0:1:v",
+        "id": "tempora:quad5-0:1:v",
         "link": "missal/tempora/Quad5-0",
         "rank": 1,
         "title": "Domingo da Paixão",
@@ -2328,7 +2328,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-1:3:v",
+        "id": "tempora:quad5-1:3:v",
         "link": "missal/tempora/Quad5-1",
         "rank": 3,
         "title": "Segunda-feira da semana da Paixão",
@@ -2340,7 +2340,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-1:3:v",
+        "id": "tempora:quad5-1:3:v",
         "link": "missal/tempora/Quad5-1",
         "rank": 3,
         "title": "Segunda-feira da semana da Paixão",
@@ -2353,7 +2353,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-2:3:v",
+        "id": "tempora:quad5-2:3:v",
         "link": "missal/tempora/Quad5-2",
         "rank": 3,
         "title": "Terça-feira da semana da Paixão",
@@ -2365,7 +2365,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-2:3:v",
+        "id": "tempora:quad5-2:3:v",
         "link": "missal/tempora/Quad5-2",
         "rank": 3,
         "title": "Terça-feira da semana da Paixão",
@@ -2378,7 +2378,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-3:3:v",
+        "id": "tempora:quad5-3:3:v",
         "link": "missal/tempora/Quad5-3",
         "rank": 3,
         "title": "Quarta-feira da semana da Paixão",
@@ -2390,7 +2390,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-3:3:v",
+        "id": "tempora:quad5-3:3:v",
         "link": "missal/tempora/Quad5-3",
         "rank": 3,
         "title": "Quarta-feira da semana da Paixão",
@@ -2403,7 +2403,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-4:3:v",
+        "id": "tempora:quad5-4:3:v",
         "link": "missal/tempora/Quad5-4",
         "rank": 3,
         "title": "Quinta-feira da semana da Paixão",
@@ -2415,7 +2415,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-4:3:v",
+        "id": "tempora:quad5-4:3:v",
         "link": "missal/tempora/Quad5-4",
         "rank": 3,
         "title": "Quinta-feira da semana da Paixão",
@@ -2428,7 +2428,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-5Feria:3:v",
+        "id": "tempora:quad5-5Feria:3:v",
         "link": "missal/tempora/Quad5-5Feria",
         "rank": 3,
         "title": "Sexta-feira da semana da Paixão",
@@ -2450,7 +2450,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-5Feria:3:v",
+        "id": "tempora:quad5-5Feria:3:v",
         "link": "missal/tempora/Quad5-5Feria",
         "rank": 3,
         "title": "Sexta-feira da semana da Paixão",
@@ -2463,7 +2463,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-6:3:v",
+        "id": "tempora:quad5-6:3:v",
         "link": "missal/tempora/Quad5-6",
         "rank": 3,
         "title": "Sábado da semana da Paixão",
@@ -2475,7 +2475,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad5-6:3:v",
+        "id": "tempora:quad5-6:3:v",
         "link": "missal/tempora/Quad5-6",
         "rank": 3,
         "title": "Sábado da semana da Paixão",
@@ -2489,7 +2489,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
           "r",
           "v",
         ],
-        "id": "tempora:Quad6-0:1:rv",
+        "id": "tempora:quad6-0:1:rv",
         "link": "missal/tempora/Quad6-0",
         "rank": 1,
         "title": "Domingo de Ramos",
@@ -2502,7 +2502,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
           "r",
           "v",
         ],
-        "id": "tempora:Quad6-0:1:rv",
+        "id": "tempora:quad6-0:1:rv",
         "link": "missal/tempora/Quad6-0",
         "rank": 1,
         "title": "Domingo de Ramos",
@@ -2515,7 +2515,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad6-1:1:v",
+        "id": "tempora:quad6-1:1:v",
         "link": "missal/tempora/Quad6-1",
         "rank": 1,
         "title": "Segunda-feira Santa",
@@ -2527,7 +2527,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad6-1:1:v",
+        "id": "tempora:quad6-1:1:v",
         "link": "missal/tempora/Quad6-1",
         "rank": 1,
         "title": "Segunda-feira Santa",
@@ -2540,7 +2540,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad6-2:1:v",
+        "id": "tempora:quad6-2:1:v",
         "link": "missal/tempora/Quad6-2",
         "rank": 1,
         "title": "Terça-feira Santa",
@@ -2552,7 +2552,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad6-2:1:v",
+        "id": "tempora:quad6-2:1:v",
         "link": "missal/tempora/Quad6-2",
         "rank": 1,
         "title": "Terça-feira Santa",
@@ -2565,7 +2565,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad6-3:1:v",
+        "id": "tempora:quad6-3:1:v",
         "link": "missal/tempora/Quad6-3",
         "rank": 1,
         "title": "Quarta-feira Santa",
@@ -2577,7 +2577,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Quad6-3:1:v",
+        "id": "tempora:quad6-3:1:v",
         "link": "missal/tempora/Quad6-3",
         "rank": 1,
         "title": "Quarta-feira Santa",
@@ -2590,7 +2590,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Quad6-4t:1:w",
+        "id": "tempora:quad6-4t:1:w",
         "link": "missal/tempora/Quad6-4t",
         "rank": 1,
         "title": "Quinta-feira Santa",
@@ -2602,7 +2602,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Quad6-4t:1:w",
+        "id": "tempora:quad6-4t:1:w",
         "link": "missal/tempora/Quad6-4t",
         "rank": 1,
         "title": "Quinta-feira Santa",
@@ -2616,7 +2616,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
           "b",
           "v",
         ],
-        "id": "tempora:Quad6-5:1:bv",
+        "id": "tempora:quad6-5:1:bv",
         "link": "missal/tempora/Quad6-5",
         "rank": 1,
         "title": "Sexta-feira Santa",
@@ -2629,7 +2629,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
           "b",
           "v",
         ],
-        "id": "tempora:Quad6-5:1:bv",
+        "id": "tempora:quad6-5:1:bv",
         "link": "missal/tempora/Quad6-5",
         "rank": 1,
         "title": "Sexta-feira Santa",
@@ -2643,7 +2643,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
           "v",
           "w",
         ],
-        "id": "tempora:Quad6-6:1:vw",
+        "id": "tempora:quad6-6:1:vw",
         "link": "missal/tempora/Quad6-6",
         "rank": 1,
         "title": "Sábado Santo",
@@ -2656,7 +2656,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
           "v",
           "w",
         ],
-        "id": "tempora:Quad6-6:1:vw",
+        "id": "tempora:quad6-6:1:vw",
         "link": "missal/tempora/Quad6-6",
         "rank": 1,
         "title": "Sábado Santo",
@@ -2669,7 +2669,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-0:1:w",
+        "id": "tempora:pasc0-0:1:w",
         "link": "missal/tempora/Pasc0-0",
         "rank": 1,
         "title": "Domingo da Ressurreição",
@@ -2681,7 +2681,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-0:1:w",
+        "id": "tempora:pasc0-0:1:w",
         "link": "missal/tempora/Pasc0-0",
         "rank": 1,
         "title": "Domingo da Ressurreição",
@@ -2694,7 +2694,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-1:1:w",
+        "id": "tempora:pasc0-1:1:w",
         "link": "missal/tempora/Pasc0-1",
         "rank": 1,
         "title": "Segunda-feira Pascal",
@@ -2706,7 +2706,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-1:1:w",
+        "id": "tempora:pasc0-1:1:w",
         "link": "missal/tempora/Pasc0-1",
         "rank": 1,
         "title": "Segunda-feira Pascal",
@@ -2719,7 +2719,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-2:1:w",
+        "id": "tempora:pasc0-2:1:w",
         "link": "missal/tempora/Pasc0-2",
         "rank": 1,
         "title": "Terça-feira Pascal",
@@ -2731,7 +2731,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-2:1:w",
+        "id": "tempora:pasc0-2:1:w",
         "link": "missal/tempora/Pasc0-2",
         "rank": 1,
         "title": "Terça-feira Pascal",
@@ -2744,7 +2744,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-3:1:w",
+        "id": "tempora:pasc0-3:1:w",
         "link": "missal/tempora/Pasc0-3",
         "rank": 1,
         "title": "Quarta-feira Pascal",
@@ -2756,7 +2756,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-3:1:w",
+        "id": "tempora:pasc0-3:1:w",
         "link": "missal/tempora/Pasc0-3",
         "rank": 1,
         "title": "Quarta-feira Pascal",
@@ -2769,7 +2769,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-4:1:w",
+        "id": "tempora:pasc0-4:1:w",
         "link": "missal/tempora/Pasc0-4",
         "rank": 1,
         "title": "Quinta-feira Pascal",
@@ -2781,7 +2781,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-4:1:w",
+        "id": "tempora:pasc0-4:1:w",
         "link": "missal/tempora/Pasc0-4",
         "rank": 1,
         "title": "Quinta-feira Pascal",
@@ -2794,7 +2794,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-5:1:w",
+        "id": "tempora:pasc0-5:1:w",
         "link": "missal/tempora/Pasc0-5",
         "rank": 1,
         "title": "Sexta-feira Pascal",
@@ -2806,7 +2806,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-5:1:w",
+        "id": "tempora:pasc0-5:1:w",
         "link": "missal/tempora/Pasc0-5",
         "rank": 1,
         "title": "Sexta-feira Pascal",
@@ -2819,7 +2819,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-6:1:w",
+        "id": "tempora:pasc0-6:1:w",
         "link": "missal/tempora/Pasc0-6",
         "rank": 1,
         "title": "Sábado Pascal",
@@ -2831,7 +2831,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc0-6:1:w",
+        "id": "tempora:pasc0-6:1:w",
         "link": "missal/tempora/Pasc0-6",
         "rank": 1,
         "title": "Sábado Pascal",
@@ -2844,7 +2844,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc1-0:1:w",
+        "id": "tempora:pasc1-0:1:w",
         "link": "missal/tempora/Pasc1-0",
         "rank": 1,
         "title": "Domingo in Albis",
@@ -2856,7 +2856,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc1-0:1:w",
+        "id": "tempora:pasc1-0:1:w",
         "link": "missal/tempora/Pasc1-0",
         "rank": 1,
         "title": "Domingo in Albis",
@@ -2890,7 +2890,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc1-1:4:w",
+        "id": "tempora:pasc1-1:4:w",
         "link": "missal/tempora/Pasc1-1",
         "rank": 4,
         "title": "Segunda-feira da 1º semana depois da Páscoa",
@@ -2915,7 +2915,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc1-2:4:w",
+        "id": "tempora:pasc1-2:4:w",
         "link": "missal/tempora/Pasc1-2",
         "rank": 4,
         "title": "Terça-feira da 1ª semana depois da Páscoa",
@@ -2940,7 +2940,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc1-3:4:w",
+        "id": "tempora:pasc1-3:4:w",
         "link": "missal/tempora/Pasc1-3",
         "rank": 4,
         "title": "Quarta-feira da 1ª semana depois da Páscoa",
@@ -2965,7 +2965,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc1-4:4:w",
+        "id": "tempora:pasc1-4:4:w",
         "link": "missal/tempora/Pasc1-4",
         "rank": 4,
         "title": "Quinta-feira da 1ª semana depois da Páscoa",
@@ -2990,7 +2990,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc1-5:4:w",
+        "id": "tempora:pasc1-5:4:w",
         "link": "missal/tempora/Pasc1-5",
         "rank": 4,
         "title": "Sexta-feira da 1ª semana depois da Páscoa",
@@ -3015,7 +3015,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc1-6:4:w",
+        "id": "tempora:pasc1-6:4:w",
         "link": "missal/tempora/Pasc1-6",
         "rank": 4,
         "title": "Sábado da 1ª semana depois da Páscoa",
@@ -3028,7 +3028,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc2-0:2:w",
+        "id": "tempora:pasc2-0:2:w",
         "link": "missal/tempora/Pasc2-0",
         "rank": 2,
         "title": "2º Domingo depois da Páscoa",
@@ -3050,7 +3050,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc2-0:2:w",
+        "id": "tempora:pasc2-0:2:w",
         "link": "missal/tempora/Pasc2-0",
         "rank": 2,
         "title": "2º Domingo depois da Páscoa",
@@ -3075,7 +3075,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc2-1:4:w",
+        "id": "tempora:pasc2-1:4:w",
         "link": "missal/tempora/Pasc2-1",
         "rank": 4,
         "title": "Segunda-feira da 2ª semana depois da Páscoa",
@@ -3100,7 +3100,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc2-2:4:w",
+        "id": "tempora:pasc2-2:4:w",
         "link": "missal/tempora/Pasc2-2",
         "rank": 4,
         "title": "Terça-feira da 2ª semana depois da Páscoa",
@@ -3113,7 +3113,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc2-3:2:w",
+        "id": "tempora:pasc2-3:2:w",
         "link": "missal/tempora/Pasc2-3",
         "rank": 2,
         "title": "S. José, Padroeiro da Santa Igreja e dos Moribundos",
@@ -3135,7 +3135,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc2-3:2:w",
+        "id": "tempora:pasc2-3:2:w",
         "link": "missal/tempora/Pasc2-3",
         "rank": 2,
         "title": "S. José, Padroeiro da Santa Igreja e dos Moribundos",
@@ -3160,7 +3160,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc2-4Feria:4:w",
+        "id": "tempora:pasc2-4Feria:4:w",
         "link": "missal/tempora/Pasc2-4Feria",
         "rank": 4,
         "title": "Quinta-feira da 2ª semana depois da Páscoa",
@@ -3185,7 +3185,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc2-5Feria:4:w",
+        "id": "tempora:pasc2-5Feria:4:w",
         "link": "missal/tempora/Pasc2-5Feria",
         "rank": 4,
         "title": "Sexta-feira da 2ª semana depois da Páscoa",
@@ -3210,7 +3210,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc2-6Feria:4:w",
+        "id": "tempora:pasc2-6Feria:4:w",
         "link": "missal/tempora/Pasc2-6Feria",
         "rank": 4,
         "title": "Sábado da 2ª semana depois da Páscoa",
@@ -3223,7 +3223,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc3-0:2:w",
+        "id": "tempora:pasc3-0:2:w",
         "link": "missal/tempora/Pasc3-0",
         "rank": 2,
         "title": "3º Domingo depois da Páscoa",
@@ -3235,7 +3235,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc3-0:2:w",
+        "id": "tempora:pasc3-0:2:w",
         "link": "missal/tempora/Pasc3-0",
         "rank": 2,
         "title": "3º Domingo depois da Páscoa",
@@ -3260,7 +3260,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc3-1Feria:4:w",
+        "id": "tempora:pasc3-1Feria:4:w",
         "link": "missal/tempora/Pasc3-1Feria",
         "rank": 4,
         "title": "Segunda-feira da 3ª semana depois da Páscoa",
@@ -3285,7 +3285,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc3-2Feria:4:w",
+        "id": "tempora:pasc3-2Feria:4:w",
         "link": "missal/tempora/Pasc3-2Feria",
         "rank": 4,
         "title": "Terça-feira da 3ª semana depois da Páscoa",
@@ -3310,7 +3310,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc3-3Feria:4:w",
+        "id": "tempora:pasc3-3Feria:4:w",
         "link": "missal/tempora/Pasc3-3Feria",
         "rank": 4,
         "title": "Quarta-feira da 3ª semana depois da Páscoa",
@@ -3335,7 +3335,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc3-4:4:w",
+        "id": "tempora:pasc3-4:4:w",
         "link": "missal/tempora/Pasc3-4",
         "rank": 4,
         "title": "Quinta-feira da 3ª semana depois da Páscoa",
@@ -3350,7 +3350,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc3-5:4:w",
+        "id": "tempora:pasc3-5:4:w",
         "link": "missal/tempora/Pasc3-5",
         "rank": 4,
         "title": "Sexta-feira da 3ª semana depois da Páscoa",
@@ -3375,7 +3375,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc3-6:4:w",
+        "id": "tempora:pasc3-6:4:w",
         "link": "missal/tempora/Pasc3-6",
         "rank": 4,
         "title": "Sábado da 3ª semana depois da Páscoa",
@@ -3388,7 +3388,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc4-0:2:w",
+        "id": "tempora:pasc4-0:2:w",
         "link": "missal/tempora/Pasc4-0",
         "rank": 2,
         "title": "4º Domingo depois da Páscoa",
@@ -3410,7 +3410,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc4-0:2:w",
+        "id": "tempora:pasc4-0:2:w",
         "link": "missal/tempora/Pasc4-0",
         "rank": 2,
         "title": "4º Domingo depois da Páscoa",
@@ -3435,7 +3435,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc4-1:4:w",
+        "id": "tempora:pasc4-1:4:w",
         "link": "missal/tempora/Pasc4-1",
         "rank": 4,
         "title": "Segunda-feira da 4ª semana depois da Páscoa",
@@ -3460,7 +3460,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc4-2:4:w",
+        "id": "tempora:pasc4-2:4:w",
         "link": "missal/tempora/Pasc4-2",
         "rank": 4,
         "title": "Terça-feira da 4ª semana depois da Páscoa",
@@ -3475,7 +3475,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc4-3:4:w",
+        "id": "tempora:pasc4-3:4:w",
         "link": "missal/tempora/Pasc4-3",
         "rank": 4,
         "title": "Quarta-feira da 4ª semana depois da Páscoa",
@@ -3490,7 +3490,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc4-4:4:w",
+        "id": "tempora:pasc4-4:4:w",
         "link": "missal/tempora/Pasc4-4",
         "rank": 4,
         "title": "Quinta-feira da 4ª semana depois da Páscoa",
@@ -3505,7 +3505,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc4-5:4:w",
+        "id": "tempora:pasc4-5:4:w",
         "link": "missal/tempora/Pasc4-5",
         "rank": 4,
         "title": "Sexta-feira da 4ª semana depois da Páscoa",
@@ -3530,7 +3530,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc4-6:4:w",
+        "id": "tempora:pasc4-6:4:w",
         "link": "missal/tempora/Pasc4-6",
         "rank": 4,
         "title": "Sábado da 4ª semana depois da Páscoa",
@@ -3543,7 +3543,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc5-0:2:w",
+        "id": "tempora:pasc5-0:2:w",
         "link": "missal/tempora/Pasc5-0",
         "rank": 2,
         "title": "5º Domingo depois da Páscoa",
@@ -3565,7 +3565,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc5-0:2:w",
+        "id": "tempora:pasc5-0:2:w",
         "link": "missal/tempora/Pasc5-0",
         "rank": 2,
         "title": "5º Domingo depois da Páscoa",
@@ -3590,7 +3590,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Pasc5-1:4:v",
+        "id": "tempora:pasc5-1:4:v",
         "link": "missal/tempora/Pasc5-1",
         "rank": 4,
         "title": "Segunda-feira das Rogações",
@@ -3615,7 +3615,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc5-2:4:w",
+        "id": "tempora:pasc5-2:4:w",
         "link": "missal/tempora/Pasc5-2",
         "rank": 4,
         "title": "Terça-feira das Rogações",
@@ -3628,7 +3628,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc5-3:2:w",
+        "id": "tempora:pasc5-3:2:w",
         "link": "missal/tempora/Pasc5-3",
         "rank": 2,
         "title": "Vigília da Ascensão",
@@ -3650,7 +3650,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc5-3:2:w",
+        "id": "tempora:pasc5-3:2:w",
         "link": "missal/tempora/Pasc5-3",
         "rank": 2,
         "title": "Vigília da Ascensão",
@@ -3663,7 +3663,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc5-4:1:w",
+        "id": "tempora:pasc5-4:1:w",
         "link": "missal/tempora/Pasc5-4",
         "rank": 1,
         "title": "Ascensão",
@@ -3675,7 +3675,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc5-4:1:w",
+        "id": "tempora:pasc5-4:1:w",
         "link": "missal/tempora/Pasc5-4",
         "rank": 1,
         "title": "Ascensão",
@@ -3700,7 +3700,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc5-5:4:w",
+        "id": "tempora:pasc5-5:4:w",
         "link": "missal/tempora/Pasc5-5",
         "rank": 4,
         "title": "Sexta-feira depois da Ascensão",
@@ -3725,7 +3725,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc5-6:4:w",
+        "id": "tempora:pasc5-6:4:w",
         "link": "missal/tempora/Pasc5-6",
         "rank": 4,
         "title": "Sábado depois da Ascensão",
@@ -3738,7 +3738,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc6-0:2:w",
+        "id": "tempora:pasc6-0:2:w",
         "link": "missal/tempora/Pasc6-0",
         "rank": 2,
         "title": "Domingo depois da Ascensão",
@@ -3760,7 +3760,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc6-0:2:w",
+        "id": "tempora:pasc6-0:2:w",
         "link": "missal/tempora/Pasc6-0",
         "rank": 2,
         "title": "Domingo depois da Ascensão",
@@ -3785,7 +3785,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc6-1:4:w",
+        "id": "tempora:pasc6-1:4:w",
         "link": "missal/tempora/Pasc6-1",
         "rank": 4,
         "title": "Segunda-feira da semana depois da Ascensão",
@@ -3800,7 +3800,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc6-2:4:w",
+        "id": "tempora:pasc6-2:4:w",
         "link": "missal/tempora/Pasc6-2",
         "rank": 4,
         "title": "Terça-feira da semana depois da Ascensão",
@@ -3825,7 +3825,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc6-3:4:w",
+        "id": "tempora:pasc6-3:4:w",
         "link": "missal/tempora/Pasc6-3",
         "rank": 4,
         "title": "Quarta-feira da semana depois da Ascensão",
@@ -3850,7 +3850,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc6-4:4:w",
+        "id": "tempora:pasc6-4:4:w",
         "link": "missal/tempora/Pasc6-4",
         "rank": 4,
         "title": "Quinta-feira da semana depois da Ascensão",
@@ -3875,7 +3875,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Pasc6-5:4:w",
+        "id": "tempora:pasc6-5:4:w",
         "link": "missal/tempora/Pasc6-5",
         "rank": 4,
         "title": "Sexta-feira da semana depois da Ascensão",
@@ -3888,7 +3888,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc6-6:1:r",
+        "id": "tempora:pasc6-6:1:r",
         "link": "missal/tempora/Pasc6-6",
         "rank": 1,
         "title": "Vigília de Pentecostes",
@@ -3900,7 +3900,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc6-6:1:r",
+        "id": "tempora:pasc6-6:1:r",
         "link": "missal/tempora/Pasc6-6",
         "rank": 1,
         "title": "Vigília de Pentecostes",
@@ -3913,7 +3913,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-0:1:r",
+        "id": "tempora:pasc7-0:1:r",
         "link": "missal/tempora/Pasc7-0",
         "rank": 1,
         "title": "Domingo de Pentecostes",
@@ -3925,7 +3925,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-0:1:r",
+        "id": "tempora:pasc7-0:1:r",
         "link": "missal/tempora/Pasc7-0",
         "rank": 1,
         "title": "Domingo de Pentecostes",
@@ -3938,7 +3938,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-1:1:r",
+        "id": "tempora:pasc7-1:1:r",
         "link": "missal/tempora/Pasc7-1",
         "rank": 1,
         "title": "Segunda-feira na semana da oitava de Pentecostes",
@@ -3950,7 +3950,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-1:1:r",
+        "id": "tempora:pasc7-1:1:r",
         "link": "missal/tempora/Pasc7-1",
         "rank": 1,
         "title": "Segunda-feira na semana da oitava de Pentecostes",
@@ -3963,7 +3963,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-2:1:r",
+        "id": "tempora:pasc7-2:1:r",
         "link": "missal/tempora/Pasc7-2",
         "rank": 1,
         "title": "Terça-feira na semana da oitava de Pentecostes",
@@ -3975,7 +3975,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-2:1:r",
+        "id": "tempora:pasc7-2:1:r",
         "link": "missal/tempora/Pasc7-2",
         "rank": 1,
         "title": "Terça-feira na semana da oitava de Pentecostes",
@@ -3988,7 +3988,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-3:1:r",
+        "id": "tempora:pasc7-3:1:r",
         "link": "missal/tempora/Pasc7-3",
         "rank": 1,
         "title": "Quarta-feira das Têmporas de Pentecostes",
@@ -4000,7 +4000,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-3:1:r",
+        "id": "tempora:pasc7-3:1:r",
         "link": "missal/tempora/Pasc7-3",
         "rank": 1,
         "title": "Quarta-feira das Têmporas de Pentecostes",
@@ -4013,7 +4013,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-4:1:r",
+        "id": "tempora:pasc7-4:1:r",
         "link": "missal/tempora/Pasc7-4",
         "rank": 1,
         "title": "Quinta-feira na semana da oitava de Pentecostes",
@@ -4025,7 +4025,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-4:1:r",
+        "id": "tempora:pasc7-4:1:r",
         "link": "missal/tempora/Pasc7-4",
         "rank": 1,
         "title": "Quinta-feira na semana da oitava de Pentecostes",
@@ -4038,7 +4038,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-5:1:r",
+        "id": "tempora:pasc7-5:1:r",
         "link": "missal/tempora/Pasc7-5",
         "rank": 1,
         "title": "Sexta-feira das Têmporas de Pentecostes",
@@ -4050,7 +4050,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-5:1:r",
+        "id": "tempora:pasc7-5:1:r",
         "link": "missal/tempora/Pasc7-5",
         "rank": 1,
         "title": "Sexta-feira das Têmporas de Pentecostes",
@@ -4063,7 +4063,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-6:1:r",
+        "id": "tempora:pasc7-6:1:r",
         "link": "missal/tempora/Pasc7-6",
         "rank": 1,
         "title": "Sábado das Têmporas de Pentecostes",
@@ -4075,7 +4075,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "r",
         ],
-        "id": "tempora:Pasc7-6:1:r",
+        "id": "tempora:pasc7-6:1:r",
         "link": "missal/tempora/Pasc7-6",
         "rank": 1,
         "title": "Sábado das Têmporas de Pentecostes",
@@ -8366,7 +8366,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-0:1:v",
+        "id": "tempora:adv1-0:1:v",
         "link": "missal/tempora/Adv1-0",
         "rank": 1,
         "title": "1ª Domingo do Advento",
@@ -8378,7 +8378,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-0:1:v",
+        "id": "tempora:adv1-0:1:v",
         "link": "missal/tempora/Adv1-0",
         "rank": 1,
         "title": "1ª Domingo do Advento",
@@ -8402,7 +8402,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-1:3:v",
+        "id": "tempora:adv1-1:3:v",
         "link": "missal/tempora/Adv1-1",
         "rank": 3,
         "title": "Segunda-feira da 1ª semana do Advento",
@@ -8413,7 +8413,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-1:3:v",
+        "id": "tempora:adv1-1:3:v",
         "link": "missal/tempora/Adv1-1",
         "rank": 3,
         "title": "Segunda-feira da 1ª semana do Advento",
@@ -8437,7 +8437,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-2:3:v",
+        "id": "tempora:adv1-2:3:v",
         "link": "missal/tempora/Adv1-2",
         "rank": 3,
         "title": "Terça-feira da 1ª semana do Advento",
@@ -8448,7 +8448,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-2:3:v",
+        "id": "tempora:adv1-2:3:v",
         "link": "missal/tempora/Adv1-2",
         "rank": 3,
         "title": "Terça-feira da 1ª semana do Advento",
@@ -8472,7 +8472,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-3:3:v",
+        "id": "tempora:adv1-3:3:v",
         "link": "missal/tempora/Adv1-3",
         "rank": 3,
         "title": "Quarta-feira da 1ª semana do Advento",
@@ -8483,7 +8483,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-3:3:v",
+        "id": "tempora:adv1-3:3:v",
         "link": "missal/tempora/Adv1-3",
         "rank": 3,
         "title": "Quarta-feira da 1ª semana do Advento",
@@ -8507,7 +8507,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-4:3:v",
+        "id": "tempora:adv1-4:3:v",
         "link": "missal/tempora/Adv1-4",
         "rank": 3,
         "title": "Quinta-feira da 1ª semana do Advento",
@@ -8518,7 +8518,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-4:3:v",
+        "id": "tempora:adv1-4:3:v",
         "link": "missal/tempora/Adv1-4",
         "rank": 3,
         "title": "Quinta-feira da 1ª semana do Advento",
@@ -8531,7 +8531,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-5:3:v",
+        "id": "tempora:adv1-5:3:v",
         "link": "missal/tempora/Adv1-5",
         "rank": 3,
         "title": "Sexta-feira da 1ª semana do Advento",
@@ -8553,7 +8553,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-5:3:v",
+        "id": "tempora:adv1-5:3:v",
         "link": "missal/tempora/Adv1-5",
         "rank": 3,
         "title": "Sexta-feira da 1ª semana do Advento",
@@ -8577,7 +8577,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-6:3:v",
+        "id": "tempora:adv1-6:3:v",
         "link": "missal/tempora/Adv1-6",
         "rank": 3,
         "title": "Sábado da 1ª semana do Advento",
@@ -8588,7 +8588,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv1-6:3:v",
+        "id": "tempora:adv1-6:3:v",
         "link": "missal/tempora/Adv1-6",
         "rank": 3,
         "title": "Sábado da 1ª semana do Advento",
@@ -8601,7 +8601,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-0:1:v",
+        "id": "tempora:adv2-0:1:v",
         "link": "missal/tempora/Adv2-0",
         "rank": 1,
         "title": "2º Domingo do Advento",
@@ -8623,7 +8623,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-0:1:v",
+        "id": "tempora:adv2-0:1:v",
         "link": "missal/tempora/Adv2-0",
         "rank": 1,
         "title": "2º Domingo do Advento",
@@ -8648,7 +8648,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-1:3:v",
+        "id": "tempora:adv2-1:3:v",
         "link": "missal/tempora/Adv2-1",
         "rank": 3,
         "title": "Segunda-feira da 2ª semana do Advento",
@@ -8661,7 +8661,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-2:3:v",
+        "id": "tempora:adv2-2:3:v",
         "link": "missal/tempora/Adv2-2",
         "rank": 3,
         "title": "Terça-feira da 2ª semana do Advento",
@@ -8673,7 +8673,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-2:3:v",
+        "id": "tempora:adv2-2:3:v",
         "link": "missal/tempora/Adv2-2",
         "rank": 3,
         "title": "Terça-feira da 2ª semana do Advento",
@@ -8686,7 +8686,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-3:3:v",
+        "id": "tempora:adv2-3:3:v",
         "link": "missal/tempora/Adv2-3",
         "rank": 3,
         "title": "Quarta-feira da 2ª semana do Advento",
@@ -8708,7 +8708,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-3:3:v",
+        "id": "tempora:adv2-3:3:v",
         "link": "missal/tempora/Adv2-3",
         "rank": 3,
         "title": "Quarta-feira da 2ª semana do Advento",
@@ -8732,7 +8732,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-4:3:v",
+        "id": "tempora:adv2-4:3:v",
         "link": "missal/tempora/Adv2-4",
         "rank": 3,
         "title": "Quinta-feira da 2ª semana do Advento",
@@ -8743,7 +8743,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-4:3:v",
+        "id": "tempora:adv2-4:3:v",
         "link": "missal/tempora/Adv2-4",
         "rank": 3,
         "title": "Quinta-feira da 2ª semana do Advento",
@@ -8756,7 +8756,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-5:3:v",
+        "id": "tempora:adv2-5:3:v",
         "link": "missal/tempora/Adv2-5",
         "rank": 3,
         "title": "Sexta-feira da 2ª semana do Advento",
@@ -8768,7 +8768,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-5:3:v",
+        "id": "tempora:adv2-5:3:v",
         "link": "missal/tempora/Adv2-5",
         "rank": 3,
         "title": "Sexta-feira da 2ª semana do Advento",
@@ -8792,7 +8792,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-6:3:v",
+        "id": "tempora:adv2-6:3:v",
         "link": "missal/tempora/Adv2-6",
         "rank": 3,
         "title": "Sábado da 2ª semana do Advento",
@@ -8803,7 +8803,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv2-6:3:v",
+        "id": "tempora:adv2-6:3:v",
         "link": "missal/tempora/Adv2-6",
         "rank": 3,
         "title": "Sábado da 2ª semana do Advento",
@@ -8816,7 +8816,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-0:1:v",
+        "id": "tempora:adv3-0:1:v",
         "link": "missal/tempora/Adv3-0",
         "rank": 1,
         "title": "3º Domingo do Advento",
@@ -8828,7 +8828,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-0:1:v",
+        "id": "tempora:adv3-0:1:v",
         "link": "missal/tempora/Adv3-0",
         "rank": 1,
         "title": "3º Domingo do Advento",
@@ -8841,7 +8841,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-1:3:v",
+        "id": "tempora:adv3-1:3:v",
         "link": "missal/tempora/Adv3-1",
         "rank": 3,
         "title": "Segunda-feira da 3ª semana do Advento",
@@ -8853,7 +8853,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-1:3:v",
+        "id": "tempora:adv3-1:3:v",
         "link": "missal/tempora/Adv3-1",
         "rank": 3,
         "title": "Segunda-feira da 3ª semana do Advento",
@@ -8877,7 +8877,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-2:3:v",
+        "id": "tempora:adv3-2:3:v",
         "link": "missal/tempora/Adv3-2",
         "rank": 3,
         "title": "Terça-feira da 3ª semana do Advento",
@@ -8888,7 +8888,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-2:3:v",
+        "id": "tempora:adv3-2:3:v",
         "link": "missal/tempora/Adv3-2",
         "rank": 3,
         "title": "Terça-feira da 3ª semana do Advento",
@@ -8901,7 +8901,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-3:2:v",
+        "id": "tempora:adv3-3:2:v",
         "link": "missal/tempora/Adv3-3",
         "rank": 2,
         "title": "Quarta-feira das Têmporas de Inverno",
@@ -8913,7 +8913,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-3:2:v",
+        "id": "tempora:adv3-3:2:v",
         "link": "missal/tempora/Adv3-3",
         "rank": 2,
         "title": "Quarta-feira das Têmporas de Inverno",
@@ -8926,7 +8926,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-4:2:v",
+        "id": "tempora:adv3-4:2:v",
         "link": "missal/tempora/Adv3-4",
         "rank": 2,
         "title": "Quinta-feira da 3ª semana do Advento",
@@ -8938,7 +8938,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-4:2:v",
+        "id": "tempora:adv3-4:2:v",
         "link": "missal/tempora/Adv3-4",
         "rank": 2,
         "title": "Quinta-feira da 3ª semana do Advento",
@@ -8951,7 +8951,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-5:2:v",
+        "id": "tempora:adv3-5:2:v",
         "link": "missal/tempora/Adv3-5",
         "rank": 2,
         "title": "Sexta-feira das Têmporas de Inverno",
@@ -8963,7 +8963,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-5:2:v",
+        "id": "tempora:adv3-5:2:v",
         "link": "missal/tempora/Adv3-5",
         "rank": 2,
         "title": "Sexta-feira das Têmporas de Inverno",
@@ -8976,7 +8976,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-6:2:v",
+        "id": "tempora:adv3-6:2:v",
         "link": "missal/tempora/Adv3-6",
         "rank": 2,
         "title": "Sábado das Têmporas de Inverno",
@@ -8988,7 +8988,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv3-6:2:v",
+        "id": "tempora:adv3-6:2:v",
         "link": "missal/tempora/Adv3-6",
         "rank": 2,
         "title": "Sábado das Têmporas de Inverno",
@@ -9001,7 +9001,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv4-0:1:v",
+        "id": "tempora:adv4-0:1:v",
         "link": "missal/tempora/Adv4-0",
         "rank": 1,
         "title": "4º Domingo do Advento",
@@ -9013,7 +9013,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv4-0:1:v",
+        "id": "tempora:adv4-0:1:v",
         "link": "missal/tempora/Adv4-0",
         "rank": 1,
         "title": "4º Domingo do Advento",
@@ -9037,7 +9037,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv4-1:2:v",
+        "id": "tempora:adv4-1:2:v",
         "link": "missal/tempora/Adv4-1",
         "rank": 2,
         "title": "Segunda-feira da 4ª semana do Advento",
@@ -9048,7 +9048,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv4-1:2:v",
+        "id": "tempora:adv4-1:2:v",
         "link": "missal/tempora/Adv4-1",
         "rank": 2,
         "title": "Segunda-feira da 4ª semana do Advento",
@@ -9061,7 +9061,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv4-2:2:v",
+        "id": "tempora:adv4-2:2:v",
         "link": "missal/tempora/Adv4-2",
         "rank": 2,
         "title": "Terça-feira da 4ª semana do Advento",
@@ -9073,7 +9073,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "v",
         ],
-        "id": "tempora:Adv4-2:2:v",
+        "id": "tempora:adv4-2:2:v",
         "link": "missal/tempora/Adv4-2",
         "rank": 2,
         "title": "Terça-feira da 4ª semana do Advento",
@@ -9175,7 +9175,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Nat1-0:2:w",
+        "id": "tempora:nat1-0:2:w",
         "link": "missal/tempora/Nat1-0",
         "rank": 2,
         "title": "Domingo dentro do Oitavário do Natal",
@@ -9186,7 +9186,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Nat1-0:2:w",
+        "id": "tempora:nat1-0:2:w",
         "link": "missal/tempora/Nat1-0",
         "rank": 2,
         "title": "Domingo dentro do Oitavário do Natal",
@@ -9199,7 +9199,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Nat1-1:2:w",
+        "id": "tempora:nat1-1:2:w",
         "link": "missal/tempora/Nat1-1",
         "rank": 2,
         "title": "Feria na Oitavária do Natal",
@@ -9221,7 +9221,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Nat1-1:2:w",
+        "id": "tempora:nat1-1:2:w",
         "link": "missal/tempora/Nat1-1",
         "rank": 2,
         "title": "Feria na Oitavária do Natal",
@@ -9234,7 +9234,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Nat1-1:2:w",
+        "id": "tempora:nat1-1:2:w",
         "link": "missal/tempora/Nat1-1",
         "rank": 2,
         "title": "Feria na Oitavária do Natal",
@@ -9246,7 +9246,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Nat1-1:2:w",
+        "id": "tempora:nat1-1:2:w",
         "link": "missal/tempora/Nat1-1",
         "rank": 2,
         "title": "Feria na Oitavária do Natal",
@@ -9259,7 +9259,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Nat1-1:2:w",
+        "id": "tempora:nat1-1:2:w",
         "link": "missal/tempora/Nat1-1",
         "rank": 2,
         "title": "Feria na Oitavária do Natal",
@@ -9281,7 +9281,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:Nat1-1:2:w",
+        "id": "tempora:nat1-1:2:w",
         "link": "missal/tempora/Nat1-1",
         "rank": 2,
         "title": "Feria na Oitavária do Natal",

@@ -9,8 +9,12 @@ import {
   NATIVITY_OCTAVE_SUNDAY,
   POST_EPIPHANY,
   SANCTI,
+  SANCTI_01_01,
   SANCTI_10_DUr,
+  TEMPORA_EPI1_0,
+  TEMPORA_EPI1_0A,
   TEMPORA_NAT2_0,
+  TEMPORA_PENT01_0,
   WEEK_24_AFTER_PENTECOST,
 } from "./constants.ts";
 import { rules } from "./rules.ts";
@@ -24,6 +28,7 @@ import {
   getMonth,
   getYear,
   isSameDay,
+  isSameYear,
   isSunday,
   nextSunday,
   nextWednesday,
@@ -56,6 +61,7 @@ class Calendar {
     this.fillInTemporaDays();
     this.fillInSanctiDays();
     this.resolveConcurrency();
+    this.inferObservances();
   }
 
   private fillInTemporaDays() {
@@ -372,6 +378,66 @@ class Calendar {
       d = addDays(d, 1);
     }
     return null;
+  }
+
+  private inferObservance(dateStr: string): Observance {
+    let date = new UTCDate(dateStr);
+
+    // No proper for this day, get one from the latest Sunday
+    if (!isSunday(date)) {
+      if (isSameYear(date, new Date(dateStr))) {
+        date = previousSunday(date);
+      }
+    }
+
+    // No proper for this day, get from Epiphany
+    if (isSameDay(date, new UTCDate(getYear(new Date(dateStr)), 0, 6))) {
+      date = new UTCDate(getYear(new Date(dateStr)), 0, 6);
+    }
+
+    // if previous Sunday is in the previous calendar year
+    // grab the proper from the Circumcision
+    if (!isSameYear(date, new Date(dateStr))) {
+      date = new UTCDate(getYear(new Date(dateStr)), 0, 1);
+    }
+
+    const day = this.container.get(yyyyMMDD(date));
+
+    if (day?.celebration.length) {
+      // Handling exceptions
+      if (day?.celebration[0].id === TEMPORA_EPI1_0) {
+        // "Feast of the Holy Family" replaces "First Sunday after Epiphany"; use the latter in
+        // following days without the own proper
+        return new Observance(TEMPORA_EPI1_0A, yyyyMMDD(date));
+      }
+
+      if (day?.celebration[0].id === TEMPORA_PENT01_0) {
+        // "Trinity Sunday" replaces "1st Sunday after Pentecost"; use the latter in
+        // following days without the own proper
+        return new Observance(TEMPORA_PENT01_0, yyyyMMDD(date));
+      }
+
+      if (day?.celebration[0].id === TEMPORA_NAT2_0) {
+        // When the last Sunday is the feast of Holy Name, use proper from Octave of the Nativity
+        return new Observance(SANCTI_01_01, yyyyMMDD(date));
+      }
+      return day?.celebration[0];
+    }
+
+    if (day.tempora?.length) {
+      return day.tempora[0];
+    }
+
+    return day?.celebration[0];
+  }
+
+  private inferObservances(): void {
+    for (const date of this.container.keys()) {
+      const day = this.container.get(date);
+      if (!day.celebration.length) {
+        day.celebration = [this.inferObservance(date)];
+      }
+    }
   }
 
   get(date: string) {
