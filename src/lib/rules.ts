@@ -44,7 +44,7 @@ import {
   TEMPORA_QUAD6_3,
   TYPE_SANCTI,
 } from "./constants.ts";
-import { Observance } from "./observance.ts";
+import { Observance } from "./day.ts";
 import { match, yyyyMMDD } from "./utils.ts";
 
 // Nativity Vigil takes place of 4th Advent Sunday.

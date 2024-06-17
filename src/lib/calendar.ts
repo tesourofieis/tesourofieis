@@ -1,4 +1,4 @@
-import { Day } from "./day.ts";
+import { Day, Observance } from "./day.ts";
 import { yyyyMMDD } from "./utils.ts";
 
 import {
@@ -13,7 +13,6 @@ import {
   TEMPORA_NAT2_0,
   WEEK_24_AFTER_PENTECOST,
 } from "./constants.ts";
-import { Observance } from "./observance.ts";
 import { rules } from "./rules.ts";
 
 import { UTCDate } from "@date-fns/utc";
