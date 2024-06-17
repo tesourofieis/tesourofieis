@@ -11,7 +11,6 @@ test("Anunciação de Nossa Senhora 2024", () => {
         id: "sancti:03-25:1:w",
         rank: 1,
         title: "Anunciação de Nossa Senhora",
-        link: "",
       },
     ],
     commemoration: [],

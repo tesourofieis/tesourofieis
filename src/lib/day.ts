@@ -1,3 +1,4 @@
+import { UTCDate } from "@date-fns/utc";
 import { getDate, getDay, getMonth } from "date-fns";
 import {
   COMMUNE_C_10A,
@@ -5,11 +6,39 @@ import {
   COMMUNE_C_10C,
   COMMUNE_C_10PASC,
   COMMUNE_C_10T,
+  LANGUAGE,
+  PATTERN_POST_EPIPHANY_SUNDAY,
   TABLE_OF_PRECEDENCE,
+  TEMPORA_PENT23_0,
   TEMPORA_RANK_MAP,
-  TITLES,
   TYPE_TEMPORA,
+  getTranslation,
 } from "./constants.ts";
+import {
+  getYear,
+  isSameDay,
+  isSameYear,
+  isSunday,
+  previousSunday,
+} from "date-fns";
+import type { Calendar } from "./calendar.ts";
+import {
+  CUSTOM_INTER_READING_SECTIONS,
+  FERIA,
+  GRADUALE,
+  GRADUALE_PASCHAL,
+  PATTERN_EASTER,
+  PATTERN_LENT,
+  PATTERN_PRE_LENTEN,
+  PREFATIO_COMMUNIS,
+  SANCTI_01_01,
+  TEMPORA_EPI1_0,
+  TEMPORA_EPI1_0A,
+  TEMPORA_NAT2_0,
+  TEMPORA_PENT01_0,
+  TRACTUS,
+} from "./constants.ts";
+import { getCustomPreface, match, yyyyMMDD } from "./utils.ts";
 
 // """ Class used to keep `Observance` objects for particular days of Missal.
 //
@@ -57,7 +86,6 @@ class Observance {
   rank: number;
   colors: string[];
   id: string;
-  link: string;
   title: string;
   priority: number | null;
   weekday: number | null;
@@ -80,8 +108,7 @@ class Observance {
     this.rank = this.calcRank(observanceId, Number.parseInt(rank, 10));
     this.colors = Array.from(color);
     this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
-    this.link = `${this.flexibility}/${this.name}`;
-    this.title = TITLES[observanceId];
+    this.title = getTranslation(LANGUAGE).TITLES[observanceId];
 
     // Determine the weekday attribute based on the type of observance
     if (
