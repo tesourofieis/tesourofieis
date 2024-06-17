@@ -111,17 +111,46 @@ class Observance {
     this.priority = this.calcPriority();
   }
 
-  private getTempora(name: string) {
+  private getTempora(name: string): string {
     if (this.flexibility === "tempora") {
-      if (PATTERN_ADVENT.test(name)) return "advento";
-      if (PATTERN_EASTER.test(name)) return "pascoa";
-      if (PATTERN_POST_EPIPHANY_SUNDAY.test(name)) return "epifania";
-      if (PATTERN_EPIPHANY.test(name)) return "epifania";
-      if (PATTERN_LENT.test(name)) return "quaresma";
-      if (PATTERN_PRE_LENTEN.test(name)) return "pre-quaresma";
-      if (name.includes("Pent")) return "pentecostes";
+      if (name.includes("Nat")) {
+        return "natal";
+      }
+      if (name.includes("Adv")) {
+        return "advento";
+      }
+      if (name.includes("Pasc")) {
+        return "pascoa";
+      }
+      if (name.includes("Epi")) {
+        return "epifania";
+      }
+      if (name.includes("Quadp")) {
+        return "pre-quaresma";
+      }
+      if (name.includes("Quad")) {
+        return "quaresma";
+      }
+      if (name.includes("Pent")) {
+        return "pentecostes";
+      }
     }
-    if (this.flexibility === "santos") return "santos";
+
+    if (this.flexibility === "santos") {
+      console.log(`Matched Santos: ${name}`);
+      return "santos";
+    }
+
+    if (this.flexibility === "commune") {
+      return "comum";
+    }
+
+    if (this.flexibility === "votivas") {
+      return "votivas";
+    }
+
+    console.log(`Checking name: ${name}, flexibility: ${this.flexibility}`);
+    throw Error(`No directory for ${name}, flexibility , ${this.flexibility}`);
   }
 
   private calcRank(observanceId: string, originalRank: number): number {

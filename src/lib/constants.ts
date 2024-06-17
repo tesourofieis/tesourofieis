@@ -157,7 +157,7 @@ export const TEMPORA_QUAD6_0 = "tempora:Quad6-0:1:rv"; // 2nd Passion Sunday (Pa
 export const TEMPORA_QUAD6_1 = "tempora:Quad6-1:1:v";
 export const TEMPORA_QUAD6_2 = "tempora:Quad6-2:1:v";
 export const TEMPORA_QUAD6_3 = "tempora:Quad6-3:1:v";
-export const TEMPORA_QUAD6_4 = "tempora:Quad6-4t:1:w"; // Maundy Thursday
+export const TEMPORA_QUAD6_4 = "tempora:Quad6-4:1:w"; // Maundy Thursday
 export const TEMPORA_QUAD6_5 = "tempora:Quad6-5:1:bv"; // Good Friday
 export const TEMPORA_QUAD6_6 = "tempora:Quad6-6:1:vw"; // Holy Saturday
 
@@ -336,9 +336,12 @@ export const TEMPORA_PENT17_0 = "tempora:Pent17-0:2:g";
 export const TEMPORA_PENT17_1 = "tempora:Pent17-1:4:g";
 export const TEMPORA_PENT17_2 = "tempora:Pent17-2:4:g";
 export const TEMPORA_PENT17_3 = "tempora:Pent17-3:4:g";
+export const TEMPORA_PENT_3 = "tempora:Pent17-3:2:v"; // Ember Wednesday in September
 export const TEMPORA_PENT17_4 = "tempora:Pent17-4:4:g";
 export const TEMPORA_PENT17_5 = "tempora:Pent17-5:4:g";
+export const TEMPORA_PENT_5 = "tempora:Pent17-5:2:v"; // Ember Friday in September
 export const TEMPORA_PENT17_6 = "tempora:Pent17-6:4:g";
+export const TEMPORA_PENT_6 = "tempora:Pent17-6:2:v"; // Ember Saturday in September
 export const TEMPORA_PENT18_0 = "tempora:Pent18-0:2:g";
 export const TEMPORA_PENT18_1 = "tempora:Pent18-1:4:g";
 export const TEMPORA_PENT18_2 = "tempora:Pent18-2:4:g";
@@ -382,10 +385,6 @@ export const TEMPORA_PENT23_4 = "tempora:Pent23-4:4:g";
 export const TEMPORA_PENT23_5 = "tempora:Pent23-5:4:g";
 export const TEMPORA_PENT23_6 = "tempora:Pent23-6:4:g";
 
-export const TEMPORA_PENT_3 = "tempora:093-3:2:v"; // Ember Wednesday in September
-export const TEMPORA_PENT_5 = "tempora:093-5:2:v"; // Ember Friday in September
-export const TEMPORA_PENT_6 = "tempora:093-6:2:v"; // Ember Saturday in September
-
 export const TEMPORA_PENT24_0 = "tempora:Pent24-0:2:g";
 export const TEMPORA_PENT24_1 = "tempora:Pent24-1:4:g";
 export const TEMPORA_PENT24_2 = "tempora:Pent24-2:4:g";
@@ -426,7 +425,7 @@ export const TEMPORA_NAT1_1 = "tempora:Nat1-1:2:w"; // Ordinary day in the Octav
 export const TEMPORA_NAT2_0 = "tempora:Nat2-0:2:w"; // Feast of the Holy Name of Jesus
 
 // SANCTI - days which have fixed date
-export const SANCTI_10_DUr = "santos:10-DU:1:w"; // Feast of Christ the King; last Sunday of October
+export const SANCTI_10_DUr = "santos:10-DUr:1:w"; // Feast of Christ the King; last Sunday of October
 export const SANCTI_01_01 = "santos:01-01:1:w"; // Octave of the Nativity
 export const SANCTI_01_06 = "santos:01-06:1:w"; // Epiphany
 export const SANCTI_01_13 = "santos:01-13:2:w"; // Baptism of the Lord
@@ -591,7 +590,7 @@ export const SANCTI_08_05 = "santos:08-05:3:w";
 export const SANCTI_08_06 = "santos:08-06:2:r"; // Transfiguration
 export const SANCTI_08_07 = "santos:08-07:3:r";
 export const SANCTI_08_08 = "santos:08-08:3:r";
-export const SANCTI_08_09 = "santos:08-09t:3:r"; // Vigil of st. Laurent
+export const SANCTI_08_09 = "santos:08-09:3:r"; // Vigil of st. Laurent
 export const SANCTI_08_10 = "santos:08-10:2:r"; // St. Laurent
 export const SANCTI_08_11 = "santos:08-11:4:r";
 export const SANCTI_08_12 = "santos:08-12:3:w";
