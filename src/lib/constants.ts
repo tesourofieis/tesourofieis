@@ -1,28 +1,3 @@
-export function getTranslation(lang: string) {
-  if (lang === LANGUAGE) {
-    return {
-      TITLES: TITLES_PT,
-      VOTIVE_MASSES: VOTIVE_MASSES_PT,
-      SECTION_LABELS: SECTION_LABELS_PT,
-      SECTION_LABELS_MULTI: SECTION_LABELS_MULTI_PT,
-      PATERNOSTER: PATERNOSTER_PT,
-      TRANSFORMATIONS: TRANSFORMATIONS_PT,
-      COMMEMORATIONS: COMMEMORATIONS_PT,
-      SUPPLEMENTS,
-    };
-  }
-  return {
-    TITLES,
-    VOTIVE_MASSES,
-    SECTION_LABELS,
-    SECTION_LABELS_MULTI,
-    PATERNOSTER,
-    TRANSFORMATIONS,
-    COMMEMORATIONS,
-    SUPPLEMENTS,
-  };
-}
-
 export const THIS_DIR: string = "/src"; // Replace with the actual path
 export const RESOURCES_DIR: string = `${THIS_DIR}/../resources`;
 export const DIVOFF_DIR: string = `${RESOURCES_DIR}/divinum-officium`;
@@ -40,7 +15,7 @@ export const DIVOFF_LANG_MAP: Record<string, string> = {
   ...LANGUAGES,
 };
 export const TYPE_TEMPORA: string = "tempora";
-export const TYPE_SANCTI: string = "sancti";
+export const TYPE_santos: string = "sancti";
 export const PREFATIO_COMMUNIS: string = "Communis";
 export const PREFATIO_TRINITATE: string = "Trinitate";
 export const PREFATIO_PASCHAL: string = "Pasch";
@@ -55,7 +30,7 @@ export const ASTERISK: string = "*";
 
 export const PATTERN_TEMPORA: RegExp = /^tempora:.*/;
 export const PATTERN_SANCTI_CLASS_3_LOCAL = new RegExp(
-  `^sancti:.*(?:${Object.keys(LANGUAGES).join("|")}):3:\\w$`,
+  `^santos:.*(?:${Object.keys(LANGUAGES).join("|")}):3:\\w$`,
 );
 export const PATTERN_ADVENT: RegExp = /^tempora:Adv\d/;
 export const PATTERN_ADVENT_SUNDAY: RegExp = /^tempora:Adv\d-0/;
@@ -82,12 +57,12 @@ export const PATTERN_TEMPORA_CLASS_1: RegExp = /^tempora:.*:1:.*/;
 export const PATTERN_TEMPORA_CLASS_2: RegExp = /^tempora:.*:2:.*/;
 export const PATTERN_TEMPORA_CLASS_3: RegExp = /^tempora:.*:3:.*/;
 export const PATTERN_TEMPORA_CLASS_4: RegExp = /^tempora:.*:4:.*/;
-export const PATTERN_SANCTI: RegExp = /^sancti:.*/;
-export const PATTERN_SANCTI_CLASS_1: RegExp = /^sancti:.*:1:.*/;
-export const PATTERN_SANCTI_CLASS_2: RegExp = /^sancti:.*:2:.*/;
-export const PATTERN_SANCTI_CLASS_3: RegExp = /^sancti:.*:3:.*/;
-export const PATTERN_SANCTI_CLASS_4: RegExp = /^sancti:.*:4:.*/;
-export const PATTERN_SANCTI_CLASS_1_OR_2: RegExp = /^sancti:.*:[12]:.*/;
+export const PATTERN_santos: RegExp = /^santos:.*/;
+export const PATTERN_SANCTI_CLASS_1: RegExp = /^santos:.*:1:.*/;
+export const PATTERN_SANCTI_CLASS_2: RegExp = /^santos:.*:2:.*/;
+export const PATTERN_SANCTI_CLASS_3: RegExp = /^santos:.*:3:.*/;
+export const PATTERN_SANCTI_CLASS_4: RegExp = /^santos:.*:4:.*/;
+export const PATTERN_SANCTI_CLASS_1_OR_2: RegExp = /^santos:.*:[12]:.*/;
 export const PATTERN_CLASS_1: RegExp = /^[a-z]+:.*:1:.*/;
 export const PATTERN_CLASS_2: RegExp = /^[a-z]+:.*:2:.*/;
 export const PATTERN_CLASS_3: RegExp = /^[a-z]+:.*:3:.*/;
@@ -561,311 +536,311 @@ export const TEMPORA_NAT1_1 = "tempora:Nat1-1:2:w"; // Ordinary day in the Octav
 export const TEMPORA_NAT2_0 = "tempora:Nat2-0:2:w"; // Feast of the Holy Name of Jesus
 
 // SANCTI - days which have fixed date
-export const SANCTI_10_DUr = "sancti:10-DUr:1:w"; // Feast of Christ the King; last Sunday of October
-export const SANCTI_01_01 = "sancti:01-01:1:w"; // Octave of the Nativity
-export const SANCTI_01_06 = "sancti:01-06:1:w"; // Epiphany
-export const SANCTI_01_13 = "sancti:01-13:2:w"; // Baptism of the Lord
-export const SANCTI_01_14 = "sancti:01-14:3:w";
-export const SANCTI_01_15 = "sancti:01-15:3:w";
-export const SANCTI_01_16 = "sancti:01-16:3:r";
-export const SANCTI_01_17 = "sancti:01-17:3:w";
-export const SANCTI_01_18 = "sancti:01-18r:4:w";
-export const SANCTI_01_19 = "sancti:01-19:4:r";
-export const SANCTI_01_20 = "sancti:01-20:3:r";
-export const SANCTI_01_21 = "sancti:01-21:3:r";
-export const SANCTI_01_22 = "sancti:01-22:3:r";
-export const SANCTI_01_23 = "sancti:01-23:3:w";
-export const SANCTI_01_24 = "sancti:01-24:3:r";
-export const SANCTI_01_25 = "sancti:01-25r:3:w";
-export const SANCTI_01_26 = "sancti:01-26:3:r";
-export const SANCTI_01_27 = "sancti:01-27:3:w";
-export const SANCTI_01_28 = "sancti:01-28:3:w";
-export const SANCTI_01_29 = "sancti:01-29:3:w";
-export const SANCTI_01_30 = "sancti:01-30:3:r";
-export const SANCTI_01_31 = "sancti:01-31:3:w";
+export const SANCTI_10_DUr = "santos:10-DUr:1:w"; // Feast of Christ the King; last Sunday of October
+export const SANCTI_01_01 = "santos:01-01:1:w"; // Octave of the Nativity
+export const SANCTI_01_06 = "santos:01-06:1:w"; // Epiphany
+export const SANCTI_01_13 = "santos:01-13:2:w"; // Baptism of the Lord
+export const SANCTI_01_14 = "santos:01-14:3:w";
+export const SANCTI_01_15 = "santos:01-15:3:w";
+export const SANCTI_01_16 = "santos:01-16:3:r";
+export const SANCTI_01_17 = "santos:01-17:3:w";
+export const SANCTI_01_18 = "santos:01-18r:4:w";
+export const SANCTI_01_19 = "santos:01-19:4:r";
+export const SANCTI_01_20 = "santos:01-20:3:r";
+export const SANCTI_01_21 = "santos:01-21:3:r";
+export const SANCTI_01_22 = "santos:01-22:3:r";
+export const SANCTI_01_23 = "santos:01-23:3:w";
+export const SANCTI_01_24 = "santos:01-24:3:r";
+export const SANCTI_01_25 = "santos:01-25r:3:w";
+export const SANCTI_01_26 = "santos:01-26:3:r";
+export const SANCTI_01_27 = "santos:01-27:3:w";
+export const SANCTI_01_28 = "santos:01-28:3:w";
+export const SANCTI_01_29 = "santos:01-29:3:w";
+export const SANCTI_01_30 = "santos:01-30:3:r";
+export const SANCTI_01_31 = "santos:01-31:3:w";
 
-export const SANCTI_02_01 = "sancti:02-01:3:r";
-export const SANCTI_02_02 = "sancti:02-02:2:w"; // Feast of the Purification of the Blessed Virgin Mary
-export const SANCTI_02_03 = "sancti:02-03:4:r";
-export const SANCTI_02_04 = "sancti:02-04:3:w";
-export const SANCTI_02_05 = "sancti:02-05:3:r";
-export const SANCTI_02_06 = "sancti:02-06:3:w";
-export const SANCTI_02_07 = "sancti:02-07:3:w";
-export const SANCTI_02_08 = "sancti:02-08:3:w";
-export const SANCTI_02_09 = "sancti:02-09:3:w";
-export const SANCTI_02_10 = "sancti:02-10:3:w";
-export const SANCTI_02_11 = "sancti:02-11:3:w";
-export const SANCTI_02_12 = "sancti:02-12:3:w";
-export const SANCTI_02_14 = "sancti:02-14:4:r";
-export const SANCTI_02_15 = "sancti:02-15:4:r";
-export const SANCTI_02_18 = "sancti:02-18:4:r";
-export const SANCTI_02_22 = "sancti:02-22:2:w"; // Feast of the Chair of Saint Peter
-export const SANCTI_02_23 = "sancti:02-23:3:w";
-export const SANCTI_02_24 = "sancti:02-24:2:r"; // St. Matthias, Apostle
-export const SANCTI_02_27 = "sancti:02-27:3:w";
+export const SANCTI_02_01 = "santos:02-01:3:r";
+export const SANCTI_02_02 = "santos:02-02:2:w"; // Feast of the Purification of the Blessed Virgin Mary
+export const SANCTI_02_03 = "santos:02-03:4:r";
+export const SANCTI_02_04 = "santos:02-04:3:w";
+export const SANCTI_02_05 = "santos:02-05:3:r";
+export const SANCTI_02_06 = "santos:02-06:3:w";
+export const SANCTI_02_07 = "santos:02-07:3:w";
+export const SANCTI_02_08 = "santos:02-08:3:w";
+export const SANCTI_02_09 = "santos:02-09:3:w";
+export const SANCTI_02_10 = "santos:02-10:3:w";
+export const SANCTI_02_11 = "santos:02-11:3:w";
+export const SANCTI_02_12 = "santos:02-12:3:w";
+export const SANCTI_02_14 = "santos:02-14:4:r";
+export const SANCTI_02_15 = "santos:02-15:4:r";
+export const SANCTI_02_18 = "santos:02-18:4:r";
+export const SANCTI_02_22 = "santos:02-22:2:w"; // Feast of the Chair of Saint Peter
+export const SANCTI_02_23 = "santos:02-23:3:w";
+export const SANCTI_02_24 = "santos:02-24:2:r"; // St. Matthias, Apostle
+export const SANCTI_02_27 = "santos:02-27:3:w";
 
-export const SANCTI_03_04 = "sancti:03-04:3:w";
-export const SANCTI_03_06 = "sancti:03-06:3:r";
-export const SANCTI_03_07 = "sancti:03-07:3:w";
-export const SANCTI_03_08 = "sancti:03-08:3:w";
-export const SANCTI_03_08PL = "sancti:03-08pl:3:w";
-export const SANCTI_03_09 = "sancti:03-09:3:w";
-export const SANCTI_03_10 = "sancti:03-10:3:r";
-export const SANCTI_03_12 = "sancti:03-12:3:w";
-export const SANCTI_03_15PL = "sancti:03-15pl:3:w";
-export const SANCTI_03_17 = "sancti:03-17:3:w";
-export const SANCTI_03_17PL = "sancti:03-17pl:3:w";
-export const SANCTI_03_18 = "sancti:03-18:3:w";
-export const SANCTI_03_19 = "sancti:03-19:1:w"; // Saint Joseph's Day
-export const SANCTI_03_21 = "sancti:03-21:3:w";
-export const SANCTI_03_24 = "sancti:03-24:3:w";
-export const SANCTI_03_25 = "sancti:03-25:1:w"; // Annunciation
-export const SANCTI_03_27 = "sancti:03-27:3:w";
-export const SANCTI_03_28 = "sancti:03-28:3:w";
+export const SANCTI_03_04 = "santos:03-04:3:w";
+export const SANCTI_03_06 = "santos:03-06:3:r";
+export const SANCTI_03_07 = "santos:03-07:3:w";
+export const SANCTI_03_08 = "santos:03-08:3:w";
+export const SANCTI_03_08PL = "santos:03-08pl:3:w";
+export const SANCTI_03_09 = "santos:03-09:3:w";
+export const SANCTI_03_10 = "santos:03-10:3:r";
+export const SANCTI_03_12 = "santos:03-12:3:w";
+export const SANCTI_03_15PL = "santos:03-15pl:3:w";
+export const SANCTI_03_17 = "santos:03-17:3:w";
+export const SANCTI_03_17PL = "santos:03-17pl:3:w";
+export const SANCTI_03_18 = "santos:03-18:3:w";
+export const SANCTI_03_19 = "santos:03-19:1:w"; // Saint Joseph's Day
+export const SANCTI_03_21 = "santos:03-21:3:w";
+export const SANCTI_03_24 = "santos:03-24:3:w";
+export const SANCTI_03_25 = "santos:03-25:1:w"; // Annunciation
+export const SANCTI_03_27 = "santos:03-27:3:w";
+export const SANCTI_03_28 = "santos:03-28:3:w";
 
-export const SANCTI_04_02 = "sancti:04-02:3:w";
-export const SANCTI_04_04 = "sancti:04-04:3:w";
-export const SANCTI_04_05 = "sancti:04-05:3:w";
-export const SANCTI_04_11 = "sancti:04-11:3:w";
-export const SANCTI_04_13 = "sancti:04-13:3:r";
-export const SANCTI_04_14 = "sancti:04-14:3:r";
-export const SANCTI_04_17 = "sancti:04-17:4:r";
-export const SANCTI_04_21 = "sancti:04-21:3:w";
-export const SANCTI_04_22 = "sancti:04-22:3:r";
-export const SANCTI_04_23 = "sancti:04-23:4:r";
-export const SANCTI_04_23PL = "sancti:04-23pl:1:r";
-export const SANCTI_04_24 = "sancti:04-24:3:r";
-export const SANCTI_04_25 = "sancti:04-25:2:r"; // St. Mark, Evangelist
-export const SANCTI_04_26 = "sancti:04-26:3:r";
-export const SANCTI_04_27 = "sancti:04-27:3:w";
-export const SANCTI_04_28 = "sancti:04-28:3:w";
-export const SANCTI_04_29 = "sancti:04-29:3:r";
-export const SANCTI_04_30 = "sancti:04-30:3:w";
+export const SANCTI_04_02 = "santos:04-02:3:w";
+export const SANCTI_04_04 = "santos:04-04:3:w";
+export const SANCTI_04_05 = "santos:04-05:3:w";
+export const SANCTI_04_11 = "santos:04-11:3:w";
+export const SANCTI_04_13 = "santos:04-13:3:r";
+export const SANCTI_04_14 = "santos:04-14:3:r";
+export const SANCTI_04_17 = "santos:04-17:4:r";
+export const SANCTI_04_21 = "santos:04-21:3:w";
+export const SANCTI_04_22 = "santos:04-22:3:r";
+export const SANCTI_04_23 = "santos:04-23:4:r";
+export const SANCTI_04_23PL = "santos:04-23pl:1:r";
+export const SANCTI_04_24 = "santos:04-24:3:r";
+export const SANCTI_04_25 = "santos:04-25:2:r"; // St. Mark, Evangelist
+export const SANCTI_04_26 = "santos:04-26:3:r";
+export const SANCTI_04_27 = "santos:04-27:3:w";
+export const SANCTI_04_28 = "santos:04-28:3:w";
+export const SANCTI_04_29 = "santos:04-29:3:r";
+export const SANCTI_04_30 = "santos:04-30:3:w";
 
-export const SANCTI_05_01 = "sancti:05-01:2:r"; // SS. Philip and James, Apostles
-export const SANCTI_05_02 = "sancti:05-02:3:w";
-export const SANCTI_05_03 = "sancti:05-03:2:r";
-export const SANCTI_05_04 = "sancti:05-04:3:w";
-export const SANCTI_05_05 = "sancti:05-05:3:w";
-export const SANCTI_05_06 = "sancti:05-06:3:r";
-export const SANCTI_05_07 = "sancti:05-07:3:r";
-export const SANCTI_05_08 = "sancti:05-08:2:w";
-export const SANCTI_05_09 = "sancti:05-09:3:w";
-export const SANCTI_05_10 = "sancti:05-10:3:w";
-export const SANCTI_05_12 = "sancti:05-12:3:r";
-export const SANCTI_05_13 = "sancti:05-13:3:w";
-export const SANCTI_05_14 = "sancti:05-14:4:r";
-export const SANCTI_05_15 = "sancti:05-15:3:w";
-export const SANCTI_05_16 = "sancti:05-16:4:w";
-export const SANCTI_05_16PL = "sancti:05-16pl:3:w";
-export const SANCTI_05_17 = "sancti:05-17:3:w";
-export const SANCTI_05_18 = "sancti:05-18:3:r";
-export const SANCTI_05_19 = "sancti:05-19:3:w";
-export const SANCTI_05_20 = "sancti:05-20:3:w";
-export const SANCTI_05_24PL = "sancti:05-24pl:2:w";
-export const SANCTI_05_25 = "sancti:05-25:3:w";
-export const SANCTI_05_26 = "sancti:05-26:3:w";
-export const SANCTI_05_27 = "sancti:05-27:3:w";
-export const SANCTI_05_28 = "sancti:05-28:3:w";
-export const SANCTI_05_29 = "sancti:05-29:3:w";
-export const SANCTI_05_30 = "sancti:05-30:4:r";
-export const SANCTI_05_31 = "sancti:05-31:2:w"; // Mary the Queen
+export const SANCTI_05_01 = "santos:05-01:2:r"; // SS. Philip and James, Apostles
+export const SANCTI_05_02 = "santos:05-02:3:w";
+export const SANCTI_05_03 = "santos:05-03:2:r";
+export const SANCTI_05_04 = "santos:05-04:3:w";
+export const SANCTI_05_05 = "santos:05-05:3:w";
+export const SANCTI_05_06 = "santos:05-06:3:r";
+export const SANCTI_05_07 = "santos:05-07:3:r";
+export const SANCTI_05_08 = "santos:05-08:2:w";
+export const SANCTI_05_09 = "santos:05-09:3:w";
+export const SANCTI_05_10 = "santos:05-10:3:w";
+export const SANCTI_05_12 = "santos:05-12:3:r";
+export const SANCTI_05_13 = "santos:05-13:3:w";
+export const SANCTI_05_14 = "santos:05-14:4:r";
+export const SANCTI_05_15 = "santos:05-15:3:w";
+export const SANCTI_05_16 = "santos:05-16:4:w";
+export const SANCTI_05_16PL = "santos:05-16pl:3:w";
+export const SANCTI_05_17 = "santos:05-17:3:w";
+export const SANCTI_05_18 = "santos:05-18:3:r";
+export const SANCTI_05_19 = "santos:05-19:3:w";
+export const SANCTI_05_20 = "santos:05-20:3:w";
+export const SANCTI_05_24PL = "santos:05-24pl:2:w";
+export const SANCTI_05_25 = "santos:05-25:3:w";
+export const SANCTI_05_26 = "santos:05-26:3:w";
+export const SANCTI_05_27 = "santos:05-27:3:w";
+export const SANCTI_05_28 = "santos:05-28:3:w";
+export const SANCTI_05_29 = "santos:05-29:3:w";
+export const SANCTI_05_30 = "santos:05-30:4:r";
+export const SANCTI_05_31 = "santos:05-31:2:w"; // Mary the Queen
 
-export const SANCTI_06_01 = "sancti:06-01:3:w";
-export const SANCTI_06_01PL = "sancti:06-01pl:3:w";
-export const SANCTI_06_02 = "sancti:06-02:4:r";
-export const SANCTI_06_04 = "sancti:06-04:3:w";
-export const SANCTI_06_05 = "sancti:06-05:3:r";
-export const SANCTI_06_06 = "sancti:06-06:3:w";
-export const SANCTI_06_09 = "sancti:06-09:4:r";
-export const SANCTI_06_10 = "sancti:06-10:3:w";
-export const SANCTI_06_10PL = "sancti:06-10pl:3:w";
-export const SANCTI_06_11 = "sancti:06-11:3:r";
-export const SANCTI_06_12 = "sancti:06-12:3:r";
-export const SANCTI_06_13 = "sancti:06-13:3:w";
-export const SANCTI_06_14 = "sancti:06-14:3:w";
-export const SANCTI_06_15 = "sancti:06-15:3:w";
-export const SANCTI_06_17 = "sancti:06-17r:3:w";
-export const SANCTI_06_18 = "sancti:06-18:3:r";
-export const SANCTI_06_19 = "sancti:06-19:3:r";
-export const SANCTI_06_20 = "sancti:06-20:4:r";
-export const SANCTI_06_21 = "sancti:06-21:3:w";
-export const SANCTI_06_22 = "sancti:06-22:3:w";
-export const SANCTI_06_23 = "sancti:06-23:3:v"; // Vigil of st. John Baptist
-export const SANCTI_06_24 = "sancti:06-24:1:w"; // St. John Baptist
-export const SANCTI_06_25 = "sancti:06-25:3:w";
-export const SANCTI_06_26 = "sancti:06-26r:3:r";
-export const SANCTI_06_28 = "sancti:06-28:3:r"; // Irineu
-export const SANCTI_06_29 = "sancti:06-29:1:r"; // Ss. Peter and Paul
-export const SANCTI_06_30 = "sancti:06-30:3:r";
+export const SANCTI_06_01 = "santos:06-01:3:w";
+export const SANCTI_06_01PL = "santos:06-01pl:3:w";
+export const SANCTI_06_02 = "santos:06-02:4:r";
+export const SANCTI_06_04 = "santos:06-04:3:w";
+export const SANCTI_06_05 = "santos:06-05:3:r";
+export const SANCTI_06_06 = "santos:06-06:3:w";
+export const SANCTI_06_09 = "santos:06-09:4:r";
+export const SANCTI_06_10 = "santos:06-10:3:w";
+export const SANCTI_06_10PL = "santos:06-10pl:3:w";
+export const SANCTI_06_11 = "santos:06-11:3:r";
+export const SANCTI_06_12 = "santos:06-12:3:r";
+export const SANCTI_06_13 = "santos:06-13:3:w";
+export const SANCTI_06_14 = "santos:06-14:3:w";
+export const SANCTI_06_15 = "santos:06-15:3:w";
+export const SANCTI_06_17 = "santos:06-17r:3:w";
+export const SANCTI_06_18 = "santos:06-18:3:r";
+export const SANCTI_06_19 = "santos:06-19:3:r";
+export const SANCTI_06_20 = "santos:06-20:4:r";
+export const SANCTI_06_21 = "santos:06-21:3:w";
+export const SANCTI_06_22 = "santos:06-22:3:w";
+export const SANCTI_06_23 = "santos:06-23:3:v"; // Vigil of st. John Baptist
+export const SANCTI_06_24 = "santos:06-24:1:w"; // St. John Baptist
+export const SANCTI_06_25 = "santos:06-25:3:w";
+export const SANCTI_06_26 = "santos:06-26r:3:r";
+export const SANCTI_06_28 = "santos:06-28:3:r"; // Irineu
+export const SANCTI_06_29 = "santos:06-29:1:r"; // Ss. Peter and Paul
+export const SANCTI_06_30 = "santos:06-30:3:r";
 
-export const SANCTI_07_01 = "sancti:07-01:1:r"; // Feast of the Most Precious Blood
-export const SANCTI_07_02 = "sancti:07-02:2:w"; // Feast of the Visitation of the Blessed Virgin Mary
-export const SANCTI_07_03 = "sancti:07-03r:3:r";
-export const SANCTI_07_05 = "sancti:07-05:3:w";
-export const SANCTI_07_07 = "sancti:07-07:3:w";
-export const SANCTI_07_08 = "sancti:07-08:3:w";
-export const SANCTI_07_10 = "sancti:07-10:3:r";
-export const SANCTI_07_11 = "sancti:07-11:4:r";
-export const SANCTI_07_12 = "sancti:07-12:3:r";
-export const SANCTI_07_14 = "sancti:07-14:3:w";
-export const SANCTI_07_15 = "sancti:07-15:3:w";
-export const SANCTI_07_16 = "sancti:07-16:4:w";
-export const SANCTI_07_17 = "sancti:07-17:4:w";
-export const SANCTI_07_18 = "sancti:07-18:3:r";
-export const SANCTI_07_18PL = "sancti:07-18pl:3:r";
-export const SANCTI_07_19 = "sancti:07-19:3:w";
-export const SANCTI_07_20 = "sancti:07-20:3:r";
-export const SANCTI_07_20PL = "sancti:07-20pl:3:r";
-export const SANCTI_07_21 = "sancti:07-21r:3:w";
-export const SANCTI_07_22 = "sancti:07-22:3:w";
-export const SANCTI_07_23 = "sancti:07-23:3:w";
-export const SANCTI_07_24 = "sancti:07-24r:4:r";
-export const SANCTI_07_24PL = "sancti:07-24pl:3:w";
-export const SANCTI_07_25 = "sancti:07-25:2:r"; // St. James, Apostle
-export const SANCTI_07_26 = "sancti:07-26:2:w"; // St. Anna, Mary's Mother
-export const SANCTI_07_27 = "sancti:07-27:4:r";
-export const SANCTI_07_28 = "sancti:07-28:3:r";
-export const SANCTI_07_29 = "sancti:07-29:3:r";
-export const SANCTI_07_30 = "sancti:07-30:4:r";
-export const SANCTI_07_31 = "sancti:07-31:3:w";
+export const SANCTI_07_01 = "santos:07-01:1:r"; // Feast of the Most Precious Blood
+export const SANCTI_07_02 = "santos:07-02:2:w"; // Feast of the Visitation of the Blessed Virgin Mary
+export const SANCTI_07_03 = "santos:07-03r:3:r";
+export const SANCTI_07_05 = "santos:07-05:3:w";
+export const SANCTI_07_07 = "santos:07-07:3:w";
+export const SANCTI_07_08 = "santos:07-08:3:w";
+export const SANCTI_07_10 = "santos:07-10:3:r";
+export const SANCTI_07_11 = "santos:07-11:4:r";
+export const SANCTI_07_12 = "santos:07-12:3:r";
+export const SANCTI_07_14 = "santos:07-14:3:w";
+export const SANCTI_07_15 = "santos:07-15:3:w";
+export const SANCTI_07_16 = "santos:07-16:4:w";
+export const SANCTI_07_17 = "santos:07-17:4:w";
+export const SANCTI_07_18 = "santos:07-18:3:r";
+export const SANCTI_07_18PL = "santos:07-18pl:3:r";
+export const SANCTI_07_19 = "santos:07-19:3:w";
+export const SANCTI_07_20 = "santos:07-20:3:r";
+export const SANCTI_07_20PL = "santos:07-20pl:3:r";
+export const SANCTI_07_21 = "santos:07-21r:3:w";
+export const SANCTI_07_22 = "santos:07-22:3:w";
+export const SANCTI_07_23 = "santos:07-23:3:w";
+export const SANCTI_07_24 = "santos:07-24r:4:r";
+export const SANCTI_07_24PL = "santos:07-24pl:3:w";
+export const SANCTI_07_25 = "santos:07-25:2:r"; // St. James, Apostle
+export const SANCTI_07_26 = "santos:07-26:2:w"; // St. Anna, Mary's Mother
+export const SANCTI_07_27 = "santos:07-27:4:r";
+export const SANCTI_07_28 = "santos:07-28:3:r";
+export const SANCTI_07_29 = "santos:07-29:3:r";
+export const SANCTI_07_30 = "santos:07-30:4:r";
+export const SANCTI_07_31 = "santos:07-31:3:w";
 
-export const SANCTI_08_01 = "sancti:08-01r:4:r";
-export const SANCTI_08_02 = "sancti:08-02:3:r";
-export const SANCTI_08_04 = "sancti:08-04:3:w";
-export const SANCTI_08_05 = "sancti:08-05:3:w";
-export const SANCTI_08_06 = "sancti:08-06:2:r"; // Transfiguration
-export const SANCTI_08_07 = "sancti:08-07:3:r";
-export const SANCTI_08_08 = "sancti:08-08r:3:r";
-export const SANCTI_08_09 = "sancti:08-09t:3:r"; // Vigil of st. Laurent
-export const SANCTI_08_10 = "sancti:08-10:2:r"; // St. Laurent
-export const SANCTI_08_11 = "sancti:08-11:4:r";
-export const SANCTI_08_12 = "sancti:08-12:3:w";
-export const SANCTI_08_13 = "sancti:08-13:4:r";
-export const SANCTI_08_14 = "sancti:08-14:2:w"; // Vigil of Assumption of Mary
-export const SANCTI_08_15 = "sancti:08-15r:1:w"; // Assumption of Mary
-export const SANCTI_08_16 = "sancti:08-16:2:w"; // St. Joachim
-export const SANCTI_08_17 = "sancti:08-17:3:w";
-export const SANCTI_08_18 = "sancti:08-18r:4:w";
-export const SANCTI_08_19 = "sancti:08-19:3:w";
-export const SANCTI_08_20 = "sancti:08-20:3:w";
-export const SANCTI_08_21 = "sancti:08-21:3:w";
-export const SANCTI_08_22 = "sancti:08-22r:2:w"; // Immaculate Heart of Mary
-export const SANCTI_08_23 = "sancti:08-23:3:w";
-export const SANCTI_08_24 = "sancti:08-24:2:r"; // St. Bartholomew, Apostle
-export const SANCTI_08_25 = "sancti:08-25:3:w";
-export const SANCTI_08_26 = "sancti:08-26:4:r";
-export const SANCTI_08_26PL = "sancti:08-26pl:1:w";
-export const SANCTI_08_27 = "sancti:08-27:3:w";
-export const SANCTI_08_28 = "sancti:08-28:3:r";
-export const SANCTI_08_29 = "sancti:08-29:3:r";
-export const SANCTI_08_30 = "sancti:08-30:3:r";
-export const SANCTI_08_31 = "sancti:08-31:3:w";
+export const SANCTI_08_01 = "santos:08-01r:4:r";
+export const SANCTI_08_02 = "santos:08-02:3:r";
+export const SANCTI_08_04 = "santos:08-04:3:w";
+export const SANCTI_08_05 = "santos:08-05:3:w";
+export const SANCTI_08_06 = "santos:08-06:2:r"; // Transfiguration
+export const SANCTI_08_07 = "santos:08-07:3:r";
+export const SANCTI_08_08 = "santos:08-08r:3:r";
+export const SANCTI_08_09 = "santos:08-09t:3:r"; // Vigil of st. Laurent
+export const SANCTI_08_10 = "santos:08-10:2:r"; // St. Laurent
+export const SANCTI_08_11 = "santos:08-11:4:r";
+export const SANCTI_08_12 = "santos:08-12:3:w";
+export const SANCTI_08_13 = "santos:08-13:4:r";
+export const SANCTI_08_14 = "santos:08-14:2:w"; // Vigil of Assumption of Mary
+export const SANCTI_08_15 = "santos:08-15r:1:w"; // Assumption of Mary
+export const SANCTI_08_16 = "santos:08-16:2:w"; // St. Joachim
+export const SANCTI_08_17 = "santos:08-17:3:w";
+export const SANCTI_08_18 = "santos:08-18r:4:w";
+export const SANCTI_08_19 = "santos:08-19:3:w";
+export const SANCTI_08_20 = "santos:08-20:3:w";
+export const SANCTI_08_21 = "santos:08-21:3:w";
+export const SANCTI_08_22 = "santos:08-22r:2:w"; // Immaculate Heart of Mary
+export const SANCTI_08_23 = "santos:08-23:3:w";
+export const SANCTI_08_24 = "santos:08-24:2:r"; // St. Bartholomew, Apostle
+export const SANCTI_08_25 = "santos:08-25:3:w";
+export const SANCTI_08_26 = "santos:08-26:4:r";
+export const SANCTI_08_26PL = "santos:08-26pl:1:w";
+export const SANCTI_08_27 = "santos:08-27:3:w";
+export const SANCTI_08_28 = "santos:08-28:3:r";
+export const SANCTI_08_29 = "santos:08-29:3:r";
+export const SANCTI_08_30 = "santos:08-30:3:r";
+export const SANCTI_08_31 = "santos:08-31:3:w";
 
-export const SANCTI_09_01 = "sancti:09-01:4:w";
-export const SANCTI_09_01PL = "sancti:09-01pl:3:w";
-export const SANCTI_09_02 = "sancti:09-02:3:w";
-export const SANCTI_09_03 = "sancti:09-03r:3:w";
-export const SANCTI_09_05 = "sancti:09-05:3:w";
-export const SANCTI_09_07PL = "sancti:09-07pl:3:r";
-export const SANCTI_09_08 = "sancti:09-08:2:w"; // Nativity of Mary
-export const SANCTI_09_09 = "sancti:09-09:4:r";
-export const SANCTI_09_10 = "sancti:09-10:3:w";
-export const SANCTI_09_11 = "sancti:09-11:4:r";
-export const SANCTI_09_12 = "sancti:09-12:3:w";
-export const SANCTI_09_14 = "sancti:09-14:2:r"; // Exaltation of the Cross
-export const SANCTI_09_15 = "sancti:09-15:2:w"; // The Seven Dolors of the Blessed Virgin Mary
-export const SANCTI_09_16 = "sancti:09-16:3:w";
-export const SANCTI_09_17 = "sancti:09-17:4:w";
-export const SANCTI_09_18 = "sancti:09-18r:3:w";
-export const SANCTI_09_19 = "sancti:09-19:3:r";
-export const SANCTI_09_20 = "sancti:09-20:4:r";
-export const SANCTI_09_21 = "sancti:09-21:2:r"; // St. Matthew, Apostle and Evangelist
-export const SANCTI_09_22 = "sancti:09-22:3:w";
-export const SANCTI_09_23 = "sancti:09-23:3:r";
-export const SANCTI_09_24 = "sancti:09-24:4:w";
-export const SANCTI_09_25PL = "sancti:09-25pl:3:w";
-export const SANCTI_09_26 = "sancti:09-26:4:r";
-export const SANCTI_09_27 = "sancti:09-27:3:r";
-export const SANCTI_09_28 = "sancti:09-28:3:r";
-export const SANCTI_09_29 = "sancti:09-29:1:w"; // St. Michael the Archangel
-export const SANCTI_09_30 = "sancti:09-30r:3:w";
+export const SANCTI_09_01 = "santos:09-01:4:w";
+export const SANCTI_09_01PL = "santos:09-01pl:3:w";
+export const SANCTI_09_02 = "santos:09-02:3:w";
+export const SANCTI_09_03 = "santos:09-03r:3:w";
+export const SANCTI_09_05 = "santos:09-05:3:w";
+export const SANCTI_09_07PL = "santos:09-07pl:3:r";
+export const SANCTI_09_08 = "santos:09-08:2:w"; // Nativity of Mary
+export const SANCTI_09_09 = "santos:09-09:4:r";
+export const SANCTI_09_10 = "santos:09-10:3:w";
+export const SANCTI_09_11 = "santos:09-11:4:r";
+export const SANCTI_09_12 = "santos:09-12:3:w";
+export const SANCTI_09_14 = "santos:09-14:2:r"; // Exaltation of the Cross
+export const SANCTI_09_15 = "santos:09-15:2:w"; // The Seven Dolors of the Blessed Virgin Mary
+export const SANCTI_09_16 = "santos:09-16:3:w";
+export const SANCTI_09_17 = "santos:09-17:4:w";
+export const SANCTI_09_18 = "santos:09-18r:3:w";
+export const SANCTI_09_19 = "santos:09-19:3:r";
+export const SANCTI_09_20 = "santos:09-20:4:r";
+export const SANCTI_09_21 = "santos:09-21:2:r"; // St. Matthew, Apostle and Evangelist
+export const SANCTI_09_22 = "santos:09-22:3:w";
+export const SANCTI_09_23 = "santos:09-23:3:r";
+export const SANCTI_09_24 = "santos:09-24:4:w";
+export const SANCTI_09_25PL = "santos:09-25pl:3:w";
+export const SANCTI_09_26 = "santos:09-26:4:r";
+export const SANCTI_09_27 = "santos:09-27:3:r";
+export const SANCTI_09_28 = "santos:09-28:3:r";
+export const SANCTI_09_29 = "santos:09-29:1:w"; // St. Michael the Archangel
+export const SANCTI_09_30 = "santos:09-30r:3:w";
 
-export const SANCTI_10_01 = "sancti:10-01:4:w";
-export const SANCTI_10_01PL = "sancti:10-01pl:3:w";
-export const SANCTI_10_02 = "sancti:10-02:3:w";
-export const SANCTI_10_03 = "sancti:10-03:3:w";
-export const SANCTI_10_04 = "sancti:10-04:3:w";
-export const SANCTI_10_05 = "sancti:10-05:4:r";
-export const SANCTI_10_06 = "sancti:10-06:3:w";
-export const SANCTI_10_07 = "sancti:10-07r:2:w"; // Our Lady of the Rosary
-export const SANCTI_10_08 = "sancti:10-08r:3:w";
-export const SANCTI_10_09 = "sancti:10-09:3:w";
-export const SANCTI_10_10 = "sancti:10-10:3:w";
-export const SANCTI_10_11 = "sancti:10-11:2:w"; // Maternity of the Blessed Virgin Mary
-export const SANCTI_10_13 = "sancti:10-13:3:w";
-export const SANCTI_10_14 = "sancti:10-14:3:r";
-export const SANCTI_10_15 = "sancti:10-15:3:w";
-export const SANCTI_10_16 = "sancti:10-16:3:w";
-export const SANCTI_10_17 = "sancti:10-17:3:w";
-export const SANCTI_10_18 = "sancti:10-18:2:r"; // St. Luke, Evangelist
-export const SANCTI_10_19 = "sancti:10-19:3:w";
-export const SANCTI_10_20 = "sancti:10-20:3:w";
-export const SANCTI_10_21 = "sancti:10-21:4:w";
-export const SANCTI_10_23 = "sancti:10-23r:3:w";
-export const SANCTI_10_24 = "sancti:10-24:3:w";
-export const SANCTI_10_25 = "sancti:10-25:4:r";
-export const SANCTI_10_28 = "sancti:10-28:2:r"; // SS. Simon and Jude, Apostles
+export const SANCTI_10_01 = "santos:10-01:4:w";
+export const SANCTI_10_01PL = "santos:10-01pl:3:w";
+export const SANCTI_10_02 = "santos:10-02:3:w";
+export const SANCTI_10_03 = "santos:10-03:3:w";
+export const SANCTI_10_04 = "santos:10-04:3:w";
+export const SANCTI_10_05 = "santos:10-05:4:r";
+export const SANCTI_10_06 = "santos:10-06:3:w";
+export const SANCTI_10_07 = "santos:10-07r:2:w"; // Our Lady of the Rosary
+export const SANCTI_10_08 = "santos:10-08r:3:w";
+export const SANCTI_10_09 = "santos:10-09:3:w";
+export const SANCTI_10_10 = "santos:10-10:3:w";
+export const SANCTI_10_11 = "santos:10-11:2:w"; // Maternity of the Blessed Virgin Mary
+export const SANCTI_10_13 = "santos:10-13:3:w";
+export const SANCTI_10_14 = "santos:10-14:3:r";
+export const SANCTI_10_15 = "santos:10-15:3:w";
+export const SANCTI_10_16 = "santos:10-16:3:w";
+export const SANCTI_10_17 = "santos:10-17:3:w";
+export const SANCTI_10_18 = "santos:10-18:2:r"; // St. Luke, Evangelist
+export const SANCTI_10_19 = "santos:10-19:3:w";
+export const SANCTI_10_20 = "santos:10-20:3:w";
+export const SANCTI_10_21 = "santos:10-21:4:w";
+export const SANCTI_10_23 = "santos:10-23r:3:w";
+export const SANCTI_10_24 = "santos:10-24:3:w";
+export const SANCTI_10_25 = "santos:10-25:4:r";
+export const SANCTI_10_28 = "santos:10-28:2:r"; // SS. Simon and Jude, Apostles
 
-export const SANCTI_11_01 = "sancti:11-01:1:w"; // All Saints
-export const SANCTI_11_02_1 = "sancti:11-02m1:1:b"; // All Souls' Day
-export const SANCTI_11_02_2 = "sancti:11-02m2:1:b";
-export const SANCTI_11_02_3 = "sancti:11-02m3:1:b";
-export const SANCTI_11_04 = "sancti:11-04r:3:w";
-export const SANCTI_11_08 = "sancti:11-08r:4:r";
-export const SANCTI_11_09 = "sancti:11-09:2:w"; // Dedication of the Lateran Basilica in Rome
-export const SANCTI_11_10 = "sancti:11-10:3:w";
-export const SANCTI_11_11 = "sancti:11-11:3:w";
-export const SANCTI_11_12 = "sancti:11-12:3:r";
-export const SANCTI_11_13 = "sancti:11-13:4:w";
-export const SANCTI_11_13PL = "sancti:11-13pl:2:w";
-export const SANCTI_11_14 = "sancti:11-14:3:w";
-export const SANCTI_11_15 = "sancti:11-15:3:w";
-export const SANCTI_11_16 = "sancti:11-16:3:w";
-export const SANCTI_11_17 = "sancti:11-17:3:w";
-export const SANCTI_11_18 = "sancti:11-18r:3:w";
-export const SANCTI_11_19 = "sancti:11-19:3:w";
-export const SANCTI_11_20 = "sancti:11-20:3:w";
-export const SANCTI_11_21 = "sancti:11-21:3:w";
-export const SANCTI_11_22 = "sancti:11-22:3:r";
-export const SANCTI_11_23 = "sancti:11-23:3:r";
-export const SANCTI_11_24 = "sancti:11-24:3:w";
-export const SANCTI_11_25 = "sancti:11-25:3:r";
-export const SANCTI_11_26 = "sancti:11-26:3:w";
-export const SANCTI_11_29 = "sancti:11-29r:4:r";
-export const SANCTI_11_30 = "sancti:11-30:2:r"; // St. Andrew, Apostle
+export const SANCTI_11_01 = "santos:11-01:1:w"; // All Saints
+export const SANCTI_11_02_1 = "santos:11-02m1:1:b"; // All Souls' Day
+export const SANCTI_11_02_2 = "santos:11-02m2:1:b";
+export const SANCTI_11_02_3 = "santos:11-02m3:1:b";
+export const SANCTI_11_04 = "santos:11-04r:3:w";
+export const SANCTI_11_08 = "santos:11-08r:4:r";
+export const SANCTI_11_09 = "santos:11-09:2:w"; // Dedication of the Lateran Basilica in Rome
+export const SANCTI_11_10 = "santos:11-10:3:w";
+export const SANCTI_11_11 = "santos:11-11:3:w";
+export const SANCTI_11_12 = "santos:11-12:3:r";
+export const SANCTI_11_13 = "santos:11-13:4:w";
+export const SANCTI_11_13PL = "santos:11-13pl:2:w";
+export const SANCTI_11_14 = "santos:11-14:3:w";
+export const SANCTI_11_15 = "santos:11-15:3:w";
+export const SANCTI_11_16 = "santos:11-16:3:w";
+export const SANCTI_11_17 = "santos:11-17:3:w";
+export const SANCTI_11_18 = "santos:11-18r:3:w";
+export const SANCTI_11_19 = "santos:11-19:3:w";
+export const SANCTI_11_20 = "santos:11-20:3:w";
+export const SANCTI_11_21 = "santos:11-21:3:w";
+export const SANCTI_11_22 = "santos:11-22:3:r";
+export const SANCTI_11_23 = "santos:11-23:3:r";
+export const SANCTI_11_24 = "santos:11-24:3:w";
+export const SANCTI_11_25 = "santos:11-25:3:r";
+export const SANCTI_11_26 = "santos:11-26:3:w";
+export const SANCTI_11_29 = "santos:11-29r:4:r";
+export const SANCTI_11_30 = "santos:11-30:2:r"; // St. Andrew, Apostle
 
-export const SANCTI_12_02 = "sancti:12-02:3:r";
-export const SANCTI_12_03 = "sancti:12-03:3:w";
-export const SANCTI_12_04 = "sancti:12-04:3:w";
-export const SANCTI_12_05 = "sancti:12-05:4:w";
-export const SANCTI_12_06 = "sancti:12-06:3:w";
-export const SANCTI_12_07 = "sancti:12-07:3:w";
-export const SANCTI_12_08 = "sancti:12-08:1:w"; // Immaculate Conception of the Blessed Virgin Mary
-export const SANCTI_12_10 = "sancti:12-10:4:r";
-export const SANCTI_12_11 = "sancti:12-11:3:w";
-export const SANCTI_12_13 = "sancti:12-13r:3:r";
-export const SANCTI_12_16 = "sancti:12-16:3:r";
-export const SANCTI_12_21 = "sancti:12-21:2:r"; // St. Thomas, Apostle
-export const SANCTI_12_24 = "sancti:12-24:1:v"; // Vigil of the Nativity of the Lord
-export const SANCTI_12_25_1 = "sancti:12-25m1:1:w"; // Nativity of the Lord
-export const SANCTI_12_25_2 = "sancti:12-25m2:1:w";
-export const SANCTI_12_25_3 = "sancti:12-25m3:1:w";
-export const SANCTI_12_26 = "sancti:12-26:2:r"; // St. Stephen, Protomartyr
-export const SANCTI_12_27 = "sancti:12-27:2:w"; // St. John, Apostle and Evangelist
-export const SANCTI_12_28 = "sancti:12-28:2:r"; // Holy Innocents
-export const SANCTI_12_29 = "sancti:12-29r:4:r";
-export const SANCTI_12_31 = "sancti:12-31r:4:w";
+export const SANCTI_12_02 = "santos:12-02:3:r";
+export const SANCTI_12_03 = "santos:12-03:3:w";
+export const SANCTI_12_04 = "santos:12-04:3:w";
+export const SANCTI_12_05 = "santos:12-05:4:w";
+export const SANCTI_12_06 = "santos:12-06:3:w";
+export const SANCTI_12_07 = "santos:12-07:3:w";
+export const SANCTI_12_08 = "santos:12-08:1:w"; // Immaculate Conception of the Blessed Virgin Mary
+export const SANCTI_12_10 = "santos:12-10:4:r";
+export const SANCTI_12_11 = "santos:12-11:3:w";
+export const SANCTI_12_13 = "santos:12-13r:3:r";
+export const SANCTI_12_16 = "santos:12-16:3:r";
+export const SANCTI_12_21 = "santos:12-21:2:r"; // St. Thomas, Apostle
+export const SANCTI_12_24 = "santos:12-24:1:v"; // Vigil of the Nativity of the Lord
+export const SANCTI_12_25_1 = "santos:12-25m1:1:w"; // Nativity of the Lord
+export const SANCTI_12_25_2 = "santos:12-25m2:1:w";
+export const SANCTI_12_25_3 = "santos:12-25m3:1:w";
+export const SANCTI_12_26 = "santos:12-26:2:r"; // St. Stephen, Protomartyr
+export const SANCTI_12_27 = "santos:12-27:2:w"; // St. John, Apostle and Evangelist
+export const SANCTI_12_28 = "santos:12-28:2:r"; // Holy Innocents
+export const SANCTI_12_29 = "santos:12-29r:4:r";
+export const SANCTI_12_31 = "santos:12-31r:4:w";
 
 // COMMUNE / VOTIVE
 //
@@ -1049,836 +1024,6 @@ export const REFERENCE_REGEX: RegExp = /^@([\w/\-]*):?([^:]*)[: ]*(.*)/;
 export const SECTION_REGEX: RegExp = /^SECTION *(.*)/;
 export const SUB_SECTION_REGEX: RegExp = /^SUBSECTION *(.*)/;
 export const SECTION_VERSE: RegExp = /^! *(.*)/;
-
-export const TITLES: Record<string, string> = {
-  [TEMPORA_EPI1_0]: "Sanctæ Familiæ Jesu Mariæ Joseph",
-  [TEMPORA_EPI1_1]: "Feria II infra Hebd I post Epiphaniam",
-  [TEMPORA_EPI1_2]: "Feria III infra Hebd I post Epiphaniam",
-  [TEMPORA_EPI1_3]: "Feria IV infra Hebd I post Epiphaniam",
-  [TEMPORA_EPI1_4]: "Feria V infra Hebd I post Epiphaniam",
-  [TEMPORA_EPI1_5]: "Feria VI infra Hebd I post Epiphaniam",
-  [TEMPORA_EPI1_6]: "Sabbato infra Hebd I post Epiphaniam",
-  [TEMPORA_EPI2_0]: "Dominica II post Epiphaniam",
-  [TEMPORA_EPI2_1]: "Feria II infra Hebd II post Epiphaniam",
-  [TEMPORA_EPI2_2]: "Feria III infra Hebd II post Epiphaniam",
-  [TEMPORA_EPI2_3]: "Feria IV infra Hebd II post Epiphaniam",
-  [TEMPORA_EPI2_4]: "Feria V infra Hebd II post Epiphaniam",
-  [TEMPORA_EPI2_5]: "Feria VI infra Hebd II post Epiphaniam",
-  [TEMPORA_EPI2_6]: "Sabbato infra Hebd II post Epiphaniam",
-  [TEMPORA_EPI3_0]: "Dominica III post Epiphaniam",
-  [TEMPORA_EPI3_1]: "Feria II infra Hebd III post Epiphaniam",
-  [TEMPORA_EPI3_2]: "Feria III infra Hebd III post Epiphaniam",
-  [TEMPORA_EPI3_3]: "Feria IV infra Hebd III post Epiphaniam",
-  [TEMPORA_EPI3_4]: "Feria V infra Hebd III post Epiphaniam",
-  [TEMPORA_EPI3_5]: "Feria VI infra Hebd III post Epiphaniam",
-  [TEMPORA_EPI3_6]: "Sabbato infra Hebd III post Epiphaniam",
-  [TEMPORA_EPI4_0]: "Dominica IV post Epiphaniam",
-  [TEMPORA_EPI4_1]: "Feria II infra Hebd IV post Epiphaniam",
-  [TEMPORA_EPI4_2]: "Feria III infra Hebd IV post Epiphaniam",
-  [TEMPORA_EPI4_3]: "Feria IV infra Hebd IV post Epiphaniam",
-  [TEMPORA_EPI4_4]: "Feria V infra Hebd IV post Epiphaniam",
-  [TEMPORA_EPI4_5]: "Feria VI infra Hebd IV post Epiphaniam",
-  [TEMPORA_EPI4_6]: "Sabbato infra Hebd IV post Epiphaniam",
-  [TEMPORA_EPI5_0]: "Dominica V post Epiphaniam",
-  [TEMPORA_EPI5_1]: "Feria II infra Hebd V post Epiphaniam",
-  [TEMPORA_EPI5_2]: "Feria III infra Hebd V post Epiphaniam",
-  [TEMPORA_EPI5_3]: "Feria IV infra Hebd V post Epiphaniam",
-  [TEMPORA_EPI5_4]: "Feria V infra Hebd V post Epiphaniam",
-  [TEMPORA_EPI5_5]: "Feria VI infra Hebd V post Epiphaniam",
-  [TEMPORA_EPI5_6]: "Sabbato infra Hebd V post Epiphaniam",
-  [TEMPORA_EPI6_0]: "Dominica VI post Epiphaniam",
-  [TEMPORA_EPI6_1]: "Feria II infra Hebd VI post Epiphaniam",
-  [TEMPORA_EPI6_2]: "Feria III infra Hebd VI post Epiphaniam",
-  [TEMPORA_EPI6_3]: "Feria IV infra Hebd VI post Epiphaniam",
-  [TEMPORA_EPI6_4]: "Feria V infra Hebd VI post Epiphaniam",
-  [TEMPORA_EPI6_5]: "Feria VI infra Hebd VI post Epiphaniam",
-  [TEMPORA_EPI6_6]: "Sabbato infra Hebd VI post Epiphaniam",
-  [TEMPORA_QUADP1_0]: "Dominica in Septuagesima",
-  [TEMPORA_QUADP1_1]: "Feria II infra Hebd Septuagesimæ",
-  [TEMPORA_QUADP1_2]: "Feria III infra Hebd Septuagesimæ",
-  [TEMPORA_QUADP1_3]: "Feria IV infra Hebd Septuagesimæ",
-  [TEMPORA_QUADP1_4]: "Feria V infra Hebd Septuagesimæ",
-  [TEMPORA_QUADP1_5]: "Feria VI infra Hebd Septuagesimæ",
-  [TEMPORA_QUADP1_6]: "Sabbato infra Hebd Septuagesimæ",
-  [TEMPORA_QUADP2_0]: "Dominica in Sexagesima",
-  [TEMPORA_QUADP2_1]: "Feria II infra Hebd Sexagesimæ",
-  [TEMPORA_QUADP2_2]: "Feria III infra Hebd Sexagesimæ",
-  [TEMPORA_QUADP2_3]: "Feria IV infra Hebd Sexagesimæ",
-  [TEMPORA_QUADP2_4]: "Feria V infra Hebd Sexagesimæ",
-  [TEMPORA_QUADP2_5]: "Feria VI infra Hebd Sexagesimæ",
-  [TEMPORA_QUADP2_6]: "Sabbato infra Hebd Sexagesimæ",
-  [TEMPORA_QUADP3_0]: "Dominica in Quinquagesima",
-  [TEMPORA_QUADP3_1]: "Feria II infra Hebd Quinquagesimæ",
-  [TEMPORA_QUADP3_2]: "Feria III infra Hebd Quinquagesimæ",
-  [TEMPORA_QUADP3_3]: "Feria IV Cinerum",
-  [TEMPORA_QUADP3_4]: "Feria V post Cineres",
-  [TEMPORA_QUADP3_5]: "Feria VI post Cineres",
-  [TEMPORA_QUADP3_6]: "Sabbato post Cineres",
-  [TEMPORA_QUAD1_0]: "Dominica I in Quadragesimæ",
-  [TEMPORA_QUAD1_1]: "Feria II infra Hebd I Quadragesimæ",
-  [TEMPORA_QUAD1_2]: "Feria III infra Hebd I Quadragesimæ",
-  [TEMPORA_QUAD1_3]: "Feria IV Quatuor Temporum Quadragesimæ",
-  [TEMPORA_QUAD1_4]: "Feria V infra Hebd I Quadragesimæ",
-  [TEMPORA_QUAD1_5]: "Feria VI Quattuor Temporum Quadragesimæ",
-  [TEMPORA_QUAD1_6]: "Sabbato Quattuor Temporum Quadragesimæ",
-  [TEMPORA_QUAD2_0]: "Dominica II in Quadragesimæ",
-  [TEMPORA_QUAD2_1]: "Feria II infra Hebd II Quadragesimæ",
-  [TEMPORA_QUAD2_2]: "Feria III infra Hebd II Quadragesimæ",
-  [TEMPORA_QUAD2_3]: "Feria IV infra Hebd II Quadragesimæ",
-  [TEMPORA_QUAD2_4]: "Feria V infra Hebd II Quadragesimæ",
-  [TEMPORA_QUAD2_5]: "Feria VI infra Hebd II Quadragesimæ",
-  [TEMPORA_QUAD2_6]: "Sabbato infra Hebd II Quadragesimæ",
-  [TEMPORA_QUAD3_0]: "Dominica III in Quadragesimæ",
-  [TEMPORA_QUAD3_1]: "Feria II infra Hebd III Quadragesimæ",
-  [TEMPORA_QUAD3_2]: "Feria III infra Hebd III Quadragesimæ",
-  [TEMPORA_QUAD3_3]: "Feria IV infra Hebd III Quadragesimæ",
-  [TEMPORA_QUAD3_4]: "Feria V infra Hebd III Quadragesimæ",
-  [TEMPORA_QUAD3_5]: "Feria VI infra Hebd III Quadragesimæ",
-  [TEMPORA_QUAD3_6]: "Sabbato infra Hebd III Quadragesimæ",
-  [TEMPORA_QUAD4_0]: "Dominica IV in Quadragesimæ",
-  [TEMPORA_QUAD4_1]: "Feria II infra Hebd IV Quadragesimæ",
-  [TEMPORA_QUAD4_2]: "Feria III infra Hebd IV Quadragesimæ",
-  [TEMPORA_QUAD4_3]: "Feria IV infra Hebd IV Quadragesimæ",
-  [TEMPORA_QUAD4_4]: "Feria V infra Hebd IV Quadragesimæ",
-  [TEMPORA_QUAD4_5]: "Feria VI infra Hebd IV Quadragesimæ",
-  [TEMPORA_QUAD4_6]: "Sabbato infra Hebd IV Quadragesimæ",
-  [TEMPORA_QUAD5_0]: "Dominica I Passionis",
-  [TEMPORA_QUAD5_1]: "Feria II infra Hebd Passionis",
-  [TEMPORA_QUAD5_2]: "Feria III infra Hebd Passionis",
-  [TEMPORA_QUAD5_3]: "Feria IV infra Hebd Passionis",
-  [TEMPORA_QUAD5_4]: "Feria V infra Hebd Passionis",
-  [TEMPORA_QUAD5_5]: "Feria VI infra Hebd Passionis",
-  [TEMPORA_QUAD5_6]: "Sabbato infra Hebd Passionis",
-  [TEMPORA_QUAD6_0]: "Dominica II Passionis seu in Palmis",
-  [TEMPORA_QUAD6_1]: "Feria II Hebdomadæ Sanctæ",
-  [TEMPORA_QUAD6_2]: "Feria III Hebdomadæ Sanctæ",
-  [TEMPORA_QUAD6_3]: "Feria IV Hebdomadæ Sanctæ",
-  [TEMPORA_QUAD6_4]: "Feria Quinta in Coena Domini",
-  [TEMPORA_QUAD6_5]: "Feria Sexta in Parasceve",
-  [TEMPORA_QUAD6_6]: "Sabbato Sancto",
-  [TEMPORA_PASC0_0]: "Dominica Resurrectionis",
-  [TEMPORA_PASC0_1]: "Die II infra octavam Paschæ",
-  [TEMPORA_PASC0_2]: "Die III infra octavam Paschæ",
-  [TEMPORA_PASC0_3]: "Die VI infra octavam Paschæ",
-  [TEMPORA_PASC0_4]: "Die V infra octavam Paschæ",
-  [TEMPORA_PASC0_5]: "Die VI infra octavam Paschæ",
-  [TEMPORA_PASC0_6]: "Sabbato in Albis",
-  [TEMPORA_PASC1_0]: "Dominica in Albis in Octava Paschæ",
-  [TEMPORA_PASC1_1]: "Feria II infra Hebd I post Octavam Paschæ",
-  [TEMPORA_PASC1_2]: "Feria III infra Hebd I post Octavam Paschæ",
-  [TEMPORA_PASC1_3]: "Feria IV infra Hebd I post Octavam Paschæ",
-  [TEMPORA_PASC1_4]: "Feria V infra Hebd I post Octavam Paschæ",
-  [TEMPORA_PASC1_5]: "Feria VI infra Hebd I post Octavam Paschæ",
-  [TEMPORA_PASC1_6]: "Sabbato infra Hebd I post Octavam Paschæ",
-  [TEMPORA_PASC2_0]: "Dominica II Post Pascha",
-  [TEMPORA_PASC2_1]: "Feria II infra Hebd II post Octavam Paschæ",
-  [TEMPORA_PASC2_2]: "Feria III infra Hebd II post Octavam Paschæ",
-  [TEMPORA_PASC2_3]: "Patrocinii St. Joseph Confessoris Sponsi B.M.V.",
-  [TEMPORA_PASC2_4]: "Feria V infra Hebd II post Octavam Paschæ",
-  [TEMPORA_PASC2_5]: "Feria VI infra Hebd II post Octavam Paschæ",
-  [TEMPORA_PASC2_6]: "Sabbato infra Hebd II post Octavam Paschæ",
-  [TEMPORA_PASC3_0]: "Dominica III Post Pascha",
-  [TEMPORA_PASC3_1]: "Feria II infra Hebd III post Octavam Paschæ",
-  [TEMPORA_PASC3_2]: "Feria III infra Hebd III post Octavam Paschæ",
-  [TEMPORA_PASC3_3]: "Feria IV infra Hebd III post Octavam Paschæ",
-  [TEMPORA_PASC3_4]: "Feria V infra Hebd III post Octavam Paschæ",
-  [TEMPORA_PASC3_5]: "Feria VI infra Hebd III post Octavam Paschæ",
-  [TEMPORA_PASC3_6]: "Sabbato infra Hebd III post Octavam Paschæ",
-  [TEMPORA_PASC4_0]: "Dominica IV Post Pascha",
-  [TEMPORA_PASC4_1]: "Feria II infra Hebd IV post Octavam Paschæ",
-  [TEMPORA_PASC4_2]: "Feria III infra Hebd IV post Octavam Paschæ",
-  [TEMPORA_PASC4_3]: "Feria IV infra Hebd IV post Octavam Paschæ",
-  [TEMPORA_PASC4_4]: "Feria V infra Hebd IV post Octavam Paschæ",
-  [TEMPORA_PASC4_5]: "Feria VI infra Hebd IV post Octavam Paschæ",
-  [TEMPORA_PASC4_6]: "Sabbato infra Hebd IV post Octavam Paschæ",
-  [TEMPORA_PASC5_0]: "Dominica V Post Pascha",
-  [TEMPORA_PASC5_1]: "Feria II in Rogationibus",
-  [TEMPORA_PASC5_2]: "Feria III in Rogationibus",
-  [TEMPORA_PASC5_3]: "Wigilia Wniebowstąpienia Pańskiego",
-  [TEMPORA_PASC5_4]: "In Ascensione Domini",
-  [TEMPORA_PASC5_5]: "Feria VI post Ascensionem",
-  [TEMPORA_PASC5_6]: "Sabbato post Ascensionem",
-  [TEMPORA_PASC6_0]: "Dominica post Ascensionem",
-  [TEMPORA_PASC6_1]: "Feria II infra Hebd post Ascensionem",
-  [TEMPORA_PASC6_2]: "Feria III infra Hebd post Ascensionem",
-  [TEMPORA_PASC6_3]: "Feria IV infra Hebd post Ascensionem",
-  [TEMPORA_PASC6_4]: "Feria V infra Hebd post Ascensionem",
-  [TEMPORA_PASC6_5]: "Feria VI infra Hebd post Ascensionem",
-  [TEMPORA_PASC6_6]: "Sabbato in Vigilia Pentecostes",
-  [TEMPORA_PASC7_0]: "Dominica Pentecostes",
-  [TEMPORA_PASC7_1]: "Die II infra octavam Pentecostes",
-  [TEMPORA_PASC7_2]: "Die III infra octavam Pentecostes",
-  [TEMPORA_PASC7_3]: "Feria IV Quattuor Temporum Pentecostes",
-  [TEMPORA_PASC7_4]: "Die V infra octavam Pentecostes",
-  [TEMPORA_PASC7_5]: "Feria VI Quattuor temporum Pentecostes",
-  [TEMPORA_PASC7_6]: "Sabbato Quattuor Temporum Pentecostes",
-  [TEMPORA_PENT01_0]: "Dominica Sanctissimæ Trinitatis",
-  [TEMPORA_PENT01_1]: "Feria II infra Hebd I post Octavam Pentecostes",
-  [TEMPORA_PENT01_2]: "Feria III infra Hebd I post Octavam Pentecostes",
-  [TEMPORA_PENT01_3]: "Feria IV infra Hebd I post Octavam Pentecostes",
-  [TEMPORA_PENT01_4]: "Festum Sanctissimi Corporis Christi",
-  [TEMPORA_PENT01_5]: "Feria V infra Hebd I post Octavam Pentecostes",
-  [TEMPORA_PENT01_6]: "Sabbato infra Hebd I post Octavam Pentecostes",
-  [TEMPORA_PENT02_0]: "Dominica II Post Pentecosten",
-  [TEMPORA_PENT02_1]: "Feria II infra Hebd II post Octavam Pentecostes",
-  [TEMPORA_PENT02_2]: "Feria III infra Hebd II post Octavam Pentecostes",
-  [TEMPORA_PENT02_3]: "Feria IV infra Hebd II post Octavam Pentecostes",
-  [TEMPORA_PENT02_4]: "Feria V infra Hebd II post Octavam Pentecostes",
-  [TEMPORA_PENT02_5]: "Sanctissimi Cordis Domini Nostri Jesu Christi",
-  [TEMPORA_PENT02_6]: "Sabbato infra Hebd II post Octavam Pentecostes",
-  [TEMPORA_PENT03_0]: "Dominica III Post Pentecosten§",
-  [TEMPORA_PENT03_1]: "Feria II infra Hebd III post Octavam Pentecostes§",
-  [TEMPORA_PENT03_2]: "Feria III infra Hebd III post Octavam Pentecostes§",
-  [TEMPORA_PENT03_3]: "Feria IV infra Hebd III post Octavam Pentecostes§",
-  [TEMPORA_PENT03_4]: "Feria V infra Hebd III post Octavam Pentecostes§",
-  [TEMPORA_PENT03_5]: "Feria VI infra Hebd III post Octavam Pentecostes§",
-  [TEMPORA_PENT03_6]: "Sabbato infra Hebd III post Octavam Pentecostes§",
-  [TEMPORA_PENT04_0]: "Dominica IV Post Pentecosten",
-  [TEMPORA_PENT04_1]: "Feria II infra Hebd IV post Octavam Pentecostes",
-  [TEMPORA_PENT04_2]: "Feria III infra Hebd IV post Octavam Pentecostes",
-  [TEMPORA_PENT04_3]: "Feria IV infra Hebd IV post Octavam Pentecostes",
-  [TEMPORA_PENT04_4]: "Feria V infra Hebd IV post Octavam Pentecostes",
-  [TEMPORA_PENT04_5]: "Feria VI infra Hebd IV post Octavam Pentecostes",
-  [TEMPORA_PENT04_6]: "Sabbato infra Hebd IV post Octavam Pentecostes",
-  [TEMPORA_PENT05_0]: "Dominica V Post Pentecosten",
-  [TEMPORA_PENT05_1]: "Feria II infra Hebd V post Octavam Pentecostes",
-  [TEMPORA_PENT05_2]: "Feria III infra Hebd V post Octavam Pentecostes",
-  [TEMPORA_PENT05_3]: "Feria IV infra Hebd V post Octavam Pentecostes",
-  [TEMPORA_PENT05_4]: "Feria V infra Hebd V post Octavam Pentecostes",
-  [TEMPORA_PENT05_5]: "Feria VI infra Hebd V post Octavam Pentecostes",
-  [TEMPORA_PENT05_6]: "Sabbato infra Hebd V post Octavam Pentecostes",
-  [TEMPORA_PENT06_0]: "Dominica VI Post Pentecosten",
-  [TEMPORA_PENT06_1]: "Feria II infra Hebd VI post Octavam Pentecostes",
-  [TEMPORA_PENT06_2]: "Feria III infra Hebd VI post Octavam Pentecostes",
-  [TEMPORA_PENT06_3]: "Feria IV infra Hebd VI post Octavam Pentecostes",
-  [TEMPORA_PENT06_4]: "Feria V infra Hebd VI post Octavam Pentecostes",
-  [TEMPORA_PENT06_5]: "Feria VI infra Hebd VI post Octavam Pentecostes",
-  [TEMPORA_PENT06_6]: "Sabbato infra Hebd VI post Octavam Pentecostes",
-  [TEMPORA_PENT07_0]: "Dominica VII Post Pentecosten",
-  [TEMPORA_PENT07_1]: "Feria II infra Hebd VII post Octavam Pentecostes",
-  [TEMPORA_PENT07_2]: "Feria III infra Hebd VII post Octavam Pentecostes",
-  [TEMPORA_PENT07_3]: "Feria IV infra Hebd VII post Octavam Pentecostes",
-  [TEMPORA_PENT07_4]: "Feria V infra Hebd VII post Octavam Pentecostes",
-  [TEMPORA_PENT07_5]: "Feria VI infra Hebd VII post Octavam Pentecostes",
-  [TEMPORA_PENT07_6]: "Sabbato infra Hebd VII post Octavam Pentecostes",
-  [TEMPORA_PENT08_0]: "Dominica VIII Post Pentecosten",
-  [TEMPORA_PENT08_1]: "Feria II infra Hebd VIII post Octavam Pentecostes",
-  [TEMPORA_PENT08_2]: "Feria III infra Hebd VIII post Octavam Pentecostes",
-  [TEMPORA_PENT08_3]: "Feria IV infra Hebd VIII post Octavam Pentecostes",
-  [TEMPORA_PENT08_4]: "Feria V infra Hebd VIII post Octavam Pentecostes",
-  [TEMPORA_PENT08_5]: "Feria VI infra Hebd VIII post Octavam Pentecostes",
-  [TEMPORA_PENT08_6]: "Sabbato infra Hebd VIII post Octavam Pentecostes",
-  [TEMPORA_PENT09_0]: "Dominica IX Post Pentecosten",
-  [TEMPORA_PENT09_1]: "Feria II infra Hebd IX post Octavam Pentecostes",
-  [TEMPORA_PENT09_2]: "Feria III infra Hebd IX post Octavam Pentecostes",
-  [TEMPORA_PENT09_3]: "Feria IV infra Hebd IX post Octavam Pentecostes",
-  [TEMPORA_PENT09_4]: "Feria V infra Hebd IX post Octavam Pentecostes",
-  [TEMPORA_PENT09_5]: "Feria VI infra Hebd IX post Octavam Pentecostes",
-  [TEMPORA_PENT09_6]: "Sabbato infra Hebd IX post Octavam Pentecostes",
-  [TEMPORA_PENT10_0]: "Dominica X Post Pentecosten",
-  [TEMPORA_PENT10_1]: "Feria II infra Hebd X post Octavam Pentecostes",
-  [TEMPORA_PENT10_2]: "Feria III infra Hebd X post Octavam Pentecostes",
-  [TEMPORA_PENT10_3]: "Feria IV infra Hebd X post Octavam Pentecostes",
-  [TEMPORA_PENT10_4]: "Feria V infra Hebd X post Octavam Pentecostes",
-  [TEMPORA_PENT10_5]: "Feria VI infra Hebd X post Octavam Pentecostes",
-  [TEMPORA_PENT10_6]: "Sabbato infra Hebd X post Octavam Pentecostes",
-  [TEMPORA_PENT11_0]: "Dominica XI Post Pentecosten",
-  [TEMPORA_PENT11_1]: "Feria II infra Hebd XI post Octavam Pentecostes",
-  [TEMPORA_PENT11_2]: "Feria III infra Hebd XI post Octavam Pentecostes",
-  [TEMPORA_PENT11_3]: "Feria IV infra Hebd XI post Octavam Pentecostes",
-  [TEMPORA_PENT11_4]: "Feria V infra Hebd XI post Octavam Pentecostes",
-  [TEMPORA_PENT11_5]: "Feria VI infra Hebd XI post Octavam Pentecostes",
-  [TEMPORA_PENT11_6]: "Sabbato infra Hebd XI post Octavam Pentecostes",
-  [TEMPORA_PENT12_0]: "Dominica XII Post Pentecosten",
-  [TEMPORA_PENT12_1]: "Feria II infra Hebd XII post Octavam Pentecostes",
-  [TEMPORA_PENT12_2]: "Feria III infra Hebd XII post Octavam Pentecostes",
-  [TEMPORA_PENT12_3]: "Feria IV infra Hebd XII post Octavam Pentecostes",
-  [TEMPORA_PENT12_4]: "Feria V infra Hebd XII post Octavam Pentecostes",
-  [TEMPORA_PENT12_5]: "Feria VI infra Hebd XII post Octavam Pentecostes",
-  [TEMPORA_PENT12_6]: "Sabbato infra Hebd XII post Octavam Pentecostes",
-  [TEMPORA_PENT13_0]: "Dominica XIII Post Pentecosten",
-  [TEMPORA_PENT13_1]: "Feria II infra Hebd XIII post Octavam Pentecostes",
-  [TEMPORA_PENT13_2]: "Feria III infra Hebd XIII post Octavam Pentecostes",
-  [TEMPORA_PENT13_3]: "Feria IV infra Hebd XIII post Octavam Pentecostes",
-  [TEMPORA_PENT13_4]: "Feria V infra Hebd XIII post Octavam Pentecostes",
-  [TEMPORA_PENT13_5]: "Feria VI infra Hebd XIII post Octavam Pentecostes",
-  [TEMPORA_PENT13_6]: "Sabbato infra Hebd XIII post Octavam Pentecostes",
-  [TEMPORA_PENT14_0]: "Dominica XIV Post Pentecosten",
-  [TEMPORA_PENT14_1]: "Feria II infra Hebd XIV post Octavam Pentecostes",
-  [TEMPORA_PENT14_2]: "Feria III infra Hebd XIV post Octavam Pentecostes",
-  [TEMPORA_PENT14_3]: "Feria IV infra Hebd XIV post Octavam Pentecostes",
-  [TEMPORA_PENT14_4]: "Feria V infra Hebd XIV post Octavam Pentecostes",
-  [TEMPORA_PENT14_5]: "Feria VI infra Hebd XIV post Octavam Pentecostes",
-  [TEMPORA_PENT14_6]: "Sabbato infra Hebd XIV post Octavam Pentecostes",
-  [TEMPORA_PENT15_0]: "Dominica XV Post Pentecosten",
-  [TEMPORA_PENT15_1]: "Feria II infra Hebd XV post Octavam Pentecostes",
-  [TEMPORA_PENT15_2]: "Feria III infra Hebd XV post Octavam Pentecostes",
-  [TEMPORA_PENT15_3]: "Feria IV infra Hebd XV post Octavam Pentecostes",
-  [TEMPORA_PENT15_4]: "Feria V infra Hebd XV post Octavam Pentecostes",
-  [TEMPORA_PENT15_5]: "Feria VI infra Hebd XV post Octavam Pentecostes",
-  [TEMPORA_PENT15_6]: "Sabbato infra Hebd XV post Octavam Pentecostes",
-  [TEMPORA_PENT16_0]: "Dominica XVI Post Pentecosten",
-  [TEMPORA_PENT16_1]: "Feria II infra Hebd XVI post Octavam Pentecostes",
-  [TEMPORA_PENT16_2]: "Feria III infra Hebd XVI post Octavam Pentecostes",
-  [TEMPORA_PENT16_3]: "Feria IV infra Hebd XVI post Octavam Pentecostes",
-  [TEMPORA_PENT16_4]: "Feria V infra Hebd XVI post Octavam Pentecostes",
-  [TEMPORA_PENT16_5]: "Feria VI infra Hebd XVI post Octavam Pentecostes",
-  [TEMPORA_PENT16_6]: "Sabbato infra Hebd XVI post Octavam Pentecostes",
-  [TEMPORA_PENT17_0]: "Dominica XVII Post Pentecosten",
-  [TEMPORA_PENT17_1]: "Feria II infra Hebd XVII post Octavam Pentecostes",
-  [TEMPORA_PENT17_2]: "Feria III infra Hebd XVII post Octavam Pentecostes",
-  [TEMPORA_PENT17_3]: "Feria IV infra Hebd XVII post Octavam Pentecostes",
-  [TEMPORA_PENT17_4]: "Feria V infra Hebd XVII post Octavam Pentecostes",
-  [TEMPORA_PENT17_5]: "Feria VI infra Hebd XVII post Octavam Pentecostes",
-  [TEMPORA_PENT17_6]: "Sabbato infra Hebd XVII post Octavam Pentecostes",
-  [TEMPORA_PENT18_0]: "Dominica XVIII Post Pentecosten",
-  [TEMPORA_PENT18_1]: "Feria II infra Hebd XVIII post Octavam Pentecostes",
-  [TEMPORA_PENT18_2]: "Feria III infra Hebd XVIII post Octavam Pentecostes",
-  [TEMPORA_PENT18_3]: "Feria IV infra Hebd XVIII post Octavam Pentecostes",
-  [TEMPORA_PENT18_4]: "Feria V infra Hebd XVIII post Octavam Pentecostes",
-  [TEMPORA_PENT18_5]: "Feria VI infra Hebd XVIII post Octavam Pentecostes",
-  [TEMPORA_PENT18_6]: "Sabbato infra Hebd XVIII post Octavam Pentecostes",
-  [TEMPORA_PENT19_0]: "Dominica XIX Post Pentecosten",
-  [TEMPORA_PENT19_1]: "Feria II infra Hebd XIX post Octavam Pentecostes",
-  [TEMPORA_PENT19_2]: "Feria III infra Hebd XIX post Octavam Pentecostes",
-  [TEMPORA_PENT19_3]: "Feria IV infra Hebd XIX post Octavam Pentecostes",
-  [TEMPORA_PENT19_4]: "Feria V infra Hebd XIX post Octavam Pentecostes",
-  [TEMPORA_PENT19_5]: "Feria VI infra Hebd XIX post Octavam Pentecostes",
-  [TEMPORA_PENT19_6]: "Sabbato infra Hebd XIX post Octavam Pentecostes",
-  [TEMPORA_PENT20_0]: "Dominica XX Post Pentecosten",
-  [TEMPORA_PENT20_1]: "Feria II infra Hebd XX post Octavam Pentecostes",
-  [TEMPORA_PENT20_2]: "Feria III infra Hebd XX post Octavam Pentecostes",
-  [TEMPORA_PENT20_3]: "Feria IV infra Hebd XX post Octavam Pentecostes",
-  [TEMPORA_PENT20_4]: "Feria V infra Hebd XX post Octavam Pentecostes",
-  [TEMPORA_PENT20_5]: "Feria VI infra Hebd XX post Octavam Pentecostes",
-  [TEMPORA_PENT20_6]: "Sabbato infra Hebd XX post Octavam Pentecostes",
-  [TEMPORA_PENT21_0]: "Dominica XXI Post Pentecosten",
-  [TEMPORA_PENT21_1]: "Feria II infra Hebd XXI post Octavam Pentecostes",
-  [TEMPORA_PENT21_2]: "Feria III infra Hebd XXI post Octavam Pentecostes",
-  [TEMPORA_PENT21_3]: "Feria IV infra Hebd XXI post Octavam Pentecostes",
-  [TEMPORA_PENT21_4]: "Feria V infra Hebd XXI post Octavam Pentecostes",
-  [TEMPORA_PENT21_5]: "Feria VI infra Hebd XXI post Octavam Pentecostes",
-  [TEMPORA_PENT21_6]: "Sabbato infra Hebd XXI post Octavam Pentecostes",
-  [TEMPORA_PENT22_0]: "Dominica XXII Post Pentecosten",
-  [TEMPORA_PENT22_1]: "Feria II infra Hebd XXII post Octavam Pentecostes",
-  [TEMPORA_PENT22_2]: "Feria III infra Hebd XXII post Octavam Pentecostes",
-  [TEMPORA_PENT22_3]: "Feria IV infra Hebd XXII post Octavam Pentecostes",
-  [TEMPORA_PENT22_4]: "Feria V infra Hebd XXII post Octavam Pentecostes",
-  [TEMPORA_PENT22_5]: "Feria VI infra Hebd XXII post Octavam Pentecostes",
-  [TEMPORA_PENT22_6]: "Sabbato infra Hebd XXII post Octavam Pentecostes",
-  [TEMPORA_PENT23_0]: "Dominica XXIII Post Pentecosten",
-  [TEMPORA_PENT23_1]: "Feria II infra Hebd XXIII post Octavam Pentecostes",
-  [TEMPORA_PENT23_2]: "Feria III infra Hebd XXIII post Octavam Pentecostes",
-  [TEMPORA_PENT23_3]: "Feria IV infra Hebd XXIII post Octavam Pentecostes",
-  [TEMPORA_PENT23_4]: "Feria V infra Hebd XXIII post Octavam Pentecostes",
-  [TEMPORA_PENT23_5]: "Feria VI infra Hebd XXIII post Octavam Pentecostes",
-  [TEMPORA_PENT23_6]: "Sabbato infra Hebd XXIII post Octavam Pentecostes",
-  [TEMPORA_PENT_3]: "Feria IV Quattuor Temporum Septembris",
-  [TEMPORA_PENT_5]: "Feria VI Quattuor Temporum Septembris",
-  [TEMPORA_PENT_6]: "Sabbato Quattuor Temporum Septembris",
-  [TEMPORA_PENT24_0]: "Dominica XXIV Post Pentecosten",
-  [TEMPORA_PENT24_1]: "Feria II infra Hebd XXIV post Octavam Pentecostes",
-  [TEMPORA_PENT24_2]: "Feria III infra Hebd XXIV post Octavam Pentecostes",
-  [TEMPORA_PENT24_3]: "Feria IV infra Hebd XXIV post Octavam Pentecostes",
-  [TEMPORA_PENT24_4]: "Feria V infra Hebd XXIV post Octavam Pentecostes",
-  [TEMPORA_PENT24_5]: "Feria VI infra Hebd XXIV post Octavam Pentecostes",
-  [TEMPORA_PENT24_6]: "Sabbato infra Hebd XXIV post Octavam Pentecostes",
-  [TEMPORA_ADV1_0]: "Dominica I Adventus",
-  [TEMPORA_ADV1_1]: "Feria II infra Hebd I Adventus",
-  [TEMPORA_ADV1_2]: "Feria III infra Hebd I Adventus",
-  [TEMPORA_ADV1_3]: "Feria IV infra Hebd I Adventus",
-  [TEMPORA_ADV1_4]: "Feria V infra Hebd I Adventus",
-  [TEMPORA_ADV1_5]: "Feria VI infra Hebd I Adventus",
-  [TEMPORA_ADV1_6]: "Sabbato infra Hebd I Adventus",
-  [TEMPORA_ADV2_0]: "Dominica II Adventus",
-  [TEMPORA_ADV2_1]: "Feria II infra Hebd II Adventus",
-  [TEMPORA_ADV2_2]: "Feria III infra Hebd II Adventus",
-  [TEMPORA_ADV2_3]: "Feria IV infra Hebd II Adventus",
-  [TEMPORA_ADV2_4]: "Feria V infra Hebd II Adventus",
-  [TEMPORA_ADV2_5]: "Feria VI infra Hebd II Adventus",
-  [TEMPORA_ADV2_6]: "Sabbato infra Hebd II Adventus",
-  [TEMPORA_ADV3_0]: "Dominica III Adventus",
-  [TEMPORA_ADV3_1]: "Feria II infra Hebd IV Adventus",
-  [TEMPORA_ADV3_2]: "Feria III infra Hebd IV Adventus",
-  [TEMPORA_ADV3_3]: "Feria IV Quattuor Temporum Adventus",
-  [TEMPORA_ADV3_4]: "Feria V infra Hebd IV Adventus",
-  [TEMPORA_ADV3_5]: "Feria VI Quattuor Temporum Adventus",
-  [TEMPORA_ADV3_6]: "Sabbato Temporum Adventus",
-  [TEMPORA_ADV4_0]: "Dominica IV Adventus",
-  [TEMPORA_ADV4_1]: "Feria II infra Hebd IV Adventus",
-  [TEMPORA_ADV4_2]: "Feria III infra Hebd IV Adventus",
-  [TEMPORA_ADV4_3]: "Feria IV infra Hebd IV Adventus",
-  [TEMPORA_ADV4_4]: "Feria V infra Hebd IV Adventus",
-  [TEMPORA_ADV4_5]: "Feria VI infra Hebd IV Adventus",
-  [TEMPORA_NAT1_0]: "Dominica Infra Octavam Nativitatis",
-  [TEMPORA_NAT1_1]: "Feria Infra Octavam Nativitatis",
-  [TEMPORA_NAT2_0]: "Sanctissimi Nominis Jesu",
-  [SANCTI_10_DUr]: "In festo Domino nostro Jesu Christi Regis",
-  [TEMPORA_EPI1_0A]: "Dominica post Epiphaniam",
-  [TEMPORA_PENT01_0A]: "Dominica Post Pentecosten",
-  [COMMUNE_C_10A]: "1 Missa B. V. M. – Rorate",
-  [COMMUNE_C_10B]: "2 Missa B. V. M. – Vultum Tuum",
-  [COMMUNE_C_10C]: "3 Missa B. V. M. – Salve, Sancta Parens",
-  [COMMUNE_C_10PASC]: "4 Missa B. V. M. – Salve, Sancta Parens",
-  [COMMUNE_C_10T]: "5 Missa B. V. M. – Salve, Sancta Parens",
-  [SANCTI_01_01]: "Die Octavæ Nativitatis Domini",
-  [SANCTI_01_06]: "In Epiphania Domini",
-  [SANCTI_01_13]: "In Commemoratione Baptismatis Domini Nostri Jesu Christi",
-  [SANCTI_01_14]: "S. Hilarii Episcopi Confessoris Ecclesiæ Doctoris",
-  [SANCTI_01_15]: "S. Pauli Primi Eremitæ et Confessoris",
-  [SANCTI_01_16]: "S. Marcelli Papæ et Martyris",
-  [SANCTI_01_17]: "S. S. Antonii Abbatis",
-  [SANCTI_01_18]: "S. Priscæ Virginis",
-  [SANCTI_01_19]: "S. Marii et Soc. Mart.",
-  [SANCTI_01_20]: "Ss. Fabiani et Sebastiani Martyrum",
-  [SANCTI_01_21]: "S. Agnetis Virginis et Martyris",
-  [SANCTI_01_22]: "Ss. Vincentii et Anastasii Martyrum",
-  [SANCTI_01_23]: "S. Raymundi de Penafort Confessoris",
-  [SANCTI_01_24]: "S. Timothei Episcopi et Martyris",
-  [SANCTI_01_25]: "In Conversione S. Pauli Apostoli",
-  [SANCTI_01_26]: "S. Polycarpi Episcopi et Martyris",
-  [SANCTI_01_27]:
-    "S. Joannis Chrysostomi Episcopi Confessoris Ecclesiæ Doctoris",
-  [SANCTI_01_28]: "S. Petri Nolasci Confessoris",
-  [SANCTI_01_29]: "S. Francisci Salesii Episcopi Confessoris Ecclesiæ Doctoris",
-  [SANCTI_01_30]: "S. Martinæ Virginis et Martyris",
-  [SANCTI_01_31]: "S. Joannis Bosco Confessoris",
-  [SANCTI_02_01]: "S. Ignatii Episcopi et Martyris",
-  [SANCTI_02_02]: "In Purificatione Beatæ Mariæ Virginis",
-  [SANCTI_02_03]: "S. Blasii Episcopi",
-  [SANCTI_02_04]: "S. Andreæ Corsini Episcopi et Confessoris",
-  [SANCTI_02_05]: "S. Agathæ Virginis et Martyris",
-  [SANCTI_02_06]: "S. Titi Episc. et Confessoris",
-  [SANCTI_02_07]: "S. Romualdi Abbatis",
-  [SANCTI_02_08]: "S. Joannis de Matha Confessoris",
-  [SANCTI_02_09]: "S. Cyrilli Episc. Alexandrini Confessoris Ecclesiæ Doctoris",
-  [SANCTI_02_10]: "S. Scholasticæ Virginis",
-  [SANCTI_02_11]: "In Apparitione Beatæ Mariæ Virginis",
-  [SANCTI_02_12]: "Ss. Septem Fundat. Ord. Servorum B. M. V.",
-  [SANCTI_02_14]: "S. Valentini",
-  [SANCTI_02_15]: "SS. Faustini et Jovitæ",
-  [SANCTI_02_18]: "S. Simeonis Faustini Episcopi et Martyris",
-  [SANCTI_02_22]: "In Cathedra S. Petri Ap. ",
-  [SANCTI_02_23]: "S. Petri Damiani",
-  [SANCTI_02_24]: "S. Matthiæ Apostoli",
-  [SANCTI_02_27]: "S. Gabrielis a Virgine Perdolente Confessoris",
-  [SANCTI_03_04]: "S. Casimiri Confessoris",
-  [SANCTI_03_06]: "Ss. Perpetuæ et Felicitatis Martyrum",
-  [SANCTI_03_07]: "S. Thomæ de Aquino Confessoris Ecclesiæ Doctoris",
-  [SANCTI_03_08]: "S. Joannis de Deo Confessoris",
-  [SANCTI_03_09]: "S. Franciscæ Viduæ Romanæ",
-  [SANCTI_03_10]: "Ss. Quadraginta Martyrum",
-  [SANCTI_03_12]: "S. Gregorii Papæ Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_03_15PL]: "S. Clementis Hofbauer",
-  [SANCTI_03_17]: "S. Patricii Episcopi et Conf.",
-  [SANCTI_03_18]: "S. Cyrilli Episcopi Hierosolymitani Ecclesiæ Doctoris",
-  [SANCTI_03_19]: "S. Joseph Sponsi B.M.V. Confessoris",
-  [SANCTI_03_21]: "S. Benedicti Abbatis",
-  [SANCTI_03_24]: "S. Gabrielis Archangeli",
-  [SANCTI_03_25]: "In Annuntiatione Beate Mariæ Virgine",
-  [SANCTI_03_27]: "S. Joannis Damasceni Confessoris",
-  [SANCTI_03_28]: "S. Joannis a Capistrano Confessoris",
-  [SANCTI_04_02]: "S. Francisci de Paula Confessoris",
-  [SANCTI_04_04]: "S. Isidori Episc. Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_04_05]: "S. Vincentii Ferrerii Confessoris",
-  [SANCTI_04_11]: "S. Leonis I. Papæ Confessoris et Ecclesise Doctoris",
-  [SANCTI_04_13]: "S. Hermenegildi Martyris",
-  [SANCTI_04_14]: "S. Justini Martyris",
-  [SANCTI_04_17]: "S. Aniceti Papæ et Martyris",
-  [SANCTI_04_21]: "S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_04_22]: "SS. Soteris et Caji Summorum Pontificum et Martyrum",
-  [SANCTI_04_23]: "S. Georgii Martyris",
-  [SANCTI_04_23PL]: "S. Adalberti, Episcopi et Martyris",
-  [SANCTI_04_24]: "S. Fidelis de Sigmaringa Martyris",
-  [SANCTI_04_25]: "S. Marci Evangelistæ",
-  [SANCTI_04_26]: "SS. Cleti et Marcellini Summorum Pontificum et Martyrum",
-  [SANCTI_04_27]: "S. Petri Canisii Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_04_28]: "S. Pauli a Cruce Confessoris",
-  [SANCTI_04_29]: "S. Petri Martyris",
-  [SANCTI_04_30]: "S. Catharina Senensis Virgine",
-  [SANCTI_05_01]: "Ss. Philippi et Jacobi Apostolorum",
-  [SANCTI_05_02]: "S. Athanasii Confessoris Ecclesiæ Doctoris",
-  [SANCTI_05_03]: "Ss. Alexandri et Sociorum Martyrum",
-  [SANCTI_05_04]: "S. Monicæ Viduæ",
-  [SANCTI_05_05]: "S. Pii V Papæ Confessoris",
-  [SANCTI_05_06]: "S. Joannis Apostoli ante portam Latinam",
-  [SANCTI_05_07]: "S. Stanislai Episcopi et Martyris",
-  [SANCTI_05_08]: "Apparitione S Michælis Archangeli",
-  [SANCTI_05_09]:
-    "S. Gregorii Nazianzeni Episcopi Confessoris Ecclesiæ Doctoris",
-  [SANCTI_05_10]: "S. Antonii Episcopi Confessoris",
-  [SANCTI_05_12]:
-    "Ss. Nerei, Achillei et Domitillæ Virginis atque Pancratii Martyrum",
-  [SANCTI_05_13]:
-    "S. Roberti Bellarmino Episcopi Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_05_14]: "S. Bonifacii Martyris",
-  [SANCTI_05_15]: "S. Johanni Baptistæ de la Salle Confessoris",
-  [SANCTI_05_16]: "S. Ubaldi Episcopi Confessoris",
-  [SANCTI_05_16PL]: "S. Andreæ Bobolæ Martyrum",
-  [SANCTI_05_17]: "S. Paschalis Baylon Confessoris",
-  [SANCTI_05_18]: "S. Venantii Martyris",
-  [SANCTI_05_19]: "S. Petri Celestini Papæ Confessoris",
-  [SANCTI_05_20]: "S. Bernardini Senensis Confessoris",
-  [SANCTI_05_24PL]: "Beatæ Mariæ Virginis Confessoris Auxiliatrix",
-  [SANCTI_05_25]: "S. Gregorii VII Papæ Confessoris",
-  [SANCTI_05_26]: "S. Philippi Neri Confessoris",
-  [SANCTI_05_27]: "S. Bedæ Venerabilis Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_05_28]: "S. Augustini Episcopi Confessoris",
-  [SANCTI_05_29]: "S. Mariæ Magdalenæ de Pazzis Virginis",
-  [SANCTI_05_30]: "S. Felicis Papæ et Martyris",
-  [SANCTI_05_31]: "Beatæ Mariæ Virginis Reginæ",
-  [SANCTI_06_01]: "S. Angelæ Mericiæ Virginis",
-  [SANCTI_06_01PL]: "B. Jacobi Episcopi et Confessoris",
-  [SANCTI_06_02]: "Ss. Marcellini, Petri, atque Erasmi Martyrum",
-  [SANCTI_06_04]: "S. Francisci Caracciolo Confessoris",
-  [SANCTI_06_05]: "S. Bonifatii Episc. et Mart.",
-  [SANCTI_06_06]: "S. Norberti Episc. et Confessoris",
-  [SANCTI_06_09]: "Ss. Primi et Feliciani Martyrum",
-  [SANCTI_06_10]: "S. Margaritæ Reginæ viduæ",
-  [SANCTI_06_10PL]: "B. Bogumilai Episcopi et Confessoris",
-  [SANCTI_06_11]: "S. Barnabæ Apostoli",
-  [SANCTI_06_12]: "S. Joannis a S. Facundo Confessoris",
-  [SANCTI_06_13]: "S. Antonii de Padua Confessoris",
-  [SANCTI_06_14]: "S. Basilii Magni Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_06_15]: "Ss. Viti, Modesti atque Crescentiæ Martyrum",
-  [SANCTI_06_17]: "S. Gregorii Barbadici Episcopi Confessoris",
-  [SANCTI_06_18]: "S. Ephræm Syri Confessoris et Ecclesiæ Doctorem",
-  [SANCTI_06_19]: "S. Julianæ de Falconeriis Virginis",
-  [SANCTI_06_20]: "S. Silverii Papæ et Martyri",
-  [SANCTI_06_21]: "S. Aloisii Gonzagæ Confessoris",
-  [SANCTI_06_22]: "S. Paulini Episcopi et Confessoris",
-  [SANCTI_06_23]: "In Vigilia S. Joannis Baptistæ",
-  [SANCTI_06_24]: "In Nativitate S. Joannis Baptistæ",
-  [SANCTI_06_25]: "S. Gulielmi Abbatis",
-  [SANCTI_06_26]: "Ss. Joannis et Pauli Martyrum",
-  [SANCTI_06_28]: "In Vigilia Ss. Petri et Pauli Apostolorum",
-  [SANCTI_06_29]: "SS. Apostolorum Petri et Pauli",
-  [SANCTI_06_30]: "In Commemoratione Sancti Pauli Apostoli",
-  [SANCTI_07_01]: "Pretiosissimi Sanguinis Domini Nostri Jesu Christi",
-  [SANCTI_07_02]: "In Visitatione B. Mariæ Virginis",
-  [SANCTI_07_03]: "S. Irenæi Episcopi et Martyris",
-  [SANCTI_07_05]: "S. Antonii Mariæ Zaccaria Confessoris",
-  [SANCTI_07_07]: "Ss. Cyrilli et Methodii Pont. et Conf. ",
-  [SANCTI_07_08]: "S. Elisabeth Reg. Portugaliæ Viduæ",
-  [SANCTI_07_10]:
-    "Ss. Septem Fratrum Martyrum, ac Rufinæ et Secundæ Virginum et Martyrum",
-  [SANCTI_07_11]: "S. Pii I Papæ et Martyris",
-  [SANCTI_07_12]: "S. Joannis Gualberti Abbatis",
-  [SANCTI_07_14]: "S. Bonaventuræ Episcopi Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_07_15]: "S. Henrici Imperatoris Confessoris",
-  [SANCTI_07_16]: "In Commemoratione Beatæ Mariæ Virgine de Monte Carmelo.",
-  [SANCTI_07_17]: "S. Alexii Confessoris",
-  [SANCTI_07_18]: "S. Camilli de Lellis Confessoris",
-  [SANCTI_07_18PL]: "B. Simonis Confessoris",
-  [SANCTI_07_19]: "S. Vincentii a Paulo Confessoris",
-  [SANCTI_07_20]: "S. Hieronymi Emiliani Confessoris",
-  [SANCTI_07_20PL]: "B. Ceslai Confessoris",
-  [SANCTI_07_21]: "S. Laurentii a Brundusio Confessoris",
-  [SANCTI_07_22]: "S. Mariæ Magdalenæ Poenitentis",
-  [SANCTI_07_23]: "S. Apollinaris Episcopi et Martyris",
-  [SANCTI_07_24]: "S. Christinæ Virginis et Martyris",
-  [SANCTI_07_24PL]: "B. Kingæ Virginis",
-  [SANCTI_07_25]: "S. Jacobi Apostoli",
-  [SANCTI_07_26]: "S. Annæ Matris B.M.V. ",
-  [SANCTI_07_27]: "S. Pantaleonis Martyris",
-  [SANCTI_07_28]:
-    "Ss. Nazarii et Celsi Martyrum, Victoris I Papæ et Martyris ac Innocentii I Papæ et Confessoris ",
-  [SANCTI_07_29]: "S. Marthæ Virginis",
-  [SANCTI_07_30]: "S. Abdon et Sennen Martyrum",
-  [SANCTI_07_31]: "S. Ignatii Confessoris",
-  [SANCTI_08_01]: "Ss. Martyrum Machabæorum",
-  [SANCTI_08_02]:
-    "S. Alfonsi Mariæ de Ligorio Episcopi Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_08_04]: "S. Dominici Confessoris",
-  [SANCTI_08_05]: "S. Mariæ ad Nives ",
-  [SANCTI_08_06]: "In Transfiguratione Domini Nostri Jesu Christi",
-  [SANCTI_08_07]: "S. Cajetani Confessoris",
-  [SANCTI_08_08]: "S. Joannis Mariæ Vianney Confessoris",
-  [SANCTI_08_09]: "Vigilia S. Laurentii Martyris",
-  [SANCTI_08_10]: "S. Laurentii Martyris",
-  [SANCTI_08_11]: "Ss. Tiburtii et Susannæ Virginum et Martyrum",
-  [SANCTI_08_12]: "S. Claræ Virginis",
-  [SANCTI_08_13]: "Ss. Hippolyti et Cassiani Martyrum",
-  [SANCTI_08_14]: "Vigilia Assumptionis B.M.V.",
-  [SANCTI_08_15]: "In Assumptione Beatæ Mariæ Virginis",
-  [SANCTI_08_16]: "S. Joachim Confessoris, Patris B. Mariæ Virginis",
-  [SANCTI_08_17]: "S. Hyacinthi Confessoris",
-  [SANCTI_08_18]: "S. Agapiti Martyris",
-  [SANCTI_08_19]: "S. Joannis Eudes Confessoris",
-  [SANCTI_08_20]: "S. Bernardi Abbatis et Ecclesiæ Doctoris",
-  [SANCTI_08_21]: "S. Joannæ Franciscæ Frémiot de Chantal Viduæ",
-  [SANCTI_08_22]: "Immaculati Cordis Beatæ Mariæ Virginis",
-  [SANCTI_08_23]: "S. Philippi Benitii Confessoris",
-  [SANCTI_08_24]: "S. Bartholomæi Apostoli",
-  [SANCTI_08_25]: "S. Ludovici Confessoris",
-  [SANCTI_08_26]: "S. Zephirini Papæ et Martyris",
-  [SANCTI_08_26PL]: "Beate Mariae Virginis Claromontane Czestochoviensis",
-  [SANCTI_08_27]: "S. Josephi Calasanctii Confessoris",
-  [SANCTI_08_28]: "S. Augustini Episcopi et Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_08_29]: "Decollatione S. Joannis Baptistæ",
-  [SANCTI_08_30]: "S. Rosæ a Sancta Maria Limange Virginis",
-  [SANCTI_08_31]: "S. Raymundi Nonnati Confessoris",
-  [SANCTI_09_01]: "S. Ægidii Abbatis",
-  [SANCTI_09_01PL]: "B. Bronislauæ Virginins",
-  [SANCTI_09_02]: "S. Stephani Hungariæ Regis Confessoris",
-  [SANCTI_09_03]: "S. Pii X Papæ Confessoris",
-  [SANCTI_09_05]: "S. Laurentii Justiniani Episcopi et Confessoris",
-  [SANCTI_09_07PL]: "B. Melchiori Martyrum",
-  [SANCTI_09_08]: "Nativitate Beatæ Mariæ Virginis",
-  [SANCTI_09_09]: "S. Gorgonii Martyris",
-  [SANCTI_09_10]: "S. Nicolai de Tolentino Confessoris",
-  [SANCTI_09_11]: "Ss. Proti et Hyacinthi Martyrum",
-  [SANCTI_09_12]: "S. Nominis Beatæ Mariæ Virginis",
-  [SANCTI_09_14]: "In Exaltatione Sanctæ crucis",
-  [SANCTI_09_15]: "Septem Dolorum Beatæ Mariæ Virginis",
-  [SANCTI_09_16]: "Ss. Cornelii Papæ et Cypriani Episcopi, Martyrum",
-  [SANCTI_09_17]: "Impressionis Stigmatum S. Francisci",
-  [SANCTI_09_18]: "S. Josephi de Cupertino Confessoris",
-  [SANCTI_09_19]: "S. Januarii Episcopi et Sociorum Martyrum",
-  [SANCTI_09_20]: "S. Eustachii et Sociorum Martyrum",
-  [SANCTI_09_21]: "S. Matthæi Apostoli et Evangelistæ",
-  [SANCTI_09_22]: "S. Thomæ de Villanove Episcopi et Confessoris",
-  [SANCTI_09_23]: "S. Lini Papæ et Martyris",
-  [SANCTI_09_24]: "Beatæ Mariæ Virginis de Mercede",
-  [SANCTI_09_25PL]: "B. Ladislai Confessoris",
-  [SANCTI_09_26]: "Ss. Cypriani et Justinæ Martyrum",
-  [SANCTI_09_27]: "S. Cosmæ et Damiani Martyrum",
-  [SANCTI_09_28]: "S. Wenceslai Ducis et Martyris",
-  [SANCTI_09_29]: "In Dedicatione S. Michælis Archangelis",
-  [SANCTI_09_30]: "S. Hieronymi Presbyteris Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_10_01]: "S. Remigii Episcopi Confessoris", // particular-PL: 'sancti:10-01pl:3'
-  [SANCTI_10_01PL]: "B. Joannis de Dukla",
-  [SANCTI_10_02]: "Ss. Angelorum Custodum",
-  [SANCTI_10_03]: "S. Theresiæ a Jesu Infante Virginis",
-  [SANCTI_10_04]: "S. Francisci Confessoris",
-  [SANCTI_10_05]: "Ss. Placidi et Sociorum Martyrum",
-  [SANCTI_10_06]: "S. Brunonis Confessoris",
-  [SANCTI_10_07]: "Festum Beatæ Mariæ Virginis a Rosario",
-  [SANCTI_10_08]: "S. Birgittæ Viduæ",
-  [SANCTI_10_09]: "S. Joannis Leonardi Confessoris",
-  [SANCTI_10_10]: "S. Francisci Borgiæ Confessoris",
-  [SANCTI_10_11]: "Maternitatis Beatæ Mariæ Virginis",
-  [SANCTI_10_13]: "S. Eduardi Regis Confessoris",
-  [SANCTI_10_14]: "S. Callisti Papæ et Martyris",
-  [SANCTI_10_15]: "S. Teresiæ Virginis",
-  [SANCTI_10_16]: "S. Hedwigis Viduæ",
-  [SANCTI_10_17]: "S. Margaritæ Mariæ Alaquoque Virginis",
-  [SANCTI_10_18]: "S. Lucæ Evangelistæ",
-  [SANCTI_10_19]: "S. Petri de Alcantara Confessoris",
-  [SANCTI_10_20]: "S. Joannis Cantii Confessoris",
-  [SANCTI_10_21]: "S. Hilarionis Abbatis",
-  [SANCTI_10_23]: "S. Antonii Mariæ Claret Episcopi Confessoris",
-  [SANCTI_10_24]: "S. Raphælis Archangeli",
-  [SANCTI_10_25]: "Ss. Chrysanthi et Dariæ Martyrum",
-  [SANCTI_10_28]: "Ss. Simonis et Judæ Apostolorum.",
-  [SANCTI_11_01]: "Omnium Sanctorum",
-  [SANCTI_11_02_1]:
-    "In Commemoratione Omnium Fidelium Defunctorum Ad primam Missam",
-  [SANCTI_11_02_2]:
-    "In Commemoratione Omnium Fidelium Defunctorum Ad secundam Missam",
-  [SANCTI_11_02_3]:
-    "In Commemoratione Omnium Fidelium Defunctorum Ad tertiam Missam",
-  [SANCTI_11_04]: "S. Caroli Episcopi et Confessoris",
-  [SANCTI_11_08]: "Ss. Quatuor Coronatorum Martyrum",
-  [SANCTI_11_09]: "In Dedicatione Basilicæ Ss. Salvatoris",
-  [SANCTI_11_10]: "S. Andreæ Avellini Confessoris",
-  [SANCTI_11_11]: "S. Martini Episcopi et Confessoris",
-  [SANCTI_11_12]: "S. Martini Papæ et Martyris",
-  [SANCTI_11_13]: "S. Didaci Confessoris",
-  [SANCTI_11_13PL]: "S. Stanislai Confessoris",
-  [SANCTI_11_14]: "S. Josaphat Episcopi et Martyris",
-  [SANCTI_11_15]: "S. Alberti Magni Episcopi Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_11_16]: "S. Gertrudis Virginis",
-  [SANCTI_11_17]: "S. Gregorii Thaumaturgi Episcopi et Confessoris",
-  [SANCTI_11_18]: "In Dedicatione Basilicarum Ss. Apostolorum Petri et Pauli",
-  [SANCTI_11_19]: "S. Elisabeth Viduæ",
-  [SANCTI_11_20]: "S. Felicis de Valois Confessoris",
-  [SANCTI_11_21]: "In Presentatione Beatæ Mariæ Virginis",
-  [SANCTI_11_22]: "S. Cæciliæ Virginis et Martyris",
-  [SANCTI_11_23]: "S. Clementis Papæ et Martyris",
-  [SANCTI_11_24]: "S. Joannis a Cruce Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_11_25]: "S. Catharinæ Virginis et Martyris",
-  [SANCTI_11_26]: "S. Silvesteri Abbatis et Confessoris",
-  [SANCTI_11_29]: "S. Saturnini Martyris",
-  [SANCTI_11_30]: "S. Andreæ Apostoli",
-  [SANCTI_12_02]: "S. Bibianæ Virginis et Martyris",
-  [SANCTI_12_03]: "S. Francisci Xaverii Confessoris",
-  [SANCTI_12_04]:
-    "S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_12_05]: "S. Sabbæ Abbatis",
-  [SANCTI_12_06]: "S. Nicolai Episcopi et Confessoris",
-  [SANCTI_12_07]: "S. Ambrosii Episcopi Confessoris et Ecclesiæ Doctoris",
-  [SANCTI_12_08]: "In Conceptione Immaculata Beatæ Mariæ Virginis",
-  [SANCTI_12_10]: "S. Melchiadis Papæ et Mart",
-  [SANCTI_12_11]: "S. Damasi Papæ et Confessoris",
-  [SANCTI_12_13]: "S. Luciæ Virginis et Martyris",
-  [SANCTI_12_16]: "S. Eusebii Episcopi et Martyris",
-  [SANCTI_12_21]: "S. Thomæ Apostoli",
-  [SANCTI_12_24]: "In Vigilia Nativitatis Domini",
-  [SANCTI_12_25_1]: "In Nativitate Domini in nocte",
-  [SANCTI_12_25_2]: "In Nativitatis Domini in aurora",
-  [SANCTI_12_25_3]: "In die Nativitatis Domini",
-  [SANCTI_12_26]: "S. Stephani Protomartyris",
-  [SANCTI_12_27]: "S. Joannis Apostoli et Evangelistæ",
-  [SANCTI_12_28]: "Ss. Innocentium",
-  [SANCTI_12_29]: "S. Thomæ M.",
-  [SANCTI_12_31]: "S. Silvestri",
-  [VOTIVE_ANGELS]: "Missa de Angelis",
-  [VOTIVE_JOSEPH]: "Missa de S. Ioseph",
-  [VOTIVE_PETERPAUL]: "Missa de Ss. Petro et Paulo App.",
-  [VOTIVE_PETERPAULP]: "Missa de Ss. Petro et Paulo App.",
-  [VOTIVE_APOSTLES]: "Missa de omnibus Ss. Apostolis",
-  [VOTIVE_APOSTLESP]: "Missa de omnibus Ss. Apostolis",
-  [VOTIVE_HOLYSPIRIT]: "Missa de Spiritu Sancto",
-  [VOTIVE_HOLYSPIRIT2]: "Missa ad postulandam gratiam Spiritus Sancti",
-  [VOTIVE_BLESSEDSACRAMENT]: "Missa de sanctissimo Eucharistiae Sacramento",
-  [VOTIVE_JESUSETERNALPRIEST]:
-    "Missa de D. N. Iesu Christo summo et aeterno Sacerdote",
-  [VOTIVE_CROSS]: "Missa de sancta Cruce",
-  [VOTIVE_PASSION]: "Missa de Passione Domini",
-  [VOTIVE_PENT01_0]: "Sanctissimæ Trinitatis",
-  [VOTIVE_PENT02_5]: "Sanctissimi Cordis Domini Nostri Jesu Christi",
-  [VOTIVE_08_22]: "Immaculati Cordis Beatæ Mariæ Virginis",
-  [VOTIVE_DEFUNCTORUM]: "Missa Defunctorum Quotidianis",
-  [VOTIVE_MORTALITATIS]: "Missa Tempore Mortalitatis",
-};
-
-export const VOTIVE_MASSES = [];
-
-export const SECTION_LABELS = {
-  Communicantes: "Communicantes",
-  CommunioP: "CommunioP",
-  Communio: "Communio",
-  Evangelium: "Evangelium",
-  GradualeP: "Graduale",
-  Graduale: "Graduale",
-  Introitus: "Introitus",
-  Lectio: "Lectio",
-  OffertoriumP: "OffertoriumP",
-  Offertorium: "Offertorium",
-  Oratio: "Oratio",
-  Postcommunio: "Postcommunio",
-  Secreta: "Secreta",
-  Sequentia: "Sequentia",
-  "Super populum": "Super populum",
-  Prefatio: "Prefatio",
-  Tractus: "Tractus",
-  // 02-02, feast of the Purification of the B.V.M.
-  "De Benedictione Candelarum": "De Benedictione Candelarum",
-  "De Distributione Candelarum": "De Distributione Candelarum",
-  "De Processione": "De Processione",
-  // Quad6-0r, Dominica II Passionis seu in Palmis
-  "Benedictio Palmorum": "Benedictio Palmorum",
-  "De distributione ramorum": "De distributione ramorum",
-  "De lectione Evangelica": "De lectione Evangelica",
-  "De processione cum ramis benedictis": "De processione cum ramis benedictis",
-  "Hymnus ad Christum Regem": "Hymnus ad Christum Regem",
-  // Quad6-4r, Feria Quinta in Coena Domini
-  Maundi: "De lotione pedum",
-  "Post Missam": "Post Missam",
-  "Denudatione altaris": "Denudatione altaris",
-  // Quad6-5r, Feria Sexta in Parasceve
-  Lectiones: "De prima parte: Lectiones",
-  Passio: "Passio",
-  "Oratio Fidelium":
-    "De secunda parte: De Orationibus Solemnibus, quae etiam «Oratio Fidelium» dicuntur",
-  "Crucis Adoratione": "De tertia parte: De Solemni Sanctae Crucis Adoratione",
-  CommunioQ: "De quarta parte: Communio",
-  // Quad6-5r, Sabbato Sancto
-  "Benedictio ignis": "Benedictio ignis",
-  "De benedictione cerei Paschalis": "De benedictione cerei Paschalis",
-  "De solemni processione": "De solemni processione",
-  "De praeconio paschali": "De praeconio paschali",
-  "De lectionibus": "De lectionibus",
-  "De prima parte Litaniarum": "De prima parte Litaniarum",
-  "De benedictione aquae baptismalis": "De benedictione aquae baptismalis",
-  "De renovatione promissionum baptismatis":
-    "De renovatione promissionum baptismatis",
-  "De altera parte Litaniarum": "De altera parte Litaniarum",
-  "De Missa solemni Vigiliae paschalis": "De Missa solemni Vigiliæ paschalis",
-  "Pro Laudibus": "Pro Laudibus",
-  Conclusio: "Conclusio",
-  "Benedictio cinerum": "Benedictio cinerum",
-};
-
-export const SECTION_LABELS_MULTI = {
-  GradualeL1: "Graduale",
-  GradualeL2: "Graduale",
-  GradualeL3: "Graduale",
-  GradualeL4: "Graduale",
-  GradualeL5: "Graduale",
-  GradualeP: "Graduale",
-  Graduale: "Graduale",
-  LectioL1: "Lectio",
-  LectioL2: "Lectio",
-  LectioL3: "Lectio",
-  LectioL4: "Lectio",
-  LectioL5: "Lectio",
-  Lectio: "Lectio",
-  OratioL1: "Oratio",
-  OratioL2: "Oratio",
-  OratioL3: "Oratio",
-  OratioL4: "Oratio",
-  OratioL5: "Oratio",
-  Oratio: "Oratio",
-  EvangeliumL1: "Evangelium",
-};
-
-export const PATERNOSTER = `
-    "Pater noster, qui es in caelis,\n" \
-    "Sanctificetur nomen tuum.\n" \
-    "Adveniat regnum tuum.\n" \
-    "Fiat voluntas tua, sicut in coelo et in terra.\n" \
-    "Panem nostrum quotidianum da nobis hodie.\n" \
-    "Et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris.\n" \
-    "Et ne nos inducas in tentationem:\n" \
-    "Sed libera nos a malo. Amen.`;
-
-export const TRANSFORMATIONS = [
-  { pattern: /\+\+/, replacement: "☩" },
-  { pattern: /\+/, replacement: "☩" },
-  { pattern: /V\./, replacement: "℣." },
-  { pattern: /R\./, replacement: "℟." },
-  { pattern: /^#.(.*)/, replacement: "" },
-  { pattern: /^!x! *(.*)/, replacement: "$1" },
-  { pattern: /^!x!! *(.*)/, replacement: "$1" },
-  { pattern: /^!!! *(.*)/, replacement: "$1" },
-  { pattern: /^!! *(.*)/, replacement: "SUBSECTION $1" },
-  { pattern: /^\[([^\]^]*)\]/, replacement: "SECTION $1" },
-  { pattern: /^! *(.*)/, replacement: "$1" }, // Verse
-  { pattern: /^v\. */, replacement: "" },
-  { pattern: /^_/, replacement: "" },
-  { pattern: /\(\(/, replacement: "(" },
-  { pattern: /\)\)/, replacement: ")" },
-  { pattern: /\[/, replacement: "(" },
-  { pattern: /\]/, replacement: ")" },
-  { pattern: /\((\^\d+)\)/, replacement: "[\\1]" }, // preserving footnotes, like [^1], [^1]:
-  { pattern: /^.*`.*$/, replacement: "" },
-  { pattern: /^[&$]Gloria\.*$/, replacement: "Glória Patri…" },
-  { pattern: /^\$Oremus\.*$/, replacement: "Oremus." },
-  { pattern: /^\$Per Dominum eiusdem\.*$/, replacement: "Per Dominum…" },
-  { pattern: /^\$Per Dominum\.*$/, replacement: "Per Dominum…" },
-  { pattern: /^\$Per eu[mn]dem\.*$/, replacement: "Per eúndem…" },
-  { pattern: /^\$Qui tecum eiusdem\.*$/, replacement: "Qui tecum…" },
-  { pattern: /^\$Qui tecum\.*$/, replacement: "Qui tecum…" },
-  { pattern: /^\$Qui vivis\.*$/, replacement: "Qui vivis…" },
-  { pattern: /^\$Deo [Gg]ratias\.*$/, replacement: "Deo gratias." },
-  {
-    pattern: /^[&$]Dominus *[Vv]obiscum\.*$/,
-    replacement: "℣. Dóminus vobíscum.    \n\r℟. Et cum spíritu tuo.",
-  },
-  { pattern: /^\*Modlitwa nad ludem\*.*$/, replacement: "" },
-  { pattern: /^\$Pater noster.*$/, replacement: PATERNOSTER },
-  { pattern: /\(rubrica 1955 aut rubrica 1960 dicitur\)/, replacement: "" },
-  { pattern: /\(deinde dicuntur semper\)/, replacement: "" },
-];
-
-export const COMMEMORATIONS = {
-  [COMMEMORATION]: "Commemoratio",
-  [COMMEMORATED_ORATIO]: "Commemoratio Oratio",
-  [COMMEMORATED_SECRETA]: "Commemoratio Secreta",
-  [COMMEMORATED_POSTCOMMUNIO]: "Commemoratio Postcommunio",
-};
 
 export const SUPPLEMENTS = {};
 
@@ -2544,7 +1689,7 @@ export const SANCTI = [
 
 // PT
 
-export const TITLES_PT: Record<string, string> = {
+export const TITLES: Record<string, string> = {
   [TEMPORA_EPI1_0]: "Sagrada Família",
   [TEMPORA_EPI1_1]: "Segunda-feira da semana após a Epifania",
   [TEMPORA_EPI1_2]: "Terça-feira da semana após a Epifania",
@@ -3206,82 +2351,82 @@ export const TITLES_PT: Record<string, string> = {
   [VOTIVE_MORTALITATIS]: "Tempore Mortalitatis",
 };
 
-export const VOTIVE_MASSES_PT = [
+export const VOTIVE_MASSES = [
   {
     ref: "tempore-mortalitatis",
     id: VOTIVE_MORTALITATIS,
-    title: TITLES_PT[VOTIVE_MORTALITATIS],
+    title: TITLES[VOTIVE_MORTALITATIS],
     tags: ["For the deliverance from death in time of pestilence"],
   },
   {
     ref: "rorate",
     id: COMMUNE_C_10A,
-    title: TITLES_PT[COMMUNE_C_10A],
+    title: TITLES[COMMUNE_C_10A],
     tags: ["Advent"],
   },
   {
     ref: "vultum-tuum",
     id: COMMUNE_C_10B,
-    title: TITLES_PT[COMMUNE_C_10B],
+    title: TITLES[COMMUNE_C_10B],
     tags: ["From Nativity until Purification"],
   },
   {
     ref: "salve-sancta-parens-3",
     id: COMMUNE_C_10C,
-    title: TITLES_PT[COMMUNE_C_10C],
+    title: TITLES[COMMUNE_C_10C],
     tags: ["From Feb 3 until Holy Wednesday"],
   },
   {
     ref: "salve-sancta-parens-4",
     id: COMMUNE_C_10PASC,
-    title: TITLES_PT[COMMUNE_C_10PASC],
+    title: TITLES[COMMUNE_C_10PASC],
     tags: ["Eastertide"],
   },
   {
     ref: "salve-sancta-parens-5",
     id: COMMUNE_C_10T,
-    title: TITLES_PT[COMMUNE_C_10T],
+    title: TITLES[COMMUNE_C_10T],
     tags: ["From Trinity Sunday until Advent"],
   },
   {
     ref: "trinitas",
     id: VOTIVE_PENT01_0,
-    title: TITLES_PT[VOTIVE_PENT01_0],
+    title: TITLES[VOTIVE_PENT01_0],
     tags: ["Votive", "Monday"],
   },
   {
     ref: "angelis",
     id: VOTIVE_ANGELS,
-    title: TITLES_PT[VOTIVE_ANGELS],
+    title: TITLES[VOTIVE_ANGELS],
     tags: ["Votive", "Tuesday"],
   },
   {
     ref: "joseph",
     id: VOTIVE_JOSEPH,
-    title: TITLES_PT[VOTIVE_JOSEPH],
+    title: TITLES[VOTIVE_JOSEPH],
     tags: ["Votive", "Wednesday"],
   },
   {
     ref: "aeterno-sacerdote",
     id: VOTIVE_JESUSETERNALPRIEST,
-    title: TITLES_PT[VOTIVE_JESUSETERNALPRIEST],
+    title: TITLES[VOTIVE_JESUSETERNALPRIEST],
     tags: ["Votive", "Thursday"],
   },
   {
     ref: "cordis-jesu",
     id: VOTIVE_PENT02_5,
-    title: TITLES_PT[VOTIVE_PENT02_5],
+    title: TITLES[VOTIVE_PENT02_5],
     tags: ["Votive", "Friday"],
   },
   {
     ref: "cordis-mariae",
     id: VOTIVE_08_22,
-    title: TITLES_PT[VOTIVE_08_22],
+    title: TITLES[VOTIVE_08_22],
     tags: ["Votive", "First Saturday"],
   },
 ];
 
-export const SECTION_LABELS_PT = {
+export const SECTION_LABELS = {
   Communicantes: "Communicantes",
   CommunioP: "Comúnio",
   Communio: "Comúnio",
@@ -3339,7 +2484,7 @@ export const SECTION_LABELS_PT = {
   "Benedictio cinerum": "Bênção das Cinzas",
 };
 
-export const SECTION_LABELS_MULTI_PT = {
+export const SECTION_LABELS_MULTI = {
   GradualeL1: "Gradual",
   GradualeL2: "Gradual",
   GradualeL3: "Gradual",
@@ -3361,7 +2506,7 @@ export const SECTION_LABELS_MULTI_PT = {
   EvangeliumL1: "Evangelho",
 };
 
-export const PATERNOSTER_PT = `
+export const PATERNOSTER = `
     "Pai nosso, que estais nos céus;\n" \
     "Santificado seja o Vosso nome;\n" \
     "Venha a nós o Vosso reino;\n" \
@@ -3371,7 +2516,7 @@ export const PATERNOSTER_PT = `
     "E não nos deixeis cair em tentação.\n" \
     "Mas livrai-nos do mal.`;
 
-export const TRANSFORMATIONS_PT = [
+export const TRANSFORMATIONS = [
   { pattern: /\+\+/, replacement: "☩" },
   { pattern: /\+/, replacement: "☩" },
   { pattern: /V\./, replacement: "℣." },
@@ -3408,12 +2553,12 @@ export const TRANSFORMATIONS_PT = [
     replacement: "℣. O Senhor seja convosco.    \n\r℟. E com o vosso espírito.",
   },
   { pattern: /^\*Modlitwa nad ludem\*.*$/, replacement: "" },
-  { pattern: /^\$Pater noster.*$/, replacement: PATERNOSTER_PT },
+  { pattern: /^\$Pater noster.*$/, replacement: PATERNOSTER },
   { pattern: /\(rubrica 1955 aut rubrica 1960 dicitur\)/, replacement: "" },
   { pattern: /\(deinde dicuntur semper\)/, replacement: "" },
 ];
 
-export const COMMEMORATIONS_PT = {
+export const COMMEMORATIONS = {
   COMMEMORATION: "Comemoração",
   COMMEMORATED_ORATIO: "Comemoração Oração",
   COMMEMORATED_SECRETA: "Comemoração Secreta",
