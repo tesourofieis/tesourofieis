@@ -173,7 +173,7 @@ class Calendar {
   private fillInSanctiDays() {
     for (const [date] of this.container.entries()) {
       const dateId = format(date, "MM-dd");
-      const days = SANCTI.filter((ii) => ii.startsWith(`sancti:${dateId}`)).map(
+      const days = SANCTI.filter((ii) => ii.startsWith(`santos:${dateId}`)).map(
         (ii) => new Observance(ii, date),
       );
 

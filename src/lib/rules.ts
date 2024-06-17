@@ -57,7 +57,7 @@ function ruleNativityHasMultipleMasses(
   const nativityObservance = match(observances, SANCTI_12_25_1);
   if (nativityObservance) {
     const nativityMasses = observances.filter((ld) =>
-      ld.id.startsWith("sancti:12-25m"),
+      ld.id.startsWith("santos:12-25-"),
     );
     return [nativityMasses.reverse(), [], []];
   }
@@ -72,7 +72,7 @@ function ruleAllSouls(
 ) {
   if (match(observances, SANCTI_11_02_1)) {
     const allSouls = observances
-      .filter((ld) => ld.id.startsWith("sancti:11-02m"))
+      .filter((ld) => ld.id.startsWith("santos:11-02-"))
       .reverse();
     if (isSunday(date_)) {
       return [allSouls, [match(observances, PATTERN_TEMPORA_SUNDAY)], []];

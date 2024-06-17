@@ -1,0 +1,148 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`S. Gabriel de Nossa Senhora das Dores 2024 1`] = `
+Day {
+  "celebration": [
+    Observance {
+      "colors": [
+        "v",
+      ],
+      "date": "2024-02-28",
+      "flexibility": "tempora",
+      "id": "tempora:Quad2-3:3:v",
+      "link": "missal/tempora/Quad2-3",
+      "name": "Quad2-3",
+      "priority": 57,
+      "rank": 3,
+      "title": "Quarta-feira da 2ª semana da Quaresma",
+      "weekday": 3,
+    },
+  ],
+  "commemoration": [
+    Observance {
+      "colors": [
+        "w",
+      ],
+      "date": "2024-02-27",
+      "flexibility": "santos",
+      "id": "santos:02-27:3:w",
+      "link": "missal/santos/02-27",
+      "name": "02-27",
+      "priority": 79,
+      "rank": 3,
+      "title": "S. Gabriel de Nossa Senhora das Dores",
+      "weekday": 2,
+    },
+  ],
+  "date": "2024-02-28",
+  "tempora": [
+    Observance {
+      "colors": [
+        "v",
+      ],
+      "date": "2024-02-28",
+      "flexibility": "tempora",
+      "id": "tempora:Quad2-3:3:v",
+      "link": "missal/tempora/Quad2-3",
+      "name": "Quad2-3",
+      "priority": 57,
+      "rank": 3,
+      "title": "Quarta-feira da 2ª semana da Quaresma",
+      "weekday": 3,
+    },
+  ],
+}
+`;
+
+exports[`S. Gabriel de Nossa Senhora das Dores 2025 1`] = `
+Day {
+  "celebration": [
+    Observance {
+      "colors": [
+        "w",
+      ],
+      "date": "2025-02-27",
+      "flexibility": "santos",
+      "id": "santos:02-27:3:w",
+      "link": "missal/santos/02-27",
+      "name": "02-27",
+      "priority": 79,
+      "rank": 3,
+      "title": "S. Gabriel de Nossa Senhora das Dores",
+      "weekday": 4,
+    },
+  ],
+  "commemoration": [],
+  "date": "2025-02-27",
+  "tempora": [
+    Observance {
+      "colors": [
+        "v",
+      ],
+      "date": "2025-02-27",
+      "flexibility": "tempora",
+      "id": "tempora:Quadp2-4:4:v",
+      "link": "missal/tempora/Quadp2-4",
+      "name": "Quadp2-4",
+      "priority": 80,
+      "rank": 4,
+      "title": "Quinta-feira da semana da Sexagésima",
+      "weekday": 4,
+    },
+  ],
+}
+`;
+
+exports[`Segunda-feira da 3ª semana da Quaresma 1`] = `
+Day {
+  "celebration": [
+    Observance {
+      "colors": [
+        "v",
+      ],
+      "date": "2025-03-24",
+      "flexibility": "tempora",
+      "id": "tempora:Quad3-1:3:v",
+      "link": "missal/tempora/Quad3-1",
+      "name": "Quad3-1",
+      "priority": 61,
+      "rank": 3,
+      "title": "Segunda-feira da 3ª semana da Quaresma",
+      "weekday": 1,
+    },
+  ],
+  "commemoration": [
+    Observance {
+      "colors": [
+        "w",
+      ],
+      "date": "2025-03-24",
+      "flexibility": "santos",
+      "id": "santos:03-24:3:w",
+      "link": "missal/santos/03-24",
+      "name": "03-24",
+      "priority": 79,
+      "rank": 3,
+      "title": "S. Gabriel Arcanjo",
+      "weekday": 1,
+    },
+  ],
+  "date": "2025-03-24",
+  "tempora": [
+    Observance {
+      "colors": [
+        "v",
+      ],
+      "date": "2025-03-24",
+      "flexibility": "tempora",
+      "id": "tempora:Quad3-1:3:v",
+      "link": "missal/tempora/Quad3-1",
+      "name": "Quad3-1",
+      "priority": 61,
+      "rank": 3,
+      "title": "Segunda-feira da 3ª semana da Quaresma",
+      "weekday": 1,
+    },
+  ],
+}
+`;
