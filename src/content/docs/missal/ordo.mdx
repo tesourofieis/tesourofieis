@@ -6,13 +6,11 @@ hero:
     file: ../../../assets/altar.jpeg
 ---
 
-import { getDay } from "../../../lib/getDay.ts";
-import { yyyyMMDD } from "../../../lib/utils.ts";
-import { Card, LinkCard } from "@astrojs/starlight/components";
+import { getCalendarDay } from "../../../lib/getCalendar";
+import { yyyyMMDD } from "../../../lib/utils";
+import LinkCard from "../../../components/LinkCard";
 
-import Proper from "../../../components/Proper.tsx";
-
-<Proper client:visible />
+export const calendar = getCalendarDay(yyyyMMDD(new Date()));
 
 ## Missa dos Catecúmenos
 
@@ -25,9 +23,11 @@ import Proper from "../../../components/Proper.tsx";
 
 <div className="side-by-side not-content">
 
-<span class="cross text-red-500">✠</span> In nómine Patris, et Fílii, et Spíritus Sancti.
+<span class="cross text-red-500">✠</span> In nómine Patris, et Fílii, et Spíritus
+Sancti.
 
-<span class="cross text-red-500">✠</span> Em nome do Pai, e do Filho, e do Espírito Santo.
+<span class="cross text-red-500">✠</span> Em nome do Pai, e do Filho, e do Espírito
+Santo.
 
 <span class="text-red-500">℟.</span> Amen.
 
@@ -62,25 +62,31 @@ import Proper from "../../../components/Proper.tsx";
 
 ℣. Julgai-me, ó Deus, e defendei a minha causa da gente infiel; livrai-me do homem iníquo e ardiloso.
 
-<span class="text-red-500">℟.</span> Quia tu es, Deus, fortitudo mea: quare me reppulísti, et quare tristis incédo, dum afflígit me inimícus?
+<span class="text-red-500">℟.</span> Quia tu es, Deus, fortitudo mea: quare me reppulísti,
+et quare tristis incédo, dum afflígit me inimícus?
 
-<span class="text-red-500">℟.</span> Pois que Vós, ó Deus, sois a minha fortaleza, porque me repelistes? E porque ando triste enquanto o meu inimigo me aflige?
+<span class="text-red-500">℟.</span> Pois que Vós, ó Deus, sois a minha fortaleza,
+porque me repelistes? E porque ando triste enquanto o meu inimigo me aflige?
 
 ℣. Emítte lucem tuam et veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum et in tabernácula tua.
 
 ℣. Enviai a vossa luz e a vossa verdade; elas me guiarão e conduzirão até ao vosso santo monte, até aos vossos tabernáculos.
 
-<span class="text-red-500">℟.</span> Et introíbo ad altáre Dei: ad Deum, qui lætíficat juventútem meam.
+<span class="text-red-500">℟.</span> Et introíbo ad altáre Dei: ad Deum, qui lætíficat
+juventútem meam.
 
-<span class="text-red-500">℟.</span> E irei até ao Altar de Deus; até Deus, que é a alegria da minha juventude.
+<span class="text-red-500">℟.</span> E irei até ao Altar de Deus; até Deus, que é
+a alegria da minha juventude.
 
 ℣. Confitébor tibi in cíthara, Deus, Deus meus: quare tristis es, ánima mea, et quare contúrbas me?
 
 ℣. Ó Deus, ó meu Deus, louvar-Vos-ei com a cítara. Porque estás triste, ó minha alma? Porque te perturbas?
 
-<span class="text-red-500">℟.</span> Spera in Deo, quóniam adhuc confitébor illi: salutáre vultus mei, et Deus meus.
+<span class="text-red-500">℟.</span> Spera in Deo, quóniam adhuc confitébor illi:
+salutáre vultus mei, et Deus meus.
 
-<span class="text-red-500">℟.</span> Confia em Deus, pois ainda O louvarei. Ele é a minha salvação e o meu Deus.
+<span class="text-red-500">℟.</span> Confia em Deus, pois ainda O louvarei. Ele é
+a minha salvação e o meu Deus.
 
 </div>
 
@@ -95,9 +101,11 @@ import Proper from "../../../components/Proper.tsx";
 
 ℣. Glória ao Pai, e ao Filho, e ao Espírito Santo.
 
-<span class="text-red-500">℟.</span> Sicut erat in princípio, et nunc, et semper: et in sǽcula sæculórum. Amen.
+<span class="text-red-500">℟.</span> Sicut erat in princípio, et nunc, et semper:
+et in sǽcula sæculórum. Amen.
 
-<span class="text-red-500">℟.</span> Assim como era no princípio, e agora, e sempre, por todos os séculos dos séculos. Amen.
+<span class="text-red-500">℟.</span> Assim como era no princípio, e agora, e sempre,
+por todos os séculos dos séculos. Amen.
 
 </div>
 
@@ -138,9 +146,11 @@ import Proper from "../../../components/Proper.tsx";
 
 ℣. Eu me confesso a Deus...
 
-<span class="text-red-500">℟.</span> Misereátur vestri omnípotens Deus, et, dimíssis peccátis vestris, perdúcat vos ad vitam ætérnam.
+<span class="text-red-500">℟.</span> Misereátur vestri omnípotens Deus, et, dimíssis
+peccátis vestris, perdúcat vos ad vitam ætérnam.
 
-<span class="text-red-500">℟.</span> Compadeça-se de vós o Senhor omnipotente; vos perdoe os pecados e guie até à vida eterna.
+<span class="text-red-500">℟.</span> Compadeça-se de vós o Senhor omnipotente; vos
+perdoe os pecados e guie até à vida eterna.
 
 ℣. Amen.
 
@@ -152,9 +162,17 @@ import Proper from "../../../components/Proper.tsx";
 
 <div className="side-by-side not-content">
 
-<span class="text-red-500">℟.</span> Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo et ópere: <em>Percutit sibi pectus ter, dicens:</em>
+<span class="text-red-500">℟.</span> Confíteor Deo omnipoténti, beátæ Maríæ semper
+Vírgini, beáto Michǽli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro
+et Paulo, ómnibus Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo
+et ópere:
+<em>Percutit sibi pectus ter, dicens:</em>
 
-<span class="text-red-500">℟.</span> Eu me confesso a Deus, todo poderoso, à bem-aventurada sempre Virgem Maria, ao bem-aventurado S. Miguel Arcanjo, ao bem-aventurado S. João Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, a todos os santos, e a vós, Padre: que pequei muitas vezes por pensamentos, palavras e obras: <em> Baterá no peito três vezes, dizendo: </em>
+<span class="text-red-500">℟.</span> Eu me confesso a Deus, todo poderoso, à bem-aventurada
+sempre Virgem Maria, ao bem-aventurado S. Miguel Arcanjo, ao bem-aventurado S. João
+Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, a todos os santos, e a vós, Padre:
+que pequei muitas vezes por pensamentos, palavras e obras:
+<em>Baterá no peito três vezes, dizendo:</em>
 
 <strong>Mea culpa, mea culpa, mea máxima culpa.</strong>
 
@@ -247,9 +265,12 @@ Vos pedimos, Senhor, pelos méritos dos vossos Santos, cujas relíquias estão a
   todos se benzem, ao mesmo tempo que o celebrante.
 </aside>
 
-<Card>
-  <Proper client:visible section="Introitus" />
-</Card>
+<LinkCard
+  link={`/${calendar.celebration[0]?.link}#intróito`}
+  title={calendar.celebration[0]?.title}
+  caption={calendar.commemoration[0]?.title}
+  description={calendar.tempora[0].title}
+/>
 
 ### Kyrie Eleison
 
@@ -350,9 +371,12 @@ Glória a Deus nas alturas e paz na terra aos homens de boa vontade. Nós Vos lo
 <span class="text-red-500 text-center"> Oremos.</span>
 </div>
 
-<Card>
-  <Proper client:visible section="Oratio" />
-</Card>
+<LinkCard
+  link={`/${calendar.celebration[0]?.link}#oração`}
+  title={calendar.celebration[0]?.title}
+  caption={calendar.commemoration[0]?.title}
+  description={calendar.tempora[0].title}
+/>
 
 <div className="side-by-side not-content">
 
@@ -368,9 +392,12 @@ Glória a Deus nas alturas e paz na terra aos homens de boa vontade. Nós Vos lo
 
 ### Epístola do dia
 
-<Card>
-  <Proper client:visible section="Lectio" />
-</Card>
+<LinkCard
+  link={`/${calendar.celebration[0]?.link}#epístola`}
+  title={calendar.celebration[0]?.title}
+  caption={calendar.commemoration[0]?.title}
+  description={calendar.tempora[0].title}
+/>
 
 <div className="side-by-side not-content">
   
@@ -387,15 +414,12 @@ Glória a Deus nas alturas e paz na terra aos homens de boa vontade. Nós Vos lo
   retirados dos Salmos ou do Antigo Testamento.
 </aside>
 
-<Card>
-  <Proper client:visible section="Graduale" />
-  <Proper client:visible section="GradualeP" />
-  <Proper client:visible section="GradualeF" />
-</Card>
-
-<Card>
-  <Proper client:visible section="Tractus" />
-</Card>
+<LinkCard
+  link={`/${calendar.celebration[0]?.link}#gradual`}
+  title={calendar.celebration[0]?.title}
+  caption={calendar.commemoration[0]?.title}
+  description={calendar.tempora[0].title}
+/>
 
 <aside>
   No Tempo da Septuagésima, o Allelúja é substituído pelo Trato. No Tempo
@@ -457,9 +481,12 @@ Dignai-Vos, Senhor, abençoar-me. Que o Senhor esteja no meu coração e nos meu
 
 </div>
 
-<Card>
-  <Proper client:visible section="Evangelium" />
-</Card>
+<LinkCard
+  link={`/${calendar.celebration[0]?.link}#evangelho`}
+  title={calendar.celebration[0]?.title}
+  caption={calendar.commemoration[0]?.title}
+  description={calendar.tempora[0].title}
+/>
 
 <div className="side-by-side not-content">
 
@@ -547,9 +574,12 @@ Também por nós foi crucificado sob Pôncio Pilatos, padeceu e foi sepultado. R
 
 ### Ofertório do dia
 
-<Card>
-  <Proper client:visible section="Offertorium" />
-</Card>
+<LinkCard
+  link={`/${calendar.celebration[0]?.link}#ofertório`}
+  title={calendar.celebration[0]?.title}
+  caption={calendar.commemoration[0]?.title}
+  description={calendar.tempora[0].title}
+/>
 
 #### Oferecimento do pão:
 
@@ -655,9 +685,11 @@ Suba como incenso até Vós, Senhor, a minha oração: a elevação das minhas m
 
 <div className="side-by-side not-content">
 
-<span class="text-red-500">℟.</span> Accéndat in nobis Dóminus ignem sui amóris, et flammam ætérnæ caritátis. Amen.
+<span class="text-red-500">℟.</span> Accéndat in nobis Dóminus ignem sui amóris,
+et flammam ætérnæ caritátis. Amen.
 
-<span class="text-red-500">℟.</span> Que o Senhor acenda em nós o fogo do seu amor e a chama da eterna caridade. Amen.
+<span class="text-red-500">℟.</span> Que o Senhor acenda em nós o fogo do seu amor
+e a chama da eterna caridade. Amen.
 
 </div>
 
@@ -723,9 +755,13 @@ Glória ao Pai, e ao Filho, e ao Espírito Santo. Assim como era no princípio, 
 
 ℣. Orai, meus irmãos, a fim de que meu sacrifício, que é também vosso, seja recebido por Deus Pai omnipotente.
 
-<span class="text-red-500">℟.</span> Suscípiat Dóminus sacrifícium de mánibus tuis ad laudem et glóriam nominis sui, ad utilitátem quoque nostram, totiúsque Ecclésiæ suæ sanctæ.
+<span class="text-red-500">℟.</span> Suscípiat Dóminus sacrifícium de mánibus tuis
+ad laudem et glóriam nominis sui, ad utilitátem quoque nostram, totiúsque Ecclésiæ
+suæ sanctæ.
 
-<span class="text-red-500">℟.</span> Que o Senhor receba por vossas mãos este sacrifício para a honra e glória de seu Nome, e também para a nossa utilidade e de toda sua santa Igreja.
+<span class="text-red-500">℟.</span> Que o Senhor receba por vossas mãos este sacrifício
+para a honra e glória de seu Nome, e também para a nossa utilidade e de toda sua
+santa Igreja.
 
 </div>
 
@@ -746,9 +782,12 @@ Glória ao Pai, e ao Filho, e ao Espírito Santo. Assim como era no princípio, 
 
 ### Secreta do dia
 
-<Card>
-  <Proper client:visible section="Secreta" />
-</Card>
+<LinkCard
+  link={`/${calendar.celebration[0]?.link}#secreta`}
+  title={calendar.celebration[0]?.title}
+  caption={calendar.commemoration[0]?.title}
+  description={calendar.tempora[0].title}
+/>
 
 <div className="side-by-side not-content">
 
@@ -801,9 +840,9 @@ Glória ao Pai, e ao Filho, e ao Espírito Santo. Assim como era no princípio, 
 
 ### Prefácio do dia
 
-<Card>
-  <Proper client:visible section="Prefatio" />
-</Card>
+import { LinkCard as Link } from "@astrojs/starlight/components";
+
+<Link href="/missal/prefacios" description="Prefácios" />
 
 ### Sanctus
 
@@ -913,9 +952,16 @@ Símili modo postquam cœnátum est, accípiens et hunc præclárum Cálicem in 
 
 Do mesmo modo, Jesus, após a Ceia, tomou em suas santas e veneráveis mãos este precioso Cálice, e, novamente, dando-Vos graças, abençoou-o <span class="cross text-red-500">✠</span> e deu-o aos seus discípulos dizendo:
 
-<strong>Hic est enim Calix Sánguinis mei, novi et ætérni testaménti: mystérium fídei: qui pro vobis et pro multis effundétur in remissiónem peccatórum. </strong>
+<strong>
+  Hic est enim Calix Sánguinis mei, novi et ætérni testaménti: mystérium fídei:
+  qui pro vobis et pro multis effundétur in remissiónem peccatórum.{" "}
+</strong>
 
-<strong> Pois isto é o Cálice do meu Sangue do novo e eterno testamento, mystério da fé, que será derramado por vós e por muitos, para a remissão dos pecados. </strong>
+<strong>
+  {" "}
+  Pois isto é o Cálice do meu Sangue do novo e eterno testamento, mystério da fé,
+  que será derramado por vós e por muitos, para a remissão dos pecados.{" "}
+</strong>
 
 </div>
 
@@ -1237,9 +1283,15 @@ Que o Sangue de nosso Senhor Jesus Cristo guarde a minha alma para a vida eterna
 
 <div className="side-by-side not-content">
 
-<span class="text-red-500">℟.</span> Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo et ópere:
+<span class="text-red-500">℟.</span> Confíteor Deo omnipoténti, beátæ Maríæ semper
+Vírgini, beáto Michǽli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro
+et Paulo, ómnibus Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo
+et ópere:
 
-<span class="text-red-500">℟.</span> Eu me confesso a Deus, todo poderoso, à bem-aventurada sempre Virgem Maria, ao bem-aventurado S. Miguel Arcanjo, ao bem-aventurado S. João Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, a todos os santos, e a vós, Padre: que pequei muitas vezes por pensamentos, palavras e obras:
+<span class="text-red-500">℟.</span> Eu me confesso a Deus, todo poderoso, à bem-aventurada
+sempre Virgem Maria, ao bem-aventurado S. Miguel Arcanjo, ao bem-aventurado S. João
+Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, a todos os santos, e a vós, Padre:
+que pequei muitas vezes por pensamentos, palavras e obras:
 
 </div>
 
@@ -1304,9 +1356,11 @@ Portanto rogo à bem-aventurada sempre Virgem Maria, ao bem-aventurado S. Miguel
 
 <div className="side-by-side not-content">
 
-<span class="text-red-500">℟.</span> Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.
+<span class="text-red-500">℟.</span> Dómine, non sum dignus, ut intres sub tectum
+meum: sed tantum dic verbo, et sanábitur ánima mea.
 
-<span class="text-red-500">℟.</span> Senhor, eu não sou digno de que entreis na minha morada, mas dizei uma só palavra e a minha alma será salva.
+<span class="text-red-500">℟.</span> Senhor, eu não sou digno de que entreis na minha
+morada, mas dizei uma só palavra e a minha alma será salva.
 
 </div>
 
@@ -1357,9 +1411,12 @@ Senhor, que o vosso Corpo, que recebi, e o vosso sangue, que bebi, se unam intim
   Comunhão.
 </aside>
 
-<Card>
-  <Proper client:visible section="Communio" />
-</Card>
+<LinkCard
+  link={`/${calendar.celebration[0]?.link}#comúnio`}
+  title={calendar.celebration[0]?.title}
+  caption={calendar.commemoration[0]?.title}
+  description={calendar.tempora[0].title}
+/>
 
 <div className="side-by-side not-content">
 
@@ -1375,9 +1432,12 @@ Senhor, que o vosso Corpo, que recebi, e o vosso sangue, que bebi, se unam intim
 
 ### Postcomúnio do dia
 
-<Card>
-  <Proper client:visible section="Postcommunio" />
-</Card>
+<LinkCard
+  link={`/${calendar.celebration[0]?.link}#postcomúnio`}
+  title={calendar.celebration[0]?.title}
+  caption={calendar.commemoration[0]?.title}
+  description={calendar.tempora[0].title}
+/>
 
 ### Despedida e Bênção
 
@@ -1489,13 +1549,14 @@ Senhor, que o vosso Corpo, que recebi, e o vosso sangue, que bebi, se unam intim
 
 <span class="cross text-red-500">✠</span> Initium sancti Evangélii secúndum Joánnem.
 
-<span class="cross text-red-500">✠</span> Princípio do santo Evangelho segundo S.  João.
+<span class="cross text-red-500">✠</span> Princípio do santo Evangelho segundo S.
+João.
 
 <span class="text-red-500">℟.</span> Glória tibi, Dómine.
 
 <span class="text-red-500">℟.</span> Glória a Vós, Senhor.
 
-In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in princípio apud Deum. Omnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est: in ipso vita erat, et vita erat lux hóminum: et lux in ténebris lucet, et ténebræ eam non comprehendérunt.  Fuit homo missus a Deo, cui nomen erat Joánnes. Hic venit in testimónium, ut testimónium perhibéret de lúmine, ut omnes créderent per illum. Non erat ille lux, sed ut testimónium perhibéret de lúmine. Erat lux vera, quæ illúminat omnem hóminem veniéntem in hunc mundum. In mundo erat, et mundus per ipsum factus est, et mundus eum non cognóvit.  In própria venit, et sui eum non recepérunt. Quotquot autem recepérunt eum, dedit eis potestátem fílios Dei fíeri, his, qui credunt in nómine ejus: qui non ex sanguínibus, neque ex voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt.  <em>Hic genuflectitur</em> Et Verbum caro factum est, et habitávit in nobis: et vídimus glóriam ejus, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.
+In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in princípio apud Deum. Omnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est: in ipso vita erat, et vita erat lux hóminum: et lux in ténebris lucet, et ténebræ eam non comprehendérunt. Fuit homo missus a Deo, cui nomen erat Joánnes. Hic venit in testimónium, ut testimónium perhibéret de lúmine, ut omnes créderent per illum. Non erat ille lux, sed ut testimónium perhibéret de lúmine. Erat lux vera, quæ illúminat omnem hóminem veniéntem in hunc mundum. In mundo erat, et mundus per ipsum factus est, et mundus eum non cognóvit. In própria venit, et sui eum non recepérunt. Quotquot autem recepérunt eum, dedit eis potestátem fílios Dei fíeri, his, qui credunt in nómine ejus: qui non ex sanguínibus, neque ex voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt. <em>Hic genuflectitur</em> Et Verbum caro factum est, et habitávit in nobis: et vídimus glóriam ejus, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.
 
 No princípio existia o Verbo, e o Verbo estava com Deus, e o Verbo era Deus. Este estava no princípio com Deus. Todas as coisas foram por Ele criadas, e nada daquilo que foi criado teria sido criado sem Ele. N’Ele havia vida, e a vida era a luz dos homens. A luz resplandeceu nas trevas, mas as trevas a não receberam. Apareceu um homem, mandado por Deus, e o seu nome era João, o qual veio como testemunha, para dar testemunho da luz, a fim de que por ele todos acreditassem. Ele não era a luz, mas aquele que havia de dar testemunho da luz. Existia a luz verdadeira, a luz que ilumina todo o homem que vem a este mundo. Ele estava no mundo, e o mundo, embora houvesse sido criado por Ele, O não conheceu. Veio ao que era seu, e os seus O não receberam. Porém, Ele a todos quantos O receberam e aos que acreditaram no seu nome deu o poder de serem filhos de Deus, os quais não nasceram do sangue, nem do desejo da carne, mas somente da vontade de Deus. E o Verbo fez-se carne <em>genuflecte-se</em> e habitou entre nós; e contemplamos a sua glória, como era própria do Filho Unigénito do Pai, cheio de graça e de verdade.
 

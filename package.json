@@ -27,6 +27,7 @@
     "@astrojs/starlight-tailwind": "^2.0.3",
     "@astrojs/tailwind": "^5.1.0",
     "@date-fns/utc": "^1.2.0",
+    "@iconify/react": "^5.0.1",
     "@tauri-apps/api": "^2.0.0-beta.7",
     "@tauri-apps/cli": "^2.0.0-beta.12",
     "@tauri-apps/plugin-notification": "^2.0.0-beta.2",
@@ -34,11 +35,9 @@
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
     "astro": "^4.10.3",
-    "astro-icon": "^1.1.0",
     "date-fns": "^3.6.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "unplugin-icons": "^0.18.5"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.5.10",

@@ -6,6 +6,7 @@ import {
   sendNotification,
 } from "@tauri-apps/plugin-notification";
 import { useEffect, useState } from "react";
+import Calendar from "./Calendar";
 import LinkCard from "./LinkCard";
 import Loading from "./Loading";
 import Office from "./Office";
@@ -64,10 +65,6 @@ export default function InteractiveCard() {
       <div className="flex justify-between not-content">
         <h2>Dia e Hora</h2>
       </div>
-      <span className="italic">
-        Muda a Missa, o Ofício, o Angelus e as orações do dia consoante o dia e
-        a hora
-      </span>
       <span className="font-bold">
         {new Date().toLocaleTimeString("pt", {
           month: "long",
@@ -79,9 +76,9 @@ export default function InteractiveCard() {
       {calendar.celebration.map((i) => (
         <LinkCard
           link={i.link}
-          title={i.title}
+          description={i.title}
           caption={calendar.commemoration[0]?.title}
-          description={calendar.tempora[0].title}
+          title={calendar.tempora[0]?.title}
         />
       ))}
       <Office />
@@ -104,6 +101,9 @@ export default function InteractiveCard() {
           title="Oração da Noite"
         />
       )}
+
+      <h3>Calendário</h3>
+      <Calendar />
     </div>
   );
 }

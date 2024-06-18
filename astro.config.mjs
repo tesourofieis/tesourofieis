@@ -6,11 +6,8 @@ import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import react from "@astrojs/react";
 const site = "https://tesourofieis.com";
 import sitemap from "@astrojs/sitemap";
-import Icons from "unplugin-icons/vite";
 import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
-
-import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
@@ -170,7 +167,6 @@ export default defineConfig({
         forward: ["dataLayer.push"],
       },
     }),
-    icon(),
   ],
   markdown: {
     rehypePlugins: [rehypeHeadingIds],
@@ -179,11 +175,6 @@ export default defineConfig({
     watch: false,
   },
   vite: {
-    plugins: [
-      Icons({
-        compiler: "astro",
-      }),
-    ],
     server: {
       watch: {
         ignored: [
