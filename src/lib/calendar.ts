@@ -386,19 +386,19 @@ class Calendar {
 
     if (day?.celebration.length) {
       // Handling exceptions
-      if (day?.celebration[0].id === TEMPORA_EPI1_0) {
+      if (day?.celebration[0]?.id === TEMPORA_EPI1_0) {
         // "Feast of the Holy Family" replaces "First Sunday after Epiphany"; use the latter in
         // following days without the own proper
         return new Observance(TEMPORA_EPI1_0A, yyyyMMDD(date));
       }
 
-      if (day?.celebration[0].id === TEMPORA_PENT01_0) {
+      if (day?.celebration[0]?.id === TEMPORA_PENT01_0) {
         // "Trinity Sunday" replaces "1st Sunday after Pentecost"; use the latter in
         // following days without the own proper
         return new Observance(TEMPORA_PENT01_0, yyyyMMDD(date));
       }
 
-      if (day?.celebration[0].id === TEMPORA_NAT2_0) {
+      if (day?.celebration[0]?.id === TEMPORA_NAT2_0) {
         // When the last Sunday is the feast of Holy Name, use proper from Octave of the Nativity
         return new Observance(SANCTI_01_01, yyyyMMDD(date));
       }

@@ -724,25 +724,19 @@ export const COMMUNE_C_10B = "commune:28missamaria2:0:w"; // B. V. M. Saturdays 
 export const COMMUNE_C_10C = "commune:29missamaria3:0:w"; // B. V. M. Saturdays between Feb 2 and Wednesday in Holy Week
 export const COMMUNE_C_10PASC = "commune:30missamaria4:0:w"; // B. V. M. Saturdays in Easter period
 export const COMMUNE_C_10T = "commune:31missamaria5:0:w"; // B. V. M. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
-export const VOTIVE_PENT01_0 = "votivas:pent01-0:0:w"; // Trinity
-export const VOTIVE_PENT02_5 = "votivas:pent02-5:0:w"; // Sacred Heart of Jesus
+export const VOTIVE_PENT01_0 = "votivas:pent1-0:0:w"; // Trinity
+export const VOTIVE_PENT02_5 = "votivas:pent2-5:0:w"; // Sacred Heart of Jesus
 export const VOTIVE_08_22 = "votivas:08-22:0:w"; // Immaculate Heart of B. V. M.
-export const VOTIVE_ANGELS = "votivas:Angels:0:w";
-export const VOTIVE_JOSEPH = "votivas:Joseph:0:w";
-export const VOTIVE_PETERPAUL = "votivas:PeterPaul:0:r";
-export const VOTIVE_PETERPAULP = "votivas:PeterPaulP:0:r";
-export const VOTIVE_APOSTLES = "votivas:Apostles:0:r";
-export const VOTIVE_APOSTLESP = "votivas:ApostlesP:0:r";
-export const VOTIVE_HOLYSPIRIT = "votivas:HolySpirit:0:r";
-export const VOTIVE_HOLYSPIRIT2 = "votivas:HolySpirit2:0:r";
-export const VOTIVE_BLESSEDSACRAMENT = "votivas:BlessedSacrament:0:w";
-export const VOTIVE_JESUSETERNALPRIEST = "votivas:JesusEternalPriest:0:w";
-export const VOTIVE_CROSS = "votivas:Cross:0:r";
-export const VOTIVE_PASSION = "votivas:Passion:0:r";
-export const VOTIVE_DEFUNCTORUM = "votivas:Defunctorum:0:b";
-export const VOTIVE_MORTALITATIS = "votivas:TemporeMortalitatis:0:v";
-export const VOTIVE_FIDEI_PROPAGATIONE = "votivas:FideiPropagatione:0:v";
-export const VOTIVE_MATRIMONIUM = "votivas:Matrimonium:0:w";
+export const VOTIVE_ANGELS = "votivas:anjos:0:w";
+export const VOTIVE_JOSEPH = "votivas:jose:0:w";
+export const VOTIVE_PETERPAUL = "votivas:pedropaulo:0:r";
+export const VOTIVE_APOSTLES = "votivas:apostolos:0:r";
+export const VOTIVE_HOLYSPIRIT = "votivas:espiritosanto:0:r";
+export const VOTIVE_BLESSEDSACRAMENT = "votivas:santissimosacramento:0:w";
+export const VOTIVE_JESUSETERNALPRIEST = "votivas:jesuseternosacerdote:0:w";
+export const VOTIVE_CROSS = "votivas:santacruz:0:r";
+export const VOTIVE_PASSION = "votivas:paixao:0:r";
+export const VOTIVE_FIDEI_PROPAGATIONE = "votivas:propagacaofe:0:v";
 
 export const EMBER_DAYS = [
   TEMPORA_QUAD1_3, // Ember Wednesday of Lent
@@ -849,12 +843,6 @@ export const FEASTS_OF_JESUS_CLASS_1_AND_2: string[] = [
   SANCTI_01_13,
   SANCTI_02_02,
   SANCTI_08_06,
-];
-
-export const OBSERVANCES_WITHOUT_OWN_PROPER: RegExp[] = [
-  // Advent feria except Ember Days
-  /^tempora:Adv[124]-[1-6]/,
-  /^tempora:Adv[3]-[124]/,
 ];
 
 export const POST_EPIPHANY = [
