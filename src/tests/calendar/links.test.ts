@@ -4,7 +4,7 @@ import { getYear } from "date-fns";
 import { describe, expect, test } from "vitest";
 import { getCalendar } from "../../lib/getCalendar";
 
-describe("calendar", () => {
+describe("link", () => {
   const currentYear = getYear(new Date());
   const calendar = getCalendar(currentYear);
   const allPages = getAllPagesContent("src/content/docs/missal");
@@ -12,7 +12,7 @@ describe("calendar", () => {
   const links = Object.values(calendar).map((day) => day.celebration[0].link);
 
   for (const link of links) {
-    test(`link "${link}" should exist`, () => {
+    test(`should exist "${link}`, () => {
       const found = allPages.some((page) => page.includes(link));
 
       expect(found).toBe(true);
