@@ -5,7 +5,6 @@ import {
   ADVENT,
   EMBER_DAYS_SEPTEMBER,
   FROM_PRE_LENT_TO_POST_PENTECOST,
-  NATIVITY_OCTAVE_FERIA,
   NATIVITY_OCTAVE_SUNDAY,
   POST_EPIPHANY,
   SANCTI,
@@ -115,24 +114,6 @@ class Calendar {
     if (christmasOctaveSunday) {
       this.insertBlock(christmasOctaveSunday, NATIVITY_OCTAVE_SUNDAY);
     }
-    this.insertBlock(
-      new UTCDate(this.year, 11, 29),
-      NATIVITY_OCTAVE_FERIA,
-      false,
-      false,
-    );
-    this.insertBlock(
-      new UTCDate(this.year, 11, 30),
-      NATIVITY_OCTAVE_FERIA,
-      false,
-      false,
-    );
-    this.insertBlock(
-      new UTCDate(this.year, 11, 31),
-      NATIVITY_OCTAVE_FERIA,
-      false,
-      false,
-    );
   }
 
   private insertBlock(

@@ -219,70 +219,70 @@ export const TEMPORA_PASC7_3 = "tempora:pasc7-3:1:r"; // Ember Wednesday in Octa
 export const TEMPORA_PASC7_4 = "tempora:pasc7-4:1:r";
 export const TEMPORA_PASC7_5 = "tempora:pasc7-5:1:r"; // Ember Friday in Octave of Pentecost
 export const TEMPORA_PASC7_6 = "tempora:pasc7-6:1:r"; // Ember Saturday in Octave of Pentecost
-export const TEMPORA_PENT01_0A = "tempora:pent01-0a:2:g"; // 1st Sunday after Pentecost
-export const TEMPORA_PENT01_0 = "tempora:pent01-0:1:w"; // Trinity Sunday
-export const TEMPORA_PENT01_1 = "tempora:pent01-1:4:g";
-export const TEMPORA_PENT01_2 = "tempora:pent01-2:4:g";
-export const TEMPORA_PENT01_3 = "tempora:pent01-3:4:g";
-export const TEMPORA_PENT01_4 = "tempora:pent01-4:1:w"; // Corpus Christi
-export const TEMPORA_PENT01_5 = "tempora:pent01-5:4:g";
-export const TEMPORA_PENT01_6 = "tempora:pent01-6:4:g";
-export const TEMPORA_PENT02_0 = "tempora:pent02-0:2:g"; // Sunday in 2nd week after Pentecost
-export const TEMPORA_PENT02_1 = "tempora:pent02-1:4:g"; // Monday in 2nd week after Pentecost
-export const TEMPORA_PENT02_2 = "tempora:pent02-2:4:g"; // Tuesday in 2nd week after Pentecost
-export const TEMPORA_PENT02_3 = "tempora:pent02-3:4:g"; // Wednesday in 2nd week after Pentecost
-export const TEMPORA_PENT02_4 = "tempora:pent02-4:4:g"; // Thursday in 2nd week after Pentecost
-export const TEMPORA_PENT02_5 = "tempora:pent02-5:1:w"; // Feast of the Sacred Heart
-export const TEMPORA_PENT02_6 = "tempora:pent02-6Feria:4:g"; // Saturday in 2nd week after Pentecost
-export const TEMPORA_PENT03_0 = "tempora:pent03-0:2:g"; // Sunday in 3rd week after Pentecost
-export const TEMPORA_PENT03_1 = "tempora:pent03-1Feria:4:g";
-export const TEMPORA_PENT03_2 = "tempora:pent03-2Feria:4:g";
-export const TEMPORA_PENT03_3 = "tempora:pent03-3Feria:4:g";
-export const TEMPORA_PENT03_4 = "tempora:pent03-4Feria:4:g";
-export const TEMPORA_PENT03_5 = "tempora:pent03-5Feria:4:g";
-export const TEMPORA_PENT03_6 = "tempora:pent03-6:4:g";
-export const TEMPORA_PENT04_0 = "tempora:pent04-0:2:g";
-export const TEMPORA_PENT04_1 = "tempora:pent04-1:4:g";
-export const TEMPORA_PENT04_2 = "tempora:pent04-2:4:g";
-export const TEMPORA_PENT04_3 = "tempora:pent04-3:4:g";
-export const TEMPORA_PENT04_4 = "tempora:pent04-4:4:g";
-export const TEMPORA_PENT04_5 = "tempora:pent04-5:4:g";
-export const TEMPORA_PENT04_6 = "tempora:pent04-6:4:g";
-export const TEMPORA_PENT05_0 = "tempora:pent05-0:2:g";
-export const TEMPORA_PENT05_1 = "tempora:pent05-1:4:g";
-export const TEMPORA_PENT05_2 = "tempora:pent05-2:4:g";
-export const TEMPORA_PENT05_3 = "tempora:pent05-3:4:g";
-export const TEMPORA_PENT05_4 = "tempora:pent05-4:4:g";
-export const TEMPORA_PENT05_5 = "tempora:pent05-5:4:g";
-export const TEMPORA_PENT05_6 = "tempora:pent05-6:4:g";
-export const TEMPORA_PENT06_0 = "tempora:pent06-0:2:g";
-export const TEMPORA_PENT06_1 = "tempora:pent06-1:4:g";
-export const TEMPORA_PENT06_2 = "tempora:pent06-2:4:g";
-export const TEMPORA_PENT06_3 = "tempora:pent06-3:4:g";
-export const TEMPORA_PENT06_4 = "tempora:pent06-4:4:g";
-export const TEMPORA_PENT06_5 = "tempora:pent06-5:4:g";
-export const TEMPORA_PENT06_6 = "tempora:pent06-6:4:g";
-export const TEMPORA_PENT07_0 = "tempora:pent07-0:2:g";
-export const TEMPORA_PENT07_1 = "tempora:pent07-1:4:g";
-export const TEMPORA_PENT07_2 = "tempora:pent07-2:4:g";
-export const TEMPORA_PENT07_3 = "tempora:pent07-3:4:g";
-export const TEMPORA_PENT07_4 = "tempora:pent07-4:4:g";
-export const TEMPORA_PENT07_5 = "tempora:pent07-5:4:g";
-export const TEMPORA_PENT07_6 = "tempora:pent07-6:4:g";
-export const TEMPORA_PENT08_0 = "tempora:pent08-0:2:g";
-export const TEMPORA_PENT08_1 = "tempora:pent08-1:4:g";
-export const TEMPORA_PENT08_2 = "tempora:pent08-2:4:g";
-export const TEMPORA_PENT08_3 = "tempora:pent08-3:4:g";
-export const TEMPORA_PENT08_4 = "tempora:pent08-4:4:g";
-export const TEMPORA_PENT08_5 = "tempora:pent08-5:4:g";
-export const TEMPORA_PENT08_6 = "tempora:pent08-6:4:g";
-export const TEMPORA_PENT09_0 = "tempora:pent09-0:2:g";
-export const TEMPORA_PENT09_1 = "tempora:pent09-1:4:g";
-export const TEMPORA_PENT09_2 = "tempora:pent09-2:4:g";
-export const TEMPORA_PENT09_3 = "tempora:pent09-3:4:g";
-export const TEMPORA_PENT09_4 = "tempora:pent09-4:4:g";
-export const TEMPORA_PENT09_5 = "tempora:pent09-5:4:g";
-export const TEMPORA_PENT09_6 = "tempora:pent09-6:4:g";
+export const TEMPORA_PENT01_0A = "tempora:pent1-0a:2:g"; // 1st Sunday after Pentecost
+export const TEMPORA_PENT01_0 = "tempora:pent1-0:1:w"; // Trinity Sunday
+export const TEMPORA_PENT01_1 = "tempora:pent1-1:4:g";
+export const TEMPORA_PENT01_2 = "tempora:pent1-2:4:g";
+export const TEMPORA_PENT01_3 = "tempora:pent1-3:4:g";
+export const TEMPORA_PENT01_4 = "tempora:pent1-4:1:w"; // Corpus Christi
+export const TEMPORA_PENT01_5 = "tempora:pent1-5:4:g";
+export const TEMPORA_PENT01_6 = "tempora:pent1-6:4:g";
+export const TEMPORA_PENT02_0 = "tempora:pent2-0:2:g"; // Sunday in 2nd week after Pentecost
+export const TEMPORA_PENT02_1 = "tempora:pent2-1:4:g"; // Monday in 2nd week after Pentecost
+export const TEMPORA_PENT02_2 = "tempora:pent2-2:4:g"; // Tuesday in 2nd week after Pentecost
+export const TEMPORA_PENT02_3 = "tempora:pent2-3:4:g"; // Wednesday in 2nd week after Pentecost
+export const TEMPORA_PENT02_4 = "tempora:pent2-4:4:g"; // Thursday in 2nd week after Pentecost
+export const TEMPORA_PENT02_5 = "tempora:pent2-5:1:w"; // Feast of the Sacred Heart
+export const TEMPORA_PENT02_6 = "tempora:pent2-6Feria:4:g"; // Saturday in 2nd week after Pentecost
+export const TEMPORA_PENT03_0 = "tempora:pent3-0:2:g"; // Sunday in 3rd week after Pentecost
+export const TEMPORA_PENT03_1 = "tempora:pent3-1Feria:4:g";
+export const TEMPORA_PENT03_2 = "tempora:pent3-2Feria:4:g";
+export const TEMPORA_PENT03_3 = "tempora:pent3-3Feria:4:g";
+export const TEMPORA_PENT03_4 = "tempora:pent3-4Feria:4:g";
+export const TEMPORA_PENT03_5 = "tempora:pent3-5Feria:4:g";
+export const TEMPORA_PENT03_6 = "tempora:pent3-6:4:g";
+export const TEMPORA_PENT04_0 = "tempora:pent4-0:2:g";
+export const TEMPORA_PENT04_1 = "tempora:pent4-1:4:g";
+export const TEMPORA_PENT04_2 = "tempora:pent4-2:4:g";
+export const TEMPORA_PENT04_3 = "tempora:pent4-3:4:g";
+export const TEMPORA_PENT04_4 = "tempora:pent4-4:4:g";
+export const TEMPORA_PENT04_5 = "tempora:pent4-5:4:g";
+export const TEMPORA_PENT04_6 = "tempora:pent4-6:4:g";
+export const TEMPORA_PENT05_0 = "tempora:pent5-0:2:g";
+export const TEMPORA_PENT05_1 = "tempora:pent5-1:4:g";
+export const TEMPORA_PENT05_2 = "tempora:pent5-2:4:g";
+export const TEMPORA_PENT05_3 = "tempora:pent5-3:4:g";
+export const TEMPORA_PENT05_4 = "tempora:pent5-4:4:g";
+export const TEMPORA_PENT05_5 = "tempora:pent5-5:4:g";
+export const TEMPORA_PENT05_6 = "tempora:pent5-6:4:g";
+export const TEMPORA_PENT06_0 = "tempora:pent6-0:2:g";
+export const TEMPORA_PENT06_1 = "tempora:pent6-1:4:g";
+export const TEMPORA_PENT06_2 = "tempora:pent6-2:4:g";
+export const TEMPORA_PENT06_3 = "tempora:pent6-3:4:g";
+export const TEMPORA_PENT06_4 = "tempora:pent6-4:4:g";
+export const TEMPORA_PENT06_5 = "tempora:pent6-5:4:g";
+export const TEMPORA_PENT06_6 = "tempora:pent6-6:4:g";
+export const TEMPORA_PENT07_0 = "tempora:pent7-0:2:g";
+export const TEMPORA_PENT07_1 = "tempora:pent7-1:4:g";
+export const TEMPORA_PENT07_2 = "tempora:pent7-2:4:g";
+export const TEMPORA_PENT07_3 = "tempora:pent7-3:4:g";
+export const TEMPORA_PENT07_4 = "tempora:pent7-4:4:g";
+export const TEMPORA_PENT07_5 = "tempora:pent7-5:4:g";
+export const TEMPORA_PENT07_6 = "tempora:pent7-6:4:g";
+export const TEMPORA_PENT08_0 = "tempora:pent8-0:2:g";
+export const TEMPORA_PENT08_1 = "tempora:pent8-1:4:g";
+export const TEMPORA_PENT08_2 = "tempora:pent8-2:4:g";
+export const TEMPORA_PENT08_3 = "tempora:pent8-3:4:g";
+export const TEMPORA_PENT08_4 = "tempora:pent8-4:4:g";
+export const TEMPORA_PENT08_5 = "tempora:pent8-5:4:g";
+export const TEMPORA_PENT08_6 = "tempora:pent8-6:4:g";
+export const TEMPORA_PENT09_0 = "tempora:pent9-0:2:g";
+export const TEMPORA_PENT09_1 = "tempora:pent9-1:4:g";
+export const TEMPORA_PENT09_2 = "tempora:pent9-2:4:g";
+export const TEMPORA_PENT09_3 = "tempora:pent9-3:4:g";
+export const TEMPORA_PENT09_4 = "tempora:pent9-4:4:g";
+export const TEMPORA_PENT09_5 = "tempora:pent9-5:4:g";
+export const TEMPORA_PENT09_6 = "tempora:pent9-6:4:g";
 export const TEMPORA_PENT10_0 = "tempora:pent10-0:2:g";
 export const TEMPORA_PENT10_1 = "tempora:pent10-1:4:g";
 export const TEMPORA_PENT10_2 = "tempora:pent10-2:4:g";
@@ -421,7 +421,6 @@ export const TEMPORA_ADV4_3 = "tempora:adv4-3:3:v";
 export const TEMPORA_ADV4_4 = "tempora:adv4-4:3:v";
 export const TEMPORA_ADV4_5 = "tempora:adv4-5:3:v";
 export const TEMPORA_NAT1_0 = "tempora:nat1-0:2:w"; // Sunday in the Octave of Nativity
-export const TEMPORA_NAT1_1 = "tempora:nat1-1:2:w"; // Ordinary day in the Octave of Nativity
 export const TEMPORA_NAT2_0 = "tempora:nat2-0:2:w"; // Feast of the Holy Name of Jesus
 
 // SANCTI - days which have fixed date
@@ -529,7 +528,6 @@ export const SANCTI_05_29 = "santos:05-29:3:w";
 export const SANCTI_05_30 = "santos:05-30:4:r";
 export const SANCTI_05_31 = "santos:05-31:2:w"; // Mary the Queen
 
-export const SANCTI_06_01 = "santos:06-01:3:w";
 export const SANCTI_06_02 = "santos:06-02:4:r";
 export const SANCTI_06_04 = "santos:06-04:3:w";
 export const SANCTI_06_05 = "santos:06-05:3:r";
@@ -558,9 +556,9 @@ export const SANCTI_06_30 = "santos:06-30:3:r";
 export const SANCTI_07_01 = "santos:07-01:1:r"; // Feast of the Most Precious Blood
 export const SANCTI_07_02 = "santos:07-02:2:w"; // Feast of the Visitation of the Blessed Virgin Mary
 export const SANCTI_07_03 = "santos:07-03:3:w";
+export const SANCTI_07_04 = "santos:07-04:3:w";
 export const SANCTI_07_05 = "santos:07-05:3:w";
 export const SANCTI_07_07 = "santos:07-07:3:w";
-export const SANCTI_07_08 = "santos:07-08:3:w";
 export const SANCTI_07_10 = "santos:07-10:3:r";
 export const SANCTI_07_11 = "santos:07-11:4:r";
 export const SANCTI_07_12 = "santos:07-12:3:r";
@@ -710,6 +708,7 @@ export const SANCTI_12_26 = "santos:12-26:2:r"; // St. Stephen, Protomartyr
 export const SANCTI_12_27 = "santos:12-27:2:w"; // St. John, Apostle and Evangelist
 export const SANCTI_12_28 = "santos:12-28:2:r"; // Holy Innocents
 export const SANCTI_12_29 = "santos:12-29:4:r";
+export const SANCTI_12_30 = "santos:12-30:2:w";
 export const SANCTI_12_31 = "santos:12-31:4:w";
 
 // COMMUNE / VOTIVE
@@ -810,6 +809,7 @@ export const TABLE_OF_PRECEDENCE = [
   SANCTI_12_27,
   SANCTI_12_28,
   SANCTI_12_29,
+  SANCTI_12_30,
   SANCTI_12_31,
   // 3rd class feasts
   TEMPORA_QUAD1_1, // Feria in Lent (except Ember Days)
@@ -1234,8 +1234,6 @@ export const ADVENT = [
 
 export const NATIVITY_OCTAVE_SUNDAY = [TEMPORA_NAT1_0];
 
-export const NATIVITY_OCTAVE_FERIA = [TEMPORA_NAT1_1];
-
 export const HOLY_NAME = [TEMPORA_NAT2_0];
 
 export const CHRIST_KING = [SANCTI_10_DUr];
@@ -1337,7 +1335,6 @@ export const SANCTI = [
   SANCTI_05_29,
   SANCTI_05_30,
   SANCTI_05_31,
-  SANCTI_06_01,
   SANCTI_06_02,
   SANCTI_06_04,
   SANCTI_06_05,
@@ -1365,9 +1362,9 @@ export const SANCTI = [
   SANCTI_07_01,
   SANCTI_07_02,
   SANCTI_07_03,
+  SANCTI_07_04,
   SANCTI_07_05,
   SANCTI_07_07,
-  SANCTI_07_08,
   SANCTI_07_10,
   SANCTI_07_11,
   SANCTI_07_12,
@@ -1512,6 +1509,7 @@ export const SANCTI = [
   SANCTI_12_27,
   SANCTI_12_28,
   SANCTI_12_29,
+  SANCTI_12_30,
   SANCTI_12_31,
 ];
 
@@ -1877,7 +1875,6 @@ export const TITLES: Record<string, string> = {
   [TEMPORA_ADV4_4]: "Quinta-feira da 4ª semana do Advento",
   [TEMPORA_ADV4_5]: "Sexta-feira da 4ª semana do Advento",
   [TEMPORA_NAT1_0]: "Domingo dentro do Oitavário do Natal",
-  [TEMPORA_NAT1_1]: "Feria na Oitavária do Natal",
   [TEMPORA_NAT2_0]: "Santíssimo Nome de Jesus",
   [SANCTI_10_DUr]: "Cristo Rei",
   [TEMPORA_EPI1_0A]: "Domingo dentro do Oitavário da Epifania",
@@ -1987,7 +1984,6 @@ export const TITLES: Record<string, string> = {
   [SANCTI_05_29]: "S. Maria Madalena de Pazzi, Virgem",
   [SANCTI_05_30]: "S. Félix I, Papa e Mártir",
   [SANCTI_05_31]: "Nossa Senhora, Rainha",
-  [SANCTI_06_01]: "Santa Angela Mericia",
   [SANCTI_06_02]: "S.S. Marcelino e Pedro, Mártires e Erasmo, Bispo",
   [SANCTI_06_04]: "S. Francisco Caraccíolo, Confessor",
   [SANCTI_06_05]: "S. Bonifácio, Bispo e Mártir",
@@ -2015,9 +2011,9 @@ export const TITLES: Record<string, string> = {
   [SANCTI_07_01]: "Preciosíssimo Sangue de Nosso Senhor Jesus Cristo",
   [SANCTI_07_02]: "Visitação de Nossa Senhora",
   [SANCTI_07_03]: "S. Leão II, Papa e Confessor da Igreja",
+  [SANCTI_07_04]: "S. Isabel, Rainha de Portugal e Viúva",
   [SANCTI_07_05]: "S. António Maria Zacarias, Confessor",
   [SANCTI_07_07]: "S.S. Cirilo e Metódio, Bispos e Confessores",
-  [SANCTI_07_08]: "S. Isabel, Rainha de Portugal e Viúva",
   [SANCTI_07_10]:
     "Os Sete Irmãos Mártires e S.S. Rufina e Secunda, Virgens e Mártires",
   [SANCTI_07_11]: "S. Pio I, Papa e Mártir",
@@ -2164,7 +2160,8 @@ export const TITLES: Record<string, string> = {
   [SANCTI_12_27]: "S. João, Apóstolo e Evangelista",
   [SANCTI_12_28]: "Santos Inocentes",
   [SANCTI_12_29]: "S. Tomás de Cantuária, Bispo e Mártir",
-  [SANCTI_12_31]: "S. Silvestre",
+  [SANCTI_12_30]: "Sexto dia da Oitava do Natal",
+  [SANCTI_12_31]: "S. Silvestre, Papa e Confessor",
   [VOTIVE_ANGELS]: "Anjos",
   [VOTIVE_JOSEPH]: "S. José",
   [VOTIVE_JESUSETERNALPRIEST]: "N. S. Jesus Cristo Sumo e Eterno Sacerdote",
