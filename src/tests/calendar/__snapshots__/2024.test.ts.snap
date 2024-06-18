@@ -4779,10 +4779,10 @@ exports[`calendar > renders entire calendar correctly 1`] = `
         "colors": [
           "r",
         ],
-        "id": "santos:06-28:3:r",
-        "link": "missal/santos/06-28",
+        "id": "santos:06-28-1:3:r",
+        "link": "missal/santos/06-28-1",
         "rank": 3,
-        "title": "São Irineu, Bispo e Mártir",
+        "title": "Vigília de S. Pedro e S. Paulo, Apóstolos",
       },
     ],
     "commemoration": [],

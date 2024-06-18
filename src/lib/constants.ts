@@ -549,7 +549,7 @@ export const SANCTI_06_23 = "santos:06-23:3:v"; // Vigil of st. John Baptist
 export const SANCTI_06_24 = "santos:06-24:1:w"; // St. John Baptist
 export const SANCTI_06_25 = "santos:06-25:3:w";
 export const SANCTI_06_26 = "santos:06-26:3:r";
-export const SANCTI_06_28 = "santos:06-28:3:r"; // Irineu
+export const SANCTI_06_28 = "santos:06-28-1:3:r"; // Vigil Ss. PP
 export const SANCTI_06_29 = "santos:06-29:1:r"; // Ss. Peter and Paul
 export const SANCTI_06_30 = "santos:06-30:3:r";
 
@@ -1993,7 +1993,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_06_24]: "Nascimento de S. João Baptista",
   [SANCTI_06_25]: "S. Guilherme, Abade",
   [SANCTI_06_26]: "S.S. João e Paulo, Mártires",
-  [SANCTI_06_28]: "São Irineu, Bispo e Mártir",
+  [SANCTI_06_28]: "Vigília de S. Pedro e S. Paulo, Apóstolos",
   [SANCTI_06_29]: "S. Pedro e S. Paulo, Apóstolos",
   [SANCTI_06_30]: "Comemoração S. Paulo, Apóstolo",
   [SANCTI_07_01]: "Preciosíssimo Sangue de Nosso Senhor Jesus Cristo",
