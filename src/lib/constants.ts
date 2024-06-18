@@ -557,7 +557,7 @@ export const SANCTI_06_30 = "santos:06-30:3:r";
 
 export const SANCTI_07_01 = "santos:07-01:1:r"; // Feast of the Most Precious Blood
 export const SANCTI_07_02 = "santos:07-02:2:w"; // Feast of the Visitation of the Blessed Virgin Mary
-export const SANCTI_07_03 = "santos:07-03:3:r";
+export const SANCTI_07_03 = "santos:07-03:3:w";
 export const SANCTI_07_05 = "santos:07-05:3:w";
 export const SANCTI_07_07 = "santos:07-07:3:w";
 export const SANCTI_07_08 = "santos:07-08:3:w";
@@ -666,9 +666,7 @@ export const SANCTI_10_25 = "santos:10-25:4:r";
 export const SANCTI_10_28 = "santos:10-28:2:r"; // SS. Simon and Jude, Apostles
 
 export const SANCTI_11_01 = "santos:11-01:1:w"; // All Saints
-export const SANCTI_11_02_1 = "santos:11-02-1:1:b"; // All Souls' Day
-export const SANCTI_11_02_2 = "santos:11-02-2:1:b";
-export const SANCTI_11_02_3 = "santos:11-02-3:1:b";
+export const SANCTI_11_02 = "santos:11-02:1:b"; // All Souls' Day
 export const SANCTI_11_04 = "santos:11-04:3:w";
 export const SANCTI_11_08 = "santos:11-08:4:r";
 export const SANCTI_11_09 = "santos:11-09:2:w"; // Dedication of the Lateran Basilica in Rome
@@ -786,9 +784,7 @@ export const TABLE_OF_PRECEDENCE = [
   TEMPORA_QUAD6_1, // Monday of Holy Week
   TEMPORA_QUAD6_2, // Tuesday of Holy Week
   TEMPORA_QUAD6_3, // Wednesday of Holy Week
-  SANCTI_11_02_1, // All Souls' Day
-  SANCTI_11_02_2, // All Souls' Day
-  SANCTI_11_02_3, // All Souls' Day
+  SANCTI_11_02, // All Souls' Day
   TEMPORA_PASC6_6, // Vigil of Pentecost
   TEMPORA_PASC0_1, // Resurrection Octave
   TEMPORA_PASC0_2,
@@ -1473,9 +1469,7 @@ export const SANCTI = [
   SANCTI_10_25,
   SANCTI_10_28,
   SANCTI_11_01,
-  SANCTI_11_02_1,
-  SANCTI_11_02_2,
-  SANCTI_11_02_3,
+  SANCTI_11_02,
   SANCTI_11_04,
   SANCTI_11_08,
   SANCTI_11_09,
@@ -2020,7 +2014,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_06_30]: "Comemoração S. Paulo, Apóstolo",
   [SANCTI_07_01]: "Preciosíssimo Sangue de Nosso Senhor Jesus Cristo",
   [SANCTI_07_02]: "Visitação de Nossa Senhora",
-  [SANCTI_07_03]: "S. Irineus, Bispo e Mártir",
+  [SANCTI_07_03]: "S. Leão II, Papa e Confessor da Igreja",
   [SANCTI_07_05]: "S. António Maria Zacarias, Confessor",
   [SANCTI_07_07]: "S.S. Cirilo e Metódio, Bispos e Confessores",
   [SANCTI_07_08]: "S. Isabel, Rainha de Portugal e Viúva",
@@ -2127,9 +2121,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_10_25]: "S.S. Crisanto e Daria, Mártires",
   [SANCTI_10_28]: "S.S. Simão e Judas, Apóstolos",
   [SANCTI_11_01]: "Todos os Santos",
-  [SANCTI_11_02_1]: "Comemoração dos Fiéis Defuntos, 1ª Missa",
-  [SANCTI_11_02_2]: "Comemoração dos Fiéis Defuntos, 2ª Missa",
-  [SANCTI_11_02_3]: "Comemoração dos Fiéis Defuntos, 3ª Missa",
+  [SANCTI_11_02]: "Comemoração dos Fiéis Defuntos",
   [SANCTI_11_04]: "S. Carlos Borromeu, Bispo e Confessor",
   [SANCTI_11_08]: "Os Quatro S.S. Mártires Coroados",
   [SANCTI_11_09]: "Dedicação da Basílica do Salvador",

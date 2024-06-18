@@ -37,7 +37,7 @@ import {
   SANCTI_02_24,
   SANCTI_02_27,
   SANCTI_09_29,
-  SANCTI_11_02_1,
+  SANCTI_11_02,
   SANCTI_12_24,
   SANCTI_12_25_1,
   TEMPORA_PASC1_0,
@@ -70,9 +70,9 @@ function ruleAllSouls(
   _tempora: Observance[],
   observances: Observance[],
 ) {
-  if (match(observances, SANCTI_11_02_1)) {
+  if (match(observances, SANCTI_11_02)) {
     const allSouls = observances
-      .filter((ld) => ld.id.startsWith("santos:11-02-"))
+      .filter((ld) => ld.id.startsWith("santos:11-02"))
       .reverse();
     if (isSunday(date_)) {
       return [allSouls, [match(observances, PATTERN_TEMPORA_SUNDAY)], []];
