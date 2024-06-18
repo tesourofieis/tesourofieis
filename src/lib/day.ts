@@ -131,7 +131,6 @@ class Observance {
     }
 
     if (this.flexibility === "santos") {
-      console.log(`Matched Santos: ${name}`);
       return "santos";
     }
 
