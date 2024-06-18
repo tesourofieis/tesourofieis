@@ -113,25 +113,25 @@ class Observance {
 
   private getTempora(name: string): string {
     if (this.flexibility === "tempora") {
-      if (name.includes("Nat")) {
+      if (name.includes("nat")) {
         return "natal";
       }
-      if (name.includes("Adv")) {
+      if (name.includes("adv")) {
         return "advento";
       }
-      if (name.includes("Pasc")) {
+      if (name.includes("pasc")) {
         return "pascoa";
       }
-      if (name.includes("Epi")) {
+      if (name.includes("epi")) {
         return "epifania";
       }
-      if (name.includes("Quadp")) {
+      if (name.includes("quadp")) {
         return "pre-quaresma";
       }
-      if (name.includes("Quad")) {
+      if (name.includes("quad")) {
         return "quaresma";
       }
-      if (name.includes("Pent")) {
+      if (name.includes("pent")) {
         return "pentecostes";
       }
     }
