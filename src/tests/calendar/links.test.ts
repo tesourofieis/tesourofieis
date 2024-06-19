@@ -9,7 +9,13 @@ describe("link", () => {
   const calendar = getCalendar(currentYear);
   const allPages = getAllPagesContent("src/content/docs/missal");
 
-  const links = Object.values(calendar).map((day) => day.celebration[0].link);
+  const links = Object.values(calendar)
+    .map((day) => day.celebration[0].link)
+    .concat(
+      Object.values(calendar).map(
+        (day) => day.tempora.length && day.tempora[0].link,
+      ),
+    );
 
   for (const link of links) {
     test(`should exist "${link}`, () => {
