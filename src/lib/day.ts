@@ -5,6 +5,7 @@ import {
   COMMUNE_C_10C,
   COMMUNE_C_10PASC,
   COMMUNE_C_10T,
+  FERIA,
   TABLE_OF_PRECEDENCE,
   TEMPORA_RANK_MAP,
   TITLES,
@@ -80,7 +81,7 @@ class Observance {
     this.rank = this.calcRank(observanceId, Number.parseInt(rank, 10));
     this.colors = Array.from(color);
     this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
-    this.link = `missal/${this.getTempora(this.name)}/${this.name}`;
+    this.link = this.getLink(observanceId);
     this.title = TITLES[observanceId];
 
     // Determine the weekday attribute based on the type of observance
@@ -165,6 +166,14 @@ class Observance {
         return priority;
       }
     }
+  }
+
+  private getLink(observanceId: string) {
+    if (FERIA.includes(observanceId)) {
+      const [week] = this.name.split("-");
+      return `missal/${this.getTempora(this.name)}/${week}-0`;
+    }
+    return `missal/${this.getTempora(this.name)}/${this.name}`;
   }
 
   serialize() {

@@ -10,11 +10,12 @@ describe("link", () => {
   const allPages = getAllPagesContent("src/content/docs/missal");
 
   const links = Object.values(calendar)
+    .filter((i) => i.celebration.length)
     .map((day) => day.celebration[0].link)
     .concat(
-      Object.values(calendar).map(
-        (day) => day.tempora.length && day.tempora[0].link,
-      ),
+      Object.values(calendar)
+        .filter((i) => i.tempora.length)
+        .map((day) => day.tempora[0].link),
     );
 
   for (const link of links) {
