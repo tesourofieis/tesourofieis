@@ -179,13 +179,13 @@ export const TEMPORA_PASC2_0 = "tempora:pasc2-0:2:w";
 export const TEMPORA_PASC2_1 = "tempora:pasc2-1:4:w";
 export const TEMPORA_PASC2_2 = "tempora:pasc2-2:4:w";
 export const TEMPORA_PASC2_3 = "tempora:pasc2-3:2:w";
-export const TEMPORA_PASC2_4 = "tempora:pasc2-4Feria:4:w";
-export const TEMPORA_PASC2_5 = "tempora:pasc2-5Feria:4:w";
-export const TEMPORA_PASC2_6 = "tempora:pasc2-6Feria:4:w";
+export const TEMPORA_PASC2_4 = "tempora:pasc2-4:4:w";
+export const TEMPORA_PASC2_5 = "tempora:pasc2-5:4:w";
+export const TEMPORA_PASC2_6 = "tempora:pasc2-6:4:w";
 export const TEMPORA_PASC3_0 = "tempora:pasc3-0:2:w";
-export const TEMPORA_PASC3_1 = "tempora:pasc3-1Feria:4:w";
-export const TEMPORA_PASC3_2 = "tempora:pasc3-2Feria:4:w";
-export const TEMPORA_PASC3_3 = "tempora:pasc3-3Feria:4:w";
+export const TEMPORA_PASC3_1 = "tempora:pasc3-1:4:w";
+export const TEMPORA_PASC3_2 = "tempora:pasc3-2:4:w";
+export const TEMPORA_PASC3_3 = "tempora:pasc3-3:4:w";
 export const TEMPORA_PASC3_4 = "tempora:pasc3-4:4:w";
 export const TEMPORA_PASC3_5 = "tempora:pasc3-5:4:w";
 export const TEMPORA_PASC3_6 = "tempora:pasc3-6:4:w";
@@ -233,13 +233,13 @@ export const TEMPORA_PENT02_2 = "tempora:pent2-2:4:g"; // Tuesday in 2nd week af
 export const TEMPORA_PENT02_3 = "tempora:pent2-3:4:g"; // Wednesday in 2nd week after Pentecost
 export const TEMPORA_PENT02_4 = "tempora:pent2-4:4:g"; // Thursday in 2nd week after Pentecost
 export const TEMPORA_PENT02_5 = "tempora:pent2-5:1:w"; // Feast of the Sacred Heart
-export const TEMPORA_PENT02_6 = "tempora:pent2-6Feria:4:g"; // Saturday in 2nd week after Pentecost
+export const TEMPORA_PENT02_6 = "tempora:pent2-6:4:g"; // Saturday in 2nd week after Pentecost
 export const TEMPORA_PENT03_0 = "tempora:pent3-0:2:g"; // Sunday in 3rd week after Pentecost
-export const TEMPORA_PENT03_1 = "tempora:pent3-1Feria:4:g";
-export const TEMPORA_PENT03_2 = "tempora:pent3-2Feria:4:g";
-export const TEMPORA_PENT03_3 = "tempora:pent3-3Feria:4:g";
-export const TEMPORA_PENT03_4 = "tempora:pent3-4Feria:4:g";
-export const TEMPORA_PENT03_5 = "tempora:pent3-5Feria:4:g";
+export const TEMPORA_PENT03_1 = "tempora:pent3-1:4:g";
+export const TEMPORA_PENT03_2 = "tempora:pent3-2:4:g";
+export const TEMPORA_PENT03_3 = "tempora:pent3-3:4:g";
+export const TEMPORA_PENT03_4 = "tempora:pent3-4:4:g";
+export const TEMPORA_PENT03_5 = "tempora:pent3-5:4:g";
 export const TEMPORA_PENT03_6 = "tempora:pent3-6:4:g";
 export const TEMPORA_PENT04_0 = "tempora:pent4-0:2:g";
 export const TEMPORA_PENT04_1 = "tempora:pent4-1:4:g";
@@ -527,7 +527,7 @@ export const SANCTI_05_28 = "santos:05-28:3:w";
 export const SANCTI_05_29 = "santos:05-29:3:w";
 export const SANCTI_05_30 = "santos:05-30:4:r";
 export const SANCTI_05_31 = "santos:05-31:2:w"; // Mary the Queen
-
+export const SANCTI_06_01 = "santos:06-01:3:w";
 export const SANCTI_06_02 = "santos:06-02:4:r";
 export const SANCTI_06_04 = "santos:06-04:3:w";
 export const SANCTI_06_05 = "santos:06-05:3:r";
@@ -1323,6 +1323,7 @@ export const SANCTI = [
   SANCTI_05_29,
   SANCTI_05_30,
   SANCTI_05_31,
+  SANCTI_06_01,
   SANCTI_06_02,
   SANCTI_06_04,
   SANCTI_06_05,
@@ -1972,6 +1973,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_05_29]: "S. Maria Madalena de Pazzi, Virgem",
   [SANCTI_05_30]: "S. Félix I, Papa e Mártir",
   [SANCTI_05_31]: "Nossa Senhora, Rainha",
+  [SANCTI_06_01]: "Santa Ângela Mericia, Virgem",
   [SANCTI_06_02]: "S.S. Marcelino e Pedro, Mártires e Erasmo, Bispo",
   [SANCTI_06_04]: "S. Francisco Caraccíolo, Confessor",
   [SANCTI_06_05]: "S. Bonifácio, Bispo e Mártir",
