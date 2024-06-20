@@ -14,7 +14,7 @@ import Office from "./Office";
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
   const [currentHour, setCurrentHour] = useState(date.getHours());
-  const calendar = getCalendarDay(yyyyMMDD(new Date()));
+  const day = getCalendarDay(yyyyMMDD(new Date()));
   const currentPrayer = getPrayer(new Date());
 
   requestPermission();
@@ -52,7 +52,7 @@ export default function InteractiveCard() {
     });
   }
 
-  if (!calendar) {
+  if (!day) {
     return (
       <div className="shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-100 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-600 gap-5 grid min-h-[140px] w-full place-items-center overflow-x-scroll p-6 lg:overflow-visible">
         <Loading />
@@ -73,23 +73,23 @@ export default function InteractiveCard() {
           hour: "numeric",
         })}
       </span>
-      {calendar.celebration.map((i) => (
+      <div className="flex justify-between gap-2 mx-2">
         <LinkCard
-          key={i.id}
-          link={i.link}
-          description={calendar.tempora[0]?.title}
-          caption="Celebração"
-          title={i.title}
+          link={day.celebration[0]?.link ?? day.tempora[0]?.link}
+          description={day.celebration[0]?.title ? day.tempora[0]?.title : ""}
+          caption={day.celebration[0]?.title ? "Celebração" : "Tempora"}
+          title={day.celebration[0]?.title ?? day.tempora[0]?.title ?? "Feria"}
         />
-      ))}
-      {calendar.commemoration.map((i) => (
-        <LinkCard
-          key={i.id}
-          link={i.link}
-          title={i.title}
-          caption="Comemoração"
-        />
-      ))}
+        {day.commemoration.length ? (
+          <LinkCard
+            link={day.commemoration[0]?.link}
+            caption="Comemoração"
+            title={day.commemoration[0]?.title}
+          />
+        ) : (
+          <></>
+        )}
+      </div>
       <Office />
       {currentPrayer.isAngelus && (
         <LinkCard
