@@ -4,10 +4,10 @@ import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import react from "@astrojs/react";
-const site = "https://tesourofieis.com";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
+const site = "https://tesourofieis.com";
 
 // https://astro.build/config
 export default defineConfig({
@@ -150,7 +150,7 @@ export default defineConfig({
       social: {
         email: "mailto:info@tesourofieis.com",
         "x.com": "https://x.com/tesourofieis",
-        github: "https://github.com/tesourofieis/tesourofieis",
+        github: "https://github.com/tesourofieis",
         patreon: "https://www.patreon.com/tesourofieis",
       },
       sidebar: sidebar,
@@ -177,12 +177,7 @@ export default defineConfig({
   vite: {
     server: {
       watch: {
-        ignored: [
-          "**/src/lib/resources/divinum-officium/**",
-          "!**/src/lib/resources/divinum-officium/web/www/missa/Portugues/**",
-          "!**/src/lib/resources/divinum-officium/web/www/missa/Latin/**",
-          "**/src-tauri/**",
-        ],
+        ignored: ["**/src-tauri/**"],
       },
     },
   },
