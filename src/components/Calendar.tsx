@@ -44,9 +44,7 @@ export default function Calendar() {
             <div
               key={calendarDate}
               ref={calendarDate === today ? todayRef : null}
-              className={`${
-                calendarDate === today ? "bg-sepia-500 dark:bg-sepia-700" : ""
-              } flex justify-between gap-2 mx-2`}
+              className="flex justify-between gap-2 mx-2"
             >
               <LinkCard
                 link={day.celebration[0]?.link ?? day.tempora[0]?.link}
@@ -58,6 +56,7 @@ export default function Calendar() {
                   day.celebration[0]?.title ?? day.tempora[0]?.title ?? "Feria"
                 }
                 color={getColor(day.celebration[0]?.colors[0])}
+                borderColor={calendarDate === today && "border-red-500"}
                 icon="mdi:tshirt-v"
                 date={calendarDate}
               />
@@ -67,6 +66,7 @@ export default function Calendar() {
                   caption="Comemoração"
                   title={day.commemoration[0]?.title}
                   color={getColor(day.commemoration[0]?.colors[0])}
+                  borderColor={calendarDate === today && "border-red-500"}
                   icon="mdi:tshirt-v"
                   date={calendarDate}
                 />

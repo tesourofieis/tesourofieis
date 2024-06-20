@@ -8,6 +8,7 @@ export default function LinkCard({
   color,
   icon,
   date,
+  borderColor = "border-sepia-500 dark:border-sepia-700",
 }: {
   link?: string;
   title: string;
@@ -16,11 +17,12 @@ export default function LinkCard({
   color?: string;
   icon?: string;
   date?: string;
+  borderColor?: string;
 }) {
   return (
     <a
       href={link}
-      className="flex w-full justify-between text-sepia-600 shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-200 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-400 no-underline p-4"
+      className={`flex w-full justify-between text-sepia-600 shadow border rounded ${borderColor} hover:bg-sepia-200 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-400 no-underline p-4`}
     >
       <div className="flex flex-col">
         {date && (
