@@ -44,7 +44,9 @@ export default function Calendar() {
             <div
               key={calendarDate}
               ref={calendarDate === today ? todayRef : null}
-              className={`${calendarDate === today ? "bg-sepia-500 dark:bg-sepia-700" : ""} flex justify-between`}
+              className={`${
+                calendarDate === today ? "bg-sepia-500 dark:bg-sepia-700" : ""
+              } flex justify-between`}
             >
               <LinkCard
                 link={day.celebration[0]?.link}

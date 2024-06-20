@@ -1,5 +1,5 @@
 import { readdirSync, statSync } from "node:fs";
-import { resolve, basename } from "node:path";
+import { basename, resolve } from "node:path";
 import { getYear } from "date-fns";
 import { describe, expect, test } from "vitest";
 import { getCalendar } from "../../lib/getCalendar";
