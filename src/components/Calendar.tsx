@@ -38,26 +38,33 @@ export default function Calendar() {
       {calendar && (
         <div
           ref={containerRef}
-          className="text-sm border rounded border-sepia-500 dark:border-sepia-700 h-72 divide-y divide-sepia-200 dark:divide-sepia-700 overflow-y-auto"
+          className="text-sm border rounded border-sepia-500 dark:border-sepia-700 h-72 overflow-y-auto"
         >
           {Object.entries(calendar).map(([calendarDate, day]) => (
             <div
               key={calendarDate}
               ref={calendarDate === today ? todayRef : null}
-              className={calendarDate === today ? "bg-sepia-500" : ""}
+              className={`${calendarDate === today ? "bg-sepia-500 dark:bg-sepia-700" : ""} flex justify-between`}
             >
               <LinkCard
                 link={day.celebration[0]?.link}
-                description={day.celebration[0]?.title}
-                title={day.tempora[0]?.title ?? "Feria"}
-                caption={day.commemoration[0]?.title}
-                color={getColor(
-                  day.celebration[0]?.colors[0] ||
-                    day.commemoration[0]?.colors[0] ||
-                    day.tempora[0]?.colors[0],
-                )}
+                description={day.tempora[0]?.title}
+                caption="Celebração"
+                title={day.celebration[0]?.title ?? "Feria"}
+                color={getColor(day.celebration[0]?.colors[0])}
                 icon="mdi:tshirt-v"
               />
+              {day.commemoration.length ? (
+                <LinkCard
+                  link={day.commemoration[0]?.link}
+                  caption="Comemoração"
+                  title={day.commemoration[0]?.title}
+                  color={getColor(day.commemoration[0]?.colors[0])}
+                  icon="mdi:tshirt-v"
+                />
+              ) : (
+                <></>
+              )}
             </div>
           ))}
         </div>

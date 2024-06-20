@@ -26,7 +26,7 @@ test("Anunciação de Nossa Senhora 2024", () => {
         date: "2024-04-08",
         flexibility: "tempora",
         id: "tempora:pasc1-1:4:w",
-        link: "missal/pascoa/pasc1-1",
+        link: "missal/pascoa/pasc1-0",
         name: "pasc1-1",
         priority: 79,
         rank: 4,

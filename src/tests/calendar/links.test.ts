@@ -1,5 +1,5 @@
 import { readdirSync, statSync } from "node:fs";
-import { resolve } from "node:path";
+import { resolve, basename } from "node:path";
 import { getYear } from "date-fns";
 import { describe, expect, test } from "vitest";
 import { getCalendar } from "../../lib/getCalendar";
@@ -19,8 +19,11 @@ describe("link", () => {
     );
 
   for (const link of links) {
-    test(`should exist "${link}`, () => {
-      const found = allPages.some((page) => page.includes(link));
+    const linkFileName = basename(link);
+    test(`should exist "${link} / ${linkFileName}"`, () => {
+      const found = allPages.some(
+        (page) => basename(page) === `${linkFileName}.mdx`,
+      );
 
       expect(found).toBe(true);
     });

@@ -76,10 +76,13 @@ export default function InteractiveCard() {
       {calendar.celebration.map((i) => (
         <LinkCard
           link={i.link}
-          description={i.title}
-          caption={calendar.commemoration[0]?.title}
-          title={calendar.tempora[0]?.title}
+          description={calendar.tempora[0]?.title}
+          caption="Celebração"
+          title={i.title}
         />
+      ))}
+      {calendar.commemoration.map((i) => (
+        <LinkCard link={i.link} title={i.title} caption="Comemoração" />
       ))}
       <Office />
       {currentPrayer.isAngelus && (

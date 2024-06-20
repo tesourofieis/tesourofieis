@@ -14,7 +14,7 @@ test("no celebration when tempora", () => {
         flexibility: "tempora",
         id: "tempora:epi1-1:4:w",
         name: "epi1-1",
-        link: "missal/epifania/epi1-1",
+        link: "missal/epifania/epi1-0",
         priority: 79,
         rank: 4,
         title: "Segunda-feira da semana após a Epifania",

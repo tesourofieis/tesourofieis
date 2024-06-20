@@ -1,12 +1,10 @@
-import { yyyyMMDD } from "../lib/utils";
-import Loading from "./Loading";
-import { getCalendar } from "../lib/getCalendar";
 import { getYear } from "date-fns";
+import { getCalendar } from "../lib/getCalendar";
 import LinkCard from "./LinkCard";
+import Loading from "./Loading";
 
-export default function Ordo({ section }: { section?: string }) {
+export default function Ordo({ section }: { section: string }) {
   const calendar = getCalendar(getYear(new Date()));
-  const today = yyyyMMDD(new Date());
 
   if (!calendar?.length)
     return (
@@ -16,13 +14,11 @@ export default function Ordo({ section }: { section?: string }) {
     );
 
   return (
-    <>
-      <LinkCard
-        link={`/${calendar.celebration[0]?.link}#intróito`}
-        title={calendar.celebration[0]?.title}
-        caption={calendar.commemoration[0]?.title}
-        description={calendar.tempora[0].title}
-      />
-    </>
+    <LinkCard
+      link={`/${calendar.celebration[0]?.link}#${section}`}
+      title={calendar.celebration[0]?.title}
+      caption={calendar.commemoration[0]?.title}
+      description={calendar.tempora[0].title}
+    />
   );
 }
