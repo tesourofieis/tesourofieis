@@ -51,8 +51,8 @@ export const TEMPORA_RANK_MAP: {
 ];
 
 // TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
-export const TEMPORA_EPI1_0 = "tempora:epi1-0:2:w"; // Feast of the Holy Family
-export const TEMPORA_EPI1_0A = "tempora:epi1-0a:2:w"; // First Sunday after Epiphany
+export const TEMPORA_EPI1_0A = "tempora:epi1-0a:2:w"; // Feast of the Holy Family
+export const TEMPORA_EPI1_0 = "tempora:epi1-0:2:w"; // First Sunday after Epiphany
 export const TEMPORA_EPI1_1 = "tempora:epi1-1:4:w"; // Monday after 1st week of Epiphany
 export const TEMPORA_EPI1_2 = "tempora:epi1-2:4:w"; // Tuesday after 1st week of Epiphany
 export const TEMPORA_EPI1_3 = "tempora:epi1-3:4:w"; // Wednesday after 1st week of Epiphany
@@ -848,7 +848,7 @@ export const FEASTS_OF_JESUS_CLASS_1_AND_2: string[] = [
 ];
 
 export const POST_EPIPHANY = [
-  TEMPORA_EPI1_0,
+  TEMPORA_EPI1_0A,
   TEMPORA_EPI1_1,
   TEMPORA_EPI1_2,
   TEMPORA_EPI1_3,
@@ -1753,7 +1753,7 @@ export const SANCTI = [
 ];
 
 export const TITLES: Record<string, string> = {
-  [TEMPORA_EPI1_0]: "Sagrada Família",
+  [TEMPORA_EPI1_0A]: "Sagrada Família",
   [TEMPORA_EPI1_1]: "Segunda-feira da semana após a Epifania",
   [TEMPORA_EPI1_2]: "Terça-feira da semana após a Epifania",
   [TEMPORA_EPI1_3]: "Quarta-feira da semana após a Epifania",
@@ -2116,7 +2116,7 @@ export const TITLES: Record<string, string> = {
   [TEMPORA_NAT1_0]: "Domingo dentro do Oitavário do Natal",
   [TEMPORA_NAT2_0]: "Santíssimo Nome de Jesus",
   [SANCTI_10_DUr]: "Cristo Rei",
-  [TEMPORA_EPI1_0A]: "Domingo dentro do Oitavário da Epifania",
+  [TEMPORA_EPI1_0]: "Domingo dentro do Oitavário da Epifania",
   [TEMPORA_PENT01_0A]: "1ª Domingo depois de Pentecostes",
   [COMMUNE_C_10A]: "1ª Missa da Virgem Maria - Missa Roráte cœli",
   [COMMUNE_C_10B]: "2ª Missa da Virgem Maria - Missa Vultum tuum",

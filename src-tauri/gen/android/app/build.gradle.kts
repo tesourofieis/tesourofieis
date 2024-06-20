@@ -12,8 +12,8 @@ android {
         applicationId = "com.tesourofieis.app"
         minSdk = 24
         targetSdk = 33
-        versionCode = 8
-        versionName = "1.7"
+        versionCode = 11
+        versionName = "2.0"
     }
     buildTypes {
         getByName("debug") {
