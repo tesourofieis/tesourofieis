@@ -425,6 +425,10 @@ export const TEMPORA_NAT2_0 = "tempora:nat2-0:2:w"; // Feast of the Holy Name of
 // SANCTI - days which have fixed date
 export const SANCTI_10_DUr = "santos:10-DUr:1:w"; // Feast of Christ the King; last Sunday of October
 export const SANCTI_01_01 = "santos:01-01:1:w"; // Octave of the Nativity
+export const SANCTI_01_02 = "santos:01-02:3:r"; // Octave Estevao
+export const SANCTI_01_03 = "santos:01-03:3:w"; // Octave S. Joao
+export const SANCTI_01_04 = "santos:01-04:3:r"; // Octave Santos Inocentes
+export const SANCTI_01_05 = "santos:01-05:2:w"; // Vigilia Epifania
 export const SANCTI_01_06 = "santos:01-06:1:w"; // Epiphany
 export const SANCTI_01_13 = "santos:01-13:2:w"; // Baptism of the Lord
 export const SANCTI_01_14 = "santos:01-14:3:w";
@@ -1479,6 +1483,10 @@ export const FERIA = [
 
 export const SANCTI = [
   SANCTI_01_01,
+  SANCTI_01_02,
+  SANCTI_01_03,
+  SANCTI_01_04,
+  SANCTI_01_05,
   SANCTI_01_06,
   SANCTI_01_13,
   SANCTI_01_14,
@@ -2124,6 +2132,10 @@ export const TITLES: Record<string, string> = {
   [COMMUNE_C_10PASC]: "4 Missa da Virgem Maria – Missa Salve, Sancta Parens",
   [COMMUNE_C_10T]: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
   [SANCTI_01_01]: "Circuncisão do Senhor e Oitava do Natal",
+  [SANCTI_01_02]: "Oitava de S. Estevão, Mártir",
+  [SANCTI_01_03]: "Oitava de S. João, Apóstolo e Evangelista",
+  [SANCTI_01_04]: "Oitava dos Santos Inocentes",
+  [SANCTI_01_05]: "Vigília Epifania",
   [SANCTI_01_06]: "Epifania do Senhor",
   [SANCTI_01_13]: "Comemoração do Baptismo do Senhor",
   [SANCTI_01_14]: "S. Hilário, Bispo Confessor e Doutor",

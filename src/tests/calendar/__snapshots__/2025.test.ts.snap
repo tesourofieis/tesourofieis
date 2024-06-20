@@ -18,12 +18,32 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
     "tempora": [],
   },
   "2025-01-02": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:01-02:3:r",
+        "link": "missal/santos/01-02",
+        "rank": 3,
+        "title": "Oitava de S. Estevão, Mártir",
+      },
+    ],
     "commemoration": [],
     "tempora": [],
   },
   "2025-01-03": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:01-03:3:w",
+        "link": "missal/santos/01-03",
+        "rank": 3,
+        "title": "Oitava de S. João, Apóstolo e Evangelista",
+      },
+    ],
     "commemoration": [],
     "tempora": [],
   },
@@ -31,12 +51,12 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
     "celebration": [
       {
         "colors": [
-          "w",
+          "r",
         ],
-        "id": "commune:28missamaria2:0:w",
-        "link": "missal/comum/28missamaria2",
-        "rank": 0,
-        "title": "2ª Missa da Virgem Maria - Missa Vultum tuum",
+        "id": "santos:01-04:3:r",
+        "link": "missal/santos/01-04",
+        "rank": 3,
+        "title": "Oitava dos Santos Inocentes",
       },
     ],
     "commemoration": [],
@@ -48,13 +68,23 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
+        "id": "santos:01-05:2:w",
+        "link": "missal/santos/01-05",
+        "rank": 2,
+        "title": "Vigília Epifania",
+      },
+    ],
+    "commemoration": [
+      {
+        "colors": [
+          "w",
+        ],
         "id": "tempora:nat2-0:2:w",
         "link": "missal/natal/nat2-0",
         "rank": 2,
         "title": "Santíssimo Nome de Jesus",
       },
     ],
-    "commemoration": [],
     "tempora": [],
   },
   "2025-01-06": {
@@ -113,8 +143,8 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:epi1-0:2:w",
-        "link": "missal/epifania/epi1-0",
+        "id": "tempora:epi1-0a:2:w",
+        "link": "missal/epifania/epi1-0a",
         "rank": 2,
         "title": "Sagrada Família",
       },
@@ -125,8 +155,8 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:epi1-0:2:w",
-        "link": "missal/epifania/epi1-0",
+        "id": "tempora:epi1-0a:2:w",
+        "link": "missal/epifania/epi1-0a",
         "rank": 2,
         "title": "Sagrada Família",
       },

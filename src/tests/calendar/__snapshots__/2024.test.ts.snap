@@ -29,21 +29,61 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "title": "Santíssimo Nome de Jesus",
       },
     ],
-    "commemoration": [],
+    "commemoration": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:01-02:3:r",
+        "link": "missal/santos/01-02",
+        "rank": 3,
+        "title": "Oitava de S. Estevão, Mártir",
+      },
+    ],
     "tempora": [],
   },
   "2024-01-03": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:01-03:3:w",
+        "link": "missal/santos/01-03",
+        "rank": 3,
+        "title": "Oitava de S. João, Apóstolo e Evangelista",
+      },
+    ],
     "commemoration": [],
     "tempora": [],
   },
   "2024-01-04": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:01-04:3:r",
+        "link": "missal/santos/01-04",
+        "rank": 3,
+        "title": "Oitava dos Santos Inocentes",
+      },
+    ],
     "commemoration": [],
     "tempora": [],
   },
   "2024-01-05": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:01-05:2:w",
+        "link": "missal/santos/01-05",
+        "rank": 2,
+        "title": "Vigília Epifania",
+      },
+    ],
     "commemoration": [],
     "tempora": [],
   },
@@ -68,8 +108,8 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:epi1-0:2:w",
-        "link": "missal/epifania/epi1-0",
+        "id": "tempora:epi1-0a:2:w",
+        "link": "missal/epifania/epi1-0a",
         "rank": 2,
         "title": "Sagrada Família",
       },
@@ -80,8 +120,8 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:epi1-0:2:w",
-        "link": "missal/epifania/epi1-0",
+        "id": "tempora:epi1-0a:2:w",
+        "link": "missal/epifania/epi1-0a",
         "rank": 2,
         "title": "Sagrada Família",
       },
