@@ -34,17 +34,19 @@ import {
   PATTERN_TEMPORA_CLASS_4,
   PATTERN_TEMPORA_SUNDAY,
   PATTERN_TEMPORA_SUNDAY_CLASS_2,
+  SANCTI_01_01,
   SANCTI_02_24,
   SANCTI_02_27,
   SANCTI_09_29,
-  SANCTI_11_02_1,
+  SANCTI_11_02,
   SANCTI_12_24,
   SANCTI_12_25_1,
+  SANCTI_12_30,
   TEMPORA_PASC1_0,
   TEMPORA_QUAD6_3,
   TYPE_SANCTI,
 } from "./constants.ts";
-import { Observance } from "./observance.ts";
+import { Observance } from "./day.ts";
 import { match, yyyyMMDD } from "./utils.ts";
 
 // Nativity Vigil takes place of 4th Advent Sunday.
@@ -57,7 +59,7 @@ function ruleNativityHasMultipleMasses(
   const nativityObservance = match(observances, SANCTI_12_25_1);
   if (nativityObservance) {
     const nativityMasses = observances.filter((ld) =>
-      ld.id.startsWith("sancti:12-25m"),
+      ld.id.startsWith("santos:12-25-"),
     );
     return [nativityMasses.reverse(), [], []];
   }
@@ -70,9 +72,9 @@ function ruleAllSouls(
   _tempora: Observance[],
   observances: Observance[],
 ) {
-  if (match(observances, SANCTI_11_02_1)) {
+  if (match(observances, SANCTI_11_02)) {
     const allSouls = observances
-      .filter((ld) => ld.id.startsWith("sancti:11-02m"))
+      .filter((ld) => ld.id.startsWith("santos:11-02"))
       .reverse();
     if (isSunday(date_)) {
       return [allSouls, [match(observances, PATTERN_TEMPORA_SUNDAY)], []];
@@ -90,6 +92,18 @@ function ruleNativityVigil(
 ) {
   if (match(observances, SANCTI_12_24) && isSunday(date_)) {
     return [[match(observances, SANCTI_12_24)], [], []];
+  }
+}
+
+// If 30 December is sunday, octave of christmas is celebrated
+function ruleNativityOctaveFeria(
+  _calendar: Calendar,
+  date_: string,
+  _tempora: Observance[],
+  observances: Observance[],
+) {
+  if (match(observances, SANCTI_12_30) && isSunday(date_)) {
+    return [[match(observances, SANCTI_01_01)], [], []];
   }
 }
 
@@ -478,6 +492,7 @@ export const rules = [
   ruleNativityHasMultipleMasses,
   ruleAllSouls,
   ruleNativityVigil,
+  ruleNativityOctaveFeria,
   ruleStMatthias,
   ruleFeb27,
   ruleSameClassFeastsTakeOverAdventFeriaAndEmberDays,

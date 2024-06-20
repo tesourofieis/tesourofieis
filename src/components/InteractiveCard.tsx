@@ -6,6 +6,7 @@ import {
   sendNotification,
 } from "@tauri-apps/plugin-notification";
 import { useEffect, useState } from "react";
+import Calendar from "./Calendar";
 import LinkCard from "./LinkCard";
 import Loading from "./Loading";
 import Office from "./Office";
@@ -13,7 +14,7 @@ import Office from "./Office";
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
   const [currentHour, setCurrentHour] = useState(date.getHours());
-  const calendar = getCalendarDay(yyyyMMDD(new Date()));
+  const day = getCalendarDay(yyyyMMDD(new Date()));
   const currentPrayer = getPrayer(new Date());
 
   requestPermission();
@@ -51,7 +52,7 @@ export default function InteractiveCard() {
     });
   }
 
-  if (!calendar) {
+  if (!day) {
     return (
       <div className="shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-100 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-600 gap-5 grid min-h-[140px] w-full place-items-center overflow-x-scroll p-6 lg:overflow-visible">
         <Loading />
@@ -64,10 +65,6 @@ export default function InteractiveCard() {
       <div className="flex justify-between not-content">
         <h2>Dia e Hora</h2>
       </div>
-      <span className="italic">
-        Muda a Missa, o Ofício, o Angelus e as orações do dia consoante o dia e
-        a hora
-      </span>
       <span className="font-bold">
         {new Date().toLocaleTimeString("pt", {
           month: "long",
@@ -76,17 +73,23 @@ export default function InteractiveCard() {
           hour: "numeric",
         })}
       </span>
-      <LinkCard
-        link="/missal/dia"
-        title={
-          calendar.celebration[0]?.title ||
-          calendar.tempora[0]?.title ||
-          calendar.commemoration[0]?.title ||
-          "Feria"
-        }
-        caption={calendar.commemoration[0]?.title}
-        description={"Missa do dia"}
-      />
+      <div className="flex justify-between gap-2 mx-2">
+        <LinkCard
+          link={day.celebration[0]?.link ?? day.tempora[0]?.link}
+          description={day.celebration[0]?.title ? day.tempora[0]?.title : ""}
+          caption={day.celebration[0]?.title ? "Celebração" : "Tempora"}
+          title={day.celebration[0]?.title ?? day.tempora[0]?.title ?? "Feria"}
+        />
+        {day.commemoration.length ? (
+          <LinkCard
+            link={day.commemoration[0]?.link}
+            caption="Comemoração"
+            title={day.commemoration[0]?.title}
+          />
+        ) : (
+          <></>
+        )}
+      </div>
       <Office />
       {currentPrayer.isAngelus && (
         <LinkCard
@@ -107,6 +110,9 @@ export default function InteractiveCard() {
           title="Oração da Noite"
         />
       )}
+
+      <h3>Calendário</h3>
+      <Calendar />
     </div>
   );
 }

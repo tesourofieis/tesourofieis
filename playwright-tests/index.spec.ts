@@ -11,18 +11,6 @@ test("first page", async ({ page }) => {
   page.getByLabel("add-notifications");
 });
 
-test("day", async ({ page }) => {
-  await page.goto("/");
-
-  expect(page).toHaveTitle("Início | Tesouro dos Fiéis");
-
-  await page.getByRole("link", { name: "Dia Variável" }).click();
-  page.getByRole("heading", { name: "Missa do Dia" });
-  page.getByRole("heading", { name: "Introitus" });
-  await page.locator(".w-0 > .fixed").click();
-  await page.locator(".w-48 > .fixed").click();
-});
-
 test("rosary", async ({ page }) => {
   await page.goto("/");
 
