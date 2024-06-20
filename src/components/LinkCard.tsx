@@ -7,6 +7,7 @@ export default function LinkCard({
   description,
   color,
   icon,
+  date,
 }: {
   link?: string;
   title: string;
@@ -14,6 +15,7 @@ export default function LinkCard({
   description?: string;
   color?: string;
   icon?: string;
+  date?: string;
 }) {
   return (
     <a
@@ -21,20 +23,20 @@ export default function LinkCard({
       className="flex w-full justify-between text-sepia-600 shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-200 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-400 no-underline p-4"
     >
       <div className="flex flex-col">
-        <div className="flex items-center">
-          <span className="font-bold">{title}</span>
+        {date && (
+          <div className="flex gap-2">
+            <Icon icon="mdi:calendar" />
+            <span className="font-sm">{date}</span>
+            {caption && <p className="font-sm font-bold">{caption}</p>}
+          </div>
+        )}
+        <div className="flex items-center gap-2">
           {color && (
-            <div className="">
-              <Icon
-                className={`text-${color} ml-2`}
-                color={color}
-                icon={icon}
-              />
-            </div>
+            <Icon className={`text-${color}`} color={color} icon={icon} />
           )}
+          <span className="font-bold">{title}</span>
         </div>
         <span className="text-sepia-600">{description}</span>
-        {caption && <p className="font-sm">{caption}</p>}
       </div>
     </a>
   );

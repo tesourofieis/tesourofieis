@@ -38,7 +38,7 @@ export default function Calendar() {
       {calendar && (
         <div
           ref={containerRef}
-          className="text-sm border rounded border-sepia-500 dark:border-sepia-700 h-72 overflow-y-auto"
+          className="text-sm border rounded border-sepia-500 dark:border-sepia-700 h-80 overflow-y-auto"
         >
           {Object.entries(calendar).map(([calendarDate, day]) => (
             <div
@@ -46,15 +46,20 @@ export default function Calendar() {
               ref={calendarDate === today ? todayRef : null}
               className={`${
                 calendarDate === today ? "bg-sepia-500 dark:bg-sepia-700" : ""
-              } flex justify-between`}
+              } flex justify-between gap-2 mx-2`}
             >
               <LinkCard
-                link={day.celebration[0]?.link}
-                description={day.tempora[0]?.title}
-                caption="Celebração"
-                title={day.celebration[0]?.title ?? "Feria"}
+                link={day.celebration[0]?.link ?? day.tempora[0]?.link}
+                description={
+                  day.celebration[0]?.title ? day.tempora[0]?.title : ""
+                }
+                caption={day.celebration[0]?.title ? "Celebração" : "Tempora"}
+                title={
+                  day.celebration[0]?.title ?? day.tempora[0]?.title ?? "Feria"
+                }
                 color={getColor(day.celebration[0]?.colors[0])}
                 icon="mdi:tshirt-v"
+                date={calendarDate}
               />
               {day.commemoration.length ? (
                 <LinkCard
@@ -63,6 +68,7 @@ export default function Calendar() {
                   title={day.commemoration[0]?.title}
                   color={getColor(day.commemoration[0]?.colors[0])}
                   icon="mdi:tshirt-v"
+                  date={calendarDate}
                 />
               ) : (
                 <></>
