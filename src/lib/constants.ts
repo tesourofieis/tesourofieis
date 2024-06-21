@@ -51,8 +51,8 @@ export const TEMPORA_RANK_MAP: {
 ];
 
 // TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
-export const TEMPORA_EPI1_0 = "tempora:epi1-0:2:w"; // Feast of the Holy Family
-export const TEMPORA_EPI1_0A = "tempora:epi1-0a:2:w"; // First Sunday after Epiphany
+export const TEMPORA_EPI1_0A = "tempora:epi1-0a:2:w"; // Feast of the Holy Family
+export const TEMPORA_EPI1_0 = "tempora:epi1-0:2:w"; // First Sunday after Epiphany
 export const TEMPORA_EPI1_1 = "tempora:epi1-1:4:w"; // Monday after 1st week of Epiphany
 export const TEMPORA_EPI1_2 = "tempora:epi1-2:4:w"; // Tuesday after 1st week of Epiphany
 export const TEMPORA_EPI1_3 = "tempora:epi1-3:4:w"; // Wednesday after 1st week of Epiphany
@@ -425,6 +425,10 @@ export const TEMPORA_NAT2_0 = "tempora:nat2-0:2:w"; // Feast of the Holy Name of
 // SANCTI - days which have fixed date
 export const SANCTI_10_DUr = "santos:10-DUr:1:w"; // Feast of Christ the King; last Sunday of October
 export const SANCTI_01_01 = "santos:01-01:1:w"; // Octave of the Nativity
+export const SANCTI_01_02 = "santos:01-02:3:r"; // Octave Estevao
+export const SANCTI_01_03 = "santos:01-03:3:w"; // Octave S. Joao
+export const SANCTI_01_04 = "santos:01-04:3:r"; // Octave Santos Inocentes
+export const SANCTI_01_05 = "santos:01-05:2:w"; // Vigilia Epifania
 export const SANCTI_01_06 = "santos:01-06:1:w"; // Epiphany
 export const SANCTI_01_13 = "santos:01-13:2:w"; // Baptism of the Lord
 export const SANCTI_01_14 = "santos:01-14:3:w";
@@ -848,7 +852,7 @@ export const FEASTS_OF_JESUS_CLASS_1_AND_2: string[] = [
 ];
 
 export const POST_EPIPHANY = [
-  TEMPORA_EPI1_0,
+  TEMPORA_EPI1_0A,
   TEMPORA_EPI1_1,
   TEMPORA_EPI1_2,
   TEMPORA_EPI1_3,
@@ -1479,6 +1483,10 @@ export const FERIA = [
 
 export const SANCTI = [
   SANCTI_01_01,
+  SANCTI_01_02,
+  SANCTI_01_03,
+  SANCTI_01_04,
+  SANCTI_01_05,
   SANCTI_01_06,
   SANCTI_01_13,
   SANCTI_01_14,
@@ -1753,7 +1761,7 @@ export const SANCTI = [
 ];
 
 export const TITLES: Record<string, string> = {
-  [TEMPORA_EPI1_0]: "Sagrada Família",
+  [TEMPORA_EPI1_0A]: "Sagrada Família",
   [TEMPORA_EPI1_1]: "Segunda-feira da semana após a Epifania",
   [TEMPORA_EPI1_2]: "Terça-feira da semana após a Epifania",
   [TEMPORA_EPI1_3]: "Quarta-feira da semana após a Epifania",
@@ -2116,7 +2124,7 @@ export const TITLES: Record<string, string> = {
   [TEMPORA_NAT1_0]: "Domingo dentro do Oitavário do Natal",
   [TEMPORA_NAT2_0]: "Santíssimo Nome de Jesus",
   [SANCTI_10_DUr]: "Cristo Rei",
-  [TEMPORA_EPI1_0A]: "Domingo dentro do Oitavário da Epifania",
+  [TEMPORA_EPI1_0]: "Domingo dentro do Oitavário da Epifania",
   [TEMPORA_PENT01_0A]: "1ª Domingo depois de Pentecostes",
   [COMMUNE_C_10A]: "1ª Missa da Virgem Maria - Missa Roráte cœli",
   [COMMUNE_C_10B]: "2ª Missa da Virgem Maria - Missa Vultum tuum",
@@ -2124,6 +2132,10 @@ export const TITLES: Record<string, string> = {
   [COMMUNE_C_10PASC]: "4 Missa da Virgem Maria – Missa Salve, Sancta Parens",
   [COMMUNE_C_10T]: "5ª Missa da Virgem Maria - Missa Salve, Sancta Parens",
   [SANCTI_01_01]: "Circuncisão do Senhor e Oitava do Natal",
+  [SANCTI_01_02]: "Oitava de S. Estevão, Mártir",
+  [SANCTI_01_03]: "Oitava de S. João, Apóstolo e Evangelista",
+  [SANCTI_01_04]: "Oitava dos Santos Inocentes",
+  [SANCTI_01_05]: "Vigília Epifania",
   [SANCTI_01_06]: "Epifania do Senhor",
   [SANCTI_01_13]: "Comemoração do Baptismo do Senhor",
   [SANCTI_01_14]: "S. Hilário, Bispo Confessor e Doutor",

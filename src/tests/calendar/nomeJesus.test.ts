@@ -18,7 +18,20 @@ test("santissimo nome jesus", () => {
         weekday: 0,
       },
     ],
-    commemoration: [],
+    commemoration: [
+      {
+        colors: ["r"],
+        date: "2024-01-02",
+        flexibility: "santos",
+        id: "santos:01-02:3:r",
+        link: "missal/santos/01-02",
+        name: "01-02",
+        priority: 78,
+        rank: 3,
+        title: "Oitava de S. Estevão, Mártir",
+        weekday: 2,
+      },
+    ],
     tempora: [],
   });
 });
