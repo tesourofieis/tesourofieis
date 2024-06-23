@@ -5,6 +5,8 @@ import {
   ADVENT,
   EMBER_DAYS_SEPTEMBER,
   FROM_PRE_LENT_TO_POST_PENTECOST,
+  LOCAL,
+  LOCALS,
   NATIVITY_OCTAVE_SUNDAY,
   POST_EPIPHANY,
   SANCTI,
@@ -159,7 +161,14 @@ class Calendar {
       );
 
       this.container.get(date)?.celebration.push(...days);
-      this.container.get(date)?.celebration.reverse();
+
+      const local = LOCAL.filter((ii) => ii.startsWith(`santos:${dateId}`)).map(
+        (ii) => new Observance(ii, date),
+      );
+
+      if (local.length) {
+        this.container.get(date)?.local.push(...local);
+      }
     }
   }
 
