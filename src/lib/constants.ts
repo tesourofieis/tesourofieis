@@ -1316,7 +1316,6 @@ export const FERIA = [
   TEMPORA_PASC1_6,
   TEMPORA_PASC2_1,
   TEMPORA_PASC2_2,
-  TEMPORA_PASC2_3,
   TEMPORA_PASC2_4,
   TEMPORA_PASC2_5,
   TEMPORA_PASC2_6,
@@ -2219,6 +2218,8 @@ export const TITLES: Record<string, string> = {
   [SANCTI_05_09]:
     "S. Gregório de Nazianzeno, Bispo, Confessor e Doutor da Igreja",
   [SANCTI_05_10]: "S. Antonino, Bispo e Confessor",
+  // TODO: Adicionar Nereu
+  // FIXME: Adicionar Santa Joana
   [SANCTI_05_12]: "S.S. Nereu, Achileu, Domitila, Virgem e Pancracio, Mártires",
   [SANCTI_05_13]: "S. Roberto Belarmino, Bispo, Confessor e Doutor da Igreja",
   [SANCTI_05_14]: "S. Bonifácio, Mártir",
