@@ -2271,7 +2271,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_06_20]: "S. Silvestre, Papa e Mártir",
   [SANCTI_06_21]: "S. Luís Gonzaga, Confessor",
   [SANCTI_06_22]: "S. Paulino, Bispo e Confessor",
-  [SANCTI_06_23]: "Vigília da Natividade de S. Jão Baptista",
+  [SANCTI_06_23]: "Vigília da Natividade de S. João Baptista",
   [SANCTI_06_24]: "Nascimento de S. João Baptista",
   [SANCTI_06_25]: "S. Guilherme, Abade",
   [SANCTI_06_26]: "S.S. João e Paulo, Mártires",
