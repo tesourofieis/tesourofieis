@@ -470,6 +470,7 @@ export const SANCTI_02_09 = "santos:02-09-1:3:w";
 export const SANCTI_02_10 = "santos:02-10:3:w";
 export const SANCTI_02_11 = "santos:02-11:3:w";
 export const SANCTI_02_12 = "santos:02-12:3:w";
+export const SANCTI_02_13_PORTUGAL = "santos:02-12:3:r:@portugal";
 export const SANCTI_02_14 = "santos:02-14:4:r";
 export const SANCTI_02_15 = "santos:02-15-1:4:r";
 export const SANCTI_02_18 = "santos:02-18-1:4:r";
@@ -1252,6 +1253,7 @@ export const LOCAL = [
   SANCTI_01_28_LISBOA_ALGARVE,
   SANCTI_01_29_LISBOA_ALGARVE,
   SANCTI_02_04_PORTUGAL,
+  SANCTI_02_13_PORTUGAL,
   SANCTI_12_01_VILA_REAL,
   SANCTI_12_12,
 ];
@@ -2198,6 +2200,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_02_10]: "S. Escolástica",
   [SANCTI_02_11]: "Aparição de Nossa Senhora, em Lourdes",
   [SANCTI_02_12]: "Os VII Fundadores dos Servitas de B. V. Maria, Confessores",
+  [SANCTI_02_13_PORTUGAL]: "As Cinco Chagas de N. S. Jesus Cristo",
   [SANCTI_02_14]: "S. Valentim, Presbítero e Mártir",
   [SANCTI_02_15]: "S.S. Faustino e Jovita, Mártires",
   [SANCTI_02_18]: "S. Simeão, Bispo e Mártir",
