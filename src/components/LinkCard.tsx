@@ -26,7 +26,7 @@ export default function LinkCard({
     >
       <div className="flex flex-col">
         {date && (
-          <div className="flex gap-2">
+          <div className="flex flex-col gap-2">
             <Icon icon="mdi:calendar" />
             <span className="font-sm">{date}</span>
             {caption && <p className="font-sm font-bold">{caption}</p>}

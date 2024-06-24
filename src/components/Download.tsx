@@ -27,7 +27,7 @@ export default function Download() {
 
   return (
     <>
-      {typeof window !== "undefined" && data.length > 0 && (
+      {typeof navigator !== "undefined" && data.length > 0 && (
         <div className="mb-10">
           <h6>Instalar</h6>
           <div className="flex items-center justify-center gap-5">
