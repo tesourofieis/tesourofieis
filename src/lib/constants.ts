@@ -670,10 +670,12 @@ export const SANCTI_09_12 = "santos:09-12:3:w";
 export const SANCTI_09_14 = "santos:09-14:2:r"; // Exaltation of the Cross
 export const SANCTI_09_15 = "santos:09-15:2:w"; // The Seven Dolors of the Blessed Virgin Mary
 export const SANCTI_09_16 = "santos:09-16-1:3:w";
+export const SANCTI_09_16_PORTO = "santos:09-16:3:w:@porto";
 export const SANCTI_09_17 = "santos:09-17:4:w";
 export const SANCTI_09_18 = "santos:09-18:3:w";
 export const SANCTI_09_19 = "santos:09-19:3:r";
-export const SANCTI_09_20 = "santos:09-20:4:r";
+// export const SANCTI_09_20 = "santos:09-20-1:4:r"; // Eustaquio
+export const SANCTI_09_20 = "santos:09-20-2:4:w"; // Vigilia Mateus
 export const SANCTI_09_21 = "santos:09-21:2:r"; // St. Matthew, Apostle and Evangelist
 export const SANCTI_09_22 = "santos:09-22:3:w";
 export const SANCTI_09_23 = "santos:09-23-1:3:r";
@@ -684,7 +686,8 @@ export const SANCTI_09_28 = "santos:09-28:3:r";
 export const SANCTI_09_29 = "santos:09-29:1:w"; // St. Michael the Archangel
 export const SANCTI_09_30 = "santos:09-30:3:w";
 
-export const SANCTI_10_01 = "santos:10-01-1:4:w";
+export const SANCTI_10_01 = "santos:10-01:4:w";
+export const SANCTI_10_01_LISBOA = "santos:10-01:4:w:@lisboa";
 export const SANCTI_10_02 = "santos:10-02:3:w";
 export const SANCTI_10_03 = "santos:10-03:3:w";
 export const SANCTI_10_04 = "santos:10-04:3:w";
@@ -699,19 +702,37 @@ export const SANCTI_10_13 = "santos:10-13:3:w";
 export const SANCTI_10_14 = "santos:10-14:3:r";
 export const SANCTI_10_15 = "santos:10-15:3:w";
 export const SANCTI_10_16 = "santos:10-16:3:w";
-export const SANCTI_10_17 = "santos:10-17-1:3:w";
+export const SANCTI_10_16_ANGRA = "santos:10-16:3:w:@angra";
+export const SANCTI_10_17 = "santos:10-17:3:w";
+export const SANCTI_10_17_BRAGA = "santos:10-17:3:w:@braga";
 export const SANCTI_10_18 = "santos:10-18:2:r"; // St. Luke, Evangelist
 export const SANCTI_10_19 = "santos:10-19:3:w";
-export const SANCTI_10_20 = "santos:10-20-1:3:w";
-export const SANCTI_10_21 = "santos:10-21-1:4:w";
+export const SANCTI_10_20 = "santos:10-20:3:w";
+export const SANCTI_10_20_PORTUGAL = "santos:10-20:3:w:@portugal";
+export const SANCTI_10_21 = "santos:10-21:4:w";
+export const SANCTI_10_21_VISEU_LISBOA = "santos:10-21:4:w:@viseu-lisboa";
+export const SANCTI_10_22_GUARDA = "santos:10-22:4:w:@guarda";
+export const SANCTI_10_22_LISBOA_EVORA_BEJA =
+  "santos:10-22:4:w:@lisboa-evora-beja";
 export const SANCTI_10_23 = "santos:10-23:3:w";
+export const SANCTI_10_23_ANGRA = "santos:10-23:4:w:angra";
 export const SANCTI_10_24 = "santos:10-24:3:w";
-export const SANCTI_10_25 = "santos:10-25-1:4:r";
+export const SANCTI_10_25 = "santos:10-25:4:r";
+export const SANCTI_10_25_BRAGA = "santos:10-25:4:w:@braga";
+export const SANCTI_10_25_EVORA_BEJA = "santos:10-25:4:w:@evora-beja";
+export const SANCTI_10_25_FUNCHAL = "santos:10-25:4:w:@funchal";
+export const SANCTI_10_27_PORTUGAL = "santos:10-27:4:w:@portugal";
+export const SANCTI_10_27_EVORA = "santos:10-27:4:w:@evora";
 export const SANCTI_10_28 = "santos:10-28:2:r"; // SS. Simon and Jude, Apostles
+export const SANCTI_10_29_GUARDA = "santos:10-29:4:w:@guarda";
+export const SANCTI_10_29_PORTUGAL = "santos:10-29:4:w:@portugal";
+export const SANCTI_10_30_PORTUGAL = "santos:10-30:4:w:@portugal";
 
 export const SANCTI_11_01 = "santos:11-01:1:w"; // All Saints
 export const SANCTI_11_02 = "santos:11-02:1:b"; // All Souls' Day
 export const SANCTI_11_04 = "santos:11-04-1:3:w";
+export const SANCTI_11_05_PORTUGAL = "santos:11-05:4:w:@portugal";
+export const SANCTI_11_06_PORTUGAL = "santos:11-06:4:w:@portugal";
 export const SANCTI_11_08 = "santos:11-08:4:r";
 export const SANCTI_11_09 = "santos:11-09:2:w"; // Dedication of the Lateran Basilica in Rome
 export const SANCTI_11_10 = "santos:11-10:3:w";
@@ -719,18 +740,26 @@ export const SANCTI_11_11 = "santos:11-11:3:w";
 export const SANCTI_11_12 = "santos:11-12:3:r";
 export const SANCTI_11_13 = "santos:11-13:4:w";
 export const SANCTI_11_14 = "santos:11-14:3:w";
-export const SANCTI_11_15 = "santos:11-15-1:3:w";
+export const SANCTI_11_15 = "santos:11-15:3:w";
+export const SANCTI_11_15_BRAGA = "santos:11-15:3:w:@braga";
 export const SANCTI_11_16 = "santos:11-16:3:w";
+export const SANCTI_11_16_COIMBRA_BRAGANCA =
+  "santos:11-16:3:w:@coimbra-braganca";
 export const SANCTI_11_17 = "santos:11-17:3:w";
 export const SANCTI_11_18 = "santos:11-18:3:w";
 export const SANCTI_11_19 = "santos:11-19:3:w";
 export const SANCTI_11_20 = "santos:11-20:3:w";
+export const SANCTI_11_20_LAMEGO = "santos:11-20:3:w:@lamego";
 export const SANCTI_11_21 = "santos:11-21:3:w";
 export const SANCTI_11_22 = "santos:11-22:3:r";
 export const SANCTI_11_23 = "santos:11-23:3:r";
+export const SANCTI_11_23_COIMBRA_BRAGANCA =
+  "santos:11-23:3:w:@coimbra-braganca";
 export const SANCTI_11_24 = "santos:11-24:3:w";
+export const SANCTI_11_24_VILA_REAL = "santos:11-24:3:w:@vila-real";
 export const SANCTI_11_25 = "santos:11-25:3:r";
 export const SANCTI_11_26 = "santos:11-26-1:3:w";
+export const SANCTI_11_27_LAMEGO = "santos:11-27:3:w:@lamego";
 export const SANCTI_11_29 = "santos:11-29:4:r";
 export const SANCTI_11_30 = "santos:11-30:2:r"; // St. Andrew, Apostle
 
@@ -744,7 +773,7 @@ export const SANCTI_12_07 = "santos:12-07:3:w";
 export const SANCTI_12_08 = "santos:12-08:1:w"; // Immaculate Conception of the Blessed Virgin Mary
 export const SANCTI_12_10 = "santos:12-10:4:r";
 export const SANCTI_12_11 = "santos:12-11:3:w";
-export const SANCTI_12_12 = "santos:12-12:3:w";
+export const SANCTI_12_12_BRASIL = "santos:12-12:3:w:@brasil";
 export const SANCTI_12_12_PORTO = "santos:12-12:3:w:@porto";
 export const SANCTI_12_13 = "santos:12-13:3:r";
 export const SANCTI_12_16 = "santos:12-16:3:r";
@@ -1316,8 +1345,34 @@ export const LOCAL = [
   SANCTI_07_22_LISBOA,
   SANCTI_07_23_VISEU,
   SANCTI_09_09_ANGOLA,
+  SANCTI_09_16_PORTO,
+  SANCTI_10_01_LISBOA,
+  SANCTI_10_16_ANGRA,
+  SANCTI_10_17_BRAGA,
+  SANCTI_10_20_PORTUGAL,
+  SANCTI_10_21_VISEU_LISBOA,
+  SANCTI_10_22_GUARDA,
+  SANCTI_10_22_LISBOA_EVORA_BEJA,
+  SANCTI_10_23_ANGRA,
+  SANCTI_10_25_BRAGA,
+  SANCTI_10_25_EVORA_BEJA,
+  SANCTI_10_25_FUNCHAL,
+  SANCTI_10_27_PORTUGAL,
+  SANCTI_10_27_EVORA,
+  SANCTI_10_29_GUARDA,
+  SANCTI_10_29_PORTUGAL,
+  SANCTI_10_30_PORTUGAL,
+  SANCTI_11_05_PORTUGAL,
+  SANCTI_11_06_PORTUGAL,
+  SANCTI_11_15_BRAGA,
+  SANCTI_11_16_COIMBRA_BRAGANCA,
+  SANCTI_11_20_LAMEGO,
+  SANCTI_11_23_COIMBRA_BRAGANCA,
+  SANCTI_11_24_VILA_REAL,
+  SANCTI_11_27_LAMEGO,
   SANCTI_12_01_VILA_REAL,
-  SANCTI_12_12,
+  SANCTI_12_12_BRASIL,
+  SANCTI_12_12_PORTO,
 ];
 
 export const FERIA = [
@@ -2457,10 +2512,12 @@ export const TITLES: Record<string, string> = {
   [SANCTI_09_14]: "Exaltação da Santa Cruz",
   [SANCTI_09_15]: "Sete Dores da B. V. Maria",
   [SANCTI_09_16]: "S. S. Cornélio e Cipriano, Mártires",
+  [SANCTI_09_16_PORTO]:
+    "Na Dedicação da Igreja Catedral do Porto, a 16 de Setembro",
   [SANCTI_09_17]: "Imp. dos Estigmas em S. Francisco",
   [SANCTI_09_18]: "S. José Cupertino, Confessor",
   [SANCTI_09_19]: "S. Januário e Outros, Mártires",
-  [SANCTI_09_20]: "S. S. Fabião e Sebastião, Mártires",
+  [SANCTI_09_20]: "Vigilia de S. Mateus, Apóstolo e Evangelista",
   [SANCTI_09_21]: "S. Mateus, Apóstolo e Evangelista",
   [SANCTI_09_22]: "S. Tomás de Vilanova, Bispo e Confessor",
   [SANCTI_09_23]: "S. Lino, Papa e Mártir",
@@ -2471,6 +2528,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_09_29]: "Dedicação de S. Miguel Arcanjo",
   [SANCTI_09_30]: "S. Jerónimo, Presbítero Confessor e Doutor",
   [SANCTI_10_01]: "S. Remigio",
+  [SANCTI_10_01_LISBOA]: "S. Veríssimo e Outros, Mártires",
   [SANCTI_10_02]: "Santos Anjos da Guarda",
   [SANCTI_10_03]: "Santa Teresa do Menino Jesus",
   [SANCTI_10_04]: "S. Francisco",
@@ -2485,18 +2543,37 @@ export const TITLES: Record<string, string> = {
   [SANCTI_10_14]: "S. Calisto I, Papa e Mártir",
   [SANCTI_10_15]: "Santa Teresa, Virgem",
   [SANCTI_10_16]: "Santa Hedviges, Viúva",
+  [SANCTI_10_16_ANGRA]: "Na Dedicação da Igreja Catedral de Angra",
   [SANCTI_10_17]: "Santa Margarida Maria, Virgem",
+  [SANCTI_10_17_BRAGA]: "Trasl. de S. Pedro de Rates",
   [SANCTI_10_18]: "S. Lucas, Evangelista",
   [SANCTI_10_19]: "S. Pedro de Alcântara, Confessor",
   [SANCTI_10_20]: "S. João Câncio, Confessor",
+  [SANCTI_10_20_PORTUGAL]: "Santa Iria, Virgem e Mártir",
   [SANCTI_10_21]: "S. Hilarião, Abade",
+  [SANCTI_10_21_VISEU_LISBOA]: "S. Úrsula e Outras, Virgens e Mártires",
+  [SANCTI_10_22_GUARDA]: "Na Dedicação da Igreja Catedral da Guarda",
+  [SANCTI_10_22_LISBOA_EVORA_BEJA]: "Na Dedicação da Basilica de Mafra",
   [SANCTI_10_23]: "S. António Maria Claret, Bispo e Confessor",
+  [SANCTI_10_23_ANGRA]: "Na Oitava da Dedicação da Igreja Catedral de Angra",
   [SANCTI_10_24]: "S. Rafael, Arcanjo",
   [SANCTI_10_25]: "S.S. Crisanto e Daria, Mártires",
+  [SANCTI_10_25_BRAGA]: "Trasl. de S. Martinho de Dume",
+  [SANCTI_10_25_EVORA_BEJA]: "S. S. Crispim e Crispiniano, Márts.",
+  [SANCTI_10_25_FUNCHAL]:
+    "Na Oitava da Dedicação da Igreja Catedral do Funchal",
+  [SANCTI_10_27_PORTUGAL]: "S. Gonçalo de Lagos",
+  [SANCTI_10_27_EVORA]: "S. S. Vicente, Sabina e Cristeta",
   [SANCTI_10_28]: "S.S. Simão e Judas, Apóstolos",
+  [SANCTI_10_29_GUARDA]: "Na Oitava da Dedicação da Igreja Catedral da Guarda",
+  [SANCTI_10_29_PORTUGAL]: "Trasl. de Santa Isabel, Rainha",
+  [SANCTI_10_30_PORTUGAL]:
+    "Vitória dos Cristãos, Missa de Acção de Graças pela vitória que os cristãos alcançaram na luta contra os sarracenos",
   [SANCTI_11_01]: "Todos os Santos",
   [SANCTI_11_02]: "Comemoração dos Fiéis Defuntos",
   [SANCTI_11_04]: "S. Carlos Borromeu, Bispo e Confessor",
+  [SANCTI_11_05_PORTUGAL]: "Sagradas Relíquias",
+  [SANCTI_11_06_PORTUGAL]: "S. Nuno de Santa Maria",
   [SANCTI_11_08]: "Os Quatro S.S. Mártires Coroados",
   [SANCTI_11_09]: "Dedicação da Basílica do Salvador",
   [SANCTI_11_10]: "S. André de Avelino, Confessor",
@@ -2505,17 +2582,26 @@ export const TITLES: Record<string, string> = {
   [SANCTI_11_13]: "S. Diogo, Confessor",
   [SANCTI_11_14]: "S. Josafá, Bispo e Mártir",
   [SANCTI_11_15]: "S. Alberto Magno, Bispo, Confessor e Doutor da Igreja",
+  [SANCTI_11_15_BRAGA]:
+    "Na Dedicação da Basilica do Santissimo Coração de Jesus",
   [SANCTI_11_16]: "S. Gertrudes, Virgem",
+  [SANCTI_11_16_COIMBRA_BRAGANCA]:
+    "Na Dedicação das Igrejas Catedrais de Bragança e Coimbra",
   [SANCTI_11_17]: "S. Gregório Taumaturgo, Bispo e Confessor",
   [SANCTI_11_18]: "Dedicação da Basílica de S.S Pedro e Paulo",
   [SANCTI_11_19]: "S. Isabel, Viúva",
   [SANCTI_11_20]: "S. Félix de Valois, Confessor",
+  [SANCTI_11_20_LAMEGO]: "Na Dedicação da Igreja Catedral de Lamego",
   [SANCTI_11_21]: "Apresentação da Nossa Senhora",
   [SANCTI_11_22]: "S. Cecília, Virgem e Mártir",
   [SANCTI_11_23]: "S. Clemente I, Papa e Mártir",
+  [SANCTI_11_23_COIMBRA_BRAGANCA]:
+    "Na Oitava da Dedicação das Igrejas Catedrais de Bragança e Coimbra",
   [SANCTI_11_24]: "S. João da Cruz, Confessor e Doutor da Igreja",
+  [SANCTI_11_24_VILA_REAL]: "Na Dedicação da Igreja Catedral de Vila Real",
   [SANCTI_11_25]: "S. Catarina, Virgem e Mártir",
   [SANCTI_11_26]: "S. Silvestre, Abade",
+  [SANCTI_11_27_LAMEGO]: "Na Oitava da Dedicação da Igreja Catedral da Lamego",
   [SANCTI_11_29]: "S. Saturnino, Mártir",
   [SANCTI_11_30]: "S. André, Apóstolo",
   [SANCTI_12_01_VILA_REAL]:
@@ -2529,7 +2615,8 @@ export const TITLES: Record<string, string> = {
   [SANCTI_12_08]: "Imaculada Conceição da SS. Virgem",
   [SANCTI_12_10]: "S. Melquíades, Papa e Mártir",
   [SANCTI_12_11]: "S. Dâmaso, Papa e Confessor",
-  [SANCTI_12_12]: "Nossa Senhora de Guadalupe",
+  [SANCTI_12_12_BRASIL]: "Nossa Senhora de Guadalupe",
+  [SANCTI_12_12_PORTO]: "Trasladação de S. Pantaleão",
   [SANCTI_12_13]: "S. Luzia, Virgem e Mártir",
   [SANCTI_12_16]: "S. Eusébio, Bispo e Mártir",
   [SANCTI_12_21]: "S. Tomé, Apóstolo",
