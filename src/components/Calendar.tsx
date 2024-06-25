@@ -7,6 +7,7 @@ import {
   isSameWeek,
   startOfWeek,
 } from "date-fns";
+import { pt } from "date-fns/locale";
 import { useState } from "react";
 import { getCalendar } from "../lib/getCalendar";
 import { yyyyMMDD } from "../lib/utils";
@@ -43,8 +44,8 @@ export default function WeeklyCalendar() {
     setCurrentWeek((prevWeek) => addWeeks(prevWeek, 1));
   };
 
-  const weekStart = format(currentWeek, "MMMM dd");
-  const weekEnd = format(endOfWeek(currentWeek), "MMMM dd");
+  const weekStart = format(currentWeek, "MMMM dd", { locale: pt });
+  const weekEnd = format(endOfWeek(currentWeek), "MMMM dd", { locale: pt });
 
   return (
     <>
@@ -56,7 +57,7 @@ export default function WeeklyCalendar() {
               onClick={handlePreviousWeek}
               className="p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded cursor-pointer"
             >
-              <Icon icon="mdi:arrow-left" width="20" height="20" />
+              <Icon icon="mdi:arrow-left" width="18" height="18" />
             </button>
             <div>{`${weekStart} - ${weekEnd}`}</div>
             <button
@@ -64,7 +65,7 @@ export default function WeeklyCalendar() {
               onClick={handleNextWeek}
               className="p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded cursor-pointer"
             >
-              <Icon icon="mdi:arrow-right" width="20" height="20" />
+              <Icon icon="mdi:arrow-right" width="18" height="18" />
             </button>
           </div>
           {Object.entries(calendar)
@@ -74,37 +75,63 @@ export default function WeeklyCalendar() {
             .map(([calendarDate, day]) => (
               <div
                 key={calendarDate}
-                className="flex justify-between gap-2 mx-2"
+                className="flex flex-col gap-2 mx-2 mb-4 p-4 border rounded border-gray-300 dark:border-gray-700"
               >
-                <LinkCard
-                  link={day.celebration[0]?.link ?? day.tempora[0]?.link}
-                  description={
-                    day.celebration[0]?.title ? day.tempora[0]?.title : ""
-                  }
-                  caption={day.celebration[0]?.title ? "Celebração" : "Tempora"}
-                  title={
-                    day.celebration[0]?.title ??
-                    day.tempora[0]?.title ??
-                    "Feria"
-                  }
-                  color={getColor(day.celebration[0]?.colors[0])}
-                  borderColor={calendarDate === today && "border-red-500"}
-                  icon="mdi:tshirt-v"
-                  date={calendarDate}
-                />
-                {day.commemoration.length ? (
+                <div className="text-lg font-semibold mb-2">
+                  {format(new Date(calendarDate), "EEEE, MMMM dd", {
+                    locale: pt,
+                  })}
+                </div>
+                {day.celebration.map((celebration) => (
                   <LinkCard
-                    link={day.commemoration[0]?.link}
-                    caption="Comemoração"
-                    title={day.commemoration[0]?.title}
-                    color={getColor(day.commemoration[0]?.colors[0])}
-                    borderColor={calendarDate === today && "border-red-500"}
+                    key={celebration.id}
+                    link={celebration?.link ?? day.tempora[0]?.link}
+                    description={
+                      day.celebration[0]?.title ? day.tempora[0]?.title : ""
+                    }
+                    caption={celebration.title ? "Celebração" : "Tempora"}
+                    title={
+                      celebration.title ?? day.tempora[0]?.title ?? "Feria"
+                    }
+                    color={getColor(day.celebration[0]?.colors[0])}
+                    borderColor={calendarDate === today ? "border-red-500" : ""}
                     icon="mdi:tshirt-v"
                     date={calendarDate}
                   />
-                ) : (
-                  <></>
-                )}
+                ))}
+                {day.commemoration.map((commemoration) => (
+                  <LinkCard
+                    key={commemoration.id}
+                    link={commemoration.link}
+                    caption="Comemoração"
+                    title={commemoration.title}
+                    color={getColor(commemoration.colors[0])}
+                    borderColor={
+                      calendarDate === today
+                        ? "border-red-400"
+                        : "border-sepia-400"
+                    }
+                    icon="mdi:tshirt-v"
+                    date={calendarDate}
+                  />
+                ))}
+
+                {day.local.map((local) => (
+                  <LinkCard
+                    key={local.id}
+                    link={local.link}
+                    caption={local.local}
+                    title={local.title}
+                    color={getColor(local.colors[0])}
+                    borderColor={
+                      calendarDate === today
+                        ? "border-red-300"
+                        : "border-sepia-300"
+                    }
+                    icon="mdi:tshirt-v"
+                    date={calendarDate}
+                  />
+                ))}
               </div>
             ))}
         </div>

@@ -5,6 +5,8 @@ import {
   requestPermission,
   sendNotification,
 } from "@tauri-apps/plugin-notification";
+import { format } from "date-fns";
+import { pt } from "date-fns/locale";
 import { useEffect, useState } from "react";
 import Calendar from "./Calendar";
 import LinkCard from "./LinkCard";
@@ -66,11 +68,8 @@ export default function InteractiveCard() {
         <h2>Dia e Hora</h2>
       </div>
       <span className="font-bold">
-        {new Date().toLocaleTimeString("pt", {
-          month: "long",
-          weekday: "long",
-          day: "2-digit",
-          hour: "numeric",
+        {format(new Date(), "EEEE, MMMM dd", {
+          locale: pt,
         })}
       </span>
       <div className="flex justify-between gap-2 mx-2">
