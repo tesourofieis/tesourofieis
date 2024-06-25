@@ -177,7 +177,6 @@ class Observance {
 
   private getLink(observanceId: string) {
     if (this.local) {
-      console.log("#####FOOBAR", this.local, observanceId);
       return `missal/${this.getTempora(this.name)}/${this.name}-${this.local}`;
     }
     if (FERIA.includes(observanceId)) {

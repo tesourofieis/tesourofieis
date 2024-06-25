@@ -3797,13 +3797,23 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "r",
         ],
-        "id": "santos:05-14-1:4:r",
-        "link": "missal/santos/05-14-1",
+        "id": "santos:05-14:4:r",
+        "link": "missal/santos/05-14",
         "rank": 4,
         "title": "S. Bonifácio, Mártir",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:05-14:4:w",
+        "link": "missal/santos/05-14-lisboa",
+        "rank": 4,
+        "title": "S. Gil, Confessor",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -3822,14 +3832,24 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:05-15-1:3:w",
-        "link": "missal/santos/05-15-1",
+        "id": "santos:05-15:3:w",
+        "link": "missal/santos/05-15",
         "rank": 3,
         "title": "S. João Baptista de la Salle, Confessor",
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:05-15:3:r",
+        "link": "missal/santos/05-15-evora",
+        "rank": 3,
+        "title": "S. Mâncio, B. e Mártir",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -4011,7 +4031,26 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:05-22:3:w",
+        "link": "missal/santos/05-22-evora",
+        "rank": 3,
+        "title": "Dedicação da Catedral de Évora",
+      },
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:05-22:3:w",
+        "link": "missal/santos/05-22-braga",
+        "rank": 3,
+        "title": "B. B. João B. Machado e Outros, Ms.",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -4063,7 +4102,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:05-24:3:r",
+        "link": "missal/santos/05-24-braga",
+        "rank": 3,
+        "title": "Trasl. das Rel. de S. Tiago Intercísio",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -4255,7 +4304,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:05-31:2:w",
+        "link": "missal/santos/05-31-portugal",
+        "rank": 2,
+        "title": "B. V. Maria, Mediadora das Graças",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -4323,7 +4382,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
   "2024-06-03": {
     "celebration": [],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:06-03:4:r",
+        "link": "missal/santos/06-03-angola",
+        "rank": 4,
+        "title": "S. S. Carlos Lwanga e Outros, Mártires",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -4675,19 +4744,19 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
     ],
   },
   "2024-06-17": {
-    "celebration": [
+    "celebration": [],
+    "commemoration": [],
+    "local": [
       {
         "colors": [
           "w",
         ],
         "id": "santos:06-17:3:w",
-        "link": "missal/santos/06-17",
+        "link": "missal/santos/06-17-portugal",
         "rank": 3,
         "title": "Beata Teresa, Princesa de Portugal, Viúva",
       },
     ],
-    "commemoration": [],
-    "local": [],
     "tempora": [
       {
         "colors": [
@@ -4759,13 +4828,23 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "r",
         ],
-        "id": "santos:06-20-2:4:r",
-        "link": "missal/santos/06-20-2",
+        "id": "santos:06-20:4:r",
+        "link": "missal/santos/06-20",
         "rank": 4,
         "title": "S. Silvestre, Papa e Mártir",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:06-20:4:r",
+        "link": "missal/santos/06-20-portugal",
+        "rank": 4,
+        "title": "B. Francisco Pacheco e Outros, Márts.",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -4924,14 +5003,24 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "r",
         ],
-        "id": "santos:06-26-1:3:r",
-        "link": "missal/santos/06-26-1",
+        "id": "santos:06-26:3:r",
+        "link": "missal/santos/06-26",
         "rank": 3,
         "title": "S.S. João e Paulo, Mártires",
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:06-26:3:r",
+        "link": "missal/santos/06-26-portugal",
+        "rank": 3,
+        "title": "S. Pelágio",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -5425,7 +5514,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:07-15:3:r",
+        "link": "missal/santos/07-15-portugal",
+        "rank": 3,
+        "title": "B. Inácio de Azevedo e Companheiros",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -5445,13 +5544,23 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:07-16-1:4:w",
-        "link": "missal/santos/07-16-1",
+        "id": "santos:07-16:4:w",
+        "link": "missal/santos/07-16",
         "rank": 4,
         "title": "B. V. Maria do Monte Carmelo",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:07-16:4:r",
+        "link": "missal/santos/07-16-beja",
+        "rank": 4,
+        "title": "S. Sisenando, Mártir",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -5548,14 +5657,24 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "r",
         ],
-        "id": "santos:07-20-1:3:r",
-        "link": "missal/santos/07-20-1",
+        "id": "santos:07-20:3:r",
+        "link": "missal/santos/07-20",
         "rank": 3,
         "title": "S. Jerónimo Emiliano",
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "r",
+        ],
+        "id": "santos:07-20:3:r",
+        "link": "missal/santos/07-20-coimbra",
+        "rank": 3,
+        "title": "Santa Colomba, Virgem e Mártir",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -5585,13 +5704,23 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:07-21-2:3:w",
-        "link": "missal/santos/07-21-2",
+        "id": "santos:07-21:3:w",
+        "link": "missal/santos/07-21",
         "rank": 3,
         "title": "S. Praxedes de Brindisi, Confessor e Doutor da Igreja",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:07-21:3:w",
+        "link": "missal/santos/07-21-portugal",
+        "rank": 3,
+        "title": "Santo Anjo Custódio de Portugal",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -5610,14 +5739,24 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:07-22-1:3:w",
-        "link": "missal/santos/07-22-1",
+        "id": "santos:07-22:3:w",
+        "link": "missal/santos/07-22",
         "rank": 3,
         "title": "S. Maria Madalena, Penitente",
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:07-22:3:w",
+        "link": "missal/santos/07-22-lisboa",
+        "rank": 3,
+        "title": "S. Lourenço de Brindes, Confessor",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -5643,7 +5782,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:07-23-1:3:w",
+        "link": "missal/santos/07-23-1-viseu",
+        "rank": 3,
+        "title": "Na Dedicação da Igreja Catedral de Viseu",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -5751,8 +5900,8 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "r",
         ],
-        "id": "santos:07-27-2:4:r",
-        "link": "missal/santos/07-27-2",
+        "id": "santos:07-27:4:r",
+        "link": "missal/santos/07-27",
         "rank": 4,
         "title": "S. Pantaleão, Mártir",
       },
@@ -6290,8 +6439,8 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:08-16-1:2:w",
-        "link": "missal/santos/08-16-1",
+        "id": "santos:08-16:2:w",
+        "link": "missal/santos/08-16",
         "rank": 2,
         "title": "S. Joaquim, Pai de Nossa Senhora",
       },
@@ -6921,7 +7070,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "title": "S. Gorgónio, Mártir",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:09-09-1:4:w",
+        "link": "missal/santos/09-09-1-angola",
+        "rank": 4,
+        "title": "S. Pedro Claver, Confessor",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -7103,7 +7262,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:09-16:3:w",
+        "link": "missal/santos/09-16-porto",
+        "rank": 3,
+        "title": "Na Dedicação da Igreja Catedral do Porto, a 16 de Setembro",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -7219,12 +7388,12 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
     "commemoration": [
       {
         "colors": [
-          "r",
+          "w",
         ],
-        "id": "santos:09-20:4:r",
-        "link": "missal/santos/09-20",
+        "id": "santos:09-20-2:4:w",
+        "link": "missal/santos/09-20-2",
         "rank": 4,
-        "title": "S. S. Fabião e Sebastião, Mártires",
+        "title": "Vigilia de S. Mateus, Apóstolo e Evangelista",
       },
     ],
     "local": [],
@@ -7527,13 +7696,23 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:10-01-1:4:w",
-        "link": "missal/santos/10-01-1",
+        "id": "santos:10-01:4:w",
+        "link": "missal/santos/10-01",
         "rank": 4,
         "title": "S. Remigio",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-01:4:w",
+        "link": "missal/santos/10-01-lisboa",
+        "rank": 4,
+        "title": "S. Veríssimo e Outros, Mártires",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -7953,7 +8132,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-16:3:w",
+        "link": "missal/santos/10-16-angra",
+        "rank": 3,
+        "title": "Na Dedicação da Igreja Catedral de Angra",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -7972,14 +8161,24 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:10-17-1:3:w",
-        "link": "missal/santos/10-17-1",
+        "id": "santos:10-17:3:w",
+        "link": "missal/santos/10-17",
         "rank": 3,
         "title": "Santa Margarida Maria, Virgem",
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-17:3:w",
+        "link": "missal/santos/10-17-braga",
+        "rank": 3,
+        "title": "Trasl. de S. Pedro de Rates",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8061,13 +8260,23 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:10-20-1:3:w",
-        "link": "missal/santos/10-20-1",
+        "id": "santos:10-20:3:w",
+        "link": "missal/santos/10-20",
         "rank": 3,
         "title": "S. João Câncio, Confessor",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-20:3:w",
+        "link": "missal/santos/10-20-portugal",
+        "rank": 3,
+        "title": "Santa Iria, Virgem e Mártir",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8087,13 +8296,23 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:10-21-1:4:w",
-        "link": "missal/santos/10-21-1",
+        "id": "santos:10-21:4:w",
+        "link": "missal/santos/10-21",
         "rank": 4,
         "title": "S. Hilarião, Abade",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-21:4:w",
+        "link": "missal/santos/10-21-viseu-lisboa",
+        "rank": 4,
+        "title": "S. Úrsula e Outras, Virgens e Mártires",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8109,7 +8328,26 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
   "2024-10-22": {
     "celebration": [],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-22:4:w",
+        "link": "missal/santos/10-22-guarda",
+        "rank": 4,
+        "title": "Na Dedicação da Igreja Catedral da Guarda",
+      },
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-22:4:w",
+        "link": "missal/santos/10-22-lisboa-evora-beja",
+        "rank": 4,
+        "title": "Na Dedicação da Basilica de Mafra",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8135,7 +8373,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-23:4:w",
+        "link": "missal/santos/10-23",
+        "rank": 4,
+        "title": "Na Oitava da Dedicação da Igreja Catedral de Angra",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8181,13 +8429,41 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "r",
         ],
-        "id": "santos:10-25-1:4:r",
-        "link": "missal/santos/10-25-1",
+        "id": "santos:10-25:4:r",
+        "link": "missal/santos/10-25",
         "rank": 4,
         "title": "S.S. Crisanto e Daria, Mártires",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-25:4:w",
+        "link": "missal/santos/10-25-braga",
+        "rank": 4,
+        "title": "Trasl. de S. Martinho de Dume",
+      },
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-25:4:w",
+        "link": "missal/santos/10-25-evora-beja",
+        "rank": 4,
+        "title": "S. S. Crispim e Crispiniano, Márts.",
+      },
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-25:4:w",
+        "link": "missal/santos/10-25-funchal",
+        "rank": 4,
+        "title": "Na Oitava da Dedicação da Igreja Catedral do Funchal",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8239,7 +8515,26 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-27:4:w",
+        "link": "missal/santos/10-27-portugal",
+        "rank": 4,
+        "title": "S. Gonçalo de Lagos",
+      },
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-27:4:w",
+        "link": "missal/santos/10-27-evora",
+        "rank": 4,
+        "title": "S. S. Vicente, Sabina e Cristeta",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8281,7 +8576,26 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
   "2024-10-29": {
     "celebration": [],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-29:4:w",
+        "link": "missal/santos/10-29-guarda",
+        "rank": 4,
+        "title": "Na Oitava da Dedicação da Igreja Catedral da Guarda",
+      },
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-29:4:w",
+        "link": "missal/santos/10-29-portugal",
+        "rank": 4,
+        "title": "Trasl. de Santa Isabel, Rainha",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8297,7 +8611,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
   "2024-10-30": {
     "celebration": [],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:10-30:4:w",
+        "link": "missal/santos/10-30-portugal",
+        "rank": 4,
+        "title": "Vitória dos Cristãos, Missa de Acção de Graças pela vitória que os cristãos alcançaram na luta contra os sarracenos",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8433,7 +8757,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
   "2024-11-05": {
     "celebration": [],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:11-05:4:w",
+        "link": "missal/santos/11-05-portugal",
+        "rank": 4,
+        "title": "Sagradas Relíquias",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8449,7 +8783,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
   "2024-11-06": {
     "celebration": [],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:11-06:4:w",
+        "link": "missal/santos/11-06-portugal",
+        "rank": 4,
+        "title": "S. Nuno de Santa Maria",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8676,14 +9020,24 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:11-15-1:3:w",
-        "link": "missal/santos/11-15-1",
+        "id": "santos:11-15:3:w",
+        "link": "missal/santos/11-15",
         "rank": 3,
         "title": "S. Alberto Magno, Bispo, Confessor e Doutor da Igreja",
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:11-15:3:w",
+        "link": "missal/santos/11-15-braga",
+        "rank": 3,
+        "title": "Na Dedicação da Basilica do Santissimo Coração de Jesus",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8709,7 +9063,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:11-16:3:w",
+        "link": "missal/santos/11-16-coimbra-braganca",
+        "rank": 3,
+        "title": "Na Dedicação das Igrejas Catedrais de Bragança e Coimbra",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8823,7 +9187,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:11-20:3:w",
+        "link": "missal/santos/11-20-lamego",
+        "rank": 3,
+        "title": "Na Dedicação da Igreja Catedral de Lamego",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8901,7 +9275,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       },
     ],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:11-23:3:w",
+        "link": "missal/santos/11-23-coimbra-braganca",
+        "rank": 3,
+        "title": "Na Oitava da Dedicação das Igrejas Catedrais de Bragança e Coimbra",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -8937,7 +9321,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "title": "S. João da Cruz, Confessor e Doutor da Igreja",
       },
     ],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:11-24:3:w",
+        "link": "missal/santos/11-24-vila-real",
+        "rank": 3,
+        "title": "Na Dedicação da Igreja Catedral de Vila Real",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -9005,7 +9399,17 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
   "2024-11-27": {
     "celebration": [],
     "commemoration": [],
-    "local": [],
+    "local": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:11-27:3:w",
+        "link": "missal/santos/11-27-lamego",
+        "rank": 3,
+        "title": "Na Oitava da Dedicação da Igreja Catedral da Lamego",
+      },
+    ],
     "tempora": [
       {
         "colors": [
@@ -9476,17 +9880,6 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
     "celebration": [
       {
         "colors": [
-          "w",
-        ],
-        "id": "santos:12-12:3:w",
-        "link": "missal/santos/12-12",
-        "rank": 3,
-        "title": "Nossa Senhora de Guadalupe",
-      },
-    ],
-    "commemoration": [
-      {
-        "colors": [
           "v",
         ],
         "id": "tempora:adv2-4:3:v",
@@ -9495,15 +9888,25 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "title": "Quinta-feira da 2ª semana do Advento",
       },
     ],
+    "commemoration": [],
     "local": [
       {
         "colors": [
           "w",
         ],
         "id": "santos:12-12:3:w",
-        "link": "missal/santos/12-12",
+        "link": "missal/santos/12-12-brasil",
         "rank": 3,
         "title": "Nossa Senhora de Guadalupe",
+      },
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:12-12:3:w",
+        "link": "missal/santos/12-12-porto",
+        "rank": 3,
+        "title": "Trasladação de S. Pantaleão",
       },
     ],
     "tempora": [
