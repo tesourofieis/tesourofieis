@@ -75,30 +75,38 @@ export default function WeeklyCalendar() {
             .map(([calendarDate, day]) => (
               <div
                 key={calendarDate}
-                className="flex flex-col gap-2 mx-2 mb-4 p-4 border rounded border-gray-300 dark:border-gray-700"
+                className={`flex flex-col gap-2 mx-2 mb-4 p-4 border rounded ${calendarDate === today ? "border-red-500" : "border-gray-300 dark:border-gray-700"}`}
               >
                 <div className="text-lg font-semibold mb-2">
                   {format(new Date(calendarDate), "EEEE, MMMM dd", {
                     locale: pt,
                   })}
                 </div>
-                {day.celebration.map((celebration) => (
-                  <LinkCard
-                    key={celebration.id}
-                    link={celebration?.link ?? day.tempora[0]?.link}
-                    description={
-                      day.celebration[0]?.title ? day.tempora[0]?.title : ""
-                    }
-                    caption={celebration.title ? "Celebração" : "Tempora"}
-                    title={
-                      celebration.title ?? day.tempora[0]?.title ?? "Feria"
-                    }
-                    color={getColor(day.celebration[0]?.colors[0])}
-                    borderColor={calendarDate === today ? "border-red-500" : ""}
-                    icon="mdi:tshirt-v"
-                    date={calendarDate}
-                  />
-                ))}
+                {day.celebration.length ? (
+                  day.celebration.map((celebration) => (
+                    <LinkCard
+                      key={celebration.id}
+                      link={celebration?.link}
+                      caption={"Celebração"}
+                      title={celebration.title}
+                      color={getColor(celebration[0]?.colors[0])}
+                      icon="mdi:tshirt-v"
+                    />
+                  ))
+                ) : (
+                  <>
+                    {day.tempora.map((tempora) => (
+                      <LinkCard
+                        key={tempora.id}
+                        link={tempora?.link}
+                        caption={tempora.title ? "Celebração" : "Tempora"}
+                        title={tempora.title ?? "Feria"}
+                        color={getColor(tempora.colors[0])}
+                        icon="mdi:tshirt-v"
+                      />
+                    ))}
+                  </>
+                )}
                 {day.commemoration.map((commemoration) => (
                   <LinkCard
                     key={commemoration.id}
@@ -106,13 +114,7 @@ export default function WeeklyCalendar() {
                     caption="Comemoração"
                     title={commemoration.title}
                     color={getColor(commemoration.colors[0])}
-                    borderColor={
-                      calendarDate === today
-                        ? "border-red-400"
-                        : "border-sepia-400"
-                    }
                     icon="mdi:tshirt-v"
-                    date={calendarDate}
                   />
                 ))}
 
@@ -123,13 +125,7 @@ export default function WeeklyCalendar() {
                     caption={local.local}
                     title={local.title}
                     color={getColor(local.colors[0])}
-                    borderColor={
-                      calendarDate === today
-                        ? "border-red-300"
-                        : "border-sepia-300"
-                    }
                     icon="mdi:tshirt-v"
-                    date={calendarDate}
                   />
                 ))}
               </div>

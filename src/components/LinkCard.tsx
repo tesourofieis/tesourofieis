@@ -25,13 +25,7 @@ export default function LinkCard({
       className={`flex w-full justify-between text-sepia-600 shadow border rounded ${borderColor} hover:bg-sepia-200 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-400 no-underline p-4`}
     >
       <div className="flex flex-col">
-        {date && (
-          <div className="flex gap-2">
-            <Icon icon="mdi:calendar" />
-            <span className="font-sm">{date}</span>
-            {caption && <p className="font-sm font-bold">{caption}</p>}
-          </div>
-        )}
+        {caption && <p className="font-sm font-bold">{caption}</p>}
         <div className="flex items-center gap-2">
           {color && (
             <Icon className={`text-${color}`} color={color} icon={icon} />
