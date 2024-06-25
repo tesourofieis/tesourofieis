@@ -75,7 +75,11 @@ export default function WeeklyCalendar() {
             .map(([calendarDate, day]) => (
               <div
                 key={calendarDate}
-                className={`flex flex-col gap-2 mx-2 mb-4 p-4 border rounded ${calendarDate === today ? "border-red-500" : "border-gray-300 dark:border-gray-700"}`}
+                className={`flex flex-col gap-2 mx-2 mb-4 p-4 border rounded ${
+                  calendarDate === today
+                    ? "border-red-500"
+                    : "border-gray-300 dark:border-gray-700"
+                }`}
               >
                 <div className="text-lg font-semibold mb-2">
                   {format(new Date(calendarDate), "EEEE, MMMM dd", {

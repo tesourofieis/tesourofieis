@@ -7,7 +7,6 @@ export default function LinkCard({
   description,
   color,
   icon,
-  date,
   borderColor = "border-sepia-500 dark:border-sepia-700",
 }: {
   link?: string;
@@ -16,7 +15,6 @@ export default function LinkCard({
   description?: string;
   color?: string;
   icon?: string;
-  date?: string;
   borderColor?: string;
 }) {
   return (

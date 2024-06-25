@@ -541,15 +541,20 @@ export const SANCTI_05_12 = "santos:05-12:3:r";
 export const SANCTI_05_12_PORTUGAL = "santos:05-12:3:w:@portugal";
 export const SANCTI_05_13 = "santos:05-13:3:w";
 export const SANCTI_05_13_PORTUGAL = "santos:05-13:3:w:@portugal";
-export const SANCTI_05_14 = "santos:05-14-1:4:r";
-export const SANCTI_05_15 = "santos:05-15-1:3:w";
+export const SANCTI_05_14 = "santos:05-14:4:r";
+export const SANCTI_05_14_LISBOA = "santos:05-14:4:w:@lisboa";
+export const SANCTI_05_15 = "santos:05-15:3:w";
+export const SANCTI_05_15_EVORA = "santos:05-15:3:r:@evora";
 export const SANCTI_05_16 = "santos:05-16:4:w";
 export const SANCTI_05_17 = "santos:05-17:3:w";
 export const SANCTI_05_18 = "santos:05-18:3:r";
 export const SANCTI_05_19 = "santos:05-19:3:w";
 export const SANCTI_05_20 = "santos:05-20:3:w";
 export const SANCTI_05_22 = "santos:05-22:3:w";
-export const SANCTI_05_24 = "santos:05-24-1:3:w";
+export const SANCTI_05_22_BRAGA = "santos:05-22:3:w:@braga";
+export const SANCTI_05_22_EVORA = "santos:05-22:3:w:@evora";
+export const SANCTI_05_24 = "santos:05-24:3:w";
+export const SANCTI_05_24_BRAGA = "santos:05-24:3:r:@braga";
 export const SANCTI_05_25 = "santos:05-25:3:w";
 export const SANCTI_05_26 = "santos:05-26-1:3:w";
 export const SANCTI_05_27 = "santos:05-27-1:3:w";
@@ -557,8 +562,10 @@ export const SANCTI_05_28 = "santos:05-28:3:w";
 export const SANCTI_05_29 = "santos:05-29:3:w";
 export const SANCTI_05_30 = "santos:05-30:4:r";
 export const SANCTI_05_31 = "santos:05-31:2:w"; // Mary the Queen
+export const SANCTI_05_31_PORTUGAL = "santos:05-31:2:w:@portugal"; // Mary the Queen
 export const SANCTI_06_01 = "santos:06-01:3:w";
 export const SANCTI_06_02 = "santos:06-02:4:r";
+export const SANCTI_06_03_ANGOLA = "santos:06-03:4:r:@angola";
 export const SANCTI_06_04 = "santos:06-04:3:w";
 export const SANCTI_06_05 = "santos:06-05:3:r";
 export const SANCTI_06_06 = "santos:06-06:3:w";
@@ -569,16 +576,18 @@ export const SANCTI_06_12 = "santos:06-12:3:r";
 export const SANCTI_06_13 = "santos:06-13:3:w";
 export const SANCTI_06_14 = "santos:06-14:3:w";
 export const SANCTI_06_15 = "santos:06-15:3:w";
-export const SANCTI_06_17 = "santos:06-17:3:w";
+export const SANCTI_06_17_PORTUGAL = "santos:06-17:3:w:@portugal";
 export const SANCTI_06_18 = "santos:06-18:3:r";
 export const SANCTI_06_19 = "santos:06-19:3:r";
-export const SANCTI_06_20 = "santos:06-20-2:4:r";
+export const SANCTI_06_20 = "santos:06-20:4:r";
+export const SANCTI_06_20_PORTUGAL = "santos:06-20:4:r:@portugal";
 export const SANCTI_06_21 = "santos:06-21:3:w";
 export const SANCTI_06_22 = "santos:06-22:3:w";
 export const SANCTI_06_23 = "santos:06-23:3:v"; // Vigil of st. John Baptist
 export const SANCTI_06_24 = "santos:06-24:1:w"; // St. John Baptist
 export const SANCTI_06_25 = "santos:06-25:3:w";
-export const SANCTI_06_26 = "santos:06-26-1:3:r";
+export const SANCTI_06_26 = "santos:06-26:3:r";
+export const SANCTI_06_26_PORTUGAL = "santos:06-26:3:r:@portugal";
 export const SANCTI_06_28 = "santos:06-28-1:3:r"; // Vigil Ss. PP
 export const SANCTI_06_29 = "santos:06-29:1:r"; // Ss. Peter and Paul
 export const SANCTI_06_30 = "santos:06-30:3:r";
@@ -594,18 +603,24 @@ export const SANCTI_07_11 = "santos:07-11:4:r";
 export const SANCTI_07_12 = "santos:07-12:3:r";
 export const SANCTI_07_14 = "santos:07-14:3:w";
 export const SANCTI_07_15 = "santos:07-15:3:w";
-export const SANCTI_07_16 = "santos:07-16-1:4:w";
+export const SANCTI_07_15_PORTUGAL = "santos:07-15:3:r:@portugal";
+export const SANCTI_07_16 = "santos:07-16:4:w";
+export const SANCTI_07_16_BEJA = "santos:07-16:4:r:@beja";
 export const SANCTI_07_17 = "santos:07-17:4:w";
 export const SANCTI_07_18 = "santos:07-18:3:r";
 export const SANCTI_07_19 = "santos:07-19:3:w";
-export const SANCTI_07_20 = "santos:07-20-1:3:r";
-export const SANCTI_07_21 = "santos:07-21-2:3:w";
-export const SANCTI_07_22 = "santos:07-22-1:3:w";
+export const SANCTI_07_20 = "santos:07-20:3:r";
+export const SANCTI_07_20_COIMBRA = "santos:07-20:3:r:@coimbra";
+export const SANCTI_07_21 = "santos:07-21:3:w";
+export const SANCTI_07_21_PORTUGAL = "santos:07-21:3:w:@portugal";
+export const SANCTI_07_22 = "santos:07-22:3:w";
+export const SANCTI_07_22_LISBOA = "santos:07-22:3:w:@lisboa";
 export const SANCTI_07_23 = "santos:07-23-1:3:w";
+export const SANCTI_07_23_VISEU = "santos:07-23-1:3:w:@viseu";
 export const SANCTI_07_24 = "santos:07-24:4:r";
 export const SANCTI_07_25 = "santos:07-25:2:r"; // St. James, Apostle
 export const SANCTI_07_26 = "santos:07-26:2:w"; // St. Anna, Mary's Mother
-export const SANCTI_07_27 = "santos:07-27-2:4:r";
+export const SANCTI_07_27 = "santos:07-27:4:r";
 export const SANCTI_07_28 = "santos:07-28-1:3:r";
 export const SANCTI_07_29 = "santos:07-29-1:3:r";
 export const SANCTI_07_30 = "santos:07-30:4:r";
@@ -625,9 +640,9 @@ export const SANCTI_08_12 = "santos:08-12:3:w";
 export const SANCTI_08_13 = "santos:08-13:4:r";
 export const SANCTI_08_14 = "santos:08-14:2:w"; // Vigil of Assumption of Mary
 export const SANCTI_08_15 = "santos:08-15:1:w"; // Assumption of Mary
-export const SANCTI_08_16 = "santos:08-16-1:2:w"; // St. Joachim
+export const SANCTI_08_16 = "santos:08-16:2:w"; // St. Joachim
 export const SANCTI_08_17 = "santos:08-17:3:w";
-export const SANCTI_08_18 = "santos:08-18:4:w";
+export const SANCTI_08_18 = "santos:08-18-1:4:w";
 export const SANCTI_08_19 = "santos:08-19-1:3:w";
 export const SANCTI_08_20 = "santos:08-20:3:w";
 export const SANCTI_08_21 = "santos:08-21:3:w";
@@ -648,6 +663,7 @@ export const SANCTI_09_03 = "santos:09-03:3:w";
 export const SANCTI_09_05 = "santos:09-05:3:w";
 export const SANCTI_09_08 = "santos:09-08:2:w"; // Nativity of Mary
 export const SANCTI_09_09 = "santos:09-09-1:4:r";
+export const SANCTI_09_09_ANGOLA = "santos:09-09-1:4:w:@angola";
 export const SANCTI_09_10 = "santos:09-10:3:w";
 export const SANCTI_09_11 = "santos:09-11:4:r";
 export const SANCTI_09_12 = "santos:09-12:3:w";
@@ -1283,6 +1299,23 @@ export const LOCAL = [
   SANCTI_05_04_PORTUGAL,
   SANCTI_05_12_PORTUGAL,
   SANCTI_05_13_PORTUGAL,
+  SANCTI_05_14_LISBOA,
+  SANCTI_05_15_EVORA,
+  SANCTI_05_22_EVORA,
+  SANCTI_05_22_BRAGA,
+  SANCTI_05_24_BRAGA,
+  SANCTI_05_31_PORTUGAL,
+  SANCTI_06_03_ANGOLA,
+  SANCTI_06_17_PORTUGAL,
+  SANCTI_06_20_PORTUGAL,
+  SANCTI_06_26_PORTUGAL,
+  SANCTI_07_15_PORTUGAL,
+  SANCTI_07_16_BEJA,
+  SANCTI_07_20_COIMBRA,
+  SANCTI_07_21_PORTUGAL,
+  SANCTI_07_22_LISBOA,
+  SANCTI_07_23_VISEU,
+  SANCTI_09_09_ANGOLA,
   SANCTI_12_01_VILA_REAL,
   SANCTI_12_12,
 ];
@@ -1644,7 +1677,6 @@ export const SANCTI = [
   SANCTI_06_13,
   SANCTI_06_14,
   SANCTI_06_15,
-  SANCTI_06_17,
   SANCTI_06_18,
   SANCTI_06_19,
   SANCTI_06_20,
@@ -2293,21 +2325,24 @@ export const TITLES: Record<string, string> = {
   [SANCTI_05_09]:
     "S. Gregório de Nazianzeno, Bispo, Confessor e Doutor da Igreja",
   [SANCTI_05_10]: "S. Antonino, Bispo e Confessor",
-  // TODO: Adicionar Nereu
-  // FIXME: Adicionar Santa Joana
   [SANCTI_05_12]: "S.S. Nereu, Achileu, Domitila, Virgem e Pancracio, Mártires",
   [SANCTI_05_12_PORTUGAL]: "B. Joana, Princesa",
   [SANCTI_05_13]: "S. Roberto Belarmino, Bispo, Confessor e Doutor da Igreja",
   [SANCTI_05_13_PORTUGAL]: "Votiva do Imaculado Coração da B. Virgem Maria",
   [SANCTI_05_14]: "S. Bonifácio, Mártir",
+  [SANCTI_05_14_LISBOA]: "S. Gil, Confessor",
   [SANCTI_05_15]: "S. João Baptista de la Salle, Confessor",
+  [SANCTI_05_15_EVORA]: "S. Mâncio, B. e Mártir",
   [SANCTI_05_16]: "S. Ubaldo, Bispo e Confessor",
   [SANCTI_05_17]: "S. Pascoal Bailão, Confessor",
   [SANCTI_05_18]: "S. Venâncio, Mártir",
   [SANCTI_05_19]: "S. Pedro Celestino, Papa e Confessor",
   [SANCTI_05_20]: "S. Bernardino de Sena, Confessor",
   [SANCTI_05_22]: "S. Rita de Cássia, Viúva",
+  [SANCTI_05_22_BRAGA]: "B. B. João B. Machado e Outros, Ms.",
+  [SANCTI_05_22_EVORA]: "Dedicação da Catedral de Évora",
   [SANCTI_05_24]: "B. Virgem Maria, Auxílio dos Cristãos",
+  [SANCTI_05_24_BRAGA]: "Trasl. das Rel. de S. Tiago Intercísio",
   [SANCTI_05_25]: "S. Gregório VII, Papa e Confessor",
   [SANCTI_05_26]: "S. Filipe Néri, Confessor",
   [SANCTI_05_27]: "S. Beda, Confessor e Doutor da Igreja",
@@ -2315,8 +2350,10 @@ export const TITLES: Record<string, string> = {
   [SANCTI_05_29]: "S. Maria Madalena de Pazzi, Virgem",
   [SANCTI_05_30]: "S. Félix I, Papa e Mártir",
   [SANCTI_05_31]: "Nossa Senhora, Rainha",
+  [SANCTI_05_31_PORTUGAL]: "B. V. Maria, Mediadora das Graças",
   [SANCTI_06_01]: "Santa Ângela Mericia, Virgem",
   [SANCTI_06_02]: "S.S. Marcelino e Pedro, Mártires e Erasmo, Bispo",
+  [SANCTI_06_03_ANGOLA]: "S. S. Carlos Lwanga e Outros, Mártires",
   [SANCTI_06_04]: "S. Francisco Caraccíolo, Confessor",
   [SANCTI_06_05]: "S. Bonifácio, Bispo e Mártir",
   [SANCTI_06_06]: "S. Norberto, Bispo e Confessor",
@@ -2327,16 +2364,18 @@ export const TITLES: Record<string, string> = {
   [SANCTI_06_13]: "S. António de Lisboa, Confessor e Doutor da Igreja",
   [SANCTI_06_14]: "S. Basílio Magno, Confessor, Bispo e Doutor da Igreja",
   [SANCTI_06_15]: "S.S. Vito, Modesto e Crescência, Mártires",
-  [SANCTI_06_17]: "Beata Teresa, Princesa de Portugal, Viúva",
+  [SANCTI_06_17_PORTUGAL]: "Beata Teresa, Princesa de Portugal, Viúva",
   [SANCTI_06_18]: "S. Efrém, Diácono, Confessor e Doutor da Igreja",
   [SANCTI_06_19]: "S. Juliana Falconiéri, Virgem",
   [SANCTI_06_20]: "S. Silvestre, Papa e Mártir",
+  [SANCTI_06_20_PORTUGAL]: "B. Francisco Pacheco e Outros, Márts.",
   [SANCTI_06_21]: "S. Luís Gonzaga, Confessor",
   [SANCTI_06_22]: "S. Paulino, Bispo e Confessor",
   [SANCTI_06_23]: "Vigília da Natividade de S. João Baptista",
   [SANCTI_06_24]: "Nascimento de S. João Baptista",
   [SANCTI_06_25]: "S. Guilherme, Abade",
   [SANCTI_06_26]: "S.S. João e Paulo, Mártires",
+  [SANCTI_06_26_PORTUGAL]: "S. Pelágio",
   [SANCTI_06_28]: "Vigília de S. Pedro e S. Paulo, Apóstolos",
   [SANCTI_06_29]: "S. Pedro e S. Paulo, Apóstolos",
   [SANCTI_06_30]: "Comemoração S. Paulo, Apóstolo",
@@ -2352,14 +2391,20 @@ export const TITLES: Record<string, string> = {
   [SANCTI_07_12]: "S. João Gualberto, Abade",
   [SANCTI_07_14]: "S. Boaventura, Bispo, Confessor e Doutor da Igreja",
   [SANCTI_07_15]: "S. Henrique, Imperador e Confessor",
+  [SANCTI_07_15_PORTUGAL]: "B. Inácio de Azevedo e Companheiros",
   [SANCTI_07_16]: "B. V. Maria do Monte Carmelo",
+  [SANCTI_07_16_BEJA]: "S. Sisenando, Mártir",
   [SANCTI_07_17]: "S. Aleixo, Confessor",
   [SANCTI_07_18]: "S. Camilo de Lelis",
   [SANCTI_07_19]: "S. Vicente de Paulo, Confessor",
   [SANCTI_07_20]: "S. Jerónimo Emiliano",
+  [SANCTI_07_20_COIMBRA]: "Santa Colomba, Virgem e Mártir",
   [SANCTI_07_21]: "S. Praxedes de Brindisi, Confessor e Doutor da Igreja",
+  [SANCTI_07_21_PORTUGAL]: "Santo Anjo Custódio de Portugal",
   [SANCTI_07_22]: "S. Maria Madalena, Penitente",
+  [SANCTI_07_22_LISBOA]: "S. Lourenço de Brindes, Confessor",
   [SANCTI_07_23]: "S. Apolinário, Bispo e Mártir",
+  [SANCTI_07_23_VISEU]: "Na Dedicação da Igreja Catedral de Viseu",
   [SANCTI_07_24]: "Santa Cristina",
   [SANCTI_07_25]: "S. Tiago, Apóstolo",
   [SANCTI_07_26]: "S. Ana, Mãe de Nossa Senhora",
@@ -2405,6 +2450,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_09_05]: "S. Lourenço Justiniano, Bispo e Confessor",
   [SANCTI_09_08]: "Natividade da B. V. Maria",
   [SANCTI_09_09]: "S. Gorgónio, Mártir",
+  [SANCTI_09_09_ANGOLA]: "S. Pedro Claver, Confessor",
   [SANCTI_09_10]: "S. Nicolau Tolentino, Confessor",
   [SANCTI_09_11]: "S. S. Proto e Jacinto, Mártires",
   [SANCTI_09_12]: "Santíssimo Nome de Maria",
