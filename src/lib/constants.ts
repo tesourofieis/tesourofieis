@@ -442,7 +442,7 @@ export const SANCTI_01_19_PORTUGAL = "santos:01-19:4:r:@portugal";
 export const SANCTI_01_20 = "santos:01-20:3:r";
 export const SANCTI_01_21 = "santos:01-21:3:r";
 export const SANCTI_01_22 = "santos:01-22:3:r";
-export const SANCTI_01_22_LISBOA_ALGARVE = "santos:01-22:3:r:@lisboa-algarve";
+export const SANCTI_01_22_LISBOA_FARO = "santos:01-22:3:r:@lisboa-faro";
 export const SANCTI_01_22_ALGARVE = "santos:01-22:3:r:@algarve";
 export const SANCTI_01_23 = "santos:01-23-1:3:w";
 export const SANCTI_01_24 = "santos:01-24:3:r";
@@ -1309,7 +1309,7 @@ export const SUNDAY_IN_CHRISTMAS_OCTAVE = [TEMPORA_NAT1_0];
 export const LOCAL = [
   SANCTI_01_16_PORTUGAL,
   SANCTI_01_19_PORTUGAL,
-  SANCTI_01_22_LISBOA_ALGARVE,
+  SANCTI_01_22_LISBOA_FARO,
   SANCTI_01_27_LAMEGO,
   SANCTI_01_28_LISBOA_ALGARVE,
   SANCTI_01_29_LISBOA_ALGARVE,
@@ -2287,7 +2287,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_01_20]: "S.S. Fabião, Papa e Sebastião, Mártires",
   [SANCTI_01_21]: "S. Inês, Virgem e Mártir",
   [SANCTI_01_22]: "S.S. Vicente e Anastácio, Mártires",
-  [SANCTI_01_22_LISBOA_ALGARVE]: "S. Vicente, Mártires",
+  [SANCTI_01_22_LISBOA_FARO]: "S. Vicente, Mártires",
   [SANCTI_01_23]: "S. Raimundo de Penhafort, Confessor",
   [SANCTI_01_24]: "S. Timóteo, Bispo e Mártir",
   [SANCTI_01_25]: "Conversão S. Paulo, Apóstolo",
