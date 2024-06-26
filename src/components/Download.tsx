@@ -24,10 +24,13 @@ export default function Download() {
 
     fetchData();
   }, []);
+  const userAgent = navigator.userAgent.toLowerCase();
+  const isMobile =
+    userAgent.includes("android") || userAgent.includes("iphone");
 
   return (
     <>
-      {typeof navigator !== "undefined" && data.length > 0 && (
+      {!isMobile && data.length > 0 && (
         <div className="mb-10">
           <h6>Instalar</h6>
           <div className="flex items-center justify-center gap-5">
