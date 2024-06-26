@@ -16,6 +16,16 @@ describe("link", () => {
       Object.values(calendar)
         .filter((i) => i.tempora.length)
         .map((day) => day.tempora[0].link),
+    )
+    .concat(
+      Object.values(calendar)
+        .filter((i) => i.local.length)
+        .map((day) => day.local[0].link),
+    )
+    .concat(
+      Object.values(calendar)
+        .filter((i) => i.commemoration.length)
+        .map((day) => day.commemoration[0].link),
     );
 
   for (const link of links) {

@@ -5,6 +5,8 @@ import {
   requestPermission,
   sendNotification,
 } from "@tauri-apps/plugin-notification";
+import { format } from "date-fns";
+import { pt } from "date-fns/locale";
 import { useEffect, useState } from "react";
 import Calendar from "./Calendar";
 import LinkCard from "./LinkCard";
@@ -66,30 +68,10 @@ export default function InteractiveCard() {
         <h2>Dia e Hora</h2>
       </div>
       <span className="font-bold">
-        {new Date().toLocaleTimeString("pt", {
-          month: "long",
-          weekday: "long",
-          day: "2-digit",
-          hour: "numeric",
+        {format(new Date(), "EEEE, MMMM dd", {
+          locale: pt,
         })}
       </span>
-      <div className="flex justify-between gap-2 mx-2">
-        <LinkCard
-          link={day.celebration[0]?.link ?? day.tempora[0]?.link}
-          description={day.celebration[0]?.title ? day.tempora[0]?.title : ""}
-          caption={day.celebration[0]?.title ? "Celebração" : "Tempora"}
-          title={day.celebration[0]?.title ?? day.tempora[0]?.title ?? "Feria"}
-        />
-        {day.commemoration.length ? (
-          <LinkCard
-            link={day.commemoration[0]?.link}
-            caption="Comemoração"
-            title={day.commemoration[0]?.title}
-          />
-        ) : (
-          <></>
-        )}
-      </div>
       <Office />
       {currentPrayer.isAngelus && (
         <LinkCard
@@ -111,7 +93,7 @@ export default function InteractiveCard() {
         />
       )}
 
-      <h3>Calendário</h3>
+      <h6>Calendário Litúrgico</h6>
       <Calendar />
     </div>
   );

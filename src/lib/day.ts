@@ -23,6 +23,7 @@ class Day {
   date: string;
   tempora: Observance[] = [];
   celebration: Observance[] = [];
+  local: Observance[] = [];
   commemoration: Observance[] = [];
 
   constructor(date: string) {
@@ -30,7 +31,10 @@ class Day {
   }
 
   get all(): Observance[] {
-    return this.tempora.concat(this.celebration).concat(this.commemoration);
+    return this.tempora
+      .concat(this.celebration)
+      .concat(this.commemoration)
+      .concat(this.local);
   }
 
   getTemporaName() {
@@ -39,7 +43,7 @@ class Day {
 
   serialize() {
     const serialized = {};
-    const containers = ["tempora", "celebration", "commemoration"];
+    const containers = ["tempora", "celebration", "commemoration", "local"];
 
     for (const container of containers) {
       serialized[container] = this[container].map((item: Day) =>
@@ -59,6 +63,7 @@ class Observance {
   colors: string[];
   id: string;
   link: string;
+  local?: string;
   title: string;
   priority: number | null;
   weekday: number | null;
@@ -75,14 +80,16 @@ class Observance {
   // """
   constructor(observanceId: string, date_: string) {
     const [flexibility, name, rank, color] = observanceId.split(":");
+    const [_, local] = observanceId.split("@");
     this.date = date_;
     this.flexibility = flexibility;
     this.name = name;
     this.rank = this.calcRank(observanceId, Number.parseInt(rank, 10));
     this.colors = Array.from(color);
     this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
-    this.link = this.getLink(observanceId);
+    this.local = local;
     this.title = TITLES[observanceId];
+    this.link = this.getLink(observanceId);
 
     // Determine the weekday attribute based on the type of observance
     if (
@@ -169,6 +176,9 @@ class Observance {
   }
 
   private getLink(observanceId: string) {
+    if (this.local) {
+      return `missal/${this.getTempora(this.name)}/${this.name}-${this.local}`;
+    }
     if (FERIA.includes(observanceId)) {
       const [week] = this.name.split("-");
       return `missal/${this.getTempora(this.name)}/${week}-0`;
@@ -181,6 +191,7 @@ class Observance {
       id: this.id,
       link: this.link,
       rank: this.rank,
+      local: this.local,
       title: this.title,
       colors: this.colors,
     };
