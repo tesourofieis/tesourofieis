@@ -191,6 +191,7 @@ class Observance {
       id: this.id,
       link: this.link,
       rank: this.rank,
+      local: this.local,
       title: this.title,
       colors: this.colors,
     };

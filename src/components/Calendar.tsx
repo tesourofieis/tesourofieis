@@ -126,7 +126,10 @@ export default function WeeklyCalendar() {
                   <LinkCard
                     key={local.id}
                     link={local.link}
-                    caption={local.local}
+                    caption={`Local: ${local.local
+                      .toLocaleUpperCase()
+                      .split("-")
+                      .join(", ")}`}
                     title={local.title}
                     color={getColor(local.colors[0])}
                     icon="mdi:tshirt-v"
