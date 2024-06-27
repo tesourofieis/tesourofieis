@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Tesouro dos Fiéis</string>
     <string name="main_activity_title">Tesouro dos Fiéis</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://tesourofieis.com/.well-known/assetlinks.json\" }]</string>
 </resources>

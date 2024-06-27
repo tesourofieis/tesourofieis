@@ -15,28 +15,49 @@ import Office from "./Office";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
-  const [currentHour, setCurrentHour] = useState(date.getHours());
   const day = getCalendarDay(yyyyMMDD(new Date()));
-  const currentPrayer = getPrayer(new Date());
-
-  requestPermission();
 
   useEffect(() => {
-    const intervalId = setInterval(
-      () => {
-        const newDate = new Date();
-        setDate(newDate);
+    requestPermission();
+  }, []);
 
-        const newHour = newDate.getHours();
-        if (newHour !== currentHour) {
-          setCurrentHour(newHour);
-        }
-      },
-      1000 * 60 * 60,
-    );
+  useEffect(() => {
+    // Update date state immediately
+    setDate(new Date());
+    // Calculate time until next hour
+    const now = new Date();
+    const msUntilNextHour =
+      (60 - now.getMinutes()) * 60 * 1000 -
+      now.getSeconds() * 1000 -
+      now.getMilliseconds();
 
-    return () => clearInterval(intervalId);
-  }, [currentHour]);
+    // Timeout to set the interval at the start of the next hour
+    const timeoutId = setTimeout(() => {
+      setDate(new Date());
+      const intervalId = setInterval(
+        () => {
+          setDate(new Date());
+        },
+        1000 * 60 * 60,
+      ); // Update every hour
+
+      return () => clearInterval(intervalId);
+    }, msUntilNextHour);
+
+    return () => clearTimeout(timeoutId);
+  }, []);
+
+  useEffect(() => {
+    const currentPrayer = getPrayer(date);
+
+    if (currentPrayer.isAngelus) {
+      sendNotification({
+        title: "Tesouro dos Fiéis",
+        body: "Hora do Angelus",
+        icon: "favicon72.png",
+      });
+    }
+  }, [date]);
 
   function getPrayer(date: Date) {
     const hour = date.getHours();
@@ -46,13 +67,7 @@ export default function InteractiveCard() {
     return { isMorning, isNight, isAngelus };
   }
 
-  if (currentPrayer.isAngelus) {
-    sendNotification({
-      title: "Tesouro dos Fiéis",
-      body: "Hora do Angelus",
-      icon: "favicon72.png",
-    });
-  }
+  const currentPrayer = getPrayer(date);
 
   if (!day) {
     return (
