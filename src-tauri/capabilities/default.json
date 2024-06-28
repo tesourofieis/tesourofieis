@@ -2,9 +2,7 @@
   "$schema": "../gen/schemas/desktop-schema.json",
   "identifier": "default",
   "description": "enables the default permissions",
-  "windows": [
-    "main"
-  ],
+  "windows": ["main"],
   "permissions": [
     "path:default",
     "event:default",
@@ -15,7 +13,7 @@
     "image:default",
     "menu:default",
     "tray:default",
-    "notification:default",
-    "deep-link:default"
+    "notification:default"
   ]
 }
+
