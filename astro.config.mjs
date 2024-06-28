@@ -12,6 +12,9 @@ const site = "https://tesourofieis.com";
 // https://astro.build/config
 export default defineConfig({
   site: site,
+  experimental: {
+    contentCollectionCache: true,
+  },
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",

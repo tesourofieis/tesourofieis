@@ -49,6 +49,9 @@
       "windows": {
         "installMode": "passive"
       }
+    },
+    "deep-link": {
+      "domains": [{ "host": "com.tesourofieis.app" }]
     }
   }
 }

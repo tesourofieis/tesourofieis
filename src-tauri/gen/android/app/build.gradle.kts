@@ -1,19 +1,28 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("rust")
 }
 
+val tauriProperties = Properties().apply {
+    val propFile = file("tauri.properties")
+    if (propFile.exists()) {
+        propFile.inputStream().use { load(it) }
+    }
+}
+
 android {
     compileSdk = 34
-  namespace = "com.tesourofieis.app"
+    namespace = "com.tesourofieis.app"
     defaultConfig {
         manifestPlaceholders["usesCleartextTraffic"] = "false"
         applicationId = "com.tesourofieis.app"
         minSdk = 24
-        targetSdk = 33
-        versionCode = 13
-        versionName = "2.2"
+        targetSdk = 34
+        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "16").toInt()
+        versionName = tauriProperties.getProperty("tauri.android.versionName", "2.5")
     }
     buildTypes {
         getByName("debug") {
@@ -34,14 +43,11 @@ android {
                     .plus(getDefaultProguardFile("proguard-android-optimize.txt"))
                     .toList().toTypedArray()
             )
-            signingConfig = signingConfigs.getByName("debug")
         }
     }
     kotlinOptions {
         jvmTarget = "1.8"
     }
-  buildToolsVersion = "34.0.0"
-  ndkVersion = "26.2.11394342"
 }
 
 rust {

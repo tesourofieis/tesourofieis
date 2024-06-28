@@ -5430,7 +5430,18 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
     ],
   },
   "2024-06-27": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w",
+        ],
+        "id": "santos:06-27:3:w",
+        "link": "missal/santos/06-27",
+        "local": undefined,
+        "rank": 3,
+        "title": "Terceiro dia na Oitava de São João",
+      },
+    ],
     "commemoration": [],
     "local": [],
     "tempora": [
