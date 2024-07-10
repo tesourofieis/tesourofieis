@@ -110,6 +110,7 @@ export const sidebar = [
       },
     ],
   },
+  { label: "Calendário", link: "/calendario" },
   {
     label: "Devocionario",
     items: [
