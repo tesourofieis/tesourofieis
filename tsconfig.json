@@ -2,8 +2,7 @@
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "react",
-    "types": ["unplugin-icons/types/astro"]
+    "jsxImportSource": "react"
   },
   "exclude": ["src-tauri"]
 }

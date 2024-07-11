@@ -16,3 +16,4 @@ coverage
 bench/report.json
 
 src-tauri/gen/android/app/universal/release
+src-tauri/gen/android/.idea

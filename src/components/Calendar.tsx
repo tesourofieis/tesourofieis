@@ -1,19 +1,12 @@
 import { Icon } from "@iconify/react";
-import {
-  addWeeks,
-  endOfWeek,
-  format,
-  getYear,
-  isSameWeek,
-  startOfWeek,
-} from "date-fns";
+import { addDays, format, getYear, startOfToday } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useState } from "react";
 import { getCalendar } from "../lib/getCalendar";
 import { yyyyMMDD } from "../lib/utils";
 import LinkCard from "./LinkCard";
 
-export function getColor(color: string) {
+export function getColor(color) {
   switch (color) {
     case "w":
       return "white";
@@ -30,113 +23,105 @@ export function getColor(color: string) {
   }
 }
 
-export default function WeeklyCalendar() {
+export default function DailyCalendar() {
   const calendar = getCalendar(getYear(new Date()));
-  const today = yyyyMMDD(new Date());
+  const today = startOfToday();
+  const [currentDayIndex, setCurrentDayIndex] = useState(0);
 
-  const [currentWeek, setCurrentWeek] = useState(startOfWeek(new Date()));
-
-  const handlePreviousWeek = () => {
-    setCurrentWeek((prevWeek) => addWeeks(prevWeek, -1));
+  const handlePreviousDay = () => {
+    if (currentDayIndex > 0) {
+      setCurrentDayIndex(currentDayIndex - 1);
+    }
   };
 
-  const handleNextWeek = () => {
-    setCurrentWeek((prevWeek) => addWeeks(prevWeek, 1));
+  const handleNextDay = () => {
+    if (currentDayIndex < 10) {
+      setCurrentDayIndex(currentDayIndex + 1);
+    }
   };
 
-  const weekStart = format(currentWeek, "MMMM dd", { locale: pt });
-  const weekEnd = format(endOfWeek(currentWeek), "MMMM dd", { locale: pt });
+  const getDate = (index) => {
+    return addDays(today, index);
+  };
+
+  const formatDate = (date) => {
+    return format(date, "EEEE, MMMM dd", { locale: pt });
+  };
 
   return (
     <>
       {calendar && (
-        <div className="text-sm border rounded border-sepia-500 dark:border-sepia-700">
-          <div className="flex justify-between items-center px-4 py-2">
-            <button
-              type="button"
-              onClick={handlePreviousWeek}
-              className="p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded cursor-pointer"
-            >
-              <Icon icon="mdi:arrow-left" width="18" height="18" />
-            </button>
-            <div>{`${weekStart} - ${weekEnd}`}</div>
-            <button
-              type="button"
-              onClick={handleNextWeek}
-              className="p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded cursor-pointer"
-            >
-              <Icon icon="mdi:arrow-right" width="18" height="18" />
-            </button>
-          </div>
-          {Object.entries(calendar)
-            .filter(([calendarDate]) =>
-              isSameWeek(new Date(calendarDate), currentWeek),
-            )
-            .map(([calendarDate, day]) => (
-              <div
-                key={calendarDate}
-                className={`flex flex-col gap-2 mx-2 mb-4 p-4 border rounded ${
-                  calendarDate === today
-                    ? "border-red-500"
-                    : "border-gray-300 dark:border-gray-700"
-                }`}
-              >
-                <div className="text-lg font-semibold mb-2">
-                  {format(new Date(calendarDate), "EEEE, MMMM dd", {
-                    locale: pt,
-                  })}
-                </div>
-                {day.celebration.length ? (
-                  day.celebration.map((celebration) => (
-                    <LinkCard
-                      key={celebration.id}
-                      link={celebration?.link}
-                      caption={"Celebração"}
-                      title={celebration.title}
-                      color={getColor(celebration[0]?.colors[0])}
-                      icon="mdi:tshirt-v"
-                    />
-                  ))
-                ) : (
-                  <>
-                    {day.tempora.map((tempora) => (
+        <div className="text-xs">
+          <div className="overflow-y-scroll max-h-96">
+            {Array.from({ length: 15 }, (_, i) => currentDayIndex + i).map(
+              (index) => {
+                const date = yyyyMMDD(getDate(index));
+                const day = calendar[date];
+                return (
+                  <div
+                    key={date}
+                    className={`flex flex-col gap-2 mx-2 mb-4 p-4 rounded ${
+                      date === yyyyMMDD(today)
+                        ? "bg-sepia-200 dark:bg-sepia-800"
+                        : "bg-sepia-100 dark:bg-sepia-900"
+                    }`}
+                  >
+                    <div className="text-lg font-semibold mb-2">
+                      {formatDate(getDate(index))}
+                    </div>
+                    {day?.celebration?.length ? (
+                      day.celebration.map((celebration) => (
+                        <LinkCard
+                          key={celebration.id}
+                          link={celebration?.link}
+                          caption={"Celebração"}
+                          title={celebration.title}
+                          color={getColor(celebration?.colors?.[0])}
+                          icon="mdi:tshirt-v"
+                        />
+                      ))
+                    ) : (
+                      <>
+                        {day?.tempora?.map((tempora) => (
+                          <LinkCard
+                            key={tempora.id}
+                            link={tempora?.link}
+                            caption={tempora.title ? "Celebração" : "Tempora"}
+                            title={tempora.title ?? "Feria"}
+                            color={getColor(tempora?.colors?.[0])}
+                            icon="mdi:tshirt-v"
+                          />
+                        ))}
+                      </>
+                    )}
+                    {day?.commemoration?.map((commemoration) => (
                       <LinkCard
-                        key={tempora.id}
-                        link={tempora?.link}
-                        caption={tempora.title ? "Celebração" : "Tempora"}
-                        title={tempora.title ?? "Feria"}
-                        color={getColor(tempora.colors[0])}
+                        key={commemoration.id}
+                        link={commemoration.link}
+                        caption="Comemoração"
+                        title={commemoration.title}
+                        color={getColor(commemoration?.colors?.[0])}
                         icon="mdi:tshirt-v"
                       />
                     ))}
-                  </>
-                )}
-                {day.commemoration.map((commemoration) => (
-                  <LinkCard
-                    key={commemoration.id}
-                    link={commemoration.link}
-                    caption="Comemoração"
-                    title={commemoration.title}
-                    color={getColor(commemoration.colors[0])}
-                    icon="mdi:tshirt-v"
-                  />
-                ))}
-
-                {day.local.map((local) => (
-                  <LinkCard
-                    key={local.id}
-                    link={local.link}
-                    caption={`Local: ${local.local
-                      .toLocaleUpperCase()
-                      .split("-")
-                      .join(", ")}`}
-                    title={local.title}
-                    color={getColor(local.colors[0])}
-                    icon="mdi:tshirt-v"
-                  />
-                ))}
-              </div>
-            ))}
+                    {day?.local?.map((local) => (
+                      <LinkCard
+                        key={local.id}
+                        link={local.link}
+                        caption={`Local: ${local.local
+                          .toLocaleUpperCase()
+                          .split("-")
+                          .join(", ")}`}
+                        title={local.title}
+                        color={getColor(local?.colors?.[0])}
+                        icon="mdi:tshirt-v"
+                      />
+                    ))}
+                  </div>
+                );
+              },
+            )}
+          </div>
         </div>
       )}
     </>
