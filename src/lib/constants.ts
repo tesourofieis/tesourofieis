@@ -585,12 +585,13 @@ const SANCTI_07_21 = "santos:07-21:3:w";
 const SANCTI_07_21_PORTUGAL = "santos:07-21:3:w:@portugal";
 const SANCTI_07_22 = "santos:07-22:3:w";
 const SANCTI_07_22_LISBOA = "santos:07-22:3:w:@lisboa";
-const SANCTI_07_23_1 = "santos:07-23-1:3:r";
-const SANCTI_07_23_2 = "santos:07-23-2:4:w";
+const SANCTI_07_23 = "santos:07-23:3:r";
+const SANCTI_07_23_OUTRO = "santos:07-23:3:w:@outro";
 const SANCTI_07_23_VISEU = "santos:07-23:3:w:@viseu";
-const SANCTI_07_24_1 = "santos:07-24-1:3:v";
-const SANCTI_07_24_2 = "santos:07-24-2:4:r";
+const SANCTI_07_24 = "santos:07-24:4:v";
+const SANCTI_07_24_OUTRO = "santos:07-24:4:r:@outro";
 const SANCTI_07_25 = "santos:07-25:2:r"; // St. James, Apostle
+const SANCTI_07_25_OUTRO = "santos:07-25:3:r:@outro";
 const SANCTI_07_26 = "santos:07-26:2:w"; // St. Anna, Mary's Mother
 const SANCTI_07_27 = "santos:07-27:4:r";
 const SANCTI_07_28 = "santos:07-28-1:3:r";
@@ -1274,6 +1275,7 @@ export const LOCAL = [
   SANCTI_07_21_PORTUGAL,
   SANCTI_07_22_LISBOA,
   SANCTI_07_23_VISEU,
+  SANCTI_07_23_OUTRO,
   SANCTI_09_09_ANGOLA,
   SANCTI_09_16_PORTO,
   SANCTI_10_01_LISBOA,
@@ -1691,10 +1693,8 @@ export const SANCTI = [
   SANCTI_07_20,
   SANCTI_07_21,
   SANCTI_07_22,
-  SANCTI_07_23_1,
-  SANCTI_07_23_2,
-  SANCTI_07_24_1,
-  SANCTI_07_24_2,
+  SANCTI_07_23,
+  SANCTI_07_24,
   SANCTI_07_25,
   SANCTI_07_26,
   SANCTI_07_27,
@@ -2389,12 +2389,13 @@ export const TITLES: Record<string, string> = {
   [SANCTI_07_21_PORTUGAL]: "Santo Anjo Custódio de Portugal",
   [SANCTI_07_22]: "S. Maria Madalena, Penitente",
   [SANCTI_07_22_LISBOA]: "S. Lourenço de Brindes, Confessor",
-  [SANCTI_07_23_1]: "S. Apolinário, Bispo e Mártir",
-  [SANCTI_07_23_2]: "S. Libório, Bispo e Confessor",
+  [SANCTI_07_23]: "S. Apolinário, Bispo e Mártir",
+  [SANCTI_07_23_OUTRO]: "S. Libório, Bispo e Confessor",
   [SANCTI_07_23_VISEU]: "Na Dedicação da Igreja Catedral de Viseu",
-  [SANCTI_07_24_1]: "Vigília de S. Tiago, Apóstolo",
-  [SANCTI_07_24_2]: "Santa Cristina",
+  [SANCTI_07_24]: "Vigília de S. Tiago, Apóstolo",
+  [SANCTI_07_24_OUTRO]: "Santa Cristina",
   [SANCTI_07_25]: "S. Tiago, Apóstolo",
+  [SANCTI_07_25_OUTRO]: "S. Cristovão, Mártir",
   [SANCTI_07_26]: "S. Ana, Mãe de Nossa Senhora",
   [SANCTI_07_27]: "S. Pantaleão, Mártir",
   [SANCTI_07_28]:
