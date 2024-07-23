@@ -594,7 +594,9 @@ const SANCTI_07_25 = "santos:07-25:2:r"; // St. James, Apostle
 const SANCTI_07_25_OUTRO = "santos:07-25:3:r:@outro";
 const SANCTI_07_26 = "santos:07-26:2:w"; // St. Anna, Mary's Mother
 const SANCTI_07_27 = "santos:07-27:4:r";
-const SANCTI_07_28 = "santos:07-28-1:3:r";
+const SANCTI_07_28 = "santos:07-28:3:r";
+const SANCTI_07_28_OUTRO = "santos:07-28:3:r:@outro";
+const SANCTI_07_28_OUTRO_2 = "santos:07-28:3:r:@outro-2";
 const SANCTI_07_29 = "santos:07-29-1:3:r";
 const SANCTI_07_30 = "santos:07-30:4:r";
 const SANCTI_07_31 = "santos:07-31:3:w";
@@ -1275,7 +1277,6 @@ export const LOCAL = [
   SANCTI_07_21_PORTUGAL,
   SANCTI_07_22_LISBOA,
   SANCTI_07_23_VISEU,
-  SANCTI_07_23_OUTRO,
   SANCTI_09_09_ANGOLA,
   SANCTI_09_16_PORTO,
   SANCTI_10_01_LISBOA,
@@ -1305,6 +1306,14 @@ export const LOCAL = [
   SANCTI_12_01_VILA_REAL,
   SANCTI_12_12_BRASIL,
   SANCTI_12_12_PORTO,
+];
+
+export const OUTRO = [
+  SANCTI_07_23_OUTRO,
+  SANCTI_07_24_OUTRO,
+  SANCTI_07_25_OUTRO,
+  SANCTI_07_28_OUTRO,
+  SANCTI_07_28_OUTRO_2,
 ];
 export const FERIA = [
   TEMPORA_ADV1_1,
@@ -2398,8 +2407,9 @@ export const TITLES: Record<string, string> = {
   [SANCTI_07_25_OUTRO]: "S. Cristovão, Mártir",
   [SANCTI_07_26]: "S. Ana, Mãe de Nossa Senhora",
   [SANCTI_07_27]: "S. Pantaleão, Mártir",
-  [SANCTI_07_28]:
-    "S.S. Nazário e Celso, Mártires, S. Victor I, Papa e Mártir, S. Inocêncio I, Papa e Confessor",
+  [SANCTI_07_28]: "S.S. Nazário e Celso, Mártires",
+  [SANCTI_07_28_OUTRO]: "S. Vítor, Papa e Mártir",
+  [SANCTI_07_28_OUTRO_2]: "S. Inocêncio, Papa e Confessor",
   [SANCTI_07_29]: "S. Marta, Virgem",
   [SANCTI_07_30]: "S.S. Ábdon e Senen, Mártires",
   [SANCTI_07_31]: "S. Inácio de Loiola, Confessor",
