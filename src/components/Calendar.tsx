@@ -28,18 +28,6 @@ export default function DailyCalendar() {
   const today = startOfToday();
   const [currentDayIndex, setCurrentDayIndex] = useState(0);
 
-  const handlePreviousDay = () => {
-    if (currentDayIndex > 0) {
-      setCurrentDayIndex(currentDayIndex - 1);
-    }
-  };
-
-  const handleNextDay = () => {
-    if (currentDayIndex < 10) {
-      setCurrentDayIndex(currentDayIndex + 1);
-    }
-  };
-
   const getDate = (index) => {
     return addDays(today, index);
   };
@@ -114,6 +102,16 @@ export default function DailyCalendar() {
                           .join(", ")}`}
                         title={local.title}
                         color={getColor(local?.colors?.[0])}
+                        icon="mdi:tshirt-v"
+                      />
+                    ))}
+                    {day?.outro?.map((outro) => (
+                      <LinkCard
+                        key={outro.id}
+                        link={outro.link}
+                        caption="No mesmo dia"
+                        title={outro.title}
+                        color={getColor(outro?.colors?.[0])}
                         icon="mdi:tshirt-v"
                       />
                     ))}

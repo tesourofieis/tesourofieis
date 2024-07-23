@@ -7,6 +7,7 @@ import {
   FROM_PRE_LENT_TO_POST_PENTECOST,
   LOCAL,
   NATIVITY_OCTAVE_SUNDAY,
+  OUTRO,
   POST_EPIPHANY,
   SANCTI,
   SANCTI_10_DUr,
@@ -167,6 +168,14 @@ class Calendar {
 
       if (local.length) {
         this.container.get(date)?.local.push(...local);
+      }
+
+      const outro = OUTRO.filter((ii) => ii.startsWith(`santos:${dateId}`)).map(
+        (ii) => new Observance(ii, date),
+      );
+
+      if (outro.length) {
+        this.container.get(date)?.outro.push(...outro);
       }
     }
   }
