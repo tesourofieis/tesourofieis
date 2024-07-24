@@ -21,8 +21,8 @@ android {
         applicationId = "com.tesourofieis.app"
         minSdk = 24
         targetSdk = 34
-        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "18").toInt()
-        versionName = tauriProperties.getProperty("tauri.android.versionName", "2.7")
+        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "19").toInt()
+        versionName = tauriProperties.getProperty("tauri.android.versionName", "2.8")
     }
     buildTypes {
         getByName("debug") {

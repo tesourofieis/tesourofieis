@@ -129,6 +129,16 @@ export default function MonthlyCalendar() {
                           icon="mdi:tshirt-v"
                         />
                       ))}
+                      {day?.outro?.map((outro) => (
+                        <LinkCard
+                          key={outro.id}
+                          link={outro.link}
+                          caption="No mesmo dia"
+                          title={outro.title}
+                          color={getColor(outro?.colors?.[0])}
+                          icon="mdi:tshirt-v"
+                        />
+                      ))}
                     </>
                   ) : (
                     <div>No events</div>

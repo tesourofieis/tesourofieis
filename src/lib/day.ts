@@ -24,6 +24,7 @@ class Day {
   tempora: Observance[] = [];
   celebration: Observance[] = [];
   local: Observance[] = [];
+  outro: Observance[] = [];
   commemoration: Observance[] = [];
 
   constructor(date: string) {
@@ -34,7 +35,8 @@ class Day {
     return this.tempora
       .concat(this.celebration)
       .concat(this.commemoration)
-      .concat(this.local);
+      .concat(this.local)
+      .concat(this.outro);
   }
 
   getTemporaName() {
@@ -43,7 +45,13 @@ class Day {
 
   serialize() {
     const serialized = {};
-    const containers = ["tempora", "celebration", "commemoration", "local"];
+    const containers = [
+      "tempora",
+      "celebration",
+      "commemoration",
+      "local",
+      "outro",
+    ];
 
     for (const container of containers) {
       serialized[container] = this[container].map((item: Day) =>
@@ -64,6 +72,7 @@ class Observance {
   id: string;
   link: string;
   local?: string;
+  outro?: string;
   title: string;
   priority: number | null;
   weekday: number | null;
@@ -81,6 +90,7 @@ class Observance {
   constructor(observanceId: string, date_: string) {
     const [flexibility, name, rank, color] = observanceId.split(":");
     const [_, local] = observanceId.split("@");
+    const [_o, outro] = observanceId.split("#");
     this.date = date_;
     this.flexibility = flexibility;
     this.name = name;
@@ -88,6 +98,7 @@ class Observance {
     this.colors = Array.from(color);
     this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
     this.local = local;
+    this.outro = outro;
     this.title = TITLES[observanceId];
     this.link = this.getLink(observanceId);
 
@@ -179,6 +190,10 @@ class Observance {
     if (this.local) {
       return `missal/${this.getTempora(this.name)}/${this.name}-${this.local}`;
     }
+
+    if (this.outro) {
+      return `missal/${this.getTempora(this.name)}/${this.name}-${this.outro}`;
+    }
     if (FERIA.includes(observanceId)) {
       const [week] = this.name.split("-");
       return `missal/${this.getTempora(this.name)}/${week}-0`;
@@ -192,6 +207,7 @@ class Observance {
       link: this.link,
       rank: this.rank,
       local: this.local,
+      outro: this.outro,
       title: this.title,
       colors: this.colors,
     };

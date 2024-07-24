@@ -1,40 +1,26 @@
 export const TYPE_TEMPORA: string = "tempora";
 export const TYPE_SANCTI: string = "santos";
-export const ASTERISK: string = "*";
-
 export const PATTERN_TEMPORA: RegExp = /^tempora:.*/;
 export const PATTERN_ADVENT: RegExp = /^tempora:adv\d/;
-export const PATTERN_EPIPHANY: RegExp = /^tempora:adv\d/;
 export const PATTERN_ADVENT_SUNDAY: RegExp = /^tempora:adv\d-0/;
 export const PATTERN_ADVENT_FERIA: RegExp = /tempora:adv\d-[1-6]/;
-export const PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23: RegExp =
-  /tempora:Adv\d-[1-6]:2/;
-export const PATTERN_ADVENT_FERIA_BEFORE_17: RegExp = /tempora:adv\d-[1-6]:3/;
-export const PATTERN_POST_EPIPHANY_SUNDAY: RegExp = /^tempora:epi\d-0/;
-export const PATTERN_PRE_LENTEN: RegExp = /^tempora:quadp\d/;
 export const PATTERN_LENT: RegExp = /^tempora:quad\d/;
 export const PATTERN_EASTER: RegExp = /^tempora:pasc\d/;
 /^tempora:pasc([0-4]|5-0|5-1|5-2|5-3)/;
 export const PATTERN_SUNDAY: RegExp = /^tempora:.*\d-0.*/;
 export const PATTERN_LENT_SUNDAY: RegExp = /^tempora:quad\d-0.*/;
 export const PATTERN_TEMPORA_SUNDAY: RegExp = /^tempora:.*/;
-export const PATTERN_TEMPORA_SUNDAY_CLASS_1: RegExp = /^tempora:.*:1:.*/;
 export const PATTERN_TEMPORA_SUNDAY_CLASS_2: RegExp =
   /^tempora:(.*:2|Nat1-0).*/;
-export const PATTERN_TEMPORA_CLASS_1: RegExp = /^tempora:.*:1:.*/;
-export const PATTERN_TEMPORA_CLASS_2: RegExp = /^tempora:.*:2:.*/;
-export const PATTERN_TEMPORA_CLASS_3: RegExp = /^tempora:.*:3:.*/;
 export const PATTERN_TEMPORA_CLASS_4: RegExp = /^tempora:.*:4:.*/;
 export const PATTERN_SANCTI: RegExp = /^santos:.*/;
 export const PATTERN_SANCTI_CLASS_1: RegExp = /^santos:.*:1:.*/;
 export const PATTERN_SANCTI_CLASS_2: RegExp = /^santos:.*:2:.*/;
-export const PATTERN_SANCTI_CLASS_3: RegExp = /^santos:.*:3:.*/;
 export const PATTERN_SANCTI_CLASS_4: RegExp = /^santos:.*:4:.*/;
 export const PATTERN_SANCTI_CLASS_1_OR_2: RegExp = /^santos:.*:[12]:.*/;
 export const PATTERN_CLASS_1: RegExp = /^[a-z]+:.*:1:.*/;
 export const PATTERN_CLASS_2: RegExp = /^[a-z]+:.*:2:.*/;
 export const PATTERN_CLASS_3: RegExp = /^[a-z]+:.*:3:.*/;
-
 export const TEMPORA_RANK_MAP: {
   pattern: RegExp;
   month: number;
@@ -49,774 +35,737 @@ export const TEMPORA_RANK_MAP: {
   { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 22, rank: 2 },
   { pattern: PATTERN_ADVENT_FERIA, month: 11, day: 23, rank: 2 },
 ];
-
-// TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
-export const TEMPORA_EPI1_0A = "tempora:epi1-0a:2:w"; // Feast of the Holy Family
-export const TEMPORA_EPI1_0 = "tempora:epi1-0:2:w"; // First Sunday after Epiphany
-export const TEMPORA_EPI1_1 = "tempora:epi1-1:4:w"; // Monday after 1st week of Epiphany
-export const TEMPORA_EPI1_2 = "tempora:epi1-2:4:w"; // Tuesday after 1st week of Epiphany
-export const TEMPORA_EPI1_3 = "tempora:epi1-3:4:w"; // Wednesday after 1st week of Epiphany
-export const TEMPORA_EPI1_4 = "tempora:epi1-4:4:w"; // Thursday after 1st week of Epiphany
-export const TEMPORA_EPI1_5 = "tempora:epi1-5:4:w"; // Friday after 1st week of Epiphany
-export const TEMPORA_EPI1_6 = "tempora:epi1-6:4:w"; // Saturday after 1st week of Epiphany
-export const TEMPORA_EPI2_0 = "tempora:epi2-0:2:g"; // Sunday after 2nd week of Epiphany
-export const TEMPORA_EPI2_1 = "tempora:epi2-1:4:g"; // Monday after 2nd week of Epiphany
-export const TEMPORA_EPI2_2 = "tempora:epi2-2:4:g";
-export const TEMPORA_EPI2_3 = "tempora:epi2-3:4:g";
-export const TEMPORA_EPI2_4 = "tempora:epi2-4:4:g";
-export const TEMPORA_EPI2_5 = "tempora:epi2-5:4:g";
-export const TEMPORA_EPI2_6 = "tempora:epi2-6:4:g";
-export const TEMPORA_EPI3_0 = "tempora:epi3-0:2:g";
-export const TEMPORA_EPI3_1 = "tempora:epi3-1:4:g";
-export const TEMPORA_EPI3_2 = "tempora:epi3-2:4:g";
-export const TEMPORA_EPI3_3 = "tempora:epi3-3:4:g";
-export const TEMPORA_EPI3_4 = "tempora:epi3-4:4:g";
-export const TEMPORA_EPI3_5 = "tempora:epi3-5:4:g";
-export const TEMPORA_EPI3_6 = "tempora:epi3-6:4:g";
-export const TEMPORA_EPI4_0 = "tempora:epi4-0:2:g";
-export const TEMPORA_EPI4_1 = "tempora:epi4-1:4:g";
-export const TEMPORA_EPI4_2 = "tempora:epi4-2:4:g";
-export const TEMPORA_EPI4_3 = "tempora:epi4-3:4:g";
-export const TEMPORA_EPI4_4 = "tempora:epi4-4:4:g";
-export const TEMPORA_EPI4_5 = "tempora:epi4-5:4:g";
-export const TEMPORA_EPI4_6 = "tempora:epi4-6:4:g";
-export const TEMPORA_EPI5_0 = "tempora:epi5-0:2:g";
-export const TEMPORA_EPI5_1 = "tempora:epi5-1:4:g";
-export const TEMPORA_EPI5_2 = "tempora:epi5-2:4:g";
-export const TEMPORA_EPI5_3 = "tempora:epi5-3:4:g";
-export const TEMPORA_EPI5_4 = "tempora:epi5-4:4:g";
-export const TEMPORA_EPI5_5 = "tempora:epi5-5:4:g";
-export const TEMPORA_EPI5_6 = "tempora:epi5-6:4:g";
-export const TEMPORA_EPI6_0 = "tempora:epi6-0:2:g";
-export const TEMPORA_EPI6_1 = "tempora:epi6-1:4:g";
-export const TEMPORA_EPI6_2 = "tempora:epi6-2:4:g";
-export const TEMPORA_EPI6_3 = "tempora:epi6-3:4:g";
-export const TEMPORA_EPI6_4 = "tempora:epi6-4:4:g";
-export const TEMPORA_EPI6_5 = "tempora:epi6-5:4:g";
-export const TEMPORA_EPI6_6 = "tempora:epi6-6:4:g";
-
-export const TEMPORA_QUADP1_0 = "tempora:quadp1-0:2:v"; // Septuagesima Sunday
-export const TEMPORA_QUADP1_1 = "tempora:quadp1-1:4:v";
-export const TEMPORA_QUADP1_2 = "tempora:quadp1-2:4:v";
-export const TEMPORA_QUADP1_3 = "tempora:quadp1-3:4:v";
-export const TEMPORA_QUADP1_4 = "tempora:quadp1-4:4:v";
-export const TEMPORA_QUADP1_5 = "tempora:quadp1-5:4:v";
-export const TEMPORA_QUADP1_6 = "tempora:quadp1-6:4:v";
-export const TEMPORA_QUADP2_0 = "tempora:quadp2-0:2:v"; // Sexagesima Sunday
-export const TEMPORA_QUADP2_1 = "tempora:quadp2-1:4:v";
-export const TEMPORA_QUADP2_2 = "tempora:quadp2-2:4:v";
-export const TEMPORA_QUADP2_3 = "tempora:quadp2-3:4:v";
-export const TEMPORA_QUADP2_4 = "tempora:quadp2-4:4:v";
-export const TEMPORA_QUADP2_5 = "tempora:quadp2-5:4:v";
-export const TEMPORA_QUADP2_6 = "tempora:quadp2-6:4:v";
-export const TEMPORA_QUADP3_0 = "tempora:quadp3-0:2:v"; // Quinquagesima Sunday
-export const TEMPORA_QUADP3_1 = "tempora:quadp3-1:4:v";
-export const TEMPORA_QUADP3_2 = "tempora:quadp3-2:4:v";
-
-export const TEMPORA_QUADP3_3 = "tempora:quadp3-3:1:v"; // Ash Wednesday
-export const TEMPORA_QUADP3_4 = "tempora:quadp3-4:3:v";
-export const TEMPORA_QUADP3_5 = "tempora:quadp3-5:3:v";
-export const TEMPORA_QUADP3_6 = "tempora:quadp3-6:3:v";
-export const TEMPORA_QUAD1_0 = "tempora:quad1-0:1:v"; // Sunday in 1st week of Lent
-export const TEMPORA_QUAD1_1 = "tempora:quad1-1:3:v"; // Monday in 1st week of Lent
-export const TEMPORA_QUAD1_2 = "tempora:quad1-2:3:v"; // Tuesday in 1st week of Lent
-export const TEMPORA_QUAD1_3 = "tempora:quad1-3:2:v"; // Ember Wednesday of Lent
-export const TEMPORA_QUAD1_4 = "tempora:quad1-4:3:v"; // Thursday in 1st week of Lent
-export const TEMPORA_QUAD1_5 = "tempora:quad1-5:2:v"; // Ember Friday of Lent
-export const TEMPORA_QUAD1_6 = "tempora:quad1-6:2:v"; // Ember Saturday of Lent
-export const TEMPORA_QUAD2_0 = "tempora:quad2-0:1:v"; // Sunday in 2nd week of Lent
-export const TEMPORA_QUAD2_1 = "tempora:quad2-1:3:v"; // Monday in 2nd week of Lent
-export const TEMPORA_QUAD2_2 = "tempora:quad2-2:3:v";
-export const TEMPORA_QUAD2_3 = "tempora:quad2-3:3:v";
-export const TEMPORA_QUAD2_4 = "tempora:quad2-4:3:v";
-export const TEMPORA_QUAD2_5 = "tempora:quad2-5:3:v";
-export const TEMPORA_QUAD2_6 = "tempora:quad2-6:3:v";
-export const TEMPORA_QUAD3_0 = "tempora:quad3-0:1:v";
-export const TEMPORA_QUAD3_1 = "tempora:quad3-1:3:v";
-export const TEMPORA_QUAD3_2 = "tempora:quad3-2:3:v";
-export const TEMPORA_QUAD3_3 = "tempora:quad3-3:3:v";
-export const TEMPORA_QUAD3_4 = "tempora:quad3-4:3:v";
-export const TEMPORA_QUAD3_5 = "tempora:quad3-5:3:v";
-export const TEMPORA_QUAD3_6 = "tempora:quad3-6:3:v";
-export const TEMPORA_QUAD4_0 = "tempora:quad4-0:1:v";
-export const TEMPORA_QUAD4_1 = "tempora:quad4-1:3:v";
-export const TEMPORA_QUAD4_2 = "tempora:quad4-2:3:v";
-export const TEMPORA_QUAD4_3 = "tempora:quad4-3:3:v";
-export const TEMPORA_QUAD4_4 = "tempora:quad4-4:3:v";
-export const TEMPORA_QUAD4_5 = "tempora:quad4-5:3:v";
-export const TEMPORA_QUAD4_6 = "tempora:quad4-6:3:v";
-export const TEMPORA_QUAD5_0 = "tempora:quad5-0:1:v"; // 1st Passion Sunday
-export const TEMPORA_QUAD5_1 = "tempora:quad5-1:3:v";
-export const TEMPORA_QUAD5_2 = "tempora:quad5-2:3:v";
-export const TEMPORA_QUAD5_3 = "tempora:quad5-3:3:v";
-export const TEMPORA_QUAD5_4 = "tempora:quad5-4:3:v";
-export const TEMPORA_QUAD5_5 = "tempora:quad5-5:3:v";
-export const TEMPORA_QUAD5_6 = "tempora:quad5-6:3:v";
-export const TEMPORA_QUAD6_0 = "tempora:quad6-0:1:rv"; // 2nd Passion Sunday (Palm Sunday)
-export const TEMPORA_QUAD6_1 = "tempora:quad6-1:1:v";
-export const TEMPORA_QUAD6_2 = "tempora:quad6-2:1:v";
+const TEMPORA_EPI1_0A = "tempora:epi1-0a:2:w"; // Feast of the Holy Family
+const TEMPORA_EPI1_0 = "tempora:epi1-0:2:w"; // First Sunday after Epiphany
+const TEMPORA_EPI1_1 = "tempora:epi1-1:4:w"; // Monday after 1st week of Epiphany
+const TEMPORA_EPI1_2 = "tempora:epi1-2:4:w"; // Tuesday after 1st week of Epiphany
+const TEMPORA_EPI1_3 = "tempora:epi1-3:4:w"; // Wednesday after 1st week of Epiphany
+const TEMPORA_EPI1_4 = "tempora:epi1-4:4:w"; // Thursday after 1st week of Epiphany
+const TEMPORA_EPI1_5 = "tempora:epi1-5:4:w"; // Friday after 1st week of Epiphany
+const TEMPORA_EPI1_6 = "tempora:epi1-6:4:w"; // Saturday after 1st week of Epiphany
+const TEMPORA_EPI2_0 = "tempora:epi2-0:2:g"; // Sunday after 2nd week of Epiphany
+const TEMPORA_EPI2_1 = "tempora:epi2-1:4:g"; // Monday after 2nd week of Epiphany
+const TEMPORA_EPI2_2 = "tempora:epi2-2:4:g";
+const TEMPORA_EPI2_3 = "tempora:epi2-3:4:g";
+const TEMPORA_EPI2_4 = "tempora:epi2-4:4:g";
+const TEMPORA_EPI2_5 = "tempora:epi2-5:4:g";
+const TEMPORA_EPI2_6 = "tempora:epi2-6:4:g";
+const TEMPORA_EPI3_0 = "tempora:epi3-0:2:g";
+const TEMPORA_EPI3_1 = "tempora:epi3-1:4:g";
+const TEMPORA_EPI3_2 = "tempora:epi3-2:4:g";
+const TEMPORA_EPI3_3 = "tempora:epi3-3:4:g";
+const TEMPORA_EPI3_4 = "tempora:epi3-4:4:g";
+const TEMPORA_EPI3_5 = "tempora:epi3-5:4:g";
+const TEMPORA_EPI3_6 = "tempora:epi3-6:4:g";
+const TEMPORA_EPI4_0 = "tempora:epi4-0:2:g";
+const TEMPORA_EPI4_1 = "tempora:epi4-1:4:g";
+const TEMPORA_EPI4_2 = "tempora:epi4-2:4:g";
+const TEMPORA_EPI4_3 = "tempora:epi4-3:4:g";
+const TEMPORA_EPI4_4 = "tempora:epi4-4:4:g";
+const TEMPORA_EPI4_5 = "tempora:epi4-5:4:g";
+const TEMPORA_EPI4_6 = "tempora:epi4-6:4:g";
+const TEMPORA_EPI5_0 = "tempora:epi5-0:2:g";
+const TEMPORA_EPI5_1 = "tempora:epi5-1:4:g";
+const TEMPORA_EPI5_2 = "tempora:epi5-2:4:g";
+const TEMPORA_EPI5_3 = "tempora:epi5-3:4:g";
+const TEMPORA_EPI5_4 = "tempora:epi5-4:4:g";
+const TEMPORA_EPI5_5 = "tempora:epi5-5:4:g";
+const TEMPORA_EPI5_6 = "tempora:epi5-6:4:g";
+const TEMPORA_EPI6_0 = "tempora:epi6-0:2:g";
+const TEMPORA_EPI6_1 = "tempora:epi6-1:4:g";
+const TEMPORA_EPI6_2 = "tempora:epi6-2:4:g";
+const TEMPORA_EPI6_3 = "tempora:epi6-3:4:g";
+const TEMPORA_EPI6_4 = "tempora:epi6-4:4:g";
+const TEMPORA_EPI6_5 = "tempora:epi6-5:4:g";
+const TEMPORA_EPI6_6 = "tempora:epi6-6:4:g";
+const TEMPORA_QUADP1_0 = "tempora:quadp1-0:2:v"; // Septuagesima Sunday
+const TEMPORA_QUADP1_1 = "tempora:quadp1-1:4:v";
+const TEMPORA_QUADP1_2 = "tempora:quadp1-2:4:v";
+const TEMPORA_QUADP1_3 = "tempora:quadp1-3:4:v";
+const TEMPORA_QUADP1_4 = "tempora:quadp1-4:4:v";
+const TEMPORA_QUADP1_5 = "tempora:quadp1-5:4:v";
+const TEMPORA_QUADP1_6 = "tempora:quadp1-6:4:v";
+const TEMPORA_QUADP2_0 = "tempora:quadp2-0:2:v"; // Sexagesima Sunday
+const TEMPORA_QUADP2_1 = "tempora:quadp2-1:4:v";
+const TEMPORA_QUADP2_2 = "tempora:quadp2-2:4:v";
+const TEMPORA_QUADP2_3 = "tempora:quadp2-3:4:v";
+const TEMPORA_QUADP2_4 = "tempora:quadp2-4:4:v";
+const TEMPORA_QUADP2_5 = "tempora:quadp2-5:4:v";
+const TEMPORA_QUADP2_6 = "tempora:quadp2-6:4:v";
+const TEMPORA_QUADP3_0 = "tempora:quadp3-0:2:v"; // Quinquagesima Sunday
+const TEMPORA_QUADP3_1 = "tempora:quadp3-1:4:v";
+const TEMPORA_QUADP3_2 = "tempora:quadp3-2:4:v";
+const TEMPORA_QUADP3_3 = "tempora:quadp3-3:1:v"; // Ash Wednesday
+const TEMPORA_QUADP3_4 = "tempora:quadp3-4:3:v";
+const TEMPORA_QUADP3_5 = "tempora:quadp3-5:3:v";
+const TEMPORA_QUADP3_6 = "tempora:quadp3-6:3:v";
+const TEMPORA_QUAD1_0 = "tempora:quad1-0:1:v"; // Sunday in 1st week of Lent
+const TEMPORA_QUAD1_1 = "tempora:quad1-1:3:v"; // Monday in 1st week of Lent
+const TEMPORA_QUAD1_2 = "tempora:quad1-2:3:v"; // Tuesday in 1st week of Lent
+const TEMPORA_QUAD1_3 = "tempora:quad1-3:2:v"; // Ember Wednesday of Lent
+const TEMPORA_QUAD1_4 = "tempora:quad1-4:3:v"; // Thursday in 1st week of Lent
+const TEMPORA_QUAD1_5 = "tempora:quad1-5:2:v"; // Ember Friday of Lent
+const TEMPORA_QUAD1_6 = "tempora:quad1-6:2:v"; // Ember Saturday of Lent
+const TEMPORA_QUAD2_0 = "tempora:quad2-0:1:v"; // Sunday in 2nd week of Lent
+const TEMPORA_QUAD2_1 = "tempora:quad2-1:3:v"; // Monday in 2nd week of Lent
+const TEMPORA_QUAD2_2 = "tempora:quad2-2:3:v";
+const TEMPORA_QUAD2_3 = "tempora:quad2-3:3:v";
+const TEMPORA_QUAD2_4 = "tempora:quad2-4:3:v";
+const TEMPORA_QUAD2_5 = "tempora:quad2-5:3:v";
+const TEMPORA_QUAD2_6 = "tempora:quad2-6:3:v";
+const TEMPORA_QUAD3_0 = "tempora:quad3-0:1:v";
+const TEMPORA_QUAD3_1 = "tempora:quad3-1:3:v";
+const TEMPORA_QUAD3_2 = "tempora:quad3-2:3:v";
+const TEMPORA_QUAD3_3 = "tempora:quad3-3:3:v";
+const TEMPORA_QUAD3_4 = "tempora:quad3-4:3:v";
+const TEMPORA_QUAD3_5 = "tempora:quad3-5:3:v";
+const TEMPORA_QUAD3_6 = "tempora:quad3-6:3:v";
+const TEMPORA_QUAD4_0 = "tempora:quad4-0:1:v";
+const TEMPORA_QUAD4_1 = "tempora:quad4-1:3:v";
+const TEMPORA_QUAD4_2 = "tempora:quad4-2:3:v";
+const TEMPORA_QUAD4_3 = "tempora:quad4-3:3:v";
+const TEMPORA_QUAD4_4 = "tempora:quad4-4:3:v";
+const TEMPORA_QUAD4_5 = "tempora:quad4-5:3:v";
+const TEMPORA_QUAD4_6 = "tempora:quad4-6:3:v";
+const TEMPORA_QUAD5_0 = "tempora:quad5-0:1:v"; // 1st Passion Sunday
+const TEMPORA_QUAD5_1 = "tempora:quad5-1:3:v";
+const TEMPORA_QUAD5_2 = "tempora:quad5-2:3:v";
+const TEMPORA_QUAD5_3 = "tempora:quad5-3:3:v";
+const TEMPORA_QUAD5_4 = "tempora:quad5-4:3:v";
+const TEMPORA_QUAD5_5 = "tempora:quad5-5:3:v";
+const TEMPORA_QUAD5_6 = "tempora:quad5-6:3:v";
+const TEMPORA_QUAD6_0 = "tempora:quad6-0:1:rv"; // 2nd Passion Sunday (Palm Sunday)
+const TEMPORA_QUAD6_1 = "tempora:quad6-1:1:v";
+const TEMPORA_QUAD6_2 = "tempora:quad6-2:1:v";
 export const TEMPORA_QUAD6_3 = "tempora:quad6-3:1:v";
-export const TEMPORA_QUAD6_4 = "tempora:quad6-4:1:w"; // Maundy Thursday
-export const TEMPORA_QUAD6_5 = "tempora:quad6-5:1:bv"; // Good Friday
-export const TEMPORA_QUAD6_6 = "tempora:quad6-6:1:vw"; // Holy Saturday
-
-export const TEMPORA_PASC0_0 = "tempora:pasc0-0:1:w"; // Resurrection Sunday
-export const TEMPORA_PASC0_1 = "tempora:pasc0-1:1:w";
-export const TEMPORA_PASC0_2 = "tempora:pasc0-2:1:w";
-export const TEMPORA_PASC0_3 = "tempora:pasc0-3:1:w";
-export const TEMPORA_PASC0_4 = "tempora:pasc0-4:1:w";
-export const TEMPORA_PASC0_5 = "tempora:pasc0-5:1:w";
-export const TEMPORA_PASC0_6 = "tempora:pasc0-6:1:w";
+const TEMPORA_QUAD6_4 = "tempora:quad6-4:1:w"; // Maundy Thursday
+const TEMPORA_QUAD6_5 = "tempora:quad6-5:1:bv"; // Good Friday
+const TEMPORA_QUAD6_6 = "tempora:quad6-6:1:vw"; // Holy Saturday
+const TEMPORA_PASC0_0 = "tempora:pasc0-0:1:w"; // Resurrection Sunday
+const TEMPORA_PASC0_1 = "tempora:pasc0-1:1:w";
+const TEMPORA_PASC0_2 = "tempora:pasc0-2:1:w";
+const TEMPORA_PASC0_3 = "tempora:pasc0-3:1:w";
+const TEMPORA_PASC0_4 = "tempora:pasc0-4:1:w";
+const TEMPORA_PASC0_5 = "tempora:pasc0-5:1:w";
+const TEMPORA_PASC0_6 = "tempora:pasc0-6:1:w";
 export const TEMPORA_PASC1_0 = "tempora:pasc1-0:1:w"; // Low Sunday
-export const TEMPORA_PASC1_1 = "tempora:pasc1-1:4:w";
-export const TEMPORA_PASC1_2 = "tempora:pasc1-2:4:w";
-export const TEMPORA_PASC1_3 = "tempora:pasc1-3:4:w";
-export const TEMPORA_PASC1_4 = "tempora:pasc1-4:4:w";
-export const TEMPORA_PASC1_5 = "tempora:pasc1-5:4:w";
-export const TEMPORA_PASC1_6 = "tempora:pasc1-6:4:w";
-export const TEMPORA_PASC2_0 = "tempora:pasc2-0:2:w";
-export const TEMPORA_PASC2_1 = "tempora:pasc2-1:4:w";
-export const TEMPORA_PASC2_2 = "tempora:pasc2-2:4:w";
-export const TEMPORA_PASC2_3 = "tempora:pasc2-3:2:w";
-export const TEMPORA_PASC2_4 = "tempora:pasc2-4:4:w";
-export const TEMPORA_PASC2_5 = "tempora:pasc2-5:4:w";
-export const TEMPORA_PASC2_6 = "tempora:pasc2-6:4:w";
-export const TEMPORA_PASC3_0 = "tempora:pasc3-0:2:w";
-export const TEMPORA_PASC3_1 = "tempora:pasc3-1:4:w";
-export const TEMPORA_PASC3_2 = "tempora:pasc3-2:4:w";
-export const TEMPORA_PASC3_3 = "tempora:pasc3-3:4:w";
-export const TEMPORA_PASC3_4 = "tempora:pasc3-4:4:w";
-export const TEMPORA_PASC3_5 = "tempora:pasc3-5:4:w";
-export const TEMPORA_PASC3_6 = "tempora:pasc3-6:4:w";
-export const TEMPORA_PASC4_0 = "tempora:pasc4-0:2:w";
-export const TEMPORA_PASC4_1 = "tempora:pasc4-1:4:w";
-export const TEMPORA_PASC4_2 = "tempora:pasc4-2:4:w";
-export const TEMPORA_PASC4_3 = "tempora:pasc4-3:4:w";
-export const TEMPORA_PASC4_4 = "tempora:pasc4-4:4:w";
-export const TEMPORA_PASC4_5 = "tempora:pasc4-5:4:w";
-export const TEMPORA_PASC4_6 = "tempora:pasc4-6:4:w";
-export const TEMPORA_PASC5_0 = "tempora:pasc5-0:2:w";
-export const TEMPORA_PASC5_1 = "tempora:pasc5-1:4:v";
-export const TEMPORA_PASC5_2 = "tempora:pasc5-2:4:w";
-export const TEMPORA_PASC5_3 = "tempora:pasc5-3:2:w"; // Vigil of Ascension
-
-export const TEMPORA_PASC5_4 = "tempora:pasc5-4:1:w"; // Ascension
-export const TEMPORA_PASC5_5 = "tempora:pasc5-5:4:w";
-export const TEMPORA_PASC5_6 = "tempora:pasc5-6:4:w";
-export const TEMPORA_PASC6_0 = "tempora:pasc6-0:2:w";
-export const TEMPORA_PASC6_1 = "tempora:pasc6-1:4:w";
-export const TEMPORA_PASC6_2 = "tempora:pasc6-2:4:w";
-export const TEMPORA_PASC6_3 = "tempora:pasc6-3:4:w";
-export const TEMPORA_PASC6_4 = "tempora:pasc6-4:4:w";
-export const TEMPORA_PASC6_5 = "tempora:pasc6-5:4:w";
-export const TEMPORA_PASC6_6 = "tempora:pasc6-6:1:r"; // Vigil of Pentecost
-
-export const TEMPORA_PASC7_0 = "tempora:pasc7-0:1:r"; // Pentecost
-export const TEMPORA_PASC7_1 = "tempora:pasc7-1:1:r"; // Whit Monday
-export const TEMPORA_PASC7_2 = "tempora:pasc7-2:1:r";
-export const TEMPORA_PASC7_3 = "tempora:pasc7-3:1:r"; // Ember Wednesday in Octave of Pentecost
-export const TEMPORA_PASC7_4 = "tempora:pasc7-4:1:r";
-export const TEMPORA_PASC7_5 = "tempora:pasc7-5:1:r"; // Ember Friday in Octave of Pentecost
-export const TEMPORA_PASC7_6 = "tempora:pasc7-6:1:r"; // Ember Saturday in Octave of Pentecost
-export const TEMPORA_PENT01_0A = "tempora:pent1-0a:2:g"; // 1st Sunday after Pentecost
-export const TEMPORA_PENT01_0 = "tempora:pent1-0:1:w"; // Trinity Sunday
-export const TEMPORA_PENT01_1 = "tempora:pent1-1:4:g";
-export const TEMPORA_PENT01_2 = "tempora:pent1-2:4:g";
-export const TEMPORA_PENT01_3 = "tempora:pent1-3:4:g";
-export const TEMPORA_PENT01_4 = "tempora:pent1-4:1:w"; // Corpus Christi
-export const TEMPORA_PENT01_5 = "tempora:pent1-5:4:g";
-export const TEMPORA_PENT01_6 = "tempora:pent1-6:4:g";
-export const TEMPORA_PENT02_0 = "tempora:pent2-0:2:g"; // Sunday in 2nd week after Pentecost
-export const TEMPORA_PENT02_1 = "tempora:pent2-1:4:g"; // Monday in 2nd week after Pentecost
-export const TEMPORA_PENT02_2 = "tempora:pent2-2:4:g"; // Tuesday in 2nd week after Pentecost
-export const TEMPORA_PENT02_3 = "tempora:pent2-3:4:g"; // Wednesday in 2nd week after Pentecost
-export const TEMPORA_PENT02_4 = "tempora:pent2-4:4:g"; // Thursday in 2nd week after Pentecost
-export const TEMPORA_PENT02_5 = "tempora:pent2-5:1:w"; // Feast of the Sacred Heart
-export const TEMPORA_PENT02_6 = "tempora:pent2-6:4:g"; // Saturday in 2nd week after Pentecost
-export const TEMPORA_PENT03_0 = "tempora:pent3-0:2:g"; // Sunday in 3rd week after Pentecost
-export const TEMPORA_PENT03_1 = "tempora:pent3-1:4:g";
-export const TEMPORA_PENT03_2 = "tempora:pent3-2:4:g";
-export const TEMPORA_PENT03_3 = "tempora:pent3-3:4:g";
-export const TEMPORA_PENT03_4 = "tempora:pent3-4:4:g";
-export const TEMPORA_PENT03_5 = "tempora:pent3-5:4:g";
-export const TEMPORA_PENT03_6 = "tempora:pent3-6:4:g";
-export const TEMPORA_PENT04_0 = "tempora:pent4-0:2:g";
-export const TEMPORA_PENT04_1 = "tempora:pent4-1:4:g";
-export const TEMPORA_PENT04_2 = "tempora:pent4-2:4:g";
-export const TEMPORA_PENT04_3 = "tempora:pent4-3:4:g";
-export const TEMPORA_PENT04_4 = "tempora:pent4-4:4:g";
-export const TEMPORA_PENT04_5 = "tempora:pent4-5:4:g";
-export const TEMPORA_PENT04_6 = "tempora:pent4-6:4:g";
-export const TEMPORA_PENT05_0 = "tempora:pent5-0:2:g";
-export const TEMPORA_PENT05_1 = "tempora:pent5-1:4:g";
-export const TEMPORA_PENT05_2 = "tempora:pent5-2:4:g";
-export const TEMPORA_PENT05_3 = "tempora:pent5-3:4:g";
-export const TEMPORA_PENT05_4 = "tempora:pent5-4:4:g";
-export const TEMPORA_PENT05_5 = "tempora:pent5-5:4:g";
-export const TEMPORA_PENT05_6 = "tempora:pent5-6:4:g";
-export const TEMPORA_PENT06_0 = "tempora:pent6-0:2:g";
-export const TEMPORA_PENT06_1 = "tempora:pent6-1:4:g";
-export const TEMPORA_PENT06_2 = "tempora:pent6-2:4:g";
-export const TEMPORA_PENT06_3 = "tempora:pent6-3:4:g";
-export const TEMPORA_PENT06_4 = "tempora:pent6-4:4:g";
-export const TEMPORA_PENT06_5 = "tempora:pent6-5:4:g";
-export const TEMPORA_PENT06_6 = "tempora:pent6-6:4:g";
-export const TEMPORA_PENT07_0 = "tempora:pent7-0:2:g";
-export const TEMPORA_PENT07_1 = "tempora:pent7-1:4:g";
-export const TEMPORA_PENT07_2 = "tempora:pent7-2:4:g";
-export const TEMPORA_PENT07_3 = "tempora:pent7-3:4:g";
-export const TEMPORA_PENT07_4 = "tempora:pent7-4:4:g";
-export const TEMPORA_PENT07_5 = "tempora:pent7-5:4:g";
-export const TEMPORA_PENT07_6 = "tempora:pent7-6:4:g";
-export const TEMPORA_PENT08_0 = "tempora:pent8-0:2:g";
-export const TEMPORA_PENT08_1 = "tempora:pent8-1:4:g";
-export const TEMPORA_PENT08_2 = "tempora:pent8-2:4:g";
-export const TEMPORA_PENT08_3 = "tempora:pent8-3:4:g";
-export const TEMPORA_PENT08_4 = "tempora:pent8-4:4:g";
-export const TEMPORA_PENT08_5 = "tempora:pent8-5:4:g";
-export const TEMPORA_PENT08_6 = "tempora:pent8-6:4:g";
-export const TEMPORA_PENT09_0 = "tempora:pent9-0:2:g";
-export const TEMPORA_PENT09_1 = "tempora:pent9-1:4:g";
-export const TEMPORA_PENT09_2 = "tempora:pent9-2:4:g";
-export const TEMPORA_PENT09_3 = "tempora:pent9-3:4:g";
-export const TEMPORA_PENT09_4 = "tempora:pent9-4:4:g";
-export const TEMPORA_PENT09_5 = "tempora:pent9-5:4:g";
-export const TEMPORA_PENT09_6 = "tempora:pent9-6:4:g";
-export const TEMPORA_PENT10_0 = "tempora:pent10-0:2:g";
-export const TEMPORA_PENT10_1 = "tempora:pent10-1:4:g";
-export const TEMPORA_PENT10_2 = "tempora:pent10-2:4:g";
-export const TEMPORA_PENT10_3 = "tempora:pent10-3:4:g";
-export const TEMPORA_PENT10_4 = "tempora:pent10-4:4:g";
-export const TEMPORA_PENT10_5 = "tempora:pent10-5:4:g";
-export const TEMPORA_PENT10_6 = "tempora:pent10-6:4:g";
-export const TEMPORA_PENT11_0 = "tempora:pent11-0:2:g";
-export const TEMPORA_PENT11_1 = "tempora:pent11-1:4:g";
-export const TEMPORA_PENT11_2 = "tempora:pent11-2:4:g";
-export const TEMPORA_PENT11_3 = "tempora:pent11-3:4:g";
-export const TEMPORA_PENT11_4 = "tempora:pent11-4:4:g";
-export const TEMPORA_PENT11_5 = "tempora:pent11-5:4:g";
-export const TEMPORA_PENT11_6 = "tempora:pent11-6:4:g";
-export const TEMPORA_PENT12_0 = "tempora:pent12-0:2:g";
-export const TEMPORA_PENT12_1 = "tempora:pent12-1:4:g";
-export const TEMPORA_PENT12_2 = "tempora:pent12-2:4:g";
-export const TEMPORA_PENT12_3 = "tempora:pent12-3:4:g";
-export const TEMPORA_PENT12_4 = "tempora:pent12-4:4:g";
-export const TEMPORA_PENT12_5 = "tempora:pent12-5:4:g";
-export const TEMPORA_PENT12_6 = "tempora:pent12-6:4:g";
-export const TEMPORA_PENT13_0 = "tempora:pent13-0:2:g";
-export const TEMPORA_PENT13_1 = "tempora:pent13-1:4:g";
-export const TEMPORA_PENT13_2 = "tempora:pent13-2:4:g";
-export const TEMPORA_PENT13_3 = "tempora:pent13-3:4:g";
-export const TEMPORA_PENT13_4 = "tempora:pent13-4:4:g";
-export const TEMPORA_PENT13_5 = "tempora:pent13-5:4:g";
-export const TEMPORA_PENT13_6 = "tempora:pent13-6:4:g";
-export const TEMPORA_PENT14_0 = "tempora:pent14-0:2:g";
-export const TEMPORA_PENT14_1 = "tempora:pent14-1:4:g";
-export const TEMPORA_PENT14_2 = "tempora:pent14-2:4:g";
-export const TEMPORA_PENT14_3 = "tempora:pent14-3:4:g";
-export const TEMPORA_PENT14_4 = "tempora:pent14-4:4:g";
-export const TEMPORA_PENT14_5 = "tempora:pent14-5:4:g";
-export const TEMPORA_PENT14_6 = "tempora:pent14-6:4:g";
-export const TEMPORA_PENT15_0 = "tempora:pent15-0:2:g";
-export const TEMPORA_PENT15_1 = "tempora:pent15-1:4:g";
-export const TEMPORA_PENT15_2 = "tempora:pent15-2:4:g";
-export const TEMPORA_PENT15_3 = "tempora:pent15-3:4:g";
-export const TEMPORA_PENT15_4 = "tempora:pent15-4:4:g";
-export const TEMPORA_PENT15_5 = "tempora:pent15-5:4:g";
-export const TEMPORA_PENT15_6 = "tempora:pent15-6:4:g";
-export const TEMPORA_PENT16_0 = "tempora:pent16-0:2:g";
-export const TEMPORA_PENT16_1 = "tempora:pent16-1:4:g";
-export const TEMPORA_PENT16_2 = "tempora:pent16-2:4:g";
-export const TEMPORA_PENT16_3 = "tempora:pent16-3:4:g";
-export const TEMPORA_PENT16_4 = "tempora:pent16-4:4:g";
-export const TEMPORA_PENT16_5 = "tempora:pent16-5:4:g";
-export const TEMPORA_PENT16_6 = "tempora:pent16-6:4:g";
-export const TEMPORA_PENT17_0 = "tempora:pent17-0:2:g";
-export const TEMPORA_PENT17_1 = "tempora:pent17-1:4:g";
-export const TEMPORA_PENT17_2 = "tempora:pent17-2:4:g";
-export const TEMPORA_PENT17_3 = "tempora:pent17-3:4:g";
-export const TEMPORA_PENT_3 = "tempora:pent17-3:2:v"; // Ember Wednesday in September
-export const TEMPORA_PENT17_4 = "tempora:pent17-4:4:g";
-export const TEMPORA_PENT17_5 = "tempora:pent17-5:4:g";
-export const TEMPORA_PENT_5 = "tempora:pent17-5:2:v"; // Ember Friday in September
-export const TEMPORA_PENT17_6 = "tempora:pent17-6:4:g";
-export const TEMPORA_PENT_6 = "tempora:pent17-6:2:v"; // Ember Saturday in September
-export const TEMPORA_PENT18_0 = "tempora:pent18-0:2:g";
-export const TEMPORA_PENT18_1 = "tempora:pent18-1:4:g";
-export const TEMPORA_PENT18_2 = "tempora:pent18-2:4:g";
-export const TEMPORA_PENT18_3 = "tempora:pent18-3:4:g";
-export const TEMPORA_PENT18_4 = "tempora:pent18-4:4:g";
-export const TEMPORA_PENT18_5 = "tempora:pent18-5:4:g";
-export const TEMPORA_PENT18_6 = "tempora:pent18-6:4:g";
-export const TEMPORA_PENT19_0 = "tempora:pent19-0:2:g";
-export const TEMPORA_PENT19_1 = "tempora:pent19-1:4:g";
-export const TEMPORA_PENT19_2 = "tempora:pent19-2:4:g";
-export const TEMPORA_PENT19_3 = "tempora:pent19-3:4:g";
-export const TEMPORA_PENT19_4 = "tempora:pent19-4:4:g";
-export const TEMPORA_PENT19_5 = "tempora:pent19-5:4:g";
-export const TEMPORA_PENT19_6 = "tempora:pent19-6:4:g";
-export const TEMPORA_PENT20_0 = "tempora:pent20-0:2:g";
-export const TEMPORA_PENT20_1 = "tempora:pent20-1:4:g";
-export const TEMPORA_PENT20_2 = "tempora:pent20-2:4:g";
-export const TEMPORA_PENT20_3 = "tempora:pent20-3:4:g";
-export const TEMPORA_PENT20_4 = "tempora:pent20-4:4:g";
-export const TEMPORA_PENT20_5 = "tempora:pent20-5:4:g";
-export const TEMPORA_PENT20_6 = "tempora:pent20-6:4:g";
-export const TEMPORA_PENT21_0 = "tempora:pent21-0:2:g";
-export const TEMPORA_PENT21_1 = "tempora:pent21-1:4:g";
-export const TEMPORA_PENT21_2 = "tempora:pent21-2:4:g";
-export const TEMPORA_PENT21_3 = "tempora:pent21-3:4:g";
-export const TEMPORA_PENT21_4 = "tempora:pent21-4:4:g";
-export const TEMPORA_PENT21_5 = "tempora:pent21-5:4:g";
-export const TEMPORA_PENT21_6 = "tempora:pent21-6:4:g";
-export const TEMPORA_PENT22_0 = "tempora:pent22-0:2:g";
-export const TEMPORA_PENT22_1 = "tempora:pent22-1:4:g";
-export const TEMPORA_PENT22_2 = "tempora:pent22-2:4:g";
-export const TEMPORA_PENT22_3 = "tempora:pent22-3:4:g";
-export const TEMPORA_PENT22_4 = "tempora:pent22-4:4:g";
-export const TEMPORA_PENT22_5 = "tempora:pent22-5:4:g";
-export const TEMPORA_PENT22_6 = "tempora:pent22-6:4:g";
-export const TEMPORA_PENT23_0 = "tempora:pent23-0:2:g";
-export const TEMPORA_PENT23_1 = "tempora:pent23-1:4:g";
-export const TEMPORA_PENT23_2 = "tempora:pent23-2:4:g";
-export const TEMPORA_PENT23_3 = "tempora:pent23-3:4:g";
-export const TEMPORA_PENT23_4 = "tempora:pent23-4:4:g";
-export const TEMPORA_PENT23_5 = "tempora:pent23-5:4:g";
-export const TEMPORA_PENT23_6 = "tempora:pent23-6:4:g";
-
-export const TEMPORA_PENT24_0 = "tempora:pent24-0:2:g";
-export const TEMPORA_PENT24_1 = "tempora:pent24-1:4:g";
-export const TEMPORA_PENT24_2 = "tempora:pent24-2:4:g";
-export const TEMPORA_PENT24_3 = "tempora:pent24-3:4:g";
-export const TEMPORA_PENT24_4 = "tempora:pent24-4:4:g";
-export const TEMPORA_PENT24_5 = "tempora:pent24-5:4:g";
-export const TEMPORA_PENT24_6 = "tempora:pent24-6:4:g";
-
-export const TEMPORA_ADV1_0 = "tempora:adv1-0:1:v"; // Sunday in 1st week of Advent
-export const TEMPORA_ADV1_1 = "tempora:adv1-1:3:v"; // Monday in 1st week of Advent
-export const TEMPORA_ADV1_2 = "tempora:adv1-2:3:v"; // Tuesday in 1st week of Advent
-export const TEMPORA_ADV1_3 = "tempora:adv1-3:3:v"; // Wednesday in 1st week of Advent
-export const TEMPORA_ADV1_4 = "tempora:adv1-4:3:v"; // Thursday in 1st week of Advent
-export const TEMPORA_ADV1_5 = "tempora:adv1-5:3:v"; // Friday in 1st week of Advent
-export const TEMPORA_ADV1_6 = "tempora:adv1-6:3:v"; // Saturday in 1st week of Advent
-export const TEMPORA_ADV2_0 = "tempora:adv2-0:1:v";
-export const TEMPORA_ADV2_1 = "tempora:adv2-1:3:v";
-export const TEMPORA_ADV2_2 = "tempora:adv2-2:3:v";
-export const TEMPORA_ADV2_3 = "tempora:adv2-3:3:v";
-export const TEMPORA_ADV2_4 = "tempora:adv2-4:3:v";
-export const TEMPORA_ADV2_5 = "tempora:adv2-5:3:v";
-export const TEMPORA_ADV2_6 = "tempora:adv2-6:3:v";
-export const TEMPORA_ADV3_0 = "tempora:adv3-0:1:v";
-export const TEMPORA_ADV3_1 = "tempora:adv3-1:3:v";
-export const TEMPORA_ADV3_2 = "tempora:adv3-2:3:v";
-export const TEMPORA_ADV3_3 = "tempora:adv3-3:2:v"; // Ember Wednesday in Advent
-export const TEMPORA_ADV3_4 = "tempora:adv3-4:3:v";
-export const TEMPORA_ADV3_5 = "tempora:adv3-5:2:v"; // Ember Friday in Advent
-export const TEMPORA_ADV3_6 = "tempora:adv3-6:2:v"; // Ember Saturday in Advent
-export const TEMPORA_ADV4_0 = "tempora:adv4-0:1:v";
-export const TEMPORA_ADV4_1 = "tempora:adv4-1:3:v";
-export const TEMPORA_ADV4_2 = "tempora:adv4-2:3:v";
-export const TEMPORA_ADV4_3 = "tempora:adv4-3:3:v";
-export const TEMPORA_ADV4_4 = "tempora:adv4-4:3:v";
-export const TEMPORA_ADV4_5 = "tempora:adv4-5:3:v";
-export const TEMPORA_NAT1_0 = "tempora:nat1-0:2:w"; // Sunday in the Octave of Nativity
+const TEMPORA_PASC1_1 = "tempora:pasc1-1:4:w";
+const TEMPORA_PASC1_2 = "tempora:pasc1-2:4:w";
+const TEMPORA_PASC1_3 = "tempora:pasc1-3:4:w";
+const TEMPORA_PASC1_4 = "tempora:pasc1-4:4:w";
+const TEMPORA_PASC1_5 = "tempora:pasc1-5:4:w";
+const TEMPORA_PASC1_6 = "tempora:pasc1-6:4:w";
+const TEMPORA_PASC2_0 = "tempora:pasc2-0:2:w";
+const TEMPORA_PASC2_1 = "tempora:pasc2-1:4:w";
+const TEMPORA_PASC2_2 = "tempora:pasc2-2:4:w";
+const TEMPORA_PASC2_3 = "tempora:pasc2-3:2:w";
+const TEMPORA_PASC2_4 = "tempora:pasc2-4:4:w";
+const TEMPORA_PASC2_5 = "tempora:pasc2-5:4:w";
+const TEMPORA_PASC2_6 = "tempora:pasc2-6:4:w";
+const TEMPORA_PASC3_0 = "tempora:pasc3-0:2:w";
+const TEMPORA_PASC3_1 = "tempora:pasc3-1:4:w";
+const TEMPORA_PASC3_2 = "tempora:pasc3-2:4:w";
+const TEMPORA_PASC3_3 = "tempora:pasc3-3:4:w";
+const TEMPORA_PASC3_4 = "tempora:pasc3-4:4:w";
+const TEMPORA_PASC3_5 = "tempora:pasc3-5:4:w";
+const TEMPORA_PASC3_6 = "tempora:pasc3-6:4:w";
+const TEMPORA_PASC4_0 = "tempora:pasc4-0:2:w";
+const TEMPORA_PASC4_1 = "tempora:pasc4-1:4:w";
+const TEMPORA_PASC4_2 = "tempora:pasc4-2:4:w";
+const TEMPORA_PASC4_3 = "tempora:pasc4-3:4:w";
+const TEMPORA_PASC4_4 = "tempora:pasc4-4:4:w";
+const TEMPORA_PASC4_5 = "tempora:pasc4-5:4:w";
+const TEMPORA_PASC4_6 = "tempora:pasc4-6:4:w";
+const TEMPORA_PASC5_0 = "tempora:pasc5-0:2:w";
+const TEMPORA_PASC5_1 = "tempora:pasc5-1:4:v";
+const TEMPORA_PASC5_2 = "tempora:pasc5-2:4:w";
+const TEMPORA_PASC5_3 = "tempora:pasc5-3:2:w"; // Vigil of Ascension
+const TEMPORA_PASC5_4 = "tempora:pasc5-4:1:w"; // Ascension
+const TEMPORA_PASC5_5 = "tempora:pasc5-5:4:w";
+const TEMPORA_PASC5_6 = "tempora:pasc5-6:4:w";
+const TEMPORA_PASC6_0 = "tempora:pasc6-0:2:w";
+const TEMPORA_PASC6_1 = "tempora:pasc6-1:4:w";
+const TEMPORA_PASC6_2 = "tempora:pasc6-2:4:w";
+const TEMPORA_PASC6_3 = "tempora:pasc6-3:4:w";
+const TEMPORA_PASC6_4 = "tempora:pasc6-4:4:w";
+const TEMPORA_PASC6_5 = "tempora:pasc6-5:4:w";
+const TEMPORA_PASC6_6 = "tempora:pasc6-6:1:r"; // Vigil of Pentecost
+const TEMPORA_PASC7_0 = "tempora:pasc7-0:1:r"; // Pentecost
+const TEMPORA_PASC7_1 = "tempora:pasc7-1:1:r"; // Whit Monday
+const TEMPORA_PASC7_2 = "tempora:pasc7-2:1:r";
+const TEMPORA_PASC7_3 = "tempora:pasc7-3:1:r"; // Ember Wednesday in Octave of Pentecost
+const TEMPORA_PASC7_4 = "tempora:pasc7-4:1:r";
+const TEMPORA_PASC7_5 = "tempora:pasc7-5:1:r"; // Ember Friday in Octave of Pentecost
+const TEMPORA_PASC7_6 = "tempora:pasc7-6:1:r"; // Ember Saturday in Octave of Pentecost
+const TEMPORA_PENT01_0A = "tempora:pent1-0a:2:g"; // 1st Sunday after Pentecost
+const TEMPORA_PENT01_0 = "tempora:pent1-0:1:w"; // Trinity Sunday
+const TEMPORA_PENT01_1 = "tempora:pent1-1:4:g";
+const TEMPORA_PENT01_2 = "tempora:pent1-2:4:g";
+const TEMPORA_PENT01_3 = "tempora:pent1-3:4:g";
+const TEMPORA_PENT01_4 = "tempora:pent1-4:1:w"; // Corpus Christi
+const TEMPORA_PENT01_5 = "tempora:pent1-5:4:g";
+const TEMPORA_PENT01_6 = "tempora:pent1-6:4:g";
+const TEMPORA_PENT02_0 = "tempora:pent2-0:2:g"; // Sunday in 2nd week after Pentecost
+const TEMPORA_PENT02_1 = "tempora:pent2-1:4:g"; // Monday in 2nd week after Pentecost
+const TEMPORA_PENT02_2 = "tempora:pent2-2:4:g"; // Tuesday in 2nd week after Pentecost
+const TEMPORA_PENT02_3 = "tempora:pent2-3:4:g"; // Wednesday in 2nd week after Pentecost
+const TEMPORA_PENT02_4 = "tempora:pent2-4:4:g"; // Thursday in 2nd week after Pentecost
+const TEMPORA_PENT02_5 = "tempora:pent2-5:1:w"; // Feast of the Sacred Heart
+const TEMPORA_PENT02_6 = "tempora:pent2-6:4:g"; // Saturday in 2nd week after Pentecost
+const TEMPORA_PENT03_0 = "tempora:pent3-0:2:g"; // Sunday in 3rd week after Pentecost
+const TEMPORA_PENT03_1 = "tempora:pent3-1:4:g";
+const TEMPORA_PENT03_2 = "tempora:pent3-2:4:g";
+const TEMPORA_PENT03_3 = "tempora:pent3-3:4:g";
+const TEMPORA_PENT03_4 = "tempora:pent3-4:4:g";
+const TEMPORA_PENT03_5 = "tempora:pent3-5:4:g";
+const TEMPORA_PENT03_6 = "tempora:pent3-6:4:g";
+const TEMPORA_PENT04_0 = "tempora:pent4-0:2:g";
+const TEMPORA_PENT04_1 = "tempora:pent4-1:4:g";
+const TEMPORA_PENT04_2 = "tempora:pent4-2:4:g";
+const TEMPORA_PENT04_3 = "tempora:pent4-3:4:g";
+const TEMPORA_PENT04_4 = "tempora:pent4-4:4:g";
+const TEMPORA_PENT04_5 = "tempora:pent4-5:4:g";
+const TEMPORA_PENT04_6 = "tempora:pent4-6:4:g";
+const TEMPORA_PENT05_0 = "tempora:pent5-0:2:g";
+const TEMPORA_PENT05_1 = "tempora:pent5-1:4:g";
+const TEMPORA_PENT05_2 = "tempora:pent5-2:4:g";
+const TEMPORA_PENT05_3 = "tempora:pent5-3:4:g";
+const TEMPORA_PENT05_4 = "tempora:pent5-4:4:g";
+const TEMPORA_PENT05_5 = "tempora:pent5-5:4:g";
+const TEMPORA_PENT05_6 = "tempora:pent5-6:4:g";
+const TEMPORA_PENT06_0 = "tempora:pent6-0:2:g";
+const TEMPORA_PENT06_1 = "tempora:pent6-1:4:g";
+const TEMPORA_PENT06_2 = "tempora:pent6-2:4:g";
+const TEMPORA_PENT06_3 = "tempora:pent6-3:4:g";
+const TEMPORA_PENT06_4 = "tempora:pent6-4:4:g";
+const TEMPORA_PENT06_5 = "tempora:pent6-5:4:g";
+const TEMPORA_PENT06_6 = "tempora:pent6-6:4:g";
+const TEMPORA_PENT07_0 = "tempora:pent7-0:2:g";
+const TEMPORA_PENT07_1 = "tempora:pent7-1:4:g";
+const TEMPORA_PENT07_2 = "tempora:pent7-2:4:g";
+const TEMPORA_PENT07_3 = "tempora:pent7-3:4:g";
+const TEMPORA_PENT07_4 = "tempora:pent7-4:4:g";
+const TEMPORA_PENT07_5 = "tempora:pent7-5:4:g";
+const TEMPORA_PENT07_6 = "tempora:pent7-6:4:g";
+const TEMPORA_PENT08_0 = "tempora:pent8-0:2:g";
+const TEMPORA_PENT08_1 = "tempora:pent8-1:4:g";
+const TEMPORA_PENT08_2 = "tempora:pent8-2:4:g";
+const TEMPORA_PENT08_3 = "tempora:pent8-3:4:g";
+const TEMPORA_PENT08_4 = "tempora:pent8-4:4:g";
+const TEMPORA_PENT08_5 = "tempora:pent8-5:4:g";
+const TEMPORA_PENT08_6 = "tempora:pent8-6:4:g";
+const TEMPORA_PENT09_0 = "tempora:pent9-0:2:g";
+const TEMPORA_PENT09_1 = "tempora:pent9-1:4:g";
+const TEMPORA_PENT09_2 = "tempora:pent9-2:4:g";
+const TEMPORA_PENT09_3 = "tempora:pent9-3:4:g";
+const TEMPORA_PENT09_4 = "tempora:pent9-4:4:g";
+const TEMPORA_PENT09_5 = "tempora:pent9-5:4:g";
+const TEMPORA_PENT09_6 = "tempora:pent9-6:4:g";
+const TEMPORA_PENT10_0 = "tempora:pent10-0:2:g";
+const TEMPORA_PENT10_1 = "tempora:pent10-1:4:g";
+const TEMPORA_PENT10_2 = "tempora:pent10-2:4:g";
+const TEMPORA_PENT10_3 = "tempora:pent10-3:4:g";
+const TEMPORA_PENT10_4 = "tempora:pent10-4:4:g";
+const TEMPORA_PENT10_5 = "tempora:pent10-5:4:g";
+const TEMPORA_PENT10_6 = "tempora:pent10-6:4:g";
+const TEMPORA_PENT11_0 = "tempora:pent11-0:2:g";
+const TEMPORA_PENT11_1 = "tempora:pent11-1:4:g";
+const TEMPORA_PENT11_2 = "tempora:pent11-2:4:g";
+const TEMPORA_PENT11_3 = "tempora:pent11-3:4:g";
+const TEMPORA_PENT11_4 = "tempora:pent11-4:4:g";
+const TEMPORA_PENT11_5 = "tempora:pent11-5:4:g";
+const TEMPORA_PENT11_6 = "tempora:pent11-6:4:g";
+const TEMPORA_PENT12_0 = "tempora:pent12-0:2:g";
+const TEMPORA_PENT12_1 = "tempora:pent12-1:4:g";
+const TEMPORA_PENT12_2 = "tempora:pent12-2:4:g";
+const TEMPORA_PENT12_3 = "tempora:pent12-3:4:g";
+const TEMPORA_PENT12_4 = "tempora:pent12-4:4:g";
+const TEMPORA_PENT12_5 = "tempora:pent12-5:4:g";
+const TEMPORA_PENT12_6 = "tempora:pent12-6:4:g";
+const TEMPORA_PENT13_0 = "tempora:pent13-0:2:g";
+const TEMPORA_PENT13_1 = "tempora:pent13-1:4:g";
+const TEMPORA_PENT13_2 = "tempora:pent13-2:4:g";
+const TEMPORA_PENT13_3 = "tempora:pent13-3:4:g";
+const TEMPORA_PENT13_4 = "tempora:pent13-4:4:g";
+const TEMPORA_PENT13_5 = "tempora:pent13-5:4:g";
+const TEMPORA_PENT13_6 = "tempora:pent13-6:4:g";
+const TEMPORA_PENT14_0 = "tempora:pent14-0:2:g";
+const TEMPORA_PENT14_1 = "tempora:pent14-1:4:g";
+const TEMPORA_PENT14_2 = "tempora:pent14-2:4:g";
+const TEMPORA_PENT14_3 = "tempora:pent14-3:4:g";
+const TEMPORA_PENT14_4 = "tempora:pent14-4:4:g";
+const TEMPORA_PENT14_5 = "tempora:pent14-5:4:g";
+const TEMPORA_PENT14_6 = "tempora:pent14-6:4:g";
+const TEMPORA_PENT15_0 = "tempora:pent15-0:2:g";
+const TEMPORA_PENT15_1 = "tempora:pent15-1:4:g";
+const TEMPORA_PENT15_2 = "tempora:pent15-2:4:g";
+const TEMPORA_PENT15_3 = "tempora:pent15-3:4:g";
+const TEMPORA_PENT15_4 = "tempora:pent15-4:4:g";
+const TEMPORA_PENT15_5 = "tempora:pent15-5:4:g";
+const TEMPORA_PENT15_6 = "tempora:pent15-6:4:g";
+const TEMPORA_PENT16_0 = "tempora:pent16-0:2:g";
+const TEMPORA_PENT16_1 = "tempora:pent16-1:4:g";
+const TEMPORA_PENT16_2 = "tempora:pent16-2:4:g";
+const TEMPORA_PENT16_3 = "tempora:pent16-3:4:g";
+const TEMPORA_PENT16_4 = "tempora:pent16-4:4:g";
+const TEMPORA_PENT16_5 = "tempora:pent16-5:4:g";
+const TEMPORA_PENT16_6 = "tempora:pent16-6:4:g";
+const TEMPORA_PENT17_0 = "tempora:pent17-0:2:g";
+const TEMPORA_PENT17_1 = "tempora:pent17-1:4:g";
+const TEMPORA_PENT17_2 = "tempora:pent17-2:4:g";
+const TEMPORA_PENT17_3 = "tempora:pent17-3:4:g";
+const TEMPORA_PENT_3 = "tempora:pent17-3:2:v"; // Ember Wednesday in September
+const TEMPORA_PENT17_4 = "tempora:pent17-4:4:g";
+const TEMPORA_PENT17_5 = "tempora:pent17-5:4:g";
+const TEMPORA_PENT_5 = "tempora:pent17-5:2:v"; // Ember Friday in September
+const TEMPORA_PENT17_6 = "tempora:pent17-6:4:g";
+const TEMPORA_PENT_6 = "tempora:pent17-6:2:v"; // Ember Saturday in September
+const TEMPORA_PENT18_0 = "tempora:pent18-0:2:g";
+const TEMPORA_PENT18_1 = "tempora:pent18-1:4:g";
+const TEMPORA_PENT18_2 = "tempora:pent18-2:4:g";
+const TEMPORA_PENT18_3 = "tempora:pent18-3:4:g";
+const TEMPORA_PENT18_4 = "tempora:pent18-4:4:g";
+const TEMPORA_PENT18_5 = "tempora:pent18-5:4:g";
+const TEMPORA_PENT18_6 = "tempora:pent18-6:4:g";
+const TEMPORA_PENT19_0 = "tempora:pent19-0:2:g";
+const TEMPORA_PENT19_1 = "tempora:pent19-1:4:g";
+const TEMPORA_PENT19_2 = "tempora:pent19-2:4:g";
+const TEMPORA_PENT19_3 = "tempora:pent19-3:4:g";
+const TEMPORA_PENT19_4 = "tempora:pent19-4:4:g";
+const TEMPORA_PENT19_5 = "tempora:pent19-5:4:g";
+const TEMPORA_PENT19_6 = "tempora:pent19-6:4:g";
+const TEMPORA_PENT20_0 = "tempora:pent20-0:2:g";
+const TEMPORA_PENT20_1 = "tempora:pent20-1:4:g";
+const TEMPORA_PENT20_2 = "tempora:pent20-2:4:g";
+const TEMPORA_PENT20_3 = "tempora:pent20-3:4:g";
+const TEMPORA_PENT20_4 = "tempora:pent20-4:4:g";
+const TEMPORA_PENT20_5 = "tempora:pent20-5:4:g";
+const TEMPORA_PENT20_6 = "tempora:pent20-6:4:g";
+const TEMPORA_PENT21_0 = "tempora:pent21-0:2:g";
+const TEMPORA_PENT21_1 = "tempora:pent21-1:4:g";
+const TEMPORA_PENT21_2 = "tempora:pent21-2:4:g";
+const TEMPORA_PENT21_3 = "tempora:pent21-3:4:g";
+const TEMPORA_PENT21_4 = "tempora:pent21-4:4:g";
+const TEMPORA_PENT21_5 = "tempora:pent21-5:4:g";
+const TEMPORA_PENT21_6 = "tempora:pent21-6:4:g";
+const TEMPORA_PENT22_0 = "tempora:pent22-0:2:g";
+const TEMPORA_PENT22_1 = "tempora:pent22-1:4:g";
+const TEMPORA_PENT22_2 = "tempora:pent22-2:4:g";
+const TEMPORA_PENT22_3 = "tempora:pent22-3:4:g";
+const TEMPORA_PENT22_4 = "tempora:pent22-4:4:g";
+const TEMPORA_PENT22_5 = "tempora:pent22-5:4:g";
+const TEMPORA_PENT22_6 = "tempora:pent22-6:4:g";
+const TEMPORA_PENT23_0 = "tempora:pent23-0:2:g";
+const TEMPORA_PENT23_1 = "tempora:pent23-1:4:g";
+const TEMPORA_PENT23_2 = "tempora:pent23-2:4:g";
+const TEMPORA_PENT23_3 = "tempora:pent23-3:4:g";
+const TEMPORA_PENT23_4 = "tempora:pent23-4:4:g";
+const TEMPORA_PENT23_5 = "tempora:pent23-5:4:g";
+const TEMPORA_PENT23_6 = "tempora:pent23-6:4:g";
+const TEMPORA_PENT24_0 = "tempora:pent24-0:2:g";
+const TEMPORA_PENT24_1 = "tempora:pent24-1:4:g";
+const TEMPORA_PENT24_2 = "tempora:pent24-2:4:g";
+const TEMPORA_PENT24_3 = "tempora:pent24-3:4:g";
+const TEMPORA_PENT24_4 = "tempora:pent24-4:4:g";
+const TEMPORA_PENT24_5 = "tempora:pent24-5:4:g";
+const TEMPORA_PENT24_6 = "tempora:pent24-6:4:g";
+const TEMPORA_ADV1_0 = "tempora:adv1-0:1:v"; // Sunday in 1st week of Advent
+const TEMPORA_ADV1_1 = "tempora:adv1-1:3:v"; // Monday in 1st week of Advent
+const TEMPORA_ADV1_2 = "tempora:adv1-2:3:v"; // Tuesday in 1st week of Advent
+const TEMPORA_ADV1_3 = "tempora:adv1-3:3:v"; // Wednesday in 1st week of Advent
+const TEMPORA_ADV1_4 = "tempora:adv1-4:3:v"; // Thursday in 1st week of Advent
+const TEMPORA_ADV1_5 = "tempora:adv1-5:3:v"; // Friday in 1st week of Advent
+const TEMPORA_ADV1_6 = "tempora:adv1-6:3:v"; // Saturday in 1st week of Advent
+const TEMPORA_ADV2_0 = "tempora:adv2-0:1:v";
+const TEMPORA_ADV2_1 = "tempora:adv2-1:3:v";
+const TEMPORA_ADV2_2 = "tempora:adv2-2:3:v";
+const TEMPORA_ADV2_3 = "tempora:adv2-3:3:v";
+const TEMPORA_ADV2_4 = "tempora:adv2-4:3:v";
+const TEMPORA_ADV2_5 = "tempora:adv2-5:3:v";
+const TEMPORA_ADV2_6 = "tempora:adv2-6:3:v";
+const TEMPORA_ADV3_0 = "tempora:adv3-0:1:v";
+const TEMPORA_ADV3_1 = "tempora:adv3-1:3:v";
+const TEMPORA_ADV3_2 = "tempora:adv3-2:3:v";
+const TEMPORA_ADV3_3 = "tempora:adv3-3:2:v"; // Ember Wednesday in Advent
+const TEMPORA_ADV3_4 = "tempora:adv3-4:3:v";
+const TEMPORA_ADV3_5 = "tempora:adv3-5:2:v"; // Ember Friday in Advent
+const TEMPORA_ADV3_6 = "tempora:adv3-6:2:v"; // Ember Saturday in Advent
+const TEMPORA_ADV4_0 = "tempora:adv4-0:1:v";
+const TEMPORA_ADV4_1 = "tempora:adv4-1:3:v";
+const TEMPORA_ADV4_2 = "tempora:adv4-2:3:v";
+const TEMPORA_ADV4_3 = "tempora:adv4-3:3:v";
+const TEMPORA_ADV4_4 = "tempora:adv4-4:3:v";
+const TEMPORA_ADV4_5 = "tempora:adv4-5:3:v";
+const TEMPORA_NAT1_0 = "tempora:nat1-0:2:w"; // Sunday in the Octave of Nativity
 export const TEMPORA_NAT2_0 = "tempora:nat2-0:2:w"; // Feast of the Holy Name of Jesus
-
-// SANCTI - days which have fixed date
 export const SANCTI_10_DUr = "santos:10-DUr:1:w"; // Feast of Christ the King; last Sunday of October
 export const SANCTI_01_01 = "santos:01-01:1:w"; // Octave of the Nativity
-export const SANCTI_01_02 = "santos:01-02:3:r"; // Octave Estevao
-export const SANCTI_01_03 = "santos:01-03:3:w"; // Octave S. Joao
-export const SANCTI_01_04 = "santos:01-04:3:r"; // Octave Santos Inocentes
-export const SANCTI_01_05 = "santos:01-05:2:w"; // Vigilia Epifania
-export const SANCTI_01_06 = "santos:01-06:1:w"; // Epiphany
-export const SANCTI_01_13 = "santos:01-13:2:w"; // Baptism of the Lord
-export const SANCTI_01_14 = "santos:01-14-1:3:w";
-export const SANCTI_01_15_1 = "santos:01-15-1:3:w";
-export const SANCTI_01_15_2 = "santos:01-15-2:3:w";
-export const SANCTI_01_16 = "santos:01-16:3:r";
-export const SANCTI_01_16_PORTUGAL = "santos:01-16:3:r:@portugal";
-export const SANCTI_01_17 = "santos:01-17:3:w";
-export const SANCTI_01_18 = "santos:01-18-2:4:w";
-export const SANCTI_01_19_PORTUGAL = "santos:01-19:4:r:@portugal";
-export const SANCTI_01_20 = "santos:01-20:3:r";
-export const SANCTI_01_21 = "santos:01-21:3:r";
-export const SANCTI_01_22 = "santos:01-22:3:r";
-export const SANCTI_01_22_LISBOA_FARO = "santos:01-22:3:r:@lisboa-faro";
-export const SANCTI_01_22_FARO = "santos:01-22:3:r:@faro";
-export const SANCTI_01_23 = "santos:01-23-1:3:w";
-export const SANCTI_01_24 = "santos:01-24:3:r";
-export const SANCTI_01_25 = "santos:01-25:3:w";
-export const SANCTI_01_26 = "santos:01-26:3:r";
-export const SANCTI_01_27 = "santos:01-27:3:w";
-export const SANCTI_01_27_LAMEGO = "santos:01-27:3:r:@lamego";
-export const SANCTI_01_28 = "santos:01-28:3:w";
-export const SANCTI_01_28_LISBOA_FARO = "santos:01-28:3:r:@lisboa-faro";
-export const SANCTI_01_29 = "santos:01-29:3:w";
-export const SANCTI_01_29_LISBOA_FARO = "santos:01-29:3:r:@lisboa-faro";
-export const SANCTI_01_30 = "santos:01-30:3:r";
-export const SANCTI_01_31 = "santos:01-31:3:w";
-
-export const SANCTI_02_01 = "santos:02-01:3:r";
-export const SANCTI_02_02 = "santos:02-02:2:w"; // Feast of the Purification of the Blessed Virgin Mary
-export const SANCTI_02_03 = "santos:02-03:4:r";
-export const SANCTI_02_04 = "santos:02-04:3:w";
-export const SANCTI_02_04_PORTUGAL = "santos:02-04:3:r:@portugal";
-export const SANCTI_02_05 = "santos:02-05:3:r";
-export const SANCTI_02_06 = "santos:02-06-1:3:w";
-export const SANCTI_02_07 = "santos:02-07:3:w";
-export const SANCTI_02_08 = "santos:02-08:3:w";
-export const SANCTI_02_09 = "santos:02-09-1:3:w";
-export const SANCTI_02_10 = "santos:02-10:3:w";
-export const SANCTI_02_11 = "santos:02-11:3:w";
-export const SANCTI_02_12 = "santos:02-12:3:w";
-export const SANCTI_02_13_PORTUGAL = "santos:02-13:3:r:@portugal";
-export const SANCTI_02_14 = "santos:02-14:4:r";
-export const SANCTI_02_15 = "santos:02-15:4:r";
-export const SANCTI_02_15_PORTUGAL = "santos:02-15:4:w:@portugal";
-export const SANCTI_02_18 = "santos:02-18:4:r";
-export const SANCTI_02_18_PORTUGAL = "santos:02-18:4:w:@portugal";
-export const SANCTI_02_22 = "santos:02-22:2:w"; // Feast of the Chair of Saint Peter
-export const SANCTI_02_23 = "santos:02-23:3:w";
+const SANCTI_01_02 = "santos:01-02:3:r"; // Octave Estevao
+const SANCTI_01_03 = "santos:01-03:3:w"; // Octave S. Joao
+const SANCTI_01_04 = "santos:01-04:3:r"; // Octave Santos Inocentes
+const SANCTI_01_05 = "santos:01-05:2:w"; // Vigilia Epifania
+const SANCTI_01_06 = "santos:01-06:1:w"; // Epiphany
+const SANCTI_01_13 = "santos:01-13:2:w"; // Baptism of the Lord
+const SANCTI_01_14 = "santos:01-14-1:3:w";
+const SANCTI_01_15_1 = "santos:01-15-1:3:w";
+const SANCTI_01_15_2 = "santos:01-15-2:3:w";
+const SANCTI_01_16 = "santos:01-16:3:r";
+const SANCTI_01_16_PORTUGAL = "santos:01-16:3:r:@portugal";
+const SANCTI_01_17 = "santos:01-17:3:w";
+const SANCTI_01_18 = "santos:01-18-2:4:w";
+const SANCTI_01_19_PORTUGAL = "santos:01-19:4:r:@portugal";
+const SANCTI_01_20 = "santos:01-20:3:r";
+const SANCTI_01_21 = "santos:01-21:3:r";
+const SANCTI_01_22 = "santos:01-22:3:r";
+const SANCTI_01_22_LISBOA_FARO = "santos:01-22:3:r:@lisboa-faro";
+const SANCTI_01_23 = "santos:01-23-1:3:w";
+const SANCTI_01_24 = "santos:01-24:3:r";
+const SANCTI_01_25 = "santos:01-25:3:w";
+const SANCTI_01_26 = "santos:01-26:3:r";
+const SANCTI_01_27 = "santos:01-27:3:w";
+const SANCTI_01_27_LAMEGO = "santos:01-27:3:r:@lamego";
+const SANCTI_01_28 = "santos:01-28:3:w";
+const SANCTI_01_28_LISBOA_FARO = "santos:01-28:3:r:@lisboa-faro";
+const SANCTI_01_29 = "santos:01-29:3:w";
+const SANCTI_01_29_LISBOA_FARO = "santos:01-29:3:r:@lisboa-faro";
+const SANCTI_01_30 = "santos:01-30:3:r";
+const SANCTI_01_31 = "santos:01-31:3:w";
+const SANCTI_02_01 = "santos:02-01:3:r";
+const SANCTI_02_02 = "santos:02-02:2:w"; // Feast of the Purification of the Blessed Virgin Mary
+const SANCTI_02_03 = "santos:02-03:4:r";
+const SANCTI_02_04 = "santos:02-04:3:w";
+const SANCTI_02_04_PORTUGAL = "santos:02-04:3:r:@portugal";
+const SANCTI_02_05 = "santos:02-05:3:r";
+const SANCTI_02_06 = "santos:02-06-1:3:w";
+const SANCTI_02_07 = "santos:02-07:3:w";
+const SANCTI_02_08 = "santos:02-08:3:w";
+const SANCTI_02_09 = "santos:02-09-1:3:w";
+const SANCTI_02_10 = "santos:02-10:3:w";
+const SANCTI_02_11 = "santos:02-11:3:w";
+const SANCTI_02_12 = "santos:02-12:3:w";
+const SANCTI_02_13_PORTUGAL = "santos:02-13:3:r:@portugal";
+const SANCTI_02_14 = "santos:02-14:4:r";
+const SANCTI_02_15 = "santos:02-15:4:r";
+const SANCTI_02_15_PORTUGAL = "santos:02-15:4:w:@portugal";
+const SANCTI_02_18 = "santos:02-18:4:r";
+const SANCTI_02_18_PORTUGAL = "santos:02-18:4:w:@portugal";
+const SANCTI_02_22 = "santos:02-22:2:w"; // Feast of the Chair of Saint Peter
+const SANCTI_02_23 = "santos:02-23:3:w";
 export const SANCTI_02_24 = "santos:02-24:2:r"; // St. Matthias, Apostle
 export const SANCTI_02_27 = "santos:02-27:3:w";
-export const SANCTI_02_27_PORTUGAL = "santos:02-27:3:r:@portugal";
-export const SANCTI_02_28_PORTUGAL = "santos:02-28:3:w:@coimbra-lamego-leiria";
-
-export const SANCTI_03_01_BRAGA = "santos:03-01:3:r:@braga";
-export const SANCTI_03_04 = "santos:03-04-1:3:w";
-export const SANCTI_03_06 = "santos:03-06:3:r";
-export const SANCTI_03_07 = "santos:03-07:3:w";
-export const SANCTI_03_08 = "santos:03-08:3:w";
-export const SANCTI_03_09 = "santos:03-09:3:w";
-export const SANCTI_03_10 = "santos:03-10:3:r";
-export const SANCTI_03_12 = "santos:03-12:3:w";
-export const SANCTI_03_13_PORTUGAL = "santos:03-13:3:w:@portugal";
-export const SANCTI_03_17 = "santos:03-17:3:w";
-export const SANCTI_03_18 = "santos:03-18:3:w";
-export const SANCTI_03_19 = "santos:03-19:1:w"; // Saint Joseph's Day
-export const SANCTI_03_20_BRAGA = "santos:03-20:3:w:@braga";
-export const SANCTI_03_21 = "santos:03-21:3:w";
-export const SANCTI_03_24 = "santos:03-24:3:w";
-export const SANCTI_03_24_PORTUGAL = "santos:03-24:3:w:@portugal";
-export const SANCTI_03_25 = "santos:03-25:1:w"; // Annunciation
-export const SANCTI_03_27 = "santos:03-27:3:w";
-export const SANCTI_03_28 = "santos:03-28:3:w";
-
-export const SANCTI_04_02 = "santos:04-02:3:w";
-export const SANCTI_04_04 = "santos:04-04:3:w";
-export const SANCTI_04_05 = "santos:04-05:3:w";
-export const SANCTI_04_11 = "santos:04-11:3:w";
-export const SANCTI_04_13 = "santos:04-13:3:r";
-export const SANCTI_04_14 = "santos:04-14:3:r";
-export const SANCTI_04_16_LISBOA_GUARDA = "santos:04-16:3:r:@lisboa-guarda";
-export const SANCTI_04_16_BRAGA = "santos:04-16:3:w:@braga";
-export const SANCTI_04_17 = "santos:04-17:4:r";
-export const SANCTI_04_21 = "santos:04-21:3:w";
-export const SANCTI_04_22 = "santos:04-22:3:r";
-export const SANCTI_04_23 = "santos:04-23:4:r";
-export const SANCTI_04_24 = "santos:04-24:3:r";
-export const SANCTI_04_25 = "santos:04-25:2:r"; // St. Mark, Evangelist
-export const SANCTI_04_26 = "santos:04-26-2:3:r";
-export const SANCTI_04_27 = "santos:04-27:3:w";
-export const SANCTI_04_28 = "santos:04-28:3:w";
-export const SANCTI_04_29 = "santos:04-29:3:r";
-export const SANCTI_04_30 = "santos:04-30:3:w";
-
-export const SANCTI_05_01 = "santos:05-01:2:r"; // SS. Philip and James, Apostles
-export const SANCTI_05_01_FUNCHAL = "santos:05-01:2:r:@funchal"; // SS. Philip and James, Apostles
-export const SANCTI_05_02 = "santos:05-02:3:w";
-export const SANCTI_05_03 = "santos:05-03-1:2:r";
-export const SANCTI_05_04 = "santos:05-04:3:w";
-export const SANCTI_05_04_PORTUGAL = "santos:05-04:3:w:@portugal";
-export const SANCTI_05_05 = "santos:05-05:3:w";
-export const SANCTI_05_05_COIMBRA_LAMEGO_LEIRIA =
+const SANCTI_02_27_PORTUGAL = "santos:02-27:3:r:@portugal";
+const SANCTI_02_28_PORTUGAL = "santos:02-28:3:w:@coimbra-lamego-leiria";
+const SANCTI_03_01_BRAGA = "santos:03-01:3:r:@braga";
+const SANCTI_03_04 = "santos:03-04-1:3:w";
+const SANCTI_03_06 = "santos:03-06:3:r";
+const SANCTI_03_07 = "santos:03-07:3:w";
+const SANCTI_03_08 = "santos:03-08:3:w";
+const SANCTI_03_09 = "santos:03-09:3:w";
+const SANCTI_03_10 = "santos:03-10:3:r";
+const SANCTI_03_12 = "santos:03-12:3:w";
+const SANCTI_03_13_PORTUGAL = "santos:03-13:3:w:@portugal";
+const SANCTI_03_17 = "santos:03-17:3:w";
+const SANCTI_03_18 = "santos:03-18:3:w";
+const SANCTI_03_19 = "santos:03-19:1:w"; // Saint Joseph's Day
+const SANCTI_03_20_BRAGA = "santos:03-20:3:w:@braga";
+const SANCTI_03_21 = "santos:03-21:3:w";
+const SANCTI_03_24 = "santos:03-24:3:w";
+const SANCTI_03_24_PORTUGAL = "santos:03-24:3:w:@portugal";
+const SANCTI_03_25 = "santos:03-25:1:w"; // Annunciation
+const SANCTI_03_27 = "santos:03-27:3:w";
+const SANCTI_03_28 = "santos:03-28:3:w";
+const SANCTI_04_02 = "santos:04-02:3:w";
+const SANCTI_04_04 = "santos:04-04:3:w";
+const SANCTI_04_05 = "santos:04-05:3:w";
+const SANCTI_04_11 = "santos:04-11:3:w";
+const SANCTI_04_13 = "santos:04-13:3:r";
+const SANCTI_04_14 = "santos:04-14:3:r";
+const SANCTI_04_16_LISBOA_GUARDA = "santos:04-16:3:r:@lisboa-guarda";
+const SANCTI_04_16_BRAGA = "santos:04-16:3:w:@braga";
+const SANCTI_04_17 = "santos:04-17:4:r";
+const SANCTI_04_21 = "santos:04-21:3:w";
+const SANCTI_04_22 = "santos:04-22:3:r";
+const SANCTI_04_23 = "santos:04-23:4:r";
+const SANCTI_04_24 = "santos:04-24:3:r";
+const SANCTI_04_25 = "santos:04-25:2:r"; // St. Mark, Evangelist
+const SANCTI_04_26 = "santos:04-26-2:3:r";
+const SANCTI_04_27 = "santos:04-27:3:w";
+const SANCTI_04_28 = "santos:04-28:3:w";
+const SANCTI_04_29 = "santos:04-29:3:r";
+const SANCTI_04_30 = "santos:04-30:3:w";
+const SANCTI_05_01 = "santos:05-01:2:r"; // SS. Philip and James, Apostles
+const SANCTI_05_01_FUNCHAL = "santos:05-01:2:r:@funchal"; // SS. Philip and James, Apostles
+const SANCTI_05_02 = "santos:05-02:3:w";
+const SANCTI_05_03 = "santos:05-03-1:2:r";
+const SANCTI_05_04 = "santos:05-04:3:w";
+const SANCTI_05_04_PORTUGAL = "santos:05-04:3:w:@portugal";
+const SANCTI_05_05 = "santos:05-05:3:w";
+const SANCTI_05_05_COIMBRA_LAMEGO_LEIRIA =
   "santos:05-05:3:w:@coimbra-lamego-leiria";
-export const SANCTI_05_06 = "santos:05-06:3:r";
-export const SANCTI_05_07 = "santos:05-07:3:r";
-export const SANCTI_05_08 = "santos:05-08:2:w";
-export const SANCTI_05_09 = "santos:05-09:3:w";
-export const SANCTI_05_10 = "santos:05-10:3:w";
-export const SANCTI_05_12 = "santos:05-12:3:r";
-export const SANCTI_05_12_PORTUGAL = "santos:05-12:3:w:@portugal";
-export const SANCTI_05_13 = "santos:05-13:3:w";
-export const SANCTI_05_13_PORTUGAL = "santos:05-13:3:w:@portugal";
-export const SANCTI_05_14 = "santos:05-14:4:r";
-export const SANCTI_05_14_LISBOA = "santos:05-14:4:w:@lisboa";
-export const SANCTI_05_15 = "santos:05-15:3:w";
-export const SANCTI_05_15_EVORA = "santos:05-15:3:r:@evora";
-export const SANCTI_05_16 = "santos:05-16:4:w";
-export const SANCTI_05_17 = "santos:05-17:3:w";
-export const SANCTI_05_18 = "santos:05-18:3:r";
-export const SANCTI_05_19 = "santos:05-19:3:w";
-export const SANCTI_05_20 = "santos:05-20:3:w";
-export const SANCTI_05_22 = "santos:05-22:3:w";
-export const SANCTI_05_22_BRAGA = "santos:05-22:3:w:@braga";
-export const SANCTI_05_22_EVORA = "santos:05-22:3:w:@evora";
-export const SANCTI_05_24 = "santos:05-24:3:w";
-export const SANCTI_05_24_BRAGA = "santos:05-24:3:r:@braga";
-export const SANCTI_05_25 = "santos:05-25:3:w";
-export const SANCTI_05_26 = "santos:05-26-1:3:w";
-export const SANCTI_05_27 = "santos:05-27-1:3:w";
-export const SANCTI_05_28 = "santos:05-28:3:w";
-export const SANCTI_05_29 = "santos:05-29:3:w";
-export const SANCTI_05_30 = "santos:05-30:4:r";
-export const SANCTI_05_31 = "santos:05-31:2:w"; // Mary the Queen
-export const SANCTI_05_31_PORTUGAL = "santos:05-31:2:w:@portugal"; // Mary the Queen
-export const SANCTI_06_01 = "santos:06-01:3:w";
-export const SANCTI_06_02 = "santos:06-02:4:r";
-export const SANCTI_06_03_ANGOLA = "santos:06-03:4:r:@angola";
-export const SANCTI_06_04 = "santos:06-04:3:w";
-export const SANCTI_06_05 = "santos:06-05:3:r";
-export const SANCTI_06_06 = "santos:06-06:3:w";
-export const SANCTI_06_09 = "santos:06-09:4:r";
-export const SANCTI_06_10 = "santos:06-10:3:w";
-export const SANCTI_06_11 = "santos:06-11:3:r";
-export const SANCTI_06_12 = "santos:06-12:3:r";
-export const SANCTI_06_13 = "santos:06-13:3:w";
-export const SANCTI_06_14 = "santos:06-14:3:w";
-export const SANCTI_06_15 = "santos:06-15:3:w";
-export const SANCTI_06_17_PORTUGAL = "santos:06-17:3:w:@portugal";
-export const SANCTI_06_18 = "santos:06-18:3:r";
-export const SANCTI_06_19 = "santos:06-19:3:r";
-export const SANCTI_06_20 = "santos:06-20:4:r";
-export const SANCTI_06_20_PORTUGAL = "santos:06-20:4:r:@portugal";
-export const SANCTI_06_21 = "santos:06-21:3:w";
-export const SANCTI_06_22 = "santos:06-22:3:w";
-export const SANCTI_06_23 = "santos:06-23:3:v"; // Vigil of st. John Baptist
-export const SANCTI_06_24 = "santos:06-24:1:w"; // St. John Baptist
-export const SANCTI_06_25 = "santos:06-25:3:w";
-export const SANCTI_06_26 = "santos:06-26:3:r";
-export const SANCTI_06_27 = "santos:06-27:3:w";
-export const SANCTI_06_26_PORTUGAL = "santos:06-26:3:r:@portugal";
-export const SANCTI_06_28 = "santos:06-28-1:3:r"; // Vigil Ss. PP
-export const SANCTI_06_29 = "santos:06-29:1:r"; // Ss. Peter and Paul
-export const SANCTI_06_30 = "santos:06-30:3:r";
-
-export const SANCTI_07_01 = "santos:07-01:1:r"; // Feast of the Most Precious Blood
-export const SANCTI_07_02 = "santos:07-02:2:w"; // Feast of the Visitation of the Blessed Virgin Mary
-export const SANCTI_07_03 = "santos:07-03:3:w";
-export const SANCTI_07_04 = "santos:07-04:3:w";
-export const SANCTI_07_05 = "santos:07-05:3:w";
-export const SANCTI_07_07 = "santos:07-07:3:w";
-export const SANCTI_07_10 = "santos:07-10:3:r";
-export const SANCTI_07_11 = "santos:07-11:4:r";
-export const SANCTI_07_12 = "santos:07-12:3:r";
-export const SANCTI_07_14 = "santos:07-14:3:w";
-export const SANCTI_07_15 = "santos:07-15:3:w";
-export const SANCTI_07_15_PORTUGAL = "santos:07-15:3:r:@portugal";
-export const SANCTI_07_16 = "santos:07-16:4:w";
-export const SANCTI_07_16_BEJA = "santos:07-16:4:r:@beja";
-export const SANCTI_07_17 = "santos:07-17:4:w";
-export const SANCTI_07_18 = "santos:07-18:3:r";
-export const SANCTI_07_19 = "santos:07-19:3:w";
-export const SANCTI_07_20 = "santos:07-20:3:r";
-export const SANCTI_07_20_COIMBRA = "santos:07-20:3:r:@coimbra";
-export const SANCTI_07_21 = "santos:07-21:3:w";
-export const SANCTI_07_21_PORTUGAL = "santos:07-21:3:w:@portugal";
-export const SANCTI_07_22 = "santos:07-22:3:w";
-export const SANCTI_07_22_LISBOA = "santos:07-22:3:w:@lisboa";
-export const SANCTI_07_23 = "santos:07-23-1:3:w";
-export const SANCTI_07_23_VISEU = "santos:07-23:3:w:@viseu";
-export const SANCTI_07_24 = "santos:07-24:4:r";
-export const SANCTI_07_25 = "santos:07-25:2:r"; // St. James, Apostle
-export const SANCTI_07_26 = "santos:07-26:2:w"; // St. Anna, Mary's Mother
-export const SANCTI_07_27 = "santos:07-27:4:r";
-export const SANCTI_07_28 = "santos:07-28-1:3:r";
-export const SANCTI_07_29 = "santos:07-29-1:3:r";
-export const SANCTI_07_30 = "santos:07-30:4:r";
-export const SANCTI_07_31 = "santos:07-31:3:w";
-
-export const SANCTI_08_01 = "santos:08-01:4:r";
-export const SANCTI_08_02 = "santos:08-02-1:3:r";
-export const SANCTI_08_04 = "santos:08-04:3:w";
-export const SANCTI_08_05 = "santos:08-05:3:w";
-export const SANCTI_08_06 = "santos:08-06-1:2:r"; // Transfiguration
-export const SANCTI_08_07 = "santos:08-07:3:r";
-export const SANCTI_08_08 = "santos:08-08-1:3:r";
-export const SANCTI_08_09 = "santos:08-09-1:3:r"; // Vigil of st. Laurent
-export const SANCTI_08_10 = "santos:08-10:2:r"; // St. Laurent
-export const SANCTI_08_11 = "santos:08-11-1:4:r";
-export const SANCTI_08_12 = "santos:08-12:3:w";
-export const SANCTI_08_13 = "santos:08-13:4:r";
-export const SANCTI_08_14 = "santos:08-14:2:w"; // Vigil of Assumption of Mary
-export const SANCTI_08_15 = "santos:08-15:1:w"; // Assumption of Mary
-export const SANCTI_08_16 = "santos:08-16:2:w"; // St. Joachim
-export const SANCTI_08_17 = "santos:08-17:3:w";
-export const SANCTI_08_18 = "santos:08-18-1:4:w";
-export const SANCTI_08_19 = "santos:08-19-1:3:w";
-export const SANCTI_08_20 = "santos:08-20:3:w";
-export const SANCTI_08_21 = "santos:08-21:3:w";
-export const SANCTI_08_22 = "santos:08-22-1:2:w"; // Immaculate Heart of Mary
-export const SANCTI_08_23 = "santos:08-23:3:w";
-export const SANCTI_08_24 = "santos:08-24:2:r"; // St. Bartholomew, Apostle
-export const SANCTI_08_25 = "santos:08-25:3:w";
-export const SANCTI_08_26 = "santos:08-26:4:r";
-export const SANCTI_08_27 = "santos:08-27:3:w";
-export const SANCTI_08_28 = "santos:08-28-1:3:r";
-export const SANCTI_08_29 = "santos:08-29:3:r";
-export const SANCTI_08_30 = "santos:08-30:3:r";
-export const SANCTI_08_31 = "santos:08-31:3:w";
-
-export const SANCTI_09_01 = "santos:09-01-1:4:w";
-export const SANCTI_09_02 = "santos:09-02:3:w";
-export const SANCTI_09_03 = "santos:09-03:3:w";
-export const SANCTI_09_05 = "santos:09-05:3:w";
-export const SANCTI_09_08 = "santos:09-08:2:w"; // Nativity of Mary
-export const SANCTI_09_09 = "santos:09-09:4:r";
-export const SANCTI_09_09_ANGOLA = "santos:09-09:4:w:@angola";
-export const SANCTI_09_10 = "santos:09-10:3:w";
-export const SANCTI_09_11 = "santos:09-11:4:r";
-export const SANCTI_09_12 = "santos:09-12:3:w";
-export const SANCTI_09_14 = "santos:09-14:2:r"; // Exaltation of the Cross
-export const SANCTI_09_15 = "santos:09-15:2:w"; // The Seven Dolors of the Blessed Virgin Mary
-export const SANCTI_09_16 = "santos:09-16-1:3:w";
-export const SANCTI_09_16_PORTO = "santos:09-16:3:w:@porto";
-export const SANCTI_09_17 = "santos:09-17:4:w";
-export const SANCTI_09_18 = "santos:09-18:3:w";
-export const SANCTI_09_19 = "santos:09-19:3:r";
-// export const SANCTI_09_20 = "santos:09-20-1:4:r"; // Eustaquio
-export const SANCTI_09_20 = "santos:09-20-2:4:w"; // Vigilia Mateus
-export const SANCTI_09_21 = "santos:09-21:2:r"; // St. Matthew, Apostle and Evangelist
-export const SANCTI_09_22 = "santos:09-22:3:w";
-export const SANCTI_09_23 = "santos:09-23-1:3:r";
-export const SANCTI_09_24 = "santos:09-24:4:w";
-export const SANCTI_09_26 = "santos:09-26:4:r";
-export const SANCTI_09_27 = "santos:09-27:3:r";
-export const SANCTI_09_28 = "santos:09-28:3:r";
+const SANCTI_05_06 = "santos:05-06:3:r";
+const SANCTI_05_07 = "santos:05-07:3:r";
+const SANCTI_05_08 = "santos:05-08:2:w";
+const SANCTI_05_09 = "santos:05-09:3:w";
+const SANCTI_05_10 = "santos:05-10:3:w";
+const SANCTI_05_12 = "santos:05-12:3:r";
+const SANCTI_05_12_PORTUGAL = "santos:05-12:3:w:@portugal";
+const SANCTI_05_13 = "santos:05-13:3:w";
+const SANCTI_05_13_PORTUGAL = "santos:05-13:3:w:@portugal";
+const SANCTI_05_14 = "santos:05-14:4:r";
+const SANCTI_05_14_LISBOA = "santos:05-14:4:w:@lisboa";
+const SANCTI_05_15 = "santos:05-15:3:w";
+const SANCTI_05_15_EVORA = "santos:05-15:3:r:@evora";
+const SANCTI_05_16 = "santos:05-16:4:w";
+const SANCTI_05_17 = "santos:05-17:3:w";
+const SANCTI_05_18 = "santos:05-18:3:r";
+const SANCTI_05_19 = "santos:05-19:3:w";
+const SANCTI_05_20 = "santos:05-20:3:w";
+const SANCTI_05_22 = "santos:05-22:3:w";
+const SANCTI_05_22_BRAGA = "santos:05-22:3:w:@braga";
+const SANCTI_05_22_EVORA = "santos:05-22:3:w:@evora";
+const SANCTI_05_24 = "santos:05-24:3:w";
+const SANCTI_05_24_BRAGA = "santos:05-24:3:r:@braga";
+const SANCTI_05_25 = "santos:05-25:3:w";
+const SANCTI_05_26 = "santos:05-26-1:3:w";
+const SANCTI_05_27 = "santos:05-27-1:3:w";
+const SANCTI_05_28 = "santos:05-28:3:w";
+const SANCTI_05_29 = "santos:05-29:3:w";
+const SANCTI_05_30 = "santos:05-30:4:r";
+const SANCTI_05_31 = "santos:05-31:2:w"; // Mary the Queen
+const SANCTI_05_31_PORTUGAL = "santos:05-31:2:w:@portugal"; // Mary the Queen
+const SANCTI_06_01 = "santos:06-01:3:w";
+const SANCTI_06_02 = "santos:06-02:4:r";
+const SANCTI_06_03_ANGOLA = "santos:06-03:4:r:@angola";
+const SANCTI_06_04 = "santos:06-04:3:w";
+const SANCTI_06_05 = "santos:06-05:3:r";
+const SANCTI_06_06 = "santos:06-06:3:w";
+const SANCTI_06_09 = "santos:06-09:4:r";
+const SANCTI_06_10 = "santos:06-10:3:w";
+const SANCTI_06_11 = "santos:06-11:3:r";
+const SANCTI_06_12 = "santos:06-12:3:r";
+const SANCTI_06_13 = "santos:06-13:3:w";
+const SANCTI_06_14 = "santos:06-14:3:w";
+const SANCTI_06_15 = "santos:06-15:3:w";
+const SANCTI_06_17_PORTUGAL = "santos:06-17:3:w:@portugal";
+const SANCTI_06_18 = "santos:06-18:3:r";
+const SANCTI_06_19 = "santos:06-19:3:r";
+const SANCTI_06_20 = "santos:06-20:4:r";
+const SANCTI_06_20_PORTUGAL = "santos:06-20:4:r:@portugal";
+const SANCTI_06_21 = "santos:06-21:3:w";
+const SANCTI_06_22 = "santos:06-22:3:w";
+const SANCTI_06_23 = "santos:06-23:3:v"; // Vigil of st. John Baptist
+const SANCTI_06_24 = "santos:06-24:1:w"; // St. John Baptist
+const SANCTI_06_25 = "santos:06-25:3:w";
+const SANCTI_06_26 = "santos:06-26:3:r";
+const SANCTI_06_27 = "santos:06-27:3:w";
+const SANCTI_06_26_PORTUGAL = "santos:06-26:3:r:@portugal";
+const SANCTI_06_28 = "santos:06-28-1:3:r"; // Vigil Ss. PP
+const SANCTI_06_29 = "santos:06-29:1:r"; // Ss. Peter and Paul
+const SANCTI_06_30 = "santos:06-30:3:r";
+const SANCTI_07_01 = "santos:07-01:1:r"; // Feast of the Most Precious Blood
+const SANCTI_07_02 = "santos:07-02:2:w"; // Feast of the Visitation of the Blessed Virgin Mary
+const SANCTI_07_03 = "santos:07-03:3:w";
+const SANCTI_07_04 = "santos:07-04:3:w";
+const SANCTI_07_05 = "santos:07-05:3:w";
+const SANCTI_07_07 = "santos:07-07:3:w";
+const SANCTI_07_10 = "santos:07-10:3:r";
+const SANCTI_07_11 = "santos:07-11:4:r";
+const SANCTI_07_12 = "santos:07-12:3:r";
+const SANCTI_07_14 = "santos:07-14:3:w";
+const SANCTI_07_15 = "santos:07-15:3:w";
+const SANCTI_07_15_PORTUGAL = "santos:07-15:3:r:@portugal";
+const SANCTI_07_16 = "santos:07-16:4:w";
+const SANCTI_07_16_BEJA = "santos:07-16:4:r:@beja";
+const SANCTI_07_17 = "santos:07-17:4:w";
+const SANCTI_07_18 = "santos:07-18:3:r";
+const SANCTI_07_19 = "santos:07-19:3:w";
+const SANCTI_07_20 = "santos:07-20:3:r";
+const SANCTI_07_20_COIMBRA = "santos:07-20:3:r:@coimbra";
+const SANCTI_07_21 = "santos:07-21:3:w";
+const SANCTI_07_21_PORTUGAL = "santos:07-21:3:w:@portugal";
+const SANCTI_07_22 = "santos:07-22:3:w";
+const SANCTI_07_22_LISBOA = "santos:07-22:3:w:@lisboa";
+const SANCTI_07_23 = "santos:07-23:3:r";
+const SANCTI_07_23_OUTRO = "santos:07-23:3:w:#outro";
+const SANCTI_07_23_VISEU = "santos:07-23:3:w:@viseu";
+const SANCTI_07_24 = "santos:07-24:3:v";
+const SANCTI_07_24_OUTRO = "santos:07-24:4:r:#outro";
+const SANCTI_07_25 = "santos:07-25:2:r"; // St. James, Apostle
+const SANCTI_07_25_OUTRO = "santos:07-25:3:r:#outro";
+const SANCTI_07_26 = "santos:07-26:2:w"; // St. Anna, Mary's Mother
+const SANCTI_07_27 = "santos:07-27:4:r";
+const SANCTI_07_28 = "santos:07-28:3:r";
+const SANCTI_07_28_OUTRO = "santos:07-28:3:r:#outro";
+const SANCTI_07_28_OUTRO_2 = "santos:07-28:3:r:#outro-2";
+const SANCTI_07_29 = "santos:07-29:3:w";
+const SANCTI_07_29_OUTRO = "santos:07-29:3:r";
+const SANCTI_07_30 = "santos:07-30:4:r";
+const SANCTI_07_31 = "santos:07-31:3:w";
+const SANCTI_08_01 = "santos:08-01:4:r";
+const SANCTI_08_02 = "santos:08-02-1:3:r";
+const SANCTI_08_04 = "santos:08-04:3:w";
+const SANCTI_08_05 = "santos:08-05:3:w";
+const SANCTI_08_06 = "santos:08-06-1:2:r"; // Transfiguration
+const SANCTI_08_07 = "santos:08-07:3:r";
+const SANCTI_08_08 = "santos:08-08-1:3:r";
+const SANCTI_08_09 = "santos:08-09-1:3:r"; // Vigil of st. Laurent
+const SANCTI_08_10 = "santos:08-10:2:r"; // St. Laurent
+const SANCTI_08_11 = "santos:08-11-1:4:r";
+const SANCTI_08_12 = "santos:08-12:3:w";
+const SANCTI_08_13 = "santos:08-13:4:r";
+const SANCTI_08_14 = "santos:08-14:2:w"; // Vigil of Assumption of Mary
+const SANCTI_08_15 = "santos:08-15:1:w"; // Assumption of Mary
+const SANCTI_08_16 = "santos:08-16:2:w"; // St. Joachim
+const SANCTI_08_17 = "santos:08-17:3:w";
+const SANCTI_08_18 = "santos:08-18-1:4:w";
+const SANCTI_08_19 = "santos:08-19-1:3:w";
+const SANCTI_08_20 = "santos:08-20:3:w";
+const SANCTI_08_21 = "santos:08-21:3:w";
+const SANCTI_08_22 = "santos:08-22-1:2:w"; // Immaculate Heart of Mary
+const SANCTI_08_23 = "santos:08-23:3:w";
+const SANCTI_08_24 = "santos:08-24:2:r"; // St. Bartholomew, Apostle
+const SANCTI_08_25 = "santos:08-25:3:w";
+const SANCTI_08_26 = "santos:08-26:4:r";
+const SANCTI_08_27 = "santos:08-27:3:w";
+const SANCTI_08_28 = "santos:08-28-1:3:r";
+const SANCTI_08_29 = "santos:08-29:3:r";
+const SANCTI_08_30 = "santos:08-30:3:r";
+const SANCTI_08_31 = "santos:08-31:3:w";
+const SANCTI_09_01 = "santos:09-01-1:4:w";
+const SANCTI_09_02 = "santos:09-02:3:w";
+const SANCTI_09_03 = "santos:09-03:3:w";
+const SANCTI_09_05 = "santos:09-05:3:w";
+const SANCTI_09_08 = "santos:09-08:2:w"; // Nativity of Mary
+const SANCTI_09_09 = "santos:09-09:4:r";
+const SANCTI_09_09_ANGOLA = "santos:09-09:4:w:@angola";
+const SANCTI_09_10 = "santos:09-10:3:w";
+const SANCTI_09_11 = "santos:09-11:4:r";
+const SANCTI_09_12 = "santos:09-12:3:w";
+const SANCTI_09_14 = "santos:09-14:2:r"; // Exaltation of the Cross
+const SANCTI_09_15 = "santos:09-15:2:w"; // The Seven Dolors of the Blessed Virgin Mary
+const SANCTI_09_16 = "santos:09-16-1:3:w";
+const SANCTI_09_16_PORTO = "santos:09-16:3:w:@porto";
+const SANCTI_09_17 = "santos:09-17:4:w";
+const SANCTI_09_18 = "santos:09-18:3:w";
+const SANCTI_09_19 = "santos:09-19:3:r";
+const SANCTI_09_20 = "santos:09-20:3:v";
+const SANCTI_09_20_OUTRO = "santos:09-20:4:r:#outro";
+const SANCTI_09_21 = "santos:09-21:2:r"; // St. Matthew, Apostle and Evangelist
+const SANCTI_09_22 = "santos:09-22:3:w";
+const SANCTI_09_23 = "santos:09-23-1:3:r";
+const SANCTI_09_24 = "santos:09-24:4:w";
+const SANCTI_09_26 = "santos:09-26:4:r";
+const SANCTI_09_27 = "santos:09-27:3:r";
+const SANCTI_09_28 = "santos:09-28:3:r";
 export const SANCTI_09_29 = "santos:09-29:1:w"; // St. Michael the Archangel
-export const SANCTI_09_30 = "santos:09-30:3:w";
-
-export const SANCTI_10_01 = "santos:10-01:4:w";
-export const SANCTI_10_01_LISBOA = "santos:10-01:4:w:@lisboa";
-export const SANCTI_10_02 = "santos:10-02:3:w";
-export const SANCTI_10_03 = "santos:10-03:3:w";
-export const SANCTI_10_04 = "santos:10-04:3:w";
-export const SANCTI_10_05 = "santos:10-05:4:r";
-export const SANCTI_10_06 = "santos:10-06:3:w";
-export const SANCTI_10_07 = "santos:10-07-1:2:w"; // Our Lady of the Rosary
-export const SANCTI_10_08 = "santos:10-08:3:w";
-export const SANCTI_10_09 = "santos:10-09-1:3:w";
-export const SANCTI_10_10 = "santos:10-10:3:w";
-export const SANCTI_10_11 = "santos:10-11:2:w"; // Maternity of the Blessed Virgin Mary
-export const SANCTI_10_13 = "santos:10-13:3:w";
-export const SANCTI_10_14 = "santos:10-14:3:r";
-export const SANCTI_10_15 = "santos:10-15:3:w";
-export const SANCTI_10_16 = "santos:10-16:3:w";
-export const SANCTI_10_16_ANGRA = "santos:10-16:3:w:@angra";
-export const SANCTI_10_17 = "santos:10-17:3:w";
-export const SANCTI_10_17_BRAGA = "santos:10-17:3:w:@braga";
-export const SANCTI_10_18 = "santos:10-18:2:r"; // St. Luke, Evangelist
-export const SANCTI_10_19 = "santos:10-19:3:w";
-export const SANCTI_10_20 = "santos:10-20:3:w";
-export const SANCTI_10_20_PORTUGAL = "santos:10-20:3:w:@portugal";
-export const SANCTI_10_21 = "santos:10-21:4:w";
-export const SANCTI_10_21_VISEU_LISBOA = "santos:10-21:4:w:@viseu-lisboa";
-export const SANCTI_10_22_GUARDA = "santos:10-22:4:w:@guarda";
-export const SANCTI_10_22_LISBOA_EVORA_BEJA =
-  "santos:10-22:4:w:@lisboa-evora-beja";
-export const SANCTI_10_23 = "santos:10-23:3:w";
-export const SANCTI_10_23_ANGRA = "santos:10-23:4:w:angra";
-export const SANCTI_10_24 = "santos:10-24:3:w";
-export const SANCTI_10_25 = "santos:10-25:4:r";
-export const SANCTI_10_25_BRAGA = "santos:10-25:4:w:@braga";
-export const SANCTI_10_25_EVORA_BEJA = "santos:10-25:4:w:@evora-beja";
-export const SANCTI_10_25_FUNCHAL = "santos:10-25:4:w:@funchal";
-export const SANCTI_10_27_PORTUGAL = "santos:10-27:4:w:@portugal";
-export const SANCTI_10_27_EVORA = "santos:10-27:4:w:@evora";
-export const SANCTI_10_28 = "santos:10-28:2:r"; // SS. Simon and Jude, Apostles
-export const SANCTI_10_29_GUARDA = "santos:10-29:4:w:@guarda";
-export const SANCTI_10_29_PORTUGAL = "santos:10-29:4:w:@portugal";
-export const SANCTI_10_30_PORTUGAL = "santos:10-30:4:w:@portugal";
-
-export const SANCTI_11_01 = "santos:11-01:1:w"; // All Saints
+const SANCTI_09_30 = "santos:09-30:3:w";
+const SANCTI_10_01 = "santos:10-01:4:w";
+const SANCTI_10_01_LISBOA = "santos:10-01:4:w:@lisboa";
+const SANCTI_10_02 = "santos:10-02:3:w";
+const SANCTI_10_03 = "santos:10-03:3:w";
+const SANCTI_10_04 = "santos:10-04:3:w";
+const SANCTI_10_05 = "santos:10-05:4:r";
+const SANCTI_10_06 = "santos:10-06:3:w";
+const SANCTI_10_07 = "santos:10-07-1:2:w"; // Our Lady of the Rosary
+const SANCTI_10_08 = "santos:10-08:3:w";
+const SANCTI_10_09 = "santos:10-09-1:3:w";
+const SANCTI_10_10 = "santos:10-10:3:w";
+const SANCTI_10_11 = "santos:10-11:2:w"; // Maternity of the Blessed Virgin Mary
+const SANCTI_10_13 = "santos:10-13:3:w";
+const SANCTI_10_14 = "santos:10-14:3:r";
+const SANCTI_10_15 = "santos:10-15:3:w";
+const SANCTI_10_16 = "santos:10-16:3:w";
+const SANCTI_10_16_ANGRA = "santos:10-16:3:w:@angra";
+const SANCTI_10_17 = "santos:10-17:3:w";
+const SANCTI_10_17_BRAGA = "santos:10-17:3:w:@braga";
+const SANCTI_10_18 = "santos:10-18:2:r"; // St. Luke, Evangelist
+const SANCTI_10_19 = "santos:10-19:3:w";
+const SANCTI_10_20 = "santos:10-20:3:w";
+const SANCTI_10_20_PORTUGAL = "santos:10-20:3:w:@portugal";
+const SANCTI_10_21 = "santos:10-21:4:w";
+const SANCTI_10_21_VISEU_LISBOA = "santos:10-21:4:w:@viseu-lisboa";
+const SANCTI_10_22_GUARDA = "santos:10-22:4:w:@guarda";
+const SANCTI_10_22_LISBOA_EVORA_BEJA = "santos:10-22:4:w:@lisboa-evora-beja";
+const SANCTI_10_23 = "santos:10-23:3:w";
+const SANCTI_10_23_ANGRA = "santos:10-23:4:w:angra";
+const SANCTI_10_24 = "santos:10-24:3:w";
+const SANCTI_10_25 = "santos:10-25:4:r";
+const SANCTI_10_25_BRAGA = "santos:10-25:4:w:@braga";
+const SANCTI_10_25_EVORA_BEJA = "santos:10-25:4:w:@evora-beja";
+const SANCTI_10_25_FUNCHAL = "santos:10-25:4:w:@funchal";
+const SANCTI_10_27_PORTUGAL = "santos:10-27:4:w:@portugal";
+const SANCTI_10_27_EVORA = "santos:10-27:4:w:@evora";
+const SANCTI_10_28 = "santos:10-28:2:r"; // SS. Simon and Jude, Apostles
+const SANCTI_10_29_GUARDA = "santos:10-29:4:w:@guarda";
+const SANCTI_10_29_PORTUGAL = "santos:10-29:4:w:@portugal";
+const SANCTI_10_30_PORTUGAL = "santos:10-30:4:w:@portugal";
+const SANCTI_11_01 = "santos:11-01:1:w"; // All Saints
 export const SANCTI_11_02 = "santos:11-02:1:b"; // All Souls' Day
-export const SANCTI_11_04 = "santos:11-04-1:3:w";
-export const SANCTI_11_05_PORTUGAL = "santos:11-05:4:w:@portugal";
-export const SANCTI_11_06_PORTUGAL = "santos:11-06:4:w:@portugal";
-export const SANCTI_11_08 = "santos:11-08:4:r";
-export const SANCTI_11_09 = "santos:11-09:2:w"; // Dedication of the Lateran Basilica in Rome
-export const SANCTI_11_10 = "santos:11-10:3:w";
-export const SANCTI_11_11 = "santos:11-11:3:w";
-export const SANCTI_11_12 = "santos:11-12:3:r";
-export const SANCTI_11_13 = "santos:11-13:4:w";
-export const SANCTI_11_14 = "santos:11-14:3:w";
-export const SANCTI_11_15 = "santos:11-15:3:w";
-export const SANCTI_11_15_BRAGA = "santos:11-15:3:w:@braga";
-export const SANCTI_11_16 = "santos:11-16:3:w";
-export const SANCTI_11_16_COIMBRA_BRAGANCA =
-  "santos:11-16:3:w:@coimbra-braganca";
-export const SANCTI_11_17 = "santos:11-17:3:w";
-export const SANCTI_11_18 = "santos:11-18:3:w";
-export const SANCTI_11_19 = "santos:11-19:3:w";
-export const SANCTI_11_20 = "santos:11-20:3:w";
-export const SANCTI_11_20_LAMEGO = "santos:11-20:3:w:@lamego";
-export const SANCTI_11_21 = "santos:11-21:3:w";
-export const SANCTI_11_22 = "santos:11-22:3:r";
-export const SANCTI_11_23 = "santos:11-23:3:r";
-export const SANCTI_11_23_COIMBRA_BRAGANCA =
-  "santos:11-23:3:w:@coimbra-braganca";
-export const SANCTI_11_24 = "santos:11-24:3:w";
-export const SANCTI_11_24_VILA_REAL = "santos:11-24:3:w:@vila-real";
-export const SANCTI_11_25 = "santos:11-25:3:r";
-export const SANCTI_11_26 = "santos:11-26-1:3:w";
-export const SANCTI_11_27_LAMEGO = "santos:11-27:3:w:@lamego";
-export const SANCTI_11_29 = "santos:11-29:4:r";
-export const SANCTI_11_30 = "santos:11-30:2:r"; // St. Andrew, Apostle
-
-export const SANCTI_12_01_VILA_REAL = "santos:12-01:3:w:@vila-real";
-export const SANCTI_12_02 = "santos:12-02:3:r";
-export const SANCTI_12_03 = "santos:12-03:3:w";
-export const SANCTI_12_04 = "santos:12-04:3:w";
-export const SANCTI_12_05 = "santos:12-05-1:4:w";
-export const SANCTI_12_06 = "santos:12-06:3:w";
-export const SANCTI_12_07 = "santos:12-07:3:w";
-export const SANCTI_12_08 = "santos:12-08:1:w"; // Immaculate Conception of the Blessed Virgin Mary
-export const SANCTI_12_10 = "santos:12-10:4:r";
-export const SANCTI_12_11 = "santos:12-11:3:w";
-export const SANCTI_12_12_BRASIL = "santos:12-12:3:w:@brasil";
-export const SANCTI_12_12_PORTO = "santos:12-12:3:w:@porto";
-export const SANCTI_12_13 = "santos:12-13:3:r";
-export const SANCTI_12_16 = "santos:12-16:3:r";
-export const SANCTI_12_21 = "santos:12-21:2:r"; // St. Thomas, Apostle
+const SANCTI_11_04 = "santos:11-04-1:3:w";
+const SANCTI_11_05_PORTUGAL = "santos:11-05:4:w:@portugal";
+const SANCTI_11_06_PORTUGAL = "santos:11-06:4:w:@portugal";
+const SANCTI_11_08 = "santos:11-08:4:r";
+const SANCTI_11_09 = "santos:11-09:2:w"; // Dedication of the Lateran Basílica in Rome
+const SANCTI_11_10 = "santos:11-10:3:w";
+const SANCTI_11_11 = "santos:11-11:3:w";
+const SANCTI_11_12 = "santos:11-12:3:r";
+const SANCTI_11_13 = "santos:11-13:4:w";
+const SANCTI_11_14 = "santos:11-14:3:w";
+const SANCTI_11_15 = "santos:11-15:3:w";
+const SANCTI_11_15_BRAGA = "santos:11-15:3:w:@braga";
+const SANCTI_11_16 = "santos:11-16:3:w";
+const SANCTI_11_16_COIMBRA_BRAGANCA = "santos:11-16:3:w:@coimbra-braganca";
+const SANCTI_11_17 = "santos:11-17:3:w";
+const SANCTI_11_18 = "santos:11-18:3:w";
+const SANCTI_11_19 = "santos:11-19:3:w";
+const SANCTI_11_20 = "santos:11-20:3:w";
+const SANCTI_11_20_LAMEGO = "santos:11-20:3:w:@lamego";
+const SANCTI_11_21 = "santos:11-21:3:w";
+const SANCTI_11_22 = "santos:11-22:3:r";
+const SANCTI_11_23 = "santos:11-23:3:r";
+const SANCTI_11_23_COIMBRA_BRAGANCA = "santos:11-23:3:w:@coimbra-braganca";
+const SANCTI_11_24 = "santos:11-24:3:w";
+const SANCTI_11_24_VILA_REAL = "santos:11-24:3:w:@vila-real";
+const SANCTI_11_25 = "santos:11-25:3:r";
+const SANCTI_11_26 = "santos:11-26-1:3:w";
+const SANCTI_11_27_LAMEGO = "santos:11-27:3:w:@lamego";
+const SANCTI_11_29 = "santos:11-29:4:r";
+const SANCTI_11_30 = "santos:11-30:2:r"; // St. Andrew, Apostle
+const SANCTI_12_01_VILA_REAL = "santos:12-01:3:w:@vila-real";
+const SANCTI_12_02 = "santos:12-02:3:r";
+const SANCTI_12_03 = "santos:12-03:3:w";
+const SANCTI_12_04 = "santos:12-04:3:w";
+const SANCTI_12_05 = "santos:12-05-1:4:w";
+const SANCTI_12_06 = "santos:12-06:3:w";
+const SANCTI_12_07 = "santos:12-07:3:w";
+const SANCTI_12_08 = "santos:12-08:1:w"; // Immaculate Conception of the Blessed Virgin Mary
+const SANCTI_12_10 = "santos:12-10:4:r";
+const SANCTI_12_11 = "santos:12-11:3:w";
+const SANCTI_12_12_BRASIL = "santos:12-12:3:w:@brasil";
+const SANCTI_12_12_PORTO = "santos:12-12:3:w:@porto";
+const SANCTI_12_13 = "santos:12-13:3:r";
+const SANCTI_12_16 = "santos:12-16:3:r";
+const SANCTI_12_21 = "santos:12-21:2:r"; // St. Thomas, Apostle
 export const SANCTI_12_24 = "santos:12-24:1:v"; // Vigil of the Nativity of the Lord
 export const SANCTI_12_25_1 = "santos:12-25-0:1:w"; // Nativity of the Lord
-export const SANCTI_12_25_2 = "santos:12-25-1:1:w";
-export const SANCTI_12_25_3 = "santos:12-25-2:1:w";
-export const SANCTI_12_26 = "santos:12-26:2:r"; // St. Stephen, Protomartyr
-export const SANCTI_12_27 = "santos:12-27:2:w"; // St. John, Apostle and Evangelist
-export const SANCTI_12_28 = "santos:12-28:2:r"; // Holy Innocents
-export const SANCTI_12_29 = "santos:12-29:4:r";
+const SANCTI_12_25_2 = "santos:12-25-1:1:w";
+const SANCTI_12_25_3 = "santos:12-25-2:1:w";
+const SANCTI_12_26 = "santos:12-26:2:r"; // St. Stephen, Protomartyr
+const SANCTI_12_27 = "santos:12-27:2:w"; // St. John, Apostle and Evangelist
+const SANCTI_12_28 = "santos:12-28:2:r"; // Holy Innocents
+const SANCTI_12_29 = "santos:12-29:4:r";
 export const SANCTI_12_30 = "santos:12-30:2:w";
-export const SANCTI_12_31 = "santos:12-31:4:w";
-
-// COMMUNE / VOTIVE
-//
-// export const TEMPORA_C_10A = "tempora:C10a:4:v"; // B. M. V. Saturdays in Advent
-// export const TEMPORA_C_10B = "tempora:C10b:4:w"; // B. M. V. Saturdays between Nativity and Purification
-// export const TEMPORA_C_10C = "tempora:C10c:4:w"; // B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
-// export const TEMPORA_C_10PASC = "tempora:C10Pasc:4:w"; // B. M. V. Saturdays in Easter period
-// export const TEMPORA_C_10T = "tempora:C10t:4:w"; // B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
-//
+const SANCTI_12_31 = "santos:12-31:4:w";
 export const COMMUNE_C_10A = "commune:27missamaria1:0:w"; // B. V. M. Saturdays in Advent
 export const COMMUNE_C_10B = "commune:28missamaria2:0:w"; // B. V. M. Saturdays between Nativity and Purification
 export const COMMUNE_C_10C = "commune:29missamaria3:0:w"; // B. V. M. Saturdays between Feb 2 and Wednesday in Holy Week
 export const COMMUNE_C_10PASC = "commune:30missamaria4:0:w"; // B. V. M. Saturdays in Easter period
 export const COMMUNE_C_10T = "commune:31missamaria5:0:w"; // B. V. M. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
-export const VOTIVE_PENT01_0 = "votivas:pent1-0:0:w"; // Trinity
-export const VOTIVE_PENT02_5 = "votivas:pent2-5:0:w"; // Sacred Heart of Jesus
-export const VOTIVE_08_22 = "votivas:08-22:0:w"; // Immaculate Heart of B. V. M.
-export const VOTIVE_ANGELS = "votivas:anjos:0:w";
-export const VOTIVE_JOSEPH = "votivas:jose:0:w";
-export const VOTIVE_PETERPAUL = "votivas:pedropaulo:0:r";
-export const VOTIVE_APOSTLES = "votivas:apostolos:0:r";
-export const VOTIVE_HOLYSPIRIT = "votivas:espiritosanto:0:r";
-export const VOTIVE_BLESSEDSACRAMENT = "votivas:santissimosacramento:0:w";
-export const VOTIVE_JESUSETERNALPRIEST = "votivas:jesuseternosacerdote:0:w";
-export const VOTIVE_CROSS = "votivas:santacruz:0:r";
-export const VOTIVE_PASSION = "votivas:paixao:0:r";
-export const VOTIVE_FIDEI_PROPAGATIONE = "votivas:propagacaofe:0:v";
-
+const VOTIVE_PENT01_0 = "votivas:pent1-0:0:w"; // Trinity
+const VOTIVE_PENT02_5 = "votivas:pent2-5:0:w"; // Sacred Heart of Jesus
+const VOTIVE_ANGELS = "votivas:anjos:0:w";
+const VOTIVE_JOSEPH = "votivas:jose:0:w";
+const VOTIVE_JESUSETERNALPRIEST = "votivas:jesuseternosacerdote:0:w";
 export const EMBER_DAYS = [
   TEMPORA_QUAD1_3, // Ember Wednesday of Lent
   TEMPORA_QUAD1_5, // Ember Friday of Lent
@@ -828,9 +777,7 @@ export const EMBER_DAYS = [
   TEMPORA_ADV3_5, // Ember Friday in Advent
   TEMPORA_ADV3_6, // Ember Saturday in Advent
 ];
-
 export const TABLE_OF_PRECEDENCE = [
-  // 1st class feasts
   SANCTI_12_25_1, // Nativity
   SANCTI_12_25_2, // Nativity
   SANCTI_12_25_3, // Nativity
@@ -864,7 +811,6 @@ export const TABLE_OF_PRECEDENCE = [
   TEMPORA_PASC0_4,
   TEMPORA_PASC0_5,
   TEMPORA_PASC0_6,
-  // TEMPORA_PASC2_3,
   TEMPORA_PASC7_1, // Pentecost Octave
   TEMPORA_PASC7_2,
   TEMPORA_PASC7_3,
@@ -916,14 +862,12 @@ export const TABLE_OF_PRECEDENCE = [
   // 4th class feasts
   ".*",
 ];
-
 export const FEASTS_OF_JESUS_CLASS_1_AND_2: string[] = [
   SANCTI_01_06,
   SANCTI_01_13,
   SANCTI_02_02,
   SANCTI_08_06,
 ];
-
 export const POST_EPIPHANY = [
   TEMPORA_EPI1_0A,
   TEMPORA_EPI1_1,
@@ -968,7 +912,6 @@ export const POST_EPIPHANY = [
   TEMPORA_EPI6_5,
   TEMPORA_EPI6_6,
 ];
-
 export const FROM_PRE_LENT_TO_POST_PENTECOST = [
   TEMPORA_QUADP1_0,
   TEMPORA_QUADP1_1,
@@ -1251,14 +1194,12 @@ export const FROM_PRE_LENT_TO_POST_PENTECOST = [
   TEMPORA_PENT23_5,
   TEMPORA_PENT23_6,
 ];
-
 export const EMBER_DAYS_SEPTEMBER = [
   TEMPORA_PENT_3,
   "",
   TEMPORA_PENT_5,
   TEMPORA_PENT_6,
 ];
-
 export const WEEK_24_AFTER_PENTECOST = [
   TEMPORA_PENT24_0,
   TEMPORA_PENT24_1,
@@ -1268,7 +1209,6 @@ export const WEEK_24_AFTER_PENTECOST = [
   TEMPORA_PENT24_5,
   TEMPORA_PENT24_6,
 ];
-
 export const ADVENT = [
   TEMPORA_ADV1_0,
   TEMPORA_ADV1_1,
@@ -1298,15 +1238,7 @@ export const ADVENT = [
   TEMPORA_ADV4_4,
   TEMPORA_ADV4_5,
 ];
-
 export const NATIVITY_OCTAVE_SUNDAY = [TEMPORA_NAT1_0];
-
-export const HOLY_NAME = [TEMPORA_NAT2_0];
-
-export const CHRIST_KING = [SANCTI_10_DUr];
-
-export const SUNDAY_IN_CHRISTMAS_OCTAVE = [TEMPORA_NAT1_0];
-
 export const LOCAL = [
   SANCTI_01_16_PORTUGAL,
   SANCTI_01_19_PORTUGAL,
@@ -1323,6 +1255,7 @@ export const LOCAL = [
   SANCTI_03_01_BRAGA,
   SANCTI_03_13_PORTUGAL,
   SANCTI_03_20_BRAGA,
+  SANCTI_03_24_PORTUGAL,
   SANCTI_04_16_LISBOA_GUARDA,
   SANCTI_04_16_BRAGA,
   SANCTI_05_01_FUNCHAL,
@@ -1374,6 +1307,16 @@ export const LOCAL = [
   SANCTI_12_01_VILA_REAL,
   SANCTI_12_12_BRASIL,
   SANCTI_12_12_PORTO,
+];
+
+export const OUTRO = [
+  SANCTI_07_23_OUTRO,
+  SANCTI_07_24_OUTRO,
+  SANCTI_07_25_OUTRO,
+  SANCTI_07_28_OUTRO,
+  SANCTI_07_28_OUTRO_2,
+  SANCTI_07_29_OUTRO,
+  SANCTI_09_20_OUTRO,
 ];
 
 export const FERIA = [
@@ -1621,7 +1564,6 @@ export const FERIA = [
   TEMPORA_PENT24_5,
   TEMPORA_PENT24_6,
 ];
-
 export const SANCTI = [
   SANCTI_01_01,
   SANCTI_01_02,
@@ -1899,7 +1841,6 @@ export const SANCTI = [
   SANCTI_12_30,
   SANCTI_12_31,
 ];
-
 export const TITLES: Record<string, string> = {
   [TEMPORA_EPI1_0A]: "Sagrada Família",
   [TEMPORA_EPI1_1]: "Segunda-feira da semana após a Epifania",
@@ -2345,6 +2286,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_03_20_BRAGA]: "S. Martinho de Dume, Bispo e Confessor",
   [SANCTI_03_21]: "S. Bento, Abade",
   [SANCTI_03_24]: "S. Gabriel Arcanjo",
+  [SANCTI_03_24_PORTUGAL]: "Festa do Santíssimo Sacramento",
   [SANCTI_03_25]: "Anunciação de Nossa Senhora",
   [SANCTI_03_27]: "S. João Damasceno, Confessor e Doutor da Igreja",
   [SANCTI_03_28]: "S. João Capistrano, Confessor",
@@ -2461,14 +2403,19 @@ export const TITLES: Record<string, string> = {
   [SANCTI_07_22]: "S. Maria Madalena, Penitente",
   [SANCTI_07_22_LISBOA]: "S. Lourenço de Brindes, Confessor",
   [SANCTI_07_23]: "S. Apolinário, Bispo e Mártir",
+  [SANCTI_07_23_OUTRO]: "S. Libório, Bispo e Confessor",
   [SANCTI_07_23_VISEU]: "Na Dedicação da Igreja Catedral de Viseu",
-  [SANCTI_07_24]: "Santa Cristina",
+  [SANCTI_07_24]: "Vigília de S. Tiago, Apóstolo",
+  [SANCTI_07_24_OUTRO]: "Santa Cristina",
   [SANCTI_07_25]: "S. Tiago, Apóstolo",
+  [SANCTI_07_25_OUTRO]: "S. Cristovão, Mártir",
   [SANCTI_07_26]: "S. Ana, Mãe de Nossa Senhora",
   [SANCTI_07_27]: "S. Pantaleão, Mártir",
-  [SANCTI_07_28]:
-    "S.S. Nazário e Celso, Mártires, S. Victor I, Papa e Mártir, S. Inocêncio I, Papa e Confessor",
+  [SANCTI_07_28]: "S.S. Nazário e Celso, Mártires",
+  [SANCTI_07_28_OUTRO]: "S. Vítor, Papa e Mártir",
+  [SANCTI_07_28_OUTRO_2]: "S. Inocêncio, Papa e Confessor",
   [SANCTI_07_29]: "S. Marta, Virgem",
+  [SANCTI_07_29_OUTRO]: "S. Félix II, Papa e Mártir",
   [SANCTI_07_30]: "S.S. Ábdon e Senen, Mártires",
   [SANCTI_07_31]: "S. Inácio de Loiola, Confessor",
   [SANCTI_08_01]: "Os Santos Mártires Macabeus",
@@ -2520,6 +2467,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_09_18]: "S. José Cupertino, Confessor",
   [SANCTI_09_19]: "S. Januário e Outros, Mártires",
   [SANCTI_09_20]: "Vigilia de S. Mateus, Apóstolo e Evangelista",
+  [SANCTI_09_20_OUTRO]: "S. Eustáquio e Outros, Mártires",
   [SANCTI_09_21]: "S. Mateus, Apóstolo e Evangelista",
   [SANCTI_09_22]: "S. Tomás de Vilanova, Bispo e Confessor",
   [SANCTI_09_23]: "S. Lino, Papa e Mártir",
@@ -2555,7 +2503,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_10_21]: "S. Hilarião, Abade",
   [SANCTI_10_21_VISEU_LISBOA]: "S. Úrsula e Outras, Virgens e Mártires",
   [SANCTI_10_22_GUARDA]: "Na Dedicação da Igreja Catedral da Guarda",
-  [SANCTI_10_22_LISBOA_EVORA_BEJA]: "Na Dedicação da Basilica de Mafra",
+  [SANCTI_10_22_LISBOA_EVORA_BEJA]: "Na Dedicação da Basílica de Mafra",
   [SANCTI_10_23]: "S. António Maria Claret, Bispo e Confessor",
   [SANCTI_10_23_ANGRA]: "Na Oitava da Dedicação da Igreja Catedral de Angra",
   [SANCTI_10_24]: "S. Rafael, Arcanjo",
@@ -2585,7 +2533,7 @@ export const TITLES: Record<string, string> = {
   [SANCTI_11_14]: "S. Josafá, Bispo e Mártir",
   [SANCTI_11_15]: "S. Alberto Magno, Bispo, Confessor e Doutor da Igreja",
   [SANCTI_11_15_BRAGA]:
-    "Na Dedicação da Basilica do Santissimo Coração de Jesus",
+    "Na Dedicação da Basílica do Santissimo Coração de Jesus",
   [SANCTI_11_16]: "S. Gertrudes, Virgem",
   [SANCTI_11_16_COIMBRA_BRAGANCA]:
     "Na Dedicação das Igrejas Catedrais de Bragança e Coimbra",

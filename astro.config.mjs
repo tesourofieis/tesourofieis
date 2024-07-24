@@ -157,7 +157,11 @@ export default defineConfig({
         patreon: "https://www.patreon.com/tesourofieis",
       },
       sidebar: sidebar,
-      customCss: ["./src/tailwind.css"],
+      customCss: [
+        "@fontsource/berkshire-swash",
+        "@fontsource-variable/eb-garamond",
+        "./src/tailwind.css",
+      ],
     }),
     tailwind({
       applyBaseStyles: false,
