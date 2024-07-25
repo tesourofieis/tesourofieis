@@ -1,10 +1,7 @@
 import { getCalendarDay } from "../lib/getCalendar";
 import { yyyyMMDD } from "../lib/utils";
 
-import {
-  requestPermission,
-  sendNotification,
-} from "@tauri-apps/plugin-notification";
+import { requestPermission } from "@tauri-apps/plugin-notification";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useEffect, useState } from "react";
@@ -15,10 +12,41 @@ import Office from "./Office";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
+  const [pushSubscription, setPushSubscription] = useState(null);
   const day = getCalendarDay(yyyyMMDD(new Date()));
 
   useEffect(() => {
-    requestPermission();
+    async function setupPushNotifications() {
+      try {
+        console.log("Starting push notification setup");
+
+        const registration =
+          await navigator.serviceWorker.register("/service-worker.js");
+        console.log("Service Worker registered:", registration);
+        console.log("About to subscribe to push notifications");
+        console.log("VAPID Key:", import.meta.env.PUBLIC_VAPID_KEY);
+
+        const subscription = await registration.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: urlBase64ToUint8Array(
+            import.meta.env.PUBLIC_VAPID_KEY,
+          ),
+        });
+        console.log("Push subscription successful:", subscription);
+
+        // Rest of your code...
+      } catch (error) {
+        console.error("Detailed error in push notification setup:", error);
+        if (error.name === "NotAllowedError") {
+          console.log("Push permission denied");
+        } else if (error.name === "InvalidStateError") {
+          console.log("Push is already subscribed or in progress");
+        }
+        // Log any other specific error types you encounter
+      }
+    }
+
+    setupPushNotifications();
   }, []);
 
   useEffect(() => {
@@ -46,18 +74,6 @@ export default function InteractiveCard() {
 
     return () => clearTimeout(timeoutId);
   }, []);
-
-  useEffect(() => {
-    const currentPrayer = getPrayer(date);
-
-    if (currentPrayer.isAngelus) {
-      sendNotification({
-        title: "Tesouro dos Fiéis",
-        body: "Hora do Angelus",
-        icon: "favicon72.png",
-      });
-    }
-  }, [date]);
 
   function getPrayer(date: Date) {
     const hour = date.getHours();
@@ -112,4 +128,20 @@ export default function InteractiveCard() {
       <Calendar />
     </div>
   );
+}
+
+// Helper function to convert base64 to Uint8Array
+function urlBase64ToUint8Array(base64String) {
+  const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
+  const base64 = (base64String + padding)
+    .replace(/\-/g, "+")
+    .replace(/_/g, "/");
+
+  const rawData = window.atob(base64);
+  const outputArray = new Uint8Array(rawData.length);
+
+  for (let i = 0; i < rawData.length; ++i) {
+    outputArray[i] = rawData.charCodeAt(i);
+  }
+  return outputArray;
 }

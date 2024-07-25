@@ -7,11 +7,13 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
+import db from "@astrojs/db";
 const site = "https://tesourofieis.com";
 
 // https://astro.build/config
 export default defineConfig({
   site: site,
+  output: "hybrid",
   experimental: {
     contentCollectionCache: true,
   },
@@ -174,6 +176,7 @@ export default defineConfig({
         forward: ["dataLayer.push"],
       },
     }),
+    db(),
   ],
   markdown: {
     rehypePlugins: [rehypeHeadingIds],
@@ -192,3 +195,4 @@ export default defineConfig({
     service: passthroughImageService(),
   },
 });
+
