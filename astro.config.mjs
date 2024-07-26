@@ -188,6 +188,9 @@ export default defineConfig({
   },
   vite: {
     server: {
+      ssr: {
+        external: ["node:url"],
+      },
       watch: {
         ignored: ["**/src-tauri/**"],
       },
@@ -198,4 +201,3 @@ export default defineConfig({
   },
   adapter: cloudflare(),
 });
-
