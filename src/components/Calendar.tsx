@@ -60,7 +60,7 @@ export default function DailyCalendar() {
                     {day?.celebration?.length ? (
                       day.celebration.map((celebration) => (
                         <LinkCard
-                          key={celebration.id}
+                          key={celebration.link}
                           link={celebration?.link}
                           caption={"Celebração"}
                           title={celebration.title}
@@ -72,7 +72,7 @@ export default function DailyCalendar() {
                       <>
                         {day?.tempora?.map((tempora) => (
                           <LinkCard
-                            key={tempora.id}
+                            key={tempora.link}
                             link={tempora?.link}
                             caption={tempora.title ? "Celebração" : "Tempora"}
                             title={tempora.title ?? "Feria"}
@@ -84,7 +84,7 @@ export default function DailyCalendar() {
                     )}
                     {day?.commemoration?.map((commemoration) => (
                       <LinkCard
-                        key={commemoration.id}
+                        key={commemoration.link}
                         link={commemoration.link}
                         caption="Comemoração"
                         title={commemoration.title}
@@ -94,7 +94,7 @@ export default function DailyCalendar() {
                     ))}
                     {day?.local?.map((local) => (
                       <LinkCard
-                        key={local.id}
+                        key={local.link}
                         link={local.link}
                         caption={`Local: ${local.local
                           .toLocaleUpperCase()
@@ -107,7 +107,7 @@ export default function DailyCalendar() {
                     ))}
                     {day?.outro?.map((outro) => (
                       <LinkCard
-                        key={outro.id}
+                        key={outro.link}
                         link={outro.link}
                         caption="No mesmo dia"
                         title={outro.title}

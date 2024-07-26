@@ -5,6 +5,8 @@ import { initializeApp } from "firebase/app";
 import { getMessaging } from "firebase/messaging";
 import { useEffect, useState } from "react";
 
+const VAPID_KEY = import.meta.env.PUBLIC_VAPID_KEY;
+
 const firebaseConfig = {
   projectId: "tesourofieis",
   appId: "1:724364776145:web:37fd967251db6282e96bf0",
@@ -28,7 +30,7 @@ export default function Notifications() {
       const app = initializeApp(firebaseConfig);
       const messaging = getMessaging(app);
       const token = await getToken(messaging, {
-        vapidKey: "YOUR_VAPID_KEY",
+        vapidKey: VAPID_KEY,
       });
       if (token) {
         setIsSubscribed(true);
@@ -50,8 +52,7 @@ export default function Notifications() {
         const app = initializeApp(firebaseConfig);
         const messaging = getMessaging(app);
         const token = await getToken(messaging, {
-          vapidKey:
-            "BLXxCylmD8kSOPTts6asb4h9HfO_noXt4dPUh8j_mSV327h3YEIroI-PdUzKnh35cEe7DFYYHoA3UG_3mvMVG9M",
+          vapidKey: VAPID_KEY,
         });
         if (token) {
           console.log("Token generated:", token);

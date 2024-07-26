@@ -3,19 +3,17 @@ import admin from "firebase-admin";
 export const prerender = false;
 
 // Initialize Firebase Admin SDK (do this once in your app)
-if (!admin.apps.length) {
-  try {
-    admin.initializeApp({
-      credential: admin.credential.cert({
-        projectId: import.meta.env.PROJECT_ID,
-        privateKey: import.meta.env.PRIVATE_KEY_ID,
-        clientEmail: import.meta.env.CLIENT_EMAIL,
-      } as admin.ServiceAccount),
-    });
-    console.log("Firebase Admin SDK initialized successfully");
-  } catch (error) {
-    console.error("Error initializing Firebase Admin SDK:", error);
-  }
+try {
+  admin.initializeApp({
+    credential: admin.credential.cert({
+      projectId: import.meta.env.PROJECT_ID,
+      privateKey: import.meta.env.PRIVATE_KEY_ID,
+      clientEmail: import.meta.env.CLIENT_EMAIL,
+    } as admin.ServiceAccount),
+  });
+  console.log("Firebase Admin SDK initialized successfully");
+} catch (error) {
+  console.error("Error initializing Firebase Admin SDK:", error);
 }
 
 export async function POST({ request }) {
