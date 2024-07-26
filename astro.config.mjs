@@ -7,7 +7,6 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
-import db from "@astrojs/db";
 import node from "@astrojs/node";
 const site = "https://tesourofieis.com";
 
@@ -180,7 +179,6 @@ export default defineConfig({
         forward: ["dataLayer.push"],
       },
     }),
-    db(),
   ],
   markdown: {
     rehypePlugins: [rehypeHeadingIds],
@@ -202,4 +200,3 @@ export default defineConfig({
     mode: "standalone",
   }),
 });
-

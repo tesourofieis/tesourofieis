@@ -21,11 +21,10 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@astrojs/db": "^0.12.0",
     "@astrojs/node": "^8.3.2",
     "@astrojs/partytown": "^2.1.1",
     "@astrojs/react": "^3.6.0",
-    "@astrojs/starlight": "^0.25.1",
+    "@astrojs/starlight": "^0.25.2",
     "@astrojs/starlight-tailwind": "^2.0.3",
     "@astrojs/tailwind": "^5.1.0",
     "@date-fns/utc": "^1.2.0",
@@ -36,16 +35,15 @@
     "@tauri-apps/plugin-updater": "^2.0.0-beta.2",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
-    "astro": "^4.12.1",
+    "astro": "^4.12.2",
     "date-fns": "^3.6.0",
     "firebase": "^10.12.4",
     "firebase-admin": "^12.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "web-push": "^3.6.7"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.8.2",
+    "@astrojs/check": "^0.8.3",
     "@biomejs/biome": "1.6.2",
     "@codspeed/vitest-plugin": "^3.1.0",
     "@fontsource-variable/eb-garamond": "^5.0.18",
@@ -55,7 +53,6 @@
     "@iconify/json": "^2.2.195",
     "@playwright/test": "^1.42.1",
     "@types/node": "^20.9.0",
-    "@types/web-push": "^3.6.3",
     "@vitest/coverage-v8": "^1.4.0",
     "astro-robots-txt": "^1.0.0",
     "lefthook": "^1.6.7",
