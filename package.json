@@ -21,7 +21,7 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@astrojs/node": "^8.3.2",
+    "@astrojs/cloudflare": "^11.0.1",
     "@astrojs/partytown": "^2.1.1",
     "@astrojs/react": "^3.6.0",
     "@astrojs/starlight": "^0.25.2",

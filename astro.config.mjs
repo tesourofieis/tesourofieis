@@ -7,7 +7,7 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
-import node from "@astrojs/node";
+import cloudflare from "@astrojs/cloudflare";
 const site = "https://tesourofieis.com";
 
 // https://astro.build/config
@@ -196,7 +196,6 @@ export default defineConfig({
   image: {
     service: passthroughImageService(),
   },
-  adapter: node({
-    mode: "standalone",
-  }),
+  adapter: cloudflare(),
 });
+
