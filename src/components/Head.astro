@@ -1,0 +1,13 @@
+---
+import Default from "@astrojs/starlight/components/Head.astro";
+import type { Props } from "@astrojs/starlight/props";
+---
+
+<Default {...Astro.props} />
+
+<script>
+  window.onload = () =>
+  "serviceWorker" in navigator
+    navigator.serviceWorker
+      .register("/firebase-messaging-sw.js")
+</script>
