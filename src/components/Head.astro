@@ -6,8 +6,15 @@ import type { Props } from "@astrojs/starlight/props";
 <Default {...Astro.props} />
 
 <script>
-  window.onload = () =>
-  "serviceWorker" in navigator
-    navigator.serviceWorker
-      .register("/firebase-messaging-sw.js")
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker.register("/firebase-messaging-sw.js")
+        .then(function(registration) {
+          console.log("Service Worker registered successfully:", registration.scope);
+        })
+        .catch(function(error) {
+          console.log("Service Worker registration failed:", error);
+        });
+    });
+  }
 </script>
