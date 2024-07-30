@@ -1,4 +1,4 @@
-import { defineConfig, passthroughImageService } from "astro/config";
+import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
@@ -7,7 +7,7 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
-import cloudflare from "@astrojs/cloudflare";
+import netlify from "@astrojs/netlify";
 const site = "https://tesourofieis.com";
 
 // https://astro.build/config
@@ -188,16 +188,11 @@ export default defineConfig({
   },
   vite: {
     server: {
-      ssr: {
-        external: ["node:url"],
-      },
       watch: {
         ignored: ["**/src-tauri/**"],
       },
     },
   },
-  image: {
-    service: passthroughImageService(),
-  },
-  adapter: cloudflare(),
+  adapter: netlify(),
 });
+
