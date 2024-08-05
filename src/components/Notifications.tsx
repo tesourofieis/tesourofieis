@@ -1,5 +1,5 @@
 import { Icon } from "@iconify-icon/react";
-import { deleteToken, getToken } from "firebase/messaging";
+import { getToken } from "firebase/messaging";
 
 import { initializeApp } from "firebase/app";
 import { getMessaging } from "firebase/messaging";
@@ -75,51 +75,17 @@ export default function Notifications() {
       }
     }
   };
-  const unsubscribe = async () => {
-    if (!("Notification" in window)) {
-      throw new Error("Notification not supported");
-    }
-    try {
-      const app = initializeApp(firebaseConfig);
-      const messaging = getMessaging(app);
-      const token = await getToken(messaging);
-      if (token) {
-        await deleteToken(messaging);
-        await fetch("/api/subscriptions", {
-          method: "DELETE",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            data: { token, topic: "angelus" },
-          }),
-        });
-        setIsSubscribed(false);
-        console.log("Unsubscribed successfully");
-      } else {
-        console.log("No token found to unsubscribe");
-      }
-      setIsSubscribed(false);
-      console.log("Unsubscribed successfully");
-    } catch (err) {
-      console.error("Error unsubscribing:", err);
-    }
-  };
 
-  if (window && "Notification" in window) {
+  if (window && "Notification" in window && !isSubscribed) {
     return (
       <button
         type="button"
-        aria-label={isSubscribed ? "remove-notifications" : "add-notifications"}
+        aria-label="add-notifications"
         className="flex cursor-pointer items-center bg-transparent gap-2"
-        onClick={isSubscribed ? unsubscribe : requestPermission}
+        onClick={requestPermission}
       >
-        <Icon
-          icon={isSubscribed ? "heroicons:bell-slash" : "heroicons:bell"}
-          className="w-5 h-5"
-        />
-
-        {isSubscribed ? "Remover subscrição" : "Subscrever"}
+        <Icon icon="heroicons:bell" className="w-5 h-5" />
+        Subscrever notificações
       </button>
     );
   }

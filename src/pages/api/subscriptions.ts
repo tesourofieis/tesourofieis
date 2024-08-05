@@ -38,25 +38,3 @@ export async function POST({ request }) {
     );
   }
 }
-
-export async function DELETE({ request }) {
-  const { data } = await request.json();
-  try {
-    // Unsubscribe the token from the topic
-    await admin.messaging().unsubscribeFromTopic(data.token, data.topic);
-
-    return new Response(JSON.stringify({ success: true }), {
-      status: 200,
-      headers: { "Content-Type": "application/json" },
-    });
-  } catch (error) {
-    console.error("Error unsubscribing from topic:", error);
-    return new Response(
-      JSON.stringify({ success: false, error: error.message }),
-      {
-        status: 500,
-        headers: { "Content-Type": "application/json" },
-      },
-    );
-  }
-}
