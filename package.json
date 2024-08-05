@@ -1,7 +1,7 @@
 {
   "name": "tesourofieis",
   "type": "module",
-  "version": "1.19.0",
+  "version": "1.20.0",
   "engines": {
     "node": "20.9.0"
   },
@@ -21,26 +21,30 @@
     "tauri": "tauri"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^11.0.1",
+    "@astrojs/netlify": "^5.4.0",
     "@astrojs/partytown": "^2.1.1",
-    "@astrojs/react": "^3.6.0",
-    "@astrojs/starlight": "^0.25.1",
+    "@astrojs/react": "^3.6.1",
+    "@astrojs/starlight": "^0.25.3",
     "@astrojs/starlight-tailwind": "^2.0.3",
     "@astrojs/tailwind": "^5.1.0",
     "@date-fns/utc": "^1.2.0",
     "@iconify/react": "^5.0.1",
     "@tauri-apps/api": "^2.0.0-beta.7",
-    "@tauri-apps/cli": "^2.0.0-beta.12",
+    "@tauri-apps/cli": "^2.0.0-rc.0",
     "@tauri-apps/plugin-notification": "^2.0.0-beta.2",
     "@tauri-apps/plugin-updater": "^2.0.0-beta.2",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
-    "astro": "^4.12.1",
+    "astro": "^4.12.3",
     "date-fns": "^3.6.0",
+    "firebase": "^10.12.4",
+    "firebase-admin": "^12.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.8.2",
+    "@astrojs/check": "^0.8.3",
     "@biomejs/biome": "1.6.2",
     "@codspeed/vitest-plugin": "^3.1.0",
     "@fontsource-variable/eb-garamond": "^5.0.18",

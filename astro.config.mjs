@@ -7,17 +7,22 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
+import netlify from "@astrojs/netlify";
 const site = "https://tesourofieis.com";
 
 // https://astro.build/config
 export default defineConfig({
   site: site,
+  output: "hybrid",
   experimental: {
     contentCollectionCache: true,
   },
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
+      components: {
+        Head: "./src/components/Head.astro",
+      },
       head: [
         {
           tag: "meta",
@@ -191,4 +196,5 @@ export default defineConfig({
   image: {
     service: passthroughImageService(),
   },
+  adapter: netlify(),
 });

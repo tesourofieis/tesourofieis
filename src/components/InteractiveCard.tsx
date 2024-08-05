@@ -1,25 +1,13 @@
-import { getCalendarDay } from "../lib/getCalendar";
-import { yyyyMMDD } from "../lib/utils";
-
-import {
-  requestPermission,
-  sendNotification,
-} from "@tauri-apps/plugin-notification";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useEffect, useState } from "react";
 import Calendar from "./Calendar";
 import LinkCard from "./LinkCard";
-import Loading from "./Loading";
+import Notification from "./Notifications";
 import Office from "./Office";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
-  const day = getCalendarDay(yyyyMMDD(new Date()));
-
-  useEffect(() => {
-    requestPermission();
-  }, []);
 
   useEffect(() => {
     // Update date state immediately
@@ -47,18 +35,6 @@ export default function InteractiveCard() {
     return () => clearTimeout(timeoutId);
   }, []);
 
-  useEffect(() => {
-    const currentPrayer = getPrayer(date);
-
-    if (currentPrayer.isAngelus) {
-      sendNotification({
-        title: "Tesouro dos Fiéis",
-        body: "Hora do Angelus",
-        icon: "favicon72.png",
-      });
-    }
-  }, [date]);
-
   function getPrayer(date: Date) {
     const hour = date.getHours();
     const isMorning = hour >= 5 && hour < 10;
@@ -69,16 +45,9 @@ export default function InteractiveCard() {
 
   const currentPrayer = getPrayer(date);
 
-  if (!day) {
-    return (
-      <div className="shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-100 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-600 gap-5 grid min-h-[140px] w-full place-items-center overflow-x-scroll p-6 lg:overflow-visible">
-        <Loading />
-      </div>
-    );
-  }
-
   return (
     <div className="flex flex-col shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-100 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-600 no-underline p-4 gap-5">
+      {window && <Notification />}
       <div className="flex justify-between not-content">
         <h2>Dia e Hora</h2>
       </div>
