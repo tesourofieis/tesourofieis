@@ -1,4 +1,4 @@
-import { defineConfig } from "astro/config";
+import { defineConfig, passthroughImageService } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import { sidebar } from "./sidebar.ts";
@@ -193,6 +193,8 @@ export default defineConfig({
       },
     },
   },
+  image: {
+    service: passthroughImageService(),
+  },
   adapter: netlify(),
 });
-

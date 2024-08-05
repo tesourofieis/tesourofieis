@@ -21,8 +21,8 @@ android {
         applicationId = "com.tesourofieis.app"
         minSdk = 24
         targetSdk = 34
-        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "19").toInt()
-        versionName = tauriProperties.getProperty("tauri.android.versionName", "2.8")
+        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "20").toInt()
+        versionName = tauriProperties.getProperty("tauri.android.versionName", "2.9")
     }
     buildTypes {
         getByName("debug") {
@@ -43,6 +43,7 @@ android {
                     .plus(getDefaultProguardFile("proguard-android-optimize.txt"))
                     .toList().toTypedArray()
             )
+          signingConfig = signingConfigs.getByName("debug")
         }
     }
     kotlinOptions {
