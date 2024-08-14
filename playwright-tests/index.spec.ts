@@ -8,7 +8,6 @@ test("first page", async ({ page }) => {
   page.getByText("Em Portugal se conservará");
   page.getByRole("heading", { name: "Dia e Hora" });
   page.getByText("Muda a Missa, o Ofício, o");
-  page.getByLabel("add-notifications");
 });
 
 test("rosary", async ({ page }) => {

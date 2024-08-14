@@ -3,7 +3,6 @@ import { pt } from "date-fns/locale";
 import { useEffect, useState } from "react";
 import Calendar from "./Calendar";
 import LinkCard from "./LinkCard";
-import Notification from "./Notifications";
 import Office from "./Office";
 
 export default function InteractiveCard() {
@@ -47,7 +46,6 @@ export default function InteractiveCard() {
 
   return (
     <div className="flex flex-col shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-100 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-600 no-underline p-4 gap-5">
-      {window && <Notification />}
       <div className="flex justify-between not-content">
         <h2>Dia e Hora</h2>
       </div>
@@ -77,7 +75,7 @@ export default function InteractiveCard() {
         />
       )}
 
-      <h6>Calendário Litúrgico</h6>
+      <h6>Calendário</h6>
       <Calendar />
     </div>
   );
