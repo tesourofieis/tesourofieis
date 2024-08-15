@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Dark Theme */
+  :root {
+    --sl-color-white: theme("colors.sepia.200");
+    --sl-color-gray-1: theme("colors.sepia.300");
+    --sl-color-gray-2: theme("colors.sepia.400");
+    --sl-color-gray-3: theme("colors.sepia.500");
+    --sl-color-gray-4: theme("colors.sepia.600");
+    --sl-color-gray-5: theme("colors.sepia.700");
+    --sl-color-gray-6: theme("colors.sepia.800");
+    --sl-color-gray-7: theme("colors.sepia.900");
+
+    --sl-color-text-accent: theme("colors.sepia.300");
+    --sl-color-bg-accent: theme("colors.sepia.700");
+    --sl-color-banner-text: theme("colors.sepia.300");
+    --sl-color-black: theme("colors.sepia.900");
+    --sl-color-text: theme("colors.sepia.200");
+  }
+
+  /* Light Theme */
+  :root[data-theme="light"] {
+    --sl-color-white: theme("colors.sepia.900");
+    --sl-color-gray-1: theme("colors.sepia.800");
+    --sl-color-gray-2: theme("colors.sepia.700");
+    --sl-color-gray-3: theme("colors.sepia.600");
+    --sl-color-gray-4: theme("colors.sepia.500");
+    --sl-color-gray-5: theme("colors.sepia.400");
+    --sl-color-gray-6: theme("colors.sepia.300");
+    --sl-color-gray-7: theme("colors.sepia.200");
+
+    --sl-color-text-accent: theme("colors.sepia.800");
+    --sl-color-bg-accent: theme("colors.sepia.300");
+    --sl-color-black: theme("colors.sepia.100");
+    --sl-color-banner-text: theme("colors.sepia.700");
+    --sl-color-text: theme("colors.sepia.900");
+    --sl-color-bg-sidebar: theme("colors.sepia.200");
+  }
+
+  .body {
+    @apply font-body;
+    font-size: 1.26rem;
+    line-height: 1.6;
+  }
+
+  .h1 {
+    @apply font-display;
+    color: theme("colors.red.600") !important;
+  }
+
+  .h2 {
+    @apply font-display text-center;
+    color: theme("colors.red.600") !important;
+  }
+
+  .h3,
+  .h4,
+  .h5 {
+    @apply font-display text-center;
+  }
+
+  .h6 {
+    @apply font-body text-center;
+  }
+}

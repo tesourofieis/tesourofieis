@@ -1,0 +1,60 @@
+{
+  "name": "tesourofieis",
+  "type": "module",
+  "version": "1.20.0",
+  "engines": {
+    "node": "20.9.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test": "vitest ./src/tests",
+    "update-snapshot": "vitest -u ./src/tests",
+    "bench": "vitest bench",
+    "coverage": "vitest --coverage ./src/tests",
+    "deploy-preview": "wrangler pages dev ./dist",
+    "check": "biome check . --apply",
+    "check-astro": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^11.0.1",
+    "@astrojs/netlify": "^5.4.0",
+    "@astrojs/partytown": "^2.1.1",
+    "@astrojs/react": "^3.6.1",
+    "@astrojs/starlight": "^0.25.3",
+    "@astrojs/starlight-tailwind": "^2.0.3",
+    "@astrojs/tailwind": "^5.1.0",
+    "@date-fns/utc": "^1.2.0",
+    "@iconify/react": "^5.0.1",
+    "@types/react": "^18.2.69",
+    "@types/react-dom": "^18.2.22",
+    "astro": "^4.12.3",
+    "date-fns": "^3.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.8.3",
+    "@biomejs/biome": "1.6.2",
+    "@fontsource-variable/eb-garamond": "^5.0.18",
+    "@fontsource/berkshire-swash": "^5.0.19",
+    "@iconify-icon/react": "^2.0.1",
+    "@iconify-json/mdi": "^1.1.65",
+    "@iconify/json": "^2.2.195",
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.9.0",
+    "@vitest/coverage-v8": "^1.4.0",
+    "astro-robots-txt": "^1.0.0",
+    "lefthook": "^1.6.7",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
+  },
+  "trustedDependencies": [
+    "@biomejs/biome",
+    "protobufjs"
+  ]
+}

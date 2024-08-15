@@ -1,0 +1,27 @@
+{
+  "files": {
+    "include": ["playwright-tests/**", "src/**"],
+    "ignore": ["dist/**", "src/lib/resources/**", "src-tauri"]
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "style": {
+        "noParameterAssign": "off"
+      }
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 80,
+    "lineEnding": "lf",
+    "ignore": []
+  }
+}
