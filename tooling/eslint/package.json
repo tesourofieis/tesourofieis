@@ -1,0 +1,32 @@
+{
+  "name": "@tesourofieis/eslint-config",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "exports": {
+    "./base": "./base.js",
+    "./react": "./react.js"
+  },
+  "scripts": {
+    "clean": "git clean -xdf .cache .turbo node_modules",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eslint/compat": "^1.1.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "rc",
+    "eslint-plugin-turbo": "^2.0.13",
+    "typescript-eslint": "^8.1.0"
+  },
+  "devDependencies": {
+    "@tesourofieis/prettier-config": "workspace:*",
+    "@tesourofieis/tsconfig": "workspace:*",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  },
+  "prettier": "@tesourofieis/prettier-config"
+}

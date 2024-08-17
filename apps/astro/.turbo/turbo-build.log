@@ -1,0 +1,16 @@
+
+
+> @tesourofieis/astro@1.20.0 build /home/ofrades/dev/tesourofieis/turboT3/apps/astro
+> astro check && astro build
+
+[31m[2m2:32:01 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to load url @astrojs/markdown-remark (resolved id: @astrojs/markdown-remark) in /home/ofrades/dev/tesourofieis/turboT3/apps/astro/astro.config.mjs. Does the file exist?[39m
+[31m[2m2:32:02 AM[22m [31m[1m[vite][22m[39m [31mError when evaluating SSR module /home/ofrades/dev/tesourofieis/turboT3/apps/astro/astro.config.mjs: failed to import "@astrojs/markdown-remark"
+|- Error: Cannot find module '@astrojs/markdown-remark' imported from '/home/ofrades/dev/tesourofieis/turboT3/apps/astro/astro.config.mjs'
+    at nodeImport (file:///home/ofrades/dev/tesourofieis/turboT3/node_modules/.pnpm/vite@5.4.1_@types+node@20.15.0_lightningcss@1.22.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-Cy9twKMn.js:52933:19)
+    at ssrImport (file:///home/ofrades/dev/tesourofieis/turboT3/node_modules/.pnpm/vite@5.4.1_@types+node@20.15.0_lightningcss@1.22.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-Cy9twKMn.js:52800:22)
+    at eval (/home/ofrades/dev/tesourofieis/turboT3/apps/astro/astro.config.mjs:7:37)
+    at async instantiateModule (file:///home/ofrades/dev/tesourofieis/turboT3/node_modules/.pnpm/vite@5.4.1_@types+node@20.15.0_lightningcss@1.22.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-Cy9twKMn.js:52858:5)
+[39m[39m
+[31m[1m[31m[astro][39m[22m Unable to load your Astro config
+[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

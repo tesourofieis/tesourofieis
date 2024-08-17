@@ -1,30 +1,30 @@
 {
-  "name": "@tesourofieis/source",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {},
+  "name": "tesourofieis",
   "private": true,
-  "workspaces": [
-    "web/*",
-    "native/*"
-  ],
-  "devDependencies": {
-    "@expo/cli": "~0.18.13",
-    "@nx/eslint": "19.6.0",
-    "@nx/expo": "19.6.0",
-    "@nx/react-native": "19.6.0",
-    "@nx/vite": "19.6.0",
-    "@nx/web": "19.6.0",
-    "@vitest/ui": "^1.3.1",
-    "eslint": "~8.57.0",
-    "nx": "19.6.0",
-    "vite": "^5.0.0",
-    "vitest": "^1.3.1"
+  "engines": {
+    "node": ">=20.16.0"
   },
-  "dependencies": {
-    "expo": "~51.0.8",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.74.1"
-  }
+  "packageManager": "pnpm@9.7.1",
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "git clean -xdf node_modules",
+    "clean:workspaces": "turbo run clean",
+    "dev": "turbo watch dev",
+    "format": "turbo run format --continue -- --cache --cache-location .cache/.prettiercache",
+    "format:fix": "turbo run format --continue -- --write --cache --cache-location .cache/.prettiercache",
+    "lint": "turbo run lint --continue -- --cache --cache-location .cache/.eslintcache",
+    "lint:fix": "turbo run lint --continue -- --fix --cache --cache-location .cache/.eslintcache",
+    "lint:ws": "pnpm dlx sherif@latest",
+    "postinstall": "pnpm lint:ws",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "@nxtensions/astro": "^19.0.1",
+    "@tesourofieis/prettier-config": "workspace:*",
+    "@turbo/gen": "^2.0.14",
+    "prettier": "catalog:",
+    "turbo": "^2.0.14",
+    "typescript": "catalog:"
+  },
+  "prettier": "@tesourofieis/prettier-config"
 }
