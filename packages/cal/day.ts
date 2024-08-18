@@ -10,7 +10,7 @@ import {
   TEMPORA_RANK_MAP,
   TITLES,
   TYPE_TEMPORA,
-} from "./constants.ts";
+} from "./constants";
 
 // """ Class used to keep `Observance` objects for particular days of Missal.
 //
@@ -74,7 +74,7 @@ class Observance {
   local?: string;
   outro?: string;
   title: string;
-  priority: number | null;
+  priority: number;
   weekday: number | null;
 
   // """ Build an Observance out of identifier and calendar date
@@ -121,7 +121,7 @@ class Observance {
       this.weekday = getDay(this.date);
     }
 
-    this.priority = this.calcPriority();
+    this.priority = this.calcPriority() || 1000;
   }
 
   private getTempora(name: string): string {

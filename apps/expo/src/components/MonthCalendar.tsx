@@ -3,11 +3,9 @@ import {
   addMonths,
   eachDayOfInterval,
   endOfMonth,
-  endOfWeek,
   format,
   getYear,
   startOfMonth,
-  startOfWeek,
 } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useState } from "react";
@@ -16,7 +14,7 @@ import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { View, Text, Pressable } from "react-native";
 import LinkCard from "./LinkCard";
 
-export function getColor(color) {
+export function getColor(color?: string) {
   switch (color) {
     case "w":
       return "white";
@@ -49,9 +47,6 @@ export default function MonthlyCalendar() {
   const monthStart = format(startOfMonth(currentMonth), "MMMM yyyy", {
     locale: pt,
   });
-  const monthEnd = format(endOfMonth(currentMonth), "MMMM yyyy", {
-    locale: pt,
-  });
 
   const monthDays = eachDayOfInterval({
     start: startOfMonth(currentMonth),
@@ -62,7 +57,7 @@ export default function MonthlyCalendar() {
 
   return (
     <View>
-      {calendar && (
+      {calendar.length && (
         <View className="text-xs">
           <ChangeMonth
             handleNextMonth={handleNextMonth}
@@ -90,18 +85,18 @@ export default function MonthlyCalendar() {
                       {day.celebration.map((celebration) => (
                         <LinkCard
                           key={celebration.id}
-                          href={celebration?.link}
+                          href={celebration.link}
                           caption={"Celebração"}
                           title={celebration.title}
-                          color={getColor(celebration[0]?.colors[0])}
+                          color={getColor(celebration.colors[0])}
                         />
                       ))}
                       {day.tempora.map((tempora) => (
                         <LinkCard
                           key={tempora.id}
-                          href={tempora?.link}
+                          href={tempora.link}
                           caption={tempora.title ? "Celebração" : "Tempora"}
-                          title={tempora.title ?? "Feria"}
+                          title={tempora.title || "Feria"}
                           color={getColor(tempora.colors[0])}
                         />
                       ))}
@@ -126,13 +121,13 @@ export default function MonthlyCalendar() {
                           color={getColor(local.colors[0])}
                         />
                       ))}
-                      {day?.outro?.map((outro) => (
+                      {day.outro.map((outro) => (
                         <LinkCard
                           key={outro.id}
                           href={outro.link}
                           caption="No mesmo dia"
                           title={outro.title}
-                          color={getColor(outro?.colors?.[0])}
+                          color={getColor(outro.colors[0])}
                         />
                       ))}
                     </>
@@ -154,7 +149,7 @@ export default function MonthlyCalendar() {
   );
 }
 
-function ChangeMonth({ handlePreviousMonth, monthStart, handleNextMonth }) {
+function ChangeMonth({ handlePreviousMonth, monthStart, handleNextMonth }: { handlePreviousMonth: () => void; monthStart: string; handleNextMonth: () => void }) {
   return (
     <View className="flex flex-row justify-between items-center px-4 py-2">
       <Pressable

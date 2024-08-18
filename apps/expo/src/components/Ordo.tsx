@@ -1,4 +1,3 @@
-import { Icon } from "@iconify/react/dist/iconify.js";
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import LinkCard from "./LinkCard";
@@ -21,13 +20,13 @@ export default function Ordo({ section }: { section: string }) {
       <LinkCard
         href={`/${
           calendar.celebration.length
-            ? calendar.celebration[0].link
-            : calendar.commemoration[0].link
+            ? calendar.celebration[0]?.link
+            : calendar.commemoration[0]?.link
         }#${section}`}
         title={
           calendar.celebration.length
-            ? calendar.celebration[0].title
-            : calendar.commemoration[0].title
+            ? calendar.celebration[0]?.title
+            :  calendar.commemoration[0]?.title
         }
         description={section.toUpperCase()}
       />

@@ -1,6 +1,6 @@
 import type { UTCDate } from "@date-fns/utc";
 import { format } from "date-fns";
-import type { Observance } from "./day.ts";
+import type { Observance } from "./day";
 
 type Pattern = string | RegExp;
 
@@ -34,8 +34,8 @@ function match(
   }
 }
 
-function yyyyMMDD(date: Date | UTCDate) {
-  return format(date, "yyyy-MM-dd");
+function yyyyMMDD(date?: Date | UTCDate) {
+  return format(date || new Date(), "yyyy-MM-dd");
 }
 
 export { match, yyyyMMDD };

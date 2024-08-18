@@ -1,5 +1,5 @@
 import { getYear } from "date-fns";
-import { Calendar } from "./calendar.ts";
+import { Calendar } from "./calendar";
 
 function getCalendar(year: number) {
   const calendar = new Calendar(year);

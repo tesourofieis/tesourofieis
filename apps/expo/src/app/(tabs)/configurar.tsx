@@ -1,11 +1,10 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect } from "react";
 import { ScrollView, View, Text, Switch } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { COLORS } from "~/constants/Colors";
 import * as Notifications from "expo-notifications";
 
-import { useNotifications, NOTIFICATION_TYPES } from "~/hooks/useNotifications";
-import NotificationBadge from "~/components/NotificationBadge";
+import { useNotifications } from "~/hooks/useNotifications";
 
 export default function Render() {
   const { angelusEnabled, dailyMassEnabled, toggleAngelus, toggleDailyMass } =

@@ -18,7 +18,8 @@
   },
   "devDependencies": {
     "@tesourofieis/tsconfig": "workspace:*",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "@types/node": "catalog:"
   },
   "prettier": "@tesourofieis/prettier-config"
 }

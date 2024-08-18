@@ -19,12 +19,12 @@
     "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
-    "@nxtensions/astro": "^19.0.1",
     "@tesourofieis/prettier-config": "workspace:*",
     "@turbo/gen": "^2.0.14",
     "prettier": "catalog:",
     "turbo": "^2.0.14",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "lefthook": "^1.6.7"
   },
   "prettier": "@tesourofieis/prettier-config"
 }

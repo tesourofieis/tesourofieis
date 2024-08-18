@@ -10,7 +10,7 @@ import {
   isSaturday,
   isSunday,
 } from "date-fns";
-import type { Calendar } from "./calendar.ts";
+import type { Calendar } from "./calendar";
 import {
   COMMUNE_C_10A,
   COMMUNE_C_10B,
@@ -45,9 +45,9 @@ import {
   TEMPORA_PASC1_0,
   TEMPORA_QUAD6_3,
   TYPE_SANCTI,
-} from "./constants.ts";
-import { Observance } from "./day.ts";
-import { match, yyyyMMDD } from "./utils.ts";
+} from "./constants";
+import { Observance } from "./day";
+import { match, yyyyMMDD } from "./utils";
 
 // Nativity Vigil takes place of 4th Advent Sunday.
 function ruleNativityHasMultipleMasses(
@@ -285,7 +285,7 @@ function ruleShiftConflicting1stClassFeasts(
     while (getYear(targetDate) === getYear(date_)) {
       targetDate = addDays(targetDate, 1);
       const allRanks = new Set(
-        calendar.get(yyyyMMDD(targetDate)).all.map((ld) => ld.rank),
+        calendar.get(yyyyMMDD(targetDate))?.all.map((ld) => ld.rank),
       );
       if (!allRanks.has(1) && !allRanks.has(2)) {
         return yyyyMMDD(targetDate);

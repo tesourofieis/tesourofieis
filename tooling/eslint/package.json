@@ -26,7 +26,8 @@
     "@tesourofieis/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "@types/node": "catalog:"
   },
   "prettier": "@tesourofieis/prettier-config"
 }

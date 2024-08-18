@@ -1,5 +1,5 @@
-import { Day, Observance } from "./day.ts";
-import { yyyyMMDD } from "./utils.ts";
+import { Day, Observance } from "./day";
+import { yyyyMMDD } from "./utils";
 
 import {
   ADVENT,
@@ -13,8 +13,8 @@ import {
   SANCTI_10_DUr,
   TEMPORA_NAT2_0,
   WEEK_24_AFTER_PENTECOST,
-} from "./constants.ts";
-import { rules } from "./rules.ts";
+} from "./constants";
+import { rules } from "./rules";
 
 import { UTCDate } from "@date-fns/utc";
 import {
@@ -95,11 +95,14 @@ class Calendar {
     // # Inserting single days
     const holyNameDate = this.calcHolyName(this.year);
 
-    this.container.get(yyyyMMDD(holyNameDate)).celebration = [
-      new Observance(TEMPORA_NAT2_0, yyyyMMDD(holyNameDate)),
-    ];
+    if (this.container.get(yyyyMMDD(holyNameDate))) {
+      this.container.get(yyyyMMDD(holyNameDate)).celebration = [
+        new Observance(TEMPORA_NAT2_0, yyyyMMDD(holyNameDate)),
+      ];
+    }
 
     const christKingDate = this.calcChristKing(this.year);
+
     if (this.container.get(yyyyMMDD(christKingDate))) {
       this.container.get(yyyyMMDD(christKingDate)).celebration = [
         new Observance(SANCTI_10_DUr, yyyyMMDD(christKingDate)),

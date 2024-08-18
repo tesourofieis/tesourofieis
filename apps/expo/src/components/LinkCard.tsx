@@ -10,7 +10,7 @@ export default function LinkCard({
   borderColor = "border-sepia-500 dark:border-sepia-700",
 }: {
   href: string;
-  title: string;
+  title?: string;
   caption?: string;
   description?: string;
   color?: string;
