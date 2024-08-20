@@ -1,3 +1,4 @@
+import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
@@ -6,7 +7,7 @@ export default function LinkCard({
   caption,
   title,
   description,
-  color,
+  color = "sepia",
   borderColor = "border-sepia-500 dark:border-sepia-700",
 }: {
   href: string;
@@ -22,15 +23,19 @@ export default function LinkCard({
         pathname: "/modal",
         params: { url: href },
       }}
-      className={`flex-1 w-full my-1 bg-sepia-200 dark:bg-sepia-800 justify-between text-sepia-600 border rounded-lg ${borderColor} hover:bg-sepia-200 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-400 no-underline p-4`}
+      className={`flex-1 w-full my-1 bg-sepia-200 dark:bg-sepia-800 justify-between text-sepia-600 dark:text-sepia-300 border rounded-lg ${borderColor} hover:bg-sepia-200 dark:hover:bg-sepia-900 border-sepia-300 dark:border-sepia-700 no-underline p-4`}
       asChild
     >
       <View className="flex flex-col justify-start">
-        {caption && <Text className="font-sm font-bold">{caption}</Text>}
-        <View className="">
-          <Text className={`font-bold text-${color}-500`}>{title}</Text>
+        <View className="flex flex-row gap-2">
+          <Text className="text-xs text-sepia-600 dark:text-sepia-300">{description}</Text>
+          {caption && <Text className="text-xs font-bold text-sepia-700 dark:text-sepia-300">|  {caption}</Text>}
         </View>
-        <Text className="text-sepia-600">{description}</Text>
+
+        <View className="flex flex-row gap-2 items-center">
+          <FontAwesome name="circle" color={color} />
+          <Text className={`font-bold text-sepia-600 dark:text-sepia-400`}>{title}</Text>
+        </View>
       </View>
     </Link>
   );

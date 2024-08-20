@@ -11,10 +11,10 @@ export default function TabLayout() {
         headerShown: true,
         headerStatusBarHeight: 1,
         headerTitle: "",
-        tabBarActiveTintColor: COLORS["800"],
-        tabBarActiveBackgroundColor: COLORS["200"],
-        tabBarInactiveTintColor: COLORS["600"],
-        tabBarInactiveBackgroundColor: COLORS["300"],
+        tabBarActiveTintColor: COLORS["200"],
+        tabBarActiveBackgroundColor: COLORS["800"],
+        tabBarInactiveTintColor: COLORS["400"],
+        tabBarInactiveBackgroundColor: COLORS["700"],
       }}
     >
       <Tabs.Screen
@@ -22,7 +22,7 @@ export default function TabLayout() {
         options={{
           title: "Inicío",
           tabBarIcon: ({ color }) => (
-            <FontAwesome size={28} name="home" color={color} />
+            <FontAwesome size={20} name="home" color={color} />
           ),
           tabBarShowLabel: false,
         }}
@@ -32,17 +32,7 @@ export default function TabLayout() {
         options={{
           title: "Calendário",
           tabBarIcon: ({ color }) => (
-            <FontAwesome size={28} name="calendar" color={color} />
-          ),
-          tabBarShowLabel: false,
-        }}
-      />
-      <Tabs.Screen
-        name="configurar"
-        options={{
-          title: "Configurar",
-          tabBarIcon: ({ color }) => (
-            <FontAwesome size={28} name="cogs" color={color} />
+            <FontAwesome size={20} name="calendar" color={color} />
           ),
           tabBarShowLabel: false,
         }}

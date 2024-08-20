@@ -53,11 +53,8 @@ export default function MonthlyCalendar() {
     end: endOfMonth(currentMonth),
   });
 
-  // return <>{JSON.stringify(currentMonth, null, 2)}</>;
-
   return (
     <View>
-      {calendar.length && (
         <View className="text-xs">
           <ChangeMonth
             handleNextMonth={handleNextMonth}
@@ -89,15 +86,17 @@ export default function MonthlyCalendar() {
                           caption={"Celebração"}
                           title={celebration.title}
                           color={getColor(celebration.colors[0])}
+                          description="Missa"
                         />
                       ))}
                       {day.tempora.map((tempora) => (
                         <LinkCard
                           key={tempora.id}
                           href={tempora.link}
-                          caption={tempora.title ? "Celebração" : "Tempora"}
+                          caption={"Tempora"}
                           title={tempora.title || "Feria"}
                           color={getColor(tempora.colors[0])}
+                          description="Missa"
                         />
                       ))}
                       {day.commemoration.map((commemoration) => (
@@ -107,6 +106,7 @@ export default function MonthlyCalendar() {
                           caption="Comemoração"
                           title={commemoration.title}
                           color={getColor(commemoration.colors[0])}
+                          description="Missa"
                         />
                       ))}
                       {day.local.map((local) => (
@@ -119,6 +119,7 @@ export default function MonthlyCalendar() {
                             .join(", ")}`}
                           title={local.title}
                           color={getColor(local.colors[0])}
+                          description="Missa"
                         />
                       ))}
                       {day.outro.map((outro) => (
@@ -128,6 +129,7 @@ export default function MonthlyCalendar() {
                           caption="No mesmo dia"
                           title={outro.title}
                           color={getColor(outro.colors[0])}
+                          description="Missa"
                         />
                       ))}
                     </>
@@ -144,12 +146,11 @@ export default function MonthlyCalendar() {
             handlePreviousMonth={handlePreviousMonth}
           />
         </View>
-      )}
     </View>
   );
 }
 
-function ChangeMonth({ handlePreviousMonth, monthStart, handleNextMonth }: { handlePreviousMonth: () => void; monthStart: string; handleNextMonth: () => void }) {
+function ChangeMonth({ handlePreviousMonth, monthStart, handleNextMonth }: { handlePreviousMonth: () => void ; monthStart: string; handleNextMonth: () => void }) {
   return (
     <View className="flex flex-row justify-between items-center px-4 py-2">
       <Pressable

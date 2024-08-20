@@ -13,18 +13,21 @@ import "react-native-reanimated";
 
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
-import { COLORS } from "~/constants/Colors";
+import { COLORS } from "../constants/Colors";
+import React from "react";
 
 SplashScreen.preventAutoHideAsync();
 
 export { ErrorBoundary } from "expo-router";
 
+import "../styles.css"
+
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    Goudy: require("../assets/fonts/GoudyBookletter1911.otf"),
-    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
-    Garamond: require("../assets/fonts/EBGaramond-VariableFont_wght.ttf"),
-    Berkshire: require("../assets/fonts/BerkshireSwash-Regular.ttf"),
+    Goudy: require("~/fonts/GoudyBookletter1911.otf"),
+    SpaceMono: require("~/fonts/SpaceMono-Regular.ttf"),
+    Garamond: require("~/fonts/EBGaramond-VariableFont_wght.ttf"),
+    Berkshire: require("~/fonts/BerkshireSwash-Regular.ttf"),
     ...FontAwesome.font,
   });
 
@@ -81,7 +84,7 @@ function RootLayoutNav() {
           <Stack.Screen
             name="modal"
             options={{
-              title: "Voltar",
+              headerShown: false,
               animation: "simple_push",
             }}
           />

@@ -7,12 +7,12 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   scheme: "com.tesourofieis.app",
   version: "0.1.0",
   orientation: "portrait",
-  icon: "./assets/icon.png",
+  icon: "./assets/images/favicon.png",
   userInterfaceStyle: "automatic",
   splash: {
-    image: "./assets/icon.png",
+    image: "./assets/images/icon.png",
     resizeMode: "contain",
-    backgroundColor: "#1F104A",
+    backgroundColor: "#1d2021",
   },
   updates: {
     fallbackToCacheTimeout: 0,
@@ -25,8 +25,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   android: {
     package: "com.tesourofieis.app",
     adaptiveIcon: {
-      foregroundImage: "./assets/icon.png",
-      backgroundColor: "#1F104A",
+      foregroundImage: "./assets/images/favicon.png",
+      backgroundColor: "#1d2021",
     },
   },
   extra: {

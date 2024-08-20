@@ -31,6 +31,7 @@ export default function DailyCalendar() {
             key={celebration.link}
             href={celebration.link}
             caption={"Celebração"}
+              description="Missa"
             title={celebration.title}
             color={getColor(celebration.colors[0])}
           />
@@ -41,7 +42,8 @@ export default function DailyCalendar() {
             <LinkCard
               key={tempora.link}
               href={tempora.link}
-              caption={tempora.title ? "Celebração" : "Tempora"}
+              description="Missa"
+              caption={"Tempora"}
               title={tempora.title || "Feria"}
               color={getColor(tempora.colors[0])}
             />
@@ -53,6 +55,7 @@ export default function DailyCalendar() {
           key={commemoration.link}
           href={commemoration.link}
           caption="Comemoração"
+              description="Missa"
           title={commemoration.title}
           color={getColor(commemoration.colors[0])}
         />
@@ -66,6 +69,7 @@ export default function DailyCalendar() {
             .split("-")
             .join(", ")}`}
           title={local.title}
+              description="Missa"
           color={getColor(local.colors[0])}
         />
       ))}
@@ -74,6 +78,7 @@ export default function DailyCalendar() {
           key={outro.link}
           href={outro.link}
           caption="No mesmo dia"
+              description="Missa"
           title={outro.title}
           color={getColor(outro.colors[0])}
         />
