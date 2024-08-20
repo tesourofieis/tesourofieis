@@ -56,7 +56,7 @@ export default function Render() {
 
 
           <View className="flex items-center">
-            <Text className="m-3 border shadow-md shadow-black border-sepia-700 dark:border-sepia-300 rounded w-24 text-center p-2 bg-sepia-600 dark:bg-sepia-400 text-sepia-200 dark:text-sepia-800">
+            <Text className="border shadow rounded text-center px-4 m-2 py-2 bg-sepia-700 dark:bg-sepia-300 text-sepia-300 dark:text-sepia-700 border-sepia-900 dark:border-sepia-100">
               <Link href={{
                 pathname: "/modal",
                 params: { url: "" },
@@ -66,7 +66,7 @@ export default function Render() {
             </Text>
           </View>
 
-        <View className="border border-sepia-50 dark:border-sepia-900 bg-sepia-300 rounded-lg m-3 p-3 shadow">
+        <View className="border border-sepia-50 dark:border-sepia-900 bg-sepia-300 dark:bg-sepia-700 rounded-lg m-5 p-3 shadow">
             <View className="flex-1 items-center justify-center p-2">
               <Text className="font-bold text-xs text-sepia-600 dark:text-sepia-400">
                 {format(currentDate, "EEEE, dd MMMM", {
@@ -117,9 +117,9 @@ export default function Render() {
             </View>
           </View>
 
-        <View className="border border-sepia-50 dark:border-sepia-900 bg-sepia-300 rounded-lg m-3 p-3 shadow">
+        <View className="border border-sepia-50 dark:border-sepia-900 bg-sepia-300 dark:bg-sepia-700 rounded-lg m-5 p-3 shadow">
           <Text className="text-lg text-center p-3 dark:text-sepia-200">Notificações 🔔</Text>
-          <View className={`flex flex-row my-1 bg-sepia-200 dark:bg-sepia-800 justify-between items-center text-sepia-600 dark:text-sepia-300 border rounded-lg hover:bg-sepia-200 dark:hover:bg-sepia-900 border-sepia-300 dark:border-sepia-700 no-underline px-3`}>
+          <View className={`flex flex-row my-1 bg-sepia-200 dark:bg-sepia-800 justify-between items-center text-sepia-600 dark:text-sepia-300 border rounded-lg hover:bg-sepia-200 dark:hover:bg-sepia-900 border-sepia-100 dark:border-sepia-900 no-underline px-3 shadow`}>
             <Text className="text-sepia-800 dark:text-sepia-200">Angelus</Text>
             <Switch
               trackColor={{ false: COLORS["600"], true: COLORS["400"] }}

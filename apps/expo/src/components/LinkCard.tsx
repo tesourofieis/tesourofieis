@@ -23,7 +23,7 @@ export default function LinkCard({
         pathname: "/modal",
         params: { url: href },
       }}
-      className={`flex-1 w-full my-1 bg-sepia-200 dark:bg-sepia-800 justify-between text-sepia-600 dark:text-sepia-300 border rounded-lg ${borderColor} hover:bg-sepia-200 dark:hover:bg-sepia-900 border-sepia-300 dark:border-sepia-700 no-underline p-4`}
+      className={`flex-1 w-full my-1 bg-sepia-200 dark:bg-sepia-800 justify-between text-sepia-600 dark:text-sepia-300 border rounded-lg ${borderColor} hover:bg-sepia-200 dark:hover:bg-sepia-900 border-sepia-100 dark:border-sepia-900 no-underline p-4 shadow`}
       asChild
     >
       <View className="flex flex-col justify-start">
