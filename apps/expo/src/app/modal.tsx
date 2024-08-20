@@ -1,7 +1,7 @@
-import { useLocalSearchParams } from "expo-router";
+import { StyleSheet } from "react-native";
 import { WebView } from "react-native-webview";
 import Constants from "expo-constants";
-import { StyleSheet } from "react-native";
+import { useLocalSearchParams } from "expo-router";
 
 export default function Modal() {
   const { url } = useLocalSearchParams();

@@ -12,7 +12,6 @@ import { useColorScheme } from "nativewind";
 import "react-native-reanimated";
 
 import { SafeAreaProvider } from "react-native-safe-area-context";
-import { StatusBar } from "expo-status-bar";
 import { COLORS } from "../constants/Colors";
 import React from "react";
 
@@ -49,7 +48,7 @@ export default function RootLayout() {
 }
 
 function RootLayoutNav() {
-  const { colorScheme, toggleColorScheme } = useColorScheme();
+  const { colorScheme } = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 
   const CustomLightTheme = {
@@ -77,7 +76,6 @@ function RootLayoutNav() {
   };
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
-      <StatusBar style="dark" translucent />
       <SafeAreaProvider>
         <Stack>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
