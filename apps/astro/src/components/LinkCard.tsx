@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 
 export default function LinkCard({
-  link,
+  href,
   caption,
   title,
   description,
@@ -9,7 +9,7 @@ export default function LinkCard({
   icon,
   borderColor = "border-sepia-500 dark:border-sepia-700",
 }: {
-  link?: string;
+  href?: string;
   title: string;
   caption?: string;
   description?: string;
@@ -19,19 +19,20 @@ export default function LinkCard({
 }) {
   return (
     <a
-      href={link}
-      className={`flex w-full justify-between text-sepia-600 shadow border rounded ${borderColor} hover:bg-sepia-200 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-400 no-underline p-4`}
+      href={href}
+      className={`my-2 flex w-full items-center justify-between rounded border text-sepia-600 shadow ${borderColor} p-4 no-underline hover:border-sepia-800 hover:bg-sepia-200 dark:hover:border-sepia-400 dark:hover:bg-sepia-900`}
     >
       <div className="flex flex-col">
         {caption && <p className="font-sm font-bold">{caption}</p>}
         <div className="flex items-center gap-2">
-          {color && (
+          {color && icon && (
             <Icon className={`text-${color}`} color={color} icon={icon} />
           )}
           <span className="font-bold">{title}</span>
         </div>
         <span className="text-sepia-600">{description}</span>
       </div>
+      <Icon color="white" icon="mdi:chevron-right" />
     </a>
   );
 }

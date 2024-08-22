@@ -5,11 +5,18 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "check-types": "tsc --noEmit"
+    "check-types": "tsc --noEmit",
+    "update-snapshot": "vitest -u ./src/tests",
+    "coverage": "vitest --coverage ./src/tests",
+    "test": "vitest ."
   },
   "dependencies": {
     "date-fns": "catalog:",
     "@date-fns/utc": "catalog:"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.4.0",
+    "vitest": "^1.4.0"
   },
   "prettier": "@tesourofieis/prettier-config"
 }

@@ -1,13 +1,15 @@
-import { defineConfig, passthroughImageService } from "astro/config";
-import starlight from "@astrojs/starlight";
-import tailwind from "@astrojs/tailwind";
-import { sidebar } from "./sidebar.ts";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
+import netlify from "@astrojs/netlify";
+import partytown from "@astrojs/partytown";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
-import partytown from "@astrojs/partytown";
+import starlight from "@astrojs/starlight";
+import tailwind from "@astrojs/tailwind";
 import robotsTxt from "astro-robots-txt";
-import netlify from "@astrojs/netlify";
+import { defineConfig, passthroughImageService } from "astro/config";
+
+import { sidebar } from "./sidebar.ts";
+
 const site = "https://tesourofieis.com";
 
 // https://astro.build/config
@@ -163,8 +165,15 @@ export default defineConfig({
       },
       sidebar: sidebar,
       customCss: [
-        "@fontsource/berkshire-swash",
-        "@fontsource-variable/eb-garamond",
+        "./src/assets/fonts/SpaceMono-Regular.ttf",
+        "./src/assets/fonts/BerkshireSwash-Regular.ttf",
+        "./src/assets/fonts/GoudyBookletter1911.otf",
+        "./src/assets/fonts/GeistVF.woff",
+        "./src/assets/fonts/Geist-Black.woff",
+        "./src/assets/fonts/LibreCaslonText-Bold.ttf",
+        "./src/assets/fonts/LibreCaslonText-Italic.ttf",
+        "./src/assets/fonts/LibreCaslonText-Regular.ttf",
+        "./src/assets/fonts/EBGaramond-VariableFont_wght.ttf",
         "./src/tailwind.css",
       ],
     }),

@@ -212,10 +212,10 @@ class Calendar {
   private applyRules(date: string, shifted: Observance[]) {
     for (const rule of rules) {
       const results = rule(
-        this,
+        this.container.get(date)?.celebration.concat(shifted),
         date,
+        this,
         this.container.get(date)?.tempora,
-        this.container.get(date).celebration.concat(shifted),
       );
 
       if (results) {
@@ -223,7 +223,7 @@ class Calendar {
       }
     }
 
-    return [this.container.get(date).celebration, [], []];
+    return [this.container.get(date)?.celebration, [], []];
   }
 
   private calcEasterSunday(year: number): Date {
@@ -246,11 +246,8 @@ class Calendar {
     return easter;
   }
 
-  private calcHolyFamily(year: number): Date {
-    // Feast of the Holy Family - First Sunday after Epiphany (06 January).
-    const d = new UTCDate(year, 0, 6); // Months are zero-indexed in JavaScript
-
-    return nextSunday(d);
+  private calcHolyFamily(): Date {
+    return nextSunday(new UTCDate(this.year, 0, 6));
   }
 
   private calcSeptuagesima(year: number): Date {
@@ -375,28 +372,27 @@ class Calendar {
     return null;
   }
 
-  get(date: string) {
+  public get(date: string) {
     return this.container.get(date);
   }
 
-  findDay(observanceId: string) {
-    for (const [date_, day] of this.container) {
+  public findDay(observanceId: string): [string, Day] | undefined {
+    for (const [date, day] of this.container) {
       if (day.all.some((observance) => observance.id === observanceId)) {
-        return [date_, day];
+        return [date, day];
       }
     }
+    return undefined;
   }
 
   private items() {
     return this.container.entries();
   }
 
-  serialize(): { [date: string]: Day } {
-    const serialized = {};
-    for (const [date_, day] of this.items()) {
-      serialized[date_] = day.serialize();
-    }
-    return serialized;
+  public serialize(): Record<string, ReturnType<Day['serialize']>> {
+    return Object.fromEntries(
+      Array.from(this.container, ([date, day]) => [date, day.serialize()])
+    );
   }
 }
 

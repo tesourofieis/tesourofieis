@@ -52,20 +52,20 @@ export default function Render() {
   return (
     <SafeAreaView>
       <ScrollView>
-        <View className="mt-5 flex flex-col items-center justify-center gap-5">
+        <View className="flex flex-col items-center justify-center gap-5">
           <Image
             alt="Logo"
-            source={require("~/images/icon.png")}
+            source={require("~/images/favicon.png")}
             style={{
               width: win.width,
               height: win.height / 5,
             }}
           />
-          <Text className="h1 text-4xl">Tesouro dos Fiéis</Text>
+          <Text className="h1 text-5xl">Tesouro dos Fiéis</Text>
         </View>
 
         <View className="flex items-center">
-          <Text className="m-2 rounded border border-sepia-900 bg-sepia-700 px-4 py-2 text-center text-sepia-300 shadow shadow-sepia-100 dark:border-sepia-100 dark:bg-sepia-300 dark:text-sepia-700">
+          <Text className="m-2 rounded-lg border border-sepia-400 bg-sepia-300 px-4 py-2 text-center text-sepia-800 dark:border-sepia-600 dark:bg-sepia-700 dark:text-sepia-300">
             <Link
               href={{
                 pathname: "/modal",
@@ -75,14 +75,18 @@ export default function Render() {
               Ir{" "}
               <FontAwesome
                 name="book"
-                color={colorScheme === "light" ? COLORS["300"] : COLORS["700"]}
+                color={colorScheme === "light" ? COLORS["700"] : COLORS["300"]}
               />
             </Link>
           </Text>
         </View>
 
-        <View className="m-5 rounded-lg border border-sepia-50 bg-sepia-300 p-3 shadow dark:border-sepia-900 dark:bg-sepia-700">
+        <View className="m-5 rounded-lg border border-sepia-400 bg-sepia-200 p-3 dark:border-sepia-600 dark:bg-sepia-800">
           <View className="flex-1 items-center justify-center p-2">
+            <Text className="p-3 text-center text-lg dark:text-sepia-200">
+              Hoje <FontAwesome name="calendar" />
+            </Text>
+
             <Text className="text-xs font-bold text-sepia-600 dark:text-sepia-400">
               {format(currentDate, "EEEE, dd MMMM", {
                 locale: pt,
@@ -131,12 +135,12 @@ export default function Render() {
           </View>
         </View>
 
-        <View className="m-5 rounded-lg border border-sepia-50 bg-sepia-300 p-3 shadow dark:border-sepia-900 dark:bg-sepia-700">
+        <View className="m-5 rounded-lg border border-sepia-400 bg-sepia-200 p-3 shadow dark:border-sepia-600 dark:bg-sepia-800">
           <Text className="p-3 text-center text-lg dark:text-sepia-200">
-            Notificações 🔔
+            Notificações <FontAwesome name="bell" />
           </Text>
           <View
-            className={`my-1 flex flex-row items-center justify-between rounded-lg border border-sepia-100 bg-sepia-200 px-3 text-sepia-600 no-underline shadow hover:bg-sepia-200 dark:border-sepia-900 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900`}
+            className={`my-1 flex flex-row items-center justify-between rounded-lg border border-sepia-400 bg-sepia-200 px-3 text-sepia-600 no-underline shadow hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900`}
           >
             <Text className="text-sepia-800 dark:text-sepia-200">Angelus</Text>
             <Switch
@@ -150,7 +154,7 @@ export default function Render() {
           </View>
 
           <View
-            className={`my-1 flex flex-row items-center justify-between rounded-lg border border-sepia-300 bg-sepia-200 px-3 text-sepia-600 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900`}
+            className={`my-1 flex flex-row items-center justify-between rounded-lg border border-sepia-400 bg-sepia-200 px-3 text-sepia-600 no-underline hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900`}
           >
             <Text className="text-sepia-800 dark:text-sepia-200">
               Missa do Dia

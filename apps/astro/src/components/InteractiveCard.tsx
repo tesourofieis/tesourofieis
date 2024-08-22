@@ -1,8 +1,9 @@
+import { useEffect, useState } from "react";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
-import { useEffect, useState } from "react";
+
+import LinkCard from "~/components/LinkCard";
 import Calendar from "./Calendar";
-import LinkCard from "./LinkCard";
 import Office from "./Office";
 
 export default function InteractiveCard() {
@@ -45,8 +46,8 @@ export default function InteractiveCard() {
   const currentPrayer = getPrayer(date);
 
   return (
-    <div className="flex flex-col shadow border rounded border-sepia-500 dark:border-sepia-700 hover:bg-sepia-100 dark:hover:bg-sepia-900 hover:border-sepia-800 dark:hover:border-sepia-600 no-underline p-4 gap-5">
-      <div className="flex justify-between not-content">
+    <div className="flex flex-col gap-5 rounded border border-sepia-500 p-4 no-underline shadow hover:border-sepia-800 hover:bg-sepia-100 dark:border-sepia-700 dark:hover:border-sepia-600 dark:hover:bg-sepia-900">
+      <div className="not-content flex justify-between">
         <h2>Dia e Hora</h2>
       </div>
       <span className="font-bold">

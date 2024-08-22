@@ -35,6 +35,10 @@
       "cache": false,
       "interactive": true
     },
+    "test": {
+      "cache": false,
+      "interactive": true
+    },
     "ui-add": {
       "cache": false,
       "interactive": true

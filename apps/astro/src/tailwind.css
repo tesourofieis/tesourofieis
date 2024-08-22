@@ -2,6 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Display";
+  /* Use a relative path to the local font file in `url()`. */
+  src: url("./assets/fonts/BerkshireSwash-Regular.ttf");
+  font-weight: normal;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Serif";
+  /* Use a relative path to the local font file in `url()`. */
+  src: url("./assets/fonts/LibreCaslonText-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Serif";
+  /* Use a relative path to the local font file in `url()`. */
+  src: url("./assets/fonts/LibreCaslonText-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Serif";
+  /* Use a relative path to the local font file in `url()`. */
+  src: url("./assets/fonts/LibreCaslonText-BV.ttf");
+  font-weight: normal;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("./assets/fonts/GeistVF.woff") format("woff");
+  font-weight: 800;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mono";
+  src: url("./assets/fonts/SpaceMono-Regular.ttf");
+  font-weight: normal;
+  font-style: monospace;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Title";
+  src: url("./assets/fonts/Geist-Black.woff") format("woff");
+  font-weight: 800;
+  font-style: bold;
+  font-display: swap;
+}
+
 @layer base {
   /* Dark Theme */
   :root {
@@ -42,30 +102,24 @@
 
   body {
     @apply font-body;
-    font-size: 1.26rem;
-    line-height: 1.6;
   }
 
   h1 {
-    @apply font-display;
+    @apply font-body;
     color: theme("colors.red.600") !important;
   }
 
-  h2 {
-    @apply font-display text-center;
-    color: theme("colors.red.600") !important;
-  }
-
+  h2,
   h3,
   h4,
   h5,
   h6 {
-    @apply font-display text-center;
+    @apply text-center font-title;
   }
 }
 
 .side-by-side {
-  @apply grid grid-cols-2 gap-5 text-justify;
+  @apply grid grid-cols-2 gap-5 text-justify font-body;
 }
 
 .cross {
@@ -74,12 +128,12 @@
 }
 
 aside:not([class]) {
-  @apply p-4 rounded bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  @apply rounded bg-sepia-200 p-4 font-mono text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   border-inline-start: 0.25rem solid;
 }
 
 em {
-  @apply py-1 px-1 rounded bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  @apply rounded bg-sepia-200 px-1 py-1 font-sans italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
 }
 
 /* aside a { */

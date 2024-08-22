@@ -1,5 +1,6 @@
 import { expect, test } from "vitest";
-import { getCalendarDay } from "../getCalendar";
+
+import { getCalendarDay } from "../../getCalendar";
 
 test("sabado santo", () => {
   const calendar = getCalendarDay("2024-03-30");

@@ -22,13 +22,15 @@ banner:
     - Nossa Senhora de Fátima
 ---
 
-import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
+import { Card, CardGrid } from "@astrojs/starlight/components";
 
-import Download from "../../components/Download";
+import LinkCard from "~/components/LinkCard";
+
+import Download from "~/components/Download";
 
 <Download client:only="react" />
 
-import InteractiveCard from "../../components/InteractiveCard";
+import InteractiveCard from "~/components/InteractiveCard";
 
 <InteractiveCard client:only="react" />
 

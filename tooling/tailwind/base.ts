@@ -25,13 +25,21 @@ export default {
       },
       fontFamily: {
         display: [
-          "Berkshire",
+          "Display",
           ...defaultTheme.fontFamily.serif,
           ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
         ],
-        mono: ["SpaceMono", ...defaultTheme.fontFamily.mono],
+        title: [
+          "Title",
+          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
+        ],
+        sans: [
+          "Geist",
+          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
+        ],
+        mono: ["Mono", ...defaultTheme.fontFamily.mono],
         body: [
-          "Goudy",
+          "Serif",
           ...defaultTheme.fontFamily.serif,
           ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
         ],

@@ -10,6 +10,7 @@ import {
   isSaturday,
   isSunday,
 } from "date-fns";
+
 import type { Calendar } from "./calendar";
 import {
   COMMUNE_C_10A,
@@ -37,12 +38,14 @@ import {
   SANCTI_01_01,
   SANCTI_02_24,
   SANCTI_02_27,
+  SANCTI_09_15,
   SANCTI_09_29,
   SANCTI_11_02,
   SANCTI_12_24,
   SANCTI_12_25_1,
   SANCTI_12_30,
   TEMPORA_PASC1_0,
+  TEMPORA_QUAD5_5,
   TEMPORA_QUAD6_3,
   TYPE_SANCTI,
 } from "./constants";
@@ -51,9 +54,6 @@ import { match, yyyyMMDD } from "./utils";
 
 // Nativity Vigil takes place of 4th Advent Sunday.
 function ruleNativityHasMultipleMasses(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
   observances: Observance[],
 ) {
   const nativityObservance = match(observances, SANCTI_12_25_1);
@@ -65,12 +65,23 @@ function ruleNativityHasMultipleMasses(
   }
 }
 
+function sevenSorrowsOnFridayAfterPassionSunday(
+  observances: Observance[],
+  date_: string,
+) {
+  const fridayAfterPassion = match(observances, TEMPORA_QUAD5_5);
+  console.log(fridayAfterPassion)
+  if (fridayAfterPassion) {
+    const sevenSorrow = new Observance(SANCTI_09_15, date_);
+
+    return [[fridayAfterPassion, sevenSorrow], [], []];
+  }
+}
+
 // All Souls Day; if not Sunday - Nov 2, else Nov 3; additionally, it has three masses
 function ruleAllSouls(
-  _calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
   observances: Observance[],
+  date_: string,
 ) {
   if (match(observances, SANCTI_11_02)) {
     const allSouls = observances
@@ -85,10 +96,8 @@ function ruleAllSouls(
 
 // Nativity Vigil takes place of 4th Advent Sunday.
 function ruleNativityVigil(
-  _calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
   observances: Observance[],
+  date_: string,
 ) {
   if (match(observances, SANCTI_12_24) && isSunday(date_)) {
     return [[match(observances, SANCTI_12_24)], [], []];
@@ -97,10 +106,8 @@ function ruleNativityVigil(
 
 // If 30 December is sunday, octave of christmas is celebrated
 function ruleNativityOctaveFeria(
-  _calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
   observances: Observance[],
+  date_: string,
 ) {
   if (match(observances, SANCTI_12_30) && isSunday(date_)) {
     return [[match(observances, SANCTI_01_01)], [], []];
@@ -109,10 +116,8 @@ function ruleNativityOctaveFeria(
 
 // St. Matthias the Apostle, normally on Feb 24, but in leap year on Feb 25
 function ruleStMatthias(
-  _calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
   observances: Observance[],
+  date_: string,
 ) {
   if (
     match(observances, SANCTI_02_24) &&
@@ -134,10 +139,8 @@ function ruleStMatthias(
 
 // Feb 27, normally on Feb 27 but in leap year on Feb 28
 function ruleFeb27(
-  _calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
   observances: Observance[],
+  date_: string,
 ) {
   if (
     match(observances, SANCTI_02_27) &&
@@ -159,13 +162,13 @@ function ruleFeb27(
 
 // On feria Saturdays (4th class) the celebration is B. M. V. Saturdays on the given period
 function ruleBmvOfficeOnSaturday(
-  calendar: Calendar,
-  date_: string,
-  tempora: Observance[],
   observances: Observance[],
+  date_: string,
+  calendar: Calendar,
+  tempora?: Observance[],
 ) {
   function calcProperForGivenPeriod() {
-    if (match(tempora, PATTERN_ADVENT)) {
+    if (tempora && match(tempora, PATTERN_ADVENT)) {
       return COMMUNE_C_10A; // B. M. V. Saturdays in Advent
     }
 
@@ -185,7 +188,7 @@ function ruleBmvOfficeOnSaturday(
       return COMMUNE_C_10C; // B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
     }
 
-    if (match(tempora, PATTERN_EASTER)) {
+    if (tempora && match(tempora, PATTERN_EASTER)) {
       return COMMUNE_C_10PASC; // B. M. V. Saturdays in Easter period
     }
 
@@ -206,10 +209,8 @@ function ruleBmvOfficeOnSaturday(
 }
 
 function ruleSameClassFeastsTakeOverAdventFeriaAndEmberDays(
-  _calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
   observances: Observance[],
+  date_: string,
 ) {
   const advOrEmber = match(observances, [...EMBER_DAYS, PATTERN_ADVENT]);
 
@@ -231,9 +232,6 @@ function ruleSameClassFeastsTakeOverAdventFeriaAndEmberDays(
 }
 
 function ruleLentCommemoration(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
   observances: Observance[],
 ) {
   const lentObservance = match(observances, PATTERN_LENT);
@@ -261,10 +259,9 @@ function ruleLentCommemoration(
 }
 
 function ruleShiftConflicting1stClassFeasts(
-  calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
   observances: Observance[],
+  date_: string,
+  calendar: Calendar,
 ) {
   // # If there are two feasts with 1st class, the one with lower priority on Precedence Table is shifted to the first
   // # day where there is no 1st and 2nd class feast.
@@ -309,10 +306,9 @@ function ruleShiftConflicting1stClassFeasts(
 // if we have first and second class feasts
 // transfer second class to next available
 function ruleShiftConflictingSecondClassFeasts(
-  calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
   observances: Observance[],
+  date_: string,
+  calendar: Calendar,
 ) {
   function calcTargetDate() {
     let targetDate = new UTCDate(date_);
@@ -340,9 +336,6 @@ function ruleShiftConflictingSecondClassFeasts(
 }
 
 function ruleLordFeast(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
   observances: Observance[],
 ) {
   if (
@@ -355,10 +348,8 @@ function ruleLordFeast(
 
 // When 2nd class Sunday occurs along with 2nd class feast, the Sunday takes precedence and the feast is commemorated
 function rule2ndClassSundayTempora(
-  _calendar: Calendar,
-  date_: string,
-  _tempora: Observance[],
   observances: Observance[],
+  date_: string,
 ) {
   const patternSundayClass_2 = match(observances, PATTERN_SUNDAY);
 
@@ -377,9 +368,6 @@ function rule2ndClassSundayTempora(
 }
 
 function ruleCommemoration(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
   observances: Observance[],
 ) {
   const patternSancti = match(observances, PATTERN_SANCTI);
@@ -445,9 +433,6 @@ function ruleCommemoration(
 }
 
 function rule4thClassFeriaAreRemovedFromCelebration(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
   observances: Observance[],
 ) {
   const fourthClassTempora = match(observances, PATTERN_TEMPORA_CLASS_4);
@@ -464,9 +449,6 @@ function rule4thClassFeriaAreRemovedFromCelebration(
 }
 
 function ruleGeneral(
-  _calendar: Calendar,
-  _date_: string,
-  _tempora: Observance[],
   observances: Observance[],
 ) {
   // Default rule for situations not handled by any of the above
@@ -495,6 +477,7 @@ export const rules = [
   ruleNativityOctaveFeria,
   ruleStMatthias,
   ruleFeb27,
+  sevenSorrowsOnFridayAfterPassionSunday,
   ruleSameClassFeastsTakeOverAdventFeriaAndEmberDays,
   ruleLentCommemoration,
   ruleShiftConflicting1stClassFeasts,

@@ -11,22 +11,22 @@ import { useColorScheme } from "nativewind";
 
 import "react-native-reanimated";
 
-import { SafeAreaProvider } from "react-native-safe-area-context";
-import { COLORS } from "../constants/Colors";
 import React from "react";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+
+import { COLORS } from "../constants/Colors";
+
+import "../styles.css";
 
 SplashScreen.preventAutoHideAsync();
 
 export { ErrorBoundary } from "expo-router";
 
-import "../styles.css"
-
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    Goudy: require("~/fonts/GoudyBookletter1911.otf"),
-    SpaceMono: require("~/fonts/SpaceMono-Regular.ttf"),
-    Garamond: require("~/fonts/EBGaramond-VariableFont_wght.ttf"),
-    Berkshire: require("~/fonts/BerkshireSwash-Regular.ttf"),
+    Mono: require("~/fonts/SpaceMono-Regular.ttf"),
+    Serif: require("~/fonts/EBGaramond-VariableFont_wght.ttf"),
+    Display: require("~/fonts/BerkshireSwash-Regular.ttf"),
     ...FontAwesome.font,
   });
 

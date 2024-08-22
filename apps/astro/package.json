@@ -9,9 +9,6 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "vitest ./src/tests",
-    "update-snapshot": "vitest -u ./src/tests",
-    "bench": "vitest bench",
-    "coverage": "vitest --coverage ./src/tests",
     "deploy-preview": "wrangler pages dev ./dist",
     "lint": "eslint",
     "typecheck": "tsc --noEmit"
@@ -46,7 +43,6 @@
     "@types/node": "catalog:",
     "@types/react": "catalog:react18",
     "@types/react-dom": "catalog:react18",
-    "@vitest/coverage-v8": "^1.4.0",
     "astro-robots-txt": "^1.0.0",
     "eslint": "catalog:",
     "prettier": "catalog:",
