@@ -71,10 +71,16 @@ function sevenSorrowsOnFridayAfterPassionSunday(
 ) {
   const fridayAfterPassion = match(observances, TEMPORA_QUAD5_5);
   console.log(fridayAfterPassion)
+
+
+  const sancti = match(observances, PATTERN_SANCTI);
   if (fridayAfterPassion) {
     const sevenSorrow = new Observance(SANCTI_09_15, date_);
 
-    return [[fridayAfterPassion, sevenSorrow], [], []];
+    if(sancti){
+      return [[sevenSorrow], [sancti], []]
+    }
+    return [[sevenSorrow], [], []];
   }
 }
 
