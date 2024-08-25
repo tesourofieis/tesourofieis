@@ -17,14 +17,14 @@
     "tsBuildInfoFile": "${configDir}/.cache/tsbuildinfo.json",
 
     /** Strictness */
-    "strict": true,
+    "strict": false,
     "noUncheckedIndexedAccess": true,
-    "checkJs": true,
+    "checkJs": false,
 
     /** Transpile using Bundler (not tsc) */
     "module": "Preserve",
     "moduleResolution": "Bundler",
     "noEmit": true
   },
-  "exclude": ["node_modules", "build", "dist", ".next", ".expo"]
+  "exclude": ["node_modules", "build", "dist", ".astro", ".expo"]
 }

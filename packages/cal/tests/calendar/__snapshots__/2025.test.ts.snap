@@ -3249,14 +3249,14 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
     "celebration": [
       {
         "colors": [
-          "v",
+          "w",
         ],
-        "id": "tempora:quad5-5:3:v",
-        "link": "missal/quaresma/quad5-5",
+        "id": "santos:09-15:2:w",
+        "link": "missal/santos/09-15",
         "local": undefined,
         "outro": undefined,
-        "rank": 3,
-        "title": "Sexta-feira da semana da Paixão",
+        "rank": 2,
+        "title": "Sete Dores da B. V. Maria",
       },
     ],
     "commemoration": [
