@@ -3,6 +3,7 @@ import { basename, resolve } from "node:path";
 import { getYear } from "date-fns";
 import { describe, expect, test } from "vitest";
 
+import type { Day } from "@tesourofieis/cal/day";
 import { getCalendar } from "@tesourofieis/cal/getCalendar";
 
 describe("link", () => {
@@ -11,22 +12,22 @@ describe("link", () => {
   const allPages = getAllPagesContent("src/content/docs/missal");
 
   const links = Object.values(calendar)
-    .filter((i) => i.celebration.length)
-    .map((day) => day.celebration[0].link)
+    .filter((i: Day) => i.celebration.length)
+    .map((day: Day) => day.celebration[0].link)
     .concat(
       Object.values(calendar)
-        .filter((i) => i.tempora.length)
-        .map((day) => day.tempora[0].link),
+        .filter((i: Day) => i.tempora.length)
+        .map((day: Day) => day.tempora[0].link),
     )
     .concat(
       Object.values(calendar)
-        .filter((i) => i.local.length)
-        .map((day) => day.local[0].link),
+        .filter((i: Day) => i.local.length)
+        .map((day: Day) => day.local[0].link),
     )
     .concat(
       Object.values(calendar)
-        .filter((i) => i.commemoration.length)
-        .map((day) => day.commemoration[0].link),
+        .filter((i: Day) => i.commemoration.length)
+        .map((day: Day) => day.commemoration[0].link),
     );
 
   for (const link of links) {

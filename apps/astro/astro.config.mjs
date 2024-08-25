@@ -18,7 +18,7 @@ export default defineConfig({
   output: "hybrid",
   experimental: {
     contentCollectionCache: true,
-    contentLayer: true
+    contentLayer: true,
   },
   integrations: [
     starlight({
@@ -192,9 +192,6 @@ export default defineConfig({
   ],
   markdown: {
     rehypePlugins: [rehypeHeadingIds],
-  },
-  test: {
-    watch: false,
   },
   vite: {
     server: {

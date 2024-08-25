@@ -41,6 +41,7 @@ export const useNotifications = () => {
     for (const notification of scheduledNotifications) {
       const trigger = notification.trigger;
       const isAngelus = ANGELUS_TIMES.some(
+        // @ts-ignore
         (time) => time.hour === trigger.hour && time.minute === trigger.minute,
       );
 
@@ -60,11 +61,13 @@ export const useNotifications = () => {
         await Notifications.getAllScheduledNotificationsAsync();
 
       const hasAngelus = scheduledNotifications.some((notification) =>
+        // @ts-ignore
         ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour),
       );
       setAngelusEnabled(hasAngelus);
 
       const hasDailyMass = scheduledNotifications.some(
+        // @ts-ignore
         (notification) => DAILY_MASS_TIME.hour === notification.trigger.hour,
       );
       setDailyMassEnabled(hasDailyMass);
@@ -96,6 +99,7 @@ export const useNotifications = () => {
       await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
       if (
+        // @ts-ignore
         ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour)
       ) {
         await Notifications.cancelScheduledNotificationAsync(
@@ -108,48 +112,44 @@ export const useNotifications = () => {
 
   const prepareDailyMassNotification = useCallback((date: Date) => {
     const calendar = getCalendarDay(yyyyMMDD(date));
-    if (calendar) {
-      const day = calendar.celebration[0] ?? calendar.tempora[0];
+    const day = calendar.celebration[0] ?? calendar.tempora[0];
 
-      const titleParts = [];
-      const subTitleParts = [];
-      let link = "";
+    const titleParts = [];
+    const subTitleParts = [];
+    let link = "";
 
-      if (day) {
-        titleParts.push(day.title || "Feria");
-        link = day.link || "";
-      }
+    titleParts.push(day.title || "Feria");
+    link = day.link || "";
 
-      if (calendar.commemoration.length) {
-        subTitleParts.push(`Com. ${calendar.commemoration[0]?.title}`);
-      }
-
-      if (calendar.local.length) {
-        const localInfo = calendar.local[0];
-        subTitleParts.push(
-          `Local: ${localInfo?.local?.toLocaleUpperCase().split("-").join(", ")}`,
-        );
-      }
-
-      if (calendar.outro.length) {
-        subTitleParts.push(`Outro: ${calendar.outro[0]?.title}`);
-      }
-
-      const color =
-        calendar.celebration[0]?.colors[0] ?? calendar.tempora[0]?.colors[0];
-
-      const notificationTitle = "Missa do Dia";
-      const mass = titleParts.join(" - ");
-      const other = subTitleParts.join(" - ");
-
-      return {
-        title: notificationTitle,
-        body: other,
-        data: { url: link },
-        color: getColor(color),
-        subtitle: mass,
-      };
+    if (calendar.commemoration.length) {
+      subTitleParts.push(`Com. ${calendar.commemoration[0]?.title}`);
     }
+
+    if (calendar.local.length) {
+      const localInfo = calendar.local[0];
+      subTitleParts.push(
+        `Local: ${localInfo.local.toLocaleUpperCase().split("-").join(", ")}`,
+      );
+    }
+
+    if (calendar.outro.length) {
+      subTitleParts.push(`Outro: ${calendar.outro[0]?.title}`);
+    }
+
+    const color =
+      calendar.celebration[0]?.colors[0] ?? calendar.tempora[0]?.colors[0];
+
+    const notificationTitle = "Missa do Dia";
+    const mass = titleParts.join(" - ");
+    const other = subTitleParts.join(" - ");
+
+    return {
+      title: notificationTitle,
+      body: other,
+      data: { url: link },
+      color: getColor(color),
+      subtitle: mass,
+    };
   }, []);
 
   const scheduleMassForWeek = useCallback(async () => {
@@ -164,7 +164,7 @@ export const useNotifications = () => {
       const notificationContent = prepareDailyMassNotification(date);
 
       await Notifications.scheduleNotificationAsync({
-        content: notificationContent ?? "",
+        content: notificationContent,
         trigger: {
           hour: DAILY_MASS_TIME.hour,
           minute: DAILY_MASS_TIME.minute,

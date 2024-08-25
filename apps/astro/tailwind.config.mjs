@@ -1,6 +1,6 @@
 import starlightPlugin from "@astrojs/starlight-tailwind";
 
-import baseConfig from "@tesourofieis/tailwind-config/base";
+import baseConfig from "@tesourofieis/tailwind-config/web";
 
 /** @type {import('tailwindcss').Config} */
 export default {
