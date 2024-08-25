@@ -8,7 +8,7 @@ import tailwind from "@astrojs/tailwind";
 import robotsTxt from "astro-robots-txt";
 import { defineConfig, passthroughImageService } from "astro/config";
 
-import { sidebar } from "./sidebar.ts";
+import { sidebar } from "./sidebar";
 
 const site = "https://tesourofieis.com";
 
@@ -18,6 +18,7 @@ export default defineConfig({
   output: "hybrid",
   experimental: {
     contentCollectionCache: true,
+    contentLayer: true
   },
   integrations: [
     starlight({

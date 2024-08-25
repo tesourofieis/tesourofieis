@@ -89,7 +89,7 @@ export default function MonthlyCalendar() {
                       {day.celebration.map((celebration) => (
                         <LinkCard
                           key={celebration.id}
-                          link={celebration?.link}
+                          href={celebration?.link}
                           caption={"Celebração"}
                           title={celebration.title}
                           color={getColor(celebration[0]?.colors[0])}
@@ -99,7 +99,7 @@ export default function MonthlyCalendar() {
                       {day.tempora.map((tempora) => (
                         <LinkCard
                           key={tempora.id}
-                          link={tempora?.link}
+                          href={tempora?.link}
                           caption={tempora.title ? "Celebração" : "Tempora"}
                           title={tempora.title ?? "Feria"}
                           color={getColor(tempora.colors[0])}
@@ -109,7 +109,7 @@ export default function MonthlyCalendar() {
                       {day.commemoration.map((commemoration) => (
                         <LinkCard
                           key={commemoration.id}
-                          link={commemoration.link}
+                          href={commemoration.link}
                           caption="Comemoração"
                           title={commemoration.title}
                           color={getColor(commemoration.colors[0])}
@@ -119,7 +119,7 @@ export default function MonthlyCalendar() {
                       {day.local.map((local) => (
                         <LinkCard
                           key={local.id}
-                          link={local.link}
+                          href={local.link}
                           caption={`Local: ${local.local
                             .toLocaleUpperCase()
                             .split("-")
@@ -132,7 +132,7 @@ export default function MonthlyCalendar() {
                       {day?.outro?.map((outro) => (
                         <LinkCard
                           key={outro.id}
-                          link={outro.link}
+                          href={outro.link}
                           caption="No mesmo dia"
                           title={outro.title}
                           color={getColor(outro?.colors?.[0])}

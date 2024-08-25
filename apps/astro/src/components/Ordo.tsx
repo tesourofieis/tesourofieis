@@ -19,7 +19,7 @@ export default function Ordo({ section }: { section: string }) {
     <div className="flex gap-5 p-8">
       <Icon icon="mdi:arrow-right" />
       <LinkCard
-        link={`/${
+        href={`/${
           calendar.celebration.length
             ? calendar.celebration[0].link
             : calendar.commemoration[0].link

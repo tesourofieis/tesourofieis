@@ -64,7 +64,7 @@ class Calendar {
     // Days depending on variable date, such as Easter or Advent
     // """
     // # Inserting blocks
-    this.insertBlock(this.calcHolyFamily(this.year), POST_EPIPHANY);
+    this.insertBlock(this.calcHolyFamily(), POST_EPIPHANY);
     this.insertBlock(
       this.calcSeptuagesima(this.year),
       FROM_PRE_LENT_TO_POST_PENTECOST,

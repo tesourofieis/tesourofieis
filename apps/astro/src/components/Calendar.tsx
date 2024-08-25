@@ -60,7 +60,7 @@ export default function DailyCalendar() {
                       day.celebration.map((celebration) => (
                         <LinkCard
                           key={celebration.link}
-                          link={celebration?.link}
+                          href={celebration?.link}
                           caption={"Celebração"}
                           title={celebration.title}
                           color={getColor(celebration?.colors?.[0])}
@@ -72,7 +72,7 @@ export default function DailyCalendar() {
                         {day?.tempora?.map((tempora) => (
                           <LinkCard
                             key={tempora.link}
-                            link={tempora?.link}
+                            href={tempora?.link}
                             caption={tempora.title ? "Celebração" : "Tempora"}
                             title={tempora.title ?? "Feria"}
                             color={getColor(tempora?.colors?.[0])}
@@ -84,7 +84,7 @@ export default function DailyCalendar() {
                     {day?.commemoration?.map((commemoration) => (
                       <LinkCard
                         key={commemoration.link}
-                        link={commemoration.link}
+                        href={commemoration.link}
                         caption="Comemoração"
                         title={commemoration.title}
                         color={getColor(commemoration?.colors?.[0])}
@@ -94,7 +94,7 @@ export default function DailyCalendar() {
                     {day?.local?.map((local) => (
                       <LinkCard
                         key={local.link}
-                        link={local.link}
+                        href={local.link}
                         caption={`Local: ${local.local
                           .toLocaleUpperCase()
                           .split("-")
@@ -107,7 +107,7 @@ export default function DailyCalendar() {
                     {day?.outro?.map((outro) => (
                       <LinkCard
                         key={outro.link}
-                        link={outro.link}
+                        href={outro.link}
                         caption="No mesmo dia"
                         title={outro.title}
                         color={getColor(outro?.colors?.[0])}

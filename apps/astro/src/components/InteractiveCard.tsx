@@ -58,20 +58,20 @@ export default function InteractiveCard() {
       <Office />
       {currentPrayer.isAngelus && (
         <LinkCard
-          link="/devocionario/dia/angelus"
+          href="/devocionario/dia/angelus"
           title="Angelus"
           description="Hora do Angelus"
         />
       )}
       {currentPrayer.isMorning && (
         <LinkCard
-          link="/devocionario/dia/oracaomanha"
+          href="/devocionario/dia/oracaomanha"
           title="Oração da Manhã"
         />
       )}
       {currentPrayer.isNight && (
         <LinkCard
-          link="/devocionario/dia/oracaonoite"
+          href="/devocionario/dia/oracaonoite"
           title="Oração da Noite"
         />
       )}
