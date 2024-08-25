@@ -2,15 +2,14 @@ name: CI
 
 on:
   pull_request:
-    branches:
-      - master
+    branches: ["*"]
+  push:
+    branches: ["main"]
+  merge_group:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: ${{ github.ref != 'refs/heads/master' }}
-
-env:
-  FORCE_COLOR: 3
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 jobs:
   lint:
@@ -18,26 +17,41 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: "pnpm"
-
-      - shell: bash
-        run: pnpm add -g turbo
-
-      - shell: bash
-        run: pnpm install
+      - name: Setup
+        uses: ./tooling/github/setup
 
       - name: Lint
         run: pnpm lint && pnpm lint:ws
 
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup
+        uses: ./tooling/github/setup
+
       - name: Format
         run: pnpm format
+
+  typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup
+        uses: ./tooling/github/setup
 
       - name: Typecheck
         run: pnpm typecheck
 
-      - name: Test
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup
+        uses: ./tooling/github/setup
+
+      - name: Typecheck
         run: pnpm test

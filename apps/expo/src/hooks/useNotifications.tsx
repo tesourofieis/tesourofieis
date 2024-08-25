@@ -1,8 +1,9 @@
-import { useState, useEffect, useCallback } from "react";
+import { useCallback, useEffect, useState } from "react";
 import * as Notifications from "expo-notifications";
+import { addDays } from "date-fns";
+
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
-import { addDays } from "date-fns";
 
 function getColor(color?: string) {
   switch (color) {
@@ -34,14 +35,19 @@ export const useNotifications = () => {
   const [dailyMassEnabled, setDailyMassEnabled] = useState(false);
 
   const cleanupNotifications = useCallback(async () => {
-    const scheduledNotifications = await Notifications.getAllScheduledNotificationsAsync();
-    
+    const scheduledNotifications =
+      await Notifications.getAllScheduledNotificationsAsync();
+
     for (const notification of scheduledNotifications) {
-      const trigger = notification.trigger as any;
-      const isAngelus = ANGELUS_TIMES.some(time => time.hour === trigger.hour && time.minute === trigger.minute);
-      
+      const trigger = notification.trigger;
+      const isAngelus = ANGELUS_TIMES.some(
+        (time) => time.hour === trigger.hour && time.minute === trigger.minute,
+      );
+
       if (!isAngelus) {
-        await Notifications.cancelScheduledNotificationAsync(notification.identifier);
+        await Notifications.cancelScheduledNotificationAsync(
+          notification.identifier,
+        );
       }
     }
   }, []);
@@ -50,23 +56,21 @@ export const useNotifications = () => {
     const checkExistingNotifications = async () => {
       await cleanupNotifications();
 
-      const scheduledNotifications = await Notifications.getAllScheduledNotificationsAsync();
+      const scheduledNotifications =
+        await Notifications.getAllScheduledNotificationsAsync();
 
       const hasAngelus = scheduledNotifications.some((notification) =>
-        ANGELUS_TIMES.some(
-          (time) => time.hour === (notification.trigger).hour,
-        ),
+        ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour),
       );
       setAngelusEnabled(hasAngelus);
 
       const hasDailyMass = scheduledNotifications.some(
-        (notification) =>
-          DAILY_MASS_TIME.hour === (notification.trigger).hour,
+        (notification) => DAILY_MASS_TIME.hour === notification.trigger.hour,
       );
       setDailyMassEnabled(hasDailyMass);
     };
 
-    checkExistingNotifications();
+    void checkExistingNotifications();
   }, [cleanupNotifications]);
 
   const scheduleAngelus = useCallback(async () => {
@@ -88,12 +92,11 @@ export const useNotifications = () => {
   }, []);
 
   const cancelAngelus = useCallback(async () => {
-    const scheduledNotifications = await Notifications.getAllScheduledNotificationsAsync();
+    const scheduledNotifications =
+      await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
       if (
-        ANGELUS_TIMES.some(
-          (time) => time.hour === (notification.trigger as any).hour,
-        )
+        ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour)
       ) {
         await Notifications.cancelScheduledNotificationAsync(
           notification.identifier,
@@ -105,46 +108,48 @@ export const useNotifications = () => {
 
   const prepareDailyMassNotification = useCallback((date: Date) => {
     const calendar = getCalendarDay(yyyyMMDD(date));
-    const day = calendar?.celebration[0] ?? calendar?.tempora[0];
+    if (calendar) {
+      const day = calendar.celebration[0] ?? calendar.tempora[0];
 
-    const titleParts = [];
-    const subTitleParts = [];
-    let link = "";
+      const titleParts = [];
+      const subTitleParts = [];
+      let link = "";
 
-    if (day) {
-      titleParts.push(day.title || "Feria");
-      link = day.link || "";
+      if (day) {
+        titleParts.push(day.title || "Feria");
+        link = day.link || "";
+      }
+
+      if (calendar.commemoration.length) {
+        subTitleParts.push(`Com. ${calendar.commemoration[0]?.title}`);
+      }
+
+      if (calendar.local.length) {
+        const localInfo = calendar.local[0];
+        subTitleParts.push(
+          `Local: ${localInfo?.local?.toLocaleUpperCase().split("-").join(", ")}`,
+        );
+      }
+
+      if (calendar.outro.length) {
+        subTitleParts.push(`Outro: ${calendar.outro[0]?.title}`);
+      }
+
+      const color =
+        calendar.celebration[0]?.colors[0] ?? calendar.tempora[0]?.colors[0];
+
+      const notificationTitle = "Missa do Dia";
+      const mass = titleParts.join(" - ");
+      const other = subTitleParts.join(" - ");
+
+      return {
+        title: notificationTitle,
+        body: other,
+        data: { url: link },
+        color: getColor(color),
+        subtitle: mass,
+      };
     }
-
-    if (calendar?.commemoration.length) {
-      subTitleParts.push(`Com. ${calendar.commemoration[0]?.title}`);
-    }
-
-    if (calendar?.local.length) {
-      const localInfo = calendar.local[0];
-      subTitleParts.push(
-        `Local: ${localInfo?.local?.toLocaleUpperCase().split("-").join(", ")}`,
-      );
-    }
-
-    if (calendar?.outro.length) {
-      subTitleParts.push(`Outro: ${calendar.outro[0]?.title}`);
-    }
-
-    const color =
-      calendar?.celebration[0]?.colors[0] ?? calendar?.tempora[0]?.colors[0];
-
-    const notificationTitle = "Missa do Dia";
-    const mass = titleParts.join(" - ");
-    const other = subTitleParts.join(" - ");
-
-    return {
-      title: notificationTitle,
-      body: other,
-      data: { url: link },
-      color: getColor(color),
-      subtitle: mass,
-    };
   }, []);
 
   const scheduleMassForWeek = useCallback(async () => {
@@ -159,12 +164,12 @@ export const useNotifications = () => {
       const notificationContent = prepareDailyMassNotification(date);
 
       await Notifications.scheduleNotificationAsync({
-        content: notificationContent,
+        content: notificationContent ?? "",
         trigger: {
           hour: DAILY_MASS_TIME.hour,
           minute: DAILY_MASS_TIME.minute,
           weekday: ((currentDay + i) % 7) + 1, // Adjust to match the correct weekday (1 = Sunday, 7 = Saturday)
-          repeats: true
+          repeats: true,
         },
       });
     }
@@ -173,7 +178,7 @@ export const useNotifications = () => {
 
   useEffect(() => {
     // Reschedule notifications every time the app runs
-    scheduleMassForWeek();
+    void scheduleMassForWeek();
   }, [scheduleMassForWeek]);
 
   const toggleDailyMass = useCallback(async () => {

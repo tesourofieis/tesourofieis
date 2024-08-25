@@ -1,5 +1,5 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import { Stack } from "expo-router";
-import * as SplashScreen from "expo-splash-screen";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { ThemeProvider } from "@react-navigation/native";
 
@@ -18,8 +18,6 @@ import { COLORS } from "../constants/Colors";
 
 import "../styles.css";
 
-SplashScreen.preventAutoHideAsync();
-
 export { ErrorBoundary } from "expo-router";
 
 export default function RootLayout() {
@@ -33,12 +31,6 @@ export default function RootLayout() {
   useEffect(() => {
     if (error) throw error;
   }, [error]);
-
-  useEffect(() => {
-    if (loaded) {
-      SplashScreen.hideAsync();
-    }
-  }, [loaded]);
 
   if (!loaded) {
     return null;

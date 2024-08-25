@@ -1,23 +1,19 @@
 {
-  "name": "@tesourofieis/tailwind-config",
-  "version": "0.1.0",
+  "name": "@tesourofieis/{{ name }}",
   "private": true,
+  "version": "0.1.0",
   "type": "module",
   "exports": {
-    "./native": "./native.ts",
-    "./web": "./web.ts"
+    ".": "./src/index.ts"
   },
   "license": "MIT",
   "scripts": {
-    "clean": "git clean -xdf .cache .turbo node_modules",
+    "build": "tsc",
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "dev": "tsc",
     "format": "prettier --check . --ignore-path ../../.gitignore",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "postcss": "^8.4.41",
-    "tailwindcss": "catalog:",
-    "tailwindcss-animate": "^1.0.7"
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "devDependencies": {
     "@tesourofieis/eslint-config": "workspace:*",

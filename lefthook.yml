@@ -6,9 +6,8 @@ pre-commit:
     lint:
       run: pnpm lint
 
-
 pre-push:
   parallel: true
   commands:
     test:
-      run: pnpm run test
+      run: pnpm test

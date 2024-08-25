@@ -6,10 +6,12 @@ import { useLocalSearchParams } from "expo-router";
 export default function Modal() {
   const { url } = useLocalSearchParams();
 
+  const newLocal = url ?? "";
   return (
     <WebView
       style={styles.container}
-      source={{ uri: `https://tesourofieis.com/${url}` }}
+      // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
+      source={{ uri: `https://tesourofieis.com/${newLocal}` }}
       startInLoadingState={true}
       cacheEnabled={true}
     />

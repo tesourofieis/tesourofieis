@@ -9,7 +9,6 @@ node_modules
 coverage
 
 # astro
-.dist/
 .astro/
 
 # expo
@@ -35,6 +34,9 @@ yarn-error.log*
 # local env files
 .env
 .env*.local
+
+# vercel
+.vercel
 
 # typescript
 dist/

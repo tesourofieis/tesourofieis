@@ -55,6 +55,7 @@ export default function Render() {
         <View className="flex flex-col items-center justify-center gap-5">
           <Image
             alt="Logo"
+            // eslint-disable-next-line @typescript-eslint/no-require-imports
             source={require("~/images/favicon.png")}
             style={{
               width: win.width,
@@ -65,7 +66,7 @@ export default function Render() {
         </View>
 
         <View className="flex items-center">
-          <Text className="m-2 rounded-lg border border-sepia-400 bg-sepia-300 px-4 py-2 text-center text-sepia-800 dark:border-sepia-600 dark:bg-sepia-700 dark:text-sepia-300">
+          <Text className="border-sepia-400 bg-sepia-300 text-sepia-800 dark:border-sepia-600 dark:bg-sepia-700 dark:text-sepia-300 m-2 rounded-lg border px-4 py-2 text-center">
             <Link
               href={{
                 pathname: "/modal",
@@ -81,13 +82,13 @@ export default function Render() {
           </Text>
         </View>
 
-        <View className="m-5 rounded-lg border border-sepia-400 bg-sepia-200 p-3 dark:border-sepia-600 dark:bg-sepia-800">
+        <View className="border-sepia-400 bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 m-5 rounded-lg border p-3">
           <View className="flex-1 items-center justify-center p-2">
-            <Text className="p-3 text-center text-lg dark:text-sepia-200">
+            <Text className="dark:text-sepia-200 p-3 text-center text-lg">
               Hoje <FontAwesome name="calendar" />
             </Text>
 
-            <Text className="text-xs font-bold text-sepia-600 dark:text-sepia-400">
+            <Text className="text-sepia-600 dark:text-sepia-400 text-xs font-bold">
               {format(currentDate, "EEEE, dd MMMM", {
                 locale: pt,
               }).toUpperCase()}
@@ -99,7 +100,7 @@ export default function Render() {
           </View>
 
           <View className="flex-1 items-center justify-center p-2">
-            <Text className="text-xs font-bold text-sepia-600 dark:text-sepia-400">
+            <Text className="text-sepia-600 dark:text-sepia-400 text-xs font-bold">
               {format(currentDate, "HH:mm", {
                 locale: pt,
               }).toUpperCase()}
@@ -135,12 +136,12 @@ export default function Render() {
           </View>
         </View>
 
-        <View className="m-5 rounded-lg border border-sepia-400 bg-sepia-200 p-3 shadow dark:border-sepia-600 dark:bg-sepia-800">
-          <Text className="p-3 text-center text-lg dark:text-sepia-200">
+        <View className="border-sepia-400 bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 m-5 rounded-lg border p-3 shadow">
+          <Text className="dark:text-sepia-200 p-3 text-center text-lg">
             Notificações <FontAwesome name="bell" />
           </Text>
           <View
-            className={`my-1 flex flex-row items-center justify-between rounded-lg border border-sepia-400 bg-sepia-200 px-3 text-sepia-600 no-underline shadow hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900`}
+            className={`border-sepia-400 bg-sepia-200 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline shadow`}
           >
             <Text className="text-sepia-800 dark:text-sepia-200">Angelus</Text>
             <Switch
@@ -154,7 +155,7 @@ export default function Render() {
           </View>
 
           <View
-            className={`my-1 flex flex-row items-center justify-between rounded-lg border border-sepia-400 bg-sepia-200 px-3 text-sepia-600 no-underline hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900`}
+            className={`border-sepia-400 bg-sepia-200 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline`}
           >
             <Text className="text-sepia-800 dark:text-sepia-200">
               Missa do Dia
