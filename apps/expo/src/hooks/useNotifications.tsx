@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useState } from "react";
-import * as Notifications from "expo-notifications";
 import { addDays } from "date-fns";
+import * as Notifications from "expo-notifications";
+import { useCallback, useEffect, useState } from "react";
 
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
@@ -112,32 +112,32 @@ export const useNotifications = () => {
 
   const prepareDailyMassNotification = useCallback((date: Date) => {
     const calendar = getCalendarDay(yyyyMMDD(date));
-    const day = calendar.celebration[0] ?? calendar.tempora[0];
+    const day = calendar?.celebration[0] ?? calendar?.tempora[0];
 
     const titleParts = [];
     const subTitleParts = [];
     let link = "";
 
-    titleParts.push(day.title || "Feria");
-    link = day.link || "";
+    titleParts.push(day?.title || "Feria");
+    link = day?.link || "";
 
-    if (calendar.commemoration.length) {
-      subTitleParts.push(`Com. ${calendar.commemoration[0]?.title}`);
+    if (calendar?.commemoration.length) {
+      subTitleParts.push(`Com. ${calendar?.commemoration[0]?.title}`);
     }
 
-    if (calendar.local.length) {
-      const localInfo = calendar.local[0];
+    if (calendar?.local.length) {
+      const localInfo = calendar?.local[0];
       subTitleParts.push(
-        `Local: ${localInfo.local.toLocaleUpperCase().split("-").join(", ")}`,
+        `Local: ${localInfo?.local?.toLocaleUpperCase().split("-").join(", ")}`,
       );
     }
 
-    if (calendar.outro.length) {
-      subTitleParts.push(`Outro: ${calendar.outro[0]?.title}`);
+    if (calendar?.outro.length) {
+      subTitleParts.push(`Outro: ${calendar?.outro[0]?.title}`);
     }
 
     const color =
-      calendar.celebration[0]?.colors[0] ?? calendar.tempora[0]?.colors[0];
+      calendar?.celebration[0]?.colors[0] ?? calendar?.tempora[0]?.colors[0];
 
     const notificationTitle = "Missa do Dia";
     const mass = titleParts.join(" - ");

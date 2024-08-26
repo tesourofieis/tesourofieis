@@ -5,7 +5,7 @@ import { CardGrid, LinkCard } from "@astrojs/starlight/components";
 const { slug } = Astro.params;
 
 const allPages = await getCollection("docs");
-const searchPages = allPages.filter((p) => {
+const _searchPages = allPages.filter((p) => {
   const idParts = p.id.split("/");
   const slugParts = slug.split("/");
 

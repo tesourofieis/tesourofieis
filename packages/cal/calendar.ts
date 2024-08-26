@@ -95,16 +95,18 @@ class Calendar {
     // # Inserting single days
     const holyNameDate = this.calcHolyName(this.year);
 
-    if (this.container.get(yyyyMMDD(holyNameDate))) {
-      this.container.get(yyyyMMDD(holyNameDate)).celebration = [
+    const holyName = this.container.get(yyyyMMDD(holyNameDate));
+    if (holyName) {
+      holyName.celebration = [
         new Observance(TEMPORA_NAT2_0, yyyyMMDD(holyNameDate)),
       ];
     }
 
     const christKingDate = this.calcChristKing(this.year);
 
-    if (this.container.get(yyyyMMDD(christKingDate))) {
-      this.container.get(yyyyMMDD(christKingDate)).celebration = [
+    const christKing = this.container.get(yyyyMMDD(christKingDate));
+    if (christKing) {
+      christKing.celebration = [
         new Observance(SANCTI_10_DUr, yyyyMMDD(christKingDate)),
       ];
     }
@@ -141,17 +143,14 @@ class Calendar {
         break;
       }
 
-      if (isSameDay(stopDate, subDays(currentDate, 1))) {
+      if (stopDate && isSameDay(stopDate, subDays(currentDate, 1))) {
         break;
       }
 
-      if (this.container.get(dateKey)) {
-        this.container.get(dateKey).tempora = [
-          new Observance(observanceIds, dateKey),
-        ];
-        this.container.get(dateKey).celebration = [
-          ...this.container.get(dateKey).tempora,
-        ];
+      const findDate = this.container.get(dateKey);
+      if (findDate) {
+        findDate.tempora = [new Observance(observanceIds, dateKey)];
+        findDate.celebration = [...findDate.tempora];
       }
     }
   }
@@ -194,8 +193,11 @@ class Calendar {
         shiftedAll[date] || [],
       );
 
-      this.container.get(date).celebration = celebration as Observance[];
-      this.container.get(date).commemoration = commemoration as Observance[];
+      const findDate = this.container.get(date);
+      if (findDate) {
+        findDate.celebration = celebration as Observance[];
+        findDate.commemoration = commemoration as Observance[];
+      }
 
       if (shifted) {
         // @ts-ignore
@@ -211,15 +213,18 @@ class Calendar {
 
   private applyRules(date: string, shifted: Observance[]) {
     for (const rule of rules) {
-      const results = rule(
-        this.container.get(date)?.celebration.concat(shifted),
-        date,
-        this,
-        this.container.get(date)?.tempora,
-      );
+      const findDate = this.container.get(date);
+      if (findDate) {
+        const results = rule(
+          findDate.celebration.concat(shifted),
+          date,
+          this,
+          this.container.get(date)?.tempora,
+        );
 
-      if (results) {
-        return results;
+        if (results) {
+          return results;
+        }
       }
     }
 
@@ -389,9 +394,9 @@ class Calendar {
     return this.container.entries();
   }
 
-  public serialize(): Record<string, ReturnType<Day['serialize']>> {
+  public serialize(): Record<string, ReturnType<Day["serialize"]>> {
     return Object.fromEntries(
-      Array.from(this.container, ([date, day]) => [date, day.serialize()])
+      Array.from(this.container, ([date, day]) => [date, day.serialize()]),
     );
   }
 }

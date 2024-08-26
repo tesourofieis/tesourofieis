@@ -44,3 +44,7 @@ dist/
 
 # turbo
 .turbo
+apps/astro/.turbo
+apps/astro/.turbo
+packages/cal/.turbo
+packages/cal/.turbo

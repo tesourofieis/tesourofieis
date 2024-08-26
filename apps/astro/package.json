@@ -10,8 +10,7 @@
     "astro": "astro",
     "deploy-preview": "wrangler pages dev ./dist",
     "clean": "git clean -xdf .cache .next .turbo node_modules",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
-    "lint": "eslint",
+    "lint": "biome check --write --unsafe --files-ignore-unknown=true",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -38,21 +37,15 @@
     "@iconify/json": "^2.2.195",
     "@iconify/react": "^5.0.1",
     "@playwright/test": "^1.42.1",
-    "@tesourofieis/eslint-config": "workspace:*",
-    "@tesourofieis/prettier-config": "workspace:*",
     "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/node": "catalog:",
     "@types/react": "catalog:react18",
     "@types/react-dom": "catalog:react18",
     "astro-robots-txt": "^1.0.0",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
     "tailwindcss": "catalog:",
     "typescript": "catalog:",
     "vitest": "^1.4.0"
   },
-  "trustedDependencies": [
-    "protobufjs"
-  ]
+  "trustedDependencies": ["protobufjs"]
 }

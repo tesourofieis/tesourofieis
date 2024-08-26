@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { Pressable, Text, View } from "react-native";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import {
   addMonths,
@@ -10,6 +8,8 @@ import {
   startOfMonth,
 } from "date-fns";
 import { pt } from "date-fns/locale";
+import React, { useState } from "react";
+import { Pressable, Text, View } from "react-native";
 
 import type { Day } from "@tesourofieis/cal/day";
 import { getCalendar } from "@tesourofieis/cal/getCalendar";
@@ -67,7 +67,7 @@ export default function MonthlyCalendar() {
         <View>
           {monthDays.map((date) => {
             const calendarDate = yyyyMMDD(date);
-            const day: Partial<Day> = calendar[calendarDate];
+            const day: Partial<Day> | undefined = calendar[calendarDate];
             return (
               <View
                 key={calendarDate}
@@ -80,7 +80,7 @@ export default function MonthlyCalendar() {
                 <Text className="mb-1 text-center text-xs font-bold">
                   {format(date, "MMM dd", { locale: pt })}
                 </Text>
-                {day.celebration.map((celebration) => (
+                {day?.celebration?.map((celebration) => (
                   <LinkCard
                     key={celebration.id}
                     href={celebration.link}
@@ -90,7 +90,7 @@ export default function MonthlyCalendar() {
                     description="Missa"
                   />
                 ))}
-                {day.tempora.map((tempora) => (
+                {day?.tempora?.map((tempora) => (
                   <LinkCard
                     key={tempora.id}
                     href={tempora.link}
@@ -100,7 +100,7 @@ export default function MonthlyCalendar() {
                     description="Missa"
                   />
                 ))}
-                {day.commemoration.map((commemoration) => (
+                {day?.commemoration?.map((commemoration) => (
                   <LinkCard
                     key={commemoration.id}
                     href={commemoration.link}
@@ -110,12 +110,12 @@ export default function MonthlyCalendar() {
                     description="Missa"
                   />
                 ))}
-                {day.local.map((local) => (
+                {day?.local?.map((local) => (
                   <LinkCard
                     key={local.id}
                     href={local.link}
                     caption={`Local: ${local.local
-                      .toLocaleUpperCase()
+                      ?.toLocaleUpperCase()
                       .split("-")
                       .join(", ")}`}
                     title={local.title}
@@ -123,7 +123,7 @@ export default function MonthlyCalendar() {
                     description="Missa"
                   />
                 ))}
-                {day.outro.map((outro) => (
+                {day?.outro?.map((outro) => (
                   <LinkCard
                     key={outro.id}
                     href={outro.link}

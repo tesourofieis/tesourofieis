@@ -1,6 +1,6 @@
-import { Text, View } from "react-native";
-import { Link } from "expo-router";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { Link } from "expo-router";
+import { Text, View } from "react-native";
 
 export default function LinkCard({
   href,
@@ -40,7 +40,7 @@ export default function LinkCard({
 
         <View className="flex flex-row items-center gap-2">
           <FontAwesome name="circle" color={color} />
-          <Text className={`font-bold text-sepia-600 dark:text-sepia-400`}>
+          <Text className={"font-bold text-sepia-600 dark:text-sepia-400"}>
             {title}
           </Text>
         </View>

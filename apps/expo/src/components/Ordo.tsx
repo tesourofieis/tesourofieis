@@ -1,8 +1,8 @@
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
+import { View } from "react-native";
 import LinkCard from "./LinkCard";
 import Loading from "./Loading";
-import { View } from "react-native";
 
 export default function Ordo({ section }: { section: string }) {
   const calendar = getCalendarDay(yyyyMMDD(new Date()));
@@ -26,7 +26,7 @@ export default function Ordo({ section }: { section: string }) {
         title={
           calendar.celebration.length
             ? calendar.celebration[0]?.title
-            :  calendar.commemoration[0]?.title
+            : calendar.commemoration[0]?.title
         }
         description={section.toUpperCase()}
       />

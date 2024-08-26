@@ -1,20 +1,42 @@
 
 
-> @tesourofieis/astro@1.20.0 build /home/ofrades/dev/tesourofieis/my-turborepo/apps/astro
+> @tesourofieis/astro@1.20.0 build /home/ofrades/dev/tesourofieis/tesourofieis/apps/astro
 > astro check && astro build
 
-node:internal/modules/cjs/loader:1228
-  throw err;
-  ^
+[33m[1m09:49:55[22m [WARN] [config][39m The adapter @astrojs/netlify provides experimental support for "assets". You may experience issues or breaking changes until this feature is fully supported by the adapter.
+[33m[1m09:49:55[22m [WARN] [config][39m The adapter @astrojs/netlify provides experimental support for "astro:env getSecret". You may experience issues or breaking changes until this feature is fully supported by the adapter.
+[2m09:49:57[22m [34m[content][39m Syncing content
+[2m09:49:57[22m [34m[content][39m Synced content
+[2m09:49:57[22m [34m[types][39m Generated [2m1.60s[22m
+[2m09:49:57[22m [34m[check][39m Getting diagnostics for Astro files in /home/ofrades/dev/tesourofieis/tesourofieis/apps/astro...
+[96msrc/components/Calendar.tsx[0m:[93m31[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'setCurrentDayIndex' is declared but its value is never read.
 
-Error: Cannot find module '/home/ofrades/dev/tesourofieis/my-turborepo/apps/astro/node_modules/astro/astro.js'
-[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)[39m
-[90m    at Module._load (node:internal/modules/cjs/loader:1051:27)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)[39m
-[90m    at node:internal/main/run_main_module:28:49[39m {
-  code: [32m'MODULE_NOT_FOUND'[39m,
-  requireStack: []
-}
+[7m31[0m   const [currentDayIndex, setCurrentDayIndex] = useState(0);
+[7m  [0m [93m                          ~~~~~~~~~~~~~~~~~~[0m
 
-Node.js v20.17.0
+[1mResult (20 files): [22m
+[2m-[22m [1m[31m0 errors[39m[22m
+[2m-[22m [1m[33m0 warnings[39m[22m
+[2m-[22m [2m1 hint
+[22m
+[33m[1m09:50:04[22m [WARN] [config][39m The adapter @astrojs/netlify provides experimental support for "assets". You may experience issues or breaking changes until this feature is fully supported by the adapter.
+[33m[1m09:50:04[22m [WARN] [config][39m The adapter @astrojs/netlify provides experimental support for "astro:env getSecret". You may experience issues or breaking changes until this feature is fully supported by the adapter.
+[2m09:50:06[22m [34m[content][39m Syncing content
+[2m09:50:06[22m [34m[content][39m Synced content
+[2m09:50:06[22m [34m[types][39m Generated [2m1.60s[22m
+[2m09:50:06[22m [34m[build][39m output: [34m"hybrid"[39m
+[2m09:50:06[22m [34m[build][39m directory: [34m/home/ofrades/dev/tesourofieis/tesourofieis/apps/astro/dist/[39m
+[2m09:50:06[22m [34m[build][39m adapter: [32m@astrojs/netlify[39m
+[2m09:50:06[22m [34m[build][39m Collecting build info...
+[2m09:50:06[22m [34m[build][39m [32m✓ Completed in 1.75s.[39m
+[2m09:50:06[22m [34m[build][39m Building hybrid entrypoints...
+[2K[1G[31m[1m09:50:07[22m [ERROR] [vite][39m [31mx[39m Build failed in 1.16s
+[31m[vite:css] [postcss] /home/ofrades/dev/tesourofieis/tesourofieis/apps/astro/src/tailwind.css:1:1: The `font-body` class does not exist. If `font-body` is a custom class, make sure it is defined within a `@layer` directive.
+file: /home/ofrades/dev/tesourofieis/tesourofieis/apps/astro/src/tailwind.css:1:0
+  [1mStack trace:[22m
+[2m    at Input.error (/home/ofrades/dev/tesourofieis/tesourofieis/node_modules/.pnpm/postcss@8.4.41/node_modules/postcss/lib/input.js:106:16)
+    at processApply (/home/ofrades/dev/tesourofieis/tesourofieis/node_modules/.pnpm/tailwindcss@3.4.10_ts-node@10.9.2_@types+node@20.16.1_typescript@5.5.4_/node_modules/tailwindcss/lib/lib/expandApplyAtRules.js:380:29)
+    at /home/ofrades/dev/tesourofieis/tesourofieis/node_modules/.pnpm/tailwindcss@3.4.10_ts-node@10.9.2_@types+node@20.16.1_typescript@5.5.4_/node_modules/tailwindcss/lib/processTailwindFeatures.js:55:50
+    at async LazyResult.runAsync (/home/ofrades/dev/tesourofieis/tesourofieis/node_modules/.pnpm/postcss@8.4.41/node_modules/postcss/lib/lazy-result.js:261:11)
+    at async Object.transform (file:///home/ofrades/dev/tesourofieis/tesourofieis/node_modules/.pnpm/vite@5.4.2_@types+node@20.16.1_lightningcss@1.22.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BzOvws4Y.js:36130:11)[22m[39m
 [41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

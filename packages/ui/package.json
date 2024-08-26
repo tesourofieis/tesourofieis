@@ -21,10 +21,7 @@
     "build": "tsc",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
     "dev": "tsc",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
-    "lint": "eslint",
-    "typecheck": "tsc --noEmit --emitDeclarationOnly false",
-    "ui-add": "pnpm dlx shadcn-ui add && prettier src --write --list-different"
+    "ui-add": "pnpm dlx shadcn-ui add"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -39,12 +36,8 @@
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
-    "@tesourofieis/eslint-config": "workspace:*",
-    "@tesourofieis/prettier-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/react": "catalog:react18",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
     "react": "catalog:react18",
     "typescript": "catalog:",
     "zod": "catalog:"
@@ -52,6 +45,5 @@
   "peerDependencies": {
     "react": "catalog:react18",
     "zod": "catalog:"
-  },
-  "prettier": "@tesourofieis/prettier-config"
+  }
 }

@@ -1,13 +1,13 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
-import { Stack } from "expo-router";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { ThemeProvider } from "@react-navigation/native";
+/* eslint-disable @typescript-eslint/no-require-imports */
+import { Stack } from "expo-router";
 
 import "react-native-reanimated";
 
-import { useEffect } from "react";
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
+import { useEffect } from "react";
 
 import "react-native-reanimated";
 

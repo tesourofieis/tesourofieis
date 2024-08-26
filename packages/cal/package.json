@@ -8,7 +8,8 @@
     "check-types": "tsc --noEmit",
     "update-snapshot": "vitest -u ./src/tests",
     "coverage": "vitest --coverage ./src/tests",
-    "test": "vitest ."
+    "test": "vitest .",
+    "lint": "biome check --write --unsafe --files-ignore-unknown=true"
   },
   "dependencies": {
     "date-fns": "catalog:",
@@ -17,6 +18,5 @@
   "devDependencies": {
     "@vitest/coverage-v8": "^1.4.0",
     "vitest": "^1.4.0"
-  },
-  "prettier": "@tesourofieis/prettier-config"
+  }
 }

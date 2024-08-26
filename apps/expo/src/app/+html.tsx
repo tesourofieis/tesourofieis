@@ -1,5 +1,5 @@
 import { ScrollViewStyleReset } from "expo-router/html";
-import type {PropsWithChildren} from "react";
+import type { PropsWithChildren } from "react";
 
 /**
  * This file is web-only and used to configure the root HTML for every web page during static rendering.
@@ -19,8 +19,8 @@ export default function Root({ children }: PropsWithChildren) {
           type="text/partytown"
           src="https://www.googletagmanager.com/gtag/js?id=G-CYLKZM1NJQ"
           defer
-        ></script>
-        <script type="text/partytown" defer></script>
+        />
+        <script type="text/partytown" defer />
         <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml" />
         <meta name="generator" content="Astro v4.12.3" />
         <meta name="generator" content="Starlight v0.25.3" />

@@ -1,6 +1,6 @@
-import { useState } from "react";
 import { addDays, format, getYear, startOfToday } from "date-fns";
 import { pt } from "date-fns/locale";
+import { useState } from "react";
 
 import type { Day } from "@tesourofieis/cal/day";
 import { getCalendar } from "@tesourofieis/cal/getCalendar";
@@ -28,7 +28,7 @@ export function getColor(color: string) {
 export default function DailyCalendar() {
   const calendar = getCalendar(getYear(new Date()));
   const today = startOfToday();
-  const [currentDayIndex, setCurrentDayIndex] = useState(0);
+  const [currentDayIndex, _setCurrentDayIndex] = useState(0);
 
   const getDate = (index: number) => {
     return addDays(today, index);
@@ -44,7 +44,7 @@ export default function DailyCalendar() {
         {Array.from({ length: 15 }, (_, i) => currentDayIndex + i).map(
           (index) => {
             const date = yyyyMMDD(getDate(index));
-            const day: Day = calendar[date];
+            const day = calendar[date] as Day;
             return (
               <div
                 key={date}
@@ -57,14 +57,14 @@ export default function DailyCalendar() {
                 <div className="mb-2 text-lg font-semibold">
                   {formatDate(getDate(index))}
                 </div>
-                {day.celebration.length ? (
+                {day?.celebration?.length ? (
                   day.celebration.map((celebration) => (
                     <LinkCard
                       key={celebration.link}
                       href={celebration.link}
                       caption={"Celebração"}
                       title={celebration.title}
-                      color={getColor(celebration.colors[0])}
+                      color={getColor(celebration.colors[0] ?? "")}
                       icon="mdi:tshirt-v"
                     />
                   ))
@@ -76,7 +76,7 @@ export default function DailyCalendar() {
                         href={tempora.link}
                         caption={tempora.title ? "Celebração" : "Tempora"}
                         title={tempora.title || "Feria"}
-                        color={getColor(tempora.colors[0])}
+                        color={getColor(tempora.colors[0] ?? "")}
                         icon="mdi:tshirt-v"
                       />
                     ))}
@@ -88,7 +88,7 @@ export default function DailyCalendar() {
                     href={commemoration.link}
                     caption="Comemoração"
                     title={commemoration.title}
-                    color={getColor(commemoration.colors[0])}
+                    color={getColor(commemoration.colors[0] ?? "")}
                     icon="mdi:tshirt-v"
                   />
                 ))}
@@ -97,11 +97,11 @@ export default function DailyCalendar() {
                     key={local.link}
                     href={local.link}
                     caption={`Local: ${local.local
-                      .toLocaleUpperCase()
+                      ?.toLocaleUpperCase()
                       .split("-")
                       .join(", ")}`}
                     title={local.title}
-                    color={getColor(local.colors[0])}
+                    color={getColor(local.colors[0] ?? "")}
                     icon="mdi:tshirt-v"
                   />
                 ))}
@@ -111,7 +111,7 @@ export default function DailyCalendar() {
                     href={outro.link}
                     caption="No mesmo dia"
                     title={outro.title}
-                    color={getColor(outro.colors[0])}
+                    color={getColor(outro.colors[0] ?? "")}
                     icon="mdi:tshirt-v"
                   />
                 ))}

@@ -1,7 +1,10 @@
+import { View } from "react-native";
+
+import type { Day } from "@tesourofieis/cal/day";
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
+
 import LinkCard from "./LinkCard";
-import { View } from "react-native";
 
 export function getColor(color?: string) {
   switch (color) {
@@ -31,7 +34,7 @@ export default function DailyCalendar() {
             key={celebration.link}
             href={celebration.link}
             caption={"Celebração"}
-              description="Missa"
+            description="Missa"
             title={celebration.title}
             color={getColor(celebration.colors[0])}
           />
@@ -55,7 +58,7 @@ export default function DailyCalendar() {
           key={commemoration.link}
           href={commemoration.link}
           caption="Comemoração"
-              description="Missa"
+          description="Missa"
           title={commemoration.title}
           color={getColor(commemoration.colors[0])}
         />
@@ -69,7 +72,7 @@ export default function DailyCalendar() {
             .split("-")
             .join(", ")}`}
           title={local.title}
-              description="Missa"
+          description="Missa"
           color={getColor(local.colors[0])}
         />
       ))}
@@ -78,7 +81,7 @@ export default function DailyCalendar() {
           key={outro.link}
           href={outro.link}
           caption="No mesmo dia"
-              description="Missa"
+          description="Missa"
           title={outro.title}
           color={getColor(outro.colors[0])}
         />

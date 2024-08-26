@@ -54,6 +54,7 @@ class Day {
     ];
 
     for (const container of containers) {
+      // @ts-ignore
       serialized[container] = this[container].map((item: Day) =>
         item.serialize(),
       );
@@ -75,7 +76,7 @@ class Observance {
   outro?: string;
   title: string;
   priority: number;
-  weekday: number | null;
+  weekday?: number;
 
   // """ Build an Observance out of identifier and calendar date
   //
@@ -92,14 +93,14 @@ class Observance {
     const [_, local] = observanceId.split("@");
     const [_o, outro] = observanceId.split("#");
     this.date = date_;
-    this.flexibility = flexibility;
-    this.name = name;
-    this.rank = this.calcRank(observanceId, Number.parseInt(rank, 10));
-    this.colors = Array.from(color);
-    this.id = `${this.flexibility}:${this.name}:${this.rank}:${color}`;
+    this.flexibility = flexibility!;
+    this.name = name!;
+    this.rank = this.calcRank(observanceId, Number.parseInt(rank!, 10));
+    this.colors = Array.from(color!);
+    this.id = `${this.flexibility}:${this.name}:${this.rank}:${color!}`;
     this.local = local;
     this.outro = outro;
-    this.title = TITLES[observanceId];
+    this.title = TITLES[observanceId]!;
     this.link = this.getLink(observanceId);
 
     // Determine the weekday attribute based on the type of observance
@@ -113,10 +114,12 @@ class Observance {
         COMMUNE_C_10T,
       ].includes(observanceId)
     ) {
-      if (name.replace(/^.*-(\d+).*$/, "$1") === "10-Dur") {
-        this.weekday = 0;
+      if (name) {
+        if (name && name?.replace(/^.*-(\d+).*$/, "$1") === "10-Dur") {
+          this.weekday = 0;
+        }
+        this.weekday = Number.parseInt(name?.replace(/^.*-(\d+).*$/, "$1"), 10);
       }
-      this.weekday = Number.parseInt(name.replace(/^.*-(\d+).*$/, "$1"), 10);
     } else {
       this.weekday = getDay(this.date);
     }
@@ -180,7 +183,7 @@ class Observance {
 
   private calcPriority() {
     for (let priority = 0; priority < TABLE_OF_PRECEDENCE.length; priority++) {
-      if (this.id.match(TABLE_OF_PRECEDENCE[priority])) {
+      if (this.id.match(TABLE_OF_PRECEDENCE[priority]!)) {
         return priority;
       }
     }

@@ -1,6 +1,6 @@
-import React from "react";
-import { Tabs } from "expo-router";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { Tabs } from "expo-router";
+import React from "react";
 
 import { COLORS } from "~/constants/Colors";
 
@@ -13,7 +13,7 @@ export default function TabLayout() {
         tabBarActiveBackgroundColor: COLORS["800"],
         tabBarInactiveTintColor: COLORS["400"],
         tabBarInactiveBackgroundColor: COLORS["700"],
-        tabBarStyle: {height: 40}
+        tabBarStyle: { height: 40 },
       }}
     >
       <Tabs.Screen

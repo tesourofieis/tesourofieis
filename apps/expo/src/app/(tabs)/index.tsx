@@ -1,3 +1,8 @@
+import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { format } from "date-fns";
+import { pt } from "date-fns/locale";
+import { Link } from "expo-router";
+import { useColorScheme } from "nativewind";
 import React, { useEffect, useState } from "react";
 import {
   Dimensions,
@@ -8,11 +13,6 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Link } from "expo-router";
-import FontAwesome from "@expo/vector-icons/FontAwesome";
-import { format } from "date-fns";
-import { pt } from "date-fns/locale";
-import { useColorScheme } from "nativewind";
 
 import Calendar from "~/components/Calendar";
 import LinkCard from "~/components/LinkCard";
@@ -141,7 +141,9 @@ export default function Render() {
             Notificações <FontAwesome name="bell" />
           </Text>
           <View
-            className={`border-sepia-400 bg-sepia-200 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline shadow`}
+            className={
+              "border-sepia-400 bg-sepia-200 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline shadow"
+            }
           >
             <Text className="text-sepia-800 dark:text-sepia-200">Angelus</Text>
             <Switch
@@ -155,7 +157,9 @@ export default function Render() {
           </View>
 
           <View
-            className={`border-sepia-400 bg-sepia-200 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline`}
+            className={
+              "border-sepia-400 bg-sepia-200 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline"
+            }
           >
             <Text className="text-sepia-800 dark:text-sepia-200">
               Missa do Dia
@@ -166,7 +170,7 @@ export default function Render() {
               ios_backgroundColor="#3e3e3e"
               onValueChange={toggleDailyMass}
               value={dailyMassEnabled}
-              accessibilityLabel={`Toggle daily notifications`}
+              accessibilityLabel={"Toggle daily notifications"}
             />
           </View>
         </View>
