@@ -164,7 +164,6 @@ class Observance {
       return "votivas";
     }
 
-    console.log(`Checking name: ${name}, flexibility: ${this.flexibility}`);
     throw Error(`No directory for ${name}, flexibility , ${this.flexibility}`);
   }
 

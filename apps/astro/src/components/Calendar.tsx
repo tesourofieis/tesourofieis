@@ -6,6 +6,8 @@ import type { Day } from "@tesourofieis/cal/day";
 import { getCalendar } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
+import { Card, } from "@tesourofieis/ui/card";
+
 import LinkCard from "./LinkCard";
 
 export function getColor(color: string) {
@@ -119,7 +121,7 @@ export default function DailyCalendar() {
             );
           },
         )}
-      </div>
+      </Card>
     </div>
   );
 }

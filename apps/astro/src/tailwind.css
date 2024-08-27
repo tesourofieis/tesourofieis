@@ -30,15 +30,6 @@
 }
 
 @font-face {
-  font-family: "Serif";
-  /* Use a relative path to the local font file in `url()`. */
-  src: url("./assets/fonts/LibreCaslonText-BV.ttf");
-  font-weight: normal;
-  font-style: bold;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "Geist";
   src: url("./assets/fonts/GeistVF.woff") format("woff");
   font-weight: 800;
@@ -114,7 +105,7 @@
   h4,
   h5,
   h6 {
-    @apply text-center font-title;
+    @apply text-center font-display;
   }
 }
 
@@ -128,12 +119,12 @@
 }
 
 aside:not([class]) {
-  @apply rounded bg-sepia-200 p-4 font-mono text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  @apply rounded bg-sepia-200 p-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   border-inline-start: 0.25rem solid;
 }
 
 em {
-  @apply rounded bg-sepia-200 px-1 py-1 font-sans italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  @apply rounded bg-sepia-200 px-1 py-1 italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
 }
 
 /* aside a { */

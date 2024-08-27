@@ -23,9 +23,6 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
-      components: {
-        Head: "./src/components/Head.astro",
-      },
       head: [
         {
           tag: "meta",

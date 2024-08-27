@@ -4,7 +4,7 @@ import baseConfig from "@tesourofieis/tailwind-config/web";
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [...baseConfig.content, "../../packages/ui/src/*.{ts,tsx}"],
+  content: baseConfig.content,
   presets: [baseConfig],
   theme: baseConfig.theme,
   plugins: [starlightPlugin()],

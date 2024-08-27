@@ -1,18 +1,25 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { Tabs } from "expo-router";
+import { useColorScheme } from "nativewind";
 import React from "react";
+import MoreMenu from "~/components/MoreMenu";
 
 import { COLORS } from "~/constants/Colors";
 
 export default function TabLayout() {
+  const { colorScheme } = useColorScheme();
+  const isDarkMode = colorScheme === "dark";
+
   return (
     <Tabs
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: COLORS["200"],
-        tabBarActiveBackgroundColor: COLORS["800"],
-        tabBarInactiveTintColor: COLORS["400"],
-        tabBarInactiveBackgroundColor: COLORS["700"],
+        tabBarActiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
+        tabBarActiveBackgroundColor: isDarkMode ? COLORS["800"] : COLORS["400"],
+        tabBarInactiveTintColor: isDarkMode ? COLORS["900"] : COLORS["900"],
+        tabBarInactiveBackgroundColor: isDarkMode
+          ? COLORS["700"]
+          : COLORS["300"],
         tabBarStyle: { height: 40 },
       }}
     >
@@ -34,6 +41,16 @@ export default function TabLayout() {
             <FontAwesome size={15} name="calendar" color={color} />
           ),
           tabBarShowLabel: false,
+        }}
+      />
+      <Tabs.Screen
+        name="more"
+        options={{
+          title: "More",
+          tabBarStyle: {
+            width: 15,
+          },
+          tabBarButton: ({ color }) => <MoreMenu color={color} />,
         }}
       />
     </Tabs>

@@ -18,10 +18,10 @@
     "ui-add": "turbo run ui-add"
   },
   "devDependencies": {
+    "@biomejs/biome": "catalog:",
     "@turbo/gen": "^2.0.13",
     "lefthook": "^1.7.14",
     "turbo": "^2.0.13",
-    "typescript": "catalog:",
-    "@biomejs/biome": "catalog:"
+    "typescript": "catalog:"
   }
 }

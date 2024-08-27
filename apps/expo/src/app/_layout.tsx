@@ -1,7 +1,7 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { ThemeProvider } from "@react-navigation/native";
 /* eslint-disable @typescript-eslint/no-require-imports */
-import { Stack } from "expo-router";
+import { SplashScreen, Stack } from "expo-router";
 
 import "react-native-reanimated";
 
@@ -16,6 +16,8 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import { COLORS } from "../constants/Colors";
 
+SplashScreen.preventAutoHideAsync();
+
 import "../styles.css";
 
 export { ErrorBoundary } from "expo-router";
@@ -28,9 +30,16 @@ export default function RootLayout() {
     ...FontAwesome.font,
   });
 
+  // Expo Router uses Error Boundaries to catch errors in the navigation tree.
   useEffect(() => {
     if (error) throw error;
   }, [error]);
+
+  useEffect(() => {
+    if (loaded) {
+      SplashScreen.hideAsync();
+    }
+  }, [loaded]);
 
   if (!loaded) {
     return null;
@@ -74,7 +83,9 @@ function RootLayoutNav() {
           <Stack.Screen
             name="modal"
             options={{
+              title: "Voltar",
               headerShown: false,
+              presentation: "modal",
               animation: "simple_push",
             }}
           />

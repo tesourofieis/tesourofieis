@@ -5,11 +5,12 @@ import { CardGrid, LinkCard } from "@astrojs/starlight/components";
 const { slug } = Astro.params;
 
 const allPages = await getCollection("docs");
-const _searchPages = allPages.filter((p) => {
+// @ts-ignore
+const searchPages = allPages.filter((p) => {
   const idParts = p.id.split("/");
-  const slugParts = slug.split("/");
+  const slugParts = slug?.split("/");
 
-  if (p.id.startsWith(slug)) {
+  if (slug && p.id.startsWith(slug) && slugParts) {
     // Check if id is 1 folder away from slug
     if (idParts.length === slugParts.length + 1) {
       // Check if it's an mdx file but not index.mdx
@@ -29,6 +30,7 @@ const _searchPages = allPages.filter((p) => {
 ---
 
 <CardGrid stagger>
+  {/* @ts-ignore */}
   { searchPages.map((p) => (
     <LinkCard href={'/'.concat(p.slug)} title={p.data.title} description={p.data.description}/>
   ))}

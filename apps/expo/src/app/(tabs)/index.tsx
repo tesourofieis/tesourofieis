@@ -55,27 +55,46 @@ export default function Render() {
         <View className="flex flex-col items-center justify-center gap-5">
           <Image
             alt="Logo"
-            // eslint-disable-next-line @typescript-eslint/no-require-imports
-            source={require("~/images/favicon.png")}
+            source={require("~/images/icon.png")}
             style={{
               width: win.width,
               height: win.height / 5,
             }}
           />
-          <Text className="h1 text-5xl">Tesouro dos Fiéis</Text>
+          <Text className="h1 text-5xl px-3">Tesouro dos Fiéis</Text>
+
+          <Text className="text-xs text-center m-8 font-body text-sepia-800 dark:text-sepia-200">
+            Espaço dedicado à oração, exposição e preservação das santas
+            tradições da Igreja.
+          </Text>
         </View>
 
-        <View className="flex items-center">
+        <View className="flex flex-row justify-center gap-5">
           <Text className="border-sepia-400 bg-sepia-300 text-sepia-800 dark:border-sepia-600 dark:bg-sepia-700 dark:text-sepia-300 m-2 rounded-lg border px-4 py-2 text-center">
             <Link
               href={{
                 pathname: "/modal",
-                params: { url: "" },
+                params: { url: "devocionario/rosario" },
               }}
             >
-              Ir{" "}
+              Rosário{" "}
               <FontAwesome
-                name="book"
+                name="circle"
+                color={colorScheme === "light" ? COLORS["700"] : COLORS["300"]}
+              />
+            </Link>
+          </Text>
+
+          <Text className="border-sepia-400 text-sepia-800 dark:border-sepia-600 dark:text-sepia-300 m-2 rounded-lg border px-4 py-2 text-center">
+            <Link
+              href={{
+                pathname: "/modal",
+                params: { url: "devocionario/oracoes/coroasaomiguel" },
+              }}
+            >
+              Coroa{" "}
+              <FontAwesome
+                name="rocket"
                 color={colorScheme === "light" ? COLORS["700"] : COLORS["300"]}
               />
             </Link>

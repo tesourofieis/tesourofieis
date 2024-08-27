@@ -16,6 +16,7 @@ import { getCalendar } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
 import LinkCard from "./LinkCard";
+import { COLORS } from "~/constants/Colors";
 
 export function getColor(color?: string) {
   switch (color) {
@@ -71,13 +72,13 @@ export default function MonthlyCalendar() {
             return (
               <View
                 key={calendarDate}
-                className={`flex flex-col gap-1 rounded p-1 ${
+                className={`flex flex-col gap-1 rounded p-3 m-3 ${
                   calendarDate === today
                     ? "bg-sepia-200 dark:bg-sepia-800"
                     : "bg-sepia-100 dark:bg-sepia-900"
                 }`}
               >
-                <Text className="mb-1 text-center text-xs font-bold">
+                <Text className="mb-1 text-center text-xs font-bold text-sepia-700 dark:text-sepia-300">
                   {format(date, "MMM dd", { locale: pt })}
                 </Text>
                 {day?.celebration?.map((celebration) => (
@@ -157,20 +158,22 @@ function ChangeMonth({
   handleNextMonth: () => void;
 }) {
   return (
-    <View className="flex flex-row items-center justify-between px-4 py-2">
+    <View className="flex flex-row items-center justify-around px-4 my-5">
       <Pressable
         onPress={handlePreviousMonth}
-        className="cursor-pointer rounded bg-gray-300 p-2 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="cursor-pointer rounded bg-gray-200 p-2 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
-        <FontAwesome name="chevron-left" />
+        <FontAwesome name="chevron-left" color={COLORS["600"]} />
       </Pressable>
-      <Text className="text-3xl">{monthStart}</Text>
+      <Text className="text-3xl text-sepia-700 dark:text-sepia-300">
+        {monthStart}
+      </Text>
 
       <Pressable
         onPress={handleNextMonth}
-        className="cursor-pointer rounded bg-gray-300 p-2 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="cursor-pointer rounded bg-gray-200 p-2 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
-        <FontAwesome name="chevron-right" />
+        <FontAwesome name="chevron-right" color={COLORS["600"]} />
       </Pressable>
     </View>
   );

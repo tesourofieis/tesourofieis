@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Display";
+  /* Use a relative path to the local font file in `url()`. */
+  src: url("~/assets/fonts/BerkshireSwash-Regular.ttf");
+  font-weight: normal;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Serif";
+  /* Use a relative path to the local font file in `url()`. */
+  src: url("~/assets/fonts/GoudyBookletter1911.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   /* Dark Theme */
   :root {

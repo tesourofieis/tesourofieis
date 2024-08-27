@@ -68,7 +68,6 @@ function sevenSorrowsOnFridayAfterPassionSunday(
   date_: string,
 ) {
   const fridayAfterPassion = match(observances, TEMPORA_QUAD5_5);
-  console.log(fridayAfterPassion);
 
   const sancti = match(observances, PATTERN_SANCTI);
   if (fridayAfterPassion) {

@@ -10,7 +10,6 @@ export default function Modal() {
   return (
     <WebView
       style={styles.container}
-      // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
       source={{ uri: `https://tesourofieis.com/${newLocal}` }}
       startInLoadingState={true}
       cacheEnabled={true}
