@@ -1,15 +1,15 @@
+import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { useRouter } from "expo-router";
 // components/MoreMenu.js
 import React, { useState, useRef, useEffect } from "react";
 import {
-  View,
-  Text,
-  TouchableOpacity,
+  Dimensions,
   Modal,
   StyleSheet,
-  Dimensions,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
-import { useRouter } from "expo-router";
-import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { COLORS } from "~/constants/Colors";
 
 const menuItems = [
@@ -23,7 +23,7 @@ const menuItems = [
 const MENU_WIDTH = 200;
 const MENU_MARGIN = 10;
 
-export default function MoreMenu({ color }) {
+export default function MoreMenu({ color }: { color: string }) {
   const [menuVisible, setMenuVisible] = useState(false);
   const router = useRouter();
   const buttonRef = useRef(null);
@@ -32,20 +32,30 @@ export default function MoreMenu({ color }) {
     right: MENU_MARGIN,
   });
 
-  const openWebView = (url) => {
+  const openWebView = (url: string) => {
     router.push({ pathname: "/modal", params: { url } });
     setMenuVisible(false);
   };
 
   useEffect(() => {
     if (buttonRef.current && menuVisible) {
-      buttonRef.current.measure((x, y, width, height, pageX, pageY) => {
-        const windowHeight = Dimensions.get("window").height;
-        setMenuPosition({
-          bottom: windowHeight - pageY,
-          right: MENU_MARGIN,
-        });
-      });
+      // @ts-ignore
+      buttonRef.current.measure(
+        (
+          _x: number,
+          _y: number,
+          _width: number,
+          _height: number,
+          _pageX: number,
+          pageY: number,
+        ) => {
+          const windowHeight = Dimensions.get("window").height;
+          setMenuPosition({
+            bottom: windowHeight - pageY,
+            right: MENU_MARGIN,
+          });
+        },
+      );
     }
   }, [menuVisible]);
 
@@ -76,9 +86,9 @@ export default function MoreMenu({ color }) {
               { bottom: menuPosition.bottom, right: menuPosition.right },
             ]}
           >
-            {menuItems.map((item, index) => (
+            {menuItems.map((item) => (
               <TouchableOpacity
-                key={index}
+                key={item.title}
                 style={styles.menuItem}
                 onPress={() => openWebView(item.url)}
               >

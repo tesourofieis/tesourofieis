@@ -15,8 +15,8 @@ import type { Day } from "@tesourofieis/cal/day";
 import { getCalendar } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
-import LinkCard from "./LinkCard";
 import { COLORS } from "~/constants/Colors";
+import LinkCard from "./LinkCard";
 
 export function getColor(color?: string) {
   switch (color) {

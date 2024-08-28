@@ -6,7 +6,7 @@ const { slug } = Astro.params;
 
 const allPages = await getCollection("docs");
 // @ts-ignore
-const searchPages = allPages.filter((p) => {
+const _searchPages = allPages.filter((p) => {
   const idParts = p.id.split("/");
   const slugParts = slug?.split("/");
 
