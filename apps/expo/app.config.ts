@@ -5,7 +5,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   name: "tesourofieis",
   slug: "tesourofieis",
   scheme: "com.tesourofieis.app",
-  version: "0.3.0",
+  version: "0.3.1",
   orientation: "portrait",
   icon: "./assets/images/favicon.png",
   userInterfaceStyle: "automatic",
@@ -16,6 +16,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   updates: {
     fallbackToCacheTimeout: 0,
+    url: "https://u.expo.dev/22ae55e2-5e39-4f06-ad1a-3f96776bdc75",
+  },
+  runtimeVersion: {
+    policy: "appVersion",
   },
   assetBundlePatterns: ["**/*"],
   ios: {
@@ -23,7 +27,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     supportsTablet: true,
   },
   android: {
-    versionCode: 21,
+    versionCode: 22,
     package: "com.tesourofieis.app",
     adaptiveIcon: {
       foregroundImage: "./assets/images/favicon.png",
