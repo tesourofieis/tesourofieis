@@ -42,7 +42,7 @@ jobs:
       - name: Setup
         uses: ./tooling/github/setup
 
-      - name: Typecheck
+      - name: Test
         run: pnpm test
 
   deploy:

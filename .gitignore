@@ -39,7 +39,7 @@ yarn-error.log*
 .vercel
 
 # typescript
-dist/
+dist
 .cache
 
 # turbo
