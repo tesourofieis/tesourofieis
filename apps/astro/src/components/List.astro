@@ -6,7 +6,7 @@ const { slug } = Astro.params;
 
 const allPages = await getCollection("docs");
 // @ts-ignore
-const _searchPages = allPages.filter((p) => {
+const searchPages = allPages.filter((p) => {
   const idParts = p.id.split("/");
   const slugParts = slug?.split("/");
 
@@ -30,8 +30,7 @@ const _searchPages = allPages.filter((p) => {
 ---
 
 <CardGrid stagger>
-  {/* @ts-ignore */}
-  { searchPages.map((p) => (
+  {searchPages.map((p: any) => (
     <LinkCard href={'/'.concat(p.slug)} title={p.data.title} description={p.data.description}/>
   ))}
 </CardGrid>

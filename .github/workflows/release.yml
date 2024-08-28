@@ -1,4 +1,4 @@
-name: merge
+name: release
 
 on:
   push:
@@ -32,8 +32,8 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
-      - name: "🔸 Update Expo App"
+      - name: "🔸 Publish Expo App"
         working-directory: apps/expo
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: eas update --auto
+        run: eas submit -p android
