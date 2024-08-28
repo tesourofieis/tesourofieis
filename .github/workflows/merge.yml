@@ -17,11 +17,29 @@ jobs:
         uses: ./tooling/github/setup
 
       - name: "🔧 Build"
-        working-directory: apps/astro
         run: pnpm run build
+
       - name: "🔸 Cloudflare Workers - Deploy 🚀"
         working-directory: apps/astro
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: pnpx wrangler pages deploy dist --project-name tesourofieis
+
+      - name: Setup EAS
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      # - name: "🔸 Publish Expo App"
+      #   working-directory: apps/expo
+      #   env:
+      #     EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+      #   run: eas submit -p android
+
+      - name: "🔸 Update Expo App"
+        working-directory: apps/expo
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: eas update --auto
