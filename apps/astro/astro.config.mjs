@@ -1,5 +1,4 @@
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
-import netlify from "@astrojs/netlify";
 import partytown from "@astrojs/partytown";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
@@ -15,7 +14,7 @@ const site = "https://tesourofieis.com";
 // https://astro.build/config
 export default defineConfig({
   site: site,
-  output: "hybrid",
+  output: "static",
   experimental: {
     contentCollectionCache: true,
     contentLayer: true,
@@ -200,5 +199,4 @@ export default defineConfig({
   image: {
     service: passthroughImageService(),
   },
-  adapter: netlify(),
 });
