@@ -34,6 +34,4 @@ jobs:
 
       - name: "🔸 Update Expo App"
         working-directory: apps/expo
-        env:
-          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: eas update --auto

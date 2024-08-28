@@ -32,8 +32,11 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
-      - name: "🔸 Publish Expo App"
+      - name: "🔸 Buil Expo App"
         working-directory: apps/expo
-        env:
-          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: eas submit -p android
+        run: eas build
+          --platform android
+          --profile production
+          --non-interactive
+          --no-wait
+          --message ${{ github.sha }}
