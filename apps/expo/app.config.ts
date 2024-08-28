@@ -39,5 +39,18 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     tsconfigPaths: true,
     typedRoutes: true,
   },
-  plugins: ["expo-router", "expo-asset"],
+  plugins: [
+    "expo-router",
+    [
+      "expo-font",
+      {
+        fonts: [
+          "./assets/fonts/SpaceMono-Regular.ttf",
+          "./assets/fonts/GoudyBookletter1911.otf",
+          "./assets/fonts/EBGaramond-VariableFont_wght.ttf",
+          "./assets/fonts/BerkshireSwash-Regular.ttf",
+        ],
+      },
+    ],
+  ],
 });

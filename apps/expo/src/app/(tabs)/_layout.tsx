@@ -51,9 +51,6 @@ export default function TabLayout() {
             width: 15,
           },
           tabBarButton: () => <MoreMenu />,
-          tabBarIcon: ({ color }) => (
-            <FontAwesome size={15} name="ellipsis-h" color={color} />
-          ),
         }}
       />
     </Tabs>
