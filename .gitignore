@@ -50,3 +50,4 @@ packages/cal/.turbo
 packages/cal/.turbo
 apps/astro/.turbo
 apps/expo/.expo
+credentials.json
