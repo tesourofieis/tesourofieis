@@ -2,19 +2,27 @@ import type { ConfigContext, ExpoConfig } from "expo/config";
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: "tesourofieis",
+  name: "Tesouro dos Fiéis",
+  description:
+    "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.",
   slug: "tesourofieis",
   scheme: "com.tesourofieis.app",
+  platforms: ["android"],
+  githubUrl: "https://github.com/tesourofieis/tesourofieis",
   version: "0.3.1",
   orientation: "portrait",
   icon: "./assets/images/favicon.png",
   userInterfaceStyle: "automatic",
+  notification: {
+    icon: "./assets/images/notifications.png",
+  },
   splash: {
-    image: "./assets/images/icon.png",
+    image: "./assets/images/favicon.png",
     resizeMode: "contain",
     backgroundColor: "#1d2021",
   },
   updates: {
+    enabled: true,
     fallbackToCacheTimeout: 0,
     url: "https://u.expo.dev/22ae55e2-5e39-4f06-ad1a-3f96776bdc75",
   },
@@ -22,10 +30,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     policy: "appVersion",
   },
   assetBundlePatterns: ["**/*"],
-  ios: {
-    bundleIdentifier: "com.tesourofieis.app",
-    supportsTablet: true,
-  },
   android: {
     versionCode: 22,
     package: "com.tesourofieis.app",

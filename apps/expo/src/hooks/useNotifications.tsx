@@ -80,9 +80,10 @@ export const useNotifications = () => {
     for (const time of ANGELUS_TIMES) {
       await Notifications.scheduleNotificationAsync({
         content: {
-          title: "Tesouro dos Fiéis",
-          body: "Angelus 🙏",
+          title: "Trindades",
+          body: "Hora do Angelus",
           data: { url: "/modal?devocionario/dia/angelus" },
+          color: "#2196f3",
         },
         trigger: {
           hour: time.hour,
@@ -122,7 +123,7 @@ export const useNotifications = () => {
     link = day?.link || "";
 
     if (calendar?.commemoration.length) {
-      subTitleParts.push(`Com. ${calendar?.commemoration[0]?.title}`);
+      subTitleParts.push(`Comemoração: ${calendar?.commemoration[0]?.title}`);
     }
 
     if (calendar?.local.length) {
@@ -139,16 +140,15 @@ export const useNotifications = () => {
     const color =
       calendar?.celebration[0]?.colors[0] ?? calendar?.tempora[0]?.colors[0];
 
-    const notificationTitle = "Missa do Dia";
-    const mass = titleParts.join(" - ");
-    const other = subTitleParts.join(" - ");
+    const mass = titleParts.join(" | ");
+    const other = subTitleParts.join(" | ");
 
     return {
-      title: notificationTitle,
+      title: "Missa",
+      subtitle: mass,
       body: other,
       data: { url: link },
       color: getColor(color),
-      subtitle: mass,
     };
   }, []);
 

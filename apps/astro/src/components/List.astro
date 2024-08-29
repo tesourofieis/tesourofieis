@@ -5,8 +5,8 @@ import { CardGrid, LinkCard } from "@astrojs/starlight/components";
 const { slug } = Astro.params;
 
 const allPages = await getCollection("docs");
-// @ts-ignore
-const searchPages = allPages.filter((p) => {
+
+const pages = allPages.filter((p) => {
   const idParts = p.id.split("/");
   const slugParts = slug?.split("/");
 
@@ -30,7 +30,7 @@ const searchPages = allPages.filter((p) => {
 ---
 
 <CardGrid stagger>
-  {searchPages.map((p: any) => (
+  {pages.map((p: any) => (
     <LinkCard href={'/'.concat(p.slug)} title={p.data.title} description={p.data.description}/>
   ))}
 </CardGrid>

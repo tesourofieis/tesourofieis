@@ -1,6 +1,5 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { ThemeProvider } from "@react-navigation/native";
-/* eslint-disable @typescript-eslint/no-require-imports */
 import { SplashScreen, Stack } from "expo-router";
 
 import "react-native-reanimated";

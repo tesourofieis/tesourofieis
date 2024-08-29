@@ -1,4 +1,4 @@
-import FontAwesome from "@expo/vector-icons/FontAwesome";
+import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { Link } from "expo-router";
@@ -52,24 +52,17 @@ export default function Render() {
   return (
     <SafeAreaView>
       <ScrollView>
-        <View className="flex flex-col items-center justify-center gap-5">
-          <Image
-            alt="Logo"
-            source={require("~/images/icon.png")}
-            style={{
-              width: win.width,
-              height: win.height / 5,
-            }}
-          />
-          <Text className="h1 text-5xl px-3">Tesouro dos Fiéis</Text>
-
-          <Text className="text-xs text-center m-8 font-body text-sepia-800 dark:text-sepia-200">
+        <View className="flex flex-col items-center mt-11 justify-center gap-5">
+          {/* @ts-ignore */}
+          <FontAwesome6 name="book-bible" size={150} color="#e53935" />
+          <Text className="h1 text-5xl m-3">Tesouro dos Fiéis</Text>
+          <Text className="text-xs text-center mx-8 font-body text-sepia-800 dark:text-sepia-200">
             Espaço dedicado à oração, exposição e preservação das santas
             tradições da Igreja.
           </Text>
         </View>
 
-        <View className="flex flex-row justify-center gap-5">
+        <View className="flex flex-row justify-center my-5 mx-5 gap-5">
           <Text className="border-sepia-400 bg-sepia-300 text-sepia-800 dark:border-sepia-600 dark:bg-sepia-700 dark:text-sepia-300 m-2 rounded-lg border px-4 py-2 text-center">
             <Link
               href={{
@@ -78,8 +71,8 @@ export default function Render() {
               }}
             >
               Rosário{" "}
-              <FontAwesome
-                name="circle"
+              <FontAwesome6
+                name="arrow-right"
                 color={colorScheme === "light" ? COLORS["700"] : COLORS["300"]}
               />
             </Link>
@@ -92,19 +85,19 @@ export default function Render() {
                 params: { url: "devocionario/oracoes/coroasaomiguel" },
               }}
             >
-              Coroa{" "}
-              <FontAwesome
-                name="rocket"
+              Coroa de São Miguel{" "}
+              <FontAwesome6
+                name="arrow-right"
                 color={colorScheme === "light" ? COLORS["700"] : COLORS["300"]}
               />
             </Link>
           </Text>
         </View>
 
-        <View className="border-sepia-400 bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 m-5 rounded-lg border p-3">
+        <View className="border-sepia-400 bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 mx-5 rounded-lg border p-3">
           <View className="flex-1 items-center justify-center p-2">
             <Text className="dark:text-sepia-200 p-3 text-center text-lg">
-              Hoje <FontAwesome name="calendar" />
+              Hoje <FontAwesome6 name="calendar" />
             </Text>
 
             <Text className="text-sepia-600 dark:text-sepia-400 text-xs font-bold">
@@ -157,7 +150,7 @@ export default function Render() {
 
         <View className="border-sepia-400 bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 m-5 rounded-lg border p-3 shadow">
           <Text className="dark:text-sepia-200 p-3 text-center text-lg">
-            Notificações <FontAwesome name="bell" />
+            Notificações <FontAwesome6 name="bell" />
           </Text>
           <View
             className={

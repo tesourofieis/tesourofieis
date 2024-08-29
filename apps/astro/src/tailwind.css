@@ -14,42 +14,9 @@
 @font-face {
   font-family: "Serif";
   /* Use a relative path to the local font file in `url()`. */
-  src: url("./assets/fonts/LibreCaslonText-Regular.ttf");
+  src: url("./assets/fonts/GoudyBookletter1911.otf");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Serif";
-  /* Use a relative path to the local font file in `url()`. */
-  src: url("./assets/fonts/LibreCaslonText-Italic.ttf");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Geist";
-  src: url("./assets/fonts/GeistVF.woff") format("woff");
-  font-weight: 800;
-  font-style: bold;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Mono";
-  src: url("./assets/fonts/SpaceMono-Regular.ttf");
-  font-weight: normal;
-  font-style: monospace;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Title";
-  src: url("./assets/fonts/Geist-Black.woff") format("woff");
-  font-weight: 800;
-  font-style: bold;
   font-display: swap;
 }
 
@@ -96,7 +63,7 @@
   }
 
   h1 {
-    @apply font-body;
+    @apply font-display;
     color: theme("colors.red.600") !important;
   }
 
