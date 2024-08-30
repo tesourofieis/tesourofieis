@@ -1,0 +1,19 @@
+{
+  "name": "@tesourofieis/tailwind-config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./native": "./native.ts",
+    "./web": "./web.ts"
+  },
+  "license": "MIT",
+  "scripts": {
+    "clean": "git clean -xdf .cache .turbo node_modules"
+  },
+  "dependencies": {
+    "postcss": "^8.4.41",
+    "tailwindcss": "catalog:",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}

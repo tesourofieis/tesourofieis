@@ -1,8 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.app" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:colorBackground">@color/sepia_900</item>
-        <item name="android:windowBackground">@color/sepia_900</item>
-        <item name="android:statusBarColor">@color/sepia_900</item>
-    </style>
-</resources>

@@ -1,8 +1,5 @@
 {
-  "files": {
-    "include": ["playwright-tests/**", "src/**"],
-    "ignore": ["dist/**", "src/lib/resources/**", "src-tauri"]
-  },
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "organizeImports": {
     "enabled": true
   },
@@ -10,7 +7,11 @@
     "enabled": true,
     "rules": {
       "recommended": true,
+      "correctness": {
+        "noUnusedVariables": "error"
+      },
       "style": {
+        "noNonNullAssertion": "off",
         "noParameterAssign": "off"
       }
     }
@@ -23,5 +24,30 @@
     "lineWidth": 80,
     "lineEnding": "lf",
     "ignore": []
+  },
+  "json": {
+    "parser": {
+      "allowTrailingCommas": true
+    }
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "ignore": [
+      ".changeset",
+      "**/node_modules",
+      "**/.turbo",
+      "**/build",
+      "**/android",
+      "**/dist",
+      "**/.astro",
+      "**/.expo",
+      "packages/ui",
+      "tooling",
+      "pnpm-lock.yaml"
+    ]
   }
 }

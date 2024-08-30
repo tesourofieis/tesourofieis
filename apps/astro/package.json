@@ -1,0 +1,50 @@
+{
+  "name": "@tesourofieis/astro",
+  "type": "module",
+  "version": "1.20.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy-preview": "wrangler pages dev ./dist",
+    "clean": "git clean -xdf .cache .next .turbo node_modules",
+    "lint": "biome check --write --unsafe --files-ignore-unknown=true",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/markdown-remark": "^5.2.0",
+    "@astrojs/partytown": "^2.1.2",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/starlight": "^0.26.1",
+    "@astrojs/starlight-tailwind": "^2.0.3",
+    "@astrojs/tailwind": "^5.1.0",
+    "@date-fns/utc": "catalog:",
+    "@tesourofieis/cal": "workspace:*",
+    "@tesourofieis/ui": "workspace:*",
+    "astro": "^4.15.1",
+    "date-fns": "catalog:",
+    "react": "catalog:react18",
+    "react-dom": "catalog:react18"
+  },
+  "devDependencies": {
+    "@iconify-icon/react": "^2.0.1",
+    "@iconify-json/mdi": "^1.1.65",
+    "@iconify/json": "^2.2.195",
+    "@iconify/react": "^5.0.1",
+    "@playwright/test": "^1.42.1",
+    "@tesourofieis/tailwind-config": "workspace:*",
+    "@tesourofieis/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:react18",
+    "@types/react-dom": "catalog:react18",
+    "astro-robots-txt": "^1.0.0",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "^1.4.0"
+  },
+  "trustedDependencies": ["protobufjs"]
+}

@@ -1,13 +1,13 @@
-# Check formatting and lint before pushing
-pre-push:
-  commands:
-    check:
-      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
-      run: npx biome check --no-errors-on-unmatched --files-ignore-unknown=true {push_files}
-
-# Format, lint, and apply safe code fixes before committing
 pre-commit:
+  parallel: false
   commands:
     check:
-      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
-      run: npx biome check --no-errors-on-unmatched --files-ignore-unknown=true --apply {staged_files}
+      run: pnpm typecheck
+    lint:
+      run: pnpm lint
+
+pre-push:
+  parallel: true
+  commands:
+    test:
+      run: pnpm test

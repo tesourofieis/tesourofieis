@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Display";
+  /* Use a relative path to the local font file in `url()`. */
+  src: url("./assets/fonts/BerkshireSwash-Regular.ttf");
+  font-weight: normal;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Serif";
+  /* Use a relative path to the local font file in `url()`. */
+  src: url("./assets/fonts/GoudyBookletter1911.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  /* Dark Theme */
+  :root {
+    --sl-color-white: theme("colors.sepia.200");
+    --sl-color-gray-1: theme("colors.sepia.300");
+    --sl-color-gray-2: theme("colors.sepia.400");
+    --sl-color-gray-3: theme("colors.sepia.500");
+    --sl-color-gray-4: theme("colors.sepia.600");
+    --sl-color-gray-5: theme("colors.sepia.700");
+    --sl-color-gray-6: theme("colors.sepia.800");
+    --sl-color-gray-7: theme("colors.sepia.900");
+
+    --sl-color-text-accent: theme("colors.sepia.300");
+    --sl-color-bg-accent: theme("colors.sepia.700");
+    --sl-color-banner-text: theme("colors.sepia.300");
+    --sl-color-black: theme("colors.sepia.900");
+    --sl-color-text: theme("colors.sepia.200");
+  }
+
+  /* Light Theme */
+  :root[data-theme="light"] {
+    --sl-color-white: theme("colors.sepia.900");
+    --sl-color-gray-1: theme("colors.sepia.800");
+    --sl-color-gray-2: theme("colors.sepia.700");
+    --sl-color-gray-3: theme("colors.sepia.600");
+    --sl-color-gray-4: theme("colors.sepia.500");
+    --sl-color-gray-5: theme("colors.sepia.400");
+    --sl-color-gray-6: theme("colors.sepia.300");
+    --sl-color-gray-7: theme("colors.sepia.200");
+
+    --sl-color-text-accent: theme("colors.sepia.800");
+    --sl-color-bg-accent: theme("colors.sepia.300");
+    --sl-color-black: theme("colors.sepia.100");
+    --sl-color-banner-text: theme("colors.sepia.700");
+    --sl-color-text: theme("colors.sepia.900");
+    --sl-color-bg-sidebar: theme("colors.sepia.200");
+  }
+
+  body {
+    @apply font-body;
+  }
+
+  h1 {
+    @apply font-display;
+    color: theme("colors.red.600") !important;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-center font-display;
+  }
+}
+
+.side-by-side {
+  @apply grid grid-cols-2 gap-5 text-justify font-body;
+}
+
+.cross {
+  padding: 1px 10px;
+  text-align: center;
+}
+
+aside:not([class]) {
+  @apply rounded bg-sepia-200 p-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  border-inline-start: 0.25rem solid;
+}
+
+em {
+  @apply rounded bg-sepia-200 px-1 py-1 italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+}
+
+/* aside a { */
+/*   @apply underline text-blue-800 dark:text-blue-300; */
+/* } */

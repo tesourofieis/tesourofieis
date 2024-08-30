@@ -1,0 +1,40 @@
+---
+title: Início
+description: Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.
+hero:
+  title: Tesouro dos Fiéis
+  tagline: Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.
+  image:
+    file: ../../assets/favicon.svg
+  actions:
+    - text: Rosário
+      icon: rocket
+      link: /devocionario/rosario
+      variant: primary
+    - text: Coroa de São Miguel
+      link: /devocionario/oracoes/coroasaomiguel
+      variant: secondary
+      icon: document
+tableOfContents: false
+banner:
+  content: |
+    Em Portugal se conservará sempre o dogma da fé
+    - Nossa Senhora de Fátima
+---
+
+import LinkCard from "~/components/LinkCard";
+
+import InteractiveCard from "~/components/InteractiveCard";
+
+<InteractiveCard client:only="react" />
+
+![Missa S. Bernardo](../../assets/1.jpeg)
+
+<div className="rounded-md border border-sepia-300 dark:border-sepia-700">
+  <LinkCard href="/missal" title="Missal" />
+  <LinkCard href="/ritual" title="Ritual" />
+  <LinkCard href="/fe" title="Fé" />
+  <LinkCard href="/canticos" title="Cânticos" />
+  <LinkCard href="/devocionario" title="Devocionário" />
+  <LinkCard href="/calendario" title="Calendário" />
+</div>
