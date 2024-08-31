@@ -7,7 +7,7 @@ export default function LinkCard({
   caption,
   title,
   description,
-  color = "sepia",
+  color,
   borderColor = "border-sepia-500 dark:border-sepia-700",
 }: {
   href: string;
@@ -27,19 +27,20 @@ export default function LinkCard({
       asChild
     >
       <View className="flex flex-col justify-start">
-        <View className="flex flex-row gap-2">
+        <View className="flex flex-row">
           <Text className="text-xs text-sepia-600 dark:text-sepia-300">
             {description}
           </Text>
           {caption && (
             <Text className="text-xs font-bold text-sepia-700 dark:text-sepia-300">
+              {" "}
               | {caption}
             </Text>
           )}
         </View>
 
         <View className="flex flex-row items-center gap-2">
-          <FontAwesome name="circle" color={color} />
+          {color && <FontAwesome name="circle" color={color} />}
           <Text className={"font-bold text-sepia-600 dark:text-sepia-400"}>
             {title}
           </Text>

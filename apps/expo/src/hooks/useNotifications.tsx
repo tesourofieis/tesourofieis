@@ -80,7 +80,7 @@ export const useNotifications = () => {
     for (const time of ANGELUS_TIMES) {
       await Notifications.scheduleNotificationAsync({
         content: {
-          title: "Trindades",
+          title: "🔔 Toque das Trindades",
           body: "Hora do Angelus",
           data: { url: "/modal?devocionario/dia/angelus" },
           color: "#2196f3",
@@ -144,7 +144,7 @@ export const useNotifications = () => {
     const other = subTitleParts.join(" | ");
 
     return {
-      title: "Missa",
+      title: "📅 Missa",
       subtitle: mass,
       body: other,
       data: { url: link },
