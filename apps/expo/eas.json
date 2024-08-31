@@ -21,6 +21,7 @@
     }
   },
   "submit": {
+    "preview": {},
     "production": {}
   }
 }
