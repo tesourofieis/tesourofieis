@@ -12,8 +12,8 @@
     "lint": "biome check --write --unsafe --files-ignore-unknown=true"
   },
   "dependencies": {
-    "date-fns": "catalog:",
-    "@date-fns/utc": "catalog:"
+    "@date-fns/utc": "catalog:",
+    "date-fns": "catalog:"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^1.4.0",
