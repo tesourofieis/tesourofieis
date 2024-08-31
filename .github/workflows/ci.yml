@@ -3,9 +3,6 @@ name: CI
 on:
   pull_request:
     branches: ["*"]
-  push:
-    branches: ["master"]
-  merge_group:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -45,7 +42,7 @@ jobs:
       - name: Test
         run: pnpm test
 
-  deploy-web:
+  deploy-web-preview:
     name: Deploy
     needs: test
     runs-on: ubuntu-latest
