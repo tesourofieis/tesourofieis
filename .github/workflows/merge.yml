@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  deploy:
+  deploy-mobile:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
@@ -14,16 +14,6 @@ jobs:
 
       - name: Setup
         uses: ./tooling/github/setup
-
-      - name: "🔧 Build"
-        run: pnpm run build
-
-      - name: "🔸 Cloudflare Workers - Deploy 🚀"
-        working-directory: apps/astro
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: pnpx wrangler pages deploy dist --project-name tesourofieis
 
       - name: Setup EAS
         uses: expo/expo-github-action@v8
@@ -33,4 +23,4 @@ jobs:
 
       - name: "🔸 Update Expo App"
         working-directory: apps/expo
-        run: eas update --auto
+        run: eas build --auto-submit --platform=android --profile=preview

@@ -94,7 +94,7 @@ export default function Render() {
           </Text>
         </View>
 
-        <View className="border-sepia-400 bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 mx-5 rounded-lg border p-3">
+        <View className="border-sepia-400 dark:border-sepia-600 mx-5 rounded-lg border p-3">
           <View className="flex-1 items-center justify-center p-2">
             <Text className="dark:text-sepia-200 p-3 text-center text-lg">
               Hoje <FontAwesome6 name="calendar" />
@@ -148,13 +148,13 @@ export default function Render() {
           </View>
         </View>
 
-        <View className="border-sepia-400 bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 m-5 rounded-lg border p-3 shadow">
+        <View className="border-sepia-400 dark:border-sepia-600 m-5 rounded-lg border p-3">
           <Text className="dark:text-sepia-200 p-3 text-center text-lg">
             Notificações <FontAwesome6 name="bell" />
           </Text>
           <View
             className={
-              "border-sepia-400 bg-sepia-200 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline shadow"
+              "border-sepia-400 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline"
             }
           >
             <Text className="text-sepia-800 dark:text-sepia-200">Angelus</Text>
@@ -170,7 +170,7 @@ export default function Render() {
 
           <View
             className={
-              "border-sepia-400 bg-sepia-200 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline"
+              "border-sepia-400 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline"
             }
           >
             <Text className="text-sepia-800 dark:text-sepia-200">

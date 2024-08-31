@@ -45,7 +45,7 @@ jobs:
       - name: Test
         run: pnpm test
 
-  deploy:
+  deploy-web:
     name: Deploy
     needs: test
     runs-on: ubuntu-latest

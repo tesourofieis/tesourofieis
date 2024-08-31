@@ -10,17 +10,10 @@
         "resourceClass": "m-medium"
       }
     },
-    "development": {
+    "preview": {
       "extends": "base",
       "developmentClient": true,
       "distribution": "internal"
-    },
-    "preview": {
-      "extends": "base",
-      "distribution": "internal",
-      "ios": {
-        "simulator": true
-      }
     },
     "production": {
       "extends": "base",

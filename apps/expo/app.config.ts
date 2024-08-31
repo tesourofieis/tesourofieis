@@ -9,15 +9,15 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   scheme: "com.tesourofieis.app",
   platforms: ["android"],
   githubUrl: "https://github.com/tesourofieis/tesourofieis",
-  version: "0.3.1",
+  version: "0.3.2",
   orientation: "portrait",
-  icon: "./assets/images/favicon.png",
+  icon: "./assets/images/favicon512.png",
   userInterfaceStyle: "automatic",
   notification: {
     icon: "./assets/images/notifications.png",
   },
   splash: {
-    image: "./assets/images/favicon.png",
+    image: "./assets/images/splash.png",
     resizeMode: "contain",
     backgroundColor: "#1d2021",
   },
@@ -30,11 +30,15 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     policy: "appVersion",
   },
   assetBundlePatterns: ["**/*"],
+  androidStatusBar: {
+    backgroundColor: "#111111",
+    barStyle: "dark-content",
+  },
   android: {
-    versionCode: 22,
+    versionCode: 23,
     package: "com.tesourofieis.app",
     adaptiveIcon: {
-      foregroundImage: "./assets/images/favicon.png",
+      foregroundImage: "./assets/images/favicon512.png",
       backgroundColor: "#1d2021",
     },
   },
