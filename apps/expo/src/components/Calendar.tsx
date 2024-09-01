@@ -29,7 +29,7 @@ export default function Calendar() {
   if (!day) return <ActivityIndicator color={COLORS["500"]} />;
 
   return (
-    <Text>
+    <>
       {day.celebration.length ? (
         day.celebration.map((celebration) => (
           <LinkCard
@@ -88,6 +88,6 @@ export default function Calendar() {
           color={getColor(outro.colors[0])}
         />
       ))}
-    </Text>
+    </>
   );
 }
