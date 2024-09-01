@@ -4,7 +4,13 @@ import { pt } from "date-fns/locale";
 import { Link } from "expo-router";
 import { useColorScheme } from "nativewind";
 import React, { useEffect, useState } from "react";
-import { ScrollView, Switch, Text, View } from "react-native";
+import {
+  ActivityIndicator,
+  ScrollView,
+  Switch,
+  Text,
+  View,
+} from "react-native";
 
 import Calendar from "~/components/Calendar";
 import LinkCard from "~/components/LinkCard";
@@ -17,8 +23,14 @@ export default function Render() {
 
   const { colorScheme } = useColorScheme();
 
-  const { angelusEnabled, dailyMassEnabled, toggleAngelus, toggleDailyMass } =
-    useNotifications();
+  const {
+    angelusEnabled,
+    dailyMassEnabled,
+    angelusLoading,
+    dailyMassLoading,
+    toggleAngelus,
+    toggleDailyMass,
+  } = useNotifications();
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -137,42 +149,46 @@ export default function Render() {
 
       <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />
 
-      <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
+      <View className="bg-sepia-200 dark:bg-sepia-800 p-3">
         <Text className="dark:text-sepia-200 p-3 text-center text-lg">
           Notificações <FontAwesome6 name="bell" />
         </Text>
-        <View
-          className={
-            "border-sepia-400 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline"
-          }
-        >
+        <View className="my-1 flex flex-row items-center justify-between px-3">
           <Text className="text-sepia-800 dark:text-sepia-200">Angelus</Text>
-          <Switch
-            trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
-            thumbColor={angelusEnabled ? COLORS["200"] : COLORS["500"]}
-            ios_backgroundColor="#3e3e3e"
-            onValueChange={toggleAngelus}
-            value={angelusEnabled}
-            accessibilityLabel="Toggle angelus notifications"
-          />
+          {angelusLoading ? (
+            <ActivityIndicator color={COLORS["400"]} />
+          ) : (
+            <Switch
+              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+              thumbColor={angelusEnabled ? COLORS["200"] : COLORS["500"]}
+              ios_backgroundColor="#3e3e3e"
+              onValueChange={toggleAngelus}
+              value={angelusEnabled}
+              disabled={angelusLoading}
+              accessibilityLabel="Toggle angelus notifications"
+            />
+          )}
         </View>
 
-        <View
-          className={
-            "border-sepia-400 text-sepia-600 hover:bg-sepia-200 dark:border-sepia-600 dark:text-sepia-300 dark:hover:bg-sepia-900 my-1 flex flex-row items-center justify-between rounded-lg border px-3 no-underline"
-          }
-        >
+        <View className="border-t border-sepia-300" />
+
+        <View className="my-1 flex flex-row items-center justify-between px-3">
           <Text className="text-sepia-800 dark:text-sepia-200">
             Missa do Dia
           </Text>
-          <Switch
-            trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
-            thumbColor={dailyMassEnabled ? COLORS["200"] : COLORS["500"]}
-            ios_backgroundColor="#3e3e3e"
-            onValueChange={toggleDailyMass}
-            value={dailyMassEnabled}
-            accessibilityLabel={"Toggle daily notifications"}
-          />
+          {dailyMassLoading ? (
+            <ActivityIndicator color={COLORS["400"]} />
+          ) : (
+            <Switch
+              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+              thumbColor={dailyMassEnabled ? COLORS["200"] : COLORS["500"]}
+              ios_backgroundColor="#3e3e3e"
+              onValueChange={toggleDailyMass}
+              value={dailyMassEnabled}
+              disabled={dailyMassLoading}
+              accessibilityLabel="Toggle daily notifications"
+            />
+          )}
         </View>
       </View>
     </ScrollView>

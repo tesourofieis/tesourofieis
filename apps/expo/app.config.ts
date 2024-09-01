@@ -64,5 +64,11 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         ],
       },
     ],
+    [
+      "expo-notifications",
+      {
+        sounds: ["./assets/audio/angelus.wav"],
+      },
+    ],
   ],
 });
