@@ -4,23 +4,13 @@ import { pt } from "date-fns/locale";
 import { Link } from "expo-router";
 import { useColorScheme } from "nativewind";
 import React, { useEffect, useState } from "react";
-import {
-  Dimensions,
-  Image,
-  ScrollView,
-  Switch,
-  Text,
-  View,
-} from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { ScrollView, Switch, Text, View } from "react-native";
 
 import Calendar from "~/components/Calendar";
 import LinkCard from "~/components/LinkCard";
 import Office from "~/components/Office";
 import { COLORS } from "~/constants/Colors";
 import { useNotifications } from "~/hooks/useNotifications";
-
-const _win = Dimensions.get("window");
 
 export default function Render() {
   const [currentDate, setCurrentDate] = useState(new Date());
@@ -118,33 +108,31 @@ export default function Render() {
           </Text>
         </View>
 
-        <View className="flex flex-col">
-          {currentPrayer.isAngelus && (
-            <LinkCard
-              href="/devocionario/dia/angelus"
-              title="Angelus"
-              description="Hora do Angelus"
-            />
-          )}
+        {currentPrayer.isAngelus && (
+          <LinkCard
+            href="/devocionario/dia/angelus"
+            title="Angelus"
+            description="Hora do Angelus"
+          />
+        )}
 
-          {currentPrayer.isMorning && (
-            <LinkCard
-              href="/devocionario/dia/oracaomanha"
-              title="Oração da Manhã"
-              description="Orações do dia"
-            />
-          )}
+        {currentPrayer.isMorning && (
+          <LinkCard
+            href="/devocionario/dia/oracaomanha"
+            title="Oração da Manhã"
+            description="Orações do dia"
+          />
+        )}
 
-          {currentPrayer.isNight && (
-            <LinkCard
-              href="/devocionario/dia/oracaonoite"
-              title="Oração da Noite"
-              description="Orações do dia"
-            />
-          )}
+        {currentPrayer.isNight && (
+          <LinkCard
+            href="/devocionario/dia/oracaonoite"
+            title="Oração da Noite"
+            description="Orações do dia"
+          />
+        )}
 
-          <Office />
-        </View>
+        <Office />
       </View>
 
       <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />

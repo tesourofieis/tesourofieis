@@ -2,8 +2,6 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { ThemeProvider } from "@react-navigation/native";
 import { SplashScreen, Stack } from "expo-router";
 
-import "react-native-reanimated";
-
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
 import { useEffect } from "react";
@@ -11,15 +9,13 @@ import { useEffect } from "react";
 import "react-native-reanimated";
 
 import React from "react";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
 
 import "../styles.css";
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { StyleSheet, Text, View } from "react-native";
 
 export { ErrorBoundary } from "expo-router";
 
@@ -73,34 +69,17 @@ function RootLayoutNav() {
   };
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
-      <SafeAreaProvider>
-        <SafeAreaView edges={["top"]} style={styles.container}>
-          <View className="flex-row justify-start items-center p-3 gap-3 bg-sepia-300 dark:bg-sepia-800">
-            <FontAwesome6 name="book-bible" size={15} color="#e53935" />
-            <Text className="font-bold  text-sepia-800 dark:text-sepia-200 font-body">
-              Tesouro dos Fiéis
-            </Text>
-          </View>
-        </SafeAreaView>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen
-            name="modal"
-            options={{
-              title: "Voltar",
-              headerShown: false,
-              presentation: "modal",
-              animation: "simple_push",
-            }}
-          />
-        </Stack>
-      </SafeAreaProvider>
+      <Stack>
+        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen
+          name="modal"
+          options={{
+            headerShown: false,
+            presentation: "fullScreenModal",
+            animation: "simple_push",
+          }}
+        />
+      </Stack>
     </ThemeProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: COLORS["600"],
-  },
-});

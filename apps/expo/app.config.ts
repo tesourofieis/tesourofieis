@@ -11,7 +11,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   githubUrl: "https://github.com/tesourofieis/tesourofieis",
   version: "0.3.2",
   orientation: "portrait",
-  icon: "./assets/images/favicon512.png",
+  icon: "./assets/images/icon.png",
   userInterfaceStyle: "automatic",
   notification: {
     icon: "./assets/images/notifications.png",
@@ -38,7 +38,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     versionCode: 23,
     package: "com.tesourofieis.app",
     adaptiveIcon: {
-      foregroundImage: "./assets/images/favicon512.png",
+      foregroundImage: "./assets/images/adaptive-icon.png",
       backgroundColor: "#1d2021",
     },
   },

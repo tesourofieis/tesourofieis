@@ -1,10 +1,10 @@
-import { View } from "react-native";
+import { ActivityIndicator, Text } from "react-native";
 
-import type { Day } from "@tesourofieis/cal/day";
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
 import LinkCard from "./LinkCard";
+import { COLORS } from "~/constants/Colors";
 
 export function getColor(color?: string) {
   switch (color) {
@@ -23,12 +23,14 @@ export function getColor(color?: string) {
   }
 }
 
-export default function DailyCalendar() {
+export default function Calendar() {
   const day = getCalendarDay(yyyyMMDD(new Date()));
 
+  if (!day) return <ActivityIndicator color={COLORS["500"]} />;
+
   return (
-    <View>
-      {day?.celebration.length ? (
+    <Text>
+      {day.celebration.length ? (
         day.celebration.map((celebration) => (
           <LinkCard
             key={celebration.link}
@@ -41,7 +43,7 @@ export default function DailyCalendar() {
         ))
       ) : (
         <>
-          {day?.tempora.map((tempora) => (
+          {day.tempora.map((tempora) => (
             <LinkCard
               key={tempora.link}
               href={tempora.link}
@@ -53,7 +55,7 @@ export default function DailyCalendar() {
           ))}
         </>
       )}
-      {day?.commemoration.map((commemoration) => (
+      {day.commemoration.map((commemoration) => (
         <LinkCard
           key={commemoration.link}
           href={commemoration.link}
@@ -63,7 +65,7 @@ export default function DailyCalendar() {
           color={getColor(commemoration.colors[0])}
         />
       ))}
-      {day?.local.map((local) => (
+      {day.local.map((local) => (
         <LinkCard
           key={local.link}
           href={local.link}
@@ -76,7 +78,7 @@ export default function DailyCalendar() {
           color={getColor(local.colors[0])}
         />
       ))}
-      {day?.outro.map((outro) => (
+      {day.outro.map((outro) => (
         <LinkCard
           key={outro.link}
           href={outro.link}
@@ -86,6 +88,6 @@ export default function DailyCalendar() {
           color={getColor(outro.colors[0])}
         />
       ))}
-    </View>
+    </Text>
   );
 }
