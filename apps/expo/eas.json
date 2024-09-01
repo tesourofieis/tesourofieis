@@ -1,6 +1,7 @@
 {
   "cli": {
-    "version": ">= 4.1.2"
+    "version": ">= 4.1.2",
+    "appVersionSource": "remote"
   },
   "build": {
     "base": {
@@ -10,13 +11,9 @@
         "resourceClass": "m-medium"
       }
     },
-    "preview": {
-      "extends": "base",
-      "developmentClient": true,
-      "distribution": "internal"
-    },
     "production": {
       "extends": "base",
+      "autoIncrement": true,
       "channel": "production"
     }
   },

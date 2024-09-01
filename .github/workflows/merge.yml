@@ -42,4 +42,4 @@ jobs:
 
       - name: "🔸 Update Expo App"
         working-directory: apps/expo
-        run: eas update -p android --non-interactive --channel preview --message "${{ github.event.head_commit.message }}"
+        run: eas build --auto-submit --platform=android --profile=production
