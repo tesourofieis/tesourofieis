@@ -3,8 +3,8 @@ import { ActivityIndicator, Text } from "react-native";
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
-import LinkCard from "./LinkCard";
 import { COLORS } from "~/constants/Colors";
+import LinkCard from "./LinkCard";
 
 export function getColor(color?: string) {
   switch (color) {
