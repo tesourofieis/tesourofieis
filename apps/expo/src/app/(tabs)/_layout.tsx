@@ -16,9 +16,9 @@ export default function TabLayout() {
   return (
     <SafeAreaProvider>
       <SafeAreaView edges={["top"]} style={styles.container}>
-        <View className="flex-row justify-start items-center p-3 gap-3 bg-sepia-300 dark:bg-sepia-800">
+        <View className="flex-row items-center p-3 gap-3 bg-sepia-200 dark:bg-sepia-800">
           <FontAwesome6 name="book-bible" size={15} color="#e53935" />
-          <Text className="font-bold  text-sepia-800 dark:text-sepia-200 font-body">
+          <Text className="font-bold text-lg text-sepia-800 dark:text-sepia-200 font-body">
             Tesouro dos Fiéis
           </Text>
         </View>
@@ -62,10 +62,14 @@ export default function TabLayout() {
           name="more"
           options={{
             title: "More",
-            tabBarStyle: {
-              width: 15,
-            },
-            tabBarButton: () => <MoreMenu />,
+            tabBarIcon: ({ color }) => (
+              <FontAwesome size={15} name="ellipsis-h" color={color} />
+            ),
+            tabBarShowLabel: false,
+            // tabBarStyle: {
+            //   width: 15,
+            // },
+            // tabBarButton: () => <MoreMenu />,
           }}
         />
       </Tabs>
