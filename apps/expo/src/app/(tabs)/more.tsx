@@ -2,15 +2,9 @@ import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { useRouter } from "expo-router";
 import { useColorScheme } from "nativewind";
 import React, { useState } from "react";
-import {
-  SafeAreaView,
-  ScrollView,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
-import { sidebar } from "../../../../astro/sidebar"; // Assuming you've saved the sidebar data in a separate file
+import { sidebar } from "../../../../astro/sidebar";
 
 const MainMenuItem = ({ item, onPress, isExpanded }) => {
   const { colorScheme } = useColorScheme();
@@ -140,17 +134,11 @@ export default function MoreScreen() {
     );
   };
 
-  const _handlePress = (url: string) => {
-    router.push({ pathname: "/modal", params: { url } });
-  };
-
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView className="flex-1 p-3">
-        {sidebar.map((item, index) =>
-          renderItem(item, 0, index === sidebar.length - 1),
-        )}
-      </ScrollView>
-    </SafeAreaView>
+    <ScrollView className="flex-1 p-3">
+      {sidebar.map((item, index) =>
+        renderItem(item, 0, index === sidebar.length - 1),
+      )}
+    </ScrollView>
   );
 }

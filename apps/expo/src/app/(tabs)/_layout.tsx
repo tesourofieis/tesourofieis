@@ -66,10 +66,6 @@ export default function TabLayout() {
               <FontAwesome size={15} name="ellipsis-h" color={color} />
             ),
             tabBarShowLabel: false,
-            // tabBarStyle: {
-            //   width: 15,
-            // },
-            // tabBarButton: () => <MoreMenu />,
           }}
         />
       </Tabs>
