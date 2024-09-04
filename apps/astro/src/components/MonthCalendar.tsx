@@ -80,26 +80,33 @@ export default function MonthlyCalendar() {
               <div className="mb-1 text-center text-xs font-bold">
                 {format(date, "MMM dd", { locale: pt })}
               </div>
-              {day.celebration.map((celebration) => (
-                <LinkCard
-                  key={celebration.id}
-                  href={celebration.link}
-                  caption={"Celebração"}
-                  title={celebration.title}
-                  color={getColor(celebration.colors[0] ?? "")}
-                  icon="mdi:tshirt-v"
-                />
-              ))}
-              {day.tempora.map((tempora) => (
-                <LinkCard
-                  key={tempora.id}
-                  href={tempora.link}
-                  caption={tempora.title ? "Celebração" : "Tempora"}
-                  title={tempora.title || "Feria"}
-                  color={getColor(tempora.colors[0] ?? "")}
-                  icon="mdi:tshirt-v"
-                />
-              ))}
+              {day.celebration.length ? (
+                <>
+                  {day.celebration.map((celebration) => (
+                    <LinkCard
+                      key={celebration.id}
+                      href={celebration.link}
+                      caption={"Celebração"}
+                      title={celebration.title}
+                      color={getColor(celebration.colors[0] ?? "")}
+                      icon="mdi:tshirt-v"
+                    />
+                  ))}
+                </>
+              ) : (
+                <>
+                  {day.tempora.map((tempora) => (
+                    <LinkCard
+                      key={tempora.id}
+                      href={tempora.link}
+                      caption={tempora.title ? "Celebração" : "Tempora"}
+                      title={tempora.title || "Feria"}
+                      color={getColor(tempora.colors[0] ?? "")}
+                      icon="mdi:tshirt-v"
+                    />
+                  ))}
+                </>
+              )}
               {day.commemoration.map((commemoration) => (
                 <LinkCard
                   key={commemoration.id}

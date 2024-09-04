@@ -24,7 +24,6 @@
     "@astrojs/tailwind": "^5.1.0",
     "@date-fns/utc": "catalog:",
     "@tesourofieis/cal": "workspace:*",
-    "@tesourofieis/ui": "workspace:*",
     "astro": "^4.15.1",
     "date-fns": "catalog:",
     "react": "catalog:react18",

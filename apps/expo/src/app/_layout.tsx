@@ -1,5 +1,7 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { ThemeProvider } from "@react-navigation/native";
+import * as Notifications from "expo-notifications";
+import { useRouter } from "expo-router";
 import { SplashScreen, Stack } from "expo-router";
 
 import { useFonts } from "expo-font";
@@ -9,23 +11,46 @@ import { useEffect } from "react";
 import "react-native-reanimated";
 
 import React from "react";
-import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
 
 import "../styles.css";
+import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { Text, View } from "react-native";
 
 export { ErrorBoundary } from "expo-router";
 
+Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: true,
+    shouldSetBadge: true,
+  }),
+});
+
 export default function RootLayout() {
+  const router = useRouter();
   const [loaded, error] = useFonts({
     Mono: require("~/fonts/SpaceMono-Regular.ttf"),
     Serif: require("~/fonts/EBGaramond-VariableFont_wght.ttf"),
     Display: require("~/fonts/BerkshireSwash-Regular.ttf"),
     ...FontAwesome.font,
   });
+
+  useEffect(() => {
+    const subscription = Notifications.addNotificationResponseReceivedListener(
+      (response) => {
+        const url = response.notification.request.content.data.url;
+        if (url) {
+          router.push(`/modal?url=${url}`);
+        }
+      },
+    );
+
+    return () => subscription.remove();
+  }, [router]);
 
   useEffect(() => {
     if (loaded || error) {
@@ -70,16 +95,35 @@ function RootLayoutNav() {
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen
+          name="(tabs)"
+          options={{
+            headerStyle: {
+              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+            },
+            headerTitle: Header,
+          }}
+        />
         <Stack.Screen
           name="modal"
           options={{
             headerShown: false,
-            presentation: "fullScreenModal",
-            animation: "simple_push",
+            presentation: "modal",
+            animation: "slide_from_bottom",
           }}
         />
       </Stack>
     </ThemeProvider>
   );
 }
+
+const Header = () => {
+  return (
+    <View className="flex-row items-center p-3 gap-3">
+      <FontAwesome6 name="book-bible" size={15} color="#e53935" />
+      <Text className="font-bold text-lg text-sepia-800 dark:text-sepia-200 font-body">
+        Tesouro dos Fiéis
+      </Text>
+    </View>
+  );
+};

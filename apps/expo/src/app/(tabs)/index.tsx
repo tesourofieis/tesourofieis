@@ -16,7 +16,8 @@ import Calendar from "~/components/Calendar";
 import LinkCard from "~/components/LinkCard";
 import Office from "~/components/Office";
 import { COLORS } from "~/constants/Colors";
-import { useNotifications } from "~/hooks/useNotifications";
+import { useAngelusNotifications } from "~/hooks/notifications/useAngelusNotifications";
+import { useMassNotifications } from "~/hooks/notifications/useMassNotifications";
 
 export default function Render() {
   const [currentDate, setCurrentDate] = useState(new Date());
@@ -24,13 +25,16 @@ export default function Render() {
   const { colorScheme } = useColorScheme();
 
   const {
-    angelusEnabled,
-    dailyMassEnabled,
-    angelusLoading,
-    dailyMassLoading,
+    enabled: angelusEnabled,
+    loading: angelusLoading,
     toggleAngelus,
+  } = useAngelusNotifications();
+
+  const {
+    enabled: dailyMassEnabled,
+    loading: dailyMassLoading,
     toggleDailyMass,
-  } = useNotifications();
+  } = useMassNotifications();
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -164,68 +168,114 @@ export default function Render() {
           Receba notificações sobre as mais importantes orações do dia.
         </Text>
 
-        <View className="my-1 flex flex-row items-center justify-between py-1">
-          <View className="flex-row items-center gap-3">
-            <FontAwesome6
-              name="bell"
-              size={15}
-              color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-            />
-            <View>
-              <Text className="text-sepia-800 dark:text-sepia-200">
-                Angelus
-              </Text>
-              <Text className="text-sepia-800 dark:text-sepia-200 text-xs">
-                Receba o toque das Trindades
-              </Text>
+        <View className="py-3">
+          <View className="flex flex-row items-center justify-between">
+            <View className="flex-row items-center gap-3">
+              <FontAwesome6
+                name="bell"
+                size={15}
+                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+              />
+              <View>
+                <Text className="text-sepia-800 dark:text-sepia-200">
+                  Angelus
+                </Text>
+                <Text className="text-sepia-800 dark:text-sepia-200 text-xs">
+                  Receba o toque das Trindades
+                </Text>
+              </View>
             </View>
+            {angelusLoading ? (
+              <ActivityIndicator color={COLORS["400"]} />
+            ) : (
+              <Switch
+                trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+                thumbColor={angelusEnabled ? COLORS["200"] : COLORS["500"]}
+                ios_backgroundColor="#3e3e3e"
+                onValueChange={toggleAngelus}
+                value={angelusEnabled}
+                disabled={angelusLoading}
+                accessibilityLabel="Toggle angelus notifications"
+              />
+            )}
           </View>
-          {angelusLoading ? (
-            <ActivityIndicator color={COLORS["400"]} />
-          ) : (
-            <Switch
-              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
-              thumbColor={angelusEnabled ? COLORS["200"] : COLORS["500"]}
-              ios_backgroundColor="#3e3e3e"
-              onValueChange={toggleAngelus}
-              value={angelusEnabled}
-              disabled={angelusLoading}
-              accessibilityLabel="Toggle angelus notifications"
-            />
-          )}
+          <View className="flex-row items-center ml-5">
+            <Text className="text-xs text-center w-12 font-semibold text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
+              6:00
+            </Text>
+            <Text className="text-xs text-center w-12 font-semibold text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
+              12:00
+            </Text>
+            <Text className="text-xs text-center w-12 font-semibold text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
+              18:00
+            </Text>
+          </View>
         </View>
 
         <View className="border-t border-sepia-300" />
 
-        <View className="my-1 flex flex-row items-center justify-between py-1">
-          <View className="flex-row items-center justify-between gap-3">
-            <FontAwesome6
-              name="calendar"
-              size={15}
-              color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-            />
-            <View className="w-52">
-              <Text className="text-sepia-800 dark:text-sepia-200">
-                Missa do Dia
-              </Text>
-              <Text className="text-sepia-800 dark:text-sepia-200 text-xs text-wrap">
-                Receba informações sobre as celebrações e comemorações do dia.
-              </Text>
+        <View className="py-3">
+          <View className="my-1 flex flex-row items-center justify-between py-1">
+            <View className="flex-row items-center justify-between gap-3">
+              <FontAwesome6
+                name="calendar"
+                size={15}
+                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+              />
+              <View className="w-52">
+                <Text className="text-sepia-800 dark:text-sepia-200">
+                  Missa do Dia
+                </Text>
+                <Text className="text-sepia-800 dark:text-sepia-200 text-xs text-wrap">
+                  Receba informações sobre as celebrações e comemorações do dia.
+                </Text>
+              </View>
+            </View>
+            {dailyMassLoading ? (
+              <ActivityIndicator color={COLORS["400"]} />
+            ) : (
+              <Switch
+                trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+                thumbColor={dailyMassEnabled ? COLORS["200"] : COLORS["500"]}
+                ios_backgroundColor="#3e3e3e"
+                onValueChange={toggleDailyMass}
+                value={dailyMassEnabled}
+                disabled={dailyMassLoading}
+                accessibilityLabel="Toggle daily notifications"
+              />
+            )}
+          </View>
+          <View className="flex-row items-center ml-5">
+            <Text className="text-xs w-12 font-semibold text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900 text-center">
+              7:00
+            </Text>
+          </View>
+        </View>
+
+        <View className="border-t border-sepia-300" />
+
+        <View className="py-3">
+          <View className="my-1 flex flex-row items-center justify-between py-1">
+            <View className="flex-row items-center justify-between gap-3">
+              <View className="flex-row items-center gap-3">
+                <FontAwesome6
+                  name="hourglass-start"
+                  size={15}
+                  color={
+                    colorScheme === "light" ? COLORS["900"] : COLORS["200"]
+                  }
+                />
+                <View>
+                  <Text className="text-sepia-800 dark:text-sepia-200">
+                    Novenas
+                  </Text>
+                  <Text className="text-sepia-800 dark:text-sepia-200 text-xs">
+                    Brevemente
+                  </Text>
+                </View>
+              </View>
             </View>
           </View>
-          {dailyMassLoading ? (
-            <ActivityIndicator color={COLORS["400"]} />
-          ) : (
-            <Switch
-              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
-              thumbColor={dailyMassEnabled ? COLORS["200"] : COLORS["500"]}
-              ios_backgroundColor="#3e3e3e"
-              onValueChange={toggleDailyMass}
-              value={dailyMassEnabled}
-              disabled={dailyMassLoading}
-              accessibilityLabel="Toggle daily notifications"
-            />
-          )}
         </View>
       </View>
     </ScrollView>
