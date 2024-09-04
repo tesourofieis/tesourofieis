@@ -100,7 +100,7 @@ export default function MoreScreen() {
     }
   };
 
-  const renderItem = (item, depth = 0, isLast = false) => {
+  const renderItem = (item, depth = 0) => {
     const isExpanded = expandedItems[item.label];
 
     return (
@@ -125,8 +125,8 @@ export default function MoreScreen() {
         )}
         {isExpanded && item.items && (
           <View className="ml-4">
-            {item.items.map((subItem, index) =>
-              renderItem(subItem, depth + 1, index === item.items.length - 1),
+            {item.items.map((subItem, _index) =>
+              renderItem(subItem, depth + 1),
             )}
           </View>
         )}
@@ -136,9 +136,7 @@ export default function MoreScreen() {
 
   return (
     <ScrollView className="flex-1 p-3">
-      {sidebar.map((item, index) =>
-        renderItem(item, 0, index === sidebar.length - 1),
-      )}
+      {sidebar.map((item) => renderItem(item, 0))}
     </ScrollView>
   );
 }

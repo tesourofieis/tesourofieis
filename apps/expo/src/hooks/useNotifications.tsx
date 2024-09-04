@@ -172,7 +172,7 @@ export const useNotifications = () => {
       title: "📅 Missa",
       subtitle: mass,
       body: other,
-      data: { url: link },
+      data: { url: `modal?${link}` },
       color: getColor(color),
     };
   }, []);
