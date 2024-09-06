@@ -14,7 +14,7 @@ import "../global.css";
 import "react-native-reanimated";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { ActivityIndicator, Text, View } from "react-native";
+import { ActivityIndicator, Platform, Text, View } from "react-native";
 import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
@@ -36,7 +36,7 @@ export default function RootLayout() {
     }
   }, [loaded, error]);
 
-  if (!loaded) {
+  if (!loaded && Platform.OS !== "web") {
     return <ActivityIndicator />;
   }
 
@@ -70,6 +70,7 @@ function RootLayoutNav() {
       notification: COLORS["500"],
     },
   };
+
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
       <Stack>

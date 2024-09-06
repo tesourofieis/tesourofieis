@@ -5,7 +5,6 @@ export const sidebar = [
       {
         label: "Ordo",
         link: "/missal/ordo",
-
         badge: { text: "Variável" },
       },
       {
@@ -214,6 +213,35 @@ export const sidebar = [
   {
     label: "Ritual",
     collapsed: true,
-    autogenerate: { directory: "ritual" },
+    items: [
+      {
+        label: "Baptismo",
+        link: "/ritual/baptismo",
+      },
+      {
+        label: "Confirmação",
+        link: "/ritual/confirmacao",
+      },
+      {
+        label: "Extrema-unção",
+        link: "/ritual/extremauncao",
+      },
+      {
+        label: "Funeral",
+        link: "/ritual/requiem",
+      },
+      {
+        label: "Matrimónio",
+        link: "/ritual/matrimonio",
+      },
+      {
+        label: "Penitência",
+        link: "/ritual/penitencia",
+      },
+      {
+        label: "Viático",
+        link: "/ritual/viatico",
+      },
+    ],
   },
 ];

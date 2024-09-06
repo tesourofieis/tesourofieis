@@ -2,10 +2,11 @@
   "name": "@tesourofieis/expo",
   "version": "0.1.0",
   "private": true,
-  "main": "index.ts",
+  "main": "./index",
   "scripts": {
     "clean": "git clean -xdf .cache .expo .turbo android ios node_modules",
     "dev": "expo start --clear",
+    "start": "EXPO_UNSTABLE_ATLAS=1 expo start -d",
     "dev:android": "expo start --android",
     "dev:ios": "expo start --ios",
     "android": "expo run:android",
@@ -14,7 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@date-fns/utc": "catalog:",
+    "@date-fns/utc": "^1.2.0",
     "@expo-google-fonts/berkshire-swash": "^0.2.3",
     "@expo-google-fonts/eb-garamond": "^0.2.3",
     "@expo-google-fonts/goudy-bookletter-1911": "^0.2.3",
@@ -28,7 +29,7 @@
     "@react-navigation/native": "^6.0.2",
     "@shopify/flash-list": "1.6.4",
     "@tesourofieis/cal": "workspace:*",
-    "date-fns": "catalog:",
+    "date-fns": "^3.6.0",
     "expo": "~51.0.27",
     "expo-constants": "~16.0.2",
     "expo-dev-client": "~4.0.26",
@@ -45,8 +46,8 @@
     "expo-updates": "~0.25.24",
     "expo-web-browser": "^13.0.3",
     "nativewind": "~4.0.36",
-    "react": "catalog:react18",
-    "react-dom": "catalog:react18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-instantsearch-core": "^7.12.4",
     "react-native": "~0.74.5",
     "react-native-css-interop": "~0.0.34",
@@ -66,9 +67,10 @@
     "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/babel__core": "^7.20.5",
-    "@types/react": "catalog:react18",
-    "@types/react-dom": "catalog:react18",
-    "tailwindcss": "catalog:",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "tailwindcss": "^3.4.10",
     "typescript": "^5.3.3"
   }
 }

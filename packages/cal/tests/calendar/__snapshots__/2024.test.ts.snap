@@ -2866,10 +2866,9 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
     "celebration": [
       {
         "colors": [
-          "r",
           "v",
         ],
-        "id": "tempora:quad6-0:1:rv",
+        "id": "tempora:quad6-0:1:v",
         "link": "missal/quaresma/quad6-0",
         "local": undefined,
         "outro": undefined,
@@ -2895,10 +2894,9 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
     "tempora": [
       {
         "colors": [
-          "r",
           "v",
         ],
-        "id": "tempora:quad6-0:1:rv",
+        "id": "tempora:quad6-0:1:v",
         "link": "missal/quaresma/quad6-0",
         "local": undefined,
         "outro": undefined,
@@ -3036,9 +3034,8 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       {
         "colors": [
           "b",
-          "v",
         ],
-        "id": "tempora:quad6-5:1:bv",
+        "id": "tempora:quad6-5:1:b",
         "link": "missal/quaresma/quad6-5",
         "local": undefined,
         "outro": undefined,
@@ -3053,9 +3050,8 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
       {
         "colors": [
           "b",
-          "v",
         ],
-        "id": "tempora:quad6-5:1:bv",
+        "id": "tempora:quad6-5:1:b",
         "link": "missal/quaresma/quad6-5",
         "local": undefined,
         "outro": undefined,
@@ -4304,12 +4300,12 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "tempora:pasc5-3:2:w",
-        "link": "missal/pascoa/pasc5-3",
+        "id": "santos:05-08:2:w",
+        "link": "missal/santos/05-08",
         "local": undefined,
         "outro": undefined,
         "rank": 2,
-        "title": "Vigília da Ascensão",
+        "title": "Aparição de S. Miguel, Arcanjo",
       },
     ],
     "commemoration": [
@@ -4317,12 +4313,12 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "colors": [
           "w",
         ],
-        "id": "santos:05-08:2:w",
-        "link": "missal/santos/05-08",
+        "id": "tempora:pasc5-3:2:w",
+        "link": "missal/pascoa/pasc5-3",
         "local": undefined,
         "outro": undefined,
         "rank": 2,
-        "title": "Aparição de S. Miguel, Arcanjo",
+        "title": "Vigília da Ascensão",
       },
     ],
     "local": [],

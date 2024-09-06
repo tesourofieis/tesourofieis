@@ -5,12 +5,14 @@ const { withNativeWind } = require("nativewind/metro");
 
 const path = require("node:path");
 
+const projectRoot = __dirname;
+
 const config = withTurborepoManagedCache(
   withMonorepoPaths(
     withNativeWind(getDefaultConfig(__dirname), {
+      projectRoot: projectRoot,
       input: "./src/global.css",
       configPath: "./tailwind.config.ts",
-      isCSSEnabled: true,
     }),
   ),
 );

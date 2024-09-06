@@ -29,14 +29,6 @@ const ANGELUS_TIMES = [
   { hour: 18, minute: 0 },
 ];
 
-Notifications.setNotificationHandler({
-  handleNotification: async () => ({
-    shouldShowAlert: true,
-    shouldPlaySound: true,
-    shouldSetBadge: true,
-  }),
-});
-
 const DAILY_MASS_TIME = { hour: 7, minute: 0 };
 
 const STORAGE_KEYS = {

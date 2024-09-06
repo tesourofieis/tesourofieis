@@ -5,30 +5,19 @@ import { getCalendarDay } from "../../getCalendar";
 test("sabado santo", () => {
   const calendar = getCalendarDay("2024-03-30");
   expect(calendar).toMatchObject({
-    celebration: [
+    mass: [
       {
-        colors: ["v", "w"],
+        category: "quaresma",
+        color: "vw",
         date: "2024-03-30",
         flexibility: "tempora",
+        id: "TEMPORA_QUAD6_6",
         link: "missal/quaresma/quad6-6",
-        name: "quad6-6",
-        priority: 7,
+        name: "Sábado Santo",
+        outro: false,
         rank: 1,
-        title: "Sábado Santo",
-        weekday: 6,
-      },
-    ],
-    commemoration: [],
-    tempora: [
-      {
-        colors: ["v", "w"],
-        date: "2024-03-30",
-        flexibility: "tempora",
-        link: "missal/quaresma/quad6-6",
-        name: "quad6-6",
-        priority: 7,
-        rank: 1,
-        title: "Sábado Santo",
+        type: "pre-lent-to-pentcost",
+        week: 6,
         weekday: 6,
       },
     ],
@@ -38,33 +27,14 @@ test("sabado santo", () => {
 test("easter", () => {
   const calendar = getCalendarDay("2024-03-31");
   expect(calendar).toMatchObject({
-    celebration: [
+    mass: [
       {
-        colors: ["w"],
-        id: "tempora:pasc0-0:1:w",
         date: "2024-03-31",
         flexibility: "tempora",
+        id: "TEMPORA_PASC0_0",
         link: "missal/pascoa/pasc0-0",
-        name: "pasc0-0",
-        priority: 3,
+        name: "Domingo da Ressurreição",
         rank: 1,
-        title: "Domingo da Ressurreição",
-        weekday: 0,
-      },
-    ],
-    commemoration: [],
-    tempora: [
-      {
-        colors: ["w"],
-        date: "2024-03-31",
-        flexibility: "tempora",
-        id: "tempora:pasc0-0:1:w",
-        link: "missal/pascoa/pasc0-0",
-        name: "pasc0-0",
-        priority: 3,
-        rank: 1,
-        title: "Domingo da Ressurreição",
-        weekday: 0,
       },
     ],
   });
@@ -73,32 +43,19 @@ test("easter", () => {
 test("segunda pascal", () => {
   const calendar = getCalendarDay("2024-04-01");
   expect(calendar).toMatchObject({
-    celebration: [
+    mass: [
       {
-        colors: ["w"],
+        category: "pascoa",
+        color: "w",
         date: "2024-04-01",
         flexibility: "tempora",
-        id: "tempora:pasc0-1:1:w",
+        id: "TEMPORA_PASC0_1",
         link: "missal/pascoa/pasc0-1",
-        name: "pasc0-1",
-        priority: 27,
+        name: "Segunda-feira Pascal",
+        outro: false,
         rank: 1,
-        title: "Segunda-feira Pascal",
-        weekday: 1,
-      },
-    ],
-    commemoration: [],
-    tempora: [
-      {
-        colors: ["w"],
-        date: "2024-04-01",
-        flexibility: "tempora",
-        id: "tempora:pasc0-1:1:w",
-        link: "missal/pascoa/pasc0-1",
-        name: "pasc0-1",
-        priority: 27,
-        rank: 1,
-        title: "Segunda-feira Pascal",
+        type: "pre-lent-to-pentcost",
+        week: 0,
         weekday: 1,
       },
     ],

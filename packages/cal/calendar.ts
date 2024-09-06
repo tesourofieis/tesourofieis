@@ -1,25 +1,8 @@
-import { Day, Observance } from "./day";
 import { yyyyMMDD } from "./utils";
-
-import {
-  ADVENT,
-  EMBER_DAYS_SEPTEMBER,
-  FROM_PRE_LENT_TO_POST_PENTECOST,
-  LOCAL,
-  NATIVITY_OCTAVE_SUNDAY,
-  OUTRO,
-  POST_EPIPHANY,
-  SANCTI,
-  SANCTI_10_DUr,
-  TEMPORA_NAT2_0,
-  WEEK_24_AFTER_PENTECOST,
-} from "./constants";
-import { rules } from "./rules";
 
 import { UTCDate } from "@date-fns/utc";
 import {
   addDays,
-  format,
   getDate,
   getDay,
   getMonth,
@@ -32,6 +15,25 @@ import {
   previousSunday,
   subDays,
 } from "date-fns";
+import { type Mass, massManager } from "./observanceManager";
+import { RuleResult, Rules } from "./rules";
+
+export class Day {
+  date: string;
+  mass: Mass[] = [];
+
+  constructor(date: string) {
+    this.date = date;
+  }
+
+  get all() {
+    return this.mass;
+  }
+
+  getTemporaName() {
+    return this.mass[0]?.name;
+  }
+}
 
 class Calendar {
   private container: Map<string, Day>;
@@ -64,32 +66,37 @@ class Calendar {
     // Days depending on variable date, such as Easter or Advent
     // """
     // # Inserting blocks
-    this.insertBlock(this.calcHolyFamily(), POST_EPIPHANY);
     this.insertBlock(
-      this.calcSeptuagesima(this.year),
-      FROM_PRE_LENT_TO_POST_PENTECOST,
+      this.calcHolyFamily(),
+      massManager.getByTypeId("post-epiphany")
     );
     this.insertBlock(
+      this.calcSeptuagesima(this.year),
+      massManager.getByTypeId("pre-lent-to-pentcost")
+    );
+    const blo = massManager.getByTypeId("pre-lent-to-pentcost");
+    this.insertBlock(
       this.calcSaturdayBefore24SundayAfterPentecost(this.year),
-      POST_EPIPHANY,
+      massManager.getByTypeId("post-epiphany"),
       true,
       false,
-      this.calcFirstAdventSunday(this.year),
+      this.calcFirstAdventSunday(this.year)
     );
     this.insertBlock(
       this.calc24SundayAfterPentecost(this.year),
-      WEEK_24_AFTER_PENTECOST,
+
+      massManager.getByTypeId("week-24-after-pentcost")
     );
     this.insertBlock(
       this.calcFirstAdventSunday(this.year),
-      ADVENT,
+      massManager.getByTypeId("advent"),
       false,
       false,
-      new UTCDate(this.year, 11, 23),
+      new UTCDate(this.year, 11, 23)
     );
     this.insertBlock(
       this.calcEmberWednesdaySeptember(this.year),
-      EMBER_DAYS_SEPTEMBER,
+      massManager.getByTypeId("ember-september")
     );
 
     // # Inserting single days
@@ -97,32 +104,40 @@ class Calendar {
 
     const holyName = this.container.get(yyyyMMDD(holyNameDate));
     if (holyName) {
-      holyName.celebration = [
-        new Observance(TEMPORA_NAT2_0, yyyyMMDD(holyNameDate)),
-      ];
+      holyName.mass.push(
+        massManager.createMassWithDate(
+          massManager.getById("TEMPORA_NAT2_0"),
+          yyyyMMDD(holyNameDate)
+        )
+      );
     }
 
     const christKingDate = this.calcChristKing(this.year);
 
     const christKing = this.container.get(yyyyMMDD(christKingDate));
     if (christKing) {
-      christKing.celebration = [
-        new Observance(SANCTI_10_DUr, yyyyMMDD(christKingDate)),
-      ];
+      christKing.mass.push(
+        massManager.createMassWithDate(
+          massManager.getById("SANCTI_10_DUr"),
+          yyyyMMDD(christKingDate)
+        )
+      );
     }
 
     const christmasOctaveSunday = this.calcSundayChristmasOctave(this.year);
-    if (christmasOctaveSunday) {
-      this.insertBlock(christmasOctaveSunday, NATIVITY_OCTAVE_SUNDAY);
+    if (christmasOctaveSunday && massManager.getById("TEMPORA_NAT1_0")) {
+      this.insertBlock(christmasOctaveSunday, [
+        massManager.getById("TEMPORA_NAT1_0")!,
+      ]);
     }
   }
 
   private insertBlock(
     date: Date,
-    block: string[],
+    block: Mass[],
     reverse = false,
     overwrite = true,
-    stopDate?: Date,
+    stopDate?: Date
   ) {
     if (reverse) {
       // TODO: use toReversed in order not to mutate the original
@@ -130,16 +145,16 @@ class Calendar {
       block = block.slice().reverse();
     }
 
-    for (const [ii, observanceIds] of block.entries()) {
+    for (const [ii, observance] of block.entries()) {
       const currentDate = addDays(new UTCDate(date), reverse ? -ii : ii);
 
-      if (!observanceIds) {
+      if (!observance) {
         continue;
       }
 
       const dateKey = yyyyMMDD(currentDate);
 
-      if (this.container.get(dateKey)?.celebration.length && !overwrite) {
+      if (this.container.get(dateKey)?.mass.length && !overwrite) {
         break;
       }
 
@@ -148,87 +163,62 @@ class Calendar {
       }
 
       const findDate = this.container.get(dateKey);
-      if (findDate) {
-        findDate.tempora = [new Observance(observanceIds, dateKey)];
-        findDate.celebration = [...findDate.tempora];
+      if (findDate && observance) {
+        findDate.mass.push(massManager.createMassWithDate(observance, dateKey));
       }
     }
   }
 
   private fillInSanctiDays() {
-    for (const [date] of this.container.entries()) {
-      const dateId = format(date, "MM-dd");
-      const days = SANCTI.filter((ii) => ii.startsWith(`santos:${dateId}`)).map(
-        (ii) => new Observance(ii, date),
-      );
+    for (const [date] of this.container) {
+      const m = getMonth(date);
+      const d = getDate(date);
+      const days = massManager
+        .getByFlexibility("santos")
+        .filter((ii) => ii.month === m + 1 && ii.day === d)
+        .map((ii) => massManager.createMassWithDate(ii, date));
 
-      this.container.get(date)?.celebration.push(...days);
-
-      const local = LOCAL.filter((ii) => ii.startsWith(`santos:${dateId}`)).map(
-        (ii) => new Observance(ii, date),
-      );
-
-      if (local.length) {
-        this.container.get(date)?.local.push(...local);
-      }
-
-      const outro = OUTRO.filter((ii) => ii.startsWith(`santos:${dateId}`)).map(
-        (ii) => new Observance(ii, date),
-      );
-
-      if (outro.length) {
-        this.container.get(date)?.outro.push(...outro);
-      }
+      this.container.get(date)?.mass.push(...days);
     }
   }
 
   // Apply `kalendar.rules.*` to the initially instantiated Calendar to fix the situations
   // where more than one Observance falls in the same day.
   private resolveConcurrency() {
-    const shiftedAll: { [date: string]: Observance[] } = {};
+    const shiftedAll: { [date: string]: Mass[] } = {};
 
-    for (const [date] of this.container.entries()) {
-      const [celebration, commemoration, shifted] = this.applyRules(
-        date,
-        shiftedAll[date] || [],
-      );
+    for (const [date, day] of this.container.entries()) {
+      const result = this.applyRules(date, shiftedAll[date] || []);
 
-      const findDate = this.container.get(date);
-      if (findDate) {
-        findDate.celebration = celebration as Observance[];
-        findDate.commemoration = commemoration as Observance[];
+      if (result.toShift?.date && result.toShift.date !== date) {
+        shiftedAll[result.toShift.date] = (
+          shiftedAll[result.toShift.date] || []
+        ).concat(result.toShift.observances);
+        day.mass = result.observances || [];
+      } else if (result.observances) {
+        day.mass = result.observances;
       }
+    }
 
-      if (shifted) {
-        // @ts-ignore
-        for (const [k, v] of shifted) {
-          if (!shiftedAll[k]) {
-            shiftedAll[k] = [];
-          }
-          shiftedAll[k].push(...(Array.isArray(v) ? v : [v]));
-        }
-      }
+    // Apply shifted masses to their new dates
+    for (const [date, masses] of Object.entries(shiftedAll)) {
+      const day = this.container.get(date) || new Day(date);
+      day.mass = day.mass.concat(masses);
+      this.container.set(date, day);
     }
   }
 
-  private applyRules(date: string, shifted: Observance[]) {
-    for (const rule of rules) {
-      const findDate = this.container.get(date);
-      if (findDate) {
-        const results = rule(
-          findDate.celebration.concat(shifted),
-          date,
-          this,
-          this.container.get(date)?.tempora,
-        );
-
-        if (results) {
-          return results;
-        }
-      }
+  private applyRules(date: string, shifted: Mass[]): RuleResult {
+    const day = this.container.get(date);
+    if (day?.mass.length || shifted.length) {
+      const rules = new Rules(
+        day ? day.mass.concat(shifted) : shifted,
+        date,
+        this
+      );
+      return rules.applyRules();
     }
-
-    return [this.container.get(date)?.celebration, [], []];
+    return { observances: shifted };
   }
 
   private calcEasterSunday(year: number): Date {
@@ -381,23 +371,14 @@ class Calendar {
     return this.container.get(date);
   }
 
-  public findDay(observanceId: string): [string, Day] | undefined {
+  public findDay(observanceId?: string): [string, Day] | undefined {
+    if (!observanceId) return;
     for (const [date, day] of this.container) {
       if (day.all.some((observance) => observance.id === observanceId)) {
         return [date, day];
       }
     }
     return undefined;
-  }
-
-  private items() {
-    return this.container.entries();
-  }
-
-  public serialize(): Record<string, ReturnType<Day["serialize"]>> {
-    return Object.fromEntries(
-      Array.from(this.container, ([date, day]) => [date, day.serialize()]),
-    );
   }
 }
 
