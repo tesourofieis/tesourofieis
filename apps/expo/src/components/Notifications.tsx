@@ -57,18 +57,30 @@ export default function Not() {
   if (notificationsPermission !== "granted") {
     return (
       <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
-        <Text className="dark:text-sepia-200 text-lg text-bold mb-4">
-          Notificações Desativadas
+        <View className="flex-row items-center">
+          <FontAwesome6
+            name="gear"
+            size={15}
+            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+          />
+          <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
+            Notificações Desativadas
+          </Text>
+        </View>
+
+        <Text className="font-serif dark:text-sepia-200 text-sm">
+          Para receber notificações active as notificações.
         </Text>
-        <Text className="dark:text-sepia-200 text-sm mb-4">
-          Para receber notificações sobre orações e missas, por favor, active as
-          notificações.
+        <Text className="font-serif dark:text-sepia-200 text-xs">
+          Pode ter que activar nas definições do dispositivo.
         </Text>
-        <Button
-          title="Activar Notificações"
-          onPress={requestNotificationPermissions}
-          color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-        />
+        <View className="p-3">
+          <Button
+            title="Activar Notificações"
+            onPress={requestNotificationPermissions}
+            color={colorScheme === "light" ? COLORS["200"] : COLORS["900"]}
+          />
+        </View>
       </View>
     );
   }
