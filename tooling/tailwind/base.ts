@@ -1,7 +1,5 @@
 import type { Config } from "tailwindcss";
 
-import defaultTheme from "tailwindcss/defaultTheme";
-
 export const sepia = {
   900: "#1d2021",
   800: "#32302f",
@@ -20,18 +18,6 @@ export default {
   content: ["src/**/*.{ts,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        display: [
-          "Display",
-          ...defaultTheme.fontFamily.serif,
-          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
-        ],
-        body: [
-          "Serif",
-          ...defaultTheme.fontFamily.serif,
-          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
-        ],
-      },
       colors: {
         gray: sepia,
         sepia: sepia,

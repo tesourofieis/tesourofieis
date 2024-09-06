@@ -17,7 +17,6 @@ export default defineConfig({
   output: "static",
   experimental: {
     contentCollectionCache: true,
-    contentLayer: true,
   },
   integrations: [
     starlight({
@@ -162,15 +161,8 @@ export default defineConfig({
       },
       sidebar: sidebar,
       customCss: [
-        "./src/assets/fonts/SpaceMono-Regular.ttf",
-        "./src/assets/fonts/BerkshireSwash-Regular.ttf",
-        "./src/assets/fonts/GoudyBookletter1911.otf",
-        "./src/assets/fonts/GeistVF.woff",
-        "./src/assets/fonts/Geist-Black.woff",
-        "./src/assets/fonts/LibreCaslonText-Bold.ttf",
-        "./src/assets/fonts/LibreCaslonText-Italic.ttf",
-        "./src/assets/fonts/LibreCaslonText-Regular.ttf",
-        "./src/assets/fonts/EBGaramond-VariableFont_wght.ttf",
+        "@fontsource/berkshire-swash",
+        "@fontsource-variable/eb-garamond",
         "./src/tailwind.css",
       ],
     }),

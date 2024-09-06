@@ -53,17 +53,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   plugins: [
     "expo-router",
-    [
-      "expo-font",
-      {
-        fonts: [
-          "./assets/fonts/SpaceMono-Regular.ttf",
-          "./assets/fonts/GoudyBookletter1911.otf",
-          "./assets/fonts/EBGaramond-VariableFont_wght.ttf",
-          "./assets/fonts/BerkshireSwash-Regular.ttf",
-        ],
-      },
-    ],
+    "expo-font",
     [
       "expo-notifications",
       {

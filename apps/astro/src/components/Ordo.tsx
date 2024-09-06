@@ -1,10 +1,10 @@
-import { Icon } from "@iconify/react/dist/iconify.js";
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
 import type { Day } from "@tesourofieis/cal/day";
 import LinkCard from "./LinkCard";
 import Loading from "./Loading";
+import { Icon } from "@iconify/react";
 
 export default function Ordo({ section }: { section: string }) {
   const calendar = getCalendarDay(yyyyMMDD(new Date())) as Day;

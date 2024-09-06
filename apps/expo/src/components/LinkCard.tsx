@@ -28,11 +28,11 @@ export default function LinkCard({
     >
       <View className="flex flex-col justify-start">
         <View className="flex flex-row">
-          <Text className="text-xs text-sepia-600 dark:text-sepia-300">
+          <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
             {description}
           </Text>
           {caption && (
-            <Text className="text-xs font-bold text-sepia-700 dark:text-sepia-300">
+            <Text className="font-serif text-sm font-bold text-sepia-700 dark:text-sepia-300">
               {" "}
               | {caption}
             </Text>
@@ -41,7 +41,7 @@ export default function LinkCard({
 
         <View className="flex flex-row items-center gap-2">
           {color && <FontAwesome name="circle" color={color} />}
-          <Text className={"font-bold text-sepia-600 dark:text-sepia-400"}>
+          <Text className={"font-black text-sepia-600 dark:text-sepia-400"}>
             {title}
           </Text>
         </View>

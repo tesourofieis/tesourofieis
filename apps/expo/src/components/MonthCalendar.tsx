@@ -59,7 +59,7 @@ export default function MonthlyCalendar() {
 
   return (
     <View>
-      <View className="text-xs">
+      <View className="text-sm">
         <ChangeMonth
           handleNextMonth={handleNextMonth}
           monthStart={monthStart}
@@ -78,7 +78,7 @@ export default function MonthlyCalendar() {
                     : "bg-sepia-100 dark:bg-sepia-900"
                 }`}
               >
-                <Text className="mb-1 text-center text-xs font-bold text-sepia-700 dark:text-sepia-300">
+                <Text className="mb-1 text-center text-sm font-bold text-sepia-700 dark:text-sepia-300">
                   {format(date, "MMM dd", { locale: pt })}
                 </Text>
                 {day.celebration.length ? (

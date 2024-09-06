@@ -36,7 +36,7 @@ Notifications.setNotificationHandler({
   }),
 });
 
-const DAILY_MASS_TIME = { hour: 8, minute: 0 };
+const DAILY_MASS_TIME = { hour: 7, minute: 0 };
 
 export const useNotifications = () => {
   const [angelusEnabled, setAngelusEnabled] = useState(false);
@@ -108,7 +108,7 @@ export const useNotifications = () => {
       await Notifications.scheduleNotificationAsync({
         content: {
           title: "🔔 Hora do Angelus",
-          data: { url: "/modal?devocionario/dia/angelus" },
+          data: { url: "devocionario/dia/angelus" },
           color: "#2196f3",
           sound: "angelus.wav",
         },
@@ -163,16 +163,18 @@ export const useNotifications = () => {
     }
 
     const color =
-      calendar?.celebration[0]?.colors[0] ?? calendar?.tempora[0]?.colors[0];
+      calendar?.celebration[0]?.colors[0] ??
+      calendar?.tempora[0]?.colors[0] ??
+      calendar?.commemoration[0]?.colors[0];
 
     const mass = titleParts.join(" | ");
     const other = subTitleParts.join(" | ");
 
     return {
       title: "📅 Missa",
-      subtitle: mass,
+      subtitle: mass ?? other,
       body: other,
-      data: { url: `modal?${link}` },
+      data: { url: link },
       color: getColor(color),
     };
   }, []);

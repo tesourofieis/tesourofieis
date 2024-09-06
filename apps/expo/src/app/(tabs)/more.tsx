@@ -22,7 +22,7 @@ const MainMenuItem = ({ item, onPress, isExpanded }) => {
         </Text>
         {item.badge && (
           <View className="ml-2 px-2 py-1 rounded-full bg-sepia-900">
-            <Text className="text-xs font-semibold text-sepia-200">
+            <Text className="text-sm font-semibold text-sepia-200">
               {item.badge.text}
             </Text>
           </View>
@@ -59,7 +59,7 @@ const SubMenuItem = ({ item, onPress, isExpanded }) => {
         </Text>
         {item.badge && (
           <View className="ml-2 px-2 py-1 rounded-full bg-sepia-900">
-            <Text className="text-xs font-semibold text-sepia-200">
+            <Text className="text-sm font-semibold text-sepia-200">
               {item.badge.text}
             </Text>
           </View>

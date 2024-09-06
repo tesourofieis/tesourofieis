@@ -8,10 +8,11 @@ const path = require("node:path");
 const config = withTurborepoManagedCache(
   withMonorepoPaths(
     withNativeWind(getDefaultConfig(__dirname), {
-      input: "./src/styles.css",
+      input: "./src/global.css",
       configPath: "./tailwind.config.ts",
-    }),
-  ),
+      isCSSEnabled: true,
+    })
+  )
 );
 
 // XXX: Resolve our exports in workspace packages

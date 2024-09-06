@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import animate from "tailwindcss-animate";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 import base from "./base";
 
@@ -33,6 +34,18 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      fontFamily: {
+        display: [
+          "Berkshire Swash",
+          ...defaultTheme.fontFamily.serif,
+          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
+        ],
+        body: [
+          "EB Garamond Variable",
+          ...defaultTheme.fontFamily.serif,
+          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
+        ],
       },
     },
   },
