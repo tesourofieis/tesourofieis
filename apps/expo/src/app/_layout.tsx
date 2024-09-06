@@ -1,14 +1,14 @@
 import { ThemeProvider } from "@react-navigation/native";
 import { SplashScreen, Stack } from "expo-router";
 
-import { useFonts } from "expo-font";
-import { useColorScheme } from "nativewind";
-import { useEffect } from "react";
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
 import {
   Lusitana_400Regular,
   Lusitana_700Bold,
 } from "@expo-google-fonts/lusitana";
+import { useFonts } from "expo-font";
+import { useColorScheme } from "nativewind";
+import { useEffect } from "react";
 
 import "../global.css";
 import "react-native-reanimated";

@@ -1,11 +1,11 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { View, ActivityIndicator, Switch, Text, Button } from "react-native";
-import { COLORS } from "~/constants/Colors";
-import { useColorScheme } from "nativewind";
-import { useNotifications } from "~/hooks/useNotifications";
 import * as Notifications from "expo-notifications";
 import { useRouter } from "expo-router";
+import { useColorScheme } from "nativewind";
 import { useEffect, useState } from "react";
+import { ActivityIndicator, Button, Switch, Text, View } from "react-native";
+import { COLORS } from "~/constants/Colors";
+import { useNotifications } from "~/hooks/useNotifications";
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
@@ -36,7 +36,7 @@ export default function Not() {
         if (url) {
           router.push(`/modal?url=${url}`);
         }
-      }
+      },
     );
 
     checkNotificationPermissions();
