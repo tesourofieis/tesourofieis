@@ -65,7 +65,7 @@ export class Rules {
   }
 
   applyRules(): RuleResult {
-    let currentMasses = this.observances;
+    const currentMasses = this.observances;
     let shiftedMasses: Mass[] | undefined;
     let shiftedDate: string | undefined;
 
@@ -84,7 +84,7 @@ export class Rules {
           shiftedMasses = result.toShift.observances;
         }
 
-        // // Update current day observances
+        // Update current day observances
         // if (result.observances?.length) {
         //   currentMasses = result.observances;
         // }
@@ -221,11 +221,7 @@ export class Rules {
   }
 
   // Feb 27, normally on Feb 27 but in leap year on Feb 28
-  ruleFeb27(
-    observances: Mass[],
-    date: string,
-    calendar: Calendar
-  ): RuleResult | undefined {
+  ruleFeb27(observances: Mass[], date: string): RuleResult | undefined {
     if (
       massManager.match(observances, massManager.getById("SANCTI_02_27")) &&
       getDate(new Date(date)) === 27

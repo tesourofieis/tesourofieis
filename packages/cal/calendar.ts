@@ -16,7 +16,7 @@ import {
   subDays,
 } from "date-fns";
 import { type Mass, massManager } from "./observanceManager";
-import { RuleResult, Rules } from "./rules";
+import { type RuleResult, Rules } from "./rules";
 
 export class Day {
   date: string;
@@ -74,7 +74,6 @@ class Calendar {
       this.calcSeptuagesima(this.year),
       massManager.getByTypeId("pre-lent-to-pentcost")
     );
-    const blo = massManager.getByTypeId("pre-lent-to-pentcost");
     this.insertBlock(
       this.calcSaturdayBefore24SundayAfterPentecost(this.year),
       massManager.getByTypeId("post-epiphany"),
@@ -194,16 +193,14 @@ class Calendar {
         shiftedAll[result.toShift.date] = (
           shiftedAll[result.toShift.date] || []
         ).concat(result.toShift.observances);
-        day.mass = result.observances || [];
       } else if (result.observances) {
-        day.mass = result.observances;
+        day.mass = this.removeDuplicates(result.observances); // Remove duplicates here
       }
     }
 
-    // Apply shifted masses to their new dates
     for (const [date, masses] of Object.entries(shiftedAll)) {
       const day = this.container.get(date) || new Day(date);
-      day.mass = day.mass.concat(masses);
+      day.mass = this.removeDuplicates(day.mass.concat(masses)); // Remove duplicates here as well
       this.container.set(date, day);
     }
   }
@@ -219,6 +216,17 @@ class Calendar {
       return rules.applyRules();
     }
     return { observances: shifted };
+  }
+
+  private removeDuplicates(masses: Mass[]): Mass[] {
+    masses.sort((a, b) => a.rank - b.rank);
+    const seen = new Set<string>();
+    return masses.filter((mass) => {
+      const id = mass.id; // Assuming each Mass has a unique `id`
+      if (seen.has(id)) return false;
+      seen.add(id);
+      return true;
+    });
   }
 
   private calcEasterSunday(year: number): Date {
@@ -379,6 +387,37 @@ class Calendar {
       }
     }
     return undefined;
+  }
+
+  public getAllDays(): Day[] {
+    return Array.from(this.container.values());
+  }
+
+  public getDay(date: string): Day | undefined {
+    return this.container.get(date);
+  }
+
+  public getDaysInMonth(month: number): Day[] {
+    const startDate = new UTCDate(this.year, month - 1, 1);
+    const endDate = new UTCDate(this.year, month, 0);
+    const days: Day[] = [];
+
+    for (let d = startDate; d <= endDate; d = addDays(d, 1)) {
+      const day = this.getDay(yyyyMMDD(d));
+      if (day) days.push(day);
+    }
+
+    return days;
+  }
+
+  // Method to allow adding or updating masses for a specific day
+  public updateDay(date: string, masses: Mass[]): void {
+    const day = this.getDay(date);
+    if (day) {
+      day.mass = masses;
+    } else {
+      console.warn(`Day ${date} not found in calendar`);
+    }
   }
 }
 

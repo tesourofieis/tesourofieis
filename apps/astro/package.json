@@ -11,6 +11,7 @@
     "deploy-preview": "wrangler pages dev ./dist",
     "clean": "git clean -xdf .cache .next .turbo node_modules",
     "lint": "biome check --write --unsafe --files-ignore-unknown=true",
+    "test": "vitest ./src/tests",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

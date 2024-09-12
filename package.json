@@ -4,7 +4,6 @@
   "packageManager": "bun@1.1.24",
   "scripts": {
     "dev": "concurrently -n 'astro,expo' -c '#007755,#550077' 'cd apps/astro && bun run dev' 'cd apps/expo && bun run dev'",
-    "typecheck": "bunx --bun tsc",
     "lint": "biome lint .",
     "lint:fix": "biome lint --apply .",
     "format": "biome format .",

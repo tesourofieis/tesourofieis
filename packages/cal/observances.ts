@@ -2115,7 +2115,7 @@ export const OBSERVANCES: MassMap = {
     color: "g",
     link: "missal/pentecostes/pent1-0a",
     outro: false,
-    type: "pre-lent-to-pentcost",
+    type: "feria",
     category: "pentecostes",
     weekday: 6,
     week: 1,

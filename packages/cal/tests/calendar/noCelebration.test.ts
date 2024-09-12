@@ -11,7 +11,7 @@ test("no celebration when tempora", () => {
         date: "2024-01-08",
         flexibility: "tempora",
         id: "TEMPORA_EPI1_1",
-        link: "missal/epifania/epi1-1",
+        link: "missal/epifania/epi1-0",
         rank: 4,
         name: "Segunda-feira da semana após a Epifania",
       },

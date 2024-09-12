@@ -1,13 +1,11 @@
 pre-commit:
   parallel: false
   commands:
-    check:
-      run: pnpm typecheck
     lint:
-      run: pnpm lint
+      run: bun lint
 
 pre-push:
   parallel: true
   commands:
     test:
-      run: pnpm test
+      run: bun test

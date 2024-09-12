@@ -2,13 +2,13 @@ import { addDays, format, getYear, startOfToday } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useState } from "react";
 
-import type { Day } from "@tesourofieis/cal/day";
 import { getCalendar } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
 import LinkCard from "./LinkCard";
+import type { Mass } from "@tesourofieis/cal/observanceManager";
 
-export function getColor(color: string) {
+export function getColor(color: Mass["color"]) {
   switch (color) {
     case "w":
       return "white";
@@ -28,7 +28,7 @@ export function getColor(color: string) {
 export default function DailyCalendar() {
   const calendar = getCalendar(getYear(new Date()));
   const today = startOfToday();
-  const [currentDayIndex, _setCurrentDayIndex] = useState(0);
+  const [currentDayIndex] = useState(0);
 
   const getDate = (index: number) => {
     return addDays(today, index);
@@ -44,7 +44,7 @@ export default function DailyCalendar() {
         {Array.from({ length: 15 }, (_, i) => currentDayIndex + i).map(
           (index) => {
             const date = yyyyMMDD(getDate(index));
-            const day = calendar[date] as Day;
+            const day = calendar.find((i) => i.date === date);
             return (
               <div
                 key={date}
@@ -57,67 +57,19 @@ export default function DailyCalendar() {
                 <div className="mb-2 text-lg font-semibold">
                   {formatDate(getDate(index))}
                 </div>
-                {day?.celebration?.length ? (
-                  day.celebration.map((celebration) => (
-                    <LinkCard
-                      key={celebration.link}
-                      href={celebration.link}
-                      caption={"Celebração"}
-                      title={celebration.title}
-                      color={getColor(celebration.colors[0] ?? "")}
-                      icon="mdi:tshirt-v"
-                    />
-                  ))
-                ) : (
-                  <>
-                    {day.tempora.map((tempora) => (
-                      <LinkCard
-                        key={tempora.link}
-                        href={tempora.link}
-                        caption={tempora.title ? "Celebração" : "Tempora"}
-                        title={tempora.title || "Feria"}
-                        color={getColor(tempora.colors[0] ?? "")}
-                        icon="mdi:tshirt-v"
-                      />
-                    ))}
-                  </>
-                )}
-                {day.commemoration.map((commemoration) => (
+                {day?.mass.map((item) => (
                   <LinkCard
-                    key={commemoration.link}
-                    href={commemoration.link}
-                    caption="Comemoração"
-                    title={commemoration.title}
-                    color={getColor(commemoration.colors[0] ?? "")}
-                    icon="mdi:tshirt-v"
-                  />
-                ))}
-                {day.local.map((local) => (
-                  <LinkCard
-                    key={local.link}
-                    href={local.link}
-                    caption={`Local: ${local.local
-                      ?.toLocaleUpperCase()
-                      .split("-")
-                      .join(", ")}`}
-                    title={local.title}
-                    color={getColor(local.colors[0] ?? "")}
-                    icon="mdi:tshirt-v"
-                  />
-                ))}
-                {day.outro.map((outro) => (
-                  <LinkCard
-                    key={outro.link}
-                    href={outro.link}
-                    caption="No mesmo dia"
-                    title={outro.title}
-                    color={getColor(outro.colors[0] ?? "")}
+                    key={item.link}
+                    href={item.link}
+                    caption={"Celebração"}
+                    title={item.name}
+                    color={getColor(item.color ?? "")}
                     icon="mdi:tshirt-v"
                   />
                 ))}
               </div>
             );
-          },
+          }
         )}
       </div>
     </div>
