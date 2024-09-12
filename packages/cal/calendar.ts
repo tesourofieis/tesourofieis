@@ -68,34 +68,34 @@ class Calendar {
     // # Inserting blocks
     this.insertBlock(
       this.calcHolyFamily(),
-      massManager.getByTypeId("post-epiphany")
+      massManager.getByTypeId("post-epiphany"),
     );
     this.insertBlock(
       this.calcSeptuagesima(this.year),
-      massManager.getByTypeId("pre-lent-to-pentcost")
+      massManager.getByTypeId("pre-lent-to-pentcost"),
     );
     this.insertBlock(
       this.calcSaturdayBefore24SundayAfterPentecost(this.year),
       massManager.getByTypeId("post-epiphany"),
       true,
       false,
-      this.calcFirstAdventSunday(this.year)
+      this.calcFirstAdventSunday(this.year),
     );
     this.insertBlock(
       this.calc24SundayAfterPentecost(this.year),
 
-      massManager.getByTypeId("week-24-after-pentcost")
+      massManager.getByTypeId("week-24-after-pentcost"),
     );
     this.insertBlock(
       this.calcFirstAdventSunday(this.year),
       massManager.getByTypeId("advent"),
       false,
       false,
-      new UTCDate(this.year, 11, 23)
+      new UTCDate(this.year, 11, 23),
     );
     this.insertBlock(
       this.calcEmberWednesdaySeptember(this.year),
-      massManager.getByTypeId("ember-september")
+      massManager.getByTypeId("ember-september"),
     );
 
     // # Inserting single days
@@ -106,8 +106,8 @@ class Calendar {
       holyName.mass.push(
         massManager.createMassWithDate(
           massManager.getById("TEMPORA_NAT2_0"),
-          yyyyMMDD(holyNameDate)
-        )
+          yyyyMMDD(holyNameDate),
+        ),
       );
     }
 
@@ -118,8 +118,8 @@ class Calendar {
       christKing.mass.push(
         massManager.createMassWithDate(
           massManager.getById("SANCTI_10_DUr"),
-          yyyyMMDD(christKingDate)
-        )
+          yyyyMMDD(christKingDate),
+        ),
       );
     }
 
@@ -136,7 +136,7 @@ class Calendar {
     block: Mass[],
     reverse = false,
     overwrite = true,
-    stopDate?: Date
+    stopDate?: Date,
   ) {
     if (reverse) {
       // TODO: use toReversed in order not to mutate the original
@@ -188,13 +188,31 @@ class Calendar {
       const rules = new Rules(day.mass, date, this);
       const result = this.applyRules(rules);
 
+      if (result?.observances) {
+        const temporaObservances = result.observances.filter(i => i.flexibility === "tempora");
+
+        if (temporaObservances.length > 1) {
+          result.observances = [
+            ...result.observances.filter(i => i.flexibility !== "tempora"),
+            temporaObservances[1]
+          ];
+        }
+      }
+
       if (result?.toShift?.date) {
-        const shiftedDay = this.container.get(result.toShift.date) || new Day(result.toShift.date);
-        shiftedDay.mass = this.removeDuplicates([...shiftedDay.mass, ...result.toShift.observances]);
+        const shiftedDay =
+          this.container.get(result.toShift.date) ||
+          new Day(result.toShift.date);
+
+        shiftedDay.mass = this.removeDuplicates([
+          ...shiftedDay.mass,
+          ...result.toShift.observances,
+        ]);
+
         this.container.set(result.toShift.date, shiftedDay);
       }
 
-      if (result?.observances) {
+      if (result?.observances?.length) {
         day.mass = this.removeDuplicates(result.observances);
       }
       this.container.set(date, day);
@@ -207,19 +225,22 @@ class Calendar {
     for (const ruleFunction of rules.ruleFunctions) {
       const result = ruleFunction(currentObservances, rules.date, this);
 
-      if (!result) continue;
+      if (!result?.observances?.length) continue;
 
-      if (result.toShift) {
+      if (result.toShift?.observances.length) {
         // Remove shifted observances from current observances
-        currentObservances = currentObservances.filter(obs =>
-          !result.toShift!.observances.some(shiftedObs => shiftedObs.id === obs.id)
+        currentObservances = currentObservances.filter(
+          (obs) =>
+            !result.toShift!.observances.some(
+              (shiftedObs) => shiftedObs.id === obs.id,
+            ),
         );
         return { observances: currentObservances, toShift: result.toShift };
       }
 
-      if (result.observances) {
-        currentObservances = result.observances;
-      }
+      // if (result.observances?.length) {
+      //   currentObservances = result.observances;
+      // }
     }
 
     return { observances: currentObservances };
