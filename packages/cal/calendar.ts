@@ -189,6 +189,16 @@ class Calendar {
     for (const [date, day] of this.container.entries()) {
       const result = this.applyRules(date, shiftedAll[date] || []);
 
+      if (result.observances) {
+        const temporaObservances = result.observances.filter(i => i.flexibility === "tempora");
+
+        if (temporaObservances.length > 1) {
+          result.observances = [
+            ...result.observances.filter(i => i.flexibility !== "tempora"),
+            temporaObservances[1]
+          ];
+        }
+      }
       if (result.toShift?.date && result.toShift.date !== date) {
         shiftedAll[result.toShift.date] = (
           shiftedAll[result.toShift.date] || []

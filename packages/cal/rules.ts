@@ -586,7 +586,6 @@ export class Rules {
         observances: observances.filter((o) => o !== fourthClassTempora),
       };
     }
-    return { observances };
   }
 
   ruleGeneral(observances: Mass[]): RuleResult | undefined {
