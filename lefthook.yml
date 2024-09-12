@@ -3,9 +3,3 @@ pre-commit:
   commands:
     lint:
       run: bun lint
-
-pre-push:
-  parallel: true
-  commands:
-    test:
-      run: bun test
