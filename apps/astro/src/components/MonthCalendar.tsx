@@ -10,7 +10,6 @@ import {
 import { pt } from "date-fns/locale";
 import { useState } from "react";
 
-import type { Day } from "@tesourofieis/cal/day";
 import { getCalendar } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
@@ -67,7 +66,7 @@ export default function MonthlyCalendar() {
       <div>
         {monthDays.map((date) => {
           const calendarDate = yyyyMMDD(date);
-          const day = calendar[calendarDate] as Day;
+          const day = calendar.find((i) => i.date === calendarDate);
           return (
             <div
               key={calendarDate}
@@ -80,63 +79,13 @@ export default function MonthlyCalendar() {
               <div className="mb-1 text-center text-xs font-bold">
                 {format(date, "MMM dd", { locale: pt })}
               </div>
-              {day.celebration.length ? (
-                <>
-                  {day.celebration.map((celebration) => (
-                    <LinkCard
-                      key={celebration.id}
-                      href={celebration.link}
-                      caption={"Celebração"}
-                      title={celebration.title}
-                      color={getColor(celebration.colors[0] ?? "")}
-                      icon="mdi:tshirt-v"
-                    />
-                  ))}
-                </>
-              ) : (
-                <>
-                  {day.tempora.map((tempora) => (
-                    <LinkCard
-                      key={tempora.id}
-                      href={tempora.link}
-                      caption={tempora.title ? "Celebração" : "Tempora"}
-                      title={tempora.title || "Feria"}
-                      color={getColor(tempora.colors[0] ?? "")}
-                      icon="mdi:tshirt-v"
-                    />
-                  ))}
-                </>
-              )}
-              {day.commemoration.map((commemoration) => (
+              {day?.mass.map((item) => (
                 <LinkCard
-                  key={commemoration.id}
-                  href={commemoration.link}
-                  caption="Comemoração"
-                  title={commemoration.title}
-                  color={getColor(commemoration.colors[0] ?? "")}
-                  icon="mdi:tshirt-v"
-                />
-              ))}
-              {day.local.map((local) => (
-                <LinkCard
-                  key={local.id}
-                  href={local.link}
-                  caption={`Local: ${local.local
-                    ?.toLocaleUpperCase()
-                    .split("-")
-                    .join(", ")}`}
-                  title={local.title}
-                  color={getColor(local.colors[0] ?? "")}
-                  icon="mdi:tshirt-v"
-                />
-              ))}
-              {day.outro.map((outro) => (
-                <LinkCard
-                  key={outro.id}
-                  href={outro.link}
-                  caption="No mesmo dia"
-                  title={outro.title}
-                  color={getColor(outro.colors[0] ?? "")}
+                  key={item.id}
+                  href={item.link}
+                  caption={"Celebração"}
+                  title={item.name}
+                  color={getColor(item.color)}
                   icon="mdi:tshirt-v"
                 />
               ))}

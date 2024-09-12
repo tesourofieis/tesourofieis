@@ -11,29 +11,11 @@ import { pt } from "date-fns/locale";
 import React, { useState } from "react";
 import { Pressable, Text, View } from "react-native";
 
-import type { Day } from "@tesourofieis/cal/day";
 import { getCalendar } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
 import { COLORS } from "~/constants/Colors";
 import LinkCard from "./LinkCard";
-
-export function getColor(color?: string) {
-  switch (color) {
-    case "w":
-      return "white";
-    case "r":
-      return "red";
-    case "g":
-      return "green";
-    case "v":
-      return "violet";
-    case "b":
-      return "black";
-    default:
-      return "gray";
-  }
-}
 
 export default function MonthlyCalendar() {
   const [currentMonth, setCurrentMonth] = useState(new Date());
@@ -68,7 +50,8 @@ export default function MonthlyCalendar() {
         <View>
           {monthDays.map((date) => {
             const calendarDate = yyyyMMDD(date);
-            const day: Partial<Day> | undefined = calendar[calendarDate];
+
+            const day = calendar.find((i) => i.date === calendarDate);
             return (
               <View
                 key={calendarDate}
@@ -81,65 +64,8 @@ export default function MonthlyCalendar() {
                 <Text className="mb-1 text-center text-sm font-bold text-sepia-700 dark:text-sepia-300">
                   {format(date, "MMM dd", { locale: pt })}
                 </Text>
-                {day.celebration.length ? (
-                  <>
-                    {day?.celebration?.map((celebration) => (
-                      <LinkCard
-                        key={celebration.id}
-                        href={celebration.link}
-                        caption={"Celebração"}
-                        title={celebration.title}
-                        color={getColor(celebration.colors[0])}
-                        description="Missa"
-                      />
-                    ))}
-                  </>
-                ) : (
-                  <>
-                    {day?.tempora?.map((tempora) => (
-                      <LinkCard
-                        key={tempora.id}
-                        href={tempora.link}
-                        caption={"Tempora"}
-                        title={tempora.title || "Feria"}
-                        color={getColor(tempora.colors[0])}
-                        description="Missa"
-                      />
-                    ))}
-                  </>
-                )}
-                {day?.commemoration?.map((commemoration) => (
-                  <LinkCard
-                    key={commemoration.id}
-                    href={commemoration.link}
-                    caption="Comemoração"
-                    title={commemoration.title}
-                    color={getColor(commemoration.colors[0])}
-                    description="Missa"
-                  />
-                ))}
-                {day?.local?.map((local) => (
-                  <LinkCard
-                    key={local.id}
-                    href={local.link}
-                    caption={`Local: ${local.local
-                      ?.toLocaleUpperCase()
-                      .split("-")
-                      .join(", ")}`}
-                    title={local.title}
-                    color={getColor(local.colors[0])}
-                    description="Missa"
-                  />
-                ))}
-                {day?.outro?.map((outro) => (
-                  <LinkCard
-                    key={outro.id}
-                    href={outro.link}
-                    caption="No mesmo dia"
-                    title={outro.title}
-                    color={getColor(outro.colors[0])}
-                    description="Missa"
-                  />
+                {day?.mass?.map((item) => (
+                  <LinkCard key={item.id} mass={item} />
                 ))}
               </View>
             );

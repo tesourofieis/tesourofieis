@@ -65,11 +65,11 @@ export const useNotifications = () => {
       await Promise.all([
         AsyncStorage.setItem(
           STORAGE_KEYS.ANGELUS_ENABLED,
-          angelusEnabled.toString(),
+          angelusEnabled.toString()
         ),
         AsyncStorage.setItem(
           STORAGE_KEYS.DAILY_MASS_ENABLED,
-          dailyMassEnabled.toString(),
+          dailyMassEnabled.toString()
         ),
       ]);
     } catch (error) {
@@ -98,12 +98,12 @@ export const useNotifications = () => {
       const trigger = notification.trigger;
       const isAngelus = ANGELUS_TIMES.some(
         // @ts-ignore
-        (time) => time.hour === trigger.hour && time.minute === trigger.minute,
+        (time) => time.hour === trigger.hour && time.minute === trigger.minute
       );
 
       if (!isAngelus) {
         await Notifications.cancelScheduledNotificationAsync(
-          notification.identifier,
+          notification.identifier
         );
       }
     }
@@ -124,13 +124,13 @@ export const useNotifications = () => {
 
         const hasAngelus = scheduledNotifications.some((notification) =>
           // @ts-ignore
-          ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour),
+          ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour)
         );
         setAngelusEnabled(hasAngelus);
 
         const hasDailyMass = scheduledNotifications.some(
           // @ts-ignore
-          (notification) => DAILY_MASS_TIME.hour === notification.trigger.hour,
+          (notification) => DAILY_MASS_TIME.hour === notification.trigger.hour
         );
         setDailyMassEnabled(hasDailyMass);
       } catch (error) {
@@ -172,7 +172,7 @@ export const useNotifications = () => {
         ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour)
       ) {
         await Notifications.cancelScheduledNotificationAsync(
-          notification.identifier,
+          notification.identifier
         );
       }
     }
@@ -180,44 +180,19 @@ export const useNotifications = () => {
 
   const prepareDailyMassNotification = useCallback((date: Date) => {
     const calendar = getCalendarDay(yyyyMMDD(date));
-    const day = calendar?.celebration[0] ?? calendar?.tempora[0];
+    const mass = calendar.mass;
 
-    const titleParts = [];
-    const subTitleParts = [];
-    let link = "";
+    const titleParts = mass[0].name;
+    const subTitleParts = mass.filter((_m, i) => i !== 0);
 
-    titleParts.push(day?.title || "Feria");
-    link = day?.link || "";
-
-    if (calendar?.commemoration.length) {
-      subTitleParts.push(`Comemoração: ${calendar?.commemoration[0]?.title}`);
-    }
-
-    if (calendar?.local.length) {
-      const localInfo = calendar?.local[0];
-      subTitleParts.push(
-        `Local: ${localInfo?.local?.toLocaleUpperCase().split("-").join(", ")}`,
-      );
-    }
-
-    if (calendar?.outro.length) {
-      subTitleParts.push(`Outro: ${calendar?.outro[0]?.title}`);
-    }
-
-    const color =
-      calendar?.celebration[0]?.colors[0] ??
-      calendar?.tempora[0]?.colors[0] ??
-      calendar?.commemoration[0]?.colors[0];
-
-    const mass = titleParts.join(" | ");
-    const other = subTitleParts.join(" | ");
+    const other = subTitleParts.map((i) => i.name).join(" | ");
 
     return {
-      title: "📅 Missa",
-      subtitle: mass ?? other,
-      body: other,
-      data: { url: link },
-      color: getColor(color),
+      title: `📅 ${titleParts ?? other}`,
+      subtitle: titleParts ? other : "",
+      body: titleParts ? other : "",
+      data: { url: mass[0].link },
+      color: getColor(mass[0].color),
     };
   }, []);
 

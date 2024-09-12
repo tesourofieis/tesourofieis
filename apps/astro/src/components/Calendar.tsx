@@ -63,7 +63,7 @@ export default function DailyCalendar() {
                     href={item.link}
                     caption={"Celebração"}
                     title={item.name}
-                    color={getColor(item.color ?? "")}
+                    color={getColor(item.color)}
                     icon="mdi:tshirt-v"
                   />
                 ))}
