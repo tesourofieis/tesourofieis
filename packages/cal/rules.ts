@@ -30,17 +30,17 @@ export interface RuleResult {
 }
 
 export class Rules {
-  private ruleFunctions: RuleFunction[];
+  public ruleFunctions: RuleFunction[];
 
   constructor(
-    private observances: Mass[],
-    private date: string,
-    private calendar: Calendar
+    public observances: Mass[],
+    public date: string,
+    public calendar: Calendar
   ) {
-    this.ruleFunctions = this.apply();
+    this.ruleFunctions = this.getRuleFunctions();
   }
 
-  apply(): RuleFunction[] {
+  private getRuleFunctions(): RuleFunction[] {
     const rules: RuleFunction[] = [
       this.ruleNativityHasMultipleMasses.bind(this),
       this.ruleAllSouls.bind(this),
@@ -62,55 +62,6 @@ export class Rules {
     ];
 
     return rules;
-  }
-
-  applyRules(): RuleResult {
-    const currentMasses = this.observances;
-    let shiftedMasses: Mass[] | undefined;
-    let shiftedDate: string | undefined;
-
-    if (this.ruleFunctions) {
-      for (const ruleFunction of this.ruleFunctions) {
-        const result = ruleFunction(currentMasses, this.date, this.calendar);
-
-        // If a rule does not return anything, continue to the next rule
-        if (result === undefined) {
-          continue;
-        }
-
-        // Handle shifted observances
-        if (result.toShift?.date && result.toShift.observances) {
-          shiftedDate = result.toShift.date;
-          shiftedMasses = result.toShift.observances;
-        }
-
-        // Update current day observances
-        // if (result.observances?.length) {
-        //   currentMasses = result.observances;
-        // }
-
-        // If a significant change occurred, we stop further processing
-        if (
-          shiftedDate ||
-          (result.observances?.length &&
-            result.observances.length !== this.observances.length)
-        ) {
-          break;
-        }
-      }
-    }
-
-    // Return the final result
-    return {
-      observances: currentMasses,
-      toShift:
-        shiftedMasses && shiftedDate
-          ? {
-              observances: shiftedMasses,
-              date: shiftedDate,
-            }
-          : undefined,
-    };
   }
 
   // Nativity Vigil takes place of 4th Advent Sunday.
@@ -210,12 +161,17 @@ export class Rules {
       isLeapYear(date_) &&
       getDate(date_) === 24
     ) {
-      return {
-        observances: observances,
-        toShift: {
-          observances: [massManager.getById("SANCTI_02_24")],
-          date: yyyyMMDD(addDays(new UTCDate(date_), 1)),
-        },
+
+      const temp = massManager.match(observances, massManager.getByFlexibility("tempora"));
+
+      if (temp) {
+        return {
+          observances: [temp],
+          toShift: {
+            observances: [massManager.getById("SANCTI_02_24")],
+            date: yyyyMMDD(addDays(new UTCDate(date_), 1)),
+          },
+        }
       };
     }
   }

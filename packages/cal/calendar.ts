@@ -184,48 +184,45 @@ class Calendar {
   // Apply `kalendar.rules.*` to the initially instantiated Calendar to fix the situations
   // where more than one Observance falls in the same day.
   private resolveConcurrency() {
-    const shiftedAll: { [date: string]: Mass[] } = {};
-
     for (const [date, day] of this.container.entries()) {
-      const result = this.applyRules(date, shiftedAll[date] || []);
+      const rules = new Rules(day.mass, date, this);
+      const result = this.applyRules(rules);
 
-      if (result.observances) {
-        const temporaObservances = result.observances.filter(i => i.flexibility === "tempora");
-
-        if (temporaObservances.length > 1) {
-          result.observances = [
-            ...result.observances.filter(i => i.flexibility !== "tempora"),
-            temporaObservances[1]
-          ];
-        }
+      if (result?.toShift?.date) {
+        const shiftedDay = this.container.get(result.toShift.date) || new Day(result.toShift.date);
+        shiftedDay.mass = this.removeDuplicates([...shiftedDay.mass, ...result.toShift.observances]);
+        this.container.set(result.toShift.date, shiftedDay);
       }
-      if (result.toShift?.date && result.toShift.date !== date) {
-        shiftedAll[result.toShift.date] = (
-          shiftedAll[result.toShift.date] || []
-        ).concat(result.toShift.observances);
-      } else if (result.observances) {
-        day.mass = this.removeDuplicates(result.observances); // Remove duplicates here
-      }
-    }
 
-    for (const [date, masses] of Object.entries(shiftedAll)) {
-      const day = this.container.get(date) || new Day(date);
-      day.mass = this.removeDuplicates(day.mass.concat(masses)); // Remove duplicates here as well
+      if (result?.observances) {
+        day.mass = this.removeDuplicates(result.observances);
+      }
       this.container.set(date, day);
     }
   }
 
-  private applyRules(date: string, shifted: Mass[]): RuleResult {
-    const day = this.container.get(date);
-    if (day?.mass.length || shifted.length) {
-      const rules = new Rules(
-        day ? day.mass.concat(shifted) : shifted,
-        date,
-        this
-      );
-      return rules.applyRules();
+  private applyRules(rules: Rules): RuleResult {
+    let currentObservances = rules.observances;
+
+    for (const ruleFunction of rules.ruleFunctions) {
+      const result = ruleFunction(currentObservances, rules.date, this);
+
+      if (!result) continue;
+
+      if (result.toShift) {
+        // Remove shifted observances from current observances
+        currentObservances = currentObservances.filter(obs =>
+          !result.toShift!.observances.some(shiftedObs => shiftedObs.id === obs.id)
+        );
+        return { observances: currentObservances, toShift: result.toShift };
+      }
+
+      if (result.observances) {
+        currentObservances = result.observances;
+      }
     }
-    return { observances: shifted };
+
+    return { observances: currentObservances };
   }
 
   private removeDuplicates(masses: Mass[]): Mass[] {
