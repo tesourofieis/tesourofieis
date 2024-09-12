@@ -222,27 +222,25 @@ class Calendar {
   private applyRules(rules: Rules): RuleResult {
     let currentObservances = rules.observances;
 
-    for (const ruleFunction of rules.ruleFunctions) {
-      const result = ruleFunction(currentObservances, rules.date, this);
+    const result = rules.applyRules();
 
-      if (!result?.observances?.length) continue;
-
+    if (result) {
       if (result.toShift?.observances.length) {
         // Remove shifted observances from current observances
         currentObservances = currentObservances.filter(
-          (obs) =>
-            !result.toShift!.observances.some(
-              (shiftedObs) => shiftedObs.id === obs.id,
-            ),
+          (obs) => !result.toShift!.observances.some(
+            (shiftedObs) => shiftedObs.id === obs.id
+          )
         );
-        return { observances: currentObservances, toShift: result.toShift };
+        return {
+          observances: result.observances || currentObservances,
+          toShift: result.toShift
+        };
       }
-
-      // if (result.observances?.length) {
-      //   currentObservances = result.observances;
-      // }
+      return result;
     }
 
+    // If no rule was applied, return the original observances
     return { observances: currentObservances };
   }
 

@@ -18,7 +18,7 @@ import { type Mass, massManager } from "./observanceManager";
 type RuleFunction = (
   observances: Mass[],
   date: string,
-  calendar: Calendar
+  calendar: Calendar,
 ) => RuleResult | undefined;
 
 export interface RuleResult {
@@ -35,60 +35,69 @@ export class Rules {
   constructor(
     public observances: Mass[],
     public date: string,
-    public calendar: Calendar
+    public calendar: Calendar,
   ) {
     this.ruleFunctions = this.getRuleFunctions();
   }
 
   private getRuleFunctions(): RuleFunction[] {
-    const rules: RuleFunction[] = [
-      this.ruleNativityHasMultipleMasses.bind(this),
-      this.ruleAllSouls.bind(this),
-      this.ruleNativityVigil.bind(this),
-      this.ruleNativityOctaveFeria.bind(this),
-      this.ruleStMatthias.bind(this),
-      this.ruleFeb27.bind(this),
-      this.sevenSorrowsOnFridayAfterPassionSunday.bind(this),
-      this.ruleSameClassFeastsTakeOverAdventFeriaAndEmberDays.bind(this),
-      this.ruleLentCommemoration.bind(this),
-      this.ruleShiftConflicting1stClassFeasts.bind(this),
-      this.ruleShiftConflictingSecondClassFeasts.bind(this),
-      // this.ruleLordFeast.bind(this),
-      this.ruleCommemoration.bind(this),
-      this.rule2ndClassSundayTempora.bind(this),
-      this.ruleBmvOfficeOnSaturday.bind(this),
-      this.rule4thClassFeriaAreRemovedFromCelebration.bind(this),
-      this.ruleGeneral.bind(this),
+    return [
+      this.ruleNativityHasMultipleMasses,
+      this.ruleAllSouls,
+      this.ruleNativityVigil,
+      this.ruleNativityOctaveFeria,
+      this.ruleStMatthias,
+      this.ruleFeb27,
+      this.sevenSorrowsOnFridayAfterPassionSunday,
+      this.ruleSameClassFeastsTakeOverAdventFeriaAndEmberDays,
+      this.ruleShiftConflicting1stClassFeasts,
+      this.ruleShiftConflictingSecondClassFeasts,
+      this.ruleBmvOfficeOnSaturday,
+      this.ruleGeneral,
     ];
+  }
 
-    return rules;
+  public applyRules(): RuleResult | undefined {
+    for (const ruleFunction of this.ruleFunctions) {
+      const result = ruleFunction.call(
+        this,
+        this.observances,
+        this.date,
+        this.calendar,
+      );
+      if (result !== undefined) {
+        return result;
+      }
+    }
   }
 
   // Nativity Vigil takes place of 4th Advent Sunday.
   ruleNativityHasMultipleMasses(observances: Mass[]): RuleResult | undefined {
     const nativityObservance = massManager.match(
       observances,
-      massManager.getById("SANCTI_12_25_1")
+      massManager
+        .getSanctiClass1()
+        .filter((i) => i.id.startsWith("SANCTI_12_25")),
     );
     if (nativityObservance) {
-      const nativityMasses = observances.filter((ld) =>
-        ld.id.startsWith("santos:12-25-")
-      );
-      return { observances: nativityMasses.reverse() };
+      const nativityMasses = massManager
+        .getSanctiClass1()
+        .filter((i) => i.month === 12 && i.day === 25);
+      return { observances: nativityMasses };
     }
   }
 
   sevenSorrowsOnFridayAfterPassionSunday(
-    observances: Mass[]
+    observances: Mass[],
   ): RuleResult | undefined {
     const fridayAfterPassion = massManager.match(
       observances,
-      massManager.getById("TEMPORA_QUAD5_5")
+      massManager.getById("TEMPORA_QUAD5_5"),
     );
 
     const sancti = massManager.match(
       observances,
-      massManager.getByFlexibility("santos")
+      massManager.getByFlexibility("santos"),
     );
     if (fridayAfterPassion) {
       const sevenSorrow = massManager.getById("SANCTI_09_15");
@@ -102,15 +111,15 @@ export class Rules {
   }
 
   // All Souls Day; if not Sunday - Nov 2, else Nov 3; additionally, it has three masses
-  ruleAllSouls(observances: Mass[], date_: string): RuleResult | undefined {
+  ruleAllSouls(observances: Mass[], date: string): RuleResult | undefined {
     if (massManager.match(observances, massManager.getById("SANCTI_11_02"))) {
       const allSouls = observances
         .filter((ld) => ld.id.startsWith("santos:11-02"))
         .reverse();
-      if (isSunday(date_)) {
+      if (isSunday(date)) {
         const tempora = massManager.match(
           observances,
-          massManager.getTemporaSunday()
+          massManager.getTemporaSunday(),
         );
         if (tempora) {
           return {
@@ -123,15 +132,12 @@ export class Rules {
   }
 
   // Nativity Vigil takes place of 4th Advent Sunday.
-  ruleNativityVigil(
-    observances: Mass[],
-    date_: string
-  ): RuleResult | undefined {
+  ruleNativityVigil(observances: Mass[], date: string): RuleResult | undefined {
     const nativityVigil = massManager.match(
       observances,
-      massManager.getById("SANCTI_12_24")
+      massManager.getById("SANCTI_12_24"),
     );
-    if (nativityVigil && isSunday(date_)) {
+    if (nativityVigil && isSunday(date)) {
       return {
         observances: [nativityVigil],
       };
@@ -141,13 +147,13 @@ export class Rules {
   // If 30 December is sunday, octave of christmas is celebrated
   ruleNativityOctaveFeria(
     observances: Mass[],
-    date_: string
+    date: string,
   ): RuleResult | undefined {
     const nativity = massManager.match(
       observances,
-      massManager.getById("SANCTI_01_01")
+      massManager.getById("SANCTI_01_01"),
     );
-    if (nativity && isSunday(date_)) {
+    if (nativity && isSunday(date)) {
       return {
         observances: [nativity],
       };
@@ -155,24 +161,26 @@ export class Rules {
   }
 
   // St. Matthias the Apostle, normally on Feb 24, but in leap year on Feb 25
-  ruleStMatthias(observances: Mass[], date_: string): RuleResult | undefined {
+  ruleStMatthias(observances: Mass[], date: string): RuleResult | undefined {
     if (
       massManager.match(observances, massManager.getById("SANCTI_02_24")) &&
-      isLeapYear(date_) &&
-      getDate(date_) === 24
+      isLeapYear(date) &&
+      getDate(date) === 24
     ) {
-
-      const temp = massManager.match(observances, massManager.getByFlexibility("tempora"));
+      const temp = massManager.match(
+        observances,
+        massManager.getByFlexibility("tempora"),
+      );
 
       if (temp) {
         return {
           observances: [temp],
           toShift: {
             observances: [massManager.getById("SANCTI_02_24")],
-            date: yyyyMMDD(addDays(new UTCDate(date_), 1)),
+            date: yyyyMMDD(addDays(new UTCDate(date), 1)),
           },
-        }
-      };
+        };
+      }
     }
   }
 
@@ -198,11 +206,11 @@ export class Rules {
   // On feria Saturdays (4th class) the celebration is B. M. V. Saturdays on the given period
   ruleBmvOfficeOnSaturday(
     observances: Mass[],
-    date_: string,
+    date: string,
     calendar: Calendar,
-    tempora?: Mass[]
   ): RuleResult | undefined {
     function calcProperForGivenPeriod() {
+      const tempora = observances.filter((i) => i.flexibility === "tempora");
       if (
         tempora &&
         massManager.match(tempora, massManager.getByTypeId("advent"))
@@ -211,20 +219,20 @@ export class Rules {
       }
 
       if (
-        isAfter(date_, new UTCDate(getYear(date_), 11, 25)) ||
-        isBefore(date_, new UTCDate(getYear(date_), 1, 2))
+        isAfter(date, new UTCDate(getYear(date), 11, 25)) ||
+        isBefore(date, new UTCDate(getYear(date), 1, 2))
       ) {
         return massManager.getById("COMMUNE_C_10B"); // B. M. V. Saturdays between Nativity and Purification
       }
 
       const wednesdayInHolyWeek = calendar.findDay(
-        massManager.getById("TEMPORA_QUAD6_3")?.id
+        massManager.getById("TEMPORA_QUAD6_3")?.id,
       );
 
       if (
-        isAfter(date_, new UTCDate(getYear(date_), 1, 2)) &&
+        isAfter(date, new UTCDate(getYear(date), 1, 2)) &&
         wednesdayInHolyWeek &&
-        isBefore(date_, wednesdayInHolyWeek[0])
+        isBefore(date, wednesdayInHolyWeek[0])
       ) {
         return massManager.getById("COMMUNE_C_10C"); // B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
       }
@@ -236,7 +244,7 @@ export class Rules {
       return massManager.getById("COMMUNE_C_10T"); // B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
     }
 
-    if (isSaturday(date_)) {
+    if (isSaturday(date)) {
       const ranks = new Set(observances.map((i) => i.rank));
       if (
         ranks.size === 0 ||
@@ -244,23 +252,28 @@ export class Rules {
       ) {
         const bmvOffice = massManager.createMassWithDate(
           calcProperForGivenPeriod()!,
-          date_
+          date,
         );
-        return { observances: [bmvOffice] };
+        return {
+          observances: [
+            bmvOffice,
+            ...observances.filter((i) => i.flexibility === "santos"),
+          ],
+        };
       }
     }
   }
 
   ruleSameClassFeastsTakeOverAdventFeriaAndEmberDays(
     observances: Mass[],
-    date_: string
+    date: string,
   ): RuleResult | undefined {
     const advOrEmber = massManager.match(
       observances,
-      massManager.getEmberDays().concat(massManager.getAdvent())
+      massManager.getEmberDays().concat(massManager.getAdvent()),
     );
 
-    if (!isSunday(date_) && advOrEmber) {
+    if (!isSunday(date) && advOrEmber) {
       const sancti = massManager.match(observances, massManager.getSancti());
 
       if (!sancti) {
@@ -277,38 +290,10 @@ export class Rules {
     }
   }
 
-  ruleLentCommemoration(observances: Mass[]): RuleResult | undefined {
-    const lentObservance = massManager.match(
-      observances,
-      massManager.getLent()
-    );
-
-    if (lentObservance) {
-      const sancti = massManager.match(observances, massManager.getSancti());
-
-      if (!sancti?.rank) {
-        return { observances: [lentObservance] };
-      }
-
-      if (lentObservance.rank === sancti.rank) {
-        if (sancti.rank === 1) {
-          // Will be shifted to a different day by the other rule
-          return;
-        }
-
-        return { observances: [lentObservance, sancti] };
-      }
-
-      if (lentObservance.rank > sancti.rank) {
-        return { observances: [sancti, lentObservance] };
-      }
-    }
-  }
-
   ruleShiftConflicting1stClassFeasts(
     observances: Mass[],
-    date_: string,
-    calendar: Calendar
+    date: string,
+    calendar: Calendar,
   ): RuleResult | undefined {
     // # If there are two feasts with 1st class, the one with lower priority on Precedence Table is shifted to the first
     // # day where there is no 1st and 2nd class feast.
@@ -322,9 +307,9 @@ export class Rules {
     if (
       sancti &&
       tempora &&
-      getDate(date_) === 8 &&
-      getMonth(date_) === 11 &&
-      isSunday(date_)
+      getDate(date) === 8 &&
+      getMonth(date) === 11 &&
+      isSunday(date)
     ) {
       return {
         observances: [sancti, tempora],
@@ -332,11 +317,11 @@ export class Rules {
     }
 
     function calcTargetDate() {
-      let targetDate = new UTCDate(date_);
-      while (getYear(targetDate) === getYear(date_)) {
+      let targetDate = new UTCDate(date);
+      while (getYear(targetDate) === getYear(date)) {
         targetDate = addDays(targetDate, 1);
         const allRanks = new Set(
-          calendar.get(yyyyMMDD(targetDate))?.all.map((ld) => ld.rank)
+          calendar.get(yyyyMMDD(targetDate))?.all.map((ld) => ld.rank),
         );
         if (!allRanks.has(1) && !allRanks.has(2)) {
           return yyyyMMDD(targetDate);
@@ -362,15 +347,15 @@ export class Rules {
   // transfer second class to next available
   ruleShiftConflictingSecondClassFeasts(
     observances: Mass[],
-    date_: string,
-    calendar: Calendar
+    date: string,
+    calendar: Calendar,
   ): RuleResult | undefined {
     function calcTargetDate() {
-      let targetDate = new UTCDate(date_);
-      while (getYear(targetDate) === getYear(date_)) {
+      let targetDate = new UTCDate(date);
+      while (getYear(targetDate) === getYear(date)) {
         targetDate = addDays(targetDate, 1);
         const allRanks = new Set(
-          calendar.get(yyyyMMDD(targetDate))?.all.map((ld) => ld.rank)
+          calendar.get(yyyyMMDD(targetDate))?.all.map((ld) => ld.rank),
         );
         if (!allRanks.has(1)) {
           return yyyyMMDD(targetDate);
@@ -382,7 +367,7 @@ export class Rules {
 
     const secondClassFeasts = massManager.match(
       observances,
-      massManager.getSanctiClass2()
+      massManager.getSanctiClass2(),
     );
 
     if (firstClassFeasts.length && secondClassFeasts?.rank === 2) {
@@ -398,166 +383,20 @@ export class Rules {
     }
   }
 
-  // TODO: check if we need it since they should be already rank 1
-  // ruleLordFeast(observances: Mass[]) {
-  //   if (
-  //     massManager.match(observances, FEASTS_OF_JESUS_CLASS_1_AND_2) &&
-  //     massManager.match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)
-  //   ) {
-  //     return [[massManager.match(observances, PATTERN_SANCTI_CLASS_1_OR_2)], [], []];
-  //   }
-  // }
-
-  // When 2nd class Sunday occurs along with 2nd class feast, the Sunday takes precedence and the feast is commemorated
-  rule2ndClassSundayTempora(
-    observances: Mass[],
-    date_: string
-  ): RuleResult | undefined {
-    const patternSundayClass_2 = massManager.match(
-      observances,
-      massManager.getSunday()
-    );
-
-    const patternSanctiClass_2 = massManager.match(
-      observances,
-      massManager.getSanctiClass2()
-    );
-
-    if (
-      patternSundayClass_2 &&
-      patternSundayClass_2.rank === 2 &&
-      isSunday(date_)
-    ) {
-      if (patternSanctiClass_2) {
-        return { observances: [patternSanctiClass_2, patternSundayClass_2] };
-      }
-      return { observances: [patternSundayClass_2] };
-    }
-  }
-
-  ruleCommemoration(observances: Mass[]): RuleResult | undefined {
-    const patternSancti = massManager.match(
-      observances,
-      massManager.getSancti()
-    );
-
-    const sundays = massManager.match(observances, massManager.getSunday());
-
-    const sundaysLent = massManager.match(
-      observances,
-      massManager.getLentSunday()
-    );
-
-    const albis = massManager.match(
-      observances,
-      massManager.getLentSunday().filter((i) => i.week === 1)
-    );
-
-    const firstClassSaints = massManager.match(
-      observances,
-      massManager.getSanctiClass1()
-    );
-
-    const class1 = massManager.match(observances, massManager.getClass1());
-    const temporaSundayClass2 = massManager.match(
-      observances,
-      massManager.getTemporaSundayClass2()
-    );
-
-    // In case of some 1st class feasts the Sunday is commemorated,
-    // e.g. St. Michael the Archangel on Sunday 2019-09-29
-    if (
-      massManager.match(
-        observances,
-        massManager.getSancti().filter((i) => i.day === 29 && i.month === 9)
-      ) &&
-      class1 &&
-      temporaSundayClass2
-    ) {
-      return {
-        observances: [class1, temporaSundayClass2],
-      };
-    }
-
-    // if sundays outside lent and easter week
-    if (!sundaysLent && !albis && sundays && patternSancti) {
-      // if sunday is second class and sancti first class
-      // celebrate the sancti without sunday commemoration
-      if (firstClassSaints && sundays?.rank === 2) {
-        return { observances: [firstClassSaints] };
-      }
-
-      // if sancti second class sunday is commemorated
-      if (patternSancti.rank <= 2) {
-        return { observances: [patternSancti, sundays] };
-      }
-
-      // if sancti third class is commemorated
-      if (patternSancti.rank === 3) {
-        return { observances: [sundays, patternSancti] };
-      }
-
-      // if sancti is fourth class skip
-      if (patternSancti.rank === 4) {
-        return {};
-      }
-
-      // else sundays with sancti commemoration
-      return { observances: [sundays, patternSancti] };
-    }
-
-    // if not on sunday and first class sancti
-    // no commemoration takes place
-    if (!sundays && firstClassSaints) {
-      return { observances: [firstClassSaints] };
-    }
-
-    // else first class without commemoration
-    if (class1) {
-      return {
-        observances: [class1],
-      };
-    }
-  }
-
-  rule4thClassFeriaAreRemovedFromCelebration(
-    observances: Mass[]
-  ): RuleResult | undefined {
-    const fourthClassTempora = massManager.match(
-      observances,
-      massManager.getTemporaClass4()
-    );
-
-    if (fourthClassTempora) {
-      const commemoration = massManager.match(
-        observances,
-        massManager.getSanctiClass4()
-      );
-
-      if (commemoration) {
-        return { observances: [commemoration] };
-      }
-
-      return {
-        observances: observances.filter((o) => o !== fourthClassTempora),
-      };
-    }
-  }
-
   ruleGeneral(observances: Mass[]): RuleResult | undefined {
     // Default rule for situations not handled by any of the above
     if (observances.length === 0) {
-      return {};
+      return;
     }
+
     if (observances.length === 1) {
       return { observances };
     }
-    const [first, second] = observances
-      .sort(
-        (a, b) => a.rank - b.rank || a.flexibility.localeCompare(b.flexibility)
-      )
-      .slice(0, 2);
 
-    return { observances: [first, second] };
+    observances.sort(
+      (a, b) => a.rank - b.rank || a.flexibility.localeCompare(b.flexibility),
+    );
+
+    return { observances };
   }
 }
