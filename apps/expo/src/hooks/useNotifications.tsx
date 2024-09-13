@@ -1,7 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { addDays } from "date-fns";
 import * as Notifications from "expo-notifications";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
@@ -42,10 +42,6 @@ export const useNotifications = () => {
   const [angelusLoading, setAngelusLoading] = useState(false);
   const [dailyMassLoading, setDailyMassLoading] = useState(false);
 
-  const angelusOperationInProgress = useRef(false);
-  const dailyMassOperationInProgress = useRef(false);
-  const isInitialMount = useRef(true);
-
   const loadPreferences = useCallback(async () => {
     try {
       const [angelusEnabledStr, dailyMassEnabledStr] = await Promise.all([
@@ -53,97 +49,12 @@ export const useNotifications = () => {
         AsyncStorage.getItem(STORAGE_KEYS.DAILY_MASS_ENABLED),
       ]);
 
-      setAngelusEnabled(angelusEnabledStr === "true");
-      setDailyMassEnabled(dailyMassEnabledStr === "true");
+      setAngelusEnabled(angelusEnabledStr !== "false");
+      setDailyMassEnabled(dailyMassEnabledStr !== "false");
     } catch (error) {
       console.error("Error loading preferences:", error);
     }
   }, []);
-
-  const savePreferences = useCallback(async () => {
-    try {
-      await Promise.all([
-        AsyncStorage.setItem(
-          STORAGE_KEYS.ANGELUS_ENABLED,
-          angelusEnabled.toString(),
-        ),
-        AsyncStorage.setItem(
-          STORAGE_KEYS.DAILY_MASS_ENABLED,
-          dailyMassEnabled.toString(),
-        ),
-      ]);
-    } catch (error) {
-      console.error("Error saving preferences:", error);
-    }
-  }, [angelusEnabled, dailyMassEnabled]);
-
-  useEffect(() => {
-    loadPreferences();
-  }, [loadPreferences]);
-
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
-  useEffect(() => {
-    if (!isInitialMount.current) {
-      savePreferences();
-    } else {
-      isInitialMount.current = false;
-    }
-  }, [angelusEnabled, dailyMassEnabled, savePreferences]);
-
-  const cleanupNotifications = useCallback(async () => {
-    const scheduledNotifications =
-      await Notifications.getAllScheduledNotificationsAsync();
-
-    for (const notification of scheduledNotifications) {
-      const trigger = notification.trigger;
-      const isAngelus = ANGELUS_TIMES.some(
-        // @ts-ignore
-        (time) => time.hour === trigger.hour && time.minute === trigger.minute,
-      );
-
-      if (!isAngelus) {
-        await Notifications.cancelScheduledNotificationAsync(
-          notification.identifier,
-        );
-      }
-    }
-  }, []);
-
-  useEffect(() => {
-    const checkExistingNotifications = async () => {
-      if (!isInitialMount.current) return;
-
-      setAngelusLoading(true);
-      setDailyMassLoading(true);
-
-      try {
-        await cleanupNotifications();
-
-        const scheduledNotifications =
-          await Notifications.getAllScheduledNotificationsAsync();
-
-        const hasAngelus = scheduledNotifications.some((notification) =>
-          // @ts-ignore
-          ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour),
-        );
-        setAngelusEnabled(hasAngelus);
-
-        const hasDailyMass = scheduledNotifications.some(
-          // @ts-ignore
-          (notification) => DAILY_MASS_TIME.hour === notification.trigger.hour,
-        );
-        setDailyMassEnabled(hasDailyMass);
-      } catch (error) {
-        console.error("Error checking existing notifications:", error);
-      } finally {
-        setAngelusLoading(false);
-        setDailyMassLoading(false);
-        isInitialMount.current = false;
-      }
-    };
-
-    void checkExistingNotifications();
-  }, [cleanupNotifications]);
 
   const scheduleAngelus = useCallback(async () => {
     for (const time of ANGELUS_TIMES) {
@@ -168,8 +79,10 @@ export const useNotifications = () => {
       await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
       if (
-        // @ts-ignore
-        ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour)
+        ANGELUS_TIMES.some(
+          // biome-ignore lint/suspicious/noExplicitAny: <explanation>
+          (time) => time.hour === (notification.trigger as any).hour,
+        )
       ) {
         await Notifications.cancelScheduledNotificationAsync(
           notification.identifier,
@@ -196,14 +109,32 @@ export const useNotifications = () => {
     };
   }, []);
 
+  const cleanupNotifications = useCallback(async () => {
+    const scheduledNotifications =
+      await Notifications.getAllScheduledNotificationsAsync();
+
+    for (const notification of scheduledNotifications) {
+      // biome-ignore lint/suspicious/noExplicitAny: <explanation>
+      const trigger = notification.trigger as any;
+      const isAngelus = ANGELUS_TIMES.some(
+        (time) => time.hour === trigger.hour && time.minute === trigger.minute,
+      );
+
+      if (!isAngelus) {
+        await Notifications.cancelScheduledNotificationAsync(
+          notification.identifier,
+        );
+      }
+    }
+  }, []);
+
   const scheduleMassForWeek = useCallback(async () => {
     await cleanupNotifications();
 
     const today = new Date();
     const currentDay = today.getDay();
-    const daysUntilNextSunday = 7 - currentDay;
 
-    for (let i = 0; i <= daysUntilNextSunday; i++) {
+    for (let i = 0; i < 7; i++) {
       const date = addDays(today, i);
       const notificationContent = prepareDailyMassNotification(date);
 
@@ -219,47 +150,89 @@ export const useNotifications = () => {
     }
   }, [cleanupNotifications, prepareDailyMassNotification]);
 
-  const toggleAngelus = useCallback(async () => {
-    if (angelusOperationInProgress.current) return;
-
-    angelusOperationInProgress.current = true;
-    setAngelusLoading(true);
-
-    try {
-      if (angelusEnabled) {
-        await cancelAngelus();
-      } else {
-        await scheduleAngelus();
+  const refreshNotifications = useCallback(async () => {
+    if (dailyMassEnabled) {
+      setDailyMassLoading(true);
+      try {
+        await cleanupNotifications();
+        await scheduleMassForWeek();
+      } catch (error) {
+        console.error("Error refreshing Daily Mass notifications:", error);
+      } finally {
+        setDailyMassLoading(false);
       }
-      setAngelusEnabled(!angelusEnabled);
+    }
+
+    if (angelusEnabled) {
+      setAngelusLoading(true);
+      try {
+        await cancelAngelus();
+        await scheduleAngelus();
+      } catch (error) {
+        console.error("Error refreshing Angelus notifications:", error);
+      } finally {
+        setAngelusLoading(false);
+      }
+    }
+  }, [
+    dailyMassEnabled,
+    angelusEnabled,
+    cleanupNotifications,
+    scheduleMassForWeek,
+    cancelAngelus,
+    scheduleAngelus,
+  ]);
+
+  useEffect(() => {
+    const initializeNotifications = async () => {
+      await loadPreferences();
+      await refreshNotifications();
+    };
+
+    initializeNotifications();
+  }, [loadPreferences, refreshNotifications]);
+
+  const toggleAngelus = useCallback(async () => {
+    setAngelusLoading(true);
+    try {
+      const newEnabled = !angelusEnabled;
+      setAngelusEnabled(newEnabled);
+      await AsyncStorage.setItem(
+        STORAGE_KEYS.ANGELUS_ENABLED,
+        newEnabled.toString(),
+      );
+      if (newEnabled) {
+        await scheduleAngelus();
+      } else {
+        await cancelAngelus();
+      }
     } catch (error) {
       console.error("Error toggling Angelus notifications:", error);
     } finally {
       setAngelusLoading(false);
-      angelusOperationInProgress.current = false;
     }
-  }, [angelusEnabled, cancelAngelus, scheduleAngelus]);
+  }, [angelusEnabled, scheduleAngelus, cancelAngelus]);
 
   const toggleDailyMass = useCallback(async () => {
-    if (dailyMassOperationInProgress.current) return;
-
-    dailyMassOperationInProgress.current = true;
     setDailyMassLoading(true);
-
     try {
-      if (dailyMassEnabled) {
-        await cleanupNotifications();
-      } else {
+      const newEnabled = !dailyMassEnabled;
+      setDailyMassEnabled(newEnabled);
+      await AsyncStorage.setItem(
+        STORAGE_KEYS.DAILY_MASS_ENABLED,
+        newEnabled.toString(),
+      );
+      if (newEnabled) {
         await scheduleMassForWeek();
+      } else {
+        await cleanupNotifications();
       }
-      setDailyMassEnabled(!dailyMassEnabled);
     } catch (error) {
       console.error("Error toggling Daily Mass notifications:", error);
     } finally {
       setDailyMassLoading(false);
-      dailyMassOperationInProgress.current = false;
     }
-  }, [dailyMassEnabled, cleanupNotifications, scheduleMassForWeek]);
+  }, [dailyMassEnabled, scheduleMassForWeek, cleanupNotifications]);
 
   return {
     angelusEnabled,
