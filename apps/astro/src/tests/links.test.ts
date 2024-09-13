@@ -17,7 +17,7 @@ describe("link", () => {
     const linkFileName = basename(link);
     test(`should exist "${link} / ${linkFileName}"`, () => {
       const found = allPages.some(
-        (page) => basename(page) === `${linkFileName}.mdx`
+        (page) => basename(page) === `${linkFileName}.mdx`,
       );
 
       expect(found).toBe(true);

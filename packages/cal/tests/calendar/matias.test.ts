@@ -19,7 +19,7 @@ test("matias shift", () => {
         type: "pre-lent-to-pentcost",
         week: 1,
         weekday: 6,
-      }
+      },
     ],
   });
 });
@@ -41,7 +41,7 @@ test("matias shift 2", () => {
         type: "pre-lent-to-pentcost",
         week: 2,
         weekday: 0,
-      }
+      },
     ],
   });
 });

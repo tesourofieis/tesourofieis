@@ -41,7 +41,7 @@ test("natal", () => {
         rank: 1,
         type: "sancti",
       },
-     {
+      {
         category: "santos",
         color: "w",
         day: 25,

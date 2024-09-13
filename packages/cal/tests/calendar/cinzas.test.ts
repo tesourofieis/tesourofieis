@@ -32,7 +32,6 @@ test("cinzas", () => {
         rank: 4,
         type: "sancti",
       },
-
     ],
   });
 });

@@ -55,7 +55,6 @@ export const FEASTS_OF_JESUS_CLASS_1_AND_2: string[] = [
   SANCTI_08_06,
 ];
 
-
 export const EMBER_DAYS_SEPTEMBER = [
   TEMPORA_PENT_3,
   "",
@@ -101,7 +100,6 @@ export const ADVENT = [
   TEMPORA_ADV4_5,
 ];
 export const NATIVITY_OCTAVE_SUNDAY = [TEMPORA_NAT1_0];
-
 
 export const FERIA = [
   TEMPORA_ADV1_1,

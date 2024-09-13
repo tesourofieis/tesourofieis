@@ -19,7 +19,7 @@ test("Domingo", () => {
         outro: false,
         rank: 1,
         type: "sancti",
-      }
+      },
     ],
   });
 });

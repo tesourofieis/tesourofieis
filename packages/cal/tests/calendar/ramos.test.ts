@@ -6,7 +6,7 @@ test("Domingo de Ramos", () => {
   expect(calendar).toMatchObject({
     date: "2024-03-24",
     mass: [
-       {
+      {
         category: "quaresma",
         color: "v",
         date: "2024-03-24",
@@ -20,7 +20,7 @@ test("Domingo de Ramos", () => {
         week: 6,
         weekday: 0,
       },
-       {
+      {
         category: "santos",
         color: "w",
         date: "2024-03-24",
@@ -34,7 +34,7 @@ test("Domingo de Ramos", () => {
         rank: 3,
         type: "sancti",
       },
-       {
+      {
         category: "santos",
         color: "w",
         date: "2024-03-24",

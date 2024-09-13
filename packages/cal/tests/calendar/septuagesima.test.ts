@@ -6,7 +6,7 @@ test("domingo septuagesima", () => {
   const calendar = getCalendarDay("2024-01-28");
   expect(calendar).toMatchObject({
     mass: [
-       {
+      {
         category: "pre-quaresma",
         color: "v",
         date: "2024-01-28",
@@ -20,7 +20,7 @@ test("domingo septuagesima", () => {
         week: 1,
         weekday: 0,
       },
-       {
+      {
         category: "santos",
         color: "w",
         date: "2024-01-28",
@@ -34,7 +34,7 @@ test("domingo septuagesima", () => {
         rank: 3,
         type: "sancti",
       },
-       {
+      {
         category: "santos",
         color: "r",
         date: "2024-01-28",
@@ -48,7 +48,7 @@ test("domingo septuagesima", () => {
         outro: false,
         rank: 3,
         type: "sancti",
-       }
+      },
     ],
   });
 });
@@ -57,7 +57,7 @@ test("segunda septuagesima", () => {
   const calendar = getCalendarDay("2024-01-29");
   expect(calendar).toMatchObject({
     mass: [
-       {
+      {
         category: "santos",
         color: "w",
         date: "2024-01-29",
@@ -71,7 +71,7 @@ test("segunda septuagesima", () => {
         rank: 3,
         type: "sancti",
       },
-       {
+      {
         category: "santos",
         color: "r",
         date: "2024-01-29",
@@ -86,7 +86,7 @@ test("segunda septuagesima", () => {
         rank: 3,
         type: "sancti",
       },
-       {
+      {
         category: "pre-quaresma",
         color: "v",
         date: "2024-01-29",

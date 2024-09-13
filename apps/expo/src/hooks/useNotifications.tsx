@@ -65,11 +65,11 @@ export const useNotifications = () => {
       await Promise.all([
         AsyncStorage.setItem(
           STORAGE_KEYS.ANGELUS_ENABLED,
-          angelusEnabled.toString()
+          angelusEnabled.toString(),
         ),
         AsyncStorage.setItem(
           STORAGE_KEYS.DAILY_MASS_ENABLED,
-          dailyMassEnabled.toString()
+          dailyMassEnabled.toString(),
         ),
       ]);
     } catch (error) {
@@ -98,12 +98,12 @@ export const useNotifications = () => {
       const trigger = notification.trigger;
       const isAngelus = ANGELUS_TIMES.some(
         // @ts-ignore
-        (time) => time.hour === trigger.hour && time.minute === trigger.minute
+        (time) => time.hour === trigger.hour && time.minute === trigger.minute,
       );
 
       if (!isAngelus) {
         await Notifications.cancelScheduledNotificationAsync(
-          notification.identifier
+          notification.identifier,
         );
       }
     }
@@ -124,13 +124,13 @@ export const useNotifications = () => {
 
         const hasAngelus = scheduledNotifications.some((notification) =>
           // @ts-ignore
-          ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour)
+          ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour),
         );
         setAngelusEnabled(hasAngelus);
 
         const hasDailyMass = scheduledNotifications.some(
           // @ts-ignore
-          (notification) => DAILY_MASS_TIME.hour === notification.trigger.hour
+          (notification) => DAILY_MASS_TIME.hour === notification.trigger.hour,
         );
         setDailyMassEnabled(hasDailyMass);
       } catch (error) {
@@ -172,7 +172,7 @@ export const useNotifications = () => {
         ANGELUS_TIMES.some((time) => time.hour === notification.trigger.hour)
       ) {
         await Notifications.cancelScheduledNotificationAsync(
-          notification.identifier
+          notification.identifier,
         );
       }
     }

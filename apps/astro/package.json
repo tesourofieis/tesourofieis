@@ -45,7 +45,5 @@
     "typescript": "^5.5.4",
     "vitest": "^1.4.0"
   },
-  "trustedDependencies": [
-    "protobufjs"
-  ]
+  "trustedDependencies": ["protobufjs"]
 }

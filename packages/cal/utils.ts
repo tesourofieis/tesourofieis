@@ -6,7 +6,7 @@ type Pattern = string | RegExp;
 
 function match(
   observances: string | Mass | (string | Mass)[],
-  patterns: string | Pattern | (string | Pattern)[]
+  patterns: string | Pattern | (string | Pattern)[],
 ): Mass | undefined {
   if (!Array.isArray(observances)) {
     observances = [observances];

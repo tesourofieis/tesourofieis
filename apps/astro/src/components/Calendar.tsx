@@ -5,8 +5,8 @@ import { useState } from "react";
 import { getCalendar } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
-import LinkCard from "./LinkCard";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
+import LinkCard from "./LinkCard";
 
 export function getColor(color: Mass["color"]) {
   switch (color) {
@@ -69,7 +69,7 @@ export default function DailyCalendar() {
                 ))}
               </div>
             );
-          }
+          },
         )}
       </div>
     </div>

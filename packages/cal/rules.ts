@@ -12,8 +12,8 @@ import {
 } from "date-fns";
 
 import type { Calendar } from "./calendar";
-import { yyyyMMDD } from "./utils";
 import { type Mass, massManager } from "./observanceManager";
+import { yyyyMMDD } from "./utils";
 
 type RuleFunction = (
   observances: Mass[],

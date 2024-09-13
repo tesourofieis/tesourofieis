@@ -5,9 +5,9 @@ import React, { useState, useEffect, useCallback } from "react";
 import {
   ScrollView,
   Text,
+  TextInput,
   TouchableOpacity,
   View,
-  TextInput,
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { sidebar } from "../../../../astro/sidebar";
@@ -121,7 +121,7 @@ export default function MoreScreen() {
       setSearchQuery(text);
       if (text) {
         const results = flattenedSidebar.filter((item) =>
-          item.label.toLowerCase().includes(text.toLowerCase())
+          item.label.toLowerCase().includes(text.toLowerCase()),
         );
         // Remove duplicates based on path
         const uniqueResults = results.reduce((acc, current) => {
@@ -137,7 +137,7 @@ export default function MoreScreen() {
         setSearchResults([]);
       }
     },
-    [flattenedSidebar]
+    [flattenedSidebar],
   );
 
   const handleItemPress = (item) => {
@@ -185,7 +185,7 @@ export default function MoreScreen() {
         {isExpanded && item.items && (
           <View className="ml-4">
             {item.items.map((subItem, _index) =>
-              renderItem(subItem, depth + 1)
+              renderItem(subItem, depth + 1),
             )}
           </View>
         )}

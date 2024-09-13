@@ -28,7 +28,7 @@ export default function Not() {
         if (url) {
           router.push(`/modal?url=${url}`);
         }
-      }
+      },
     );
 
     checkNotificationPermissions();
