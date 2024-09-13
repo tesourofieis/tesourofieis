@@ -134,20 +134,25 @@ export const useNotifications = () => {
     const today = new Date();
     const currentDay = today.getDay();
 
+    const notificationPromises = [];
+
     for (let i = 0; i < 7; i++) {
       const date = addDays(today, i);
       const notificationContent = prepareDailyMassNotification(date);
-
-      await Notifications.scheduleNotificationAsync({
-        content: notificationContent,
-        trigger: {
-          hour: DAILY_MASS_TIME.hour,
-          minute: DAILY_MASS_TIME.minute,
-          weekday: ((currentDay + i) % 7) + 1,
-          repeats: true,
-        },
-      });
+      notificationPromises.push(
+        Notifications.scheduleNotificationAsync({
+          content: notificationContent,
+          trigger: {
+            hour: DAILY_MASS_TIME.hour,
+            minute: DAILY_MASS_TIME.minute,
+            weekday: ((currentDay + i) % 7) + 1,
+            repeats: true,
+          },
+        }),
+      );
     }
+
+    await Promise.all(notificationPromises);
   }, [cleanupNotifications, prepareDailyMassNotification]);
 
   const refreshNotifications = useCallback(async () => {

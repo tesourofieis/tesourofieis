@@ -121,24 +121,27 @@ export default function Render() {
 
           {currentPrayer.isAngelus && (
             <LinkCard
-              href="/devocionario/dia/angelus"
-              title="Angelus"
+              oratio={{ link: "/devocionario/dia/angelus", name: "Angelus" }}
               description="Hora do Angelus"
             />
           )}
 
           {currentPrayer.isMorning && (
             <LinkCard
-              href="/devocionario/dia/oracaomanha"
-              title="Oração da Manhã"
+              oratio={{
+                link: "/devocionario/dia/oracaomanha",
+                name: "Oração da Manhã",
+              }}
               description="Orações do dia"
             />
           )}
 
           {currentPrayer.isNight && (
             <LinkCard
-              href="/devocionario/dia/oracaonoite"
-              title="Oração da Noite"
+              oratio={{
+                link: "/devocionario/dia/oracaonoite",
+                name: "Oração da Noite",
+              }}
               description="Orações do dia"
             />
           )}

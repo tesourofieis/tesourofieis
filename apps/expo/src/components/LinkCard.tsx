@@ -22,38 +22,68 @@ export function getColor(color?: string) {
 
 export default function LinkCard({
   mass,
+  oratio,
   description,
 }: {
-  mass: Mass;
+  mass?: Mass;
+  oratio?: { link: string; name: string };
   description?: string;
 }) {
-  return (
-    <Link
-      href={{
-        pathname: "/modal",
-        params: { url: mass.link },
-      }}
-      className="my-1 w-full flex-1 justify-between rounded-lg border text-sepia-600 dark:text-sepia-300 border-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:hover:bg-sepia-900"
-      asChild
-    >
-      <View className="flex flex-col justify-start">
-        <View className="flex flex-row">
-          <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
-            {description ? description : "Missa"}
-          </Text>
-          <Text className="font-serif text-sm font-bold text-sepia-700 dark:text-sepia-300">
-            {" "}
-            | Class: {mass.rank}
-          </Text>
-        </View>
+  if (oratio) {
+    return (
+      <Link
+        href={{
+          pathname: "/modal",
+          params: { url: oratio.link },
+        }}
+        className="my-1 w-full flex-1 justify-between rounded-lg border text-sepia-600 dark:text-sepia-300 border-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:hover:bg-sepia-900"
+        asChild
+      >
+        <View className="flex flex-col justify-start">
+          <View className="flex flex-row">
+            <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+              {description}
+            </Text>
+          </View>
 
-        <View className="flex flex-row items-center gap-2">
-          <FontAwesome name="circle" color={getColor(mass.color)} />
-          <Text className={"font-black text-sepia-600 dark:text-sepia-400"}>
-            {mass.name}
-          </Text>
+          <View className="flex flex-row items-center gap-2">
+            <Text className={"font-black text-sepia-600 dark:text-sepia-400"}>
+              {oratio.name}
+            </Text>
+          </View>
         </View>
-      </View>
-    </Link>
-  );
+      </Link>
+    );
+  }
+  if (mass) {
+    return (
+      <Link
+        href={{
+          pathname: "/modal",
+          params: { url: mass.link },
+        }}
+        className="my-1 w-full flex-1 justify-between rounded-lg border text-sepia-600 dark:text-sepia-300 border-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:hover:bg-sepia-900"
+        asChild
+      >
+        <View className="flex flex-col justify-start">
+          <View className="flex flex-row">
+            <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+              {description ? description : "Missa"}
+            </Text>
+            <Text className="font-serif text-sm font-bold text-sepia-700 dark:text-sepia-300">
+              {" "}
+              | Classe {mass.rank}
+            </Text>
+          </View>
+
+          <View className="flex flex-row items-center gap-2">
+            <FontAwesome name="circle" color={getColor(mass.color)} />
+            <Text className={"font-black text-sepia-600 dark:text-sepia-400"}>
+              {mass.name}
+            </Text>
+          </View>
+        </View>
+      </Link>
+    );
+  }
 }
