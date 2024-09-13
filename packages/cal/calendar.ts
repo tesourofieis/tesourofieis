@@ -83,7 +83,6 @@ class Calendar {
     );
     this.insertBlock(
       this.calc24SundayAfterPentecost(this.year),
-
       massManager.getByTypeId("week-24-after-pentcost"),
     );
     this.insertBlock(
@@ -189,12 +188,22 @@ class Calendar {
       const result = this.applyRules(rules);
 
       if (result?.observances) {
-        const temporaObservances = result.observances.filter(i => i.flexibility === "tempora");
+        const temporaObservances = result.observances.filter(
+          (i) => i.flexibility === "tempora",
+        );
 
         if (temporaObservances.length > 1) {
+          const betterRanking = temporaObservances
+            .sort((a, b) => a.rank - b.rank)
+            .sort((a, b) => {
+              if (a.week && b.week) {
+                return a.week - b.week;
+              }
+              return 0;
+            })[0];
           result.observances = [
-            ...result.observances.filter(i => i.flexibility !== "tempora"),
-            temporaObservances[1]
+            ...result.observances.filter((i) => i.flexibility !== "tempora"),
+            betterRanking,
           ];
         }
       }
@@ -228,13 +237,14 @@ class Calendar {
       if (result.toShift?.observances.length) {
         // Remove shifted observances from current observances
         currentObservances = currentObservances.filter(
-          (obs) => !result.toShift!.observances.some(
-            (shiftedObs) => shiftedObs.id === obs.id
-          )
+          (obs) =>
+            !result.toShift!.observances.some(
+              (shiftedObs) => shiftedObs.id === obs.id,
+            ),
         );
         return {
           observances: result.observances || currentObservances,
-          toShift: result.toShift
+          toShift: result.toShift,
         };
       }
       return result;

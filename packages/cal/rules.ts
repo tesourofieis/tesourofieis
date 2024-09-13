@@ -374,7 +374,7 @@ export class Rules {
       const targetDate = calcTargetDate();
 
       return {
-        observances: [firstClassFeasts[0]],
+        observances: firstClassFeasts,
         toShift: {
           observances: [secondClassFeasts],
           date: targetDate,
