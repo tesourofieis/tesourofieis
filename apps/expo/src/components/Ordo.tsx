@@ -18,16 +18,10 @@ export default function Ordo({ section }: { section: string }) {
     <View className="p-8 flex gap-5">
       👉
       <LinkCard
-        href={`/${
-          calendar.celebration.length
-            ? calendar.celebration[0]?.link
-            : calendar.commemoration[0]?.link
-        }#${section}`}
-        title={
-          calendar.celebration.length
-            ? calendar.celebration[0]?.title
-            : calendar.commemoration[0]?.title
-        }
+        mass={{
+          ...calendar.mass[0],
+          link: `/${calendar.mass[0].link}#${section}`,
+        }}
         description={section.toUpperCase()}
       />
     </View>

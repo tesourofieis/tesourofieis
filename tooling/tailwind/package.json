@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "postcss": "^8.4.41",
-    "tailwindcss": "catalog:",
+    "tailwindcss": "^3.4.10",
     "tailwindcss-animate": "^1.0.7"
   }
 }

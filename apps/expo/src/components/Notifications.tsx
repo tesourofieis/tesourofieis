@@ -7,14 +7,6 @@ import { ActivityIndicator, Button, Switch, Text, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { useNotifications } from "~/hooks/useNotifications";
 
-Notifications.setNotificationHandler({
-  handleNotification: async () => ({
-    shouldShowAlert: true,
-    shouldPlaySound: true,
-    shouldSetBadge: true,
-  }),
-});
-
 export default function Not() {
   const router = useRouter();
   const { colorScheme } = useColorScheme();
@@ -103,14 +95,14 @@ export default function Not() {
       </Text>
 
       <View className="py-3">
-        <View className="flex flex-row items-center justify-between">
-          <View className="flex-row items-center gap-3">
+        <View className="my-1 py-1">
+          <View className="flex flex-row items-center justify-between">
             <FontAwesome6
               name="bell"
               size={15}
               color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
             />
-            <View>
+            <View className="flex-1 ml-3">
               <Text className="font-black text-sepia-800 dark:text-sepia-200">
                 Angelus
               </Text>
@@ -118,29 +110,31 @@ export default function Not() {
                 Receba o toque das Trindades
               </Text>
             </View>
+            <View className="ml-3">
+              {angelusLoading ? (
+                <ActivityIndicator color={COLORS["400"]} />
+              ) : (
+                <Switch
+                  trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+                  thumbColor={angelusEnabled ? COLORS["200"] : COLORS["500"]}
+                  ios_backgroundColor="#3e3e3e"
+                  onValueChange={toggleAngelus}
+                  value={angelusEnabled}
+                  disabled={angelusLoading}
+                  accessibilityLabel="Toggle angelus notifications"
+                />
+              )}
+            </View>
           </View>
-          {angelusLoading ? (
-            <ActivityIndicator color={COLORS["400"]} />
-          ) : (
-            <Switch
-              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
-              thumbColor={angelusEnabled ? COLORS["200"] : COLORS["500"]}
-              ios_backgroundColor="#3e3e3e"
-              onValueChange={toggleAngelus}
-              value={angelusEnabled}
-              disabled={angelusLoading}
-              accessibilityLabel="Toggle angelus notifications"
-            />
-          )}
         </View>
         <View className="flex-row items-center ml-5">
-          <Text className="text-sm text-center font-semibold text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
+          <Text className="text-sm text-center text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
             6:00
           </Text>
-          <Text className="text-sm text-center font-semibold text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
+          <Text className="text-sm text-center text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
             12:00
           </Text>
-          <Text className="text-sm text-center 12 font-semibold text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
+          <Text className="text-sm text-center text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
             18:00
           </Text>
         </View>
@@ -149,38 +143,40 @@ export default function Not() {
       <View className="border-t border-sepia-300" />
 
       <View className="py-3">
-        <View className="my-1 flex flex-row items-center justify-between py-1">
-          <View className="flex-row items-center justify-between gap-3">
+        <View className="my-1 py-1">
+          <View className="flex flex-row items-center justify-between">
             <FontAwesome6
               name="calendar"
               size={15}
               color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
             />
-            <View className="w-52">
+            <View className="flex-1 ml-3">
               <Text className="font-black text-sepia-800 dark:text-sepia-200">
                 Missa do Dia
               </Text>
-              <Text className="font-serif text-sepia-800 dark:text-sepia-200 text-sm text-wrap">
+              <Text className="font-serif text-sepia-800 dark:text-sepia-200 text-sm">
                 Receba informações sobre as celebrações e comemorações do dia.
               </Text>
             </View>
+            <View className="ml-3">
+              {dailyMassLoading ? (
+                <ActivityIndicator color={COLORS["400"]} />
+              ) : (
+                <Switch
+                  trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+                  thumbColor={dailyMassEnabled ? COLORS["200"] : COLORS["500"]}
+                  ios_backgroundColor="#3e3e3e"
+                  onValueChange={toggleDailyMass}
+                  value={dailyMassEnabled}
+                  disabled={dailyMassLoading}
+                  accessibilityLabel="Toggle daily notifications"
+                />
+              )}
+            </View>
           </View>
-          {dailyMassLoading ? (
-            <ActivityIndicator color={COLORS["400"]} />
-          ) : (
-            <Switch
-              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
-              thumbColor={dailyMassEnabled ? COLORS["200"] : COLORS["500"]}
-              ios_backgroundColor="#3e3e3e"
-              onValueChange={toggleDailyMass}
-              value={dailyMassEnabled}
-              disabled={dailyMassLoading}
-              accessibilityLabel="Toggle daily notifications"
-            />
-          )}
         </View>
         <View className="flex-row items-center ml-5">
-          <Text className="text-sm font-semibold text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900 text-center">
+          <Text className="text-sm text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900 text-center">
             7:00
           </Text>
         </View>

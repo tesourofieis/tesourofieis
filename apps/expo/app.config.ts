@@ -7,7 +7,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.",
   slug: "tesourofieis",
   scheme: "com.tesourofieis.app",
-  platforms: ["android"],
+  platforms: ["android", "web", "ios"],
   githubUrl: "https://github.com/tesourofieis/tesourofieis",
   version: "0.3.2",
   orientation: "portrait",
@@ -41,6 +41,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       foregroundImage: "./assets/images/adaptive-icon.png",
       backgroundColor: "#1d2021",
     },
+  },
+  web: {
+    favicon: "./assets/images/favicon128.png",
   },
   extra: {
     eas: {

@@ -4,7 +4,7 @@ import { Calendar } from "./calendar";
 function getCalendar(year: number) {
   const calendar = new Calendar(year);
 
-  return calendar.serialize();
+  return calendar.getAllDays();
 }
 
 function getCalendarDay(date: string) {

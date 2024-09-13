@@ -17,7 +17,7 @@ jobs:
 
       - name: "🔧 Build"
         working-directory: apps/astro
-        run: pnpm run build
+        run: bun run build
       - name: "🔸 Cloudflare Workers - Deploy 🚀"
         working-directory: apps/astro
         env:

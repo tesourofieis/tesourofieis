@@ -82,6 +82,8 @@
 
   body {
     @apply font-body;
+    font-size: 1.26rem;
+    line-height: 1.6;
   }
 
   h1 {

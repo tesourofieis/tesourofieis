@@ -15,10 +15,6 @@ export default function TabLayout() {
         headerShown: false,
         tabBarActiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
         tabBarActiveBackgroundColor: isDarkMode ? COLORS["700"] : COLORS["300"],
-        // tabBarInactiveTintColor: isDarkMode ? COLORS["300"] : COLORS["700"],
-        // tabBarInactiveBackgroundColor: isDarkMode
-        //   ? COLORS["700"]
-        //   : COLORS["300"],
         tabBarStyle: {
           borderTopWidth: 1,
           borderTopColor: isDarkMode ? COLORS["700"] : COLORS["300"],

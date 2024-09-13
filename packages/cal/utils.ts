@@ -1,13 +1,13 @@
 import type { UTCDate } from "@date-fns/utc";
 import { format } from "date-fns";
-import type { Observance } from "./day";
+import type { Mass } from "./observanceManager";
 
 type Pattern = string | RegExp;
 
 function match(
-  observances: string | Observance | (string | Observance)[],
+  observances: string | Mass | (string | Mass)[],
   patterns: string | Pattern | (string | Pattern)[],
-): Observance | undefined {
+): Mass | undefined {
   if (!Array.isArray(observances)) {
     observances = [observances];
   }
@@ -25,10 +25,10 @@ function match(
         typeof pattern === "string" &&
         new RegExp(pattern).test(observanceId)
       ) {
-        return observance as Observance;
+        return observance as Mass;
       }
       if (pattern instanceof RegExp && pattern.test(observanceId)) {
-        return observance as Observance;
+        return observance as Mass;
       }
     }
   }
