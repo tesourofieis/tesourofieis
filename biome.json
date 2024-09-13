@@ -42,7 +42,7 @@
       "**/.expo",
       "packages/ui",
       "tooling",
-      "pnpm-lock.yaml"
+      "bun.lockb"
     ]
   }
 }
