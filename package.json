@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "concurrently -n 'astro,expo' -c '#007755,#550077' 'cd apps/astro && bun run dev' 'cd apps/expo && bun run dev'",
     "lint": "biome lint .",
-    "lint:fix": "biome lint --apply .",
+    "lint:fix": "biome lint --write .",
     "format": "biome format .",
     "typecheck": "biome check .",
     "typecheck:fix": "biome check --write .",

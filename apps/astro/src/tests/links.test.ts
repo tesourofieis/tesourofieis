@@ -9,7 +9,7 @@ import { getCalendar } from "@tesourofieis/cal/getCalendar";
 describe("link", () => {
   const currentYear = getYear(new Date());
   const calendar = getCalendar(currentYear);
-  const allPages = getAllPagesContent("src/content/docs/missal");
+  const allPages = getAllPagesContent("./apps/astro/src/content/docs/missal");
 
   const links = calendar.flatMap((i) => i.mass.map((day) => day.link));
 
