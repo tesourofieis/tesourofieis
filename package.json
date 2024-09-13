@@ -1,24 +1,20 @@
 {
   "name": "tesourofieis",
   "private": true,
-  "engines": {
-    "node": ">=20.16.0"
-  },
-  "packageManager": "pnpm@9.7.1",
+  "packageManager": "bun@1.1.24",
   "scripts": {
-    "build": "turbo run build",
-    "clean": "git clean -xdf node_modules",
-    "clean:workspaces": "turbo run clean",
-    "dev": "turbo watch dev",
-    "lint": "turbo run lint",
-    "lint:ws": "pnpm dlx sherif@latest",
-    "postinstall": "pnpm lint:ws",
-    "test": "turbo run test",
-    "typecheck": "turbo run typecheck"
+    "dev": "concurrently -n 'astro,expo' -c '#007755,#550077' 'cd apps/astro && bun run dev' 'cd apps/expo && bun run dev'",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format .",
+    "typecheck": "biome check .",
+    "typecheck:fix": "biome check --write .",
+    "format:fix": "biome format --write ."
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
     "@turbo/gen": "^2.0.13",
+    "concurrently": "^6.2.0",
     "lefthook": "^1.7.14",
     "turbo": "^2.0.13",
     "typescript": "^5.5.4"
