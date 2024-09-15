@@ -15,10 +15,13 @@ export default function Not() {
   const {
     angelusEnabled,
     dailyMassEnabled,
+    novenaEnabled,
     angelusLoading,
     dailyMassLoading,
+    novenaLoading,
     toggleAngelus,
     toggleDailyMass,
+    toggleNovena,
   } = useNotifications();
 
   useEffect(() => {
@@ -185,24 +188,42 @@ export default function Not() {
       <View className="border-t border-sepia-300" />
 
       <View className="py-3">
-        <View className="my-1 flex flex-row items-center justify-between py-1">
-          <View className="flex-row items-center justify-between gap-3">
-            <View className="flex-row items-center gap-3">
-              <FontAwesome6
-                name="hourglass-start"
-                size={15}
-                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-              />
-              <View>
-                <Text className="font-black text-sepia-800 dark:text-sepia-200">
-                  Novenas
-                </Text>
-                <Text className="font-serif text-sepia-800 dark:text-sepia-200 text-sm">
-                  Brevemente
-                </Text>
-              </View>
+        <View className="my-1 py-1">
+          <View className="flex flex-row items-center justify-between">
+            <FontAwesome6
+              name="circle"
+              size={15}
+              color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+            />
+            <View className="flex-1 ml-3">
+              <Text className="font-black text-sepia-800 dark:text-sepia-200">
+                Novenas
+              </Text>
+              <Text className="font-serif text-sepia-800 dark:text-sepia-200 text-sm">
+                Receba alertas nos dias de novena.
+              </Text>
+            </View>
+            <View className="ml-3">
+              {novenaLoading ? (
+                <ActivityIndicator color={COLORS["400"]} />
+              ) : (
+                <Switch
+                  trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+                  thumbColor={novenaEnabled ? COLORS["200"] : COLORS["500"]}
+                  ios_backgroundColor="#3e3e3e"
+                  onValueChange={toggleNovena}
+                  value={novenaEnabled}
+                  disabled={novenaLoading}
+                  accessibilityLabel="Toggle daily notifications"
+                />
+              )}
             </View>
           </View>
+        </View>
+        <View className="flex-row items-center ml-5">
+          <Text className="text-sm text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900 text-center">
+            20:00
+          </Text>
         </View>
       </View>
     </View>
