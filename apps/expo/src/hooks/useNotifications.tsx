@@ -67,7 +67,6 @@ export const useNotifications = () => {
           title: "🔔 Hora do Angelus",
           data: { url: "devocionario/dia/angelus" },
           color: "#2196f3",
-          sound: "angelus.wav",
         },
         trigger: {
           hour: time.hour,
