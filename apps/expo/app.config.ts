@@ -42,6 +42,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       backgroundColor: "#1d2021",
     },
   },
+  ios: {
+    bundleIdentifier: "com.tesourofieis.com",
+  },
   web: {
     favicon: "./assets/images/favicon128.png",
   },
@@ -54,14 +57,5 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     tsconfigPaths: true,
     typedRoutes: true,
   },
-  plugins: [
-    "expo-router",
-    "expo-font",
-    [
-      "expo-notifications",
-      {
-        sounds: ["./assets/audio/angelus.wav"],
-      },
-    ],
-  ],
+  plugins: ["expo-router", "expo-font", "expo-notifications"],
 });
