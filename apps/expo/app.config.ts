@@ -43,6 +43,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   ios: {
+    supportsTablet: true,
+    userInterfaceStyle: "automatic",
     bundleIdentifier: "com.tesourofieis.com",
   },
   web: {
