@@ -134,7 +134,6 @@ export const sidebar = [
         label: "Ladainhas",
         collapsed: true,
         autogenerate: { directory: "devocionario/ladainhas" },
-        badge: { text: "Novo" },
       },
       {
         label: "Oracões do dia",
@@ -173,6 +172,12 @@ export const sidebar = [
         label: "Salterio",
         collapsed: true,
         autogenerate: { directory: "devocionario/salterio" },
+      },
+      {
+        label: "Novenas",
+        collapsed: true,
+        autogenerate: { directory: "devocionario/novenas" },
+        badge: { text: "Novo" },
       },
     ],
   },

@@ -24,13 +24,15 @@ function getColor(color?: string) {
   }
 }
 
-const ANGELUS_TIMES = [
+const ANGELUS = [
   { hour: 6, minute: 0 },
   { hour: 12, minute: 0 },
   { hour: 18, minute: 0 },
 ];
 
-const DAILY_MASS_TIME = { hour: 7, minute: 0 };
+const MASS = { hour: 7, minute: 0 };
+
+const NOVENA = { hour: 20, minute: 0 };
 
 const STORAGE_KEYS = {
   ANGELUS_ENABLED: "angelusEnabled",
@@ -61,7 +63,7 @@ export const useNotifications = () => {
   }, []);
 
   const scheduleAngelus = useCallback(async () => {
-    for (const time of ANGELUS_TIMES) {
+    for (const time of ANGELUS) {
       await Notifications.scheduleNotificationAsync({
         content: {
           title: "🔔 Hora do Angelus",
@@ -82,7 +84,7 @@ export const useNotifications = () => {
       await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
       if (
-        ANGELUS_TIMES.some(
+        ANGELUS.some(
           // biome-ignore lint/suspicious/noExplicitAny: <explanation>
           (time) => time.hour === (notification.trigger as any).hour,
         )
@@ -119,7 +121,7 @@ export const useNotifications = () => {
     for (const notification of scheduledNotifications) {
       // biome-ignore lint/suspicious/noExplicitAny: <explanation>
       const trigger = notification.trigger as any;
-      const isAngelus = ANGELUS_TIMES.some(
+      const isAngelus = ANGELUS.some(
         (time) => time.hour === trigger.hour && time.minute === trigger.minute,
       );
 
@@ -146,8 +148,8 @@ export const useNotifications = () => {
         Notifications.scheduleNotificationAsync({
           content: notificationContent,
           trigger: {
-            hour: DAILY_MASS_TIME.hour,
-            minute: DAILY_MASS_TIME.minute,
+            hour: MASS.hour,
+            minute: MASS.minute,
             weekday: ((currentDay + i) % 7) + 1,
             repeats: true,
           },
@@ -167,13 +169,13 @@ export const useNotifications = () => {
         content: {
           title: `🙏 Novena: ${mass.name}`,
           body: `Dia ${i + 1} da Novena`,
-          data: { url: "devocionario/novena" },
+          data: { url: "devocionario/novenas" },
           color: getColor(mass.color),
         },
         trigger: {
           date: notificationDate,
-          hour: 9, // You can adjust this time as needed
-          minute: 0,
+          hour: NOVENA.hour, // You can adjust this time as needed
+          minute: NOVENA.minute,
         },
       });
     }
