@@ -42,4 +42,4 @@ jobs:
 
       - name: "🔸 Update Expo App"
         working-directory: apps/expo
-        run: eas build --auto-submit --profile=production
+        run: eas build --platform all --auto-submit --profile production --non-interactive
