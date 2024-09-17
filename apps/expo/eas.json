@@ -5,8 +5,7 @@
   },
   "build": {
     "base": {
-      "node": "20.16.0",
-      "pnpm": "9.7.0",
+      "bun": "1.1.24",
       "ios": {
         "resourceClass": "m-medium"
       }
@@ -19,6 +18,10 @@
   },
   "submit": {
     "preview": {},
-    "production": {}
+    "production": {
+      "ios": {
+        "ascAppId": "6689521725"
+      }
+    }
   }
 }
