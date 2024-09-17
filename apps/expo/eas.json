@@ -4,20 +4,12 @@
     "appVersionSource": "remote"
   },
   "build": {
-    "base": {
-      "bun": "1.1.24",
-      "ios": {
-        "resourceClass": "m-medium"
-      }
-    },
     "production": {
-      "extends": "base",
-      "autoIncrement": true,
-      "channel": "production"
+      "bun": "1.1.24",
+      "autoIncrement": true
     }
   },
   "submit": {
-    "preview": {},
     "production": {
       "ios": {
         "ascAppId": "6689521725"
