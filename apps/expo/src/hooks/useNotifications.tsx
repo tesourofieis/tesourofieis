@@ -1,9 +1,10 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { addDays } from "date-fns";
+import { addDays, subDays } from "date-fns";
 import * as Notifications from "expo-notifications";
 import { useCallback, useEffect, useState } from "react";
 
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
+import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
 function getColor(color?: string) {
@@ -23,24 +24,29 @@ function getColor(color?: string) {
   }
 }
 
-const ANGELUS_TIMES = [
+const ANGELUS = [
   { hour: 6, minute: 0 },
   { hour: 12, minute: 0 },
   { hour: 18, minute: 0 },
 ];
 
-const DAILY_MASS_TIME = { hour: 7, minute: 0 };
+const MASS = { hour: 7, minute: 0 };
+
+const NOVENA = { hour: 20, minute: 0 };
 
 const STORAGE_KEYS = {
   ANGELUS_ENABLED: "angelusEnabled",
   DAILY_MASS_ENABLED: "dailyMassEnabled",
+  NOVENA_ENABLED: "novenaEnabled",
 };
 
 export const useNotifications = () => {
   const [angelusEnabled, setAngelusEnabled] = useState(true);
   const [dailyMassEnabled, setDailyMassEnabled] = useState(true);
+  const [novenaEnabled, setNovenaEnabled] = useState(true);
   const [angelusLoading, setAngelusLoading] = useState(false);
   const [dailyMassLoading, setDailyMassLoading] = useState(false);
+  const [novenaLoading, setNovenaLoading] = useState(false);
 
   const loadPreferences = useCallback(async () => {
     try {
@@ -57,13 +63,12 @@ export const useNotifications = () => {
   }, []);
 
   const scheduleAngelus = useCallback(async () => {
-    for (const time of ANGELUS_TIMES) {
+    for (const time of ANGELUS) {
       await Notifications.scheduleNotificationAsync({
         content: {
           title: "🔔 Hora do Angelus",
           data: { url: "devocionario/dia/angelus" },
           color: "#2196f3",
-          sound: "angelus.wav",
         },
         trigger: {
           hour: time.hour,
@@ -79,7 +84,7 @@ export const useNotifications = () => {
       await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
       if (
-        ANGELUS_TIMES.some(
+        ANGELUS.some(
           // biome-ignore lint/suspicious/noExplicitAny: <explanation>
           (time) => time.hour === (notification.trigger as any).hour,
         )
@@ -116,7 +121,7 @@ export const useNotifications = () => {
     for (const notification of scheduledNotifications) {
       // biome-ignore lint/suspicious/noExplicitAny: <explanation>
       const trigger = notification.trigger as any;
-      const isAngelus = ANGELUS_TIMES.some(
+      const isAngelus = ANGELUS.some(
         (time) => time.hour === trigger.hour && time.minute === trigger.minute,
       );
 
@@ -143,8 +148,8 @@ export const useNotifications = () => {
         Notifications.scheduleNotificationAsync({
           content: notificationContent,
           trigger: {
-            hour: DAILY_MASS_TIME.hour,
-            minute: DAILY_MASS_TIME.minute,
+            hour: MASS.hour,
+            minute: MASS.minute,
             weekday: ((currentDay + i) % 7) + 1,
             repeats: true,
           },
@@ -154,6 +159,54 @@ export const useNotifications = () => {
 
     await Promise.all(notificationPromises);
   }, [cleanupNotifications, prepareDailyMassNotification]);
+
+  const scheduleNovena = useCallback(async (mass: Mass, date: Date) => {
+    const novenaStartDate = subDays(date, 8);
+
+    for (let i = 0; i < 9; i++) {
+      const notificationDate = addDays(novenaStartDate, i);
+      await Notifications.scheduleNotificationAsync({
+        content: {
+          title: `🙏 Novena: ${mass.name}`,
+          body: `Dia ${i + 1} da Novena`,
+          data: { url: "devocionario/novenas" },
+          color: getColor(mass.color),
+        },
+        trigger: {
+          date: notificationDate,
+          hour: NOVENA.hour, // You can adjust this time as needed
+          minute: NOVENA.minute,
+        },
+      });
+    }
+  }, []);
+
+  const cleanupNovenas = useCallback(async () => {
+    const scheduledNotifications =
+      await Notifications.getAllScheduledNotificationsAsync();
+    for (const notification of scheduledNotifications) {
+      if (notification.content.title?.startsWith("🙏 Novena:")) {
+        await Notifications.cancelScheduledNotificationAsync(
+          notification.identifier,
+        );
+      }
+    }
+  }, []);
+
+  const scheduleNovenasForWeek = useCallback(async () => {
+    await cleanupNovenas();
+
+    const today = new Date();
+    for (let i = 0; i < 7; i++) {
+      const date = addDays(today, i);
+      const calendar = getCalendarDay(yyyyMMDD(date));
+      const novenaObservance = calendar.mass.find((m) => m.novena);
+
+      if (novenaObservance) {
+        await scheduleNovena(novenaObservance, date);
+      }
+    }
+  }, [cleanupNovenas, scheduleNovena]);
 
   const refreshNotifications = useCallback(async () => {
     if (dailyMassEnabled) {
@@ -179,13 +232,26 @@ export const useNotifications = () => {
         setAngelusLoading(false);
       }
     }
+
+    if (novenaEnabled) {
+      setNovenaLoading(true);
+      try {
+        await scheduleNovenasForWeek();
+      } catch (error) {
+        console.error("Error refreshing Novena notifications:", error);
+      } finally {
+        setNovenaLoading(false);
+      }
+    }
   }, [
     dailyMassEnabled,
     angelusEnabled,
+    novenaEnabled,
     cleanupNotifications,
     scheduleMassForWeek,
     cancelAngelus,
     scheduleAngelus,
+    scheduleNovenasForWeek,
   ]);
 
   useEffect(() => {
@@ -239,12 +305,36 @@ export const useNotifications = () => {
     }
   }, [dailyMassEnabled, scheduleMassForWeek, cleanupNotifications]);
 
+  const toggleNovena = useCallback(async () => {
+    setNovenaLoading(true);
+    try {
+      const newEnabled = !novenaEnabled;
+      setNovenaEnabled(newEnabled);
+      await AsyncStorage.setItem(
+        STORAGE_KEYS.NOVENA_ENABLED,
+        newEnabled.toString(),
+      );
+      if (newEnabled) {
+        await scheduleNovenasForWeek();
+      } else {
+        await cleanupNovenas();
+      }
+    } catch (error) {
+      console.error("Error toggling Novena notifications:", error);
+    } finally {
+      setNovenaLoading(false);
+    }
+  }, [novenaEnabled, scheduleNovenasForWeek, cleanupNovenas]);
+
   return {
     angelusEnabled,
     dailyMassEnabled,
+    novenaEnabled,
     angelusLoading,
     dailyMassLoading,
+    novenaLoading,
     toggleAngelus,
     toggleDailyMass,
+    toggleNovena,
   };
 };

@@ -2028,6 +2028,7 @@ export const OBSERVANCES: MassMap = {
     category: "pascoa",
     weekday: 0,
     week: 7,
+    novena: true,
   },
   TEMPORA_PASC7_1: {
     flexibility: "tempora",
@@ -2184,6 +2185,7 @@ export const OBSERVANCES: MassMap = {
     category: "pentecostes",
     weekday: 4,
     week: 1,
+    novena: true,
   },
   TEMPORA_PENT01_5: {
     flexibility: "tempora",
@@ -2288,6 +2290,7 @@ export const OBSERVANCES: MassMap = {
     category: "pentecostes",
     weekday: 5,
     week: 2,
+    novena: true,
   },
   TEMPORA_PENT02_6: {
     flexibility: "tempora",
@@ -4716,6 +4719,7 @@ export const OBSERVANCES: MassMap = {
     category: "natal",
     weekday: 0,
     week: 2,
+    novena: true,
   },
   SANCTI_10_DUr: {
     flexibility: "santos",
@@ -4727,6 +4731,7 @@ export const OBSERVANCES: MassMap = {
     outro: false,
     type: "sancti",
     category: "santos",
+    novena: true,
   },
   SANCTI_01_01: {
     flexibility: "santos",
@@ -5625,6 +5630,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 3,
     day: 19,
+    novena: true,
   },
   SANCTI_03_20_BRAGA: {
     flexibility: "santos",
@@ -5652,6 +5658,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 3,
     day: 21,
+    novena: true,
   },
   SANCTI_03_24: {
     flexibility: "santos",
@@ -5692,6 +5699,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 3,
     day: 25,
+    novena: true,
   },
   SANCTI_03_27: {
     flexibility: "santos",
@@ -5876,6 +5884,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 4,
     day: 23,
+    novena: true,
   },
   SANCTI_04_24: {
     flexibility: "santos",
@@ -6179,6 +6188,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 5,
     day: 13,
+    novena: true,
   },
   SANCTI_05_14: {
     flexibility: "santos",
@@ -6615,6 +6625,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 6,
     day: 13,
+    novena: true,
   },
   SANCTI_06_14: {
     flexibility: "santos",
@@ -6760,6 +6771,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 6,
     day: 24,
+    novena: true,
   },
   SANCTI_06_25: {
     flexibility: "santos",
@@ -6839,6 +6851,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 6,
     day: 29,
+    novena: true,
   },
   SANCTI_06_30: {
     flexibility: "santos",
@@ -6865,6 +6878,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 7,
     day: 1,
+    novena: true,
   },
   SANCTI_07_02: {
     flexibility: "santos",
@@ -7547,6 +7561,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 8,
     day: 15,
+    novena: true,
   },
   SANCTI_08_16: {
     flexibility: "santos",
@@ -7612,6 +7627,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 8,
     day: 20,
+    novena: true,
   },
   SANCTI_08_21: {
     flexibility: "santos",
@@ -7912,6 +7928,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 9,
     day: 15,
+    novena: true,
   },
   SANCTI_09_16: {
     flexibility: "santos",
@@ -8108,6 +8125,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 9,
     day: 29,
+    novena: true,
   },
   SANCTI_09_30: {
     flexibility: "santos",
@@ -8669,6 +8687,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 11,
     day: 1,
+    novena: true,
   },
   SANCTI_11_02: {
     flexibility: "santos",
@@ -8723,6 +8742,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 11,
     day: 6,
+    novena: true,
   },
   SANCTI_11_08: {
     flexibility: "santos",
@@ -8831,7 +8851,7 @@ export const OBSERVANCES: MassMap = {
   SANCTI_11_15_BRAGA: {
     flexibility: "santos",
     id: "SANCTI_11_15_BRAGA",
-    name: "Na Dedicação da Basílica do Santissimo Coração de Jesus",
+    name: "Na Dedicação da Basílica do Santíssimo Coração de Jesus",
     rank: 3,
     color: "w",
     link: "missal/santos/11-15-braga",
@@ -9185,6 +9205,7 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 12,
     day: 8,
+    novena: true,
   },
   SANCTI_12_10: {
     flexibility: "santos",
@@ -9485,6 +9506,7 @@ export const OBSERVANCES: MassMap = {
     outro: false,
     type: "feria",
     category: "votivas",
+    novena: true,
   },
   VOTIVE_ANGELS: {
     flexibility: "votivas",

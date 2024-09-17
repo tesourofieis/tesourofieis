@@ -13,10 +13,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
-    "@turbo/gen": "^2.0.13",
     "concurrently": "^6.2.0",
     "lefthook": "^1.7.14",
-    "turbo": "^2.0.13",
     "typescript": "^5.5.4"
   },
   "workspaces": ["apps/*", "packages/*", "tooling/*"]

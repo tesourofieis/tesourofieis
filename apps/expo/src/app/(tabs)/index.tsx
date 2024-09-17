@@ -9,6 +9,7 @@ import { ScrollView, Text, View } from "react-native";
 import Calendar from "~/components/Calendar";
 import LinkCard from "~/components/LinkCard";
 import Not from "~/components/Notifications";
+import Novenas from "~/components/Novenas";
 import Office from "~/components/Office";
 import { COLORS } from "~/constants/Colors";
 
@@ -147,6 +148,7 @@ export default function Render() {
           )}
 
           <Office />
+          <Novenas />
         </View>
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />

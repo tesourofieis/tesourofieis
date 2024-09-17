@@ -2,6 +2,6 @@ pre-commit:
   parallel: false
   commands:
     typecheck:
-      run: bun typecheck
+      run: bun typecheck:fix
     lint:
-      run: bun lint
+      run: bun lint:fix

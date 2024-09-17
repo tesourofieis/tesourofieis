@@ -116,14 +116,12 @@ export const sidebar = [
       {
         label: "Introdução",
         link: "/devocionario/introducao",
-        badge: { text: "Novo" },
       },
       { label: "Adoração", link: "/devocionario/adoracao" },
       { label: "Rosario", link: "/devocionario/rosario" },
       {
         label: "Via Sacra",
         link: "/devocionario/viasacra",
-        badge: { text: "Novo" },
       },
       {
         label: "Antífonas de Nossa Senhora",
@@ -134,7 +132,6 @@ export const sidebar = [
         label: "Ladainhas",
         collapsed: true,
         autogenerate: { directory: "devocionario/ladainhas" },
-        badge: { text: "Novo" },
       },
       {
         label: "Oracões do dia",
@@ -143,7 +140,6 @@ export const sidebar = [
           {
             label: "Bençãos",
             link: "/devocionario/dia/bencaos",
-            badge: { text: "Novo" },
           },
           { label: "Oração da Manhã", link: "/devocionario/dia/oracaomanha" },
           { label: "Angelus", link: "/devocionario/dia/angelus" },
@@ -174,6 +170,11 @@ export const sidebar = [
         collapsed: true,
         autogenerate: { directory: "devocionario/salterio" },
       },
+      {
+        label: "Novenas",
+        link: "/devocionario/novenas",
+        badge: { text: "Novo" },
+      },
     ],
   },
   {
@@ -190,7 +191,6 @@ export const sidebar = [
       {
         label: "Juramento anti-modernista",
         link: "/fe/juramento",
-        badge: { text: "Novo" },
       },
     ],
   },
@@ -206,7 +206,6 @@ export const sidebar = [
         label: "Populares",
         collapsed: true,
         autogenerate: { directory: "canticos/populares" },
-        badge: { text: "Novo" },
       },
     ],
   },

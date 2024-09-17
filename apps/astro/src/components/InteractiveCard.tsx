@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 import LinkCard from "~/components/LinkCard";
 import Calendar from "./Calendar";
+import Novenas from "./Novenas";
 import Office from "./Office";
 
 export default function InteractiveCard() {
@@ -56,6 +57,7 @@ export default function InteractiveCard() {
         })}
       </span>
       <Office />
+      <Novenas />
       {currentPrayer.isAngelus && (
         <LinkCard
           href="/devocionario/dia/angelus"

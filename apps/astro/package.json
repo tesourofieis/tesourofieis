@@ -35,7 +35,6 @@
     "@iconify-json/mdi": "^1.1.65",
     "@iconify/json": "^2.2.195",
     "@iconify/react": "^5.0.1",
-    "@playwright/test": "^1.42.1",
     "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/react": "^18.3.3",

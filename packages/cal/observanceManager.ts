@@ -36,7 +36,7 @@ export interface Mass {
   week?: number; // to be used by flexibility tempora
   day?: number; // to be used by flexibility santos
   month?: number; // to be used by flexibility santos
-  getSunday?: boolean; // get last sunday mass
+  novena?: boolean;
 }
 
 export type MassMap = {
