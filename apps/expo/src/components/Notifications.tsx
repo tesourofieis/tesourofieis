@@ -19,7 +19,7 @@ export default function Not() {
   const { colorScheme } = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);
 
-  const { angelus, mass: dailyMass, novena, office } = useNotifications();
+  const { angelus, mass, novena, office } = useNotifications();
 
   useEffect(() => {
     const subscription = Notifications.addNotificationResponseReceivedListener(
@@ -111,7 +111,7 @@ export default function Not() {
         icon="calendar"
         description="Receba informações sobre as celebrações e comemorações do dia."
         times={["7:00"]}
-        {...dailyMass}
+        {...mass}
       />
 
       <NotificationToggle

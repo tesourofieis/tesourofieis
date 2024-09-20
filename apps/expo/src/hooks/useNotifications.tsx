@@ -1,29 +1,13 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useCallback, useEffect } from "react";
+import {
+  type NotificationHookResult,
+  STORAGE_KEYS,
+} from "./notifications/types";
 import { useAngelus } from "./notifications/useAngelus";
 import { useMass } from "./notifications/useMass";
 import { useNovena } from "./notifications/useNovena";
 import { useOffice } from "./notifications/useOffice";
-
-export interface NotificationPreference {
-  enabled: boolean;
-  loading: boolean;
-  toggle: () => Promise<void>;
-}
-
-export interface NotificationHookResult {
-  angelus: NotificationPreference;
-  mass: NotificationPreference;
-  novena: NotificationPreference;
-  office: NotificationPreference;
-}
-
-export const STORAGE_KEYS = {
-  ANGELUS_ENABLED: "angelusEnabled",
-  DAILY_MASS_ENABLED: "dailyMassEnabled",
-  NOVENA_ENABLED: "novenaEnabled",
-  OFFICE_ENABLED: "officeEnabled",
-};
 
 export const useNotifications = (): NotificationHookResult => {
   const angelus = useAngelus();

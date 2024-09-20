@@ -1,7 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Notifications from "expo-notifications";
 import { useCallback, useState } from "react";
-import { type NotificationPreference, STORAGE_KEYS } from "../useNotifications";
+import { type NotificationPreference, STORAGE_KEYS } from "./types";
 
 const OFFICE_HOURS = [
   { name: "Matinas", hour: 0, link: "/devocionario/oficio/matinas" },

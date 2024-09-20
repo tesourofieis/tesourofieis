@@ -4,7 +4,6 @@ import { getYear } from "date-fns";
 import React, { useState, useEffect } from "react";
 import Novenas from "./Novenas";
 
-// Assuming you have a function to get all novenas for a year
 function getAllNovenasForYear(year: number) {
   const calendar = new Calendar(year);
   const allDays = calendar.getAllDays();
@@ -23,7 +22,6 @@ export default function PaginaNovenas() {
   const year = getYear(new Date());
 
   useEffect(() => {
-    // Fetch novenas for the current year or any specific year
     const novenas = getAllNovenasForYear(year);
     setAllNovenas(novenas);
   }, [year]);

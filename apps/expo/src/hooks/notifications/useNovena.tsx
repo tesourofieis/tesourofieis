@@ -5,7 +5,7 @@ import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { addDays, subDays } from "date-fns";
 import * as Notifications from "expo-notifications";
 import { useCallback, useState } from "react";
-import { type NotificationPreference, STORAGE_KEYS } from "../useNotifications";
+import { type NotificationPreference, STORAGE_KEYS } from "./types";
 
 const NOVENA = { hour: 20, minute: 0 };
 
