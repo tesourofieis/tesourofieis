@@ -8,7 +8,8 @@
     "format": "biome format .",
     "typecheck": "biome check .",
     "typecheck:fix": "biome check --write .",
-    "format:fix": "biome format --write ."
+    "format:fix": "biome format --write .",
+    "test": "pnpm test -r"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
