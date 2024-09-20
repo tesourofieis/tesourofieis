@@ -2,7 +2,7 @@ import { getNovenas } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import LinkCard from "./LinkCard";
 
-export default function Office() {
+export default function Novenas() {
   const date = new Date();
   const novenas = getNovenas(yyyyMMDD(date));
 
@@ -12,7 +12,7 @@ export default function Office() {
         {novenas.map((novena) => (
           <LinkCard
             key={novena.id}
-            href={`/${novena.link}`}
+            href="/devocionario/novenas"
             title={novena.name}
             description="Novena"
           />

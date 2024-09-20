@@ -2,7 +2,9 @@ import { Calendar } from "@tesourofieis/cal/calendar";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { getYear } from "date-fns";
 import React, { useState, useEffect } from "react";
-import Novenas from "./Novenas";
+import LinkCard from "./LinkCard";
+import { getNovenas } from "@tesourofieis/cal/getCalendar";
+import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
 function getAllNovenasForYear(year: number) {
   const calendar = new Calendar(year);
@@ -21,6 +23,8 @@ export default function PaginaNovenas() {
   const [allNovenas, setAllNovenas] = useState<Mass[]>([]);
   const year = getYear(new Date());
 
+  const novena = getNovenas(yyyyMMDD(new Date()));
+
   useEffect(() => {
     const novenas = getAllNovenasForYear(year);
     setAllNovenas(novenas);
@@ -28,7 +32,14 @@ export default function PaginaNovenas() {
 
   return (
     <div className="p-4">
-      <Novenas />
+      {novena.map((novena) => (
+        <LinkCard
+          key={novena.id}
+          href={`/${novena.link}`}
+          title={novena.name}
+          description="Possível Oração para a Novena"
+        />
+      ))}
 
       <p className="mb-2">
         Não existem novenas oficiais estabelecidas pela Igreja, permitindo que
