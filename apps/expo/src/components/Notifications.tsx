@@ -19,7 +19,7 @@ export default function Not() {
   const { colorScheme } = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);
 
-  const { angelus, dailyMass, novena, office } = useNotifications();
+  const { angelus, mass: dailyMass, novena, office } = useNotifications();
 
   useEffect(() => {
     const subscription = Notifications.addNotificationResponseReceivedListener(
@@ -28,7 +28,7 @@ export default function Not() {
         if (url) {
           router.push(`/modal?url=${url}`);
         }
-      }
+      },
     );
 
     checkNotificationPermissions();

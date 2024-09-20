@@ -1,11 +1,11 @@
-import { useState, useCallback } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import * as Notifications from "expo-notifications";
-import { addDays, subDays } from "date-fns";
-import { type NotificationPreference, STORAGE_KEYS } from "../useNotifications";
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
-import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
+import { yyyyMMDD } from "@tesourofieis/cal/utils";
+import { addDays, subDays } from "date-fns";
+import * as Notifications from "expo-notifications";
+import { useCallback, useState } from "react";
+import { type NotificationPreference, STORAGE_KEYS } from "../useNotifications";
 
 const NOVENA = { hour: 20, minute: 0 };
 
@@ -52,12 +52,13 @@ export const useNovena = (): NotificationPreference => {
     for (const notification of scheduledNotifications) {
       if (notification.content.title?.startsWith("🙏 Novena:")) {
         await Notifications.cancelScheduledNotificationAsync(
-          notification.identifier
+          notification.identifier,
         );
       }
     }
   };
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   const toggle = useCallback(async () => {
     setLoading(true);
     try {
@@ -65,7 +66,7 @@ export const useNovena = (): NotificationPreference => {
       setEnabled(newEnabled);
       await AsyncStorage.setItem(
         STORAGE_KEYS.NOVENA_ENABLED,
-        newEnabled.toString()
+        newEnabled.toString(),
       );
       if (newEnabled) {
         await scheduleNovenasForWeek();

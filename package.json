@@ -1,9 +1,8 @@
 {
   "name": "tesourofieis",
   "private": true,
-  "packageManager": "bun@1.1.24",
+  "packageManager": "pnpm@9.7.1",
   "scripts": {
-    "dev": "concurrently -n 'astro,expo' -c '#007755,#550077' 'cd apps/astro && bun run dev' 'cd apps/expo && bun run dev'",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
     "format": "biome format .",
@@ -13,10 +12,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
-    "@turbo/gen": "^2.0.13",
-    "concurrently": "^6.2.0",
     "lefthook": "^1.7.14",
-    "turbo": "^2.0.13",
     "typescript": "^5.5.4"
   }
 }

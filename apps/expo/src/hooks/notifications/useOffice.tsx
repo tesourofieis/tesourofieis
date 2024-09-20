@@ -1,6 +1,6 @@
-import { useState, useCallback } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Notifications from "expo-notifications";
+import { useCallback, useState } from "react";
 import { type NotificationPreference, STORAGE_KEYS } from "../useNotifications";
 
 const OFFICE_HOURS = [
@@ -43,12 +43,13 @@ export const useOffice = (): NotificationPreference => {
       console.log(notification);
       if (notification.content.title?.startsWith("🕰️ Hora do Ofício:")) {
         await Notifications.cancelScheduledNotificationAsync(
-          notification.identifier
+          notification.identifier,
         );
       }
     }
   };
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   const toggle = useCallback(async () => {
     setLoading(true);
     try {
@@ -56,7 +57,7 @@ export const useOffice = (): NotificationPreference => {
       setEnabled(newEnabled);
       await AsyncStorage.setItem(
         STORAGE_KEYS.OFFICE_ENABLED,
-        newEnabled.toString()
+        newEnabled.toString(),
       );
       if (newEnabled) {
         await scheduleOffice();

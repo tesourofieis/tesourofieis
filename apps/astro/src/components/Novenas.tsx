@@ -12,7 +12,7 @@ export default function Office() {
         {novenas.map((novena) => (
           <LinkCard
             key={novena.id}
-            href="/devocionario/novenas"
+            href={`/${novena.link}`}
             title={novena.name}
             description="Novena"
           />

@@ -1,7 +1,7 @@
-import { useEffect, useCallback } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useCallback, useEffect } from "react";
 import { useAngelus } from "./notifications/useAngelus";
-import { useDailyMass } from "./notifications/useMass";
+import { useMass } from "./notifications/useMass";
 import { useNovena } from "./notifications/useNovena";
 import { useOffice } from "./notifications/useOffice";
 
@@ -13,7 +13,7 @@ export interface NotificationPreference {
 
 export interface NotificationHookResult {
   angelus: NotificationPreference;
-  dailyMass: NotificationPreference;
+  mass: NotificationPreference;
   novena: NotificationPreference;
   office: NotificationPreference;
 }
@@ -27,7 +27,7 @@ export const STORAGE_KEYS = {
 
 export const useNotifications = (): NotificationHookResult => {
   const angelus = useAngelus();
-  const dailyMass = useDailyMass();
+  const mass = useMass();
   const novena = useNovena();
   const office = useOffice();
 
@@ -35,7 +35,7 @@ export const useNotifications = (): NotificationHookResult => {
     try {
       const [
         angelusEnabledStr,
-        dailyMassEnabledStr,
+        massEnabledStr,
         novenaEnabledStr,
         officeEnabledStr,
       ] = await Promise.all([
@@ -46,13 +46,13 @@ export const useNotifications = (): NotificationHookResult => {
       ]);
 
       angelus.enabled = angelusEnabledStr !== "false";
-      dailyMass.enabled = dailyMassEnabledStr !== "false";
+      mass.enabled = massEnabledStr !== "false";
       novena.enabled = novenaEnabledStr !== "false";
       office.enabled = officeEnabledStr !== "false";
     } catch (error) {
       console.error("Error loading preferences:", error);
     }
-  }, [angelus, dailyMass, novena, office]);
+  }, [angelus, mass, novena, office]);
 
   useEffect(() => {
     const initializeNotifications = async () => {
@@ -63,5 +63,5 @@ export const useNotifications = (): NotificationHookResult => {
     initializeNotifications();
   }, [loadPreferences]);
 
-  return { angelus, dailyMass, novena, office };
+  return { angelus, mass: mass, novena, office };
 };

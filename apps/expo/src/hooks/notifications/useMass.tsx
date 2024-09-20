@@ -1,10 +1,10 @@
-import { useState, useCallback } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import * as Notifications from "expo-notifications";
-import { addDays } from "date-fns";
-import { type NotificationPreference, STORAGE_KEYS } from "../useNotifications";
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
+import { addDays } from "date-fns";
+import * as Notifications from "expo-notifications";
+import { useCallback, useState } from "react";
+import { type NotificationPreference, STORAGE_KEYS } from "../useNotifications";
 
 function getColor(color?: string) {
   switch (color) {
@@ -23,7 +23,7 @@ function getColor(color?: string) {
   }
 }
 
-function prepareDailyMassNotification(date: Date) {
+function prepareMassNotification(date: Date) {
   const calendar = getCalendarDay(yyyyMMDD(date));
   const mass = calendar?.mass;
 
@@ -43,7 +43,7 @@ function prepareDailyMassNotification(date: Date) {
 
 const MASS = { hour: 7, minute: 0 };
 
-export const useDailyMass = (): NotificationPreference => {
+export const useMass = (): NotificationPreference => {
   const [enabled, setEnabled] = useState(true);
   const [loading, setLoading] = useState(false);
 
@@ -55,7 +55,7 @@ export const useDailyMass = (): NotificationPreference => {
 
     for (let i = 0; i < 7; i++) {
       const date = addDays(today, i);
-      const notificationContent = prepareDailyMassNotification(date);
+      const notificationContent = prepareMassNotification(date);
       notificationPromises.push(
         Notifications.scheduleNotificationAsync({
           content: notificationContent,
@@ -65,28 +65,31 @@ export const useDailyMass = (): NotificationPreference => {
             weekday: ((currentDay + i) % 7) + 1,
             repeats: true,
           },
-        })
+        }),
       );
     }
 
     await Promise.all(notificationPromises);
   };
 
-  const cancelDailyMass = async () => {
+  const cancelMass = async () => {
     const scheduledNotifications =
       await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
       if (
+        // biome-ignore lint/suspicious/noExplicitAny: <explanation>
         (notification.trigger as any).hour === MASS.hour &&
+        // biome-ignore lint/suspicious/noExplicitAny: <explanation>
         (notification.trigger as any).minute === MASS.minute
       ) {
         await Notifications.cancelScheduledNotificationAsync(
-          notification.identifier
+          notification.identifier,
         );
       }
     }
   };
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   const toggle = useCallback(async () => {
     setLoading(true);
     try {
@@ -94,15 +97,15 @@ export const useDailyMass = (): NotificationPreference => {
       setEnabled(newEnabled);
       await AsyncStorage.setItem(
         STORAGE_KEYS.DAILY_MASS_ENABLED,
-        newEnabled.toString()
+        newEnabled.toString(),
       );
       if (newEnabled) {
         await scheduleMassForWeek();
       } else {
-        await cancelDailyMass();
+        await cancelMass();
       }
     } catch (error) {
-      console.error("Error toggling Daily Mass notifications:", error);
+      console.error("Error toggling Mass notifications:", error);
     } finally {
       setLoading(false);
     }
