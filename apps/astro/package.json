@@ -1,6 +1,5 @@
 {
   "name": "@tesourofieis/astro",
-  "type": "module",
   "version": "1.20.0",
   "scripts": {
     "dev": "astro dev",
@@ -26,22 +25,24 @@
     "@date-fns/utc": "^1.2.0",
     "@tesourofieis/cal": "workspace:*",
     "astro": "^4.15.3",
-    "date-fns": "^3.6.0",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "date-fns": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
   },
   "devDependencies": {
+    "@fontsource-variable/eb-garamond": "^5.0.18",
+    "@fontsource/berkshire-swash": "^5.0.19",
     "@iconify-icon/react": "^2.0.1",
     "@iconify-json/mdi": "^1.1.65",
     "@iconify/json": "^2.2.195",
     "@iconify/react": "^5.0.1",
     "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
     "astro-robots-txt": "^1.0.0",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
     "vitest": "^1.4.0"
   },
   "trustedDependencies": ["protobufjs"]

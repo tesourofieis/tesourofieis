@@ -18,7 +18,7 @@ jobs:
         uses: ./tooling/github/setup
 
       - name: Lint
-        run: bun lint
+        run: pnpm lint
 
   typecheck:
     runs-on: ubuntu-latest
@@ -29,7 +29,7 @@ jobs:
         uses: ./tooling/github/setup
 
       - name: Typecheck
-        run: bun typecheck
+        run: pnpm typecheck
 
   test:
     runs-on: ubuntu-latest
@@ -40,7 +40,7 @@ jobs:
         uses: ./tooling/github/setup
 
       - name: Test
-        run: bun test
+        run: pnpm test
 
   deploy-web-preview:
     name: Deploy
@@ -54,10 +54,10 @@ jobs:
 
       - name: "🔧 Build"
         working-directory: apps/astro
-        run: bun run build
+        run: pnpm run build
       - name: "🔸 Cloudflare Workers - Deploy 🚀"
         working-directory: apps/astro
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: bunx wrangler pages deploy dist --project-name tesourofieis
+        run: pnpx wrangler pages deploy dist --project-name tesourofieis

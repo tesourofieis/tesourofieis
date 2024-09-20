@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@date-fns/utc": "^1.2.0",
+    "@date-fns/utc": "catalog:",
     "@expo-google-fonts/berkshire-swash": "^0.2.3",
     "@expo-google-fonts/eb-garamond": "^0.2.3",
     "@expo-google-fonts/goudy-bookletter-1911": "^0.2.3",
@@ -29,7 +29,7 @@
     "@react-navigation/native": "^6.0.2",
     "@shopify/flash-list": "1.6.4",
     "@tesourofieis/cal": "workspace:*",
-    "date-fns": "^3.6.0",
+    "date-fns": "catalog:",
     "expo": "~51.0.27",
     "expo-constants": "~16.0.2",
     "expo-dev-client": "~4.0.26",
@@ -46,8 +46,8 @@
     "expo-updates": "~0.25.24",
     "expo-web-browser": "^13.0.3",
     "nativewind": "~4.0.36",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "catalog:",
+    "react-dom": "catalog:",
     "react-instantsearch-core": "^7.12.4",
     "react-native": "~0.74.5",
     "react-native-css-interop": "~0.0.34",
@@ -62,15 +62,13 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
-    "@fontsource-variable/eb-garamond": "^5.0.18",
-    "@fontsource/berkshire-swash": "^5.0.19",
     "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/babel__core": "^7.20.5",
     "@types/node": "^22.5.4",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.3.3"
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
   }
 }

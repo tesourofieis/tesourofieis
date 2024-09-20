@@ -8,7 +8,8 @@
     "rules": {
       "recommended": true,
       "correctness": {
-        "noUnusedVariables": "error"
+        "noUnusedVariables": "error",
+        "noUnknownFunction": "off"
       },
       "style": {
         "noNonNullAssertion": "off",

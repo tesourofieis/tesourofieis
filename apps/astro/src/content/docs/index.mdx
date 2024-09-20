@@ -17,12 +17,40 @@ hero:
       icon: document
 tableOfContents: false
 banner:
-  content: |
-    Em Portugal se conservará sempre o dogma da fé
-    - Nossa Senhora de Fátima
+  content: Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de Fátima
 ---
 
 import LinkCard from "~/components/LinkCard";
+
+import { LinkButton, Card } from "@astrojs/starlight/components";
+
+<Card>
+  <h3 className="text-3xl font-bold">Instale a nossa aplicação!</h3>
+  <h6 className="text-center">
+    Instale a nossa aplicação para telemóvel para receber notificações.
+  </h6>
+
+  <div className="flex items-center justify-center gap-5">
+    <LinkButton
+      href="https://apps.apple.com/no/app/tesouro-dos-fi%C3%A9is/id6689521725"
+      variant="secondary"
+      icon="right-arrow"
+      iconPlacement="end"
+    >
+      iOS
+    </LinkButton>
+
+    <LinkButton
+      href="https://play.google.com/store/apps/details?id=com.tesourofieis.app"
+      variant="secondary"
+      icon="right-arrow"
+      iconPlacement="end"
+    >
+      Android
+    </LinkButton>
+
+  </div>
+</Card>
 
 import InteractiveCard from "~/components/InteractiveCard";
 

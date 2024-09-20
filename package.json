@@ -1,21 +1,19 @@
 {
   "name": "tesourofieis",
   "private": true,
-  "packageManager": "bun@1.1.24",
+  "packageManager": "pnpm@9.7.1",
   "scripts": {
-    "dev": "concurrently -n 'astro,expo' -c '#007755,#550077' 'cd apps/astro && bun run dev' 'cd apps/expo && bun run dev'",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
     "format": "biome format .",
     "typecheck": "biome check .",
     "typecheck:fix": "biome check --write .",
-    "format:fix": "biome format --write ."
+    "format:fix": "biome format --write .",
+    "test": "pnpm test -r"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
-    "concurrently": "^6.2.0",
     "lefthook": "^1.7.14",
     "typescript": "^5.5.4"
-  },
-  "workspaces": ["apps/*", "packages/*", "tooling/*"]
+  }
 }
