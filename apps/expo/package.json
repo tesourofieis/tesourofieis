@@ -2,6 +2,7 @@
   "name": "@tesourofieis/expo",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "main": "./index",
   "scripts": {
     "clean": "git clean -xdf .cache .expo .turbo android ios node_modules",
