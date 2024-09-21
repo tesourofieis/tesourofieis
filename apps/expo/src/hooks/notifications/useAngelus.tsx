@@ -10,7 +10,7 @@ const ANGELUS = [
 ];
 
 export const useAngelus = (): NotificationPreference => {
-  const [enabled, setEnabled] = useState(true);
+  const [enabled, setEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const scheduleAngelus = async () => {

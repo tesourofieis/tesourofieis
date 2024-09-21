@@ -184,9 +184,7 @@ export default function MoreScreen() {
         )}
         {isExpanded && item.items && (
           <View className="ml-4">
-            {item.items.map((subItem, _index) =>
-              renderItem(subItem, depth + 1),
-            )}
+            {item.items.map((subItem) => renderItem(subItem, depth + 1))}
           </View>
         )}
       </View>

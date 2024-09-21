@@ -1,14 +1,16 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import * as Notifications from "expo-notifications";
-import { useRouter } from "expo-router";
+import { Link, useRouter } from "expo-router";
 import { useColorScheme } from "nativewind";
 import { useEffect, useState } from "react";
 import {
   ActivityIndicator,
   Button,
   Platform,
+  ScrollView,
   Switch,
   Text,
+  TouchableOpacity,
   View,
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
@@ -18,6 +20,48 @@ export default function Not() {
   const router = useRouter();
   const { colorScheme } = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);
+  const [scheduledNotifications, setScheduledNotifications] = useState([]);
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  if (Platform.OS === "web") {
+    return (
+      <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
+        <View className="flex-row items-center">
+          <FontAwesome6
+            name="gear"
+            size={15}
+            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+          />
+          <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
+            Apenas em dispositivos móveis.
+          </Text>
+        </View>
+
+        <View>
+          <Text className="text-sm text-sepia-800 dark:text-sepia-200">
+            Para receber notificações instale a nossa aplicação para telemóvel
+            para receber notificações.
+          </Text>
+
+          <View className="flex-row items-center justify-center gap-5">
+            <Link
+              className="bg-sepia-500 p-3"
+              href="https://apps.apple.com/no/app/tesouro-dos-fi%C3%A9is/id6689521725"
+            >
+              iOS
+            </Link>
+
+            <Link
+              className="bg-sepia-500 p-3"
+              href="https://play.google.com/store/apps/details?id=com.tesourofieis.app"
+            >
+              Android
+            </Link>
+          </View>
+        </View>
+      </View>
+    );
+  }
 
   const { angelus, mass, novena, office } = useNotifications();
 
@@ -36,9 +80,20 @@ export default function Not() {
     return () => subscription.remove();
   }, [router]);
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  useEffect(() => {
+    loadScheduledNotifications();
+  }, [angelus, mass, novena, office]);
+
   const checkNotificationPermissions = async () => {
     const { status } = await Notifications.getPermissionsAsync();
     setNotificationsPermission(status);
+  };
+
+  const loadScheduledNotifications = async () => {
+    const notifications =
+      await Notifications.getAllScheduledNotificationsAsync();
+    setScheduledNotifications(notifications);
   };
 
   const requestNotificationPermissions = async () => {
@@ -46,9 +101,9 @@ export default function Not() {
     setNotificationsPermission(status);
   };
 
-  if (Platform.OS === "web") {
-    return;
-  }
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
 
   if (notificationsPermission !== "granted") {
     return (
@@ -82,7 +137,7 @@ export default function Not() {
   }
 
   return (
-    <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
+    <ScrollView className="bg-sepia-200 dark:bg-sepia-800 p-5">
       <View className="flex-row items-center">
         <FontAwesome6
           name="gear"
@@ -142,7 +197,51 @@ export default function Not() {
         ]}
         {...office}
       />
-    </View>
+      <TouchableOpacity
+        onPress={toggleExpand}
+        className="m-3 p-3 bg-sepia-300 dark:bg-sepia-700 text-sepia-700 dark:text-sepia-300"
+      >
+        <Text className="text-center font-bold">
+          {isExpanded
+            ? "Esconder lista notificações"
+            : "Mostrar lista de notificações"}
+        </Text>
+      </TouchableOpacity>
+
+      {isExpanded && (
+        <View style={{ marginTop: 10 }}>
+          {scheduledNotifications.length > 0 ? (
+            scheduledNotifications
+              .sort(
+                (a, b) =>
+                  a.trigger.hour - b.trigger.hour ||
+                  a.trigger.weekday - b.trigger.weekday,
+              )
+              .map((notification) => (
+                <View
+                  key={notification.identifier}
+                  style={{
+                    padding: 10,
+                    borderBottomWidth: 1,
+                    borderColor: "#ccc",
+                  }}
+                >
+                  <Text>Name: {notification.content.title}</Text>
+                  {notification.content.body && (
+                    <Text>Corpo: {notification.content.body}</Text>
+                  )}
+                  <Text>Hora: {notification.trigger.hour}</Text>
+                  {notification.trigger.weekday && (
+                    <Text>Dia da semana: {notification.trigger.weekday}</Text>
+                  )}
+                </View>
+              ))
+          ) : (
+            <Text>Sem notificações agendadas.</Text>
+          )}
+        </View>
+      )}
+    </ScrollView>
   );
 }
 

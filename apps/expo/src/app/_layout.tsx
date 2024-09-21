@@ -7,6 +7,7 @@ import {
   Lusitana_700Bold,
 } from "@expo-google-fonts/lusitana";
 import { useFonts } from "expo-font";
+import * as Updates from "expo-updates";
 import { useColorScheme } from "nativewind";
 import { useEffect } from "react";
 
@@ -35,6 +36,31 @@ export default function RootLayout() {
       SplashScreen.hideAsync();
     }
   }, [loaded, error]);
+
+  useEffect(() => {
+    async function checkForUpdates() {
+      if (__DEV__) {
+        console.log("Update checking is disabled in development mode.");
+        return;
+      }
+
+      if (Updates.checkForUpdateAsync() === undefined) {
+        console.log("Updates module is not available.");
+        return;
+      }
+
+      try {
+        const update = await Updates.checkForUpdateAsync();
+        if (update.isAvailable) {
+          await Updates.fetchUpdateAsync();
+          await Updates.reloadAsync();
+        }
+      } catch (error) {
+        console.error("Error checking for updates:", error);
+      }
+    }
+    checkForUpdates();
+  }, []);
 
   if (!loaded && Platform.OS !== "web") {
     return <ActivityIndicator />;

@@ -15,7 +15,7 @@ const OFFICE_HOURS = [
 ];
 
 export const useOffice = (): NotificationPreference => {
-  const [enabled, setEnabled] = useState(true);
+  const [enabled, setEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const scheduleOffice = async () => {

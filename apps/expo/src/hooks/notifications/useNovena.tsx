@@ -1,8 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
-import type { Mass } from "@tesourofieis/cal/observanceManager";
+import { getNovenas } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
-import { addDays, subDays } from "date-fns";
+import { differenceInDays } from "date-fns";
 import * as Notifications from "expo-notifications";
 import { useCallback, useState } from "react";
 import { type NotificationPreference, STORAGE_KEYS } from "./types";
@@ -10,38 +9,34 @@ import { type NotificationPreference, STORAGE_KEYS } from "./types";
 const NOVENA = { hour: 20, minute: 0 };
 
 export const useNovena = (): NotificationPreference => {
-  const [enabled, setEnabled] = useState(true);
+  const [enabled, setEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const scheduleNovena = async (mass: Mass, date: Date) => {
-    const novenaStartDate = subDays(date, 8);
-
-    for (let i = 0; i < 9; i++) {
-      const notificationDate = addDays(novenaStartDate, i);
-      await Notifications.scheduleNotificationAsync({
-        content: {
-          title: `🙏 Novena: ${mass.name}`,
-          body: `Dia ${i + 1} da Novena`,
-          data: { url: "devocionario/novenas" },
-        },
-        trigger: {
-          date: notificationDate,
-          hour: NOVENA.hour,
-          minute: NOVENA.minute,
-        },
-      });
-    }
-  };
-
-  const scheduleNovenasForWeek = async () => {
+  const scheduleNovenas = async () => {
     const today = new Date();
-    for (let i = 0; i < 7; i++) {
-      const date = addDays(today, i);
-      const calendar = getCalendarDay(yyyyMMDD(date));
-      const novenaObservance = calendar.mass.find((m) => m.novena);
+    const novenas = getNovenas(yyyyMMDD(today));
+    if (novenas) {
+      for (const novena of novenas) {
+        const novenaDate = new Date(novena.date);
+        if (novenaDate >= today) {
+          const dayDifference = differenceInDays(novenaDate, today);
+          const novenaDay = 9 - dayDifference;
 
-      if (novenaObservance) {
-        await scheduleNovena(novenaObservance, date);
+          if (novenaDay > 0 && novenaDay <= 9) {
+            await Notifications.scheduleNotificationAsync({
+              content: {
+                title: "🙏 Novena",
+                body: `Dia ${novenaDay} da novena de ${novena.name}`,
+                data: { url: "devocionario/novenas" },
+              },
+              trigger: {
+                date: novenaDate,
+                hour: NOVENA.hour,
+                minute: NOVENA.minute,
+              },
+            });
+          }
+        }
       }
     }
   };
@@ -50,7 +45,7 @@ export const useNovena = (): NotificationPreference => {
     const scheduledNotifications =
       await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
-      if (notification.content.title?.startsWith("🙏 Novena:")) {
+      if (notification.content.title?.startsWith("🙏 Novena")) {
         await Notifications.cancelScheduledNotificationAsync(
           notification.identifier,
         );
@@ -69,7 +64,7 @@ export const useNovena = (): NotificationPreference => {
         newEnabled.toString(),
       );
       if (newEnabled) {
-        await scheduleNovenasForWeek();
+        await scheduleNovenas();
       } else {
         await cancelNovenas();
       }
