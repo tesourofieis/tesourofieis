@@ -90,7 +90,11 @@ export default function Not() {
           color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
         />
         <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
-          Configure Notificações
+          Configurar Notificações
+        </Text>
+
+        <Text className="text-sm text-center text-sepia-200 px-3 py-1 rounded-full bg-red-800">
+          Beta
         </Text>
       </View>
 
@@ -186,11 +190,11 @@ const NotificationToggle = ({
           </View>
         </View>
       </View>
-      <View className="flex-row items-center ml-5">
+      <View className="flex-row flex-wrap items-center ml-5">
         {times.map((time) => (
           <Text
             key={time}
-            className="text-sm text-center text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900"
+            className="text-sm text-center text-sepia-200 ml-2 mt-2 px-2 py-1 rounded-full bg-sepia-900"
           >
             {time}
           </Text>
