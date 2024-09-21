@@ -44,7 +44,7 @@ function prepareMassNotification(date: Date) {
 const MASS = { hour: 7, minute: 0 };
 
 export const useMass = (): NotificationPreference => {
-  const [enabled, setEnabled] = useState(true);
+  const [enabled, setEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const scheduleMassForWeek = async () => {
