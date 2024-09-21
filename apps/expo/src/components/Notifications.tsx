@@ -9,6 +9,7 @@ import {
   Platform,
   Switch,
   Text,
+  TouchableOpacity,
   View,
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
@@ -18,6 +19,8 @@ export default function Not() {
   const router = useRouter();
   const { colorScheme } = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);
+  const [scheduledNotifications, setScheduledNotifications] = useState([]);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const { angelus, mass, novena, office } = useNotifications();
 
@@ -36,14 +39,28 @@ export default function Not() {
     return () => subscription.remove();
   }, [router]);
 
+  useEffect(() => {
+    loadScheduledNotifications();
+  }, []);
+
   const checkNotificationPermissions = async () => {
     const { status } = await Notifications.getPermissionsAsync();
     setNotificationsPermission(status);
   };
 
+  const loadScheduledNotifications = async () => {
+    const notifications =
+      await Notifications.getAllScheduledNotificationsAsync();
+    setScheduledNotifications(notifications);
+  };
+
   const requestNotificationPermissions = async () => {
     const { status } = await Notifications.requestPermissionsAsync();
     setNotificationsPermission(status);
+  };
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
   };
 
   if (Platform.OS === "web") {
@@ -142,6 +159,48 @@ export default function Not() {
         ]}
         {...office}
       />
+      <TouchableOpacity
+        onPress={toggleExpand}
+        style={{
+          marginTop: 10,
+          padding: 10,
+          backgroundColor: "#ccc",
+          borderRadius: 5,
+        }}
+      >
+        <Text style={{ textAlign: "center", fontWeight: "bold" }}>
+          {isExpanded
+            ? "Hide Scheduled Notifications"
+            : "Show Scheduled Notifications"}
+        </Text>
+      </TouchableOpacity>
+
+      {isExpanded && (
+        <View style={{ marginTop: 10, maxHeight: 300 }}>
+          {scheduledNotifications.length > 0 ? (
+            scheduledNotifications.map((notification) => (
+              <View
+                key={notification.identifier}
+                style={{
+                  padding: 10,
+                  borderBottomWidth: 1,
+                  borderColor: "#ccc",
+                }}
+              >
+                <Text style={{ fontWeight: "bold" }}>
+                  ID: {notification.identifier}
+                </Text>
+                <Text>Title: {notification.content.title}</Text>
+                <Text>Body: {notification.content.body}</Text>
+                <Text>Data: {JSON.stringify(notification.content.data)}</Text>
+                <Text>Trigger: {JSON.stringify(notification.trigger)}</Text>
+              </View>
+            ))
+          ) : (
+            <Text>No scheduled notifications.</Text>
+          )}
+        </View>
+      )}
     </View>
   );
 }
