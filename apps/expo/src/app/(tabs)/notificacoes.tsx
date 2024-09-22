@@ -43,19 +43,29 @@ export default function Not() {
             para receber notificações.
           </Text>
 
-          <View className="flex-row items-center justify-center gap-5">
+          <View className="flex-row items-center justify-center gap-5 mt-3">
             <Link
               className="bg-sepia-500 p-3"
               href="https://apps.apple.com/no/app/tesouro-dos-fi%C3%A9is/id6689521725"
             >
-              iOS
+              iOS{" "}
+              <FontAwesome6
+                name="apple"
+                size={15}
+                color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
+              />
             </Link>
 
             <Link
               className="bg-sepia-500 p-3"
               href="https://play.google.com/store/apps/details?id=com.tesourofieis.app"
             >
-              Android
+              Android{" "}
+              <FontAwesome6
+                name="android"
+                size={15}
+                color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
+              />
             </Link>
           </View>
         </View>
@@ -226,18 +236,26 @@ export default function Not() {
                     borderColor: "#ccc",
                   }}
                 >
-                  <Text>Name: {notification.content.title}</Text>
+                  <Text className="text-sepia-800 dark:text-sepia-200">
+                    Name: {notification.content.title}
+                  </Text>
                   {notification.content.body && (
                     <Text>Corpo: {notification.content.body}</Text>
                   )}
-                  <Text>Hora: {notification.trigger.hour}</Text>
+                  <Text className="text-sepia-800 dark:text-sepia-200">
+                    Hora: {notification.trigger.hour}
+                  </Text>
                   {notification.trigger.weekday && (
-                    <Text>Dia da semana: {notification.trigger.weekday}</Text>
+                    <Text className="text-sepia-800 dark:text-sepia-200">
+                      Dia da semana: {notification.trigger.weekday}
+                    </Text>
                   )}
                 </View>
               ))
           ) : (
-            <Text>Sem notificações agendadas.</Text>
+            <Text className="text-sepia-800 dark:text-sepia-200">
+              Sem notificações agendadas.
+            </Text>
           )}
         </View>
       )}

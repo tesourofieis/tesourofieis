@@ -67,5 +67,5 @@ export const useAngelus = (): NotificationPreference => {
     }
   }, [enabled]);
 
-  return { enabled, loading, toggle };
+  return { enabled, setEnabled, loading, toggle };
 };

@@ -1,7 +1,9 @@
 export interface NotificationPreference {
   enabled: boolean;
+  setEnabled: React.Dispatch<React.SetStateAction<boolean>>;
   loading: boolean;
   toggle: () => Promise<void>;
+  schedule?: () => Promise<void>;
 }
 
 export interface NotificationHookResult {

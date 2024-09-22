@@ -16,6 +16,7 @@ import "react-native-reanimated";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { ActivityIndicator, Platform, Text, View } from "react-native";
+import { useNotifications } from "~/hooks/useNotifications";
 import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
@@ -30,6 +31,19 @@ export default function RootLayout() {
     Black: require("../../assets/fonts/Geist-UltraBlack.ttf"),
     ...FontAwesome6.font,
   });
+
+  const { mass, novena } = useNotifications();
+
+  useEffect(() => {
+    if (Platform.OS !== "web") {
+      const initializeNotifications = async () => {
+        if (mass.enabled) mass.schedule();
+        if (novena.enabled) novena.schedule();
+      };
+
+      initializeNotifications();
+    }
+  }, [mass, novena]);
 
   useEffect(() => {
     if (loaded || error) {

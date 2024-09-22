@@ -28,11 +28,10 @@ export const useNotifications = (): NotificationHookResult => {
         AsyncStorage.getItem(STORAGE_KEYS.NOVENA_ENABLED),
         AsyncStorage.getItem(STORAGE_KEYS.OFFICE_ENABLED),
       ]);
-
-      angelus.enabled = angelusEnabledStr !== "false";
-      mass.enabled = massEnabledStr !== "false";
-      novena.enabled = novenaEnabledStr !== "false";
-      office.enabled = officeEnabledStr !== "false";
+      angelus.setEnabled(angelusEnabledStr !== "false");
+      mass.setEnabled(massEnabledStr !== "false");
+      novena.setEnabled(novenaEnabledStr !== "false");
+      office.setEnabled(officeEnabledStr !== "false");
     } catch (error) {
       console.error("Error loading preferences:", error);
     }
@@ -41,11 +40,9 @@ export const useNotifications = (): NotificationHookResult => {
   useEffect(() => {
     const initializeNotifications = async () => {
       await loadPreferences();
-      // You might want to add logic here to schedule or cancel notifications based on the loaded preferences
     };
-
     initializeNotifications();
   }, [loadPreferences]);
 
-  return { angelus, mass: mass, novena, office };
+  return { angelus, mass, novena, office };
 };

@@ -12,8 +12,12 @@ export const useNovena = (): NotificationPreference => {
   const [enabled, setEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const scheduleNovenas = async () => {
+  const schedule = async () => {
     const today = new Date();
+
+    // clear old notifications
+    await cancelNovenas();
+
     const novenas = getNovenas(yyyyMMDD(today));
     if (novenas) {
       for (const novena of novenas) {
@@ -64,7 +68,7 @@ export const useNovena = (): NotificationPreference => {
         newEnabled.toString(),
       );
       if (newEnabled) {
-        await scheduleNovenas();
+        await schedule();
       } else {
         await cancelNovenas();
       }
@@ -75,5 +79,5 @@ export const useNovena = (): NotificationPreference => {
     }
   }, [enabled]);
 
-  return { enabled, loading, toggle };
+  return { enabled, setEnabled, loading, toggle, schedule };
 };

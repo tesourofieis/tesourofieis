@@ -47,9 +47,12 @@ export const useMass = (): NotificationPreference => {
   const [enabled, setEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const scheduleMassForWeek = async () => {
+  const schedule = async () => {
     const today = new Date();
     const currentDay = today.getDay();
+
+    // clear old notification
+    await cancelMass();
 
     const notificationPromises = [];
 
@@ -100,7 +103,7 @@ export const useMass = (): NotificationPreference => {
         newEnabled.toString(),
       );
       if (newEnabled) {
-        await scheduleMassForWeek();
+        await schedule();
       } else {
         await cancelMass();
       }
@@ -111,5 +114,5 @@ export const useMass = (): NotificationPreference => {
     }
   }, [enabled]);
 
-  return { enabled, loading, toggle };
+  return { enabled, setEnabled, loading, toggle, schedule };
 };
