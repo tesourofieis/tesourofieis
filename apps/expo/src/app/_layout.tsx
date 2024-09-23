@@ -32,6 +32,23 @@ export default function RootLayout() {
     ...FontAwesome6.font,
   });
 
+  useEffect(() => {
+    if (loaded || error) {
+      SplashScreen.hideAsync();
+    }
+  }, [loaded, error]);
+
+  if (!loaded && Platform.OS !== "web") {
+    return <ActivityIndicator />;
+  }
+
+  return <RootLayoutNav />;
+}
+
+function RootLayoutNav() {
+  const { colorScheme } = useColorScheme();
+  const isDarkMode = colorScheme === "dark";
+
   const { mass, novena } = useNotifications();
 
   useEffect(() => {
@@ -44,12 +61,6 @@ export default function RootLayout() {
       initializeNotifications();
     }
   }, [mass, novena]);
-
-  useEffect(() => {
-    if (loaded || error) {
-      SplashScreen.hideAsync();
-    }
-  }, [loaded, error]);
 
   useEffect(() => {
     async function checkForUpdates() {
@@ -75,17 +86,6 @@ export default function RootLayout() {
     }
     checkForUpdates();
   }, []);
-
-  if (!loaded && Platform.OS !== "web") {
-    return <ActivityIndicator />;
-  }
-
-  return <RootLayoutNav />;
-}
-
-function RootLayoutNav() {
-  const { colorScheme } = useColorScheme();
-  const isDarkMode = colorScheme === "dark";
 
   const CustomLightTheme = {
     dark: false,

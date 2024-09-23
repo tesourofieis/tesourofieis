@@ -37,7 +37,7 @@ export default function Render() {
   const currentPrayer = getPrayer(currentDate);
 
   return (
-    <ScrollView>
+    <ScrollView className="flex-1">
       <View className="font-serif">
         <View className="bg-sepia-300 dark:bg-sepia-700">
           <Text className="font-serif text-sm p-3 text-center text-sepia-700 dark:text-sepia-300">
