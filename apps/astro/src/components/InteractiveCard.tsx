@@ -2,6 +2,7 @@ import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useEffect, useState } from "react";
 
+import { Icon } from "@iconify/react";
 import LinkCard from "~/components/LinkCard";
 import Calendar from "./Calendar";
 import Novenas from "./Novenas";
@@ -48,13 +49,22 @@ export default function InteractiveCard() {
 
   return (
     <div className="flex flex-col gap-5 rounded border border-sepia-500 p-4 no-underline shadow hover:border-sepia-800 hover:bg-sepia-100 dark:border-sepia-700 dark:hover:border-sepia-600 dark:hover:bg-sepia-900">
-      <div className="not-content flex justify-between">
-        <h2>Dia e Hora</h2>
-      </div>
-      <span className="font-bold">
+      <h2 className="flex items-center mt-2 gap-2">
+        <Icon icon="mdi:calendar" />
+        Hoje
+      </h2>
+
+      <span className="text-center text-sepia-600 dark:text-sepia-400 text-sm pb-3">
         {format(new Date(), "EEEE, MMMM dd", {
           locale: pt,
         })}
+      </span>
+      <Calendar />
+
+      <span className="text-sepia-600 text-center dark:text-sepia-400 text-sm font-bold">
+        {format(new Date(), "HH:mm", {
+          locale: pt,
+        }).toUpperCase()}
       </span>
       <Office />
       <Novenas />
@@ -77,9 +87,6 @@ export default function InteractiveCard() {
           title="Oração da Noite"
         />
       )}
-
-      <h6>Calendário</h6>
-      <Calendar />
     </div>
   );
 }

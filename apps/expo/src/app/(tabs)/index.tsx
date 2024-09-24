@@ -143,7 +143,7 @@ export default function Render() {
               Hoje
             </Text>
           </View>
-          <Text className="font-serif text-sepia-600 dark:text-sepia-400 text-sm pb-3">
+          <Text className="font-serif text-center text-sepia-600 dark:text-sepia-400 text-sm pb-3">
             {format(currentDate, "EEEE, dd MMMM", {
               locale: pt,
             })}
