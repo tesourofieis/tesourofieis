@@ -18,4 +18,6 @@ export const STORAGE_KEYS = {
   DAILY_MASS_ENABLED: "dailyMassEnabled",
   NOVENA_ENABLED: "novenaEnabled",
   OFFICE_ENABLED: "officeEnabled",
+  LAST_NOTIFICATION_REFRESH: "lastnotificationrefresh",
+  SCHEDULED_NOTIFICATIONS: "scheduleNotifications",
 };

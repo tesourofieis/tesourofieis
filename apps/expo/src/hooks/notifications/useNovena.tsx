@@ -7,6 +7,7 @@ import { useCallback, useState } from "react";
 import { type NotificationPreference, STORAGE_KEYS } from "./types";
 
 const NOVENA = { hour: 20, minute: 0 };
+const TITLE = "🙏 Novena";
 
 export const useNovena = (): NotificationPreference => {
   const [enabled, setEnabled] = useState(false);
@@ -14,29 +15,35 @@ export const useNovena = (): NotificationPreference => {
 
   const schedule = async () => {
     const today = new Date();
-
     // clear old notifications
     await cancelNovenas();
-
     const novenas = getNovenas(yyyyMMDD(today));
+
     if (novenas) {
       for (const novena of novenas) {
         const novenaDate = new Date(novena.date);
-        if (novenaDate >= today) {
+        if (novenaDate > today) {
           const dayDifference = differenceInDays(novenaDate, today);
-          const novenaDay = 9 - dayDifference;
 
-          if (novenaDay > 0 && novenaDay <= 9) {
+          // Calculate the current day of the novena
+          const currentNovenaDay = 9 - dayDifference;
+
+          // Schedule notifications for remaining days, starting from today
+          for (let i = currentNovenaDay; i <= 9; i++) {
             await Notifications.scheduleNotificationAsync({
               content: {
-                title: "🙏 Novena",
-                body: `Dia ${novenaDay} da novena de ${novena.name}`,
+                title: TITLE,
+                body: `Dia ${i} da novena de ${novena.name}`,
                 data: { url: "devocionario/novenas" },
               },
               trigger: {
-                date: novenaDate,
-                hour: NOVENA.hour,
-                minute: NOVENA.minute,
+                date: new Date(
+                  today.getFullYear(),
+                  today.getMonth(),
+                  today.getDate() + (i - currentNovenaDay),
+                  NOVENA.hour,
+                  NOVENA.minute,
+                ),
               },
             });
           }
@@ -49,7 +56,7 @@ export const useNovena = (): NotificationPreference => {
     const scheduledNotifications =
       await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
-      if (notification.content.title?.startsWith("🙏 Novena")) {
+      if (notification.content.title?.startsWith(TITLE)) {
         await Notifications.cancelScheduledNotificationAsync(
           notification.identifier,
         );

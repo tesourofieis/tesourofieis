@@ -6,6 +6,8 @@ import * as Notifications from "expo-notifications";
 import { useCallback, useState } from "react";
 import { type NotificationPreference, STORAGE_KEYS } from "./types";
 
+const TITLE = "📅 Missa:";
+
 function getColor(color?: string) {
   switch (color) {
     case "w":
@@ -33,7 +35,7 @@ function prepareMassNotification(date: Date) {
   const other = subTitleParts.map((i) => i.name).join(" | ");
 
   return {
-    title: `📅 ${titleParts ?? other}`,
+    title: `${TITLE} ${titleParts ?? other}`,
     subtitle: titleParts ? other : "",
     body: titleParts ? other : "",
     data: { url: mass[0].link },
@@ -79,12 +81,7 @@ export const useMass = (): NotificationPreference => {
     const scheduledNotifications =
       await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
-      if (
-        // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-        (notification.trigger as any).hour === MASS.hour &&
-        // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-        (notification.trigger as any).minute === MASS.minute
-      ) {
+      if (notification.content.title?.startsWith(TITLE)) {
         await Notifications.cancelScheduledNotificationAsync(
           notification.identifier,
         );

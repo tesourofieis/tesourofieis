@@ -2,9 +2,11 @@ import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { Link } from "expo-router";
+import * as Updates from "expo-updates";
 import { useColorScheme } from "nativewind";
 import React, { useEffect, useState } from "react";
-import { ScrollView, Text, View } from "react-native";
+import { Platform, ScrollView, Text, View } from "react-native";
+import { useNotifications } from "~/hooks/useNotifications";
 
 import Calendar from "~/components/Calendar";
 import LinkCard from "~/components/LinkCard";
@@ -23,6 +25,44 @@ export default function Render() {
     }, 60000); // Update every minute (60000 milliseconds)
 
     return () => clearInterval(timer); // Clean up the timer on component unmount
+  }, []);
+
+  const { mass, novena } = useNotifications();
+
+  useEffect(() => {
+    if (Platform.OS !== "web") {
+      const initializeNotifications = async () => {
+        if (mass.enabled) mass.schedule();
+        if (novena.enabled) novena.schedule();
+      };
+
+      initializeNotifications();
+    }
+  }, [mass, novena]);
+
+  useEffect(() => {
+    async function checkForUpdates() {
+      if (__DEV__) {
+        console.log("Update checking is disabled in development mode.");
+        return;
+      }
+
+      if (Updates.checkForUpdateAsync() === undefined) {
+        console.log("Updates module is not available.");
+        return;
+      }
+
+      try {
+        const update = await Updates.checkForUpdateAsync();
+        if (update.isAvailable) {
+          await Updates.fetchUpdateAsync();
+          await Updates.reloadAsync();
+        }
+      } catch (error) {
+        console.error("Error checking for updates:", error);
+      }
+    }
+    checkForUpdates();
   }, []);
 
   function getPrayer(date: Date) {

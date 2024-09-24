@@ -14,6 +14,8 @@ const OFFICE_HOURS = [
   { name: "Completas", hour: 21, link: "/devocionario/oficio/completas" },
 ];
 
+const TITLE = "🕰️ Hora do Ofício:";
+
 export const useOffice = (): NotificationPreference => {
   const [enabled, setEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -22,7 +24,7 @@ export const useOffice = (): NotificationPreference => {
     for (const office of OFFICE_HOURS) {
       await Notifications.scheduleNotificationAsync({
         content: {
-          title: `🕰️ Hora do Ofício: ${office.name}`,
+          title: `${TITLE} ${office.name}`,
           body: "Pequeno Ofício de Nossa Senhora",
           data: { url: office.link },
           color: "#4CAF50",
@@ -41,7 +43,7 @@ export const useOffice = (): NotificationPreference => {
       await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduledNotifications) {
       console.log(notification);
-      if (notification.content.title?.startsWith("🕰️ Hora do Ofício:")) {
+      if (notification.content.title?.startsWith(TITLE)) {
         await Notifications.cancelScheduledNotificationAsync(
           notification.identifier,
         );

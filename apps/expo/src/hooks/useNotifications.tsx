@@ -15,6 +15,7 @@ export const useNotifications = (): NotificationHookResult => {
   const novena = useNovena();
   const office = useOffice();
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   const loadPreferences = useCallback(async () => {
     try {
       const [
@@ -35,7 +36,7 @@ export const useNotifications = (): NotificationHookResult => {
     } catch (error) {
       console.error("Error loading preferences:", error);
     }
-  }, [angelus, mass, novena, office]);
+  }, []);
 
   useEffect(() => {
     const initializeNotifications = async () => {

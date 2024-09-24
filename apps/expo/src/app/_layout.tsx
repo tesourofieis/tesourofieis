@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@react-navigation/native";
-import { SplashScreen, Stack } from "expo-router";
+import { Stack } from "expo-router";
 
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
 import {
@@ -7,24 +7,21 @@ import {
   Lusitana_700Bold,
 } from "@expo-google-fonts/lusitana";
 import { useFonts } from "expo-font";
-import * as Updates from "expo-updates";
 import { useColorScheme } from "nativewind";
 import { useEffect } from "react";
 
 import "../global.css";
-import "react-native-reanimated";
+
+import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { ActivityIndicator, Platform, Text, View } from "react-native";
-import { useNotifications } from "~/hooks/useNotifications";
 import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
 
-export { ErrorBoundary } from "expo-router";
-
 export default function RootLayout() {
-  const [loaded, error] = useFonts({
+  const [loaded] = useFonts({
     Serif: Lusitana_400Regular,
     Display: BerkshireSwash_400Regular,
     Bold: Lusitana_700Bold,
@@ -33,10 +30,10 @@ export default function RootLayout() {
   });
 
   useEffect(() => {
-    if (loaded || error) {
+    if (loaded) {
       SplashScreen.hideAsync();
     }
-  }, [loaded, error]);
+  }, [loaded]);
 
   if (!loaded && Platform.OS !== "web") {
     return <ActivityIndicator />;
@@ -48,44 +45,6 @@ export default function RootLayout() {
 function RootLayoutNav() {
   const { colorScheme } = useColorScheme();
   const isDarkMode = colorScheme === "dark";
-
-  const { mass, novena } = useNotifications();
-
-  useEffect(() => {
-    if (Platform.OS !== "web") {
-      const initializeNotifications = async () => {
-        if (mass.enabled) mass.schedule();
-        if (novena.enabled) novena.schedule();
-      };
-
-      initializeNotifications();
-    }
-  }, [mass, novena]);
-
-  useEffect(() => {
-    async function checkForUpdates() {
-      if (__DEV__) {
-        console.log("Update checking is disabled in development mode.");
-        return;
-      }
-
-      if (Updates.checkForUpdateAsync() === undefined) {
-        console.log("Updates module is not available.");
-        return;
-      }
-
-      try {
-        const update = await Updates.checkForUpdateAsync();
-        if (update.isAvailable) {
-          await Updates.fetchUpdateAsync();
-          await Updates.reloadAsync();
-        }
-      } catch (error) {
-        console.error("Error checking for updates:", error);
-      }
-    }
-    checkForUpdates();
-  }, []);
 
   const CustomLightTheme = {
     dark: false,

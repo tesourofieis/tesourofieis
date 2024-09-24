@@ -9,6 +9,8 @@ const ANGELUS = [
   { hour: 18, minute: 0 },
 ];
 
+const TITLE = "🔔 Hora do Angelus";
+
 export const useAngelus = (): NotificationPreference => {
   const [enabled, setEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -17,7 +19,7 @@ export const useAngelus = (): NotificationPreference => {
     for (const time of ANGELUS) {
       await Notifications.scheduleNotificationAsync({
         content: {
-          title: "🔔 Hora do Angelus",
+          title: TITLE,
           data: { url: "devocionario/dia/angelus" },
           color: "#2196f3",
         },
@@ -36,7 +38,7 @@ export const useAngelus = (): NotificationPreference => {
     for (const notification of scheduledNotifications) {
       if (
         // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-        ANGELUS.some((time) => time.hour === (notification.trigger as any).hour)
+        notification.content.title?.startsWith(TITLE)
       ) {
         await Notifications.cancelScheduledNotificationAsync(
           notification.identifier,
