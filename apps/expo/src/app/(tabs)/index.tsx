@@ -5,8 +5,7 @@ import { Link } from "expo-router";
 import * as Updates from "expo-updates";
 import { useColorScheme } from "nativewind";
 import React, { useEffect, useState } from "react";
-import { Platform, ScrollView, Text, View } from "react-native";
-import { useNotifications } from "~/hooks/useNotifications";
+import { ScrollView, Text, View } from "react-native";
 
 import Calendar from "~/components/Calendar";
 import LinkCard from "~/components/LinkCard";
@@ -26,19 +25,6 @@ export default function Render() {
 
     return () => clearInterval(timer); // Clean up the timer on component unmount
   }, []);
-
-  const { mass, novena } = useNotifications();
-
-  useEffect(() => {
-    if (Platform.OS !== "web") {
-      const initializeNotifications = async () => {
-        if (mass.enabled) mass.schedule();
-        if (novena.enabled) novena.schedule();
-      };
-
-      initializeNotifications();
-    }
-  }, [mass, novena]);
 
   useEffect(() => {
     async function checkForUpdates() {
