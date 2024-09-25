@@ -23,7 +23,7 @@ export default function Not() {
   const [scheduledNotifications, setScheduledNotifications] = useState([]);
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const { notificationPrefs, toggleNotification } = useNotifications();
+  const { notificationPrefs, setNotificationPref } = useNotifications();
 
   useEffect(() => {
     const subscription = Notifications.addNotificationResponseReceivedListener(
@@ -172,8 +172,9 @@ export default function Not() {
         description="Receba o toque das Trindades"
         times={["6:00", "12:00", "18:00"]}
         enabled={notificationPrefs.ANGELUS.enabled}
-        loading={notificationPrefs.ANGELUS.loading}
-        toggle={() => toggleNotification("ANGELUS")}
+        toggle={() =>
+          setNotificationPref("ANGELUS", !notificationPrefs.ANGELUS.enabled)
+        }
       />
 
       <NotificationToggle
@@ -182,8 +183,9 @@ export default function Not() {
         description="Receba informações sobre as celebrações e comemorações do dia."
         times={["7:00"]}
         enabled={notificationPrefs.MASS.enabled}
-        loading={notificationPrefs.MASS.loading}
-        toggle={() => toggleNotification("MASS")}
+        toggle={() =>
+          setNotificationPref("MASS", !notificationPrefs.MASS.enabled)
+        }
       />
 
       <NotificationToggle
@@ -192,8 +194,9 @@ export default function Not() {
         description="Receba alertas nos dias de novena."
         times={["20:00"]}
         enabled={notificationPrefs.NOVENA.enabled}
-        loading={notificationPrefs.NOVENA.loading}
-        toggle={() => toggleNotification("NOVENA")}
+        toggle={() =>
+          setNotificationPref("NOVENA", !notificationPrefs.NOVENA.enabled)
+        }
       />
 
       <NotificationToggle
@@ -211,8 +214,9 @@ export default function Not() {
           "21:00",
         ]}
         enabled={notificationPrefs.OFFICE.enabled}
-        loading={notificationPrefs.OFFICE.loading}
-        toggle={() => toggleNotification("OFFICE")}
+        toggle={() =>
+          setNotificationPref("OFFICE", !notificationPrefs.OFFICE.enabled)
+        }
       />
 
       <TouchableOpacity
@@ -277,13 +281,12 @@ const NotificationToggle = ({
   description,
   times,
   enabled,
-  loading,
   toggle,
 }) => {
   const { colorScheme } = useColorScheme();
   return (
     <View className="py-3">
-      <Text>{JSON.stringify({ enabled, loading, toggle }, null, 2)}</Text>
+      <Text>{JSON.stringify({ enabled, toggle }, null, 2)}</Text>
       <View className="my-1 py-1">
         <View className="flex flex-row items-center justify-between">
           <FontAwesome6
@@ -300,19 +303,14 @@ const NotificationToggle = ({
             </Text>
           </View>
           <View className="ml-3">
-            {loading ? (
-              <ActivityIndicator color={COLORS["400"]} />
-            ) : (
-              <Switch
-                trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
-                thumbColor={enabled ? COLORS["200"] : COLORS["500"]}
-                ios_backgroundColor="#3e3e3e"
-                onValueChange={toggle}
-                value={enabled}
-                disabled={loading}
-                accessibilityLabel={`Toggle ${title.toLowerCase()} notifications`}
-              />
-            )}
+            <Switch
+              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+              thumbColor={enabled ? COLORS["200"] : COLORS["500"]}
+              ios_backgroundColor="#3e3e3e"
+              onValueChange={toggle}
+              value={enabled}
+              accessibilityLabel={`Toggle ${title.toLowerCase()} notifications`}
+            />
           </View>
         </View>
       </View>

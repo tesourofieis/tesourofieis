@@ -3,14 +3,12 @@ import { getCalendarDay, getNovenas } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { addDays, differenceInDays } from "date-fns";
 import * as Notifications from "expo-notifications";
-import type { NotificationRequest } from "expo-notifications";
 import {
   createContext,
   useCallback,
   useContext,
   useEffect,
   useState,
-  useMemo,
 } from "react";
 
 const NOTIFICATIONS = {
@@ -98,17 +96,23 @@ function prepareMassNotification(date: Date) {
   };
 }
 
-type NotificationPreference = {
+interface NotificationPreference {
   enabled: boolean;
-  loading: boolean;
-};
+}
+
+interface NotificationPreferences {
+  ANGELUS: NotificationPreference;
+  MASS: NotificationPreference;
+  NOVENA: NotificationPreference;
+  OFFICE: NotificationPreference;
+}
 
 type NotificationsContextType = {
-  notifications: Record<string, NotificationRequest>;
-  scheduleNotification: (notification: NotificationRequest) => Promise<void>;
-  cancelAllNotifications: () => Promise<void>;
-  toggleNotification: (key: keyof typeof NOTIFICATIONS) => Promise<void>;
-  notificationPrefs: Record<keyof typeof NOTIFICATIONS, NotificationPreference>;
+  notificationPrefs: NotificationPreferences;
+  setNotificationPref: (
+    key: keyof NotificationPreferences,
+    enabled: boolean
+  ) => Promise<void>;
 };
 
 const NotificationsContext = createContext<
@@ -116,75 +120,58 @@ const NotificationsContext = createContext<
 >(undefined);
 
 export function NotificationsProvider({ children }: React.PropsWithChildren) {
-  const [notifications, setNotifications] = useState<
-    Record<string, NotificationRequest>
-  >({});
-  const [notificationPrefs, setNotificationPrefs] = useState<
-    Record<keyof typeof NOTIFICATIONS, NotificationPreference>
-  >(
-    Object.keys(NOTIFICATIONS).reduce(
-      (acc, key) => ({
-        ...acc,
-        [key]: { enabled: false, loading: false },
-      }),
-      {} as Record<keyof typeof NOTIFICATIONS, NotificationPreference>
-    )
-  );
+  const [notificationPrefs, setNotificationPrefs] =
+    useState<NotificationPreferences>(() => {
+      const defaultPrefs: NotificationPreferences = {
+        ANGELUS: { enabled: false },
+        MASS: { enabled: false },
+        NOVENA: { enabled: false },
+        OFFICE: { enabled: false },
+      };
 
-  const loadNotifications = useCallback(async () => {
-    const scheduledNotifications =
-      await Notifications.getAllScheduledNotificationsAsync();
-    const notificationsMap = scheduledNotifications.reduce(
-      (acc, notification) => ({
-        ...acc,
-        [notification.identifier]: notification,
-      }),
-      {} as Record<string, NotificationRequest>
-    );
-    setNotifications(notificationsMap);
-  }, []);
+      // Load preferences from AsyncStorage
+      Object.keys(defaultPrefs).forEach(async (key) => {
+        const storedValue = await AsyncStorage.getItem(key);
+        if (storedValue !== null) {
+          setNotificationPrefs((prev) => ({
+            ...prev,
+            [key]: { enabled: storedValue === "true" },
+          }));
+        }
+      });
+
+      return defaultPrefs;
+    });
 
   const scheduleNotification = useCallback(
-    async (notification: NotificationRequest) => {
-      const { identifier, content, trigger } = notification;
-      const scheduledNotification =
-        await Notifications.scheduleNotificationAsync({
-          content,
-          trigger: trigger as Notifications.NotificationTriggerInput,
-        });
-      setNotifications((prev) => ({
-        ...prev,
-        [identifier]: scheduledNotification,
-      }));
+    async (notification: Notifications.NotificationRequestInput) => {
+      await Notifications.scheduleNotificationAsync(notification);
     },
     []
   );
 
-  const cancelAllNotifications = useCallback(async () => {
-    const enabledKeys = Object.keys(NOTIFICATIONS).filter(
-      (key) => notificationPrefs[key]?.enabled
-    );
-
-    console.error(enabledKeys);
-
-    const scheduledNotifications =
-      await Notifications.getAllScheduledNotificationsAsync();
-    for (const notification of scheduledNotifications) {
-      if (!enabledKeys.includes(notification.content.title.split(" ")[0])) {
-        await Notifications.cancelScheduledNotificationAsync(
-          notification.identifier
-        );
+  const cancelNotifications = useCallback(
+    async (key: keyof typeof NOTIFICATIONS) => {
+      const scheduledNotifications =
+        await Notifications.getAllScheduledNotificationsAsync();
+      for (const notification of scheduledNotifications) {
+        if (notification.content.title.startsWith(NOTIFICATIONS[key].title)) {
+          await Notifications.cancelScheduledNotificationAsync(
+            notification.identifier
+          );
+        }
       }
-    }
-  }, []);
+    },
+    []
+  );
 
   const scheduleAngelus = useCallback(async () => {
     for (const time of NOTIFICATIONS.ANGELUS.times) {
       await scheduleNotification({
         content: {
           title: NOTIFICATIONS.ANGELUS.title,
-          data: { url: "devocionario/dia/angelus" },
-          color: "#2196f3",
+          data: { url: NOTIFICATIONS.ANGELUS.link },
+          color: NOTIFICATIONS.ANGELUS.color,
         },
         trigger: { hour: time.hour, minute: time.minute, repeats: true },
       });
@@ -255,18 +242,21 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     }
   }, [scheduleNotification]);
 
-  const toggleNotification = useCallback(
-    async (key: keyof typeof NOTIFICATIONS) => {
+  const setNotificationPref = useCallback(
+    async (key: keyof NotificationPreferences, enabled: boolean) => {
+      await AsyncStorage.setItem(key, enabled.toString());
       setNotificationPrefs((prev) => ({
         ...prev,
-        [key]: { ...prev[key], loading: true },
+        [key]: { enabled },
       }));
+    },
+    []
+  );
 
-      try {
-        const newEnabled = !((await AsyncStorage.getItem(key)) === "true");
-        await AsyncStorage.setItem(key, newEnabled.toString());
-
-        if (newEnabled) {
+  useEffect(() => {
+    const syncNotifications = async () => {
+      for (const [key, pref] of Object.entries(notificationPrefs)) {
+        if (pref.enabled) {
           switch (key) {
             case "ANGELUS":
               await scheduleAngelus();
@@ -282,68 +272,18 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
               break;
           }
         } else {
-          await cancelAllNotifications();
+          await cancelNotifications(key as keyof typeof NOTIFICATIONS);
         }
-
-        setNotificationPrefs((prev) => ({
-          ...prev,
-          [key]: { enabled: newEnabled, loading: false },
-        }));
-      } catch (error) {
-        console.error(`Error toggling ${key} notifications:`, error);
-        setNotificationPrefs((prev) => ({
-          ...prev,
-          [key]: { ...prev[key], loading: false },
-        }));
       }
-    },
-    [
-      cancelAllNotifications,
-      scheduleAngelus,
-      scheduleMass,
-      scheduleNovena,
-      scheduleOffice,
-    ]
-  );
-
-  useEffect(() => {
-    const initializeNotifications = async () => {
-      await cancelAllNotifications();
-      await loadNotifications();
-      const prefs = await Promise.all(
-        Object.keys(NOTIFICATIONS).map(async (key) => {
-          const enabledStr = await AsyncStorage.getItem(key);
-          return [key, { enabled: enabledStr !== "false", loading: false }];
-        })
-      );
-      const prefsMap = Object.fromEntries(prefs);
-      setNotificationPrefs(
-        prefsMap as Record<keyof typeof NOTIFICATIONS, NotificationPreference>
-      );
     };
 
-    initializeNotifications();
-  }, [cancelAllNotifications, loadNotifications]);
-
-  const contextValue = useMemo(
-    () => ({
-      notifications,
-      scheduleNotification,
-      cancelAllNotifications,
-      toggleNotification,
-      notificationPrefs,
-    }),
-    [
-      notifications,
-      scheduleNotification,
-      cancelAllNotifications,
-      toggleNotification,
-      notificationPrefs,
-    ]
-  );
+    syncNotifications();
+  }, [notificationPrefs]);
 
   return (
-    <NotificationsContext.Provider value={contextValue}>
+    <NotificationsContext.Provider
+      value={{ notificationPrefs, setNotificationPref }}
+    >
       {children}
     </NotificationsContext.Provider>
   );
