@@ -3,7 +3,13 @@ import { getCalendar, getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { addDays, getYear, isWithinInterval, parseISO } from "date-fns";
-import { type PropsWithChildren, createContext, useContext } from "react";
+import {
+  type PropsWithChildren,
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
 const CalendarContext = createContext<{
   calendar: Day[];
@@ -14,12 +20,14 @@ const CalendarContext = createContext<{
 
 export function CalendarProvider({ children }: PropsWithChildren) {
   const date = new Date();
+  const [novenas, setNovenas] = useState<Mass[]>();
 
   const calendar = getCalendar(getYear(date));
   const day = getCalendarDay(yyyyMMDD(date));
   const mass = day.mass;
 
-  function getNovenas() {
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  useEffect(() => {
     const endDate = addDays(date, 9);
     const novenaObservances: Mass[] = [];
 
@@ -31,13 +39,11 @@ export function CalendarProvider({ children }: PropsWithChildren) {
       }
     }
 
-    return novenaObservances;
-  }
+    setNovenas(novenaObservances);
+  }, [calendar]);
 
   return (
-    <CalendarContext.Provider
-      value={{ mass, day, calendar, novenas: getNovenas() }}
-    >
+    <CalendarContext.Provider value={{ mass, day, calendar, novenas }}>
       {children}
     </CalendarContext.Provider>
   );
