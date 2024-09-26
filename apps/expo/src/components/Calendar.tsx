@@ -1,13 +1,11 @@
 import { ActivityIndicator } from "react-native";
 
-import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
-import { yyyyMMDD } from "@tesourofieis/cal/utils";
-
 import { COLORS } from "~/constants/Colors";
+import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
 export default function Calendar() {
-  const day = getCalendarDay(yyyyMMDD(new Date()));
+  const { day } = useCalendar();
 
   if (!day) return <ActivityIndicator color={COLORS["500"]} />;
 

@@ -4,7 +4,6 @@ import { Link, useRouter } from "expo-router";
 import { useColorScheme } from "nativewind";
 import { useEffect, useState } from "react";
 import {
-  ActivityIndicator,
   Button,
   Platform,
   ScrollView,
@@ -14,14 +13,44 @@ import {
   View,
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
-import { useNotifications } from "~/hooks/useNotifications";
+import { useNotifications } from "~/providers/notifications";
 
 export default function Not() {
   const router = useRouter();
   const { colorScheme } = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);
-  const [scheduledNotifications, setScheduledNotifications] = useState([]);
   const [isExpanded, setIsExpanded] = useState(false);
+
+  const { notificationPrefs, setNotificationPref, list } = useNotifications();
+
+  useEffect(() => {
+    const subscription = Notifications.addNotificationResponseReceivedListener(
+      (response) => {
+        const url = response.notification.request.content.data.url;
+        if (url) {
+          router.push(`/modal?url=${url}`);
+        }
+      },
+    );
+
+    checkNotificationPermissions();
+
+    return () => subscription.remove();
+  }, [router]);
+
+  const checkNotificationPermissions = async () => {
+    const { status } = await Notifications.getPermissionsAsync();
+    setNotificationsPermission(status);
+  };
+
+  const requestNotificationPermissions = async () => {
+    const { status } = await Notifications.requestPermissionsAsync();
+    setNotificationsPermission(status);
+  };
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
 
   if (Platform.OS === "web") {
     return (
@@ -72,48 +101,6 @@ export default function Not() {
       </View>
     );
   }
-
-  const { angelus, mass, novena, office } = useNotifications();
-
-  useEffect(() => {
-    const subscription = Notifications.addNotificationResponseReceivedListener(
-      (response) => {
-        const url = response.notification.request.content.data.url;
-        if (url) {
-          router.push(`/modal?url=${url}`);
-        }
-      },
-    );
-
-    checkNotificationPermissions();
-
-    return () => subscription.remove();
-  }, [router]);
-
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
-  useEffect(() => {
-    loadScheduledNotifications();
-  }, [angelus, mass, novena, office]);
-
-  const checkNotificationPermissions = async () => {
-    const { status } = await Notifications.getPermissionsAsync();
-    setNotificationsPermission(status);
-  };
-
-  const loadScheduledNotifications = async () => {
-    const notifications =
-      await Notifications.getAllScheduledNotificationsAsync();
-    setScheduledNotifications(notifications);
-  };
-
-  const requestNotificationPermissions = async () => {
-    const { status } = await Notifications.requestPermissionsAsync();
-    setNotificationsPermission(status);
-  };
-
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
 
   if (notificationsPermission !== "granted") {
     return (
@@ -172,7 +159,10 @@ export default function Not() {
         icon="bell"
         description="Receba o toque das Trindades"
         times={["6:00", "12:00", "18:00"]}
-        {...angelus}
+        enabled={notificationPrefs.ANGELUS.enabled}
+        toggle={() =>
+          setNotificationPref("ANGELUS", !notificationPrefs.ANGELUS.enabled)
+        }
       />
 
       <NotificationToggle
@@ -180,7 +170,10 @@ export default function Not() {
         icon="calendar"
         description="Receba informações sobre as celebrações e comemorações do dia."
         times={["7:00"]}
-        {...mass}
+        enabled={notificationPrefs.MASS.enabled}
+        toggle={() =>
+          setNotificationPref("MASS", !notificationPrefs.MASS.enabled)
+        }
       />
 
       <NotificationToggle
@@ -188,7 +181,10 @@ export default function Not() {
         icon="circle"
         description="Receba alertas nos dias de novena."
         times={["20:00"]}
-        {...novena}
+        enabled={notificationPrefs.NOVENA.enabled}
+        toggle={() =>
+          setNotificationPref("NOVENA", !notificationPrefs.NOVENA.enabled)
+        }
       />
 
       <NotificationToggle
@@ -205,8 +201,12 @@ export default function Not() {
           "18:00",
           "21:00",
         ]}
-        {...office}
+        enabled={notificationPrefs.OFFICE.enabled}
+        toggle={() =>
+          setNotificationPref("OFFICE", !notificationPrefs.OFFICE.enabled)
+        }
       />
+
       <TouchableOpacity
         onPress={toggleExpand}
         className="m-3 p-3 bg-sepia-300 dark:bg-sepia-700 text-sepia-700 dark:text-sepia-300"
@@ -220,8 +220,8 @@ export default function Not() {
 
       {isExpanded && (
         <View style={{ marginTop: 10 }}>
-          {scheduledNotifications.length > 0 ? (
-            scheduledNotifications
+          {list.length > 0 ? (
+            list
               .sort(
                 (a, b) =>
                   a.trigger.hour - b.trigger.hour ||
@@ -269,12 +269,12 @@ const NotificationToggle = ({
   description,
   times,
   enabled,
-  loading,
   toggle,
 }) => {
   const { colorScheme } = useColorScheme();
   return (
     <View className="py-3">
+      <Text>{JSON.stringify({ enabled, toggle }, null, 2)}</Text>
       <View className="my-1 py-1">
         <View className="flex flex-row items-center justify-between">
           <FontAwesome6
@@ -291,19 +291,14 @@ const NotificationToggle = ({
             </Text>
           </View>
           <View className="ml-3">
-            {loading ? (
-              <ActivityIndicator color={COLORS["400"]} />
-            ) : (
-              <Switch
-                trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
-                thumbColor={enabled ? COLORS["200"] : COLORS["500"]}
-                ios_backgroundColor="#3e3e3e"
-                onValueChange={toggle}
-                value={enabled}
-                disabled={loading}
-                accessibilityLabel={`Toggle ${title.toLowerCase()} notifications`}
-              />
-            )}
+            <Switch
+              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+              thumbColor={enabled ? COLORS["200"] : COLORS["500"]}
+              ios_backgroundColor="#3e3e3e"
+              onValueChange={toggle}
+              value={enabled}
+              accessibilityLabel={`Toggle ${title.toLowerCase()} notifications`}
+            />
           </View>
         </View>
       </View>

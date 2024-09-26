@@ -16,6 +16,8 @@ import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { ActivityIndicator, Platform, Text, View } from "react-native";
+import { CalendarProvider } from "~/providers/calendar";
+import { NotificationsProvider } from "~/providers/notifications";
 import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
@@ -39,7 +41,13 @@ export default function RootLayout() {
     return <ActivityIndicator />;
   }
 
-  return <RootLayoutNav />;
+  return (
+    <CalendarProvider>
+      <NotificationsProvider>
+        <RootLayoutNav />
+      </NotificationsProvider>
+    </CalendarProvider>
+  );
 }
 
 function RootLayoutNav() {

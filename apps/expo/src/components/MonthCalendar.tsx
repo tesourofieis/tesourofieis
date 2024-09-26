@@ -4,22 +4,20 @@ import {
   eachDayOfInterval,
   endOfMonth,
   format,
-  getYear,
   startOfMonth,
 } from "date-fns";
 import { pt } from "date-fns/locale";
 import React, { useState } from "react";
 import { Pressable, Text, View } from "react-native";
 
-import { getCalendar } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
-
 import { COLORS } from "~/constants/Colors";
+import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
 export default function MonthlyCalendar() {
   const [currentMonth, setCurrentMonth] = useState(new Date());
-  const calendar = getCalendar(getYear(currentMonth));
+  const { calendar } = useCalendar();
   const today = yyyyMMDD(new Date());
 
   const handlePreviousMonth = () => {
