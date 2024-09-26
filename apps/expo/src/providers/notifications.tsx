@@ -1,5 +1,4 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { getCalendarDay, getNovenas } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { addDays, differenceInDays } from "date-fns";
 import * as Notifications from "expo-notifications";
@@ -10,6 +9,7 @@ import {
   useEffect,
   useState,
 } from "react";
+import { useCalendar } from "./calendar";
 
 const NOTIFICATIONS = {
   ANGELUS: {
@@ -25,23 +25,6 @@ const NOTIFICATIONS = {
   MASS: {
     title: "📅 Missa",
     times: { hour: 7, minute: 0 },
-    prepareNotification: (date: Date) => {
-      const calendar = getCalendarDay(yyyyMMDD(date));
-      const mass = calendar?.mass;
-      if (!mass || mass.length === 0) return null;
-
-      const titleParts = mass[0].name;
-      const subTitleParts = mass
-        .slice(1)
-        .map((m) => m.name)
-        .join(" | ");
-      return {
-        title: `${NOTIFICATIONS.MASS.title} ${titleParts}`,
-        subtitle: subTitleParts,
-        data: { url: mass[0].link },
-        color: getColor(mass[0].color),
-      };
-    },
   },
   NOVENA: {
     title: "🙏 Novena",
@@ -81,9 +64,9 @@ function getColor(color?: string) {
   }
 }
 
-function prepareMassNotification(date: Date) {
-  const calendar = getCalendarDay(yyyyMMDD(date));
-  const mass = calendar?.mass;
+function prepareMassNotification() {
+  const { day } = useCalendar();
+  const mass = day?.mass;
   const titleParts = mass[0].name;
   const subTitleParts = mass.filter((_m, i) => i !== 0);
   const other = subTitleParts.map((i) => i.name).join(" | ");
@@ -108,10 +91,11 @@ interface NotificationPreferences {
 }
 
 type NotificationsContextType = {
+  list: Notifications.NotificationRequest[];
   notificationPrefs: NotificationPreferences;
   setNotificationPref: (
     key: keyof NotificationPreferences,
-    enabled: boolean
+    enabled: boolean,
   ) => Promise<void>;
 };
 
@@ -120,6 +104,9 @@ const NotificationsContext = createContext<
 >(undefined);
 
 export function NotificationsProvider({ children }: React.PropsWithChildren) {
+  const [list, setList] = useState<
+    Notifications.NotificationRequest[] | undefined
+  >();
   const [notificationPrefs, setNotificationPrefs] =
     useState<NotificationPreferences>(() => {
       const defaultPrefs: NotificationPreferences = {
@@ -129,8 +116,15 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         OFFICE: { enabled: false },
       };
 
-      // Load preferences from AsyncStorage
-      Object.keys(defaultPrefs).forEach(async (key) => {
+      return defaultPrefs;
+    });
+
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  useEffect(() => {
+    const loadPrefs = async () => {
+      for (const key of Object.keys(notificationPrefs) as Array<
+        keyof NotificationPreferences
+      >) {
         const storedValue = await AsyncStorage.getItem(key);
         if (storedValue !== null) {
           setNotificationPrefs((prev) => ({
@@ -138,43 +132,50 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
             [key]: { enabled: storedValue === "true" },
           }));
         }
-      });
+      }
+    };
 
-      return defaultPrefs;
-    });
+    loadPrefs();
+  }, []);
 
   const scheduleNotification = useCallback(
-    async (notification: Notifications.NotificationRequestInput) => {
-      await Notifications.scheduleNotificationAsync(notification);
-    },
-    []
-  );
+    async (
+      notification: Notifications.NotificationRequestInput,
+      identifier: string,
+    ) => {
+      const isNotificationScheduled = list?.some(
+        (notif) => notif.identifier === identifier,
+      );
 
-  const cancelNotifications = useCallback(
-    async (key: keyof typeof NOTIFICATIONS) => {
-      const scheduledNotifications =
-        await Notifications.getAllScheduledNotificationsAsync();
-      for (const notification of scheduledNotifications) {
-        if (notification.content.title.startsWith(NOTIFICATIONS[key].title)) {
-          await Notifications.cancelScheduledNotificationAsync(
-            notification.identifier
-          );
-        }
+      if (!isNotificationScheduled) {
+        await Notifications.scheduleNotificationAsync({
+          ...notification,
+          identifier,
+        });
+        setList((prevList) => [
+          ...(prevList?.filter((notif) => notif.identifier !== identifier) ||
+            []),
+          { ...notification, identifier } as Notifications.NotificationRequest,
+        ]);
       }
     },
-    []
+    [list],
   );
 
   const scheduleAngelus = useCallback(async () => {
     for (const time of NOTIFICATIONS.ANGELUS.times) {
-      await scheduleNotification({
-        content: {
-          title: NOTIFICATIONS.ANGELUS.title,
-          data: { url: NOTIFICATIONS.ANGELUS.link },
-          color: NOTIFICATIONS.ANGELUS.color,
+      const identifier = `angelus-${time.hour}-${time.minute}`;
+      await scheduleNotification(
+        {
+          content: {
+            title: NOTIFICATIONS.ANGELUS.title,
+            data: { url: NOTIFICATIONS.ANGELUS.link },
+            color: NOTIFICATIONS.ANGELUS.color,
+          },
+          trigger: { hour: time.hour, minute: time.minute, repeats: true },
         },
-        trigger: { hour: time.hour, minute: time.minute, repeats: true },
-      });
+        identifier,
+      );
     }
   }, [scheduleNotification]);
 
@@ -183,22 +184,26 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     const currentDay = today.getDay();
     for (let i = 0; i < 7; i++) {
       const date = addDays(today, i);
-      const notificationContent = prepareMassNotification(date);
-      await scheduleNotification({
-        content: notificationContent,
-        trigger: {
-          hour: NOTIFICATIONS.MASS.times.hour,
-          minute: NOTIFICATIONS.MASS.times.minute,
-          weekday: ((currentDay + i) % 7) + 1,
-          repeats: true,
+      const notificationContent = prepareMassNotification();
+      const identifier = `mass-${yyyyMMDD(date)}`;
+      await scheduleNotification(
+        {
+          content: notificationContent,
+          trigger: {
+            hour: NOTIFICATIONS.MASS.times.hour,
+            minute: NOTIFICATIONS.MASS.times.minute,
+            weekday: ((currentDay + i) % 7) + 1,
+            repeats: true,
+          },
         },
-      });
+        identifier,
+      );
     }
   }, [scheduleNotification]);
 
   const scheduleNovena = useCallback(async () => {
     const today = new Date();
-    const novenas = getNovenas(yyyyMMDD(today));
+    const { novenas } = useCalendar();
     if (novenas) {
       for (const novena of novenas) {
         const novenaDate = new Date(novena.date);
@@ -206,22 +211,26 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
           const dayDifference = differenceInDays(novenaDate, today);
           const currentNovenaDay = 9 - dayDifference;
           for (let i = currentNovenaDay; i <= 9; i++) {
-            await scheduleNotification({
-              content: {
-                title: NOTIFICATIONS.NOVENA.title,
-                body: `Dia ${i} da novena de ${novena.name}`,
-                data: { url: "devocionario/novenas" },
+            const identifier = `novena-${novena.name}-${i}`;
+            await scheduleNotification(
+              {
+                content: {
+                  title: NOTIFICATIONS.NOVENA.title,
+                  body: `Dia ${i} da novena de ${novena.name}`,
+                  data: { url: "devocionario/novenas" },
+                },
+                trigger: {
+                  date: new Date(
+                    today.getFullYear(),
+                    today.getMonth(),
+                    today.getDate() + (i - currentNovenaDay),
+                    NOTIFICATIONS.NOVENA.times.hour,
+                    NOTIFICATIONS.NOVENA.times.minute,
+                  ),
+                },
               },
-              trigger: {
-                date: new Date(
-                  today.getFullYear(),
-                  today.getMonth(),
-                  today.getDate() + (i - currentNovenaDay),
-                  NOTIFICATIONS.NOVENA.times.hour,
-                  NOTIFICATIONS.NOVENA.times.minute
-                ),
-              },
-            });
+              identifier,
+            );
           }
         }
       }
@@ -230,17 +239,41 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
 
   const scheduleOffice = useCallback(async () => {
     for (const office of NOTIFICATIONS.OFFICE.times) {
-      await scheduleNotification({
-        content: {
-          title: `${NOTIFICATIONS.OFFICE.title} ${office.name}`,
-          body: "Pequeno Ofício de Nossa Senhora",
-          data: { url: office.link },
-          color: "#4CAF50",
+      const identifier = `office-${office.name}`;
+      await scheduleNotification(
+        {
+          content: {
+            title: `${NOTIFICATIONS.OFFICE.title} ${office.name}`,
+            body: "Pequeno Ofício de Nossa Senhora",
+            data: { url: office.link },
+            color: "#4CAF50",
+          },
+          trigger: { hour: office.hour, minute: 0, repeats: true },
         },
-        trigger: { hour: office.hour, minute: 0, repeats: true },
-      });
+        identifier,
+      );
     }
   }, [scheduleNotification]);
+
+  const cancelNotificationsForKey = useCallback(
+    async (key: keyof NotificationPreferences) => {
+      const scheduledNotifications =
+        await Notifications.getAllScheduledNotificationsAsync();
+      for (const notification of scheduledNotifications) {
+        if (notification.content.title.startsWith(NOTIFICATIONS[key].title)) {
+          await Notifications.cancelScheduledNotificationAsync(
+            notification.identifier,
+          );
+        }
+      }
+      setList((prevList) =>
+        prevList?.filter(
+          (notif) => !notif.content.title.startsWith(NOTIFICATIONS[key].title),
+        ),
+      );
+    },
+    [],
+  );
 
   const setNotificationPref = useCallback(
     async (key: keyof NotificationPreferences, enabled: boolean) => {
@@ -249,13 +282,26 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         ...prev,
         [key]: { enabled },
       }));
+
+      if (!enabled) {
+        await cancelNotificationsForKey(key);
+      }
     },
-    []
+    [cancelNotificationsForKey],
   );
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     const syncNotifications = async () => {
-      for (const [key, pref] of Object.entries(notificationPrefs)) {
+      const scheduledNotifications =
+        await Notifications.getAllScheduledNotificationsAsync();
+
+      setList(scheduledNotifications);
+
+      for (const [key, pref] of Object.entries(notificationPrefs) as [
+        keyof NotificationPreferences,
+        NotificationPreference,
+      ][]) {
         if (pref.enabled) {
           switch (key) {
             case "ANGELUS":
@@ -272,7 +318,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
               break;
           }
         } else {
-          await cancelNotifications(key as keyof typeof NOTIFICATIONS);
+          await cancelNotificationsForKey(key);
         }
       }
     };
@@ -282,7 +328,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
 
   return (
     <NotificationsContext.Provider
-      value={{ notificationPrefs, setNotificationPref }}
+      value={{ notificationPrefs, setNotificationPref, list }}
     >
       {children}
     </NotificationsContext.Provider>
@@ -293,7 +339,7 @@ export const useNotifications = () => {
   const context = useContext(NotificationsContext);
   if (context === undefined) {
     throw new Error(
-      "useNotifications must be used within a NotificationsProvider"
+      "useNotifications must be used within a NotificationsProvider",
     );
   }
   return context;

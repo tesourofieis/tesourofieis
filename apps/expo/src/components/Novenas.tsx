@@ -1,10 +1,8 @@
-import { getNovenas } from "@tesourofieis/cal/getCalendar";
-import { yyyyMMDD } from "@tesourofieis/cal/utils";
+import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
 export default function Novenas() {
-  const date = new Date();
-  const novenas = getNovenas(yyyyMMDD(date));
+  const { novenas } = useCalendar();
 
   if (novenas.length) {
     return (

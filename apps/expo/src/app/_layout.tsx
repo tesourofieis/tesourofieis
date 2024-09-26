@@ -16,9 +16,9 @@ import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { ActivityIndicator, Platform, Text, View } from "react-native";
-import { COLORS } from "../constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
+import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
 

@@ -4,7 +4,6 @@ import { Link, useRouter } from "expo-router";
 import { useColorScheme } from "nativewind";
 import { useEffect, useState } from "react";
 import {
-  ActivityIndicator,
   Button,
   Platform,
   ScrollView,
@@ -20,10 +19,9 @@ export default function Not() {
   const router = useRouter();
   const { colorScheme } = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);
-  const [scheduledNotifications, setScheduledNotifications] = useState([]);
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const { notificationPrefs, setNotificationPref } = useNotifications();
+  const { notificationPrefs, setNotificationPref, list } = useNotifications();
 
   useEffect(() => {
     const subscription = Notifications.addNotificationResponseReceivedListener(
@@ -32,7 +30,7 @@ export default function Not() {
         if (url) {
           router.push(`/modal?url=${url}`);
         }
-      }
+      },
     );
 
     checkNotificationPermissions();
@@ -40,19 +38,9 @@ export default function Not() {
     return () => subscription.remove();
   }, [router]);
 
-  useEffect(() => {
-    loadScheduledNotifications();
-  }, [notificationPrefs]);
-
   const checkNotificationPermissions = async () => {
     const { status } = await Notifications.getPermissionsAsync();
     setNotificationsPermission(status);
-  };
-
-  const loadScheduledNotifications = async () => {
-    const notifications =
-      await Notifications.getAllScheduledNotificationsAsync();
-    setScheduledNotifications(notifications);
   };
 
   const requestNotificationPermissions = async () => {
@@ -232,12 +220,12 @@ export default function Not() {
 
       {isExpanded && (
         <View style={{ marginTop: 10 }}>
-          {scheduledNotifications.length > 0 ? (
-            scheduledNotifications
+          {list.length > 0 ? (
+            list
               .sort(
                 (a, b) =>
                   a.trigger.hour - b.trigger.hour ||
-                  a.trigger.weekday - b.trigger.weekday
+                  a.trigger.weekday - b.trigger.weekday,
               )
               .map((notification) => (
                 <View
