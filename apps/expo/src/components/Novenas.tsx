@@ -4,7 +4,7 @@ import LinkCard from "./LinkCard";
 export default function Novenas() {
   const { novenas } = useCalendar();
 
-  if (novenas.length) {
+  if (novenas?.length) {
     return (
       <>
         {novenas.map((novena) => (
