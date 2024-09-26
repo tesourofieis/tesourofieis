@@ -274,7 +274,6 @@ const NotificationToggle = ({
   const { colorScheme } = useColorScheme();
   return (
     <View className="py-3">
-      <Text>{JSON.stringify({ enabled, toggle }, null, 2)}</Text>
       <View className="my-1 py-1">
         <View className="flex flex-row items-center justify-between">
           <FontAwesome6
