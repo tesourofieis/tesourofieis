@@ -5,12 +5,10 @@
   },
   "build": {
     "production": {
-      "autoIncrement": true,
-      "channel": "production"
+      "autoIncrement": true
     },
     "preview": {
-      "distribution": "internal",
-      "channel": "staging"
+      "distribution": "internal"
     }
   },
   "submit": {
