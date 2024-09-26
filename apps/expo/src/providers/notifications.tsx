@@ -255,6 +255,31 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     }
   }, [scheduleNotification]);
 
+  const cancelAllUnknownNotifications = useCallback(async () => {
+    const scheduledNotifications =
+      await Notifications.getAllScheduledNotificationsAsync();
+    const knownPrefixes = Object.values(NOTIFICATIONS).map(
+      (notif) => notif.title.split(" ")[0],
+    );
+
+    for (const notification of scheduledNotifications) {
+      const isKnown = knownPrefixes.some((prefix) =>
+        notification.content.title.startsWith(prefix),
+      );
+      if (!isKnown) {
+        await Notifications.cancelScheduledNotificationAsync(
+          notification.identifier,
+        );
+      }
+    }
+
+    setList((prev) =>
+      prev?.filter((notif) =>
+        knownPrefixes.some((prefix) => notif.content.title.startsWith(prefix)),
+      ),
+    );
+  }, []);
+
   const cancelNotificationsForKey = useCallback(
     async (key: keyof NotificationPreferences) => {
       const scheduledNotifications =
@@ -293,10 +318,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     const syncNotifications = async () => {
-      const scheduledNotifications =
-        await Notifications.getAllScheduledNotificationsAsync();
-
-      setList(scheduledNotifications);
+      await cancelAllUnknownNotifications();
 
       for (const [key, pref] of Object.entries(notificationPrefs) as [
         keyof NotificationPreferences,
@@ -321,6 +343,10 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
           await cancelNotificationsForKey(key);
         }
       }
+
+      const updatedScheduledNotifications =
+        await Notifications.getAllScheduledNotificationsAsync();
+      setList(updatedScheduledNotifications);
     };
 
     syncNotifications();
