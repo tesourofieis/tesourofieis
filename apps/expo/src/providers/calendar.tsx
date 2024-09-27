@@ -4,6 +4,7 @@ import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { addDays, getYear, isWithinInterval, parseISO } from "date-fns";
 import { type PropsWithChildren, createContext, useContext } from "react";
+import { ActivityIndicator, View } from "react-native";
 
 const CalendarContext = createContext<{
   calendar: Day[];
@@ -32,6 +33,14 @@ export function CalendarProvider({ children }: PropsWithChildren) {
     }
 
     return novenaObservances;
+  }
+
+  if (!calendar || !day) {
+    return (
+      <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
+        <ActivityIndicator className="text-red-600" />
+      </View>
+    );
   }
 
   return (

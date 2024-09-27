@@ -220,7 +220,7 @@ export default function Not() {
 
       {isExpanded && (
         <View style={{ marginTop: 10 }}>
-          {list.length > 0 ? (
+          {list?.length > 0 ? (
             list
               .sort(
                 (a, b) =>

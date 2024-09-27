@@ -1,17 +1,12 @@
-import { ActivityIndicator } from "react-native";
-
-import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
 export default function Calendar() {
   const { day } = useCalendar();
 
-  if (!day) return <ActivityIndicator color={COLORS["500"]} />;
-
   return (
     <>
-      {day?.mass?.map((item) => (
+      {day.mass?.map((item) => (
         <LinkCard key={item.id} mass={item} />
       ))}
     </>

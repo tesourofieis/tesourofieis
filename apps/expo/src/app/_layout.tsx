@@ -38,7 +38,11 @@ export default function RootLayout() {
   }, [loaded]);
 
   if (!loaded && Platform.OS !== "web") {
-    return <ActivityIndicator />;
+    return (
+      <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
+        <ActivityIndicator className="text-red-600" />
+      </View>
+    );
   }
 
   return (
