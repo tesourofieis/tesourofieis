@@ -122,7 +122,7 @@ export default function Not() {
         <Text className="font-serif dark:text-sepia-200 text-xs">
           Pode ter que activar nas definições do dispositivo.
         </Text>
-        <View className="p-3">
+        <View className="m-5 bg-sepia-700 dark:bg-sepia-300 p-3">
           <Button
             title="Activar Notificações"
             onPress={requestNotificationPermissions}

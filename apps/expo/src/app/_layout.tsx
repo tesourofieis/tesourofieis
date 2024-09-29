@@ -27,7 +27,6 @@ export default function RootLayout() {
     Serif: Lusitana_400Regular,
     Display: BerkshireSwash_400Regular,
     Bold: Lusitana_700Bold,
-    Black: require("../../assets/fonts/Geist-UltraBlack.ttf"),
     ...FontAwesome6.font,
   });
 
