@@ -85,6 +85,21 @@ export default function Render() {
         </View>
 
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
+          <Text className="font-black border-sepia-900 text-sepia-800 dark:border-sepia-200 dark:text-sepia-200 m-2 rounded-lg border px-4 py-2 text-center flex">
+            <Link
+              href={{
+                pathname: "/modal",
+                params: { url: "devocionario/introducao" },
+              }}
+            >
+              Introdução{" "}
+              <FontAwesome6
+                name="arrow-right"
+                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+              />
+            </Link>
+          </Text>
+
           <Text className="font-black bg-sepia-900 text-sepia-200 dark:bg-sepia-200 dark:text-sepia-900 m-2 rounded-lg px-4 py-2 text-center">
             <Link
               href={{
@@ -96,21 +111,6 @@ export default function Render() {
               <FontAwesome6
                 name="arrow-right"
                 color={colorScheme === "light" ? COLORS["200"] : COLORS["900"]}
-              />
-            </Link>
-          </Text>
-
-          <Text className="font-black border-sepia-900 text-sepia-800 dark:border-sepia-200 dark:text-sepia-200 m-2 rounded-lg border px-4 py-2 text-center">
-            <Link
-              href={{
-                pathname: "/modal",
-                params: { url: "devocionario/oracoes/coroasaomiguel" },
-              }}
-            >
-              Coroa de São Miguel{" "}
-              <FontAwesome6
-                name="arrow-right"
-                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
               />
             </Link>
           </Text>

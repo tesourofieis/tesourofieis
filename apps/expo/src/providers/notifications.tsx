@@ -1,6 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
-import { addDays } from "date-fns";
+import { addDays, subDays } from "date-fns";
 import * as Notifications from "expo-notifications";
 import {
   createContext,
@@ -171,12 +171,12 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     if (notificationPrefs.NOVENA.enabled && novenas) {
       const today = new Date();
       for (const novena of novenas) {
-        const novenaDate = new Date(novena.date);
+        const novenaDate = subDays(new Date(novena.date), 1);
         if (novenaDate > today) {
           const dayDifference = Math.ceil(
             (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
           );
-          const currentNovenaDay = 9 - dayDifference;
+          const currentNovenaDay = Math.max(1, 9 - dayDifference);
           for (let i = currentNovenaDay; i <= 9; i++) {
             const identifier = `novena-${novena.name}-${i}`;
             await scheduleNotification(

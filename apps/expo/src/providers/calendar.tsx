@@ -27,7 +27,9 @@ export function CalendarProvider({ children }: PropsWithChildren) {
     for (const day of calendar) {
       const dayDate = parseISO(day.date);
       if (isWithinInterval(dayDate, { start: date, end: endDate })) {
-        const novenas = day.mass.filter((mass) => mass.novena);
+        const novenas = day.mass
+          .filter((mass) => mass.novena)
+          .map((i) => ({ ...i, date: yyyyMMDD(dayDate) }));
         novenaObservances.push(...novenas);
       }
     }

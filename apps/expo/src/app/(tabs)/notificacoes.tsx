@@ -12,6 +12,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { COLORS } from "~/constants/Colors";
 import { useNotifications } from "~/providers/notifications";
 
@@ -54,57 +55,96 @@ export default function Not() {
 
   if (Platform.OS === "web") {
     return (
-      <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
-        <View className="flex-row items-center">
-          <FontAwesome6
-            name="gear"
-            size={15}
-            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-          />
-          <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
-            Apenas em dispositivos móveis.
-          </Text>
-        </View>
+      <SafeAreaView>
+        <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
+          <View className="flex-row items-center">
+            <FontAwesome6
+              name="gear"
+              size={15}
+              color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+            />
+            <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
+              Apenas em dispositivos móveis.
+            </Text>
+          </View>
 
-        <View>
-          <Text className="text-sm text-sepia-800 dark:text-sepia-200">
-            Para receber notificações instale a nossa aplicação para telemóvel
-            para receber notificações.
-          </Text>
+          <View>
+            <Text className="text-sm text-sepia-800 dark:text-sepia-200">
+              Para receber notificações instale a nossa aplicação para telemóvel
+              para receber notificações.
+            </Text>
 
-          <View className="flex-row items-center justify-center gap-5 mt-3">
-            <Link
-              className="bg-sepia-500 p-3"
-              href="https://apps.apple.com/no/app/tesouro-dos-fi%C3%A9is/id6689521725"
-            >
-              iOS{" "}
-              <FontAwesome6
-                name="apple"
-                size={15}
-                color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
-              />
-            </Link>
+            <View className="flex-row items-center justify-center gap-5 mt-3">
+              <Link
+                className="bg-sepia-500 p-3"
+                href="https://apps.apple.com/no/app/tesouro-dos-fi%C3%A9is/id6689521725"
+              >
+                iOS{" "}
+                <FontAwesome6
+                  name="apple"
+                  size={15}
+                  color={
+                    colorScheme === "light" ? COLORS["200"] : COLORS["800"]
+                  }
+                />
+              </Link>
 
-            <Link
-              className="bg-sepia-500 p-3"
-              href="https://play.google.com/store/apps/details?id=com.tesourofieis.app"
-            >
-              Android{" "}
-              <FontAwesome6
-                name="android"
-                size={15}
-                color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
-              />
-            </Link>
+              <Link
+                className="bg-sepia-500 p-3"
+                href="https://play.google.com/store/apps/details?id=com.tesourofieis.app"
+              >
+                Android{" "}
+                <FontAwesome6
+                  name="android"
+                  size={15}
+                  color={
+                    colorScheme === "light" ? COLORS["200"] : COLORS["800"]
+                  }
+                />
+              </Link>
+            </View>
           </View>
         </View>
-      </View>
+      </SafeAreaView>
     );
   }
 
   if (notificationsPermission !== "granted") {
     return (
-      <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
+      <SafeAreaView>
+        <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
+          <View className="flex-row items-center">
+            <FontAwesome6
+              name="gear"
+              size={15}
+              color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+            />
+            <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
+              Notificações Desativadas
+            </Text>
+          </View>
+
+          <Text className="font-serif dark:text-sepia-200 text-sm">
+            Para receber notificações active as notificações.
+          </Text>
+          <Text className="font-serif dark:text-sepia-200 text-xs">
+            Pode ter que activar nas definições do dispositivo.
+          </Text>
+          <View className="m-5 bg-sepia-700 dark:bg-sepia-300 p-3">
+            <Button
+              title="Activar Notificações"
+              onPress={requestNotificationPermissions}
+              color={colorScheme === "light" ? COLORS["200"] : COLORS["900"]}
+            />
+          </View>
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  return (
+    <SafeAreaView>
+      <ScrollView className="px-5">
         <View className="flex-row items-center">
           <FontAwesome6
             name="gear"
@@ -112,154 +152,127 @@ export default function Not() {
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
           <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
-            Notificações Desativadas
+            Configurar Notificações
+          </Text>
+
+          <Text className="text-sm text-center text-sepia-200 px-3 py-1 rounded-full bg-red-800">
+            Beta
           </Text>
         </View>
 
         <Text className="font-serif dark:text-sepia-200 text-sm">
-          Para receber notificações active as notificações.
+          Receba notificações sobre as mais importantes orações do dia.
         </Text>
-        <Text className="font-serif dark:text-sepia-200 text-xs">
-          Pode ter que activar nas definições do dispositivo.
-        </Text>
-        <View className="m-5 bg-sepia-700 dark:bg-sepia-300 p-3">
-          <Button
-            title="Activar Notificações"
-            onPress={requestNotificationPermissions}
-            color={colorScheme === "light" ? COLORS["200"] : COLORS["900"]}
-          />
-        </View>
-      </View>
-    );
-  }
 
-  return (
-    <ScrollView className="bg-sepia-200 dark:bg-sepia-800 p-5">
-      <View className="flex-row items-center">
-        <FontAwesome6
-          name="gear"
-          size={15}
-          color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+        <NotificationToggle
+          title="Angelus"
+          icon="bell"
+          description="Receba o toque das Trindades"
+          times={["6:00", "12:00", "18:00"]}
+          enabled={notificationPrefs.ANGELUS.enabled}
+          toggle={() =>
+            setNotificationPref("ANGELUS", !notificationPrefs.ANGELUS.enabled)
+          }
         />
-        <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
-          Configurar Notificações
-        </Text>
 
-        <Text className="text-sm text-center text-sepia-200 px-3 py-1 rounded-full bg-red-800">
-          Beta
-        </Text>
-      </View>
+        <NotificationToggle
+          title="Missa do Dia"
+          icon="calendar"
+          description="Receba informações sobre as celebrações e comemorações do dia."
+          times={["7:00"]}
+          enabled={notificationPrefs.MASS.enabled}
+          toggle={() =>
+            setNotificationPref("MASS", !notificationPrefs.MASS.enabled)
+          }
+        />
 
-      <Text className="font-serif dark:text-sepia-200 text-sm">
-        Receba notificações sobre as mais importantes orações do dia.
-      </Text>
+        <NotificationToggle
+          title="Novenas"
+          icon="circle"
+          description="Receba alertas nos dias de novena."
+          times={["20:00"]}
+          enabled={notificationPrefs.NOVENA.enabled}
+          toggle={() =>
+            setNotificationPref("NOVENA", !notificationPrefs.NOVENA.enabled)
+          }
+        />
 
-      <NotificationToggle
-        title="Angelus"
-        icon="bell"
-        description="Receba o toque das Trindades"
-        times={["6:00", "12:00", "18:00"]}
-        enabled={notificationPrefs.ANGELUS.enabled}
-        toggle={() =>
-          setNotificationPref("ANGELUS", !notificationPrefs.ANGELUS.enabled)
-        }
-      />
+        <NotificationToggle
+          title="Ofício"
+          icon="book"
+          description="Receba lembretes para o Pequeno Ofício de Nossa Senhora."
+          times={[
+            "0:00",
+            "3:00",
+            "6:00",
+            "9:00",
+            "12:00",
+            "15:00",
+            "18:00",
+            "21:00",
+          ]}
+          enabled={notificationPrefs.OFFICE.enabled}
+          toggle={() =>
+            setNotificationPref("OFFICE", !notificationPrefs.OFFICE.enabled)
+          }
+        />
 
-      <NotificationToggle
-        title="Missa do Dia"
-        icon="calendar"
-        description="Receba informações sobre as celebrações e comemorações do dia."
-        times={["7:00"]}
-        enabled={notificationPrefs.MASS.enabled}
-        toggle={() =>
-          setNotificationPref("MASS", !notificationPrefs.MASS.enabled)
-        }
-      />
-
-      <NotificationToggle
-        title="Novenas"
-        icon="circle"
-        description="Receba alertas nos dias de novena."
-        times={["20:00"]}
-        enabled={notificationPrefs.NOVENA.enabled}
-        toggle={() =>
-          setNotificationPref("NOVENA", !notificationPrefs.NOVENA.enabled)
-        }
-      />
-
-      <NotificationToggle
-        title="Ofício"
-        icon="book"
-        description="Receba lembretes para o Pequeno Ofício de Nossa Senhora."
-        times={[
-          "0:00",
-          "3:00",
-          "6:00",
-          "9:00",
-          "12:00",
-          "15:00",
-          "18:00",
-          "21:00",
-        ]}
-        enabled={notificationPrefs.OFFICE.enabled}
-        toggle={() =>
-          setNotificationPref("OFFICE", !notificationPrefs.OFFICE.enabled)
-        }
-      />
-
-      <TouchableOpacity
-        onPress={toggleExpand}
-        className="m-3 p-3 bg-sepia-300 dark:bg-sepia-700 text-sepia-700 dark:text-sepia-300"
-      >
-        <Text className="text-center font-bold">
-          {isExpanded
-            ? "Esconder lista notificações"
-            : "Mostrar lista de notificações"}
-        </Text>
-      </TouchableOpacity>
-
-      {isExpanded && (
-        <View style={{ marginTop: 10 }}>
+        <View className="bg-sepia-200 dark:bg-sepia-800 ">
           {list?.length > 0 ? (
-            list
-              .sort(
-                (a, b) =>
-                  a.trigger.hour - b.trigger.hour ||
-                  a.trigger.weekday - b.trigger.weekday,
-              )
-              .map((notification) => (
-                <View
-                  key={notification.identifier}
-                  style={{
-                    padding: 10,
-                    borderBottomWidth: 1,
-                    borderColor: "#ccc",
-                  }}
-                >
-                  <Text className="text-sepia-800 dark:text-sepia-200">
-                    Name: {notification.content.title}
-                  </Text>
-                  {notification.content.body && (
-                    <Text>Corpo: {notification.content.body}</Text>
-                  )}
-                  <Text className="text-sepia-800 dark:text-sepia-200">
-                    Hora: {notification.trigger.hour}
-                  </Text>
-                  {notification.trigger.weekday && (
+            <TouchableOpacity
+              onPress={toggleExpand}
+              className="p-3 bg-sepia-300 dark:bg-sepia-700 text-sepia-700 dark:text-sepia-300"
+            >
+              <Text className="text-center font-bold">
+                {isExpanded
+                  ? "Esconder lista notificações"
+                  : "Mostrar lista de notificações"}
+              </Text>
+            </TouchableOpacity>
+          ) : undefined}
+
+          {isExpanded && list?.length ? (
+            <View>
+              {list
+                .sort(
+                  (a, b) =>
+                    a.trigger.hour - b.trigger.hour ||
+                    a.trigger.weekday - b.trigger.weekday,
+                )
+                .map((notification) => (
+                  <View
+                    key={notification.identifier}
+                    style={{
+                      padding: 10,
+                      borderBottomWidth: 1,
+                      borderColor: "#ccc",
+                    }}
+                  >
                     <Text className="text-sepia-800 dark:text-sepia-200">
-                      Dia da semana: {notification.trigger.weekday}
+                      {notification.content.title}
                     </Text>
-                  )}
-                </View>
-              ))
-          ) : (
-            <Text className="text-sepia-800 dark:text-sepia-200">
-              Sem notificações agendadas.
-            </Text>
-          )}
+                    {notification.content.body ? (
+                      <Text className="text-sepia-700 dark:text-sepia-300">
+                        {notification.content.body}
+                      </Text>
+                    ) : undefined}
+                    {notification.trigger.hour ? (
+                      <Text className="text-sepia-800 dark:text-sepia-200">
+                        {notification.trigger.hour}
+                      </Text>
+                    ) : undefined}
+                    {notification.trigger.weekday ? (
+                      <Text className="text-sepia-800 dark:text-sepia-200">
+                        Dia da semana: {notification.trigger.weekday}
+                      </Text>
+                    ) : undefined}
+                  </View>
+                ))}
+            </View>
+          ) : undefined}
         </View>
-      )}
-    </ScrollView>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
