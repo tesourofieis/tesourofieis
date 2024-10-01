@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import {
   Button,
   Platform,
+  Pressable,
   ScrollView,
   Switch,
   Text,
@@ -130,13 +131,14 @@ export default function Not() {
           <Text className="font-serif dark:text-sepia-200 text-xs">
             Pode ter que activar nas definições do dispositivo.
           </Text>
-          <View className="m-5 bg-sepia-700 dark:bg-sepia-300 p-3">
-            <Button
-              title="Activar Notificações"
-              onPress={requestNotificationPermissions}
-              color={colorScheme === "light" ? COLORS["200"] : COLORS["900"]}
-            />
-          </View>
+          <Pressable
+            className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3"
+            onPress={requestNotificationPermissions}
+          >
+            <Text className="m-5 text-sepia-300 dark:text-sepia-700">
+              Activar Notificações
+            </Text>
+          </Pressable>
         </View>
       </SafeAreaView>
     );
@@ -217,7 +219,7 @@ export default function Not() {
           }
         />
 
-        <View className="bg-sepia-200 dark:bg-sepia-800 ">
+        <View className="bg-sepia-200 dark:bg-sepia-800 mb-5">
           {list?.length > 0 ? (
             <TouchableOpacity
               onPress={toggleExpand}
