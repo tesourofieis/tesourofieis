@@ -2,6 +2,7 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { COLORS } from "~/constants/Colors";
 
 export function getColor(color?: string) {
   switch (color) {
@@ -70,10 +71,12 @@ export default function LinkCard({
             <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
               {description ? description : "Missa"}
             </Text>
-            <Text className="font-serif text-sm font-bold text-sepia-700 dark:text-sepia-300">
-              {" "}
-              | Classe {mass.rank}
-            </Text>
+            {mass.rank ? (
+              <Text className="font-serif text-sm font-bold text-sepia-700 dark:text-sepia-300">
+                {" "}
+                | Classe: {mass.rank}
+              </Text>
+            ) : undefined}
           </View>
 
           <View className="flex flex-row items-center gap-2">
@@ -82,6 +85,14 @@ export default function LinkCard({
               {mass.name}
             </Text>
           </View>
+          {mass.local ? (
+            <View className="flex-row items-center gap-2">
+              <FontAwesome name="map" color={COLORS[500]} />
+              <Text className={"font-black text-sepia-500"}>
+                Local: {mass.local.toUpperCase()}
+              </Text>
+            </View>
+          ) : undefined}
         </View>
       </Link>
     );
