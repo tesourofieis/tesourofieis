@@ -12,7 +12,6 @@
     "lint": "biome check --write --unsafe --files-ignore-unknown=true"
   },
   "dependencies": {
-    "@date-fns/utc": "catalog:",
     "date-fns": "catalog:"
   },
   "devDependencies": {

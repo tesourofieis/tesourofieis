@@ -1,6 +1,5 @@
 import { yyyyMMDD } from "./utils";
 
-import { UTCDate } from "@date-fns/utc";
 import {
   addDays,
   getDate,
@@ -13,6 +12,7 @@ import {
   nextWednesday,
   previousSaturday,
   previousSunday,
+  startOfYear,
   subDays,
 } from "date-fns";
 import { type Mass, massManager } from "./observanceManager";
@@ -47,7 +47,7 @@ class Calendar {
   }
 
   private buildEmptyCalendar(year: number): void {
-    let date = new UTCDate(year, 0, 1);
+    let date = startOfYear(new Date());
 
     while (date.getFullYear() === year) {
       this.container.set(yyyyMMDD(date), new Day(yyyyMMDD(date)));
@@ -90,7 +90,7 @@ class Calendar {
       massManager.getByTypeId("advent"),
       false,
       false,
-      new UTCDate(this.year, 11, 23),
+      new Date(this.year, 11, 23),
     );
     this.insertBlock(
       this.calcEmberWednesdaySeptember(this.year),
@@ -144,7 +144,7 @@ class Calendar {
     }
 
     for (const [ii, observance] of block.entries()) {
-      const currentDate = addDays(new UTCDate(date), reverse ? -ii : ii);
+      const currentDate = addDays(new Date(date), reverse ? -ii : ii);
 
       if (!observance) {
         continue;
@@ -169,8 +169,8 @@ class Calendar {
 
   private fillInSanctiDays() {
     for (const [date] of this.container) {
-      const m = getMonth(date);
-      const d = getDate(date);
+      const m = new Date(date).getUTCMonth();
+      const d = new Date(date).getUTCDate();
       const days = massManager
         .getByFlexibility("santos")
         .filter((ii) => ii.month === m + 1 && ii.day === d)
@@ -280,13 +280,13 @@ class Calendar {
     const m = Math.floor((a + 11 * h + 22 * l) / 451);
     const month = Math.floor((h + l - 7 * m + 114) / 31);
     const day = ((h + l - 7 * m + 114) % 31) + 1;
-    const easter = new UTCDate(year, month - 1, day);
+    const easter = new Date(year, month - 1, day);
 
     return easter;
   }
 
   private calcHolyFamily(): Date {
-    return nextSunday(new UTCDate(this.year, 0, 6));
+    return nextSunday(new Date(this.year, 0, 6));
   }
 
   private calcSeptuagesima(year: number): Date {
@@ -304,24 +304,24 @@ class Calendar {
     // """
     // First Sunday of Advent - November 27 if it's Sunday, otherwise closest Sunday.
     // """
-    const christmasDay = new UTCDate(year, 11, 25);
+    const christmasDay = new Date(year, 11, 25);
     const weekday = getDay(christmasDay);
 
     switch (weekday) {
       case 0: // Sunday
-        return new UTCDate(getYear(christmasDay), 10, 27);
+        return new Date(getYear(christmasDay), 10, 27);
       case 1: // Monday
-        return new UTCDate(getYear(christmasDay), 11, 3);
+        return new Date(getYear(christmasDay), 11, 3);
       case 2: // Tuesday
-        return new UTCDate(getYear(christmasDay), 11, 2);
+        return new Date(getYear(christmasDay), 11, 2);
       case 3: // Wednesday
-        return new UTCDate(getYear(christmasDay), 11, 1);
+        return new Date(getYear(christmasDay), 11, 1);
       case 4: // Thursday
-        return new UTCDate(getYear(christmasDay), 10, 30);
+        return new Date(getYear(christmasDay), 10, 30);
       case 5: // Friday
-        return new UTCDate(getYear(christmasDay), 10, 29);
+        return new Date(getYear(christmasDay), 10, 29);
       default: // Saturday
-        return new UTCDate(getYear(christmasDay), 10, 28);
+        return new Date(getYear(christmasDay), 10, 28);
     }
   }
 
@@ -337,7 +337,7 @@ class Calendar {
     // * directly after a week starting with TEMPORA_EPI6_0 (moved from post-epiphania period)
     //   if the number of TEMPORA_PENT*_0 Sundays in given year > 24)
     // """
-    return previousSunday(new UTCDate(this.calcFirstAdventSunday(year)));
+    return previousSunday(new Date(this.calcFirstAdventSunday(year)));
   }
 
   private calcSaturdayBefore24SundayAfterPentecost(year: number): Date {
@@ -347,7 +347,7 @@ class Calendar {
     // between 23rd and 24th Sunday after Pentecost if Easter is early.
     // In such case one or more Sundays after Epiphany (TEMPORA_EPI*_0) are moved here to "fill the gap"
 
-    return previousSaturday(new UTCDate(this.calc24SundayAfterPentecost(year)));
+    return previousSaturday(new Date(this.calc24SundayAfterPentecost(year)));
   }
 
   private calcEmberWednesdaySeptember(year: number): Date {
@@ -357,7 +357,7 @@ class Calendar {
     // of September according to John XXIII's motu proprio
     // "Rubricarum instructum" of June 25 1960.
     // """
-    let d = new UTCDate(year, 8, 1);
+    let d = new Date(year, 8, 1);
     while (getMonth(d) === 8) {
       if (isSunday(d) && getDate(d) >= 15 && getDate(d) <= 21) {
         break;
@@ -373,12 +373,12 @@ class Calendar {
     // Kept on the First Sunday of the year; but if this Sunday falls on
     // 1st, 6th or 7th January, the feast is kept on 2nd January.
     // """
-    let d = new UTCDate(year, 0, 1);
+    let d = new Date(year, 0, 1);
 
     while (getDate(d) <= 7) {
       if (isSunday(d)) {
         if (getDate(d) === 1 || getDate(d) === 6 || getDate(d) === 7) {
-          return new UTCDate(year, 0, 2);
+          return new Date(year, 0, 2);
         }
 
         return d;
@@ -392,7 +392,7 @@ class Calendar {
 
   private calcChristKing(year: number): Date {
     // The Feast of Christ the King, last Sunday of October.
-    const d = new UTCDate(year, 10, 1);
+    const d = new Date(year, 10, 1);
 
     return previousSunday(d);
   }
@@ -401,7 +401,7 @@ class Calendar {
     // """
     // Sunday within the Octave of Christmas, falls between Dec 26 and Dec 31
     // """
-    let d = new UTCDate(year, 11, 27); // December 27
+    let d = new Date(year, 11, 27); // December 27
     while (d.getFullYear() === year) {
       if (isSunday(d)) {
         return d;
@@ -434,8 +434,8 @@ class Calendar {
   }
 
   public getDaysInMonth(month: number): Day[] {
-    const startDate = new UTCDate(this.year, month - 1, 1);
-    const endDate = new UTCDate(this.year, month, 0);
+    const startDate = new Date(this.year, month - 1, 1);
+    const endDate = new Date(this.year, month, 0);
     const days: Day[] = [];
 
     for (let d = startDate; d <= endDate; d = addDays(d, 1)) {

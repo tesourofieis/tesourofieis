@@ -1,4 +1,3 @@
-import type { UTCDate } from "@date-fns/utc";
 import { format } from "date-fns";
 import type { Mass } from "./observanceManager";
 
@@ -34,7 +33,7 @@ function match(
   }
 }
 
-function yyyyMMDD(date?: Date | UTCDate) {
+function yyyyMMDD(date?: Date) {
   return format(date || new Date(), "yyyy-MM-dd");
 }
 
