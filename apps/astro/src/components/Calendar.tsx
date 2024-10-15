@@ -43,19 +43,21 @@ export default function DailyCalendar() {
       <div className="max-h-96 overflow-y-scroll">
         {Array.from({ length: 15 }, (_, i) => currentDayIndex + i).map(
           (index) => {
-            const date = yyyyMMDD(getDate(index));
-            const day = calendar.find((i) => i.date === date);
+            const date = getDate(index);
+            const dateString = yyyyMMDD(date);
+            const day = calendar.find((i) => i.date === dateString);
+            console.log("Current date in array:", day);
             return (
               <div
-                key={date}
+                key={dateString}
                 className={`mx-2 mb-4 flex flex-col gap-2 rounded p-4 ${
-                  date === yyyyMMDD(today)
+                  dateString === yyyyMMDD(today)
                     ? "bg-sepia-200 dark:bg-sepia-800"
                     : "bg-sepia-100 dark:bg-sepia-900"
                 }`}
               >
                 <div className="mb-2 text-lg font-semibold">
-                  {formatDate(getDate(index))}
+                  {formatDate(date)}
                 </div>
                 {day?.mass.map((item) => (
                   <LinkCard

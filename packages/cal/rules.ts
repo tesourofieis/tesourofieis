@@ -1,4 +1,3 @@
-import { UTCDate } from "@date-fns/utc";
 import {
   addDays,
   getDate,
@@ -177,7 +176,7 @@ export class Rules {
           observances: [temp],
           toShift: {
             observances: [massManager.getById("SANCTI_02_24")],
-            date: yyyyMMDD(addDays(new UTCDate(date), 1)),
+            date: yyyyMMDD(addDays(new Date(date), 1)),
           },
         };
       }
@@ -219,8 +218,8 @@ export class Rules {
       }
 
       if (
-        isAfter(date, new UTCDate(getYear(date), 11, 25)) ||
-        isBefore(date, new UTCDate(getYear(date), 1, 2))
+        isAfter(date, new Date(getYear(date), 11, 25)) ||
+        isBefore(date, new Date(getYear(date), 1, 2))
       ) {
         return massManager.getById("COMMUNE_C_10B"); // B. M. V. Saturdays between Nativity and Purification
       }
@@ -230,7 +229,7 @@ export class Rules {
       );
 
       if (
-        isAfter(date, new UTCDate(getYear(date), 1, 2)) &&
+        isAfter(date, new Date(getYear(date), 1, 2)) &&
         wednesdayInHolyWeek &&
         isBefore(date, wednesdayInHolyWeek[0])
       ) {
@@ -317,7 +316,7 @@ export class Rules {
     }
 
     function calcTargetDate() {
-      let targetDate = new UTCDate(date);
+      let targetDate = new Date(date);
       while (getYear(targetDate) === getYear(date)) {
         targetDate = addDays(targetDate, 1);
         const allRanks = new Set(
@@ -351,7 +350,7 @@ export class Rules {
     calendar: Calendar,
   ): RuleResult | undefined {
     function calcTargetDate() {
-      let targetDate = new UTCDate(date);
+      let targetDate = new Date(date);
       while (getYear(targetDate) === getYear(date)) {
         targetDate = addDays(targetDate, 1);
         const allRanks = new Set(

@@ -6,9 +6,6 @@ settings:
 
 catalogs:
   default:
-    '@date-fns/utc':
-      specifier: ^1.2.0
-      version: 1.2.0
     '@types/react':
       specifier: 18.2.79
       version: 18.2.79
@@ -71,9 +68,6 @@ importers:
       '@astrojs/tailwind':
         specifier: ^5.1.1
         version: 5.1.1(astro@4.15.12(@types/node@22.5.5)(lightningcss@1.22.0)(rollup@4.22.4)(terser@5.33.0)(typescript@5.3.3))(tailwindcss@3.4.12)
-      '@date-fns/utc':
-        specifier: ^1.2.0
-        version: 1.2.0
       '@tesourofieis/cal':
         specifier: workspace:*
         version: link:../../packages/cal
@@ -135,9 +129,6 @@ importers:
 
   apps/expo:
     dependencies:
-      '@date-fns/utc':
-        specifier: 'catalog:'
-        version: 1.2.0
       '@expo-google-fonts/berkshire-swash':
         specifier: ^0.2.3
         version: 0.2.3
@@ -298,9 +289,6 @@ importers:
 
   packages/cal:
     dependencies:
-      '@date-fns/utc':
-        specifier: 'catalog:'
-        version: 1.2.0
       date-fns:
         specifier: 'catalog:'
         version: 3.6.0
@@ -1367,9 +1355,6 @@ packages:
   '@ctrl/tinycolor@4.1.0':
     resolution: {integrity: sha512-WyOx8cJQ+FQus4Mm4uPIZA64gbk3Wxh0so5Lcii0aJifqwoVOlfFtorjLE0Hen4OYyHZMXDWqMmaQemBhgxFRQ==}
     engines: {node: '>=14'}
-
-  '@date-fns/utc@1.2.0':
-    resolution: {integrity: sha512-YLq+crMPJiBmIdkRmv9nZuZy1mVtMlDcUKlg4mvI0UsC/dZeIaGoGB5p/C4FrpeOhZ7zBTK03T58S0DFkRNMnw==}
 
   '@egjs/hammerjs@2.0.17':
     resolution: {integrity: sha512-XQsZgjm2EcVUiZQf11UBJQfmZeEmOW8DpI1gsFeln6w0ae0ii4dMQEQ0kjl6DspdWX1aGY1/loyXnP0JS06e/A==}
@@ -8524,8 +8509,6 @@ snapshots:
   '@builder.io/partytown@0.10.2': {}
 
   '@ctrl/tinycolor@4.1.0': {}
-
-  '@date-fns/utc@1.2.0': {}
 
   '@egjs/hammerjs@2.0.17':
     dependencies:

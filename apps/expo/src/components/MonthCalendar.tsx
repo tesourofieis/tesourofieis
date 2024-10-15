@@ -21,11 +21,11 @@ export default function MonthlyCalendar() {
   const today = yyyyMMDD(new Date());
 
   const handlePreviousMonth = () => {
-    setCurrentMonth((prevMonth) => addMonths(prevMonth.toString(), -1));
+    setCurrentMonth((prevMonth) => addMonths(prevMonth, -1));
   };
 
   const handleNextMonth = () => {
-    setCurrentMonth((prevMonth) => addMonths(prevMonth.toString(), 1));
+    setCurrentMonth((prevMonth) => addMonths(prevMonth, 1));
   };
 
   const monthStart = format(startOfMonth(currentMonth), "MMMM yyyy", {

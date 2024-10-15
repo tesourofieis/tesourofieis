@@ -8996,6 +8996,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "link": "missal/santos/10-07-1",
         "month": 10,
         "name": "SS. Rosário da B. V. Maria",
+        "novena": true,
         "outro": false,
         "rank": 2,
         "type": "sancti",

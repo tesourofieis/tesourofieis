@@ -22,7 +22,6 @@
     "@astrojs/starlight": "^0.28.2",
     "@astrojs/starlight-tailwind": "^2.0.3",
     "@astrojs/tailwind": "^5.1.1",
-    "@date-fns/utc": "^1.2.0",
     "@tesourofieis/cal": "workspace:*",
     "astro": "^4.15.12",
     "date-fns": "catalog:",

@@ -11,6 +11,8 @@ import Office from "./Office";
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
 
+  console.log("interactive", date);
+
   useEffect(() => {
     // Update date state immediately
     setDate(new Date());
@@ -55,16 +57,12 @@ export default function InteractiveCard() {
       </h2>
 
       <span className="text-center text-sepia-600 dark:text-sepia-400 text-sm pb-3">
-        {format(new Date(), "EEEE, MMMM dd", {
-          locale: pt,
-        })}
+        {format(new Date(), "EEEE, MMMM dd")}
       </span>
       <Calendar />
 
       <span className="text-sepia-600 text-center dark:text-sepia-400 text-sm font-bold">
-        {format(new Date(), "HH:mm", {
-          locale: pt,
-        }).toUpperCase()}
+        {format(new Date(), "HH:mm").toUpperCase()}
       </span>
       <Office />
       <Novenas />

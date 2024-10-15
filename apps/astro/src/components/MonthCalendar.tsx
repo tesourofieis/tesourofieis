@@ -6,6 +6,7 @@ import {
   format,
   getYear,
   startOfMonth,
+  startOfToday,
 } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useState } from "react";
@@ -35,14 +36,14 @@ export function getColor(color: string) {
 export default function MonthlyCalendar() {
   const [currentMonth, setCurrentMonth] = useState(new Date());
   const calendar = getCalendar(getYear(currentMonth));
-  const today = yyyyMMDD(new Date());
+  const today = startOfToday();
 
   const handlePreviousMonth = () => {
-    setCurrentMonth((prevMonth) => addMonths(prevMonth.toString(), -1));
+    setCurrentMonth((prevMonth) => addMonths(prevMonth, -1));
   };
 
   const handleNextMonth = () => {
-    setCurrentMonth((prevMonth) => addMonths(prevMonth.toString(), 1));
+    setCurrentMonth((prevMonth) => addMonths(prevMonth, 1));
   };
 
   const monthStart = format(startOfMonth(currentMonth), "MMMM yyyy", {
@@ -65,13 +66,12 @@ export default function MonthlyCalendar() {
       />
       <div>
         {monthDays.map((date) => {
-          const calendarDate = yyyyMMDD(date);
-          const day = calendar.find((i) => i.date === calendarDate);
+          const day = calendar.find((i) => i.date === yyyyMMDD(date));
           return (
             <div
-              key={calendarDate}
+              key={date.toString()}
               className={`flex flex-col gap-1 rounded p-1 ${
-                calendarDate === today
+                date.getDate() === today.getDate()
                   ? "bg-sepia-200 dark:bg-sepia-800"
                   : "bg-sepia-100 dark:bg-sepia-900"
               }`}
