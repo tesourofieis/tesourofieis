@@ -116,7 +116,7 @@ class Calendar {
     if (christKing) {
       christKing.mass.push(
         massManager.createMassWithDate(
-          massManager.getById("SANCTI_10_DUr"),
+          massManager.getById("SANCTI_10_DUR"),
           yyyyMMDD(christKingDate),
         ),
       );

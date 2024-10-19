@@ -4721,13 +4721,13 @@ export const OBSERVANCES: MassMap = {
     week: 2,
     novena: true,
   },
-  SANCTI_10_DUr: {
+  SANCTI_10_DUR: {
     flexibility: "santos",
-    id: "SANCTI_10_DUr",
+    id: "SANCTI_10_DUR",
     name: "Cristo Rei",
     rank: 1,
     color: "w",
-    link: "missal/santos/10-DUr",
+    link: "missal/santos/10-dur",
     outro: false,
     type: "sancti",
     category: "santos",
