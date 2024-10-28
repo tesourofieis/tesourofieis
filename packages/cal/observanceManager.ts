@@ -20,6 +20,7 @@ export interface Mass {
     | "epiphany"
     | "pre-lent-to-pentcost"
     | "ember-september"
+    | "pentepi"
     | "week-24-after-pentcost";
   local?: string; // to be used by flexibility santos
   category:

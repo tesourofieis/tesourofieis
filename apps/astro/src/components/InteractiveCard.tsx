@@ -1,5 +1,4 @@
 import { format } from "date-fns";
-import { pt } from "date-fns/locale";
 import { useEffect, useState } from "react";
 
 import { Icon } from "@iconify/react";
@@ -10,8 +9,6 @@ import Office from "./Office";
 
 export default function InteractiveCard() {
   const [date, setDate] = useState(new Date());
-
-  console.log("interactive", date);
 
   useEffect(() => {
     // Update date state immediately
@@ -31,7 +28,7 @@ export default function InteractiveCard() {
           setDate(new Date());
         },
         1000 * 60 * 60,
-      ); // Update every hour
+      );
 
       return () => clearInterval(intervalId);
     }, msUntilNextHour);

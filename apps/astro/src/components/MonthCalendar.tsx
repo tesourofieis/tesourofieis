@@ -82,7 +82,7 @@ export default function MonthlyCalendar() {
               {day?.mass.map((item) => (
                 <LinkCard
                   key={item.id}
-                  href={item.link}
+                  href={`/${item.link}`}
                   caption={"Celebração"}
                   title={item.name}
                   color={getColor(item.color)}

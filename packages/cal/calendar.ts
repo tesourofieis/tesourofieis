@@ -76,7 +76,7 @@ class Calendar {
     );
     this.insertBlock(
       this.calcSaturdayBefore24SundayAfterPentecost(this.year),
-      massManager.getByTypeId("post-epiphany"),
+      massManager.getByTypeId("pentepi"),
       true,
       false,
       this.calcFirstAdventSunday(this.year),
