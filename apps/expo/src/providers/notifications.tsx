@@ -79,7 +79,7 @@ type NotificationsContextType = {
   notificationPrefs: NotificationPreferences;
   setNotificationPref: (
     key: keyof NotificationPreferences,
-    enabled: boolean
+    enabled: boolean,
   ) => Promise<void>;
   list: Notifications.NotificationRequest[];
 };
@@ -103,14 +103,14 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   const scheduleNotification = useCallback(
     async (
       notification: Notifications.NotificationRequestInput,
-      identifier: string
+      identifier: string,
     ) => {
       await Notifications.scheduleNotificationAsync({
         ...notification,
         identifier,
       });
     },
-    []
+    [],
   );
 
   const cancelAllNotifications = useCallback(async () => {
@@ -131,7 +131,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
             },
             trigger: { hour: time.hour, minute: time.minute, repeats: true },
           },
-          identifier
+          identifier,
         );
       }
     }
@@ -161,7 +161,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
                 repeats: false,
               },
             },
-            identifier
+            identifier,
           );
         }
       }
@@ -174,7 +174,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         const novenaDate = subDays(new Date(novena.date), 1);
         if (novenaDate > today) {
           const dayDifference = Math.ceil(
-            (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+            (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
           );
           const currentNovenaDay = Math.max(1, 9 - dayDifference);
           for (let i = currentNovenaDay; i <= 9; i++) {
@@ -192,11 +192,11 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
                     today.getMonth(),
                     today.getDate() + (i - currentNovenaDay),
                     NOTIFICATIONS.NOVENA.times.hour,
-                    NOTIFICATIONS.NOVENA.times.minute
+                    NOTIFICATIONS.NOVENA.times.minute,
                   ),
                 },
               },
-              identifier
+              identifier,
             );
           }
         }
@@ -217,7 +217,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
             },
             trigger: { hour: office.hour, minute: 0, repeats: true },
           },
-          identifier
+          identifier,
         );
       }
     }
@@ -261,7 +261,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         [key]: { enabled },
       }));
     },
-    []
+    [],
   );
 
   return (
@@ -281,7 +281,7 @@ export const useNotifications = () => {
   const context = useContext(NotificationsContext);
   if (context === undefined) {
     throw new Error(
-      "useNotifications must be used within a NotificationsProvider"
+      "useNotifications must be used within a NotificationsProvider",
     );
   }
   return context;

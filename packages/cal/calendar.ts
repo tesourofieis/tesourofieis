@@ -194,7 +194,9 @@ class Calendar {
 
         if (temporaObservances.length > 1) {
           const betterRanking = temporaObservances
-            .sort((a, b) => a.rank - b.rank)
+            .sort((a, b) => {
+              return a.rank - b.rank;
+            })
             .sort((a, b) => {
               if (a.week && b.week) {
                 return a.week - b.week;
@@ -255,7 +257,15 @@ class Calendar {
   }
 
   private removeDuplicates(masses: Mass[]): Mass[] {
-    masses.sort((a, b) => a.rank - b.rank);
+    masses.sort((a, b) => {
+      if (a.rank === b.rank) {
+        if (a.local) return 1;
+        if (b.local) return -1;
+        return 0;
+      }
+
+      return a.rank - b.rank;
+    });
     const seen = new Set<string>();
     return masses.filter((mass) => {
       const id = mass.id; // Assuming each Mass has a unique `id`
