@@ -32,7 +32,7 @@ const NOTIFICATIONS = {
     link: "devocionario/novenas",
   },
   OFFICE: {
-    title: "🕰️ Hora do Ofício",
+    title: "🕰 Hora do Ofício",
     times: [
       { name: "Matinas", hour: 0, link: "/devocionario/oficio/matinas" },
       { name: "Laudes", hour: 3, link: "/devocionario/oficio/laudes" },
@@ -158,7 +158,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
                 hour: NOTIFICATIONS.MASS.times.hour,
                 minute: NOTIFICATIONS.MASS.times.minute,
                 weekday: ((currentDay + i) % 7) + 1,
-                repeats: false,
+                repeats: true,
               },
             },
             identifier,

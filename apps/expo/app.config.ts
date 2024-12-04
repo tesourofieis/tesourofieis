@@ -7,6 +7,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.",
   slug: "tesourofieis",
   scheme: "com.tesourofieis.app",
+  newArchEnabled: true,
   platforms: ["android", "web", "ios"],
   githubUrl: "https://github.com/tesourofieis/tesourofieis",
   version: "0.3.5",
@@ -59,5 +60,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     tsconfigPaths: true,
     typedRoutes: true,
   },
-  plugins: ["expo-router", "expo-font", "expo-notifications"],
+  plugins: [
+    "expo-router",
+    "expo-font",
+    "expo-notifications",
+    "expo-secure-store",
+  ],
 });

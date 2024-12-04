@@ -166,6 +166,12 @@ export default function Not() {
           Receba notificações sobre as mais importantes orações do dia.
         </Text>
 
+        <Text className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
+          As notificações dinâmicas, como as da Missa do Dia e Novenas,
+          necessitam de que o utilizador use a aplicação pelo menos uma vez por
+          semana.
+        </Text>
+
         <NotificationToggle
           title="Angelus"
           icon="bell"
