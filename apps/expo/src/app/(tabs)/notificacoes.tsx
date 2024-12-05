@@ -1,8 +1,8 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import * as Notifications from "expo-notifications";
 import { Link, useRouter } from "expo-router";
-import { useColorScheme } from "nativewind";
 import { useEffect, useState } from "react";
+import { useColorScheme } from "react-native";
 import {
   Button,
   Platform,
@@ -19,7 +19,7 @@ import { useNotifications } from "~/providers/notifications";
 
 export default function Not() {
   const router = useRouter();
-  const { colorScheme } = useColorScheme();
+  const colorScheme = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -292,7 +292,7 @@ const NotificationToggle = ({
   enabled,
   toggle,
 }) => {
-  const { colorScheme } = useColorScheme();
+  const colorScheme = useColorScheme();
   return (
     <View className="py-3">
       <View className="my-1 py-1">

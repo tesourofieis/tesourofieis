@@ -3,8 +3,8 @@ import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { Link } from "expo-router";
 import * as Updates from "expo-updates";
-import { useColorScheme } from "nativewind";
 import React, { useEffect, useState } from "react";
+import { useColorScheme } from "react-native";
 import { ScrollView, Text, View } from "react-native";
 
 import Calendar from "~/components/Calendar";
@@ -16,7 +16,7 @@ import { COLORS } from "~/constants/Colors";
 export default function Render() {
   const [currentDate, setCurrentDate] = useState(new Date());
 
-  const { colorScheme } = useColorScheme();
+  const colorScheme = useColorScheme();
 
   useEffect(() => {
     const timer = setInterval(() => {

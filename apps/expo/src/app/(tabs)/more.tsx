@@ -1,6 +1,5 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { useRouter } from "expo-router";
-import { useColorScheme } from "nativewind";
 import React, { useState, useEffect, useCallback } from "react";
 import {
   ScrollView,
@@ -8,12 +7,13 @@ import {
   TextInput,
   TouchableOpacity,
   View,
+  useColorScheme,
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { sidebar } from "../../../../astro/sidebar";
 
 const MainMenuItem = ({ item, onPress, isExpanded }) => {
-  const { colorScheme } = useColorScheme();
+  const colorScheme = useColorScheme();
   const textColor = colorScheme === "light" ? COLORS["800"] : COLORS["200"];
   const iconColor = colorScheme === "light" ? COLORS["600"] : COLORS["400"];
 
@@ -45,7 +45,7 @@ const MainMenuItem = ({ item, onPress, isExpanded }) => {
 };
 
 const SubMenuItem = ({ item, onPress, isExpanded }) => {
-  const { colorScheme } = useColorScheme();
+  const colorScheme = useColorScheme();
   const textColor = colorScheme === "light" ? COLORS["700"] : COLORS["300"];
   const iconColor = COLORS["500"];
 

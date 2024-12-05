@@ -1,13 +1,13 @@
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { useColorScheme } from "nativewind";
 import React from "react";
+import { useColorScheme } from "react-native";
 import { FlatList, Text, TouchableOpacity, View } from "react-native";
 import { COLORS } from "../constants/Colors";
 
 export default function SearchResults() {
   const router = useRouter();
   const { results } = useLocalSearchParams();
-  const { colorScheme } = useColorScheme();
+  const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 
   const handleItemPress = (item) => {

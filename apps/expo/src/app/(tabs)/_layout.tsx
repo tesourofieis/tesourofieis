@@ -1,12 +1,12 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { Tabs } from "expo-router";
-import { useColorScheme } from "nativewind";
 import React from "react";
+import { useColorScheme } from "react-native";
 
 import { COLORS } from "~/constants/Colors";
 
 export default function TabLayout() {
-  const { colorScheme } = useColorScheme();
+  const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 
   return (
