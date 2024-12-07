@@ -4,7 +4,6 @@ import { Link, useRouter } from "expo-router";
 import { useEffect, useState } from "react";
 import { useColorScheme } from "react-native";
 import {
-  Button,
   Platform,
   Pressable,
   ScrollView,
@@ -241,41 +240,25 @@ export default function Not() {
 
           {isExpanded && list?.length ? (
             <View>
-              {list
-                .sort(
-                  (a, b) =>
-                    a.trigger.hour - b.trigger.hour ||
-                    a.trigger.weekday - b.trigger.weekday,
-                )
-                .map((notification) => (
-                  <View
-                    key={notification.identifier}
-                    style={{
-                      padding: 10,
-                      borderBottomWidth: 1,
-                      borderColor: "#ccc",
-                    }}
-                  >
-                    <Text className="text-sepia-800 dark:text-sepia-200">
-                      {notification.content.title}
+              {list.map((notification) => (
+                <View
+                  key={notification.identifier}
+                  style={{
+                    padding: 10,
+                    borderBottomWidth: 1,
+                    borderColor: "#ccc",
+                  }}
+                >
+                  <Text className="text-sepia-800 dark:text-sepia-200">
+                    {notification.content.title}
+                  </Text>
+                  {notification.content.body ? (
+                    <Text className="text-sepia-700 dark:text-sepia-300">
+                      {notification.content.body}
                     </Text>
-                    {notification.content.body ? (
-                      <Text className="text-sepia-700 dark:text-sepia-300">
-                        {notification.content.body}
-                      </Text>
-                    ) : undefined}
-                    {notification.trigger.hour ? (
-                      <Text className="text-sepia-800 dark:text-sepia-200">
-                        {notification.trigger.hour}
-                      </Text>
-                    ) : undefined}
-                    {notification.trigger.weekday ? (
-                      <Text className="text-sepia-800 dark:text-sepia-200">
-                        Dia da semana: {notification.trigger.weekday}
-                      </Text>
-                    ) : undefined}
-                  </View>
-                ))}
+                  ) : undefined}
+                </View>
+              ))}
             </View>
           ) : undefined}
         </View>

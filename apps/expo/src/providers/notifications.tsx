@@ -129,7 +129,11 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
               data: { url: NOTIFICATIONS.ANGELUS.link },
               color: NOTIFICATIONS.ANGELUS.color,
             },
-            trigger: { hour: time.hour, minute: time.minute, repeats: true },
+            trigger: {
+              type: Notifications.SchedulableTriggerInputTypes.DAILY,
+              hour: time.hour,
+              minute: time.minute,
+            },
           },
           identifier,
         );
@@ -139,8 +143,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     // Schedule Mass
     if (notificationPrefs.MASS.enabled) {
       const today = new Date();
-      const currentDay = today.getDay();
-      for (let i = 0; i < 7; i++) {
+      for (let i = 0; i < 30; i++) {
         const date = addDays(today, i);
         const dayMass = calendar.find((d) => d.date === yyyyMMDD(date))
           ?.mass[0];
@@ -155,10 +158,14 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
                 color: getColor(dayMass.color),
               },
               trigger: {
-                hour: NOTIFICATIONS.MASS.times.hour,
-                minute: NOTIFICATIONS.MASS.times.minute,
-                weekday: ((currentDay + i) % 7) + 1,
-                repeats: true,
+                type: Notifications.SchedulableTriggerInputTypes.DATE,
+                date: new Date(
+                  date.getFullYear(),
+                  date.getMonth(),
+                  date.getDate(),
+                  NOTIFICATIONS.MASS.times.hour,
+                  NOTIFICATIONS.MASS.times.minute,
+                ),
               },
             },
             identifier,
@@ -168,6 +175,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     }
 
     // Schedule Novena
+    // For Novena notifications
     if (notificationPrefs.NOVENA.enabled && novenas) {
       const today = new Date();
       for (const novena of novenas) {
@@ -187,6 +195,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
                   data: { url: "devocionario/novenas" },
                 },
                 trigger: {
+                  type: Notifications.SchedulableTriggerInputTypes.DATE,
                   date: new Date(
                     today.getFullYear(),
                     today.getMonth(),
@@ -215,7 +224,11 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
               data: { url: office.link },
               color: NOTIFICATIONS.OFFICE.color,
             },
-            trigger: { hour: office.hour, minute: 0, repeats: true },
+            trigger: {
+              type: Notifications.SchedulableTriggerInputTypes.DAILY,
+              hour: office.hour,
+              minute: 0,
+            },
           },
           identifier,
         );
