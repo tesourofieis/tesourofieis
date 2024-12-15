@@ -15,9 +15,6 @@ const site = "https://tesourofieis.com";
 export default defineConfig({
   site: site,
   output: "static",
-  experimental: {
-    contentCollectionCache: true,
-  },
   integrations: [
     starlight({
       title: "Tesouro dos Fiéis",
