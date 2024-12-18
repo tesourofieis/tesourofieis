@@ -1150,7 +1150,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "day": 6,
         "flexibility": "santos",
         "id": "SANCTI_02_06",
-        "link": "missal/santos/02-06-1",
+        "link": "missal/santos/02-06",
         "month": 2,
         "name": "S. Tito, Bispo e Confessor",
         "outro": false,
