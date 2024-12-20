@@ -4,17 +4,15 @@ import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { addDays, getYear, isWithinInterval, parseISO } from "date-fns";
 import { type PropsWithChildren, createContext, useContext } from "react";
-import { ActivityIndicator, View } from "react-native";
 
-const CalendarContext =
-  createContext<
-    (year?: number) => {
-      calendar: Day[];
-      day: Day;
-      mass: Mass[];
-      novenas?: Mass[];
-    }
-  >(undefined);
+const CalendarContext = createContext<
+  (year?: number) => {
+    calendar: Day[];
+    day: Day;
+    mass: Mass[];
+    novenas?: Mass[];
+  }
+>(undefined);
 
 export function CalendarProvider({ children }: PropsWithChildren) {
   const getCalendarData = (year?: number) => {

@@ -1,6 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
-import { addDays, subDays } from "date-fns";
+import { addDays, getYear, subDays } from "date-fns";
 import * as Notifications from "expo-notifications";
 import {
   createContext,
@@ -79,7 +79,7 @@ type NotificationsContextType = {
   notificationPrefs: NotificationPreferences;
   setNotificationPref: (
     key: keyof NotificationPreferences,
-    enabled: boolean,
+    enabled: boolean
   ) => Promise<void>;
   list: Notifications.NotificationRequest[];
 };
@@ -98,19 +98,19 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       OFFICE: { enabled: false },
     });
 
-  const { calendar, novenas } = useCalendar();
+  const { novenas } = useCalendar();
 
   const scheduleNotification = useCallback(
     async (
       notification: Notifications.NotificationRequestInput,
-      identifier: string,
+      identifier: string
     ) => {
       await Notifications.scheduleNotificationAsync({
         ...notification,
         identifier,
       });
     },
-    [],
+    []
   );
 
   const cancelAllNotifications = useCallback(async () => {
@@ -135,7 +135,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
               minute: time.minute,
             },
           },
-          identifier,
+          identifier
         );
       }
     }
@@ -143,8 +143,10 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     // Schedule Mass
     if (notificationPrefs.MASS.enabled) {
       const today = new Date();
-      for (let i = 0; i < 30; i++) {
+
+      for (let i = 0; i < 5; i++) {
         const date = addDays(today, i);
+        let { calendar } = useCalendar(getYear(date));
         const dayMass = calendar.find((d) => d.date === yyyyMMDD(date))
           ?.mass[0];
         if (dayMass) {
@@ -164,11 +166,11 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
                   date.getMonth(),
                   date.getDate(),
                   NOTIFICATIONS.MASS.times.hour,
-                  NOTIFICATIONS.MASS.times.minute,
+                  NOTIFICATIONS.MASS.times.minute
                 ),
               },
             },
-            identifier,
+            identifier
           );
         }
       }
@@ -182,7 +184,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         const novenaDate = subDays(new Date(novena.date), 1);
         if (novenaDate > today) {
           const dayDifference = Math.ceil(
-            (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
+            (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
           const currentNovenaDay = Math.max(1, 9 - dayDifference);
           for (let i = currentNovenaDay; i <= 9; i++) {
@@ -201,11 +203,11 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
                     today.getMonth(),
                     today.getDate() + (i - currentNovenaDay),
                     NOTIFICATIONS.NOVENA.times.hour,
-                    NOTIFICATIONS.NOVENA.times.minute,
+                    NOTIFICATIONS.NOVENA.times.minute
                   ),
                 },
               },
-              identifier,
+              identifier
             );
           }
         }
@@ -230,11 +232,11 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
               minute: 0,
             },
           },
-          identifier,
+          identifier
         );
       }
     }
-  }, [notificationPrefs, calendar, novenas, scheduleNotification]);
+  }, [notificationPrefs, novenas, scheduleNotification]);
 
   const syncNotifications = useCallback(async () => {
     await cancelAllNotifications();
@@ -274,7 +276,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         [key]: { enabled },
       }));
     },
-    [],
+    []
   );
 
   return (
@@ -294,7 +296,7 @@ export const useNotifications = () => {
   const context = useContext(NotificationsContext);
   if (context === undefined) {
     throw new Error(
-      "useNotifications must be used within a NotificationsProvider",
+      "useNotifications must be used within a NotificationsProvider"
     );
   }
   return context;
