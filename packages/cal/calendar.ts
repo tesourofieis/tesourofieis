@@ -12,7 +12,6 @@ import {
   nextWednesday,
   previousSaturday,
   previousSunday,
-  startOfYear,
   subDays,
 } from "date-fns";
 import { type Mass, massManager } from "./observanceManager";
@@ -66,35 +65,36 @@ class Calendar {
     // Days depending on variable date, such as Easter or Advent
     // """
     // # Inserting blocks
+
     this.insertBlock(
       this.calcHolyFamily(),
-      massManager.getByTypeId("post-epiphany"),
+      massManager.getByTypeId("post-epiphany")
     );
     this.insertBlock(
       this.calcSeptuagesima(this.year),
-      massManager.getByTypeId("pre-lent-to-pentcost"),
+      massManager.getByTypeId("pre-lent-to-pentcost")
     );
     this.insertBlock(
       this.calcSaturdayBefore24SundayAfterPentecost(this.year),
       massManager.getByTypeId("pentepi"),
       true,
       false,
-      this.calcFirstAdventSunday(this.year),
+      this.calcFirstAdventSunday(this.year)
     );
     this.insertBlock(
       this.calc24SundayAfterPentecost(this.year),
-      massManager.getByTypeId("week-24-after-pentcost"),
+      massManager.getByTypeId("week-24-after-pentcost")
     );
     this.insertBlock(
       this.calcFirstAdventSunday(this.year),
       massManager.getByTypeId("advent"),
       false,
       false,
-      new Date(this.year, 11, 23),
+      new Date(this.year, 11, 23)
     );
     this.insertBlock(
       this.calcEmberWednesdaySeptember(this.year),
-      massManager.getByTypeId("ember-september"),
+      massManager.getByTypeId("ember-september")
     );
 
     // # Inserting single days
@@ -105,8 +105,8 @@ class Calendar {
       holyName.mass.push(
         massManager.createMassWithDate(
           massManager.getById("TEMPORA_NAT2_0"),
-          yyyyMMDD(holyNameDate),
-        ),
+          yyyyMMDD(holyNameDate)
+        )
       );
     }
 
@@ -117,8 +117,8 @@ class Calendar {
       christKing.mass.push(
         massManager.createMassWithDate(
           massManager.getById("SANCTI_10_DUR"),
-          yyyyMMDD(christKingDate),
-        ),
+          yyyyMMDD(christKingDate)
+        )
       );
     }
 
@@ -135,7 +135,7 @@ class Calendar {
     block: Mass[],
     reverse = false,
     overwrite = true,
-    stopDate?: Date,
+    stopDate?: Date
   ) {
     if (reverse) {
       // TODO: use toReversed in order not to mutate the original
@@ -189,7 +189,7 @@ class Calendar {
 
       if (result?.observances) {
         const temporaObservances = result.observances.filter(
-          (i) => i.flexibility === "tempora",
+          (i) => i.flexibility === "tempora"
         );
 
         if (temporaObservances.length > 1) {
@@ -207,6 +207,64 @@ class Calendar {
             ...result.observances.filter((i) => i.flexibility !== "tempora"),
             betterRanking,
           ];
+        }
+      }
+
+      if (!result.observances?.filter((i) => i.id).length) {
+        // Handle case where no result.observances exists
+        let currentDate = new Date(date);
+
+        // Find the latest Sunday or January 6th
+        while (
+          !isSunday(currentDate) &&
+          !(getMonth(currentDate) === 0 && getDate(currentDate) === 6)
+        ) {
+          if (
+            getYear(currentDate) === getYear(new Date(date)) &&
+            getMonth(currentDate) === 0 &&
+            getDate(currentDate) === 1
+          ) {
+            break;
+          }
+          currentDate = subDays(currentDate, 1);
+        }
+
+        const previousDay = this.getDay(yyyyMMDD(currentDate));
+
+        if (previousDay) {
+          if (previousDay.mass[0]?.id === "TEMPORA_EPI1_0") {
+            // "Feast of the Holy Family" replacement case
+            this.updateDay(date, [
+              massManager.createMassWithDate(
+                massManager.getById("TEMPORA_EPI1_0A")!,
+                date
+              ),
+            ]);
+          } else if (previousDay.mass[0]?.id === "TEMPORA_PENT01_0") {
+            // "Trinity Sunday" replacement case
+            this.updateDay(date, [
+              massManager.createMassWithDate(
+                massManager.getById("TEMPORA_PENT01_0A")!,
+                date
+              ),
+            ]);
+          } else if (previousDay.mass[0]?.id === "TEMPORA_NAT2_0") {
+            // Holy Name feast case
+            this.updateDay(date, [
+              massManager.createMassWithDate(
+                massManager.getById("SANCTI_01_01")!,
+                date
+              ),
+            ]);
+          } else {
+            // Default case - use the first available mass
+            const massToUse = previousDay.mass[0];
+            if (massToUse) {
+              this.updateDay(date, [
+                massManager.createMassWithDate(massToUse, date),
+              ]);
+            }
+          }
         }
       }
 
@@ -241,8 +299,8 @@ class Calendar {
         currentObservances = currentObservances.filter(
           (obs) =>
             !result.toShift!.observances.some(
-              (shiftedObs) => shiftedObs.id === obs.id,
-            ),
+              (shiftedObs) => shiftedObs.id === obs.id
+            )
         );
         return {
           observances: result.observances || currentObservances,

@@ -7,6 +7,7 @@ import {
   useCallback,
   useContext,
   useEffect,
+  useMemo,
   useState,
 } from "react";
 import { useCalendar } from "./calendar";
@@ -79,7 +80,7 @@ type NotificationsContextType = {
   notificationPrefs: NotificationPreferences;
   setNotificationPref: (
     key: keyof NotificationPreferences,
-    enabled: boolean
+    enabled: boolean,
   ) => Promise<void>;
   list: Notifications.NotificationRequest[];
 };
@@ -98,19 +99,19 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       OFFICE: { enabled: false },
     });
 
-  const { novenas } = useCalendar();
+  const { novenas, nextMasses } = useCalendar();
 
   const scheduleNotification = useCallback(
     async (
       notification: Notifications.NotificationRequestInput,
-      identifier: string
+      identifier: string,
     ) => {
       await Notifications.scheduleNotificationAsync({
         ...notification,
         identifier,
       });
     },
-    []
+    [],
   );
 
   const cancelAllNotifications = useCallback(async () => {
@@ -135,56 +136,49 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
               minute: time.minute,
             },
           },
-          identifier
+          identifier,
         );
       }
     }
 
-    // Schedule Mass
-    if (notificationPrefs.MASS.enabled) {
-      const today = new Date();
-
-      for (let i = 0; i < 5; i++) {
-        const date = addDays(today, i);
-        let { calendar } = useCalendar(getYear(date));
-        const dayMass = calendar.find((d) => d.date === yyyyMMDD(date))
-          ?.mass[0];
-        if (dayMass) {
-          const identifier = `mass-${yyyyMMDD(date)}`;
+    if (notificationPrefs.MASS.enabled && nextMasses) {
+      for (const { date, mass } of nextMasses) {
+        for (let i = 0; i <= 15; i++) {
+          const identifier = `mass-${date}`;
+          const d = new Date(date);
           await scheduleNotification(
             {
               content: {
-                title: `${NOTIFICATIONS.MASS.title} ${dayMass.name}`,
-                body: dayMass.name,
-                data: { url: dayMass.link },
-                color: getColor(dayMass.color),
+                title: `${NOTIFICATIONS.MASS.title} ${mass[0].name}`,
+                body: mass[0].name,
+                data: { url: mass[0].link },
+                color: getColor(mass[0].color),
               },
               trigger: {
                 type: Notifications.SchedulableTriggerInputTypes.DATE,
                 date: new Date(
-                  date.getFullYear(),
-                  date.getMonth(),
-                  date.getDate(),
+                  d.getFullYear(),
+                  d.getMonth(),
+                  d.getDate(),
                   NOTIFICATIONS.MASS.times.hour,
-                  NOTIFICATIONS.MASS.times.minute
+                  NOTIFICATIONS.MASS.times.minute,
                 ),
               },
             },
-            identifier
+            identifier,
           );
         }
       }
     }
 
     // Schedule Novena
-    // For Novena notifications
     if (notificationPrefs.NOVENA.enabled && novenas) {
       const today = new Date();
       for (const novena of novenas) {
         const novenaDate = subDays(new Date(novena.date), 1);
         if (novenaDate > today) {
           const dayDifference = Math.ceil(
-            (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+            (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
           );
           const currentNovenaDay = Math.max(1, 9 - dayDifference);
           for (let i = currentNovenaDay; i <= 9; i++) {
@@ -203,11 +197,11 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
                     today.getMonth(),
                     today.getDate() + (i - currentNovenaDay),
                     NOTIFICATIONS.NOVENA.times.hour,
-                    NOTIFICATIONS.NOVENA.times.minute
+                    NOTIFICATIONS.NOVENA.times.minute,
                   ),
                 },
               },
-              identifier
+              identifier,
             );
           }
         }
@@ -232,11 +226,11 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
               minute: 0,
             },
           },
-          identifier
+          identifier,
         );
       }
     }
-  }, [notificationPrefs, novenas, scheduleNotification]);
+  }, [notificationPrefs]);
 
   const syncNotifications = useCallback(async () => {
     await cancelAllNotifications();
@@ -276,7 +270,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         [key]: { enabled },
       }));
     },
-    []
+    [],
   );
 
   return (
@@ -296,7 +290,7 @@ export const useNotifications = () => {
   const context = useContext(NotificationsContext);
   if (context === undefined) {
     throw new Error(
-      "useNotifications must be used within a NotificationsProvider"
+      "useNotifications must be used within a NotificationsProvider",
     );
   }
   return context;
