@@ -6,6 +6,7 @@ import {
   getDay,
   getMonth,
   getYear,
+  isAfter,
   isSameDay,
   isSunday,
   nextSunday,
@@ -65,6 +66,13 @@ class Calendar {
     // Days depending on variable date, such as Easter or Advent
     // """
     // # Inserting blocks
+
+    // if (isAfter(this.calcHolyFamily(), new Date(this.year, 0, 7))) {
+    //   this.insertBlock(
+    //     new Date(this.year, 0, 7),
+    //     massManager.getFeriaByTypeId("post-epiphany")
+    //   );
+    // }
 
     this.insertBlock(
       this.calcHolyFamily(),
@@ -232,38 +240,24 @@ class Calendar {
         const previousDay = this.getDay(yyyyMMDD(currentDate));
 
         if (previousDay) {
-          if (previousDay.mass[0]?.id === "TEMPORA_EPI1_0") {
+          if (previousDay.mass[0]?.id === "SANCTI_01_06") {
             // "Feast of the Holy Family" replacement case
             this.updateDay(date, [
               massManager.createMassWithDate(
-                massManager.getById("TEMPORA_EPI1_0A")!,
+                {
+                  flexibility: "tempora",
+                  id: "Feria",
+                  name: "Feria",
+                  rank: 4,
+                  color: "w",
+                  link: "missal/santos/01-06",
+                  outro: false,
+                  type: "post-epiphany",
+                  category: "epifania",
+                },
                 date
               ),
             ]);
-          } else if (previousDay.mass[0]?.id === "TEMPORA_PENT01_0") {
-            // "Trinity Sunday" replacement case
-            this.updateDay(date, [
-              massManager.createMassWithDate(
-                massManager.getById("TEMPORA_PENT01_0A")!,
-                date
-              ),
-            ]);
-          } else if (previousDay.mass[0]?.id === "TEMPORA_NAT2_0") {
-            // Holy Name feast case
-            this.updateDay(date, [
-              massManager.createMassWithDate(
-                massManager.getById("SANCTI_01_01")!,
-                date
-              ),
-            ]);
-          } else {
-            // Default case - use the first available mass
-            const massToUse = previousDay.mass[0];
-            if (massToUse) {
-              this.updateDay(date, [
-                massManager.createMassWithDate(massToUse, date),
-              ]);
-            }
           }
         }
       }

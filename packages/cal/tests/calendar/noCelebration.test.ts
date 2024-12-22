@@ -1,7 +1,7 @@
 import { expect, test } from "vitest";
 import { getCalendarDay } from "../../getCalendar";
 
-test("no celebration when tempora 2024", () => {
+test("no celebration when tempora 01-08 2024", () => {
   const calendar = getCalendarDay("2024-01-08");
   expect(calendar).toMatchObject({
     date: "2024-01-08",
@@ -14,6 +14,24 @@ test("no celebration when tempora 2024", () => {
         link: "missal/epifania/epi1-0",
         rank: 4,
         name: "Segunda-feira da semana após a Epifania",
+      },
+    ],
+  });
+});
+
+test("no celebration when tempora 01-07 2024", () => {
+  const calendar = getCalendarDay("2024-01-07");
+  expect(calendar).toMatchObject({
+    date: "2024-01-07",
+    mass: [
+      {
+        color: "w",
+        date: "2024-01-07",
+        flexibility: "tempora",
+        id: "TEMPORA_EPI1_0A",
+        link: "missal/epifania/epi1-0a",
+        name: "Sagrada Família",
+        rank: 2,
       },
     ],
   });
