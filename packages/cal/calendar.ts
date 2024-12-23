@@ -6,13 +6,13 @@ import {
   getDay,
   getMonth,
   getYear,
+  isAfter,
   isSameDay,
   isSunday,
   nextSunday,
   nextWednesday,
   previousSaturday,
   previousSunday,
-  startOfYear,
   subDays,
 } from "date-fns";
 import { type Mass, massManager } from "./observanceManager";
@@ -66,6 +66,14 @@ class Calendar {
     // Days depending on variable date, such as Easter or Advent
     // """
     // # Inserting blocks
+
+    // if (isAfter(this.calcHolyFamily(), new Date(this.year, 0, 7))) {
+    //   this.insertBlock(
+    //     new Date(this.year, 0, 7),
+    //     massManager.getFeriaByTypeId("post-epiphany")
+    //   );
+    // }
+
     this.insertBlock(
       this.calcHolyFamily(),
       massManager.getByTypeId("post-epiphany"),
@@ -207,6 +215,40 @@ class Calendar {
             ...result.observances.filter((i) => i.flexibility !== "tempora"),
             betterRanking,
           ];
+        }
+      }
+
+      if (!result.observances?.filter((i) => i.id).length) {
+        // Handle case where no result.observances exists
+        let currentDate = new Date(date);
+
+        // Find the latest Sunday or January 6th
+        while (
+          !isSunday(currentDate) &&
+          !(getMonth(currentDate) === 0 && getDate(currentDate) === 6)
+        ) {
+          if (
+            getYear(currentDate) === getYear(new Date(date)) &&
+            getMonth(currentDate) === 0 &&
+            getDate(currentDate) === 1
+          ) {
+            break;
+          }
+          currentDate = subDays(currentDate, 1);
+        }
+
+        const previousDay = this.getDay(yyyyMMDD(currentDate));
+
+        if (previousDay) {
+          this.updateDay(date, [
+            massManager.createMassWithDate(
+              {
+                ...previousDay.mass[0],
+                name: "Feria",
+              },
+              date,
+            ),
+          ]);
         }
       }
 

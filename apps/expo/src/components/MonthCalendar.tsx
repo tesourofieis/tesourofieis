@@ -4,6 +4,7 @@ import {
   eachDayOfInterval,
   endOfMonth,
   format,
+  getYear,
   startOfMonth,
 } from "date-fns";
 import { pt } from "date-fns/locale";
@@ -16,9 +17,10 @@ import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
 export default function MonthlyCalendar() {
-  const [currentMonth, setCurrentMonth] = useState(new Date());
-  const { calendar } = useCalendar();
   const today = yyyyMMDD(new Date());
+  const [currentMonth, setCurrentMonth] = useState(new Date());
+  const currentYear = getYear(currentMonth);
+  const { calendar } = useCalendar(currentYear);
 
   const handlePreviousMonth = () => {
     setCurrentMonth((prevMonth) => addMonths(prevMonth, -1));

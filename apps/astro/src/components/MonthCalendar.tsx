@@ -55,8 +55,6 @@ export default function MonthlyCalendar() {
     end: endOfMonth(currentMonth),
   });
 
-  // return <>{JSON.stringify(currentMonth, null, 2)}</>;
-
   return (
     <div className="text-xs">
       <ChangeMonth

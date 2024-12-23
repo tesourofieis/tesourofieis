@@ -1,4 +1,4 @@
-import { getDate, getMonth } from "date-fns";
+import { getDate, getMonth, isSunday } from "date-fns";
 import { OBSERVANCES } from "./observances";
 
 export interface Mass {
@@ -85,6 +85,12 @@ export class MassManager {
 
   getByTypeId(type: Mass["type"]): Mass[] {
     return this.masses.filter((mass) => mass.type === type);
+  }
+
+  getFeriaByTypeId(type: Mass["type"]): Mass[] {
+    return this.masses
+      .filter((mass) => mass.type === type)
+      .filter((mass) => mass.weekday !== 0);
   }
 
   getOutro(): Mass[] {
