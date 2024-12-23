@@ -40,15 +40,16 @@ export function CalendarProvider({ children }: PropsWithChildren) {
     }
 
     function getNextMasses(days = 15) {
-      return calendar.filter((item) => {
-        for (let i = 0; i <= days; i++) {
-          const checkDate = addDays(today, i);
-          if (yyyyMMDD(checkDate) === item.date) {
-            return true;
-          }
-        }
-        return false;
-      });
+      const currentDayIndex = 0;
+      const nextMasses: Day[] = [];
+      Array.from({ length: days }, (_, i) => currentDayIndex + i).map(
+        (index) => {
+          const checkDate = addDays(today, index);
+          const day = getCalendarDay(yyyyMMDD(checkDate));
+          nextMasses.push(day);
+        },
+      );
+      return nextMasses;
     }
 
     if (!calendar || !day) {

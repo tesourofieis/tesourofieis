@@ -142,31 +142,29 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
 
     if (notificationPrefs.MASS.enabled && nextMasses.length) {
       for (const { date, mass } of nextMasses) {
-        for (let i = 0; i <= 15; i++) {
-          const identifier = `mass-${date}`;
-          const d = new Date(date);
-          await scheduleNotification(
-            {
-              content: {
-                title: `${NOTIFICATIONS.MASS.title} ${mass[0].name}`,
-                body: mass[0].name,
-                data: { url: mass[0].link },
-                color: getColor(mass[0].color),
-              },
-              trigger: {
-                type: Notifications.SchedulableTriggerInputTypes.DATE,
-                date: new Date(
-                  d.getFullYear(),
-                  d.getMonth(),
-                  d.getDate(),
-                  NOTIFICATIONS.MASS.times.hour,
-                  NOTIFICATIONS.MASS.times.minute,
-                ),
-              },
+        const identifier = `mass-${date}`;
+        const d = new Date(date);
+        await scheduleNotification(
+          {
+            content: {
+              title: `${NOTIFICATIONS.MASS.title} ${mass[0].name}`,
+              body: mass[0].name,
+              data: { url: mass[0].link },
+              color: getColor(mass[0].color),
             },
-            identifier,
-          );
-        }
+            trigger: {
+              type: Notifications.SchedulableTriggerInputTypes.DATE,
+              date: new Date(
+                d.getFullYear(),
+                d.getMonth(),
+                d.getDate(),
+                NOTIFICATIONS.MASS.times.hour,
+                NOTIFICATIONS.MASS.times.minute,
+              ),
+            },
+          },
+          identifier,
+        );
       }
     }
 
