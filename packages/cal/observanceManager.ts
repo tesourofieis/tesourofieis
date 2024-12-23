@@ -123,13 +123,13 @@ export class MassManager {
 
   getAdventSunday(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "advento" && mass.weekday === 0
+      (mass) => mass.category === "advento" && mass.weekday === 0,
     );
   }
 
   getAdventFeria(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "advento" && mass.weekday !== 0
+      (mass) => mass.category === "advento" && mass.weekday !== 0,
     );
   }
 
@@ -141,7 +141,7 @@ export class MassManager {
     return this.masses.filter(
       (mass) =>
         mass.category === "pascoa" &&
-        ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4))
+        ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4)),
     );
   }
 
@@ -151,13 +151,13 @@ export class MassManager {
 
   getLentSunday(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "quaresma" && mass.weekday === 0
+      (mass) => mass.category === "quaresma" && mass.weekday === 0,
     );
   }
 
   getTemporaSunday(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.id.startsWith("tempora:") && mass.id.includes("-0")
+      (mass) => mass.id.startsWith("tempora:") && mass.id.includes("-0"),
     );
   }
 
@@ -166,7 +166,7 @@ export class MassManager {
       (mass) =>
         mass.category === "quaresma" &&
         mass.week === 1 &&
-        mass.day === (3 || 5 || 6)
+        mass.day === (3 || 5 || 6),
     );
   }
 
@@ -179,7 +179,7 @@ export class MassManager {
       (mass) =>
         mass.category === "advento" &&
         mass.week === 3 &&
-        mass.day === (3 || 5 || 6)
+        mass.day === (3 || 5 || 6),
     );
   }
 
@@ -195,44 +195,44 @@ export class MassManager {
         (mass.flexibility === "tempora" &&
           mass.weekday === 0 &&
           mass.rank === 2) ||
-        mass.id === "TEMPORA_NAT1_0"
+        mass.id === "TEMPORA_NAT1_0",
     );
   }
 
   getTemporaClass4(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.flexibility === "tempora" && mass.rank === 4
+      (mass) => mass.flexibility === "tempora" && mass.rank === 4,
     );
   }
 
   getSanctiClass1(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 1
+      (mass) => mass.category === "santos" && mass.rank === 1,
     );
   }
 
   getSanctiClass2(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 2
+      (mass) => mass.category === "santos" && mass.rank === 2,
     );
   }
 
   getSanctiClass3(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 3
+      (mass) => mass.category === "santos" && mass.rank === 3,
     );
   }
 
   getSanctiClass4(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 4
+      (mass) => mass.category === "santos" && mass.rank === 4,
     );
   }
 
   getSanctiClass1Or2(): Mass[] {
     return this.masses.filter(
       (mass) =>
-        mass.id.startsWith("santos:") && (mass.rank === 1 || mass.rank === 2)
+        mass.id.startsWith("santos:") && (mass.rank === 1 || mass.rank === 2),
     );
   }
 
@@ -250,7 +250,7 @@ export class MassManager {
 
   match(
     observances: Mass[],
-    criteria: Mass | Mass[] | ((mass: Mass) => boolean)
+    criteria: Mass | Mass[] | ((mass: Mass) => boolean),
   ): Mass | undefined {
     const observanceArray = Array.isArray(observances)
       ? observances

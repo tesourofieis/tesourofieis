@@ -2,7 +2,7 @@ import { addDays, format, getYear, startOfToday } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useState } from "react";
 
-import { getCalendar } from "@tesourofieis/cal/getCalendar";
+import { getCalendar, getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
 import type { Mass } from "@tesourofieis/cal/observanceManager";
@@ -26,7 +26,6 @@ export function getColor(color: Mass["color"]) {
 }
 
 export default function DailyCalendar() {
-  const calendar = getCalendar(getYear(new Date()));
   const today = startOfToday();
   const [currentDayIndex] = useState(0);
 
@@ -44,14 +43,13 @@ export default function DailyCalendar() {
         {Array.from({ length: 15 }, (_, i) => currentDayIndex + i).map(
           (index) => {
             const date = getDate(index);
-            const dateString = yyyyMMDD(date);
-            const day = calendar.find((i) => i.date === dateString);
+            const day = getCalendarDay(yyyyMMDD(date));
             console.log("Current date in array:", day);
             return (
               <div
-                key={dateString}
+                key={date.toISOString()}
                 className={`mx-2 mb-4 flex flex-col gap-2 rounded p-4 ${
-                  dateString === yyyyMMDD(today)
+                  day.date === yyyyMMDD(today)
                     ? "bg-sepia-200 dark:bg-sepia-800"
                     : "bg-sepia-100 dark:bg-sepia-900"
                 }`}

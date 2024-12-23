@@ -1,13 +1,11 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { yyyyMMDD } from "@tesourofieis/cal/utils";
-import { addDays, getYear, subDays } from "date-fns";
+import { subDays } from "date-fns";
 import * as Notifications from "expo-notifications";
 import {
   createContext,
   useCallback,
   useContext,
   useEffect,
-  useMemo,
   useState,
 } from "react";
 import { useCalendar } from "./calendar";
@@ -118,6 +116,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     await Notifications.cancelAllScheduledNotificationsAsync();
   }, []);
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   const scheduleNotifications = useCallback(async () => {
     // Schedule Angelus
     if (notificationPrefs.ANGELUS.enabled) {
@@ -141,7 +140,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       }
     }
 
-    if (notificationPrefs.MASS.enabled && nextMasses) {
+    if (notificationPrefs.MASS.enabled && nextMasses.length) {
       for (const { date, mass } of nextMasses) {
         for (let i = 0; i <= 15; i++) {
           const identifier = `mass-${date}`;

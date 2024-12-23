@@ -76,33 +76,33 @@ class Calendar {
 
     this.insertBlock(
       this.calcHolyFamily(),
-      massManager.getByTypeId("post-epiphany")
+      massManager.getByTypeId("post-epiphany"),
     );
     this.insertBlock(
       this.calcSeptuagesima(this.year),
-      massManager.getByTypeId("pre-lent-to-pentcost")
+      massManager.getByTypeId("pre-lent-to-pentcost"),
     );
     this.insertBlock(
       this.calcSaturdayBefore24SundayAfterPentecost(this.year),
       massManager.getByTypeId("pentepi"),
       true,
       false,
-      this.calcFirstAdventSunday(this.year)
+      this.calcFirstAdventSunday(this.year),
     );
     this.insertBlock(
       this.calc24SundayAfterPentecost(this.year),
-      massManager.getByTypeId("week-24-after-pentcost")
+      massManager.getByTypeId("week-24-after-pentcost"),
     );
     this.insertBlock(
       this.calcFirstAdventSunday(this.year),
       massManager.getByTypeId("advent"),
       false,
       false,
-      new Date(this.year, 11, 23)
+      new Date(this.year, 11, 23),
     );
     this.insertBlock(
       this.calcEmberWednesdaySeptember(this.year),
-      massManager.getByTypeId("ember-september")
+      massManager.getByTypeId("ember-september"),
     );
 
     // # Inserting single days
@@ -113,8 +113,8 @@ class Calendar {
       holyName.mass.push(
         massManager.createMassWithDate(
           massManager.getById("TEMPORA_NAT2_0"),
-          yyyyMMDD(holyNameDate)
-        )
+          yyyyMMDD(holyNameDate),
+        ),
       );
     }
 
@@ -125,8 +125,8 @@ class Calendar {
       christKing.mass.push(
         massManager.createMassWithDate(
           massManager.getById("SANCTI_10_DUR"),
-          yyyyMMDD(christKingDate)
-        )
+          yyyyMMDD(christKingDate),
+        ),
       );
     }
 
@@ -143,7 +143,7 @@ class Calendar {
     block: Mass[],
     reverse = false,
     overwrite = true,
-    stopDate?: Date
+    stopDate?: Date,
   ) {
     if (reverse) {
       // TODO: use toReversed in order not to mutate the original
@@ -197,7 +197,7 @@ class Calendar {
 
       if (result?.observances) {
         const temporaObservances = result.observances.filter(
-          (i) => i.flexibility === "tempora"
+          (i) => i.flexibility === "tempora",
         );
 
         if (temporaObservances.length > 1) {
@@ -240,25 +240,15 @@ class Calendar {
         const previousDay = this.getDay(yyyyMMDD(currentDate));
 
         if (previousDay) {
-          if (previousDay.mass[0]?.id === "SANCTI_01_06") {
-            // "Feast of the Holy Family" replacement case
-            this.updateDay(date, [
-              massManager.createMassWithDate(
-                {
-                  flexibility: "tempora",
-                  id: "Feria",
-                  name: "Feria",
-                  rank: 4,
-                  color: "w",
-                  link: "missal/santos/01-06",
-                  outro: false,
-                  type: "post-epiphany",
-                  category: "epifania",
-                },
-                date
-              ),
-            ]);
-          }
+          this.updateDay(date, [
+            massManager.createMassWithDate(
+              {
+                ...previousDay.mass[0],
+                name: "Feria",
+              },
+              date,
+            ),
+          ]);
         }
       }
 
@@ -293,8 +283,8 @@ class Calendar {
         currentObservances = currentObservances.filter(
           (obs) =>
             !result.toShift!.observances.some(
-              (shiftedObs) => shiftedObs.id === obs.id
-            )
+              (shiftedObs) => shiftedObs.id === obs.id,
+            ),
         );
         return {
           observances: result.observances || currentObservances,
