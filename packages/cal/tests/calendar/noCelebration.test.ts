@@ -45,11 +45,11 @@ test("no celebration when tempora 2025", () => {
       {
         color: "w",
         date: "2025-01-07",
-        flexibility: "tempora",
-        id: "TEMPORA_EPI1_1",
-        link: "missal/epifania/epi1-0",
-        rank: 4,
-        name: "Segunda-feira da semana após a Epifania",
+        flexibility: "santos",
+        id: "SANCTI_01_06",
+        link: "missal/santos/01-06",
+        name: "Feria",
+        rank: 1,
       },
     ],
   });
