@@ -227,7 +227,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         );
       }
     }
-  }, [notificationPrefs]);
+  }, [notificationPrefs, novenas, nextMasses]);
 
   const syncNotifications = useCallback(async () => {
     await cancelAllNotifications();
