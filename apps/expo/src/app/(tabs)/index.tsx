@@ -73,7 +73,6 @@ export default function Render() {
         </View>
 
         <View className="flex flex-col items-center mt-20 justify-center gap-5">
-          {/* @ts-ignore */}
           <FontAwesome6 name="book-bible" size={180} color="#e53935" />
           <Text className="font-display text-3xl text-red-600 m-3">
             Tesouro dos Fiéis

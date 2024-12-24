@@ -65,5 +65,11 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     "expo-font",
     "expo-notifications",
     "expo-secure-store",
+    [
+      "expo-dev-launcher",
+      {
+        launchMode: "most-recent",
+      },
+    ],
   ],
 });
