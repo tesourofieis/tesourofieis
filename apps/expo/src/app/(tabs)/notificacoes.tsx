@@ -145,7 +145,7 @@ export default function Not() {
 
   return (
     <SafeAreaView>
-      <ScrollView className="px-5">
+      <ScrollView className="px-5 bg-sepia-200 dark:bg-sepia-800">
         <View className="flex-row items-center">
           <FontAwesome6
             name="gear"

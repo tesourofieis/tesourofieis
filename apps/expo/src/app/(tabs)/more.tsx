@@ -202,7 +202,7 @@ export default function MoreScreen() {
   );
 
   return (
-    <ScrollView className="flex-1 p-3">
+    <ScrollView className="flex-1 p-3 bg-sepia-200 dark:bg-sepia-800">
       <TextInput
         className="bg-sepia-100 dark:bg-sepia-800 text-sepia-800 dark:text-sepia-200 p-3 rounded-lg m-1"
         placeholder="Procurar..."

@@ -40,7 +40,7 @@ export default function MonthlyCalendar() {
   });
 
   return (
-    <View>
+    <View className="bg-sepia-200 dark:bg-sepia-800">
       <View className="text-sm">
         <ChangeMonth
           handleNextMonth={handleNextMonth}
