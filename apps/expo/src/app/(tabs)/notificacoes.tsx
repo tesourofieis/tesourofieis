@@ -56,7 +56,7 @@ export default function Not() {
   if (Platform.OS === "web") {
     return (
       <SafeAreaView>
-        <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
+        <ScrollView className="bg-sepia-200 dark:bg-sepia-800 p-5">
           <View className="flex-row items-center">
             <FontAwesome6
               name="gear"
@@ -104,7 +104,7 @@ export default function Not() {
               </Link>
             </View>
           </View>
-        </View>
+        </ScrollView>
       </SafeAreaView>
     );
   }
@@ -145,7 +145,7 @@ export default function Not() {
 
   return (
     <SafeAreaView>
-      <ScrollView className="px-5 bg-sepia-200 dark:bg-sepia-800">
+      <ScrollView className="px-5 bg-sepia-200 dark:bg-sepia-800 h-full">
         <View className="flex-row items-center">
           <FontAwesome6
             name="gear"
@@ -224,13 +224,13 @@ export default function Not() {
           }
         />
 
-        <View className="bg-sepia-200 dark:bg-sepia-800 mb-5">
+        <View className="mt-5">
           {list?.length > 0 ? (
             <TouchableOpacity
               onPress={toggleExpand}
               className="p-3 bg-sepia-300 dark:bg-sepia-700 text-sepia-700 dark:text-sepia-300"
             >
-              <Text className="text-center font-bold">
+              <Text className="text-center font-bold text-sepia-800 dark:text-sepia-200">
                 {isExpanded
                   ? "Esconder lista notificações"
                   : "Mostrar lista de notificações"}
