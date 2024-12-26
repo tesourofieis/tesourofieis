@@ -1,5 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { subDays } from "date-fns";
+import { yyyyMMDD } from "@tesourofieis/cal/utils";
+import { addDays, subDays } from "date-fns";
 import * as Notifications from "expo-notifications";
 import {
   createContext,
@@ -97,7 +98,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       OFFICE: { enabled: false },
     });
 
-  const { novenas, nextMasses } = useCalendar();
+  const { calendar, novenas } = useCalendar();
 
   const scheduleNotification = useCallback(
     async (
@@ -116,7 +117,6 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     await Notifications.cancelAllScheduledNotificationsAsync();
   }, []);
 
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   const scheduleNotifications = useCallback(async () => {
     // Schedule Angelus
     if (notificationPrefs.ANGELUS.enabled) {
@@ -140,35 +140,42 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       }
     }
 
-    if (notificationPrefs.MASS.enabled && nextMasses.length) {
-      for (const { date, mass } of nextMasses) {
-        const identifier = `mass-${date}`;
-        const d = new Date(date);
-        await scheduleNotification(
-          {
-            content: {
-              title: `${NOTIFICATIONS.MASS.title} ${mass[0].name}`,
-              body: mass[0].name,
-              data: { url: mass[0].link },
-              color: getColor(mass[0].color),
+    // Schedule Mass
+    if (notificationPrefs.MASS.enabled) {
+      const today = new Date();
+      for (let i = 0; i < 30; i++) {
+        const date = addDays(today, i);
+        const dayMass = calendar.find((d) => d.date === yyyyMMDD(date))
+          ?.mass[0];
+        if (dayMass) {
+          const identifier = `mass-${yyyyMMDD(date)}`;
+          await scheduleNotification(
+            {
+              content: {
+                title: `${NOTIFICATIONS.MASS.title} ${dayMass.name}`,
+                body: dayMass.name,
+                data: { url: dayMass.link },
+                color: getColor(dayMass.color),
+              },
+              trigger: {
+                type: Notifications.SchedulableTriggerInputTypes.DATE,
+                date: new Date(
+                  date.getFullYear(),
+                  date.getMonth(),
+                  date.getDate(),
+                  NOTIFICATIONS.MASS.times.hour,
+                  NOTIFICATIONS.MASS.times.minute,
+                ),
+              },
             },
-            trigger: {
-              type: Notifications.SchedulableTriggerInputTypes.DATE,
-              date: new Date(
-                d.getFullYear(),
-                d.getMonth(),
-                d.getDate(),
-                NOTIFICATIONS.MASS.times.hour,
-                NOTIFICATIONS.MASS.times.minute,
-              ),
-            },
-          },
-          identifier,
-        );
+            identifier,
+          );
+        }
       }
     }
 
     // Schedule Novena
+    // For Novena notifications
     if (notificationPrefs.NOVENA.enabled && novenas) {
       const today = new Date();
       for (const novena of novenas) {
@@ -227,7 +234,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         );
       }
     }
-  }, [notificationPrefs, novenas, nextMasses]);
+  }, [notificationPrefs, calendar, novenas, scheduleNotification]);
 
   const syncNotifications = useCallback(async () => {
     await cancelAllNotifications();

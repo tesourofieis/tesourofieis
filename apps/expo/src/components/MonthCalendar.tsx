@@ -1,9 +1,11 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import {
   addMonths,
+  addYears,
   eachDayOfInterval,
   endOfMonth,
   format,
+  getMonth,
   getYear,
   startOfMonth,
 } from "date-fns";
@@ -19,8 +21,7 @@ import LinkCard from "./LinkCard";
 export default function MonthlyCalendar() {
   const today = yyyyMMDD(new Date());
   const [currentMonth, setCurrentMonth] = useState(new Date());
-  const currentYear = getYear(currentMonth);
-  const { calendar } = useCalendar(currentYear);
+  const { calendar } = useCalendar();
 
   const handlePreviousMonth = () => {
     setCurrentMonth((prevMonth) => addMonths(prevMonth, -1));
@@ -46,6 +47,8 @@ export default function MonthlyCalendar() {
           handleNextMonth={handleNextMonth}
           monthStart={monthStart}
           handlePreviousMonth={handlePreviousMonth}
+          currentMonth={currentMonth}
+          today={new Date()}
         />
         <View>
           {monthDays.map((date) => {
@@ -75,6 +78,8 @@ export default function MonthlyCalendar() {
           handleNextMonth={handleNextMonth}
           monthStart={monthStart}
           handlePreviousMonth={handlePreviousMonth}
+          currentMonth={currentMonth}
+          today={new Date()}
         />
       </View>
     </View>
@@ -85,15 +90,26 @@ function ChangeMonth({
   handlePreviousMonth,
   monthStart,
   handleNextMonth,
+  currentMonth,
+  today,
 }: {
   handlePreviousMonth: () => void;
   monthStart: string;
   handleNextMonth: () => void;
+  currentMonth: Date;
+  today: Date;
 }) {
+  const disablePrevious =
+    getYear(currentMonth) === getYear(today) && getMonth(currentMonth) === 0;
+
+  const disableNext =
+    getYear(currentMonth) !== getYear(today) && getMonth(currentMonth) === 11;
+
   return (
     <View className="flex flex-row items-center justify-around px-4 my-5">
       <Pressable
         onPress={handlePreviousMonth}
+        disabled={disablePrevious}
         className="cursor-pointer rounded bg-gray-200 p-2 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <FontAwesome name="chevron-left" color={COLORS["600"]} />
@@ -104,6 +120,7 @@ function ChangeMonth({
 
       <Pressable
         onPress={handleNextMonth}
+        disabled={disableNext}
         className="cursor-pointer rounded bg-gray-200 p-2 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <FontAwesome name="chevron-right" color={COLORS["600"]} />
