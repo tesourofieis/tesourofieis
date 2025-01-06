@@ -1,16 +1,17 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import {
   addMonths,
-  addYears,
+  addWeeks,
   eachDayOfInterval,
   endOfMonth,
+  endOfWeek,
   format,
-  getMonth,
-  getYear,
   startOfMonth,
+  startOfWeek,
 } from "date-fns";
 import { pt } from "date-fns/locale";
-import React, { useState } from "react";
+import type React from "react";
+import { useState } from "react";
 import { Pressable, Text, View } from "react-native";
 
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
@@ -18,113 +19,132 @@ import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
-export default function MonthlyCalendar() {
+export default function CalendarView() {
   const today = yyyyMMDD(new Date());
-  const [currentMonth, setCurrentMonth] = useState(new Date());
+  const [currentDate, setCurrentDate] = useState(new Date());
+  const [viewMode, setViewMode] = useState<"month" | "week">("month");
   const { calendar } = useCalendar();
 
-  const handlePreviousMonth = () => {
-    setCurrentMonth((prevMonth) => addMonths(prevMonth, -1));
+  const handlePrevious = () => {
+    setCurrentDate((prevDate) =>
+      viewMode === "month" ? addMonths(prevDate, -1) : addWeeks(prevDate, -1),
+    );
   };
 
-  const handleNextMonth = () => {
-    setCurrentMonth((prevMonth) => addMonths(prevMonth, 1));
+  const handleNext = () => {
+    setCurrentDate((prevDate) =>
+      viewMode === "month" ? addMonths(prevDate, 1) : addWeeks(prevDate, 1),
+    );
   };
 
-  const monthStart = format(startOfMonth(currentMonth), "MMMM yyyy", {
-    locale: pt,
-  });
+  const formattedPeriod =
+    viewMode === "month"
+      ? format(startOfMonth(currentDate), "MMMM yyyy", { locale: pt })
+      : `${format(startOfWeek(currentDate), "MMM dd", {
+          locale: pt,
+        })} - ${format(endOfWeek(currentDate), "MMM dd", { locale: pt })}`;
 
-  const monthDays = eachDayOfInterval({
-    start: startOfMonth(currentMonth),
-    end: endOfMonth(currentMonth),
+  const days = eachDayOfInterval({
+    start:
+      viewMode === "month"
+        ? startOfMonth(currentDate)
+        : startOfWeek(currentDate),
+    end:
+      viewMode === "month" ? endOfMonth(currentDate) : endOfWeek(currentDate),
   });
 
   return (
-    <View className="bg-sepia-200 dark:bg-sepia-800">
+    <View className="bg-sepia-100 dark:bg-sepia-900">
       <View className="text-sm">
-        <ChangeMonth
-          handleNextMonth={handleNextMonth}
-          monthStart={monthStart}
-          handlePreviousMonth={handlePreviousMonth}
-          currentMonth={currentMonth}
-          today={new Date()}
+        <ChangePeriod
+          handleNext={handleNext}
+          handlePrevious={handlePrevious}
+          formattedPeriod={formattedPeriod}
+          viewMode={viewMode}
+          setViewMode={setViewMode}
         />
         <View>
-          {monthDays.map((date) => {
+          {days.map((date) => {
             const calendarDate = yyyyMMDD(date);
-
             const day = calendar.find((i) => i.date === calendarDate);
+
             return (
               <View
                 key={calendarDate}
-                className={`flex flex-col gap-1 rounded p-3 m-3 ${
-                  calendarDate === today
-                    ? "bg-sepia-200 dark:bg-sepia-800"
-                    : "bg-sepia-100 dark:bg-sepia-900"
-                }`}
+                className={`flex flex-row items-center gap-4 p-3 m-3 border-t`}
               >
-                <Text className="mb-1 text-center text-sm font-bold text-sepia-700 dark:text-sepia-300">
-                  {format(date, "MMM dd", { locale: pt })}
+                <Text className="text-sm font-bold text-sepia-700 dark:text-sepia-300 w-20">
+                  {format(date, "EEE, dd", { locale: pt })}
                 </Text>
-                {day?.mass?.map((item) => (
-                  <LinkCard key={item.id} mass={item} />
-                ))}
+                <View
+                  className={`flex-1 rounded ${
+                    calendarDate === today
+                      ? "bg-sepia-300 dark:bg-sepia-700"
+                      : "bg-sepia-100 dark:bg-sepia-900"
+                  }
+                  `}
+                >
+                  {day?.mass?.map((item) => (
+                    <LinkCard key={item.id} mass={item} />
+                  ))}
+                </View>
               </View>
             );
           })}
         </View>
-        <ChangeMonth
-          handleNextMonth={handleNextMonth}
-          monthStart={monthStart}
-          handlePreviousMonth={handlePreviousMonth}
-          currentMonth={currentMonth}
-          today={new Date()}
-        />
       </View>
     </View>
   );
 }
 
-function ChangeMonth({
-  handlePreviousMonth,
-  monthStart,
-  handleNextMonth,
-  currentMonth,
-  today,
+function ChangePeriod({
+  handlePrevious,
+  handleNext,
+  formattedPeriod,
+  viewMode,
+  setViewMode,
 }: {
-  handlePreviousMonth: () => void;
-  monthStart: string;
-  handleNextMonth: () => void;
-  currentMonth: Date;
-  today: Date;
+  handlePrevious: () => void;
+  handleNext: () => void;
+  formattedPeriod: string;
+  viewMode: "month" | "week";
+  setViewMode: React.Dispatch<React.SetStateAction<"month" | "week">>;
 }) {
-  const disablePrevious =
-    getYear(currentMonth) === getYear(today) && getMonth(currentMonth) === 0;
-
-  const disableNext =
-    getYear(currentMonth) !== getYear(today) && getMonth(currentMonth) === 11;
-
   return (
-    <View className="flex flex-row items-center justify-around px-4 my-5">
+    <View className="flex flex-row items-center justify-between px-4 my-5">
       <Pressable
-        onPress={handlePreviousMonth}
-        disabled={disablePrevious}
-        className="cursor-pointer rounded bg-gray-200 p-2 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
+        onPress={handlePrevious}
+        className="rounded bg-gray-200 p-2 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <FontAwesome name="chevron-left" color={COLORS["600"]} />
       </Pressable>
       <Text className="text-3xl text-sepia-700 dark:text-sepia-300">
-        {monthStart}
+        {formattedPeriod}
       </Text>
-
       <Pressable
-        onPress={handleNextMonth}
-        disabled={disableNext}
-        className="cursor-pointer rounded bg-gray-200 p-2 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
+        onPress={handleNext}
+        className="rounded bg-gray-200 p-2 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <FontAwesome name="chevron-right" color={COLORS["600"]} />
       </Pressable>
+      <View className="flex flex-row ml-4">
+        <Pressable
+          onPress={() => setViewMode("week")}
+          className={`p-2 rounded-l bg-gray-200 dark:bg-gray-800 ${
+            viewMode === "week" ? "bg-gray-300 dark:bg-gray-700" : ""
+          }`}
+        >
+          <Text className="text-sepia-700 dark:text-sepia-300">Week</Text>
+        </Pressable>
+        <Pressable
+          onPress={() => setViewMode("month")}
+          className={`p-2 rounded-r bg-gray-200 dark:bg-gray-800 ${
+            viewMode === "month" ? "bg-gray-300 dark:bg-gray-700" : ""
+          }`}
+        >
+          <Text className="text-sepia-700 dark:text-sepia-300">Month</Text>
+        </Pressable>
+      </View>
     </View>
   );
 }

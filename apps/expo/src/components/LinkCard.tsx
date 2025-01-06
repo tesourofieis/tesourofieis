@@ -37,7 +37,7 @@ export default function LinkCard({
           pathname: "/modal",
           params: { url: oratio.link },
         }}
-        className="my-1 w-full flex-1 justify-between rounded-lg border text-sepia-600 dark:text-sepia-300 border-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:hover:bg-sepia-900"
+        className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
         asChild
       >
         <View className="flex flex-col justify-start">
@@ -63,7 +63,7 @@ export default function LinkCard({
           pathname: "/modal",
           params: { url: mass.link },
         }}
-        className="my-1 w-full flex-1 justify-between rounded-lg border text-sepia-600 dark:text-sepia-300 border-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:hover:bg-sepia-900"
+        className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
         asChild
       >
         <View className="flex flex-col justify-start">
