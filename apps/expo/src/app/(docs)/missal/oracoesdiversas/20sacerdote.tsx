@@ -1,0 +1,36 @@
+"use dom";
+import "../../../../global.css";
+
+import React from 'react';
+
+
+export default function Page20Sacerdote() {
+  return (
+    <div className="docs">
+      <h1>20.ª Pelo próprio Sacerdote</h1>
+
+
+      <h3>Oração</h3>
+
+<div className="side-by-side not-content">
+      <p>Omnípotens et miséricors Deus, humilitátis meæ preces benígnus inténde: ei me fámulum tuum, quem, nullis suffragántibus méritis, sed imménsa cleméntiæ tuæ largitáte cœléstibus mystériis servíre tribuísti, dignum sacris altáribus fac minístrum; ut, quod mea voce deprómitur, tua sanctificatióne firmétur. Per Dóminum...</p>
+      <p>Omnipotente e misericordioso Deus, atendei benigno às preces que humildemente Vos dirijo, e tornai digno ministro dos vossos altares sagrados este vosso servo (que elevastes ao ministério dos dons celestes, não pelos seus próprios méritos, mas pela vossa imensa clemência), a fim de que as palavras que saem da minha boca sejam por Vós confirmadas e santificadas. Por nosso Senhor...</p>
+      </div>
+
+      <h3>Secreta</h3>
+
+<div className="side-by-side not-content">
+      <p>Hujus, Dómine, virtúte sacraménti, peccatórum meórum máculas abstérge: et præsta; ut, ad exsequéndum injúncti officii ministérium, me tua grátia dignum effíciat. Per Dóminum...</p>
+      <p>Senhor, pela virtude deste mystério, purificai-me das máculas dos meus pecados; e, Vos suplico insistenternente, pela vossa graça, tornai-me digno das sagradas funções do ministério que me foi imposto. Por nosso Senhor...</p>
+      </div>
+
+      <h3>Postcomúnio</h3>
+
+<div className="side-by-side not-content">
+      <p>Omnípotens sempitérne Deus, qui me peccatórem sacris altáribus astáre voluísti, et sancti nóminis tui laudáre poténtiam: concéde propítius, per hujus sacraménti mystérium, meórum mihi véniam peccatórum; ut tuæ majestáti digne mérear famulári. Per Dóminum...</p>
+      <p>Deus omnipotente e sempiterno, que destinastes este indigno pecador para servir os vossos sacrossantos altares e louvar a majestade do vosso santo nome, concedei-me misericordiosa-mente, pelo ministério deste sacrifício, a remissão dos meus pecados, para que possa dignamente servir a vossa majestade. Por nosso Senhor...</p>
+      </div>
+
+    </div>
+  );
+}

@@ -19,7 +19,7 @@ import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
-export default function CalendarView() {
+export default function PageCalendarView() {
   const today = yyyyMMDD(new Date());
   const [currentDate, setCurrentDate] = useState(new Date());
   const [viewMode, setViewMode] = useState<"month" | "week">("month");

@@ -16,7 +16,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { COLORS } from "~/constants/Colors";
 import { useNotifications } from "~/providers/notifications";
 
-export default function Not() {
+export default function PageNot() {
   const router = useRouter();
   const colorScheme = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);

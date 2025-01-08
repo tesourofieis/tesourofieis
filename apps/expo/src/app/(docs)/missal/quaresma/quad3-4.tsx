@@ -1,0 +1,103 @@
+"use dom";
+import "../../../global.css";
+
+import React from 'react';
+
+
+export default function PageQuad34() {
+  return (
+    <div className="docs">
+      <h1>Quinta-feira da 3.ª Semana da Quaresma</h1>
+
+
+      <h3>Intróito</h3>
+
+<div className="side-by-side not-content">
+      <p>Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne clamáverint ad me, exáudiam eos: et ero illórum Dóminus in perpétuum. <em>Ps. 77, 1</em> Atténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei. ℣. Gloria Patri...</p>
+      <p>Eu sou a salvação do povo, diz o Senhor; em todas as tribulações em que me invocarem atendê-los-ei: e serei sempre o seu Senhor. <em>Sl. 77, 1</em> Escutai, ó meu povo, a minha lei: inclinai os vossos ouvidos às palavras que pronuncio. ℣. Glória ao Pai...</p>
+      </div>
+
+      <h3>Oração</h3>
+
+<div className="side-by-side not-content">
+      <p>Magníficet te, Dómine, sanctórum tuórum Cosmæ et Damiáni beáta sollémnitas: qua et illis glóriam sempitérnam, et opem nobis ineffábili providéntia contulísti. Per Dóminum...</p>
+      <p>Senhor, que nos sirva para Vos glorificar a venturosa festividade dos vossos santos Cosme e Damião, durante a qual concedestes àqueles a felicidade eterna e a nós o socorro da vossa inefável providência. Por nosso Senhor...</p>
+      </div>
+
+      <h3>Epístola</h3>
+
+<em>Jr. 7, l 7</em>
+
+<div className="side-by-side not-content">
+      <p>Léctio Jeremíæ Prophétæ.</p>
+      <p>Lição do Profeta Jeremias.</p>
+      <p>In diébus illis: Factum est verbum Dómini ad me, dicens: Sta in porta domus Dómini: et prǽdica ibi verbum istud, et dic: Audíte verbum Dómini, omnis Juda, qui ingredímini per portas has, ut adorétis Dóminum. Hæc dicit Dóminus exercítuum, Deus Israël: Bonas fácite vias vestras et stúdia vestra: et habitábo vobíscum in loco isto. Nolíte confídere in verbis mendácii, dicéntes: Templum Dómini, templum Dómini, templum Dómini est. Quóniam si bene direxéritis vias vestras et stúdia vestra: si fecéritis judícium inter virum et próximum ejus, ádvenæ et pupíllo et víduæ non fecéritis calúmniam, nec sánguinem innocéntem effudéritis in loco hoc, et post deos aliénos non ambulavéritis in malum vobismetípsis: habitábo vobíscum in loco isto, in terra, quam dedi patribus vestris a sǽculo et usque in sǽculum: ait Dóminus omnípotens.</p>
+      <p>Naqueles dias, a palavra do Senhor foi-me dirigida nestes termos: «Fica à porta da casa do Senhor, prega aí estas palavras e diz: Ouvi a palavra do Senhor, vós todos, homens de Judá, que entrais por estas portas para adorar o Senhor!» Eis o que diz o Senhor dos exércitos, Deus de Israel: «Tornai bons os vossos caminhos e os vossos intentos; e, então, habitarei convosco neste lugar. Não vos fieis nas palavras dos que dizem falsamente: o templo é do Senhor, o templo é do Senhor, o templo é do Senhor. Porém, se tornardes bons os caminhos e os vossos intentos; se fizerdes justiça entre um varão e o seu próximo; se não oprimirdes o estrangeiro, nem o órfão, nem a viúva; se não derramardes sangue inocente neste lugar, nem procurardes os deuses falsos para vossa desgraça: então habitarei convosco em todos os séculos dos séculos, neste lugar e nesta terra, que dei a vossos pais»: diz o Senhor omnipotente.</p>
+      </div>
+
+      <h3>Gradual</h3>
+
+<em>Sl. 144, 15-16</em>
+
+<div className="side-by-side not-content">
+      <p>Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore opportúno. ℣. Aperis tu manum tuam: et imples omne ánimal benedictióne.</p>
+      <p>Todos os olhos estão voltados para Vós, Senhor; pois dais a cada um o sustento em tempo oportuno. ℣. Abris a vossa mão e encheis de bênçãos todos os viventes.</p>
+      </div>
+
+      <h3>Evangelho</h3>
+
+<em>Lc. 4, 38-44</em>
+
+<div className="side-by-side not-content">
+      <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
+      <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
+      <p>In illo témpore: Surgens Jesus de synagóga, introívit in domum Simónis. Socrus autem Simónis tenebátur magnis fébribus: et rogavérunt illum pro ea. Et stans super illam, imperávit febri: et dimísit illam. Et contínuo surgens, ministrábat illis. Cum autem sol occidísset, omnes, qui habébant infírmos váriis languóribus, ducébant illos ad eum. At ille síngulis manus impónens, curábat eos. Exíbant autem dæmónia a multis, clamántia et dicéntia: Quia tu es Fílius Dei; et íncrepans non sinébat ea loqui, quia sciébant ipsum esse Christum. Facta autem die egréssus ibat in desértum locum, et turbæ requirébant eum, et venérunt usque ad ipsum: et detinébant illum, ne discéderet ab eis. Quibus ille ait: Quia et áliis civitátibus opórtet me evangelizáre regnum Dei: quia ídeo missus sum. Et erat prǽdicans in synagógis Galilǽæ.</p>
+      <p>Naquele tempo, levantando-se Jesus da sinagoga, entrou em casa de Simão. Ora, como a sogra de Simão padecia de uma grande febre, rogaram-Lhe por ela. Então, indo Jesus ao pé dela, impôs o seu poder à febre, que logo deixou a doente, levantando-se e servindo-os. Era já sol posto. E logo todos os que tinham enfermos, atacados de diversas doenças, traziam-Lhos. E Ele impunha as mãos sobre cada um dos doentes e curava-os. De muitos saíam também demónios, dizendo em voz alta: «Vós sois o Filho de Deus!». Jesus repreendia-os e os não deixava dizer o que sabiam a seu respeito, isto é, que Ele era o Cristo. No dia seguinte, rompendo a manhã, saiu Jesus e foi para um lugar deserto; porém, as turbas procuraram-n’O, encontraram-n’O e detiveram-n’O, com medo de que se afastasse. Então Ele disse-lhes: «É preciso que eu também anuncie o reino de Deus às outras cidades, porque para isso fui mandado». E pregava nas sinagogas da Galileia.</p>
+      </div>
+
+      <h3>Ofertório</h3>
+
+<em>Sl. 137, 7</em>
+
+<div className="side-by-side not-content">
+      <p>Si ambulávero in médio tribulatiónis, vivificábis me, Dómine: et super iram inimicórum meorum exténdes manum tuam, et salvum me fáciet déxtera tua.</p>
+      <p>Se eu estiver no meio da tribulação, Vós me salvareis a vida, Senhor: estendereis a vossa mão contra a ira dos meus inimigos: e a vossa dextra me salvará.</p>
+      </div>
+
+      <h3>Secreta</h3>
+
+<div className="side-by-side not-content">
+      <p>In tuorum, Dómine, pretiósa morte justórum sacrifícium illud offérimus, de quo martýrium sumpsit omne princípium. Per Dóminum...</p>
+      <p>Para honrar a morte preciosa dos vossos justos, Senhor, Vos oferecemos este sacrifício, que foi o verdadeiro princípio do seu martírio. Por nosso Senhor...</p>
+      </div>
+
+      <h3>Comúnio</h3>
+
+<em>Sl. 118, 4-5</em>
+
+<div className="side-by-side not-content">
+      <p>Tu mandásti, mandáta tua custodíri nimis: útinam dirigántur viæ meæ, ad custodiéndas justificatiónes tuas.</p>
+      <p>Ordenastes que os vossos mandamentos fossem observados com exactidão; oxalá que meus passos se não afastem do cumprimento das vossas leis.</p>
+      </div>
+
+      <h3>Postcomúnio</h3>
+
+<div className="side-by-side not-content">
+      <p>Sit nobis, Dómine, sacraménti tui certa salvátio: quæ cum beatórum Mártyrum tuórum Cosmæ et Damiáni méritis implorátur. Per Dóminum...</p>
+      <p>Dignai-Vos permitir, Senhor, que este Sacramento sirva para nos assegurar a salvação, que imploramos pelos merecimentos dos vossos santos Mártires Cosme e Damião. Por nosso Senhor...</p>
+      </div>
+
+      <h3>Oração sobre o povo</h3>
+
+<div className="side-by-side not-content">
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>Humiliáte cápita vestra Deo.</p>
+      <p>Inclinai as vossas cabeças diante de Deus.</p>
+      <p>Subjéctum tibi pópulum, quǽsumus, Dómine, propitiátio cœléstis amplíficet: et tuis semper fáciat servíre mandátis. Per Dóminum...</p>
+      <p>Senhor, Vos rogamos, permiti que a vossa celestial bondade se digne aumentar o povo que Vos é submisso; e o torne sempre cumpridor dos vossos mandamentos. Por nosso Senhor...</p>
+      </div>
+
+    </div>
+  );
+}

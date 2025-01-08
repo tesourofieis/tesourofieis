@@ -21,7 +21,7 @@ export function getColor(color?: string) {
   }
 }
 
-export default function LinkCard({
+export default function PageLinkCard({
   mass,
   oratio,
   description,
@@ -34,8 +34,7 @@ export default function LinkCard({
     return (
       <Link
         href={{
-          pathname: "/modal",
-          params: { url: oratio.link },
+          pathname: oratio.link,
         }}
         className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
         asChild
@@ -60,8 +59,7 @@ export default function LinkCard({
     return (
       <Link
         href={{
-          pathname: "/modal",
-          params: { url: mass.link },
+          pathname: mass.link,
         }}
         className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
         asChild

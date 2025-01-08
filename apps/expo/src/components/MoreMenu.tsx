@@ -24,7 +24,7 @@ const menuItems = [
 const MENU_WIDTH = 200;
 const MENU_MARGIN = 10;
 
-export default function MoreMenu() {
+export default function PageMoreMenu() {
   const [menuVisible, setMenuVisible] = useState(false);
   const router = useRouter();
   const buttonRef = useRef(null);
@@ -34,7 +34,7 @@ export default function MoreMenu() {
   });
 
   const openWebView = (url: string) => {
-    router.push({ pathname: "/modal", params: { url } });
+    router.push({ pathname: url });
     setMenuVisible(false);
   };
 
@@ -48,14 +48,14 @@ export default function MoreMenu() {
           _width: number,
           _height: number,
           _pageX: number,
-          pageY: number,
+          pageY: number
         ) => {
           const windowHeight = Dimensions.get("window").height;
           setMenuPosition({
             bottom: windowHeight - pageY,
             right: MENU_MARGIN,
           });
-        },
+        }
       );
     }
   }, [menuVisible]);

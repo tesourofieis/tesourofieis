@@ -105,7 +105,7 @@ const flattenSidebar = (items, parentPath = "") => {
   }, []);
 };
 
-export default function MoreScreen() {
+export default function PageMoreScreen() {
   const router = useRouter();
   const [expandedItems, setExpandedItems] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
@@ -121,7 +121,7 @@ export default function MoreScreen() {
       setSearchQuery(text);
       if (text) {
         const results = flattenedSidebar.filter((item) =>
-          item.label.toLowerCase().includes(text.toLowerCase()),
+          item.label.toLowerCase().includes(text.toLowerCase())
         );
         // Remove duplicates based on path
         const uniqueResults = results.reduce((acc, current) => {
@@ -137,7 +137,7 @@ export default function MoreScreen() {
         setSearchResults([]);
       }
     },
-    [flattenedSidebar],
+    [flattenedSidebar]
   );
 
   const handleItemPress = (item) => {
@@ -148,13 +148,11 @@ export default function MoreScreen() {
       }));
     } else if (item.link || item.path) {
       router.push({
-        pathname: "/modal",
-        params: { url: (item.link || item.path).slice(1) },
+        pathname: (item.link || item.path).slice(1),
       });
     } else if (item.autogenerate) {
       router.push({
-        pathname: "/modal",
-        params: { url: item.autogenerate.directory },
+        pathname: item.autogenerate.directory,
       });
     }
   };

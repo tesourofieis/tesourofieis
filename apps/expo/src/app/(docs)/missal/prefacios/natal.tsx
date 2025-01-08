@@ -1,0 +1,27 @@
+"use dom";
+import "../../../../global.css";
+
+import React from 'react';
+
+
+export default function PageNatal() {
+  return (
+    <div className="docs">
+      <h1>Prefácio do Natal</h1>
+
+
+<aside>
+  Diz-se desde o Natal até à Epifania, exclusivamente; na Festa do Corpo de Deus
+  e no seu Oitavário; na festa do Santíssimo Nome de Jesus; na Festa da
+  Transfiguração de Nosso Senhor; na Festa da Purificação de Nossa Senhora; e
+  nas Missas Votivas do Santíssimo Sacramento.
+</aside>
+
+<div className="side-by-side not-content">
+      <p>Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Quia per incarnáti Verbi mystérium nova mentis nostræ óculis lux tuæ claritátis infúlsit: ut, dum visibíliter Deum cognóscimus, per hunc in invisibílium amorem rapiámur. Et ideo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes.</p>
+      <p>Verdadeiramente é digno e justo, racional e salutar dar-Vos graças, Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e sempre, porque pelo mystério do Verbo Incarnado um novo clarão do vosso esplendor iluminou a nossa alma, a fim de que, ao passo que conhecemos Deus de uma maneira visível, sejamos inspirados por Ele no amor às coisas invisíveis. E, por isso, com os Anjos e Arcanjos, com os Tronos e Dominações e com toda a milícia do exército celestial, cantamos o hino da vossa glória, dizendo incessantemente:</p>
+      </div>
+
+    </div>
+  );
+}

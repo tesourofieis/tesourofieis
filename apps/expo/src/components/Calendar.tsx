@@ -1,7 +1,7 @@
 import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
-export default function Calendar() {
+export default function PageCalendar() {
   const { day } = useCalendar();
 
   return (

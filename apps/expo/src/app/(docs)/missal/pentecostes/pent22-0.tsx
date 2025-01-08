@@ -1,0 +1,97 @@
+"use dom";
+import "../../../../global.css";
+
+import React from 'react';
+
+
+export default function PagePent220() {
+  return (
+    <div className="docs">
+      <h1>Vigésimo Segundo Domingo depois de Pentecostes</h1>
+
+
+      <h3>Intróito</h3>
+
+<em>Sl. 129, 3-4</em>
+
+<div className="side-by-side not-content">
+      <p>Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? quia apud te propitiátio est, Deus Israël. <em>Ps. ibid., 1-2</em> De profúndis clamávi ad te, Dómine: Dómine, exáudi vocem meam. ℣. Gloria Patri...</p>
+      <p>Se atenderdes às nossas iniquidades, Senhor, Senhor, quem poderá subsistir diante de Vós? Sois cheio de misericórdia, ó Deus de Israel! <em>Sl. ibid., 1-2</em> Das profundezas dos abysmos, Senhor, clamei por Vós: ouvi, pois, a minha oração, Senhor. ℣. Glória ao Pai...</p>
+      </div>
+
+      <h3>Oração</h3>
+
+<div className="side-by-side not-content">
+      <p>Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter pétimus, efficáciter consequámur. Per Dóminum...</p>
+      <p>Ó Deus, nosso refúgio e fortaleza, que sois a origem de toda a piedade, ouvi benigno as piedosas preces da vossa Igreja e concedei-nos a graça de alcançarmos com eficácia o que com fé Vos suplicamos. Por nosso Senhor...</p>
+      </div>
+
+      <h3>Epístola</h3>
+
+<em>Fl, 1, 6-11</em>
+
+<div className="side-by-side not-content">
+      <p>Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.</p>
+      <p>Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.</p>
+      <p>Fratres: Confídimus in Dómino Jesu, quia, qui cœpit in vobis opus bonum, perfíciet usque in diem Christi Jesu. Sicut est mihi justum hoc sentíre pro ómnibus vobis: eo quod hábeam vos in corde, et in vínculis meis, etin defensióne, et confirmatióne Evangélii, sócios gáudii mei omnes vos esse. Testis enim mihi est Deus, quómodo cúpiam omnes vos in viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in sciéntia et in omni sensu: ut probétis potióra, ut sitis sincéri et sine offénsa in diem Christi, repléti fructu justítiæ per Jesum Christum, in glóriam et laudem Dei.</p>
+      <p>Meus irmãos: Tenho firme confiança de que aquele que começou em vós o bom trabalho há-de continuá-lo até ao dia de Jesus Cristo. Justo é que assim pense de vós, porque sinto no coração que comparticipais da minha alegria, quer seja nas minhas prisões, quer na defesa e confirmação do Evangelho. Deus é testemunha do modo como vos amo a todos, no afecto íntimo de Jesus Cristo. Rogo-lhe que a vossa caridade cresça cada vez mais em luz e inteligência, a fim de que possais distinguir aquilo que é melhor, para serdes puros e sem mancha até ao dia de Cristo e cheios dos frutos da justiça por Jesus Cristo, em louvor e glória de Deus.</p>
+      </div>
+
+      <h3>Gradual</h3>
+
+<em>Sl. 132, 1-2</em>
+
+<div className="side-by-side not-content">
+      <p>Ecce, quam bonum et quam jucúndum, habitáre fratres in unum! ℣. Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.</p>
+      <p>Oh! Como é bom e suave aos irmãos habitarem juntos! ℣. É como o perfume espalhado pela cabeça que desce por toda a barba, por toda a barba de Aarão!</p>
+      <p>Allelúja, allelúja. ℣. <em>Ps. 113, 11</em> Qui timent Dóminum sperent in eo: adjútor et protéctor eórum est. Allelúja.</p>
+      <p>Aleluia, aleluia. ℣. <em>Sl. 113, 11</em> Que aqueles que têm temor do Senhor esperem n’Ele, que é o seu sustentáculo e protector. Aleluia.</p>
+      </div>
+
+      <h3>Evangelho</h3>
+
+<em>Mt. 22, 15-21</em>
+
+<div className="side-by-side not-content">
+      <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
+      <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
+S. Mateus.</p>
+      <p>In illo témpore: Abeúntes pharisǽi consílium iniérunt, ut cáperent Jesum in sermóne. Et mittunt ei discípulos suos cum Herodiánis, dicéntes: Magíster, scimus, quia verax es et viam Dei in veritáte doces, et non est tibi cura de áliquo: non enim réspicis persónam hóminum: dic ergo nobis, quid tibi vidétur, licet censum dare Cǽsari, an non? Cógnita autem Jesus nequítia eórum, ait: Quid me tentátis, hypócritæ? Osténdite mihi numísma census. At illi obtulérunt ei denárium. Et ait illis Jesus: Cujus est imágo hæc et superscríptio? Dicunt ei: Cǽsaris. Tunc ait illis: Réddite ergo, quæ sunt Cǽsaris, Cǽsari; et, quæ sunt Dei, Deo.</p>
+      <p>Naquele tempo, retirando-se os fariseus, combinaram em conselho surpreender Jesus nas suas palavras, para O acusarem. Mandaram-Lhe, pois, os seus discípulos com os herodianos, que Lhe disseram: «Mestre, sabemos que sois verdadeiro e que ensinais o caminho de Deus com verdade, sem vos preocupardes com quem quer que seja, pois não olhais à situação das pessoas. Dizei-nos, portanto, o que Vos parece a este respeito: É lícito pagar ou não o tributo a César?». Jesus, conhecendo a sua malícia, respondeu-lhes: «Hipócritas, porque me tentais? Mostrai-me a moeda do tributo». Apresentaram-Lhe um dinheiro. Então Jesus continuou: «De quem é esta imagem e esta inscrição?». Responderam eles: «De César». E Jesus continuou: «Dai, portanto, a César o que pertence a César, e dai a Deus o que a Deus pertence».</p>
+      </div>
+
+      <h3>Ofertório</h3>
+
+<em>Est. 14, 12 & 13</em>
+
+<div className="side-by-side not-content">
+      <p>Recordáre mei, Dómine, omni potentátui dóminans: et da sermónem rectum in os meum, ut pláceant verba mea in conspéctu príncipis.</p>
+      <p>Senhor, que estais acima de todo o poder, lembrai-Vos de mim: inspirai aos meus lábios palavras justas, para que sejam agradáveis ao príncipe.</p>
+      </div>
+
+      <h3>Secreta</h3>
+
+<div className="side-by-side not-content">
+      <p>Da, miséricors Deus: ut hæc salutáris oblátio et a própriis nos reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis. Per Dóminum...</p>
+      <p>Permiti, ó Deus de misericórdia, que esta salutar oblação nos livre inteiramente dos laços das nossas próprias faltas e nos defenda de todas as adversidades. Por nosso Senhor...</p>
+      </div>
+
+      <h3>Comúnio</h3>
+
+<em>Sl. 16, 6</em>
+
+<div className="side-by-side not-content">
+      <p>Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam et exáudi verba mea.</p>
+      <p>Ó Deus, clamei por Vós, porque me ouvistes: inclinai os vossos ouvidos para mim e ouvi as minhas súplicas.</p>
+      </div>
+
+      <h3>Postcomúnio</h3>
+
+<div className="side-by-side not-content">
+      <p>Súmpsimus, Dómine, sacri dona mystérii, humíliter deprecántes: ut, quæ in tui commemoratiónem nos fácere præcepísti, in nostræ profíciant infirmitátis auxílium: Qui vivis et regnas...</p>
+      <p>Havendo recebido os sacrossantos dons deste mystério, Senhor, humildemente Vos imploramos que este sacrifício, que nos mandastes celebrar em vossa memória, sirva de auxílio à nossa fraqueza. Ó Vós, que, sendo Deus, viveis...</p>
+      </div>
+
+    </div>
+  );
+}

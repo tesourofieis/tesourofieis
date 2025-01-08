@@ -1,0 +1,27 @@
+"use dom";
+import "../../../../global.css";
+
+import React from 'react';
+
+
+export default function Page0210() {
+  return (
+    <div className="docs">
+      <h1>Santa Escolástica, Virgem, a 10 de Fevereiro</h1>
+
+
+<aside>
+  Como na [Missa Dilexísti justitiam](/missal/comum/20virgemnaomartir1),
+  excepto:
+</aside>
+
+      <h3>Oração</h3>
+
+<div className="side-by-side not-content">
+      <p>Deus, qui ánimam beátæ Vírginis tuæ Scholásticæ ad ostendéndam innocéntiæ viam in colúmbæ spécie cœlum penetráre fecísti: da nobis ejus méritis et précibus ita innocénter vívere; ut ad ætérna mereámur gáudia perveníre. Per Dóminum...</p>
+      <p>Ó Deus, que para mostrar a vida inocente da vossa B. Virgem Escolástica fizestes entrar no céu a sua alma sob a figura de uma pomba, concedei-nos pelos seus méritos e preces que vivamos com tanta inocência que mereçamos alcançar os gozos eternos. Por nosso Senhor...</p>
+      </div>
+
+    </div>
+  );
+}

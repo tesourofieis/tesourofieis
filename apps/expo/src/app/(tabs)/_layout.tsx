@@ -5,7 +5,7 @@ import { useColorScheme } from "react-native";
 
 import { COLORS } from "~/constants/Colors";
 
-export default function TabLayout() {
+export default function PageTabLayout() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 

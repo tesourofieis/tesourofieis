@@ -1,0 +1,26 @@
+"use dom";
+import "../../../../global.css";
+
+import React from 'react';
+
+
+export default function Page0522Braga() {
+  return (
+    <div className="docs">
+      <h1>B. B. João B. Machado e Outros, Ms., a 22 de Maio, Na Arquidiocese de Braga e noutros lugares</h1>
+
+
+<aside>
+Como na [Missa Sancti tui](/missal/comum/10martires), excepto:
+
+Fora do Tempo Pascal como na [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2), excepto:
+
+</aside>
+
+      <h3>Oração</h3>
+
+Deixai-Vos aplacar, Senhor, Vos pedimos, e concedei-nos o vosso auxílio; e pela intercessão dos vossos B. B. Mártires João Baptista e seus Companheiros estendei sobre nós a vossa mão misericordiosa. Por nosso Senhor...
+
+    </div>
+  );
+}

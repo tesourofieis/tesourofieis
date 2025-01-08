@@ -1,4 +1,4 @@
-export default function Loading() {
+export default function PageLoading() {
   return (
     // biome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
     <svg

@@ -1,0 +1,381 @@
+"use dom";
+import "../../../global.css";
+
+import React from 'react';
+import VexillaRegis from './../../canticos/sacros/vexillaregis';
+
+export default function PageQuad65() {
+  return (
+    <div className="docs">
+      <h1>Sexta-feira Santa</h1>
+
+
+<aside>
+A Estação é na basílica que, em Roma, representa Jerusalém, da qual tem o nome. É consagrada à Paixão do Salvador e contem terra do Calvário, fragmentos importantes do lenho da verdadeira Cruz, e um dos pregos que serviram para crucificar a Jesus. Neste dia, aniversário da morte do Salvador, a Igreja dá novamente a seus templos aspecto de desolação e reveste os seus ministros com paramentos de luto.
+</aside>
+
+      <h2>Missa dos Catecúmenos</h2>
+
+      <h3>1.ª Lição</h3>
+
+<em>Os. 6, 1-6</em>
+
+<div className="side-by-side not-content">
+      <p>Hæc dicit Dóminus: In tribulatione sua mane consúrgent ad me: Veníte, et revertámur ad Dóminum: quia ipse cepit, et sanábit nos: percútiet, et curábit nos. Vivificábit nos post duos dies: in die tértia suscitábit nos, et vivémus in conspéctu ejus. Sciémus, sequemúrque, ut cognoscámus Dóminum: quasi dilúculum præparátus est egréssus ejus, et véniet quasi imber nobis temporáneus et serótinus terræ. Quid fáciam tibi, Ephraim? Quid fáciam tibi, Juda? misericórdia vestra quasi nubes matutína: et quasi ros mane pertránsiens. Propter hoc dolávi in prophétis, occídi eos in verbis oris mei: et judícia tua quasi lux egrediéntur. Quia misericórdiam vólui, et non sacrifícium, et sciéntiam Dei, plus quam holocáusta.</p>
+      <p>Eis o que disse o Senhor: «No meio da sua tribulação terão pressa de recorrer a mim. Vinde, dirão eles, convertamo-nos ao Senhor, pois Ele mesmo nos feriu e nos curará. Ele nos castigará e nos sarará. Em dois dias nos dará a vida; ao terceiro dia nos ressuscitará e viveremos na sua presença. Então conheceremos o Senhor e segui-l’O-emos, a fim de O conhecermos melhor. Seu despertar será como o da aurora; virá como a chuva do Outono, que rega a terra. Que posso eu fazer-te, ó Efraim? Que posso eu fazer-te, ó Judá? vossa misericórdia é como a nuvem da manhã; é como o orvalho, que se evapora. Por isso te fiz sofrer pelos Profetas; matei-os com palavras, saídas da minha boca; e o teu julgamento brilhará, como a luz. É a misericórdia que eu quero. Prefiro o conhecimento de Deus a todos os holocaustos que me ofereçais».</p>
+      </div>
+
+      <h3>Trato</h3>
+
+<em>Hab. 3</em>
+
+<div className="side-by-side not-content">
+      <p>Dómine, audívi audítum tuum, et tímui: considerávi ópera tua, et expávi. ℣. In médio duórum animálium innotescéris: dum appropinquáverint anni, sognoscéris: dum advénerit tempus, osténdens. ℣. In eo, dum conturbáta fúerit ánima mea: in ira, misericórdiæ memor eris. ℣. Deus a Líbano véniet, et Sanctus de monte umbróso et condénso. ℣. Opéruit cœlos majéstas ejus: et laudis ejus plena est terra.</p>
+      <p>Senhor, ouvi a vossa voz e fiquei cheio de temor; meditei nas vossas maravilhas e fiquei extasiado. ℣. Manifestar-Vos-eis entre dois animais: quando os anos tiverem passado e quando os tempos tiverem vindo, manifestar-Vos-eis outra vez. ℣. Então a minha alma perturbar-se-á; mas Vos recordareis da vossa misericórdia para com ela, no dia da vossa ira. ℣. Deus virá do Líbano: e Aquele que é Santo descerá da montanha sombria e arborizada. ℣. Sua majestade cobrirá os céus; e a sua glória e o seu louvor encherão a terra.</p>
+      </div>
+
+      <h3>Oremos</h3>
+
+<div className="side-by-side not-content">
+      <p>℣. Flectámus génua!</p>
+      <p>℣. Ajoelhemos!</p>
+      <p><span className="text-red-500">℟.</span> Leváte.</p>
+      <p><span className="text-red-500">℟.</span> Levantai-vos!</p>
+      <p>Deus, a quo et Judas reátus sui pœnam, et confessiónis suæ latro prǽmium sumpsit, concéde nobis tuæ propitiatiónis efféctum: ut, sicut in passióne sua Jesus Christus, Dóminus noster, divérsa utrísque íntulit stipéndia meritórum; ita nobis, abláto vetustátis erróre, resurrectiónis suæ grátiam largiátur: Qui tecum...</p>
+      <p>Ó Deus, de quem Judas recebeu o castigo da sua perfídia e o ladrão a recompensa da sua confissão, concedei-nos o efeito da vossa misericórdia, a fim de que, assim como N. S. Jesus Cristo durante a sua Paixão tratou a um e ao outro segundo os seus méritos, assim também, havendo desaparecido a nossa malícia do «homem velho», nos tornemos participantes da sua ressurreição. Ele, que, sendo Deus...</p>
+      </div>
+
+      <h3>2.ª Lição</h3>
+
+<em>Ex. 12, 1-11</em>
+
+<div className="side-by-side not-content">
+      <p>In diébus illis: Dixit Dóminus ad Móysen et Aaron in terra Ægýpti: Mensis iste vobis princípium ménsium primus erit in ménsibus anni Loquímini ad univérsum cœtum filiórum Israël, et dícite eis: Décima die mensis hujus tollat unusquísque agnum per famílias et domos suas. Sin autem minor est númerus, ut suffícere possit ad vescéndum agnum, assúmet vicínum suum, qui junctus est dómui suæ, juxta númerum animárum, quæ suffícere possunt ad esum agni. Erit autem agnus absque mácula, másculus, annículus: juxta quem ritum tollétis et hædum. Et servábitis eum usque ad quartam décimam diem mensis hujus: immolabítque eum univérsa multitúdo filiórum Israël ad vésperam. Et sument de sánguine ejus, ac ponent super utrúmque postem et in superlimináribus domórum, in quibus cómedent illum. Et edent carnes nocte illa assas igni, et ázymos panes cum lactúcis agréstibus. Non comedétis ex eo crudum quid nec coctum aqua, sed tantum assum igni: caput cum pédibus ejus et intestínis vorábitis. Nec remanébit quidquam ex eo usque mane. Si quid resíduum fúerit, igne comburétis. Sic autem comedétis illum: Renes vestros accingétis, et calceaménta habébitis in pédibus, tenéntes báculos in mánibus, et comedétis festinánter: est enim Phase (id est tránsitus) Dómini.</p>
+      <p>Naqueles dias, disse o Senhor, na terra do Egipto, a Moisés e a Aarão: «Que este mês seja para vós o princípio dos meses: o primeiro dos meses do ano. Falai a toda a assembleia dos filhos de Israel, dizendo: «No décimo dia deste mês cada um tome um cordeiro para cada família e para cada casa. Se na casa houverem poucas pessoas para comer o cordeiro, chamar-se-ão em casa do vizinho, que estiver mais perto, tantas pessoas quantas sejam necessárias para comer o cordeiro inteiramente. Esse cordeiro será sem mancha, masculino e com um ano de idade; se porventura faltar o cordeiro, podereis tomar um cabrito com iguais condições. Guardareis esse cordeiro até ao dia décimo quarto desse mês, imolando-o, então, pela tarde, toda a multidão dos filhos de Israel. Tomar-se-á o seu sangue, com o qual pintarão as ombreiras e alizares das portas das casas em que o cordeiro for comido. Nessa mesma noite comerão com pão sem fermento e leitugas silvestres a carne, a qual será assada no lume. Não comereis desse cordeiro nada que seja cru ou cozido em água; mas todo será assado no lume. Comereis a cabeça, os pés e os intestinos, e nada deverá ficar para o dia seguinte; porém, se alguma coisa ficar, tereis o cuidado de consumi-la no fogo. Haveis de comê-lo desta maneira: rins cingidos, pés calçados e bordão na mão. Comê-lo-eis com pressa, pois é a ocasião da páscoa, isto é, a passagem do Senhor».</p>
+      </div>
+
+      <h3>Trato</h3>
+
+<em>Sl. 139, 2-10 & 14</em>
+
+<div className="side-by-side not-content">
+      <p>Eripe me, Dómine, ab homine malo: a viro iníquo líbera me. ℣. Qui cogitavérunt malítias in corde: tota die constituébant prœlia. ℣. Acuérunt linguas suas sicut serpéntis: venénum áspidum sub labiis eórum. ℣. Custódi me, Dómine, de manu peccatóris: et ab homínibus iníquis libera me. ℣. Qui cogitavérunt supplantáre gressus meos: abscondérunt supérbi láqueum mihi. ℣. Et funes extendérunt in láqueum pédibus meis: juxta iter scándalum posuérunt mihi. ℣. Dixi Dómino: Deus meus es tu: exáudi, Dómine, vocem oratiónis meæ. ℣. Dómine, Dómine, virtus salútis meæ: obúmbra caput meum in die belli. ℣. Ne tradas me a desidério meo peccatóri: cogitavérunt advérsus me: ne derelínquas me, ne umquam exalténtur. ℣. Caput circúitus eórum: labor labiórum ipsórum opériet eos. ℣. Verúmtamen justi confitebúntur nómini tuo: et habitábunt recti cum vultu tuo.</p>
+      <p>Livrai-me, Senhor, do homem iníquo; livrai-me do homem injusto. ℣. No seu coração intentam desígnios iníquos; continuamente estão prontos para me combater. ℣. Afiaram as suas línguas, como as das serpentes; nos seus lábios está a peçonha das víboras. ℣. Defendei-me, Senhor, dos ataques das mãos do pecador; livrai-me dos homens injustos. ℣. Porquanto procuram o meio de lançar-me por terra; estes orgulhosos armaram-me ciladas. ℣. Armaram laços para me prender; prepararam ciladas e embustes no meu caminho. ℣. Eu disse ao Senhor: Sois o meu Deus; ouvi, Senhor, a voz da minha súplica. ℣. Senhor, Senhor, sois o meu sustentáculo e a minha salvação: no dia do combate abrigai a minha cabeça. ℣. Não me entregueis, Senhor, à fúria dos pecadores; não me deixeis à mercê dos seus desejos, para que não triunfem contra mim. ℣. Seus embustes cairão sobre si; as suas calúnias contra si se voltarão. ℣. Os justos, Senhor, louvarão o vosso nome: e os que possuem o coração recto contemplar-Vos-ão face a face.</p>
+      </div>
+
+      <h3>Narração da Paixão</h3>
+
+<em>Jo. 18, 1-40; 19, 1-42</em>
+
+<div className="side-by-side not-content">
+      <p><span className="cross text-red-500">✠</span> Pássio Dómini nostri Jesu Christi secúndum Joánnem.</p>
+      <p><span className="cross text-red-500">✠</span> Paixão de N. S. Jesus Cristo, segundo S.  João.</p>
+      <p>In illo témpore: Egréssus est Jesus cum discípulis suis trans torréntem Cedron, ubi erat hortus, in quem introívit ipse et discípuli ejus. Sciébat autem et Judas, qui tradébat eum, locum: quia frequénter Jesus convénerat illuc cum discípulis suis. Judas ergo cum accepísset cohórtem, et a pontifícibus et pharisǽis minístros, venit illuc cum latérnis et fácibus et armis. Jesus ítaque sciens ómnia, quæ ventúra erant super eum, procéssit, et dixit eis: <span className="cross text-red-500">✠</span> Quem quǽritis? <span className="font-bold text-red-500">C.</span> Respondérunt ei: <span className="font-bold text-red-500">S.</span> Jesum Nazarénum. <span className="font-bold text-red-500">C.</span> Dicit eis Jesus: <span className="cross text-red-500">✠</span> Ego sum. <span className="font-bold text-red-500">C.</span> Stabat autem et Judas, qui tradébat eum, cum ipsis. Ut ergo dixit eis: Ego sum: abiérunt retrorsum, et cecidérunt in terram. Iterum ergo interrogávit eos: <span className="cross text-red-500">✠</span> Quem quǽritis? <span className="font-bold text-red-500">C.</span> Illi autem dixérunt: <span className="font-bold text-red-500">S.</span> Jesum Nazarénum. <span className="font-bold text-red-500">C.</span> Respóndit Jesus: <span className="cross text-red-500">✠</span> Dixi vobis, quia ego sum: si ergo me quǽritis, sinite hos abíre. <span className="font-bold text-red-500">C.</span> Ut implerétur sermo, quem dixit: Quia quos dedísti mihi, non pérdidi ex eis quemquam. Simon ergo Petrus habens gládium edúxit eum: et percússit pontíficis servum: et abscídit aurículam ejus déxteram. Erat autem nomen servo Malchus. Dixit ergo Jesus Petro: <span className="cross text-red-500">✠</span> Mitte gládium tuum in vagínam. Cálicem, quem dedit mihi Pater, non bibam illum?</p>
+      <p>Naquele tempo, passou Jesus com os discípulos para o outro lado da corrente do Cédron, onde havia ’um jardim, e ali entrou com eles. Judas, que o traía, conhecia também este lugar, pois Jesus vinha ali frequentemente com os discípulos. Então Judas, pondo-se à frente da coorte e dos servos, que os pontífices e os fariseus lhe haviam fornecido, veio ali com lanternas, archotes e armas. Ora, sabendo Jesus o que ia acontecer, foi ao seu encontro e disse: <span className="cross text-red-500">✠</span> «A quem procurais?». <span className="font-bold text-red-500">C.</span> E responderam-Lhe: <span className="font-bold text-red-500">S.</span> «A Jesus Nazareno!». <span className="font-bold text-red-500">C.</span> Disse-lhes Jesus: <span className="cross text-red-500">✠</span> «Sou Eu!». <span className="font-bold text-red-500">C.</span> Judas, que o traía, estava também com eles. Apenas, pois, Jesus lhes disse «Sou eu», retrocederam e caíram por terra. Perguntou-lhes então Jesus pela segunda vez: <span className="cross text-red-500">✠</span> «A quem procurais?». <span className="font-bold text-red-500">C.</span> Eles responderam: <span className="font-bold text-red-500">S.</span> «A Jesus Nazareno!». <span className="font-bold text-red-500">C.</span> Respondeu-lhes Jesus: <span className="cross text-red-500">✠</span> «Já vos disse que sou Eu; se, pois, me buscais só a mim, deixai ir estes». <span className="font-bold text-red-500">C.</span> Disse isto para ser cumprida a palavra que havia proferido: «Não perdi nenhum dos que me destes». Então Simão-Pedro, que tinha uma espada, desembainhou-a, acutilou um servo do pontífice e cortou-lhe a orelha direita. Chamava-se Malco. Mas Jesus disse a Pedro: <span className="cross text-red-500">✠</span> «Mete a espada na bainha. Porventura não hei-de beber o cálice que deu meu Pai?».</p>
+      <p><span className="font-bold text-red-500">C.</span> Cohors ergo et tribúnus et minístri Judæórum comprehendérunt Jesum, et ligavérunt eum: et adduxérunt eum ad Annam primum, erat enim socer Cáiphæ, qui erat póntifex anni illíus. Erat autem Cáiphas, qui consílium déderat Judǽis: Quia expédit, unum hóminem mori pro pópulo. Sequebátur autem Jesum Simon Petrus et álius discípulus. Discípulus autem ille erat notus pontífici, et introívit cum Jesu in átrium pontíficis. Petrus autem stabat ad óstium foris. Exívit ergo discípulus álius, qui erat notus pontífici, et dixit ostiáriæ: et introdúxit Petrum. Dicit ergo Petro ancílla ostiária: <span className="font-bold text-red-500">S.</span> Numquid et tu ex discípulis es hóminis istíus? <span className="font-bold text-red-500">C.</span> Dicit ille: <span className="font-bold text-red-500">S.</span> Non sum. <span className="font-bold text-red-500">C.</span> Stabant autem servi et minístri ad prunas, quia frigus erat, et calefaciébant se: erat autem cum eis et Petrus stans et calefáciens se. Póntifex ergo interrogávit Jesum de discípulis suis et de doctrína ejus. Respóndit ei Jesus: <span className="cross text-red-500">✠</span> Ego palam locútus sum mundo: ego semper dócui in synagóga et in templo, quo omnes Judǽi convéniunt: et in occúlto locútus sum nihil. Quid me intérrogas? intérroga eos, qui audiérunt, quid locútus sim ipsis: ecce, hi sciunt, quæ díxerim ego. <span className="font-bold text-red-500">C.</span> Hæc autem cum dixísset, unus assístens ministrórum dedit álapam Jesu, dicens: <span className="font-bold text-red-500">S.</span> Sic respóndes pontífici? <span className="font-bold text-red-500">C.</span> Respóndit ei Jesus: <span className="cross text-red-500">✠</span> Si male locútus sum, testimónium pérhibe de malo: si autem bene, quid me cædis?</p>
+      <p><span className="font-bold text-red-500">C.</span> Então a coorte, o tribuno e os satélites dos judeus prenderam e amarraram Jesus. Depois conduziram-n’O à presença de Anás, que era sogro de Caifás e pontífice naquele ano. Fora Caifás quem dera este conselho aos judeus: «Convém mais que morra um só homem, do que todo o povo!». Entretanto, Simão-Pedro seguia Jesus com outro discípulo, o qual, sendo conhecido do pontífice, saiu, falou à porteira e fez entrar Pedro. Ao vê-lo, disse-lhe a porteira: <span className="font-bold text-red-500">S.</span> «Não és tu, também, pertencente aos discípulos deste homem?». <span className="font-bold text-red-500">C.</span> Respondeu Pedro: <span className="font-bold text-red-500">S.</span> «Não sou». <span className="font-bold text-red-500">C.</span> Os servos e os satélites estavam em torno do lume a aquecer-se, pois estava frio. Pedro estava também com eles, de pé, e se aquecia. Entretanto fez o pontífice perguntas a Jesus sobre os seus discípulos e sobre a sua doutrina. Respondeu-lhe Jesus: <span className="cross text-red-500">✠</span> «Eu falei sempre ao mundo às claras! Ensinei na sinagoga e no templo, onde se reuniam todos os judeus, e nada ensinei ocultamente. Porque me interrogas, pois? Pergunta antes àqueles que ouviram o que ensinei. Eles aí estão, e muito bem sabem o que lhes disse». <span className="font-bold text-red-500">C.</span> Enquanto Jesus dizia isto, um dos guardas que lá estava deu-Lhe uma bofetada, dizendo: <span className="font-bold text-red-500">S.</span> «Assim respondeis ao pontífice?». <span className="font-bold text-red-500">C.</span> Jesus disse-lhe: <span className="cross text-red-500">✠</span> «Se Eu falei mal, aponta-me o mal que disse. Se, porém, falei bem, porque me bates?».</p>
+      <p><span className="font-bold text-red-500">C.</span> Et misit eum Annas ligátum ad Cáipham pontíficem. Erat autem Simon Petrus stans et calefáciens se. Dixérunt ergo ei: <span className="font-bold text-red-500">S.</span> Numquid et tu ex discípulis ejus es? <span className="font-bold text-red-500">C.</span> Negávit ille et dixit: <span className="font-bold text-red-500">S.</span> Non sum. <span className="font-bold text-red-500">C.</span> Dicit ei unus ex servis pontíficis, cognátus ejus, cujus abscídit Petrus aurículam: <span className="font-bold text-red-500">S.</span> Nonne ego te vidi in horto cum illo? <span className="font-bold text-red-500">C.</span> Iterum ergo negávit Petrus: et statim gallus cantávit.
+  
+<span className="font-bold text-red-500">C.</span> Anás enviou-O, amarrado, a Caifás, que era o pontífice. Simão-Pedro continuava no mesmo lugar, se aquecendo. Disseram-lhe então: <span className="font-bold text-red-500">S.</span> «Porventura não és tu discípulo d’Ele?». <span className="font-bold text-red-500">C.</span> Pedro negou, dizendo: <span className="font-bold text-red-500">S.</span> «Não sou». <span className="font-bold text-red-500">C.</span> Um dos servos do pontífice, parente daquele a quem Pedro cortara a orelha, disse ainda a este: <span className="font-bold text-red-500">S.</span> «Acaso te não vi eu no horto com Ele?». <span className="font-bold text-red-500">C.</span> Outra vez Pedro negou; e, logo, o galo cantou!
+  
+Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non introiérunt in prætórium, ut non contaminaréntur, sed ut manducárent pascha. Exívit ergo Pilátus ad eos foras et dixit: <span className="font-bold text-red-500">S.</span> Quam accusatiónem affértis advérsus hóminem hunc? <span className="font-bold text-red-500">C.</span> Respondérunt et dixérunt ei: <span className="font-bold text-red-500">S.</span> Si non esset hic malefáctor, non tibi tradidissémus eum. <span className="font-bold text-red-500">C.</span> Dixit ergo eis Pilátus: <span className="font-bold text-red-500">S.</span> Accípite eum vos, et secúndum legem vestram judicáte eum. <span className="font-bold text-red-500">C.</span> Dixérunt ergo ei Judǽi: <span className="font-bold text-red-500">S.</span> Nobis non licet interfícere quemquam. <span className="font-bold text-red-500">C.</span> Ut sermo Jesu implerétur, quem dixit, signíficans, qua morte esset moritúrus. Introívit ergo íterum in prætórium Pilátus, et vocávit Jesum et dixit ei: <span className="font-bold text-red-500">S.</span> Tu es Rex Judæórum? <span className="font-bold text-red-500">C.</span> Respóndit Jesus: <span className="cross text-red-500">✠</span> A temetípso hoc dicis, an álii dixérunt tibi de me? <span className="font-bold text-red-500">C.</span> Respóndit Pilátus: <span className="font-bold text-red-500">S.</span> Numquid ego Judǽus sum? Gens tua et pontífices tradidérunt te mihi: quid fecísti? <span className="font-bold text-red-500">C.</span> Respóndit Jesus: <span className="cross text-red-500">✠</span> Regnum meum non est de hoc mundo. Si ex hoc mundo esset regnum meum, minístri mei útique decertárent, ut non tráderer Judǽis: nunc autem regnum meum non est hinc. <span className="font-bold text-red-500">C.</span> Dixit itaque ei Pilátus: <span className="font-bold text-red-500">S.</span> Ergo Rex es tu? <span className="font-bold text-red-500">C.</span> Respóndit Jesus: <span className="cross text-red-500">✠</span> Tu dicis, quia Rex sum ego. Ego in hoc natus sum et ad hoc veni in mundum, ut testimónium perhíbeam veritáti: omnis, qui est ex veritáte, audit vocem meam. <span className="font-bold text-red-500">C.</span> Dicit ei Pilátus: <span className="font-bold text-red-500">S.</span> Quid est véritas? <span className="font-bold text-red-500">C.</span> Et cum hoc dixísset, íterum exívit ad Judǽos, et dicit eis: <span className="font-bold text-red-500">S.</span> Ego nullam invénio in eo causam. Est autem consuetúdo vobis, ut unum dimíttam vobis in Pascha: vultis ergo dimíttam vobis Regem Judæórum? <span className="font-bold text-red-500">C.</span> Clamavérunt ergo rursum omnes, dicéntes: <span className="font-bold text-red-500">S.</span> Non hunc, sed Barábbam. <span className="font-bold text-red-500">C.</span> Erat autem Barábbas latro. Tunc ergo apprehéndit Pilátus Jesum et flagellávit. Et mílites plecténtes corónam de spinis, imposuérunt cápiti ejus: et veste purpúrea circumdedérunt eum. Et veniébant ad eum, et dicébant: <span className="font-bold text-red-500">S.</span> Ave, Rex Judæórum. <span className="font-bold text-red-500">C.</span> Et dabant ei álapas. Exívit ergo íterum Pilátus foras et dicit eis: <span className="font-bold text-red-500">S.</span> Ecce, addúco vobis eum foras, ut cognoscátis, quia nullam invénio in eo causam. <span className="font-bold text-red-500">C.</span> (Exívit ergo Jesus portans corónam spíneam et purpúreum vestiméntum.) Et dicit eis: <span className="font-bold text-red-500">S.</span> Ecce homo. <span className="font-bold text-red-500">C.</span> Cum ergo vidíssent eum pontífices et minístri, clamábant, dicéntes: <span className="font-bold text-red-500">S.</span> Crucifíge, crucifíge eum. <span className="font-bold text-red-500">C.</span> Dicit eis Pilátus: <span className="font-bold text-red-500">S.</span> Accípite eum vos et crucifígite: ego enim non invénio in eo causam. <span className="font-bold text-red-500">C.</span> Respondérunt ei Judǽi: <span className="font-bold text-red-500">S.</span> Nos legem habémus, et secúndum legem debet mori, quia Fílium Dei se fecit. <span className="font-bold text-red-500">C.</span> Cum ergo audísset Pilátus hunc sermónem, magis tímuit. Et ingréssus est prætórium íterum: et dixit ad Jesum: <span className="font-bold text-red-500">S.</span> Unde es tu? <span className="font-bold text-red-500">C.</span> Jesus autem respónsum non dedit ei. Dicit ergo ei Pilátus: <span className="font-bold text-red-500">S.</span> Mihi non lóqueris? nescis, quia potestátem hábeo crucifígere te, et potestátem hábeo dimíttere te? <span className="font-bold text-red-500">C.</span> Respóndit Jesus: <span className="cross text-red-500">✠</span> Non habéres potestátem advérsum me ullam, nisi tibi datum esset désuper.  Proptérea, qui me trádidit tibi, majus peccátum habet. <span className="font-bold text-red-500">C.</span> Et exínde quærébat Pilátus dimíttere eum. Judǽi autem clamábant dicéntes: <span className="font-bold text-red-500">S.</span> Si hunc dimíttis, non es amícus Cǽsaris. Omnis enim, qui se regem facit, contradícit Cǽsari. <span className="font-bold text-red-500">C.</span> Pilátus autem cum audísset hos sermónes, addúxit foras Jesum, et sedit pro tribunáli, in loco, qui dícitur Lithóstrotos, hebráice autem Gábbatha. Erat autem Parascéve Paschæ, hora quasi sexta, et dicit Judǽis: <span className="font-bold text-red-500">S.</span> Ecce Rex vester. <span className="font-bold text-red-500">C.</span> Illi autem clamábant: <span className="font-bold text-red-500">S.</span> Tolle, tolle, crucifíge eum. <span className="font-bold text-red-500">C.</span> Dicit eis Pilátus: <span className="font-bold text-red-500">S.</span> Regem vestrum crucifígam? <span className="font-bold text-red-500">C.</span> Respondérunt pontífices: <span className="font-bold text-red-500">S.</span> Non habémus regem nisi Cǽsarem. <span className="font-bold text-red-500">C.</span> Tunc ergo trádidit eis illum, ut crucifigerétur. Suscepérunt autem Jesum et eduxérunt. Depois disto conduziram Jesus de casa de Caifás para o Pretório.</p>
+      <p>Era já de manhã; e por isso não entraram, a fim de que se não contaminassem e pudessem comer a Páscoa. Saiu, pois, Pilatos fora, a ouvi-los, e disse: <span className="font-bold text-red-500">S.</span> «Que acusação fazeis a este homem?». <span className="font-bold text-red-500">C.</span> Responderam e disseram: <span className="font-bold text-red-500">S.</span> «Se Ele não fosse um malfeitor não to teríamos entregue». <span className="font-bold text-red-500">C.</span> E Pilatos disse-lhes: <span className="font-bold text-red-500">S.</span> «Tomai-O vós e julgai-O, segundo a vossa lei». <span className="font-bold text-red-500">C.</span> Ao que os judeus retorquiram: <span className="font-bold text-red-500">S.</span> «Não nos é permitido condenar ninguém à morte». <span className="font-bold text-red-500">C.</span> Estas palavras foram ditas para que se cumprisse o que Jesus anunciara, indicando de que morte havia de morrer. Entrou, então, Pilatos no Pretório, chamou Jesus e disse-Lhe: <span className="font-bold text-red-500">S.</span> «Sois o Rei dos judeus?». <span className="font-bold text-red-500">C.</span> Jesus respondeu-lhe: <span className="cross text-red-500">✠</span> «Dizes isso de ti mesmo, ou foram outros que te disseram isso de mim?». <span className="font-bold text-red-500">C.</span> Pilatos respondeu-Lhe: <span className="font-bold text-red-500">S.</span> «Acaso sou eu judeu? vosso povo e os pontífices entregaram-Vos às minhas mãos. Que mal fizestes?». <span className="font-bold text-red-500">C.</span> Jesus disse: <span className="cross text-red-500">✠</span> «Meu reino não é deste mundo. Se o meu reino fosse deste mundo, os meus ministros certamente teriam combatido para que Eu não fosse entregue aos judeus; mas o meu reino não é deste mundo». <span className="font-bold text-red-500">C.</span> Disse-Lhe Pilatos: <span className="font-bold text-red-500">S.</span> «Então sois Rei». <span className="font-bold text-red-500">C.</span> Respondeu Jesus: <span className="cross text-red-500">✠</span> «Tu o dizes: Eu sou Rei! Eu nasci e vim a este mundo para dar testemunho da verdade. Todo aquele que procura a verdade escuta a minha voz». <span className="font-bold text-red-500">C.</span> Disse-Lhe, pois, Pilatos: <span className="font-bold text-red-500">S.</span> «Que é a verdade?». <span className="font-bold text-red-500">C.</span> E, dizendo isto, foi novamente falar com os judeus, dizendo-lhes: <span className="font-bold text-red-500">S.</span> «Não acho n’Ele crime algum digno de condenação. Ora, como é costume entre vós dar liberdade a um preso na Páscoa, quereis que solte o Rei dos judeus?». <span className="font-bold text-red-500">C.</span> Então clamaram, novamente, todos: <span className="font-bold text-red-500">S.</span> «Esse, não; mas sim Barrabás». <span className="font-bold text-red-500">C.</span> Barrabás era, porém, um ladrão. Então Pilatos mandou açoitar Jesus, Os soldados, tecendo uma coroa de espinhos, puseram-Lha na cabeça; e vestiram-n’O com um manto de púrpura. Vinham ter com Ele e diziam-Lhe: <span className="font-bold text-red-500">S.</span> «Salve, ó Rei dos judeus!». <span className="font-bold text-red-500">C.</span> Davam-Lhe também bofetadas. Pilatos saiu outra vez para fora e disse-lhes: <span className="font-bold text-red-500">S.</span> «Eis que vo-l’O apresento novamente, para que saibais que não há n’Ele causa de condenação». <span className="font-bold text-red-500">C.</span> Apareceu então Jesus, trazendo a coroa de espinhos e um manto de púrpura. E Pilatos disse: <span className="font-bold text-red-500">S.</span> «Eis aqui o homem!». <span className="font-bold text-red-500">C.</span> Apenas os príncipes dos sacerdotes e os satélites viram Jesus, gritavam e diziam: <span className="font-bold text-red-500">S.</span> «Crucifica-O; crucifica-O!». <span className="font-bold text-red-500">C.</span> E Pilatos respondeu: <span className="font-bold text-red-500">S.</span> «Tomai-O vós e crucificai-O; pois não encontro n’Ele crime algum digno de condenação». <span className="font-bold text-red-500">C.</span> Retorquiram-lhe os judeus: <span className="font-bold text-red-500">S.</span> «Nós temos uma lei e, segundo ela, Jesus deve morrer, porque se diz Filho de Deus». <span className="font-bold text-red-500">C.</span> Quando Pilatos ouviu estas palavras, temeu ainda mais. E, entrando outra vez no Pretório, perguntou a Jesus: <span className="font-bold text-red-500">S.</span> «Donde sois Vós?». <span className="font-bold text-red-500">C.</span> Jesus lhe não respondeu. Pilatos continuou então: <span className="font-bold text-red-500">S.</span> «Não me respondeis? Ignorais que tenho poder para Vos mandar crucificar ou dar liberdade?». <span className="font-bold text-red-500">C.</span> Respondeu-lhe Jesus: <span className="cross text-red-500">✠</span> «Nenhum poder teríeis em mim, se vos não fora dado pelo alto; por isso, aquele que me entregou a ti é culpado de maior pecado». <span className="font-bold text-red-500">C.</span> E Pilatos procurava algum meio com que salvasse Jesus; contudo, os judeus clamavam, dizendo: <span className="font-bold text-red-500">S.</span> «Se O soltas não és amigo de César; porquanto, quem se faz rei declara-se contra César», Ouvindo estas palavras, Pilatos conduziu Jesus para fora e sentou-se no tribunal, em um lugar chamado Litóstrotos (que em hebreu significa Gabbata). Era então o dia de Parasceve (Preparação) da Páscoa, e quase a hora sexta. Pilatos disse aos judeus: <span className="font-bold text-red-500">S.</span> «Eis o vosso rei!». <span className="font-bold text-red-500">C.</span> Mas eles clamavam: <span className="font-bold text-red-500">S.</span> «Tira-O; tira-O; crucifica-O!». <span className="font-bold text-red-500">C.</span> E disse-lhes Pilatos: <span className="font-bold text-red-500">S.</span> «Pois hei-de crucificar o vosso rei?». <span className="font-bold text-red-500">C.</span> Os pontífices responderam: <span className="font-bold text-red-500">S.</span> «Não temos outro rei senão César». <span className="font-bold text-red-500">C.</span> Entregou-lhes, pois, finalmente, Jesus, para que fosse crucificado. Então seguraram-n’O e levaram-n’O.</p>
+      <p>Et bájulans sibi Crucem, exívit in eum, qui dícitur Calváriæ, locum, hebráice autem Gólgotha: ubi crucifixérunt eum, et cum eo alios duos, hinc et hinc, médium autem Jesum. Scripsit autem et títulum Pilátus: et pósuit super crucem. Erat autem scriptum: Jesus Nazarénus, Rex Judæórum. Hunc ergo títulum multi Judæórum legérunt, quia prope civitátem erat locus, ubi crucifíxus est Jesus. Et erat scriptum hebráice, græce et latíne. Dicébant ergo Piláto pontífices Judæórum: <span className="font-bold text-red-500">S.</span> Noli scríbere Rex Judæórum, sed quia ipse dixit: Rex sum Judæórum. <span className="font-bold text-red-500">C.</span> Respóndit Pilátus: <span className="font-bold text-red-500">S.</span> Quod scripsi, scripsi. <span className="font-bold text-red-500">C.</span> Mílites ergo cum crucifixíssent eum, acceperunt vestimenta ejus (et fecérunt quátuor partes: unicuique míliti partem), et túnicam. Erat autem túnica inconsútilis, désuper contéxta per totum. Dixérunt ergo ad ínvicem: <span className="font-bold text-red-500">S.</span> Non scindámus eam, sed sortiámur de illa, cujus sit. <span className="font-bold text-red-500">C.</span> Ut Scriptúra implerétur, dicens: Partíti sunt vestiménta mea sibi: et in vestem meam misérunt sortem. Et mílites quidem hæc fecérunt.</p>
+      <p>Puseram-Lhe, pois, uma cruz aos ombros e conduziram-n’O para um lugar, fora da cidade, chamado Calvário (que em hebreu significa Gólgota), onde O crucificaram, e com Ele dois outros, um de cada lado, e no meio Jesus. Pilatos escreveu também uma inscrição, que mandou colocar na parte superior da cruz, a qual dizia: «Jesus Nazareno, Rei dos Judeus». Muitos judeus leram este título, pois o lugar onde Jesus fora crucificado era perto da cidade. O título estava escrito em hebreu, grego e latim. Os pontífices diziam a Pilatos: <span className="font-bold text-red-500">S.</span> «Não escrevas Rei dos judeus; mas sim que Ele dizia: Sou o Rei dos judeus». <span className="font-bold text-red-500">C.</span> Respondeu-lhes Pilatos: <span className="font-bold text-red-500">S.</span> «O que eu escrevi fica escrito». <span className="font-bold text-red-500">C.</span> Entretanto, havendo sido crucificado, tomaram-Lhe os vestidos e dividiram-nos em quatro partes, sendo uma para cada soldado. Quanto à túnica, como era sem costura, toda tecida de alto a baixo, combinaram entre si, dizendo uns aos outros: <span className="font-bold text-red-500">S.</span> «Não a rasguemos, mas deitemos sortes para ver a quem ficará». <span className="font-bold text-red-500">C.</span> Isto aconteceu para que se cumprisse a Escritura, que dizia: «Repartiram entre si os meus vestidos e sobre a minha túnica deitaram sortes». Isto mesmo fizeram os soldados.</p>
+      <p>Stabant autem juxta Crucem Jesu Mater ejus et soror Matris ejus, María Cléophæ, e María Magdaléne. Cum vidísset ergo Jesus Matrem et discípulum stantem, quem diligébat, dicit Matri suæ: <span className="cross text-red-500">✠</span> Múlier, ecce fílius tuus. <span className="font-bold text-red-500">C.</span> Deinde dicit discípulo: <span className="cross text-red-500">✠</span> Ecce mater tua. <span className="font-bold text-red-500">C.</span> Et ex illa hora accépit eam discípulus in sua. Póstea sciens Jesus, quia ómnia consummáta sunt, ut consummarétur Scriptúra, dixit: <span className="cross text-red-500">✠</span> Sítio. <span className="font-bold text-red-500">C.</span> Vas ergo erat pósitum acéto plenum. Illi autem spóngiam plenam acéto, hyssópo circumponéntes, obtulérunt ori ejus. Cum ergo accepísset Jesus acétum, dixit: <span className="cross text-red-500">✠</span> Consummátum est. <span className="font-bold text-red-500">C.</span> Et inclináte cápite trádidit spíritum.</p>
+      <p>Estavam, então, de pé, junto à cruz de Jesus, sua Mãe e a irmã de sua Mãe, Maria de Cléofas, e Maria Madalena. Vendo Jesus sua Mãe e perto dela o discípulo que Ele preferia, disse à Mãe: <span className="cross text-red-500">✠</span> «Mulher, eis aí o teu Filho!». <span className="font-bold text-red-500">C.</span> Depois disse ao discípulo: <span className="cross text-red-500">✠</span> «Eis a tua Mãe!». <span className="font-bold text-red-500">C.</span> Desde aquela hora, o discípulo a tomou a seu cuidado. Depois, sabendo Jesus que tudo estava consumado para se cumprir o que a Escritura anunciara, disse: <span className="cross text-red-500">✠</span> «Tenho sede». <span className="font-bold text-red-500">C.</span> Havia ali perto um vaso cheio de vinagre. Foram, pois, os soldados buscá-lo e, embebendo nele uma esponja, ataram-na a um ramo de hissopo e chegaram-Lho à boca. Havendo Jesus tomado o vinagre, disse: <span className="cross text-red-500">✠</span> «Tudo está consumado!». <span className="font-bold text-red-500">C.</span> E, inclinando a cabeça, entregou o espírito!</p>
+      <p><em>Hic genuflectitur, et pausatur aliquantulum</em></p>
+      <p><em>Ajoelha-se durante algum tempo, meditando-se no que se leu.</em></p>
+      <p>Judǽi ergo (quóniam Parascéve erat), ut non remanérent in cruce córpora sábbato (erat enim magnus dies ille sábbati), rogavérunt Pilátum, ut frangeréntur eórum crura et tolleréntur. Venérunt ergo mílites: et primi quidem fregérunt crura et alteríus, qui crucifíxus est cum eo. Ad Jesum autem cum veníssent, ut vidérunt eum jam mórtuum, non fregérunt ejus crura, sed unus mílitum láncea latus ejus apéruit, et contínuo exívit sanguis et aqua. Et qui vidit, testimónium perhíbuit: et verum est testimónium ejus. Et ille scit, quia vera dicit: ut et vos credátis. Facta sunt enim hæc, ut Scriptúra implerétur: Os non comminuétis ex eo. Et íterum ália Scriptúra dicit: Vidébunt in quem transfixérunt.</p>
+      <p>Os judeus (porque era o dia da Preparação da Páscoa), não desejando que os corpos ficassem na cruz para o sábado (pois o sábado era solene), pediram a Pilatos consentisse que partissem as pernas aos crucificados e os descessem da cruz. Os soldados vieram e quebraram as pernas dos que haviam sido crucificados com Ele. Mas, tendo vindo a Jesus, como O vissem já morto, Lhe não quebraram as pernas, mas um dos soldados abriu-lhe com a lança o lado, do qual saiu sangue e água. E quem isto viu dá testemunho disso, e o seu testemunho é verdadeiro, pois sabe que diz a verdade, para que lhe deis crédito. Aconteceram estas coisas para se cumprir o que dizia a Escritura: «Não quebrareis nenhum dos meus ossos». Ainda a Escritura diz noutro lugar: «Contemplarão Aquele que traspassaram».</p>
+      </div>
+
+<aside>
+  O Celebrante vai ao meio do Altar e diz o [MUNDA COR
+  MEUM](/missal/ordo#munda-cor)... Depois prossegue:
+</aside>
+
+<div className="side-by-side not-content">
+      <p>Post hæc autem rogávit Pilátum Joseph ab Arimathǽa (eo quod esset discípulus Jesu, occúltus autem propter metum Judæórum), ut tólleret corpus Jesu. Et permísit Pilátus. Venit ergo et tulit corpus Jesu. Venit autem et Nicodémus, qui vénerat ad Jesum nocte primum, ferens mixtúram myrrhæ et áloes, quasi libras centum. Accepérunt ergo corpus Jesu, et ligavérunt illud línteis cum aromátibus, sicut mos est Judǽis sepelíre. Erat autem in loco, ubi crucifíxus est, hortus: et in horto monuméntum novum, in quo nondum quisquam pósitus erat. Ibi ergo propter Parascéven Judæórum, quia juxta erat monuméntum, posuérunt Jesum.</p>
+      <p>Em seguida, José de Arimateia (que fora discípulo de Jesus, ocultamente, com medo dos judeus), pediu a Pilatos o corpo de Jesus, o que Pilatos permitiu. Veio, pois, e tirou o corpo de Jesus. Acompanhou-o Nicodemos (que no princípio da noite viera procurar Jesus) com uma mistura de mirra e de aloés, de quase cem libras de preço. Tomaram, então, o corpo de Jesus e envolveram-no em lençóis com aromas, segundo o costume dos judeus. Havia no lugar em que Jesus foi crucificado um jardim, e nele uma sepultura nova, onde ninguém fora ainda depositado. Foi aí (por ser o dia da Preparação da Páscoa dos judeus) que depositaram Jesus, pois este túmulo estava próximo.</p>
+      </div>
+
+      <h2>Missa dos Penitentes</h2>
+
+      <h3>Pela Santa Igreja</h3>
+
+<div className="side-by-side not-content">
+      <p>Orémus, dilectíssimi nobis, pro Ecclésia sancta Dei, ut eam Deus et Dóminus noster pacificáre, adunáre et custodíre dignétur toto orbe terrárum, detque nobis, quiétam et tranquíllam vitam degéntibus, glorificáre Deum Patrem omnipoténtem.</p>
+      <p>Oremos, irmãos caríssimos, pela Santa Igreja de Deus, a fim de que o Senhor, nosso Deus, se digne conceder-lhe paz e união e a guarde em toda a terra, sujeitando-lhe espiritualmente todos os principados e potestades; e que nos conceda uma vida calma e tranquila para glorificarmos Deus Pai omnipotente.</p>
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>℣. Flectámus génua.</p>
+      <p>℣. Ajoelhemos!</p>
+      <p><span className="text-red-500">℟.</span> Leváte.</p>
+      <p><span className="text-red-500">℟.</span> Levantai-vos!</p>
+      <p>Omnípotens sempitérne Deus, qui glóriam tuam ómnibus in Christo géntibus revelásti: custódi ópera misericórdiæ tuæ; ut Ecclésia tua, toto orbe diffúsa, stábili fide in confessióne tui nóminis persevéret.  Per eúndem Dóminum nostrum... <span className="text-red-500">℟.</span> Amen.</p>
+      <p>Omnipotente e eterno Deus, que revelastes a vossa glória a todas as nações por meio de Cristo, conservai a obra da vossa misericórdia, para que a vossa Igreja, espalhada por todo o mundo, persevere com fé firme na confissão do vosso Nome. Pelo mesmo nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
+      </div>
+
+      <h3>Pelo Santíssimo Padre</h3>
+
+<div className="side-by-side not-content">
+      <p>Orémus, et pro beatíssimo Papa nostro <span className="text-red-500">N.</span>, ut Deus et Dóminus noster, qui elégit eum in órdine episcopátus, salvum atque incólumem custódiat Ecclésiæ suæ sanctæ, ad regéndum pópulum sanctum Dei.</p>
+      <p>Oremos, pelo Santíssimo Padre, o Papa <span className="text-red-500">N.</span> para que o Senhor, nosso Deus, que o elevou à ordem do Episcopado, o conserve incólume e livre, para utilidade da sua Igreja e para governar o santo povo de Deus.</p>
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>℣. Flectámus génua.</p>
+      <p>℣. Ajoelhemos!</p>
+      <p><span className="text-red-500">℟.</span> Leváte.</p>
+      <p><span className="text-red-500">℟.</span> Levantai-vos!</p>
+      <p>Omnípotens sempitérne Deus, cujus judício univérsa fundántur: réspice propítius ad preces nostras, et electum nobis Antístitem tua pietáte consérva; ut christiána plebs, quæ te gubernátur auctóre, sub tanto Pontífice, credulitátis suæ méritis augeátur. Per Dóminum nostrum...  <span className="text-red-500">℟.</span> Amen.</p>
+      <p>Omnipotente e eterno Deus, que pela vossa sabedoria fazeis subsistir todas as coisas, acolhei benigno as nossas súplicas, e pela vossa bondade conservai o Pontífice escolhido, para que o povo cristão, que a vossa autoridade governa, aumente nos méritos da sua fé, debaixo da direcção de tão grande Pontífice. Por nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
+      </div>
+
+      <h3>Por todo o Corpo da Igreja</h3>
+
+<div className="side-by-side not-content">
+      <p>Orémus, et pro ómnibus Epíscopis nostro, Presbýteris, Diacónibus,Subdiacónis, Acólythis, Exorcístis, Lectóribus, Ostiáriis, Confessóribus, Virgínibus, Víduis: et pro omni pópulo sancto Dei.</p>
+      <p>Oremos, também por todos os Bispos, Presbíteros, Diáconos, Subdiáconos, Acólitos, Exorcistas, Leitores, Ostiários, Confessores, Virgens, Viúvas e ainda por todo o santo povo de Deus.</p>
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>℣. Flectámus génua.</p>
+      <p>℣. Ajoelhemos!</p>
+      <p><span className="text-red-500">℟.</span> Leváte.</p>
+      <p><span className="text-red-500">℟.</span> Levantai-vos!</p>
+      <p>Deus, cujus Spíritu totum corpus Ecclésiæ sanctificátur et régitur: exáudi nos pro univérsis ordínibus supplicántes; ut, grátiæ tuæ múnere, ab ómnibus tibi grádibus fidéliter serviátur. Per Dóminum...  <span className="text-red-500">℟.</span> Amen.</p>
+      <p>Omnipotente e eterno Deus, cujo Espírito santifica e governa todo o corpo da Igreja, ouvi as nossas súplicas por todas as Ordens, a fim de que pelo dom da vossa graça cada uma dessas jerarquias Vos sirva fielmente. Por nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
+      </div>
+
+      <h3>Pelo Imperador Romano</h3>
+
+<div className="side-by-side not-content">
+      <p>Orémus, et pro Christianíssimo (Si non est coronatus, dicatur: elécto Imperatóre.) Imperatóre nostro <span className="text-red-500">N.</span> ut Deus et Dóminus noster súbditas fáciat omnes barbaras natiónes ad nostram perpétuam pacem.</p>
+      <p>Oremos, também pelo nosso Cristianíssimo (Se não é coroado, diz-se: Imperador eleito.) Imperador <span className="text-red-500">N.</span> para que o Senhor, nosso Deus, lhe submeta todas as nações bárbaras, para nossa perpétua paz.</p>
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>℣. Flectámus génua.</p>
+      <p>℣. Ajoelhemos!</p>
+      <p><span className="text-red-500">℟.</span> Leváte.</p>
+      <p><span className="text-red-500">℟.</span> Levantai-vos!</p>
+      <p>Omnípotens sempitérne Deus, in cujus manu sunt ómnium potestátes et ómnium jura regnórum: réspice ad Románum benígnus Impérium; ut gentes, quæ in sua feritáte confídunt, poténtiæ tuæ déxtera comprimántur.  Per Dóminum nostrum... <span className="text-red-500">℟.</span> Amen.</p>
+      <p>Omnipotente e eterno Deus, em cujas mãos estão todas as potestades e todas as leis do reino: olhai benignamente para o Império Romano; de modo que as nações que confiam em sua própria força, fiquem sujeitas à sua dextra. Por nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
+      </div>
+
+      <h3>Pelos Catecúmenos</h3>
+
+<div className="side-by-side not-content">
+      <p>Orémus, et pro catechúmenis nostris: ut Deus et Dóminus noster adapériat aures præcordiórum ipsórum januámque misericordiæ; ut, per lavácrum regeneratiónis accépta remissióne ómnium peccatórum, et ipsi inveniántur in Christo Jesu, Dómino nostro.</p>
+      <p>Oremos, também pelos nossos Catecúmenos, para que o Senhor, nosso Deus, lhes abra os ouvidos do coração e as portas da misericórdia, e, assim, havendo alcançado a remissão dos pecados pelo banho da regeneração, sejam connosco incorporados em Jesus Cristo, nosso Senhor.</p>
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>℣. Flectámus génua.</p>
+      <p>℣. Ajoelhemos!</p>
+      <p><span className="text-red-500">℟.</span> Leváte.</p>
+      <p><span className="text-red-500">℟.</span> Levantai-vos!</p>
+      <p>Omnípotens sempitérne Deus, qui Ecclésiam tuam nova semper prole fecúndas: auge fidem et intellectum catechúmenis nostris; ut, renáti fonte baptismátis, adoptiónis tuæ fíliis aggregéntur. Per Dóminum...  <span className="text-red-500">℟.</span> Amen.</p>
+      <p>Omnipotente e eterno Deus, que dais continuamente novos filhos à vossa Igreja, aumentai a fé e a inteligência dos nossos Catecúmenos, a fim de que, renascidos na fonte baptismal, sejam agregados aos vossos filhos de adopção. Por nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
+      </div>
+
+      <h3>Pelas Necessidade dos Fiéis</h3>
+
+<div className="side-by-side not-content">
+      <p>Orémus, dilectíssimi nobis, Deum Patrem omnipoténtem, ut cunctis mundum purget erróribus: morbos áuferat: famem depellat: apériat cárceres: víncula dissólvat: peregrinántibus réditum: infirmántibus sanitátem: navigántibus portum salútis indúlgeat.</p>
+      <p>Oremos, caríssimos irmãos, a Deus Pai omnipotente, pedindo-Lhe que purifique o mundo de todos os erros; afaste as doenças; desterre a fome; abra as prisões; quebre as cadeias; conceda aos viajantes feliz viagem; dê aos enfermos a saúde; e conduza os navegantes a porto de salvamento.</p>
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>℣. Flectámus génua.</p>
+      <p>℣. Ajoelhemos!</p>
+      <p><span className="text-red-500">℟.</span> Leváte.</p>
+      <p><span className="text-red-500">℟.</span> Levantai-vos!</p>
+      <p>Omnípotens sempitérne Deus, mæstórum consolátio, laborántium fortitúdo: pervéniant ad te preces de quacúmque tribulatióne clamántium; ut omnes sibi in necessitátibus suis misericórdiam tuam gáudeant affuísse.  Per Dóminum nostrum... <span className="text-red-500">℟.</span> Amen.</p>
+      <p>Omnipotente e eterno Deus, consolação dos tristes e força dos que trabalham, permiti que cheguem até Vós as súplicas dos que em qualquer tribulação a Vós recorrem, para que nas suas necessidades todos sintam com alegria o auxílio da vossa misericórdia. Por nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
+      </div>
+
+      <h3>Pelos Hereges e Cismáticos</h3>
+
+<div className="side-by-side not-content">
+      <p>Orémus, et pro hæréticis et schismáticis: ut Deus et Dóminus noster éruat eos ab erróribus univérsis; et ad sanctam matrem Ecclésiam Cathólicam atque Apostólicam revocáre dignétur.</p>
+      <p>Oremos, também pelos hereges e cismáticos: para que o Senhor, nosso Deus, os livre de todos os erros e se digne reconduzi-los ao seio da santa mãe Igreja Católica e Apostólica.</p>
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>℣. Flectámus génua.</p>
+      <p>℣. Ajoelhemos!</p>
+      <p><span className="text-red-500">℟.</span> Leváte.</p>
+      <p><span className="text-red-500">℟.</span> Levantai-vos!</p>
+      <p>Omnípotens sempitérne Deus, qui salvas omnes, et néminem vis períre: réspice ad ánimas diabólica fraude decéptas; ut, omni hærética pravitáte depósita, errántium corda resipíscant, et ad veritátis tuæ rédeant unitátem. Per Dóminum nostrum... <span className="text-red-500">℟. </span> Amen.</p>
+      <p>Omnipotente e eterno Deus, que quereis salvar todos os homens e não quereis que nenhum pereça, lançai vossos olhares de compaixão para as almas seduzidas pelos artifícios do demónio, a fim de que, abandonando elas toda a maldade, se arrependam dos erros e regressem à unidade da vossa doutrina. Por nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
+      </div>
+
+      <h3>Pelos Judeus</h3>
+
+<div className="side-by-side not-content">
+      <p>Orémus et pro pérfidis Judǽis: ut Deus et Dóminus noster áuferat velámen de córdibus eórum; ut et ipsi agnóscant Jesum Christum, Dóminum nostrum.</p>
+      <p>Oremos, também pelos pérfidos Judeus, a fim de que o Senhor nosso Deus tire o véu que cobre os seus corações, e que também reconheçam nosso Senhor Jesus Cristo.</p>
+      </div>
+
+<aside>Não se responde Amen, e o Celebrante continua:</aside>
+
+<div className="side-by-side not-content">
+      <p>Omnípotens sempitérne Deus, qui étiam judáicam perfídiam a tua misericórdia non repéllis: exáudi preces nostras, quas pro illíus pópuli obcæcatióne deférimus; ut, ágnita veritátis tuæ luce, quæ Christus est, a suis ténebris eruántur. Per eundem... <span className="text-red-500">℟.</span> Amen.</p>
+      <p>Deus Omnipotente e eterno, que não desviais a vossa misericórdia ainda dos pérfidos Judeus: ouvi as orações que fazemos por este povo cego, a fim de que, reconhecendo a luz da vossa verdade, que é Jesus Cristo, saiam das trevas. Pelo mesmo nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
+      </div>
+
+      <h3>Pelos Pagãos</h3>
+
+<div className="side-by-side not-content">
+      <p>Orémus, et pro pagánis: ut Deus omnípotens áuferat iniquitátem a córdibus eórum; ut, relíctis idólis suis, convertántur ad Deum vivum et verum, et únicum Fílium ejus Jesum Christum, Deum et Dóminum nostrum.</p>
+      <p>Oremos, ainda pelos pagãos, a fim de que Deus omnipotente lhes arranque dos corações a iniquidade, e, abandonando os seus ídolos, se convertam a Deus vivo e verdadeiro e a seu Filho Unigénito Jesus Cristo, nosso Deus e Senhor.</p>
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>℣. Flectámus génua.</p>
+      <p>℣. Ajoelhemos!</p>
+      <p><span className="text-red-500">℟.</span> Leváte.</p>
+      <p><span className="text-red-500">℟.</span> Levantai-vos!</p>
+      <p>Omnípotens sempitérne Deus, qui non mortem peccatórum, sed vitam semper inquíris: súscipe propítius oratiónem nostram, et líbera eos ab idolórum cultúra; et ággrega Ecclésiæ tuæ sanctæ, ad laudem et glóriam nóminis tui. Per Dóminum... <span className="text-red-500">℟.</span> Amen.</p>
+      <p>Omnipotente e eterno Deus, que procurais sempre não a morte dos pecadores mas a sua vida, ouvi benigno a nossa oração, livrai os pagãos do culto aos ídolos e agregai-os à vossa santa Igreja, para honra e glória do vosso nome. Por nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
+      </div>
+
+      <h2>Adoração da Cruz</h2>
+
+      <h3>Veníte, adorémus</h3>
+
+<div className="side-by-side not-content">
+      <p>Ecce lignum Crucis, in quo salus mundi pependit.</p>
+      <p>Eis o Lenho da Cruz, do qual pendeu a salvação do mundo!</p>
+      <p><span className="text-red-500">℟.</span> Veníte, adoremus.</p>
+      <p><span className="text-red-500">℟.</span> Vinde, adoremo-lo!</p>
+      <p>℣. Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi. ℣. Quia edúxi te de terra Ægýpti: parásti Crucem Salvatóri tuo.</p>
+      <p>℣. Ó meu povo, que mal te fiz ou em que te contristei? Responde-me! ℣. Foi por te haver tirado da terra do Egipto que preparaste a Cruz para o teu Salvador?</p>
+      <p><span className="text-red-500">℟.</span> Agios o Theós. <span className="text-red-500">℟.</span> Sanctus Deus. <span className="text-red-500">℟.</span> Agios ischyrós. <span className="text-red-500">℟.</span> Sanctus fortis. <span className="text-red-500">℟.</span> Agios athánatos, eléison imas. <span className="text-red-500">℟.</span> Sanctus immortális, miserére nobis.</p>
+      <p><span className="text-red-500">℟.</span> Ó Deus santo! <span className="text-red-500">℟.</span> Ó Deus santo! <span className="text-red-500">℟.</span> Ó santo forte! <span className="text-red-500">℟.</span> Ó santo forte! <span className="text-red-500">℟.</span> Ó santo imortal, compadecei-Vos de nós! <span className="text-red-500">℟.</span> Ó santo imortal, compadecei-Vos de nós!</p>
+      <p>℣. Quia edúxi te per desértum quadragínta annis, et manna cibávi te, et introdúxi te in terram satis bonam: parásti Crucem Salvatóri tuo.</p>
+      <p>℣. Foi porque durante quarenta anos te conduzi no deserto, te alimentei com o maná e te introduzi numa terra excelente que preparaste a Cruz para o teu Salvador?</p>
+      <p><span className="text-red-500">℟.</span> Agios o Theós. <span className="text-red-500">℟.</span> Sanctus Deus. <span className="text-red-500">℟.</span> Agios ischyrós. <span className="text-red-500">℟.</span> Sanctus fortis. <span className="text-red-500">℟.</span> Agios athánatos, eléison imas. <span className="text-red-500">℟.</span> Sanctus immortális, miserére nobis.</p>
+      <p><span className="text-red-500">℟.</span> Ó Deus santo! <span className="text-red-500">℟.</span> Ó Deus santo! <span className="text-red-500">℟.</span> Ó santo forte! <span className="text-red-500">℟.</span> Ó santo forte! <span className="text-red-500">℟.</span> Ó santo imortal, compadecei-Vos de nós! <span className="text-red-500">℟.</span> Ó santo imortal, compadecei-Vos de nós!</p>
+      <p>℣. Quid ultra débui fácere tibi, et non feci? Ego quidem plantávi te víneam meam speciosíssimam: et tu facta es mihi nimis amára: acéto namque sitim meam potásti: et láncea perforásti latus Salvatóri tuo.</p>
+      <p>℣. Que mais por ti pudera fazer, que não tivesse feito? Plantei-te, como vinha especiosíssima! E tu converteste-te para mim na maior amargura: pois com vinagre atravessaste quiseste o mitigar-me lado do teu a sede Salvador!</p>
+      <p><span className="text-red-500">℟.</span> Agios o Theós. <span className="text-red-500">℟.</span> Sanctus Deus. <span className="text-red-500">℟.</span> Agios ischyrós. <span className="text-red-500">℟.</span> Sanctus fortis. <span className="text-red-500">℟.</span> Agios athánatos, eléison imas. <span className="text-red-500">℟.</span> Sanctus immortális, miserére nobis.</p>
+      <p><span className="text-red-500">℟.</span> Ó Deus santo! <span className="text-red-500">℟.</span> Ó Deus santo! <span className="text-red-500">℟.</span> Ó santo forte! <span className="text-red-500">℟.</span> Ó santo forte! <span className="text-red-500">℟.</span> Ó santo imortal, compadecei-Vos de nós! <span className="text-red-500">℟.</span> Ó santo imortal, compadecei-Vos de nós!</p>
+      <p>℣. Ego propter te flagellávi Ægýptum cum primogénitis suis: et tu me flagellátum tradidísti.</p>
+      <p>℣. Por tua causa flagelei o Egipto em seus primogénitos! E tu entregaste-me para ser flagelado!</p>
+      <p><span className="text-red-500">℟.</span> Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi.</p>
+      <p><span className="text-red-500">℟.</span> Ó meu povo, que mal te fiz ou em que te contristei?  Responde-me!</p>
+      <p>℣. Ego edúxi te de Ægýpto, demérso Pharaóne in Mare Rubrum: et tu me tradidísti princípibus sacerdótum.</p>
+      <p>℣. Tirei-te do Egipto e submergi Faraó nas águas do mar Vermelho! E tu entregaste-me aos príncipes dos sacerdotes!</p>
+      <p><span className="text-red-500">℟.</span> Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi.</p>
+      <p><span className="text-red-500">℟.</span> Ó meu povo, que mal te fiz ou em que te contristei?  Responde-me!</p>
+      <p>℣. Ego ante te apérui mare: et tu aperuísti láncea latus meum.</p>
+      <p>℣. Abri o mar à tua passagem! E tu abriste-me o lado com uma lança!</p>
+      <p><span className="text-red-500">℟.</span> Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi.</p>
+      <p><span className="text-red-500">℟.</span> Ó meu povo, que mal te fiz ou em que te contristei?  Responde-me!</p>
+      <p>℣. Ego ante te præívi in colúmna nubis: et tu me duxísti ad prætórium Piláti.</p>
+      <p>℣. Caminhei diante de ti, como nuvem luminosa! E tu levaste-me ao pretório de Pilatos!</p>
+      <p><span className="text-red-500">℟.</span> Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi.</p>
+      <p><span className="text-red-500">℟.</span> Ó meu povo, que mal te fiz ou em que te contristei?  Responde-me!</p>
+      <p>℣. Ego te pavi manna per desértum: et tu me cecidísti álapis et flagéllis.</p>
+      <p>℣. Com o maná te alimentei no deserto! E tu encheste-me de bofetadas e açoites!</p>
+      <p><span className="text-red-500">℟.</span> Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi.</p>
+      <p><span className="text-red-500">℟.</span> Ó meu povo, que mal te fiz ou em que te contristei?  Responde-me!</p>
+      <p>℣. Ego te potávi aqua salútis de petra: et tu me potásti felle et acéto.</p>
+      <p>℣. Fiz brotar água do rochedo para te saciar! E tu deste-me a beber fel e vinagre!</p>
+      <p><span className="text-red-500">℟.</span> Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi.</p>
+      <p><span className="text-red-500">℟.</span> Ó meu povo, que mal te fiz ou em que te contristei?  Responde-me!</p>
+      <p>℣. Ego propter te Chananæórum reges percússi: et tu percussísti arúndine caput meum.</p>
+      <p>℣. Por tua causa feri os reis dos Cananeus! E tu feriste-me a cabeça com uma cana!</p>
+      <p><span className="text-red-500">℟.</span> Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi.</p>
+      <p><span className="text-red-500">℟.</span> Ó meu povo, que mal te fiz ou em que te contristei?  Responde-me!</p>
+      <p>℣. Ego dedi tibi sceptrum regale: et tu dedísti capiti meo spíneam coronam.</p>
+      <p>℣. Dei-te o ceptro da realeza! E tu colocaste na minha cabeça uma coroa de espinhos!</p>
+      <p><span className="text-red-500">℟.</span> Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi.</p>
+      <p><span className="text-red-500">℟.</span> Ó meu povo, que mal te fiz ou em que te contristei?  Responde-me!</p>
+      <p>℣. Ego te exaltávi magna virtúte: et tu me suspendísti in patíbulo Crucis.</p>
+      <p>℣. Elevei-te, revestindo-te com grande poder! E tu suspendeste-me no patíbulo da Cruz!</p>
+      <p><span className="text-red-500">℟.</span> Pópule meus, quid feci tibi? aut in quo contristávi te? respónde mihi.</p>
+      <p><span className="text-red-500">℟.</span> Ó meu povo, que mal te fiz ou em que te contristei?  Responde-me!</p>
+      <p>℣. Crucem tuam adorámus, Dómine: et sanctam resurrectiónem tuam laudámus et glorificámus: ecce enim, propter lignum venit gaudium in univérso mundo.</p>
+      <p>℣. Senhor, adoramos a vossa Cruz; louvamos e glorificamos a vossa santa Ressurreição; pois foi por este Lenho que a alegria apareceu em todo o mundo.</p>
+      <p><em>Ps. 66, 2</em> Deus misereátur nostri et benedícat nobis:</p>
+      <p><em>Sl. 66, 2</em> Que Deus tenha piedade de nós e nos abençoe.</p>
+      <p><span className="text-red-500">℟.</span> Illúminet vultum suum super nos et misereátur nostri.</p>
+      <p><span className="text-red-500">℟.</span> Que nos ilumine com o brilho da sua face e seja misericordioso para connosco.</p>
+      <p>℣. Crucem tuam adorámus, Dómine: et sanctam resurrectiónem tuam laudámus et glorificámus: ecce enim, propter lignum venit gáudium in univérso mundo.</p>
+      <p>℣. Senhor, adoramos a vossa Cruz; louvamos e glorificamos a vossa santa Ressurreição; pois foi por este Lenho que a alegria apareceu em todo o mundo.</p>
+      <p><span className="text-red-500">℟.</span> Crux fidélis, inter omnes arbor una nóbilis: nulla silva talem profert fronde, flore, gérmine. Dulce lignum dulces clavos, dulce pondus sústinet.</p>
+      <p><span className="text-red-500">℟.</span> Ó Cruz, em que tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta produz outra igual, nem nas folhas, nem nas flores, nem nos frutos. Ó amável Lenho, ó cravos sagrados, que segurais um fardo tão precioso!</p>
+      <p><em>Hymnus</em> ℣. Pange, lingua, gloriósi láuream certáminis, et super Crucis trophǽo dic triúmphum nóbilem: quáliter Redémptor orbis immolátus vícerit.</p>
+      <p><em>Hino</em> ℣. Canta, ó língua, os louros do glorioso combate; celebra o nobre triunfo de que a Cruz é o troféu! Canta a vitória que o Redentor do mundo alcançou, se imolando.</p>
+      <p><span className="text-red-500">℟.</span> Crux fidélis, inter omnes arbor una nóbilis: nulla silva talem profert fronde, flore, gérmine.</p>
+      <p><span className="text-red-500">℟.</span> Ó Cruz, em que tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta produz outra igual, nem nas folhas, nem nas flores, nem nos frutos.</p>
+      <p>℣. De paréntis protoplásti fraude Factor cóndolens, quando pomi noxiális in necem morsu ruit: ipse lignum tunc notávit, damna ligni ut sólveret.</p>
+      <p>℣. Condoído da infelicidade que a sedução trouxe ao nosso primeiro pai, precipitado na morte por haver comido o fruto funesto, o Criador, desde então, designou outra árvore para reparar os males da primeira.</p>
+      <p><span className="text-red-500">℟.</span> Dulce lignum dulces clavos, dulce pondus sústinet.</p>
+      <p><span className="text-red-500">℟.</span> Ó amável Lenho, ó cravos sagrados, que segurais um fardo tão precioso!</p>
+      <p>℣. Hoc opus nostræ salútis ordo depopóscerat: multifórmis proditóris ars ut artem fálleret: et medélam ferret inde, hostis unde lǽserat.</p>
+      <p>℣. Tal obra era necessária para a nossa salvação. A sabedoria divina frustrou deste modo o astuto traidor, vindo-nos o remédio pelo instrumento de que se servira o inimigo para nos ferir.</p>
+      <p><span className="text-red-500">℟.</span> Crux fidélis, inter omnes arbor una nóbilis: nulla silva talem profert fronde, flore, gérmine.</p>
+      <p><span className="text-red-500">℟.</span> Ó Cruz, em que tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta produz outra igual, nem nas folhas, nem nas flores, nem nos frutos.</p>
+      <p>℣. Quando venit ergo sacri plenitúdo témporis, missus est ab arce Patris Natus, orbis Cónditor: atque ventre virgináli carne amíctus pródiit.</p>
+      <p>℣. Quando veio a plenitude do tempo assinalado, Aquele por quem o mundo foi criado foi mandado do trono do Pai; e, fazendo-se carne em um seio virginal, apareceu neste mundo.</p>
+      <p><span className="text-red-500">℟.</span> Dulce lignum dulces clavos, dulce pondus sústinet.</p>
+      <p><span className="text-red-500">℟.</span> Ó amável Lenho, ó cravos sagrados, que segurais um fardo tão precioso!</p>
+      <p>℣. Vagit Infans inter arcta cónditus præsépia: membra pannis involúta Virgo Mater álligat: et Dei manus pedésque stricta cingit fáscia.</p>
+      <p>℣. Deu os primeiros vagidos deitado em pobre presépio, e a Virgem Mãe cobriu-lhe com panos os delicados membros, ficando cativas com faixas de pano as mãos e os pés de um Deus!</p>
+      <p><span className="text-red-500">℟.</span> Crux fidélis, inter omnes arbor una nóbilis: nulla silva talem profert fronde, flore, gérmine.</p>
+      <p><span className="text-red-500">℟.</span> Ó Cruz, em que tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta produz outra igual, nem nas folhas, nem nas flores, nem nos frutos.</p>
+      <p>℣. Lustra sex qui jam perégit, tempus implens córporis, sponte líbera Redémptor passióni déditus, Agnus in Crucis levátur immolándus stípite.</p>
+      <p>℣. Depois de haver vivido seis lustros, estando completo o tempo da sua vida mortal, o Redentor entregou-se livremente ao sofrimento. O Cordeiro foi elevado na Cruz para nela ser imolado.</p>
+      <p><span className="text-red-500">℟.</span> Dulce lignum dulces clavos, dulce pondus sústinet.</p>
+      <p><span className="text-red-500">℟.</span> Ó amável Lenho, ó cravos sagrados, que segurais um fardo tão precioso!</p>
+      <p>℣. Felle potus ecce languet: spina, clavi, láncea mite corpus perforárunt, unda manat et cruor: terra, pontus, astra, mundus, quo lavántur flúmine!</p>
+      <p>℣. Eis que na agonia dão-Lhe a beber fel; e os espinhos, os cravos e a lança ferem o seu delicado corpo, donde manam água e sangue. E este digno rio lava a terra, o mar, os astros e o mundo inteiro.</p>
+      <p><span className="text-red-500">℟.</span> Crux fidélis, inter omnes arbor una nóbilis: nulla silva talem profert fronde, flore, gérmine.</p>
+      <p><span className="text-red-500">℟.</span> Ó Cruz, em que tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta produz outra igual, nem nas folhas, nem nas flores, nem nos frutos.</p>
+      <p>℣. Flecte ramos, arbor alta, tensa laxa víscera, et rigor lentéscat ille, quem dedit natívitas: et supérni membra Regis tende miti stípite.</p>
+      <p>℣. Ó árvore augusta, verga os teus ramos, afrouxa as fibras, quebra a rigidez que te deu a natureza, e torna-te em leito macio para os membros do Rei supremo!</p>
+      <p><span className="text-red-500">℟.</span> Dulce lignum dulces clavos, dulce pondus sústinet.</p>
+      <p><span className="text-red-500">℟.</span> Ó amável Lenho, ó cravos sagrados, que segurais um fardo tão precioso!</p>
+      <p>℣. Sola digna tu fuísti ferre mundi víctimam: atque portum præparáre arca mundo náufrago: quam sacer cruor perúnxit, fusus Agni córpore.</p>
+      <p>℣. Só tu foste julgada digna de sustentar em teus braços a Vítima do mundo. Para este mundo naufragado, tu, banhada pelo sangue do divino Cordeiro, foste o primeiro piloto que o conduziu ao porto.</p>
+      <p><span className="text-red-500">℟.</span> Crux fidélis, inter omnes arbor una nóbilis: nulla silva talem profert fronde, flore, gérmine.</p>
+      <p><span className="text-red-500">℟.</span> Ó Cruz, em que tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta produz outra igual, nem nas folhas, nem nas flores, nem nos frutos.</p>
+      <p>℣. Sempitérna sit beátæ Trinitáti glória: æqua Patri Filióque; par decus Paráclito: Uníus Triníque nomen laudet univérsitas. <span className="text-red-500">℟.</span> Amen.</p>
+      <p>℣. Glória eterna à bem-aventurada Trindade; igual homenagem ao Pai, e ao Filho, e ao Paráclito. Que o nome de Deus uno e trino seja louvado em todo o orbe. <span className="text-red-500">℟.</span> Amen.</p>
+      <p><span className="text-red-500">℟.</span> Dulce lignum dulces clavos, dulce pondus sústinet.</p>
+      <p><span className="text-red-500">℟.</span> Ó amável Lenho, ó cravos sagrados, que segurais um fardo tão precioso!</p>
+      </div>
+
+      <h2>Missa dos Pré-Santificados</h2>
+
+<aside>
+  Conduz-se Processionalmente a Divina Hóstia para o Altar onde se celebra o
+  Ofício. Entretanto, canta-se o Hino:
+</aside>
+
+
+      <h3>Vexilla Regis</h3>
+
+<VexillaRegis />
+
+<div className="side-by-side not-content">
+      <p>In spiritu humilitátis et in ánimo contríto suscipiámur a te, Dómine: et sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi, Dómine Deus.</p>
+      <p>Com o espírito humilhado e com o coração contrito, Senhor, Vos pedimos, dignai-Vos receber-nos, para que este sacrifício seja feito hoje na vossa presença e de modo que Vos seja agradável.</p>
+      <p>Oráte, fratres, ut meum ac vestrum sacrifícium acceptábile fiat apud Deum Patrem omnipoténtem.</p>
+      <p>Orai, meus irmãos, a fim de que este meu sacrifício, que é também vosso, seja agradável a Deus, Pai omnipotente.</p>
+      <p><span className="text-red-500 text-center">Orémus.</span></p>
+      <p><span className="text-red-500 text-center">Oremos.</span></p>
+      <p>Percéptio Córporis tui, Dómine Jesu Christe, quod ego indígnus súmere præsúmo, non mihi provéniat in judícium et condemnatiónem: sed pro tua pietáte prosit mihi ad tutaméntum mentis et córporis, et ad medélam percipiéndam: Qui vivis et regnas...</p>
+      <p>Senhor Jesus Cristo, que este vosso Corpo, que eu, ainda que indignamente, me proponho receber, não seja para meu juízo e condenação; mas que, pela vossa misericórdia, sirva à minha alma e ao meu corpo de defesa e de remédio salutar. Vós, que, sendo Deus...</p>
+      <p>Panem cœléstem accípiam, et nomen Dómini invocábo.</p>
+      <p>Tomarei o Pão Celestial e invocarei o nome do Senhor.</p>
+      <p>Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.</p>
+      <p>Senhor, não sou digno de que entreis em minha morada, mas dizei uma só palavra e minha alma será salva.</p>
+      <p>Corpus Dómini nostri Jesu Christi custódiat ánimam meam in vitam ætérnam. Amen.</p>
+      <p>Que o corpo de N. S. Jesus Cristo guarde a minha alma para a vida eterna. Amen.</p>
+      <p>Quod ore súmpsimus, Dómine, pura mente capiámus: et de múnere temporáli fiat nobis remédium sempitérnum.</p>
+      <p>Concedei-nos, Senhor, que conservemos com pureza de coração o que acaba de receber a nossa boca; e que esta dádiva temporal, que nos fizestes, se torne para nós em um remédio eterno.</p>
+      </div>
+
+    </div>
+  );
+}

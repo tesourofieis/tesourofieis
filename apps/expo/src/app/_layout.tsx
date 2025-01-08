@@ -22,7 +22,7 @@ import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
 
-export default function RootLayout() {
+export default function PageRootLayout() {
   const [loaded] = useFonts({
     Serif: Lusitana_400Regular,
     Display: BerkshireSwash_400Regular,
@@ -96,11 +96,12 @@ function RootLayoutNav() {
           }}
         />
         <Stack.Screen
-          name="modal"
+          name="(docs)"
           options={{
-            headerShown: false,
-            presentation: "modal",
-            animation: "slide_from_bottom",
+            headerStyle: {
+              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+            },
+            headerTitle: Header,
           }}
         />
       </Stack>

@@ -1,0 +1,23 @@
+"use dom";
+import "../../../../global.css";
+
+import React from 'react';
+
+
+export default function Page1005() {
+  return (
+    <div className="docs">
+      <h1>S. Plácido e Comps. Mártires, a 5 de Outubro</h1>
+
+
+<aside>
+  Como na [Missa Salus autem](/missal/comum/8muitosmartires3), excepto
+  [Oração](/missal/comum/7muitosmartires2#oração),
+  [Secreta](/missal/comum/7muitosmartires2#secreta) e
+  [Postcomúnio](/missal/comum/7muitosmartires2#postcomúnio) da [Missa Sapiéntiam
+  sanctórum](/missal/comum/7muitosmartires2).
+</aside>
+
+    </div>
+  );
+}

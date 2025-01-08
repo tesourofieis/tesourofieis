@@ -15,6 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@bacons/mdx": "^0.4.2",
     "@expo-google-fonts/berkshire-swash": "^0.2.3",
     "@expo-google-fonts/eb-garamond": "^0.2.3",
     "@expo-google-fonts/goudy-bookletter-1911": "^0.2.3",
@@ -25,6 +26,7 @@
     "@iconify/react": "^5.0.1",
     "@react-native-async-storage/async-storage": "1.23.1",
     "@react-native/assets-registry": "^0.75.1",
+    "@react-navigation/drawer": "^7.1.1",
     "@react-navigation/native": "^7.0.0",
     "@shopify/flash-list": "1.7.1",
     "@tesourofieis/cal": "workspace:*",
@@ -64,7 +66,7 @@
     "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/babel__core": "^7.20.5",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.10.1",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
     "tailwindcss": "catalog:",

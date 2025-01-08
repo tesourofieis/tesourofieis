@@ -13,7 +13,7 @@ import Novenas from "~/components/Novenas";
 import Office from "~/components/Office";
 import { COLORS } from "~/constants/Colors";
 
-export default function Render() {
+export default function PageRender() {
   const [currentDate, setCurrentDate] = useState(new Date());
 
   const colorScheme = useColorScheme();
@@ -87,8 +87,7 @@ export default function Render() {
           <Text className="font-black border-sepia-900 text-sepia-800 dark:border-sepia-200 dark:text-sepia-200 m-2 rounded-lg border px-4 py-2 text-center flex">
             <Link
               href={{
-                pathname: "/modal",
-                params: { url: "devocionario/introducao" },
+                pathname: "devocionario/introducao",
               }}
             >
               Introdução{" "}
@@ -102,8 +101,7 @@ export default function Render() {
           <Text className="font-black bg-sepia-900 text-sepia-200 dark:bg-sepia-200 dark:text-sepia-900 m-2 rounded-lg px-4 py-2 text-center">
             <Link
               href={{
-                pathname: "/modal",
-                params: { url: "devocionario/rosario" },
+                pathname: "devocionario/rosario",
               }}
             >
               Rosário{" "}
