@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from "react";
+import React, { type ReactElement, useState } from "react";
 
 export function Tabs({ children }) {
   const [activeTab, setActiveTab] = useState(0);
@@ -7,9 +7,10 @@ export function Tabs({ children }) {
   return (
     <div className="mt-4 pb-2">
       <div className="flex border-b border-sepia-200">
-        {tabs.map((tab: ReactElement, index) => (
+        {tabs.map((tab: ReactElement, index: number) => (
           <button
-            key={index}
+            type="button"
+            key={tab.props.label}
             onClick={() => setActiveTab(index)}
             className={`px-4 py-2 mr-2 text-sm font-medium rounded-t-lg ${
               activeTab === index
@@ -26,6 +27,7 @@ export function Tabs({ children }) {
   );
 }
 
+// biome-ignore lint/correctness/noUnusedVariables: <explanation>
 export function TabItem({ label, children }) {
   return children;
 }

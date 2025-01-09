@@ -121,7 +121,7 @@ export default function PageMoreScreen() {
       setSearchQuery(text);
       if (text) {
         const results = flattenedSidebar.filter((item) =>
-          item.label.toLowerCase().includes(text.toLowerCase())
+          item.label.toLowerCase().includes(text.toLowerCase()),
         );
         // Remove duplicates based on path
         const uniqueResults = results.reduce((acc, current) => {
@@ -137,7 +137,7 @@ export default function PageMoreScreen() {
         setSearchResults([]);
       }
     },
-    [flattenedSidebar]
+    [flattenedSidebar],
   );
 
   const handleItemPress = (item) => {

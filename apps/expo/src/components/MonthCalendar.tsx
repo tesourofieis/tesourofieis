@@ -71,7 +71,7 @@ export default function PageCalendarView() {
             return (
               <View
                 key={calendarDate}
-                className={`flex flex-row items-center gap-4 p-3 m-3 border-t`}
+                className={"flex flex-row items-center gap-4 p-3 m-3 border-t"}
               >
                 <Text className="text-sm font-bold text-sepia-700 dark:text-sepia-300 w-20">
                   {format(date, "EEE, dd", { locale: pt })}

@@ -1,127 +1,259 @@
 "use dom";
 import "../../../../global.css";
 
-import React from 'react';
-import LinkCard from '~/components/LinkCard'
+import React from "react";
+import LinkCard from "~/components/LinkCard";
 
 export default function Page0116Portugal() {
   return (
     <div className="docs">
       <h1>Os Santos Mártires de Marrocos, a 16 de Janeiro</h1>
 
-
       <h3>Intróito</h3>
 
-<em>Sl. 33, 20-21</em>
+      <em>Sl. 33, 20-21</em>
 
-<div className="side-by-side">
-      <p>Multæ tribulatiónes justórum, et de his ómnibus liberábit eos Dóminus: Dóminus custódit ómnia ossa eórum, unum ex his non conterétur. <em>ibid., 1</em> Benedícam Dóminum in omni témpore: semper laus ejus in ore meo. ℣. Gloria Patri...</p>
-      <p>Muitas são as tribulações dos justos, mas de todas elas o Senhor os livrará. O Senhor guarda todos seus ossos e nem um só deles será quebrado. <em>ibid., 1</em> Bendirei o Senhor em todo o tempo; os seus louvores estarão sempre na minha boca. ℣. Glória ao Pai...</p>
+      <div className="side-by-side">
+        <p>
+          Multæ tribulatiónes justórum, et de his ómnibus liberábit eos Dóminus:
+          Dóminus custódit ómnia ossa eórum, unum ex his non conterétur.{" "}
+          <em>ibid., 1</em> Benedícam Dóminum in omni témpore: semper laus ejus
+          in ore meo. ℣. Gloria Patri...
+        </p>
+        <p>
+          Muitas são as tribulações dos justos, mas de todas elas o Senhor os
+          livrará. O Senhor guarda todos seus ossos e nem um só deles será
+          quebrado. <em>ibid., 1</em> Bendirei o Senhor em todo o tempo; os seus
+          louvores estarão sempre na minha boca. ℣. Glória ao Pai...
+        </p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side">
-      <p>Deus, qui sanctórum Mártyrum tuórum Bérardi, Petri, Accúrsii, Adjúti, atque Othónis glorióso certámine órdinis Minórum inítia consecrásti: concéde nobis fámulis tuis; ut quorum lætámur triúmphis, eórum virtútes imitémur. Per Dóminum nostrum...</p>
-      <p>Ó Deus, que consagrastes os princípios da Ordem dos Menores com o glorioso martírio dos vossos Santos Mártires Berardo, Pedro, Acúrsio, Adjuto e Otão, permiti que nós, vossos servos, imitemos as suas virtudes, assim como nos alegramos com seus triunfos. Por nosso Senhor...</p>
+      <div className="side-by-side">
+        <p>
+          Deus, qui sanctórum Mártyrum tuórum Bérardi, Petri, Accúrsii, Adjúti,
+          atque Othónis glorióso certámine órdinis Minórum inítia consecrásti:
+          concéde nobis fámulis tuis; ut quorum lætámur triúmphis, eórum
+          virtútes imitémur. Per Dóminum nostrum...
+        </p>
+        <p>
+          Ó Deus, que consagrastes os princípios da Ordem dos Menores com o
+          glorioso martírio dos vossos Santos Mártires Berardo, Pedro, Acúrsio,
+          Adjuto e Otão, permiti que nós, vossos servos, imitemos as suas
+          virtudes, assim como nos alegramos com seus triunfos. Por nosso
+          Senhor...
+        </p>
       </div>
 
       <h3>Oração Comemoração S. Marcelo</h3>
 
-<div className="side-by-side">
-      <p>Preces pópuli tui, quæsumus, Dómine, cleménter exáudi: ut beáti Marcéllis Mártyris tui atque Pontíficis méritis adjuvémur, cujus passióne lætámur. Per Dóminum nostrum...</p>
-      <p>Senhor, dignai-Vos ouvir clementemente as preces do vosso povo, a fim de que sejamos auxiliados pelos méritos do B. Marcelo, vosso Mártir e Pontífice, cujo martírio festejamos. Por nosso Senhor...</p>
+      <div className="side-by-side">
+        <p>
+          Preces pópuli tui, quæsumus, Dómine, cleménter exáudi: ut beáti
+          Marcéllis Mártyris tui atque Pontíficis méritis adjuvémur, cujus
+          passióne lætámur. Per Dóminum nostrum...
+        </p>
+        <p>
+          Senhor, dignai-Vos ouvir clementemente as preces do vosso povo, a fim
+          de que sejamos auxiliados pelos méritos do B. Marcelo, vosso Mártir e
+          Pontífice, cujo martírio festejamos. Por nosso Senhor...
+        </p>
       </div>
 
       <h3>Epístola</h3>
 
-
-<LinkCard
-  href="/missal/comum/15confessoresnaopontifices2#epístola"
-  title="Confessores não Pontífices - Missa Justus ut palma"
-/>
+      <LinkCard
+        href="/missal/comum/15confessoresnaopontifices2#epístola"
+        title="Confessores não Pontífices - Missa Justus ut palma"
+      />
 
       <h3>Gradual</h3>
 
-<em>Sl. 78, 10</em>
+      <em>Sl. 78, 10</em>
 
-<div className="side-by-side">
-      <p>Víndica, Dómine, sánguinem Sanctórum tuórum, qui effúsus est. ℣. <em>Ps. ibid., 2</em> Posuérunt morticína servórum tuórum, Dómine, escas volatílibus cælis: carnes Sanctórum tuórum béstiis terræ.</p>
-      <p>Vingai, Senhor, o sangue dos vossos Santos que foi derramado. ℣. <em>Sl. ibid., 2</em> Deram para alimento às aves do céu os corpos dos vossos servos, que haviam sido mortos; e deram as carnes dos vossos Santos às feras da terra.</p>
-      <p>Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclyta tenes regna cæléstia. Allelúja.</p>
-      <p>Aleluia, aleluia. ℣. Eis a verdadeira fraternidade que venceu os crimes do mundo. Ela seguiu Cristo, possuindo gloriosamente o reino celestial. Aleluia.</p>
+      <div className="side-by-side">
+        <p>
+          Víndica, Dómine, sánguinem Sanctórum tuórum, qui effúsus est. ℣.{" "}
+          <em>Ps. ibid., 2</em> Posuérunt morticína servórum tuórum, Dómine,
+          escas volatílibus cælis: carnes Sanctórum tuórum béstiis terræ.
+        </p>
+        <p>
+          Vingai, Senhor, o sangue dos vossos Santos que foi derramado. ℣.{" "}
+          <em>Sl. ibid., 2</em> Deram para alimento às aves do céu os corpos dos
+          vossos servos, que haviam sido mortos; e deram as carnes dos vossos
+          Santos às feras da terra.
+        </p>
+        <p>
+          Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi
+          crímina: Christum secúta est, ínclyta tenes regna cæléstia. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. Eis a verdadeira fraternidade que venceu os
+          crimes do mundo. Ela seguiu Cristo, possuindo gloriosamente o reino
+          celestial. Aleluia.
+        </p>
       </div>
 
-<aside>
-  Após a Septuagésima, omite-se o Aleluia e o Verso, e diz-se o Trato:
-</aside>
+      <aside>
+        Após a Septuagésima, omite-se o Aleluia e o Verso, e diz-se o Trato:
+      </aside>
 
       <h3>Trato</h3>
 
-<em>Sl. 125, 5-6</em>
+      <em>Sl. 125, 5-6</em>
 
-<div className="side-by-side">
-      <p>Qui séminant in lácrimis, in gáudio metent. ℣. Eúntes ibant et flébant, mitténtes sémina sua. ℣. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.</p>
-      <p>Aqueles que semeiam com lágrimas ceifarão com júbilo. ℣. Iam, caminhavam e lançavam a semente à terra, chorando. ℣. Porém, quando voltavam, exultavam de alegria, trazendo os seus molhos de trigo.</p>
+      <div className="side-by-side">
+        <p>
+          Qui séminant in lácrimis, in gáudio metent. ℣. Eúntes ibant et
+          flébant, mitténtes sémina sua. ℣. Veniéntes autem vénient cum
+          exsultatióne, portántes manípulos suos.
+        </p>
+        <p>
+          Aqueles que semeiam com lágrimas ceifarão com júbilo. ℣. Iam,
+          caminhavam e lançavam a semente à terra, chorando. ℣. Porém, quando
+          voltavam, exultavam de alegria, trazendo os seus molhos de trigo.
+        </p>
       </div>
 
       <h3>Evangelho</h3>
 
-<em>Mt. 10, 16-22</em>
+      <em>Mt. 10, 16-22</em>
 
-<div className="side-by-side">
-      <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
-      <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
-      <p>In illo témpore: Dixit Jesus discipulis suis: Ecce ego mitto vos sicut oves in médio lupórum. Estóte ergo prudéntes sicut serpéntes, et simplices sicut colúmbæ. Cavéte autem ab homínibus. Tradent enim vos in concíliis, et in synagógis suis flagellábunt vos: et ad præsides, et ad reges ducémini propter me, in testimónium illis et géntibus. Cum autem tradent vos, nolite cogitáre, quómodo aut quid loquámini: dábitur enim vobis in illa hora, quid loquámini. Non enim vos estis qui loquímini, sed Spiritus Patris vestri, qui lóquitur in vobis. Tradet autem frater fratrem in mortem, et pater fílium: et insúrgent fílii in paréntes, et morte eos affícient: et éritis ódio ómnibus autem perseveráverit usque in finem, hic salvus erit.</p>
-      <p>Naquele tempo, disse Jesus aos seus discípulos: «Eis que vos envio, como ovelhas no meio de lobos. Sede, pois, prudentes, como as serpentes, e simples, como as pombas. Acautelai-vos dos homens, porque vos entregarão aos tribunais e vos flagerão nas suas sinagogas. Sereis conduzidos por amor de mim à presença dos governadores e dos reis para dardes testemunho de mim, diante deles e dos povos; mas, quando vos entregarem, não penseis de que maneira lhes havereis de falar e que palavras lhes devereis dizer, porque naquela mesma hora vos será transmitido o que houverdes de responder; pois não sois vós que falareis. O Espírito do vosso Pai é que falará em vós. O irmão entregará à morte o seu irmão; o pai entregará o filho; e os filhos se levantarão contra os pais e lhes darão a morte. Sereis odiados por todos por causa do meu nome, mas quem perseverar até ao fim será salvo».</p>
+      <div className="side-by-side">
+        <p>
+          <span className="cross text-red-500">✠</span> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
+        </p>
+        <p>
+          <span className="cross text-red-500">✠</span> Continuação do santo
+          Evangelho segundo S. Mateus.
+        </p>
+        <p>
+          In illo témpore: Dixit Jesus discipulis suis: Ecce ego mitto vos sicut
+          oves in médio lupórum. Estóte ergo prudéntes sicut serpéntes, et
+          simplices sicut colúmbæ. Cavéte autem ab homínibus. Tradent enim vos
+          in concíliis, et in synagógis suis flagellábunt vos: et ad præsides,
+          et ad reges ducémini propter me, in testimónium illis et géntibus. Cum
+          autem tradent vos, nolite cogitáre, quómodo aut quid loquámini:
+          dábitur enim vobis in illa hora, quid loquámini. Non enim vos estis
+          qui loquímini, sed Spiritus Patris vestri, qui lóquitur in vobis.
+          Tradet autem frater fratrem in mortem, et pater fílium: et insúrgent
+          fílii in paréntes, et morte eos affícient: et éritis ódio ómnibus
+          autem perseveráverit usque in finem, hic salvus erit.
+        </p>
+        <p>
+          Naquele tempo, disse Jesus aos seus discípulos: «Eis que vos envio,
+          como ovelhas no meio de lobos. Sede, pois, prudentes, como as
+          serpentes, e simples, como as pombas. Acautelai-vos dos homens, porque
+          vos entregarão aos tribunais e vos flagerão nas suas sinagogas. Sereis
+          conduzidos por amor de mim à presença dos governadores e dos reis para
+          dardes testemunho de mim, diante deles e dos povos; mas, quando vos
+          entregarem, não penseis de que maneira lhes havereis de falar e que
+          palavras lhes devereis dizer, porque naquela mesma hora vos será
+          transmitido o que houverdes de responder; pois não sois vós que
+          falareis. O Espírito do vosso Pai é que falará em vós. O irmão
+          entregará à morte o seu irmão; o pai entregará o filho; e os filhos se
+          levantarão contra os pais e lhes darão a morte. Sereis odiados por
+          todos por causa do meu nome, mas quem perseverar até ao fim será
+          salvo».
+        </p>
       </div>
 
       <h3>Ofertório</h3>
 
-<em>Pr. 3, 1-3</em>
+      <em>Pr. 3, 1-3</em>
 
-<div className="side-by-side">
-      <p>Justórum ánimæ in manu Dei sunt, et non tanget ilos torméntum malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace. Allelúja.</p>
-      <p>As almas dos justos estão nas mãos de Deus e o tormento da malícia as não tocará! Aos olhos dos insensatos pareciam quase a morrer, todavia estão na paz. Aleluia.</p>
+      <div className="side-by-side">
+        <p>
+          Justórum ánimæ in manu Dei sunt, et non tanget ilos torméntum malítiæ:
+          visi sunt óculis insipiéntium mori: illi autem sunt in pace. Allelúja.
+        </p>
+        <p>
+          As almas dos justos estão nas mãos de Deus e o tormento da malícia as
+          não tocará! Aos olhos dos insensatos pareciam quase a morrer, todavia
+          estão na paz. Aleluia.
+        </p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side">
-      <p>Pro pretiósa, Dómine, tuórum morte Sanctórum sacrifícium istud offérimus: quo opem tuam nostris tempóribus cleménter impéndas, et grátiam nobis veræ devotiónis exhíbeas. Per Dóminum...</p>
-      <p>Vos oferecemos, Senhor, este sacrifício em honra da preciosa morte dos vossos Santos, a fim de que em virtude dele nos concedais clementemente em nossos dias o vosso auxílio e a graça da verdadeira piedade. Por nosso Senhor...</p>
+      <div className="side-by-side">
+        <p>
+          Pro pretiósa, Dómine, tuórum morte Sanctórum sacrifícium istud
+          offérimus: quo opem tuam nostris tempóribus cleménter impéndas, et
+          grátiam nobis veræ devotiónis exhíbeas. Per Dóminum...
+        </p>
+        <p>
+          Vos oferecemos, Senhor, este sacrifício em honra da preciosa morte dos
+          vossos Santos, a fim de que em virtude dele nos concedais
+          clementemente em nossos dias o vosso auxílio e a graça da verdadeira
+          piedade. Por nosso Senhor...
+        </p>
       </div>
 
       <h3>Secreta Comemoração S. Marcelo</h3>
 
-<div className="side-by-side">
-      <p>Súscipe, quæsumus, Dómine, múnera dignánter obláta: et beáti Marcélli Mártyris tui atque Pontíficis, suffragántibus méritis, ad nostræ salútis auxílium provenire concéde. Per Dóminum nostrum...</p>
-      <p>Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai benignamente a vossa Igreja, a fim de que não só o vosso rebanho triunfe em toda a parte, mas também pelo poder do vosso nome os Pastores sejam bem acolhidos. Por nosso Senhor...</p>
+      <div className="side-by-side">
+        <p>
+          Súscipe, quæsumus, Dómine, múnera dignánter obláta: et beáti Marcélli
+          Mártyris tui atque Pontíficis, suffragántibus méritis, ad nostræ
+          salútis auxílium provenire concéde. Per Dóminum nostrum...
+        </p>
+        <p>
+          Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai
+          benignamente a vossa Igreja, a fim de que não só o vosso rebanho
+          triunfe em toda a parte, mas também pelo poder do vosso nome os
+          Pastores sejam bem acolhidos. Por nosso Senhor...
+        </p>
       </div>
 
       <h3>Comúnio</h3>
 
-<em>Lc. 12, 4</em>
+      <em>Lc. 12, 4</em>
 
-<div className="side-by-side">
-      <p>Dico autem vobis amícis meis: ne terreámini ab his, qui vos persequúntur.</p>
-      <p>Digo-vos, pois, a vós, que sois meus amigos: «Não tenhais medo daqueles que vos perseguem».</p>
+      <div className="side-by-side">
+        <p>
+          Dico autem vobis amícis meis: ne terreámini ab his, qui vos
+          persequúntur.
+        </p>
+        <p>
+          Digo-vos, pois, a vós, que sois meus amigos: «Não tenhais medo
+          daqueles que vos perseguem».
+        </p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side">
-      <p>Cæléstia, Dómine, domina, quæ súmpsimus, vitam nobis tríbuant sempitérnam: quam cum beatórum Mártyrum tuórum Berárdi, Petri, Accúrsii, Adjúti, atque Othónis, gloriósis méritis implorámus. Per Dóminum...</p>
-      <p>Que os dons celestiais que recebemos, Senhor, nos comuniquem a vida eterna, a qual Vos suplicamos pelos gloriosos méritos dos vossos Mártires Berardo, Pedro, Acúrsio, Adjuto e Otão. Por nosso Senhor...</p>
+      <div className="side-by-side">
+        <p>
+          Cæléstia, Dómine, domina, quæ súmpsimus, vitam nobis tríbuant
+          sempitérnam: quam cum beatórum Mártyrum tuórum Berárdi, Petri,
+          Accúrsii, Adjúti, atque Othónis, gloriósis méritis implorámus. Per
+          Dóminum...
+        </p>
+        <p>
+          Que os dons celestiais que recebemos, Senhor, nos comuniquem a vida
+          eterna, a qual Vos suplicamos pelos gloriosos méritos dos vossos
+          Mártires Berardo, Pedro, Acúrsio, Adjuto e Otão. Por nosso Senhor...
+        </p>
       </div>
 
       <h3>Postcomúnio Comemoração S. Marcelo</h3>
 
-<div className="side-by-side">
-      <p>Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quæsumus, semper interventióne nos réfove, cujus solémnia celebrámus. Per Dóminum nostrum...</p>
-      <p>Senhor, Vos suplicamos, governai com mansidão a vossa Igreja, agora que foi alimentada com a sagrada refeição, a fim de que, dirigida com firme suavidade, alcance o incremento da sua liberdade e persista na integridade da sua doutrina. Por nosso Senhor...</p>
+      <div className="side-by-side">
+        <p>
+          Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quæsumus,
+          semper interventióne nos réfove, cujus solémnia celebrámus. Per
+          Dóminum nostrum...
+        </p>
+        <p>
+          Senhor, Vos suplicamos, governai com mansidão a vossa Igreja, agora
+          que foi alimentada com a sagrada refeição, a fim de que, dirigida com
+          firme suavidade, alcance o incremento da sua liberdade e persista na
+          integridade da sua doutrina. Por nosso Senhor...
+        </p>
       </div>
-
     </div>
   );
 }

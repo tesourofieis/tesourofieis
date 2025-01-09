@@ -1,36 +1,34 @@
 "use dom";
 import "../../../../global.css";
 
-import React from 'react';
-import Missa from '../comum/sumospontifices';
+import React from "react";
+import Missa from "../comum/sumospontifices";
 
 export default function Page0711() {
   return (
     <div className="docs">
       <h1>S. Pio I, Papa e Mártir, a 11 de Julho</h1>
 
+      <aside>
+        O ciclo nos faz hoje honrar um Santo que «Deus ungiu com o seu óleo
+        santo» (Grad.) e revestiu da plenitude de seu sacerdócio (Intr., Ale.)
+        fazendo-ó subir, em 142 ou em 167, após Santo Higino, ao trono
+        pontifical. Ordenou que a festa da Resurreição só fosse celebrada num
+        Domingo, tornando-se desde então o rei e centro de todos os demais
+        Domingos, os quais, no curso do ano, são como um eco da Páscoa.
+        Estabeleceu um baptistério na casa posta por Santa Pudenciana e Santa
+        Praxedes à sua disposição e onde o Senador Pudêncio, seu avô, acolhera
+        S. Pedro. Das Termas de Novato, adjacentes à casa de Pudêncio, construiu
+        uma igreja titular, onde se faz a estação na Terça-Feira da terceira
+        semana da Quaresma. Devido à sua preeminência sobre os outros Títulos,
+        como residência do Soberano Pontífice, consagrou-a com o Título de
+        Pastor. Para desempenhar o ofício de bom pastor, não temeu renunciar à
+        própria vida (Ev.) derramando o sangue pelas suas ovelhas e pelo Cristo,
+        Pastor supremo. Recebeu juntamente com a coroa da vida, por Deus
+        prometida aos que o amam (Ep.). Foi sepultado em 150 no Vaticano.
+      </aside>
 
-<aside>
-  O ciclo nos faz hoje honrar um Santo que «Deus ungiu com o seu óleo santo»
-  (Grad.) e revestiu da plenitude de seu sacerdócio (Intr., Ale.) fazendo-ó
-  subir, em 142 ou em 167, após Santo Higino, ao trono pontifical. Ordenou que a
-  festa da Resurreição só fosse celebrada num Domingo, tornando-se desde então o
-  rei e centro de todos os demais Domingos, os quais, no curso do ano, são como
-  um eco da Páscoa. Estabeleceu um baptistério na casa posta por Santa
-  Pudenciana e Santa Praxedes à sua disposição e onde o Senador Pudêncio, seu
-  avô, acolhera S. Pedro. Das Termas de Novato, adjacentes à casa de Pudêncio,
-  construiu uma igreja titular, onde se faz a estação na Terça-Feira da terceira
-  semana da Quaresma. Devido à sua preeminência sobre os outros Títulos, como
-  residência do Soberano Pontífice, consagrou-a com o Título de Pastor. Para
-  desempenhar o ofício de bom pastor, não temeu renunciar à própria vida (Ev.)
-  derramando o sangue pelas suas ovelhas e pelo Cristo, Pastor supremo. Recebeu
-  juntamente com a coroa da vida, por Deus prometida aos que o amam (Ep.). Foi
-  sepultado em 150 no Vaticano.
-</aside>
-
-
-<Missa />
-
+      <Missa />
     </div>
   );
 }

@@ -2,12 +2,12 @@
 import "../../../../global.css";
 
 import React from "react";
+import { TabItem, Tabs } from "~/components/Tabs";
+import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
+import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
 import Salmo128 from "./../salterio/128";
 import Salmo129 from "./../salterio/129";
 import Salmo130 from "./../salterio/130";
-import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
-import { Tabs, TabItem } from "~/components/Tabs";
-import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
 
 export default function PageCompletas() {
   return (

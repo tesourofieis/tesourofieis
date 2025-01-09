@@ -1,23 +1,23 @@
 "use dom";
 import "../../../../global.css";
 
-import React from 'react';
-
+import React from "react";
 
 export default function Page0301Braga() {
   return (
     <div className="docs">
-      <h1>B. Miguel de Carvalho e Outros, Márts., a 1 de Março, Na Arquidiocese de Braga</h1>
-
-
-<aside>
-  Como na [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2), excepto:
-</aside>
-
+      <h1>
+        B. Miguel de Carvalho e Outros, Márts., a 1 de Março, Na Arquidiocese de
+        Braga
+      </h1>
+      <aside>
+        Como na [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2),
+        excepto:
+      </aside>
       <h3>Oração</h3>
-
-Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem com sua preciosa profissão de fé; e que pela sua piedosa intercessão sejamos continuamente favorecidos. Por nosso Senhor...
-
+      Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem com
+      sua preciosa profissão de fé; e que pela sua piedosa intercessão sejamos
+      continuamente favorecidos. Por nosso Senhor...
     </div>
   );
 }

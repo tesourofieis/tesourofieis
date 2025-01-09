@@ -48,14 +48,14 @@ export default function PageMoreMenu() {
           _width: number,
           _height: number,
           _pageX: number,
-          pageY: number
+          pageY: number,
         ) => {
           const windowHeight = Dimensions.get("window").height;
           setMenuPosition({
             bottom: windowHeight - pageY,
             right: MENU_MARGIN,
           });
-        }
+        },
       );
     }
   }, [menuVisible]);

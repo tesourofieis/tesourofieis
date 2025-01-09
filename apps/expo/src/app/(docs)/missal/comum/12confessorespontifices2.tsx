@@ -1,114 +1,255 @@
 "use dom";
 import "../../../../global.css";
 
-import React from 'react';
-
+import React from "react";
 
 export default function Page12Confessorespontifices2() {
   return (
     <div className="docs">
       <h1>Confessores Pontífices</h1>
 
-
       <h3>Intróito</h3>
 
-<em>Sl. 131, 9-10</em>
+      <em>Sl. 131, 9-10</em>
 
-<div className="side-by-side">
-      <p>Sacerdótes tui, Dómine, índuant justítiam, et sancti tui exsúltent: propter David servum tuum, non avértas fáciem Christi tui. (T. P. Allelúja, allelúja.) <em>Ps. ibid., 1</em> Meménto, Dómine, David: et omnis mansuetúdinis ejus. ℣. Gloria Patri...</p>
-      <p>Que os vossos sacerdotes, Senhor, se revistam de santidade; e que os vossos santos exultem de alegria! Por amor do vosso servo David não afasteis os olhos do vosso Cristo. (T. Aleluia, aleluia.) <em>Ps. ibid., 1</em> Lembrai-Vos, Senhor, de David e da sua grande mansidão. ℣. Glória ao Pai...</p>
+      <div className="side-by-side">
+        <p>
+          Sacerdótes tui, Dómine, índuant justítiam, et sancti tui exsúltent:
+          propter David servum tuum, non avértas fáciem Christi tui. (T. P.
+          Allelúja, allelúja.) <em>Ps. ibid., 1</em> Meménto, Dómine, David: et
+          omnis mansuetúdinis ejus. ℣. Gloria Patri...
+        </p>
+        <p>
+          Que os vossos sacerdotes, Senhor, se revistam de santidade; e que os
+          vossos santos exultem de alegria! Por amor do vosso servo David não
+          afasteis os olhos do vosso Cristo. (T. Aleluia, aleluia.){" "}
+          <em>Ps. ibid., 1</em> Lembrai-Vos, Senhor, de David e da sua grande
+          mansidão. ℣. Glória ao Pai...
+        </p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side">
-      <p>Exáudi, quǽsumus, Dómine, preces nostras, quas in beáti <span className="text-red-500">N.</span> Confessóris tui atque Pontíficis sollemnitáte deférimus: et, qui tibi digne méruit famulári, ejus intercedéntibus méritis, ab ómnibus nos absólve peccátis Per Dóminum...</p>
-      <p>Ouvi, Senhor, Vos suplicamos, as preces que Vos dirigimos na solenidade do B. <span className="text-red-500">N.</span> vosso Confessor e Pontífice, e, pelos méritos e intercessão daquele que tão dignamente Vos serviu, concedei-nos o perdão dos nossos pecados. Por nosso Senhor...</p>
+      <div className="side-by-side">
+        <p>
+          Exáudi, quǽsumus, Dómine, preces nostras, quas in beáti{" "}
+          <span className="text-red-500">N.</span> Confessóris tui atque
+          Pontíficis sollemnitáte deférimus: et, qui tibi digne méruit famulári,
+          ejus intercedéntibus méritis, ab ómnibus nos absólve peccátis Per
+          Dóminum...
+        </p>
+        <p>
+          Ouvi, Senhor, Vos suplicamos, as preces que Vos dirigimos na
+          solenidade do B. <span className="text-red-500">N.</span> vosso
+          Confessor e Pontífice, e, pelos méritos e intercessão daquele que tão
+          dignamente Vos serviu, concedei-nos o perdão dos nossos pecados. Por
+          nosso Senhor...
+        </p>
       </div>
 
       <h3>Epístola</h3>
 
-<em>Heb. 7, 23-27</em>
+      <em>Heb. 7, 23-27</em>
 
-<div className="side-by-side">
-      <p>Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.</p>
-      <p>Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.</p>
-      <p>Fratres: Plures facti sunt sacerdótes, idcírco quod morte prohiberéntur permanére: Jesus autem, eo quod máneat in ætérnum, sempitérnum habet sacerdótium. Unde et salváre in perpétuum potest accedéntes per semetípsum ad Deum: semper vivens ad interpellándum pro nobis. Talis enim decébat, ut nobis esset póntifex, sanctus, ínnocens, impollútus, segregátus a peccatóribus, et excélsior cœlis factus: qui non habet necessitátem cotídie, quemádmodum sacerdótes, prius pro suis delíctis hóstias offérre, deínde pro pópuli: hoc enim fecit semel, seípsum offeréndo, Jesus Christus, Dóminus noster.</p>
-      <p>Meus irmãos: Entre eles, além disso, muitos outros foram feitos sacerdotes, porque a morte os impedia de viverem sempre. Mas Jesus, que permanece eternamente, tem um sacerdócio eterno, por isso Ele pode salvar perpetuamente aqueles que se aproximam de Deus por seu intermédio, pois está sempre vivo para interceder por nós. Convinha, pois, que tivéssemos um Pontífice santo, inocente, imaculado, afastado dos pecadores e mais elevado que os céus; que não tivesse necessidade, como os outros sacerdotes, de oferecer, quotidianamente, vítimas, primeiro pelos seus próprios pecados e depois pelos pecados do povo; pois isto N. S. Jesus Cristo fez uma vez, oferecendo-se a Si mesmo.</p>
+      <div className="side-by-side">
+        <p>Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.</p>
+        <p>Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.</p>
+        <p>
+          Fratres: Plures facti sunt sacerdótes, idcírco quod morte
+          prohiberéntur permanére: Jesus autem, eo quod máneat in ætérnum,
+          sempitérnum habet sacerdótium. Unde et salváre in perpétuum potest
+          accedéntes per semetípsum ad Deum: semper vivens ad interpellándum pro
+          nobis. Talis enim decébat, ut nobis esset póntifex, sanctus, ínnocens,
+          impollútus, segregátus a peccatóribus, et excélsior cœlis factus: qui
+          non habet necessitátem cotídie, quemádmodum sacerdótes, prius pro suis
+          delíctis hóstias offérre, deínde pro pópuli: hoc enim fecit semel,
+          seípsum offeréndo, Jesus Christus, Dóminus noster.
+        </p>
+        <p>
+          Meus irmãos: Entre eles, além disso, muitos outros foram feitos
+          sacerdotes, porque a morte os impedia de viverem sempre. Mas Jesus,
+          que permanece eternamente, tem um sacerdócio eterno, por isso Ele pode
+          salvar perpetuamente aqueles que se aproximam de Deus por seu
+          intermédio, pois está sempre vivo para interceder por nós. Convinha,
+          pois, que tivéssemos um Pontífice santo, inocente, imaculado, afastado
+          dos pecadores e mais elevado que os céus; que não tivesse necessidade,
+          como os outros sacerdotes, de oferecer, quotidianamente, vítimas,
+          primeiro pelos seus próprios pecados e depois pelos pecados do povo;
+          pois isto N. S. Jesus Cristo fez uma vez, oferecendo-se a Si mesmo.
+        </p>
       </div>
 
       <h3>Gradual</h3>
 
-<em>Sl. 131, 16-17</em>
+      <em>Sl. 131, 16-17</em>
 
-<div className="side-by-side">
-      <p>Sacerdótes ejus índuam salutári: et sancti ejus exsultatióne exsultábunt. ℣. Illuc prodúcam cornu David: parávi lucérnam Christo meo.</p>
-      <p>Revestirei os seus sacerdotes de salvação e os seus santos exultarão em transportes de alegria. ℣. Em Sião farei aparecer o poder de David: prepararei uma lâmpada ao meu Cristo.</p>
-      <p>Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.</p>
-      <p>Aleluia, aleluia. ℣. <em>Sl. 109, 4</em> O Senhor jurou e não se arrependerá: Tu és sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia.</p>
+      <div className="side-by-side">
+        <p>
+          Sacerdótes ejus índuam salutári: et sancti ejus exsultatióne
+          exsultábunt. ℣. Illuc prodúcam cornu David: parávi lucérnam Christo
+          meo.
+        </p>
+        <p>
+          Revestirei os seus sacerdotes de salvação e os seus santos exultarão
+          em transportes de alegria. ℣. Em Sião farei aparecer o poder de David:
+          prepararei uma lâmpada ao meu Cristo.
+        </p>
+        <p>
+          Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Jurávit Dóminus, et non
+          pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
+          Melchísedech. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Sl. 109, 4</em> O Senhor jurou e não se
+          arrependerá: Tu és sacerdote para sempre, segundo a ordem de
+          Melquisedeque. Aleluia.
+        </p>
       </div>
 
-<aside>Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:</aside>
+      <aside>
+        Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
+      </aside>
 
       <h3>Trato</h3>
 
-<em>Sl. 111, 1-3</em>
+      <em>Sl. 111, 1-3</em>
 
-<div className="side-by-side">
-      <p>Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Potens in terra erit semen ejus: generátio rectórum benedicétur. ℣. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.</p>
-      <p>Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em obedecer-Lhe. ℣. Sua descendência será poderosa na terra, pois a geração dos justos será abençoada. ℣. Na sua casa haverá glória e riqueza, e a sua justiça subsistirá em todos os séculos.</p>
+      <div className="side-by-side">
+        <p>
+          Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Potens
+          in terra erit semen ejus: generátio rectórum benedicétur. ℣. Glória et
+          divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.
+        </p>
+        <p>
+          Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
+          obedecer-Lhe. ℣. Sua descendência será poderosa na terra, pois a
+          geração dos justos será abençoada. ℣. Na sua casa haverá glória e
+          riqueza, e a sua justiça subsistirá em todos os séculos.
+        </p>
       </div>
 
-<aside>No T. Pascal omite-se o Gradual e o Trato e diz-se:</aside>
+      <aside>No T. Pascal omite-se o Gradual e o Trato e diz-se:</aside>
 
-<div className="side-by-side">
-      <p>Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja. ℣. <em>Eccli. 45, 9</em> Amávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja.</p>
-      <p>Aleluia, aleluia. ℣. <em>Sl. 109, 4</em> O Senhor jurou e não se arrependerá: Tu és sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia. ℣. <em>Ecl. 45, 9</em> O Senhor amou-o, ornou-o e revestiu-o com a túnica da glória. Aleluia.</p>
+      <div className="side-by-side">
+        <p>
+          Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Jurávit Dóminus, et non
+          pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
+          Melchísedech. Allelúja. ℣. <em>Eccli. 45, 9</em> Amávit eum Dóminus,
+          et ornávit eum: stolam glóriæ índuit eum. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Sl. 109, 4</em> O Senhor jurou e não se
+          arrependerá: Tu és sacerdote para sempre, segundo a ordem de
+          Melquisedeque. Aleluia. ℣. <em>Ecl. 45, 9</em> O Senhor amou-o,
+          ornou-o e revestiu-o com a túnica da glória. Aleluia.
+        </p>
       </div>
 
       <h3>Evangelho</h3>
 
-<em>Mt. 24, 42-47</em>
+      <em>Mt. 24, 42-47</em>
 
-<div className="side-by-side">
-      <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
-      <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
-      <p>In illo témpore: Dixit Jesus discípulis suis: Vigilate, quia nescítis, qua hora Dóminus vester ventúrus sit. Illud autem scitóte, quóniam, si sciret paterfamílias, qua hora fur ventúrus esset, vigiláret útique, et non síneret pérfodi domum suam. Ideo et vos estóte parati: quia qua nescítis hora Fílius hóminis ventúrus est. Quis, putas, est fidélis servus et prudens, quem constítuit dóminus suus super famíliam suam, ut det illis cibum in témpore? Beátus ille servus, quem, cum vénerit dóminus ejus, invénerit sic faciéntem. Amen, dico vobis, quóniam super ómnia bona sua constítuet eum.</p>
-      <p>Naquele tempo, disse Jesus a seus discípulos: «Vigiai, porque não sabeis a que hora virá o vosso Senhor. Pois sabei que, se o pai de família conhecesse a que horas viria o ladrão, certamente velaria e não deixaria violar a sua casa. Portanto vós, também, estai preparados, porque o Filho do homem virá durante a hora em que não pensais. Qual é, segundo a vossa opinião, o servo fiel e prudente que o Senhor estabeleceu como superior na sua família para distribuir-lhe o sustento em tempo oportuno? Bem-aventurado aquele servo a quem, quando o seu senhor vier, o achar assim ocupado. Em verdade vos digo que o encarregará de administrar todos seus bens».</p>
+      <div className="side-by-side">
+        <p>
+          <span className="cross text-red-500">✠</span> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
+        </p>
+        <p>
+          <span className="cross text-red-500">✠</span> Continuação do santo
+          Evangelho segundo S. Mateus.
+        </p>
+        <p>
+          In illo témpore: Dixit Jesus discípulis suis: Vigilate, quia nescítis,
+          qua hora Dóminus vester ventúrus sit. Illud autem scitóte, quóniam, si
+          sciret paterfamílias, qua hora fur ventúrus esset, vigiláret útique,
+          et non síneret pérfodi domum suam. Ideo et vos estóte parati: quia qua
+          nescítis hora Fílius hóminis ventúrus est. Quis, putas, est fidélis
+          servus et prudens, quem constítuit dóminus suus super famíliam suam,
+          ut det illis cibum in témpore? Beátus ille servus, quem, cum vénerit
+          dóminus ejus, invénerit sic faciéntem. Amen, dico vobis, quóniam super
+          ómnia bona sua constítuet eum.
+        </p>
+        <p>
+          Naquele tempo, disse Jesus a seus discípulos: «Vigiai, porque não
+          sabeis a que hora virá o vosso Senhor. Pois sabei que, se o pai de
+          família conhecesse a que horas viria o ladrão, certamente velaria e
+          não deixaria violar a sua casa. Portanto vós, também, estai
+          preparados, porque o Filho do homem virá durante a hora em que não
+          pensais. Qual é, segundo a vossa opinião, o servo fiel e prudente que
+          o Senhor estabeleceu como superior na sua família para distribuir-lhe
+          o sustento em tempo oportuno? Bem-aventurado aquele servo a quem,
+          quando o seu senhor vier, o achar assim ocupado. Em verdade vos digo
+          que o encarregará de administrar todos seus bens».
+        </p>
       </div>
 
       <h3>Ofertório</h3>
 
-<em>Sl. 88, 25</em>
+      <em>Sl. 88, 25</em>
 
-<div className="side-by-side">
-      <p>Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (T. P. Allelúja.)</p>
-      <p>A minha fidelidade e a minha misericórdia estarão com ele: e o seu poder elevar-se-á pelo meu nome. (T. P. Aleluia).</p>
+      <div className="side-by-side">
+        <p>
+          Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
+          cornu ejus. (T. P. Allelúja.)
+        </p>
+        <p>
+          A minha fidelidade e a minha misericórdia estarão com ele: e o seu
+          poder elevar-se-á pelo meu nome. (T. P. Aleluia).
+        </p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side">
-      <p>Sancti <span className="text-red-500">N.</span> Confessóris tui atque Pontíficis, quǽsumus, Dómine, ánnua sollémnitas pietáti tuæ nos reddat accéptos: ut, per hæc piæ placatiónis offícia, et illum beáta retribútio comitétur, et nobis grátiæ tuæ dona concíliet. Per Dóminum...</p>
-      <p>Que a festa anual do vosso santo Confessor e Pontífice <span className="text-red-500">N.</span> nos torne agradáveis à vossa bondade, Vos suplicamos, Senhor, a fim de que a piedosa oferta desta vítima de expiação lhe aumente a felicidade, que goza como recompensa, e nos obtenha os dons da vossa graça. Por nosso Senhor...</p>
+      <div className="side-by-side">
+        <p>
+          Sancti <span className="text-red-500">N.</span> Confessóris tui atque
+          Pontíficis, quǽsumus, Dómine, ánnua sollémnitas pietáti tuæ nos reddat
+          accéptos: ut, per hæc piæ placatiónis offícia, et illum beáta
+          retribútio comitétur, et nobis grátiæ tuæ dona concíliet. Per
+          Dóminum...
+        </p>
+        <p>
+          Que a festa anual do vosso santo Confessor e Pontífice{" "}
+          <span className="text-red-500">N.</span> nos torne agradáveis à vossa
+          bondade, Vos suplicamos, Senhor, a fim de que a piedosa oferta desta
+          vítima de expiação lhe aumente a felicidade, que goza como recompensa,
+          e nos obtenha os dons da vossa graça. Por nosso Senhor...
+        </p>
       </div>
 
       <h3>Comúnio</h3>
 
-<em>Mt. 24,46-47</em>
+      <em>Mt. 24,46-47</em>
 
-<div className="side-by-side">
-      <p>Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (T. P. Allelúja.)</p>
-      <p>Bem-aventurado o servo que, quando o seu senhor vier, o encontrar vigilante. Em verdade vos digo que o encarregará de administrar todos seus bens. (T. P. Aleluia).</p>
+      <div className="side-by-side">
+        <p>
+          Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen,
+          dico vobis, super ómnia bona sua constítuet eum. (T. P. Allelúja.)
+        </p>
+        <p>
+          Bem-aventurado o servo que, quando o seu senhor vier, o encontrar
+          vigilante. Em verdade vos digo que o encarregará de administrar todos
+          seus bens. (T. P. Aleluia).
+        </p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side">
-      <p>Deus, fidélium remunerátor animárum: præsta; ut beáti <span className="text-red-500">N.</span> Confessóris tui atque Pontíficis, cujus venerándam celebrámus festivitátem, précibus indulgéntiam consequámur. Per Dóminum...</p>
-      <p>Ó Deus, remunerador das almas fiéis, dignai-Vos permitir que pelas orações do B. Pontífice e Confessor <span className="text-red-500">N.</span>, cuja veneranda festa celebramos, obtenhamos o perdão dos nossos pecados. Por nosso Senhor...</p>
+      <div className="side-by-side">
+        <p>
+          Deus, fidélium remunerátor animárum: præsta; ut beáti{" "}
+          <span className="text-red-500">N.</span> Confessóris tui atque
+          Pontíficis, cujus venerándam celebrámus festivitátem, précibus
+          indulgéntiam consequámur. Per Dóminum...
+        </p>
+        <p>
+          Ó Deus, remunerador das almas fiéis, dignai-Vos permitir que pelas
+          orações do B. Pontífice e Confessor{" "}
+          <span className="text-red-500">N.</span>, cuja veneranda festa
+          celebramos, obtenhamos o perdão dos nossos pecados. Por nosso
+          Senhor...
+        </p>
       </div>
-
     </div>
   );
 }

@@ -3,10 +3,12 @@
 import "../../../global.css";
 
 import React from "react";
-import PaiNosso from "./oracoes/painosso";
+import LadainhaLoreto from "./ladainhas/loreto";
 import AveMaria from "./oracoes/avemaria";
 import Gloria from "./oracoes/gloria";
-import LadainhaLoreto from "./ladainhas/loreto";
+import PaiNosso from "./oracoes/painosso";
+import PageSimboloapostolos from "./oracoes/simboloapostolos";
+import PageSinalCruz from "./oracoes/sinalcruz";
 
 export default function PageRosario() {
   return (
@@ -30,36 +32,7 @@ export default function PageRosario() {
         </p>
       </div>
       <h1>No Crucifixo</h1>
-      <h2>Símbolo dos Apóstolos</h2>
-      <div className="side-by-side">
-        <p>
-          Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ. Et in
-          Jesum Christum, Fílium eius únicum, Dóminùm nostrum: qui concéptus est
-          de Spíritu Sancto, natus ex María Vírgine, passus sub Pontio Piláto,
-          crucifíxus, mórtuus, et sepúltus: descéndit ad ínferos; tértia die
-          resurréxit a mórtuis; ascéndit ad cælos; sedet ad déxteram Dei Patris
-          omnipoténtis: inde ventúrus est judicáre vivos et mórtuos. Credo in
-          Spíritum Sanctum, sanctam Ecclésiam cathólicam, Sanctórum communionem,
-          remissiónem peccatórum carnis resurrectiónem, vitam ætérnam.
-        </p>
-        <p>
-          Creio em Deus, Pai todo-poderoso, Criador do Céu e da Terra; e em
-          Jesus Cristo, seu único Filho, Nosso Senhor, que foi concebido pelo
-          poder do Espírito Santo; nasceu da Virgem Maria; padeceu sob Pôncio
-          Pilatos, foi crucificado, morto e sepultado; desceu à mansão dos
-          mortos; ressuscitou ao terceiro dia; subiu aos Céus, onde está sentado
-          à direita de Deus Pai todo-poderoso, de onde há-de vir a julgar os
-          vivos e os mortos. Creio no Espírito Santo, na santa Igreja Católica;
-          na comunhão dos Santos; na remissão dos pecados; na ressurreição da
-          carne; na vida eterna.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Amen.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Amen.
-        </p>
-      </div>
+      <PageSimboloapostolos />
       <h2>Oferecimento do Santo Rosário</h2>
       Santíssima Virgem, Mãe de Deus, eu Vos ofereço este rosário em desagravo
       do Santíssimo Coração de Nosso Senhor Jesus Cristo, Vosso Filho, e em
@@ -85,13 +58,10 @@ export default function PageRosario() {
         </ul>
       </div>
       <h1>Nas contas maiores</h1>
-      <h2>Pai Nosso</h2>
       <PaiNosso />
       <h1>Nas contas menores</h1>
-      <h2>Ave Maria</h2>
       <AveMaria />
       <h1>No fim das dezenas</h1>
-      <h2>Glória</h2>
       <Gloria />
       <h2>Nossa Senhora a Santa Catarina Labouré</h2>
       <div className="side-by-side">
@@ -219,25 +189,8 @@ export default function PageRosario() {
           <span className="text-red-500">℟.</span> Amen.
         </p>
       </div>
-      <h2>Ladainha da Santíssima Virgem</h2>
       <LadainhaLoreto />
-      <h2>Sinal da Cruz</h2>
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> In nómine Patris, et
-          Fílii, et Spíritus Sancti.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Em nome do Pai e do
-          Filho e do Espírito Santo.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Amen.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Amen.
-        </p>
-      </div>
+      <PageSinalCruz />
     </div>
   );
 }
