@@ -10,7 +10,11 @@ export default function Page0423() {
       <h1>S. Jorge, Patrono de Portugal, a 23 de Abril</h1>
 
       <aside>
-        Como na [Missa Protexísti me](/missal/comum/9martir), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/9martir">
+          Missa Protexísti me
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

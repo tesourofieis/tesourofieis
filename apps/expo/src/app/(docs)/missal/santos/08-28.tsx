@@ -9,7 +9,11 @@ export default function Page0828() {
       <h1>S. Agostinho, a 28 de Agosto</h1>
 
       <aside>
-        Como na [Missa In médio Ecclésiae](/missal/comum/13doutores), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/13doutores">
+          Missa In médio Ecclésiae
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

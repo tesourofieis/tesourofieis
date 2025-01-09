@@ -9,7 +9,11 @@ export default function Page0205() {
       <h1>Santa Águeda, Virgem e Márt., a 5 de Fevereiro</h1>
 
       <aside>
-        Como na [Missa Loquébar](/missal/comum/17virgensmartires1), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/17virgensmartires1">
+          Missa Loquébar
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Intróito</h3>

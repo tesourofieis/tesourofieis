@@ -11,8 +11,11 @@ export default function Page0301Braga() {
         Braga
       </h1>
       <aside>
-        Como na [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/7muitosmartires2">
+          Missa Sapiéntiam sanctórum
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>
       Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem com

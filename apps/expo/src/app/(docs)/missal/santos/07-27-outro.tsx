@@ -8,8 +8,11 @@ export default function Page0727Outro() {
     <div className="docs">
       <h1>B. Rodolfo Água-Viva e Outros, Márts, a 27 de Julho</h1>
       <aside>
-        Como na [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/7muitosmartires2">
+          Missa Sapiéntiam sanctórum
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>
       Vos pedimos, permiti que a veneranda oblação dos vossos B. B. Mártires

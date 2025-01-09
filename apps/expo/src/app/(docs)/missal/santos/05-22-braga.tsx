@@ -11,8 +11,11 @@ export default function Page0522Braga() {
         Braga e noutros lugares
       </h1>
       <aside>
-        Como na [Missa Sancti tui](/missal/comum/10martires), excepto: Fora do
-        Tempo Pascal como na [Missa Sapiéntiam
+        Como na{" "}
+        <a className="link" href="/missal/comum/10martires">
+          Missa Sancti tui
+        </a>{" "}
+        , excepto: Fora do Tempo Pascal como na [Missa Sapiéntiam
         sanctórum](/missal/comum/7muitosmartires2), excepto:
       </aside>
       <h3>Oração</h3>

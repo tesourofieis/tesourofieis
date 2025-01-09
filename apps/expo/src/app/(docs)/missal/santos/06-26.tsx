@@ -21,13 +21,15 @@ export default function Page0626() {
         oliveiras e aos dois candelabros, brilhando diante da face do Senhor, e
         de que fala o Apocalipse». «Estes justos, acrescenta ele, comparecem
         juntos na presença do Senhor e não se separam». Seus nomes figuram no
-        [Canon da Missa](/missal/ordo#canon-missæ) passando de geração em
-        geração, enquanto os seus corpos descançam em paz (Ep.) no antigo
-        santuário a eles consagrado no Monte Coelius, em Roma e onde é feita a
-        Estação de Sexta-Feira depois das Cinzas. Alegremo-nos com a Igreja pelo
-        trinfo de São João e de São Paulo (Or.) e, imitando-os, confessemos a fé
-        em Jesus, diante dos homens, e Ele nos reconhecerá como seus, em
-        presença de seus Anjos (Ev.).
+        <a className="link" href="/missal/ordo#canon-missæ">
+          Canon da Missa
+        </a>{" "}
+        passando de geração em geração, enquanto os seus corpos descançam em paz
+        (Ep.) no antigo santuário a eles consagrado no Monte Coelius, em Roma e
+        onde é feita a Estação de Sexta-Feira depois das Cinzas. Alegremo-nos
+        com a Igreja pelo trinfo de São João e de São Paulo (Or.) e,
+        imitando-os, confessemos a fé em Jesus, diante dos homens, e Ele nos
+        reconhecerá como seus, em presença de seus Anjos (Ev.).
       </aside>
 
       <h3>Intróito</h3>

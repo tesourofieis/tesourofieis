@@ -8,8 +8,11 @@ export default function Page0607() {
     <div className="docs">
       <h1>S. João Nepomuceno, Mártir, a 7 de Junho</h1>
       <aside>
-        Como na [Missa Lætábitur justus](/missal/comum/5martirnaopontifice2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/5martirnaopontifice2">
+          Missa Lætábitur justus
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>Ó Deus, que pelo sigílio sacramental, inviolávelmente
       mantido pelo B. João, coroastes a vossa Igreja com a glória de um novo

@@ -11,8 +11,11 @@ export default function Page0603() {
         Dioceses
       </h1>
       <aside>
-        Como na [Missa Protexísti me](/missal/comum/9martir), excepto: Fora do
-        Tempo Pascal Como na [Missa Sacerdótes
+        Como na{" "}
+        <a className="link" href="/missal/comum/9martir">
+          Missa Protexísti me
+        </a>{" "}
+        , excepto: Fora do Tempo Pascal Como na [Missa Sacerdótes
         tui](/missal/comum/12confessorespontifices2), excepto:
       </aside>
       <h3>Oração</h3>Ó Deus, que maravilhosamente ilustrastes a vossa Igreja com

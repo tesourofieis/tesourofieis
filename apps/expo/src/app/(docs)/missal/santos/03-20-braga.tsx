@@ -10,7 +10,11 @@ export default function Page0320Braga() {
         S. Martinho de Dume, B. e Conf., a 20 de Março, Na Arquidiocese de Braga
       </h1>
       <aside>
-        Como na [Missa In médio Ecclésiae](/missal/comum/13doutores), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/13doutores">
+          Missa In médio Ecclésiae
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>Ó Deus, que ao vosso povo concedestes o B. Martinho como
       ministro da salvação eterna, permiti, Vos rogamos, que mereçamos sempre

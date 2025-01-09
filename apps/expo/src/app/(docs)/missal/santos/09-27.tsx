@@ -9,8 +9,11 @@ export default function Page0927() {
       <h1>S. S. Cosme e Damião, Mártires, a 27 de Setembro</h1>
 
       <aside>
-        Como na [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/7muitosmartires2">
+          Missa Sapiéntiam sanctórum
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

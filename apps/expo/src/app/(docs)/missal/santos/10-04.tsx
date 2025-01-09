@@ -9,8 +9,11 @@ export default function Page1004() {
       <h1>S. Francisco, a 4 de Outubro</h1>
 
       <aside>
-        Como na [Missa Imp. dos Estigmas em S. Francisco](/missal/santos/07-17),
-        a 17 de Setembro, excepto:
+        Como na{" "}
+        <a className="link" href="/missal/santos/07-17">
+          Missa Imp. dos Estigmas em S. Francisco
+        </a>{" "}
+        , a 17 de Setembro, excepto:
       </aside>
 
       <h3>Oração</h3>

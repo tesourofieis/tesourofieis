@@ -9,7 +9,11 @@ export default function Page1108() {
       <h1>Os Quatro S. S. Mártires Coroados, a 8 de Novembro</h1>
 
       <aside>
-        Como na [Missa Intret in](/missal/comum/6muitosmartires1), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/6muitosmartires1">
+          Missa Intret in
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

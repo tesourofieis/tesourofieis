@@ -9,8 +9,11 @@ export default function Page0304() {
       <h1>S. Casimiro, Conf., a 4 de Março</h1>
 
       <aside>
-        Como na [Missa Os justi](/missal/comum/14confessoresnaopontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

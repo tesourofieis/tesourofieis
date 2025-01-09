@@ -9,8 +9,11 @@ export default function Page0122LisboaFaro() {
       <h1>S. Vicente, Mártir, a 22 de Janeiro</h1>
 
       <aside>
-        Como na [Missa In virtúte tua](/missal/comum/4martirnaopontifice1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/4martirnaopontifice1">
+          Missa In virtúte tua
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

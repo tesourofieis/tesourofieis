@@ -9,8 +9,11 @@ export default function Page0825() {
       <h1>S. Luís, Rei de França, a 25 de Agosto</h1>
 
       <aside>
-        Como na [Missa Os justi](/missal/comum/14confessoresnaopontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

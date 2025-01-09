@@ -10,8 +10,11 @@ export default function Page1008() {
       <h1>Santa Brígida, Viúva, a 8 de Outubro</h1>
 
       <aside>
-        Como na [Missa Cognóvi, Dómine](/missal/comum/24nemvirgensnemmartires),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/24nemvirgensnemmartires">
+          Missa Cognóvi, Dómine
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

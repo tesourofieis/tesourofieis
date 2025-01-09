@@ -9,8 +9,11 @@ export default function Page0512Portugal() {
       <h1>B. Joana, Princesa, a 12 de Maio</h1>
 
       <aside>
-        Como na [Missa Dilexísti justitiam](/missal/comum/20virgemnaomartir1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/20virgemnaomartir1">
+          Missa Dilexísti justitiam
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

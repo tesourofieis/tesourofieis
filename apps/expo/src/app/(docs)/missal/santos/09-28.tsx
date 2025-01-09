@@ -9,8 +9,11 @@ export default function Page0928() {
       <h1>S. Venceslau, Mártir, a 28 de Setembro</h1>
 
       <aside>
-        Como na [Missa In virtúte tua](/missal/comum/4martirnaopontifice1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/4martirnaopontifice1">
+          Missa In virtúte tua
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

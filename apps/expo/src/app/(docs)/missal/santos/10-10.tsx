@@ -8,7 +8,13 @@ export default function Page1010() {
     <div className="docs">
       <h1>S. Francisco de Bórgia, a 10 de Outubro</h1>
 
-      <aside>Como na [Missa Os justi](/missal/comum/16abades), excepto:</aside>
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/comum/16abades">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
+      </aside>
 
       <h3>Oração</h3>
 

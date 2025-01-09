@@ -1109,7 +1109,11 @@ export default function PageMatinas() {
       </div>
 
       <aside>
-        Acabar com uma [Antífona de Nossa Senhora](/devocionario/antifonas).
+        Acabar com uma{" "}
+        <a className="link" href="/devocionario/antifonas">
+          Antífona de Nossa Senhora
+        </a>{" "}
+        .
       </aside>
     </div>
   );

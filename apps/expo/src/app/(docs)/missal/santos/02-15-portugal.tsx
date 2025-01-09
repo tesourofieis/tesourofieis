@@ -9,8 +9,11 @@ export default function Page0215Portugal() {
       <h1>Trasladação de S. António de Lisboa, a 15 de Fevereiro</h1>
 
       <aside>
-        Como na [Missa de Santo António de Lisboa](/missal/santos/06-13),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/santos/06-13">
+          Missa de Santo António de Lisboa
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

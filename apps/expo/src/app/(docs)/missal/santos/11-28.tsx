@@ -8,8 +8,11 @@ export default function Page1128() {
     <div className="docs">
       <h1>Santa Catarina Labouré, Virgem, a 28 de Novembro</h1>
       <aside>
-        Como na [Missa Dilexísti justitiam](/missal/comum/20virgemnaomartir1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/20virgemnaomartir1">
+          Missa Dilexísti justitiam
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>
       Senhor Jesus, que Vos dignastes alegrar a bem-aventurada Virgem Catarina

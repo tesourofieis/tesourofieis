@@ -259,7 +259,10 @@ export default function PageOracoescomplementares() {
         imagem de N. S. Jesus Cristo Crucificado, recebe uma indulgência
         plenária.
       </aside>
-      ![Jesus Cristo Crucificado](../../../assets/cross.png)
+      !
+      <a className="link" href="../../../assets/cross.png">
+        Jesus Cristo Crucificado
+      </a>
       <div className="side-by-side">
         <p>
           En ego, o bone et dulcíssime Jesu, ante conspéctum tuum génibus me

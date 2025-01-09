@@ -30,7 +30,11 @@ export default function Page0525() {
       </aside>
 
       <aside>
-        Como na [Missa Si díligis me](/missal/comum/sumospontifices), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/sumospontifices">
+          Missa Si díligis me
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>
@@ -54,9 +58,12 @@ export default function Page0525() {
       <h2>Comemoração de S. Urbano, Papa e Mártir</h2>
 
       <aside>
-        Como na [Missa Si díligis me](/missal/comum/sumospontifices), excepto:
-        Da mesma Missa Si díligis me, sendo a Oração a que está em primeiro
-        lugar e a Secreta e Postcomúnio as que estão em segundo lugar.
+        Como na{" "}
+        <a className="link" href="/missal/comum/sumospontifices">
+          Missa Si díligis me
+        </a>{" "}
+        , excepto: Da mesma Missa Si díligis me, sendo a Oração a que está em
+        primeiro lugar e a Secreta e Postcomúnio as que estão em segundo lugar.
       </aside>
     </div>
   );

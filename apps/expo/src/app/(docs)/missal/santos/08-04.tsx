@@ -10,8 +10,11 @@ export default function Page0804() {
       <h1>S. Domingos de Gusmão, Conf., a 4 de Agosto</h1>
 
       <aside>
-        Como na [Missa Os justi](/missal/comum/14confessoresnaopontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

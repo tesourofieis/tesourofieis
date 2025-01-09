@@ -7,8 +7,11 @@ export default function Page1002() {
   return (
     <div className="docs">
       <h1>Santos Anjos da Guarda, a 2 de Outubro</h1>
-      Missa da Festa da [Aparição de Arcanjo Miguel](/missal/santos/05-08),
-      excepto:
+      Missa da Festa da{" "}
+      <a className="link" href="/missal/santos/05-08">
+        Aparição de Arcanjo Miguel
+      </a>{" "}
+      , excepto:
       <h3>Oração</h3>
       <div className="side-by-side">
         <p>

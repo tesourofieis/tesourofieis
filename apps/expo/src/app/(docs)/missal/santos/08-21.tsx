@@ -9,8 +9,11 @@ export default function Page0821() {
       <h1>Santa Joana de Chantal, Viúva, a 21 de Agosto</h1>
 
       <aside>
-        Como na [Missa Cognóvi, Dómine](/missal/comum/24nemvirgensnemmartires),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/24nemvirgensnemmartires">
+          Missa Cognóvi, Dómine
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

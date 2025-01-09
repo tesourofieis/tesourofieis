@@ -9,7 +9,11 @@ export default function Page1125() {
       <h1>Santa Catarina, Virgem e Mártir, a 25 de Novembro</h1>
 
       <aside>
-        Como na [Missa Loquébar](/missal/comum/17virgensmartires1), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/17virgensmartires1">
+          Missa Loquébar
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

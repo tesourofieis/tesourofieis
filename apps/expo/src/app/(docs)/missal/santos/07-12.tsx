@@ -25,7 +25,13 @@ export default function Page0712() {
         Itália.
       </aside>
 
-      <aside>Como na [Missa Os justi](/missal/comum/16abades), excepto:</aside>
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/comum/16abades">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
+      </aside>
 
       <h3>Evangelho</h3>
 

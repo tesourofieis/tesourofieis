@@ -33,8 +33,15 @@ export default function Page0509() {
       </aside>
 
       <aside>
-        Como na [Missa In médio Ecclésiae](/missal/comum/13doutores), com a
-        [Segunda Epístola](/missal/comum/13doutores#epístola2).
+        Como na{" "}
+        <a className="link" href="/missal/comum/13doutores">
+          Missa In médio Ecclésiae
+        </a>{" "}
+        , com a
+        <a className="link" href="/missal/comum/13doutores#epístola2">
+          Segunda Epístola
+        </a>{" "}
+        .
       </aside>
     </div>
   );

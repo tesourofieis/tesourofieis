@@ -9,8 +9,11 @@ export default function Page1117() {
       <h1>S. Gregório Taumaturgo, B. e C., a 17 de Novembro</h1>
 
       <aside>
-        Como na [Missa Státuit ei](/missal/comum/11confessorespontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/11confessorespontifices1">
+          Missa Státuit ei
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Evangelho</h3>

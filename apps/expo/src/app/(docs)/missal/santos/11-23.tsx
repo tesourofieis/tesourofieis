@@ -9,7 +9,11 @@ export default function Page1123() {
       <h1>S. Clemente, Papa e Mártir, a 23 de Novembro</h1>
 
       <aside>
-        Como na [Missa Si díligis me](/missal/comum/sumospontifices), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/sumospontifices">
+          Missa Si díligis me
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Intróito</h3>

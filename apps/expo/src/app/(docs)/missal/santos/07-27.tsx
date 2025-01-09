@@ -18,8 +18,11 @@ export default function Page0727() {
         padroeiro. É um dos «14 santos auxiliares».
       </aside>
       <aside>
-        Como na [Missa Lætábitur justus](/missal/comum/5martirnaopontifice2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/5martirnaopontifice2">
+          Missa Lætábitur justus
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>
       <aside>Na Diocese do Porto</aside>Ó Deus, que permitistes que o B.

@@ -9,8 +9,11 @@ export default function PageGracaespiritosanto() {
       <h1>Suplicando a Graça do Espírito Santo</h1>
 
       <aside>
-        Como na [Missa do Espírito Santo](missal/votivas/espiritosanto),
-        excepto:
+        Como na{" "}
+        <a className="link" href="missal/votivas/espiritosanto">
+          Missa do Espírito Santo
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

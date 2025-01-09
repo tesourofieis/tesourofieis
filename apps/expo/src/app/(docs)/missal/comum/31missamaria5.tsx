@@ -12,7 +12,11 @@ export default function Page31Missamaria5() {
       </h1>
 
       <aside>
-        Como na [3.ª Missa](/missal/comum/29missamaria3), excepto o seguinte:
+        Como na{" "}
+        <a className="link" href="/missal/comum/29missamaria3">
+          3.ª Missa
+        </a>{" "}
+        , excepto o seguinte:
       </aside>
 
       <h3>Gradual</h3>

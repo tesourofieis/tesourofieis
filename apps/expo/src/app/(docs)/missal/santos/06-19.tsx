@@ -9,8 +9,11 @@ export default function Page0619() {
       <h1>S. Juliana de Falconéri, Virgem, a 19 de Junho</h1>
 
       <aside>
-        Como na [Missa Dilexísti justitiam](/missal/comum/20virgemnaomartir1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/20virgemnaomartir1">
+          Missa Dilexísti justitiam
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

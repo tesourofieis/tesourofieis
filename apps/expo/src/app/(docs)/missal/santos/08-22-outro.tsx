@@ -9,7 +9,11 @@ export default function Page0822Outro() {
       <h1>S. Timóteo e Outros, Mártires, a 22 de Agosto</h1>
 
       <aside>
-        Como na [Missa Salus autem](/missal/comum/8muitosmartires3), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/8muitosmartires3">
+          Missa Salus autem
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

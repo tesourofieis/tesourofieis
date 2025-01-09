@@ -10,8 +10,11 @@ export default function Page1213() {
       <h1>Santa Luzia, Virgem e Mártir, a 13 de Dezembro</h1>
 
       <aside>
-        Como na [Missa Dilexísti justitiam](/missal/comum/20virgemnaomartir1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/20virgemnaomartir1">
+          Missa Dilexísti justitiam
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Gradual</h3>

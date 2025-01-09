@@ -11,8 +11,11 @@ export default function Page1128Braga() {
         e noutros lugares
       </h1>
       <aside>
-        Como na [Missa Lætábitur justus](/missal/comum/5martirnaopontifice2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/5martirnaopontifice2">
+          Missa Lætábitur justus
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>A nós, Senhor, que somos vossos servos, sede propício pelos
       méritos do vosso Mártir Tiago, Vo-lo rogamos, a fim de que pela sua

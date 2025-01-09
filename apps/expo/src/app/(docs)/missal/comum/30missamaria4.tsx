@@ -12,8 +12,11 @@ export default function Page30Missamaria4() {
       </h1>
 
       <aside>
-        Como na [Missa Precedente](/missal/comum/29missamaria3), excepto o
-        seguinte: Depois da Epístola diz-se:
+        Como na{" "}
+        <a className="link" href="/missal/comum/29missamaria3">
+          Missa Precedente
+        </a>{" "}
+        , excepto o seguinte: Depois da Epístola diz-se:
       </aside>
 
       <div className="side-by-side">

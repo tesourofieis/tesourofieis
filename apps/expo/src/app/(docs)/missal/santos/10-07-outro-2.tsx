@@ -9,8 +9,11 @@ export default function Page1007Outro2() {
       <h1>S. S. Sérgio, Baco e Outros, Mártires, a 7 de Outubro</h1>
 
       <aside>
-        Como na [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/7muitosmartires2">
+          Missa Sapiéntiam sanctórum
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

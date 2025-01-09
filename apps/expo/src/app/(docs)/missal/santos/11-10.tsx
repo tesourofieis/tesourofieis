@@ -10,8 +10,11 @@ export default function Page1110() {
       <h1>S. André Avelino, Conf., a 10 de Novembro</h1>
 
       <aside>
-        Como na [Missa Os justi](/missal/comum/14confessoresnaopontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
       </aside>
 
       <LinkCard

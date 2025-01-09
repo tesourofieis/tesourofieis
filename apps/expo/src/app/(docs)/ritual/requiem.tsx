@@ -11,7 +11,11 @@ export default function PageRequiem() {
       <h1>No dia do óbito ou do Funeral</h1>
 
       <aside>
-        Como na [Comemoração dos Fiéis Defuntos](/missal/santos/11-02), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/santos/11-02">
+          Comemoração dos Fiéis Defuntos
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h2>Oração</h2>
@@ -154,7 +158,11 @@ export default function PageRequiem() {
       <h1>No 3.º, 7.º ou 30.º dia do Óbito</h1>
 
       <aside>
-        Como na [Missa precedente](#no-dia-do-óbito-ou-do-funeral), excepto:
+        Como na{" "}
+        <a className="link" href="#no-dia-do-óbito-ou-do-funeral">
+          Missa precedente
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h2>Oração</h2>
@@ -219,7 +227,11 @@ export default function PageRequiem() {
       <h1>No dia do Aniversário</h1>
 
       <aside>
-        Como na [Comemoração dos Fiéis Defuntos](/missal/santos/11-02), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/santos/11-02">
+          Comemoração dos Fiéis Defuntos
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h2>Oração</h2>
@@ -349,7 +361,11 @@ export default function PageRequiem() {
       <h1>Quotidiana</h1>
 
       <aside>
-        Como na [Comemoração dos Fiéis Defuntos](/missal/santos/11-02), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/santos/11-02">
+          Comemoração dos Fiéis Defuntos
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h2>Oração</h2>

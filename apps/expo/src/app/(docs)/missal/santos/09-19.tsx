@@ -10,7 +10,11 @@ export default function Page0919() {
       <h1>S. Januário e Outros, Mártires, a 19 de Setembro</h1>
 
       <aside>
-        Como na [Missa Salus autem](/missal/comum/8muitosmartires3), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/8muitosmartires3">
+          Missa Salus autem
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Evangelho</h3>

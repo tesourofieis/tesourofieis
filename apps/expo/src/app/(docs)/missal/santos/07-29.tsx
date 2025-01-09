@@ -35,8 +35,11 @@ export default function Page0729() {
       </aside>
 
       <aside>
-        Como na [Missa Dilexísti justitiam](/missal/comum/20virgemnaomartir1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/20virgemnaomartir1">
+          Missa Dilexísti justitiam
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Evangelho</h3>

@@ -28,7 +28,11 @@ export default function Page0519() {
       </aside>
 
       <aside>
-        Como na [Missa Si díligis me](/missal/comum/sumospontifices), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/sumospontifices">
+          Missa Si díligis me
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

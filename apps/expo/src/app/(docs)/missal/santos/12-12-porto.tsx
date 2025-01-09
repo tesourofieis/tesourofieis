@@ -11,8 +11,11 @@ export default function Page1212Porto() {
         subúrbios
       </h1>
       <aside>
-        Como na [Missa Lætábitur justus](/missal/comum/5martirnaopontifice2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/5martirnaopontifice2">
+          Missa Lætábitur justus
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>Ó Deus, que quiseste que o corpo do vosso glorioso Mártir
       Pantaleão fosse trasladado até nós e que esta cidade seja defendida com

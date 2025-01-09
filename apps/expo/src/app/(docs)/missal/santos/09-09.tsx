@@ -9,8 +9,11 @@ export default function Page0909() {
       <h1>S. Gorgónio, Mártir, a 9 de Setembro</h1>
 
       <aside>
-        Como na [Missa Lætábitur justus](/missal/comum/5martirnaopontifice2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/5martirnaopontifice2">
+          Missa Lætábitur justus
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

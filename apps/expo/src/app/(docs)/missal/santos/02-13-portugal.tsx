@@ -9,7 +9,11 @@ export default function Page0213Portugal() {
       <h1>Cinco Chagas de N. S. Jesus Cristo, a 13 de Fevereiro</h1>
 
       <aside>
-        Como na [Missa Votiva da Paixão](/missal/votivas/paixao), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/votivas/paixao">
+          Missa Votiva da Paixão
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

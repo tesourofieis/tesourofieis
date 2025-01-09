@@ -77,9 +77,14 @@ export default function PageOracaonoite() {
       sempre comigo e com os que me são caros. Em seguida rezar: [Pai
       Nosso](/devocionario/oracoes/painosso), [Ave
       Maria](/devocionario/oracoes/avemaria),
-      [Glória](/devocionario/oracoes/gloria), [Símbolo dos
-      Apóstolos](/devocionario/oracoes/simboloapostolos),
-      [Confesso](/devocionario/oracoes/confesso). Depois o Hino:
+      <a className="link" href="/devocionario/oracoes/gloria">
+        Glória
+      </a>{" "}
+      , [Símbolo dos Apóstolos](/devocionario/oracoes/simboloapostolos),
+      <a className="link" href="/devocionario/oracoes/confesso">
+        Confesso
+      </a>{" "}
+      . Depois o Hino:
       <h2>Hino Te lucis</h2>
       <TeLucis />
       <aside>

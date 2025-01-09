@@ -9,8 +9,11 @@ export default function Page0924() {
       <h1>B. Virgem Maria das Mercês, a 24 de Setembro</h1>
 
       <aside>
-        Como na [Missa Salve](/missal/comum/26festasmaria1), sancta Parens da
-        Virgem Maria, excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/26festasmaria1">
+          Missa Salve
+        </a>{" "}
+        , sancta Parens da Virgem Maria, excepto:
       </aside>
 
       <h3>Oração</h3>

@@ -9,7 +9,11 @@ export default function Page1007Outro() {
       <h1>S. Marcos, Papa e Conf., a 7 de Outubro</h1>
 
       <aside>
-        Como na [Missa Si díligis me](/missal/comum/sumospontifices), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/sumospontifices">
+          Missa Si díligis me
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

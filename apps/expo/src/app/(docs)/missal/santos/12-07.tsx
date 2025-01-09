@@ -10,7 +10,11 @@ export default function Page1207() {
       <h1>S. Ambrósio. B. Conf. e Dr., a 7 de Dezembro</h1>
 
       <aside>
-        Como na [Missa In médio Ecclésiae](/missal/comum/13doutores), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/13doutores">
+          Missa In médio Ecclésiae
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Gradual</h3>

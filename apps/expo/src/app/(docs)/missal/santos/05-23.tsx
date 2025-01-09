@@ -8,7 +8,11 @@ export default function Page0523() {
     <div className="docs">
       <h1>S. Basileu, B. e Mártir, a 23 de Maio, Na Diocese do Porto</h1>
       <aside>
-        Como na [Missa Protexísti me](/missal/comum/9martir), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/9martir">
+          Missa Protexísti me
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>
       Dignai-Vos acolher em vossa clemência, Senhor, Vos suplicamos, as preces

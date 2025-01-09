@@ -8,7 +8,13 @@ export default function Page0625() {
     <div className="docs">
       <h1>S. Guilherme, Abade, a 25 de Junho</h1>
 
-      <aside>Como na [Missa Os justi](/missal/comum/16abades), excepto:</aside>
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/comum/16abades">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
+      </aside>
 
       <h3>Oração</h3>
 

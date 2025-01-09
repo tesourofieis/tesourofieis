@@ -9,11 +9,23 @@ export default function Page1005() {
       <h1>S. Plácido e Comps. Mártires, a 5 de Outubro</h1>
 
       <aside>
-        Como na [Missa Salus autem](/missal/comum/8muitosmartires3), excepto
-        [Oração](/missal/comum/7muitosmartires2#oração),
-        [Secreta](/missal/comum/7muitosmartires2#secreta) e
-        [Postcomúnio](/missal/comum/7muitosmartires2#postcomúnio) da [Missa
-        Sapiéntiam sanctórum](/missal/comum/7muitosmartires2).
+        Como na{" "}
+        <a className="link" href="/missal/comum/8muitosmartires3">
+          Missa Salus autem
+        </a>{" "}
+        , excepto
+        <a className="link" href="/missal/comum/7muitosmartires2#oração">
+          Oração
+        </a>{" "}
+        ,
+        <a className="link" href="/missal/comum/7muitosmartires2#secreta">
+          Secreta
+        </a>{" "}
+        e
+        <a className="link" href="/missal/comum/7muitosmartires2#postcomúnio">
+          Postcomúnio
+        </a>{" "}
+        da [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2).
       </aside>
     </div>
   );

@@ -9,7 +9,11 @@ export default function Page0820() {
       <h1>S. Bernardo, Confessor e Doutor, a 20 de Agosto</h1>
 
       <aside>
-        Como na [Missa In médio Ecclésiae](/missal/comum/13doutores), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/13doutores">
+          Missa In médio Ecclésiae
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Epístola</h3>

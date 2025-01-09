@@ -9,8 +9,11 @@ export default function Page0606() {
       <h1>S. Norberto, B e Conf., a 6 de Junho</h1>
 
       <aside>
-        Como na [Missa Státuit ei](/missal/comum/11confessorespontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/11confessorespontifices1">
+          Missa Státuit ei
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

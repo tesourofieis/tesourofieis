@@ -33,7 +33,10 @@ export default function Page0510() {
 
       <aside>
         Aquando da celebração da Missa S. S. Mártires Gordiano e Epímaco Como na
-        [Missa Sancti tui](/missal/comum/10martires), excepto:
+        <a className="link" href="/missal/comum/10martires">
+          Missa Sancti tui
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

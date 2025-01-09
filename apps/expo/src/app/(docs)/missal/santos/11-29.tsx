@@ -9,8 +9,11 @@ export default function Page1129() {
       <h1>S. Saturnino, Mártir, a 29 de Novembro</h1>
 
       <aside>
-        Como na [Missa Lætábitur justus](/missal/comum/5martirnaopontifice2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/5martirnaopontifice2">
+          Missa Lætábitur justus
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

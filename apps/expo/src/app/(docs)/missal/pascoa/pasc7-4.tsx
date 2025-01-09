@@ -9,8 +9,11 @@ export default function PagePasc74() {
       <h1>Quinta-feira de Pentecostes</h1>
 
       <aside>
-        Como no dia da [Festa de Pentecostes](/missal/pentecostes/pasc7-0),
-        excepto:
+        Como no dia da{" "}
+        <a className="link" href="/missal/pentecostes/pasc7-0">
+          Festa de Pentecostes
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Epístola</h3>

@@ -351,8 +351,10 @@ export default function Page1102() {
       </div>
       2.ª Missa, como a [Missa do Dia do
       Aniversário](/ritual/requiem#no-dia-do-aniversário). 3.ª Missa, como a
-      [Missa Quotidiana](/ritual/requiem#quotidiana), omitindo-se a 1.ª e 3.ª
-      Oração, Secreta e Postcomúnio.
+      <a className="link" href="/ritual/requiem#quotidiana">
+        Missa Quotidiana
+      </a>{" "}
+      , omitindo-se a 1.ª e 3.ª Oração, Secreta e Postcomúnio.
     </div>
   );
 }

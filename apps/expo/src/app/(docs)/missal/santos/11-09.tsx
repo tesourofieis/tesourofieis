@@ -9,8 +9,11 @@ export default function Page1109() {
       <h1>Dedicação da Basílica do Salvador, a 9 de Novembro</h1>
 
       <aside>
-        Como na [Missa Terríbilis est](/missal/comum/25dedicacaoigreja),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/25dedicacaoigreja">
+          Missa Terríbilis est
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

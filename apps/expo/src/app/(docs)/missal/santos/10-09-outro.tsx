@@ -10,8 +10,11 @@ export default function Page1009Outro() {
       <h1>S. Dionísio e Outros, Mártires, a 9 de Outubro</h1>
 
       <aside>
-        Como na [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/7muitosmartires2">
+          Missa Sapiéntiam sanctórum
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

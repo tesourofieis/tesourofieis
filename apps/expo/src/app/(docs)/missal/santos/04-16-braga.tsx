@@ -9,8 +9,11 @@ export default function Page0416Braga() {
     <div className="docs">
       <h1>S. Frutuoso, B., a 16 de Abril</h1>
       <aside>
-        Como na [Missa Státuit ei](/missal/comum/11confessorespontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/11confessorespontifices1">
+          Missa Státuit ei
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>Ó Deus, que nos fizestes chegar com júbilo até à festa
       deste dia, em que veneramos o B. Frutuoso, vosso Confessor e Pontífice,

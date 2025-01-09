@@ -17,7 +17,11 @@ export default function Page0507() {
       </aside>
 
       <aside>
-        Como na [Missa Protexísti me](/missal/comum/9martir), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/9martir">
+          Missa Protexísti me
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

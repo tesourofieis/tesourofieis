@@ -130,7 +130,10 @@ export default function Page0212() {
 
       <aside>
         Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se o Trato da
-        [Missa Salus autem](/missal/comum/8muitosmartires3).
+        <a className="link" href="/missal/comum/8muitosmartires3">
+          Missa Salus autem
+        </a>{" "}
+        .
       </aside>
 
       <h3>Evangelho</h3>

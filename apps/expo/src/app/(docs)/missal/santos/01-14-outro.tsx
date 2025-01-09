@@ -9,8 +9,11 @@ export default function Page0114Outro() {
       <h1>S. Félix, Presb. e Márt., a 14 de Janeiro</h1>
 
       <aside>
-        Como na [Missa Lætábitur justus](/missal/comum/5martirnaopontifice2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/5martirnaopontifice2">
+          Missa Lætábitur justus
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

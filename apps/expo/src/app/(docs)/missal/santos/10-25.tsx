@@ -9,7 +9,11 @@ export default function Page1025() {
       <h1>S. S. Crisanto e Daria, Mártires, a 25 de Outubro</h1>
 
       <aside>
-        Como na [Missa Intret in](/missal/comum/6muitosmartires1), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/6muitosmartires1">
+          Missa Intret in
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

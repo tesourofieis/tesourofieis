@@ -8,7 +8,13 @@ export default function Page0123() {
     <div className="docs">
       <h1>S. Raimundo de Penhafort, a 23 de Janeiro</h1>
 
-      <aside>Como na [Missa Os justi](/missal/comum/16abades), excepto:</aside>
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/comum/16abades">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
+      </aside>
 
       <h3>Oração</h3>
 

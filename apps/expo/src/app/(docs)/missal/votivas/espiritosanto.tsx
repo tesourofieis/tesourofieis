@@ -9,8 +9,11 @@ export default function PageEspiritosanto() {
       <h1>Missa do Espírito Santo</h1>
 
       <aside>
-        Como na [Missa do Domingo de Pentecostes](/missal/pentecostes/pasc7-0),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/pentecostes/pasc7-0">
+          Missa do Domingo de Pentecostes
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Epístola</h3>

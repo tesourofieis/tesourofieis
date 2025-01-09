@@ -10,9 +10,15 @@ export default function PageOficiodefuntos() {
       <h1>Ofício dos Defuntos</h1>
 
       <aside>
-        Rezar [Pai-nosso](/devocionario/oracoes/painosso);
-        [Ave-Maria](/devocionario/oracoes/avemaria); [Creio em
-        Deus](/devocionario/oracoes/simboloapostolos).
+        Rezar{" "}
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai-nosso
+        </a>{" "}
+        ;
+        <a className="link" href="/devocionario/oracoes/avemaria">
+          Ave-Maria
+        </a>{" "}
+        ; [Creio em Deus](/devocionario/oracoes/simboloapostolos).
       </aside>
 
       <h2>Invitatório</h2>

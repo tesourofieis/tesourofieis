@@ -9,7 +9,11 @@ export default function Page0911() {
       <h1>S. S. Proto e Jacinto, Mártires, a 11 de Setembro</h1>
 
       <aside>
-        Como na [Missa Salus autem](/missal/comum/8muitosmartires3), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/8muitosmartires3">
+          Missa Salus autem
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

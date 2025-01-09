@@ -9,8 +9,11 @@ export default function Page1027Portugal() {
       <h1>S. Gonçalo de Lagos, a 27 de Outubro</h1>
 
       <aside>
-        Como na [Missa Os justi](/missal/comum/14confessoresnaopontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

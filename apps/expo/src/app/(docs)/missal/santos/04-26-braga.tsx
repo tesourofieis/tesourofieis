@@ -8,7 +8,11 @@ export default function Page0426Braga() {
     <div className="docs">
       <h1>S. Pedro de Rates, a 26 de Abril</h1>
       <aside>
-        Como na [Missa Protexísti me](/missal/comum/9martir), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/9martir">
+          Missa Protexísti me
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>Ó Deus, que consagrastes este dia com o martírio do B.
       Pedro, vosso Mártir e Pontífice, concedei à vossa Igreja Bracarense a

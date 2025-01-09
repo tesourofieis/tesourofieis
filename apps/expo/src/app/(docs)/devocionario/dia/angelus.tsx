@@ -10,7 +10,11 @@ export default function PageAngelus() {
 
       <aside>
         Desde a Santíssima Trindade até à Páscoa. No tempo Pascal substitui-se o
-        Angelus pela [Regina Caeli](/devocionario/antifonas/reginacaeli).
+        Angelus pela{" "}
+        <a className="link" href="/devocionario/antifonas/reginacaeli">
+          Regina Caeli
+        </a>{" "}
+        .
       </aside>
 
       <div className="side-by-side">

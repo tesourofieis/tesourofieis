@@ -10,8 +10,14 @@ export default function Page1230() {
 
       <aside>
         Intróito, Oração, Gradual, Ofertório, Comúnio e Postcomúnio como na
-        [Terceira Missa do Natal](/missal/santos/12-25-3). Epístola e Evangelho
-        como na [Segunda Missa do Natal](/missal/santos/12-25-2).
+        <a className="link" href="/missal/santos/12-25-3">
+          Terceira Missa do Natal
+        </a>{" "}
+        . Epístola e Evangelho como na{" "}
+        <a className="link" href="/missal/santos/12-25-2">
+          Segunda Missa do Natal
+        </a>{" "}
+        .
       </aside>
     </div>
   );

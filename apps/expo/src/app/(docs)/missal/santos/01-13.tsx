@@ -9,8 +9,11 @@ export default function Page0113() {
       <h1>Dia da oitava da Epifania</h1>
 
       <aside>
-        Como no dia da [Festa da Epifania](/missal/santos/01-6), excepto o
-        seguinte:
+        Como no dia da{" "}
+        <a className="link" href="/missal/santos/01-6">
+          Festa da Epifania
+        </a>{" "}
+        , excepto o seguinte:
       </aside>
 
       <h3>Oração</h3>

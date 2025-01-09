@@ -145,8 +145,11 @@ export default function PageExtremauncao() {
           <span className="text-red-500">℟.</span> Amen.
         </p>
       </div>
-      O Acólito diz o [Confiteor Deo...](/devocionario/oracoes/confesso) e o
-      Sacerdote, tendo dado as Absolvições, continua:
+      O Acólito diz o{" "}
+      <a className="link" href="/devocionario/oracoes/confesso">
+        Confiteor Deo...
+      </a>{" "}
+      e o Sacerdote, tendo dado as Absolvições, continua:
       <div className="side-by-side">
         <p>
           In nómine Pa <span className="cross text-red-500">✠</span> tris, et Fí{" "}

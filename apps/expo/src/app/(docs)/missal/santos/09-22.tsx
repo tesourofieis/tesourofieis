@@ -10,8 +10,11 @@ export default function Page0922() {
       <h1>S. Tomás de Vilanova, B. e C., a 22 de Setembro</h1>
 
       <aside>
-        Como na [Missa Státuit ei](/missal/comum/11confessorespontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/11confessorespontifices1">
+          Missa Státuit ei
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

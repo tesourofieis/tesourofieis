@@ -22,8 +22,10 @@ export default function PageViatico() {
       </div>
       <h1>Asperges Me</h1>
       <AspergesMe />O Acólito diz o Confiteor Deo... (como na página
-      [confiteor](/devocionario/oracoes/confesso)); e o Sacerdote, tendo dado as
-      Absolvições, continua:
+      <a className="link" href="/devocionario/oracoes/confesso)">
+        confiteor
+      </a>{" "}
+      ; e o Sacerdote, tendo dado as Absolvições, continua:
       <h1>Recepção da Comunhão</h1>
       <div className="side-by-side">
         <p>℣. Ecce Agnus Dei, ecce qui tollit peccáta mundi.</p>

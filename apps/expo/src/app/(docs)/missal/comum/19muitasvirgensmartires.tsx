@@ -10,8 +10,11 @@ export default function Page19Muitasvirgensmartires() {
       <h1>Muitas Virgens Mártires</h1>
 
       <aside>
-        Como na [Missa Me exspectavérunt](/missal/comum/18virgensmartires2),
-        excepto o seguinte:
+        Como na{" "}
+        <a className="link" href="/missal/comum/18virgensmartires2">
+          Missa Me exspectavérunt
+        </a>{" "}
+        , excepto o seguinte:
       </aside>
 
       <h3>Oração</h3>

@@ -9,7 +9,11 @@ export default function Page0916Outro2() {
     <div className="docs">
       <h1>Santa Eufémia e Outros, Mártires, a 16 de Setembro</h1>
       <aside>
-        Como na [Missa Intret in](/missal/comum/6muitosmartires1), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/6muitosmartires1">
+          Missa Intret in
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>
       Concedei aos vossos servos, Senhor, um jubiloso socorro, a fim de que,

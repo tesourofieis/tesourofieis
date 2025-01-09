@@ -11,8 +11,11 @@ export default function Page1027Evora() {
         Arquidiocese de Évora
       </h1>
       <aside>
-        Como na [Missa Sapiéntiam sanctórum](/missal/comum/muitosmartires2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/muitosmartires2">
+          Missa Sapiéntiam sanctórum
+        </a>{" "}
+        , excepto:
       </aside>
       <h3>Oração</h3>Ó Deus, que aos três beatíssimos Irmãos vossos Mártires
       Vicente, Sabina e Cristeta, já unidos em amor fraternal, ainda mais os

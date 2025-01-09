@@ -10,7 +10,11 @@ export default function Page0215() {
       <h1>S. S. Faustino e Jovita, Mártires, a 15 de Fevereiro</h1>
 
       <aside>
-        Como na [Missa Salus autem](/missal/comum/8muitosmartires3), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/8muitosmartires3">
+          Missa Salus autem
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Secreta e Postcomúnio</h3>

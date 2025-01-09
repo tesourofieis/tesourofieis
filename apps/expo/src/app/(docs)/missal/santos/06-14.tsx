@@ -10,7 +10,11 @@ export default function Page0614() {
       <h1>S. Basílio Magno, B. Conf. e Doutor, a 14 de Junho</h1>
 
       <aside>
-        Como na [Missa In médio Ecclésiae](/missal/comum/13doutores), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/13doutores">
+          Missa In médio Ecclésiae
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

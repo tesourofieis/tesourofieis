@@ -9,8 +9,11 @@ export default function Page1023() {
       <h1>S. António Maria Claret, B. e Conf., a 23 de Outubro</h1>
 
       <aside>
-        Como na [Missa Sacerdótes tui](/missal/comum/12confessorespontifices2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/12confessorespontifices2">
+          Missa Sacerdótes tui
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

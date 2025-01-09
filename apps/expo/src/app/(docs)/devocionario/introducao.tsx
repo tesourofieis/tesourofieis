@@ -21,13 +21,27 @@ export default function PageIntroducao() {
         coração; dou-Vos graças por me terdes criado, feito cristão e conservado
         nesta noite; ofereço-Vos todas minhas acções, e peço-Vos que neste dia
         me preserveis do pecado, e me livreis de todo o mal. Assim seja». E
-        rezar depois o [Pai-Nosso](/devocionario/oracoes/painosso), a
-        [Ave-Maria](/devocionario/oracoes/avemaria), o
-        [Credo](/devocionario/oracoes/simboloapostolos), e os [Actos de
-        Fé](/devocionario/oracoes/actofe), de
-        [Esperança](/devocionario/oracoes/actoesperanca) e de
-        [Caridade](/devocionario/oracoes/actocaridade), acompanhando-os com um
-        vivo afecto do coração.
+        rezar depois o{" "}
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai-Nosso
+        </a>{" "}
+        , a
+        <a className="link" href="/devocionario/oracoes/avemaria">
+          Ave-Maria
+        </a>{" "}
+        , o
+        <a className="link" href="/devocionario/oracoes/simboloapostolos">
+          Credo
+        </a>{" "}
+        , e os [Actos de Fé](/devocionario/oracoes/actofe), de
+        <a className="link" href="/devocionario/oracoes/actoesperanca">
+          Esperança
+        </a>{" "}
+        e de
+        <a className="link" href="/devocionario/oracoes/actocaridade">
+          Caridade
+        </a>{" "}
+        , acompanhando-os com um vivo afecto do coração.
       </p>
 
       <p>
@@ -37,15 +51,17 @@ export default function PageIntroducao() {
       </p>
 
       <p>
-        [Antes do trabalho](/devocionario/dia/bencaos#antes-do-trabalho), convém
-        oferecê-lo a Deus, dizendo do coração: «Senhor, eu Vos ofereço este
-        trabalho, dai-me a vossa bênção». Deve-se trabalhar para glória de Deus
-        e para fazer a sua vontade. Antes da refeição, convém fazer o sinal da
-        Cruz, estando de pé, e depois dizer com devoção: «Senhor, abençoai-nos a
-        nós e ao alimento que vamos tomar, para nos conservarmos no vosso santo
-        serviço». Depois da refeição, convém fazer o sinal da Cruz, e dizer:
-        «Senhor, eu Vos dou graças pelo alimento que me destes; fazei-me digno
-        de participar da mesa celeste».
+        <a className="link" href="/devocionario/dia/bencaos#antes-do-trabalho">
+          Antes do trabalho
+        </a>{" "}
+        , convém oferecê-lo a Deus, dizendo do coração: «Senhor, eu Vos ofereço
+        este trabalho, dai-me a vossa bênção». Deve-se trabalhar para glória de
+        Deus e para fazer a sua vontade. Antes da refeição, convém fazer o sinal
+        da Cruz, estando de pé, e depois dizer com devoção: «Senhor,
+        abençoai-nos a nós e ao alimento que vamos tomar, para nos conservarmos
+        no vosso santo serviço». Depois da refeição, convém fazer o sinal da
+        Cruz, e dizer: «Senhor, eu Vos dou graças pelo alimento que me destes;
+        fazei-me digno de participar da mesa celeste».
       </p>
 
       <p>
@@ -65,16 +81,22 @@ export default function PageIntroducao() {
 
       <p>
         Ao toque das Ave-Marias pela manhã, ao meio-dia e à noite, o bom cristão
-        recita o [Anjo do Senhor «Angelus»](/devocionario/dia/angelus) com três
-        Ave-Marias. [À noite](/devocionario/dia/oracaonoite), antes de se
-        deitar, convém pôr-se, como de manhã, na presença de Deus, recitar
-        devotamente as mesmas orações, fazer um breve exame de consciência, e
-        pedir perdão a Deus dos pecados cometidos durante o dia. Antes de
-        adormecer, farei o sinal da Cruz, pensarei que posso morrer esta noite,
-        e oferecerei o coração a Deus, dizendo: «Meu Senhor e meu Deus, eu Vos
-        dou todo meu coração. Trindade Santíssima, concedei-me a graça de bem
-        viver e de bem morrer. Jesus, Maria e José, eu Vos encomendo a minha
-        alma».
+        recita o{" "}
+        <a className="link" href="/devocionario/dia/angelus">
+          Anjo do Senhor «Angelus»
+        </a>{" "}
+        com três Ave-Marias.{" "}
+        <a className="link" href="/devocionario/dia/oracaonoite">
+          À noite
+        </a>{" "}
+        , antes de se deitar, convém pôr-se, como de manhã, na presença de Deus,
+        recitar devotamente as mesmas orações, fazer um breve exame de
+        consciência, e pedir perdão a Deus dos pecados cometidos durante o dia.
+        Antes de adormecer, farei o sinal da Cruz, pensarei que posso morrer
+        esta noite, e oferecerei o coração a Deus, dizendo: «Meu Senhor e meu
+        Deus, eu Vos dou todo meu coração. Trindade Santíssima, concedei-me a
+        graça de bem viver e de bem morrer. Jesus, Maria e José, eu Vos
+        encomendo a minha alma».
       </p>
 
       <p>

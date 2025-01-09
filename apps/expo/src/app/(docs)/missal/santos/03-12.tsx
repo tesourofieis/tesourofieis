@@ -9,7 +9,11 @@ export default function Page0312() {
       <h1>S. Gregório, a 12 de Março</h1>
 
       <aside>
-        Como na [Missa Si díligis me](/missal/comum/sumospontifices), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/sumospontifices">
+          Missa Si díligis me
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

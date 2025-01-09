@@ -8,7 +8,13 @@ export default function Page1126() {
     <div className="docs">
       <h1>S. Silvestre, Abade, a 26 de Novembro</h1>
 
-      <aside>Como na [Missa Os justi](/missal/comum/16abades), excepto:</aside>
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/comum/16abades">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
+      </aside>
 
       <h3>Oração</h3>
 
@@ -66,7 +72,13 @@ export default function Page1126() {
 
       <h2>Comemoração de S. Pedro Alexandrino</h2>
 
-      <aside>Como na [missa seguinte](/missal/santos/11-26-2), excepto:</aside>
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/santos/11-26-2">
+          missa seguinte
+        </a>{" "}
+        , excepto:
+      </aside>
     </div>
   );
 }

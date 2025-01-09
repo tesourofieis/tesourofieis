@@ -9,8 +9,11 @@ export default function Page1202() {
       <h1>Santa Bibiana, Virgem e Mártir, a 2 de Dezembro</h1>
 
       <aside>
-        Como na [Missa Me exspectavérunt](/missal/comum/18virgensmartires2),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/18virgensmartires2">
+          Missa Me exspectavérunt
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

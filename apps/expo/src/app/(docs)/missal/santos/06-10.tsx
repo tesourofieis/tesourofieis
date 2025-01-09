@@ -9,8 +9,11 @@ export default function Page0610() {
       <h1>S. Margarida, Rainha, Viúva, a 10 de Junho</h1>
 
       <aside>
-        Como na [Missa Cognóvi, Dómine](/missal/comum/24nemvirgensnemmartires),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/24nemvirgensnemmartires">
+          Missa Cognóvi, Dómine
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

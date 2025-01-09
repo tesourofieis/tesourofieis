@@ -9,7 +9,11 @@ export default function Page0116() {
       <h1>S. Marcelo, Papa e Mártir, a 16 de Janeiro</h1>
 
       <aside>
-        Como na [Missa Si díligis me](/missal/comum/sumospontifices), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/sumospontifices">
+          Missa Si díligis me
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

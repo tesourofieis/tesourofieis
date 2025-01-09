@@ -10,8 +10,11 @@ export default function Page0902() {
       <h1>S. Estêvão, Rei e Conf., a 2 de Setembro</h1>
 
       <aside>
-        Como na [Missa Os justi](/missal/comum/14confessoresnaopontifices1),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi
+        </a>{" "}
+        , excepto:
       </aside>
 
       <LinkCard

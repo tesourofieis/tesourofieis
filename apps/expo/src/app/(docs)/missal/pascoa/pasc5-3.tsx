@@ -9,7 +9,11 @@ export default function PagePasc53() {
       <h1>Vigília da Festa da Ascensão de N. S. J. C.</h1>
 
       <aside>
-        Como no [5.º Domingo depois da Páscoa](/missal/pascoa/pasc5-0), excepto:
+        Como no{" "}
+        <a className="link" href="/missal/pascoa/pasc5-0">
+          5.º Domingo depois da Páscoa
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Epístola</h3>

@@ -10,7 +10,11 @@ export default function PageApostolos() {
 
       <aside>
         Tudo como na Missa precedente, excepto o seguinte: Oração, Secreta e
-        Postcomúnio como na [Missa S. Simão e S. Judas](/missal/santos/10-28).
+        Postcomúnio como na{" "}
+        <a className="link" href="/missal/santos/10-28">
+          Missa S. Simão e S. Judas
+        </a>{" "}
+        .
       </aside>
 
       <h3>Epístola</h3>

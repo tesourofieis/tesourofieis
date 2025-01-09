@@ -9,7 +9,11 @@ export default function Page0715Portugal() {
       <h1>B. Inácio de Azevedo e Companheiros, a 15 de Julho</h1>
 
       <aside>
-        Como na [Missa Intret in](/missal/comum/6muitosmartires1), excepto:
+        Como na{" "}
+        <a className="link" href="/missal/comum/6muitosmartires1">
+          Missa Intret in
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

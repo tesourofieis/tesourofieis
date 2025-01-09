@@ -9,8 +9,11 @@ export default function PageCoroacaopapa() {
       <h1>No dia da Coroação do Sumo Pontífice e Aniversário da Coroação</h1>
 
       <aside>
-        Como na [Missa da Cadeira de S. Pedro em Roma](/missal/santos/02-22),
-        excepto: Oração, Secreta e Postcomúnio como na [Missa Si díligis
+        Como na{" "}
+        <a className="link" href="/missal/santos/02-22">
+          Missa da Cadeira de S. Pedro em Roma
+        </a>{" "}
+        , excepto: Oração, Secreta e Postcomúnio como na [Missa Si díligis
         me](/missal/comum/sumospontifices). No Tempo Pascal, em vez do Gradual e
         do Trato, diz-se:
       </aside>

@@ -9,8 +9,11 @@ export default function Page0118Outro() {
       <h1>Comemoração de Santa Prisca, a 18 de Janeiro</h1>
 
       <aside>
-        Como a [Missa Me exspectavérunt](/missal/comum/18virgensmartires2),
-        excepto o seguinte:
+        Como a{" "}
+        <a className="link" href="/missal/comum/18virgensmartires2">
+          Missa Me exspectavérunt
+        </a>{" "}
+        , excepto o seguinte:
       </aside>
 
       <h3>Oração</h3>

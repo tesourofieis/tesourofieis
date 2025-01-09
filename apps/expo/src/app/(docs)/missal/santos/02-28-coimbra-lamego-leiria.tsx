@@ -11,7 +11,13 @@ export default function Page0228CoimbraLamegoLeiria() {
         Fevereiro
       </h1>
 
-      <aside>Como na [Missa na festa](/missal/santos/08-28), excepto:</aside>
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/santos/08-28">
+          Missa na festa
+        </a>{" "}
+        , excepto:
+      </aside>
 
       <h2>Oração</h2>
 

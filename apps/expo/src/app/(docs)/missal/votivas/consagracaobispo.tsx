@@ -9,8 +9,11 @@ export default function PageConsagracaobispo() {
       <h1>No Aniversário da Eleição ou Consagração do Bispo</h1>
 
       <aside>
-        Como na [Missa Sacerdótes tui](/missal/comum/12confessorespontifices2),
-        excepto: Oração, Secreta e Postcomúnio como na [Missa Si díligis
+        Como na{" "}
+        <a className="link" href="/missal/comum/12confessorespontifices2">
+          Missa Sacerdótes tui
+        </a>{" "}
+        , excepto: Oração, Secreta e Postcomúnio como na [Missa Si díligis
         me](/missal/comum/sumospontifices).
       </aside>
 

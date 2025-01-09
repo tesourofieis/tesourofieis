@@ -9,8 +9,11 @@ export default function PageSantacruz() {
       <h1>Missa de Santa Cruz</h1>
 
       <aside>
-        Como na [Missa da Exaltação da Santa Cruz](/missal/santos/09-14),
-        excepto:
+        Como na{" "}
+        <a className="link" href="/missal/santos/09-14">
+          Missa da Exaltação da Santa Cruz
+        </a>{" "}
+        , excepto:
       </aside>
 
       <h3>Oração</h3>

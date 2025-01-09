@@ -11,8 +11,11 @@ export default function Page0128LisboaFaro() {
       </h1>
 
       <aside>
-        Como na [Missa de Festa](/missal/santos/01-22-lisboa-faro), e
-        comemoração de Santa Inês:
+        Como na{" "}
+        <a className="link" href="/missal/santos/01-22-lisboa-faro">
+          Missa de Festa
+        </a>{" "}
+        , e comemoração de Santa Inês:
       </aside>
 
       <h3>Oração Comemoração Santa Inês</h3>

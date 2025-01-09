@@ -45,8 +45,10 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        [Pai Nosso](/devocionario/oracoes/painosso) e três [Ave
-        Maria](/devocionario/oracoes/avemaria).
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai Nosso
+        </a>{" "}
+        e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
       <h2>Chorus 2, Salutatio</h2>
@@ -64,8 +66,10 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        [Pai Nosso](/devocionario/oracoes/painosso) e três [Ave
-        Maria](/devocionario/oracoes/avemaria).
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai Nosso
+        </a>{" "}
+        e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
       <h2>Chorus 3, Salutatio</h2>
@@ -83,8 +87,10 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        [Pai Nosso](/devocionario/oracoes/painosso) e três [Ave
-        Maria](/devocionario/oracoes/avemaria).
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai Nosso
+        </a>{" "}
+        e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
       <h2>Chorus 4, Salutatio</h2>
@@ -103,8 +109,10 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        [Pai Nosso](/devocionario/oracoes/painosso) e três [Ave
-        Maria](/devocionario/oracoes/avemaria).
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai Nosso
+        </a>{" "}
+        e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
       <h2>Chorus 5, Salutatio</h2>
@@ -123,8 +131,10 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        [Pai Nosso](/devocionario/oracoes/painosso) e três [Ave
-        Maria](/devocionario/oracoes/avemaria).
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai Nosso
+        </a>{" "}
+        e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
       <h2>Chorus 6, Salutatio</h2>
@@ -142,8 +152,10 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        [Pai Nosso](/devocionario/oracoes/painosso) e três [Ave
-        Maria](/devocionario/oracoes/avemaria).
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai Nosso
+        </a>{" "}
+        e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
       <h2>Chorus 7, Salutatio</h2>
@@ -162,8 +174,10 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        [Pai Nosso](/devocionario/oracoes/painosso) e três [Ave
-        Maria](/devocionario/oracoes/avemaria).
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai Nosso
+        </a>{" "}
+        e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
       <h2>Chorus 8, Salutatio</h2>
@@ -182,8 +196,10 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        [Pai Nosso](/devocionario/oracoes/painosso) e três [Ave
-        Maria](/devocionario/oracoes/avemaria).
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai Nosso
+        </a>{" "}
+        e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
       <h2>Chorus 9, Salutatio</h2>
@@ -203,8 +219,10 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        [Pai Nosso](/devocionario/oracoes/painosso) e três [Ave
-        Maria](/devocionario/oracoes/avemaria).
+        <a className="link" href="/devocionario/oracoes/painosso">
+          Pai Nosso
+        </a>{" "}
+        e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
       <div className="side-by-side">
@@ -213,21 +231,30 @@ export default function PageCoroasaomiguel() {
           Noster](/devocionario/oracoes/painosso)
         </p>
         <p>
-          Em honra de São Miguel, [Pai Nosso](/devocionario/oracoes/painosso)
+          Em honra de São Miguel,{" "}
+          <a className="link" href="/devocionario/oracoes/painosso">
+            Pai Nosso
+          </a>
         </p>
         <p>
           In Honoro Sancte Gabrielis, [Pater
           Noster](/devocionario/oracoes/painosso)
         </p>
         <p>
-          Em honra de São Gabriel, [Pai Nosso](/devocionario/oracoes/painosso)
+          Em honra de São Gabriel,{" "}
+          <a className="link" href="/devocionario/oracoes/painosso">
+            Pai Nosso
+          </a>
         </p>
         <p>
           In Honoro Sancte Raphaelis, [Pater
           Noster](/devocionario/oracoes/painosso)
         </p>
         <p>
-          Em honra de São Rafael, [Pai Nosso](/devocionario/oracoes/painosso)
+          Em honra de São Rafael,{" "}
+          <a className="link" href="/devocionario/oracoes/painosso">
+            Pai Nosso
+          </a>
         </p>
         <p>
           In Honoro Angelis Custos meas, [Pater
