@@ -43,7 +43,7 @@ export default function Page0729() {
 
 <em>Lc. 10, 38-42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -56,21 +56,21 @@ S. Lucas.</p>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, Dómine: ut, sicut pópulus christiánus Mártyrum tuórum Felícis, Simplícii, Faustíni et Beatrícis temporáli sollemnitáte congáudet, ita perfruátur ætérna; et, quod votis célebrat, comprehéndat efféctu. Per Dóminum...</p>
       <p>Permiti, Senhor, Vos suplicamos, que, assim como o povo cristão celebra com júbilo durante esta vida a festa dos vossos Santos Mártires Félix, Simplício, Faustino e Beatriz, assim também possa alegrar-se na eternidade, e alcance na realidade mais tarde o que agora honra com seus votos. Por nosso Senhor...</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, pro sanctórum Mártyrum tuórum Felícis, Simplícii, Faustíni et Beatrícis commemoratióne deférimus: supplíciter deprecántes; ut indulgéntiam nobis páriter cónferant et salútem. Per Dóminum nostrum...</p>
       <p>Vos oferecemos, Senhor, estas hóstias em memória dos vossos Santos Mártires Félix. Simplício, Faustino e Beatriz, suplicando-Vos humildemente que por eles nos concedais simultaneamente o perdão e a salvação. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum Felícis, Simplícii, Faustíni et Beatrícis cœléstibus mýsteriis celebráta sollémnitas, indulgéntiam nobis tuæ propitiatiónis acquírat. Per Dóminum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, fazei que a solenidade dos vossos Santos Mártires Félix, Simplício, Faustino e Beatriz, que celebramos com estes celestiais mystérios, nos obtenha o perdão da vossa misericórdia. Por nosso Senhor...</p>
       </div>

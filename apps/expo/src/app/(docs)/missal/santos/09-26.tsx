@@ -17,7 +17,7 @@ export default function Page0926() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beatórum Mártyrum Cypriáni et Justínæ nos, Dómine, fóveant continuáta pæsídia: quia non désinis propítius intuéri, quos tálibus auxíliis concésseris adjuvári. Per Dóminum...</p>
       <p>Fazei, Senhor, que incessantemente nos alegremos com a protecção dos vossos B. B. Mártires Cipriano e Justina, visto que não podeis deixar de acolher benignamente aqueles a quem concedeis a assistência de tais auxílios. Por nosso Senhor...</p>
       </div>

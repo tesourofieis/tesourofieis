@@ -31,7 +31,7 @@ export default function Page0712() {
 
 <em>Mt. 5, 48-48</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -44,21 +44,21 @@ S. Mateus.</p>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, Dómine: ut, sicut nos sanctórum Martyrum tuórum Nabóris et Felícis natalítia celebránda non desérunt; ita júgiter suffrágiis comitántur. Per Dóminum...</p>
       <p>Senhor, assim como nós não cessamos de celebrar o natalício dos vossos Santos Mártires Nabor e Félix, assim também, Vos suplicamos, sejamos sempre socorridos com seus sufrágios. Por nosso Senhor...</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera plebis tuæ, quǽsumus, Dómine, sanetórum Mártyrum tuórum Nabóris et Felícis fiant grata suffrágiis: et, quorum triúmphis tuo nómini offeruntur, ipsorum digna perficiantur et méritis. Per Dóminum...</p>
       <p>Dignai-Vos permitir, Senhor, Vos imploramos, que os dons do vosso povo Vos sejam agradáveis pelos sufrágios dos vossos Santos Nabor e Félix; e, pelos méritos daqueles em cuja honra são oferecidos ao vosso nome, fazei que sejam dignos de Vós. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Natalítiis Sanctórum tuórum, quǽsumus, Dómine: ut, sacraménti múnere vegetáti, bonis, quibus per tuam grátiam nunc fovémur, perfruámur ætérnis. Per Dóminum nostrum...</p>
       <p>Fortalecidos com a recepção do sacramento que recebemos neste natalício dos vossos Santos, Vos suplicamos, Senhor, permiti que gozemos na eternidade aqueles bens com que a vossa graça nos favoreceu nesta vida. Por nosso Senhor...</p>
       </div>

@@ -20,7 +20,7 @@ Nascido em Nimegue (Holanda), a 8 de Maio de 1521, morreu em Friburgo (Suiça) a
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ad tuéndam cathólicam iidem beátum Petrum Confessórem tuum virtúte et doctrína roborásti: concéde propítius; ut ejus exémplis et mónitis errántes ad salútem resipíscant, et fidéles in veritátis confessióne persevérent. Per Dóminum...</p>
       <p>Ó Deus, que revestistes o B. Pedro, vosso Confessor, com os dons da virtude e da ciência para a defesa da fé católica, concedei-nos propício que seus exemplos e ensinos atraiam ao caminho da salvação aqueles que caíram no erro e façam perseverar os fiéis na confissão da verdade. Por nosso Senhor...</p>
       </div>

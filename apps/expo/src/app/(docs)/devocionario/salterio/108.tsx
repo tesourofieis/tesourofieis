@@ -10,7 +10,7 @@ export default function Page108() {
       <h1>Salmo 108</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, laudem meam ne tacúeris: * quia os peccatóris, et os dolósi super me apértum est.</p>
       <p>Deus, Vos não caleis ao meu louvor: * porque abriram-se contra mim a boca do pecador e do traidor.</p>
       <p>Locúti sunt advérsum me lingua dolósa, et sermónibus ódii circumdedérunt me: * et expugnavérunt me gratis.</p>

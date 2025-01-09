@@ -40,7 +40,7 @@ export default function Page0630() {
 
 <em>Gl. 1, 11-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.</p>
       <p>Fratres: Notum vobis facio Evangélium, quod evangelizátum est a me, quia non est secúndum hóminem: neque enim ego ab hómine accépi illud neque dídici, sed per revelatiónem Jesu Christi. Audístis enim conversatiónem meam aliquándo in Judaísmo: quóniam supra modum persequébar Ecclésiam Dei, et expugnábam illam, et proficiébam in Judaísmo supra multos coætáneos meos in génere meo, abundántius æmulátor exsístens paternárum mearum traditiónum. Cum autem plácuit ei, qui me segregávit ex útero matris meæ, et vocávit per grátiam suam, ut reveláret Fílium suum in me, ut evangelizárem illum in géntibus: contínuo non acquiévi carni et sánguini, neque veni Jerosólymam ad antecessóres meos Apóstolos: sed ábii in Arábiam: et íterum revérsus sum Damáscum: déinde post annos tres veni Jerosólymam vidére Petrum, et mansi apud eum diébus quíndecim: álium autem Apostolórum vidi néminem, nisi Jacóbum fratrem Dómini. Quæ autem scribo vobis, ecce coram Deo, quia non méntior.</p>
@@ -51,7 +51,7 @@ export default function Page0630() {
 
 <em>Gl. 2, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui operátus est Petro in apostolátum, operátus est et mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi. ℣. <em>1 Cor. 15, 10</em> Grátia Dei in me vácua non fuit: sed grátia ejus semper in me manet.</p>
       <p>Aquele que instituiu Pedro Apóstolo para o apostolado dos circuncisos, instituiu-me também a mim Apóstolo dos gentios: ℣. <em>1 Cor. 15, 10</em> E eles conheceram a graça de Deus que me foi dada. A graça de Deus não ficou estéril em mim.</p>
       <p>Allelúja, allelúja. ℣. Sancte Paule Apóstole, prædicátor veritátis et doctor géntium, intercéde pro nobis. Allelúja.</p>
@@ -62,7 +62,7 @@ export default function Page0630() {
 
 <em>Mt. 10, 16-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -75,14 +75,14 @@ S. Mateus.</p>
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.</p>
       <p>Vejo, ó meu Deus, que honrais de um modo singular os vossos amigos: o seu poder firmou-se extraordinariamente.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica: ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio supplicántis. Per Dóminum...</p>
       <p>Santificai, Senhor, pelas preces do vosso Apóstolo Paulo as ofertas do vosso povo, a fim de que, sendo-Vos elas já agradáveis, porque as instituístes, mais agradáveis Vos sejam ainda pelo patrocínio do suplicante. Por nosso Senhor...</p>
       </div>
@@ -91,14 +91,14 @@ S. Mateus.</p>
 
 <em>Mt. 19, 28 & 29</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis et vitam ætérnam possidébitis.</p>
       <p>Em verdade vos digo: Vós, que abandonastes tudo e me seguistes, recebereis o cêntuplo e possuireis a vida eterna.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Percéptis, Dómine, sacraméntis: beáto Paulo Apóstolo tuo interveniénte, deprecámur; ut, quæ pro illíus celebráta sunt glória, nobis profíciant ad medélam. Per Dóminum...</p>
       <p>Havendo recebido estes sacramentos, Senhor, Vos pedimos, permiti pela intercessão do B. Paulo, vosso Apóstolo, que este sacrifício, que foi oferecido em vossa honra, nos sirva de remédio. Por nosso Senhor...</p>
       </div>

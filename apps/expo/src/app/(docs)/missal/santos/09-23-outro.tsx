@@ -12,7 +12,7 @@ export default function Page0923Outro() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, omnípotens Deus: ut, qui beátæ Theclæ Vírginis et Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et tantæ fídei proficiámus exémplo. Per Dóminum...</p>
       <p>Ó Deus omnipotente, celebrando nós o nascimento da B. Tecla, vossa Virgem e Mártir, concedei-nos, Vos suplicamos, que nos alegremos com sua festa anual e nos sejam proveitosos os exemplos da sua grande fé. Por nosso Senhor...</p>
       </div>

@@ -13,7 +13,7 @@ export default function Page1205Braga() {
 
       <h3>Intróito</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Gloria Patri...</p>
       <p>Um ínclito Confessor de Deus, lustre muito esplendoroso ante o Senhor, pérola e modelo dos Prelados, hoje coroado, com o qual as celestiais coortes rejubilam, entra nos céus, onde sem fim reina com Cristo. Ó justos, exultai no Senhor: àqueles que têm o coração recto fica bem a glória. ℣. Glória ao Pai...</p>
       </div>
@@ -31,7 +31,7 @@ export default function Page1205Braga() {
 
       <h3>Gradual</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veneremos devotadamente, do íntimo do coração e da alma, a veneranda festividade de hoje, em que o B. Geraldo, Confessor de Cristo, passou alegre deste mundo para os céus. Por isso o B. Geraldo, acabado o tempo da sua vida, é alistado nos exércitos celestiais.</p>
       <p>Aleluia, aleluia. Geraldo foi esse servo do Senhor que, lutando à hora da sua morte com o demónio, o venceu. Aleluia.</p>
       </div>

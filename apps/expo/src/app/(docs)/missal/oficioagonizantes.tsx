@@ -19,7 +19,7 @@ export default function PageOficioagonizantes() {
 
 <aside>Quando o enfermo se encontra na agonia diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Proficiscere, anima christiana, de hoc mundo, in nomine Dei Patris omnipotentis, qui te creavit: in nomine Iesu Christi, Filii Dei vivi, qui pro te passus est: in nomine Spiritus Sancti, qui in te effusus est: in nomine gloriosae et sanctae Dei Genetricis Virginis Mariae: in nomine beati Ioseph, inclyti eiusdem Virginis Sponsi: in nomine Angelorum et Archangelorum: in nomine Thronorum et Dominationum: in nomine Principatuum et Potestatum: in nomine Virtutum, Cherubim et Seraphim: in nomine Patriarcharum et Prophetarum: in nomine sanctorum Apostolorum et Evangelistarum: in nomine sanctorum Martyrum et Confessorum: in nomine sanctorum Monachorum et Eremitarum: in nomine sanctarum Virginum, et omnium Sanctorum et Sanctarum Dei. Hodie sit in pace locus tuus, et habitatio tua in sancta Sion. Per eundem Christum Dominum nostrum.</p>
@@ -28,7 +28,7 @@ export default function PageOficioagonizantes() {
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus misericors, Deus clemens, Deus qui secundum multitudinem miserationum tuarum peccata paenitentium deles, et praeteritorum criminum culpas venia remissionis evacuas: respice propitius super hunc famulum tuum <span className="text-red-500">N.</span> (hanc famulam tuam <span className="text-red-500">N.</span>), et remissionem ominum peccatorum suorum tota cordis confessione poscentem deprecatus exaudi. Renova in eo (ea), piissime Pater, quidquid terrena fragilitate corruptum, vel quidquid diabolica fraude violatum est; et unitati corporis Ecclesiae membrum redemptionis annecte Miserere, Domine, gemituum, miserere lacrimarum eius; et, non habentem fiduciam, nisi in tua misericordia, ad tuae sacramentum reconciliationis admitte. Per Christum Dominum nostrum.</p>
@@ -37,14 +37,14 @@ export default function PageOficioagonizantes() {
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Commendo te omnipotenti Deo, carissime frater (carissima soror), et ei, cuius es creatura, committo ; ut, cum humanitatis debitum morte interveniente persolveris, ad auctorem tuum qui te de limo terrae formaverat, revertaris. Egredienti itaque animae tuae de corpore splendidus Angelorum coetus occurrat: iudex Apostolorum tibi senatus adveniat: candidatorum tibi Martyrum triumphator exercitus obviet: liliata rutilantium te Confessorum turma circumdet: iubilantium te Virginum chorus excipiat: et beatae quietis in sinu Patriarcharum te complexus astringat: sanctus Ioseph, morientium Patronus dulcissimus, in magnam spem te erigat: sancta Dei Genetrix Virgo Maria suos benigna oculos ad te convertat: mitis atque festivus Christi Iesu tibi aspectus appareat, qui te inter assistentes sibi iugiter interesse decernat. Ignores omne quod horret in tenebris, quod stridet in flammis, quod cruciat in tormentis. Cedat tibi taeterrimus satanas cum satellitibus suis: in adventu tuo, te comitantibus Angelis, contremiscat, atque in aeternae noctis chaos immane diffugiat. Exsurgat Deus, et dissipentur inimici eius, et fugiant qui oderunt eum, a facie eius. Sicut deficit fumus, deficiant: sicut fluit cera a facie ignis, sic pereant peccatores a facie Dei: et iusti epulentur, et exsultent in conspectu Dei. Confundantur igitur et erubescant omnes tartareae legiones, et ministri satanae iter tuum impedire non audeant. Liberet te a cruciatu Christus, qui pro te crucifixus est. Liberet te ab aeterna morte Christus, qui pro te mori dignatus est. Constituat te Christus, Filius Dei vivi, intra paradisi sui semper amoena virentia, et inter oves suas te verus ille Pastor agnoscat. Ille ab omnibus peccatis tuis te absolvat, atque ad dexteram suam in electorum suorum te sorte constituat. Redemptorem tuum facie ad faciem videas, et, praesens semper assistens, manifestissimam beatis oculis aspicias veritatem. Constitutus (-a) igitur inter agmina Beatorum, contemplationis divinae dulcedine potiaris in saecula saeculorum.</p>
       <p>Meu caríssimo irmão (ou irmã), eu vos confio a Deus omnipotente e Vos entrego Àquele que vos criou, a fim de que, depois de haverdes pago com vossa morte a dívida que todos os homens contraíram, volteis para o vosso Autor, que vos formou do limo da terra. Que a corte brilhante dos Anjos venha receber a vossa alma, quando ela saír do vosso corpo; que o conselho dos Apóstolos, que julgará o mundo, venha ao vosso encontro; que o exército triunfante dos Mártires vos acompanhe em triunfo; que o cortejo glorioso dos Confessores, ornamentados com lírios, vos circunvolva; que o coro das Virgens, com cânticos de alegria, vos acolha; que gozeis o repouso celestial no seio dos Patriarcas; que S. José, dulcíssimo patrono dos moribundos, vos conceda uma doce esperança; que a Santa Virgem, Mãe de Deus, cheia de bondade, volva os olhos para vós; e que Jesus Cristo, mostrando-se-vos cheio de mansidão e de ternura, vos designe um lugar entre aqueles que vivem junto d’Ele. E que, assim, ignoreis como são horrorosas as trevas do inferno, bem como o que há de aflitivo e cruel nas chamas e nos tormentos desse lugar! Que Satanás, o mais feroz inimigo, e os seus satélites, se reconheçam vencidos diante de vós; que eles, vendo-vos chegar escoltado pelos Anjos, tremam e se retirem para o terrível caos da noite eterna! Que Deus se erga e que seus inimigos sejam dispersos. Que aqueles que O odeiam fujam da sua presença. Assim como o fumo se dissipa, e a cera se derrete ao fogo, assim também desapareçam os pecadores diante de Deus. Porém, quanto aos justos, que sejam inebriados de alegria e exultem dê contentamento perante o Senhor! Que as legiões do inferno sejam, pois, confundidas e cheias de vergonha e que os ministros de Satanás não ousem opor-se à vossa viagem. Que Jesus Cristo, que por vosso amor padeceu, vos preserve dos tormentos; que Ele, que por vós morreu, vos preserve da tormenta eterna; que Jesus Cristo, Filho de Deus vivo, vos conceda um lugar no meio das delícias eternas do seu paraíso; que Ele, verdadeiro Pastor, vos reconheça como uma das suas ovelhas; que Ele vos absolva de todos vossos pecados e vos faça compartilhar da sorte dos escolhidos, colocando-vos à sua direita. Possais vós ver face a face o vosso Redentor e, sempre junto d’Ele, contemplar e gozar a Verdade, inteiramente manifestada. Finalmente, tendo ocupado um lugar nas fileiras dos escolhidos, gozeis a suave alegria de contemplar o vosso Deus em todos os séculos dos séculos.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Suscipe, Domine, servum tuum (ancillam tuam) in locum sperandae sibi salvationis a misericordia tua.</p>
@@ -109,7 +109,7 @@ export default function PageOficioagonizantes() {
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Commendamus tibi, Domine, animam famuli tui <span className="text-red-500">N.</span> (famulae tuae <span className="text-red-500">N.</span>), precamurque te, Domine Iesu Christe, Salvator mundi, ut, propter quam ad terram misericorditer descendisti, Patriarcharum tuorum sinibus insinuare non renuas. Agnosce, Domine, creaturam tuam, non a diis alienis creatam, sed a te, solo Deo vivo et vero; quia non est alius Deus praeter te, et non est secundum opera tua. Laetifica, Domine, animam eius in conspectu tuo; et ne memineris iniquitatum eius antiquarum et ebrietatum, quas suscitavit furor sive fervor mali desiderii. Licet enim peccaverit, tamen Patrem, et Filium, et Spiritum Sanctum non negavit, sed credidit; et zelum Dei in se habuit, et Deum, qui fecit omnia, fideliter adoravit.</p>
@@ -118,7 +118,7 @@ export default function PageOficioagonizantes() {
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Delicta iuventutis et ignorantias eius, quaesumus, ne memineris, Domine; sed secundum magnam misericordiam tuam memor esto illius in gloria claritatis tuae. Aperiantur ei caeli, collaetentur illi Angeli. In regnum tuum, Domine, servum tuum (ancillam tuam) suscipe. Suscipiat eum (eam) sanctus Michael Archangelus Dei, qui militiae caelestis meruit principatum. Veniant illi obviam sancti Angeli Dei, et perducant eum (eam) in civitatem caelestem, Ierusalem. Suscipiat eum (eam) beatus Petrus Apostolus, cui a Deo claves regni caelestis traditae sunt. Adiuvet eum (eam) sanctus Paulus Apostolus, qui dignus fuit esse vas electionis. Intercedat pro eo (ea), Sanctus Ioannes, electus Dei Apostolus, cui revelata sunt secreta caelestia. Orent pro eo (ea) omnes sancti Apostoli, quibus a Domino data est potestas ligandi atque solvendi. Intercedant pro eo (ea) omnes Sancti et Electi Dei, qui pro Christi nomine tormenta in hoc saeculo sustinuerunt; ut, vinculis carnis exutus (-a), pervenire mereatur ad gloriam regni caelestis, praestante Domino nostro Iesu Christo: Qui cum Patre et Spiritu Sancto vivit et regnat in saecula saeculorum.</p>
@@ -127,7 +127,7 @@ export default function PageOficioagonizantes() {
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Clementissima Virgo Dei Genetrix, Maria, maerentium piissima consolatrix, famuli (-ae) <span className="text-red-500">N.</span> spiritum Filio suo commendet: ut, hoc materno interventu, terrores mortis non timeat; sed desideratam caelestis patriae mansionem, ea comite, laetus (-a) adeat.</p>
@@ -136,7 +136,7 @@ export default function PageOficioagonizantes() {
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Ad te confugio, sancte Ioseph, Patrone morientium, tibique, in cuius beato transitu vigiles adstiterunt Iesus et Maria, per hoc utrumque carissimum pignus, animam huius famuli (-ae) <span className="text-red-500">N.</span> in extremo agone laborantem enixe commendo, ut ab insidiis diaboli, et a morte perpetua, te progente, liberetur, et ad gaudia aeterna pervenire mereatur. Per eundem Christum Dominum nostrum.</p>
@@ -158,7 +158,7 @@ Jesus! Jesus! Jesus!
   da Agonia, de maneira que ele os ouça; e do mesmo modo se continuará:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In manus tuas, Domine, commendo spiritum meum.</p>
       <p>Senhor, nas vossas mãos entrego o meu espírito!</p>
       <p>Domine Iesu Christe, suscipe spiritum meum.</p>
@@ -183,7 +183,7 @@ Jesus! Jesus! Jesus!
 
 <aside>Quando o agonizante dá o último suspiro, diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Subvenite, Sancti Dei, occurrite, Angeli Domini, Suscipientes animam eius, Offerentes eam in conspectu Altissimi.</p>
       <p>Vinde em meu auxílio, ó Santos de Deus; vinde ao seu encontro, ó Anjos do Senhor: Recebei a sua alma: Apresentai-a ao Altíssimo.</p>
       <p>℣. Suscipiat te Christus, qui vocavit te, et in sinum Abrahae Angeli deducant te.</p>
@@ -226,7 +226,7 @@ Jesus! Jesus! Jesus!
       <p><span className="text-red-500">℟.</span> E com vosso espírito.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Tibi, Domine, commendamus animam famuli tui <span className="text-red-500">N.</span> (famulae tuae) <span className="text-red-500">N.</span> ut defunctus (-a) saeculo, tibi vivat, et, quae per fragilitatem humanae conversationis peccata commisit, tu venia misericordissimae pietatis absterge. Per Christum Dominum nostrum. R. Amen. Si defunctus fuerit sacerdos, post nomen proprium addatur vox sacerdotis.</p>

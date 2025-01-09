@@ -10,7 +10,7 @@ export default function Page081() {
       <h1>Salmo 81</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus stetit in synagóga deórum: * in médio autem deos dijúdicat.</p>
       <p>Deus está presente no conselho dos deuses: * no meio deles julga os mesmos deuses.</p>
       <p>Úsquequo judicátis iniquitátem: * et fácies peccatórum súmitis?</p>

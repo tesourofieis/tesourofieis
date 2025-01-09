@@ -10,7 +10,7 @@ export default function Page143() {
       <h1>Salmo 143</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedíctus Dóminus, Deus meus, qui docet manus meas ad prǽlium, * et dígitos meos ad bellum.</p>
       <p>Bendito seja o Senhor meu Deus, que adestra minhas mãos para a batalha, * e meus dedos para a guerra.</p>
       <p>Misericórdia mea, et refúgium meum: * suscéptor meus, et liberátor meus:</p>

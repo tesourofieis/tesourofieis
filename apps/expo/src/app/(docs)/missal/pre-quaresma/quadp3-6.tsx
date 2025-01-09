@@ -18,7 +18,7 @@ export default function PageQuadp36() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adésto, Dómine, supplicatiónibus nostris: et concéde; ut hoc sollémne jejúnium, quod animábus corporibúsque curándis salúbriter institútum est, devóto servítio celebrémus. Per Dóminum...</p>
       <p>Atendei, Senhor, às nossas súplicas e concedei-nos a graça de celebrarmos como servos devotos este solene jejum, que foi salutarmente instituído para curar as nossas almas e os nossos corpos. Por nosso Senhor...</p>
       </div>
@@ -27,7 +27,7 @@ export default function PageQuadp36() {
 
 <em>Is. 58, 9-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>Hæc dicit Dóminus Deus: Si abstúleris de médio tui caténam, et desíeris exténdere dígitum, et loqui quod non prodest. Cum effúderis esuriénti ánimam tuam, et ánimam afflíctam repléveris, oriétur in ténebris lux tua, et ténebræ tuæ erunt sicut merídies. Et réquiem tibi dabit Dóminus semper, et implébit splendóribus ánimam tuam, et ossa tua liberábit, et eris quasi hortus irríguus, et sicut fons aquárum, cujus non defícient aquæ. Et ædificabúntur in te desérta sæculórum: fundaménta generatiónis et generatiónis suscitábis: et vocáberis ædificátor sépium, avértens sémitas in quiétem. Si avérteris a sábbato pedem tuum, fácere voluntátem tuam in die sancto meo, et vocáveris sábbatum delicátum, et sanctum Dómini gloriósum, et glorificáveris eum, dum non facis vias tuas, et non invénitur volúntas tua, ut loquáris sermónem: tunc delectáberis super Dómino: et sustóllam te super altitúdines terræ, et cibábo te hereditáte Jacob, patris tui. Os enim Dómini locútum est.</p>
@@ -38,7 +38,7 @@ export default function PageQuadp36() {
 
 <em>Mc. 6, 47-56</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Marcum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Marcos.</p>
@@ -48,21 +48,21 @@ S. Marcos.</p>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, Dómine, sacrifícium, cujus te voluísti dignánter immolatióne placári: præsta, quǽsumus; ut, hujus operatióne mundáti, beneplácitum tibi nostræ mentis offerámus afféctum. Per Dóminum...</p>
       <p>Aceitai, Senhor, este sacrifício, cuja imolação quisestes que possuísse a virtude de aplacar-Vos, e permiti, Vos suplicamos, que, purificados pela sua virtude, queirais aceitar o afecto do nosso coração, como uma oblação agradável. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cœléstis vitæ múnere vegetáti, quǽsumus, Dómine: ut, quod est nobis in præsénti vita mystérium, fiat æternitátis auxílium. Per Dóminum nostrum...</p>
       <p>Agora, que fomos alimentados com o pão da vida celestial, Vos suplicamos, Senhor, permiti que este dom, que é para nós mystério nesta vida, seja nosso auxílio na eternidade. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

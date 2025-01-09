@@ -1695,7 +1695,7 @@ Quando dizemos que um Santo concedeu uma graça, queremos dizer que esse Santo o
 
       <h2>I - <em>Dos Mandamentos da Lei de Deus em geral</em></h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><p>
   A lei do Senhor, que é imaculada, converte as almas; o testemunho do Senhor é
   fiel, dá sabedoria aos pequeninos.

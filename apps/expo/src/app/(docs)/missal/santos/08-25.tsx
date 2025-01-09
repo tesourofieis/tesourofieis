@@ -16,7 +16,7 @@ export default function Page0825() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátum Ludovícum Confessórem tuum de terréno regno ad cœléstis regni glóriam transtulísti: ejus, quǽsumus, méritis et intercessióne; Regis regum Jesu Christi, Fílii tui, fácias nos esse consórtes: Qui tecum vivit et regnat...</p>
       <p>Ó Deus, que trasladastes o B. Luís, vosso Confessor, do reino terrestre para a glória do reino celestial, humildemente Vos suplicamos, pelos seus méritos e intercessão, que um dia nos façais participar da glória do Rei dos reis, Jesus Cristo, vosso Filho. Que convosco vive e reina...</p>
       </div>
@@ -25,7 +25,7 @@ export default function Page0825() {
 
 <em>Sb. 10, 10-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labores illíus. In fraude circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum jusíum non derelíquit, sed a peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant: et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus, Deus noster.</p>
@@ -36,7 +36,7 @@ export default function Page0825() {
 
 <em>Lc. 19, 12-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo quidam nóbilis ábiit in regionem longínquam accípere sibi regnum, et revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait ad illos: Negotiámini, dum vénio. Cives autem ejus óderant eum: et misérunt legatiónem post illum, dicéntes: Nólumus hunc regnáre super nos. Et factum est, ut redíret accépto regno: et jussit vocári servos, quibus dedit pecúniam, ut sciret, quantum quisque negotiátus esset. Venit autem primus, dicens: Dómine, mna tua decem mnas acquisívit. Et ait illi: Euge, bone serve, quia in módico fuísti fidélis, eris potestátem habens super decem civitátes. Et alter venit, dicens: Dómine, mna tua fecit quinque mnas. Et huic ait: Et tu esto super quinque civitátes. Et alter venit, dicens: Dómine, ecce mna tua, quam hábui repósitam in sudário: tímui enim te, quia homo austérus es: tollis, quod non posuísti, et metis, quod non seminásti. Dicit ei: De ore tuo te júdico, serve nequam. Sciébas, quod ego homo austérus sum, tollens, quod non pósui, et metens, quod non seminávi: et quare non dedísti pecúniam meam ad mensam, ut ego véniens cum usúris útique exegíssem illam? Et astántibus dixit: Auferte ab illo mnam et date illi, qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas. Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo autem, qui non habet, et, quod habet, auferétur ab eo.</p>
@@ -45,14 +45,14 @@ export default function Page0825() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, sicut beátus Ludovícus Conféssor tuus, spretis mundi oblectaméntis, soli Regi Christo placére stúduit; ita ejus orátio nos tibi reddat accéptos. Per eúndem Dóminum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, fazei que, assim como o B. Luís, vosso Confessor, desprezando as delícias do mundo só procurou agradar a Cristo-Rei, assim também a sua oração nos torne agradáveis a Vós. Pelo mesmo nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátum Confessórem tuum Ludovícum mirificásti in terris, et gloriósum in cœlis fecísti: eúndem, quǽsumus, Ecclésiæ tuæ constítue defensórem. Per Dóminum nostrum...</p>
       <p>Ó Deus, que engrandecestes na terra e glorificastes no céu o B. Luís, vosso Confessor, constituí-o, Vo-lo pedimos, defensor da vossa Igreja. Por nosso Senhor...</p>
       </div>

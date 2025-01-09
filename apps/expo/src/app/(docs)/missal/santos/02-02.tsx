@@ -42,7 +42,7 @@ export default function Page0202() {
 
       <h2>Bênção das Velas</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Domine sancte, Pater omnípotens, ætérne Deus, qui ómnia ex níhilo creásti, et jussu tuo per ópera apum hunc liquorem ad perfectionem cérei veníre fecísti: et qui hodiérna die petitiónem justi Simeónis implésti: te humíliter deprecámur; ut has candélas ad usus hóminum et sanitátem córporum et animárum, sive in terra sive in aquis, per invocatiónem tui sanctíssimi nóminis et per intercessiónem beátæ Maríæ semper Vírginis, cujus hódie festa devóte celebrántur, et per preces ómnium Sanctórum tuórum, bene <span className="cross text-red-500">✠</span> dícere et sancti <span className="cross text-red-500">✠</span> ficáre dignéris: et hujus plebis tuæ, quæ illas honorífice in mánibus desíderat portare teque cantando laudare, exáudias voces de cœlo sancto tuo et de sede majestátis tuæ: et propítius sis ómnibus clamántibus ad te, quos redemísti pretióso Sánguine Fílii tui: Qui tecum...</p>
@@ -79,7 +79,7 @@ export default function Page0202() {
 
 <em>Lc. 2, 32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lumen ad revelatiónem géntium et glóriam plebis tuæ Israël.</p>
       <p>A luz que iluminará as nações e a glória de Israel, vosso povo.</p>
       </div>
@@ -88,7 +88,7 @@ export default function Page0202() {
 
 <em>ibid., 29-31</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nunc dimíttis servum tuum, Dómine, secúndum verbum tuum in pace.</p>
       <p>Agora, Senhor, deixai ir em paz o vosso servo, segundo a vossa palavra.</p>
       <p><em>Antiph</em> Lumen...</p>
@@ -117,7 +117,7 @@ export default function Page0202() {
 
 <em>Sl. 43, 26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exsúrge, Dómine, ádjuva nos: et líbera nos propter nomen tuum. Ps. ibid., 2 Deus, áuribus nostris audívimus: patres nostri annuntiavérunt nobis. ℣. Glória Patri...</p>
       <p>Erguei-Vos, Senhor, auxiliai-nos e salvai-nos, pela honra do vosso nome. Ó Deus, ouvimos com nossos ouvidos, nossos pais contaram-nos as vossas maravilhas. ℣. Glória ao Pai...</p>
       <p>Exsúrge, Dómine...</p>
@@ -130,7 +130,7 @@ export default function Page0202() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Flectámus génua.</p>
       <p>℣. Ajoelhemos!</p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -149,14 +149,14 @@ export default function Page0202() {
 
 <em>Sl. 47, 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum nomen tuum, Deus, ita et laus tua in fines terræ: justítia plena est déxtera tua. <em>Ps. ibid., 2</em> Magnus Dóminus, et laudábilis nimis: in civitáte Dei nostri, in monte sancto ejus. ℣. Gloria Patri...</p>
       <p>Recebemos, ó Deus, a vossa misericórdia no meio do vosso templo. Assim como o vosso nome, assim os vossos louvores, ó Deus, ressoam até às extremidades da terra: a vossa dextra está cheia de justiça. <em>Sl. ibid., 2</em> O Senhor é grande e digno de todos os louvores, na cidade do nosso Deus, na sua montanha sagrada. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, majestátem tuam súpplices exorámus: ut, sicut unigénitus Fílius tuus hodiérna die cum nostræ carnis substántia in templo est præsentátus; ita nos fácias purificátis tibi méntibus præsentári. Per eúndem Dóminum...</p>
       <p>Deus omnipotente e eterno, humildemente suplicamos à vossa majestade que, assim como o vosso Filho Unigénito foi neste dia apresentado no templo na substância da nossa carne, assim também sejamos apresentados diante de Vós com nossas almas limpas. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -165,7 +165,7 @@ export default function Page0202() {
 
 <em>Ml. 3, 1-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Malachíæ Prophétæ.</p>
       <p>Lição do Profeta Malaquias.</p>
       <p>Hæc dicit Dóminus Deus: Ecce, ego mitto Angelum meum, et præparábit viam ante fáciem meam. Et statim véniet ad templum suum Dominátor, quem vos quǽritis, et Angelus testaménti, quem vos vultis. Ecce, venit, dicit Dóminus exercítuum: et quis póterit cogitáre diem advéntus ejus, et quis stabit ad vidéndum eum? Ipse enim quasi ignis conflans et quasi herba fullónum: et sedébit conflans et emúndans argéntum, et purgábit fílios Levi et colábit eos quasi aurum et quasi argéntum: et erunt Dómino offeréntes sacrifícia in justítia. Et placébit Dómino sacrifícium Juda et Jerúsalem, sicut dies sýtuli et sicut anni antíqui: dicit Dóminus omnípotens.</p>
@@ -176,7 +176,7 @@ export default function Page0202() {
 
 <em>Sl. 47, 10-11 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum nomen tuum, Deus, ita et laus tua in fines terræ. ℣. Sicut audívimus, ita et vídimus m civitáte Dei nostri, in monte sancto ejus.</p>
       <p>Recebemos, ó Deus, a vossa misericórdia no meio do vosso templo. Assim como o vosso nome, ó Deus, assim os vossos louvores ressoam até às extremidades da terra. Aquilo que havia sido anunciado, vimo-lo na cidade do nosso Deus, na sua montanha sagrada.</p>
       <p>Allelúja, allelúja. ℣. Senex Púerum portábat: Puer autem senem regébat. Allelúja.</p>
@@ -189,7 +189,7 @@ export default function Page0202() {
 
 <em>Lc. 2, 29-32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nunc dimíttis servum tuum, Dómine, secúndum verbum tuum in pace. ℣. Quia vidérunt óculi mei salutáre tuum. ℣. Quod parásti ante fáciem ómnium populórum. ℣. Lumen ad revelatiónem géntium et glóriam plebis tuæ Israël.</p>
       <p>Agora deixareis, Senhor, ir em paz o vosso servo. ℣. Pois os meus olhos já viram a vossa salvação: ℣. Que preparastes diante dos olhos de todos os povos. ℣. A luz que iluminará as nações e a glória de Israel, vosso povo.</p>
       </div>
@@ -198,7 +198,7 @@ export default function Page0202() {
 
 <em>Lc. 2, 22-32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -210,14 +210,14 @@ S. Lucas.</p>
 
 <em>Sl. 44, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum, et in sǽculum sǽculi.</p>
       <p>A graça espalhou-se nos vossos lábios; por isso abençoou-vos Deus para sempre.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Dómine, preces nostras: et, ut digna sint múnera, quæ óculis tuæ majestátis offérimus, subsídium nobis tuæ pietátis impénde. Per Dóminum...</p>
       <p>Ouvi nossas preces, Senhor; e, a fim de que as ofertas que apresentamos diante dos olhos da vossa majestade, sejam dignas, concedei-nos o auxílio da vossa misericórdia. Por nosso Senhor...</p>
       </div>
@@ -226,14 +226,14 @@ S. Lucas.</p>
 
 <em>Lc. 2, 26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Respónsum accépit Símeon a Spíritu Sancto, non visúrum se mortem, nisi vidéret Christum Dómini.</p>
       <p>Simeão recebera do Espírito Santo a revelação de que não morreria sem ver o Ungido do Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro reparatiónis nostræ munímine contulísti, intercedénte beáta María semper Vírgine, et præsens nobis remédium esse fácias et futúrum. Per Dóminum nostrum...</p>
       <p>Ó Senhor, nosso Deus, Vos suplicamos, permiti por intercessão da B. Maria, sempre Virgem, que os sacrossantos mystérios que nos concedestes, como salvaguarda da nossa regeneração, nos sirvam de remédio para o presente e para o futuro. Por nosso Senhor...</p>
       </div>

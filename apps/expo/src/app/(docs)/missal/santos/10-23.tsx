@@ -17,7 +17,7 @@ export default function Page1023() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátum Antónium Maríam Confessórem tuum atque Pontíficem, apostólicis virtútibus sublimásti, et per eum novas in Ecclésia clericórum ac vírginum famílias collegísti: concéde, quǽsumus; ut, eius dirigéntibus mónitis ac suffragántibus méritis, animárum salútem quǽrere iúgiter studeámus. Per Dóminum...</p>
       <p>Ó Deus, que embelezastes o B. António Maria, vosso Confessor e Pontífice, com as virtudes apostólicas, e por ele fundastes na vossa Igreja novas congregações de clérigos e de virgens, concedei-nos, Vos suplicamos, que, esclarecidos com seus salutares conselhos e confortados com seus exemplos, consigamos com felicidade unirmo-nos convosco. Por nosso Senhor...</p>
       </div>

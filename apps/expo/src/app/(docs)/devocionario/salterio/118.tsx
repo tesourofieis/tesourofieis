@@ -12,7 +12,7 @@ export default function Page118() {
 
       <h2>ALEPH</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beáti immaculáti in via: * qui ámbulant in lege Dómini.</p>
       <p>Bem-aventurados os imaculados no caminho: * que andam na lei do Senhor.</p>
       <p>Beáti, qui scrutántur testimónia ejus: * in toto corde exquírunt eum.</p>
@@ -33,7 +33,7 @@ export default function Page118() {
 
       <h2>BETH</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In quo córrigit adolescéntior viam suam? * In custodiéndo sermónes tuos.</p>
       <p>De que modo corrigirá o jovem o seu proceder? * Guardando as vossas palavras.</p>
       <p>In toto corde meo exquisívi te: * ne repéllas me a mandátis tuis.</p>
@@ -54,7 +54,7 @@ export default function Page118() {
 
       <h2>GHIMEL</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Retríbue servo tuo, vivífica me: * et custódiam sermónes tuos:</p>
       <p>Retribuí ao vosso servo, dai-me vida: * e guardarei as vossas palavras:</p>
       <p>Revéla óculos meos: * et considerábo mirabília de lege tua.</p>
@@ -75,7 +75,7 @@ export default function Page118() {
 
       <h2>DALETH</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adhǽsit paviménto ánima mea: * vivífica me secúndum verbum tuum.</p>
       <p>A minha alma prostrou-se por terra: * vivificai-me segundo a vossa palavra.</p>
       <p>Vias meas enuntiávi, et exaudísti me: * doce me justificatiónes tuas.</p>
@@ -96,7 +96,7 @@ export default function Page118() {
 
       <h2>HE</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Legem pone mihi, Dómine, viam justificatiónum tuárum: * et exquíram eam semper.</p>
       <p>Impõe-me por lei, ó Senhor, o caminho dos vossos decretos: * e buscá-lo-ei sempre.</p>
       <p>Da mihi intelléctum, et scrutábor legem tuam: * et custódiam illam in toto corde meo.</p>
@@ -117,7 +117,7 @@ export default function Page118() {
 
       <h2>VAU</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Et véniat super me misericórdia tua, Dómine: * salutáre tuum secúndum elóquium tuum.</p>
       <p>E venha sobre mim a vossa misericórdia, ó Senhor: * e a vossa salvação, segundo a vossa palavra.</p>
       <p>Et respondébo exprobrántibus mihi verbum: * quia sperávi in sermónibus tuis.</p>
@@ -138,7 +138,7 @@ export default function Page118() {
 
       <h2>ZAIN</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Memor esto verbi tui servo tuo, * in quo mihi spem dedísti.</p>
       <p>Lembrai-Vos da promessa que fizestes ao vosso servo, * com a qual me destes esperança.</p>
       <p>Hæc me consoláta est in humilitáte mea: * quia elóquium tuum vivificávit me.</p>
@@ -159,7 +159,7 @@ export default function Page118() {
 
       <h2>HETH</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pórtio mea, Dómine, * dixi custodíre legem tuam.</p>
       <p>A minha porção, ó Senhor, * é guardar a vossa lei, disse eu.</p>
       <p>Deprecátus sum fáciem tuam in toto corde meo: * miserére mei secúndum elóquium tuum.</p>
@@ -180,7 +180,7 @@ export default function Page118() {
 
       <h2>TETH</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bonitátem fecísti cum servo tuo, Dómine, * secúndum verbum tuum.</p>
       <p>Tendes usado de bondade com vosso servo, ó Senhor, * segundo a vossa palavra.</p>
       <p>Bonitátem, et disciplínam, et sciéntiam doce me: * quia mandátis tuis crédidi.</p>
@@ -201,7 +201,7 @@ export default function Page118() {
 
       <h2>JOD</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Manus tuæ fecérunt me, et plasmavérunt me: * da mihi intelléctum, et discam mandáta tua.</p>
       <p>Vossas mãos fizeram-me e formaram-me: * dai-me inteligência e aprenderei os vossos mandamentos.</p>
       <p>Qui timent te vidébunt me, et lætabúntur: * quia in verba tua supersperávi.</p>
@@ -222,7 +222,7 @@ export default function Page118() {
 
       <h2>CAPH</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Defécit in salutáre tuum ánima mea: * et in verbum tuum supersperávi.</p>
       <p>Minha alma desfaleceu à espera da vossa salvação: * e na vossa palavra tenho confiado.</p>
       <p>Defecérunt óculi mei in elóquium tuum, * dicéntes: Quando consoláberis me?</p>
@@ -243,7 +243,7 @@ export default function Page118() {
 
       <h2>LAMED</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In ætérnum, Dómine, * verbum tuum pérmanet in cælo.</p>
       <p>Para sempre, ó Senhor, * permanece no céu a vossa palavra.</p>
       <p>In generatiónem et generatiónem véritas tua: * fundásti terram, et pérmanet.</p>
@@ -264,7 +264,7 @@ export default function Page118() {
 
       <h2>MEM</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quómodo diléxi legem tuam, Dómine? * tota die meditátio mea est.</p>
       <p>O quanto amo a vossa lei, ó Senhor! * É a minha meditação todo o dia.</p>
       <p>Super inimícos meos prudéntem me fecísti mandáto tuo: * quia in ætérnum mihi est.</p>
@@ -285,7 +285,7 @@ export default function Page118() {
 
       <h2>NUN</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lucérna pédibus meis verbum tuum, * et lumen sémitis meis.</p>
       <p>Lanterna para os meus passos é a vossa palavra * e luz para os meus caminhos.</p>
       <p>Jurávi, et státui * custodíre judícia justítiæ tuæ.</p>
@@ -306,7 +306,7 @@ export default function Page118() {
 
       <h2>SAMECH</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Iníquos ódio hábui: * et legem tuam diléxi.</p>
       <p>Odiei os iníquos: * e amei a vossa lei.</p>
       <p>Adjútor et suscéptor meus es tu: * et in verbum tuum supersperávi.</p>
@@ -327,7 +327,7 @@ export default function Page118() {
 
       <h2>AIN</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Feci judícium et justítiam: * non tradas me calumniántibus me.</p>
       <p>Tenho feito juízo e a justiça: * aos que me caluniam me não entregues.</p>
       <p>Súscipe servum tuum in bonum: * non calumniéntur me supérbi.</p>
@@ -348,7 +348,7 @@ export default function Page118() {
 
       <h2>PHE</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mirabília testimónia tua: * ídeo scrutáta est ea ánima mea.</p>
       <p>Os vossos testemunhos são admiráveis: * por isso os tem investigado a minha alma.</p>
       <p>Declarátio sermónum tuórum illúminat: * et intelléctum dat párvulis.</p>
@@ -369,7 +369,7 @@ export default function Page118() {
 
       <h2>SADE</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus es, Dómine: * et rectum judícium tuum.</p>
       <p>Vós sois justo, ó Senhor: * e o vosso juízo é recto.</p>
       <p>Mandásti justítiam testimónia tua: * et veritátem tuam nimis.</p>
@@ -390,7 +390,7 @@ export default function Page118() {
 
       <h2>COPH</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Clamávi in toto corde meo, exáudi me, Dómine: * justificatiónes tuas requíram.</p>
       <p>Clamei de todo meu coração, ouvi-me, ó Senhor: * buscarei as vossas justificações.</p>
       <p>Clamávi ad te, salvum me fac: * ut custódiam mandáta tua.</p>
@@ -411,7 +411,7 @@ export default function Page118() {
 
       <h2>RES</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vide humilitátem meam, et éripe me: * quia legem tuam non sum oblítus.</p>
       <p>Olhai para o meu abatimento e livrai-me: * pois me não tenho esquecido da vossa lei.</p>
       <p>Júdica judícium meum, et rédime me: * propter elóquium tuum vivífica me.</p>
@@ -432,7 +432,7 @@ export default function Page118() {
 
       <h2>SIN</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Príncipes persecúti sunt me gratis: * et a verbis tuis formidávit cor meum.</p>
       <p>Os príncipes perseguiram-me sem causa: * porém, o meu coração temeu as vossas palavras.</p>
       <p>Lætábor ego super elóquia tua: * sicut qui invénit spólia multa.</p>
@@ -453,7 +453,7 @@ export default function Page118() {
 
       <h2>TAU</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Appropínquet deprecátio mea in conspéctu tuo, Dómine: * juxta elóquium tuum da mihi intelléctum.</p>
       <p>Chegue a minha súplica à vossa presença, ó Senhor: * dai-me entendimento segundo a vossa palavra.</p>
       <p>Intret postulátio mea in conspéctu tuo: * secúndum elóquium tuum éripe me.</p>

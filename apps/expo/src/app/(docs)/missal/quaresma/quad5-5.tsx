@@ -14,14 +14,14 @@ export default function PageQuad55() {
 
 <em>Sl. 30, 10, 16 & 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de mánibus inimicórum meórum et a persequéntibus me: Dómine, non confúndar, quóniam invocávi te. <em>Ps. ib., 2</em> In te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua libera me.</p>
       <p>Tende misericórdia de mim, Senhor, pois estou aflito; salvai-me e livrai-me das mãos dos meus inimigos e perseguidores. Senhor, não serei confundido, porque Vos invoquei. <em>Sl. ib., 2</em> Confio em Vós, Senhor, não serei para sempre confundido; livrai-me segundo a vossa justiça.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut peccáta nostra castigatióne voluntária cohibéntes, temporáliter pótius macerémur, quam súppliciis deputémur ætérnis. Per Dóminum...</p>
       <p>Infundi benigno, Senhor, Vos suplicamos, a vossa graça em nossos corações, para que, punindo-nos voluntariamente por causa dos nossos pecados, evitemos com estas penas temporais a condenação aos castigos eternos. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad55() {
 
 <em>Jr. 17, 13-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Jeremíæ Prophétæ.</p>
       <p>Lição do Profeta Jeremias.</p>
       <p>In diébus illis: Dixit Jeremías: Dómine, omnes, qui te derelínquunt, confundéntur: recedéntes a te in terra scribéntur: quóniam dereliquérunt venam aquárum vivéntium Dóminum. Sana me. Dómine, et sanábor: salvum me fac, et salvus ero: quóniam laus mea tu es. Ecce, ipsi dicunt ad me: Ubi est verbum Dómini? Véniat. Et ego non sum turbátus, te pastórem sequens: et diem hóminis non desiderávi, tu scis. Quod egréssum est de lábiis meis, rectum in conspéctu tuo fuit. Non sis tu mihi formídini, spes mea tu in die afflictiónis. Confundántur, qui me persequúntur, et non confúndar ego: páveant illi, et non páveam ego. Induc super eos diem afflictiónis, et dúplici contritióne cóntere eos, Dómine, Deus noster.</p>
@@ -41,7 +41,7 @@ export default function PageQuad55() {
 
 <em>Sl. 34, 20 & 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pacífice loquebántur mihi inimíci mei: et in ira molésti erant mihi. ℣. Vidísti, Dómine, ne síleas: ne discédas a me.</p>
       <p>Os meus inimigos falavam-me aparentemente com palavras de paz; mas na sua ira meditavam perfídias contra mim. Vós bem o vistes, Senhor: não sejais insensível, não Vos afasteis de mim.</p>
       </div>
@@ -55,7 +55,7 @@ export default function PageQuad55() {
 
 <em>Jo. 11, 47-54</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Collegérunt pontífices et pharisǽi concílium advérsus Jesum, et dicébant: Quid fácimus, quia hic homo multa signa facit? Si dimíttimus eum sic, omnes credent in eum: et vénient Románi, et tollent nostrum locum et gentem. Unus autem ex ipsis, Cáiphas nómine, cum esset póntifex anni illíus, dixit eis: Vos nescítis quidquam, nec cogitátis, quia expédit vobis, ut unus moriátur homo pro pópulo, et non tota gens péreat. Hoc autem a semetípso non dixit: sed cum esset póntifex anni illíus, prophetávit, quod Jesus moritúrus erat pro gente, et non tantum pro gente, sed ut fílios Dei, qui erant dispérsi, congregáret in unum. Ab illo ergo die cogitavérunt, ut interfícerent eum. Jesus ergo jam non in palam ambulábat apud Judǽos: sed ábiit in regiónem juxta desértum, in civitátem, quæ dícitur Ephrem, et ibi morabátur cum discípulis suis.</p>
@@ -66,14 +66,14 @@ export default function PageQuad55() {
 
 <em>Sl. 118, 12, 121 & 42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedíctus es, Dómine, doce me justificatiónes tuas: et non tradas calumniántibus me supérbis: et respondébo exprobrántibus mihi verbum.</p>
       <p>Bendito sois, Senhor. Ensinai-me a conhecer as vossas leis. Não me entregueis àqueles que me perseguem: e eu saberei responder àqueles que me insultam.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta nobis, miséricors Deus: ut digne tuis servíre semper altáribus mereámur; et eórum perpétua participatióne salvári. Per Dóminum nostrum...</p>
       <p>Ó Deus misericordioso, concedei-nos a graça de servirmos sempre dignamente os vossos altares, a fim de que, participando perpetuamente deles, possamos salvar-nos. Por nosso Senhor...</p>
       </div>
@@ -82,21 +82,21 @@ export default function PageQuad55() {
 
 <em>Sl. 26, 12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ne tradíderis me. Dómine, in animas persequéntium me: quóniam insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.</p>
       <p>Senhor, não me abandoneis ao ódio dos que me perseguem, quando se levantam contra mim com testemunhos iníquos; pois a iniquidade contradiz-se a si própria.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et nóxia semper a nobis cuncta depéllat. Per Dóminum...</p>
       <p>Que nos não desampare, Senhor, a protecção do sacramento agora recebido, e que para sempre afaste de nós todos os males. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

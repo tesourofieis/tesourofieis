@@ -10,7 +10,7 @@ export default function Page082() {
       <h1>Salmo 82</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, quis símilis erit tibi? * Ne táceas, neque compescáris, Deus.</p>
       <p>Ó Deus, quem a Vós será semelhante? * Não silenciais, ó Deus, nem Vos detenhais.</p>
       <p>Quóniam ecce inimíci tui sonuérunt: * et qui odérunt Te extulérunt caput.</p>

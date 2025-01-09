@@ -10,7 +10,7 @@ export default function Page062() {
       <h1>Salmo 62</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, Deus meus, * ad Te de luce vígilo.</p>
       <p>Ó Deus, ó meu Deus, * a Vós vigio desde a aurora.</p>
       <p>Sitívit in Te ánima mea, * quam multiplíciter tibi caro mea.</p>

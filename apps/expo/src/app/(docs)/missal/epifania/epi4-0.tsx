@@ -14,14 +14,14 @@ export default function PageEpi40() {
 
 <em>Sl. 96, 7-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judae. <em>Ps. ibid., 1</em> Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. ℣. Gloria Patri...</p>
       <p>Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião: e rejubilou: e as filhas de Judá exultaram de alegria. <em>Sl. ibid., 1</em> O Senhor reinou: alegre-se a terra e as suas muitas ilhas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos, in tantis perículis constitútos, pro humána scis fragilitáte non posse subsístere: da nobis salútem mentis et córporis; ut ea, quæ pro peccátis nostris pátimur, te adjuvánte vincámus. Per Dóminum...</p>
       <p>Ó Deus, que conheceis não poder a fraqueza humana subsistir no meio de tantos perigos que nos cercam, concedei-nos a saúde da alma e do corpo, a fim de que com vosso auxílio possamos vencer os males que devemos sofrer em castigo dos pecados. Por nosso Senhor Jesus Cristo, vosso Filho, que...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageEpi40() {
 
 <em>Rm. 13, 8-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui enim díligit próximum, legem implévit. Nam: Non adulterábis, Non occídes, Non furáberis, Non falsum testimónium dices, Non concupísces: et si quod est áliud mandátum, in hoc verbo instaurátur: Díliges próximum tuum sicut teípsum. Diléctio próximi malum non operátur. Plenitúdo ergo legis est diléctio.</p>
@@ -41,7 +41,7 @@ export default function PageEpi40() {
 
 <em>Sl. 101, 16-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam. ℣. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua.</p>
       <p>As nações temerão o vosso nome, Senhor; e todos os reis da terra contemplarão a vossa glória. ℣. Pois o Senhor reedificou Sião: e manifestar-se-á aí na sua majestade.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 96, 1</em> Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PageEpi40() {
 
 <em>Mt. 8, 23-27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Ascendénte Jesu in navículam, secúti sunt eum discípuli ejus: et ecce, motus magnus factus est in mari, ita ut navícula operirétur flúctibus, ipse vero dormiébat. Et accessérunt ad eum discípuli ejus, et suscitavérunt eum, dicéntes: Dómine, salva nos, perímus. Et dicit eis Jesus: Quid tímidi estis, módicæ fídei? Tunc surgens, imperávit ventis et mari, et facta est tranquíllitas magna. Porro hómines miráti sunt, dicéntes: Qualis est hic, quia venti et mare obœdiunt ei?</p>
@@ -63,14 +63,14 @@ export default function PageEpi40() {
 
 <em>Sl. 117, 16 & 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.</p>
       <p>A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me. Não morrerei: viverei e narrarei os prodígios do Senhor.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum fragilitátem nostram ab omni malo purget semper et múniat. Per Dóminum...</p>
       <p>Vos suplicamos, fazei que a hóstia oferecida neste sacrifício livre a nossa fraqueza de todo o mal e a fortifique para o futuro. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function PageEpi40() {
 
 <em>Lc. 4, 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mirabántur omnes de his, quæ procedébant de ore Dei.</p>
       <p>Todos estavam admirados das palavras que saíam da boca de Deus.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et cœléstibus semper instáurent aliméntis. Per Dóminum...</p>
       <p>Ó Deus, que estes vossos dons nos afastem dos gozos terrenos, e nos restaurem com seu alimento celestial. Por nosso Senhor Jesus Cristo, vosso Filho, que...</p>
       </div>

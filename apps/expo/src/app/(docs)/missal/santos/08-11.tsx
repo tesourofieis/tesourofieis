@@ -17,7 +17,7 @@ export default function Page0811() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctórum Martyrum tuórum Tiburtii et Susánnæ nos, Dómine, fóveant continuáta præsídia: quia non désinis propítius intuéri; quos tálibus auxíliis concésseris adjuvári. Per Dóminum...</p>
       <p>Permiti, Senhor, que nos favoreça o contínuo auxílio dos vossos Santos Mártires Tibúrcio e Susana, pois não podeis deixar de acolher propiciamente aqueles a quem concedeis o socorro de tal protecção. Por nosso Senhor...</p>
       </div>
@@ -31,14 +31,14 @@ export default function Page0811() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adésto, Dómine, précibus pópuli tui, adésto munéribus: ut, quæ sacris sunt obláta mystériis, tuórum tibi pláceant intercessióne Sanctórum. Per Dóminum...</p>
       <p>Atendei, Senhor, às preces do vosso povo e recebei as suas ofertas, a fim de que, pela intercessão dos vossos Santos Mártires, a oblação destes mystérios Vos seja agradável. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súmpsimus, Dómine, pignus redemptiónis ætérnæ: quod sit nobis, quǽsumus, interveniéntibus sanctis Martýribus tuis, vitæ præséntis auxílium páriter et futúræ. Per Dóminum...</p>
       <p>Recebemos, Senhor, o penhor da eterna redenção; e permiti, pela intercessão dos vossos Santos Mártires, que nos sirva de auxílio, tanto na vida presente, como na futura. Por nosso Senhor...</p>
       </div>

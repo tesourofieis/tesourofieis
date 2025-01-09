@@ -10,7 +10,7 @@ export default function Page021() {
       <h1>Salmo 21</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, Deus meus, réspice in me: quare me dereliquísti? * longe a salúte mea verba delictórum meórum.</p>
       <p>Deus, ó meu Deus, olhai para mim, porque me abandonastes? * Os clamores dos meus pecados afastam de mim a salvação.</p>
       <p>Deus meus, clamábo per diem, et non exáudies: * et nocte, et non ad insipiéntiam mihi.</p>

@@ -16,7 +16,7 @@ export default function Page0204() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum: da pópulo tuo beáti Andréæ Confessóris tui atque Pontíficis ita sequi vestígia; ut assequátur et prǽmia. Per Dóminum...</p>
       <p>Ó Deus, que na vossa Igreja apresentais constantemente novos exemplos de virtudes, concedei ao vosso povo que de tal modo siga os vestígios do B. André, vosso Confessor e Pontífice, que possa alcançar o mesmo prémio. Por nosso Senhor...</p>
       </div>

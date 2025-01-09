@@ -10,7 +10,7 @@ export default function PageResponsorio() {
       <h1>Responsório de Santo António</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Si quæris mirácula, mors, error, calámitas, dæmon, lepra fúgiunt, ægri surgunt sani.</p>
       <p>Se milagres procurais, a morte, o erro, a calamidade, o demónio, e a lepra fogem, os enfermos saudáveis se levantam.</p>
       <p><em>Ant.</em> Cedunt mare, víncula: membra, resque pérditas, pétunt et accípiunt juvénes et cani.</p>

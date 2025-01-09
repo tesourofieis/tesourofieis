@@ -26,7 +26,7 @@ export default function Page0614() {
 
 <em>Lc. 14, 26-35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus. Et qui non bájulat crucem suam, et venit post me, non potest meus esse discípulus. Quis enim ex vobis volens turrim ædificáre, non prius sedens cómputat sumptus, qui necessárii sunt, si hábeat ad perficiéndum; ne, posteáquam posúerit fundaméntum, et non potúerit perfícere, omnes, qui vident, incípiant illúdere ei, dicéntes: Quia hic homo cœpit ædificáre, et non pótuit consummáre? Aut quis rex iturus commíttere bellum advérsus álium regem, non sedens prius cógitat, si possit cum decem mílibus occúrrere ei, qui cum vigínti mílibus venit ad se? Alióquin, adhuc illo longe agénte, legatiónem mittens, rogat ea, quæ pacis sunt. Sic ergo omnis ex vobis, qui non renúntiat ómnibus, quæ póssidet, non potest meus esse discípulus. Bonum est sal. Si autem sal evanúerit, in quo condiétur? Neque in terram neque in sterquilínium útile est, sed foras mittétur. Qui habet aures audiéndi, áudiat.</p>

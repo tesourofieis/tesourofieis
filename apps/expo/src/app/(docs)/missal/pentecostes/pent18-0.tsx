@@ -14,14 +14,14 @@ export default function PagePent180() {
 
 <em>Ecl. 36, 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur: exáudi preces servi tui et plebis tuæ Israël. <em>Ps. 121, 1</em> Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. ℣. Gloria Patri...</p>
       <p>Dai paz, Senhor, àqueles que em Vós esperam, a fim de que os vossos Profetas sejam julgados fiéis: Ouvi as preces de Israel, vosso servo e vosso povo. <em>Sl. 121, 1</em> Alegrei-me com aqueles que me disseram estas palavras: iremos para a casa do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dírigat corda nostra, quǽsumus, Dómine, tuæ miseratiónis operátio: quia tibi sine te placére non póssumus. Per Dóminum...</p>
       <p>Dignai-Vos, Senhor, Vos imploramos, dirigir os nossos corações segundo as inspirações da vossa misericórdia, pois sem Vós não podemos agradar-Vos. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent180() {
 
 <em>1 Cor. 1, 4-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Grátias ago Deo meo semper pro vobis in grátia Dei, quæ data est vobis in Christo Jesu: quod in ómnibus dívites facti estis in illo, in omni verbo et in omni sciéntia: sicut testimónium Christi confirmátum est in vobis: ita ut nihil vobis desit in ulla grátia, exspectántibus revelatiónem Dómini nostri Jesu Christi, qui et confirmábit vos usque in finem sine crímine, in die advéntus Dómini nostri Jesu Christi.</p>
@@ -41,7 +41,7 @@ export default function PagePent180() {
 
 <em>Sl. 121, 1 & 7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. ℣. Fiat pax in virtúte tua: et abundántia in túrribus tuis.</p>
       <p>Alegro-me com aqueles que me disseram estas palavras: iremos para a casa do Senhor. ℣. Que a paz reine nas tuas fortalezas e a abundância nos teus palácios.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 101, 16</em> Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent180() {
 
 <em>Mt. 9, 1-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Ex. 24, 4 & 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctificávit Móyses altáre Dómino, ófferens super illud holocáusta et ímmolans víctimas: fecit sacrifícium vespertínum in odórem suavitátis Dómino Deo, in conspéctu filiórum Israël.</p>
       <p>Moisés consagrou um altar ao Senhor, sobre o qual ofereceu holocaustos e imolou vítimas: e na presença dos filhos de Israel celebrou o sacrifício da tarde em odor de suavidade ao Senhor.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos, per hujus sacrifícii veneránda commércia, uníus summæ divinitátis partícipes éfficis: præsta, quǽsumus; ut, sicut tuam cognóscimus veritátem, sic eam dignis móribus assequámur. Per Dóminum...</p>
       <p>Ó Deus, que, pela augusta mudança que este sacrifício estabelece entre Vós e nós, nos fazeis participantes da vossa divindade una e soberana, permiti, Vos imploramos, que, conhecendo a vossa verdade, mostremos possuí-la nos nossos costumes dignos. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Sl. 95, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tóllite hóstias, et introíte in átria ejus: adoráte Dóminum in aula sancta ejus.</p>
       <p>Trazei vossas hóstias e entrai nos átrios do Senhor: adorai o Senhor no seu santo templo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Grátias tibi reférimus, Dómine, sacro múnere vegetáti: tuam misericórdiam deprecántes; ut dignos nos ejus participatióne perfícias. Per Dóminum...</p>
       <p>Vos damos graças, Senhor, por nos haverdes alimentado com o sacratíssimo dom; e imploramos da vossa misericórdia que nos torneis dignos desta participação. Por nosso Senhor...</p>
       </div>

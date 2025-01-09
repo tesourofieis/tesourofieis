@@ -12,14 +12,14 @@ export default function Page1101() {
 
       <h3>Intróito</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre Sanctórum ómnium: de quorum sollemnitáte gaudent Angeli et colláudant Fílium Dei. <em>Ps. 32, 1</em> Exsultáte, justi, in Dómino: rectos decet collaudátio. ℣. Gloria Patri...</p>
       <p>Alegremo-nos todos no Senhor, neste dia em que celebramos a festa em honra de Todos os Santos, de cuja solenidade se regozijam os Anjos, louvando unissonamente o Filho de Deus. <em>Sl. 32, 1</em> Aclamai o Senhor, ó justos; pois é aos que possuem o coração recto que pertence louvar o Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotensns sempitérne Deus, qui nos ómnium Sanctórum tuórum mérita sub una tribuísti celebritáte venerári: quǽsumus; ut desiderátam nobis tuæ propitiatiónis abundántiam, multiplicátis intercessóribus, largiáris. Per Dóminum...</p>
       <p>Omnipotente e eterno Deus, que nos permitistes a graça de celebrar em uma só festividade os méritos de todos vossos Santos, concedei-nos, Vos rogamos, que, assistidos de tão numerosos intercessores, alcancemos cada vez mais a abundância tão desejada das vossas graças. Por nosso Senhor...</p>
       </div>
@@ -28,7 +28,7 @@ export default function Page1101() {
 
 <em>Ap. 7, 2-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Apocalýpsis beáti Joánnis Apóstoli.</p>
       <p>Lição do Livro do Apocalipse do B. Ap.º João.</p>
       <p>In diébus illis: Ecce, ego Joánnes vidi álterum Angelum ascendéntem ab ortu solis, habéntem signum Dei vivi: et clamávit voce magna quátuor Angelis, quibus datum est nocére terræ et mari, dicens: Nolíte nocére terræ et mari neque arbóribus, quoadúsque signémus servos Dei nostri in fróntibus eórum. Et audívi númerum signatórum, centum quadragínta quátuor mília signáti, ex omni tribu filiórum Israël, Ex tribu Juda duódecim mília signáti. Ex tribu Ruben duódecim mília signáti. Ex tribu Gad duódecim mília signati. Ex tribu Aser duódecim mília signáti. Ex tribu Néphthali duódecim mília signáti. Ex tribu Manásse duódecim mília signáti. Ex tribu Símeon duódecim mília signáti. Ex tribu Levi duódecim mília signáti. Ex tribu Issachar duódecim mília signati. Ex tribu Zábulon duódecim mília signáti. Ex tribu Joseph duódecim mília signati. Ex tribu Bénjamin duódecim mília signáti. Post hæc vidi turbam magnam, quam dinumeráre nemo póterat, ex ómnibus géntibus et tríbubus et pópulis et linguis: stantes ante thronum et in conspéctu Agni, amícti stolis albis, et palmæ in mánibus eórum: et clamábant voce magna, dicéntes: Salus Deo nostro, qui sedet super thronum, et Agno. Et omnes Angeli stabant in circúitu throni et seniorum et quatuor animalium: et ceciderunt in conspéctu throni in fácies suas et adoravérunt Deum, dicéntes: Amen. Benedíctio et cláritas et sapiéntia et gratiárum actio, honor et virtus et fortitúdo Deo nostro in sǽcula sæculórum. Amen.</p>
@@ -39,7 +39,7 @@ export default function Page1101() {
 
 <em>Sl. 33, 10 & 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Timéte Dóminum, omnes Sancti ejus: quóniam nihil deest timéntibus eum. ℣. Inquiréntes autem Dóminum, non defícient omni bono.</p>
       <p>Temei o Senhor, ó vós, que sois os seus Anjos; pois àqueles que O temem nada faltará. ℣. Aqueles que procuram o Senhor não serão privados de nenhum bem.</p>
       <p>Allelúja, allelúja. ℣. <em>Matth. 11, 28</em> Veníte ad me, omnes, qui laborátis et oneráti estis: et ego refíciam vos. Allelúja.</p>
@@ -50,7 +50,7 @@ export default function Page1101() {
 
 <em>Mt. 5, 1-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Videns Jesus turbas, ascéndit in montem, et cum sedísset, accessérunt ad eum discípuli ejus, et apériens os suum, docébat eos, dicens: Beáti páuperes spíritu: quóniam ipsorum est regnum cœlórum. Beáti mites: quóniam ipsi possidébunt terram. Beáti, qui lugent: quóniam ipsi consolabúntur. Beáti, qui esúriunt et sítiunt justítiam: quóniam ipsi saturabúntur. Beáti misericórdes: quóniam ipsi misericórdiam consequéntur. Beáti mundo corde: quóniam ipsi Deum vidébunt. Beáti pacífici: quóniam fílii Dei vocabúntur. Beáti, qui persecutiónem patiúntur propter justítiam: quóniam ipsorum est regnum cælórum. Beáti estis, cum maledíxerint vobis, et persecúti vos fúerint, et dixérint omne malum advérsum vos, mentiéntes, propter me: gaudéte et exsultáte, quóniam merces vestra copiósa est in cœlis.</p>
@@ -61,14 +61,14 @@ export default function Page1101() {
 
 <em>Sb. 3, 1, 2 & 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace, allelúja.</p>
       <p>As almas dos justos estão nas mãos de Deus: e o tormento da malícia as não tocará. Aos olhos dos insensatos pareciam quase a morrer, todavia, agora, estão na paz, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro cunctórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur. Per Dóminum nostrum...</p>
       <p>Vos oferecemos, Senhor, estes dons da nossa piedade; e, em atenção aos merecimentos dos vossos justos, dignai-Vos aceitá-los; e pela vossa misericórdia fazei que nos sejam salutares. Por nosso Senhor...</p>
       </div>
@@ -77,14 +77,14 @@ export default function Page1101() {
 
 <em>Mt. 5, 8-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beáti mundo corde, quóniam ipsi Deum vidébunt; beáti pacífici, quóniam filii Dei vocabúntur: beáti, qui persecutiónem patiúntur propter justítiam, quóniam ipsórum est regnum cœlórum.</p>
       <p>Bem-aventurados os que possuem o coração puro, porque verão a Deus; bem-aventurados os pacíficos, porque serão chamados filhos de Deus; bem-aventurados os que sofrem perseguição por amor da justiça, porque o reino do céu lhes pertence.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, Dómine, fidélibus pópulis ómnium Sanctórum semper veneratióne lætári: et eórum perpétua supplicatióne muníri. Per Dóminum...</p>
       <p>Senhor, Vos rogamos, fazei que os vossos povos fiéis venerem sempre com alegria os vossos Santos e sejam sempre protegidos pela sua intercessão. Por nosso Senhor...</p>
       </div>

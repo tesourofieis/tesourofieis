@@ -21,7 +21,7 @@ export default function Page0730() {
 
       <h3>Oração</h3>
 
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           Deus, qui sanctis tuis Abdon et Sennen ad hanc glóriam veniéndi
           copiósum munus grátiæ contulísti: da fámulis tuis suorum véniam
@@ -41,7 +41,7 @@ export default function Page0730() {
 
       <em>2 Cor. 6, 4-10</em>
 
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>Lectio Epístolæ beati Pauli Apostoli ad Corinthios.</p>
         <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
         <p>
@@ -79,7 +79,7 @@ export default function Page0730() {
 
       <em>Ex. 15, 11</em>
 
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           Gloriosus Deus in Sanctis suis: mirábilis in majestáte, fáciens
           prodígia. ℣. <em>ibid., 6</em> Déxtera tua, Dómine, glorificáta est in
@@ -104,7 +104,7 @@ export default function Page0730() {
 
       <em>Mt. 5, 1-12</em>
 
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           <span className="cross text-red-500">✠</span> Sequéntia sancti
           Evangélii secúndum Matthǽum.
@@ -148,7 +148,7 @@ export default function Page0730() {
 
       <h3>Secreta</h3>
 
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           Hæc hóstia, quǽsumus, Dómine, quam sanctórum Mártyrum tuórum natalítia
           recenséntes offérimus: et víncula nostræ pravitátis absolvat, et tuæ
@@ -166,7 +166,7 @@ export default function Page0730() {
 
       <em>Sl. 78, 2 & 11</em>
 
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           Posuérunt mortália servórum tuórum, Dómine, escas volatílibus cœli,
           carnes Sanctórum tuórum béstiis terræ: secúndum magnitúdinem bráchii
@@ -182,7 +182,7 @@ export default function Page0730() {
 
       <h3>Postcomúnio</h3>
 
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           Per hujus, Dómine, operationem mystérii, et vitia nostra purgéntur:
           et, intercedéntibus sanctis Martyribus tuis Abdon et Sennen, justa

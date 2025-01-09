@@ -16,7 +16,7 @@ export default function Page0116() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut beáti Marcélli Mártyris tui atque Pontíficis méritis adjuvémur, cujus passióne lætámur. Per Dóminum nostrum...</p>
       <p>Senhor, dignai-Vos ouvir clementemente as preces do vosso povo, a fim de que sejamos auxiliados pelos méritos do B. Marcelo, vosso Pontífice e Mártir, cujo martírio festejamos. Por nosso Senhor...</p>
       </div>

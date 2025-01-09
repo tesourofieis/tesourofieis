@@ -14,14 +14,14 @@ export default function PagePaixao() {
 
 <em>Fl. 2, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Humiliávit semetípsum Dóminus Jesus Christus usque ad mortem, mortem autem crucis: propter quod et Deus exaltávit illum, et donávit illi nomen, quod est super omne nomen. (T. P. Allelúja, allelúja.) <em>Ps. 88, 2</em> Misericórdias Dómini in ætérnum cantábo: in generatiónem et generatiónem. ℣. Gloria Patri...</p>
       <p>O Senhor Jesus Cristo humilhou-se a si próprio até à morte, e morte na Cruz; pelo que Deus o exaltou e Lhe deu um nome que é superior a todos os nomes. (T. P. Aleluia, aleluia.) <em>Sl. 88, 2</em> De geração em geração cantarei eternamente as misericórdias do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine Jesu Christe, qui de cœlis ad terram de sinu Patris descendísti, et sánguinem tuum pretiósum in remissiónem peccatórum nostrórum fudísti: te humíliter deprecámur; ut in die judícii, ad déxteram tuam, audíre mereámur: Veníte, benedícti: Qui cum eodem Deo Patre et Spíritu Sancto vivis et regnas Deus, per ómnia sǽcula sæculórum...</p>
       <p>Senhor Jesus Cristo, que descestes do céu do seio do eterno Pai e espalhastes o vosso preciosíssimo Sangue em remissão dos nossos pecados, Vos pedimos humildemente, concedei-nos a graça, de, no dia de Juízo, nos encontrarmos colocados à vossa dextra para que mereçamos ouvir-Vos dizer: «Vinde, benditos do meu Pai». Ó Vós, que viveis e...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePaixao() {
 
 <em>Zc. 12, 10-11; 13, 6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Zacharíæ Prophétæ.</p>
       <p>Lição do Profeta Zacarias.</p>
       <p>Hæc dicit Dóminus: Effúndam super domum David et super habitatóres Jerúsalem spíritum grátiæ et precum: et aspícient ad me, quem confixérunt: et plangent eum planctu quasi super unigénitum, et dolébunt super eum, ut doléri solet in morte primogéniti. In die illa magnus erit planctus in Jerúsalem, et dicétur: Quid sunt plagæ istæ in médio mánuum tuárum? Et dicet: His plagátus sum in domo eórum, qui diligébant me. Frámea, suscitáre super pastórem meum, et super virum cohæréntem mihi, dicit Dóminus exercítuum: pércute pastórem, et dispergéntur oves: ait Dóminus omnípotens.</p>
@@ -41,7 +41,7 @@ export default function PagePaixao() {
 
 <em>Sl. 68,21-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Impropérium exspectávi cor meum et misériam: et sustínui, qui simul mecum contristarétur, et non fuit: consolántem me quæsívi, et non invéni. ℣. Dedérunt in escam meam fel, et in siti mea potavérunt me acéto.</p>
       <p>O meu coração não encontra senão impropérios e misérias. Tenho esperado quem tenha compaixão de mim, mas não apareceu ninguém! Procurei quem me consolasse, mas encontrei ninguém. ℣. Deram-me, fel para meu alimento: e, quando tinha sede, deram-me vinagre a beber.</p>
       <p>Allelúja, allelúja. ℣. Ave, Rex noster: tu solus nostros es miserátus erróres: Patri obǿdiens, ductus es ad crucifigéndum, ut agnus mansúetus ad occisiónem. Allelúja.</p>
@@ -56,14 +56,14 @@ export default function PagePaixao() {
 
 <em>Is. 53, 4-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vere languóres nostros ipse tulit et dolóres nostros ipse portávit. ℣. Et nos putávimus eum quasi leprósum et percússum a Deo et humiliátum. ℣. Ipse autem vulnerátus est propter iníquitates nostras, attrítus est propter scélera nostra. ℣. Disciplína pacis nostræ super eum: et livóre ejus sanáti sumus.</p>
       <p>Verdadeiramente tomou sobre si as nossas enfermidades e sofreu as nossas dores. ℣. Nós julgávamo-l’O como um leproso, como um homem ferido por Deus e humilhado pelos seus castigos. ℣. Porém Ele, foi ferido por causa das nossas iniquidades; foi cheio de dores por causa dos nossos crimes. ℣. Ele sofreu o castigo que nos alcançou a paz: fomos curados com seus vergões de sangue.</p>
       </div>
 
 <aside>No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. Ave, Rex noster: tu solus nostros es miserátus erróres: Patri obǿdiens, ductus es ad crucifigéndum, ut agnus mansúetus ad occisiónem. Allelúja. ℣. Tibi glória, hosánna: tibi triúmphus et victória: tibi summæ laudis et honóris coróna. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. Ave, ó nosso Rei; só Vós tivestes compaixão de nossos erros. Sendo Vós obediente ao Pai, fostes levado, como manso cordeiro, à crucifixão. Aleluia. ℣. A Vós Senhor, o triunfo e a vitória; a Vós, a coroa da maior homenagem e louvor. Aleluia.</p>
       </div>
@@ -72,7 +72,7 @@ export default function PagePaixao() {
 
 <em>Jo. 19, 28-35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Sciens Jesus, quia ómnia consummáta sunt, ut consummarétur Scriptúra, dixit: Sítio. Vas ergo erat pósitum acéto plenum. Illi autem spóngiam plenam acéto, hyssópo circumponéntes, obtulérunt ori ejus. Cum ergo accepísset Jesus acétum, dixit: Consummátum est. Et inclináto capite trádidit spíritum. Judǽi ergo (quóniam Parascéve erat), ut non remanérent in cruce córpora sábbato (erat enim magnus dies ille sábbati), rogavérunt Pilátum, ut frangeréntur eórum crura et tolleréntur. Venérunt ergo mílites: et primi quidem fregérunt crura et alteríus, qui crucifíxus est cum eo. Ad Jesum autem cum veníssent, ut vidérunt eum jam mórtuum, non fregérunt ejus crura, sed unus mílitum láncea latus ejus apéruit, et contínuo exívit sanguis et aqua. Et qui vidit, testimónium perhíbuit: et verum est testimónium ejus.</p>
@@ -81,14 +81,14 @@ export default function PagePaixao() {
 
       <h3>Ofertório</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Insurrexérunt in me viri iníqui: absque misericórdia quæsiérunt me interfícere: et non pepercérunt in fáciem meam spúere: lánceis suis vulneravérunt me, et concússa sunt ómnia ossa mea. (T. P. Allelúja.)</p>
       <p>Homens iníquos levantaram-se contra mim; sem misericórdia alguma procuraram matar-me. Não hesitaram em escarrar na minha face. Feriram-me com suas lanças, ficando abalados todos meus ossos. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblátum tibi, Dómine, sacrifícium, intercedénte unigéniti Fílii tui passióne, vivíficet nos semper et múniat: Qui tecum vivit...</p>
       <p>Permiti, Senhor, pelos méritos da paixão de vosso Filho Unigénito, que este sacrifício, que Vos é oferecido, nos vivifique e fortifique para sempre. Ele, que, sendo Deus vive e reina...</p>
       </div>
@@ -97,14 +97,14 @@ export default function PagePaixao() {
 
 <em>Sl. 21,17-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fodérunt manus meas et pedes meos: dinumeravérunt ómnia ossa mea. (T. P. Allelúja.)</p>
       <p>Atravessaram as minhas mãos e os meus pés, e contaram todos meus ossos. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine Jesu Christe, Fili Dei vivi, qui hora sexta pro redemptióne mundi Crucis patíbulum ascendísti, et sánguinem tuum pretiósum in remissiónem peccatórum nostrórum fudísti: te humíliter deprecámur; ut, post óbitum nostrum, paradísi jánuas nos gaudénter introíre concédas: Qui vivis...</p>
       <p>Senhor Jesus Cristo, Filho de Deus vivo, que subistes ao patíbulo da Cruz, sendo a hora sexta, para redenção do mundo, e derramastes o vosso preciosíssimo Sangue para a redenção dos nossos pecados, concedei-nos a graça, humildemente Vos rogamos! de, após a nossa morte, podermos penetrar com alegria no paraíso, Ó Vós, que...</p>
       </div>

@@ -10,7 +10,7 @@ export default function Page088() {
       <h1>Salmo 88</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Misericórdias Dómini * in ætérnum cantábo.</p>
       <p>As misericórdias do Senhor * cantarei eternamente.</p>
       <p>In generatiónem et generatiónem * annuntiábo veritátem tuam in ore meo.</p>

@@ -10,7 +10,7 @@ export default function Page031() {
       <h1>Salmo 31</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beáti quorum remíssæ sunt iniquitátes: * et quorum tecta sunt peccáta.</p>
       <p>Bem-aventurados aqueles cujas iniquidades foram perdoadas: * e cujos pecados são cobertos.</p>
       <p>Beátus vir, cui non imputávit Dóminus peccátum, * nec est in spíritu ejus dolus.</p>

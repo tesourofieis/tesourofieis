@@ -10,7 +10,7 @@ export default function Page016() {
       <h1>Salmo 16</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Dómine, justítiam meam: * inténde deprecatiónem meam.</p>
       <p>Ouvi, ó Senhor, a minha justiça; atendei a minha súplica.</p>
       <p>Áuribus pércipe oratiónem meam, * non in lábiis dolósis.</p>

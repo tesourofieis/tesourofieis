@@ -10,7 +10,7 @@ export default function Page002() {
       <h1>Salmo 2</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quare fremuérunt gentes: * et pópuli meditáti sunt inánia?</p>
       <p>Por que razão se embraveceram as gentes: * e os povos coisas vãs meditaram?</p>
       <p>Astitérunt reges terræ, et príncipes convenérunt in unum * advérsus Dóminum, et advérsus Christum ejus.</p>

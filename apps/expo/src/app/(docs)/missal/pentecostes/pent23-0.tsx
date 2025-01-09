@@ -14,14 +14,14 @@ export default function PagePent230() {
 
 <em>Jr. 29,11,12 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis. <em>Ps. 84, 2</em> Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria Patri...</p>
       <p>Disse o Senhor: tenho pensamentos de paz e não de ira: invocar-me-eis e ouvir-vos-ei; e farei regressar de todos os países os vossos cativos. <em>Sl. 84, 2</em> Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Absólve, quǽsumus, Dómine, tuórum delícta populórum: ut a peccatórum néxibus, quae pro nostra fraglitáte contráximus, tua benignitáte liberémur. Per Dóminum nostrum...</p>
       <p>Perdoai, Senhor, os delitos do vosso povo, a fim de que pela vossa benignidade sejamos livres dos liames dos pecados em que a nossa fraqueza nos fez cair. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent230() {
 
 <em>Fl. 3, 17-21: 4, 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.</p>
       <p>Fratres: Imitatóres mei estóte, et observáte eos, qui ita ámbulant, sicut habétis formam nostram. Multi enim ámbulant, quos sæpe dicébam vobis (nunc autem et flens dico) inimícos Crucis Christi: quorum finis intéritus: quorum Deus venter est: et glória in confusióne ipsórum, qui terréna sápiunt. Nostra autem conversátio in cœlis est: unde etiam Salvatórem exspectámus, Dóminum nostrum Jesum Christum, qui reformábit corpus humilitátis nostræ, configurátum córpori claritátis suæ, secúndum operatiónem, qua étiam possit subjícere sibi ómnia. Itaque, fratres mei caríssimi et desideratíssimi, gáudium meum et coróna mea: sic state in Dómino, caríssimi. Evódiam rogo et Sýntychen déprecor idípsum sápere in Dómino. Etiam rogo et te, germáne compar, ádjuva illas, quæ mecum laboravérunt in Evangélio cum Cleménte et céteris adjutóribus meis, quorum nómina sunt in libro vitæ.</p>
@@ -41,7 +41,7 @@ export default function PagePent230() {
 
 <em>Sl. 43, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula.</p>
       <p>Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes os que nos odiavam. ℣. Glorificar-nos-emos constantemente em Deus e louvaremos eternamente o vosso nome.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 129, 12</em> De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent230() {
 
 <em>Mt. 9, 18-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Sl. 129, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de profúndis clamávi ad te, Dómine.</p>
       <p>Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor, a minha voz: das profundezas dos abysmos Vos invoquei.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pro nostræ servitútis augménto sacrifícium tibi, Dómine, laudis offérimus: ut, quod imméritis contulísti, propítius exsequáris. Per Dóminum nostrum...</p>
       <p>Para aumento do nosso zelo em Vos servir, Senhor, Vos oferecemos um sacrifício de louvor, a fim de que pela vossa bondade alcancemos o efeito dos dons que nos concedestes sem nenhuns merecimentos da nossa parte. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Mc. 11, 24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis, et fiet vobis.</p>
       <p>Na verdade vos digo: «Tudo o que pedirdes nas vossas orações, acreditai que o recebereis; e far-se-á como pedirdes».</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus: ut, quos divína tríbuis participatióne gaudére, humánis non sinas subjacére perículis. Per Dóminum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, não permitais que aqueles a quem concedestes a alegria de participarem dos vossos sagrados mystérios fiquem expostos aos perigos humanos. Por nosso Senhor...</p>
       </div>

@@ -14,14 +14,14 @@ export default function PagePent130() {
 
 <em>Sl. 73, 20,19 & 23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et ne obliviscáris voces quæréntium te. <em>Ps. ibid., 1</em> Ut quid, Deus, reppulísti in finem: irátus est furor tuus super oves páscuæ tuæ? ℣. Gloria Patri...</p>
       <p>Lembrai-vos, Senhor, da vossa aliança connosco e não esqueçais para sempre as almas dos vossos servos. Erguei-Vos, Senhor, julgai a vossa causa: e não desprezeis as orações daqueles que a Vós recorrem. Porque, ó Deus, nos repelistes para sempre? <em>Sl. ibid., 1</em> Porque, ó Deus, cresceu a vossa ira contra as ovelhas dos vossos pastos? ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, da nobis fídei, spei et caritátis augméntum: et, ut mereámur asséqui quod promíttis, fac nos amáre quod prǽcipis. Per Dóminum...</p>
       <p>Ó Deus omnipotente e sempiterno, concedei-nos o aumento da fé, da esperança e da caridade; e, a fim de merecermos alcançar o que nos prometestes, permiti que amemos o que nos preceituais. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent130() {
 
 <em>Gl. 3, 16-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.</p>
       <p>Fratres: Abrahæ dictæ sunt promissiónes, et sémini ejus. Non dicit: Et semínibus, quasi in multis; sed quasi in uno: Et sémini tuo, qui est Christus. Hoc autem dico: testaméntum confirmátum a Deo, quæ post quadringéntos et trigínta annos facta est lex, non írritum facit ad evacuándam promissiónem. Nam si ex lege heréditas, jam non ex promissióne. Abrahæ autem per repromissiónem donávit Deus. Quid igitur lex? Propter transgressiónes pósita est, donec veníret semen, cui promíserat, ordináta per Angelos in manu mediatóris. Mediátor autem uníus non est: Deus autem unus est. Lex ergo advérsus promíssa Dei? Absit. Si enim data esset lex, quæ posset vivificáre, vere ex lege esset justítia. Sed conclúsit Scriptúra ómnia sub peccáto, ut promíssio ex fide Jesu Christi darétur credéntibus.</p>
@@ -41,7 +41,7 @@ export default function PagePent130() {
 
 <em>Sl. 73, 20, 19 et 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne obliviscáris in finem. ℣. Exsúrge, Dómine, et júdica causam tuam: memor esto oppróbrii servórum tuórum.</p>
       <p>Lembrai-Vos, Senhor, da vossa aliança connosco e não esqueçais para sempre as almas dos vossos servos. ℣. Erguei-Vos, Senhor, julgai a vossa causa e lembrai-Vos dos opróbrios que sofreram os vossos servos.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 89, 1</em> Dómine, refúgium factus es nobis a generatióne et progénie. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent130() {
 
 <em>Lc. 17, 11-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Sl. 30, 15-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis témpora mea.</p>
       <p>Em Vós, Senhor, pus toda minha esperança; e disse: Vós sois o meu Deus; a minha vida está nas vossas mãos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propitiáre, Dómine, pópulo tuo, propitiáre munéribus: ut, hac oblatióne placátus, et indulgéntiam nobis tríbuas et postuláta concedas. Per Dóminum...</p>
       <p>Olhai propício para o vosso povo, Senhor, e aceitai benignamente as nossas ofertas, a fim de que, deixando-Vos aplacar com esta oferta, nos concedais o perdão e atendais às nossas súplicas. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Sb. 16, 20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Panem de cœlo dedísti nobis, Dómine, habéntem omne delectaméntum et omnem sapórem suavitátis.</p>
       <p>Destes-nos, Senhor, um pão do céu, que contém todas as delícias e o mais suave sabor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumptis, Dómine, cœléstibus sacraméntis: ad redemptiónis ætérnæ, quǽsumus, proficiámus augméntum. Per Dóminum...</p>
       <p>Havendo nós recebido estes celestiais sacramentos, Senhor, concedei-nos a graça, Vos imploramos, de progredirmos sempre no caminho da salvação eterna. Por nosso Senhor...</p>
       </div>

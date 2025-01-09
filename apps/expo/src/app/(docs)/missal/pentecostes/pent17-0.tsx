@@ -14,14 +14,14 @@ export default function PagePent170() {
 
 <em>Sl. 118, 137 & 124</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus es, Dómine, et rectum judicium tuum: fac cum servo tuo secúndum misericórdiam tuam. <em>Ps. ibid., 1</em> Beáti immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...</p>
       <p>Sois justo, ó Senhor, e os vossos juízos são equitativos: tratai o vosso servo segundo a vossa misericórdia. <em>Ps. ibid., 1</em> Bem-aventurados os que são imaculados na sua vida: os que o caminho da Lei do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, Dómine, pópulo tuo diabólica vitáre contágia: et te solum Deum pura mente sectári. Per Dóminum...</p>
       <p>Concedei ao vosso povo, Senhor, Vos suplicamos, a graça de evitar todo o contágio do demónio; e que o mesmo vosso povo procure com o coração puro servir-Vos só a Vós, que sois o seu Deus. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent170() {
 
 <em>Ef. 4, 1-6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Efésios.</p>
       <p>Fatres: Obsecro vos ego vinctus in Dómino, ut digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine, cum patiéntia, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis. Unum corpus et unus spíritus, sicut vocáti estis in una spe vocatiónis vestræ. Unus Dóminus, una fides, unum baptísma. Unus Deus et Pater ómnium, qui est super omnes et per ómnia et in ómnibus nobis. Qui est benedíctus in sǽcula sæculórum. Amen.</p>
@@ -41,7 +41,7 @@ export default function PagePent170() {
 
 <em>Sl. 32, 12 & 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et spíritu oris ejus omnis virtus eórum.</p>
       <p>Bem-aventurada a nação que tem o Senhor como seu Deus: bem-aventurado o povo que o Senhor escolheu para sua herança. A palavra do Senhor criou os céus: e o sopro da sua boca criou os espíritos celestiais.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 101, 2</em> Dómine, exáudi oratiónem meam, et clamor meus ad te pervéniat. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent170() {
 
 <em>Mt. 22, 34-46</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Dn. 9, 17, 18 et 19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orávi Deum meum ego Dániel, dicens: Exáudi, Dómine, preces servi tui: illúmina fáciem tuam super sanctuárium tuum: et propítius inténde pópulum istum, super quem invocátum est nomen tuum, Deus.</p>
       <p>Eu, Daniel, orei ao Senhor, meu Deus, dizendo: Ouvi, Senhor, as orações do vosso servo: fazei resplandecer o brilho da vossa face sobre o vosso santuário: e olhai propício para este povo, em favor do qual, ó Deus, foi invocado o vosso nome.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Majestátem tuam, Dómine, supplíciter deprecámur: ut hæc sancta, quæ gérimus, et a prætéritis nos delictis éxuant et futúris. Per Dóminum...</p>
       <p>Humildemente rogamos à vossa majestade, Senhor, permitais que estes sacrossantos mystérios que celebramos nos livrem dos nossos delitos passados e futuros. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Sl. 75, 12-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vovéte et réddite Dómino, Deo vestro, omnes, qui in circúitu ejus affértis múnera: terríbili, et ei qui aufert spíritum príncipum: terríbili apud omnes reges terræ.</p>
       <p>Fazei votos ao Senhor, vosso Deus, e cumpri-os, ó vós, que habitais em redor d’Ele. Fazei votos a este Deus tremendo que arrebata a vida aos príncipes e esmaga os reis da terra.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra curéntur, et remédia nobis ætérna provéniant. Per Dóminum...</p>
       <p>Que os vossos sacrossantos mystérios, ó Deus omnipotente, nos curem dos nossos vícios e nos sirvam de remédio para a eternidade. Por nosso Senhor...</p>
       </div>

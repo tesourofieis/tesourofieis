@@ -10,7 +10,7 @@ export default function Page117() {
       <h1>Salmo 117</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia ejus.</p>
       <p>Louvai o Senhor, porque Ele é bom: * porque a sua misericórdia é eterna.</p>
       <p>Dicat nunc Israël quóniam bonus: * quóniam in sǽculum misericórdia ejus.</p>

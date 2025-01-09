@@ -14,14 +14,14 @@ export default function PageQuad62() {
 
 <em>Gl. 6, 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nos autem gloriári oportet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus. <em>Ps. 66, 2</em> Deus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri. ℣. Gloria Patri...</p>
       <p>Convém que nos gloriemos com a Cruz de nosso Senhor Jesus Cristo, pois Ele é a nossa salvação, vida e ressurreição, Por Ele fomos salvos e livres. <em>Sl. 66, 2</em> Que o Senhor tenha misericórdia de nós e nos abençoe; que faça resplandecer sobre nós o brilho da sua face e se compadeça de nós. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus: da nobis ita Domínicæ passiónis sacraménta perágere; ut indulgéntiam percípere mereámur. Per eúndem Dóminum...</p>
       <p>Omnipotente e sempiterno Deus, concedei-nos a graça de celebrarmos os mystérios da Paixão do Senhor de tal sorte que mereçamos receber o perdão das nossas faltas. Pelo mesmo nosso...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad62() {
 
 <em>Jr. 11, 18-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Jeremíæ Prophétæ.</p>
       <p>Lição do Profeta Jeremias.</p>
       <p>In diébus illis: Dixit Jeremías: Dómine, demonstrásti mihi, et cognóvi: tunc ostendísti mihi stúdia eórum. Et ego quasi agnus mansúetus, qui portátur ad víctimam: et non cognóvi, quia cogitavérunt super me consília, dicéntes: Mittámus lignum in panem ejus, et eradámus eum de terra vivéntium, et nomen ejus non memorétur ámplius. Tu autem, Dómine Sábaoth, qui júdicas juste et probas renes et corda, vídeam ultiónem tuam ex eis: tibi enim revelávi causam meam, Dómine, Deus meus.</p>
@@ -41,7 +41,7 @@ export default function PageQuad62() {
 
 <em>Sl. 34, 13 & 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ego autem, dum mihi molésti essent, induébam me cilício, et humiliábam in jejúnio ánimam meam: et orátio mea in sinu meo convertétur. ℣. Júdica, Dómine, nocéntes me, expúgna impugnántes me: apprehénde arma et scutum, et exsúrge in adjutórium mihi.</p>
       <p>Eu, porém, enquanto me molestavam, revestia-me com o cilício, humilhava a minha alma com jejuns e orava silenciosamente com a cabeça inclinada. Julgai, Senhor, os que me perseguem; expurgai aqueles que me combatem; empunhai as armas e o escudo: e vinde em meu auxílio.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad62() {
 
 <em>Mc. 14, 1-72; 15, 1-46</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Pássio Dómini nostri Jesu Christi secúndum Marcum.</p>
       <p><span className="cross text-red-500">✠</span> Paixão de N. S. Jesus Cristo, segundo S.  Marcos.</p>
       <p>In illo témpore: Erat Pascha, et ázyma post bíduum, et quærébant summi sacerdótes et scribæ, quómodo Jesum dolo tenérent et occíderent. Dicébant autem: <span className="font-bold text-red-500">S.</span> Non in die festo, ne forte tumúltus fíeret in pópulo. <span className="font-bold text-red-500">C.</span> Et cum esset Jesus Bethániæ in domo Simónis leprósi, et recúmberet: venit múlier habens alabástrum unguénti nardi spicáti pretiósi, et fracto alabástro, effúdit super caput ejus. Erant autem quidam indígne feréntes intra semetípsos, et dicéntes: <span className="font-bold text-red-500">S.</span> Ut quid perdítio ista unguénti facta est? Póterat enim unguéntum istud venúmdari plus quam trecéntis denáriis, et dari paupéribus. <span className="font-bold text-red-500">C.</span> Et fremébant in eam. Jesus autem dixit: <span className="cross text-red-500">✠</span> Sínite eam: quid illi molésti estis? Bonum opus operáta est in me. Semper enim páuperes habétis vobíscum: et cum voluéritis, potéstis illis benefácere: me autem non semper habétis. Quod hábuit hæc, fecit: prævénit úngere corpus meum in sepultúram. Amen, dico vobis: Ubicúmque prædicátum fúerit Evangélium istud in univérso mundo, et, quod fecit hæc, narrábitur in memóriam ejus. <span className="font-bold text-red-500">C.</span> Et Judas Iscariótes, unus de duódecim, ábiit ad summos sacerdótes, ut próderet eum illis. Qui audiéntes, gavísi sunt: et promisérunt ei pecúniam se datúros. Et quærébat, quómodo illum opportúne tráderet.</p>
@@ -96,14 +96,14 @@ export default function PageQuad62() {
 
 <em>Sl. 139, 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Custódi me, Dómine, de manu peccatóris: et ab homínibus iníquis éripe me.</p>
       <p>Não me deixeis, Senhor, cair nas mãos dos pecadores; livrai-me dos homens iníquos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrifícia nos, quǽsumus, Dómine, propénsius ista restáurent: quæ medicinálibus sunt institúta jejúniis. Per Dóminum...</p>
       <p>Permiti, Senhor, Vos imploramos, que estes sacrifícios, acompanhados com os salutares Jejuns, que nos são preceituados, renovem o vigor das nossas almas. Por nosso Senhor...</p>
       </div>
@@ -112,21 +112,21 @@ export default function PageQuad62() {
 
 <em>Sl. 68, 13-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Advérsum me exercebántur, qui sedébant in porta: et in me psallébant, qui bibébant vinum: ego vero oratiónem meam ad te, Dómine: tempus benepláciti, Deus, in multitúdine misericórdiæ tuæ.</p>
       <p>Ergueram-se contra mim os que estavam assentados à porta da cidade; cantaram injúrias contra mim os que costumam embriagar-se! Eu, porém, ó Senhor, a Vós dirijo a minha prece. Ó Deus, eis o tempo propício para manifestardes benevolência, segundo a vossa infinita misericórdia!</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctificatiónibus tuis, omnípotens Deus: et vitia nostra curéntur, et remédia nobis sempitérna provéniant. Per Dóminum...</p>
       <p>Que estes meios de santificação, ó Deus omnipotente, possam curar-nos de todos nossos vícios e que nos sejam aplicados os remédios da salvação eterna. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

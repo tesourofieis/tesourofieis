@@ -10,7 +10,7 @@ export default function Page064() {
       <h1>Salmo 64</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Te decet hymnus, Deus, in Sion: * et tibi reddétur votum in Jerúsalem.</p>
       <p>A Vós, ó Deus, são devidos os hinos em Sião: * e a Vós serão prestados votos em Jerusalém.</p>
       <p>Exáudi oratiónem meam: * ad Te omnis caro véniet.</p>

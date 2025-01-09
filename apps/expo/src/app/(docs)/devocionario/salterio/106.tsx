@@ -10,7 +10,7 @@ export default function Page106() {
       <h1>Salmo 106</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia ejus.</p>
       <p>Louvai o Senhor, porque Ele é bom: * porque a sua misericórdia é eterna.</p>
       <p>Dicant qui redémpti sunt a Dómino, quos redémit de manu inimíci: * et de regiónibus congregávit eos:</p>

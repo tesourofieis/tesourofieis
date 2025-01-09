@@ -43,7 +43,7 @@ export default function Page0719() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui, ad evangelizándum paupéribus et ecclesiástici órdinis decórem promovéndum, beátum Vincéntium apostólica virtúte roborásti: præsta, quǽsumus; ut, cujus pia mérita venerámur, virtútum quoque instruámur exémplis. Per Dóminum...</p>
       <p>Ó Deus, que ornastes o B. Vicente com a coragem e as virtudes apostólicas para a evangelização dos pobres e para promover o decoro da ordem eclesiástica, permiti, Vos imploramos, que, honrando os seus piedosos méritos, sejamos instruídos com o exemplo de suas virtudes. Por nosso Senhor...</p>
       </div>

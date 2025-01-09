@@ -14,14 +14,14 @@ export default function PagePent40() {
 
 <em>Sl. 26, 1 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus illuminátio mea et salus mea, quem timebo? Dóminus defensor vitæ meæ, a quo trepidábo? qui tríbulant me inimíci mei, ipsi infirmáti sunt, et cecidérunt. <em>Ps. ibid., 3</em> Si consístant advérsum me castra: non timébit cor meum. ℣. Gloria Patri...</p>
       <p>O Senhor é a minha luz e a minha salvação: a quem, pois, temerei? O Senhor é o defensor da minha vida: quem poderá intimidar-me? Meus inimigos, que me atribulam, enfraqueceram e caíram. <em>Sl. ibid., 3</em> Ainda que um exército me cercasse, o meu coração não temeria. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da nobis, quǽsumus, Dómine: ut et mundi cursus pacífice nobis tuo órdine dirigátur; et Ecclésia tua tranquílla devotióne lætétur. Per Dóminum...</p>
       <p>Concedei-nos, Senhor, Vos suplicamos, que, sob a conduta da vossa providência, os acontecimentos do mundo decorram pacificamente; e que a vossa Igreja goze a alegria de Vos servir com tranquilidade. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent40() {
 
 <em>Rm. 8, 18-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Exístimo, quod non sunt condígnæ passiónes hujus témporis ad futúram glóriam, quæ revelábitur in nobis. Nam exspectátio creatúræ revelatiónem filiórum Dei exspéctat. Vanitáti enim creatúra subjécta est, non volens, sed propter eum, qui subjécit eam in spe: quia et ipsa creatúra liberábitur a servitúte corruptiónis, in libertátem glóriæ filiórum Dei. Scimus enim, quod omnis creatúra ingemíscit et párturit usque adhuc. Non solum autem illa, sed et nos ipsi primítias spíritus habéntes: et ipsi intra nos gémimus, adoptiónem filiórum Dei exspectántes, redemptiónem córporis nostri: in Christo Jesu, Dómino nostro.</p>
@@ -41,7 +41,7 @@ export default function PagePent40() {
 
 <em>Sl. 78, 9 & 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus eórum? ℣. Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.</p>
       <p>Perdoai os nossos pecados, Senhor, para que os povos não digam: Onde está o seu Deus? ℣. Auxiliai-nos, ó Senhor, nosso Salvador: e, pela glória do vosso nome, livrai-nos, Senhor.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 9, 5 & 10</em> Deus, qui sedes su per thronum, et júdicas æquitátem: esto refúgium páuperum in tribulatióne. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent40() {
 
 <em>Lc. 5, 1-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Sl. 12, 4-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Illúmina óculos meos, ne umquam obdórmiam in morte: ne quando dicat inimícus meus: Præválui advérsus eum.</p>
       <p>Iluminai os meus olhos, para que não adormeça na morte e o meu inimigo não diga mais tarde: prevaleci contra ele.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblatiónibus nostris, quǽsumus, Dómine, placáre suscéptis: et ad te nostras étiam rebélles compélle propítius voluntátes. Per Dóminum nostrum...</p>
       <p>Deixai-Vos aplacar, Senhor, recebendo as nossas oblações; e dignai-Vos propiciamente compelir a nossa vontade rebelde a submeter-se a Vós. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Sl. 17, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus firmaméntum meum, et refúgium meum, et liberátor meus: Deus meus, adjútor meus.</p>
       <p>O Senhor é o meu sustentáculo, o meu refúgio e o meu libertador: Ele é o meu Deus e auxílio!</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mystéria nos, Dómine, quǽsumus, sumpta puríficent: et suo múnere tueántur. Per Dóminum...</p>
       <p>Vos imploramos, Senhor, que estes mystérios, que recebemos, nos purifiquem; e que pela sua virtude nos sirvam de protecção. Por nosso Senhor...</p>
       </div>

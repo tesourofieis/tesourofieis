@@ -16,7 +16,7 @@ export default function Page0205() {
 
       <h3>Intróito</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Agathæ Vírginis et Martyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei. <em>Ps. 44, 2</em> Eructávit cor meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...</p>
       <p>Alegremo-nos todos no Senhor, celebrando neste dia a festividade em honra da B. Águeda, Virgem e Mártir, de cujo martírio se regozijam os Anjos, que louvam o Filho de Deus. <em>Sl. 44, 2</em> Meu coração exprimiu uma excelente palavra: «Consagro ao Rei as minhas obras!». ℣. Glória ao Pai...</p>
       </div>
@@ -25,7 +25,7 @@ export default function Page0205() {
 
 <em>1 Cor. 1, 26-31</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Vidéte vocatiónem vestram: quia non multi sapiéntes secúndum carnem, non multi poténtes, non multi nóbiles: sed quæ stulta sunt mundi elégit Deus, ut confúndat sapiéntes: et infírma mundi elégit Deus, ut confúndat fórtia: et ignobília mundi et contemptibília elégit Deus, et ea quæ non sunt, ut ea quæ sunt destrúeret: ut non gloriétur omnis caro in conspéctu ejus. Ex ipso autem vos estis in Christo Jesu, qui factus est nobis sapiéntia a Deo, et justítia, et sanctificátio, et redémptio: ut, quemádmodum scriptum est: Qui gloriátur, in Dómino gloriétur.</p>
@@ -36,7 +36,7 @@ export default function Page0205() {
 
 <em>Sl. 45, 6 & 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur. ℣. Flúminis impetus lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus.</p>
       <p>O Senhor a auxiliará com seu olhar: Deus está no meio dela e a não deixará vacilar. ℣. Um rio com suas águas alegra a cidade de Deus. O Altíssimo santificou o seu tabernáculo.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 118, 46</em> Loquébar de testimóniis tuis in conspéctu regum, et non confundébar. Allelúja.</p>
@@ -49,7 +49,7 @@ export default function Page0205() {
 
 <em>Sl. 125, 5-6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui séminant in lácrimis, in gáudio metent. ℣. Eúntes ibant et fiébant, mitténtes semina sua. ℣. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.</p>
       <p>Aqueles que semearam com lágrimas colherão com alegria. ℣. Iam, caminhavam e lançavam a semente à terra, chorando. ℣. Mas regressaram com alegria, transportando os seus molhos de trigo.</p>
       </div>
@@ -58,7 +58,7 @@ export default function Page0205() {
 
 <em>Mt. 19, 3-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Accessérunt ad Jesum pharisǽi, tentántes eum et dicéntes: Si licet hómini dimíttere uxórem suam quacúmque ex causa? Qui respóndens, ait eis: Non legístis, quia, qui fecit hóminem ab inítio, másculum et féminam fecit eos? et dixit: Propter hoc dimíttet homo patrem, et matrem, et adhærébit uxóri suæ, et erunt duo in carne una. Itaque jam non sunt duo, sed una caro. Quod ergo Deus conjúnxit, homo non séparet. Dicunt illi: Quid ergo Móyses mandávit dare libéllum repúdii, et dimíttere? Ait illis: Quóniam Móyses ad durítiam cordis vestri permísit vobis dimíttere uxóres vestras: ab inítio autem non fuit sic. Dico autem vobis, quia, quicúmque dimíserit uxórem suam, nisi ob fornicatiónem, et áliam dúxerit, mœchátur: et qui dimíssam duxerit, mœchátur. Dicunt ei discípuli ejus: Si ita est causa hóminis cum uxore, non expedit nubere. Qui dixit illis: Non omnes cápiunt verbum istud, sed quibus datum est. Sunt enim eunúchi, qui de matris útero sic nati sunt; et sunt eunúchi, qui facti sunt ab homínibus; et sunt eunúchi, qui seípsos castravérunt propter regnum cœlórum. Qui potest cápere, cápiat.</p>
@@ -67,7 +67,7 @@ export default function Page0205() {
 
       <h3>Comúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui me dignátus est ab omni plaga curáre et mamíllam meam meo péctori restitúere, ipsum ínvoco Deum vivum.</p>
       <p>Invoco como Deus vivo Aquele que se dignou curar as minhas chagas e restituir o meu seio ao meu peito!</p>
       </div>

@@ -14,14 +14,14 @@ export default function Page1203() {
 
 <em>Sl. 118, 46-47</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis. <em>Ps. 110, 1-2</em> Laudáte Dóminum, omnes gentes, laudáte eum, omnes pópuli: quóniam confirmáta est super nos misericórdia ejus, et véritas Dómini manet in ætérnum. ℣. Gloria Patri...</p>
       <p>Falava dos vossos testemunhos sem vergonha na presença dos reis: e meditava nos vossos mandamentos, que amava profundamente. <em>Sl. 110, 1-2</em> Louvai o Senhor, ó vós, todas as nações; louvai-O, ó vós, todos os povos; pois a sua misericórdia para connosco manifestou-se claramente e a verdade do Senhor permanece eternamente. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui Indiárum gentes beáti Francísci prædicatióne et miráculis Ecclésiæ tuæ aggregáre voluísti: concéde propítius; ut, cujus gloriósa mérita venerámur, virtútum quoque imitémur exémpla. Per Dóminum...</p>
       <p>Ó Deus, que pela pregação e milagres do B. Francisco quisestes chamar à vossa Igreja os povos das Índias, concedei-nos propício que, venerando os seus gloriosos méritos, imitemos, também, os exemplos das suas virtudes. Por nosso Senhor...</p>
       </div>
@@ -35,7 +35,7 @@ export default function Page1203() {
 
 <em>Sl. 91, 13 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. ℣. <em>ibid., 3</em> Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.</p>
       <p>O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano, na casa do Senhor. ℣. <em>ibid., 3</em> Para publicar de manhã a vossa misericórdia; e de noite a vossa verdade.</p>
       <p>Allelúja, allelúja. ℣. <em>Jac. 1, 12</em> Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.</p>
@@ -46,7 +46,7 @@ export default function Page1203() {
 
 <em>Mc. 16, 15-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Marcum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Marcos.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúra. Qui credíderit, et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequántur: In nómine meo dæmónia ejícient: linguis loquántur novis: serpéntes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt.</p>
@@ -57,14 +57,14 @@ export default function Page1203() {
 
 <em>Sl. 88, 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus.</p>
       <p>A minha verdade e a minha misericórdia estarão com ele, e, por virtude do meu nome, será exaltado o seu poder.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis oblátio, et pro tuórum tibi grata sit honóre Sanctórum, et nos córpore páriter et mente puríficet. Per Dóminum...</p>
       <p>Concedei-nos, ó Deus omnipotente, que esta oferta da nossa humildade, servindo para honrar os vossos Santos, Vos seja agradável; e que ao mesmo tempo nos purifique o corpo e a alma. Por nosso Senhor...</p>
       </div>
@@ -73,14 +73,14 @@ export default function Page1203() {
 
 <em>Mt. 24,46-47</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum.</p>
       <p>Bem-aventurado o servo que o Senhor, quando vier, achar vigilante. Em verdade vos digo que lhe dará a administração de todos seus bens.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedénte beáto Francísco Confessóre tuo, per hæc contra ómnia advérsa muniámur. Per Dóminum...</p>
       <p>Havendo nós, ó Deus omnipotente, recebido o alimento celestial, permiti, Vos suplicamos, que, pela intercessão do B. Francisco, vosso Confessor, sejamos fortalecidos contra todas as adversidades. Por nosso Senhor...</p>
       </div>

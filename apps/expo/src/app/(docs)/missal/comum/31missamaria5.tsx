@@ -16,7 +16,7 @@ export default function Page31Missamaria5() {
 
       <h3>Gradual</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris. ℣. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.</p>
       <p>Bendita e venerável sois, ó Virgem Maria, que fostes Mãe do Salvador, sem que a vossa pureza sofresse a mais leve ofensa. ℣. Ó Virgem, Mãe de Deus, Aquele que nem todo o universo é capaz de conter, quando se fez homem, esteve encerrado no vosso seio.</p>
       <p>Allelúja, allelúja. ℣. Post partum, Virgo, invioláta permansísti: Dei Génetrix, intercéde pro nobis. Allelúja.</p>
@@ -27,7 +27,7 @@ export default function Page31Missamaria5() {
 
 <em>Lc. 1, 28 & 42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui.</p>
       <p>Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre.</p>
       </div>

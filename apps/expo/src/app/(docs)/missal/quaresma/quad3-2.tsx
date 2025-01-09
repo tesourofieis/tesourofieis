@@ -14,14 +14,14 @@ export default function PageQuad32() {
 
 <em>Sl. 16, 6 & 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam, et exáudi verba mea: custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me. <em>Ps. ib., 1</em> Exáudi, Dómine, justítiam meam: inténde deprecatiónem meam. ℣. Gloria Patri...</p>
       <p>Clamei por Vós, ó Deus, porque sei que me ouvireis: inclinai, pois, para mim os vossos ouvidos e escutai a minha prece, Senhor. Guardai-me, Senhor, como a pupila dos olhos: protegei-me sob as vossas asas. <em>Sl. ib., 1</em> Ouvi, Senhor, a minha súplica, que é justa: atendei à minha oração, que é muito humilde. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi nos, omnípotens et miséricors Deus: et continéntiæ salutáris propítius nobis dona concéde. Per Dóminum nostrum...</p>
       <p>Ouvi-nos, ó Deus omnipotente e misericordioso, e concedei-nos propício o dom da salutar continência. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad32() {
 
 <em>4 Rs. 4, 1-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Regum.</p>
       <p>Lição do Livro dos Reis.</p>
       <p>In diébus illis: Múlier quædam clamábat ad Eliséum Prophétam, dicens: Servus tuus vir meus mórtuus est, et tu nosti, quia servus tuus fuit timens Dóminum: et ecce, créditor venit, ut tollat duos fílios meos ad serviéndum sibi. Cui dixit Eliséus: Quid vis, ut fáciam tibi? Dic mihi, quid habes in domo tua? At illa respóndit: Non hábeo ancílla tua quidquam in domo mea, nisi parum ólei, quo ungar. Cui ait: Vade, pete mútuo ab ómnibus vicínis tuis vasa vácua non pauca. Et ingrédere, et claude óstium tuum, cum intrínsecus fúeris tu et fílii tui: et mitte inde in ómnia vasa hæc: et cum plena fúerint, tolles. Ivit itaque múlier, et clausit óstium super se et super fílios suos: illi offerébant vasa, et illa infundébat. Cumque plena fuíssent vasa, dixit ad fílium suum: Affer mihi adhuc vas. Et ille respóndit: Non hábeo. Stetítque óleum. Venit autem illa, et indicávit hómini Dei. Et ille: Vade, inquit, vende oleum, et redde creditóri tuo: tu autem et fílii tui vívite de réliquo.</p>
@@ -41,7 +41,7 @@ export default function PageQuad32() {
 
 <em>Sl. 18,13-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ab occúltis meis munda me, Dómine: et ab aliénis parce servo tuo. ℣. Si mei non fúerint domináti, tunc immaculátus ero: et emundábor a delícto máximo.</p>
       <p>Purificai-me dos meus delitos ocultos, Senhor: Perdoai ao vosso servo os delitos alheios. Se os meus delitos me não escravizarem, então serei perfeito: e ficarei purificado dos grandes delitos.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad32() {
 
 <em>Mt, 18, 15-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Si peccáverit in te frater tuus, vade, et córripe eum inter te et ipsum solum. Si te audíerit, lucrátus eris fratrem tuum. Si autem te non audíerit, ádhibe tecum adhuc unum vel duos, ut in ore duórum vel trium téstium stet omne verbum. Quod si non audíerit eos: dic ecclésiæ. Si autem ecclésiam non audíerit: sit tibi sicut éthnicus et publicánus. Amen, dico vobis, quæcúmque alligavéritis super terram, erunt ligáta et in cœlo: et quæcúmque solvéritis super terram, erunt solúta et in cœlo. Iterum dico vobis, quia si duo ex vobis consénserint super terram, de omni re quamcúmque petíerint, fiet illis a Patre meo, qui in cœlis est. Ubi enim sunt duo vel tres congregáti in nómine meo, ibi sum in médio eórum. Tunc accédens Petrus ad eum, dixit: Dómine, quóties peccábit in me frater meus, et dimíttam ei? usque sépties? Dicit illi Jesus: Non dico tibi usque sépties, sed usque septuágies sépties.</p>
@@ -61,14 +61,14 @@ export default function PageQuad32() {
 
 <em>Sl. 117, 16 & 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.</p>
       <p>A dextra do Senhor triunfou; a dextra do Senhor exaltou-me. Não morrerei; mas viverei e contarei as obras do Senhor.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per hæc véniat, quǽsumus, Dómine, sacraménta nostræ redemptiónis efféctus: qui nos et ab humánis rétrahat semper excéssibus, et ad salutária dona perdúcat. Per Dóminum...</p>
       <p>Permiti, Senhor, Vos suplicamos, que por estes sacramentos alcancemos o efeito da redenção, a fim de que, livrando-nos dos excessos próprios da natureza humana, obtenhamos a graça da salvação. Por nosso Senhor...</p>
       </div>
@@ -77,21 +77,21 @@ export default function PageQuad32() {
 
 <em>Sl. 14, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, quis habitábit in tabernáculo tuo? aut quis requiéscet in monte sancto tuo? Qui ingréditur sine mácula, et operátur justítiam.</p>
       <p>Senhor, quem habitará no vosso tabernáculo? Quem repousará na vossa montanha sagrada? Aquele que não tiver manchas e proceder com justiça.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacris, Dómine, mystériis expiáti: et véniam, quǽsumus, consequámur et grátiam. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, havendo nós sido purificados com estes sagrados mystérios, concedei-nos o perdão e a graça. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Humiliáte cápita vestra Deo.</p>
       <p>Inclinai as vossas cabeças diante de Deus.</p>
       <p>Tua nos, Dómine, protectióne defénde: et ab omni semper iniquitáte custódi. Per Dóminum...</p>

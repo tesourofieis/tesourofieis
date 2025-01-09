@@ -14,14 +14,14 @@ export default function Page0125() {
 
 <em>2 Tm. 1, 12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Scio, cui crédidi, et certus sum, quia potens est depósitum meum serváre in illum diem, justus judex. <em>Ps. 138, 1-2</em> Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam. ℣. Gloria Patri...</p>
       <p>Sei em quem acreditar, e estou certo de que tem poder para guardar o meu depósito até àquele dia em que me julgará como justo Juiz. <em>Sl. 138, 1-2</em> Senhor, Vós me perscrutastes e me conhecestes: conhecestes quando me deito e quando me levanto. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui univérsum mundum beáti Pauli Apóstoli prædicatióne docuísti: da nobis, quǽsumus; ut, qui ejus hódie Conversiónem cólimus, per ejus ad te exémpla gradiámur. Per Dóminum...</p>
       <p>Ó Deus, que instruístes o mundo inteiro com a pregação do B. Apóstolo Paulo, concedei-nos, Vos suplicamos, que, celebrando hoje a sua Conversão, caminhemos para Vós, seguindo os seus exemplos. Por nosso Senhor...</p>
       </div>
@@ -38,7 +38,7 @@ export default function Page0125() {
 
 <em>Act. 9, 1-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Saulus adhuc spirans minárum et cædis in discípulos Dómini, accéssit ad príncipem sacerdótum, et pétiit ab eo epístolas in Damáscum ad synagógas: ut, si quos invenísset hujus viæ viros ac mulíeres, vinctos perdúceret in Jerúsalem. Et cum iter fáceret, cóntigit, ut appropinquáret Damásco: et súbito circumfúlsit eum lux de cœlo. Et cadens in terram, audívit vocem dicéntem sibi: Saule, Saule, quid me perséqueris? Qui dixit: Quis es, Dómine? Et ille: Ego sum Jesus, quem tu perséqueris: durum est tibi contra stímulum calcitráre. Et tremens ac stupens, dixit: Dómine, quid me vis fácere? Et Dóminus ad eum: Surge et ingrédere civitátem, et ibi dicétur tibi, quid te opórteat fácere. Viri autem illi, qui comitabántur cum eo, stabant stupefácti, audiéntes quidem vocem, néminem autem vidéntes. Surréxit autem Saulus de terra, apertísque óculis nihil vidébat. Ad manus autem illum trahéntes, introduxérunt Damáscum. Et erat ibi tribus diébus non videns, et non manducávit neque bibit. Erat autem quidam discípulus Damásci, nómine Ananías: et dixit ad illum in visu Dóminus: Ananía. At ille ait: Ecce ego, Dómine. Et Dóminus ad eum: Surge et vade in vicum, qui vocátur Rectus: et quære in domo Judæ Saulum nómine Tarsénsem: ecce enim orat. (Et vidit virum, Ananíam nómine, introeúntem et imponéntem sibi manus, ut visum recipiat.) Respóndit autem Ananías: Dómine, audívi a multis de viro hoc, quanta mala fécerit sanctis tuis in Jerúsalem: et hic habet potestátem a princípibus sacerdótum alligándi omnes, qui ínvocant nomen tuum. Dixit autem ad eum Dóminus: Vade, quóniam vas electiónis est mihi iste, ut portet nomen meum coram géntibus et régibus et fíliis Israël. Ego enim osténdam illi, quanta opórteat eum pro nómine meo pati. Et ábiit Ananías et introívit in domum: et impónens ei manus, dixit: Saule frater, Dóminus misit me Jesus, qui appáruit tibi in via, qua veniébas, ut vídeas et impleáris Spíritu Sancto. Ei conféstim cecidérunt ab óculis ejus tamquam squamæ, et visum recépit: et surgens baptizátus est. Et cum accepísset cibum, confortátus est. Fuit autem cum discípulis, qui erant Damásci, per dies áliquot. Et contínuo in synagógis prædicábat Jesum, quóniam hic est Fílius Dei. Stupébant autem omnes, qui audiébant, et dicébant: Nonne hic est, qui expugnábat in Jerúsalem eos, qui invocábant nomen istud: et huc ad hoc venit, ut vinctos illos dúcere ad príncipes sacerdótum? Saulus autem multo magis convalescébat, et confundébat Judǽos, qui habitábant Damásci, affírmans, quóniam hic est Christus.</p>
@@ -49,7 +49,7 @@ export default function Page0125() {
 
 <em>Gl. 2, 8 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui operátus est Petro in apostolátum, operátus est ei mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi. ℣. Grátia Dei in me vácua non fuit: sed grátia ejus semper in me manet.</p>
       <p>Aquele que eficazmente trabalhou com Pedro para o tornar Apóstolo também fez de mim o Apóstolo dos gentios: e Conheceram a graça de Deus, que me foi dada. ℣. A graça de Deus em mim não foi estéril, mas permanece sempre em mim.</p>
       <p>Allelúja, allelúja. ℣. Magnus sanctus Paulus, vas electiónis, vere digne est glorificándus, qui et méruit thronum duodécimum possídere. Allelúja.</p>
@@ -60,7 +60,7 @@ export default function Page0125() {
 
       <h3>Trato</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tu es vas electiónis, sancte Paule Apóstole: vere digne es glorificándus. ℣. Prædicátor veritátis et doctor géntium in fide et veritáte. ℣. Per te omnes gentes cognovérunt grátiam Dei. ℣. Intercéde pro nobis ad Deum, qui te elégit.</p>
       <p>Sois um vaso de eleição, ó Apóstolo S. Paulo; e é com justa razão que vos glorificamos. ℣. Sois o pregador da verdade e o Doutor das nações, ensinando-lhes a fé e a verdade. ℣. Pelo vosso apostolado todas as nações conheceram a graça de Deus. ℣. Intercedei, pois, por nós junto de Deus, que vos escolheu.</p>
       </div>
@@ -69,7 +69,7 @@ export default function Page0125() {
 
 <em>Mt. 19, 27-29</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus ómnia, et secúti sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui secúti estis me, in regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ, sedébitis et vos super sedes duódecim, judicántes duódecim tribus Israël. Et omnis, qui relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem, aut uxórem, aut fílios, aut agros, propter nomen meum, céntuplum accípiet, et vitam ætérnam possidébit.</p>
@@ -80,14 +80,14 @@ export default function Page0125() {
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.</p>
       <p>Largamente, ó meu Deus, tendes honrado os vossos amigos: e extraordinariamente tendes favorecido o seu poder.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica: ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio supplicántis. Per Dóminum...</p>
       <p>Senhor, pelas orações do vosso Apóstolo Paulo, santificai as ofertas do vosso povo, para que, sendo-vos elas já em si agradáveis, porque foram por Vós instituídas, mais agradáveis ainda Vos sejam, pelas súplicas do intercessor. Por nosso Senhor...</p>
       </div>
@@ -103,14 +103,14 @@ export default function Page0125() {
 
 <em>Mt. 19, 28 & 29</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis.</p>
       <p>Em verdade vos digo: Vós, que tudo abandonastes e me seguistes, recebereis o cêntuplo e alcançareis a vida eterna.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis ejus non desit orátio, cujus nos donásti patrocínio gubernári. Per Dóminum nostrum...</p>
       <p>Já santificados, Senhor, com este salutar mystério, Vos imploramos que nunca nos falte a intercessão daquele a cujo amparo fomos confiados. Por nosso Senhor...</p>
       </div>

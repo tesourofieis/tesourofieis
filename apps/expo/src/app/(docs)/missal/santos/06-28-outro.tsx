@@ -35,14 +35,14 @@ export default function Page0628Outro() {
 
 <em>Ml. 2, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lex veritátis fuit in ore ejus, et iníquitas non est invénta in lábiis ejus: in pace et in æquitáte ambulávit mecum, et multos avértit ab iniquitáte. <em>Ps. 77, 1</em> Atténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei. ℣. Gloria Patri...</p>
       <p>A lei da verdade esteve na sua boca, e a iniquidade nunca existiu nos seus lábios: caminhou comigo na paz e na equidade e afastou muitos da iniquidade. <em>Sl. 77, 1</em> Ouvi, ó meu povo, a minha lei: inclinai vossos ouvidos para as palavras da minha boca. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beáto Irenǽo Mártyri tuo atque Pontifici tribuísti, ut et veritate doctrínæ expugnáret hǽreses, et pacem Ecclésiæ felíciter confirmáret: da, quǽsumus, plebi tuæ in sancta religióne constántiam; et pacem tuam nostris concéde tempóribus. Per Dóminum...</p>
       <p>Ó Deus, que concedestes ao B. Ireneu, vosso Mártir e Pontífice, que combatesse as heresias com a verdade da doutrina e que alcançasse felizmente a paz para a Igreja, permiti, Vos suplicamos, que o vosso povo seja constante na santa religião; e, Senhor, concedei a vossa paz aos nossos tempos. Por nosso Senhor...</p>
       </div>
@@ -51,7 +51,7 @@ export default function Page0628Outro() {
 
 <em>2 Tm. 3, 14-17; 4, 1-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo a Timóteo.</p>
       <p>Caríssime: Permane in iis, quæ didicísti et crédita sunt tibi: sciens, a quo didíceris; et quia ab infántia sacras; lítteras nosti, quæ te possunt instrúere ad salútem, per fidem, quæ est in Christo Jesu. Omnis Scriptúra divínitus inspiráta útilis est ad docéndum, ad arguéndum, ad corripiéndum, ad erudiéndum in justítia: ut perféctus sit homo Dei, ad omne opus bonum instrúctus. Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum ímpie.</p>
@@ -62,7 +62,7 @@ export default function Page0628Outro() {
 
 <em>Sl. 121, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propter fratres meos et próximos meos loquébar pacem de te. ℣. <em>Ps. 36, 37</em> Custódi innocéntiam et vide æquitátem: quóniam sunt relíquiæ hómini pacífico.</p>
       <p>Por causa dos meus irmãos e dos meus vizinhos, peço a paz para vós. ℣. <em>Sl. 36, 37</em> Guardai a inocência e observai a justiça, pois o homem pacífico terá posteridade.</p>
       <p>Allelúja, allelúja. ℣. <em>Eccli. 6, 35</em> In multitúdine presbyterórum prudéntium sta, et sapiéntiæ illórum ex corde conjúngere, ut omnem narratiónem Dei possis audíre. Allelúja.</p>
@@ -73,7 +73,7 @@ export default function Page0628Outro() {
 
 <em>Mt. 10, 28-33</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -86,14 +86,14 @@ S. Mateus.</p>
 
 <em>Ecl. 24, 44</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Doctrínam quasi ante lucánum illúmino ómnibus, et enarrábo illam usque ad longínquum.</p>
       <p>A doutrina que espalharei em todo o mundo será como a luz matutina que iluminará a todos: e transmiti-la-ei até ao decorrer dos séculos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui credéntes in te pópulos nullis sinis cóncuti terróribus: dignáre preces et hóstias dicátæ tibi plebis suscípere; ut pax, a tua pietáte concéssa, christianórum fines ab omni hoste fáciat esse secúros. Per Dóminum nostrum...</p>
       <p>Ó Deus, que conservais a paz nos povos que acreditam em Vós, dignai-Vos aceitar as preces e as hóstias que os vossos fiéis Vos oferecem, para que a paz, que concedeis benignamente, deixe os países cristãos ao abrigo de todos os ataques do inimigo. Por nosso Senhor...</p>
       </div>
@@ -102,14 +102,14 @@ S. Mateus.</p>
 
 <em>Ecl. 24, 47</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vidéte, quóniam non soli mihi laborávi, sed ómnibus exquiréntibus veritátem.</p>
       <p>Vede como não tenho trabalhado só para mim, mas para todos aqueles que procuram a verdade.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, auctor pacis et amátor, quem nosse vívere, cui servíre regnáre est: prótege ab ómnibus impugnatiónibus súpplices tuos; ut, qui in defensióne tua confídimus, beáti Irenǽi Mártyris tui atque Pontíficis intercessióne, nullius hostilitátis arma timeámus. Per Dóminum...</p>
       <p>Ó Deus, que sois autor e amante da paz, aqueles que Vos conhecem vivem, e aqueles que Vos servem reinam: protegei, pois, contra todas as adversidades os vossos suplicantes, para que, havendo colocado toda a confiança no vosso socorro e na intercessão do B. Ireneu, vosso Mártir e Pontífice, nunca temamos as armas dos nossos inimigos. Por nosso Senhor...</p>
       </div>

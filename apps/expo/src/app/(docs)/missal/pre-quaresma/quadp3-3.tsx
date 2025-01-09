@@ -51,35 +51,35 @@ export default function PageQuadp33() {
 
 <em>Sl. 68, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi nos, Dómine, quóniam benígna est misericórdia tua: secúndum multitúdinem miseratiónum tuárum réspice nos, Dómine. <em>Ps. ibid., 2</em> Salvum me fac, Deus: quóniam intravérunt aquæ usque ad ánimam meam. ℣. Glória Patri...</p>
       <p>Ouvi-nos, Senhor, pois a vossa misericórdia é compassiva. Lançai para nós os vossos olhares, Senhor, segundo a grandeza da vossa misericórdia. <em>Sl. ibid., 2</em> Salvai-me, ó Deus, porque as águas penetraram até ao íntimo da minha alma. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, parce pæniténtibus, propitiáre supplicántibus: et míttere dignéris sanctum Angelum tuum de cœlis, qui bene <span className="cross text-red-500">✠</span> dícat et sanctí <span className="cross text-red-500">✠</span> ficet hos cíneres, ut sint remédium salúbre ómnibus nomen sanctum tuum humilíter implorántibus, ac semetípsos pro consciéntia delictórum suórum accusántibus, ante conspéctum divínæ cleméntiæ tuæ facínora sua deplorántibus, vel sereníssimam pietátem tuam supplíciter obnixéque flagitántibus: et præsta per invocatiónem sanctíssimi nóminis tui; ut, quicúmque per eos aspérsi fúerint, pro redemptióne peccatórum suórum, córporis sanitátem et ánimæ tutélam percípiant. Per Christum, Dóminum nostrum. <span className="text-red-500">℟.</span> Amen.</p>
       <p>Deus, omnipotente e eterno, perdoai aos penitentes, sede propício para com os suplicantes e dignai-Vos enviar do céu o vosso Anjo para abençoar <span className="cross text-red-500">✠</span> e santificar <span className="cross text-red-500">✠</span> estas Cinzas, a fim de que sejam remédio salutar para todos os que imploram humildemente o vosso santo nome, e, reconhecendo os seus delitos, a si mesmos se acusam, deplorando esses crimes, diante da vossa divina clemência, e suplicando instante e humildemente a vossa compassiva misericórdia. Dignai-Vos permitir que pela invocação do vosso santíssimo nome todos os que com estas Cinzas forem aspergidos alcancem, além da remissão dos pecados, saúde para o corpo e protecção para a alma. Por Cristo, nosso Senhor. <span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui non mortem, sed pæniténtiam desíderas peccatórum: fragilitátem condiciónis humánæ benigníssime réspice; et hos cíneres, quos, causa proferéndæ humilitátis atque promeréndæ véniæ, capítibus nostris impóni decérnimus, bene <span className="cross text-red-500">✠</span> dícere pro tua pietáte dignáre: ut, qui nos cínerem esse, et ob pravitátis nostræ deméritum in púlverem reversúros cognóscimus; peccatórum ómnium véniam, et prǽmia pæniténtibus repromíssa, misericórditer cónsequi mereámur. Per Christum, Dóminum nostrum. <span className="text-red-500">℟.</span> Amen.</p>
       <p>Ó Deus, que não quereis a morte dos pecadores, mas que façam penitência, olhai benigníssimo para a fragilidade da natureza humana, e dignai-Vos misericordiosamente abençoar <span className="cross text-red-500">✠</span> estas Cinzas, que desejamos sejam impostas nas nossas cabeças em sinal de humildade e para merecermos o perdão, a fim de que, reconhecendo que não somos senão cinza e que nos tornaremos em pó em punição da nossa malícia, mereçamos da vossa bondade alcançar o perdão dos nossos pecados e as recompensas prometidas aos que fazem penitência. Por Cristo, nosso Senhor. <span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui humiliatióne flécteris, et satisfactióne placáris: aurem tuæ pietátis inclína précibus nostris; et capítibus servórum tuórum, horum cínerum aspersióne contáctis, effúnde propítius grátiam tuæ benedictiónis: ut eos et spíritu compunctiónis répleas et, quæ juste postuláverint, efficáciter tríbuas; et concéssa perpétuo stabilíta et intácta manére decérnas. Per Christum, Dóminum nostrum. <span className="text-red-500">℟.</span> Amen.</p>
       <p>Ó Deus, que pela humilhação Vos inclinais a perdoar e pela satisfação Vos aplacais, dignai-Vos benignamente escutar as nossas preces, infundindo nos vossos servos, cujas cabeças recebem estas Cinzas, a graça da vossa bênção; e, enchendo-os com o espírito de compunção, concedei-lhes o que com justiça Vos suplicarem, a fim de que perpetuamente conservem, firme e intacto, o que de Vós houverem alcançado. Por Cristo, nosso Senhor. <span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui Ninivítis, in cínere et cilício pæniténtibus, indulgéntiæ tuæ remédia præstitísti: concéde propítius; ut sic eos imitémur hábitu, quaténus véniæ prosequámur obténtu. Per Dóminum.</p>
       <p>Deus omnipotente e eterno, que propiciastes o remédio e o perdão aos Ninivitas, que fizeram penitência por meio das cinzas e do cilício, concedei-nos indulgentemente que de tal sorte os imitemos que, como eles, alcancemos o vosso perdão. Por nosso Senhor.</p>
       </div>
@@ -88,7 +88,7 @@ export default function PageQuadp33() {
 
 <em>Jl. 2, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Immutémur hábitu, in cínere et cilício: jejunémus, et plorémus ante Dóminum: quia multum miséricors est dimíttere peccáta nostra Deus noster.</p>
       <p>Mudemos os vestidos e cubramo-nos com a cinza e com o cilício; jejuemos e choremos diante do Senhor, pois Ele é misericordioso e está pronto a perdoar os nossos pecados.</p>
       <p><em>Alia Antiph.</em> <em>ibid., 17</em> Inter vestíbulum et altáre plorábunt sacerdótes
@@ -103,7 +103,7 @@ povo; e não fecheis a boca àqueles que cantam os vossos louvores, ó Senhor».
 
 <em>Est 13; Jl. 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Emendémus in mélius, quæ ignoránter peccávimus: ne, subito præoccupáti die mortis, quærámus spátium pæniténtiæ, et inveníre non póssimus. Atténde, Dómine, et miserére: quia peccávimus tibi, <em>℣. Ps. 78,9</em> Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos. Atténde, Dómine. ℣. Glória Patri...</p>
       <p>Reparemos o mal que praticámos por ignorância, para que não aconteça que, surpreendidos pelo dia da morte, queiramos fazer penitência, mas já não tenhamos tempo! Ouvi-nos, Senhor, e tende misericórdia de nós, pois pecámos contra Vós. <em>℣. Sl. 78,9</em> Auxiliai-nos, ó Deus, nosso Salvador, e, pela honra do vosso nomes, salvai-nos, Senhor. Ouvi-nos, Senhor, e tende misericórdia de nós, pois pecámos contra Vós. Glória ao Pai...</p>
       </div>
@@ -112,14 +112,14 @@ povo; e não fecheis a boca àqueles que cantam os vossos louvores, ó Senhor».
 
 <em>Gn 3, 19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Memento, homo, quia pulvis es, et in púlverem revertéris.</p>
       <p>Lembra-te, homem, que és pó e que em pó te hás-de tornar.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde nobis, Dómine, præsídia milítiæ christiánæ sanctis inchoáre jejúniis: ut, contra spiritáles nequítias pugnatúri, continéntiæ muniámur auxíliis. Per Christum, Dóminum nostrum. <span className="text-red-500">℟.</span> Amen.</p>
       <p>Permiti, Senhor, que iniciemos com estes salutares jejuns esta estação da milícia cristã, a fim de que, havendo nós de combater contra os espíritos do mal, estejamos munidos contra os seus esforços com os auxílios da abstinência. Por Cristo, nosso Senhor. <span className="text-red-500">℟.</span> Amen.</p>
       </div>
@@ -128,14 +128,14 @@ povo; e não fecheis a boca àqueles que cantam os vossos louvores, ó Senhor».
 
 <em>Sb, 11, 24, 25 & 27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miseréris ómnium, Dómine, et nihil odísti eórum quæ fecísti, dissímulans peccáta hóminum propter pæniténtiam et parcens illis: quia tu es Dóminus, Deus noster. <em>Ps. 56, 2</em> Miserére mei, Deus, miserére mei: quóniam in te confídit ánima mea. ℣. Gloria Patri...</p>
       <p>Senhor, tendes piedade de todos e não odiais aqueles que criastes; atenuais e perdoais os pecados dos homens, para que façam penitência, porquanto sois o Senhor, nosso Deus. <em>Sl. 56, 2</em> Tende piedade de mim, pois em Vós procura refúgio a minha alma. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, Dómine, fidélibus tuis: ut jejuniórum veneránda sollémnia, et cóngrua pietáte suscípiant, et secúra devotióne percúrrant. Per Dóminum...</p>
       <p>Permiti, Senhor, aos vossos fiéis que iniciem com sincera piedade as veneráveis solenidades destes jejuns e que possam continuá-las até ao fim sempre devotamente. Por nosso Senhor...</p>
       </div>
@@ -144,7 +144,7 @@ povo; e não fecheis a boca àqueles que cantam os vossos louvores, ó Senhor».
 
 <em>Jl. 2, 12-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Joélis Prophétæ.</p>
       <p>Lição do Profeta Joel.</p>
       <p>Hæc dicit Dóminus: Convertímini ad me in toto corde vestro, in jejúnio, et in fletu, et in planctu. Et scíndite corda vestra, et non vestiménta vestra, et convertímini ad Dóminum, Deum vestrum: quia benígnus et miséricors est, pátiens, et multæ misericórdiæ, et præstábilis super malítia. Quis scit, si convertátur, et ignóscat, et relínquat post se benedictiónem, sacrifícium et libámen Dómino, Deo vestro? Cánite tuba in Sion, sanctificáte jejúnium, vocáte cœtum, congregáte pópulum, sanctificáte ecclésiam, coadunáte senes, congregáte parvulos et sugéntes úbera: egrediátur sponsus de cubíli suo, et sponsa de thálamo suo. Inter vestíbulum et altare plorábunt sacerdótes minístri Dómini, et dicent: Parce, Dómine, parce pópulo tuo: et ne des hereditátem tuam in oppróbrium, ut dominéntur eis natiónes. Quare dicunt in pópulis: Ubi est Deus eórum? Zelátus est Dóminus terram suam, et pepércit pópulo suo. Et respóndit Dóminus, et dixit populo suo: Ecce, ego mittam vobis fruméntum et vinum et óleum, et replebímini eis: et non dabo vos ultra oppróbrium in géntibus: dicit Dóminus omnípotens.</p>
@@ -155,7 +155,7 @@ povo; e não fecheis a boca àqueles que cantam os vossos louvores, ó Senhor».
 
 <em>Sl. 56, 2 et 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mei, Deus, miserére mei: quóniam in te confídit ánima mea. ℣. Misit de cœlo, et liberávit me, dedit in oppróbrium conculcántes me.</p>
       <p>Tende misericórdia de mim, ó Deus; tende misericórdia de mim; pois a minha alma confia em Vós. ℣. Mandou auxílio do céu, livrando-me, e condenou ao opróbrio aqueles que me espezinhavam.</p>
       </div>
@@ -164,7 +164,7 @@ povo; e não fecheis a boca àqueles que cantam os vossos louvores, ó Senhor».
 
 <em>Sl. 102, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis. ℣. <em>Ps. 78, 8-9</em> Dómine, ne memíneris iniquitátum nostrarum antiquarum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. <em>Hic genuflectitur</em> ℣. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, libera nos: et propítius esto peccátis nostris, propter nomen tuum.</p>
       <p>Senhor, nos não castigueis, consoante merecemos, pelos pecados que praticámos: nem nos julgueis, segundo as nossas iniquidades. ℣. <em>Sl. 78, 8-9</em> Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. <em>Aqui genuflectir</em> ℣. Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome.</p>
       </div>
@@ -173,7 +173,7 @@ povo; e não fecheis a boca àqueles que cantam os vossos louvores, ó Senhor».
 
 <em>Mt. 6, 16-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -185,14 +185,14 @@ S. Mateus.</p>
 
 <em>Sl. 29,2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me: Dómine, clamávi ad te, et sanásti me.</p>
       <p>Exaltar-Vos-ei, Senhor, porque me escolhestes e não permitistes que meus inimigos abusassem de mim. Clamei por Vós, Senhor, e curastes-me.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fac nos, quǽsumus, Dómine, his munéribus offeréndis conveniénter aptári: quibus ipsíus venerábilis sacraménti celebrámus exórdium. Per Dóminum...</p>
       <p>Vos suplicamos, Senhor, tornai-nos dignos de Vos oferecermos, como devemos, estes dons sacratíssimos com os quais iniciamos a celebração deste venerando tempo, cheio de mystério. Por nosso Senhor...</p>
       </div>
@@ -201,14 +201,14 @@ S. Mateus.</p>
 
 <em>Sl. 1, 2 & 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui meditábitur in lege Dómini die ac nocte, dabit fructum suum in témpore suo.</p>
       <p>Aquele que meditar durante o dia e a noite na Lei do Senhor dará fruto no tempo próprio.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Percépta nobis, Dómine, prǽbeant sacraménta subsídium: ut tibi grata sint nostra jejúnia, et nobis profíciant ad medélam. Per Dóminum nostrum...</p>
       <p>Senhor, permiti que os sacramentos, que recebemos, nos propiciem o auxílio de que carecemos, a fim de que os nossos jejuns Vos sejam agradáveis e se tornem em remédio para os nossos males. Por nosso Senhor...</p>
       </div>

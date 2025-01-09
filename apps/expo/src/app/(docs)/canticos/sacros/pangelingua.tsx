@@ -10,7 +10,7 @@ export default function PagePangelingua() {
       <h1>Pange, lingua, gloriósi</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pange, lingua, gloriósi Córporis mystérium, Sanguinísque pretiósi, Quem in mundi prétium Fructus ventris generósi Rex effúdit géntium.</p>
       <p>Canta, ó minha língua, o mystério do Corpo e do Sangue precioso que foi derramado para resgate do mundo, fruto dum seio fecundo, o Rei dos povos.</p>
       <p>Nobis datus, nobis natus Ex intácta Vírgine, Et in mundo conversátus, Sparso verbi sémine, Sui moras incolátus Miro clausit órdine.</p>
@@ -21,12 +21,12 @@ export default function PagePangelingua() {
       <p>O Verbo feito carne mudou pela sua palavra um pão verdadeiro na própria Carne, e o vinho no Sangue de Cristo; e se a razão desfalece, não podendo compreender isto, a fé basta para corroborar esta crença nos corações sinceros.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tamtum ergo Sacraméntum Venerémur cérnui: Et antíquum documéntum Novo cedat rítui: Præstet fides suppleméntum Sénsuum deféctui.</p>
       <p>Adoremos, pois, prostrados este tão grande Sacramento: cedam os ritos antigos o lugar ao novo mystério e que a fé supra a fraqueza dos nossos sentidos.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Genitóri, Genitóque Laus et jubilátio, Salus, honor, virtus quoque Sit et benedíctio: Procedénti ab utróque Compar sit laudátio. Amen. Alleluja.</p>
       <p>Glória, honra, louvor, poder, acção de graças e bênçãos sejam dadas ao Pai e ao Filho: e dêem-se iguais louvores ao que procede de um e do outro. Amen.</p>
       </div>

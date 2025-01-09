@@ -10,7 +10,7 @@ export default function Page007() {
       <h1>Salmo 7</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, Deus meus, in Te sperávi: * salvum me fac ex ómnibus persequéntibus me, et líbera me.</p>
       <p>Senhor, Deus meu, em Vós esperei: * salvai-me de todos os que me perseguem e livrai-me.</p>
       <p>Nequándo rápiat ut leo ánimam meam, * dum non est qui rédimat, neque qui salvum fáciat.</p>

@@ -10,7 +10,7 @@ export default function Page009() {
       <h1>Salmo 9</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitébor tibi, Dómine, in toto corde meo: * narrábo ómnia mirabília tua.</p>
       <p>Eu Vos glorificarei, ó Senhor, com todo meu coração: * narrarei todas as vossas maravilhas.</p>
       <p>Lætábor et exsultábo in Te: * psallam nómini tuo, Altíssime.</p>

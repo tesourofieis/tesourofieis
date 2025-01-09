@@ -14,14 +14,14 @@ export default function Page0915() {
 
 <em>Jo. 19, 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et Salóme et María Magdaléne. <em>ibid., 26-27</em> Múlier, ecce fílius tuus: dixit Jesus; ad discípulum autem: Ecce Mater tua. ℣. Gloria Patri...</p>
       <p>Estavam junto à Cruz de Jesus, sua Mãe, a irmã de sua Mãe, Maria, mulher de Cléofas, Salomé e Maria Madalena. <em>ibid., 26-27</em> «Mulher disse Jesus eis o vosso Filho»; e, dirigindo-se ao discípulo, disse: «Eis a tua Mãe». ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, in cujus passióne, secúndum Simeónis prophétiam, dulcíssimam ánimam gloriósæ Vírginis et Matris Maríæ dolóris gladius pertransívit: concéde propítius; ut, qui transfixiónem ejus et passiónem venerándo recólimus, gloriósis méritis et précibus ómnium Sanctórum Cruci fidéliter astántium intercedéntibus, passiónis tuæ efféctum felícem consequámur: Qui vivis...</p>
       <p>Ó Deus, em cuja Paixão, segundo a profecia de Simeão, uma espada de dor traspassou a terníssima alma da Virgem Maria, vossa Mãe, concedei-nos propício que, celebrando devotamente a memória da sua Transfixão e das suas Dores, alcancemos o feliz efeito da vossa Paixão, pelos gloriosos méritos e preces de todos os Santos, que fielmente permaneceram junto à Cruz. Ó Vós, que...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0915() {
 
 <em>Jdt. 13, 22 & 23-25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Judith.</p>
       <p>Lição do Livro de Judite.</p>
       <p>Benedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit inimícos nostros. Benedícta es tu, fília, a Dómino, Deo excélso, præ ómnibus muliéribus super terram. Benedíctus Dóminus, qui creávit cœlum et terram: quia hódie nomen tuum ita magnificávit, ut non recédat laus tua de ore hóminum, qui mémores fúerint virtútis Dómini in ætérnum, pro quibus non pepercísti ánimæ tuæ propter angústias et tribulatiónem géneris tui, sed subvenísti ruínæ ante conspéctum Dei nostri.</p>
@@ -39,7 +39,7 @@ export default function Page0915() {
 
       <h3>Gradual</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dolorósa et lacrimábilis es, Virgo María, stans juxta Crucem Dómini Jesu, Fílii tui, Redemptóris. ℣. Virgo Dei Génetrix, quem totus non capit orbis, hoc crucis fert supplícium, auctor vitæ factus homo.</p>
       <p>Cheia de dores e de lágrimas, ó Virgem Maria, estavas junto à Cruz do Senhor Jesus, vosso Filho e Redentor. ℣. Ó Virgem, Mãe de Deus, Aquele a quem o mundo não pode conter o autor da vida feito homem sofre este suplício da cruz!</p>
       <p>Allelúja, allelúja. ℣. Stabat sancta María, cœli Regína et mundi Dómina, juxta Crucem Dómini nostri Jesu Christi dolorósa.</p>
@@ -48,14 +48,14 @@ export default function Page0915() {
 
       <h3>Trato</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Stabat sancta María, cœli Regína et mundi Dómina, juxta Crucem Dómini nostri Jesu Christi dolorósa. ℣. <em>Thren. 1, 12</em> O vos omnes, qui tránsitis per viam, atténdite et vidéte, si est dolor sicut dolor meus.</p>
       <p>Estava, dolorosa, Santa Maria, Rainha do céu e Senhora do mundo, junto à Cruz de nosso Senhor Jesus Cristo. ℣. <em>Lm. 1, 12</em> Ó vós todos, que passais pelo mundo, atendei e vede se há dor semelhante à minha dor!</p>
       </div>
 
       <h3>Sequência</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Stabat Mater dolorósa iuxta Crucem lacrimósa, dum pendébat Fílius.</p>
       <p>Estava dolorosa e lacrimosa a Mãe junto à Cruz, donde pendia o Filho.</p>
       <p>Cuius ánimam geméntem, con­tris­tátam et doléntem per­tran­sívit gládius.</p>
@@ -112,28 +112,28 @@ export default function Page0915() {
 
 <em>Jr. 18, 20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Recordáre, Virgo, Mater Dei, dum stéteris in conspéctu Dómini, ut loquáris pro nobis bona, et ut avértat indignatiónem suam a nobis.</p>
       <p>Ó Virgem, Mãe de Deus, quando estiverdes na presença do Senhor, lembrai-Vos de nós; intercedei em nosso favor junto d’Ele e afastai de nós a sua indignação.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Offérimus tibi preces et hóstias, Dómine Jesu Christe, humiliter supplicántes: ut, qui Transfixiónem dulcíssimi spíritus beátæ Maríæ, Matris tuæ, précibus recensémus; suo suorúmque sub Cruce Sanctórum consórtium multiplicáto piíssimo intervéntu, méritis mortis tuæ, méritum cum beátis habeámus: Qui vivis...</p>
       <p>Senhor Jesus Cristo, Vos oferecemos as nossas preces e oblações e Vos rogamos humildemente que, recordando nas nossas orações a Transfixão da terníssima alma da B. Maria, vossa Mãe, e pelos seus rogos e piíssima intercessão dos Santos, que permaneceram ao pé da Cruz, tenhamos parte com os bem-aventurados nos méritos da vossa morte. Ó Vós, que, sendo Deus, viveis e...</p>
       </div>
 
       <h3>Comúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Felices sensus beátæ Maríæ Vírginis, qui sine morte meruérunt martýrii palmam sub Cruce Dómini.</p>
       <p>Ditosos os sentidos da B. Virgem Maria, que sem serem feridos pela morte alcançaram a palma do martírio, ao pé da Cruz do Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrifícia, quæ súmpsimus, Dómine Jesu Christe, Transfixiónem Matris tuæ et Vírginis devóte celebrántes: nobis ímpetrent apud cleméntiam tuam omnis boni salutáris efféctum: Qui vivis...</p>
       <p>Que os sacratíssimos dons com que nos alimentámos, Senhor Jesus Cristo, celebrando piedosamente a Transfixão da vossa Mãe, sempre Virgem, nos obtenham da vossa clemência o efeito de todo o bem salutar. Ó Vós, que, sendo Deus, viveis e...</p>
       </div>

@@ -14,14 +14,14 @@ export default function PagePeregrinosviajantes() {
 
 <em>Sl. 25, 11-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta: in ecclésiis benedícam Dóminum. (T. P. Allelúja, allelúja.) <em>Ps. ibid., 1</em> Júdica me. Dómine, quóniam ego in innocéntia mea ingréssus sum: et in Dómino sperans non infirmábor. ℣. Gloria Patri...</p>
       <p>Resgatai-me, Senhor, e tende misericórdia de mim, pois o meu pé está assente em caminho direito; bendirei o Senhor nas assembleias. (T. P. Aleluia, aleluia.) <em>Sl. ibid., 1</em> Julgai-me, Senhor, porquanto tenho caminhado com a minha inocência, e, confiando no Senhor, não vacilarei. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adésto, Dómine, supplicatiónibus nostris: et viam famulórum tuorum in salútis tuæ prosperitáte dispóne; ut, inter omnes viæ et vitæ hujus varietátes, tuo semper protegántur auxílio. Per Dóminum nostrum...</p>
       <p>Atendei, Senhor, às nossas súplicas, e conduzi os vossos servos com prosperidade na via da salvação, a fim de que, em todas as circunstâncias do caminho da sua vida, sempre sejam amparados com vosso auxílio. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePeregrinosviajantes() {
 
 <em>Gn. 28,10-12,13-15,18 & 20-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Genesis.</p>
       <p>Lição do Livro do Génesis.</p>
       <p>In diébus illis: Egréssus Jacob de Bersabée, pergébat Haran. Cumque venísset ad quendam locum, et vellet in eo requiéscere post solis occúbitum, tulit de lapídibus qui jacébant, et suppónens cápiti suo, dormívit in eódem loco. Vidítque in somnis Dóminum dicéntem sibi: Ego sum Dóminus, Deus Abraham, patris tui, et Deus Isaac: terram, in qua dormis, tibi dabo et sémini tuo. Erítque semen tuum quasi pulvis terræ: dilatáberis ad Occidéntem et Oriéntem et Septentriónem et Merídiem: et benedicéntur in te et in sémine tuo cunctæ tribus terræ. Et ero custos tuus, quocúmque perréxeris, et reducam te in terram hanc; nec dimíttam, nisi complévero univérsa quæ dixi. Surgens ergo Jacob mane, tulit lápidem, quem supposúerat cápiti suo, et eréxit in títulum, fundens óleum désuper. Vovit étiam votum, dicens: Si fúerit Deus mecum et custodíerit me in via, per quam ego ámbulo, et déderit mihi panem ad vescéndum et vestiméntum ad induéndum, reversúsque fúero próspere ad domum patris mei: erit mihi Dóminus in Deum, et lapis iste, quem eréxi in títulum, vocábitur domus Dei: cunctorúmque, quæ déderis mihi, décimas ófferam tibi.</p>
@@ -41,7 +41,7 @@ export default function PagePeregrinosviajantes() {
 
 <em>Sl. 22, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Si ámbulem in médio umbræ mortis, non timébo mala, quóniam tu mecum es, Dómine. ℣. Virga tua et báculus tuus, ipsa me consoláta sunt.</p>
       <p>Ainda que eu caminhe no meio das sombras da morte, não recearei mal algum, porque Vós, Senhor, estareis comigo. ℣. Vossa vara e o vosso bastão me consolarão.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 118, 133</em> Gressus meos dírige secúndum elóquium tuum: ut non dominétur mei omnis injustítia. Allelúja.</p>
@@ -54,14 +54,14 @@ export default function PagePeregrinosviajantes() {
 
 <em>Sl. 90, 11-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis tuis. ℣. In mánibus portábunt te, ne umquam offéndas ad lápidem pedem tuum. ℣. Super áspidem et basilíscum ambulábis, et conculcábis leónem et dracónem.</p>
       <p>Ordenou Deus aos seus Anjos que te guardassem em todos teus caminhos. ℣. Conduzir-te-ão com suas mãos, para que as pedras te não magoem. ℣. Caminharás sobre a áspide e o basilisco e calcarás o leão e o dragão.</p>
       </div>
 
 <aside>No Tempo Pascal omite-se Gradual e o Trato, dizendo-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 118, 133</em> Gressus meos dírige secúndum elóquium tuum: ut non dominétur mei omnis injustítia. Allelúja. ℣. <em>Ps. 121, 1</em> Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 118, 133</em> Encaminhei os meus passos segundo a vossa doutrina, para que nenhuma injustiça me possa dominar. Aleluia. ℣. <em>Sl. 121, 1</em> Alegrei-me quando me foram ditas estas palavras: «Iremos até à casa do Senhor». Aleluia.</p>
       </div>
@@ -70,7 +70,7 @@ export default function PagePeregrinosviajantes() {
 
 <em>Mt. 10, 7-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Eúntes, prædicáte, dicéntes: Quia appropinquávit regnum cœlórum. Infirmos curáte, mortuos suscitáte, leprósos mundáte, dǽmones ejícite: gratis accepístis, gratis date. Nolíte possídere aurum neque argéntum neque pecúniam in zonis vestris: non peram in via, neque duas túnicas, neque calceaménta, neque virgam: dignus enim estoperárius cibo suo. In quamcúmque autem civitátem aut castéllum intravéritis, interrogáte, quis in ea dignus sit: et ibi manéte, donec exeátis. Intrántes autem in domum, salutáte eam, dicéntes: Pax huic dómui. Et si quidem fúerit domus illa digna, véniet pax vestra super eam: si autem non fúerit digna, pax vestra revertétur ad vos. Et quicúmque non recéperit vos, neque audiérit sermónes vestros: exeúntes foras de domo vel civitáte, excútite púlverem de pédibus vestris.</p>
@@ -81,14 +81,14 @@ export default function PagePeregrinosviajantes() {
 
 <em>Sl. 16, 5 & 6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea: inclína aurem tuam mihi, et exáudi verba mea: mirífica misericórdias tuas, qui salvos facis sperántes in te, Dómine. (T. P. Allelúja.)</p>
       <p>Firmai os meus pés nos vossos caminhos, para que se não apaguem as minhas pegadas: inclinai os vossos ouvidos para mim e ouvi as minhas palavras: Senhor, que salvais os que em Vós confiam, fazei brilhar as vossas misericórdias. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propitiáre, Dómine, supplicatiónibus nostris, et has oblationes, quas tibi offérimus pro fámulis tuis, benígnus assúme: ut viam illórum et præcedénte grátia tua dírigas et subsequénte comitári dignéris; ut de actu atque incolumitáte eórum, secúndum misericórdiæ tuæ præsídia, gaudeámus. Per Dóminum...</p>
       <p>Atendei propício, Senhor, às nossas súplicas, e aceitai benignamente as oblações que Vos oferecemos em nome dos vossos servos, a fim de que, caminhando com vossa graça, dirijais o seu caminho e Vos digneis acompanhá-los, de modo que nos alegremos que eles cheguem incólumes ao termo da sua viagem, com o socorro da vossa misericórdia. Por nosso Senhor...</p>
       </div>
@@ -97,14 +97,14 @@ export default function PagePeregrinosviajantes() {
 
 <em>Sl. 118, 4-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tu mandásti mandáta tua custodíri nimis: útinam dirigántur viæ meæ, ad custodiéndas justificatiónes tuas. (T. P. Allelúja.)</p>
       <p>Ordenastes que os vossos Mandamentos fossem rigorosamente observados: praza a Deus que meus passos sejam conduzidos segundo os vossos preceitos. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tua, Dómine, sacraménta, quæ súmpsimus, fámulos tuos in te sperántes custódiant: et contra omnes advérsos tueántur incúrsus. Per Dóminum...</p>
       <p>Que estes sacramentos, que recebemos, Senhor, guardem aqueles que em Vós Confiam e os protejam contra todos os embates adversários. Por nosso Senhor...</p>
       </div>

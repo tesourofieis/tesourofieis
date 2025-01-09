@@ -14,14 +14,14 @@ export default function PageQuad14() {
 
 <em>Sl. 95, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia in sanctificatióne eius. <em>Ps. ibid., 1</em> Cantáte Dómino cánticum novum: cantáte Dómino, omnis terra. ℣. Gloria Patri...</p>
       <p>A glória e a majestade estão na sua presença; a santidade e a magnificência brilham no seu santuário. <em>Sl. ibid., 1</em> Cantai ao Senhor um cântico novo; cantai em honra do Senhor, ó povos de toda a terra. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui per abstinéntiam macerántur in córpore, per fructum boni óperis reficiántur in mente. Per Dóminum...</p>
       <p>Olhai benigno, Senhor, Vos suplicamos, para a piedade do vosso povo, a fim de que aqueles que mortificam o corpo com a abstinência sejam enriquecidos na alma com os frutos das boas obras. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad14() {
 
 <em>Ez. 18, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Ezechiélis Prophétæ.</p>
       <p>Lição do Profeta Ezequiel.</p>
       <p>In diébus illis: Factus est sermo Dómini ad me, dicens: Quid est, quod inter vos parábolam vértitis in provérbium istud in terra Israël, dicéntes: Patres comedérunt uvam acérbam, et dentes filiórum obstupéscunt? Vivo ego, dicit Dóminus Deus, si erit ultra vobis parábola hæc in provérbium in Israël. Ecce, omnes ánimæ meæ sunt: ut ánima patris, ita et ánima fílii mea est: ánima, quæ peccáverit, ipsa moriétur. Et vir si fúerit justus, et fécerit judícium et justítiam, in móntibus non coméderit, et óculos suos non leváverit ad idóla domus Israël: et uxórem próximi sui non violáverit, et ad mulíerem menstruátam non accésserit: et hóminem non contristáverit: pignus debitóri reddíderit, per vim nihil rapúerit: panem suum esuriénti déderit, et nudum operúerit vestiménto: ad usúram non commodáverit, et ámplius non accéperit: ab iniquitáte avértent manum suam, et judícium verum fécerit inter virum et virum: in præcéptis meis ambuláverit, et judícia mea custodíerit, ut fáciat veritátem: hic justus est, vita vivet, ait Dóminus omnípotens.</p>
@@ -41,7 +41,7 @@ export default function PageQuad14() {
 
 <em>Sl. 16, 8 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me. ℣. De vultu tuo judícium meum pródeat: óculi tui vídeant æquitátem.</p>
       <p>Guardai-me, Senhor, como à pupila dos vossos olhos; protegei-me com a sombra das vossas asas. ℣. Que meu julgamento seja pronunciado diante de Vós; que os vossos olhos vejam a equidade da minha causa.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad14() {
 
 <em>Mt. 15, 21-28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Egréssus Jesus secéssit in partes Tyri et Sidónis. Et ecce, múlier Chananǽa a fínibus illis egréssa clamávit, dicens ei: Miserére mei, Dómine, fili David: fília mea male a dæmónio vexátur. Qui non respóndit ei verbum. Et accedéntes discípuli ejus rogábant eum, dicéntes: Dimítte eam; quia clamat post nos. Ipse autem respóndens, ait: Non sum missus nisi ad oves, quæ periérunt domus Israël. At illa venit, et adorávit eum, dicens: Dómine, ádjuva me. Qui respóndens, ait: Non est bonum sumere panem filiórum, et míttere cánibus. At illa dixit: Etiam, Dómine: nam et catélli edunt de micis, quæ cadunt de mensa dominórum suórum. Tunc respóndens Jesus, ait illi: O múlier, magna est fides tua: fiat tibi, sicut vis. Et sanáta est fília ejus ex illa hora.</p>
@@ -61,14 +61,14 @@ export default function PageQuad14() {
 
 <em>Sl. 33, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Immíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos: gustáte, et vidéte, quóniam suávis est Dóminus.</p>
       <p>O Anjo do Senhor rodeia aqueles que o temem e salvá-los-á. Examinai e vede como o Senhor é bom!</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrifícia, Dómine, quǽsumus, propénsius ista nos salvent, quæ medicinálibus sunt institúta jejúniis. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, permiti que estes sacrifícios, que foram instituídos juntamente com jejuns salutares, nos salvem pela vossa misericórdia. Por nosso Senhor...</p>
       </div>
@@ -77,21 +77,21 @@ export default function PageQuad14() {
 
 <em>Jo. 6, 52</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Panis, quem ego dédero, caro mea est pro sǽculi vita.</p>
       <p>O pão que eu Vos der é a minha carne para a salvação do mundo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tuórum nos, Dómine, largitáte donórum, et temporálibus attólle præsídiis, et rénova sempitérnis. Per Dóminum nostrum...</p>
       <p>Com a liberalidade de vossos dons, Senhor, livrai-nos das prisões temporais e renovai-nos para a eternidade. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

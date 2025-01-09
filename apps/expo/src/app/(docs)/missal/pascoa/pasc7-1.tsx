@@ -14,14 +14,14 @@ export default function PagePasc71() {
 
 <em>Sl. 80, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle saturávit eos, allelúja, allelúja. <em>Ps. ibid., 2</em> Exsultáte Deo, adjutóri nostro: jubiláte Deo Jacob. ℣. Gloria Patri...</p>
       <p>Alimentou-os Deus com o pão mais puro, aleluia: e saciou-os com o mel que fez brotar de uma rocha, aleluia, aleluia. <em>Sl. ibid., 2</em> Louvai alegremente o Senhor, que é o nosso sustentáculo; aclamai com hinos de alegria o Deus de Jacob. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui Apóstolis tuis Sanctum dedísti Spíritum: concéde plebi tuæ piæ petitiónis efféctum; ut, quibus dedísti fidem, largiáris et pacem. Per Dóminum...</p>
       <p>Ó Deus, que enviastes o Espírito Santo aos vossos Apóstolos, atendei às pias orações do vosso povo, a fim de que àqueles a quem já destes a fé concedais também a paz. Por nosso Senhor...</p>
       </div>
@@ -30,14 +30,14 @@ export default function PagePasc71() {
 
 <em>Act. 10, 34 & 42-48</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Apériens Petrus os suum, dixit: Viri fratres, nobis præcépit Dóminus prædicáre pópulo: et testificári, quia ipse est, qui constitútus est a Deo judex vivórum et mortuórum. Huic omnes Prophétæ testimónium pérhibent, remissiónem peccatórum accípere per nomen ejus omnes, qui credunt in eum. Adhuc loquénte Petro verba hæc, cecidit Spíritus Sanctus super omnes, qui audiébant verbum. Et obstupuérunt ex circumcisióne fidéles, qui vénerant cum Petro: quia et in natiónes grátia Spíritus Sancti effúsa est. Audiébant enim illos loquéntes linguis et magnificántes Deum. Tunc respóndit Petrus: Numquid aquam quis prohibére potest, ut non baptizéntur hi, qui Spíritum Sanctum accepérunt sicut et nos? Et jussit eos baptizári in nómine Dómini Jesu Christi.</p>
       <p>Naqueles dias, Pedro, tomando a palavra, disse: «Varões, meus irmãos, o Senhor mandou-nos pregar ao povo e testemunhar que foi Ele quem Deus instituiu Juiz dos vivos e dos mortos. Todos os Profetas afirmam a seu respeito que aqueles que acreditarem n’Ele receberão a remissão dos pecados pelo poder do seu nome». Eis que, enquanto Pedro falava, desceu o Espírito Santo sobre aqueles que escutavam as suas palavras. E os fiéis circundados, que tinham vindo com Pedro, admiraram-se de que a graça do Espírito Santo descesse também sobre os pagãos, pois ouviram-nos falar diversas línguas e dar glória a Deus. Então, disse Pedro: «Acaso poder-se-á recusar e Baptismo àqueles que, como vós, receberam o Espírito Santo?». E mandou que fossem baptizados no nome do nosso Senhor Jesus Cristo.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Act. 2, 4</em> Loquebántur váriis linguis Apóstoli magnália Dei. Allelúja. <em>hic genuflectitur</em> ℣. Veni, Sancte Spiritus, reple tuorum corda fidélium: et tui amóris in eis ignem accénde.</p>
       <p>Aleluia, aleluia. ℣. <em>Act. 2, 4</em> Os Apóstolos publicavam em diversas línguas as maravilhas de Deus. Aleluia. <em>Genuflecte-se</em> Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.</p>
       </div>
@@ -46,7 +46,7 @@ export default function PagePasc71() {
 
 <em>Jo. 3, 16-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -58,14 +58,14 @@ S. João.</p>
 
 <em>Sl. 17, 14 & 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Intónuit de cœlo Dóminus, et Altíssimus dedit vocem suam: et apparuérunt fontes aquárum, allelúja.</p>
       <p>Lá do céu o Senhor trovejou: e o Altíssimo fez ouvir a sua voz: então irromperam as fontes das águas, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propítius, Dómine, quǽsumus, hæc dona sanctífica: et, hóstiæ spiritális oblatióne suscépta, nosmetípsos tibi pérfice munus ætérnum. Per Dóminum...</p>
       <p>Dignai-Vos, Senhor, Vos rogamos, santificar estas ofertas, e, recebendo a oblação desta hóstia espiritual, fazei que nos tornemos em um dom eterno a Vós oferecido. Por nosso Senhor...</p>
       </div>
@@ -74,14 +74,14 @@ S. João.</p>
 
 <em>Jo. 14, 26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Spíritus Sanctus docébit vos, allelúja: quæcúmque díxero vobis, allelúja, allelúja.</p>
       <p>O Espírito Santo vos inspirará, aleluia, tudo o que vos tenho ensinado, aleluia, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adésto, quǽsumus, Dómine, pópulo tuo: et, quem mystériis cœléstibus imbuísti, ab hóstium furóre defénde. Per Dóminum...</p>
       <p>Assisti ao vosso povo, Senhor, Vos suplicamos, e, havendo-o sustentado com os mystérios celestiais, defendei-o contra o furor dos inimigos. Por nosso Senhor...</p>
       </div>

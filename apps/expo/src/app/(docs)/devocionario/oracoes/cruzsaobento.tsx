@@ -10,7 +10,7 @@ export default function PageCruzsaobento() {
       <h1>Cruz São Bento</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>C.S.P.B.: Crux Sancti Patris Benedicti.</p>
       <p>C.S.P.B.: Cruz do Santo Patriarca Bento.</p>
       <p>C.S.S.M.L.: Crux Sancta Sit Mihi Lux.</p>

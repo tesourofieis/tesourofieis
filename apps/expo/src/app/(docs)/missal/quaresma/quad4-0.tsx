@@ -14,14 +14,14 @@ export default function PageQuad40() {
 
 <em>Is. 66, 10 & 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lætáre, Jerúsalem: et convéntum fácite, omnes qui dilígitis eam: gaudéte cum lætítia, qui in tristítia fuístis: ut exsultétis, et satiémini ab ubéribus consolatiónis vestræ. <em>Ps. 121, 1</em> Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. ℣. Gloria Patri...</p>
       <p>Rejubilai, ó Jerusalém; ó vós todos, que a amais, uni-vos com júbilo; exultai de alegria, ó vós, que tendes estado tristes: e ficareis alegres e saciados com o leite das suas consolações. <em>Sl. 121, 1</em> Alegrei-me com estas palavras que me disseram: Iremos à Casa do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde, quǽsumus, omnípotens Deus: ut, qui ex merito nostræ actiónis afflígimur, tuæ grátiæ consolatióne respirémus. Per Dóminum nostrum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, visto que estamos justamente aflitos com o peso dos nossos pecados, concedei-nos que sejamos aliviados com a consolação da vossa graça. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad40() {
 
 <em>Gl. 4, 22-31</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.</p>
       <p>Fratres: Scriptum est: Quóniam Abraham duos fílios habuit: unum de ancílla, et unum de líbera. Sed qui de ancílla, secúndum carnem natus est: qui autem de líbera, per repromissiónem: quæ sunt per allegóriam dicta. Hæc enim sunt duo testaménta. Unum quidem in monte Sina, in servitútem génerans: quæ est Agar: Sina enim mons est in Arábia, qui conjúnctus est ei, quæ nunc est Jerúsalem, et servit cum fíliis suis. Illa autem, quæ sursum est Jerúsalem, líbera est, quæ est mater nostra. Scriptum est enim: Lætáre, stérilis, quæ non paris: erúmpe, et clama, quæ non párturis: quia multi fílii desértæ, magis quam ejus, quæ habet virum. Nos autem, fratres, secúndum Isaac promissiónis fílii sumus. Sed quómodo tunc is, qui secúndum carnem natus fúerat, persequebátur eum, qui secúndum spíritum: ita et nunc. Sed quid dicit Scriptura? Ejice ancillam et fílium ejus: non enim heres erit fílius ancíllæ cum fílio líberæ. Itaque, fratres, non sumus ancíllæ fílii, sed líberæ: qua libertáte Christus nos liberávit.</p>
@@ -41,7 +41,7 @@ export default function PageQuad40() {
 
 <em>Sl. 121, 1 & 7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. ℣. Fiat pax in virtúte tua: et abundántia in túrribus tuis.</p>
       <p>Alegrei-me com estas palavras que me disseram: Iremos à Casa do Senhor. ℣. Que a paz reine dentro dos teus muros: e a abundância nos teus palácios.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad40() {
 
 <em>Sl. 124, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui confídunt in Dómino, sicut mons Sion: non commovébitur in ætérnum, qui hábitat in Jerúsalem. ℣. Montes in circúitu ejus: et Dóminus in circúitu pópuli sui, ex hoc nunc et usque in sǽculum.</p>
       <p>Aqueles que confiam no Senhor estão firmes, como o monte Sião. Aquele que habita em Jerusalém nunca será abalado. ℣. O Senhor cerca com montanhas o seu povo, e fica em torno dele agora e em todos os séculos.</p>
       </div>
@@ -59,7 +59,7 @@ export default function PageQuad40() {
 
 <em>Jo. 6, 1-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Abiit Jesus trans mare Galilǽæ, quod est Tiberíadis: et sequebátur eum multitúdo magna, quia vidébant signa, quæ faciébat super his, qui infírmabántur. Súbiit ergo in montem Jesus: et ibi sedébat cum discípulis suis. Erat autem próximum Pascha, dies festus Judæórum. Cum sublevásset ergo óculos Jesus et vidísset, quia multitúdo máxima venit ad eum, dixit ad Philíppum: Unde emémus panes, ut mandúcent hi? Hoc autem dicebat tentans eum: ipse enim sciébat, quid esset factúrus. Respóndit ei Philíppus: Ducentórum denariórum panes non suffíciunt eis, ut unusquísque módicum quid accípiat. Dicit ei unus ex discípulis ejus, Andréas, frater Simónis Petri: Est puer unus hic, qui habet quinque panes hordeáceos et duos pisces: sed hæc quid sunt inter tantos? Dixit ergo Jesus: Fácite hómines discúmbere. Erat autem fænum multum in loco. Discubuérunt ergo viri, número quasi quinque mília. Accépit ergo Jesus panes, et cum grátias egísset, distríbuit discumbéntibus: simíliter et ex píscibus, quantum volébant. Ut autem impléti sunt, dixit discípulis suis: Collígite quæ superavérunt fragménta, ne péreant. Collegérunt ergo, et implevérunt duódecim cóphinos fragmentórum ex quinque pánibus hordeáceis, quæ superfuérunt his, qui manducáverant. Illi ergo hómines cum vidíssent, quod Jesus fécerat signum, dicébant: Quia hic est vere Prophéta, qui ventúrus est in mundum. Jesus ergo cum cognovísset, quia ventúri essent, ut ráperent eum et fácerent eum regem, fugit íterum in montem ipse solus.</p>
@@ -70,14 +70,14 @@ export default function PageQuad40() {
 
 <em>Sl. 134, 3 & 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudáte Dóminum, quia benígnus est: psállite nómini ejus, quóniam suávis est: ómnia, quæcúmque vóluit, fecit in cœlo et in terra.</p>
       <p>Louvai o Senhor, porque Ele é bom: Cantai hinos em louvor do seu nome, porque Ele é suave. O Senhor criou no céu e na terra tudo quanto quis.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et devotióni nostræ profíciant et salúti. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, olhai aplacado para este sacrifício; e que ele alente a nossa piedade e nos alcance a salvação. Por nosso Senhor...</p>
       </div>
@@ -86,14 +86,14 @@ export default function PageQuad40() {
 
 <em>Sl. 121,3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jerúsalem, quæ ædificátur ut cívitas, cujus participátio ejus in idípsum: illuc enim ascendérunt tribus, tribus Dómini, ad confiténdum nómini tuo. Dómine.</p>
       <p>Jerusalém é uma cidade tão bem edificada, que está agrupada em um conjunto. Foi lá que subiram as tribos (as tribos do Senhor) para louvar o vosso nome, ó Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da nobis, quǽsumus, miséricors Deus: ut sancta tua, quibus incessánter explémur, sincéris tractémus obséquiis, et fidéli semper mente sumámus. Per Dóminum...</p>
       <p>Ó Deus de misericórdia, concedei-nos a graça de nos aproximarmos com respeito sincero dos vossos sagrados mystérios, de que fomos saciados, e de os recebermos sempre com espírito de fé. Por nosso Senhor...</p>
       </div>

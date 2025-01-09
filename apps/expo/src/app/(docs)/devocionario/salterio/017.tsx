@@ -10,7 +10,7 @@ export default function Page017() {
       <h1>Salmo 17</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Díligam Te, Dómine, fortitúdo mea: * Dóminus firmaméntum meum, et refúgium meum, et liberátor meus.</p>
       <p>Eu Vos amarei, ó Senhor, minha fortaleza: * o Senhor é o meu firmamento, o meu refúgio e o meu libertador.</p>
       <p>Deus meus adjútor meus, * et sperábo in eum.</p>

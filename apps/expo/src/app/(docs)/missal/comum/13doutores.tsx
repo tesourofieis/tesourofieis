@@ -14,14 +14,14 @@ export default function Page13Doutores() {
 
 <em>Ecl. 15, 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (T. P. Allelúja, allelúja.) <em>Ps. 91, 2</em> Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime. ℣. Gloria Patri...</p>
       <p>Abriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o espírito da sabedoria e da inteligência e revestiu-o com a túnica da glória. (T. P. Aleluia, aleluia.) <em>Sl. 91, 2</em> É bom louvar o Senhor: e cantar hinos em honra do vosso nome, ó Altíssimo! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui pópulo tuo ætérnæ salútis beátum <span className="text-red-500">N.</span> minístrum tribuísti: præsta, quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem habére mereámur in cœlis. Per Dóminum...</p>
       <p>Ó Deus, que ao vosso povo destinastes o B. <span className="text-red-500">N.</span> para ministro da eterna salvação, concedei-nos, Vos suplicamos, que, assim como o tivemos como Doutor durante a nossa vida na terra, assim gozemos a sua intercessão no céu. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page13Doutores() {
 
 <em>2, Tm. 4, 1-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo a Timóteo.</p>
       <p>Caríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vi vos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria, coacervábunt sibi magistros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum ímpie. Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus.</p>
@@ -41,7 +41,7 @@ export default function Page13Doutores() {
 
 <em>Sl. 36, 30-31</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium. ℣. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.</p>
       <p>A boca do justo falará com sabedoria e a sua língua proclamará a justiça. ℣. A lei do seu Deus está sempre no seu coração e os seus pés não tropeçarão.</p>
       <p>Allelúja, allelúja. ℣. <em>Eccli. 45, 9</em> Amávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja.</p>
@@ -54,14 +54,14 @@ export default function Page13Doutores() {
 
 <em>Sl. 111, 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Potens in terra erit semen ejus: generátio rectórum benedicétur. ℣. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.</p>
       <p>Bem-aventurado o varão que teme o Senhor e que emprega todo o zelo em obedecer-Lhe. ℣. Sua descendência será poderosa na terra, pois a geração dos justos será abençoada. ℣. Na sua casa haverá glória e riqueza: e a sua justiça subsistirá em todos os séculos dos séculos.</p>
       </div>
 
 <aside>No T. Pascal omite-se o Gradual e o Trato e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Eccli. 45, 9</em> Amávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja. ℣. <em>Osee 14, 6</em> Justus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Ecl. 45, 9</em> Amou-o o Senhor, ornou-o e revestiu-o com a túnica da glória. Aleluia. ℣. <em>Os. 14, 6</em> O justo germinará, como o lírio, e florescerá para sempre diante do Senhor. Aleluia.</p>
       </div>
@@ -70,7 +70,7 @@ export default function Page13Doutores() {
 
 <em>Mt. 5, 13-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus qui in domo sunt. Sic lúceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in cœlis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen, quippe dico vobis, donec tránseat cœlum et terra, jota unum aut unus apex non præteríbit a lege, donec ómnia fiant. Qui ergo solvent unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno cœlórum.</p>
@@ -81,14 +81,14 @@ export default function Page13Doutores() {
 
 <em>Sl. 91, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus ut palma florébit: sicut cedrus, quæ in Líbano est multiplicábitur. (T. P. Allelúja.)</p>
       <p>O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sancti <span className="text-red-500">N.</span> Pontíficis tui at que Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat. Per Dóminum...</p>
       <p>Senhor, que a piedosa oração de Santo <span className="text-red-500">N.</span> vosso Pontífice e Doutor, nos não abandone, e que por ela as nossas ofertas Vos sejam agradáveis e alcancemos benigna e continuamente a vossa misericórdia. Por nosso Senhor...</p>
       </div>
@@ -97,14 +97,14 @@ export default function Page13Doutores() {
 
 <em>Lc. 12, 42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (T. P. Allelúja.)</p>
       <p>O servo fiel e prudente é destinado pelo Senhor para distribuir, oportunamente, na sua família a cada um a sua medida de trigo. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ut nobis, Dómine, tua sacrifícia dent salútem: beátus <span className="text-red-500">N.</span> Póntifex tuus et Doctor egrégius, quǽsumus, precátor accédat. Per Dóminum nostrum...</p>
       <p>Ó Senhor, dignai-Vos conceder-nos que o B. <span className="text-red-500">N.</span>, vosso Pontífice e ilustre Doutor, seja nosso intercessor perante Vós, a fim de que este sacrifício nos alcance a salvação. Por nosso Senhor...</p>
       </div>
@@ -115,7 +115,7 @@ export default function Page13Doutores() {
 
 <em>Ecl. 39, 6-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui fecit illum, et in conspéctu Altíssimi deprecábitur. Apériet os suum in oratióne, et pro delíctis suis deprecábitur. Si enim Dóminus magnus volúerit, spíritu intellegéntias replébit illum: et ipse tamquam imbres mittet elóquia sapiéntiæ suæ, et in oratióne confitébitur Dómino: et ipse díriget consílium ejus et disciplínam, et in abscónditis suis consiliábitur. Ipse palam fáciet disciplínam doctrínæ suæ, et in lege testaménti Dómini gloriábitur. Collaudábunt multi sapiéntiam ejus, et usque in sǽculum non delébitur. Non recédet memória ejus, et nomen ejus requirétur a generatióne in generatiónem. Sapiéntiam ejus enarrábunt gentes, et laudem ejus enuntiábit ecclésia.</p>

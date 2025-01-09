@@ -33,14 +33,14 @@ export default function Page0725() {
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis bonoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum. <em>Ps. ibid., 1-2</em> Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam ei resurrectiónem meam. ℣. Gloria Patri...</p>
       <p>Eu vejo, ó Deus, que honrais largamente os vossos amigos: e que seu poder se tem fortalecido extraordinariamente. <em>Sl. ibid., 1-2</em> Senhor, perscrutastes o meu íntimo e ficastes-me conhecendo: ficastes conhecendo quando me deito e quando me levanto. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Esto, Dómine, plebi tuæ sanctificátor et custos: ut, Apóstoli tui Jacóbi muníta præsídiis, et conversatióne tibi pláceat, et secúra mente desérviat. Per Dóminum nostrum...</p>
       <p>Sede, Senhor, o santificador e o protector do povo, a fim de que, munido com o auxílio do vosso Apóstolo Tiago, ele Vos seja agradável pela sua sã conduta e Vos sirva com tranquilidade de espírito. Por nosso Senhor...</p>
       </div>
@@ -49,7 +49,7 @@ export default function Page0725() {
 
 <em>1 Cor. 4, 9-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Puto, quod Deus nos Apóstolos novíssimos osténdit, tamquam morti destinátos: quia spectáculum facti sumus mundo et Angelis et homínibus. Nos stulti propter Christum, vos autem prudéntes in Christo: nos infírmi, vos autem fortes: vos nóbiles, nos autem ignóbiles. Usque in hanc horam et esurímus, et sitímus, et nudi sumus, et cólaphis cǽdimur, et instábiles sumus, et laborámus operántes mánibus nostris: maledícimur, et benedícimus: persecutiónem pátimur, et sustinémus: blasphemámur, et obsecrámus: tamquam purgaménta hujus mundi facti sumus, ómnium peripséma usque adhuc. Non ut confúndam vos, hæc scribo, sed ut fílios meos caríssimos móneo. Nam si decem mília pædagogórum habeátis in Christo: sed non multos patres. Nam in Christo Jesu per Evangélium ego vos génui.</p>
@@ -60,7 +60,7 @@ export default function Page0725() {
 
 <em>Sl. 44, 17 & 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine. ℣. Pro pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.</p>
       <p>Vós os instituístes príncipes em todo o universo: e eles, Senhor, perpetuarão a glória do vosso nome em toda a terra. ℣. Para substituir os vossos pais, nascer-vos-ão filhos: pelo que os povos vos louvarão.</p>
       <p>Allelúja, allelúja. ℣. <em>Joann. 15, 16</em> Ego vos elegi de mundo, ut eátis, et fructum afferátis, et fructus vester máneat. Allelúja.</p>
@@ -71,7 +71,7 @@ export default function Page0725() {
 
 <em>Mt. 20, 20-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -84,14 +84,14 @@ S. Mateus.</p>
 
 <em>Sl. 18, 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum.</p>
       <p>O som da sua voz ecoou por toda a terra; e as suas palavras prolongaram-se até às extremidades da terra.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblatiónes pópuli tui, quǽsumus, Dómine, beáti Jacóbi Apóstoli pássio beáta concíliet: et, quæ nostris non aptæ sunt méritis, fiant tibi plácitæ ejus deprecatióne. Per Dóminum...</p>
       <p>Permiti, Senhor, Vos suplicamos, que o glorioso martírio do B. Apóstolo Tiago nos alcance a graça de receberdes as ofertas do vosso povo, e, apesar dos nossos méritos serem insuficientes, fazei que sua deprecação Vo-las torne agradáveis. Por nosso Senhor...</p>
       </div>
@@ -100,14 +100,14 @@ S. Mateus.</p>
 
 <em>Mt. 19, 28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.</p>
       <p>Vós, que me seguistes, assentar-vos-eis sobre tronos e julgareis as doze tribos de Israel.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beáti Apóstoli tui Jacóbi, quǽsumus, Dómine, intercessióne nos ádjuva: pro cujus festivitáte percépimus tua sancta lætántes. Per Dóminum nostrum...</p>
       <p>Auxiliai-nos, Senhor, Vos suplicamos, pela intercessão do vosso B. Apóstolo Tiago, em cuja festa recebemos com júbilo os sacrossantos méritos. Por nosso Senhor...</p>
       </div>

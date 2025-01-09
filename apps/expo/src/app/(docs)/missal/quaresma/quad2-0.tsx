@@ -14,14 +14,14 @@ export default function PageQuad20() {
 
 <em>Sl. 24, 6, 3 & 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris. <em>Ps. ibid., 1-2</em> Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam. ℣. Gloria Patri...</p>
       <p>Lembrai-Vos, Senhor, de que a vossa bondade e misericórdia são eternas! Que os nossos inimigos nunca triunfem de nós. Ó Deus de Israel, livrai-nos de todas nossas angústias. <em>Sl. ibid., 1-2</em> A Vós, Senhor, elevei a minha alma: meu Deus, confio em Vós; não ficarei confundido. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui cónspicis omni nos virtúte destítui: intérius exteriúsque custódi; ut ab ómnibus adversitátibus muniámur In córpore, et a pravis cogitatiónibus mundémur in mente. Per Dóminum...</p>
       <p>Ó Deus, que conheceis como somos destituídos de toda a virtude, guardai-nos interior e exteriormente, a fim de que o nosso corpo seja preservado de todas as adversidades e a nossa alma purificada de todos os maus pensamentos. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad20() {
 
 <em>1 Ts. 4, 1-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.</p>
       <p>Fratres: Rogámus vos et obsecrámus in Dómino Jesu: ut, quemádmodum accepístis a nobis, quómodo opórteat vos ambuláre et placére Deo, sic et ambulétis, ut abundétis magis. Scitis enim, quæ præcépta déderim vobis per Dóminum Jesum. Hæc est enim volúntas Dei, sanctificátio vestra: ut abstineátis vos a fornicatióne, ut sciat unusquísque vestrum vas suum possidére in sanctifícatióne et honóre; non in passióne desidérii, sicut et gentes, quæ ignórant Deum: et ne quis supergrediátur neque circumvéniat in negótio fratrem suum: quóniam vindex est Dóminus de his ómnibus, sicut prædíximus vobis et testificáti sumus. Non enim vocávit nos Deus in immundítiam, sed in sanctificatiónem: in Christo Jesu, Dómino nostro.</p>
@@ -41,7 +41,7 @@ export default function PageQuad20() {
 
 <em>Sl. 24, 17-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis éripe me, Dómine. ℣. Vide humilitátem meam et labórem meum: et dimítte ómnia peccáta mea.</p>
       <p>As tribulações do meu coração cresceram. Ó Senhor, livrai-me das minhas misérias. ℣. Vede a minha humilhação e fadiga e perdoai os meus pecados.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad20() {
 
 <em>Sl. 105, 1-1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus. ℣. Quis loquétur poténtias Dómini: audítas fáciet omnes laudes ejus? ℣. Beáti, qui custódiunt judícium et fáciunt justítiam in omni témpore. ℣. Meménto nostri, Dómine, in beneplácito pópuli tui: vísita nos in salutári tuo.</p>
       <p>Louvai o Senhor, pois Ele é bom: a sua misericórdia é eterna. ℣. Quem será capaz de narrar as maravilhas da omnipotência do Senhor e apregoar os seus louvores? ℣. Bem-aventurados aqueles que procedem com equidade e justiça em todas as ocasiões. ℣. Pela vossa bondade para com vosso povo, Senhor, lembrai-Vos de nós: visitai-nos para alcançarmos a salvação.</p>
       </div>
@@ -59,7 +59,7 @@ export default function PageQuad20() {
 
 <em>Mt, 17, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem eius, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Móyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eis: Súrgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.</p>
@@ -70,14 +70,14 @@ export default function PageQuad20() {
 
 <em>Sl. 118,47 & 48</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi.</p>
       <p>Meditarei nos vossos Mandamentos, que muito amo: e levantarei as minhas mãos para cumprir esses Mandamentos, que, repito, muito amo.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et devotióni nostræ profíciant et salúti. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, dignai-Vos olhar benigno para o presente sacrifício, a fim de que sirva de proveito à nossa piedade e à nossa salvação. Por nosso Senhor...</p>
       </div>
@@ -86,14 +86,14 @@ export default function PageQuad20() {
 
 <em>Sl. 5, 2-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Intéllege clamórem meum: inténde voci oratiónis meæ, Rex meus et Deus meus: quóniam ad te orábo, Dómine.</p>
       <p>Ouvi o meu clamor; ouvi a minha oração, ó meu Rei, ó meu Deus; pois orei a Vós.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súpplices te rogámus, omnípotens Deus: ut quos tuis réficis sacraméntis, tibi etiam plácitis móribus dignánter deservíre concédas. Per Dóminum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos instantemente que aqueles a quem sustentais com vossos sacramentos tenham uma conduta de vida que Vos seja agradável. Por nosso Senhor...</p>
       </div>

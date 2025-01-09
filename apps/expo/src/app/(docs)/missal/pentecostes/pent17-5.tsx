@@ -14,14 +14,14 @@ export default function PagePent175() {
 
 <em>Sl 104:3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lætétur cor quæréntium Dóminum: quǽrite Dóminum, et confirmámini: quǽrite fáciem ejus semper. <em>Ps 104:1</em> Confitémini Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus. ℣. Gloria Patri...</p>
       <p>Alegre-se o coração daqueles que procuram o Senhor: procurai o Senhor; procurai-o incessantemente; procurai a sua presença sempre. <em>Sl 104:1</em> Louvai o Senhor e invocai o seu nome: anunciai aos povos as suas obras. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, observatiónes sacras ánnua devotióne recoléntes, et córpore tibi placeámus et mente. Per Dóminum...</p>
       <p>Deus omnipotente, Vos suplicamos, permiti que, observando nós, anualmente, com religiosa devoção estas sacrossantas práticas, Vos possamos agradar tanto com o nosso corpo, como com a nossa alma. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent175() {
 
 <em>Os 14:2-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Osee Prophétæ.</p>
       <p>Lição do Profeta Oseas.</p>
       <p>Hæc dicit Dóminus Deus: Convértere, Israël, ad Dóminum, Deum tuum: quóniam corruísti in iniquitáte tua. Tóllite vobíscum verba, et convertímini ad Dóminum et dícite ei: Omnem aufer iniquitátem, áccipe bonum: et reddémus vítulos labiórum nostrórum. Assur non salvábit nos, super equum non ascendémus, nec dicémus ultra: Dii nostri ópera mánuum nostrárum: quia ejus, qui in te est, miseréberis pupílli. Sanábo contritiónes eórum, díligam eos spontánee: quia avérsus est furor meus ab eis. Ero quasi ros, Israël germinábit sicut lílium, et erúmpet radix ejus ut Líbani. Ibunt rami ejus, et erit quasi olíva glória ejus: et odor ejus ut Líbani. Converténtur sedéntes in umbra ejus: vivent trítico, et germinábunt quasi vínea: memoriále ejus sicut vinum Líbani. Ephraim quid mihi ultra idóla? ego exáudiam, et dírigam eum ego ut abíetem viréntem: ex me fructus tuus invéntus est. Quis sápiens, et intélleget ista? intéllegens, et sciet hæc? Quia rectæ viæ Dómini, et justi ambulábunt in eis: prævaricatóres vero córruent in eis.</p>
@@ -41,7 +41,7 @@ export default function PagePent175() {
 
 <em>Sl 89:13, 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Convértere, Dómine, aliquántulum, et deprecáre super servos tuos. ℣. Dómine, refúgium factus es nobis, a generatióne et progénie.</p>
       <p>Volvei-Vos para nós, Senhor, ainda que seja um pouco, e atendei aos Vossos servos. ℣. Senhor, tendes sido de geração em geração o nosso refúgio.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PagePent175() {
 
 <em>Lc 7:36-50</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -62,14 +62,14 @@ S. Lucas.</p>
 
 <em>Sl 102:2, 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes ejus: et renovábitur, sicut áquilæ, juvéntus tua.</p>
       <p>Ó minha alma, louva o Senhor; não esqueças nunca os benefícios que te fez: e a tua juventude se renovará, como a da água.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Accépta tibi sint, Dómine, quǽsumus, nostri dona jejúnii: quæ et expiándo nos tua grátia dignos effíciant, et ad sempitérna promíssa perdúcant. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, dignai-Vos aceitar a oferta do nosso jejum, para que, servindo de expiação das nossas faltas, nos tornemos dignos da vossa graça e sejamos conduzidos aos bens eternos, que nos prometestes. Por nosso Senhor...</p>
       </div>
@@ -78,14 +78,14 @@ S. Lucas.</p>
 
 <em>Sl 118:22, 24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Aufer a me oppróbrium et contémptum, quia mandáta tua exquisívi, Dómine: nam et testimónia tua meditátio mea est.</p>
       <p>Afastai de mim a desonra e o desprezo, porque, Senhor, cumpri so vossos mandamentos. A vossa lei é objecto da minha constante meditação.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, benefícia potióra sumámus. Per Dóminum...</p>
       <p>Senhor, Vos imploramos, permiti que, dando-Vos nós graças pelos benefícios que recebemos, alcancemos outros ainda mais preciosos. Por nosso Senhor...</p>
       </div>

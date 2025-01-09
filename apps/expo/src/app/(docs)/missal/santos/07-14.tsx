@@ -31,7 +31,7 @@ export default function Page0714() {
 
 <em>Sl. 36, 30-31</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium. ℣. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.</p>
       <p>A boca do justo falará com sabedoria e a sua língua proclamará a justiça. ℣. A lei do seu Deus está no seu coração e os seus pés não tropeçarão.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.</p>
@@ -42,7 +42,7 @@ export default function Page0714() {
 
 <em>Sl. 88, 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus.</p>
       <p>A minha fidelidade e a minha misericórdia estarão com ele: e o seu poder exaltar-se-á pelo meu nome.</p>
       </div>

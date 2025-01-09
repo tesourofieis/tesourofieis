@@ -10,7 +10,7 @@ export default function Page001() {
       <h1>Salmo 1</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus vir, qui non ábiit in consílio impiórum, et in via peccatórum non stetit, * et in cáthedra pestiléntiæ non sedit:</p>
       <p>Bem-aventurado o varão que não foi no conselho dos ímpios, nem ficou no caminho dos pecadores, * e na cadeira pestilencial se não sentou:</p>
       <p>Sed in lege Dómini volúntas ejus, * et in lege ejus meditábitur die ac nocte.</p>

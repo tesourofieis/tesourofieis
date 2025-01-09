@@ -10,7 +10,7 @@ export default function Page085() {
       <h1>Salmo 85</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Inclína, Dómine, aurem tuam, et exáudi me: * quóniam inops, et pauper sum ego.</p>
       <p>Inclinai, ó Senhor, o vosso ouvido e ouvi-me: * porque estou carente e pobre.</p>
       <p>Custódi ánimam meam, quóniam sanctus sum: * salvum fac servum tuum, Deus meus, sperántem in Te.</p>

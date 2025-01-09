@@ -14,14 +14,14 @@ export default function PagePent30() {
 
 <em>Sl. 24, 16 & 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice in me et miserére mei, Dómine: quóniam únicus et pauper sum ego: vide humilitátem meam et labórem meum: et dimítte ómnia peccáta mea, Deus meus. <em>Ps. ibid., 1-2</em> Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam. ℣. Gloria Patri...</p>
       <p>Volvei propício vossos olhos para mim e tende compaixão de mim, pois estou só e sou pobre. Vede a minha miséria e as minhas dores, ó meu Deus, e perdoai-me todos os pecados. <em>Sl. ibid., 1-2</em> A Vós, Senhor, elevei a minha alma. Ó meu Deus, confio em Vós: não permitireis que fique envergonhado. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Protéctor in te sperántium, Deus, sine quo nihil est válidum, nihil sanctum: multíplica super nos misericórdiam tuam; ut, te rectóre, te duce, sic transeámus per bona temporália, ut non amittámus ætérna. Per Dóminum...</p>
       <p>Ó Deus, protector daqueles que esperam em Vós, e sem o qual nada existe, nem sólido nem santo, multiplicai a vossa misericórdia sobre nós, de maneira que, sendo sempre governados e guiados por Vós, transitemos de tal modo pelos bens terrenos que não deixemos de gozar os eternos. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent30() {
 
 <em>1 Pe. 5, 6-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Petri Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º Pedro.</p>
       <p>Caríssimi: Humiliámini sub coténti manu Dei, ut vos exáltet in témpore visitatiónis: omnem sollicitúdinem vestram projiciéntes in eum, quóniam ipsi cura est de vobis. Sóbrii estote et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens circuit, quærens, quem dévoret: cui resístite fortes in fide: sciéntes eándem passiónem ei, quæ in mundo est, vestræ fraternitáti fíeri. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen.</p>
@@ -41,7 +41,7 @@ export default function PagePent30() {
 
 <em>Sl. 54, 23, 17 & 19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jacta cogitátum tuum in Dómino: et ipse te enútriet. ℣. Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi.</p>
       <p>Confiai ao Senhor vossas inquietações: Ele vos sustentará. ℣. Logo que invoquei o Senhor, ouviu Ele a minha voz, livrando-me daqueles que me cercavam.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 7, 12</em> Deus judex justus, fortis et pátiens, numquid iráscitur per síngulos dies? Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent30() {
 
 <em>Lc. 15, 1-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Sl. 9, 11-12 & 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non derelínquis quæréntes te: psállite Dómino, qui hábitat in Sion: quóniam non est oblítus oratiónem páuperum.</p>
       <p>Confiem em Vós, Senhor, aqueles que conhecem o vosso nome; porque nunca abandonais os que a Vós recorrem. Cantai hinos ao Senhor, que habita em Sião. Ele se não esqueceu da oração dos pobres.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice, Dómine, múnera supplicántis Ecclésiæ: et salúti credéntium perpétua sanctificatióne suménda concéde. Per Dóminum...</p>
       <p>Olhai benignamente, Senhor, para estas ofertas da Igreja suplicante, e concedei aos fiéis a graça de as receberem sempre santamente, e com fruto para a sua santificação. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Lc. 15, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dico vobis: gáudium est Angelis Dei super uno peccatóre pœniténtiam agénte.</p>
       <p>Vos digo: há muita alegria perante os Anjos de Deus por um só pecador que faça penitência.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sancta tua nos, Dómine, sumpta vivíficent: et misericórdiæ sempitérnæ prǽparent expiátos. Per Dóminum nostrum...</p>
       <p>Senhor, que a recepção dos vossos sacramentos nos vivifique, e que, servindo de expiação dos nossos pecados, nos torne dignos da misericórdia eterna. Por nosso Senhor...</p>
       </div>

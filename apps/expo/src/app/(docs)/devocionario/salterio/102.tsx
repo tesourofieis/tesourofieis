@@ -10,7 +10,7 @@ export default function Page102() {
       <h1>Salmo 102</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bénedic, ánima mea, Dómino: * et ómnia, quæ intra me sunt, nómini sancto ejus.</p>
       <p>Minha alma, bendiz o Senhor: * e tudo o que em mim há, o seu santo nome.</p>
       <p>Bénedic, ánima mea, Dómino: * et noli oblivísci omnes retributiónes ejus.</p>

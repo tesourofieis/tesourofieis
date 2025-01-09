@@ -10,7 +10,7 @@ export default function Page003() {
       <h1>Salmo 3</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, quid multiplicáti sunt qui tríbulant me? * Multi insúrgunt advérsum me.</p>
       <p>Senhor, porque tantos são os que me atribulam? * Muitos se insurgem contra mim.</p>
       <p>Multi dicunt ánimæ meæ: * Non est salus ipsi in Deo ejus.</p>

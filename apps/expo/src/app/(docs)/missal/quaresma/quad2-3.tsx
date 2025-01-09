@@ -14,14 +14,14 @@ export default function PageQuad23() {
 
 <em>Sl. 37, 22-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in adjutórium meum, Dómine, virtus salútis meæ. <em>Ps. ibid., 2</em> Dómine, ne in furóre tuo árguas me: neque in ira tua corrípias me. ℣. Gloria Patri...</p>
       <p>Não me abandoneis, Senhor, meu Deus; não Vos afasteis de mim. Apressai-Vos em socorrer-me, ó Senhor, que sois a minha força e salvação. <em>Sl. ibid., 2</em> Senhor, não me repreendais com furor, nem me castigueis com ira. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pópulum tuum, quǽsumus, Dómine, propítius réspice: et, quos ab escis carnálibus prǽcipis abstinére, a noxiis quoque vítiis cessáre concéde. Per Dóminum...</p>
       <p>Olhai propício para o vosso povo, Senhor, Vos suplicamos, e permiti que aqueles a quem ordenais a abstinência das carnes se abstenham também dos vícios, que prejudicam as suas almas. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad23() {
 
 <em>Est. 13, 8-11 & 15-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Esther.</p>
       <p>Lição do Livro de Ester.</p>
       <p>In diébus illis: Orávit Mardochǽus ad Dóminum, dicens: Dómine, Dómine, Rex omnípotens, in dicióne enim tua cuncta sunt pósita, et non est, qui possit tuæ resístere voluntáti, si decréveris salváre Israël. Tu fecísti cœlum et terram, et quidquid cœli ámbitu continétur. Dóminus ómnium es, nec est, qui resístat majestáti tuæ. Et nunc, Dómine Rex, Deus Abraham, miserére pópuli tui, quia volunt nos inimíci nostri pérdere, et hereditátem tuam delére. Ne despícias partem tuam, quam redemísti tibi de Ægýpto. Exáudi deprecatiónem meam, et propítius esto sorti et funículo tuo, et convérte luctum nostrum in gáudium, ut vivéntes laudémus nomen tuum, Dómine, et ne claudas ora te canéntium, Dómine, Deus noster.</p>
@@ -41,7 +41,7 @@ export default function PageQuad23() {
 
 <em>Sl. 27, 9 & 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Salvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ. ℣. Ad te, Dómine, clamávi: Deus meus, ne síleas a me, et ero símilis descendéntibus in lacum.</p>
       <p>Salvai o vosso povo, Senhor, e abençoai a vossa herança. A Vós, Senhor, clamei. Meu Deus, não fecheis os ouvidos à minha voz. Se me não escutais, serei semelhante àqueles que desceram ao túmulo.</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuad23() {
 
 <em>Mt. 20, 17-28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -70,14 +70,14 @@ S. Mateus.</p>
 
 <em>Sl. 24, 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.</p>
       <p>A Vós, Senhor, elevei a minha alma. Ó meu Deus, confio em Vós; não serei confundido, nem vencido pelos meus inimigos., porquanto todos aqueles que em Vós confiam não serão confundidos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias, Dómine, quas tibi offérimus, propítius réspice: et, per hæc sancta commércia, víncula peccatórum nostrórum absólve. Per Dóminum...</p>
       <p>Olhai propício, Senhor, para as hóstias que Vos oferecemos, e, por este sagrado Cornércio, desligai-nos das cadeias dos nossos pecados. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. Mateus.</p>
 
 <em>Sl. 10, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus Dóminus, et justítiam diléxit: æquitátem vidit vultus ejus.</p>
       <p>O Senhor é justo e amou a justiça; seu rosto volta-se benévolo para os justos.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumptis, Dómine, sacraméntis: ad redemptiónis ætérnæ, quǽsumus, proficiámus augméntum. Per Dóminum...</p>
       <p>Havendo nós recebido estes sacramentos, Senhor, concedei-nos, Vos suplicamos, que nos sirvam de aumento dos frutos da redenção eterna. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

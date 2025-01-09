@@ -16,7 +16,7 @@ export default function Page0122LisboaFaro() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte nostra reos nos esse cognóscimus, beáti Vincéntii Martyris tui intercessióne liberémur. Per Dóminum...</p>
       <p>Senhor, dignai-Vos ouvir as nossas súplicas, a fim de que, reconhecendo-nos réus diante de Vós pelas nossas iniquidades, sejamos livres delas por intercessão do vosso B. Mártir Vicente. Por nosso Senhor...</p>
       </div>
@@ -25,7 +25,7 @@ export default function Page0122LisboaFaro() {
 
 <em>Jo. 12, 24-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -38,21 +38,21 @@ S. João.</p>
 
 <em>Sl. 95, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Conféssio et pulchritúdo in conspéctu ejus: sánctitas, et magnificéntia in sanctificatióne ejus.</p>
       <p>Rodeiam-no a glória e a majestade: e no seu santuário reluzem a santidade e a magnificência.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro tuórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur. Per Dóminum...</p>
       <p>Senhor, Vos oferecemos estes dons da nossa devoção; e que em consideração dos vossos Santos eles Vos sejam agradáveis, e pela vossa misericórdia nos sejam salutares. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedéntibus beáto Vincéntio Martýre tuo, per hæc contra ómnia advérsa muniámur. Per Dóminum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, fazei que, havendo nós recebido os alimentos celestiais, sejamos fortalecidos contra todas as adversidades por intercessão do vosso B. Mártir Vicente. Por nosso Senhor...</p>
       </div>

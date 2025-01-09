@@ -10,7 +10,7 @@ export default function Page075() {
       <h1>Salmo 75</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Notus in Judǽa Deus: * in Israël magnum nomen ejus.</p>
       <p>Deus é conhecido na Judeia: * grande é o seu nome em Israel.</p>
       <p>Et factus est in pace locus ejus: * et habitátio ejus in Sion.</p>

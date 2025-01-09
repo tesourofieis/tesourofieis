@@ -10,7 +10,7 @@ export default function Page019() {
       <h1>Salmo 19</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudiat te Dóminus in die tribulatiónis: * prótegat te nomen Dei Jacob.</p>
       <p>O Senhor te ouça no dia da tribulação: * o nome de Deus de Jacob te proteja.</p>
       <p>Mittat tibi auxílium de sancto: * et de Sion tueátur te.</p>

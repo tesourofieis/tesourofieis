@@ -10,7 +10,7 @@ export default function PageNuncdimittis() {
       <h1>Nunc Dimíttis</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nunc dimíttis, servum tuum, Dómine, * secúndum verbum tuum in pace:</p>
       <p>Agora, Senhor, deixareis ir em paz o vosso servo, * segundo a vossa palavra:</p>
       <p>Quia vidérunt óculi mei * salutáre tuum,</p>

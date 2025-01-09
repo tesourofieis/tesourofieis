@@ -10,7 +10,7 @@ export default function Page039() {
       <h1>Salmo 39</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exspéctans exspectávi Dóminum, * et inténdit mihi.</p>
       <p>Aguardei expectante o Senhor, * e Ele me atendeu.</p>
       <p>Et exaudívit preces meas: * et edúxit me de lacu misériæ, et de luto fæcis.</p>

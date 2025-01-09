@@ -10,7 +10,7 @@ export default function Page059() {
       <h1>Salmo 59</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, repulísti nos, et destruxísti nos: * irátus es, et misértus es nobis.</p>
       <p>Deus, repelistes-nos e destruístes-nos: * Vos irastes, porém, tivestes piedade de nós.</p>
       <p>Commovísti terram, et conturbásti eam: * sana contritiónes ejus, quia commóta est.</p>

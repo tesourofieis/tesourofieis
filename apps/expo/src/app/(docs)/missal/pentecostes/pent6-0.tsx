@@ -14,14 +14,14 @@ export default function PagePent60() {
 
 <em>Sl. 27, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus fortitudo plebis suæ, et protéctor salutárium Christi sui est: salvum fac pópulum tuum, Dómine, et benedic hereditáti tuæ, et rege eos usque in sǽculum. <em>Ps. ibid., 1</em> Ad te, Dómine, clamábo, Deus meus, ne síleas a me: ne quando táceas a me, et assimilábor descendéntibus in lacum. ℣. Gloria Patri...</p>
       <p>O Senhor é a fortaleza do seu povo e o protector e salvador do seu Cristo. Salvai o vosso povo, Senhor: abençoai a vossa herança: e governai-os até à eternidade. <em>Sl. ibid., 1</em> Clamei por Vós, Senhor: Ó meu Deus, não fecheis os ouvidos, afastando-Vos de mim, pois, se me não escutais, tornar-me-ei semelhante àqueles que caem no abysmo. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus virtútum, cujus est totum quod est óptimum: ínsere pectóribus nostris amórem tui nóminis, et præsta in nobis religiónis augméntum; ut, quæ sunt bona, nútrias, ac pietátis stúdio, quæ sunt nutríta, custódias. Per Dóminum...</p>
       <p>Ó Deus das virtudes, origem de tudo o que é verdadeiramente bom, infundi nos nossos corações o amor ao vosso santo nome e aumentai na nossa alma o espírito da religião, a fim de que avigoreis nas nossas almas aquilo que é bom, e que, pelo fervor da piedade, aquilo que é avigorado seja conservado. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent60() {
 
 <em>Rm. 6, 3-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Quicúmque baptizáti sumus in Christo Jesu, in morte ipsíus baptizáti sumus. Consepúlti enim sumus cum illo per baptísmum in mortem: ut, quómodo Christus surréxit a mórtuis per glóriam Patris, ita et nos in novitáte vitæ ambulémus. Si enim complantáti facti sumus similitúdini mortis ejus: simul et resurrectiónis érimus. Hoc sciéntes, quia vetus homo noster simul crucifíxus est: ut destruátur corpus peccáti, et ultra non serviámus peccáto. Qui enim mórtuus est, justificátus est a peccáto. Si autem mórtui sumus cum Christo: crédimus, quia simul étiam vivémus cum Christo: sciéntes, quo d Christus re surgens ex mórtuis, jam non móritur, mors illi ultra non dominábitur. Quod enim mórtuus est peccáto, mórtuus est semel: quod autem vivit, vivit Deo. Ita et vos existimáte, vos mórtuos quidem esse peccáto, vivéntes autem Deo, in Christo Jesu, Dómino nostro.</p>
@@ -41,7 +41,7 @@ export default function PagePent60() {
 
 <em>Sl. 89, 13 & 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Convértere, Dómine, aliquántulum, et deprecáre super servos tuos. ℣. Dómine, refúgium factus es nobis, a generatióne et progénie.</p>
       <p>Volvei-Vos um pouco para nós, Senhor: tende piedade dos vossos servos. ℣. De geração em geração, fostes, ó Senhor, o nosso refúgio.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 30, 2-3</em> In te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe me: inclína ad me aurem tuam, accélera, ut erípias me. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent60() {
 
 <em>Mc. 8, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Marcum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Marcos.</p>
@@ -64,14 +64,14 @@ S. Marcos.</p>
 
 <em>Sl. 16, 5 & 6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea: inclína aurem tuam, et exáudi verba mea: mirífica misericórdias tuas, qui salvos facis sperántes in te, Dómine.</p>
       <p>Firmai meus passos nos vossos caminhos, a fim de que meus pés não vacilem: Inclinai os ouvidos para mim e ouvi as minhas palavras: Fazei brilhar a vossa misericórdia, ó Senhor, que salvais os que em Vós confiam.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propitiáre, Dómine, supplicatiónibus nostris, et has pópuli tui oblatiónes benígnus assúme: et, ut nullíus sit írritum votum, nullíus vácua postulátio, præsta; ut, quod fidéliter pétimus, efficáciter consequámur. Per Dóminum...</p>
       <p>Acolhei propício, Senhor, as nossas súplicas e recebei benignamente estas ofertas do vosso povo; e, para que ninguém Vos apresente votos inúteis, nem súplicas vãs, permiti que obtenhamos eficazmente aquilo que Vos pedimos com fé. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Marcos.</p>
 
 <em>Sl. 26, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Circuíbo et immolábo in tabernáculo ejus hóstiam jubilatiónis: cantábo et psalmum dicam Dómino.</p>
       <p>Andarei em redor do altar: depositarei diante do seu tabernáculo uma hóstia de júbilo: e cantarei hinos ao Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Repléti sumus, Dómine, munéribus tuis: tríbue, quǽsumus; ut eórum et mundémur efféctu et muniámur auxílio. Per Dóminum...</p>
       <p>Havendo nós sido saciados com vossos dons, Vos suplicamos, Senhor, nos façais a graça de, pela sua virtude, sermos purificados, e de, pelo seu socorro, sermos fortalecidos. Por nosso Senhor...</p>
       </div>

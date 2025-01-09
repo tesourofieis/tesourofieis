@@ -10,7 +10,7 @@ export default function Page010() {
       <h1>Salmo 10</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In Dómino confído: quómodo dícitis ánimæ meæ: * Tránsmigra in montem sicut passer?</p>
       <p>No Senhor confio: porque dizeis à minha alma: * migra para o monte como a ave?</p>
       <p>Quóniam ecce peccatóres intendérunt arcum, paravérunt sagíttas suas in pháretra, * ut sagíttent in obscúro rectos corde.</p>

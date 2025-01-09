@@ -10,7 +10,7 @@ export default function PageSalveregina() {
       <h1>Salve, Regina</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Salve, Regína, mater misericórdiæ; vita, dulcédo et spes nóstra, salve. Ad te clamámus éxsules fílii Hevæ. Ad te suspirámus geméntes et flentes In hac lacrimárum valle. Eia ergo, advocáta nostra, illos tuos misericórdes óculos ad nos convérte. Et Iesum, benedíctum fructum ventris tui, nobis post hoc exsílium osténde. O clemens, o pia, o dulcis Virgo María.</p>
       <p>Salvé, Rainha, mãe de misericórdia, vida, doçura, esperança nossa, salve! A Vós bradamos, os degredados filhos de Eva. A Vós suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois, advogada nossa, esses vossos olhos misericordiosos a nós volvei. E, depois deste desterro, nos mostrai Jesus, bendito fruto do vosso ventre. Ó clemente, ó piedosa, ó doce Virgem Maria.</p>
       <p>℣. Ora pro nobis Sancta Dei Génitrix.</p>

@@ -10,7 +10,7 @@ export default function Page035() {
       <h1>Salmo 35</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dixit injústus ut delínquat in semetípso: * non est timor Dei ante óculos ejus.</p>
       <p>O injusto disse em si mesmo que pecar queria: * não há temor de Deus ante seus olhos.</p>
       <p>Quóniam dolóse egit in conspéctu ejus: * ut inveniátur iníquitas ejus ad ódium.</p>

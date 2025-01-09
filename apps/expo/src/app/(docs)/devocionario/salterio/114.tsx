@@ -10,7 +10,7 @@ export default function Page114() {
       <h1>Salmo 114</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Diléxi, quóniam exáudiet Dóminus * vocem oratiónis meæ.</p>
       <p>Amei, porque o Senhor ouvirá * a voz da minha oração.</p>
       <p>Quia inclinávit aurem suam mihi: * et in diébus meis invocábo.</p>

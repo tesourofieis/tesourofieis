@@ -10,7 +10,7 @@ export default function Page068() {
       <h1>Salmo 68</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Salvum me fac, Deus: * quóniam intravérunt aquæ usque ad ánimam meam.</p>
       <p>Salvai-me, ó Deus: * porque as águas quase inundaram a minha alma.</p>
       <p>Infíxus sum in limo profúndi: * et non est substántia.</p>

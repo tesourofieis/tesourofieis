@@ -10,7 +10,7 @@ export default function Page026() {
       <h1>Salmo 26</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus illuminátio mea, et salus mea, * quem timébo?</p>
       <p>O Senhor é a minha luz e a minha salvação, * a quem temerei?</p>
       <p>Dóminus protéctor vitæ meæ, * a quo trepidábo?</p>

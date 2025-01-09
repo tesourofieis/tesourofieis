@@ -10,7 +10,7 @@ export default function Page079() {
       <h1>Salmo 79</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui regis Israël, inténde: * qui dedúcis velut ovem Joseph.</p>
       <p>Atendei, Vós que governais Israel: * que conduzis José como um pastor conduz uma ovelha.</p>
       <p>Qui sedes super Chérubim, * manifestáre coram Éphraim, Bénjamin, et Manásse.</p>

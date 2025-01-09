@@ -6,7 +6,7 @@ import MementoRerumConditor from './../../canticos/sacros/mementorerumconditor';
 import Salmo125 from './../salterio/125';
 import Salmo126 from './../salterio/126';
 import Salmo127 from './../salterio/127';
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from "~/components/Tabs";
 
 export default function PageNoa() {
   return (
@@ -20,7 +20,7 @@ export default function PageNoa() {
   Divino Esposo preso à Santa Cruz.
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -36,7 +36,7 @@ export default function PageNoa() {
 
 <MementoRerumConditor />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Pulchra es et decora, filia Jerusalem: terribus ut castrorum acies ordinara.</p>
       <p><em>Ant.</em> Filha de Jerusalém, sois bela e decorosa, terrível como um exército formado em linha.</p>
       </div>
@@ -61,7 +61,7 @@ export default function PageNoa() {
 
 <TabItem label="Depois da Purificação">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Pulchra es et decora, filia Jerusalem: terribus ut castrorum acies ordinara.</p>
       <p><em>Ant.</em> Filha de Jerusalém, sois bela e decorosa, terrível como um exército formado em linha.</p>
       </div>
@@ -70,7 +70,7 @@ export default function PageNoa() {
 
 <em>Ecl. 24, 19-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sicut cinnamomum et balsamum aromatizans odorem dedi: quasi myrrha electa dedi suavitatem odoris.</p>
       <p>Assim como o cinamomo e o bálsamo, que difundem cheiro, dei eu fragrância: como a mirra escolhida, dei cheiro de suavidade.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -81,7 +81,7 @@ export default function PageNoa() {
       <p><span className="text-red-500">℟.</span> Intercedei por nós, ó Mãe de Deus.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Hic genuflectitur</em> Kyrie eleison</p>
       <p><em>Genuflectir</em> Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -94,7 +94,7 @@ export default function PageNoa() {
       <p><span className="text-red-500">℟.</span> E o meu clamor chegue até Vós.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Famulorum tuorum, quaesumus, Domine, delictis ignosce: ut qui tibi placere de actibus nostris non valemus, Genitricis Filii tui Domini nostri intercessione salvemur: Qui tecum vivit et regnat...</p>
@@ -106,7 +106,7 @@ export default function PageNoa() {
   </TabItem>
   <TabItem label="No Advento">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce ancilla Domini: fiat mihi secundum verbum tuum.</p>
       <p><em>Ant.</em> Eis aqui a escrava do Senhor, faça-se em mim segundo a vossa palavra.</p>
       </div>
@@ -115,7 +115,7 @@ export default function PageNoa() {
 
 <em>Is. 7, 14-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce Virgo concipiet, et pariet filium, et vocabitur nomen ejus Emmanuel. Butyrum et mel comedet, ut sciat reprobare malum, et eligere bonum.</p>
       <p>Pois por isso o mesmo Senhor vos dará este sinal: Uma virgem conceberá e dará à luz um filho, e o seu nome será Emanuel. Ele comerá manteiga e mel, até que saiba rejeitar o mal e escolher o bem.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -126,7 +126,7 @@ export default function PageNoa() {
       <p><span className="text-red-500">℟.</span> E bendito é o fruto do vosso ventre.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Hic genuflectitur</em> Kyrie eleison</p>
       <p><em>Genuflectir</em> Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -139,7 +139,7 @@ export default function PageNoa() {
       <p><span className="text-red-500">℟.</span> E o meu clamor chegue até Vós.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui de beatæ Mariæ Virginis utero Verbum tuum, Angelo nuntiante, carnem suscipere voluisti: præsta supplicibus tuis; ut qui vere eam Genetricem Dei credimus, ejus apud te intercessionibus adjuvemur. Per eundem Dominum nostrum Jesum Christum.</p>
@@ -152,7 +152,7 @@ export default function PageNoa() {
 
 <TabItem label="No Natal">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce, Maria genuit nobis Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus Dei, ecce qui tollit peccata mundi, (allelúja).</p>
       <p><em>Ant.</em> Eis, Maria deu à luz o nosso Salvador, que João reconheceu e exclamou: eis o Cordeiro de Deus, Aquele que tira o pecado do mundo, (aleluia).</p>
       </div>
@@ -161,7 +161,7 @@ export default function PageNoa() {
 
 <em>Ecl. 24, 19-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In plateis sicut cinnamomum et balsamum aromatizans odorem dedi: quasi myrrha electa, dedi suavitatem odoris.</p>
       <p>Nas praças assim como o cinamomo e o bálsamo, que difundem cheiro, dei eu fragrância; como a mirra, dei cheiro de suavidade.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -172,7 +172,7 @@ export default function PageNoa() {
       <p><span className="text-red-500">℟.</span> Intercedei por nós, ó Mãe de Deus.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui salutis æternæ, beatæ Mariæ virginitate fœcunda, humano generi præmia præstitisti: tribue, quǽsumus; ut ipsam pro nobis intercedere sentiamus, per quam meruimus auctorem vitæ suscipere, Dominum nostrum Jesum Christum Filium tuum. Qui tecum vivit et regnat in unitate Spiritus Sancti, Deus, per omnia sæcula sæculorum.</p>
@@ -185,7 +185,7 @@ export default function PageNoa() {
 
 </Tabs>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Domine, exaudi orationem meam.</p>
       <p>℣. Ouvi, Senhor, a minha oração.</p>
       <p><span className="text-red-500">℟.</span> Et clamor meus ad te veniat.</p>

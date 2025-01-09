@@ -10,7 +10,7 @@ export default function Page005() {
       <h1>Salmo 5</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Verba mea áuribus pércipe, Dómine, * intéllege clamórem meum.</p>
       <p>Senhor, dai ouvidos às minhas palavras, * escutai o meu clamor.</p>
       <p>Inténde voci oratiónis meæ, * Rex meus et Deus meus.</p>

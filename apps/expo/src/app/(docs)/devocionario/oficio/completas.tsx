@@ -6,7 +6,7 @@ import Salmo128 from "./../salterio/128";
 import Salmo129 from "./../salterio/129";
 import Salmo130 from "./../salterio/130";
 import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
-import { Tabs, TabItem } from "@astrojs/starlight/components";
+import { Tabs, TabItem } from "~/components/Tabs";
 import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
 
 export default function PageCompletas() {
@@ -18,7 +18,7 @@ export default function PageCompletas() {
         Meditemos naa sepultura de Jesus Cristo e na sua estadia no túmulo.
       </aside>
 
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           ℣. Convérte nos <span className="cross text-red-500">✠</span> Deus,
           salutáris noster.
@@ -83,7 +83,7 @@ export default function PageCompletas() {
 
           <em>Ecl. 24</em>
 
-          <div className="side-by-side not-content">
+          <div className="side-by-side">
             <p>
               Ego mater pulchræ dilectionis, et timoris, et agnitionis, et
               sanctæ spei.
@@ -112,7 +112,7 @@ export default function PageCompletas() {
 
           <h2>Ofício 1</h2>
 
-          <div className="side-by-side not-content">
+          <div className="side-by-side">
             <p>
               <em>Ant.</em> Sub tuum præsídium confúgimus, sancta Dei Génetrix;
               nostras deprecatiónes ne despícias in necessitátibus; sed a
@@ -134,7 +134,7 @@ export default function PageCompletas() {
 
           <h2>Tempo Pascal</h2>
 
-          <div className="side-by-side not-content">
+          <div className="side-by-side">
             <p>
               <em>Ant.</em> Regína Cæli, lætáre, allelúja; Quia quem meruísti
               portáre, allelúja; Resurréxit, sicut dixit, allelúja; Ora pro
@@ -156,7 +156,7 @@ export default function PageCompletas() {
 
           <h2>Ofício 1</h2>
 
-          <div className="side-by-side not-content">
+          <div className="side-by-side">
             <p>
               <em>Ant.</em> Sub tuum præsídium confúgimus, sancta Dei Génetrix;
               nostras deprecatiónes ne despícias in necessitátibus; sed a
@@ -178,7 +178,7 @@ export default function PageCompletas() {
 
           <h2>Tempo Pascal</h2>
 
-          <div className="side-by-side not-content">
+          <div className="side-by-side">
             <p>
               <em>Ant.</em> Regína Cæli, lætáre, allelúja; Quia quem meruísti
               portáre, allelúja; Resurréxit, sicut dixit, allelúja; Ora pro
@@ -232,7 +232,7 @@ export default function PageCompletas() {
 
           <em>Is. 7, 14-15</em>
 
-          <div className="side-by-side not-content">
+          <div className="side-by-side">
             <p>
               Ecce Virgo concipiet, et pariet filium, et vocabitur nomen ejus
               Emmanuel. Butyrum et mel comedet, ut sciat reprobare malum, et
@@ -303,7 +303,7 @@ export default function PageCompletas() {
 
           <em>Ecl. 24</em>
 
-          <div className="side-by-side not-content">
+          <div className="side-by-side">
             <p>
               Ego mater pulchræ dilectionis, et timoris, et agnitionis, et
               sanctæ spei. Eu sou a Mãe do amor belo e do temor, e do
@@ -368,7 +368,7 @@ export default function PageCompletas() {
         </TabItem>
       </Tabs>
 
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>℣. Domine, exaudi orationem meam.</p>
         <p>℣. Ouvi, Senhor, a minha oração.</p>
         <p>

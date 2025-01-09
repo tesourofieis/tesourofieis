@@ -10,7 +10,7 @@ export default function Page125() {
       <h1>Salmo 125</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In converténdo Dóminus captivitátem Sion: * facti sumus sicut consoláti:</p>
       <p>Quando o Senhor fez volver os cativos de Sião: * nós ficámos cheios de consolação:</p>
       <p>Tunc replétum est gáudio os nostrum: * et lingua nostra exsultatióne.</p>

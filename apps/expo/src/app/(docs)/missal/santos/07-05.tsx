@@ -31,14 +31,14 @@ export default function Page0705() {
 
 <em>1 Cor. 2, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in ostensióne spíritus et virtútis. <em>Ps. 110, 1</em> Confitébor tibi, Dómine, in toto corde meo, in consílio justórum et congregatióne. ℣. Gloria Patri...</p>
       <p>A minha conversação e a minha pregação não são apoiadas nos argumentos persuasivos da sabedoria humana, mas na manifestação do espírito e do poder de Deus. <em>Sl. 110, 1</em> Senhor, eu vos louvarei de todo meu coração no conselho dos justos e na assembleia do povo! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam, spíritu Pauli Apóstoli, edíscere: qua beátus Antónius María mirabíliter erudítus, novas in Ecclésia tua clericórum et vírginum famílias congregávit. Per eúndem Dóminum...</p>
       <p>Ó Deus e Senhor, fazei-nos adquirir a eminente ciência de Jesus Cristo, segundo o espírito do Apóstolo Paulo, em cuja ciência o B. António Maria foi admiravelmente instruído, e lhe fez estabelecer na vossa Igreja novas congregações de clérigos e de virgens. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -47,7 +47,7 @@ export default function Page0705() {
 
 <em>1 Tm. 4, 8-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo a Timóteo.</p>
       <p>Caríssime: Píetas ad ómnia utilis est: promissiónem habens vitæ, quæ nunc est, et futúræ. Fidélis sermo et omni acceptióne dignus. In hoc enim laborámus et maledícimur, quia sperámus in Deum vivum, qui est Salvátor ómnium hóminum, maxime fidélium. Prǽcipe hæc et doce. Nemo adolescentiam tuam contémnat: sed exémplum esto fidélium in verbo, in conversatióne, in caritáte, in fide, in castitáte. Dum vénio, atténde lectióni, exhortatióni et doctrínæ. Noli neglégere grátiam, quæ in te est, quæ data est tibi per prophétiam, cum impositióne mánuum presbytérii. Hæc meditáre, in his esto: ut proféctus tuus maniféstus sit ómnibus. Attende tibi et doctrínæ: insta in illis. Hoc enim fáciens, et teípsum salvum fácies, et eos qui te áudiunt.</p>
@@ -58,7 +58,7 @@ export default function Page0705() {
 
 <em>Fl. 1, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Testis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in sciéntia et in omni sensu. ℣. <em>ibid., 10</em> Ut probétis potióra, ut sitis sincéri et sine offénsa in diem Christi.</p>
       <p>Deus é testemunha do modo como vos amo a todos nas entranhas de Jesus Cristo. E o que vos peço é que a vossa caridade aumente cada vez mais na vossa inteligência e em todos vossos sentidos. ℣. <em>ibid., 10</em> A fim de que possais distinguir o que é melhor e estejais puros e irrepreensíveis no dia de Cristo.</p>
       <p>Allelúja, allelúja. ℣. <em>ibid., 11</em> Repléti fructu justítiæ per Jesum Christum, in glóriam et laudem Dei. Allelúja.</p>
@@ -69,7 +69,7 @@ export default function Page0705() {
 
 <em>Mc. 10, 15-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Marcum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -82,14 +82,14 @@ S. Marcos.</p>
 
 <em>Sl. 137, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo.</p>
       <p>Cantarei os vossos louvores na presença dos Anjos; ajoelharei no vosso sagrado templo e louvarei o vosso nome.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et córporis puritátem afférre, qua beátus Antónius María, hanc sacratíssimam hóstiam ófferens, mirífice ornátus enítuit. Per Dóminum...</p>
       <p>Permiti, Senhor, que me acompanhe à mesa do celestial banquete aquela pureza de alma e de corpo que ornava de um modo tão brilhante e maravilhoso o B. António Maria, quando oferecia esta hóstia. Por nosso Senhor...</p>
       </div>
@@ -98,14 +98,14 @@ S. Marcos.</p>
 
 <em>Fl. 8, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Imitatóres mei estóte, fratres, et observáte eos, qui ita ámbulant, sicut habétis formam nostram.</p>
       <p>Meus irmãos, sede meus imitadores e olhai para aqueles que procedem segundo o exemplo que tendes em nós.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda nostra caritátis igne flamméscant: quo beátus Antónius María salutáris hóstiæ vexíllum, contra Ecclésiæ tuæ hostes, éxtulit ad victóriam: Qui vivis...</p>
       <p>Senhor Jesus Cristo, fazei que, pela virtude do celestial festim, de que nos saciastes, os nossos corações se inflamem naquele fogo da Caridade que deu ao B. António Maria a coragem de levar contra os inimigos da vossa Igreja o estandarte da hóstia da salvação, que o conduziu à vitória. Ó Vós, que viveis e reinais...</p>
       </div>

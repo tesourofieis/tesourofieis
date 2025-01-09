@@ -10,7 +10,7 @@ export default function Page036() {
       <h1>Salmo 36</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Noli æmulári in malignántibus: * neque zeláveris faciéntes iniquitátem.</p>
       <p>Não imites os malignos: * nem invejes os que obram a iniquidade.</p>
       <p>Quóniam tamquam fænum velóciter aréscent: * et quemádmodum ólera herbárum cito décident.</p>

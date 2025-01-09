@@ -6,7 +6,7 @@ import MementoRerumConditor from './../../canticos/sacros/mementorerumconditor';
 import Salmo122 from './../salterio/122';
 import Salmo123 from './../salterio/123';
 import Salmo124 from './../salterio/124';
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from "~/components/Tabs";
 
 export default function PageSexta() {
   return (
@@ -19,7 +19,7 @@ export default function PageSexta() {
   Santa Cruz, dando-nos Maria por Mãe.
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -35,7 +35,7 @@ export default function PageSexta() {
 
 <MementoRerumConditor />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> In odorem unguentorum tuorum currimus: adolescentulæ dilexerunt te nimis.</p>
       <p><em>Ant.</em> Todos corremos à fragrância dos vossos aromas, as donzelas amar-vos-ão grandemente.</p>
       </div>
@@ -60,7 +60,7 @@ export default function PageSexta() {
 
 <TabItem label="Depois da Purificação">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> In odorem unguentorum tuorum currimus: adolescentulæ dilexerunt te nimis.</p>
       <p><em>Ant.</em> Todos corremos à fragrância dos vossos aromas, as donzelas amar-vos-ão grandemente.</p>
       </div>
@@ -69,7 +69,7 @@ export default function PageSexta() {
 
 <em>Ecl. 24, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Et radicavi in populo honorificato, et in parte Dei mei hereditas illius et in plenitudine sanctorum detentio mea.</p>
       <p>E lancei raízes no povo honorificado, e na parte de meu Deus, herança sua; e na congregação dos santos fiz a minha morada.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -80,7 +80,7 @@ export default function PageSexta() {
       <p><span className="text-red-500">℟.</span> E bendito é o fruto do vosso ventre.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Hic genuflectitur</em> Kyrie eleison</p>
       <p><em>Genuflectir</em> Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -93,7 +93,7 @@ export default function PageSexta() {
       <p><span className="text-red-500">℟.</span> E o meu clamor chegue até Vós.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Concede, misericors Deus, fragilitati nostrae praesidium: ut qui sanctae Dei Genitricis memoriam agimus, intercessionis ejus auxilio, a nostris iniquitatibus resurgamus. Per eúmdem Dóminum...</p>
@@ -106,7 +106,7 @@ export default function PageSexta() {
 
 <TabItem label="No Advento">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ne timeas, María, invenísti grátiam apud Dóminum: ecce concípies et páries fílium, (alleluia).</p>
       <p><em>Ant.</em> Não temais, ó Maria, achastes graça para com o Senhor: concebereis, e dareis à luz um filho, (aleluia).</p>
       </div>
@@ -115,7 +115,7 @@ export default function PageSexta() {
 
 <em>Lc. 1, 32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dabit illi Dominus Deus sedem David patris ejus: et regnabit in domo Jacob in æternum, et regni ejus non erit finis.</p>
       <p>O Senhor Deus lhe dará o trono de David seu Pai, e reinará eternamente na casa de Jacob, e o seu Reino não terá fim.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -126,7 +126,7 @@ export default function PageSexta() {
       <p><span className="text-red-500">℟.</span> E bendito é o fruto do vosso ventre.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Hic genuflectitur</em> Kyrie eleison</p>
       <p><em>Genuflectir</em> Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -139,7 +139,7 @@ export default function PageSexta() {
       <p><span className="text-red-500">℟.</span> E o meu clamor chegue até Vós.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui de beatæ Mariæ Virginis utero Verbum tuum, Angelo nuntiante, carnem suscipere voluisti: præsta supplicibus tuis; ut qui vere eam Genetricem Dei credimus, ejus apud te intercessionibus adjuvemur. Per eundem Dominum nostrum Jesum Christum.</p>
@@ -152,7 +152,7 @@ export default function PageSexta() {
 
 <TabItem label="No Natal">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Rubum, quem viderat Moyses incombustum, conservatam agnovimus tuam laudabilem virginitatem: Dei Genitrix, intercede pro nobis.</p>
       <p><em>Ant.</em> Na sarça que Moisés via sem se consumir, reconhecemos a vossa admirável virgindade conservada: rogai por nós, Santa Mãe de Deus.</p>
       </div>
@@ -161,7 +161,7 @@ export default function PageSexta() {
 
 <em>Ecl. 24, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Et radicavi in populo honorificato, et in parte Dei mei hereditas illius et in plenitudine sanctorum detentio mea.</p>
       <p>E lancei raízes no povo honorificado, e na parte de meu Deus, herança sua; e na congregação dos santos fiz a minha morada.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -172,7 +172,7 @@ export default function PageSexta() {
       <p><span className="text-red-500">℟.</span> E bendito é o fruto do vosso ventre.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui salutis æternæ, beatæ Mariæ virginitate fœcunda, humano generi præmia præstitisti: tribue, quǽsumus; ut ipsam pro nobis intercedere sentiamus, per quam meruimus auctorem vitæ suscipere, Dominum nostrum Jesum Christum Filium tuum. Qui tecum vivit et regnat in unitate Spiritus Sancti, Deus, per omnia sæcula sæculorum.</p>
@@ -185,7 +185,7 @@ export default function PageSexta() {
 
 </Tabs>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Domine, exaudi orationem meam.</p>
       <p>℣. Ouvi, Senhor, a minha oração.</p>
       <p><span className="text-red-500">℟.</span> Et clamor meus ad te veniat.</p>

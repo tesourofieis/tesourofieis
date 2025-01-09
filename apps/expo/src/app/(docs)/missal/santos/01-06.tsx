@@ -14,14 +14,14 @@ export default function Page0106() {
 
 <em>Ml. 3, 1; 1 Cr. 29, 12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce, advénit dominátor Dóminus: et regnum in manu ejus et potéstas et impérium. <em>Ps. 71, 1</em> Deus, judícium tuum Regi da: et justítiam tuam Fílio Regis. ℣. Gloria Patri...</p>
       <p>Eis que apareceu soberano Senhor: e traz empunhado o ceptro da realeza, do poder e do império. <em>Sl. 71, 1</em> Ó Deus, concedei ao Rei a graça de saber julgar: e ao Filho do Rei a Vossa justiça. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui hodiérna die Unigénitum tuum géntibus steila duce revelásti: concéde propítius; ut, qui jam te ex fide cognóvimus, usque ad contemplándam spéciem tuæ celsitúdinis perducámur. Per eúndem Dóminum nostrum...</p>
       <p>Ó Deus, que neste dia manifestastes o vosso Filho Unigénito aos gentios, enviando-lhes uma estrela para os guiar até onde Ele estava, concedei-nos propício que, conhecendo-Vos nós, já, pela fé, consigamos contemplar face a face o esplendor da vossa majestade. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0106() {
 
 <em>Is. 60, 1-6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>Surge, illumináre, Jerúsalem: quia venit lumen tuum, et glória Dómini super te orta est. Quia ecce, ténebræ opérient terram et caligo pópulos: super te autem oriétur Dóminus, et glória ejus in te vidébitur. Et ambulábunt gentes in lúmine tuo, et reges in splendóre ortus tui. Leva in circúitu óculos tuos, et vide: omnes isti congregáti sunt, venérunt tibi: fílii tui de longe vénient, et fíliæ tuæ de látere surgent. Tunc vidébis et áfflues, mirábitur et dilatábitur cor tuum, quando convérsa fúerit ad te multitúdo maris, fortitúdo géntium vénerit tibi. Inundátio camelórum opériet te dromedárii Mádian et Epha: omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.</p>
@@ -41,7 +41,7 @@ export default function Page0106() {
 
 <em>ibid., 6 & 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes. ℣. Surge et illumináre, Jerúsalem: quia glória Dómini super te orta est.</p>
       <p>Todos os de Sabá virão, trazendo ouro em incenso e louvando o Senhor. ℣. Ergue-te, Jerusalém, e resplandece, porque a glória do Senhor brilhou sobre ti.</p>
       <p>Allelúja, allelúja. ℣. <em>Matth. 2, 2</em> Vídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre Dóminum. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page0106() {
 
 <em>Mt. 2, 1-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽu.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce, Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui natus est rex Judæórum? Vidimus enim stellam ejus in Oriénte, et vénimus adoráre eum. Audiens autem Heródes rex, turbatus est, et omnis Jerosólyma cum illo. Et cóngregans omnes principes sacerdotum et scribas pópuli, sciscitabátur ab eis, ubi Christus nasceretur. At illi dixérunt ei: In Béthlehem Judae: sic enim scriptum est per Prophétam: Et tu, Béthlehem terra Juda, nequaquam mínima es in princípibus Juda; ex te enim éxiet dux, qui regat pópulum meum Israel. Tunc Heródes, clam vocátis Magis, diligénter dídicit ab eis tempus stellæ, quæ appáruit eis: et mittens illos in Béthlehem, dixit: Ite, et interrogáte diligénter de púero: et cum invenéritis, renuntiáte mihi, ut et ego véniens adórem eum. Qui cum audíssent regem, abiérunt. Et ecce, stella, quam víderant in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et intrántes domum, invenérunt Púerum cum María Matre ejus, <em>hic genuflectitur</em> ei procidéntes adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera, aurum, thus et myrrham. Et responso accépto in somnis, ne redírent ad Heródem, per aliam viam revérsi sunt in regiónem suam.</p>
@@ -63,14 +63,14 @@ export default function Page0106() {
 
 <em>Sl. 71, 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Reges Tharsis, et ínsulæ múnera ófferent: reges Arabum et Saba dona addúcent: et adorábunt eum omnes reges terræ, omnes gentes sérvient ei.</p>
       <p>Os reis de Társis e as ilhas oferecer-Lhe-ão tributos: Os reis de Arábia e de Sabá levar-Lhe-ão ofertas; todos os reis da terra O adorarão; e todas as nações O servirão.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecclésiæ tuæ, quǽsumus, Dómine, dona propítius intuere: quibus non jam aurum, thus et myrrha profertur; sed quod eisdem munéribus declarátur, immolátur et súmitur, Jesus Christus, fílius tuus, Dóminus noster: Qui tecum vivit...</p>
       <p>Dignai-Vos olhar benigno, Senhor, para os dons que a vossa Igreja Vos oferece, não o ouro, o incenso e a mirra, mas o que estas dádivas representam, e que agora é imolado e dado em alimento, Jesus Cristo, vosso Filho, nosso Senhor: Que, sendo Deus...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page0106() {
 
 <em>Mt. 2, 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre Dóminum.</p>
       <p>Vimos a sua estrela no Oriente e viemos com ofertas adorar o Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, quæ sollémni celebrámus officio, purificátæ mentis intellegéntia consequámur. Per Dóminum nostrum...</p>
       <p>Ó Deus omnipotente, dignai-Vos purificar inteiramente o nosso espírito, a fim de que compreenda os mystérios que celebrámos neste solene ofício. Por nosso Senhor...</p>
       </div>

@@ -14,14 +14,14 @@ export default function Page0115() {
 
 <em>Sl. 91, 13-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus Dei nostri. <em>Ps. ibid., 2</em> Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime. ℣. Gloria Patri...</p>
       <p>O justo florescerá, como a palmeira, e multiplicar-se-á, como o cedro do Líbano, plantado na casa do Senhor e nos átrios da casa do nosso Deus. <em>Sl. ibid., 2</em> É bom louvar o Senhor: e cantar hinos em honra do vosso nome, ó Altíssimo! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos beáti Pauli Confessóris tui ánnua sollemnitáte lætíficas: concéde propítius; ut, cujus natalítia cólimus, étiam actiónes imitémur. Per Dóminum...</p>
       <p>Ó Deus, que nos alegrais com a solenidade anual do B. Paulo, vosso Confessor, visto que celebramos o seu nascimento, concedei-nos propício que imitemos também as suas acções. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0115() {
 
 <em>Fl. 3, 7-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.</p>
       <p>Fratres: Quæ mihi fuérunt lucra, hæc arbitrátus sum propter Christum defriménta. Verúmtamen exístimo ómnia detriméntum esse propter eminéntem sciéntiam Jesu Christi, Dómini mei: propter quem ómnia detriméntum feci et árbitror ut stércora, ut Christum lucrifáciam et invéniar in illo, non habens meam justítiam, quæ ex lege est, sed illam, quæ ex fide est Christi Jesu: quæ ex Deo est justítia in fide, ad cognoscéndum illum, et virtútem resurrectiónis ejus, et societátem passiónum illíus: configurátus morti ejus: si quo modo occúrram ad resurrectiónem, quæ est ex mórtuis: non quod jam accéperim aut jam perféctus sim: sequor autem, si quo modo comprehéndam, in quo et comprehénsus sum a Christo Jesu.</p>
@@ -41,7 +41,7 @@ export default function Page0115() {
 
 <em>Sl. 91, 13 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. ℣. <em>ibid., 3</em> Annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.</p>
       <p>O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano, na casa do Senhor. ℣. <em>ibid., 3</em> Para publicar de manhã a vossa misericórdia; e de noite a vossa verdade.</p>
       <p>Allelúja, allelúja. ℣. <em>Osee 14, 6</em> Justus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page0115() {
 
 <em>Mt. 11, 25-30</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc a sapiéntibus ei prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve.</p>
@@ -63,14 +63,14 @@ export default function Page0115() {
 
 <em>Sl. 20, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.</p>
       <p>Com o vosso poder, ó Senhor, se alegrará o justo, o qual exultará de alegria, vendo-se salvo por Vós. Concedestes-lhe, Senhor, o desejo da sua alma.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris. Per Dóminum...</p>
       <p>Senhor, Vos oferecemos este sacrifício de louvor em memória dos vossos santos, para que por meio deles nos livremos dos males presentes e futuros. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page0115() {
 
 <em>Sl. 63, 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde.</p>
       <p>O justo alegrar-se-á no Senhor e n’Ele esperará: e serão louvados todos os que possuem coração recto.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus. Per Dóminum...</p>
       <p>Fortalecidos com o alimento e com a bebida celestiais, Vos suplicamos humildemente, ó nosso Deus, que nos protejam as preces daquele em cuja memória os recebemos. Por nosso Senhor...</p>
       </div>

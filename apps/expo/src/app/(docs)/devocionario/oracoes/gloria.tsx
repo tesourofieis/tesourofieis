@@ -10,7 +10,7 @@ export default function PageGloria() {
       <h1>Glória</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Glória Patri, et Fílio, et Spíritui Sancto.</p>
       <p>℣. Glória ao Pai, e ao Filho e ao Espírito Santo.</p>
       <p><span className="text-red-500">℟.</span> Sicut erat in pricípio, et nunc, et semper, et in sǽcula sæculórum.</p>

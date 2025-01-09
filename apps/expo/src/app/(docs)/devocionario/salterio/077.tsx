@@ -10,7 +10,7 @@ export default function Page077() {
       <h1>Salmo 77</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Atténdite, pópule meus, legem meam: * inclináte aurem vestram in verba oris mei.</p>
       <p>Escutai, ó meu povo, a minha lei: * inclinai os vossos ouvidos às palavras da minha boca.</p>
       <p>Apériam in parábolis os meum: * loquar propositiónes ab inítio.</p>

@@ -10,7 +10,7 @@ export default function Page100() {
       <h1>Salmo 100</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Misericórdiam et judícium * cantábo tibi, Dómine:</p>
       <p>Misericórdia e justiça * Vos cantarei, ó Senhor:</p>
       <p>Psallam, et intéllegam in via immaculáta, * quando vénies ad me.</p>

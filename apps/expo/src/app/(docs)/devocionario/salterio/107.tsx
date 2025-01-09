@@ -10,7 +10,7 @@ export default function Page107() {
       <h1>Salmo 107</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Parátum cor meum, Deus, parátum cor meum: * cantábo, et psallam in glória mea.</p>
       <p>Pronto está o meu coração, ó Deus, pronto está o meu coração: * cantarei e salmodiarei na minha glória.</p>
       <p>Exsúrge, glória mea, exsúrge, psaltérium et cíthara: * exsúrgam dilúculo.</p>

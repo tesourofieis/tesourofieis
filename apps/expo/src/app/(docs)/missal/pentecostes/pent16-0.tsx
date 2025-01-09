@@ -14,14 +14,14 @@ export default function PagePent160() {
 
 <em>Sl. 85, 3 & 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu, Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te. <em>Ps. ibid., 1</em> Inclína, Dómine, aurem tuam mihi, et exáudi me: quóniam inops, et pauper sum ego. ℣. Gloria Patri...</p>
       <p>Tende misericórdia de mim, Senhor, pois por Vós clamei todo o dia, porquanto sois bom, clemente e compassivo para com aqueles que Vos invocam. <em>Sl. ibid., 1</em> Inclinai vossos ouvidos para mim, Senhor, e ouvi-me: pois sou necessitado, infeliz e pobre. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tua nos, quǽsumus, Dómine, grátia semper et prævéniat et sequátur: ac bonis opéribus júgiter præstet esse inténtos. Per Dóminum...</p>
       <p>Fazei, Senhor, Vos suplicamos, que a vossa graça nos anime e acompanhe sempre, e que nos mantenha incessantemente na prática das boas obras. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent160() {
 
 <em>Ef. 3, 13-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Efésios.</p>
       <p>Fratres: Obsecro vos, ne deficiátis in tribulatiónibus meis pro vobis: quæ est glória vestra. Hujus rei grátia flecto génua mea ad Patrem Dómini nostri Jesu Christi, ex quo omnis patérnitas in cœlis et in terra nominátur, ut det vobis secúndum divítias glóriæ suæ, virtúte corroborári per Spíritum ejus in interiórem hóminem, Christum habitáre per fidem in córdibus vestris: in caritáte radicáti et fundáti, ut póssitis comprehéndere cum ómnibus sanctis, quæ sit latitúdo et longitúdo et sublímitas et profúndum: scire etiam supereminéntem sciéntiæ caritátem Christi, ut impleámini in omnem plenitúdinem Dei. Ei autem, qui potens est ómnia fácere superabundánter, quam pétimus aut intellégimus, secúndum virtútem, quæ operátur in nobis: ipsi glória in Ecclésia et in Christo Jesu, in omnes generatiónes sǽculi sæculórum. Amen.</p>
@@ -41,7 +41,7 @@ export default function PagePent160() {
 
 <em>Sl. 101, 16-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam. ℣. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua.</p>
       <p>As nações temerão o vosso nome, Senhor, e todos os reis da terra publicarão a vossa glória. ℣. Pois o Senhor edificou Sião, onde fará resplandecer a sua majestade.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 97, 1</em> Cantáte Dómino cánticum novum: quia mirabília fecit Dóminus. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent160() {
 
 <em>Lc. 14, 1-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Sl. 39, 14 & 15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, in auxílium meum réspice: confundántur et revereántur, qui quærunt ánimam meam, ut áuferant eam: Dómine, in auxílium meum réspice.</p>
       <p>Volvei para mim, Senhor, um olhar de protecção. Que fiquem confundidos e cheios de opróbrio aqueles que intentam tirar-me a vida. Senhor, lançai para mim um olhar de protecção!</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Munda nos, quǽsumus, Dómine, sacrifícii præséntis efféctu: et pérfice miserátus in nobis; ut ejus mereámur esse partícipes. Per Dóminum nostrum...</p>
       <p>Pela virtude deste sacrifício, Senhor, Vos suplicamos, dignai-Vos purificar-nos; e, usando da vossa misericórdia para connosco, permiti que nos tornemos dignos de participar deste mesmo sacrifício. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Sl. 70, 16-17 & 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a juventúte mea: et usque in senéctam et sénium, Deus, ne derelínquas me.</p>
       <p>Senhor, serão meu único pensamento as obras da vossa justiça: instruístes-me, ó Deus, desde a minha juventude: e não me abandonareis até à minha velhice, até aos meus cabelos brancos, ó meu Deus.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Purífica, quǽsumus, Dómine, mentes nostras benígnus, et rénova cœléstibus sacraméntis: ut consequénter et córporum præsens páriter et futúrum capiámus auxílium. Per Dóminum...</p>
       <p>Senhor, dignai-Vos benignamente purificar e renovar as nossas almas com vossos celestiais sacramentos, a fim de que neles os nossos corpos encontrem auxílio, tanto para a vida presente, como para a futura. Por nosso Senhor...</p>
       </div>

@@ -10,7 +10,7 @@ export default function Page103() {
       <h1>Salmo 103</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bénedic, ánima mea, Dómino: * Dómine, Deus meus, magnificátus es veheménter.</p>
       <p>Bendiz o Senhor, ó minha alma: * ó Senhor meu Deus, Vos engrandecestes sumamente.</p>
       <p>Confessiónem, et decórem induísti: * amíctus lúmine sicut vestiménto:</p>

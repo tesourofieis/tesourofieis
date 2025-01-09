@@ -12,21 +12,21 @@ export default function Page35Vivosedefuntos() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui vivórum domináris simul et mortuórum, omniúmque miseréris, quos tuos fide et opere futúros esse prænóscis: te súpplices exorámus; ut, pro quibus effúndere preces decrévimus, quosque vel præsens sǽculum adhuc in carne rétinet, vel futúrum jam exútos córpore suscépit, intercedéntibus ómnibus Sanctis tuis, pietátis tuæ cleméntia ómnium delictórum suórum véniam consequántur. Per Dóminum...</p>
       <p>Ó omnipotente e sempiterno Deus, que dominais os vivos e os mortos e sois misericordioso para com aqueles que antecipadamente conheceis que pela sua fé e boas obras hão-de pertencer-Vos, humildemente Vos suplicamos, permiti, pela vossa bondade e clemência e pela intercessão de todos vossos Santos, que aqueles por quem rezamos (ou vivam ainda neste mundo, na carne, mortal, ou, despojados dos seus corpos, hajam penetrado na eternidade) alcancem o perdão dos seus pecados. Por nosso Senhor...</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, cui soli cógnitus est númerus electórum in supérna felicitáte locándus: tríbue, quǽsumus; ut, intercedéntibus ómnibus Sanctis tuis, universórum, quos in oratióne commendátas suscépimus, et ómnium fidélium nómina beátæ prædestinatiónis liber adscrípta retíneat. Per Dóminum...</p>
       <p>Ó Deus, de quem só é conhecido o número dos escolhidos, que hão-de possuir um lugar na felicidade celestial, Vos rogamos, permiti, pela intercessão de todos vossos Santos, que sejam inscritos no livro da bem-aventurada predestinação os nomes daqueles que Vos encomendamos nas nossas orações, e bem assim os de todos os fiéis. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Puríficent nos, quǽsumus, omnípotens et miséricors Deus, sacraménta quæ súmpsimus: et, intercedéntibus ómnibus Sanctis tuis, præsta; ut hoc tuum sacraméntum non sit nobis reátus ad pœnam, sed intercéssio salutáris ad véniam: sit ablútio scélerum, sit fortitúdo fragílium, sit contra ómnia mundi perícula firmaméntum: sit vivórum atque mortuórum fidélium remíssio ómnium delictórum. Per Dóminum...</p>
       <p>Deus omnipotente e misericordioso, Vos imploramos, permiti que os sacramentos, que recebemos, nos purifiquem; e, pela intercessão de todos vossos Santos, concedei-nos que este vosso sacramento seja para nós salutar meio de perdão, e não causa de castigo; que apague todos nossos pecados; que seja o nosso sustentáculo no meio da nossa fragilidade; que seja a nossa defesa contra os perigos deste mundo, e que sirva de expiação dos delitos de todos os fiéis vivos e defuntos. Por nosso Senhor...</p>
       </div>

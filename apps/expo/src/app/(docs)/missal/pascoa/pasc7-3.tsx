@@ -14,14 +14,14 @@ export default function PagePasc73() {
 
 <em>Sl. 67, 8 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans in illis, allelúja: terra mota est, cœli distillavérunt, allelúja, allelúja. <em>Ps. ibid., 2</em> Exsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus. ℣. Gloria Patri...</p>
       <p>Ó Deus, quando aparecestes perante o vosso povo, aleluia, caminhando e habitando com ele na terra, aleluia: a terra estremeceu e os céus destilaram águas, aleluia, aleluia! <em>Sl. ibid., 2</em> Erga-se Deus e os seus inimigos sejam dispersos: e os seus perseguidores fujam diante da sua face. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mentes nostras, quǽsumus, Dómine, Paráclitus, qui a te procédit, illúminet: et indúcat in omnem, sicut tuus promísit Fílius, veritátem: Qui tecum...</p>
       <p>Senhor, Vos suplicamos, permiti que o Paráclito, que procede de Vós, ilumine as nossas almas e nos faça conhecer toda a verdade, como no-lo prometeu vosso Filho. O qual, sendo Deus...</p>
       </div>
@@ -30,21 +30,21 @@ export default function PagePasc73() {
 
 <em>Act. 2, 14-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Stans Petrus cum úndecim, levávit vocem suam, et locútus est eis: Viri Judǽi, et qui habitátis Jerúsalem univérsi, hoc vobis notum sit, et áuribus percípite verba mea. Non enim, sicut vos æstimátis, hi ébrii sunt, cum sit hora diéi tértia: sed hoc est, quod dictum est per Prophétam Joël: Et erit in novíssimis diébus (dicit Dóminus) effúndam de Spíritu meo super omnem carnem, et prophetábunt fílii vestri et fíliæ vestræ, et júvenes vestri visiónes vidébunt, et senióres vestri sómnia somniábunt. Et quidem super servos meos et super ancíllas meas in diébus illis effúndam de Spíritu meo, et prophetábunt: et dabo prodígia in cœlo sursum et signa in terra deórsum, sánguinem et ignem et vapórem fumi. Sol convertátur in ténebras et luna in sánguinem, antequam véniat dies Dómini magnus et maniféstus. Et erit: omnis, quicúmque invocáverit nomen Dómini, salvus erit.</p>
       <p>Naqueles dias, Pedro apresentou-se com os Onze e elevou a voz, dizendo: «Varões judeus e vós todos, habitantes de Jerusalém, aprendei bem isto e escutai atentamente as minhas palavras: Estes homens não estão ébrios, coma pensais, pois é a hora terceira do dia; mas isto que vedes, foi anunciado pelo Profeta Joel: «Acontecerá nos últimos dias, diz o Senhor, que espalharei o meu Espírito sobre toda a carne; vossos filhos e filhas profetizarão ; vossos jovens terão visões; e vossos anciãos sonharão. E então, naqueles dias, espalharei o meu Espírito sobre os meus servos e servas, que profetizarão; e praticarei prodígios no alto do céu e sinais cá em baixo, na terra: sangue, fogo, rolos de fumo. O sol se tornará em trevas e a lua em sangue, antes que venha o dia do Senhor, o dia grande e glorioso. Então, todo aquele que invocar o nome do Senhor, será salvo».</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja. ℣. <em>Ps. 32, 6</em> Verbo Dómini cœli firmáti sunt, et Spíritu oris ejus omnis virtus eórum.</p>
       <p>Aleluia. ℣. <em>Sl. 32, 6</em> A palavra do Senhor firmou os céus, e o Espírito da sua boca criou todos os espíritos da milícia celeste.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens et miséricors Deus: ut Spíritus Sanctus advéniens, templum nos glóriæ suæ dignánter inhabitándo perfíciat. Per Dóminum...</p>
       <p>Fazei, ó Deus omnipotente e misericordioso, Vos imploramos, que, descendo o Espírito Santo sobre nós, nos torne em suas moradas e em templos dignos da sua glória. Por nosso Senhor...</p>
       </div>
@@ -53,14 +53,14 @@ export default function PagePasc73() {
 
 <em>Act. 5, 12-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Per manus autem Apostolórum fiébant signa et prodígia multa in plebe. Et erant unanímiter omnes in pórticu Salomónis. Ceterórum autem nemo audébat se conjúngere illis: sed magnificábat eos pópulus. Magis autem augebátur credéntium in Dómino multitúdo virórum ac mulíerum, ita ut in pláteas ejícerent infírmos, et pónerent in léctulis ac grabátis, ut, veniénte Petro, saltem umbra illíus obumbráret quemquam illórum, et liberaréntur ab infirmitátibus suis. Concurrébat autem et multitúdo vicinárum civitátum Jerúsalem, afferéntes ægros et vexátos a spirítibus immúndis: qui curabántur omnes.</p>
       <p>Naqueles dias, os Apóstolos operavam muitos milagres e prodígios no meio do povo. E, unidos todos, estavam sob o pórtico de Salomão. Nenhuma outra pessoa ousava juntar-se a eles2 ainda que todos os louvassem. O número dos homens e das mulheres que acreditavam em Deus crescia cada vez mais, de modo que conduziam os enfermos para as ruas e colocavam-nos em leitos e catres, para que, quando Pedro passasse, ao menos a sua sombra cobrisse alguns deles e os curasse das suas enfermidades. Até das cidades vizinhas corria a multidão a Jerusalém, conduzindo enfermos e outros atormentados pelos espíritos imundos, os quais eram todos curados.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. <em>hic genuflectitur</em> ℣. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.</p>
       <p>Aleluia, aleluia <em>Genuflecte-se</em> ℣. Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.</p>
       </div>
@@ -69,7 +69,7 @@ export default function PagePasc73() {
 
 <em>Jo. 6, 44-52</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -81,14 +81,14 @@ S. João.</p>
 
 <em>Sl. 118, 47-48</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi, allelúja.</p>
       <p>Meditarei nos vossos mandamentos, que muito amo: e erguerei as minhas mãos para cumprir os vossos mandamentos, que muito amo, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Accipe, quǽsumus, Dómine, munus oblátum: et dignánter operáre; ut, quod mystériis ágimus, piis efféctibus celebrámus. Per Dóminum...</p>
       <p>Aceitai, Senhor, Vos rogamos, o dom que Vos oferecemos: e dignai-Vos permitir-nos que celebremos piamente os mystérios que desempenhamos. Por nosso Senhor...</p>
       </div>
@@ -97,14 +97,14 @@ S. João.</p>
 
 <em>Jo. 14, 27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pacem relínquo vobis, allelúja: pacem meam do vobis, allelúja, allelúja.</p>
       <p>Deixo-vos a paz, aleluia: dou-vos a minha paz, aleluia, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Suméntes, Dómine, cœléstia sacraménta, quǽsumus cleméntiam tuam: ut quod temporáliter gérimus ætérnis gáudiis consequámur Per Dóminum...</p>
       <p>Recebendo nós, Senhor, estes divinos sacramentos, imploramos a vossa clemência, a fim de que alcancemos nos gozos eternos o que celebramos durante o tempo. Por nosso Senhor...</p>
       </div>

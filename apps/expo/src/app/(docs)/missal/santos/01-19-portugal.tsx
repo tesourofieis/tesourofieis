@@ -18,21 +18,21 @@ export default function Page0119Portugal() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beáti Gundisálvi Confessóris tui mentem sancti nóminis tui amóre mirabíliter inflammásti: concéde, quæsumus; ut illius vestígiis inhæréntes, semper te cogitémus, quæque tibi grata sunt, inflammáto stúdio faciámus. Per Dóminum...</p>
       <p>Ó Deus, que maravilhosamente abrasastes no amor ao vosso nome a alma do B. Gonçalo, vosso Confessor, dignai-Vos conceder-nos que, seguindo os seus vestígios, pensemos sempre em Vós e com fervorosa solicitude façamos o que Vos seja agradável. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração Comemoração S. S. Mário e Outros Mártires</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Dómine, pópulum tuum cum Sanctórum tuórum patrocínio supplicántem: ut et temporális vitæ nos tríbuas pace gaudére; et ætérnæ reperíre subsídium. Per Dóminum...</p>
       <p>Ouvi, Senhor, as súplicas que o vosso povo Vos dirige sob o patrocínio dos vossos Santos; e dignai-Vos permitir que gozemos a vossa paz na vida presente e alcancemos o vosso auxílio na vida eterna...</p>
       </div>
 
       <h3>Oração Comemoração S. Canuto</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ad illustrándam Ecclésiam tuam beátum Canútum regem martýrii palma et gloriósis miráculis decoráre dignátus es: concéde propítius; ut, sicut ipse Domínicæ passiónis imitátor fuit, ita nos, per ejus vestígia gradiéntes, ad gáudia sempitérna perveníre mereámur. Per eúndem Dóminum...</p>
       <p>Ó Deus, que para glória da vossa Igreja Vos dignastes honrar o B. Rei Canuto com a palma do martírio e o dom de insignes milagres, concedei-nos propício que, assim como ele imitou a Paixão do Senhor, assim também nós, segundo os seus vestígios, mereçamos alcançar os sempiternos gozos. Por nosso Senhor...</p>
       </div>
@@ -48,7 +48,7 @@ export default function Page0119Portugal() {
 
 <em>Sl. 20, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide pretióso. ℣. <em>ibid., 5</em> Vitam pétiit a te: et tribuísti ei longitúdinem diérum in sæculum sæculi.</p>
       <p>Concedestes-lhe, Senhor, bênçãos escolhidas, as mais suaves, e impusestes na sua cabeça uma coroa de pedras preciosas. ℣. <em>ibid., 5</em> Concedestes-lhe a vida que Vos suplicou e prolongastes-lhe a duração dos seus dias pelos séculos dos séculos.</p>
       <p>Allelúja, allelúja. Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde. Allelúja.</p>
@@ -61,7 +61,7 @@ export default function Page0119Portugal() {
 
 <em>Sl. 111, 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Potens in terra erit semen ejus: generátio rectórum benedicétur. ℣. Glória et divitiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.</p>
       <p>Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em obedecer-Lhe. ℣. Sua descendência será poderosa na terra; pois a geração dos justos será abençoada. ℣. Na sua casa haverá glória e riqueza: e a justiça subsistirá em todos os séculos dos séculos.</p>
       </div>
@@ -77,14 +77,14 @@ export default function Page0119Portugal() {
 
 <em>Sl. 91, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus ut palma florébit, sicut cedrus, quæ in Líbano est, multiplicábitur.</p>
       <p>O justo florescerá, como a palmeira, e multiplicar-se-á, como o cedro do Líbano.</p>
       </div>
 
       <h3>Secreta Comemoração S. S. Mário e Outros Mártires</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Preces, Dómine, tuórum réspice oblationésque fidélium: ut et tibi gratæ sint pro tuórum festivitáte Sanctórum, et nobis cónferant tuæ propitiatiónis auxílium. Per Dóminum...</p>
       <p>Atendei, Senhor, ás preces e ás oblatas dos vossos fiéis, a fim de que Vos sejam agradáveis nesta festa dos vossos Santos e nos alcancem o auxílio da vossa bondade. Por nosso Senhor...</p>
       </div>
@@ -93,7 +93,7 @@ export default function Page0119Portugal() {
 
 <em>S. Canuto</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Accépta sit in conspéctu tuo, Dómine, nostra devótio: et ejus nobis fiat supplicatióne salutáris, pro cujus sollemnitáte defértur. Per Dóminum...</p>
       <p>Recebei benigno, Senhor, esta oferta da nossa piedade, e que ela nos alcance a salvação, por intercessão das preces daquele em cuja festa Vo-la apresentamos. Por nosso Senhor...</p>
       </div>
@@ -102,21 +102,21 @@ export default function Page0119Portugal() {
 
 <em>Mt. 19, 91, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen dico vobis, quod vos, qui reliquístis ómnia, et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis.</p>
       <p>Em verdade vos digo: vós, que abandonastes tudo e me seguistes, recebereis o cêntuplo e possuireis a vida eterna.</p>
       </div>
 
       <h3>Postcomúnio Comemoração S. S. Mário e Outros Mártires</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctórum tuórum, Dómine, intercessióne placátus: præsta, quǽsumus; ut, quæ temporáli celebrámus actióne, perpétua salvatióne capiámus. Per Dóminum...</p>
       <p>Deixai-Vos aplacar, Senhor, pela intercessão dos vossos Santos; e permiti, Vos rogamos, que estes sacrifícios, que aogra celebrámos, nos sirvam de auxílio para a salvação eterna. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio Comemoração S. Canuto</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto Canúto Mártyre tuo, sentiámus efféctum. Per Dóminum...</p>
       <p>Permiti, ó Senhor, nosso Deus, que, assim como nos alegrámos, comemorando nesta vida pelo nosso ministério a memória dos vossos Santos, assim também tenhamos na eternidade a felicidade de os contemplar. Por nosso Senhor...</p>
       </div>

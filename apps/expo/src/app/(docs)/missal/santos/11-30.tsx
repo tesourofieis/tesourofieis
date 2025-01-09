@@ -14,14 +14,14 @@ export default function Page1130() {
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principatus eórum. <em>Ps. ibid., 1-2</em> Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam. ℣. Gloria Patri...</p>
       <p>Vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu poder se fortaleceu extraordinariamente. <em>Sl. ibid., 1-2</em> Senhor, perscrutastes o meu íntimo e ficastes conhecendo-me: ficastes conhecendo quando me deito e quando me levanto. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Majestátem tuam, Dómine, supplíciter exorámus: ut, sicut Ecclésiæ tuæ beátus Andréas Apóstolus éxstitit prædicátor et rector; ita apud te sit pro nobis perpétuus intercéssor. Per Dóminum...</p>
       <p>Humildemente suplicamos à vossa divina majestade que, assim como o Apóstolo André foi pregador e guia da vossa Igreja, assim também interceda por nós perpetuamente junto de Vós. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page1130() {
 
 <em>Rm. 10, 10-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Corde enim créditur ad justítiam: ore autem conféssio fit ad salútem. Dicit enim Scriptúra: Omnis, qui credit in illum, non confundétur. Non enim est distínctio Judǽi et Græci: nam idem Dóminus ómnium, dives in omnes, qui ínvocant illum. Omnis enim, quicúmque invocáverit nomen Dómini, salvus erit. Quómodo ergo invocábunt, in quem non credidérunt? Aut quómodo credent ei, quem non audiérunt? Quómodo autem áudient sine prædicánte? Quómodo vero prædicábunt, nisi mittántur? sicut scriptum est: Quam speciósi pedes evangelizántium pacem, evangelizándum bona! Sed non omnes obǿdiunt Evangelio. Isaías enim dicit: Dómine, quis crédidit audítui nostro? Ergo fides ex audítu, audítus autem per verbum Christi. Sed dico: Numquid non audiérunt? Et quidem in omnem terram exívit sonus eórum, et in fines orbis terræ verba eórum.</p>
@@ -41,7 +41,7 @@ export default function Page1130() {
 
 <em>Sl. 44, 17-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine. ℣. Pro pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.</p>
       <p>Serão constituídos príncipes em toda a terra e perpetuarão a glória do vosso nome, Senhor! ℣. Para substituir os vossos pais nasceram-vos filhos; por isso os povos Vos louvarão eternamente.</p>
       <p>Allelúja, allelúja. ℣. Diléxit Andréam Dóminus in odórem suavitátis. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page1130() {
 
 <em>Mt. 4, 18-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Ambulans Jesus juxta mare Galilǽæ, vidit duos fratres, Simónem, qui vocátur Petrus, et Andréam fratrem ejus, mitténtes rete in mare (erant enim piscatóres), et ait illis: Veníte post me, et fáciam vos fíeri piscatóres hóminum. At illi contínuo, relíctis rétibus, secúti sunt eum. Et procédens inde, vidit álios duos fratres, Jacóbum Zebedǽi et Joánnem, fratrem ejus, in navi cum Zebedǽo patre eórum reficiéntes rétia sua: et vocávit eos. Illi autem statim, relíctis rétibus et patre, secúti sunt eum.</p>
@@ -63,14 +63,14 @@ export default function Page1130() {
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.</p>
       <p>Vejo, ó Deus, que honrastes largamente os vossos amigos; por isso o seu poder se fortaleceu extraordinariamente.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrificium nostrum tibi, Dómine, quǽsumus, beáti Andréæ Apóstoli precátio sancta concíliet: ut, in cujus honóre sollémniter exhibétur, ejus méritis efficiátur accéptum. Per Dóminum...</p>
       <p>Senhor, permiti que a oração do B. Apóstolo André Vos torne agradável este nosso sacrifício, a fim de que seja aceite, em virtude dos méritos daquele em cuja honra Vos é solenemente oferecido. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page1130() {
 
 <em>Mt. 4, 19-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veníte post me: fáciam vos fíeri piscatóres hóminum; at illi contínuo, relíctis rétibus, secúti sunt Dóminum.</p>
       <p>Vinde comigo: e far-vos-ei pescadores de homens. Imediatamente eles, deixando as redes, seguiram o Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súmpsimus, Dómine, divína mystéria, beáti Andréæ Apóstoli festivitáte lætántes: quæ, sicut tuis Sanctis ad glóriam, ita nobis, quǽsumus, ad véniam prodésse perfícias. Per Dóminum...</p>
       <p>Senhor, que os divinos mystérios, que com alegria recebemos nesta festa do B. André, servindo para a glória dos vossos Santos, nos alcancem, também, o perdão das nossas culpas. Por nosso Senhor...</p>
       </div>

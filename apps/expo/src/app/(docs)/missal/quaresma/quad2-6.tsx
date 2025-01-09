@@ -14,14 +14,14 @@ export default function PageQuad26() {
 
 <em>Sl. 18, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lex Dómini irreprehensíbilis, convértens ánimas: testimónium Dómini fidéle, sapiéntiam præstans párvulis. <em>Ps. ibid., 2</em> Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum. ℣. Gloria Patri...</p>
       <p>A lei do Senhor é perfeita e converte as almas; o testemunho do Senhor é digno de fé e ensina os ignorantes. <em>Sl. ibid., 2</em> Os céus publicam a glória do Senhor e o firmamento anuncia as obras das suas mãos. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, Dómine, nostris efféctum jejúniis salutárem: ut castigátio carnis assúmpta, ad nostrárum vegetatiónem tránseat animárum. Per Dóminum...</p>
       <p>Dai, Senhor, Vos suplicamos, aos nossos jejuns efeitos salutares, para que a mortificação que fazemos na carne seja proveitosa à saúde das nossas almas. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad26() {
 
 <em>Gn. 27, 6-40</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Genesis.</p>
       <p>Lição do Livro do Génesis.</p>
       <p>In diébus illis: Dixit Rebécca fílio suo Jacob: Audívi patrem tuum loquéntem cum Esau fratre tuo, et dicéntem ei: Affer mihi de venatióne tua, et fac cibos, ut comédam et benedícam tibi coram Dómino, ántequam móriar. Nunc ergo, fili mi, acquiésce consíliis meis: et pergens ad gregem, affer mihi duos hædos óptimos, ut fáciam ex eis escas patri tuo, quibus libénter véscitur: quas cum intúleris et coméderit, benedícat tibi, priúsquam moriátur. Cui ille respóndit: Nosti, quod Esau, frater meus, homo pilósus sit, et ego lenis: si attrectáverit me pater meus et sénserit, tímeo, ne putet me sibi voluísse illúdere, et indúcam super me maledictiónem pro benedictióne. Ad quem mater: In me sit, ait, ista male díctio, fili mi: tantum audi vocem meam, et pergens affer quæ dixi. Abiit, et áttulit, dedítque matri. Parávit illa cibos, sicut velle nóverat patrem illíus. Et véstibus Esau valde bonis, quas apud se habébat domi, índuit eum: pelliculásque hædórum circúmdedit mánibus, et colli nuda protéxit. Dedítque pulméntum, et panes, quos cóxerat, trádidit. Quibus illátis, dixit: Pater mi! At ille respóndit: Audio. Quis es tu, fili mi? Dixítque Jacob: Ego sum primogénitus tuus Esau: feci, sicut præcepísti mihi: surge, sede, et cómede de venatióne mea, ut benedícat mihi ánima tua. Rursúmque Isaac ad fílium suum: Quómodo, inquit, tam cito inveníre potuísti, fili mi? Qui respóndit: Volúntas Dei fuit, ut cito occúrreret mihi quod volébam. Dixítque Isaac: Accéde huc, ut tangam te, fili mi, et probem, utrum tu sis fílius meus Esau, an non. Accéssit ille ad patrem, et palpáto eo, dixit Isaac: Vox quidem vox Jacob est, sed manus manus sunt Esau. Et non cognóvit eum, quia pilósæ manus similitúdinem majóris exprésserant. Benedícens ergo illi, ait: Tu es fílius meus Esau? Respóndit: Ego sum. At ille: Affer mihi, inquit, cibos de venatióne tua, fili mi, ut benedícat tibi ánima mea. Quos cum oblátos comedísset, óbtulit ei étiam vinum. Quo hausto, dixit ad eum: Accéde ad me, et da mihi ósculum, fili mi. Accéssit, et osculátus est eum. Statímque ut sensit vestimentórum illíus fragrántiam, benedícens illi, ait: Ecce, odor fílii mei sicut odor agri pleni, cui benedíxit Dóminus. Det tibi Deus de rore cœli, et de pinguédine terræ abundántiam fruménti et vini. Et sérviant tibi pópuli, et ad orent te tribus: esto dóminus fratrum tuórum, et incurvéntur ante te fílii matris tuæ. Qui male díxerit tibi, sit ille maledíctus: et qui benedíxerit tibi, benedictiónibus repleátur. Vix Isaac sermónem impléverat, et egrésso Jacob foras, venit Esau, coctósque de venatióne cibos íntulit patri, dicens: Surge, pater mi, et cómede de venatióne fílii tui, ut benedícat mihi ánima tua. Dixítque illi Isaac: Quis enim es tu? Qui respóndit: Ego sum fílius tuus primogénitus Esau. Expávit Isaac stupóre veheménti, et ultra quam credi potest, admírans, ait: Quis ígitur ille est, qui dudum captam venatiónem áttulit mihi, et comédi ex ómnibus, priúsquam tu veníres? Benedixíque ei, et erit benedíctus. Audítis Esau sermónibus patris, irrúgiit clamóre magno, et consternátus, ait: Bénedic etiam et mihi, pater mi. Qui ait: Venit germánus tuus fraudulénter, et accépit benedictiónem tuam. At ille subjunxit: Juste vocátum est nomen ejus Jacob: supplantávit enim me en áltera vice: primogénita mea ante tulit, et nunc secúndo surrípuit benedictiónem meam. Rursúmque ad patrem: Numquid non reservásti, ait, et mihi benedictiónem? Respóndit Isaac: Dóminum tuum illum constítui, et omnes fratres ejus servitúti illíus subjugávi: fruménto et vino stabilívi eum, et tibi post hæc, fili mi, ultra quid fáciam? Cui Esau: Num unam, inquit, tantum benedictiónem habes, pater? mihi quoque óbsecro ut benedícas. Cumque ejulátu magno fleret, motus Isaac, dixit ad eum: In pinguédine terræ, et in rore cœli désuper erit benedíctio tua.</p>
@@ -41,7 +41,7 @@ export default function PageQuad26() {
 
 <em>Sl. 91, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime. ℣. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.</p>
       <p>É bom louvar o Senhor e cantar o vosso nome, ó Altíssimo. ℣. Para anunciar de manhã a vossa misericórdia e de noite a vossa verdade.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad26() {
 
 <em>Lc. 15, 11-32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Dixit Jesus pharisǽis et scribis parábolam istam: Homo quidam hábuit duos fílios, et dixit adolescéntior ex illis patri: Pater, da mihi portiónem substántiæ, quæ me cóntingit. Et divísit illis substántiam. Et non post multos dies, congregátis ómnibus, adolescéntior fílius péregre proféctus est in regiónem longínquam, et ibi dissipávit substántiam suam vivéndo luxurióse. Et postquam ómnia consummásset, facta est fames válida in regióne illa, et ipse cœpit egére. Et ábiit, et adhǽsit uni cívium regiónis illíus. Et misit illum in villam suam, ut pásceret porcos. Et cupiébat implére ventrem suum de síliquis, quas porci manducábant: et nemo illi dabat. In se autem revérsus, dixit: Quanti mercennárii in domo patris mei abúndant pánibus, ego autem hic fame péreo? Surgam, et ibo ad patrem meum, et dicam ei: Pater, peccávi in cœlum et coram te: jam non sum dignus vocari fílius tuus: fac me sicut unum de mercennáriis tuis. Et surgens venit ad patrem suum. Cum autem adhuc longe esset, vidit illum pater ipsíus, et misericórdia motus est, et accúrrens cécidit super collum ejus, et osculátus est eum. Dixítque ei fílius: Pater, peccávi in cœlum et coram te, jam non sum dignus vocari fílius tuus. Dixit autem pater ad servos suos: Cito proférte stolam primam, et indúite illum, et date ánulum in manum ejus, et calceaménta in pedes ejus: et addúcite vítulum saginátum et occídite, et manducémus et epulémur, quia hic fílius meus mórtuus erat, et revíxit: períerat, et invéntus est. Et cœpérunt epulári. Erat autem fílius ejus senior in agro: et cum veníret, et appropinquáret dómui, audívit symphóniam et chorum: et vocávit unum de servis, et interrogávit, quid hæc essent. Isque dixit illi: Frater tuus venit, et occídit pater tuus vítulum saginátum, quia salvum illum recépit. Indignátus est autem, et nolébat introíre. Pater ergo illíus egréssus, cœpit rogáre illum. At ille respóndens, dixit patri suo: Ecce, tot annis sérvio tibi, et numquam mandátum tuum præterívi, et numquam dedísti mihi hædum, ut cum amícis meis epulárer: sed postquam fílius tuus hic, qui devorávit substántiam suam cum meretrícibus, venit, occidísti illi vítulum saginátum. At ipse dixit illi: Fili, tu semper mecum es, et ómnia mea tua sunt: epulári autem et gaudére oportébat, quia frater tuus hic mórtuus erat, et revíxit: períerat, et invéntus est.</p>
@@ -61,14 +61,14 @@ export default function PageQuad26() {
 
 <em>Sl. 12, 4-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Illúmina óculos meos, ne umquam obdórmiam in morte: ne quando dicat inimícus meus: Præválui advérsus eum.</p>
       <p>Iluminai os meus olhos para que eu nunca adormeça na morte. Que nunca o meu inimigo diga: prevaleci contra ele.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>His sacrifíciis, Dómine, concéde placátus: ut, qui própriis orámus absólvi delíctis, non gravémur extérnis. Per Dóminum...</p>
       <p>Deixai-Vos aplacar, Senhor, com estes sacrifícios, a fim de que nós, que Vos pedimos perdão das nossas faltas, nos não vejamos sobrecarregados com as dos outros. Por nosso Senhor...</p>
       </div>
@@ -77,21 +77,21 @@ export default function PageQuad26() {
 
 <em>Lc. 15, 32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Opórtet te, fili, gaudére, quia frater tuus mórtuus fúerat, et revíxit: períerat, et invéntus est.</p>
       <p>Convém que te alegres, filho, porque o teu irmão estava morto, e voltou à vida; estava perdido, e foi encontrado.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacraménti tui, Dómine, divína libátio, penetrália nostri cordis infúndat: et sui nos partícipes poténter effíciat. Per Dóminum...</p>
       <p>Que a divina libação do vosso Sacramento, Senhor, penetre até ao íntimo do nosso coração e nos torne eficazmente participantes da sua graça. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

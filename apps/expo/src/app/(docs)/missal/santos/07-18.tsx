@@ -36,14 +36,14 @@ export default function Page0718() {
 
 <em>Jo. 15, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Majórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro amícis suis. <em>Ps. 40, 2</em> Beátus, qui intéllegit super egénum et páuperem: in dic mala liberábit eum Dóminus. ℣. Gloria Patri...</p>
       <p>Ninguém pode dar maior prova de amor do que dar a sua vida pelos seus amigos. <em>Sl. 40, 2</em> Bem-aventurado aquele que atende às necessidades do pobre e do indigente, pois o Senhor o livrará no dia da aflição. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui sanctum Camíllum, ad animárum in extrémo agóne luctántium subsídium, singulári caritátis prærogatíva decorásti: ejus, quǽsumus, méritis, spíritum nobis tuæ dilectiónis infúnde; ut in hora éxitus nostri hostem víncere, et ad cœléstem mereámur corónam perveníre. Per Dóminum...</p>
       <p>Ó Deus, que dotastes S. Camilo com a prerrogativa de uma singular caridade para auxiliar as almas nas derradeiras lutas da agonia, infundi-nos pelos seus méritos, Vos suplicamos, o espírito do vosso amor, a fim de que, na hora da nossa morte, mereçamos vencer o inimigo e alcançar a coroa celestial. Por nosso Senhor...</p>
       </div>
@@ -67,7 +67,7 @@ export default function Page0718() {
 
 <em>Jo. 15, 12-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -80,14 +80,14 @@ S. João.</p>
 
 <em>Sl. 20, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.</p>
       <p>Com o vosso poder, Senhor, se alegrará o justo, o qual exultará de alegria, vendo-se salvo por Vós. Concedestes-lhe, Senhor, o desejo da sua alma.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstia immaculáta, qua illud Dómini nostri Jesu Christi imménsæ caritátis opus renovámus, sit, Deus Pater omnípotens, sancto Gamíllo intercedénte, contra omnes córporis et animae infirmitates salutáre remedium, et in extrémo agóne solátium et tutela. Per eúndem Dóminum...</p>
       <p>Que a hóstia imaculada pela qual renovamos esta instituição da imensa caridade de nosso Senhor Jesus Cristo seja para nós, pela intercessão de S. Camilo, remédio salutar contra todas as enfermidades da alma e do corpo e na extrema agonia nos sirva de consolação e de protecção. Por nosso Senhor...</p>
       </div>
@@ -96,14 +96,14 @@ S. João.</p>
 
 <em>Mt. 25, 36 & 40</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Infírmus fui, et visitástis me. Amen, amen, dico vobis: Quámdiu fecístis uni ex his frátribus meis minimis, mihi fecístis.</p>
       <p>Estive enfermo e visitastes-me. Em verdade, em verdade vos digo: todas as vezes que fizerdes isto mesmo a um destes meus irmãos mais pequeninos, a mim mesmo o fizestes.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per hæc cœléstia aliménta, quæ, sancti Camílli Confessóris tui sollémnia celebrántes, pia devotióne suscépimus: da, quǽsumus. Dómine; ut, in hora mortis nostræ sacraméntis refécti et culpis ómnibus expiáti, in sinum misericórdiæ tuæ læti súscipi mereámur: Qui vivis...</p>
       <p>Por estes alimentos celestiais, que recebemos com pia devoção celebrando a festa de S. Camilo, vosso Confessor, concedei-nos, Senhor, Vos suplicamos, que à hora da morte, munidos com os sacramentos e limpos de todas as culpas, mereçamos ser recebidos com alegria no seio da vossa misericórdia. Ó Vós, que, sendo Deus...</p>
       </div>

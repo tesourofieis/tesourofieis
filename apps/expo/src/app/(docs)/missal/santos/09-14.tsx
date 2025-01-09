@@ -14,14 +14,14 @@ export default function Page0914() {
 
 <em>Gl. 6, 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus. <em>Ps. 66, 2</em> Deus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri. ℣. Gloria Patri...</p>
       <p>Convém que nos gloriemos na Cruz de nosso Senhor Jesus Cristo, que é a nossa salvação, vida e ressurreição: por quem fomos salvos e livres. <em>Sl. 66, 2</em> Que o Senhor tenha misericórdia de nós e nos abençoe; que o Senhor nos ilumine com o brilho que resplandece da sua face, e se compadeça de nós. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos hodiérna die Exaltatiónis sanctæ Crucis ánnua sollemnitáte lætíficas: præsta, quǽsumus; ut, cujus mystérium in terra cognóvimus, ejus redemptiónis prǽmia in cœlo mereámur. Per eúndem Dóminum...</p>
       <p>Ó Deus, que neste dia nos regozijais com a festividade anual da Exaltação da Santa Cruz, concedei-nos, Vos imploramos, que obtenhamos no céu as recompensas adquiridas pela redenção operada pelo vosso Filho, cujo mystério na terra conhecemos. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0914() {
 
 <em>Fl. 2, 5-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.</p>
       <p>Fratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapinam arbitrátus est esse se æquálem Deo: sed semetípsum exinanívit, formam servi accipiens, in similitudinem hóminum factus, et hábitu inventus ut homo. Humiliávit semetípsum, factus obǿdiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: et donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nomine Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.</p>
@@ -41,7 +41,7 @@ export default function Page0914() {
 
 <em>ibid., 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Christus factus est pro nobis obǿdiens usque ad mortem, mortem autem crucis. ℣. Propter quod et Deus exaltávit illum, et dedit illi nomen, quod est super omne nomen.</p>
       <p>Cristo fez-se obediente por nós até à morte, e morte na Cruz. ℣. Eis porque Deus O exaltou e Lhe deu um nome que é superior a todo o nome.</p>
       <p>Allelúja, allelúja. ℣. Dulce lignum, dulces clavos, dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum et Dóminum. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page0914() {
 
 <em>Jo. 12, 31-36</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Dixit Jesus turbis Judæórum: Nunc judícium est mundi: nunc princeps hujus mundi ejiciátur foras. Et ego si exaltátum fuero a terra, ómnia traham ad meipsum. (Hoc autem dicébat, signíficans, qua morte esset moritúrus.) Respóndit ei turba. Nos audívimus ex lege, quia Christus manet in ætérnum: et quómodo tu dicis: Opórtet exaltári Fílium hóminis? Quis est iste Fílius hóminis? Dixit ergo eis Jesus: Adhuc módicum lumen in vobis est. Ambuláte, dum lucem habétis, ut non vos ténebræ comprehéndant: et qui ámbulat in ténebris, nescit, quo vadat. Dum lucem habétis, crédite in lucem, ut fílii lucis sitis.</p>
@@ -61,28 +61,28 @@ export default function Page0914() {
 
       <h3>Ofertório</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Prótege, Dómine, plebem tuam per signum sanctæ Crucis ab ómnibus insídiis inimicórum ómnium: ut tibi gratam exhibeámus servitútem, et acceptábile fiat sacrifícium nostrum, allelúja.</p>
       <p>Senhor, com o sinal da Santa Cruz livrai o vosso povo das insídias de todos seus inimigos, a fim de que a nossa servidão Vos seja agradável e aceiteis o nosso sacrifício, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jesu Christi, Dómini nostri, Córpore et Sánguine saginándi, per quem Crucis est sanctifícátum vexíllum: quǽsumus, Dómine, Deus noster; ut, sicut illud adoráre merúimus, ita perénniter ejus glóriæ salutáris potiámur efféctu. Per eúndem Dóminum...</p>
       <p>Devendo alimentar-nos com o Corpo e o Sangue de nosso Senhor Jesus Cristo, que santificou o estandarte da Cruz, Vos rogamos, ó Senhor, nosso Deus, que, assim como logramos adorá-l’O na terra, assim alcancemos na eternidade gozar a posse dos efeitos da sua salutar glória. Pelo mesmo nosso Senhor...</p>
       </div>
 
       <h3>Comúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per signum Crucis de inimícis nostris líbera nos, Deus noster.</p>
       <p>Pelo sinal da Santa Cruz, livrai-nos de nossos inimigos, ó nosso Deus!</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adésto nobis, Dómine, Deus noster: et, quos sanctæ Crucis lætári facis honóre, ejus quoque perpétuis defénde subsídiis. Per Dóminum...</p>
       <p>Protegei-nos, ó Senhor, nosso Deus; e, com vosso perpétuo socorro, defendei sempre aqueles a quem proporcionastes a alegria de honrar a Santa Cruz. Por nosso Senhor...</p>
       </div>

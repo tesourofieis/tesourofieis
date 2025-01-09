@@ -14,14 +14,14 @@ export default function PagePentepi40() {
 
 <em>Jr. 29,11,12 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis. <em>Ps. 84, 2</em> Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria Patri...</p>
       <p>Disse o Senhor: tenho pensamentos de paz e não de ira: invocar-me-eis e ouvir-vos-ei; e farei regressar de todos os países os vossos cativos. <em>Sl. 84, 2</em> Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos, in tantis perículis constitútos, pro humána scis fragilitáte non posse subsístere: da nobis salútem mentis et córporis; ut ea, quæ pro peccátis nostris pátimur, te adjuvánte vincámus. Per Dóminum...</p>
       <p>Ó Deus, que conheceis não poder a fraqueza humana subsistir no meio de tantos perigos, que nos cercam, concedei-nos a saúde da alma e do corpo, a fim de que com vosso auxílio possamos vencer os males que devemos sofrer em castigo dos pecados. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePentepi40() {
 
 <em>Rm. 13, 8-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui enim díligit próximum, legem implévit. Nam: Non adulterábis, Non occídes, Non furáberis, Non falsum testimónium dices, Non concupísces: et si quod est áliud mandátum, in hoc verbo instaurátur: Díliges próximum tuum sicut teípsum. Diléctio próximi malum non operátur. Plenitúdo ergo legis est diléctio.</p>
@@ -41,7 +41,7 @@ export default function PagePentepi40() {
 
 <em>Sl. 43, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula.</p>
       <p>Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes os que nos odiavam. ℣. Glorificar-nos-emos constantemente em Deus e louvaremos eternamente o vosso nome.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 129, 12</em> De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePentepi40() {
 
 <em>Mt. 8, 23-27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Sl. 129, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de profúndis clamávi ad te. Dómine.</p>
       <p>Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor, a minha voz: das profundezas dos abysmos Vos invoquei.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum fragilitátem nostram ab omni malo purget semper et múniat. Per Dóminum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, fazei que a hóstia oferecida neste sacrifício livre a nossa fraqueza de todo o mal e a fortifique para o futuro. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Mc. 11, 24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis, et fiet vobis.</p>
       <p>Na verdade vos digo: «Tudo o que pedirdes nas vossas orações, acreditai que o recebereis; e far-se-á como pedirdes».</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et cœléstibus semper instáurent aliméntis. Per Dóminum...</p>
       <p>Ó Deus, que estes vossos dons nos afastem dos gozos terrenos e nos restaurem com seu alimento celestial. Por nosso Senhor...</p>
       </div>

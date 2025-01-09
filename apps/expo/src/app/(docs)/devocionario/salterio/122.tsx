@@ -10,7 +10,7 @@ export default function Page122() {
       <h1>Salmo 122</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad Te levávi óculos meos, * qui hábitas in cælis.</p>
       <p>Levantei os meus olhos para Vós, * que habitais nos céus.</p>
       <p>Ecce, sicut óculi servórum * in mánibus dominórum suórum,</p>

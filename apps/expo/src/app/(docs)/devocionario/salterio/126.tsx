@@ -10,7 +10,7 @@ export default function Page126() {
       <h1>Salmo 126</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nisi Dóminus ædificáverit domum, * in vanum laboravérunt qui ædíficant eam.</p>
       <p>Se o Senhor não edificar a casa, * é em vão que trabalham os que a edificam.</p>
       <p>Nisi Dóminus custodíerit civitátem, * frustra vígilat qui custódit eam.</p>

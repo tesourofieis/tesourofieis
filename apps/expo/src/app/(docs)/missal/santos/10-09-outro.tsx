@@ -16,7 +16,7 @@ export default function Page1009Outro() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui hodiérna die beátum Dionýsium, Mártyrem tuum atque Pontíficem, virtúte constantiæ in passióne roborásti, quique illi, ad prædicándum géntibus glóriam tuam, Rústicum et Eleuthérium sociáre dignátus es: tríbue nobis, quǽsumus; eórum imitatióne, pro amóre tuo próspera mundi despícere, et nulla ejus advérsa formidáre. Per Dóminum...</p>
       <p>Ó Deus, que neste dia fortalecestes o B. Dionísio, vosso Mártir e Pontífice, com a virtude da constância no martírio e que Vos dignastes associar-lhe Rústico e Eleutério para pregarem a vossa glória aos povos, concedei-nos, Vos suplicamos, que, seguindo os seus exemplos, desprezemos por vosso amor as prosperidades do mundo e nunca temamos as adversidades. Por nosso Senhor...</p>
       </div>
@@ -25,7 +25,7 @@ export default function Page1009Outro() {
 
 <em>Act. 17, 22-34</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolorum.</p>
       <p>Lição dos Actos dos Apóstolos</p>
       <p>In diébus illis: Stans Paulus in médio Areopági, ait: Viri Atheniénses, per ómnia quasi superstitiosióres vos vídeo. Prætériens enim et videns simulácra vestra, invéni et aram, in qua scriptum erat: Ignóto Deo. Quod ergo ignorántes cólitis, hoc ego annúntio vobis. Deus, qui fecit mundum et ómnia, quæ in eo sunt, hic cœli et terræ cum sit Dóminus, non in manufáctis templis hábitat, nec mánibus humánis cólitur índigens áliquo, cum ipse det ómnibus vitam et inspiratiónem et ómnia: fecítque ex uno omne genus hóminum inhabitáre super univérsam fáciem terræ, defíniens statúta témpora et términos habitatiónis eórum, quærere Deum, si forte attréctent eum aut invéniant, quamvis non longe sit ab unoquóque nostrum. In ipso enim vívimus et movémur et sumus: sicut et quidam vestrórum poëtárum dixérunt: Ipsíus enim et genus sumus. Genus ergo cum simus Dei, non debémus æstimáre auro aut argénto aut lápidi, sculptúræ artis et cogitatiónis hóminis Divínum esse símile. Et témpora quidem hujus ignorántia despíciens Deus, nunc annúntiat homínibus, ut omnes úbique pœniténtiam agant, eo quod státuit diem, in quo judicatúrus est orbem in æquitáte, in viro, in quo státuit, fidem præbens ómnibus, súscitans eum a mórtuis. Cum audíssent autem resurrectiónem mortuórum, quidam quidem irridébant, quidam vero dixérunt: Audiámus te de hoc íterum. Sic Paulus exívit de médio eórum. Quidam vero viri adhæréntes ei, credidérunt: in quibus et Dionýsius Areopagíta, et múlier nómine Dámaris, et álii cum eis.</p>
@@ -42,14 +42,14 @@ export default function Page1009Outro() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Obláta tibi, Dómine, múnera pópuli tui, pro tuórum honóre Sanctórum, súscipe propítius, quǽsumus: et eórum nos intercessióne sanctífica. Per Dóminum...</p>
       <p>Recebei propício, Senhor, Vos rogamos, os dons que o vosso povo apresenta em honra dos vossos Santos; e pela sua intercessão santificai-nos. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumptis, Dómine, sacraméntis, quǽsumus: ut, intercedéntibus beátis Martýribus tuis Dionýsio, Rústico et Eleuthério, ad redemptiónis ætérnæ proficiamus augméntum. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat...</p>
       <p>Havendo nós recebido estes sacramentos, Senhor, Vos suplicamos, dignai-Vos permitir que por intercessão dos vossos B. B. Mártires Dionísio, Rústico e Eleutério cada vez mais avancemos no caminho da redenção eterna. Por nosso Senhor...</p>
       </div>

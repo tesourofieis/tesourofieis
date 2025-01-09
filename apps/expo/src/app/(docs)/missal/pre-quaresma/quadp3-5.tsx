@@ -14,14 +14,14 @@ export default function PageQuadp35() {
 
 <em>Sl. 29, 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus, et misértus est mihi: Dóminus factus est adjútor meus. <em>Ps. ibid., 2</em> Exaltábo te, Dómine, quóniam suscepísti me: nec delectásti inimícos meos super me. ℣. Gloria Patri...</p>
       <p>O Senhor ouviu-me e teve piedade de mim. O Senhor veio em meu auxílio. <em>Sl. ibid., 2</em> Senhor, louvar-Vos-ei porque me socorrestes e não permitistes que meus inimigos mofassem de mim. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Inchoáta jejúnia, quǽsumus, Dómine, benígno favore proséquere: ut observántiam, quam corporáliter exhibémus, méntibus etiam sincéris exercére valeámus. Per Dóminum...</p>
       <p>Vos suplicamos, acolhei com benigno favor os jejuns agora começados, a fim de que, exercendo corporalmente esta observância, possamos praticá-la com o coração sincero. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuadp35() {
 
 <em>Is. 58, 1-0</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>Hæc dicit Dóminus Deus: Clama, ne cesses: quasi tuba exálta vocem tuam: et annúntia pópulo meo scélera eórum, et dómui Jacob peccáta eórum. Me étenim de die in diem quærunt, et scire vias meas volunt: quasi gens, quæ justítiam fécerit, et judícium Dei sui non derelíquerit: rogant me judícia justítiæ: appropinquáre Deo volunt. Quare jejunávimus, et non aspexísti: humiliávimus ánimas nostras, et nescísti? Ecce, in die jejúnii vestri invénitur volúntas vestra, et omnes debitóres vestros repétitis. Ecce, ad lites et contentiónes jejunátis, et percútitis pugno ímpie. Nolíte jejunáre sicut usque ad hanc diem, ut audiátur in excélso clamor vester. Numquid tale est jejúnium, quod elégi, per diem afflígere hóminem ánimam suam? numquid contorquére quasi círculum caput suum, et saccum et cínerem stérnere? numquid istud vocábis jejúnium, et diem acceptábilem Dómino? Nonne hoc est magis jejúnium quod elégi? dissólve colligatiónes impietátis, solve fascículos depriméntes: dimítte eos, qui confrácti sunt, líberos, et omne onus dirúmpe. Frange esuriénti panem tuum, et egénos vagósque induc in domum tuam: cum víderis nudum, operi eum, et carnem tuam ne despéxeris. Tunc erúmpet quasi mane lumen tuum, et sánitas tua cítius oriétur, et anteíbit fáciem tuam justítia tua, et glória Dómini cóllige t te. Tunc invocábis, et Dóminus exáudiet: clamábis, et dicet: Ecce, adsum. Quia miséricors sum, Dóminus, Deus tuus.</p>
@@ -41,7 +41,7 @@ export default function PageQuadp35() {
 
 <em>Sl. 26, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Unam pétii a Dómino, hanc requíram, ut inhábitem in domo Dómini. ℣. Ut vídeam voluptátem Dómini, et prótegar a templo sancto ejus.</p>
       <p>Uma coisa peço ao Senhor e continuarei a pedi-la: que possa habitar na sua casa: ℣. Para que possa gozar os seus esplendores e ser protegido no seu santo templo.</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuadp35() {
 
 <em>Mt. 5, 43-48 & 6, 1-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -70,14 +70,14 @@ S. Mateus.</p>
 
 <em>Sl. 118, 154 & 125</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, vivífica me secúndum elóquium tuum: ut sciam testimónia tua.</p>
       <p>Vivificai-me, Senhor, segundo a vossa palavra, para que conheça os vossos preceitos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrifícium, Dómine, observántiæ quadragesimális, quod offérimus, præsta, quǽsumus: ut tibi et mentes nostras reddat accéptas, et continéntiæ promptióris nobis tríbuat facultátem. Per Dóminum...</p>
       <p>Concedei-nos, Senhor, Vos suplicamos, que o sacrifício do preceito quaresmal, que oferecemos, Vos torne agradáveis as nossas almas, e nos alcance a graça de praticarmos mais facilmente a continência. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. Mateus.</p>
 
 <em>Sl. 2, 11-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Servi te Dómino in timóre, et exsultáte ei cum tremóre: apprehéndite disciplínam, ne pereátis de via justa.</p>
       <p>Obedecei ao Senhor com temor e alegrai-vos n’Ele com tremor: abraçai a sua lei para que vos não afasteis dos caminhos direitos.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Spíritum nobis, Dómine, tuæ cantátis infúnde: ut, quos uno pane cœlésti satiásti, tua fácias pietáte concórdes. Per Dóminum...</p>
       <p>Infundi em nossas almas, Senhor, o espírito da caridade, a fim de que aqueles que saciastes com o mesmo pão celestial permaneçam em concórdia pela vossa bondade. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

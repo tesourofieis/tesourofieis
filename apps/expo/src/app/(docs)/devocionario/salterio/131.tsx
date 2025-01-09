@@ -10,7 +10,7 @@ export default function Page131() {
       <h1>Salmo 131</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Meménto, Dómine, David, * et omnis mansuetúdinis ejus:</p>
       <p>Lembrai-Vos, ó Senhor, de David, * e de toda sua mansidão:</p>
       <p>Sicut jurávit Dómino, * votum vovit Deo Jacob:</p>

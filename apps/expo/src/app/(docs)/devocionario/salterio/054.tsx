@@ -10,7 +10,7 @@ export default function Page054() {
       <h1>Salmo 54</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, oratiónem meam, et ne despéxeris deprecatiónem meam: * inténde mihi, et exáudi me.</p>
       <p>Ouvi, ó Deus, a minha oração e não desprezeis a minha súplica: * atendei-me e ouvi-me.</p>
       <p>Contristátus sum in exercitatióne mea: * et conturbátus sum a voce inimíci, et a tribulatióne peccatóris.</p>

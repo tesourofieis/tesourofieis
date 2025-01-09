@@ -10,7 +10,7 @@ export default function Page096() {
       <h1>Salmo 96</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus regnávit, exsúltet terra: * læténtur ínsulæ multæ.</p>
       <p>O Senhor é rei, a terra se exulte: * alegrem-se as muitas ilhas.</p>
       <p>Nubes, et calígo in circúitu ejus: * justítia, et judícium corréctio sedis ejus.</p>

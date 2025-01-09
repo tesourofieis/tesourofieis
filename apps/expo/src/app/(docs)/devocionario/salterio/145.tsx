@@ -10,7 +10,7 @@ export default function Page145() {
       <h1>Salmo 145</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lauda, ánima mea, Dóminum, laudábo Dóminum in vita mea: * psallam Deo meo quámdiu fúero.</p>
       <p>Louva o Senhor, ó minha alma, louvarei o Senhor durante a minha vida: * cantarei salmos ao meu Deus até perecer.</p>
       <p>Nolíte confídere in princípibus: * in fíliis hóminum, in quibus non est salus.</p>

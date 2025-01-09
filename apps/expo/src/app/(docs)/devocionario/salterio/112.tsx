@@ -10,7 +10,7 @@ export default function Page112() {
       <h1>Salmo 112</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudáte, púeri, Dóminum: * laudáte nomen Dómini.</p>
       <p>Louvai o Senhor, ó meninos: * louvai o nome do Senhor.</p>
       <p><em>fit reverentia</em> Sit nomen Dómini benedíctum, * ex hoc nunc, et usque in sǽculum.</p>

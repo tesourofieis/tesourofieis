@@ -14,14 +14,14 @@ export default function Page10Dur() {
 
 <em>Ap. 5, 12; 1, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dignus est Agnus, qui occísus est, accípere virtútem, et divinitátem, et sapiéntiam, et fortitúdinem, et honórem. Ipsi glória et impérium in sǽcula sæculórum. <em>Ps. 71, 1</em> Deus, judícium tuum Regi da: et justítiam tuam Fílio Regis. ℣. Gloria Patri...</p>
       <p>O Cordeiro, que foi imolado, é digno de receber o poder, a divindade, a sabedoria, a fortaleza, a honra: A Ele a glória e o império em todos os séculos dos séculos. <em>Sl. 71, 1</em> Ó Deus, dai ao Rei o poder de julgar; e a vossa justiça ao Filho do Rei. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui in dilécto Fílio tuo, universórum Rege, ómnia instauráre voluísti: concéde propítius; ut cunctæ famíliæ géntium, peccáti vúlnere disgregátæ, ejus suavissímo subdántur império: Qui tecum vivit et regnat...</p>
       <p>Omnipotente e eterno Deus, que tudo quisestes restaurar no vosso dilecto Filho, Rei de todas as coisas, concedei-nos propício que todas as famílias do mundo, livres da chaga do pecado, se submetam ao Seu suavíssimo império. Ele, que, sendo Deus, vive e reina...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page10Dur() {
 
 <em>Cl. 1, 12-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.</p>
       <p>Fratres: Grátias ágimus Deo Patri, qui dignos nos fecit in partem sortis sanctórum in lúmine: qui eripuit nos de potestáte tenebrárum, et tránstulit in regnum Fílii dilectiónis suæ, in quo habémus redemptiónem per sánguinem ejus, remissiónem peccatórum: qui est imágo Dei invisíbilis, primogénitus omnis creatúra: quóniam in ipso cóndita sunt univérsa in cœlis et in terra, visibília et invisibília, sive Throni, sive Dominatiónes, sive Principátus, sive Potestátes: ómnia per ipsum, et in ipso creáta sunt: et ipse est ante omnes, et ómnia in ipso constant. Et ipse est caput córporis Ecclésiæ, qui est princípium, primogénitus ex mórtuis: ut sit in ómnibus ipse primátum tenens; quia in ipso complácuit omnem plenitúdinem inhabitáre; et per eum reconciliáre ómnia in ipsum, pacíficans per sánguinem crucis ejus, sive quæ in terris, sive quæ in cœlis sunt, in Christo, Jesu, Dómino nostro.</p>
@@ -41,7 +41,7 @@ export default function Page10Dur() {
 
 <em>Sl. 71, 8 & 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dominábitur a mari usque ad mare, et a flúmine usque ad términos orbis terrárum. ℣. Et adorábunt eum omnes reges terræ: omnes gentes sérvient ei.</p>
       <p>Dominará de mar a mar e desde o rio aos confins da redondeza da terra! ℣. Adorá-l’O-ão todos os reis da terra: e todos os povos O servirão!</p>
       <p>Allelúja, allelúja. ℣. <em>Dan. 7, 14</em> Potéstas ejus, potéstas ætérna, quæ non auferétur: et regnum ejus, quod non corrumpétur. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page10Dur() {
 
 <em>Jo. 18, 33-37</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -64,14 +64,14 @@ S. João.</p>
 
 <em>Sl. 2, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Póstula a me, et dabo tibi gentes hereditátem tuam, et possessiónem tuam términos terræ.</p>
       <p>Pede-me: e dar-te-ei as nações como herança; e como domínio os confins da terra!</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstiam tibi, Dómine, humánæ reconciliatiónis offérimus: præsta, quǽsumus; ut, quem sacrifíciis præséntibus immolámus, ipse cunctis géntibus unitátis et pacis dona concédat, Jesus Christus Fílius tuus, Dóminus noster: Qui tecum...</p>
       <p>Vos oferecemos, Senhor, a hóstia da reconciliação humana, implorando-Vos que este mesmo Jesus Cristo, vosso Filho e Senhor nosso, o qual imolamos no presente sacrifício, conceda a todos os povos os benefícios da união e da paz: Ele, que convosco vive e reina...</p>
       </div>
@@ -80,14 +80,14 @@ S. João.</p>
 
 <em>Sl. 28, 10 & 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sedébit Dóminus Rex in ætérnum: Dóminus benedícet pópulo suo in pace.</p>
       <p>Assentar-se-á, eternamente, o Senhor como Rei e abençoará o seu povo em paz.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, qui sub Christi Regis vexíllis militáre gloriámur, cum ipso, in cœlésti sede, júgiter regnáre póssimus: Qui tecum...</p>
       <p>Tendo nós alcançado o alimento da imortalidade, Vos suplicamos, Senhor, permiti que possamos reinar perpetuamente na celestial mansão, juntamente com Jesus Cristo, sob cujas bandeiras nos gloriamos de militar: Ele, que, sendo Deus, convosco vive e reina...</p>
       </div>

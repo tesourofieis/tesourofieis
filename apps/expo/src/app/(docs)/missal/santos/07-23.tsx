@@ -34,7 +34,7 @@ export default function Page0723() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, fidélium remunerátor animárum, qui hunc diem beáti Apollináris Sacerdótis tui martýrio consecrásti: tríbue nobis, quǽsumus, fámulis tuis; ut, cujus venerándam celebrámus festivitátem, précibus ejus indulgéntiam consequámur. Per Dóminum nostrum...</p>
       <p>Ó Deus, remunerador das almas fiéis, que consagrastes este dia com o martírio do B. Apolinário, vosso Sacerdote, fazei que estes vossos servos alcancem a indulgência das suas faltas, pelas preces daquele cuja venerável festa celebramos. Por...</p>
       </div>
@@ -43,7 +43,7 @@ export default function Page0723() {
 
 <em>1 Pe. 5, 1-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Petri Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º Pedro.</p>
       <p>Caríssimi: Senióres, qui in vobis sunt, obsecro, consénior et testis Christi passiónum: qui et ejus, quae in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum: neque turpis lucri grátia, sed voluntárie: neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Simíliter adolescéntes, súbditi estóte senióribus. Omnes autem ínvicem humilitátem insinuáte: quia Deus supérbis resístit, humílibus autem dat grátiam. Humiliámini ígitur sub poténti manu Dei, ut vos exáltet in témpore visitatiónis: omnem sollicitúdinem vestram projiciéntes in eum, quóniam ipsi cura est de vobis. Sobrii estóte, et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens círcuit, quærens quem dévoret: cui resístite fortes in fide: scientes eándem passiónem ei, quæ in mundo est, vestræ fraternitáti fíeri. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen.</p>
@@ -54,7 +54,7 @@ export default function Page0723() {
 
 <em>Sl. 88, 21-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. ℣. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.</p>
       <p>Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha mão o auxiliará e o meu braço o fortalecerá. ℣. O inimigo não terá nele domínio algum; o filho da iniquidade não poderá prejudicá-lo.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.</p>
@@ -65,7 +65,7 @@ export default function Page0723() {
 
 <em>Lc. 22, 24-30</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -78,14 +78,14 @@ S. Lucas.</p>
 
 <em>Sl. 88, 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus.</p>
       <p>A minha fidelidade e a minha misericórdia estarão com ele: e por virtude de meu nome será exaltado o seu poder.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice, Dómine, propítius super hæc múnera: quæ pro beáti Sacerdótis et Martyris tui Apollináris commemoratióne deférimus, et pro nostris offensiónibus immolámus. Per Dóminum...</p>
       <p>Olhai propício, Senhor, para os dons que vos apresentamos em memória do vosso B. Sacerdote e Mártir Apolinário, os quais Vos oferecemos em sacrifício de expiação pelas nossas ofensas. Por nosso Senhor...</p>
       </div>
@@ -94,14 +94,14 @@ S. Lucas.</p>
 
 <em>Mt. 25, 20 & 21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, quinque talénta tradidísti mihi, ecce, ália quinque superlucrátus sum. Euge, serve bone et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui.</p>
       <p>Entregastes-me, Senhor, cinco talentos; eis outros cinco que lucrei. Muito bem, servo fiel e bom. Porque foste fiel em bens de pouca importância, eu te estabelecerei sobre bens mais importantes. Entra no gozo do teu senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tua sancta suméntes, quǽsumus, Dómine, ut beáti Apollináris nos fóveant continuáta præsídia: quia non désinis propítius intuéri, quos tálibus auxíliis concésseris adjuvári. Per Dóminum...</p>
       <p>Tendo participado dos vossos sacrossantos mystérios, Vos suplicamos, Senhor, queirais defender-nos sempre com a protecção do B. Apolinário, pois não cessais de olhar propício para aqueles a quem concedeis tal socorro. Por nosso Senhor...</p>
       </div>

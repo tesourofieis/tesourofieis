@@ -14,14 +14,14 @@ export default function Page0822() {
 
 <em>Heb. 4, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adeámus cum fidúcia ad thronum grátiæ, ut misericórdiam consequámur, et grátiam inveniámus in auxílio opportúno. <em>Ps. 44, 2</em> Eructávit cor meum verbum bonum: dico ego ópera mea regi. ℣. Gloria Patri...</p>
       <p>Acerquemo-nos com confiança do trono da graça, a fim de alcançar misericórdia e encontrar graça e sermos auxiliados na ocasião necessária. <em>Sl. 44, 2</em> Meu coração exprimiu uma excelente palavra: «Consagro ao Rei as minhas obras»! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui in Corde beátæ Maríæ Vírginis dignum Spíritus Sancti habitáculum præparásti: concéde propítius; ut ejúsdem immaculáti Cordis festivitátem devóta mente recoléntes, secúndum cor tuum vívere valeámus. Per Dóminum...</p>
       <p>Omnipotente e sempiterno Deus, que no Coração da B. Virgem Maria preparastes uma digna morada do Espírito Santo, concedi-nos propício que, havendo celebrado devotamente a festa deste Imaculado Coração, vivamos sempre segundo o vosso Coração. Por nosso Senhor...</p>
       </div>
@@ -38,7 +38,7 @@ export default function Page0822() {
 
 <em>Sl. 12, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exsultábit cor meum in salutári tuo: cantábo Dómino, qui bona tríbuit mihi: et psallam nómini Dómini altíssimi. ℣. <em>Ps. 44, 18</em> Mémores erunt nóminis tui in omni generatióne et generatiónem: proptérea pópuli confitebúntur tibi in ætérnum.</p>
       <p>Exultará o meu coração com a salvação que de Vós virá; cantarei hinos ao Senhor, que me concedeu tantos benefícios; entoarei salmos em louvor do nome do altíssimo Senhor. ℣. <em>Sl. 44, 18</em> De geração em geração glorificarão o vosso nome: e os povos vos louvarão eternamente.</p>
       <p>Allelúja, allelúja. ℣. <em>Luc. 1, 46, 47</em> Magníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo salutári meo. Allelúja.</p>
@@ -49,7 +49,7 @@ export default function Page0822() {
 
 <em>Jo. 19, 25-27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -62,14 +62,14 @@ S. João.</p>
 
 <em>Lc. 1, 46, 49</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exsultávit spíritus meus in Deo salutári meo; quia fecit mihi magna qui potens est, et sanctum nomen ejus.</p>
       <p>O meu espírito alegra-se em Deus, meu Salvador, porque Aquele que é omnipotente, e o seu nome é Santo, operou em mim maravilhas.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Majestáti tuæ, Dómine, Agnum immaculátum offeréntes, quǽsumus: ut corda nostra ignis ille divínus accéndat, cui Cor beátæ Maríæ Vírginis ineffabíliter inflammávit. Per eundem Dóminum...</p>
       <p>Enquanto oferecemos à vossa Majestade, Senhor, o Cordeiro Imaculado, dignai-Vos acender nos nossos corações aquele fogo divino que abrasou de uma maneira inefável o Coração da B. Virgem Maria. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -78,14 +78,14 @@ S. João.</p>
 
 <em>Jo. 19, 27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dixit Jesus matri suæ: Múlier, ecce fílius tuus: deinde dixit discípulo: Ecce mater tua. Et ex illa hora accépit eam discípulus in sua.</p>
       <p>Disse Jesus a sua Mãe: «Mulher, eis o vosso filho»; depois disse ao discípulo: «Eis a tua Mãe». E desde aquela hora o discípulo a levou consigo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Divínis refécti munéribus te, Dómine, supplíciter exorámus: ut beátæ Maríæ Vírginis intercessióne, cujus immaculáti Cordis solémnia venerándo égimus, a præséntibus perículis liberáti, ætérnæ vitæ gáudia consequámur. Per Dóminum...</p>
       <p>Sustentados com vossas divinas ofertas, Senhor, humildemente Vos imploramos pela intercessão da B. Virgem Maria, cujo puríssimo Coração acabamos solenemente de honrar, que, sendo livres dos perigos presentes, possamos gozar a alegria da vida eterna. Por nosso Senhor...</p>
       </div>

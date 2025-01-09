@@ -10,7 +10,7 @@ export default function Page129() {
       <h1>Salmo 129</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>De profúndis clamávi ad Te, Dómine: * Dómine, exáudi vocem meam:</p>
       <p>Do profundo clamei a Vós, Senhor: * ó Senhor, escutai a minha voz:</p>
       <p>Fiant aures tuæ intendéntes, * in vocem deprecatiónis meæ.</p>

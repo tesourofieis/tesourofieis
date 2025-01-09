@@ -22,7 +22,7 @@ export default function Page0527() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui Ecclésiam tuam beáti Bedæ Confessóris tui atque Doctóris eruditióne claríficas: concéde propítius fámulis tuis; ejus semper ilustrári sapiéntia et méritis adjuvári. Per Dóminum...</p>
       <p>Ó Deus, que ilustrais a vossa Igreja com a erudição do B. Beda, vosso Confessor e Doutor, concedei propício aos vossos servos que sejam sempre ilustrados pela sua doutrina e socorridos pelos seus méritos. Por nosso Senhor...</p>
       </div>

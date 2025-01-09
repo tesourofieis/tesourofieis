@@ -10,7 +10,7 @@ export default function Page020() {
       <h1>Salmo 20</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, in virtúte tua lætábitur rex: * et super salutáre tuum exsultábit veheménter.</p>
       <p>Senhor, o rei alegrar-se-á na vossa fortaleza: * e muito regozijará na vossa salvação.</p>
       <p>Desidérium cordis ejus tribuísti ei: * et voluntáte labiórum ejus non fraudásti eum.</p>

@@ -10,7 +10,7 @@ export default function Page025() {
       <h1>Salmo 25</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Júdica me, Dómine, quóniam ego in innocéntia mea ingréssus sum: * et in Dómino sperans non infirmábor.</p>
       <p>Julgai-me, ó Senhor, porque andei na minha inocência: * e, esperando no Senhor, não vacilarei.</p>
       <p>Proba me, Dómine, et tenta me: * ure renes meos et cor meum.</p>

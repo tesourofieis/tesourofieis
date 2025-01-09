@@ -18,7 +18,7 @@ export default function PageExtremauncao() {
   dirá:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Pax huic dómui.</p>
       <p>℣. A paz esteja nesta casa.</p>
       <p><span className="text-red-500">℟.</span> Et ómnibus habitántibus in ea.</p>
@@ -30,7 +30,7 @@ export default function PageExtremauncao() {
 
 <AspergesMe />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Adjutórium nostrum in nómine Dómini.</p>
       <p>℣. O nosso auxílio está no Nome do Senhor.</p>
       <p><span className="text-red-500">℟.</span> Qui fecit cœlum et terram.</p>
@@ -45,7 +45,7 @@ export default function PageExtremauncao() {
       <p><span className="text-red-500">℟.</span> E com vosso espírito.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Intróeat, Dómine Jesu Christe, domum hanc sub nostræ humilitátis ingréssu, ætérna felícitas, divína prospéritas, seréna lætítia, cáritas fructuósa, sánitas sempitérna: effúgiat ex hoc loco accéssus dæmonum: adsint Angeli pacis, domúmque hanc déserat omnis malígna discórdia. Magnífica, Dómine, super nos nomen sanctum tuum; et béne <span className="cross text-red-500">✠</span> dic nostræ conversatióni: sanctífica nostræ humilitátis ingréssum, qui sanctus et qui pius es, et pérmanes cum Patre et Spíritu Sancto in sæcula sæculórum.</p>
@@ -58,7 +58,7 @@ export default function PageExtremauncao() {
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Exáudi nos, Dómine sancte, Pater omnípotens, ætérnæ deus: et míttere dignéris sanctum Angelum tuum de cælis, qui custódiat, fóveat, prótegat, vísitet, atque deféndat omnes habitántes in hoc habitáculo. Per Christum Dóminum nostrum.</p>
@@ -69,7 +69,7 @@ export default function PageExtremauncao() {
 
 O Acólito diz o [Confiteor Deo...](/devocionario/oracoes/confesso) e o Sacerdote, tendo dado as Absolvições, continua:
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In nómine Pa <span className="cross text-red-500">✠</span> tris, et Fí <span className="cross text-red-500">✠</span> lii, et Spíritus <span className="cross text-red-500">✠</span> Sancti, extinguátur in te omnis virtus diáboli per impositiónem mánuum nostrárum, et per invocatiónem gloriósæ et sanctæ Dei Genitrícis Vírginis Maríæ, ejúsque ínclyti Sponsi Joseph, et ómnium sanctórum Angelórum, Archangelórum, Mártyrum, Confessórum, Vírginum, atque ómnium simul Sanctórum.</p>
       <p>Em Nome do Pai <span className="cross text-red-500">✠</span> e do Filho <span className="cross text-red-500">✠</span> e do Espírito <span className="cross text-red-500">✠</span> Santo, pela imposição das nossas mãos e pela invocação de todos os santos Anjos, Arcanjos, Patriarcas, Profetas, Apóstolos, Mártires, Confessores, Virgens e Todos os Santos em geral desapareça todo e qualquer poder do demónio sobre vós!</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -80,7 +80,7 @@ O Acólito diz o [Confiteor Deo...](/devocionario/oracoes/confesso) e o Sacerdot
 
       <h2>Da Olhos</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per istam sanctam Unctió <span className="cross text-red-500">✠</span> nem, et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per visum deliquísti.</p>
       <p>Em virtude desta santa Unção <span className="cross text-red-500">✠</span>, que o Senhor, pela sua piíssima misericórdia, vos perdoe todas as faltas que cometestes com a vista.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -89,7 +89,7 @@ O Acólito diz o [Confiteor Deo...](/devocionario/oracoes/confesso) e o Sacerdot
 
       <h2>Dos Ouvidos</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per istam sanctam Unctió <span className="cross text-red-500">✠</span> nem, et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per audítum deliquísti.</p>
       <p>Em virtude desta santa Unção <span className="cross text-red-500">✠</span>, que o Senhor, pela sua piíssima misericórdia, vos perdoe todas as faltas que cometestes com os ouvidos.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -98,7 +98,7 @@ O Acólito diz o [Confiteor Deo...](/devocionario/oracoes/confesso) e o Sacerdot
 
       <h2>Do Nariz</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per istam sanctam Unctió <span className="cross text-red-500">✠</span> nem, et span piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per odorátum deliquísti.</p>
       <p>Em virtude desta santa Unção <span className="cross text-red-500">✠</span>, que o Senhor, pela sua piíssima misericórdia, vos perdoe todas as faltas que cometestes com o cheiro.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -107,7 +107,7 @@ O Acólito diz o [Confiteor Deo...](/devocionario/oracoes/confesso) e o Sacerdot
 
       <h2>Da Boca</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per istam sanctam Unctió <span className="cross text-red-500">✠</span> nem, et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per gustum et locutiónem deliquísti.</p>
       <p>Em virtude desta santa Unção <span className="cross text-red-500">✠</span>, que o Senhor, pela sua piíssima misericórdia, vos perdoe todas as faltas que span com o gosto e as palavras.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -116,7 +116,7 @@ O Acólito diz o [Confiteor Deo...](/devocionario/oracoes/confesso) e o Sacerdot
 
       <h2>Das Mãos</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per istam sanctam Unctió <span className="cross text-red-500">✠</span> nem, et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per tactum deliquísti.</p>
       <p>Em virtude desta santa Unção <span className="cross text-red-500">✠</span>, que o Senhor, pela sua piíssima misericórdia, vos perdoe todas as faltas que cometestes com o tacto.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -125,7 +125,7 @@ O Acólito diz o [Confiteor Deo...](/devocionario/oracoes/confesso) e o Sacerdot
 
       <h2>Dos Pés</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per istam sanctam Unctió <span className="cross text-red-500">✠</span> nem, et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per gressum deliquísti.</p>
       <p>Em virtude desta santa Unção <span className="cross text-red-500">✠</span>, que o Senhor, pela sua piíssima misericórdia, vos perdoe todas as faltas que cometestes com os passos.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -141,7 +141,7 @@ Em virtude desta Unção, que o Senhor vos perdoe todas as faltas que cometestes
 
 <aside>Após as Unções ou Unção o Sacerdote continuará:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Kýrie eléson.</p>
       <p>℣. Senhor, tende piedade.</p>
       <p><span className="text-red-500">℟.</span> Christe, eléison.</p>
@@ -179,7 +179,7 @@ Em virtude desta Unção, que o Senhor vos perdoe todas as faltas que cometestes
       <p><span className="text-red-500">℟.</span> E com vosso espírito.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Dómine Deus, qui per Apóstolum tuum Jacóbum locútus es: Infirmátur quis in vobis?  indúcat presbýteros Ecclésiæ et orent super eum, ungéntes eum óleo in nómine Dómini: et orátio fídei salvábit infírmum, et alleviábit eum Dóminus: et si in peccátis sit, remitténtur ei; cura, quæsumus, Redémptor noster, grátia Sancti Spíritus languóres istíus infírmi (infírmæ), ejúsque sana vúlnera, et dimítte peccáta, atque dolóres cunctos mentis et córporis ab eo (ea) expélle, plenámque intérius et extérius sanitátem misericórditer redde, ut, ope misericórdiæ tuæ restitútus (-a), ad prístina reparétur offícia: Qui cum Patre et eódem Spíritu Sancto vivis et regnas Deus, in sæcula sæculórum.</p>
@@ -188,7 +188,7 @@ Em virtude desta Unção, que o Senhor vos perdoe todas as faltas que cometestes
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Réspice, quæsumus, Dómine fámulum tuum <span className="text-red-500">N.</span> (fámulam tuam <span className="text-red-500">N.</span>) in infirmitáte sui córporis fatiscéntem, et ánimam réfove, quam creásti: ut, castigatiónibus emendátus (-a), se tua séntiat medicína salvátum (-am). Per Christum Dóminum nostrum.</p>
@@ -197,7 +197,7 @@ Em virtude desta Unção, que o Senhor vos perdoe todas as faltas que cometestes
       <p><span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Dómine sancte, Pater omnípotens, ætérne Deus, qui, benedictiónis tuæ grátiam ægris infundéndo corpóribus, factúram tuam multíplici pietáte custódis: ad invocatiónem tui nóminis benígnus assíste; ut fámulum tuum (fámulam tuam) ab ægritúdine liberátum (-am), et sanitáte donátum (-am), déxtera tua érigas, virtúte confírmes, potestáte tueáris, atque Ecclésiæ tuæ sanctæ, cum omni desideráta prosperitáte, restítuas.  Per Christum Dóminum nostrum.</p>

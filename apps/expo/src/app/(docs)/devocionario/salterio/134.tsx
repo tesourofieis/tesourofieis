@@ -10,7 +10,7 @@ export default function Page134() {
       <h1>Salmo 134</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudáte nomen Dómini, * laudáte, servi, Dóminum.</p>
       <p>Louvai o nome do Senhor, * louvai o Senhor, vós seus servos.</p>
       <p>Qui statis in domo Dómini, * in átriis domus Dei nostri.</p>

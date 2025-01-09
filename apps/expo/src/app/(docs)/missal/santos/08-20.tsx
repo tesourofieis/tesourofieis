@@ -18,7 +18,7 @@ export default function Page0820() {
 
 <em>Ecl. 39, 6-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui fecit illum, et in conspéctu Altíssimi deprecábitur. Apériet os suum in oratióne, et pro delíctis suis deprecábitur. Si enim Dóminus magnus volúerit, spíritu intellegéntiæ replébit illum: et ipse tamquam imbres mittet elóquia sapiéntiæ suæ, et in oratióne confitébitur Dómino: et ipse díriget consílium ejus et disciplínam, et in abscónditis suis consiliábitur. Ipse palam fáciet disciplínam doctrínæ suæ, et in lege testaménti Dómini gloriábitur. Collaudábunt multi sapiéntiam ejus, et usque in sǽculum non delébitur. Non recédet memória ejus, et nomen ejus requirétur a generatióne in generatiónem. Sapiéntiam ejus enarrábunt gentes, et laudem ejus enuntiábit ecclésia.</p>

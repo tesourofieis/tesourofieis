@@ -10,7 +10,7 @@ export default function PageSumopontifice() {
       <h1>Pro Summo Pontifice</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Orémus pro Pontífice nostro N.</p>
       <p>℣. Oremos pelo nosso Pontífice N.</p>
       <p><span className="text-red-500">℟. </span> Dóminus consérvet eum, et vivíficet eum, et beátum fáciat eum in terra, et non tradat eum in ánimam inimicórum ejus.</p>

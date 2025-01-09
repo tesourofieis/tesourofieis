@@ -14,14 +14,14 @@ export default function PagePent120() {
 
 <em>Sl. 69, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me festína: confundántur et revereántur inimíci mei, qui quærunt ánimam meam. <em>Ps. ibid., 4</em> Avertántur retrórsum et erubéscant: qui cógitant mihi mala. ℣. Gloria Patri...</p>
       <p>Ó Deus, vinde em meu auxílio. Apressai-Vos, Senhor, em socorrer-me! Que fiquem confundidos e envergonhados os meus inimigos, que procuram tirar-me a vida. <em>Sl. ibid., 4</em> Fujam de mim, cheios de vergonha aqueles que querem a minha perda. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens et miséricors Deus, de cujus múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur: tríbue, quǽsumus, nobis; ut ad promissiónes tuas sine offensióne currámus. Per Dóminum nostrum...</p>
       <p>Ó Deus omnipotente e misericordioso, a quem os fiéis são devedores da felicidade de Vos prestarem culto agradável e digno, concedei-nos a graça, Vos suplicamos, de procurarmos sempre sem qualquer obstáculo os bens que nos prometestes. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent120() {
 
 <em>2 Cor. 3, 4-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Fidúciam talem habémus per Christum ad Deum: non quod sufficiéntes simus cogitáre áliquid a nobis, quasi ex nobis: sed sufficiéntia nostra ex Deo est: qui et idóneos nos fecit minístros novi testaménti: non líttera, sed spíritu: líttera enim occídit, spíritus autem vivíficat. Quod si ministrátio mortis, lítteris deformáta in lapídibus, fuit in glória; ita ut non possent inténdere fili Israël in fáciem Moysi, propter glóriam vultus ejus, quæ evacuátur: quómodo non magis ministrátio Spíritus erit in glória? Nam si ministrátio damnátionis glória est multo magis abúndat ministérium justítiæ in glória.</p>
@@ -41,7 +41,7 @@ export default function PagePent120() {
 
 <em>Sl. 33, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícam Dóminum in omni témpore: semper laus ejus in ore meo. ℣. In Dómino laudábitur ánima mea: áudiant mansuéti, et læténtur.</p>
       <p>Bendirei o Senhor em todos os tempos! Seus louvores estarão sempre nos meus lábios. ℣. Minha alma será glorificada pelo Senhor. Ouçam isto e alegrem-se aqueles que possuem a mansidão.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 87, 2</em> Dómine, Deus salútis meæ, in die clamávi et nocte coram te. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent120() {
 
 <em>Lc. 10, 23-37</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Ex. 32, 11, 13 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Precátus est Moyses in conspéctu Dómini, Dei sui, et dixit: Quare, Dómine, irascéris in pópulo tuo? Parce iræ ánimæ tuæ: meménto Abraham, Isaac et Jacob, quibus jurásti dare terram fluéntem lac et mel. Et placátus factus est Dóminus de malignitáte, quam dixit fácere pópulo suo.</p>
       <p>Moisés orou diante do Senhor, seu Deus, e disse: «Senhor, porque estais irritado contra o vosso povo? Aplacai a vossa ira! Lembrai-Vos de Abraão, de Isaque e de Jacob, a quem jurastes dar a posse da terra, onde. Correm leite e mel». Então o Senhor aplacou-se afastou os males com que ameaçara o povo.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias, quǽsumus, Dómine, propítius inténde, quas sacris altáribus exhibémus: ut, nobis indulgéntiam largiéndo, tuo nómini dent honórem. Per Dóminum...</p>
       <p>Dignai-Vos olhar propício, Senhor, para as hóstias que depomos sobre os vossos sacrossantos altares, a fim de que, obtendo-nos o perdão, sirvam de homenagem ao vosso santo nome. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Sl. 103, 13 & 14-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>De fructu óperum tuórum, Dómine, satiábitur terra: ut edúcas panem de terra, et vinum lætíficet cor hóminis: ut exhílaret fáciem in oleo, et panis cor hóminis confírmet.</p>
       <p>A terra ficará saciada com o fruto das vossas obras, Senhor! Fareis brotar da terra o pão, assim como o vinho, que alegra o coração do homem. Dar-lhe-eis azeite, que faz resplandecer o rosto do homem, e pão, que fortifica o seu coração.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vivíficet nos, quǽsumus, Dómine, hujus participátio sancta mystérii: et páriter nobis expiatiónem tríbuat et múnimen. Per Dóminum nostrum...</p>
       <p>Fazei, Senhor, Vos suplicamos, que a comparticipação deste sacrossanto mystério nos sirva igualmente de expiação e de protecção. Por nosso Senhor...</p>
       </div>

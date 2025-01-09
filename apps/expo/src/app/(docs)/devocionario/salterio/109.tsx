@@ -10,7 +10,7 @@ export default function Page109() {
       <h1>Salmo 109</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dixit Dóminus Dómino meo: * Sede a dextris meis:</p>
       <p>Disse o Senhor ao meu senhor: * senta-te à minha direita:</p>
       <p>Donec ponam inimícos tuos, * scabéllum pedum tuórum.</p>

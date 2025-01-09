@@ -10,7 +10,7 @@ export default function Page027() {
       <h1>Salmo 27</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad Te, Dómine, clamábo, Deus meus, ne síleas a me: * nequándo táceas a me, et assimilábor descendéntibus in lacum.</p>
       <p>A Vós, ó Senhor, clamarei, Deus meu, não Vos silenciais comigo: * não suceda que se me não ouvirdes, seja semelhante àqueles na cova.</p>
       <p>Exáudi, Dómine, vocem deprecatiónis meæ dum oro ad Te: * dum extóllo manus meas ad templum sanctum tuum.</p>

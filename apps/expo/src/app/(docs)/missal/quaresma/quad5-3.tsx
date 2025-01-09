@@ -14,14 +14,14 @@ export default function PageQuad53() {
 
 <em>Sl. 17, 48-49</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Liberátor meus de géntibus iracúndis: ab insurgéntibus in me exaltábis me: a viro iníquo erípies me, Dómine. <em>Ps. ib., 2-3</em> Díligam te, Dómine, virtus mea: Dóminus firmaméntum meum, et refúgium meum, et liberátor meus.</p>
       <p>Fostes Vós, que me livrastes, Senhor, do jugo dum povo irritado. Livrar-me-eis também dos meus adversários: e defender-me-eis do homem iníquo. <em>Sl. ib., 2-3</em> Senhor, que sois a minha fortaleza, eu Vos amo! Sois o meu sustentáculo, o meu refúgio e o meu libertador.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctificáto hoc jejúnio, Deus, tuórum corda fidélium miserátor illústra: et quibus devotiónis præstas afféctum, præbe supplicántibus pium benígnus audítum. Per Dóminum...</p>
       <p>Ó Deus misericordioso, depois de haverdes santificado este jejum, esclarecei os corações dos vossos fiéis e ouvi benigno as súplicas daqueles a quem concedeis o dom da piedade. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad53() {
 
 <em>Lv. 19, 1-2, 11-19 & 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Levítici.</p>
       <p>Lição do Livro Levítico.</p>
       <p>In diébus illis: Locútus est Dóminus ad Móysen, dicens: Lóquere ad omnem cœtum filiórum Israël, et dices ad eos: Ego Dóminus, Deus vester. Non faciétis furtum. Non mentiémini, nec decípiet unusquísque próximum suum. Non perjurábis in nómine meo, nec póllues nomen Dei ;ui. Ego Dóminus. Non fácies calúmniam próximo tuo: nec vi ópprimes eum. Non morábitur opus mercennárii tui apud te usque mane. Non maledíces surdo, nec coram cæco pones offendículum: sed timébis Dóminum, Deum tuum, quia ego sum Dóminus. Non fácies quod iníquum est, nec injúste judicábis. Non consíderes persónam páuperis, nec honóres vultum poténtis. Juste júdica próximo tuo. Non eris criminátor, nec susúrro in pópulo. Non stabis contra sánguinem próximi tui. Ego Dóminus. Non óderis fratrem tuum in corde tuo, sed públice árgue eum, ne hábeas super illo peccátum. Non quæras ultiónem, nec memor eris injúriae cívium tuórum. Díliges amícum tuum sicut teípsum. Ego Dóminus. Leges meas custodíte. Ego enim sum Dóminus, Deus vester.</p>
@@ -41,7 +41,7 @@ export default function PageQuad53() {
 
 <em>Sl. 29, 2-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exaltábo te, Dómine, quóniam suscepísti me: nec delectásti inimícos meos super me. ℣. Dómine, Deus meus, clamávi ad te, et sanásti me: Dómine, abstraxísti ab ínferis ánimam meam, salvásti me a descendéntibus in lacum.</p>
       <p>Exaltar-Vos-ei, Senhor, porque me acolhestes e não quisestes que meus inimigos escarnecessem de mim. ℣. Senhor, meu Deus, chamei por Vós e curastes as minhas chagas. Senhor, tirastes a minha alma do inferno; salvastes-me da companhia daqueles que descem para o sepulcro.</p>
       </div>
@@ -55,7 +55,7 @@ export default function PageQuad53() {
 
 <em>Jo. 10, 22-38</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Facta sunt Encǽnia in Jerosólymis: et hiems erat. Et ambulábat Jesus in templo, in pórticu Salomónis. Circumdedérunt ergo eum Judǽi, et dicébant ei: Quoúsque ánimam nostram tollis? Si tu es Christus, dic nobis palam. Respóndit eis Jesus: Loquor vobis, et non créditis: Opera, quæ ego fácio in nómine Patris mei, hæc testimónium pérhibent de me: sed vos non créditis, quia non estis ex óvibus meis. Oves meæ vocem meam áudiunt: et ego cognósco eas, et sequúntur me: et ego vitam ætérnam do eis: et non períbunt in ætérnum, et non rápiet eas quisquam de manu mea. Pater meus quod dedit mihi, majus ómnibus est: et nemo potest rápere de manu Patris mei. Ego et Pater unum sumus. Sustulérunt ergo lápides Judǽi, ut lapidárent eum. Respóndit eis Jesus: Multa bona ópera osténdi vobis ex Patre meo, propter quod eórum opus me lapidátis? Respondérunt ei Judǽi: De bono ópere non lapidámus te, sed de blasphémia: et quia tu, homo cum sis, facis teípsum Deum. Respóndit eis Jesus: Nonne scriptum est in lege vestra: quia Ego dixi, dii estis? Si illos dixit deos, ad quos sermo Dei factus est, et non potest solvi Scriptúra: quem Pater sanctificávit, et misit in mundum, vos dicitis: Quia blasphémas: quia dixi, Fílius Dei sum? Si non fácio ópera Patris mei, nolíte crédere mihi. Si autem fácio, et si mihi non vultis crédere, opéribus crédite, ut cognoscátis et credátis, quia Pater in me est et ego in Patre.</p>
@@ -66,14 +66,14 @@ export default function PageQuad53() {
 
 <em>Sl. 58, 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Eripe me de inimícis meis, Deus meus: et ab insurgéntibus in me líbera me, Dómine.</p>
       <p>Livrai-me dos meus inimigos, ó meu Deus; livrai-me dos que se insurgem contra mim.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Annue, miséricors Deus: ut hóstias placatiónis et laudis sincéro tibi deferámus obséquio. Per Dóminum...</p>
       <p>Permiti, ó Deus misericordioso, que com sincera submissão Vos apresentemos estas hóstias de expiação e de louvor. Por nosso Senhor...</p>
       </div>
@@ -82,21 +82,21 @@ export default function PageQuad53() {
 
 <em>Sl. 25, 6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lavábo inter innocéntes manus meas, et circuíbo altáre tuum, Dómine: ut áudiam vocem laudis tuæ, et enárrem univérsa mirabília tua.</p>
       <p>Lavarei as minhas mãos entre os inocentes e rodearei o vosso altar, Senhor, para cantar os vossos louvores e anunciar todas as vossas maravilhas.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cœléstis doni benedictióne percépta: súpplices te, Deus omnípotens, deprecámur; ut hoc idem nobis et sacraménti causa sit et salútis. Per Dóminum...</p>
       <p>Havendo nós recebido a bênção deste dom celestial, súplices Vos rogamos, ó Deus omnipotente, que este mesmo dom nos sirva de sacramento e de salvação. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

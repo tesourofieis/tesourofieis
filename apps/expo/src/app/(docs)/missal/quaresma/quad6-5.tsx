@@ -20,7 +20,7 @@ A Estação é na basílica que, em Roma, representa Jerusalém, da qual tem o n
 
 <em>Os. 6, 1-6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc dicit Dóminus: In tribulatione sua mane consúrgent ad me: Veníte, et revertámur ad Dóminum: quia ipse cepit, et sanábit nos: percútiet, et curábit nos. Vivificábit nos post duos dies: in die tértia suscitábit nos, et vivémus in conspéctu ejus. Sciémus, sequemúrque, ut cognoscámus Dóminum: quasi dilúculum præparátus est egréssus ejus, et véniet quasi imber nobis temporáneus et serótinus terræ. Quid fáciam tibi, Ephraim? Quid fáciam tibi, Juda? misericórdia vestra quasi nubes matutína: et quasi ros mane pertránsiens. Propter hoc dolávi in prophétis, occídi eos in verbis oris mei: et judícia tua quasi lux egrediéntur. Quia misericórdiam vólui, et non sacrifícium, et sciéntiam Dei, plus quam holocáusta.</p>
       <p>Eis o que disse o Senhor: «No meio da sua tribulação terão pressa de recorrer a mim. Vinde, dirão eles, convertamo-nos ao Senhor, pois Ele mesmo nos feriu e nos curará. Ele nos castigará e nos sarará. Em dois dias nos dará a vida; ao terceiro dia nos ressuscitará e viveremos na sua presença. Então conheceremos o Senhor e segui-l’O-emos, a fim de O conhecermos melhor. Seu despertar será como o da aurora; virá como a chuva do Outono, que rega a terra. Que posso eu fazer-te, ó Efraim? Que posso eu fazer-te, ó Judá? vossa misericórdia é como a nuvem da manhã; é como o orvalho, que se evapora. Por isso te fiz sofrer pelos Profetas; matei-os com palavras, saídas da minha boca; e o teu julgamento brilhará, como a luz. É a misericórdia que eu quero. Prefiro o conhecimento de Deus a todos os holocaustos que me ofereçais».</p>
       </div>
@@ -29,14 +29,14 @@ A Estação é na basílica que, em Roma, representa Jerusalém, da qual tem o n
 
 <em>Hab. 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, audívi audítum tuum, et tímui: considerávi ópera tua, et expávi. ℣. In médio duórum animálium innotescéris: dum appropinquáverint anni, sognoscéris: dum advénerit tempus, osténdens. ℣. In eo, dum conturbáta fúerit ánima mea: in ira, misericórdiæ memor eris. ℣. Deus a Líbano véniet, et Sanctus de monte umbróso et condénso. ℣. Opéruit cœlos majéstas ejus: et laudis ejus plena est terra.</p>
       <p>Senhor, ouvi a vossa voz e fiquei cheio de temor; meditei nas vossas maravilhas e fiquei extasiado. ℣. Manifestar-Vos-eis entre dois animais: quando os anos tiverem passado e quando os tempos tiverem vindo, manifestar-Vos-eis outra vez. ℣. Então a minha alma perturbar-se-á; mas Vos recordareis da vossa misericórdia para com ela, no dia da vossa ira. ℣. Deus virá do Líbano: e Aquele que é Santo descerá da montanha sombria e arborizada. ℣. Sua majestade cobrirá os céus; e a sua glória e o seu louvor encherão a terra.</p>
       </div>
 
       <h3>Oremos</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Flectámus génua!</p>
       <p>℣. Ajoelhemos!</p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -49,7 +49,7 @@ A Estação é na basílica que, em Roma, representa Jerusalém, da qual tem o n
 
 <em>Ex. 12, 1-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In diébus illis: Dixit Dóminus ad Móysen et Aaron in terra Ægýpti: Mensis iste vobis princípium ménsium primus erit in ménsibus anni Loquímini ad univérsum cœtum filiórum Israël, et dícite eis: Décima die mensis hujus tollat unusquísque agnum per famílias et domos suas. Sin autem minor est númerus, ut suffícere possit ad vescéndum agnum, assúmet vicínum suum, qui junctus est dómui suæ, juxta númerum animárum, quæ suffícere possunt ad esum agni. Erit autem agnus absque mácula, másculus, annículus: juxta quem ritum tollétis et hædum. Et servábitis eum usque ad quartam décimam diem mensis hujus: immolabítque eum univérsa multitúdo filiórum Israël ad vésperam. Et sument de sánguine ejus, ac ponent super utrúmque postem et in superlimináribus domórum, in quibus cómedent illum. Et edent carnes nocte illa assas igni, et ázymos panes cum lactúcis agréstibus. Non comedétis ex eo crudum quid nec coctum aqua, sed tantum assum igni: caput cum pédibus ejus et intestínis vorábitis. Nec remanébit quidquam ex eo usque mane. Si quid resíduum fúerit, igne comburétis. Sic autem comedétis illum: Renes vestros accingétis, et calceaménta habébitis in pédibus, tenéntes báculos in mánibus, et comedétis festinánter: est enim Phase (id est tránsitus) Dómini.</p>
       <p>Naqueles dias, disse o Senhor, na terra do Egipto, a Moisés e a Aarão: «Que este mês seja para vós o princípio dos meses: o primeiro dos meses do ano. Falai a toda a assembleia dos filhos de Israel, dizendo: «No décimo dia deste mês cada um tome um cordeiro para cada família e para cada casa. Se na casa houverem poucas pessoas para comer o cordeiro, chamar-se-ão em casa do vizinho, que estiver mais perto, tantas pessoas quantas sejam necessárias para comer o cordeiro inteiramente. Esse cordeiro será sem mancha, masculino e com um ano de idade; se porventura faltar o cordeiro, podereis tomar um cabrito com iguais condições. Guardareis esse cordeiro até ao dia décimo quarto desse mês, imolando-o, então, pela tarde, toda a multidão dos filhos de Israel. Tomar-se-á o seu sangue, com o qual pintarão as ombreiras e alizares das portas das casas em que o cordeiro for comido. Nessa mesma noite comerão com pão sem fermento e leitugas silvestres a carne, a qual será assada no lume. Não comereis desse cordeiro nada que seja cru ou cozido em água; mas todo será assado no lume. Comereis a cabeça, os pés e os intestinos, e nada deverá ficar para o dia seguinte; porém, se alguma coisa ficar, tereis o cuidado de consumi-la no fogo. Haveis de comê-lo desta maneira: rins cingidos, pés calçados e bordão na mão. Comê-lo-eis com pressa, pois é a ocasião da páscoa, isto é, a passagem do Senhor».</p>
       </div>
@@ -58,7 +58,7 @@ A Estação é na basílica que, em Roma, representa Jerusalém, da qual tem o n
 
 <em>Sl. 139, 2-10 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Eripe me, Dómine, ab homine malo: a viro iníquo líbera me. ℣. Qui cogitavérunt malítias in corde: tota die constituébant prœlia. ℣. Acuérunt linguas suas sicut serpéntis: venénum áspidum sub labiis eórum. ℣. Custódi me, Dómine, de manu peccatóris: et ab homínibus iníquis libera me. ℣. Qui cogitavérunt supplantáre gressus meos: abscondérunt supérbi láqueum mihi. ℣. Et funes extendérunt in láqueum pédibus meis: juxta iter scándalum posuérunt mihi. ℣. Dixi Dómino: Deus meus es tu: exáudi, Dómine, vocem oratiónis meæ. ℣. Dómine, Dómine, virtus salútis meæ: obúmbra caput meum in die belli. ℣. Ne tradas me a desidério meo peccatóri: cogitavérunt advérsus me: ne derelínquas me, ne umquam exalténtur. ℣. Caput circúitus eórum: labor labiórum ipsórum opériet eos. ℣. Verúmtamen justi confitebúntur nómini tuo: et habitábunt recti cum vultu tuo.</p>
       <p>Livrai-me, Senhor, do homem iníquo; livrai-me do homem injusto. ℣. No seu coração intentam desígnios iníquos; continuamente estão prontos para me combater. ℣. Afiaram as suas línguas, como as das serpentes; nos seus lábios está a peçonha das víboras. ℣. Defendei-me, Senhor, dos ataques das mãos do pecador; livrai-me dos homens injustos. ℣. Porquanto procuram o meio de lançar-me por terra; estes orgulhosos armaram-me ciladas. ℣. Armaram laços para me prender; prepararam ciladas e embustes no meu caminho. ℣. Eu disse ao Senhor: Sois o meu Deus; ouvi, Senhor, a voz da minha súplica. ℣. Senhor, Senhor, sois o meu sustentáculo e a minha salvação: no dia do combate abrigai a minha cabeça. ℣. Não me entregueis, Senhor, à fúria dos pecadores; não me deixeis à mercê dos seus desejos, para que não triunfem contra mim. ℣. Seus embustes cairão sobre si; as suas calúnias contra si se voltarão. ℣. Os justos, Senhor, louvarão o vosso nome: e os que possuem o coração recto contemplar-Vos-ão face a face.</p>
       </div>
@@ -67,7 +67,7 @@ A Estação é na basílica que, em Roma, representa Jerusalém, da qual tem o n
 
 <em>Jo. 18, 1-40; 19, 1-42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Pássio Dómini nostri Jesu Christi secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Paixão de N. S. Jesus Cristo, segundo S.  João.</p>
       <p>In illo témpore: Egréssus est Jesus cum discípulis suis trans torréntem Cedron, ubi erat hortus, in quem introívit ipse et discípuli ejus. Sciébat autem et Judas, qui tradébat eum, locum: quia frequénter Jesus convénerat illuc cum discípulis suis. Judas ergo cum accepísset cohórtem, et a pontifícibus et pharisǽis minístros, venit illuc cum latérnis et fácibus et armis. Jesus ítaque sciens ómnia, quæ ventúra erant super eum, procéssit, et dixit eis: <span className="cross text-red-500">✠</span> Quem quǽritis? <span className="font-bold text-red-500">C.</span> Respondérunt ei: <span className="font-bold text-red-500">S.</span> Jesum Nazarénum. <span className="font-bold text-red-500">C.</span> Dicit eis Jesus: <span className="cross text-red-500">✠</span> Ego sum. <span className="font-bold text-red-500">C.</span> Stabat autem et Judas, qui tradébat eum, cum ipsis. Ut ergo dixit eis: Ego sum: abiérunt retrorsum, et cecidérunt in terram. Iterum ergo interrogávit eos: <span className="cross text-red-500">✠</span> Quem quǽritis? <span className="font-bold text-red-500">C.</span> Illi autem dixérunt: <span className="font-bold text-red-500">S.</span> Jesum Nazarénum. <span className="font-bold text-red-500">C.</span> Respóndit Jesus: <span className="cross text-red-500">✠</span> Dixi vobis, quia ego sum: si ergo me quǽritis, sinite hos abíre. <span className="font-bold text-red-500">C.</span> Ut implerétur sermo, quem dixit: Quia quos dedísti mihi, non pérdidi ex eis quemquam. Simon ergo Petrus habens gládium edúxit eum: et percússit pontíficis servum: et abscídit aurículam ejus déxteram. Erat autem nomen servo Malchus. Dixit ergo Jesus Petro: <span className="cross text-red-500">✠</span> Mitte gládium tuum in vagínam. Cálicem, quem dedit mihi Pater, non bibam illum?</p>
@@ -95,7 +95,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
   MEUM](/missal/ordo#munda-cor)... Depois prossegue:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Post hæc autem rogávit Pilátum Joseph ab Arimathǽa (eo quod esset discípulus Jesu, occúltus autem propter metum Judæórum), ut tólleret corpus Jesu. Et permísit Pilátus. Venit ergo et tulit corpus Jesu. Venit autem et Nicodémus, qui vénerat ad Jesum nocte primum, ferens mixtúram myrrhæ et áloes, quasi libras centum. Accepérunt ergo corpus Jesu, et ligavérunt illud línteis cum aromátibus, sicut mos est Judǽis sepelíre. Erat autem in loco, ubi crucifíxus est, hortus: et in horto monuméntum novum, in quo nondum quisquam pósitus erat. Ibi ergo propter Parascéven Judæórum, quia juxta erat monuméntum, posuérunt Jesum.</p>
       <p>Em seguida, José de Arimateia (que fora discípulo de Jesus, ocultamente, com medo dos judeus), pediu a Pilatos o corpo de Jesus, o que Pilatos permitiu. Veio, pois, e tirou o corpo de Jesus. Acompanhou-o Nicodemos (que no princípio da noite viera procurar Jesus) com uma mistura de mirra e de aloés, de quase cem libras de preço. Tomaram, então, o corpo de Jesus e envolveram-no em lençóis com aromas, segundo o costume dos judeus. Havia no lugar em que Jesus foi crucificado um jardim, e nele uma sepultura nova, onde ninguém fora ainda depositado. Foi aí (por ser o dia da Preparação da Páscoa dos judeus) que depositaram Jesus, pois este túmulo estava próximo.</p>
       </div>
@@ -104,7 +104,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
       <h3>Pela Santa Igreja</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orémus, dilectíssimi nobis, pro Ecclésia sancta Dei, ut eam Deus et Dóminus noster pacificáre, adunáre et custodíre dignétur toto orbe terrárum, detque nobis, quiétam et tranquíllam vitam degéntibus, glorificáre Deum Patrem omnipoténtem.</p>
       <p>Oremos, irmãos caríssimos, pela Santa Igreja de Deus, a fim de que o Senhor, nosso Deus, se digne conceder-lhe paz e união e a guarde em toda a terra, sujeitando-lhe espiritualmente todos os principados e potestades; e que nos conceda uma vida calma e tranquila para glorificarmos Deus Pai omnipotente.</p>
       <p><span className="text-red-500 text-center">Orémus.</span></p>
@@ -119,7 +119,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
       <h3>Pelo Santíssimo Padre</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orémus, et pro beatíssimo Papa nostro <span className="text-red-500">N.</span>, ut Deus et Dóminus noster, qui elégit eum in órdine episcopátus, salvum atque incólumem custódiat Ecclésiæ suæ sanctæ, ad regéndum pópulum sanctum Dei.</p>
       <p>Oremos, pelo Santíssimo Padre, o Papa <span className="text-red-500">N.</span> para que o Senhor, nosso Deus, que o elevou à ordem do Episcopado, o conserve incólume e livre, para utilidade da sua Igreja e para governar o santo povo de Deus.</p>
       <p><span className="text-red-500 text-center">Orémus.</span></p>
@@ -134,7 +134,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
       <h3>Por todo o Corpo da Igreja</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orémus, et pro ómnibus Epíscopis nostro, Presbýteris, Diacónibus,Subdiacónis, Acólythis, Exorcístis, Lectóribus, Ostiáriis, Confessóribus, Virgínibus, Víduis: et pro omni pópulo sancto Dei.</p>
       <p>Oremos, também por todos os Bispos, Presbíteros, Diáconos, Subdiáconos, Acólitos, Exorcistas, Leitores, Ostiários, Confessores, Virgens, Viúvas e ainda por todo o santo povo de Deus.</p>
       <p><span className="text-red-500 text-center">Orémus.</span></p>
@@ -149,7 +149,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
       <h3>Pelo Imperador Romano</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orémus, et pro Christianíssimo (Si non est coronatus, dicatur: elécto Imperatóre.) Imperatóre nostro <span className="text-red-500">N.</span> ut Deus et Dóminus noster súbditas fáciat omnes barbaras natiónes ad nostram perpétuam pacem.</p>
       <p>Oremos, também pelo nosso Cristianíssimo (Se não é coroado, diz-se: Imperador eleito.) Imperador <span className="text-red-500">N.</span> para que o Senhor, nosso Deus, lhe submeta todas as nações bárbaras, para nossa perpétua paz.</p>
       <p><span className="text-red-500 text-center">Orémus.</span></p>
@@ -164,7 +164,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
       <h3>Pelos Catecúmenos</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orémus, et pro catechúmenis nostris: ut Deus et Dóminus noster adapériat aures præcordiórum ipsórum januámque misericordiæ; ut, per lavácrum regeneratiónis accépta remissióne ómnium peccatórum, et ipsi inveniántur in Christo Jesu, Dómino nostro.</p>
       <p>Oremos, também pelos nossos Catecúmenos, para que o Senhor, nosso Deus, lhes abra os ouvidos do coração e as portas da misericórdia, e, assim, havendo alcançado a remissão dos pecados pelo banho da regeneração, sejam connosco incorporados em Jesus Cristo, nosso Senhor.</p>
       <p><span className="text-red-500 text-center">Orémus.</span></p>
@@ -179,7 +179,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
       <h3>Pelas Necessidade dos Fiéis</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orémus, dilectíssimi nobis, Deum Patrem omnipoténtem, ut cunctis mundum purget erróribus: morbos áuferat: famem depellat: apériat cárceres: víncula dissólvat: peregrinántibus réditum: infirmántibus sanitátem: navigántibus portum salútis indúlgeat.</p>
       <p>Oremos, caríssimos irmãos, a Deus Pai omnipotente, pedindo-Lhe que purifique o mundo de todos os erros; afaste as doenças; desterre a fome; abra as prisões; quebre as cadeias; conceda aos viajantes feliz viagem; dê aos enfermos a saúde; e conduza os navegantes a porto de salvamento.</p>
       <p><span className="text-red-500 text-center">Orémus.</span></p>
@@ -194,7 +194,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
       <h3>Pelos Hereges e Cismáticos</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orémus, et pro hæréticis et schismáticis: ut Deus et Dóminus noster éruat eos ab erróribus univérsis; et ad sanctam matrem Ecclésiam Cathólicam atque Apostólicam revocáre dignétur.</p>
       <p>Oremos, também pelos hereges e cismáticos: para que o Senhor, nosso Deus, os livre de todos os erros e se digne reconduzi-los ao seio da santa mãe Igreja Católica e Apostólica.</p>
       <p><span className="text-red-500 text-center">Orémus.</span></p>
@@ -209,21 +209,21 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
       <h3>Pelos Judeus</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orémus et pro pérfidis Judǽis: ut Deus et Dóminus noster áuferat velámen de córdibus eórum; ut et ipsi agnóscant Jesum Christum, Dóminum nostrum.</p>
       <p>Oremos, também pelos pérfidos Judeus, a fim de que o Senhor nosso Deus tire o véu que cobre os seus corações, e que também reconheçam nosso Senhor Jesus Cristo.</p>
       </div>
 
 <aside>Não se responde Amen, e o Celebrante continua:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui étiam judáicam perfídiam a tua misericórdia non repéllis: exáudi preces nostras, quas pro illíus pópuli obcæcatióne deférimus; ut, ágnita veritátis tuæ luce, quæ Christus est, a suis ténebris eruántur. Per eundem... <span className="text-red-500">℟.</span> Amen.</p>
       <p>Deus Omnipotente e eterno, que não desviais a vossa misericórdia ainda dos pérfidos Judeus: ouvi as orações que fazemos por este povo cego, a fim de que, reconhecendo a luz da vossa verdade, que é Jesus Cristo, saiam das trevas. Pelo mesmo nosso Senhor... <span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
       <h3>Pelos Pagãos</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Orémus, et pro pagánis: ut Deus omnípotens áuferat iniquitátem a córdibus eórum; ut, relíctis idólis suis, convertántur ad Deum vivum et verum, et únicum Fílium ejus Jesum Christum, Deum et Dóminum nostrum.</p>
       <p>Oremos, ainda pelos pagãos, a fim de que Deus omnipotente lhes arranque dos corações a iniquidade, e, abandonando os seus ídolos, se convertam a Deus vivo e verdadeiro e a seu Filho Unigénito Jesus Cristo, nosso Deus e Senhor.</p>
       <p><span className="text-red-500 text-center">Orémus.</span></p>
@@ -240,7 +240,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
       <h3>Veníte, adorémus</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce lignum Crucis, in quo salus mundi pependit.</p>
       <p>Eis o Lenho da Cruz, do qual pendeu a salvação do mundo!</p>
       <p><span className="text-red-500">℟.</span> Veníte, adoremus.</p>
@@ -357,7 +357,7 @@ Addúcunt ergo Jesum a Cáipha in prætórium. Erat autem mane: et ipsi non intr
 
 <VexillaRegis />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In spiritu humilitátis et in ánimo contríto suscipiámur a te, Dómine: et sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi, Dómine Deus.</p>
       <p>Com o espírito humilhado e com o coração contrito, Senhor, Vos pedimos, dignai-Vos receber-nos, para que este sacrifício seja feito hoje na vossa presença e de modo que Vos seja agradável.</p>
       <p>Oráte, fratres, ut meum ac vestrum sacrifícium acceptábile fiat apud Deum Patrem omnipoténtem.</p>

@@ -14,14 +14,14 @@ export default function Page0617Portugal() {
 
 <em>Sl. 44, 15-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adducéntur Regi Vírgines post eam, próximæ ejus afferéntur in lætitia et exsultatióne: adducéntur in templum Regis Dómini. <em>Ps. ibid., 2</em> Eructávit cor meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...</p>
       <p>As virgens serão apresentadas ao Rei após ela: as suas companheiras serão conduzidas em transportes de alegria e de júbilo: serão apresentadas ao Senhor no templo do Rei. <em>Sl. ibid., 2</em> Meu coração proferiu uma excelente palavra: «Consagro ao Rei as minhas obras». ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ad Ecclésiam tuam novis semper exémplis imbuéndam, beátam Terésiam, mundáno principátu despécto, ad humilitátis tuæ sectánda vestigia toto corde transire fecísti: concéde; ut ipsíus méritis et exémplo discámus peritúras mundi calcáre delícias, et in ampléxu tuæ crucis ómnia nobis adversántia superáre: Qui vivis et regnas...</p>
       <p>Ó Deus, que, para instruir a vossa Igreja com exemplos sempre novos, fizestes que a B. Teresa, desprezando a realeza deste mundo, seguisse com todo seu coração os exemplos da vossa humildade, concedei-nos que pelos seus méritos e exemplos desprezemos as glórias e delícias deste mundo e, abraçados à vossa Paixão, vençamos todas as adversidades. Ó Vós, que viveis e reinais...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0617Portugal() {
 
 <em>Ct. 2, 8-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Vox dilécti mei: ecce, iste venit sáliens in móntibus, transíliens colles; símilis est diléctus meus cápreæ hinnulóque cervórum. En, ipse stat post paríetem nostrum, respíciens per fenéstras, prospíciens per cancéllos. En, diléctus meus lóquitur mihi: Surge, própera, amíca mea, colúmba mea, formósa mea, et veni. Jam enim hiems tránsiit, imber ábiit et recéssit. Flores apparuérunt in terra nostra, tempus putatiónis advénit: vox túrturis audíta est in terra nostra: ficus prótulit grossos suos: víneæ floréntes dedérunt odórem suum. Surge, amíca mea, speciósa mea, et veni: colúmba mea in foramínibus petra, in cavérna macériæ, osténde mihi fáciem tuam, sonet vox tua in áuribus meis: vox enim tua dulcis et fácies tua decóra.</p>
@@ -41,7 +41,7 @@ export default function Page0617Portugal() {
 
 <em>Sl. 115, 16-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dirupísti víncula mea: tibi sacrificábo hóstiam laudis, et nomen Dómini invocábo. ℣. <em>Ps. ibid., 18-19</em> Vota mea Dómino reddam in conspéctu omnis pópuli ejus, in átriis domus Dómini.</p>
       <p>Quebrastes as minhas cadeias, ó meu Deus! Eu Vos oferecerei, pois, um sacrifício d e louvor e invocarei o nome do Senhor. ℣. <em>Sl. ibid., 18-19</em> Oferecerei os meus votos ao Senhor na presença de todo seu povo e nos átrios da casa do Senhor.</p>
       <p>Allelúja, allelúja. <em>Cant. 2, 3</em> Sub umbra illíus, quem desideráveram, sedi: et fructus ejus dulcis gúturi mea. Allelúja.</p>
@@ -58,14 +58,14 @@ export default function Page0617Portugal() {
 
       <h3>Ofertório</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vultum tuum deprecabúntur omnes dívites plebis: filiæ regum in honóre tuo.</p>
       <p>Todos os poderosos do povo implorarão o seu rosto: as filhas dos reis honrar-vos-ão.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, Dómine, sacrifícium, cujus te voluísti dignánter immolatióne placári: et præsta, ut beátæ Terésiæ intercessióne nobis profíciat ad salútem. Per Dominum...</p>
       <p>Recebei, Senhor, este sacrifício com a imolação do qual quisestes ser dignamente aplacado; e concedei-nos que pela intercessão da B. Teresa seja proveitoso à nossa salvação. Por nosso Senhor...</p>
       </div>
@@ -74,14 +74,14 @@ export default function Page0617Portugal() {
 
 <em>Ct. 6, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vidérunt eam fíliæ, et beatíssimam prædicavérunt; reginæ, et laudavérunt eam.</p>
       <p>As filhas (de Sião) viram-na e proclamaram-na bem-aventurada: e as rainhas louvaram-na.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ascéndant ad te, Dómine, preces nostræ, Beatæ Terésiæ suffragántibus méritis: ut cæléstibus dápibus temporáliter recreáti, ætérni convívii dulcédine perfruámur. Per Dóminum...</p>
       <p>Subam até Vós, Senhor, as nossas preces, e pelos sufrágios e méritos da B. Teresa permiti que, assim como neste mundo nos alegramos com a posse das riquezas celestiais, assim também gozemos a doçura do convívio eterno. Por nosso Senhor...</p>
       </div>

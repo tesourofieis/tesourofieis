@@ -10,7 +10,7 @@ export default function PageAlmacristo() {
       <h1>Alma de Cristo</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Anima Christi, sanctífica me. Corpus Christi, salve me.</p>
       <p>Alma de Cristo, santificai-me. Corpo de Cristo, salvai-me.</p>
       <p>Sanguis Christi, inébria me.</p>

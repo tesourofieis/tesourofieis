@@ -14,14 +14,14 @@ export default function Page27Missamaria1() {
 
 <em>Is. 45, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et gérminet Salvatórem. <em>Ps. 84, 2</em> Benedixísti, Domine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria Patri...</p>
       <p>Ó céus, derramai dessas alturas o vosso orvalho: e que as nuvens chovam o Justo! Abra-se a terra e floresça o Salvador! <em>Sl. 84, 2</em> Abençoastes, Senhor, a vossa terra e acabastes com a escravidão de Jacob. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur. Per eúndem Dóminum...</p>
       <p>Ó Deus, que, segunda a anunciação do Anjo, quisestes que o vosso Verbo assumisse a carne humana no seio da bem-aventurada Virgem Maria, concedei aos vossos suplicantes que os que crêem que Ela é verdadeira Mãe de Deus, sejam amparados na vossa presença com o auxílio das suas preces. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page27Missamaria1() {
 
 <em>Is. 7, 10-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>In diébus illis: Locútus est i Dóminus ad Achaz, dicens: Pete tibi signum a Dómino, Deo tuo, in profúndum inférni, sive in excélsum supra. Et dixit Achaz: Non petam et non tentábo Dóminum. Et dixit: Audíte ergo, domus David: Numquid parum vobis est, moléstos esse homínibus, quia molesti estis et Deo meo? Propter hoc dabit Dóminus ipse vobis signum. Ecce, Virgo concípiet et páriet fílium, et vocábitur nomen ejus Emmánuel. Butýrum et mel cómedet, ut sciat reprobare malum et elígere bonum.</p>
@@ -41,7 +41,7 @@ export default function Page27Missamaria1() {
 
 <em>Sl. 23, 7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tóllite portas, príncipes, vestras: et elevámini, portæ æternáles: et introívit Rex glóriæ. ℣. <em>ibid., 3-4</em> Quis ascéndet in montem Dómini? aut quis stabit in loco sancto ejus? Innocens mánibus et mundo corde.</p>
       <p>Abri inteiramente as vossas frentes, ó portas; abri-vos, ó portas eternas! Então entrará o Rei da glória! ℣. <em>ibid., 3-4</em> Quem subirá ao monte do Senhor? Quem permanecerá no seu santuário? Aquele que tiver as mãos inocentes e o coração limpo.</p>
       <p>Allelúja, allelúja. ℣. <em>Luc. 1, 28</em> Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page27Missamaria1() {
 
 <em>Lc. 1, 26-38</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Missus est Angelus Gábriël a Deo in civitátem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.</p>
@@ -63,14 +63,14 @@ export default function Page27Missamaria1() {
 
 <em>Lc. 1, 28 & 42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui.</p>
       <p>Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In méntibus nostris, quǽsumus, Dómine, veræ fídei sacraménta confírma: ut, qui concéptum de Vírgine Deum verum et hóminem confitémur; per ejus salutíferæ resurrectiónis poténtiam, ad ætérnam mereámur perveníre lætítiam. Per eúndem Dóminum nostrum...</p>
       <p>Dignai-Vos confirmar nas nossas almas, Senhor, os mystérios da verdadeira fé, a fim de que nós, que confessamos que Aquele que foi concebido pela Virgem Maria é verdadeiro Deus e Homem, mereçamos alcançar pela virtude da sua salutar ressurreição a felicidade eterna. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page27Missamaria1() {
 
 <em>Is. 7, 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus Emmánuel.</p>
       <p>Eis que a Virgem conceberá, dará à luz um filho e o seu nome será Emanuel.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut, qui, Angelo nuntiánte, Christi, Fílii tui, incarnatiónem cognóvimus; per passiónem ejus et crucem, ad resurrectiónis glóriam perducámur. Per eúndem Dóminum...</p>
       <p>Infundi, Senhor, Vos suplicamos, a vossa graça em nossas almas, para que nós que pela anunciação do Anjo conhecemos a Incarnação do vosso Filho, sejamos conduzidos à glória da ressurreição pela sua Paixão e Cruz. Por nosso Senhor...</p>
       </div>

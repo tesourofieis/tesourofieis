@@ -14,14 +14,14 @@ export default function Page6Muitosmartires1() {
 
 <em>Sl. 78, 11, 12 & 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est. <em>Ps. ibid., 1</em> Deus, venérunt gentes in hereditátem tuam: polluérunt templum sanctum tuum: posuérunt Jerúsalem in pomórum custódiam. ℣. Gloria Patri...</p>
       <p>Que os gemidos dos cativos cheguem à vossa presença, Senhor. Castigai os nossos inimigos sete vezes por cada injúria que nos têm feito: vingai o sangue que os vossos Santos derramaram. <em>Ps. ibid., 1</em> Ó Deus, os povos invadiram a vossa herança, profanaram o vosso sagrado templo e reduziram Jerusalém a um monte de ruínas! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beatórum Mártyrum paritérque Pontíficum nos, quǽsumus, Dómine, festa tueántur: et eórum comméndet orátio veneránda. Per Dóminum...</p>
       <p>Vos suplicamos, Senhor, que a festa dos vossos B. B. Mártires e Pontífices <span className="text-red-500">N.</span> e <span className="text-red-500">N.</span>, nos proteja, e que sua veneranda oração nos sirva de recomendação junto de Vós. Por nosso Senhor...</p>
       </div>
@@ -35,7 +35,7 @@ export default function Page6Muitosmartires1() {
 
 <em>Sb. 3, 1-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Justorum ánimæ in manu Dei sunt, et non tanget illos torméntum mortis. Visi sunt oculis insipiéntium mori: et æstimála est afflíctio exitus illórum: et quod a nobis est iter, extermínium: illi autem sunt in pace. Et si coram homínibus torménta passi sunt, spes illórum immortalitáte plena est. In paucis vexáti, in multis bene disponéntur: quóniam Deus tentávit eos, et invenit illos dignos se. Tamquam aurum in fornáce probávit illos, et quasi holocáusti hóstiam accépit illos, et in témpore erit respéctus illorum. Fulgébunt justi, et tamquam scintíllæ in arundinéto discúrrent. Judicábunt natiónes, et dominabúntur pópulis, et regnábit Dóminus illórum in perpétuum.</p>
@@ -46,7 +46,7 @@ export default function Page6Muitosmartires1() {
 
 <em>Ex. 15,11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia. ℣. <em>ibid., 6</em> Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.</p>
       <p>Deus é glorioso em seus Santos: e admirável na sua majestade, praticando prodígios. ℣. <em>ibid., 6</em> Senhor, a vossa dextra engrandeceu-se pela sua força: a vossa dextra esmagou os inimigos.</p>
       <p>Allelúja, allelúja. ℣. <em>Eccli. 44, 14</em> Córpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem. Allelúja.</p>
@@ -59,7 +59,7 @@ export default function Page6Muitosmartires1() {
 
 <em>Sl. 125, 5-6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui séminant in lácrimis, in gáudio metent. ℣. Eúntes ibant et flébant, mitténtes sémina sua. ℣. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.</p>
       <p>Aqueles que semeiam com lágrimas ceifarão com júbilo. ℣. Iam, caminhavam e lançavam a semente à terra, chorando. ℣. Porém, quando voltavam, exultavam de alegria, trazendo os seus molhos de trigo.</p>
       </div>
@@ -68,7 +68,7 @@ export default function Page6Muitosmartires1() {
 
 <em>Lc. 21, 9-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Cum audieritis prǿlia et seditiónes, nolíte terréri: opórtet primum hæc fíeri, sed nondum statim finis. Tunc dicébat illis: Surget gens contra gentem, et regnum advérsus regnum. Et terræmótus magni erunt per loca, et pestiléntiæ, et fames, terrorésque de cœlo, et signa magna erunt. Sed ante hæc ómnia injícient vobis manus suas, et persequéntur tradéntes in synagógas et custódias, trahéntes ad reges et prǽsides propter nomen meum: contínget autem vobis in testimónium. Pónite ergo in córdibus vestris non præmeditári, quemádmodum respondeátis. Ego enim dabo vobis os et sapiéntiam, cui non potérunt resístere et contradícere omnes adversárii vestri. Tradémini autem a paréntibus, et frátribus, et cognátis, et amícis, et morte affícient ex vobis: et éritis ódio ómnibus propter nomen meum: et capíllus de cápite vestro non períbit. In patiéntia vestra possidébitis ánimas vestras.</p>
@@ -79,14 +79,14 @@ export default function Page6Muitosmartires1() {
 
 <em>Sl. 67, 36</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et fortitúdinem plebi suæ: benedíctus Deus, allelúja.</p>
       <p>Deus é admirável em seus Santos. Deus de Israel dará ao seu povo a força e a coragem. Bendito Ele seja, pois. Aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adésto, Dómine, supplicatiónibus nostris, quas in Sanctórum tuórum commemoratióne deférimus: ut, qui nostræ justítiæ fidúciam non habémus, eórum, qui tibi placuérunt, méritis adjuvémur. Per Dóminum...</p>
       <p>Atendei, Senhor, às súplicas que Vos dirigimos em memória dos vossos Santos, a fim de que nós, que não temos confiança na nossa própria justiça, sejamos auxiliados pelos méritos daqueles que Vos agradaram nesta vida. Por nosso Senhor...</p>
       </div>
@@ -95,14 +95,14 @@ export default function Page6Muitosmartires1() {
 
 <em>Sb. 3, 4, 5 & 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Et si coram homínibus torménta passi sunt, Deus tentávit eos: tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit eos.</p>
       <p>Se sofreram tormentos diante dos homens, foi para Deus os provar. Deus provou-os na fornalha, como ao ouro, e recebeu-os, como hóstia de holocausto.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum sollémnia celebrámus, eórum oratiónibus adjuvémur. Per Dóminum...</p>
       <p>Fortificados com vossos salutares mystérios, dignai-Vos conceder-nos, Senhor, a graça da assistência das orações daqueles cuja festa celebrámos. Por nosso Senhor...</p>
       </div>

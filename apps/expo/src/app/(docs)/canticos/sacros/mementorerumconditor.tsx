@@ -10,7 +10,7 @@ export default function PageMementorerumconditor() {
       <h1>Memento rerum conditor</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Memento rerum conditor, Nostri quod olim corporis Sacrata ab alvo Virginis, Nascendo formam sumpseris.</p>
       <p>Ó Vós, que o mundo fizestes, lembrai-Vos, que quando nasceste do ventre sagrado da Virgem, tomastes a humana figura.</p>
       <p>Maria Mater gratiæ, dulcis Parens clementiæ, tu nos ab hoste protege, et mortis hora suscipe.</p>

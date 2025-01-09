@@ -14,14 +14,14 @@ export default function PagePent150() {
 
 <em>Sl. 85, 1 & 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam ad te clamávi tota die. <em>Ps. ibid., 4</em> Lætífica ánimam servi tui: quia ad te, Dómine, ánimam meam levávi. ℣. Gloria Patri...</p>
       <p>Inclinai, Senhor, vossos ouvidos para mim e ouvi-me. Salvai, ó meu Deus, o vosso servo, que em Vós espera. Tende misericórdia de mim, Senhor, pois clamei por Vós todo o dia! <em>Sl. ibid., 4</em> Alegrai a alma do vosso servo, porque a Vós, Senhor, se elevou a minha alma. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecclésiam tuam, Dómine, miserátio continuáta mundet et múniat: et quia sine te non potest salva consístere; tuo semper múnere gubernétur. Per Dóminum...</p>
       <p>Que a vossa misericórdia purifique e proteja continuamente a vossa Igreja; e, visto que ela não pode subsistir sem Vós, assisti-lhe sempre com vossa graça. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent150() {
 
 <em>Gl. 5, 25-26; 6, 1-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.</p>
       <p>Fratres: Si spíritu vívimus, spíritu et ambulémus. Non efficiámur inanis glóriæ cúpidi, ínvicem provocántes, ínvicem invidéntes. Fratres, et si præoccupátus fúerit homo in áliquo delícto, vos, qui spirituáles estis, hujúsmodi instrúite in spíritu lenitátis, consíderans teípsum, ne et tu tentéris. Alter alteríus ónera portáte, et sic adimplébitis legem Christi. Nam si quis exístimat se áliquid esse, cum nihil sit, ipse se sedúcit. Opus autem suum probet unusquísque, et sic in semetípso tantum glóriam habébit, et non in áltero. Unusquísque enim onus suum portábit. Commúnicet autem is, qui catechizátur verbo, ei, qui se catechízat, in ómnibus bonis. Nolíte erráre: Deus non irridétur. Quæ enim semináverit homo, hæc et metet. Quóniam qui séminat in carne sua, de carne et metet corruptiónem: qui autem séminat in spíritu, de spíritu metet vitam ætérnam. Bonum autem faciéntes, non deficiámus: témpore enim suo metémus, non deficiéntes. Ergo, dum tempus habémus, operémur bonum ad omnes, maxime autem ad domésticos fídei.</p>
@@ -41,7 +41,7 @@ export default function PagePent150() {
 
 <em>Sl. 91, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bonum est confitéri Dómino: et psallere nómini tuo, Altíssime. ℣. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.</p>
       <p>É bom louvar o Senhor: e cantar salmos em honra do vosso nome, ó Altíssimo! ℣. É bom publicar a vossa bondade pela manhã; e a vossa verdade durante a noite.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 94, 3</em> Quóniam Deus magnus Dóminus, et Rex magnus super omnem terram. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent150() {
 
 <em>Lc. 7, 11-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Sl. 39,2,3 & 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exspéctans exspectávi Dóminum, et respéxit me: et exaudívit deprecatiónem meam: et immísit in os meum cánticum novum, hymnum Deo nostro.</p>
       <p>Esperei com perseverança no Senhor: e Ele atendeu-me: ouviu a minha deprecação e pôs nos meus lábios um cântico novo: um hino de louvor ao nosso Deus.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tua nos, Dómine, sacramenta custodiant: et contra diabólicos semper tueántur incúrsus. Per Dóminum...</p>
       <p>Que os vossos sacramentos nos guardem, Senhor; e que nos defendam sempre dos ataques do demónio. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Jo. 6, 52</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Panis, quem ego dédero, caro mea est pro sǽculi vita.</p>
       <p>O pão que Vos darei para a vida do mundo é a minha Carne.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mentes nostras et córpora possídeat, quǽsumus, Dómine, doni cœléstis operátio: ut non noster sensus in nobis, sed júgiter ejus prævéniat efféctus. Per Dóminum...</p>
       <p>Permiti, Senhor, Vos suplicamos, que a nossa alma e o nosso corpo sejam completamente submissos à vontade deste dom celestial, de sorte que seja sempre o efeito deste sacramento que nos domine, e não os nossos próprios sentidos. Por nosso Senhor...</p>
       </div>

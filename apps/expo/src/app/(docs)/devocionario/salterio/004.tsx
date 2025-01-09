@@ -10,7 +10,7 @@ export default function Page004() {
       <h1>Salmo 4</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cum invocárem exaudívit me Deus justítiæ meæ: * in tribulatióne dilatásti mihi.</p>
       <p>Quando O invoquei, me ouviu o Deus da minha justiça: * na tribulação me dilatastes.</p>
       <p>Miserére mei, * et exáudi oratiónem meam.</p>

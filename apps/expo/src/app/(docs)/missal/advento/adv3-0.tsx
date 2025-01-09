@@ -14,14 +14,14 @@ export default function PageAdv30() {
 
 <em>Fl. 4, 4–6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia vestra nota sit ómnibus homínibus: Dóminus enim prope est. Nihil sollíciti sitis: sed in omni oratióne petitiónes vestræ innotéscant apud Deum. <em>Ps. 84, 2</em> Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria Patri...</p>
       <p>Regozijai-vos incessantemente no Senhor. Eu vo-lo repito: regozijai-vos. Que todos os homens vejam a vossa modéstia, Pois o Senhor está perto. Não vos inquieteis com coisa alguma; mas mostrai a Deus nas vossas orações e súplicas todas vossas necessidades. <em>Sl. 84, 2</em> Abençoastes, Senhor, a vossa terra: e livrastes Jacob do cativeiro. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Aurem tuam, quǽsumus, Dómine, précibus nostris accómmoda: et mentis nostræ ténebras, grátia tuæ visitatiónis illústra: Qui vivis...</p>
       <p>Ouvi, Senhor, Vos suplicamos, as nossas orações; e, pela graça da vossa visita, esclarecei as trevas da nossa alma: Vós, que, sendo Deus, viveis e...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageAdv30() {
 
 <em>Fl. 4, 4–7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lectio Epístolæ beati Pauli Apóstoli ad Philippénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.</p>
       <p>Fratres: Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia vestra nota sit ómnibus homínibus: Dóminus prope est. Nihil sollíciti sitis: sed in omni oratióne et obsecratióne, cum gratiárum actióne, petitiónes vestræ innotéscant apud Deum. Et pax Dei, quæ exsúperat omnem sensum, custódiat corda vestra et intellegéntias vestras, in Christo Jesu, Dómino nostro.</p>
@@ -41,7 +41,7 @@ export default function PageAdv30() {
 
 <em>Sl. 79, 2, 3 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui sedes, Dómine, super Chérubim, éxcita poténtiam tuam, et veni. ℣. Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.</p>
       <p>Senhor, que estais assentado acima dos Querubins, mostrai o vosso poder, e vinde. ℣. Ouvi, ó vós, que governais Israel; ó vós, que conduzis José, como um pastor conduz um rebanho.</p>
       <p>Allelúja, allelúja. ℣. Excita, Dómine, potentiam tuam, et veni, ut salvos fácias nos. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PageAdv30() {
 
 <em>Jo. 1, 19–28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo tempore: Misérunt Judǽi ab Jerosólymis sacerdótes et levítas ad Joánnem, ut interrogárent eum: Tu quis es? Et conféssus est, et non negávit: et conféssus est: Quia non sum ego Christus. Et interrogavérunt eum: Quid ergo? Elías es tu? Et dixit: Non sum. Prophéta es tu? Et respondit: Non. Dixérunt ergo ei: Quis es, ut respónsum demus his, qui misérunt nos? Quid dicis de te ipso? Ait: Ego vox clamántis in desérto: Dirígite viam Dómini, sicut dixit Isaías Prophéta. Et qui missi fúerant, erant ex pharisǽis. Et interrogavérunt eum, et dixérunt ei: Quid ergo baptízas, si tu non es Christus, neque Elías, neque Prophéta? Respóndit eis Joánnes, dicens: Ego baptízo in aqua: médius autem vestrum stetit, quem vos nescítis. Ipse est, qui post me ventúrus est, qui ante me factus est: cujus ego non sum dignus ut solvam ejus corrígiam calceaménti. Hæc in Bethánia facta sunt trans Jordánem, ubi erat Joánnes baptízans.</p>
@@ -63,14 +63,14 @@ export default function PageAdv30() {
 
 <em>Sl. 84, 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob: remisísti iniquitatem plebis tuæ.</p>
       <p>Abençoastes Senhor, a vossa terra; e livrastes Jacob do cativeiro: perdoastes a iniquidade do vosso povo.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Devotiónis nostræ tibi, quǽsumus, Dómine, hóstia iúgiter immolétur: quæ et sacri péragat institúta mystérii, et salutáre tuum in nobis mirabíliter operétur. Per Dominum nostrum...</p>
       <p>Senhor, Vos suplicamos, fazei que a nossa piedade Vos ofereça continuamente o sacrifício desta hóstia, para que ela nos alcance aquelas graças para que instituístes estes sagrados mystérios, produzindo em nós de uma maneira admirável a salvação que esperamos da vossa bondade. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function PageAdv30() {
 
 <em>Is. 35, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dícite: pusillánimes, confortámini et nolíte timére: ecce, Deus noster véniet et salvábit nos.</p>
       <p>Dizei:«Pusilânimes, confortai-vos e nada receeis: Eis que vem o nosso Deus e nos salvará».</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Implorámus, Dómine, cleméntiam tuam: ut hæc divína subsídia, a vítiis expiátos, ad festa ventúra nos præparent. Per Dominum nostrum...</p>
       <p>Imploramos, Senhor, a vossa clemência, a fim de que estes divinos mystérios, purificando-nos dos nossos vícios, nos Preparem para a solenidade que se aproxima. Por nosso Senhor...</p>
       </div>

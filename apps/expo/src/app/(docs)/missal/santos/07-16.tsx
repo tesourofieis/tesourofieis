@@ -37,14 +37,14 @@ export default function Page0716() {
 
 <em>Sedulius</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei. <em>Ps. 44, 2</em> Eructávit cor meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...</p>
       <p>Alegremo-nos todos no Senhor, no dia em que celebramos a festa em honra da B. Virgem Maria: os Anjos regozijam-se com esta festa e louvam unissonamente o Filho de Deus. <em>Sl. 44, 2</em> Meu coração exprimiu uma excelente palavra: Consagro ao Rei as minhas obras. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beatíssimæ semper Vírginis et Genetrícis tuæ Maríæ singulári título Carméli órdinem decorásti: concéde propítius; ut, cujus hódie Commemoratiónem sollémni celebrámus offício, ejus muníti præsídiis, ad gáudia sempitérna perveníre mereámur: Qui vivis...</p>
       <p>Ó Deus, que ornastes a Ordem do Carmelo com a insigne honra de usar o nome da B. Maria, sempre Virgem e vossa Mãe, concedei-nos propício que, sendo nós auxiliados pela protecção daquela cuja comemoração celebramos hoje, solenemente, sejamos dignos de alcançar as eternas alegrias. Ó Vós, que...</p>
       </div>
@@ -53,7 +53,7 @@ export default function Page0716() {
 
 <em>Ecl. 24, 23-31</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Ego quasi vitis fructificávi suavitátem odóris: et flores mei fructus honóris et honestátis. Ego mater pulchræ dilectiónis et timóris et agnitiónis et sanctæ spei. In me grátia omnis viæ et veritátis: in me omnis spes vitæ et virtútis. Transíte ad me, omnes qui concupíscitis me, et a generatiónibus meis implémini. Spíritus enim meus super mel dulcis, et heréditas mea super mel et favum. Memória mea in generatiónes sæculórum. Qui edunt me, adhuc esúrient: et qui bibunt me, adhuc sítient. Qui audit me, non confundétur: et qui operántur in me, non peccábunt. Qui elúcidant me, vitam ætérnam habébunt.</p>
@@ -62,7 +62,7 @@ export default function Page0716() {
 
       <h3>Gradual</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bendeícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris. ℣. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.</p>
       <p>Bendita e venerável sois, ó Virgem Maria, que, sem a mais leve mancha de impureza, fostes a Mãe do Salvador. ℣. Ó Virgem, Mãe de Deus, Aquele que nem todo o universo é capaz de conter, esteve encerrado no vosso seio, fazendo-se homem.</p>
       <p>Allelúja, allelúja. ℣. Per te, Dei Génetrix, nobis est vita pérdita data: quæ de cœlo suscepísti prolem, et mundo genuísti Salvatórem. Allelúja.</p>
@@ -81,28 +81,28 @@ export default function Page0716() {
 
 <em>Jr. 18, 20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Recordáre, Virgo Mater, in conspéctu Dei, ut loquáris pro nobis bona, et ut avértat indignatiónem suam a nobis.</p>
       <p>Recordai-vos, ó Virgem Maria, de interceder por nós junto de Deus e de conseguirdes afastar de nós a sua indignação.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctífica, Dómine, quǽsumus, obláta libámina: et, beátæ Dei Genetrícis Maríæ salubérrima intercessióne, nobis salutária fore concéde. Per eúndem Dóminum...</p>
       <p>Santificai, Senhor, Vos pedimos, as oblatas que Vos são apresentadas, e, pela eficacíssima intercessão da B. Virgem Maria, fazei que nos sejam salutares. Pelo mesmo nosso Senhor...</p>
       </div>
 
       <h3>Comúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Regina mundi digníssima, María, Virgo perpétua, intercéde pro nostra pace et salúte, quæ genuísti Christum Dóminum, Salvatórem ómnium.</p>
       <p>Ó Maria, digníssima Rainha do mundo e sempre Virgem, que gerastes Cristo, Senhor e Salvador de todos, alcançai-nos pela vossa intercessão a paz e a salvação.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adjuvet nos, quǽsumus, Dómine, gloriósæ tuæ Genetrícis sempérque Vírginis Maríæ intercéssio veneránda: ut, quos perpétuis cumulávit benefíciis, a cunctis perículis absolútos, sua fáciat pietáte concórdes: Qui vivis...</p>
       <p>Que a augusta intercessão de Maria, vossa gloriosa Mãe e sempre Virgem, nos sirva de auxílio, Senhor, Vos rogamos; e que, depois de havermos sido perpetuamente cumulados dos seus benefícios e livres de todos os perigos, a sua bondade nos faça viver em concórdia. Ó Vós, que, sendo Deus...</p>
       </div>

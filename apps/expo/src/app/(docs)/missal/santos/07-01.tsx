@@ -30,14 +30,14 @@ export default function Page0701() {
 
 <em>Apoc. 5, 9-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Redemísti nos,Dómine, in sánguine tuo, ex omni tribu et lingua et pópulo et natióne: et fecísti nos Deo nostro regnum. <em>Ps. 88, 2</em> Misericórdias Dómini in ætérnum cantábo: in generatiónem et generatiónem annuntiábo veritátem tuam in ore meo. ℣. Gloria Patri...</p>
       <p>Com o vosso Sangue, Senhor, nos resgatastes de todas as tribos, de todas as línguas, de todos os povos e de todas as nações; e fizestes de nós um reino para o nosso Deus. <em>Sl. 88, 2</em> Cantarei eternamente as misericórdias do Senhor; de geração em geração a minha boca publicará a vossa verdade. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui unigénitum Fílium tuum mundi Redemptórem constituísti, ac ejus Sánguine placári voluísti: concéde, quǽsumus, salútis nostræ prétium sollémni cultu ita venerári, atque a præséntis vitæ malis ejus virtúte deféndi in terris; ut fructu perpétuo lætémur in cœlis. Per eúndem Dóminum...</p>
       <p>Ó Deus omnipotente e eterno, que instituístes o vosso Filho Unigénito Redentor do mundo e quisestes ser aplacado com seu Sangue, concedei-nos a graça, Vos suplicamos, de honrarmos com culto solene este preço da nossa salvação e de, pela sua virtude, sermos preservados dos males da vida presente de modo a gozarmos eternamente os seus frutos nos céus. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -51,7 +51,7 @@ export default function Page0701() {
 
 <em>1 Jo. 5, 6 & 7-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hic est, qui venit per aquam et sánguinem, Jesus Christus: non in aqua solum, sed in aqua et sánguine. ℣. Tres sunt, qui testimónium dant in cœlo: Pater, Verbum et Spíritus Sanctus; et hi tres unum sunt. Et tres sunt, qui testimónium dant in terra: Spíritus, aqua et sanguis: et hi tres unum sunt.</p>
       <p>Este é Jesus Cristo, que veio pela água e pelo sangue: não pela água, somente, mas pela água e pelo sangue. ℣. Três são os que dão testemunho no céu: o Pai, o Verbo e o Espírito Santo, e estes três são um só. E três são os que dão testemunho na terra: o espírito, a água e o sangue, e estes três são um só!</p>
       <p>Allelúja, allelúja. ℣. <em>ibid., 9</em> Si testimónium hóminum accípimus, testimónium Dei majus est. Allelúja.</p>
@@ -62,7 +62,7 @@ export default function Page0701() {
 
 <em>Jo. 19, 30-35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -75,14 +75,14 @@ S. João.</p>
 
 <em>1 Cor. 10, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Calix benedictiónis, cui benedícimus, nonne communicátio sánguinis Christi est? et panis, quem frángimus, nonne participátio córporis Dómini est?</p>
       <p>O cálice de bênção, que nós benzemos, não é, porventura, a comunhão do Sangue de Cristo? E o pão, que nós partimos, não é a participação do Corpo do Senhor?</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per hæc divína mystéria, ad novi, quǽsumus, Testaménti mediatórem Jesum accedámus: et super altária tua, Dómine virtútum, aspersiónem sánguinis mélius loquéntem, quam Abel, innovémus. Per eúndem Dóminum...</p>
       <p>Dignai-Vos permitir, Senhor, que por estes divinos mystérios nos aproximemos de Jesus o mediador do Novo Testamento e que renovemos a efusão do seu Sangue sobre os vossos altares, ó Senhor dos exércitos, o qual é mais eloquente do que o sangue de Abel. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -91,14 +91,14 @@ S. João.</p>
 
 <em>Heb. 9, 28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Christus semel oblítus est ad multórum exhauriénda peccáta: secúndo sine peccáto apparébit exspectántibus se in salútem.</p>
       <p>Cristo ofereceu-se uma vez para apagar os pecados de muitos; em uma segunda vez Ele aparecerá não já para expiar os pecados, mas para salvar aqueles que O esperam.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad sacram, Dómine, mensam admíssi, háusimus aquas in gáudio de fóntibus Salvatóris: sanguis ejus fiat nobis, quǽsumus, fons aquæ in vitam ætérnam saliéntis: Qui tecum vivit...</p>
       <p>Havendo sido admitidos à sagrada mesa, Senhor, bebemos com alegria as águas nas fontes do Salvador; e, Vos suplicamos, permiti que seu Sangue se torne para nós numa fonte de água viva, brotando até à vida eterna. Ele, que, sendo Deus, vive e reina...</p>
       </div>

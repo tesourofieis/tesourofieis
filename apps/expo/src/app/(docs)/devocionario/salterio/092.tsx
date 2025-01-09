@@ -10,7 +10,7 @@ export default function Page092() {
       <h1>Salmo 92</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus regnávit, decórem indútus est: * indútus est Dóminus fortitúdinem, et præcínxit se.</p>
       <p>O Senhor reinou e vestiu-se de magnificência: * vestiu-se o Senhor de fortaleza e cingiu-se dela.</p>
       <p>Étenim firmávit orbem terræ, * qui non commovébitur.</p>

@@ -14,14 +14,14 @@ export default function PageQuad44() {
 
 <em>Sl. 104, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lætétur cor quæréntium Dóminum: quǽrite Dóminum, et confirmámini: quǽrite fáciem ejus semper. <em>Ps. ibid., 1</em> Confitémini Dómino, et invocáte nomen ejus: annuntiáte inter gentes ópera ejus. ℣. Gloria Patri...</p>
       <p>Alegre-se o coração daqueles que procuram o Senhor: procurai o Senhor e ficareis cheios de fortaleza: procurai incessantemente a sua presença. <em>Sl. ibid., 1</em> Louvai o Senhor e aclamai o seu nome: anunciai as suas obras no meio dos povos. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, quos jejúnia votíva castígant, ipsa quoque devótio sancta lætíficet; ut, terrénis afféctibus mitigátis, facílius cœléstia capiámus. Per Dóminum...</p>
       <p>Permiti, ó Deus omnipotente, Vos suplicamos, que aqueles que voluntariamente se castigam com jejuns sejam consolados com a alegria de uma piedade santa, a fim de que, mitigado o ardor dos afectos terrenos, gozemos mais largamente os bens celestiais. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad44() {
 
 <em>4 Rs. 4, 25-38</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Regum.</p>
       <p>Lição do Livro dos Reis.</p>
       <p>In diébus illis: Venit múlier Sunamítis ad Eliséum in montem Carméli: cumque vidísset eam vir Dei e contra, ait ad Giézi púerum suum: Ecce Sunamítis illa. Vade ergo in occúrsum ejus, et dic ei: Recte ne ágitur circa te, et circa virum tuum, et circa fílium tuum? Quæ respóndit: Recte. Cumque venísset ad virum Dei in montem, apprehéndit pedes ejus: et accéssit Giézi, ut amovéret eam. Et ait homo Dei: Dimítte illam: ánima enim ejus in amaritúdine est, et Dóminus celávit a me, et non indicávit mihi. Quæ dixit illi: Numquid petívi fílium a dómino meo? Numquid non dixi tibi: Ne illúdas me? Et ille ait ad Giézi: Accínge lumbos tuos, et tolle báculum meum in manu tua, et vade. Si occurrérit tibi homo, non salútes eum: et si salutáverit te quíspiam, non respóndeas illi: et pones báculum meum super fáciem púeri. Porro mater pueri ait: Vivit Dóminus et vivit ánima tua, non dimíttam te. Surréxit ergo, et secútus est eam. Giézi autem præcésserat ante eos, et posúerat báculum super fáciem púeri, et non erat vox neque sensus: reversúsque est in occúrsum ejus, et nuntiávit ei, dicens: Non surréxit puer. Ingréssus est ergo Eliséus domum, et ecce, puer mórtuus jacébat in léctulo ejus: ingressúsque clausit óstium super se et super púerum: et orávit ad Dóminum. Et ascéndit, et incúbuit super púerum: posuítque os suum super os ejus, et óculos suos super óculos ejus, et manus suas super manus ejus: et incurvávit se super eum: et calefácta est caro púeri. At ille revérsus, de ambulávit in domo, semel huc atque illuc: et ascéndit et incúbuit super eum: et oscitávit puer sépties, aperuítque oculos. At ille vocávit Giézi, et dixit ei: Voca Sunamítidem hanc. Quæ vocáta ingréssa est ad eum. Qui ait: Tolle fílium tuum. Venit illa, et córruit ad pedes ejus, et adorávit super terram: tulítque fílium suum, et egréssa est, et Eliséus revérsus est in Gálgala.</p>
@@ -41,7 +41,7 @@ export default function PageQuad44() {
 
 <em>Sl. 73, 20, 19 & 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne obliviscáris in finem. ℣. Exsúrge, Dómine, júdica causam tuam: memor esto oppróbrii servórum tuórum.</p>
       <p>Recordai-Vos, Senhor, da vossa aliança; não esqueçais perpetuamente as almas dos vossos pobres servos. Erguei-Vos, Senhor, e julgai esta vossa causa: lembrai-Vos dos opróbrios que sofrem os vossos servos.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad44() {
 
 <em>Lc. 7, 11-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Ibat Jesus in civitátem, quæ vocátur Naim: et ibant cum eo discípuli ejus et turba copiósa. Cum autem appropinquáret portæ civitátis, ecce, defúnctus efferebátur fílius únicus matris suæ: et hæc vidua erat, et turba civitátis multa cum illa. Quam cum vidísset Dóminus, misericórdia motus super eam, dixit illi: Noli flere. Et accéssit et tétigit lóculum. (Hi autem, qui portábant, steterunt.) Et ait: Adoléscens, tibi dico, surge. Et resédit, qui erat mórtuus, et cœpit loqui. Et dedit illum matri suæ. Accepit autem omnes timor: et magnificábant Deum, dicéntes: Quia Prophéta magnus surréxit in nobis: et quia Deus visitávit plebem suam.</p>
@@ -61,14 +61,14 @@ export default function PageQuad44() {
 
 <em>Sl. 69, 2,3 & 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, ad adjuvándum me festína: confundántur omnes, qui cógitant servis tuis mala.</p>
       <p>Senhor, apressai-Vos em socorrer-me: que fiquem cheios de confusão aqueles que querem fazer mal aos vossos servos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Purífica nos, misericors Deus: ut Ecclésiæ tuæ preces, quæ tibi gratæ sunt, pia múnera deferéntes, fiant expiátis méntibus gratióres. Per Dóminum...</p>
       <p>Purificai-nos, ó Deus de misericórdia, a fim de que as preces da vossa Igreja, que Vos são agradáveis, a Vós se tornem mais agradáveis ainda pela expiação daqueles que Vos oferecem estes pios dons. Por nosso Senhor...</p>
       </div>
@@ -77,21 +77,21 @@ export default function PageQuad44() {
 
 <em>Sl. 70, 16-17 & 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a juventúte mea: et usque in senéctam et sénium, Deus, ne derelínquas me.</p>
       <p>Senhor, empregar-me-ei somente nas obras da vossa justiça! Ó Deus, instruístes-me desde a minha infância. Não me abandonareis, pois, ó Deus, até à velhice, até aos cabelos brancos!</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cœléstia dona capiéntibus, quǽsumus, Dómine: non ad judícium proveníre patiáris, quæ fidélibus tuis ad remédium providísti. Per Dóminum nostrum...</p>
       <p>Não permitais, Senhor, Vos suplicamos, que estes dons celestiais, que preparastes para remédio dos fiéis, sirvam de condenação aos que os recebem. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Humiliáte cápita vestra Deo.</p>
       <p>Inclinai as vossas cabeças diante de Deus.</p>
       <p>Pópuli tui, Deus, institútor et rector, peccáta, quibus impugnátur, expélle: ut semper tibi plácitus, et tuo munímine sit secúrus. Per Dóminum...</p>

@@ -17,7 +17,7 @@ export default function Page0602() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos ánnua beatórum Mártyrum tuórum Marcellíni, Petri atque Erásmi sollemnitáte lætíficas: præsta, quǽsumus; ut, quorum gaudémus méritis, accendámur exémplis. Per Dóminum nostrum...</p>
       <p>Ó Deus, que nos alegrais com a festa anual dos vosso Santos Mártires Marcelino, Pedro e Erasmo, concedei-nos, Vos suplicamos, que sejamos inflamados pelos exemplos daqueles cujos méritos nos alegram. Por nosso Senhor...</p>
       </div>
@@ -26,7 +26,7 @@ export default function Page0602() {
 
 <em>Rm. 8, 18-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Exístimo, quod non sunt condignæ passiónes hujus ttémporis ad futúram glóriam, quæ revelábitur in nobis. Nam exspectátio creatúra revelatiónem filiórum Dei exspéctat. Vanitáti enim creatúra subjécta est non volens, sed propter eum, qui subjécit eam in spe: quia et ipsa creatúra liberábitur a servitúte corruptiónis, in libertátem glóriæ filiórum Dei. Scimus enim, quod omnis creatúra ingemíscit et párturit usque adhuc. Non solum autem illa, sed et nos ipsi primítias spíritus habéntes: et ipsi intra nos gémimus adoptiónem filiórum Dei exspectántes, redemptiónem córporis nostri: in Christo Jesu, Dómino nostro.</p>
@@ -37,7 +37,7 @@ export default function Page0602() {
 
 <em>Sl. 33, 18-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos. ℣. Juxta est Dóminus his, qui tribuláto sunt corde: et húmiles spíritu salvabit.</p>
       <p>Os justos clamaram e o Senhor ouviu-os, livrando-os de todas as tribulações. ℣. O Senhor está próximo daqueles cujo coração está aflito; e salvará os que possuem espírito humilde.</p>
       <p>Allelúja, allelúja. ℣. <em>Joann. 15, 16</em> Ego vos elégi de mundo, ut eátis, et fructum afferátis; et fructus vester máneat. Allelúja.</p>
@@ -60,14 +60,14 @@ export default function Page0602() {
 
 <em>Sl. 31, 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde.</p>
       <p>Ó justos, alegrai-vos no Senhor e exultai: ó vós, que tendes o coração recto, glorificai-vos no Senhor. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc hóstia, quǽsumus, Dómine, quam sanctórum Martyrum tuórum natalítia recenséntes offérimus: et víncula nostræ pravitátis absólvat, et tuæ nobis misericórdiæ dona concíliet. Per Dóminum...</p>
       <p>Permiti, Senhor, Vos suplicamos, que esta hóstia, que Vos oferecemos em honra do nascimento no céu dos vossos Santos Mártires, nos livre dos laços dos nossos pecados e nos obtenha os dons da vossa misericórdia. Por nosso Senhor...</p>
       </div>
@@ -76,14 +76,14 @@ export default function Page0602() {
 
 <em>Sb. 3, 1, 2 & 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ visi sunt óculis insipiéntium mori: illi autem sunt in pace.</p>
       <p>As almas dos justos estão na mão de Deus, e o tormento da malícia as não atingirá: aos olhos dos insensatos pareciam mortos, porém estão em paz. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod débitæ servitútis celebrámus offício, salvatiónis tuæ sentiámus augméntum. Per Dóminum...</p>
       <p>Saciados com o sacrossanto dom, humildemente Vos imploramos, ó Senhor, que pela celebração deste sacrifício, que é um tributo da nossa dependência, sintamos aumentar em nós os efeitos da vossa redenção. Por nosso Senhor...</p>
       </div>
@@ -93,7 +93,7 @@ export default function Page0602() {
   Orações e Epístola da Missa Precedente; e, em vez do Gradual, diz-se:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Joann. 15, 16</em> Ego vos elégi de mundo, ut eátis, et fructum afferátis; et fructus vester máneat. Allelúja. ℣. <em>Ps. 115, 15</em> Pretiósa in conspéctu Dómini mors Sanctórum ejus. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Jo. 15, 16</em> Escolhi-vos no meio do mundo, para que possais ir e alcanceis fruto: e o vosso fruto permaneça. Aleluia. ℣. <em>Sl. 115, 15</em> Preciosa na presença do Senhor é a morte dos seus Santos. Aleluia.</p>
       </div>

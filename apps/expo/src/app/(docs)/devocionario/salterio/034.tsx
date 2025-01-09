@@ -10,7 +10,7 @@ export default function Page034() {
       <h1>Salmo 34</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Júdica, Dómine, nocéntes me, * expúgna impugnántes me.</p>
       <p>Julgai, ó Senhor, os que me fazem mal, * expugnai os que me combatem.</p>
       <p>Apprehénde arma et scutum: * et exsúrge in adjutórium mihi.</p>

@@ -14,14 +14,14 @@ export default function Page0227() {
 
 <em>Ecl. 11, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt Deum. (T.P. Allelúja, allelúja.) <em>Ps. 72, 1</em> Quam bonus Israël Deus his, qui recto sunt corde! ℣. Gloria Patri...</p>
       <p>O olhar de Deus, fitou-o, benigno, ergueu-o da humilhação e exaltou-lhe a fronte. Então, muitos se admiraram e glorificaram Deus. <em>Sl. 72, 1</em> Como Deus é bom para com Israel e para com aqueles que têm o coração recto! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátum Gabriélem dulcíssimæ Matris tuæ dolóres assídue recólere docuísti, ac per illam sanctitátis et miraculórum glória sublimásti: da nobis, ejus intercessióne et exémplo; ita Genetrícis tuæ consociári flétibus, ut matérna ejúsdem protectióne salvémur: Qui vivis et regnas...</p>
       <p>Ó Deus, que ao B. Gabriel ensinastes a recordar incessantemente as Dores de vossa dulcíssima Mãe e por Ela o exaltastes à glória da santidade e dos milagres, concedei-nos por sua intercessão e morte que sejamos de tal modo associados às lágrimas de vossa Mãe que na sua maternal protecção encontremos a salvação. Ó Vós, que...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0227() {
 
 <em>1 Jo. 2, 14-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Joannis Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º João.</p>
       <p>Caríssimi: Scribo vobis, júvenes, quóniam fortes estis, et verbum Dei manet in vobis, et vicístis malígnum. Nolíte dilígere mundum neque ea, quæ in mundo sunt. Si quis díligit mundum, non est cáritas Patris in eo: quóniam omne, quod est in mundo, concupiscéntia carnis est, et concupiscéntia oculórum, et supérbia vitæ: quæ non est ex Patre, sed ex mundo est. Et mundus transit et concupiscéntia ejus. Qui autem facit voluntátem Dei, manet in ætérnum.</p>
@@ -41,7 +41,7 @@ export default function Page0227() {
 
 <em>Sl. 30, 20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti timéntibus te! ℣. Perfecísti eis, qui sperant in te, in conspéctu filiórum hóminum.</p>
       <p>Como é grande, Senhor, a vossa bondade, que reservais para aqueles que Vos temem! ℣. Encheis de graças aqueles que em Vós esperam, na presença dos filhos dos homens.</p>
       </div>
@@ -50,7 +50,7 @@ export default function Page0227() {
 
 <em>Sl. 83, 6-7, 11 & 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus vir, cujus est auxílium abs te: ascensiónes in corde suo dispósuit, in valle lacrimárum, in loco, quem pósuit. ℣. Elegi abjéctus esse in domo Dei mei: magis quam habitáre in tabernáculis peccatórum. ℣. Non privábit bonis eos, qui ámbulant in innocéntia: Dómine virtútum, beátus homo, qui sperat in te.</p>
       <p>Bem-aventurado o homem de quem sois o auxílio: dispôs o seu coração para ascender incessantemente para Vós neste vale de lágrimas, onde Deus o colocou. ℣. Antes quis ser desprezível na Casa do Senhor do que habitar nas tendas dos pecadores. ℣. Não recusará nenhum bem àqueles que vivem na inocência. Ó Senhor dos exércitos, bem-aventurado o homem que espera em Vós.</p>
       </div>
@@ -59,7 +59,7 @@ export default function Page0227() {
 
 <em>Mc. 10, 13-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Marcum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Marcos.</p>
       <p>In illo témpore: Offerébant Jesu parvulos, ut tángeret illos. Discópuli autem comminabántur offeréntibus. Quos cum vidéret Jesus, indígne tulit et ait illis: Sinite párvulos veníre ad me, et ne prohibuéritis eos: tálium enim est regnum Dei. Amen, dico vobis: Quisquis non recéperit regnum Dei velut párvulus, non intrábit in illud. Et cotnpléxans eos et impónens manus super illos, benedicébat eos. Et cum egréssus esset in viam, procúrrens quidam genu flexo ante eum, rogábat eum: Magíster bone, quid fáciam, ut vitam ætérnam percípiam? Jesus autem dixit ei: Quid me dicis bonum? Nemo bonus, nisi unus Deus. Præcépta nosti: Ne adúlteres, Ne occídas, Ne furóris, Ne falsum testimónium díxeris, Ne fraudem féceris, Hónora patrem tuum et matrem. At ille respóndens, ait illi: Magíster, hæc ómnia observávi a juventúte mea. Jesus autem intúitus eum, diléxit eum et dixit ei: Unum tibi deest: vade, quæcúmque habes, vende et da paupéribus, et habébis thesáurum in cœlo: et veni, séquere me.</p>
@@ -70,14 +70,14 @@ export default function Page0227() {
 
 <em>Sl. 115, 16-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>O Dómine, quia ego servus tuus, et fílius ancíllæ tuæ: dirupísti víncula mea, tibi sacrificábo hóstiam laudis.</p>
       <p>Ó Senhor, porque sou o vosso servo e o filho da vossa escrava, quebrastes as minhas cadeias; por isso Vos oferecerei um sacrifício de louvor.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Salutárem hóstiam in memóriam sancti Gabriélis tibi, Dómine, offeréntes, fac nos sacrifícium mortis tuæ rite recólere: ac, méritis perdoléntis Vírginis, ejúsdem sacrifícii fructum copióse percípere: Qui vivis...</p>
       <p>Senhor, àqueles que em memória de S. Gabriel Vos oferecem a hóstia da salvação concedei a graça de recordarem cabalmente o sacrifício da vossa morte e de receberem copiosamente o fruto do mesmo sacrifício. Ó Vós, que viveis e...</p>
       </div>
@@ -86,14 +86,14 @@ export default function Page0227() {
 
 <em>Ap. 3, 20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce, sto ad óstium et pulso: si quis audiérit vocem meam, et aperúerit mihi jánuam, intrábo ad illum, et cenábo cum illo, et ipse mecum.</p>
       <p>Eis que estou à porta e bato. Se alguém ouvir a minha voz e me abrir a porta, entrarei em sua casa, cearei com ele e ele será comigo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quas tibi, Dómine, in festivitáte sancti Gabriélis Confessóris tui, pro collátis donis grátias ágimus: súscipe propítius per manus gloriósæ semper Vírginis Maríæ; ex qua carnem illam assumpsísti, cujus in hoc salutári convívio merúimus gustáre dulcédinem: Qui vivis et regnas...</p>
       <p>E estas graças, Senhor, que pelos benefícios recebidos Vos rendemos na festividade do vosso Confessor S. Gabriel, aceitai-as propício pelas mãos da gloriosa sempre Virgem Maria, da qual recebestes aquela carne de que merecemos gozar a doçura neste salutar banquete. Ó Vós, que...</p>
       </div>

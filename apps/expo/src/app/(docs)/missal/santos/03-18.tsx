@@ -16,7 +16,7 @@ export default function Page0318() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da nobis, quǽsumus, omnípotens Deus, beáto Cyríllo Pontífice intercedénte: te solum verum Deum, et quem misísti Jesum Christum ita cognóscere; ut inter oves, quæ vocem ejus áudiunt, perpétuo connumerári mereámur. Per eúndem Dóminum nostrum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, permiti que, por intercessão do B. Pontífice Cirilo, conheçamos que sois o único e verdadeiro Deus e Aquele que enviastes ao mundo, Jesus Cristo, de tal sorte que mereçamos ser contados eternamente entre as ovelhas que escutam a vossa voz. Pelo mesmo...</p>
       </div>
@@ -25,7 +25,7 @@ export default function Page0318() {
 
 <em>Ecl. 39, 6-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui fecit illum, et in conspéctu Altíssimi deprecábitur. Apériet os suum in oratióne, et pro delíctis suis deprecábitur. Si enim Dóminus magnus volúerit, spíritu intellegéntiæ replébit illum: et ipse tamquam imbres mittet elóquia sapiéntiæ suæ, et in oratióne confitébitur Dómino: et ipse díriget consílium ejus et disciplínam, et in abscónditis suis consiliábitur. Ipse palam fáciet disciplínam doctrínæ suæ, et in lege testaménti Dómini gloriábitur. Collaudábunt multi sapiéntiam ejus, et usque in sǽculum non delébitur. Non recédet memória ejus, et nomen ejus requirétur a generatióne in generatiónem. Sapiéntiam ejus enarrábunt gentes, et laudem ejus enuntiábit ecclésia.</p>
@@ -36,7 +36,7 @@ export default function Page0318() {
 
 <em>Mt. 10, 23-28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Cum persequéntur vos in civitáte ista, fúgite in áliam. Amen, dico vobis, non consummábitis civitátes Israël, donec véniat Fílius hóminis. Non est discípulus super magístrum nec servus super dóminum suum. Súfficit discípulo, ut sit sicut magíster ejus: et servo, sicut dóminus ejus. Si patremfamílias Beélzebub vocavérunt; quanto magis domésticos ejus? Ne ergo timuéritis eos. Nihil enim est opértum, quod non revelábitur: et occúltum, quod non sciétur. Quod dico vobis in ténebris, dícite in lúmine: et quod in aure audítis, prædicáte super tecta. Et nolíte timére eos, qui occídunt corpus, ánimam autem non possunt occídere: sed pótius timéte eum, qui potest et ánimam et corpus pérdere in gehénnam.</p>
@@ -45,14 +45,14 @@ export default function Page0318() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice, Dómine, immaculátam hóstiam, quam tibi offérimus: et præsta; ut, méritis beáti Pontíficis et Confessóris tui Cyrílli, eam mundo corde suscípere studeámus. Per Dóminum...</p>
       <p>Olhai, Senhor, para a Hóstia Imaculada que Vos oferecemos; e permiti que pelos méritos do B. Cirilo, vosso Confessor e Pontífice, diligenciemos recebê-la com o coração puro. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacraménta Córporis et Sánguinis tui, quæ súmpsimus, Dómine Jesu Christe: beáti Cyrílli Pontíficis précibus, mentes et corda nostra sanctíficent; ut divínæ consórtes natúræ éffici mereámur: Qui vivis...</p>
       <p>Ó Senhor Jesus Cristo, fazei que os sacramentos do vosso Corpo e Sangue, que acabámos de receber, santifiquem, pelas preces do B. Cirilo, os nossos espíritos e os nossos corações, a fim de que mereçamos ser participantes da natureza divina. Ó Vós, que viveis e reinais...</p>
       </div>

@@ -12,7 +12,7 @@ export default function PageEspiritosanto() {
 
       <h2>Veni, Sancte Spíritus</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris in eis ignem accénde.</p>
       <p>Vinde, ó Espírito Santo, enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.</p>
       <p>℣. Emitte Spíritum tuum, et creabúntur.</p>
@@ -27,7 +27,7 @@ export default function PageEspiritosanto() {
 
       <h2>Veni Sancte Spíritus, Sequência Pentecostes</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veni, Sancte Spíritus, et emítte cǽlitus lucis tuæ rádium.</p>
       <p>Vinde, ó Espírito Santo, e enviai do céu um raio da vossa luz.</p>
       <p>Veni, pater páuperum, veni, dator múnerum, veni, lumen córdium.</p>

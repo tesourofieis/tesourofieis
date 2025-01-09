@@ -14,14 +14,14 @@ export default function Page1011() {
 
 <em>Is. 7, 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce Virgo concípiet, et páriet fílium, et vocábitur nomen ejus Emmánuel. <em>Ps. 97, 1</em> Cantáte Dómino cánticum novum: quia mirabília fecit. ℣. Gloria Patri...</p>
       <p>Eis que a virgem conceberá e dará à luz um Filho, cujo nome será Emanuel. <em>Sl. 97, 1</em> Cantai ao Senhor um cântico novo, porque Ele praticou maravilhas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genitrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur. Per eumdem Dóminum...</p>
       <p>Ó Deus, que segundo a anunciação do Anjo quisestes que o vosso Verbo assumisse a carne humana no seio da B. Virgem Maria, concedei-nos, Vos suplicamos, que, assim como acreditamos que ela é verdadeira Mãe de Deus, assim sejamos auxiliados na vossa presença com a intercessão das suas preces. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -38,7 +38,7 @@ export default function Page1011() {
 
 <em>Is. 11, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Egrediétur virga de rádice Jesse, et flos de rádice ejus ascéndet. ℣. Et requiéscet super eum Spíritus Dómini.</p>
       <p>Sairá uma vara do tronco de Jessé e uma flor brotará da sua raiz. ℣. E o espírito do Senhor repousará sobre ela.</p>
       <p>Allelúja, allelúja. ℣. Virgo Dei Génitrix, quem totus non capit orbis, in tua se clausit víscera factus homo. Allelúja.</p>
@@ -49,7 +49,7 @@ export default function Page1011() {
 
 <em>Lc. 2, 43-51</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -62,28 +62,28 @@ S. Lucas.</p>
 
 <em>Mt. 1, 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cum esset desponsáta mater ejus María Joseph, invénta est in útero habens de Spíritu Sancto.</p>
       <p>Estando Maria, sua Mãe, desposada com José, achou este que ela havia concebido do Espírito Santo.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis, Unigéniti tui matris intercessióne, ad perpétuam atque præséntem hæc oblátio nobis profíciat prosperitátem, et pacem. Per eumdem Dóminum...</p>
       <p>Pela vossa misericórdia, Senhor, e pela intercessão da B. Maria, sempre Virgem, fazei que esta oferta nos assegure agora e sempre a prosperidade e a paz. Por nosso Senhor...</p>
       </div>
 
       <h3>Comúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium.</p>
       <p>Bem-aventuradas as entranhas da Virgem Maria, que trouxeram encerrado o Filho do Pai Eterno.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta Vírgine Dei Genitríce María, cœléstis remédii fáciat esse consórtes. Per eumdem...</p>
       <p>Que esta comunhão, Senhor, nos purifique de nossos crimes e que por intercessão da B. Virgem Maria, Mãe de Deus, nos torne participantes do remédio celestial. Pelo mesmo nosso Senhor...</p>
       </div>

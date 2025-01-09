@@ -10,7 +10,7 @@ export default function Page127() {
       <h1>Salmo 127</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beáti omnes, qui timent Dóminum, * qui ámbulant in viis ejus.</p>
       <p>Bem-aventurados todos os que temem o Senhor, * e que andam nos seus caminhos.</p>
       <p>Labóres mánuum tuárum quia manducábis: * beátus es, et bene tibi erit.</p>

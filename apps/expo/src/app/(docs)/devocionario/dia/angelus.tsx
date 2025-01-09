@@ -17,7 +17,7 @@ No tempo Pascal substitui-se o Angelus pela [Regina Caeli](/devocionario/antifon
 
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Angelus Dómini nuntiávit Maríæ.</p>
       <p>O Anjo do Senhor anunciou a Maria.</p>
       <p><span className="text-red-500">℟.</span> Et concépit de Spíritu Sancto.</p>

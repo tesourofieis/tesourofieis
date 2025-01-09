@@ -14,14 +14,14 @@ export default function PageQuad21() {
 
 <em>Sl. 25, 11-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta: in ecclésiis benedícam Dóminum. <em>Ps. ibid., 1</em> Júdica me, Dómine, quóniam ego in innocéntia mea ingréssus sum: et in Dómino sperans, non infirmábor. ℣. Gloria Patri...</p>
       <p>Resgatai-me, Senhor, e tende piedade de mim; pois os meus pés estão no caminho direito: bendirei o Senhor nas assembleias. <em>Sl. ibid., 1</em> Fazei-me justiça, Senhor, porque procedi com inocência; e confiei no Senhor, sem nunca vacilar. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut fámilia tua, quæ se, affligéndo carnem, ab aliméntis ábstinet: sectándo justítiam, a culpa jejúnet. Per Dóminum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, fazei que os vossos fiéis, que para mortificação da carne se privam dos alimentos, se abstenham também do pecado, praticando a justiça. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad21() {
 
 <em>Dn. 9, 15-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Daniélis Prophétæ.</p>
       <p>Lição do Profeta Daniel.</p>
       <p>In diébus illis: Orávit Dániel Dóminum, dicens: Dómine, Deus noster, qui eduxísti pópulum tuum de terra Ægýpti in manu forti, et fecísti tibi nomen secúndum diem hanc; peccávimus, iniquitátem fécimus, Dómine, in omnem justítiam tuam: avertátur, óbsecro, ira tua et furor tuus a civitáte tua Jerúsalem et monte sancto tuo. Propter peccáta enim nostra et iniquitátes patrum nostrórum. Jerúsalem et pópulus tuus in oppróbrium sunt ómnibus per circúitum nostrum. Nunc ergo exáudi, Deus noster, oratiónem servi tui et preces ejus: et osténde fáciem tuam super sanctuárium tuum, quod desértum est, propter temetípsum. Inclína, Deus meus, aurem tuam, et audi: áperi óculos tuos, et vide desolatiónem nostram et civitátem, super quam invocátum est nomen tuum: neque enim in justificatiónibus nostris prostérnimus preces ante fáciem tuam, sed in miseratiónibus tuis multis. Exáudi, Dómine, placáre, Dómine: atténde et fac: ne moréris propter temetípsum, Deus meus: quia nomen tuum invocátum est super civitátem et super pópulum tuum, Dómine, Deus noster.</p>
@@ -41,7 +41,7 @@ export default function PageQuad21() {
 
 <em>Sl. 69, 6 & 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adjútor meus et liberátor meus esto: Dómine, ne tardáveris. ℣. Confundántur et revereántur inimíci mei, qui quærunt ánimam meam.</p>
       <p>Sede o meu auxiliar e o meu libertador! Senhor, não tardeis! ℣. Que sejam confundidos e envergonhados os meus inimigos, que procuram tirar-me a vida.</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuad21() {
 
 <em>Jo. 8, 21-29</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -70,14 +70,14 @@ S. João.</p>
 
 <em>Sl. 15, 7 & 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícam Dóminum, qui tríbuit mihi intelléctum: providébam Dóminum in conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.</p>
       <p>Bendirei o Senhor, que me deu inteligência; tenho os meus olhos voltados continuamente para o Senhor; não vacilarei, porque Ele está à minha direita.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc hóstia, Dómine, placatiónis et laudis, tua nos protectióne dignos effíciat. Per Dóminum...</p>
       <p>Que esta hóstia de propiciação e de louvor, Senhor, nos torne dignos da vossa protecção. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. João.</p>
 
 <em>Sl. 8, 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra!</p>
       <p>Senhor, nosso Deus, quão admirável é o vosso nome em toda a terra!</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc nos commúnio, Dómine, purget a crímine: et cœléstis remédii fáciat esse consórtes. Per Dóminum...</p>
       <p>Que esta comunhão, Senhor, nos purifique de nossos crimes e nos faça participantes dos remédios celestiais. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

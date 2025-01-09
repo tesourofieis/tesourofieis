@@ -10,7 +10,7 @@ export default function Page111() {
       <h1>Salmo 111</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus vir, qui timet Dóminum: * in mandátis ejus volet nimis.</p>
       <p>Bem-aventurado o varão que teme o Senhor: * muito se deliciará nos seus mandamentos.</p>
       <p>Potens in terra erit semen ejus: * generátio rectórum benedicétur.</p>

@@ -14,14 +14,14 @@ export default function PagePent210() {
 
 <em>Est. 13, 9 & 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et terram et univérsa, quæ cœli ámbitu continéntur: Dominus universórum tu es. <em>Ps. 118, 1</em> Beáti immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...</p>
       <p>Todas as coisas, Senhor, estão sujeitas à vossa vontade, e ninguém pode resistir-lhe; pois criastes tudo: o céu, a terra e o que se encerra no âmbito dos céus. Sois o Senhor do universo. <em>Sl. 118, 1</em> Bem-aventurados aqueles cuja vida é imaculada: aqueles que praticam a Lei do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut a cunctis adversitátibus, te protegénte, sit líbera, et in bonis áctibus tuo nómini sit devóta. Per Dóminum nostrum...</p>
       <p>Guardai com vossa contínua misericórdia a vossa família, Senhor, Vos suplicamos, a fim de que sob a vossa protecção seja preservada de todas as adversidades e se dedique à prática das boas obras, em honra do vosso nome. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent210() {
 
 <em>Ef. 6, 10-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Efésios.</p>
       <p>Fratres: Confortámini in Dómino et in poténtia virtútis ejus. Indúite vos armatúram Dei, ut póssitis stare advérsus insídias diáboli. Quóniam non est nobis colluctátio advérsus carnem et sánguinem: sed advérsus príncipes et potestátes, advérsus mundi rectóres tenebrárum harum, contra spirituália nequítiae, in cœléstibus. Proptérea accípite armatúram Dei, ut póssitis resístere in die malo et in ómnibus perfécti stare. State ergo succíncti lumbos vestros in veritáte, et indúti lorícam justítiæ, et calceáti pedes in præparatióne Evangélii pacis: in ómnibus suméntes scutum fídei, in quo póssitis ómnia tela nequíssimi ígnea exstínguere: et gáleam salútis assúmite: et gládium spíritus, quod est verbum Dei.</p>
@@ -41,7 +41,7 @@ export default function PagePent210() {
 
 <em>Sl. 89, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, refúgium factus es nobis, a generatióne et progénie. ℣. Priúsquam montes fíerent aut formarétur terra et orbis: a sǽculo et usque in sǽculum tu es, Deus.</p>
       <p>Tendes sido, Senhor, o nosso refúgio de geração em geração. ℣. Antes que as montanhas houvessem sido formadas e que a terra e o mundo tivessem sido criados, já, desde toda a eternidade, Vós éreis Deus.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 113, 1</em> In éxitu Israël de Ægýpto, domus Jacob de pópulo bárbaro. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent210() {
 
 <em>Mt. 18, 23-35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Jb 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vir erat in terra Hus, nómine Job: simplex et rectus ac timens Deum: quem Satan pétiit ut tentáret: et data est ei potéstas a Dómino in facultátes et in carnem ejus: perdidítque omnem substántiam ipsíus et fílios: carnem quoque ejus gravi úlcere vulnerávit.</p>
       <p>Vivia no país de Hus um homem chamado Job, que era simples, justo e temente a Deus. Então Satanás pediu licença ao Senhor para o tentar, o que lhe foi permitido, mas somente quanto aos bens e ao corpo: e Satanás fez-lhe perder todos os bens e os filhos, e ainda lhe afligiu o corpo com uma chaga.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Suscipe, Dómine, propítius hóstias: quibus et te placári voluísti, et nobis salútem poténti pietáte restítui. Per Dóminum...</p>
       <p>Aceitai propício, Senhor, estas hóstias com as quais quisestes aplacar-Vos, e, pela vossa infinita bondade, concedei-nos a salvação. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Sl. 118, 81, 84 & 86</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In salutári tuo ánima mea, et in verbum tuum sperávi: quando fácies de persequéntibus me judícium? iníqui persecúti sunt me, ádjuva me, Dómine, Deus meus.</p>
       <p>A minha alma suspira pela salvação: e pus toda minha esperança na vossa palavra. Quando tratareis com justiça os meus perseguidores? Homens injustos perseguem-me; auxiliai-me, Senhor!</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, quod ore percépimus, pura mente sectémur. Per Dóminum...</p>
       <p>Havendo recebido o alimento da imortalidade, permiti, Senhor, Vos suplicamos, que guardemos com o coração puro aquilo que a nossa boca recebeu. Por nosso Senhor...</p>
       </div>

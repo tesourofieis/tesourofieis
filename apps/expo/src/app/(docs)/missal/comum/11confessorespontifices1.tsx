@@ -14,14 +14,14 @@ export default function Page11Confessorespontifices1() {
 
 <em>Ecl. 45, 30</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (T. P. Allelúja, allelúja.) <em>Ps. 131, 1</em> Meménto, Dómine, David: et omnis mansuetúdinis ejus. ℣. Gloria Patri...</p>
       <p>Deus estabeleceu com ele aliança de paz e tornou-o príncipe, para que possuísse eternamente a dignidade sacerdotal. (T. P. Aleluia, aleluia.) <em>Sl. 131, 1</em> Lembrai-vos de David, ó Senhor, e da sua grande mansidão. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, omnípotens Deus: ut beáti <span className="text-red-500">N.</span> Confessóris tui atque Pontíficis veneránda sollémnitas, et devotiónem nobis áugeat et salútem. Per Dóminum...</p>
       <p>Dignai-Vos permitir, ó Deus omnipotente, que a veneranda solenidade do vosso Confessor e Pontífice <span className="text-red-500">N.</span> aumente a nossa piedade e nos assegure a salvação. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page11Confessorespontifices1() {
 
 <em>Ecl. 44, 16-27; 45, 3-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Ecce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est justus: et in témpore iracúndiæ factus est reconciliátio. Non est invéntus símilis illi, qui conservávit legem Excélsi. Ideo jurejurándo fecit illum Dóminus créscere in plebem suam. Benedictiónem ómnium géntium dedit illi, et testaméntum suum confirmávit super caput ejus. Agnóvit eum in benedictiónibus suis: conservávit illi misericórdiam suam: et invenit grátiam coram óculis Dómini. Magnificávit eum in conspéctu regum: et dedit illi corónam glóriæ. Státuit illi testaméntum ætérnum, et dedit illi sacerdótium magnum: et beatificávit illum in glória. Fungi sacerdótio, et habére laudem in nómine ipsíus, et offérre illi incénsum dignum in odórem suavitátis.</p>
@@ -41,7 +41,7 @@ export default function Page11Confessorespontifices1() {
 
 <em>Ecl. 44, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce sacérdos magnus, qui in diébus suis plácuit Deo. ℣. <em>ibid., 20</em> Non st invéntus símilis illi, qui conserváret legem Excélsi.</p>
       <p>Eis o grande sacerdote que nos dias da sua vida agradou a Deus. ℣. <em>ibid., 20</em> Não foi encontrado outrem semelhante a ele na observância das leis do Altíssimo.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.</p>
@@ -54,14 +54,14 @@ export default function Page11Confessorespontifices1() {
 
 <em>Sl. 111, 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Potens in terra erit semen ejus: generátio rectórum benedicétur. ℣. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.</p>
       <p>Bem-aventurado o varão que teme o Senhor e cuja vontade é ardente no cumprimento dos seus mandamentos. ℣. Sua descendência será poderosa na terra, pois a posteridade dos justos será abençoada. ℣. Na sua casa haverá abundância e riqueza, e a sua justiça subsistirá em todos os séculos dos séculos.</p>
       </div>
 
 <aside>No T. Pascal omite-se Gradual e o Trato e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja. ℣. Hic est sacérdos, quem coronávit Dóminus. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 109, 4</em> Tu és sacerdote para sempre segundo a ordem de Melquisedeque. Aleluia. ℣. Este é o sacerdote que o Senhor coroou. Aleluia.</p>
       </div>
@@ -70,7 +70,7 @@ export default function Page11Confessorespontifices1() {
 
 <em>Mt. 25, 14-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo péregre proficíscens vocávit servos suos, et trádidit illis bona sua. Et uni dedit quinque talénta, álii a tem duo, álii vero unum, unicuíque secúndum própriam virtútem, et proféctus est statim. Abiit autem, qui quinque talénta accéperat, et operátus est in eis, et lucrátus est ália quinque. Simíliter et, qui duo accéperat, lucrátus est ália duo. Qui autem unum accéperat, ábiens fodit in terram, et abscóndit pecúniam dómini sui. Post multum vero témporis venit dóminus servórum illórum, et pósuit ratiónem cum eis. Et accédens qui quinque talénta accéperat, óbtulit ália quinque talénta, dicens: Dómine, quinque talénta tradidísti mihi, ecce, ália quinque superlucrátus sum. Ait illi dóminus ejus: Euge, serve bone et fidélis, quia super pauca fuísti fidélis, super multa te constítuam: intra in gáudium dómini tui. Accéssit autem et qui duo talénta accéperat, et ait: Dómine, duo talénta tradidísti mihi, ecce, ália duo lucrátus sum. Ait illi dóminus ejus: Euge, serve bone et fidélis, quia super pauca fuísti fidélis, super multa te constítuam: intra in gáudium dómini tui.</p>
@@ -81,14 +81,14 @@ export default function Page11Confessorespontifices1() {
 
 <em>Sl. 88, 21-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. (T. P. Allelúja.)</p>
       <p>Encontrei o meu servo David e ungi-o com meu óleo sagrado. Minha mão o socorrerá e o meu braço o fortalecerá. (T. P. Aleluia).</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita recólimus, patrocínia sentiámus. Per Dóminum...</p>
       <p>Que os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus méritos, sintamos o efeito do seu patrocínio. Por nosso Senhor...</p>
       </div>
@@ -97,14 +97,14 @@ export default function Page11Confessorespontifices1() {
 
 <em>Lc. 12, 42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (T. P. Allelúja.)</p>
       <p>Eis o servo fiel e prudente que o Senhor estabeleceu acima da sua família para distribuir, oportunamente, a cada um a sua medida de trigo. (T. P. Aleluia).</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto <span className="text-red-500">N.</span> Confessóre tuo atque Pontífice, benefícia potióra sumámus. Per Dóminum...</p>
       <p>Dignai-Vos permitir, ó Deus omnipotente, que, dando-Vos nós graças pelos benefícios recebidos, alcancemos por intercessão do B. <span className="text-red-500">N.</span>, vosso Confessor e Pontífice, ainda outros maiores. Por nosso Senhor...</p>
       </div>

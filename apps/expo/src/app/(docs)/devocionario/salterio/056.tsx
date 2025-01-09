@@ -10,7 +10,7 @@ export default function Page056() {
       <h1>Salmo 56</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mei, Deus, miserére mei: * quóniam in Te confídit ánima mea.</p>
       <p>Tende piedade de mim, ó Deus, tende piedade de mim: * porque em Vós confia a minha alma.</p>
       <p>Et in umbra alárum tuárum sperábo, * donec tránseat iníquitas.</p>

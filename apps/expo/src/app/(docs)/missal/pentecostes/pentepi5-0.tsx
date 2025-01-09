@@ -14,14 +14,14 @@ export default function PagePentepi50() {
 
 <em>Jr. 29,11,12 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis. <em>Ps. 84, 2</em> Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria Patri...</p>
       <p>Disse o Senhor: tenho pensamentos de paz e não de ira: invocar-me-eis e ouvir-Vos-ei; e farei regressar de todos os países os vossos cativos. <em>Sl. 84, 2</em> Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut, quæ in sola spe grátiæ cœléstis innítitur, tua semper protectióne muniátur. Per Dóminum...</p>
       <p>Senhor, dignai-Vos revestir a vossa família com vossa perpétua misericórdia, e como ela não possui outra esperança senão a da vossa celestial graça, permiti que esteja sempre munida com vossa protecção. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePentepi50() {
 
 <em>Cl. 3, 12-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.</p>
       <p>Fratres: Indúite vos sicut electi Dei, sancti et dilecti, víscera misericórdiæ, benignitátem, humilitátem, modéstiam, patiéntiam: supportántes ínvicem, et donántes vobismetípsis, si quis advérsus áliquem habet querélam: sicut et Dóminus donávit vobis, ita et vos. Super ómnia autem hæc caritátem habéte, quod est vínculum perfectionis: et pax Christi exsúltet in córdibus vestris, in qua et vocáti estis in uno córpore: et grati estóte. Verbum Christi hábitet in vobis abundánter, in omni sapiéntia, docéntes et commonéntes vosmetípsos psalmis, hymnis et cánticis spirituálibus, in grátia cantántes in córdibus vestris Deo. Omne, quodcúmque fácitis in verbo aut in ópere, ómnia in nómine Dómini Jesu Christi, grátias agéntes Deo et Patri per Jesum Christum, Dóminum nostrum.</p>
@@ -41,7 +41,7 @@ export default function PagePentepi50() {
 
 <em>Sl. 43, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula.</p>
       <p>Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes os que nos odiavam. Glorificar-nos-emos constantemente em Deus e louvaremos eternamente o vosso nome.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 129, 12</em> De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePentepi50() {
 
 <em>Mt. 13, 24-30</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Sl. 129, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de profúndis clamávi ad te. Dómine.</p>
       <p>Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor, a minha voz: das profundezas dos abysmos Vos invoquei.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra miserátus absólvas, et nutántia corda tu dírigas. Per Dóminum...</p>
       <p>Vos oferecemos, Senhor, estas hóstias de propiciação, a fim de que misericordiosamente perdoeis os nossos pecados e ampareis os nossos corações inconstantes. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Mc. 11, 24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis, et fiet vobis.</p>
       <p>Na verdade vos digo: «Tudo o que pedirdes nas vossas orações, acreditai que o recebereis; e far-se-á como pedirdes».</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus: ut illíus salutáris capiámus efféctum, cujus per hæc mystéria pignus accépimus. Per Dóminum...</p>
       <p>Vos suplicamos, ó Deus omnipotente, fazei que obtenhamos o efeito da salvação eterna, da qual nestes sagrados mystérios já recebemos o penhor. Por nosso Senhor...</p>
       </div>

@@ -12,7 +12,7 @@ export default function PageVidiaquam() {
 
 <aside>Desde a Páscoa até à Vigília da SS. Trindade, diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vidi aquam egrediéntem de templo a látere dextro, allelúja: et omnes ad quos pervénit aqua ista salvi facti sunt et dicent: allelúja, allelúja.</p>
       <p>Vi a água que saía do lado direito do Templo, aleluia: e todos aqueles em quem esta água tocou foram salvos; e dirão: aleluia, aleluia.</p>
       <p>℣. Osténde nobis, Dómine, misericórdiam tuam. Allelúja.</p>

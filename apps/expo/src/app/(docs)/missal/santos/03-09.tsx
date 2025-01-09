@@ -21,7 +21,7 @@ Comemoração S. Francisca Romana, Viúva. Santa Francisca, nobre matrona Romana
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátam Francíscam fámulam tuam, inter cétera grátiæ tuæ dona, familiári Angeli consuetúdine decorásti: concéde, quǽsumus; ut, intercessiónis ejus auxílio, Angelórum consórtium cónsequi mereámur. Per Dóminum...</p>
       <p>Ó Deus, que concedestes à B. Francisca, vossa serva, entre outros dons, a graça da presença familiar de um Anjo, permiti-nos, Vos rogamos, que com o auxílio da sua intercessão mereçamos alcançar a companhia dos Anjos. Por nosso Senhor...</p>
       </div>

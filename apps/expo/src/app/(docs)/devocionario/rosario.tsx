@@ -31,7 +31,7 @@ export default function PageRosario() {
       </div>
       <h1>No Crucifixo</h1>
       <h2>Símbolo dos Apóstolos</h2>
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ. Et in
           Jesum Christum, Fílium eius únicum, Dóminùm nostrum: qui concéptus est
@@ -66,7 +66,7 @@ export default function PageRosario() {
       desagravo do Vosso Coração Imaculado; e pelas intenções que Vos apresento:
       Referir as intenções.
       <h2>Intenções do Santo Padre</h2>
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <ul className="list-styled row">
           <li className="text-justify">Exaltatio S. Matris Ecclesiæ.</li>
           <li className="text-justify">Propagatio fidei.</li>
@@ -94,7 +94,7 @@ export default function PageRosario() {
       <h2>Glória</h2>
       <Gloria />
       <h2>Nossa Senhora a Santa Catarina Labouré</h2>
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>℣. O Maria sine labe concepta.</p>
         <p>℣. Ó Maria concebida sem pecado.</p>
         <p>
@@ -107,7 +107,7 @@ export default function PageRosario() {
         </p>
       </div>
       <h2>Nossa Senhora aos Santos Pastorinhos</h2>
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           ℣. Oh mi Jesu, dimitte nobis débita nostra, líbera nos ab igne
           inférni,
@@ -165,7 +165,7 @@ export default function PageRosario() {
       Virgem, e roguemos a perseverança final e a confiança em Nossa Senhora.
       <h1>Orações no fim do Rosário</h1>
       <h2>Salve Rainha</h2>
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           Salve, Regina, Mater misericórdiæ, vita, dulcédo et spes nostra,
           salve. Ad te clamámus, éxsules fílii Hevæ. Ad te suspirámus geméntes
@@ -222,7 +222,7 @@ export default function PageRosario() {
       <h2>Ladainha da Santíssima Virgem</h2>
       <LadainhaLoreto />
       <h2>Sinal da Cruz</h2>
-      <div className="side-by-side not-content">
+      <div className="side-by-side">
         <p>
           <span className="cross text-red-500">✠</span> In nómine Patris, et
           Fílii, et Spíritus Sancti.

@@ -14,14 +14,14 @@ export default function PageQuad33() {
 
 <em>Sl. 30, 7-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ego autem in Dómino sperábo: exsultábo et lætábor in tua misericórdia: quia respexísti humilitátem meam. <em>Ps. ib., 2</em> In te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe me. ℣. Gloria Patri...</p>
       <p>Eu, porém, espero no Senhor: e, confiado na vossa misericórdia, Senhor, exultarei e alegrar-me-ei, pois Vos dignastes olhar para a minha miséria. <em>Sl. ib., 2</em> Em Vós, Senhor, pus toda minha confiança, não serei confundido para sempre: livrai-me, Senhor, pela vossa justiça, e salvai-me. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta nobis, quǽsumus, Dómine: ut salutáribus jejúniis erudíti, a nóxiis quoque vítiis abstinéntes, propitiatiónem tuam facílius impetrémus. Per Dóminum...</p>
       <p>Permiti, Senhor, Vos suplicamos, que estes salutares jejuns sirvam para nossa instrução, de modo que nos abstenhamos dos pecados, que são tão nocivos, e obtenhamos mais facilmente a vossa propiciação. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad33() {
 
 <em>Ex. 20, 12-24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Exodi.</p>
       <p>Lição do Livro do Êxodo.</p>
       <p>Hæc dicit Dóminus Deus: Hónora patrem tuum et matrem tuam, ut sis longǽvus super terram, quam Dóminus, Deus tuus, dabit tibi. Non occídes. Non mœcháberis. Non furtum fácies. Non loquéris contra próximum tuum falsum testimónium. Non concupísces domum próximi tui: nec desiderábis uxórem ejus, non servum, non ancíllam, non bovem, non ásinum nec ómnia, quæ illíus sunt. Cunctus autem pópulus vidébat voces, et lámpades, et sónitum búccinæ, montémque tumántem: et, pertérriti ac pavóre concússi, stetérunt procul, dicéntes Móysi: Lóquere tu nobis, et audiámus: non loquátur nobis Dóminus, ne forte moriámur. Et ait Móyses ad pópulum: Nolite timére: ut enim probáret vos, venit Deus, et ut terror illíus esset in vobis, et non peccarétis. Stetítque pópulus de longe. Móyses autem accéssit ad calíginem, in qua erat Deus. Dixit prætérea Dóminus ad Móysen: Hæc dices fíliis Israël: Vos vidístis, quod de cœlo locútus sim vobis. Non faciétis deos argénteos, nec deos áureo s faciétis vobis. Altáre de terra faciétis mihi, et offerétis super eo holocáusta et pacífica vestra, oves vestras et boves in omni loco, in quo memória fúerit nóminis mei.</p>
@@ -41,7 +41,7 @@ export default function PageQuad33() {
 
 <em>Sl. 6, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mei, Dómine, quóniam infírmus sum: sana me, Dómine, ℣. Conturbáta sunt ómnia ossa mea: et ánima mea turbáta est valde.</p>
       <p>Tende compaixão de mim, Senhor, pois estou enfermo; curai-me, Senhor. ℣. Meus Ossos estão cheios de fraqueza e a minha alma repleta de temor.</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuad33() {
 
 <em>Mt. 15, 1-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -70,14 +70,14 @@ S. Mateus.</p>
 
 <em>Sl. 108, 21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, fac mecum misericórdiam tuam, propter nomen tuum: quia suávis est misericórdia tua.</p>
       <p>Senhor, para honra do vosso nome, tende misericórdia de mim, pois a vossa misericórdia é benigna.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Suscipe, quǽsumus, Dómine, preces pópuli tui cum oblatiónibus hostiárum: et tua mystéria celebrántes, ab ómnibus nos defénde perículis. Per Dóminum...</p>
       <p>Recebei, Senhor, Vos suplicamos, as preces do vosso povo, juntamente com estas hóstias que Vos oferecemos; e, pela virtude dos mystérios, que celebramos, defendei-nos de todos os perigos. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. Mateus.</p>
 
 <em>Sl. 15, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Notas mihi fecísti vias vitæ: adimplébis me lætítia cum vultu tuo, Dómine.</p>
       <p>Fizestes-me conhecer os caminhos da vida, Senhor: encher-me-eis de alegria com vossa presença.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctíficet nos, Dómine, qua pasti sumus, mensa cœléstis: et a cunctis erróribus expiátos, supérnis promissiónibus reddat accéptos. Per Dóminum...</p>
       <p>Que o banquete celestial de que nos alimentámos, Senhor, nos santifique; e que, depois de nos haver purificado de toda a espécie de erro, nos torne dignos das promessas eternas. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

@@ -10,7 +10,7 @@ export default function PageConfesso() {
       <h1>Confesso</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, et ómnibus Sanctis: quia peccávi nimis cogitatióne, verbo et ópere: <em>Percutit sibi pectus ter, dicens:</em></p>
       <p>Eu me confesso a Deus, todo poderoso, à bem-aventurada sempre Virgem Maria, ao bem-aventurado S. Miguel Arcanjo, ao bem-aventurado S. João Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, e a todos os santos: que pequei muitas vezes por pensamentos, palavras e obras: <em>Feche a mão direita e bata no peito por três vezes.</em></p>
       <p><em>Mea culpa, mea culpa, mea máxima culpa.</em></p>

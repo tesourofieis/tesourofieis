@@ -19,7 +19,7 @@ export default function PageSantissimatrindade() {
 
 <em>2 Cor. 13, 11 & 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Gaudéte, perfécti estóte, exhortámini, idem sápite, pacem habéte, et Deus pacis et dilectiónis erit vobíscum. Grátia Dómini nostri Jesu Christi, et cáritas Dei, et communicátio Sancti Spíritus sit cum ómnibus vobis. Amen.</p>
@@ -30,7 +30,7 @@ export default function PageSantissimatrindade() {
 
 <em>Dan. 3, 55-56</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedíctus es, Dómine, qui íntuens abýssos, et sedes super Chérubim. ℣. Benedíctus es, Dómine, in firmaménto cœli, et laudábilis in sǽcula.</p>
       <p>Senhor, que estais assentado acima dos Querubins e cujo olhar penetra na profundeza dos abysmos, sois bendito! ℣. Sim, Senhor, sois bendito no firmamento do céu; e sois digno de louvor em todos os séculos.</p>
       <p>Allelúja, allelúja. ℣. <em>ibid., 52</em> Benedíctus es, Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.</p>
@@ -43,14 +43,14 @@ export default function PageSantissimatrindade() {
 
       <h3>Trato</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Te Deum, Patrem ingénitum, te, Fílium unigénitum, te, Spíritum Sanctum Paráclitum, sanctam et indivíduam Trinitátem, toto corde confitémur, laudámus atque benedícimus. ℣. Quóniam magnus es tu, et fáciens mirabília: tu es Deus solus. ℣. Tibi laus, tibi glória, tibi gratiárum áctio in sǽcula sempitérna, o beáta Trinitas.</p>
       <p>A Vós, ó Deus Pai, que fostes criado; a Vós, ó Filho Unigénito; a Vós, ó Espírito Santo Paráclito; a Vós, ó Santa e indivisível Trindade: adoramos com todo o coração, louvamos bendizemos. ℣. Pois Vós sois imenso, Senhor, praticais prodígios e sois o único Deus. ℣. A Vós, ó beatíssima Trindade, louvor, glória e acção de graças em todos os séculos.</p>
       </div>
 
 <aside>No tempo Pascal omite-se o Gradual e o Trato, e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Dan. 3, 52</em> Benedíctus es, Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja. ℣. Benedicámus Patrem et Fílium cum Sancto Spíritu. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Dn. 3, 52</em> Sois bendito, Senhor, Deus dos nossos e digno de louvor em todos os séculos. Aleluia. ℣. Bendigamos o Pai, e o Filho com o Espírito Santo. Aleluia.</p>
       </div>
@@ -59,7 +59,7 @@ export default function PageSantissimatrindade() {
 
 <em>Jo. 15, 26-27; 16, 1-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>

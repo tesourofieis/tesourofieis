@@ -14,14 +14,14 @@ export default function Page1018() {
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum. <em>Ps. ibid., 1-2</em> Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam. ℣. Gloria Patri...</p>
       <p>Vejo, ó Deus, que honrais largamente os vossos amigos; e que seu poder se tem fortalecido extraordinariamente. <em>Sl. ibid., 1-2</em> Senhor, perscrutastes o meu íntimo e ficastes conhecendo-me: ficastes conhecendo quando me deito e quando me levanto. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Intervéniat pro nobis, quǽsumus, Dómine, sanctus tuus Lucas Evangélista: qui crucis mortificatiónem júgiter in suo córpore, pro tui nóminis honóre, portávit. Per Dóminum nostrum...</p>
       <p>Senhor, Vos rogamos, permiti que o vosso Santo Evangelista Lucas, que, para glória do vosso nome, sempre praticou em seu corpo a mortificação da Cruz, interceda por nós. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page1018() {
 
 <em>2 Cor. 8, 16-24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Grátias ago Deo, qui dedit eandem sollicitúdinem pro vobis in corde Titi, quóniam exhortatiónem quidem suscépit: sed cum sollicítior esset, sua voluntáte proféctus est ad vos. Mísimus étiam cum illo fratrem, cujus laus est in Evangélio per omnes ecclésias: non solum autem, sed et ordinátus est ab ecclésiis comes peregrinatioónis nostræ in hanc grátiam, quæ ministrátur a nobis ad Dómini glóriam et destinátam voluntátem nostram: devitántes hoc, ne quis nos vitúperet in hac plenitúdine, quæ ministrátur a nobis. Providémus enim bona non solum coram Deo, sed étiam coram homínibus. Mísimus autem cum illis et fratrem nostrum, quem probávimus in multis sæpe sollícitum esse: nunc autem multo sollicitiórem, confidéntia multa in vos, sive pro Tito, qui est sócius meus, et in vos adjútor, sive fratres nostri, Apóstoli ecclesiárum, glória Christi. Ostensiónem ergo, quæ est caritátis vestræ, et nostræ glóriæ pro vobis, in illos osténdite in fáciem ecclesiárum.</p>
@@ -41,7 +41,7 @@ export default function Page1018() {
 
 <em>Sl. 18, 5 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In omne terram exívit sonus eórum: et in fines orbis terræ verba eórum. ℣. Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.</p>
       <p>O som da sua voz retiniu por toda a terra: as suas palavras ecoaram até aos confins do mundo. ℣. Os céus publicam a glória de Deus e o firmamento anuncia as maravilhas que praticou.</p>
       <p>Allelúja, allelúja. ℣. <em>Joann. 15, 16</em> Ego vos elégi de mundo, ut eátis et fructum afferátis: et fructus vester máneat. Allelúja.</p>
@@ -57,14 +57,14 @@ export default function Page1018() {
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.</p>
       <p>Eu vejo, ó Deus, que honrais largamente os vossos amigos; por isso o seu poder se tem fortalecido extraordinariamente.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente servíre: ut múnera quæ deférimus, interveniénte beáto Evangelísta tuo Luca, et medélam nobis operéntur et glóriam. Per Dóminum...</p>
       <p>Pela virtude destes dons celestiais, Vos suplicamos, Senhor, concedei-nos a graça de Vos servirmos com inteira liberdade de espírito, a fim de que os dons, que Vos apresentamos, nos alcancem, por intercessão do B. Evangelista Lucas, o remédio para os nossos males e a glória eterna. Por nosso Senhor...</p>
       </div>
@@ -73,14 +73,14 @@ export default function Page1018() {
 
 <em>Mt. 19, 28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.</p>
       <p>Vós me seguistes, assentar-vos-eis sobre tronos, para julgar as doze tribos de Israel.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, quod de sancto altári tuo accépimus, précibus beáti Evangelístæ tui Lucæ, sanctíficet ánimas nostras, per quod tuti esse póssimus. Per Dóminum...</p>
       <p>Ó omnipotente Deus, Vos rogamos, fazei que o dom, agora recebido no sagrado altar, santifique, pelas preces do vosso B. Evangelista Lucas, as nossas almas, a fim de que nos defenda dos perigos. Por nosso Senhor...</p>
       </div>

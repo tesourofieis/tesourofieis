@@ -14,14 +14,14 @@ export default function Page4Martirnaopontifice1() {
 
 <em>Sl. 20, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei. <em>Ps. ibid., 4</em> Quóniam prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide pretióso. ℣. Gloria Patri...</p>
       <p>O justo rejubilará com vosso poder, Senhor, e exultará de alegria, vendo-se salvo por Vós; pois concedestes-lhe o que seu coração desejava. <em>Sl. ibid., 4</em> Com efeito, Vós o premunistes com bênçãos de doçura: e impusestes na sua cabeça uma coroa de pedras preciosas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, qui beáti <span className="text-red-500">N.</span> Mártyris tui natalícia cólimus, intercessióne ejus, in tui nóminis amóre roborémur. Per Dóminum...</p>
       <p>Ó Deus omnipotente, permiti que, celebrando nós o nascimento do B. <span className="text-red-500">N.</span>, vosso Mártir, e pela sua intercessão, alcancemos a graça de sermos confirmados no amor ao vosso Nome. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page4Martirnaopontifice1() {
 
 <em>Sb. 10, 10-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labores illíus. In fraude circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum jusíum non derelíquit, sed a peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant: et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus, Deus noster.</p>
@@ -41,7 +41,7 @@ export default function Page4Martirnaopontifice1() {
 
 <em>Sl. 111, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Potens in terra erit semen ejus: generátio rectórum benedicétur.</p>
       <p>Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em obedecer-Lhe. ℣. Sua descendência será poderosa na terra; pois a geração dos justos será abençoada.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 20, 4</em> Posuísti, Dómine, super caput ejus corónam de lápide pretióso. Allelúja.</p>
@@ -54,7 +54,7 @@ export default function Page4Martirnaopontifice1() {
 
 <em>Sl. 20, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum. ℣. Quóniam prævenísti eum in benedictiónibus dulcédinis. ℣. Posuísti in cápite ejus corónam de lápide pretióso.</p>
       <p>Concedestes-lhe o desejo da sua alma; lhe não negastes o que seus lábios Vos pediram. ℣. Premuniste-lo com bênçãos de doçura. ℣. Impusestes na sua cabeça uma coroa de pedras preciosas.</p>
       </div>
@@ -63,7 +63,7 @@ export default function Page4Martirnaopontifice1() {
 
 <em>Mt. 10, 34-42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Nolíte arbitrári, quia pacem vénerim míttere in terram: non veni pacem míttere, sed gládium. Veni enim separáre hóminem advérsus patrem suum, et fíliam advérsus matrem suam, et nurum advérsus socrum suam: et inimíci hóminis doméstici ejus. Qui amat patrem aut matrem plus quam me, non est me dignus: et qui amat fílium aut fíliam super me, non est me dignus. Et qui non áccipit crucem suam, et séquitur me, non est me dignus. Qui invénit ánimam suam, perdet illam: et qui perdíderit ánimam suam propter me, invéniet eam. Qui récipit vos, me récipit: et qui me récipit, récipit eum, qui me misit. Qui récipit prophétam in nómine prophétæ, mercédem prophétæ accípiet: et qui récipit justum in nómine justi, mercédem justi accípiet. Et quicúmque potum déderit uni ex mínimis istis cálicem aquæ frígidæ tantum in nómine discípuli: amen, dico vobis, non perdet mercédem suam.</p>
@@ -74,14 +74,14 @@ export default function Page4Martirnaopontifice1() {
 
 <em>Sl. 8, 6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Glória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.</p>
       <p>Vós o coroastes, Senhor, com glória e com honras; Vós lhe concedestes o domínio sobre as obras das vossas mãos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum nostrum...</p>
       <p>Havendo Vós, Senhor, aceitado as nossas ofertas e orações, dignai-Vos purificar-nos com vossos celestiais mystérios e ouvir-nos benignamente. Por nosso Senhor...</p>
       </div>
@@ -90,14 +90,14 @@ export default function Page4Martirnaopontifice1() {
 
 <em>Mt. 16, 24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui vult veníre post me, ábneget semetípsum, et tollat crucem suam, et sequátur me.</p>
       <p>Se alguém quer vir após mim, negue-se a si mesmo, tome a sua cruz e siga-me!</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, Dómine, Deus noster: ut, sicut tuórum commemoratióne Sanctórum temporáli gratulámur offício; ita perpétuo lætámur aspéctu. Per Dóminum nostrum...</p>
       <p>Permiti, ó Senhor, nosso Deus, Vos suplicamos, que, assim como nos alegramos, comemorando nesta vida pelo nosso ministério a memória dos vossos Santos, assim também tenhamos a felicidade de os contemplar na eternidade. Por nosso Senhor...</p>
       </div>

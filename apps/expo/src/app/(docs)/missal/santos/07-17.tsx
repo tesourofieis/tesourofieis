@@ -27,7 +27,7 @@ export default function Page0717() {
 
 <em>1 Tm. 6, 6-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo a Timóteo.</p>
       <p>Caríssime: Est quæstus magnus píetas cum sufficiéntia. Nihil enim intúlimus in hunc mundum: haud dúbium, quod nec auférre quid póssumus. Habéntes autem aliménta, et quibus tegámur, his conténti simus. Nam qui volunt dívites fíeri, incídunt in tentatiónem et in láqueum diáboli, et desidéria multa inutília et nocíva: quæ mergunt hómines in intéritum et perditiónem. Radix enim ómnium malórum est cupíditas: quam quidam appeténtes, erravérunt a fide, et inseruérunt se dolóribus multis. Tu autem, o homo Dei, hæc fuge: sectáre vero justítiam, pietátem, fidem, caritátem, patiéntiam, mansuetúdinem. Certa bonum certámen fídei, apprehénde vitam ætérnam.</p>
@@ -38,7 +38,7 @@ export default function Page0717() {
 
 <em>Mt. 19, 27-29</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo

@@ -10,7 +10,7 @@ export default function Page124() {
       <h1>Salmo 124</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui confídunt in Dómino, sicut mons Sion: * non commovébitur in ætérnum, qui hábitat in Jerúsalem.</p>
       <p>Os que confiam no Senhor serão como o monte Sião: * nunca será abalado o que habita em Jerusalém.</p>
       <p>Montes in circúitu ejus: * et Dóminus in circúitu pópuli sui, ex hoc nunc et usque in sǽculum.</p>

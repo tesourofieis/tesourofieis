@@ -21,7 +21,7 @@ Comemoração S. Bernardino de Sena, Confessor. Nesta época do ano em que Jesus
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine Jesu, qui beáto Bernardíno Confessóri tuo exímium sancti nóminis tui amórem tribuísti: ejus, quǽsumus, méritis et intercessióne, spíritum nobis tuæ dilectiónis benígnus infúnde: Qui vivis...</p>
       <p>Senhor Jesus Cristo, que concedestes ao B. Bernardino, vosso Confessor, um ardente amor ao vosso Santo nome, dignai-Vos infundir em nossas almas pelos seus méritos e intercessão o espírito da vossa caridade. Ó Vós, que viveis e...</p>
       </div>

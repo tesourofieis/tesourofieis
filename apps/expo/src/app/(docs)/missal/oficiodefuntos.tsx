@@ -18,7 +18,7 @@ export default function PageOficiodefuntos() {
 
       <h2>Invitatório</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Regem, cui ómnia vivunt, Veníte adorémus.</p>
       <p>Vinde, adoremos o Rei para quem todas as criatura vivem.</p>
       <p>Regem, cui ómnia vivunt, Veníte adorémus.</p>
@@ -30,14 +30,14 @@ export default function PageOficiodefuntos() {
 
 <Salmo94 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veníte, exsultémus Dómino: * jubilémus Deo salutári nostro:</p>
       <p>Vinde, exultemos no Senhor: * cantemos alegres a de Deus nosso salvador:</p>
       <p>Præoccupémus fáciem ejus in confessióne: * et in psalmis jubilémus ei.</p>
       <p>Apresentemo-nos diante d’Ele em acção de graças: * e celebremo-l’O com salmos.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Regem, cui ómnia vivunt, Veníte adorémus.</p>
       <p>Vinde, adoremos o Rei para quem todas as criatura vivem.</p>
       </div>

@@ -14,12 +14,12 @@ export default function PageQuad63() {
 
 <em>Fl. 2, 10, 8 & 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: quia Dóminus factus est obǿdiens usque ad mortem, mortem autem crucis: ideo Dóminus Jesus Christus in glória est Dei Patris. <em>Ps. 101, 2</em> Dómine, exáudi oratiónem meam: et clamor meus ad te véniat. In nómine. ℣. Gloria Patri...</p>
       <p>Que ao ser pronunciado o nome de Jesus se dobrem todos os joelhos dos que estão no céu, na terra e nos infernos; pois o Senhor fez-se obediente até à morte, e morte na cruz. Eis porque o Senhor Jesus está na glória de Deus, seu Pai. <em>Sl. 101, 2</em> Ouvi, Senhor, a minha oração; e chegue até Vós o meu clamor. ℣. Glória ao Pai...</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus. Flectámus génua.</span></p>
       <p><span className="text-red-500 text-center">Oremos. Ajoelhemos!</span></p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -28,7 +28,7 @@ export default function PageQuad63() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, qui nostris excéssibus incessánter afflígimur, per unigéniti Fílii tui passiónem liberémur: Qui tecum vivit...</p>
       <p>Concedei-nos, ó Deus omnipotente, Vos suplicamos, que, estando nós incessantemente aflitos por causa dos males que produzem os nossos pecados, deles sejamos livres pela paixão do vosso Filho Unigénito. O qual, sendo Deus, convosco vive e reina...</p>
       </div>
@@ -37,7 +37,7 @@ export default function PageQuad63() {
 
 <em>Is. 62, 11; 63, 1-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição Lição do Profeta Isaías.</p>
       <p>Hæc dicit Dóminus Deus: Dícite fíliæ Sion: Ecce, Salvátor tuus venit: ecce, merces ejus cum eo. Quis est iste, qui venit de Edom, tinctis véstibus de Bosra? Iste formósus in stola sua, grádiens in multitúdine fortitúdinis suæ. Ego, qui loquor justítiam, et propugnátor sum ad salvándum. Quare ergo rubrum est induméntum tuum, et vestiménta tua sicut calcántium in torculári? Tórcular calcávi solus, et de géntibus non est vir mecum: calcávi eos in furóre meo, et conculcávi eos in ira mea: et aspérsus est sanguis eórum super vestiménta mea, et ómnia induménta mea inquinávi. Dies enim ultiónis in corde meo, annus redemptiónis meæ venit. Circumspéxi, et non erat auxiliátor: quæsívi, et non fuit, qui adjuváret: et salvávit mihi bráchium meum, et indignátio mea ipsa auxiliáta est mihi. Et conculcávi pópulos in furóre meo, et inebriávi eos in indignatióne mea, et detráxi in terram virtútem eórum. Miseratiónum Dómini recordábor, laudem Dómini super ómnibus, quæ réddidit nobis Dóminus, Deus noster.</p>
@@ -48,14 +48,14 @@ export default function PageQuad63() {
 
 <em>Sl. 68, 18 & 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ne avértas fáciem tuam a púero tuo, quóniam tríbulor: velóciter exáudi me. ℣. Salvum me fac, Deus, quóniam intravérunt aquæ usque ad ánimam meam: infíxus sum in limo profúndi, et non est substántia.</p>
       <p>Não volteis a vossa face ao vosso servo, mas apressai-Vos em socorrer-me, pois estou atribulado. ℣. Salvai-me, Senhor, porquanto as águas da desgraça inundaram a minha alma. Caí num profundo abysmo de lodo, onde não encontro apoio.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui pro nobis Fílium tuum Crucis patíbulum subire voluísti, ut inimíci a nobis expélleres potestatem: concéde nobis fámulis tuis; ut resurrectiónis grátiam consequámur. Per eúndem Dóminum nostrum...</p>
       <p>Ó Deus, que quisestes que o vosso Filho sofresse o suplício da Cruz por nós, a fim de nos livrar do jugo inimigo, dignai-Vos conceder-nos a nós, que vossos servos, a graça de tomarmos parte na ressurreição. Por nosso Senhor...</p>
       </div>
@@ -64,7 +64,7 @@ export default function PageQuad63() {
 
 <em>Is. 53, 1-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>In diébus illis: Dixit Isaías: Dómine, quis crédidit audi tui nostro? et bráchium Dómini cui revelátum est? Et ascéndet sicut virgúltum coram eo, et sicut radix de terra sitiénti: non est spécies ei neque decor: et vídimus eum, et non erat aspéctus, et desiderávimus eum: despéctum et novíssimum virórum, virum dolórum, et sciéntem infirmitátem: et quasi abscónditus vultus ejus et despéctus, unde nec reputávimus eum. Vere languóres nostros ipse tulit, et dolóres nostros ipse portávit: et nos putávimus eum quasi leprósum, et percússum a Deo, et humiliátum. Ipse autem vulnerátus est propter iniquitátes nostras, attrítus est propter scélera nostra: disciplína pacis nostræ super eum, et livóre ejus sanáti sumus. Omnes nos quasi oves errávimus, unusquísque in viam suam declinávit: et pósuit Dóminus in eo iniquitátem ómnium nostrum. Oblátus est, quia ipse vóluit, et non apéruit os suum: sicut ovis ad occisiónem ducátur, et quasi agnus coram tondénte se obmutéscet, et non apériet os suum. De angústia et de judício sublátus est: generatiónem ejus quis enarrábit? quia abscíssus est de terra vivéntium: propter scelus pópuli mei percússi eum. Et dabit ímpios pro sepultúra, et dívitem pro morte sua: eo quod iniquitátem non fécerit, neque dolus fúerit in ore ejus. Et Dóminus vóluit contérere eum in infirmitáte: si posúerit pro peccáto ánimam suam, vidébit semen longǽvum, et volúntas Dómini in manu ejus dirigátur. Pro eo, quod laborávit ánima ejus, vidébit, et saturábitur: in sciéntia sua justificábit ipse justus servus meus multos, et iniquitátes eórum ipse portábit. Ideo dispértiam ei plúrimos: et fórtium dívidet spólia, pro eo, quod trádidit in mortem ánimam suam, et cum scelerátis reputátus est: et ipse peccáta multórum tulit, et pro transgressóribus rogávit.</p>
@@ -75,7 +75,7 @@ export default function PageQuad63() {
 
 <em>Sl. 101, 2-5 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, exaudi orationem meam, et clamor meus ad te veniat. ℣. Ne avertas faciem tuam a me: in quacumque die tribulor, inclina ad me aurem tuam. ℣. In quacumque die invocavero te, velociter exaudi me. ℣. Quia defecerunt sicut fumus dies mei: et ossa mea sicut in frixorio confrixa sunt. ℣. Percussus sum sicut faenum, et aruit cor meum: quia oblitus sum manducare panem meum. ℣. Tu exsiirgens, Domine, misereberis Sion: quia venit tempus miserendi eius.</p>
       <p>Senhor, ouvi a minha oração e que meu clamor chegue até Vós. ℣. Não afasteis de mim a vossa face, e, desde que eu caia na tribulação, inclinai para mim vossos ouvidos. ℣. Em qualquer hora em que Vos invocar, não tardeis em me ouvir. ℣. Meus dias desfizeram-se, como o fumo, e os meus ossos ficaram abrasados, como a lenha que passa pela fogueira. ℣. Estou mirrado, como a palha; o meu coração desfaleceu de tal modo que até me esqueci de comer o pão. ℣. Erguei-Vos, Senhor, e compadecei-Vos de Sião, pois é chegado o tempo de ter piedade dela.</p>
       </div>
@@ -84,7 +84,7 @@ export default function PageQuad63() {
 
 <em>Sl. 102, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis. ℣. <em>Ps. 78, 8-9</em> Dómine, ne memíneris iniquitátum nostrarum antiquarum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. <em>hic genuflectitur</em> ℣. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, libera nos: et propítius esto peccátis nostris, propter nomen tuum.</p>
       <p>Senhor, nos não castigueis, consoante merecemos, pelos pecados que praticámos: nem nos julgueis, segundo as nossas iniquidades. ℣. <em>Sl. 78, 8-9</em> Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. <em>(Aqui genuflectir).</em> ℣. Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome.</p>
       </div>
@@ -93,7 +93,7 @@ export default function PageQuad63() {
 
 <em>Lc. 22, 1-71; 23, 1-53</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Pássio Dómini nostri Jesu Christi secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Paixão de N. S. Jesus Cristo, segundo S.  Lucas.</p>
       <p>In illo témpore: Appropinquábat dies festus azymórum, qui dícitur Pascha: et quærébant príncipes sacerdótum et scribæ, quómodo Jesum interfícerent: timébant vero plebem. Intrávit autem sátanas in Judam, qui cognominabátur Iscariótes, unum de duódecim. Et ábiit, et locútus est cum princípibus sacerdótum et magistrátibus, quemádmodum illum tráderet eis. Et gavísi sunt, et pacti sunt pecúniam illi dare. Et spopóndit. Et quærébat opportunitátem, ut tráderet illum sine turbis.</p>
@@ -134,14 +134,14 @@ Levando-O eles já, detiveram um certo Simão, de Cirene, que vinha de uma propr
 
 <em>Sl. 101, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, exáudi oratiónem meam, et clamor meus ad te pervéniat: ne avértas fáciem tuam a me.</p>
       <p>Senhor, ouvi a minha oração e que meu clamor chegue até Vós; não afasteis de mim a vossa face.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, quǽsumus, Dómine, munus oblátum, et dignánter operáre: ut, quod passiónis Fílii tui, Dómini nostri, mystério gérimus, piis afféctibus consequámur. Per eúndem Dóminum...</p>
       <p>Aceitai, Senhor, Vos suplicamos, o dom que Vos é oferecido, e pela vossa bondade permiti que nos enchamos de santos afectos, enquanto celebramos o mystério da Paixão de vosso Filho, nosso Senhor. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -150,21 +150,21 @@ Levando-O eles já, detiveram um certo Simão, de Cirene, que vinha de uma propr
 
 <em>Sl. 101,10, 13 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Potum meum cum fletu temperábam: quia élevans allisísti me: et ego sicut fænum árui: tu autem, Dómine, in ætérnum pérmanes: tu exsúrgens miseréberis Sion, quia venit tempus miseréndi ejus.</p>
       <p>Misturei as minhas lágrimas com a minha bebida; porque, depois de haver sido elevado, me esmagastes, como palha. Mas Vós, Senhor, reinais eternamente. Erguei-Vos e compadecei-Vos de Sião, porque chegou o tempo que deveis compadecer-Vos dela.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Largíre sénsibus nostris, omnípotens Deus: ut, per temporálem Fílii tui mortem, quam mystéria veneránda testántur, vitam te nobis dedísse perpétuam confidámus. Per eúndem Dóminum...</p>
       <p>Ó Deus omnipotente, concedei aos nossos sentidos a graça de acreditarmos confiadamente que foi pela morte temporal de vosso Filho (que estes venerandos mystérios comemoram) que nos alcançastes o dom da vida eterna. Pelo mesmo nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

@@ -14,14 +14,14 @@ export default function PageQuad45() {
 
 <em>Sl. 18, 15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deditátio cordis mei in conspéctu tuo semper: Dómine, adjútor meus, et redémptor meus. <em>Ps. ibid., 2</em> Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum. ℣. Gloria Patri...</p>
       <p>Os pensamentos do meu coração estarão sempre na vossa presença. Senhor, sois o meu sustentáculo e o meu Redentor. <em>Sl. ibid., 2</em> Os céus publicam a glória do Senhor e o firmamento anuncia as obras das suas mãos. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ineffabílibus mundum rénovas sacraméntis: præsta, quǽsumus; ut Ecclésia tua et ætérnis profíciat institútis, et temporálibus non destituátur auxíliis. Per Dóminum...</p>
       <p>Ó Deus, que restaurais o mundo com inefáveis mystérios, permiti, Vos imploramos, que a vossa Igreja prossiga o seu fim pelos meios eternos que lhe conferistes, e não seja desprovida do vosso socorro nas necessidades temporais. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad45() {
 
 <em>3 Rs. 17, 17-24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Regum.</p>
       <p>Lição do Livro dos Reis.</p>
       <p>In diébus illis: Ægrotávit fílius mulíeris matrisfamílias, et erat lánguor fortíssimus, ita ut non remanéret in eo hálitus. Dixit ergo ad Elíam: Quid mihi et tibi, vir Dei? Ingréssus es ad me, ut rememoraréntur iniquitátes meæ, et interfíceres fílium meum? Et ait ad eam Elías: Da mihi fílium tuum. Tulítque eum de sinu ejus, et portávit in cenáculum, ubi ipse manébat, et pósuit super léctulum suum, et clamávit ad Dóminum, et dixit: Dómine, Deus meus, étiam ne víduam, apud quam ego utcúmque susténtor, afflixísti, ut interfíceres fílium ejus? Et expándit se, atque mensus est super púerum tribus vícibus, et clamávit ad Dóminum, et ait: Dómine, Deus meus, revertátur, óbsecro, ánima púeri hujus in víscera ejus. Et exaudívit Dóminus vocem Elíæ: et revérsa est ánima púeri intra eum, et revíxit. Tulítque Elías púerum, et depósuit eum de cenáculo in inferiórem domum, et trádidit matri suæ, et ait illi: En, vivit fílius tuus. Dixítque múlier ad Elíam: Nunc in isto cognóvi, quóniam vir Dei es tu, et verbum Dómini in ore tuo verum est.</p>
@@ -41,7 +41,7 @@ export default function PageQuad45() {
 
 <em>Sl. 117, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bonum est confídere in Dómino, quam confídere in hómine. ℣. Bonum est speráre in Dómino, quam speráre in princípibus.</p>
       <p>É melhor confiar no Senhor do que no homem. É melhor ter esperança no Senhor do que nos príncipes.</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuad45() {
 
 <em>Jo. 11, 1-45</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -70,14 +70,14 @@ S. João.</p>
 
 <em>Sl. 17, 28 & 32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pópulum húmilem salvum fácies, Dómine, et óculos superbórum humiliábis: quóniam quis Deus præter te, Dómine?</p>
       <p>Vós, Senhor, salvais o povo humilde e abateis os olhos dos soberbos. Quem é, pois, Deus senão Vós, Senhor?</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera nos, Dómine, quǽsumus, obláta puríficent: et te nobis jugiter fáciant esse placátum. Per Dóminum nostrum...</p>
       <p>Senhor, Vos imploramos, permiti que estes dons, que Vos oferecemos, nos purifiquem e aplaquem incessantemente a vossa ira contra nós. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. João.</p>
 
 <em>Jo. 11, 33, 35, 43, 44 & 39</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Videns Dóminus flentes soróres Lázari ad monuméntum, lacrimátus est coram Judǽis, et exclamávit: Lázare, veni foras: et pródiit ligátis mánibus et pédibus, qui fúerat quatriduánus mórtuus.</p>
       <p>O Senhor, vendo chorar as irmãs de Lázaro, perto do sepulcro, chorou também, na presença dos judeus, e clamou: «Lázaro, sai para fora». E aquele que estava morto havia quatro dias apareceu com os pés e as mãos ligados!</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc nos, quǽsumus, Dómine, participátio sacraménti: et a propriis reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis. Per Dóminum...</p>
       <p>Que esta nossa participação nos celestiais mystérios, Senhor, Vos suplicamos, nos livre sempre das nossas culpas e nos defenda de todas as adversidades. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

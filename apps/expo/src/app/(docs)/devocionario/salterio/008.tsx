@@ -10,7 +10,7 @@ export default function Page008() {
       <h1>Salmo 8</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, Dóminus noster, * quam admirábile est nomen tuum in univérsa terra!</p>
       <p>Ó Senhor, Senhor nosso, * quão admirável é o vosso nome em toda a terra!</p>
       <p>Quóniam eleváta est magnificéntia tua, * super cælos.</p>

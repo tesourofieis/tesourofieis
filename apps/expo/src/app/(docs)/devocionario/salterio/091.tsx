@@ -10,7 +10,7 @@ export default function Page091() {
       <h1>Salmo 91</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bonum est confitéri Dómino: * et psállere nómini tuo, Altíssime.</p>
       <p>Bom é louvar o Senhor: * e cantar ao vosso nome, ó Altíssimo.</p>
       <p>Ad annuntiándum mane misericórdiam tuam: * et veritátem tuam per noctem.</p>

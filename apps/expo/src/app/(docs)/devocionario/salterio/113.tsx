@@ -10,7 +10,7 @@ export default function Page113() {
       <h1>Salmo 113</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In éxitu Israël de Ægýpto, * domus Jacob de pópulo bárbaro:</p>
       <p>Quando Israel saiu do Egipto, * e a casa de Jacob de um povo bárbaro:</p>
       <p>Facta est Judǽa sanctificátio ejus, * Israël potéstas ejus.</p>

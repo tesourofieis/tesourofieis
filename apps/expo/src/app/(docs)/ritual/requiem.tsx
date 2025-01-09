@@ -18,7 +18,7 @@ export default function PageRequiem() {
 
       <h2>Oração</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, cui próprium est miseréri semper et párcere, te súpplices exorámus pro ánima fámuli tui <span className="text-red-500">N.</span> (fámulæ tuæ <span className="text-red-500">N.</span>), quam hódie de hoc sǽculo migráre jussísti: ut non tradas eam in manus inimíci, neque obliviscáris in finem, sed júbeas eam a sanctis Angelis suscipi et ad pátriam paradísi perdúci; ut, quia in te sperávit et crédidit, non pœnas inférni sustíneat, sed gáudia ætérna possídeat. Per Dóminum...</p>
       <p>Ó Deus, de quem é próprio sempre usar de misericórdia e perdoar, Vos rogamos humildemente pela alma do vosso servo (ou vossa serva) <span className="text-red-500">N.</span> que mandastes sair deste mundo: a não abandoneis, Senhor, nas mãos do inimigo, nem a esqueçais para sempre, mas dignai-Vos ordenar aos vossos Santos Anjos que a acolham e introduzam na pátria do paraíso, a fim de que, depois de haver acreditado e esperado em Vós, não seja condenada ao sofrimento das penas do inferno, mas goze as alegrias eternas. Por nosso Senhor...</p>
       </div>
@@ -27,7 +27,7 @@ export default function PageRequiem() {
 
 <em>1 Ts. 4, 13-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.</p>
       <p>Fratres: Nólumus vos ignoráre de dormiéntibus, ut non contristémini, sicut et céteri, qui spem non habent. Si enim crédimus, quod Jesus mórtuus est et resurréxit: ita et Deus eos, qui dormiérunt per Jesum, addúcet cum eo. Hoc enim vobis dícimus in verbo Dómini, quia nos, qui vívimus, qui resídui sumus in advéntum Dómini, non præveniémus eos, qui dormiérunt. Quóniam ipse Dóminus in jussu, et in voce Archángeli, et in tuba Dei descéndet de cœlo: et mórtui, qui in Christo sunt, resúrgent primi. Deinde nos, qui vívimus, qui relínquimur, simul rapiémur cum illis in núbibus óbviam Christo in aëra, et sic semper cum Dómino érimus. Itaque consolámini ínvicem in verbis istis.</p>
@@ -38,7 +38,7 @@ export default function PageRequiem() {
 
 <em>Jo. 11, 21-27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -48,14 +48,14 @@ S. João.</p>
 
       <h2>Secreta</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propitiáre, quǽsumus, Dómine, ánimæ famuli tui <span className="text-red-500">N.</span> (fámulæ tuæ <span className="text-red-500">N.</span>), pro qua hóstiam laudis tibi immolámus, majestátem tuam supplíciter deprecántes: ut, per hæc piæ placatiónis offícia, perveníre mereátur ad réquiem sempitérnam. Per Dóminum nostrum...</p>
       <p>Vos suplicamos, Senhor, tende piedade da alma do vosso servo (ou vossa serva) <span className="text-red-500">N.</span>, em favor da qual Vos oferecemos esta hóstia de louvor, suplicando humildemente à vossa majestade que, por intercessão deste sacrifício de expiação, lhe concedais o descanso eterno. Por nosso Senhor...</p>
       </div>
 
       <h2>Postcomúnio</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut ánima fámuli tui <span className="text-red-500">N.</span> (fámulæ tuæ <span className="text-red-500">N.</span>), quæ hódie de hoc sǽculo migrávit, his sacrifíciis purgáta et a peccátis expedíta, indulgéntiam páriter et réquiem cápiat sempitérnam. Per Dóminum nostrum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, concedei-nos que a alma do vosso servo (ou vossa serva) <span className="text-red-500">N.</span>, que deixou hoje este mundo, uma vez purificada e livre dos seus pecados pela virtude deste sacrifício, alcance misericordiosamente de Vós o perdão das culpas e o repouso eterno. Por nosso Senhor...</p>
       </div>
@@ -68,21 +68,21 @@ S. João.</p>
 
       <h2>Oração</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, Dómine, ut ánimæ fámuli tui <span className="text-red-500">N.</span> (fámulæ tuæ <span className="text-red-500">N.</span>), cujus depositiónis diem tértium (vel séptimum, vel trigésimum) commemorámus, Sanctórum atque electórum tuórum largíri dignéris consórtium: et rorem misericórdiæ tuæ perénnem infúndas. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, permiti que a alma do vosso servo (ou vossa serva) <span className="text-red-500">N.</span>, cujo... (terceiro ou sétimo ou trigésimo) dia da deposição comemoramos, vá gozar a companhia dos vossos Santos escolhidos; e espalhai sobre ela o orvalho perpétuo da vossa misericórdia. Por nosso Senhor...</p>
       </div>
 
       <h2>Secreta</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera, quǽsumus, Dómine, quæ tibi pro ánima fámuli tui <span className="text-red-500">N.</span> (fámulæ tuæ <span className="text-red-500">N.</span>) offérimus, placátus inténde: ut, remédiis purgáta cœléstibus, in tua pietáte requiéscat. Per Dóminum...</p>
       <p>Aceitai benignamente, Senhor, Vos imploramos, as oblatas que Vos oferecemos pela alma do vosso servo (ou vossa serva) <span className="text-red-500">N.</span>, a fim de que, purificada com estes remédios celestiais, descanse no seio da vossa misericórdia. Por nosso Senhor...</p>
       </div>
 
       <h2>Postcomúnio</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, Dómine, preces nostras pro ánima fámuli tui <span className="text-red-500">N.</span> (fámulæ tuæ <span className="text-red-500">N.</span>): ut, si quæ ei máculæ de terrénis contágiis adhæsérunt, remissiónis tuæ misericórdia deleántur. Per Dóminum...</p>
       <p>Recebei, Senhor, estas nossas preces, que Vos oferecemos em favor da alma do vosso servo (ou vossa serva) <span className="text-red-500">N.</span>, a fim de que, se ainda está contaminada com algumas nódoas contraídas com o contágio deste mundo, todas sejam apagadas com vosso misericordioso perdão. Por nosso Senhor...</p>
       </div>
@@ -95,7 +95,7 @@ S. João.</p>
 
       <h2>Oração</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, indulgentiárum Dómine: da ánimæ famuli tui <span className="text-red-500">N.</span> (fámulæ tuæ <span className="text-red-500">N.</span>, vel animábus famulórum famularúmque tuárum), cujus (quorum) anniversárium depositiónis diem commemorámus, refrigérii sedem, quiétis beatitúdinem et lúminis claritátem. Per Dóminum...</p>
       <p>Ó Deus, Senhor das misericórdias, concedei às almas do vosso servo (ou vossa serva <span className="text-red-500">N.</span>), de cujo dia da morte celebramos o aniversário, o lugar do refrigério, a bem-aventurança do repouso e o esplendor da luz. Por nosso Senhor...</p>
       </div>
@@ -104,7 +104,7 @@ S. João.</p>
 
 <em>2 Mac. 12, 43-46</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Machabæórum.</p>
       <p>Lição do livro dos Macabeus.</p>
       <p>In diébus illis: Vir fortíssimus Judas, facta collatióne, duódecim mília drachmas argénti misit Jerosólymam, offérri pro peccátis mortuórum sacrifícium, bene et religióse de resurrectióne cógitans (nisi enim eos, qui cecíderant, resurrectúros speráret, supérfluum viderétur et vanum oráre pro mórtuis): et quia considerábat, quod hi, qui cum pietáte dormitiónem accéperant, óptimam habérent repósitam grátiam. Sancta ergo et salúbris est cogitátio pro defunctis exoráre, ut a peccátis solvántur.</p>
@@ -115,7 +115,7 @@ S. João.</p>
 
 <em>Jo. 6, 37-40</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -125,14 +125,14 @@ S. João.</p>
 
       <h2>Secreta</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propitiáre, Dómine, supplicatiónibus nostris, pro anima famuli tui <span className="text-red-500">N.</span> (fámulæ tuæ <span className="text-red-500">N.</span>, vel animábus famulórum famularúmque tuárum), cujus (quorum) hódie ánnua dies ágitur: pro qua (quibus) tibi off érimus sacrifícium laudis; ut eam (eas) Sanctórum tuórum consórtio soci áre dignéris. Per Dóminum...</p>
       <p>Sede propício, Senhor, às nossas súplicas em favor da alma do vosso servo (ou vossa serva) <span className="text-red-500">N.</span>, cujo aniversário da sua morte hoje comemoramos; nós Vos oferecemos por ela este sacrifício de louvor, a fim de que Vos digneis admiti-la na companhia dos vossos santos. Por nosso Senhor...</p>
       </div>
 
       <h2>Postcomúnio</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, Dómine: ut ánima fámuli tui <span className="text-red-500">N.</span> (fámulæ tuæ <span className="text-red-500">N.</span>, vel ánimæ famulórum famularúmque tuárum), cujus (quorum) anniversárium depositiónis diem commemorámus; his purgáta (purgátæ) sacrifíciis, indulgéntiam páriter et réquiem cápiat (cápiant) sempitérnam. Per Dóminum...</p>
       <p>Senhor, Vos rogamos, permiti que a alma do vosso servo (ou vossa serva) <span className="text-red-500">N.</span>, cujo aniversário da sua morte hoje comemoramos, havendo sido purificada pela virtude destes sacrifícios, receba ao mesmo tempo a indulgência e o sempiterno perdão. Por nosso Senhor...</p>
       </div>
@@ -147,7 +147,7 @@ S. João.</p>
 
 <aside>Bispos e Padres</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui inter apostólicos Sacerdotes fámulos tuos pontificáli seu sacerdotáli fecísti dignitáte vigére: præsta, quǽsumus; ut eórum quoque perpetuo aggregéntur consórtio. Per Dóminum...</p>
       <p>Ó Deus, que elevastes os vossos servos à dignidade de Pontífices e de Presbíteros, permitindo-lhes que tomassem parte no sacerdócio dos Apóstolos, concedei-lhes, Vos suplicamos, a graça de gozarem com eles a glória eterna. Por nosso Senhor...</p>
       </div>
@@ -156,7 +156,7 @@ S. João.</p>
 
 <aside>Irmãos, Parentes e Benfeitores</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, véniæ largítor et humánæ salútis amátor: quǽsumus cleméntiam tuam; ut nostræ congregatiónis fratres, propínquos et benefactóres, qui ex hoc sǽculo transiérunt, beáta María semper Vírgine intercedénte cum ómnibus Sanctis tuis, ad perpétuæ beatitúdinis consórtium perveníre concédas. Per Dóminum...</p>
       <p>Ó Deus, que perdoais aos pecadores e desejais a salvação dos homens, imploramos a vossa clemência, por intercessão da bem-aventurada Maria, sempre Virgem, e de todos os Santos, em favor dos nossos irmãos, parentes e benfeitores, que saíram deste mundo, a fim de que alcancem a bem-aventurança eterna. Por nosso Senhor...</p>
       </div>
@@ -165,7 +165,7 @@ S. João.</p>
 
 <aside>Fiéis</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fidélium, Deus, ómnium Cónditor et Redémptor: animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum; ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur: Qui vivis...</p>
       <p>Ó Deus, criador e redentor de todos os fiéis, concedei às almas dos vossos servos e servas a remissão de todos seus pecados, a fim de que pelas nossas humilíssimas orações alcancem da vossa misericórdia o perdão que sempre desejaram. Ó Vós, que, sendo Deus, viveis e...</p>
       </div>
@@ -174,7 +174,7 @@ S. João.</p>
 
 <em>Ap. 14, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Apocalýpsis beáti Joánnis Apóstoli.</p>
       <p>Lição do Apocalipse do B. Ap.º João.</p>
       <p>In diébus illis: Audívi vocem de cœlo, dicéntem mihi: Scribe: Beáti mórtui, qui in Dómino moriúntur. Amodo jam dicit Spíritus, ut requiéscant a labóribus suis: ópera enim illórum sequúntur illos.</p>
@@ -185,14 +185,14 @@ S. João.</p>
 
 <em>4 Esd. 2, 34 & 35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. ℣. <em>Ps. 111, 7</em> In memória ætérna erit justus: ab auditióne mala non timébit.</p>
       <p>Dai-lhes, Senhor, o eterno repouso, e que lhes resplandeça a luz perpétua. ℣. <em>Sl. 111, 7</em> A recordação do homem justo permanecerá eternamente; este não temerá ouvir as sentenças más dos homens.</p>
       </div>
 
       <h2>Trato</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Absólve, Dómine, ánimas ómnium fidélium defunctórum ab omni vínculo delictórum. ℣. Et grátia tua illis succurrénte, mereántur evádere judícium ultiónis. ℣. Et lucis ætérnæ beatitúdine pérfrui.</p>
       <p>Livrai, Senhor, as almas dos fiéis defuntos das cadeias dos seus pecados: ℣. E que com o socorro da vossa graça consigam evitar o juízo da vingança: ℣. E alcancem a bem-aventurança da luz eterna.</p>
       </div>
@@ -201,7 +201,7 @@ S. João.</p>
 
 <em>Jo. 6, 51-55</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -213,7 +213,7 @@ S. João.</p>
 
 <aside>Bispos e Padres</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, Dómine, quǽsumus, pro animábus famulórum tuórum Pontíficum seu Sacerdótum, quas offérimus, hóstias: ut, quibus in hoc sǽculo pontificále seu sacerdotále donásti méritum, in cœlésti regno Sanctórum tuórum júbeas jungi consórtio. Per Dóminum...</p>
       <p>Aceitai, Senhor, Vos rogamos, a hóstia que Vos oferecemos pelas almas dos vossos servos Pontífices e Presbíteros, e ordenai que aqueles a quem neste mundo concedestes a dignidade de Pontífices e de Presbíteros sejam admitidos no reino celestial a compartilhar da felicidade dos vossos Santos. Por nosso Senhor...</p>
       </div>
@@ -222,7 +222,7 @@ S. João.</p>
 
 <aside>Irmãos, Parentes e Benfeitores</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, cujus misericórdiæ non est númerus, súscipe propítius preces humilitátis nostræ: et animábus fratrum, propinquórum et benefactórum nostrórum, quibus tui nóminis dedísti confessiónem, per hæc sacraménta salútis nostræ, cunctórum remissiónem tríbue peccatórum. Per Dóminum...</p>
       <p>Ó Deus, cuja misericórdia é infinita, ouvi benigno as nossas humildes preces, e concedei, pela virtude deste sacramento da nossa salvação, o perdão dos seus pecados às almas dos nossos irmãos, parentes e benfeitores, aos quais permitistes a graça de confessarem o vosso nome. Por nosso Senhor...</p>
       </div>
@@ -231,7 +231,7 @@ S. João.</p>
 
 <aside>Fiéis</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias, quǽsumus, Dómine, quas tibi pro animábus famulórum famularúmque tuárum offérimus, propitiátus inténde: ut, quibus fídei christiánæ méritum contulísti, dones et prǽmium. Per Dóminum nostrum...</p>
       <p>Olhai benigno, Senhor, Vos suplicamos, para a hóstia que Vos oferecemos pelas almas dos vossos servos, a fim de que, depois de lhes haverdes concedido o dom da fé cristã, lhes proporcioneis a recompensa. Por nosso Senhor...</p>
       </div>
@@ -240,7 +240,7 @@ S. João.</p>
 
 <aside>Bispos e Padres</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Prosit, quǽsumus, Dómine, animábus famulórum tuórum Pontíficum seu Sacerdótum misericórdiæ tuæ imploráta cleméntia: ut ejus, in quo speravérunt et credidérunt, ætérnum cápiant, te miseránte, consórtium. Per Dóminum nostrum...</p>
       <p>Senhor, tornai úteis às almas dos Pontífices e dos Presbíteros, vossos servos, as orações com que imploramos a vossa misericordiosa bondade, a fim de que Vós, em quem eles puseram a fé e a esperança, os associeis à vossa eterna e gloriosa companhia. Por nosso Senhor...</p>
       </div>
@@ -249,7 +249,7 @@ S. João.</p>
 
 <aside>Irmãos, Parentes e Benfeitores</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens et miséricors Deus: ut ánimæ fratrum, propinquórum et benefactórum nostrórum, pro quibus hoc sacrifícium laudis tuæ obtúlimus majestáti; per hujus virtútem sacraménti a peccátis ómnibus expiátæ, lucis perpétuæ, te miseránte, recípiant beatitúdinem. (Per Dóminum nostrum.)...</p>
       <p>Ó Deus omnipotente e misericordioso, Vos pedimos, concedei às almas dos nossos irmãos, parentes e benfeitores, pelos quais oferecemos à vossa majestade este sacrifício de louvor, a graça de alcançarem da vossa misericórdia, pela virtude deste sacramento, a expiação dos pecados e a felicidade da luz eterna. Por nosso Senhor...</p>
       </div>
@@ -258,7 +258,7 @@ S. João.</p>
 
 <aside>Fiéis</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Animábus, quǽsumus, Dómine, famulórum famularúmque tuárum orátio profíciat supplicántium: ut eas et a peccátis ómnibus éxuas, et tuæ redemptiónis fácias esse partícipes: Qui vivis...</p>
       <p>Que as nossas humildes preces sejam proveitosas às almas dos vossos servos e servas, a fim de que, livres das cadeias dos seus pecados, participem dos frutos da vossa redenção. Por nosso Senhor...</p>
       </div>

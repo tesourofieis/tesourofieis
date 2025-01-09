@@ -2,7 +2,7 @@
 import "../../../../global.css";
 
 import React from 'react';
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from "~/components/Tabs";
 import Salmo92 from './../salterio/092';
 import Salmo99 from './../salterio/099';
 import Salmo62 from './../salterio/062';
@@ -28,7 +28,7 @@ export default function PageLaudes() {
 
 <TabItem label="Depois da Purificação">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -46,13 +46,13 @@ export default function PageLaudes() {
 
 <Salmo92 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Assumpta est Maria in cælum: gaudete angeli, laudantes benedicunt Dominum.</p>
       <p><em>Ant.</em> Maria foi exaltada ao céu; os anjos se alegram, louvam, e glorificam
 o Senhor.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Maria Virgo assumpta est ad ætherum thalamum, in quo Rex regum stellato sedet solio.</p>
       <p><em>Ant.</em> A Virgem Maria foi exaltada ao tálamo celeste, onde o Rei dos reis está sentado num trono de estrelas.</p>
       </div>
@@ -62,12 +62,12 @@ o Senhor.</p>
 
 <Salmo99 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Maria Virgo assumpta est ad ætherum thalamum, in quo Rex regum stellato sedet solio.</p>
       <p><em>Ant.</em> A Virgem Maria foi exaltada ao tálamo celeste, onde o Rei dos reis está sentado num trono de estrelas.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> In odorem unguentorum tuorum currimus: adolescentulæ dilexerunt te nimis.</p>
       <p><em>Ant.</em> Todos corremos à fragrância dos vossos aromas, as donzelas amar-vos-ão grandemente.</p>
       </div>
@@ -77,12 +77,12 @@ o Senhor.</p>
 
 <Salmo62 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> In odorem unguentorum tuorum currimus: adolescentulæ dilexerunt te nimis.</p>
       <p><em>Ant.</em> Todos corremos à fragrância dos vossos aromas, as donzelas amar-vos-ão grandemente.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Benedicta filia tu a Domino: quia per te fructum vitaæ communicavimus.</p>
       <p><em>Ant.</em> Sois a filha bendita do Senhor, porque por vós recebemos o fruto da vida.</p>
       </div>
@@ -94,12 +94,12 @@ o Senhor.</p>
 
 <aside>Não se diz a Glória no fim.</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Benedicta filia tu a Domino: quia per te fructum vitaæ communicavimus.</p>
       <p><em>Ant.</em> Sois a filha bendita do Senhor, porque por vós recebemos o fruto da vida.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Pulchra es et decora, filia Jerusalem: terribus ut castrorum acies ordinara.</p>
       <p><em>Ant.</em> Filha de Jerusalém, sois bela e decorosa, terrível como um exército formado em linha.</p>
       </div>
@@ -109,7 +109,7 @@ o Senhor.</p>
 
 <Salmo148 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Pulchra es et decora, filia Jerusalem: terribus ut castrorum acies ordinara.</p>
       <p><em>Ant.</em> Filha de Jerusalém, sois bela e decorosa, terrível como um exército formado em linha.</p>
       </div>
@@ -118,7 +118,7 @@ o Senhor.</p>
 
 <em>Ct. 6, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Viderunt eam filiæ Sion, et beatissimam prædicaverunt, et reginæ laudaverunt eam.</p>
       <p>Viram-na as Filhas de Sião, e a declararam beatíssima; e as Rainhas a louvaram.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -132,14 +132,14 @@ o Senhor.</p>
 
       <h2>Ofício 1</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Beata dei genitrix, Maria, Virgo perpetua, templum Domini, sacrarium Spiritus Sancti, sola sine exemplo placuisti Domino nostro Jesu Christo: ora pro populo, interveni pro clero, intercede pro devoto femineo sexu.</p>
       <p><em>Ant.</em> Ó Santa Mãe de Deus, Maria sempre Virgem, templo de Deus, sacrário do Espírito Santo; vós apenas, sem exemplo, agradastes Nosso Senhor Jesus Cristo: rezei por nós, intervinde pelo clero, intercedei pelo devoto sexo feminino.</p>
       </div>
 
       <h2>No Tempo Pascal</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Regína Cæli, lætáre, allelúja; Quia quem meruísti portáre, allelúja; Resurréxit, sicut dixit, allelúja; Ora pro nóbis Deum, allelúja.</p>
       <p><em>Ant.</em> Rainha do Céu, alegrai-Vos, Aleluia! Porque Aquele que merecestes trazer em vosso ventre, Aleluia! Ressuscitou como disse, Aleluia! Rogai por nós a Deus, Aleluia!</p>
       </div>
@@ -151,14 +151,14 @@ o Senhor.</p>
 
       <h2>Ofício 1</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Beata dei genitrix, Maria, Virgo perpetua, templum Domini, sacrarium Spiritus Sancti, sola sine exemplo placuisti Domino nostro Jesu Christo: ora pro populo, interveni pro clero, intercede pro devoto femineo sexu.</p>
       <p><em>Ant.</em> Ó Santa Mãe de Deus, Maria sempre Virgem, templo de Deus, sacrário do Espírito Santo; vós apenas, sem exemplo, agradastes Nosso Senhor Jesus Cristo: reza por nós, intervém pelo clero, intercede pelo devoto sexo feminino.</p>
       </div>
 
       <h2>No Tempo Pascal</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Regína Cæli, lætáre, allelúja; Quia quem meruísti portáre, allelúja; Resurréxit, sicut dixit, allelúja; Ora pro nóbis Deum, allelúja.</p>
       <p><em>Ant.</em> Rainha do Céu, alegrai-Vos, Aleluia! Porque Aquele que merecestes trazer em vosso ventre, Aleluia! Ressuscitou como disse, Aleluia! Rogai por nós a Deus, Aleluia!</p>
       <p><span className="text-red-500 text-center">Orémus.</span></p>
@@ -173,7 +173,7 @@ o Senhor.</p>
 
 <TabItem label="No Advento">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -189,12 +189,12 @@ o Senhor.</p>
 
 <Salmo92 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Missus est Gábriel Angelus ad Maríam Vírginem desponsátam Joseph.</p>
       <p><em>Ant.</em> O Anjo Gabriel foi mandado à Virgem Maria, desposada com José.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus.</p>
       <p><em>Ant.</em> Ave, Maria, cheia de graça, o Senhor é convosco; bendita sois vós entre as mulheres.</p>
       </div>
@@ -203,12 +203,12 @@ o Senhor.</p>
 
 <Salmo99 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus.</p>
       <p><em>Ant.</em> Ave, Maria, cheia de graça, o Senhor é convosco; bendita sois vós entre as mulheres.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ne timeas, María, invenísti grátiam apud Dóminum: ecce concípies et páries fílium.</p>
       <p><em>Ant.</em> Não temais, ó Maria, achastes graça para com o Senhor: concebereis, e dareis à luz um filho.</p>
       </div>
@@ -217,12 +217,12 @@ o Senhor.</p>
 
 <Salmo62 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ne timeas, María, invenísti grátiam apud Dóminum: ecce concípies et páries fílium.</p>
       <p><em>Ant.</em> Não temais, ó Maria, achastes graça para com o Senhor: concebereis, e dareis à luz um filho.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Dabit ei Dóminus sedem David, patris ejus, et regnábit in ætérnum.</p>
       <p><em>Ant.</em> O Senhor lhe dará o trono de David seu Pai, e reinará eternamente.</p>
       </div>
@@ -233,12 +233,12 @@ o Senhor.</p>
 
 <aside>Não se diz a Glória no fim.</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Dabit ei Dóminus sedem David, patris ejus, et regnábit in ætérnum.</p>
       <p><em>Ant.</em> O Senhor lhe dará o trono de David seu Pai, e reinará eternamente.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce ancílla Dómini: fiat mihi secúndum verbum tuum.</p>
       <p><em>Ant.</em> Eis aqui a escrava do Senhor, faça-se em mim segundo a vossa palavra.</p>
       </div>
@@ -247,7 +247,7 @@ o Senhor.</p>
 
 <Salmo148 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce ancílla Dómini: fiat mihi secúndum verbum tuum.</p>
       <p><em>Ant.</em> Eis aqui a escrava do Senhor, faça-se em mim segundo a vossa palavra.</p>
       </div>
@@ -256,7 +256,7 @@ o Senhor.</p>
 
 <em>Is. 11, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Egredietur virga de radice Jesse, et flos de radice ejus ascendet. Et requiescet super eum Spiritus Domini.</p>
       <p>Sairá uma vara da raiz de Jessé, e subirá uma flor da sua raiz, e descansará sobre ele o Espírito do Senhor.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -267,14 +267,14 @@ o Senhor.</p>
 
 <OGloriosaVirginum />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Benedicta tu in mulieribus.</p>
       <p>℣. Bendita sois vóo entre as mulheres.</p>
       <p><span className="text-red-500">℟.</span> Et benedictus fructus ventris tui.</p>
       <p><span className="text-red-500">℟.</span> E bendito é o fruto do vosso ventre.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Spiritus Sanctus in te descendet, Maria: ne timeas, habebis in utero filium Dei, (allelúja).</p>
       <p><em>Ant.</em> O Espírito Santo descerá sobre vós, ó Maria; não temais: concebereis, e tereis no ventre o Filho de Deus, (aleluia).</p>
       </div>
@@ -283,7 +283,7 @@ o Senhor.</p>
 
 <Benedictus />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Spiritus Sanctus in te descendet, Maria: ne timeas, habebis in utero filium Dei, (allelúja).</p>
       <p><em>Ant.</em> O Espírito Santo descerá sobre vós, ó Maria; não temais: concebereis, e tereis no ventre o Filho de Deus, (aleluia).</p>
       <p>℣. Domine, exaudi orationem meam.</p>
@@ -314,7 +314,7 @@ o Senhor.</p>
 
 <TabItem label="No Natal">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -331,12 +331,12 @@ o Senhor.</p>
 
 <Salmo92 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> O admirabile commercium: Creator generis humani, animatum corpus sumens, de Virgine nasci dignatus est: et procedens homo sine semine, largitus est nobis suam Deitatem.</p>
       <p><em>Ant.</em> Ó admirável permuta! O Criador do género humano, tomando corpo e alma, dignou-se nascer de uma Virgem; e, feito homem sem progenitor, tornou-nos participantes da sua divindade.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Quando natus es inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut pluvia in vellus descendisti, ut salvum faceres genus humanum: te laudamus, Deus noster.</p>
       <p><em>Ant.</em> Quando nascestes misteriosamente da Virgem, então se cumpriram as Escrituras: descestes como a chuva sobre a lã, para salvar a humanidade. Nós Vos louvamos, ó Nosso Deus.</p>
       </div>
@@ -345,12 +345,12 @@ o Senhor.</p>
 
 <Salmo99 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Quando natus es inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut pluvia in vellus descendisti, ut salvum faceres genus humanum: te laudamus, Deus noster.</p>
       <p><em>Ant.</em> Quando nascestes misteriosamente da Virgem, então se cumpriram as Escrituras: descestes como a chuva sobre a lã, para salvar a humanidade. Nós Vos louvamos, ó Nosso Deus.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Rubum, quem viderat Moyses incombustum, conservatam agnovimus tuam laudabilem virginitatem: Dei Genitrix, intercede pro nobis.</p>
       <p><em>Ant.</em> Na sarça que Moisés via sem se consumir, reconhecemos a vossa admirável virgindade conservada: rogai por nós, Santa Mãe de Deus.</p>
       </div>
@@ -359,12 +359,12 @@ o Senhor.</p>
 
 <Salmo62 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Rubum, quem viderat Moyses incombustum, conservatam agnovimus tuam laudabilem virginitatem: Dei Genitrix, intercede pro nobis.</p>
       <p><em>Ant.</em> Na sarça que Moisés via sem se consumir, reconhecemos a vossa admirável virgindade conservada: rogai por nós, Santa Mãe de Deus.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Germinavit radix Jesse, orta est stella ex Jacob; virgo peperit Salvatorem: te laudamus, Deus noster.</p>
       <p><em>Ant.</em> Floresceu a raiz de Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o Salvador: Nós Vos louvamos, ó Nosso Deus.</p>
       </div>
@@ -375,12 +375,12 @@ o Senhor.</p>
 
 <aside>Não se diz a Glória no fim.</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Germinavit radix Jesse, orta est stella ex Jacob; virgo peperit Salvatorem: te laudamus, Deus noster.</p>
       <p><em>Ant.</em> Floresceu a raiz de Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o Salvador: Nós Vos louvamos, Senhor nosso Deus.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce, Maria genuit nobis Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus Dei, ecce qui tollit peccata mundi, (allelúja).</p>
       <p><em>Ant.</em> Eis, Maria deu à luz o nosso Salvador, que João reconheceu e exclamou: eis o Cordeiro de Deus, Aquele que tira o pecado do mundo, (aleluia).</p>
       </div>
@@ -389,7 +389,7 @@ o Senhor.</p>
 
 <Salmo148 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce, Maria genuit nobis Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus Dei, ecce qui tollit peccata mundi, (allelúja).</p>
       <p><em>Ant.</em> Eis, Maria deu à luz o nosso Salvador, que João reconheceu e exclamou: eis o Cordeiro de Deus, Aquele que tira o pecado do mundo, (aleluia).</p>
       </div>
@@ -398,7 +398,7 @@ o Senhor.</p>
 
 <em>Is. 11, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Egredietur virga de radice Jesse, et flos de radice ejus ascendet. Et requiescet super eum Spiritus Domini.</p>
       <p>Sairá uma vara da raiz de Jessé, e subirá uma flor da sua raiz, e descansará sobre ele o Espírito do Senhor.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -409,7 +409,7 @@ o Senhor.</p>
 
 <OGloriosaVirginum />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Benedicta tu in mulieribus.</p>
       <p>℣. Bendita sois vós entre as mulheres.</p>
       <p><span className="text-red-500">℟.</span> Et benedicta fructus ventris tui.</p>
@@ -422,7 +422,7 @@ o Senhor.</p>
 
 <Benedictus />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Mirabile mysterium declaratur hodie: innovantur naturæ, Deus homo factus est: id quod fuit permansit, et quod non erat assumpsit; non commixtionem passus, neque divisionem.</p>
       <p><em>Ant.</em> Hoje se manifesta um admirável mystério: renovam-se as naturezas; Deus faz-se homem: ficando o que era, tomando o que não era, sem permitir divisão nem mistura.</p>
       <p>℣. Domine, exaudi orationem meam.</p>
@@ -453,7 +453,7 @@ o Senhor.</p>
 
 </Tabs>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Domine, exaudi orationem meam.</p>
       <p>℣. Ouvi, Senhor, a minha oração.</p>
       <p><span className="text-red-500">℟.</span> Et clamor meus ad te veniat.</p>

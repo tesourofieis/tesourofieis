@@ -18,7 +18,7 @@ export default function Page0402() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, humílium celsitúdo, qui beátum Francíscum Confessórem Sanctórum tuórum glória sublimásti: tríbue, quǽsumus; ut, ejus méritis et imitatióne, promíssa humílibus prǽmia felíciter consequámur. Per Dóminum...</p>
       <p>Ó Deus, grandeza dos humildes, que coroastes com a glória dos vossos Santos o B. Francisco, Confessor, concedei-nos, pelos seus méritos e pela imitação das suas virtudes, Vos suplicamos, a felicidade de conseguirmos as recompensas prometidas aos humildes. Por nosso Senhor...</p>
       </div>
@@ -27,7 +27,7 @@ export default function Page0402() {
 
 <em>Fl. 3, 7-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epistola; beáti Pauli Apóstoli ad Philippénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.</p>
       <p>Fratres: Quæ mihi fuérunt lucra, hæc arbitrátus sum propter Christum detriménta. Verúmtamen exístimo ómnia detriméntum esse propter eminéntem sciéntiam Jesu Christi, Dómini mei: propter quem ómnia detriméntum feci et arbitror ut stércora, ut Christum lucrifáciam, et invéniar in illo, non habens meam justítiam, quæ ex lege est, sed illam, quæ ex fide est Christi Jesu: quæ ex Deo est justítia in fide, ad cognoscéndum illum, et virtútem resurrectiónis ejus, et societátem passiónum illíus: configurátus morti ejus: si quo modo occúrram ad resurrectiónem, quæ est ex mórtuis: non quod jam accéperim aut jam perféctus sim: sequor autem, si quo modo comprehéndam, inquo et comprehénsus sum a Christo Jesu.</p>
@@ -36,7 +36,7 @@ export default function Page0402() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc dona devótæ plebis, Dómine, quibus tua cumulámus altária, beáti Francísci méritis tibi grata nobísque salutária, te miseránte, reddántur. Per Dóminum...</p>
       <p>Que estes dons do vosso povo, que depositamos nos vossos altares, se tornem agradáveis a Vós, Senhor, e salutares para nós por intercessão dos méritos do B. Francisco, e por efeito da vossa misericórdia. Por nosso Senhor...</p>
       </div>
@@ -45,14 +45,14 @@ export default function Page0402() {
 
 <em>Mt. 19, 28 & 29</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis. (T.P. Allelúja.)</p>
       <p>Em verdade vos digo: «Vós, que abandonastes tudo e me seguistes, recebereis o cêntuplo e possuireis a vida eterna». (T.P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumpta, Dómine, sacraménta cœléstia: beáto Francísco Confessóre tuo intercedénte, precámur; ut et temporális vitæ subsídia nobis cónferant et ætérnæ. Per Dóminum nostrum...</p>
       <p>Senhor, Vos suplicamos, permiti que os celestiais sacramentos, que acabámos de receber, nos consigam, pela intercessão do B. Francisco, vosso Confessor, auxílios para a vida presente e para a eterna. Por nosso Senhor...</p>
       </div>

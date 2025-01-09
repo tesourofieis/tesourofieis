@@ -10,7 +10,7 @@ export default function Page014() {
       <h1>Salmo 14</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, quis habitábit in tabernáculo tuo? * Aut quis requiéscet in monte sancto tuo?</p>
       <p>Senhor, quem habitará no vosso tabernáculo? * Ou quem descansará no vosso santo monte?</p>
       <p>Qui ingréditur sine mácula, * et operátur justítiam:</p>

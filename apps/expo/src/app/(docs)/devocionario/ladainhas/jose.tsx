@@ -10,7 +10,7 @@ export default function PageJose() {
       <h1>Ladainha São José</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Kyrie, eleison.</p>
       <p>Senhor, tende piedade de nós.</p>
       <p>Christe, eleison.</p>

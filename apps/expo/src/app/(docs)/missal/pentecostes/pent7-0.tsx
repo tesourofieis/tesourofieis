@@ -14,14 +14,14 @@ export default function PagePent70() {
 
 <em>Sl. 46, 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis. <em>Ps. ibid., 3</em> Quóniam Dóminus excélsus, terríbilis: Rex magnus super omnem terram. ℣. Gloria Patri...</p>
       <p>Que todos os povos aplaudam, batendo palmas; que todos os povos com vozes de júbilo aclamem Deus. <em>Sl. ibid., 3</em> Pois o altíssimo Senhor é temível: Ele é o supremo Rei que domina toda a terra! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, cujus providéntia in sui dispositióne non fállitur: te súpplices exorámus; ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas. Per Dóminum...</p>
       <p>Ó Deus, cuja providência nunca se ilude nos seus desígnios, humildemente Vos suplicamos, afastai de nós tudo o que nos seja prejudicial e concedei-nos tudo o que nos possa ser proveitoso. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent70() {
 
 <em>Rm. 6, 19-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B, Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Humánum dico, propter infirmitátem carnis vestræ: sicut enim exhibuístis membra vestra servíre immundítiæ et iniquitáti ad iniquitátem, ita nunc exhibéte membra vestra servíre justítiæ in sanctificatiónem. Cum enim servi essétis peccáti, líberi fuístis justítiæ. Quem ergo fructum habuístis tunc in illis, in quibus nunc erubéscitis? Nam finis illórum mors est. Nunc vero liberáti a peccáto, servi autem facti Deo, habétis fructum vestrum in sanctificatiónem, finem vero vitam ætérnam. Stipéndia enim peccáti mors. Grátia autem Dei vita ætérna, in Christo Jesu, Dómino nostro.</p>
@@ -41,7 +41,7 @@ export default function PagePent70() {
 
 <em>Sl. 33, 12 & 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veníte, fílii, audíte me: timórem Dómini docébo vos. ℣. Accédite ad eum, et illuminámini: et fácies vestræ non confundéntur.</p>
       <p>Vinde, meus filhos, e escutai-me: Ensinar-vos-ei a temer o Senhor. ℣. Aproximai-Vos d’Ele e ficareis iluminados: então a vossa face não ficará envergonhada.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 46, 2</em> Omnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent70() {
 
 <em>Mt. 7, 15-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Dn. 3,40</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sicut in holocáustis aríetum et taurórum, et sicut in mílibus agnórum pínguium: sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi: quia non est confúsio confidéntibus in te, Dómine.</p>
       <p>Que este nosso sacrifício, que hoje Vos oferecemos, Vos seja agradável, como um holocausto de carneiros e de touros, ou de mil cordeiros gordos; pois para aqueles que confiam em vós, Senhor, não existe a confusão.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui legálium differéntiam hostiárum unius sacrifícii perfectione sanxísti: accipe sacrifícium a devótis tibi fámulis, et pari benedictióne, sicut múnera Abel, sanctífica; ut, quod sínguli obtulérunt ad majestátis tuæ honórem, cunctis profíciat ad salútem. Per Dóminum...</p>
       <p>Ó Deus, que unistes as diferentes hóstia da antiga lei em um sacrifício único e Perfeito, recebei este sacrifício, que Vos oferecem com devoção os vossos servos, e santificai-o com a mesma bênção que concedestes aos dons de Abel, a fim de que a oferta feita por cada um, em honra da vossa majestade, sirva de proveito para a salvação de todos. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Sl. 30, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Inclína aurem tuam, accélera, ut erípias me.</p>
       <p>Inclinai para mim os vossos ouvidos e apressai-Vos em livrar-me.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tua nos, Dómine, medicinális operátio, et a nostris perversitátibus cleménter expédiat, et ad ea, quæ sunt recta, perdúcat. Per Dóminum nostrum...</p>
       <p>Permiti, Senhor, que a acção medicinal nos afaste, clementemente, das nossas perversidades e nos conduza pelos caminhos da justiça. Por nosso Senhor...</p>
       </div>

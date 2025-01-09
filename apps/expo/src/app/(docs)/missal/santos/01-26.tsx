@@ -20,7 +20,7 @@ export default function Page0126() {
 
 <em>1 Jo. 3, 10-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Joánnis Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º S. João.</p>
       <p>Caríssimi: Omnis qui non est justus, non est ex Deo, et qui non díligit fratrem suum: quóniam hæc est annuntiátio, quam audístis ab inítio, ut diligátis altérutrum. Non sicut Cain, qui ex malígno erat, et occídit fratrem suum. Et propter quid occídit eum? Quóniam ópera ejus malígna erant: fratris autem ejus justa. Nolíte mirári fratres, si odit vos mundus. Nos scimus quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis qui odit fratrem suum, homicída est. Et scitis, quóniam omnis homicída non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere.</p>
@@ -36,7 +36,7 @@ export default function Page0126() {
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto Polycárpo Mártyre tuo atque Pontífice, sentiámus efféctum. Per Dóminum nostrum...</p>
       <p>Fortalecidos com a participação deste dom sacratíssimo, Vos suplicamos, Senhor, nosso Deus, que, por intercessão do B. Policarpo, vosso Mártir e Pontífice, sintamos o efeito do mystério que celebrámos. Por nosso Senhor...</p>
       </div>

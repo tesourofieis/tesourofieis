@@ -10,7 +10,7 @@ export default function Page055() {
       <h1>Salmo 55</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mei, Deus, quóniam conculcávit me homo: * tota die impúgnans tribulávit me.</p>
       <p>Tende misericórdia de mim, Deus, porque me calcou o homem: * angustiou-me combatendo-me todo o dia.</p>
       <p>Conculcavérunt me inimíci mei tota die: * quóniam multi bellántes advérsum me.</p>

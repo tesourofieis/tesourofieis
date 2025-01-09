@@ -10,7 +10,7 @@ export default function Page044() {
       <h1>Salmo 44</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Eructávit cor meum verbum bonum: * dico ego ópera mea Regi.</p>
       <p>Do meu coração saiu uma boa palavra: * minhas obras as digo ao Rei.</p>
       <p>Lingua mea cálamus scribæ: * velóciter scribéntis.</p>

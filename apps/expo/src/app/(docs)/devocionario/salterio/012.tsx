@@ -10,7 +10,7 @@ export default function Page012() {
       <h1>Salmo 12</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Úsquequo, Dómine, obliviscéris me in finem? * Úsquequo avértis fáciem tuam a me?</p>
       <p>Até quando, ó Senhor, me esquecereis para sempre? * Até quando afastareis de mim a vossa face?</p>
       <p>Quámdiu ponam consília in ánima mea, * dolórem in corde meo per diem?</p>

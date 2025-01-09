@@ -28,7 +28,7 @@ export default function PageAnjos() {
 
 <em>Ap. 5, 11-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Apocalýpsis beáti Joánnis Apóstoli.</p>
       <p>Lição do Apocalipse do B. Ap.º João.</p>
       <p>In diébus illis: Audívi vocem Angelórum multórum in circúitu throni, et animálium, et seniórum: et erat númerus eórum mília mílium, dicéntium voce magna: Dignus est Agnus, qui occísus est, accípere virtútem, et divinitátem, et sapiéntiam, et fortitúdinem, et honórem, et glóriam, et benedictiónem. Et omnem creatúram, quæ in cœlo est, et super terram, et sub terra, et quæ sunt in mari, et quæ in eo: omnes audívi dicéntes: Sedénti in throno, et Agno: benedíctio, et honor, et glória, et potéstas in sǽcula sæculórum. Et quátuor animália dicébant: Amen. Et vigínti quátuor senióres cecidérunt in fácies suas: et adoravérunt vivéntem in sǽcula sæculórum.</p>
@@ -39,7 +39,7 @@ export default function PageAnjos() {
 
 <em>Sl. 148,1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudáte Dóminum de cœlis: laudáte eum in excélsis. ℣. Laudáte eum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus.</p>
       <p>Louvai o Senhor nos céus! Louvai-O nas alturas celestiais. ℣. Louvai-O vós, Anjos; louvai-O vós, que constituís o seu exército.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 137, 1-2</em> In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo. Allelúja.</p>
@@ -52,14 +52,14 @@ Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e diz-se:
 
 <em>Sl. 102, 20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícite Dóminum, omnes Angeli ejus: potentes virtúte, qui fácitis verbum ejus. ℣. <em>ibid., 21-22</em> Benedícite Dómino, omnes virtútes ejus: minístri ejus, qui fácitis voluntátem ejus. ℣. Benedicite Dómino, ómnia ópera ejus: in omni loco dominatiónis ejus, bénedic, ánima mea, Dómino.</p>
       <p>Bendizei o Senhor, ó vós, todos os Anjos, heróis poderosos, executores das suas ordens e sempre fiéis aos seus chamamentos. ℣. <em>ibid., 21-22</em> Bendizei o Senhor, vós todos, que formais o seu exército; sois os seus ministros e cumpris a sua vontade! Bendizei o Senhor, ó obras todas do mesmo Senhor! Bendizei o Senhor em todos os lugares do seu domínio, ó minha alma.</p>
       </div>
 
 <aside>No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 137, 1-2</em> In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo Allelúja. ℣. <em>Matth. 28, 2</em> Angelus Dómini descéndit de cœlo, et accédens revólvit lápidem, et sedébat super eum. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 137, 1-2</em> Cantarei louvores em vossa honra diante dos Anjos; adorar-Vos-ei no vosso santo templo; e glorificarei o vosso nome. Aleluia. ℣. <em>Mt. 28, 2</em> Um Anjo do Senhor, havendo descido do céu, afastou a pedra e assentou-se sobre ela. Aleluia.</p>
       </div>
@@ -68,7 +68,7 @@ Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e diz-se:
 
 <em>Jo. 1, 47-51</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -93,14 +93,14 @@ S. João.</p>
 
       <h3>Comúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Angeli, Archángeli, Throni et Dominatiónes, Principátus et Potestátes, Virtútes cœlórum, Chérubim atque Séraphim, Dóminum benedícite in ætérnum. (T. P. Allelúja.)</p>
       <p>Bendizei o Senhor em todos os séculos, ó Anjos, Arcanjos, Tronos e Dominações, Principados, Potestades, Virtudes do céu, Querubins e Serafins. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Repléti, Dómine, benedictióne cœlésti, supplíciter implorámus: ut, quod fragili celebrámus offício, sanctórum Angelórum atque Archangelórum nobis prodésse sentiámus auxílio. Per Dóminum nostrum...</p>
       <p>Senhor, estando nós, agora, repletos com a bênção celestial, permiti Vos suplicamos, que este sacrifício, que celebramos apesar da nossa fragilidade, nos seja útil com o auxílio dos vossos Santos Anjos e Arcanjos. Por nosso Senhor...</p>
       </div>

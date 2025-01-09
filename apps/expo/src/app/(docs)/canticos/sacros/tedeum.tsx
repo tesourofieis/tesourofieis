@@ -10,7 +10,7 @@ export default function PageTedeum() {
       <h1>Te Deum</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Te Deum laudámus: te Dóminum confitémur. Te ætérnum Patrem omnis terra venerátur.</p>
       <p>Vos louvamos, ó Deus, e reconhecemos por Senhor. A Vós, ó Pai eterno, toda a terra adora.</p>
       <p>Tibi omnes ángeli, tibi cæli et univérse potestátes: tibi chérubim et séraphim incessábili voce proclámant: Sanctus, Sanctus, Sanctus, Dóminus Deus Sábaoth. Pleni sunt cæli et terra majestátis glóriæ tuæ.</p>
@@ -29,7 +29,7 @@ export default function PageTedeum() {
 
 <aside>O seguinte verso diz-se de joelhos:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sequens versus dícitur flexis génibus: Te ergo quǽsumus, tuis fámulis súbveni, quos pretióso sánguine redemísti.</p>
       <p>Vos suplicamos, pois, queirais socorrer vossos servos, que resgatastes com vosso precioso Sangue:</p>
       <p>Ætérna fac cum sanctis tuis in glória numerári.</p>

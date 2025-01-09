@@ -10,7 +10,7 @@ export default function Page132() {
       <h1>Salmo 132</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce quam bonum et quam jucúndum, * habitáre fratres in unum:</p>
       <p>O quão bom e quão jucundo é, * viverem os irmãos em união:</p>
       <p>Sicut unguéntum in cápite, * quod descéndit in barbam, barbam Aaron,</p>

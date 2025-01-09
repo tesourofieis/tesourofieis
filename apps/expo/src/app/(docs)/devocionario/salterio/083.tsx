@@ -10,7 +10,7 @@ export default function Page083() {
       <h1>Salmo 83</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quam dilécta tabernácula tua, Dómine virtútum: * concupíscit, et déficit ánima mea in átria Dómini.</p>
       <p>Quão amáveis são os vossos tabernáculos, Senhor dos exércitos: * a minha alma suspira e desfalece pelos átrios do Senhor.</p>
       <p>Cor meum, et caro mea * exsultavérunt in Deum vivum.</p>

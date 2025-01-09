@@ -14,14 +14,14 @@ export default function PageQuad30() {
 
 <em>Sl. 24, 15-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes meos: réspice in me, et miserére mei, quóniam únicus et pauper sum ego. <em>Ps. ibid., 1-2</em> Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam. ℣. Gloria Patri...</p>
       <p>Os meus olhos estão sempre fitos no Senhor, pois Ele livrará os meus pés do laço. Volvei vossos olhos para mim e tende misericórdia de mim, meu Deus, pois sou só e pobre. <em>Sl. ibid., 1-2</em> A Vós, Senhor, elevei a minha alma: meu Deus, confio em Vós, não ficarei envergonhado. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus, vota humílium réspice: atque, ad defensiónem nostram, déxteram tuæ majestátis exténde. Per Dóminum nostrum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, atendei aos humildes votos da nossa humildade; e que a dextra da vossa majestade nos conceda a sua protecção. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad30() {
 
 <em>Ef. 5, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Efésios.</p>
       <p>Fratres: Estote imitatores Dei, sicut fílii caríssimi: et ambuláte in dilectióne, sicut et Christus dilexit nos, et tradidit semetipsum pro nobis oblatiónem, et hostiam Deo in odorem suavitátis. Fornicatio autem et omnis immunditia aut avaritia nec nominetur in vobis, sicut decet sanctos: aut turpitudo aut stultiloquium aut scurrilitas, quæ ad rem non pertinet: sed magis gratiárum actio. Hoc enim scitóte intelligentes, quod omnis fornicator aut immundus aut avarus, quod est idolorum servitus, non habet hereditátem in regno Christi et Dei. Nemo vos sedúcat inanibus verbis: propter hæc enim venit ira Dei in filios diffidéntiæ. Nolíte ergo effici participes eórum. Erátis enim aliquando tenebrae: nunc autem lux in Dómino. Ut fílii lucis ambuláte: fructus enim lucis est in omni bonitate et justítia et veritáte.</p>
@@ -41,7 +41,7 @@ export default function PageQuad30() {
 
 <em>Sl. 9, 20 & 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exsúrge, Dómine, non præváleat homo: judicéntur gentes in conspéctu tuo. ℣. In converténdo inimícum meum retrórsum, infirmabúntur, et períbunt a facie tua.</p>
       <p>Erguei-Vos, Senhor, para que o homem não triunfe: que os povos sejam julgados na vossa presença! ℣. Quando o meu inimigo tiver fugido, eles tremerão e morrerão diante de Vós.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad30() {
 
 <em>Sl. 122, 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad te levávi óculos meos, qui hábitas in cœlis. ℣. Ecce, sicut óculi servórum in mánibus dominórum suórum. ℣. Et sicut óculi ancíllæ in mánibus dóminæ suæ: ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri. ℣. Miserére nobis, Dómine, miserére nobis.</p>
       <p>A Vós, que habitais nos céus, ergui os meus olhos. Como os olhos dos servos estão fixos na mão do seu senhor. ℣. E os olhos da escrava nas mãos da sua senhora; assim os nossos olhos se volvem e fixam em o Senhor, nosso Deus, até que tenha piedade de nós. ℣. Tende piedade de nós, Senhor, tende piedade de nós.</p>
       </div>
@@ -59,7 +59,7 @@ export default function PageQuad30() {
 
 <em>Lc. 11, 14-28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Erat Jesus ejíciens dæmónium, et illud erat mutum. Et cum ejecísset dæmónium, locútus est mutus, et admirátæ sunt turbæ. Quidam autem ex eis dixérunt: In Beélzebub, príncipe dæmoniórum, éjicit dæmónia. Et alii tentántes, signum de cœlo quærébant ab eo. Ipse autem ut vidit cogitatiónes eórum, dixit eis: Omne regnum in seípsum divísum desolábitur, et domus supra domum cadet. Si autem et sátanas in seípsum divísus est, quómodo stabit regnum ejus? quia dícitis, in Beélzebub me ejícere dæmónia. Si autem ego in Beélzebub ejício dæmónia: fílii vestri in quo ejíciunt? Ideo ipsi júdices vestri erunt. Porro si in dígito Dei ejício dæmónia: profécto pervénit in vos regnum Dei. Cum fortis armátus custódit átrium suum, in pace sunt ea, quæ póssidet. Si autem fórtior eo supervéniens vícerit eum, univérsa arma ejus áuferet, in quibus confidébat, et spólia ejus distríbuet. Qui non est mecum, contra me est: et qui non cólligit mecum, dispérgit. Cum immúndus spíritus exíerit de hómine, ámbulat per loca inaquósa, quærens réquiem: et non invéniens, dicit: Revértar in domum meam, unde exivi. Et cum vénerit, invénit eam scopis mundátam, et ornátam. Tunc vadit, et assúmit septem alios spíritus secum nequióres se, et ingréssi hábitant ibi. Et fiunt novíssima hóminis illíus pejóra prióribus. Factum est autem, cum hæc díceret: extóllens vocem quædam múlier de turba, dixit illi: Beátus venter, qui te portávit, et úbera, quæ suxísti. At ille dixit: Quinímmo beáti, qui áudiunt verbum Dei, et custódiunt illud.</p>
@@ -70,14 +70,14 @@ export default function PageQuad30() {
 
 <em>Sl. 18, 9, 10, 11 & 12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justítiæ Dómini rectæ, lætificántes corda, et judícia ejus dulci ora super mel et favum: nam et servus tuus custódit ea.</p>
       <p>Os preceitos do Senhor são rectos, alegrando o coração: e os seus juízos são mais doces que o favo de mel; assim, pois, ó Deus, o vosso servo guarda-os fielmente.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad sacrifícium celebrándum, subditórum tibi córpora mentésque sanctíficet. Per Dóminum...</p>
       <p>Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos pecados e santifique os corpos e as almas dos vossos servos, a fim de que celebrem dignamente este sacrifício. Por nosso Senhor...</p>
       </div>
@@ -86,14 +86,14 @@ export default function PageQuad30() {
 
 <em>Sl. 83, 4-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Passer invénit sibi domum, et turtur nidum, ubi repónat pullos suos: altária tua, Dómine virtútum, Rex meus, et Deus meus: beáti, qui hábitant in domo tua, in sǽculum sǽculi laudábunt te.</p>
       <p>O pássaro encontra um abrigo e a rola um ninho, para aí criarem os filhos. Assim eu encontre os vossos altares, Senhor dos exércitos, meu Rei e meu Deus! Felizes os que habitam na vossa casa e Vos louvam em todos os séculos dos séculos.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus absólve: quos tanti mystérii tríbuis esse partícipes. Per Dóminum...</p>
       <p>Senhor, assim como nos tornastes participantes de tão grande mystério, assim também, pela vossa misericórdia, livrai-nos de todos os pecados e perigos. Por nosso Senhor...</p>
       </div>

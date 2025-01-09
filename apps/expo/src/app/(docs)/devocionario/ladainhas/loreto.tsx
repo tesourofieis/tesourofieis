@@ -10,7 +10,7 @@ export default function PageLoreto() {
       <h1>Ladainha Nossa Senhora de Loreto</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Kyrie, eléison.</p>
       <p>Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -143,7 +143,7 @@ export default function PageLoreto() {
 
 <aside>No tempo do Advento:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Angelus Dómini nuntiávit Mariæ.</p>
       <p>℣. O Anjo do Senhor anunciou a Maria.</p>
       <p><span className="text-red-500">℟.</span> Et concépit de Spíritu Sancto.</p>
@@ -156,7 +156,7 @@ export default function PageLoreto() {
 
 <aside>Desde o Natal até à purificação da B. Virgem Maria:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Post partum, Virgo, invioláta permansísti.</p>
       <p>℣. Despois do parto permanecestes imaculada.</p>
       <p><span className="text-red-500">℟.</span> Dei Génetrix, intercéde pro nobis.</p>
@@ -169,7 +169,7 @@ export default function PageLoreto() {
 
 <aside>Da Purificação à Páscoa e após o Tempo Pascal até ao Advento:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Ora pro nobis, sancta Dei Génitrix.</p>
       <p>℣. Rogai por nós, santa Mãe de Deus.</p>
       <p><span className="text-red-500">℟.</span> Ut digni efficiámur promissiónibus Christi.</p>
@@ -182,7 +182,7 @@ export default function PageLoreto() {
 
 <aside>No Tempo Pascal:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Gaude et lætáre, Virgo Maria, allelúja.</p>
       <p>℣. Regozijai-vos e alegrai-vos, ó Virgem Maria, aleluia.</p>
       <p><span className="text-red-500">℟.</span> Quia surréxit Dóminus vere, allelúja.</p>

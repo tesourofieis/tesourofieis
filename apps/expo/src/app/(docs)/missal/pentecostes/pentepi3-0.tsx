@@ -14,14 +14,14 @@ export default function PagePentepi30() {
 
 <em>Jr. 29,11,12 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis. <em>Ps. 84, 2</em> Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria Patri...</p>
       <p>Disse o Senhor: tenho pensamentos de paz e não de ira: invocar-me-eis e ouvir-vos-ei; e farei regressar de todos os países os vossos cativos. <em>Sl. 84, 2</em> Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, infirmitatem nostram propítius réspice: atque, ad protegéndum nos, déxteram tuæ majestátis exténde. Per Dóminum...</p>
       <p>Ó Deus omnipotente e eterno, olhai benigno para a nossa fraqueza e estendei-nos a dextra da vossa majestade para nos proteger continuamente. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePentepi30() {
 
 <em>Rm. 12, 16-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Nolíte esse prudéntes apud vosmetípsos: nulli malum pro malo reddéntes: providéntes bona non tantum coram Deo, sed étiam coram ómnibus homínibus. Si fíeri potest, quod ex vobis est, cum ómnibus homínibus pacem habéntes: Non vosmetípsos defendéntes, caríssimi, sed date locum iræ. Scriptum est enim: Mihi vindícta: ego retríbuam, dicit Dóminus. Sed si esuríerit inimícus tuus, ciba illum: si sitit, potum da illi: hoc enim fáciens, carbónes ignis cóngeres super caput ejus. Noli vinci a malo, sed vince in bono malum.</p>
@@ -41,7 +41,7 @@ export default function PagePentepi30() {
 
 <em>Sl. 43, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula.</p>
       <p>Livrastes-nos, Senhor daqueles que nos afligiam: e confundistes os que nos odiavam. Glorificar-nos-emos constantemente em Deus e louvaremos eternamente o vosso nome.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 129, 12</em> De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePentepi30() {
 
 <em>Mt. 8, 1-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Sl. 129, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de profúndis clamávi ad te. Dómine.</p>
       <p>Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor, a minha voz: das profundezas dos abysmos Vos invoquei.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad sacrifícium celebrándum, subditórum tibi córpora mentésque sanctíficet. Per Dóminum...</p>
       <p>Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos delitos e santifique as almas e os corpos dos vossos súbditos, para que dignamente celebremos este sacrifício. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Mc. 11, 24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis, et fiet vobis.</p>
       <p>Na verdade vos digo: «Tudo o que pedirdes nas vossas orações, acreditai que o recebereis; e far-se-á como pedirdes».</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quos tantis, Dómine, largíris uti mystériis: quǽsumus; ut efféctibus nos eórum veráciter aptáre dignéris. Per Dóminum...</p>
       <p>Senhor, já que nos concedestes a graça de participarmos destes tão augustos mystérios, tornai-nos dignos, Vos suplicamos, de receberdes com eficácia os seus efeitos. Por nosso Senhor...</p>
       </div>

@@ -10,7 +10,7 @@ export default function Page032() {
       <h1>Salmo 32</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exsuláte, justi, in Dómino: * rectos decet collaudátio.</p>
       <p>Exultai no Senhor, ó justos: * aos rectos convém que O louvem.</p>
       <p>Confitémini Dómino in cíthara: * in psaltério decem chordárum psállite illi.</p>

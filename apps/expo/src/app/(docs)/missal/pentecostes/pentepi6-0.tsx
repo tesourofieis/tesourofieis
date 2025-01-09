@@ -14,14 +14,14 @@ export default function PagePentepi60() {
 
 <em>Jr. 29,11,12 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis. <em>Ps. 84, 2</em> Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria Patri...</p>
       <p>Disse o Senhor: tenho pensamentos de paz e não de ira: invocar-me-eis e ouvir-Vos-ei; e farei regressar de todos os países os vossos cativos. <em>Sl. 84, 2</em> Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, semper rationabília meditántes, quæ tibi sunt plácita, et dictis exsequámur et factis. Per Dóminum...</p>
       <p>Permiti, Vos imploramos, ó Deus omnipotente, que, meditando nós incessantemente nas coisas santas, pratiquemos sempre, tanto em palavras como em acções, o que seja do vosso agrado. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePentepi60() {
 
 <em>1 Ts, 1, 2-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.</p>
       <p>Fratres: Grátias ágimus Deo semper pro ómnibus vobis, memóriam vestri faciéntes in oratiónibus nostris sine intermissióne, mémores óperis fídei vestræ, et labóris, et caritátis, et sustinéntiæ spei Dómini nostri Jesu Christi, ante Deum et Patrem nostrum: sciéntes, fratres, dilécti a Deo, electiónem vestram: quia Evangélium nostrum non fuit ad vos in sermóne tantum, sed et in virtúte, et in Spíritu Sancto, et in plenitúdine multa, sicut scitis quales fuérimus in vobis propter vos. Et vos imitatóres nostri facti estis, et Dómini, excipiéntes verbum in tribulatióne multa, cum gáudio Spíritus Sancti: ita ut facti sitis forma ómnibus credéntibus in Macedónia et in Achája. A vobis enim diffamátus est sermo Dómini, non solum in Macedónia et in Achája, sed et in omni loco fides vestra, quæ est ad Deum, profécta est, ita ut non sit nobis necésse quidquam loqui. Ipsi enim de nobis annúntiant, qualem intróitum habuérimus ad vos: et quómodo convérsi estis ad Deum a simulácris, servíre Deo vivo et vero, et exspectáre Fílium ejus de cœlis (quem suscitávit ex mórtuis) Jesum, qui erípuit nos ab ira ventúra.</p>
@@ -41,7 +41,7 @@ export default function PagePentepi60() {
 
 <em>Sl. 43, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula.</p>
       <p>Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes os que nos odiavam. Glorificar-nos-emos constantemente em Deus e louvaremos eternamente o vosso nome.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 129, 12</em> De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePentepi60() {
 
 <em>Mt. 13, 31-35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Sl. 129, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de profúndis clamávi ad te. Dómine.</p>
       <p>Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor, a minha voz: das profundezas dos abysmos Vos invoquei.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc nos oblátio, Deus, mundet, quǽsumus, et rénovet, gubérnet et prótegat. Per Dóminum...</p>
       <p>Ó Deus, Vos imploramos, que esta oblação nos purifique, restaure, governe e guarde. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Mc. 11, 24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis, et fiet vobis.</p>
       <p>Na verdade vos digo: «Tudo o que pedirdes nas vossas orações, acreditai que o recebereis; e far-se-á como pedirdes».</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cœléstibus, Dómine, pasti delíciis: quǽsumus; ut semper éadem, per quæ veráciter vívimus, appétimus. Per Dóminum...</p>
       <p>Alimentados com as celestiais delícias, Senhor, Vos pedimos humildemente, concedei-nos que aspiremos continuamente a este mesmo alimento, pelo qual alcançaremos a verdadeira vida. Por nosso Senhor...</p>
       </div>

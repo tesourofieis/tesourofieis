@@ -10,7 +10,7 @@ export default function Page018() {
       <h1>Salmo 18</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cæli enárrant glóriam Dei: * et ópera mánuum ejus annúntiat firmaméntum.</p>
       <p>Os céus proclamam a glória de Deus: * e o firmamento anuncia a obra das suas mãos.</p>
       <p>Dies diéi erúctat verbum, * et nox nocti índicat sciéntiam.</p>

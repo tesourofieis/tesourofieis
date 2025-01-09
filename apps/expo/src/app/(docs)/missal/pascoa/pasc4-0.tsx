@@ -14,14 +14,14 @@ export default function PagePasc40() {
 
 <em>Sl. 97, 1 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cantáte Dómino cánticum novum, allelúja: quia mirabília fecit Dóminus, allelúja: ante conspéctum géntium revelávit justítiam suam, allelúja, allelúja, allelúja. <em>Ps. ibid., 1</em> Salvávit sibi déxtera ejus: et bráchium sanctum ejus. ℣. Gloria Patri...</p>
       <p>Cantai em honra do Senhor um hino novo, aleluia: porque operou maravilhas, aleluia: revelou a sua justiça, perante os olhos dos povos, aleluia, aleluia, aleluia. <em>Sl. ibid., 1</em> Alcançou vitória com sua dextra e com seu santo braço. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui fidélium mentes uníus éfficis voluntátis: da pópulis tuis id amáre quod prǽcipis, id desideráre quod promíttis; ut inter mundánas varietátes ibi nostra fixa sint corda, ubi vera sunt gáudia. Per Dóminum...</p>
       <p>Ó Deus, que unis os espíritos dos fiéis em uma só vontade, concedei aos vossos povos a graça de amarem o que mandais e de desejarem o que prometeis, a fim de que durante as inconstâncias deste mundo os nossos corações permaneçam fixos onde estão as verdadeiras alegrias. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePasc40() {
 
 <em>Tg. 1, 17-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Jacóbi Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º Tiago.</p>
       <p>Caríssimi: Omne datum óptimum, et omne donum perféctum desúrsum est, descéndens a Patre lúminum, apud quem non est transmutátio nec vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo veritátis, ut simus inítium áliquod creatúræ ejus. Scitis, fratres mei dilectíssimi. Sit autem omnis homo velox ad audiéndum: tardus autem ad loquéndum et tardus ad iram. Ira enim viri justítiam Dei non operátur. Propter quod abjiciéntes omnem immundítiam et abundántiam malítiæ, in mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras.</p>
@@ -39,7 +39,7 @@ export default function PagePasc40() {
 
       <h3>Gradual</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 117, 16</em> Déxtera Dómini fecit virtútem: déxtera Dómini exaltávit me. Allelúja. ℣. <em>Rom. 6, 9</em> Christus resúrgens ex mórtuis jam non móritur: mors illi ultra non dominábitur. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Ps. 117, 16</em> A dextra do Senhor mostrou o poder: a dextra do Senhor exaltou-me. Aleluia. ℣. <em>Rm. 6, 9</em> Cristo ressuscitou dos mortos, já não morrerá: a morte não mais O vencerá. Aleluia.</p>
       </div>
@@ -48,7 +48,7 @@ export default function PagePasc40() {
 
 <em>Jo. 16, 5-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Vado ad eum, qui misit me: et nemo ex vobis intérrogat me: Quo vadis? Sed quia hæc locútus sum vobis, tristítia implévit cor vestrum. Sed ego veritátem dico vobis: expédit vobis, ut ego vadam: si enim non abíero, Paráclitus non véniet ad vos: si autem abíero, mittam eum ad vos. Et cum vénerit ille. árguet mundum de peccáto et de justítia et de judício. De peccáto quidem, quia non credidérunt in me: de justítia vero, quia ad Patrem vado, et jam non vidébitis me: de judício autem, quia princeps hujus mundi jam judicátus est. Adhuc multa hábeo vobis dícere: sed non potéstis portáre modo. Cum autem vénerit ille Spíritus veritátis, docébit vos omnem veritátem. Non enim loquétur a semetípso: sed quæcúmque áudiet, loquétur, et quæ ventúra sunt, annuntiábit vobis. Ille me clarificábit: quia de meo accípiet et annuntiábit vobis.</p>
@@ -59,14 +59,14 @@ export default function PagePasc40() {
 
 <em>Sl. 65, 1-2 & 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jubiláte Deo, univérsa terra, psalmum dícite nómini ejus: veníte et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimæ meæ, allelúja.</p>
       <p>Ó povos de toda a terra, aclamai Deus com júbilo: cantai hinos em honra do seu nome: vinde, vós todos, que temeis Deus, vinde e escutai: e contar-vos-ei as mercês que Ele fez à minha alma, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos, per hujus sacrificii veneránda commércia, uníus summæ divinitátis partícipes effecísti: præsta, quǽsumus; ut, sicut tuam cognóscimus veritátem, sic eam dignis móribus assequámur. Per Dóminum...</p>
       <p>Ó Deus, que pelo sagrado comércio deste sacrifício nos tornastes participantes da vossa divindade una e suprema, fazei, Vos imploramos, que, assim como já conhecemos a vossa verdade, assim também, procedendo dignamente em os nossos costumes, consigamos alcançá-la. Por nosso Senhor...</p>
       </div>
@@ -75,14 +75,14 @@ export default function PagePasc40() {
 
 <em>Jo. 16, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cum vénerit Paráclitus Spíritus veritátis, ille árguet mundum de peccáto et de justítia et de judício, allelúja, allelúja.</p>
       <p>Quando o Consolador Espírito da verdade vier, convencerá o mundo acerca do pecado, da justiça e do juízo, aleluia, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adésto nobis, Dómine, Deus noster: ut per hæc, quæ fidéliter súmpsimus, et purgémur a vítiis et a perículis ómnibus eruámur. Per Dóminum nostrum...</p>
       <p>Assisti-nos, Senhor, nosso Deus, a fim de que por este sacramento, que recebemos com fé e sinceridade, sejamos purificados dos vícios e livres dos perigos. Por nosso Senhor...</p>
       </div>

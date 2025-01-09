@@ -10,7 +10,7 @@ export default function Page148() {
       <h1>Salmo 148</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudáte Dóminum de cælis: * laudáte eum in excélsis.</p>
       <p>Louvai o Senhor dos céus: * louvai-O nas alturas.</p>
       <p>Laudáte eum, omnes Ángeli ejus: * laudáte eum, omnes virtútes ejus.</p>

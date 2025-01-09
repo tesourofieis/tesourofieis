@@ -14,14 +14,14 @@ export default function Page2Martirpontificeforapascal() {
 
 <em>Ecl. 45, 30</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. <em>Ps. 131, 1</em> Meménto, Dómine, David: et omnis mansuetúdinis ejus. ℣. Gloria Patri...</p>
       <p>O Senhor fez com ele uma aliança de paz e proclamou-o príncipe, para que a dignidade sacerdotal lhe pertencesse eternamente. <em>Sl. 131, 1</em> Lembrai-Vos de David, ó Senhor, e da sua grande solicitude. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti <span className="text-red-500">N.</span> Martyris tui atque Pontíficis intercéssio gloriósa nos prótegat. Per Dóminum...</p>
       <p>Olhai para a nossa fraqueza, ó Deus omnipotente; e, visto que estamos oprimidos sob o peso dos nossos pecados, fazei que nos proteja a gloriosa intercessão do B. <span className="text-red-500">N.</span>, vosso Pontífice e Mártir. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page2Martirpontificeforapascal() {
 
 <em>Tg. 1, 12-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Jacóbi Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º Tiago.</p>
       <p>Caríssimi: Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se. Nemo, cum tentátur, dicat, quóniam a Deo tentátur: Deus enim intentátor malórum est: ipse autem néminem tentat. Unusquísque vero tentátur a concupiscéntia sua abstráctus et illéctus. Deinde Concupiscéntia cum concéperit, parit peccátum: peccátum vero cum consummátum fúerit, génerat mortem. Nolíte itaque erráre, fratres mei dilectíssimi. Omne datum óptimum et omne donum perféctum desúrsum est, descéndens a Patre lúminum, apud quem non est transmutátio nec vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo veritátis, ut simus inítium aliquod creatúræ ejus.</p>
@@ -41,7 +41,7 @@ export default function Page2Martirpontificeforapascal() {
 
 <em>Sl. 88, 21-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. ℣. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.</p>
       <p>Encontrei o meu servo David e ungi-o com meu óleo sagrado; a minha mão o auxiliará e o meu braço o fortificará. ℣. O inimigo nada poderá contra ele e o filho da iniquidade nenhum mal lhe fará.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.</p>
@@ -54,7 +54,7 @@ export default function Page2Martirpontificeforapascal() {
 
 <em>Sl. 20, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum. ℣. Quóniam prævenísti eum in benedictiónibus dulcédinis. ℣. Posuísti in cápite ejus corónam de lápide pretióso.</p>
       <p>Concedestes-lhe o desejo da sua alma: lhe não negastes o que seus lábios Vos pediram. ℣. Premuniste-lo com bênçãos de doçura. ℣. Impusestes na sua cabeça uma coroa de pedras preciosas.</p>
       </div>
@@ -63,7 +63,7 @@ export default function Page2Martirpontificeforapascal() {
 
 <em>Lc. 14, 26-33</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus. Et qui non bájulat crucem suam, et venit post me, non potest meus esse discípulus. Quis enim ex vobis volens turrim ædificáre, non prius sedens cómputat sumptus, qui necessárii sunt, si hábeat ad perficiéndum; ne, posteáquam posúerit fundaméntum, et non potúerit perfícere, omnes, qui vident, incípiant illúdere ei, dicéntes: Quia hic homo cœpit ædificáre, et non pótuit consummáre? Aut quis rex iturus commíttere bellum advérsus álium regem, non sedens prius cógitat, si possit cum decem mílibus occúrrere ei, qui cum vigínti mílibus venit ad se? Alióquin, adhuc illo longe agénte, legatiónem mittens, rogat ea, quæ pacis sunt. Sic ergo omnis ex vobis, qui non renúntiat ómnibus, quæ póssidet, non potest meus esse discípulus.</p>
@@ -74,14 +74,14 @@ export default function Page2Martirpontificeforapascal() {
 
 <em>Sl. 88, 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus.</p>
       <p>A minha fidelidade e a minha misericórdia estarão com ele: e o seu poder elevar-se-á pelo meu nome.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, beáti <span className="text-red-500">N.</span> Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum...</p>
       <p>Recebei benigno, Senhor, as hóstias que Vos oferecemos pelos merecimentos do B. <span className="text-red-500">N.</span>, vosso Mártir e Pontífice, e fazei que elas nos alcancem o vosso perpétuo socorro. Por nosso Senhor...</p>
       </div>
@@ -90,14 +90,14 @@ export default function Page2Martirpontificeforapascal() {
 
 <em>Sl. 88, 36 & 37-38</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Semel jurávi in sancto meo: Semen ejus in ætérnum manébit: et sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in ætérnum, et testis in cœlo fidélis.</p>
       <p>Jurei uma vez por minha santidade: sua descendência durará eternamente e o seu trono brilhará perante mim, como o sol, e como a lua permanecerá para sempre e será testemunho fiel no céu.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto <span className="text-red-500">N.</span> Mártyre tuo atque Pontífice, sentiámus efféctum. Per Dóminum...</p>
       <p>Fortalecidos com a participação do dom sacratíssimo, Vos pedimos, Senhor, nosso Deus, que, por intercessão do B. <span className="text-red-500">N.</span>, vosso Mártir e Pontífice, sintamos o efeito do mystério que hoje celebrámos. Por nosso Senhor...</p>
       </div>

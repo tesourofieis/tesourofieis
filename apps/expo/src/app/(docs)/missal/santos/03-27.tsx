@@ -14,14 +14,14 @@ export default function Page0327() {
 
 <em>Sl. 72, 24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me, et cum glória suscepísti me. (T. P. Allelúja, allelúja.) <em>Ps. ib., 1</em> Quam bonus Israël Deus his, qui recto sunt corde! ℣. Gloria Patri...</p>
       <p>Segurastes-me com a mão direita, conduzistes-me segundo a vossa vontade e acolhestes-me com gloria. (T. P. Aleluia, aleluia.) <em>Sl. ib., 1</em> Oh! como Deus de Israel é bom para com os que possuem coração recto. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui, ad cultum sacrarum imáginum asseréndum, beátum Joánnem cœlésti doctrina et admirábili spíritus fortitúdine imbuísti: concéde nobis ejus intercessióne et exémplo; ut, quorum cólimus imagines, virtútes imitémur et patrocínia sentiámus. Per Dóminum...</p>
       <p>Deus omnipotente e eterno, que para defesa do culto das imagens dos Santos inspirastes ao B. João uma doutrina celestial e lhe concedestes admirável constância para a sustentar, fazei por sua intercessão e exemplo que imitemos as virtudes daqueles cujas imagens honramos, e sintamos os efeitos desse patrocínio. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0327() {
 
 <em>Sb. 10, 10-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labóres illíus. In fraude circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum justum non derelíquit, sed a peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant: et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam. Hæc pópulum justum et semen sine querela liberávit a natiónibus, quæ illum deprimébant. Intrávit in ánimam servi Dei, et stetit contra reges horréndos in porténtis et signis. Et réddidit justis mercédem labórum suórum.</p>
@@ -41,7 +41,7 @@ export default function Page0327() {
 
 <em>Sl. 17, 33 & 35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui præcínxit me virtúte: et pósuit immaculátam viam meam. ℣. Qui docet manus meas ad prœlium: et posuísti, ut arcum ǽreum, bráchia mea.</p>
       <p>Foi Deus quem me revestiu com a força e tornou a minha vida sem mancha. ℣. Foi Deus quem adestrou as minhas mãos para o combate e tornou os meus braços rijos, como um arco de bronze.</p>
       </div>
@@ -50,14 +50,14 @@ export default function Page0327() {
 
 <em>ibid., 38, 39 & 50</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pérsequar inimícos meos, et comprehéndam illos. ℣. Confríngam illos, nec poterunt stare: cadent subtus pedes meos. ℣. Proptérea confitébor in natiónibus, Dómine, et nómini tuo psalmum dicam.</p>
       <p>Perseguirei os meus inimigos até alcançá-los. ℣. Hei-de vencê-los; não poderão erguer-se; e cairão debaixo de meus pés. ℣. Por isso, Senhor, hei-de louvar-Vos diante de todos os povos e cantarei hinos em honra do vosso nome.</p>
       </div>
 
 <aside>No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>1 Reg. 25, 26 & 28</em> Dóminus salvávit manum tuam tibi: quia prǿlia Dómini tu prœliáris. Allelúja. ℣. <em>Ps. 143, 1</em> Benedíctus Dóminus, Deus meus, qui docet manus meas ad prǿlium, et dígitos meos ad bellum. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>1 Rs. 25, 26 & 28</em> Guardou o Senhor a vossa vida, pois combatestes por Ele. Aleluia. ℣. <em>Sl. 143, 1</em> Bendito seja o Senhor, meu Deus, pois adestrou minhas mãos para o combate e meus dedos para a batalha. Aleluia.</p>
       </div>
@@ -66,7 +66,7 @@ export default function Page0327() {
 
 <em>Lc. 6, 6-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Factum est et in álio sábbato, ut intráret Jesus in synagógam et docéret. Et erat ibi homo, et manus ejus déxtera erat árida. Observábant autem scribæ et pharisǽi, si in sábbato curáret: ut invenírent, unde accusárent eum. Ipse vero sciébat cogitatiónes eórum. Et ait hómini, qui habébat manum áridam: Surge et sta in médium. Et surgens stetit. Ait autem ad illos Jesus: Intérrogo vos, si licet sábbatis benefácere, an male: ánimam salvam fácere, an pérdere? Et circumspéctis ómnibus dixit hómini: Exténde manum tuam. Et exténdit: et restitúta est manus ejus. Ipsi autem repléti sunt insipiéntia, et colloquebántur ad ínvicem, quidnam fácerent Jesu.</p>
@@ -77,14 +77,14 @@ export default function Page0327() {
 
 <em>Jb. 14, 7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lignum habet spem: sipræcísum fúerit, rursum viréscit, et rami ejus púllulant.</p>
       <p>A árvore tem esperança; pois, se a cortarem, torna a reverdescer e a lançar suas ramagens.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ut, quæ tibi, Dómine, offérimus, dona tuo sint digna conspéctu: beáti Joánnis et Sanctórum, quos ejus ópera expósitos in templis cólimus, pia suffragátio conspíret. Per Dóminum...</p>
       <p>Senhor, que os piedosos sufrágios do B. João e dos Santos, cujas imagens foram expostas nos templos graças ao seu zelo, sirvam para tornar dignos dos vossos olhares os dons que Vos oferecemos. Por nosso Senhor...</p>
       </div>
@@ -93,14 +93,14 @@ export default function Page0327() {
 
 <em>Sl. 36, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bráchia peccatórum conteréntur, confírmat autem justos Dóminus.</p>
       <p>Os braços dos maus serão quebrados; mas o Senhor fortificará os braços dos justos.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumpta nos, quǽsumus, Dómine, dona cœléstibus armis tueántur: et beáti Joánnis patrocínia circúmdent Sanctórum unánimi suffrágio cumuláta; quorum imágines evícit in Ecclésia esse venerándas. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, fazei que os dons recebidos sejam para nós uma armadura celeste, e que o patrocínio do B. João, unido aos sufrágios unânimes dos Santos, cujas imagens fez venerar nos templos, seja a nossa salvaguarda. Por nosso Senhor...</p>
       </div>

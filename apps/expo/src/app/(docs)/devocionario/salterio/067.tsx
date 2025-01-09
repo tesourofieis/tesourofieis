@@ -10,7 +10,7 @@ export default function Page067() {
       <h1>Salmo 67</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exsúrgat Deus, et dissipéntur inimíci ejus, * et fúgiant qui odérunt eum, a fácie ejus.</p>
       <p>Levante-se Deus e sejam dispersos os seus inimigos, * e da sua presença fujam os que o odeiam.</p>
       <p>Sicut déficit fumus, defíciant: * sicut fluit cera a fácie ignis, sic péreant peccatóres a fácie Dei.</p>

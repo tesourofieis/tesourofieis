@@ -14,14 +14,14 @@ export default function PagePasc72() {
 
 <em>4 Esd. 2, 36 & 37</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes Deo, allelúja: qui vos ad cœléstia regna vocávit, allelúja, allelúja, allelúja. <em>Ps. 77, 1</em> Atténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei. ℣. Gloria Patri...</p>
       <p>Recebei com alegria as delícias da vossa glória, aleluia: dai graças a Deus, aleluia: que vos chamou aos reinos celestiais, aleluia, aleluia. <em>Sl. 77, 1</em> Escutai a minha lei, ó meu povo: escutai as palavras que saem da minha boca. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adsit nobis, quǽsumus, Dómine, virtus Spíritus Sancti: quæ et corda nostra cleménter expúrget, et ab ómnibus tueátur advérsis. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, fazei que a virtude do Espírito Santo nos assista; e que pela sua clemência purifique os nossos corações e nos defenda de todas as adversidades. Por nosso Senhor...</p>
       </div>
@@ -30,14 +30,14 @@ export default function PagePasc72() {
 
 <em>Act. 8, 14-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Cum audíssent Apóstoli, qui erant Jerosólymis, quod recepísset Samaría verbum Dei, misérunt ad eos Petrum et Joánnem. Qui cum veníssent, oravérunt pro ipsis, ut accíperent Spíritum Sanctum: nondum enim in quemquam illórum vénerat, sed baptizáti tantum erant in nómine Dómini Jesu. Tunc imponébant manus super illos, et accipiébant Spíritum Sanctum.</p>
       <p>Naqueles dias, quando os Apóstolos estavam em Jerusalém, souberam que a Samaria recebera a palavra de Deus; e por isso enviaram para lá Pedro e João, os quais, logo que chegaram, oraram por eles, para que recebessem o Espírito Santo, que não havia ainda descido sobre nenhum deles, pois somente haviam sido baptizados no nome do Senhor Jesus. Então impuseram-lhes as mãos, recebendo o Espírito Santo.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Joann. 14, 26</em> Spíritus Sanctus docébit vos, quæcúmque díxero vobis. Allelúja. <em>hic genuflectitur</em> ℣. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.</p>
       <p>Aleluia, aleluia. ℣. <em>Jo. 14, 26</em> O Espírito Santo vos inspirará tudo o que vos tenho ensinado, aleluia. <em>Genuflecte-se</em> ℣. Vinde, Espírito Santo, enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.</p>
       </div>
@@ -46,7 +46,7 @@ export default function PagePasc72() {
 
 <em>Jo. 10, 1-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -58,14 +58,14 @@ S. João.</p>
 
 <em>Sl. 77, 23-25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Portas cœli aperuit Dóminus: et pluit illis manna, ut éderent: panem cœli dedit eis, panem Angelórum manducávit homo, allelúja.</p>
       <p>O Senhor abriu as portas do céu: fez chover maná, para que o comessem: e deu-lhes o pão do céu. O homem comeu o pão dos Anjos, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Puríficet nos, quǽsumus. Dómine, múneris præséntis oblátio: et dignos sacra participatióne effíciat. Per Dóminum nostrum...</p>
       <p>Senhor, Vos suplicamos, fazei que a oferta deste sacrifício nos purifique e nos torne dignos de participarmos deste mystério sagrado. Por nosso Senhor...</p>
       </div>
@@ -74,14 +74,14 @@ S. João.</p>
 
 <em>Jo. 15, 26; 16, 14; 17, 1 & 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Spíritus qui a Patre procédit, allelúja: ille me clarificábit, allelúja, allelúja.</p>
       <p>O Espírito, que procede do Pai, aleluia, glorificar-me-á, aleluia, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mentes nostras, quǽsumus, Dómine, Spíritus Sanctus divínis réparet sacraméntis: quia ipse est remíssio ómnium peccatórum. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, permiti que o Espírito Santo restaure com estes divinos sacramentos as nossas almas, pois Ele é a remissão de todos os pecados. Por nosso Senhor...</p>
       </div>

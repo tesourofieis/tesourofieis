@@ -10,7 +10,7 @@ export default function PageSantos() {
       <h1>Ladainha de Todos os Santos</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Kyrie eleison</p>
       <p>Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -264,7 +264,7 @@ export default function PageSantos() {
 
 <Salmo69 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Glória Patri...</p>
       <p>Glória ao Pai...</p>
       <p>℣. Salvos fac servos tuos.</p>

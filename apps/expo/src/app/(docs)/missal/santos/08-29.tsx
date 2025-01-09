@@ -14,21 +14,21 @@ export default function Page0829() {
 
 <em>Sl. 118, 46-47</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis. <em>Ps. 91, 2</em> Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime. ℣. Gloria Patri...</p>
       <p>Falava na presença dos reis sobre a vossa lei e não me envergonhava: meditava nos vossos mandamentos, que muito amei. <em>Sl. 91, 2</em> É bom louvar o Senhor e cantar hinos em honra do vosso nome, ó Altíssimo. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sancti Joánnis Baptístæ Præcursóris et Martyris tui, quǽsumus, Dómine, veneránda festívitas: salutáris auxílii nobis præstet efféctum: Qui vivis et regnas...</p>
       <p>Permiti, Senhor, Vos rogamos, que a veneranda festividade de S. João Baptista, vosso Precursor e Mártir, nos alcance o efeito do vosso salutar auxílio. Ó Vós, que...</p>
       </div>
 
       <h3>Oração Comemoração de Santa Sabina Santa Sabina</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili victóriam martýrii contulísti: concéde propítius; ut, qui beátæ Sabínæ Mártyris tuæ natalítia cólimus, per ejus ad te exémpla gradiámur. Per Dóminum nostrum...</p>
       <p>Ó Deus, que entre outros milagres do vosso poder permitistes que o sexo frágil alcançasse a vitória do martírio, concedei-nos propício que, venerando o nascimento da vossa B, Virgem e Mártir Sabina, caminhemos para Vós, imitando os seus exemplos. Por nosso Senhor...</p>
       </div>
@@ -37,7 +37,7 @@ export default function Page0829() {
 
 <em>Jr. 1, 17-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Jeremíæ Prophétæ.</p>
       <p>Lição do Profeta Jeremias.</p>
       <p>In diébus illis: Factum est verbum Dómini ad me, dicens: Accínge lumbos tuos, et surge, et lóquere ad Juda ómnia, quæ ego præcípio tibi. Ne formides a fácie eórum: nec enim timére te fáciam vultum eórum. Ego quippe dedi te hódie in civitátem munítam, et in colúmnam férream, et in murum ǽreum, super omnem terram, régibus Juda, princípibus ejus, et sacerdótibus, et pópulo terræ. Et bellábunt advérsum te, et non prævalebunt: quia ego tecum sum, ait Dóminus, ut líberem te.</p>
@@ -48,7 +48,7 @@ export default function Page0829() {
 
 <em>Sl. 91, 13 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. ℣. <em>ibid., 3</em> Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.</p>
       <p>O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano, na casa do Senhor. ℣. <em>ibid., 3</em> Para publicar de manhã a vossa misericórdia; e de noite a vossa verdade.</p>
       <p>Allelúja, allelúja. ℣. <em>Osee 14, 6</em> Justus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.</p>
@@ -59,7 +59,7 @@ export default function Page0829() {
 
 <em>Mc. 6, 17-29</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Marcum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Marcos.</p>
       <p>In illo témpore: Misit Heródes, ac ténuit Joánnem, et vinxit eum in cárcere propter Herodíadem, uxorem Philíppi fratris sui, quia dúxerat eam. Dicebat enim Joánnes Heródi: Non licet tibi habére uxórem fratris tui. Heródias autem insidiabátur illi, et volébat occídere eum, nec póterat. Heródes enim metuébat Joánnem, sciens eum virum justum et sanctum: et custodiébat eum, et audíto eo multa faciébat, et libénter eum audiébat. Et cum dies opportúnus accidísset, Heródes natális sui cœnam fecit princípibus et tribúnis et primis Galilǽæ. Cumque introísset fília ipsíus Herodíadis, et saltásset, et placuísset Heródi simúlque recumbéntibus; rex ait puéllæ: Pete a me, quod vis, et dabo tibi. Et jurávit illi: Quia quidquid petiéris dabo tibi, licet dimídium regni mei. Quæ cum exiísset, dixit matri suæ: Quid petam? At illa dixit: Caput Joánnis Baptístæ. Cumque introísset statim cum festinatióne ad regem, petívit dicens: Volo, ut protínus des mihi in disco caput Joánnis Baptístæ. Et contristátus est rex: propter jusjurándum et propter simul discumbéntes nóluit eam contristáre: sed misso spiculatóre, præcépit afférri caput ejus in disco. Et decollávit eum in cárcere. Et áttulit caput ejus in disco: et dedit illud puéllæ, et puella dedit matri suæ. Quo audíto, discípuli ejus venérunt et tulérunt corpus ejus: et posueérunt illud in monuménto.</p>
@@ -70,21 +70,21 @@ export default function Page0829() {
 
 <em>Sl. 20, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.</p>
       <p>O justo, Senhor, alegrar-se-á com vosso poder e rejubilará, vendo-se salvo por Vós: concedestes-lhe o desejo do seu coração.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera, quæ tibi, Dómine, pro sancti Martyris tui Joánnis Baptístæ passióne deférimus: quǽsumus; ut ejus obténtu nobis profíciant ad salútem. Per Dóminum...</p>
       <p>Vos apresentamos, Senhor, estas oblatas em honra dos sofrimentos do vosso santo Mártir João Baptista, e, Vos suplicamos, fazei pelos seus méritos que sirvam de proveito à nossa salvação. Por nosso Senhor...</p>
       </div>
 
       <h3>Secreta Comemoração de Santa Sabina Santa Sabina</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, beátæ Sabínæ Mártyris tuæ dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum...</p>
       <p>Aceitai benignamente, Senhor, as hóstias que Vos oferecemos pelos méritos da B. Virgem e Mártir Sabina, e dignai-Vos permitir que ela nos sirva de perpétuo auxílio. Por nosso Senhor...</p>
       </div>
@@ -93,21 +93,21 @@ export default function Page0829() {
 
 <em>Sl. 20, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Posuísti, Dómine, in cápite ejus corónam de lápide pretióso.</p>
       <p>Senhor, colocastes na sua cabeça uma coroa de pedras preciosas.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cónferat nobis, Dómine, sancti Joánnis Baptístæ sollémnitas: ut et magnífica sacraménta, quæ súmpsimus, significáta venerémur, et in nobis pótius édita gaudeámus. Per Dóminum...</p>
       <p>Que a solenidade de S. João Baptista, Senhor, nos alcance a graça de venerarmos nos augustos sacramentos, que recebemos, o que as aparências dos mesmos significam; e, mais ainda, de gozarmos a alegria de os haver recebido. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio Comemoração de Santa Sabina Santa Sabina</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Divíni muneris largitáte satiáti, quǽsumus, Dómine, Deus noster: ut, intercedénte beáta Sabína Mártyre tua, in ejus semper participatióne vivámus. Per Dóminum...</p>
       <p>Saciados com a liberalidade do dom divino, ó Senhor, nosso Deus, Vos suplicamos pela intercessão da B. Virgem Sabina, vossa Mártir, que durante a nossa vida comparticipemos sempre deste dom divino. Por nosso Senhor...</p>
       </div>

@@ -14,12 +14,12 @@ export default function PageQuad13() {
 
 <em>Sl. 24, 6, 3 & 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Reminíscere miseratiónum tuárum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris. <em>Ps. ib., 1-2</em> Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam. ℣. Gloria Patri...</p>
       <p>Lembrai-Vos, Senhor, de que a vossa bondade e misericórdia são eternas! Não permitais nunca que os nossos inimigos triunfem de nós. Ó Deus de Israel, livrai-nos de todas nossas angústias. <em>Sl. ib., 1-2</em> A Vós, Senhor, elevei a minha alma: confio em Vós, ó meu Deus, pois me não deixareis ficar envergonhado. ℣. Glória ao Pai...</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus. Flectámus génua.</span></p>
       <p><span className="text-red-500 text-center">Oremos. Ajoelhemos!</span></p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -28,7 +28,7 @@ export default function PageQuad13() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Preces nostras, quǽsumus, Dómine, cleménter exáudi: et contra cuncta nobis adversántia, déxteram tuæ majestátis exténde. Per Dóminum nostrum...</p>
       <p>Senhor, Vos rogamos, ouvi clemente nossas preces e imponde o poder da dextra da vossa majestade contra os nossos inimigos. Por nosso Senhor...</p>
       </div>
@@ -37,7 +37,7 @@ export default function PageQuad13() {
 
 <em>Ex. 24, 12-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Exodi.</p>
       <p>Lição do Livro do Êxodo.</p>
       <p>In diébus illis: Dixit Dóminus ad Móysen: Ascénde ad me in montem, et esto ibi: dabóque tibi tábulas lapídeas, et legem ac mandáta quæ scripsi: ut dóceas fílios Israël. Surrexérunt Moyses et Josue miníster ejus: ascendénsque Moyses in montem Dei, senióribus ait: Exspectáte hic, donec revertámur ad vos. Habétis Aaron et Hur vobíscum: si quid natum luent quæstiónis, referétis ad eos. Cumque ascendísset Moyses, opéruit nubes montem, et habitávit glória Dómini super Sínai, tegens illum nube sex diébus: séptimo autem die vocávit eum de médio calíginis. Erat autem spécies glóriæ Dómini, quasi ignis ardens super vérticem montis; in conspéctu filiórum Israël. Ingressúsque Móyses médium nébulæ, ascéndit in montem: et luit ibi quadragínta diébus et quadragínta nóctibus.</p>
@@ -48,14 +48,14 @@ export default function PageQuad13() {
 
 <em>Sl. 24, 17-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis éripe me, Dómine. ℣. Vide humilitátem meam, et labórem meum: et dimítte ómnia peccáta mea.</p>
       <p>Multiplicaram-se as angústias do meu coração. Senhor, livrai-me das minhas angústias. ℣. Vede a minha humilhação e as minhas fadigas: e perdoai-me todos os pecados.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui per abstinéntiam macerántur in córpore, per fructum boni óperis reficiántur in mente. Per Dóminum...</p>
       <p>Olhai benigno, Senhor, Vos pedimos, para a piedade do vosso povo, a fim de que aqueles que mortificam o corpo com a abstinência sejam enriquecidos na alma com o fruto das boas obras. Por nosso Senhor...</p>
       </div>
@@ -64,7 +64,7 @@ export default function PageQuad13() {
 
 <em>3 Rs. 19, 3-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Regum.</p>
       <p>Lição do Livro dos Reis.</p>
       <p>In diébus illis: Venit Elías in Bersabée Juda, et dimísit ibi púerum suum, et perréxit in desértum, viam uníus diéi. Cumque venísset, et sedéret subter unam juníperum, petívit ánimæ suæ, ut morerétur, et ait: Súfficit mihi, Dómine, tolle ánimam meam: neque enim mélior sum quam patres mei. Projecítque se, et obdormívit in umbra juníperi: et ecce, Angelus Dómini tétigit eum, et dixit illi: Surge et cómede. Respéxit, et ecce ad caput suum subcinerícius panis, et vas aquæ: comédit ergo et bibit, et rursum obdormívit. Reversúsque est Angelus Dómini secundo, et tétigit eum, dixítque illi: Surge, cómede: grandis enim tibi restat via. Qui cum surrexísset, comédit et bibit, et ambulávit in fortitúdine cibi illíus quadragínta diébus et quadragínta nóctibus, usque ad montem Det Horeb.</p>
@@ -75,7 +75,7 @@ export default function PageQuad13() {
 
 <em>Sl. 24, 17, 18 & 1-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>De necessitátibus meis éripe me, Dómine: vide humilitátem meam et labórem meum: et dimítte ómnia peccáta mea. ℣. Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei. ℣. Etenim univérsi, qui te exspéctant, non confundéntur: confundántur omnes faciéntes vana.</p>
       <p>Senhor, livrai-me das minhas tribulações; vede a minha miséria e as minhas penas; e perdoai todos meus pecados. ℣. A Vós, Senhor, elevei a minha alma; meu Deus, em Vós confio: não ficarei envergonhado, pois os meus inimigos não triunfarão de mim! ℣. Não serão confundidos, Senhor, os que confiam em Vós: mas serão confundidos todos os que procedem em vão.</p>
       </div>
@@ -84,7 +84,7 @@ export default function PageQuad13() {
 
 <em>Mt. 12, 38-50</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Respondérunt Jesu quidam de scribis et pharisǽis, dicéntes: Magíster, vólumus a te signum vidére. Qui respóndens, ait illis: Generátio mala et adúltera signum quærit: et signum non dábitur ei, nisi signum Jonæ Prophétæ. Sicut enim fuit Jonas in ventre ceti tribus diébus et tribus nóctibus: sic erit Fílius hóminis in corde terræ tribus diébus et tribus nóctibus. Viri Ninivítæ surgent in judício cum generatióne ista, et condemnábunt eam: quia pæniténtiam egérunt in prædicatióne Jonæ. Et ecce plus quam Jonas hic. Regína Austri surget in judício cum generatióne ista, et condemnábit eam: quia venit a fínibus terræ audire sapiéntiam Salomónis. Et ecce plus quam Sálomon hic. Cum autem immúndus spíritus exíerit ab hómine, ámbulat per loca árida, quærens réquiem, et non invénit. Tunc dicit: Revértar in domum meam, unde exívi. Et véniens invénit eam vacántem, scopis mundátam, et ornátam. Tunc vadit, et assúmit septem álios spíritus secum nequióres se, et intrántes hábitant ibi: et fiunt novíssima hóminis illíus pe-jóra prióribus. Sic erit et generatióni huic péssimæ. Adhuc eo loquénte ad turbas, ecce, Mater ejus et fratres stabant foris, quæréntes loqui ei. Dixit autem ei quidam: Ecce, mater tua et fratres tui foris stant, quæréntes te. At ipse respóndens dicénti sibi, ait: Quæ est mater mea, et qui sunt fratres mei? Et exténdens manum in discípulos suos, dixit: Ecce mater mea et fratres mei. Quicúmque enim fécerit voluntátem Patris mei, qui in cœlis est: ipse meus frater et soror et mater est.</p>
@@ -95,14 +95,14 @@ export default function PageQuad13() {
 
 <em>Sl. 118, 47 & 48</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi.</p>
       <p>Meditarei nos vossos mandamentos, que muito amo: levantarei as minhas mãos, cumprindo os vossos mandamentos, que, repito, muito amo.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra miserátus absólvas, et nutántia corda tu dírigas. Per Dóminum...</p>
       <p>Vos oferecemos estas hóstias de propiciação, Senhor, a fim de que pela vossa infinita misericórdia perdoeis os nossos pecados e governeis os nossos inconstantes corações. Por nosso Senhor...</p>
       </div>
@@ -111,21 +111,21 @@ export default function PageQuad13() {
 
 <em>Sl. 5, 2-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Intéllege clamórem meum: inténde voci oratiónis meæ, Rex meus et Deus meus: quóniam ad te orábo, Dómine.</p>
       <p>Ouvi a minha súplica: atendei ao clamor da minha prece, ó meu Rei e meu Deus; pois não cessarei de Vos invocar, Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tui, Dómine, perceptióne sacraménti, et a nostris mundémur occúltis, et ab hóstium liberémur insídiis. Per Dóminum...</p>
       <p>Permiti, Senhor, que pela recepção do vosso Sacramento sejamos lavados das nossas faltas ocultas e livres das ciladas dos nossos inimigos. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

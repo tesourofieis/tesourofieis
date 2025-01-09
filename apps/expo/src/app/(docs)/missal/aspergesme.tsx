@@ -10,7 +10,7 @@ export default function PageAspergesme() {
       <h1>Asperges me</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Asperges me, Dómine, hyssópo et mundabor: lávabis me, et super nivem dealbábor.</p>
       <p>Aspergir-me-eis, Senhor, com o hissope e ficarei puro; lavar-me-eis e ficarei alvo, como a neve.</p>
       <p>℣. Osténde nobis, Dómine, misericórdiam tuam.</p>

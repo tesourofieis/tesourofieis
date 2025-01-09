@@ -10,7 +10,7 @@ export default function Page076() {
       <h1>Salmo 76</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Voce mea ad Dóminum clamávi: * voce mea ad Deum, et inténdit mihi.</p>
       <p>Com a minha voz clamei ao Senhor: * levantei a minha voz a Deus e me atendeu.</p>
       <p>In die tribulatiónis meæ Deum exquisívi, mánibus meis nocte contra eum: * et non sum decéptus.</p>

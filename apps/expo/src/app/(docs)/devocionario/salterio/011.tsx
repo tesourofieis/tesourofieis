@@ -10,7 +10,7 @@ export default function Page011() {
       <h1>Salmo 11</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Salvum me fac, Dómine, quóniam defécit sanctus: * quóniam diminútæ sunt veritátes a fíliis hóminum.</p>
       <p>Salvai-me, ó Senhor, porque se dissipou o santo: * porque as verdades são depreciadas entre os filhos dos homens.</p>
       <p>Vana locúti sunt unusquísque ad próximum suum: * lábia dolósa, in corde et corde locúti sunt.</p>

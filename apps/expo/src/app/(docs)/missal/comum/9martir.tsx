@@ -14,7 +14,7 @@ export default function Page9Martir() {
 
 <em>Sl. 63, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Protexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelúja. <em>Ps. ibid., 2</em> Exáudi, Deus, oratiónem meam, cum déprecor: a timóre inimíci éripe ánimam meam. ℣. Gloria Patri...</p>
       <p>Protegestes-me, ó Deus, contra os conluios dos maus e contra a multidão daqueles que cometem iniquidades. Aleluia, aleluia. <em>Sl. ibid., 2</em> Ouvi, ó Deus, a oração que Vos dirijo: livrai a minha alma do temor do inimigo. ℣. Glória ao Pai...</p>
       </div>
@@ -23,7 +23,7 @@ export default function Page9Martir() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti <span className="text-red-500">N.</span> Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat. Per Dóminum...</p>
       <p>Ó Deus omnipotente, olhai para a nossa fraqueza: e, visto que estamos oprimidos com o peso dos nossos pecados, dignai-Vos permitir que sejamos protegidos pela gloriosa intercessão do B. <span className="text-red-500">N.</span>, vosso Mártir e Pontífice. Por nosso Senhor...</p>
       </div>
@@ -32,7 +32,7 @@ export default function Page9Martir() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos beáti <span className="text-red-500">N.</span> Mártyris tui atque Pontíficis ánnua sollemnitáte lætíficas: concéde propítius; ut, cujus natalítia cólímus, de ejúsdem étiam protectióne gaudeámus. Per Dóminum...</p>
       <p>Ó Deus, que nos alegrais com a solenidade anual do B. <span className="text-red-500">N.</span> vosso Mártir e Pontífice, concedei-nos propício que nos congratulemos com a protecção daquele cujo nascimento no céu celebramos. Por nosso Senhor...</p>
       </div>
@@ -41,7 +41,7 @@ export default function Page9Martir() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, qui beáti <span className="text-red-500">N.</span> Mártyris tui natalítia cólimus, intercessióne ejus, in tui nóminis amóre roborémur. Per Dóminum...</p>
       <p>Concedei-nos, ó Deus omnipotente, Vos suplicamos, que, celebrando nós o nascimento do vosso B. Mártir <span className="text-red-500">N.</span>, sejamos confirmados pela sua intercessão no amor ao vosso nome. Por nosso Senhor...</p>
       </div>
@@ -50,7 +50,7 @@ export default function Page9Martir() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, intercedénte beáto <span className="text-red-500">N.</span> Mártyre tuo, et a cunctis adversitátibus liberémur in córpore, et a pravis cogitatiónibus mundémur in mente. Per Dóminum...</p>
       <p>Permiti, ó Deus omnipotente, Vos imploramos, que, pela intercessão do vosso B. Mártir <span className="text-red-500">N.</span>, os nossos corpos sejam livres de todas as adversidades e as nossas almas purificadas dos maus pensamentos. Por nosso Senhor...</p>
       </div>
@@ -59,14 +59,14 @@ export default function Page9Martir() {
 
 <em>Sb. 5, 1-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Stabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore horríbili, et mirabúntur in subitatióne insperátæ salútis, dicéntes intra se, pœniténtiam agéntes, et præ angústia spíritus geméntes: Hi sunt, quos habúimus aliquándo in derísum et in similitúdinem impropérii. Nos insensáti vitam illórum æstimabámus insániam, et finem illórum sine honóre: ecce, quómodo computáti sunt inter fílios Dei, et inter Sanctos sors illórum est.</p>
       <p>Então, os justos erguer-se-ão com grande coragem contra aqueles que os oprimiam e a quem arrebatavam o fruto dos seus trabalhos. Vendo-os assim, os maus perturbar-se-ão, cheios de pavor, e ficarão assombrados com a súbita e inesperada salvação dos justos, dizendo de si para si, arrependidos e angustiados: «Estes são aqueles a quem outrora quisemos injuriar com nossas zombarias e insultos. Insensatos que nós fomos! Pareceu-nos que sua vida era uma loucura, e a sua morte uma vergonha; mas eis que os vemos elevados à dignidade de filhos de Deus e compartilhando da glória dos santos!»</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 88, 6</em> Confitebúntur cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Allelúja. ℣. <em>Ps. 20, 4</em> Posuísti, Dómine, super caput ejus corónam de lápide pretióso. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 88, 6</em> Senhor, que os céus festejem as vossas maravilhas; que a vossa verdade seja exaltada na assembleia dos santos. Aleluia. ℣. <em>Sl. 20, 4</em> Impusestes na sua cabeça, Senhor, uma coroa de pedras preciosas. Aleluia.</p>
       </div>
@@ -75,7 +75,7 @@ export default function Page9Martir() {
 
 <em>Jo. 15, 1-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Ego sum vitis vera: et Pater meus agrícola est. Omnem pálmitem in me non feréntem fructum, tollet eum: et omnem, qui fert fructum, purgábit eum, ut fructum plus áfferat. Jam vos mundi estis propter sermónem, quem locútus sum vobis. Mane te in me: et ego in vobis. Sicut palmes non potest ferre fructum a semetípso, nisi mánserit in vite: sic nec vos, nisi in me manséritis. Ego sum vitis, vos pálmites: qui manet in me, et ego in eo, hic fert fructum multum: quia sine me nihil potéstis fácere. Si quis in me non mánserit, mittétur foras sicut palmes, et aréscet, et cólligent eum, et in ignem mittent, et ardet. Si manséritis in me, et verba mea in vobis mánserint: quodcúmque voluéritis, petétis, et fiet vobis.</p>
@@ -86,7 +86,7 @@ export default function Page9Martir() {
 
 <em>Sb. 88, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja.</p>
       <p>Senhor, que os céus publiquem as vossas maravilhas; que, a vossa verdade seja exaltada na assembleia dos santos. Aleluia.</p>
       </div>
@@ -95,7 +95,7 @@ export default function Page9Martir() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, beáti <span className="text-red-500">N.</span> Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum...</p>
       <p>Aceitai benigno, Senhor, as hóstias que Vos oferecemos pelos méritos do B. <span className="text-red-500">N.</span>, vosso Mártir e Pontífice; e dignai-Vos permitir que em virtude delas alcancemos o vosso perpétuo socorro. Por nosso Senhor...</p>
       </div>
@@ -104,7 +104,7 @@ export default function Page9Martir() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto <span className="text-red-500">N.</span> Mártyre tuo atque Pontífice, per éadem nos placátus inténde. Per Dóminum...</p>
       <p>Santificai, Senhor, estes dons que Vos são oferecidos, a fim de que pela intercessão do B. <span className="text-red-500">N.</span>, vosso Mártir e Pontífice, Vos digneis aplacar-Vos, e olhar aplacado para nós. Por nosso Senhor...</p>
       </div>
@@ -113,7 +113,7 @@ export default function Page9Martir() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum nostrum...</p>
       <p>Havendo Vós aceitado os nossos dons e as nossas orações, dignai-Vos purificar-nos com vossos celestiais mystérios e ouvir-nos clementemente. Por nosso Senhor...</p>
       </div>
@@ -122,7 +122,7 @@ export default function Page9Martir() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Accépta sit in conspéctu tuo, Dómine, nostra devótio: et ejus nobis fiat supplicatióne salutáris, pro cujus sollemnitáte defértur. Per Dóminum...</p>
       <p>Aceitai benignamente, Senhor, esta oferta que a nossa devoção Vos apresenta; e permiti que nos alcance a salvação pelas orações daquele em cuja festa Vo-la apresentamos. Por nosso Senhor...</p>
       </div>
@@ -131,7 +131,7 @@ export default function Page9Martir() {
 
 <em>Sl. 63, 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde, allelúja, allelúja.</p>
       <p>O justo rejubilará no Senhor e nele porá a sua confiança, pois todos aqueles que possuem o coração recto serão louvados. Aleluia, aleluia.</p>
       </div>
@@ -140,7 +140,7 @@ export default function Page9Martir() {
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto <span className="text-red-500">N.</span> Martyre tuo atque Pontifice, sentiámus efféctum. Per Dóminum...</p>
       <p>Saciados com a participação do dom sacratíssimo, Vos suplicamos, ó Senhor, nosso Deus, fazei-nos sentir pela intercessão do B. <span className="text-red-500">N.</span>, vosso Mártir e Pontífice, o efeito do mystério, que celebrámos. Por nosso Senhor...</p>
       </div>
@@ -149,7 +149,7 @@ export default function Page9Martir() {
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc nos communio, Dómine, purget a crimine: et, intercedénte beáto <span className="text-red-500">N.</span> Mártyre tuo atque Pontifice, cæléstis remédii fáciat esse consortes. Per Dóminum...</p>
       <p>Que esta comunhão, Senhor, nos purifique de nossos crimes, e que, por intercessão do B. <span className="text-red-500">N.</span>, vosso Mártir e Pontífice, nos torne participantes do remédio celestial. Por nosso Senhor...</p>
       </div>
@@ -158,7 +158,7 @@ export default function Page9Martir() {
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, Dómine, Deus noster: ut, sicut tuorum commemoratione Sanctórum temporali gratulámur officio; ita perpetuo lætémur aspéctu. Per Dóminum...</p>
       <p>Concedei-nos, Senhor, Vos suplicamos, que, assim como nos alegramos, celebrando na terra a memória dos vossos santos, assim também tenhamos a felicidade de os contemplar na eternidade. Por nosso Senhor...</p>
       </div>
@@ -167,7 +167,7 @@ export default function Page9Martir() {
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum; intercedénte beáto <span className="text-red-500">N.</span> Martyre tuo, sentiámus efféctum. Per Dóminum nostrum...</p>
       <p>Confortados com a participação do dom sagrado, Vos suplicamos, ó Senhor, nosso Deus, fazei-nos sentir, por intercessão do B. <span className="text-red-500">N.</span>, vosso Mártir, o efeito do mystério que celebramos. Por nosso Senhor...</p>
       </div>

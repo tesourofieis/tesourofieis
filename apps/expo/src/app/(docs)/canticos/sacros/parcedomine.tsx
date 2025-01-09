@@ -10,7 +10,7 @@ export default function PageParcedomine() {
       <h1>Parce domine</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Parce, Domine, parce populo tuo:</p>
       <p>℣. Perdoai, Senhor, perdoai ao vosso povo.</p>
       <p><span className="text-red-500">℟.</span> Ne in aeternum irascaris nobis.</p>

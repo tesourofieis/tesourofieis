@@ -10,7 +10,7 @@ export default function Page030() {
       <h1>Salmo 30</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In Te, Dómine, sperávi non confúndar in ætérnum: * in justítia tua líbera me.</p>
       <p>Em Vós esperei, ó Senhor, não permitais que seja jamais confundido: * livrai-me na vossa justiça.</p>
       <p>Inclína ad me aurem tuam, * accélera ut éruas me.</p>

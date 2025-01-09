@@ -10,7 +10,7 @@ export default function Page050() {
       <h1>Salmo 50</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mei, Deus, * secúndum magnam misericórdiam tuam.</p>
       <p>Compadecei-Vos de mim, ó Deus, * segundo a vossa grande misericórdia.</p>
       <p>Et secúndum multitúdinem miseratiónum tuárum, * dele iniquitátem meam.</p>

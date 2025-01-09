@@ -37,14 +37,14 @@ export default function Page0629() {
 
 <em>Act. 12, 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nunc scio vere, quia misit Dóminus Angelum suum: et erípuit me de manu Heródis et de omni exspectatióne plebis Judæórum. <em>Ps. 138, 1-2</em> Dómine; probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam. ℣. Gloria Patri...</p>
       <p>Agora reconheço, verdadeiramente, que o Senhor enviou o seu Anjo: e me livrou das mãos de Herodes e daquilo que esperava o povo judaico! <em>Sl. 138, 1-2</em> Experimentastes-me, Senhor, e ficastes-me conhecendo: ficastes conhecendo quando me deito e quando me levanto. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui hodiérnam diem Apostolórum tuórum Petri et Pauli martýrio consecrásti: da Ecclésiæ tuæ, eórum in ómnibus sequi præcéptum; per quos religiónis sumpsit exórdium. Per Dóminum nostrum...</p>
       <p>Ó Deus, que consagrastes este dia com o martírio dos vossos Apóstolos Pedro e Paulo, concedei à vossa Igreja a graça de seguir em tudo as lições daqueles pelos quais a religião teve princípio. Por nosso Senhor...</p>
       </div>
@@ -53,7 +53,7 @@ export default function Page0629() {
 
 <em>Act. 12, 1-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Misit Heródes rex manus, ut afflígeret quosdam de ecclésia. Occidit autem Jacóbum fratrem Joánnis gládio. Videns autem, quia placeret Judǽis, appósuit, ut apprehénderet et Petrum. Erant autem dies azymórum. Quem cum apprehendísset, misit in cárcerem, tradens quatuor quaterniónibus mílitum custodiéndum, volens post Pascha prodúcere eum pópulo. Et Petrus quidem servabátur in cárcere. Orátio autem fiébat sine intermissióne ab ecclésia ad Deum pro eo. Cum autem productúrus eum esset Heródes, in ipsa nocte erat Petrus dórmiens inter duos mílites, vinctus caténis duábus: et custódes ante óstium custodiébant cárcerem. Et ecce, Angelus Dómini ástitit: et lumen refúlsit in habitáculo: percussóque látere Petri, excitávit eum, dicens: Surge velóciter. Et cecidérunt caténæ de mánibus ejus. Dixit autem Angelus ad eum: Præcíngere, et cálcea te cáligas tuas. Et fecit sic. Et dixit illi: Circúmda tibi vestiméntum tuum, et séquere me. Et éxiens sequebátur eum, et nesciébat quia verum est, quod fiébat per Angelum: existimábat autem se visum vidére. Transeúntes autem primam et secundam custódiam, venérunt ad portam férream, quæ ducit ad civitátem: quæ ultro apérta est eis. Et exeúntes processérunt vicum unum: et contínuo discéssit Angelus ab eo. Et Petrus ad se revérsus, dixit: Nunc scio vere, quia misit Dóminus Angelum suum, et erípuit me de manu Heródis et de omni exspectatióne plebis Judæórum.</p>
@@ -64,7 +64,7 @@ export default function Page0629() {
 
 <em>Sl. 44, 17-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Constítues eos príncipes super omnem terram: mémores erunt nóminis tui. Dómine. ℣. Pro pátribus tuis nati sunt tibi fílii: proptérea pópuli confítebúntur tibi.</p>
       <p>Constitui-los-eis príncipes em toda a terra: e perpetuarão, ó Senhor, a recordação do vosso nome. ℣. Para substituir vossos pais, dar-vos-á filhos: e, assim, os povos Vos louvarão em todos os séculos dos séculos.</p>
       <p>Allelúja, allelúja. ℣. <em>Matth. 18,18</em> Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.</p>
@@ -83,14 +83,14 @@ export default function Page0629() {
 
 <em>Sl. 44, 17-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.</p>
       <p>Constitui-los-eis príncipes em toda a terra: e perpetuarão, ó Senhor, a recordação do vosso nome, em todos os séculos dos séculos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias, Dómine, quas nómini tuo sacrándas offérimus, apostólica prosequátur orátio: per quam nos expiári tríbuas et deféndi. Per Dóminum...</p>
       <p>Senhor, que a oração dos vossos Apóstolos acompanhe as hóstias que vamos consagrar em honra do vosso nome, e permiti que nos sirvam de expiação das nossas faltas e de nossa defesa. Por nosso Senhor...</p>
       </div>
@@ -99,14 +99,14 @@ export default function Page0629() {
 
 <em>Mt. 16, 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tu es Petrus, ei super hanc petram aedificabo Ecclésiam meam.</p>
       <p>Tu és Pedro e sobre esta pedra edificarei a minha Igreja.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quos cœlésti, Dómine, alimento satiásti: apostólicis intercessiónibus ab omni adversitáte custódi. Per Dóminum nostrum...</p>
       <p>Dignai-Vos, Senhor, pela intercessão dos vossos Apóstolos, preservar de todas as adversidades aqueles que saciastes com o alimento celestial. Por nosso Senhor...</p>
       </div>

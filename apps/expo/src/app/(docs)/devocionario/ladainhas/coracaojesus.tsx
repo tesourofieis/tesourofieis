@@ -10,7 +10,7 @@ export default function PageCoracaojesus() {
       <h1>Ladainha Coração de Jesus</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Kyrie, eléison.</p>
       <p>Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>

@@ -14,14 +14,14 @@ export default function Page1208() {
 
 <em>Is. 61, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo: quia índuit me vestiméntis salútis: et induménto justítiæ circúmdedit me, quasi sponsam ornátam monílibus suis. <em>Ps. 29, 2</em> Exaltábo te, Dómine, quóniam suscepísti me: nec delectásti inimícos meos super me. ℣. Gloria Patri...</p>
       <p>Rejubilarei no Senhor. Minha alma exultará de alegria no meu Deus. Pois Ele ornou-me com as vestes da salvação e embelezou-me com o manto da santidade, como uma esposa adornada com suas jóias. <em>Sl. 29, 2</em> Louvar-Vos-ei, Senhor, porque me protegestes e não consentistes que meus inimigos zombassem de mim. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui per immaculátam Vírginis Conceptiónem dignum Fílio tuo habitáculum præparásti: quǽsumus; ut, qui ex morte ejúsdem Filii tui prævísa eam ab omni labe præservásti, nos quoque mundos ejus intercessióne ad te perveníre concédas. Per eúndem Dóminum...</p>
       <p>Ó Deus, que pela Imaculada Conceição da Virgem preparastes para o vosso Filho uma habitação digna d’Ele, dignai-Vos permitir que, assim como em previsão da morte deste mesmo Filho a preservastes de toda a mácula, assim também por sua intercessão sejamos purificados de todos os pecados e possamos ir até vós. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page1208() {
 
 <em>Pr. 8, 22-35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Dóminus possedit me in inítio viárum suárum, ántequam quidquam fáceret a princípio. Ab ætérno ordináta sum, et ex antíquis, ántequam terra fíeret. Nondum erant abýssi, et ego jam concépta eram: necdum fontes aquárum erúperant: necdum montes gravi mole constíterant: ante colles ego parturiébar: adhuc terram non fécerat et flúmina et cárdines orbis terræ. Quando præparábat cœlos, áderam: quando certa lege et gyro vallábat abýssos: quando ǽthera firmábat sursum et librábat fontes aquárum: quando circúmdabat mari términum suum et legem ponébat aquis, ne transírent fines suos: quando appendébat fundaménta terræ. Cum eo eram cuncta compónens: et delectábar per síngulos dies, ludens coram eo omni témpore: ludens in orbe terrárum: et delíciæ meæ esse cum filiis hóminum. Nunc ergo, filii, audíte me: Beáti, qui custódiunt vias meas. Audíte disciplínam, et estóte sapiéntes, et nolíte abjícere eam. Beátus homo, qui audit me et qui vígilat ad fores meas cotídie, et obsérvat ad postes óstii mei. Qui me invénerit, invéniet vitam et háuriet salútem a Dómino.</p>
@@ -41,7 +41,7 @@ export default function Page1208() {
 
 <em>Jdt. 13, 23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícta es tu. Virgo María, a Dómino, Deo excélso, præ ómnibus muliéribus super terram. ℣. <em>ibid., 15, 10</em> Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.</p>
       <p>Fostes abençoada pelo Senhor, pelo Deus altíssimo, ó Virgem Maria, tendo sido colocada superior a todas as mulheres da terra. ℣. <em>ibid., 15, 10</em> Sois a glória de Jerusalém; sois a alegria de Israel; sois a honra do nosso povo.</p>
       <p>Allelúja, allelúja. ℣. <em>Cant. 4, 7</em> Tota pulchra es, María: et mácula originális non est in te. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page1208() {
 
 <em>Lc. 1, 26-28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Missus est Angelus Gábriël a Deo in civitátem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus.</p>
@@ -63,28 +63,28 @@ export default function Page1208() {
 
 <em>Lc. 1, 28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, allelúja.</p>
       <p>Ave, Maria, cheia de graça; o Senhor é convosco: bendita sois vós entre as mulheres. Aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Salutárem hóstiam, quam in sollemnitáte (commemoratióne) immaculátæ Conceptiónis beátæ Vírginis Maríæ tibi, Dómine, offérimus, súscipe et præsta: ut, sicut illam tua grátia præveniénte ab omni labe immúnem profitémur; ita ejus intercessióne a culpis ómnibus liberémur. Per Dóminum...</p>
       <p>Aceitai, Senhor, a hóstia de salvação, que Vos oferecemos nesta festividade da Imaculada Conceição da B. Virgem Maria; e, assim como acreditamos que ela, prevenida com a plenitude da vossa graça, foi isenta de toda a mácula, assim também por sua intercessão sejamos livres de todas nossas culpas. Por nosso Senhor...</p>
       </div>
 
       <h3>Comúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gloriósa dicta sunt de te, María: quia fecit tibi magna qui potens est.</p>
       <p>Gloriosas coisas se têm narrado de vós, ó Maria; pois o Omnipotente operou grandes maravilhas em vosso favor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacraménta quæ súmpsimus, Dómine, Deus noster: illíus in nobis culpæ vúlnera réparent; a qua immaculátam beátæ Maríæ Conceptiónem singuláriter præservásti. Per Dóminum...</p>
       <p>Senhor, nosso Deus, fazei que os sacramentos, que recebemos, curem as feridas que em nós abriu aquele pecado de que por um privilégio singular preservastes a Imaculada Conceição da B. Virgem Maria. Por nosso Senhor...</p>
       </div>

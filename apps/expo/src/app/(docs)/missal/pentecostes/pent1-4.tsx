@@ -14,14 +14,14 @@ export default function PagePent14() {
 
 <em>Sl. 80, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle saturávit eos, allelúja, allelúja, allelúja. <em>Ps. ib., 2</em> Exsultáte Deo, adjutóri nostro: jubiláte Deo Jacob. ℣. Gloria Patri...</p>
       <p>O Senhor alimentou-os com a flor da farinha, aleluia: e saciou-os com o mel tirado do rochedo, aleluia, aleluia, aleluia. <em>Sl. ib., 2</em> Exultai de alegria e louvai a Deus, que é o nosso sustentáculo: Aclamai com júbilo Deus de Jacob. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nobis sub Sacraménto mirábili passiónis tuæ memóriam reliquísti: tríbue, quǽsumus, ita nos Córporis et Sánguinis tui sacra mystéria venerári; ut redemptiónis tuæ fructum in nobis júgiter sentiámus: Qui vivis et regnas...</p>
       <p>Ó Deus, que neste admirável sacramento nos deixastes o memorial da vossa Paixão, concedei-nos, Vos pedimos, que de tal sorte veneremos os sacratíssimos mystérios do vosso Corpo e Sangue, que sintamos perpetuamente no nosso íntimo o fruto da vossa Redenção. Vós, que, viveis e reinais...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent14() {
 
 <em>1 Cor. 11, 23-29</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epistolæ beáti Pauli Apóstoli ad Corinthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Ego enim accépi a Dómino quod et trádidí vobis, quóniam Dóminus Jesus, in qua nocte tradebátur, accépit panem, et grátias agens fregit, et dixit: Accípite, et manducáte: hoc est corpus meum, quod pro vobis tradétur: hoc fácite in meam commemoratiónem. Simíliter ei cálicem, postquam cenávit, dicens: Hic calix novum Testaméntum est in meo sánguine. Hoc fácite, quotiescúmque bibétis, in meam commemoratiónem. Quotiescúmque enim manducábitis panem hunc et cálicem bibétis, mortem Dómini annuntiábitis, donec véniat. Itaque quicúmque manducáverit panem hunc vel bíberit cálicem Dómini indígne, reus erit córporis et sánguinis Dómini. Probet autem seípsum homo: et sic de pane illo e dat et de calice bibat. Qui enim mánducat et bibit indígne, judícium sibi mánducat et bibit: non dijúdicans corpus Dómini.</p>
@@ -41,7 +41,7 @@ export default function PagePent14() {
 
 <em>Sl. 144, 15-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore opportúno. ℣. Aperis tu manum tuam: et imples omne animal benedictióne.</p>
       <p>Todos os olhos, Senhor, estão voltados para Vós, cheios de esperança: Pois dais a cada um, oportunamente, o seu sustento. ℣. Abris as vossas mãos e saciais todos os viventes com vossas bênçãos.</p>
       <p>Allelúja, allelúja. ℣. <em>Joann. 6, 56-57</em> Caro mea vere est cibus, et sanguis meus vere est potus: qui mandúcat meam carnem et bibit meum sánguinem, in me manet et ego in eo.</p>
@@ -52,7 +52,7 @@ export default function PagePent14() {
 
 <em>St. Tomás Aquino</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Láuda Síon Salvatórem, Láuda dúcem et pastórem, In hýmnis et cánticis. Louva, ó Sião, louva o teu Salvador! Louva com hinos e cânticos o teu Principe e Pastor!</p>
       <p>Quantum pótes, tantum áude: Quia májor ómni láude, Nec laudáre súfficis. Louva-O tanto quanto possas: nem tu podes louvá-l’O dignamente, pois está acima de todos os louvores.</p>
       <p>Láudis théma speciális, Pánis vívus et vitális Hódie propónitur.</p>
@@ -94,7 +94,7 @@ export default function PagePent14() {
 
 <em>Jo. 6, 56-59</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangéli secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -106,14 +106,14 @@ S. João.</p>
 
 <em>Lv. 21, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacerdótes Dómini incénsum it panes ófferunt Deo: et deo sancti erunt Deo suo, et lon pólluent nomen ejus, allelúja.</p>
       <p>Os sacerdotes do Senhor oferecem a Deus incenso e pães: eis porque serão santos diante de Deus e não profanarão o seu nome, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecclésiæ tuæ, quǽsumus, Dómine, unitátis et pacis propítius dona concéde: quæ sub oblátis munéribus mýstice designántur. Per Dóminum nostrum...</p>
       <p>Senhor, Vos imploramos, dignai-Vos conceder à vossa Igreja os dons da unidade e da paz, que misticamente se figuram nas ofertas que Vos apresentamos. Por nosso Senhor...</p>
       </div>
@@ -122,14 +122,14 @@ S. João.</p>
 
 <em>1 Cor. 11, 26-27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quotiescúmque manducábitis panem hunc et cálicem bibétis, mortem Dómini annuntiábitis, donec véniat: itaque quicúmque manducáverit panem vel bíberit calicem Dómini indígne, reus erit córporis et sánguinis Dómini, allelúja.</p>
       <p>Todas as vezes que comerdes este Pão e beberdes este Cálice anunciareis a morte do Senhor, até que Ele venha. Assim, todo aquele que comer este Pão ou beber este Cálice indignamente será réu do Corpo e do Sangue do Senhor. Aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fac nos, quǽsumus, Dómine, divinitátis tuæ sempitérna fruitióne repléri: quam pretiósi Corporis et Sanguinis tui temporalis percéptio præfigúrat: Qui vivis...</p>
       <p>Fazei, Senhor, Vos imploramos, que alcancemos eternamente a vossa divindade na glória eterna, que é figurada neste mundo pela recepção temporal do vosso Corpo e Sangue preciosíssimos. Ó Vós, que viveis e...</p>
       </div>

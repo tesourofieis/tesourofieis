@@ -10,7 +10,7 @@ export default function Page038() {
       <h1>Salmo 38</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dixi: custódiam vias meas: * ut non delínquam in lingua mea.</p>
       <p>Disse: meus caminhos velarei: * para que não peque com minha língua.</p>
       <p>Pósui ori meo custódiam, * cum consísteret peccátor advérsum me.</p>

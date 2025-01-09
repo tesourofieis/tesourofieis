@@ -10,7 +10,7 @@ export default function Page043() {
       <h1>Salmo 43</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, áuribus nostris audívimus: * patres nostri annuntiavérunt nobis.</p>
       <p>Nós ouvimos, ó Deus, com os nossos próprios ouvidos: * nossos pais nos anunciaram.</p>
       <p>Opus, quod operátus es in diébus eórum, * et in diébus antíquis.</p>

@@ -12,7 +12,7 @@ export default function PageViatico() {
 
 <aside>O Sacerdote, entrando em casa do enfermo, diz:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Pax huic dómui.</p>
       <p>℣. A paz esteja nesta casa.</p>
       <p><span className="text-red-500">℟.</span> Et ómnibus habitántibus in ea.</p>
@@ -28,7 +28,7 @@ O Acólito diz o Confiteor Deo... (como na página [confiteor](/devocionario/ora
 
       <h1>Recepção da Comunhão</h1>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Ecce Agnus Dei, ecce qui tollit peccáta mundi.</p>
       <p>℣. Eis o Cordeiro de Deus, eis Aquele que tira os pecados do mundo.</p>
       <p><span className="text-red-500">℟.</span> Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.</p>
@@ -43,7 +43,7 @@ O Acólito diz o Confiteor Deo... (como na página [confiteor](/devocionario/ora
       <p><span className="text-red-500">℟.</span> E com vosso espírito.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Dómine sancte, Páter omnípotens, ætérne Deus, te fidéliter deprecámur, ut accipiénti fratri nostro (soróri nostræ) sacrosánctum Corpus Dómini nostri Jesu Christi Fílii tui, tam córpori, quam ánimæ prosit ad remédium sempitérnum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.</p>

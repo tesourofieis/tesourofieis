@@ -10,7 +10,7 @@ export default function PageJamlucis() {
       <h1>Jam lucis</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jam lucis orto sídere, Deum precémur súpplices, Ut in diúrnis áctibus Nos servet a nocéntibus.</p>
       <p>Com o sol que se alevanta, A Deus se elevam nossas súplicas, Nos actos diurnos, Nos preserve de todo o mal.</p>
       <p>Linguam refrénans témperet, Ne litis horror ínsonet: Visum fovéndo cóntegat, Ne vanitátes háuriat.</p>

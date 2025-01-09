@@ -10,7 +10,7 @@ export default function Page147() {
       <h1>Salmo 147</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lauda, Jerúsalem, Dóminum: * lauda Deum tuum, Sion.</p>
       <p>Louva, ó Jerusalém, o Senhor: * louva, ó Sião, o teu Deus.</p>
       <p>Quóniam confortávit seras portárum tuárum: * benedíxit fíliis tuis in te.</p>

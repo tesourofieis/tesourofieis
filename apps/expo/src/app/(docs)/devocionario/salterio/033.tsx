@@ -10,7 +10,7 @@ export default function Page033() {
       <h1>Salmo 33</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícam Dóminum in omni témpore: * semper laus ejus in ore meo.</p>
       <p>Bendirei o Senhor a toda a hora: * o seu louvor estará sempre na minha boca.</p>
       <p>In Dómino laudábitur ánima mea: * áudiant mansuéti, et læténtur.</p>

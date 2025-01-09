@@ -14,14 +14,14 @@ export default function Page0824() {
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortatus est principatus eórum. <em>Ps. ibid., 1-2</em> Dómine, probásti me et cognovísti me: tu cognovisti sessiónem meam et resurrectionem meam. ℣. Gloria Patri...</p>
       <p>Eu vejo, ó Deus, que honrais largamente os vossos amigos: e que seu poder se tem fortalecido extraordinariamente. <em>Sl. ibid., 1-2</em> Senhor, perscrutastes o meu íntimo e ficastes-me conhecendo; ficastes conhecendo quando me deito e quando me levanto. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui hujus diei venerándam sanctámque lætítiam in beáti Apóstoli tui Bartholomǽi festivitáte tribuísti: da Ecclésiæ tuæ, quǽsumus; et amáre quod crédidit, et prædicáre quod dócuit. Per Dóminum...</p>
       <p>Ó Deus omnipotente e sempiterno, que neste dia, em que celebramos a festa do B. Bartolomeu, Apóstolo, nos proporcionais uma santa e veneranda alegria, concedei à vossa Igreja, Vos suplicamos, o dom de amar o que ele acreditou e de pregar o que ensinou. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0824() {
 
 <em>1 Cor. 12, 27-31</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Vos estis corpus Christi et membra de membro. Et quosdam quidem pósuit Deus in Ecclésia primum apóstolos, secúndo prophetas, tertio doctores, deinde virtútes, exinde grátias curationum, opitulatiónes, gubernatiónes, genera linguarum, interpretatiónes sermonum. Numquid omnes apóstoli? numquid omnes prophétæ? numquid omnes doctóres? numquid omnes virtútes? numquid omnes grátiam habent curationum? numquid omnes linguis loquúntur? numquid omnes interpretántur? Æmulámini autem charísmata melióra.</p>
@@ -41,7 +41,7 @@ export default function Page0824() {
 
 <em>Sl. 44, 17 & 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine. ℣. Pro patribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.</p>
       <p>Serão constituídos príncipes em toda a terra e perpetuarão a glória do vosso nome, Senhor! ℣. Para substituir os vossos pais, nascer-vos-ão filhos; por isso os povos Vos honrarão eternamente.</p>
       <p>Allelúja, allelúja. ℣. Te gloriósus Apostolórum chorus laudat, Dómine. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page0824() {
 
 <em>Lc. 6, 12-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Exiit Jesus in montem oráre, et erat pernóctans in oratióne Dei. Et cum dies factus esset, vocavit discípulos suos, et elégit duódecim ex ipsis (quos et Apóstolos nominávit): Simónem, quem cognominávit Petrum, et Andream fratrem ejus, Jacóbum et Joánnem, Philíppum et Bartholomǽum, Matthǽum et Thomam, Jacóbum Alphǽi et Simónem, qui vocátur Zelótes, et Judam Jacóbi, et Judam Iscariótem, qui fuit próditor. Et descéndens cum illis, stetit in loco campéstri, et turba discipulórum ejus, et multitúdo copiósa plebis ab omni Judǽa, et Jerúsalem, et marítima, et Tyri, et Sidónis, qui vénerant, ut audírent eum et sanaréntur a languóribus suis. Et, qui vexabántur a spirítibus immúndis, curabántur. Et omnis turba quærébat eum tángere: quia virtus de illo exíbat, et sanábat omnes.</p>
@@ -63,14 +63,14 @@ export default function Page0824() {
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.</p>
       <p>Eu vejo, ó Deus, que honrais largamente os vossos amigos; e por isso o seu poder se tem fortalecido extraordinariamente.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beáti Apóstoli tui Bartholomǽi sollémnia recenséntes, quǽsumus, Dómine: ut ejus auxílio tua benefícia capiámus, pro quo tibi laudis hóstias immolámus. Per Dóminum...</p>
       <p>Celebrando a festa do B. Bartolomeu, vosso Apóstolo, fazei, Senhor, Vos suplicamos, que alcancemos os vossos benefícios pelo socorro daquele em cuja honra imolamos esta hóstia de louvor. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page0824() {
 
 <em>Mt. 19, 28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël, dicit Dóminus.</p>
       <p>Vós, que me seguistes, vos assentareis sobre tronos e julgareis as doze tribos de Israel.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumptum, Dómine, pignus redemptiónis ætérnæ: sit nobis, quǽsumus; interveniénte beáto Bartholomǽo Apóstolo tuo, vitæ præséntis auxílium páriter et futúræ. Per Dóminum...</p>
       <p>Permiti, Senhor, que o penhor da redenção eterna, que recebemos, seja para nós, por intercessão do B. Bartolomeu, Apóstolo, auxílio na vida presente e na futura. Por nosso Senhor...</p>
       </div>

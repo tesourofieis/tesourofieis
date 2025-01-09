@@ -10,7 +10,7 @@ export default function Page040() {
       <h1>Salmo 40</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus qui intéllegit super egénum, et páuperem: * in die mala liberábit eum Dóminus.</p>
       <p>Bem-aventurado o que tem em consideração o necessitado e o pobre: * no mau dia livrá-lo-á o Senhor.</p>
       <p>Dóminus consérvet eum, et vivíficet eum, et beátum fáciat eum in terra: * et non tradat eum in ánimam inimicórum ejus.</p>

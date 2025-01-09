@@ -25,14 +25,14 @@ export default function Page0628() {
 
 <em>Jo. 21, 18-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dicit Dóminus Petro: Cum esses júnior, cingébas te et ambulábas, ubi volébas: cum autem senúeris, exténdes manus tuas, et álius te cinget et ducet, quo tu non vis: hoc autem dixit, signíficans, qua morte clarificatúrus esset Deum. <em>Ps. 18, 1</em> Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum. ℣. Gloria Patri...</p>
       <p>O Senhor disse a Pedro: «Quando tu eras mais novo, cingias-te a ti mesmo e ias onde querias; mas, quando fores velho, estenderás as tuas mãos, um outro te cingirá e te conduzirá onde não queiras». Isto foi-lhe dito para lhe indicar com que morte deveria glorificar Deus. <em>Sl. 18, 1</em> Os céus proclamam a glória de Deus e o firmamento anuncia as obras das suas mãos. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut nullis nos permíttas perturbatiónibus cóncuti; quos in apostólicæ confessiónis petra solidásti. Per Dóminum...</p>
       <p>Ó Deus omnipotente, havendo nós sido estabelecidos sobre a pedra sólida da fé dos Apóstolos, dignai-Vos permitir que nenhuma perturbação abale a nossa fé. Por nosso Senhor...</p>
       </div>
@@ -41,7 +41,7 @@ export default function Page0628() {
 
 <em>Act. 3, 1-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Petrus et Joánnes ascendébant in templum ad horam oratiónis nonam. Et quidam vir, qui erat claudus ex útero matris suæ, bajulabátur: quem ponébant cotídie ad portam templi, quæ dícitur Speciósa, ut péteret eleemósynam ab introeúntibus in templum. Is cum vidísset Petrum et Joánnem incipiéntes introíre in templum, rogábat, ut eleemósynam acciperet. Intuens autem in eum Petrus cum Joánne, dixit: Réspice in nos. At ille intendébat in eos, sperans se áliquid acceptúrum ab eis. Petrus autem dixit: Argéntum et aurum non est mihi; quod autem habeo, hoc tibi do: In nómine Jesu Christi Nazaréni surge, et ámbula. Et apprehénsa manu ejus déxtera, allevávit eum, et protínus consolidátæ sunt bases ejus et plantæ. Et exsíliens stetit, et ambulábat: et intrávit cum illis in templum, ámbulans et exsíliens et laudans Deum. Et vidit omnis populus eum ambulántem et laudántem Deum. Cognoscébant autem illum, quod ipse erat, qui ad eleemósynam sedébat ad Speciósam portam templi: et impléti sunt stupore et écstasi in eo, quod contígerat illi.</p>
@@ -52,7 +52,7 @@ export default function Page0628() {
 
 <em>Sl. 18, 5 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum. ℣. Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.</p>
       <p>O eco da sua voz espalhou-se por toda a terra: e as suas palavras soaram até aos confins da terra. ℣. Os céus proclamam a glória de Deus e o firmamento anuncia as obras das suas mãos.</p>
       </div>
@@ -61,7 +61,7 @@ export default function Page0628() {
 
 <em>Jo. 21, 15-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -74,14 +74,14 @@ S. João.</p>
 
 <em>Sl. 138, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.</p>
       <p>Vejo, ó meu Deus, que honrais de um modo singular os vossos amigos: o seu poder firmou-se extraordinariamente.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Munus pópuli tui, quǽsumus, Dómine, apostólica intercessióne sanctífica: nosque a peccatórum nostrórum máculis emúnda. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, santificai pela intercessão dos vossos Apóstolos a oblata do vosso povo e purificai-nos das manchas dos nossos pecados. Por nosso Senhor...</p>
       </div>
@@ -90,14 +90,14 @@ S. João.</p>
 
 <em>Jo. 21, 15 & 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Simon Joánnis, díligis me plus his? Dómine, tu ómnia nosti: tu scis, Dómine, quia amo te.</p>
       <p>Simão, filho de João, tu amas-me mais do que estes? Senhor, conheceis tudo, e, portanto, sabeis que Vos amo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quos cœlésti, Dómine, álii ménto satiásti: apostólicis intercessiónibus ab omni adversitáte custódi. Per Dóminum nostrum...</p>
       <p>Dignai-Vos, Senhor, pela intercessão dos vossos Apóstolos preservar de todas as adversidades aqueles que saciastes com o alimento celestial. Por nosso Senhor...</p>
       </div>

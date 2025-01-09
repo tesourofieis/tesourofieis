@@ -14,14 +14,14 @@ export default function PagePent100() {
 
 <em>Sl. 54, 17, 18, 20 & 23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui appropínquant mihi: et humiliávit eos, qui est ante sǽcula et manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet. <em>Ps. ibid., 2</em> Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde mihi et exáudi me. ℣. Gloria Patri...</p>
       <p>Como invocasse o Senhor, ouviu Ele a minha voz e protegeu-me contra os que me combatem. Aquele que existia antes dos séculos e subsistirá eternamente humilhou-os. Depositai nas mãos do Senhor todas as preocupações, pois Ele vos sustentará. <em>Sl. ibid., 2</em> Ouvi, Senhor, a minha oração e não desprezeis a minha humilde súplica: escutai-me, ouvi-me. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui omnipoténtiam tuam parcéndo máxime et miserándo maniféstas: multíplica super nos misericórdiam tuam; ut, ad tua promíssa curréntes, cœléstium bonórum fácias esse consórtes. Per Dóminum...</p>
       <p>Ó Deus, que manifestais principalmente o vosso poder perdoando ao pecador e compadecendo-Vos das suas misérias, multiplicai sobre nós a abundância da vossa misericórdia, a fim de que, suspirando durante esta vida pelos bens que nos prometestes, nos tornamos participantes deles no céu. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent100() {
 
 <em>1 Cor 12, 2-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Scitis, quóniam, cum gentes essétis, ad simulácra muta prout ducebámini eúntes. Ideo notum vobisfacio, quod nemo in Spíritu Dei loquens, dicit anáthema Jesu. Et nemo potest dícere, Dóminus Jesus, nisi in Spíritu Sancto. Divisiónes vero gratiárum sunt, idem autem Spíritus. Et divisiónes ministratiónum sunt, idem autem Dóminus. Et divisiónes operatiónum sunt, idem vero Deus, qui operátur ómnia in ómnibus. Unicuíque autem datur manifestátio Spíritus ad utilitátem. Alii quidem per Spíritum datur sermo sapiéntiæ álii autem sermo sciéntiæ secúndum eúndem Spíritum: álteri fides in eódem Spíritu: álii grátia sanitátum in uno Spíritu: álii operátio virtútum, álii prophétia, álii discrétio spirítuum, álii génera linguárum, álii interpretátio sermónum. Hæc autem ómnia operátur unus atque idem Spíritus, dívidens síngulis, prout vult.</p>
@@ -41,7 +41,7 @@ export default function PagePent100() {
 
 <em>Sl. 16, 8 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me. ℣. De vultu tuo judícium meum pródeat: óculi tui vídeant æquitátem.</p>
       <p>Guardai-me, Senhor, como a pupila olhos: acolhei-me à sombra das vossas o Senhor. ℣. Que os vossos lábios pronunciem o meu juízo: e que os vossos olhos vejam a minha justiça.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps 64, 2</em> Te decet hymnus, De us, in Sion: et tibi redde tu votum in Jerúsalem. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent100() {
 
 <em>Lc. 18, 9-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Sl. 24, 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.</p>
       <p>A Vós elevei a minha alma. O Deus, confio em Vós: não permitireis que e confundido e envergonhado: nem vencido meus inimigos; porquanto aqueles que em Vós confiam não serão confundidos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tibi, Dómine, sacrifícia dicáta reddántur: quæ sic ad honórem nóminis tui deferénda tribuísti, ut eadem remédia fíeri nostra præstáres. Per Dóminum...</p>
       <p>A Vós, Senhor, é devida a homenagem destes sacrifícios, pois fostes Vós que permitindo-nos que os oferecêssemos em glória do vosso nome, os tornastes remédio das nossas almas. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Sl. 50, 21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Acceptábis sacrificium justítiæ, oblatiónes et holocáusta, super altáre tuum, Dómine.</p>
       <p>Dignai-Vos, Senhor, aceitar sobre o vosso Altar o sacrifício da justiça, as ofertas e os holocaustos.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, Dómine, Deus noster: ut, quos divínis reparáre non désinis sacraméntis, tuis non destítuas benígnus auxíliis. Per Dóminum nostrum...</p>
       <p>Vos suplicamos, ó Senhor, nosso Deus, não priveis do vosso auxílio àqueles a quem não cessais de alimentar com os divinos sacramentos. Por nosso Senhor...</p>
       </div>

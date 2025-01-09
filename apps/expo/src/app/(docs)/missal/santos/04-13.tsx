@@ -24,7 +24,7 @@ Dentro do Tempo Pascal como na Missa Protexísti me, excepto a Oração e o Evan
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátum Hermenegíldum Mártyrem tuum cœlésti regno terrénum postpónere docuísti: da, quǽsumus, nobis; ejus exémplo cadúca despícere atque ætérna sectári. Per Dóminum...</p>
       <p>Ó Deus, que ensinastes o S. Hermenegildo, vosso Mártir, a preferir o reino celestial ao terrestre, concedei-nos a graça, Vos suplicamos, de, seguindo seus exemplos, desprezarmos os bens caducos e amarmos os eternos. Por nosso Senhor...</p>
       </div>

@@ -18,7 +18,7 @@ export default function PageQuad56() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Profíciat, quǽsumus, Dómine, plebs tibi dicáta piæ devotiónis afféctu: ut sacris actiónibus erudíta, quanto majestáti tuæ fit grátior, tanto donis potióribus augeátur. Per Dóminum...</p>
       <p>Permiti, Senhor, Vos imploramos, que o povo, que Vos é consagrado, aumente com fervor a sua piedade, a fim de que, instruindo-se com estes actos da religião, alcance tanto mais dons celestiais quanto mais se tornar agradável à vossa divina majestade. Por nosso Senhor...</p>
       </div>
@@ -27,7 +27,7 @@ export default function PageQuad56() {
 
 <em>Jr. 18, 18-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Jeremíæ Prophétæ.</p>
       <p>Lição do Profeta Jeremias.</p>
       <p>In diébus illis: Dixérunt ímpii Judǽi ad ínvicem: Veníte, et cogitémus contra justum cogitatiónes: non enim períbit lex a sacerdóte, neque consílium a sapiénte, nec sermo a prophéta: veníte, et percutiámus eum lingua, et non attendámus ad univérsos sermónes ejus. Atténde, Dómine, ad me, et audi vocem adversariórum meórum. Numquid rédditur pro bono malum, quia fodérunt fóveam ánimæ meæ? Recordáre, quod stéterim in conspéctu tuo, ut lóquerer pro eis bonum, et avérterem indignatiónem tuam ab eis. Proptérea da fílios eórum in famem, et deduc eos in manus gládii: fiant uxóres eórum absque líberis, et víduæ: et viri eárum interficiántur morte: júvenes eórum confodiántur gládio in prǽlio. Audiátur clamor de dómibus eórum: addúces enim super eos latrónem repénte: quia fodérunt foveam, ut cáperent me, et láqueos abscondérunt pédibus meis. Tu autem, Dómine, scis omne consílium eórum advérsum me in mortem: ne propitiéris iniquitáti eórum, et peccátum eórum a fácie tua non deleátur. Fiant corruéntes in conspéctu tuo, in témpore furóris tui ab útere eis, Dómine, Deus noster.</p>
@@ -38,7 +38,7 @@ export default function PageQuad56() {
 
 <em>Jo. 12, 10-36</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Cogitavérunt príncipes sacerdótum, ut et Lázarum interfícerent: quia multi propter illum abíbant ex Judǽis, et credébant in Jesum. In crastínum autem turba multa, quæ vénerat ad diem festum, cum audíssent, quia venit Jesus Jerosólymam, accepérunt ramos palmárum, et processérunt óbviam ei, et clamábant: Hosánna, benedíctus, qui venit in nómine Dómini, Rex Israël. Et invénit Jesus aséllum, et sedit super eum, sicut scriptum est: Noli timére, fília Sion: ecce, Rex tuus venit sedens super pullum ásinæ. Hæc non cognovérunt discípuli ejus primum: sed quando glorificátus est Jesus, tunc recordáti sunt, quia hæc erant scripta de eo: et hæc fecérunt ei. Testimónium ergo perhibébat turba, quæ erat cum eo, quando Lázarum vocávit de monuménto, et suscitávit eum a mórtuis. Proptérea et óbviam venit ei turba: quia audiérunt eum fecísse hoc signum. Pharisǽi ergo dixérunt ad semetípsos: Vidétis, quia nihil profícimus? Ecce, mundus totus post eum ábiit. Erant autem quidam gentíles ex his, qui ascénderant, ut adorárent in die festo. Hi ergo accessérunt ad Philíppum, qui erat a Bethsáida Galilǽæ: et rogábant eum, dicéntes: Dómine, vólumus Jesum vidére. Venit Philíppus, et dicit Andréæ: Andréas rursum et Philíppus dixérunt Jesu. Jesus autem respóndit eis, dicens: Venit hora, ut clarificétur Fílius hóminis. Amen, amen, dico vobis, nisi granum fruménti cadens in terram mórtuum fúerit, ipsum solum manet: si autem mórtuum fúerit, multum fructum affert. Qui amat ánimam suam, perdet eam: et qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam. Si quis mihi minístrat, me sequátur: et ubi sum ego, illic et miníster meus erit. Si quis mihi ministráverit, honorificábit eum Pater meus. Nunc anima mea turbáta est. Et quid dicam? Pater, salvífica me ex hac hora. Sed proptérea veni in horam hanc. Pater, clarífica nomen tuum. Venit ergo vox de cœlo: Et clarificávi, et íterum clarificábo. Turba ergo, quæ stabat et audíerat, dicebat tonítruum esse factum. Alii dicébant: Angelus ei locútus est. Respóndit Jesus et dixit: Non propter me hæc vox venit, sed propter vos. Nunc judícium est mundi, nunc princeps hujus mundi ejiciétur foras. Et ego si exaltátus fúero a terra, ómnia traham ad meípsum. (Hoc autem dicebat, signíficans, qua morte esset moritúrus.) Respóndit ei turba: Nos audívimus ex lege, quia Christus manet in ætérnum, et quómodo tu dicis: Oportet exaltári Fílium hominis? Quis est iste Fílius hominis? Dixit ergo eis Jesus: Adhuc módicum lumen in vobis est. Ambuláte, dum lucem habétis, ut non vos ténebræ comprehéndant: et qui ámbulat in ténebris, nescit, quo vadat. Dum lucem habétis, crédite in lucem: ut fílii lucis sitis. Hæc locútus est Jesus: et ábiit, et abscóndit se ab eis.</p>
@@ -47,21 +47,21 @@ export default function PageQuad56() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus absólve: quos tanti mystérii tríbuis esse consórtes. Per Dóminum...</p>
       <p>A nós, Senhor, que Vos dignastes tornar participantes deste tão solene mystério, concedei-nos o perdão de todas nossas culpas, Vos rogamos, e livrai-nos de todos os perigos. Por...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Divíni múneris largitáte satiáti, quǽsumus, Dómine, Deus noster: ut hujus semper participatióne vivámus. Per Dóminum...</p>
       <p>Saciados com a liberdade deste divino dom, Vos imploramos, Senhor, nosso Deus, permiti que sejamos aviventados sempre que dele comparticiparmos. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

@@ -10,7 +10,7 @@ export default function PageAdorote() {
       <h1>Adóro te devóte</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adóro te devóte, latens Déitas, Quae sub his figúris vere látitas: Tibi se cor meum totum súbiicit, Quia te contémplans totum déficit.</p>
       <p>Eu Vos adoro com toda minha devoção, ó divindade oculta, que estais realmente presente, sob o véu dessas figuras! Meu coração submete-se inteiramente a Vós; pois, desde que Vos contemplo, sinto-me completamente desfalecer.</p>
       <p>Visus, tactus, gustus in te fállitur, Sed audítu solo tuto créditur. Credo, quidquid dixit Dei Fílius: Nil hoc verbo Veritátis vérius.</p>

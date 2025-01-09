@@ -14,14 +14,14 @@ export default function PagePasc20() {
 
 <em>Sl. 32, 5-6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja. <em>Ps. ibid., 1</em> Exsultáte, justi, in Dómino: rectos decet collaudátio. ℣. Gloria Patri...</p>
       <p>A misericórdia do Senhor enche toda a terra, aleluia! A palavra do Senhor criou os céus, aleluia, aleluia. <em>Sl. ibid., 1</em> Ó justos, exultai de alegria e aclamai o Senhor; pois é bom que os justos O louvem. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui in Filii tui humilitate jacéntem mundum erexísti: fidelibus tuis perpétuam concéde lætítiam; ut, quos perpétuæ mortis eripuísti casibus, gaudiis fácias perfrui sempitérnis. Per eúndem Dóminum...</p>
       <p>Ó Deus, que pela humilhação do vosso Filho livrastes o mundo do abatimento em que jazia, concedei aos vossos fiéis a alegria perpétua, a fim de que aqueles que livrastes da morte eterna se tornem participantes dos gozos sempiternos. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -30,14 +30,14 @@ export default function PagePasc20() {
 
 <em>1 Pe. 2, 21-25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Petri Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º Pedro.</p>
       <p>Caríssimi: Christus passus est pro nobis, vobis relínquens exémplum, ut sequámini vestígia ejus. Qui peccátum non fecit, nec invéntus est dolus in ore ejus: qui cum male dicerétur, non maledicébat: cum paterétur, non comminabátur: tradébat autem judicánti se injúste: qui peccáta nostra ipse pértulit in córpore suo super lignum: ut, peccátis mórtui, justítiæ vivámus: cujus livóre sanáti estis. Erátis enim sicut oves errántes, sed convérsi estis nunc ad pastórem et epíscopum animárum vestrárum.</p>
       <p>Caríssimos: Cristo padeceu por nós, deixando-nos o exemplo, para que seguíssemos as suas pegadas: Ele, que não cometeu pecado; Ele, em cuja boca não apareceu qualquer engano; Ele, que, mesmo injuriado, não correspondeu com injúrias; Ele, que, maltratado não ameaçava, mas entregava-se a quem O julgava injustamente; Ele, que levou os nossos pecados no seu corpo sobre o madeiro da Cruz, a fim de que, sendo nós mortos para os pecados, vivamos para a justiça; Ele, em cujas chagas fomos curados. Pois vós éreis como ovelhas desgarradas, mas agora estais convertidos ao pastor e ao bispo das vossas almas.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Luc. 24, 35</em> Cognovérunt discípuli Dóminum Jesum in fractióne panis. Allelúja. ℣. <em>Joann. 10, 14</em> Ego sum pastor bonus: ei cognósco oves meas, et cognóscunt me meæ. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Lc. 24, 35</em> Os dois discípulos reconheceram o Senhor Jesus pela fracção do pão. Aleluia. ℣. <em>Jo. 10, 14</em> Eu sou o bom Pastor; conheço as minhas ovelhas, e elas conhecem-me, aleluia.</p>
       </div>
@@ -46,7 +46,7 @@ export default function PagePasc20() {
 
 <em>Jo. 10, 11-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus pastor ánimam suam dat pro óvibus suis. Mercennárius autem et qui non est pastor, cujus non sunt oves própriæ, videt lupum veniéntem, et dimíttit oves et fugit: et lupus rapit et dispérgit oves: mercennárius autem fugit, quia mercennárius est et non pértinet ad eum de óvibus. Ego sum pastor bonus: et cognósco meas et cognóscunt me meæ. Sicut novit me Pater, et ego agnósco Patrem, et ánimam meam pono pro óvibus meis. Et alias oves hábeo, quæ non sunt ex hoc o vili: et illas opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle et unus pastor.</p>
@@ -57,14 +57,14 @@ export default function PagePasc20() {
 
 <em>Sl. 62, 2 & 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, Deus meus, ad te de luce vígilo: et in nómine tuo levábo manus meas, allelúja.</p>
       <p>Ó Deus, ó meu Deus, a Vós recorro desde manhã: E erguerei as minhas mãos em honra do vosso nome, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedictiónem nobis, Dómine, cónferat salutárem sacra semper oblátio: ut, quod agit mystério, virtúte perfíciat. Per Dóminum...</p>
       <p>Senhor, que esta oblação sagrada nos alcance sempre a vossa salutar bênção, a fim de que produza os efeitos do mystério que ela renova. Por nosso Senhor...</p>
       </div>
@@ -73,14 +73,14 @@ export default function PagePasc20() {
 
 <em>Jo. 10, 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ego sum pastor bonus, allelúja: et cognósco oves meas, et cognóscunt me meæ, allelúja, allelúja.</p>
       <p>Eu sou o bom Pastor, aleluia; conheço as minhas ovelhas, e elas conhecem-me, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta nobis, quǽsumus, omnípotens Deus: ut, vivificatiónis tuæ grátiam consequéntes, in tuo semper múnere gloriémur. Per Dóminum nostrum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, permiti que, havendo alcançado de Vós a graça da vida nova, sempre nos gloriemos com este dom, que nos dispensais. Por nosso Senhor...</p>
       </div>

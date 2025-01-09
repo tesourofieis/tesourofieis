@@ -14,14 +14,14 @@ export default function Page0212() {
 
 <em>Sb. 10, 20-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justi decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum tuam laudavérunt páriter: quóniam sapiéntia apéruit os mutum et linguas infántium fecit disértas. <em>Ps. 8, 2</em> Dómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra! ℣. Gloria Patri...</p>
       <p>Os justos cantaram o vosso santo nome, Senhor, e louvaram em concerto a vossa mão vitoriosa: pois a sabedoria abriu a boca dos mudos e tornou eloquente a língua das criancinhas. <em>Sl. 8, 2</em> Ó Senhor, nosso Deus, como o vosso nome é glorioso em toda a terra! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine Jesu Christe, qui, ad recoléndam memóriam dolórum sanctíssimæ Genetrícis tuæ, per septem beátos Patres nova Servorum ejus família Ecclésiam tuam fœcundásti: concéde propítius; ita nos eórum consociári flétibus, ut perfruámur et gáudiis: Qui vivis...</p>
       <p>Senhor Jesus Cristo, que para honrar a memória das Dores da vossa S. S. Mãe enriquecestes a vossa Igreja, por intermédio dos sete Bem-aventurados Padres, com a nova família dos Servitas, concedei-nos benigno que nos associemos de tal modo às suas lágrimas que possamos também compartilhar das suas alegrias. Ó Vós, que viveis e...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0212() {
 
 <em>Ecl. 44, 1-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Laudémus viros gloriósos et paréntes nostros in generatióne sua. Multam glóriam fecit Dóminus magnificéntia sua a sǽculo. Dominántes in potestátibus suis, hómines magni virtúte et prudéntia sua prǽditi, nuntiántes in prophétis dignitátem prophetárum, et imperántes in præsénti pópulo, et virtúte prudéntiæ pópulis sanctíssima verba. In perítia sua requiréntes modos músicos, et narrántes cármina scripturárum. Hómines dívites in virtúte, pulchritúdinis stúdium habéntes: pacificántes in dómibus suis. Omnes isti in generatiónibus gentis suæ glóriam adépti sunt, et in diébus suis habéntur in láudibus. Qui de illis nati sunt, reliquérunt nomen narrándi laudes eórum. Et sunt, quorum non est memória: periérunt, quasi qui non fúerint: et nati sunt, quasi non nati, et fílii ipsórum cum ipsis. Sed illi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum sémine eórum pérmanent bona, heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum propter illos usque in ætérnum manent: semen eórum et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia.</p>
@@ -41,7 +41,7 @@ export default function Page0212() {
 
 <em>Is. 65, 23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Electi mei non laborábunt frustra, neque germinábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis. ℣. <em>Eccli. 44, 14</em> Córpora ipsorum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem.</p>
       <p>Os meus escolhidos se não fatigarão mais em vão, nem fecundarão filhos que lhes causem pena; pois eles e os seus descendentes formarão uma raça abençoada pelo Senhor. ℣. <em>Ecl. 44, 14</em> Seus corpos foram sepultados em paz e o seu nome vive de geração em geração.</p>
       <p>Allelúja, allelúja. ℣. <em>ibid., 15</em> Sapiéntiam ipsorum narrent pópuli, et laudem eórum núntiet Ecclésia. Allelúja.</p>
@@ -65,14 +65,14 @@ export default function Page0212() {
 
 <em>Is. 56, 7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Addúcam eos in montem sanctum meum, et lætificábo eos in domo oratiónis meæ: holocáusta eórum et víctimæ eórum placébunt mihi super altáre meum.</p>
       <p>Conduzi-los-ei à montanha sagrada e alegrá-los-ei na minha casa de oração. Seus holocaustos e os seus sacrifícios ser-me-ão agradáveis no meu altar.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Accipe, quǽsumus, Dómine, hóstias quas tibi offérimus: et præsta; ut, intercedéntibus Sanctis tuis, libera tibi mente serviámus, et perdoléntis Vírginis Genetrícis Fílii tui amóre inflammémur. Per eúndem Dóminum...</p>
       <p>Aceitai, Senhor, Vos rogamos, as hóstias que Vos oferecemos; e concedei-nos por intercessão dos vossos Santos que Vos sirvamos com inteira liberdade de espírito e sejamos abrasados em amor pela Mãe Dolorosa do vosso Divino Filho. Por nosso Senhor...</p>
       </div>
@@ -81,14 +81,14 @@ export default function Page0212() {
 
 <em>Jo. 15, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ego vos elégi de mundo, ut eátis et fructum afferátis: et fructus vester máneat.</p>
       <p>Eu vos escolhi no mundo para irdes e alcançardes fruto; e para que esse vosso fruto permaneça.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cœléstibus refécti mystériis te, Dómine, deprecámur: ut, quorum festa percólimus imitántes exémpla; juxta Crucem Jesu cum María Matre ejus fidéliter astémus, et ejúsdem redemptiónis fructum percípere mereámur. Per eúndem Dóminum...</p>
       <p>Fortalecidos com os celestiais mystérios, Senhor, Vos imploramos, fazei que, imitando o exemplo daqueles cuja festa celebramos, sejamos fiéis em permanecer ao pé da Cruz de Jesus com Maria, sua Mãe, e assim mereçamos receber o fruto da Redenção. Pelo mesmo nosso Senhor...</p>
       </div>

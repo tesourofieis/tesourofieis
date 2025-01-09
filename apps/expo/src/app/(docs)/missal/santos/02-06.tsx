@@ -16,7 +16,7 @@ export default function Page0206() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátum Titum Confessórem tuum atque Pontíficem apostólicis virtútibus decorásti: ejus méritis et intercessióne concéde; ut, juste et pie vivéntes in hoc sǽculo, ad cœléstem pátriam perveníre mereámur. Per Dóminum...</p>
       <p>Ó Deus, que ornastes o B. Tito, vosso Confessor e Pontífice, com as virtudes apostólicas, concedei-nos, pelos seus méritos e intercessão, que vivendo neste mundo justa e piamente, mereçamos alcançar a pátria celestial. Por nosso Senhor...</p>
       </div>
@@ -25,7 +25,7 @@ export default function Page0206() {
 
 <em>Lc. 10, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sǽculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertátur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.</p>

@@ -14,14 +14,14 @@ export default function PagePent80() {
 
 <em>Sl. 47, 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum nomen tuum, Deus, ita et laus tua in fines terræ: justítia plena est déxtera tua. <em>Ps. ibid., 2</em> Magnus Dóminus, et laudábilis nimis: in civitate Dei nostri, in monte sancto ejus. ℣. Gloria Patri...</p>
       <p>Alcançámos, ó Deus, a vossa misericórdia no meio do vosso templo. Como o vosso nome, assim a vossa glória, Senhor, se estende até aos confins da terra: e a vossa dextra está cheia de justiça. <em>Sl. ibid., 2</em> O Senhor é grande e digno de todos os louvores, tanto na cidade de Deus, como no seu monte santo. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Largíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta sunt, propítius et agéndi: ut, qui sine te esse non póssumus, secúndum te vívere valeámus. Per Dóminum...</p>
       <p>Concedei-nos propício, Senhor, Vos imploramos, a graça de pensar e de praticar sempre segundo a justiça, a fim de que, não podendo nós existir sem Vós, conformemos sempre a nossa vida com vossa vontade. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent80() {
 
 <em>Rm. 8, 12-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Debitóres sumus non carni, ut secúndum carnem vivámus. Si enim secúndum carnem vixéritis, moriémini: si autem spíritu facta carnis mortificavéritis, vivétis. Quicúmque enim spíritu Dei aguntur, ii sunt fílii Dei. Non enim accepístis spíritum servitútis íterum in timóre, sed accepístis spíritum adoptiónis filiórum, in quo clamámus: Abba (Pater). Ipse enim Spíritus testimónium reddit spirítui nostro, quod sumus fílii Dei. Si autem fílii, et herédes: herédes quidem Dei, coherédes autem Christi.</p>
@@ -41,7 +41,7 @@ export default function PagePent80() {
 
 <em>Sl. 30, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me fácias. ℣. <em>Ps. 70, 1</em> Deus, in te sperávi: Dómine, non confúndar in ætérnum.</p>
       <p>Sede para mim Deus protector: e um lugar de refúgio para me salvar. ℣. <em>Sl. 70, 1</em> Ó Deus, em Vós pus a minha esperança: não serei para sempre confundido, Senhor.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 47, 2</em> Magnus Dóminus, et laudábilis valde, in civitáte Dei nostri, in monte sancto ejus. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent80() {
 
 <em>Lc. 16, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Sl. 17, 28 & 32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pópulum húmilem salvum fácies, Dómine, et óculos superbórum humiliábis: quóniam quis Deus præter te, Dómine?</p>
       <p>Salvareis, Senhor, o povo humilde, e humilhareis os soberbos, pois quem é Deus senão Vós, Senhor?</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, quǽsumus, Dómine, múnera, quæ tibi de tua largitáte deférimus: ut hæc sacrosáncta mystéria, grátiæ tuæ operánte virtúte, et præséntis vitæ nos conversatióne sanctíficent, et ad gáudia sempitérna perdúcant. Per Dóminum...</p>
       <p>Aceitai, Senhor, Vos suplicamos, estes dons, que recebemos da vossa liberalidade, a fim de que pela eficácia da vossa graça estes sacrossantos mystérios nos santifiquem durante a vida presente e nos conduzam à posse das alegrias eternas. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Sl. 33, 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gustáte et vidéte, quóniam suávis est Dóminus: beátus vir, qui sperat in eo.</p>
       <p>Provai e vede como o Senhor é suave: Bem-aventurado o varão que confia n’Ele.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sit nobis, Dómine, reparátio mentis et córporis cæléste mystérium: ut, cujus exséquimur cultum, sentiámus efféctum. Per Dóminum...</p>
       <p>Que este celestial mystério, Senhor, renove o nosso espírito e o nosso corpo» a fim de que sintamos os efeitos do sacramento que honrámos. Por nosso Senhor...</p>
       </div>

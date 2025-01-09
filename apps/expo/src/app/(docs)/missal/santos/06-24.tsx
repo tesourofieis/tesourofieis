@@ -14,14 +14,14 @@ export default function Page0624() {
 
 <em>Is. 49, 1 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit os meum ut gládium acútum: sub teguménto manus suæ protéxit me, et pósuit me quasi sagíttam eléctam. <em>Ps. 91, 2</em> Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime. ℣. Gloria Patri...</p>
       <p>O Senhor chamou-me pelo meu nome quando eu ainda estava no seio da minha mãe: e Ele tornou a minha boca semelhante a uma espada aguçada, protegeu-me com a sombra da sua mão, dispondo-me como uma flecha escolhida. <em>Sl. 91, 2</em> É bom louvar o Senhor; e cantar o vosso nome, ó Altíssimo. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui præséntem diem honorábilem nobis in beáti Joánnis nativitáte fecísti: da pópulis tuis spirituálium grátiam gaudiórum; et ómnium fidélium mentes dirige in viam salútis ætérnæ. Per Dóminum...</p>
       <p>Ó Deus, que tornastes este dia memorável com o nascimento do B. João Baptista, concedei ao vosso povo a graça dos gozos espirituais; e guiai os corações de todos vossos fiéis pelo caminho da salvação eterna. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0624() {
 
 <em>Is. 49, 1-3, 5, 6 & 7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>Audíte, ínsulæ, et atténdite, pópuli, de longe: Dóminus ab útero vocavit me, de ventre matris meæ recordátus est nóminis mei. Et pósuit os meum quasi gládium acútum: in umbra manus suæ protéxit me, et pósuit me sicut sagíttam eléctam: in pháretra sua abscóndit me. Et dixit mihi: Servus meus es tu, Israël, quia in te gloriábor. Et nunc dicit Dóminus, formans me ex útero servum sibi: Ecce, dedi te in lucem géntium, ut sis salus mea usque ad extrémum terræ. Reges vidébunt, et consúrgent príncipes, et adorábunt propter Dominum et sanctum Israël, qui elégit te.</p>
@@ -41,7 +41,7 @@ export default function Page0624() {
 
 <em>Jr. 1, 5 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Priusquam te formárem in útero, novi te: et ántequam exíres de ventre, santificávi te. ℣. Misit Dóminus manum suam, et tétigit os meum, et dixit mihi.</p>
       <p>Antes de te formar no seio de tua mãe, já te conhecia: e antes de saíres dele, já te santificara. ℣. O Senhor estendeu a sua mão, tocou com ela na minha boca e disse-me:</p>
       <p>Allelúja, allelúja. ℣. <em>Luc. 1, 76</em> Tu, puer, Prophéta Altíssimi vocáberis: præíbis ante Dóminum paráre vias ejus. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page0624() {
 
 <em>Lc. 1, 57-68</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>Elísabeth implétum est tempus pariéndi, et péperit fílium. Et audiérunt vicíni et cognáti ejus, quia magnificávit Dóminus misericórdiam suam cum illa, et congratulabántur ei. Et factum est in die octávo, venérunt circumcídere púerum, et vocábant eum nómine patris sui Zacharíam. Et respóndens mater ejus, dixit: Nequáquam, sed vocábitur Joánnes. Et dixérunt ad illam: Quia nemo est in cognatióne tua, qui vocátur hoc nómine. Innuébant autem patri ejus, quem vellet vocári eum. Et póstulans pugillárem, scripsit, dicens: Joánnes est nomen ejus. Et miráti sunt univérsi. Apértum est autem illico os ejus et lingua ejus, et loquebátur benedícens Deum. Et factus est timor super omnes vicínos eórum: et super ómnia montána Judǽæ divulgabántur ómnia verba hæc: et posuérunt omnes, qui audíerant in corde suo, dicéntes: Quis, putas, puer iste erit? Etenim manus Dómini erat cum illo. Et Zacharías, pater ejus, repletus est Spíritu Sancto, et prophetávit, dicens: Benedíctus Dóminus, Deus Israël, quia visitávit et fecit redemptiónem plebis suæ.</p>
@@ -63,14 +63,14 @@ export default function Page0624() {
 
 <em>Sl. 91, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Justus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur.</p>
       <p>O justo florescerá, como a palmeira, e crescerá, como o cedro do Líbano.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tua, Dómine, munéribus altária cumulámus: illíus nativitátem honóre débito celebrántes, qui Salvatórem mundi et cécinit ad futúrum et adésse monstravit, Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit...</p>
       <p>Enchemos os vossos altares com ofertas, Senhor, a fim de celebrarmos com as honras que merece o nascimento daquele que profetizou a vinda do Salvador do mundo e que manifestou ao povo a presença de nosso Senhor Jesus Cristo, vosso Filho: Que vive e reina...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page0624() {
 
 <em>Lc. 1, 76</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tu, puer, Propheta Altíssimi vocaberis: præíbis enim ante fáciem Dómini paráre vias ejus.</p>
       <p>Tu, ó menino, serás chamado Profeta do Altíssimo; pois caminharás adiante do Senhor para preparar as suas vias.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumat Ecclésia tua, Deus, beáti Joánnis Baptístæ generatióne lætítiam: per quem suæ regeneratiónis cognóvit auctórem, Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit...</p>
       <p>Que a vossa Igreja, Senhor, goze a alegria do nascimento do B. João Baptista, que nos tornou conhecido o autor da sua regeneração: nosso Senhor Jesus Cristo, vosso Filho: Que vive e reina...</p>
       </div>

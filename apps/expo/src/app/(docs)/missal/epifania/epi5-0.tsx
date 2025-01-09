@@ -14,14 +14,14 @@ export default function PageEpi50() {
 
 <em>Sl. 96, 7-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judae. <em>Ps. ibid., 1</em> Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. ℣. Gloria Patri...</p>
       <p>Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião: e rejubilou: e as filhas de Judá exultaram de alegria. <em>Sl. ibid., 1</em> O Senhor reinou: alegre-se a terra e as suas muitas ilhas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut, quæ in sola spe grátiæ cœléstis innítitur, tua semper protectióne muniátur. Per Dóminum...</p>
       <p>Senhor, dignai-Vos revestir a vossa família com vossa perpétua misericórdia, e, como ela não possui outra esperança senão a da vossa celestial graça, permiti que esteja sempre munida com vossa protecção. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageEpi50() {
 
 <em>Cl. 3, 12-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.</p>
       <p>Fratres: Indúite vos sicut electi Dei, sancti et dilecti, víscera misericórdiæ, benignitátem, humilitátem, modéstiam, patiéntiam: supportántes ínvicem, et donántes vobismetípsis, si quis advérsus áliquem habet querélam: sicut et Dóminus donávit vobis, ita et vos. Super ómnia autem hæc caritátem habéte, quod est vínculum perfectionis: et pax Christi exsúltet in córdibus vestris, in qua et vocáti estis in uno córpore: et grati estóte. Verbum Christi hábitet in vobis abundánter, in omni sapiéntia, docéntes et commonéntes vosmetípsos psalmis, hymnis et cánticis spirituálibus, in grátia cantántes in córdibus vestris Deo. Omne, quodcúmque fácitis in verbo aut in ópere, ómnia in nómine Dómini Jesu Christi, grátias agéntes Deo et Patri per Jesum Christum, Dóminum nostrum.</p>
@@ -41,7 +41,7 @@ export default function PageEpi50() {
 
 <em>Sl. 101, 16-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam. ℣. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua.</p>
       <p>As nações temerão o vosso nome, Senhor; e todos os reis da terra contemplarão a vossa glória. ℣. Pois o Senhor reedificou Sião: e manifestar-se-á aí na sua majestade.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 96,1</em> Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PageEpi50() {
 
 <em>Mt. 13, 24-30</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Jesus turbis parábolam hanc: Símile factum est regnum cœlórum hómini, qui seminávit bonum semen in agro suo. Cum autem dormírent hómines, venit inimícus ejus, et superseminávit zizánia in médio trítici, et ábiit. Cum autem crevísset herba et fructum fecísset, tunc apparuérunt et zizánia. Accedéntes autem servi patrisfamílias, dixérunt ei: Dómine, nonne bonum semen seminásti in agro tuo? Unde ergo habet zizánia? Et ait illis: Inimícus homo hoc fecit. Servi autem dixérunt ei: Vis, imus, et collígimus ea? Et ait: Non: ne forte colligéntes zizánia eradicétis simul cum eis et tríticum. Sínite utráque créscere usque ad messem, et in témpore messis dicam messóribus: Collígite primum zizáania, et alligáte ea in fascículos ad comburéndum, tríticum autem congregáta in hórreum meum.</p>
@@ -63,14 +63,14 @@ export default function PageEpi50() {
 
 <em>Sl. 117, 16 & 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.</p>
       <p>A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me. Não morrerei: viverei e narrarei os prodígios do Senhor.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra miserátus absólvas, et nutántia corda tu dírigas. Per Dóminum...</p>
       <p>Vos oferecemos, Senhor, estas hóstias de propiciação, a fim de que misericordiosamente perdoeis os nossos pecados e ampareis os nossos corações inconstantes. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function PageEpi50() {
 
 <em>Lc. 4, 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mirabántur omnes de his, quæ procedébant de ore Dei.</p>
       <p>Todos estavam admirados das palavras que saíam da boca de Deus.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus: ut illíus salutáris capiámus efféctum, cujus per hæc mystéria pignus accépimus. Per Dóminum...</p>
       <p>Vos suplicamos, ó Deus omnipotente, fazei que obtenhamos o efeito da salvação eterna, da qual, nestes sagrados mystérios, já recebemos o penhor. Por nosso Senhor...</p>
       </div>

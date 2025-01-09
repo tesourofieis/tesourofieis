@@ -10,7 +10,7 @@ export default function Page121() {
       <h1>Salmo 121</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lætátus sum in his, quæ dicta sunt mihi: * In domum Dómini íbimus.</p>
       <p>Alegrei-me com o que me foi dito: * iremos à casa do Senhor.</p>
       <p>Stantes erant pedes nostri, * in átriis tuis, Jerúsalem.</p>

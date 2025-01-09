@@ -14,14 +14,14 @@ export default function PagePent176() {
 
 <em>Sl 94:6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veníte, adorémus Deum et procidámus ante Dóminum, plorémus ante eum, qui fecit nos: quia ipse est Dóminus, Deus noster. <em>Ps 94:1</em> Veníte, exsultémus Dómino: jubilémus Deo, salutári nostro. ℣. Gloria Patri...</p>
       <p>Vinde, adoremos Deus; prostemo-nos e choremos perante o Senhor, que nos criou: pois Ele é o Senhor, nosso Deus. <em>Sl 94:1</em> Vinde, cantemos com alegria ao Senhor: manifestemos o nosso júbilo a Deus, que é a nossa salvação. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui per continéntiam salutárem corpóribus medéris et méntibus: majestátem tuam súpplices exorámus; ut, pia jejunántium deprecatióne placátus, et præséntia nobis subsídia tríbuas et futúra. Per Dominum...</p>
       <p>Ó omnipotente e sempiterno Deus, que com o salutar remédio da abstinência curais as almas e os corpos, humildemente suplicamos à vossa majestade que, sendo Vós aplacado com as piedosas preces daqueles que jejuam, nos concedais o vosso auxílio agora e no futuro. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent176() {
 
 <em>Lev. 23:26-32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Levítici.</p>
       <p>Lição do Livro Levítico.</p>
       <p>In diébus illis: Locútus est Dóminus ad Móysen, dicens: Décimo die mensis hujus séptimi, dies expiatiónum erit celebérrimus, et vocábitur sanctus: affligetísque ánimas vestras in eo, et offerétis holocáustum Dómino. Omne opus servíle non faciétis in témpore diéi hujus: quia dies propitiatiónis est, ut propitiétur vobis Dóminus, Deus vester. Omnis ánima, quæ afflicta non fúerit die hac, períbit de pópulis suis: et quæ óperis quídpiam fécerit, delébo eam de pópulo suo. Nihil ergo óperis faciétis in eo: legítimum sempitérnum erit vobis in cunctis generatiónibus et habitatiónibus vestris. Sábbatum requietiónis est, et affligétis ánimas vestras die nono mensis: a véspera usque ad vésperam celebrábitis sábbata vestra: dicit Dóminus omnípotens.</p>
@@ -41,14 +41,14 @@ export default function PagePent176() {
 
 <em>Sl 78:9-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus eórum? ℣. Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.</p>
       <p>Perdoai, Senhor, os nossos pecados, para que os povos não digam: onde está o seu Deus? ℣. Vinde em nosso socorro, ó Deus, nosso Salvador: Livrai-nos, Senhor, para a glória do vosso nome.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da nobis, quǽsumus, omnípotens Deus: ut, jejunándo, tua grátia satiémur; et, abstinéndo, cunctis efficiámur hóstibus fortióres.</p>
       <p>Deus omnipotente, vos suplicamos, fazei que pelo nosso jejum sejamos saciados com a vossa graça, e que pela nossa abstinência nos tornemos mais fortes do que os nossos inimigos. Por nosso Senhor...</p>
       </div>
@@ -57,7 +57,7 @@ export default function PagePent176() {
 
 <em>Lev. 23:39-43</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Levítici.</p>
       <p>Lição do Livro Levítico.</p>
       <p>In diébus illis: Locútus est Dóminus ad Móysen, dicens: A quintodécimo die mensis séptimi, quando congregavéritis omnes fructus terræ vestræ, celebrábitis ferias Dómini septem diébus: die primo et die octávo erit sábbatum, id est réquies. Sumetísque vobis die primo fructus arbóris pulchérrimæ, spatulásque palmárum, et ramos ligni densárum fróndium, et sálices de torrénte, et lætabímini coram Dómino, Deo vestro. Celebrabitísque sollemnitátem ejus septem diébus per annum: legítimum sempitérnum erit in generatiónibus vestris. Mense séptimo festa celebrábitis, et habitábitis in umbráculis septem diébus. Omnis, qui de génere est Israël, manébit in tabernáculis: ut discant pósteri vestri, quod in tabernáculis habitáre fécerim fílios Israël, cum edúcerem eos de terra Ægýpti. Ego Dóminus, Deus vester.</p>
@@ -68,14 +68,14 @@ export default function PagePent176() {
 
 <em>Sl 83:10, 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Protéctor noster, áspice, Deus, et réspice super servos tuos. ℣. Dómine, Deus virtútum, exáudi preces servórum tuórum.</p>
       <p>Olhai, ó Deus, nosso protector, olhai para os vossos servos. ℣. Ó Senhor, Deus dos exércitos, ouvi as preces dos vossos servos.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tuére, quǽsumus, Dómine, fámiliam tuam: ut salútis ætérnæ remédia, quæ te inspiránte requírimus, te largiénte consequámur. Per Dominum...</p>
       <p>Protegei, Senhor, Vos pedimos, a vossa família, a fim de que os remédios da salvação eterna, que por vossa inspiração procurámos, nos sejam concedidos pela vossa liberdade. Por nosso Senhor...</p>
       </div>
@@ -84,7 +84,7 @@ export default function PagePent176() {
 
 <em>Mq 7:14, 16, 18-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Michææ Prophétæ.</p>
       <p>Lição do livro do Profeta Miquéias.</p>
       <p>Dómine, Deus noster, pasce pópulum tuum in virga tua, gregem hereditátis tuæ, habitántes solos in saltu, juxta dies antiquos. Vidébunt gentes, et confundéntur super omni fortitúdine sua. Quis Deus símilis tui, qui aufers iniquitátem, et transis peccátum reliquiárum hereditátis tuæ ? Non immíttet ultra furórem suum, quóniam volens misericórdiam est. Revertétur, et miserébitur nostri: depónet iniquitátes nostras, et projíciet in profúndum maris ómnia peccáta nostra. Dabis veritátem Jacob, misericórdiam Abraham: quæ jurásti pátribus nostris a diébus antiquis: Dómine, Deus noster.</p>
@@ -95,14 +95,14 @@ export default function PagePent176() {
 
 <em>Sl 89:13, 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Convértere, Dómine, aliquántulum, et deprecáre super servos tuos. ℣. Dómine, refúgium factus es nobis, a generatióne et progénie.</p>
       <p>Volvei para nós vossos olhos, Senhor, e atendei aos vossos servos! ℣. Senhor, tendes sido o nosso refúgio de geração em geração.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, Dómine, sic nos ab épulis abstinére carnálibus: ut a vítiis irruéntibus páriter jejunémus. Per Dominum...</p>
       <p>Fazei, Senhor, Vos suplicamos, que de tal modo nos afastemos dos alimentos carnais, que nos abstenhamos igualmente dos vícios, que nos cercam. Por nosso Senhor...</p>
       </div>
@@ -111,7 +111,7 @@ export default function PagePent176() {
 
 <em>Zc 8:14-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Zacharíæ Prophétæ.</p>
       <p>Lição do Profeta Zacarias.</p>
       <p>In diébus illis: Factum est verbum Dómini ad me, dicens: Hæc dicit Dóminus exercítuum: Sicut cogitávi, ut afflígerem vos, cum ad iracúndiam provocássent patres vestri me, dicit Dóminus, et non sum misértus: sic convérsus cogitávi in diébus istis, ut benefáciam domui Juda et Jerúsalem: nolíte timére. Hæc sunt ergo verba, quæ faciétis: Loquímini veritátem, unusquísque cum próximo suo: veritátem et judícium pacis judicáte in portis vestris. Et unusquísque malum contra amícum suum ne cogitétis in córdibus vestris: et juraméntum mendax ne diligátis: ómnia enim hæc sunt, quæ odi, dicit Dóminus. Et factum est verbum Dómini exercítuum ad me, dicens: Hæc dicit Dóminus exercítuum: Jejúnium quarti et jejúnium quinti et jejúnium séptimi et jejúnium décimi erit dómui Juda in gáudium et lætítiam et in sollemnitátes præcláras: veritátem tantum et pacem dilígite: dicit Dóminus exercítuum.</p>
@@ -122,14 +122,14 @@ export default function PagePent176() {
 
 <em>Sl 140:2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine. ℣. Elevátio mánuum meárum sacrifícium vespertínum.</p>
       <p>Eleve-se, como o incenso, a minha oração até Vós, Senhor. ℣. Que as minhas mãos erguidas Vos sejam gratas, como o sacrifício da tarde.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ut nobis, Dómine, tríbuis sollémne tibi deférre jejúnium: sic nobis, quǽsumus, indulgéntiæ præsta subsídium.</p>
       <p>Senhor, assim como nos concedeis a graça de Vos oferecermos este jejum solene, assim também, Vos suplicamos, fazei-nos sentir a graça do auxílio da vossa indulgência. Por nosso Senhor...</p>
       </div>
@@ -138,7 +138,7 @@ export default function PagePent176() {
 
 <em>Dan 3:47-51</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Daniélis Prophétæ.</p>
       <p>Lição do Profeta Daniel.</p>
       <p>In diébus illis: Angelus Dómini descéndit cum Azaría et sóciis ejus in fornácem: et excússit flammam ignis de fornáce, et fecit médium fornácis quasi ventum roris flantem. Flamma autem effundebátur super fornácem cúbitis quadragínta novem: et erúpit, et incéndit, quos répperit juxta fornácem de Chaldǽis, minístros regis, qui eam incendébant. Et non tétigit eos omníno ignis, neque contristávit, nec quidquam moléstiæ íntulit. Tunc hi tres quasi ex uno ore laudábant, e glorificábant, et benedicébant Deum in fornáce, dicéntes:</p>
@@ -155,7 +155,7 @@ export default function PagePent176() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui tribus púeris mitigásti flammas ígnium: concéde propítius; ut nos fámulos tuos non exúrat flamma vitiórum.</p>
       <p>Ó Deus, que mitigastes as chamas do fogo aos três jovens, concedei-nos misericordiosamente que nós, vossos servos, não sejamos queimados pelas chamas dos vícios. Por nosso Senhor...</p>
       </div>
@@ -164,7 +164,7 @@ export default function PagePent176() {
 
 <em>Heb 9:2-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Hebræos.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.</p>
       <p>Fratres: Tabernáculum factum est primum, in quo erant candelábra, et mensa, et proposítio panum, quæ dícitur Sancta. Post velaméntum autem secúndum, tabernáculum, quod dícitur Sancta sanctórum: áureum habens thuríbulum, et arcam testaménti circumtéctam ex omni parte auro, in qua urna áuea habens manna, et virga Aaron, quæ frondúerat, et tábulæ testaménti, supérque eam erant Chérubim glóriæ obumbrántia propitiatórium: de quibus non est modo dicéndum per síngula. His vero ita compósitis; in prióri quidem tabernáculo semper introíbant sacerdótes, sacrificiórum offícia consummántes: in secúndo autem semel in anno solus póntifex, non sine sánguine, quem offert pro sua et pópuli ignorántia: hoc significánte Spíritu Sancto, nondum propalátam esse sanctórum viam, adhuc prióre tabernaculo habénte statum. Quæ parábola est témporis instántis: juxta quam múnera et hóstiæ offerúntur, quæ non possunt juxta consciéntiam perféctum fácere serviéntem, solummodo in cibis, et in pótibus, et váriis baptismátibus, et justítiis carnis usque ad tempus correctiónis impósitis. Christus autem assístens póntifex futurórum bonórum, per ámplius et perféctius tabernáculum non manufáctum, id est, non hujus creatiónis; neque per sánguinem hircórum aut vitulórum, sed per próprium sánguinem introívit semel in Sancta, ætérna redemptióne invénta.</p>
@@ -175,7 +175,7 @@ export default function PagePent176() {
 
 <em>Sl 116:1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli. ℣. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum.</p>
       <p>Ó povos, louvai todos o Senhor, glorificai-O todos, ó povos. ℣. A sua misericórdia é grande: e a sua verdade subsistirá sempre.</p>
       </div>
@@ -184,7 +184,7 @@ export default function PagePent176() {
 
 <em>Lc 13:6-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -196,14 +196,14 @@ S. Lucas.</p>
 
 <em>Sl 87:2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, Deus salútis meæ, in die clamávi et nocte coram te: intret orátio mea in conspéctu tuo, Dómine.</p>
       <p>Senhor, meu Deus, e meu Salvador, dia e noite clamei por Vós. Que a minha oração, pois, Senhor, chegue à vossa presença.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde, quǽsumus, omnípotens Deus: ut oculis tuæ majestátis munus oblátum et grátiam nobis devotiónis obtíneat, et efféctum beátæ perennitátis acquírat. Per Dóminum...</p>
       <p>Concedei-nos, Vos suplicamos, ó omnipotente Deus, que este dom, apresentado diante de vossa divina majestade, nos alcance a graça da devoção e a posse da bem-aventurança eterna. Por nosso Senhor...</p>
       </div>
@@ -212,14 +212,14 @@ S. Lucas.</p>
 
 <em>Lev 21:41, 43</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mense séptimo festa celebrábitis, cum in tabernáculis habitáre fécerim fílios Israël, cum edúcerem eos de terra Ægýpti, ego Dóminus, Deus vester.</p>
       <p>Celebrareis esta festa no sétimo mês, para que saibam os seus descendentes que fiz habitar nas tendas os filhos de Israel quando os tirei do Egipto.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Perfíciant in nobis, Dómine, quǽsumus, tua sacraménta quod cóntinent: ut, quæ nunc spécie gérimus, rerum veritáte capiámus. Per Dóminum...</p>
       <p>Vos imploramos, Senhor, que os vossos sacramentos produzam em nós a graça que contêm, para que alcancemos a realidade do que celebrámos, agora, sob estas espécies. Por nosso Senhor...</p>
       </div>

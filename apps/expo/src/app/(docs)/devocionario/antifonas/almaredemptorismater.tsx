@@ -10,14 +10,14 @@ export default function PageAlmaredemptorismater() {
       <h1>Alma Redemptóris Mater</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Alma Redemptóris Mater, quæ pérvia cæli porta manes, et stella maris, succúrre cadénti, Súrgere qui curat, pópulo: tu quæ genuísti, Natúra miránte, tuum sanctum Genitórem, Virgo prius ac postérius, Gabriélis ab ore Sumens illud Ave, peccatórum miserére.</p>
       <p>Santa Mãe do Redentor, Porta do Céu, Estrela do Mar, socorrei o povo cristão que procura levantar-se do abysmo da culpa. Vós que, acolhendo a saudação do Anjo, gerastes, com admiração da natureza, o vosso santo Criador, ó sempre Virgem Maria, tende misericórdia dos pecadores.</p>
       </div>
 
 <aside>Durante o Advento:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Angelus Dómini nuntiávit Maríæ.</p>
       <p>℣. O Anjo do Senhor anunciou a Maria.</p>
       <p><span className="text-red-500">℟.</span> Et concépit de Spíritu Sancto.</p>
@@ -32,7 +32,7 @@ export default function PageAlmaredemptorismater() {
 
 <aside>A partir das Vésperas do Natal até à Purificação:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Post partum Virgo invioláta permansísti.</p>
       <p>℣. Despois do parto, Virgem, permaneceste inviolada.</p>
       <p><span className="text-red-500">℟.</span> Dei Génitrix, intercéde pro nobis.</p>

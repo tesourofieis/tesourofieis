@@ -27,14 +27,14 @@ export default function Page0726() {
 
       <h3>Intróito</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Annæ: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei. <em>Ps. 44, 2</em> Eructávit cor meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...</p>
       <p>Alegremo-nos todos no Senhor, celebrando neste dia a festa em honra da B. Ana; pois os Anjos rejubilam com esta festividade e em harmonia louvam o Filho de Deus. <em>Sl. 44, 2</em> Meu coração exalou uma palavra excelente: Consagro ao Rei as minhas obras. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátæ Annæ grátiam conférre dignatus es, ut Genetrícis unigéniti Fílii tui mater effici mererétur: concéde propítius; ut, cujus sollémnia celebrámus, ejus apud te patrocíniis adjuvémur. Per eúndem Dóminum...</p>
       <p>Ó Deus, que Vos dignastes conferir à B. Ana a graça de ser escolhida para dar ao mundo a Mãe do vosso Filho Unigénito, concedei-nos propício que sejamos auxiliados junto de Vós pelo patrocínio daquela cuja festa celebramos. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -62,14 +62,14 @@ export default function Page0726() {
 
 <em>Sl. 44, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte.</p>
       <p>As filhas dos reis formam a vossa corte de glória: a própria rainha está colocada à vossa direita, envergando um vestido de ouro, recamado da mais rica variedade.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrifíciis præséntibus, quǽsumus, Dómine, placatus inténde: ut per intercessiónem beátæ Annæ, quæ Genetrícis Fílii tui, Dómini nostri Jesu Christi, mater éxstitit, et devotióni nostræ profíciant et salúti. Per eúndem Dóminum...</p>
       <p>Olhai propício, Senhor, Vos suplicamos, para estes sacrifícios, a fim de que, pela intercessão da B. Ana, que foi Mãe daquela que deu ao mundo vosso Filho, nosso Senhor Jesus Cristo, sejam proveitosos à nossa piedade e salvação. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -78,14 +78,14 @@ export default function Page0726() {
 
 <em>Sl. 44, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum, et in sǽculum sǽculi.</p>
       <p>A graça espalhou-se nos vossos lábios: eis porque Deus vos abençoou para a eternidade e para todos os séculos.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cœléstibus sacraméntis vegetáti, quǽsumus, Dómine, Deus noster: ut, intercessióne beátæ Annæ, quam Genetrícis Fílii tui matrem esse voluísti, ad ætérnam salútem perveníre mereámur. Per eúndem Dóminum...</p>
       <p>Alentados com os celestiais sacramentos, Vos suplicamos, ó Senhor, nosso Deus, permiti pela intercessão da B. Ana, que foi Mãe daquela que deu ao mundo vosso Filho, que possamos alcançar a salvação eterna. Por nosso Senhor...</p>
       </div>

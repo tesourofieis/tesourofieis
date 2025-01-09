@@ -14,14 +14,14 @@ export default function Page1226() {
 
 <em>Sl. 118, 23, 86 & 23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sedérunt príncipes, et advérsum me loquebántur: et iníqui persecúti sunt me: ádjuva me, Dómine, Deus meus, quia servus tuus exercebátur in tuis justificatiónibus. <em>Ps. ibid., 1</em> Beati immaculáti in via, qui ámbulant in lege Dómini. ℣. Gloria Patri...</p>
       <p>Reuniram-se os príncipes em assembleia e pronunciaram-se contra mim: e os maus perseguiram-me injustamente: Auxiliai-me, Senhor, meu Deus, pois o vosso servo tem observado os vossos ensinos. <em>Ps. ibid., 1</em> Bem-aventurados os que são rectos nos seus caminhos e cumprem a Lei do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da nobis, quǽsumus, Dómine, imitári quod cólimus: ut discámus et inimícos dilígere; quia ejus natalícia celebrámus, qui novit étiam pro persecutóribus exoráre Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit...</p>
       <p>Concedei-nos, Senhor, Vos imploramos, a graça de imitar aquele que honramos, a fim de que neste dia aprendamos a amar os nossos inimigos, pois que celebramos a festa daquele que soube rogar pelos seus perseguidores a nosso Senhor Jesus Cristo: Que, sendo Deus...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page1226() {
 
 <em>Act. 6, 8-10; 7, 54-59</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lectio Actuum Apostolorum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diebus illis: Stéphanus plenus grátia et fortitúdine, faciébat prodígia et signa magna in pópulo. Surrexérunt autem quidam de synagóga, quæ appellátur Libertinórum, et Cyrenénsium, et Alexandrinórum, et eórum, qui erant a Cilícia et Asia, disputántes cum Stéphano: et non póterant resístere sapiéntiæ et Spirítui, qui loquebátur. Audiéntes autem hæc, dissecabántur córdibus suis, et stridébant déntibus in eum. Cum autem esset Stéphanus plenus Spíritu Sancto, inténdens in cœlum, vidit glóriam Dei, et Jesum stantem a dextris Dei. Et ait: Ecce, vídeo cœlos apértos, et Fílium hóminis stantem a dextris Dei. Exclamántes autem voce magna continuérunt aures suas, et ímpetum fecerunt unanímiter in eum. Et ejiciéntes eum extra civitatem, lapidábant: et testes deposuérunt vestiménta sua secus pedes adolescéntis, qui vocabátur Saulus. Et lapidábant Stéphanum invocántem et dicéntem: Dómine Jesu, súscipe spíritum meum. Pósitis autem génibus, clamávit voce magna, dicens: Dómine, ne státuas illis hoc peccátum. Et cum hoc dixísset, obdormívit in Dómino.</p>
@@ -41,7 +41,7 @@ export default function Page1226() {
 
 <em>Sl. 118, 23 & 86</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sedérunt príncipes, et advérsum me loquebántur: et iníqui persecúti sunt me. ℣. <em>Ps. 6, 5</em> Adjuva me, Dómine, Deus meus: salvum me fac propter misericórdiam tuam.</p>
       <p>Reuniram-se os príncipes em assembleia, e pronunciaram-se contra mim: e os maus perseguiram-me injustamente. ℣. <em>Sl. 6, 5</em> Auxiliai-me, ó Senhor, meu Deus, salvai-me pela vossa misericórdia.</p>
       <p>Allelúja, allelúja. ℣. <em>Act. 7, 55</em> Vídeo cœlos apértos, et Jesum stantem a dextris virtútis Dei. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page1226() {
 
 <em>Mt. 23, 34-39</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dicébat Jesus scribis et pharisǽis: Ecce, ego mitto ad vos prophétas, et sapiéntes, et scribas, et ex illis occidétis et crucifigétis, et ex eis flagellábitis in synagógis vestris, et persequémini de civitáte in civitátem: ut véniat super vos omnis sanguis justus, qui effúsus est super terram, a sánguine Abel justi usque ad sánguinem Zacharíæ, filii Barachíæ, quem occidístis inter templum et altáre. Amen, dico vobis, vénient hæc ómnia super generatiónem istam. Jerúsalem, Jerúsalem, quæ occídis prophétas, et lápidas eos, qui ad te missi sunt, quóies vólui congregáre fílios tuos, quemádmodum gallína cóngregat pullos suos sub alas, et noluísti? Ecce, relinquétur vobis domus vestra desérta. Dico enim vobis, non me vidébitis ámodo, donec dicátis: Benedíctus, qui venit in nómine Dómini.</p>
@@ -63,14 +63,14 @@ export default function Page1226() {
 
 <em>Act. 6, 5 & 7, 59</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Elegérunt Apóstoli Stéphanum Levítam, plenum fide et Spíritu Sancto: quem lapidavérunt Judǽi orántem, et dicéntem: Dómine Jesu, áccipe spíritum meum, allelúja.</p>
       <p>Os Apóstolos escolheram Estêvão para Diácono, pois ele era cheio de fé e do Espírito Santo; o qual os judeus apedrejaram, enquanto rezava e dizia: «Senhor Jesus, recebei o meu espírito». Aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, Dómine, múnera pro tuórum commemoratióne Sanctórum: ut, sicut illos pássio gloriósos effécit; ita nos devótio reddat innócuos. Per Dóminum...</p>
       <p>Recebei, Senhor, as nossas ofertas que Vos apresentamos em memória dos vossos Santos, para que, assim como o seu martírio os tornou gloriosos, assim também a nossa piedade nos torne inocentes. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page1226() {
 
 <em>Act. 7, 55, 58 & 59</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vídeo cœlos apértos, et Jesum stantem a dextris virtútis Dei: Dómine Jesu, accipe spíritum meum, et ne státuas illis hoc peccátum.</p>
       <p>Vejo os céus abertos e Jesus, de pé, à dextra de Deus omnipotente. Ó Senhor Jesus, recebei o meu espírito e lhes não imputeis este pecado.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáto Stéphano Mártyre tuo, sempitérna protectióne confírment. Per Dóminum nostrum...</p>
       <p>Permiti, Senhor, que os mystérios, que acabámos de receber, nos sirvam de perpétuo auxílio, e que por intercessão do B. Estêvão, vosso Mártir, nos confirmem na vossa contínua protecção. Por nosso Senhor...</p>
       </div>

@@ -10,7 +10,7 @@ export default function Page149() {
       <h1>Salmo 149</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cantáte Dómino cánticum novum: * laus ejus in ecclésia sanctórum.</p>
       <p>Cantai ao Senhor um cântico novo: * o seu louvor na igreja dos santos.</p>
       <p>Lætétur Israël in eo, qui fecit eum: * et fílii Sion exsúltent in rege suo.</p>

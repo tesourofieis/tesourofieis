@@ -12,14 +12,14 @@ export default function Page1007() {
 
       <h3>Intróito</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei. <em>Ps. 44, 2</em> Eructávit cor meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...</p>
       <p>Alegremo-nos todos no Senhor, no dia em que celebramos a festa em honra da B. Virgem Maria: os Anjos regozijam-se com esta festa e louvam unissonamente o Filho de Deus. <em>Sl. 44, 2</em> Meu coração exprimiu uma excelente palavra: «Consagro ao Rei as minhas obras»! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam nobis salútis ætérnæ prǽmia comparávit: concéde, quǽsumus; ut, hæc mystéria sacratíssimo beátæ Maríæ Vírginis Rosário recoléntes, et imitémur, quod cóntinent, et quod promíttunt, assequámur. Per eúndem Dóminum nostrum...</p>
       <p>Ó Deus, cujo Filho Unigénito, pela sua vida, morte e ressurreição, nos alcançou os prémios da salvação eterna, fazei, Vos rogamos, que, honrando nós estes mystérios pelo SS. Rosário da B. Virgem Maria, imitemos o que contêm e obtenhamos o que prometem. Por nosso Senhor...</p>
       </div>
@@ -28,7 +28,7 @@ export default function Page1007() {
 
 <em>Pr. 8, 22-24 & 32-35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Dóminus possédit me in inítio viárum suárum, ántequam quidquam fáceret a princípio. Ab ætérno ordináta sum et ex antíquis, ántequam terra fíeret. Nondum erant abýssi, et ego jam concépta eram. Nunc ergo, fílii, audíte me: Beáti, qui custódiunt vias meas. Audíte disciplínam, et estóte sapiéntes, et nolíte abjícere eam. Beátus homo, qui audit me et qui vígilat ad fores meas cotídie, et obsérvat ad postes óstii mei. Qui me invénerit, invéniet vitam et háuriet salútem a Dómino.</p>
@@ -39,7 +39,7 @@ export default function Page1007() {
 
 <em>Sl. 44, 5; 11 & 12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propter veritátem et mansuetúdinem et justítiam, et dedúcet te mirabíliter déxtera tua. ℣. Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.</p>
       <p>Reinai pela verdade, mansidão e justiça: e a vossa dextra vos conduzirá admiravelmente. ℣. Ouvi, minha filha, e vede; inclinai o vosso ouvido, pois o Rei está extasiado com vossa formosura!</p>
       <p>Allelúja, allelúja. ℣. Sollémnitas gloriósæ Vírginis Maríæ ex sémine Abrahæ, ortæ de tribu Juda, clara ex stirpe David. Allelúja.</p>
@@ -50,7 +50,7 @@ export default function Page1007() {
 
 <em>Lc. 1, 26-38</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Missus est Angelus Gábriel a Deo in civitátem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elisabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.</p>
@@ -61,14 +61,14 @@ export default function Page1007() {
 
 <em>Ecl. 24, 25; 39, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In me grátia omnis viæ et veritátis, in me omnis spes vitæ et virtútis: ego quasi rosa plantáta super rivos aquárum fructificávi.</p>
       <p>Em mim reside toda a graça dos caminhos e da verdade; em mim reside toda a esperança da vida e da virtude! Eu floresci, como a roseira plantada nas margens das ribeiras!</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fac nos, quǽsumus, Dómine, his munéribus offeréndis conveniénter aptári: et per sacratíssimi Rosárii mystéria sic vitam, passiónem et glóriam Unigéniti tui recólere; ut ejus digni promissiónibus efficiámur: Qui tecum...</p>
       <p>Permiti, Senhor, Vos suplicamos, que estejamos convenientemente preparados para Vos apresentar estas ofertas; e que pelos mystérios do SS. Rosário honremos de tal sorte a vida, a paixão e a glória do vosso Filho Unigénito que sejamos dignos das suas promessas. O qual, sendo Deus, convosco vive e reina...</p>
       </div>
@@ -77,14 +77,14 @@ export default function Page1007() {
 
 <em>Ecl. 39, 19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Floréte, flores, quasi lílium, et date odórem, et frondéte in grátiam, collaudáte cánticum, et benedícite Dóminum in opéribus suis.</p>
       <p>Fazei despontar a vossa flor, como um lírio; exalai o vosso perfume; lançai ramos graciosos; cantai hinos de louvor; e bendizei o Senhor nas suas obras.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacratíssimæ Genetrícis tuæ, cujus Rosárium celebrámus, quǽsumus, Dómine, précibus adjuvémur: ut et mysteriórum, quæ cólimus, virtus percipiátur; et sacramentórum, quæ súmpsimus, obtineátur efféctus: Qui vivis...</p>
       <p>Possamos nós, Senhor, Vos rogamos, ser auxiliados pelas preces da vossa Santíssima Mãe, cujo Rosário celebramos, a fim de que obtenhamos as graças inerentes aos mystérios, que comemoramos, e o efeito dos sacramentos, que recebemos. Ó Vós, que, sendo Deus, viveis e...</p>
       </div>

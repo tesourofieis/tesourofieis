@@ -10,7 +10,7 @@ export default function Page086() {
       <h1>Salmo 86</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fundaménta ejus in móntibus sanctis: * díligit Dóminus portas Sion super ómnia tabernácula Jacob.</p>
       <p>Os seus fundamentos estão sobre os montes santos: * o Senhor ama as portas de Sião mais que todos os tabernáculos de Jacob.</p>
       <p>Gloriósa dicta sunt de te, * cívitas Dei.</p>

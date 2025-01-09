@@ -26,7 +26,7 @@ export default function Page0728() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctórum tuórum nos, Dómine, Nazarii, Celsi, Vittóris et Innocéntii conféssio beáta commúniat: et fragilitáti nostræ subsídium dignánter exóret. Per Dóminum...</p>
       <p>Que a gloriosa profissão de fé dos vossos Santos Nazário, Celso, Vítor e Inocêncio nos fortaleça, Senhor, e que da vossa bondade alcancemos socorro para a nossa fraqueza. Por nosso Senhor...</p>
       </div>
@@ -35,7 +35,7 @@ export default function Page0728() {
 
 <em>Sb. 10, 17-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Réddidit Deus justis mercédem labórum suorum, et deduxit illos in via mirábili: et fuit illis in velaménto diei et in luce stellárum per noctem: tránstulit illos per Mare Rubrum, et transvéxit illos per aquam nímiam. Inimícos autem illórum demérsit in mare, et ab altitúdine inferórum edúxit illos. Ideo justi tulérunt spolia impiórum, et decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum tuam laudavérunt páriter, Dómine, Deus noster.</p>
@@ -44,14 +44,14 @@ export default function Page0728() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde nobis, omnípotens Deus: ut his munéribus, quæ in sanctórum tuórum Nazarii, Celsi, Victóris et Innocéntii honóre deférimus, et te placémus exhíbitis, et nos vivificémur accéptis. Per Dóminum...</p>
       <p>Ó Deus omnipotente, permiti que, oferecendo-Vos estas oblatas em honra dos vossos Santos Nazário, Celso, Vítor e Inocêncio, possamos aplacar-Vos, e, aceitando-as Vós, por elas alcancemos a vida. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctórum Nazárii, Celsi, Victóris et Innocéntii, Dómine, intercessióne placátus: præsta, quǽsumus; ut, quod temporáli celebrámus actióne, perpétua salvatióne capiámus. Per Dóminum...</p>
       <p>Deixai-Vos aplacar, Senhor, pela intercessão dos vossos Santos Nazário, Celso, Vítor e Inocêncio e, Vos suplicamos, permiti que estes mystérios, celebrados temporalmente, nos façam alcançar a salvação perpétua. Por nosso Senhor...</p>
       </div>

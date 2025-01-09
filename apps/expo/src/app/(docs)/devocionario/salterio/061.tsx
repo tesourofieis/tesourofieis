@@ -10,7 +10,7 @@ export default function Page061() {
       <h1>Salmo 61</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nonne Deo subjécta erit ánima mea? * Ab ipso enim salutáre meum.</p>
       <p>Porventura a minha alma não há-de estar sujeita a Deus? * Pois vem d’Ele a minha salvação.</p>
       <p>Nam et ipse Deus meus, et salutáris meus: * suscéptor meus, non movébor ámplius.</p>

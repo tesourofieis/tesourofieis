@@ -14,14 +14,14 @@ export default function PagePasc75() {
 
 <em>Sl. 70, 8 & 23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Repleátur os meum laude tua, allelúja: ut possim cantáre, allelúja: gaudébunt lábia mea, dum cantávero tibi, allelúja, allelúja. <em>Ps. ibid., 1-2</em> In te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe me. ℣. Gloria Patri...</p>
       <p>Que a minha boca se encha com vossos louvores, aleluia: para que eu possa cantar, aleluia. E alegrar-se-ão os meus lábios quando cantarem vossos hinos, aleluia, aleluia. <em>Sl. ibid., 1-2</em> Senhor, confio em Vós, não serei confundido para sempre; pois a vossa justiça me livrará e salvará. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, Ecclésiæ tuæ, miséricors Deus: ut, Sancto Spíritu congregáta, hostíli nullaténus incursióne turbétur. Per Dóminum...</p>
       <p>Ó Deus misericordioso, Vos suplicamos, concedei à vossa Igreja que, havendo sido instituída pelo Espírito Santo, não seja de modo algum perturbada pelos ataques dos seus inimigos. Por nosso Senhor...</p>
       </div>
@@ -30,14 +30,14 @@ export default function PagePasc75() {
 
 <em>Jl. 2, 23-24 & 26-27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Joélis Prophétæ.</p>
       <p>Lição do Profeta Joel.</p>
       <p>Hæc dicit Dóminus Deus: Exsultáte, fílii Sion, et lætámini in Dómino, Deo vestro: quia dedit vobis doctórem justítiæ, et descéndere fáciet ad vos imbrem matutínum et serótinum, sicut in princípio. Et implebúntur áreæ fruménto et redundábunt torculária vino et óleo Et comedétis vescéntes et saturabímini, et laudábilis nomen Dómini, Dei vestri, qu fecit mirabília vobíscum: et non confundátur pópulus me us in sempitérnum. Et sciétis, quia in médio Israël ego sum: et ego Dóminus, Deus vester, et non est ámplius: et non confundétur pópulus me us in ætérnum: ait Dóminus omnípotens.</p>
       <p>Isto diz o Senhor Deus: «Alegrai-vos, ó filhos de Sião, rejubilai no Senhor, vosso Deus, pois deu-vos um Mestre, que vos ensinará a justiça e fará cair sobre vós, como outrora, as chuvas do outono e da primavera. Vossas eiras encher-se-ão de trigo e os lagares de vinho e de azeite. Comereis com abundância e sereis fartos. E louvareis o nome do Senhor, vosso Deus, que tantas maravilhas praticou para vosso benefício. Meu povo não mais será confundido. Então conhecereis que sou Eu que estou no meio de Israel; que sou o Senhor, vosso Deus; e que outro Deus não existe. Meu povo não será mais confundido»: isto diz o Senhor omnipotente.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Sap 12, 1</em> O quam bonus et suávis est, Dómine, Spíritus tuus in nobis! Allelúja. <em>hic genuflectitur</em> ℣. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.</p>
       <p>Aleluia, aleluia. ℣. <em>Sb. 12, 1</em> Senhor, como é bom e suave o vosso Espírito! Aleluia <em>Genuflecte-se</em> ℣. Vinde ó Espírito Santo; enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.</p>
       </div>
@@ -46,7 +46,7 @@ export default function PagePasc75() {
 
 <em>Lc. 5, 17-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -58,14 +58,14 @@ S. Lucas.</p>
 
 <em>Sl. 145, 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, allelúja.</p>
       <p>Ó minha alma, louva o Senhor! Louvarei o Senhor em toda minha vida: louvarei o Senhor, enquanto eu viver, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrifícia, Dómine, tuis obláta conspéctibus, ignis ille divínus absúmat, qui discipulórum Christi, Fílii tui, per Spíritum Sanctum corda succéndit. Per eúndem Dóminum...</p>
       <p>Que aquele fogo divino, ó Senhor, de que o Espírito Santo abrasou os corações dos discípulos de Jesus Cristo, vosso Filho, consuma o sacrifício que oferecemos diante de vossos olhos. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -74,14 +74,14 @@ S. Lucas.</p>
 
 <em>Jo. 14, 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Non vos relínquam órphanos: véniam ad vos íterum, allelúja: et gaudébit cor vestrum, allelúja.</p>
       <p>Não vos deixarei órfãos: de novo virei a vós, aleluia: e o vosso coração se alegrará, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súmpsimus, Dómine, sacri dona mystérii: humíliter deprecántes; ut, quæ in tui commemoratiónem nos fácere præcepísti, in nostræ profíciant infirmitátis auxílium: Qui vivis...</p>
       <p>Recebemos, Senhor, os dons do divino mystério; e permiti, Vos suplicamos humildemente, que este sacrifício, que mandastes consumar em vossa memória, se torne em auxílio da nossa fraqueza. Vós, que viveis e Tinais...</p>
       </div>

@@ -10,7 +10,7 @@ export default function Page060() {
       <h1>Salmo 60</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Deus, deprecatiónem meam: * inténde oratióni meæ.</p>
       <p>Ouvi, ó Deus, a minha súplica: * atendei à minha oração.</p>
       <p>A fínibus terræ ad Te clamávi: * dum anxiarétur cor meum, in petra exaltásti me.</p>

@@ -10,7 +10,7 @@ export default function PageQuemterra() {
       <h1>Quem terra</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quem terra, pontus, sidera Colunt, adorant, praedicant, Trinan regentem machinam, Claustrum Mariae bajula.</p>
       <p>Quem terra, mar, estrelas, amplia, adora, louva, reinando com tecido triplo, encerra-se no ventre de Maria.</p>
       <p>Cui Luna, Sol, et omnia deserviunt per tempora, perfusa cæli gratia, gestant Puellæ viscera.</p>

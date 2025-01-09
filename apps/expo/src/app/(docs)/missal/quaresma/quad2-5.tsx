@@ -14,14 +14,14 @@ export default function PageQuad25() {
 
 <em>Sl. 16, 15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ego autem cum justítia apparébo in conspéctu tuo: satiábor, dum manifestábitur glória tua. <em>Ps. ibid., 1</em> Exáudi, Dómine, justitiam meam: inténde deprecatióni meæ. ℣. Gloria Patri...</p>
       <p>Eu, porém, cheio de justiça, Senhor, aparecerei diante de Vós: e, quando me for manifestada a vossa glória, serei saciado. <em>Sl. ibid., 1</em> Senhor, ouvi a minha prece justa; escutai a minha súplica. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, omnípotens Deus: ut, sacro nos purificánte jejúnio, sincéris méntibus ad sancta ventúra fácias perveníre. Per Dóminum nostrum...</p>
       <p>Concedei-nos, Deus omnipotente, Vos suplicamos, que, purificados com estes sagrados jejuns, cheguemos com o coração sincero às próximas solenidades. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad25() {
 
 <em>Gn. 37, 6-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Genesis.</p>
       <p>Lição do Livro do Génesis.</p>
       <p>In diébus illis: Dixit Joseph frátribus suis: Audíte sómnium meum, quod vidi: Putábam nos ligáre manípulos in agro: et quasi consúrgere manípulum meum et stare, vestrósque manípulos circumstántes adoráre manípulum meum. Respondérunt fratres ejus: Numquid rex noster eris? aut subjiciémur dicióni tuæ? Hæc ergo causa somniórum atque sermónum, invídiæ et ódii fómitem ministrávit. Aliud quoque vidit sómnium, quod narrans frátribus, ait: Vidi per sómnium, quasi solem et lunam et stellas úndecim adoráre me. Quod cum patri suo et frátribus rettulísset, increpávit eum pater suus, et dixit: Quid sibi vult hoc sómnium, quod vidísti? Num ego et mater tua et fratres tui adorábimus te super terram? Invidébant ei igitur fratres sui: pater vero rem tácitus considerábat. Cumque fratres illíus in pascéndis grégibus patris moraréntur in Sichem, dixit ad eum Israël: Fratres tui pascunt oves in Síchimis: veni, mittam te ad eos. Quo respondénte: Præsto sum, ait ei: Vade et vide, si cuncta próspera sint erga fratres tuos et pécora: et renúntia mihi, quid agatur. Missus de valle Hebron, venit in Sichem: invenítque eum vir errántem in agro, et interrogávit, quid quǽreret. At ille respóndit: Fratres meos quæro: índica mihi, ubi pascant greges. Dixítque ei vir: Recessérunt de loco isto: audívi autem eos dicéntes: Eámus in Dóthain. Perréxit ergo Joseph post fratres suos, et invénit eos in Dóthain. Qui cum vidíssent eum procul, ántequam accéderet ad eos, cogitavérunt illum occídere, et mútuo loquebántur: Ecce, somniátor venit; veníte, occidámus eum, et mittámus in cistérnam véterem, dicemúsque: Fera péssima devorávit eum: et tunc apparébit, quid illi prosint sómnia sua. Audiens autem hoc Ruben, nitebátur liberáre eum de mánibus eórum, et dicébat: Non interficiátis ánimam ejus, nec effundátis sánguinem: sed projícite eum in cistérnam hanc, quæ est in solitúdine, manúsque vestras serváte innóxias: hoc autem dicébat, volens erípere eum de mánibus eórum, et réddere patri suo.</p>
@@ -41,7 +41,7 @@ export default function PageQuad25() {
 
 <em>Sl. 119, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad Dóminum, cum tribulárer, clamávi, et exaudívit me. ℣. Dómine, líbera ánimam meam a lábiis iníquis et a lingua dolósa.</p>
       <p>Enquanto estava na tribulação, chamei pelo Senhor, que me atendeu. ℣. Senhor, livrai a minha alma dos lábios iníquos e da. língua enganadora.</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuad25() {
 
 <em>Mt, 21, 33-46</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -70,14 +70,14 @@ S. Mateus.</p>
 
 <em>Sl. 39, 14 & 15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, in auxílium meum réspice: confundántur et revereántur, qui quærunt ánímam meam, ut áuferant eam: Dómine, in auxílium meum réspice.</p>
       <p>Senhor, volvei para mim um olhar de protecção. Caiam na confusão e no opróbrio aqueles que procuram tirar-me a vida! Senhor, volvei um olhar protector para mim.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc in nobis sacrifícia, Deus, et actióne permáneant, et operatióne firméntur. Per Dóminum...</p>
       <p>Que estes sacrifícios, ó Deus, exerçam em nós uma acção permanente e uma influência fortificadora. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. Mateus.</p>
 
 <em>Sl. 11, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tu, Dómine, servábis nos, et custódies nos a generatióne hac in ætérnum.</p>
       <p>Senhor, guardar-nos-eis e defender-nos-eis sempre desta geração.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fac nos, quǽsumus, Dómine: accépto pígnore salútis ætérnæ, sic téndere congruénter; ut ad eam perveníre póssimus. Per Dóminum...</p>
       <p>Fazei, Senhor, Vos suplicamos, que, tendo nós recebido o penhor da salvação eterna, de tal sorte procuremos merecê-la que possamos possuí-la. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

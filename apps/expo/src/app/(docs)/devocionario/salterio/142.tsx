@@ -10,7 +10,7 @@ export default function Page142() {
       <h1>Salmo 142</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, exáudi oratiónem meam: áuribus pércipe obsecratiónem meam in veritáte tua: * exáudi me in tua justítia.</p>
       <p>Ouvi, ó Senhor, a minha oração, prestai ouvidos à minha petição, segundo a vossa verdade: * atendei-me na vossa justiça.</p>
       <p>Et non intres in judícium cum servo tuo: * quia non justificábitur in conspéctu tuo omnis vivens.</p>

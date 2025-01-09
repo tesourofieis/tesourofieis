@@ -10,7 +10,7 @@ export default function Page041() {
       <h1>Salmo 41</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quemádmodum desíderat cervus ad fontes aquárum: * ita desíderat ánima mea ad Te, Deus.</p>
       <p>Assim como o veado suspira pelas fontes das águas: * assim por Vós suspira a minha alma, ó Deus.</p>
       <p>Sitívit ánima mea ad Deum fortem vivum: * quando véniam, et apparébo ante fáciem Dei?</p>

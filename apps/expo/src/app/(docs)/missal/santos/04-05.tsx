@@ -16,7 +16,7 @@ export default function Page0405() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui Ecclésiam tuam beáti Vincéntii Confessóris tui méritis et prædicatióne illustráre dignátus es: concéde nobis fámulis tuis; ut et ipsíus instruámur exémplis et ab ómnibus ejus patrocínio liberémur advérsis. Per Dóminum...</p>
       <p>Ó Deus, que Vos dignastes ilustrar a vossa Igreja com os méritos e a pregação do B. Vicente, vosso Confessor, concedei a estes vossos servos a graça de serem instruídos com seus exemplos e livres de todas as adversidades pela sua protecção. Por nosso Senhor...</p>
       </div>

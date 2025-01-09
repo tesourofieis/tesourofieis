@@ -14,14 +14,14 @@ export default function PagePent110() {
 
 <em>Sl. 67, 6-7 & 36 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus in loco sancto suo: Deus qui inhabitáre facit unánimes in domo: ipse dabit virtútem et fortitúdinem plebi suæ. <em>Ps. ibid., 2</em> Exsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus. ℣. Gloria Patri...</p>
       <p>Deus está na sua santa morada: Deus dará morada na sua casa àqueles que possuem o mesmo espírito: Ele dará ao seu povo fortaleza e constância. <em>Sl. ibid., 2</em> Erga-se Deus e sejam dispersos os seus inimigos: Que aqueles que o odeiam fujam da sua presença. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui, abundántia pietátis tuæ, et merita súpplicum excédis et vota: effúnde super nos misericórdiam tuam; ut dimíttas quæ consciéntia metuit, et adjícias quod orátio non præsúmit. Per Dóminum...</p>
       <p>Deus omnipotente e sempiterno, que pela abundância da vossa bondade excedeis os méritos e os desejos dos suplicantes, espalhai a vossa misericórdia sobre nós, de modo que nos sejam perdoados aqueles castigos, que a nossa consciência teme, e nos sejam concedidas aquelas graças, que não ousamos pedir: Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent110() {
 
 <em>1 Cor. 15, 1-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Notum vobis fácio Evangélium, quod prædicávi vobis, quod et accepístis, in quo et statis, per quod et salvámini: qua ratione prædicáverim vobis, si tenétis, nisi frustra credidístis. Trádidi enim vobis in primis, quod et accépi: quóniam Christus mortuus est pro peccátis nostris secúndum Scriptúras: et quia sepúltus est, et quia resurréxit tértia die secúndum Scriptúras: et quia visus est Cephæ, et post hoc úndecim. Deinde visus est plus quam quingéntis frátribus simul, ex quibus multi manent usque adhuc, quidam autem dormiérunt. Deinde visus est Jacóbo, deinde Apóstolis ómnibus: novíssime autem ómnium tamquam abortívo, visus est et mihi. Ego enim sum mínimus Apostolórum, qui non sum dignus vocári Apóstolus, quóniam persecútus sum Ecclésiam Dei. Grátia autem Dei sum id quod sum, et grátia ejus in me vácua non fuit.</p>
@@ -41,7 +41,7 @@ export default function PagePent110() {
 
 <em>Sl. 27, 7 & 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea, et ex voluntáte mea confitébor illi. ℣. Ad te, Dómine, clamávi: Deus meus, ne síleas, ne discédas a me.</p>
       <p>O meu coração confiou em Deus, que veio em meu socorro. Então a minha carne remoçou. Eis porque louvarei o Senhor com todo o coração. ℣. Clamei por Vós, Senhor! Meu Deus, não fecheis os ouvidos à minha voz, nem Vos afasteis de mim.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 80, 2-3</em> Exsultáte Deo, adjutóri nostro, jubiláte Deo Jacob: súmite psalmum jucúndum cum cíthara. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent110() {
 
 <em>Mc. 7, 31-37</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Marcum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Marcos.</p>
@@ -64,14 +64,14 @@ S. Marcos.</p>
 
 <em>Sl. 29, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me: Dómine, clamávi ad te, fet sanásti me.</p>
       <p>Exaltar-Vos-ei, Senhor, porque me atendestes e não deixastes que meus inimigos escarnecem de mim. Clamei por Vós, Senhor, e curaste-me!</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice, Dómine, quǽsumus, nostram propítius servitútem: ut, quod offérimus, sit tibi munus accéptum, et sit nostræ fragilitátis subsidium. Per Dóminum...</p>
       <p>Dignai-Vos, Senhor, Vos suplicamos, olhar propício para a nossa homenagem, a fim de que a nossa oferta Vos seja agradável e sirva de auxílio para a nossa fraqueza. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Marcos.</p>
 
 <em>Pr. 3, 9-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hónora Dóminum de tua substántia, et de prímitus frugum tuárum: et implebúntur hórrea tua saturitáte, et vino torculária redundábunt.</p>
       <p>Honrai o Senhor, oferecendo-Lhe os vossos bens e as primícias dos vossos frutos. Então os vossos celeiros ficarão cheios de trigo e os vossos lagares trasbordarão de vinho.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sentiámus, quǽsumus, Dómine, tui perceptióne sacraménti, subsídium mentis et córporis: ut, in utróque salváti, cæléstis remédii plenitúdine gloriémur. Per Dóminum nostrum...</p>
       <p>Permiti, Senhor, Vos suplicamos, que, pela recepção do vosso sacramento, sintamos o vosso conforto na alma e no corpo, a fim de que, salvando-se ambos, possamos gozar na glória a plenitude deste remédio celestial. Por nosso Senhor...</p>
       </div>

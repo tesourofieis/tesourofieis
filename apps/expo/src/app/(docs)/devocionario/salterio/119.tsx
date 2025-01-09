@@ -10,7 +10,7 @@ export default function Page119() {
       <h1>Salmo 119</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad Dóminum cum tribulárer clamávi: * et exaudívit me.</p>
       <p>Na minha tribulação, clamei ao Senhor: * e ouviu-me.</p>
       <p>Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa.</p>

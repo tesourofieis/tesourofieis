@@ -10,7 +10,7 @@ export default function Page141() {
       <h1>Salmo 141</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Voce mea ad Dóminum clamávi: * voce mea ad Dóminum deprecátus sum:</p>
       <p>Com a minha voz clamei ao Senhor: * com minha voz supliquei ao Senhor:</p>
       <p>Effúndo in conspéctu ejus oratiónem meam, * et tribulatiónem meam ante ipsum pronúntio.</p>

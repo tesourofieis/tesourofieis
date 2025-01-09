@@ -14,14 +14,14 @@ export default function PageQuad31() {
 
 <em>Sl. 55, 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In Deo laudábo verbum, in Dómino laudábo sermónem: in Deo sperábo, non timebo, quid fáciat mihi homo. <em>Ps. ibid., 2</em> Miserére mei, Deus, quóniam conculcávit me homo: tota die bellans tribulávit me. ℣. Gloria Patri...</p>
       <p>Auxiliado com a graça de Deus, louvarei a sua palavra: auxiliado com a graça do Senhor, louvarei a sua doutrina; tenho esperança em Deus e não temo: o que poderá fazer o homem contra mim? <em>Sl. ibid., 2</em> Tende compaixão de mim, meu Deus, pois o homem espezinha-me, persegue-me continuamente e enche-me de tribulações. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut, sicut ab escis carnálibus abstinémus; ita sensus quoque nostros a nóxiis retrahámus excéssibus. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, infundi benigno nos nossos corações a vossa graça, para que, assim como nos abstemos dos alimentos carnais, assim também guardemos os nossos sentidos dos perigosos excessos. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad31() {
 
 <em>4 Rs. 5, 1-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Regum.</p>
       <p>Lição do Livro dos Reis.</p>
       <p>In diébus illis: Náaman, princeps milítiæ regis Sýriæ, erat vir magnus apud dóminum suum, et honorátus: per illum enim dedit Dóminus salútem Sýriæ: erat autem vir fortis et dives, sed leprósus. Porro de Sýria egressi fúerant latrúnculi, et captivam dúxerant de terra Israel puéllam párvulam, quæ erat in obséquio uxoris Náaman, quæ ait ad dóminam suam: Utinam fuísset dóminus meus ad Prophétam, qui est in Samaría: profécto curásset eum a lepra, quam habet. Ingréssus est itaque Náaman ad dóminum suum, et nuntiávit ei, dicens: Sic et sic locúta est puélla de terra Israël. Dixítque ei rex Sýriæ: Vade, et mittam lítteras ad regem Israël. Qui cum proféctus esset, et tulísset secum decem talénta argénti, et sex mília áureos, et decemmutatória vestimentórum, détulit lítteras ad regem Israël in hæc verba: Cum accéperis epístolam hanc, scito, quod míserim ad te Náaman servum meum, ut cures eum a lepra sua. Cumque legísset rex Israël lítteras, scidit vestiménta sua, et ait: Numquid Deus ego sum, ut occídere possim et vivificáre, quia iste misit ad me, ut curem hóminem a lepra sua? animadvértite et vidéte, quod occasiónes quærat advérsum me. Quod cum audísset Eliséus vir Dei, scidísse videlícet regem Israël vestiménta sua, misit ad eum, dicens: Quare scidísti vestiménta tua? véniat ad me, et sciat esse prophétam in Israël. Venit ergo Náaman cum equis et cúrribus, et stetit ad óstium domus Eliséi: misítque ad eum Eliséus núntium, dicens: Vade, et laváre sépties in Jordáne, et recípiet sanitátem caro tua, atque mundáberis. Iratus Náaman recedébat, dicens: Putábam, quod egrederétur ad me, et stans invocáret nomen Dómini, Dei sui, et tángeret manu sua locum lepræ, et curáret me. Numquid non melióres sunt Abana et Pharphar, flúvii Damásci, ómnibus aquis Israël, ut laver in eis, et munder? Cum ergo vertísset se, ci abíret indígnans, accessérunt ad eum servi sui, et locúti sunt ei: Pater, et si rem grandem dixísset tibi Prophéta, certe fácere debúeras: quanto magis quia nunc dixit tibi: Laváre, et mundáberis? Descéndit, et lavit in Jordáne sépties, juxta sermónem viri Dei, et restitúta est caro ejus, sicut caro pueri párvuli, et mundátus est. Reversúsque ad virum Dei cum univérso comitátu suo, venit, et stetit coram eo, et ait: Vere scio, quod non sit álius Deus in univérsa terra, nisi tantum in Israël.</p>
@@ -41,7 +41,7 @@ export default function PageQuad31() {
 
 <em>Sl. 55, 9 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, vitam meam annuntiávi tibi: posuísti lácrimas meas in conspéctu tuo. ℣. Miserére mei, Dómine, quóniam conculcávit me homo: tota die bellans tribulávit me.</p>
       <p>Ó Deus, narrei-Vos toda minha vida: e vistes as minhas lágrimas. ℣. Tende compaixão de mim, meu Deus, pois o homem espezinhou-me: continuamente me persegue e enche de tribulações.</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuad31() {
 
 <em>Lc. 4, 23-30</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -70,14 +70,14 @@ S. Lucas.</p>
 
 <em>Sl. 54, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde in me, et exáudi me.</p>
       <p>Ouvi a minha oração, ó Deus, e não desprezeis a minha súplica: atendei-me, escutai-me.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Munus, quod tibi, Dómine, nostræ servitútis offérimus, tu salutáre nobis pérfice sacraméntum. Per Dóminum nostrum...</p>
       <p>Permiti, Senhor, que este dom, que Vos oferecemos em sinal da nossa sujeição, se torne para nós em um sacramento salutar. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. Lucas.</p>
 
 <em>Sl. 13, 7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quis dabit ex Sion salutáre Israël? cum avértent Dóminus captivitátem plebis suæ, exsultábit Jacob, et lætábitur Israël.</p>
       <p>Quem de Sião salvará Israel? Quando o Senhor extinguir o cativeiro do seu povo, Jacob exultará e Israel alegrar-se-á.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens et miséricors Deus: ut, quod ore contíngimus, pura mente capiámus. Per Dóminum...</p>
       <p>Concedei-nos, ó Deus omnipotente e misericordioso, Vos suplicamos, que guardemos com o coração puro o Sacramento que recebemos na nossa boca. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

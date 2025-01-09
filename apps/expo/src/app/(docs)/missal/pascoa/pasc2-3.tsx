@@ -18,14 +18,14 @@ A Missa de hoje pode ser representada em tríptico a mostrar-nos que S. José é
 
 <em>Sl 32:20-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adjútor et protéctor noster est Dóminus: in eo lætábitur cor nostrum, et in nómine sancto ejus sperávimus, allelúja, allelúja *Ps 79:2* Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.  ℣. Gloria Patri...</p>
       <p>O Senhor é o nosso auxílio e protecção: o nosso coração sente n’Ele toda a alegria: e no seu santo nome depositamos toda nossa esperança. (T. P. Aleluia, aleluia.) *Sl 79:2* Vós, que conduzis José, como um pastor guia a ovelha, ouvi. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ineffábili providéntia beátum Joseph sanctíssimæ Genetrícis tuæ sponsum elígere dignátus es: præsta, quǽsumus; ut, quem protectórem venerámur in terris, intercessórem habére mereámur in cœlis: Qui vivis…</p>
       <p>Ó Deus, que por vossa inefável providência Vos dignastes escolher o B. José para esposo da vossa santíssima Mãe, permiti, Vos imploramos, que, venerando-o nós na terra, como nosso protector, mereçamos alcançar a sua intercessão nos céus. Ó Vós, que viveis...</p>
       </div>
@@ -34,14 +34,14 @@ A Missa de hoje pode ser representada em tríptico a mostrar-nos que S. José é
 
 <em>Gn 49:22-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Génesis.</p>
       <p>Lição do Livro Génesis.</p>
       <p>Fílius accréscens Joseph, fílius accréscens, et decórus aspéctu: fíliæ discurrérunt super murum. Sed exasperavérunt eum, et jurgáti sunt, inviderúntque illi habéntes jácula. Sedit in forti arcus ejus, et dissolúta sunt víncula brachiórum et mánuum illíus per manus poténtis Jacob: inde pastor egréssus est, lapis Israël. Deus patris tui erit adjútor tuus, et Omnípotens benedícet tibi benedictiónibus cœli désuper, benedictiónibus abýssi jacéntis deórsum, benedictiónibus úberum et vulvæ. Benedictiónes patris tui confortátæ sunt benedictiónibus patrum ejus, donec veníret Desidérium cóllium æternórum: fiant in cápite Joseph, et in vértice Nazarǽi inter fratres suos.</p>
       <p>O meu filho José cresceu em glória; Seu poder vai-se desenvolvendo sempre. Até as donzelas subiram à muralha para o verem. Antes da sua grandeza, os seus irmãos moveram-lhe insídias, suscitaram rixas e, na sua inveja, até lhe arrojaram dardos; porém, o seu arco retesado permaneceu sempre forte, e as cadeias, que prendiam os seus braços e, as suas mãos, foram partidas pela mão do Deus poderoso de Jacob. De modo que Ele saiu desta situação para ser o pastor dum povo e o sustentáculo de Israel. Ó meu filho, o Deus de teu pai será o teu protector; o Omnipotente encher-te-á com suas excelsas bênçãos; a terra que habitas será regada pelas torrentes que procedem da profundeza do abysmo das águas, por virtude dessa bênção; e serás ainda abençoado com a fecundidade maternal. As bênçãos, que sobre ti lança teu pai, excedem as que ele recebeu de seus antepassados; e permanecerão em ti até que se cumpram os desejos das colinas eternas. Que estas bênçãos recaiam na fronte de José, que é como que um Nazareno (Príncipe) no meio de seus irmãos.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. De quacúmque tribulatióne clamáverint ad me, exáudiam eos, et ero protéctor eórum semper. Allelúja. ℣. Fac nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. De qualquer tribulação que clamem a mim, ouvir-lhes-ei, serei sempre o seu protector. Aleluia. ℣. Fazei, ó José, que sigamos uma vida inocente e que seja ela sempre amparada com o vosso patrocínio. Aleluia.</p>
       </div>
@@ -50,7 +50,7 @@ A Missa de hoje pode ser representada em tríptico a mostrar-nos que S. José é
 
 <em>Lc 3:21-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Factum est autem, cum baptizarétur omnis pópulus, et Jesu baptizáto et oránte, apértum est cœlum: et descéndit Spíritus Sanctus corporáli spécie sicut colúmba in ipsum: et vox de cœlo facta est: Tu es Fílius meus diléctus, in te complácui mihi. Et ipse Jesus erat incípiens quasi annórum trigínta, ut putabátur, fílius Joseph.</p>
@@ -61,14 +61,14 @@ A Missa de hoje pode ser representada em tríptico a mostrar-nos que S. José é
 
 <em>Sl 147:12-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lauda, Jerúsalem, Dóminum: quóniam confortávit seras portárum tuárum, benedíxit fíliis tuis in te, allelúja, allelúja.</p>
       <p>Jerusalém, louva o Senhor, pois foi Ele quem consolidou as tuas portas; foi Ele quem abençoou os teus filhos. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctíssimæ Genetrícis tuæ sponsi patrocínio suffúlti, rogámus, Dómine, cleméntiam tuam: ut corda nostra fácias terréna cuncta despícere, ac te verum Deum perfécta caritáte dilígere: Qui vivis...</p>
       <p>Fortalecidos com o patrocínio do esposo da vossa Santíssima Mãe, suplicamos à vossa clemência, Senhor, que nos façais desdenhar as coisas terrenas e com caridade perfeita amar-Vos a Vós, que sois o verdadeiro Deus. Ó Vós, que viveis...</p>
       </div>
@@ -77,14 +77,14 @@ A Missa de hoje pode ser representada em tríptico a mostrar-nos que S. José é
 
 <em>Mt 1:16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus, qui vocátur Christus, allelúja, allelúja.</p>
       <p>Jacob gerou José, esposo de Maria, de quem nasceu Jesus, que se chama Cristo.(T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Divíni múneris fonte refécti, quǽsumus, Dómine, Deus noster: ut, sicut nos facis beáti Joseph protectióne gaudére; ita, ejus méritis et intercessióne, cœléstis glóriæ fácias esse partícipes. Per Dominum…</p>
       <p>Havendo nós reparado as nossas forças na própria fonte do dom divino, Vos suplicamos, Senhor, nosso Deus, que nos façais gozar o patrocínio do B. José, tornando-nos participantes da glória celestial, em virtude dos seus méritos e da sua intercessão. Por nosso Senhor...</p>
       </div>

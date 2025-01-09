@@ -10,7 +10,7 @@ export default function Page105() {
       <h1>Salmo 105</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitémini Dómino, quóniam bonus: * quóniam in sǽculum misericórdia ejus.</p>
       <p>Louvai o Senhor, porque é bom: * porque é eterna a sua misericórdia.</p>
       <p>Quis loquétur poténtias Dómini, * audítas fáciet omnes laudes ejus?</p>

@@ -10,7 +10,7 @@ export default function Page024() {
       <h1>Salmo 24</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad Te, Dómine, levávi ánimam meam: * Deus meus, in Te confído, non erubéscam.</p>
       <p>A Vós, ó Senhor, elevei a minha alma: * Deus meu, em Vós confio, não seja eu envergonhado.</p>
       <p>Neque irrídeant me inimíci mei: * étenim univérsi, qui sústinent Te, non confundéntur.</p>

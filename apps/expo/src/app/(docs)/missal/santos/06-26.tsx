@@ -39,7 +39,7 @@ export default function Page0626() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus: ut nos gemináta lætítia hodiérnæ festivitátis excípiat, quæ de beatórum Joánnis et Pauli glorificatióne procédit; quos eadem fides et pássio vere fecit esse germános. Per Dóminum...</p>
       <p>Ó Senhor omnipotente, Vos rogamos, permiti que participemos da alegria desta dupla festa, neste dia em que são glorificados os B. B. João e Paulo, que a mesma fé e o mesmo martírio tornaram verdadeiramente irmãos. Por nosso Senhor...</p>
       </div>
@@ -48,7 +48,7 @@ export default function Page0626() {
 
 <em>Ecl. 44, 10-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Hi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum semine eórum pérmanent bona, heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum propter illos usque in ætérnum manent: semen eórum et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia.</p>
@@ -58,7 +58,7 @@ export default function Page0626() {
 
 <em>Sl. 132, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce, quam bonum et quam jucúndum, habitáre fratres in unum! ℣. Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.</p>
       <p>Ah! como é bom e consolador que os irmãos habitem juntamente. ℣. É como o perfume espalhado na cabeça, que desceu sobre a barba de Aarão.</p>
       <p>Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita tenens regna cœléstia. Allelúja.</p>
@@ -76,14 +76,14 @@ export default function Page0626() {
 
 <em>Sl. 5, 12-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gloriabúntur in te omnes, qui díligunt nomen tuum, quóniam tu, Dómine, benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ coronásti nos.</p>
       <p>Todos aqueles que amam o vosso nome, Senhor, serão glorificados convosco, pois abençoais o justo. Vós o protegereis, Senhor, com vossa boa vontade, como se fora um escudo.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum nostrum...</p>
       <p>Aceitai benigno, Senhor, as hóstias que Vos oferecemos pelos méritos dos vossos Santos Mártires João e Paulo e dignai-Vos, em virtude delas, fazer descer sobre nós o vosso perpétuo socorro. Por nosso Senhor...</p>
       </div>
@@ -92,14 +92,14 @@ export default function Page0626() {
 
 <em>Sb. 3, 4, 5 & 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Est si coram homínibus torménta passi sunt, Deus tentavit eos: tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit eos.</p>
       <p>Se sofreram tormentos diante dos homens, foi porque Deus os provou. Deus provou-os, como ao ouro, na fornalha, e recebeu-os, como hóstia de holocausto.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súmpsimus, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli sollémnia celebrántes, sacraménta cœléstia: præsta, quǽsumus; ut, quod temporáliter gérimus, ætérnis gáudiis consequámur. Per Dóminum...</p>
       <p>Recebemos, Senhor, os vossos celestiais sacramentos, celebrando a festa dos vossos Santos Mártires João e Paulo; e concedei-nos, Vos suplicamos, que alcancemos nos gozos eternos o que agora celebrámos. Por nosso Senhor...</p>
       </div>

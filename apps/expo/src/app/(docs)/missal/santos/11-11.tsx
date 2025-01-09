@@ -25,7 +25,7 @@ export default function Page1111() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui cónspicis, quia ex nulla nostra virtúte subsístimus: concéde propítius; ut, intercessióne beáti Martíni...</p>
       <p>Ó Deus, que bem conheceis que não é pelo nosso poder que subsistimos, concedei-nos propício que, pela intercessão do B. Martinho, vosso Confessor e Pontífice, sejamos protegidos contra todas as adversidades. Por nosso Senhor...</p>
       </div>
@@ -41,7 +41,7 @@ export default function Page1111() {
 
 <em>Ecl. 44, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce sacérdos magnus, qui in diébus suis plácuit Deo. ℣. <em>ibid., 20</em> Non est invéntus símilis illi, qui conserváret legem Excelsi.</p>
       <p>Eis o grande sacerdote que nos dias da sua vida agradou a Deus. ℣. <em>ibid., 20</em> Ninguém o igualou na observância das leis do Altíssimo.</p>
       <p>Allelúja, allelúja. ℣. Beátus vir, sanctus Martínus, urbis Turónis Epíscopus, requiévit: quem suscéperunt Angeli atque Archángeli, Throni, Dominatiónes et Virtútes. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page1111() {
 
 <em>Lc. 11, 33-36</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Nemo lucérnam accéndit, et in abscóndito ponit, neque sub módio: sed supra candelábrum, ut, qui ingrediúntur, lumen vídeant. Lucérna córporis tui est óculus tuus. Si óculus tuus fúerit simplex, totum corpus tuum lúcidum erit: si autem nequam fúerit, étiam corpus tuum tenebrósum erit. Vide ergo, ne lumen, quod in te est, ténebræ sint. Si ergo corpus tuum totum lúcidum fúerit, non habens áliquam partem tenebrárum, erit lúcidum totum, et sicut lucérna fulgóris illuminábit te.</p>
@@ -63,14 +63,14 @@ export default function Page1111() {
 
 <em>Sl. 88, 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus.</p>
       <p>A minha fidelidade e a minha misericórdia estarão com ele; e o seu poder elevar-se-á pelo meu nome.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte sancti Antístitis tui Martíni offérimus: ut per ea vita nostra inter advérsa et próspera ubíque dirigátur. Per Dóminum...</p>
       <p>Ó Senhor e Deus, santificai, Vos rogamos, estes dons que Vos oferecemos na solenidade do Santo Bispo Martinho, vosso Mártir, a fim de que, graças a eles, a nossa vida se regule segundo a vossa vontade, tanto nas adversidades, como nas prosperidades. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page1111() {
 
 <em>Mt. 24,46-47</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum.</p>
       <p>Bem-aventurado o servo que, quando o Senhor vier, encontrar vigilante. Em verdade vos digo que o encarregará de administrar todos seus bens.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, Dómine, Deus noster: ut, quorum festivitáte votíva sunt sacraménta, eórum intercessióne salutária nobis reddántur. Per Dóminum...</p>
       <p>Fazei, Senhor, nosso Deus, que nos sejam salutares estes sacrossantos sacramentos, pela intercessão daqueles em cuja festa Vo-los apresentamos. Por nosso Senhor...</p>
       </div>

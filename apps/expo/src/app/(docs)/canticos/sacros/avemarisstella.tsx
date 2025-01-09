@@ -10,7 +10,7 @@ export default function PageAvemarisstella() {
       <h1>Ave maris stella</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ave maris stella, Dei Mater alma, atque semper Virgo, felix caeli porta.</p>
       <p>Ave, Estrela do mar, Mãe de Deus sagrada, Que sempre Virgem sois, Porta feliz do Céu.</p>
       <p>Sumens illud Ave, Gabriélis ore, Funda nos in pace, Mutans Evæ nomen.</p>

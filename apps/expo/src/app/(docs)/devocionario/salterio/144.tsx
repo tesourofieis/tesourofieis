@@ -10,7 +10,7 @@ export default function Page144() {
       <h1>Salmo 144</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exaltábo Te, Deus meus, rex: * et benedícam nómini tuo in sǽculum, et in sǽculum sǽculi.</p>
       <p>Eu Vos exaltarei, ó Deus meu rei: * e bendirei o vosso nome para sempre e pelos séculos dos séculos.</p>
       <p>Per síngulos dies benedícam tibi: * et laudábo nomen tuum in sǽculum, et in sǽculum sǽculi.</p>

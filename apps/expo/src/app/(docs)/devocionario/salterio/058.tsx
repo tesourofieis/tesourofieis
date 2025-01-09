@@ -10,7 +10,7 @@ export default function Page058() {
       <h1>Salmo 58</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Éripe me de inimícis meis, Deus meus: * et ab insurgéntibus in me líbera me.</p>
       <p>Salvai-me, meu Deus, dos meus inimigos: * e livrai-me dos que se levantam contra mim.</p>
       <p>Éripe me de operántibus iniquitátem: * et de viris sánguinum salva me.</p>

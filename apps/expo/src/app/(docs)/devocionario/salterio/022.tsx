@@ -10,7 +10,7 @@ export default function Page022() {
       <h1>Salmo 22</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus regit me, et nihil mihi déerit: * in loco páscuæ ibi me collocávit.</p>
       <p>O Senhor é meu pastor e nada me faltará: * num lugar de pastos me colocou.</p>
       <p>Super aquam refectiónis educávit me: * ánimam meam convértit.</p>

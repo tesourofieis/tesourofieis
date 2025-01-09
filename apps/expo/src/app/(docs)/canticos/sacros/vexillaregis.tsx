@@ -10,7 +10,7 @@ export default function PageVexillaregis() {
       <h1>Vexílla Regis</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vexílla Regis pródeunt: Fúlget Crucis mystérium, Qua vita mortem pértulit, Et morte vitam prótulit.</p>
       <p>Ó nobre estandarte do Rei dos reis, ó misteriosa Cruz, aparece agora, pois a vida sofreu a morte, e pela sua morte nos deu a vida!</p>
       <p>Quæ, vulneráta lánceæ Mucróne diro, críminum Ut nos laváret sórdibus, Manávit unda et sánguine.</p>

@@ -14,14 +14,14 @@ export default function PageUnidadecrista() {
 
 <em>Sl. 105, 47</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Salvos nos fac, Dómine, Deus noster, et cóngrega nos de natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in laude tua. (T. P. Allelúja, allelúja.) <em>Ps. ibid., 1</em> Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus. ℣. Gloria Patri...</p>
       <p>Salvai-nos, Senhor, Deus nosso, e uni-nos entre as nações, para confessarmos o vosso nome e alegrarmo-nos com vossos louvores. (T. P. Aleluia, aleluia.) <em>Sl. ibid., 1</em> Glorificai o Senhor, porque Ele é bom; porque a sua misericórdia é eterna. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui errata córrigis, et dispérsa cóngregas, et congregáta consérvas: quǽsumus, super pópulum christiánum tuæ uniónis grátiam cleménter infúnde; ut, divisióne rejécta, vero pastóri Ecclésiæ tuæ se úniens, tibi digne váleat famulári. Per Dóminum...</p>
       <p>Ó Deus, que corrigis os erros, unis o que anda disperso e conservais o que reunis, infundi clementemente sobre o povo cristão, Vos suplicamos, a graça da vossa união, a fim de que, terminadas as divisões e unindo-se ao verdadeiro Pastor da vossa Igreja, possa servir-Vos dignamente. Por...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageUnidadecrista() {
 
 <em>Ef. 4, 1-7 et 13-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Efésios.</p>
       <p>Fratres: Obsecro vos, ut digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte, et mansuetúdine, cum patiéntia, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis. Unum corpus, et unus spíritus, sicut vocáti estis in una spe vocatiónis vestræ. Unus Dóminus, una fides, unum baptísma. Unus Deus et Pater ómnium, qui est super omnes, et per ómnia, et in ómnibus nobis. Unicuíque autem nostrum data est grátia secúndum mensúram donatiónis Christi: donec occurrámus omnes in unitátem fídei, et agnitiónis Fílii Dei, in virum perféctum, in mensúram ætátis plenitúdinis Christi: ut jam non simus párvuli fluctuántes, et circumferámur omni vento doctrínæ in nequítia hóminum, in astútia ad circumventiónem erróris. Veritátem autem faciéntes in caritáte, crescámus in illo per ómnia, qui est caput Christus: ex quo totum corpus compáctum et conéxum per omnem junctúram subministratiónis, secúndum operatiónem in mensúram uniuscujúsque membri, augméntum córporis facit in ædificatiónem sui in caritáte. Hoc ígitur dico, et testíficor in Dómino, ut jam non ambulétis, sicut et gentes ámbulant in vanitáte sensus sui, ténebris obscurátum habéntes intelléctum, alienáti a vita Dei per ignorántiam quæ est in illis, propter cæcitátem cordis ipsórum, qui desperántes, semetípsos tradidérunt impudicítia?, in operatiónem immundítiæ omnis, in avarítiam. Vos autem non ita didicístis Christum: si tamen illum audístis, et in ipso edócti estis, sicut est véritas in Christo Jesu, Dómino nostro.</p>
@@ -41,7 +41,7 @@ export default function PageUnidadecrista() {
 
 <em>Sl. 121, 6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Rogáte quæ ad pacem sunt Jerúsalem: et abundántia diligéntibus te. ℣. Fiat pax in virtúte tua: et abundántia in túrribus tuis.</p>
       <p>Rogai a paz para os que estão em Jerusalém: e a abundância para aqueles que te amam. ℣. Reine a paz dentro dos teus muros e a abundância nas tuas fortalezas.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 147, 12</em> Lauda, Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja.</p>
@@ -56,14 +56,14 @@ export default function PageUnidadecrista() {
 
 <em>Sl. 75, 2-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Notus in Judǽa Deus, in Israël magnum nomen ejus. ℣. Et factus est in pace locus ejus, et habitátio ejus in Sion. ℣. Ibi confrégit poténtias árcuum, scutum, gládium, et bellum.</p>
       <p>Deus é conhecido na Judeia: e o seu nome é grande em Israel. ℣. Sua habitação é no lugar da paz; a sua morada é em Sião. ℣. Ali quebrou as forças do arco, do escudo, da espada e dos combates.</p>
       </div>
 
 <aside>No Tempo Pascal omite-se o Gradual, e o Trato e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 147, 12</em> Lauda, Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja. ℣. <em>ibid., 14</em> Quid pósuit fines tuos pacem, et ádipe fruménti sátiat te. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Ps. 147, 12</em> Louva o Senhor, ó Jerusalém; louva o teu Deus, ó Sião. Aleluia. ℣. <em>ibid., 14</em> Foi Ele quem estabeleceu a paz nas tuas fronteiras; e te sacia com a flor da farinha. Aleluia.</p>
       </div>
@@ -72,7 +72,7 @@ export default function PageUnidadecrista() {
 
 <em>Jo. 17, 1 & 11-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Sublevátis Jesus oculis in cœlum, dixit: Pater sancte, serva eos in nómine tuo, quos dedísti mihi: ut sint unum, sicut et nos. Cum essem cum eis, ego servábam eos in nómine tuo. Quos dedísti mihi, custodívi: et nemo ex eis périit, nisi fílius perditiónis, ut Scriptúra impleátur. Nunc autem ad te vénio: et hæc loquor in mundo, ut hábeant gáudium meum implétum in semetípsis. Ego dedi eis sermónem tuum, et mundus eos ódio hábuit, quia non sunt de mundo, sicut et ego non sum de mundo. Non rogo, ut tollas eos de mundo, sed ut serves eos a malo. De mundo non sunt, sicut et ego non sum de mundo. Sanctífica eos in veritáte. Sermo tuus véritas est. Sicut tu me misísti in mundum, et ego misi eos in mundum. Et pro eis ego sanctífico meípsum, ut sint et ipsi sanctíficat! in veritáte. Non pro eis autem rogo tantum, sed et pro eis, qui creditóri sunt per verbum eórum in me: ut omnes unum sint, sicut tu, Pater, in me, et ego in te, ut et ipsi in nobis unum sint: ut credat mundus, quia tu me misísti. Et ego claritátem, quam dedísti mihi, dedi eis, ut sint unum, sicut et nos unum sumus. Ego in eis, et tu in me, ut sint consummáti in unum.</p>
@@ -83,14 +83,14 @@ export default function PageUnidadecrista() {
 
 <em>Rm. 15, 5-6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Det vobis Deus idípsum sápere in altérutrum: ut unánimes uno ore honorificétis Deum nostrum. (T. P. Allelúja.)</p>
       <p>Que Deus vos conceda uns para com os outros um unânime modo de sentir, de modo que possais unanimemente com uma só voz glorificar o nosso Deus. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera hæc pro unióne pópuli christiáni tibi, Dómine, oblata sanctífica: per quæ unitátis et pacis in Ecclésia tua nobis dona concédas. Per Dóminum...</p>
       <p>Santificai, Senhor, os dons que Vos oferecemos pela unidade do povo cristão, pelos quais, Vos pedimos, concedais à vossa Igreja a união e a paz. Por nosso Senhor...</p>
       </div>
@@ -99,14 +99,14 @@ export default function PageUnidadecrista() {
 
 <em>1 Cor. 10, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Unus panis, et unum corpus multi sumus, omnes, qui de uno pane et de uno cálice participámus. (T. P. Allelúja.)</p>
       <p>Ainda que sejamos muitos, formamos um só pão e um só corpo, e todos participamos de um só pão e um só cálice. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc tua, Dómine, sumpta sacra commúnio: sicut fidélium in te uniónem præsígnat; sic in tua Ecclésia unitátis, quǽsumus, operétur efféctum. Per Dóminum...</p>
       <p>Que esta sagrada comunhão, Senhor, assim como representa a união dos fiéis em Vós, assim, Vos suplicamos, produza desde já o efeito da unidade na vossa Igreja. Por nosso Senhor...</p>
       </div>

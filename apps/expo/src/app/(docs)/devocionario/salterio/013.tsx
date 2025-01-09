@@ -10,7 +10,7 @@ export default function Page013() {
       <h1>Salmo 13</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dixit insípiens in corde suo: * non est Deus.</p>
       <p>O insensato disse no seu coração: * não há Deus.</p>
       <p>Corrúpti sunt, et abominábiles facti sunt in stúdiis suis: * non est qui fáciat bonum, non est usque ad unum.</p>

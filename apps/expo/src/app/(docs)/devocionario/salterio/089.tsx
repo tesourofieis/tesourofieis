@@ -10,7 +10,7 @@ export default function Page089() {
       <h1>Salmo 89</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, refúgium factus es nobis: * a generatióne in generatiónem.</p>
       <p>Senhor tendes sido o nosso refúgio: * de geração em geração.</p>
       <p>Priúsquam montes fíerent, aut formarétur terra et orbis: * a sǽculo et usque in sǽculum Tu es, Deus.</p>

@@ -21,7 +21,7 @@ Nascido em Montepulciano (Itália) a 4 de Outubro de 1542, faleceu em Roma a 17 
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ad errórem insídias repelléndas et apostólicæ Sedis jura propugnánda, beátum Robértum Pontíficem tuuam atque Doctórem mira eruditióne et virtúte decorásti: ejus méritis et intercessióne concéde; ut nos in veritátis amóre crescámus et errántium corda ad Ecclésiæ tuæ rédeant unitátem. Per Dóminum...</p>
       <p>Ó Deus, que para refutar as insídias dos erros e defender os direitos da Santa Sé Apostólica enriquecestes o B. Roberto, vosso Pontífice e Doutor, com admirável erudição e constância, concedei-nos pelos seus méritos e intercessão que em nós aumente o amor à verdade e regressem à unidade da vossa Igreja os corações dos que permanecem no erro. Por nosso Senhor...</p>
       </div>
@@ -37,14 +37,14 @@ Nascido em Montepulciano (Itália) a 4 de Outubro de 1542, faleceu em Roma a 17 
 
 <em>Sl. 72, 28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem adhærére Deo bonum est, pónere in Dómino Deo spem meam: ut annúntiem pmnes prædicatiónes tuas in portis fíliæ Sion, allelúja.</p>
       <p>Por isso bom é para mim unir-me a Deus e pôr no Senhor Deus a minha esperança, a fim de publicar todos seus louvores às portas da filha de Sião, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, in odórem suavitátis offérimus: et præsta; ut, beáti Robérti mónitis et exémplis edócti, per sémitam mandatórum tuórum dilatáto corde currámus. Per Dóminum...</p>
       <p>A Vós, Senhor, oferecemos estas hóstias em odor de suavidade; e concedei-nos que, edificados com os ensinos e exemplos do B. Roberto, caminhemos generosamente pela via dos vossos preceitos. Por nosso Senhor...</p>
       </div>
@@ -53,14 +53,14 @@ Nascido em Montepulciano (Itália) a 4 de Outubro de 1542, faleceu em Roma a 17 
 
 <em>Mt. 5, 14, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vos estis lux mundi: sic lúceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum qui in cœlis est, allelúja.</p>
       <p>Sois a luz do mundo. Assim a vossa luz brilhe diante dos homens, para que vejam as vossas boas obras e glorifiquem o vosso Pai, que está nos céus, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacraménta, quæ súmpsimus, Dómine Deus noster, in nobis fóveant caritátis ardórem: quo beátus Robértus veheménter accénsus, pro Ecclésia tua se júgiter impendébat. Per Dóminum...</p>
       <p>Que os sacramentos, que recebemos, Senhor, nosso Deus, em nós infundam o ardor da caridade com o qual o B. Roberto, intensamente abrasado, se esforçava incessantemente em defender a vossa Igreja. Por nosso Senhor...</p>
       </div>

@@ -10,7 +10,7 @@ export default function Page139() {
       <h1>Salmo 139</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Éripe me, Dómine, ab hómine malo: * a viro iníquo éripe me.</p>
       <p>Livrai-me, ó Senhor, do homem malvado: * livrai-me do homem iníquo.</p>
       <p>Qui cogitavérunt iniquitátes in corde: * tota die constituébant prǽlia.</p>

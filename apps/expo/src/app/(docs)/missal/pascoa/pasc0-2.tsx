@@ -14,14 +14,14 @@ export default function PagePasc02() {
 
 <em>Ecl. 15, 3 & 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Aqua sapiéntiæ potávit eos, allelúja: firmábitur in illis et non flectétur, allelúja: et exaltábit eos in ætérnum, allelúja, allelúja. <em>Ps. 104, 1</em> Confitémini Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus. ℣. Gloria Patri...</p>
       <p>O Senhor deu-lhes a beber a água da sabedoria, aleluia: Ela permanecerá neles e não vacilarão, aleluia: e ela os exaltará para sempre, aleluia, aleluia. <em>Sl. 104, 1</em> Louvai o Senhor e aclamai o seu nome: publicai as suas obras em todos os povos. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui Ecclésiam tuam novo semper fetu multíplicas: concéde fámulis tuis; ut sacraméntum vivéndo téneant, quod fide percepérunt. Per Dóminum...</p>
       <p>Ó Deus, que aumentais incessantemente a vossa Igreja com novos filhos, concedei aos vossos servos a graça de mostrarem, pela sã conduta de sua vida, o efeito do sacramento que receberam pela fé. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePasc02() {
 
 <em>Act. 13, 16 & 26-33</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Surgens Paulus et manu silentium índicens, ait: Viri fratres, fílii generis Abraham, et qui in vobis timent Deum, vobis verbum salútis hujus missum est. Qui enim habitábant Jerúsalem, et príncipes ejus, ignorántes Jesum et voces Prophetárum, quæ per omne sábbatum legúntur, judicántes implevérunt: et nullam causam mortis inveniéntes in eo, petiérunt a Piláto, ut interfícerent eum. Cumque consummássent ómnia, quæ de eo scripta erant, deponéntes eum de ligno, posuérunt eum in monuménto. Deus vero suscitávit eum a mórtuis tértia die: qui visus est per dies multos his, qui simul ascénderant cum eo de Galilǽa in Jerúsalem, qui usque nunc sunt testes ejus ad plebem. Et nos vobis annuntiámus eam, quæ ad patres nostros repromíssio facta est: quóniam hanc Deus adimplévit fíliis nostris, resúscitans Jesum Christum, Dóminum nostrum.</p>
@@ -41,7 +41,7 @@ export default function PagePasc02() {
 
 <em>Sl. 117, 24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea. ℣. <em>Ps. 106, 2</em> Dicant nunc, qui redémpti sunt a Dómino: quos rédemit de manu inimíci, et de regiónibus congregávit eos.</p>
       <p>Eis o dia que o Senhor fez: exultemos e alegremo-nos nele. ℣. <em>Sl. 106, 2</em> Assim devem cantar agora aqueles que o Senhor resgatou e tirou das mãos dos inimigos, e que, sendo de muitas regiões, os congregou em um só povo.</p>
       <p>Allelúja, allelúja. ℣. Surrexit Dóminus de sepúlcro, qui pro nobis pepéndit in ligno.</p>
@@ -52,7 +52,7 @@ export default function PagePasc02() {
 
 <em>Lc. 24, 36-47</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Stetit Jesus in médio discipulórum suórum et dicit eis: Pax vobis: ego sum, nolíte timére. Conturbáti vero et contérriti, existimábant se spíritum vidére. Et dixit eis: Quid turbáti estis, et cogitatiónes ascéndunt in corda vestra? Vidéte manus meas et pedes, quia ego ipse sum: palpáte et vidéte: quia spíritus carnem et ossa non habet, sicut me vidétis habére. Et cum hoc dixísset, osténdit eis manus et pedes. Adhuc autem illis non credéntibus et mirántibus præ gáudio, dixit: Habétis hic aliquid, quod manducétur? At illi obtulérunt ei partem piscis assi et favum mellis. Et cum manducásset coram eis, sumens relíquias, dedit eis. Et dixit ad eos: Hæc sunt verba, quæ locútus sum ad vos, cum adhuc essem vobíscum, quóniam necésse est impléri ómnia, quæ scripta sunt in lege Móysi et Prophétis et Psalmis de me. Tunc apéruit illis sensum, ut intellégerent Scriptúras. Et dixit eis: Quóniam sic scriptum est, et sic oportébat Christum pati, et resúrgere a mórtuis tértia die: et prædicári in nómine ejus pœniténtiam, et remissiónem peccatórum in omnes gentes.</p>
@@ -63,14 +63,14 @@ export default function PagePasc02() {
 
 <em>Sl. 17, 14 & 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Intónuit de cœlo Dóminus, et Altíssimus dedit vocem suam: et apparuérunt fontes aquárum, allelúja.</p>
       <p>Lá no céu o Senhor trovejou e o Altíssimo fez ouvir a sua voz. Então irromperam as fontes das águas, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, Dómine, fidélium preces cum oblatiónibus hostiárum: ut, per hæc piæ devotiónis offícia, ad cœléstem glóriam transeámus. Per Dóminum...</p>
       <p>Recebei, Senhor, as preces dos vossos fiéis, unidas às oblações destas hóstias, a fim de que, por meio destes cultos de devoção piedosa, alcancemos glória celestial. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function PagePasc02() {
 
 <em>Cl. 3, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Si consurrexístis cum Christo, quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens, allelúja: quæ sursum sunt sápite, allelúja.</p>
       <p>Se já ressuscitastes com Cristo, procurai as coisas do céu, onde Cristo está assentado à mão direita de Deus, aleluia; meditai nas coisas do céu, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde, quǽsumus, omnípotens Deus: ut paschális percéptio sacraménti, contínua in nostris méntibus persevéret. Per Dóminum...</p>
       <p>Ó Deus omnipotente, Vos rogamos, fazei que a virtude do sacramento pascal, que recebemos, permaneça perpetuamente nas nossas almas. Por nosso Senhor...</p>
       </div>

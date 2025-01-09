@@ -18,7 +18,7 @@ export default function PagePasc74() {
 
 <em>Act. 8, 5-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Philíppus descéndens in civitátem Samaríæ, prædicábat illis Christum. Intendébant autem turbæ his, quæ a Philíppo dicebántur, unanímiter audiéntes et vidéntes signa, quæ faciébat. Multi enim eórum, qui habébant spíritus immúndos, clamántes voce magna, exíbant. Multi autem paralýtici et claudi curáti sunt. Factum est ergo gáudium magnum in illa civitáte.</p>
@@ -29,7 +29,7 @@ export default function PagePasc74() {
 
 <em>Lc. 9, 1-6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>

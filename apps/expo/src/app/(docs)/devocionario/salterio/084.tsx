@@ -10,7 +10,7 @@ export default function Page084() {
       <h1>Salmo 84</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedixísti, Dómine, terram tuam: * avertísti captivitátem Jacob.</p>
       <p>Abençoastes, ó Senhor, a vossa terra: * libertastes Jacob do cativeiro.</p>
       <p>Remisísti iniquitátem plebis tuæ: * operuísti ómnia peccáta eórum.</p>

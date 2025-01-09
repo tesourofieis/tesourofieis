@@ -32,7 +32,7 @@ export default function Page0707() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui Slavóniæ gentes per beátos Confessóris tuos atque Pontífices Cyríllum et Methódium ad agnitiónem tui nóminis veníre tribuísti: præsta; ut, quorum festivitáte gloriámur, eórum consórtio copulémur. Per Dóminum...</p>
       <p>Ó Deus omnipotente e eterno, que Vos dignastes trazer ao conhecimento do vosso nome os povos eslavos pelo ministério dos B. B. Cirilo e Metódio, vossos Confessores e Pontífices, concedei-nos a graça de sermos um dia admitidos na companhia daqueles cuja festa nos gloriamos de celebrar. Por nosso Senhor...</p>
       </div>
@@ -45,14 +45,14 @@ export default function Page0707() {
 
 <em>Sl. 67, 36</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mirábilis Deus in Sanctis suis: Deus Israel, ipse dabit virtútem et fortitúdinem plebisuæ: benedíctus Deus.</p>
       <p>Deus é admirável em seus Santos. Deus de Israel dará ao seu povo a força e a coragem. Bendito seja Deus.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Preces nostras, quæsumus, Dómine, et tuórum réspice oblatiónes fidélium: ut tibi gratæ sint in tuórum festivitáte (commemoratione) Sanctórum, et nobis conferant tuæ propitiatiónis auxílium. Per Dóminum...</p>
       <p>Dignai-Vos receber benignamente as nossas orações e as oblatas dos fiéis, Senhor, a fim de que estas festas dos vossos Santos Vos sejam agradáveis e nos obtenham o auxílio da vossa propiciação. Por nosso Senhor...</p>
       </div>
@@ -61,14 +61,14 @@ export default function Page0707() {
 
 <em>Mt. 10, 27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quod dico vobis in tenebris, dícite in lúmine, dicit Dóminus: et quod in aure audítis, prædicáte super tecta.</p>
       <p>O que vos digo nas trevas dizei-o às claras, diz o Senhor; e o que vos disse ao ouvido pregai-o em cima dos telhados.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus: ut, qui nobis múnera dignáris præbére cœléstia, intercedéntibus sanctis tuis Cyríllo et Methódio, despícere terréna concédas. Per Dóminum...</p>
       <p>Ó Deus omnipotente, que Vos dignastes cumular-nos com os dons celestiais, Vos suplicamos, concedei-nos por intercessão dos vossos Santos Cirilo e Metódio a graça de desprezarmos as coisas terrenas. Por nosso Senhor...</p>
       </div>

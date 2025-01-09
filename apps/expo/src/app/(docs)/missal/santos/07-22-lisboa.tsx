@@ -16,7 +16,7 @@ Descobrirei as obras de Deus pelas suas palavras. O sol, iluminando o mundo, vê
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ad árdua quæque pro nóminis tui glória et animárum salúte beáto Lauréntio, Confessóri tuo atque Doctóri, spíritum sapiéntiæ et fortitúdinis contulísti: da nobis in eódem spíritu et agénda cognóscere; et cógnita, ejus intercessióne, perfícere.</p>
       <p>Ó Deus, que para glória do vosso nome e salvação das almas ornastes o B. Lourenço, vosso Confessor, com o espírito de conselho e de fortaleza nas obras ainda as mais árduas, concedei-nos pela sua intercessão o mesmo espírito, a fim de conhecermos o que devemos praticar e de praticarmos o que houvermos conhecido. Por nosso Senhor...</p>
       </div>

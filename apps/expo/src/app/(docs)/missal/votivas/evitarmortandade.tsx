@@ -14,14 +14,14 @@ export default function PageEvitarmortandade() {
 
 <em>2 Rs. 24, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Recordáre, Dómine, testaménti tui, et dic Angelo percutiénti: Cesset jam manus tua, et non desolétur terra, et ne perdas omnem ánimam vivéntem. (T. P. Allelúja, allelúja.) <em>Ps. 79, 2</em> Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph. ℣. Gloria Patri...</p>
       <p>Recordai-Vos da vossa promessa, Senhor, e dizei ao Anjo que nos fere: «que a vossa mão cesse de ferir; que a terra já não seja desbaratada; não extermineis todos os seres viventes!». (T. P. Aleluia, aleluia.) <em>Sl. 79, 2</em> Ouvi, ó vós que governais Israel; ó vós que conduzis José, como uma ovelha. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui non mortem, sed pœniténtiam desideras peccatórum: pópulum tuum ad te reverténtem propítius réspice; ut, dum tibi devótus exsístit, iracúndiæ tuæ flagélla ab eo cleménter amóveas. Per Dóminum...</p>
       <p>Ó Deus, que não desejais que os pecadores morram, mas que eles façam penitência, olhai benigno para o vosso povo, que se converte a Vós, de modo que, agora que ele se mostra fiel, o afasteis com clemência dos flagelos da vossa ira. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageEvitarmortandade() {
 
 <em>2 Rs. 24, 15-19 & 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Regum.</p>
       <p>Lição do Livro dos Reis.</p>
       <p>In diébus illis: Immísit Dóminus pestiléntiam in Israël, de mane usque ad tempus constitútum, et mórtui sunt ex pópulo, a Dan usque ad Bersabée, septuagínta mília virórum. Cumque extendísset manum suam Angelus Dómini super Jerúsalem, ut dispérderet eam, misértus est Dóminus super afflictióne, et ait Angelo percutiénti pópulum: Súfficit; nunc cóntine manum tuam. Erat autem Angelus Dómini juxta arcam Aréuna Jebusǽi. Dixítque David ad Dóminum, cum vidísset Angelum cædéntem pópulum: Ego sum, qui peccávi, ego iníque egi: isti, qui oves sunt, quid fecérunt? Vertátur, óbsecro, manus tua contra me et contra domum patris mei. Venit autem Gad prophéta ad David in die illa, et dixit ei: Ascénde, et constítue altare Dómino in área Aréuna Jebusǽi. Et ascéndit David juxta sermónem Gad, quem præcéperat ei Dóminus. Et ædificávit altáre Dómino, et óbtulit holocáusta et pacífica: et propitiátus est Dóminus terræ, et cohíbita est plaga ab Israël.</p>
@@ -41,7 +41,7 @@ export default function PageEvitarmortandade() {
 
 <em>Sl. 106, 20-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Misit Dóminus verbum suum, et sanávit eos: et erípuit eos de morte eórum. ℣. Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis hóminum.</p>
       <p>Fez o Senhor ouvir a sua palavra, curou-os e salvou-os da morte. ℣. Cantem-se louvores em honra das misericórdias do Senhor: sejam engrandecidas as maravilhas que Ele praticou em favor dos filhos dos homens.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 68, 2</em> Salvum me fac, Deus, quóniam intravérunt aquæ usque ad ánimam meam. Allelúja.</p>
@@ -54,14 +54,14 @@ export default function PageEvitarmortandade() {
 
 <em>Sl. 102, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis. ℣. <em>Ps. 78, 8-9</em> Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. ℣. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos, et propítius esto peccátis nostris, propter nomen tuum.</p>
       <p>Não nos castigueis, Senhor, consoante merecemos, pelos pecados que praticámos: nem nos julgueis segundo as nossas iniquidades. <em>Sl. 78, 8-9</em> Esquecei-Vos das nossas iniquidades, Senhor: apressai-Vos em cobrir-nos com vossas misericórdias, pois grande é a nossa miséria. ℣. Auxiliai-nos, ó Deus, nosso Salvador. Para glória do vosso nome, livrai-nos, Senhor! Por cansa do vosso nome, perdoai os nossos pecados, Senhor!</p>
       </div>
 
 <aside>No Tempo Pascal omite-se o Gradual e o Trato e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 68, 2</em> Salvum me fac, Deus, quóniam intravérunt aquæ usque ad ánimam meam. Allelúja. ℣. <em>Zach. 8, 7 et 8</em> Salvábo pópulum meum Israël in die malo, et ero eis in Deum, in veritáte et justítia. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 68, 2</em> Salvai-me, ó Deus, pois as águas (do mal) inundaram a minha alma. Aleluia. ℣. <em>Zc. 8, 7 et 8</em> No dia mau Salvarei o meu povo de Israel: e serei o seu Deus com verdade e justiça. Aleluia.</p>
       </div>
@@ -70,7 +70,7 @@ export default function PageEvitarmortandade() {
 
 <em>Lc. 4, 38-44</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Surgens Jesus de synagóga, introívit in domum Simónis. Socrus autem Simónis tenebátur magnis fébribus: et rogavérunt illum pro ea. Et stans super illam, imperávit febri: et dimísit illam. Et contínuo surgens, ministrábat illis. Cum autem sol occidísset, omnes, qui habébant infírmos váriis languóribus, ducébant illos ad eum. At ille síngulis manus ímponens, curábat eos. Exíbant autem dæmónia a multis, clamántia et dicéntia: Quia tu es Fílius Dei: et íncrepans non sinébat ea loqui, quia sciébant ipsum esse Christum. Facta autem die egréssus ibat in desértum locum, et turbæ requirébant eum, et venerunt usque ad ipsum: et detinébant illum, ne discéderet ab eis. Quibus ille ait: Quia et aliis civitátibus opórtet me evangelizáre regnum Dei: quia ideo missus sum. Et erat prǽdicans in synagógis Galilǽæ.</p>
@@ -81,14 +81,14 @@ export default function PageEvitarmortandade() {
 
 <em>Nm. 16, 48</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Stetit póntifex inter mórtuos et vivos, habens thuríbulum áureum in manu sua: et ófferens incénsi sacrifícium, placávit iram Dei, et cessávit quassátio a Dómino. (T. P. Allelúja.)</p>
       <p>O Pontífice estava entre os mortos e os vivos, tendo na mão o turíbulo de ouro: e oferecendo um sacrifício com incenso, aplacou a cólera divina. Então o Senhor cessou de os castigar. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Subvéniat nobis, quǽsumus, Dómine, sacrifícii præséntis oblátio: quæ nos et ab erróribus univérsis poténter absolvat, et a totíus erípiat perditiónis incúrsu. Per Dóminum...</p>
       <p>Que a oblação do presente sacrifício nos sirva de auxílio, Vos suplicamos, Senhor; e dignai-Vos perdoar-nos todos nossos erros e livrar-nos dos males que nos cercam. Por nosso Senhor...</p>
       </div>
@@ -97,14 +97,14 @@ export default function PageEvitarmortandade() {
 
 <em>Lc. 6, 17, 18 & 19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Multitúdo languéntium, et qui vexabántur a spirítibus immúndis, veniébant ad eum: quia virtus de illo exíbat, et sanábat omnes. (T. P. Allelúja.)</p>
       <p>Uma multidão de doentes e doutros que estavam atacados de espíritos imundos vinha ter com Ele; pois saía de Jesus um poder que os curava a todos. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi nos, Deus, salutáris noster: et pópulum tuum ab iracúndiæ tuæ terróribus líberum, et misericórdiæ tuæ fac largitáte secúrum. Per Dóminum...</p>
       <p>Ouvi-nos, ó Deus, nosso salvador, e dignai-Vos permitir que o vosso povo seja livre de todos os flagelos da vossa ira; e pela vossa misericórdia seja restituído à paz e segurança. Por...</p>
       </div>

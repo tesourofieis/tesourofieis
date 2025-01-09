@@ -10,7 +10,7 @@ export default function Page051() {
       <h1>Salmo 51</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quid gloriáris in malítia, * qui potens es in iniquitáte?</p>
       <p>Porque te glorias de tua malícia, * tu que és poderoso em iniquidade?</p>
       <p>Tota die injustítiam cogitávit lingua tua: * sicut novácula acúta fecísti dolum.</p>

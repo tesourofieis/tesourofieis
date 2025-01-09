@@ -19,14 +19,14 @@ export default function Page0806() {
 
 <em>Sl. 76, 19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit terra. <em>Ps. 83, 2-3</em> Quam dilécta tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in átria Dómini. ℣. Gloria Patri...</p>
       <p>Os vossos relâmpagos iluminaram o globo terrestre: moveu-se a terra e tremeu. <em>Sl. 83, 2-3</em> Como são amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha alma suspira ardentemente pelos átrios do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne patrum testimónio roborásti, et adoptiónem filiórum perféctam, voce delápsa in nube lúcida, mirabíliter præsignásti: concéde propítius; ut ipsíus Regis glóriæ nos coherédes effícias, et ejúsdem glóriæ tríbuas esse consórtes. Per eúndem Dóminum...</p>
       <p>Ó Deus, que na gloriosa Transfiguração de vosso Filho Unigénito confirmastes os méritos da fé pelo testemunho dos patriarcas, e que pela voz saída da nuvem iluminada proclamastes admiravelmente a perfeita adopção que de nós fizestes como vossos filhos, concedei-nos propício a graça de nos tornarmos co-herdeiros do Rei da glória e de mais tarde sermos participantes desta mesma glória. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -35,7 +35,7 @@ export default function Page0806() {
 
 <em>2 Pe. 1, 16-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Petri Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º Pedro.</p>
       <p>Caríssimi: Non doctas fábulas secúti notam fecimus vobis Dómini nostri Jesu Christi virtútem et præséntiam: sed speculatores facti illíus magnitudinis. Accipiens enim a Deo Patre honórem et glóriam, voce delapsa ad eum hujuscemodi a magnifica glória: Hic est Fílius meus diléctus, in quo mihi complacui, ipsum audíte. Et hanc vocem nos audivimus de cœlo allatam, cum essemus cum ipso in monte sancto. Et habémus firmiórem propheticum sermónem: cui bene facitis attendentes, quasi lucérnæ lucénti in caliginóso loco, donec dies elucescat et lucifer oriálur in córdibus vestris.</p>
@@ -46,7 +46,7 @@ export default function Page0806() {
 
 <em>Sl. 44, 3 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Speciosus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis. ℣. Eructávit cor meum verbum bonum: dico ego ópera mea Regi.</p>
       <p>Sois o mais belo dos filhos dos homens: a graça espalhou-se nos vossos lábios. ℣. Meu coração exprimiu uma palavra excelente: Consagro ao Rei as minhas obras.</p>
       <p>Allelúja, allelúja. ℣. <em>Sap. 7, 26</em> Candor est lucis ætérnæ, spéculum sine mácula, et imágo bonitátis illíus. Allelúja.</p>
@@ -57,7 +57,7 @@ export default function Page0806() {
 
 <em>Mt. 17, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem ejus, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Moyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eú Surgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.</p>
@@ -68,14 +68,14 @@ export default function Page0806() {
 
 <em>Sl. 111, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi, allelúja.</p>
       <p>A glória e as riquezas estão na sua casa; a sua justiça subsistirá para sempre. Aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Obláta, quǽsumus, Dómine, múnera gloriósa Unigéniti tui Transfiguratióne sanctífica: nosque a peccatórum máculis, splendóribus ipsíus illustratiónis emunda. Per eúndem Dóminum...</p>
       <p>Santificai, Senhor, pela gloriosa Transfiguração do vosso Filho Unigénito, Vos pedimos, as oblatas que Vos apresentamos; e pelos esplendores da sua glorificação purificai-nos das manchas dos nossos pecados. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -84,14 +84,14 @@ export default function Page0806() {
 
 <em>Mt. 17, 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Visiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat Fílius hóminis.</p>
       <p>Não conteis a ninguém esta visão até que o Filho do homem ressuscite dos mortos.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut sacrosáncta Fílii tui Transfiguratiónis mystéria, quæ sollemni celebrámus offício, purificáta mentis intellegéntia consequámur. Per eúndem Dómium nostrum...</p>
       <p>Ó Deus omnipotente, Vos suplicamos, fazei que possamos gozar com a alma purificada de todas as manchas os sacrossantos mystérios da Transfiguração do vosso Filho, que celebrámos solenemente neste ofício. Pelo mesmo nosso Senhor...</p>
       </div>

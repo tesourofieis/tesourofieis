@@ -10,7 +10,7 @@ export default function Page140() {
       <h1>Salmo 140</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, clamávi ad Te, exáudi me: * inténde voci meæ, cum clamávero ad Te.</p>
       <p>A Vós clamei, ó Senhor, ouvi-me: * atendei à minha voz, quando clamo a Vós.</p>
       <p>Dirigátur orátio mea sicut incénsum in conspéctu tuo: * elevátio mánuum meárum sacrifícium vespertínum.</p>

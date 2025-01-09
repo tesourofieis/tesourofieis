@@ -18,14 +18,14 @@ As festas dos Apóstolos que se sucedem no decorrer do ano, eram outrora dias sa
 
 <em>Esd. 9, 27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de cœlo exaudísti eos, allelúja, allelúja. <em>Ps. 32, 1</em> Exsultáte, justi, in Dómino: rectos decet collaudátio. ℣. Gloria Patri...</p>
       <p>No tempo da aflição clamaram por Vós, Senhor; e Vós, do alto do céu, os ouvistes, aleluia, aleluia. <em>Sl. 32, 1</em> Alegrai-vos no Senhor, ó justos, pois os que possuem os corações rectos é que devem louvar o Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos ánnua Apostolórum tuórum Philíppi et Jacóbi sollemnitáte lætíficas: præsta, quǽsumus: ut, quorum gaudémus méritis, instruámur exémplis. Per Dóminum...</p>
       <p>Ó Deus, que nos alegrais com a solenidade anual dos vossos Apóstolos Filipe e Tiago, concedei-nos, Vos suplicamos, que, alegrando-nos com seus méritos, aproveitemos com seus exemplos. Por nosso Senhor...</p>
       </div>
@@ -34,14 +34,14 @@ As festas dos Apóstolos que se sucedem no decorrer do ano, eram outrora dias sa
 
 <em>Sb. 5, 1-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lectio Epístolæ beati Pauli Apostoli ad Corinthios.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Stabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore horríbili, et mirabúntur in subitatióne insperátæ salútis, dicéntes intra se, pœniténtiam agéntes, et præ angústia spíritus geméntes: Hi sunt, quos habúimus aliquándo in derísum et in similitúdinem impropérii. Nos insensáti vitam illórum æstimabámus insániam, et finem illórum sine honóre: ecce, quómodo computáti sunt inter fílios Dei, et inter Sanctos sors illórum est.</p>
       <p>Então, os justos erguer-se-ão com grande coragem contra aqueles que os oprimiam e a quem arrebatavam o fruto dos seus trabalhos. Vendo-os assim, os maus perturbar-se-ão, cheios de pavor, e ficarão assombrados com a súbita e inesperada salvação dos justos, dizendo de si para si, arrependidos e angustiados: Estes são aqueles a quem outrora quisemos injuriar com nossas zombarias e insultos. Insensatos que nós fomos! Pareceu-nos que sua vida era uma loucura, e a sua morte uma vergonha; mas eis que os vemos elevados à dignidade de filhos de Deus e compartilhando da glória dos santos!</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 88, 6</em> Confitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum. Allelúja. ℣. <em>Joann. 14, 9</em> Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 88, 6</em> Os céus cantarão as vossas maravilhas, Senhor, assim como a vossa verdade, na assembleia dos Santos. Aleluia. ℣. <em>Jo. 14, 9</em> Há tanto tempo que estou convosco e me não conheceis? Filipe, quem me vê, vê também meu Pai! Aleluia.</p>
       </div>
@@ -50,7 +50,7 @@ As festas dos Apóstolos que se sucedem no decorrer do ano, eram outrora dias sa
 
 <em>Jo. 14, 1-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Non turbátur cor vestrum. Creditis in Deum, et in me crédite. In domo Patris mei mansiónes multæ sunt. Si quo minus, dixíssem vobis: Quia vado paráre vobis locum. Et si abíero et præparávero vobis locum: íterum vénio et accípiam vos ad meípsum, ut, ubi sum ego, et vos sitis. Et quo ego vado, scitis, et viam scitis. Dicit ei Thomas: Dómine, nescímus, quo vadis: et quómodo póssumus viam scire? Dicit ei Jesus: Ego sum via et véritas et vita; nemo venit ad Patrem nisi per me. Si cognovissétis me, et Patrem meum útique cognovissétis: et ámodo cognoscátis eum, et vidístis eum. Dicit ei Philíppus: Dómine, osténde nobis Patrem, et sufficit nobis. Dicit ei Jesus: Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem. Quómodo tu dicis: Osténde nobis Patrem? Non créditis, quia ego in Patre, et Pater in me est? Verba, quæ ego loquor vobis, a meípso non loquor. Pater autem in me manens, ipse facit ópera. Non créditis, quia ego in Patre, et Pater in me est? Alióquin propter ópera ipsa crédite. Amen, amen, dico vobis, qui credit in me, ópera, quæ ego facio, et ipse fáciet, et majóra horum fáciet: quia ego ad Patrem vado. Et quodcúmque petiéritis Patrem in nómine meo, hoc fáciam.</p>
@@ -61,14 +61,14 @@ As festas dos Apóstolos que se sucedem no decorrer do ano, eram outrora dias sa
 
 <em>Sl. 88, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja.</p>
       <p>Senhor, que os céus publiquem as vossas maravilhas; que a vossa verdade seja exaltada na assembleia dos santos. Aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera, Dómine, quæ pro Apostolórum tuórum Philippi et Jacóbi sollemnitáte deférimus, propítius súscipe: et mala ómnia, quæ meréraur, avérte. Per Dóminum...</p>
       <p>Recebei propício, Senhor, os dons que Vos apresentamos na solenidade dos vossos Apóstolos Filipe e Tiago e afastai de nós todos os males que merecemos. Por nosso Senhor...</p>
       </div>
@@ -77,14 +77,14 @@ As festas dos Apóstolos que se sucedem no decorrer do ano, eram outrora dias sa
 
 <em>Jo. 14, 9 & 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum, allelúja: non credis, quia ego in Patre, et Pater in me est? Allelúja, allelúja.</p>
       <p>Há tanto tempo que estou convosco e me não conheceis? Filipe, quem me vê, vê também meu Pai! Aleluia. Não acreditais que estou no Pai, e o Pai está em mim? Aleluia, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum sollémnia celebrámus, eórum oratiónibus adjuvémur. Per Dóminum...</p>
       <p>Saciados já com estes salutares mystérios, Senhor, Vos suplicamos, permiti que sejamos socorridos com as orações daqueles cuja festa celebramos. Por nosso Senhor...</p>
       </div>

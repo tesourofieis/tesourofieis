@@ -44,7 +44,7 @@ Meu Senhor e meu Deus, creio que estais verdadeiramente, realmente e substancial
 
       <h2>Cor jesu sacratissimum</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Cor Jesu sacratissimum:</p>
       <p>℣. Coração sacratíssimo de Jesus:</p>
       <p><span className="text-red-500">℟.</span> Miserere nobis.</p>
@@ -57,7 +57,7 @@ Meu Senhor e meu Deus, creio que estais verdadeiramente, realmente e substancial
 
 <Tantumergo />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Panem de cælo præstitísti eis. (T. P. Aleluia)</p>
       <p>℣. Vós lhes destes, Senhor, o pão do céu. (T. P. Aleluia)</p>
       <p><span className="text-red-500">℟.</span> Omne delectaméntum in se habéntem. (T. P. Aleluia)</p>
@@ -72,7 +72,7 @@ Meu Senhor e meu Deus, creio que estais verdadeiramente, realmente e substancial
 
       <h1>Louvores Dívinos</h1>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedíctus Deus. Benedíctum Nomen sanctum ejus.</p>
       <p>Bendito seja Deus. Bendito o seu Santo Nome.</p>
       <p>Benedíctus Jesus Christus, verus Deus et verus homo.</p>
@@ -105,7 +105,7 @@ Meu Senhor e meu Deus, creio que estais verdadeiramente, realmente e substancial
 
       <h2>Cristus Vincit</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Christus Vincit!</p>
       <p>Cristo Vence!</p>
       <p>Christus Regnat!</p>
@@ -116,7 +116,7 @@ Meu Senhor e meu Deus, creio que estais verdadeiramente, realmente e substancial
 
       <h2>Graças e Louvores</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Adoremus in aeternum sanctissimum Sacramentum.</p>
       <p>℣. Graças e louvores se dêem a todo o momento.</p>
       </div>

@@ -18,7 +18,7 @@ export default function Page1019() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátum Petrum Confessórem tuum admirábilis pœniténtiæ et altíssimæ contemplatiónis múnere illustráre dignátus es: da nobis, quǽsumus; ut, ejus suffragántibus méritis, carne mortificáti, facílius cœléstia capiámus. Per Dóminum...</p>
       <p>Ó Deus, que Vos dignastes ilustrar o B. Pedro, Confessor, com os dons de uma penitência e de uma contemplação sublimes, permiti, Vos suplicamos, que, auxiliados com seus méritos e intercessão e mortificando o nosso corpo, obtenhamos mais facilmente os bens celestiais. Por nosso Senhor...</p>
       </div>

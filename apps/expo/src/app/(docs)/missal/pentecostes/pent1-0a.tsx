@@ -14,14 +14,14 @@ export default function PagePent10A() {
 
 <em>Sl. 12, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, in tua misericórdia sperávi: exsultávit cor meum in salutári tuo: cantábo Dómino, qui bona tríbuit mihi. <em>Ps. ib., 1</em> Usquequo, Dómine, oblivísceris me in finem? usquequo avértis fáciem tuam a me? ℣. Gloria Patri...</p>
       <p>Senhor, esperei na vossa misericórdia: Meu coração exultou de alegria pela salvação que me alcançastes; louvarei o Senhor, que me encheu de benefícios. <em>Ps. ib., 1</em> Até quando, Senhor, Vos esquecereis de mim? Esquecer-me-eis para sempre? Até quando afastareis de mim a vossa face? ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus nostris: et, quia sine te nihil potest mortális infírmitas, præsta auxílium grátiæ tuæ; ut, in exsequéndis mandátis tuis, et voluntáte tibi et actióne placeámus. Per Dóminum...</p>
       <p>Ó Deus, fortaleza daqueles que em Vós esperam, sede propício às nossas preces; e, visto que sem o vosso auxílio nada pode a fraqueza humana, concedei-nos o socorro da vossa graça, para que, cumprindo os vossos mandamentos, Vos sejamos agradáveis com a nossa vontade e acções. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent10A() {
 
 <em>1 Jo. 4, 8-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Joánni Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º João.</p>
       <p>Caríssimi: Deus cáritas est. In hoc appáruit cáritas Dei in nobis, quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus per eum. In hoc est cáritas: non quasi nos dilexérimus Deum, sed quóniam ipse prior diléxit nos, et misit Fílium suum propitiatiónem pro peccátis nostris. Caríssimi, si sic Deus diléxit nos: et nos debémus altérutrum dilígere. Deum nemo vidit umquam. Si diligámus ínvicem, Deus in nobis manet, et cáritas ejus in nobis perfécta est. In hoc cognóscimus, quóniam in eo manémus et ipse in nobis: quóniam de Spíritu suo dedit nobis. Et nos vídimus et testificámur, quóniam Pater misit Fílium suum Salvatórem mundi. Quisquis conféssus fúerit, quóniam Jesus est Fílius Dei, Deus in eo manet et ipse in Deo. Et nos cognóvimus et credídimus caritáti, quam habet Deus in nobis. Deus cáritas est: et qui manet in caritáte, in Deo manet et Deus in eo. In hoc perfécta est cáritas Dei nobíscum, ut fidúciam habeámus in die judicii: quia, sicut ille est, et nos sumus in hoc mundo. Timor non est in caritáte: sed perfécta cáritas foras mittit timórem, quóniam timor pœnam habet. Qui autem timet, non est perféctus in caritáte. Nos ergo diligámus Deum, quóniam Deus prior diléxit nos. Si quis díxerit, quóniam díligo Deum, et fratrem suum óderit, mendax est. Qui enim non díligit fratrem suum, quem videt, Deum, quem non videt, quómodo potest dilígere? Et hoc mandátum habémus a Deo: ut, qui diligit Deum, díligat et fratrem suum.</p>
@@ -41,7 +41,7 @@ export default function PagePent10A() {
 
 <em>Sl. 40, 5 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ego dixi: Dómine, miserére mei: sana ánimam meam, quia peccávi tibi. ℣. Beátus, qui intéllegit super egénum et páuperem: in die mala liberábit eum Dóminus.</p>
       <p>Eu disse: Senhor, tende piedade de mim: curai a minha alma, porque pequei contra Vós. ℣. Bem-aventurado aquele que pensa no pobre e no miserável, pois o Senhor o livrará no dia mau.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 5, 2</em> Verba mea áuribus pércipe, Dómine: intéllege clamórem meum. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent10A() {
 
 <em>Lc. 6, 36-42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Sl. 5, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Inténde voci orationis meæ, Rex meus et Deus meus: quóniam ad te orábo, Dómine.</p>
       <p>Atendei à minha súplica, ó meu Rei e meu Deus: pois é a Vós que dirijo a minha oração.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum nostrum...</p>
       <p>Aceitai benigno, Senhor, as ofertas que Vos oferecemos; e, Vos suplicamos, fazei que nos alcancem o vosso perpétuo auxílio. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Sl. 9, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Narrábo ómnia mirabília tua: lætábor et exsultábo in te: psallam nómini tuo, Altíssime.</p>
       <p>Publicarei todas as vossas maravilhas: e alegrar-me-ei e rejubilarei em Vós! Cantarei louvores ao vosso nome, ó Altíssimo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et salutária dona capiámus, et a tua numquam laude cessémus. Per Dóminum nostrum...</p>
       <p>Depois de havermos sido saciados com tantos dons, fazei, Senhor, Vos suplicamos, que nos sejam proveitosos e que nunca cessemos de Vos louvar. Por nosso Senhor...</p>
       </div>

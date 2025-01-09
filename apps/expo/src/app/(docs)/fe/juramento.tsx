@@ -10,7 +10,7 @@ export default function PageJuramento() {
       <h1>Juramento Anti-Modernista</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ego <span className="red">N.</span> firmiter amplector ac recipio omnia et singula, quæ ab inerranti Ecclesiæ magisterio definita, adserta ac dedarata sunt, præsertim ea doctrinæ capita, quæ huius temporis erroribus directo adversantur.</p>
       <p>Eu, <span className="red">N.</span>, firmemente aceito e creio em todas e em cada uma das verdades definidas, afirmadas e declaradas pelo magistério infalível da Igreja, sobretudo aqueles princípios doutrinais que contradizem directamente os erros do tempo presente.</p>
       <p>Ac primum quidem: Deum, rerum omnium principium et finem, naturali rationis lumine per ea quæ facta sunt <em>(Rom 1, 20)</em>, hoc est, per visibilia creationis opera, tamquam causam per effectus, certo cognosci, ideoque demonstrari etiam posse, profiteor.</p>

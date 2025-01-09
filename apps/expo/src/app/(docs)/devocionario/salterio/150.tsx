@@ -10,7 +10,7 @@ export default function Page150() {
       <h1>Salmo 150</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudáte Dóminum in sanctis ejus: * laudáte eum in firmaménto virtútis ejus.</p>
       <p>Louvai o Senhor no seu santuário: * louvai-O no seu augusto firmamento.</p>
       <p>Laudáte eum in virtútibus ejus: * laudáte eum secúndum multitúdinem magnitúdinis ejus.</p>

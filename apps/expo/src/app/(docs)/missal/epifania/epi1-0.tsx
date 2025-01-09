@@ -12,14 +12,14 @@ export default function PageEpi10() {
 
       <h3>Intróito</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In excélso throno vidi sedére virum, quem adórat multitúdo Angelórum, psalléntes in unum: ecce, cujus impérii nomen est in ætérnum. <em>Ps. 99, 1</em> Jubiláte Deo, omnis terra: servíte Dómino in lætítia. ℣. Gloria Patri...</p>
       <p>Vi um Homem, sentado em um trono muito elevado, a quem a multidão dos Anjos adorava, cantando em coro de vozes: «Eis Aquele cujo império é eterno!» <em>Sl. 99, 1</em> Aclamai jubilosamente o Senhor, ó habitantes da terra: obedecei ao Senhor com alegria. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vota, quǽsumus, Dómine, supplicántis pópuli cœlésti pietáte proséquere: ut et, quæ agénda sunt, vídeant, et ad implénda, quæ víderint, convaléscant Per Dóminum nostrum...</p>
       <p>Aceitai, Senhor, com vossa celestial bondade os votos do vosso povo suplicante; e, Vos imploramos, permiti que os vossos servos conheçam o que devem cumprir e tenham coragem de cumprir o que conhecem. Por nosso Senhor...</p>
       </div>
@@ -28,7 +28,7 @@ export default function PageEpi10() {
 
 <em>Rm. 12, 1-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap. Paulo aos Romanos.</p>
       <p>Fratres: Obsecro vos per misericórdiam Dei, ut exhibeátis córpora vestra hóstiam vivéntem, sanctam, Deo placéntem, rationábile obséquium vestrum. Et nolíte conformári huic sǽculo, sed reformámini in novitáte sensus vestri: ut probétis, quæ sit volúntas Dei bona, et benéplacens, et perfécta. Dico enim per grátiam, quæ data est mihi, ómnibus qui sunt inter vos: Non plus sápere, quam opórtet sápere, sed sápere ad sobrietátem: et unicuique sicut Deus divísit mensúram fídei. Sicut enim in uno córpore multa membra habémus, ómnia autem membra non eúndem actum habent: ita multi unum corpus sumus in Christo, sínguli autem alter alteríus membra: in Christo Jesu, Dómino nostro.</p>
@@ -39,7 +39,7 @@ export default function PageEpi10() {
 
 <em>Sl. 71, 18 & 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedíctus Dóminus, Deus Israël, qui facit mirabília magna solus a sǽculo. ℣. Suscípiant montes pacem pópulo tuo, et colles justítiam.</p>
       <p>Bendito seja o Senhor Deus de Israel, pois somente Ele opera prodígios em todos os séculos. ℣. Que os montes do vosso povo sejam bafejados pela paz: e as colinas pela justiça.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 99, 1</em> Jubiláte Deo, omnis terra: servíte Dómino in lætítia. Allelúja.</p>
@@ -50,7 +50,7 @@ export default function PageEpi10() {
 
 <em>Lc. 2, 42-52</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>Cum factus esset Jesus annórum duódecim, ascendéntibus illis Jerosólymam secúndum consuetúdinem diéi festi, consummatísque diébus, cum redírent, remánsit puer Jesus in Jerúsalem, et non cognovérunt paréntes ejus. Existimántes autem illum esse in comitátu, venérunt iter diéi, et requirébant eum inter cognátos et notos. Et non inveniéntes, regréssi sunt in Jerúsalem, requiréntes eum. Et factum est, post tríduum invenérunt illum in templo sedéntem in médio doctórum, audiéntem illos et interrogántem eos. Stupébant autem omnes, qui eum audiébant, super prudéntia et respónsis ejus. Et vidéntes admiráti sunt. Et dixit Mater ejus ad illum: Fili, quid fecísti nobis sic? Ecce, pater tuus et ego doléntes quærebámus te. Et ait ad illos: Quid est, quod me quærebátis? Nesciebátis, quia in his, quæ Patris mei sunt, opórtet me esse? Et ipsi non intellexérunt verbum, quod locútus est ad eos. Et descéndit cum eis, et venit Názareth: et erat súbditus illis. Et Mater ejus conservábat ómnia verba hæc in corde suo. Et Jesus proficiébat sapiéntia et ætáte et grátia apud Deum et hómines.</p>
@@ -61,14 +61,14 @@ export default function PageEpi10() {
 
 <em>Sl. 99, 1 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jubiláte Deo, omnis terra, servíte Dómino in lætítia: intráte in conspéctu ejus in exsultatióne: quia Dóminus ipse est Deus.</p>
       <p>Aclamai jubilosamente o Senhor, ó habitantes da terra: obedecei ao Senhor com alegria: apresentai-vos diante d’Ele com alegria; pois Ele é bom.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblátum tibi, Dómine, sacrificium vivíficet nos semper et múniat. Per Dóminum nostrum...</p>
       <p>Fazei, Senhor, que este sacrifício, que Vos é oferecido, sempre nos vivifique e conforte. Por nosso Senhor...</p>
       </div>
@@ -77,14 +77,14 @@ export default function PageEpi10() {
 
 <em>Lc. 2, 48 & 49</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fili, quid fecísti nobis sic? ego et pater tuus doléntes quærebámus te. Et quid est, quod me quærebátis? nesciebátis, quia in his, quæ Patris mei sunt, opórtet me esse?</p>
       <p>Meu filho, porque procedestes assim para connosco? Eis que o vosso pai e eu Vos buscávamos aflitos! E porque me procuráveis? Não sabíeis que é preciso que me ocupe das coisas de meu Pai?</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súpplices te rogámus, omnípotens Deus: ut, quos tuis réfícis sacraméntis, tibi etiam plácitis móribus dignánter deservíre concédas. Per Dóminum...</p>
       <p>Humildemente Vos suplicamos, ó Deus omnipotente, concedei àqueles que se sustentam com vossos sacramentos a graça de Vos servirem com actos que Vos sejam agradáveis. Por nosso Senhor...</p>
       </div>

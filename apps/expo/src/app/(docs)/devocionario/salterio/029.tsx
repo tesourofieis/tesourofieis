@@ -10,7 +10,7 @@ export default function Page029() {
       <h1>Salmo 29</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exaltábo Te, Dómine, quóniam suscepísti me: * nec delectásti inimícos meos super me.</p>
       <p>Eu Vos glorificarei, ó Senhor, porque me recebestes: * nem permitistes que meus inimigos se alegrassem à minha custa.</p>
       <p>Dómine, Deus meus, clamávi ad Te, * et sanásti me.</p>

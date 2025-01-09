@@ -14,14 +14,14 @@ export default function PageQuad41() {
 
 <em>Sl. 53, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me: Deus, exáudi oratiónem meam: áuribus pércipe verba oris mei. <em>Ps. ibid., 5</em> Quóniam aliéni insurrexérunt in me: et fortes Quæsiérunt ánimam meam. ℣. Gloria Patri...</p>
       <p>Ó Deus, pelo vosso nome, salvai-me: e livrai-me com vosso poder. Ó Deus, ouvi a minha oração; abri os vossos ouvidos às orações dos meus lábios. <em>Sl. ibid., 5</em> Porquanto os estrangeiros levantam-se contra mim: e homens violentos querem tirar-me a vida. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, observatiónes sacras ánnua devotióne recoléntes, et córpore tibi placeámus et mente. Per Dóminum...</p>
       <p>Concedei-nos, ó Deus omnipotente, Vos suplicamos, a graça de observarmos anualmente com devoção estas santas práticas quaresmais e de Vos agradarmos corporal e espiritualmente. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad41() {
 
 <em>3 Rs. 3, 16-28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Regum.</p>
       <p>Lição do Livro dos Reis.</p>
       <p>In diébus illis: Venérunt duæ mulíeres meretríces ad regem Salomónem, steterúntque coram eo, quarum una ait: Obsecro, mi dómine: ego et múlier hæc habitabámus in domo una, et péperi apud eam in cubículo. Tértia autem die postquam ego péperi, péperit et hæc: et erámus simul, nullúsque álius nobíscum in domo, excéptis nobis duábus. Mórtuus est autem fílius mulíeris hujus nocte: dórmiens quippe oppréssit eum. Et consúrgens intempéstæ noctis siléntio, tulit fílium meum de látere meo ancíllæ tuæ dormiéntis, et collocávit in sinu suo: suum autem fílium, qui erat mórtuus, pósuit in sinu meo. Cumque surrexíssem mane, ut darem lac fílio meo, appáruit mórtuus: quem diligéntius íntuens clara luce, deprehéndi non esse meum, quem genúeram. Respondítque áltera múlier Non est ita, ut dicis, sed fílius tuus mórtuus est, meus autem vivit. E contrário illa dicébat: Mentiris: fílius quippe meus vivit, et fílius tuus mórtuus est. Atque in hunc modum contendébant coram rege. Tunc rex ait: Haec dicit Fílius meus vivit, et fílius tuus mórtuus est. Et ista respóndit: Non, sed fílius tuus mórtuus est, meus autem vivit. Dixit ergo rex: Affért mihi gládium. Cumque attulíssent gládium coram rege: Divídite, inquit, infántem vivum in duas partes, et dat dimídiam partem uni, et dimídiam partem alteri. Dixit autem múlier, cujus fílius erat vivus, ad regem (commóta sunt quippe víscera ejus super fílio suo): Obsecro, dómine, date illi infántem virum, et nolíte interfícere dum. E contrário illa dicebat: Nec mihi nec tibi sit, sed diridátur. Respóndit rex et ait: Date huic infántem vivum, et non occidátur: hæc est enim mater ejus. Audívit itaque omnis Israel judícium, quod judicásset rex, et timuérunt regem, vidéntes sapiéntiam Dei esse in eo ad faciéndum judícium.</p>
@@ -41,7 +41,7 @@ export default function PageQuad41() {
 
 <em>Sl. 30, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Esto mihi in Deum protectórem et in locum refúgii, ut salvum me fácias. ℣. <em>Ps. 70, 1</em> Deus, in te sperávi: Dómine, non confúndar in ætérnum.</p>
       <p>Sede, ó Deus, o meu protector: sede o refúgio onde eu encontre a salvação. ℣. <em>Sl. 70, 1</em> Ó Deus, esperei em Vós! Que eu não seja, pois, para sempre confundido, Senhor!</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuad41() {
 
 <em>Jo. 2, 13-25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -70,14 +70,14 @@ S. João.</p>
 
 <em>Sl. 99, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jubiláte Deo, omnis terra, servíte Dómino in lætítia: intráte in conspéctu ejus in exsultatióne: quia Dóminus ipse est Deus.</p>
       <p>Aclamai Deus, ó habitantes de toda a terra; obedecei ao Senhor com alegria, vinde diante d’Ele com júbilo: pois o Senhor é Deus.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblátum tibi, Dómine, sacrifícium vivíficet nos semper et múniat. Per Dóminum...</p>
       <p>Permiti, Senhor, que o sacrifício, que Vos oferecemos, sempre nos vivifique e nos fortaleça. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. João.</p>
 
 <em>Sl. 18, 13 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ab occúltis meis munda me, Dómine: et ab aliénis parce servo tuo.</p>
       <p>Senhor, purificai-me dos meus delitos ocultos e livrai-me dos delitos alheios.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumptis, Dómine, salutáribus sacraméntis: ad redemptiónis ætérnæ, quǽsumus, proficiámus augméntum. Per Dóminum...</p>
       <p>Tendo nós sido saciados com os sacramentos da salvação, Senhor, Vos imploramos, permiti que possamos alcançar aumento da redenção eterna. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

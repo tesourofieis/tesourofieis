@@ -10,7 +10,7 @@ export default function Page133() {
       <h1>Salmo 133</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce nunc benedícite Dóminum, * omnes servi Dómini:</p>
       <p>Agora, pois, bendizei o Senhor, * todos os servos do Senhor:</p>
       <p>Qui statis in domo Dómini, * in átriis domus Dei nostri.</p>

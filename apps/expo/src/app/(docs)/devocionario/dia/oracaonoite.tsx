@@ -15,7 +15,7 @@ export default function PageOracaonoite() {
       <h1>Oração da Noite</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Convérte nos, Deus, salutáris noster.</p>
       <p>℣. Convertei-nos, ó Deus nosso Salvador.</p>
       <p><span className="text-red-500">℟.</span> Et avérte iram tuam a nobis.</p>
@@ -32,7 +32,7 @@ export default function PageOracaonoite() {
 
       <h2>Veni, Sancte Spíritus</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris in eis ignem accénde.</p>
       <p>Vinde, ó Espírito Santo, enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.</p>
       <p>℣. Emitte Spíritum tuum, et creabúntur.</p>

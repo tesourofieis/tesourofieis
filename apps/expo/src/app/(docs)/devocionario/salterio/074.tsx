@@ -10,7 +10,7 @@ export default function Page074() {
       <h1>Salmo 74</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitébimur tibi, Deus: * confitébimur, et invocábimus nomen tuum.</p>
       <p>Nós Vos louvaremos, ó Deus: * nós Vos louvaremos e invocaremos o vosso nome.</p>
       <p>Narrábimus mirabília tua: * cum accépero tempus, ego justítias judicábo.</p>

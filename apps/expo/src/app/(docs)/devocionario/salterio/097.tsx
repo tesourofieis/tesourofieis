@@ -10,7 +10,7 @@ export default function Page097() {
       <h1>Salmo 97</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cantáte Dómino cánticum novum: * quia mirabília fecit.</p>
       <p>Cantai ao Senhor um cântico novo: * pois operou maravilhas.</p>
       <p>Salvávit sibi déxtera ejus: * et brácchium sanctum ejus.</p>

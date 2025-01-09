@@ -10,7 +10,7 @@ export default function Page057() {
       <h1>Salmo 57</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Si vere útique justítiam loquímini: * recta judicáte, fílii hóminum.</p>
       <p>Se veramente falais justiça: * julgai com rectidão, ó filhos dos homens.</p>
       <p>Étenim in corde iniquitátes operámini: * in terra injustítias manus vestræ concínnant.</p>

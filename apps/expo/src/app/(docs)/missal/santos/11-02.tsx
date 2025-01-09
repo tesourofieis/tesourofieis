@@ -14,14 +14,14 @@ export default function Page1102() {
 
 <em>4 Esd. 2, 34 & 35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. <em>Ps. 64, 2-3</em> Te decet hymnus, Deus, in Sion, et tibi reddétur votum in Jerúsalem: exáudi oratiónem meam, ad te omnis caro véniet.</p>
       <p>Dai-lhes, Senhor, o eterno repouso, e que lhes resplandeça a luz perpétua. <em>Sl. 64, 2-3</em> A Vós, Senhor, dirigimos estes hinos em Sião: e oferecemos estes votos em Jerusalém: ouvi a minha oração: todas as criaturas devem comparecer ante Vós.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fidélium, Deus, ómnium Cónditor et Redémptor: animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum; ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur: Qui vivis...</p>
       <p>Ó Deus, Criador e Redentor de todos os fiéis, concedei às almas dos vossos servos a remissão de todos seus pecados, a fim de que pelas nossas humilíssimas orações alcancem da vossa misericórdia o perdão que sempre desejaram. Ó Vós, que, sendo Deus...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page1102() {
 
 <em>1 Cor. 15, 51-57</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Ecce, mystérium vobis dico: Omnes quidem resurgámus, sed non omnes immutábimur. In moménto, in ictu óculi, in novíssima tuba: canet enim tuba, et mórtui resúrgent incorrúpti: et nos immutábimur. Opórtet enim corruptíbile hoc induere incorruptiónem: et mortále hoc indúere immortalitátem. Cum autem mortále hoc indúerit immortalitátem, tunc fiet sermo, qui scriptus est: Absórpta est mors in victória. Ubi est, mors, victória tua? Ubi est, mors, stímulus tuus? Stímulus autem mortis peccátum est: virtus vero peccáti lex. Deo autem grátias, qui dedit nobis victóriam per Dóminum nostrum Jesum Christum.</p>
@@ -41,21 +41,21 @@ export default function Page1102() {
 
 <em>4 Esd. 2, 34 et 35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. ℣. <em>Ps. 111, 7</em> In memória ætérna erit justus: ab auditióne mala non timébit.</p>
       <p>Dai-lhes, Senhor, o repouso eterno, e que lhes resplandeça a luz perpétua. ℣. <em>Sl. 111, 7</em> A recordação do homem justo permanecerá eternamente; este não temerá ouvir as sentenças más dos homens.</p>
       </div>
 
       <h3>Trato</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Absólve, Dómine, ánimas ómnium fidélium defunctórum ab omni vínculo delictórum. ℣. Et grátia tua illis succurrénte, mereántur evádere judícium ultiónis. ℣. Et lucis ætérnæ beatitúdine pérfrui.</p>
       <p>Livrai, Senhor, as almas dos fiéis defuntos das cadeias dos seus pecados: ℣. E que com o socorro da vossa graça consigam evitar o juízo da vingança: ℣. E gozem a bem-aventurança da luz eterna.</p>
       </div>
 
       <h3>Sequência</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dies iræ, dies illa Solvet sæclum in favílla: Teste David cum Sibýlla.</p>
       <p>Dia da ira aquele dia em que o universo será reduzido a cinzas, segundo as profecias de David e Sibila.</p>
       <p>Quantus tremor est futúrus, Quando judex est ventúrus, Cuncta stricte discussúrus!</p>
@@ -102,7 +102,7 @@ export default function Page1102() {
 
 <em>Jo. 5, 25-29</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Dixit Jesus turbis Judæórum: Amen, amen, dico vobis, quia venit hora, et nunc est, quando mórtui áudient vocem Fílii Dei: et qui audíerint, vivent. Sicut enim Pater habet vitam in semetípso, sic dedit et Fílio habére vitam in semetípso: et potestátem dedit ei judícium fácere, quia Fílius hóminis est. Nolíte mirári hoc, quia venit hora, in qua omnes, qui in monuméntis sunt, áudient vocem Fílii Dei: et procédent, qui bona fecérunt, in resurrectiónem vitæ: qui vero mala egérunt, in resurrectiónem judícii.</p>
@@ -111,14 +111,14 @@ export default function Page1102() {
 
       <h3>Ofertório</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine Jesu Christe, Rex glóriæ, líbera ánimas ómnium fidélium defunctórum de pœnis inférni et de profúndo lacu: líbera eas de ore leónis, ne absórbeat eas tártarus, ne cadant in obscúrum: sed sígnifer sanctus Míchaël repræséntet eas in lucem sanctam: Quam olim Abrahæ promisísti et sémini ejus. ℣. Hóstias et preces tibi, Dómine, laudis offérimus: tu súscipe pro animábus illis, quarum hódie memóriam fácimus: fac eas, Dómine, de morte transíre ad vitam. * Quam olim Abrahæ promisísti et sémini ejus.</p>
       <p>Senhor Jesus Cristo, Rei da glória, livrai as almas de todos os fiéis defuntos das penas do inferno e do lago profundo; livrai-as da boca do leão; que o inferno as não sepulte, nem elas se abismem nas trevas desse lugar tremendo; mas que S. Miguel, que é o porta-estandarte divino, as conduza até à luz santa. Como outrora prometestes a Abraão e à sua posteridade. ℣. Vos oferecemos, Senhor, estas hóstias e estas orações de louvor: aceitai-as pelas almas daqueles que hoje comemoramos, e fazei-as passar da morte à vida: Como outrora prometestes a Abraão e à sua posteridade.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias, quǽsumus, Dómine, quas tibi pro animábus famulórum famularúmque tuárum offérimus, propitiátus inténde: ut, quibus fídei christiánæ méritum contulísti, dones et prǽmium. Per Dóminum...</p>
       <p>Olhai benigno, Senhor, Vos suplicamos, para as hóstias que Vos oferecemos pelas almas dos vossos servos, a fim de que, depois de lhes haverdes concedido o dom da fé cristã, lhes proporcioneis a recompensa. Por nosso Senhor...</p>
       </div>
@@ -127,14 +127,14 @@ export default function Page1102() {
 
 <em>4 Esd. 2, 35 & 34</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lux ætérna lúceat eis, Dómine: Cum Sanctis tuis in ætérnum: quia pius es. ℣. Requiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. Cum Sanctis tuis in ætérnum: quia pius es.</p>
       <p>Que a luz eterna lhes resplandeça: Com os vossos Santos em todos os séculos, ó Senhor, pois sois bom. ℣. Dai-lhes, Senhor, o eterno repouso, e que a luz perpétua lhes resplandeça: Com os vossos santos em todos os séculos, ó Senhor, pois sois misericordioso.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Animábus, quǽsumus, Dómine, famulórum famularúmque tuárum orátio profíciat supplicántium: ut eas et a peccátis ómnibus éxuas, et tuæ redemptiónis fácias esse partícipes: Qui vivis...</p>
       <p>Que as nossas humildes preces sejam proveitosas às almas dos vossos servos e servas, a fim de que, soltas das cadeias dos seus pecados, participem dos frutos da vossa redenção. Por nosso Senhor...</p>
       </div>

@@ -10,7 +10,7 @@ export default function PagePrecesaomiguel() {
       <h1>Prece a São Miguel Arcanjo</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Princeps gloriosíssime cæléstis militiæ, sancte Michaël Archangele, defénde nos in prælio advérsus príncipes et potestátes, advérsus mundi rectóres tenebrárum harum, contra spirituália nequitiæ, in cæléstibus.</p>
       <p>Gloriosíssimo Príncipe da Milícia Celeste, São Miguel Arcanjo, defendei-nos «no nosso combate contra os principados e potestades, contra os príncipes do mundo tenebroso, contra as hostes espirituais da iniquidade nas regiões celestes».</p>
       <p>Veni in auxilium hominum; quos Deus ad imáginem similitúdinis suæ fecit, et a tyránnide diáboli emit prétio magno.</p>

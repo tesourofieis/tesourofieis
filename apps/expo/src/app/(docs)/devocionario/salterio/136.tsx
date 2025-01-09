@@ -10,7 +10,7 @@ export default function Page136() {
       <h1>Salmo 136</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Super flúmina Babylónis, illic sédimus et flévimus: * cum recordarémur Sion:</p>
       <p>Junto dos rios da Babilónia, ali nos assentámos a chorar: * lembrando-nos de Sião:</p>
       <p>In salícibus in médio ejus, * suspéndimus órgana nostra.</p>

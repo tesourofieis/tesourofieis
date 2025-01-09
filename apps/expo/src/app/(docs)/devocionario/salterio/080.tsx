@@ -10,7 +10,7 @@ export default function Page080() {
       <h1>Salmo 80</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exsultáte Deo, adjutóri nostro: * jubiláte Deo Jacob.</p>
       <p>Exultai-vos louvando a Deus, nosso protector: * cantai com alegria a Deus de Jacob.</p>
       <p>Súmite psalmum, et date týmpanum: * psaltérium jucúndum cum cíthara.</p>

@@ -10,7 +10,7 @@ export default function Page069() {
       <h1>Salmo 69</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, in adjutórium meum inténde: * Dómine, ad adjuvándum me festína.</p>
       <p>Ó Deus, vinde em meu auxílio: * ó Senhor, apressai-Vos em socorrer-me.</p>
       <p>Confundántur et revereántur, * qui quǽrunt ánimam meam.</p>

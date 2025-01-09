@@ -14,14 +14,14 @@ export default function PageAdv20() {
 
 <em>Is. 30, 30</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam fáciet Dóminus glóriam vocis suæ in lætítia cordis vestri. <em>Ps. 79, 2</em> Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph. Glória Patri...</p>
       <p>Povo de Sião, eis que o Senhor vem para salvar os povos: o Senhor fará ouvir a sua gloriosa voz, e o vosso coração encher-se-á de alegria. <em>Sl. 79, 2</em> Ouvi, ó vós, que governais Israel; ó vós, que conduzis José, como um pastor conduz uma ovelha. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Excita, Dómine, corda nostra ad præparándas Unigéniti tui vias: ut, per ejus advéntum, purificátis tibi méntibus servíre mereámur: Qui tecum...</p>
       <p>Excitai, Senhor, os nossos corações para que preparem os caminhos do vosso Filho Unigénito, de modo que no seu advento mereçamos servi-l’O com as almas purificadas. Ele, que, sendo Deus...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageAdv20() {
 
 <em>Rm. 15, 4—13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lectio Epístolæ beati Pauli Apostoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fatres: Quæcúmque scripta sunt, ad nostram doctrínam scripta sunt: ut per patiéntiam et consolatiónem Scripturárum spem habeámus. Deus autem patiéntiæ et solácii det vobis idípsum sápere in altérutrum secúndum Jesum Christum: ut unánimes, uno ore honorificétis Deum et Patrem Dómini nostri Jesu Christi. Propter quod suscípite ínvicem, sicut et Christus suscépit vos in honórem Dei. Dico enim Christum Jesum minístrum fuísse circumcisiónis propter veritátem Dei, ad confirmándas promissiónes patrum: gentes autem super misericórdia honoráre Deum, sicut scriptum est: Proptérea confitébor tibi in géntibus, Dómine, et nómini tuo cantábo. Et íterum dicit: Lætámini, gentes, cum plebe ejus. Et iterum: Laudáte, omnes gentes, Dóminum: et magnificáte eum, omnes pópuli. Et rursus Isaías ait: Erit radix Jesse, et qui exsúrget régere gentes, in eum gentes sperábunt. Deus autem spei répleat vos omni gáudio et pace in credéndo: ut abundétis in spe et virtúte Spíritus Sancti.</p>
@@ -41,7 +41,7 @@ export default function PageAdv20() {
 
 <em>Sl. 49, 2-3 & 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ex Sion species decóris ejus: Deus maniféste véniet. Congregáta illi sanctos ejus, qui ordinavérunt testaméntum ejus super sacrifícia.</p>
       <p>De Sião raiará a majestade no seu esplendor; pois Deus virá visivelmente. Reuniu em torno d’Ele os seus santos, que firmaram com Ele uma aliança pelo sacrifício.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 121, 1</em> Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PageAdv20() {
 
 <em>Mt, 11, 2–10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthæum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo tempore: Cum audísset Joánnes in vínculis ópera Christi, mittens duos de discípulis suis, ait illi: Tu es, qui ventúrus es, an alium exspectámus? Et respóndens Jesus, ait illis: Eúntes renuntiáte Joánni, quæ audístis et vidístis. Cæci vident, claudi ámbulant, leprósi mundántur, surdi áudiunt, mórtui resúrgunt, páuperes evangelizántur: et beátus est, qui non fúerit scandalizátus in me. Illis autem abeúntibus, cœpit Jesus dícere ad turbas de Joánne: Quid exístis in desértum vidére? arúndinem vento agitátam? Sed quid exístis videre? hóminem móllibus vestitum? Ecce, qui móllibus vestiúntur, in dómibus regum sunt. Sed quid exístis vidére? Prophétam? Etiam dico vobis, et plus quam Prophétam. Hic est enim, de quo scriptum est: Ecce, ego mitto Angelum meum ante fáciem tuam, qui præparábit viam tuam ante te.</p>
@@ -63,14 +63,14 @@ export default function PageAdv20() {
 
 <em>Sl. 84, 7–8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, tu convérsus vivificábis nos, et plebs tua lætábitur in te: osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis.</p>
       <p>Volvei a vossa face para nós, ó Deus, e receberemos a vida; então o vosso povo alegrar-se-á convosco. Mostrai-nos, Senhor, a vossa misericórdia, e dai-nos a vossa salvação.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Placáre, quǽsumus, Dómine, humilitátis nostræ précibus et hóstiis: et, ubi nulla suppétunt suffrágia meritórum, tuis nobis succúrre præsídiis. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, deixai-Vos aplacar com as orações da nossa humildade, juntamente com estas oblatas; e, já que os nossos sufrágios são desprovidos de quaisquer méritos, assisti-nos ao menos com vosso auxílio. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function PageAdv20() {
 
 <em>Br. 5, 5 & 4, 36</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jerúsalem, surge et sta in excélso, ei vide iucunditátem, quæ véniet tibi a Deo tuo.</p>
       <p>Surge, ó Jerusalém, e ergue-te no alto da montanha. Considera a alegria que te advirá do teu Deus.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Repléti cibo spirituális alimóniæ, súpplices te, Dómine, deprecámur: ut, hujus participatióne mystérii, dóceas nos terréna despícere et amáre cœléstia. Per Dóminum nostrum...</p>
       <p>Saciados já com este alimento espiritual, concedei-nos, Senhor, Vos imploramos, que pela participação deste mystério aprendamos a desprezar os bens desta vida e a amar os do céu. Por nosso Senhor...</p>
       </div>

@@ -14,14 +14,14 @@ export default function PageAdv10() {
 
 <em>Sl. 24, 1–3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad te levávi ánimam meam: Deus meus, in te confíde, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur. <em>Ps. ibid., 4</em> Vias tuas, Dómine, demónstra mihi: et sémitas tuas édoce me. ℣. Glória Patri...</p>
       <p>A Vós elevo a minha alma. Ó meu Deus, confio em Vós: não permitireis que fique confundido; nem que meus inimigos zombem de mim: porquanto aqueles que em Vós esperam não serão confundidos. <em>Sl. ibid., 4</em> Mostrai-me, Senhor, os vossos caminhos: e ensinai-me a conhecer as vossas veredas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut ab imminéntibus peccatórum nostrórum perículis, te mereámur protegénte éripi, te liberánte salvári: Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti Deus: per ómnia sǽcula sæculórum. <span className="text-red-500">℟.</span> Amen.</p>
       <p>Senhor Vos suplicamos, manifestai o vosso poder, e «vinde já ao mundo», a fim de que com vossa protecção mereçamos ser preservados dos iminentes perigos em que incorremos por causa dos nossos pecados, e sejamos livres e salvos: Vós, que viveis e reinais com Deus Pai em unidade do Espírito Santo, Deus, em todos os séculos dos séculos. <span className="text-red-500">℟.</span> Amen.</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageAdv10() {
 
 <em>Rm. 13, 11–14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lectio Epístolæ beati Pauli Apostoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fatres: Scientes, quia hora est jam nos de somno súrgere. Nunc enim própior est nostra salus, quam cum credídimus. Nox præcéssit, dies autem appropinquávit. Abjiciámus ergo ópera tenebrárum, et induámur arma lucis. Sicut in die honéste ambulémus: non in comessatiónibus et ebrietátibus, non in cubílibus et impudicítiis, non in contentióne et æmulatióne: sed induímini Dóminum Jesum Christum.</p>
@@ -41,7 +41,7 @@ export default function PageAdv10() {
 
 <em>Sl. 24, 3–4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Univérsi, qui te exspéctant, non confundéntur, Dómine. Vias tuas, Dómine, notas fac mihi: et sémitas tuas édoce me.</p>
       <p>Senhor, aqueles que em Vós não esperam serão confundidos. Mostrai-me, Senhor, os vossos caminhos: e ensinai-me a conhecer as vossas veredas.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 84, 8</em> Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da nobis. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PageAdv10() {
 
 <em>Lc. 21, 25–33</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Erunt signa in sole et luna et stellis, et in terris pressúra géntium præ confusióne sónitus maris et flúctuum: arescéntibus homínibus præ timóre et exspectatióne, quæ supervénient univérso orbi: nam virtútes coelórum movebúntur. Et tunc vidébunt Fílium hóminis veniéntem in nube cum potestáte magna et maiestáte. His autem fíeri incipiéntibus, respícite et leváte cápita vestra: quóniam appropínquat redémptio vestra. Et dixit illis similitúdinem: Vidéte ficúlneam et omnes árbores: cum prodúcunt iam ex se fructum, scitis, quóniam prope est æstas. Ita et vos, cum vidéritis hæc fíeri, scitóte, quóniam prope est regnum Dei. Amen, dico vobis, quia non præteríbit generátio hæc, donec ómnia fiant. Coelum et terra transíbunt: verba autem mea non transíbunt.</p>
@@ -63,14 +63,14 @@ export default function PageAdv10() {
 
 <em>Sl. 24, 1–3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad te levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.</p>
       <p>A Vós elevo a minha alma. Ó meu Deus, confio em Vós: não permitireis que fique confundido; nem que meus inimigos zombem de mim: porquanto aqueles que em Vós esperam não serão confundidos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc sacra nos, Dómine, poténti virtúte mundátos ad suum fáciant purióres veníre princípium. Per Dominum nostrum...</p>
       <p>Permiti, Senhor, que estes mystérios, depois de nos haverem purificado com vossa poderosa virtude, nos façam chegar mais puros ainda junto daquele que é o seu princípio. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function PageAdv10() {
 
 <em>Sl. 84, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus dabit benignitátem: et terra nostra dabit fructum suum.</p>
       <p>O Senhor mostrará a sua bondade: e a nossa terra dará «o seu fruto».</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Suscipiámus, Dómine, misericórdiam tuam in médio templi tui: ut reparatiónis nostræ ventúra sollémnia cóngruis honóribus præcedámus. Per Dominum nostrum...</p>
       <p>Senhor, permiti que alcancemos a vossa misericórdia no meio do vosso templo, para que celebremos com a conveniente preparação a próxima solenidade da nossa reparação. Por nosso Senhor...</p>
       </div>

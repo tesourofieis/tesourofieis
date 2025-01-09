@@ -14,14 +14,14 @@ export default function PagePent140() {
 
 <em>Sl. 83, 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Protéctor noster, áspice, Deus, et réspice in fáciem Christi tui: quia mélior est dies una in átriis tuis super mília. <em>Ps. ibid., 2-3</em> Quam dilécta tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in átria Dómini. ℣. Gloria Patri...</p>
       <p>Ó Deus, nosso protector, olhai para nós e fitai a face do vosso Cristo: É melhor passar um só dia nos vossos átrios do que mil em outros lugares. <em>Sl. ibid., 2-3</em> Como são amáveis os vossos tabernáculos, Senhor dos exércitos! Minha alma suspira pelos átrios do Senhor e desfalece de saudade ao pensar neles. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Custódi, Dómine, quǽsumus, Ecclésiam tuam propitiatióne perpétua: et quia sine te lábitur humána mortálitas; tuis semper auxíliis et abstrahátur a nóxiis et ad salutária dirigátur. Per Dóminum...</p>
       <p>Senhor, guardai misericordiosamente a vossa Igreja para sempre; e, visto que sem Vós a natureza humana, sujeita à morte, não pode subsistir, dignai-Vos com vosso perpétuo auxílio preservá-la de tudo o que lhe pode produzir algum mal e conduzi-la a tudo o que seja salutar à sua salvação. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent140() {
 
 <em>Gl. 5, 16-24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.</p>
       <p>Fratres: Spíritu ambuláte, et desidéria carnis non perficiétis. Caro enim concupíscit advérsus spíritum, spíritus autem advérsus carnem: hæc enim sibi ínvicem adversántur, ut non quæcúmque vultis, illa faciátis. Quod si spíritu ducímini, non estis sub lege. Manifésta sunt autem ópera carnis, quæ sunt fornicátio, immundítia, impudicítia, luxúria, idolórum sérvitus, venefícia, inimicítiæ, contentiónes, æmulatiónes, iræ, rixæ, dissensiónes, sectæ, invídiæ, homicídia, ebrietátes, comessatiónes, et his simília: quæ prædíco vobis, sicut prædíxi: quóniam, qui talia agunt, regnum Dei non consequántur. Fructus autem Spíritus est: cáritas, gáudium, pax, patiéntia, benígnitas, bónitas, longanímitas, mansuetúdo, fides, modéstia, continéntia, cástitas. Advérsus hujúsmodi non est lex. Qui autem sunt Christi, carnem suam crucifixérunt cum vítiis et concupiscéntiis.</p>
@@ -41,7 +41,7 @@ export default function PagePent140() {
 
 <em>Sl. 117, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bonum est confidére in Dómino, quam confidére in hómine. ℣. Bonum est speráre in Dómino, quam speráre in princípibus.</p>
       <p>É melhor confiar no Senhor do que nos homens. ℣. É melhor esperar em Deus do que nos príncipes.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 94, 1</em> Veníte, exsultémus Dómino, jubilémus Deo, salutári nostro. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent140() {
 
 <em>Mt. 6, 24-33</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Sl. 33, 8-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Immíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos: gustáte et vidéte, quóniam suávis est Dóminus.</p>
       <p>O Anjo do Senhor circundará aqueles que temem o Senhor e livrá-los-á. Provai e vede como o Senhor é bom!</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde nobis, Dómine, quǽsumus, ut hæc hóstia salutáris et nostrórum fiat purgátio delictórum, et tuæ propitiátio potestátis. Per Dóminum...</p>
       <p>Concedei-nos, Senhor, Vos suplicamos, que esta salutar hóstia nos purifique das nossas faltas e nos torne propício o vosso poder. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Mt. 6, 33</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Primum quǽrite regnum Dei, et ómnia adjiciéntur vobis, dicit Dóminus.</p>
       <p>Procurai primeiramente o reino de Deus, e tudo vos será dado por acréscimo, diz o Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Puríficent semper et múniant tua sacraménta nos, Deus: et ad perpétuæ ducant salvatiónis efféctum. Per Dóminum...</p>
       <p>Permiti, ó Deus, que os vossos sacramentos nos purifiquem e fortifiquem sempre, e nos façam gozar a salvação eterna. Por nosso Senhor...</p>
       </div>

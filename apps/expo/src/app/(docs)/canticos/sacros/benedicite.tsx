@@ -10,7 +10,7 @@ export default function PageBenedicite() {
       <h1>Benedícite</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícite, ómnia ópera Dómini, Dómino: laudáte et superexaltáte eum in sǽcula.</p>
       <p>Bendizei o Senhor, todas as obras do Senhor; louvai-O e aclamai-O em todos os séculos.</p>
       <p>Benedícite, Angeli Dómini, Dómino: benedícite, cœli, Dómino.</p>

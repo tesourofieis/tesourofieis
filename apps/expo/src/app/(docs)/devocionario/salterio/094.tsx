@@ -10,7 +10,7 @@ export default function Page094() {
       <h1>Salmo 94</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veníte, exsultémus Dómino: * jubilémus Deo salutári nostro:</p>
       <p>Vinde, exultemos o Senhor: * cantemos alegres a de Deus nosso salvador:</p>
       <p>Præoccupémus fáciem ejus in confessióne: * et in psalmis jubilémus ei.</p>

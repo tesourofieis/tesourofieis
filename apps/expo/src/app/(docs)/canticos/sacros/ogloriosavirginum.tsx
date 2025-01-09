@@ -10,7 +10,7 @@ export default function PageOgloriosavirginum() {
       <h1>O gloriosa virginum</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>O gloriosa virginum, Sublimis inter sidera: Qui te creavit, parvulum Lactente nutris ubere.</p>
       <p>Virgem Virgem mais esclarecida, sobre os astros superior, que a vosso próprio criador a vossos peitos dais vida.</p>
       <p>Quod Heva tristis abstulit, tu reddis almo germine; intrent ut astra flebiles, cæli recludis cardines.</p>

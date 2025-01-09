@@ -10,7 +10,7 @@ export default function Page110() {
       <h1>Salmo 110</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitébor tibi, Dómine, in toto corde meo: * in consílio justórum, et congregatióne.</p>
       <p>Louvar-Vos-ei, ó Senhor, com todo meu coração: * no conselho e na congregação dos justos.</p>
       <p>Magna ópera Dómini: * exquisíta in omnes voluntátes ejus.</p>

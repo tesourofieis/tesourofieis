@@ -10,7 +10,7 @@ export default function Page053() {
       <h1>Salmo 53</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, in nómine tuo salvum me fac: * et in virtúte tua júdica me.</p>
       <p>Salvai-me, ó Deus, por vosso nome: * e com vosso poder julgai-me.</p>
       <p>Deus, exáudi oratiónem meam: * áuribus pércipe verba oris mei.</p>

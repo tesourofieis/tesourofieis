@@ -18,14 +18,14 @@ export default function PageQuad60() {
 
       <h3>Antífona</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hosánna fílio David: benedíctus, qui venit in nómine Dómini. O Rex Israël: Hosánna in excélsis.</p>
       <p>Hosana ao filho de David! Bendito seja o que vem em nome do Senhor. Ó Rei de Israel! Hosana no alto dos céus!</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, quem dilígere et amáre justítia est, ineffábilis grátiæ tuæ in nobis dona multíplica: et qui fecísti nos in morte Fílii tui speráre quæ crédimus; fac nos eódem resurgénte perveníre quo téndimus: Qui tecum...</p>
       <p>Ó Deus, a quem devemos amar para sermos justos, multiplicai na nossa alma os dons da vossa inefável graça; e, já que pela morte do vosso Filho quisestes que tivéssemos esperança no que constitui o objecto da nossa Fé, permiti que pela sua ressurreição alcancemos o fim a que aspiramos: O qual, sendo Deus...</p>
       </div>
@@ -34,7 +34,7 @@ export default function PageQuad60() {
 
 <em>Ex. 15, 27; 16, 1-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Exodi.</p>
       <p>Lição do Livro do Êxodo.</p>
       <p>In diébus illis: Venérunt fílii Israël in Elim, ubi erant duódecim fontes aquárum et septuagínta palmæ: et castrametáti sunt juxta aquas. Profectíque sunt de Elim, et venit omnis multitúdo filiórum Israël in desértum Sin, quod est inter Elim et Sínai: quintodécimo die mensis secúndi, postquam egréssi sunt de terra Ægýpti. Et murmurávit omnis congregátio filiórum Israël contra Móysen et Aaron in solitúdine. Dixerúntque fílii Israël ad eos: Utinam mórtui essëmus per manum Dómini in terra Ægýpti, quando sedebámus super oílas cárnium, et comedebámus panem in saturitáte: cur eduxístis nos in desértum istud, ut occiderétis omnem multitúdinem fame? Dixit autem Dóminus ad Móysen: Ecce, ego pluam vobis panes de cœlo: egrediátur pópulus, et cólligat quæ suffíciunt per síngulos dies: ut tentem eum, utrum ámbulet in lege mea an non. Die autem sexto parent quod ínferant: et sit duplum, quam collígere sciébant per síngulos dies. Dixerúntque Móyses et Aaron ad omnes fílios Israël: Véspere sciétis, quod Dóminus edúxerit vos de terra Ægýpti: et mane vidébitis glóriam Dómini.</p>
@@ -49,7 +49,7 @@ export default function PageQuad60() {
 
 <em>Mt. 21, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Cum appropinquásset Jesus Jerosólymis, et venísset Béthphage ad montem Olivéti: tunc misit duos discípulos suos, dicens eis: Ite in castéllum, quod contra vos est, et statim inveniétis ásinam alligátam et pullum cum ea: sólvite et addúcite mihi: et si quis vobis áliquid dixerit, dícite, quia Dóminus his opus habet, et conféstim dimíttet eos. Hoc autem totum factum est, ut adimplerétur, quod dictum est per Prophétam, dicéntem: Dícite fíliae Sion: Ecce, Rex tuus venit tibi mansuétus, sedens super ásinam et pullum, fílium subjugális. Eúntes autem discípuli, fecérunt, sicut præcépit illis Jesus. Et adduxérunt ásinam et pullum: et imposuérunt super eos vestiménta sua, et eum désuper sedére tecérunt. Plúrima autem turba stravérunt vestiménta sua in via: álii autem cædébant ramos de arbóribus, et sternébant in via: turbæ autem, quæ præcedébant et quæ sequebántur, clamábant, dicéntes: Hosánna fílio David: benedíctus, qui venit in nómine Dómini.</p>
@@ -58,49 +58,49 @@ export default function PageQuad60() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Auge fidem in te sperántium, Deus, et súpplicum preces cleménter exáudi: véniat super nos múltiplex misericórdia tua: bene <span className="cross text-red-500">✠</span> dicántur et hi pálmites palmárum seu olivárum: et sicut in figúra Ecclésiæ multiplicásti Noë egrediéntem de arca, et Móysen exeúntem de Ægýpto cum fíliis Israël: ita nos, portántes palmas et ramos olivárum, bonis áctibus occurrámus óbviam Christo: et per ipsum in gáudium introëámus ætérnum: Qui tecum...</p>
       <p>Ó Deus, aumentai a fé daqueles que esperam em Vós e ouvi clemente as suas súplicas. Permiti que a vossa misericórdia desça sobre nós; dignai-Vos abençoar estes Ramos de palmeira e de oliveira; e, assim como, querendo figurar a Igreja, multiplicastes as vossas graças sobre Noé, saindo da arca, e sobre Moisés, saindo do Egipto com os filhos de Israel, assim também permiti que, levando nós estas palmas e Ramos de oliveira, caminhemos ao encontro de Cristo pelas nossas boas obras; e que com Ele entremos na alegria eterna: Ele que, sendo Deus...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pétimus, Dómine sancte, Pater omnípotens, ætérne Deus: ut hanc creatúram olívæ, quam ex ligni matéria prodíre jussísti, quamque colúmba rédiens ad arcam próprio pértulit ore, bene <span className="cross text-red-500">✠</span> dícere et sancti <span className="cross text-red-500">✠</span> ficáre dignéris: ut, quicúmque ex ea recéperint, accípiant sibi protectiónem ánimæ et córporis: fiátque, Dómine, nostræ salútis remédium tuæ grátiæ sacraméntum. Per Dóminum nostrum...</p>
       <p>Vos imploramos, Senhor santo, Pai omnipotente, eterno Deus, que Vos digneis <span className="cross text-red-500">✠</span> abençoar e<span className="text-red-500"> ✠ </span> santificar estes Ramos de oliveira, vossa Criatura, que fizestes nascer na árvore, semelhantes ao que a pomba levava no bico quando regressou à arca. Permiti que aqueles que receberam estes Ramos obtenham a vossa protecção na alma e no corpo; e que estes Ramos, Senhor, que são um sinal da vossa graça, se convertam em remédio eficaz para as nossas enfermidades. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui dispérsa cóngregas, et congregáta consérvas: qui pópulis, óbviam Jesu ramos portántibus, benedixísti: béne <span className="cross text-red-500">✠</span> dic étiam hos ramos palmæ et olívæ, quos tui fámuli ad honórem nóminis tui fidéliter suscípiunt; ut, in quemcúmque locum introdúcti fúerint, tuam benedictiónem habitatóres loci illíus consequántur: et, omni adversitáte effugáta, déxtera tua prótegat, quos rédemit Jesus Christus, Fílius tuus, Dóminus noster: Qui tecum...</p>
       <p>Ó Deus, que reunis o que está disperso, e, depois de reunido, o conservais, Vós, que abençoastes o povo que saiu com ramos ao encontro de Jesus, abençoai <span className="cross text-red-500">✠</span>, também, estes Ramos de palmeira e de oliveira, que os vossos fiéis servos vão receber em honra do vosso nome, a fim de que, em qualquer lugar em que sejam colocados, aqueles que habitarem nesse lugar consigam a vossa bênção, e, afastada toda a adversidade, a vossa dextra proteja os que foram remidos por Jesus Cristo, vosso Filho, nosso Senhor: O qual, sendo Deus...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui miro dispositiónis órdine, ex rebus étiam insensibílibus, dispensatiónem nostræ salútis osténdere voluísti: da, quǽsumus; ut devota tuórum corda fidélium salúbriter intéllegant, quid mýstice desígnet in facto, quod hódie, cœlésti lúmine affláta, Redemptóri óbviam procédens, palmárum atque olivárum ramos vestígiis ejus turba substrávit. Palmárum igitur rami de mortis príncipe triúmphos exspéctant; súrculi vero olivárum spirituálem unctiónem advenísse Quodámmodo clamant. Intelléxit enim jam tunc illa hóminum beáta multitúdo præfigurári: quia Redémptor noster, humánis cóndolens misériis, pro totíus mundi vita cum mortis príncipe esset pugnatúrus ac moriéndo triumphatúrus. Et ídeo tália óbsequens administrávit, quæ in illo ei triúmphos victóriæ et misericórdiæ pinguédinem declarárent. Quod nos quoque plena fide, et factum et significátum retinéntes, te, Dómine sancte, Pater omnípotens, ætérne Deus, per eúndem Dóminum nostrum Jesum Christum supplíciter exorámus: ut in ipso atque per ipsum, cujus nos membra fíeri voluísti, de mortis império victóriam reportántes, ipsíus gloriósæ resurrectiónis partícipes esse mereámur: Qui tecum...</p>
       <p>Ó Deus, que por um maravilhoso desígnio da vossa providência quisestes utilizar-Vos das coisas mesmo insensíveis para mostrar a admirável economia da nossa salvação, ilustrai, Vos imploramos, os corações dos vossos fiéis servos, para que compreendam salutarmente o mystério apresentado na acção daquele povo que, levado por inspiração celestial, caminhou neste dia ao encontro do Redentor e atapetou com ramos de palmeira e de oliveira o caminho por onde Ele devia passar. Com efeito, os ramos de palmeira significavam a vitória que ia alcançar sobre o príncipe da morte e os de oliveira publicavam, de certo modo, a união espiritual que ia ser espalhada. Esta feliz multidão de homens pressentiu, então, que o nosso Redentor, comovido com as misérias da humanidade, ia travar combate com o príncipe da morte, para dar a vida ao mundo inteiro, e que Ele triunfaria pela sua própria morte. Por isso, o povo ofereceu ao Senhor a homenagem destes Ramos, dos quais uns significavam a vitória e o triunfo e os outros a efusão da sua misericórdia. Nós, pois, que possuímos a plenitude da fé, vendo neste acontecimento não só o facto mas ainda a significação, Vos pedimos, Senhor santo, Pai omnipotente, Deus eterno, pelo mesmo N. S. Jesus Cristo, de quem houvestes por graça fazer-nos membros, que n’Ele e por Ele triunfemos do império da morte e sejamos dignos de participar da sua gloriosa ressurreição: O qual...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui, per olívæ ramum, pacem terris colúmbam nuntiáre jussísti: præsta, quǽsumus; ut hos olívæ ceterarúmque arbórum ramos cœlésti bene <span className="cross text-red-500">✠</span> dictióne sanctífices: ut cuncto pópulo tuo profíciant ad salútem. Per Christum, Dóminum nostrum. <span className="text-red-500">℟.</span> Amen.</p>
       <p>Ó Deus, que quisestes que uma pomba anunciasse a paz ao mundo com um ramo de Oliveira, dignai-Vos santificar com vossa bênção <span className="cross text-red-500">✠</span> celestial, Vos pedimos, estes Ramos de oliveira e doutras árvores, a fim de que sirva de proveito a todo vosso povo para sua salvação. Por Cristo, nosso Senhor. <span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Bene <span className="cross text-red-500">✠</span> dic, quǽsumus, Dómine, hos palmárum seu olivárum ramos: et præsta; ut, quod pópulus tuus in tui veneratiónem hodiérna die corporáliter agit, hoc spirituáliter summa devotióne perfíciat, de hoste victóriam reportándo et opus misericórdiæ summópere diligéndo. Per Dóminum...</p>
       <p>Abençoai <span className="cross text-red-500">✠</span>, Senhor, Vos imploramos, estes Ramos de palmeira e de oliveira, e concedei ao vosso povo a graça de realizar espiritualmente com ardente devoção a cerimónia exterior que hoje pratica em vossa honra; e que, triunfando do inimigo por meio dela, corresponda com amor à misericordiosa obra por Vós realizada para sua salvação. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui Fílium tuum Jesum Christum, Dóminum nostrum, pro salute nostra in hunc mundum misísti, ut se humiliáret ad nos et nos revocáret ad te: cui etiam, dum Jerúsalem veniret, ut adimpléret Scripturas, credentium populorum turba, fidelissima devotione, vestimenta sua cum ramis palmarum in via sternébant: præsta, quǽsumus; ut illi fídei viam præparémus, de qua, remoto lápide offensiónis et petra scándali, fróndeant apud te ópera nostra justítiæ ramis: ut ejus vestigia sequi mereámur: Qui tecum...</p>
       <p>Ó Deus, que para nossa salvação enviastes a este mundo o vosso Filho, N. S. Jesus Cristo, a fim de que, humilhando-se Ele até nós, nos faça subir até Vós; e que quisestes, para se cumprirem as Escrituras, que, ao entrar Ele em Jerusalém, uma turba de povo fiel, cheia de sincera piedade, estendesse os seus vestidos e ramos de palmeira à sua passagem, concedei-nos a graça, Vos imploramos, de Lhe prepararmos pela fé um caminho onde não haja pedra, nem de tropeço, nem de escândalo, a fim de que das nossas acções brotem junto de Vós ramos de justiça, de sorte que mereçamos seguir os vestígios d’Aquele que, sendo Deus...</p>
       </div>
@@ -111,7 +111,7 @@ export default function PageQuad60() {
 
 <em>Jo. 12, 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pueri Hebræórum, portántes ramos olivárum, obviavérunt Dómino, clamántes et dicéntes: Hosánna in excélsis.</p>
       <p>Os meninos hebreus saíram com ramos de oliveira ao encontro do Senhor, clamando e dizendo: «Hosana no alto dos céus!».</p>
       </div>
@@ -120,21 +120,21 @@ export default function PageQuad60() {
 
 <em>Mt. 21, 8 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pueri Hebræórum vestiménta prosternébant in via et clamábant, dicéntes: Hosánna fílio David: benedíctus, qui venit in nómine Dómini.</p>
       <p>Os meninos hebreus estendiam os seus vestidos pelos caminhos, clamando e dizendo: «Hosana ao Filho de David! Bendito seja o que vem em nome do Senhor!».</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui Dóminum nostrum Jesum Christum super pullum ásinæ sedére fecísti, et turbas populórum vestiménta vel ramos arbórum in via stérnere et Hosánna decantáre in laudem ipsíus docuísti: da, quǽsumus; ut illórum innocéntiam imitári póssimus, et eórum méritum cónsequi mereámur. Per eúndem Christum, Dóminum nostrum. <span className="text-red-500">℟.</span> Amen.</p>
       <p>Omnipotente e eterno Deus, que enviastes a turba do povo ao encontro de N. S. Jesus Cristo, montado em um jumentinho, e que quisestes que ela estendesse seus vestidos, lançasse ramos de árvores no caminho e cantasse hosanas em seu louvor, concedei-nos a graça, Vos suplicamos, de imitar a inocência dessa turba e de ter parte nos seus merecimentos. Pelo mesmo nosso Senhor Jesus Cristo. <span className="text-red-500">℟.</span> Amen.</p>
       </div>
 
       <h2>Procissão dos Ramos</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Procedámus in pace.</p>
       <p>℣. Caminhemos em paz.</p>
       <p><span className="text-red-500">℟.</span> In nómine Christi. Amen.</p>
@@ -145,7 +145,7 @@ export default function PageQuad60() {
 
 <em>Mt. 21, 1-3, 7, 8 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cum appropinquáret Dóminus Jerosólymam, misit duos ex discípulis suis, dicens: Ite in castéllum, quod contra vos est: et inveniétis pullum ásinæ alligátum, super quem nullus hóminum sedit: sólvite et addúcite mihi. Si quis vos interrogáverit, dícite: Opus Dómino est. Solvéntes adduxérunt ad Jesum: et imposuérunt illi vestiménta sua, et sedit super eum: alii expandébant vestiménta sua in via: alii ramos de arbóribus sternébant: et qui sequebántur, clamábant: Hosánna, benedíctus, qui venit in nómine Dómini: benedíctum regnum patris nostri David: Hosánna in excélsis: miserére nobis, fili David.</p>
       <p>Quando o Senhor se aproximava de Jerusalém, mandou dois discípulos, dizendo-lhes: «Ide à aldeia fronteira e lá encontrareis preso um jumentinho, em o qual ninguém montou ainda. Desprendei-o e trazei-mo. Se alguém vos disser alguma coisa, respondei: «O Senhor precisa dele». Havendo-o desprendido, trouxeram-no a Jesus. Então, puseram as suas capas em cima do jumentinho e fizeram Jesus montá-lo. E alguns da multidão estendiam os vestidos no caminho, outros espalhavam ramos de árvores e todos que O acompanhavam clamavam: «Bendito seja o que vem em nome do Senhor! Bendito seja o reino de David, nosso Pai! Hosana no alto dos céus! Tende piedade de nós, Filho de David!».</p>
       </div>
@@ -154,40 +154,40 @@ export default function PageQuad60() {
 
 <em>Jo. 12, 12 & 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cum audísset pópulus, quia Jesus venit Jerosólymam, accepérunt ramos palmárum: et exiérunt ei óbviam, et clamábant púeri, dicéntes: Hic est, qui ventúrus est in salútem pópuli. Hic est salus nostra et redémptio Israël. Quantus est iste, cui Throni et Dominatiónes occúrrunt! Noli timére, fília Sion: ecce, Rex tuus venit tibi, sedens super pullum ásinæ, sicut scriptum est, Salve, Rex, fabricátor mundi, qui venísti redímere nos.</p>
       <p>Havendo o povo sabido que Jesus vinha a Jerusalém, empunhou ramos de palmeiras e foi ao seu encontro. Os meninos clamavam, então: «Eis Aquele que vem salvar o seu povo! Este é a nossa salvação e a redenção de Israel! Como é grande Aquele diante de quem os Tronos e as Dominações se curvam para O receberem! Nada temas, ó filha de Sião, eis o teu Rei, que chega montado num jumentinho, como está escrito. Salve, ó Rei, criador do mundo, que viestes à terra para nos resgatar!».</p>
       </div>
 
       <h3>Antífona</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ante sex dies sollémnis Paschæ, quando venit Dóminus in civitátem Jerúsalem, occurrérunt ei pueri: et in mánibus portábant ramos palmárum, et clamábant voce magna, dicéntes: Hosánna in excélsis: benedíctus, qui venísti in multitúdine misericórdiæ tuæ: Hosánna in excélsis.</p>
       <p>Seis dias antes da solenidade pascal, quando o Senhor veio à cidade de Jerusalém, saíram-lhe ao encontro os meninos, que empunhavam ramos de palmeiras e clamavam com voz forte: «Hosana no alto dos céus! Sede bendito; pois vindes a nós com a grandeza da vossa misericórdia! Hosana no alto dos céus!».</p>
       </div>
 
       <h3>Antífona</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Occúrrunt turbæ cum flóribus et palmis Redemptóri óbviam: et victóri triumphánti digna dant obséquia: Fílium Dei ore gentes prǽdicant: et in laudem Christi voces tonant per núbila: Hosánna in excélsis.</p>
       <p>As turbas do povo foram com flores e palmas ao encontro do Redentor, prestando-Lhe homenagem digna, como vencedor triunfante. Os povos anunciam hoje a grandeza do Filho de Deus. Reboam pelos ares as aclamações em honra de Cristo! Hosana no alto dos céus!</p>
       </div>
 
       <h3>Antífona</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cum Angelis et púeris fidéles inveniántur, triumphatóri mortis damántes: Hosánna in excélsis.</p>
       <p>Fiéis, unamo-nos aos Anjos e aos meninos e aclamemos o triunfador da morte, dizendo: «Hosana no alto dos céus!».</p>
       </div>
 
       <h3>Antífona</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Turba multa, quæ convénerat ad diem festum, clamábat Dómino: Benedíctus, qui venit in nómine Dómini: Hosánna in excélsis.</p>
       <p>Uma grande turba de povo, que viera à festa, foi ao encontro do Senhor, clamando: Bendito o que vem em nome do Senhor! Hosana no alto dos céus!</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Glória, laus et honor tibi sit, Rex Christe, Redémptor: Cui pueríle decus prompsit Hosánna pium.</p>
       <p>Glória, louvor e honra Vos sejam dados, ó Cristo, Rei e Redentor! A quem a devoção dos meninos consagrou pios aplausos.</p>
       <p><span className="text-red-500">℟.</span> Glória, laus &</p>
@@ -216,7 +216,7 @@ export default function PageQuad60() {
 
       <h3>Responsório</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500">℟.</span> Ingrediénte Dómino in sanctam civitátem, Hebræórum púeri resurrectiónem vitæ pronuntiántes. Cum ramis palmárum: Hosánna, clamábant, in excélsis. ℣. Cum audísset pópulus, quod Jesus veníret Jerosólymam, exiérunt óbviam ei. Cum ramis palmárum: Hosánna, clamábant, in excélsis.</p>
       <p><span className="text-red-500">℟.</span> Quando o Senhor entrava na cidade santa, os meninos hebreus anunciavam antecipadamente a ressurreição d’Aquele que é a vida.  * Empunhando ramos de palmeira, clamavam: «Hosana no alto dos céus!». ℣. E, tendo o povo notícia de que Jesus vinha a Jerusalém, saiu ao seu encontro. Empunhando ramos de palmeira, clamava: «Hosana no alto dos céus!».</p>
       </div>
@@ -227,14 +227,14 @@ export default function PageQuad60() {
 
 <em>Sl. 21, 20 & 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam áspice: líbera me de ore leonis, et a córnibus unicórnium humilitátem meam. <em>Ps. ibid., 2</em> Deus, Deus meus, réspice in me: quare me dereliquísti? longe a salúte mea verba delictórum meórum.</p>
       <p>Senhor, não afasteis de mim o vosso auxílio; apressai-Vos em defender-me. Livrai-me da boca do leão e das pontas dos unicórnios, pois sou fraco. <em>Sl. ibid., 2</em> Meu Deus, meu Deus, lançai para mim vossos olhares. Porque me abandonastes? O clamor dos meus pecados afastou de mim a salvação.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui humáno generi, ad imitandum humilitátis exémplum, Salvatórem nostrum carnem súmere et crucem subíre fecísti: concéde propítius; ut et patiéntiæ ipsíus habére documénta et resurrectiónis consórtia mereámur. Per eúndem Dóminum nostrum...</p>
       <p>Deus omnipotente e eterno, que, para dar ao género humano exemplo de humildade a imitar, quisestes que o Salvador assumisse a nossa carne e sofresse o suplício da Cruz, concedei-nos benigno a graça de seguirmos as lições da sua paciência para merecermos comparticipar da sua ressurreição. Pelo mesmo...</p>
       </div>
@@ -243,7 +243,7 @@ export default function PageQuad60() {
 
 <em>Fl. 2, 5-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.</p>
       <p>Fratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æqualem Deo: sed semetípsum exinanívit, formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus obœdiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: ei donávit illi nomen, quod est super omne nomen: <em>hic genuflectitur</em> ut in nómine Jesu omne genu flectátur cœléstium, terréstrium et inférno rum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.</p>
@@ -254,7 +254,7 @@ export default function PageQuad60() {
 
 <em>Sl. 72, 24 et 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me: et cum glória assumpsísti me. ℣. Quam bonus Israël Deus rectis corde! mei autem pæne moti sunt pedes: pæne effúsi sunt gressus mei: quia zelávi in peccatóribus, pacem peccatórum videns.</p>
       <p>Apoiastes-me com vossa dextra; conduzistes-me segundo a vossa vontade; e elevastes-me com glória. ℣. Como o Deus de Israel é bom para os que possuem coração recto! Meus pés estiveram vacilantes; estive quase a cair, pois eu olhava com indignação para os ímpios, vendo a paz que gozavam os pecadores.</p>
       </div>
@@ -263,7 +263,7 @@ export default function PageQuad60() {
 
 <em>Sl. 21, 2-9, 18, 19, 22, 24 & 32</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, Deus meus, réspice in me: quare me dereliquísti? ℣. Longe a salúte mea verba delictórum meórum. ℣. Deus meus, clamábo per diem, nec exáudies: in nocte, et non ad insipiéntiam mihi. ℣. Tu autem in sancto hábitas, laus Israël. ℣. In te speravérunt patres nostri: speravérunt, et liberásti eos. ℣. Ad te clamavérunt, et salvi facti sunt: in te speravérunt, et non sunt confusi. ℣. Ego autem sum vermis, et non homo: oppróbrium hóminum et abjéctio plebis. ℣. Omnes, qui vidébant me, aspernabántur me: locúti sunt lábiis et movérunt caput. ℣. Sperávit in Dómino, erípiat eum: salvum fáciat eum, quóniam vult eum. ℣. Ipsi vero consideravérunt et conspexérunt me: divisérunt sibi vestiménta mea, et super vestem meam misérunt mortem. ℣. Líbera me de ore leónis: et a córnibus unicórnium humilitátem meam. ℣. Qui timétis Dóminum, laudáte eum: univérsum semen Jacob, magnificáte eum. ℣. Annuntiábitur Dómino generátio ventúra: et annuntiábunt cœli justítiam ejus. ℣. Pópulo, qui nascétur, quem fecit Dóminus.</p>
       <p>Meu Deus, meu Deus, olhai para mim: Porque me abandonastes? ℣. O clamor dos meus pecados afastou de mim a salvação. ℣. Meu rei durante o dia e não me ouvi Deus, clama reis; clamarei durante a noite e não acharei consolação. ℣. Contudo, sois a glória de Israel e habitais no santuário. ℣. Os nossos pais esperaram em Vós: esperaram e fostes o seu libertador! ℣. Clamaram por Vós, e foram salvos; confiaram em Vós e não foram iludidos. ℣. Porém sou um verme e não um homem; sou o opróbrio dos homens, a irrisão do povo! ℣. Todos quantos me vêem, enchem-me de injúrias, murmuram de mim, abanando a cabeça e dizendo: ℣. «Esperou no Senhor; pois que venha salvá-l’O, já que O ama». ℣. Olharam para mim e desprezaram-me; repartiram entre si os meus vestidos e lançaram sortes sobre a minha túnica. ℣. Livrai-me, Senhor, da boca do leão e das pontas dos unicórnios, pois sou fraco. ℣. Louvai o Senhor, ó Vós, que O temeis! Cantai louvores em sua honra, ó filhos de Jacob. ℣. À geração futura será anunciado o Senhor; os céus proclamarão a sua justiça. ℣. Ao povo, que há-de nascer, ensinarão que o Senhor O fez aparecer.</p>
       </div>
@@ -272,7 +272,7 @@ export default function PageQuad60() {
 
 <em>Mt. 26, 1-75; 27, 1-66</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Passio Dómini nostri Jesu Christi secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Paixão de Nosso Senhor Jesus Cristo, segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: <span className="cross text-red-500">✠</span> Scitis, quid post bíduum Pascha fiet, et Fílius hóminis tradétur, ut crucifigátur. <span className="font-bold text-red-500">C.</span> Tunc congregáti sunt príncipes sacerdótum et senióres pópuli in átrium príncipis sacerdótum, qui dicebátur Cáiphas: et consílium fecérunt, ut Jesum dolo tenérent et occíderent. Dicébant autem: <span className="font-bold text-red-500">S.</span> Non in die festo, ne forte tumúltus fíeret in pópulo. <span className="font-bold text-red-500">C.</span> Cum autem Jesus esset in Bethánia in domo Simónis leprósi, accéssit ad eum múlier habens alabástrum unguénti pretiósi, et effúdit super caput ipsíus recumbéntis. Vidéntes autem discípuli, indignáti sunt, dicéntes: <em>S.</em> Ut quid perdítio hæc? pótuit enim istud venúmdari multo, et dari paupéribus. <span className="font-bold text-red-500">C.</span> Sciens autem Jesus, ait illis: <span className="cross text-red-500">✠</span> Quid molésti estis huic mulíeri? opus enim bonum operáta est in me. Nam semper páuperes habétis vobíscum: me autem non semper habétis. Mittens enim hæc unguéntum hoc in corpus meum, ad sepeliéndum me fecit. Amen, dico vobis, ubicúmque prædicátum fúerit hoc Evangélium in toto mundo, dicétur et, quod hæc fecit, in memóriam ejus. <span className="font-bold text-red-500">C.</span> Tunc ábiit unus de duódecim, qui dicebátur Judas Iscariótes, ad príncipes sacerdótum, et ait illis: <span className="font-bold text-red-500">S.</span> Quid vultis mihi dare, et ego vobis eum tradam? <span className="font-bold text-red-500">C.</span> At illi constituérunt ei trigínta argénteos. Et exínde quærébat opportunitátem, ut eum tráderet.</p>
@@ -308,7 +308,7 @@ export default function PageQuad60() {
   MEUM](/missal/ordo#munda-cor). Depois continua-se:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Altera autem die, quæ est post Parascéven, convenérunt príncipes sacerdótum et pharisǽi ad Pilátum, dicéntes: Dómine, recordáti sumus, quia sedúctor ille dixit adhuc vivens: Post tres dies resúrgam. Jube ergo custodíri sepúlcrum usque in diem tértium: ne forte véniant discípuli ejus, et furéntur eum, et dicant plebi: Surréxit a mórtuis; et erit novíssimus error pejor prióre. Ait illis Pilátus: Habétis custódiam, ite, custodíte, sicut scitis. Illi autem abeúntes, muniérunt sepúlcrum, signántes lápidem, cum custódibus.</p>
       <p>No dia seguinte, depois do Parasceve, os príncipes dos sacerdotes e os fariseus reuniram-se e foram ter com Pilatos, dizendo: «Senhor, lembramo-nos de que Aquele sedutor, quando era vivo, disse: «Depois de três dias, ressuscitarei». Ordenai, pois, que seu sepulcro seja guardado, até ao terceiro dia, pois não seja o caso que os discípulos roubem o cadáver e digam depois à plebe: «Ressuscitou dos mortos!». Então, seria o último embuste pior do que o primeiro». Pilatos respondeu-lhes: «Tendes aí guardas; ide e guardai-o, como entenderdes». Eles, pois, foram, cimentaram o sepulcro, selaram a pedra e puseram-lhe guardas.</p>
       </div>
@@ -317,14 +317,14 @@ export default function PageQuad60() {
 
 <em>Sl. 68, 21-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Impropérium exspectávit cor meum et misériam: et sustínui, qui simul mecum contristarétur, et non fuit: consolántem me quæsívi, et non invéni: et dedérunt in escam meam fel, et in siti mea potavérunt me acéto.</p>
       <p>As humilhações e os opróbrios aniquilaram-me o coração; procurei quem se compadecesse de mim e não apareceu ninguém; procurei quem me consolasse e não achei ninguém! E deram-me fel para comer e vinagre para mitigar a sede!</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde, quǽsumus, Dómine: ut oculis tuæ majestátis munus oblátum, et grátiam nobis devotionis obtineat, et efféctum beátæ perennitátis acquírat. Per Dóminum nostrum...</p>
       <p>Concedei-nos, Senhor, Vos suplicamos, que este sacrifício, que oferecemos à vossa divina majestade, nos obtenha a graça de uma pia devoção e nos assegure a posse da eterna felicidade. Por nosso Senhor...</p>
       </div>
@@ -333,14 +333,14 @@ export default function PageQuad60() {
 
 <em>Mt. 26, 42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pater, si non potest hic calix transíre, nisi bibam illum: fiat volúntas tua.</p>
       <p>Meu Pai, se este cálice não pode passar sem que Eu o beba, faça-se a vossa vontade.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Per hujus, Dómine, operatiónem mystérii: et vitia nostra purgéntur, et justa desidéria compleántur. Per Dóminum nostrum...</p>
       <p>Senhor, pela virtude deste mystério, fazei que sejamos purificados dos nossos vícios e cumulados de desejos santos. Por nosso Senhor...</p>
       </div>
@@ -349,7 +349,7 @@ export default function PageQuad60() {
 
 <em>Mt. 21, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Cum appropinquásset Jesus Jerosólymis, et venísset Béthphage ad montem Olivéti: tunc misit duos discípulos suos, dicens eis: Ite in castéllum, quod contra vos est, et statim inveniétis ásinam alligátam et pullum cum ea: sólvite et addúcite mihi: et si quis vobis áliquid dixerit, dícite, quia Dóminus his opus habet, et conféstim dimíttet eos. Hoc autem totum factum est, ut adimplerétur, quod dictum est per Prophétam, dicéntem: Dícite fíliae Sion: Ecce, Rex tuus venit tibi mansuétus, sedens super ásinam et pullum, fílium subjugális. Eúntes autem discípuli, fecérunt, sicut præcépit illis Jesus. Et adduxérunt ásinam et pullum: et imposuérunt super eos vestiménta sua, et eum désuper sedére tecérunt. Plúrima autem turba stravérunt vestiménta sua in via: álii autem cædébant ramos de arbóribus, et sternébant in via: turbæ autem, quæ præcedébant et quæ sequebántur, clamábant, dicéntes: Hosánna fílio David: benedíctus, qui venit in nómine Dómini.</p>

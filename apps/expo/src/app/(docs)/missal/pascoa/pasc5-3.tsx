@@ -18,14 +18,14 @@ export default function PagePasc53() {
 
 <em>Ef. 4, 7-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Efésios.</p>
       <p>Fratres: Unicuíque nostrum data est grátia secúndum mensúram donatiónis Christi. Propter quod dicit: Ascéndens in altum, captívam duxit captivitátem: dedit dona homínibus. Quod autem ascéndit, quid est, nisi quia et descéndit primum in inferióres partes terræ? Qui descéndit, ipse est et qui ascéndit super omnes cœlos, ut impléret ómnia. Et ipse dedit quosdam quidem apóstolos, quosdam autem prophétas, álios vero evangelístas, álios autem pastóres et doctóres, ad consummatiónem sanctórum in opus ministérii, in ædificatiónem córporis Christi: donec occurrámus omnes in unitátem fídei, et agnitiónis Fílii Dei, in virum perféctum, in mensúram ætátis plenitúdinis Christi.</p>
       <p>Meus irmãos: A graça é dada a cada um de nós, segundo a medida do dom de Cristo. Por isso se diz na Escritura: «Subindo ao alto, levou consigo os cativos e repartiu os seus dons pelos homens». Que quer dizer «subiu» senão que antes tinha descido às regiões inferiores da terra? Aquele que desceu é o mesmo que subiu acima de todos os céus, a fim de completar todas as coisas. Foi Ele, também, quem deu à sua Igreja uns como Apóstolos, outros como Profetas, outros como Evangelistas, outros como Pastores e Doutores, para que uns e outros trabalhem para a perfeição dos santos, nas funções do ministério e na edificação do corpo de Cristo, até que todos cheguemos à unidade de uma só fé e do mesmo conhecimento do Filho de Deus, ao estado de um homem perfeito, a um desenvolvimento orgânico proporcionado à plenitude de Cristo.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. Surréxit Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja. ℣. <em>Joann. 16, 28</em> Exívi a Patre, et veni in mundum: íterum relínquo mundum, et vado ad Patrem. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. Ressuscitou Cristo: e fez brilhar a sua luz sobre nós, a quem remiu com o sen sangue. Aleluia. ℣. <em>Jo. 16, 28</em> Saí do Pai e vim ao mundo; agora, outra vez, deixo o mundo e vou ao Pai. Aleluia.</p>
       </div>
@@ -34,7 +34,7 @@ export default function PagePasc53() {
 
 <em>Jo. 17, 1-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>

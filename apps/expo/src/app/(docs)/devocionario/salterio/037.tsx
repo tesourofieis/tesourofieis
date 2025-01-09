@@ -10,7 +10,7 @@ export default function Page037() {
       <h1>Salmo 37</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, ne in furóre tuo árguas me, * neque in ira tua corrípias me.</p>
       <p>Não me repreendais, ó Senhor, na vossa indignação, * nem me castigueis na vossa ira.</p>
       <p>Quóniam sagíttæ tuæ infíxæ sunt mihi: * et confirmásti super me manum tuam.</p>

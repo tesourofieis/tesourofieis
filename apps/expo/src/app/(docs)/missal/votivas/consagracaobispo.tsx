@@ -21,7 +21,7 @@ Oração, Secreta e Postcomúnio como na [Missa Si díligis me](/missal/comum/su
 
 <em>Heb. 5, 1-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.</p>
       <p>Fratres: Omnis póntifex ex homínibus as sumptus, pro homínibus constitúitur in iis, quæ sunt ad Deum, ut ófferat dona, et sacrifícia pro peccátis: qui condolére possit iis, qui ígnorant et errant: quóniam et ipse circúmdatus est infirmitáte: et proptérea debet, quemádmodum pro pópulo, ita étiam et pro semetípso offérre pro peccátis. Nec quisquam sumit sibi honórem, sed qui vocátur a Deo, tamquam Aaron.</p>
@@ -32,7 +32,7 @@ Oração, Secreta e Postcomúnio como na [Missa Si díligis me](/missal/comum/su
 
 <em>Mc. 13, 33-37</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Marcum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Marcos.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis: Vidéte, vigiláte et oráte: nescítis enim, quando tempus sit. Sicut homo, qui péregre proféctus réliquit domum suam, et dedit servis suis potestátem cujúsque óperis, et janitóri præcépit, ut vígilet. Vigiláte ergo (nescítis enim, quando dóminus domus véniat: sero, an média nocte, an galli cantu, an mane) ne, cum vénerit repénte, invéniat vos dormiéntes. Quod autem vobis dico, ómnibus dico: Vigilate.</p>

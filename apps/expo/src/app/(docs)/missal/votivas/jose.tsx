@@ -14,14 +14,14 @@ export default function PageJose() {
 
 <em>Sl. 32, 20-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adjútor ejus sperávimus. (T. P. Allelúja, allelúja.) <em>Ps. 79, 2</em> Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph. ℣. Gloria Patri...</p>
       <p>O Senhor é o nosso auxílio e protecção: o nosso coração sente n’Ele toda a alegria: e no seu santo nome depositamos toda nossa esperança. (T. P. Aleluia, aleluia.) <em>Sl. 79, 2</em> Vós, que conduzis José, como um pastor guia a ovelha, ouvi. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ineffábili providéntia beátum Joseph sanctíssimæ Genetrícis tuæ sponsum elígere dignátus es: præsta, quǽsumus; ut, quem protectórem venerámur in terris, intercessórem habére mereámur in cœlis: Qui vivis et regnas...</p>
       <p>Ó Deus, que por vossa inefável providência Vos dignastes escolher o B. José para esposo da vossa santíssima Mãe, permiti, Vos imploramos, que, venerando-o nós na terra, como nosso protector, mereçamos alcançar a sua intercessão nos céus. Ó Vós, que viveis...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageJose() {
 
 <em>Gn. 49, 22-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Génesis.</p>
       <p>Lição do Livro Génesis.</p>
       <p>Fílius accréscens Joseph, fílius accréscens, et decórus aspéctu: fíliæ discurrérunt super murum. Sed exasperavérunt eum, et jurgáti sunt, inviderúntque illi habéntes jácula. Sedit in forti arcus ejus, et dissolúta sunt víncula brachiórum et mánuum illíus per manus poténtis Jacob: inde pastor egréssus est, lapis Israël. Deus patris tui erit adjútor tuus, et Omnípotens benedícet tibi benedictiónibus cœli désuper, benedictiónibus abýssi jacéntiis deórsum, benedictiónibus úberum et vulvæ. Benedictiónes patris tui confortátæ sunt benedictiónibus patrum ejus, donec veníret Desidérium cóllium æternórum: fiant in ca-pite Joseph, et in vértice Nazarǽi inter fratres suos.</p>
@@ -41,7 +41,7 @@ export default function PageJose() {
 
 <em>Sl. 20, 4-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide pretióso. ℣. Vitam pétiit a te, et tribuísti ei longitúdinem diérum in sǽculum sǽculi.</p>
       <p>Senhor, infundistes nele bênçãos escolhidas; pusestes-lhe na cabeça uma coroa de pedras preciosas. ℣. Ele pediu-Vos a vida, e concedestes-lhe dias sem fim em todos os séculos dos séculos.</p>
       <p>Allelúja, allelúja. ℣. Fac nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúja.</p>
@@ -56,14 +56,14 @@ export default function PageJose() {
 
 <em>Sl. 111, 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Potens in terra erit semen ejus: generátio rectórum benedicétur. ℣. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.</p>
       <p>Bem-aventurado o homem que teme a Senhor e cujo zelo é ardente no cumprimento dos seus mandamentos. ℣. Sua descendência será poderosa na terra, pois a posteridade dos justos será abençoada. ℣. Na sua casa haverá abundância e riqueza e a sua justiça subsistirá em todos os séculos dos séculos.</p>
       </div>
 
 <aside>No Tempo Pascal omite-se o Gradual e o Trato, diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. De quacúmque tribulatióne clamáverint ad me, exáudiam eos, et ero protéctor eórum semper. Allelúja. ℣. Fac nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. Em qualquer tribulação em que chamem por mim, ouvi-los-ei e serei o seu perpétuo protector. Aleluia. ℣. Ó José, fazei que a nossa vida seja sem mácula e que, esteja sempre sob o vosso patrocínio. Aleluia.</p>
       </div>
@@ -72,7 +72,7 @@ export default function PageJose() {
 
 <em>Lc. 3, 21-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Factum est autem, cum baptizarétur omnis pópulus, et Jesu baptizáto et oránte, apértum est cœlum: et descéndit Spíritus Sanctus corporáli specie sicut colúmba in ipsum: et vox de cœlo facta est: Tu es Fílius meus diléctus, in te complácui mihi. Et ipse Jesus erat incípiens quasi annórum trigínta, ut putabátur, fílius Joseph.</p>
@@ -83,14 +83,14 @@ export default function PageJose() {
 
 <em>Sl. 147, 12 & 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lauda, Jerúsalem, Dóminum: quóniam confortávit seras portárum tuárum, benedíxit fíliis tuis in te. (T. P. Allelúja.)</p>
       <p>Jerusalém, louva o Senhor, pois foi Ele quem consolidou as tuas portas; foi Ele quem abençoou os teus filhos. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctíssimæ Genetrícis tuæ sponsi patrocínio suffúlti, rogámus, Dómine, cleméntiam tuam: ut corda nostra fácias terréna cuncta despícere, ac te verum Deum perfécta caritáte dilígere: Qui vivis et regnas...</p>
       <p>Fortalecidos com o patrocínio do esposo da vossa Santíssima Mãe, suplicamos à vossa clemência, Senhor, que nos façais desdenhar as coisas terrenas e com caridade perfeita amar-Vos a Vós, que sois o verdadeiro Deus. Ó Vós, que viveis e...</p>
       </div>
@@ -99,14 +99,14 @@ export default function PageJose() {
 
 <em>Mt, 1, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus, qui vocátur Christus. (T. P. Allelúja.)</p>
       <p>Jacob gerou José, esposo de Maria, de quem nasceu Jesus, que se chama Cristo.(T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Divíni múneris fonte refécti, quǽsumus, Dómine, Deus noster: ut, sicut nos facis beáti Joseph protectióne gaudére; ita, ejus meritis et intercessióne, cæléstis glóriæ fácias esse participes. Per Dóminum...</p>
       <p>Havendo nós reparado as nossas forças na própria fonte do dom divino, Vos suplicamos, Senhor, nosso Deus, que nos façais gozar o patrocínio do B. José, tornando-nos participantes da glória celestial, em virtude dos seus méritos e da sua intercessão. Por nosso Senhor...</p>
       </div>

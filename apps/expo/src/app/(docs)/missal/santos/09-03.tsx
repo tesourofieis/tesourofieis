@@ -14,14 +14,14 @@ export default function Page0903() {
 
 <em>Sl. 88, 20-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Extuli eléctum de pópulo, óleo sancto meo unxi eum: ut manus mea sit semper cum eo, et brácchium meum confirm et eum. <em>Ps. ibid., 2</em> Grátias Dómini in ætérnum cantábo: per omnes generatiónes annuntiábo fidelitátem tuam ore meo. ℣. Gloria Patri...</p>
       <p>Do seio do povo tirei o escolhido; ungi-o com meu óleo sagrado: para que sobre ele esteja sempre a minha mão e o meu braço o fortaleça. <em>Sl. ibid., 2</em> Cantarei eternamente as graças do Senhor; por todas as gerações proclamarei com a minha boca a sua fidelidade. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui, ad tuéndam cathólicam fidem et univérsa in Christo instauránda, sanctum Pium Summum Pontéficem cælesti sapiéntia et apostólica fortitúdine replevísti: concéde propítius; ut, eius institúta et exémpla sectántes, prǽmia consequámur ætérna. Per eúndem Dóminum...</p>
       <p>Ó Deus, que, para guarda da fé católica e para «restaurar tudo em Cristo», cumulastes São pio, Sumo Pontífice, com celestial sabedoria e com fortaleza apostólica, concedei-nos propício que, seguindo com devoção as suas instruções e exemplos, alcancemos os prémios eternos. Pelo mesmo...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0903() {
 
 <em>1 Ts. 2, 2-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lectio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.</p>
       <p>Fratres: Fidúciam habúimus in Deo nostro loqui ad vos evangélium Dei in multa sollicitúdine. Exhortátio enim nostra non de erróre neque de immundítia neque in dolo; sed, sicut probáti sumus a Deo ut crederétur nobis evangélium, ita lóquimur; non quasi homínibus placéntes, sed Deo qui probat corda nostra. Neque enim aliquándo fúimus in sermóne adulatiónis, sicut scitis, neque in occasióne avarítiæ, Deus testis est, nec quæréntes ab homínibus glóriam neque a vobis neque ab áliis. Cum possémus vobis óneri esse ut Christi apóstoli, sed facti sumus párvuli in médio vestrum, tamquam si nutrix fóveat fílios suos. Ita desiderántes vos cúpide volebámus trádere vobis non solum evangélium Dei, sed étiam ánimas nostras, quóniam caríssimi nobis facti estis.</p>
@@ -41,7 +41,7 @@ export default function Page0903() {
 
 <em>Sl. 39, 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Annuntiávi justítiam in cœtu magno; ecce lábia mea non cohíbui: Dómine, tu nosti. ℣. Justítiam tuam non abscóndi in corde meo; fidelitátem tuam et auxílium tuum narrávi.</p>
       <p>Evangelizei a vossa justiça ante grande multidão; eis que meus lábios não ficaram cerrados: Vós, Senhor, bem o sabeis. ℣. Não escondi no meu coração a vossa justiça; publiquei a vossa fidelidade e o vosso socorro.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 22, 5-6</em> Paras mihi mensam, inúngis óleo caput meum, calix meus ubérrimus est. Allelúja.</p>
@@ -55,14 +55,14 @@ export default function Page0903() {
 
       <h3>Trato</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacerdótes ejus induam salúte, et sancti eius exsultántes exsultábunt. ℣. Illic David suscitábo cornu, parábo lucérnam uncto meo. ℣. Inimícos ejus índuam confusione, super ipsum autem fulgébit diadéma meum.</p>
       <p>Revestirei os seus Sacerdotes com a salvação, e seus Santos exultarão jubilosamente. ℣. Aqui, farei crescer o poder de David; preparei uma lâmpada para o meu ungido. ℣. Cobrirei de vergonha os seus inimigos; porém sobre ele fulgirá o meu diadema.</p>
       </div>
 
 <aside>No Tempo Pascal omite-se o Gradual e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 22, 5-6</em> Paras mihi mensam, inúngis óleo caput meum, calix meus ubérrimus est. Allelúja. ℣. <em>Ps. 25, 8</em> Dómine, díligo habitáculum domus tuæ et locum tabernáculi gloriæ tuæ. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 22, 5-6</em> Preparastes para mim a mesa; com óleo ungistes a minha cabeça; o meu cálice está a transbordar. Aleluia. ℣. <em>Sl. 25, 8</em> Amo, Senhor, a morada da vossa casa e o lugar do tabernáculo da vossa Majestade. Aleluia.</p>
       </div>
@@ -71,7 +71,7 @@ export default function Page0903() {
 
 <em>Jo. 21, 15-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Dixit Jesus Simóni Petro: Simon Joánnis, díligis me plus hic? Dicit ei: Étiam, Dómine, tu scis quia amo te. Dicit ei: Pasce agnos meos. Dicit ei íterum: Simon Joánnis, diligis me? Ait illi: Étiam, Dómine, tu scis quia amo te. Dicit ei: Pasce agnos meos. Dicit ei tertio: Simon Joánnis, amas me? Contristátus est Petrus, quia dixit ei tertio: Amas me? et dixit ei: Dómine, tu ómnia nosti; tu scis quia amo te. Dixit ei: Pasce oves meas.</p>
@@ -82,14 +82,14 @@ export default function Page0903() {
 
 <em>Sl. 33, 12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veníte, filii, audíte me; timórem Dómini docébo vos.</p>
       <p>Vinde, filhos, ouvi-me; ensinar-vos-ei o temor do Senhor.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblatiónibus nostris, quǽsumus, Dómine, benígne suscéptis, da nobis, ut hæc divína mystéria, sancto Pio Summo Pontífice intercedénte, sincéris tractémus obséquiis et fidéli mente sumámus. Per Dóminum....</p>
       <p>Havendo Vós, Senhor, recebido benignamente as nossas oblatas, Vos imploramos, concedei-nos, por intercessão de São Pio, Sumo Pontífice, que tratemos estes divinos mystérios com sincera humildade e os recebamos com recta intenção. Por nosso Senhor...</p>
       </div>
@@ -98,14 +98,14 @@ export default function Page0903() {
 
 <em>Jo. 6, 56-57</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Caro mea vere est cibus, et sanguis meus vere est potus. Qui mandúcat meam carnem et bibit meum sánguinem, in me manet et ego in eo.</p>
       <p>A minha Carne é verdadeira comida e o meu Sangue é verdadeira bebida. Aquele que come a minha Carne e bebe o meu Sangue permanece em Mim e Eu permaneço nele.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mensæ cœléstis virtúte refécti, quǽsumus, Dómine Deus noster: ut, interveniénte sancto Pio Summo Pontífice; fortes efficiámur in fide, et in tua simus caritáte concórdes. Per Dóminum...</p>
       <p>Saciados com a graça da Mesa Celestial, Vos suplicamos, Senhor, nosso Deus, que por intercessão de São Pio, Sumo Pontífice, nos tornemos fortes na fé e sejamos unânimes na prática da vossa caridade. Por nosso Senhor...</p>
       </div>

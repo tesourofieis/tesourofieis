@@ -19,7 +19,7 @@ export default function PageBaptismo() {
   Padrinho e a Madrinha.
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Quid petis ab Ecclésia Dei?</p>
       <p><em>Sac.</em> <span className="text-red-500">N.</span> O que pedes à Igreja de Deus?</p>
       <p><span className="text-red-500">℟.</span> Fidem.</p>
@@ -38,7 +38,7 @@ export default function PageBaptismo() {
 
 <aside>O Sacerdote sopra levemente três vezes sobre a cabeça do Neófito:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exi ab eo (ea), immúnde spíritus, et da locum Spirítui Sancto Paráclito.</p>
       <p>Espírito impuro, sai deste (ou desta) e dá o teu lugar ao Espírito Santo Paráclito!</p>
       </div>
@@ -47,14 +47,14 @@ export default function PageBaptismo() {
 
 <aside>O Sacerdote fará o sinal da Cruz na testa e no peito do Neófito:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Accipe signum Crucis tam in fron <span className="cross text-red-500">✠</span> te, quam in cor <span className="cross text-red-500">✠</span> de, sume fidem cæléstium præceptórum: et talis esto móribus, ut templum Dei jam esse possis.</p>
       <p>Recebe o sinal da Cruz, na fronte <span className="cross text-red-500">✠</span> e no coração <span className="cross text-red-500">✠</span> ; abraça a fé nos preceitos divinos; e procede de tal modo que desde já possas ser um templo de Deus.</p>
       </div>
 
 <aside>O Sacerdote continua:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Preces nostras, quæsumus, Dómine, cleménter exáudi: et hunc eléctum tuum <span className="text-red-500">N.</span> (hanc eléctam tuam <span className="text-red-500">N.</span>) crucis Domínicæ impressióne signátum (signátam) perpétua virtúte custódi: ut magnitúdinis glóriæ tuæ rudiménta servans, per custódiam mandatórum tuórum ad regeneratiónis glóriam perveníre mereátur. Per Christum Dóminum nostrum.</p>
@@ -67,7 +67,7 @@ export default function PageBaptismo() {
 
 <aside>O Sacerdote coloca a sua mão direita sobre a cabeça do Neófito:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Omnípotens, sempitérne Deus, Pater Dómini nostri Jesu Christi, respícere dignáre super hunc fámulum tuum <span className="text-red-500">N.</span> (hanc fámulam tuam <span className="text-red-500">N.</span>) quem (quam) ad rudiménta fídei vocáre dignátus es; omnem cæcitátem cordis ab eo (ea) expélle; disrúmpe omnes láqueos sátanæ, quibus fúerat colligátus (colligáta); áperi ei, Dómine, jánuam pietátis tuæ, ut signo sapiéntiæ tuæ imbútus (imbúta), ómnium cupiditátum fœtóribus cáreat, et ad suávem odórem præceptórum tuórum lætus (læta) tibi in Ecclésia tua desérviat, et profíciat de die in diem. Per eúmdem Christum Dóminum nostrum.</p>
@@ -78,7 +78,7 @@ export default function PageBaptismo() {
 
       <h2>Bênção do sal</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exorcízo te, creatúra salis, in nómine Dei <span className="cross text-red-500">✠</span> Patris omnipoténtis, et in caritáte Dómini nostri Jesu <span className="cross text-red-500">✠</span> Christi, et in virtúte Spíritus <span className="cross text-red-500">✠</span> Sancti. Exorcízo te per Deum <span className="cross text-red-500">✠</span> vivum, per Deum <span className="cross text-red-500">✠</span> verum, per Deum <span className="cross text-red-500">✠</span> sanctum, per Deum <span className="cross text-red-500">✠</span> qui te ad tutélam humáni géneris procreávit, et pópulo veniénti ad credulitátem per servos suos consecrári præcépit, ut in nómine sanctæ Trinitátis efficiáris salutáre sacraméntum ad effugándum inimícum. Proínde rogámus te, Dómine Deus noster, ut hanc creatúram salis sanctificándo sanctí <span className="cross text-red-500">✠</span> fices, et benedicéndo bene <span className="cross text-red-500">✠</span> dícas, ut fiat ómnibus accipiéntibus perfécta medicína, pérmanens in viscéribus eórum, in nómine ejúsdem Dómini nostri Jesu Christi, qui ventúrus est judicáre vivos et mórtuos, et sæculum per ignem.</p>
       <p>Eu te exorcizo, criatura de sal, em Nome de Deus <span className="cross text-red-500">✠</span> Pai omnipotente, na caridade de nosso Senhor Jesus <span className="cross text-red-500">✠</span> Cristo, e com o poder do Espírito <span className="cross text-red-500">✠</span> Santo. Eu te exorcizo em Nome do span <span className="cross text-red-500">✠</span> vivo, do Deus <span className="cross text-red-500">✠</span> verdadeiro, do Deus <span className="cross text-red-500">✠</span> santo, do Deus <span className="cross text-red-500">✠</span> que te criou para proveito do género humano, e ordenou aos seus servos te consagrassem para o povo chamado à Fé, a fim de que em Nome da Santíssima Trindade possas ser instrumento salutar para afugentar o inimigo. Por isso, Senhor, nosso Deus, Vos rogamos que santifiqueis <span className="cross text-red-500">✠</span> e abençoeis <span className="cross text-red-500">✠</span> esta criatura de sal, para que se torne em medicina salutar daquelas que o tomarem, e permaneça nas suas entranhas, em Nome de nosso Senhor Jesus Cristo, que há-de vir a julgar os vivos e os mortos, e o mundo pelo fogo.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -87,7 +87,7 @@ export default function PageBaptismo() {
 
 <aside>O Sacerdote introduz alguns grãos deste Sal na boca do baptizado:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500">N.</span> Accipe sal sapiéntiæ: propitiátio sit tibi in vitam ætérnam.</p>
       <p><span className="text-red-500">N.</span> Recebe o sal da sabedoria; que ele te seja propício para a vida eterna.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -100,7 +100,7 @@ export default function PageBaptismo() {
 
 <aside>Dada a paz, o Sacerdote recita a seguinte oração:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus patrum nostrórum, Deus univérsæ cónditor veritátis, te súpplices exorámus, ut hunc fámulum tuum <span className="text-red-500">N.</span> (hanc fámulam tuam<span className="text-red-500">N.</span>) respícere dignéris propítius, et hoc primum pábulum salis gustántem, non diútius esuríre permíttas, quo minus cibo expleátur cælésti, quátenus sit semper spíritu fervens, spe gaudens, tuo semper nómini sérviens. Perduc eum (eam), Dómine, quæsumus, ad novæ regeneratiónis lavácrum, ut cum fidélibus tuis promissiónum tuárum ætérna præmia cónsequi mereátur. Per Christum Dóminum nostrum.</p>
@@ -113,7 +113,7 @@ export default function PageBaptismo() {
 
 <aside>O Sacerdote continua, em tom imperativo:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exorcízo te, creatúra salis, in nómine Dei <span className="cross text-red-500">✠</span> Patris omnipoténtis, et in caritáte Dómini nostri Jesu <span className="cross text-red-500">✠</span> Christi, et in virtúte Spíritus <span className="cross text-red-500">✠</span> Sancti. Exorcízo te per Deum <span className="cross text-red-500">✠</span> vivum, per Deum <span className="cross text-red-500">✠</span> verum, per Deum <span className="cross text-red-500">✠</span> sanctum, per Deum <span className="cross text-red-500">✠</span> qui te ad tutélam humáni géneris procreávit, et pópulo veniénti ad credulitátem per servos suos consecrári præcépit, ut in nómine sanctæ Trinitátis efficiáris salutáre sacraméntum ad effugándum inimícum. Proínde rogámus te, Dómine Deus noster, ut hanc creatúram salis sanctificándo sanctí <span className="cross text-red-500">✠</span> fices, et benedicéndo bene <span className="cross text-red-500">✠</span> dícas, ut fiat ómnibus accipiéntibus perfécta medicína, pérmanens in viscéribus eórum, in nómine ejúsdem Dómini nostri Jesu Christi, qui ventúrus est judicáre vivos et mórtuos, et sæculum per ignem.</p>
       <p>Eu te exorcizo, criatura de sal, em Nome de Deus <span className="cross text-red-500">✠</span> Pai omnipotente, na caridade de nosso Senhor Jesus <span className="cross text-red-500">✠</span> Cristo, e com o poder do Espírito <span className="cross text-red-500">✠</span> Santo. Eu te exorcizo em Nome do Deus <span className="cross text-red-500">✠</span> vivo, do Deus <span className="cross text-red-500">✠</span> verdadeiro, do Deus <span className="cross text-red-500">✠</span> santo, do Deus <span className="cross text-red-500">✠</span> que te criou para proveito do género humano, e ordenou aos seus servos te consagrassem para o povo chamado à Fé, a fim de que em Nome da Santíssima Trindade possas ser instrumento salutar para afugentar o inimigo. Por isso, Senhor, nosso Deus, Vos rogamos que santifiqueis <span className="cross text-red-500">✠</span> e abençoeis <span className="cross text-red-500">✠</span> esta criatura de sal, para que se torne em medicina salutar daquelas que o tomarem, e permaneça nas suas entranhas, em Nome de nosso Senhor Jesus Cristo, que há-de vir a julgar os vivos e os mortos, e o mundo pelo fogo.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -124,7 +124,7 @@ export default function PageBaptismo() {
 
 <aside>O Sacerdote impõe o sinal da Cruz na testa do Neófito:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Et hoc signum sanctæ Cru <span className="cross text-red-500">✠</span> cis, quod nos fronti ejus damus, tu, maledícte diábole, numquam áudeas violáre. Per eúmdem Christum Dóminum nostrum.</p>
       <p>E te não atrevas nunca, ó demónio maldito, a violar este sinal <span className="cross text-red-500">✠</span> da santa Cruz que imprimimos na sua fronte. Pelo mesmo Cristo, nosso Senhor.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -135,7 +135,7 @@ export default function PageBaptismo() {
 
 <aside>O Sacerdote impõe sobre a cabeça do Neófito a sua mão direita:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Aetérnam ac justíssimam pietátem tuam déprecor, Dómine sancte, Pater omnípotens, ætérne Deus, auctor lúminis et veritátis, super hunc fámulum tuum <span className="text-red-500">N.</span> (hanc fámulam tuam <span className="text-red-500">N.</span>) ut dignéris eum (eam) illumináre lúmine intelligéntiæ tuæ: munda eum (eam) et sanctífica: da ei sciéntiam veram, ut dignus (digna) grátia Baptísmi tui efféctus (effécta), téneat firmam spem, consílium rectum, doctrínam sanctam. Per Christum Dóminum nostrum.</p>
@@ -155,7 +155,7 @@ export default function PageBaptismo() {
 
 <aside>Entretanto, o Sacerdote diz:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500">N.</span> Ingrédere in templum Dei, ut hábeas partem cum Christo in vitam ætérnam.</p>
       <p><span className="text-red-500">N.</span> Entra no Templo de Deus, a fim de que tenhas parte com Cristo na vida eterna.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -171,7 +171,7 @@ export default function PageBaptismo() {
 
       <h2>Creio em Deus</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ. Et in Jesum Christum, Fílium ejus únicum, Dóminum nostrum: qui concéptus est de Spíritu Sancto, natus ex María Vírgine, passus sub Póntio Piláto, crucifíxus, mórtuus, et sepúltus: descéndit ad ínferos; tértia die resurréxit a mórtuis; ascéndit ad cælos; sedet ad déxteram Dei Patris omnipoténtis: inde ventúrus est judicáre vivos et mórtuos. Credo in Spíritum Sanctum, sanctam Ecclésiam cathólicam, Sanctórum communiónem, remissiónem peccatórum, carnis resurrectiónem, vitam ætérnam.</p>
       <p>Creio em Deus, Pai todo-poderoso, Criador do céu e da terra; e em Jesus Cristo, seu único Filho, nosso Senhor; o qual foi concebido pelo poder do Espírito Santo; nasceu da Virgem Maria; padeceu sob Pôncio Pilatos; foi crucificado, morto e sepultado; desceu aos infernos; ao terceiro dia ressuscitou dos mortos; subiu aos céus; está assentado à direita de Deus Pai todo-poderoso, donde há-de vir a julgar os vivos e os mortos. Creio no Espírito Santo; na Santa Igreja Católica; na comunicação dos Santos; na remissão dos pecados; na ressurreição da carne; na vida eterna. Amen.</p>
       </div>
@@ -185,7 +185,7 @@ export default function PageBaptismo() {
 
       <h1>Último Exorcismo</h1>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exorcízo te, omnis spíritus immúnde, in nómine Dei <span className="cross text-red-500">✠</span> Patris omnipoténtis, et in nómine Jesu <span className="text-red-500">✠</span> Christi Fílii ejus, Dómini et Júdicis nostri, et in virtúte Spíritus <span className="cross text-red-500">✠</span> Sancti, ut discédas ab hoc plásmate Dei <span className="text-red-500">N.</span>, quod Dóminus noster ad templum sanctum suum vocáre dignátus est, ut fiat templum Dei vivi, et Spíritus Sanctus hábitet in eo. Per eúmdem Christum Dóminum nostrum, qui ventúrus est judicáre vivos et mórtuos, et sæculum per ignem.</p>
       <p>Eu te exorcizo, ó espírito imundo, qualquer que sejas, em Nome de Deus <span className="cross text-red-500">✠</span> Pai omnipotente, e em nome de Jesus <span className="cross text-red-500">✠</span> Cristo, seu Filho, nosso Senhor e nosso Juiz, e pelo poder do Espírito <span className="cross text-red-500">✠</span> Santo, para que saias desta criatura de Deus, <span className="text-red-500">N.</span>, que nosso Senhor se dignou chamar ao seu sagrado templo, a fim de que se torne em templo do Deus vivo e morada do Espírito Santo. Pelo mesmo Cristo, nosso Senhor, que há-de vir a julgar os vivos e os mortos, e o mundo pelo fogo.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -196,14 +196,14 @@ export default function PageBaptismo() {
 
 <aside>O Sacerdote com a saliva da sua boca toca nas orelhas do Neófito:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ephpheta, quod est, Adaperire.</p>
       <p>Éfeta, isto é: Abre-te.</p>
       </div>
 
 <aside>Imediatamente, tocando no nariz do Neófito, acrescenta:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In odórem suavitátis. Tu autem effugáre, diábole; appropinquábit enim judícium Dei.</p>
       <p>Em odor de suavidade. Tu, porém, ó demónio, foge, porque se aproxima o reino de Deus.</p>
       </div>
@@ -215,7 +215,7 @@ export default function PageBaptismo() {
   firme: são feitas no singular, porque se referem ao Neófito.
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Abrenúntias sátanæ?</p>
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Renuncias a Satanás?</p>
       <p><span className="text-red-500">℟.</span> Abrenúntio.</p>
@@ -238,7 +238,7 @@ export default function PageBaptismo() {
   depois as espáduas, ao pé do pescoço.
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> Ego te línio <span className="cross text-red-500">✠</span> óleo salútis in Christo Jesu Dómino nostro, ut hábeas vitam ætérnam.</p>
       <p><em>Sac.</em> Eu te unjo <span className="cross text-red-500">✠</span> com o Óleo da salvação em nosso Senhor Jesus Cristo, para que possas possuir a vida eterna.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -258,7 +258,7 @@ export default function PageBaptismo() {
   convicção e firmeza:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Credis in Deum Patrem omnipoténtem, Creatórem cæli et terræ?</p>
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Crês em Deus, Pai omnipotente, Criador do céu e da terra?</p>
       <p><span className="text-red-500">℟.</span> Credo.</p>
@@ -277,7 +277,7 @@ export default function PageBaptismo() {
 
 <aside>Terminada a Confissão da Fé, o Sacerdote interroga:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Vis baptizári?</p>
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Queres ser baptizado?</p>
       <p><span className="text-red-500">℟.</span> Volo.</p>
@@ -290,7 +290,7 @@ export default function PageBaptismo() {
   Madrinha coloca a mão direita nas costas do Neófito.
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Ego te baptízo in nómine Pa <span className="cross text-red-500">✠</span> tris, fundit primo, et Fí <span className="cross text-red-500">✠</span> lii, fundit secundo, et Spíritus <span className="cross text-red-500">✠</span> Sancti, fundit tertio.</p>
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Eu te baptizo em Nome do Pai <span className="cross text-red-500">✠</span> e do Filho <span className="cross text-red-500">✠</span> e do Espírito <span className="cross text-red-500">✠</span> Santo.</p>
       </div>
@@ -300,7 +300,7 @@ export default function PageBaptismo() {
   seguinte forma:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Si non es baptizátus (-a), ego te baptízo in nómine Pa <span className="cross text-red-500">✠</span> tris, et Fí <span className="cross text-red-500">✠</span> lii, et Spíritus <span className="cross text-red-500">✠</span> Sancti.</p>
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Se não és baptizado (a), eu te baptizo em Nome do Pai <span className="cross text-red-500">✠</span>, e do Fi <span className="cross text-red-500">✠</span> lho, e do Espírito <span className="cross text-red-500">✠</span> Santo.</p>
       </div>
@@ -309,7 +309,7 @@ export default function PageBaptismo() {
 
 <aside>O Sacerdote dirige a Deus a seguinte súplica:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus omnípotens, Pater Dómini nostri Jesu Christi, qui te regenerávit ex aqua et Spíritu Sancto, quique dedit tibi remissiónem ómnium peccatórum (hic inungit), ipse te líniat <span className="cross text-red-500">✠</span> Chrísmate salútis in eódem Christo Jesu Dómino nostro in vitam ætérnam.</p>
@@ -324,7 +324,7 @@ export default function PageBaptismo() {
 
       <h2>Veste Branca</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> Accipe vestem cándidam, quam pérferas immaculátam ante tribúnal Dómini nostri Jesu Christi, ut hábeas vitam ætérnam.</p>
       <p><em>Sac.</em> Recebe a Veste branca, a qual apresentarás imaculada ante o tribunal de nosso Senhor Jesus Cristo, a fim de alcançares a vida eterna.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -333,7 +333,7 @@ export default function PageBaptismo() {
 
       <h2>Vela Acesa</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> Accipe lámpadem ardéntem, et irreprehensíbilis custódi Baptísmum tuum: serva Dei mandáta, ut, cum Dóminus vénerit ad núptias, possis occúrrere ei una cum ómnibus Sanctis in aula cælésti, et vivas in sæcula sæculórum.</p>
       <p><em>Sac.</em> Recebe esta Vela acesa e guarda a graça do teu Baptismo com fidelidade irrepreensível: cumpre os Mandamentos de Deus, a fim de que, quando o Senhor vier para as bodas, possas ir ao seu encontro com todos os Santos na corte celestial, e assim permaneças em todos os séculos dos séculos.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -342,7 +342,7 @@ export default function PageBaptismo() {
 
       <h2>Despedida</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Vade in pace, et Dóminus sit tecum.</p>
       <p><em>Sac.</em> <span className="text-red-500">N.</span> Vai em paz, que o Senhor seja contigo.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>

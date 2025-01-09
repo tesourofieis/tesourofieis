@@ -14,14 +14,14 @@ export default function PageQuadp10() {
 
 <em>Sl. 43, 23-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exsúrge, quare obdórmis, Dómine? exsúrge, et ne repéllas in finem: quare fáciem tuam avértis, oblivísceris tribulatiónem nostram? adhǽsit in terra venter noster: exsúrge, Dómine, ádjuva nos, et líbera nos. <em>Ps. ibid., 2</em> Deus, áuribus nostris audívimus: patres nostri annuntiavérunt nobis. ℣. Gloria Patri...</p>
       <p>Levantai-Vos, Senhor, porque dormis? Levantai-Vos, e nos não desampareis para sempre. Porque afastais de nós a vossa face e esqueceis a nossa tribulação? O nosso peito está oprimido pela terra. Levantai-Vos, Senhor, socorrei-nos, salvai-nos. <em>Sl. ibid., 2</em> Ó Deus, nós ouvimos com os nossos ouvidos; os nossos antepassados contaram-nos as vossas maravilhas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui cónspicis, quia ex nulla nostra actióne confídimus: concéde propítius; ut, contra advérsa ómnia, Doctóris géntium protectióne muniámur. Per Dóminum...</p>
       <p>Ó Deus, que conheceis não podermos confiar nas nossas obras, dignai-Vos proteger-nos com a assistência do «Doutor das gentes» contra todas as adversidades. Por nosso Senhor Jesus Cristo, vosso Filho, que...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuadp10() {
 
 <em>2 Cor. 11, 19-33; 12, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Patres: Libénter suffértis insipiéntens: cum sitis ipsi sapiéntes. Sustinétis enim, si quis vos in servitútem rédigit, si quis dévorat, si quis áccipit, si quis extóllitur, si quis in fáciem vos cædit. Secúndum ignobilitátem dico, quasi nos infírmi fuérimus in hac parte. In quo quis audet, (in insipiéntia dico) áudeo et ego: Hebrǽi sunt, et ego: Israelítæ sunt, et ego: Semen Abrahæ sunt, et ego: Minístri Christi sunt, (ut minus sápiens dico) plus ego: in labóribus plúrimis, in carcéribus abundántius, in plagis supra modum, in mórtibus frequénter. A Judǽis quínquies quadragénas, una minus, accépi. Ter virgis cæsus sum, semel lapidátus sum, ter naufrágium feci, nocte et die in profúndo maris fui: in itinéribus sæpe, perículis flúminum, perículis latrónum, perículis ex génere, perículis ex géntibus, perículis in civitáte, perículis in solitúdine, perículis in mari, perículis in falsis frátribus: in labóre et ærúmna, in vigíliis multis, in fame et siti, in jejúniis multis, in frigóre et nuditáte: præter illa, quæ extrínsecus sunt, instántia mea cotidiána, sollicitúdo ómnium Ecclesiárum. Quis infirmátur, et ego non infírmor? quis scandalizátur, et ego non uror? Si gloriári opórtet: quæ infirmitátis meæ sunt, gloriábor. Deus et Pater Dómini nostri Jesu Christi, qui est benedíctus in sǽcula, scit quod non méntior. Damásci præpósitus gentis Arétæ regis, custodiébat civitátem Damascenórum, ut me comprehénderet: et per fenéstram in sporta dimíssus sum per murum, et sic effúgi manus ejus. Si gloriári opórtet (non éxpedit quidem), véniam autem ad visiónes et revelatiónes Dómini. Scio hóminem in Christo ante annos quatuórdecim, (sive in córpore néscio, sive extra corpus néscio, Deus scit:) raptum hujúsmodi usque ad tértium cœlum. Et scio hujúsmodi hóminem, (sive in córpore, sive extra corpus néscio, Deus scit: quóniam raptus est in paradisum: et audivit arcána verba, quæ non licet homini loqui. Pro hujúsmodi gloriábor: pro me autem nihil gloriábor nisi in infirmitátibus meis. Nam, et si volúero gloriári, non ero insípiens: veritátem enim dicam: parco autem, ne quis me exístimet supra id, quod videt in me, aut áliquid audit ex me. Et ne magnitúdo revelatiónem extóllat me, datus est mihi stímulus carnis meæ ángelus sátanæ, qui me colaphízet. Propter quod ter Dóminum rogávi, ut discéderet a me: et dixit mihi: Súfficit tibi grátia mea: nam virtus in infirmitáte perfícitur. Libénter ígitur gloriábor in infirmitátibus meis, ut inhábitet in me virtus Christi.</p>
@@ -41,7 +41,7 @@ export default function PageQuadp10() {
 
 <em>Sl. 82, 19 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super omnem terram. ℣. Deus meus, pone illos ut rotam, et sicut stípulam ante fáciem venti.</p>
       <p>Saibam as nações que o vosso nome é Deus; que só Vós sois o Altíssimo em todo o mundo. ℣. Ó meu Deus, tornai os meus inimigos semelhantes à roda, que gira sem cessar, ou à palha, que o vento agita e arrebata.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuadp10() {
 
 <em>Sl. 59, 4 & 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Commovísti, Dómine, terram, et conturbásti eam. ℣. Sana contritiónes ejus, quia mota est. ℣. Ut fúgiant a fácie arcus: ut liberéntur elécti tui.</p>
       <p>Senhor, abalastes e arruinastes a terra. Reparai as suas ruínas, porque ela está abalada. Que os vossos escolhidos possam fugir diante do arco armado contra eles, e que sejam livres.</p>
       </div>
@@ -59,7 +59,7 @@ export default function PageQuadp10() {
 
 <em>Lc. 8, 4-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Cum turba plúrima convenírent, et de civitátibus properárent ad Jesum, dixit per similitúdinem: Exiit, qui séminat, semináre semen suum: et dum séminat, áliud cécidit secus viam, et conculcátum est, et vólucres cœli comedérunt illud. Et áliud cécidit supra petram: et natum áruit, quia non habébat humórem. Et áliud cécidit inter spinas, et simul exórtæ spinæ suffocavérunt illud. Et áliud cécidit in terram bonam: et ortum fecit fructum céntuplum. Hæc dicens, clamábat: Qui habet aures audiéndi, audiat. Interrogábant autem eum discípuli ejus, quæ esset hæc parábola. Quibus ipse dixit: Vobis datum est nosse mystérium regni Dei, céteris autem in parábolis: ut vidéntes non videant, et audientes non intéllegant. Est autem hæc parábola: Semen est verbum Dei. Qui autem secus viam, hi sunt qui áudiunt: déinde venit diábolus, et tollit verbum de corde eórum, ne credéntes salvi fiant. Nam qui supra petram: qui cum audierint, cum gáudio suscipiunt verbum: et hi radíces non habent: qui ad tempus credunt, et in témpore tentatiónis recédunt. Quod autem in spinas cécidit: hi sunt, qui audiérunt, et a sollicitudínibus et divítiis et voluptátibus vitæ eúntes, suffocántur, et non réferunt fructum. Quod autem in bonam terram: hi sunt, qui in corde bono et óptimo audiéntes verbum rétinent, et fructum áfferunt in patiéntia.</p>
@@ -70,14 +70,14 @@ export default function PageQuadp10() {
 
 <em>Sl. 16, 5, 6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea: inclína aurem tuam, et exáudi verba mea: mirífica misericórdias tuas, qui salvos facis sperántes in te, Dómine.</p>
       <p>Firmai os meus passos nas vossas veredas, para que meus pés não tropecem: Inclinai para mim os vossos ouvidos e escutai as minhas palavras: manifestai as vossas admiráveis misericórdias, Senhor, pois salvais os que em Vós confiam!</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblátum tibi, Dómine, sacrifícium, vivíficet nos semper et múniat. Per Dóminum nostrum...</p>
       <p>Senhor, que o sacrifício que Vos oferecemos nos vivifique sempre. Por nosso Senhor Jesus Cristo, vosso Filho, que...</p>
       </div>
@@ -86,14 +86,14 @@ export default function PageQuadp10() {
 
 <em>Sl. 42, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Introíbo ad altáre Dei, ad Deum, qui lætíficat juventútem meam.</p>
       <p>Subirei ao altar de Deus: de Deus, que é a alegria da minha juventude.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, tibi étiam plácitis móribus dignánter deservíre concédas. Per Dóminum...</p>
       <p>Deus omnipotente, humildemente Vos rogamos, concedei àqueles que alimentais com vossos sacramentos a graça de Vos servirem com uma conduta que Vos seja agradável. Por nosso Senhor...</p>
       </div>

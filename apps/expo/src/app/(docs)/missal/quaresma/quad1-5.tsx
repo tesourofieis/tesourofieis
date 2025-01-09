@@ -14,12 +14,12 @@ export default function PageQuad15() {
 
 <em>Sl. 87, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Intret orátio mea in conspéctu tuo: inclína aurem tuam ad precem meam, Dómine. <em>Ps. ibid., 2</em> Dómine, Deus salútis meæ: in die clamávi, et nocte coram te. ℣. Gloria Patri...</p>
       <p>Que a minha oração chegue à vossa presença! Senhor, ouvi benigno a minha súplica. <em>Sl. ibid., 2</em> Senhor, meu Deus e meu Salvador, de dia e de noite clamo diante de Vós. ℣. Glória ao Pai...</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus. Flectámus génua.</span></p>
       <p><span className="text-red-500 text-center">Oremos. Ajoelhemos!</span></p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -28,7 +28,7 @@ export default function PageQuad15() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pópulum tuum, quǽsumus, Dómine, propítius réspice: atque ab eo flagella tuæ iracúndiæ cleménter avérte. Per Dóminum...</p>
       <p>Senhor, Vos suplicamos, olhai propício para o vosso povo e afastai piedosamente dele os flagelos da vossa ira. Por nosso Senhor...</p>
       </div>
@@ -37,7 +37,7 @@ export default function PageQuad15() {
 
 <em>Dt. 26, 12-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Deuteronómii.</p>
       <p>Lição do Livro do Deuteronómio.</p>
       <p>In diébus illis: Locútus est Móyses ad pópulum, dicens: Quando compléveris décimam cunctárum frugum tuárum, loquéris in conspéctu Dómini, Dei tui: Abstuli, quod sanctificátum est de domo mea, et dedi illud levítæ et ádvenæ et pupíllo ac víduæ, sicut jussísti mihi: non præterívi mandáta tua, nec sum oblítus impérii tui. Obœdívi voci Dómini, Dei mei, et feci ómnia, sicut præcepísti mihi. Réspice de sanctuário tuo et de excélso cœlórum habitáculo, et benedic pópulo tuo Israël, et terræ, quam dedísti nobis, sicut jurásti pátribus nostris, terræ lacte et melle manánti. Hódie Dóminus, Deus tuus, præcépit tibi, ut fácias mandáta hæc atque judícia: et custódias et ímpleas ex toto corde tuo et ex tota ánima tua. Dóminum elegísti hódie, ut sit tibi Deus, et ámbules in viis ejus, et custódias cæremónias illíus et mandáta atque judícia, et obǿdias ejus império. Et Dóminus elegit te hódie, ut sis ei pópulus peculiáris, sicut locútus est tibi, et custódias ómnia præcépta illíus: et fáciat te excelsiórem cunctis géntibus, quas creávit in laudem et nomen et glóriam suam: ut sis populus sanctus Dómini, Dei tui, sicut locútus est.</p>
@@ -48,12 +48,12 @@ export default function PageQuad15() {
 
 <em>Sl. 78, 9 & 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus eórum? ℣. Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.</p>
       <p>Perdoai os nossos pecados, Senhor, para que os povos não digam: «Onde está o seu Deus?». ℣. Auxiliai-nos, ó Deus, nosso Salvador; para honra do vosso nome, Senhor, livrai-nos.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus. Flectámus génua.</span></p>
       <p><span className="text-red-500 text-center">Oremos. Ajoelhemos!</span></p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -62,7 +62,7 @@ export default function PageQuad15() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Potéctor noster, áspice, Deus: ut, qui malórum nostrórum póndere prémimur, percépta misericórdia, líbera tibi mente famulémur. Per Dóminum...</p>
       <p>Ó Deus, nosso protector, dignai-Vos olhar propício para nós, que estamos oprimidos com o peso dos nossos males, a fim de que, por efeito da vossa misericórdia, Vos sirvamos com o espírito livre. Por nosso Senhor...</p>
       </div>
@@ -71,7 +71,7 @@ export default function PageQuad15() {
 
 <em>Dt. 11, 22-25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Deuteronómii.</p>
       <p>Lição do Livro do Deuteronómio.</p>
       <p>In diébus illis: Dixit Móyses fíliis Israël: Si custodiéritis mandáta, quæ ego præcípio vobis, et fecéritis ea, ut diligátis Dóminum, Deum vestrum, et ambulétis in ómnibus viis ejus, adhærén-tes ei, dispérdet Dóminus omnes gentes istas ante fáciem vestram, et possidébitis eas, quæ majóres et fortióres vobis sunt. Omnis locus quem calcáverit pes vester, vester erit. A desérto et a Líbano, a flúmine magno Euphráte usque ad mare Occidentále, erunt términi vestri. Nullus stabit contra vos: terrórem vestrum et formídinem dabit Dóminus, Deus vester, super omnem terram, quam calcatúri estis, sicut locútus est vobis Dóminus, Deus vester.</p>
@@ -82,12 +82,12 @@ export default function PageQuad15() {
 
 <em>Sl. 83, 10 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Protéctor noster, áspice, Deus, et réspice super servos tuos. ℣. Dómine, Deus virtútum, exáudi preces servórum tuórum.</p>
       <p>Olhai para nós, ó Deus, que sois o nosso protector; lançai os olhos para os vossos servos. ℣. Senhor, Deus dos exércitos, ouvi as súplicas dos vossos servos.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus. Flectámus génua.</span></p>
       <p><span className="text-red-500 text-center">Oremos. Ajoelhemos!</span></p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -96,7 +96,7 @@ export default function PageQuad15() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adésto, quǽsumus, Dómine, supplicatiónibus nostris: ut esse, te largiénte, mereámur et inter próspera húmiles, et inter advérsa secúri. Per Dóminum...</p>
       <p>Senhor, Vos pedimos, dignai-Vos atender às nossas súplicas, para que, por efeito da vossa graça, possamos ser humildes nas prosperidades e confiantes nas contrariedades. Por nosso Senhor...</p>
       </div>
@@ -105,7 +105,7 @@ export default function PageQuad15() {
 
 <em>2 Mac. l, 23-26 et 27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Machabæórum.</p>
       <p>Lição do Livro dos Macabeus.</p>
       <p>In diébus illis: Oratiónem faciebant omnes sacerdotes, dum consummarétur sacrifícium, Jónatha inchoánte, céteris autem respondéntibus. Et Nehemíæ erat orátio hunc habens modum: Dómine Deus, ómnium Creátor, terríbilis et fortis, justus et miséricors, qui solus es bonus rex, solus præstans, solus justus et omnípotens et ætérnus, qui líberas Israël de omni malo, qui fecísti patres electos et sanctificásti eos: accipe sacrifícium pro univérso pópulo tuo Israël, et custódi partem tuam et sanctífica: ut sciant gentes, quia tu es Deus noster.</p>
@@ -116,12 +116,12 @@ export default function PageQuad15() {
 
 <em>Sl. 89, 13 & 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Convértere, Dómine, aliquántulum, et deprecáre super servos tuos. ℣. Dómine, refúgium factus es nobis, a generatióne et progénie.</p>
       <p>Vinde a nós quanto antes, Senhor, e deixai-Vos aplacar com as preces dos vossos servos. ℣. Senhor, tendes sido o nosso refúgio de geração em geração.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus. Flectámus génua.</span></p>
       <p><span className="text-red-500 text-center">Oremos. Ajoelhemos!</span></p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -130,7 +130,7 @@ export default function PageQuad15() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui juste pro peccátis nostris afflígimur, pro tui nóminis glória misericórditer liberémur. Per Dóminum nostrum...</p>
       <p>Ouvi benigno, Senhor, Vos suplicamos, as preces do vosso povo, a fim de que nós, que fomos justamente castigados por causa dos nossos pecados, sejamos misericordiosamente livres pela glória do vosso nome. Por nosso Senhor...</p>
       </div>
@@ -139,7 +139,7 @@ export default function PageQuad15() {
 
 <em>Ecl. 36, 1-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapientiae.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Miserére nostri, Deus ómnium, et réspice nos, et osténde nobis lucem miseratiónum tuárum: et immítte timórem tuum super gentes, quæ non exquisiérunt te, ut cognóscant, quia non est Deus nisi tu, et enárrent magnália tua. Alleva manum tuam super gentes aliénas, ut vídeant poténtiam tuam. Sicut enim in conspéctu eórum sanctificátus es in nobis, sic in conspéctu nostro magnificáberis in eis, ut cognóscant te, sicut et nos cognóvimus, quóniam non est Deus præter te, Dómine. Innova signa et immúta mirabília. Glorífica manum et bráchium dextrum. Excita furórem et effúnde iram. Tolle adversárium et afflíge inimícum. Festína tempus et meménto finis, ut enárrent mirabília tua, Dómine, Deus noster.</p>
@@ -150,12 +150,12 @@ export default function PageQuad15() {
 
 <em>Sl. 140, 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine. ℣. Elevátio mánuum meárum sacrifícium vespertínum.</p>
       <p>Que a minha oração suba até à vossa presença, como incenso, Senhor! ℣. E que o erguer das minhas mãos Vos seja agradável, como o sacrifício da tarde.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus. Flectámus génua.</span></p>
       <p><span className="text-red-500 text-center">Oremos. Ajoelhemos!</span></p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -164,7 +164,7 @@ export default function PageQuad15() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni, et adjuvándo proséquere: ut cuncta nostra orátio et operátio a te semper incípiat, et per te cœpta finiátur. Per Dóminum...</p>
       <p>Dignai-Vos, Senhor, insuflar as nossas acções com vosso espírito e acompanhá-las com vossa graça, a fim de que as nossas orações e obras, tendo princípio em Deus, tenham também n’Ele sua finalidade. Por nosso Senhor...</p>
       </div>
@@ -173,7 +173,7 @@ export default function PageQuad15() {
 
 <em>Dn. 3, 47-51</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Daniélis Prophétæ.</p>
       <p>Lição do Profeta Daniel.</p>
       <p>In diébus illis: Angelus Dómini descéndit cum Azaría et sóciis ejus in fornácem: et excússit flammam ignis de fornáce, et fecit médium fornácis quasi ventum roris flantem. Flamma autem effundebátur super fornácem cúbitis quadragínta novem: et erúpit, et incéndit, quos répperit juxta fornácem de Chaldǽis, minístros regis, qui eam incendébant. Et non tétigit eos omníno ignis, neque contristavit, nec quidquam moléstiæ íntulit. Tunc hi tres quasi ex uno ore lau-dábant, et glorificábant, et benedicébant Deum in fornáce, dicéntes:</p>
@@ -190,7 +190,7 @@ export default function PageQuad15() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui tribus púeris mitigásti flammas ígnium: concéde propítius; ut nos fámulos tuos non exúrat flamma vitiórum. Per Dóminum nostrum...</p>
       <p>Ó Deus, que mitigastes as chamas do fogo aos três jovens, concedei, misericordiosamente, a nós, que somos vossos servos, que não sejamos queimados pelas chamas dos vícios. Por nosso Senhor...</p>
       </div>
@@ -199,7 +199,7 @@ export default function PageQuad15() {
 
 <em>1 Ts. 5, 14-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.</p>
       <p>Fratres: Rogámus vos, corrípite inquiétos, consolámini pusillánimes, suscípite infirmos, patiéntes estóte ad omnes. Vidéte, ne quis malum pro malo alicui reddat: sed semper quod bonum est sectámini in ínvicem, et in omnes. Semper gaudéte. Sine intermissióne oráte. In ómnibus grátias ágite: hæc est enim volúntas Dei in Christo Jesu in ómnibus vobis. Spíritum nolíte exstínguere. Prophetías nolíte spérnere. Omnia autem probáte: quod bonum est tenéte. Ab omni spécie mala abstinéte vos. Ipse autem Deus pacis sanctíficet vos per ómnia: ut ínteger spíritus vester, et ánima, et corpus sine queréla, in advéntu Dómini nostri Jesu Christi servétur.</p>
@@ -210,7 +210,7 @@ export default function PageQuad15() {
 
 <em>Sl. 116, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli. ℣. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum.</p>
       <p>Que todas as nações louvem o Senhor; que todos os povos O glorifiquem: ℣. Porque a sua misericórdia é infinita para connosco e a verdade do Senhor permanece eternamente.</p>
       </div>
@@ -226,14 +226,14 @@ export default function PageQuad15() {
 
 <em>Sl. 87, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, Deus salútis meæ, in die clamávi et nocte coram te: intret orátio mea in conspéctu tuo, Dómine.</p>
       <p>Senhor, meu Deus e meu Salvador, clamo dia e noite diante de Vós! Que minha oração se eleve até à vossa presença.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præséntibus sacrifíciis, quǽsumus, Dómine, jejúnia nostra sanctífica: ut, quod observántia nostra profitétur extrínsecus, intérius operétur. Per Dóminum...</p>
       <p>Santificai, Senhor, Vos suplicamos, os nossos jejuns pelo presente sacrifício, a fim de que esta observância exterior produza efeitos espirituais interiores. Por nosso Senhor...</p>
       </div>
@@ -242,21 +242,21 @@ export default function PageQuad15() {
 
 <em>Sl. 7, 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, Deus meus, in te sperávi: líbera me ab ómnibus persequéntibus me, et éripe me.</p>
       <p>Senhor, meu Deus, em Vós esperei; salvai-me e livrai-me de todos meus perseguidores.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra curéntur, et remédia nobis ætérna provéniant. Per Dóminum...</p>
       <p>Ó omnipotente Deus, permiti que os nossos vícios sejam curados pela virtude deste vosso sacrifício e concedei-nos o remédio que produz a salvação eterna. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

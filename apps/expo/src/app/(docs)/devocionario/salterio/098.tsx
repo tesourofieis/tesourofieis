@@ -10,7 +10,7 @@ export default function Page098() {
       <h1>Salmo 98</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus regnávit, irascántur pópuli: * qui sedet super Chérubim, moveátur terra.</p>
       <p>O Senhor reinou, irritem-se os povos: * reina O que está sentado sobre Querubins, agite-se a terra.</p>
       <p>Dóminus in Sion magnus: * et excélsus super omnes pópulos.</p>

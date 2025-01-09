@@ -16,7 +16,7 @@ export default function Page0304() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui inter regáles delicias et mundi illécebras sanctum Casimírum virtúte constantiæ roborásti: quǽsumus; ut ejus intercessióne fidéles tui terréna despíciant, et ad cœléstia semper aspírent. Per Dóminum...</p>
       <p>Ó Deus, que no meio das delícias régias e dos atractivos do mundo fortalecestes S. Casimiro com a virtude da constância, fazei, Vos rogamos, que por sua intercessão os fiéis desprezem os bens terrenos e aspirem sempre aos celestiais. Por nosso Senhor...</p>
       </div>

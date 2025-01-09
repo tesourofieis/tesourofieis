@@ -22,7 +22,7 @@ export default function Page0902() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde, quǽsumus, Ecclésiæ tuæ, omnípotens Deus: ut beátum Stéphanum Confessórem tuum, quem regnántem in terris propagatórem hábuit, propugnatórem habére mereátur gloriósum in cœlis. Per Dóminum...</p>
       <p>Concedei à vossa Igreja, Vos imploramos, ó Deus omnipotente, que o B. Estêvão, vosso Confessor, que ela possuiu como seu propagador enquanto reinou na terra, seja agora seu defensor na glória dos céus. Por nosso Senhor...</p>
       </div>
@@ -31,7 +31,7 @@ export default function Page0902() {
 
 <em>Lc. 19, 12-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo quidam nóbilis ábiit in regionem longínquam accípere sibi regnum, et revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait ad illos: Negotiámini, dum vénio. Cives autem ejus óderant eum: et misérunt legatiónem post illum, dicéntes: Nólumus hunc regnáre super nos. Et factum est, ut redíret accépto regno: et jussit vocári servos, quibus dedit pecúniam, ut sciret, quantum quisque negotiátus esset. Venit autem primus, dicens: Dómine, mna tua decem mnas acquisívit. Et ait illi: Euge, bone serve, quia in módico fuísti fidélis, eris potestátem habens super decem civitátes. Et alter venit, dicens: Dómine, mna tua fecit quinque mnas. Et huic ait: Et tu esto super quinque civitátes. Et alter venit, dicens: Dómine, ecce mna tua, quam hábui repósitam in sudário: tímui enim te, quia homo austérus es: tollis, quod non posuísti, et metis, quod non seminásti. Dicit ei: De ore tuo te júdico, serve nequam. Sciébas, quod ego homo austérus sum, tollens, quod non pósui, et metens, quod non seminávi: et quare non dedísti pecúniam meam ad mensam, ut ego véniens cum usúris útique exegíssem illam? Et astántibus dixit: Auferte ab illo mnam et date illi, qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas. Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo autem, qui non habet, et, quod habet, auferétur ab eo.</p>
@@ -40,14 +40,14 @@ export default function Page0902() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice, quas offérimus, hóstias, omnípotens Deus: et præsta; ut, qui passiónis Dominicae mystéria celebrámus, imitémur quod ágimus. Per eúndem Dóminum...</p>
       <p>Ó Deus omnipotente, dignai-Vos olhar para estas hóstias, que Vos oferecemos, e permiti que, celebrando nós os mystérios da Paixão do Senhor, imitemos o que Vos apresentamos. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut beáti Stephani Confessóris tui fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei dilatatióne, de terréno regno ad cœléstis regni glóriam méruit perveníre. Per Dóminum nostrum...</p>
       <p>Concedei-nos, Vos rogamos, ó Deus omnipotente, a graça de imitarmos com a devida devoção os exemplos de fé do B. Estêvão, vosso Confessor, o qual pela propagação desta mesma fé mereceu transitar da realeza terrestre para a glória do reino celestial. Por nosso Senhor...</p>
       </div>

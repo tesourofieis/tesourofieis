@@ -14,14 +14,14 @@ export default function Page0815() {
 
 <em>Ap. 12, 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Signum magnum appáruit in cœlo: múlier amicta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim. <em>Ps. 97, 1</em> Cantáte Dómino cánticum novum: quóniam mirabília fecit. ℣. Gloria Patri...</p>
       <p>Um grande prodígio apareceu no céu: uma mulher revestida com o Sol, tendo a lua sob os seus pés e na cabeça uma coroa com doze estrelas. <em>Sl. 97, 1</em> Cantai ao Senhor um cântico novo, pois Ele operou maravilhas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui Immaculátam Vírginem Maríam, Fílii tui genitrícem, córpore et ánima ad cœléstem glóriam assumpsísti: concéde, quǽsumus ; ut, ad superna semper inténti, ipsíus glóriæ mereámur esse consórtes. Per eúndem Dóminum...</p>
       <p>Omnipotente e sempiterno Deus, que elevastes em corpo e alma até à glória celestial a Imaculada Virgem Maria, Mãe de vosso Filho, concedei-nos, Vos suplicamos, que, tendo nós sempre presente ao nosso espírito os dons celestiais, mereçamos tornar-nos participantes da mesma glória. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0815() {
 
 <em>Jdt. 13, 22-25; 15, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Judith.</p>
       <p>Lição do Livro de Judite.</p>
       <p>Benedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit inimícos nostros. Benedícta es tu, fília, a Dómino Deo excelso, præ ómnibus muliéribus super terram. Benedíctus Dóminus, qui creávit cœlum et terram, qui te direxit in vúlnera cápitis príncipis inimicórum nostrórum; quia hódie nomen tuum ita magnificávit, ut non recédat laus tua de ore hóminum, qui mémores fúerint virtútis Dómini in ætérnum, pro quibus non pepercísti ánimæ tuæ propter angústias et tribulatiónem géneris tui, sed subvenísti ruínæ ante conspéctum Dei nostri. Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.</p>
@@ -41,7 +41,7 @@ export default function Page0815() {
 
 <em>Sl. 44, 11-12 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Audi, fília, et vide, et inclína aurem tuam, et concupíscit rex decórem tuum. ℣. Omnis glória ejus fíliæ Regis ab intus, in fímbriis áureis circumamícta varietátibus.</p>
       <p>Ouvi, ó filha, vede e aplicai os vossos ouvidos: e o Rei cobiçará a vossa formosura! ℣. A filha do Rei entra toda gloriosa no seu palácio: os seus vestidos são tecidos de brocado de ouro.</p>
       <p>Allelúja, allelúja. ℣. Assumpta est María in cœlum: gaudet exércitus Angelórum. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page0815() {
 
 <em>Lc. 1, 41-50</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Repléta est Spíritu Sancto Elisabeth et exclamávit voce magna, et dixit: Benedícta tu inter mulíeres, et benedíctus fructus ventris tui. Et unde hoc mihi ut véniat mater Dómini mei ad me? Ecce enim ut facta est vox salutatiónis tuæ in áuribus meis, exsultávit in gáudio infans in útero meo. Et beáta, quæ credidísti, quóniam perficiéntur ea, quæ dicta sunt tibi a Dómino. Et ait María: Magníficat ánima mea Dóminum; et exsultávit spíritus meus in Deo salutári meo; quia respéxit humilitátem ancíllæ suæ, ecce enim ex hoc beátam me dicent omnes generatiónes. Quia fecit mihi magna qui potens est, et sanctum nomen ejus, et misericórdia ejus a progénie in progénies timéntibus eum.</p>
@@ -63,14 +63,14 @@ export default function Page0815() {
 
 <em>Gn. 3, 15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Inimicítias ponam inter te et mulíerem, et semen tuum et semen illíus.</p>
       <p>Porei inimizades entre ti e a Mulher, e entre a tua prole e a sua Prole.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ascéndat ad te, Dómine, nostræ devotiónis oblátio, et, beatíssima Vírgine María in cœlum assumpta intercedénte, corda nostra, caritátis igne succénsa, ad te júgiter ádspirent. Per Dóminum...</p>
       <p>Ascenda até Vós, Senhor, a oblação da nossa piedade; e, por intercessão da beatíssima Virgem Maria, elevada ao céu em corpo e alma, permiti que, abrasados nossos corações no fogo da caridade, continuamente por Vós aspirem. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page0815() {
 
 <em>Lc. 1, 48-49</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátam me dicent omnes generatiónes, quia fecit mihi magna qui potens est.</p>
       <p>Chamar-me-ão Bem-aventurada todas as gerações, pois Aquele, que é omnipotente, operou em mim maravilhas.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumptis, Dómine, salutáribus sacraméntis: da, quǽsumus; ut, méritis et intercessióne beátæ Vírginis Maríæ in cœlum assúmptæ, ad resurrectiónis glóriam perducámur. Per Dóminum nostrum...</p>
       <p>Havendo recebido, Senhor, os vossos salutares sacramentos, concedei-nos, Vos suplicamos, que, pelos méritos e intercessão da Bem-aventurada Virgem Maria, elevada ao céu em corpo e alma, sejamos conduzidos à glória da ressurreição. Por nosso Senhor...</p>
       </div>

@@ -18,7 +18,7 @@ export default function PageOracoespreliminares() {
 
 Antes de se Paramentar, o Sacerdote recita estas Preces:
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ne reminiscáris, Dómine, delícta nostra vel paréntum nostrórum, neque vindíctam sumas de peccátis nostris. (T. P. Allelúja.)</p>
       <p><em>Ant.</em> Não Vos recordeis, Senhor, dos nossos delitos, nem dos delitos de nossos pais; não queirais vingar-Vos dos nossos pecados. (T. P. Aleluia.)</p>
       </div>
@@ -48,7 +48,7 @@ Antes de se Paramentar, o Sacerdote recita estas Preces:
 
 <Salmo129 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ne reminiscáris, Dómine, delícta nostra vel paréntum nostrórum, neque vindíctam sumas de peccátis nostris. (T. P. Allelúja.)</p>
       <p><em>Ant.</em> Não Vos recordeis, Senhor, dos nossos delitos, nem dos delitos de nossos pais; não queirais vingar-Vos dos nossos pecados. (T. P. Aleluia.)</p>
       <p>℣. Kyrie, eléison. Christe, eléison. Kyrie, eléison.</p>
@@ -91,7 +91,7 @@ Antes de se Paramentar, o Sacerdote recita estas Preces:
 
       <h2>Oração Santo Ambrósio</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad mensam dulcíssimi convívii tui, pie Dómine Jesu Christe, ego peccátor de própriis meis méritis nihil præsúmens, sed de tua confídens misericórdia et bonitáte, accédere véreor et contremísco.</p>
       <p>Ó clementíssimo Senhor Jesus Cristo, eu, indigno pecador, desconfiando profundamente dos meus próprios merecimentos, e confiando absolutamente na vossa misericórdia e bondade, receio e tremo ao aproximar-me da mesa do vosso suavíssimo e dulcíssimo banquete.</p>
       <p>Nam cor et corpus hábeo multis crimínibus maculátum, mentem et línguam non caute custodítam.</p>
@@ -114,7 +114,7 @@ Antes de se Paramentar, o Sacerdote recita estas Preces:
 
       <h2>Oração São Tomás Aquino</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempiterne Deus, ecce, accédo ad sacraméntum unigéniti Fílii tui, Dómini nostri Jesu Christi; accédo tamquam infírmus ad médicum vitæ, immúndus ad fontem misericórdiæ, cæcus ad lumen claritátis ætérnæ, pauper et egénus ad Dóminum cæli et terræ.</p>
       <p>Deus omnipotente e eterno, eis que me vou aproximar do Sacramento de vosso Filho Unigénito, N. S. Jesus Cristo. E eis que venho como enfermo, ao médico da vida, como manchado, à fonte de misericórdia; como um cego à luz da eterna claridade; e como pobre indigente, ao Senhor do céu e da terra.</p>
       <p>Rogo ergo imménsæ largitátis tuæ abundántiam, quátenus meam curáre dignéris infirmitátem, laváre fœditátem, illumináre cæcitátem, ditáre paupertátem, vestíre nuditátem: ut panem Angelórum, Regem regum et Dóminum dominántium, tanta suscípiam reveréntia et humilítate, tanta contritióne et devotióne, tanta puritáte et fíde, tali propósito et intentióne, sicut éxpedit salúti ánimæ meæ.</p>
@@ -131,7 +131,7 @@ Antes de se Paramentar, o Sacerdote recita estas Preces:
 
       <h2>Oração à Santíssima Virgem</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>O Mater pietátis et misericórdiæ, beatíssima Virgo María, ego miser et indígnus peccátor ad te confúgio toto corde et afféctu; et precor pietátem tuam, ut, sicut dulcíssimo Fílio tuo in Cruce pendénti astítisti, ita et mihi, mísero peccatóri, et sacerdótibus ómnibus, hic et in tota sancta Ecclésia hódie offeréntibus, cleménter assístere dignéris, ut, tua grátia adjúti, dignam et acceptábilem hóstiam in conspéctu summæ et indivíduæ Trinitátis offérre valeámus. Amen.</p>
       <p>Ó Mãe de bondade e de misericórdia, Santíssima Virgem Maria, eu, miserável e indigno pecador, a Vós recorro de todo o coração e com todo o amor; e Vos suplico que, assim como estivestes de pé junto ao vosso amabilíssimo Filho pendente da Cruz, me assistais também a mim, mísero pecador, e a todos os sacerdotes que hoje na Santa Igreja oferecem o Santo Sacrifício. Auxiliados pela vossa graça, possamos nós apresentar à suprema e indivisível Trindade a Vítima verdadeiramente digna de lhe ser oferecida. Amen.</p>
       </div>

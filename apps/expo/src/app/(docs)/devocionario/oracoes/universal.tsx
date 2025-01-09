@@ -10,7 +10,7 @@ export default function PageUniversal() {
       <h1>Oração Universal do Papa Clemente XI</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Credo Domine, sed credam firmius; spero, sed sperem securius; amo, sed amem ardentius; doleo, sed doleam vehementius.</p>
       <p>Senhor, creio em Vós, fazei que creia com mais firmeza; espero em Vós, fazei que espere com mais confiança; amo-Vos, aumentai o meu amor; arrependo-me, avivai a minha dor.</p>
       <p>Adoro te ut primum principium; desidero ut finem ultimum; laudo ut benefactorem perpetuum; invoco ut defensorem propitium.</p>

@@ -17,7 +17,7 @@ export default function Page1004() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui Ecclésiam tuam, beáti Francisci méritis fœtu novæ prolis amplíficas: tríbue nobis; ex ejus imitatióne, terréna despícere et cœléstium donórum semper participatióne gaudére. Per Dóminum...</p>
       <p>Ó Deus, que pelos méritos do B. Francisco enriquecestes a vossa Igreja, dando-lhe uma nova família, concedei-nos a graça de imitá-lo, desprezando os bens terrenos, e de sempre nos alegrarmos com a participação dos dons celestiais. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page1004() {
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecclésiam tuam, quǽsumus, Dómine, grátia cœléstis amplíficet: quam beáti Francísci Confessóris tui illumináre voluísti gloriósis méritis et exémplis. Per Dóminum nostrum...</p>
       <p>Dignai-Vos, Senhor, Vos suplicamos, com a graça celestial dilatar a vossa Igreja, a qual quisestes ilustrar com os gloriosos méritos e exemplos do B. Francisco, vosso Confessor. Por nosso Senhor...</p>
       </div>

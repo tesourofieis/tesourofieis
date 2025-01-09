@@ -14,14 +14,14 @@ export default function PagePasc04() {
 
 <em>Sb. 10, 20-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Victrícem manum tuam, Dómine, laudavérunt páriter, allelúja: quia sapiéntia apéruit os mutum, et linguas infántium fecit disértas, allelúja, allelúja. <em>Ps. 97, 1</em> Cantáte Dómino cánticum novum: quia mirabília fecit. ℣. Gloria Patri...</p>
       <p>Louvaram juntamente, Senhor, a vossa mão vencedora, aleluia: pois a sabedoria abriu a boca dos mudos e tornou eloquente a língua das crianças, aleluia, aleluia. <em>Sl. 97, 1</em> Cantai em honra do Senhor um hino novo, pois Ele operou maravilhas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui diversitátem géntium in confessióne tui nóminis adunásti: da, ut renátis fonte baptísmatis una sit fides méntium, et píetas actiónum. Per Dóminum...</p>
       <p>Ó Deus, que reunistes os diversos povos na confissão do vosso nome, fazei que aqueles que foram regenerados pela água do baptismo tenham uma só fé no espírito e uma só piedade nas acções. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePasc04() {
 
 <em>Act. 8, 26-40</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolorum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Angelus Dómini locútus est ad Philíppum, dicens: Surge et vade contra meridiánum ad viam, quæ descéndit ab Jerúsalem in Gazam: hæc est desérta. Et surgens ábiit. Et ecce, vir Æthiops eunúchus, potens Candácis regínæ Æthíopum, qui erat super omnes gazas ejus, vénerat adoráre in Jerúsalem: et revertebátur sedens super currum suum, legénsque Isaíam Prophétam. Dixit autem Spíritus Philíppo: Accéde et adjúnge te ad currum istum. Accúrrens autem Philíppus, audívit eum legéntem Isaíam Prophétam, et dixit: Putásne, intéllegis, quæ legis? Qui ait: Et quómodo possum, si non áliquis osténderít mihi? Rogavítque Philíppum, ut ascénderet et sedéret secum. Locus autem Scriptúræ, quam legébat, erat hic: Tamquam ovis ad occisiónem ductus est: et sicut agnus coram tondénte se, sine voce, sic non apéruit os suum. In humilitáte judícium ejus sublátum est. Generatiónem ejus quis enarrábit, quóniam tollétur de terra vita ejus? Respóndens autem eunúchus Philíppo, dixit: Obsecro te, de quo Prophéta dicit hoc? de se, an de álio áliquo? Apériens autem Philíppus os suum, et incípiens a Scriptúra ista, evangelizávit illi Jesum. Et dum irent per viam, venérunt ad quandam aquam: et ait eunúchus: Ecce aqua, quid próhibet me baptizári? Dixit autem Philíppus: Si credis ex toto corde, licet. Et respóndens, ait: Credo, Fílium Dei esse Jesum Christum. Et jussit stare currum: et descendérunt utérque in aquam. Philíppus et eunúchus, et baptizávit eum. Cum autem ascendíssent de aqua, Spíritus Dómini rápuit Philippum, et ámplius non vidit eum eunúchus. Ibat autem per viam suam gaudens. Philíppus autem invéntus est in Azóto, et pertránsiens evangelizábat civitátibus cunctis (donec veniret Cæsaréam) nomen Dómini Jesu Christi.</p>
@@ -41,7 +41,7 @@ export default function PagePasc04() {
 
 <em>Sl. 117, 24 & 22-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea. ℣. Lápidem, quem reprobavérunt ædificántes, hic factus est in caput ánguli: a Dómino factum est istud, et est mirábile in óculis nostris.</p>
       <p>Eis o dia que o Senhor fez: exultemos e alegremo-nos nele. A pedra que os edificadores rejeitaram tornou-se na pedra angular: foi o Senhor quem fez isto; e os nossos olhos viram-no com admiração.</p>
       <p>Allelúja, allelúja. ℣. Surréxit Christus, qui creávit ómnia: et misértus est humáno géneri.</p>
@@ -50,7 +50,7 @@ export default function PagePasc04() {
 
       <h3>Evangelho</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: María stabat ad monuméntum foris, plorans. Dum ergo fleret, inclinávit se et prospéxit in monuméntum: et vidit duos Angelos in albis, sedéntes, unum ad caput et unum ad pedes, ubi pósitum fúerat corpus Jesu. Dicunt ei illi: Mulier, quid ploras? Dicit eis: Quia tulérunt Dóminum meum: et néscio, ubi posuérunt eum. Hæc cum dixísset, convérsa est retrórsum, et vidit Jesum stantem: et non sciébat, quia Jesus est. Dicit ei Jesus: Múlier, quid ploras? quem quæris? Illa exístimans, quia hortulánus esset, dicit ei: Dómine, si tu sustulísti eum, dícito mihi, ubi posuísti eum: et ego eum tollam. Dicit ei Jesus: María. Convérsa illa, dicit ei: Rabbóni (quod dícitur Magíster). Dicit ei Jesus: Noli me tángere, nondum enim ascéndi ad Patrem meum: vade autem ad fratres meos et dic eis: Ascéndo ad Patrem meum et Patrem vestrum, Deum meum et Deum vestrum. Venit María Magdaléne annúntians discípulis: Quia vidi Dóminum, et hæc dixit mihi.</p>
@@ -61,14 +61,14 @@ export default function PagePasc04() {
 
 <em>Ex. 13, 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In die solemnitátis vestræ, dicit Dóminus, indúcam vos in terram fluéntem lac et mel, allelúja.</p>
       <p>No dia da vossa solenidade, diz o Senhor, Eu vos conduzirei à terra onde correm leite e mel, aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, quǽsumus, Dómine, múnera populórum tuórum propítius: ut, confessióne tui nóminis et baptísmate renováti, sempitérnam beatitúdinem consequántur. Per Dóminum...</p>
       <p>Recebei benigno, Senhor, Vos suplicamos, as ofertas dos vossos servos, para que, renovados em virtude da profissão de fé e do baptismo, alcancem a bem-aventurança eterna. Por nosso Senhor...</p>
       </div>
@@ -77,14 +77,14 @@ export default function PagePasc04() {
 
 <em>1 Pe. 2, 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pópulus acquisitiónis, annuntiáte virtútes ejus, allelúja: qui vos de ténebris vocávit in admirábile lumen suum, allelúja.</p>
       <p>Que o povo por Deus adquirido anuncie as grandezas divinas, aleluia, Foi Ele quem vos conduziu das trevas à sua admirável luz, aleluia.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Dómine, preces nostras: ut redemptiónis nostræ sacrosáncta commércia, et vitæ nobis cónferant præséntis auxílium, et gáudia sempitérna concílient. Per Dóminum...</p>
       <p>Ouvi, Senhor, as nossas preces, a fim de que os sacrossantos mystérios da nossa redenção nos auxiliem durante esta vida e nos obtenham as alegrias eternas. Por nosso Senhor...</p>
       </div>

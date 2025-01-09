@@ -10,7 +10,7 @@ export default function Page052() {
       <h1>Salmo 52</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dixit insípiens in corde suo: * Non est Deus.</p>
       <p>Disse o parvo no seu coração: * não há Deus.</p>
       <p>Corrúpti sunt, et abominábiles facti sunt in iniquitátibus: * non est qui fáciat bonum.</p>

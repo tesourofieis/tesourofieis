@@ -10,7 +10,7 @@ export default function Page120() {
       <h1>Salmo 120</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Levávi óculos meos in montes, * unde véniet auxílium mihi.</p>
       <p>Levantei os meus olhos para os montes, * donde me virá o auxílio.</p>
       <p>Auxílium meum a Dómino, * qui fecit cælum et terram.</p>

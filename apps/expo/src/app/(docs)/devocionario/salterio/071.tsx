@@ -10,7 +10,7 @@ export default function Page071() {
       <h1>Salmo 71</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, judícium tuum regi da: * et justítiam tuam fílio regis:</p>
       <p>Dai o vosso juízo ao rei, ó Deus: * e a vossa justiça, ao filho do Rei:</p>
       <p>Judicáre pópulum tuum in justítia, * et páuperes tuos in judício.</p>

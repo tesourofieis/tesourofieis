@@ -10,7 +10,7 @@ export default function PageSanguejesus() {
       <h1>Ladainha Sangue de Jesus</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Kyrie, eleison.</p>
       <p>Senhor, tende piedade de nós.</p>
       <p>Christe, eleison.</p>

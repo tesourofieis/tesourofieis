@@ -10,7 +10,7 @@ export default function Page042() {
       <h1>Salmo 42</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Júdica me, Deus, et discérne causam meam de gente non sancta, * ab hómine iníquo, et dolóso érue me.</p>
       <p>Julgai-me, ó Deus, e defendei a minha causa da gente infiel, * livrai-me do homem iníquo e ardiloso.</p>
       <p>Quia Tu es, Deus, fortitúdo mea: * quare me repulísti? et quare tristis incédo, dum afflígit me inimícus?</p>

@@ -10,7 +10,7 @@ export default function Page146() {
       <h1>Salmo 146</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudáte Dóminum quóniam bonus est psalmus: * Deo nostro sit jucúnda, decóraque laudátio.</p>
       <p>Louvai o Senhor, porque é bom salmodiar: * sê alegre para o nosso Deus, louvai-O graciosamente.</p>
       <p>Ædíficans Jerúsalem Dóminus: * dispersiónes Israélis congregábit.</p>

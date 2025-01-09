@@ -20,7 +20,7 @@ Nascido em Soana na Toscana, Hildebrando foi monge do célebre mosteiro benedict
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, in te sperántium fortitúdo, qui beátum Gregórium Confessórem tuum atque Pontíficem, pro tuénda Ecclésiæ libertáte, virtúte constántiæ roborásti: da nobis, ejus exémplo et intercessióne, ómnia adversántia fórtiter superáre. Per Dóminum...</p>
       <p>Ó Deus, fortaleza daqueles que esperam em Vós, concedestes ao B. Gregório, vosso Confessor e Pontífice, a virtude da constância para defender a liberdade da Igreja, permiti que, imitando o seu exemplo e pela sua intercessão, vençamos com coragem todas as adversidade. Por nosso Senhor...</p>
       </div>

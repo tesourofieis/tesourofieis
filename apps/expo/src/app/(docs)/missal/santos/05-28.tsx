@@ -18,7 +18,7 @@ export default function Page0528() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui Anglórum gentes, prædicatióne et miráculis beáti Augustíni Confessóris tui atque Pontíficis, veræ fídei luce illustráre dignátus es: concéde; ut, ipso interveniénte, errántium corda ad veritátis tuæ rédeant unitátem, et nos in tua simus voluntáte concórdes. Per Dóminum nostrum...</p>
       <p>Ó Deus, que pela pregação e milagres do B. Agostinho, vosso Confessor e Pontífice, Vos dignastes ilustrar com a luz da verdadeira fé a nação inglesa, concedei-nos por sua intercessão que os corações dos que andam transviados regressem à unidade da vossa fé, e sejamos concordes com vossa vontade. Por nosso Senhor...</p>
       </div>
@@ -27,7 +27,7 @@ export default function Page0528() {
 
 <em>1 Ts. 2, 2-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.</p>
       <p>Fratres: Fidúciam habúimus in Deo nostro loqui ad vos Evangélium Dei in multa sollicitúdine. Exhortátio enim nostra non de erróre neque de immundítia neque in dolo, sed sicut probáti sumus a Deo, ut crederétur nobis Evangélium: ita lóquimur, non quasi homínibus placéntes, sed Deo, qui probat corda nostra. Neque enim aliquándo fuimus in sermóne adulatiónis, sicut scitis: neque in occasióne avarítiæ: Deus testis est: nec quæréntes ab homínibus glóriam, neque a vobis neque ab áliis; cum possémus vobis óneri esse ut Christi Apóstoli: sed facti sumus párvuli in médio vestrum, tamquam si nutrix fóveat fílios suos. Ita desiderántes vos, cúpide volebámus trádere vobis non solum Evangélium Dei, sed étiam ánimas nostras: quóniam caríssimi nobis facti estis. Mémores enim estis, fratres, labóris nostri et fatigatiónis: nocte ac die operántes, ne quem vestrum gravarémus, prædicávimus in vobis Evangélium Dei.</p>
@@ -40,14 +40,14 @@ export default function Page0528() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacrifícium tibi offérimus. Dómine, in sollemnitáte beáti Augustíni Pontíficis et Confessóris tui, humíliter deprecántes: ut oves, quæ periérunt, ad unum ovile revérsæ, hoc salutári pábulo nutriántur. Per Dóminum...</p>
       <p>Vos oferecemos, Senhor, este sacrifício na solenidade do B. Agostinho, vosso Pontífice e Confessor, suplicando-Vos humildemente que as ovelhas perdidas, tendo regressado ao único aprisco, se sustentem com este salutar alimento. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstia salutári refécti: te. Dómine, súpplices exorámus; ut eadem, beáti Augustíni interveniénte suffrágio, in omni loco nómini tuo júgiter immolétur. Per nominum nostrum...</p>
       <p>Saciados com a hóstia salutar, Senhor, Vos pedimos humildemente que pela intercessão dos sufrágios do B. Agostinho ela seja imolada em honra do vosso nome em todos os lugares e constantemente. Por nosso Senhor...</p>
       </div>

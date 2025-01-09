@@ -14,14 +14,14 @@ export default function Page1009() {
 
 <em>Ecl. 42, 15-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In sermónibus Dómini ópera ejus: sol illúminans per ómnia respéxit, et glória Dómini plenum est opus ejus. <em>Ps. 95, 1</em> Cantáte Dómino cánticum novum: cantáte Dómino, omnis terra. ℣. Gloria Patri...</p>
       <p>Pelas palavras do Senhor existem as suas obras. Assim como o sol resplandecente ilumina todas as coisas, assim as suas obras estão cheias da glória do Senhor. <em>Sl. 95, 1</em> Cantai ao Senhor um cântico novo: cantai ao Senhor, ó habitantes de toda a terra. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátum Joánnem Confessórem tuum ad fidem in géntibus propagándam mirabíliter excitáre dignátus es, ac per eum in erudiéndis fidélibus novam in Ecclésia tua famíliam congregásti: da nobis fámulis tuis; ita ejus institútis profícere, ut prǽmia consequámur ætérna. Per Dominum...</p>
       <p>Ó Deus, que pelo B. João, vosso Confessor, Vos dignastes animar de um modo admirável a propagação da fé entre os gentios, e por ele instituístes na vossa Igreja uma nova família para a instrução dos fiéis, concedei-nos a nós, vossos servos, que de tal maneira nos aproveitem os seus conselhos que alcancemos os prémios eternos. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page1009() {
 
 <em>2 Cor. 4, 1-6 & 15-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lectio Epístolæ beati Pauli Apóstoli ad Corinthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Habéntes administratiónem juxta quod misericórdiam consecúti sumus, non defícimus, sed abdicámus occúlta dedécóris, non ambulántes in astútia, neque adulterántes verbum Dei, sed in manifestatióne veritátis commendántes nosmetípsos ad omnem consciéntiam hóminum coram Deo. Quod si étiam opértum est Evangélium nostrum : in iis, qui péreunt, est opértum: in quibus Deus hujus sǽculi excæcávit mentes infidélium, ut non fúlgeat illis illuminátio Evangélii glóriæ Christi, qui est imágo Dei. Non enim nosmetípsos prædicámus, sed Jesum Christum Dóminum nostrum: nos autem servos vestros per Jesum: quóniam Deus, qui dixit de ténebris lucem splendéscere, ipse illúxit in córdibus nostris ad illuminatiónem sciéntiæ claritátis Dei, in fácie Christi Jesu. Omnia enim propter vos: ut grátia abúndans, per multos in gratiárum actione, abúndet in glóriam Dei. Propter quod non deficimus: sed licet is, qui foris est, noster homo corrumpátur: tamen is, qui intus est, renovatur de die in diem. Id enim, quod in praesenti est momentáneum et leve tribulatiónis nostræ, supra modum in sublimitáte ætérnum glóriæ pondus operátur in nobis, non contemplántibus nobis quæ vidéntur, sed quæ non vidéntur. Quæ enim vidéntur, temporália sunt: quæ autem non vidéntur, ætérna sunt.</p>
@@ -41,7 +41,7 @@ export default function Page1009() {
 
 <em>Sl. 72, 21; 68, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Inflammátum est cor meum, et renes mei commutáti sunt: zelus domus tuæ comédit me. ℣. <em>Isai. 49, 2</em> Pósuit os meum quasi gládium acutum: in umbra manus suæ protéxit me, et pósuit me sicut sagíttam eléctam.</p>
       <p>Inflamou-se o meu coração e comoveram-se as minhas entranhas: o zelo da tua casa devorou-me. ℣. <em>Is. 49, 2</em> O Senhor tornou a minha boca como uma espada aguda: protegeu-me com a sombra da sua mão: e fez de mim como que uma seta escolhida.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 70, 7</em> Tamquam prodígium factus sum multis: et tu adjútor fortis, Allelúja.</p>
@@ -57,14 +57,14 @@ export default function Page1009() {
 
 <em>Col. 1, 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Christi factus sum ego miníster secúndum dispensatiónem Dei, quæ data est mihi, ut ímpleam verbum Dómini.</p>
       <p>Eu fui constituído ministro de Cristo, segundo o cargo que Deus me deu junto de vós, para que se cumpra a palavra do Senhor.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súscipe, Dómine, oblatiónem mundam salutáris hóstiæ: et præsta; ut, intercedénte beáto Joánne Confessóre tuo, úbique géntium júgiter offerátur. Per Dóminum...</p>
       <p>Recebei, Senhor, a oblação pura da hóstia salutar; e concedei-nos por intercessão do B. João, vosso Confessor, que ela seja oferecida constantemente em todos os povos da terra. Por nosso Senhor...</p>
       </div>
@@ -73,14 +73,14 @@ export default function Page1009() {
 
 <em>Fl. 3, 7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quæ mihi fúerunt lucra, hæc arbitrátus sum propter Christum detriménta.</p>
       <p>Aquelas coisas que reputava como lucro, considerei-as depois, por amor de Cristo, como prejudiciais.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pretiósi córporis, et sánguinis tui sacris refécti mystériis, Dómine, adprecámur: ut beáti Joánnis Confessóris tui exémplo, studeámus confitéri quod crédidit, et ópere exercére quod dócuit: Qui vivis...</p>
       <p>Alimentados, Senhor, com os sacrossantos mystérios do vosso precioso Corpo e Sangue, Vos rogamos instantemente que com o exemplo do B. João, vosso Confessor, procuremos confessar o que ele acreditou e praticar com nossas obras o que ele ensinou. Ó Vós, que...</p>
       </div>

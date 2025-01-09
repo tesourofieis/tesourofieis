@@ -14,14 +14,14 @@ export default function PageEpi30() {
 
 <em>Sl. 96, 7-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judae. <em>Ps. ibid., 1</em> Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. ℣. Gloria Patri...</p>
       <p>Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião e rejubilou: e as filhas de Judá exultaram de alegria. <em>Sl. ibid., 1</em> O Senhor reinou: alegre-se a terra e as suas muitas ilhas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, infirmitatem nostram propítius réspice: atque, ad protegéndum nos, déxteram tuæ majestátis exténde. Per Dóminum...</p>
       <p>Ó Deus omnipotente e eterno, olhai benigno para a nossa fraqueza, e que a vossa majestade nos estenda a sua dextra para nos proteger continuamente. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageEpi30() {
 
 <em>Rm. 12, 16-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Nolíte esse prudéntes apud vosmetípsos: nulli malum pro malo reddéntes: providéntes bona non tantum coram Deo, sed étiam coram ómnibus homínibus. Si fíeri potest, quod ex vobis est, cum ómnibus homínibus pacem habéntes: Non vosmetípsos defendéntes, caríssimi, sed date locum iræ. Scriptum est enim: Mihi vindícta: ego retríbuam, dicit Dóminus. Sed si esuríerit inimícus tuus, ciba illum: si sitit, potum da illi: hoc enim fáciens, carbónes ignis cóngeres super caput ejus. Noli vinci a malo, sed vince in bono malum.</p>
@@ -41,7 +41,7 @@ export default function PageEpi30() {
 
 <em>Sl. 101, 16-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam. ℣. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua.</p>
       <p>As nações temerão o vosso nome, Senhor; e todos os reis da terra contemplarão a vossa glória. ℣. Pois o Senhor reedificou Sião: e manifestar-se-á aí na sua majestade.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 96, 1</em> Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PageEpi30() {
 
 <em>Mt. 8, 1-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Cum descendísset Jesus de monte, secútæ sunt eum turbæ multæ: et ecce, leprósus véniens adorábat eum, dicens: Dómine, si vis, potes me mundáre. Et exténdens Jesus manum, tétigit eum, dicens: Volo. Mundáre. Et conféstim mundáta est lepra ejus. Et ait illi Jesus: Vide, némini díxeris: sed vade, osténde te sacerdóti, et offer munus, quod præcépit Móyses, in testimónium illis. Cum autem introísset Caphárnaum, accéssit ad eum centúrio, rogans eum et dicens: Dómine, puer meus jacet in domo paralýticus, et male torquetur. Et ait illi Jesus: Ego véniam, et curábo eum. Et respóndens centúrio, ait: Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur puer meus. Nam et ego homo sum sub potestáte constitútus, habens sub me mílites, et dico huic: Vade, et vadit; et alii: Veni, et venit; et servo meo: Fac hoc, et facit. Audiens autem Jesus, mirátus est, et sequéntibus se dixit: Amen, dico vobis, non inveni tantam fidem in Israël. Dico autem vobis, quod multi ab Oriénte et Occidénte vénient, et recúmbent cum Abraham et Isaac et Jacob in regno cœlórum: fílii autem regni ejiciéntur in ténebras exterióres: ibi erit fletus et stridor déntium. Et dixit Jesus centurióni: Vade et, sicut credidísti, fiat tibi. Et sanátus est puer in illa hora.</p>
@@ -63,14 +63,14 @@ export default function PageEpi30() {
 
 <em>Sl. 117, 16 & 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.</p>
       <p>A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me. Não morrerei: viverei e nanarei os prodígios do Senhor.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad sacrifícium celebrándum, subditórum tibi córpora mentésque sanctíficet. Per Dóminum...</p>
       <p>Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos delitos, e santifique as almas e os corpos dos vossos súbditos, para que dignamente celebremos este sacrifício. Por nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function PageEpi30() {
 
 <em>Lc. 4, 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mirabántur omnes de his, quæ procedébant de ore Dei.</p>
       <p>Todos estavam admirados das palavras que saíam da boca de Deus.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quos tantis, Dómine, largíris uti mystériis: quǽsumus; ut efféctibus nos eórum veráciter aptáre dignéris. Per Dóminum...</p>
       <p>Senhor, já que nos concedestes a graça de participarmos destes tão augustos mystérios, tornai-nos dignos, Vos suplicamos, de recebermos com eficácia os seus efeitos. Por nosso Senhor...</p>
       </div>

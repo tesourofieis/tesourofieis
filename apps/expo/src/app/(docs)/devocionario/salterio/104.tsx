@@ -10,7 +10,7 @@ export default function Page104() {
       <h1>Salmo 104</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitémini Dómino, et invocáte nomen ejus: * annuntiáte inter gentes ópera ejus.</p>
       <p>Louvai o Senhor e invocai o seu nome: * anunciai as suas obras entre as gentes.</p>
       <p>Cantáte ei, et psállite ei: * narráte ómnia mirabília ejus.</p>

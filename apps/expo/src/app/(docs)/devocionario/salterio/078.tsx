@@ -10,7 +10,7 @@ export default function Page078() {
       <h1>Salmo 78</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, venérunt gentes in hereditátem tuam, polluérunt templum sanctum tuum: * posuérunt Jerúsalem in pomórum custódiam.</p>
       <p>Ó Deus, vieram as gentes à vossa herança, contaminaram o vosso santo templo: * e fizeram de Jerusalém uma despensa de frutas.</p>
       <p>Posuérunt morticína servórum tuórum, escas volatílibus cæli: * carnes sanctórum tuórum béstiis terræ.</p>

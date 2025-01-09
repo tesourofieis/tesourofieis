@@ -14,7 +14,7 @@ export default function Page0201() {
 
 <em>Gl. 6, 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus crucifíxus est, et ego mundo. <em>Ps. 131, 1</em> Meménto, Dómine, David: et omnis mansuetúdinis ejus. ℣. Gloria Patri...</p>
       <p>Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de N. S. Jesus Cristo, pela qual o mundo foi crucificado para mim e eu para o mundo. <em>Sl. 131, 1</em> Lembrai-Vos de David, Senhor, assim como da sua mansidão. ℣. Glória ao Pai...</p>
       </div>
@@ -23,7 +23,7 @@ export default function Page0201() {
 
 <em>Rm. 8, 35-39</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epistolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Quis nos separábit a cantáte Christi: tribulátio, an angustia, an fames, an núditas, an perículum, an persecútio, an gládius? (sicut scriptum est: Quia propter te mortificámur tota die: æstimáti sumus sicut oves occisiónis). Sed in his ómnibus superámus propter eum, qui diléxit nos. Certus sum enim, quia neque mors, neque vita, neque ángeli, neque principátus, neque virtútes, neque instántia, neque futúra, neque fortitúdo, neque altitúdo, neque profúndum, neque creatúra alia poterit nos separáre a cantáte Dei, quæ est in Christo Jesu, Dómino nostro.</p>
@@ -34,7 +34,7 @@ export default function Page0201() {
 
 <em>Ecl. 44, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce sacérdos magnus, qui m diébus suis plácuit Deo. ℣. <em>Ibid , 20</em> Non est invéntus símilis illi, qui conserváret legem Excélsi.</p>
       <p>Eis o grande sacerdote que durante a vida agradou a Deus. ℣. <em>Ibid , 20</em> Não houve quem, como ele, guardasse a observância da Lei do Altíssimo.</p>
       <p>Allelúja, allelúja. ℣. <em>Gal 2, 19-20</em> Christo confíxus sum Cruci: vivo ego, jam non ego, vivit vero in me Christus. Allelúja.</p>
@@ -47,7 +47,7 @@ export default function Page0201() {
 
 <em>Sl. 20, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Desirérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum. ℣. Quoniam prævenísti eum in benedictiónibus dulcedinis. ℣. Posuísti in cápite ejus coronam de lápide pretióso.</p>
       <p>Satisfizestes os desejos do seu coração e o não iludistes nas preces proferidas por seus lábios. ℣. Vós, Senhor, o enchestes com bênçãos faustosas. ℣. Colocastes na sua cabeça o diadema de ouro.</p>
       </div>
@@ -56,7 +56,7 @@ export default function Page0201() {
 
 <em>Sl. 8, 6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Glória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Domine.</p>
       <p>Vós o coroastes, Senhor, com glória e honras: Vós lhe concedestes domínio sobre as obras das vossas mãos.</p>
       </div>
@@ -65,7 +65,7 @@ export default function Page0201() {
 
 <em>Palavras de S. Inácio</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fruméntum Christi sum: déntibus bestiárum molar, ut panis mundus invéniar.</p>
       <p>Sou o trigo de Cristo, que hei-de ser moído nos dentes das feras para me tornar em pão puríssimo.</p>
       </div>

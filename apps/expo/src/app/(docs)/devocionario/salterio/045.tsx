@@ -10,7 +10,7 @@ export default function Page045() {
       <h1>Salmo 45</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus noster refúgium, et virtus: * adjútor in tribulatiónibus, quæ invenérunt nos nimis.</p>
       <p>O nosso Deus é o nosso refúgio e a nossa força: * o nosso auxílio nas muitas tribulações em que nos encontrávamos.</p>
       <p>Proptérea non timébimus dum turbábitur terra: * et transferéntur montes in cor maris.</p>

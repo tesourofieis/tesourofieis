@@ -10,7 +10,7 @@ export default function Page066() {
       <h1>Salmo 66</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus misereátur nostri, et benedícat nobis: * illúminet vultum suum super nos, et misereátur nostri.</p>
       <p>Deus tenha piedade de nós e nos abençoe: * faça resplandecer a sua face sobre nós e tenha de nós piedade.</p>
       <p>Ut cognoscámus in terra viam tuam, * in ómnibus géntibus salutáre tuum.</p>

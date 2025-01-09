@@ -128,7 +128,7 @@ Alegrai-vos e exultai, porque será grande a vossa recompensa nos céus.
 
       <h2>Trabalhos de Misericórdia</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><h5>Corporais</h5></p>
       <p><h5>Espirituais</h5></p>
       <p><ul className="list-group list-group-flush">
@@ -155,7 +155,7 @@ Alegrai-vos e exultai, porque será grande a vossa recompensa nos céus.
 
       <h2>Virtudes</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><h5>Cardeais</h5></p>
       <p><h5>Teologais</h5></p>
       <p><ul className="list-group list-group-flush">
@@ -191,7 +191,7 @@ Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos pobres, p
 
       <h2>Do Espírito Santo</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><h5>Dons</h5></p>
       <p><h5>Frutos</h5></p>
       <p><ul className="list-group list-group-flush">
@@ -219,7 +219,7 @@ Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos pobres, p
 </ul></p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><h5>Pecados Capitais</h5></p>
       <p><h5>Virtudes Opostas</h5></p>
       <p><ul className="list-group list-group-flush">
@@ -242,7 +242,7 @@ Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos pobres, p
 
       <h2>Novíssimos</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><ul className="list-group list-group-flush">
   <li className="list-group-item">Mors</li>
   <li className="list-group-item">Iudicium</li>
@@ -259,7 +259,7 @@ Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos pobres, p
 
       <h2>Assuntos para Meditação Diária</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deum glorificare; <br />
     Jesum imitari; <br />
     Beatissimam Virginem et Sanctos venerari; <br />

@@ -16,7 +16,7 @@ export default function PageConfirmacao() {
   que começa:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Spíritus Sanctus supervéniat in vos, et virtus Altíssimi custódiat vos a peccátis.</p>
       <p>℣. Que o Espírito Santo desça sobre vós e que a virtude do Altíssimo vos livre de todos os pecados.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -42,7 +42,7 @@ export default function PageConfirmacao() {
   quais as inclinam mediocremente:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Omnípotens sempitérne Deus, qui regeneráre dignátus es hunc famulum tuum (hanc famulam tuam) ex aqua, et Spíritu Sancto, quique dedísti eis remissiónem ómnium peccatórum: emítte in eum (eam) septifórmem Spíritum tuum Sanctum Paráclitum de cælis.</p>
@@ -74,7 +74,7 @@ export default function PageConfirmacao() {
 
       <h1>A Unção</h1>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500">N.</span> Signo te signo Cru <span className="cross text-red-500">✠</span> cis: et cornfírmo te Chrísmate salútis. In nómine Pa <span className="cross text-red-500">✠</span> tris, et Fí <span className="text-red-500">✠</span> lii, et Spíritus <span className="cross text-red-500">✠</span> Sancti.</p>
       <p><span className="text-red-500">N.</span>, eu te marco com o sinal da Cruz <span className="cross text-red-500">✠</span> e te confirmo com o Crisma da salvação: em Nome do Pai <span className="cross text-red-500">✠</span> e do Filho <span className="text-red-500">✠</span> e do Espírito <span className="cross text-red-500">✠</span> Santo.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -90,7 +90,7 @@ export default function PageConfirmacao() {
 
       <h1>A Bênção</h1>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Confírma hoc, Deus, quod operátus es in nobis, a templo sancto tuo, quod est in Jerúsalem. ℣. Glória Patri, et Fílio, et Spirítui Sancto: Sicut erat in princípio, et nunc, et semper, et in sæcula sæculórum.</p>
       <p>℣. Confirmai, ó Deus, o que acabais de operar em nós, lá do vosso santo templo que é Jerusalém celestial. ℣. Glória ao Pai e ao Filho e ao Espírito Santo. Assim como era no princípio, agora e sempre e por todos os séculos dos séculos.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -111,7 +111,7 @@ export default function PageConfirmacao() {
       <p><span className="text-red-500">℟.</span> E com vosso espírito.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui Apóstolis tuis Sanctum dedísti Spíritum, et per eos eorúmque successóres céteris fidélibus tradéndum esse voluísti: réspice propítius ad humilitátis nostræ famulátum, et præsta; ut eórum corda, quorum frontes sacro Chrísmate delinívimus, et signo sanctæ Crucis signávimus, idem Spíritus Sanctus in eis supervéniens, templum glóriæ suæ dignánter span perfíciat: Qui cum Patre, et eódem Spíritu Sancto vivis et regnas Deus, in sæcula sæculórum.</p>
@@ -122,7 +122,7 @@ export default function PageConfirmacao() {
 
 <aside>O Bispo continua, estando ainda todos de joelhos:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce sic benedicétur omnis homo, qui timet Dóminum.</p>
       <p>É assim que será abençoado todo o homem que teme o Senhor!</p>
       <p>Bene <span className="cross text-red-500">✠</span> dicat vos Dóminus ex Sion, ut videátis bona Jerúsalem ómnibus diébus vitæ vestræ, et habeátis vitam ætérnam.</p>

@@ -34,7 +34,7 @@ export default function Page0504() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, mæréntium consolátor et in te sperántium salus, qui beátæ Mónicæ pias lácrimas in conversióne fílii sui Augustíni misericórditer suscepísti: da nobis utriúsque intervéntu; peccáta nostra deploráre, et grátiæ tuæ indulgéntiam inveníre. Per Dóminum nostrum...</p>
       <p>Ó Deus, que consolais os tristes e salvais os que em Vós esperam, e que Vos dignastes atender misericordiosamente às piedosas lágrimas da B. Mónica para a conversão de seu filho Agostinho, concedei-nos pela intercessão de ambos que choremos os nossos pecados e alcancemos a indulgência da vossa graça. Por nosso Senhor...</p>
       </div>
@@ -43,7 +43,7 @@ export default function Page0504() {
 
 <em>1 Tm. 5, 3-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo a Timóteo.</p>
       <p>Caríssime: Víduas honóra, quæ vere víduæ sunt. Si qua autem vidua fílios aut nepótes habet, discat primum domum suam régere, et mútuam vicem réddere paréntibus: hoc enim accéptum est coram Deo. Quæ autem vere vidua est et desoláta, speret in Deum, et instet obsecratiónibus et oratiónibus nocte ac die. Nam quæ in delíciis est, vivens mórtua est. Et hoc prǽcipe, ut irreprehensíbiles sint. Si quis autem suórum, et máxime domesticórum curam non habet, fidem negávit, et est infidéli detérior. Vidua eligátur non minus sexagínta annórum, quæ fúerit unius viri uxor, in opéribus bonis testimónium habens, si fílios educávit, si hospítio recépit, si sanctórum pedes lavit, si tribulatiónem patiéntibus subministrávit, si omne opus bonum subsecúta est.</p>
@@ -54,7 +54,7 @@ export default function Page0504() {
 
 <em>Lc. 7, 11-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo

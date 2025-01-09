@@ -10,7 +10,7 @@ export default function Page123() {
       <h1>Salmo 123</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nisi quia Dóminus erat in nobis, dicat nunc Israël: * nisi quia Dóminus erat in nobis,</p>
       <p>Se o Senhor não tivesse estado connosco, diga-o agora Israel: * se o Senhor não tivesse estado connosco,</p>
       <p>Cum exsúrgerent hómines in nos, * forte vivos deglutíssent nos:</p>

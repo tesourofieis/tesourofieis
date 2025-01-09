@@ -17,7 +17,7 @@ export default function Page0611() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos beáti Bárnabæ Apóstoli tui méritis et intercessióne lætíficas: concéde propítius; ut, qui tua per eum benefícia póscimus, dono tuæ grátiæ consequámur. Per Dóminum...</p>
       <p>Ó Deus, que nos alegrais com os méritos e intercessão do B. Barnabé, vosso Apóstolo, concedei-nos propício que, suplicando os vossos benefícios pela sua intercessão, os obtenhamos por efeito da vossa graça. Por nosso Senhor...</p>
       </div>
@@ -26,7 +26,7 @@ export default function Page0611() {
 
 <em>Act. 11, 21-26; 13, 1-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Actuum Apostolórum.</p>
       <p>Lição dos Actos dos Apóstolos.</p>
       <p>In diébus illis: Multus numerus credentium Antiochíæ convérsus est ad Dóminum. Pervénit autem sermo ad aures ecclésiæ, quæ erat Jerosólymis, super istis: et misérunt Bárnabam usque ad Antiochíam. Qui cum pervenísset et vidísset grátiam Dei, gavísus est: et hortabátur omnes in propósito cordis permanére in Dómino: quia erat vir bonus, et plenus Spiritu Sancto et fide. Et appósita est multa turba Dómino. Proféctus est autem Bárnabas Tarsum, ut quǽreret Saulum: quem cum invenísset, perdúxit Antiochíam. Et annum totum conversáti sunt ibi in ecclésia: et docuérunt turbam multam, ita ut cognominaréntur primum Antiochíæ discípuli Christiáni. Erant autem in ecclésia, quæ erat Antiochíæ, prophétæ et doctóres, in quibus Bárnabas, et Simon qui vocabátur Niger, et Lúcius Cyrenénsis, et Mánahen qui erat Heródis Tetrárchæ collactáneus, et Saulus. Ministrántibus autem illis Dómino et jejunántibus, dixit illis Spíritus Sanctus: Segregáte mihi Saulum et Bárnabam in opus, ad quod assúmpsi eos. Tunc jejunántes et orantes imponentésque eis manus, dimisérunt illos.</p>
@@ -37,7 +37,7 @@ export default function Page0611() {
 
 <em>Sl. 18, 5 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum. ℣. Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.</p>
       <p>O som da sua voz espalhou-se por toda a terra: as suas palavras soaram até aos confins do mundo. ℣. Os céus apregoam a glória do Senhor e o firmamento manifesta as obras das suas mãos.</p>
       <p>Allelúja, allelúja. ℣. <em>Joann. 15, 16</em> Ego vos elégi de mundo, ut eátis et fructum afferátis: et fructus vester maneat. Allelúja.</p>
@@ -55,14 +55,14 @@ export default function Page0611() {
 
 <em>Sl. 44, 17-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.</p>
       <p>Vós os constituireis príncipes em toda a terra: e perpetuarão o vosso nome, Senhor, de geração em geração.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera, Dómine, obláta sanctífica, et, intercedénte beáto Bárnaba Apostolo tuo, nos per hæc a peccatórum nostrórum máculis emúnda. Per Dóminum...</p>
       <p>Santificai, Senhor, estes dons que Vos são oferecidos, e, por intercessão do B. Barnabé, vosso Apóstolo, fazei que nos purifiquem das manchas dos nossos pecados. Por nosso Senhor Jesus Cristo...</p>
       </div>
@@ -71,14 +71,14 @@ export default function Page0611() {
 
 <em>Mt. 19, 28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.</p>
       <p>Vós, que me seguistes, vos assentareis sobre tronos e julgareis as dozes tribos de Israel.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, intercedénte beáto Bárnaba Apóstolo tuo, tibi étiam plácitis móribus dignánter tríbuas deservíre. Per Dóminum...</p>
       <p>Ó Deus omnipotente, Vos rogamos humildemente que pela intercessão do B. Barnabé, vosso Apóstolo, concedais àqueles que alimentais com vossos sacramentos a graça de Vos servirem dignamente com acções que Vos sejam agradáveis. Por nosso Senhor...</p>
       </div>

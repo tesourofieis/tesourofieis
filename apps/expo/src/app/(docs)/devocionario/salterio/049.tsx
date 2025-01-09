@@ -10,7 +10,7 @@ export default function Page049() {
       <h1>Salmo 49</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus deórum, Dóminus locútus est: * et vocávit terram,</p>
       <p>Falou o Senhor, Deus dos deuses: * e convocou a terra,</p>
       <p>A solis ortu usque ad occásum: * ex Sion spécies decóris ejus.</p>

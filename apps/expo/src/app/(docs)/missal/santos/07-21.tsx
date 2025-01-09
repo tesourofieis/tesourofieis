@@ -43,7 +43,7 @@ Gradual seguinte:
 
 <em>Sl. 44, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dilexísti justítiam, et odísti iniquitátem. ℣. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.</p>
       <p>Amastes a justiça e odiastes a iniquidade. ℣. Pelo que o Senhor, vosso Deus, vos ungiu com o óleo da alegria.</p>
       <p>Allelúja, allelúja. ℣. <em>ibid., 5</em> Spécie tua et pulchritúdine tua inténde, próspere procéde et regna. Allelúja.</p>

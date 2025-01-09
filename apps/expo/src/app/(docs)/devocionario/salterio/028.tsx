@@ -10,7 +10,7 @@ export default function Page028() {
       <h1>Salmo 28</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Afférte Dómino, fílii Dei: * afférte Dómino fílios aríetum.</p>
       <p>Oferecei ao Senhor, ó filhos de Deus: * oferecei ao Senhor tenros cordeiros.</p>
       <p>Afférte Dómino glóriam et honórem, afférte Dómino glóriam nómini ejus: * adoráte Dóminum in átrio sancto ejus.</p>

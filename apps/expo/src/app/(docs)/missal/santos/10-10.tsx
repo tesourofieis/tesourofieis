@@ -14,7 +14,7 @@ export default function Page1010() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine Jesu Christe, veræ humilitátis et exémplar et prǽmium: quǽsumus; ut, sicut beátum Francíscum in terréni honóris contémptu imitatórem tui gloriósum effecísti, ita nos ejúsdem imitatiónis et glóriæ tríbuas esse consórtes: Qui vivis...</p>
       <p>Senhor Jesus Cristo, prémio e modelo da verdadeira humildade, concedei-nos, Vos rogamos, que, assim como permitistes que o B. Francisco se tornasse vosso glorioso imitador no desprezo das honras terrenas, assim também nos façais imitar as suas virtudes e compartilhar da sua glória. Ó Vós, que, sendo...</p>
       </div>

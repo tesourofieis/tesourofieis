@@ -10,7 +10,7 @@ export default function Page095() {
       <h1>Salmo 95</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cantáte Dómino cánticum novum: * cantáte Dómino, omnis terra.</p>
       <p>Cantai ao Senhor um cântico novo: * cantai ao Senhor, toda a terra.</p>
       <p>Cantáte Dómino, et benedícite nómini ejus: * annuntiáte de die in diem salutáre ejus.</p>

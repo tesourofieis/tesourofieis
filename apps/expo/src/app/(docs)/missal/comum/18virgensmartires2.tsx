@@ -14,14 +14,14 @@ export default function Page18Virgensmartires2() {
 
 <em>Sl. 118, 95-96</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Me exspectavérunt peccatóres, ut pérderent me: testimónia Jua, Dómine, intelléxi: omnis consummatiónis vidi finem: latum mandátum tuum nimis. (T. P. Allelúja, allelúja.) <em>Ps. ibid., 1</em> Beáti immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...</p>
       <p>Esperaram-me os pecadores para me perder; mas eu, Senhor, tinha meditado nos vossos testemunhos. Encontrei limites em tudo quanto existe: e só o vosso poder é infinito. (T, P. Aleluia, aleluia.) <em>Sl. ibid., 1</em> Bem-aventurados os que são imaculados em seus caminhos e cumprem a Lei do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Indulgéntiam nobis, quǽsumus, Dómine, beáta <span className="text-red-500">N.</span> Virgo et Martyr implóret: quæ tibi grata semper éxstitit, et mérito castitátis, et tuæ professióne virtútis. Per Dóminum nostrum...</p>
       <p>Dignai-Vos conceder-nos, Senhor, que alcancemos o perdão dos nossos pecados pela intercessão da B. Virgem e Mártir <span className="text-red-500">N.</span>, que sempre Vos agradou, não só pelo mérito da castidade, mas também pela prática da vossa virtude. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page18Virgensmartires2() {
 
 <em>Ecl. 51, 13-17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Dómine, Deus meus, exaltásti super terram habitatiónem meam, et pro morre defluénte deprecáta sum. Invocávi Dóminum, Patrem Dómini mei, ut non derelínquat me in die tribulatiónis meæ, et in témpore superbórum sine adjutório. Laudábo nomen tuum assídue, et collaudábo illud in confessióne, et exaudíta est orátio mea. Et liberásti me de perditióne, et eripuísti me de témpore iníquo. Proptérea confitébor et laudem dicam tibi, Dómine, Deus noster.</p>
@@ -41,7 +41,7 @@ export default function Page18Virgensmartires2() {
 
 <em>Sl. 45, 6 & 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur. ℣. Flúminis ímpetus lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus.</p>
       <p>Auxiliá-la-á o Senhor com seu olhar: Deus está ao pé dela e a não deixará fraquejar. ℣. Um rio com a torrente das suas águas alegra a cidade de Deus. O Altíssimo santificou o seu tabernáculo.</p>
       <p>Allelúja, allelúja. ℣. Hæc est Virgo sápiens, et una de número prudéntum. Allelúja.</p>
@@ -52,14 +52,14 @@ export default function Page18Virgensmartires2() {
 
       <h3>Trato</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veni, Sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit in ætérnum: pro cujus amóre sánguinem tuum fudísti. ℣. <em>Ps. 44, 8 & 5</em> Dilexísti justítiam, et odísti iniquitátem proptérea unxit te Deus, Deui tuus, óleo lætítiæ præ consórtibus tuis. ℣. Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.</p>
       <p>Vinde, ó esposa de Cristo; vinde e recebei a coroa que o Senhor preparou para vós, para a eternidade. Foi por amor dele que derramastes o vosso sangue. ℣. <em>Sl. 44, 8 & 5</em> Amastes a justiça e odiastes a iniquidade: eis porque o Senhor, vosso Deus, vos ungiu com o óleo da alegria, de preferência às vossas companheiras. ℣. Caminhai, pois, com beleza e majestade; ide gozar a vitória e reinai.</p>
       </div>
 
 <aside>No T. Pascal omite-se o Gradual e o Trato diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. Hæc est Virgo sápiens, et una de número prudéntum. Allelúja. ℣. <em>Sap. 4, 1</em> O quam pulchra et casta generátio cum claritáte! Allelúja.</p>
       <p>Aleluia, aleluia. ℣. Esta é a virgem sábia e uma das prudentes. Aleluia. ℣. <em>Sb. 4, 1</em> Oh! como é bela a geração casta e gloriosa! Aleluia.</p>
       </div>
@@ -68,7 +68,7 @@ export default function Page18Virgensmartires2() {
 
 <em>Mt. 13, 44-52</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Dixit Jesus discípulis suis parábolam me: Símile est regnum cœlórum thesáuro abscóndito in agro: quem qui invénit homo, abscóndit, et præ gáudio illíus vadit, et vendit univérsa, quæ habet, et emit agrum illum. Iterum símile est regnum cœlórum hómini negotiatóri, quærénti bonas margarítas. Invénta autem una pretiósa margaríta, ábiit, et véndidit ómnia, quæ hábuit, et emit eam. Iterum símile est regnum cœlórum sagénse, missæ in mare et ex omni génere píscium congregánti. Quam, cum impléta esset, educéntes, et secus litus sedéntes, elegérunt bonos in vasa, malos autem foras misérunt. Sic erit in consummatióne sǽculi: exíbunt Angeli, et separábunt malos de médio justórum, et mittent eos in camínum ignis: ibi erit fletus et stridor déntium. Intellexístis hæc ómnia? Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus in regno cœlórum símilis est hómini patrifamílias, qui profert de thesáuro suo nova et vétera.</p>
@@ -79,14 +79,14 @@ export default function Page18Virgensmartires2() {
 
 <em>Sl. 44, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum, et in sǽculum sǽculi. (T. P. Allelúja.)</p>
       <p>A graça espalhou-se nos vossos lábios: por isso Deus vos abençoou para a eternidade e para todos os séculos. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, beátæ <span className="text-red-500">N.</span> Vírginis et Mártyris tuæ dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum nostrum...</p>
       <p>Aceitai benignamente, Senhor, as hóstias que Vos oferecemos pelos méritos da B. Virgem e Mártir <span className="text-red-500">N.</span>, e dignai-Vos permitir que ela nos sirva de perpétuo auxílio. Por nosso Senhor...</p>
       </div>
@@ -95,14 +95,14 @@ export default function Page18Virgensmartires2() {
 
 <em>Sl. 118, 121, 122 & 128</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Feci judícium et justítiam, Dómine, non calumniéntur mihi supérbi: ad ómnia mandáta tua dirigébar, omnem viam iniquitátis ódio hábui. (T. P. Allelúja.)</p>
       <p>Tenho procedido com equidade e com justiça, Senhor! Que os soberbos, pois, não me caluniem. Tenho-me guiado em tudo pelos vossos Mandamentos e tenho odiado todas as regras iníquas. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Divíni múneris largitáte satiáti, quǽsumus, Dómine, Deus noster: ut, intercedénte beáta <span className="text-red-500">N.</span> Vírgine et Mártyre tua, in ejus semper participatióne vivámus. Per Dóminum...</p>
       <p>Saciados com a liberalidade do dom divino, ó Senhor, nosso Deus, Vos suplicamos pela intercessão da B. Virgem <span className="text-red-500">N.</span>, vossa Mártir, que durante a nossa vida comparticipemos sempre deste dom divino. Por nosso Senhor...</p>
       </div>
@@ -113,7 +113,7 @@ Outro Evangelho (para certos dias):
 
 <em>Mt. 19, 3-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Accessérunt ad Jesum pharisǽi, tentántes eum et dicéntes: Si licet hómini dimíttere uxórem suam quacúmque ex causa? Qui respóndens, ait eis: Non legístis, quia, qui fecit hóminem ab inítio, másculum et féminam fecit eos? et dixit: Propter hoc dimíttet homo patrem, et matrem, et adhærébit uxóri suæ, et erunt duo in carne una. Itaque jam non sunt duo, sed una caro. Quod ergo Deus conjúnxit, homo non séparet. Dicunt illi: Quid ergo Móyses mandávit dare libéllum repúdii, et dimíttere? Ait illis: Quóniam Móyses ad durítiam cordis vestri permísit vobis dimíttere uxóres vestras: ab inítio autem non fuit sic. Dico autem vobis, quia, quicúmque dimíserit uxórem suam, nisi ob fornicatiónem, et áliam dúxerit, mœchátur: et qui dimíssam dúxerit, mœchátur. Dicunt ei discípuli ejus: Si ita est causa hóminis cum uxóre, non expédit núbere. Qui dixit illis: Non omnes cápiunt verbum istud, sed quibus datum est. Sunt enim eunúchi, qui de matris útero sic nati sunt; et sunt eunúchi, qui facti sunt ab homínibus; et sunt eunúchi, qui seípsos castravérunt propter regnum cœlórum. Qui potest cápere, cápiat.</p>

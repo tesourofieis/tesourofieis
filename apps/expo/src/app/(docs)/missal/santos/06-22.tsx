@@ -20,7 +20,7 @@ export default function Page0622() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ómnia pro te in hoc sǽculo relinquéntibus, céntuplum in futúro et vitam ætérnam promisísti: concéde propítius; ut, sancti Pontíficis Paulíni vestígiis inhæréntes, valeámus terréna despícere et sola cœléstia desideráre: Qui vivis...</p>
       <p>Ó Deus, que àqueles que tudo abandonaram neste mundo para Vos seguirem prometestes o cêntuplo e a vida eterna, concedei-nos propício que, seguindo os exemplos do santo Pontífice Paulino, desprezemos sempre as coisas terrenas e aspiremos somente às celestiais. Ó Vós, que viveis...</p>
       </div>
@@ -29,7 +29,7 @@ export default function Page0622() {
 
 <em>2 Cor. 8, 9-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lectio Epístolæ beati Pauli Apostoli ad Corinthios.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
       <p>Fratres: Scitis grátiam Dómini nostri Jesu Christi, quóniam propter vos egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis. Et consílium in hoc do: hoc enim vobis útile est, qui non solum fácere, sed et velle coepistis ab anno prióre: nunc vero et facto perfícite: ut, quemádmodum promptus est ánimus voluntátis, ita sit et perficiéndi ex eo quod habétis. Si enim volúntas prompta est, secúndum id quod habet, accépta est, non secúndum id quod non habet. Non enim ut áliis sit remíssio, vobis autem tribulátio, sed ex æqualitáte. In præsénti témpore vestra abundántia illórum inópiam súppleat: ut et illórum abundántia vestræ inópiæ sit suppleméntum, ut fiat æquálitas, sicut scriptum est: Qui multum, non abundávit: et qui módicum, non minorávit.</p>
@@ -40,7 +40,7 @@ export default function Page0622() {
 
 <em>Ecl. 44, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce sacérdos magnus, qui in diébus suis plácuit Deo. ℣. <em>ibid., 20</em> Non est invéntus símilis illi, qui conserváret legem Excélsi.</p>
       <p>Eis o grande sacerdote que nos dias da sua vida agradou a Deus. ℣. <em>ibid., 20</em> Ninguém o igualou na observância das leis do Altíssimo.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.</p>
@@ -58,14 +58,14 @@ export default function Page0622() {
 
 <em>Sl. 88, 21-22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.</p>
       <p>Encontrei o seu servo David e ungi-o com meu óleo sagrado. Minha mão o socorrerá e o meu braço o fortalecerá.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da nobis, Dómine, perféctæ caritátis sacrifícium, exémplo sancti Pontíficis Paulíni, cum altáris oblatióne conjúngere: et beneficéntiæ stúdio sempitérnam misericórdiam promeréri. Per Dóminum nostrum...</p>
       <p>Concedei-nos, Senhor, que, imitando o exemplo do Santo Pontífice Paulino, juntemos à oferta do altar o sacrifício da caridade perfeita; e permiti que, aplicando-nos ao exercício da beneficência, mereçamos alcançar o perdão. Por nosso Senhor...</p>
       </div>
@@ -74,14 +74,14 @@ export default function Page0622() {
 
 <em>Lc. 12, 42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram.</p>
       <p>Eis o servo fiel e prudente que o Senhor estabeleceu acima da sua família para distribuir, oportunamente, a cada um a sua medida de trigo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tríbue nobis per hæc sancta, Dómine, illum pietátis et humilitátis afféctum, quem ex hoc divíno fonte hausit sanctus Póntifex tuus Paulínus: et, ipsíus intercessióne, in omnes, qui te deprecántur, grátiæ tuæ divítias benígnus effúnde. Per Dóminum...</p>
       <p>Concedei-nos, Senhor, em virtude destes sacramentos aqueles sentimentos de piedade e de humildade que o vosso Santo Pontífice Paulino auria nesta fonte divina; e pela sua intercessão infundi benigno as riquezas da vossa graça naqueles que Vo-las suplicam. Por nosso Senhor...</p>
       </div>

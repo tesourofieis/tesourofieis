@@ -16,7 +16,7 @@ export default function Page0113() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, cujus Unigénitus in substántia nostræ carnis appáruit: præsta, quǽsumus; ut per eum, quem símilem nobis foris agnóvimus, intus reformári mereámur: Qui tecum...</p>
       <p>Ó Deus, cujo Filho Unigénito apareceu na terra revestido com a substância da nossa carne, permiti, Vos rogamos, que mereçamos a graça de sermos reformados interiormente por Aquele que reconhecemos semelhante a nós exteriormente. Ele, que, sendo Deus...</p>
       </div>
@@ -25,7 +25,7 @@ export default function Page0113() {
 
 <em>Jo. 1, 29-34</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -36,14 +36,14 @@ S. João.</p>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, pro nati Fílii tui apparitióne deférimus, supplíciter exorántes: ut, sicut ipse nostrórum auctor est múnerum, ita sit ipse miséricors et suscéptor, Jesus Christus, Dóminus noster: Qui tecum...</p>
       <p>Senhor, Vos oferecemos sacrifícios em memória da manifestação do vosso Filho, que nasceu no mundo, suplicando-Vos que, assim como Jesus Cristo, nosso Senhor, é o autor destes dons, assim também os aceites misericordiosamente. Ele, que, sendo Deus...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cœlésti lúmine, quǽsumus, Dómine, semper et ubíque nos prǽveni: ut mystérium, cujus nos partícipes esse voluísti, et puro cernámus intúitu, et digno percipiámus affectu. Per Dóminum nostrum...</p>
       <p>Dignai-Vos assistir-nos sempre e em toda a parte com vossa celestial luz, Senhor, Vos pedimos, a fim de que, assim corno quisestes que participássemos deste mystério, assim também possamos contemplá-lo com olhos puros e recebê-lo com afecto digno. Por nosso Senhor...</p>
       </div>

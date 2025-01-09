@@ -2,7 +2,7 @@
 import "../../../../global.css";
 
 import React from 'react';
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from "~/components/Tabs";
 import Salmo109 from './../salterio/109';
 import Salmo112 from './../salterio/112';
 import Salmo121 from './../salterio/121';
@@ -27,7 +27,7 @@ export default function PageVesperas() {
 
 <TabItem label="Depois da Purificação">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -45,12 +45,12 @@ export default function PageVesperas() {
 
 <Salmo109 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Dum esset Rex in acubitu suo, nardus mea dedit odorem suavitatis.</p>
       <p><em>Ant.</em> Estando o Rei no seu repouso, exalou o meu frasco um suavíssimo cheiro.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Læva ejus sub capite meo, et dextera ilius amplexabitur me.</p>
       <p><em>Ant.</em> Sua mão esquerda estará debaixo de minha cabeça, e a sua direita me dará um abraço.</p>
       </div>
@@ -60,12 +60,12 @@ export default function PageVesperas() {
 
 <Salmo112 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Læva ejus sub capite meo, et dextera ilius amplexabitur me.</p>
       <p><em>Ant.</em> Sua mão esquerda estará debaixo de minha cabeça, e a sua direita me dará um abraço.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Nigra sum, sed formosa, filiæ Jerusalem; ideo dilexit me rex, et introduxit me in cubiculom suum.</p>
       <p><em>Ant.</em> Sou negra, mas sou formosa, ó filhas de Jerusalém; por isso o Rei me amou, e me levou a seu aposento.</p>
       </div>
@@ -75,12 +75,12 @@ export default function PageVesperas() {
 
 <Salmo121 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Nigra sum, sed formosa, filiæ Jerusalem; ideo dilexit me rex, et introduxit me in cubiculom suum.</p>
       <p><em>Ant.</em> Sou negra, mas sou formosa, ó filhas de Jerusalém; por isso o Rei me amou, e me levou a seu aposento.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Jam hiems transiit, imber abiit et recessit: surge, amica mea, et veni.</p>
       <p><em>Ant.</em> Já se foi o Inverno, e passou o chuveiro; levanta-te e vem, ó minha amada.</p>
       </div>
@@ -90,12 +90,12 @@ export default function PageVesperas() {
 
 <Salmo126 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Jam hiems transiit, imber abiit et recessit: surge, amica mea, et veni.</p>
       <p><em>Ant.</em> Já se foi o Inverno, e passou o chuveiro; levanta-te e vem, ó minha amada.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Speciosa facta es et suavis in deliciis tuis, sancta Dei Genitrix.</p>
       <p><em>Ant.</em> Especiosa sois, e suave nas vossas delicias, ó santa Mãe de Deus.</p>
       </div>
@@ -105,7 +105,7 @@ export default function PageVesperas() {
 
 <Salmo147 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Speciosa facta es et suavis in deliciis tuis, sancta Dei Genitrix.</p>
       <p><em>Ant.</em> Especiosa sois, e suave nas vossas delicias, ó santa Mãe de Deus.</p>
       </div>
@@ -114,7 +114,7 @@ export default function PageVesperas() {
 
 <em>Ecl. 24, 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ab initio et ante sæcula creata sum, et usque ad futurum sæculum non desinam, et in habitatione sancta coram ipso ministravi.</p>
       <p>Eu fui criada desde o princípio, antes dos séculos, e não deixarei de existir até ao fim dos séculos, e exerci diante dele o meu ministério na morada santa.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -128,7 +128,7 @@ export default function PageVesperas() {
 
       <h2>Ofício 1</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Beata Mater et intacta Virgo, gloriosa Regina mundi, intercede pro nobis ad Dominum.</p>
       <p><em>Ant.</em> Santa Mãe e Virgem intacta, gloriosa Rainha do mundo, intercedei a Deus por nós.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -137,7 +137,7 @@ export default function PageVesperas() {
 
       <h2>Tempo Pascal</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Regína Cæli, lætáre, allelúja; Quia quem meruísti portáre, allelúja; Resurréxit, sicut dixit, allelúja; Ora pro nóbis Deum, allelúja. Gaude et lætáre, Virgo Maria, allelúja. Quia surréxit Dóminus vere, allelúja.</p>
       <p><em>Ant.</em> Rainha do Céu, alegrai-Vos, Aleluia! Porque Aquele que merecestes trazer em vosso ventre, Aleluia! Ressuscitou como disse, Aleluia! Rogai por nós a Deus, Aleluia! Alegrai-Vos e exultai, ó Virgem Maria, Aleluia! Porque o Senhor ressuscitou verdadeiramente, Aleluia!</p>
       </div>
@@ -149,7 +149,7 @@ export default function PageVesperas() {
 
       <h2>Ofício 1</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Beata Mater et intacta Virgo, gloriosa Regina mundi, intercede pro nobis ad Dominum.</p>
       <p><em>Ant.</em> Santa Mãe e Virgem intacta, gloriosa Rainha do mundo, intercedei a Deus por nós.</p>
       <p><span className="text-red-500">℟.</span> Amen.</p>
@@ -158,7 +158,7 @@ export default function PageVesperas() {
 
       <h2>Tempo Pascal</h2>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Regína Cæli, lætáre, allelúja; Quia quem meruísti portáre, allelúja; Resurréxit, sicut dixit, allelúja; Ora pro nóbis Deum, allelúja. Gaude et lætáre, Virgo Maria, allelúja. Quia surréxit Dóminus vere, allelúja.</p>
       <p><em>Ant.</em> Rainha do Céu, alegrai-Vos, Aleluia! Porque Aquele que merecestes trazer em vosso ventre, Aleluia! Ressuscitou como disse, Aleluia! Rogai por nós a Deus, Aleluia! Alegrai-Vos e exultai, ó Virgem Maria, Aleluia! Porque o Senhor ressuscitou verdadeiramente, Aleluia!</p>
       <p>℣. Domine, exaudi orationem meam.</p>
@@ -189,7 +189,7 @@ export default function PageVesperas() {
 
 <TabItem label="No Advento">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -206,12 +206,12 @@ export default function PageVesperas() {
 
 <Salmo109 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Missus est Gábriel Angelus ad Maríam Vírginem desponsátam Joseph.</p>
       <p><em>Ant.</em> O Anjo Gabriel foi mandado à Virgem Maria, desposada com José.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus.</p>
       <p><em>Ant.</em> Ave, Maria, cheia de graça, o Senhor é convosco; bendita sois vós entre as mulheres.</p>
       </div>
@@ -220,12 +220,12 @@ export default function PageVesperas() {
 
 <Salmo112 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus.</p>
       <p><em>Ant.</em> Ave, Maria, cheia de graça, o Senhor é convosco; bendita sois vós entre as mulheres.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ne timeas, María, invenísti grátiam apud Dóminum: ecce concípies et páries fílium.</p>
       <p><em>Ant.</em> Não temais, ó Maria, achastes graça para com o Senhor: concebereis, e dareis à luz um filho.</p>
       </div>
@@ -234,12 +234,12 @@ export default function PageVesperas() {
 
 <Salmo121 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ne timeas, María, invenísti grátiam apud Dóminum: ecce concípies et páries fílium.</p>
       <p><em>Ant.</em> Não temais, ó Maria, achastes graça para com o Senhor: concebereis, e dareis à luz um filho.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Dabit ei Dóminus sedem David, patris ejus, et regnábit in ætérnum.</p>
       <p><em>Ant.</em> O Senhor lhe dará o trono de David seu Pai, e reinará eternamente.</p>
       </div>
@@ -248,12 +248,12 @@ export default function PageVesperas() {
 
 <Salmo126 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Dabit ei Dóminus sedem David, patris ejus, et regnábit in ætérnum.</p>
       <p><em>Ant.</em> O Senhor lhe dará o trono de David seu Pai, e reinará eternamente.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce ancílla Dómini: fiat mihi secúndum verbum tuum.</p>
       <p><em>Ant.</em> Eis aqui a escrava do Senhor, faça-se em mim segundo a vossa palavra.</p>
       </div>
@@ -262,7 +262,7 @@ export default function PageVesperas() {
 
 <Salmo147 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce ancílla Dómini: fiat mihi secúndum verbum tuum.</p>
       <p><em>Ant.</em> Eis aqui a escrava do Senhor, faça-se em mim segundo a vossa palavra.</p>
       </div>
@@ -271,7 +271,7 @@ export default function PageVesperas() {
 
 <em>Is. 11, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Egredietur virga de radice Jesse, et flos de radice ejus ascendet. Et requiescet super eum Spiritus Domini.</p>
       <p>Sairá uma vara da raiz de Jessé, e subirá uma flor da sua raiz, e descansará sobre ele o Espírito do Senhor.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -282,7 +282,7 @@ export default function PageVesperas() {
 
 <AveMarisStella />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Diffusa est gratia in labiis tuis.</p>
       <p>℣. A graça derramou-se nos vossos lábios.</p>
       <p><span className="text-red-500">℟.</span> Propterea benedixit te Deus in æternum.</p>
@@ -295,7 +295,7 @@ export default function PageVesperas() {
 
 <Magnificat />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Spiritus Sanctus in te descendet, Maria: ne timeas, habebis in utero filium Dei, (allelúja).</p>
       <p><em>Ant.</em> O Espírito Santo descerá sobre vós, ó Maria; não temais: concebereis, e tereis no ventre o Filho de Deus, (aleluia).</p>
       <p>℣. Domine, exaudi orationem meam.</p>
@@ -326,7 +326,7 @@ export default function PageVesperas() {
 
 <TabItem label="No Natal">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -343,12 +343,12 @@ export default function PageVesperas() {
 
 <Salmo109 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> O admirabile commercium: Creator generis humani, animatum corpus sumens, de Virgine nasci dignatus est: et procedens homo sine semine, largitus est nobis suam Deitatem.</p>
       <p><em>Ant.</em> Ó admirável permuta! O Criador do género humano, tomando corpo e alma, dignou-se nascer de uma Virgem; e, feito homem sem progenitor, tornou-nos participantes da sua divindade.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Quando natus es inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut pluvia in vellus descendisti, ut salvum faceres genus humanum: te laudamus, Deus noster.</p>
       <p><em>Ant.</em> Quando nascestes misteriosamente da Virgem, então se cumpriram as Escrituras: descestes como a chuva sobre a lã, para salvar a humanidade. Nós Vos louvamos, ó Nosso Deus.</p>
       </div>
@@ -357,12 +357,12 @@ export default function PageVesperas() {
 
 <Salmo112 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Quando natus es inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut pluvia in vellus descendisti, ut salvum faceres genus humanum: te laudamus, Deus noster.</p>
       <p><em>Ant.</em> Quando nascestes misteriosamente da Virgem, então se cumpriram as Escrituras: descestes como a chuva sobre a lã, para salvar a humanidade. Nós Vos louvamos, ó Nosso Deus.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Rubum, quem viderat Moyses incombustum, conservatam agnovimus tuam laudabilem virginitatem: Dei Genitrix, intercede pro nobis.</p>
       <p><em>Ant.</em> Na sarça que Moisés via sem se consumir, reconhecemos a vossa admirável virgindade conservada: rogai por nós, Santa Mãe de Deus.</p>
       </div>
@@ -371,12 +371,12 @@ export default function PageVesperas() {
 
 <Salmo121 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Rubum, quem viderat Moyses incombustum, conservatam agnovimus tuam laudabilem virginitatem: Dei Genitrix, intercede pro nobis.</p>
       <p><em>Ant.</em> Na sarça que Moisés via sem se consumir, reconhecemos a vossa admirável virgindade conservada: rogai por nós, Santa Mãe de Deus.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Germinavit radix Jesse, orta est stella ex Jacob; virgo peperit Salvatorem: te laudamus, Deus noster.</p>
       <p><em>Ant.</em> Floresceu a raiz de Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o Salvador: Nós Vos louvamos, ó Nosso Deus.</p>
       </div>
@@ -385,12 +385,12 @@ export default function PageVesperas() {
 
 <Salmo126 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Germinavit radix Jesse, orta est stella ex Jacob; virgo peperit Salvatorem: te laudamus, Deus noster.</p>
       <p><em>Ant.</em> Floresceu a raiz de Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o Salvador: Nós Vos louvamos, Senhor nosso Deus.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce, Maria genuit nobis Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus Dei, ecce qui tollit peccata mundi, (allelúja).</p>
       <p><em>Ant.</em> Eis, Maria deu à luz o nosso Salvador, que João reconheceu e exclamou: eis o Cordeiro de Deus, Aquele que tira o pecado do mundo, (aleluia).</p>
       </div>
@@ -399,7 +399,7 @@ export default function PageVesperas() {
 
 <Salmo147 />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ecce, Maria genuit nobis Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus Dei, ecce qui tollit peccata mundi, (allelúja).</p>
       <p><em>Ant.</em> Eis, Maria deu à luz o nosso Salvador, que João reconheceu e exclamou: eis o Cordeiro de Deus, Aquele que tira o pecado do mundo, (aleluia).</p>
       </div>
@@ -408,7 +408,7 @@ export default function PageVesperas() {
 
 <em>Ecl. 24, 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ab initio et ante sæcula creata sum, et usque ad futurum sæculum non desinam, et in habitatione sancta coram ipso ministravi.</p>
       <p>Eu fui criada desde o princípio, antes dos séculos, e não deixarei de existir até ao fim dos séculos, e exerci diante dele o meu ministério na morada santa.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -419,7 +419,7 @@ export default function PageVesperas() {
 
 <AveMarisStella />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Diffusa est gratia in labiis tuis.</p>
       <p>℣. A graça derramou-se nos vossos lábios.</p>
       <p><span className="text-red-500">℟.</span> Propterea benedixit te Deus in æternum.</p>
@@ -432,7 +432,7 @@ export default function PageVesperas() {
 
 <Magnificat />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Magnum hæreditatis mysterium: templum Dei factus est uterus nescientis virum: non est pollutus ex ea carnem assumens; omnes gentes venient, dicentes: Gloria tibi, Domine.</p>
       <p><em>Ant.</em> Grande mystério de herança: o ventre daquela que não conheceu varão, é feito templo de Deus; o qual se não manchou, tomando dela carne humana. Virão todas as gentes, dizendo: Glória a Vós, ó Senhor.</p>
       <p>℣. Domine, exaudi orationem meam.</p>

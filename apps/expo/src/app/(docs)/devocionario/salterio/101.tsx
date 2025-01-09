@@ -10,7 +10,7 @@ export default function Page101() {
       <h1>Salmo 101</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, exáudi oratiónem meam: * et clamor meus ad Te véniat.</p>
       <p>Senhor, ouvi a minha oração: * e chegue até Vós o meu clamor.</p>
       <p>Non avértas fáciem tuam a me: * in quacúmque die tríbulor, inclína ad me aurem tuam.</p>

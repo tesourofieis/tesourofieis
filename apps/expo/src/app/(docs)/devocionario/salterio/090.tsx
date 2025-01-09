@@ -10,7 +10,7 @@ export default function Page090() {
       <h1>Salmo 90</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui hábitat in adjutório Altíssimi, * in protectióne Dei cæli commorábitur.</p>
       <p>O que habita à sombra do Altíssimo, * descansará na protecção do Deus do céu.</p>
       <p>Dicet Dómino: suscéptor meus es Tu, et refúgium meum: * Deus meus sperábo in eum.</p>

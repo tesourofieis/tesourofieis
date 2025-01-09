@@ -10,7 +10,7 @@ export default function Page135() {
       <h1>Salmo 135</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitémini Dómino quóniam bonus: * quóniam in ætérnum misericórdia ejus.</p>
       <p>Glorificai o Senhor, porque é bom: * pois eterna é a sua misericórdia.</p>
       <p>Confitémini Deo deórum: * quóniam in ætérnum misericórdia ejus.</p>

@@ -10,7 +10,7 @@ export default function PageBenedictus() {
       <h1>Benedíctus</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedíctus Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:</p>
       <p>Bendito seja o Senhor, Deus de Israel: * porque visitou e remiu seu povo:</p>
       <p>Et eréxit cornu salútis nobis: * in domo David, púeri sui.</p>

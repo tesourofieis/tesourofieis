@@ -17,7 +17,7 @@ export default function Page0306() {
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Mýsticis, Dómine, repléti sumus votis et gáudiis: præsta, quǽsumus; ut intercessiónibus sanctárum Mártyrum tuárum Perpétuæ et Felicitátis, quæ temporáliter ágimus, spirituáliter consequámur. Per Dóminum...</p>
       <p>Saciados com as alegrias místicas, que são objecto dos nossos desejos, concedei-nos, Vos suplicamos, Senhor, que por intercessão das vossas Santas Mártires Perpétua e Felicidade alcancemos os eternos efeitos do que praticámos neste mundo. Por nosso Senhor...</p>
       </div>

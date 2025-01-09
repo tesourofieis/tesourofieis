@@ -21,21 +21,21 @@ export default function Page0430() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, omnípotens Deus: ut, qui beátæ Catharínæ Vírginis tuæ natalítia cólimus; et ánnua sollemnitáte lætámur, et tantæ virtútis proficiámus exémplo. Per Dóminum...</p>
       <p>Permiti, ó Deus omnipotente, Vos rogamos, que, honrando nós o nascimento no céu da B. Catarina, vossa Virgem, nos alegremos nesta solenidade anual e aproveitemos com o exemplo de tão grande virtude. Por nosso Senhor...</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Acéndant ad te, Dómine, quas in beátæ Catharínæ sollemnitáte offérimus, preces, et hóstia salutáris, virgíneo fragrans odóre. Per Dóminum...</p>
       <p>Deixai subir até Vós, Senhor, as preces que Vos oferecemos na solenidade da B. Catarina, e aceitai também esta salutar hóstia, perfumada com seu virginal odor. Por nosso Senhor...</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Æternitátem nobis, Dómine, cónferat, qua pasti sumus, mensa cœléstis: quæ beátæ Catharinæ Vírginis vitam étiam áluit temporálem. Per Dóminum...</p>
       <p>Que este celestial banquete em que nos alimentámos, Senhor, nos comunique a vida eterna, como ele alentou também a vida temporal da B. Virgem Catarina. Por nosso Senhor...</p>
       </div>

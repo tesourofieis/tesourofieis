@@ -14,14 +14,14 @@ export default function PageQuad46() {
 
 <em>Is. 55, 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sitiéntes, venite ad aquas, dicit Dóminus: et qui non habétis prétium, veníte et bíbite cum lætítia. <em>Ps. 77, 1</em> Atténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei. ℣. Gloria Patri...</p>
       <p>Ó vós, que estais sedentos, diz o Senhor, vinde às águas: e, ainda que não tenhais dinheiro, vinde e bebei com alegria. Escutai a minha lei, ó meu povo! <em>Sl. 77, 1</em> Inclinai os vossos ouvidos às palavras que saem da minha boca. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fiat, Dómine, quǽsumus, per grátiam tuam fructuósus nostræ devotiónis afféctus: quia tunc nobis próderunt suscépta jejúnia, si tuæ sint plácita pietáti. Per Dóminum nostrum...</p>
       <p>Senhor, permiti pela vossa graça que o afecto da nossa devoção se torne frutuoso, porquanto só nos serão proveitosos os nossos jejuns se forem agradáveis à vossa bondade. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad46() {
 
 <em>Is. 49, 8-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>Hæc dicit Dóminus: In témpore plácito exaudívi te, et in die salútis auxiliátus sum tui: et servávi te, et dedi te in fœdus pópuli, ut suscitáres terram, et possidéres hereditátes dissipátas: ut díceres his, qui vincti sunt: Exíte: et his, qui in ténebris: Revelámini. Super vias pascéntur, et in ómnibus planis páscua eórum. Non esúrient neque sítient, et non percútiet eos æstus et sol: quia miserátor eórum reget eos, et ad fontes aquárum potábit eos. Et ponam omnes montes meos in viam, et sémitæ meæ exaltabúntur. Ecce, isti de longe vénient, ei ecce illi ab aquilóne et mari, et isti de terra austráli. Laudáte, cœli, et exsúlta, terra, jubiláte, montes, laudem: quia consolátus est Dóminus pópulum suum, et páuperum suórum miserébitur. Et dixit Sion: Derelíquit me Dóminus, et Dóminus oblítus est mei. Numquid oblivísci potest múlier infántem suum, ut non misereátur fílio uteri sui? et si illa oblíta fúerit, ego tamen non oblivíscar tui, dicit Dóminus omnípotens.</p>
@@ -41,7 +41,7 @@ export default function PageQuad46() {
 
 <em>Sl. 9, 14 & 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tibi, Dómine, derelíctus est pauper: pupíllo tu eris adjútor. ℣. Ut quid, Dómine, recessísti longe, déspicis in opportunitátibus, in tribulatióne? dum supérbit ímpius, incénditur pauper.</p>
       <p>A Vós, Senhor, se abandona o pobre. Sois o protector do órfão. ℣. Porque, Senhor, Vos afastais para longe e Vos escondeis no tempo da tribulação, quando o ímpio se orgulha e persegue o pobre com ardor?</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad46() {
 
 <em>Jo. 8, 12-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Locútus est Jesus turbis Judæórum, dicens: Ego sum lux mundi: qui séquitur me, non ámbulat in ténebris, sed habébit lumen vitæ. Dixérunt ergo ei pharisǽi: Tu de te ipso testimónium pérhibes: testimónium tuum non est verum. Respóndit Jesus et dixit eis: Et si ego testimónium perhíbeo de meípso, verum est testimónium meum: quia scio, unde veni et quo vado: vos autem nescítis, unde vénio aut quo vado. Vos secúndum carnem judicátis: ego non júdico quemquam: et si júdico ego, judícium meum verum est, quia solus non sum: sed ego et, qui misit me, Pater. Et in lege vestra scriptum est, quia duórum hóminum testimónium verum est. Ego sum, qui testimónium perhíbeo de meípso: et testimónium pérhibet de me, qui misit me, Pater. Dicébant ergo ei: Ubi est Pater tuus? Respóndit Jesus: Neque me scitis neque Patrem meum: si me sciretis, fórsitan et Patrem meum scirétis. Hæc verba locútus est Jesus in gazophylácio, docens in templo: et nemo apprehéndit eum, quia necdum vénerat hora ejus.</p>
@@ -61,14 +61,14 @@ export default function PageQuad46() {
 
 <em>Sl. 17, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Factus est Dóminus firmaméntum meum, et refúgium meum, et liberátor meus: et sperábo in eum.</p>
       <p>O Senhor constituiu-se o meu sustentáculo, o meu refúgio e o meu salvador. Eu tenho esperança n’Ele!</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblatiónibus nostris, quǽsumus, Dómine, placáre suscéptis: et ad te nostras etiam rebélles compélle propítius voluntátes. Per Dóminum...</p>
       <p>Deixai-Vos aplacar, Senhor, Vos suplicamos, aceitando as nossas oblações; e pela vossa misericórdia obrigai as nossas vontades rebeldes a procurarem-Vos. Por nosso Senhor...</p>
       </div>
@@ -77,21 +77,21 @@ export default function PageQuad46() {
 
 <em>Sl. 22, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dóminus regit me, et nihil mihi déerit: in loco páscuæ ibi me collocávit: super aquam refectiónis educávit me.</p>
       <p>O Senhor é quem me governa; nada me faltará. Ele conduziu-me aos lugares de bom pasto; sentou-me ao pé da água, que me refrigera.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tua nos, quǽsumus, Dómine, sancta puríficent: et operatióne sua tibi plácitos esse perfíciant. Per Dóminum...</p>
       <p>Que os vossos sagrados mystérios, Senhor, Vos suplicamos, nos purifiquem; e que pela sua virtude nos tornemos sempre agradáveis a vossos olhos. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

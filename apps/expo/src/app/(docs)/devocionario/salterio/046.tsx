@@ -10,7 +10,7 @@ export default function Page046() {
       <h1>Salmo 46</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnes gentes, pláudite mánibus: * jubiláte Deo in voce exsultatiónis.</p>
       <p>Batei palmas todas as gentes: * aclamai a Deus com vozes de alegria.</p>
       <p>Quóniam Dóminus excélsus, terríbilis: * Rex magnus super omnem terram.</p>

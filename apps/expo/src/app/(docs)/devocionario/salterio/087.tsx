@@ -10,7 +10,7 @@ export default function Page087() {
       <h1>Salmo 87</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, Deus salútis meæ: * in die clamávi, et nocte coram Te.</p>
       <p>Senhor Deus da minha salvação: * de dia e de noite clamei ante Vós.</p>
       <p>Intret in conspéctu tuo orátio mea: * inclína aurem tuam ad precem meam:</p>

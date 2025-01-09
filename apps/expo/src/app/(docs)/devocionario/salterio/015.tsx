@@ -10,7 +10,7 @@ export default function Page015() {
       <h1>Salmo 15</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Consérva me, Dómine, quóniam sperávi in Te. * Dixi Dómino: Deus meus es Tu, quóniam bonórum meórum non eges.</p>
       <p>Guardai-me, ó Senhor, porque em Vós esperei. * Disse ao Senhor: Vós sois o meu Deus, que não tem necessida dos meus bens.</p>
       <p>Sanctis, qui sunt in terra ejus, * mirificávit omnes voluntátes meas in eis.</p>

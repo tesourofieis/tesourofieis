@@ -14,14 +14,14 @@ export default function PageEnfermos() {
 
 <em>Sl. 54, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde in me et exáudi me. (T. P. Allelúja, allelúja.) <em>Ps. ibid., 3-4</em> Contristátus sum in exercitatióne mea: et conturbátus sum a voce inimíci et a tribulatióne peccatóris. ℣. Gloria Patri...</p>
       <p>Ouvi, ó Deus, a minha oração e não desprezeis a minha humilde súplica: atendei-me e ouvi-me. (T. P. Aleluia, aleluia.) <em>Sl. ibid., 3-4</em> Estou cheio de angústia por causa das aflições, que me oprimem. Estou perturbado por causa da voz do meu inimigo e das tribulações que me infligem os pecadores. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, salus ætérna credéntium: exáudi nos pro fámulis tuis infírmis, pro quibus misericórdiæ tuæ implorámus auxílium; ut, reddíta sibi sanitáte, gratiárum tibi in Ecclésia tua réferant actiónes. Per Dóminum...</p>
       <p>Omnipotente e sempiterno Deus, que salvais eternamente os que crêem em Vós, ouvi as orações que Vos dirigimos pelos vossos servos enfermos, em favor dos quais imploramos o socorro da vossa misericórdia, a fim de que, readquirindo a saúde, Vos rendam acções de graças na vossa Igreja. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageEnfermos() {
 
 <em>Tg. 5, 13-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Jacóbi Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º Tiago.</p>
       <p>Caríssimi: Tristátur áliquis vestrum? oret.Æquo ánimo est? psallat. Infirmátur quis in vobis? indúcat presbýteros Ecclésiæ, et orent super eum, ungéntes eum óleo in nómine Dómini: et orátio fídei salvábit infírmum, et alleviábit eum Dóminus: et si in peccátis sit, remitténtur ei. Confitémini ergo altérutrum peccáta vestra, et oráte pro ínvicem, ut salvémini.</p>
@@ -41,7 +41,7 @@ export default function PageEnfermos() {
 
 <em>Sl. 6, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mihi, Dómine, quóniam infírmus sum: sana me, Dómine. ℣. Conturbáta sunt ómnia ossa mea: et ánima mea turbáta est valde.</p>
       <p>Compadecei-Vos de mim, Senhor, pois estou enfermo: curai-me, Senhor. ℣. Estou oprimido em todo meu corpo: estou perturbado até ao íntimo da minha alma.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 101, 2</em> Dómine, exáudi oratiónem meam: et clamor meus ad te pervéniat. Allelúja.</p>
@@ -54,14 +54,14 @@ export default function PageEnfermos() {
 
 <em>Sl. 30, 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mei, Dómine, quóniam tríbulor: conturbátus est in ira óculus meus, ánima mea et venter meus. ℣. Quóniam defécit in dolóre vita mea, et anni mei in gemítibus. ℣. Infirmáta est in paupertáte virtus mea: et ossa mea conturbáta sunt.</p>
       <p>Compadecei-Vos de mim, Senhor, pois estou atribulado: os meus olhos, a minha alma e até as minhas entranhas estão atribuladas. ℣. Pois a minha vida consome-se no meio da dor: e os meus anos em gemidos! ℣. Minhas forças debilitaram-se por causa da minha pobreza: e os meus ossos estão abalados.</p>
       </div>
 
 <aside>No Tempo Pascal omite-se o Gradual- e a Trato, e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 101, 2</em> Dómine, exáudi oratiónem meam: et clamor meus ad te pervéniat. Allelúja. ℣. <em>Ps. 27, 7</em> In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea, et ex voluntáte mea confitébor ei. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 101, 2</em> Senhor, ouvi a minha oração: e que meu clamor chegue até Vós. Aleluia. ℣. <em>Sl. 27, 7</em> Meu coração teve esperança em Deus e foi socorrido: e a minha carne refloresceu: eis porque O louvarei de todo meu coração. Aleluia.</p>
       </div>
@@ -70,7 +70,7 @@ export default function PageEnfermos() {
 
 <em>Mt. 8, 5-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Cum introísset Jesus Caphárnaum, accessit ad eum centúrio, rogans eum et dicens: Dómine, puer meus jacet in domo paralýticus, et male torquétur. Et ait illi Jesus: Ego véniam et curábo eum. Et respóndens centúrio, ait: Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur puer meus. Nam et ego homo sum sub potestáte constitútus, habens sub me mílites, et dico huic: Vade, et vadit; et alii: Veni, et venit; et servo meo: Fac hoc, ei facit. Audiens autem Jesus, mirátus est et sequéntibus se dixit: Amen, dico vobis, non inveni tantam fidem in Israël. Dico autem vobis, quod multi ab Oriénte et Occidénte vénient, et recúmbent cum Abraham et Isaac et Jacob in regno cœlórum: filii autem regni ejiciéntur in ténebras exterióres: ibi erit fletus et stridor déntium. Et dixit Jesus centurióni: Vade, et, sicut credidísti, fiat tibi. Et sanátus est puer in illa hora.</p>
@@ -81,14 +81,14 @@ export default function PageEnfermos() {
 
 <em>Sl. 54, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde in me et exáudi me. (T. P. Allelúja.)</p>
       <p>Senhor, ouvi a minha oração e não desprezeis as minhas súplicas. Volvei-Vos para mim e ouvi-me. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, cujus nútibus vitæ nostræ moménta decúrrunt: súscipe preces et hóstias famulórum tuórum, pro quibus ægrotántibus misericórdiam tuam implorámus; ut, de quorum perículo metúimus, de eórum salúte lætémur. Per Dóminum...</p>
       <p>Ó Deus, cuja vontade governa o decurso dos instantes da nossa vida, recebei as preces e as oblatas dos vossos servos enfermos, em favor dos quais imploramos a vossa misericórdia, a fim de que, depois de havermos temido o perigo em que eles se encontravam, nos regozijemos de os ver sãos e salvos. Por nosso Senhor...</p>
       </div>
@@ -97,14 +97,14 @@ export default function PageEnfermos() {
 
 <em>Sl. 30, 17-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Illúmina fáciem tuam super servum tuum, et salvum me fac in tua misericórdia: Dómine, non confúndar, quóniam invocávi te. (T. P. Allelúja.)</p>
       <p>Lançai o esplendor da vossa face sobre o vosso servo: e salvai-me consoante a vossa misericórdia! Senhor, visto que Vos invoquei, fazei que não seja confundido. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, infirmitátis humánæ singuláre præsídium: auxílii tui super infírmos fámulos tuos osténde virtútem; ut, ope misericórdiæ tuæ adjúti, Ecclésiæ tuæ sanctæ incólumes repræsentári mereántur. Per Dóminum...</p>
       <p>Ó Deus, que sois o único apoio da fraqueza humana, mostrai aos vossos servos enfermos o poder do vosso socorro, a fim de que, socorridos pela vossa misericórdia, sejam restituídos sãos e salvos ao seio da vosso Igreja. Por nosso Senhor...</p>
       </div>

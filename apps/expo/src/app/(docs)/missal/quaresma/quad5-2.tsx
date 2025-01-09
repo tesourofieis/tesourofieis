@@ -14,14 +14,14 @@ export default function PageQuad52() {
 
 <em>Sl. 26, 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exspécta Dóminum, viríliter age: et confortétur cor tuum, et sústine Dóminum. <em>Ps. ibid., 1</em> Dóminus illuminátio mea et salus mea: quem timebo?</p>
       <p>Esperai no Senhor; procedei com firmeza e o vosso coração será confortado. Esperai, pois, no Senhor. <em>Sl. ibid., 1</em> O Senhor é a minha luz e salvação. A quem hei-de temer?</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nostra tibi, Dómine, quǽsumus, sint accepta jejúnia: quæ nos et expiándo grátia tua dignos effíciant; et ad remédia perdúcant ætérna. Per Dóminum...</p>
       <p>Vos rogamos, Senhor, permiti que os nossos jejuns Vos sejam agradáveis, a fim de que, servindo de expiação das nossas faltas, nos tornem dignos da vossa graça e nos sirvam de remédio para alcançarmos a salvação eterna. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad52() {
 
 <em>Dn. 14, 27 & 28-42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Daniélis Prophétæ.</p>
       <p>Lição do Profeta Daniel.</p>
       <p>In diébus illis: Congregáti sunt Babylónii ad regem, et dixérunt ei: Trade nobis Daniélem, qui Bel destrúxit et dracónem interfecit, alioquin interficiémus te et domum tuam. Vidit ergo rex, quod irrúerent in eum veheménter: et necessitáte compúlsus trádidit eis Daniélem. Qui misérunt eum in lacum leónum, et erat ibi diébus sex. Porro in lacu erant leónes septem, et dabántur eis duo córpora cotídie et duæ oves: et tunc non data sunt eis, ut devorárent Daniélem. Erat autem Hábacuc prophéta in Judǽa, et ipse cóxerat pulméntum, et intríverat panes in alvéolo: et ibat in campum, ut ferret messóribus. Dixítque Angelus Dómini ad Hábacuc: Fer prándium, quod habes, in Babylónem Daniéli, qui est in lacu leónum. Et dixit Hábacuc: Dómine, Babylónem non vidi, et lacum néscio. Et apprehéndit eum Angelus Dómini in vértice ejus, et portávit eum capíllo cápitis sui, posuítque eum in Babylóne supra lacum in ímpetu spíritus sui. Et clamávit Hábacuc, dicens: Dániel, serve Dei, tolle prándium, quod misit tibi Deus. Et ait Dániel: Recordátus es mei, Deus, et non dereliquísti diligéntes te. Surgénsque Daniel comédit. Porro Angelus Dómini restítuit Hábacuc conféstim in loco suo. Venit ergo rex die séptimo, ut lugéret Daniélem: et venit ad lacum et introspéxit, et ecce Dániel sedens in médio leónum. Et exclamávit voce magna rex, dicens: Magnus es, Dómine, Deus Daniélis. Et extráxit eum de lacu leónum. Porro illos, qui perditiónis ejus causa fúerant, intromísit in lacum, et devoráti sunt in moménto coram eo. Tunc rex ait: Páveant omnes habitántes in univérsa terra Deum Daniélis: quia ipse est salvátor, fáciens signa et mirabília in terra: qui liberávit Daniélem de lacu leónum.</p>
@@ -41,7 +41,7 @@ export default function PageQuad52() {
 
 <em>Sl. 42, 1 & 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Discérne causam meam, Dómine: ab homine iníquo et dolóso éripe me. ℣. Emítte lucem tuam et veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum.</p>
       <p>Defendei a minha causa, Senhor: livrai-me do homem iníquo e fraudulento. ℣. Que resplandeça em mim a vossa luz e a vossa verdade: e elas me conduzirão e guiarão até ao monte sagrado.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad52() {
 
 <em>Jo. 7, 1-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Ambulábat Jesus in Galilǽam, non enim volébat in Judǽam ambuláre, quia quærébant eum Judǽi interfícere. Erat autem in próximo dies festus Judæórum, Scenopégia. Dixérunt autem ad eum fratres ejus: Transi hinc, et vade in Judǽam, ut et discípuli tui vídeant ópera tua, quæ facis. Nemo quippe in occúlto quid facit, et quærit ipse in palam esse: si hæc facis, manifesta teipsum mundo. Neque enim fratres ejus credébant in eum. Dixit ergo eis Jesus: Tempus meum nondum advénit: tempus autem vestrum semper est parátum. Non potest mundus odísse vos: me autem odit: quia ego testimónium perhíbeo de illo, quod ópera ejus mala sunt. Vos ascéndite ad diem festum hunc, ego autem non ascénde ad diem festum istum: quia meum tempus nondum implétum est. Hæc cum dixísset, ipse mansit in Galilǽa. Ut autem ascendérunt fratres ejus, tunc et ipse ascéndit ad diem festum non maniféste, sed quasi in occúlto. Judǽi ergo quærébant eum in die festo, et dicébant: Ubi est ille? Et murmur multum erat in turba de eo. Quidam enim dicébant: Quia bonus est. Alii autem dicébant: Non, sed sedúcit turbas. Nemo tamen palam loquebátur de illo, propter metum Judæórum.</p>
@@ -61,14 +61,14 @@ export default function PageQuad52() {
 
 <em>Sl. 9, 11-12 & 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non derelínquis quæréntes te: psállite Dómino, qui habitat in Sion: quóniam non est oblítus oratiónes páuperum.</p>
       <p>Que todos aqueles que conhecem o vosso nome, Senhor, confiem em Vós, porque não abandonais os que Vos procuram. Cantai hinos ao Senhor que habita em Sião: pois não esquecerá as orações dos pobres.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hóstias tibi, Dómine, deférimus immolándas: quæ temporálem consolatiónem signíficent; ut promíssa non desperémus ætérna. Per Dóminum...</p>
       <p>Senhor, que estas hóstias, que imolamos e oferecemos em vosso louvor, nos façam sentir consolação temporal, a fim de não perdermos a esperança das promessas eternas. Por nosso Senhor...</p>
       </div>
@@ -77,21 +77,21 @@ export default function PageQuad52() {
 
 <em>Sl. 24, 22</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Rédime me, Deus Israël, ex ómnibus angústiis meis.</p>
       <p>Livrai-me, ó Deus de Israel, de todas minhas angústias.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, omnípotens Deus: ut, quæ divína sunt, jugiter exsequéntes, donis mereámur cœléstibus propinquáre. Per Dóminum nostrum...</p>
       <p>Ó Deus omnipotente, Vos pedimos, fazei que, recebendo nós incessantemente os divinos mystérios, mereçamos alcançar os bens celestiais. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

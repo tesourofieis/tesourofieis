@@ -14,14 +14,14 @@ export default function PagePent50() {
 
 <em>Sl. 26, 7 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto, ne derelínquas me neque despícias me, Deus, salutáris meus. <em>Ps. ibid., 1</em> Dóminus illuminátio mea et salus mea, quem timébo? ℣. Gloria Patri...</p>
       <p>Ouvi, Senhor, a oração com que Vos imploro. Sede o meu auxílio: me não abandoneis, nem me desprezeis, ó meu Deus e meu Salvador! <em>Sl. ibid., 1</em> O Senhor é a minha luz e a minha salvação: a quem, pois, temerei? ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui diligéntibus te bona invisibília præparásti: infúnde córdibus nostris tui amóris afféctum; ut te in ómnibus et super ómnia diligéntes, promissiónes tuas, quæ omne desidérium súperant, consequámur. Per Dóminum...</p>
       <p>Ó Deus, que preparastes os bens invisíveis para aqueles que Vos amam, infundi nos nossos corações os afectos do vosso amor, a fim de que, amando-Vos em todas as coisas e acima de todas elas, consigamos alcançar os bens prometidos, os quais ultrapassam todos nossos desejos. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent50() {
 
 <em>1 Pe. 3, 8-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Petri Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º Pedro.</p>
       <p>Caríssimi: Omnes unánimes in oratióne estóte, compatiéntes, fraternitátis amatóres, misericórdes, modésti, húmiles: non reddéntes malum pro malo, nec maledíctum pro maledícto, sed e contrário benedicéntes: quia in hoc vocáti estis, ut benedictiónem hereditáte possideátis. Qui enim vult vitam dilígere et dies vidére bonos, coérceat linguam suam a malo, et lábia ejus ne loquántur dolum. Declínet a malo, et fáciat bonum: inquírat pacem, et sequátur eam. Quia óculi Dómini super justos, et aures ejus in preces eórum: vultus autem Dómini super faciéntes mala. Et quis est, qui vobis nóceat, si boni æmulatóres fuéritis? Sed et si quid patímini propter justítiam, beáti. Timórem autem eórum ne timuéritis: et non conturbémini. Dóminum autem Christum sanctificáte in córdibus vestris.</p>
@@ -41,7 +41,7 @@ export default function PagePent50() {
 
 <em>Sl. 83, 10 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Protéctor noster, áspice, Deus, et réspice super servos tuos. ℣. Dómine, Deus virtútum, exáudi preces servórum tuórum.</p>
       <p>Ó Deus, que sois o nosso protector, fitai-nos; volvei vossos olhos para os vossos servos. ℣. Senhor, Deus dos exércitos, ouvi as preces dos vossos servos.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 20, 1</em> Dómine, in virtúte tua lætábitur rex: et super salutáre tuum exsultábit veheménter. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent50() {
 
 <em>Mt. 5, 20-24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Sl. 15, 7 & 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum in conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.</p>
       <p>Bendirei o Senhor, que me deu a inteligência: tenho sempre o Senhor na minha presença, pois está à minha dextra para que nunca seja abalado.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Propitiáre, Dómine, supplicatiónibus nostris: et has oblatiónes famulórum famularúmque tuárum benígnus assúme; ut, quod sínguli obtulérunt ad honórem nóminis tui, cunctis profíciat ad salútem. Per Dóminum...</p>
       <p>Senhor, em virtude das nossas orações, tornai-Vos propício às nossas súplicas e recebei benigno estas oblações dos vossos servos e servas, a fim de que aquilo que Vos é oferecido por cada um de nós em homenagem ao vosso nome seja proveitoso para a salvação de todos. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Sl. 26, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini ómnibus diébus vitæ meæ.</p>
       <p>Uma só coisa pedi a Deus e pedi-la-ei sempre: habitar todos os dias da minha vida na casa do Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quos cœlésti, Dómine, dono satiásti: præsta, quǽsumus; ut a nostris mundémur occúltis et ab hóstium liberémur insídiis. Per Dóminum nostrum...</p>
       <p>Vós nos saciastes, Senhor, com os dons celestiais; e permiti, Vos suplicamos, que sejamos purificados das faltas ocultas e livres das ciladas dos inimigos. Por nosso Senhor...</p>
       </div>

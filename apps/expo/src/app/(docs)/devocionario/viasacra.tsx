@@ -16,7 +16,7 @@ Minha Mãe, Virgem dolorosa, ajudai-me a reviver aquelas horas amargas que o vos
 
       <h3>No inicio de cada Estação</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Adorámus te, Christe, et benedicimus tibi.</p>
       <p>℣. Nós Vos adoramos, ó Jesus, e Vos bendizemos.</p>
       <p><span className="text-red-500">℟. </span>Quia per Crucem tuam redemísti mundum.</p>
@@ -31,7 +31,7 @@ Minha Mãe, Virgem dolorosa, ajudai-me a reviver aquelas horas amargas que o vos
   [Glória](/devocionario/oracoes/gloria).
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Miserére nostri, Dómine.</p>
       <p>℣. Senhor tende piedade de nós.</p>
       <p><span className="text-red-500">℟. </span>Miserére nostri.</p>
@@ -164,7 +164,7 @@ Nesta décima quarta estação contemplemos N. S. J. C. no sepulcro, e Maria San
   Padre, terminando-se com a seguinte oração:
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Respice, quǽsumus Dómine, super hanc famíliam tuam, pro qua Dominus noster Jesus Christus non dubitavit manibus tradi nocentium et Crucis subire tormentum. Qui tecum vivit et regnat in unitate Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.</p>

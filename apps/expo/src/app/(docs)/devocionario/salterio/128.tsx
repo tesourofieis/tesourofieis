@@ -10,7 +10,7 @@ export default function Page128() {
       <h1>Salmo 128</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sæpe expugnavérunt me a juventúte mea, * dicat nunc Israël.</p>
       <p>Amiúde me combateram desde a minha mocidade, * diga-o agora Israel.</p>
       <p>Sæpe expugnavérunt me a juventúte mea: * étenim non potuérunt mihi.</p>

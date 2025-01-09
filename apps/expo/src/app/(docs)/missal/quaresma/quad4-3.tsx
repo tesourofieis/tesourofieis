@@ -14,12 +14,12 @@ export default function PageQuad43() {
 
 <em>Ez. 36, 23-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum. <em>Ps. 33, 2</em> Benedícam Dóminum in omni témpore: semper laus ejus in ore meo. ℣. Gloria Patri...</p>
       <p>Quando eu for santificado no meio de vós, reunir-vos-ei de todos os países. Então vos aspergirei com água pura, ficareis limpos de todas as iniquidades e vos darei um espírito novo. <em>Sl. 33, 2</em> Bendirei o Senhor continuamente; sempre a minha boca o louvará. ℣. Glória ao Pai...</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-center">℣. Flectámus génua.</span></p>
       <p><span className="text-center">℣. Ajoelhemos!</span></p>
       <p><span className="text-red-500">℟.</span> Leváte.</p>
@@ -28,7 +28,7 @@ export default function PageQuad43() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui et justis prǽmia meritórum et peccatóribus per jejúnium véniam præbes: miserére supplícibus tuis; ut reátus nostri conféssio indulgéntiam valeat percípere delictórum. Per Dóminum...</p>
       <p>Ó Deus, que por meio do jejum concedeis aos justos a recompensa de seus méritos e aos pecadores o perdão de seus pecados, tende misericórdia dos vossos fiéis suplicantes, para que, por meio da confissão das nossas culpas, possamos alcançar o perdão das mesmas. Por nosso Senhor...</p>
       </div>
@@ -37,7 +37,7 @@ export default function PageQuad43() {
 
 <em>Ez. 36, 23-28</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Ezechiélis Prophétæ.</p>
       <p>Lição do Profeta Ezequiel.</p>
       <p>Hæc dicit Dóminus Deus: Sanctificábo nomen meum magnum, quod pollútum est inter gentes, quod polluístis in médio eárum: ut sciant gentes, quia ego Dóminus, cum sanctificátus Mero in vobis coram eis. Tollam quippe vos de géntibus, et congregábo vos de univérsis terris, et addúcam vos in terram vestram. Et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris, et ab univérsis ídolis vestris mundábo vos. Et dabo vobis cor novum, et spíritum novum ponam in médio vestri: et áuferam cor lapídeum de carne vestra, et dabo vobis cor cárneum. Et spíritum meum ponam in médio vestri: et fáciam, ut in præcéptis meis ambulétis, et judicia mea custodiátis et operémini. Et habitábitis in terra, quam dedi pátribus vestris: et éritis mihi in pópulum, et ego ero vobis in Deum: dicit Dóminus omnípotens.</p>
@@ -48,14 +48,14 @@ export default function PageQuad43() {
 
 <em>Sl. 38, 12 & 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Veníte, fílii, audíte me: timórem Dómini docébo vos. ℣. Accédite ad eum, et illuminámini: et fácies vestræ non confundéntur.</p>
       <p>Vinde, filhos, escutai-me: Eu vos ensinarei a temer o Senhor. ℣. Aproximai-vos d’Ele e ficareis cheios de luz; a confusão não mais cobrirá o vosso rosto.</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, quos jejúnia votiva castígant, ipsa quoque devótio sancta lætíficet; ut, terrénis afféctibus mitigátis, facílius cœléstia capiámus. Per Dóminum...</p>
       <p>Ó Deus omnipotente, castigando nós voluntariamente os nossos corpos com estes solenes jejuns, concedei-nos, Vos suplicamos, que sejamos consolados com a alegria de uma piedade santa, a fim de que, sendo mitigado o ardor dos nossos afectos terrenos, alcancemos mais facilmente os bens celestiais. Por nosso Senhor...</p>
       </div>
@@ -64,7 +64,7 @@ export default function PageQuad43() {
 
 <em>Is. 1, 16-19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>Hæc dicit Dóminus Deus: Lavámini, mundi estóte, auférte malum cogitatiónum vestrárum ab óculis meis: quiéscite ágere pervérse, díscite benefácere: quǽrite judícium, subveníte opprésso, judicáte pupíllo, deféndite víduam. Et veníte et argúite me, dicit Dóminus: si fúerint peccáta vestra ut cóccinum, quasi nix dealbabúntur: et si fúerint rubra quasi vermículus, velut lana alba erunt. Si voluéritis et audiéritis me, bona terræ comedétis: dicit Dóminus omnípotens.</p>
@@ -75,7 +75,7 @@ export default function PageQuad43() {
 
 <em>Sl. 32, 12 & 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et spíritu oris ejus omnis virtus eórum.</p>
       <p>Bem-aventurada a nação cujo Deus é o Senhor; bem-aventurado o povo que Ele escolheu para sua herança. Pela palavra do Senhor foram criados os céus; e do sopro da sua boca veio toda sua virtude.</p>
       </div>
@@ -92,7 +92,7 @@ export default function PageQuad43() {
 
 <em>Jo. 9, 1-38</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -104,14 +104,14 @@ S. João.</p>
 
 <em>Sl. 65, 8-9 & 20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit commovéri pedes meos: benedíctus Dóminus, qui non amóvit deprecatiónem mam, et misericórdiam suam a me.</p>
       <p>Ó povos, bendizei o Senhor, nosso Deus, e fazei ressoar os seus louvores: foi Ele quem conservou a vida à minha alma e não deixou que meus pés tropeçassem. Bendito seja o Senhor, que não desprezou a minha oração nem afastou de mim a sua misericórdia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súpplices te rogámus, omnípotens Deus: ut his sacrifíciis peccáta nostra mundéntur; quia tunc veram nobis tríbuis et mentis et córporis sanitátem. Per Dóminum...</p>
       <p>Ordenai, ó Deus omnipotente, humildemente Vos rogamos, que estes sacrifícios nos purifiquem e nos concedam a verdadeira saúde da alma e do corpo. Por nosso Senhor...</p>
       </div>
@@ -120,21 +120,21 @@ S. João.</p>
 
 <em>Jo. 9, 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Lutum fecit ex sputo Dóminus, et linívit óculos meos: et ábii, et lavi, et vidi, et crédidi Deo.</p>
       <p>O Senhor fez lodo com sua saliva e untou os meus olhos. Então, lavei-me, vi e acreditei em Deus.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sacraménta, quæ súmpsimus, Dómine, Deus noster: et spirituálibus nos répleant aliméntis, et corporálibus tueántur auxíliis. Per Dóminum...</p>
       <p>Que estes sacramentos, que recebemos, Senhor, nosso Deus, saciem nossas almas com o alimento espiritual e protejam nossos corpos com os auxílios temporais. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Humiliáte cápita vestra Deo.</p>
       <p>Inclinai as vossas cabeças diante de Deus.</p>
       <p>Páteant aures misericórdiæ tuæ. Dómine, précibus supplicántium: et, ut peténtibus desideráta concédas; fac eos, quæ tibi sunt plácita, postuláre. Per Dóminum...</p>

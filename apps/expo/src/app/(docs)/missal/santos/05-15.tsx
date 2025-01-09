@@ -16,7 +16,7 @@ Nascido em Reims, a 30 de Abril de 1651, duma ilustre família, S. João Baptist
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui, ad christiánam páuperum eruditiónem et ad juvéntam in via veritátis firmándam, sanctum Joánnem Baptístam Confessórem excitásti, et novam per eum in Ecclésia famíliam collegísti: concéde propítius; ut ejus intercessióne et exémplo, stúdio glóriæ tuæ in animárum salúte fervéntes, ejus in cœlis corónæ partícipes fíeri valeámus. Per Dóminum...</p>
       <p>Ó Deus, que para o ensino dos pobres e para a firmeza dos jovens no caminho da verdade fizestes aparecer o Santo Confessor João Baptista, pelo qual fundastes uma nova família na Igreja, concedei-nos propício que, pela sua intercessão e seguindo o seu exemplo, sejamos devorados pelo zelo da glória de Deus para a salvação das almas, a fim de que possamos tornar-nos seus companheiros de glória no céu. Por nosso Senhor...</p>
       </div>
@@ -25,7 +25,7 @@ Nascido em Reims, a 30 de Abril de 1651, duma ilustre família, S. João Baptist
 
 <em>Mt. 18, 1-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicumque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.</p>

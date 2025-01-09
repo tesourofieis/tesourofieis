@@ -14,14 +14,14 @@ export default function PagePent20() {
 
 <em>Sl. 17, 19-20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Factus est Dóminus protéctor meus, et edúxit me in latitúdinem: salvum me fecit, quóniam vóluit me. <em>Ps. ib., 2-3</em> Díligam te, Dómine, virtus mea: Dóminus firmaméntum meum et refúgium meum et liberátor meus. ℣. Gloria Patri...</p>
       <p>O Senhor fez-se o meu protector e conduziu-me para o largo: E, porque me amava, salvou-me. <em>Sl. ib., 2-3</em> Amar-Vos-ei, Senhor, pois sois a minha fortaleza. Sim, o Senhor é o meu sustentáculo, refúgio e libertador. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum: quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instítuis. Per Dóminum...</p>
       <p>Fazei, Senhor, que possuamos perpetuamente o temor e o amor do vosso santo nome, porquanto nunca cessais de inspirar e dirigir aqueles em quem infundistes solidamente o vosso amor. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent20() {
 
 <em>1 Jo. 3, 13-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Joánnis Apóstoli.</p>
       <p>Lição da Ep.ª do B. Ap.º João.</p>
       <p>Caríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis, qui odit fratrem suum, homícida est. Et scitis, quóniam omnis homícida non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere. Qui habúerit substántiam hujus mundi, et víderit fratrem suum necessitátem habére, et cláuserit víscera sua ab eo: quómodo cáritas Dei manet in eo? Filíoli mei, non diligámus verbo neque lingua, sed ópere et veritáte.</p>
@@ -41,7 +41,7 @@ export default function PagePent20() {
 
 <em>Sl. 119, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ad Dóminum, cum tribulárer, clamávi, et exaudívit me. ℣. Dómine, libera ánimam meam a lábiis iníquis, et a lingua dolósa.</p>
       <p>Quando estava na tribulação, clamei pelo Senhor, que me ouviu. ℣. Livrai, Senhor, a minha alma dos lábios mentirosos e da língua traiçoeira.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 7, 2</em> Dómine, Deus meus, in te sperávi: salvum me fac ex ómnibus persequéntibus me et líbera me. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent20() {
 
 <em>Lc. 14, 16-24</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Lucas.</p>
@@ -64,14 +64,14 @@ S. Lucas.</p>
 
 <em>Sl. 6, 5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, convértere, et éripe ánimam meam: salvum me fac propter misericórdiam tuam.</p>
       <p>Senhor, volvei para mim a vossa face: e livrai a minha alma: salvai-me pela vossa misericórdia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblátio nos, Dómine, tuo nómini dicánda puríficet: et de die in diem ad cœléstis vitæ tránsferat actiónem. Per Dóminum...</p>
       <p>Senhor, que a oblação que vai ser consagrada ao vosso nome nos purifique; e que dia a dia nos aperfeiçoe na prática de uma vida toda celestial. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Lucas.</p>
 
 <em>Sl. 12, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Cantábo Dómino, qui bona tríbuit mihi: et psallam nómini Dómini altíssimi.</p>
       <p>Cantarei hinos ao Senhor, porque me cumulou de benefícios. Cantarei salmos ao nome do altíssimo Senhor.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumptis munéribus sacris, quǽsumus, Dómine: ut cum frequentatióne mystérii, crescat nostræ salútis efféctus. Per Dóminum...</p>
       <p>Havendo recebido estes dons sacratíssimos. Vos imploramos, Senhor, fazei que pela recepção frequente deste mystério nos sejam aumentados os frutos da salvação. Por nosso Senhor...</p>
       </div>

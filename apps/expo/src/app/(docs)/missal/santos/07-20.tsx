@@ -32,14 +32,14 @@ export default function Page0720() {
 
 <em>Lm. 2, 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Effúsum est in terra jecur meum super contritióne fíliæ pópuli mei, cum defíceret párvulus et lactens in platéis óppidi. <em>Ps. 112, 1</em> Laudáte, pueri, Dóminum: laudáte nomen Dómini. ℣. Gloria Patri...</p>
       <p>O meu coração ficou ferido ao contemplar as infelicidades da filha do meu povo, quando as criancinhas, e até aquelas que ainda eram amamentadas, caíam desfalecidas nas praças da cidade! <em>Sl. 112, 1</em> Louvai o Senhor, ó meninos; louvai o nome do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, misericordiárum pater, per mérita et intercessiónem beáti Hieronymi, quem órphanis adjutorem et patrem esse voluísti: concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus. Per Dóminum...</p>
       <p>Ó Deus, Pai das misericórdias, pelos méritos e intercessão do B. Jerónimo, que quisestes dar aos órfãos como auxílio e pai, concedei-nos a graça de conservarmos fielmente este espírito de adopção, em virtude do qual somos chamados vossos filhos e realmente o somos. Por nosso Senhor...</p>
       </div>
@@ -48,7 +48,7 @@ export default function Page0720() {
 
 <em>Is. 58, 7-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>Hæc dicit Dóminus: Frange esuriénti panem tuum, et egénos vagósque induc in domum tuam: cum víderis nudum, operi eum, et carnem tuam ne despéxeris. Tunc erúmpet quasi mane lumen tuum, et sánitas tua citius oriétur, et anteíbit fáciem tuam justítia tua, et glória Dómini cólliget te. Tunc invocábis, et Dóminus exáudiet: clamabis, et dicet: Ecce, adsum; si abstúleris de médio tui caténam, et desíeris exténdere dígitum, et loqui quod non prodest. Cum effúderis esuriénti ánimam tuam, et ánimam afflíctam repléveris. Oriétur in tenebris lux tua, et ténebræ tuæ erunt sicut merídies. Et réquiem tibi dabit Dóminus semper, et implébit splendóribus ánimam tuam, et ossa tua liberábit, et eris quasi hortus irríguus, et sicut fons aquárum, cujus non defícient aquæ.</p>
@@ -59,7 +59,7 @@ export default function Page0720() {
 
 <em>Pr. 5, 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Derivéntur fontes tui foras, et in platéis aquas tuas divide. ℣. <em>Ps. 111, 5-6</em> Jucúndus homo, qui miserétur et cómmodat: dispónet sermónes suos in judício, quia in ætérnum non commovébitur.</p>
       <p>Que as fontes trasbordem e que as águas se espalhem pelas praças públicas. <em>Sl. 111, 5-6</em> ℣. Bem-aventurado o homem que usou de misericórdia; que emprestou ao pobre; e que proferiu as suas palavras com justiça, pois ninguém poderá lançá-lo por terra.</p>
       <p>Allelúja, allelúja. ℣. <em>ibid., 9</em> Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi. Allelúja.</p>
@@ -70,7 +70,7 @@ export default function Page0720() {
 
 <em>Mt. 19, 13-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum
 Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
@@ -83,14 +83,14 @@ S. Mateus.</p>
 
 <em>Tb. 12, 12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quando orábas cum lácrimis, et sepeliébas mórtuos, et derelinquébas prándium tuum, et mórtuos abscondébas per diem in domo tua, et nocte sepeliébas eos: ego óbtuli oratiónem tuam Dómino.</p>
       <p>Quando rezaste com lágrimas e quando enterraste os mortos, deixando para isso a tua refeição, escondendo os mortos durante o dia na tua casa e enterrando-os durante a noite eu apresentei a tua oração ao Senhor.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Clementíssime Deus, qui, véteri homine consúmpto, novum secúndum te in beáto Hierónymo creáre dignátus es: da, per mérita ipsíus; ut nos, páriter renováti, hanc placatiónis hóstiam in odórem tibi suavíssimum offerámus. Per Dóminum...</p>
       <p>Ó Deus clementíssimo, que sobre as ruínas do «homem velho» Vos dignastes criar um novo homem à vossa imagem na pessoa do B. Jerónimo, concedei-nos pelos seus méritos que, sendo renovados, como ele, Vos apresentemos esta hóstia de propiciação, como um perfume de suave odor. Por nosso Senhor...</p>
       </div>
@@ -99,14 +99,14 @@ S. Mateus.</p>
 
 <em>Tg. 1, 27</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Relígio munda et immaculáta apud Deum et Patrem hæc est: Visitáre pupíllos et víduas in tribulatióne eórum, et immaculátum se custodíre ab hoc sǽculo.</p>
       <p>A religião pura e imaculada aos olhos de Deus, nosso Pai, é esta: visitar os órfãos e as viúvas nas suas aflições e conservar-se puro na corrupção deste mundo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Angelórum pane refécti te, Dómine, supplíciter deprecámur: ut, qui ánnuam beáti Hierónymi Confessóris tui memóriam celebráre gaudémus; ejúsdem étiam et exémplum imitémur, et amplíssimum in regno tuo prǽmium obtinére valeámus. Per Dóminum nostrum...</p>
       <p>Saciados com o pão dos Anjos, Vos suplicamos humildemente, Senhor, que, celebrando nós com alegria, anualmente, a memória do B. Jerónimo, vosso Confessor, imitemos também os seus exemplos e mereçamos alcançar as liberalíssimas recompensas do vosso reino. Por nosso Senhor...</p>
       </div>

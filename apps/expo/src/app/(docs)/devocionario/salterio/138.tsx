@@ -10,7 +10,7 @@ export default function Page138() {
       <h1>Salmo 138</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, probásti me, et cognovísti me: * Tu cognovísti sessiónem meam, et resurrectiónem meam.</p>
       <p>Senhor, provastes-me e conhecestes-me: * Vós sabeis quando me sento e quando me levanto.</p>
       <p>Intellexísti cogitatiónes meas de longe: * sémitam meam, et funículum meum investigásti.</p>

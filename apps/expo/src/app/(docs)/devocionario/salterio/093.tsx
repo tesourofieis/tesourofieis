@@ -10,7 +10,7 @@ export default function Page093() {
       <h1>Salmo 93</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus ultiónum Dóminus: * Deus ultiónum líbere egit.</p>
       <p>Deus da vingança é o Senhor: * agiu o Deus da vingança livremente.</p>
       <p>Exaltáre, qui júdicas terram: * redde retributiónem supérbis.</p>

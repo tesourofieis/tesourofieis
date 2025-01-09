@@ -12,7 +12,7 @@ export default function PageBencaos() {
 
       <h3>Ao Levantar</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Benedicamus Domino.</p>
       <p>℣. Bendigamos o Senhor.</p>
       <p><span className="text-red-500">℟. </span>Deo Gratias.</p>
@@ -27,7 +27,7 @@ export default function PageBencaos() {
 
       <h3>Antes da Refeição</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> In nómine Patris, et Fílii, et Spíritus Sancti.</p>
       <p><span className="cross text-red-500">✠</span> Em nome do Pai e do Filho e do Espírito Santo.</p>
       <p><span className="text-red-500">℟. </span>Amen.</p>
@@ -40,7 +40,7 @@ export default function PageBencaos() {
 
       <h3>Depois da Refeição</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In nómine Patris, et Fílii, et Spíritus Sancti.</p>
       <p>Em nome do Pai e do Filho e do Espírito Santo.</p>
       <p><span className="text-red-500">℟. </span>Amen.</p>
@@ -53,7 +53,7 @@ export default function PageBencaos() {
 
       <h3>Viagem</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beata Maria intercedénte, bene ambulémus: et Dóminus sit in itínere nostro, et Ángeli ejus comiténtur nobíscum.</p>
       <p>Que pela intercessão da Bem-Aventurada Virgem Maria, tenhamos uma boa viagem, que o Senhor esteja no nosso caminho e os seus Anjos nos acompanhem.</p>
       <p><span className="cross text-red-500">✠</span> In nómine Patris, et Fílii, et Spíritus Sancti.</p>
@@ -72,7 +72,7 @@ Abençoai, Senhor, o trabalho em que vou ocupar-me e permiti que sirva para voss
 
       <h3>Aos Filhos</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pax et benedíctio Dei omnipoténtis, Patris, et Fílii, et Spíritus Sancti, descéndat super te, et máneat semper.</p>
       <p>Que a paz e a bênção de Deus Todo-Poderoso, Pai, Filho e Espírito Santo, desça sobre ti e permaneça contigo para sempre.</p>
       <p><span className="text-red-500">℟. </span>Amen.</p>
@@ -81,7 +81,7 @@ Abençoai, Senhor, o trabalho em que vou ocupar-me e permiti que sirva para voss
 
       <h3>A Adultos</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedíctio Dei omnipoténtis, Patris, et Fílii, et Spíritus Sancti, descéndat super te, et máneat semper.</p>
       <p>A bênção de Deus Todo-Poderoso, Pai, Filho e Espírito Santo, desça sobre ti e permaneça contigo para sempre.</p>
       <p><span className="text-red-500">℟. </span>Amen.</p>

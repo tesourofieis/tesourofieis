@@ -14,14 +14,14 @@ export default function Page1228() {
 
 <em>Sl. 8, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ex ore infántium, Deus, et lacténtium perfecísti laudem propter inimicos tuos. <em>Ps. ib., 2</em> Dómine, Dóminus noster: quam admirábile est nomen tuum in univérsa terra! ℣. Gloria Patri...</p>
       <p>Da boca dos meninos e das crianças de peito fazeis sair louvores em vossa honra, para confusão dos vossos inimigos. <em>Sl. ib., 2</em> Ó Senhor, nosso Deus, como o vosso nome é admirável em todo o universo! ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, cujus hodicrna die præcónium Innocéntes Mártyres non loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala mortífica; ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur. Per Dóminum...</p>
       <p>Ó Deus, cuja glória os Inocentes Mártires confessaram neste dia, não com suas palavras, mas com sua morte, mortificai no nosso íntimo as paixões e os vícios, a fim de que a vossa fé, que a nossa boca confessa, seja Confirmada com os nossos costumes. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page1228() {
 
 <em>Ap. 14, 1-5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Apocalýpsis beáti Joánnis Apóstoli.</p>
       <p>Lição do Livro Apocalipse do B. Ap.º João.</p>
       <p>In diébus illis: Vidi supra montem Sion Agnum stantem, et cum eo centum quadragínta quatuor mília, habéntes nomen ejus, et nomen Patris ejus scriptum in fróntibus suis. Et audívi vocem de cœlo, tamquam vocem aquárum multárum, et tamquam vocem tonítrui magni: et vocem, quam audívi, sicut citharœrórum citharizántium in cítharis suis. Et cantábant quasi cánticum novum ante sedem, et ante quátuor animália, et senióres: et nemo póterat dícere cánticum, nisi illa centum quadragínta quátuor mília, qui empti sunt de terra. Hi sunt, qui cum muliéribus non sunt coinquináti: vírgines enim sunt. Hi sequúntur Agnum, quocúmque íerit. Hi empti sunt ex homínibus primítiæ Deo, et Agno: et in ore eórum non est invéntum mendácium: sine mácula enim sunt ante thronum Dei.</p>
@@ -41,7 +41,7 @@ export default function Page1228() {
 
 <em>Sl. 123, 7-8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Anima nostra, sicut passer, erépta est de láqueo venántium. ℣. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.</p>
       <p>A nossa alma escapou-se, como um pássaro do laço do caçador. O laço quebrou-se, e ficámos livres. ℣. A nossa esperança está no nome do Senhor, que criou o céu e a terra.</p>
       </div>
@@ -50,14 +50,14 @@ export default function Page1228() {
 
 <em>Sl. 78, 3 & 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Effudérunt sánguinem Sanctórum, velut aquam, in circuitu Jerúsalem. ℣. Et non erat, qui sepelíret. ℣. Víndica, Dómine, sánguinem Sanctórum tuórum, qui effúsus est super terram.</p>
       <p>Derramaram o sangue dos Santos, como água, em redor de Jerusalém. ℣. E não houve ninguém que os sepultasse. ℣. Vingai, Senhor, o sangue dos vossos Santos que correu pela terra.</p>
       </div>
 
 <aside>Ao Domingo suprime-se o Trato e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 112, 1</em> Laudáte, púeri, Dóminum, laudáte nomen Dómini. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 112, 1</em> Ó meninos, louvai o Senhor; louvai o seu santo nome. Aleluia.</p>
       </div>
@@ -66,7 +66,7 @@ export default function Page1228() {
 
 <em>Mt. 2, 13-18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Angelus Dómini appáruit in somnis Joseph, dicens: Surge, et áccipe Púerum et Matrem ejus, et fuge in Ægýptum, et esto ibi, usque dum dicam tibi. Futúrum est enim, ut Heródes quærat Púerum ad perdéndum eum. Qui consúrgens accépit Púerum et Matrem ejus nocte, et secéssit in Ægýptum: et erat ibi usque ad óbitum Heródis: ut adimplerétur quod dictum est a Dómino per Prophétam dicéntem: Ex Ægýpto vocávi Fílium meum. Tunc Heródes videns, quóniam illúsus esset a Magis, irátus est valde, et mittens occídit omnes púeros, qui erant in Béthlehem et in ómnibus fínibus ejus, a bimátu et infra, secúndum tempus, quod exquisíerat a Magis. Tunc adimplétum est, quod dictum est per Jeremíam Prophetam dicéntem: Vox in Rama audíta est, plorátus et ululátus multus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.</p>
@@ -77,14 +77,14 @@ export default function Page1228() {
 
 <em>Sl. 123, 7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Anima nostra, sicut passer, erépta est de láqueo venántium: láqueus contrítus est, et nos liberáti sumus.</p>
       <p>A nossa alma escapou-se, como um pássaro do laço do caçador. O laço quebrou-se, e ficámos livres.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et múnera nostra concíliet, et tuam nobis indulgéntiam semper obtíneat. Per Dóminum...</p>
       <p>Não nos falte, Senhor, a pia oração dos vossos Santos e que ela Vos torne agradáveis as nossas ofertas e sempre nos alcance a vossa indulgência. Por nosso Senhor...</p>
       </div>
@@ -93,14 +93,14 @@ export default function Page1228() {
 
 <em>Mt. 2, 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vox in Rama audíta est, plorátus, et ululátus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.</p>
       <p>Uma voz se ouviu em Rama: muitos soluços e lamentações. É Raquel que chora os seus filhos; e ela não quer ser consolada, porque já não existem!</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Votíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et præséntis, quǽsumus, vitæ páriter et ætérnæ tríbue conférre subsídium. Per Dóminum...</p>
       <p>Havendo nós participado dos dons que Vos oferecemos, dignai-Vos permitir que as orações dos vossos Santos nos sirvam de auxílio para a vida presente e para a futura. Por nosso Senhor...</p>
       </div>

@@ -10,7 +10,7 @@ export default function Page137() {
       <h1>Salmo 137</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Confitébor tibi, Dómine, in toto corde meo: * quóniam audísti verba oris mei.</p>
       <p>Eu Vos glorificarei, ó Senhor, de todo o coração: * porque ouvistes as palavras da minha boca.</p>
       <p>In conspéctu Angelórum psallam tibi: * adorábo ad templum sanctum tuum, et confitébor nómini tuo.</p>

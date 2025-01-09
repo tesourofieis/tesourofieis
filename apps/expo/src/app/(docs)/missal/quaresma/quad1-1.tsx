@@ -14,14 +14,14 @@ export default function PageQuad11() {
 
 <em>Sl. 122, 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sicut óculi servórum in mánibus dominórum suórum: ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nobis: miserére nobis, Dómine, miserére nobis. <em>Ps. ibid., 1</em> Ad te levávi óculos meos: qui hábitas in cœlis. ℣. Gloria Patri...</p>
       <p>Assim como os olhos dos escravos estão voltados para as mãos dos seus senhores, assim os nossos olhos estão voltados para o Senhor, nosso Deus, até que Ele tenha compaixão de nós. Tende compaixão de nós, Senhor, tende compaixão de nós. <em>Sl. ibid., 1</em> Levantei os olhos para Vós, que habitais nos céus. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Convérte nos, Deus, salutáris noster: et, ut nobis jejúnium quadragesimále profíciat, mentes nostras cœléstibus ínstrue disciplínis. Per Dóminum...</p>
       <p>Ó Deus, nosso Salvador, convertei-nos; e, para que o jejum quaresmal nos seja proveitoso, instruí as nossas almas com vossas celestiais lições. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad11() {
 
 <em>Ez. 34, 11-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Ezechiélis Prophétæ.</p>
       <p>Lição do Profeta Ezequiel.</p>
       <p>Hæc dicit Dóminus Deus: Ecce, ego ipse requíram oves meas, et visitábo eas. Sicut vísitat pastor gregem suum in die, quando fúerit in médio óvium suárum dissipatárum: sic visitábo oves meas, et liberábo eas de ómnibus locis, in quibus dispérsæ fúerant in die nubis et calíginis. Et edúcam eas de pópulis, et congregábo eas de terris, et indúcam eas in terram suam: et pascam eas in móntibus Israël, in rivis, et in cunctis sédibus terræ. In páscuis ubérrimis pascam eas, et in móntibus excélsis Israël erunt páscua eárum: ibi requiéscent in herbis viréntibus, et in páscuis pínguibus pascéntur super montes Israël. Ego pascam oves meas, et ego eas accubáre fáciam, dicit Dóminus Deus. Quod períerat, requíram; et quod abjéctum erat, redúcam; et quod confractum fúerat, alligábo; et quod infírmum fúerat, consolidábo; et quod pingue et forte, custódiam: et pascam illas in judício, dicit Dóminus omnípotens.</p>
@@ -41,7 +41,7 @@ export default function PageQuad11() {
 
 <em>Sl. 88, 10 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Protéctor noster, áspice, Deus, et réspice super servos tuos. ℣. Dómine, Deus virtútum, exáudi preces servórum tuórum.</p>
       <p>Olhai para nós, ó Deus, nosso protector: volvei os vossos olhos para os vossos servos. ℣. Senhor, Deus dos exércitos, ouvi as súplicas dos vossos servos.</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuad11() {
 
 <em>Mt. 25, 31-46</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secundum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -70,14 +70,14 @@ S. Mateus.</p>
 
 <em>Sl. 118, 18, 26 & 73</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Levábo óculos meos, et considerábo mirabília tua, Dómine, ut dóceas me justítias tuas: da mihi intelléctum, et discam mandáta tua.</p>
       <p>Erguerei a Vós os meus olhos, Senhor, e considerarei as vossas maravilhas, para que me ensineis as vossas leis. Dai-me inteligência, e aprenderei os vossos Mandamentos.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera tibi, Dómine, obláta sanctífica: nosque a peccatórum nostrórum máculis emúndet. Per Dóminum...</p>
       <p>Santificai, Senhor, estes dons que Vos oferecemos, e purificai-nos das manchas dos nossos pecados. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. Mateus.</p>
 
 <em>Mt. 25, 40 & 34</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Amen, dico vobis: quod uni ex mínimis meis fecístis, mihi fecístis: veníte, benedícti Patris mei, possidéte parátum vobis regnum ab inítio sǽculi.</p>
       <p>Em verdade vos digo: todas as vezes que fizestes isto ao mais pequeno de meus irmãos, a mim mesmo o fizestes. Vinde, benditos de meu Pai, possuir o reino preparado para vós desde o princípio do mundo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Salutáris tui, Dómine, múnere satiáti, súpplices exorámus: ut, cujus lætámur gustu, renovémur efféctu. Per Dóminum...</p>
       <p>Agora, que fomos alimentados com vosso dom salutar, Vos suplicamos, Senhor, que, assim como tivemos a alegria de o receber, assim sejamos renovados com seus efeitos. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

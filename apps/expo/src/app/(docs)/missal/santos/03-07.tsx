@@ -20,7 +20,7 @@ Comemoração S. Tomás de Aquino, Confessor e Doutor da Igreja. Santo Tomás, f
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui Ecclésiam tuam beáti Thomæ Confessóris tui mira eruditióne claríficas, et sancta operatióne fecúndas: da nobis, quǽsumus; et quæ dócuit, intelléctu conspícere, et quæ egit, imitatióne complére. Per Dóminum nostrum...</p>
       <p>Ó Deus, que ilustrais a vossa Igreja com a admirável sabedoria do B. Tomás, vosso Confessor, e a fecundais com a santidade das suas acções, concedei-nos, Vos suplicamos, que compreendamos o que ele ensinou e imitemos com as nossas acções o que ele praticou. Por nosso Senhor...</p>
       </div>
@@ -29,7 +29,7 @@ Comemoração S. Tomás de Aquino, Confessor e Doutor da Igreja. Santo Tomás, f
 
 <em>Sb. 7, 7-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Optávi, et datus est mihi sensus: et invocávi, et venit in me spíritus sapiéntiæ: et præpósui illam regnis et sédibus, et divítias nihil esse duxi in comparatióne illíus: nec comparávi illi lápidem pretiósum: quóniam omne aurum in comparatióne illíus arena est exígua, et tamquam lutum æstimábitur argéntum in conspéctu illíus. Super salútem et spéciem diléxi illam, et propósui pro luce habére illam: quóniam inexstinguíbile est lumen illíus. Venérunt autem mihi ómnia bona páriter cum illa, et innumerábilis honéstas per manus illíus, et lætátus sum in ómnibus: quóniam antecedébat me ista sapiéntia, et ignorábam, quóniam horum ómnium mater est. Quam sine fictióne dídici et sine invídia commúnico, et honestátem illíus non abscóndo. Infinítus enim thesáurus est homínibus: quo qui usi sunt, partícipes facti sunt amicítiæ Dei, propter disciplínæ dona commendáti.</p>

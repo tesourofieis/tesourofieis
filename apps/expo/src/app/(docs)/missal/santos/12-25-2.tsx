@@ -14,14 +14,14 @@ export default function Page12252() {
 
 <em>Is. 9, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus. <em>Ps. 97, 1</em> Cantáte Dómino cánticum novum, quia mirabília fecit. ℣. Gloria Patri...</p>
       <p>Nasceu para nós um Menino e foi-nos dado um Filho, que traz sobre os seus ombros o manto da realeza, o qual será chamado «Anjo do admirável conselho». <em>Sl. 97, 1</em> Cantai ao Senhor um hino novo, pois Ele praticou maravilhas. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet. Per eúndem Dóminum...</p>
       <p>Ó Deus omnipotente, Vos imploramos, dignai-Vos permitir que o novo Nascimento do vosso Filho Unigénito Incarnado nos livre do antigo cativeiro em que nos conserva o jugo do pecado. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page12252() {
 
 <em>Heb. 1, 1-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.</p>
       <p>Multifáriam, multísque modis olim Deus loquens pátribus in Prophétis: novíssime diébus istis locútus est nobis in Fílio, quem constítuit herédem universórum, per quem fecit et sǽcula: qui cum sit splendor glóriæ, et figúra substántia? ejus, portánsque ómnia verbo virtútis suæ, purgatiónem peccatórum fáciens, sedet ad déxteram majestátis in excélsis: tanto mélior Angelis efféctus, quanto differéntius præ illis nomen hereditávit. Cui enim dixit aliquándo Angelórum: Fílius meus es tu, ego hódie génui te? Et rursum: Ego ero illi in patrem, et ipse erit mihi in fílium? Et cum íterum introdúcit Primogénitum in orbem terræ, dicit: Et adórent eum omnes Angeli Dei. Et ad Angelos quidem dicit: Qui facit Angelos suos spíritus, et minístros suos flammam ignis. Ad Fílium autem: Thronus tuus, Deus, in sǽculum sǽculi: virga æquitátis, virga regni tui. Dilexísti justítiam et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo exsultatiónis præ particípibus tuis. Et: Tu in princípio, Dómine, terram fundásti: et ópera mánuum tuárum sunt cœli. Ipsi períbunt, tu autem permanébis; et omnes ut vestiméntum veteráscent: et velut amíctum mutábis eos, et mutabúntur: tu autem idem ipse es, et anni tui non defícient.</p>
@@ -41,7 +41,7 @@ export default function Page12252() {
 
 <em>Sl. 97, 3 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra. ℣. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam.</p>
       <p>Toda a terra viu o Salvador, que o nosso Deus enviou: aclamai Deus, ó povos de toda a terra. O Senhor manifestou o Salvador, que havia prometido: e manifestou a sua justiça aos olhos dos povos.</p>
       <p>Allelúja, allelúja. ℣. Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia hódie descéndit lux magna super terram. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function Page12252() {
 
 <em>Jo, 1, 1-14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Initium sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Início do santo Evangelho segundo S. João.</p>
       <p>In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in princípio apud Deum. Omnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est: in ipso vita erat, et vita erat lux hóminum: et lux in ténebris lucet, et ténebræ eam non comprehendérunt. Fuit homo missus a Deo, cui nomen erat Joánnes. Hic venit in testimónium, ut testimónium perhibéret de lúmine, ut omnes créderent per illum. Non erat ille lux, sed ut testimónium perhibéret de lúmine. Erat lux vera, quæ illúminat omnem hóminem veniéntem in hunc mundum. In mundo erat, et mundus per ipsum factus est, et mundus eum non cognóvit. In própria venit, et sui eum non recepérunt. Quotquot autem recepérunt eum, dedit eis potestátem fílios Dei fíeri, his, qui credunt in nómine ejus: qui non ex sanguínibus, neque ex voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt. <em>Hic genuflectitur</em> Et Verbum caro factum est, et habitávit in nobis: et vídimus glóriam ejus, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.</p>
@@ -63,14 +63,14 @@ export default function Page12252() {
 
 <em>Sl. 88, 12 & 15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tui sunt cœli et tua est terra: orbem terrárum et plenitúdinem ejus tu fundásti: justítia et judícium præparátio sedis tuæ.</p>
       <p>A Vós, Senhor, pertencem os céus e a terra; pois criastes o universo e tudo o que ele encerra. A justiça e a equidade são a base do vosso trono.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Obláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica: nosque a peccatórum nostrórum máculis emúnda. Per eúndem Dóminum nostrum...</p>
       <p>Santificai, Senhor, pelo novo Nascimento do vosso Filho Unigénito, as oblatas que Vos apresentamos, e purificai-nos das manchas dos nossos pecados. Pelo mesmo nosso Senhor...</p>
       </div>
@@ -79,14 +79,14 @@ export default function Page12252() {
 
 <em>Sl. 97, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Vidérunt omnes fines terræ salutáre Dei nostri.</p>
       <p>Toda a terra contemplou o Salvador que o nosso Deus enviou.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínæ nobis generatiónis est auctor; ita et immortalitátis sit ipse largítor: Qui tecum vivit et regnat...</p>
       <p>Ó Deus omnipotente, dignai-Vos permitir que, assim como o Salvador do mundo, nascendo neste dia, nos comunicou a geração divina, assim também nos conceda a imortalidade. Ele, que, sendo Deus...</p>
       </div>
@@ -95,7 +95,7 @@ export default function Page12252() {
 
 <em>Mt. 2, 19-23</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce, Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui natus est rex Judæórum? Vidimus enim stellam ejus in Oriénte, et vénimus adoráre eum. Audiens autem Heródes rex, turbatus est, et omnis Jerosólyma cum illo. Et cóngregans omnes principes sacerdotum et scribas pópuli, sciscitabátur ab eis, ubi Christus nasceretur. At illi dixérunt ei: In Béthlehem Judae: sic enim scriptum est per Prophétam: Et tu, Béthlehem terra Juda, nequaquam mínima es in princípibus Juda; ex te enim éxiet dux, qui regat pópulum meum Israel. Tunc Heródes, clam vocátis Magis, diligénter dídicit ab eis tempus stellæ, quæ appáruit eis: et mittens illos in Béthlehem, dixit: Ite, et interrogáte diligénter de púero: et cum invenéritis, renuntiáte mihi, ut et ego véniens adórem eum. Qui cum audíssent regem, abiérunt. Et ecce, stella, quam víderant in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et intrántes domum, invenérunt Púerum cum María Matre ejus, <em>hic genuflectitur</em> ei procidéntes adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera, aurum, thus et myrrham. Et responso accépto in somnis, ne redírent ad Heródem, per aliam viam revérsi sunt in regiónem suam.</p>

@@ -14,14 +14,14 @@ export default function Page0324() {
 
 <em>Sl. 102, 20</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus. (T. P. Allelúja, allelúja.) <em>Ps. ibid., 1</em> Bénedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus. ℣. Gloria Patri...</p>
       <p>Bendizei o Senhor, ó Anjos do Senhor: Sois cheios de poder e virtude: e fazeis o que Ele vos ordena, obedecendo às suas palavras e ordens. (T. P. Aleluia, aleluia). <em>Sl. ibid., 1</em> Bendizei o Senhor, ó minha alma: que tudo quanto houver em mim bendiga o santo nome do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui inter céteros Angelos, ad annuntiándum incarnatiónis tuæ mystérium, Gabriélem Archángelum elegísti: concéde propítius; ut, qui festum (commemoratiónem) ejus celebrámus in terris, ipsíus patrocínium sentiámus in cœlis: Qui vivis...</p>
       <p>Ó Deus, que entre os outros Anjos escolhestes o Arcanjo Gabriel para anunciar o mystério da vossa Incarnação, concedei-nos propício que, havendo celebrado a sua festa na terra, experimentemos o seu patrocínio no céu, Ó Vós, que, sendo Deus, viveis e...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0324() {
 
 <em>Dn. 9, 21-26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Daniélis Prophétæ.</p>
       <p>Lição do Profeta Daniel.</p>
       <p>In diébus illis: Ecce, vir Gábriël, quem víderam m visióne a princípio, cito volans tétigit me in témpore sacrifícii vespertíni. Et dócuit me et locútus est mihi dixítque: Dániel, nunc egréssus sum, ut docérem te et intellégeres. Ab exórdio precum tuárum egréssus est sermo: ego autem veni, ut indicárem tibi, quia vir desideriórum es: tu ergo animadvérte sermónem et intéllege visiónem. Septuagínta hebdómades abbreviátæ sunt super pópulum tuum et super urbem sanctam tuam, ut consummétur prævaricátio, et finem accípiat peccatum, et deleátur iníquitas, et adducátur justítia sempitérna, et impleátur visio et prophetia, et ungátur Sanctus sanctórum. Scito ergo et animadvérte: Ab éxitu sermónis, ut íterum ædificétur Jerúsalem, usque ad Christum ducem, hebdómades septem et hebdómades sexagínta duæ erunt: et rursum ædificábitur platéa et muri in angustia temporum. Et post hebdómades sexagínta duas occidétur Christus: et non erit ejus pópulus, qui eum negatúrus est. Et civitátem et sanctuárium dissipábit populus cum duce ventúro: et finis ejus vástitas, et post finem belli statúta desolátio.</p>
@@ -41,7 +41,7 @@ export default function Page0324() {
 
 <em>Sl. 102, 20 & 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus. ℣. Benedic, ánima mea, Dóminum, et ómnia interióra mea nomen sanctum ejus.</p>
       <p>Bendizei o Senhor, vós todos, que sois seus Anjos; ó vós, que sois poderosos e valorosos; e que executais as suas ordens. ℣. Bendizei o Senhor, ó minha alma: tudo o que há no meu íntimo bendiga o Senhor.</p>
       </div>
@@ -50,14 +50,14 @@ export default function Page0324() {
 
 <em>Lc. 1, 28, 42, 31 & 35</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ave, María, grátia plena; Dóminus tecum. ℣. Benedícta tu in muliéribus: et benedíctus fructus ventris tui. ℣. Ecce, concípies et páries Fílium, et vocábis nomen ejus Emmánuel. ℣. Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. ℣. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei.</p>
       <p>Ave, Maria, cheia de graça, o Senhor é convosco. ℣. Bendita sois vós entre as mulheres: e bendito é o fruto do vosso ventre. ℣. Eis que conceberás, darás à luz um Filho e o seu nome será Emanuel. ℣. O Espírito Santo descerá sobre vós e a virtude do Altíssimo far-vos-á conceber. ℣. E, por isso, o Santo que de vós nascer será chamado Filho de Deus.</p>
       </div>
 
 <aside>No T. Pascal omite-se o Gradual e o Trato e diz-se:</aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Allelúja, allelúja. ℣. <em>Ps. 103, 4</em> Qui facit Angelos suos spíritus: et minístros suos flammam ignis. Allelúja. ℣. <em>Luc. 1, 28</em> Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.</p>
       <p>Aleluia, aleluia. ℣. <em>Sl. 103, 4</em> Fazeis que os vossos Anjos sejam velozes como os ventos e que os vossos ministros sejam activos como a chama do fogo. Aleluia. ℣. <em>Lc. 1, 28</em> Ave, Maria, cheia de graça: O Senhor é convosco: bendita sois vós entre as mulheres. Aleluia.</p>
       </div>
@@ -66,7 +66,7 @@ export default function Page0324() {
 
 <em>Lc. 1, 26-38</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo témpore: Missus est Angelus Gábriel a Deo in civitátem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Ei ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ǽtérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.</p>
@@ -77,28 +77,28 @@ export default function Page0324() {
 
 <em>Ap. 8, 3 & 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in conspéctu Dei. (T. P. Allelúja.)</p>
       <p>Junto ao altar, no templo, estava de pé um Anjo, tendo na mão um turíbulo de ouro: e deitava-lhe muito incenso, subindo o fumo dos perfumes à presença de Deus. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Accéptum fiat in conspéctu tuo, Dómine, nostræ servitútis munus, et beáti Archángeli Gabriélis orátio: ut, qui a nobis venerátur in terris, sit apud te pro nobis advocátus in cœlis. Per Dóminum nostrum...</p>
       <p>Senhor, seja agradável a vossos olhos a oferta da nossa servidão, bem como a oração de B. Gabriel Arcanjo, a fim de que, venerando-o nós na terra, seja nosso advogado junto de Vós no céu. Por nosso Senhor...</p>
       </div>
 
       <h3>Comúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et superexaltáte eum in sǽcula. (T. P. Allelúja.)</p>
       <p>Anjos todos do Senhor, louvai o Senhor. Cantai hinos em seu louvor e aclamai-O em todos os séculos. (T. P. Aleluia.)</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Córporis tui et Sánguinis sumptis mystériis, tuam, Dómine, Deus noster, deprecámur cleméntiam: ut, sicut, Gabriéle nuntiánte, incarnatiónem tuam cognóvimus; ita, ipso adjuvante, incarnationis ejúsdem benefícia consequámur: Qui vivis...</p>
       <p>Havendo já recebido os mystérios do vosso Corpo e Sangue, Senhor, nosso Deus, imploramos a vossa clemência, para que, assim como pela Anunciação do Arcanjo Gabriel conhecemos a vossa Incarnação, assim também com seu auxílio alcancemos os benefícios da mesma Incarnação. Ó Vós, que...</p>
       </div>

@@ -10,7 +10,7 @@ export default function Page073() {
       <h1>Salmo 73</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ut quid, Deus, repulísti in finem: * irátus est furor tuus super oves páscuæ tuæ?</p>
       <p>Porquê, ó Deus, nos desamparastes até ao fim: * e se acendeu a vossa cólera contra as ovelhas de vosso pasto?</p>
       <p>Memor esto congregatiónis tuæ, * quam possedísti ab inítio.</p>

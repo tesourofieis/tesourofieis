@@ -16,7 +16,7 @@ export default function Page1202() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, ómnium largítor bonórum, qui in fámula tua Bibiána cum virginitátis flore martýrii palmam conjunxísti: mentes nostras ejus intercessióne tibi caritáte conjúnge; ut, amótis perículis, prǽmia consequámur ætérna. Per Dóminum...</p>
       <p>Ó Deus, dispensador de todos os bens, que unistes a flor da virgindade à palma do martírio na pessoa de vossa serva Bibiana, dignai-Vos por sua intercessão unir pela caridade as nossas almas convosco, a fim de que, afastados todos os perigos, alcancemos os prémios eternos. Por nosso Senhor...</p>
       </div>

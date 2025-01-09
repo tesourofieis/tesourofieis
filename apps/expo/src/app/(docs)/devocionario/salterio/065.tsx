@@ -10,7 +10,7 @@ export default function Page065() {
       <h1>Salmo 65</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jubiláte Deo, omnis terra, psalmum dícite nómini ejus: * date glóriam laudi ejus.</p>
       <p>Aclamai a Deus, habitantes todos da terra, cantai salmos ao seu nome: * tributai-Lhe gloriosos louvores.</p>
       <p>Dícite Deo: quam terribília sunt ópera tua, Dómine! * in multitúdine virtútis tuæ mentiéntur tibi inimíci tui.</p>

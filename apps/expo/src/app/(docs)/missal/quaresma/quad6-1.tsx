@@ -14,14 +14,14 @@ export default function PageQuad61() {
 
 <em>Sl. 34, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Júdica, Dómine, nocéntes me, expúgna impugnántes me: apprehénde arma et scutum, et exsúrge in adjutórium meum, Dómine, virtus salútis meæ. <em>Ps. ibid., 3</em> Effúnde frámeam, et conclúde advérsus eos, qui persequúntur me: dic ánimæ meæ: Salus tua ego sum. ℣. Gloria Patri...</p>
       <p>Julgai, Senhor, aqueles que me perseguem; exterminai aqueles que me combatem! Empunhai as armas e o escudo e erguei-Vos em meu auxílio, ó Senhor, que sois o meu sustentáculo e a minha salvação. <em>Sl. ibid., 3</em> Desembainhai a vossa espada e enfrentai aqueles que me perseguem. Direi à minha alma: «Eu sou a tua salvação». ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, quǽsumus, omnípotens Deus: ut, qui in tot advérsis ex nostra infirmitáte defícimus; intercedénte unigéniti Fílii tui passióne respirémus: Qui tecum vivit...</p>
       <p>Ó Deus omnipotente, que bem sabeis não poder a nossa fraqueza subsistir no meio de tantos perigos que a cercam, concedei-nos, Vos suplicamos, a graça de conseguirmos algum alívio pelos méritos da Paixão de vosso Filho Unigénito: Ele, que, sendo Deus...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad61() {
 
 <em>Is. 50, 5-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>In diébus illis: Dixit Isaías: Dóminus Deus apéruit mihi aurem, ego autem non contradíco: retrórsum non ábii. Corpus meum dedi percutiéntibus et genas meas velléntibus: fáciem meam non avérti ab increpántibus et conspuéntibus in me. Dóminus Deus auxiliátor meus, ideo non sum confúsus: ídeo posui fáciem meam ut petram duríssimam, et scio, quóniam non confúndar. Juxta est, qui justíficat me, quis contradícet mihi? Stemus simul, quis est adversárius meus? Accédat ad me. Ecce, Dóminus Deus auxiliátor meus: quis est, qui condémnet me? Ecce, omnes quasi vestiméntum conteréntur, tinea cómedet eos. Quis ex vobis timens Dóminum, áudiens vocem servi sui? Qui ambulávit in ténebris, et non est lumen ei, speret in nómine Dómini, et innitátur super Deum suum.</p>
@@ -41,7 +41,7 @@ export default function PageQuad61() {
 
 <em>Sl. 34, 23 & 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exsúrge, Dómine, et inténde judício meo, Deus meus et Dóminus meus, in causam meam. ℣. Effúnde frámeam, et conclúde advérsus eos, qui me persequúntur.</p>
       <p>Erguei-Vos, Senhor, e procedei ao meu julgamento. Ó meu Deus e meu Senhor, tomai a minha causa nas vossas mãos. ℣. Desembainhai a vossa espada e enfrentai aqueles que me perseguem.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad61() {
 
 <em>Sl. 102, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis. ℣. <em>Ps. 78, 8-9</em> Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. <em>hic genuflectitur</em> ℣. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.</p>
       <p>Senhor, nos não castigueis, consoante merecemos, pelos pecados que praticámos e por causa das nossas iniquidades! ℣. <em>Sl. 78, 8-9</em> Esquecei-Vos, Senhor, das nossas antigas iniquidades e apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria! <em>(Aqui os fiéis devem genuflectir).</em> ℣. Auxiliai-nos, ó Deus, nosso Salvador. Para glória do vosso Nome, perdoai-nos os nossos pecados, Senhor!</p>
       </div>
@@ -59,7 +59,7 @@ export default function PageQuad61() {
 
 <em>Jo. 12, 1-9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>Ante sex dies Paschæ venit Jesus Bethániam, ubi Lázarus fúerat mórtuus, quem suscitávit Jesus. Fecérunt autem ei cenam ibi: et Martha ministrábat, Lázarus vero unus erat ex discumbéntibus cum eo. María ergo accépit libram unguénti nardi pístici pretiósi, et unxit pedes Jesu, et extérsit pedes ejus capíllis suis: et domus impléta est ex odóre unguénti. Dixit ergo unus ex discípulis ejus, Judas Iscariótes, qui erat eum traditúrus: Quare hoc unguéntum non véniit trecéntis denáriis, et datum est egénis? Dixit autem hoc, non quia de egénis pertinébat ad eum, sed quia fur erat, et lóculos habens, ea, quæ mittebántur, portábat. Dixit ergo Jesus: Sínite illam, ut in diem sepultúræ meæ servet illud. Páuperes enim semper habétis vobíscum: me autem non semper habétis. Cognóvit ergo turba multa ex Judǽis, quia illic est: et venérunt, non propter Jesum tantum, sed ut Lázarum vidérent, quem suscitávit a mórtuis.</p>
@@ -70,14 +70,14 @@ export default function PageQuad61() {
 
 <em>Sl. 142, 9-10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Eripe me de inimícis meis, Dómine: ad te confúgi, doce me fácere voluntátem tuam: quia Deus meus es tu.</p>
       <p>Salvai-me dos meus inimigos, Senhor. Em Vós procurei refúgio; ensinai-me a obedecer à vossa vontade, porquanto sois o meu Deus.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hæc sacrifícia nos, omnípotens Deus, poténti virtúte mundátos, ad suum fáciant purióres veníre princípium. Per Dóminum...</p>
       <p>Ó Deus omnipotente, havendo sido purificados com a eficaz virtude destes sacrifícios, fazei que nos aproximemos cada vez mais puros d’Aquele que é o seu princípio. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ export default function PageQuad61() {
 
 <em>Sl. 34, 26</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Erubéscant et revereántur simul, qui gratulántur malis meis: induántur pudóre et reveréntia, qui malígna loquúntur advérsus me.</p>
       <p>Sejam envergonhados e confundidos aqueles que se alegram com a minha desgraça; que a infâmia e o temor revistam aqueles que falam mal de mim.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Prǽbeant nobis, Dómine, divínum tua sancta fervórem: quo eórum páriter et actu delectémur et fructu. Per Dóminum...</p>
       <p>Que os vossos mystérios, Senhor, inspirem às nossas almas um fervor divino, a fim de que encontremos as nossas delícias tanto durante a sua celebração, como nos seus frutos. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

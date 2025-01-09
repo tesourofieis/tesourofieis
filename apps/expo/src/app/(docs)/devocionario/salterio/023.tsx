@@ -10,7 +10,7 @@ export default function Page023() {
       <h1>Salmo 23</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómini est terra, et plenitúdo ejus: * orbis terrárum, et univérsi qui hábitant in eo.</p>
       <p>Do Senhor é a terra e toda sua plenitude: * a órbita terrestre e quantos nela habitam.</p>
       <p>Quia ipse super mária fundávit eum: * et super flúmina præparávit eum.</p>

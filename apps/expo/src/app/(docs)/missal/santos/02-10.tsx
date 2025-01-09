@@ -17,7 +17,7 @@ export default function Page0210() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ánimam beátæ Vírginis tuæ Scholásticæ ad ostendéndam innocéntiæ viam in colúmbæ spécie cœlum penetráre fecísti: da nobis ejus méritis et précibus ita innocénter vívere; ut ad ætérna mereámur gáudia perveníre. Per Dóminum...</p>
       <p>Ó Deus, que para mostrar a vida inocente da vossa B. Virgem Escolástica fizestes entrar no céu a sua alma sob a figura de uma pomba, concedei-nos pelos seus méritos e preces que vivamos com tanta inocência que mereçamos alcançar os gozos eternos. Por nosso Senhor...</p>
       </div>

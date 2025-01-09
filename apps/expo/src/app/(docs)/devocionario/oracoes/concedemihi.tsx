@@ -10,7 +10,7 @@ export default function PageConcedemihi() {
       <h1>Concede Mihi</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concede mihi, benignissime Jesu, grátiam tuam, ut mecum sit et mecum laboret, mecum que in finem usque persevéret.</p>
       <p>Infinitamente bom Jesus, eu Vos peço que me concedeis a vossa graça; fazei que ela permaneça em mim, trabalhe comigo e se mantenha comigo até ao fim.</p>
       <p>Da mihi hoc semper desiderare et velle, quod tibi magis acceptum est et carius placet.</p>

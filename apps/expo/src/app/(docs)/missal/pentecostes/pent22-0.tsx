@@ -14,14 +14,14 @@ export default function PagePent220() {
 
 <em>Sl. 129, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? quia apud te propitiátio est, Deus Israël. <em>Ps. ibid., 1-2</em> De profúndis clamávi ad te, Dómine: Dómine, exáudi vocem meam. ℣. Gloria Patri...</p>
       <p>Se atenderdes às nossas iniquidades, Senhor, Senhor, quem poderá subsistir diante de Vós? Sois cheio de misericórdia, ó Deus de Israel! <em>Sl. ibid., 1-2</em> Das profundezas dos abysmos, Senhor, clamei por Vós: ouvi, pois, a minha oração, Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter pétimus, efficáciter consequámur. Per Dóminum...</p>
       <p>Ó Deus, nosso refúgio e fortaleza, que sois a origem de toda a piedade, ouvi benigno as piedosas preces da vossa Igreja e concedei-nos a graça de alcançarmos com eficácia o que com fé Vos suplicamos. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PagePent220() {
 
 <em>Fl, 1, 6-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.</p>
       <p>Fratres: Confídimus in Dómino Jesu, quia, qui cœpit in vobis opus bonum, perfíciet usque in diem Christi Jesu. Sicut est mihi justum hoc sentíre pro ómnibus vobis: eo quod hábeam vos in corde, et in vínculis meis, etin defensióne, et confirmatióne Evangélii, sócios gáudii mei omnes vos esse. Testis enim mihi est Deus, quómodo cúpiam omnes vos in viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in sciéntia et in omni sensu: ut probétis potióra, ut sitis sincéri et sine offénsa in diem Christi, repléti fructu justítiæ per Jesum Christum, in glóriam et laudem Dei.</p>
@@ -41,7 +41,7 @@ export default function PagePent220() {
 
 <em>Sl. 132, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce, quam bonum et quam jucúndum, habitáre fratres in unum! ℣. Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.</p>
       <p>Oh! Como é bom e suave aos irmãos habitarem juntos! ℣. É como o perfume espalhado pela cabeça que desce por toda a barba, por toda a barba de Aarão!</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 113, 11</em> Qui timent Dóminum sperent in eo: adjútor et protéctor eórum est. Allelúja.</p>
@@ -52,7 +52,7 @@ export default function PagePent220() {
 
 <em>Mt. 22, 15-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. Mateus.</p>
@@ -64,14 +64,14 @@ S. Mateus.</p>
 
 <em>Est. 14, 12 & 13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Recordáre mei, Dómine, omni potentátui dóminans: et da sermónem rectum in os meum, ut pláceant verba mea in conspéctu príncipis.</p>
       <p>Senhor, que estais acima de todo o poder, lembrai-Vos de mim: inspirai aos meus lábios palavras justas, para que sejam agradáveis ao príncipe.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Da, miséricors Deus: ut hæc salutáris oblátio et a própriis nos reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis. Per Dóminum...</p>
       <p>Permiti, ó Deus de misericórdia, que esta salutar oblação nos livre inteiramente dos laços das nossas próprias faltas e nos defenda de todas as adversidades. Por nosso Senhor...</p>
       </div>
@@ -80,14 +80,14 @@ S. Mateus.</p>
 
 <em>Sl. 16, 6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam et exáudi verba mea.</p>
       <p>Ó Deus, clamei por Vós, porque me ouvistes: inclinai os vossos ouvidos para mim e ouvi as minhas súplicas.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Súmpsimus, Dómine, sacri dona mystérii, humíliter deprecántes: ut, quæ in tui commemoratiónem nos fácere præcepísti, in nostræ profíciant infirmitátis auxílium: Qui vivis et regnas...</p>
       <p>Havendo recebido os sacrossantos dons deste mystério, Senhor, humildemente Vos imploramos que este sacrifício, que nos mandastes celebrar em vossa memória, sirva de auxílio à nossa fraqueza. Ó Vós, que, sendo Deus, viveis...</p>
       </div>

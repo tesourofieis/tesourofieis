@@ -14,14 +14,14 @@ export default function PageQuad36() {
 
 <em>Sl. 5, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Verba mea áuribus pércipe, Dómine, intéllege clamórem meum: inténde voci oratiónis meæ, Rex meus et Deus meus. <em>Ps. ibid., 4</em> Quóniam ad te orábo, Dómine: mane exáudies vocem meam. ℣. Gloria Patri...</p>
       <p>Ouvi as minhas palavras, Senhor: atendei ao meu clamor e escutai a voz da minha oração, ó meu Rei e meu Deus! <em>Sl. ibid., 4</em> Porquanto a Vós Orarei, Senhor; desde manhã ouvireis a minha voz. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Præsta, quǽsumus, omnípotens Deus: ut, qui se, affligéndo carnem, ab aliméntis ábstinent; sectándo justítiam, a culpa jejúnent. Per Dóminum...</p>
       <p>Ó Deus omnipotente, àqueles que, para mortificação da sua carne, se abstêm dos alimentos concedei a graça, Vos suplicamos, de se absterem também das culpas, praticando sempre a virtude. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad36() {
 
 <em>Dn. 13, 1-9, 15-17, 19-30 & 33-62</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Daniélis Prophétæ.</p>
       <p>Lição do Profeta Daniel.</p>
       <p>In In diébus illis: Erat vir hábitans in Babylóne, et nomen ejus Jóakim: et accépit uxorem nómine Susánnam, fíliam Helcíæ, pulchram nimis, et timéntem Deum: paréntes enim illíus, cum essent justi, erudiérunt fíliam suam secúndum legem Móysi. Erat autem Jóakim dives valde, et erat ei pomárium vicínum dómui suæ: et ad ipsum confluébant Judǽi, eo quod esset honorabílior ómnium. Et constítuti sunt de pópulo duo senes júdices in illo anno: de quibus locútus est Dóminus: Quia egréssa est iníquitas de Babylóne a senióribus judícibus, qui videbántur régere pópulum. Isti frequentábant domum Jóakim, et veniébant ad eos omnes, qui habébant judícia. Cum autem pópulus revertísset per merídiem, ingrediebátur Susánna, et deambulábat in pomário viri sui. Et vidébant eam senes cotídie ingrediéntem et deambulántem: et exarsérunt in concupiscéntiam ejus: etevertérunt sensum suum, et declinavérunt óculos suos, ut non vidérent cœlum, neque recordaréntur judiciórum justórum. Factum est autem, cum observárent diem aptum, ingréssa est aliquándo sicut heri et núdius tértius, cum duábus solis puéllis, voluítque lavári in pomário: æstus quippe erat, et non erat ibi quisquam, præter duos senes abscónditos et contemplántes eam. Dixit ergo puéllis: Afférte mihi óleum et smígmata, et óstia pomárii cláudite, ut laver. Cum autem egréssæ essent puéllæ, surrexérunt duo senes, et accurrérunt ad eam, et dixérunt: Ecce, óstia pomárii clausa sunt, et nemo nos videt, et nos in concupiscéntia tui sumus: quam ob rem assentíre nobis, et commiscére nobiscum. Quod si nolúeris, dicémus contra te testimónium, quod fúerit tecum júvenis, et ob hanc causam emíseris puéllas a te. Ingémuit Susánna, et ait: Angústiæ sunt mihi úndique: si enim hoc égero, mors mihi est: si autem non egero, non effúgiam manus vestras. Sed mélius est mihi absque ópere incídere in manus vestras, quam peccáre in conspéctu Dómini. Et exclamávit voce magna Susánna: exclamavérunt autem et senes adversus eam. Et cucúrrit unus ad óstia pomárii, et aperuit. Cum ergo audíssent clamórem fámuli domus in pomário, irruérunt per postícum, ut vidérent, quidnam esset. Postquam autem senes locúti sunt, erubuérunt servi veheménter: quia numquam dictus fúerat sermo hujuscémodi de Susánna. Et facta est dies crástina. Cumque venísset pópulus ad Jóakim virum ejus, venérunt et duo senióres, pleni iníqua cogitatióne advérsus Susánnam, ut interfícerent eam. Et dixérunt coram pópulo: Míttite ad Susánnam fíliam Helcíæ, uxórem Jóakim. Et statim misérunt. Et venit cum paréntibus et fíliis et univérsis cognátis suis. Fiébant ígitur sui, et omnes qui nóverant eam. Consurgéntes autem duo senióres in médio pópuli, posuérunt manus suas super caput ejus. Quæ flens suspéxit ad cœlum: erat enim cor ejus fidúciam habens in Dómino. Et dixérunt senióres: Cum deambularémus in pomário soli, ingréssa est hæc cum duábus puéllis: et clausit óstia pomárii, et dimísit a se puéllas. Venítque ad eam adoléscens, qui erat abscónditus, et concúbuit cum ea. Porro nos, cum essémus in ángulo pomárii, vidéntes iniquitátem, cucúrrimus ad eos, et vídimus eos pariter commiscéri. Et illum quidem non quívimus comprehéndere, quia fórtior nobis erat, et apértis óstiis exsilívit: hanc autem cum apprehendissémus, interrogávimus, quisnam esset adoléscens, et nóluit indicáre nobis: hujus rei testes sumus. Crédidit eis multitúdo quasi sénibus et judícibus pópuli, et condemnavérunt eam ad mortem. Exclamávit autem voce magna Susánna, et dixit: Deus ætérne, qui absconditórum es cógnitor, qui nosti ómnia, ántequam fiant, tu scis, quóniam falsum testimónium tulérunt contra me: et ecce, mórior, cum nihil horum fécerim, quæ isti malitióse composuérunt advérsum me. Exaudívit autem Dóminus vocem ejus. Cumque ducerétur ad mortem, suscitávit Dóminus spíritum sanctum pueri junióris, cujus nomen Dániel. Et exclamávit voce magna: Mundus ego sum a sánguine hujus. Et convérsus omnis pópulus ad eum, dixit: Quis est iste sermo, quem tu locútus es? Qui cum staret in médio eórum, ait: Sic fátui, fílii Israël, non judicántes, neque quod verum est cognoscéntes, condemnástis fíliam Israël? Revertímini ad judícium, quia falsum testimónium locúti sunt advérsus eam. Revérsus est ergo pópulus cum festinatióne. Et dixit ad eos Dániel: Separáte illos ab ínvicem procul, et dijudicábo eos. Cum ergo divísi essent alter ab áltero, vocávit unum de eis, et dixit ad eum: Inveteráte diérum malórum, nunc venérunt peccáta tua, quæ operabáris prius: júdicans judícia injústa, innocéntes ópprimens, et dimíttens nóxios, dicénte Dómino: Innocéntem et justum non interfícies. Nunc ergo, si vidisti eam, dic, sub qua arbóre vidéris eos colloquéntes sibi. Qui ait: Sub schino. Dixit autem Dániel: Recte mentítus es in caput tuum. Ecce enim, Angelus Dei, accépta senténtia ab eo, scindet te médium. Et, amóto eo, jussit veníre álium, et dixit ei: Semen Chánaan, et non Juda, spécies decépit te, et concupiscéntia subvértit cor tuum: sic faciebátis filiábus Israël, et illæ timéntes loquebántur vobis: sed fília Juda non sustínuit iniquitátem vestram. Nunc ergo dic mihi, sub qua arbóre comprehénderis eos loquéntes sibi. Qui ait: Sub prino. Dixit autem ei Dániel: Recte mentítus es et tu in caput tuum: manet enim Angelus Dómini, gládium habens, ut secet te médium, et interfíciat vos. Exclamávit itaque omnis cœtus voce magna, et benedixérunt Deum, qui salvat sperántes in se. Et consurrexérunt advérsus duos senióres (convícerat enim eos Dániel ex ore suo falsum dixísse testimónium), fecerúntque eis, sicut male égerant advérsus próximum: et interfecérunt eos, et salvátus est sanguis innóxius in die illa.</p>
@@ -41,7 +41,7 @@ export default function PageQuad36() {
 
 <em>Sl. 22, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Si ámbulem in médio umbræ mortis, non timébo mala: quóniam tu mecum es, Dómine. ℣. Virga tua et báculus tuus, ipsa me consoláta sunt.</p>
       <p>Ainda que eu ande no meio das sombras da morte, não recearei mal algum, pois Vós, Senhor, estais comigo. ℣. Vossa vara e o vosso báculo confortam-me.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad36() {
 
 <em>Jo. 8, 1-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Perréxit Jesus in montem Olivéti: et dilúculo íterum venit in templum, et omnis pópulus venit ad eum, et sedens docébat eos. Addúcunt autem scribæ et pharisǽi mulíerem in adultério deprehénsam: et statuérunt eam in médio, et dixérunt ei: Magister, hæc mulier modo deprehénsa est in adultério. In lege autem Moyses mandávit nobis hujúsmodi lapidáre. Tu ergo quid dicis? Hoc autem dicébant tentántes eum, ut possent accusáre eum. Jesus autem inclínans se deórsum, dígito scribébat in terra. Cum ergo perseverárent interrogántes eum, eréxit se, et dixit eis: Qui sine peccáto est vestrum, primus in illam lápidem mittat. Et íterum se inclínans, scribébat in terra. Audiéntes autem unus post unum exíbant, incipiéntes a senióribus: et remánsit solus Jesus, et múlier in médio stans. Erigens autem se Jesus, dixit ei: Múlier, ubi sunt, qui te accusábant? nemo te condemnávit? Quæ dixit: Nemo, Dómine. Dixit autem Jesus: Nec ego te condemnábo: Vade, et jam ámplius noli peccáre.</p>
@@ -61,14 +61,14 @@ export default function PageQuad36() {
 
 <em>Sl. 118, 133</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Gressus meos dírige secúndum elóquium tuum: ut non dominétur mei omnis injustítia, Dómine.</p>
       <p>Dirigi os meus passos segundo os vossos preceitos, Senhor; permiti que não domine em mim iniquidade alguma.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum, fragilitátem nostram ab omni malo purget semper et múniat. Per Dóminum...</p>
       <p>Vos suplicamos, ó Deus omnipotente, concedei-nos que a oblação deste sacrifício, que Vos oferecemos, nos livre de todos os males da nossa fraqueza e nos fortaleça. Por nosso Senhor...</p>
       </div>
@@ -77,21 +77,21 @@ export default function PageQuad36() {
 
 <em>Jo. 8, 10 & 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Nemo te condemnávit, mulier? Nemo, Dómine. Nec ego te condemnábo: jam ámplius noli peccáre.</p>
       <p>Mulher, ninguém te condenou? Ninguém, Senhor. Nem Eu, também, te condenarei. Vai e não tornes a pecar.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quǽsumus, omnípotens Deus: ut inter ejus membra numerémur, cujus córpori communicámus et sánguini: Qui tecum...</p>
       <p>Ó Deus omnipotente, Vos rogamos, permiti que sejamos contados no número dos membros d’Aquele que nos admitiu à comunhão do seu Corpo e do seu Sangue. Ele...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

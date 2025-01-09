@@ -14,21 +14,21 @@ export default function PageEpi20() {
 
 <em>Sl. 65, 4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime. <em>Ps. ibid., 1-2</em> Jubiláte Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus. ℣. Gloria Patri...</p>
       <p>Que todo o universo Vos adore, ó Deus, e cante hinos em vosso louvor: Que toda a terra louve com cânticos a vossa glória, ó Altíssimo! <em>Sl. ibid., 1-2</em> Aclamai jubilosamente o Senhor, ó habitantes da terra: cantai hinos em honra do seu nome: glorificai-O com vossos louvores. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Omnípotens sempitérne Deus, qui cœléstia simul et terréna moderáris: supplicatiónes pópuli tui cleménter exáudi; et pacem tuam nostris concéde tempóribus. Per Dóminum...</p>
       <p>Ó Deus omnipotente e eterno, que governais ao mesmo tempo o céu e a terra, ouvi misericordiosamente as súplicas do vosso povo, e concedei a vossa paz aos nossos tempos. Por nosso Senhor...</p>
       </div>
 
       <h3>Epístola</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
       <p>Fratres: Habéntes donatiónes secúndum grátiam, quæ data est nobis, differéntes: sive prophétiam secúndum ratiónem fídei, sive ministérium in ministrándo, sive qui docet in doctrína, qui exhortátur in exhortándo, qui tríbuit in simplicitáte, qui præest in sollicitúdine, qui miserétur in hilaritáte. Diléctio sine simulatióne. Odiéntes malum, adhæréntes bono: Caritáte fraternitátis ínvicem diligéntes: Honóore ínvicem præveniénte s: Sollicitúdine non pigri: Spíritu fervéntes: Dómino serviéntes: Spe gaudéntes: In tribulatióne patiéntes: Oratióni instántes: Necessitátibus sanctórum communicántes: Hospitalitátem sectántes. Benedícite persequéntibus vos: benedícite, et nolíte maledícere. Gaudére cum gaudéntibus, flere cum fléntibus: Idípsum ínvicem sentiéntes: Non alta sapiéntes, sed humílibus consentiéntes.</p>
@@ -39,7 +39,7 @@ export default function PageEpi20() {
 
 <em>Sl. 106, 20-21</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Misit Dóminus verbum suum, et sanávit eos: et erípuit eos de intéritu eórum. ℣. Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis hóminum.</p>
       <p>Enviou o Senhor a sua palavra; curou-os e livrou-os da morte. ℣. Louvai o Senhor pela sua misericórdia: e pelos seus prodígios para com os filhos dos homens.</p>
       <p>Allelúja, allelúja. ℣. <em>Ps. 148, 2</em> Laudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus. Allelúja.</p>
@@ -50,7 +50,7 @@ export default function PageEpi20() {
 
 <em>Jo. 2, 1-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. João.</p>
       <p>In illo témpore: Núptiæ factæ sunt in Cana Galilǽæ: et erat Mater Jesu ibi. Vocátus est autem et Jesus, et discípuli ejus ad núptias. Et deficiénte vino, dicit Mater Jesu ad eum: Vinum non habent. Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea. Dicit Mater ejus minístris: Quodcúmque díxerit vobis, fácite. Erant autem ibi lapídeæ hýdriæ sex pósitæ secúndum purificatiónem Judæórum, capiéntes síngulæ metrétas binas vel ternas. Dicit eis Jesus: Implete hýdrias aqua. Et implevérunt eas usque ad summum. Et dicit eis Jesus: Hauríte nunc, et ferte architriclíno. Et tulérunt. Ut autem gustávit architriclínus aquam vinum fáctam, et non sciébat unde esset, minístri autem sciébant, qui háuserant aquam: vocat sponsum architriclínus, et dicit ei: Omnis homo primum bonum vinum ponit: et cum inebriáti fúerint, tunc id, quod detérius est. Tu autem servásti bonum vinum usque adhuc. Hoc fecit inítium signórum Jesus in Cana Galilǽæ: et manifestávit glóriam suam, et credidérunt in eum discípuli ejus.</p>
@@ -61,14 +61,14 @@ export default function PageEpi20() {
 
 <em>Sl. 65, 1-2 & 16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jubiláte Deo, univérsa terra: psalmum dícite nómini ejus: veníte et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimæ meæ, allelúja.</p>
       <p>Aclamai jubilosamente o Senhor, ó habitantes da terra: cantai hinos em honra do seu nome! Vinde e ouvi, vós todos, que temeis Deus, e contar-vos-ei as graças que o Senhor fez à minha alma. Aleluia.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Oblata, Dómine, múnera sanctífica: nosque a peccatórum nostrórum máculis emúnda. Per Dóminum nostrum...</p>
       <p>Santificai, Senhor, as oblatas que Vos oferecemos; e purificai-nos das manchas dos nossos pecados. Por nosso Senhor...</p>
       </div>
@@ -77,14 +77,14 @@ export default function PageEpi20() {
 
 <em>Jo. 2, 7, 8, 9 & 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dicit Dóminus: Implete hýdrias aqua et ferte architriclíno. Cum gustásset architriclínus aquam vinum factam, dicit sponso: Servásti bonum vinum usque adhuc. Hoc signum fecit Jesus primum coram discípulis suis.</p>
       <p>Disse o Senhor: «Enchei estas talhas com água e levai-as ao que dirige o banquete». E, logo que o que dirigia o banquete provou a água, mudada em vinho, disse ao esposo: «Tu guardaste o bom vinho até este momento!». Tal foi o primeiro milagre que Jesus fez na presença de seus discípulos.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Augeátur in nobis, quǽsumus, Dómine, tuæ virtútis operatio: ut divínis vegetáti sacraméntis, ad eórum promíssa capiénda, tuo múnere præparémur. Per Dóminum nostrum...</p>
       <p>Senhor, dignai-Vos aumentar em nós os efeitos do vosso poder, a fim de que, alimentados com os divinos sacramentos, nos preparemos com vossa graça para alcançar os benefícios, de que são o penhor. Por nosso Senhor...</p>
       </div>

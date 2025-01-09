@@ -14,7 +14,7 @@ export default function Page0123() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui beátum Raymúndum pœniténtiæ sacraménti insígnem minístrum elegísti, et per maris undas mirabíliter traduxísti: concéde; ut ejus intercessióne dignos pœniténtiæ fructus fácere, et ad ætérnæ salútis portum perveníre valeámus. Per Dóminum...</p>
       <p>Ó Deus, que Vos dignastes escolher o B. Raimundo para o tornar em um insigne ministro do sacramento da penitência e que milagrosamente o fizestes atravessar as águas do mar, concedei-nos que por sua intercessão «façamos frutos dignos de penitência» e possamos chegar ao porto da salvação eterna. Por nosso Senhor...</p>
       </div>

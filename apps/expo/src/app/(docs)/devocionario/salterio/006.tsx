@@ -10,7 +10,7 @@ export default function Page006() {
       <h1>Salmo 6</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, ne in furóre tuo árguas me, * neque in ira tua corrípias me.</p>
       <p>Senhor, me não acuseis na vossa indignação, * nem me castigueis na vossa ira.</p>
       <p>Miserére mei, Dómine, quóniam infírmus sum: * sana me, Dómine, quóniam conturbáta sunt ossa mea.</p>

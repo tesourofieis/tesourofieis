@@ -10,7 +10,7 @@ export default function PageTelucis() {
       <h1>Te lucis</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Te lucis ante términum, Rerum Creátor, póscimus, Ut pro tua cleméntia Sis præsul et custódia.</p>
       <p>Antes que a luz desapareça, Vos suplicamos, ó Criador de todas as cousas, que pela vossa clemência nos protegeis e guardais.</p>
       <p>Procul recedant somnia et noctium phantasmata; hostemque nostrum comprime, ne polluantur corpora.</p>

@@ -6,7 +6,7 @@ import MementoRerumConditor from './../../canticos/sacros/mementorerumconditor';
 import Salmo53 from './../salterio/053';
 import Salmo84 from './../salterio/084';
 import Salmo116 from './../salterio/116';
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from "~/components/Tabs";
 
 export default function PagePrima() {
   return (
@@ -20,7 +20,7 @@ export default function PagePrima() {
   visita das santas mulheres ao sepulcro.
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -36,7 +36,7 @@ export default function PagePrima() {
 
 <MementoRerumConditor />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Assumpta est Maria in cælum: gaudete angeli, laudantes benedicunt Dominum.</p>
       <p><em>Ant.</em> Maria foi exaltada ao céu; os anjos se alegram, louvam, e glorificam o Senhor.</p>
       </div>
@@ -61,7 +61,7 @@ export default function PagePrima() {
 
 <TabItem label="Depois da Purificação">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Assumpta est Maria in cælum: gaudete angeli, laudantes benedicunt Dominum.</p>
       <p><em>Ant.</em> Maria foi exaltada ao céu; os anjos se alegram, louvam, e glorificam o Senhor.</p>
       </div>
@@ -70,7 +70,7 @@ export default function PagePrima() {
 
 <em>Ct. 6, 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quæ est ista, quæ progréditur quasi auróra consúrgens, pulchra ut luna, elécta ut sol, terribilis ut castrorum acies ordinata?</p>
       <p>Quem é esta que aparece como a aurora quando desponta, formosa como a lua, eleita, como o sol, terrível como um exército formado em linha?</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -81,7 +81,7 @@ export default function PagePrima() {
       <p><span className="text-red-500">℟.</span> Dai-me esforço contra vossos inimigos.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Hic genuflectitur</em> Kyrie eleison</p>
       <p><em>Genuflectir</em> Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -94,7 +94,7 @@ export default function PagePrima() {
       <p><span className="text-red-500">℟.</span> E o meu clamor chegue até Vós.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui virginalem aulam beatae Mariae in qua habitares, eligere dignatus es: da, quaesumus, ut sua nos defensione munitos; jucundos facias suae interesse commemorationi. Qui vivis et regnas...</p>
@@ -107,7 +107,7 @@ export default function PagePrima() {
 
 <TabItem label="No Advento">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Missus est Gabriel Angelus ad Maríam, Vírginem, desponsatam Joseph.</p>
       <p><em>Ant.</em> O Anjo Gabriel foi enviado a Maria Virgem, desposada com José.</p>
       </div>
@@ -116,7 +116,7 @@ export default function PagePrima() {
 
 <em>Is. 7, 14-15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce Virgo concipiet, et pariet filium, et vocabitur nomen ejus Emmanuel. Butyrum et mel comedet, ut sciat reprobare malum, et eligere bonum.</p>
       <p>Pois por isso o mesmo Senhor vos dará este sinal: Uma virgem conceberá e dará à luz um filho, e o seu nome será Emanuel. Ele comerá manteiga e mel, até que saiba rejeitar o mal e escolher o bem.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -127,7 +127,7 @@ export default function PagePrima() {
       <p><span className="text-red-500">℟.</span> Dai-me esforço contra vossos inimigos.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Hic genuflectitur</em> Kyrie eleison</p>
       <p><em>Genuflectir</em> Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -140,7 +140,7 @@ export default function PagePrima() {
       <p><span className="text-red-500">℟.</span> E o meu clamor chegue até Vós.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui de beatæ Mariæ Virginis utero Verbum tuum, Angelo nuntiante, carnem suscipere voluisti: præsta supplicibus tuis; ut qui vere eam Genetricem Dei credimus, ejus apud te intercessionibus adjuvemur. Per eundem Dominum nostrum Jesum Christum.</p>
@@ -153,7 +153,7 @@ export default function PagePrima() {
 
 <TabItem label="No Natal">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> O admirabile commercium: Creator generis humani, animatum corpus sumens, de Virgine nasci dignatus est: et procedens homo sine semine, largitus est nobis suam Deitatem.</p>
       <p><em>Ant.</em> Ó admirável permuta! O Criador do género humano, tomando corpo e alma, dignou-se nascer de uma Virgem; e, feito homem sem progenitor, tornou-nos participantes da sua divindade.</p>
       </div>
@@ -162,7 +162,7 @@ export default function PagePrima() {
 
 <em>Ct. 6, 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quæ est ista, quæ progréditur quasi auróra consúrgens, pulchra ut luna, elécta ut sol, terribilis ut castrorum acies ordinata?</p>
       <p>Quem é esta que aparece como a aurora quando desponta, formosa como a lua, eleita, como o sol, terrível como um exército formado em linha?</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -173,7 +173,7 @@ export default function PagePrima() {
       <p><span className="text-red-500">℟.</span> Dai-me esforço contra vossos inimigos.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Hic genuflectitur</em> Kyrie eleison</p>
       <p><em>Genuflectir</em> Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -186,7 +186,7 @@ export default function PagePrima() {
       <p><span className="text-red-500">℟.</span> E o meu clamor chegue até Vós.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui salutis æternæ, beatæ Mariæ virginitate fœcunda, humano generi præmia præstitisti: tribue, quǽsumus; ut ipsam pro nobis intercedere sentiamus, per quam meruimus auctorem vitæ suscipere, Dominum nostrum Jesum Christum Filium tuum. Qui tecum vivit et regnat in unitate Spiritus Sancti, Deus, per omnia sæcula sæculorum.</p>
@@ -199,7 +199,7 @@ export default function PagePrima() {
 
 </Tabs>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Domine, exaudi orationem meam.</p>
       <p>℣. Ouvi, Senhor, a minha oração.</p>
       <p><span className="text-red-500">℟.</span> Et clamor meus ad te veniat.</p>

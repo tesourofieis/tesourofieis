@@ -16,7 +16,7 @@ export default function Page1116() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui in corde beátæ Gertrudis Vírginis jucúndam tibi mansionem præparásti: ipsíus méritis et intercessióne; cordis nostri máculas cleménter abstérge, et ejúsdem tríbue gaudére consórtio. Per Dóminum...</p>
       <p>Ó Deus, que para Vós preparastes uma morada agradável no coração da B. Virgem Gertrudes, atendendo aos seus méritos e intercessão, apagai misericordiosamente as máculas do nosso coração e concedei-nos o gozo da sua companhia. Por nosso Senhor...</p>
       </div>

@@ -10,7 +10,7 @@ export default function Page099() {
       <h1>Salmo 99</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jubiláte Deo, omnis terra: * servíte Dómino in lætítia.</p>
       <p>Aclamai a Deus, toda a terra: * servi o Senhor com alegria.</p>
       <p>Introíte in conspéctu ejus, * in exsultatióne.</p>

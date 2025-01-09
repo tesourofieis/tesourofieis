@@ -80,14 +80,14 @@ export default function Page0731() {
 
 <em>Fl. 2, 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In nómine Jesu omne genu fléctitur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris. <em>Ps. 5, 12-13</em> Gloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu benedíces justo. ℣. Gloria Patri...</p>
       <p>Que ao ser pronunciado o nome de Jesus se dobrem todos os joelhos dos que estão no céu, na terra e no inferno: e que toda a língua humana confesse que o Senhor Jesus Cristo está na glória de Deus Pai. <em>Sl. 5, 12-13</em> Em Vós serão glorificados todos aqueles que amam o vosso nome, pois abençoais o justo. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui ad majórem tui nóminis glóriam propagándam, novo per beátum Ignátium subsídio militántem Ecclésiam roborásti: concéde; ut, ejus auxílio et imitatióne certántes in terris, coronári cum ipso mereámur in cœlis. Per Dóminum...</p>
       <p>Ó Deus, que, para a propagação da maior glória do vosso nome fortalecestes a vossa Igreja militante com um novo subsídio pelo B. Inácio, permiti que, combatendo nós na terra, como ele e com seu auxílio, mereçamos ser coroados com ele nos céus. Por nosso Senhor...</p>
       </div>
@@ -115,14 +115,14 @@ export default function Page0731() {
 
 <em>Sl. 88, 25</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus.</p>
       <p>A minha fidelidade e a minha misericórdia estarão com eles, e por virtude do meu nome será exaltado o seu poder.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Adsint, Dómine Deus, oblatiónibus nostris sancti Ignátii benígna suffrágia: ut sacrosáncta mystéria, in quibus omnis sanctitátis fontem constituísti, nos quoque in veritáte sanctíficet. Per Dóminum nostrum...</p>
       <p>Que a benigna intercessão de santo Inácio acompanhe as nossas oblatas, ó Senhor, nosso Deus, a fim de que os sacrossantos mystérios, de que fazeis depender a origem de toda a santidade, nos alcancem a verdadeira santificação. Por nosso Senhor...</p>
       </div>
@@ -131,14 +131,14 @@ export default function Page0731() {
 
 <em>Lc. 12, 49</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ignem veni míttere in terram: et quid volo, nisi ut accendátur?</p>
       <p>Eu vim trazer o fogo à terra: e que quero senão que ele se acenda?</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Laudis hóstia, Dómine, quam pro sancto Ignátio grátias agentes obtúlimus: ad perpétuam nos majestátis tuæ laudatiónem, ejus intercessióne, pérducat. Per Dóminum...</p>
       <p>Senhor, que este sacrifício de louvor, que Vos é oferecido em acção de graças em honra de Santo Inácio, nos alcance por sua intercessão o céu, onde a vossa majestade recebe perpétuo louvor. Por nosso Senhor...</p>
       </div>

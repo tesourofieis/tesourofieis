@@ -10,7 +10,7 @@ export default function PageReginacaeli() {
       <h1>Regína cæli</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Regína cæli, lætáre, allelúja; Quia quem meruísti portáre, allelúja, Resurréxit, sicut dixit, allelúja: Ora pro nobis Deum, allelúja.</p>
       <p>Rainha do Céu, alegrai-Vos, Aleluia! Porque Aquele que merecestes trazer em vosso ventre, Aleluia! Ressuscitou como disse, Aleluia! Rogai por nós a Deus, Aleluia!</p>
       <p>Gaude et laetare, Virgo Maria! Alleluia! Quia surrexit Dominus vere! Alleluia!</p>

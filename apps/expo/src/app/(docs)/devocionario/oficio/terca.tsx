@@ -6,7 +6,7 @@ import MementoRerumConditor from './../../canticos/sacros/mementorerumconditor';
 import Salmo119 from './../salterio/119';
 import Salmo120 from './../salterio/120';
 import Salmo121 from './../salterio/121';
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from "~/components/Tabs";
 
 export default function PageTerca() {
   return (
@@ -20,7 +20,7 @@ export default function PageTerca() {
   hora.
 </aside>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Deus <span className="cross text-red-500">✠</span> in adjutórium meum inténde.</p>
       <p>℣. Deus, <span className="cross text-red-500">✠</span> vinde em meu auxílio.</p>
       <p><span className="text-red-500">℟.</span> Dómine, ad adjuvándum me festína.</p>
@@ -36,7 +36,7 @@ export default function PageTerca() {
 
 <MementoRerumConditor />
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Maria Virgo assumpta est ad ætherum thalamum, in quo Rex regum stellato sedet solio.</p>
       <p><em>Ant.</em> A Virgem Maria foi exaltada ao tálamo celeste, onde o Rei dos reis está sentado num trono de estrelas.</p>
       </div>
@@ -61,7 +61,7 @@ export default function PageTerca() {
 
 <TabItem label="Depois da Purificação">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Maria Virgo assumpta est ad ætherum thalamum, in quo Rex regum stellato sedet solio.</p>
       <p><em>Ant.</em> A Virgem Maria foi exaltada ao tálamo celeste, onde o Rei dos reis está sentado num trono de estrelas.</p>
       </div>
@@ -70,7 +70,7 @@ export default function PageTerca() {
 
 <em>Ecl. 24, 15</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Et sic in Sion firmata sum, et in civitate sanctificata similiter requievi, et in Jerúsalem potestas mea.</p>
       <p>E desta maneira estou fundada em Sião, e semelhantemente repousei na cidade santificada, e em Jerúsalem é o meu poder.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -81,7 +81,7 @@ export default function PageTerca() {
       <p><span className="text-red-500">℟.</span> Por isso vos abençoou Deus para sempre.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Hic genuflectitur</em> Kyrie eleison</p>
       <p><em>Genuflectir</em> Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -94,7 +94,7 @@ export default function PageTerca() {
       <p><span className="text-red-500">℟.</span> E o meu clamor chegue até Vós.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui salutis aeternae, beatae Mariae virginitate fecunda, humano generi praemia praestitisti: tribue, quaesumus; ut ipsam pro nobis intercedere sentiamus, per quam meruimus auctorem vitae suscipere, Dominum nostrum Jesum Christum Filium tuum: Qui tecum vivit et regnat...</p>
@@ -107,7 +107,7 @@ export default function PageTerca() {
 
 <TabItem label="No Adveno">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus.</p>
       <p><em>Ant.</em> Ave, Maria, cheia de graça, o Senhor é convosco; bendita sois vós entre as mulheres.</p>
       </div>
@@ -116,7 +116,7 @@ export default function PageTerca() {
 
 <em>Is. 6, 1-2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Egredietur virga de radice Jesse, et flos de radice ejus ascendet. Et requiescet super eum Spiritus Domini.</p>
       <p>Sairá uma vara da raiz de Jessé, e subirá uma flor da sua raiz, e descansará sobre ele o Espírito do Senhor.</p>
       <p><span className="text-red-500">℟.</span> Deo grátias.</p>
@@ -127,7 +127,7 @@ export default function PageTerca() {
       <p><span className="text-red-500">℟.</span> Por isso Deus vos abençoou para sempre.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Hic genuflectitur</em> Kyrie eleison</p>
       <p><em>Genuflectir</em> Senhor, tende piedade de nós.</p>
       <p>Christe, eléison.</p>
@@ -140,7 +140,7 @@ export default function PageTerca() {
       <p><span className="text-red-500">℟.</span> E o meu clamor chegue até Vós.</p>
       </div>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Deus, qui de beatæ Mariæ Virginis utero Verbum tuum, Angelo nuntiante, carnem suscipere voluisti: præsta supplicibus tuis; ut qui vere eam Genetricem Dei credimus, ejus apud te intercessionibus adjuvemur. Per eundem Dominum nostrum Jesum Christum.</p>
@@ -153,7 +153,7 @@ export default function PageTerca() {
 
 <TabItem label="No Natal">
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><em>Ant.</em> Quando natus es inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut pluvia in vellus descendisti, ut salvum faceres genus humanum: te laudamus, Deus noster.</p>
       <p><em>Ant.</em> Quando nascestes misteriosamente da Virgem, então se cumpriram as Escrituras: descestes como a chuva sobre a lã, para salvar a humanidade. Nós Vos louvamos, ó Nosso Deus.</p>
       </div>
@@ -162,7 +162,7 @@ export default function PageTerca() {
 
 </Tabs>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>℣. Domine, exaudi orationem meam.</p>
       <p>℣. Ouvi, Senhor, a minha oração.</p>
       <p><span className="text-red-500">℟.</span> Et clamor meus ad te veniat.</p>

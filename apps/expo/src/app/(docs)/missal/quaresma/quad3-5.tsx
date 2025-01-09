@@ -14,14 +14,14 @@ export default function PageQuad35() {
 
 <em>Sl. 85, 17</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fac mecum, Dómine, signum in bonum: ut vídeant, qui me oderunt, et confundántur: quóniam tu, Dómine, adjuvísti me et consolátus es me. <em>Ps. ibid., 1</em> Inclína, Dómine, aurem tuam, et exáudi me: quóniam inops et pauper sum ego. ℣. Gloria Patri...</p>
       <p>Praticai, Senhor, um dos vossos prodígios em meu favor, para que meus inimigos contemplem o vosso poder e sejam confundidos; Pois Vós, Senhor, sois o meu auxílio e conforto. <em>Sl. ibid., 1</em> Inclinai, Senhor, os vossos ouvidos para mim e escutai-me; porque sou pobre e infeliz. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jejúnia nostra, quǽsumus, Dómine, benígno favóre proséquere: ut, sicut ab aliméntis abstinémus in córpore; ita a vítiis jejunémus in mente. Per Dóminum...</p>
       <p>Acompanhai os nossos jejuns com vossa benigna graça, Senhor, a fim de que, assim como o nosso corpo se abstém das carnes, assim a nossa alma se abstenha dos nossos vícios. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad35() {
 
 <em>Nm. 20, 1, 3 et 6-13</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Numeri.</p>
       <p>Lição do Livro dos Números.</p>
       <p>In diébus illis: Convenérunt fílii Israël adversum Móysen et Aaron: et versi in seditiónem, dixérunt: Date nobis aquam, ut bibámus. Ingressúsque Móyses et Aaron, dimíssa multitúdine, tabernáculum fǿderis, corruérunt proni in terram, clamaverúntque ad Dóminum, atque dixérunt: Dómine Deus, audi clamórem hujus pópuli, et áperi eis thesáurum tuum, fontem aquæ vivæ, ut, satiáti, cesset murmurátio eórum. Et appáruit glória Dómini super eos. Locutúsque est Dóminus ad Móysen, dicens: Tolle virgam, et cóngrega pópulum, tu et Aaron frater tuus, et loquímini ad petram coram eis, et illa dabit aquas. Cumque edúxeris aquam de petra, bibet omnis multitúdo et juménta ejus. Tulit ígitur Móyses virgam, quæ erat in conspéctu Dómini, sicut præcéperat ei, congregáta multitúdine ante petram, dixítque eis: Audíte, rebélles et incréduli: Num de petra hac vobis aquam potérimus ejícere? Cumque elevásset Móyses manum, percútiens virga bis sílicem, egréssæ sunt aquæ largíssimæ, ita ut pópulus bíberet, et juménta. Dixítque Dóminus ad Móysen et Aaron: Quia non credidístis mihi, ut sanctificarétis me coram fíliis Israël, non introducétis hos pópulos in terram, quam dabo eis. Hæc est aqua contradictiónis, ubi jurgáti sunt fílii Israël contra Dóminum, et sanctificátus est in eis.</p>
@@ -41,7 +41,7 @@ export default function PageQuad35() {
 
 <em>Sl. 27, 7 & 1</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea, et ex voluntáte mea confitébor illi. ℣. Ad te, Dómine, clamávi: Deus meus, ne síleas, ne discédas a me.</p>
       <p>O meu coração esperou em Deus e foi socorrido. Então a minha carne rejuvenesceu. Por isso hei-de celebrar com alegria os louvores do Senhor. ℣. A Vós, Senhor, clamei: meu Deus, não fecheis os ouvidos, nem Vos afasteis de mim.</p>
       </div>
@@ -58,7 +58,7 @@ export default function PageQuad35() {
 
 <em>Jo. 4, 5-42</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Joánnem.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo
 S. João.</p>
@@ -70,14 +70,14 @@ S. João.</p>
 
 <em>Sl. 5, 3-4</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Inténde voci oratiónis meæ, Rex meus, et Deus meus: quóniam ad te orábo, Dómine.</p>
       <p>Sede atento à voz da minha oração, ó meu Rei e meu Deus; pois a Vós, Senhor, orarei.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Réspice, quǽsumus, Dómine, propítius ad múnera, quæ sacrámus: ut tibi grata sint, et nobis salutária semper exsístant. Per Dóminum nostrum...</p>
       <p>Olhai propício, Senhor, Vos suplicamos, para estes dons que Vos consagramos, a fim de que Vos sejam agradáveis, e a nós sejam sempre salutares. Por nosso Senhor...</p>
       </div>
@@ -86,21 +86,21 @@ S. João.</p>
 
 <em>Jo. 4, 13 & 14</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Qui bíberit aquam, quam ego dabo ei, dicit Dóminus, fiet in eo fons aquæ saliéntis in vitam ætérnam.</p>
       <p>Aquele que beber da água que Eu lhe der, diz o Senhor, terá em si uma fonte de água impetuosa para a vida eterna.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Hujus nos, Dómine, percéptio sacraménti mundet a crimine: et ad cœléstia regna perdúcat. Per Dóminum...</p>
       <p>Que a recepção deste Sacramento, Senhor, nos limpe dos nossos crimes e nos guie até ao reino celestial. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

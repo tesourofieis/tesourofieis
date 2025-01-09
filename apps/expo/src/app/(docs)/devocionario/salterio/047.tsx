@@ -10,7 +10,7 @@ export default function Page047() {
       <h1>Salmo 47</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Magnus Dóminus, et laudábilis nimis * in civitáte Dei nostri, in monte sancto ejus.</p>
       <p>Grande é o Senhor e digníssimo de louvor * na cidade do nosso Deus, no seu santo monte.</p>
       <p>Fundátur exsultatióne univérsæ terræ mons Sion, * látera Aquilónis, cívitas Regis magni.</p>

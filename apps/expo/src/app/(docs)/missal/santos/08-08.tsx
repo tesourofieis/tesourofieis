@@ -14,14 +14,14 @@ export default function Page0808() {
 
 <em>Sl. 33, 10-11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Timéte Dóminum, omnes sancti ejus, quóniam nihil deest timéntibus eum: dívites eguérunt et esuriérunt: inquiréntes autem Dóminum non defícient omni bono. <em>Ps. ib., 2</em> Benedícam Dóminum in omni témpore: semper laus ejus in ore meo. ℣. Gloria Patri...</p>
       <p>Temei o Senhor, ó vós, que sois os seus Santos, pois nada falta àqueles que O temem. Os ricos sentiram necessidades e tiveram fome; porém, àqueles que procuram o Senhor nenhum bem faltará. <em>Sl. ib., 2</em> Bendirei o Senhor em todo o tempo: sempre estará na minha boca o seu louvor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, qui nos ánnua sanctórum Mártyrum tuórum Cyriáci, Largi et Smarágdi sollemnitáte lætíficas: concéde propítius; ut, quorum natalítia cólimus, virtútem quoque passiónis imitémur. Per Dóminum...</p>
       <p>Ó Deus, que nos alegrais com a festa anual dos vossos Santos Mártires Ciríaco, Largo e Esmaragdo, concedei-nos propício que, honrando o seu nascimento no céu, imitemos também a coragem do seu martírio. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function Page0808() {
 
 <em>1 Ts. 2, 13-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.</p>
       <p>Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.</p>
       <p>Fratres: Grátias ágimus Deo sine intermissióne: quóniam, cum accepissétis a nobis verbum audítus Dei, accepístis illud, non ut verbum hóminum, sed (sicut est vere) verbum Dei, qui operátur in vobis, qui credidístis. Vos enim imitatóres facti estis, fratres, ecclesiárum Dei, quæ sunt in Judǽa in Christo Jesu: quia éadem passi estis et vos a contribúlibus vestris, sicut et ipsi a Judǽis: qui et Dóminum occidérunt Jesum et Prophétas: et nos persecúti sunt, et Deo non placent, et ómnibus homínibus adversántur, prohibéntes nos géntibus loqui, ut salvæ fiant, ut ímpleant peccáta sua semper: pervénit enim ira Dei super illos usque in finem.</p>
@@ -41,7 +41,7 @@ export default function Page0808() {
 
 <em>Sl. 33, 10 & 11</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Timéte Dóminum, omnes sancti ejus: quóniam nihil deest timéntibus eum. ℣. Inquiréntes autem Dóminum, non defícient omni bono.</p>
       <p>Temei o Senhor, ó vós, que sois os seus Santos, pois nada falta àqueles que procuram o Senhor. ℣. Os ricos sentiram necessidades e tiveram fome; porém, àqueles que procuram o Senhor nenhum bem faltará.</p>
       <p>Allelúja, allelúja. ℣. <em>Sap. 3, 7</em> Fulgébunt justi, et tamquam scintíllæ in arundinéto current in ætérnum. Allelúja.</p>
@@ -65,7 +65,7 @@ export default function Page0808() {
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Accépta sit in conspéctu tuo, Dómine, nostra devótio: et eórum nobis fiat supplicatióne salutáris, pro quorum sollemnitáte defértur. Per Dóminum...</p>
       <p>Seja recebida na vossa presença, Senhor, esta nossa devota oferta; e fazei que, pela súplica daqueles em cuja honra Vo-la apresentamos, ela nos seja salutar. Por nosso Senhor...</p>
       </div>
@@ -74,14 +74,14 @@ export default function Page0808() {
 
 <em>Mc. 16, 17 & 18</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Signa autem eos, qui in me credunt, hæc sequéntur: dæmónia ejícient: super ægros manus impónent, et bene habébunt.</p>
       <p>Eis os milagres que acompanharão aqueles que acreditarem em mim: expulsarão os demónios; imporão as mãos sobre os enfermos, que serão curados.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedéntibus sanctis Martýribus tuis Cyríaco, Largo et Smarágdo, sentiámus efféctum. Per Dóminum...</p>
       <p>Saciados com a participação do Sacrossanto dom, Vos suplicamos, Senhor, permiti que pela intercessão dos vossos Santos Mártires Ciríaco, Largo e Esmaragdo sintamos o efeito do mystério que celebramos. Por nosso Senhor...</p>
       </div>

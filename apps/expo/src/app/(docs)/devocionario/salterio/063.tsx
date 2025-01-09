@@ -10,7 +10,7 @@ export default function Page063() {
       <h1>Salmo 63</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Exáudi, Deus, oratiónem meam cum déprecor: * a timóre inimíci éripe ánimam meam.</p>
       <p>Ouvi, ó Deus, a minha oração quando Vos rogo: * livrai a minha alma do temor do inimigo.</p>
       <p>Protexísti me a convéntu malignántium: * a multitúdine operántium iniquitátem.</p>

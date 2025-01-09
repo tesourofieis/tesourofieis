@@ -14,14 +14,14 @@ export default function PageQuad22() {
 
 <em>Sl. 26, 8 & 9</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tibi dixit cor meum, quæsívi vultum tuum, vultum tuum, Dómine, requíram: ne avértas fáciem tuam a me. <em>Ps. ibid., 1</em> Dóminus illuminátio mea, et salus mea: quem timébo? ℣. Gloria Patri...</p>
       <p>Da vossa parte, Senhor, me diz meu coração: «Procura a minha presença». Sim, não deixarei, Senhor, de procurar a vossa presença. Não Vos afasteis, pois, de mim. <em>Sl. ibid., 1</em> O Senhor é a minha luz e a minha salvação. A quem, pois, temerei? ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Pérfice, quǽsumus, Dómine, benignus in nobis observántiæ sanctæ subsídium: ut, quæ te auctóre faciénda cognóvimus, te operánte impleámus. Per Dóminum...</p>
       <p>Senhor, Vos imploramos, continuai a assistir-nos com vossa bondade durante a observância deste santo jejum, a fim de que com vosso auxílio pratiquemos esta boa obra que nos ensinastes com vosso exemplo. Por nosso Senhor...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageQuad22() {
 
 <em>3 Rs. 17, 8-16</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Regum.</p>
       <p>Lição do Livro dos Reis.</p>
       <p>In diébus illis: Factus est sermo Dómini ad Elíam Thesbíten, dicens: Surge et vade in Saréphta Sidoniórum, et manébis ibi: præcépi enim ibi mulíeri víduæ, ut pascat te. Surréxit et ábiit in Saréphta. Cumque venísset ad portam civitátis, appáruit ei múlier vídua cólligens ligna, et vocávit eam, dixítque ei: Da mihi páululum aquæ in vase, ut bibam. Cumque illa pérgeret, ut afférret, clamávit post tergum ejus, dicens: Affer mihi, óbsecro, et buccéllam panis in manu tua. Quæ respóndit: Vivit Dóminus, Deus tuus, quia non habeo panem, nisi quantum pugíllus cápere potest farínæ in hýdria, et páululum ólei in lécytho: en, collige duo ligna, ut ingrédiar, et fáciam illum mihi et fílio meo, ut comedámus et moriámur. Ad quam Elías ait: Noli timére, sed vade, et fac, sicut dixísti: verúmtamen mihi primum fac de ipsa farínula subcinerícium panem párvulum, et affer ad me: tibi autem et fílio tuo fácies póstea. Hæc autem dicit Dóminus, Deus Israël: Hýdria farínæ non defíciet, nec lécythus ólei minuétur, usque ad diem, in qua Dóminus datúrus est plúviam super fáciem terræ. Quæ ábiit, et fecit juxta verbum Elíæ: et comédit ipse et illa et domus ejus: et ex illa die hýdria farínæ non defécit, et lécythus ólei non est imminútus, juxta verbum Dómini, quod locútus fúerat in manu Elíæ.</p>
@@ -41,7 +41,7 @@ export default function PageQuad22() {
 
 <em>Sl. 54, 23, 17, 18 & 19</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Jacta cogitátum tuum in Dómino, et ipse te enútriet. ℣. Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi.</p>
       <p>Deixai as vossas preocupações nas mãos do Senhor, que Ele cuidará de vós! ℣. Quando eu rezava ao Senhor, ouviu Ele a minha voz e salvou-me daqueles que me cercavam.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageQuad22() {
 
 <em>Mt. 23, 1-12</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Matthǽum.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Mateus.</p>
       <p>In illo témpore: Locútus est Jesus ad turbas et ad discípulos suos, dicens: Super cáthedram Moysi sedérunt scribæ et pharisǽi. Omnia ergo, quæcúmque díxerint vobis, serváte et fácite: secúndum ópera vero eórum nolíte fácere: dicunt enim, et non fáciunt. Alligant enim ónera grávia et importabília, et impónunt in húmeros hóminum: dígito autem suo nolunt ea movére. Omnia vero ópera sua fáciunt, ut videántur ab homínibus: dilátant enim phylactéria sua, et magníficant fímbrias. Amant autem primos recúbitus in cenis, et primas cáthedras in synagógis, et salutatiónes in foro, et vocári ab homínibus Rabbi. Vos autem nolíte vocári Rabbi: unus est enim Magíster vester, omnes autem vos fratres estis. Et patrem nolíte vocáre vobis super terram, unus est enim Pater vester, qui in cœlis est. Nec vocémini magístri: quia Magíster vester unus est, Christus. Qui major est vestrum, erit miníster vester. Qui autem se exaltáverit, humiliábitur: et qui se humiliáverit, exaltábitur.</p>
@@ -61,14 +61,14 @@ export default function PageQuad22() {
 
 <em>Sl. 50, 3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Miserére mei, Dómine, secúndum magnam misericórdiam tuam: dele, Dómine, iniquitátem meam.</p>
       <p>Tende piedade de mim, Senhor, segundo a grandeza da vossa misericórdia; dignai-Vos, Senhor, esquecer a minha iniquidade.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sanctificatiónem tuam nobis, Dómine, his mystériis operáre placátus: quæ nos et a terrénis purget vítiis, et ad cœléstia dona perdúcat. Per Dóminum...</p>
       <p>Senhor, dignai-Vos benignamente santificar-nos pela virtude destes mystérios, a fim de que, estando purificados dos nossos vícios, alcancemos as recompensas celestiais. Por nosso Senhor...</p>
       </div>
@@ -77,21 +77,21 @@ export default function PageQuad22() {
 
 <em>Sl. 9, 2-3</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Narrábo ómnia mirabília tua: lætábor, et exsultábo in te: psallam nómini tuo, Altíssime.</p>
       <p>Publicarei todas as vossas maravilhas: em Vós me alegrarei e regozijarei: e cantarei hinos em louvor do vosso nome, ó Altíssimo.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ut sacris, Dómine, reddámur digni munéribus: fac nos tuis, quǽsumus, semper obœdíre mandátis. Per Dóminum nostrum...</p>
       <p>Para que sejamos dignos dos vossos sacrossantos dons, fazei, Senhor, Vos suplicamos, que obedeçamos sempre aos vossos mandamentos. Por nosso Senhor...</p>
       </div>
 
       <h3>Oração sobre o povo</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="text-red-500 text-center">Orémus.</span></p>
       <p><span className="text-red-500 text-center">Oremos.</span></p>
       <p>Humiliáte cápita vestra Deo.</p>

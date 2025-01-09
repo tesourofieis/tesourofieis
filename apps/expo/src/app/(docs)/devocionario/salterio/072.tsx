@@ -10,7 +10,7 @@ export default function Page072() {
       <h1>Salmo 72</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Quam bonus Israël Deus, * his, qui recto sunt corde!</p>
       <p>Quão bom Deus é para Israel, * para eles que são rectos de coração!</p>
       <p>Mei autem pæne moti sunt pedes: * pæne effúsi sunt gressus mei.</p>

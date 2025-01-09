@@ -10,7 +10,7 @@ export default function Page130() {
       <h1>Salmo 130</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dómine, non est exaltátum cor meum: * neque eláti sunt óculi mei.</p>
       <p>Senhor, o meu coração se não exaltou: * nem os meus olhos se mostraram altivos.</p>
       <p>Neque ambulávi in magnis: * neque in mirabílibus super me.</p>

@@ -14,14 +14,14 @@ export default function PageAdv35() {
 
 <em>Sl. 118, 151–152</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Prope es tu, Dómine, et omnes viæ tuæ véritas: inítio cognóvi de testimóniis tuis, quia in ætérnum tu es. <em>Ps. ibid., 1</em> Beati immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...</p>
       <p>Senhor, estais próximo: e todos vossos ensinos são verdadeiros. Desde o princípio que conheço os vossos ensinos, porque os ensinastes desde sempre. <em>Sl. ibid., 1</em> Bem-aventurados os que procedem sem mácula em seus caminhos: e os que caminham na lei do Senhor. ℣. Glória ao Pai...</p>
       </div>
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut hi, qui in tua pietáte confídunt, ab omni cítius adversitáte liberéntur: Qui vivis...</p>
       <p>Mostrai o vosso poder, Senhor, Vos suplicamos, e vinde, a fim de que aqueles que confiam na vossa bondade sejam bem depressa livres de toda a adversidade: Vós, que viveis e...</p>
       </div>
@@ -30,7 +30,7 @@ export default function PageAdv35() {
 
 <em>Is. 11, 1–5</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio Isaíæ Prophétæ.</p>
       <p>Lição do Profeta Isaías.</p>
       <p>Hæc dicit Dóminus Deus: Egrediátur virga de radíce Jesse, et flos de radíce ejus ascéndet. Et requiéscet super eum spíritus Dómini: spíritus sapiéntiæ et intelléctus, spíritus consílii et fortitúdinis, spíritus sciéntiæ et pietátis; et replébit eum spíritus timóris Dómini. Non secundum visiónem oculórum judicábit: neque secúndum audítum áurium árguet: sed judicábit in justítia páuperes, et árguet in æquitáte pro mansuétis terræ: et percútiet terram virga oris sui, et spíritu labiórum suórum interfíciet ímpium. Et erit justítia cíngulum lumbórum ejus: et fides cinctórium renum ejus.</p>
@@ -41,7 +41,7 @@ export default function PageAdv35() {
 
 <em>Sl. 84, 8 & 2</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da nobis. ℣. Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.</p>
       <p>Mostrai-nos, Senhor, a vossa misericórdia; e dai-nos a vossa salvação. Abençoastes, Senhor, a vossa terra; afastastes o cativeiro de Jacob.</p>
       </div>
@@ -50,7 +50,7 @@ export default function PageAdv35() {
 
 <em>Lc. 1, 39–47</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p><span className="cross text-red-500">✠</span> Sequéntia sancti Evangélii secúndum Lucam.</p>
       <p><span className="cross text-red-500">✠</span> Continuação do santo Evangelho segundo S. Lucas.</p>
       <p>In illo tempore: Exsúrgens María ábiit in montána cum festinatióne in civitátem Juda: et intrávit in domum Zacharíæ, et salutávit Elísabeth. Et factum est, ut audivit salutatiónem Maríæ Elísabeth, exsultávit infans in útero ejus: et repléta est Spíritu Sancto Elísabeth, et exclamávit voce magna, et dixit: Benedícta tu inter mulíeres, et benedíctus fructus ventris tui. Et unde hoc mihi, ut véniat Mater Dómini mei ad me? Ecce enim, ut facta est vox salutatiónis tuæ in áuribus meis, exsultávit in gáudio infans in útero meo. Et beáta, quæ credidísti, quóniam perficiéntur ea, quæ dicta sunt tibi a Dómino. Et ait María: Magníficat anima mea Dóminum: et exsultávit spíritus meus in Deo, salutári meo.</p>
@@ -61,14 +61,14 @@ export default function PageAdv35() {
 
 <em>Sl. 84, 7–8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Deus, tu convérsus vivificábis nos, et plebs tua lætábitur in te: osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis.</p>
       <p>Ó Deus, volvei para nós vossos olhares e dar-nos-eis a vida: então o vosso povo rejubilará em Vós. Mostrai-nos, Senhor, a vossa misericórdia: e dai-nos a vossa salvação.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum nostrum...</p>
       <p>Senhor, depois de haverdes recebido as nossas ofertas e as nossas orações, Vos suplicamos, purificai-nos com vossos celestiais mystérios e ouvi-nos clementemente. Por nosso Senhor...</p>
       </div>
@@ -77,14 +77,14 @@ export default function PageAdv35() {
 
 <em>Zc. 14, 5–6</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Ecce, Dóminus véniet et omnes Sancti ejus cum eo: et erit in die illa lux magna.</p>
       <p>Eis que o Senhor vem, e com Ele virão todos os Santos; e nesse dia raiará uma luz brilhantíssima.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Tui nos, Dómine, sacraménti libátio sancta restáuret: et a vetustáte purgátos, in mystérii salutáris fáciat transíre consórtium. Per Dóminum...</p>
       <p>Senhor, que a nossa comparticipação neste divino mystério nos restaure; e que, depois de nos haver purificado do «homem velho», nos conduza ao gozo das alegrias da salvação. Por nosso Senhor...</p>
       </div>

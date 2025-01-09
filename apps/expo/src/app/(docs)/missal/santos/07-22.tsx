@@ -47,7 +47,7 @@ export default function Page0722() {
 
       <h3>Oração</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Beátæ Maríæ Magdalénæ, quǽsumus, Dómine, suffrágiis adjuvémur: cujus précibus exorátus, quatriduánum fratrem Lázarum vivum ab ínferis resuscitásti: Qui vivis...</p>
       <p>Que nós sejamos socorridos, ó Deus, Vos suplicamos, pela intercessão da B. Maria Madalena, cujas preces de Vós obtiveram a ressurreição de seu irmão Lázaro, que falecera havia quatro dias. Ó Vós, que, viveis e reinais...</p>
       </div>
@@ -56,7 +56,7 @@ export default function Page0722() {
 
 <em>Ct. 3, 2-5; 8, 6-7</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Léctio libri Sapiéntiæ.</p>
       <p>Lição do Livro da Sabedoria.</p>
       <p>Surgam, et circuíbo civitátem: per vicos et pláteas quæram, quem díligit ánima mea: quæsívi illum, et non invéni. Invenérunt me vígiles, qui custódiunt civitátem. Num quem díligit ánima mea, vidístis? Páululum cum pertransíssem eos, invéni, quem díligit ánima mea: ténui eum, nec dimíttam, donec introdúcam illum in domum matris meæ et in cubículum genetrícis meæ. Adjúro vos, fíliæ Jerúsalem, per cápreas cervósque campórum, ne suscitétis neque evigiláre faciátis diléctam, donec ipsa velit. Pone me ut signáculum super cor tuum, ut signáculum super bráchium tuum: quia fortis est ut mors diléctio, dura sicut inférnus æmulátio: lámpades ejus lámpades ignis atque flammárum. Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina óbruent illam: si déderit homo omnem substántiam domus suæ pro dilectióne, quasi nihil despíciet eam.</p>
@@ -67,7 +67,7 @@ export default function Page0722() {
 
 <em>Sl. 44, 8</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Dilexísti justítiam, et odísti iniquitátem. ℣. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.</p>
       <p>Amastes a justiça e odiastes a iniquidade. ℣. Pelo que o Senhor, vosso Deus, vos ungiu com o óleo da alegria.</p>
       <p>Allelúja, allelúja. ℣. <em>ibid., 3</em> Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.</p>
@@ -85,14 +85,14 @@ export default function Page0722() {
 
 <em>Sl. 44, 10</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Fíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte.</p>
       <p>As filhas dos reis formam a vossa corte de glória: a própria rainha está colocada à vossa direita, envergando um vestido de ouro, recamado da mais rica variedade.</p>
       </div>
 
       <h3>Secreta</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Múnera nostra, quǽsumus, Dómine, beátæ Maríæ Magdalénæ gloriósa mérita tibi reddant accépta: cujus oblatiónis obséquium unigénitus Fílius tuus cleménter suscépit impénsum: Qui tecum vivit et regnat...</p>
       <p>Dignai-Vos aceitar, Senhor, Vos pedimos, as oblatas que Vos apresentamos pelos gloriosos méritos da B. Maria Madalena, da qual o vosso Filho Unigénito recebeu misericordiosamente a sua oferta e os seus serviços. Ele, que convosco vive e reina...</p>
       </div>
@@ -101,14 +101,14 @@ export default function Page0722() {
 
 <em>Sl. 118, 121, 122 & 128</em>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Feci judícium et justítiam, Dómine, non calumniéntur mihi supérbi: ad ómnia mandáta tua dirigébar, omnem viam iniquitátis odio hábui.</p>
       <p>Pratiquei a equidade e a justiça; não me entregueis, pois, àqueles que me perseguem. Procurei em tudo dirigir-me segundo os vossos Mandamentos: e odiei todas as vias da iniquidade.</p>
       </div>
 
       <h3>Postcomúnio</h3>
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Sumpto, quǽsumus, Dómine, único ac salutári remédio, Córpore et Sánguine tuo pretióso: ab ómnibus malis, sanctæ Maríæ Magdalénæ patrocíniis, eruámur: Qui vivis et regnas...</p>
       <p>Havendo nós recebido o único e salutar remédio, o vosso Corpo e o vosso Sangue preciosíssimo permiti, Senhor, Vos pedimos, que sejamos livres de todos os males pelo patrocínio de Santa Maria Madalena. Ó Vós, que viveis e...</p>
       </div>

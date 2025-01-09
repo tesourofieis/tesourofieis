@@ -10,7 +10,7 @@ export default function Page048() {
       <h1>Salmo 48</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Audíte hæc, omnes gentes: * áuribus percípite omnes, qui habitátis orbem:</p>
       <p>Ó todas as gentes ouvi isto: * estai atentas, vós todas que povoais a terra:</p>
       <p>Quique terrígenæ, et fílii hóminum: * simul in unum spanes et pauper.</p>

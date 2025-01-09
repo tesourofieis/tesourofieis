@@ -10,7 +10,7 @@ export default function Page115() {
       <h1>Salmo 115</h1>
 
 
-<div className="side-by-side not-content">
+<div className="side-by-side">
       <p>Crédidi, propter quod locútus sum: * ego autem humiliátus sum nimis.</p>
       <p>Acreditei, por isso falei: * contudo, fui grandemente humilhado.</p>
       <p>Ego dixi in excéssu meo: * Omnis homo mendax.</p>
