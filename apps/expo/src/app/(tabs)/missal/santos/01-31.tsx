@@ -1,0 +1,237 @@
+"use dom";
+import "../../../../global.css";
+
+import React from "react";
+
+export default function Page0131() {
+  return (
+    <div className="docs">
+      <h1>S. João Bosco, Conf., a 31 de Janeiro</h1>
+
+      <h3>Intróito</h3>
+
+      <em>3 Rs. 4, 29</em>
+
+      <div className="side-by-side">
+        <p>
+          Dedit illi Deus sapiéntiam, et prudéntiam multam nimis, et latitúdinem
+          cordis, quasi arénam quæ est in líttore maris. <em>Ps. 112, 1</em>{" "}
+          Laudáte, pueri, Dóminum, laudáte nomen Dómini. ℣. Gloria Patri...
+        </p>
+        <p>
+          Deus deu-lhe a sabedoria, assim como uma admirável prudência e uma
+          imensa magnanimidade, como a areia que há à beira-mar.{" "}
+          <em>Sl. 112, 1</em> Louvai o Senhor, ó meninos, louvai o nome do
+          Senhor. ℣. Glória ao Pai...
+        </p>
+      </div>
+
+      <h3>Oração</h3>
+
+      <div className="side-by-side">
+        <p>
+          Deus, qui sanctum Joánnem Confessórem tuum adolescentium patrem et
+          magístrum excitásti, ac per eum, auxiliatríce Vírgine María, novas in
+          Ecclésia tua famílias floréscere voluísti: concéde, quǽsumus; ut eódem
+          caritátis igne succénsi, ánimas quǽrere, Ubíque soli servíre valeámus.
+          Per Dóminum...
+        </p>
+        <p>
+          Ó Deus, que suscitastes a S. João, vosso Confessor, para pai e mestre
+          dos adolescentes, e por ele com o auxílio da Virgem Maria quisestes
+          florescessem na vossa Igreja novas famílias: concedei, Vos pedimos,
+          que, abrasados no mesmo fogo de caridade, possamos ganhar almas e só
+          Vós servir. Por nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Epístola</h3>
+
+      <em>Fl. 4, 4-9 </em>
+
+      <div className="side-by-side">
+        <p>Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.</p>
+        <p>Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.</p>
+        <p>
+          Fratres: Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia
+          vestra nota sit ómnibus homínibus: Dóminus prope est. Nihil sollíciti
+          sitis; sed in omni oratióne et obsecratióne, cum gratiárum actióne,
+          petitiónes vestræ innotéscant apud Deum. Et pax Dei quæ exsúperat
+          omnem sensum, custódiat corda vestra et intelligéntias vestras, in
+          Christo Jesu. De cétero, fratres, quæcúmque sunt vera, quæcúmque
+          púdica, quæcúmque justa, quæcúmque sancta, quæcúmque amabília,
+          quæcúmque bonæ famæ, si qua virtus, si qua laus disciplínæ, hæc
+          cogitáte. Quæ et didicístis, et accepístis, et audístis, et vidístis
+          in me, hæc agite: et Deus pacis erit vobíscum.
+        </p>
+        <p>
+          Meus irmãos: Regozijai-vos incessantemente no Senhor. Eu vo-lo repito:
+          regozijai-vos. Que todos os homens vejam a vossa alegria. Não vos
+          inquieteis com coisa alguma; mas mostrai a Deus pelas vossas orações e
+          súplicas todas vossas necessidades. Que a paz de Deus, que ultrapassa
+          toda nossa inteligência, guarde os vossos corações e inteligências, em
+          Jesus Cristo. Quanto ao mais, irmãos, tudo o que ó verdadeiro, tudo o
+          que é honesto, tudo o ,que é justo, tudo o que é santo, tudo o que é
+          amável, tudo o que tem bom nome, qualquer virtude, qualquer coisa
+          digna de louvor da disciplina, seja isto o objecto dos vossos
+          pensamentos. O que aprendestes, recebestes, ouvistes e vistes em mim,
+          praticai-o. E o Deus de paz será convosco.
+        </p>
+      </div>
+
+      <h3>Gradual</h3>
+
+      <em>Sl. 36, 3-5</em>
+
+      <div className="side-by-side">
+        <p>
+          Spera in Dómino, et fac bonitátem, et inhábita terram, et pascéris in
+          divítiis ejus. ℣. Delectáre in Dómino, et dabit tibi petitiónes cordis
+          tui; revéla Dómino viam tuam et spera in eo, et ipse fáciet.
+        </p>
+        <p>
+          Espera no Senhor e pratica obras boas: então habitarás na terra e te
+          sustentarás com suas riquezas. ℣. Alegra-te no Senhor e conceder-te-á
+          o que teu coração deseja. Expõe ao Senhor a tua situação e tem
+          esperança: Ele te atenderá.
+        </p>
+        <p>
+          Allelúja, allelúja. ℣. <em>Ps. 73, 21</em> Pauper et inops laudábunt
+          nomen tuum. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Sl. 73, 21</em> O pobre e o desvalido
+          louvarão o vosso Nome. Aleluia.
+        </p>
+      </div>
+
+      <aside>
+        Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se o:
+      </aside>
+
+      <h3>Trato</h3>
+
+      <em>Sl. 60, 4-6</em>
+
+      <div className="side-by-side">
+        <p>
+          Factus es spes mea, Dómine: turris fortitúdinis a fácie inimíci. ℣.
+          Inhabitábo in tabernáculo tuo in sǽcula: prótegar in velaménto alárum
+          tuárum. ℣. Quóniam tu, Deus, exaudísti oratiónem meam: dedísti
+          hereditátem timéntibus nomen tuum.
+        </p>
+        <p>
+          Fizestes-Vos a minha esperança: uma torre sólida contra o inimigo. ℣.
+          Habitarei eternamente no vosso tabernáculo: abrigar-me-ei à sombra das
+          vossas asas. ℣. Pois Vós, meu Deus, ouvistes a minha oração e destes a
+          herança aos que temem o vosso nome.
+        </p>
+      </div>
+
+      <aside>
+        Durante o Tempo Pascal o Gradual é omitido e diz-se a seguinte Aleluia:
+      </aside>
+
+      <div className="side-by-side">
+        <p>
+          Allelúja, allelúja. ℣. <em>Ps. 73, 21</em> Pauper et inops laudábunt
+          nomen tuum. Allelúja. ℣. <em>Ps. 35, 9</em> Inebriabúntur ab ubertáte
+          domus tuæ: et torrénte voluptátis tuæ potábis eos. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Sl. 73, 21</em> O pobre e o desvalido
+          louvarão o vosso Nome. Aleluia. ℣. <em>Sl. 35, 9</em> Embriagar-se-ão
+          com a abundância da vossa casa, e Vós os fareis beber na torrente das
+          vossas delícias. Aleluia.
+        </p>
+      </div>
+
+      <h3>Evangelho</h3>
+
+      <em>Mt. 18, 1-5</em>
+
+      <div className="side-by-side">
+        <p>
+          <span className="cross text-red-500">✠</span> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
+        </p>
+        <p>
+          <span className="cross text-red-500">✠</span> Continuação do santo
+          Evangelho segundo S. Mateus.
+        </p>
+        <p>
+          In illo témpore: Accessérunt discípuli ad Jesum dicéntes: Quis, putas,
+          major est in regno cælórum? Et ad vocans Jesus párvulum, státuit eum
+          in médio eórum, et dixit: Amen dico vobis, nisi convérsi fueritis, et
+          efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicúmque
+          ergo humiliáverit se sicut párvulus iste, hic est major in regno
+          cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me
+          súscipit.
+        </p>
+        <p>
+          Naquele tempo, aproximaram-se de Jesus os discípulos, dizendo-lhe:
+          «Qual pensais Vós que é o maior no reino dos céus?». E Jesus, havendo
+          chamado um pequeno, colocou-o no meio deles e disse: «Em verdade vos
+          digo: se vos não converteis e não vos tornais como os pequenos, não
+          entrareis no reino dos céus. Todo aquele, pois, que se fizer pequeno,
+          como este menino, esse é o maior no reino dos céus; e quem receber em
+          meu nome um pequeno, como este, recebe-me a mim mesmo».
+        </p>
+      </div>
+
+      <h3>Ofertório</h3>
+
+      <em>Sl. 33, 12</em>
+
+      <div className="side-by-side">
+        <p>Veníte, fílii, audíte me: timórem Dómini docébo vos.</p>
+        <p>Vinde, filhos; ouvi-me. Ensinar-vos-ei o temor do Senhor.</p>
+      </div>
+
+      <h3>Secreta</h3>
+
+      <div className="side-by-side">
+        <p>
+          Súscipe, Dómine, oblatiónem mundam salutáris Hóstiæ, et præsta: ut, te
+          in ómnibus et super ómnia diligéntes, in glóriæ tuæ laudem vívere
+          mereámur. Per Dóminum...
+        </p>
+        <p>
+          Recebei, Senhor, a oblação pura da Hóstia salutar, e fazei que,
+          amando-Vos em tudo e sobretudo, mereçamos viver para louvar a vossa
+          glória. Por nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Comúnio</h3>
+
+      <em>Rm. 4, 18</em>
+
+      <div className="side-by-side">
+        <p>
+          Contra spem in spem crédidit, ut fíeret pater multárum géntium,
+          secúndum quod dictum est ei.
+        </p>
+        <p>
+          Contra toda a esperança, acreditou na esperança de que seria pai de
+          muitas gentes, como o que lhe foi dito.
+        </p>
+      </div>
+
+      <h3>Postcomúnio</h3>
+
+      <div className="side-by-side">
+        <p>
+          Córporis et Sánguinis tui, Dómine, mystério satiátis, concéde,
+          quǽsumus; ut, intercedénte sancto Joánne Confessóre tuo, in gratiárum
+          semper actióne maneámus: Qui vivis...
+        </p>
+        <p>
+          Saciados, Senhor, com o mystério do vosso Corpo e Sangue, concedei,
+          como pedimos, que, intercedendo por nós S. João, Confessor,
+          permaneçamos sempre em acção de graças. Vós, que...
+        </p>
+      </div>
+    </div>
+  );
+}

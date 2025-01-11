@@ -1,0 +1,244 @@
+"use dom";
+import "../../../../global.css";
+
+import React from "react";
+
+export default function Page14Confessoresnaopontifices1() {
+  return (
+    <div className="docs">
+      <h1>Confessores não Pontífices</h1>
+
+      <h3>Intróito</h3>
+
+      <em>Sl. 36, 30-31</em>
+
+      <div className="side-by-side">
+        <p>
+          Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex
+          Dei ejus in corde ipsíus. (T. P. Allelúja, allelúja.){" "}
+          <em>Ps. ibid., 1</em> Noli æmulári in malignántibus: neque zeláveris
+          faciéntes iniquitátem. ℣. Gloria Patri...
+        </p>
+        <p>
+          A boca do justo fala com sabedoria e a sua língua proclama a justiça.
+          A lei do seu Deus estará no seu coração. (T. P. Aleluia, aleluia.){" "}
+          <em>Sl. ibid., 1</em> Não vos irriteis contra os maus, nem tenhais
+          inveja daqueles que cometem iniquidades. ℣. Glória ao Pai...
+        </p>
+      </div>
+
+      <h3>Oração</h3>
+
+      <div className="side-by-side">
+        <p>
+          Deus, qui nos beáti <span className="text-red-500">N.</span>{" "}
+          Confessóris tui ánnua solemnitáte lætíficas: concéde propítius; ut,
+          cujus natalítia cólimus, étiam actiónes imitémur. Per Dóminum...
+        </p>
+        <p>
+          Ó Deus, que nos alegrais com a solenidade anual do B.{" "}
+          <span className="text-red-500">N.</span>, vosso Confessor, visto que
+          celebramos o seu nascimento, concedei-nos propício que imitemos também
+          as suas acções. Por nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Epístola</h3>
+
+      <em>Ecl. 31, 8-11</em>
+
+      <div className="side-by-side">
+        <p>Léctio libri Sapiéntiæ.</p>
+        <p>Lição do Livro da Sabedoria.</p>
+        <p>
+          Beátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit,
+          nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum?
+          fecit enim mirabília in vita sua. Qui probátus est in illo, et
+          perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non
+          est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona
+          illíus in Dómino, et eleemósynis illíus enarrábit omnis ecclésia
+          sanctórum.
+        </p>
+        <p>
+          Bem-aventurado o homem que foi julgado sem mácula; que não correu após
+          o ouro; e não pôs as esperanças nem no dinheiro, nem nos tesouros!
+          Quem é ele, para que o louvemos? Porquanto operou coisas admiráveis
+          durante a vida. Aquele que foi provado pelo ouro e foi julgado
+          perfeito alcançará a glória eterna; pois poderia ter violado o
+          mandamento, e o não violou; poderia ter praticado acções más, e as não
+          praticou. É por esta razão que seus bens lhe estarão assegurados no
+          Senhor e que toda a assembleia dos justos proclamará as boas acções
+          que praticou.
+        </p>
+      </div>
+
+      <h3>Gradual</h3>
+
+      <em>Sl. 91, 13 & 14</em>
+
+      <div className="side-by-side">
+        <p>
+          Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo
+          Dómini. ℣. <em>ibid., 3</em> Annuntiándum mane misericórdiam tuam, et
+          veritátem tuam per noctem.
+        </p>
+        <p>
+          O justo florescerá, como a palmeira, e crescerá, como o cedro do
+          Líbano, na casa do Senhor. ℣. <em>ibid., 3</em> Para publicar de manhã
+          a vossa misericórdia; e de noite a vossa verdade.
+        </p>
+        <p>
+          Allelúja, allelúja. ℣. <em>Jac. 1, 12</em> Beátus vir, qui suffert
+          tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
+          Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Tg. 1, 12</em> Bem-aventurado o varão que
+          sabe sofrer a tentação, porque, quando acabar a tentação, receberá a
+          coroa da vida. Aleluia.
+        </p>
+      </div>
+
+      <aside>
+        Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
+      </aside>
+
+      <h3>Trato</h3>
+
+      <em>Sl. 111, 1-3</em>
+
+      <div className="side-by-side">
+        <p>
+          Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Potens
+          in terra erit semen ejus: generátio rectórum benedicétur. ℣. Glória et
+          divitiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.
+        </p>
+        <p>
+          Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
+          obedecer-Lhe. ℣. Sua descendência será poderosa na terra; pois a
+          geração dos justos será abençoada. ℣. Na sua casa haverá glória e
+          riqueza: e a justiça subsistirá em todos os séculos dos séculos.
+        </p>
+      </div>
+
+      <aside>No T. Pascal o Gradual e o Trato e diz-se:</aside>
+
+      <div className="side-by-side">
+        <p>
+          Allelúja, allelúja. ℣. <em>Jac. 1, 12</em> Beátus vir, qui suffert
+          tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
+          Allelúja. ℣. <em>Eccli. 45, 9</em> Amávit eum Dóminus et ornávit eum:
+          stolam glóriæ índuit eum. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. <em>Tg. 1, 12</em> Bem-aventurado o varão que sabe
+          sofrer a tentação, porque, quando acabar a tentação, receberá a coroa
+          da vida. Aleluia. ℣. <em>Ecl. 45, 9</em> O Senhor amou-o, ornou-o e
+          revestiu-o com a túnica da glória. Aleluia.
+        </p>
+      </div>
+
+      <h3>Evangelho</h3>
+
+      <em>Lc. 12, 35-40</em>
+
+      <div className="side-by-side">
+        <p>
+          <span className="cross text-red-500">✠</span> Sequéntia sancti
+          Evangélii secúndum Lucam.
+        </p>
+        <p>
+          <span className="cross text-red-500">✠</span> Continuação do santo
+          Evangelho segundo S. Lucas.
+        </p>
+        <p>
+          In illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri
+          præcíncti, et lucernæ ardéntes in mánibus vestris, et vos símiles
+          homínibus exspectántibus dóminum suum, quando revertátur a núptiis:
+          ut, cum vénerit et pulsáverit, conféstim apériant ei. Beáti servi
+          illi, quos, cum vénerit dóminus, invénerit vigilántes: amen, dico
+          vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens
+          ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia
+          vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem
+          scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret,
+          vigiláret útique, et non síneret pérfodi domum suam. Et vos estóte
+          paráti, quia, qua hora non putátis, Fílius hóminis véniet.
+        </p>
+        <p>
+          Naquele tempo, disse Jesus aos seus discípulos: «Estejam cingidos os
+          vossos rins; tende nas vossas mãos lâmpadas acesas; sede semelhantes a
+          homens que esperam o seu senhor quando volta das bodas, para que,
+          quando chegar e bater à porta, logo lha abram. Bem-aventurados aqueles
+          servos que seu senhor, quando chegar, os achar vigilantes. Em verdade
+          vos digo que se cingirá, e, mandando-os sentar à mesa, passará por
+          entre eles e os servirá. E, se chegar na segunda ou terceira vigília e
+          assim os achar, bem-aventurados são esses servos. Ora, sabei que, se o
+          pai de família conhecesse a hora em que viria o ladrão, vigiava, sem
+          dúvida, para que sua casa não fosse assaltada. Vós, pois, estai
+          preparados, porque o Filho do homem virá à hora em que menos cuidais».
+        </p>
+      </div>
+
+      <h3>Ofertório</h3>
+
+      <em>Sl. 88, 25</em>
+
+      <div className="side-by-side">
+        <p>
+          Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
+          cornu ejus. (T. P. Allelúja.)
+        </p>
+        <p>
+          A minha verdade e a minha misericórdia estarão com ele, e, por virtude
+          do meu nome, será exaltado o seu poder. (T. P. Aleluia.)
+        </p>
+      </div>
+
+      <h3>Secreta</h3>
+
+      <div className="side-by-side">
+        <p>
+          Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne
+          Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.
+          Per Dóminum...
+        </p>
+        <p>
+          Senhor, Vos oferecemos este sacrifício de louvor em memória dos vossos
+          Santos, para que por meio dele nos livremos dos males presentes e
+          futuros. Por nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Comúnio</h3>
+
+      <em>Mt. 24, 46-47</em>
+
+      <div className="side-by-side">
+        <p>
+          Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen,
+          dico vobis, super ómnia bona sua constítuet eum. (T. P. Allelúja.)
+        </p>
+        <p>
+          Bem-aventurado o servo que o Senhor, quando vier, achar vigilante. Em
+          verdade vos digo que lhe dará a administração de todos seus bens. (T.
+          P. Aleluia).
+        </p>
+      </div>
+
+      <h3>Postcomúnio</h3>
+
+      <div className="side-by-side">
+        <p>
+          Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut,
+          in cujus hæc commemoratióne percépimus, ejus muniámur et précibus. Per
+          Dóminum...
+        </p>
+        <p>
+          Fortalecidos com o alimento e com a bebida celestiais, Vos suplicamos
+          humildemente, ó nosso Deus, que nos protejam as preces daquele em cuja
+          memória os recebemos. Por nosso Senhor...
+        </p>
+      </div>
+    </div>
+  );
+}

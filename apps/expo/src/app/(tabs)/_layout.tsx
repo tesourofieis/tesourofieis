@@ -62,6 +62,36 @@ export default function PageTabLayout() {
           tabBarShowLabel: false,
         }}
       />
+      <Tabs.Screen
+        name="missal"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="devocionario"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="ritual"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="fe"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="canticos"
+        options={{
+          href: null,
+        }}
+      />
     </Tabs>
   );
 }

@@ -50,9 +50,13 @@ export default function PageRootLayout() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <CalendarProvider>
-        <NotificationsProvider>
+        {Platform.OS === "web" ? (
           <RootLayoutNav />
-        </NotificationsProvider>
+        ) : (
+          <NotificationsProvider>
+            <RootLayoutNav />
+          </NotificationsProvider>
+        )}
       </CalendarProvider>
     </GestureHandlerRootView>
   );

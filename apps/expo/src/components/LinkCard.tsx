@@ -25,10 +25,14 @@ export default function PageLinkCard({
   mass,
   oratio,
   description,
+  href,
+  title,
 }: {
   mass?: Mass;
   oratio?: { link: string; name: string };
   description?: string;
+  href?: string;
+  title?: string;
 }) {
   if (oratio) {
     return (
@@ -95,4 +99,29 @@ export default function PageLinkCard({
       </Link>
     );
   }
+
+  return (
+    <Link
+      href={{
+        pathname: href,
+      }}
+      className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
+      asChild
+    >
+      <View className="flex flex-col justify-start">
+        <View className="flex flex-row">
+          <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+            {description ? description : ""}
+          </Text>
+        </View>
+
+        <View className="flex flex-row items-center gap-2">
+          <FontAwesome name="circle" color={getColor(mass.color)} />
+          <Text className={"font-black text-sepia-600 dark:text-sepia-400"}>
+            {title}
+          </Text>
+        </View>
+      </View>
+    </Link>
+  );
 }
