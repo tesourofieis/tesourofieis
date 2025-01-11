@@ -1,0 +1,139 @@
+"use dom";
+import "../../../global.css";
+
+import React from "react";
+
+export default function PageSantissimatrindade() {
+  return (
+    <div className="docs">
+      <h1>Missa da Santíssima Trindade</h1>
+
+      <aside>
+        Como na Missa do [Domingo da Santíssima
+        Trindade](/missal/pentecostes/pent1-0), excepto:
+      </aside>
+
+      <h3>Epístola</h3>
+
+      <em>2 Cor. 13, 11 & 13</em>
+
+      <div className="side-by-side">
+        <p>Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.</p>
+        <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
+        <p>
+          Fratres: Gaudéte, perfécti estóte, exhortámini, idem sápite, pacem
+          habéte, et Deus pacis et dilectiónis erit vobíscum. Grátia Dómini
+          nostri Jesu Christi, et cáritas Dei, et communicátio Sancti Spíritus
+          sit cum ómnibus vobis. Amen.
+        </p>
+        <p>
+          Meus irmãos: Regozijai-vos, sede perfeitos» confortai-vos
+          reciprocamente, sede unidos em vossos sentimentos, vivei em paz; e
+          Deus da paz e do amor permanecerá convosco. Que a graça de nosso
+          Senhor Jesus Cristo, o amor de Deus e a comunicação do Espírito Santo
+          estejam sempre convosco. Amen.
+        </p>
+      </div>
+
+      <h3>Gradual</h3>
+
+      <em>Dan. 3, 55-56</em>
+
+      <div className="side-by-side">
+        <p>
+          Benedíctus es, Dómine, qui íntuens abýssos, et sedes super Chérubim.
+          ℣. Benedíctus es, Dómine, in firmaménto cœli, et laudábilis in sǽcula.
+        </p>
+        <p>
+          Senhor, que estais assentado acima dos Querubins e cujo olhar penetra
+          na profundeza dos abysmos, sois bendito! ℣. Sim, Senhor, sois bendito
+          no firmamento do céu; e sois digno de louvor em todos os séculos.
+        </p>
+        <p>
+          Allelúja, allelúja. ℣. <em>ibid., 52</em> Benedíctus es, Dómine, Deus
+          patrum nostrórum, et laudábilis in sǽcula. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>ibid., 52</em> Sois bendito, Senhor, Deus dos
+          nossos pais: e sois digno de louvor em todos os séculos.
+        </p>
+      </div>
+
+      <aside>
+        Depois da Septuagésima omite-se o Aleluia e o que se segues, e diz-se:
+      </aside>
+
+      <h3>Trato</h3>
+
+      <div className="side-by-side">
+        <p>
+          Te Deum, Patrem ingénitum, te, Fílium unigénitum, te, Spíritum Sanctum
+          Paráclitum, sanctam et indivíduam Trinitátem, toto corde confitémur,
+          laudámus atque benedícimus. ℣. Quóniam magnus es tu, et fáciens
+          mirabília: tu es Deus solus. ℣. Tibi laus, tibi glória, tibi gratiárum
+          áctio in sǽcula sempitérna, o beáta Trinitas.
+        </p>
+        <p>
+          A Vós, ó Deus Pai, que fostes criado; a Vós, ó Filho Unigénito; a Vós,
+          ó Espírito Santo Paráclito; a Vós, ó Santa e indivisível Trindade:
+          adoramos com todo o coração, louvamos bendizemos. ℣. Pois Vós sois
+          imenso, Senhor, praticais prodígios e sois o único Deus. ℣. A Vós, ó
+          beatíssima Trindade, louvor, glória e acção de graças em todos os
+          séculos.
+        </p>
+      </div>
+
+      <aside>No tempo Pascal omite-se o Gradual e o Trato, e diz-se:</aside>
+
+      <div className="side-by-side">
+        <p>
+          Allelúja, allelúja. ℣. <em>Dan. 3, 52</em> Benedíctus es, Dómine, Deus
+          patrum nostrórum, et laudábilis in sǽcula. Allelúja. ℣. Benedicámus
+          Patrem et Fílium cum Sancto Spíritu. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Dn. 3, 52</em> Sois bendito, Senhor, Deus dos
+          nossos e digno de louvor em todos os séculos. Aleluia. ℣. Bendigamos o
+          Pai, e o Filho com o Espírito Santo. Aleluia.
+        </p>
+      </div>
+
+      <h3>Evangelho</h3>
+
+      <em>Jo. 15, 26-27; 16, 1-4</em>
+
+      <div className="side-by-side">
+        <p>
+          <span className="cross text-red-500">✠</span> Sequéntia sancti
+          Evangélii secúndum Joánnem.
+        </p>
+        <p>
+          <span className="cross text-red-500">✠</span> Continuação do santo
+          Evangelho segundo S. João.
+        </p>
+        <p>
+          In illo témpore: Dixit Jesus discípulis suis: Cum vénerit Paráclitus,
+          quem ego mittam vobis a Patre, Spíritum veritátis, qui a Patre
+          procédit, ille testimónium perhibébit de me: et vos testimónium
+          perhibébitis, quia ab inítio mecum estis. Hæc locútus sum vobis, ut
+          non scandalizémini. Absque synagógis fácient vos: sed venit hora, ut
+          omnis, qui intérficit vos, arbitrétur obséquium se præstáre Deo. Et
+          hæc fácient vobis, quia non novérunt Patrem neque me. Sed hæc locútus
+          sum vobis, ut, cum vénerit hora eórum, reminiscámini, quia ego dixi
+          vobis.
+        </p>
+        <p>
+          Naquele tempo, disse Jesus aos seus discípulos: Quando vier o
+          Paráclito, o Espírito da verdade que procede do Pai, que Eu vos
+          enviarei do Pai. Ele dará testemunho de mim, e vós, que estais comigo
+          desde o princípio, Lhe dareis também testemunho de mim. Digo-vos estas
+          coisas para que vos não escandalizeis: expulsar-vos-ão das sinagogas;
+          e vem a hora em que qualquer que vos mate, julgará que presta um
+          serviço a Deus. Tratar-vos-ão deste modo, porque não conhecem nem o
+          Pai, nem me conhecem a mim. Digo-vos estas coisas para que, quando
+          chegar a hora, vos lembreis de que vo-las disse.
+        </p>
+      </div>
+    </div>
+  );
+}

@@ -24,7 +24,7 @@ const MainMenuItem = ({ item, onPress, isExpanded }) => {
     >
       <View className="flex-row items-center">
         <Text className="font-bold text-lg" style={{ color: textColor }}>
-          {item.label}
+          {item.title}
         </Text>
       </View>
       {item.items && (
@@ -56,7 +56,7 @@ const SubMenuItem = ({ item, onPress, isExpanded }) => {
     >
       <View className="flex-row items-center">
         <Text className="text-base text-wrap" style={{ color: textColor }}>
-          {item.label}
+          {item.title}
         </Text>
       </View>
       {item.items && (
@@ -96,7 +96,7 @@ export default function PageMoreScreen() {
     if (item.items) {
       setExpandedItems((prev) => ({
         ...prev,
-        [item.label]: !prev[item.label],
+        [item.title]: !prev[item.title],
       }));
     } else if (item.link || item.path) {
       router.push({
@@ -110,11 +110,11 @@ export default function PageMoreScreen() {
   };
 
   const renderItem = (item, depth = 0) => {
-    const isExpanded = expandedItems[item.label];
+    const isExpanded = expandedItems[item.title];
 
     return (
       <View
-        key={item.label}
+        key={item.link}
         className="bg-sepia-50 dark:bg-sepia-900 border rounded-lg border-sepia-300 p-1 m-1 dark:border-sepia-800"
       >
         {depth === 0 ? (
@@ -143,11 +143,11 @@ export default function PageMoreScreen() {
 
   const renderSearchResult = (item) => (
     <TouchableOpacity
-      key={item.path}
+      key={item.link}
       className="p-3 border-b border-sepia-300 dark:border-sepia-700"
       onPress={() => handleItemPress(item)}
     >
-      <Text className="text-sepia-800 dark:text-sepia-200">{item.label}</Text>
+      <Text className="text-sepia-800 dark:text-sepia-200">{item.title}</Text>
     </TouchableOpacity>
   );
 

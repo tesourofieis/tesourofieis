@@ -1,0 +1,67 @@
+"use dom";
+import "../../../global.css";
+
+import React from "react";
+
+export default function Page33Mareantes() {
+  return (
+    <div className="docs">
+      <h1>33.ª Pelos mareantes</h1>
+
+      <h3>Oração</h3>
+
+      <div className="side-by-side">
+        <p>
+          Deus, qui transtulísti patres nostros per Mare Rubrum, et transvexísti
+          eos per aquam nímiam, laudem tui nóminis decantántes: te supplíciter
+          deprecámur; ut in navi fámulos tuos, repúlsis adversitátibus, portu
+          semper optábili cursúque tranquíllo tueáris. Per Dóminum...
+        </p>
+        <p>
+          Ó Deus, que permitistes que os nossos pais atravessassem o mar
+          Vermelho e os transportastes de uma à outra margem, através da
+          profundeza das águas, durante o que eles cantaram louvores em honra do
+          vosso nome, dignai-Vos acolher sob a vossa protecção os vossos servos,
+          que neste momento estão embarcados, e afastar deles todos os perigos,
+          conduzindo-os, após uma viagem feliz, ao porto tão desejado. Por nosso
+          Senhor...
+        </p>
+      </div>
+
+      <h3>Secreta</h3>
+
+      <div className="side-by-side">
+        <p>
+          Súscipe, quǽsumus, Dómine, preces famulórum tuórum, cum oblatiónibus
+          hostiárum: et eos, pro quibus tua mystéria celebrámus, ab ómnibus
+          defénde perículis. Per Dóminum...
+        </p>
+        <p>
+          Aceitai, Senhor, Vos pedimos, a oferta da oblação destes vossos
+          servos, juntamente com suas orações, e protegei contra todos os
+          perigos os viajantes, por cuja salvação celebramos os vossos
+          sacrossantos mystérios. Por nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Postcomúnio</h3>
+
+      <div className="side-by-side">
+        <p>
+          Sanctificáti divíno mystério, majestátem tuam, Dómine, supplíciter
+          deprecámur et pétimus: ut fámulos tuos, quos donis facis cœléstibus
+          memorári; per lignum sanctæ Crucis, et a peccátis ábstrahas, et a
+          perículis cunctis miserátus erípias. Per Dóminum nostrum...
+        </p>
+        <p>
+          Santificados com estes divinos mystérios, invocamos humildemente a
+          vossa suprema majestade, ó Senhor, e, pelo Lenho Sagrado da vossa
+          Cruz, Vos suplicamos que aqueles de quem permitistes nos lembrássemos
+          durante este banquete celestial sejam retirados do caminho do pecado,
+          e, pela vossa misericórdia, sejam livres de todos os perigos, Por
+          nosso Senhor...
+        </p>
+      </div>
+    </div>
+  );
+}

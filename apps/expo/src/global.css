@@ -54,6 +54,10 @@
     text-align: center;
   }
 
+  .link {
+    @apply underline;
+  }
+
   aside:not([class]) {
     @apply rounded bg-sepia-200 p-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
     border-inline-start: 0.25rem solid;

@@ -1,4 +1,10 @@
-export const sidebar = [
+export type SidebarItem = {
+  title: string;
+  description?: string;
+  link: string;
+};
+
+export const sidebar: SidebarItem[] = [
   {
     title: "1.ª Para implorar os Sufrágios dos Santos",
     description: null,

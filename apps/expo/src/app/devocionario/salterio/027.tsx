@@ -1,0 +1,98 @@
+"use dom";
+import "../../../global.css";
+
+import React from "react";
+
+export default function Page027() {
+  return (
+    <div className="docs">
+      <h1>Salmo 27</h1>
+
+      <div className="side-by-side">
+        <p>
+          Ad Te, Dómine, clamábo, Deus meus, ne síleas a me: * nequándo táceas a
+          me, et assimilábor descendéntibus in lacum.
+        </p>
+        <p>
+          A Vós, ó Senhor, clamarei, Deus meu, não Vos silenciais comigo: * não
+          suceda que se me não ouvirdes, seja semelhante àqueles na cova.
+        </p>
+        <p>
+          Exáudi, Dómine, vocem deprecatiónis meæ dum oro ad Te: * dum extóllo
+          manus meas ad templum sanctum tuum.
+        </p>
+        <p>
+          Ouvi, ó Senhor, a voz da minha súplica, quando Vos rogo: * quando ergo
+          as minhas mãos para o vosso santo templo.
+        </p>
+        <p>
+          Ne simul trahas me cum peccatóribus: * et cum operántibus iniquitátem
+          ne perdas me.
+        </p>
+        <p>
+          Não me arrasteis juntamente com os pecadores: * e me não percais com
+          os que praticam a iniquidade.
+        </p>
+        <p>
+          Qui loquúntur pacem cum próximo suo, * mala autem in córdibus eórum.
+        </p>
+        <p>
+          Os quais falam de paz com seu próximo, * e maldade têm em seus
+          corações.
+        </p>
+        <p>
+          Da illis secúndum ópera eórum, * et secúndum nequítiam adinventiónum
+          ipsórum.
+        </p>
+        <p>
+          Dai-lhes segundo as suas obras, * e segundo a malignidade dos seus
+          projectos.
+        </p>
+        <p>
+          Secúndum ópera mánuum eórum tríbue illis: * redde retributiónem eórum
+          ipsis.
+        </p>
+        <p>
+          Dai-lhes segundo as obras das suas mãos: * dai-lhes a recompensa que
+          merecem.
+        </p>
+        <p>
+          Quóniam non intellexérunt ópera Dómini, et in ópera mánuum ejus *
+          déstrues illos, et non ædificábis eos.
+        </p>
+        <p>
+          Porquanto não compreenderam as obras do Senhor, nem as obras das suas
+          mãos; * Vós destruireis e os não restabelecereis.
+        </p>
+        <p>Benedíctus Dóminus: * quóniam exaudívit vocem deprecatiónis meæ.</p>
+        <p>Bendito seja o Senhor: * porque ouviu a voz da minha súplica.</p>
+        <p>
+          Dóminus adjútor meus, et protéctor meus: * in ipso sperávit cor meum,
+          et adjútus sum.
+        </p>
+        <p>
+          O Senhor é a minha ajuda e o meu protector: * n’Ele esperou o meu
+          coração e fui ajudado.
+        </p>
+        <p>Et reflóruit caro mea: * et ex voluntáte mea confitébor ei.</p>
+        <p>Refloresceu a minha carne: * e O louvarei de todo meu coração.</p>
+        <p>
+          Dóminus fortitúdo plebis suæ: * et protéctor salvatiónum Christi sui
+          est.
+        </p>
+        <p>
+          O Senhor é a fortaleza do seu povo: * e o protector que salva o seu
+          Cristo.
+        </p>
+        <p>
+          Salvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ: * et rege
+          eos, et extólle illos usque in ætérnum.
+        </p>
+        <p>
+          Salvai, ó Senhor, o vosso povo e abençoai a vossa herança: *
+          conduzi-os e exaltai-os por toda a eternidade.
+        </p>
+      </div>
+    </div>
+  );
+}

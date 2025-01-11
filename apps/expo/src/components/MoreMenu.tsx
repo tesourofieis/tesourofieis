@@ -1,7 +1,5 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
-import { BottomTabBarButtonProps } from "@react-navigation/bottom-tabs";
 import { useRouter } from "expo-router";
-// components/MoreMenu.js
 import React, { useState, useRef, useEffect } from "react";
 import {
   Dimensions,

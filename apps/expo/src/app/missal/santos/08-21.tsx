@@ -1,0 +1,76 @@
+"use dom";
+import "../../../global.css";
+
+import React from "react";
+
+export default function Page0821() {
+  return (
+    <div className="docs">
+      <h1>Santa Joana de Chantal, Viúva, a 21 de Agosto</h1>
+
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/comum/24nemvirgensnemmartires">
+          Missa Cognóvi, Dómine
+        </a>{" "}
+        , excepto:
+      </aside>
+
+      <h3>Oração</h3>
+
+      <div className="side-by-side">
+        <p>
+          Omnípotens et miséricors Deus, qui beátam Joánnam Francíscam, tuo
+          amóre succénsam, admirábili spíritus fortitúdine per omnes vitæ
+          sémitas in via perfectiónis donásti, quique per illam illustráre
+          Ecclésiam tuam nova prole voluísti: ejus méritis et précibus concéde;
+          ut, qui infirmitátis nostræ cónscii de tua virtúte confídimus,
+          cœléstis grátiæ auxílio cuncta nobis adversántia vincámus. Per
+          Dóminum...
+        </p>
+        <p>
+          Deus omnipotente e eterno, que, havendo abrasado no vosso amor a B.
+          Joana Francisca, lhe destes um admirável espírito de fortaleza para
+          seguir em todos os caminhos da vida «a via da perfeição» , e que por
+          ela quisestes ornar a vossa Igreja com uma nova família, permiti,
+          pelos seus méritos e preces, que, tendo nós consciência da nossa
+          fraqueza e pondo a nossa confiança no vosso poder, triunfemos com o
+          auxílio da graça celestial de tudo o que nos é contrário. Por nosso
+          Senhor...
+        </p>
+      </div>
+
+      <h3>Secreta</h3>
+
+      <div className="side-by-side">
+        <p>
+          Illo nos amóris igne, quǽsumus. Dómine, hæc hóstia salutáris
+          inflámmet: quo beátæ Joannæ Francíscæ cor veheménter incéndit, et
+          flammis adússit ætérnæ caritátis. Per Dóminum...
+        </p>
+        <p>
+          Senhor, Vos suplicamos, permiti que esta hóstia salutar nos inflame no
+          fogo daquele amor que abrasou com tanto ardor o coração da B. Joana
+          Francisca e o consumiu nas chamas da eterna caridade. Por nosso
+          Senhor...
+        </p>
+      </div>
+
+      <h3>Postcomúnio</h3>
+
+      <div className="side-by-side">
+        <p>
+          Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos cœléstis panis
+          virtúte satiásti, beáta Joánna Francisca intercedénte, fácias terréna
+          despícere, et te solum Deum pura mente sectári. Per Dóminum...
+        </p>
+        <p>
+          Infundi em nós, Senhor, o espírito da vossa caridade, a fim de que
+          pela intercessão da B. Joana Francisca aqueles que saciastes com o
+          celestial Pão dos fortes desprezem os bens da terra e com o coração
+          puro se unam somente a Vós, ó Deus. Por nosso Senhor...
+        </p>
+      </div>
+    </div>
+  );
+}

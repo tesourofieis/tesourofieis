@@ -1,0 +1,97 @@
+"use dom";
+import "../../../global.css";
+
+import React from "react";
+
+export default function Page0307() {
+  return (
+    <div className="docs">
+      <h1>S. Tomás Aquino, Conf. e Doutor, a 7 de Março</h1>
+
+      <aside>
+        Comemoração S. Tomás de Aquino, Confessor e Doutor da Igreja. Santo
+        Tomás, filho do conde de Aquino e de Theodora de Nápoles, foi confiado,
+        desde a idade de 5 anos, aos monges benedictinos do Monte Cassino.
+        Adolescente, resolveu, não obstante a oposição dos seus, entrar na Ordem
+        de S. Domingos da qual é a maior glória e soube, nesta circumstãncia,
+        vencer tão completamente o demónio impuro que, daí em diante ficou
+        isento das revoltas da carne. Sua inteligência pode, desde logo,
+        penetras as profundezas dos mystérios divinos com o quais Deus lhe
+        iluminou a alma. A Igreja, comparando-o aos espíritos bem-aventurados,
+        por sua inocência e seu génio, outorgou-lhe o título de «Doutor
+        Angélico». «Luz do mundo», o seu ensinamento constitui o eco tão fiel da
+        «palavra e da santa doutrina» do Cristo que o Concílio de Trento colocou
+        a Summa Theologica de Santo Tomás ao lado da Bíblia, na sala das
+        secções. Faleceu num mosteiro Cisterciense de Fossa Nuova quando se
+        dirigia ao Concílio de Lyon, a 7 de Março de 1274. Leão XIII o declarou,
+        por cartas apostólicas, Padroeiro de todas as escolas católicas. Neste
+        tempo em que a liturgia se ocupa com o ministério público de Jesus,
+        peçamos a Santo Tomás que nos penetra de tal modo com o espírito de
+        penitência que possamos, como ele, ter a visão clara dos ensinamentos do
+        Mestre, e pô-los em prática.
+      </aside>
+
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/comum/13doutores">
+          Missa In médio Ecclésiae
+        </a>{" "}
+        , excepto:
+      </aside>
+
+      <h3>Oração</h3>
+
+      <div className="side-by-side">
+        <p>
+          Deus, qui Ecclésiam tuam beáti Thomæ Confessóris tui mira eruditióne
+          claríficas, et sancta operatióne fecúndas: da nobis, quǽsumus; et quæ
+          dócuit, intelléctu conspícere, et quæ egit, imitatióne complére. Per
+          Dóminum nostrum...
+        </p>
+        <p>
+          Ó Deus, que ilustrais a vossa Igreja com a admirável sabedoria do B.
+          Tomás, vosso Confessor, e a fecundais com a santidade das suas acções,
+          concedei-nos, Vos suplicamos, que compreendamos o que ele ensinou e
+          imitemos com as nossas acções o que ele praticou. Por nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Epístola</h3>
+
+      <em>Sb. 7, 7-14</em>
+
+      <div className="side-by-side">
+        <p>Léctio libri Sapiéntiæ.</p>
+        <p>Lição do Livro da Sabedoria.</p>
+        <p>
+          Optávi, et datus est mihi sensus: et invocávi, et venit in me spíritus
+          sapiéntiæ: et præpósui illam regnis et sédibus, et divítias nihil esse
+          duxi in comparatióne illíus: nec comparávi illi lápidem pretiósum:
+          quóniam omne aurum in comparatióne illíus arena est exígua, et tamquam
+          lutum æstimábitur argéntum in conspéctu illíus. Super salútem et
+          spéciem diléxi illam, et propósui pro luce habére illam: quóniam
+          inexstinguíbile est lumen illíus. Venérunt autem mihi ómnia bona
+          páriter cum illa, et innumerábilis honéstas per manus illíus, et
+          lætátus sum in ómnibus: quóniam antecedébat me ista sapiéntia, et
+          ignorábam, quóniam horum ómnium mater est. Quam sine fictióne dídici
+          et sine invídia commúnico, et honestátem illíus non abscóndo.
+          Infinítus enim thesáurus est homínibus: quo qui usi sunt, partícipes
+          facti sunt amicítiæ Dei, propter disciplínæ dona commendáti.
+        </p>
+        <p>
+          Desejei a inteligência, e foi-me dada; invoquei o espírito da
+          sabedoria, e veio a mim. Preferia-a aos reinos e aos tronos; e creio
+          que as riquezas nada são comparadas com ela. Nem mesmo a compararei
+          com as pedras preciosas; pois todo o ouro, comparando-o com ela, é
+          como o grão da areia; e toda a prata, ao pé dela, é desprezível lodo.
+          Amo-a mais do que a saúde e a beleza; e, assim, resolvi tomá-la para
+          minha luz, pois a sabedoria guiava-me, e eu ignorava que ela é a mãe
+          de todos os bens. Conheci a sabedoria sem fingimento e comunico-a sem
+          inveja, não ocultando as suas riquezas. Ela é um tesouro infinito para
+          os homens. Aqueles que a aproveitam tornam-se amigos de Deus e
+          recomendam-se pelos dons da ciência.
+        </p>
+      </div>
+    </div>
+  );
+}

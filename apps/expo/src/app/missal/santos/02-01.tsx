@@ -1,0 +1,137 @@
+"use dom";
+import "../../../global.css";
+
+import React from "react";
+
+export default function Page0201() {
+  return (
+    <div className="docs">
+      <h1>S. Inácio, B. e Márt., a 1 de Fevereiro</h1>
+
+      <h3>Intróito</h3>
+
+      <em>Gl. 6, 14</em>
+
+      <div className="side-by-side">
+        <p>
+          Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi:
+          per quem mihi mundus crucifíxus est, et ego mundo. <em>Ps. 131, 1</em>{" "}
+          Meménto, Dómine, David: et omnis mansuetúdinis ejus. ℣. Gloria
+          Patri...
+        </p>
+        <p>
+          Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de N. S.
+          Jesus Cristo, pela qual o mundo foi crucificado para mim e eu para o
+          mundo. <em>Sl. 131, 1</em> Lembrai-Vos de David, Senhor, assim como da
+          sua mansidão. ℣. Glória ao Pai...
+        </p>
+      </div>
+
+      <h3>Epístola</h3>
+
+      <em>Rm. 8, 35-39</em>
+
+      <div className="side-by-side">
+        <p>Léctio Epistolæ beáti Pauli Apóstoli ad Romános.</p>
+        <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
+        <p>
+          Fratres: Quis nos separábit a cantáte Christi: tribulátio, an
+          angustia, an fames, an núditas, an perículum, an persecútio, an
+          gládius? (sicut scriptum est: Quia propter te mortificámur tota die:
+          æstimáti sumus sicut oves occisiónis). Sed in his ómnibus superámus
+          propter eum, qui diléxit nos. Certus sum enim, quia neque mors, neque
+          vita, neque ángeli, neque principátus, neque virtútes, neque
+          instántia, neque futúra, neque fortitúdo, neque altitúdo, neque
+          profúndum, neque creatúra alia poterit nos separáre a cantáte Dei, quæ
+          est in Christo Jesu, Dómino nostro.
+        </p>
+        <p>
+          Quem nos separará do amor de Cristo? A tribulação, a angústia, a fome,
+          a nudez, os perigos, a perseguição, a espada? Segundo o que está
+          escrito: «Por ti somos entregues à morte todos os dias; somos
+          reputados como ovelhas conduzidas à morte». Mas de todas estas coisas
+          saímos vencedores por Aquele que nos amou. Estou certo de que nem a
+          morte, nem a vida, nem os anjos, nem os príncipes, nem as virtudes,
+          nem as coisas presentes, nem as futuras, nem a força, nem a altura,
+          nem a profundidade, nem nenhuma outra criatura poderá separar-nos do
+          amor de Deus, que está em nosso Senhor Jesus Cristo.
+        </p>
+      </div>
+
+      <h3>Gradual</h3>
+
+      <em>Ecl. 44, 16</em>
+
+      <div className="side-by-side">
+        <p>
+          Ecce sacérdos magnus, qui m diébus suis plácuit Deo. ℣.{" "}
+          <em>Ibid , 20</em> Non est invéntus símilis illi, qui conserváret
+          legem Excélsi.
+        </p>
+        <p>
+          Eis o grande sacerdote que durante a vida agradou a Deus. ℣.{" "}
+          <em>Ibid , 20</em> Não houve quem, como ele, guardasse a observância
+          da Lei do Altíssimo.
+        </p>
+        <p>
+          Allelúja, allelúja. ℣. <em>Gal 2, 19-20</em> Christo confíxus sum
+          Cruci: vivo ego, jam non ego, vivit vero in me Christus. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Gl 2, 19-20</em> Estou crucificado com
+          Cristo. Vivo, mas já não sou eu que vivo: é Cristo que vive em mim.
+          Aleluia.
+        </p>
+      </div>
+
+      <aside>Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se:</aside>
+
+      <h3>Trato</h3>
+
+      <em>Sl. 20, 3-4</em>
+
+      <div className="side-by-side">
+        <p>
+          Desirérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
+          fraudásti eum. ℣. Quoniam prævenísti eum in benedictiónibus
+          dulcedinis. ℣. Posuísti in cápite ejus coronam de lápide pretióso.
+        </p>
+        <p>
+          Satisfizestes os desejos do seu coração e o não iludistes nas preces
+          proferidas por seus lábios. ℣. Vós, Senhor, o enchestes com bênçãos
+          faustosas. ℣. Colocastes na sua cabeça o diadema de ouro.
+        </p>
+      </div>
+
+      <h3>Ofertório</h3>
+
+      <em>Sl. 8, 6-7</em>
+
+      <div className="side-by-side">
+        <p>
+          Glória et honóre coronásti eum: et constituísti eum super ópera mánuum
+          tuárum, Domine.
+        </p>
+        <p>
+          Vós o coroastes, Senhor, com glória e honras: Vós lhe concedestes
+          domínio sobre as obras das vossas mãos.
+        </p>
+      </div>
+
+      <h3>Comúnio</h3>
+
+      <em>Palavras de S. Inácio</em>
+
+      <div className="side-by-side">
+        <p>
+          Fruméntum Christi sum: déntibus bestiárum molar, ut panis mundus
+          invéniar.
+        </p>
+        <p>
+          Sou o trigo de Cristo, que hei-de ser moído nos dentes das feras para
+          me tornar em pão puríssimo.
+        </p>
+      </div>
+    </div>
+  );
+}

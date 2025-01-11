@@ -1,4 +1,4 @@
-import { Stack } from "expo-router";
+import Drawer from "expo-router/drawer";
 
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
 import {
@@ -16,6 +16,8 @@ import * as SplashScreen from "expo-splash-screen";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
 import { ActivityIndicator, Platform, Text, View } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import CustomDrawerContent from "~/components/CustomDrawer";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
 import { COLORS } from "../constants/Colors";
@@ -45,11 +47,13 @@ export default function PageRootLayout() {
   }
 
   return (
-    <CalendarProvider>
-      <NotificationsProvider>
-        <RootLayoutNav />
-      </NotificationsProvider>
-    </CalendarProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <CalendarProvider>
+        <NotificationsProvider>
+          <RootLayoutNav />
+        </NotificationsProvider>
+      </CalendarProvider>
+    </GestureHandlerRootView>
   );
 }
 
@@ -85,26 +89,26 @@ function RootLayoutNav() {
 
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
-      <Stack>
-        <Stack.Screen
+      <Drawer
+        drawerContent={(props) => <CustomDrawerContent {...props} />}
+        screenOptions={{
+          headerTitle: Header,
+          headerStyle: {
+            backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+          },
+        }}
+      >
+        <Drawer.Screen
           name="(tabs)"
           options={{
+            headerTitle: Header,
+            drawerLabel: "Home",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: Header,
           }}
         />
-        <Stack.Screen
-          name="(docs)"
-          options={{
-            headerStyle: {
-              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-            },
-            headerTitle: Header,
-          }}
-        />
-      </Stack>
+      </Drawer>
     </ThemeProvider>
   );
 }

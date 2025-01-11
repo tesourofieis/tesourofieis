@@ -1,0 +1,224 @@
+"use dom";
+import "../../../global.css";
+
+import React from "react";
+
+export default function PagePent190() {
+  return (
+    <div className="docs">
+      <h1>Décimo Nono Domingo depois de Pentecostes</h1>
+
+      <h3>Intróito</h3>
+
+      <div className="side-by-side">
+        <p>
+          Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
+          clamáverint ad me, exáudiam eos: et ero illórum Dóminus in perpétuum.{" "}
+          <em>Ps. 77, 1</em> Attendite, pópule meus, legem meam: inclináte aurem
+          vestram in verba oris mei. ℣. Gloria Patri...
+        </p>
+        <p>
+          Sou a salvação do povo, diz o Senhor; em qualquer tribulação clamarão
+          por mim e ouvi-los-ei, pois serei o seu Senhor eternamente.{" "}
+          <em>Sl. 77, 1</em> Sede atentos à minha Lei, ó meu povo; escutai as
+          palavras que saem da minha boca. ℣. Glória ao Pai...
+        </p>
+      </div>
+
+      <h3>Oração</h3>
+
+      <div className="side-by-side">
+        <p>
+          Omnípotens et miséricors Deus, univérsa nobis adversántia propitiátus
+          exclúde: ut mente et córpore páriter expedíti, quæ tua sunt, líberis
+          méntibus exsequámur. Per Dóminum...
+        </p>
+        <p>
+          Ó Deus omnipotente e misericordioso, afastai benignamente de nós tudo
+          quanto se opõe à salvação, a fim de que, estando a nossa alma e o
+          nosso corpo livres de todos os obstáculos, possamos com inteira
+          liberdade de espírito cumprir o que diz respeito ao vosso serviço. Por
+          nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Epístola</h3>
+
+      <em>Ef. 4, 23-28</em>
+
+      <div className="side-by-side">
+        <p>Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.</p>
+        <p>Lição da Ep.ª do B. Ap.º Paulo aos Efésios.</p>
+        <p>
+          Fratres: Renovámini spíritu mentis vestræ, et indúite novum hóminem,
+          qui secúndum Deum creátus est in justítia et sanctitáte veritátis.
+          Propter quod deponéntes mendácium, loquímini veritátem unusquísque cum
+          próximo suo: quóniam sumus ínvicem membra. Irascímini, et nolíte
+          peccáre: sol non occídat super iracúndiam vestram. Nolíte locum dare
+          diábolo: qui furabátur, jam non furétur; magis autem labóret, operándo
+          mánibus suis, quod bonum est, ut hábeat, unde tríbuat necessitátem
+          patiénti.
+        </p>
+        <p>
+          Meus irmãos: Renovai-vos no íntimo da vossa alma e revesti-vos do
+          «homem novo», que foi criado à semelhança de Deus na justiça e
+          santidade verdadeiras. Eis porque deveis renunciar à mentira, e falar
+          a cada um, nas relações com o próximo, segundo a verdade, pois somos
+          todos membros uns dos outros. Se vos irardes, que seja sem pecar; e
+          que o sol se não esconda sem que a vossa ira desapareça. Não deis
+          lugar no vosso coração ao demónio. Aquele que furtava não torne a
+          furtar, mas trabalhe, empregando as mãos em alguma obra boa e útil,
+          para socorrer os que padecem de necessidade.
+        </p>
+      </div>
+
+      <h3>Gradual</h3>
+
+      <em>Sl. 140, 2</em>
+
+      <div className="side-by-side">
+        <p>
+          Dirigátur orátio mea, sicut Incénsum in conspéctu tuo, Dómine. ℣.
+          Elevatio mánuum meárum sacrifícium vespertínum.
+        </p>
+        <p>
+          Que a minha oração, Senhor, chegue até Vós, como perfume de incenso:
+          ℣. E que minhas mãos erguidas Vos sejam agradáveis, como o sacrifício
+          vespertino.
+        </p>
+        <p>
+          Allelúja, allelúja. ℣. <em>Ps. 104, 1</em> Confitémini Dómino, et
+          invocáte nomen ejus: annuntiáte inter gentes ópera ejus. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Sl. 104, 1</em> Louvai o Senhor e invocai o
+          seu nome: publicai as suas obras em todos os povos. Aleluia.
+        </p>
+      </div>
+
+      <h3>Evangelho</h3>
+
+      <em>Mt. 22, 1-14</em>
+
+      <div className="side-by-side">
+        <p>
+          <span className="cross text-red-500">✠</span> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
+        </p>
+        <p>
+          <span className="cross text-red-500">✠</span> Continuação do santo
+          Evangelho segundo S. Mateus.
+        </p>
+        <p>
+          In illo témpore: Loquebátur Jesus princípibus sacerdótum et pharisǽis
+          in parábolis, dicens: Símile factum est regnum cœlórum hómini regi,
+          qui fecit núptias fílio suo. Et misit servos suos vocáre invitátos ad
+          nuptias, et nolébant veníre. Iterum misit álios servos, dicens: Dícite
+          invitátis: Ecce, prándium meum parávi, tauri mei et altília occísa
+          sunt, et ómnia paráta: veníte ad núptias. Illi autem neglexérunt: et
+          abiérunt, álius in villam suam, álius vero ad negotiatiónem suam:
+          réliqui vero tenuérunt servos ejus, et contuméliis afféctos
+          occidérunt. Rex autem cum audísset, iratus est: et, missis exercítibus
+          suis, pérdidit homicídas illos et civitátem illórum succéndit. Tunc
+          ait servis suis: Núptiæ quidem parátæ sunt, sed, qui invitáti erant,
+          non fuérunt digni. Ite ergo ad exitus viárum et, quoscúmque
+          invenéritis, vocáte ad núptias. Et egréssi servi ejus in vias,
+          congregavérunt omnes, quos invenérunt, malos et bonos: et implétæ sunt
+          núptiæ discumbéntium. Intrávit autem rex, ut vidéret discumbéntes, et
+          vidit ibi hóminem non vestítum veste nuptiáli. Et ait illi: Amíce,
+          quómodo huc intrásti non habens vestem nuptiálem? At ille obmútuit.
+          Tunc dixit rex minístris: Ligátis mánibus et pédibus ejus, míttite eum
+          in ténebras exterióres: ibi erit fletus et stridor déntium. Multi enim
+          sunt vocáti, pauci vero elécti.
+        </p>
+        <p>
+          Naquele tempo, falando Jesus aos príncipes dos sacerdotes e aos
+          fariseus por meio de parábolas, disse-lhes: O reino dos céus é
+          semelhante a um rei que, que rendo celebrar as bodas do filho, mandou
+          os servos chamar aqueles que haviam sido convidados para assistir.
+          Eles, porém, não quiseram vir. Novamente mandou outros servos com esta
+          participação: «Preparei o banquete; estão já mortos os bois e os
+          animais gordos; tudo está preparado; vinde, pois, às bodas». Mas
+          nenhuma atenção lhes dispensaram; e um foi para a sua casa de campo,
+          outro para os seus negócios, e ainda outros detiveram os servos,
+          ultrajando-os e matando-os. Então o rei, tendo conhecimento do que se
+          passara, ficou cheio de ira e mandou os seus exércitos matar os
+          assassinos e queimar a sua cidade. Depois disse aos servos: «As bodas
+          estão preparadas, mas aqueles que haviam sido convidados não eram
+          dignos. Ide vós, pois, pelas encruzilhadas dos caminhos e chamai para
+          as bodas todos quantos encontrardes». Saíram os servos pelos caminhos
+          e reuniram todos quantos encontraram, quer bons, quer maus, ficando
+          cheia de convivas a sala das bodas. Entretanto o rei entrou para ver
+          os que estavam. E tendo visto um dos convivas sem as vestes das bodas,
+          disse-lhe: «Amigo, como te atreveste a entrar sem a veste das bodas?».
+          O conviva guardou silêncio. Então o rei disse aos servos: «Amarrai-o
+          de pés e mãos e lançai-o fora nas trevas, nesse lugar de choro e de
+          ranger de dentes; pois muitos são os chamados, mas poucos os
+          escolhidos».
+        </p>
+      </div>
+
+      <h3>Ofertório</h3>
+
+      <em>Sl. 137, 7</em>
+
+      <div className="side-by-side">
+        <p>
+          Si ambulávero in médio tribulatiónis, vivificábis me, Dómine: et super
+          iram inimicórum meórum exténdes manum tuam, et salvum me fáciet
+          déxtera tua.
+        </p>
+        <p>
+          Quando estiver na tribulação, dar-me-eis a vida, Senhor! Estendereis a
+          vossa mão contra o furor dos meus inimigos: e serei salvo pela vossa
+          dextra.
+        </p>
+      </div>
+
+      <h3>Secreta</h3>
+
+      <div className="side-by-side">
+        <p>
+          Hæc múnera, quǽsumus, Dómine, quæ óculis tuæ majestátis offérimus,
+          salutária nobis esse concéde. Per Dóminum...
+        </p>
+        <p>
+          Senhor, permiti que estes dons, que colocamos diante da vossa
+          majestade, sejam úteis à nossa salvação. Por nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Comúnio</h3>
+
+      <em>Sl. 118,4-5</em>
+
+      <div className="side-by-side">
+        <p>
+          Tu mandásti mandáta tua custodíri nimis: útinam dirigántur viæ meæ, ad
+          custodiéndas justificatiónes tuas.
+        </p>
+        <p>
+          Ordenastes que os vossos mandamentos fossem cabalmente cumpridos:
+          dignai-Vos, pois, dirigir os meus passos, para que sigam o caminho das
+          vossas ordens.
+        </p>
+      </div>
+
+      <h3>Postcomúnio</h3>
+
+      <div className="side-by-side">
+        <p>
+          Tua nos, Dómine, medicinális operátio, et a nostris perversitátibus
+          cleménter expédiat, et tuis semper fáciat inhærére mandátis. Per
+          Dóminum...
+        </p>
+        <p>
+          Permiti, Senhor, que as operações da vossa graça nos sirvam de remédio
+          contra as perversidades; e, pela vossa clemência, dignai-Vos
+          livrar-nos das más inclinações e manter-nos no cumprimento dos vossos
+          mandamentos. Por nosso Senhor...
+        </p>
+      </div>
+    </div>
+  );
+}

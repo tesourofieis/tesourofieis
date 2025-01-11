@@ -1,0 +1,203 @@
+"use dom";
+import "../../../global.css";
+
+import React from "react";
+
+export default function Page0730() {
+  return (
+    <div className="docs">
+      <h1>S. S. Ábdon e Senen, Mártires, a 30 de Julho</h1>
+
+      <aside>
+        Abdon e Sennen, nascidos na Pérsia, «foram presos e conduzidos a Roma,
+        no tempo do imperador Valeriano. Espancados com cordas munidas de
+        chumbo, foram, em seguida, degolados» (Martirológio romano). Era nos
+        meados do século III (A. D. 254).
+      </aside>
+
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/comum/6muitosmartires1">
+          Missa Intret in
+        </a>{" "}
+        , excepto:
+      </aside>
+
+      <h3>Oração</h3>
+
+      <div className="side-by-side">
+        <p>
+          Deus, qui sanctis tuis Abdon et Sennen ad hanc glóriam veniéndi
+          copiósum munus grátiæ contulísti: da fámulis tuis suorum véniam
+          peccatórum; ut, Sanctórum tuórum intercedéntibus méritis, ab ómnibus
+          mereántur adversitátibus liberáti. Per Dóminum...
+        </p>
+        <p>
+          Ó Deus, que conferistes aos vossos Santos Ábdon e Senen os tesouros
+          abundantes da vossa graça para poderem alcançar a glória, concedei aos
+          vossos servos o perdão dos seus pecados, a fim de que pelo valor dos
+          méritos dos vossos Santos mereçamos ser livres de todas as
+          adversidades. Por nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Epístola</h3>
+
+      <em>2 Cor. 6, 4-10</em>
+
+      <div className="side-by-side">
+        <p>Lectio Epístolæ beati Pauli Apostoli ad Corinthios.</p>
+        <p>Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.</p>
+        <p>
+          Fratres: Exhibeámus nosmetípsos sicut Dei minístros, in multa
+          patiéntia, in tribulatiónibus, in necessitátibus, in angústiis, in
+          plagis, in carcéribus, in seditiónibus, in labóribus, in vigíliis, in
+          jejúniis, in castitáte, in sciéntia, in longanimitáte, in suavitáte,
+          in Spíritu Sancto, in caritáte non ficta, in verbo veritátis, in
+          virtúte Dei, per arma justítiæ a dextris et a sinístris: per glóriam
+          et ignobilitátem: per infámiam et bonam famam: ut seductóres et
+          veráces: sicut qui ignóti et cógniti: quasi moriéntes et ecce,
+          vívimus: ut castigáti et non mortificáti: quasi tristes, semper autem
+          gaudéntes: sicut egéntes, multos autem locupletántes: tamquam nihil
+          habéntes et ómnia possidéntes.
+        </p>
+        <p>
+          Meus irmãos: Mostremo-nos dignos ministros de Deus em todas as coisas,
+          principalmente com muita paciência, tanto nas tribulações, nas
+          necessidades, nas angústias, nos açoites, nas prisões, nas revoltas,
+          nas fadigas, nas vigílias e nos jejuns, como pela pureza, pela
+          ciência, pela longanimidade, pela bondade, pelo Espírito Santo, pela
+          verdadeira caridade, pela palavra da verdade, pelo poder de Deus,
+          pelas armas da justiça com que combatemos à direita e à esquerda; na
+          honra e na ignomínia; na boa e na má fama; sendo julgados sedutores,
+          ainda que sejamos sinceros e verdadeiros; sendo julgados
+          desconhecidos, e, contudo, sendo bastante conhecidos; sendo
+          considerados moribundos, e, contudo, estando bem vivos; sendo
+          considerados condenados, e, contudo, escapando à morte; sendo julgados
+          tristes, mas estando alegres; sendo julgados pobres, mas enriquecendo
+          muitos; sendo considerados como não tendo nada, mas possuindo tudo.
+        </p>
+      </div>
+
+      <h3>Gradual</h3>
+
+      <em>Ex. 15, 11</em>
+
+      <div className="side-by-side">
+        <p>
+          Gloriosus Deus in Sanctis suis: mirábilis in majestáte, fáciens
+          prodígia. ℣. <em>ibid., 6</em> Déxtera tua, Dómine, glorificáta est in
+          virtúte: déxtera manus tua confrégit inimícos.
+        </p>
+        <p>
+          Deus é glorioso em seus Santos: e admirável na sua majestade,
+          praticando prodígios. ℣. <em>ibid., 6</em> Senhor, a vossa dextra
+          engrandeceu-se pela sua força: a vossa dextra esmagou os inimigos.
+        </p>
+        <p>
+          Allelúja, allelúja. ℣. <em>Sap. 3, 1</em> Justórum ánimæ in manu Dei
+          sunt, et non tanget illos torméntum malítiæ. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Sb. 3, 1</em> As almas dos justos estão nas
+          mãos de Deus e o tormento da malícia os não ferirá. Aleluia.
+        </p>
+      </div>
+
+      <h3>Evangelho</h3>
+
+      <em>Mt. 5, 1-12</em>
+
+      <div className="side-by-side">
+        <p>
+          <span className="cross text-red-500">✠</span> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
+        </p>
+        <p>
+          <span className="cross text-red-500">✠</span> Continuação do santo
+          Evangelho segundo S. Mateus.
+        </p>
+        <p>
+          In illo témpore: Videns Jesus turbas, ascéndit in montem, et cum
+          sedísset, accessérunt ad eum discípuli ejus, et apériens os suum,
+          docébat eos, dicens: Beáti páuperes spíritu: quóniam ipsórum est
+          regnum cœlórum. Beáti mites: quóniam ipsi possidébunt terram. Beáti,
+          qui lugent: quóniam ipsi consolabúntur. Beáti, qui esúriunt et sítiunt
+          justítiam: quóniam ipsi saturabúntur. Beáti misericórdes: quóniam ipsi
+          misericórdiam consequántur. Beáti mundo corde: quóniam ipsi Deum
+          vidébunt. Beáti pacífici: quóniam fílii Dei vocabúntur. Beáti, qui
+          persecutiónem patiúntur propter justítiam: quóniam ipsórum est regnum
+          cœlórum. Beáti estis, cum maledíxerint vobis, et persecúti vos
+          fúerint, et díxerint omne malum advérsum vos, mentiéntes, propter me:
+          gaudete et exsultáte, quóniam merces vestra copiósa est in cœlis.
+        </p>
+        <p>
+          Naquele tempo, vendo Jesus as turbas do povo, que O seguiam, subiu
+          para uma montanha. Então assentou-se, aproximando-se d’Ele os
+          discípulos. Depois, tomando a palavra, ensinou assim aos discípulos:
+          «Bem-aventurados os pobres de espírito, porque deles é o reino dos
+          céus. Bem-aventurados os mansos, porque possuirão a terra.
+          Bem-aventurados os que choram, porque serão consolados.
+          Bem-aventurados os que têm fome e sede de justiça, porque serão
+          saciados. Bem-aventurados os misericordiosos, porque serão tratados
+          com misericórdia. Bem-aventurados os que possuem o coração puro,
+          porque verão Deus. Bem-aventurados os pacíficos, porque serão chamados
+          filhos de Deus. Bem-aventurados os que padecem perseguição por amor da
+          justiça, porque lhes pertencerá o reino dos céus. Bem-aventurados vós,
+          quando os homens vos amaldiçoarem, perseguirem e caluniarem por minha
+          causa. Regozijai-vos, então, e exultai de alegria, pois uma copiosa
+          recompensa vos está preparada no céu».
+        </p>
+      </div>
+
+      <h3>Secreta</h3>
+
+      <div className="side-by-side">
+        <p>
+          Hæc hóstia, quǽsumus, Dómine, quam sanctórum Mártyrum tuórum natalítia
+          recenséntes offérimus: et víncula nostræ pravitátis absolvat, et tuæ
+          nobis misericórdiæ dona concíliet. Per Dóminum...
+        </p>
+        <p>
+          Senhor, Vos suplicamos, fazei que esta hóstia, que Vos oferecemos em
+          honra do nascimento no céu dos vossos Santos Mártires, nos livre das
+          cadeias dos nossos pecados e nos alcance os dons da vossa
+          misericórdia. Por nosso Senhor...
+        </p>
+      </div>
+
+      <h3>Comúnio</h3>
+
+      <em>Sl. 78, 2 & 11</em>
+
+      <div className="side-by-side">
+        <p>
+          Posuérunt mortália servórum tuórum, Dómine, escas volatílibus cœli,
+          carnes Sanctórum tuórum béstiis terræ: secúndum magnitúdinem bráchii
+          tui pósside fílios morte punitórum.
+        </p>
+        <p>
+          Senhor, deram como alimento às aves do céu os corpos dos vossos
+          servos, que haviam sido mortos, e deram as carnes dos vossos Santos às
+          feras da terra. Pelo poder do vosso braço Conservai os filhos daqueles
+          que foram mortos.
+        </p>
+      </div>
+
+      <h3>Postcomúnio</h3>
+
+      <div className="side-by-side">
+        <p>
+          Per hujus, Dómine, operationem mystérii, et vitia nostra purgéntur:
+          et, intercedéntibus sanctis Martyribus tuis Abdon et Sennen, justa
+          desidéria compleántur. Per Dóminum...
+        </p>
+        <p>
+          Fazei, Senhor, pela virtude deste mystério, que os nossos vícios sejam
+          apagados e que, pela intercessão dos vossos Santos Mártires Ábdon e
+          Senen, sejam realizados os nossos justos desejos. Por nosso Senhor...
+        </p>
+      </div>
+    </div>
+  );
+}

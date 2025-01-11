@@ -1,0 +1,113 @@
+"use dom";
+import "../../../global.css";
+
+import React from "react";
+
+export default function PageEspiritosanto() {
+  return (
+    <div className="docs">
+      <h1>Missa do Espírito Santo</h1>
+
+      <aside>
+        Como na{" "}
+        <a className="link" href="/missal/pentecostes/pasc7-0">
+          Missa do Domingo de Pentecostes
+        </a>{" "}
+        , excepto:
+      </aside>
+
+      <h3>Epístola</h3>
+
+      <em>Act. 8, 14-17</em>
+
+      <div className="side-by-side">
+        <p>Léctio Actuum Apostólorum.</p>
+        <p>Lição dos Actos dos Apóstolos.</p>
+        <p>
+          In diébus illis: Cum audíssent Apóstoli, qui erant Jerosólymis, quod
+          recepísset Samaría verbum Dei, misérunt ad eos Petrum et Joánnem. Qui
+          cum veníssent, oravérunt pro ipsis, ut accíperent Spíritum Sanctum:
+          nondum enim in quemquam illórum vénerat, sed baptizáti tantum erant in
+          nómine Dómini Jesu. Tunc imponébant manus super illos, et accipiébant
+          Spíritum Sanctum.
+        </p>
+        <p>
+          Naqueles dias, quando os Apóstolos, que estavam em Jerusalém, souberam
+          que a Samaria recebera a palavra de Deus, enviaram lá Pedro e João, os
+          quais, apenas lá chegaram, oraram por aqueles, para que recebessem o
+          Espírito Santo que não havia descido sobre nenhum deles; porquanto
+          haviam sido baptizados somente em nome do Senhor Jesus. Então
+          impuseram-lhes as mãos e eles receberam o Espírito Santo.
+        </p>
+      </div>
+
+      <h3>Gradual</h3>
+
+      <em>Sl. 32, 12 & 6</em>
+
+      <div className="side-by-side">
+        <p>
+          Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus
+          in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et Spíritu
+          oris ejus omnis virtus eórum.
+        </p>
+        <p>
+          Bem-aventurado o povo cujo Deus é o Senhor! Bem-aventurado o povo que,
+          escolheu o Senhor para sua herança. A palavra do Senhor criou os céus;
+          e o sopro dos seus lábios criou toda a milícia celestial.
+        </p>
+        <p>
+          Allelúja, allelúja. <em>hic genuflectitur</em> ℣. Veni, Sancte
+          Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem
+          accénde. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. <em>Genuflecte-se</em> Vinde, Espírito Santo, enchei
+          os corações dos vossos fiéis e acendei neles o fogo do vosso amor.
+          Aleluia.
+        </p>
+      </div>
+
+      <aside>
+        Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
+        diz-se o:
+      </aside>
+
+      <h3>Trato</h3>
+
+      <em>Sl. 103, 30</em>
+
+      <div className="side-by-side">
+        <p>
+          Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ. ℣. O
+          quam bonus et suávis est, Dómine, Spíritus tuus in nobis!{" "}
+          <em>hic genuflectitur</em> ℣. Veni, Sancte Spíritus, reple tuórum
+          corda fidélium: et tui amóris in eis ignem accénde.
+        </p>
+        <p>
+          Enviai o vosso Espírito e eles serão criados: e renovarão a face da
+          terra. ℣. Ó Senhor, como é bom e suave o vosso Espírito dentro de nós!{" "}
+          <em>Genuflecte-se</em> ℣. Vinde, Espírito Santo, enchei os corações
+          dos vossos fiéis e acendei neles o fogo do vosso amor.
+        </p>
+      </div>
+
+      <aside>No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:</aside>
+
+      <div className="side-by-side">
+        <p>
+          Allelúja, allelúja. ℣. <em>Ps. 103, 30</em> Emítte Spíritum tuum, et
+          creabúntur: et renovábis fáciem terræ. Allelúja.{" "}
+          <em>hic genuflectitur</em> ℣. Veni, Sancte Spíritus, reple tuórum
+          corda fidélium: et tui amóris in eis ignem accénde. Allelúja.
+        </p>
+        <p>
+          Aleluia, aleluia. ℣. <em>Sl. 103, 30</em> Enviai o vosso Espírito e
+          eles serão criados: e renovarão a face da terra. Aleluia.{" "}
+          <em>Genuflecte-se</em> ℣. Vinde, Espírito Santo, enchei os corações
+          dos vossos fiéis e acendei neles o fogo do vosso amor. Aleluia.
+        </p>
+      </div>
+    </div>
+  );
+}
