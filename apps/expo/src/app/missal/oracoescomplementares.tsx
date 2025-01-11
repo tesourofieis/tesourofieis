@@ -1,6 +1,7 @@
 "use dom";
 import "../../global.css";
 
+import { Link } from "expo-router";
 import React from "react";
 import AdoroTeDevote from "../canticos/sacros/adorote";
 import Benedicite from "../canticos/sacros/benedicite";
@@ -260,9 +261,9 @@ export default function PageOracoescomplementares() {
         plenária.
       </aside>
       !
-      <a className="link" href="../../../assets/cross.png">
+      <Link className="link" href="../../../assets/cross.png">
         Jesus Cristo Crucificado
-      </a>
+      </Link>
       <div className="side-by-side">
         <p>
           En ego, o bone et dulcíssime Jesu, ante conspéctum tuum génibus me

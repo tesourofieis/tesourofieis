@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -351,9 +352,9 @@ export default function Page1102() {
       </div>
       2.ª Missa, como a [Missa do Dia do
       Aniversário](/ritual/requiem#no-dia-do-aniversário). 3.ª Missa, como a
-      <a className="link" href="/ritual/requiem#quotidiana">
+      <Link className="link" href="/ritual/requiem#quotidiana">
         Missa Quotidiana
-      </a>{" "}
+      </Link>{" "}
       , omitindo-se a 1.ª e 3.ª Oração, Secreta e Postcomúnio.
     </div>
   );

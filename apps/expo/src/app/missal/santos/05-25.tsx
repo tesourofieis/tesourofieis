@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -31,9 +32,9 @@ export default function Page0525() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/comum/sumospontifices">
+        <Link className="link" href="/missal/comum/sumospontifices">
           Missa Si díligis me
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
 
@@ -59,9 +60,9 @@ export default function Page0525() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/comum/sumospontifices">
+        <Link className="link" href="/missal/comum/sumospontifices">
           Missa Si díligis me
-        </a>{" "}
+        </Link>{" "}
         , excepto: Da mesma Missa Si díligis me, sendo a Oração a que está em
         primeiro lugar e a Secreta e Postcomúnio as que estão em segundo lugar.
       </aside>

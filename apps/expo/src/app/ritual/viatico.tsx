@@ -1,6 +1,7 @@
 "use dom";
 import "../../global.css";
 
+import { Link } from "expo-router";
 import React from "react";
 import AspergesMe from "../missal/aspergesme";
 
@@ -21,11 +22,11 @@ export default function PageViatico() {
         </p>
       </div>
       <h1>Asperges Me</h1>
-      <AspergesMe />O Acólito diz o Confiteor Deo... (como na página
-      <a className="link" href="/devocionario/oracoes/confesso)">
-        confiteor
-      </a>{" "}
-      ; e o Sacerdote, tendo dado as Absolvições, continua:
+      <AspergesMe />O Acólito diz o Confiteor Deo...
+      <Link className="link" href="/devocionario/oracoes/confesso">
+        (como na página confiteor);
+      </Link>{" "}
+      e o Sacerdote, tendo dado as Absolvições, continua:
       <h1>Recepção da Comunhão</h1>
       <div className="side-by-side">
         <p>℣. Ecce Agnus Dei, ecce qui tollit peccáta mundi.</p>

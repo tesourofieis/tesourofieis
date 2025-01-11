@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -9,9 +10,9 @@ export default function Page0716Beja() {
       <h1>S. Sisenando, Mártir, a 16 de Julho, Na Diocese de Beja</h1>
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/comum/4martirnaopontifice1">
+        <Link className="link" href="/missal/comum/4martirnaopontifice1">
           Missa In virtúte tua
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
       <h3>Oração</h3>Ó omnipotente Deus, que ao B. Levita Sisenando destes

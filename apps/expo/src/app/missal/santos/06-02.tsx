@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -169,9 +170,9 @@ export default function Page0602() {
 
       <aside>
         No T. Pascal será a{" "}
-        <a className="link" href="/missal/comum/10martires">
+        <Link className="link" href="/missal/comum/10martires">
           Missa Sancti tui
-        </a>{" "}
+        </Link>{" "}
         , com as Orações e Epístola da Missa Precedente; e, em vez do Gradual,
         diz-se:
       </aside>

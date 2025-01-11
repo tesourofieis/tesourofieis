@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -9,9 +10,9 @@ export default function Page0416LisboaGuarda() {
       <h1>S. Engrácia, Virgem e Mártir, a 16 de Abril</h1>
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/comum/20virgemnaomartir1">
+        <Link className="link" href="/missal/comum/20virgemnaomartir1">
           Missa Loquébar
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
       <h3>Oração</h3>Ó Deus omnipotente e sempiterno, que escolheis os fracos do

@@ -1,6 +1,7 @@
 "use dom";
 import "../../global.css";
 
+import { Link } from "expo-router";
 import React from "react";
 import AspergesMe from "./../missal/aspergesme";
 
@@ -146,9 +147,9 @@ export default function PageExtremauncao() {
         </p>
       </div>
       O Acólito diz o{" "}
-      <a className="link" href="/devocionario/oracoes/confesso">
+      <Link className="link" href="/devocionario/oracoes/confesso">
         Confiteor Deo...
-      </a>{" "}
+      </Link>{" "}
       e o Sacerdote, tendo dado as Absolvições, continua:
       <div className="side-by-side">
         <p>

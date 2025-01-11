@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -10,13 +11,13 @@ export default function Page1230() {
 
       <aside>
         Intróito, Oração, Gradual, Ofertório, Comúnio e Postcomúnio como na
-        <a className="link" href="/missal/santos/12-25-3">
+        <Link className="link" href="/missal/santos/12-25-2">
           Terceira Missa do Natal
-        </a>{" "}
+        </Link>{" "}
         . Epístola e Evangelho como na{" "}
-        <a className="link" href="/missal/santos/12-25-2">
+        <Link className="link" href="/missal/santos/12-25-1">
           Segunda Missa do Natal
-        </a>{" "}
+        </Link>{" "}
         .
       </aside>
     </div>

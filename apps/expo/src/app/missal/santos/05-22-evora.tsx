@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -9,9 +10,9 @@ export default function Page0522Evora() {
       <h1>Dedicação da Catedral de Évora, a 22 de Maio</h1>
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/comum/25dedicacaoigreja">
+        <Link className="link" href="/missal/comum/25dedicacaoigreja">
           Missa Terríbilis est
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
       <h3>Intróito</h3>

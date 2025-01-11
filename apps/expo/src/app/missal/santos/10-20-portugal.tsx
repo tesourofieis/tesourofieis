@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -9,9 +10,9 @@ export default function Page1020Portugal() {
       <h1>Santa Iria, Virgem e Mártir, a 20 de Outubro, Nalgumas Dioceses</h1>
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/comum/18virgensmartires2">
+        <Link className="link" href="/missal/comum/18virgensmartires2">
           Missa Me exspectavérunt
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
       <h3>Oração</h3>Ó Deus, que por um sinal celestial livrastes da infâmia a

@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -130,9 +131,9 @@ export default function Page0212() {
 
       <aside>
         Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se o Trato da
-        <a className="link" href="/missal/comum/8muitosmartires3">
+        <Link className="link" href="/missal/comum/8muitosmartires3">
           Missa Salus autem
-        </a>{" "}
+        </Link>{" "}
         .
       </aside>
 

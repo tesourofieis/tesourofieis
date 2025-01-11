@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../global.css";
 
 import React from "react";
@@ -12,9 +13,9 @@ export default function PageRequiem() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/santos/11-02">
+        <Link className="link" href="/missal/santos/11-02">
           Comemoração dos Fiéis Defuntos
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
 
@@ -159,9 +160,12 @@ export default function PageRequiem() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="#no-dia-do-óbito-ou-do-funeral">
+        <Link
+          className="link"
+          href="/ritual/requiem#no-dia-do-óbito-ou-do-funeral"
+        >
           Missa precedente
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
 
@@ -228,9 +232,9 @@ export default function PageRequiem() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/santos/11-02">
+        <Link className="link" href="/missal/santos/11-02">
           Comemoração dos Fiéis Defuntos
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
 
@@ -362,9 +366,9 @@ export default function PageRequiem() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/santos/11-02">
+        <Link className="link" href="/missal/santos/11-02">
           Comemoração dos Fiéis Defuntos
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
 

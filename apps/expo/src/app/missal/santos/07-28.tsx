@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -20,9 +21,9 @@ export default function Page0728() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/comum/6muitosmartires1">
+        <Link className="link" href="/missal/comum/6muitosmartires1">
           Missa Intret in
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
 

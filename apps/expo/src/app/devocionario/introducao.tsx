@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../global.css";
 
 import React from "react";
@@ -22,25 +23,25 @@ export default function PageIntroducao() {
         nesta noite; ofereço-Vos todas minhas acções, e peço-Vos que neste dia
         me preserveis do pecado, e me livreis de todo o mal. Assim seja». E
         rezar depois o{" "}
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai-Nosso
-        </a>{" "}
+        </Link>{" "}
         , a
-        <a className="link" href="/devocionario/oracoes/avemaria">
+        <Link className="link" href="/devocionario/oracoes/avemaria">
           Ave-Maria
-        </a>{" "}
+        </Link>{" "}
         , o
-        <a className="link" href="/devocionario/oracoes/simboloapostolos">
+        <Link className="link" href="/devocionario/oracoes/simboloapostolos">
           Credo
-        </a>{" "}
+        </Link>{" "}
         , e os [Actos de Fé](/devocionario/oracoes/actofe), de
-        <a className="link" href="/devocionario/oracoes/actoesperanca">
+        <Link className="link" href="/devocionario/oracoes/actoesperanca">
           Esperança
-        </a>{" "}
+        </Link>{" "}
         e de
-        <a className="link" href="/devocionario/oracoes/actocaridade">
+        <Link className="link" href="/devocionario/oracoes/actocaridade">
           Caridade
-        </a>{" "}
+        </Link>{" "}
         , acompanhando-os com um vivo afecto do coração.
       </p>
 
@@ -51,9 +52,12 @@ export default function PageIntroducao() {
       </p>
 
       <p>
-        <a className="link" href="/devocionario/dia/bencaos#antes-do-trabalho">
+        <Link
+          className="link"
+          href="/devocionario/dia/bencaos#antes-do-trabalho"
+        >
           Antes do trabalho
-        </a>{" "}
+        </Link>{" "}
         , convém oferecê-lo a Deus, dizendo do coração: «Senhor, eu Vos ofereço
         este trabalho, dai-me a vossa bênção». Deve-se trabalhar para glória de
         Deus e para fazer a sua vontade. Antes da refeição, convém fazer o sinal
@@ -82,13 +86,13 @@ export default function PageIntroducao() {
       <p>
         Ao toque das Ave-Marias pela manhã, ao meio-dia e à noite, o bom cristão
         recita o{" "}
-        <a className="link" href="/devocionario/dia/angelus">
+        <Link className="link" href="/devocionario/dia/angelus">
           Anjo do Senhor «Angelus»
-        </a>{" "}
+        </Link>{" "}
         com três Ave-Marias.{" "}
-        <a className="link" href="/devocionario/dia/oracaonoite">
+        <Link className="link" href="/devocionario/dia/oracaonoite">
           À noite
-        </a>{" "}
+        </Link>{" "}
         , antes de se deitar, convém pôr-se, como de manhã, na presença de Deus,
         recitar devotamente as mesmas orações, fazer um breve exame de
         consciência, e pedir perdão a Deus dos pecados cometidos durante o dia.

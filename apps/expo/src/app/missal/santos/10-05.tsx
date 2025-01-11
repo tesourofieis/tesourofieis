@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -10,21 +11,24 @@ export default function Page1005() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/comum/8muitosmartires3">
+        <Link className="link" href="/missal/comum/8muitosmartires3">
           Missa Salus autem
-        </a>{" "}
+        </Link>{" "}
         , excepto
-        <a className="link" href="/missal/comum/7muitosmartires2#oração">
+        <Link className="link" href="/missal/comum/7muitosmartires2#oração">
           Oração
-        </a>{" "}
+        </Link>{" "}
         ,
-        <a className="link" href="/missal/comum/7muitosmartires2#secreta">
+        <Link className="link" href="/missal/comum/7muitosmartires2#secreta">
           Secreta
-        </a>{" "}
+        </Link>{" "}
         e
-        <a className="link" href="/missal/comum/7muitosmartires2#postcomúnio">
+        <Link
+          className="link"
+          href="/missal/comum/7muitosmartires2#postcomúnio"
+        >
           Postcomúnio
-        </a>{" "}
+        </Link>{" "}
         da [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2).
       </aside>
     </div>

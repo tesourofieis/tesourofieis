@@ -1,6 +1,7 @@
 "use dom";
 import "../../../global.css";
 
+import { Link } from "expo-router";
 import React from "react";
 import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
 import TeLucis from "./../../canticos/sacros/telucis";
@@ -77,13 +78,13 @@ export default function PageOracaonoite() {
       sempre comigo e com os que me são caros. Em seguida rezar: [Pai
       Nosso](/devocionario/oracoes/painosso), [Ave
       Maria](/devocionario/oracoes/avemaria),
-      <a className="link" href="/devocionario/oracoes/gloria">
+      <Link className="link" href="/devocionario/oracoes/gloria">
         Glória
-      </a>{" "}
+      </Link>{" "}
       , [Símbolo dos Apóstolos](/devocionario/oracoes/simboloapostolos),
-      <a className="link" href="/devocionario/oracoes/confesso">
+      <Link className="link" href="/devocionario/oracoes/confesso">
         Confesso
-      </a>{" "}
+      </Link>{" "}
       . Depois o Hino:
       <h2>Hino Te lucis</h2>
       <TeLucis />

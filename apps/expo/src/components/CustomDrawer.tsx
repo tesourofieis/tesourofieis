@@ -68,9 +68,7 @@ const DrawerItem = ({
             toggleExpand(path);
           }
         }}
-        className={`flex-row items-center justify-between py-3 px-4 ${
-          hasChildren ? "bg-gray-50 dark:bg-gray-800" : ""
-        }`}
+        className={"flex-row items-center justify-between py-3 px-4"}
       >
         {node.link ? (
           <Link href={node.link} asChild>
@@ -85,7 +83,7 @@ const DrawerItem = ({
           </Link>
         ) : (
           <View className="flex-1">
-            <Text className="text-base font-medium dark:text-white">
+            <Text className="text-base capitalize font-medium dark:text-white">
               {node.title}
             </Text>
           </View>
@@ -131,7 +129,7 @@ export default function CustomDrawerContent(props) {
     <DrawerContentScrollView {...props}>
       <View className="flex-1">
         <Link href="/" asChild>
-          <Pressable className="p-4 border-b border-gray-200 dark:border-gray-700">
+          <Pressable className="p-4">
             <Text className="text-lg font-bold dark:text-white">Home</Text>
           </Pressable>
         </Link>

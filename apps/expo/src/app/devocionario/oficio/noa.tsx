@@ -1,6 +1,7 @@
 "use dom";
 import "../../../global.css";
 
+import { Link } from "expo-router";
 import React from "react";
 import { TabItem, Tabs } from "~/components/Tabs";
 import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
@@ -377,9 +378,9 @@ export default function PageNoa() {
 
       <aside>
         Acabar com uma{" "}
-        <a className="link" href="/devocionario/antifonas">
+        <Link className="link" href="/devocionario/antifonas">
           Antífona de Nossa Senhora
-        </a>{" "}
+        </Link>{" "}
         .
       </aside>
     </div>

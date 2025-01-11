@@ -1,6 +1,7 @@
 "use dom";
 import "../../global.css";
 
+import { Link } from "expo-router";
 import React from "react";
 import Salmo94 from "./../devocionario/salterio/094";
 
@@ -11,13 +12,13 @@ export default function PageOficiodefuntos() {
 
       <aside>
         Rezar{" "}
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai-nosso
-        </a>{" "}
+        </Link>{" "}
         ;
-        <a className="link" href="/devocionario/oracoes/avemaria">
+        <Link className="link" href="/devocionario/oracoes/avemaria">
           Ave-Maria
-        </a>{" "}
+        </Link>{" "}
         ; [Creio em Deus](/devocionario/oracoes/simboloapostolos).
       </aside>
 

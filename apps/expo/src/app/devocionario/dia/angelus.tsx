@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -11,9 +12,9 @@ export default function PageAngelus() {
       <aside>
         Desde a Santíssima Trindade até à Páscoa. No tempo Pascal substitui-se o
         Angelus pela{" "}
-        <a className="link" href="/devocionario/antifonas/reginacaeli">
+        <Link className="link" href="/devocionario/antifonas/reginacaeli">
           Regina Caeli
-        </a>{" "}
+        </Link>{" "}
         .
       </aside>
 

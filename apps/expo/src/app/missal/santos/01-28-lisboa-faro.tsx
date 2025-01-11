@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -12,9 +13,9 @@ export default function Page0128LisboaFaro() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/santos/01-22-lisboa-faro">
+        <Link className="link" href="/missal/santos/01-22-lisboa-faro">
           Missa de Festa
-        </a>{" "}
+        </Link>{" "}
         , e comemoração de Santa Inês:
       </aside>
 

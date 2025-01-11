@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -30,9 +31,9 @@ export default function Page0721() {
 
       <aside>
         Intróito, como na{" "}
-        <a className="link" href="/missal/comum/17virgensmartires1">
+        <Link className="link" href="/missal/comum/17virgensmartires1">
           Missa Loquébar
-        </a>{" "}
+        </Link>{" "}
         . Evangelho e Ofertório como na [Missa Me
         exspectavérunt](/missal/comum/18virgensmartires2). Oração, Epístola,
         Secreta, Comúnio e Postcomúnio como na [Missa

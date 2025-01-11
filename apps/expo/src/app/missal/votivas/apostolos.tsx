@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -11,9 +12,9 @@ export default function PageApostolos() {
       <aside>
         Tudo como na Missa precedente, excepto o seguinte: Oração, Secreta e
         Postcomúnio como na{" "}
-        <a className="link" href="/missal/santos/10-28">
+        <Link className="link" href="/missal/santos/10-28">
           Missa S. Simão e S. Judas
-        </a>{" "}
+        </Link>{" "}
         .
       </aside>
 

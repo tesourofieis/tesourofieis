@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -10,9 +11,9 @@ export default function PageCoroacaopapa() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/santos/02-22">
+        <Link className="link" href="/missal/santos/02-22">
           Missa da Cadeira de S. Pedro em Roma
-        </a>{" "}
+        </Link>{" "}
         , excepto: Oração, Secreta e Postcomúnio como na [Missa Si díligis
         me](/missal/comum/sumospontifices). No Tempo Pascal, em vez do Gradual e
         do Trato, diz-se:

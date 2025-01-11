@@ -15,6 +15,7 @@ import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
+import { Link } from "expo-router";
 import { ActivityIndicator, Platform, Text, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import CustomDrawerContent from "~/components/CustomDrawer";
@@ -115,11 +116,13 @@ function RootLayoutNav() {
 
 const Header = () => {
   return (
-    <View className="flex-row items-center p-3 gap-3">
-      <FontAwesome6 name="book-bible" size={15} color="#e53935" />
-      <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
-        Tesouro dos Fiéis
-      </Text>
-    </View>
+    <Link href="/">
+      <View className="flex-row items-center p-3 gap-3">
+        <FontAwesome6 name="book-bible" size={15} color="#e53935" />
+        <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
+          Tesouro dos Fiéis
+        </Text>
+      </View>
+    </Link>
   );
 };

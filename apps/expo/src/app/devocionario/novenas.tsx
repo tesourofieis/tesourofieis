@@ -6,6 +6,7 @@ import { getNovenas } from "@tesourofieis/cal/getCalendar";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { getYear } from "date-fns";
+import { Link } from "expo-router";
 import React, { useState, useEffect } from "react";
 
 function getAllNovenasForYear(year: number) {
@@ -35,9 +36,9 @@ export default function PaginaNovenas() {
   return (
     <div className="p-4">
       {novena.map((novena) => (
-        <a key={novena.id} href={`/${novena.link}`}>
+        <Link key={novena.id} href={`/${novena.link}`}>
           {novena.name}
-        </a>
+        </Link>
       ))}
 
       <p className="mb-2">

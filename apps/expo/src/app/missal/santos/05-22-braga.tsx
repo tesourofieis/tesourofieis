@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -12,11 +13,14 @@ export default function Page0522Braga() {
       </h1>
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/comum/10martires">
+        <Link className="link" href="/missal/comum/10martires">
           Missa Sancti tui
-        </a>{" "}
-        , excepto: Fora do Tempo Pascal como na [Missa Sapiéntiam
-        sanctórum](/missal/comum/7muitosmartires2), excepto:
+        </Link>{" "}
+        , excepto: Fora do Tempo Pascal como na{" "}
+        <Link className="link" href="/missal/comum/7muitosmartires2">
+          Missa Sapiéntiam sanctórum
+        </Link>
+        , excepto:
       </aside>
       <h3>Oração</h3>
       Deixai-Vos aplacar, Senhor, Vos pedimos, e concedei-nos o vosso auxílio; e

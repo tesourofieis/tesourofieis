@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -45,9 +46,9 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso
-        </a>{" "}
+        </Link>{" "}
         e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
@@ -66,9 +67,9 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso
-        </a>{" "}
+        </Link>{" "}
         e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
@@ -87,9 +88,9 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso
-        </a>{" "}
+        </Link>{" "}
         e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
@@ -109,9 +110,9 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso
-        </a>{" "}
+        </Link>{" "}
         e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
@@ -131,9 +132,9 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso
-        </a>{" "}
+        </Link>{" "}
         e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
@@ -152,9 +153,9 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso
-        </a>{" "}
+        </Link>{" "}
         e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
@@ -174,9 +175,9 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso
-        </a>{" "}
+        </Link>{" "}
         e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
@@ -196,9 +197,9 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso
-        </a>{" "}
+        </Link>{" "}
         e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
@@ -219,9 +220,9 @@ export default function PageCoroasaomiguel() {
       </div>
 
       <aside>
-        <a className="link" href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso
-        </a>{" "}
+        </Link>{" "}
         e três [Ave Maria](/devocionario/oracoes/avemaria).
       </aside>
 
@@ -232,9 +233,9 @@ export default function PageCoroasaomiguel() {
         </p>
         <p>
           Em honra de São Miguel,{" "}
-          <a className="link" href="/devocionario/oracoes/painosso">
+          <Link className="link" href="/devocionario/oracoes/painosso">
             Pai Nosso
-          </a>
+          </Link>
         </p>
         <p>
           In Honoro Sancte Gabrielis, [Pater
@@ -242,9 +243,9 @@ export default function PageCoroasaomiguel() {
         </p>
         <p>
           Em honra de São Gabriel,{" "}
-          <a className="link" href="/devocionario/oracoes/painosso">
+          <Link className="link" href="/devocionario/oracoes/painosso">
             Pai Nosso
-          </a>
+          </Link>
         </p>
         <p>
           In Honoro Sancte Raphaelis, [Pater
@@ -252,9 +253,9 @@ export default function PageCoroasaomiguel() {
         </p>
         <p>
           Em honra de São Rafael,{" "}
-          <a className="link" href="/devocionario/oracoes/painosso">
+          <Link className="link" href="/devocionario/oracoes/painosso">
             Pai Nosso
-          </a>
+          </Link>
         </p>
         <p>
           In Honoro Angelis Custos meas, [Pater

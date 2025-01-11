@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -21,9 +22,9 @@ export default function Page0626() {
         oliveiras e aos dois candelabros, brilhando diante da face do Senhor, e
         de que fala o Apocalipse». «Estes justos, acrescenta ele, comparecem
         juntos na presença do Senhor e não se separam». Seus nomes figuram no
-        <a className="link" href="/missal/ordo#canon-missæ">
+        <Link className="link" href="/missal/ordo#canon-missæ">
           Canon da Missa
-        </a>{" "}
+        </Link>{" "}
         passando de geração em geração, enquanto os seus corpos descançam em paz
         (Ep.) no antigo santuário a eles consagrado no Monte Coelius, em Roma e
         onde é feita a Estação de Sexta-Feira depois das Cinzas. Alegremo-nos

@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -8,9 +9,9 @@ export default function Page1002() {
     <div className="docs">
       <h1>Santos Anjos da Guarda, a 2 de Outubro</h1>
       Missa da Festa da{" "}
-      <a className="link" href="/missal/santos/05-08">
+      <Link className="link" href="/missal/santos/05-08">
         Aparição de Arcanjo Miguel
-      </a>{" "}
+      </Link>{" "}
       , excepto:
       <h3>Oração</h3>
       <div className="side-by-side">

@@ -1,6 +1,7 @@
 "use dom";
 import "../../../global.css";
 
+import { Link } from "expo-router";
 import React from "react";
 import { TabItem, Tabs } from "~/components/Tabs";
 import AveMarisStella from "./../../canticos/sacros/avemarisstella";
@@ -950,9 +951,9 @@ export default function PageVesperas() {
 
       <aside>
         Acabar com uma{" "}
-        <a className="link" href="/devocionario/antifonas">
+        <Link className="link" href="/devocionario/antifonas">
           Antífona de Nossa Senhora
-        </a>{" "}
+        </Link>{" "}
         .
       </aside>
     </div>

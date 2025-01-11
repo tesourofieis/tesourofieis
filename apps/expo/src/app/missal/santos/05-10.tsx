@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -33,9 +34,9 @@ export default function Page0510() {
 
       <aside>
         Aquando da celebração da Missa S. S. Mártires Gordiano e Epímaco Como na
-        <a className="link" href="/missal/comum/10martires">
+        <Link className="link" href="/missal/comum/10martires">
           Missa Sancti tui
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
 

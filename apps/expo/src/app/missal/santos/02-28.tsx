@@ -1,4 +1,5 @@
 "use dom";
+import { Link } from "expo-router";
 import "../../../global.css";
 
 import React from "react";
@@ -13,9 +14,9 @@ export default function Page0228() {
 
       <aside>
         Como na{" "}
-        <a className="link" href="/missal/santos/08-28">
+        <Link className="link" href="/missal/santos/08-28">
           Missa na festa
-        </a>{" "}
+        </Link>{" "}
         , excepto:
       </aside>
 
