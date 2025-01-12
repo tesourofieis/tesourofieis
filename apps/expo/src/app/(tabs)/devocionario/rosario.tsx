@@ -107,53 +107,89 @@ export default function PageRosario() {
           <Text className="h1">Meditações do Rosário</Text>
           <Text className="h2">Mistérios Gozosos</Text>
           <View className="aside">Segunda-feira e Quinta-feira</View>
-          <Text className="bold">Primeiro mistério:</Text> Meditemos na
-          Anunciação do Arcanjo São Gabriel à Santíssima Virgem, e roguemos a
-          virtude da humildade.
-          <Text className="bold">Segundo mistério:</Text> Meditemos na Visitação
-          da Santíssima Virgem a Sua Prima, Santa Isabel, e roguemos a caridade
-          para com o próximo.
-          <Text className="bold">Terceiro mistério:</Text> Meditemos no
-          Nascimento do Menino Jesus, e roguemos o desprendimento dos bens do
-          mundo.
-          <Text className="bold">Quarto mistério:</Text> Meditemos na
-          Apresentação do Menino Jesus no Templo e na Purificação de Nossa
-          Senhora, e roguemos a obediência e a pureza do espírito e do coração.
-          <Text className="bold">Quinto mistério:</Text> Meditemos na Perda e no
-          Encontro do Menino Jesus no Templo, e roguemos o conhecimento das
-          coisas divinas e a prontidão no serviço de Deus.
+          <Text className="bold">Primeiro mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Anunciação do Arcanjo São Gabriel à Santíssima Virgem,
+            e roguemos a virtude da humildade.
+          </Text>
+          <Text className="bold">Segundo mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Visitação da Santíssima Virgem a Sua Prima, Santa
+            Isabel, e roguemos a caridade para com o próximo.
+          </Text>
+          <Text className="bold">Terceiro mistério:</Text>
+          <Text className="text-base">
+            Meditemos no Nascimento do Menino Jesus, e roguemos o desprendimento
+            dos bens do mundo.
+          </Text>
+          <Text className="bold">Quarto mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Apresentação do Menino Jesus no Templo e na Purificação
+            de Nossa Senhora, e roguemos a obediência e a pureza do espírito e
+            do coração.
+          </Text>
+          <Text className="bold">Quinto mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Perda e no Encontro do Menino Jesus no Templo, e
+            roguemos o conhecimento das coisas divinas e a prontidão no serviço
+            de Deus.
+          </Text>
           <Text className="h2">Mistérios Dolorosos</Text>
           <View className="aside">Terça-feira e Sexta-feira</View>
-          <Text className="bold">Primeiro mistério:</Text> Meditemos na Agonia
-          de N. S. Jesus Cristo, e roguemos a contrição dos nossos pecados.
-          <Text className="bold">Segundo mistério:</Text> Meditemos na
-          flagelação de N. S. Jesus Cristo, e roguemos a mortificação dos
-          sentidos.
-          <Text className="bold">Terceiro mistério:</Text> Meditemos na Coroação
-          de Espinhos de N. S. Jesus Cristo, e roguemos a mortificação do
-          espírito e do coração.
-          <Text className="bold">Quarto mistério:</Text> Meditemos em N. S.
-          Jesus Cristo levando a Cruz para o Calvário, e roguemos a paciência e
-          a resignação.
-          <Text className="bold">Quinto mistério:</Text> Meditemos na Crucifixão
-          e Morte de N. S. Jesus Cristo, e roguemos o amor a Deus e a salvação
-          das almas.
+          <Text className="bold">Primeiro mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Agonia de N. S. Jesus Cristo, e roguemos a contrição
+            dos nossos pecados.
+          </Text>
+          <Text className="bold">Segundo mistério:</Text>
+          <Text className="text-base">
+            Meditemos na flagelação de N. S. Jesus Cristo, e roguemos a
+            mortificação dos sentidos.
+          </Text>
+          <Text className="bold">Terceiro mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Coroação de Espinhos de N. S. Jesus Cristo, e roguemos
+            a mortificação do espírito e do coração.
+          </Text>
+          <Text className="bold">Quarto mistério:</Text>
+          <Text className="text-base">
+            Meditemos em N. S. Jesus Cristo levando a Cruz para o Calvário, e
+            roguemos a paciência e a resignação.
+          </Text>
+          <Text className="bold">Quinto mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Crucifixão e Morte de N. S. Jesus Cristo, e roguemos o
+            amor a Deus e a salvação das almas.
+          </Text>
           <Text className="h2">Mistérios Gloriosos</Text>
-          <View className="aside">Quarta-feira, Sábado e Domingo</View>
-          <Text className="bold">Primeiro mistério:</Text> Meditemos na
-          Ressurreição de N. S. Jesus Cristo, e roguemos para recebermos o dom
-          da fé e para a conversão dos pecadores.
-          <Text className="bold">Segundo mistério:</Text> Meditemos na Ascensão
-          de N. S. Jesus Cristo, e roguemos a esperança e o desejo do céu.
-          <Text className="bold">Terceiro mistério:</Text>Meditemos na descida
-          do Divino Espírito Santo, e roguemos o amor a Deus e o zelo da
-          salvação das almas.
-          <Text className="bold">Quarto mistério:</Text> Meditemos na Assunção
-          da Santíssima Virgem, e roguemos a graça de uma boa morte e a devoção
-          a Nossa Senhora.
-          <Text className="bold">Quinto mistério:</Text> Meditemos na Coroação
-          da Santíssima Virgem, e roguemos a perseverança final e a confiança em
-          Nossa Senhora.
+          <View className="aside">
+            <Text className="text-base">Quarta-feira, Sábado e Domingo</Text>
+          </View>
+          <Text className="bold">Primeiro mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Ressurreição de N. S. Jesus Cristo, e roguemos para
+            recebermos o dom da fé e para a conversão dos pecadores.
+          </Text>
+          <Text className="bold">Segundo mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Ascensão de N. S. Jesus Cristo, e roguemos a esperança
+            e o desejo do céu.
+          </Text>
+          <Text className="bold">Terceiro mistério:</Text>
+          <Text className="text-base">
+            Meditemos na descida do Divino Espírito Santo, e roguemos o amor a
+            Deus e o zelo da salvação das almas.
+          </Text>
+          <Text className="bold">Quarto mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Assunção da Santíssima Virgem, e roguemos a graça de
+            uma boa morte e a devoção a Nossa Senhora.
+          </Text>
+          <Text className="bold">Quinto mistério:</Text>
+          <Text className="text-base">
+            Meditemos na Coroação da Santíssima Virgem, e roguemos a
+            perseverança final e a confiança em Nossa Senhora.
+          </Text>
           <Text className="h1">Orações no fim do Rosário</Text>
           <Text className="h2">Salve Rainha</Text>
           <View className="side-by-side">

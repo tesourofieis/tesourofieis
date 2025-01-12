@@ -223,7 +223,7 @@ export default function Page1Vigiliaapostolos() {
             </Text>
             <Text className="text-base">
               Vos suplicamos, Senhor, deixai-Vos aplacar pelas orações do vosso
-              {/* biome-ignore lint/suspicious/noSuspiciousSemicolonInJsx: <explanation> */}
+              {/* biome-ignore lint/suspiciousa11y/noSuspiciousSemicolonInJsx: <explanation> */}
               santo Apóstolo <Text className="text-red-500">N.</Text>;
               concedei-nos ainda o perdão das nossas faltas e o remédio
               sempiterno dos nossos males. Por nosso Senhor...
