@@ -1,202 +1,215 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page1003() {
   return (
-    <div className="docs">
-      <h1>Santa Teresa do Menino Jesus, a 3 de Outubro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Santa Teresa do Menino Jesus, a 3 de Outubro
+          </Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Ct. 4, 8-9</em>
+          <Text className="em">Ct. 4, 8-9</Text>
 
-      <div className="side-by-side">
-        <p>
-          Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor meum,
-          soror mea sponsa, vulnerásti cor meum. <em>Ps. 112, 1</em> Laudáte,
-          púeri, Dóminum: laudáte nomen Dómini. ℣. Gloria Patri...
-        </p>
-        <p>
-          Vem comigo do Líbano, ó minha esposa; Vem comigo do Líbano; vem. Tu
-          feriste o meu coração, minha irmã, minha esposa; tu feriste o meu
-          coração. <em>Sl. 112, 1</em> Louvai o Senhor, ó meninos; louvai o nome
-          do Senhor. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor
+              meum, soror mea sponsa, vulnerásti cor meum.{" "}
+              <Text className="em">Ps. 112, 1</Text> Laudáte, púeri, Dóminum:
+              laudáte nomen Dómini. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Vem comigo do Líbano, ó minha esposa; Vem comigo do Líbano; vem.
+              Tu feriste o meu coração, minha irmã, minha esposa; tu feriste o
+              meu coração. <Text className="em">Sl. 112, 1</Text> Louvai o
+              Senhor, ó meninos; louvai o nome do Senhor. ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dómine, qui dixisti: Nisi efficiámini sicut párvuli, non intrábitis in
-          regnum cœlórum: da nobis, quǽsumus: ita sanctæ Teresiæ Vírginis in
-          humilitáte et simplicitáte cordis vestígia sectári, ut prǽmia
-          consequámur ætérna. Qui vivis...
-        </p>
-        <p>
-          Senhor, que Vos dignastes ensinar-nos «Se vos não tornardes
-          semelhantes a estes pequenos não entrareis no reino dos céus»,
-          concedei-nos, Vos suplicamos, que de tal modo imitemos os exemplos da
-          humildade e simplicidade da Virgem Santa Teresa que consigamos
-          alcançar os prémios eternos. Ó Vós, que viveis e reinais...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine, qui dixisti: Nisi efficiámini sicut párvuli, non
+              intrábitis in regnum cœlórum: da nobis, quǽsumus: ita sanctæ
+              Teresiæ Vírginis in humilitáte et simplicitáte cordis vestígia
+              sectári, ut prǽmia consequámur ætérna. Qui vivis...
+            </Text>
+            <Text className="text-base">
+              Senhor, que Vos dignastes ensinar-nos «Se vos não tornardes
+              semelhantes a estes pequenos não entrareis no reino dos céus»,
+              concedei-nos, Vos suplicamos, que de tal modo imitemos os exemplos
+              da humildade e simplicidade da Virgem Santa Teresa que consigamos
+              alcançar os prémios eternos. Ó Vós, que viveis e reinais...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Is. 66, 12-14</em>
+          <Text className="em">Is. 66, 12-14</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Isaíæ Prophétæ.</p>
-        <p>Lição do Profeta Isaías.</p>
-        <p>
-          Hæc dicit Dóminus: Ecce, ego declinábo super eam quasi flúvium pacis,
-          et quasi torréntem inundántem glóriam géntium, quam sugétis: ad úbera
-          portabímini, et super génua blandiéntur vobis. Quómodo si cui mater
-          blandiátur, ita ego consolábor vos, et in Jerúsalem consolabímini.
-          Vidébitis, et gaudébit cor vestrum, et ossa vestra quasi herba
-          germinábunt, et cognoscétur manus Dómini servis ejus.
-        </p>
-        <p>
-          Assim fala o Senhor: «Eis que farei correr sobre ela como que um rio
-          de paz; e como que uma torrente caudalosa inundará com riquezas os
-          povos. Sereis alimentados com leite, acalentados no seu seio e
-          acariciados sobre os seus joelhos. Eu vos consolarei, como aquele a
-          quem a mãe consola; e serei a vossa alegria em Jerusalém. Vê-lo-eis, e
-          regozijar-se-á o vosso coração; os vossos ossos reconquistarão o
-          vigor, como a erva dos campos; e a mão do Senhor se manifestará em
-          favor dos seus servos».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base">Lição do Profeta Isaías.</Text>
+            <Text className="text-base">
+              Hæc dicit Dóminus: Ecce, ego declinábo super eam quasi flúvium
+              pacis, et quasi torréntem inundántem glóriam géntium, quam
+              sugétis: ad úbera portabímini, et super génua blandiéntur vobis.
+              Quómodo si cui mater blandiátur, ita ego consolábor vos, et in
+              Jerúsalem consolabímini. Vidébitis, et gaudébit cor vestrum, et
+              ossa vestra quasi herba germinábunt, et cognoscétur manus Dómini
+              servis ejus.
+            </Text>
+            <Text className="text-base">
+              Assim fala o Senhor: «Eis que farei correr sobre ela como que um
+              rio de paz; e como que uma torrente caudalosa inundará com
+              riquezas os povos. Sereis alimentados com leite, acalentados no
+              seu seio e acariciados sobre os seus joelhos. Eu vos consolarei,
+              como aquele a quem a mãe consola; e serei a vossa alegria em
+              Jerusalém. Vê-lo-eis, e regozijar-se-á o vosso coração; os vossos
+              ossos reconquistarão o vigor, como a erva dos campos; e a mão do
+              Senhor se manifestará em favor dos seus servos».
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Mt. 11, 25</em>
+          <Text className="em">Mt. 11, 25</Text>
 
-      <div className="side-by-side">
-        <p>
-          Confíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc a
-          sapiéntibus, et prudéntibus, et revelásti ea párvulis. ℣.{" "}
-          <em>Ps. 70, 5</em> Dómine, spes mea a juventúte mea.
-        </p>
-        <p>
-          Dou-Vos graças, ó Pai, Senhor do céu e da terra, porque ocultastes
-          estas coisas aos sábios e aos prudentes deste mundo, e as revelastes
-          aos «pequenos». ℣. <em>Sl. 70, 5</em> Sois a minha esperança, Senhor,
-          desde a minha juventude.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Eccli. 39, 17-19</em> Quasi rosa plantáta
-          super rivos aquárum fructificate: quasi Libanus odórem suavitátis
-          habete: florete, flores, quasi lílium, et date odórem, et frondete in
-          grátiam, et collaudate cánticum, et benedicite Dóminum in opéribus
-          suis. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Ecl. 39, 17-19</em> Frutificai, como a rosa
-          plantada à beira das águas; espalhai vosso suave perfume, como o monte
-          Líbano; como os lírios, desabrochai vossas flores e exalai vossos
-          perfumes; enchei-vos de beleza; entoai hinos e cânticos em honra do
-          Senhor, louvando-O Pela magnificência das suas obras. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Confíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc
+              a sapiéntibus, et prudéntibus, et revelásti ea párvulis. ℣.{" "}
+              <Text className="em">Ps. 70, 5</Text> Dómine, spes mea a juventúte
+              mea.
+            </Text>
+            <Text className="text-base">
+              Dou-Vos graças, ó Pai, Senhor do céu e da terra, porque ocultastes
+              estas coisas aos sábios e aos prudentes deste mundo, e as
+              revelastes aos «pequenos». ℣.{" "}
+              <Text className="em">Sl. 70, 5</Text> Sois a minha esperança,
+              Senhor, desde a minha juventude.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="em">Eccli. 39, 17-19</Text> Quasi rosa plantáta
+              super rivos aquárum fructificate: quasi Libanus odórem suavitátis
+              habete: florete, flores, quasi lílium, et date odórem, et frondete
+              in grátiam, et collaudate cánticum, et benedicite Dóminum in
+              opéribus suis. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Ecl. 39, 17-19</Text>{" "}
+              Frutificai, como a rosa plantada à beira das águas; espalhai vosso
+              suave perfume, como o monte Líbano; como os lírios, desabrochai
+              vossas flores e exalai vossos perfumes; enchei-vos de beleza;
+              entoai hinos e cânticos em honra do Senhor, louvando-O Pela
+              magnificência das suas obras. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Mt. 18, 1-4</em>
+          <Text className="em">Mt. 18, 1-4</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Mateus.
-        </p>
-        <p>
-          In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis,
-          putas, major est in regno cœlórum? Et advocans Jesus párvulum, státuit
-          eum in médio eórum, et dixit; Amen, dico vobis, nisi convérsi
-          fuéritis, et efficiámini sicut párvuli, non intrábitis in regnum
-          cœlorum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est
-          major in regno cœlórum.
-        </p>
-        <p>
-          Naquele tempo, aproximaram-se de Jesus os seus discípulos,
-          dizendo-Lhe: «Qual pensais Vós que é o maior no reino dos céus?». E
-          Jesus, havendo chamado um pequeno, colocou-o no meio deles e disse:
-          «Em verdade vos digo: se vos não converteis e não vos tornais como os
-          pequenos, não entrareis no reino dos céus».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Matthǽum.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Mateus.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis,
+              putas, major est in regno cœlórum? Et advocans Jesus párvulum,
+              státuit eum in médio eórum, et dixit; Amen, dico vobis, nisi
+              convérsi fuéritis, et efficiámini sicut párvuli, non intrábitis in
+              regnum cœlorum. Quicúmque ergo humiliáverit se sicut párvulus
+              iste, hic est major in regno cœlórum.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, aproximaram-se de Jesus os seus discípulos,
+              dizendo-Lhe: «Qual pensais Vós que é o maior no reino dos céus?».
+              E Jesus, havendo chamado um pequeno, colocou-o no meio deles e
+              disse: «Em verdade vos digo: se vos não converteis e não vos
+              tornais como os pequenos, não entrareis no reino dos céus».
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Lc. 1, 46-48 & 49</em>
+          <Text className="em">Lc. 1, 46-48 & 49</Text>
 
-      <div className="side-by-side">
-        <p>
-          Magníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo
-          salutári meo: quia respéxit humilitátem ancíllæ suæ: fecit mihi magna
-          qui potens est.
-        </p>
-        <p>
-          A minha alma engrandece o Senhor e o meu espírito alegra-se em Deus,
-          meu Salvador, pois Ele dignou-se olhar benignamente para a humildade
-          da sua escrava; e praticou em mim grandes coisas.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Magníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo
+              salutári meo: quia respéxit humilitátem ancíllæ suæ: fecit mihi
+              magna qui potens est.
+            </Text>
+            <Text className="text-base">
+              A minha alma engrandece o Senhor e o meu espírito alegra-se em
+              Deus, meu Salvador, pois Ele dignou-se olhar benignamente para a
+              humildade da sua escrava; e praticou em mim grandes coisas.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Sacrifícium nostrum tibi, Dómine, quǽsumus, sanctæ Terésiæ Vírginis
-          tuæ precátio sancta concíliet: ut, in cujus honóre sollémniter
-          exhibétur, ejus méritis efficiátur accéptum. Per Dóminum...
-        </p>
-        <p>
-          Senhor, Vos suplicamos, permiti que a oração da vossa Virgem Santa
-          Teresa Vos torne agradável o nosso sacrifício, a fim de que por Vós
-          seja aceite, pelos méritos daquela em cuja honra Vo-lo oferecemos. Por
-          nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Sacrifícium nostrum tibi, Dómine, quǽsumus, sanctæ Terésiæ
+              Vírginis tuæ precátio sancta concíliet: ut, in cujus honóre
+              sollémniter exhibétur, ejus méritis efficiátur accéptum. Per
+              Dóminum...
+            </Text>
+            <Text className="text-base">
+              Senhor, Vos suplicamos, permiti que a oração da vossa Virgem Santa
+              Teresa Vos torne agradável o nosso sacrifício, a fim de que por
+              Vós seja aceite, pelos méritos daquela em cuja honra Vo-lo
+              oferecemos. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Dt. 32, 10-12</em>
+          <Text className="em">Dt. 32, 10-12</Text>
 
-      <div className="side-by-side">
-        <p>
-          Circumdúxit eam, et dócuit: et custodívit quasi pupíllam óculi sui.
-          Sicut aquila expándit alas suas, et assúmpsit eam, atque portávit in
-          húmeris suis. Dóminus solus dux ejus fuit.
-        </p>
-        <p>
-          Rodeou-a, protegeu-a e guardou-a, como à pupila dos seus olhos. Como a
-          águia, abriu suas asas, arrebatou-a e colocou-a sobre os seus joelhos.
-          O Senhor foi o seu único guia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Circumdúxit eam, et dócuit: et custodívit quasi pupíllam óculi
+              sui. Sicut aquila expándit alas suas, et assúmpsit eam, atque
+              portávit in húmeris suis. Dóminus solus dux ejus fuit.
+            </Text>
+            <Text className="text-base">
+              Rodeou-a, protegeu-a e guardou-a, como à pupila dos seus olhos.
+              Como a águia, abriu suas asas, arrebatou-a e colocou-a sobre os
+              seus joelhos. O Senhor foi o seu único guia.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Illo nos, Dómine amóris igne cœléste mystérium inflámmet: quo sancta
-          Teresia Virgo tua se tibi pro homínibus caritátis víctimam devóvit.
-          Per Dóminum...
-        </p>
-        <p>
-          Que este mystério, Senhor, nos abrase no fogo celestial, ao qual a
-          vossa Virgem Santa Teresa se ofereceu como vítima de amor pelos
-          homens. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Illo nos, Dómine amóris igne cœléste mystérium inflámmet: quo
+              sancta Teresia Virgo tua se tibi pro homínibus caritátis víctimam
+              devóvit. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Que este mystério, Senhor, nos abrase no fogo celestial, ao qual a
+              vossa Virgem Santa Teresa se ofereceu como vítima de amor pelos
+              homens. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

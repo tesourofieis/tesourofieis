@@ -1,5 +1,5 @@
-"use dom";
-import "../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Calendar } from "@tesourofieis/cal/calendar";
 import { getNovenas } from "@tesourofieis/cal/getCalendar";
@@ -34,42 +34,50 @@ export default function PaginaNovenas() {
   }, [year]);
 
   return (
-    <div className="p-4">
-      {novena.map((novena) => (
-        <Link key={novena.id} href={`/${novena.link}`}>
-          {novena.name}
-        </Link>
-      ))}
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          {novena.map((novena) => (
+            <Link key={novena.id} href={`/${novena.link}`}>
+              {novena.name}
+            </Link>
+          ))}
 
-      <p className="mb-2">
-        Não existem novenas oficiais estabelecidas pela Igreja, permitindo que
-        cada fiel as adapte às suas necessidades espirituais.
-      </p>
-      <p className="mb-2">
-        Se não tiver uma novena específica para rezar, pode considerar a
-        seguinte estrutura:
-      </p>
-      <ol className="list-decimal list-inside mb-2">
-        <li>Reze a oração da missa da novena</li>
-        <li>Adicione intenções pessoais</li>
-        <li>Termine com a Salve Regina, ou outra oração</li>
-      </ol>
+          <Text className="text-base mb-2">
+            Não existem novenas oficiais estabelecidas pela Igreja, permitindo
+            que cada fiel as adapte às suas necessidades espirituais.
+          </Text>
+          <Text className="text-base mb-2">
+            Se não tiver uma novena específica para rezar, pode considerar a
+            seguinte estrutura:
+          </Text>
+          <ol className="list-decimal list-inside mb-2">
+            <Text className="li text-justify">
+              Reze a oração da missa da novena
+            </Text>
+            <Text className="li text-justify">Adicione intenções pessoais</Text>
+            <Text className="li text-justify">
+              Termine com a Salve Regina, ou outra oração
+            </Text>
+          </ol>
 
-      <p className="text-xl font-semibold mt-4 mb-2">
-        Todas as Novenas agendadas
-      </p>
-      <ul className="list-disc list-inside">
-        {allNovenas.map((novena) => {
-          const buidDate = `${year}-${novena.month}-${novena.day}`;
+          <Text className="text-xl font-semibold mt-4 mb-2">
+            Todas as Novenas agendadas
+          </Text>
+          <View className="list-disc list-inside">
+            {allNovenas.map((novena) => {
+              const buidDate = `${year}-${novena.month}-${novena.day}`;
 
-          return (
-            <li key={novena.id}>
-              <span className="font-bold">{novena.name}</span> - Dia{" "}
-              {novena.date ? novena.date : buidDate}
-            </li>
-          );
-        })}
-      </ul>
-    </div>
+              return (
+                <Text className="li" key={novena.id}>
+                  <Text className="font-bold">{novena.name}</Text> - Dia{" "}
+                  {novena.date ? novena.date : buidDate}
+                </Text>
+              );
+            })}
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,22 +1,27 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0901() {
   return (
-    <div className="docs">
-      <h1>S. Egídio (ou Gil), Abade, a 1 de Setembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Egídio (ou Gil), Abade, a 1 de Setembro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/16abades">
-          Missa Os justi
-        </Link>{" "}
-        . A Comemoração dos S. S. Doze Irmãos como na [Missa Comemoração dos S.
-        S. Macabeus, Mártires](/missal/santos/08-01).
-      </aside>
-    </div>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/16abades">
+              Missa Os justi
+            </Link>{" "}
+            . A Comemoração dos S. S. Doze Irmãos como na [Missa Comemoração dos
+            S. S. Macabeus, Mártires](/missal/santos/08-01).
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

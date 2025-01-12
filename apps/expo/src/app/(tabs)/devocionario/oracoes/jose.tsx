@@ -1,71 +1,79 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageJose() {
   return (
-    <div className="docs">
-      <h1>Orações a São José</h1>
-      <h2>Oração a São José pelo Papa Leão XIII</h2>
-      <div className="side-by-side">
-        <p>
-          Ad te beáte Joseph, in tribulatióne nostra confúgimus, atque,
-          imploráto Sponsæ tuæ sanctíssimæ auxílio, patrocínium quoque tuum
-          fidenter expóscimus. Per eam, quǽsumus, quæ te cum immaculáta Vírgine
-          Dei Genitríce coniúnxit, caritátem, perque patérnum, quo Púerum Jesum
-          ampléxus es, amórem, súpplices deprecámur, ut ad hereditátem, quam
-          Jesus Christus acquisívit Sánguine suo, benígnus respícias, ac
-          necessitátibus nostris tua virtúte et ope succúrras. Tuére, o Custos
-          providentíssime divínæ Famíliæ, Jesu Christi sóbolem eléctam; próhibe
-          a nobis, amantíssime Pater, omnem errórum ac corruptelárum luem;
-          propítius nobis, sospítator noster fortíssime, in hoc cum potestáte
-          tenebrárum certámine e cælo adésto; et sicut olim Púerum Jesum e summo
-          eripuísti vitre discrímine, ita nunc Ecclesiam sanctam Dei ab
-          hostílibus insídiis atque ab omni adversitáte défende: nosque síngulos
-          perpétuo tege patrocínio, ut ad tui exémplar et ope tua suffúlti,
-          sancte vívere, pie émori, sempiternámque in cælis beatitúdinem ássequi
-          possímus. Amen
-        </p>
-        <p>
-          Ó Bem-aventurado S. José, a vós recorremos na nossa tribulação, e,
-          havendo implorado da Santíssima Virgem, vossa esposa, pedimos também
-          com toda a confiança a vossa protecção. Por aquele afecto que vos uniu
-          à Imaculada Virgem Mãe de Deus e pelo paternal amor que consagraste ao
-          Menino Jesus, vos rogamos e suplicamos que olheis benigno para a
-          herança que Jesus Cristo nos adquiriu com seu sangue, e que nos
-          assistais nas nossas necessidades com vosso poder e auxílio. Protegei,
-          ó providentíssimo guarda da Sagrada Família, os filhos escolhidos de
-          Jesus Cristo, preservai-nos, ó pai amantíssimo, de todo o contágio das
-          doutrinas erróneas e de corrupção; sede-nos propício e assisti-nos do
-          alto do céu, ó nosso poderoso libertador, neste combate contra o poder
-          das trevas; e, assim como outrora livrastes o Menino Jesus do perigo
-          da morte, assim também, hoje, defendei a santa Igreja de Deus das
-          ciladas dos seus inimigos e de todas as adversidades. E a cada um de
-          nós concedei a vossa constante protecção, a fim de que, imitando-vos e
-          fortalecidos com vosso auxílio, possamos viver santamente, morrer
-          piamente e alcançar no céu a bem-aventurança eterna. Amen
-        </p>
-      </div>
-      <h2>Oração</h2>Ó glorioso S. José, Pai e protector das Virgens, guarda
-      fiel a quem Deus confiou Jesus, a própria inocência, e Maria, Virgem das
-      virgens! Em nome de Jesus e de Maria, este duplo tesouro que vos foi tão
-      caro, vos suplico que me conserveis livre de toda a impureza, para que com
-      alma pura e corpo casto, sirva sempre, fielmente, a Jesus e a Maria. Amen.
-      <h2>Para o Trabalho</h2>Ó glorioso S. José, modelo de todos os que se
-      consagram ao trabalho! Alcançai-me a graça de trabalhar com espírito de
-      penitência, em expiação dos meus pecados; de trabalhar com consciência,
-      pondo o cumprimento do meu dever acima das minhas naturais inclinações; de
-      trabalhar com agradecimento e alegria, olhando como uma honra o poder de
-      desenvolver por meio do trabalho os dons recebidos por Deus. Alcançai-me a
-      graça de trabalhar com ordem, constância, intensidade e presença de Deus,
-      sem jamais retroceder ante as dificuldades; de trabalhar, acima de tudo,
-      com pureza de intenção e desapego de mim mesmo, tendo sempre diante dos
-      meus olhos todas as almas e as contas que prestarei a Deus do tempo
-      perdido, das habilidades inutilizadas, do bem omitido e das estéreis
-      vaidades em meus trabalhos, tão contrárias à obra de Deus. Tudo por Jesus,
-      tudo por Maria, tudo à vossa imitação, ó Patriarca São José! Este será o
-      meu lema na vida a na morte. Amen.
-    </div>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Orações a São José</Text>
+          <Text className="h2">Oração a São José pelo Papa Leão XIII</Text>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Ad te beáte Joseph, in tribulatióne nostra confúgimus, atque,
+              imploráto Sponsæ tuæ sanctíssimæ auxílio, patrocínium quoque tuum
+              fidenter expóscimus. Per eam, quǽsumus, quæ te cum immaculáta
+              Vírgine Dei Genitríce coniúnxit, caritátem, perque patérnum, quo
+              Púerum Jesum ampléxus es, amórem, súpplices deprecámur, ut ad
+              hereditátem, quam Jesus Christus acquisívit Sánguine suo, benígnus
+              respícias, ac necessitátibus nostris tua virtúte et ope succúrras.
+              Tuére, o Custos providentíssime divínæ Famíliæ, Jesu Christi
+              sóbolem eléctam; próhibe a nobis, amantíssime Pater, omnem errórum
+              ac corruptelárum luem; propítius nobis, sospítator noster
+              fortíssime, in hoc cum potestáte tenebrárum certámine e cælo
+              adésto; et sicut olim Púerum Jesum e summo eripuísti vitre
+              discrímine, ita nunc Ecclesiam sanctam Dei ab hostílibus insídiis
+              atque ab omni adversitáte défende: nosque síngulos perpétuo tege
+              patrocínio, ut ad tui exémplar et ope tua suffúlti, sancte vívere,
+              pie émori, sempiternámque in cælis beatitúdinem ássequi possímus.
+              Amen
+            </Text>
+            <Text className="text-base">
+              Ó Bem-aventurado S. José, a vós recorremos na nossa tribulação, e,
+              havendo implorado da Santíssima Virgem, vossa esposa, pedimos
+              também com toda a confiança a vossa protecção. Por aquele afecto
+              que vos uniu à Imaculada Virgem Mãe de Deus e pelo paternal amor
+              que consagraste ao Menino Jesus, vos rogamos e suplicamos que
+              olheis benigno para a herança que Jesus Cristo nos adquiriu com
+              seu sangue, e que nos assistais nas nossas necessidades com vosso
+              poder e auxílio. Protegei, ó providentíssimo guarda da Sagrada
+              Família, os filhos escolhidos de Jesus Cristo, preservai-nos, ó
+              pai amantíssimo, de todo o contágio das doutrinas erróneas e de
+              corrupção; sede-nos propício e assisti-nos do alto do céu, ó nosso
+              poderoso libertador, neste combate contra o poder das trevas; e,
+              assim como outrora livrastes o Menino Jesus do perigo da morte,
+              assim também, hoje, defendei a santa Igreja de Deus das ciladas
+              dos seus inimigos e de todas as adversidades. E a cada um de nós
+              concedei a vossa constante protecção, a fim de que, imitando-vos e
+              fortalecidos com vosso auxílio, possamos viver santamente, morrer
+              piamente e alcançar no céu a bem-aventurança eterna. Amen
+            </Text>
+          </View>
+          <Text className="h2">Oração</Text>Ó glorioso S. José, Pai e protector
+          das Virgens, guarda fiel a quem Deus confiou Jesus, a própria
+          inocência, e Maria, Virgem das virgens! Em nome de Jesus e de Maria,
+          este duplo tesouro que vos foi tão caro, vos suplico que me conserveis
+          livre de toda a impureza, para que com alma pura e corpo casto, sirva
+          sempre, fielmente, a Jesus e a Maria. Amen.
+          <Text className="h2">Para o Trabalho</Text>Ó glorioso S. José, modelo
+          de todos os que se consagram ao trabalho! Alcançai-me a graça de
+          trabalhar com espírito de penitência, em expiação dos meus pecados; de
+          trabalhar com consciência, pondo o cumprimento do meu dever acima das
+          minhas naturais inclinações; de trabalhar com agradecimento e alegria,
+          olhando como uma honra o poder de desenvolver por meio do trabalho os
+          dons recebidos por Deus. Alcançai-me a graça de trabalhar com ordem,
+          constância, intensidade e presença de Deus, sem jamais retroceder ante
+          as dificuldades; de trabalhar, acima de tudo, com pureza de intenção e
+          desapego de mim mesmo, tendo sempre diante dos meus olhos todas as
+          almas e as contas que prestarei a Deus do tempo perdido, das
+          habilidades inutilizadas, do bem omitido e das estéreis vaidades em
+          meus trabalhos, tão contrárias à obra de Deus. Tudo por Jesus, tudo
+          por Maria, tudo à vossa imitação, ó Patriarca São José! Este será o
+          meu lema na vida a na morte. Amen.
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

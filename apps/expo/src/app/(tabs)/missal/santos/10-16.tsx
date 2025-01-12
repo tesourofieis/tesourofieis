@@ -1,39 +1,44 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page1016() {
   return (
-    <div className="docs">
-      <h1>Santa Hedviges, Viúva, a 16 de Outubro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Santa Hedviges, Viúva, a 16 de Outubro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
-          Missa Cognóvi, Dómine
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
+              Missa Cognóvi, Dómine
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui beátam Hedwígem a sǽculi pompa ad húmilem tuæ Crucis
-          sequélam toto corde transíre docuísti: concéde; ut ejus méritis et
-          exémplo discámus peritúras mundi calcáre delícias, et in ampléxu tuæ
-          Crucis ómnia nobis adversántia superáre: Qui vivis...
-        </p>
-        <p>
-          Ó Deus, que inspirastes a B. Hedviges a deixar as pompas do mundo para
-          abraçar com fervor a humildade da vossa Cruz, concedei-nos pelos seus
-          méritos e exemplos que aprendamos a esmagar as delícias caducas deste
-          mundo e, abraçando a vossa Cruz, a vencer todas as adversidades. Ó
-          Vós, que viveis e reinais...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui beátam Hedwígem a sǽculi pompa ad húmilem tuæ Crucis
+              sequélam toto corde transíre docuísti: concéde; ut ejus méritis et
+              exémplo discámus peritúras mundi calcáre delícias, et in ampléxu
+              tuæ Crucis ómnia nobis adversántia superáre: Qui vivis...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que inspirastes a B. Hedviges a deixar as pompas do mundo
+              para abraçar com fervor a humildade da vossa Cruz, concedei-nos
+              pelos seus méritos e exemplos que aprendamos a esmagar as delícias
+              caducas deste mundo e, abraçando a vossa Cruz, a vencer todas as
+              adversidades. Ó Vós, que viveis e reinais...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,227 +1,246 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageQuad14() {
   return (
-    <div className="docs">
-      <h1>Quinta-feira da 1.ª Semana da Quaresma - Têmporas da Primavera</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Quinta-feira da 1.ª Semana da Quaresma - Têmporas da Primavera
+          </Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Sl. 95, 6</em>
+          <Text className="em">Sl. 95, 6</Text>
 
-      <div className="side-by-side">
-        <p>
-          Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia
-          in sanctificatióne eius. <em>Ps. ibid., 1</em> Cantáte Dómino cánticum
-          novum: cantáte Dómino, omnis terra. ℣. Gloria Patri...
-        </p>
-        <p>
-          A glória e a majestade estão na sua presença; a santidade e a
-          magnificência brilham no seu santuário. <em>Sl. ibid., 1</em> Cantai
-          ao Senhor um cântico novo; cantai em honra do Senhor, ó povos de toda
-          a terra. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Conféssio et pulchritúdo in conspéctu ejus: sánctitas et
+              magnificéntia in sanctificatióne eius.{" "}
+              <Text className="em">Ps. ibid., 1</Text> Cantáte Dómino cánticum
+              novum: cantáte Dómino, omnis terra. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              A glória e a majestade estão na sua presença; a santidade e a
+              magnificência brilham no seu santuário.{" "}
+              <Text className="em">Sl. ibid., 1</Text> Cantai ao Senhor um
+              cântico novo; cantai em honra do Senhor, ó povos de toda a terra.
+              ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui per
-          abstinéntiam macerántur in córpore, per fructum boni óperis
-          reficiántur in mente. Per Dóminum...
-        </p>
-        <p>
-          Olhai benigno, Senhor, Vos suplicamos, para a piedade do vosso povo, a
-          fim de que aqueles que mortificam o corpo com a abstinência sejam
-          enriquecidos na alma com os frutos das boas obras. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui
+              per abstinéntiam macerántur in córpore, per fructum boni óperis
+              reficiántur in mente. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Olhai benigno, Senhor, Vos suplicamos, para a piedade do vosso
+              povo, a fim de que aqueles que mortificam o corpo com a
+              abstinência sejam enriquecidos na alma com os frutos das boas
+              obras. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Ez. 18, 1-9</em>
+          <Text className="em">Ez. 18, 1-9</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Ezechiélis Prophétæ.</p>
-        <p>Lição do Profeta Ezequiel.</p>
-        <p>
-          In diébus illis: Factus est sermo Dómini ad me, dicens: Quid est, quod
-          inter vos parábolam vértitis in provérbium istud in terra Israël,
-          dicéntes: Patres comedérunt uvam acérbam, et dentes filiórum
-          obstupéscunt? Vivo ego, dicit Dóminus Deus, si erit ultra vobis
-          parábola hæc in provérbium in Israël. Ecce, omnes ánimæ meæ sunt: ut
-          ánima patris, ita et ánima fílii mea est: ánima, quæ peccáverit, ipsa
-          moriétur. Et vir si fúerit justus, et fécerit judícium et justítiam,
-          in móntibus non coméderit, et óculos suos non leváverit ad idóla domus
-          Israël: et uxórem próximi sui non violáverit, et ad mulíerem
-          menstruátam non accésserit: et hóminem non contristáverit: pignus
-          debitóri reddíderit, per vim nihil rapúerit: panem suum esuriénti
-          déderit, et nudum operúerit vestiménto: ad usúram non commodáverit, et
-          ámplius non accéperit: ab iniquitáte avértent manum suam, et judícium
-          verum fécerit inter virum et virum: in præcéptis meis ambuláverit, et
-          judícia mea custodíerit, ut fáciat veritátem: hic justus est, vita
-          vivet, ait Dóminus omnípotens.
-        </p>
-        <p>
-          Naqueles dias, a palavra do Senhor foi-me dirigida, dizendo: «Porque é
-          que entre vós se repete este provérbio e o aplicais às terras de
-          Israel: «Os pais comeram as uvas verdes e os dentes dos filhos é que
-          se embotaram» ? Eu sou vivo, diz o Senhor Deus, nunca mais vos será
-          dada ocasião de repetir em Israel este provérbio; pois todas as almas
-          são minhas, tanto a alma do pai, como a alma do filho. A alma que
-          pecar morrerá. Se um homem for justo e proceder segundo o direito e a
-          justiça; se não comer carnes imoladas nos montes; se não levantar os
-          olhos para os ídolos da casa de Israel, nem desonrar a mulher do
-          próximo, nem se aproximar da mulher no tempo da abstenção; se não
-          ofender e não oprimir ninguém; se entregar o penhor ao devedor, nada
-          guardar em rapina, der pão ao que quiser comer, vestido ao que estiver
-          nu e não emprestar com usura, nem receber mais do que é lícito; se
-          afastar a mão da iniquidade e for árbitro da justiça de homem para
-          homem; se seguir os meus preceitos e observar as minhas leis para
-          proceder segundo a verdade: então, esse é justo e viverá na vida
-          eterna: diz o Senhor omnipotente».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio Ezechiélis Prophétæ.</Text>
+            <Text className="text-base">Lição do Profeta Ezequiel.</Text>
+            <Text className="text-base">
+              In diébus illis: Factus est sermo Dómini ad me, dicens: Quid est,
+              quod inter vos parábolam vértitis in provérbium istud in terra
+              Israël, dicéntes: Patres comedérunt uvam acérbam, et dentes
+              filiórum obstupéscunt? Vivo ego, dicit Dóminus Deus, si erit ultra
+              vobis parábola hæc in provérbium in Israël. Ecce, omnes ánimæ meæ
+              sunt: ut ánima patris, ita et ánima fílii mea est: ánima, quæ
+              peccáverit, ipsa moriétur. Et vir si fúerit justus, et fécerit
+              judícium et justítiam, in móntibus non coméderit, et óculos suos
+              non leváverit ad idóla domus Israël: et uxórem próximi sui non
+              violáverit, et ad mulíerem menstruátam non accésserit: et hóminem
+              non contristáverit: pignus debitóri reddíderit, per vim nihil
+              rapúerit: panem suum esuriénti déderit, et nudum operúerit
+              vestiménto: ad usúram non commodáverit, et ámplius non accéperit:
+              ab iniquitáte avértent manum suam, et judícium verum fécerit inter
+              virum et virum: in præcéptis meis ambuláverit, et judícia mea
+              custodíerit, ut fáciat veritátem: hic justus est, vita vivet, ait
+              Dóminus omnípotens.
+            </Text>
+            <Text className="text-base">
+              Naqueles dias, a palavra do Senhor foi-me dirigida, dizendo:
+              «Porque é que entre vós se repete este provérbio e o aplicais às
+              terras de Israel: «Os pais comeram as uvas verdes e os dentes dos
+              filhos é que se embotaram» ? Eu sou vivo, diz o Senhor Deus, nunca
+              mais vos será dada ocasião de repetir em Israel este provérbio;
+              pois todas as almas são minhas, tanto a alma do pai, como a alma
+              do filho. A alma que pecar morrerá. Se um homem for justo e
+              proceder segundo o direito e a justiça; se não comer carnes
+              imoladas nos montes; se não levantar os olhos para os ídolos da
+              casa de Israel, nem desonrar a mulher do próximo, nem se aproximar
+              da mulher no tempo da abstenção; se não ofender e não oprimir
+              ninguém; se entregar o penhor ao devedor, nada guardar em rapina,
+              der pão ao que quiser comer, vestido ao que estiver nu e não
+              emprestar com usura, nem receber mais do que é lícito; se afastar
+              a mão da iniquidade e for árbitro da justiça de homem para homem;
+              se seguir os meus preceitos e observar as minhas leis para
+              proceder segundo a verdade: então, esse é justo e viverá na vida
+              eterna: diz o Senhor omnipotente».
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 16, 8 & 2</em>
+          <Text className="em">Sl. 16, 8 & 2</Text>
 
-      <div className="side-by-side">
-        <p>
-          Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege
-          me. ℣. De vultu tuo judícium meum pródeat: óculi tui vídeant
-          æquitátem.
-        </p>
-        <p>
-          Guardai-me, Senhor, como à pupila dos vossos olhos; protegei-me com a
-          sombra das vossas asas. ℣. Que meu julgamento seja pronunciado diante
-          de Vós; que os vossos olhos vejam a equidade da minha causa.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum
+              prótege me. ℣. De vultu tuo judícium meum pródeat: óculi tui
+              vídeant æquitátem.
+            </Text>
+            <Text className="text-base">
+              Guardai-me, Senhor, como à pupila dos vossos olhos; protegei-me
+              com a sombra das vossas asas. ℣. Que meu julgamento seja
+              pronunciado diante de Vós; que os vossos olhos vejam a equidade da
+              minha causa.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Mt. 15, 21-28</em>
+          <Text className="em">Mt. 15, 21-28</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Mateus.
-        </p>
-        <p>
-          In illo témpore: Egréssus Jesus secéssit in partes Tyri et Sidónis. Et
-          ecce, múlier Chananǽa a fínibus illis egréssa clamávit, dicens ei:
-          Miserére mei, Dómine, fili David: fília mea male a dæmónio vexátur.
-          Qui non respóndit ei verbum. Et accedéntes discípuli ejus rogábant
-          eum, dicéntes: Dimítte eam; quia clamat post nos. Ipse autem
-          respóndens, ait: Non sum missus nisi ad oves, quæ periérunt domus
-          Israël. At illa venit, et adorávit eum, dicens: Dómine, ádjuva me. Qui
-          respóndens, ait: Non est bonum sumere panem filiórum, et míttere
-          cánibus. At illa dixit: Etiam, Dómine: nam et catélli edunt de micis,
-          quæ cadunt de mensa dominórum suórum. Tunc respóndens Jesus, ait illi:
-          O múlier, magna est fides tua: fiat tibi, sicut vis. Et sanáta est
-          fília ejus ex illa hora.
-        </p>
-        <p>
-          Naquele tempo, partindo Jesus, retirou-se dos lados de Tiro e de
-          Sidónia. E eis que uma mulher cananeia, vinda daquelas paragens,
-          clamou a Jesus, dizendo: «Senhor, filho de David, tende piedade de
-          mim, pois minha filha está fortemente atacada pelo demónio». Jesus não
-          respondeu nem uma palavra. Então, os discípulos aproximaram-se e
-          suplicaram-Lhe, dizendo: «Despedi-a já, porque vem a gritar atrás de
-          nós». Porém, Ele, respondendo, disse: «Eu não fui mandado senão às
-          ovelhas perdidas da casa de Israel». Mas ela veio e adorou-O, dizendo:
-          «Senhor, socorrei-me!». Ao que Ele respondeu: «Não é permitido tomar o
-          pão dos filhos e atirá-lo aos cães». E ela disse: «É verdade, Senhor;
-          mas os cachorrinhos também comem as migalhas que caem da mesa dos seus
-          senhores». Então Jesus disse: «Ó mulher, a tua fé é grande! Pois bem:
-          aconteça o que tu queres!». E a sua filha foi curada naquela mesma
-          hora.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Matthǽum.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Mateus.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Egréssus Jesus secéssit in partes Tyri et
+              Sidónis. Et ecce, múlier Chananǽa a fínibus illis egréssa
+              clamávit, dicens ei: Miserére mei, Dómine, fili David: fília mea
+              male a dæmónio vexátur. Qui non respóndit ei verbum. Et accedéntes
+              discípuli ejus rogábant eum, dicéntes: Dimítte eam; quia clamat
+              post nos. Ipse autem respóndens, ait: Non sum missus nisi ad oves,
+              quæ periérunt domus Israël. At illa venit, et adorávit eum,
+              dicens: Dómine, ádjuva me. Qui respóndens, ait: Non est bonum
+              sumere panem filiórum, et míttere cánibus. At illa dixit: Etiam,
+              Dómine: nam et catélli edunt de micis, quæ cadunt de mensa
+              dominórum suórum. Tunc respóndens Jesus, ait illi: O múlier, magna
+              est fides tua: fiat tibi, sicut vis. Et sanáta est fília ejus ex
+              illa hora.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, partindo Jesus, retirou-se dos lados de Tiro e de
+              Sidónia. E eis que uma mulher cananeia, vinda daquelas paragens,
+              clamou a Jesus, dizendo: «Senhor, filho de David, tende piedade de
+              mim, pois minha filha está fortemente atacada pelo demónio». Jesus
+              não respondeu nem uma palavra. Então, os discípulos aproximaram-se
+              e suplicaram-Lhe, dizendo: «Despedi-a já, porque vem a gritar
+              atrás de nós». Porém, Ele, respondendo, disse: «Eu não fui mandado
+              senão às ovelhas perdidas da casa de Israel». Mas ela veio e
+              adorou-O, dizendo: «Senhor, socorrei-me!». Ao que Ele respondeu:
+              «Não é permitido tomar o pão dos filhos e atirá-lo aos cães». E
+              ela disse: «É verdade, Senhor; mas os cachorrinhos também comem as
+              migalhas que caem da mesa dos seus senhores». Então Jesus disse:
+              «Ó mulher, a tua fé é grande! Pois bem: aconteça o que tu
+              queres!». E a sua filha foi curada naquela mesma hora.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 33, 8-9</em>
+          <Text className="em">Sl. 33, 8-9</Text>
 
-      <div className="side-by-side">
-        <p>
-          Immíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos:
-          gustáte, et vidéte, quóniam suávis est Dóminus.
-        </p>
-        <p>
-          O Anjo do Senhor rodeia aqueles que o temem e salvá-los-á. Examinai e
-          vede como o Senhor é bom!
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Immíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos:
+              gustáte, et vidéte, quóniam suávis est Dóminus.
+            </Text>
+            <Text className="text-base">
+              O Anjo do Senhor rodeia aqueles que o temem e salvá-los-á.
+              Examinai e vede como o Senhor é bom!
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Sacrifícia, Dómine, quǽsumus, propénsius ista nos salvent, quæ
-          medicinálibus sunt institúta jejúniis. Per Dóminum...
-        </p>
-        <p>
-          Senhor, Vos suplicamos, permiti que estes sacrifícios, que foram
-          instituídos juntamente com jejuns salutares, nos salvem pela vossa
-          misericórdia. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Sacrifícia, Dómine, quǽsumus, propénsius ista nos salvent, quæ
+              medicinálibus sunt institúta jejúniis. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Senhor, Vos suplicamos, permiti que estes sacrifícios, que foram
+              instituídos juntamente com jejuns salutares, nos salvem pela vossa
+              misericórdia. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Jo. 6, 52</em>
+          <Text className="em">Jo. 6, 52</Text>
 
-      <div className="side-by-side">
-        <p>Panis, quem ego dédero, caro mea est pro sǽculi vita.</p>
-        <p>O pão que eu Vos der é a minha carne para a salvação do mundo.</p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Panis, quem ego dédero, caro mea est pro sǽculi vita.
+            </Text>
+            <Text className="text-base">
+              O pão que eu Vos der é a minha carne para a salvação do mundo.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Tuórum nos, Dómine, largitáte donórum, et temporálibus attólle
-          præsídiis, et rénova sempitérnis. Per Dóminum nostrum...
-        </p>
-        <p>
-          Com a liberalidade de vossos dons, Senhor, livrai-nos das prisões
-          temporais e renovai-nos para a eternidade. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Tuórum nos, Dómine, largitáte donórum, et temporálibus attólle
+              præsídiis, et rénova sempitérnis. Per Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Com a liberalidade de vossos dons, Senhor, livrai-nos das prisões
+              temporais e renovai-nos para a eternidade. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Oração sobre o povo</h3>
+          <Text className="h3">Oração sobre o povo</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="text-red-500 text-center">Orémus.</span>
-        </p>
-        <p>
-          <span className="text-red-500 text-center">Oremos.</span>
-        </p>
-        <p>Humiliáte cápita vestra Deo.</p>
-        <p>Inclinai as vossas cabeças diante de Deus.</p>
-        <p>
-          Da, quǽsumus, Dómine, pópulis christiánis: et, quæ profiténtur,
-          agnóscere, et cœléste munus dilígere, quod frequéntant. Per Dóminum
-          nostrum...
-        </p>
-        <p>
-          Senhor, concedei aos fiéis cristãos, Vos suplicamos, a graça de
-          conhecerem a dignidade da fé, que professam, e de amarem o dom
-          celestial, que muitas vezes recebem. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Orémus.</Text>
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Oremos.</Text>
+            </Text>
+            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
+            <Text className="text-base">
+              Inclinai as vossas cabeças diante de Deus.
+            </Text>
+            <Text className="text-base">
+              Da, quǽsumus, Dómine, pópulis christiánis: et, quæ profiténtur,
+              agnóscere, et cœléste munus dilígere, quod frequéntant. Per
+              Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Senhor, concedei aos fiéis cristãos, Vos suplicamos, a graça de
+              conhecerem a dignidade da fé, que professam, e de amarem o dom
+              celestial, que muitas vezes recebem. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

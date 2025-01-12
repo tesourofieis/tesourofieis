@@ -1,30 +1,35 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0228() {
   return (
-    <div className="docs">
-      <h1>
-        Trasladação de S. Agostinho, Bispo, Confessor e Doutor, a 27 de
-        Fevereiro
-      </h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Trasladação de S. Agostinho, Bispo, Confessor e Doutor, a 27 de
+            Fevereiro
+          </Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/santos/08-28">
-          Missa na festa
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/santos/08-28">
+              Missa na festa
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h2>Oração</h2>
+          <Text className="h2">Oração</Text>
 
-      <h2>Secreta</h2>
+          <Text className="h2">Secreta</Text>
 
-      <h2>Postcomúnio</h2>
-    </div>
+          <Text className="h2">Postcomúnio</Text>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

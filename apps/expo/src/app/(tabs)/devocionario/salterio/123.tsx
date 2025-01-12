@@ -1,53 +1,75 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page123() {
   return (
-    <div className="docs">
-      <h1>Salmo 123</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Salmo 123</Text>
 
-      <div className="side-by-side">
-        <p>
-          Nisi quia Dóminus erat in nobis, dicat nunc Israël: * nisi quia
-          Dóminus erat in nobis,
-        </p>
-        <p>
-          Se o Senhor não tivesse estado connosco, diga-o agora Israel: * se o
-          Senhor não tivesse estado connosco,
-        </p>
-        <p>Cum exsúrgerent hómines in nos, * forte vivos deglutíssent nos:</p>
-        <p>
-          Quando os homens se levantavam contra nós, * de certo nos teriam
-          devorado vivos:
-        </p>
-        <p>
-          Cum irascerétur furor eórum in nos, * fórsitan aqua absorbuísset nos.
-        </p>
-        <p>
-          Quando se inflamou a ira deles contra nós, * sem dúvida a água nos
-          teria afogado.
-        </p>
-        <p>
-          Torréntem pertransívit ánima nostra: * fórsitan pertransísset ánima
-          nostra aquam intolerábilem.
-        </p>
-        <p>
-          A nossa alma passou a torrente: * talvez a nossa alma poderia ter
-          passado a água intolerável.
-        </p>
-        <p>
-          Benedíctus Dóminus * qui non dedit nos in captiónem déntibus eórum.
-        </p>
-        <p>Bendito o Senhor, * que nos não deu por presa aos seus dentes.</p>
-        <p>Ánima nostra sicut passer erépta est * de láqueo venántium:</p>
-        <p>A nossa alma escapou como o pássaro * do laço dos caçadores:</p>
-        <p>Láqueus contrítus est, * et nos liberáti sumus.</p>
-        <p>O laço foi quebrado, * e nós ficámos livres.</p>
-        <p>Adjutórium nostrum in nómine Dómini, * qui fecit cælum et terram.</p>
-        <p>Nosso auxílio está no nome do Senhor, * que fez o céu e a terra.</p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Nisi quia Dóminus erat in nobis, dicat nunc Israël: * nisi quia
+              Dóminus erat in nobis,
+            </Text>
+            <Text className="text-base">
+              Se o Senhor não tivesse estado connosco, diga-o agora Israel: * se
+              o Senhor não tivesse estado connosco,
+            </Text>
+            <Text className="text-base">
+              Cum exsúrgerent hómines in nos, * forte vivos deglutíssent nos:
+            </Text>
+            <Text className="text-base">
+              Quando os homens se levantavam contra nós, * de certo nos teriam
+              devorado vivos:
+            </Text>
+            <Text className="text-base">
+              Cum irascerétur furor eórum in nos, * fórsitan aqua absorbuísset
+              nos.
+            </Text>
+            <Text className="text-base">
+              Quando se inflamou a ira deles contra nós, * sem dúvida a água nos
+              teria afogado.
+            </Text>
+            <Text className="text-base">
+              Torréntem pertransívit ánima nostra: * fórsitan pertransísset
+              ánima nostra aquam intolerábilem.
+            </Text>
+            <Text className="text-base">
+              A nossa alma passou a torrente: * talvez a nossa alma poderia ter
+              passado a água intolerável.
+            </Text>
+            <Text className="text-base">
+              Benedíctus Dóminus * qui non dedit nos in captiónem déntibus
+              eórum.
+            </Text>
+            <Text className="text-base">
+              Bendito o Senhor, * que nos não deu por presa aos seus dentes.
+            </Text>
+            <Text className="text-base">
+              Ánima nostra sicut passer erépta est * de láqueo venántium:
+            </Text>
+            <Text className="text-base">
+              A nossa alma escapou como o pássaro * do laço dos caçadores:
+            </Text>
+            <Text className="text-base">
+              Láqueus contrítus est, * et nos liberáti sumus.
+            </Text>
+            <Text className="text-base">
+              O laço foi quebrado, * e nós ficámos livres.
+            </Text>
+            <Text className="text-base">
+              Adjutórium nostrum in nómine Dómini, * qui fecit cælum et terram.
+            </Text>
+            <Text className="text-base">
+              Nosso auxílio está no nome do Senhor, * que fez o céu e a terra.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,212 +1,222 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageNat20() {
   return (
-    <div className="docs">
-      <h1>Santíssimo Nome de Jesus</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Santíssimo Nome de Jesus</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Fl. 2, 10-11</em>
+          <Text className="em">Fl. 2, 10-11</Text>
 
-      <div className="side-by-side">
-        <p>
-          In nómine Jesu omne genu flectátur, cœléstium, terréstrium et
-          infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus
-          in glória est Dei Patris. <em>Ps. 8, 2</em> Dómine, Dóminus noster,
-          quam admirábile est nomen tuum in univérsa terra! ℣. Gloria Patri...
-        </p>
-        <p>
-          Que ao ser pronunciado o Nome de Jesus se dobrem todos os joelhos dos
-          que estão no céu, na terra e no inferno: e que toda a língua humana
-          confesse que o Senhor Jesus Cristo está na glória de Deus Pai.{" "}
-          <em>Ps. 8, 2</em> Senhor, nosso Senhor, como o vosso Nome é admirável
-          em todo o universo! ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              In nómine Jesu omne genu flectátur, cœléstium, terréstrium et
+              infernórum: et omnis lingua confiteátur, quia Dóminus Jesus
+              Christus in glória est Dei Patris.{" "}
+              <Text className="em">Ps. 8, 2</Text> Dómine, Dóminus noster, quam
+              admirábile est nomen tuum in univérsa terra! ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Que ao ser pronunciado o Nome de Jesus se dobrem todos os joelhos
+              dos que estão no céu, na terra e no inferno: e que toda a língua
+              humana confesse que o Senhor Jesus Cristo está na glória de Deus
+              Pai. <Text className="em">Ps. 8, 2</Text> Senhor, nosso Senhor,
+              como o vosso Nome é admirável em todo o universo! ℣. Glória ao
+              Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui unigénitum Fílium tuum constituísti hu máni géneris
-          Salvatórem, ei Jesum vocári jussísti: concéde propítius; ut, cujus
-          sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in
-          cœlis. Per eúndem Dóminum...
-        </p>
-        <p>
-          Ó Deus, que constituístes o vosso Filho Unigénito Salvador do mundo e
-          ordenastes que fosse chamado Jesus, concedei-nos propício que,
-          venerando nós o seu Santo Nome na terra, gozemos também a sua presença
-          nos céus. Pelo mesmo nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui unigénitum Fílium tuum constituísti hu máni géneris
+              Salvatórem, ei Jesum vocári jussísti: concéde propítius; ut, cujus
+              sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur
+              in cœlis. Per eúndem Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que constituístes o vosso Filho Unigénito Salvador do
+              mundo e ordenastes que fosse chamado Jesus, concedei-nos propício
+              que, venerando nós o seu Santo Nome na terra, gozemos também a sua
+              presença nos céus. Pelo mesmo nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Act. 4, 8-12</em>
+          <Text className="em">Act. 4, 8-12</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Actuum Apostolorum.</p>
-        <p>Lição dos Actos dos Apóstolos.</p>
-        <p>
-          In diébus illis: Petrus, replétus Spíritu Sancto, dixit: Príncipes
-          pópuli et senióres, audíte: Si nos hódie dijudicámur in benefácto
-          hóminis infírmi, in quo iste salvus factus est, notum sit ómnibus
-          vobis et omni plebi Israël: quia in nómine Dómini nostri Jesu Christi
-          Nazaréni, quem vos crucifixístis, quem Deus suscitávit a mórtuis, in
-          hoc iste astat coram vobis sanus. Hic est lapis, qui reprobátus est a
-          vobis ædificántibus: qui factus est in caput ánguli: et non est in
-          alio áliquo salus. Nec enim aliud nomen est sub cœlo datum homínibus,
-          in quo opórteat nos salvos fíeri.
-        </p>
-        <p>
-          Naqueles dias, Pedro, cheio de Espírito Santo, disse: «Príncipes do
-          povo e anciãos de Israel, escutai: Visto que somos hoje julgados por
-          causa dum milagre, concedido a um homem enfermo, para saber por quem
-          foi curado, sabei, vós todos e todo o povo de Israel, que foi curado
-          pelo Nome de Jesus Cristo Nazareno, a quem crucificastes, e que Deus
-          ressuscitou dos mortos. É por Ele que este homem se apresenta diante
-          de vós, plenamente curado. Este Jesus é a pedra que vós, querendo
-          edificar, desprezastes, e que se tornou a pedra principal do ângulo.
-          Não há salvação em nenhum outro nome, pois não existe debaixo do céu
-          outro nome, que tenha sido dado aos homens, pelo qual devamos ser
-          salvos».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio Actuum Apostolorum.</Text>
+            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="text-base">
+              In diébus illis: Petrus, replétus Spíritu Sancto, dixit: Príncipes
+              pópuli et senióres, audíte: Si nos hódie dijudicámur in benefácto
+              hóminis infírmi, in quo iste salvus factus est, notum sit ómnibus
+              vobis et omni plebi Israël: quia in nómine Dómini nostri Jesu
+              Christi Nazaréni, quem vos crucifixístis, quem Deus suscitávit a
+              mórtuis, in hoc iste astat coram vobis sanus. Hic est lapis, qui
+              reprobátus est a vobis ædificántibus: qui factus est in caput
+              ánguli: et non est in alio áliquo salus. Nec enim aliud nomen est
+              sub cœlo datum homínibus, in quo opórteat nos salvos fíeri.
+            </Text>
+            <Text className="text-base">
+              Naqueles dias, Pedro, cheio de Espírito Santo, disse: «Príncipes
+              do povo e anciãos de Israel, escutai: Visto que somos hoje
+              julgados por causa dum milagre, concedido a um homem enfermo, para
+              saber por quem foi curado, sabei, vós todos e todo o povo de
+              Israel, que foi curado pelo Nome de Jesus Cristo Nazareno, a quem
+              crucificastes, e que Deus ressuscitou dos mortos. É por Ele que
+              este homem se apresenta diante de vós, plenamente curado. Este
+              Jesus é a pedra que vós, querendo edificar, desprezastes, e que se
+              tornou a pedra principal do ângulo. Não há salvação em nenhum
+              outro nome, pois não existe debaixo do céu outro nome, que tenha
+              sido dado aos homens, pelo qual devamos ser salvos».
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 105, 47</em>
+          <Text className="em">Sl. 105, 47</Text>
 
-      <div className="side-by-side">
-        <p>
-          Salvos fac nos, Dómine, Deus noster, et cóngrega nos de natiónibus: ut
-          confiteámur nómini sancto tuo, et gloriémur in glória tua. ℣.{" "}
-          <em>Isai. 63, 16</em> Tu, Dómine, Pater noster et Redémptor noster: a
-          sǽculo nomen tuum.
-        </p>
-        <p>
-          Salvai-nos, ó Senhor, nosso Deus, e reuni-nos todos no meio das
-          nações, a fim de que confessemos o vosso Santo Nome e nos gloriemos
-          com vossos louvores. ℣. <em>Isai. 63, 16</em> Senhor, sois o nosso Pai
-          e Redentor! vosso Nome é eterno!
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Ps. 144, 21</em> Laudem Dómini loquétur os
-          meum, et benedícat omnis caro nomen sanctum ejus. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Sl. 144, 21</em> Que minha boca anuncie os
-          louvores do Senhor: que toda a carne humana bendiga o seu Santo Nome.
-          Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Salvos fac nos, Dómine, Deus noster, et cóngrega nos de
+              natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in
+              glória tua. ℣. <Text className="em">Isai. 63, 16</Text> Tu,
+              Dómine, Pater noster et Redémptor noster: a sǽculo nomen tuum.
+            </Text>
+            <Text className="text-base">
+              Salvai-nos, ó Senhor, nosso Deus, e reuni-nos todos no meio das
+              nações, a fim de que confessemos o vosso Santo Nome e nos
+              gloriemos com vossos louvores. ℣.{" "}
+              <Text className="em">Isai. 63, 16</Text> Senhor, sois o nosso Pai
+              e Redentor! vosso Nome é eterno!
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Ps. 144, 21</Text>{" "}
+              Laudem Dómini loquétur os meum, et benedícat omnis caro nomen
+              sanctum ejus. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Sl. 144, 21</Text> Que
+              minha boca anuncie os louvores do Senhor: que toda a carne humana
+              bendiga o seu Santo Nome. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Lc. 2, 21</em>
+          <Text className="em">Lc. 2, 21</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Lucam.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Lucas.
-        </p>
-        <p>
-          In illo témpore: Postquam consummáti sunt dies octo, ut
-          circumciderétur Puer: vocátum est nomen ejus Jesus, quod vocátum est
-          ab Angelo, priúsquam in útero conciperétur.
-        </p>
-        <p>
-          Naquele tempo, passados que foram oito dias depois dos quais o Menino
-          devia ser circuncidado, foi-Lhe dado o nome de Jesus, que foi aquele
-          que o Anjo Lhe havia dado, antes de ser concebido no seio de sua Mãe.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Lucam.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Lucas.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Postquam consummáti sunt dies octo, ut
+              circumciderétur Puer: vocátum est nomen ejus Jesus, quod vocátum
+              est ab Angelo, priúsquam in útero conciperétur.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, passados que foram oito dias depois dos quais o
+              Menino devia ser circuncidado, foi-Lhe dado o nome de Jesus, que
+              foi aquele que o Anjo Lhe havia dado, antes de ser concebido no
+              seio de sua Mãe.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 85, 12 & 5</em>
+          <Text className="em">Sl. 85, 12 & 5</Text>
 
-      <div className="side-by-side">
-        <p>
-          Confitébor tibi, Dómine, Deus meus, in toto corde meo, et glorificábo
-          nomen tuum in ætérnum: quóniam tu, Dómine, suávis et mitis es: et
-          multæ misericórdiæ ómnibus invocántibus te, allelúja.
-        </p>
-        <p>
-          Louvar-Vos-ei de todo meu coração, ó Senhor, meu Deus: e glorificarei
-          eternamente o vosso Nome; pois Vós, ó Senhor, sois cheio de clemência
-          e de bondade: e as vossas misericórdias estendem-se a todos quantos
-          Vos invocam. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Confitébor tibi, Dómine, Deus meus, in toto corde meo, et
+              glorificábo nomen tuum in ætérnum: quóniam tu, Dómine, suávis et
+              mitis es: et multæ misericórdiæ ómnibus invocántibus te, allelúja.
+            </Text>
+            <Text className="text-base">
+              Louvar-Vos-ei de todo meu coração, ó Senhor, meu Deus: e
+              glorificarei eternamente o vosso Nome; pois Vós, ó Senhor, sois
+              cheio de clemência e de bondade: e as vossas misericórdias
+              estendem-se a todos quantos Vos invocam. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Benedíctio tua, clementíssime Deus, qua omnis viget creatúra,
-          sanctíficet, quǽsumus, hoc sacrifícium nostrum, quod ad glóriam
-          nóminis Fílii tui, Dómini nostri Jesu Christi, offérimus tibi: ut
-          majestáti tuæ placére possit ad laudem, et nobis profícere ad salútem.
-          Per eúndem Dóminum...
-        </p>
-        <p>
-          Ó Deus clementíssimo, que a vossa bênção, que dá a vida a todas as
-          criaturas, santifique este nosso sacrifício, que oferecemos em glória
-          do Nome do vosso Filho, nosso Senhor Jesus Cristo, a fim de que ele
-          possa honrar a vossa majestade, e, agradando-lhe, seja útil à nossa
-          salvação. Pelo mesmo nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Benedíctio tua, clementíssime Deus, qua omnis viget creatúra,
+              sanctíficet, quǽsumus, hoc sacrifícium nostrum, quod ad glóriam
+              nóminis Fílii tui, Dómini nostri Jesu Christi, offérimus tibi: ut
+              majestáti tuæ placére possit ad laudem, et nobis profícere ad
+              salútem. Per eúndem Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus clementíssimo, que a vossa bênção, que dá a vida a todas as
+              criaturas, santifique este nosso sacrifício, que oferecemos em
+              glória do Nome do vosso Filho, nosso Senhor Jesus Cristo, a fim de
+              que ele possa honrar a vossa majestade, e, agradando-lhe, seja
+              útil à nossa salvação. Pelo mesmo nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Sl. 85, 9-10</em>
+          <Text className="em">Sl. 85, 9-10</Text>
 
-      <div className="side-by-side">
-        <p>
-          Omnes gentes, quascúmque fecísti, vénient et adorábunt coram te,
-          Dómine, et glorificábunt nomen tuum: quóniam magnus es tu et fáciens
-          mirabília: tu es Deus solus, allelúja.
-        </p>
-        <p>
-          Todos os povos, que criastes, virão e se prostrarão diante de Vós,
-          Senhor, adorando-Vos e glorificando o vosso Nome; pois sois grande e
-          praticais prodígios. Só Vós sois Deus. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Omnes gentes, quascúmque fecísti, vénient et adorábunt coram te,
+              Dómine, et glorificábunt nomen tuum: quóniam magnus es tu et
+              fáciens mirabília: tu es Deus solus, allelúja.
+            </Text>
+            <Text className="text-base">
+              Todos os povos, que criastes, virão e se prostrarão diante de Vós,
+              Senhor, adorando-Vos e glorificando o vosso Nome; pois sois grande
+              e praticais prodígios. Só Vós sois Deus. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Omnípotens ætérae Deus, qui creásti et redemísti nos, réspice
-          propítius vota nostra: et sacrifícium salutáris hóstiæ, quod in
-          honórem nóminis Fílii tui, Dómini nostri Jesu Christi, majestáti tuæ
-          obtúlimus, plácido et benígno vultu suscípere dignéris; ut grátia tua
-          nobis infúsa, sub glorióso nómine Jesu, ætérnæ prædestinatiónis titulo
-          gaudeámus nómina nostra scripta esse in cœlis. Per eúndem Dóminu...
-        </p>
-        <p>
-          Deus omnipotente e eterno, que nos criastes e resgatastes, olhai
-          benignamente para as nossas ofertas e dignai-Vos aceitar com ânimo
-          suave e piedoso o sacrifício da Hóstia salutar, que oferecemos à vossa
-          majestade em honra do Nome do vosso Filho, nosso Senhor Jesus Cristo,
-          a fim de que, infundida a vossa graça em nossas almas, possamos
-          alegrar-nos, vendo os nossos nomes escritos nos céus, abaixo do
-          glorioso Nome de Jesus, no livro da eterna predestinação. Pelo mesmo
-          Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Omnípotens ætérae Deus, qui creásti et redemísti nos, réspice
+              propítius vota nostra: et sacrifícium salutáris hóstiæ, quod in
+              honórem nóminis Fílii tui, Dómini nostri Jesu Christi, majestáti
+              tuæ obtúlimus, plácido et benígno vultu suscípere dignéris; ut
+              grátia tua nobis infúsa, sub glorióso nómine Jesu, ætérnæ
+              prædestinatiónis titulo gaudeámus nómina nostra scripta esse in
+              cœlis. Per eúndem Dóminu...
+            </Text>
+            <Text className="text-base">
+              Deus omnipotente e eterno, que nos criastes e resgatastes, olhai
+              benignamente para as nossas ofertas e dignai-Vos aceitar com ânimo
+              suave e piedoso o sacrifício da Hóstia salutar, que oferecemos à
+              vossa majestade em honra do Nome do vosso Filho, nosso Senhor
+              Jesus Cristo, a fim de que, infundida a vossa graça em nossas
+              almas, possamos alegrar-nos, vendo os nossos nomes escritos nos
+              céus, abaixo do glorioso Nome de Jesus, no livro da eterna
+              predestinação. Pelo mesmo Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

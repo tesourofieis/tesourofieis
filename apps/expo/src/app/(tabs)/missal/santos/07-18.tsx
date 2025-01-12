@@ -1,194 +1,202 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0718() {
   return (
-    <div className="docs">
-      <h1>S. Camilo de Lélis, Conf., a 18 de Julho</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Camilo de Lélis, Conf., a 18 de Julho</Text>
 
-      <aside>
-        O Espírito Santo, que se manifestou de todos os modos na alma dos Santos
-        cujos nomes apareceram no Ciclo desde a festa de Pentecostes, faz-nos
-        admirar hoje a S. Camilo, cuja caridade teve especialmente por objecto a
-        Jesus no próximo (Com.). Nascido em 1550, no reino de Nápoles, da nobre
-        família dos Lélis, S. Camilo entrou para os Capuchinhos mas uma chaga na
-        perna obrigou-o a sair por duas vezes. Deus o destinava a fundar uma
-        Congregação de Clérigos regulares, consagrados ao serviço dos doentes.
-        Obteve da Sé Apostólica a aprovação de sua Ordem. Inspirando-se no
-        exemplo de Jesus, que morreu por nós (Ep.) e declarou não haver maior
-        prova de amor do que dar a vida pelos outros (Intr., Ev.), os religiosos
-        se obrigam a assistir os doentes, mesmo os pestíferos. S. Camilo, bem
-        como o seu Instituto, recebeu de Deus a graça todo especial de ajudar
-        vitoriosamente as almas na suprema luta da agonia (Or., Secre.), pelo
-        que o nome do Santo foi inserido pela Igreja nas Ladainhas dos
-        agonizantes. S. Camilo morreu em Roma a 14 de Julho de 1624.
-      </aside>
+          <View className="aside">
+            O Espírito Santo, que se manifestou de todos os modos na alma dos
+            Santos cujos nomes apareceram no Ciclo desde a festa de Pentecostes,
+            faz-nos admirar hoje a S. Camilo, cuja caridade teve especialmente
+            por objecto a Jesus no próximo (Com.). Nascido em 1550, no reino de
+            Nápoles, da nobre família dos Lélis, S. Camilo entrou para os
+            Capuchinhos mas uma chaga na perna obrigou-o a sair por duas vezes.
+            Deus o destinava a fundar uma Congregação de Clérigos regulares,
+            consagrados ao serviço dos doentes. Obteve da Sé Apostólica a
+            aprovação de sua Ordem. Inspirando-se no exemplo de Jesus, que
+            morreu por nós (Ep.) e declarou não haver maior prova de amor do que
+            dar a vida pelos outros (Intr., Ev.), os religiosos se obrigam a
+            assistir os doentes, mesmo os pestíferos. S. Camilo, bem como o seu
+            Instituto, recebeu de Deus a graça todo especial de ajudar
+            vitoriosamente as almas na suprema luta da agonia (Or., Secre.),
+            pelo que o nome do Santo foi inserido pela Igreja nas Ladainhas dos
+            agonizantes. S. Camilo morreu em Roma a 14 de Julho de 1624.
+          </View>
 
-      <aside>
-        Comemoração de Santa Sinforoza e seus Filhos como na [Missa Sapiéntiam
-        sanctórum](/missal/comum/7muitosmartires2).
-      </aside>
+          <View className="aside">
+            Comemoração de Santa Sinforoza e seus Filhos como na [Missa
+            Sapiéntiam sanctórum](/missal/comum/7muitosmartires2).
+          </View>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Jo. 15, 13</em>
+          <Text className="em">Jo. 15, 13</Text>
 
-      <div className="side-by-side">
-        <p>
-          Majórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro
-          amícis suis. <em>Ps. 40, 2</em> Beátus, qui intéllegit super egénum et
-          páuperem: in dic mala liberábit eum Dóminus. ℣. Gloria Patri...
-        </p>
-        <p>
-          Ninguém pode dar maior prova de amor do que dar a sua vida pelos seus
-          amigos. <em>Sl. 40, 2</em> Bem-aventurado aquele que atende às
-          necessidades do pobre e do indigente, pois o Senhor o livrará no dia
-          da aflição. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Majórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro
+              amícis suis. <Text className="em">Ps. 40, 2</Text> Beátus, qui
+              intéllegit super egénum et páuperem: in dic mala liberábit eum
+              Dóminus. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Ninguém pode dar maior prova de amor do que dar a sua vida pelos
+              seus amigos. <Text className="em">Sl. 40, 2</Text> Bem-aventurado
+              aquele que atende às necessidades do pobre e do indigente, pois o
+              Senhor o livrará no dia da aflição. ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui sanctum Camíllum, ad animárum in extrémo agóne luctántium
-          subsídium, singulári caritátis prærogatíva decorásti: ejus, quǽsumus,
-          méritis, spíritum nobis tuæ dilectiónis infúnde; ut in hora éxitus
-          nostri hostem víncere, et ad cœléstem mereámur corónam perveníre. Per
-          Dóminum...
-        </p>
-        <p>
-          Ó Deus, que dotastes S. Camilo com a prerrogativa de uma singular
-          caridade para auxiliar as almas nas derradeiras lutas da agonia,
-          infundi-nos pelos seus méritos, Vos suplicamos, o espírito do vosso
-          amor, a fim de que, na hora da nossa morte, mereçamos vencer o inimigo
-          e alcançar a coroa celestial. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui sanctum Camíllum, ad animárum in extrémo agóne
+              luctántium subsídium, singulári caritátis prærogatíva decorásti:
+              ejus, quǽsumus, méritis, spíritum nobis tuæ dilectiónis infúnde;
+              ut in hora éxitus nostri hostem víncere, et ad cœléstem mereámur
+              corónam perveníre. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que dotastes S. Camilo com a prerrogativa de uma singular
+              caridade para auxiliar as almas nas derradeiras lutas da agonia,
+              infundi-nos pelos seus méritos, Vos suplicamos, o espírito do
+              vosso amor, a fim de que, na hora da nossa morte, mereçamos vencer
+              o inimigo e alcançar a coroa celestial. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <LinkCard
-        href="/missal/pentecostes/pent2-0#epístola"
-        title="Segundo Domingo depois de Pentecostes"
-      />
+          <LinkCard
+            href="/missal/pentecostes/pent2-0#epístola"
+            title="Segundo Domingo depois de Pentecostes"
+          />
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <LinkCard
-        href="/missal/comum/15confessoresnaopontifices2#gradual"
-        title="Confessores não Pontífices - Missa Justus ut palma"
-      />
+          <LinkCard
+            href="/missal/comum/15confessoresnaopontifices2#gradual"
+            title="Confessores não Pontífices - Missa Justus ut palma"
+          />
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Jo. 15, 12-16</em>
+          <Text className="em">Jo. 15, 12-16</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Joánnem.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. João.
-        </p>
-        <p>
-          In illo témpore: Dixit Jesus discípulis suis: Hoc est præcéptum meum,
-          ut diligátis ínvicem, sicut diléxi vos. Majorem hac dilectiónem nemo
-          habet, ut ánimam suam ponat quis pro amícis suis. Vos amíci mei estis,
-          si fecéritis quæ ego præcípio vobis. Jam non dicam vos servos: quia
-          servus nescit, quid fáciat dóminus ejus. Vos autem dixi amícos: quia
-          ómnia, quæcúmque audívi a Patre meo, nota feci vobis. Non vos me
-          elegístis: sed ego elegi vos, et pósui vos, ut eátís, et fructum
-          afferátis: et fructus vester maneat: ut, quodcúmque petiéritis Patrem
-          in nómine meo, det vobis.
-        </p>
-        <p>
-          Naquele tempo, disse Jesus aos seus discípulos: «Este é o meu
-          mandamento: «Que vos ameis uns aos outros, como vos amei». Ninguém
-          pode ter maior amor do que dar a sua vida pelos seus amigos. Vós
-          sereis meus amigos se fizerdes o que vos mando. Já vos não chamarei
-          servos, porque o servo ignora o que faz o seu senhor. Chamo-vos meus
-          amigos, porque tudo quanto ouvi a meu Pai vo-lo tenho feito conhecer.
-          Não fostes vós que me escolhestes a mim, mas Eu é que vos escolhi e
-          vos destinei, para que caminheis e alcanceis fruto. Que este fruto,
-          pois, permaneça, para que meu Pai vos conceda tudo quanto Lhe pedirdes
-          em meu nome».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Joánnem.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. João.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Dixit Jesus discípulis suis: Hoc est præcéptum
+              meum, ut diligátis ínvicem, sicut diléxi vos. Majorem hac
+              dilectiónem nemo habet, ut ánimam suam ponat quis pro amícis suis.
+              Vos amíci mei estis, si fecéritis quæ ego præcípio vobis. Jam non
+              dicam vos servos: quia servus nescit, quid fáciat dóminus ejus.
+              Vos autem dixi amícos: quia ómnia, quæcúmque audívi a Patre meo,
+              nota feci vobis. Non vos me elegístis: sed ego elegi vos, et pósui
+              vos, ut eátís, et fructum afferátis: et fructus vester maneat: ut,
+              quodcúmque petiéritis Patrem in nómine meo, det vobis.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, disse Jesus aos seus discípulos: «Este é o meu
+              mandamento: «Que vos ameis uns aos outros, como vos amei». Ninguém
+              pode ter maior amor do que dar a sua vida pelos seus amigos. Vós
+              sereis meus amigos se fizerdes o que vos mando. Já vos não
+              chamarei servos, porque o servo ignora o que faz o seu senhor.
+              Chamo-vos meus amigos, porque tudo quanto ouvi a meu Pai vo-lo
+              tenho feito conhecer. Não fostes vós que me escolhestes a mim, mas
+              Eu é que vos escolhi e vos destinei, para que caminheis e
+              alcanceis fruto. Que este fruto, pois, permaneça, para que meu Pai
+              vos conceda tudo quanto Lhe pedirdes em meu nome».
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 20, 2-3</em>
+          <Text className="em">Sl. 20, 2-3</Text>
 
-      <div className="side-by-side">
-        <p>
-          In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum
-          exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.
-        </p>
-        <p>
-          Com o vosso poder, Senhor, se alegrará o justo, o qual exultará de
-          alegria, vendo-se salvo por Vós. Concedestes-lhe, Senhor, o desejo da
-          sua alma.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum
+              exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.
+            </Text>
+            <Text className="text-base">
+              Com o vosso poder, Senhor, se alegrará o justo, o qual exultará de
+              alegria, vendo-se salvo por Vós. Concedestes-lhe, Senhor, o desejo
+              da sua alma.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Hóstia immaculáta, qua illud Dómini nostri Jesu Christi imménsæ
-          caritátis opus renovámus, sit, Deus Pater omnípotens, sancto Gamíllo
-          intercedénte, contra omnes córporis et animae infirmitates salutáre
-          remedium, et in extrémo agóne solátium et tutela. Per eúndem
-          Dóminum...
-        </p>
-        <p>
-          Que a hóstia imaculada pela qual renovamos esta instituição da imensa
-          caridade de nosso Senhor Jesus Cristo seja para nós, pela intercessão
-          de S. Camilo, remédio salutar contra todas as enfermidades da alma e
-          do corpo e na extrema agonia nos sirva de consolação e de protecção.
-          Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Hóstia immaculáta, qua illud Dómini nostri Jesu Christi imménsæ
+              caritátis opus renovámus, sit, Deus Pater omnípotens, sancto
+              Gamíllo intercedénte, contra omnes córporis et animae infirmitates
+              salutáre remedium, et in extrémo agóne solátium et tutela. Per
+              eúndem Dóminum...
+            </Text>
+            <Text className="text-base">
+              Que a hóstia imaculada pela qual renovamos esta instituição da
+              imensa caridade de nosso Senhor Jesus Cristo seja para nós, pela
+              intercessão de S. Camilo, remédio salutar contra todas as
+              enfermidades da alma e do corpo e na extrema agonia nos sirva de
+              consolação e de protecção. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Mt. 25, 36 & 40</em>
+          <Text className="em">Mt. 25, 36 & 40</Text>
 
-      <div className="side-by-side">
-        <p>
-          Infírmus fui, et visitástis me. Amen, amen, dico vobis: Quámdiu
-          fecístis uni ex his frátribus meis minimis, mihi fecístis.
-        </p>
-        <p>
-          Estive enfermo e visitastes-me. Em verdade, em verdade vos digo: todas
-          as vezes que fizerdes isto mesmo a um destes meus irmãos mais
-          pequeninos, a mim mesmo o fizestes.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Infírmus fui, et visitástis me. Amen, amen, dico vobis: Quámdiu
+              fecístis uni ex his frátribus meis minimis, mihi fecístis.
+            </Text>
+            <Text className="text-base">
+              Estive enfermo e visitastes-me. Em verdade, em verdade vos digo:
+              todas as vezes que fizerdes isto mesmo a um destes meus irmãos
+              mais pequeninos, a mim mesmo o fizestes.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Per hæc cœléstia aliménta, quæ, sancti Camílli Confessóris tui
-          sollémnia celebrántes, pia devotióne suscépimus: da, quǽsumus. Dómine;
-          ut, in hora mortis nostræ sacraméntis refécti et culpis ómnibus
-          expiáti, in sinum misericórdiæ tuæ læti súscipi mereámur: Qui vivis...
-        </p>
-        <p>
-          Por estes alimentos celestiais, que recebemos com pia devoção
-          celebrando a festa de S. Camilo, vosso Confessor, concedei-nos,
-          Senhor, Vos suplicamos, que à hora da morte, munidos com os
-          sacramentos e limpos de todas as culpas, mereçamos ser recebidos com
-          alegria no seio da vossa misericórdia. Ó Vós, que, sendo Deus...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Per hæc cœléstia aliménta, quæ, sancti Camílli Confessóris tui
+              sollémnia celebrántes, pia devotióne suscépimus: da, quǽsumus.
+              Dómine; ut, in hora mortis nostræ sacraméntis refécti et culpis
+              ómnibus expiáti, in sinum misericórdiæ tuæ læti súscipi mereámur:
+              Qui vivis...
+            </Text>
+            <Text className="text-base">
+              Por estes alimentos celestiais, que recebemos com pia devoção
+              celebrando a festa de S. Camilo, vosso Confessor, concedei-nos,
+              Senhor, Vos suplicamos, que à hora da morte, munidos com os
+              sacramentos e limpos de todas as culpas, mereçamos ser recebidos
+              com alegria no seio da vossa misericórdia. Ó Vós, que, sendo
+              Deus...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

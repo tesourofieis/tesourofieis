@@ -1,34 +1,41 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page1029Portugal() {
   return (
-    <div className="docs">
-      <h1>Trasl. de Santa Isabel, Rainha, a 29 de Outubro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Trasl. de Santa Isabel, Rainha, a 29 de Outubro
+          </Text>
 
-      <aside>
-        Como na [Missa da Santa Isabel, Rainha de
-        Portugal](/missal/santos/07-04), excepto:
-      </aside>
+          <View className="aside">
+            Como na [Missa da Santa Isabel, Rainha de
+            Portugal](/missal/santos/07-04), excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui largitor ómnium bonórum, qui hunc diem beátæ Elisabeth
-          veneránda Translatióne illustrásti: quæsumus; ut ejus précibus et
-          intercessióne, nos de terrénis ad consórtia tránsferas Beatórum. Per
-          Dóminum...
-        </p>
-        <p>
-          Ó Deus, dispensador de todos os dons, que Vos dignastes ilustrar este
-          dia com a veneranda Trasladação da B. Isabel, fazei, Vos suplicamos,
-          que pelas suas preces e intercessão transitemos das coisas terrenas
-          para a companhia dos bem-aventurados. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui largitor ómnium bonórum, qui hunc diem beátæ Elisabeth
+              veneránda Translatióne illustrásti: quæsumus; ut ejus précibus et
+              intercessióne, nos de terrénis ad consórtia tránsferas Beatórum.
+              Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, dispensador de todos os dons, que Vos dignastes ilustrar
+              este dia com a veneranda Trasladação da B. Isabel, fazei, Vos
+              suplicamos, que pelas suas preces e intercessão transitemos das
+              coisas terrenas para a companhia dos bem-aventurados. Por nosso
+              Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

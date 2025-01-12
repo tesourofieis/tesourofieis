@@ -1,134 +1,142 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0609() {
   return (
-    <div className="docs">
-      <h1>S. S. Primo e Feliciano, Mártires, a 9 de Junho</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. S. Primo e Feliciano, Mártires, a 9 de Junho
+          </Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/7muitosmartires2">
-          Missa Sapiéntiam sanctórum
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/7muitosmartires2">
+              Missa Sapiéntiam sanctórum
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Fac nos, quǽsumus. Dómine, sanctórum Martyrum tuórum Primi et
-          Feliciáni semper festa sectári: quorum suffrágiis protectiónis tuæ
-          dona sentiámus. Per Dóminum...
-        </p>
-        <p>
-          Permiti, Senhor, Vos rogamos, que celebremos sempre fielmente a festa
-          dos vossos Santos Mártires Primo e Feliciano, a fim de que pela sua
-          intercessão sintamos os benefícios da vossa protecção. Por nosso
-          Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Fac nos, quǽsumus. Dómine, sanctórum Martyrum tuórum Primi et
+              Feliciáni semper festa sectári: quorum suffrágiis protectiónis tuæ
+              dona sentiámus. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Permiti, Senhor, Vos rogamos, que celebremos sempre fielmente a
+              festa dos vossos Santos Mártires Primo e Feliciano, a fim de que
+              pela sua intercessão sintamos os benefícios da vossa protecção.
+              Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 88, 6 & 2</em>
+          <Text className="em">Sl. 88, 6 & 2</Text>
 
-      <div className="side-by-side">
-        <p>
-          Confitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in
-          ecclésia sanctórum. ℣. Misericórdias tuas, Dómine, in ætérnum cantábo:
-          in generatióne et progénie.
-        </p>
-        <p>
-          Que os céus publiquem as vossas maravilhas, Senhor! Que se publique
-          também na assembleia dos santos a vossa fidelidade. ℣. Cantarei
-          eternamente as vossas misericórdias, Senhor! Sim, de geração em
-          geração eu as cantarei!
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi
-          crímina: Christum secúta est, ínclita tenens regna cœléstia. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. Esta é a verdadeira fraternidade que venceu os
-          crimes do mundo. Ela seguiu Cristo, possuindo gloriosamente o reino
-          celestial. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Confitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in
+              ecclésia sanctórum. ℣. Misericórdias tuas, Dómine, in ætérnum
+              cantábo: in generatióne et progénie.
+            </Text>
+            <Text className="text-base">
+              Que os céus publiquem as vossas maravilhas, Senhor! Que se
+              publique também na assembleia dos santos a vossa fidelidade. ℣.
+              Cantarei eternamente as vossas misericórdias, Senhor! Sim, de
+              geração em geração eu as cantarei!
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi
+              crímina: Christum secúta est, ínclita tenens regna cœléstia.
+              Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. Esta é a verdadeira fraternidade que venceu
+              os crimes do mundo. Ela seguiu Cristo, possuindo gloriosamente o
+              reino celestial. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <LinkCard
-        href="/missal/santos/01-15-1#evangelho"
-        title="S. Paulo, 1.º Eremita, Conf."
-      />
+          <LinkCard
+            href="/missal/santos/01-15-1#evangelho"
+            title="S. Paulo, 1.º Eremita, Conf."
+          />
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 67, 36</em>
+          <Text className="em">Sl. 67, 36</Text>
 
-      <div className="side-by-side">
-        <p>
-          Mirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et
-          fortitúdinem plebi suæ: benedíctus Deus, allelúja.
-        </p>
-        <p>
-          Deus é admirável em seus santos. É o Deus de Israel quem dá força e
-          coragem ao seu povo. Bendito seja Deus, aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Mirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem
+              et fortitúdinem plebi suæ: benedíctus Deus, allelúja.
+            </Text>
+            <Text className="text-base">
+              Deus é admirável em seus santos. É o Deus de Israel quem dá força
+              e coragem ao seu povo. Bendito seja Deus, aleluia.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Fiat tibi, quǽsumus, Dómine, hóstia sacránda placábilis, pretiósi
-          celebritáte martýrii: quæ et peccáta nostra puríficet, et tuórum tibi
-          vota concíliet famulórum. Per Dóminum...
-        </p>
-        <p>
-          Senhor, que esta hóstia, que vai ser consagrada na celebração deste
-          precioso mystério, Vos aplaque; e, Vos suplicamos, que ela apague os
-          nossos pecados e Vos torne agradáveis os votos dos vossos servos. Por
-          nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Fiat tibi, quǽsumus, Dómine, hóstia sacránda placábilis, pretiósi
+              celebritáte martýrii: quæ et peccáta nostra puríficet, et tuórum
+              tibi vota concíliet famulórum. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Senhor, que esta hóstia, que vai ser consagrada na celebração
+              deste precioso mystério, Vos aplaque; e, Vos suplicamos, que ela
+              apague os nossos pecados e Vos torne agradáveis os votos dos
+              vossos servos. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Jo. 15, 16</em>
+          <Text className="em">Jo. 15, 16</Text>
 
-      <div className="side-by-side">
-        <p>
-          Ego vos elegi de mundo, ut eátis et fructum afferátis: et fructus
-          vester máneat.
-        </p>
-        <p>
-          Eu vos escolhi no mundo, para que possais ir e alcanceis fruto; e que
-          esse fruto permaneça.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Ego vos elegi de mundo, ut eátis et fructum afferátis: et fructus
+              vester máneat.
+            </Text>
+            <Text className="text-base">
+              Eu vos escolhi no mundo, para que possais ir e alcanceis fruto; e
+              que esse fruto permaneça.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Quǽsumus, omnípotens Deus: ut sanctórum Mártyrum tuórum Primi et
-          Feliciáni cœléstibus mystériis celebráta sollémnitas, indulgéntiam
-          nobis tuæ propitiatiónis acquírat. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus omnipotente, Vos suplicamos, permiti que estes celestiais
-          mystérios, com os quais celebramos a solenidade dos vossos Santos
-          Mártires Primo e Feliciano, nos alcancem o perdão da vossa
-          misericórdia. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Quǽsumus, omnípotens Deus: ut sanctórum Mártyrum tuórum Primi et
+              Feliciáni cœléstibus mystériis celebráta sollémnitas, indulgéntiam
+              nobis tuæ propitiatiónis acquírat. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus omnipotente, Vos suplicamos, permiti que estes celestiais
+              mystérios, com os quais celebramos a solenidade dos vossos Santos
+              Mártires Primo e Feliciano, nos alcancem o perdão da vossa
+              misericórdia. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

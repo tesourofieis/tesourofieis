@@ -1,25 +1,30 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageActocaridade() {
   return (
-    <div className="docs">
-      <h1>Acto de Caridade</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Acto de Caridade</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dómine Deus, amo te super ómnia et próximum meum propter te, quia tu
-          es summum, infinítum, et perfectíssimum bonum, omni dilectióne dignum.
-          In hac caritáte vívere et mori státuo. Amen.
-        </p>
-        <p>
-          Senhor Deus, amo-Vos sobre todas as coisas e a meu próximo por causa
-          de Vós, porque Vós sois o sumo bem, infinito e perfeitíssimo, digno de
-          todo amor. Nesta caridade, é minha determinação viver e morrer. Amen.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine Deus, amo te super ómnia et próximum meum propter te, quia
+              tu es summum, infinítum, et perfectíssimum bonum, omni dilectióne
+              dignum. In hac caritáte vívere et mori státuo. Amen.
+            </Text>
+            <Text className="text-base">
+              Senhor Deus, amo-Vos sobre todas as coisas e a meu próximo por
+              causa de Vós, porque Vós sois o sumo bem, infinito e
+              perfeitíssimo, digno de todo amor. Nesta caridade, é minha
+              determinação viver e morrer. Amen.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

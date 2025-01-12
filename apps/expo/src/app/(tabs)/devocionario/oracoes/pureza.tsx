@@ -1,22 +1,27 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PagePureza() {
   return (
-    <div className="docs">
-      <h1>Pureza</h1>
-      Dulcíssimo Menino Jesus, Cordeiro imaculado, cheio de bondade,
-      misericórdia e amor! Para nos restituirdes a santa inocência, vieste do
-      céu à terra, sofrestes pobreza e perseguições. Eu Vos agradeço e Vos amo
-      de todo meu coração. E por vosso amor proponho hoje firmemente guardar com
-      todo o cuidado a santa pureza do coração. Ó meu Jesus, abençoa o meu
-      corpo, para que seja sempre um santuário de inocência e pureza. Fazei que
-      eu evite com cuidado todo o pecado moral, tal como a uma peste contagiosa.
-      Ó Jesus inocentíssimo e todo imaculado, pelo vosso amor e pela vossa
-      inocência concedei-me a virtude da santa pureza, para que eu, depois da
-      minha morte, tenha a felicidade de ver Vos no céu.
-    </div>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Pureza</Text>
+          Dulcíssimo Menino Jesus, Cordeiro imaculado, cheio de bondade,
+          misericórdia e amor! Para nos restituirdes a santa inocência, vieste
+          do céu à terra, sofrestes pobreza e perseguições. Eu Vos agradeço e
+          Vos amo de todo meu coração. E por vosso amor proponho hoje firmemente
+          guardar com todo o cuidado a santa pureza do coração. Ó meu Jesus,
+          abençoa o meu corpo, para que seja sempre um santuário de inocência e
+          pureza. Fazei que eu evite com cuidado todo o pecado moral, tal como a
+          uma peste contagiosa. Ó Jesus inocentíssimo e todo imaculado, pelo
+          vosso amor e pela vossa inocência concedei-me a virtude da santa
+          pureza, para que eu, depois da minha morte, tenha a felicidade de ver
+          Vos no céu.
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

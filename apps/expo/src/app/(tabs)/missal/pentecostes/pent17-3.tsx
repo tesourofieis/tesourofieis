@@ -1,305 +1,318 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PagePent173() {
   return (
-    <div className="docs">
-      <h1>Quarta-feira das Têmporas de Setembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Quarta-feira das Têmporas de Setembro</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Sl 80:2-5</em>
+          <Text className="em">Sl 80:2-5</Text>
 
-      <div className="side-by-side">
-        <p>
-          Exsultáte Deo, adjutóri nostro: jubiláte Deo Jacob: súmite psalmum
-          jucúndum cum cíthara: cánite in inítio mensis tuba, quia præcéptum in
-          Israël est, et judícium Deo Jacob. <em>Ps 80:6</em> Testimónium in
-          Joseph pósuit illud, cum exíret de terra Ægýpti: linguam, quam non
-          nóverat, audívit. ℣. Gloria Patri...
-        </p>
-        <p>
-          Exultai de alegria em Deus, que é o nosso protector: cantai hinos de
-          júblio em honra de Deus de Jacob: tocai o saltério e a cítara em tom
-          harmonioso: fazei soar a trombeta no princípio do mês, pois é este o
-          mandamento dado a Israel; é o preceito imposto por Deus de Jabob.{" "}
-          <em>Sl 80:6</em> O Senhor impôs este preceito a José, quando saía do
-          Egipto, onde ouvia uma língua que não compreendia. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Exsultáte Deo, adjutóri nostro: jubiláte Deo Jacob: súmite psalmum
+              jucúndum cum cíthara: cánite in inítio mensis tuba, quia præcéptum
+              in Israël est, et judícium Deo Jacob.{" "}
+              <Text className="em">Ps 80:6</Text> Testimónium in Joseph pósuit
+              illud, cum exíret de terra Ægýpti: linguam, quam non nóverat,
+              audívit. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Exultai de alegria em Deus, que é o nosso protector: cantai hinos
+              de júblio em honra de Deus de Jacob: tocai o saltério e a cítara
+              em tom harmonioso: fazei soar a trombeta no princípio do mês, pois
+              é este o mandamento dado a Israel; é o preceito imposto por Deus
+              de Jabob. <Text className="em">Sl 80:6</Text> O Senhor impôs este
+              preceito a José, quando saía do Egipto, onde ouvia uma língua que
+              não compreendia. ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Misericórdiæ tuæ remédiis, quǽsumus, Dómine, fragílitas nostra
-          subsístat: ut, quæ sua conditióne attéritur, tua cleméntia reparétur.
-          Per Dóminum...
-        </p>
-        <p>
-          Socorrei, Senhor, Vos imploramos, a nossa fraqueza com os remédios da
-          vossa misericórdia, a fim de que, assim como caímos por efeito da
-          nossa fragilidade, assim nos elevemos por efeito da vossa clemência.
-          Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Misericórdiæ tuæ remédiis, quǽsumus, Dómine, fragílitas nostra
+              subsístat: ut, quæ sua conditióne attéritur, tua cleméntia
+              reparétur. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Socorrei, Senhor, Vos imploramos, a nossa fraqueza com os remédios
+              da vossa misericórdia, a fim de que, assim como caímos por efeito
+              da nossa fragilidade, assim nos elevemos por efeito da vossa
+              clemência. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>1.ª Lição</h3>
+          <Text className="h3">1.ª Lição</Text>
 
-      <em>Amós 9:13-15</em>
+          <Text className="em">Amós 9:13-15</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Amos Prophétæ.</p>
-        <p>Lição do livro de Amós.</p>
-        <p>
-          Hæc dicit Dóminus Deus: Ecce, dies véniunt: et comprehéndet arátor
-          messórem, et calcátor uvæ mitténtem semen: et stillábunt montes
-          dulcédinem, et omnes colles culti erunt. Et convértam captivitátem
-          pópuli mei Israël: et ædificábunt civitátes desértas et inhabitábunt:
-          et plantábunt víneas et bibent vinum eárum: et fácient hortos et
-          cómedent fructus eórum. Et plantábo eos super humum suam: et non
-          evéllam eos ultra de terra sua, quam dedi eis: dicit Dóminus, Deus
-          tuus.
-        </p>
-        <p>
-          Eis o que diz o Senhor Deus: «Vêm já os dias em que o agricultor se
-          unirá ao ceifeiro; e aquele que esmaga as uvas ao semeador. Então os
-          montes gotejarão doçura e as colinas serão cultivadas. Chamarei do
-          cativeiro o meu povo de Israel. Eles reedificarão as cidades
-          devastadas e habitarão nelas; plantarão vinhas e beberão o seu vinho;
-          cultivarão hortas e comerão os seus frutos. Estabelecê-los-ei no seu
-          país e os não tirarei mais dessa terra, que lhes dei:» diz o Senhor,
-          vosso Deus.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio Amos Prophétæ.</Text>
+            <Text className="text-base">Lição do livro de Amós.</Text>
+            <Text className="text-base">
+              Hæc dicit Dóminus Deus: Ecce, dies véniunt: et comprehéndet arátor
+              messórem, et calcátor uvæ mitténtem semen: et stillábunt montes
+              dulcédinem, et omnes colles culti erunt. Et convértam captivitátem
+              pópuli mei Israël: et ædificábunt civitátes desértas et
+              inhabitábunt: et plantábunt víneas et bibent vinum eárum: et
+              fácient hortos et cómedent fructus eórum. Et plantábo eos super
+              humum suam: et non evéllam eos ultra de terra sua, quam dedi eis:
+              dicit Dóminus, Deus tuus.
+            </Text>
+            <Text className="text-base">
+              Eis o que diz o Senhor Deus: «Vêm já os dias em que o agricultor
+              se unirá ao ceifeiro; e aquele que esmaga as uvas ao semeador.
+              Então os montes gotejarão doçura e as colinas serão cultivadas.
+              Chamarei do cativeiro o meu povo de Israel. Eles reedificarão as
+              cidades devastadas e habitarão nelas; plantarão vinhas e beberão o
+              seu vinho; cultivarão hortas e comerão os seus frutos.
+              Estabelecê-los-ei no seu país e os não tirarei mais dessa terra,
+              que lhes dei:» diz o Senhor, vosso Deus.
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl 112:5-7</em>
+          <Text className="em">Sl 112:5-7</Text>
 
-      <div className="side-by-side">
-        <p>
-          Quis sicut Dóminus, Deus noster, qui in altis hábitat, et humilia
-          réspicit in cœlo et in terra? ℣. Súscitans a terra ínopem et de
-          stércore érigens páuperem.
-        </p>
-        <p>
-          Quem há que seja como o Senhor, nosso Deus, que habita nos altos dos
-          céus: e olha para os humildes no céus e na terra? ℣. Ele livra o
-          indigente da lama e o pobre da montureira!
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Quis sicut Dóminus, Deus noster, qui in altis hábitat, et humilia
+              réspicit in cœlo et in terra? ℣. Súscitans a terra ínopem et de
+              stércore érigens páuperem.
+            </Text>
+            <Text className="text-base">
+              Quem há que seja como o Senhor, nosso Deus, que habita nos altos
+              dos céus: e olha para os humildes no céus e na terra? ℣. Ele livra
+              o indigente da lama e o pobre da montureira!
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Præsta, quǽsumus, Dómine, famíliæ tuæ supplicánti: ut, dum a cibis
-          corporálibus se ábstinet, a vítiis quoque mente jejúnet.
-        </p>
-        <p>
-          Senhor, Vos rogamos, concedei à vossa família suplicante que,
-          abstendo-se das comidas corporais, jejue, também, espiritualmente dos
-          vícios.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Præsta, quǽsumus, Dómine, famíliæ tuæ supplicánti: ut, dum a cibis
+              corporálibus se ábstinet, a vítiis quoque mente jejúnet.
+            </Text>
+            <Text className="text-base">
+              Senhor, Vos rogamos, concedei à vossa família suplicante que,
+              abstendo-se das comidas corporais, jejue, também, espiritualmente
+              dos vícios.
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>2 Esd. 8:1-10</em>
+          <Text className="em">2 Esd. 8:1-10</Text>
 
-      <div className="side-by-side">
-        <p>Léctio libri Esdræ.</p>
-        <p>Lição do Livro de Esdras.</p>
-        <p>
-          In diébus illis: Congregátus est omnis pópulus quasi vir unus ad
-          platéam, quæ est ante portam aquárum: et dixérunt Esdræ scribæ, ut
-          afférret librum legis Moysi, quam præcéperat Dóminus Israéli. Attulit
-          ergo Esdras sacérdos legem coram multitúdine virórum et mulíerum,
-          cunctísque qui póterant intellégere, in die prima mensis séptimi. Et
-          legit in eo apérte in platéa, quæ erat ante portam aquárum, de mane
-          usque ad médiam diem, in conspéctu virórum et mulíerum et sapiéntium:
-          et aures omnis pópuli erant eréctæ ad librum. Stetit autem Esdras
-          scriba super gradum lígneum, quem fécerat ad loquendum. Et apéruit
-          librum coram omni pópulo: super univérsum quippe pópulum eminébat: et
-          cum aperuísset eum, stetit omnis pópulus. Et benedíxit Esdras Dómino,
-          Deo magno: et respóndit omnis pópulus: Amen, Amen: élevans manus suas:
-          et incurváti sunt et adoravérunt Deum proni in terram. Porro levítæ
-          siléntium faciébant in pópulo ad audiéndam legem: pópulus autem stabat
-          in gradu suo. Et legérunt in libro legis Dei distíncte et apérte ad
-          intellegéndum: et intellexérunt, cum legerétur. Dixit autem Nehemías,
-          et Esdras sacérdos et scriba, et levítæ interpretántes univérso
-          pópulo: Dies sanctificátus est Dómino, Deo nostro, nolíte lugére et
-          nolíte flere. Et dixit eis: Ite, comédite pínguia et bíbite mulsum, et
-          míttite partes his, qui non præparavérunt sibi: quia sanctus dies
-          Dómini est, et nolíte contristári: gáudium étenim Dómini est fortitúdo
-          nostra.
-        </p>
-        <p>
-          Naqueles dias, reuniu-se o povo, como um só homem, em assembleia
-          comum, na praça, diante da porta das águas. Disseram ao escriba Esdras
-          que trouxesse o livro da lei de Moisés, que o Senhor impusera a
-          Israel. O sacerdote Esdras trouxe, então, a Lei perante a multidão dos
-          homens, mulheres e todos os que eram capazes de entender. Isto
-          aconteceu no primeiro dia do sétimo mês. E leu este livro, desde
-          manhão até ao meio dia, na praça que está diante da porta das Águas,
-          na presença dos homens, mulheres, sábios e todo o povo, estando todos
-          atentos à leitura. O escriba Esdras estava de pé, sobre um estrado de
-          madeira, que prepara, para dali falar. Abriu o livro à vista de todo o
-          povo, pois estava colocado mais alto. Logo que abriu o livro, todo o
-          povo se pôs de pé. E Esdras louvou o Senhor, o grande Deus, ao que
-          todo o povo, levantando as mãos, respondeu: Amen, Amen! E,
-          prostrando-se todos, com o rosto em terra adoraram a Deus. Os Levitas
-          mantinham silêncio entre o povo, para que se ouvisse a Lei, e cada um
-          ficasse no seu lugar. E leram no livro da Lei de Deus, declarando e
-          explicando o sentido, de mode que compreendessem o que se lia. Neemias
-          e Esdras, sacerdote e escriba, e os Levitas interpretavam a Lei a todo
-          o povo, dizendo: «Este dia é consagrado ao Senhor, nosso Deus: não
-          estejais de luto, nem choreis». E continuaram «Ide, comei gorduras,
-          bebei licores e reparti com aqueles que nada tiveram preparado para
-          si; pois este dia é consagrado ao Senhor. Não vos contristeis, porque
-          a alegria do Senhor é a nossa fortaleza».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio libri Esdræ.</Text>
+            <Text className="text-base">Lição do Livro de Esdras.</Text>
+            <Text className="text-base">
+              In diébus illis: Congregátus est omnis pópulus quasi vir unus ad
+              platéam, quæ est ante portam aquárum: et dixérunt Esdræ scribæ, ut
+              afférret librum legis Moysi, quam præcéperat Dóminus Israéli.
+              Attulit ergo Esdras sacérdos legem coram multitúdine virórum et
+              mulíerum, cunctísque qui póterant intellégere, in die prima mensis
+              séptimi. Et legit in eo apérte in platéa, quæ erat ante portam
+              aquárum, de mane usque ad médiam diem, in conspéctu virórum et
+              mulíerum et sapiéntium: et aures omnis pópuli erant eréctæ ad
+              librum. Stetit autem Esdras scriba super gradum lígneum, quem
+              fécerat ad loquendum. Et apéruit librum coram omni pópulo: super
+              univérsum quippe pópulum eminébat: et cum aperuísset eum, stetit
+              omnis pópulus. Et benedíxit Esdras Dómino, Deo magno: et respóndit
+              omnis pópulus: Amen, Amen: élevans manus suas: et incurváti sunt
+              et adoravérunt Deum proni in terram. Porro levítæ siléntium
+              faciébant in pópulo ad audiéndam legem: pópulus autem stabat in
+              gradu suo. Et legérunt in libro legis Dei distíncte et apérte ad
+              intellegéndum: et intellexérunt, cum legerétur. Dixit autem
+              Nehemías, et Esdras sacérdos et scriba, et levítæ interpretántes
+              univérso pópulo: Dies sanctificátus est Dómino, Deo nostro, nolíte
+              lugére et nolíte flere. Et dixit eis: Ite, comédite pínguia et
+              bíbite mulsum, et míttite partes his, qui non præparavérunt sibi:
+              quia sanctus dies Dómini est, et nolíte contristári: gáudium
+              étenim Dómini est fortitúdo nostra.
+            </Text>
+            <Text className="text-base">
+              Naqueles dias, reuniu-se o povo, como um só homem, em assembleia
+              comum, na praça, diante da porta das águas. Disseram ao escriba
+              Esdras que trouxesse o livro da lei de Moisés, que o Senhor
+              impusera a Israel. O sacerdote Esdras trouxe, então, a Lei perante
+              a multidão dos homens, mulheres e todos os que eram capazes de
+              entender. Isto aconteceu no primeiro dia do sétimo mês. E leu este
+              livro, desde manhão até ao meio dia, na praça que está diante da
+              porta das Águas, na presença dos homens, mulheres, sábios e todo o
+              povo, estando todos atentos à leitura. O escriba Esdras estava de
+              pé, sobre um estrado de madeira, que prepara, para dali falar.
+              Abriu o livro à vista de todo o povo, pois estava colocado mais
+              alto. Logo que abriu o livro, todo o povo se pôs de pé. E Esdras
+              louvou o Senhor, o grande Deus, ao que todo o povo, levantando as
+              mãos, respondeu: Amen, Amen! E, prostrando-se todos, com o rosto
+              em terra adoraram a Deus. Os Levitas mantinham silêncio entre o
+              povo, para que se ouvisse a Lei, e cada um ficasse no seu lugar. E
+              leram no livro da Lei de Deus, declarando e explicando o sentido,
+              de mode que compreendessem o que se lia. Neemias e Esdras,
+              sacerdote e escriba, e os Levitas interpretavam a Lei a todo o
+              povo, dizendo: «Este dia é consagrado ao Senhor, nosso Deus: não
+              estejais de luto, nem choreis». E continuaram «Ide, comei
+              gorduras, bebei licores e reparti com aqueles que nada tiveram
+              preparado para si; pois este dia é consagrado ao Senhor. Não vos
+              contristeis, porque a alegria do Senhor é a nossa fortaleza».
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl 32:12, 6</em>
+          <Text className="em">Sl 32:12, 6</Text>
 
-      <div className="side-by-side">
-        <p>
-          Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus
-          in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et spíritu
-          oris ejus omnis virtus eórum.
-        </p>
-        <p>
-          Bem-aventurada a nação que tem o Senhor como seu Deus: bem-aventurado
-          o povo que o Senhor escolheu para sua herança. ℣. A palavra do Senhor
-          criou os céus: e o sopro da sua boca criou espíritos celestiais.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit
+              Dóminus in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et
+              spíritu oris ejus omnis virtus eórum.
+            </Text>
+            <Text className="text-base">
+              Bem-aventurada a nação que tem o Senhor como seu Deus:
+              bem-aventurado o povo que o Senhor escolheu para sua herança. ℣. A
+              palavra do Senhor criou os céus: e o sopro da sua boca criou
+              espíritos celestiais.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Mc 9:16-28</em>
+          <Text className="em">Mc 9:16-28</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Marcum.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Marcos.
-        </p>
-        <p>
-          In illo témpore: Respóndens unus de turba, dixit ad Jesum: Magíster,
-          áttuli fílium meum ad te, habéntem spíritum mutum: qui, ubicúmque eum
-          apprehénderit, allídit illum, et spumat et stridet déntibus et
-          aréscit: et dixi discípulis tuis, ut ejícerent illum, et non
-          potúerunt. Qui respóndens eis, dixit: O generátio incrédula, quámdiu
-          apud vos ero? quámdiu vos pátiar? Afférte illum ad me. Et attúlerunt
-          eum. Et cum vidísset eum, statim spíritus conturbávit illum: et elísus
-          in terram, volutabátur spumans. Et interrogávit patrem ejus: Quantum
-          témporis est, ex quo ei hoc áccidit? At ille ait: Ab infántia: et
-          frequénter eum in ignem et in aquas misit, ut eum pérderet. Sed si
-          quid potes, ádjuva nos, misértus nostri. Jesus autem ait illi: Si
-          potes credere, ómnia possibília sunt credénti. Et contínuo exclámans
-          pater pueri, cum lácrimis ajébat: Credo, Dómine: ádjuva incredulitátem
-          meam. Et cum vidéret Jesus concurréntem turbam, comminátus est
-          spirítui immundo, dicens illi: Surde et mute spíritus, ego præcípio
-          tibi, exi ab eo: et ámplius ne intróëas in eum. Et exclámans et multum
-          discérpens eum, éxiit ab eo, et factus est sicut mórtuus, ita ut multi
-          dícerent: Quia mórtuus est. Jesus autem tenens manum ejus, elevávit
-          eum, et surréxit. Et cum introísset in domum, discípuli ejus secréto
-          interrogábant eum: Quare nos non potúimus ejícere eum? Et dixit illis:
-          Hoc genus in nullo potest exíre nisi in oratióne et jejúnio.
-        </p>
-        <p>
-          Naquele tempo aproximaram-se de Jesus os fariseus. Um deles que era
-          doutor da Lei, perguntou-Lhe para D tentar: «Mestre, qual é o
-          principal mandamento da Lei?». Jesus respondeu-lhe: «Amarás ao Senhor,
-          teu Deus, com todo o coração, com toda a alma e com todo o
-          entendimento». Este é o maior e o principal mandamento. Porém, eis o
-          segundo, que é semelhante: «Amarás ao próximo como a ti mesmo». Estes
-          dois mandamentos encerram toda a Lei e os Profetas». E, como os
-          fariseus estivessem reunidos, perguntou-lhes Jesus, dizendo: «Que
-          pensais vós de Cristo? De quem é Ele Filho?». Eles responderam: «De
-          David». E Jesus replicou: «Como é, então, que David (que havia sido
-          inspirado pelo Espírito) Lhe chama seu Senhor, quando diz: «O Senhor
-          diz ao meu Senhor: assenta-te à minha dextra até que reduza os teus
-          inimigos a escabelo dos teus pés»? Se, pois, David O trata como
-          Senhor, como é Ele seu Filho?». E ninguém pôde responder-Lhe uma
-          palavra, nem, desde aquele dia em diante, ninguém mais ousou
-          interrogá-l’O!
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Marcum.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Marcos.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Respóndens unus de turba, dixit ad Jesum:
+              Magíster, áttuli fílium meum ad te, habéntem spíritum mutum: qui,
+              ubicúmque eum apprehénderit, allídit illum, et spumat et stridet
+              déntibus et aréscit: et dixi discípulis tuis, ut ejícerent illum,
+              et non potúerunt. Qui respóndens eis, dixit: O generátio
+              incrédula, quámdiu apud vos ero? quámdiu vos pátiar? Afférte illum
+              ad me. Et attúlerunt eum. Et cum vidísset eum, statim spíritus
+              conturbávit illum: et elísus in terram, volutabátur spumans. Et
+              interrogávit patrem ejus: Quantum témporis est, ex quo ei hoc
+              áccidit? At ille ait: Ab infántia: et frequénter eum in ignem et
+              in aquas misit, ut eum pérderet. Sed si quid potes, ádjuva nos,
+              misértus nostri. Jesus autem ait illi: Si potes credere, ómnia
+              possibília sunt credénti. Et contínuo exclámans pater pueri, cum
+              lácrimis ajébat: Credo, Dómine: ádjuva incredulitátem meam. Et cum
+              vidéret Jesus concurréntem turbam, comminátus est spirítui
+              immundo, dicens illi: Surde et mute spíritus, ego præcípio tibi,
+              exi ab eo: et ámplius ne intróëas in eum. Et exclámans et multum
+              discérpens eum, éxiit ab eo, et factus est sicut mórtuus, ita ut
+              multi dícerent: Quia mórtuus est. Jesus autem tenens manum ejus,
+              elevávit eum, et surréxit. Et cum introísset in domum, discípuli
+              ejus secréto interrogábant eum: Quare nos non potúimus ejícere
+              eum? Et dixit illis: Hoc genus in nullo potest exíre nisi in
+              oratióne et jejúnio.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo aproximaram-se de Jesus os fariseus. Um deles que
+              era doutor da Lei, perguntou-Lhe para D tentar: «Mestre, qual é o
+              principal mandamento da Lei?». Jesus respondeu-lhe: «Amarás ao
+              Senhor, teu Deus, com todo o coração, com toda a alma e com todo o
+              entendimento». Este é o maior e o principal mandamento. Porém, eis
+              o segundo, que é semelhante: «Amarás ao próximo como a ti mesmo».
+              Estes dois mandamentos encerram toda a Lei e os Profetas». E, como
+              os fariseus estivessem reunidos, perguntou-lhes Jesus, dizendo:
+              «Que pensais vós de Cristo? De quem é Ele Filho?». Eles
+              responderam: «De David». E Jesus replicou: «Como é, então, que
+              David (que havia sido inspirado pelo Espírito) Lhe chama seu
+              Senhor, quando diz: «O Senhor diz ao meu Senhor: assenta-te à
+              minha dextra até que reduza os teus inimigos a escabelo dos teus
+              pés»? Se, pois, David O trata como Senhor, como é Ele seu Filho?».
+              E ninguém pôde responder-Lhe uma palavra, nem, desde aquele dia em
+              diante, ninguém mais ousou interrogá-l’O!
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl 118:47-48</em>
+          <Text className="em">Sl 118:47-48</Text>
 
-      <div className="side-by-side">
-        <p>
-          Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad
-          mandáta tua, quæ diléxi.
-        </p>
-        <p>
-          Meditarei sempre nos vossos mandamentos; pois são objecto do meu amor:
-          As minhas mão estão sempre prontas para cumprir os vossos mandamentos;
-          pois são objecto do meu amor.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas
+              ad mandáta tua, quæ diléxi.
+            </Text>
+            <Text className="text-base">
+              Meditarei sempre nos vossos mandamentos; pois são objecto do meu
+              amor: As minhas mão estão sempre prontas para cumprir os vossos
+              mandamentos; pois são objecto do meu amor.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et ad
-          sacrifícium celebrándum, subditórum tibi córpora mentésque
-          sanctíficet. Per Dominum...
-        </p>
-        <p>
-          Permiti, Senhor, Vos suplicamos, que esta hóstia apague os nossos
-          delitos e que santifique os corpos e as almas dos vossos servos, para
-          que possam celebrar dignamente este sacríficio. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et ad
+              sacrifícium celebrándum, subditórum tibi córpora mentésque
+              sanctíficet. Per Dominum...
+            </Text>
+            <Text className="text-base">
+              Permiti, Senhor, Vos suplicamos, que esta hóstia apague os nossos
+              delitos e que santifique os corpos e as almas dos vossos servos,
+              para que possam celebrar dignamente este sacríficio. Por nosso
+              Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Sl. 75, 12-13</em>
+          <Text className="em">Sl. 75, 12-13</Text>
 
-      <div className="side-by-side">
-        <p>
-          Comédite pínguia et bíbite mulsum, et míttite partes his, qui non
-          præparavérunt sibi: sanctus enim dies Dómini est, nolíte contristári:
-          gáudium étenim Dómini est fortitúdo nostra.
-        </p>
-        <p>
-          Comei gorduras, bebei licores e reparti com aqueles que nada tiveram
-          preparado para si; pois este dia é consagrado ao Senhor. Não vos
-          contristeis; porque a alegria do Senhor é a nossa fortaleza.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Comédite pínguia et bíbite mulsum, et míttite partes his, qui non
+              præparavérunt sibi: sanctus enim dies Dómini est, nolíte
+              contristári: gáudium étenim Dómini est fortitúdo nostra.
+            </Text>
+            <Text className="text-base">
+              Comei gorduras, bebei licores e reparti com aqueles que nada
+              tiveram preparado para si; pois este dia é consagrado ao Senhor.
+              Não vos contristeis; porque a alegria do Senhor é a nossa
+              fortaleza.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Suméntes, Dómine, dona cœléstia, supplíciter deprecámur: ut, quæ
-          sédula servitúte, donánte te, gérimus, dignis sénsibus tuo múnere
-          capiámus. Per Dominum...
-        </p>
-        <p>
-          Havendo recebido os vossos dons celestiais, humildemente Vos rogamos,
-          Senhor, que com o auxílio da vossa graça recebamos com as devidas
-          disposições os mystérios que celebrámos com fiel obediência. Pe nosso
-          Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Suméntes, Dómine, dona cœléstia, supplíciter deprecámur: ut, quæ
+              sédula servitúte, donánte te, gérimus, dignis sénsibus tuo múnere
+              capiámus. Per Dominum...
+            </Text>
+            <Text className="text-base">
+              Havendo recebido os vossos dons celestiais, humildemente Vos
+              rogamos, Senhor, que com o auxílio da vossa graça recebamos com as
+              devidas disposições os mystérios que celebrámos com fiel
+              obediência. Pe nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

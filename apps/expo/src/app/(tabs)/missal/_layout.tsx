@@ -1,6 +1,8 @@
 import { Stack } from "expo-router";
 import { useColorScheme } from "nativewind";
-import "../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { COLORS } from "../../../constants/Colors";
 
 export default function MissalLayout() {

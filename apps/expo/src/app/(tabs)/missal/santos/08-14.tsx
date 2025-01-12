@@ -1,120 +1,129 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0814() {
   return (
-    <div className="docs">
-      <h1>Vigília da Assunção da B. Virgem Maria, a 14 de Agosto</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Vigília da Assunção da B. Virgem Maria, a 14 de Agosto
+          </Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <LinkCard
-        href="/missal/comum/21virgemnaomartir2#intróito"
-        title="Virgem não Mártir - Missa Vultum tuum"
-      />
+          <LinkCard
+            href="/missal/comum/21virgemnaomartir2#intróito"
+            title="Virgem não Mártir - Missa Vultum tuum"
+          />
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui virginálem aulam beátæ Maríæ, in qua habitáres, elígere
-          dignátus es: da, quǽsumus; ut, sua nos defensióne munitos, jucúndos
-          fácias suæ interésse festivitáti: Qui vivis...
-        </p>
-        <p>
-          Ó Deus, que escolhestes para vossa morada o seio virginal da B. Virgem
-          Maria, concedei-nos, Vos rogamos, que, munidos com sua protecção,
-          possamos com alegria associar-nos à sua festa. Ó Vós, que viveis e
-          reinais...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui virginálem aulam beátæ Maríæ, in qua habitáres, elígere
+              dignátus es: da, quǽsumus; ut, sua nos defensióne munitos,
+              jucúndos fácias suæ interésse festivitáti: Qui vivis...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que escolhestes para vossa morada o seio virginal da B.
+              Virgem Maria, concedei-nos, Vos rogamos, que, munidos com sua
+              protecção, possamos com alegria associar-nos à sua festa. Ó Vós,
+              que viveis e reinais...
+            </Text>
+          </View>
 
-      <aside>
-        Oração, Secreta e Postcomúnio S. Eusébio como na [Missa Os
-        justi](/missal/comum/14confessoresnaopontifices1).
-      </aside>
+          <View className="aside">
+            Oração, Secreta e Postcomúnio S. Eusébio como na [Missa Os
+            justi](/missal/comum/14confessoresnaopontifices1).
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <LinkCard
-        href="/missal/santos/07-16#epístola"
-        title="B. Virgem Maria do Monte Carmelo"
-      />
+          <LinkCard
+            href="/missal/santos/07-16#epístola"
+            title="B. Virgem Maria do Monte Carmelo"
+          />
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <LinkCard
-        href="/missal/santos/07-02#gradual"
-        title="Visitação da B. Virgem Maria"
-      />
+          <LinkCard
+            href="/missal/santos/07-02#gradual"
+            title="Visitação da B. Virgem Maria"
+          />
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <LinkCard
-        href="/missal/comum/26festasmaria1#evangelho"
-        title="Festas da B. Virgem Maria - Missa Salve, sancta Parens"
-      />
+          <LinkCard
+            href="/missal/comum/26festasmaria1#evangelho"
+            title="Festas da B. Virgem Maria - Missa Salve, sancta Parens"
+          />
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <div className="side-by-side">
-        <p>
-          Beáta es, Virgo María, quæ ómnium portásti Creatórem: genuísti qui te
-          fecit, et in ætérnum pérmanes Virgo.
-        </p>
-        <p>
-          Bem-aventurada sois, ó Virgem Maria, pois trouxestes no vosso seio o
-          Criador de todas as coisas. Gerastes Aquele que vos criou; e
-          permanecereis eternamente Virgem.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Beáta es, Virgo María, quæ ómnium portásti Creatórem: genuísti qui
+              te fecit, et in ætérnum pérmanes Virgo.
+            </Text>
+            <Text className="text-base">
+              Bem-aventurada sois, ó Virgem Maria, pois trouxestes no vosso seio
+              o Criador de todas as coisas. Gerastes Aquele que vos criou; e
+              permanecereis eternamente Virgem.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Múnera nostra, Dómine, apud cleméntiam tuam Dei Genetrícis comméndet
-          orátio: quam idcírco de praesénti sǽculo transtulísti; ut pro peccátis
-          nostris apud te fiduciáliter intercédat. Per eúndem Dóminum...
-        </p>
-        <p>
-          Que as nossas ofertas, Senhor, tenham como recomendação junto da vossa
-          clemência as súplicas da Mãe de Deus, a qual arrebatastes deste mundo
-          para interceder com confiança pelos nossos pecados junto de Vós. Pelo
-          mesmo nosso S...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Múnera nostra, Dómine, apud cleméntiam tuam Dei Genetrícis
+              comméndet orátio: quam idcírco de praesénti sǽculo transtulísti;
+              ut pro peccátis nostris apud te fiduciáliter intercédat. Per
+              eúndem Dóminum...
+            </Text>
+            <Text className="text-base">
+              Que as nossas ofertas, Senhor, tenham como recomendação junto da
+              vossa clemência as súplicas da Mãe de Deus, a qual arrebatastes
+              deste mundo para interceder com confiança pelos nossos pecados
+              junto de Vós. Pelo mesmo nosso S...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium.
-        </p>
-        <p>
-          Bem-aventuradas as entranhas da B. Virgem Maria, que trouxeram
-          encerrado o Filho do Pai Eterno.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris
+              Fílium.
+            </Text>
+            <Text className="text-base">
+              Bem-aventuradas as entranhas da B. Virgem Maria, que trouxeram
+              encerrado o Filho do Pai Eterno.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Concéde, miséricors Deus, fragilitáti nostræ præsídium: ut, qui sanctæ
-          Dei Genetrícis festivitátem prævénimus; intercessiónis ejus auxílio a
-          nostris iniquitátibus resurgámus. Per eúndem Dóminum nostrum...
-        </p>
-        <p>
-          Ó Deus de misericórdia, dignai-Vos vir em auxílio da nossa
-          fragilidade, a fim de que, antecipando a festividade da Santa Mãe de
-          Deus, possamos, com o auxílio da sua intercessão, ressuscitar das
-          nossas iniquidades. Pelo mesmo nosso...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Concéde, miséricors Deus, fragilitáti nostræ præsídium: ut, qui
+              sanctæ Dei Genetrícis festivitátem prævénimus; intercessiónis ejus
+              auxílio a nostris iniquitátibus resurgámus. Per eúndem Dóminum
+              nostrum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus de misericórdia, dignai-Vos vir em auxílio da nossa
+              fragilidade, a fim de que, antecipando a festividade da Santa Mãe
+              de Deus, possamos, com o auxílio da sua intercessão, ressuscitar
+              das nossas iniquidades. Pelo mesmo nosso...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

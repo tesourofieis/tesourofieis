@@ -1,179 +1,191 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0822() {
   return (
-    <div className="docs">
-      <h1>Imaculado Coração da B. Virgem Maria, a 22 de Agosto</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Imaculado Coração da B. Virgem Maria, a 22 de Agosto
+          </Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Heb. 4, 16</em>
+          <Text className="em">Heb. 4, 16</Text>
 
-      <div className="side-by-side">
-        <p>
-          Adeámus cum fidúcia ad thronum grátiæ, ut misericórdiam consequámur,
-          et grátiam inveniámus in auxílio opportúno. <em>Ps. 44, 2</em>{" "}
-          Eructávit cor meum verbum bonum: dico ego ópera mea regi. ℣. Gloria
-          Patri...
-        </p>
-        <p>
-          Acerquemo-nos com confiança do trono da graça, a fim de alcançar
-          misericórdia e encontrar graça e sermos auxiliados na ocasião
-          necessária. <em>Sl. 44, 2</em> Meu coração exprimiu uma excelente
-          palavra: «Consagro ao Rei as minhas obras»! ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Adeámus cum fidúcia ad thronum grátiæ, ut misericórdiam
+              consequámur, et grátiam inveniámus in auxílio opportúno.{" "}
+              <Text className="em">Ps. 44, 2</Text> Eructávit cor meum verbum
+              bonum: dico ego ópera mea regi. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Acerquemo-nos com confiança do trono da graça, a fim de alcançar
+              misericórdia e encontrar graça e sermos auxiliados na ocasião
+              necessária. <Text className="em">Sl. 44, 2</Text> Meu coração
+              exprimiu uma excelente palavra: «Consagro ao Rei as minhas obras»!
+              ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Omnípotens sempitérne Deus, qui in Corde beátæ Maríæ Vírginis dignum
-          Spíritus Sancti habitáculum præparásti: concéde propítius; ut ejúsdem
-          immaculáti Cordis festivitátem devóta mente recoléntes, secúndum cor
-          tuum vívere valeámus. Per Dóminum...
-        </p>
-        <p>
-          Omnipotente e sempiterno Deus, que no Coração da B. Virgem Maria
-          preparastes uma digna morada do Espírito Santo, concedi-nos propício
-          que, havendo celebrado devotamente a festa deste Imaculado Coração,
-          vivamos sempre segundo o vosso Coração. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Omnípotens sempitérne Deus, qui in Corde beátæ Maríæ Vírginis
+              dignum Spíritus Sancti habitáculum præparásti: concéde propítius;
+              ut ejúsdem immaculáti Cordis festivitátem devóta mente recoléntes,
+              secúndum cor tuum vívere valeámus. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Omnipotente e sempiterno Deus, que no Coração da B. Virgem Maria
+              preparastes uma digna morada do Espírito Santo, concedi-nos
+              propício que, havendo celebrado devotamente a festa deste
+              Imaculado Coração, vivamos sempre segundo o vosso Coração. Por
+              nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <LinkCard
-        href="/missal/santos/07-16#epístola"
-        title="B. Virgem Maria do Monte Carmelo"
-      />
+          <LinkCard
+            href="/missal/santos/07-16#epístola"
+            title="B. Virgem Maria do Monte Carmelo"
+          />
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 12, 6</em>
+          <Text className="em">Sl. 12, 6</Text>
 
-      <div className="side-by-side">
-        <p>
-          Exsultábit cor meum in salutári tuo: cantábo Dómino, qui bona tríbuit
-          mihi: et psallam nómini Dómini altíssimi. ℣. <em>Ps. 44, 18</em>{" "}
-          Mémores erunt nóminis tui in omni generatióne et generatiónem:
-          proptérea pópuli confitebúntur tibi in ætérnum.
-        </p>
-        <p>
-          Exultará o meu coração com a salvação que de Vós virá; cantarei hinos
-          ao Senhor, que me concedeu tantos benefícios; entoarei salmos em
-          louvor do nome do altíssimo Senhor. ℣. <em>Sl. 44, 18</em> De geração
-          em geração glorificarão o vosso nome: e os povos vos louvarão
-          eternamente.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Luc. 1, 46, 47</em> Magníficat ánima mea
-          Dóminum: et exsultávit spíritus meus in Deo salutári meo. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Lc. 1, 46, 47</em> Minha alma glorifica o
-          Senhor e o meu espírito se alegra em Deus, meu Salvador. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Exsultábit cor meum in salutári tuo: cantábo Dómino, qui bona
+              tríbuit mihi: et psallam nómini Dómini altíssimi. ℣.{" "}
+              <Text className="em">Ps. 44, 18</Text> Mémores erunt nóminis tui
+              in omni generatióne et generatiónem: proptérea pópuli
+              confitebúntur tibi in ætérnum.
+            </Text>
+            <Text className="text-base">
+              Exultará o meu coração com a salvação que de Vós virá; cantarei
+              hinos ao Senhor, que me concedeu tantos benefícios; entoarei
+              salmos em louvor do nome do altíssimo Senhor. ℣.{" "}
+              <Text className="em">Sl. 44, 18</Text> De geração em geração
+              glorificarão o vosso nome: e os povos vos louvarão eternamente.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Luc. 1, 46, 47</Text>{" "}
+              Magníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo
+              salutári meo. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Lc. 1, 46, 47</Text>{" "}
+              Minha alma glorifica o Senhor e o meu espírito se alegra em Deus,
+              meu Salvador. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Jo. 19, 25-27</em>
+          <Text className="em">Jo. 19, 25-27</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Joánnem.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. João.
-        </p>
-        <p>
-          In illo témpore: Stabant juxta crucem Jesu mater ejus, et soror matris
-          ejus María Cléophæ, et María Magdaléne. Cum vidísset ergo Jesus
-          matrem, et discípulum stantem, quem diligébat, dicit matri suæ:
-          Múlier, ecce fílius tuus. Deinde dicit discípulo: Ecce mater tua. Et
-          ex illa hora accépit eam discípulus in sua.
-        </p>
-        <p>
-          Naquele tempo, estavam, junto à Cruz de Jesus, sua Mãe, a irmã de sua
-          Mãe, Maria, mulher de Cléofas, e Maria Madalena. Então, vendo Jesus
-          sua Mãe, e de pé, perto dela, o discípulo que Ele preferia, disse a
-          sua Mãe: «Mulher, eis o vosso filho». Em seguida disse ao discípulo:
-          «Eis a tua Mãe!». E desde aquela hora o discípulo a levou consigo.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Joánnem.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. João.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Stabant juxta crucem Jesu mater ejus, et soror
+              matris ejus María Cléophæ, et María Magdaléne. Cum vidísset ergo
+              Jesus matrem, et discípulum stantem, quem diligébat, dicit matri
+              suæ: Múlier, ecce fílius tuus. Deinde dicit discípulo: Ecce mater
+              tua. Et ex illa hora accépit eam discípulus in sua.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, estavam, junto à Cruz de Jesus, sua Mãe, a irmã de
+              sua Mãe, Maria, mulher de Cléofas, e Maria Madalena. Então, vendo
+              Jesus sua Mãe, e de pé, perto dela, o discípulo que Ele preferia,
+              disse a sua Mãe: «Mulher, eis o vosso filho». Em seguida disse ao
+              discípulo: «Eis a tua Mãe!». E desde aquela hora o discípulo a
+              levou consigo.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Lc. 1, 46, 49</em>
+          <Text className="em">Lc. 1, 46, 49</Text>
 
-      <div className="side-by-side">
-        <p>
-          Exsultávit spíritus meus in Deo salutári meo; quia fecit mihi magna
-          qui potens est, et sanctum nomen ejus.
-        </p>
-        <p>
-          O meu espírito alegra-se em Deus, meu Salvador, porque Aquele que é
-          omnipotente, e o seu nome é Santo, operou em mim maravilhas.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Exsultávit spíritus meus in Deo salutári meo; quia fecit mihi
+              magna qui potens est, et sanctum nomen ejus.
+            </Text>
+            <Text className="text-base">
+              O meu espírito alegra-se em Deus, meu Salvador, porque Aquele que
+              é omnipotente, e o seu nome é Santo, operou em mim maravilhas.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Majestáti tuæ, Dómine, Agnum immaculátum offeréntes, quǽsumus: ut
-          corda nostra ignis ille divínus accéndat, cui Cor beátæ Maríæ Vírginis
-          ineffabíliter inflammávit. Per eundem Dóminum...
-        </p>
-        <p>
-          Enquanto oferecemos à vossa Majestade, Senhor, o Cordeiro Imaculado,
-          dignai-Vos acender nos nossos corações aquele fogo divino que abrasou
-          de uma maneira inefável o Coração da B. Virgem Maria. Pelo mesmo nosso
-          Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Majestáti tuæ, Dómine, Agnum immaculátum offeréntes, quǽsumus: ut
+              corda nostra ignis ille divínus accéndat, cui Cor beátæ Maríæ
+              Vírginis ineffabíliter inflammávit. Per eundem Dóminum...
+            </Text>
+            <Text className="text-base">
+              Enquanto oferecemos à vossa Majestade, Senhor, o Cordeiro
+              Imaculado, dignai-Vos acender nos nossos corações aquele fogo
+              divino que abrasou de uma maneira inefável o Coração da B. Virgem
+              Maria. Pelo mesmo nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Jo. 19, 27</em>
+          <Text className="em">Jo. 19, 27</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dixit Jesus matri suæ: Múlier, ecce fílius tuus: deinde dixit
-          discípulo: Ecce mater tua. Et ex illa hora accépit eam discípulus in
-          sua.
-        </p>
-        <p>
-          Disse Jesus a sua Mãe: «Mulher, eis o vosso filho»; depois disse ao
-          discípulo: «Eis a tua Mãe». E desde aquela hora o discípulo a levou
-          consigo.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dixit Jesus matri suæ: Múlier, ecce fílius tuus: deinde dixit
+              discípulo: Ecce mater tua. Et ex illa hora accépit eam discípulus
+              in sua.
+            </Text>
+            <Text className="text-base">
+              Disse Jesus a sua Mãe: «Mulher, eis o vosso filho»; depois disse
+              ao discípulo: «Eis a tua Mãe». E desde aquela hora o discípulo a
+              levou consigo.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Divínis refécti munéribus te, Dómine, supplíciter exorámus: ut beátæ
-          Maríæ Vírginis intercessióne, cujus immaculáti Cordis solémnia
-          venerándo égimus, a præséntibus perículis liberáti, ætérnæ vitæ gáudia
-          consequámur. Per Dóminum...
-        </p>
-        <p>
-          Sustentados com vossas divinas ofertas, Senhor, humildemente Vos
-          imploramos pela intercessão da B. Virgem Maria, cujo puríssimo Coração
-          acabamos solenemente de honrar, que, sendo livres dos perigos
-          presentes, possamos gozar a alegria da vida eterna. Por nosso
-          Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Divínis refécti munéribus te, Dómine, supplíciter exorámus: ut
+              beátæ Maríæ Vírginis intercessióne, cujus immaculáti Cordis
+              solémnia venerándo égimus, a præséntibus perículis liberáti,
+              ætérnæ vitæ gáudia consequámur. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Sustentados com vossas divinas ofertas, Senhor, humildemente Vos
+              imploramos pela intercessão da B. Virgem Maria, cujo puríssimo
+              Coração acabamos solenemente de honrar, que, sendo livres dos
+              perigos presentes, possamos gozar a alegria da vida eterna. Por
+              nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

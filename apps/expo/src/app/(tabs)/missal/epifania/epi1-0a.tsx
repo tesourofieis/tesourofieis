@@ -1,226 +1,247 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageEpi10A() {
   return (
-    <div className="docs">
-      <h1>Sagrada Família</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Sagrada Família</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Pr. 23, 24 & 25</em>
+          <Text className="em">Pr. 23, 24 & 25</Text>
 
-      <div className="side-by-side">
-        <p>
-          Exsúltat gáudio pater Justi, gáudeat Pater tuus et Mater tua, et
-          exsúltet quæ génuit te. <em>Ps. 83, 2-3</em> Quam dilécta tabernácula
-          tua, Dómine virtútum! concupíscit et déficit ánima mea in átria
-          Dómini. ℣. Gloria Patri...
-        </p>
-        <p>
-          Que o pai do Justo exulte de alegria, que o vosso Pai e a vossa Mãe se
-          alegrem: que se regozije aquela que te gerou. <em>Sl. 83, 2-3</em>{" "}
-          Como são amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha
-          alma suspira e enternece-se nos átrios do Senhor. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Exsúltat gáudio pater Justi, gáudeat Pater tuus et Mater tua, et
+              exsúltet quæ génuit te. <Text className="em">Ps. 83, 2-3</Text>{" "}
+              Quam dilécta tabernácula tua, Dómine virtútum! concupíscit et
+              déficit ánima mea in átria Dómini. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Que o pai do Justo exulte de alegria, que o vosso Pai e a vossa
+              Mãe se alegrem: que se regozije aquela que te gerou.{" "}
+              <Text className="em">Sl. 83, 2-3</Text> Como são amáveis os vossos
+              tabernáculos, ó Senhor dos exércitos! Minha alma suspira e
+              enternece-se nos átrios do Senhor. ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dómine Jesu Christe, qui, Maríæ et Joseph súbditus, domésticam vitam
-          ineffabílibus virtútibus consecrásti: fac nos, utriúsque auxílio,
-          Famíliæ sanctæ tuæ exémplis ínstrui; et consórtium cénsequi
-          sempitérnum: Qui vivis...
-        </p>
-        <p>
-          Senhor Jesus Cristo, que, sendo submisso a Maria e a José,
-          consagrastes a vida doméstica com a prática de inefáveis virtudes,
-          dignai-Vos conceder-nos que com o auxílio de um e outro imitemos os
-          exemplos da vossa Sagrada Família e alcancemos a sua eterna companhia:
-          Vós, que, sendo Deus...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine Jesu Christe, qui, Maríæ et Joseph súbditus, domésticam
+              vitam ineffabílibus virtútibus consecrásti: fac nos, utriúsque
+              auxílio, Famíliæ sanctæ tuæ exémplis ínstrui; et consórtium
+              cénsequi sempitérnum: Qui vivis...
+            </Text>
+            <Text className="text-base">
+              Senhor Jesus Cristo, que, sendo submisso a Maria e a José,
+              consagrastes a vida doméstica com a prática de inefáveis virtudes,
+              dignai-Vos conceder-nos que com o auxílio de um e outro imitemos
+              os exemplos da vossa Sagrada Família e alcancemos a sua eterna
+              companhia: Vós, que, sendo Deus...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Cl. 3, 12-17</em>
+          <Text className="em">Cl. 3, 12-17</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.</p>
-        <p>Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.</p>
-        <p>
-          Fratres: Indúite vos sicut elécti Dei, sancti et dilécti, víscera
-          misericórdiæ, benignitátem, humilitátem, modéstiam, patiéntiam:
-          supportántes ínvicem, et donántes vobismetípsis, si quis advérsus
-          áliquem habet querélam: sicut et Dóminus donávit vobis, ita et vos.
-          Super ómnia autem hæc caritátem habéte, quod est vínculum
-          perfectiónis: et pax Christi exsúltet in córdibus vestris, in qua et
-          vocáti estis in uno córpore: et grati estóte. Verbum Christi hábitet
-          in vobis abundánter, in omni sapiéntia, docéntes et commonéntes
-          vosmetípsos psalmis, hymnis et cánticis spirituálibus, in grátia
-          cantántes in córdibus vestris Deo. Omne, quodcúmque fácitis in verbo
-          aut in ópere, ómnia in nómine Dómini Jesu Christi, grátias agéntes Deo
-          et Patri per ipsum.
-        </p>
-        <p>
-          Meus irmãos: Como escolhidos de Deus, que sois, santos e amados,
-          revesti-vos de sentimentos íntimos de misericórdia, de bondade, de
-          humildade, de modéstia e de paciência, suportando-vos uns aos outros e
-          perdoando-vos reciprocamente, se porventura algum tem motivos de
-          queixa contra o outro. Assim como o Senhor nos perdoou, assim também
-          devemos perdoar uns aos outros. Acima de tudo, tende caridade; pois
-          esta é o vínculo da perfeição. Que a paz de Cristo, à qual também
-          fostes chamados para formar um só corpo, reine nos vossos corações.
-          Sede reconhecidos! Que a palavra de Cristo permaneça profundamente em
-          vós, ensinando-vos e admoestando-vos com toda sua sabedoria por meio
-          dos Salmos, Hinos e Cânticos espirituais, louvando a Deus nos vossos
-          corações com cânticos. Tudo o que fizerdes, seja em palavras, seja em
-          obras, fazei-o em nome de nosso Senhor Jesus Cristo, dando graças por
-          Ele a Deus Pai.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
+            </Text>
+            <Text className="text-base">
+              Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.
+            </Text>
+            <Text className="text-base">
+              Fratres: Indúite vos sicut elécti Dei, sancti et dilécti, víscera
+              misericórdiæ, benignitátem, humilitátem, modéstiam, patiéntiam:
+              supportántes ínvicem, et donántes vobismetípsis, si quis advérsus
+              áliquem habet querélam: sicut et Dóminus donávit vobis, ita et
+              vos. Super ómnia autem hæc caritátem habéte, quod est vínculum
+              perfectiónis: et pax Christi exsúltet in córdibus vestris, in qua
+              et vocáti estis in uno córpore: et grati estóte. Verbum Christi
+              hábitet in vobis abundánter, in omni sapiéntia, docéntes et
+              commonéntes vosmetípsos psalmis, hymnis et cánticis spirituálibus,
+              in grátia cantántes in córdibus vestris Deo. Omne, quodcúmque
+              fácitis in verbo aut in ópere, ómnia in nómine Dómini Jesu
+              Christi, grátias agéntes Deo et Patri per ipsum.
+            </Text>
+            <Text className="text-base">
+              Meus irmãos: Como escolhidos de Deus, que sois, santos e amados,
+              revesti-vos de sentimentos íntimos de misericórdia, de bondade, de
+              humildade, de modéstia e de paciência, suportando-vos uns aos
+              outros e perdoando-vos reciprocamente, se porventura algum tem
+              motivos de queixa contra o outro. Assim como o Senhor nos perdoou,
+              assim também devemos perdoar uns aos outros. Acima de tudo, tende
+              caridade; pois esta é o vínculo da perfeição. Que a paz de Cristo,
+              à qual também fostes chamados para formar um só corpo, reine nos
+              vossos corações. Sede reconhecidos! Que a palavra de Cristo
+              permaneça profundamente em vós, ensinando-vos e admoestando-vos
+              com toda sua sabedoria por meio dos Salmos, Hinos e Cânticos
+              espirituais, louvando a Deus nos vossos corações com cânticos.
+              Tudo o que fizerdes, seja em palavras, seja em obras, fazei-o em
+              nome de nosso Senhor Jesus Cristo, dando graças por Ele a Deus
+              Pai.
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 26, 4</em>
+          <Text className="em">Sl. 26, 4</Text>
 
-      <div className="side-by-side">
-        <p>
-          Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini
-          ómnibus diébus vitæ meæ. ℣. <em>Ps. 83, 5</em> Beáti, qui hábitant in
-          domo tua, Dómine: in sǽcula sæculórum laudábunt te.
-        </p>
-        <p>
-          Uma só graça peço ao Senhor, a qual reclamarei: é habitar na casa do
-          Senhor todos os dias da minha vida. ℣. <em>Sl. 83, 5</em>{" "}
-          Bem-aventurados aqueles que habitam na vossa casa, Senhor; pois
-          louvar-Vos-ão em todos os séculos.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Isai. 45, 15</em> Vere tu es Rex
-          abscónditus, Deus Israël Salvátor. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Is. 45, 15</em> Ó Deus de Israel e nosso
-          Salvador, sois verdadeiramente Rei oculto. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini
+              ómnibus diébus vitæ meæ. ℣. <Text className="em">Ps. 83, 5</Text>{" "}
+              Beáti, qui hábitant in domo tua, Dómine: in sǽcula sæculórum
+              laudábunt te.
+            </Text>
+            <Text className="text-base">
+              Uma só graça peço ao Senhor, a qual reclamarei: é habitar na casa
+              do Senhor todos os dias da minha vida. ℣.{" "}
+              <Text className="em">Sl. 83, 5</Text> Bem-aventurados aqueles que
+              habitam na vossa casa, Senhor; pois louvar-Vos-ão em todos os
+              séculos.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Isai. 45, 15</Text>{" "}
+              Vere tu es Rex abscónditus, Deus Israël Salvátor. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Is. 45, 15</Text> Ó Deus
+              de Israel e nosso Salvador, sois verdadeiramente Rei oculto.
+              Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Lc. 2, 42-52</em>
+          <Text className="em">Lc. 2, 42-52</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Lucam.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Lucas.
-        </p>
-        <p>
-          Cum factus esset Jesus annórum duódecim, ascendéntibus illis
-          Jerosólymam secúndum consuetúdinem diéi festi, consummatísque diébus,
-          cum redírent, remánsit puer Jesus in Jerúsalem, et non cognovérunt
-          paréntes ejus. Existimántes autem illum esse in comitátu, venérunt
-          iter diéi, et requirébant eum inter cognátos et notos. Et non
-          inveniéntes, regréssi sunt in Jerúsalem, requiréntes eum. Et factum
-          est, post tríduum invenérunt illum in templo sedéntem in médio
-          doctórum, audiéntem illos et interrogántem eos. Stupébant autem omnes,
-          qui eum audiébant, super prudéntia et respónsis ejus. Et vidéntes
-          admiráti sunt. Et dixit Mater ejus ad illum: Fili, quid fecísti nobis
-          sic? Ecce, pater tuus et ego doléntes quærebámus te. Et ait ad illos:
-          Quid est, quod me quærebátis? Nesciebátis, quia in his, quæ Patris mei
-          sunt, opórtet me esse? Et ipsi non intellexérunt verbum, quod locútus
-          est ad eos. Et descéndit cum eis, et venit Názareth: et erat súbditus
-          illis. Et Mater ejus conservábat ómnia verba hæc in corde suo. Et
-          Jesus proficiébat sapiéntia et ætáte et grátia apud Deum et hómines.
-        </p>
-        <p>
-          Quando Jesus completou doze anos de idade, como seus pais tivessem ido
-          a Jerusalém, no tempo da festa, segundo o costume, decorridos que
-          foram os dias da mesma, voltaram para casa, tendo o Menino Jesus
-          ficado em Jerusalém, sem que de tal os pais se apercebessem. Pensando
-          que Ele viria com seus companheiros de jornada, fizeram um dia de
-          viagem, procurando-O depois entre os parentes e os conhecidos. Não O
-          encontrando, voltaram logo a Jerusalém pelo mesmo caminho. Então,
-          aconteceu que, depois de três dias, foram achá-l’O no templo, sentado
-          no meio dos doutores, ouvindo-os e interrogando-os. E aqueles que O
-          ouviam estavam admirados da sua sabedoria e das suas respostas. Quando
-          os pais O encontraram, ficaram admirados, dizendo-Lhe logo a Mãe: «Meu
-          Filho, porque procedestes assim para connosco? Eis que vosso pai e eu
-          Vos buscávamos aflitos!» Ele disse-lhes: «Porque me procuráveis? Não
-          sabíeis que é preciso que me ocupe das coisas de meu Pai?», Porém eles
-          não compreenderam o que Jesus lhes disse, Então, desceu com eles, veio
-          para Nazaré e era-lhes obediente. E sua Mãe conservava todas estas
-          coisas no coração. Quanto a Jesus, crescia em sabedoria, em idade e em
-          graça, diante de Deus e dos homens.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Lucam.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Lucas.
+            </Text>
+            <Text className="text-base">
+              Cum factus esset Jesus annórum duódecim, ascendéntibus illis
+              Jerosólymam secúndum consuetúdinem diéi festi, consummatísque
+              diébus, cum redírent, remánsit puer Jesus in Jerúsalem, et non
+              cognovérunt paréntes ejus. Existimántes autem illum esse in
+              comitátu, venérunt iter diéi, et requirébant eum inter cognátos et
+              notos. Et non inveniéntes, regréssi sunt in Jerúsalem, requiréntes
+              eum. Et factum est, post tríduum invenérunt illum in templo
+              sedéntem in médio doctórum, audiéntem illos et interrogántem eos.
+              Stupébant autem omnes, qui eum audiébant, super prudéntia et
+              respónsis ejus. Et vidéntes admiráti sunt. Et dixit Mater ejus ad
+              illum: Fili, quid fecísti nobis sic? Ecce, pater tuus et ego
+              doléntes quærebámus te. Et ait ad illos: Quid est, quod me
+              quærebátis? Nesciebátis, quia in his, quæ Patris mei sunt, opórtet
+              me esse? Et ipsi non intellexérunt verbum, quod locútus est ad
+              eos. Et descéndit cum eis, et venit Názareth: et erat súbditus
+              illis. Et Mater ejus conservábat ómnia verba hæc in corde suo. Et
+              Jesus proficiébat sapiéntia et ætáte et grátia apud Deum et
+              hómines.
+            </Text>
+            <Text className="text-base">
+              Quando Jesus completou doze anos de idade, como seus pais tivessem
+              ido a Jerusalém, no tempo da festa, segundo o costume, decorridos
+              que foram os dias da mesma, voltaram para casa, tendo o Menino
+              Jesus ficado em Jerusalém, sem que de tal os pais se apercebessem.
+              Pensando que Ele viria com seus companheiros de jornada, fizeram
+              um dia de viagem, procurando-O depois entre os parentes e os
+              conhecidos. Não O encontrando, voltaram logo a Jerusalém pelo
+              mesmo caminho. Então, aconteceu que, depois de três dias, foram
+              achá-l’O no templo, sentado no meio dos doutores, ouvindo-os e
+              interrogando-os. E aqueles que O ouviam estavam admirados da sua
+              sabedoria e das suas respostas. Quando os pais O encontraram,
+              ficaram admirados, dizendo-Lhe logo a Mãe: «Meu Filho, porque
+              procedestes assim para connosco? Eis que vosso pai e eu Vos
+              buscávamos aflitos!» Ele disse-lhes: «Porque me procuráveis? Não
+              sabíeis que é preciso que me ocupe das coisas de meu Pai?», Porém
+              eles não compreenderam o que Jesus lhes disse, Então, desceu com
+              eles, veio para Nazaré e era-lhes obediente. E sua Mãe conservava
+              todas estas coisas no coração. Quanto a Jesus, crescia em
+              sabedoria, em idade e em graça, diante de Deus e dos homens.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Lc. 2, 22</em>
+          <Text className="em">Lc. 2, 22</Text>
 
-      <div className="side-by-side">
-        <p>
-          Tulérunt Jesum paréntes ejus in Jerúsalem, ut sísterent eum Dómino.
-        </p>
-        <p>
-          Os pais de Jesus levaram-n’O a Jerusalém para O oferecerem ao Senhor.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Tulérunt Jesum paréntes ejus in Jerúsalem, ut sísterent eum
+              Dómino.
+            </Text>
+            <Text className="text-base">
+              Os pais de Jesus levaram-n’O a Jerusalém para O oferecerem ao
+              Senhor.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Placatiónis hostiam offérimus tibi, Dómine, supplíciter deprecántes:
-          ut, per intercessiónem Deíparæ Vírginis cum beáto Joseph, famílias
-          nostras in pace et grátia tua fírmiter constítuas. Per eúndem
-          Dóminum...
-        </p>
-        <p>
-          Vos oferecemos, Senhor, esta hóstia de propiciação, suplicando-Vos
-          humildemente que, pela intercessão da Virgem, Mãe de Deus, e do B.
-          José, estabeleçais solidamente as nossas famílias na vossa paz e na
-          vossa graça. Pelo mesmo nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Placatiónis hostiam offérimus tibi, Dómine, supplíciter
+              deprecántes: ut, per intercessiónem Deíparæ Vírginis cum beáto
+              Joseph, famílias nostras in pace et grátia tua fírmiter
+              constítuas. Per eúndem Dóminum...
+            </Text>
+            <Text className="text-base">
+              Vos oferecemos, Senhor, esta hóstia de propiciação, suplicando-Vos
+              humildemente que, pela intercessão da Virgem, Mãe de Deus, e do B.
+              José, estabeleçais solidamente as nossas famílias na vossa paz e
+              na vossa graça. Pelo mesmo nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Lc. 2, 51</em>
+          <Text className="em">Lc. 2, 51</Text>
 
-      <div className="side-by-side">
-        <p>
-          Descéndit Jesus cum eis, et venit Názareth, et erat súbditus illis.
-        </p>
-        <p>Jesus desceu com eles, veio para Nazaré e era-lhes obediente.</p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Descéndit Jesus cum eis, et venit Názareth, et erat súbditus
+              illis.
+            </Text>
+            <Text className="text-base">
+              Jesus desceu com eles, veio para Nazaré e era-lhes obediente.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Quos cœléstibus réficis sacraméntis, fac, Dómine Jesu, sanctæ Famíliæ
-          tuæ exémpla júgiter imitári: ut in hora mortis nostræ, occurrénte
-          gloriósa Vírgine Matre tua cum beáto Joseph; per te in ætérna
-          tabernácula récipi mereámur: Qui vivis...
-        </p>
-        <p>
-          Senhor Jesus, concedei àqueles que se saciam com vossos celestiais
-          sacramentos a graça de imitarem continuamente os exemplos da vossa
-          Sagrada Família, a fim de que na hora da nossa morte a gloriosa
-          Virgem, vossa Mãe, e o B. José venham ao nosso encontro, merecendo
-          sermos recebidos por Vós nos tabernáculos eternos: Ó Vós, que...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Quos cœléstibus réficis sacraméntis, fac, Dómine Jesu, sanctæ
+              Famíliæ tuæ exémpla júgiter imitári: ut in hora mortis nostræ,
+              occurrénte gloriósa Vírgine Matre tua cum beáto Joseph; per te in
+              ætérna tabernácula récipi mereámur: Qui vivis...
+            </Text>
+            <Text className="text-base">
+              Senhor Jesus, concedei àqueles que se saciam com vossos celestiais
+              sacramentos a graça de imitarem continuamente os exemplos da vossa
+              Sagrada Família, a fim de que na hora da nossa morte a gloriosa
+              Virgem, vossa Mãe, e o B. José venham ao nosso encontro, merecendo
+              sermos recebidos por Vós nos tabernáculos eternos: Ó Vós, que...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

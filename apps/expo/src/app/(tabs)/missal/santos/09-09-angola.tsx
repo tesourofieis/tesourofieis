@@ -1,75 +1,84 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0909Angola() {
   return (
-    <div className="docs">
-      <h1>S. Pedro Claver, Conf., a 9 de Setembro</h1>
-      <h3>Intróito</h3>O Senhor saciou a alma exausta: e aqueles que estavam nas
-      trevas e nas sombras da morte; e os que estavam cativos pela indigência e
-      em ferros. Glorificai o Senhor pela sua misericórdia: e pelas suas
-      maravilhas em favor dos filhos dos homens. ℣. Glória ao Pai...
-      <h3>Oração</h3>Ó Deus, que, a fim de chamar ao conhecimento do vosso nome
-      os Negritas sujeitos à escravatura, fortalecestes B. Pedro com admirável
-      caridade e paciência para os auxiliar, concedei-nos por sua intercessão
-      que, procurando o que é pertença de Jesus Cristo, amemos o próximo com
-      obras e em verdade. Pelo mesmo nosso Senhor...
-      <h3>Epístola</h3>
-      Lição do Profeta Isaías. Isto diz o Senhor: «Quebrai as algemas da
-      impiedade; tirai do jugo os oprimidos; deixai livres aqueles que estão
-      cativos; desonerai-os de toda a sujeição. Reparti o vosso pão com os que
-      têm fome; hospedai em vossa casa os pobres e os peregrinos; quando virdes
-      um nu, cobri-o, não desprezando a vossa carne. Então, como a aurora,
-      romperá a vossa luz; a vossa saúde depressa surgirá; a vossa justiça
-      raiará na vossa face; e o esplendor do Senhor vos protegerá. E invocareis
-      o Senhor, que vos ouvirá; Chamareis por Ele e vos dirá: «Eis-me aqui!».
-      Quando abrirdes a vossa alma ao faminto e saciardes as suas almas aflitas,
-      nascerá nas trevas a vossa luz e as trevas tornar-se-ão como a luz do
-      meio-dia».
-      <h3>Gradual</h3>
-      Livrará das mãos do poderoso o pobre e o indigente, desprovido de auxílio:
-      usará de clemência para com o pobre e o desprovido: e salvará as almas dos
-      pobres. Resgatará as suas almas da usura e da iniquidade e seus nomes
-      serão respeitados diante dele. Aleluia, aleluia. Erguei-Vos, ó Senhor
-      Deus, elevai a vossa mão; não Olvideis os pobres. A Vós se abandona o
-      pobre: sereis o amparo do órfão. Aleluia.
-      <h3>Evangelho</h3>
-      Continuação do santo Evangelho segundo S. Lucas. Naquele tempo, um certo
-      doutor da lei, querendo justificar-se, disse a Jesus: «E quem é o meu
-      próximo?». Então Jesus, tomando a palavra, disse: «Caminhando um homem de
-      Jerusalém para Jericó, caiu em poder dos ladrões, que o despojaram e
-      feriram; depois, abandonaram-no Semimorto. Passou por aquele caminho um
-      sacerdote, que viu o ferido e continuou a sua jornada. Passando também por
-      ali um levita, viu igualmente o ferido, aproximou-se um pouco e seguiu a
-      sua viagem. Por fim, viajando por ali um samaritano, passou perto do
-      ferido, viu-o e encheu-se de Compaixão. Logo, aproximou-se dele, deitou
-      óleo e vinho nas feridas, cingiu-as, montou-o no seu próprio jumento,
-      conduziu-o a uma hospedaria e cuidou dele. No outro dia, tirou dois
-      dinheiros da sua bolsa, deu-os ao hospedeiro e disse-lhe: «Cuida deste
-      homem; e tudo o mais que gastares eu te pagarei quando aqui voltar».
-      «Ora», perguntou Jesus ao doutor, «qual destes três te parece ser o
-      próximo do homem que caiu em poder dos ladrões?». O doutor respondeu:
-      «Aquele que teve misericórdia dele». E Jesus terminou: «Pois tu vai e
-      procede semelhantemente».
-      <h3>Ofertório</h3>
-      Livrei o pobre, que gritava, assim como o órfão, desprovido de auxílio; a
-      bênção do agonizante descia sobre mim; consolei o coração da viúva. Fui
-      olhos para o cego e pés para o coxo: fui o pai dos pobres.
-      <h3>Secreta</h3>
-      Que pela vossa misericórdia, Senhor, nos seja propícia a vítima de
-      caridade, que Vos oferecemos imolando-a, e, pelas preces e méritos do B.
-      Pedro, permiti que ela nos seja eficaz e salutar para obter aumento de
-      paciência e de caridade. Pelo mesmo nosso Senhor...
-      <h3>Comúnio</h3>
-      Apascentei as minhas ovelhas e levei-as ao repouso, diz o Senhor Deus.
-      Procurei a que se perdera; conduzi ao redil a que se tresmalhara; sarei as
-      que tinham membros quebrados; e fortaleci as que estavam fracas.
-      <h3>Postcomúnio</h3>
-      Cresça em nós, Senhor, o salutar efeito da vossa piedade, a fim de que,
-      saciados com o alimento celeste, possamos com felicidade alcançar, por
-      intercessão do B. Pedro, a coroa da vida eterna. Por nosso Senhor...
-    </div>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Pedro Claver, Conf., a 9 de Setembro</Text>
+          <Text className="h3">Intróito</Text>O Senhor saciou a alma exausta: e
+          aqueles que estavam nas trevas e nas sombras da morte; e os que
+          estavam cativos pela indigência e em ferros. Glorificai o Senhor pela
+          sua misericórdia: e pelas suas maravilhas em favor dos filhos dos
+          homens. ℣. Glória ao Pai...
+          <Text className="h3">Oração</Text>Ó Deus, que, a fim de chamar ao
+          conhecimento do vosso nome os Negritas sujeitos à escravatura,
+          fortalecestes B. Pedro com admirável caridade e paciência para os
+          auxiliar, concedei-nos por sua intercessão que, procurando o que é
+          pertença de Jesus Cristo, amemos o próximo com obras e em verdade.
+          Pelo mesmo nosso Senhor...
+          <Text className="h3">Epístola</Text>
+          Lição do Profeta Isaías. Isto diz o Senhor: «Quebrai as algemas da
+          impiedade; tirai do jugo os oprimidos; deixai livres aqueles que estão
+          cativos; desonerai-os de toda a sujeição. Reparti o vosso pão com os
+          que têm fome; hospedai em vossa casa os pobres e os peregrinos; quando
+          virdes um nu, cobri-o, não desprezando a vossa carne. Então, como a
+          aurora, romperá a vossa luz; a vossa saúde depressa surgirá; a vossa
+          justiça raiará na vossa face; e o esplendor do Senhor vos protegerá. E
+          invocareis o Senhor, que vos ouvirá; Chamareis por Ele e vos dirá:
+          «Eis-me aqui!». Quando abrirdes a vossa alma ao faminto e saciardes as
+          suas almas aflitas, nascerá nas trevas a vossa luz e as trevas
+          tornar-se-ão como a luz do meio-dia».
+          <Text className="h3">Gradual</Text>
+          Livrará das mãos do poderoso o pobre e o indigente, desprovido de
+          auxílio: usará de clemência para com o pobre e o desprovido: e salvará
+          as almas dos pobres. Resgatará as suas almas da usura e da iniquidade
+          e seus nomes serão respeitados diante dele. Aleluia, aleluia.
+          Erguei-Vos, ó Senhor Deus, elevai a vossa mão; não Olvideis os pobres.
+          A Vós se abandona o pobre: sereis o amparo do órfão. Aleluia.
+          <Text className="h3">Evangelho</Text>
+          Continuação do santo Evangelho segundo S. Lucas. Naquele tempo, um
+          certo doutor da lei, querendo justificar-se, disse a Jesus: «E quem é
+          o meu próximo?». Então Jesus, tomando a palavra, disse: «Caminhando um
+          homem de Jerusalém para Jericó, caiu em poder dos ladrões, que o
+          despojaram e feriram; depois, abandonaram-no Semimorto. Passou por
+          aquele caminho um sacerdote, que viu o ferido e continuou a sua
+          jornada. Passando também por ali um levita, viu igualmente o ferido,
+          aproximou-se um pouco e seguiu a sua viagem. Por fim, viajando por ali
+          um samaritano, passou perto do ferido, viu-o e encheu-se de Compaixão.
+          Logo, aproximou-se dele, deitou óleo e vinho nas feridas, cingiu-as,
+          montou-o no seu próprio jumento, conduziu-o a uma hospedaria e cuidou
+          dele. No outro dia, tirou dois dinheiros da sua bolsa, deu-os ao
+          hospedeiro e disse-lhe: «Cuida deste homem; e tudo o mais que gastares
+          eu te pagarei quando aqui voltar». «Ora», perguntou Jesus ao doutor,
+          «qual destes três te parece ser o próximo do homem que caiu em poder
+          dos ladrões?». O doutor respondeu: «Aquele que teve misericórdia
+          dele». E Jesus terminou: «Pois tu vai e procede semelhantemente».
+          <Text className="h3">Ofertório</Text>
+          Livrei o pobre, que gritava, assim como o órfão, desprovido de
+          auxílio; a bênção do agonizante descia sobre mim; consolei o coração
+          da viúva. Fui olhos para o cego e pés para o coxo: fui o pai dos
+          pobres.
+          <Text className="h3">Secreta</Text>
+          Que pela vossa misericórdia, Senhor, nos seja propícia a vítima de
+          caridade, que Vos oferecemos imolando-a, e, pelas preces e méritos do
+          B. Pedro, permiti que ela nos seja eficaz e salutar para obter aumento
+          de paciência e de caridade. Pelo mesmo nosso Senhor...
+          <Text className="h3">Comúnio</Text>
+          Apascentei as minhas ovelhas e levei-as ao repouso, diz o Senhor Deus.
+          Procurei a que se perdera; conduzi ao redil a que se tresmalhara;
+          sarei as que tinham membros quebrados; e fortaleci as que estavam
+          fracas.
+          <Text className="h3">Postcomúnio</Text>
+          Cresça em nós, Senhor, o salutar efeito da vossa piedade, a fim de
+          que, saciados com o alimento celeste, possamos com felicidade
+          alcançar, por intercessão do B. Pedro, a coroa da vida eterna. Por
+          nosso Senhor...
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

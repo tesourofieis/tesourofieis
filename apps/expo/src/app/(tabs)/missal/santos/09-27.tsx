@@ -1,126 +1,137 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0927() {
   return (
-    <div className="docs">
-      <h1>S. S. Cosme e Damião, Mártires, a 27 de Setembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. S. Cosme e Damião, Mártires, a 27 de Setembro
+          </Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/7muitosmartires2">
-          Missa Sapiéntiam sanctórum
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/7muitosmartires2">
+              Missa Sapiéntiam sanctórum
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum tuórum
-          Cosmæ et Damiáni natalítia cólimus, a cunctis malis imminéntibus,
-          eórum intercessiónibus, liberémur. Per Dóminum nostrum...
-        </p>
-        <p>
-          Concedei-nos, ó Deus omnipotente, Vos rogamos, que, celebrando o
-          nascimento no céu dos vossos B. B. Mártires Cosme e Damião, sejamos
-          livres, graças à sua intercessão, de todos os males que nos ameaçam.
-          Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum
+              tuórum Cosmæ et Damiáni natalítia cólimus, a cunctis malis
+              imminéntibus, eórum intercessiónibus, liberémur. Per Dóminum
+              nostrum...
+            </Text>
+            <Text className="text-base">
+              Concedei-nos, ó Deus omnipotente, Vos rogamos, que, celebrando o
+              nascimento no céu dos vossos B. B. Mártires Cosme e Damião,
+              sejamos livres, graças à sua intercessão, de todos os males que
+              nos ameaçam. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 33, 18-19</em>
+          <Text className="em">Sl. 33, 18-19</Text>
 
-      <div className="side-by-side">
-        <p>
-          Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
-          tribulatiónibus eórum liberávit eos. ℣. Juxta est Dóminus his, qui
-          tribuláto sunt corde: et húmiles spíritu salvabit.
-        </p>
-        <p>
-          Clamaram os justos; então o Senhor ouviu-os e livrou-os de todas suas
-          aflições. ℣. O Senhor está próximo daqueles que têm o coração
-          atribulado; e salvará os que têm o espírito humilhado.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi
-          crímina: Christum secuta est, ínclita tenens regna cœléstia. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. Esta é a verdadeira fraternidade que venceu os
-          crimes do mundo: Ela seguiu Cristo, possuindo gloriosamente o reino
-          celestial. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
+              tribulatiónibus eórum liberávit eos. ℣. Juxta est Dóminus his, qui
+              tribuláto sunt corde: et húmiles spíritu salvabit.
+            </Text>
+            <Text className="text-base">
+              Clamaram os justos; então o Senhor ouviu-os e livrou-os de todas
+              suas aflições. ℣. O Senhor está próximo daqueles que têm o coração
+              atribulado; e salvará os que têm o espírito humilhado.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi
+              crímina: Christum secuta est, ínclita tenens regna cœléstia.
+              Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. Esta é a verdadeira fraternidade que venceu
+              os crimes do mundo: Ela seguiu Cristo, possuindo gloriosamente o
+              reino celestial. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 5, 12-13</em>
+          <Text className="em">Sl. 5, 12-13</Text>
 
-      <div className="side-by-side">
-        <p>
-          Gloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu, Dómine,
-          benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ coronásti nos.
-        </p>
-        <p>
-          Em Vós se alegrarão, Senhor, os que amam o vosso nome; pois, Senhor,
-          abençoais o justo. Rodeastes-nos, Senhor, com vosso amor, como se fora
-          um escudo.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Gloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu,
+              Dómine, benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ
+              coronásti nos.
+            </Text>
+            <Text className="text-base">
+              Em Vós se alegrarão, Senhor, os que amam o vosso nome; pois,
+              Senhor, abençoais o justo. Rodeastes-nos, Senhor, com vosso amor,
+              como se fora um escudo.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Sanctórum tuórum nobis, Dómine, pia non desit orátio: quæ et múnera
-          nostra concíliet, et tuam nobis indulgéntiam semper obtíneat. Per
-          Dóminum...
-        </p>
-        <p>
-          Que a piedosa oração dos vossos Santos, Senhor, nos não falte; e que
-          Vos torne recomendáveis as nossas ofertas e nos obtenha sempre a vossa
-          misericórdia. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Sanctórum tuórum nobis, Dómine, pia non desit orátio: quæ et
+              múnera nostra concíliet, et tuam nobis indulgéntiam semper
+              obtíneat. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Que a piedosa oração dos vossos Santos, Senhor, nos não falte; e
+              que Vos torne recomendáveis as nossas ofertas e nos obtenha sempre
+              a vossa misericórdia. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Sl. 78, 2 & 11</em>
+          <Text className="em">Sl. 78, 2 & 11</Text>
 
-      <div className="side-by-side">
-        <p>
-          Posuérunt mortália servórum tuórum, Dómine, escas volatilíbus cœli,
-          carnes Sanctórum tuórum béstiis terræ: secúndum magnitúdinem bráchii
-          tui pósside fílios morte punitórum.
-        </p>
-        <p>
-          Deram os cadáveres dos vossos servos, Senhor, em alimento às aves do
-          céu, e as carnes dos vossos Santos às feras da terra. Com o poder do
-          vosso braço, salvai os filhos daqueles que foram condenados à morte.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Posuérunt mortália servórum tuórum, Dómine, escas volatilíbus
+              cœli, carnes Sanctórum tuórum béstiis terræ: secúndum magnitúdinem
+              bráchii tui pósside fílios morte punitórum.
+            </Text>
+            <Text className="text-base">
+              Deram os cadáveres dos vossos servos, Senhor, em alimento às aves
+              do céu, e as carnes dos vossos Santos às feras da terra. Com o
+              poder do vosso braço, salvai os filhos daqueles que foram
+              condenados à morte.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Prótegat, quǽsumus, Dómine, pópulum tuum et participátio cœléstis
-          indúlta convívii, et deprecátio colláta Sanctórum. Per Dóminum...
-        </p>
-        <p>
-          Que o vosso povo, Senhor, Vos suplicamos, seja protegido pela
-          participação, do celestial banquete, que lhe proporcionastes, e pela
-          intercessão, que lhe concedestes, dos vossos Santos. Por nosso
-          Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Prótegat, quǽsumus, Dómine, pópulum tuum et participátio cœléstis
+              indúlta convívii, et deprecátio colláta Sanctórum. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Que o vosso povo, Senhor, Vos suplicamos, seja protegido pela
+              participação, do celestial banquete, que lhe proporcionastes, e
+              pela intercessão, que lhe concedestes, dos vossos Santos. Por
+              nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

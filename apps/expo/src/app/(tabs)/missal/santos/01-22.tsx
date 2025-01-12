@@ -1,68 +1,75 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0122() {
   return (
-    <div className="docs">
-      <h1>S. S. Vicente e Anastácio, Márts., a 22 de Janeiro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. S. Vicente e Anastácio, Márts., a 22 de Janeiro
+          </Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/6muitosmartires1">
-          Missa Intret in
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/6muitosmartires1">
+              Missa Intret in
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte nostra
-          reos nos esse cognóscimus, beatórum Mártyrum tuórum Vincéntii et
-          Anastásii intercessióne liberémur. Per Dóminum...
-        </p>
-        <p>
-          Senhor, dignai-Vos ouvir as nossas súplicas, a fim de que,
-          reconhecendo-nos réus diante de Vós pelas nossas iniquidades, sejamos
-          livres delas por intercessão dos vossos B. B. Mártires Vicente e
-          Anastácio. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte
+              nostra reos nos esse cognóscimus, beatórum Mártyrum tuórum
+              Vincéntii et Anastásii intercessióne liberémur. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Senhor, dignai-Vos ouvir as nossas súplicas, a fim de que,
+              reconhecendo-nos réus diante de Vós pelas nossas iniquidades,
+              sejamos livres delas por intercessão dos vossos B. B. Mártires
+              Vicente e Anastácio. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro tuórum
-          tibi grata sint honóre Justórum, et nobis salutária, te miseránte,
-          reddántur. Per Dóminum...
-        </p>
-        <p>
-          Senhor, Vos oferecemos estes dons da nossa devoção; e que em
-          consideração dos vossos Santos eles Vos sejam agradáveis, e pela vossa
-          misericórdia nos sejam salutares. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
+              tuórum tibi grata sint honóre Justórum, et nobis salutária, te
+              miseránte, reddántur. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Senhor, Vos oferecemos estes dons da nossa devoção; e que em
+              consideração dos vossos Santos eles Vos sejam agradáveis, e pela
+              vossa misericórdia nos sejam salutares. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
-          intercedéntibus beátis Martýribus tuis Vincéntio et Anastásio, per hæc
-          contra ómnia advérsa muniámur. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus omnipotente, Vos suplicamos, fazei que, havendo nós recebido os
-          alimentos celestiais, sejamos fortalecidos contra todas as
-          adversidades por intercessão dos vossos B. B. Mártires Vicente e
-          Anastácio. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
+              intercedéntibus beátis Martýribus tuis Vincéntio et Anastásio, per
+              hæc contra ómnia advérsa muniámur. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus omnipotente, Vos suplicamos, fazei que, havendo nós
+              recebido os alimentos celestiais, sejamos fortalecidos contra
+              todas as adversidades por intercessão dos vossos B. B. Mártires
+              Vicente e Anastácio. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

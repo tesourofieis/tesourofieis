@@ -1,43 +1,49 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1019() {
   return (
-    <div className="docs">
-      <h1>S. Pedro de Alcântara, Conf., a 19 de Outubro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. Pedro de Alcântara, Conf., a 19 de Outubro
+          </Text>
 
-      <aside>
-        Como na [Missa Justus ut
-        palma](/missal/comum/15confessoresnaopontifices2), excepto:
-      </aside>
+          <View className="aside">
+            Como na [Missa Justus ut
+            palma](/missal/comum/15confessoresnaopontifices2), excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui beátum Petrum Confessórem tuum admirábilis pœniténtiæ et
-          altíssimæ contemplatiónis múnere illustráre dignátus es: da nobis,
-          quǽsumus; ut, ejus suffragántibus méritis, carne mortificáti, facílius
-          cœléstia capiámus. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus, que Vos dignastes ilustrar o B. Pedro, Confessor, com os dons
-          de uma penitência e de uma contemplação sublimes, permiti, Vos
-          suplicamos, que, auxiliados com seus méritos e intercessão e
-          mortificando o nosso corpo, obtenhamos mais facilmente os bens
-          celestiais. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui beátum Petrum Confessórem tuum admirábilis pœniténtiæ et
+              altíssimæ contemplatiónis múnere illustráre dignátus es: da nobis,
+              quǽsumus; ut, ejus suffragántibus méritis, carne mortificáti,
+              facílius cœléstia capiámus. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que Vos dignastes ilustrar o B. Pedro, Confessor, com os
+              dons de uma penitência e de uma contemplação sublimes, permiti,
+              Vos suplicamos, que, auxiliados com seus méritos e intercessão e
+              mortificando o nosso corpo, obtenhamos mais facilmente os bens
+              celestiais. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <LinkCard
-        href="/missal/santos/01-15-1#epístola"
-        title="S. Paulo, 1.º Eremita, Conf."
-      />
-    </div>
+          <LinkCard
+            href="/missal/santos/01-15-1#epístola"
+            title="S. Paulo, 1.º Eremita, Conf."
+          />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

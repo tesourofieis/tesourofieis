@@ -1,32 +1,52 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page130() {
   return (
-    <div className="docs">
-      <h1>Salmo 130</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Salmo 130</Text>
 
-      <div className="side-by-side">
-        <p>Dómine, non est exaltátum cor meum: * neque eláti sunt óculi mei.</p>
-        <p>
-          Senhor, o meu coração se não exaltou: * nem os meus olhos se mostraram
-          altivos.
-        </p>
-        <p>Neque ambulávi in magnis: * neque in mirabílibus super me.</p>
-        <p>Não andei em grandezas: * nem em pompas superiores a mim.</p>
-        <p>Si non humíliter sentiébam: * sed exaltávi ánimam meam:</p>
-        <p>Se não tinha sentimentos humildes: * mas exaltava a minha alma:</p>
-        <p>
-          Sicut ablactátus est super matre sua, * ita retribútio in ánima mea.
-        </p>
-        <p>
-          Como o ablactado é para sua mãe, * assim seja retribuída a minha alma.
-        </p>
-        <p>Speret Israël in Dómino, * ex hoc nunc et usque in sǽculum.</p>
-        <p>Espere Israel no Senhor, * desde agora e para sempre.</p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine, non est exaltátum cor meum: * neque eláti sunt óculi mei.
+            </Text>
+            <Text className="text-base">
+              Senhor, o meu coração se não exaltou: * nem os meus olhos se
+              mostraram altivos.
+            </Text>
+            <Text className="text-base">
+              Neque ambulávi in magnis: * neque in mirabílibus super me.
+            </Text>
+            <Text className="text-base">
+              Não andei em grandezas: * nem em pompas superiores a mim.
+            </Text>
+            <Text className="text-base">
+              Si non humíliter sentiébam: * sed exaltávi ánimam meam:
+            </Text>
+            <Text className="text-base">
+              Se não tinha sentimentos humildes: * mas exaltava a minha alma:
+            </Text>
+            <Text className="text-base">
+              Sicut ablactátus est super matre sua, * ita retribútio in ánima
+              mea.
+            </Text>
+            <Text className="text-base">
+              Como o ablactado é para sua mãe, * assim seja retribuída a minha
+              alma.
+            </Text>
+            <Text className="text-base">
+              Speret Israël in Dómino, * ex hoc nunc et usque in sǽculum.
+            </Text>
+            <Text className="text-base">
+              Espere Israel no Senhor, * desde agora e para sempre.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

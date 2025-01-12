@@ -1,111 +1,115 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageAntifonasdoo() {
   return (
-    <div className="docs">
-      <h1>Antífonas do Ó</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Antífonas do Ó</Text>
 
-      <h2>17 de dezembro</h2>
+          <Text className="h2">17 de dezembro</Text>
 
-      <div className="side-by-side">
-        <p>
-          O Sapientia quæ ex ore Altissimi prodisti, attingens a fine usque ad
-          finem, fortiter suaviter disponens omnia: Veni ad docendum nos viam
-          prudentiæ.
-        </p>
-        <p>
-          Ó Sabedoria que saístes da boca do altíssimo atingindo de uma à outra
-          extremidade e tudo dispondo com força e suavidade: Vinde ensinar-nos o
-          caminho da prudência.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              O Sapientia quæ ex ore Altissimi prodisti, attingens a fine usque
+              ad finem, fortiter suaviter disponens omnia: Veni ad docendum nos
+              viam prudentiæ.
+            </Text>
+            <Text className="text-base">
+              Ó Sabedoria que saístes da boca do altíssimo atingindo de uma à
+              outra extremidade e tudo dispondo com força e suavidade: Vinde
+              ensinar-nos o caminho da prudência.
+            </Text>
+          </View>
 
-      <h2>18 de dezembro</h2>
+          <Text className="h2">18 de dezembro</Text>
 
-      <div className="side-by-side">
-        <p>
-          O Adonai et Dux domus Israël, qui Moysi in igne flammæ rubi apparuisti
-          et ei in Sina legem dedisti: Veni ad redimendum nos in brachio
-          extento.
-        </p>
-        <p>
-          Ó Adonai guia da casa de Israel, que aparecestes a Moises na chama do
-          fogo no meio da sarça ardente e lhe destes a lei no Sinai: Vinde
-          resgatar-nos pelo poder do vosso braço.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              O Adonai et Dux domus Israël, qui Moysi in igne flammæ rubi
+              apparuisti et ei in Sina legem dedisti: Veni ad redimendum nos in
+              brachio extento.
+            </Text>
+            <Text className="text-base">
+              Ó Adonai guia da casa de Israel, que aparecestes a Moises na chama
+              do fogo no meio da sarça ardente e lhe destes a lei no Sinai:
+              Vinde resgatar-nos pelo poder do vosso braço.
+            </Text>
+          </View>
 
-      <h2>19 de dezembro</h2>
+          <Text className="h2">19 de dezembro</Text>
 
-      <div className="side-by-side">
-        <p>
-          O Radix Jesse qui stas in signum populorum, super quem continebunt
-          reges os suum, quem gentes deprecabuntur: Veni ad liberandum nos; jam
-          noli tardare.
-        </p>
-        <p>
-          Ó Raiz de Jessé erguida como estandarte dos povos, em cuja presença os
-          reis se calarão e a quem as nações invocarão: Vinde libertar-nos; não
-          tardeis jamais.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              O Radix Jesse qui stas in signum populorum, super quem continebunt
+              reges os suum, quem gentes deprecabuntur: Veni ad liberandum nos;
+              jam noli tardare.
+            </Text>
+            <Text className="text-base">
+              Ó Raiz de Jessé erguida como estandarte dos povos, em cuja
+              presença os reis se calarão e a quem as nações invocarão: Vinde
+              libertar-nos; não tardeis jamais.
+            </Text>
+          </View>
 
-      <h2>20 de dezembro</h2>
+          <Text className="h2">20 de dezembro</Text>
 
-      <div className="side-by-side">
-        <p>
-          O Clavis David et sceptrum domus Israël: qui aperis, et nemo claudit;
-          claudis et nemo aperit: Veni, et educ vinctum de domo carceris,
-          sedentem in tenebris et umbra mortis.
-        </p>
-        <p>
-          Ó Chave de David e cetro da casa de Israel; que abris e ninguém fecha;
-          fechais e ninguém abre: Vinde e libertai da prisão o cativo assentado
-          nas trevas e à sombra da morte.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              O Clavis David et sceptrum domus Israël: qui aperis, et nemo
+              claudit; claudis et nemo aperit: Veni, et educ vinctum de domo
+              carceris, sedentem in tenebris et umbra mortis.
+            </Text>
+            <Text className="text-base">
+              Ó Chave de David e cetro da casa de Israel; que abris e ninguém
+              fecha; fechais e ninguém abre: Vinde e libertai da prisão o cativo
+              assentado nas trevas e à sombra da morte.
+            </Text>
+          </View>
 
-      <h2>21 de dezembro</h2>
+          <Text className="h2">21 de dezembro</Text>
 
-      <div className="side-by-side">
-        <p>
-          O Oriens splendor lucis æternæ, et sol justitiæ: Veni et illumina
-          sedentes in tenebris et umbra mortis.
-        </p>
-        <p>
-          Ó Oriente esplendor da luz eterna e sol da justiça: Vinde e iluminai
-          os que estão sentados nas trevas e à sombra da morte.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              O Oriens splendor lucis æternæ, et sol justitiæ: Veni et illumina
+              sedentes in tenebris et umbra mortis.
+            </Text>
+            <Text className="text-base">
+              Ó Oriente esplendor da luz eterna e sol da justiça: Vinde e
+              iluminai os que estão sentados nas trevas e à sombra da morte.
+            </Text>
+          </View>
 
-      <h2>22 de dezembro</h2>
+          <Text className="h2">22 de dezembro</Text>
 
-      <div className="side-by-side">
-        <p>
-          O Rex gentium et desideratus earum lapisque angularis, qui facis
-          utraque unum: Veni et salva hominem quem de limo formasti.
-        </p>
-        <p>
-          Ó Rei das nações e objecto de seus desejos, pedra angular, que fazeis
-          ambos unos: Vinde e salvai o homem que do limo formastes.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              O Rex gentium et desideratus earum lapisque angularis, qui facis
+              utraque unum: Veni et salva hominem quem de limo formasti.
+            </Text>
+            <Text className="text-base">
+              Ó Rei das nações e objecto de seus desejos, pedra angular, que
+              fazeis ambos unos: Vinde e salvai o homem que do limo formastes.
+            </Text>
+          </View>
 
-      <h2>23 de dezembro</h2>
+          <Text className="h2">23 de dezembro</Text>
 
-      <div className="side-by-side">
-        <p>
-          O Emmanuel, Rex et legifer noster, exspectatio gentium, et Salvador
-          earum: Veni ad salvandum nos, Domine Deus noster.
-        </p>
-        <p>
-          Ó Emanuel, nosso rei e legislador, esperança e salvador das nações:
-          Vinde salvarnos, Senhor nosso Deus.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              O Emmanuel, Rex et legifer noster, exspectatio gentium, et
+              Salvador earum: Veni ad salvandum nos, Domine Deus noster.
+            </Text>
+            <Text className="text-base">
+              Ó Emanuel, nosso rei e legislador, esperança e salvador das
+              nações: Vinde salvarnos, Senhor nosso Deus.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

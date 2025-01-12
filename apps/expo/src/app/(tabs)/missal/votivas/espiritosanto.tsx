@@ -1,114 +1,126 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageEspiritosanto() {
   return (
-    <div className="docs">
-      <h1>Missa do Espírito Santo</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Missa do Espírito Santo</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/pentecostes/pent7-0">
-          Missa do Domingo de Pentecostes
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/pentecostes/pent7-0">
+              Missa do Domingo de Pentecostes
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Act. 8, 14-17</em>
+          <Text className="em">Act. 8, 14-17</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Actuum Apostólorum.</p>
-        <p>Lição dos Actos dos Apóstolos.</p>
-        <p>
-          In diébus illis: Cum audíssent Apóstoli, qui erant Jerosólymis, quod
-          recepísset Samaría verbum Dei, misérunt ad eos Petrum et Joánnem. Qui
-          cum veníssent, oravérunt pro ipsis, ut accíperent Spíritum Sanctum:
-          nondum enim in quemquam illórum vénerat, sed baptizáti tantum erant in
-          nómine Dómini Jesu. Tunc imponébant manus super illos, et accipiébant
-          Spíritum Sanctum.
-        </p>
-        <p>
-          Naqueles dias, quando os Apóstolos, que estavam em Jerusalém, souberam
-          que a Samaria recebera a palavra de Deus, enviaram lá Pedro e João, os
-          quais, apenas lá chegaram, oraram por aqueles, para que recebessem o
-          Espírito Santo que não havia descido sobre nenhum deles; porquanto
-          haviam sido baptizados somente em nome do Senhor Jesus. Então
-          impuseram-lhes as mãos e eles receberam o Espírito Santo.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio Actuum Apostólorum.</Text>
+            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="text-base">
+              In diébus illis: Cum audíssent Apóstoli, qui erant Jerosólymis,
+              quod recepísset Samaría verbum Dei, misérunt ad eos Petrum et
+              Joánnem. Qui cum veníssent, oravérunt pro ipsis, ut accíperent
+              Spíritum Sanctum: nondum enim in quemquam illórum vénerat, sed
+              baptizáti tantum erant in nómine Dómini Jesu. Tunc imponébant
+              manus super illos, et accipiébant Spíritum Sanctum.
+            </Text>
+            <Text className="text-base">
+              Naqueles dias, quando os Apóstolos, que estavam em Jerusalém,
+              souberam que a Samaria recebera a palavra de Deus, enviaram lá
+              Pedro e João, os quais, apenas lá chegaram, oraram por aqueles,
+              para que recebessem o Espírito Santo que não havia descido sobre
+              nenhum deles; porquanto haviam sido baptizados somente em nome do
+              Senhor Jesus. Então impuseram-lhes as mãos e eles receberam o
+              Espírito Santo.
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 32, 12 & 6</em>
+          <Text className="em">Sl. 32, 12 & 6</Text>
 
-      <div className="side-by-side">
-        <p>
-          Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus
-          in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et Spíritu
-          oris ejus omnis virtus eórum.
-        </p>
-        <p>
-          Bem-aventurado o povo cujo Deus é o Senhor! Bem-aventurado o povo que,
-          escolheu o Senhor para sua herança. A palavra do Senhor criou os céus;
-          e o sopro dos seus lábios criou toda a milícia celestial.
-        </p>
-        <p>
-          Allelúja, allelúja. <em>hic genuflectitur</em> ℣. Veni, Sancte
-          Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem
-          accénde. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. <em>Genuflecte-se</em> Vinde, Espírito Santo, enchei
-          os corações dos vossos fiéis e acendei neles o fogo do vosso amor.
-          Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit
+              Dóminus in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et
+              Spíritu oris ejus omnis virtus eórum.
+            </Text>
+            <Text className="text-base">
+              Bem-aventurado o povo cujo Deus é o Senhor! Bem-aventurado o povo
+              que, escolheu o Senhor para sua herança. A palavra do Senhor criou
+              os céus; e o sopro dos seus lábios criou toda a milícia celestial.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. <Text className="em">hic genuflectitur</Text>{" "}
+              ℣. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui
+              amóris in eis ignem accénde. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. <Text className="em">Genuflecte-se</Text> Vinde,
+              Espírito Santo, enchei os corações dos vossos fiéis e acendei
+              neles o fogo do vosso amor. Aleluia.
+            </Text>
+          </View>
 
-      <aside>
-        Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
-        diz-se o:
-      </aside>
+          <View className="aside">
+            Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
+            diz-se o:
+          </View>
 
-      <h3>Trato</h3>
+          <Text className="h3">Trato</Text>
 
-      <em>Sl. 103, 30</em>
+          <Text className="em">Sl. 103, 30</Text>
 
-      <div className="side-by-side">
-        <p>
-          Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ. ℣. O
-          quam bonus et suávis est, Dómine, Spíritus tuus in nobis!{" "}
-          <em>hic genuflectitur</em> ℣. Veni, Sancte Spíritus, reple tuórum
-          corda fidélium: et tui amóris in eis ignem accénde.
-        </p>
-        <p>
-          Enviai o vosso Espírito e eles serão criados: e renovarão a face da
-          terra. ℣. Ó Senhor, como é bom e suave o vosso Espírito dentro de nós!{" "}
-          <em>Genuflecte-se</em> ℣. Vinde, Espírito Santo, enchei os corações
-          dos vossos fiéis e acendei neles o fogo do vosso amor.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ. ℣.
+              O quam bonus et suávis est, Dómine, Spíritus tuus in nobis!{" "}
+              <Text className="em">hic genuflectitur</Text> ℣. Veni, Sancte
+              Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem
+              accénde.
+            </Text>
+            <Text className="text-base">
+              Enviai o vosso Espírito e eles serão criados: e renovarão a face
+              da terra. ℣. Ó Senhor, como é bom e suave o vosso Espírito dentro
+              de nós! <Text className="em">Genuflecte-se</Text> ℣. Vinde,
+              Espírito Santo, enchei os corações dos vossos fiéis e acendei
+              neles o fogo do vosso amor.
+            </Text>
+          </View>
 
-      <aside>No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:</aside>
+          <View className="aside">
+            No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
+          </View>
 
-      <div className="side-by-side">
-        <p>
-          Allelúja, allelúja. ℣. <em>Ps. 103, 30</em> Emítte Spíritum tuum, et
-          creabúntur: et renovábis fáciem terræ. Allelúja.{" "}
-          <em>hic genuflectitur</em> ℣. Veni, Sancte Spíritus, reple tuórum
-          corda fidélium: et tui amóris in eis ignem accénde. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Sl. 103, 30</em> Enviai o vosso Espírito e
-          eles serão criados: e renovarão a face da terra. Aleluia.{" "}
-          <em>Genuflecte-se</em> ℣. Vinde, Espírito Santo, enchei os corações
-          dos vossos fiéis e acendei neles o fogo do vosso amor. Aleluia.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Ps. 103, 30</Text>{" "}
+              Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ.
+              Allelúja. <Text className="em">hic genuflectitur</Text> ℣. Veni,
+              Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis
+              ignem accénde. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Sl. 103, 30</Text>{" "}
+              Enviai o vosso Espírito e eles serão criados: e renovarão a face
+              da terra. Aleluia. <Text className="em">Genuflecte-se</Text> ℣.
+              Vinde, Espírito Santo, enchei os corações dos vossos fiéis e
+              acendei neles o fogo do vosso amor. Aleluia.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

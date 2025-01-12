@@ -1,37 +1,44 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageApostolos() {
   return (
-    <div className="docs">
-      <h1>Prefácio dos Apóstolos</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Prefácio dos Apóstolos</Text>
 
-      <aside>Diz-se nas Festas dos Apóstolos e Evangelistas.</aside>
+          <View className="aside">
+            Diz-se nas Festas dos Apóstolos e Evangelistas.
+          </View>
 
-      <div className="side-by-side">
-        <p>
-          Vere dignum et justum est, æquum et salutáre: Te, Dómine, supplíciter
-          exoráre, ut gregem tuum, Pastor ætérne, non déseras: sed per beátos
-          Apóstolos tuos contínua protectióne custódias. Ut iísdem rectóribus
-          gubernétur, quos óperis tui vicários eídem contulísti præésse
-          pastóres. Et ídeo cum Angelis et Archángelis, cum Thronis et
-          Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ
-          tuæ cánimus, sine fine dicéntes:
-        </p>
-        <p>
-          É verdadeiramente digno e justo, racional e salutar suplicar-Vos
-          humildemente, Senhor, que, como Pastor eterno, que sois, não
-          abandoneis o vosso rebanho, mas antes, por intercessão dos vossos
-          bem-aventurados Apóstolos, o guardeis sob a vossa perpétua protecção,
-          a fim de que seja sempre governado pelos mesmos Directores, que,
-          encarregados como Vigários de perpetuar a vossa obra, designastes seus
-          Pastores. E, por isso, com os Anjos e Arcanjos, com os Tronos e
-          Dominações e com toda a milícia do exército celestial, cantamos um
-          hino à vossa glória, dizendo incessantemente:
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Vere dignum et justum est, æquum et salutáre: Te, Dómine,
+              supplíciter exoráre, ut gregem tuum, Pastor ætérne, non déseras:
+              sed per beátos Apóstolos tuos contínua protectióne custódias. Ut
+              iísdem rectóribus gubernétur, quos óperis tui vicários eídem
+              contulísti præésse pastóres. Et ídeo cum Angelis et Archángelis,
+              cum Thronis et Dominatiónibus cumque omni milítia cœléstis
+              exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:
+            </Text>
+            <Text className="text-base">
+              É verdadeiramente digno e justo, racional e salutar suplicar-Vos
+              humildemente, Senhor, que, como Pastor eterno, que sois, não
+              abandoneis o vosso rebanho, mas antes, por intercessão dos vossos
+              bem-aventurados Apóstolos, o guardeis sob a vossa perpétua
+              protecção, a fim de que seja sempre governado pelos mesmos
+              Directores, que, encarregados como Vigários de perpetuar a vossa
+              obra, designastes seus Pastores. E, por isso, com os Anjos e
+              Arcanjos, com os Tronos e Dominações e com toda a milícia do
+              exército celestial, cantamos um hino à vossa glória, dizendo
+              incessantemente:
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

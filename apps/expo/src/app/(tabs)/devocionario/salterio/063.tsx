@@ -1,77 +1,97 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page063() {
   return (
-    <div className="docs">
-      <h1>Salmo 63</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Salmo 63</Text>
 
-      <div className="side-by-side">
-        <p>
-          Exáudi, Deus, oratiónem meam cum déprecor: * a timóre inimíci éripe
-          ánimam meam.
-        </p>
-        <p>
-          Ouvi, ó Deus, a minha oração quando Vos rogo: * livrai a minha alma do
-          temor do inimigo.
-        </p>
-        <p>
-          Protexísti me a convéntu malignántium: * a multitúdine operántium
-          iniquitátem.
-        </p>
-        <p>
-          Defendestes-me da conspiração dos malignos: * da multidão dos que
-          praticam a iniquidade.
-        </p>
-        <p>
-          Quia exacuérunt ut gládium linguas suas: * intendérunt arcum rem
-          amáram, ut sagíttent in occúltis immaculátum.
-        </p>
-        <p>
-          Pois aguçaram as suas línguas como a espada: * curvaram o arco
-          envenenado, para de emboscada assetear o inocente.
-        </p>
-        <p>
-          Súbito sagittábunt eum, et non timébunt: * firmavérunt sibi sermónem
-          nequam.
-        </p>
-        <p>
-          De súbito o assetearão sem temor algum: * obstinaram-se na sua
-          depravada resolução.
-        </p>
-        <p>
-          Narravérunt ut abscónderent láqueos: * dixérunt: quis vidébit eos?
-        </p>
-        <p>Convencionaram esconder laços: * e disseram: quem os verá?</p>
-        <p>Scrutáti sunt iniquitátes: * defecérunt scrutántes scrutínio.</p>
-        <p>Inventaram crimes: * cansaram-se a esquadrinhar manhas.</p>
-        <p>Accédet homo ad cor altum: * et exaltábitur Deus.</p>
-        <p>
-          O homem penetrará até ao fundo do coração: * e Deus será exaltado.
-        </p>
-        <p>
-          Sagíttæ parvulórum factæ sunt plagæ eórum: * et infirmátæ sunt contra
-          eos linguæ eórum.
-        </p>
-        <p>
-          As flechas das crianças são as suas feridas: * e as suas línguas
-          contra eles perderam a força.
-        </p>
-        <p>Conturbáti sunt omnes qui vidébant eos: * et tímuit omnis homo.</p>
-        <p>Todos os que os viam ficaram abalados: * e todo o homem temeu.</p>
-        <p>Et annuntiavérunt ópera Dei, * et facta ejus intellexérunt.</p>
-        <p>Anunciaram as obras de Deus, * e compreenderam os seus actos.</p>
-        <p>
-          Lætábitur justus in Dómino, et sperábit in eo, * et laudabúntur omnes
-          recti corde.
-        </p>
-        <p>
-          Alegrar-se-á o justo no senhor e esperará n’Ele, * e serão louvados
-          todos os de coração recto.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Exáudi, Deus, oratiónem meam cum déprecor: * a timóre inimíci
+              éripe ánimam meam.
+            </Text>
+            <Text className="text-base">
+              Ouvi, ó Deus, a minha oração quando Vos rogo: * livrai a minha
+              alma do temor do inimigo.
+            </Text>
+            <Text className="text-base">
+              Protexísti me a convéntu malignántium: * a multitúdine operántium
+              iniquitátem.
+            </Text>
+            <Text className="text-base">
+              Defendestes-me da conspiração dos malignos: * da multidão dos que
+              praticam a iniquidade.
+            </Text>
+            <Text className="text-base">
+              Quia exacuérunt ut gládium linguas suas: * intendérunt arcum rem
+              amáram, ut sagíttent in occúltis immaculátum.
+            </Text>
+            <Text className="text-base">
+              Pois aguçaram as suas línguas como a espada: * curvaram o arco
+              envenenado, para de emboscada assetear o inocente.
+            </Text>
+            <Text className="text-base">
+              Súbito sagittábunt eum, et non timébunt: * firmavérunt sibi
+              sermónem nequam.
+            </Text>
+            <Text className="text-base">
+              De súbito o assetearão sem temor algum: * obstinaram-se na sua
+              depravada resolução.
+            </Text>
+            <Text className="text-base">
+              Narravérunt ut abscónderent láqueos: * dixérunt: quis vidébit eos?
+            </Text>
+            <Text className="text-base">
+              Convencionaram esconder laços: * e disseram: quem os verá?
+            </Text>
+            <Text className="text-base">
+              Scrutáti sunt iniquitátes: * defecérunt scrutántes scrutínio.
+            </Text>
+            <Text className="text-base">
+              Inventaram crimes: * cansaram-se a esquadrinhar manhas.
+            </Text>
+            <Text className="text-base">
+              Accédet homo ad cor altum: * et exaltábitur Deus.
+            </Text>
+            <Text className="text-base">
+              O homem penetrará até ao fundo do coração: * e Deus será exaltado.
+            </Text>
+            <Text className="text-base">
+              Sagíttæ parvulórum factæ sunt plagæ eórum: * et infirmátæ sunt
+              contra eos linguæ eórum.
+            </Text>
+            <Text className="text-base">
+              As flechas das crianças são as suas feridas: * e as suas línguas
+              contra eles perderam a força.
+            </Text>
+            <Text className="text-base">
+              Conturbáti sunt omnes qui vidébant eos: * et tímuit omnis homo.
+            </Text>
+            <Text className="text-base">
+              Todos os que os viam ficaram abalados: * e todo o homem temeu.
+            </Text>
+            <Text className="text-base">
+              Et annuntiavérunt ópera Dei, * et facta ejus intellexérunt.
+            </Text>
+            <Text className="text-base">
+              Anunciaram as obras de Deus, * e compreenderam os seus actos.
+            </Text>
+            <Text className="text-base">
+              Lætábitur justus in Dómino, et sperábit in eo, * et laudabúntur
+              omnes recti corde.
+            </Text>
+            <Text className="text-base">
+              Alegrar-se-á o justo no senhor e esperará n’Ele, * e serão
+              louvados todos os de coração recto.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

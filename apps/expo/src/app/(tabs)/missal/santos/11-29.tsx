@@ -1,64 +1,70 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page1129() {
   return (
-    <div className="docs">
-      <h1>S. Saturnino, Mártir, a 29 de Novembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Saturnino, Mártir, a 29 de Novembro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/5martirnaopontifice2">
-          Missa Lætábitur justus
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/5martirnaopontifice2">
+              Missa Lætábitur justus
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui nos beáti Saturníni Martyris tui concédis natalítia pérfrui:
-          ejus nos tríbue méritis adjuvári. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus, que nos permitistes a alegria de celebrarmos o aniversário do
-          nascimento do vosso B. Mártir Saturnino, concedei-nos ainda que
-          sejamos auxiliados pelos seus méritos. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui nos beáti Saturníni Martyris tui concédis natalítia
+              pérfrui: ejus nos tríbue méritis adjuvári. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que nos permitistes a alegria de celebrarmos o aniversário
+              do nascimento do vosso B. Mártir Saturnino, concedei-nos ainda que
+              sejamos auxiliados pelos seus méritos. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Múnera, Dómine, tibi dicáta sanctífica: et, intercedénte beáto
-          Saturníno Mártyre tuo, per hæc eádem nos placátus inténde. Per Dóminum
-          nostrum...
-        </p>
-        <p>
-          Santificai, Senhor, estas ofertas, que Vos dedicamos, e por
-          intercessão do B. Saturnino, vosso Mártir, olhai aplacado para nós.
-          Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Múnera, Dómine, tibi dicáta sanctífica: et, intercedénte beáto
+              Saturníno Mártyre tuo, per hæc eádem nos placátus inténde. Per
+              Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Santificai, Senhor, estas ofertas, que Vos dedicamos, e por
+              intercessão do B. Saturnino, vosso Mártir, olhai aplacado para
+              nós. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Sanctíflcet nos, quǽsumus, Dómine, tui percéptio sacraménti: et
-          intercessióne Sanctórum tuórum tibi reddat accéptos. Per Dóminum...
-        </p>
-        <p>
-          Senhor, Vos suplicamos, permiti que a recepção do vosso sacramento nos
-          santifique e que por intercessão dos vossos santos nos alcance a graça
-          de Vos agradarmos. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Sanctíflcet nos, quǽsumus, Dómine, tui percéptio sacraménti: et
+              intercessióne Sanctórum tuórum tibi reddat accéptos. Per
+              Dóminum...
+            </Text>
+            <Text className="text-base">
+              Senhor, Vos suplicamos, permiti que a recepção do vosso sacramento
+              nos santifique e que por intercessão dos vossos santos nos alcance
+              a graça de Vos agradarmos. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

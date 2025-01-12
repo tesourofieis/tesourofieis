@@ -1,252 +1,271 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageQuad51() {
   return (
-    <div className="docs">
-      <h1>Segunda-feira da Semana da Paixão</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Segunda-feira da Semana da Paixão</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Sl. 55, 2</em>
+          <Text className="em">Sl. 55, 2</Text>
 
-      <div className="side-by-side">
-        <p>
-          Miserére mihi, Dómine, quóniam conculcávit me homo: tota dic bellans
-          tribulávit me. <em>Ps. ibid., 3</em> Conculcavérunt me inimíci mei
-          tota die: quóniam multi bellántes advérsum me.
-        </p>
-        <p>
-          Tende misericórdia de mim, Senhor, porque o meu inimigo calca-me aos
-          pés: todos os dias me ataca e persegue. <em>Sl. ibid., 3</em> Meus
-          inimigos calcam-me incessantemente com seus pés; pois São muitos os
-          que me atacam.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Miserére mihi, Dómine, quóniam conculcávit me homo: tota dic
+              bellans tribulávit me. <Text className="em">Ps. ibid., 3</Text>{" "}
+              Conculcavérunt me inimíci mei tota die: quóniam multi bellántes
+              advérsum me.
+            </Text>
+            <Text className="text-base">
+              Tende misericórdia de mim, Senhor, porque o meu inimigo calca-me
+              aos pés: todos os dias me ataca e persegue.{" "}
+              <Text className="em">Sl. ibid., 3</Text> Meus inimigos calcam-me
+              incessantemente com seus pés; pois São muitos os que me atacam.
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Sanctífica, quǽsumus, Dómine, nostra jejúnia: et cunctárum nobis
-          indulgéntiam propítius largíre culpárum. Per Dóminum...
-        </p>
-        <p>
-          Vos suplicamos, Senhor, santificai os nossos jejuns e concedei-nos
-          benignamente a indulgência de todas nossas culpas. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Sanctífica, quǽsumus, Dómine, nostra jejúnia: et cunctárum nobis
+              indulgéntiam propítius largíre culpárum. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Vos suplicamos, Senhor, santificai os nossos jejuns e concedei-nos
+              benignamente a indulgência de todas nossas culpas. Por nosso
+              Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Jn. 3, 1-10</em>
+          <Text className="em">Jn. 3, 1-10</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Jonæ Prophétæ.</p>
-        <p>Lição do Profeta Jonas.</p>
-        <p>
-          In diébus illis: Factum est verbum Dómini ad Jonam Prophétam secúndo,
-          dicens: Surge, et vade in Níniven civitátem magnam: et prǽdica in ea
-          prædicatiónem, quam ego loquor ad te. Et surréxit Jonas, et ábiit in
-          Níniven juxta verbum Dómini. Et Nínive erat civitas magna itínere
-          trium diérum. Et cœpit Jonas introíre in civitátem itínere diéi uníus:
-          et clamávit et dixit: Adhuc quadragínta dies, et Nínive subvertétur.
-          Et credidérunt viri Ninivítæ in Deum: et prædicavérunt jejúnium, et
-          vestíti sunt saccis a majore usque ad minórem. Et pervénit verbum ad
-          regem Nínive: et surréxit de sólio suo, et abjécit vestiméntum suum a
-          se, et indútus est sacco, et sedit in cínere. Et clamávit et dixit in
-          Nínive ex ore regis et príncipum ejus, dicens: Hómines et juménta et
-          boves et pécora non gustent quidquam: nec pascántur, et aquam non
-          bibant. Et operiántur saccis hómines et juménta, et clament ad Dóminum
-          in fortitúdine, et convertátur vir a via sua mala, et ab iniquitáte,
-          quæ est in mánibus eórum. Quis scit, si convertátur et ignóscat Deus:
-          et revertátur a furóre iræ suæ, et non períbimus? Et vidit Deus ópera
-          eórum, quia convérsi sunt de via sua mala: et misértus est pópulo suo
-          Dóminus, Deus noster.
-        </p>
-        <p>
-          Naqueles dias, falou o Senhor segunda vez ao Profeta Jonas,
-          dizendo-lhe: «Ergue-te, vai à grande cidade de Ninive e prega lá o que
-          Eu te inspirar». Jonas ergueu-se e foi a Ninive, segundo a palavra do
-          Senhor. Ora Ninive era uma grande cidade, a três dias de caminho.
-          Jonas entrou na cidade, caminhou durante um dia e começou a pregar,
-          dizendo: «Ainda quarenta dias e Ninive será destruída». Então os
-          ninivitas acreditaram em Deus, proclamaram um jejum público e
-          vestiram-se com sacos, desde o maior ao mais pequeno dos seus
-          habitantes. Chegando isto ao conhecimento do rei de Ninive, ergueu-se
-          ele do trono, despiu a túnica real, vestiu um saco e sentou-se na
-          cinza. Em seguida fez publicar em Ninive, pela sua boca e pelos
-          grandes da cidade: «que nem homens, nem animais (ou bois ou ovelhas)
-          comessem, pastassem ou bebessem água; que os homens e animais se
-          cobrissem com sacos; que os homens clamassem ao Senhor fortemente; e
-          que toda a criatura humana abandonasse o mau caminho e a iniquidade de
-          que suas mãos estavam manchadas. Quem sabe se Deus se não arrependerá
-          de nos perdoar e não voltará ao furor da sua ira, de modo que todos
-          pereçamos? E Deus viu as suas obras; viu que se convertiam e afastavam
-          dos maus caminhos; e teve piedade do seu povo, o Senhor, nosso Deus».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio Jonæ Prophétæ.</Text>
+            <Text className="text-base">Lição do Profeta Jonas.</Text>
+            <Text className="text-base">
+              In diébus illis: Factum est verbum Dómini ad Jonam Prophétam
+              secúndo, dicens: Surge, et vade in Níniven civitátem magnam: et
+              prǽdica in ea prædicatiónem, quam ego loquor ad te. Et surréxit
+              Jonas, et ábiit in Níniven juxta verbum Dómini. Et Nínive erat
+              civitas magna itínere trium diérum. Et cœpit Jonas introíre in
+              civitátem itínere diéi uníus: et clamávit et dixit: Adhuc
+              quadragínta dies, et Nínive subvertétur. Et credidérunt viri
+              Ninivítæ in Deum: et prædicavérunt jejúnium, et vestíti sunt
+              saccis a majore usque ad minórem. Et pervénit verbum ad regem
+              Nínive: et surréxit de sólio suo, et abjécit vestiméntum suum a
+              se, et indútus est sacco, et sedit in cínere. Et clamávit et dixit
+              in Nínive ex ore regis et príncipum ejus, dicens: Hómines et
+              juménta et boves et pécora non gustent quidquam: nec pascántur, et
+              aquam non bibant. Et operiántur saccis hómines et juménta, et
+              clament ad Dóminum in fortitúdine, et convertátur vir a via sua
+              mala, et ab iniquitáte, quæ est in mánibus eórum. Quis scit, si
+              convertátur et ignóscat Deus: et revertátur a furóre iræ suæ, et
+              non períbimus? Et vidit Deus ópera eórum, quia convérsi sunt de
+              via sua mala: et misértus est pópulo suo Dóminus, Deus noster.
+            </Text>
+            <Text className="text-base">
+              Naqueles dias, falou o Senhor segunda vez ao Profeta Jonas,
+              dizendo-lhe: «Ergue-te, vai à grande cidade de Ninive e prega lá o
+              que Eu te inspirar». Jonas ergueu-se e foi a Ninive, segundo a
+              palavra do Senhor. Ora Ninive era uma grande cidade, a três dias
+              de caminho. Jonas entrou na cidade, caminhou durante um dia e
+              começou a pregar, dizendo: «Ainda quarenta dias e Ninive será
+              destruída». Então os ninivitas acreditaram em Deus, proclamaram um
+              jejum público e vestiram-se com sacos, desde o maior ao mais
+              pequeno dos seus habitantes. Chegando isto ao conhecimento do rei
+              de Ninive, ergueu-se ele do trono, despiu a túnica real, vestiu um
+              saco e sentou-se na cinza. Em seguida fez publicar em Ninive, pela
+              sua boca e pelos grandes da cidade: «que nem homens, nem animais
+              (ou bois ou ovelhas) comessem, pastassem ou bebessem água; que os
+              homens e animais se cobrissem com sacos; que os homens clamassem
+              ao Senhor fortemente; e que toda a criatura humana abandonasse o
+              mau caminho e a iniquidade de que suas mãos estavam manchadas.
+              Quem sabe se Deus se não arrependerá de nos perdoar e não voltará
+              ao furor da sua ira, de modo que todos pereçamos? E Deus viu as
+              suas obras; viu que se convertiam e afastavam dos maus caminhos; e
+              teve piedade do seu povo, o Senhor, nosso Deus».
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 53,4 & 3</em>
+          <Text className="em">Sl. 53,4 & 3</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, exáudi oratiónem meam: áuribus pércipe verba oris mei. ℣. Deus,
-          in nómine tuo salvum me fac, et in virtúte tua líbera me.
-        </p>
-        <p>
-          Ó Deus, ouvi a minha oração: prestai atenção às palavras da minha
-          boca. Ó Deus, pela glória do vosso nome, salvai-me; livrai-me com
-          vosso poder.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, exáudi oratiónem meam: áuribus pércipe verba oris mei. ℣.
+              Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me.
+            </Text>
+            <Text className="text-base">
+              Ó Deus, ouvi a minha oração: prestai atenção às palavras da minha
+              boca. Ó Deus, pela glória do vosso nome, salvai-me; livrai-me com
+              vosso poder.
+            </Text>
+          </View>
 
-      <h3>Trato</h3>
+          <Text className="h3">Trato</Text>
 
-      <em>Sl. 102, 10</em>
+          <Text className="em">Sl. 102, 10</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum
-          iniquitátes nostras retríbuas nobis. ℣. <em>Ps. 78, 8-9</em> Dómine,
-          ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos
-          misericórdiæ tuæ, quia páuperes facti sumus nimis.{" "}
-          <em>hic genuflectitur</em> ℣. Adjuva nos, Deus, salutáris noster: et
-          propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto
-          peccátis nostris, propter nomen tuum.
-        </p>
-        <p>
-          Senhor, nos não castigueis, consoante merecemos, pelos pecados que
-          praticámos e por causa das nossas iniquidades! ℣. <em>Sl. 78, 8-9</em>{" "}
-          Esquecei-Vos, Senhor, das nossas antigas iniquidades e apressai-Vos em
-          revestir-nos com vossas misericórdias, pois grande é a nossa miséria!{" "}
-          <em> Aqui genuflectir </em> ℣. Auxiliai-nos, ó Deus, nosso Salvador.
-          Para glória do vosso Nome, perdoai-nos os nossos pecados, Senhor!
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
+              secúndum iniquitátes nostras retríbuas nobis. ℣.{" "}
+              <Text className="em">Ps. 78, 8-9</Text> Dómine, ne memíneris
+              iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ
+              tuæ, quia páuperes facti sumus nimis.{" "}
+              <Text className="em">hic genuflectitur</Text> ℣. Adjuva nos, Deus,
+              salutáris noster: et propter glóriam nóminis tui, Dómine, líbera
+              nos: et propítius esto peccátis nostris, propter nomen tuum.
+            </Text>
+            <Text className="text-base">
+              Senhor, nos não castigueis, consoante merecemos, pelos pecados que
+              praticámos e por causa das nossas iniquidades! ℣.{" "}
+              <Text className="em">Sl. 78, 8-9</Text> Esquecei-Vos, Senhor, das
+              nossas antigas iniquidades e apressai-Vos em revestir-nos com
+              vossas misericórdias, pois grande é a nossa miséria!{" "}
+              <Text className="em"> Aqui genuflectir </Text> ℣. Auxiliai-nos, ó
+              Deus, nosso Salvador. Para glória do vosso Nome, perdoai-nos os
+              nossos pecados, Senhor!
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Jo. 7, 32-39</em>
+          <Text className="em">Jo. 7, 32-39</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Joánnem.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. João.
-        </p>
-        <p>
-          In illo témpore: Misérunt príncipes et pharisǽi minístros, ut
-          apprehénderent Jesum. Dixit ergo eis Jesus: Adhuc módicum tempus
-          vobíscum sum: et vado ad eum, qui me misit. Quærétis me, et non
-          inveniétis: et ubi ego sum, vos non potéstis veníre. Dixérunt ergo
-          Judǽi ad semetípsos: Quo hic itúrus est, quia non inveniémus eum?
-          numquid in dispersiónem géntium itúrus est, et doctúrus gentes? Quis
-          est hic sermo, quem dixit: Quærétis me, et non inveniétis: et ubi sum
-          ego, vos non potéstis veníre In novíssimo autem die magno festivitátis
-          stabat Jesus, et clamábat, dicens: Siquis sitit, véniat ad me et
-          bibat. Qui credit in me, sicut dicit Scriptúra, flúmina de ventre ejus
-          fluent aquæ vivæ. Hoc autem dixit de Spíritu, quem acceptúri erant
-          credéntes in eum.
-        </p>
-        <p>
-          Naquele tempo, os príncipes e os fariseus mandaram soldados para
-          prender Jesus. Então, Jesus disse-lhes: «Ainda um pouco de tempo estou
-          convosco; mas depois irei para Aquele que me mandou. Vós me
-          procurareis e não me encontrareis; pois onde Eu estiver não podereis
-          ir». Os judeus disseram uns aos outros: «Para onde irá Ele que o não
-          encontraremos? Porventura irá para os que estão dispersos entre as
-          nações e para instruir os gentios? Que significam estas palavras: «Vós
-          me procurareis e não me encontrareis; pois onde Eu estiver não
-          podereis ir?». No último dia da festa, que é o mais solene, Jesus
-          estava erguido e dizia em voz alta: «Se alguém tem sede, venha a mim e
-          beba; pois, segundo a Sagrada Escritura, «rios de água viva manarão no
-          seio daquele que crê em mim». Isto dizia, referindo-se ao Espírito que
-          haviam de receber aqueles que acreditassem n’Ele.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Joánnem.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. João.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Misérunt príncipes et pharisǽi minístros, ut
+              apprehénderent Jesum. Dixit ergo eis Jesus: Adhuc módicum tempus
+              vobíscum sum: et vado ad eum, qui me misit. Quærétis me, et non
+              inveniétis: et ubi ego sum, vos non potéstis veníre. Dixérunt ergo
+              Judǽi ad semetípsos: Quo hic itúrus est, quia non inveniémus eum?
+              numquid in dispersiónem géntium itúrus est, et doctúrus gentes?
+              Quis est hic sermo, quem dixit: Quærétis me, et non inveniétis: et
+              ubi sum ego, vos non potéstis veníre In novíssimo autem die magno
+              festivitátis stabat Jesus, et clamábat, dicens: Siquis sitit,
+              véniat ad me et bibat. Qui credit in me, sicut dicit Scriptúra,
+              flúmina de ventre ejus fluent aquæ vivæ. Hoc autem dixit de
+              Spíritu, quem acceptúri erant credéntes in eum.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, os príncipes e os fariseus mandaram soldados para
+              prender Jesus. Então, Jesus disse-lhes: «Ainda um pouco de tempo
+              estou convosco; mas depois irei para Aquele que me mandou. Vós me
+              procurareis e não me encontrareis; pois onde Eu estiver não
+              podereis ir». Os judeus disseram uns aos outros: «Para onde irá
+              Ele que o não encontraremos? Porventura irá para os que estão
+              dispersos entre as nações e para instruir os gentios? Que
+              significam estas palavras: «Vós me procurareis e não me
+              encontrareis; pois onde Eu estiver não podereis ir?». No último
+              dia da festa, que é o mais solene, Jesus estava erguido e dizia em
+              voz alta: «Se alguém tem sede, venha a mim e beba; pois, segundo a
+              Sagrada Escritura, «rios de água viva manarão no seio daquele que
+              crê em mim». Isto dizia, referindo-se ao Espírito que haviam de
+              receber aqueles que acreditassem n’Ele.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 6, 5</em>
+          <Text className="em">Sl. 6, 5</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dómine, convértere, et éripe ánimam meam: salvum me fac propter
-          misericórdiam tuam.
-        </p>
-        <p>
-          Volvei-Vos para mim, Senhor, e livrai a minha alma! Pela vossa
-          misericórdia, salvai-me!
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine, convértere, et éripe ánimam meam: salvum me fac propter
+              misericórdiam tuam.
+            </Text>
+            <Text className="text-base">
+              Volvei-Vos para mim, Senhor, e livrai a minha alma! Pela vossa
+              misericórdia, salvai-me!
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Concéde nobis, Dómine, Deus noster: ut hæc hóstia salutáris et
-          nostrórum fiat purgátio delictórum, et tuæ propitiátio majestátis. Per
-          Dóminum...
-        </p>
-        <p>
-          Permiti, Senhor, nosso Deus, que esta salutar hóstia nos purifique dos
-          nossos pecados e nos torne propícios à vossa majestade. Por nosso
-          Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Concéde nobis, Dómine, Deus noster: ut hæc hóstia salutáris et
+              nostrórum fiat purgátio delictórum, et tuæ propitiátio majestátis.
+              Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Permiti, Senhor, nosso Deus, que esta salutar hóstia nos purifique
+              dos nossos pecados e nos torne propícios à vossa majestade. Por
+              nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Sl. 23, 10</em>
+          <Text className="em">Sl. 23, 10</Text>
 
-      <div className="side-by-side">
-        <p>Dóminus virtútum ipse est Rex glóriæ.</p>
-        <p>O Senhor dos exércitos é o Rei da glória.</p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dóminus virtútum ipse est Rex glóriæ.
+            </Text>
+            <Text className="text-base">
+              O Senhor dos exércitos é o Rei da glória.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Sacraménti tui, quǽsumus, Dómine, participátio salutáris, et
-          purificatiónem nobis tríbuat, et medélam. Per Dóminum...
-        </p>
-        <p>
-          Senhor, Vos suplicamos, permiti que este salutar sacramento, de que
-          comparticipámos, nos purifique e sirva de remédio. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Sacraménti tui, quǽsumus, Dómine, participátio salutáris, et
+              purificatiónem nobis tríbuat, et medélam. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Senhor, Vos suplicamos, permiti que este salutar sacramento, de
+              que comparticipámos, nos purifique e sirva de remédio. Por nosso
+              Senhor...
+            </Text>
+          </View>
 
-      <h3>Oração sobre o povo</h3>
+          <Text className="h3">Oração sobre o povo</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="text-red-500 text-center">Orémus.</span>
-        </p>
-        <p>
-          <span className="text-red-500 text-center">Oremos.</span>
-        </p>
-        <p>Humiliáte cápita vestra Deo.</p>
-        <p>Inclinai as vossas cabeças diante de Deus.</p>
-        <p>
-          Da, quǽsumus, Dómine, pópulo tuo salútem mentis et córporis: ut, bonis
-          opéribus inhæréndo, tua semper mereátur protectióne deféndi. Per
-          Dóminum...
-        </p>
-        <p>
-          Concedei ao vosso povo, Senhor, Vos suplicamos, a saúde da alma e do
-          corpo, a fim de que, dedicando-se às boas obras, mereça sempre ser
-          assistido com vossa protecção. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Orémus.</Text>
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Oremos.</Text>
+            </Text>
+            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
+            <Text className="text-base">
+              Inclinai as vossas cabeças diante de Deus.
+            </Text>
+            <Text className="text-base">
+              Da, quǽsumus, Dómine, pópulo tuo salútem mentis et córporis: ut,
+              bonis opéribus inhæréndo, tua semper mereátur protectióne deféndi.
+              Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Concedei ao vosso povo, Senhor, Vos suplicamos, a saúde da alma e
+              do corpo, a fim de que, dedicando-se às boas obras, mereça sempre
+              ser assistido com vossa protecção. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

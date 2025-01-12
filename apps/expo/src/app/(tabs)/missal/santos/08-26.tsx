@@ -1,15 +1,19 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import Missa from "../comum/sumospontifices";
 
 export default function Page0826() {
   return (
-    <div className="docs">
-      <h1>S. Zeferino, Papa e Mártir, a 26 de Agosto</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Zeferino, Papa e Mártir, a 26 de Agosto</Text>
 
-      <Missa />
-    </div>
+          <Missa />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

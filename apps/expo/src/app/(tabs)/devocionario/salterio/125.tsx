@@ -1,50 +1,74 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page125() {
   return (
-    <div className="docs">
-      <h1>Salmo 125</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Salmo 125</Text>
 
-      <div className="side-by-side">
-        <p>
-          In converténdo Dóminus captivitátem Sion: * facti sumus sicut
-          consoláti:
-        </p>
-        <p>
-          Quando o Senhor fez volver os cativos de Sião: * nós ficámos cheios de
-          consolação:
-        </p>
-        <p>
-          Tunc replétum est gáudio os nostrum: * et lingua nostra exsultatióne.
-        </p>
-        <p>
-          Então a nossa boca se encheu de alegria: * e a nossa língua exultou.
-        </p>
-        <p>Tunc dicent inter gentes: * Magnificávit Dóminus fácere cum eis.</p>
-        <p>
-          Então dir-se-á entre as gentes: * grandes coisas fez o Senhor para
-          eles.
-        </p>
-        <p>Magnificávit Dóminus fácere nobíscum: * facti sumus lætántes.</p>
-        <p>Grandes coisas fez o Senhor por nós: * estamos cheios de alegria.</p>
-        <p>
-          Convérte, Dómine, captivitátem nostram, * sicut torrens in Austro.
-        </p>
-        <p>
-          Fazei, ó Senhor, volver os nossos cativos, * como as torrentes do sul.
-        </p>
-        <p>Qui séminant in lácrimis, * in exsultatióne metent.</p>
-        <p>Os que semeiam em lágrimas, * em exultação ceifarão.</p>
-        <p>Eúntes ibant et flebant, * mitténtes sémina sua.</p>
-        <p>Andando iam e choravam, * lançando as suas sementes.</p>
-        <p>
-          Veniéntes autem vénient cum exsultatióne, * portántes manípulos suos.
-        </p>
-        <p>Vindo, todavia, virão contentes, * trazendo os seus feixes.</p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              In converténdo Dóminus captivitátem Sion: * facti sumus sicut
+              consoláti:
+            </Text>
+            <Text className="text-base">
+              Quando o Senhor fez volver os cativos de Sião: * nós ficámos
+              cheios de consolação:
+            </Text>
+            <Text className="text-base">
+              Tunc replétum est gáudio os nostrum: * et lingua nostra
+              exsultatióne.
+            </Text>
+            <Text className="text-base">
+              Então a nossa boca se encheu de alegria: * e a nossa língua
+              exultou.
+            </Text>
+            <Text className="text-base">
+              Tunc dicent inter gentes: * Magnificávit Dóminus fácere cum eis.
+            </Text>
+            <Text className="text-base">
+              Então dir-se-á entre as gentes: * grandes coisas fez o Senhor para
+              eles.
+            </Text>
+            <Text className="text-base">
+              Magnificávit Dóminus fácere nobíscum: * facti sumus lætántes.
+            </Text>
+            <Text className="text-base">
+              Grandes coisas fez o Senhor por nós: * estamos cheios de alegria.
+            </Text>
+            <Text className="text-base">
+              Convérte, Dómine, captivitátem nostram, * sicut torrens in Austro.
+            </Text>
+            <Text className="text-base">
+              Fazei, ó Senhor, volver os nossos cativos, * como as torrentes do
+              sul.
+            </Text>
+            <Text className="text-base">
+              Qui séminant in lácrimis, * in exsultatióne metent.
+            </Text>
+            <Text className="text-base">
+              Os que semeiam em lágrimas, * em exultação ceifarão.
+            </Text>
+            <Text className="text-base">
+              Eúntes ibant et flebant, * mitténtes sémina sua.
+            </Text>
+            <Text className="text-base">
+              Andando iam e choravam, * lançando as suas sementes.
+            </Text>
+            <Text className="text-base">
+              Veniéntes autem vénient cum exsultatióne, * portántes manípulos
+              suos.
+            </Text>
+            <Text className="text-base">
+              Vindo, todavia, virão contentes, * trazendo os seus feixes.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

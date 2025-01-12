@@ -1,86 +1,99 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageResponsorio() {
   return (
-    <div className="docs">
-      <h1>Responsório de Santo António</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Responsório de Santo António</Text>
 
-      <div className="side-by-side">
-        <p>
-          Si quæris mirácula, mors, error, calámitas, dæmon, lepra fúgiunt, ægri
-          surgunt sani.
-        </p>
-        <p>
-          Se milagres procurais, a morte, o erro, a calamidade, o demónio, e a
-          lepra fogem, os enfermos saudáveis se levantam.
-        </p>
-        <p>
-          <em>Ant.</em> Cedunt mare, víncula: membra, resque pérditas, pétunt et
-          accípiunt juvénes et cani.
-        </p>
-        <p>
-          <em>Ant.</em> Cede o mar embravecido, recupera-se o perdido, pedem e
-          recebem, tanto velhos como mancebos.
-        </p>
-        <p>
-          Péreunt perícula, cessat et necéssitas, narrent hi qui séntiunt,
-          dicant Paduáni.
-        </p>
-        <p>
-          Desaparecem os perigos e cessa a indigência, digam-no aqueles que o
-          sentiram, e digam-no os Paduanos.
-        </p>
-        <p>
-          <em>Ant.</em> Cedunt mare, víncula: membra, resque pérditas, pétunt et
-          accípiunt juvénes et cani.
-        </p>
-        <p>
-          <em>Ant.</em> Cede o mar embravecido, recupera-se o perdido, pedem e
-          recebem, tanto velhos como mancebos.
-        </p>
-        <p>Glória Patri et Fílio et Spirítui Sancto.</p>
-        <p>Glória ao Pai, e ao Filho e ao Espírito Santo.</p>
-        <p>
-          <em>Ant.</em> Cedunt mare, víncula: membra, resque pérditas, pétunt et
-          accípiunt juvénes et cani.
-        </p>
-        <p>
-          <em>Ant.</em> Cede o mar embravecido, recupera-se o perdido, pedem e
-          recebem, tanto velhos como mancebos.
-        </p>
-        <p>℣. Ora pro nobis, beate Antoni.</p>
-        <p>℣. Rogai por nós, bem-aventurado António.</p>
-        <p>
-          <span className="text-red-500">℟.</span> Ut digni efficiamur
-          promissionibus Christi.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Para que sejamos dignos das
-          promessas de Cristo.
-        </p>
-        <p>
-          <span className="text-red-500 text-center">Orémus.</span>
-        </p>
-        <p>
-          <span className="text-red-500 text-center">Oremos.</span>
-        </p>
-        <p>
-          Ecclesiam tuam, Deus, beati Antonii Confessoris tui atque Doctoris
-          solemnitas votiva lætificet, ut spiritualibus semper muniatur
-          auxiliis, et gáudiis perfrui mereatur æternis. Per Christum Dóminum
-          nostrum. <span className="text-red-500">℟.</span> Amen.
-        </p>
-        <p>
-          Ó Deus, nós Vos suplicamos, que alegre à vossa Igreja a solenidade
-          votiva do bem-aventurado Santo António, vosso Confessor e Doutor, para
-          que, fortalecida sempre com os espirituais auxílios, mereça gozar os
-          prazeres eternos. Por Jesus Cristo, Nosso Senhor.{" "}
-          <span className="text-red-500">℟.</span> Amen.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Si quæris mirácula, mors, error, calámitas, dæmon, lepra fúgiunt,
+              ægri surgunt sani.
+            </Text>
+            <Text className="text-base">
+              Se milagres procurais, a morte, o erro, a calamidade, o demónio, e
+              a lepra fogem, os enfermos saudáveis se levantam.
+            </Text>
+            <Text className="text-base">
+              <Text className="em">Ant.</Text> Cedunt mare, víncula: membra,
+              resque pérditas, pétunt et accípiunt juvénes et cani.
+            </Text>
+            <Text className="text-base">
+              <Text className="em">Ant.</Text> Cede o mar embravecido,
+              recupera-se o perdido, pedem e recebem, tanto velhos como
+              mancebos.
+            </Text>
+            <Text className="text-base">
+              Péreunt perícula, cessat et necéssitas, narrent hi qui séntiunt,
+              dicant Paduáni.
+            </Text>
+            <Text className="text-base">
+              Desaparecem os perigos e cessa a indigência, digam-no aqueles que
+              o sentiram, e digam-no os Paduanos.
+            </Text>
+            <Text className="text-base">
+              <Text className="em">Ant.</Text> Cedunt mare, víncula: membra,
+              resque pérditas, pétunt et accípiunt juvénes et cani.
+            </Text>
+            <Text className="text-base">
+              <Text className="em">Ant.</Text> Cede o mar embravecido,
+              recupera-se o perdido, pedem e recebem, tanto velhos como
+              mancebos.
+            </Text>
+            <Text className="text-base">
+              Glória Patri et Fílio et Spirítui Sancto.
+            </Text>
+            <Text className="text-base">
+              Glória ao Pai, e ao Filho e ao Espírito Santo.
+            </Text>
+            <Text className="text-base">
+              <Text className="em">Ant.</Text> Cedunt mare, víncula: membra,
+              resque pérditas, pétunt et accípiunt juvénes et cani.
+            </Text>
+            <Text className="text-base">
+              <Text className="em">Ant.</Text> Cede o mar embravecido,
+              recupera-se o perdido, pedem e recebem, tanto velhos como
+              mancebos.
+            </Text>
+            <Text className="text-base">℣. Ora pro nobis, beate Antoni.</Text>
+            <Text className="text-base">
+              ℣. Rogai por nós, bem-aventurado António.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Ut digni efficiamur
+              promissionibus Christi.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Para que sejamos dignos
+              das promessas de Cristo.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Orémus.</Text>
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Oremos.</Text>
+            </Text>
+            <Text className="text-base">
+              Ecclesiam tuam, Deus, beati Antonii Confessoris tui atque Doctoris
+              solemnitas votiva lætificet, ut spiritualibus semper muniatur
+              auxiliis, et gáudiis perfrui mereatur æternis. Per Christum
+              Dóminum nostrum. <Text className="text-red-500">℟.</Text> Amen.
+            </Text>
+            <Text className="text-base">
+              Ó Deus, nós Vos suplicamos, que alegre à vossa Igreja a solenidade
+              votiva do bem-aventurado Santo António, vosso Confessor e Doutor,
+              para que, fortalecida sempre com os espirituais auxílios, mereça
+              gozar os prazeres eternos. Por Jesus Cristo, Nosso Senhor.{" "}
+              <Text className="text-red-500">℟.</Text> Amen.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

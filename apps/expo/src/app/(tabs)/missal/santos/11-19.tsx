@@ -1,37 +1,42 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page1119() {
   return (
-    <div className="docs">
-      <h1>Santa Isabel, Viúva, a 19 de Novembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Santa Isabel, Viúva, a 19 de Novembro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
-          Missa Cognóvi, Dómine
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
+              Missa Cognóvi, Dómine
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Tuórum corda fidélium, Deus miserátor, illústra: et, beátæ Elisabeth
-          précibus gloriósis; fac nos próspera mundi despícere, et cœlésti
-          semper consolatióne gaudére. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus de misericórdia, esclarecei os corações dos vossos fiéis; e,
-          pelas gloriosas preces da B. Isabel, concedei-nos a graça de
-          desprezarmos as prosperidades deste mundo e de gozarmos perpetuamente
-          a consolação celestial. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Tuórum corda fidélium, Deus miserátor, illústra: et, beátæ
+              Elisabeth précibus gloriósis; fac nos próspera mundi despícere, et
+              cœlésti semper consolatióne gaudére. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus de misericórdia, esclarecei os corações dos vossos fiéis;
+              e, pelas gloriosas preces da B. Isabel, concedei-nos a graça de
+              desprezarmos as prosperidades deste mundo e de gozarmos
+              perpetuamente a consolação celestial. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

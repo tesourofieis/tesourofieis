@@ -1,241 +1,249 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page4Martirnaopontifice1() {
   return (
-    <div className="docs">
-      <h1>Mártir não Pontífice</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Mártir não Pontífice</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Sl. 20, 2-3</em>
+          <Text className="em">Sl. 20, 2-3</Text>
 
-      <div className="side-by-side">
-        <p>
-          In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum
-          exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.{" "}
-          <em>Ps. ibid., 4</em> Quóniam prævenísti eum in benedictiónibus
-          dulcédinis: posuísti in cápite ejus corónam de lápide pretióso. ℣.
-          Gloria Patri...
-        </p>
-        <p>
-          O justo rejubilará com vosso poder, Senhor, e exultará de alegria,
-          vendo-se salvo por Vós; pois concedestes-lhe o que seu coração
-          desejava. <em>Sl. ibid., 4</em> Com efeito, Vós o premunistes com
-          bênçãos de doçura: e impusestes na sua cabeça uma coroa de pedras
-          preciosas. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum
+              exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.{" "}
+              <Text className="em">Ps. ibid., 4</Text> Quóniam prævenísti eum in
+              benedictiónibus dulcédinis: posuísti in cápite ejus corónam de
+              lápide pretióso. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              O justo rejubilará com vosso poder, Senhor, e exultará de alegria,
+              vendo-se salvo por Vós; pois concedestes-lhe o que seu coração
+              desejava. <Text className="em">Sl. ibid., 4</Text> Com efeito, Vós
+              o premunistes com bênçãos de doçura: e impusestes na sua cabeça
+              uma coroa de pedras preciosas. ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Præsta, quǽsumus, omnípotens Deus: ut, qui beáti{" "}
-          <span className="text-red-500">N.</span> Mártyris tui natalícia
-          cólimus, intercessióne ejus, in tui nóminis amóre roborémur. Per
-          Dóminum...
-        </p>
-        <p>
-          Ó Deus omnipotente, permiti que, celebrando nós o nascimento do B.{" "}
-          <span className="text-red-500">N.</span>, vosso Mártir, e pela sua
-          intercessão, alcancemos a graça de sermos confirmados no amor ao vosso
-          Nome. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Præsta, quǽsumus, omnípotens Deus: ut, qui beáti{" "}
+              <Text className="text-red-500">N.</Text> Mártyris tui natalícia
+              cólimus, intercessióne ejus, in tui nóminis amóre roborémur. Per
+              Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus omnipotente, permiti que, celebrando nós o nascimento do B.{" "}
+              <Text className="text-red-500">N.</Text>, vosso Mártir, e pela sua
+              intercessão, alcancemos a graça de sermos confirmados no amor ao
+              vosso Nome. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Sb. 10, 10-14</em>
+          <Text className="em">Sb. 10, 10-14</Text>
 
-      <div className="side-by-side">
-        <p>Léctio libri Sapiéntiæ.</p>
-        <p>Lição do Livro da Sabedoria.</p>
-        <p>
-          Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei,
-          et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et
-          complévit labores illíus. In fraude circumveniéntium illum áffuit
-          illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a
-          seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret
-          et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum jusíum
-          non derelíquit, sed a peccatóribus liberávit eum: descendítque cum
-          illo in fóveam, et in vínculis non derelíquit illum, donec afférret
-          illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant:
-          et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem
-          ætérnam, Dóminus, Deus noster.
-        </p>
-        <p>
-          O Senhor conduziu o justo por caminhos direitos; mostrou-lhe o reino
-          de Deus; transmitiu-lhe a ciência das coisas santas; enriqueceu-o nos
-          seus trabalhos; e fez frutificar esses seus labores. O Senhor
-          auxiliou-o contra os que queriam enganá-lo com suas fraudes e fê-lo
-          adquirir riquezas. Protegeu-o contra os seus inimigos; defendeu-o de
-          seus sedutores; e alcançou a vitória em um rude combate em seu favor,
-          para lhe ensinar que a sabedoria é a mais poderosa de todas as coisas.
-          O Senhor não abandonou o justo quando este foi vendido, mas até o
-          preservou das mãos dos pecadores; desceu com ele á prisão; e o não
-          abandonou nas cadeias, enquanto lhe não entregou o ceptro do império e
-          o poder sobre os seus opressores. O Senhor, nosso Deus, provou que
-          eram mentirosos aqueles que o desacreditaram e tornou-o ilustre para
-          sempre.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
+            <Text className="text-base">
+              Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum
+              Dei, et dedit illi sciéntiam sanctórum: honestávit illum in
+              labóribus, et complévit labores illíus. In fraude circumveniéntium
+              illum áffuit illi, et honéstum fecit illum. Custodívit illum ab
+              inimícis, et a seductóribus tutávit illum, et certámen forte dedit
+              illi, ut vínceret et sciret, quóniam ómnium poténtior est
+              sapiéntia. Hæc vénditum jusíum non derelíquit, sed a peccatóribus
+              liberávit eum: descendítque cum illo in fóveam, et in vínculis non
+              derelíquit illum, donec afférret illi sceptrum regni, et poténtiam
+              advérsus eos, qui eum deprimébant: et mendáces osténdit, qui
+              maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus,
+              Deus noster.
+            </Text>
+            <Text className="text-base">
+              O Senhor conduziu o justo por caminhos direitos; mostrou-lhe o
+              reino de Deus; transmitiu-lhe a ciência das coisas santas;
+              enriqueceu-o nos seus trabalhos; e fez frutificar esses seus
+              labores. O Senhor auxiliou-o contra os que queriam enganá-lo com
+              suas fraudes e fê-lo adquirir riquezas. Protegeu-o contra os seus
+              inimigos; defendeu-o de seus sedutores; e alcançou a vitória em um
+              rude combate em seu favor, para lhe ensinar que a sabedoria é a
+              mais poderosa de todas as coisas. O Senhor não abandonou o justo
+              quando este foi vendido, mas até o preservou das mãos dos
+              pecadores; desceu com ele á prisão; e o não abandonou nas cadeias,
+              enquanto lhe não entregou o ceptro do império e o poder sobre os
+              seus opressores. O Senhor, nosso Deus, provou que eram mentirosos
+              aqueles que o desacreditaram e tornou-o ilustre para sempre.
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 111, 1-2</em>
+          <Text className="em">Sl. 111, 1-2</Text>
 
-      <div className="side-by-side">
-        <p>
-          Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Potens
-          in terra erit semen ejus: generátio rectórum benedicétur.
-        </p>
-        <p>
-          Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe. ℣. Sua descendência será poderosa na terra; pois a
-          geração dos justos será abençoada.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Ps. 20, 4</em> Posuísti, Dómine, super
-          caput ejus corónam de lápide pretióso. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Sl. 20, 4</em> Senhor, impusestes na sua
-          cabeça uma coroa de pedras preciosas. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣.
+              Potens in terra erit semen ejus: generátio rectórum benedicétur.
+            </Text>
+            <Text className="text-base">
+              Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo
+              em obedecer-Lhe. ℣. Sua descendência será poderosa na terra; pois
+              a geração dos justos será abençoada.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Ps. 20, 4</Text>{" "}
+              Posuísti, Dómine, super caput ejus corónam de lápide pretióso.
+              Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Sl. 20, 4</Text> Senhor,
+              impusestes na sua cabeça uma coroa de pedras preciosas. Aleluia.
+            </Text>
+          </View>
 
-      <aside>
-        Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-      </aside>
+          <View className="aside">
+            Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
+          </View>
 
-      <h3>Trato</h3>
+          <Text className="h3">Trato</Text>
 
-      <em>Sl. 20, 3-4</em>
+          <Text className="em">Sl. 20, 3-4</Text>
 
-      <div className="side-by-side">
-        <p>
-          Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum. ℣. Quóniam prævenísti eum in benedictiónibus
-          dulcédinis. ℣. Posuísti in cápite ejus corónam de lápide pretióso.
-        </p>
-        <p>
-          Concedestes-lhe o desejo da sua alma; lhe não negastes o que seus
-          lábios Vos pediram. ℣. Premuniste-lo com bênçãos de doçura. ℣.
-          Impusestes na sua cabeça uma coroa de pedras preciosas.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
+              fraudásti eum. ℣. Quóniam prævenísti eum in benedictiónibus
+              dulcédinis. ℣. Posuísti in cápite ejus corónam de lápide pretióso.
+            </Text>
+            <Text className="text-base">
+              Concedestes-lhe o desejo da sua alma; lhe não negastes o que seus
+              lábios Vos pediram. ℣. Premuniste-lo com bênçãos de doçura. ℣.
+              Impusestes na sua cabeça uma coroa de pedras preciosas.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Mt. 10, 34-42</em>
+          <Text className="em">Mt. 10, 34-42</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Mateus.
-        </p>
-        <p>
-          In illo témpore: Dixit Jesus discípulis suis: Nolíte arbitrári, quia
-          pacem vénerim míttere in terram: non veni pacem míttere, sed gládium.
-          Veni enim separáre hóminem advérsus patrem suum, et fíliam advérsus
-          matrem suam, et nurum advérsus socrum suam: et inimíci hóminis
-          doméstici ejus. Qui amat patrem aut matrem plus quam me, non est me
-          dignus: et qui amat fílium aut fíliam super me, non est me dignus. Et
-          qui non áccipit crucem suam, et séquitur me, non est me dignus. Qui
-          invénit ánimam suam, perdet illam: et qui perdíderit ánimam suam
-          propter me, invéniet eam. Qui récipit vos, me récipit: et qui me
-          récipit, récipit eum, qui me misit. Qui récipit prophétam in nómine
-          prophétæ, mercédem prophétæ accípiet: et qui récipit justum in nómine
-          justi, mercédem justi accípiet. Et quicúmque potum déderit uni ex
-          mínimis istis cálicem aquæ frígidæ tantum in nómine discípuli: amen,
-          dico vobis, non perdet mercédem suam.
-        </p>
-        <p>
-          Naquele tempo, disse Jesus aos discípulos: «Não penseis que vim trazer
-          a paz à terra; não vim trazer a paz, mas o gládio; pois vim separar o
-          homem de seu pai; a filha de sua mãe; e a nora de sua sogra. O homem
-          terá como inimigos os seus próprios criados. Aquele que ama seu pai ou
-          sua mãe mais do que a mim não é digno de mim; e aquele que ama seu
-          filho ou filha mais do que a mim não é digno de mim. Quem não toma a
-          sua cruz e me não segue não é digno de mim. Aquele que conserva a sua
-          vida perdê-la-á; e aquele que por amor de mim a perder achá-la-á.
-          Aquele que vos recebe recebe-me a mim; e o que me recebe, recebe
-          Aquele que me enviou. Aquele que recebe um profeta na qualidade de
-          profeta receberá a recompensa de profeta; e aquele que recebe um justo
-          na qualidade de justo receberá a recompensa de justo. Todo aquele que
-          der de beber, mesmo que seja um copo de água fria, a um destes
-          pequenos, como sendo meu discípulo, eu vos digo, na verdade, que não
-          perderá a recompensa.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Matthǽum.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Mateus.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Dixit Jesus discípulis suis: Nolíte arbitrári,
+              quia pacem vénerim míttere in terram: non veni pacem míttere, sed
+              gládium. Veni enim separáre hóminem advérsus patrem suum, et
+              fíliam advérsus matrem suam, et nurum advérsus socrum suam: et
+              inimíci hóminis doméstici ejus. Qui amat patrem aut matrem plus
+              quam me, non est me dignus: et qui amat fílium aut fíliam super
+              me, non est me dignus. Et qui non áccipit crucem suam, et séquitur
+              me, non est me dignus. Qui invénit ánimam suam, perdet illam: et
+              qui perdíderit ánimam suam propter me, invéniet eam. Qui récipit
+              vos, me récipit: et qui me récipit, récipit eum, qui me misit. Qui
+              récipit prophétam in nómine prophétæ, mercédem prophétæ accípiet:
+              et qui récipit justum in nómine justi, mercédem justi accípiet. Et
+              quicúmque potum déderit uni ex mínimis istis cálicem aquæ frígidæ
+              tantum in nómine discípuli: amen, dico vobis, non perdet mercédem
+              suam.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, disse Jesus aos discípulos: «Não penseis que vim
+              trazer a paz à terra; não vim trazer a paz, mas o gládio; pois vim
+              separar o homem de seu pai; a filha de sua mãe; e a nora de sua
+              sogra. O homem terá como inimigos os seus próprios criados. Aquele
+              que ama seu pai ou sua mãe mais do que a mim não é digno de mim; e
+              aquele que ama seu filho ou filha mais do que a mim não é digno de
+              mim. Quem não toma a sua cruz e me não segue não é digno de mim.
+              Aquele que conserva a sua vida perdê-la-á; e aquele que por amor
+              de mim a perder achá-la-á. Aquele que vos recebe recebe-me a mim;
+              e o que me recebe, recebe Aquele que me enviou. Aquele que recebe
+              um profeta na qualidade de profeta receberá a recompensa de
+              profeta; e aquele que recebe um justo na qualidade de justo
+              receberá a recompensa de justo. Todo aquele que der de beber,
+              mesmo que seja um copo de água fria, a um destes pequenos, como
+              sendo meu discípulo, eu vos digo, na verdade, que não perderá a
+              recompensa.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 8, 6-7</em>
+          <Text className="em">Sl. 8, 6-7</Text>
 
-      <div className="side-by-side">
-        <p>
-          Glória et honóre coronásti eum: et constituísti eum super ópera mánuum
-          tuárum, Dómine.
-        </p>
-        <p>
-          Vós o coroastes, Senhor, com glória e com honras; Vós lhe concedestes
-          o domínio sobre as obras das vossas mãos.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Glória et honóre coronásti eum: et constituísti eum super ópera
+              mánuum tuárum, Dómine.
+            </Text>
+            <Text className="text-base">
+              Vós o coroastes, Senhor, com glória e com honras; Vós lhe
+              concedestes o domínio sobre as obras das vossas mãos.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
-          cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
-          nostrum...
-        </p>
-        <p>
-          Havendo Vós, Senhor, aceitado as nossas ofertas e orações, dignai-Vos
-          purificar-nos com vossos celestiais mystérios e ouvir-nos
-          benignamente. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
+              cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
+              nostrum...
+            </Text>
+            <Text className="text-base">
+              Havendo Vós, Senhor, aceitado as nossas ofertas e orações,
+              dignai-Vos purificar-nos com vossos celestiais mystérios e
+              ouvir-nos benignamente. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Mt. 16, 24</em>
+          <Text className="em">Mt. 16, 24</Text>
 
-      <div className="side-by-side">
-        <p>
-          Qui vult veníre post me, ábneget semetípsum, et tollat crucem suam, et
-          sequátur me.
-        </p>
-        <p>
-          Se alguém quer vir após mim, negue-se a si mesmo, tome a sua cruz e
-          siga-me!
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Qui vult veníre post me, ábneget semetípsum, et tollat crucem
+              suam, et sequátur me.
+            </Text>
+            <Text className="text-base">
+              Se alguém quer vir após mim, negue-se a si mesmo, tome a sua cruz
+              e siga-me!
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Da, quǽsumus, Dómine, Deus noster: ut, sicut tuórum commemoratióne
-          Sanctórum temporáli gratulámur offício; ita perpétuo lætámur aspéctu.
-          Per Dóminum nostrum...
-        </p>
-        <p>
-          Permiti, ó Senhor, nosso Deus, Vos suplicamos, que, assim como nos
-          alegramos, comemorando nesta vida pelo nosso ministério a memória dos
-          vossos Santos, assim também tenhamos a felicidade de os contemplar na
-          eternidade. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Da, quǽsumus, Dómine, Deus noster: ut, sicut tuórum commemoratióne
+              Sanctórum temporáli gratulámur offício; ita perpétuo lætámur
+              aspéctu. Per Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Permiti, ó Senhor, nosso Deus, Vos suplicamos, que, assim como nos
+              alegramos, comemorando nesta vida pelo nosso ministério a memória
+              dos vossos Santos, assim também tenhamos a felicidade de os
+              contemplar na eternidade. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

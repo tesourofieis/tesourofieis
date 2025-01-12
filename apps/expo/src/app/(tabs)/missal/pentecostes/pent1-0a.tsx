@@ -1,240 +1,254 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PagePent10A() {
   return (
-    <div className="docs">
-      <h1>Primeiro Domingo depois de Pentecostes</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Primeiro Domingo depois de Pentecostes</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Sl. 12, 6</em>
+          <Text className="em">Sl. 12, 6</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dómine, in tua misericórdia sperávi: exsultávit cor meum in salutári
-          tuo: cantábo Dómino, qui bona tríbuit mihi. <em>Ps. ib., 1</em>{" "}
-          Usquequo, Dómine, oblivísceris me in finem? usquequo avértis fáciem
-          tuam a me? ℣. Gloria Patri...
-        </p>
-        <p>
-          Senhor, esperei na vossa misericórdia: Meu coração exultou de alegria
-          pela salvação que me alcançastes; louvarei o Senhor, que me encheu de
-          benefícios. <em>Ps. ib., 1</em> Até quando, Senhor, Vos esquecereis de
-          mim? Esquecer-me-eis para sempre? Até quando afastareis de mim a vossa
-          face? ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine, in tua misericórdia sperávi: exsultávit cor meum in
+              salutári tuo: cantábo Dómino, qui bona tríbuit mihi.{" "}
+              <Text className="em">Ps. ib., 1</Text> Usquequo, Dómine,
+              oblivísceris me in finem? usquequo avértis fáciem tuam a me? ℣.
+              Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Senhor, esperei na vossa misericórdia: Meu coração exultou de
+              alegria pela salvação que me alcançastes; louvarei o Senhor, que
+              me encheu de benefícios. <Text className="em">Ps. ib., 1</Text>{" "}
+              Até quando, Senhor, Vos esquecereis de mim? Esquecer-me-eis para
+              sempre? Até quando afastareis de mim a vossa face? ℣. Glória ao
+              Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus
-          nostris: et, quia sine te nihil potest mortális infírmitas, præsta
-          auxílium grátiæ tuæ; ut, in exsequéndis mandátis tuis, et voluntáte
-          tibi et actióne placeámus. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus, fortaleza daqueles que em Vós esperam, sede propício às nossas
-          preces; e, visto que sem o vosso auxílio nada pode a fraqueza humana,
-          concedei-nos o socorro da vossa graça, para que, cumprindo os vossos
-          mandamentos, Vos sejamos agradáveis com a nossa vontade e acções. Por
-          nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus
+              nostris: et, quia sine te nihil potest mortális infírmitas, præsta
+              auxílium grátiæ tuæ; ut, in exsequéndis mandátis tuis, et
+              voluntáte tibi et actióne placeámus. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, fortaleza daqueles que em Vós esperam, sede propício às
+              nossas preces; e, visto que sem o vosso auxílio nada pode a
+              fraqueza humana, concedei-nos o socorro da vossa graça, para que,
+              cumprindo os vossos mandamentos, Vos sejamos agradáveis com a
+              nossa vontade e acções. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>1 Jo. 4, 8-21</em>
+          <Text className="em">1 Jo. 4, 8-21</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Epístolæ beáti Joánni Apóstoli.</p>
-        <p>Lição da Ep.ª do B. Ap.º João.</p>
-        <p>
-          Caríssimi: Deus cáritas est. In hoc appáruit cáritas Dei in nobis,
-          quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus per
-          eum. In hoc est cáritas: non quasi nos dilexérimus Deum, sed quóniam
-          ipse prior diléxit nos, et misit Fílium suum propitiatiónem pro
-          peccátis nostris. Caríssimi, si sic Deus diléxit nos: et nos debémus
-          altérutrum dilígere. Deum nemo vidit umquam. Si diligámus ínvicem,
-          Deus in nobis manet, et cáritas ejus in nobis perfécta est. In hoc
-          cognóscimus, quóniam in eo manémus et ipse in nobis: quóniam de
-          Spíritu suo dedit nobis. Et nos vídimus et testificámur, quóniam Pater
-          misit Fílium suum Salvatórem mundi. Quisquis conféssus fúerit, quóniam
-          Jesus est Fílius Dei, Deus in eo manet et ipse in Deo. Et nos
-          cognóvimus et credídimus caritáti, quam habet Deus in nobis. Deus
-          cáritas est: et qui manet in caritáte, in Deo manet et Deus in eo. In
-          hoc perfécta est cáritas Dei nobíscum, ut fidúciam habeámus in die
-          judicii: quia, sicut ille est, et nos sumus in hoc mundo. Timor non
-          est in caritáte: sed perfécta cáritas foras mittit timórem, quóniam
-          timor pœnam habet. Qui autem timet, non est perféctus in caritáte. Nos
-          ergo diligámus Deum, quóniam Deus prior diléxit nos. Si quis díxerit,
-          quóniam díligo Deum, et fratrem suum óderit, mendax est. Qui enim non
-          díligit fratrem suum, quem videt, Deum, quem non videt, quómodo potest
-          dilígere? Et hoc mandátum habémus a Deo: ut, qui diligit Deum, díligat
-          et fratrem suum.
-        </p>
-        <p>
-          Caríssimos: Deus é caridade. A caridade de Deus para connosco
-          manifestou-se em Ele ter enviado ao mundo o seu Filho Unigénito, para
-          que vivamos por Ele. E esta caridade consiste em que não fomos nós
-          quem amámos Deus, mas foi Deus quem primeiramente nos amou e enviou o
-          seu Filho, como vítima de propiciação nossos pecados. Meus caríssimos
-          irmãos: Assim como Deus nos amou, assim também devemos amar-nos uns
-          aos outros. Ninguém jamais viu Deus; mas, se nos amarmos uns aos
-          outros, Deus permanece em nós e a sua caridade é perfeita em nós. O
-          que nos faz conhecer que permanecemos em Deus e Deus permanece em nós,
-          é que Ele nos fez participantes do seu Espírito. Nós vimos e damos
-          testemunho de que o Pai mandou o seu Filho como Salvador do mundo.
-          Aquele, pois, que confessar que Jesus é o Filho de Deus, Deus vive
-          nele e ele vive em Deus. Conhecemos o amor que Deus nos consagra, e
-          acreditamos nele, pois Deus é caridade, e todo o que permanece na
-          caridade permanece em Deus e Deus permanece nele. A perfeição da
-          caridade em nós consiste em que devemos ter confiança firme no dia de
-          juízo; pois tal é Jesus Cristo, tais somos, também, nós neste mundo.
-          Na caridade não há temor. A caridade perfeita exclui o temor, visto
-          que o temor é acompanhado de pena e aquele que teme não é perfeito na
-          caridade. Amemos, pois, a Deus, visto que Ele nos amou primeiramente.
-          Se alguém diz: «Eu amo a Deus», mas aborrece o seu irmão, esse é
-          mentiroso; pois aquele que não ama o irmão, que está visível, decerto
-          não pode amar a Deus, que é invisível. Recebemos de Deus este
-          mandamento: «Aquele que ama a Deus deve também amar o seu próximo».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Léctio Epístolæ beáti Joánni Apóstoli.
+            </Text>
+            <Text className="text-base">Lição da Ep.ª do B. Ap.º João.</Text>
+            <Text className="text-base">
+              Caríssimi: Deus cáritas est. In hoc appáruit cáritas Dei in nobis,
+              quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus
+              per eum. In hoc est cáritas: non quasi nos dilexérimus Deum, sed
+              quóniam ipse prior diléxit nos, et misit Fílium suum
+              propitiatiónem pro peccátis nostris. Caríssimi, si sic Deus
+              diléxit nos: et nos debémus altérutrum dilígere. Deum nemo vidit
+              umquam. Si diligámus ínvicem, Deus in nobis manet, et cáritas ejus
+              in nobis perfécta est. In hoc cognóscimus, quóniam in eo manémus
+              et ipse in nobis: quóniam de Spíritu suo dedit nobis. Et nos
+              vídimus et testificámur, quóniam Pater misit Fílium suum
+              Salvatórem mundi. Quisquis conféssus fúerit, quóniam Jesus est
+              Fílius Dei, Deus in eo manet et ipse in Deo. Et nos cognóvimus et
+              credídimus caritáti, quam habet Deus in nobis. Deus cáritas est:
+              et qui manet in caritáte, in Deo manet et Deus in eo. In hoc
+              perfécta est cáritas Dei nobíscum, ut fidúciam habeámus in die
+              judicii: quia, sicut ille est, et nos sumus in hoc mundo. Timor
+              non est in caritáte: sed perfécta cáritas foras mittit timórem,
+              quóniam timor pœnam habet. Qui autem timet, non est perféctus in
+              caritáte. Nos ergo diligámus Deum, quóniam Deus prior diléxit nos.
+              Si quis díxerit, quóniam díligo Deum, et fratrem suum óderit,
+              mendax est. Qui enim non díligit fratrem suum, quem videt, Deum,
+              quem non videt, quómodo potest dilígere? Et hoc mandátum habémus a
+              Deo: ut, qui diligit Deum, díligat et fratrem suum.
+            </Text>
+            <Text className="text-base">
+              Caríssimos: Deus é caridade. A caridade de Deus para connosco
+              manifestou-se em Ele ter enviado ao mundo o seu Filho Unigénito,
+              para que vivamos por Ele. E esta caridade consiste em que não
+              fomos nós quem amámos Deus, mas foi Deus quem primeiramente nos
+              amou e enviou o seu Filho, como vítima de propiciação nossos
+              pecados. Meus caríssimos irmãos: Assim como Deus nos amou, assim
+              também devemos amar-nos uns aos outros. Ninguém jamais viu Deus;
+              mas, se nos amarmos uns aos outros, Deus permanece em nós e a sua
+              caridade é perfeita em nós. O que nos faz conhecer que
+              permanecemos em Deus e Deus permanece em nós, é que Ele nos fez
+              participantes do seu Espírito. Nós vimos e damos testemunho de que
+              o Pai mandou o seu Filho como Salvador do mundo. Aquele, pois, que
+              confessar que Jesus é o Filho de Deus, Deus vive nele e ele vive
+              em Deus. Conhecemos o amor que Deus nos consagra, e acreditamos
+              nele, pois Deus é caridade, e todo o que permanece na caridade
+              permanece em Deus e Deus permanece nele. A perfeição da caridade
+              em nós consiste em que devemos ter confiança firme no dia de
+              juízo; pois tal é Jesus Cristo, tais somos, também, nós neste
+              mundo. Na caridade não há temor. A caridade perfeita exclui o
+              temor, visto que o temor é acompanhado de pena e aquele que teme
+              não é perfeito na caridade. Amemos, pois, a Deus, visto que Ele
+              nos amou primeiramente. Se alguém diz: «Eu amo a Deus», mas
+              aborrece o seu irmão, esse é mentiroso; pois aquele que não ama o
+              irmão, que está visível, decerto não pode amar a Deus, que é
+              invisível. Recebemos de Deus este mandamento: «Aquele que ama a
+              Deus deve também amar o seu próximo».
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 40, 5 & 2</em>
+          <Text className="em">Sl. 40, 5 & 2</Text>
 
-      <div className="side-by-side">
-        <p>
-          Ego dixi: Dómine, miserére mei: sana ánimam meam, quia peccávi tibi.
-          ℣. Beátus, qui intéllegit super egénum et páuperem: in die mala
-          liberábit eum Dóminus.
-        </p>
-        <p>
-          Eu disse: Senhor, tende piedade de mim: curai a minha alma, porque
-          pequei contra Vós. ℣. Bem-aventurado aquele que pensa no pobre e no
-          miserável, pois o Senhor o livrará no dia mau.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Ps. 5, 2</em> Verba mea áuribus pércipe,
-          Dómine: intéllege clamórem meum. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Sl. 5, 2</em> Atendei às minhas palavras,
-          Senhor! Ouvi o meu clamor. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Ego dixi: Dómine, miserére mei: sana ánimam meam, quia peccávi
+              tibi. ℣. Beátus, qui intéllegit super egénum et páuperem: in die
+              mala liberábit eum Dóminus.
+            </Text>
+            <Text className="text-base">
+              Eu disse: Senhor, tende piedade de mim: curai a minha alma, porque
+              pequei contra Vós. ℣. Bem-aventurado aquele que pensa no pobre e
+              no miserável, pois o Senhor o livrará no dia mau.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Ps. 5, 2</Text> Verba
+              mea áuribus pércipe, Dómine: intéllege clamórem meum. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Sl. 5, 2</Text> Atendei
+              às minhas palavras, Senhor! Ouvi o meu clamor. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Lc. 6, 36-42</em>
+          <Text className="em">Lc. 6, 36-42</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Lucam.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Lucas.
-        </p>
-        <p>
-          In illo témpore: Dixit Jesus discípulis suis: Estóte misericórdes,
-          sicut et Pater vester miséricors est. Nolíte judicáre, et non
-          judicabímini: nolíte condemnáre, et non condemnabímini. Dimíttite, et
-          dimittémini. Date, et dábitur vobis: mensúram bonam et confértam et
-          coagitátam et supereffluéntem dabunt in sinum vestrum. Eadem quippe
-          mensúra, qua mensi fuéritis, remetiétur vobis. Dicébat autem illis et
-          similitúdinem: Numquid potest cæcus cæcum dúcere? nonne ambo in fóveam
-          cadunt? Non est discípulus super magistrum: perféctus autem omnis
-          erit, si sit sicut magister ejus. Quid autem vides festúcam in óculo
-          fratris tui, trabem autem, quæ in óculo tuo est, non consíderas? Aut
-          quómodo potes dícere fratri tuo: Frater, sine, ejíciam festúcam de
-          óculo tuo: ipse in oculo tuo trabem non videns? Hypócrita, ejice
-          primum trabem de oculo tuo: et tunc perspícies, ut edúcas festúcam de
-          óculo fratris tui.
-        </p>
-        <p>
-          Naquele tempo, disse Jesus aos seus discípulos: «Sede misericordiosos,
-          como misericordioso é o vosso Pai. Não julgueis, e não sereis
-          julgados. Não condeneis, e não sereis condenados. Perdoai, e sereis
-          perdoados. Dai aos outros e dar-vos-ão a vós: no vosso regaço
-          colocarão uma boa medida, bem cheia, calcada, acogulada e a
-          transbordar, pois a medida que usardes para com os outros será a
-          medida que usarão para convosco». Depois propôs-lhes esta comparação:
-          Porventura pode um cego guiar outro cego? Acaso não cairão ambos no
-          abysmo. O discípulo não é superior ao mestre; mas todo o discípulo
-          será perfeito, se for como o seu mestre. Porque reparas na palha que
-          está no olho do teu irmão e não reparas na tranca que está no teu?
-          Como podes dizer a teu irmão: «Deixa-me tirar essa palha que tens no
-          teu olho», se não vês a tranca que está no teu? Hipócrita, tira
-          primeiramente a tranca do teu olho; depois cuidarás de tirar a palha
-          do olho do teu irmão.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Lucam.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Lucas.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Dixit Jesus discípulis suis: Estóte misericórdes,
+              sicut et Pater vester miséricors est. Nolíte judicáre, et non
+              judicabímini: nolíte condemnáre, et non condemnabímini. Dimíttite,
+              et dimittémini. Date, et dábitur vobis: mensúram bonam et
+              confértam et coagitátam et supereffluéntem dabunt in sinum
+              vestrum. Eadem quippe mensúra, qua mensi fuéritis, remetiétur
+              vobis. Dicébat autem illis et similitúdinem: Numquid potest cæcus
+              cæcum dúcere? nonne ambo in fóveam cadunt? Non est discípulus
+              super magistrum: perféctus autem omnis erit, si sit sicut magister
+              ejus. Quid autem vides festúcam in óculo fratris tui, trabem
+              autem, quæ in óculo tuo est, non consíderas? Aut quómodo potes
+              dícere fratri tuo: Frater, sine, ejíciam festúcam de óculo tuo:
+              ipse in oculo tuo trabem non videns? Hypócrita, ejice primum
+              trabem de oculo tuo: et tunc perspícies, ut edúcas festúcam de
+              óculo fratris tui.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, disse Jesus aos seus discípulos: «Sede
+              misericordiosos, como misericordioso é o vosso Pai. Não julgueis,
+              e não sereis julgados. Não condeneis, e não sereis condenados.
+              Perdoai, e sereis perdoados. Dai aos outros e dar-vos-ão a vós: no
+              vosso regaço colocarão uma boa medida, bem cheia, calcada,
+              acogulada e a transbordar, pois a medida que usardes para com os
+              outros será a medida que usarão para convosco». Depois propôs-lhes
+              esta comparação: Porventura pode um cego guiar outro cego? Acaso
+              não cairão ambos no abysmo. O discípulo não é superior ao mestre;
+              mas todo o discípulo será perfeito, se for como o seu mestre.
+              Porque reparas na palha que está no olho do teu irmão e não
+              reparas na tranca que está no teu? Como podes dizer a teu irmão:
+              «Deixa-me tirar essa palha que tens no teu olho», se não vês a
+              tranca que está no teu? Hipócrita, tira primeiramente a tranca do
+              teu olho; depois cuidarás de tirar a palha do olho do teu irmão.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 5, 3-4</em>
+          <Text className="em">Sl. 5, 3-4</Text>
 
-      <div className="side-by-side">
-        <p>
-          Inténde voci orationis meæ, Rex meus et Deus meus: quóniam ad te
-          orábo, Dómine.
-        </p>
-        <p>
-          Atendei à minha súplica, ó meu Rei e meu Deus: pois é a Vós que dirijo
-          a minha oração.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Inténde voci orationis meæ, Rex meus et Deus meus: quóniam ad te
+              orábo, Dómine.
+            </Text>
+            <Text className="text-base">
+              Atendei à minha súplica, ó meu Rei e meu Deus: pois é a Vós que
+              dirijo a minha oração.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Hóstias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme: et ad
-          perpétuum nobis tríbue proveníre subsídium. Per Dóminum nostrum...
-        </p>
-        <p>
-          Aceitai benigno, Senhor, as ofertas que Vos oferecemos; e, Vos
-          suplicamos, fazei que nos alcancem o vosso perpétuo auxílio. Por nosso
-          Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Hóstias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme:
+              et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum
+              nostrum...
+            </Text>
+            <Text className="text-base">
+              Aceitai benigno, Senhor, as ofertas que Vos oferecemos; e, Vos
+              suplicamos, fazei que nos alcancem o vosso perpétuo auxílio. Por
+              nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Sl. 9, 2-3</em>
+          <Text className="em">Sl. 9, 2-3</Text>
 
-      <div className="side-by-side">
-        <p>
-          Narrábo ómnia mirabília tua: lætábor et exsultábo in te: psallam
-          nómini tuo, Altíssime.
-        </p>
-        <p>
-          Publicarei todas as vossas maravilhas: e alegrar-me-ei e rejubilarei
-          em Vós! Cantarei louvores ao vosso nome, ó Altíssimo.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Narrábo ómnia mirabília tua: lætábor et exsultábo in te: psallam
+              nómini tuo, Altíssime.
+            </Text>
+            <Text className="text-base">
+              Publicarei todas as vossas maravilhas: e alegrar-me-ei e
+              rejubilarei em Vós! Cantarei louvores ao vosso nome, ó Altíssimo.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et salutária
-          dona capiámus, et a tua numquam laude cessémus. Per Dóminum nostrum...
-        </p>
-        <p>
-          Depois de havermos sido saciados com tantos dons, fazei, Senhor, Vos
-          suplicamos, que nos sejam proveitosos e que nunca cessemos de Vos
-          louvar. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et
+              salutária dona capiámus, et a tua numquam laude cessémus. Per
+              Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Depois de havermos sido saciados com tantos dons, fazei, Senhor,
+              Vos suplicamos, que nos sejam proveitosos e que nunca cessemos de
+              Vos louvar. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,29 +1,34 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0117() {
   return (
-    <div className="docs">
-      <h1>S. António, Abade, a 17 de Janeiro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. António, Abade, a 17 de Janeiro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/16abades">
-          Missa Os justi
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/16abades">
+              Missa Os justi
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <LinkCard
-        href="/missal/comum/14confessoresnaopontifices1#evangelho"
-        title="Confessores não Pontífices - Missa Os justi"
-      />
-    </div>
+          <LinkCard
+            href="/missal/comum/14confessoresnaopontifices1#evangelho"
+            title="Confessores não Pontífices - Missa Os justi"
+          />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

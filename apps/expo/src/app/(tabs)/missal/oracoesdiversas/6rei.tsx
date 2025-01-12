@@ -1,72 +1,76 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page6Rei() {
   return (
-    <div className="docs">
-      <h1>6.ª Pelo Rei</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">6.ª Pelo Rei</Text>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Quǽsumus, omnípotens Deus: ut fámulus tuus{" "}
-          <span className="text-red-500">N.</span>, rex noster, qui tua
-          miseratióne suscépit regni gubernácula, virtútum etiam ómnium
-          percípiat increménta; quibus decénter ornátus, et vitiórum monstra
-          devitáre et ad te, qui via, véritas et vita es, gratiósus váleat
-          perveníre. Per Dóminum...
-        </p>
-        <p>
-          Vos suplicamos, ó omnipotente Deus, permiti que o vosso servo{" "}
-          <span className="text-red-500">N.</span>, nosso rei, o qual, por
-          efeito da vossa misericórdia, recebeu as rédeas do governo, alcance
-          também incremento em todas as virtudes, a fim de que, sendo, como
-          convém, ornado com elas, possa evitar o horror dos vícios e, cheio de
-          merecimentos, se aproxime de Vós, que sois o caminho, a verdade e a
-          vida. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Quǽsumus, omnípotens Deus: ut fámulus tuus{" "}
+              <Text className="text-red-500">N.</Text>, rex noster, qui tua
+              miseratióne suscépit regni gubernácula, virtútum etiam ómnium
+              percípiat increménta; quibus decénter ornátus, et vitiórum monstra
+              devitáre et ad te, qui via, véritas et vita es, gratiósus váleat
+              perveníre. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Vos suplicamos, ó omnipotente Deus, permiti que o vosso servo{" "}
+              <Text className="text-red-500">N.</Text>, nosso rei, o qual, por
+              efeito da vossa misericórdia, recebeu as rédeas do governo,
+              alcance também incremento em todas as virtudes, a fim de que,
+              sendo, como convém, ornado com elas, possa evitar o horror dos
+              vícios e, cheio de merecimentos, se aproxime de Vós, que sois o
+              caminho, a verdade e a vida. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Múnera, Dómine, quǽsumus, oblata sanctífica: ut et nobis Unigéniti tui
-          Corpus et Sanguis fiant; ei regi nostro ad obtinéndam ánimæ
-          corporísque salútem, et peragéndum injúnctum offícium, te largiénte,
-          usquéquaque profíciant. Per eúndem Dóminum nostrum...
-        </p>
-        <p>
-          Santificai, Senhor, Vos imploramos, estas oblatas que Vos são
-          oferecidas, a fim de que, para nosso proveito, se convertam no Corpo e
-          no Sangue de vosso Filho Unigénito; e que, pela vossa misericórdia,
-          sejam úteis ao nosso rei, para lhe alcançarem a salvação da alma e do
-          corpo e o auxiliarem a desempenhar o cargo de que foi investido. Pelo
-          mesmo nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Múnera, Dómine, quǽsumus, oblata sanctífica: ut et nobis Unigéniti
+              tui Corpus et Sanguis fiant; ei regi nostro ad obtinéndam ánimæ
+              corporísque salútem, et peragéndum injúnctum offícium, te
+              largiénte, usquéquaque profíciant. Per eúndem Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Santificai, Senhor, Vos imploramos, estas oblatas que Vos são
+              oferecidas, a fim de que, para nosso proveito, se convertam no
+              Corpo e no Sangue de vosso Filho Unigénito; e que, pela vossa
+              misericórdia, sejam úteis ao nosso rei, para lhe alcançarem a
+              salvação da alma e do corpo e o auxiliarem a desempenhar o cargo
+              de que foi investido. Pelo mesmo nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Hæc, Dómine, oblátio salutáris fámulum tuum{" "}
-          <span className="text-red-500">N.</span>, regem nostrum, ab ómnibus
-          tueátur advérsis: quaténus et ecclesiásticæ pacis obtíneat
-          tranquillitátem; et, post hujus témporis decúrsum, ad ætérnam
-          pervéniat hereditátem. Per Dóminum...
-        </p>
-        <p>
-          Senhor, que esta salutar oblação proteja o vosso servo{" "}
-          <span className="text-red-500">N.</span>, nosso rei, contra todas as
-          adversidades, a fim de que alcance a tranquilidade, que proporciona a
-          paz da Igreja, e, após esta vida, consiga a herança eterna. Por nosso
-          Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Hæc, Dómine, oblátio salutáris fámulum tuum{" "}
+              <Text className="text-red-500">N.</Text>, regem nostrum, ab
+              ómnibus tueátur advérsis: quaténus et ecclesiásticæ pacis obtíneat
+              tranquillitátem; et, post hujus témporis decúrsum, ad ætérnam
+              pervéniat hereditátem. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Senhor, que esta salutar oblação proteja o vosso servo{" "}
+              <Text className="text-red-500">N.</Text>, nosso rei, contra todas
+              as adversidades, a fim de que alcance a tranquilidade, que
+              proporciona a paz da Igreja, e, após esta vida, consiga a herança
+              eterna. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

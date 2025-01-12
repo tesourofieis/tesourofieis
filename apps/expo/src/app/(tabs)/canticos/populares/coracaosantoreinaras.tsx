@@ -1,39 +1,49 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageCoracaosantoreinaras() {
   return (
-    <div className="docs">
-      <h1>Coração Santo, Tu reinarás</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Coração Santo, Tu reinarás</Text>
 
-      <div className="not-content">
-        <p>
-          Refrão: Coração Santo, Tu reinarás Tu nosso encanto sempre serás
-          (Bis).
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>
-          Como o soldado vela a seu rei, assim meu sangue por Ti darei (Bis).
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>
-          Se o mundo iníquo me combater sempre a Teu lado hei de vencer (Bis).
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>Jesus soberano deixa-me ser teu guarda d´honra até morrer (Bis).</p>
-        <p>
-          <br />
-        </p>
-        <p>Anjos e arcanjos, santos do céu connosco velam o trono Teu (Bis).</p>
-      </div>
-    </div>
+          <View className="not-content">
+            <Text className="text-base">
+              Refrão: Coração Santo, Tu reinarás Tu nosso encanto sempre serás
+              (Bis).
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              Como o soldado vela a seu rei, assim meu sangue por Ti darei
+              (Bis).
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              Se o mundo iníquo me combater sempre a Teu lado hei de vencer
+              (Bis).
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              Jesus soberano deixa-me ser teu guarda d´honra até morrer (Bis).
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              Anjos e arcanjos, santos do céu connosco velam o trono Teu (Bis).
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

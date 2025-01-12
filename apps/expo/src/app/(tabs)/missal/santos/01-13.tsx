@@ -1,109 +1,117 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0113() {
   return (
-    <div className="docs">
-      <h1>Dia da oitava da Epifania</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Dia da oitava da Epifania</Text>
 
-      <aside>
-        Como no dia da{" "}
-        <Link className="link" href="/missal/santos/01-06">
-          Festa da Epifania
-        </Link>{" "}
-        , excepto o seguinte:
-      </aside>
+          <View className="aside">
+            Como no dia da{" "}
+            <Link className="link" href="/missal/santos/01-06">
+              Festa da Epifania
+            </Link>{" "}
+            , excepto o seguinte:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, cujus Unigénitus in substántia nostræ carnis appáruit: præsta,
-          quǽsumus; ut per eum, quem símilem nobis foris agnóvimus, intus
-          reformári mereámur: Qui tecum...
-        </p>
-        <p>
-          Ó Deus, cujo Filho Unigénito apareceu na terra revestido com a
-          substância da nossa carne, permiti, Vos rogamos, que mereçamos a graça
-          de sermos reformados interiormente por Aquele que reconhecemos
-          semelhante a nós exteriormente. Ele, que, sendo Deus...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, cujus Unigénitus in substántia nostræ carnis appáruit:
+              præsta, quǽsumus; ut per eum, quem símilem nobis foris agnóvimus,
+              intus reformári mereámur: Qui tecum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, cujo Filho Unigénito apareceu na terra revestido com a
+              substância da nossa carne, permiti, Vos rogamos, que mereçamos a
+              graça de sermos reformados interiormente por Aquele que
+              reconhecemos semelhante a nós exteriormente. Ele, que, sendo
+              Deus...
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Jo. 1, 29-34</em>
+          <Text className="em">Jo. 1, 29-34</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Joánnem.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. João.
-        </p>
-        <p>
-          In illo témpore: Vidit Joánnes Jesum veniéntem ad se, et ait: Ecce
-          Agnus Dei, ecce, qui tollit peccátum mundi. Hic est, de quo dixi: Post
-          me venit vir, qui ante me factus est: quia prior me erat. Et ego
-          nesciébam eum, sed ut manifestétur in Israël, proptérea veni ego in
-          aqua baptízans. Et testimónium perhíbuit Joánnes, dicens: Quia vidi
-          Spíritum descendéntem quasi colúmbam de cœlo, et mansit super eum. Et
-          ego nesciébam eum: sed qui misit me baptizáre in aqua, ille mihi
-          dixit: Super quem víderis Spíritum descendéntem, et manéntem super
-          eum, hic est, qui baptízat in Spíritu Sancto. Et ego vidi: et
-          testimónium perhíbui, quia hic est Fílius Dei.
-        </p>
-        <p>
-          Naquele tempo, João viu Jesus, que caminhava para ele, e disse: «Eis o
-          Cordeiro de Deus, eis o que tira o pecado do mundo. Este é Aquele de
-          quem eu disse: «Depois de mim vem um homem, que me precedeu, porque já
-          existia antes de mim. Eu O não conhecia, mas foi para que Ele fosse
-          manifestado a Israel que vim baptizar na água». E João deu este
-          testemunho, dizendo: «Eu vi o Espírito descer do céu, sob a forma de
-          uma pomba, e pousar sobre Ele. Eu O não conhecia, mas Aquele que me
-          enviou a baptizar na água disse-me: «Aquele sobre quem vires o
-          Espírito descer e pousar é o que baptiza no Espírito Santo». Eu vi
-          isto e afirmo que Ele é o Filho de Deus».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Joánnem.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. João.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Vidit Joánnes Jesum veniéntem ad se, et ait: Ecce
+              Agnus Dei, ecce, qui tollit peccátum mundi. Hic est, de quo dixi:
+              Post me venit vir, qui ante me factus est: quia prior me erat. Et
+              ego nesciébam eum, sed ut manifestétur in Israël, proptérea veni
+              ego in aqua baptízans. Et testimónium perhíbuit Joánnes, dicens:
+              Quia vidi Spíritum descendéntem quasi colúmbam de cœlo, et mansit
+              super eum. Et ego nesciébam eum: sed qui misit me baptizáre in
+              aqua, ille mihi dixit: Super quem víderis Spíritum descendéntem,
+              et manéntem super eum, hic est, qui baptízat in Spíritu Sancto. Et
+              ego vidi: et testimónium perhíbui, quia hic est Fílius Dei.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, João viu Jesus, que caminhava para ele, e disse:
+              «Eis o Cordeiro de Deus, eis o que tira o pecado do mundo. Este é
+              Aquele de quem eu disse: «Depois de mim vem um homem, que me
+              precedeu, porque já existia antes de mim. Eu O não conhecia, mas
+              foi para que Ele fosse manifestado a Israel que vim baptizar na
+              água». E João deu este testemunho, dizendo: «Eu vi o Espírito
+              descer do céu, sob a forma de uma pomba, e pousar sobre Ele. Eu O
+              não conhecia, mas Aquele que me enviou a baptizar na água
+              disse-me: «Aquele sobre quem vires o Espírito descer e pousar é o
+              que baptiza no Espírito Santo». Eu vi isto e afirmo que Ele é o
+              Filho de Deus».
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Hóstias tibi, Dómine, pro nati Fílii tui apparitióne deférimus,
-          supplíciter exorántes: ut, sicut ipse nostrórum auctor est múnerum,
-          ita sit ipse miséricors et suscéptor, Jesus Christus, Dóminus noster:
-          Qui tecum...
-        </p>
-        <p>
-          Senhor, Vos oferecemos sacrifícios em memória da manifestação do vosso
-          Filho, que nasceu no mundo, suplicando-Vos que, assim como Jesus
-          Cristo, nosso Senhor, é o autor destes dons, assim também os aceites
-          misericordiosamente. Ele, que, sendo Deus...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Hóstias tibi, Dómine, pro nati Fílii tui apparitióne deférimus,
+              supplíciter exorántes: ut, sicut ipse nostrórum auctor est
+              múnerum, ita sit ipse miséricors et suscéptor, Jesus Christus,
+              Dóminus noster: Qui tecum...
+            </Text>
+            <Text className="text-base">
+              Senhor, Vos oferecemos sacrifícios em memória da manifestação do
+              vosso Filho, que nasceu no mundo, suplicando-Vos que, assim como
+              Jesus Cristo, nosso Senhor, é o autor destes dons, assim também os
+              aceites misericordiosamente. Ele, que, sendo Deus...
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Cœlésti lúmine, quǽsumus, Dómine, semper et ubíque nos prǽveni: ut
-          mystérium, cujus nos partícipes esse voluísti, et puro cernámus
-          intúitu, et digno percipiámus affectu. Per Dóminum nostrum...
-        </p>
-        <p>
-          Dignai-Vos assistir-nos sempre e em toda a parte com vossa celestial
-          luz, Senhor, Vos pedimos, a fim de que, assim corno quisestes que
-          participássemos deste mystério, assim também possamos contemplá-lo com
-          olhos puros e recebê-lo com afecto digno. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Cœlésti lúmine, quǽsumus, Dómine, semper et ubíque nos prǽveni: ut
+              mystérium, cujus nos partícipes esse voluísti, et puro cernámus
+              intúitu, et digno percipiámus affectu. Per Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Dignai-Vos assistir-nos sempre e em toda a parte com vossa
+              celestial luz, Senhor, Vos pedimos, a fim de que, assim corno
+              quisestes que participássemos deste mystério, assim também
+              possamos contemplá-lo com olhos puros e recebê-lo com afecto
+              digno. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

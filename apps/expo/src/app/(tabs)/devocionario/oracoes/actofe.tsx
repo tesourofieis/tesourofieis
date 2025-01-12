@@ -1,28 +1,32 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageActofe() {
   return (
-    <div className="docs">
-      <h1>Acto de Fé</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Acto de Fé</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dómine Deus, firma fide credo et confíteor ómnia et síngula quæ sancta
-          Ecclésia Cathólica propónit, quia tu, Deus, ea ómnia revelásti, qui es
-          ætérna véritas et sapiéntia quæ nec fállere nec falli potest. In hac
-          fide vívere et mori státuo. Amen.
-        </p>
-        <p>
-          Senhor Deus, creio firmemente e confesso todas e cada uma das coisas
-          que a Santa Igreja Católica propõe, porque Vós, ó Deus, revelastes
-          todas essas coisas, Vós, que sois a eterna verdade e sabedoria que não
-          pode enganar nem ser enganada. Nesta fé, é minha determinação viver e
-          morrer. Amen.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine Deus, firma fide credo et confíteor ómnia et síngula quæ
+              sancta Ecclésia Cathólica propónit, quia tu, Deus, ea ómnia
+              revelásti, qui es ætérna véritas et sapiéntia quæ nec fállere nec
+              falli potest. In hac fide vívere et mori státuo. Amen.
+            </Text>
+            <Text className="text-base">
+              Senhor Deus, creio firmemente e confesso todas e cada uma das
+              coisas que a Santa Igreja Católica propõe, porque Vós, ó Deus,
+              revelastes todas essas coisas, Vós, que sois a eterna verdade e
+              sabedoria que não pode enganar nem ser enganada. Nesta fé, é minha
+              determinação viver e morrer. Amen.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,65 +1,74 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0911() {
   return (
-    <div className="docs">
-      <h1>S. S. Proto e Jacinto, Mártires, a 11 de Setembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. S. Proto e Jacinto, Mártires, a 11 de Setembro
+          </Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/8muitosmartires3">
-          Missa Salus autem
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/8muitosmartires3">
+              Missa Salus autem
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Beatórum Mártyrum tuórum Proti et Hyacínthi nos, Dómine, fóveat
-          pretiósa conféssio: et pia júgiter intercéssio tueátur. Per Dóminum...
-        </p>
-        <p>
-          Que a preciosa confissão da fé dos vossos B. B. Mártires Proto e
-          Jacinto nos anime, e que eles nos protejam incessantemente com os
-          méritos da sua piedosa intercessão. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Beatórum Mártyrum tuórum Proti et Hyacínthi nos, Dómine, fóveat
+              pretiósa conféssio: et pia júgiter intercéssio tueátur. Per
+              Dóminum...
+            </Text>
+            <Text className="text-base">
+              Que a preciosa confissão da fé dos vossos B. B. Mártires Proto e
+              Jacinto nos anime, e que eles nos protejam incessantemente com os
+              méritos da sua piedosa intercessão. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Pro sanctórum Martyrum tuórum Proti et Hyacínthi commemoratióne,
-          múnera tibi, Dómine, quæ debémus, exsólvimus: præsta, quǽsumus; ut
-          remédium nobis perpétuæ salútis operéntur. Per Dóminum...
-        </p>
-        <p>
-          Vos oferecemos, Senhor, em memória dos vossos Santos Mártires Proto e
-          Jacinto, estas oblatas, que Vos são devidas, e permiti, Vos rogamos,
-          que nos curem e proporcionem o remédio da salvação. Por nosso
-          Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Pro sanctórum Martyrum tuórum Proti et Hyacínthi commemoratióne,
+              múnera tibi, Dómine, quæ debémus, exsólvimus: præsta, quǽsumus; ut
+              remédium nobis perpétuæ salútis operéntur. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Vos oferecemos, Senhor, em memória dos vossos Santos Mártires
+              Proto e Jacinto, estas oblatas, que Vos são devidas, e permiti,
+              Vos rogamos, que nos curem e proporcionem o remédio da salvação.
+              Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Ut percépta nos, Dómine, tua sancta puríficent: beatórum Mártyrum
-          tuórum Proti et Hyacínthi, quǽsumus, ímploret orátio. Per Dóminum...
-        </p>
-        <p>
-          Vos pedimos, Senhor, fazei que os mystérios agora recebidos nos
-          alcancem, pelas preces dos vossos B. B. Mártires Proto e Jacinto, a
-          graça de sermos purificados. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Ut percépta nos, Dómine, tua sancta puríficent: beatórum Mártyrum
+              tuórum Proti et Hyacínthi, quǽsumus, ímploret orátio. Per
+              Dóminum...
+            </Text>
+            <Text className="text-base">
+              Vos pedimos, Senhor, fazei que os mystérios agora recebidos nos
+              alcancem, pelas preces dos vossos B. B. Mártires Proto e Jacinto,
+              a graça de sermos purificados. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

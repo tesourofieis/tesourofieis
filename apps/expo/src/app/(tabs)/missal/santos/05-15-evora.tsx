@@ -1,43 +1,54 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0515Evora() {
   return (
-    <div className="docs">
-      <h1>S. Mâncio, B. e Mártir, a 15 de Maio, Na Arquidiocese de Évora</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. Mâncio, B. e Mártir, a 15 de Maio, Na Arquidiocese de Évora
+          </Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/9martir">
-          Missa Protexísti me
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/9martir">
+              Missa Protexísti me
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Omnípotens sempitérne Deus, qui Máncio, discípulo Unigéniti tui,
-          Mártyr insígne tormentórum tolerántiam tribuísti: quǽsumus; ut sicut
-          ejus passiónem venerámur: ita glóriæ ipsíus mereámur esse partícipes.
-          Per eúmdem Dóminum...
-        </p>
-        <p>
-          Ó omnipotente e eterno Deus, que ao insigne Mártir Mâncio, discípulo
-          do vosso Unigénito Filho, concedestes a força para suportar os
-          tormentos, Vos pedimos que, assim como veneramos o seu suplício, assim
-          mereçamos ser participantes da sua glória. Pelo mesmo nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Omnípotens sempitérne Deus, qui Máncio, discípulo Unigéniti tui,
+              Mártyr insígne tormentórum tolerántiam tribuísti: quǽsumus; ut
+              sicut ejus passiónem venerámur: ita glóriæ ipsíus mereámur esse
+              partícipes. Per eúmdem Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó omnipotente e eterno Deus, que ao insigne Mártir Mâncio,
+              discípulo do vosso Unigénito Filho, concedestes a força para
+              suportar os tormentos, Vos pedimos que, assim como veneramos o seu
+              suplício, assim mereçamos ser participantes da sua glória. Pelo
+              mesmo nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <LinkCard title="Missa S. Tito" href="/missal/santos/02-06#evangelho" />
-    </div>
+          <LinkCard
+            title="Missa S. Tito"
+            href="/missal/santos/02-06#evangelho"
+          />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,137 +1,264 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageSanguejesus() {
   return (
-    <div className="docs">
-      <h1>Ladainha Sangue de Jesus</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Ladainha Sangue de Jesus</Text>
 
-      <div className="side-by-side">
-        <p>Kyrie, eleison.</p>
-        <p>Senhor, tende piedade de nós.</p>
-        <p>Christe, eleison.</p>
-        <p>Jesus Cristo, tende piedade de nós.</p>
-        <p>Kyrie, eleison.</p>
-        <p>Senhor, tende piedade de nós.</p>
-        <p>Christe, audi nos.</p>
-        <p>Jesus Cristo, ouvi-nos.</p>
-        <p>Christe, exaudi nos.</p>
-        <p>Jesus Cristo, atendei-nos.</p>
-        <p>Pater de cælis, Deus, miserere nobis.</p>
-        <p>Pai dos Céus que sois Deus, tende piedade de nós.</p>
-        <p>Fili, Redemptor mundi, Deus, miserere nobis.</p>
-        <p>Filho Redentor do mundo que sois Deus, tende piedade de nós.</p>
-        <p>Spiritus Sancte, Deus, miserere nobis.</p>
-        <p>Espírito Santo que sois Deus, tende piedade de nós.</p>
-        <p>Sancta Trinitas, unus Deus, miserere nobis.</p>
-        <p>Santíssima Trindade que sois um só Deus, tende piedade de nós.</p>
-        <p>Sanguis Christi, Unigeniti Patris æterni, salva nos.</p>
-        <p>Sangue de Cristo, Unigénito do Pai Eterno, salvai-nos.</p>
-        <p>Sancta Trinitas, unus Deus, miserere nobis.</p>
-        <p>Santíssima Trindade que sois um só Deus, tende piedade de nós.</p>
-        <p>Sanguis Christi, Verbi Dei incarnati, salva nos.</p>
-        <p>Sangue de Cristo, Verbo de Deus Encarnado, salvai-nos.</p>
-        <p>Sanguis Christi, Novi et Aeterni Testamenti, salva nos.</p>
-        <p>Sangue de Cristo, do Novo e Eterno Testamento, salvai-nos.</p>
-        <p>Sanguis Christi, in agonia decurrens in terram, salva nos.</p>
-        <p>Sangue de Cristo, a correr na agonia sobre a terra, salvai-nos.</p>
-        <p>Sanguis Christi, in flagellatione profluens, salva nos.</p>
-        <p>Sangue de Cristo, a verter na flagelação, salvai-nos.</p>
-        <p>Sanguis Christi, in coronatione spinarum emanans, salva nos.</p>
-        <p>Sangue de Cristo, a emanar na coroação de espinhos, salvai-nos.</p>
-        <p>Sanguis Christi, in Cruce effusus, salva nos.</p>
-        <p>Sangue de Cristo, derramado na Cruz, salvai-nos.</p>
-        <p>Sanguis Christi, pretium nostræ salutis, salva nos.</p>
-        <p>Sangue de Cristo, preço da nossa Salvação, salvai-nos.</p>
-        <p>Sanguis Christi, sine quo non fit remissio, salva nos.</p>
-        <p>Sangue de Cristo, sem o qual não há remissão, salvai-nos.</p>
-        <p>
-          Sanguis Christi, in Eucharistia potus et lavacrum animarum, salva nos.
-        </p>
-        <p>
-          Sangue de Cristo, bebida e purificação das almas na Eucaristia,
-          salvai-nos.
-        </p>
-        <p>Sanguis Christi, flumen misericordiæ, salva nos.</p>
-        <p>Sangue de Cristo, manancial de misericórdia, salvai-nos.</p>
-        <p>Sanguis Christi, victor dæmonum, salva nos..</p>
-        <p>Sangue de Cristo, vencedor dos demónios, salvai-nos.</p>
-        <p>Sanguis Christi, fortitudo martyrum, salva nos.</p>
-        <p>Sangue de Cristo, fortaleza dos mártires, salvai-nos.</p>
-        <p>Sanguis Christi, virtus confessorum, salva nos.</p>
-        <p>Sangue de Cristo, força dos confessores, salvai-nos.</p>
-        <p>Sanguis Christi, germinans virgines, salva nos.</p>
-        <p>Sangue de Cristo, fonte de virgindade, salvai-nos.</p>
-        <p>Sanguis Christi, robur periclitantium, salva nos.</p>
-        <p>Sangue de Cristo, conforto dos que estão em perigo, salvai-nos.</p>
-        <p>Sanguis Christi, levamen laborantium, salva nos.</p>
-        <p>Sangue de Cristo, alívio dos que sofrem, salvai-nos.</p>
-        <p>Sanguis Christi, in fletu solatium, salva nos.</p>
-        <p>Sangue de Cristo, consolo das nossas lágrimas, salvai-nos.</p>
-        <p>Sanguis Christi, spes poenitentium, salva nos.</p>
-        <p>Sangue de Cristo, esperança dos penitentes, salvai-nos.</p>
-        <p>Sanguis Christi, solamen morientium, salva nos.</p>
-        <p>Sangue de Cristo, consolação dos agonizantes, salvai-nos.</p>
-        <p>Sanguis Christi, pax et dulcedo cordium, salva nos.</p>
-        <p>Sangue de Cristo, paz e doçura dos corações, salvai-nos.</p>
-        <p>Sanguis Christi, pignus vitæ æternæ, salva nos.</p>
-        <p>Sangue de Cristo, penhor de vida eterna, salvai-nos.</p>
-        <p>Sanguis Christi, animas liberans de lacu Purgatorii, salva nos.</p>
-        <p>
-          Sangue de Cristo, que libertais as almas do Purgatório, salvai-nos.
-        </p>
-        <p>Sanguis Christi, omni gloria et honore dignissimus, salva nos.</p>
-        <p>
-          Sangue de Cristo, digníssimo de toda a honra e glória, salvai-nos.
-        </p>
-        <p>Agnus Dei, qui tollis peccata mundi, parce nobis, Domine.</p>
-        <p>
-          Cordeiro de Deus, que tirais os pecados do mundo, perdoai-nos Senhor.
-        </p>
-        <p>Agnus Dei, qui tollis peccata mundi, exaudi nos, Domine.</p>
-        <p>
-          Cordeiro de Deus, que tirais os pecados do mundo, ouvi-nos Senhor.
-        </p>
-        <p>Agnus Dei, qui tollis peccata mundi, miserere nobis, Domine.</p>
-        <p>
-          Cordeiro de Deus, que tirais os pecados do mundo, tende piedade de
-          nós.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Redimisti nos, Domine, in
-          sanguine tuo.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Remiste-nos, Senhor, com
-          vosso Sangue.
-        </p>
-        <p>℣. Et fecisti nos Deo nostro regnum.</p>
-        <p>℣. E fizestes de nós um reino para o nosso Deus.</p>
-        <p>
-          <span className="text-red-500 text-center">Orémus.</span>
-        </p>
-        <p>
-          <span className="text-red-500 text-center">Oremos.</span>
-        </p>
-        <p>
-          Omnipotens sempiterne Deus, qui unigenitum Filium tuum mundi
-          Redemptorem constituisti, ac ejus sanguine placari voluisti, concede,
-          quǽsumus, salutis nostræ pretium ita venerari, concede, quǽsumus,
-          salutis nostræ pretium ita venerari, atque a præsentis vitæ malis ejus
-          virtute defendi in terris, ut fructu perpetuo lætemur in cælis. Per
-          eundem Christum Dominum nostrum. Amen.
-        </p>
-        <p>
-          Deus Todo-Poderoso e Eterno, que constituístes o vosso Filho Unigénito
-          Filho Redentor do mundo, e quisestes ser aplacado com seu Sangue,
-          concedei-nos a graça de venerar o preço da nossa salvação e de
-          encontrar, na virtude que Ele contém, defesa contra os males da vida
-          presente, de tal modo que eternamente gozemos dos seus frutos no Céu.
-          Pelo mesmo Cristo, Senhor nosso. Amen.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">Kyrie, eleison.</Text>
+            <Text className="text-base">Senhor, tende piedade de nós.</Text>
+            <Text className="text-base">Christe, eleison.</Text>
+            <Text className="text-base">
+              Jesus Cristo, tende piedade de nós.
+            </Text>
+            <Text className="text-base">Kyrie, eleison.</Text>
+            <Text className="text-base">Senhor, tende piedade de nós.</Text>
+            <Text className="text-base">Christe, audi nos.</Text>
+            <Text className="text-base">Jesus Cristo, ouvi-nos.</Text>
+            <Text className="text-base">Christe, exaudi nos.</Text>
+            <Text className="text-base">Jesus Cristo, atendei-nos.</Text>
+            <Text className="text-base">
+              Pater de cælis, Deus, miserere nobis.
+            </Text>
+            <Text className="text-base">
+              Pai dos Céus que sois Deus, tende piedade de nós.
+            </Text>
+            <Text className="text-base">
+              Fili, Redemptor mundi, Deus, miserere nobis.
+            </Text>
+            <Text className="text-base">
+              Filho Redentor do mundo que sois Deus, tende piedade de nós.
+            </Text>
+            <Text className="text-base">
+              Spiritus Sancte, Deus, miserere nobis.
+            </Text>
+            <Text className="text-base">
+              Espírito Santo que sois Deus, tende piedade de nós.
+            </Text>
+            <Text className="text-base">
+              Sancta Trinitas, unus Deus, miserere nobis.
+            </Text>
+            <Text className="text-base">
+              Santíssima Trindade que sois um só Deus, tende piedade de nós.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, Unigeniti Patris æterni, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, Unigénito do Pai Eterno, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sancta Trinitas, unus Deus, miserere nobis.
+            </Text>
+            <Text className="text-base">
+              Santíssima Trindade que sois um só Deus, tende piedade de nós.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, Verbi Dei incarnati, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, Verbo de Deus Encarnado, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, Novi et Aeterni Testamenti, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, do Novo e Eterno Testamento, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, in agonia decurrens in terram, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, a correr na agonia sobre a terra, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, in flagellatione profluens, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, a verter na flagelação, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, in coronatione spinarum emanans, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, a emanar na coroação de espinhos, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, in Cruce effusus, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, derramado na Cruz, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, pretium nostræ salutis, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, preço da nossa Salvação, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, sine quo non fit remissio, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, sem o qual não há remissão, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, in Eucharistia potus et lavacrum animarum, salva
+              nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, bebida e purificação das almas na Eucaristia,
+              salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, flumen misericordiæ, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, manancial de misericórdia, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, victor dæmonum, salva nos..
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, vencedor dos demónios, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, fortitudo martyrum, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, fortaleza dos mártires, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, virtus confessorum, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, força dos confessores, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, germinans virgines, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, fonte de virgindade, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, robur periclitantium, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, conforto dos que estão em perigo, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, levamen laborantium, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, alívio dos que sofrem, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, in fletu solatium, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, consolo das nossas lágrimas, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, spes poenitentium, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, esperança dos penitentes, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, solamen morientium, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, consolação dos agonizantes, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, pax et dulcedo cordium, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, paz e doçura dos corações, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, pignus vitæ æternæ, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, penhor de vida eterna, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, animas liberans de lacu Purgatorii, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, que libertais as almas do Purgatório,
+              salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Sanguis Christi, omni gloria et honore dignissimus, salva nos.
+            </Text>
+            <Text className="text-base">
+              Sangue de Cristo, digníssimo de toda a honra e glória, salvai-nos.
+            </Text>
+            <Text className="text-base">
+              Agnus Dei, qui tollis peccata mundi, parce nobis, Domine.
+            </Text>
+            <Text className="text-base">
+              Cordeiro de Deus, que tirais os pecados do mundo, perdoai-nos
+              Senhor.
+            </Text>
+            <Text className="text-base">
+              Agnus Dei, qui tollis peccata mundi, exaudi nos, Domine.
+            </Text>
+            <Text className="text-base">
+              Cordeiro de Deus, que tirais os pecados do mundo, ouvi-nos Senhor.
+            </Text>
+            <Text className="text-base">
+              Agnus Dei, qui tollis peccata mundi, miserere nobis, Domine.
+            </Text>
+            <Text className="text-base">
+              Cordeiro de Deus, que tirais os pecados do mundo, tende piedade de
+              nós.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Redimisti nos, Domine, in
+              sanguine tuo.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Remiste-nos, Senhor, com
+              vosso Sangue.
+            </Text>
+            <Text className="text-base">
+              ℣. Et fecisti nos Deo nostro regnum.
+            </Text>
+            <Text className="text-base">
+              ℣. E fizestes de nós um reino para o nosso Deus.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Orémus.</Text>
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Oremos.</Text>
+            </Text>
+            <Text className="text-base">
+              Omnipotens sempiterne Deus, qui unigenitum Filium tuum mundi
+              Redemptorem constituisti, ac ejus sanguine placari voluisti,
+              concede, quǽsumus, salutis nostræ pretium ita venerari, concede,
+              quǽsumus, salutis nostræ pretium ita venerari, atque a præsentis
+              vitæ malis ejus virtute defendi in terris, ut fructu perpetuo
+              lætemur in cælis. Per eundem Christum Dominum nostrum. Amen.
+            </Text>
+            <Text className="text-base">
+              Deus Todo-Poderoso e Eterno, que constituístes o vosso Filho
+              Unigénito Filho Redentor do mundo, e quisestes ser aplacado com
+              seu Sangue, concedei-nos a graça de venerar o preço da nossa
+              salvação e de encontrar, na virtude que Ele contém, defesa contra
+              os males da vida presente, de tal modo que eternamente gozemos dos
+              seus frutos no Céu. Pelo mesmo Cristo, Senhor nosso. Amen.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

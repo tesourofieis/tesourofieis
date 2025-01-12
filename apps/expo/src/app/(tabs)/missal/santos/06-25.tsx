@@ -1,39 +1,41 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
 
 import React from "react";
 
 export default function Page0625() {
   return (
-    <div className="docs">
-      <h1>S. Guilherme, Abade, a 25 de Junho</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Guilherme, Abade, a 25 de Junho</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/16abades">
-          Missa Os justi
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/16abades">
+              Missa Os justi
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui infirmitáti nostræ ad teréndam salútis viam in Sanctis tuis
-          exémplum et præsídium collocásti: da nobis, ita beáti Guliélmi Abbátis
-          mérita venerári; ut ejúsdem excipiámus suffrágia et vestígia
-          prosequámur. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus, que para facilitar à nossa fraqueza o caminho da salvação no
-          auxiliais com o exemplo e com a assistência dos vossos Santos,
-          concedei-nos a graça de imitar os méritos do B. Abade Guilherme de
-          modo que mereçamos o socorro das suas preces e sigamos os seus passos.
-          Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui infirmitáti nostræ ad teréndam salútis viam in Sanctis
+              tuis exémplum et præsídium collocásti: da nobis, ita beáti
+              Guliélmi Abbátis mérita venerári; ut ejúsdem excipiámus suffrágia
+              et vestígia prosequámur. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que para facilitar à nossa fraqueza o caminho da salvação
+              no auxiliais com o exemplo e com a assistência dos vossos Santos,
+              concedei-nos a graça de imitar os méritos do B. Abade Guilherme de
+              modo que mereçamos o socorro das suas preces e sigamos os seus
+              passos. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,15 +1,21 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import Missa from "../comum/13doutores";
 
 export default function Page0421() {
   return (
-    <div className="docs">
-      <h1>S. Anselmo, B. Conf. e Doutor, a 21 de Abril</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. Anselmo, B. Conf. e Doutor, a 21 de Abril
+          </Text>
 
-      <Missa />
-    </div>
+          <Missa />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

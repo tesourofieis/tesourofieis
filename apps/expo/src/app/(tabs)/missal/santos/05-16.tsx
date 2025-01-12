@@ -1,37 +1,46 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0516() {
   return (
-    <div className="docs">
-      <h1>S. Ubaldo, B. e Conf., a 16 de Maio</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Ubaldo, B. e Conf., a 16 de Maio</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/11confessorespontifices1">
-          Missa Státuit ei
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link
+              className="link"
+              href="/missal/comum/11confessorespontifices1"
+            >
+              Missa Státuit ei
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Auxílium Confessóris tui atque Pontíficis, contra omnes diáboli
-          nequítias déxteram super nos tuæ propitiatiónis exténde. Per Dóminum
-          nostrum...
-        </p>
-        <p>
-          Deixai-Vos aplacar, Senhor, Vos suplicamos, e concedei-nos o vosso
-          auxílio; e pela intercessão do B. Ubaldo, vosso Confessor e Pontífice,
-          estendei sobre nós a vossa mão misericordiosa, a fim de que nos
-          defenda de todas as perfídias do demónio. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Auxílium Confessóris tui atque Pontíficis, contra omnes diáboli
+              nequítias déxteram super nos tuæ propitiatiónis exténde. Per
+              Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Deixai-Vos aplacar, Senhor, Vos suplicamos, e concedei-nos o vosso
+              auxílio; e pela intercessão do B. Ubaldo, vosso Confessor e
+              Pontífice, estendei sobre nós a vossa mão misericordiosa, a fim de
+              que nos defenda de todas as perfídias do demónio. Por nosso
+              Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

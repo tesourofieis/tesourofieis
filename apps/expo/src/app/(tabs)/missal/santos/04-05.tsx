@@ -1,38 +1,46 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0405() {
   return (
-    <div className="docs">
-      <h1>S. Vicente Ferrer, Conf., a 5 de Abril</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Vicente Ferrer, Conf., a 5 de Abril</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
-          Missa Os justi
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link
+              className="link"
+              href="/missal/comum/14confessoresnaopontifices1"
+            >
+              Missa Os justi
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui Ecclésiam tuam beáti Vincéntii Confessóris tui méritis et
-          prædicatióne illustráre dignátus es: concéde nobis fámulis tuis; ut et
-          ipsíus instruámur exémplis et ab ómnibus ejus patrocínio liberémur
-          advérsis. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus, que Vos dignastes ilustrar a vossa Igreja com os méritos e a
-          pregação do B. Vicente, vosso Confessor, concedei a estes vossos
-          servos a graça de serem instruídos com seus exemplos e livres de todas
-          as adversidades pela sua protecção. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui Ecclésiam tuam beáti Vincéntii Confessóris tui méritis
+              et prædicatióne illustráre dignátus es: concéde nobis fámulis
+              tuis; ut et ipsíus instruámur exémplis et ab ómnibus ejus
+              patrocínio liberémur advérsis. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que Vos dignastes ilustrar a vossa Igreja com os méritos e
+              a pregação do B. Vicente, vosso Confessor, concedei a estes vossos
+              servos a graça de serem instruídos com seus exemplos e livres de
+              todas as adversidades pela sua protecção. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

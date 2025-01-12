@@ -1,15 +1,21 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import Missa from "./01-22-lisboa-faro";
 
 export default function Page0129LisboaFaro() {
   return (
-    <div className="docs">
-      <h1>Na Oitava de S. Vicente, Mártir, a 29 de Janeiro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Na Oitava de S. Vicente, Mártir, a 29 de Janeiro
+          </Text>
 
-      <Missa />
-    </div>
+          <Missa />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

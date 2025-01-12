@@ -1,54 +1,74 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page112() {
   return (
-    <div className="docs">
-      <h1>Salmo 112</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Salmo 112</Text>
 
-      <div className="side-by-side">
-        <p>Laudáte, púeri, Dóminum: * laudáte nomen Dómini.</p>
-        <p>Louvai o Senhor, ó meninos: * louvai o nome do Senhor.</p>
-        <p>
-          <em>fit reverentia</em> Sit nomen Dómini benedíctum, * ex hoc nunc, et
-          usque in sǽculum.
-        </p>
-        <p>
-          <em>inclinar a cabeça</em> Seja bendito o nome do Senhor, * desde
-          agora e para sempre.
-        </p>
-        <p>A solis ortu usque ad occásum, * laudábile nomen Dómini.</p>
-        <p>
-          Desde o nascer ao pôr do sol, * é digno de louvor o nome do Senhor.
-        </p>
-        <p>
-          Excélsus super omnes gentes Dóminus, * et super cælos glória ejus.
-        </p>
-        <p>
-          Excelso é o Senhor sobre todas as gentes, * e a sua glória sobre os
-          céus.
-        </p>
-        <p>
-          Quis sicut Dóminus, Deus noster, qui in altis hábitat, * et humília
-          réspicit in cælo et in terra?
-        </p>
-        <p>
-          Quem há como o Senhor nosso Deus, que habita nas alturas: * e atende
-          os humildes no céu e na terra?
-        </p>
-        <p>Súscitans a terra ínopem, * et de stércore érigens páuperem:</p>
-        <p>
-          Levantando da terra o desvalido, * e tirando da imundície o pobre:
-        </p>
-        <p>Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui.</p>
-        <p>Para o colocar com os príncipes, * com os príncipes do seu povo.</p>
-        <p>Qui habitáre facit stérilem in domo, * matrem filiórum lætántem.</p>
-        <p>
-          Que faz a mulher estéril viver em sua casa, * alegre mãe de filhos.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Laudáte, púeri, Dóminum: * laudáte nomen Dómini.
+            </Text>
+            <Text className="text-base">
+              Louvai o Senhor, ó meninos: * louvai o nome do Senhor.
+            </Text>
+            <Text className="text-base">
+              <Text className="em">fit reverentia</Text> Sit nomen Dómini
+              benedíctum, * ex hoc nunc, et usque in sǽculum.
+            </Text>
+            <Text className="text-base">
+              <Text className="em">inclinar a cabeça</Text> Seja bendito o nome
+              do Senhor, * desde agora e para sempre.
+            </Text>
+            <Text className="text-base">
+              A solis ortu usque ad occásum, * laudábile nomen Dómini.
+            </Text>
+            <Text className="text-base">
+              Desde o nascer ao pôr do sol, * é digno de louvor o nome do
+              Senhor.
+            </Text>
+            <Text className="text-base">
+              Excélsus super omnes gentes Dóminus, * et super cælos glória ejus.
+            </Text>
+            <Text className="text-base">
+              Excelso é o Senhor sobre todas as gentes, * e a sua glória sobre
+              os céus.
+            </Text>
+            <Text className="text-base">
+              Quis sicut Dóminus, Deus noster, qui in altis hábitat, * et
+              humília réspicit in cælo et in terra?
+            </Text>
+            <Text className="text-base">
+              Quem há como o Senhor nosso Deus, que habita nas alturas: * e
+              atende os humildes no céu e na terra?
+            </Text>
+            <Text className="text-base">
+              Súscitans a terra ínopem, * et de stércore érigens páuperem:
+            </Text>
+            <Text className="text-base">
+              Levantando da terra o desvalido, * e tirando da imundície o pobre:
+            </Text>
+            <Text className="text-base">
+              Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui.
+            </Text>
+            <Text className="text-base">
+              Para o colocar com os príncipes, * com os príncipes do seu povo.
+            </Text>
+            <Text className="text-base">
+              Qui habitáre facit stérilem in domo, * matrem filiórum lætántem.
+            </Text>
+            <Text className="text-base">
+              Que faz a mulher estéril viver em sua casa, * alegre mãe de
+              filhos.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

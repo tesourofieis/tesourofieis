@@ -1,69 +1,75 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0912() {
   return (
-    <div className="docs">
-      <h1>Santíssimo Nome de Maria, a 12 de Setembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Santíssimo Nome de Maria, a 12 de Setembro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/8muitosmartires3">
-          Missa Salus autem
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/8muitosmartires3">
+              Missa Salus autem
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Concéde, quǽsumus, omnípotens Deus: ut fidéles tui, qui sub
-          sanctíssimæ Vírginis Maríæ Nómine et protectióne lætántur; ejus pia
-          intercessióne a cunctis malis liberéntur in terris, et ad gáudia
-          ætérna perveníre mereántur in cœlis. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus omnipotente, Vos rogamos, concedei, por sua intercessão, aos
-          vossos fiéis, que se alegram com o nome e a protecção da SS. Virgem
-          Maria, a graça de serem livres de todos os males terrenos e de
-          merecerem a posse das celestiais alegrias eternas. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Concéde, quǽsumus, omnípotens Deus: ut fidéles tui, qui sub
+              sanctíssimæ Vírginis Maríæ Nómine et protectióne lætántur; ejus
+              pia intercessióne a cunctis malis liberéntur in terris, et ad
+              gáudia ætérna perveníre mereántur in cœlis. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus omnipotente, Vos rogamos, concedei, por sua intercessão,
+              aos vossos fiéis, que se alegram com o nome e a protecção da SS.
+              Virgem Maria, a graça de serem livres de todos os males terrenos e
+              de merecerem a posse das celestiais alegrias eternas. Por nosso
+              Senhor...
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
-          intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
-          profíciat prosperitátem et pacem. Per Dóminum...
-        </p>
-        <p>
-          Pela vossa misericórdia, Senhor, e pela intercessão da B. Maria,
-          sempre Virgem, fazei que esta oblação nos assegure a prosperidade e a
-          paz, agora e sempre. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
+              intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
+              profíciat prosperitátem et pacem. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Pela vossa misericórdia, Senhor, e pela intercessão da B. Maria,
+              sempre Virgem, fazei que esta oblação nos assegure a prosperidade
+              e a paz, agora e sempre. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ
-          semper Vírginis patrocíniis nos úbique protegi; in cujus veneratióne
-          hæc tuæ obtúlimus majestáti. Per Dóminum...
-        </p>
-        <p>
-          Havendo nós alcançado o poderoso auxílio da vossa salvação, Senhor,
-          fazei, Vos imploramos, que sejamos protegidos com o patrocínio da B.
-          Maria, sempre Virgem, em cuja honra oferecemos este sacrifício à vossa
-          majestade. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ
+              Maríæ semper Vírginis patrocíniis nos úbique protegi; in cujus
+              veneratióne hæc tuæ obtúlimus majestáti. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Havendo nós alcançado o poderoso auxílio da vossa salvação,
+              Senhor, fazei, Vos imploramos, que sejamos protegidos com o
+              patrocínio da B. Maria, sempre Virgem, em cuja honra oferecemos
+              este sacrifício à vossa majestade. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

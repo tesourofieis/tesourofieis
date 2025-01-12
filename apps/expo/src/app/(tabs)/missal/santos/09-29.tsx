@@ -1,42 +1,48 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0929() {
   return (
-    <div className="docs">
-      <h1>Dedicação de S. Miguel Arcanjo, a 29 de Setembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Dedicação de S. Miguel Arcanjo, a 29 de Setembro
+          </Text>
 
-      <aside>
-        Como na [Missa da Festa da Aparição de Arcanjo
-        Miguel](/missal/santos/05-08), excepto:
-      </aside>
+          <View className="aside">
+            Como na [Missa da Festa da Aparição de Arcanjo
+            Miguel](/missal/santos/05-08), excepto:
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 102, 20 & 1</em>
+          <Text className="em">Sl. 102, 20 & 1</Text>
 
-      <div className="side-by-side">
-        <p>
-          Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis
-          verbum ejus. ℣. Benedic, ánima mea, Dóminum, et ómnia interióra mea,
-          nomen sanctum ejus.
-        </p>
-        <p>
-          Bendizei o Senhor, ó Anjos do Senhor, que sois poderosos e cheios de
-          força, e cumpris as ordens do Senhor. ℣. Bendizei o Senhor, ó minha
-          alma; que toda minha alma bendiga o nome do Senhor.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. Sancte Míchaël Archángele, defénde nos in
-          prǿlio: ut non pereámus in treméndo judício. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. S. Miguel Arcanjo, defendei-nos neste combate,
-          para que não pereçamos no dia do tremendo juízo. Aleluia.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui
+              fácitis verbum ejus. ℣. Benedic, ánima mea, Dóminum, et ómnia
+              interióra mea, nomen sanctum ejus.
+            </Text>
+            <Text className="text-base">
+              Bendizei o Senhor, ó Anjos do Senhor, que sois poderosos e cheios
+              de força, e cumpris as ordens do Senhor. ℣. Bendizei o Senhor, ó
+              minha alma; que toda minha alma bendiga o nome do Senhor.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. Sancte Míchaël Archángele, defénde nos in
+              prǿlio: ut non pereámus in treméndo judício. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. S. Miguel Arcanjo, defendei-nos neste
+              combate, para que não pereçamos no dia do tremendo juízo. Aleluia.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

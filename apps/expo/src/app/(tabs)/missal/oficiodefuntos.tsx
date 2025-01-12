@@ -1,5 +1,5 @@
-"use dom";
-import "../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
@@ -7,53 +7,72 @@ import Salmo94 from "./../devocionario/salterio/094";
 
 export default function PageOficiodefuntos() {
   return (
-    <div className="docs">
-      <h1>Ofício dos Defuntos</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Ofício dos Defuntos</Text>
 
-      <aside>
-        Rezar{" "}
-        <Link className="link" href="/devocionario/oracoes/painosso">
-          Pai-nosso
-        </Link>{" "}
-        ;
-        <Link className="link" href="/devocionario/oracoes/avemaria">
-          Ave-Maria
-        </Link>{" "}
-        ; [Creio em Deus](/devocionario/oracoes/simboloapostolos).
-      </aside>
+          <View className="aside">
+            Rezar{" "}
+            <Link className="link" href="/devocionario/oracoes/painosso">
+              Pai-nosso
+            </Link>{" "}
+            ;
+            <Link className="link" href="/devocionario/oracoes/avemaria">
+              Ave-Maria
+            </Link>{" "}
+            ; [Creio em Deus](/devocionario/oracoes/simboloapostolos).
+          </View>
 
-      <h2>Invitatório</h2>
+          <Text className="h2">Invitatório</Text>
 
-      <div className="side-by-side">
-        <p>Regem, cui ómnia vivunt, Veníte adorémus.</p>
-        <p>Vinde, adoremos o Rei para quem todas as criatura vivem.</p>
-        <p>Regem, cui ómnia vivunt, Veníte adorémus.</p>
-        <p>Vinde, adoremos o Rei para quem todas as criatura vivem.</p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Regem, cui ómnia vivunt, Veníte adorémus.
+            </Text>
+            <Text className="text-base">
+              Vinde, adoremos o Rei para quem todas as criatura vivem.
+            </Text>
+            <Text className="text-base">
+              Regem, cui ómnia vivunt, Veníte adorémus.
+            </Text>
+            <Text className="text-base">
+              Vinde, adoremos o Rei para quem todas as criatura vivem.
+            </Text>
+          </View>
 
-      <h2>Salmo 94</h2>
+          <Text className="h2">Salmo 94</Text>
 
-      <Salmo94 />
+          <Salmo94 />
 
-      <div className="side-by-side">
-        <p>Veníte, exsultémus Dómino: * jubilémus Deo salutári nostro:</p>
-        <p>
-          Vinde, exultemos no Senhor: * cantemos alegres a de Deus nosso
-          salvador:
-        </p>
-        <p>
-          Præoccupémus fáciem ejus in confessióne: * et in psalmis jubilémus ei.
-        </p>
-        <p>
-          Apresentemo-nos diante d’Ele em acção de graças: * e celebremo-l’O com
-          salmos.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Veníte, exsultémus Dómino: * jubilémus Deo salutári nostro:
+            </Text>
+            <Text className="text-base">
+              Vinde, exultemos no Senhor: * cantemos alegres a de Deus nosso
+              salvador:
+            </Text>
+            <Text className="text-base">
+              Præoccupémus fáciem ejus in confessióne: * et in psalmis jubilémus
+              ei.
+            </Text>
+            <Text className="text-base">
+              Apresentemo-nos diante d’Ele em acção de graças: * e celebremo-l’O
+              com salmos.
+            </Text>
+          </View>
 
-      <div className="side-by-side">
-        <p>Regem, cui ómnia vivunt, Veníte adorémus.</p>
-        <p>Vinde, adoremos o Rei para quem todas as criatura vivem.</p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Regem, cui ómnia vivunt, Veníte adorémus.
+            </Text>
+            <Text className="text-base">
+              Vinde, adoremos o Rei para quem todas as criatura vivem.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

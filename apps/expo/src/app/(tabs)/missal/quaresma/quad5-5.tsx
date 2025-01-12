@@ -1,239 +1,253 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad55() {
   return (
-    <div className="docs">
-      <h1>Sexta-feira da Semana da Paixão</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Sexta-feira da Semana da Paixão</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Sl. 30, 10, 16 & 18</em>
+          <Text className="em">Sl. 30, 10, 16 & 18</Text>
 
-      <div className="side-by-side">
-        <p>
-          Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de
-          mánibus inimicórum meórum et a persequéntibus me: Dómine, non
-          confúndar, quóniam invocávi te. <em>Ps. ib., 2</em> In te, Dómine,
-          sperávi, non confúndar in ætérnum: in justítia tua libera me.
-        </p>
-        <p>
-          Tende misericórdia de mim, Senhor, pois estou aflito; salvai-me e
-          livrai-me das mãos dos meus inimigos e perseguidores. Senhor, não
-          serei confundido, porque Vos invoquei. <em>Sl. ib., 2</em> Confio em
-          Vós, Senhor, não serei para sempre confundido; livrai-me segundo a
-          vossa justiça.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de
+              mánibus inimicórum meórum et a persequéntibus me: Dómine, non
+              confúndar, quóniam invocávi te.{" "}
+              <Text className="em">Ps. ib., 2</Text> In te, Dómine, sperávi, non
+              confúndar in ætérnum: in justítia tua libera me.
+            </Text>
+            <Text className="text-base">
+              Tende misericórdia de mim, Senhor, pois estou aflito; salvai-me e
+              livrai-me das mãos dos meus inimigos e perseguidores. Senhor, não
+              serei confundido, porque Vos invoquei.{" "}
+              <Text className="em">Sl. ib., 2</Text> Confio em Vós, Senhor, não
+              serei para sempre confundido; livrai-me segundo a vossa justiça.
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut
-          peccáta nostra castigatióne voluntária cohibéntes, temporáliter pótius
-          macerémur, quam súppliciis deputémur ætérnis. Per Dóminum...
-        </p>
-        <p>
-          Infundi benigno, Senhor, Vos suplicamos, a vossa graça em nossos
-          corações, para que, punindo-nos voluntariamente por causa dos nossos
-          pecados, evitemos com estas penas temporais a condenação aos castigos
-          eternos. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde:
+              ut peccáta nostra castigatióne voluntária cohibéntes, temporáliter
+              pótius macerémur, quam súppliciis deputémur ætérnis. Per
+              Dóminum...
+            </Text>
+            <Text className="text-base">
+              Infundi benigno, Senhor, Vos suplicamos, a vossa graça em nossos
+              corações, para que, punindo-nos voluntariamente por causa dos
+              nossos pecados, evitemos com estas penas temporais a condenação
+              aos castigos eternos. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Jr. 17, 13-18</em>
+          <Text className="em">Jr. 17, 13-18</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Jeremíæ Prophétæ.</p>
-        <p>Lição do Profeta Jeremias.</p>
-        <p>
-          In diébus illis: Dixit Jeremías: Dómine, omnes, qui te derelínquunt,
-          confundéntur: recedéntes a te in terra scribéntur: quóniam
-          dereliquérunt venam aquárum vivéntium Dóminum. Sana me. Dómine, et
-          sanábor: salvum me fac, et salvus ero: quóniam laus mea tu es. Ecce,
-          ipsi dicunt ad me: Ubi est verbum Dómini? Véniat. Et ego non sum
-          turbátus, te pastórem sequens: et diem hóminis non desiderávi, tu
-          scis. Quod egréssum est de lábiis meis, rectum in conspéctu tuo fuit.
-          Non sis tu mihi formídini, spes mea tu in die afflictiónis.
-          Confundántur, qui me persequúntur, et non confúndar ego: páveant illi,
-          et non páveam ego. Induc super eos diem afflictiónis, et dúplici
-          contritióne cóntere eos, Dómine, Deus noster.
-        </p>
-        <p>
-          Naqueles dias, disse Jeremias: «Senhor, todos os que se afastaram de
-          Vós serão confundidos; todos os que se afastaram de Vós ficarão
-          envergonhados, pois abandonaram o Senhor, que é a fonte das águas
-          vivas. Curai-me, Senhor, e serei curado; salvai-me, e serei salvo;
-          pois sois a minha glória. Eis o que eles me dizem: «Onde está a
-          palavra do Senhor? Que ela se cumpra!». Mas não me perturbei,
-          seguindo-Vos, como a um pastor. Não desejei ao infeliz, bem o sabeis,
-          o dia da sua aflição. As palavras que saíram dos meus lábios eram
-          rectas na vossa presença. Não sejais causa de terror para mim, pois
-          sois a minha esperança no dia da aflição. Caiam em confusão os que me
-          perseguem; mas não seja eu confundido. Que eles fiquem assombrados;
-          mas não o seja eu. Fazei que para eles se aproxime o dia da aflição;
-          esmagai-os, sobrecarregando-os com males, ó Senhor, nosso Deus».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio Jeremíæ Prophétæ.</Text>
+            <Text className="text-base">Lição do Profeta Jeremias.</Text>
+            <Text className="text-base">
+              In diébus illis: Dixit Jeremías: Dómine, omnes, qui te
+              derelínquunt, confundéntur: recedéntes a te in terra scribéntur:
+              quóniam dereliquérunt venam aquárum vivéntium Dóminum. Sana me.
+              Dómine, et sanábor: salvum me fac, et salvus ero: quóniam laus mea
+              tu es. Ecce, ipsi dicunt ad me: Ubi est verbum Dómini? Véniat. Et
+              ego non sum turbátus, te pastórem sequens: et diem hóminis non
+              desiderávi, tu scis. Quod egréssum est de lábiis meis, rectum in
+              conspéctu tuo fuit. Non sis tu mihi formídini, spes mea tu in die
+              afflictiónis. Confundántur, qui me persequúntur, et non confúndar
+              ego: páveant illi, et non páveam ego. Induc super eos diem
+              afflictiónis, et dúplici contritióne cóntere eos, Dómine, Deus
+              noster.
+            </Text>
+            <Text className="text-base">
+              Naqueles dias, disse Jeremias: «Senhor, todos os que se afastaram
+              de Vós serão confundidos; todos os que se afastaram de Vós ficarão
+              envergonhados, pois abandonaram o Senhor, que é a fonte das águas
+              vivas. Curai-me, Senhor, e serei curado; salvai-me, e serei salvo;
+              pois sois a minha glória. Eis o que eles me dizem: «Onde está a
+              palavra do Senhor? Que ela se cumpra!». Mas não me perturbei,
+              seguindo-Vos, como a um pastor. Não desejei ao infeliz, bem o
+              sabeis, o dia da sua aflição. As palavras que saíram dos meus
+              lábios eram rectas na vossa presença. Não sejais causa de terror
+              para mim, pois sois a minha esperança no dia da aflição. Caiam em
+              confusão os que me perseguem; mas não seja eu confundido. Que eles
+              fiquem assombrados; mas não o seja eu. Fazei que para eles se
+              aproxime o dia da aflição; esmagai-os, sobrecarregando-os com
+              males, ó Senhor, nosso Deus».
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 34, 20 & 22</em>
+          <Text className="em">Sl. 34, 20 & 22</Text>
 
-      <div className="side-by-side">
-        <p>
-          Pacífice loquebántur mihi inimíci mei: et in ira molésti erant mihi.
-          ℣. Vidísti, Dómine, ne síleas: ne discédas a me.
-        </p>
-        <p>
-          Os meus inimigos falavam-me aparentemente com palavras de paz; mas na
-          sua ira meditavam perfídias contra mim. Vós bem o vistes, Senhor: não
-          sejais insensível, não Vos afasteis de mim.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Pacífice loquebántur mihi inimíci mei: et in ira molésti erant
+              mihi. ℣. Vidísti, Dómine, ne síleas: ne discédas a me.
+            </Text>
+            <Text className="text-base">
+              Os meus inimigos falavam-me aparentemente com palavras de paz; mas
+              na sua ira meditavam perfídias contra mim. Vós bem o vistes,
+              Senhor: não sejais insensível, não Vos afasteis de mim.
+            </Text>
+          </View>
 
-      <h3>Trato</h3>
+          <Text className="h3">Trato</Text>
 
-      <LinkCard
-        href="/missal/quaresma/quad5-0#trato"
-        title="Domingo da Paixão"
-      />
+          <LinkCard
+            href="/missal/quaresma/quad5-0#trato"
+            title="Domingo da Paixão"
+          />
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Jo. 11, 47-54</em>
+          <Text className="em">Jo. 11, 47-54</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Joánnem.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. João.
-        </p>
-        <p>
-          In illo témpore: Collegérunt pontífices et pharisǽi concílium advérsus
-          Jesum, et dicébant: Quid fácimus, quia hic homo multa signa facit? Si
-          dimíttimus eum sic, omnes credent in eum: et vénient Románi, et
-          tollent nostrum locum et gentem. Unus autem ex ipsis, Cáiphas nómine,
-          cum esset póntifex anni illíus, dixit eis: Vos nescítis quidquam, nec
-          cogitátis, quia expédit vobis, ut unus moriátur homo pro pópulo, et
-          non tota gens péreat. Hoc autem a semetípso non dixit: sed cum esset
-          póntifex anni illíus, prophetávit, quod Jesus moritúrus erat pro
-          gente, et non tantum pro gente, sed ut fílios Dei, qui erant dispérsi,
-          congregáret in unum. Ab illo ergo die cogitavérunt, ut interfícerent
-          eum. Jesus ergo jam non in palam ambulábat apud Judǽos: sed ábiit in
-          regiónem juxta desértum, in civitátem, quæ dícitur Ephrem, et ibi
-          morabátur cum discípulis suis.
-        </p>
-        <p>
-          Naquele tempo, reuniram-se os pontífices e os fariseus em assembleia
-          contra Jesus, dizendo: «Que faremos nós a este homem, que opera tantos
-          prodígios? Se o deixarmos livre, todos acreditarão n’Ele; e então os
-          romanos virão e desfruirão a nossa cidade e a nossa nação». Ora, um
-          deles, Caifás, que era naquele ano o sumo sacerdote, disse-lhes: «Vós
-          nada sabeis! Não pensais que é melhor que morra um só homem, por causa
-          do povo, do que padeça toda a nação, por causa d’Ele?». Caifás não
-          disse estas palavras em nome próprio; mas, como sumo sacerdote que era
-          naquele ano, profetizou que Jesus devia morrer pela nação - e não
-          somente pela nação, mas para reunir em um só corpo os filhos de Deus,
-          que estavam dispersos. Desde aquele dia, pois, resolveram matá-l’O.
-          Porém, Jesus já se não mostrava abertamente aos judeus. Retirara-se
-          para um lugar, perto do deserto, na cidade de Efrem, onde permanecia
-          com seus discípulos.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Joánnem.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. João.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Collegérunt pontífices et pharisǽi concílium
+              advérsus Jesum, et dicébant: Quid fácimus, quia hic homo multa
+              signa facit? Si dimíttimus eum sic, omnes credent in eum: et
+              vénient Románi, et tollent nostrum locum et gentem. Unus autem ex
+              ipsis, Cáiphas nómine, cum esset póntifex anni illíus, dixit eis:
+              Vos nescítis quidquam, nec cogitátis, quia expédit vobis, ut unus
+              moriátur homo pro pópulo, et non tota gens péreat. Hoc autem a
+              semetípso non dixit: sed cum esset póntifex anni illíus,
+              prophetávit, quod Jesus moritúrus erat pro gente, et non tantum
+              pro gente, sed ut fílios Dei, qui erant dispérsi, congregáret in
+              unum. Ab illo ergo die cogitavérunt, ut interfícerent eum. Jesus
+              ergo jam non in palam ambulábat apud Judǽos: sed ábiit in regiónem
+              juxta desértum, in civitátem, quæ dícitur Ephrem, et ibi morabátur
+              cum discípulis suis.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, reuniram-se os pontífices e os fariseus em
+              assembleia contra Jesus, dizendo: «Que faremos nós a este homem,
+              que opera tantos prodígios? Se o deixarmos livre, todos
+              acreditarão n’Ele; e então os romanos virão e desfruirão a nossa
+              cidade e a nossa nação». Ora, um deles, Caifás, que era naquele
+              ano o sumo sacerdote, disse-lhes: «Vós nada sabeis! Não pensais
+              que é melhor que morra um só homem, por causa do povo, do que
+              padeça toda a nação, por causa d’Ele?». Caifás não disse estas
+              palavras em nome próprio; mas, como sumo sacerdote que era naquele
+              ano, profetizou que Jesus devia morrer pela nação - e não somente
+              pela nação, mas para reunir em um só corpo os filhos de Deus, que
+              estavam dispersos. Desde aquele dia, pois, resolveram matá-l’O.
+              Porém, Jesus já se não mostrava abertamente aos judeus.
+              Retirara-se para um lugar, perto do deserto, na cidade de Efrem,
+              onde permanecia com seus discípulos.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 118, 12, 121 & 42</em>
+          <Text className="em">Sl. 118, 12, 121 & 42</Text>
 
-      <div className="side-by-side">
-        <p>
-          Benedíctus es, Dómine, doce me justificatiónes tuas: et non tradas
-          calumniántibus me supérbis: et respondébo exprobrántibus mihi verbum.
-        </p>
-        <p>
-          Bendito sois, Senhor. Ensinai-me a conhecer as vossas leis. Não me
-          entregueis àqueles que me perseguem: e eu saberei responder àqueles
-          que me insultam.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Benedíctus es, Dómine, doce me justificatiónes tuas: et non tradas
+              calumniántibus me supérbis: et respondébo exprobrántibus mihi
+              verbum.
+            </Text>
+            <Text className="text-base">
+              Bendito sois, Senhor. Ensinai-me a conhecer as vossas leis. Não me
+              entregueis àqueles que me perseguem: e eu saberei responder
+              àqueles que me insultam.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Præsta nobis, miséricors Deus: ut digne tuis servíre semper altáribus
-          mereámur; et eórum perpétua participatióne salvári. Per Dóminum
-          nostrum...
-        </p>
-        <p>
-          Ó Deus misericordioso, concedei-nos a graça de servirmos sempre
-          dignamente os vossos altares, a fim de que, participando perpetuamente
-          deles, possamos salvar-nos. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Præsta nobis, miséricors Deus: ut digne tuis servíre semper
+              altáribus mereámur; et eórum perpétua participatióne salvári. Per
+              Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus misericordioso, concedei-nos a graça de servirmos sempre
+              dignamente os vossos altares, a fim de que, participando
+              perpetuamente deles, possamos salvar-nos. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Sl. 26, 12</em>
+          <Text className="em">Sl. 26, 12</Text>
 
-      <div className="side-by-side">
-        <p>
-          Ne tradíderis me. Dómine, in animas persequéntium me: quóniam
-          insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.
-        </p>
-        <p>
-          Senhor, não me abandoneis ao ódio dos que me perseguem, quando se
-          levantam contra mim com testemunhos iníquos; pois a iniquidade
-          contradiz-se a si própria.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Ne tradíderis me. Dómine, in animas persequéntium me: quóniam
+              insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.
+            </Text>
+            <Text className="text-base">
+              Senhor, não me abandoneis ao ódio dos que me perseguem, quando se
+              levantam contra mim com testemunhos iníquos; pois a iniquidade
+              contradiz-se a si própria.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et
-          nóxia semper a nobis cuncta depéllat. Per Dóminum...
-        </p>
-        <p>
-          Que nos não desampare, Senhor, a protecção do sacramento agora
-          recebido, e que para sempre afaste de nós todos os males. Por nosso
-          Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et
+              nóxia semper a nobis cuncta depéllat. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Que nos não desampare, Senhor, a protecção do sacramento agora
+              recebido, e que para sempre afaste de nós todos os males. Por
+              nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Oração sobre o povo</h3>
+          <Text className="h3">Oração sobre o povo</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="text-red-500 text-center">Orémus.</span>
-        </p>
-        <p>
-          <span className="text-red-500 text-center">Oremos.</span>
-        </p>
-        <p>Humiliáte cápita vestra Deo.</p>
-        <p>Inclinai as vossas cabeças diante de Deus.</p>
-        <p>
-          Concéde, quǽsumus, omnípotens Deus: ut, qui protectiónis tuæ grátiam
-          quǽrimus, liberáti a malis ómnibus, secúra tibi mente serviámus. Per
-          Dóminum...
-        </p>
-        <p>
-          Deus omnipotente, Vos suplicamos, concedei-nos a graça da vossa
-          protecção, que sempre procurámos, a fim de que sejamos livres de todos
-          os males e Vos sirvamos com a alma tranquila. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Orémus.</Text>
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Oremos.</Text>
+            </Text>
+            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
+            <Text className="text-base">
+              Inclinai as vossas cabeças diante de Deus.
+            </Text>
+            <Text className="text-base">
+              Concéde, quǽsumus, omnípotens Deus: ut, qui protectiónis tuæ
+              grátiam quǽrimus, liberáti a malis ómnibus, secúra tibi mente
+              serviámus. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Deus omnipotente, Vos suplicamos, concedei-nos a graça da vossa
+              protecção, que sempre procurámos, a fim de que sejamos livres de
+              todos os males e Vos sirvamos com a alma tranquila. Por nosso
+              Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,79 +1,89 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page008() {
   return (
-    <div className="docs">
-      <h1>Salmo 8</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Salmo 8</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dómine, Dóminus noster, * quam admirábile est nomen tuum in univérsa
-          terra!
-        </p>
-        <p>
-          Ó Senhor, Senhor nosso, * quão admirável é o vosso nome em toda a
-          terra!
-        </p>
-        <p>Quóniam eleváta est magnificéntia tua, * super cælos.</p>
-        <p>Pois se elevou a vossa majestade * sobre os céus.</p>
-        <p>
-          Ex ore infántium et lacténtium perfecísti laudem propter inimícos
-          tuos, * ut déstruas inimícum et ultórem.
-        </p>
-        <p>
-          Da boca dos meninos e lactentes fizestes sair um louvor perfeito,
-          devido aos vossos inimigos, * para destruirdes o inimigo e o
-          vingativo.
-        </p>
-        <p>
-          Quóniam vidébo cælos tuos, ópera digitórum tuórum: * lunam et stellas,
-          quæ Tu fundásti.
-        </p>
-        <p>
-          Contemplarei os vossos céus, obra de vossos dedos: * a lua e as
-          estrelas que Vós fundastes.
-        </p>
-        <p>
-          Quid est homo quod memor es ejus? * Aut fílius hóminis, quóniam
-          vísitas eum?
-        </p>
-        <p>
-          Que é o homem, para Vos lembrardes dele? * Ou que é o filho do homem,
-          para o visitardes?
-        </p>
-        <p>
-          Minuísti eum paulo minus ab Ángelis, glória et honóre coronásti eum: *
-          et constituísti eum super ópera mánuum tuárum.
-        </p>
-        <p>
-          Pouco inferior aos anjos Vós o fizestes, de glória e de honra o
-          coroastes: * e lhe destes o poder sobre as obras de vossas mãos.
-        </p>
-        <p>
-          Omnia subjecísti sub pédibus ejus, * oves et boves univérsas: ínsuper
-          et pécora campi.
-        </p>
-        <p>
-          Tudo sob seus pés sujeitastes, * todas as ovelhas e bois: e, além
-          destes, os outros animais do campo.
-        </p>
-        <p>Vólucres cæli, et pisces maris, * qui perámbulant sémitas maris.</p>
-        <p>
-          As aves do céu e os peixes do mar, * que percorrem as veredas do
-          oceano.
-        </p>
-        <p>
-          Dómine, Dóminus noster, * quam admirábile est nomen tuum in univérsa
-          terra!
-        </p>
-        <p>
-          Ó Senhor, Senhor nosso, * quão admirável é o vosso nome em toda a
-          terra!
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine, Dóminus noster, * quam admirábile est nomen tuum in
+              univérsa terra!
+            </Text>
+            <Text className="text-base">
+              Ó Senhor, Senhor nosso, * quão admirável é o vosso nome em toda a
+              terra!
+            </Text>
+            <Text className="text-base">
+              Quóniam eleváta est magnificéntia tua, * super cælos.
+            </Text>
+            <Text className="text-base">
+              Pois se elevou a vossa majestade * sobre os céus.
+            </Text>
+            <Text className="text-base">
+              Ex ore infántium et lacténtium perfecísti laudem propter inimícos
+              tuos, * ut déstruas inimícum et ultórem.
+            </Text>
+            <Text className="text-base">
+              Da boca dos meninos e lactentes fizestes sair um louvor perfeito,
+              devido aos vossos inimigos, * para destruirdes o inimigo e o
+              vingativo.
+            </Text>
+            <Text className="text-base">
+              Quóniam vidébo cælos tuos, ópera digitórum tuórum: * lunam et
+              stellas, quæ Tu fundásti.
+            </Text>
+            <Text className="text-base">
+              Contemplarei os vossos céus, obra de vossos dedos: * a lua e as
+              estrelas que Vós fundastes.
+            </Text>
+            <Text className="text-base">
+              Quid est homo quod memor es ejus? * Aut fílius hóminis, quóniam
+              vísitas eum?
+            </Text>
+            <Text className="text-base">
+              Que é o homem, para Vos lembrardes dele? * Ou que é o filho do
+              homem, para o visitardes?
+            </Text>
+            <Text className="text-base">
+              Minuísti eum paulo minus ab Ángelis, glória et honóre coronásti
+              eum: * et constituísti eum super ópera mánuum tuárum.
+            </Text>
+            <Text className="text-base">
+              Pouco inferior aos anjos Vós o fizestes, de glória e de honra o
+              coroastes: * e lhe destes o poder sobre as obras de vossas mãos.
+            </Text>
+            <Text className="text-base">
+              Omnia subjecísti sub pédibus ejus, * oves et boves univérsas:
+              ínsuper et pécora campi.
+            </Text>
+            <Text className="text-base">
+              Tudo sob seus pés sujeitastes, * todas as ovelhas e bois: e, além
+              destes, os outros animais do campo.
+            </Text>
+            <Text className="text-base">
+              Vólucres cæli, et pisces maris, * qui perámbulant sémitas maris.
+            </Text>
+            <Text className="text-base">
+              As aves do céu e os peixes do mar, * que percorrem as veredas do
+              oceano.
+            </Text>
+            <Text className="text-base">
+              Dómine, Dóminus noster, * quam admirábile est nomen tuum in
+              univérsa terra!
+            </Text>
+            <Text className="text-base">
+              Ó Senhor, Senhor nosso, * quão admirável é o vosso nome em toda a
+              terra!
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

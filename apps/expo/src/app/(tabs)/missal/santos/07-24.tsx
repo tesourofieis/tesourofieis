@@ -1,30 +1,37 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import Missa from "../comum/1vigiliaapostolos";
 
 export default function Page0724() {
   return (
-    <div className="docs">
-      <h1>Vigília de S. Tiago, Apóstolo, a 24 de Julho</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Vigília de S. Tiago, Apóstolo, a 24 de Julho
+          </Text>
 
-      <aside>
-        Como a maior parte das festas dos Apóstolos, outrora dias santos de
-        guarda, a festa de S. Tiago é precedida de uma vigília. O Santo foi um
-        dos membros do Colégio dos Doze que, à semelhança dos doze filhos de
-        Jacob, recebeu a sua porção da herança, cabendo-lhe evangelizar uma
-        parte da Igreja, outrora figurada pela terra prometida (Ep.). Com seu
-        irmão S. João e com S. Pedro, teve o privilégio de ser testemunha da
-        Transfiguração de Jesus e de sua agonia no Jardim das Oliveiras. Foi o
-        primeiro entre os Apóstolos a quem coube a honra de prestar testemunho
-        de Cristo, pela efusão de seu sangue, na cidade de Jerusalém. Deu, como
-        o Mestre, a prova do maior amor, que consiste em sacrificar a própria
-        vida pelos que se ama (Ev.). Preparemo-nos com a Igreja, no recolhimento
-        e espírito de penitência, para a festa de amanhã.
-      </aside>
+          <View className="aside">
+            Como a maior parte das festas dos Apóstolos, outrora dias santos de
+            guarda, a festa de S. Tiago é precedida de uma vigília. O Santo foi
+            um dos membros do Colégio dos Doze que, à semelhança dos doze filhos
+            de Jacob, recebeu a sua porção da herança, cabendo-lhe evangelizar
+            uma parte da Igreja, outrora figurada pela terra prometida (Ep.).
+            Com seu irmão S. João e com S. Pedro, teve o privilégio de ser
+            testemunha da Transfiguração de Jesus e de sua agonia no Jardim das
+            Oliveiras. Foi o primeiro entre os Apóstolos a quem coube a honra de
+            prestar testemunho de Cristo, pela efusão de seu sangue, na cidade
+            de Jerusalém. Deu, como o Mestre, a prova do maior amor, que
+            consiste em sacrificar a própria vida pelos que se ama (Ev.).
+            Preparemo-nos com a Igreja, no recolhimento e espírito de
+            penitência, para a festa de amanhã.
+          </View>
 
-      <Missa />
-    </div>
+          <Missa />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

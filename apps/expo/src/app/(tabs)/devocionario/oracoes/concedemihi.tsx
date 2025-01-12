@@ -1,48 +1,52 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageConcedemihi() {
   return (
-    <div className="docs">
-      <h1>Concede Mihi</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Concede Mihi</Text>
 
-      <div className="side-by-side">
-        <p>
-          Concede mihi, benignissime Jesu, grátiam tuam, ut mecum sit et mecum
-          laboret, mecum que in finem usque persevéret.
-        </p>
-        <p>
-          Infinitamente bom Jesus, eu Vos peço que me concedeis a vossa graça;
-          fazei que ela permaneça em mim, trabalhe comigo e se mantenha comigo
-          até ao fim.
-        </p>
-        <p>
-          Da mihi hoc semper desiderare et velle, quod tibi magis acceptum est
-          et carius placet.
-        </p>
-        <p>
-          Concedei-me sempre a vontade e o desejo daquilo que for mais agradável
-          e mais aceitável para Vós.
-        </p>
-        <p>
-          Tua voluntas mea sit, et mea voluntas tuam semper sequatur et optime
-          ei concordet.
-        </p>
-        <p>
-          Que a vossa vontade seja a minha, e que minha vontade esteja sempre em
-          conformidade com vossa.
-        </p>
-        <p>
-          Sit mihi unum velle et nolle tecum, nec aliud posse velle aut nolle,
-          nisi quod Tu vis et nolis. Amen.
-        </p>
-        <p>
-          Fazei que tudo aquilo que eu queira ou não queira seja aquilo que Vós
-          quereis ou não quereis. Amen.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Concede mihi, benignissime Jesu, grátiam tuam, ut mecum sit et
+              mecum laboret, mecum que in finem usque persevéret.
+            </Text>
+            <Text className="text-base">
+              Infinitamente bom Jesus, eu Vos peço que me concedeis a vossa
+              graça; fazei que ela permaneça em mim, trabalhe comigo e se
+              mantenha comigo até ao fim.
+            </Text>
+            <Text className="text-base">
+              Da mihi hoc semper desiderare et velle, quod tibi magis acceptum
+              est et carius placet.
+            </Text>
+            <Text className="text-base">
+              Concedei-me sempre a vontade e o desejo daquilo que for mais
+              agradável e mais aceitável para Vós.
+            </Text>
+            <Text className="text-base">
+              Tua voluntas mea sit, et mea voluntas tuam semper sequatur et
+              optime ei concordet.
+            </Text>
+            <Text className="text-base">
+              Que a vossa vontade seja a minha, e que minha vontade esteja
+              sempre em conformidade com vossa.
+            </Text>
+            <Text className="text-base">
+              Sit mihi unum velle et nolle tecum, nec aliud posse velle aut
+              nolle, nisi quod Tu vis et nolis. Amen.
+            </Text>
+            <Text className="text-base">
+              Fazei que tudo aquilo que eu queira ou não queira seja aquilo que
+              Vós quereis ou não quereis. Amen.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

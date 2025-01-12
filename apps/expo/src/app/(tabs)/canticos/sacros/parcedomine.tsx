@@ -1,25 +1,33 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageParcedomine() {
   return (
-    <div className="docs">
-      <h1>Parce domine</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Parce domine</Text>
 
-      <div className="side-by-side">
-        <p>℣. Parce, Domine, parce populo tuo:</p>
-        <p>℣. Perdoai, Senhor, perdoai ao vosso povo.</p>
-        <p>
-          <span className="text-red-500">℟.</span> Ne in aeternum irascaris
-          nobis.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Não fiqueis sempre irritado
-          contra nós.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              ℣. Parce, Domine, parce populo tuo:
+            </Text>
+            <Text className="text-base">
+              ℣. Perdoai, Senhor, perdoai ao vosso povo.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Ne in aeternum irascaris
+              nobis.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Não fiqueis sempre
+              irritado contra nós.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

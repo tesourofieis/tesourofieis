@@ -1,223 +1,234 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PagePent80() {
   return (
-    <div className="docs">
-      <h1>Oitavo Domingo depois de Pentecostes</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Oitavo Domingo depois de Pentecostes</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Sl. 47, 10-11</em>
+          <Text className="em">Sl. 47, 10-11</Text>
 
-      <div className="side-by-side">
-        <p>
-          Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum
-          nomen tuum, Deus, ita et laus tua in fines terræ: justítia plena est
-          déxtera tua. <em>Ps. ibid., 2</em> Magnus Dóminus, et laudábilis
-          nimis: in civitate Dei nostri, in monte sancto ejus. ℣. Gloria
-          Patri...
-        </p>
-        <p>
-          Alcançámos, ó Deus, a vossa misericórdia no meio do vosso templo. Como
-          o vosso nome, assim a vossa glória, Senhor, se estende até aos confins
-          da terra: e a vossa dextra está cheia de justiça.{" "}
-          <em>Sl. ibid., 2</em> O Senhor é grande e digno de todos os louvores,
-          tanto na cidade de Deus, como no seu monte santo. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum
+              nomen tuum, Deus, ita et laus tua in fines terræ: justítia plena
+              est déxtera tua. <Text className="em">Ps. ibid., 2</Text> Magnus
+              Dóminus, et laudábilis nimis: in civitate Dei nostri, in monte
+              sancto ejus. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Alcançámos, ó Deus, a vossa misericórdia no meio do vosso templo.
+              Como o vosso nome, assim a vossa glória, Senhor, se estende até
+              aos confins da terra: e a vossa dextra está cheia de justiça.{" "}
+              <Text className="em">Sl. ibid., 2</Text> O Senhor é grande e digno
+              de todos os louvores, tanto na cidade de Deus, como no seu monte
+              santo. ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Largíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta
-          sunt, propítius et agéndi: ut, qui sine te esse non póssumus, secúndum
-          te vívere valeámus. Per Dóminum...
-        </p>
-        <p>
-          Concedei-nos propício, Senhor, Vos imploramos, a graça de pensar e de
-          praticar sempre segundo a justiça, a fim de que, não podendo nós
-          existir sem Vós, conformemos sempre a nossa vida com vossa vontade.
-          Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Largíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ
+              recta sunt, propítius et agéndi: ut, qui sine te esse non
+              póssumus, secúndum te vívere valeámus. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Concedei-nos propício, Senhor, Vos imploramos, a graça de pensar e
+              de praticar sempre segundo a justiça, a fim de que, não podendo
+              nós existir sem Vós, conformemos sempre a nossa vida com vossa
+              vontade. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Rm. 8, 12-17</em>
+          <Text className="em">Rm. 8, 12-17</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
-        <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
-        <p>
-          Fratres: Debitóres sumus non carni, ut secúndum carnem vivámus. Si
-          enim secúndum carnem vixéritis, moriémini: si autem spíritu facta
-          carnis mortificavéritis, vivétis. Quicúmque enim spíritu Dei aguntur,
-          ii sunt fílii Dei. Non enim accepístis spíritum servitútis íterum in
-          timóre, sed accepístis spíritum adoptiónis filiórum, in quo clamámus:
-          Abba (Pater). Ipse enim Spíritus testimónium reddit spirítui nostro,
-          quod sumus fílii Dei. Si autem fílii, et herédes: herédes quidem Dei,
-          coherédes autem Christi.
-        </p>
-        <p>
-          Meus irmãos: Não somos devedores à carne para vivermos segundo a
-          carne. Se, pois, viverdes segundo a carne, morrereis; mas se, pelo
-          contrário, com o Espírito mortificardes as obras da carne, vivereis;
-          porque todos os que são conduzidos pelo Espírito de Deus, são filhos
-          de Deus. Com efeito, não recebestes o espírito de escravidão para vos
-          conduzir pelo temor; mas o espírito de adopção de filhos, pelo qual
-          chamamos: Abba! (Pai). Ora este Espírito dá testemunho ao nosso
-          espírito de que somos filhos de Deus. Se, pois, somos filhos de Deus,
-          somos também herdeiros: herdeiros verdadeiros de Deus e co-herdeiros
-          de Jesus Cristo.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
+            </Text>
+            <Text className="text-base">
+              Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
+            </Text>
+            <Text className="text-base">
+              Fratres: Debitóres sumus non carni, ut secúndum carnem vivámus. Si
+              enim secúndum carnem vixéritis, moriémini: si autem spíritu facta
+              carnis mortificavéritis, vivétis. Quicúmque enim spíritu Dei
+              aguntur, ii sunt fílii Dei. Non enim accepístis spíritum
+              servitútis íterum in timóre, sed accepístis spíritum adoptiónis
+              filiórum, in quo clamámus: Abba (Pater). Ipse enim Spíritus
+              testimónium reddit spirítui nostro, quod sumus fílii Dei. Si autem
+              fílii, et herédes: herédes quidem Dei, coherédes autem Christi.
+            </Text>
+            <Text className="text-base">
+              Meus irmãos: Não somos devedores à carne para vivermos segundo a
+              carne. Se, pois, viverdes segundo a carne, morrereis; mas se, pelo
+              contrário, com o Espírito mortificardes as obras da carne,
+              vivereis; porque todos os que são conduzidos pelo Espírito de
+              Deus, são filhos de Deus. Com efeito, não recebestes o espírito de
+              escravidão para vos conduzir pelo temor; mas o espírito de adopção
+              de filhos, pelo qual chamamos: Abba! (Pai). Ora este Espírito dá
+              testemunho ao nosso espírito de que somos filhos de Deus. Se,
+              pois, somos filhos de Deus, somos também herdeiros: herdeiros
+              verdadeiros de Deus e co-herdeiros de Jesus Cristo.
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 30, 3</em>
+          <Text className="em">Sl. 30, 3</Text>
 
-      <div className="side-by-side">
-        <p>
-          Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me
-          fácias. ℣. <em>Ps. 70, 1</em> Deus, in te sperávi: Dómine, non
-          confúndar in ætérnum.
-        </p>
-        <p>
-          Sede para mim Deus protector: e um lugar de refúgio para me salvar. ℣.{" "}
-          <em>Sl. 70, 1</em> Ó Deus, em Vós pus a minha esperança: não serei
-          para sempre confundido, Senhor.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Ps. 47, 2</em> Magnus Dóminus, et
-          laudábilis valde, in civitáte Dei nostri, in monte sancto ejus.
-          Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Sl. 47, 2</em> O Senhor é grande e digno de
-          todos os louvores, tanto na cidade de Deus, como no seu monte santo.
-          Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me
+              fácias. ℣. <Text className="em">Ps. 70, 1</Text> Deus, in te
+              sperávi: Dómine, non confúndar in ætérnum.
+            </Text>
+            <Text className="text-base">
+              Sede para mim Deus protector: e um lugar de refúgio para me
+              salvar. ℣. <Text className="em">Sl. 70, 1</Text> Ó Deus, em Vós
+              pus a minha esperança: não serei para sempre confundido, Senhor.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Ps. 47, 2</Text>{" "}
+              Magnus Dóminus, et laudábilis valde, in civitáte Dei nostri, in
+              monte sancto ejus. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Sl. 47, 2</Text> O
+              Senhor é grande e digno de todos os louvores, tanto na cidade de
+              Deus, como no seu monte santo. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Lc. 16, 1-9</em>
+          <Text className="em">Lc. 16, 1-9</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Lucam.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Lucas.
-        </p>
-        <p>
-          In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
-          quidam erat dives, qui habébat víllicum: et hic diffamátus est apud
-          illum, quasi dissipásset bona ipsíus. Et vocávit illum et ait illi:
-          Quid hoc audio de te? redde ratiónem villicatiónis tuæ: jam enim non
-          póteris villicáre. Ait autem víllicus intra se: Quid fáciam, quia
-          dóminus meus aufert a me villicatiónem? fódere non váleo, mendicáre
-          erubésco. Scio, quid fáciam, ut, cum amótus fúero a villicatióne,
-          recípiant me in domos suas. Convocátis itaque síngulis debitóribus
-          dómini sui, dicébat primo: Quantum debes dómino meo? At ille dixit:
-          Centum cados ólei. Dixítque illi: Accipe cautiónem tuam: et sede cito,
-          scribe quinquagínta. Deínde álii dixit: Tu vero quantum debes? Qui
-          ait: Centum coros trítici. Ait illi: Accipe lítteras tuas, et scribe
-          octogínta. Et laudávit dóminus víllicum iniquitátis, quia prudénter
-          fecísset: quia fílii hujus sǽculi prudentióres fíliis lucis in
-          generatióne sua sunt. Et ego vobis dico: fácite vobis amicos de
-          mammóna iniquitátis: ut, cum defecéritis, recípiant vos in ætérna
-          tabernácula.
-        </p>
-        <p>
-          Naquele tempo, disse Jesus aos seus discípulos esta parábola: Um homem
-          rico tinha um feitor, que foi acusado diante dele de haver dissipado
-          os seus bens. Então, chamou-o, dizendo-lhe: «Que é isto que ouço dizer
-          de ti? Dá-me conta da tua gerência, pois desde hoje não continuarás a
-          ser meu feitor». Este disse no seu íntimo: «Que será de mim, se o
-          senhor me tira a gerência dos bens?! Pois não posso cultivar a terra e
-          tenho vergonha de mendigar! Eu sei, porém, o que hei-de fazer, a fim
-          de que, quando me seja tirado o emprego, encontre quem me receba em
-          sua casa». Chamando, então, os devedores do senhor, disse ao primeiro:
-          «Quanto deves ao meu senhor?». Ele respondeu: «Cem medidas de azeite».
-          O feitor disse: «Aqui tens a tua obrigação; senta-te depressa e
-          escreve cinquenta». Depois disse ao segundo: «E tu quanto deves?». Ele
-          respondeu: «Cem medidas de trigo». «Toma a tua obrigação disse-lhe o
-          feitor e escreve oitenta». E louvou o senhor o feitor infiel, por
-          haver procedido prudentemente, porque os filhos do mundo são mais
-          hábeis na conduta dos seus negócios do que os filhos da luz. Pois Eu
-          vos digo, acrescentou Jesus: «Granjeai amigos com as riquezas da
-          iniquidade, a fim de que, quando vos encontrardes com necessidade, vos
-          recebam nas suas moradas eternas».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Lucam.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Lucas.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
+              quidam erat dives, qui habébat víllicum: et hic diffamátus est
+              apud illum, quasi dissipásset bona ipsíus. Et vocávit illum et ait
+              illi: Quid hoc audio de te? redde ratiónem villicatiónis tuæ: jam
+              enim non póteris villicáre. Ait autem víllicus intra se: Quid
+              fáciam, quia dóminus meus aufert a me villicatiónem? fódere non
+              váleo, mendicáre erubésco. Scio, quid fáciam, ut, cum amótus fúero
+              a villicatióne, recípiant me in domos suas. Convocátis itaque
+              síngulis debitóribus dómini sui, dicébat primo: Quantum debes
+              dómino meo? At ille dixit: Centum cados ólei. Dixítque illi:
+              Accipe cautiónem tuam: et sede cito, scribe quinquagínta. Deínde
+              álii dixit: Tu vero quantum debes? Qui ait: Centum coros trítici.
+              Ait illi: Accipe lítteras tuas, et scribe octogínta. Et laudávit
+              dóminus víllicum iniquitátis, quia prudénter fecísset: quia fílii
+              hujus sǽculi prudentióres fíliis lucis in generatióne sua sunt. Et
+              ego vobis dico: fácite vobis amicos de mammóna iniquitátis: ut,
+              cum defecéritis, recípiant vos in ætérna tabernácula.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, disse Jesus aos seus discípulos esta parábola: Um
+              homem rico tinha um feitor, que foi acusado diante dele de haver
+              dissipado os seus bens. Então, chamou-o, dizendo-lhe: «Que é isto
+              que ouço dizer de ti? Dá-me conta da tua gerência, pois desde hoje
+              não continuarás a ser meu feitor». Este disse no seu íntimo: «Que
+              será de mim, se o senhor me tira a gerência dos bens?! Pois não
+              posso cultivar a terra e tenho vergonha de mendigar! Eu sei,
+              porém, o que hei-de fazer, a fim de que, quando me seja tirado o
+              emprego, encontre quem me receba em sua casa». Chamando, então, os
+              devedores do senhor, disse ao primeiro: «Quanto deves ao meu
+              senhor?». Ele respondeu: «Cem medidas de azeite». O feitor disse:
+              «Aqui tens a tua obrigação; senta-te depressa e escreve
+              cinquenta». Depois disse ao segundo: «E tu quanto deves?». Ele
+              respondeu: «Cem medidas de trigo». «Toma a tua obrigação disse-lhe
+              o feitor e escreve oitenta». E louvou o senhor o feitor infiel,
+              por haver procedido prudentemente, porque os filhos do mundo são
+              mais hábeis na conduta dos seus negócios do que os filhos da luz.
+              Pois Eu vos digo, acrescentou Jesus: «Granjeai amigos com as
+              riquezas da iniquidade, a fim de que, quando vos encontrardes com
+              necessidade, vos recebam nas suas moradas eternas».
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 17, 28 & 32</em>
+          <Text className="em">Sl. 17, 28 & 32</Text>
 
-      <div className="side-by-side">
-        <p>
-          Pópulum húmilem salvum fácies, Dómine, et óculos superbórum
-          humiliábis: quóniam quis Deus præter te, Dómine?
-        </p>
-        <p>
-          Salvareis, Senhor, o povo humilde, e humilhareis os soberbos, pois
-          quem é Deus senão Vós, Senhor?
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Pópulum húmilem salvum fácies, Dómine, et óculos superbórum
+              humiliábis: quóniam quis Deus præter te, Dómine?
+            </Text>
+            <Text className="text-base">
+              Salvareis, Senhor, o povo humilde, e humilhareis os soberbos, pois
+              quem é Deus senão Vós, Senhor?
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Súscipe, quǽsumus, Dómine, múnera, quæ tibi de tua largitáte
-          deférimus: ut hæc sacrosáncta mystéria, grátiæ tuæ operánte virtúte,
-          et præséntis vitæ nos conversatióne sanctíficent, et ad gáudia
-          sempitérna perdúcant. Per Dóminum...
-        </p>
-        <p>
-          Aceitai, Senhor, Vos suplicamos, estes dons, que recebemos da vossa
-          liberalidade, a fim de que pela eficácia da vossa graça estes
-          sacrossantos mystérios nos santifiquem durante a vida presente e nos
-          conduzam à posse das alegrias eternas. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Súscipe, quǽsumus, Dómine, múnera, quæ tibi de tua largitáte
+              deférimus: ut hæc sacrosáncta mystéria, grátiæ tuæ operánte
+              virtúte, et præséntis vitæ nos conversatióne sanctíficent, et ad
+              gáudia sempitérna perdúcant. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Aceitai, Senhor, Vos suplicamos, estes dons, que recebemos da
+              vossa liberalidade, a fim de que pela eficácia da vossa graça
+              estes sacrossantos mystérios nos santifiquem durante a vida
+              presente e nos conduzam à posse das alegrias eternas. Por nosso
+              Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Sl. 33, 9</em>
+          <Text className="em">Sl. 33, 9</Text>
 
-      <div className="side-by-side">
-        <p>
-          Gustáte et vidéte, quóniam suávis est Dóminus: beátus vir, qui sperat
-          in eo.
-        </p>
-        <p>
-          Provai e vede como o Senhor é suave: Bem-aventurado o varão que confia
-          n’Ele.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Gustáte et vidéte, quóniam suávis est Dóminus: beátus vir, qui
+              sperat in eo.
+            </Text>
+            <Text className="text-base">
+              Provai e vede como o Senhor é suave: Bem-aventurado o varão que
+              confia n’Ele.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Sit nobis, Dómine, reparátio mentis et córporis cæléste mystérium: ut,
-          cujus exséquimur cultum, sentiámus efféctum. Per Dóminum...
-        </p>
-        <p>
-          Que este celestial mystério, Senhor, renove o nosso espírito e o nosso
-          corpo» a fim de que sintamos os efeitos do sacramento que honrámos.
-          Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Sit nobis, Dómine, reparátio mentis et córporis cæléste mystérium:
+              ut, cujus exséquimur cultum, sentiámus efféctum. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Que este celestial mystério, Senhor, renove o nosso espírito e o
+              nosso corpo» a fim de que sintamos os efeitos do sacramento que
+              honrámos. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

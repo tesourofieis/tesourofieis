@@ -1,40 +1,46 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PagePentecostes() {
   return (
-    <div className="docs">
-      <h1>Prefácio do Pentecostes</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Prefácio do Pentecostes</Text>
 
-      <aside>
-        Diz-se desde a Vigília de Pentecostes até ao fim do Oitavário. Diz-se
-        também nas Missas Votivas do Espírito Santo, mas omitem-se as palavras:
-        neste dia.
-      </aside>
+          <View className="aside">
+            Diz-se desde a Vigília de Pentecostes até ao fim do Oitavário.
+            Diz-se também nas Missas Votivas do Espírito Santo, mas omitem-se as
+            palavras: neste dia.
+          </View>
 
-      <div className="side-by-side">
-        <p>
-          Vere dignum et justum est, æquum et salutáre, nos tibi semper et
-          ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
-          per Christum, Dóminum nostrum. Qui, ascéndens super omnes cœlos
-          sedénsque ad déxteram tuam, promíssum Spíritum Sanctum (hodiérna die)
-          in fílios adoptiónis effúdit. Quaprópter profúsis gáudiis totus in
-          orbe terrárum mundus exsúltat. Sed et supérnæ Virtútes atque angélicæ
-          Potestátes hymnum glóriæ tuæ cóncinunt, sine fine dicéntes:
-        </p>
-        <p>
-          É verdadeiramente digno e justo, racional e salutar dar-Vos graças, em
-          todos os lugares e sempre, Senhor santo, Pai omnipotente, eterno Deus,
-          por nosso Senhor Jesus Cristo, que, subindo ao mais alto dos céus e
-          estando sentado à vossa direita, fez descer, (neste dia) sobre os seus
-          filhos adoptivos o Espírito Santo, como havia prometido. Por isso o
-          mundo inteiro, em transportes de alegria, exulta de contentamento,
-          enquanto as Virtudes do céu e as Potestades angelicais cantam um hino
-          à vossa glória, dizendo incessantemente:
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Vere dignum et justum est, æquum et salutáre, nos tibi semper et
+              ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
+              Deus: per Christum, Dóminum nostrum. Qui, ascéndens super omnes
+              cœlos sedénsque ad déxteram tuam, promíssum Spíritum Sanctum
+              (hodiérna die) in fílios adoptiónis effúdit. Quaprópter profúsis
+              gáudiis totus in orbe terrárum mundus exsúltat. Sed et supérnæ
+              Virtútes atque angélicæ Potestátes hymnum glóriæ tuæ cóncinunt,
+              sine fine dicéntes:
+            </Text>
+            <Text className="text-base">
+              É verdadeiramente digno e justo, racional e salutar dar-Vos
+              graças, em todos os lugares e sempre, Senhor santo, Pai
+              omnipotente, eterno Deus, por nosso Senhor Jesus Cristo, que,
+              subindo ao mais alto dos céus e estando sentado à vossa direita,
+              fez descer, (neste dia) sobre os seus filhos adoptivos o Espírito
+              Santo, como havia prometido. Por isso o mundo inteiro, em
+              transportes de alegria, exulta de contentamento, enquanto as
+              Virtudes do céu e as Potestades angelicais cantam um hino à vossa
+              glória, dizendo incessantemente:
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

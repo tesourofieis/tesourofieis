@@ -1,65 +1,72 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0114Outro() {
   return (
-    <div className="docs">
-      <h1>S. Félix, Presb. e Márt., a 14 de Janeiro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Félix, Presb. e Márt., a 14 de Janeiro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/5martirnaopontifice2">
-          Missa Lætábitur justus
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/5martirnaopontifice2">
+              Missa Lætábitur justus
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Concéde, quǽsumus, quaténus, quorum sollémnia ágimus, étiam actus
-          imitémur. Per Dóminum...
-        </p>
-        <p>
-          Concedei-nos, ó omnipotente Deus, que os exemplos dos vossos Santos
-          nos incitem a uma vida melhor, de que modo que imitemos também as
-          acções daquele cuja solenidade celebramos. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Concéde, quǽsumus, quaténus, quorum sollémnia ágimus, étiam actus
+              imitémur. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Concedei-nos, ó omnipotente Deus, que os exemplos dos vossos
+              Santos nos incitem a uma vida melhor, de que modo que imitemos
+              também as acções daquele cuja solenidade celebramos. Por nosso
+              Senhor...
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Hóstias tibi, Dómine, beáti Félicis Mártyris tui dicátas méritis,
-          benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per
-          Dóminum...
-        </p>
-        <p>
-          Aceitai benignamente, Senhor, as hóstias que Vos oferecemos em honra
-          dos méritos do B. Félix, vosso Mártir, e permiti que nos alcancem o
-          vosso perpétuo auxílio. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Hóstias tibi, Dómine, beáti Félicis Mártyris tui dicátas méritis,
+              benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.
+              Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Aceitai benignamente, Senhor, as hóstias que Vos oferecemos em
+              honra dos méritos do B. Félix, vosso Mártir, e permiti que nos
+              alcancem o vosso perpétuo auxílio. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Quǽsumus, Dómine, salutáribus repléti mystériis: ut, beáti Félicis
-          Mártyris tui, cujus sollémnia celebrámus, oratiónibus adjuvémur. Per
-          Dóminum...
-        </p>
-        <p>
-          Havendo sido saciados com os salutares dons, dignai-Vos conceder-nos,
-          Senhor, que sejamos auxiliados pelas orações do vosso B. Mártir Félix,
-          cuja solenidade celebrámos. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Quǽsumus, Dómine, salutáribus repléti mystériis: ut, beáti Félicis
+              Mártyris tui, cujus sollémnia celebrámus, oratiónibus adjuvémur.
+              Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Havendo sido saciados com os salutares dons, dignai-Vos
+              conceder-nos, Senhor, que sejamos auxiliados pelas orações do
+              vosso B. Mártir Félix, cuja solenidade celebrámos. Por nosso
+              Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,68 +1,72 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageSalvenobrepadroeira() {
   return (
-    <div className="docs">
-      <h1>Salve, nobre Padroeira</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Salve, nobre Padroeira</Text>
 
-      <div className="not-content">
-        <p>
-          Salve, nobre Padroeira Do Povo, teu protegido, Entre todos escolhido,
-          Para povo do Senhor.
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>
-          Refrão: Ó glória da nossa terra, Que tens salvado mil vezes, Enquanto
-          houver Portugueses, Tu serás o seu amor.
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>
-          Com tua graça e beleza Um jardim não ornas só, Linda flor de Jericó,
-          De Portugal és a Flor!
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>
-          Flor de suave perfume Para toda a Lusa Gente, Entre nós, em cada
-          crente Tens esmerado cultor.
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>
-          És a obra mais sublime Que saiu das mãos de Deus. Nem na terra nem nos
-          céus, Há criatura maior!
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>
-          A Tua glória é valer-nos, Não tens maior alegria; Ninguém chama por
-          Maria, Que não alcance favor.
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>
-          És a nossa padroeira Não largues o padroado Do rebanho confiado Ao eu
-          poder protector.
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>
-          Portugal, qual outra Fénix, À vida torne outra vez: Não se chame
-          português Quem cristão de fé não for.
-        </p>
-      </div>
-    </div>
+          <View className="not-content">
+            <Text className="text-base">
+              Salve, nobre Padroeira Do Povo, teu protegido, Entre todos
+              escolhido, Para povo do Senhor.
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              Refrão: Ó glória da nossa terra, Que tens salvado mil vezes,
+              Enquanto houver Portugueses, Tu serás o seu amor.
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              Com tua graça e beleza Um jardim não ornas só, Linda flor de
+              Jericó, De Portugal és a Flor!
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              Flor de suave perfume Para toda a Lusa Gente, Entre nós, em cada
+              crente Tens esmerado cultor.
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              És a obra mais sublime Que saiu das mãos de Deus. Nem na terra nem
+              nos céus, Há criatura maior!
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              A Tua glória é valer-nos, Não tens maior alegria; Ninguém chama
+              por Maria, Que não alcance favor.
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              És a nossa padroeira Não largues o padroado Do rebanho confiado Ao
+              eu poder protector.
+            </Text>
+            <Text className="text-base">
+              <br />
+            </Text>
+            <Text className="text-base">
+              Portugal, qual outra Fénix, À vida torne outra vez: Não se chame
+              português Quem cristão de fé não for.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

@@ -1,243 +1,257 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page2Martirpontificeforapascal() {
   return (
-    <div className="docs">
-      <h1>Mártir Pontífice</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Mártir Pontífice</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Ecl. 45, 30</em>
+          <Text className="em">Ecl. 45, 30</Text>
 
-      <div className="side-by-side">
-        <p>
-          Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit
-          illi sacerdótii dígnitas in ætérnum. <em>Ps. 131, 1</em> Meménto,
-          Dómine, David: et omnis mansuetúdinis ejus. ℣. Gloria Patri...
-        </p>
-        <p>
-          O Senhor fez com ele uma aliança de paz e proclamou-o príncipe, para
-          que a dignidade sacerdotal lhe pertencesse eternamente.{" "}
-          <em>Sl. 131, 1</em> Lembrai-Vos de David, ó Senhor, e da sua grande
-          solicitude. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut
+              sit illi sacerdótii dígnitas in ætérnum.{" "}
+              <Text className="em">Ps. 131, 1</Text> Meménto, Dómine, David: et
+              omnis mansuetúdinis ejus. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              O Senhor fez com ele uma aliança de paz e proclamou-o príncipe,
+              para que a dignidade sacerdotal lhe pertencesse eternamente.{" "}
+              <Text className="em">Sl. 131, 1</Text> Lembrai-Vos de David, ó
+              Senhor, e da sua grande solicitude. ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ
-          actiónis gravat, beáti <span className="text-red-500">N.</span>{" "}
-          Martyris tui atque Pontíficis intercéssio gloriósa nos prótegat. Per
-          Dóminum...
-        </p>
-        <p>
-          Olhai para a nossa fraqueza, ó Deus omnipotente; e, visto que estamos
-          oprimidos sob o peso dos nossos pecados, fazei que nos proteja a
-          gloriosa intercessão do B. <span className="text-red-500">N.</span>,
-          vosso Pontífice e Mártir. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus
+              própriæ actiónis gravat, beáti{" "}
+              <Text className="text-red-500">N.</Text> Martyris tui atque
+              Pontíficis intercéssio gloriósa nos prótegat. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Olhai para a nossa fraqueza, ó Deus omnipotente; e, visto que
+              estamos oprimidos sob o peso dos nossos pecados, fazei que nos
+              proteja a gloriosa intercessão do B.{" "}
+              <Text className="text-red-500">N.</Text>, vosso Pontífice e
+              Mártir. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Tg. 1, 12-18</em>
+          <Text className="em">Tg. 1, 12-18</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Epístolæ beáti Jacóbi Apóstoli.</p>
-        <p>Lição da Ep.ª do B. Ap.º Tiago.</p>
-        <p>
-          Caríssimi: Beátus vir, qui suffert tentatiónem: quóniam, cum probátus
-          fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se.
-          Nemo, cum tentátur, dicat, quóniam a Deo tentátur: Deus enim
-          intentátor malórum est: ipse autem néminem tentat. Unusquísque vero
-          tentátur a concupiscéntia sua abstráctus et illéctus. Deinde
-          Concupiscéntia cum concéperit, parit peccátum: peccátum vero cum
-          consummátum fúerit, génerat mortem. Nolíte itaque erráre, fratres mei
-          dilectíssimi. Omne datum óptimum et omne donum perféctum desúrsum est,
-          descéndens a Patre lúminum, apud quem non est transmutátio nec
-          vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo veritátis,
-          ut simus inítium aliquod creatúræ ejus.
-        </p>
-        <p>
-          Caríssimos: bem-aventurado o varão que sofre a tentação, porque,
-          quando acabar a provação, receberá a coroa da vida, que o Senhor
-          prometeu aos que O amam. Ninguém, quando for tentado, diga que é Deus
-          quem o tenta, pois Deus não é tentador que arraste para o mal, nem
-          tenta ninguém. Porém, cada um é tentado pela sua própria
-          concupiscência, que o atrai e solicita; e depois, quando a
-          concupiscência já concebeu, gera o pecado, e o pecado, logo que é
-          consumado, gera a morte. Não vos enganeis, pois, irmãos dilectíssimos.
-          Todo o dom excelente e todo o dom perfeito vêm do alto e derivam do
-          Pai das luzes, em quem não há mudanças, nem sombra de alteração; pois
-          foi Ele quem por sua espontânea vontade nos gerou pela palavra da
-          verdade, a fim de que fôssemos como primícias das suas criaturas.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Léctio Epístolæ beáti Jacóbi Apóstoli.
+            </Text>
+            <Text className="text-base">Lição da Ep.ª do B. Ap.º Tiago.</Text>
+            <Text className="text-base">
+              Caríssimi: Beátus vir, qui suffert tentatiónem: quóniam, cum
+              probátus fúerit, accípiet corónam vitæ, quam repromísit Deus
+              diligéntibus se. Nemo, cum tentátur, dicat, quóniam a Deo
+              tentátur: Deus enim intentátor malórum est: ipse autem néminem
+              tentat. Unusquísque vero tentátur a concupiscéntia sua abstráctus
+              et illéctus. Deinde Concupiscéntia cum concéperit, parit peccátum:
+              peccátum vero cum consummátum fúerit, génerat mortem. Nolíte
+              itaque erráre, fratres mei dilectíssimi. Omne datum óptimum et
+              omne donum perféctum desúrsum est, descéndens a Patre lúminum,
+              apud quem non est transmutátio nec vicissitúdinis obumbrátio.
+              Voluntárie enim génuit nos verbo veritátis, ut simus inítium
+              aliquod creatúræ ejus.
+            </Text>
+            <Text className="text-base">
+              Caríssimos: bem-aventurado o varão que sofre a tentação, porque,
+              quando acabar a provação, receberá a coroa da vida, que o Senhor
+              prometeu aos que O amam. Ninguém, quando for tentado, diga que é
+              Deus quem o tenta, pois Deus não é tentador que arraste para o
+              mal, nem tenta ninguém. Porém, cada um é tentado pela sua própria
+              concupiscência, que o atrai e solicita; e depois, quando a
+              concupiscência já concebeu, gera o pecado, e o pecado, logo que é
+              consumado, gera a morte. Não vos enganeis, pois, irmãos
+              dilectíssimos. Todo o dom excelente e todo o dom perfeito vêm do
+              alto e derivam do Pai das luzes, em quem não há mudanças, nem
+              sombra de alteração; pois foi Ele quem por sua espontânea vontade
+              nos gerou pela palavra da verdade, a fim de que fôssemos como
+              primícias das suas criaturas.
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 88, 21-23</em>
+          <Text className="em">Sl. 88, 21-23</Text>
 
-      <div className="side-by-side">
-        <p>
-          Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
-          auxiliábitur ei, et bráchium meum confortábit eum. ℣. Nihil profíciet
-          inimícus in eo, et fílius iniquitátis non nocébit ei.
-        </p>
-        <p>
-          Encontrei o meu servo David e ungi-o com meu óleo sagrado; a minha mão
-          o auxiliará e o meu braço o fortificará. ℣. O inimigo nada poderá
-          contra ele e o filho da iniquidade nenhum mal lhe fará.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Ps. 109, 4</em> Tu es sacérdos in ætérnum,
-          secúndum órdinem Melchísedech. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Sl. 109, 4</em> Tu és sacerdote para sempre,
-          segundo a ordem de Melquisedeque. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
+              auxiliábitur ei, et bráchium meum confortábit eum. ℣. Nihil
+              profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.
+            </Text>
+            <Text className="text-base">
+              Encontrei o meu servo David e ungi-o com meu óleo sagrado; a minha
+              mão o auxiliará e o meu braço o fortificará. ℣. O inimigo nada
+              poderá contra ele e o filho da iniquidade nenhum mal lhe fará.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Ps. 109, 4</Text> Tu
+              es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Sl. 109, 4</Text> Tu és
+              sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia.
+            </Text>
+          </View>
 
-      <aside>
-        Após a Septuagésima omite-se o Aleluia e o seguinte, dizendo-se:
-      </aside>
+          <View className="aside">
+            Após a Septuagésima omite-se o Aleluia e o seguinte, dizendo-se:
+          </View>
 
-      <h3>Trato</h3>
+          <Text className="h3">Trato</Text>
 
-      <em>Sl. 20, 3-4</em>
+          <Text className="em">Sl. 20, 3-4</Text>
 
-      <div className="side-by-side">
-        <p>
-          Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum. ℣. Quóniam prævenísti eum in benedictiónibus
-          dulcédinis. ℣. Posuísti in cápite ejus corónam de lápide pretióso.
-        </p>
-        <p>
-          Concedestes-lhe o desejo da sua alma: lhe não negastes o que seus
-          lábios Vos pediram. ℣. Premuniste-lo com bênçãos de doçura. ℣.
-          Impusestes na sua cabeça uma coroa de pedras preciosas.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
+              fraudásti eum. ℣. Quóniam prævenísti eum in benedictiónibus
+              dulcédinis. ℣. Posuísti in cápite ejus corónam de lápide pretióso.
+            </Text>
+            <Text className="text-base">
+              Concedestes-lhe o desejo da sua alma: lhe não negastes o que seus
+              lábios Vos pediram. ℣. Premuniste-lo com bênçãos de doçura. ℣.
+              Impusestes na sua cabeça uma coroa de pedras preciosas.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Lc. 14, 26-33</em>
+          <Text className="em">Lc. 14, 26-33</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Lucam.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Lucas.
-        </p>
-        <p>
-          In illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit
-          patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres,
-          adhuc autem et ánimam suam, non potest meus esse discípulus. Et qui
-          non bájulat crucem suam, et venit post me, non potest meus esse
-          discípulus. Quis enim ex vobis volens turrim ædificáre, non prius
-          sedens cómputat sumptus, qui necessárii sunt, si hábeat ad
-          perficiéndum; ne, posteáquam posúerit fundaméntum, et non potúerit
-          perfícere, omnes, qui vident, incípiant illúdere ei, dicéntes: Quia
-          hic homo cœpit ædificáre, et non pótuit consummáre? Aut quis rex
-          iturus commíttere bellum advérsus álium regem, non sedens prius
-          cógitat, si possit cum decem mílibus occúrrere ei, qui cum vigínti
-          mílibus venit ad se? Alióquin, adhuc illo longe agénte, legatiónem
-          mittens, rogat ea, quæ pacis sunt. Sic ergo omnis ex vobis, qui non
-          renúntiat ómnibus, quæ póssidet, non potest meus esse discípulus.
-        </p>
-        <p>
-          Naquele tempo, disse Jesus às turbas: «Se alguém vem a mim e não
-          despreza seu pai, sua mãe, sua mulher e filhos, seus irmãos e irmãs e
-          até mesmo a sua própria vida, não pode ser meu discípulo. E todo
-          aquele que não leva a sua cruz não pode ser meu discípulo. Com efeito,
-          qual é de vós que, querendo edificar uma torre, não calcula
-          primeiramente com cuidado os gastos necessários, para ver se possui
-          meios para a acabar? Pois poderá acontecer que, depois de haver
-          lançado os alicerces e não podendo acabar a torre, comecem a zombar
-          dele aqueles que o vêem, dizendo: «Este homem começou a edificar e não
-          pôde acabar!». Ou qual é o rei que, preparando-se para pelejar com
-          outro rei, não considera primeiramente se com um exército de dez mil
-          homens poderá fazer frente ao inimigo, que avança contra ele com vinte
-          mil homens? Se vê que não pode combater, estando ainda o outro longe,
-          manda-lhe uma embaixada a pedir-lhe a paz. Assim, pois, todo aquele de
-          vós que não renunciar a tudo quanto possui não pode ser meu
-          discípulo».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Lucam.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Lucas.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non
+              odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et
+              soróres, adhuc autem et ánimam suam, non potest meus esse
+              discípulus. Et qui non bájulat crucem suam, et venit post me, non
+              potest meus esse discípulus. Quis enim ex vobis volens turrim
+              ædificáre, non prius sedens cómputat sumptus, qui necessárii sunt,
+              si hábeat ad perficiéndum; ne, posteáquam posúerit fundaméntum, et
+              non potúerit perfícere, omnes, qui vident, incípiant illúdere ei,
+              dicéntes: Quia hic homo cœpit ædificáre, et non pótuit consummáre?
+              Aut quis rex iturus commíttere bellum advérsus álium regem, non
+              sedens prius cógitat, si possit cum decem mílibus occúrrere ei,
+              qui cum vigínti mílibus venit ad se? Alióquin, adhuc illo longe
+              agénte, legatiónem mittens, rogat ea, quæ pacis sunt. Sic ergo
+              omnis ex vobis, qui non renúntiat ómnibus, quæ póssidet, non
+              potest meus esse discípulus.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, disse Jesus às turbas: «Se alguém vem a mim e não
+              despreza seu pai, sua mãe, sua mulher e filhos, seus irmãos e
+              irmãs e até mesmo a sua própria vida, não pode ser meu discípulo.
+              E todo aquele que não leva a sua cruz não pode ser meu discípulo.
+              Com efeito, qual é de vós que, querendo edificar uma torre, não
+              calcula primeiramente com cuidado os gastos necessários, para ver
+              se possui meios para a acabar? Pois poderá acontecer que, depois
+              de haver lançado os alicerces e não podendo acabar a torre,
+              comecem a zombar dele aqueles que o vêem, dizendo: «Este homem
+              começou a edificar e não pôde acabar!». Ou qual é o rei que,
+              preparando-se para pelejar com outro rei, não considera
+              primeiramente se com um exército de dez mil homens poderá fazer
+              frente ao inimigo, que avança contra ele com vinte mil homens? Se
+              vê que não pode combater, estando ainda o outro longe, manda-lhe
+              uma embaixada a pedir-lhe a paz. Assim, pois, todo aquele de vós
+              que não renunciar a tudo quanto possui não pode ser meu
+              discípulo».
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 88, 25</em>
+          <Text className="em">Sl. 88, 25</Text>
 
-      <div className="side-by-side">
-        <p>
-          Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
-          cornu ejus.
-        </p>
-        <p>
-          A minha fidelidade e a minha misericórdia estarão com ele: e o seu
-          poder elevar-se-á pelo meu nome.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Véritas mea et misericórdia mea cum ipso: et in nómine meo
+              exaltábitur cornu ejus.
+            </Text>
+            <Text className="text-base">
+              A minha fidelidade e a minha misericórdia estarão com ele: e o seu
+              poder elevar-se-á pelo meu nome.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Hóstias tibi, Dómine, beáti <span className="text-red-500">N.</span>{" "}
-          Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad
-          perpétuum nobis tríbue proveníre subsídium. Per Dóminum...
-        </p>
-        <p>
-          Recebei benigno, Senhor, as hóstias que Vos oferecemos pelos
-          merecimentos do B. <span className="text-red-500">N.</span>, vosso
-          Mártir e Pontífice, e fazei que elas nos alcancem o vosso perpétuo
-          socorro. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Hóstias tibi, Dómine, beáti{" "}
+              <Text className="text-red-500">N.</Text> Mártyris tui atque
+              Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis
+              tríbue proveníre subsídium. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Recebei benigno, Senhor, as hóstias que Vos oferecemos pelos
+              merecimentos do B. <Text className="text-red-500">N.</Text>, vosso
+              Mártir e Pontífice, e fazei que elas nos alcancem o vosso perpétuo
+              socorro. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Sl. 88, 36 & 37-38</em>
+          <Text className="em">Sl. 88, 36 & 37-38</Text>
 
-      <div className="side-by-side">
-        <p>
-          Semel jurávi in sancto meo: Semen ejus in ætérnum manébit: et sedes
-          ejus sicut sol in conspéctu meo, et sicut luna perfécta in ætérnum, et
-          testis in cœlo fidélis.
-        </p>
-        <p>
-          Jurei uma vez por minha santidade: sua descendência durará eternamente
-          e o seu trono brilhará perante mim, como o sol, e como a lua
-          permanecerá para sempre e será testemunho fiel no céu.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Semel jurávi in sancto meo: Semen ejus in ætérnum manébit: et
+              sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in
+              ætérnum, et testis in cœlo fidélis.
+            </Text>
+            <Text className="text-base">
+              Jurei uma vez por minha santidade: sua descendência durará
+              eternamente e o seu trono brilhará perante mim, como o sol, e como
+              a lua permanecerá para sempre e será testemunho fiel no céu.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster:
-          ut, cujus exséquimur cultum, intercedénte beáto{" "}
-          <span className="text-red-500">N.</span> Mártyre tuo atque Pontífice,
-          sentiámus efféctum. Per Dóminum...
-        </p>
-        <p>
-          Fortalecidos com a participação do dom sacratíssimo, Vos pedimos,
-          Senhor, nosso Deus, que, por intercessão do B.{" "}
-          <span className="text-red-500">N.</span>, vosso Mártir e Pontífice,
-          sintamos o efeito do mystério que hoje celebrámos. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
+              noster: ut, cujus exséquimur cultum, intercedénte beáto{" "}
+              <Text className="text-red-500">N.</Text> Mártyre tuo atque
+              Pontífice, sentiámus efféctum. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Fortalecidos com a participação do dom sacratíssimo, Vos pedimos,
+              Senhor, nosso Deus, que, por intercessão do B.{" "}
+              <Text className="text-red-500">N.</Text>, vosso Mártir e
+              Pontífice, sintamos o efeito do mystério que hoje celebrámos. Por
+              nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

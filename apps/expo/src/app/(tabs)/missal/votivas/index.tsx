@@ -1,15 +1,19 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import DirectoryList from "~/components/DirectoryList";
 
 export default function PageIndex() {
   return (
-    <div className="docs">
-      <h1>Votivas</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Votivas</Text>
 
-      <DirectoryList slug="missal/votivas" />
-    </div>
+          <DirectoryList slug="missal/votivas" />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

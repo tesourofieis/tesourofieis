@@ -1,166 +1,182 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page048() {
   return (
-    <div className="docs">
-      <h1>Salmo 48</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Salmo 48</Text>
 
-      <div className="side-by-side">
-        <p>
-          Audíte hæc, omnes gentes: * áuribus percípite omnes, qui habitátis
-          orbem:
-        </p>
-        <p>
-          Ó todas as gentes ouvi isto: * estai atentas, vós todas que povoais a
-          terra:
-        </p>
-        <p>
-          Quique terrígenæ, et fílii hóminum: * simul in unum spanes et pauper.
-        </p>
-        <p>
-          Todas as que nasceram na terra e vós filhos dos homens: * o rico e o
-          pobre juntamente.
-        </p>
-        <p>
-          Os meum loquétur sapiéntiam: * et meditátio cordis mei prudéntiam.
-        </p>
-        <p>
-          Sabedoria a minha boca proclamará: * e prudência da meditação do meu
-          coração.
-        </p>
-        <p>
-          Inclinábo in parábolam aurem meam: * apériam in psaltério
-          propositiónem meam.
-        </p>
-        <p>
-          Meu ouvido inclinarei à parábola: * revelarei ao som do saltério a
-          minha preposição.
-        </p>
-        <p>Cur timébo in die mala? * Iníquitas calcánei mei circúmdabit me:</p>
-        <p>
-          Que temerei no mau dia? * Rodear-me-á a iniquidade dos meus passos:
-        </p>
-        <p>
-          Qui confídunt in virtúte sua: * et in multitúdine spanitiárum suárum
-          gloriántur.
-        </p>
-        <p>
-          Eles confiam nas suas forças: * e glorificam-se na multidão das suas
-          riquezas.
-        </p>
-        <p>
-          Frater non rédimit, rédimet homo: * non dabit Deo placatiónem suam.
-        </p>
-        <p>
-          O irmão não resgata, como resgatará o homem: * não dará a Deus a sua
-          expiação.
-        </p>
-        <p>
-          Et prétium redemptiónis ánimæ suæ: * et laborábit in ætérnum, et vivet
-          adhuc in finem.
-        </p>
-        <p>
-          Nem o preço da redenção de sua alma: * estará eternamente em labores e
-          viverá, não obstante, até ao fim.
-        </p>
-        <p>
-          Non vidébit intéritum, cum víderit sapiéntes moriéntes: * simul
-          insípiens, et stultus períbunt.
-        </p>
-        <p>
-          Ruína não verá, quando os sábios vir morrer: * o parvo e o tolo
-          perecerão igualmente.
-        </p>
-        <p>
-          Et relínquent aliénis spanítias suas: * et sepúlcra eórum domus
-          illórum in ætérnum.
-        </p>
-        <p>
-          Deixarão aos estranhos as suas riquezas: * e os seus sepulcros serão
-          para sempre as suas habitações.
-        </p>
-        <p>
-          Tabernácula eórum in progénie et progénie: * vocavérunt nómina sua in
-          terris suis.
-        </p>
-        <p>
-          Sua morada de geração em geração: * eles que deram os seus nomes às
-          suas terras.
-        </p>
-        <p>
-          Et homo, cum in honóre esset, non intelléxit: * comparátus est
-          juméntis insipiéntibus, et símilis factus est illis.
-        </p>
-        <p>
-          O homem, em honra constituído, não entendeu: * foi comparado a bestas
-          irracionais e como eles se tornou.
-        </p>
-        <p>
-          Hæc via illórum scándalum ipsis: * et póstea in ore suo complacébunt.
-        </p>
-        <p>
-          Este seu proceder é causa da sua ruína: * e, apesar disto, deleitam-se
-          nos seus discursos.
-        </p>
-        <p>Sicut oves in inférno pósiti sunt: * mors depáscet eos.</p>
-        <p>São postos no inferno como ovelhas: * e serão pasto da morte.</p>
-        <p>
-          Et dominabúntur eórum justi in matutíno: * et auxílium eórum
-          veteráscet in inférno a glória eórum.
-        </p>
-        <p>
-          Os justos terão domínio sobre eles na manhã: * e da sua glória, o
-          auxílio que tiveram será destruído no inferno.
-        </p>
-        <p>
-          Verúmtamen Deus rédimet ánimam meam de manu ínferi: * cum accéperit
-          me.
-        </p>
-        <p>
-          Deus, porém, resgatará a minha alma do poder do inferno: * quando me
-          receber.
-        </p>
-        <p>
-          Ne timúeris, cum spanes factus fúerit homo: * et cum multiplicáta
-          fúerit glória domus ejus.
-        </p>
-        <p>
-          Não temas quando um homem se enriquecer: * e quando crescer a glória
-          da sua casa.
-        </p>
-        <p>
-          Quóniam cum interíerit, non sumet ómnia: * neque descéndet cum eo
-          glória ejus.
-        </p>
-        <p>
-          Porque, morrendo, nada levará consigo: * nem com ele descerá a sua
-          glória.
-        </p>
-        <p>
-          Quia ánima ejus in vita ipsíus benedicétur: * confitébitur tibi cum
-          beneféceris ei.
-        </p>
-        <p>
-          Pois, enquanto vive, será louvada a sua alma: * ele bendizer-Vos-á
-          quando bem lhe fizerdes.
-        </p>
-        <p>
-          Introíbit usque in progénies patrum suórum: * et usque in ætérnum non
-          vidébit lumen.
-        </p>
-        <p>Entrará na geração de seus pais: * e não verá jamais a luz.</p>
-        <p>
-          Homo, cum in honóre esset, non intelléxit: * comparátus est juméntis
-          insipiéntibus, et símilis factus est illis.
-        </p>
-        <p>
-          O homem, constituído em honra, não entendeu: * foi comparado a bestas
-          irracionais e tornou-se semelhante a elas.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Audíte hæc, omnes gentes: * áuribus percípite omnes, qui habitátis
+              orbem:
+            </Text>
+            <Text className="text-base">
+              Ó todas as gentes ouvi isto: * estai atentas, vós todas que
+              povoais a terra:
+            </Text>
+            <Text className="text-base">
+              Quique terrígenæ, et fílii hóminum: * simul in unum spanes et
+              pauper.
+            </Text>
+            <Text className="text-base">
+              Todas as que nasceram na terra e vós filhos dos homens: * o rico e
+              o pobre juntamente.
+            </Text>
+            <Text className="text-base">
+              Os meum loquétur sapiéntiam: * et meditátio cordis mei prudéntiam.
+            </Text>
+            <Text className="text-base">
+              Sabedoria a minha boca proclamará: * e prudência da meditação do
+              meu coração.
+            </Text>
+            <Text className="text-base">
+              Inclinábo in parábolam aurem meam: * apériam in psaltério
+              propositiónem meam.
+            </Text>
+            <Text className="text-base">
+              Meu ouvido inclinarei à parábola: * revelarei ao som do saltério a
+              minha preposição.
+            </Text>
+            <Text className="text-base">
+              Cur timébo in die mala? * Iníquitas calcánei mei circúmdabit me:
+            </Text>
+            <Text className="text-base">
+              Que temerei no mau dia? * Rodear-me-á a iniquidade dos meus
+              passos:
+            </Text>
+            <Text className="text-base">
+              Qui confídunt in virtúte sua: * et in multitúdine spanitiárum
+              suárum gloriántur.
+            </Text>
+            <Text className="text-base">
+              Eles confiam nas suas forças: * e glorificam-se na multidão das
+              suas riquezas.
+            </Text>
+            <Text className="text-base">
+              Frater non rédimit, rédimet homo: * non dabit Deo placatiónem
+              suam.
+            </Text>
+            <Text className="text-base">
+              O irmão não resgata, como resgatará o homem: * não dará a Deus a
+              sua expiação.
+            </Text>
+            <Text className="text-base">
+              Et prétium redemptiónis ánimæ suæ: * et laborábit in ætérnum, et
+              vivet adhuc in finem.
+            </Text>
+            <Text className="text-base">
+              Nem o preço da redenção de sua alma: * estará eternamente em
+              labores e viverá, não obstante, até ao fim.
+            </Text>
+            <Text className="text-base">
+              Non vidébit intéritum, cum víderit sapiéntes moriéntes: * simul
+              insípiens, et stultus períbunt.
+            </Text>
+            <Text className="text-base">
+              Ruína não verá, quando os sábios vir morrer: * o parvo e o tolo
+              perecerão igualmente.
+            </Text>
+            <Text className="text-base">
+              Et relínquent aliénis spanítias suas: * et sepúlcra eórum domus
+              illórum in ætérnum.
+            </Text>
+            <Text className="text-base">
+              Deixarão aos estranhos as suas riquezas: * e os seus sepulcros
+              serão para sempre as suas habitações.
+            </Text>
+            <Text className="text-base">
+              Tabernácula eórum in progénie et progénie: * vocavérunt nómina sua
+              in terris suis.
+            </Text>
+            <Text className="text-base">
+              Sua morada de geração em geração: * eles que deram os seus nomes
+              às suas terras.
+            </Text>
+            <Text className="text-base">
+              Et homo, cum in honóre esset, non intelléxit: * comparátus est
+              juméntis insipiéntibus, et símilis factus est illis.
+            </Text>
+            <Text className="text-base">
+              O homem, em honra constituído, não entendeu: * foi comparado a
+              bestas irracionais e como eles se tornou.
+            </Text>
+            <Text className="text-base">
+              Hæc via illórum scándalum ipsis: * et póstea in ore suo
+              complacébunt.
+            </Text>
+            <Text className="text-base">
+              Este seu proceder é causa da sua ruína: * e, apesar disto,
+              deleitam-se nos seus discursos.
+            </Text>
+            <Text className="text-base">
+              Sicut oves in inférno pósiti sunt: * mors depáscet eos.
+            </Text>
+            <Text className="text-base">
+              São postos no inferno como ovelhas: * e serão pasto da morte.
+            </Text>
+            <Text className="text-base">
+              Et dominabúntur eórum justi in matutíno: * et auxílium eórum
+              veteráscet in inférno a glória eórum.
+            </Text>
+            <Text className="text-base">
+              Os justos terão domínio sobre eles na manhã: * e da sua glória, o
+              auxílio que tiveram será destruído no inferno.
+            </Text>
+            <Text className="text-base">
+              Verúmtamen Deus rédimet ánimam meam de manu ínferi: * cum
+              accéperit me.
+            </Text>
+            <Text className="text-base">
+              Deus, porém, resgatará a minha alma do poder do inferno: * quando
+              me receber.
+            </Text>
+            <Text className="text-base">
+              Ne timúeris, cum spanes factus fúerit homo: * et cum multiplicáta
+              fúerit glória domus ejus.
+            </Text>
+            <Text className="text-base">
+              Não temas quando um homem se enriquecer: * e quando crescer a
+              glória da sua casa.
+            </Text>
+            <Text className="text-base">
+              Quóniam cum interíerit, non sumet ómnia: * neque descéndet cum eo
+              glória ejus.
+            </Text>
+            <Text className="text-base">
+              Porque, morrendo, nada levará consigo: * nem com ele descerá a sua
+              glória.
+            </Text>
+            <Text className="text-base">
+              Quia ánima ejus in vita ipsíus benedicétur: * confitébitur tibi
+              cum beneféceris ei.
+            </Text>
+            <Text className="text-base">
+              Pois, enquanto vive, será louvada a sua alma: * ele bendizer-Vos-á
+              quando bem lhe fizerdes.
+            </Text>
+            <Text className="text-base">
+              Introíbit usque in progénies patrum suórum: * et usque in ætérnum
+              non vidébit lumen.
+            </Text>
+            <Text className="text-base">
+              Entrará na geração de seus pais: * e não verá jamais a luz.
+            </Text>
+            <Text className="text-base">
+              Homo, cum in honóre esset, non intelléxit: * comparátus est
+              juméntis insipiéntibus, et símilis factus est illis.
+            </Text>
+            <Text className="text-base">
+              O homem, constituído em honra, não entendeu: * foi comparado a
+              bestas irracionais e tornou-se semelhante a elas.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

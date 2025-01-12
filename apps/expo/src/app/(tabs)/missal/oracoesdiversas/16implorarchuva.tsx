@@ -1,56 +1,60 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page16Implorarchuva() {
   return (
-    <div className="docs">
-      <h1>16.ª Para implorar a chuva</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">16.ª Para implorar a chuva</Text>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, in quo vívimus, movémur et sumus: plúviam nobis tríbue
-          congruéntem; ut, præséntibus subsídiis sufficiénter adjuti, sempitérna
-          fiduciálius appetámus. Per Dóminum nostrum...
-        </p>
-        <p>
-          Ó Deus, em quem nos movemos, vivemos e existimos, concedei-nos a chuva
-          necessária, para que, auxiliados suficientemente com os subsídios
-          temporais, aspiremos com mais confiança às coisas eternas. Por nosso
-          Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, in quo vívimus, movémur et sumus: plúviam nobis tríbue
+              congruéntem; ut, præséntibus subsídiis sufficiénter adjuti,
+              sempitérna fiduciálius appetámus. Per Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, em quem nos movemos, vivemos e existimos, concedei-nos a
+              chuva necessária, para que, auxiliados suficientemente com os
+              subsídios temporais, aspiremos com mais confiança às coisas
+              eternas. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Oblátis, quǽsumus, Dómine, placáre munéribus: et opportúnum nobis
-          tríbue plúviæ sufficiéntis auxílium. Per Dóminum...
-        </p>
-        <p>
-          Senhor, Vos imploramos, deixai-Vos aplacar com estas ofertas e
-          concedei-nos o auxílio da chuva, segundo as necessidades presentes.
-          Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Oblátis, quǽsumus, Dómine, placáre munéribus: et opportúnum nobis
+              tríbue plúviæ sufficiéntis auxílium. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Senhor, Vos imploramos, deixai-Vos aplacar com estas ofertas e
+              concedei-nos o auxílio da chuva, segundo as necessidades
+              presentes. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Da nobis, quǽsumus, Dómine, plúviam salutárem: et áridam terræ fáciem
-          fluéntis cœléstibus dignánter infúnde. Per Dóminum...
-        </p>
-        <p>
-          Dai-nos, Senhor, Vos pedimos, a chuva salutar; e espalhai
-          misericordiosamente as águas do céu pela superfície seca da terra. Por
-          nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Da nobis, quǽsumus, Dómine, plúviam salutárem: et áridam terræ
+              fáciem fluéntis cœléstibus dignánter infúnde. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Dai-nos, Senhor, Vos pedimos, a chuva salutar; e espalhai
+              misericordiosamente as águas do céu pela superfície seca da terra.
+              Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

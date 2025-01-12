@@ -1,34 +1,41 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0908() {
   return (
-    <div className="docs">
-      <h1>Natividade da B. Virgem Maria, a 8 de Setembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Natividade da B. Virgem Maria, a 8 de Setembro
+          </Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/santos/07-02">
-          Missa da Visitação da B. Virgem Maria
-        </Link>{" "}
-        , excepto: Na Oração e Secreta substituir a palavra Visitação por
-        Natividade.
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/santos/07-02">
+              Missa da Visitação da B. Virgem Maria
+            </Link>{" "}
+            , excepto: Na Oração e Secreta substituir a palavra Visitação por
+            Natividade.
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <LinkCard
-        href="/missal/santos/12-08#epístola"
-        title="Imaculada Conceição da B. Virgem Maria"
-      />
+          <LinkCard
+            href="/missal/santos/12-08#epístola"
+            title="Imaculada Conceição da B. Virgem Maria"
+          />
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <LinkCard href="/missal/santos/08-16#evangelho" title="S. Joaquim" />
-    </div>
+          <LinkCard href="/missal/santos/08-16#evangelho" title="S. Joaquim" />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

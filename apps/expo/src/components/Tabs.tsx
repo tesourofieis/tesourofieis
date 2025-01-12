@@ -1,12 +1,13 @@
 import React, { type ReactElement, useState } from "react";
+import { View } from "react-native";
 
 export function Tabs({ children }) {
   const [activeTab, setActiveTab] = useState(0);
   const tabs = React.Children.toArray(children);
 
   return (
-    <div className="mt-4 pb-2">
-      <div className="flex border-b border-sepia-200">
+    <View className="mt-4 pb-2">
+      <View className="flex border-b border-sepia-200">
         {tabs.map((tab: ReactElement, index: number) => (
           <button
             type="button"
@@ -21,9 +22,9 @@ export function Tabs({ children }) {
             {tab.props.label}
           </button>
         ))}
-      </div>
+      </View>
       {tabs[activeTab]}
-    </div>
+    </View>
   );
 }
 

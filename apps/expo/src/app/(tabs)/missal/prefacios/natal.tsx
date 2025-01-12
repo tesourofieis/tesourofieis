@@ -1,41 +1,47 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PageNatal() {
   return (
-    <div className="docs">
-      <h1>Prefácio do Natal</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Prefácio do Natal</Text>
 
-      <aside>
-        Diz-se desde o Natal até à Epifania, exclusivamente; na Festa do Corpo
-        de Deus e no seu Oitavário; na festa do Santíssimo Nome de Jesus; na
-        Festa da Transfiguração de Nosso Senhor; na Festa da Purificação de
-        Nossa Senhora; e nas Missas Votivas do Santíssimo Sacramento.
-      </aside>
+          <View className="aside">
+            Diz-se desde o Natal até à Epifania, exclusivamente; na Festa do
+            Corpo de Deus e no seu Oitavário; na festa do Santíssimo Nome de
+            Jesus; na Festa da Transfiguração de Nosso Senhor; na Festa da
+            Purificação de Nossa Senhora; e nas Missas Votivas do Santíssimo
+            Sacramento.
+          </View>
 
-      <div className="side-by-side">
-        <p>
-          Vere dignum et justum est, æquum et salutáre, nos tibi semper et
-          ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
-          Quia per incarnáti Verbi mystérium nova mentis nostræ óculis lux tuæ
-          claritátis infúlsit: ut, dum visibíliter Deum cognóscimus, per hunc in
-          invisibílium amorem rapiámur. Et ideo cum Angelis et Archángelis, cum
-          Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus
-          hymnum glóriæ tuæ cánimus, sine fine dicéntes.
-        </p>
-        <p>
-          Verdadeiramente é digno e justo, racional e salutar dar-Vos graças,
-          Senhor santo, Pai omnipotente, eterno Deus, em todos os lugares e
-          sempre, porque pelo mystério do Verbo Incarnado um novo clarão do
-          vosso esplendor iluminou a nossa alma, a fim de que, ao passo que
-          conhecemos Deus de uma maneira visível, sejamos inspirados por Ele no
-          amor às coisas invisíveis. E, por isso, com os Anjos e Arcanjos, com
-          os Tronos e Dominações e com toda a milícia do exército celestial,
-          cantamos o hino da vossa glória, dizendo incessantemente:
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Vere dignum et justum est, æquum et salutáre, nos tibi semper et
+              ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
+              Deus: Quia per incarnáti Verbi mystérium nova mentis nostræ óculis
+              lux tuæ claritátis infúlsit: ut, dum visibíliter Deum cognóscimus,
+              per hunc in invisibílium amorem rapiámur. Et ideo cum Angelis et
+              Archángelis, cum Thronis et Dominatiónibus cumque omni milítia
+              cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes.
+            </Text>
+            <Text className="text-base">
+              Verdadeiramente é digno e justo, racional e salutar dar-Vos
+              graças, Senhor santo, Pai omnipotente, eterno Deus, em todos os
+              lugares e sempre, porque pelo mystério do Verbo Incarnado um novo
+              clarão do vosso esplendor iluminou a nossa alma, a fim de que, ao
+              passo que conhecemos Deus de uma maneira visível, sejamos
+              inspirados por Ele no amor às coisas invisíveis. E, por isso, com
+              os Anjos e Arcanjos, com os Tronos e Dominações e com toda a
+              milícia do exército celestial, cantamos o hino da vossa glória,
+              dizendo incessantemente:
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

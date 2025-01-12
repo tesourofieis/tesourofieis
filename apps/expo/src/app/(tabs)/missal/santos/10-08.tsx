@@ -1,46 +1,51 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1008() {
   return (
-    <div className="docs">
-      <h1>Santa Brígida, Viúva, a 8 de Outubro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Santa Brígida, Viúva, a 8 de Outubro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
-          Missa Cognóvi, Dómine
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
+              Missa Cognóvi, Dómine
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dómine, Deus noster, qui beátæ Birgíttæ per Fílium tuum unigénitum
-          secreta cœléstia revelásti: ipsíus pia intercessióne da nobis, fámulis
-          tuis; in revelatióne sempitérna glóriæ tuæ gaudére lætántes. Per
-          eúndem Dóminum nostrum...
-        </p>
-        <p>
-          Senhor, nosso Deus, que pelo vosso Unigénito Filho revelastes os
-          segredos celestiais à B. Brígida, concedei-nos, já que somos vossos
-          servos, que nos alegremos na felicidade da contemplação da vossa
-          eterna glória. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dómine, Deus noster, qui beátæ Birgíttæ per Fílium tuum unigénitum
+              secreta cœléstia revelásti: ipsíus pia intercessióne da nobis,
+              fámulis tuis; in revelatióne sempitérna glóriæ tuæ gaudére
+              lætántes. Per eúndem Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Senhor, nosso Deus, que pelo vosso Unigénito Filho revelastes os
+              segredos celestiais à B. Brígida, concedei-nos, já que somos
+              vossos servos, que nos alegremos na felicidade da contemplação da
+              vossa eterna glória. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <LinkCard
-        href="/missal/santos/05-04#epístola"
-        title="Santa Mónica, Viúva"
-      />
-    </div>
+          <LinkCard
+            href="/missal/santos/05-04#epístola"
+            title="Santa Mónica, Viúva"
+          />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

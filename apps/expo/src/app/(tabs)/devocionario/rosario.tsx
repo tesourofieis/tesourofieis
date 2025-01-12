@@ -1,6 +1,5 @@
-"use dom";
-
-import "../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LadainhaLoreto from "./ladainhas/loreto";
@@ -12,185 +11,213 @@ import PageSinalCruz from "./oracoes/sinalcruz";
 
 export default function PageRosario() {
   return (
-    <div className="docs">
-      <h1 className="h1 text-4xl">Rosário</h1>
-      <h1>Sinal da Cruz</h1>
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> In nómine Patris, et
-          Fílii, et Spíritus Sancti.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Em nome do Pai e do
-          Filho e do Espírito Santo.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Amen.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Amen.
-        </p>
-      </div>
-      <h1>No Crucifixo</h1>
-      <PageSimboloapostolos />
-      <h2>Oferecimento do Santo Rosário</h2>
-      Santíssima Virgem, Mãe de Deus, eu Vos ofereço este rosário em desagravo
-      do Santíssimo Coração de Nosso Senhor Jesus Cristo, Vosso Filho, e em
-      desagravo do Vosso Coração Imaculado; e pelas intenções que Vos apresento:
-      Referir as intenções.
-      <h2>Intenções do Santo Padre</h2>
-      <div className="side-by-side">
-        <ul className="list-styled row">
-          <li className="text-justify">Exaltatio S. Matris Ecclesiæ.</li>
-          <li className="text-justify">Propagatio fidei.</li>
-          <li className="text-justify">Extirpatio hæresum.</li>
-          <li className="text-justify">Conversio peccatorum.</li>
-          <li className="text-justify">Pax inter principes christianos.</li>
-        </ul>
-        <ul className="list-styled row">
-          <li className="text-justify">Exaltação da Santa Igreja.</li>
-          <li className="text-justify">Propagação da fé.</li>
-          <li className="text-justify">Extirpação das heresias.</li>
-          <li className="text-justify">Conversão dos pecadores.</li>
-          <li className="text-justify">
-            Paz entre os Reis e Príncipes católicos.
-          </li>
-        </ul>
-      </div>
-      <h1>Nas contas maiores</h1>
-      <PaiNosso />
-      <h1>Nas contas menores</h1>
-      <AveMaria />
-      <h1>No fim das dezenas</h1>
-      <Gloria />
-      <h2>Nossa Senhora a Santa Catarina Labouré</h2>
-      <div className="side-by-side">
-        <p>℣. O Maria sine labe concepta.</p>
-        <p>℣. Ó Maria concebida sem pecado.</p>
-        <p>
-          <span className="text-red-500">℟.</span> Ora pro nobis, qui confugimus
-          ad te.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Rogai por nós que recorremos
-          a vós.
-        </p>
-      </div>
-      <h2>Nossa Senhora aos Santos Pastorinhos</h2>
-      <div className="side-by-side">
-        <p>
-          ℣. Oh mi Jesu, dimitte nobis débita nostra, líbera nos ab igne
-          inférni,
-        </p>
-        <p>℣. Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno,</p>
-        <p>
-          <span className="text-red-500">℟.</span> Conduc in cælum omnes animas,
-          præsértim illas quæ máxime indigent misericórdia tua.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Levai as alminhas todas para
-          o Céu e socorrei principalmente as que mais precisarem.
-        </p>
-      </div>
-      <h1>Meditações do Rosário</h1>
-      <h2>Mistérios Gozosos</h2>
-      <aside>Segunda-feira e Quinta-feira</aside>
-      <strong>Primeiro mistério:</strong> Meditemos na Anunciação do Arcanjo São
-      Gabriel à Santíssima Virgem, e roguemos a virtude da humildade.
-      <strong>Segundo mistério:</strong> Meditemos na Visitação da Santíssima
-      Virgem a Sua Prima, Santa Isabel, e roguemos a caridade para com o
-      próximo.
-      <strong>Terceiro mistério:</strong> Meditemos no Nascimento do Menino
-      Jesus, e roguemos o desprendimento dos bens do mundo.
-      <strong>Quarto mistério:</strong> Meditemos na Apresentação do Menino
-      Jesus no Templo e na Purificação de Nossa Senhora, e roguemos a obediência
-      e a pureza do espírito e do coração.
-      <strong>Quinto mistério:</strong> Meditemos na Perda e no Encontro do
-      Menino Jesus no Templo, e roguemos o conhecimento das coisas divinas e a
-      prontidão no serviço de Deus.
-      <h2>Mistérios Dolorosos</h2>
-      <aside>Terça-feira e Sexta-feira</aside>
-      <strong>Primeiro mistério:</strong> Meditemos na Agonia de N. S. Jesus
-      Cristo, e roguemos a contrição dos nossos pecados.
-      <strong>Segundo mistério:</strong> Meditemos na flagelação de N. S. Jesus
-      Cristo, e roguemos a mortificação dos sentidos.
-      <strong>Terceiro mistério:</strong> Meditemos na Coroação de Espinhos de
-      N. S. Jesus Cristo, e roguemos a mortificação do espírito e do coração.
-      <strong>Quarto mistério:</strong> Meditemos em N. S. Jesus Cristo levando
-      a Cruz para o Calvário, e roguemos a paciência e a resignação.
-      <strong>Quinto mistério:</strong> Meditemos na Crucifixão e Morte de N. S.
-      Jesus Cristo, e roguemos o amor a Deus e a salvação das almas.
-      <h2>Mistérios Gloriosos</h2>
-      <aside>Quarta-feira, Sábado e Domingo</aside>
-      <strong>Primeiro mistério:</strong> Meditemos na Ressurreição de N. S.
-      Jesus Cristo, e roguemos para recebermos o dom da fé e para a conversão
-      dos pecadores.
-      <strong>Segundo mistério:</strong> Meditemos na Ascensão de N. S. Jesus
-      Cristo, e roguemos a esperança e o desejo do céu.
-      <strong>Terceiro mistério:</strong>Meditemos na descida do Divino Espírito
-      Santo, e roguemos o amor a Deus e o zelo da salvação das almas.
-      <strong>Quarto mistério:</strong> Meditemos na Assunção da Santíssima
-      Virgem, e roguemos a graça de uma boa morte e a devoção a Nossa Senhora.
-      <strong>Quinto mistério:</strong> Meditemos na Coroação da Santíssima
-      Virgem, e roguemos a perseverança final e a confiança em Nossa Senhora.
-      <h1>Orações no fim do Rosário</h1>
-      <h2>Salve Rainha</h2>
-      <div className="side-by-side">
-        <p>
-          Salve, Regina, Mater misericórdiæ, vita, dulcédo et spes nostra,
-          salve. Ad te clamámus, éxsules fílii Hevæ. Ad te suspirámus geméntes
-          et flentes in hac lacrimárum valle. Éia ergo, advocáta nostra, illos
-          tuos misericórdes óculos ad nos convérte. Et Jesum benedíctum fructum
-          ventris tui, nobis, post hoc exsílium, osténde. O clemens, o pia, o
-          dulcis Virgo Maria!
-        </p>
-        <p>
-          Salvé, Rainha, mãe de misericórdia, vida, doçura, esperança nossa,
-          salve! A Vós bradamos, os degredados filhos de Eva. A Vós suspiramos,
-          gemendo e chorando neste vale de lágrimas. Eia, pois, advogada nossa,
-          esses Vossos olhos misericordiosos a nós volvei. E, depois deste
-          desterro, nos mostrai Jesus, bendito fruto do Vosso ventre. Ó
-          clemente, ó piedosa, ó doce Virgem Maria.
-        </p>
-        <p>℣. Ora pro nobis, Regina Sacratíssimi Rosárii.</p>
-        <p>℣. Rogai por nós, Rainha do Santíssimo Rosário.</p>
-        <p>
-          <span className="text-red-500">℟.</span> Ut digni efficiámur
-          promissiónibus Christi.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Para que sejamos dignos das
-          promessas de Cristo.
-        </p>
-        <p>
-          <span className="text-red-500 text-center">Orémus.</span>
-        </p>
-        <p>
-          <span className="text-red-500 text-center">Oremos.</span>
-        </p>
-        <p>
-          Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam nobis
-          salútis ætérnæ prǽmia comparávit, concede, quǽsumus: ut hæc mystéria
-          sacratissimo beátæ Maríæ Vírginis Rosário recoléntes, et imitémur quod
-          continent, et quod promittunt assequámur. Per eundem Christum Dóminum
-          nostrum.
-        </p>
-        <p>
-          Ó Deus, cujo Filho Unigénito por sua vida, morte e ressurreição nos
-          alcançou os prémios da vida eterna, concedei-nos, Vos suplicamos, que,
-          venerando nós estes mistérios do Santíssimo Rosário da Virgem Maria,
-          imitemos o que eles contêm, e alcancemos o que eles prometem. Pelo
-          mesmo Cristo, nosso Senhor.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Amen.
-        </p>
-        <p>
-          <span className="text-red-500">℟.</span> Amen.
-        </p>
-      </div>
-      <LadainhaLoreto />
-      <PageSinalCruz />
-    </div>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Rosário</Text>
+          <Text className="h1">Sinal da Cruz</Text>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> In nómine Patris, et
+              Fílii, et Spíritus Sancti.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Em nome do Pai e do
+              Filho e do Espírito Santo.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Amen.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Amen.
+            </Text>
+          </View>
+          <Text className="h1">No Crucifixo</Text>
+          <PageSimboloapostolos />
+          <Text className="h2">Oferecimento do Santo Rosário</Text>
+          <Text className="text-base">
+            Santíssima Virgem, Mãe de Deus, eu Vos ofereço este rosário em
+            desagravo do Santíssimo Coração de Nosso Senhor Jesus Cristo, Vosso
+            Filho, e em desagravo do Vosso Coração Imaculado; e pelas intenções
+            que Vos apresento:
+          </Text>
+          <Text className="text-base">Referir as intenções.</Text>
+          <Text className="h2">Intenções do Santo Padre</Text>
+          <View className="side-by-side">
+            <View className="list-styled row">
+              <Text className="li text-justify">
+                Exaltatio S. Matris Ecclesiæ.
+              </Text>
+              <Text className="li text-justify">Propagatio fidei.</Text>
+              <Text className="li text-justify">Extirpatio hæresum.</Text>
+              <Text className="li text-justify">Conversio peccatorum.</Text>
+              <Text className="li text-justify">
+                Pax inter principes christianos.
+              </Text>
+            </View>
+            <View className="list-styled row">
+              <Text className="li text-justify">
+                Exaltação da Santa Igreja.
+              </Text>
+              <Text className="li text-justify">Propagação da fé.</Text>
+              <Text className="li text-justify">Extirpação das heresias.</Text>
+              <Text className="li text-justify">Conversão dos pecadores.</Text>
+              <Text className="li text-justify">
+                Paz entre os Reis e Príncipes católicos.
+              </Text>
+            </View>
+          </View>
+          <Text className="h1">Nas contas maiores</Text>
+          <PaiNosso />
+          <Text className="h1">Nas contas menores</Text>
+          <AveMaria />
+          <Text className="h1">No fim das dezenas</Text>
+          <Gloria />
+          <Text className="h2">Nossa Senhora a Santa Catarina Labouré</Text>
+          <View className="side-by-side">
+            <Text className="text-base">℣. O Maria sine labe concepta.</Text>
+            <Text className="text-base">℣. Ó Maria concebida sem pecado.</Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Ora pro nobis, qui
+              confugimus ad te.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Rogai por nós que
+              recorremos a vós.
+            </Text>
+          </View>
+          <Text className="h2">Nossa Senhora aos Santos Pastorinhos</Text>
+          <View className="side-by-side">
+            <Text className="text-base">
+              ℣. Oh mi Jesu, dimitte nobis débita nostra, líbera nos ab igne
+              inférni,
+            </Text>
+            <Text className="text-base">
+              ℣. Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno,
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Conduc in cælum omnes
+              animas, præsértim illas quæ máxime indigent misericórdia tua.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Levai as alminhas todas
+              para o Céu e socorrei principalmente as que mais precisarem.
+            </Text>
+          </View>
+          <Text className="h1">Meditações do Rosário</Text>
+          <Text className="h2">Mistérios Gozosos</Text>
+          <View className="aside">Segunda-feira e Quinta-feira</View>
+          <Text className="bold">Primeiro mistério:</Text> Meditemos na
+          Anunciação do Arcanjo São Gabriel à Santíssima Virgem, e roguemos a
+          virtude da humildade.
+          <Text className="bold">Segundo mistério:</Text> Meditemos na Visitação
+          da Santíssima Virgem a Sua Prima, Santa Isabel, e roguemos a caridade
+          para com o próximo.
+          <Text className="bold">Terceiro mistério:</Text> Meditemos no
+          Nascimento do Menino Jesus, e roguemos o desprendimento dos bens do
+          mundo.
+          <Text className="bold">Quarto mistério:</Text> Meditemos na
+          Apresentação do Menino Jesus no Templo e na Purificação de Nossa
+          Senhora, e roguemos a obediência e a pureza do espírito e do coração.
+          <Text className="bold">Quinto mistério:</Text> Meditemos na Perda e no
+          Encontro do Menino Jesus no Templo, e roguemos o conhecimento das
+          coisas divinas e a prontidão no serviço de Deus.
+          <Text className="h2">Mistérios Dolorosos</Text>
+          <View className="aside">Terça-feira e Sexta-feira</View>
+          <Text className="bold">Primeiro mistério:</Text> Meditemos na Agonia
+          de N. S. Jesus Cristo, e roguemos a contrição dos nossos pecados.
+          <Text className="bold">Segundo mistério:</Text> Meditemos na
+          flagelação de N. S. Jesus Cristo, e roguemos a mortificação dos
+          sentidos.
+          <Text className="bold">Terceiro mistério:</Text> Meditemos na Coroação
+          de Espinhos de N. S. Jesus Cristo, e roguemos a mortificação do
+          espírito e do coração.
+          <Text className="bold">Quarto mistério:</Text> Meditemos em N. S.
+          Jesus Cristo levando a Cruz para o Calvário, e roguemos a paciência e
+          a resignação.
+          <Text className="bold">Quinto mistério:</Text> Meditemos na Crucifixão
+          e Morte de N. S. Jesus Cristo, e roguemos o amor a Deus e a salvação
+          das almas.
+          <Text className="h2">Mistérios Gloriosos</Text>
+          <View className="aside">Quarta-feira, Sábado e Domingo</View>
+          <Text className="bold">Primeiro mistério:</Text> Meditemos na
+          Ressurreição de N. S. Jesus Cristo, e roguemos para recebermos o dom
+          da fé e para a conversão dos pecadores.
+          <Text className="bold">Segundo mistério:</Text> Meditemos na Ascensão
+          de N. S. Jesus Cristo, e roguemos a esperança e o desejo do céu.
+          <Text className="bold">Terceiro mistério:</Text>Meditemos na descida
+          do Divino Espírito Santo, e roguemos o amor a Deus e o zelo da
+          salvação das almas.
+          <Text className="bold">Quarto mistério:</Text> Meditemos na Assunção
+          da Santíssima Virgem, e roguemos a graça de uma boa morte e a devoção
+          a Nossa Senhora.
+          <Text className="bold">Quinto mistério:</Text> Meditemos na Coroação
+          da Santíssima Virgem, e roguemos a perseverança final e a confiança em
+          Nossa Senhora.
+          <Text className="h1">Orações no fim do Rosário</Text>
+          <Text className="h2">Salve Rainha</Text>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Salve, Regina, Mater misericórdiæ, vita, dulcédo et spes nostra,
+              salve. Ad te clamámus, éxsules fílii Hevæ. Ad te suspirámus
+              geméntes et flentes in hac lacrimárum valle. Éia ergo, advocáta
+              nostra, illos tuos misericórdes óculos ad nos convérte. Et Jesum
+              benedíctum fructum ventris tui, nobis, post hoc exsílium, osténde.
+              O clemens, o pia, o dulcis Virgo Maria!
+            </Text>
+            <Text className="text-base">
+              Salvé, Rainha, mãe de misericórdia, vida, doçura, esperança nossa,
+              salve! A Vós bradamos, os degredados filhos de Eva. A Vós
+              suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois,
+              advogada nossa, esses Vossos olhos misericordiosos a nós volvei.
+              E, depois deste desterro, nos mostrai Jesus, bendito fruto do
+              Vosso ventre. Ó clemente, ó piedosa, ó doce Virgem Maria.
+            </Text>
+            <Text className="text-base">
+              ℣. Ora pro nobis, Regina Sacratíssimi Rosárii.
+            </Text>
+            <Text className="text-base">
+              ℣. Rogai por nós, Rainha do Santíssimo Rosário.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Ut digni efficiámur
+              promissiónibus Christi.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Para que sejamos dignos
+              das promessas de Cristo.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Orémus.</Text>
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500 text-center">Oremos.</Text>
+            </Text>
+            <Text className="text-base">
+              Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam
+              nobis salútis ætérnæ prǽmia comparávit, concede, quǽsumus: ut hæc
+              mystéria sacratissimo beátæ Maríæ Vírginis Rosário recoléntes, et
+              imitémur quod continent, et quod promittunt assequámur. Per eundem
+              Christum Dóminum nostrum.
+            </Text>
+            <Text className="text-base">
+              Ó Deus, cujo Filho Unigénito por sua vida, morte e ressurreição
+              nos alcançou os prémios da vida eterna, concedei-nos, Vos
+              suplicamos, que, venerando nós estes mistérios do Santíssimo
+              Rosário da Virgem Maria, imitemos o que eles contêm, e alcancemos
+              o que eles prometem. Pelo mesmo Cristo, nosso Senhor.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Amen.
+            </Text>
+            <Text className="text-base">
+              <Text className="text-red-500">℟.</Text> Amen.
+            </Text>
+          </View>
+          <LadainhaLoreto />
+          <PageSinalCruz />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

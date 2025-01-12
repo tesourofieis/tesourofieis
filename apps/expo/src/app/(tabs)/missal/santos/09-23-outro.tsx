@@ -1,30 +1,36 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0923Outro() {
   return (
-    <div className="docs">
-      <h1>Santa Tecla, Virgem e Mártir, a 23 de Setembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Santa Tecla, Virgem e Mártir, a 23 de Setembro
+          </Text>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Da, quǽsumus, omnípotens Deus: ut, qui beátæ Theclæ Vírginis et
-          Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et
-          tantæ fídei proficiámus exémplo. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus omnipotente, celebrando nós o nascimento da B. Tecla, vossa
-          Virgem e Mártir, concedei-nos, Vos suplicamos, que nos alegremos com
-          sua festa anual e nos sejam proveitosos os exemplos da sua grande fé.
-          Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Da, quǽsumus, omnípotens Deus: ut, qui beátæ Theclæ Vírginis et
+              Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et
+              tantæ fídei proficiámus exémplo. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus omnipotente, celebrando nós o nascimento da B. Tecla, vossa
+              Virgem e Mártir, concedei-nos, Vos suplicamos, que nos alegremos
+              com sua festa anual e nos sejam proveitosos os exemplos da sua
+              grande fé. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Secreta e Postcomúnio</h3>
-    </div>
+          <Text className="h3">Secreta e Postcomúnio</Text>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

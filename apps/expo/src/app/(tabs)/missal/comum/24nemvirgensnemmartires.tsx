@@ -1,323 +1,349 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page24Nemvirgensnemmartires() {
   return (
-    <div className="docs">
-      <h1>Nem Virgens nem Mártires</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Nem Virgens nem Mártires</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Sl. 118, 75 & 120</em>
+          <Text className="em">Sl. 118, 75 & 120</Text>
 
-      <div className="side-by-side">
-        <p>
-          Cognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua
-          humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis tímui.
-          (T. P. Allelúja, allelúja.) <em>Ps. ibid., 1</em> Beáti immaculáti in
-          via: qui ámbulant in lege Dómini. ℣. Gloria Patri...
-        </p>
-        <p>
-          Conheço, Senhor, que os vossos juízos são equitativos e que me
-          humilhastes com justiça. Esmagai as minhas carnes com vosso temor; os
-          vossos Mandamentos inspiram-me temor. (T. P. Aleluia, aleluia.){" "}
-          <em>Sl. ibid., 1</em> Bem-aventurados aqueles que são imaculados nos
-          seus caminhos e cumprem a lei do Senhor. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Cognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua
+              humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis
+              tímui. (T. P. Allelúja, allelúja.){" "}
+              <Text className="em">Ps. ibid., 1</Text> Beáti immaculáti in via:
+              qui ámbulant in lege Dómini. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Conheço, Senhor, que os vossos juízos são equitativos e que me
+              humilhastes com justiça. Esmagai as minhas carnes com vosso temor;
+              os vossos Mandamentos inspiram-me temor. (T. P. Aleluia, aleluia.){" "}
+              <Text className="em">Sl. ibid., 1</Text> Bem-aventurados aqueles
+              que são imaculados nos seus caminhos e cumprem a lei do Senhor. ℣.
+              Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ{" "}
-          <span className="text-red-500">N.</span> festivitáte gaudémus; ita piæ
-          devotiónis erudiámur afféctu. Per Dóminum...
-        </p>
-        <p>
-          Ouvi-nos, ó Deus, nosso salvador, a fim de que, assim como nos
-          alegramos com a festa da vossa B.{" "}
-          <span className="text-red-500">N.</span>, assim também consigamos os
-          afectos de uma pia devoção. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ{" "}
+              <Text className="text-red-500">N.</Text> festivitáte gaudémus; ita
+              piæ devotiónis erudiámur afféctu. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ouvi-nos, ó Deus, nosso salvador, a fim de que, assim como nos
+              alegramos com a festa da vossa B.{" "}
+              <Text className="text-red-500">N.</Text>, assim também consigamos
+              os afectos de uma pia devoção. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Pr. 31, 10-31</em>
+          <Text className="em">Pr. 31, 10-31</Text>
 
-      <div className="side-by-side">
-        <p>Léctio libri Sapiéntiæ.</p>
-        <p>Lição do Livro da Sabedoria.</p>
-        <p>
-          Mulíerem fortem quis invéniet? Procul et de últimis fínibus prétium
-          ejus. Confídit in ea cor viri sui, et spóliis non indigébit. Reddet ei
-          bonum, et non malum, ómnibus diébus vitæ suæ. Quæsívit lanam et linum,
-          et operáta est consílio mánuum suárum. Facta est quasi navis
-          institóris, de longe portans panem suum. Et de nocte surréxit,
-          dedítque prædam domésticis suis, et cibária ancíllis suis.
-          Considerávit agrum, et emit eum: de fructu mánuum suárum plantávit
-          víneam. Accínxit fortitúdine lumbos suos, et roborávit bráchium suum.
-          Gustávit, et vidit, quia bona est negotiátio ejus: non exstinguétur in
-          nocte lucérna ejus. Manum suam misit ad fórtia, et dígiti ejus
-          apprehénderent fusum. Manum suam apéruit ínopi, et palmas suas
-          exténdit ad páuperem. Non timébit dómui suæ a frigóribus nivis: omnes
-          enim doméstici ejus vestíti sunt duplícibus. Stragulátam vestem fecit
-          sibi: byssus et púrpura induméntum ejus. Nóbilis in portis vir ejus,
-          quando séderit cum senatóribus terræ. Síndonem fecit et véndidit, et
-          cíngulum tradidit Chananǽo. Fortitúdo et decor induméntum ejus, et
-          ridébit in die novíssimo. Os suum apéruit sapiéntiæ, et lex cleméntiæ
-          in lingua ejus. Considerávit sémitas domus suæ, et panem otiósa non
-          comédit. Surrexérunt fílii ejus, et beatíssimam prædicavérunt: vir
-          ejus, et laudávit eam. Multæ fíliæ congregavérunt divítias, tu
-          supergréssa es univérsas. Fallax grátia, et vana est pulchritúdo:
-          mulier timens Dóminum, ipsa laudábitur. Date ei de fructu mánuum
-          suárum, et laudent eam in portis ópera ejus.
-        </p>
-        <p>
-          Quem encontrará uma mulher forte? Seu valor é maior do que o das
-          pérolas que vêm dos confins do mundo. Nela confia o coração do marido,
-          que por isso lhe não faltará proveito. Ela procurará praticar o bem, e
-          não o mal, em todos os dias da sua vida. Ela procurará a lã e o linho,
-          e, diligentemente, trabalhará neles com suas mãos. Ela é como um navio
-          de mercador que traz de longe o seu pão! Levanta-se quando ainda é
-          noite, e dá alimento à família e trabalho aos servos. Ela pensa em um
-          campo, compra-o e planta uma vinha com o trabalho de suas mãos. Cinge
-          com vigor os seus rins e esforça os seus braços. Examina e vê que seu
-          negócio é bom e que sua lâmpada se não apagará durante a noite.
-          Emprega suas mãos em trabalhos rudes e seus dedos no fuso. Estende a
-          sua mão ao indigente e o seu braço ao pobre. Não receia na sua casa
-          nem o frio, nem a neve, porque todos os criados têm roupa em duplo.
-          Fabrica para si tapeçarias e faz os seus vestidos de bom linho e de
-          púrpura. Seu marido será enobrecido, quando se sentar às Portas da
-          cidade com os senadores da terra. Faz vestidos, que vende, e cintas,
-          que entrega aos mercadores. Revestiu-se de coragem e de glória, e,
-          alegre, aguarda o futuro. Fala com sabedoria e a sua língua é
-          clemente. Vigia os caminhos de sua casa e não come o pão na
-          ociosidade. Erguem-se seus filhos e a proclamam bem-aventurada, e seu
-          marido a louva também: «Muitas filhas reuniram virtudes, mas tu
-          excedeste-las». Enganadora é a graça e vã é a formosura. Só a mulher,
-          que teme o Senhor, será louvada. Dai-lhe o produto de suas mãos, e que
-          a louvem às portas da cidade, por causa das suas obras.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
+            <Text className="text-base">
+              Mulíerem fortem quis invéniet? Procul et de últimis fínibus
+              prétium ejus. Confídit in ea cor viri sui, et spóliis non
+              indigébit. Reddet ei bonum, et non malum, ómnibus diébus vitæ suæ.
+              Quæsívit lanam et linum, et operáta est consílio mánuum suárum.
+              Facta est quasi navis institóris, de longe portans panem suum. Et
+              de nocte surréxit, dedítque prædam domésticis suis, et cibária
+              ancíllis suis. Considerávit agrum, et emit eum: de fructu mánuum
+              suárum plantávit víneam. Accínxit fortitúdine lumbos suos, et
+              roborávit bráchium suum. Gustávit, et vidit, quia bona est
+              negotiátio ejus: non exstinguétur in nocte lucérna ejus. Manum
+              suam misit ad fórtia, et dígiti ejus apprehénderent fusum. Manum
+              suam apéruit ínopi, et palmas suas exténdit ad páuperem. Non
+              timébit dómui suæ a frigóribus nivis: omnes enim doméstici ejus
+              vestíti sunt duplícibus. Stragulátam vestem fecit sibi: byssus et
+              púrpura induméntum ejus. Nóbilis in portis vir ejus, quando
+              séderit cum senatóribus terræ. Síndonem fecit et véndidit, et
+              cíngulum tradidit Chananǽo. Fortitúdo et decor induméntum ejus, et
+              ridébit in die novíssimo. Os suum apéruit sapiéntiæ, et lex
+              cleméntiæ in lingua ejus. Considerávit sémitas domus suæ, et panem
+              otiósa non comédit. Surrexérunt fílii ejus, et beatíssimam
+              prædicavérunt: vir ejus, et laudávit eam. Multæ fíliæ
+              congregavérunt divítias, tu supergréssa es univérsas. Fallax
+              grátia, et vana est pulchritúdo: mulier timens Dóminum, ipsa
+              laudábitur. Date ei de fructu mánuum suárum, et laudent eam in
+              portis ópera ejus.
+            </Text>
+            <Text className="text-base">
+              Quem encontrará uma mulher forte? Seu valor é maior do que o das
+              pérolas que vêm dos confins do mundo. Nela confia o coração do
+              marido, que por isso lhe não faltará proveito. Ela procurará
+              praticar o bem, e não o mal, em todos os dias da sua vida. Ela
+              procurará a lã e o linho, e, diligentemente, trabalhará neles com
+              suas mãos. Ela é como um navio de mercador que traz de longe o seu
+              pão! Levanta-se quando ainda é noite, e dá alimento à família e
+              trabalho aos servos. Ela pensa em um campo, compra-o e planta uma
+              vinha com o trabalho de suas mãos. Cinge com vigor os seus rins e
+              esforça os seus braços. Examina e vê que seu negócio é bom e que
+              sua lâmpada se não apagará durante a noite. Emprega suas mãos em
+              trabalhos rudes e seus dedos no fuso. Estende a sua mão ao
+              indigente e o seu braço ao pobre. Não receia na sua casa nem o
+              frio, nem a neve, porque todos os criados têm roupa em duplo.
+              Fabrica para si tapeçarias e faz os seus vestidos de bom linho e
+              de púrpura. Seu marido será enobrecido, quando se sentar às Portas
+              da cidade com os senadores da terra. Faz vestidos, que vende, e
+              cintas, que entrega aos mercadores. Revestiu-se de coragem e de
+              glória, e, alegre, aguarda o futuro. Fala com sabedoria e a sua
+              língua é clemente. Vigia os caminhos de sua casa e não come o pão
+              na ociosidade. Erguem-se seus filhos e a proclamam bem-aventurada,
+              e seu marido a louva também: «Muitas filhas reuniram virtudes, mas
+              tu excedeste-las». Enganadora é a graça e vã é a formosura. Só a
+              mulher, que teme o Senhor, será louvada. Dai-lhe o produto de suas
+              mãos, e que a louvem às portas da cidade, por causa das suas
+              obras.
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 44, 3 & 5</em>
+          <Text className="em">Sl. 44, 3 & 5</Text>
 
-      <div className="side-by-side">
-        <p>
-          Diffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in
-          ætérnum. ℣. Propter veritátem et mansuetúdinem et justítiam: et de
-          ducet te mirabíliter déxtera tua.
-        </p>
-        <p>
-          A graça espalhou-se nos vossos lábios: eis porque Deus vos abençoou
-          para a eternidade. ℣. Por causa da vossa verdade, mansidão e justiça,
-          a vossa dextra praticará maravilhas.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>ibid., 5</em> Spécie tua et pulchritúdine
-          tua inténde, próspere procéde et regna. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>ibid., 5</em> Caminhai, pois, com beleza e
-          com majestade; ide gozar a vitória e reinai. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Diffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in
+              ætérnum. ℣. Propter veritátem et mansuetúdinem et justítiam: et de
+              ducet te mirabíliter déxtera tua.
+            </Text>
+            <Text className="text-base">
+              A graça espalhou-se nos vossos lábios: eis porque Deus vos
+              abençoou para a eternidade. ℣. Por causa da vossa verdade,
+              mansidão e justiça, a vossa dextra praticará maravilhas.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">ibid., 5</Text> Spécie
+              tua et pulchritúdine tua inténde, próspere procéde et regna.
+              Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">ibid., 5</Text>{" "}
+              Caminhai, pois, com beleza e com majestade; ide gozar a vitória e
+              reinai. Aleluia.
+            </Text>
+          </View>
 
-      <aside>
-        Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-      </aside>
+          <View className="aside">
+            Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
+          </View>
 
-      <h3>Trato</h3>
+          <Text className="h3">Trato</Text>
 
-      <div className="side-by-side">
-        <p>
-          Veni, Sponsa Christi, áccipe coronam, quam tibi Dóminus præparávit in
-          ætérnum. ℣. <em>Ps. 44, 8 & 5</em> Dilexísti justítiam, et odísti
-          iniquitátem: proptérea unxit te Deus, Deus tuus, oleo lætítiæ præ
-          consórtibus tuis. ℣. Spécie tua et pulchritúdine tua inténde, próspere
-          procéde et regna.
-        </p>
-        <p>
-          Vinde, ó esposa de Cristo; vinde e recebei a coroa que o Senhor vos
-          preparou para a eternidade. ℣. <em>Sl. 44, 8 & 5</em> Amastes a
-          justiça e odiastes a iniquidade: eis porque o Senhor, vosso Deus, vos
-          ungiu com o óleo da alegria, de preferências às vossas semelhantes. ℣.
-          Caminhai, pois, com beleza e com majestade; ide gozar a vitória e
-          reinai.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Veni, Sponsa Christi, áccipe coronam, quam tibi Dóminus præparávit
+              in ætérnum. ℣. <Text className="em">Ps. 44, 8 & 5</Text> Dilexísti
+              justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus
+              tuus, oleo lætítiæ præ consórtibus tuis. ℣. Spécie tua et
+              pulchritúdine tua inténde, próspere procéde et regna.
+            </Text>
+            <Text className="text-base">
+              Vinde, ó esposa de Cristo; vinde e recebei a coroa que o Senhor
+              vos preparou para a eternidade. ℣.{" "}
+              <Text className="em">Sl. 44, 8 & 5</Text> Amastes a justiça e
+              odiastes a iniquidade: eis porque o Senhor, vosso Deus, vos ungiu
+              com o óleo da alegria, de preferências às vossas semelhantes. ℣.
+              Caminhai, pois, com beleza e com majestade; ide gozar a vitória e
+              reinai.
+            </Text>
+          </View>
 
-      <aside>No T. Pascal omite-se o Gradual e o Trato e diz-se:</aside>
+          <View className="aside">
+            No T. Pascal omite-se o Gradual e o Trato e diz-se:
+          </View>
 
-      <div className="side-by-side">
-        <p>
-          Allelúja, allelúja. ℣. <em>Ps. 44, 5</em> Spécie tua et pulchritúdine
-          tua inténde, próspere procéde et regna. Allelúja. ℣. Propter veritátem
-          et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.
-          Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Sl. 44, 5</em> Caminhai, pois, com beleza e
-          com majestade; ide gozar a vitória e reinai. ℣. Por causa da vossa
-          verdade, mansidão e justiça, a vossa dextra praticará maravilhas.
-          Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Ps. 44, 5</Text>{" "}
+              Spécie tua et pulchritúdine tua inténde, próspere procéde et
+              regna. Allelúja. ℣. Propter veritátem et mansuetúdinem et
+              justítiam: et dedúcet te mirabíliter déxtera tua. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Sl. 44, 5</Text>{" "}
+              Caminhai, pois, com beleza e com majestade; ide gozar a vitória e
+              reinai. ℣. Por causa da vossa verdade, mansidão e justiça, a vossa
+              dextra praticará maravilhas. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Mt. 13, 44-52</em>
+          <Text className="em">Mt. 13, 44-52</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Mateus.
-        </p>
-        <p>
-          In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile
-          est regnum cœlórum thesáuro abscóndito in agro: quem qui invénit homo,
-          abscóndit, et præ gáudio illíus vadit, et vendit univérsa, quæ habet,
-          et emit agrum illum. Iterum símile est regnum cœlórum homini
-          negotiatóri, quærénti bonas margarítas. Invénta autem una pretiósa
-          margaríta, ábiit, et véndidit ómnia, quæ hábuit, et emit eam. Iterum
-          símile est regnum cœlórum sagénæ, missæ in mare et ex omni génere
-          píscium cóngreganti. Quam, cum impléta esset educéntes, et secus litus
-          sedéntes, elegérunt bonos in vasa, malos autem foras misérunt. Sic
-          erit in consummatióne sǽculi: exíbunt Angeli, et separábunt malos de
-          médio justórum, et mittent eos in camínum ignis: ibi erit fletus et
-          stridor déntium. Intellexístis hæc ómnia? Dicunt ei: Etiam. Ait illis:
-          Ideo omnis scriba doctus in regno cœlórum símilis est hómini
-          patrifamílias, qui profert de thesáuro suo nova et vétera.
-        </p>
-        <p>
-          Naquele tempo, disse Jesus aos seus discípulos esta parábola: «O reino
-          dos céus é semelhante a um tesouro escondido no campo, o qual um homem
-          achou e esconde; e, alegre com o achado, vai, vende tudo o que tem e
-          compra o campo. Igualmente o reino dos céus é semelhante a um
-          negociante, que busca pedras preciosas; e, achando uma de grande
-          preço, vai, vende tudo o que tem e compra-a. O reino dos céus é ainda
-          semelhante a uma rede que, lançada ao mar, prende toda a casta de
-          peixes, e, estando já cheia, os pescadores a puxam para a praia,
-          escolhem os bons peixes para os vasos e deitam fora os maus. Assim
-          será no fim dos séculos: virão os Anjos e separarão os maus do meio
-          dos justos e os lançarão na fornalha do fogo, onde não haverá senão
-          fogo e ranger de dentes. Haveis compreendido tudo isto?». «Sim»,
-          responderam eles. E Jesus disse-lhes: «Por esta razão todo o escriba
-          douto, a respeito do reino dos céus, é semelhante a um pai de família,
-          que tira dos seus tesouros coisas novas e velhas».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Matthǽum.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Mateus.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Dixit Jesus discípulis suis parábolam hanc:
+              Símile est regnum cœlórum thesáuro abscóndito in agro: quem qui
+              invénit homo, abscóndit, et præ gáudio illíus vadit, et vendit
+              univérsa, quæ habet, et emit agrum illum. Iterum símile est regnum
+              cœlórum homini negotiatóri, quærénti bonas margarítas. Invénta
+              autem una pretiósa margaríta, ábiit, et véndidit ómnia, quæ
+              hábuit, et emit eam. Iterum símile est regnum cœlórum sagénæ,
+              missæ in mare et ex omni génere píscium cóngreganti. Quam, cum
+              impléta esset educéntes, et secus litus sedéntes, elegérunt bonos
+              in vasa, malos autem foras misérunt. Sic erit in consummatióne
+              sǽculi: exíbunt Angeli, et separábunt malos de médio justórum, et
+              mittent eos in camínum ignis: ibi erit fletus et stridor déntium.
+              Intellexístis hæc ómnia? Dicunt ei: Etiam. Ait illis: Ideo omnis
+              scriba doctus in regno cœlórum símilis est hómini patrifamílias,
+              qui profert de thesáuro suo nova et vétera.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, disse Jesus aos seus discípulos esta parábola: «O
+              reino dos céus é semelhante a um tesouro escondido no campo, o
+              qual um homem achou e esconde; e, alegre com o achado, vai, vende
+              tudo o que tem e compra o campo. Igualmente o reino dos céus é
+              semelhante a um negociante, que busca pedras preciosas; e, achando
+              uma de grande preço, vai, vende tudo o que tem e compra-a. O reino
+              dos céus é ainda semelhante a uma rede que, lançada ao mar, prende
+              toda a casta de peixes, e, estando já cheia, os pescadores a puxam
+              para a praia, escolhem os bons peixes para os vasos e deitam fora
+              os maus. Assim será no fim dos séculos: virão os Anjos e separarão
+              os maus do meio dos justos e os lançarão na fornalha do fogo, onde
+              não haverá senão fogo e ranger de dentes. Haveis compreendido tudo
+              isto?». «Sim», responderam eles. E Jesus disse-lhes: «Por esta
+              razão todo o escriba douto, a respeito do reino dos céus, é
+              semelhante a um pai de família, que tira dos seus tesouros coisas
+              novas e velhas».
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 44, 3</em>
+          <Text className="em">Sl. 44, 3</Text>
 
-      <div className="side-by-side">
-        <p>
-          Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
-          ætérnum, et in sǽculum sǽculi, allelúja. (T. P. Allelúja.)
-        </p>
-        <p>
-          A graça espalhou-se nos vossos lábios; eis porque Deus vos abençoou
-          para a eternidade e para os séculos dos séculos. (T. P. Aleluia.)
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
+              ætérnum, et in sǽculum sǽculi, allelúja. (T. P. Allelúja.)
+            </Text>
+            <Text className="text-base">
+              A graça espalhou-se nos vossos lábios; eis porque Deus vos
+              abençoou para a eternidade e para os séculos dos séculos. (T. P.
+              Aleluia.)
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre
-          Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit
-          auxílium. Per Dóminum nostrum...
-        </p>
-        <p>
-          Aceitai, Senhor, esta oferta que Vos consagra o vosso povo fiel, em
-          honra dos vossos Santos, pelos méritos dos quais reconhece que tem
-          alcançado a vossa assistência nas tribulações. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre
+              Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit
+              auxílium. Per Dóminum nostrum...
+            </Text>
+            <Text className="text-base">
+              Aceitai, Senhor, esta oferta que Vos consagra o vosso povo fiel,
+              em honra dos vossos Santos, pelos méritos dos quais reconhece que
+              tem alcançado a vossa assistência nas tribulações. Por nosso
+              Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Sl. 44, 8</em>
+          <Text className="em">Sl. 44, 8</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus,
-          Deus tuus, óleo lætítiæ præ consórtibus tuis. (T. P. Allelúja.)
-        </p>
-        <p>
-          Amastes a justiça e odiastes a iniquidade: eis porque o Senhor, vosso
-          Deus, vos ungiu com o óleo da alegria, de preferência às vossas
-          companheiras. (T. P. Aleluia.)
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te
+              Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (T. P.
+              Allelúja.)
+            </Text>
+            <Text className="text-base">
+              Amastes a justiça e odiastes a iniquidade: eis porque o Senhor,
+              vosso Deus, vos ungiu com o óleo da alegria, de preferência às
+              vossas companheiras. (T. P. Aleluia.)
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
-          semper interventióne nos réfove, cujus sollémnia celebrámus. Per
-          Dóminum...
-        </p>
-        <p>
-          Havendo saciado, Senhor, a vossa família com os dons sagrados,
-          dignai-Vos favorecer-nos sempre pela intercessão daquela cuja
-          Solenidade celebrámos. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
+              semper interventióne nos réfove, cujus sollémnia celebrámus. Per
+              Dóminum...
+            </Text>
+            <Text className="text-base">
+              Havendo saciado, Senhor, a vossa família com os dons sagrados,
+              dignai-Vos favorecer-nos sempre pela intercessão daquela cuja
+              Solenidade celebrámos. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <aside>Outra Epístola (em certos dias):</aside>
+          <View className="aside">Outra Epístola (em certos dias):</View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Pr. 31, 10-31</em>
+          <Text className="em">Pr. 31, 10-31</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.</p>
-        <p>Lição da Ep.º do B. Ap.º Paulo a Timóteo.</p>
-        <p>
-          Caríssime: Víduas hónora, quæ vere víduæ sunt. Si qua autem vídua
-          fílios aut nepótes habet, discat primum domum suam régere, et mútuam
-          vicem réddere paréntibus: hoc enim accéptum est coram Deo. Quæ autem
-          vere vídua est et desoláta, speret in Deum, et instet obsecratiónibus
-          et oratiónibus nocte ac die. Nam quæ in delíciis est, vivens mórtua
-          est. Et hoc prǽcipe, ut irreprehensíbiles sint. Si quis autem suórum,
-          et máxime domesticórum curam non habet, fidem negávit, et est infidéli
-          detérior. Vídua eligátur non minus sexagínta annórum, quæ fúerit uníus
-          viri uxor, in opéribus bonis testimónium habens, si fílios educávit,
-          si hospítio recépit, si sanctórum pedes lavit, si tribulatiónem
-          patiéntibus subministrávit, si omne opus bonum subsecúta est.
-        </p>
-        <p>
-          Caríssimos: Honrai as, viúvas que são verdadeiramente viúvas. Se
-          alguma viúva tem filhos ou netos, ensine-os, primeiramente, a governar
-          a sua casa e a retribuir a seus pais conforme o que havia recebido
-          deles; porque tal é a vontade de Deus. Aquela viúva, que é
-          verdadeiramente viúva e vive só, espere em Deus e persevere noite e
-          dia em suas súplicas e preces. Porém, aquela viúva que vive nas
-          delícias, não está viva, mas sim morta. Fazei-lhes, pois, saber isto,
-          a fim de que sejam irrepreensíveis. Se alguém se não interessa pelos
-          seus, e principalmente pelos de sua casa, nega a fé e é pior do que um
-          infiel. Que a viúva, que for escolhida, não tenha menos de sessenta
-          anos, nem haja tido mais do que um marido, e que tenha reputação de
-          ter praticado boas obras; que tenha educado os seus filhos; praticado
-          a hospitalidade; lavado os pés aos santos; socorrido os aflitos; e,
-          enfim, praticado toda a espécie de boas obras.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.
+            </Text>
+            <Text className="text-base">
+              Lição da Ep.º do B. Ap.º Paulo a Timóteo.
+            </Text>
+            <Text className="text-base">
+              Caríssime: Víduas hónora, quæ vere víduæ sunt. Si qua autem vídua
+              fílios aut nepótes habet, discat primum domum suam régere, et
+              mútuam vicem réddere paréntibus: hoc enim accéptum est coram Deo.
+              Quæ autem vere vídua est et desoláta, speret in Deum, et instet
+              obsecratiónibus et oratiónibus nocte ac die. Nam quæ in delíciis
+              est, vivens mórtua est. Et hoc prǽcipe, ut irreprehensíbiles sint.
+              Si quis autem suórum, et máxime domesticórum curam non habet,
+              fidem negávit, et est infidéli detérior. Vídua eligátur non minus
+              sexagínta annórum, quæ fúerit uníus viri uxor, in opéribus bonis
+              testimónium habens, si fílios educávit, si hospítio recépit, si
+              sanctórum pedes lavit, si tribulatiónem patiéntibus
+              subministrávit, si omne opus bonum subsecúta est.
+            </Text>
+            <Text className="text-base">
+              Caríssimos: Honrai as, viúvas que são verdadeiramente viúvas. Se
+              alguma viúva tem filhos ou netos, ensine-os, primeiramente, a
+              governar a sua casa e a retribuir a seus pais conforme o que havia
+              recebido deles; porque tal é a vontade de Deus. Aquela viúva, que
+              é verdadeiramente viúva e vive só, espere em Deus e persevere
+              noite e dia em suas súplicas e preces. Porém, aquela viúva que
+              vive nas delícias, não está viva, mas sim morta. Fazei-lhes, pois,
+              saber isto, a fim de que sejam irrepreensíveis. Se alguém se não
+              interessa pelos seus, e principalmente pelos de sua casa, nega a
+              fé e é pior do que um infiel. Que a viúva, que for escolhida, não
+              tenha menos de sessenta anos, nem haja tido mais do que um marido,
+              e que tenha reputação de ter praticado boas obras; que tenha
+              educado os seus filhos; praticado a hospitalidade; lavado os pés
+              aos santos; socorrido os aflitos; e, enfim, praticado toda a
+              espécie de boas obras.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

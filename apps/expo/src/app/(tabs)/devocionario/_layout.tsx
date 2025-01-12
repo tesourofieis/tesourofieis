@@ -1,6 +1,5 @@
 import { Stack } from "expo-router";
 import { useColorScheme } from "nativewind";
-import "../../../global.css";
 import { COLORS } from "../../../constants/Colors";
 
 export default function DevocionarioLayout() {

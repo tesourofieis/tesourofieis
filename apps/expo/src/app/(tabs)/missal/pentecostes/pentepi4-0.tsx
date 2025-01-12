@@ -1,193 +1,206 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function PagePentepi40() {
   return (
-    <div className="docs">
-      <h1>Quarto Domingo depois da Epifania</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Quarto Domingo depois da Epifania</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Jr. 29,11,12 & 14</em>
+          <Text className="em">Jr. 29,11,12 & 14</Text>
 
-      <div className="side-by-side">
-        <p>
-          Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
-          invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram
-          de cunctis locis. <em>Ps. 84, 2</em> Benedixísti, Dómine, terram tuam:
-          avertísti captivitátem Jacob. ℣. Gloria Patri...
-        </p>
-        <p>
-          Disse o Senhor: tenho pensamentos de paz e não de ira: invocar-me-eis
-          e ouvir-vos-ei; e farei regressar de todos os países os vossos
-          cativos. <em>Sl. 84, 2</em> Abençoastes, Senhor, a vossa terra e
-          livrastes Jacob do cativeiro. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
+              invocábitis me, et ego exáudiam vos: et redúcam captivitátem
+              vestram de cunctis locis. <Text className="em">Ps. 84, 2</Text>{" "}
+              Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob. ℣.
+              Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Disse o Senhor: tenho pensamentos de paz e não de ira:
+              invocar-me-eis e ouvir-vos-ei; e farei regressar de todos os
+              países os vossos cativos. <Text className="em">Sl. 84, 2</Text>{" "}
+              Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro.
+              ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui nos, in tantis perículis constitútos, pro humána scis
-          fragilitáte non posse subsístere: da nobis salútem mentis et córporis;
-          ut ea, quæ pro peccátis nostris pátimur, te adjuvánte vincámus. Per
-          Dóminum...
-        </p>
-        <p>
-          Ó Deus, que conheceis não poder a fraqueza humana subsistir no meio de
-          tantos perigos, que nos cercam, concedei-nos a saúde da alma e do
-          corpo, a fim de que com vosso auxílio possamos vencer os males que
-          devemos sofrer em castigo dos pecados. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui nos, in tantis perículis constitútos, pro humána scis
+              fragilitáte non posse subsístere: da nobis salútem mentis et
+              córporis; ut ea, quæ pro peccátis nostris pátimur, te adjuvánte
+              vincámus. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que conheceis não poder a fraqueza humana subsistir no
+              meio de tantos perigos, que nos cercam, concedei-nos a saúde da
+              alma e do corpo, a fim de que com vosso auxílio possamos vencer os
+              males que devemos sofrer em castigo dos pecados. Por nosso
+              Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Rm. 13, 8-10</em>
+          <Text className="em">Rm. 13, 8-10</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</p>
-        <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
-        <p>
-          Fratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui enim
-          díligit próximum, legem implévit. Nam: Non adulterábis, Non occídes,
-          Non furáberis, Non falsum testimónium dices, Non concupísces: et si
-          quod est áliud mandátum, in hoc verbo instaurátur: Díliges próximum
-          tuum sicut teípsum. Diléctio próximi malum non operátur. Plenitúdo
-          ergo legis est diléctio.
-        </p>
-        <p>
-          Meus irmãos: Não sejais devedores a ninguém de coisa alguma, senão do
-          amor que deveis uns aos outros; pois aquele que ama o seu próximo,
-          cumpre a lei. Com efeito, estes Mandamentos de Deus: não cometerás
-          adultério; não matarás; não roubarás; não levantarás falso testemunho;
-          não cobiçarás as coisas alheias; e todos os outros Mandamentos, que
-          há, resumem-se nestas palavras: «Amarás ao teu próximo como a ti
-          próprio». O amor ao próximo não permite que se lhe faça mal. O amor é,
-          portanto, a plenitude da lei.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
+            </Text>
+            <Text className="text-base">
+              Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
+            </Text>
+            <Text className="text-base">
+              Fratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui
+              enim díligit próximum, legem implévit. Nam: Non adulterábis, Non
+              occídes, Non furáberis, Non falsum testimónium dices, Non
+              concupísces: et si quod est áliud mandátum, in hoc verbo
+              instaurátur: Díliges próximum tuum sicut teípsum. Diléctio próximi
+              malum non operátur. Plenitúdo ergo legis est diléctio.
+            </Text>
+            <Text className="text-base">
+              Meus irmãos: Não sejais devedores a ninguém de coisa alguma, senão
+              do amor que deveis uns aos outros; pois aquele que ama o seu
+              próximo, cumpre a lei. Com efeito, estes Mandamentos de Deus: não
+              cometerás adultério; não matarás; não roubarás; não levantarás
+              falso testemunho; não cobiçarás as coisas alheias; e todos os
+              outros Mandamentos, que há, resumem-se nestas palavras: «Amarás ao
+              teu próximo como a ti próprio». O amor ao próximo não permite que
+              se lhe faça mal. O amor é, portanto, a plenitude da lei.
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 43, 8-9</em>
+          <Text className="em">Sl. 43, 8-9</Text>
 
-      <div className="side-by-side">
-        <p>
-          Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt,
-          confudísti. ℣. In Deo laudábimur tota die, et in nómine tuo
-          confitébimur in sǽcula.
-        </p>
-        <p>
-          Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes os
-          que nos odiavam. ℣. Glorificar-nos-emos constantemente em Deus e
-          louvaremos eternamente o vosso nome.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Ps. 129, 12</em> De profúndis clamávi ad
-          te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Sl. 129, 12</em> Do fundo do abysmo Vos
-          invoquei, Senhor: escutai a minha oração. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
+              odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine
+              tuo confitébimur in sǽcula.
+            </Text>
+            <Text className="text-base">
+              Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes
+              os que nos odiavam. ℣. Glorificar-nos-emos constantemente em Deus
+              e louvaremos eternamente o vosso nome.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Ps. 129, 12</Text> De
+              profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam.
+              Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Sl. 129, 12</Text> Do
+              fundo do abysmo Vos invoquei, Senhor: escutai a minha oração.
+              Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Mt. 8, 23-27</em>
+          <Text className="em">Mt. 8, 23-27</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Mateus.
-        </p>
-        <p>
-          In illo témpore: Ascendénte Jesu in navículam, secúti sunt eum
-          discípuli ejus: et ecce, motus magnus factus est in mari, ita ut
-          navícula operirétur flúctibus, ipse vero dormiébat. Et accessérunt ad
-          eum discípuli ejus, et suscitavérunt eum, dicéntes: Dómine, salva nos,
-          perímus. Et dicit eis Jesus: Quid tímidi estis, módicæ fídei? Tunc
-          surgens, imperávit ventis et mari, et facta est tranquíllitas magna.
-          Porro hómines miráti sunt, dicéntes: Qualis est hic, quia venti et
-          mare obœdiunt ei?
-        </p>
-        <p>
-          Naquele tempo, Jesus entrou em uma barca, sendo acompanhado pelos seus
-          discípulos. E eis que uma grande tempestade surgiu no mar, de modo que
-          as ondas cobriam a barca. Jesus dormia. Seus discípulos
-          aproximaram-se, então, de Jesus, dizendo: «Senhor, salvai-nos, pois
-          perecemos!». Jesus disse-lhes: «Porque receais, homens de pouca fé?».
-          E, erguendo-se, impôs a sua vontade aos ventos e ao mar; e fez-se uma
-          grande bonança. E aqueles homens admiraram-se, dizendo: «Quem é Este
-          que até os ventos e o mar Lhe obedecem?
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Matthǽum.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Mateus.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Ascendénte Jesu in navículam, secúti sunt eum
+              discípuli ejus: et ecce, motus magnus factus est in mari, ita ut
+              navícula operirétur flúctibus, ipse vero dormiébat. Et accessérunt
+              ad eum discípuli ejus, et suscitavérunt eum, dicéntes: Dómine,
+              salva nos, perímus. Et dicit eis Jesus: Quid tímidi estis, módicæ
+              fídei? Tunc surgens, imperávit ventis et mari, et facta est
+              tranquíllitas magna. Porro hómines miráti sunt, dicéntes: Qualis
+              est hic, quia venti et mare obœdiunt ei?
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, Jesus entrou em uma barca, sendo acompanhado pelos
+              seus discípulos. E eis que uma grande tempestade surgiu no mar, de
+              modo que as ondas cobriam a barca. Jesus dormia. Seus discípulos
+              aproximaram-se, então, de Jesus, dizendo: «Senhor, salvai-nos,
+              pois perecemos!». Jesus disse-lhes: «Porque receais, homens de
+              pouca fé?». E, erguendo-se, impôs a sua vontade aos ventos e ao
+              mar; e fez-se uma grande bonança. E aqueles homens admiraram-se,
+              dizendo: «Quem é Este que até os ventos e o mar Lhe obedecem?
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 129, 1-2</em>
+          <Text className="em">Sl. 129, 1-2</Text>
 
-      <div className="side-by-side">
-        <p>
-          De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de
-          profúndis clamávi ad te. Dómine.
-        </p>
-        <p>
-          Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor, a
-          minha voz: das profundezas dos abysmos Vos invoquei.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam:
+              de profúndis clamávi ad te. Dómine.
+            </Text>
+            <Text className="text-base">
+              Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor,
+              a minha voz: das profundezas dos abysmos Vos invoquei.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum
-          fragilitátem nostram ab omni malo purget semper et múniat. Per
-          Dóminum...
-        </p>
-        <p>
-          Ó Deus omnipotente, Vos suplicamos, fazei que a hóstia oferecida neste
-          sacrifício livre a nossa fraqueza de todo o mal e a fortifique para o
-          futuro. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus
+              oblátum fragilitátem nostram ab omni malo purget semper et múniat.
+              Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus omnipotente, Vos suplicamos, fazei que a hóstia oferecida
+              neste sacrifício livre a nossa fraqueza de todo o mal e a
+              fortifique para o futuro. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Mc. 11, 24</em>
+          <Text className="em">Mc. 11, 24</Text>
 
-      <div className="side-by-side">
-        <p>
-          Amen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis,
-          et fiet vobis.
-        </p>
-        <p>
-          Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
-          acreditai que o recebereis; e far-se-á como pedirdes».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Amen, dico vobis, quidquid orántes pétitis, crédite, quia
+              accipiétis, et fiet vobis.
+            </Text>
+            <Text className="text-base">
+              Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
+              acreditai que o recebereis; e far-se-á como pedirdes».
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et
-          cœléstibus semper instáurent aliméntis. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus, que estes vossos dons nos afastem dos gozos terrenos e nos
-          restaurem com seu alimento celestial. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et
+              cœléstibus semper instáurent aliméntis. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que estes vossos dons nos afastem dos gozos terrenos e nos
+              restaurem com seu alimento celestial. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

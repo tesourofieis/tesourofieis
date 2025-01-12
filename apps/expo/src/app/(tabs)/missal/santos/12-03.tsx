@@ -1,179 +1,191 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1203() {
   return (
-    <div className="docs">
-      <h1>S. Francisco Xavier, Confessor, a 3 de Dezembro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. Francisco Xavier, Confessor, a 3 de Dezembro
+          </Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Sl. 118, 46-47</em>
+          <Text className="em">Sl. 118, 46-47</Text>
 
-      <div className="side-by-side">
-        <p>
-          Loquébar de testimóniis tuis in conspéctu regum, et non confundébar:
-          et meditábar in mandátis tuis, quæ diléxi nimis. <em>Ps. 110, 1-2</em>{" "}
-          Laudáte Dóminum, omnes gentes, laudáte eum, omnes pópuli: quóniam
-          confirmáta est super nos misericórdia ejus, et véritas Dómini manet in
-          ætérnum. ℣. Gloria Patri...
-        </p>
-        <p>
-          Falava dos vossos testemunhos sem vergonha na presença dos reis: e
-          meditava nos vossos mandamentos, que amava profundamente.{" "}
-          <em>Sl. 110, 1-2</em> Louvai o Senhor, ó vós, todas as nações;
-          louvai-O, ó vós, todos os povos; pois a sua misericórdia para connosco
-          manifestou-se claramente e a verdade do Senhor permanece eternamente.
-          ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Loquébar de testimóniis tuis in conspéctu regum, et non
+              confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.{" "}
+              <Text className="em">Ps. 110, 1-2</Text> Laudáte Dóminum, omnes
+              gentes, laudáte eum, omnes pópuli: quóniam confirmáta est super
+              nos misericórdia ejus, et véritas Dómini manet in ætérnum. ℣.
+              Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Falava dos vossos testemunhos sem vergonha na presença dos reis: e
+              meditava nos vossos mandamentos, que amava profundamente.{" "}
+              <Text className="em">Sl. 110, 1-2</Text> Louvai o Senhor, ó vós,
+              todas as nações; louvai-O, ó vós, todos os povos; pois a sua
+              misericórdia para connosco manifestou-se claramente e a verdade do
+              Senhor permanece eternamente. ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, qui Indiárum gentes beáti Francísci prædicatióne et miráculis
-          Ecclésiæ tuæ aggregáre voluísti: concéde propítius; ut, cujus gloriósa
-          mérita venerámur, virtútum quoque imitémur exémpla. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus, que pela pregação e milagres do B. Francisco quisestes chamar
-          à vossa Igreja os povos das Índias, concedei-nos propício que,
-          venerando os seus gloriosos méritos, imitemos, também, os exemplos das
-          suas virtudes. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, qui Indiárum gentes beáti Francísci prædicatióne et
+              miráculis Ecclésiæ tuæ aggregáre voluísti: concéde propítius; ut,
+              cujus gloriósa mérita venerámur, virtútum quoque imitémur exémpla.
+              Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus, que pela pregação e milagres do B. Francisco quisestes
+              chamar à vossa Igreja os povos das Índias, concedei-nos propício
+              que, venerando os seus gloriosos méritos, imitemos, também, os
+              exemplos das suas virtudes. Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <LinkCard
-        href="/missal/santos/11-30#epístola"
-        title="S. André, Apóstolo"
-      />
+          <LinkCard
+            href="/missal/santos/11-30#epístola"
+            title="S. André, Apóstolo"
+          />
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Sl. 91, 13 & 14</em>
+          <Text className="em">Sl. 91, 13 & 14</Text>
 
-      <div className="side-by-side">
-        <p>
-          Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo
-          Dómini. ℣. <em>ibid., 3</em> Ad annuntiándum mane misericórdiam tuam,
-          et veritátem tuam per noctem.
-        </p>
-        <p>
-          O justo florescerá, como a palmeira, e crescerá, como o cedro do
-          Líbano, na casa do Senhor. ℣. <em>ibid., 3</em> Para publicar de manhã
-          a vossa misericórdia; e de noite a vossa verdade.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Jac. 1, 12</em> Beátus vir, qui suffert
-          tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
-          Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Tg. 1, 12</em> Bem-aventurado o varão que
-          sabe sofrer a tentação, porque, quando acabar a tentação, receberá a
-          coroa da vida. Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in
+              domo Dómini. ℣. <Text className="em">ibid., 3</Text> Ad
+              annuntiándum mane misericórdiam tuam, et veritátem tuam per
+              noctem.
+            </Text>
+            <Text className="text-base">
+              O justo florescerá, como a palmeira, e crescerá, como o cedro do
+              Líbano, na casa do Senhor. ℣. <Text className="em">ibid., 3</Text>{" "}
+              Para publicar de manhã a vossa misericórdia; e de noite a vossa
+              verdade.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Jac. 1, 12</Text>{" "}
+              Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit,
+              accípiet corónam vitæ. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Tg. 1, 12</Text>{" "}
+              Bem-aventurado o varão que sabe sofrer a tentação, porque, quando
+              acabar a tentação, receberá a coroa da vida. Aleluia.
+            </Text>
+          </View>
 
-      <h3>Evangelho</h3>
+          <Text className="h3">Evangelho</Text>
 
-      <em>Mc. 16, 15-18</em>
+          <Text className="em">Mc. 16, 15-18</Text>
 
-      <div className="side-by-side">
-        <p>
-          <span className="cross text-red-500">✠</span> Sequéntia sancti
-          Evangélii secúndum Marcum.
-        </p>
-        <p>
-          <span className="cross text-red-500">✠</span> Continuação do santo
-          Evangelho segundo S. Marcos.
-        </p>
-        <p>
-          In illo témpore: Dixit Jesus discípulis suis: Eúntes in mundum
-          univérsum, prædicáte Evangélium omni creatúra. Qui credíderit, et
-          baptizátus fúerit, salvus erit: qui vero non credíderit,
-          condemnábitur. Signa autem eos, qui credíderint, hæc sequántur: In
-          nómine meo dæmónia ejícient: linguis loquántur novis: serpéntes
-          tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros
-          manus impónent, et bene habébunt.
-        </p>
-        <p>
-          Naquele tempo, disse Jesus aos seus discípulos: «Ide pelo mundo
-          inteiro e pregai o Evangelho a todas as criaturas. Quem acreditar e
-          for baptizado será salvo; quem não acreditar será condenado. Eis os
-          milagres que acompanharão aqueles que acreditarem: Em meu nome
-          expulsarão os demónios; falarão novas línguas; tirarão com suas
-          serpentes; se beberem alguma coisa mortífera, lhes não fará dano; e
-          imporão as mãos sobre os enfermos, que serão curados».
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+              Evangélii secúndum Marcum.
+            </Text>
+            <Text className="text-base">
+              <Text className="cross text-red-500">✠</Text> Continuação do santo
+              Evangelho segundo S. Marcos.
+            </Text>
+            <Text className="text-base">
+              In illo témpore: Dixit Jesus discípulis suis: Eúntes in mundum
+              univérsum, prædicáte Evangélium omni creatúra. Qui credíderit, et
+              baptizátus fúerit, salvus erit: qui vero non credíderit,
+              condemnábitur. Signa autem eos, qui credíderint, hæc sequántur: In
+              nómine meo dæmónia ejícient: linguis loquántur novis: serpéntes
+              tollent: et si mortíferum quid bíberint, non eis nocébit: super
+              ægros manus impónent, et bene habébunt.
+            </Text>
+            <Text className="text-base">
+              Naquele tempo, disse Jesus aos seus discípulos: «Ide pelo mundo
+              inteiro e pregai o Evangelho a todas as criaturas. Quem acreditar
+              e for baptizado será salvo; quem não acreditar será condenado. Eis
+              os milagres que acompanharão aqueles que acreditarem: Em meu nome
+              expulsarão os demónios; falarão novas línguas; tirarão com suas
+              serpentes; se beberem alguma coisa mortífera, lhes não fará dano;
+              e imporão as mãos sobre os enfermos, que serão curados».
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 88, 25</em>
+          <Text className="em">Sl. 88, 25</Text>
 
-      <div className="side-by-side">
-        <p>
-          Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
-          cornu ejus.
-        </p>
-        <p>
-          A minha verdade e a minha misericórdia estarão com ele, e, por virtude
-          do meu nome, será exaltado o seu poder.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Véritas mea et misericórdia mea cum ipso: et in nómine meo
+              exaltábitur cornu ejus.
+            </Text>
+            <Text className="text-base">
+              A minha verdade e a minha misericórdia estarão com ele, e, por
+              virtude do meu nome, será exaltado o seu poder.
+            </Text>
+          </View>
 
-      <h3>Secreta</h3>
+          <Text className="h3">Secreta</Text>
 
-      <div className="side-by-side">
-        <p>
-          Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis
-          oblátio, et pro tuórum tibi grata sit honóre Sanctórum, et nos córpore
-          páriter et mente puríficet. Per Dóminum...
-        </p>
-        <p>
-          Concedei-nos, ó Deus omnipotente, que esta oferta da nossa humildade,
-          servindo para honrar os vossos Santos, Vos seja agradável; e que ao
-          mesmo tempo nos purifique o corpo e a alma. Por nosso Senhor...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis
+              oblátio, et pro tuórum tibi grata sit honóre Sanctórum, et nos
+              córpore páriter et mente puríficet. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Concedei-nos, ó Deus omnipotente, que esta oferta da nossa
+              humildade, servindo para honrar os vossos Santos, Vos seja
+              agradável; e que ao mesmo tempo nos purifique o corpo e a alma.
+              Por nosso Senhor...
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Mt. 24,46-47</em>
+          <Text className="em">Mt. 24,46-47</Text>
 
-      <div className="side-by-side">
-        <p>
-          Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen,
-          dico vobis, super ómnia bona sua constítuet eum.
-        </p>
-        <p>
-          Bem-aventurado o servo que o Senhor, quando vier, achar vigilante. Em
-          verdade vos digo que lhe dará a administração de todos seus bens.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem:
+              amen, dico vobis, super ómnia bona sua constítuet eum.
+            </Text>
+            <Text className="text-base">
+              Bem-aventurado o servo que o Senhor, quando vier, achar vigilante.
+              Em verdade vos digo que lhe dará a administração de todos seus
+              bens.
+            </Text>
+          </View>
 
-      <h3>Postcomúnio</h3>
+          <Text className="h3">Postcomúnio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
-          intercedénte beáto Francísco Confessóre tuo, per hæc contra ómnia
-          advérsa muniámur. Per Dóminum...
-        </p>
-        <p>
-          Havendo nós, ó Deus omnipotente, recebido o alimento celestial,
-          permiti, Vos suplicamos, que, pela intercessão do B. Francisco, vosso
-          Confessor, sejamos fortalecidos contra todas as adversidades. Por
-          nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
+              intercedénte beáto Francísco Confessóre tuo, per hæc contra ómnia
+              advérsa muniámur. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Havendo nós, ó Deus omnipotente, recebido o alimento celestial,
+              permiti, Vos suplicamos, que, pela intercessão do B. Francisco,
+              vosso Confessor, sejamos fortalecidos contra todas as
+              adversidades. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

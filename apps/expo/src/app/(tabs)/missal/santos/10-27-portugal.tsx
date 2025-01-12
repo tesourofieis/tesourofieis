@@ -1,38 +1,47 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page1027Portugal() {
   return (
-    <div className="docs">
-      <h1>S. Gonçalo de Lagos, a 27 de Outubro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Gonçalo de Lagos, a 27 de Outubro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
-          Missa Os justi
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link
+              className="link"
+              href="/missal/comum/14confessoresnaopontifices1"
+            >
+              Missa Os justi
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Deus, virtútem, qui beátum Gundisálvum Confessórem tuum ánimi
-          demissióne, morum candóre, ac singuláre caritáte mirábilem effecísti:
-          concéde, quæsumus; ut ejus exémpla imitántes in terris, coronári cum
-          ipso merámur in cælis. Per Dóminum...
-        </p>
-        <p>
-          Ó Deus das virtudes, que tornastes admirável na humildade de espírito,
-          na candura de Costumes e na singular caridade o B. Gonçalo, vosso
-          Confessor, concedei-nos, Vos imploramos, que, Imitando seus exemplos
-          na terra, mereçamos com ele ser coroados nos céus. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Deus, virtútem, qui beátum Gundisálvum Confessórem tuum ánimi
+              demissióne, morum candóre, ac singuláre caritáte mirábilem
+              effecísti: concéde, quæsumus; ut ejus exémpla imitántes in terris,
+              coronári cum ipso merámur in cælis. Per Dóminum...
+            </Text>
+            <Text className="text-base">
+              Ó Deus das virtudes, que tornastes admirável na humildade de
+              espírito, na candura de Costumes e na singular caridade o B.
+              Gonçalo, vosso Confessor, concedei-nos, Vos imploramos, que,
+              Imitando seus exemplos na terra, mereçamos com ele ser coroados
+              nos céus. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

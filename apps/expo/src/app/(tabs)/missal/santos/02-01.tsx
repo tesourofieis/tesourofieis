@@ -1,137 +1,149 @@
-"use dom";
-import "../../../../global.css";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page0201() {
   return (
-    <div className="docs">
-      <h1>S. Inácio, B. e Márt., a 1 de Fevereiro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. Inácio, B. e Márt., a 1 de Fevereiro</Text>
 
-      <h3>Intróito</h3>
+          <Text className="h3">Intróito</Text>
 
-      <em>Gl. 6, 14</em>
+          <Text className="em">Gl. 6, 14</Text>
 
-      <div className="side-by-side">
-        <p>
-          Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi:
-          per quem mihi mundus crucifíxus est, et ego mundo. <em>Ps. 131, 1</em>{" "}
-          Meménto, Dómine, David: et omnis mansuetúdinis ejus. ℣. Gloria
-          Patri...
-        </p>
-        <p>
-          Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de N. S.
-          Jesus Cristo, pela qual o mundo foi crucificado para mim e eu para o
-          mundo. <em>Sl. 131, 1</em> Lembrai-Vos de David, Senhor, assim como da
-          sua mansidão. ℣. Glória ao Pai...
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu
+              Christi: per quem mihi mundus crucifíxus est, et ego mundo.{" "}
+              <Text className="em">Ps. 131, 1</Text> Meménto, Dómine, David: et
+              omnis mansuetúdinis ejus. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base">
+              Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de N.
+              S. Jesus Cristo, pela qual o mundo foi crucificado para mim e eu
+              para o mundo. <Text className="em">Sl. 131, 1</Text> Lembrai-Vos
+              de David, Senhor, assim como da sua mansidão. ℣. Glória ao Pai...
+            </Text>
+          </View>
 
-      <h3>Epístola</h3>
+          <Text className="h3">Epístola</Text>
 
-      <em>Rm. 8, 35-39</em>
+          <Text className="em">Rm. 8, 35-39</Text>
 
-      <div className="side-by-side">
-        <p>Léctio Epistolæ beáti Pauli Apóstoli ad Romános.</p>
-        <p>Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</p>
-        <p>
-          Fratres: Quis nos separábit a cantáte Christi: tribulátio, an
-          angustia, an fames, an núditas, an perículum, an persecútio, an
-          gládius? (sicut scriptum est: Quia propter te mortificámur tota die:
-          æstimáti sumus sicut oves occisiónis). Sed in his ómnibus superámus
-          propter eum, qui diléxit nos. Certus sum enim, quia neque mors, neque
-          vita, neque ángeli, neque principátus, neque virtútes, neque
-          instántia, neque futúra, neque fortitúdo, neque altitúdo, neque
-          profúndum, neque creatúra alia poterit nos separáre a cantáte Dei, quæ
-          est in Christo Jesu, Dómino nostro.
-        </p>
-        <p>
-          Quem nos separará do amor de Cristo? A tribulação, a angústia, a fome,
-          a nudez, os perigos, a perseguição, a espada? Segundo o que está
-          escrito: «Por ti somos entregues à morte todos os dias; somos
-          reputados como ovelhas conduzidas à morte». Mas de todas estas coisas
-          saímos vencedores por Aquele que nos amou. Estou certo de que nem a
-          morte, nem a vida, nem os anjos, nem os príncipes, nem as virtudes,
-          nem as coisas presentes, nem as futuras, nem a força, nem a altura,
-          nem a profundidade, nem nenhuma outra criatura poderá separar-nos do
-          amor de Deus, que está em nosso Senhor Jesus Cristo.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Léctio Epistolæ beáti Pauli Apóstoli ad Romános.
+            </Text>
+            <Text className="text-base">
+              Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
+            </Text>
+            <Text className="text-base">
+              Fratres: Quis nos separábit a cantáte Christi: tribulátio, an
+              angustia, an fames, an núditas, an perículum, an persecútio, an
+              gládius? (sicut scriptum est: Quia propter te mortificámur tota
+              die: æstimáti sumus sicut oves occisiónis). Sed in his ómnibus
+              superámus propter eum, qui diléxit nos. Certus sum enim, quia
+              neque mors, neque vita, neque ángeli, neque principátus, neque
+              virtútes, neque instántia, neque futúra, neque fortitúdo, neque
+              altitúdo, neque profúndum, neque creatúra alia poterit nos
+              separáre a cantáte Dei, quæ est in Christo Jesu, Dómino nostro.
+            </Text>
+            <Text className="text-base">
+              Quem nos separará do amor de Cristo? A tribulação, a angústia, a
+              fome, a nudez, os perigos, a perseguição, a espada? Segundo o que
+              está escrito: «Por ti somos entregues à morte todos os dias; somos
+              reputados como ovelhas conduzidas à morte». Mas de todas estas
+              coisas saímos vencedores por Aquele que nos amou. Estou certo de
+              que nem a morte, nem a vida, nem os anjos, nem os príncipes, nem
+              as virtudes, nem as coisas presentes, nem as futuras, nem a força,
+              nem a altura, nem a profundidade, nem nenhuma outra criatura
+              poderá separar-nos do amor de Deus, que está em nosso Senhor Jesus
+              Cristo.
+            </Text>
+          </View>
 
-      <h3>Gradual</h3>
+          <Text className="h3">Gradual</Text>
 
-      <em>Ecl. 44, 16</em>
+          <Text className="em">Ecl. 44, 16</Text>
 
-      <div className="side-by-side">
-        <p>
-          Ecce sacérdos magnus, qui m diébus suis plácuit Deo. ℣.{" "}
-          <em>Ibid , 20</em> Non est invéntus símilis illi, qui conserváret
-          legem Excélsi.
-        </p>
-        <p>
-          Eis o grande sacerdote que durante a vida agradou a Deus. ℣.{" "}
-          <em>Ibid , 20</em> Não houve quem, como ele, guardasse a observância
-          da Lei do Altíssimo.
-        </p>
-        <p>
-          Allelúja, allelúja. ℣. <em>Gal 2, 19-20</em> Christo confíxus sum
-          Cruci: vivo ego, jam non ego, vivit vero in me Christus. Allelúja.
-        </p>
-        <p>
-          Aleluia, aleluia. ℣. <em>Gl 2, 19-20</em> Estou crucificado com
-          Cristo. Vivo, mas já não sou eu que vivo: é Cristo que vive em mim.
-          Aleluia.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Ecce sacérdos magnus, qui m diébus suis plácuit Deo. ℣.{" "}
+              <Text className="em">Ibid , 20</Text> Non est invéntus símilis
+              illi, qui conserváret legem Excélsi.
+            </Text>
+            <Text className="text-base">
+              Eis o grande sacerdote que durante a vida agradou a Deus. ℣.{" "}
+              <Text className="em">Ibid , 20</Text> Não houve quem, como ele,
+              guardasse a observância da Lei do Altíssimo.
+            </Text>
+            <Text className="text-base">
+              Allelúja, allelúja. ℣. <Text className="em">Gal 2, 19-20</Text>{" "}
+              Christo confíxus sum Cruci: vivo ego, jam non ego, vivit vero in
+              me Christus. Allelúja.
+            </Text>
+            <Text className="text-base">
+              Aleluia, aleluia. ℣. <Text className="em">Gl 2, 19-20</Text> Estou
+              crucificado com Cristo. Vivo, mas já não sou eu que vivo: é Cristo
+              que vive em mim. Aleluia.
+            </Text>
+          </View>
 
-      <aside>Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se:</aside>
+          <View className="aside">
+            Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se:
+          </View>
 
-      <h3>Trato</h3>
+          <Text className="h3">Trato</Text>
 
-      <em>Sl. 20, 3-4</em>
+          <Text className="em">Sl. 20, 3-4</Text>
 
-      <div className="side-by-side">
-        <p>
-          Desirérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum. ℣. Quoniam prævenísti eum in benedictiónibus
-          dulcedinis. ℣. Posuísti in cápite ejus coronam de lápide pretióso.
-        </p>
-        <p>
-          Satisfizestes os desejos do seu coração e o não iludistes nas preces
-          proferidas por seus lábios. ℣. Vós, Senhor, o enchestes com bênçãos
-          faustosas. ℣. Colocastes na sua cabeça o diadema de ouro.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Desirérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
+              fraudásti eum. ℣. Quoniam prævenísti eum in benedictiónibus
+              dulcedinis. ℣. Posuísti in cápite ejus coronam de lápide pretióso.
+            </Text>
+            <Text className="text-base">
+              Satisfizestes os desejos do seu coração e o não iludistes nas
+              preces proferidas por seus lábios. ℣. Vós, Senhor, o enchestes com
+              bênçãos faustosas. ℣. Colocastes na sua cabeça o diadema de ouro.
+            </Text>
+          </View>
 
-      <h3>Ofertório</h3>
+          <Text className="h3">Ofertório</Text>
 
-      <em>Sl. 8, 6-7</em>
+          <Text className="em">Sl. 8, 6-7</Text>
 
-      <div className="side-by-side">
-        <p>
-          Glória et honóre coronásti eum: et constituísti eum super ópera mánuum
-          tuárum, Domine.
-        </p>
-        <p>
-          Vós o coroastes, Senhor, com glória e honras: Vós lhe concedestes
-          domínio sobre as obras das vossas mãos.
-        </p>
-      </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Glória et honóre coronásti eum: et constituísti eum super ópera
+              mánuum tuárum, Domine.
+            </Text>
+            <Text className="text-base">
+              Vós o coroastes, Senhor, com glória e honras: Vós lhe concedestes
+              domínio sobre as obras das vossas mãos.
+            </Text>
+          </View>
 
-      <h3>Comúnio</h3>
+          <Text className="h3">Comúnio</Text>
 
-      <em>Palavras de S. Inácio</em>
+          <Text className="em">Palavras de S. Inácio</Text>
 
-      <div className="side-by-side">
-        <p>
-          Fruméntum Christi sum: déntibus bestiárum molar, ut panis mundus
-          invéniar.
-        </p>
-        <p>
-          Sou o trigo de Cristo, que hei-de ser moído nos dentes das feras para
-          me tornar em pão puríssimo.
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Fruméntum Christi sum: déntibus bestiárum molar, ut panis mundus
+              invéniar.
+            </Text>
+            <Text className="text-base">
+              Sou o trigo de Cristo, que hei-de ser moído nos dentes das feras
+              para me tornar em pão puríssimo.
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }

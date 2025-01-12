@@ -1,37 +1,43 @@
-"use dom";
 import { Link } from "expo-router";
-import "../../../../global.css";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 
 export default function Page1015() {
   return (
-    <div className="docs">
-      <h1>Santa Teresa, a 15 de Outubro</h1>
+    <SafeAreaView>
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Santa Teresa, a 15 de Outubro</Text>
 
-      <aside>
-        Como na{" "}
-        <Link className="link" href="/missal/comum/20virgemnaomartir1">
-          Missa Dilexísti justitiam
-        </Link>{" "}
-        , excepto:
-      </aside>
+          <View className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/20virgemnaomartir1">
+              Missa Dilexísti justitiam
+            </Link>{" "}
+            , excepto:
+          </View>
 
-      <h3>Oração</h3>
+          <Text className="h3">Oração</Text>
 
-      <div className="side-by-side">
-        <p>
-          Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ Terésiæ
-          Vírginis tuæ festivitáte gaudémus; ita cœléstis ejus doctrínæ pábulo
-          nutriámur, et piæ devotiónis erudiámur affectu. Per Dóminum nostrum...
-        </p>
-        <p>
-          Ouvi-nos, ó Deus, nosso Salvador, a fim de que, assim como nos
-          alegramos na festa da vossa B. Virgem Teresa, assim também sejamos
-          sustentados com o pão da sua celestial doutrina e Consigamos alcançar
-          os afectos da sua piedosa devoção. Por nosso Senhor...
-        </p>
-      </div>
-    </div>
+          <View className="side-by-side">
+            <Text className="text-base">
+              Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ Terésiæ
+              Vírginis tuæ festivitáte gaudémus; ita cœléstis ejus doctrínæ
+              pábulo nutriámur, et piæ devotiónis erudiámur affectu. Per Dóminum
+              nostrum...
+            </Text>
+            <Text className="text-base">
+              Ouvi-nos, ó Deus, nosso Salvador, a fim de que, assim como nos
+              alegramos na festa da vossa B. Virgem Teresa, assim também sejamos
+              sustentados com o pão da sua celestial doutrina e Consigamos
+              alcançar os afectos da sua piedosa devoção. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
