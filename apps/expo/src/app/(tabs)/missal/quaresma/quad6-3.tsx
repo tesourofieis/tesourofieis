@@ -15,52 +15,49 @@ export default function PageQuad63() {
           <Text className="em">Fl. 2, 10, 8 & 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In nómine Jesu omne genu flectátur, cœléstium, terréstrium et
               infernórum: quia Dóminus factus est obǿdiens usque ad mortem,
               mortem autem crucis: ideo Dóminus Jesus Christus in glória est Dei
-              Patris. <Text className="em">Ps. 101, 2</Text> Dómine, exáudi
-              oratiónem meam: et clamor meus ad te véniat. In nómine. ℣. Gloria
-              Patri...
+              Patris. <Text className="text-base latin">Ps. 101, 2</Text>{" "}
+              Dómine, exáudi oratiónem meam: et clamor meus ad te véniat. In
+              nómine. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que ao ser pronunciado o nome de Jesus se dobrem todos os joelhos
               dos que estão no céu, na terra e nos infernos; pois o Senhor
               fez-se obediente até à morte, e morte na cruz. Eis porque o Senhor
               Jesus está na glória de Deus, seu Pai.{" "}
-              <Text className="em">Sl. 101, 2</Text> Ouvi, Senhor, a minha
-              oração; e chegue até Vós o meu clamor. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 101, 2</Text> Ouvi,
+              Senhor, a minha oração; e chegue até Vós o meu clamor. ℣. Glória
+              ao Pai...
             </Text>
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Orémus. Flectámus génua.
-              </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus. Flectámus génua.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Oremos. Ajoelhemos!
-              </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos. Ajoelhemos!</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui nostris excéssibus
               incessánter afflígimur, per unigéniti Fílii tui passiónem
               liberémur: Qui tecum vivit...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, ó Deus omnipotente, Vos suplicamos, que, estando nós
               incessantemente aflitos por causa dos males que produzem os nossos
               pecados, deles sejamos livres pela paixão do vosso Filho
@@ -73,9 +70,11 @@ export default function PageQuad63() {
           <Text className="em">Is. 62, 11; 63, 1-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus Deus: Dícite fíliæ Sion: Ecce, Salvátor tuus
               venit: ecce, merces ejus cum eo. Quis est iste, qui venit de Edom,
               tinctis véstibus de Bosra? Iste formósus in stola sua, grádiens in
@@ -93,7 +92,7 @@ export default function PageQuad63() {
               eórum. Miseratiónum Dómini recordábor, laudem Dómini super
               ómnibus, quæ réddidit nobis Dóminus, Deus noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis o que diz o Senhor e Deus: «Dizei à filha de Sião: eis que
               chega o vosso Salvador, que traz consigo a recompensa. Quem é este
               que vem de Edon e de Bosra com seus vestidos imponentes? Ele é
@@ -120,13 +119,13 @@ export default function PageQuad63() {
           <Text className="em">Sl. 68, 18 & 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ne avértas fáciem tuam a púero tuo, quóniam tríbulor: velóciter
               exáudi me. ℣. Salvum me fac, Deus, quóniam intravérunt aquæ usque
               ad ánimam meam: infíxus sum in limo profúndi, et non est
               substántia.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Não volteis a vossa face ao vosso servo, mas apressai-Vos em
               socorrer-me, pois estou atribulado. ℣. Salvai-me, Senhor,
               porquanto as águas da desgraça inundaram a minha alma. Caí num
@@ -137,13 +136,13 @@ export default function PageQuad63() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui pro nobis Fílium tuum Crucis patíbulum subire voluísti,
               ut inimíci a nobis expélleres potestatem: concéde nobis fámulis
               tuis; ut resurrectiónis grátiam consequámur. Per eúndem Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que quisestes que o vosso Filho sofresse o suplício da
               Cruz por nós, a fim de nos livrar do jugo inimigo, dignai-Vos
               conceder-nos a nós, que vossos servos, a graça de tomarmos parte
@@ -156,9 +155,11 @@ export default function PageQuad63() {
           <Text className="em">Is. 53, 1-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Dixit Isaías: Dómine, quis crédidit audi tui
               nostro? et bráchium Dómini cui revelátum est? Et ascéndet sicut
               virgúltum coram eo, et sicut radix de terra sitiénti: non est
@@ -188,7 +189,7 @@ export default function PageQuad63() {
               mortem ánimam suam, et cum scelerátis reputátus est: et ipse
               peccáta multórum tulit, et pro transgressóribus rogávit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele dias, disse Isaías: «Quem acreditou, Senhor, naquilo que
               ouviu de nós? A quem se revelou o braço do Senhor? Crescerá diante
               do Senhor, como um arbusto, como um rebento na terra seca, sem
@@ -232,7 +233,7 @@ export default function PageQuad63() {
           <Text className="em">Sl. 101, 2-5 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, exaudi orationem meam, et clamor meus ad te veniat. ℣. Ne
               avertas faciem tuam a me: in quacumque die tribulor, inclina ad me
               aurem tuam. ℣. In quacumque die invocavero te, velociter exaudi
@@ -241,7 +242,7 @@ export default function PageQuad63() {
               cor meum: quia oblitus sum manducare panem meum. ℣. Tu exsiirgens,
               Domine, misereberis Sion: quia venit tempus miserendi eius.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, ouvi a minha oração e que meu clamor chegue até Vós. ℣.
               Não afasteis de mim a vossa face, e, desde que eu caia na
               tribulação, inclinai para mim vossos ouvidos. ℣. Em qualquer hora
@@ -259,25 +260,26 @@ export default function PageQuad63() {
           <Text className="em">Sl. 102, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis. ℣.{" "}
-              <Text className="em">Ps. 78, 8-9</Text> Dómine, ne memíneris
-              iniquitátum nostrarum antiquarum: cito antícipent nos misericórdiæ
-              tuæ, quia páuperes facti sumus nimis.{" "}
+              <Text className="text-base latin">Ps. 78, 8-9</Text> Dómine, ne
+              memíneris iniquitátum nostrarum antiquarum: cito antícipent nos
+              misericórdiæ tuæ, quia páuperes facti sumus nimis.{" "}
               <Text className="em">hic genuflectitur</Text> ℣. Adjuva nos, Deus,
               salutáris noster: et propter glóriam nóminis tui, Dómine, libera
               nos: et propítius esto peccátis nostris, propter nomen tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, nos não castigueis, consoante merecemos, pelos pecados que
               praticámos: nem nos julgueis, segundo as nossas iniquidades. ℣.{" "}
-              <Text className="em">Sl. 78, 8-9</Text> Esquecei-Vos, Senhor, das
-              nossas iniquidades passa- das, apressai-Vos em revestir-nos com
-              vossas misericórdias, pois grande é a nossa miséria.{" "}
-              <Text className="em">(Aqui genuflectir).</Text> ℣. Auxiliai-nos, ó
-              Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos,
-              Senhor, e perdoai os nossos pecados por causa do vosso nome.
+              <Text className="text-base vernacular">Sl. 78, 8-9</Text>{" "}
+              Esquecei-Vos, Senhor, das nossas iniquidades passa- das,
+              apressai-Vos em revestir-nos com vossas misericórdias, pois grande
+              é a nossa miséria. <Text className="em">(Aqui genuflectir).</Text>{" "}
+              ℣. Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso
+              nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do
+              vosso nome.
             </Text>
           </View>
 
@@ -286,15 +288,15 @@ export default function PageQuad63() {
           <Text className="em">Lc. 22, 1-71; 23, 1-53</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Pássio Dómini nostri
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Pássio Dómini nostri
               Jesu Christi secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Paixão de N. S.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Paixão de N. S.
               Jesus Cristo, segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Appropinquábat dies festus azymórum, qui dícitur
               Pascha: et quærébant príncipes sacerdótum et scribæ, quómodo Jesum
               interfícerent: timébant vero plebem. Intrávit autem sátanas in
@@ -304,7 +306,7 @@ export default function PageQuad63() {
               pecúniam illi dare. Et spopóndit. Et quærébat opportunitátem, ut
               tráderet illum sine turbis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, aproximava-se o dia da festa dos ázimos, que se
               chama Páscoa, e os príncipes dos sacerdotes e os escribas
               procuravam maneira de matar Jesus, mas temiam o povo. Ora, Satanás
@@ -315,10 +317,10 @@ export default function PageQuad63() {
               procurava ocasião favorável para O entregar sem ajuntamento de
               povo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Venit autem dies azymórum, in qua necésse erat occídi pascha. Et
               misit Petrum et Joánnem, dicens:{" "}
-              <Text className="cross text-red-500">✠</Text> Eúntes paráte nobis
+              <Text className="text-base latin">✠</Text> Eúntes paráte nobis
               pascha, ut manducémus.{" "}
               <Text className="font-bold text-red-500">C.</Text> At illi
               dixérunt: <Text className="font-bold text-red-500">S.</Text> Ubi
@@ -332,10 +334,10 @@ export default function PageQuad63() {
               <Text className="font-bold text-red-500">C.</Text> Eúntes autem
               invenérunt, sicut dixit illis, et paravérunt pascha.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Entretanto, chegou o dia dos ázimos, em que devia ser imolada a
               Páscoa. Jesus enviou, pois, Pedro e João, dizendo:{" "}
-              <Text className="cross text-red-500">✠</Text> «Ide preparar-nos
+              <Text className="text-base vernacular">✠</Text> «Ide preparar-nos
               Páscoa para a comermos».{" "}
               <Text className="font-bold text-red-500">C.</Text> Eles
               perguntaram-Lhe:{" "}
@@ -351,14 +353,13 @@ export default function PageQuad63() {
               <Text className="font-bold text-red-500">C.</Text> Indo eles,
               encontraram como Jesus lhes dissera e prepararam a Páscoa.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Et cum facta esset hora, discúbuit, et duódecim Apóstoli cum eo.
-              Et ait illis: <Text className="cross text-red-500">✠</Text>{" "}
-              Desidério desiderávi hoc pascha manducáre vobíscum, ántequam
-              pátiar. Dico enim vobis, quia ex hoc non manducábo illud, donec
-              impleátur in regno Dei.{" "}
-              <Text className="font-bold text-red-500">C.</Text> Et accépto
-              cálice, grátias egit, et dixit:{" "}
+              Et ait illis: <Text className="text-base latin">✠</Text> Desidério
+              desiderávi hoc pascha manducáre vobíscum, ántequam pátiar. Dico
+              enim vobis, quia ex hoc non manducábo illud, donec impleátur in
+              regno Dei. <Text className="font-bold text-red-500">C.</Text> Et
+              accépto cálice, grátias egit, et dixit:{" "}
               <Text className="cross text-red-500">✠</Text> Accípite, et
               divídite inter vos. Dico enim vobis, quod non bibam de generatióne
               vitis, donec regnum Dei véniat.{" "}
@@ -415,9 +416,9 @@ export default function PageQuad63() {
               <Text className="font-bold text-red-500">C.</Text> At ille dixit
               eis: <Text className="cross text-red-500">✠</Text> Satis est.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Chegada a hora, Jesus assentou-se à mesa com os Doze Apóstolos, e
-              disse-lhes: <Text className="cross text-red-500">✠</Text> «Tenho
+              disse-lhes: <Text className="text-base vernacular">✠</Text> «Tenho
               desejado ardentemente comer convosco esta Páscoa antes de morrer;
               pois, digo-vos, não tornarei mais a comê-la, até que ela se cumpra
               no reino de Deus».{" "}
@@ -485,10 +486,10 @@ export default function PageQuad63() {
               respondeu-lhes: <Text className="cross text-red-500">✠</Text>{" "}
               «Basta!».
             </Text>
-            <Text className="text-base">
-              <Text className="font-bold text-red-500">C.</Text> Et egréssus
-              ibat secúndum consuetúdinem in montem Olivárum. Secúti sunt autem
-              illum et discípuli. Et cum pervenísset ad locum, dixit illis:{" "}
+            <Text className="text-base latin">
+              <Text className="text-base latin">C.</Text> Et egréssus ibat
+              secúndum consuetúdinem in montem Olivárum. Secúti sunt autem illum
+              et discípuli. Et cum pervenísset ad locum, dixit illis:{" "}
               <Text className="cross text-red-500">✠</Text> Oráte, ne intrétis
               in tentatiónem. <Text className="font-bold text-red-500">C.</Text>{" "}
               Et ipse avúlsus est ab eis, quantum jactus est lápidis, et pósitis
@@ -526,8 +527,8 @@ export default function PageQuad63() {
               autem eum, duxérunt ad domum príncipis sacerdótum: Petrus vero
               sequebátur a longe.
             </Text>
-            <Text className="text-base">
-              <Text className="font-bold text-red-500">C.</Text> Havendo Jesus
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">C.</Text> Havendo Jesus
               saído, dirigiu-se, segundo o costume, ao monte das Oliveiras,
               acompanhado dos discípulos. Quando chegou àquele lugar,
               disse-lhes: <Text className="cross text-red-500">✠</Text> «Orai,
@@ -570,16 +571,16 @@ export default function PageQuad63() {
               prenderam-n’O, conduzindo-O para casa do sumo sacerdote. Pedro
               seguia-O de longe.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Accénso autem igne in médio átrii, et circumsedéntibus illis, erat
               Petrus in médio eórum. Quem cum vidísset ancílla quædam sedéntem
               ad lumen, et eum fuísset intúita, dixit:{" "}
-              <Text className="font-bold text-red-500">S.</Text> Et hic cum illo
-              erat. <Text className="font-bold text-red-500">C.</Text> At ille
-              negávit eum, dicens:{" "}
-              <Text className="font-bold text-red-500">S.</Text> Múlier, non
-              novi illum. <Text className="font-bold text-red-500">C.</Text> Et
-              post pusíllum álius videns eum, dixit:{" "}
+              <Text className="text-base latin">S.</Text> Et hic cum illo erat.{" "}
+              <Text className="font-bold text-red-500">C.</Text> At ille negávit
+              eum, dicens: <Text className="font-bold text-red-500">S.</Text>{" "}
+              Múlier, non novi illum.{" "}
+              <Text className="font-bold text-red-500">C.</Text> Et post
+              pusíllum álius videns eum, dixit:{" "}
               <Text className="font-bold text-red-500">S.</Text> Et tu de illis
               es. <Text className="font-bold text-red-500">C.</Text> Petrus vero
               ait: <Text className="font-bold text-red-500">S.</Text>O homo, non
@@ -595,10 +596,10 @@ export default function PageQuad63() {
               díxerat: Quia priúsquam gallus cantet, ter me negábis. Et egréssus
               foras Petrus flevit amáre.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Acenderam fogo no meio do pátio e assentaram-se em torno. Pedro
               estava no meio de todos. Viu-o uma criada, e, olhando-o fixamente,
-              disse: <Text className="font-bold text-red-500">S.</Text> «Este
+              disse: <Text className="text-base vernacular">S.</Text> «Este
               também estava com Ele».{" "}
               <Text className="font-bold text-red-500">C.</Text> Pedro negou,
               dizendo: <Text className="font-bold text-red-500">S.</Text>{" "}
@@ -621,11 +622,11 @@ export default function PageQuad63() {
               dito: «Antes de o galo cantar, negar-me-ás três vezes». E, saindo
               do pátio, começou a chorar amargamente!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Et viri, qui tenébant illum, illudébant ei, cædéntes. Et
               velavérunt eum et percutiébant fáciem ejus: et interrogábant eum,
-              dicéntes: <Text className="font-bold text-red-500">S.</Text>{" "}
-              Prophetíza, quis est, qui te percússit?{" "}
+              dicéntes: <Text className="text-base latin">S.</Text> Prophetíza,
+              quis est, qui te percússit?{" "}
               <Text className="font-bold text-red-500">C.</Text> Et alia multa
               blasphemántes dicébant in eum. Et ut factus est dies, convenérunt
               senióres plebis et príncipes sacerdótum et scribæ, et duxérunt
@@ -669,12 +670,12 @@ export default function PageQuad63() {
               huc. <Text className="font-bold text-red-500">C.</Text> Pilátus
               autem áudiens Galilǽam, interrogávit, si homo Galilǽus esset.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Entretanto, aqueles que haviam prendido Jesus, escarneciam d’Ele,
               batendo-Lhe. Vendaram-Lhe os olhos, batiam-Lhe no rosto e
               interrogavam-n’O, dizendo:{" "}
-              <Text className="font-bold text-red-500">S.</Text> «Adivinha quem
-              te bateu?». <Text className="font-bold text-red-500">C.</Text>{" "}
+              <Text className="text-base vernacular">S.</Text> «Adivinha quem te
+              bateu?». <Text className="font-bold text-red-500">C.</Text>{" "}
               Proferiram também muitas blasfémias contra Ele. De manhã cedo
               reuniram-se os anciãos do povo, os príncipes dos sacerdotes e os
               escribas e levaram Jesus a esse conselho, dizendo:{" "}
@@ -718,7 +719,7 @@ export default function PageQuad63() {
               galileu. Sabendo, pois, que pertencia à jurisdição de Herodes,
               remeteu-O a este, que se encontrava em Jerusalém naquele dia.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Et ut cognóvit, quod de Heródis potestáte esset, remísit eum ad
               Heródem, qui et ipse Jerosólymis erat illis diébus. Heródes autem,
               viso Jesu, gavísus est valde. Erat enim cúpiens ex multo témpore
@@ -730,15 +731,15 @@ export default function PageQuad63() {
               alba, et remísit ad Pilátum. Et facti sunt amíci Heródes et
               Pilátus in ipsa die: nam ántea inimíci erant ad ínvicem. Pilátus
               autem, convocátis princípibus sacerdótum et magistrátibus et
-              plebe, dixit ad illos:{" "}
-              <Text className="font-bold text-red-500">S.</Text> Obtulístis mihi
-              hunc hóminem, quasi averténtem pópulum, et ecce, ego coram vobis
-              intérrogans, nullam causam invéni in hómine isto ex his, in quibus
-              eum accusátis. Sed neque Heródes: nam remísi vos ad illum, et
-              ecce, nihil dignum morte actum est ei. Emendátum ergo illum
-              dimíttam. <Text className="font-bold text-red-500">C. </Text>{" "}
-              Necésse autem habébat dimíttere eis per diem festum, unum.
-              Exclamávit autem simul univérsa turba, dicens:{" "}
+              plebe, dixit ad illos: <Text className="text-base latin">S.</Text>{" "}
+              Obtulístis mihi hunc hóminem, quasi averténtem pópulum, et ecce,
+              ego coram vobis intérrogans, nullam causam invéni in hómine isto
+              ex his, in quibus eum accusátis. Sed neque Heródes: nam remísi vos
+              ad illum, et ecce, nihil dignum morte actum est ei. Emendátum ergo
+              illum dimíttam.{" "}
+              <Text className="font-bold text-red-500">C. </Text> Necésse autem
+              habébat dimíttere eis per diem festum, unum. Exclamávit autem
+              simul univérsa turba, dicens:{" "}
               <Text className="font-bold text-red-500">S.</Text> Tolle hunc, et
               dimítte nobis Barábbam.{" "}
               <Text className="font-bold text-red-500">C.</Text> Qui erat
@@ -758,7 +759,7 @@ export default function PageQuad63() {
               seditiónem missus fúerat in cárcerem, quem petébant: Jesum vero
               trádidit voluntáti eórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Herodes, vendo Jesus, alegrou-se muito, porque havia muito tempo
               já que tinha desejo de O ver, pois ouvia dizer a seu respeito
               muitas coisas e esperava vê-l’O praticar algum milagre.
@@ -770,12 +771,12 @@ export default function PageQuad63() {
               reconciliaram-se Herodes e Pilatos e tornaram-se amigos, pois até
               então eram inimigos. Logo, Pilatos reuniu os príncipes dos
               sacerdotes, os magistrados e o povo, dizendo:{" "}
-              <Text className="font-bold text-red-500">S.</Text>{" "}
-              «Apresentastes-me este homem como desorientador do povo; ora,
-              interrugando-O diante de vós, lhe não encontrei nenhum dos crimes
-              de que O acusais. Do mesmo modo Herodes (pois bem sabeis que lh’O
-              enviei) nada apurou contra Ele que mereça o castigo de morte. Vou,
-              pois, castigá-l’O, mas depois libertá-l’O-ei».{" "}
+              <Text className="text-base vernacular">S.</Text> «Apresentastes-me
+              este homem como desorientador do povo; ora, interrugando-O diante
+              de vós, lhe não encontrei nenhum dos crimes de que O acusais. Do
+              mesmo modo Herodes (pois bem sabeis que lh’O enviei) nada apurou
+              contra Ele que mereça o castigo de morte. Vou, pois, castigá-l’O,
+              mas depois libertá-l’O-ei».{" "}
               <Text className="font-bold text-red-500">C.</Text> Pilatos estava
               obrigado pela Páscoa a soltar um criminoso. E toda a multidão
               começou a gritar ao mesmo tempo;{" "}
@@ -798,15 +799,15 @@ export default function PageQuad63() {
               de homicídio e sedição, como reclamavam, e entregando-lhes Jesus,
               para que Lhe fizessem o que mais lhes agradasse.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Et cum dúcerent eum, apprehendérunt Simónem quendam Cyrenénsem,
               veniéntem de villa: et imposuérunt illi crucem portáre post Jesum.
               Sequebátur autem illum multa turba pópuli, et mulíerum, quæ
               plangébant et lamentabántur eum. Convérsus autem ad illas Jesus
-              dixit: <Text className="cross text-red-500">✠</Text> Filiæ
-              Jerúsalem, nolíte flere super me, sed super vos ipsas flete et
-              super fílios vestros. Quóniam ecce vénient dies, in quibus dicent:
-              Beátæ stériles, et veníres, qui non genuérunt, et úbera, quæ non
+              dixit: <Text className="text-base latin">✠</Text> Filiæ Jerúsalem,
+              nolíte flere super me, sed super vos ipsas flete et super fílios
+              vestros. Quóniam ecce vénient dies, in quibus dicent: Beátæ
+              stériles, et veníres, qui non genuérunt, et úbera, quæ non
               lactavérunt. Tunc incípient dícere móntibus: Cádite super nos; et
               cóllibus: Operíte nos. Quia si in víridi ligno hæc fáciunt, in
               árido quid fiet?{" "}
@@ -904,30 +905,30 @@ export default function PageQuad63() {
               <Text className="font-bold text-red-500">C.</Text> Proferidas
               estas palavras, Jesus expirou!
             </Text>
-            <Text className="text-base">
-              <Text className="em">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 (Hic genuflectitur, et pausatur aliquántulum)
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="em">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 (Aqui a ajoelha-se durante alguns instantes, meditando-se no que
                 se leu.)
               </Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Videns autem centúrio quod factum fúerat, glorificávit Deum,
-              dicens: <Text className="font-bold text-red-500">S.</Text> Vere
-              hic homo justus erat.{" "}
+              dicens: <Text className="text-base vernacular">S.</Text> Vere hic
+              homo justus erat.{" "}
               <Text className="font-bold text-red-500">C.</Text> Et omnis turba
               eórum, qui simul áderant ad spectáculum istud et vidébant, quæ
               fiébant, percutiéntes péctora sua revertebántur. Stabant autem
               omnes noti ejus a longe, et mulíeres, quæ secútæ eum erant a
               Galilǽa, hæc vidéntes.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vendo o centurião o que havia acontecido, glorificou o Senhor e
-              disse: <Text className="font-bold text-red-500">S.</Text>{" "}
+              disse: <Text className="text-base latin">S.</Text>{" "}
               «Verdadeiramente este homem era justo!».{" "}
               <Text className="font-bold text-red-500">C.</Text> Todo o povo que
               assistia a este espectáculo e via o que se passava retirava-se,
@@ -935,19 +936,19 @@ export default function PageQuad63() {
               estas coisas à distância com as mulheres que O haviam acompanhado
               desde a Galileia.
             </Text>
-            <Text className="text-base">
-              <Text className="em">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 Quod sequitur, cantatur in tono Evangelii, et alia fiunt ut
                 supra in Dominica.
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="em">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 O Sacerdote vem ao meio do Altar e diz o MUNDA COR MEUM,
                 continuando depois em tom de Evangelho:
               </Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Et ecce, vir nómine Joseph, qui erat decúrio, vir bonus et justus:
               hic non consénserat consílio et áctibus eórum, ab Arimathǽa
               civitáte Judǽæ, qui exspectábat et ipse regnum Dei. Hic accéssit
@@ -955,7 +956,7 @@ export default function PageQuad63() {
               et pósuit eum in monuménto excíso, in quo nondum quisquam pósitus
               fúerat.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Havia um homem chamado José, membro do conselho, homem bom e
               justo, que não concordara nem com o conselho dos outros, nem com
               suas obras. Era de Arimateia, cidade da Judeia, e esperava o reino
@@ -970,11 +971,11 @@ export default function PageQuad63() {
           <Text className="em">Sl. 101, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, exáudi oratiónem meam, et clamor meus ad te pervéniat: ne
               avértas fáciem tuam a me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, ouvi a minha oração e que meu clamor chegue até Vós; não
               afasteis de mim a vossa face.
             </Text>
@@ -983,12 +984,12 @@ export default function PageQuad63() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súscipe, quǽsumus, Dómine, munus oblátum, et dignánter operáre:
               ut, quod passiónis Fílii tui, Dómini nostri, mystério gérimus,
               piis afféctibus consequámur. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aceitai, Senhor, Vos suplicamos, o dom que Vos é oferecido, e pela
               vossa bondade permiti que nos enchamos de santos afectos, enquanto
               celebramos o mystério da Paixão de vosso Filho, nosso Senhor. Pelo
@@ -1001,12 +1002,12 @@ export default function PageQuad63() {
           <Text className="em">Sl. 101,10, 13 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Potum meum cum fletu temperábam: quia élevans allisísti me: et ego
               sicut fænum árui: tu autem, Dómine, in ætérnum pérmanes: tu
               exsúrgens miseréberis Sion, quia venit tempus miseréndi ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Misturei as minhas lágrimas com a minha bebida; porque, depois de
               haver sido elevado, me esmagastes, como palha. Mas Vós, Senhor,
               reinais eternamente. Erguei-Vos e compadecei-Vos de Sião, porque
@@ -1017,12 +1018,12 @@ export default function PageQuad63() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Largíre sénsibus nostris, omnípotens Deus: ut, per temporálem
               Fílii tui mortem, quam mystéria veneránda testántur, vitam te
               nobis dedísse perpétuam confidámus. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, concedei aos nossos sentidos a graça de
               acreditarmos confiadamente que foi pela morte temporal de vosso
               Filho (que estes venerandos mystérios comemoram) que nos
@@ -1033,23 +1034,25 @@ export default function PageQuad63() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Réspice, quǽsumus, Dómine, super hanc famíliam tuam, pro qua
               Dóminus noster Jesus Christus non dubitávit mánibus tradi
               nocéntium, et Crucis subíre torméntum: Qui tecum vivit et
               regnat...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos imploramos, Senhor, dignai-Vos lançar vossos olhares para esta
               vossa família, pela qual nosso Senhor Jesus Cristo não hesitou em
               se entregar às mãos dos criminosos e em sofrer o suplício da cruz.

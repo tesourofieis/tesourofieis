@@ -33,12 +33,12 @@ export default function Page0724Outro() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Indulgéntiam nobis, quǽsumus, Dómine, beáta Christína Virgo et
               Martyr implóret: quæ tibi grata semper éxstitit, et merito
               castitátis, et tuæ professióne virtútis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, Senhor, Vos pedimos que alcancemos o perdão dos
               nossos pecados pela intercessão da B. Catarina, Virgem e Mártir,
               que sempre Vos foi agradável não só pelos méritos da castidade,
@@ -49,12 +49,12 @@ export default function Page0724Outro() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hóstias tibi, Dómine, beátæ Christínæ Vírginis et Martyris tuæ
               dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue
               proveníre subsídium...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aceitai benignamente, Senhor, as hóstias que Vos oferecemos pelos
               méritos da B. Cristina, Virgem e Mártir, e dignai-Vos permitir que
               nos sirvam de perpétuo socorro...
@@ -64,12 +64,12 @@ export default function Page0724Outro() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Divíni númeris largitáte satiáti, quǽsumus, Dómine, Deus noster:
               ut, intercedénte beáta Christína Vírgine et Mártyre tua, in ejus
               semper participatióne vivámus...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Saciados com a liberdade do dom divino, Senhor, nosso Deus, Vos
               suplicamos, permiti, pela intercessão da B. Catarina, vossa
               Virgem, que comparticipemos sempre deste dom durante a vida...

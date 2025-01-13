@@ -15,31 +15,33 @@ export default function PageEpi20() {
           <Text className="em">Sl. 65, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini
-              tuo, Altíssime. <Text className="em">Ps. ibid., 1-2</Text>{" "}
-              Jubiláte Deo, omnis terra, psalmum dícite nómini ejus: date
-              glóriam laudi ejus. ℣. Gloria Patri...
+              tuo, Altíssime.{" "}
+              <Text className="text-base latin">Ps. ibid., 1-2</Text> Jubiláte
+              Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi
+              ejus. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que todo o universo Vos adore, ó Deus, e cante hinos em vosso
               louvor: Que toda a terra louve com cânticos a vossa glória, ó
-              Altíssimo! <Text className="em">Sl. ibid., 1-2</Text> Aclamai
-              jubilosamente o Senhor, ó habitantes da terra: cantai hinos em
-              honra do seu nome: glorificai-O com vossos louvores. ℣. Glória ao
-              Pai...
+              Altíssimo!{" "}
+              <Text className="text-base vernacular">Sl. ibid., 1-2</Text>{" "}
+              Aclamai jubilosamente o Senhor, ó habitantes da terra: cantai
+              hinos em honra do seu nome: glorificai-O com vossos louvores. ℣.
+              Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui cœléstia simul et terréna
               moderáris: supplicatiónes pópuli tui cleménter exáudi; et pacem
               tuam nostris concéde tempóribus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente e eterno, que governais ao mesmo tempo o céu e
               a terra, ouvi misericordiosamente as súplicas do vosso povo, e
               concedei a vossa paz aos nossos tempos. Por nosso Senhor...
@@ -49,13 +51,13 @@ export default function PageEpi20() {
           <Text className="h3">Epístola</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Habéntes donatiónes secúndum grátiam, quæ data est nobis,
               differéntes: sive prophétiam secúndum ratiónem fídei, sive
               ministérium in ministrándo, sive qui docet in doctrína, qui
@@ -70,7 +72,7 @@ export default function PageEpi20() {
               Gaudére cum gaudéntibus, flere cum fléntibus: Idípsum ínvicem
               sentiéntes: Non alta sapiéntes, sed humílibus consentiéntes.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Visto que todos recebemos dons diferentes, conforme a graça que
               nos foi dada, assim, pois, aquele que recebeu o dom da profecia,
               exerça-a, segundo a regra da fé; aquele que foi chamado para o
@@ -96,24 +98,26 @@ export default function PageEpi20() {
           <Text className="em">Sl. 106, 20-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Misit Dóminus verbum suum, et sanávit eos: et erípuit eos de
               intéritu eórum. ℣. Confiteántur Dómino misericórdiæ ejus: et
               mirabília ejus fíliis hóminum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Enviou o Senhor a sua palavra; curou-os e livrou-os da morte. ℣.
               Louvai o Senhor pela sua misericórdia: e pelos seus prodígios para
               com os filhos dos homens.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 148, 2</Text>{" "}
-              Laudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes
-              ejus. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 148, 2</Text> Laudáte
+              Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 148, 2</Text> Louvai
-              o Senhor, vós todos, que sois os seus Anjos: louvai-O, vós todos,
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 148, 2</Text> Louvai o
+              Senhor, vós todos, que sois os seus Anjos: louvai-O, vós todos,
               que sois os seus exércitos. Aleluia.
             </Text>
           </View>
@@ -123,15 +127,15 @@ export default function PageEpi20() {
           <Text className="em">Jo. 2, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Núptiæ factæ sunt in Cana Galilǽæ: et erat Mater
               Jesu ibi. Vocátus est autem et Jesus, et discípuli ejus ad
               núptias. Et deficiénte vino, dicit Mater Jesu ad eum: Vinum non
@@ -149,7 +153,7 @@ export default function PageEpi20() {
               adhuc. Hoc fecit inítium signórum Jesus in Cana Galilǽæ: et
               manifestávit glóriam suam, et credidérunt in eum discípuli ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, celebraram-se as bodas em Caná, de Galileia, e a
               Mãe de Jesus estava presente. Jesus foi também convidado com seus
               discípulos para assistir às núpcias. Havendo, então, faltado o
@@ -176,12 +180,12 @@ export default function PageEpi20() {
           <Text className="em">Sl. 65, 1-2 & 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Jubiláte Deo, univérsa terra: psalmum dícite nómini ejus: veníte
               et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit
               Dóminus ánimæ meæ, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aclamai jubilosamente o Senhor, ó habitantes da terra: cantai
               hinos em honra do seu nome! Vinde e ouvi, vós todos, que temeis
               Deus, e contar-vos-ei as graças que o Senhor fez à minha alma.
@@ -192,11 +196,11 @@ export default function PageEpi20() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oblata, Dómine, múnera sanctífica: nosque a peccatórum nostrórum
               máculis emúnda. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Santificai, Senhor, as oblatas que Vos oferecemos; e purificai-nos
               das manchas dos nossos pecados. Por nosso Senhor...
             </Text>
@@ -207,13 +211,13 @@ export default function PageEpi20() {
           <Text className="em">Jo. 2, 7, 8, 9 & 10-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dicit Dóminus: Implete hýdrias aqua et ferte architriclíno. Cum
               gustásset architriclínus aquam vinum factam, dicit sponso:
               Servásti bonum vinum usque adhuc. Hoc signum fecit Jesus primum
               coram discípulis suis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Disse o Senhor: «Enchei estas talhas com água e levai-as ao que
               dirige o banquete». E, logo que o que dirigia o banquete provou a
               água, mudada em vinho, disse ao esposo: «Tu guardaste o bom vinho
@@ -225,12 +229,12 @@ export default function PageEpi20() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Augeátur in nobis, quǽsumus, Dómine, tuæ virtútis operatio: ut
               divínis vegetáti sacraméntis, ad eórum promíssa capiénda, tuo
               múnere præparémur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, dignai-Vos aumentar em nós os efeitos do vosso poder, a
               fim de que, alimentados com os divinos sacramentos, nos preparemos
               com vossa graça para alcançar os benefícios, de que são o penhor.

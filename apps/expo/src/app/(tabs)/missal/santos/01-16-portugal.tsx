@@ -18,16 +18,18 @@ export default function Page0116Portugal() {
           <Text className="em">Sl. 33, 20-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Multæ tribulatiónes justórum, et de his ómnibus liberábit eos
               Dóminus: Dóminus custódit ómnia ossa eórum, unum ex his non
-              conterétur. <Text className="em">ibid., 1</Text> Benedícam Dóminum
-              in omni témpore: semper laus ejus in ore meo. ℣. Gloria Patri...
+              conterétur. <Text className="text-base latin">ibid., 1</Text>{" "}
+              Benedícam Dóminum in omni témpore: semper laus ejus in ore meo. ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Muitas são as tribulações dos justos, mas de todas elas o Senhor
               os livrará. O Senhor guarda todos seus ossos e nem um só deles
-              será quebrado. <Text className="em">ibid., 1</Text> Bendirei o
+              será quebrado.{" "}
+              <Text className="text-base vernacular">ibid., 1</Text> Bendirei o
               Senhor em todo o tempo; os seus louvores estarão sempre na minha
               boca. ℣. Glória ao Pai...
             </Text>
@@ -36,13 +38,13 @@ export default function Page0116Portugal() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui sanctórum Mártyrum tuórum Bérardi, Petri, Accúrsii,
               Adjúti, atque Othónis glorióso certámine órdinis Minórum inítia
               consecrásti: concéde nobis fámulis tuis; ut quorum lætámur
               triúmphis, eórum virtútes imitémur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que consagrastes os princípios da Ordem dos Menores com o
               glorioso martírio dos vossos Santos Mártires Berardo, Pedro,
               Acúrsio, Adjuto e Otão, permiti que nós, vossos servos, imitemos
@@ -54,12 +56,12 @@ export default function Page0116Portugal() {
           <Text className="h3">Oração Comemoração S. Marcelo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Preces pópuli tui, quæsumus, Dómine, cleménter exáudi: ut beáti
               Marcéllis Mártyris tui atque Pontíficis méritis adjuvémur, cujus
               passióne lætámur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, dignai-Vos ouvir clementemente as preces do vosso povo, a
               fim de que sejamos auxiliados pelos méritos do B. Marcelo, vosso
               Mártir e Pontífice, cujo martírio festejamos. Por nosso Senhor...
@@ -78,45 +80,46 @@ export default function Page0116Portugal() {
           <Text className="em">Sl. 78, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Víndica, Dómine, sánguinem Sanctórum tuórum, qui effúsus est. ℣.{" "}
-              <Text className="em">Ps. ibid., 2</Text> Posuérunt morticína
-              servórum tuórum, Dómine, escas volatílibus cælis: carnes Sanctórum
-              tuórum béstiis terræ.
+              <Text className="text-base latin">Ps. ibid., 2</Text> Posuérunt
+              morticína servórum tuórum, Dómine, escas volatílibus cælis: carnes
+              Sanctórum tuórum béstiis terræ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vingai, Senhor, o sangue dos vossos Santos que foi derramado. ℣.{" "}
-              <Text className="em">Sl. ibid., 2</Text> Deram para alimento às
-              aves do céu os corpos dos vossos servos, que haviam sido mortos; e
-              deram as carnes dos vossos Santos às feras da terra.
+              <Text className="text-base vernacular">Sl. ibid., 2</Text> Deram
+              para alimento às aves do céu os corpos dos vossos servos, que
+              haviam sido mortos; e deram as carnes dos vossos Santos às feras
+              da terra.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi
               crímina: Christum secúta est, ínclyta tenes regna cæléstia.
               Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Eis a verdadeira fraternidade que venceu os
               crimes do mundo. Ela seguiu Cristo, possuindo gloriosamente o
               reino celestial. Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o Verso, e diz-se o Trato:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 125, 5-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui séminant in lácrimis, in gáudio metent. ℣. Eúntes ibant et
               flébant, mitténtes sémina sua. ℣. Veniéntes autem vénient cum
               exsultatióne, portántes manípulos suos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aqueles que semeiam com lágrimas ceifarão com júbilo. ℣. Iam,
               caminhavam e lançavam a semente à terra, chorando. ℣. Porém,
               quando voltavam, exultavam de alegria, trazendo os seus molhos de
@@ -129,15 +132,15 @@ export default function Page0116Portugal() {
           <Text className="em">Mt. 10, 16-22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discipulis suis: Ecce ego mitto vos
               sicut oves in médio lupórum. Estóte ergo prudéntes sicut
               serpéntes, et simplices sicut colúmbæ. Cavéte autem ab homínibus.
@@ -151,7 +154,7 @@ export default function Page0116Portugal() {
               paréntes, et morte eos affícient: et éritis ódio ómnibus autem
               perseveráverit usque in finem, hic salvus erit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Eis que vos
               envio, como ovelhas no meio de lobos. Sede, pois, prudentes, como
               as serpentes, e simples, como as pombas. Acautelai-vos dos homens,
@@ -174,12 +177,12 @@ export default function Page0116Portugal() {
           <Text className="em">Pr. 3, 1-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Justórum ánimæ in manu Dei sunt, et non tanget ilos torméntum
               malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in
               pace. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               As almas dos justos estão nas mãos de Deus e o tormento da malícia
               as não tocará! Aos olhos dos insensatos pareciam quase a morrer,
               todavia estão na paz. Aleluia.
@@ -189,12 +192,12 @@ export default function Page0116Portugal() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Pro pretiósa, Dómine, tuórum morte Sanctórum sacrifícium istud
               offérimus: quo opem tuam nostris tempóribus cleménter impéndas, et
               grátiam nobis veræ devotiónis exhíbeas. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos oferecemos, Senhor, este sacrifício em honra da preciosa morte
               dos vossos Santos, a fim de que em virtude dele nos concedais
               clementemente em nossos dias o vosso auxílio e a graça da
@@ -205,12 +208,12 @@ export default function Page0116Portugal() {
           <Text className="h3">Secreta Comemoração S. Marcelo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súscipe, quæsumus, Dómine, múnera dignánter obláta: et beáti
               Marcélli Mártyris tui atque Pontíficis, suffragántibus méritis, ad
               nostræ salútis auxílium provenire concéde. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai
               benignamente a vossa Igreja, a fim de que não só o vosso rebanho
               triunfe em toda a parte, mas também pelo poder do vosso nome os
@@ -223,11 +226,11 @@ export default function Page0116Portugal() {
           <Text className="em">Lc. 12, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dico autem vobis amícis meis: ne terreámini ab his, qui vos
               persequúntur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Digo-vos, pois, a vós, que sois meus amigos: «Não tenhais medo
               daqueles que vos perseguem».
             </Text>
@@ -236,13 +239,13 @@ export default function Page0116Portugal() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cæléstia, Dómine, domina, quæ súmpsimus, vitam nobis tríbuant
               sempitérnam: quam cum beatórum Mártyrum tuórum Berárdi, Petri,
               Accúrsii, Adjúti, atque Othónis, gloriósis méritis implorámus. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que os dons celestiais que recebemos, Senhor, nos comuniquem a
               vida eterna, a qual Vos suplicamos pelos gloriosos méritos dos
               vossos Mártires Berardo, Pedro, Acúrsio, Adjuto e Otão. Por nosso
@@ -253,12 +256,12 @@ export default function Page0116Portugal() {
           <Text className="h3">Postcomúnio Comemoração S. Marcelo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quæsumus,
               semper interventióne nos réfove, cujus solémnia celebrámus. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, governai com mansidão a vossa Igreja,
               agora que foi alimentada com a sagrada refeição, a fim de que,
               dirigida com firme suavidade, alcance o incremento da sua

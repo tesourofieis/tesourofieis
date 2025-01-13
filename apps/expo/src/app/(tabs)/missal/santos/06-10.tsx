@@ -23,13 +23,13 @@ export default function Page0610() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátam Margarítam regínam exímia in páuperes caritáte
               inirábilem effecísti: da; ut, ejus intercessióne et exémplo, tua
               in córdibus nostris cáritas júgiter augeátur. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que tornastes admirável a B. Margarida, rainha,
               concedendo-lhe uma caridade extraordinária para com os pobres,
               permiti que, pelo seu exemplo e intercessão, a vossa caridade

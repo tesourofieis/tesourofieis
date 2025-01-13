@@ -23,12 +23,12 @@ export default function Page0116() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut beáti
               Marcélli Mártyris tui atque Pontíficis méritis adjuvémur, cujus
               passióne lætámur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, dignai-Vos ouvir clementemente as preces do vosso povo, a
               fim de que sejamos auxiliados pelos méritos do B. Marcelo, vosso
               Pontífice e Mártir, cujo martírio festejamos. Por nosso Senhor...

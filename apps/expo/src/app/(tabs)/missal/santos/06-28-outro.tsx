@@ -39,33 +39,35 @@ export default function Page0628Outro() {
           <Text className="em">Ml. 2, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lex veritátis fuit in ore ejus, et iníquitas non est invénta in
               lábiis ejus: in pace et in æquitáte ambulávit mecum, et multos
-              avértit ab iniquitáte. <Text className="em">Ps. 77, 1</Text>{" "}
-              Atténdite, pópule meus, legem meam: inclináte aurem vestram in
-              verba oris mei. ℣. Gloria Patri...
+              avértit ab iniquitáte.{" "}
+              <Text className="text-base latin">Ps. 77, 1</Text> Atténdite,
+              pópule meus, legem meam: inclináte aurem vestram in verba oris
+              mei. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A lei da verdade esteve na sua boca, e a iniquidade nunca existiu
               nos seus lábios: caminhou comigo na paz e na equidade e afastou
-              muitos da iniquidade. <Text className="em">Sl. 77, 1</Text> Ouvi,
-              ó meu povo, a minha lei: inclinai vossos ouvidos para as palavras
-              da minha boca. ℣. Glória ao Pai...
+              muitos da iniquidade.{" "}
+              <Text className="text-base vernacular">Sl. 77, 1</Text> Ouvi, ó
+              meu povo, a minha lei: inclinai vossos ouvidos para as palavras da
+              minha boca. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beáto Irenǽo Mártyri tuo atque Pontifici tribuísti, ut
               et veritate doctrínæ expugnáret hǽreses, et pacem Ecclésiæ
               felíciter confirmáret: da, quǽsumus, plebi tuæ in sancta religióne
               constántiam; et pacem tuam nostris concéde tempóribus. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que concedestes ao B. Ireneu, vosso Mártir e Pontífice,
               que combatesse as heresias com a verdade da doutrina e que
               alcançasse felizmente a paz para a Igreja, permiti, Vos
@@ -80,13 +82,13 @@ export default function Page0628Outro() {
           <Text className="em">2 Tm. 3, 14-17; 4, 1-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Caríssime: Permane in iis, quæ didicísti et crédita sunt tibi:
               sciens, a quo didíceris; et quia ab infántia sacras; lítteras
               nosti, quæ te possunt instrúere ad salútem, per fidem, quæ est in
@@ -102,7 +104,7 @@ export default function Page0628Outro() {
               fábulas autem converténtur. Tu vero vígila, in ómnibus labóra,
               opus fac Evangelístæ, ministérium tuum ímpie.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimo: Permanece firme naquelas coisas que aprendeste, das
               quais tens a certeza, sabendo de quem as aprendeste. Além de que
               desde a infância que conheces as sagradas letras que podem
@@ -127,24 +129,28 @@ export default function Page0628Outro() {
           <Text className="em">Sl. 121, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Propter fratres meos et próximos meos loquébar pacem de te. ℣.{" "}
-              <Text className="em">Ps. 36, 37</Text> Custódi innocéntiam et vide
-              æquitátem: quóniam sunt relíquiæ hómini pacífico.
+              <Text className="text-base latin">Ps. 36, 37</Text> Custódi
+              innocéntiam et vide æquitátem: quóniam sunt relíquiæ hómini
+              pacífico.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Por causa dos meus irmãos e dos meus vizinhos, peço a paz para
-              vós. ℣. <Text className="em">Sl. 36, 37</Text> Guardai a inocência
-              e observai a justiça, pois o homem pacífico terá posteridade.
+              vós. ℣. <Text className="text-base vernacular">Sl. 36, 37</Text>{" "}
+              Guardai a inocência e observai a justiça, pois o homem pacífico
+              terá posteridade.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Eccli. 6, 35</Text> In
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Eccli. 6, 35</Text> In
               multitúdine presbyterórum prudéntium sta, et sapiéntiæ illórum ex
               corde conjúngere, ut omnem narratiónem Dei possis audíre.
               Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Ecl. 6, 35</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Ecl. 6, 35</Text>{" "}
               Permanecei na assembleia dos presbíteros e uni-vos de coração à
               sua sabedoria, para que possais ouvir tudo quanto digam de Deus.
               Aleluia.
@@ -156,15 +162,15 @@ export default function Page0628Outro() {
           <Text className="em">Mt. 10, 28-33</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Nolíte timére eos,
               qui occídunt corpus, ánimam autem non possunt occídere; sed pótius
               timéte eum, qui potest et ánimam et corpus pérdere in gehénnam.
@@ -176,7 +182,7 @@ export default function Page0628Outro() {
               negáverit me coram homínibus, negábo et ego eum coram Patre meo,
               qui in cœlis est.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Não tenhais medo
               daqueles que matam o corpo e não podem matar a alma; temei antes
               Aquele que pode condenar a alma e o corpo ao inferno. Porventura
@@ -194,11 +200,11 @@ export default function Page0628Outro() {
           <Text className="em">Ecl. 24, 44</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Doctrínam quasi ante lucánum illúmino ómnibus, et enarrábo illam
               usque ad longínquum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A doutrina que espalharei em todo o mundo será como a luz matutina
               que iluminará a todos: e transmiti-la-ei até ao decorrer dos
               séculos.
@@ -208,13 +214,13 @@ export default function Page0628Outro() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui credéntes in te pópulos nullis sinis cóncuti terróribus:
               dignáre preces et hóstias dicátæ tibi plebis suscípere; ut pax, a
               tua pietáte concéssa, christianórum fines ab omni hoste fáciat
               esse secúros. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que conservais a paz nos povos que acreditam em Vós,
               dignai-Vos aceitar as preces e as hóstias que os vossos fiéis Vos
               oferecem, para que a paz, que concedeis benignamente, deixe os
@@ -228,11 +234,11 @@ export default function Page0628Outro() {
           <Text className="em">Ecl. 24, 47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vidéte, quóniam non soli mihi laborávi, sed ómnibus exquiréntibus
               veritátem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vede como não tenho trabalhado só para mim, mas para todos aqueles
               que procuram a verdade.
             </Text>
@@ -241,14 +247,14 @@ export default function Page0628Outro() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, auctor pacis et amátor, quem nosse vívere, cui servíre
               regnáre est: prótege ab ómnibus impugnatiónibus súpplices tuos;
               ut, qui in defensióne tua confídimus, beáti Irenǽi Mártyris tui
               atque Pontíficis intercessióne, nullius hostilitátis arma
               timeámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que sois autor e amante da paz, aqueles que Vos conhecem
               vivem, e aqueles que Vos servem reinam: protegei, pois, contra
               todas as adversidades os vossos suplicantes, para que, havendo

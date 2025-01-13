@@ -30,35 +30,36 @@ export default function Page0428() {
           <Text className="em">Gl. 2, 19-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Christo confíxus sum Cruci: vivo autem, jam non ego; vivit vero in
               me Christus: in fide vivo Filii Dei, qui diléxit me, et trádidit
               semetípsum pro me, allelúja. allelúja.{" "}
-              <Text className="em">Ps. 40, 2</Text> Beátus, qui intéllegit super
-              egénum et páuperem: in die mala liberábit eum Dóminus. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. 40, 2</Text> Beátus, qui
+              intéllegit super egénum et páuperem: in die mala liberábit eum
+              Dóminus. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Estou pregado na Cruz com Cristo; e vivo, mas já não sou eu que
               vivo: é Cristo que vive em mim. Vivo na fé do Filho de Deus, que
               me amou e se entregou voluntariamente por mim, aleluia, aleluia.{" "}
-              <Text className="em">Sl. 40, 2</Text> Bem-aventurado aquele que é
-              cuidadoso para com o pobre e o indigente, pois o Senhor o livrará
-              no dia infeliz. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 40, 2</Text>{" "}
+              Bem-aventurado aquele que é cuidadoso para com o pobre e o
+              indigente, pois o Senhor o livrará no dia infeliz. ℣. Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine Jesu Christe, qui, ad mystérium Crucis prædicándum, sanctum
               Paulum singulári caritáte donásti, et per eum novam in Ecclésia
               famíliam floréscere voluísti: ipsíus nobis intercessióne concéde;
               ut, passiónem tuam júgiter recoléntes in terris, ejúsdem fructum
               cónsequi mereámur in cœlis: Qui vivis et regnas...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, que destes a S. Paulo uma caridade singular
               para pregar o mystério da Cruz e que por seu intermédio quisestes
               que florescesse na Igreja uma nova família, concedei-nos por sua
@@ -72,13 +73,13 @@ export default function Page0428() {
           <Text className="em">1 Cor. 1, 17-25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Non misit me Christus baptizáre, sed evangelizáre: non in
               sapiéntia verbi, ut non evacuétur Crux Christi. Verbum enim Crucis
               pereúntibus quidem stultítia est: iis autem, qui salvi fiunt, id
@@ -94,7 +95,7 @@ export default function Page0428() {
               Dei sapiéntiam: quia, quod stultum est Dei, sapiéntius est
               homínibus: et, quod infírmum est Dei, fórtius est homínibus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Cristo me não mandou baptizar, mas pregar o
               Evangelho; não, porém, simplesmente segundo a sabedoria das
               palavras, para não tornar vã a Cruz de Cristo. Com efeito, a
@@ -117,22 +118,23 @@ export default function Page0428() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">2 Cor. 5, 15</Text>{" "}
-              Pro ómnibus mórtuus est Christus: ut, et qui vivunt, jam non sibi
-              vivant, sed ei, qui pro ipsis mórtuus est, et resurréxit.
-              Allelúja. ℣. <Text className="em">Rom. 8, 17</Text> Si fílii, et
-              herédes: heródes quidem Dei, coherédes autem Christi: si tamen
-              compátimur, ut et conglorificémur. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">2 Cor. 5, 15</Text> Pro ómnibus
+              mórtuus est Christus: ut, et qui vivunt, jam non sibi vivant, sed
+              ei, qui pro ipsis mórtuus est, et resurréxit. Allelúja. ℣.{" "}
+              <Text className="em">Rom. 8, 17</Text> Si fílii, et herédes:
+              heródes quidem Dei, coherédes autem Christi: si tamen compátimur,
+              ut et conglorificémur. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">2 Cor. 5, 15</Text>{" "}
-              Cristo morreu por todos, a fim de que aqueles que vivem não vivam
-              já para si, mas para Aquele que morreu e ressuscitou por eles.
-              Aleluia. ℣. <Text className="em">Rm. 8, 17</Text> Se somos filhos,
-              somos também herdeiros: herdeiros de Deus e co-herdeiros de
-              Cristo. Se, pois, sofremos com Ele, com Ele seremos glorificados.
-              Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">2 Cor. 5, 15</Text> Cristo
+              morreu por todos, a fim de que aqueles que vivem não vivam já para
+              si, mas para Aquele que morreu e ressuscitou por eles. Aleluia. ℣.{" "}
+              <Text className="em">Rm. 8, 17</Text> Se somos filhos, somos
+              também herdeiros: herdeiros de Deus e co-herdeiros de Cristo. Se,
+              pois, sofremos com Ele, com Ele seremos glorificados. Aleluia.
             </Text>
           </View>
 
@@ -148,12 +150,12 @@ export default function Page0428() {
           <Text className="em">Ef. 5, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ambuláte in dilectióne, sicut et Christus diléxit nos, et trádidit
               semetípsum pro nobis oblatiónem et hóstiam Deo in odórem
               suavitátis, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vivei no amor, assim como Cristo nos amou e se entregou
               voluntariemente por nós, como oblação e vítima oferecida a Deus em
               suave odor. Aleluia.
@@ -163,13 +165,13 @@ export default function Page0428() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœléstem nobis, Dómine, prǽbeant mystéria hæc passiónis et mortis
               tuæ fervórem: quo sanctus Paulus, ea offeréndo, corpus suum
               hóstiam vivéntem, sanctam tibíque placéntem exhíbuit: Qui vivis et
               regnas...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, que estes mystérios da vossa Paixão e morte nos
               inspirem o fervor celestial com que S. Paulo, celebrando-os,
               ofereceu o seu corpo como uma hóstia viva, santa e agradável a
@@ -182,11 +184,11 @@ export default function Page0428() {
           <Text className="em">1 Pe. 4, 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Communicántes Christi passiónibus gaudéte, ut in revelatióne
               glóriæ ejus gaudeátis exsultántes, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegrai-vos, participando nos sofrimentos de Cristo, a fim de que,
               quando for a manifestação da sua glória, vos regozijeis em
               transportes de alegria, aleluia.
@@ -196,14 +198,14 @@ export default function Page0428() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súmpsimus, Dómine, divínum sacraméntum, imménsæ caritátis tuæ
               memoriále perpétuum: tríbue, quǽsumus; ut, sancti Pauli méritis et
               imitatióne, aquam de fóntibus tuis hauriámus in vitam ætérnam
               saliéntem, et tuam sacratíssimam passiónem córdibus nostris
               impréssam móribus et vita teneámus: Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebemos, Senhor, este divino sacramento memorial perpétuo da
               vossa infinita caridade; e concedei-nos, Vos imploramos, que pelos
               méritos de S. Paulo e imitando o seu exemplo, bebamos nas fontes

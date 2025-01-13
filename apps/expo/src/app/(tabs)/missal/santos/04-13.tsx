@@ -24,12 +24,12 @@ export default function Page0413() {
           />
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátum Hermenegíldum Mártyrem tuum cœlésti regno
               terrénum postpónere docuísti: da, quǽsumus, nobis; ejus exémplo
               cadúca despícere atque ætérna sectári. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que ensinastes o S. Hermenegildo, vosso Mártir, a preferir
               o reino celestial ao terrestre, concedei-nos a graça, Vos
               suplicamos, de, seguindo seus exemplos, desprezarmos os bens

@@ -16,46 +16,48 @@ export default function PageQuad43() {
           <Text className="em">Ez. 36, 23-26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dum sanctificátus fúero in vobis, congregábo vos de univérsis
               terris: et effúndam super vos aquam mundam, et mundabímini ab
               ómnibus inquinaméntis vestris: et dabo vobis spíritum novum.{" "}
-              <Text className="em">Ps. 33, 2</Text> Benedícam Dóminum in omni
-              témpore: semper laus ejus in ore meo. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 33, 2</Text> Benedícam
+              Dóminum in omni témpore: semper laus ejus in ore meo. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Quando eu for santificado no meio de vós, reunir-vos-ei de todos
               os países. Então vos aspergirei com água pura, ficareis limpos de
               todas as iniquidades e vos darei um espírito novo.{" "}
-              <Text className="em">Sl. 33, 2</Text> Bendirei o Senhor
-              continuamente; sempre a minha boca o louvará. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 33, 2</Text> Bendirei o
+              Senhor continuamente; sempre a minha boca o louvará. ℣. Glória ao
+              Pai...
             </Text>
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-center">℣. Flectámus génua.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℣. Flectámus génua.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-center">℣. Ajoelhemos!</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui et justis prǽmia meritórum et peccatóribus per jejúnium
               véniam præbes: miserére supplícibus tuis; ut reátus nostri
               conféssio indulgéntiam valeat percípere delictórum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que por meio do jejum concedeis aos justos a recompensa de
               seus méritos e aos pecadores o perdão de seus pecados, tende
               misericórdia dos vossos fiéis suplicantes, para que, por meio da
@@ -69,9 +71,11 @@ export default function PageQuad43() {
           <Text className="em">Ez. 36, 23-28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Ezechiélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Ezequiel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Ezechiélis Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Ezequiel.
+            </Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus Deus: Sanctificábo nomen meum magnum, quod
               pollútum est inter gentes, quod polluístis in médio eárum: ut
               sciant gentes, quia ego Dóminus, cum sanctificátus Mero in vobis
@@ -86,7 +90,7 @@ export default function PageQuad43() {
               in terra, quam dedi pátribus vestris: et éritis mihi in pópulum,
               et ego ero vobis in Deum: dicit Dóminus omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Assim fala o Senhor Deus: «Santificarei o meu admirável nome, que
               foi profanado pelos povos (entre os quais vós também o
               desonrastes), para que as nações conheçam que sou o Senhor. Quando
@@ -109,11 +113,11 @@ export default function PageQuad43() {
           <Text className="em">Sl. 38, 12 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Veníte, fílii, audíte me: timórem Dómini docébo vos. ℣. Accédite
               ad eum, et illuminámini: et fácies vestræ non confundéntur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, filhos, escutai-me: Eu vos ensinarei a temer o Senhor. ℣.
               Aproximai-vos d’Ele e ficareis cheios de luz; a confusão não mais
               cobrirá o vosso rosto.
@@ -123,12 +127,12 @@ export default function PageQuad43() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut, quos jejúnia votiva
               castígant, ipsa quoque devótio sancta lætíficet; ut, terrénis
               afféctibus mitigátis, facílius cœléstia capiámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, castigando nós voluntariamente os nossos
               corpos com estes solenes jejuns, concedei-nos, Vos suplicamos, que
               sejamos consolados com a alegria de uma piedade santa, a fim de
@@ -142,9 +146,11 @@ export default function PageQuad43() {
           <Text className="em">Is. 1, 16-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus Deus: Lavámini, mundi estóte, auférte malum
               cogitatiónum vestrárum ab óculis meis: quiéscite ágere pervérse,
               díscite benefácere: quǽrite judícium, subveníte opprésso, judicáte
@@ -154,7 +160,7 @@ export default function PageQuad43() {
               voluéritis et audiéritis me, bona terræ comedétis: dicit Dóminus
               omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Isto diz o Senhor Deus: «Levantai-vos, purificai-vos, afastai
               diante dos meus olhos a malícia dos vossos pensamentos, deixai de
               praticar o mal, aprendei a praticar o bem, procurai a justiça,
@@ -173,12 +179,12 @@ export default function PageQuad43() {
           <Text className="em">Sl. 32, 12 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit
               Dóminus in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et
               spíritu oris ejus omnis virtus eórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bem-aventurada a nação cujo Deus é o Senhor; bem-aventurado o povo
               que Ele escolheu para sua herança. Pela palavra do Senhor foram
               criados os céus; e do sopro da sua boca veio toda sua virtude.
@@ -197,15 +203,15 @@ export default function PageQuad43() {
           <Text className="em">Jo. 9, 1-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Prætériens Jesus vidit hóminem cæcum a
               nativitáte: et interrogavérunt eum discípuli ejus: Rabbi, quis
               peccávit, hic aut paréntes ejus, ut cæcus nascerétur? Respóndit
@@ -262,10 +268,11 @@ export default function PageQuad43() {
               cum invenísset eum, dixit ei: Tu credis in Fílium Dei? Respóndit
               ille et dixit: Quis est, Dómine, ut credam in eum? Et dixit ei
               Jesus: Et vidísti eum, et qui lóquitur tecum, ipse est. At ille
-              ait: Credo, Dómine. <Text className="em">hic genuflectitur</Text>{" "}
-              Et prócidens adorávit eum.
+              ait: Credo, Dómine.{" "}
+              <Text className="text-base latin">hic genuflectitur</Text> Et
+              prócidens adorávit eum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, indo Jesus a passar, viu um cego de nascença. Então
               os seus discípulos interrogaram-n’O: «Mestre, quem foi que pecou,
               para que ele tivesse nascido cego? Ele ou os seus pais?».
@@ -326,8 +333,8 @@ export default function PageQuad43() {
               Deus?». Respondeu o cego, dizendo: «Quem é ele, Senhor, para que
               eu creia?». Jesus disse-lhe: «Já o tens visto. É Aquele que fala
               contigo!». E o cego disse: «Creio, Senhor!».{" "}
-              <Text className="em">Todos devem ajoelhar</Text> E de joelhos o
-              adorou!
+              <Text className="text-base vernacular">Todos devem ajoelhar</Text>{" "}
+              E de joelhos o adorou!
             </Text>
           </View>
 
@@ -336,13 +343,13 @@ export default function PageQuad43() {
           <Text className="em">Sl. 65, 8-9 & 20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem
               laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit
               commovéri pedes meos: benedíctus Dóminus, qui non amóvit
               deprecatiónem mam, et misericórdiam suam a me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó povos, bendizei o Senhor, nosso Deus, e fazei ressoar os seus
               louvores: foi Ele quem conservou a vida à minha alma e não deixou
               que meus pés tropeçassem. Bendito seja o Senhor, que não desprezou
@@ -353,12 +360,12 @@ export default function PageQuad43() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súpplices te rogámus, omnípotens Deus: ut his sacrifíciis peccáta
               nostra mundéntur; quia tunc veram nobis tríbuis et mentis et
               córporis sanitátem. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ordenai, ó Deus omnipotente, humildemente Vos rogamos, que estes
               sacrifícios nos purifiquem e nos concedam a verdadeira saúde da
               alma e do corpo. Por nosso Senhor...
@@ -370,11 +377,11 @@ export default function PageQuad43() {
           <Text className="em">Jo. 9, 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lutum fecit ex sputo Dóminus, et linívit óculos meos: et ábii, et
               lavi, et vidi, et crédidi Deo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor fez lodo com sua saliva e untou os meus olhos. Então,
               lavei-me, vi e acreditei em Deus.
             </Text>
@@ -383,12 +390,12 @@ export default function PageQuad43() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacraménta, quæ súmpsimus, Dómine, Deus noster: et spirituálibus
               nos répleant aliméntis, et corporálibus tueántur auxíliis. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que estes sacramentos, que recebemos, Senhor, nosso Deus, saciem
               nossas almas com o alimento espiritual e protejam nossos corpos
               com os auxílios temporais. Por nosso Senhor...
@@ -398,16 +405,18 @@ export default function PageQuad43() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Páteant aures misericórdiæ tuæ. Dómine, précibus supplicántium:
               et, ut peténtibus desideráta concédas; fac eos, quæ tibi sunt
               plácita, postuláre. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que os ouvidos da vossa misericórdia escutem atentos as
               orações daqueles que a imploram; e, a fim de que alcancem o que
               desejam, fazei que Vos peçam o que Vos é agradável. Por nosso

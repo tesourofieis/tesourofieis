@@ -16,32 +16,33 @@ export default function Page1105Portugal() {
           <Text className="em">Sl. 33, 20-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Multæ tribulatiónes justórum, et de his ómnibus liberávit eos
               Dóminus: Dóminus custódit ómnia ossa eórum, unum ex his non
-              conterétur. <Text className="em">Ps. ibid., 2</Text> Benedícam
-              Dóminum in omni témpore: semper laus ejus in ore meo. ℣. Gloria
-              Patri...
+              conterétur. <Text className="text-base latin">Ps. ibid., 2</Text>{" "}
+              Benedícam Dóminum in omni témpore: semper laus ejus in ore meo. ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Muitas são as tribulações dos justos, mas de todas elas o Senhor
               os livrará. O Senhor guarda todos seus ossos e nem um só deles
-              será quebrado. <Text className="em">Sl. ibid., 2</Text> Bendirei o
-              Senhor em todo o tempo: os seus louvores estarão sempre na minha
-              boca. ℣. Glória ao Pai...
+              será quebrado.{" "}
+              <Text className="text-base vernacular">Sl. ibid., 2</Text>{" "}
+              Bendirei o Senhor em todo o tempo: os seus louvores estarão sempre
+              na minha boca. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Auge in nobis, Dómine, ressurrectiónis fidem, qui in Sanctórum
               tuórum mirabília operáris: et fac nos immortális glóriæ
               partícipes, cujus in eórum cinéribus pígnora venerámur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a nossa fé na ressurreição cresça, Senhor, à vista das
               maravilhas que operais pelas Relíquias dos vossos Santos; e
               concedei-nos que participemos da glória imortal, de que são penhor
@@ -54,9 +55,11 @@ export default function Page1105Portugal() {
           <Text className="em">Ecl. 44, 10-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Hi viri misericórdiæ sunt, quorum pietátis non defuérunt: cum
               sémine eórum pérmanent bona, heréditas sancta nepótes eórum, et in
               testaméntis stetit semen eórum: et fílii eórum propter illos usque
@@ -65,7 +68,7 @@ export default function Page1105Portugal() {
               generatioónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum
               núntiet Ecclésia.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Estes são homens misericordiosos, cujas virtudes não foram
               olvidadas. A felicidade transmitiu-se à sua descendência e a sua
               herança foi assegurada aos netos, mantendo-se sua descendência
@@ -82,24 +85,26 @@ export default function Page1105Portugal() {
           <Text className="em">Sl. 149, 5 & 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exultábunt Sancti in glória: lætabúntur in cubílibus suis. ℣.
               Cantáte Dómino cánticum novum: laus ejus in Ecclésia Sanctórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Os Santos exultarão na glória: alegrar-se-ão na sua mansão. ℣.
               Cantai ao Senhor um cântico novo: que seus louvores permaneçam na
               assembleia dos Santos.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 67</Text> Justi
-              epuléntur, et exsúltent in conspéctu Dei: et delecténtur in
-              lætítia. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 67</Text> Justi epuléntur,
+              et exsúltent in conspéctu Dei: et delecténtur in lætítia.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 67</Text>{" "}
-              Inebriem-se os justos e exultem de alegria na presença de Deus!
-              Que se deliciem na alegria. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 67</Text> Inebriem-se
+              os justos e exultem de alegria na presença de Deus! Que se
+              deliciem na alegria. Aleluia.
             </Text>
           </View>
 
@@ -115,11 +120,11 @@ export default function Page1105Portugal() {
           <Text className="em">Sl. 67, 36</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mirábilis Deus in Sanctis suis: Deus Israël ipse dabit virtútem et
               fortitúdinem plebi suæ: benedíctus Deus, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus é admirável em seus Santos: Deus de Israel dará ao seu povo a
               força e a coragem: Bendito seja Deus. Aleluia.
             </Text>
@@ -128,12 +133,12 @@ export default function Page1105Portugal() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Implorámus, Dómine, cleméntiam tuam: ut Sanctórum tuórum, quorum
               relíquias venerámur, suffragántibus méritis, hóstia, quam
               offérimus, nostrórum sit expiátio delictórum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Imploramos, Senhor, a vossa clemência, a fim de que, pelos méritos
               dos vossos Santos, dos quais veneramos as Relíquias, a hóstia, que
               oferecemos, sirva de expiação dos nossos delitos. Por nosso
@@ -146,10 +151,10 @@ export default function Page1105Portugal() {
           <Text className="em">Sl. 32, 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gaudéte justi in Dómino: rectos decet collaudátio.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegrai-Vos no Senhor, ó justos: aos que são rectos é que pertence
               cantar os vossos louvores.
             </Text>
@@ -158,13 +163,13 @@ export default function Page1105Portugal() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Multíplica super nos, quæsumus, Dómine, per hæc sancta, quæ
               súmpsimus, misericórdiam tuam: ut sicut in tuórum solemnitáte
               Sanctórum, quorum relíquias cólimus, pia devotióne lætámur; ita
               eórum perpétua societáte, te largiénte, fruámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que os sacrossantos mystérios, que recebemos, Senhor, Vos rogamos,
               multipliquem em nós a vossa misericórdia, a fim de que, assim como
               nos alegramos com pia devoção nesta solenidade dos vossos Santos,

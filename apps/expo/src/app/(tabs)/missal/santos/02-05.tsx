@@ -25,20 +25,20 @@ export default function Page0205() {
           <Text className="h3">Intróito</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Agathæ Vírginis et Martyris: de cujus passióne gaudent
               Angeli et colláudant Fílium Dei.{" "}
-              <Text className="em">Ps. 44, 2</Text> Eructávit cor meum verbum
-              bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 44, 2</Text> Eructávit cor
+              meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegremo-nos todos no Senhor, celebrando neste dia a festividade
               em honra da B. Águeda, Virgem e Mártir, de cujo martírio se
               regozijam os Anjos, que louvam o Filho de Deus.{" "}
-              <Text className="em">Sl. 44, 2</Text> Meu coração exprimiu uma
-              excelente palavra: «Consagro ao Rei as minhas obras!». ℣. Glória
-              ao Pai...
+              <Text className="text-base vernacular">Sl. 44, 2</Text> Meu
+              coração exprimiu uma excelente palavra: «Consagro ao Rei as minhas
+              obras!». ℣. Glória ao Pai...
             </Text>
           </View>
 
@@ -47,13 +47,13 @@ export default function Page0205() {
           <Text className="em">1 Cor. 1, 26-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Vidéte vocatiónem vestram: quia non multi sapiéntes
               secúndum carnem, non multi poténtes, non multi nóbiles: sed quæ
               stulta sunt mundi elégit Deus, ut confúndat sapiéntes: et infírma
@@ -64,7 +64,7 @@ export default function Page0205() {
               Deo, et justítia, et sanctificátio, et redémptio: ut, quemádmodum
               scriptum est: Qui gloriátur, in Dómino gloriétur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Examinai a vossa vocação, porque não há, segundo a carne, nem
               muitos sábios, nem muitos poderosos, nem muitos nobres; mas Deus
               escolheu aquele que o mundo julga insensato, para confundir os
@@ -83,43 +83,44 @@ export default function Page0205() {
           <Text className="em">Sl. 45, 6 & 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adjuvábit eam Deus vultu suo: Deus in médio ejus, non
               commovébitur. ℣. Flúminis impetus lætíficat civitátem Dei:
               sanctificávit tabernáculum suum Altíssimus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor a auxiliará com seu olhar: Deus está no meio dela e a não
               deixará vacilar. ℣. Um rio com suas águas alegra a cidade de Deus.
               O Altíssimo santificou o seu tabernáculo.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 118, 46</Text>{" "}
-              Loquébar de testimóniis tuis in conspéctu regum, et non
-              confundébar. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 118, 46</Text> Loquébar de
+              testimóniis tuis in conspéctu regum, et non confundébar. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 118, 46</Text>{" "}
-              Perante os reis, publicarei os vossos testemunhos e não me
-              envergonharei. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 118, 46</Text> Perante
+              os reis, publicarei os vossos testemunhos e não me envergonharei.
+              Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o Verso, e diz-se o:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 125, 5-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui séminant in lácrimis, in gáudio metent. ℣. Eúntes ibant et
               fiébant, mitténtes semina sua. ℣. Veniéntes autem vénient cum
               exsultatióne, portántes manípulos suos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aqueles que semearam com lágrimas colherão com alegria. ℣. Iam,
               caminhavam e lançavam a semente à terra, chorando. ℣. Mas
               regressaram com alegria, transportando os seus molhos de trigo.
@@ -131,15 +132,15 @@ export default function Page0205() {
           <Text className="em">Mt. 19, 3-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Accessérunt ad Jesum pharisǽi, tentántes eum et
               dicéntes: Si licet hómini dimíttere uxórem suam quacúmque ex
               causa? Qui respóndens, ait eis: Non legístis, quia, qui fecit
@@ -159,7 +160,7 @@ export default function Page0205() {
               homínibus; et sunt eunúchi, qui seípsos castravérunt propter
               regnum cœlórum. Qui potest cápere, cápiat.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, aproximaram-se os fariseus de Jesus para O tentar e
               disseram-Lhe: «É lícito ao homem repudiar sua mulher por qualquer
               causa?». Respondendo Jesus, disse-lhes: «Não lestes: «Aquele que
@@ -187,11 +188,11 @@ export default function Page0205() {
           <Text className="h3">Comúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui me dignátus est ab omni plaga curáre et mamíllam meam meo
               péctori restitúere, ipsum ínvoco Deum vivum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Invoco como Deus vivo Aquele que se dignou curar as minhas chagas
               e restituir o meu seio ao meu peito!
             </Text>

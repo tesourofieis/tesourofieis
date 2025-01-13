@@ -17,30 +17,32 @@ export default function PagePent220() {
           <Text className="em">Sl. 129, 3-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? quia
               apud te propitiátio est, Deus Israël.{" "}
-              <Text className="em">Ps. ibid., 1-2</Text> De profúndis clamávi ad
-              te, Dómine: Dómine, exáudi vocem meam. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1-2</Text> De
+              profúndis clamávi ad te, Dómine: Dómine, exáudi vocem meam. ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Se atenderdes às nossas iniquidades, Senhor, Senhor, quem poderá
               subsistir diante de Vós? Sois cheio de misericórdia, ó Deus de
-              Israel! <Text className="em">Sl. ibid., 1-2</Text> Das profundezas
-              dos abysmos, Senhor, clamei por Vós: ouvi, pois, a minha oração,
-              Senhor. ℣. Glória ao Pai...
+              Israel!{" "}
+              <Text className="text-base vernacular">Sl. ibid., 1-2</Text> Das
+              profundezas dos abysmos, Senhor, clamei por Vós: ouvi, pois, a
+              minha oração, Senhor. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ
               précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter
               pétimus, efficáciter consequámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, nosso refúgio e fortaleza, que sois a origem de toda a
               piedade, ouvi benigno as piedosas preces da vossa Igreja e
               concedei-nos a graça de alcançarmos com eficácia o que com fé Vos
@@ -53,13 +55,13 @@ export default function PagePent220() {
           <Text className="em">Fl, 1, 6-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Confídimus in Dómino Jesu, quia, qui cœpit in vobis opus
               bonum, perfíciet usque in diem Christi Jesu. Sicut est mihi justum
               hoc sentíre pro ómnibus vobis: eo quod hábeam vos in corde, et in
@@ -71,7 +73,7 @@ export default function PagePent220() {
               diem Christi, repléti fructu justítiæ per Jesum Christum, in
               glóriam et laudem Dei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Tenho firme confiança de que aquele que começou em
               vós o bom trabalho há-de continuá-lo até ao dia de Jesus Cristo.
               Justo é que assim pense de vós, porque sinto no coração que
@@ -90,22 +92,23 @@ export default function PagePent220() {
           <Text className="em">Sl. 132, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ecce, quam bonum et quam jucúndum, habitáre fratres in unum! ℣.
               Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oh! Como é bom e suave aos irmãos habitarem juntos! ℣. É como o
               perfume espalhado pela cabeça que desce por toda a barba, por toda
               a barba de Aarão!
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 113, 11</Text> Qui
-              timent Dóminum sperent in eo: adjútor et protéctor eórum est.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 113, 11</Text> Qui timent
+              Dóminum sperent in eo: adjútor et protéctor eórum est. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 113, 11</Text> Que
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 113, 11</Text> Que
               aqueles que têm temor do Senhor esperem n’Ele, que é o seu
               sustentáculo e protector. Aleluia.
             </Text>
@@ -116,15 +119,15 @@ export default function PagePent220() {
           <Text className="em">Mt. 22, 15-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Abeúntes pharisǽi consílium iniérunt, ut cáperent
               Jesum in sermóne. Et mittunt ei discípulos suos cum Herodiánis,
               dicéntes: Magíster, scimus, quia verax es et viam Dei in veritáte
@@ -136,7 +139,7 @@ export default function PagePent220() {
               superscríptio? Dicunt ei: Cǽsaris. Tunc ait illis: Réddite ergo,
               quæ sunt Cǽsaris, Cǽsari; et, quæ sunt Dei, Deo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, retirando-se os fariseus, combinaram em conselho
               surpreender Jesus nas suas palavras, para O acusarem.
               Mandaram-Lhe, pois, os seus discípulos com os herodianos, que Lhe
@@ -158,11 +161,11 @@ export default function PagePent220() {
           <Text className="em">Est. 14, 12 & 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Recordáre mei, Dómine, omni potentátui dóminans: et da sermónem
               rectum in os meum, ut pláceant verba mea in conspéctu príncipis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que estais acima de todo o poder, lembrai-Vos de mim:
               inspirai aos meus lábios palavras justas, para que sejam
               agradáveis ao príncipe.
@@ -172,12 +175,12 @@ export default function PagePent220() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da, miséricors Deus: ut hæc salutáris oblátio et a própriis nos
               reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, ó Deus de misericórdia, que esta salutar oblação nos
               livre inteiramente dos laços das nossas próprias faltas e nos
               defenda de todas as adversidades. Por nosso Senhor...
@@ -189,11 +192,11 @@ export default function PagePent220() {
           <Text className="em">Sl. 16, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam et
               exáudi verba mea.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, clamei por Vós, porque me ouvistes: inclinai os vossos
               ouvidos para mim e ouvi as minhas súplicas.
             </Text>
@@ -202,12 +205,12 @@ export default function PagePent220() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súmpsimus, Dómine, sacri dona mystérii, humíliter deprecántes: ut,
               quæ in tui commemoratiónem nos fácere præcepísti, in nostræ
               profíciant infirmitátis auxílium: Qui vivis et regnas...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo recebido os sacrossantos dons deste mystério, Senhor,
               humildemente Vos imploramos que este sacrifício, que nos mandastes
               celebrar em vossa memória, sirva de auxílio à nossa fraqueza. Ó

@@ -51,9 +51,9 @@ export default function PageCoroinha() {
           pusilânime, que estremece com qualquer injúria. Mas não serei mais
           assim! De Vós imploro tanta fortaleza e valor para sofrer as injúrias,
           que, combatendo e vencendo na terra, possa triunfar convosco no céu!
-          <View className="aside">
+          <Text className="aside">
             Volvamo-nos para o maternal Coração de Maria Santíssima
-          </View>
+          </Text>
           Pelas singulares prerrogativas do vosso dulcíssimo Coração,
           alcançai-me, ó Maria, Mãe de Deus e minha Mãe, uma verdadeira e
           permanente devoção ao Santíssimo Coração de Jesus, vosso Filho; e,

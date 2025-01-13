@@ -16,29 +16,31 @@ export default function PageQuad25() {
           <Text className="em">Sl. 16, 15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ego autem cum justítia apparébo in conspéctu tuo: satiábor, dum
               manifestábitur glória tua.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Exáudi, Dómine, justitiam
-              meam: inténde deprecatióni meæ. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Exáudi,
+              Dómine, justitiam meam: inténde deprecatióni meæ. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eu, porém, cheio de justiça, Senhor, aparecerei diante de Vós: e,
               quando me for manifestada a vossa glória, serei saciado.{" "}
-              <Text className="em">Sl. ibid., 1</Text> Senhor, ouvi a minha
-              prece justa; escutai a minha súplica. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> Senhor,
+              ouvi a minha prece justa; escutai a minha súplica. ℣. Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da, quǽsumus, omnípotens Deus: ut, sacro nos purificánte jejúnio,
               sincéris méntibus ad sancta ventúra fácias perveníre. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, Deus omnipotente, Vos suplicamos, que, purificados
               com estes sagrados jejuns, cheguemos com o coração sincero às
               próximas solenidades. Por nosso Senhor...
@@ -50,9 +52,11 @@ export default function PageQuad25() {
           <Text className="em">Gn. 37, 6-22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Genesis.</Text>
-            <Text className="text-base">Lição do Livro do Génesis.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Genesis.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro do Génesis.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Dixit Joseph frátribus suis: Audíte sómnium meum,
               quod vidi: Putábam nos ligáre manípulos in agro: et quasi
               consúrgere manípulum meum et stare, vestrósque manípulos
@@ -86,7 +90,7 @@ export default function PageQuad25() {
               innóxias: hoc autem dicébat, volens erípere eum de mánibus eórum,
               et réddere patri suo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, José disse a seus irmãos: «Escutai o sonho que
               tive: parecia-me que estávamos a atar molhos em um campo e que meu
               molho se erguia e ficava de pé, enquanto que os outros o rodeavam
@@ -127,11 +131,11 @@ export default function PageQuad25() {
           <Text className="em">Sl. 119, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ad Dóminum, cum tribulárer, clamávi, et exaudívit me. ℣. Dómine,
               líbera ánimam meam a lábiis iníquis et a lingua dolósa.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Enquanto estava na tribulação, chamei pelo Senhor, que me atendeu.
               ℣. Senhor, livrai a minha alma dos lábios iníquos e da. língua
               enganadora.
@@ -150,15 +154,15 @@ export default function PageQuad25() {
           <Text className="em">Mt, 21, 33-46</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus turbis Judæórum et princípibus
               sacerdótum parábolam hanc: Homo erat paterfamílias, qui plantávit
               víneam, et sepem circúmdedit ei, et fodit in ea tórcular, et
@@ -184,7 +188,7 @@ export default function PageQuad25() {
               cognovérunt, quod de ipsis díceret. Et quæréntes eum tenére,
               timuérunt turbas: quóniam sicut Prophétam eum habébant.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus à turba dos judeus e aos príncipes dos
               sacerdotes esta parábola: «Havia um homem, pai de família, que
               plantou uma vinha, cercou-a com uma sebe, construiu nela um lagar,
@@ -219,12 +223,12 @@ export default function PageQuad25() {
           <Text className="em">Sl. 39, 14 & 15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, in auxílium meum réspice: confundántur et revereántur, qui
               quærunt ánímam meam, ut áuferant eam: Dómine, in auxílium meum
               réspice.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, volvei para mim um olhar de protecção. Caiam na confusão e
               no opróbrio aqueles que procuram tirar-me a vida! Senhor, volvei
               um olhar protector para mim.
@@ -234,11 +238,11 @@ export default function PageQuad25() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc in nobis sacrifícia, Deus, et actióne permáneant, et
               operatióne firméntur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que estes sacrifícios, ó Deus, exerçam em nós uma acção permanente
               e uma influência fortificadora. Por nosso Senhor...
             </Text>
@@ -249,11 +253,11 @@ export default function PageQuad25() {
           <Text className="em">Sl. 11, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tu, Dómine, servábis nos, et custódies nos a generatióne hac in
               ætérnum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, guardar-nos-eis e defender-nos-eis sempre desta geração.
             </Text>
           </View>
@@ -261,11 +265,11 @@ export default function PageQuad25() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fac nos, quǽsumus, Dómine: accépto pígnore salútis ætérnæ, sic
               téndere congruénter; ut ad eam perveníre póssimus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fazei, Senhor, Vos suplicamos, que, tendo nós recebido o penhor da
               salvação eterna, de tal sorte procuremos merecê-la que possamos
               possuí-la. Por nosso Senhor...
@@ -275,22 +279,24 @@ export default function PageQuad25() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da, quǽsumus, Dómine, pópulo tuo salútem mentis et córporis: ut,
               bonis opéribus inhæréndo, tuæ semper virtútis mereátur protectióne
               deféndi. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, concedei ao vosso povo, Vos suplicamos, a saúde da alma e
               do corpo, a fim de que, ocupando-se em boas obras, mereça ser
               sempre assistido com a protecção da vossa majestade. Por nosso

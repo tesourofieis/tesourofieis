@@ -19,13 +19,13 @@ export default function PagePasc66() {
           />
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui in Abrahæ fámuli tui opere humáno generi obœdiéntiæ
               exémpla præbuísti; concéde nobis, et nostræ voluntátis pravitátem
               frángere, et tuórum præceptórum rectitúdinem in ómnibus adimplére.
               Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que pelo sacrifício do vosso servo Abraão destes ao género
               humano exemplo de obediência, concedei-nos a graça de esmagarmos a
               nossa vontade e de cumprirmos em todas as coisas a rectidão dos
@@ -39,7 +39,7 @@ export default function PagePasc66() {
           />
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui primis tempóribus impléta mirácula novi Testaménti luce
               reserásti, ut et Mare Rubrum forma sacri fontis exsísteret, et
               liberáta plebs ab Ægyptíaca servitúte christiáni pópuli sacraménta
@@ -47,7 +47,7 @@ export default function PagePasc66() {
               consecútæ, Spíritus tui participatióne regeneréntur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que nos explicastes com a luz do Novo Testamento os
               milagres dos primeiros tempos, mostrando-nos no mar Vermelho a
               imagem da fonte sagrada e no povo libertado da escravidão do
@@ -64,14 +64,14 @@ export default function PagePasc66() {
           />
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, glorificátio fidélium et vita justórum, qui per Móysen,
               fámulum tuum, nos quoque modulatióne sacri cárminis erudísti:
               univérsis géntibus misericórdiæ tuæ munus operáre, tribuéndo
               beatitúdinem, auferéndo terrórem; ut, quod pronuntiátum est ad
               supplícium, in remédium transferátur ætérnum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, exaltação dos fiéis e vida dos justos, que quisestes
               também instruir-nos com o cântico sagrado do vosso servo Moisés,
               fazei sentir o beneficio da vossa misericórdia a todas as nações,
@@ -87,7 +87,7 @@ export default function PagePasc66() {
           />
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui, per únicum Fílium tuum, Ecclésiæ
               tuæ demonstrásti te esse cultórem, omnem pálmitem, fructum in
               eodem Christo tuo, qui vera vitis est, afferéntem, cleménter
@@ -96,7 +96,7 @@ export default function PagePasc66() {
               peccatórum spinæ præváleant; ut, Spíritus tui sanctificatióne
               muníti, perpétua fruge diténtur. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente e eterno, que pelo vosso Filho Unigénito
               demonstrastes a solicitude com que cultivais a vossa Igreja,
               cuidando benignamente de toda a videira que der frutos neste mesmo
@@ -115,13 +115,13 @@ export default function PagePasc66() {
           />
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui nobis per Prophetárum ora præcepísti temporália
               relínquere atque ad ætérna festináre: da fámulis tuis; ut, quæ a
               te jussa cognóvimus, implére cœlésti inspiratióne valeámus. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que pela boca dos Profetas nos ordenastes que
               abandonássemos os bens temporais e procurássemos os eternos,
               concedei aos vossos servos a graça de conhecerem os vossos
@@ -136,13 +136,13 @@ export default function PagePasc66() {
           />
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, Deus virtútum, qui collápsa réparas et reparáta consérvas:
               auge pópulos in tui nóminis sanctificatióne renovándos; ut omnes,
               qui sacro baptísmate diluúntur, tua semper inspiratióne
               dirigántur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Deus das virtudes, que restaurais o que está arruinado e
               conservais o que restaurastes, aumentai o número dos povos que
               devem ser regenerados pela invocação santificadora do vosso nome,
@@ -159,32 +159,34 @@ export default function PagePasc66() {
           <Text className="h3">Intróito</Text>
           <Text className="em">Ez. 36, 23, 24 & 25-26</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cum sanctificátus fúero in vobis, congregábo vos de univérsis
               terris: et effúndam super vos aquam mundam, et mundabímini ab
               ómnibus inquinaméntis vestris: et dabo vobis spíritum novum,
-              allelúja, allelúja. <Text className="em">Ps. 33, 2</Text>{" "}
-              Benedícam Dóminum in omni témpore: semper laus ejus in ore meo. ℣.
-              Gloria Patri...
+              allelúja, allelúja.{" "}
+              <Text className="text-base latin">Ps. 33, 2</Text> Benedícam
+              Dóminum in omni témpore: semper laus ejus in ore meo. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Logo que tenha sido santificado no meio de vós, congregar-vos-ei
               de todos os países e espalharei sobre vós uma água pura, que vos
               purificará de todas as manchas: e vos darei um espírito novo,
-              aleluia, aleluia. <Text className="em">Sl. 33, 2</Text> Bendirei o
+              aleluia, aleluia.{" "}
+              <Text className="text-base vernacular">Sl. 33, 2</Text> Bendirei o
               Senhor em todos os tempos: na minha boca estarão sempre louvores
               em sua honra. ℣. Glória ao Pai...
             </Text>
           </View>
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut claritatis tuæ super nos
               splendor effúlgeat; et lux tuæ lucis corda eórum, qui per grátiam
               tuam renáti sunt, Sancti Spíritus illustratióne confírmet. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, Senhor omnipotente, Vos suplicamos! que o esplendor
               da vossa glória brilhe sobre nós e que o fulgor da vossa luz
               esclareça e fortifique com a ilustração do Espírito Santo os
@@ -195,9 +197,11 @@ export default function PagePasc66() {
           <Text className="h3">Epístola</Text>
           <Text className="em">Act. 19, 1-8</Text>
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostolorum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostolorum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Factum est, cum Apóllo esset Corínthi, ut Paulus,
               peragrátis superióribus pártibus, veníret Ephesum et inveníret
               quosdam discípulos: dixítque ad eos: Si Spíritum Sanctum
@@ -212,7 +216,7 @@ export default function PagePasc66() {
               fere duódecim. Introgréssus autem synagógam, cum fidúcia
               loquebátur per tres menses, dísputans et suádens de regno Dei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, enquanto Apolo estava em Corinto, aconteceu que
               Paulo visitou as regiões altas e chegou a Éfeso, onde encontrou
               alguns discípulos. Então disse-lhes: «Recebestes já o Espírito
@@ -231,24 +235,26 @@ export default function PagePasc66() {
             </Text>
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja. ℣. <Text className="em">Ps. 106, 1</Text> Confitémini
-              Dómino, quóniam bonus: quóniam in sǽculum misericordia ejus.
+            <Text className="text-base latin">
+              Allelúja. ℣. <Text className="text-base latin">Ps. 106, 1</Text>{" "}
+              Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericordia
+              ejus.
             </Text>
-            <Text className="text-base">
-              Aleluia. ℣. <Text className="em">Sl. 106, 1</Text> Louvai o
+            <Text className="text-base vernacular">
+              Aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 106, 1</Text> Louvai o
               Senhor, que é bom, pois a sua misericórdia é eterna.
             </Text>
           </View>
           <Text className="h3">Trato</Text>
           <Text className="em">Sl. 116, 1-2</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli. ℣.
               Quóniam confirmáta est super nos misericórdia ejus: et véritas
               Dómini manet in ætérnum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Louvai o Senhor, ó nações todas: glorificai-O, ó povos: ℣. Pois
               grande é a sua misericórdia para nós: e a verdade do Senhor
               permanece perpetuamente.
@@ -257,13 +263,13 @@ export default function PagePasc66() {
           <Text className="h3">Evangelho</Text>
           <Text className="em">Jo. 14, 15-21</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ✠ Sequéntia sancti Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ✠ Continuação do santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Si dilígitis me,
               mandáta mea serváte. Et ego rogábo Patrem, et alium Paráclitum
               dabit vobis, ut máneat vobíscum in ætérnum, Spíritum veritátis,
@@ -277,7 +283,7 @@ export default function PagePasc66() {
               diligétur a Patre meo: et ego díligam eum, et manifestábo ei
               meípsum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Se me amais,
               observai os meus mandamentos. E rogarei ao Pai que vos dê um outro
               Paráclito, para que ele permaneça sempre convosco - o Espírito da
@@ -295,11 +301,11 @@ export default function PagePasc66() {
           <Text className="h3">Ofertório</Text>
           <Text className="em">Sl. 103, 30-31</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Emítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ:
               sit glória Dómini in sǽcula, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Enviai o vosso Espírito e serão criados; e renovar-se-á a face da
               terra. Seja a glória do Senhor exaltada em todos os séculos,
               aleluia.
@@ -307,11 +313,11 @@ export default function PagePasc66() {
           </View>
           <Text className="h3">Secreta</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Múnera, quǽsumus, Dómine, obláta sanctífica: et corda nostra
               Sancti Spíritus illustratióne emúnda. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Santificai, Senhor, Vos rogamos, os dons que Vos oferecemos, e
               purificai os nossos corações com as inspirações do Espírito Santo.
               Por nosso Senhor...
@@ -320,12 +326,12 @@ export default function PagePasc66() {
           <Text className="h3">Comúnio</Text>
           <Text className="em">Jo. 7, 37-39</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ultimo festivitátis die dicébat Jesus: Qui in me credit, flúmina
               de ventre ejus fluent aquæ vivæ: hoc autem dixit de Spíritu, quem
               acceptúri erant credéntes in eum, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               No último dia da festa dizia Jesus: «Rios de água viva sairão dos
               corações daqueles que crêem em mim». E dizia isto a respeito do
               Espírito que deviam receber aqueles que acreditassem n’Ele,
@@ -334,11 +340,11 @@ export default function PagePasc66() {
           </View>
           <Text className="h3">Postcomúnio</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris
               íntima aspersióne fecúndet. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que a efusão do Espírito Santo purifique os nossos
               corações; e que, penetrando neles, a aspersão do seu orvalho
               fecunde o íntimo das nossas almas. Por nosso Senhor...

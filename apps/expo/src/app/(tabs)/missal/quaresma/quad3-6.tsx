@@ -15,29 +15,30 @@ export default function PageQuad36() {
           <Text className="em">Sl. 5, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Verba mea áuribus pércipe, Dómine, intéllege clamórem meum:
               inténde voci oratiónis meæ, Rex meus et Deus meus.{" "}
-              <Text className="em">Ps. ibid., 4</Text> Quóniam ad te orábo,
-              Dómine: mane exáudies vocem meam. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 4</Text> Quóniam ad
+              te orábo, Dómine: mane exáudies vocem meam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi as minhas palavras, Senhor: atendei ao meu clamor e escutai a
               voz da minha oração, ó meu Rei e meu Deus!{" "}
-              <Text className="em">Sl. ibid., 4</Text> Porquanto a Vós Orarei,
-              Senhor; desde manhã ouvireis a minha voz. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 4</Text>{" "}
+              Porquanto a Vós Orarei, Senhor; desde manhã ouvireis a minha voz.
+              ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui se, affligéndo carnem,
               ab aliméntis ábstinent; sectándo justítiam, a culpa jejúnent. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, àqueles que, para mortificação da sua carne,
               se abstêm dos alimentos concedei a graça, Vos suplicamos, de se
               absterem também das culpas, praticando sempre a virtude. Por nosso
@@ -50,9 +51,11 @@ export default function PageQuad36() {
           <Text className="em">Dn. 13, 1-9, 15-17, 19-30 & 33-62</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Daniélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Daniel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Daniélis Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Daniel.
+            </Text>
+            <Text className="text-base latin">
               In In diébus illis: Erat vir hábitans in Babylóne, et nomen ejus
               Jóakim: et accépit uxorem nómine Susánnam, fíliam Helcíæ, pulchram
               nimis, et timéntem Deum: paréntes enim illíus, cum essent justi,
@@ -144,7 +147,7 @@ export default function PageQuad36() {
               próximum: et interfecérunt eos, et salvátus est sanguis innóxius
               in die illa.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, habitava em Babilónia um varão cujo nome era
               Joaquim, que desposara uma mulher, chamada Susana, filha de
               Helcias, a qual era formosíssima e temente a Deus, pois seus pais,
@@ -244,12 +247,12 @@ export default function PageQuad36() {
           <Text className="em">Sl. 22, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Si ámbulem in médio umbræ mortis, non timébo mala: quóniam tu
               mecum es, Dómine. ℣. Virga tua et báculus tuus, ipsa me consoláta
               sunt.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ainda que eu ande no meio das sombras da morte, não recearei mal
               algum, pois Vós, Senhor, estais comigo. ℣. Vossa vara e o vosso
               báculo confortam-me.
@@ -261,15 +264,15 @@ export default function PageQuad36() {
           <Text className="em">Jo. 8, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Perréxit Jesus in montem Olivéti: et dilúculo
               íterum venit in templum, et omnis pópulus venit ad eum, et sedens
               docébat eos. Addúcunt autem scribæ et pharisǽi mulíerem in
@@ -287,7 +290,7 @@ export default function PageQuad36() {
               dixit: Nemo, Dómine. Dixit autem Jesus: Nec ego te condemnábo:
               Vade, et jam ámplius noli peccáre.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, Jesus retirou-se para o monte das Oliveiras,
               voltando novamente ao templo ao romper da manhã. Logo o povo se
               aproximou d’Ele, sentando-se. E Jesus ensinava a multidão. Os
@@ -314,11 +317,11 @@ export default function PageQuad36() {
           <Text className="em">Sl. 118, 133</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gressus meos dírige secúndum elóquium tuum: ut non dominétur mei
               omnis injustítia, Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dirigi os meus passos segundo os vossos preceitos, Senhor; permiti
               que não domine em mim iniquidade alguma.
             </Text>
@@ -327,12 +330,12 @@ export default function PageQuad36() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus
               oblátum, fragilitátem nostram ab omni malo purget semper et
               múniat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos suplicamos, ó Deus omnipotente, concedei-nos que a oblação
               deste sacrifício, que Vos oferecemos, nos livre de todos os males
               da nossa fraqueza e nos fortaleça. Por nosso Senhor...
@@ -344,11 +347,11 @@ export default function PageQuad36() {
           <Text className="em">Jo. 8, 10 & 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Nemo te condemnávit, mulier? Nemo, Dómine. Nec ego te condemnábo:
               jam ámplius noli peccáre.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Mulher, ninguém te condenou? Ninguém, Senhor. Nem Eu, também, te
               condenarei. Vai e não tornes a pecar.
             </Text>
@@ -357,11 +360,11 @@ export default function PageQuad36() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quǽsumus, omnípotens Deus: ut inter ejus membra numerémur, cujus
               córpori communicámus et sánguini: Qui tecum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos rogamos, permiti que sejamos contados no
               número dos membros d’Aquele que nos admitiu à comunhão do seu
               Corpo e do seu Sangue. Ele...
@@ -371,22 +374,24 @@ export default function PageQuad36() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præténde, Dómine, fidélibus tuis déxteram cœléstis auxílii: ut te
               toto corde perquírant; et, quæ digne póstulant, cónsequi
               mereántur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, estendei sobre os vossos fiéis a vossa dextra,
               assistindo-lhes com o auxílio celestial, para que Vos procurem com
               todo o coração e consigam alcançar o que dignamente suplicam. Por

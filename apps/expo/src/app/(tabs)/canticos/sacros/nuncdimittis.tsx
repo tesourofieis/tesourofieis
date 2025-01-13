@@ -11,44 +11,44 @@ export default function PageNuncdimittis() {
           <Text className="h1">Nunc Dimíttis</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Nunc dimíttis, servum tuum, Dómine, * secúndum verbum tuum in
               pace:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Agora, Senhor, deixareis ir em paz o vosso servo, * segundo a
               vossa palavra:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quia vidérunt óculi mei * salutáre tuum,
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Pois os meus olhos já viram * a vossa salvação,
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quod parásti * ante fáciem ómnium populórum,
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               E que preparastes * ante a face de todos os povos,
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lumen ad revelatiónem Géntium, * et glóriam plebis tuæ Israël.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Luz para se revelar às nações, * e glória de Israel, vosso povo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Glória Patri, et Fílio, et Spíritui Sancto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Sicut erat in pricípio,
-              et nunc, et semper, et in sǽcula sæculórum. Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Sicut erat in
+              pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Assim como era no
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>

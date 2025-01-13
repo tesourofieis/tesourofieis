@@ -47,151 +47,157 @@ export default function PageAdoracao() {
           <Parcedomine />
           <Text className="h2">Cor jesu sacratissimum</Text>
           <View className="side-by-side">
-            <Text className="text-base">℣. Cor Jesu sacratissimum:</Text>
-            <Text className="text-base">℣. Coração sacratíssimo de Jesus:</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Miserere nobis.
+            <Text className="text-base latin">℣. Cor Jesu sacratissimum:</Text>
+            <Text className="text-base vernacular">
+              ℣. Coração sacratíssimo de Jesus:
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Tende misericórdia de
-              nós.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Miserere nobis.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Tende
+              misericórdia de nós.
             </Text>
           </View>
           <Text className="h1">Hino para antes da Bênção</Text>
           <Text className="h2">Tantum Ergo</Text>
           <Tantumergo />
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Panem de cælo præstitísti eis. (T. P. Aleluia)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Vós lhes destes, Senhor, o pão do céu. (T. P. Aleluia)
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Omne delectaméntum in se
-              habéntem. (T. P. Aleluia)
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Omne delectaméntum in
+              se habéntem. (T. P. Aleluia)
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> O qual encerra em si toda
-              a doçura. (T. P. Aleluia)
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> O qual encerra em
+              si toda a doçura. (T. P. Aleluia)
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, quid nobis sub Sacraménto mirábili passiónis tuæ memóriam
               reliquísti: tríbue, quǽsumus, ita nos Córporis et Sánguinis tui
               sacra mystéria venerári; ut redemptiónis tuæ fructum in nobis
               júgiter sentiámus: Qui vivis et régnas in sæcula sæculórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que neste admirável Sacramento nos deixastes um memorial
               da vossa paixão, concedei-nos a graça, Vos suplicamos, de
               honrarmos por tal modo os sagrados mystérios do vosso Corpo e
               Sangue que sintamos sempre os frutos da vossa Redenção: Vós, que
               viveis e reinais em todos os séculos dos séculos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h1">Louvores Dívinos</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctus Deus. Benedíctum Nomen sanctum ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito seja Deus. Bendito o seu Santo Nome.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctus Jesus Christus, verus Deus et verus homo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito Jesus Cristo, verdadeiro Deus e verdadeiro homem.
             </Text>
-            <Text className="text-base">Benedíctum Nomen Jesu.</Text>
-            <Text className="text-base">Bendito o nome de Jesus.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Benedíctum Nomen Jesu.</Text>
+            <Text className="text-base vernacular">
+              Bendito o nome de Jesus.
+            </Text>
+            <Text className="text-base latin">
               Benedíctum Cor ejus sacratíssimum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito o seu Sacratíssimo Coração.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctus Sanguis ejus pretiosíssimus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito o seu Preciosíssimo sangue.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctus Jesus in sanctíssimo altáris Sacraménto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito Jesus Cristo no Santíssimo Sacramento do altar.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctus Spíritus Sanctus, Paráclitus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito o Espírito Santo Paráclito.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedícta magna Mater Dei, María sanctíssima.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendita Excelsa Mãe de Deus, Maria Santíssima.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedicta sancta ejus et immaculáta concéptio.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendita a sua Santa e Imaculada Conceição.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedícta ejus gloriósa assúmptio.
             </Text>
-            <Text className="text-base">Bendita a sua Gloriosa Assun-ção.</Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              Bendita a sua Gloriosa Assun-ção.
+            </Text>
+            <Text className="text-base latin">
               Benedíctum nomen Maríæ, Vírginis e Matris.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito o nome de Maria, Virgem e Mãe.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctus sanctus Joseph, ejus castíssimus Sponsus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito São José, seu Castíssimo Esposo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctus Deus em Ángelis ejus, et in Sanctis suis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito Deus nos seus Anjos e nos seus Santos.
             </Text>
           </View>
           <Text className="h1">Hinos para depois da Bênção</Text>
           <Text className="h2">Cristus Vincit</Text>
           <View className="side-by-side">
-            <Text className="text-base">Christus Vincit!</Text>
-            <Text className="text-base">Cristo Vence!</Text>
-            <Text className="text-base">Christus Regnat!</Text>
-            <Text className="text-base">Cristo Reina!</Text>
-            <Text className="text-base">Christus, Cristus Imperat!</Text>
-            <Text className="text-base">Cristo, Cristo Impera!</Text>
+            <Text className="text-base latin">Christus Vincit!</Text>
+            <Text className="text-base vernacular">Cristo Vence!</Text>
+            <Text className="text-base latin">Christus Regnat!</Text>
+            <Text className="text-base vernacular">Cristo Reina!</Text>
+            <Text className="text-base latin">Christus, Cristus Imperat!</Text>
+            <Text className="text-base vernacular">Cristo, Cristo Impera!</Text>
           </View>
           <Text className="h2">Graças e Louvores</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Adoremus in aeternum sanctissimum Sacramentum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Graças e louvores se dêem a todo o momento.
             </Text>
           </View>

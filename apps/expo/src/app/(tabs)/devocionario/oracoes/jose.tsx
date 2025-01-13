@@ -11,7 +11,7 @@ export default function PageJose() {
           <Text className="h1">Orações a São José</Text>
           <Text className="h2">Oração a São José pelo Papa Leão XIII</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ad te beáte Joseph, in tribulatióne nostra confúgimus, atque,
               imploráto Sponsæ tuæ sanctíssimæ auxílio, patrocínium quoque tuum
               fidenter expóscimus. Per eam, quǽsumus, quæ te cum immaculáta
@@ -30,7 +30,7 @@ export default function PageJose() {
               pie émori, sempiternámque in cælis beatitúdinem ássequi possímus.
               Amen
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Bem-aventurado S. José, a vós recorremos na nossa tribulação, e,
               havendo implorado da Santíssima Virgem, vossa esposa, pedimos
               também com toda a confiança a vossa protecção. Por aquele afecto

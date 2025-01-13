@@ -49,13 +49,13 @@ export default function Page0307() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui Ecclésiam tuam beáti Thomæ Confessóris tui mira
               eruditióne claríficas, et sancta operatióne fecúndas: da nobis,
               quǽsumus; et quæ dócuit, intelléctu conspícere, et quæ egit,
               imitatióne complére. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que ilustrais a vossa Igreja com a admirável sabedoria do
               B. Tomás, vosso Confessor, e a fecundais com a santidade das suas
               acções, concedei-nos, Vos suplicamos, que compreendamos o que ele
@@ -69,9 +69,11 @@ export default function Page0307() {
           <Text className="em">Sb. 7, 7-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Optávi, et datus est mihi sensus: et invocávi, et venit in me
               spíritus sapiéntiæ: et præpósui illam regnis et sédibus, et
               divítias nihil esse duxi in comparatióne illíus: nec comparávi
@@ -87,7 +89,7 @@ export default function Page0307() {
               enim thesáurus est homínibus: quo qui usi sunt, partícipes facti
               sunt amicítiæ Dei, propter disciplínæ dona commendáti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Desejei a inteligência, e foi-me dada; invoquei o espírito da
               sabedoria, e veio a mim. Preferia-a aos reinos e aos tronos; e
               creio que as riquezas nada são comparadas com ela. Nem mesmo a

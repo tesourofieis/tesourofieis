@@ -16,31 +16,31 @@ export default function Page0125() {
           <Text className="em">2 Tm. 1, 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Scio, cui crédidi, et certus sum, quia potens est depósitum meum
               serváre in illum diem, justus judex.{" "}
-              <Text className="em">Ps. 138, 1-2</Text> Dómine, probásti me et
-              cognovísti me: tu cognovísti sessiónem meam et resurrectiónem
-              meam. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 138, 1-2</Text> Dómine,
+              probásti me et cognovísti me: tu cognovísti sessiónem meam et
+              resurrectiónem meam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sei em quem acreditar, e estou certo de que tem poder para guardar
               o meu depósito até àquele dia em que me julgará como justo Juiz.{" "}
-              <Text className="em">Sl. 138, 1-2</Text> Senhor, Vós me
-              perscrutastes e me conhecestes: conhecestes quando me deito e
-              quando me levanto. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 138, 1-2</Text> Senhor,
+              Vós me perscrutastes e me conhecestes: conhecestes quando me deito
+              e quando me levanto. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui univérsum mundum beáti Pauli Apóstoli prædicatióne
               docuísti: da nobis, quǽsumus; ut, qui ejus hódie Conversiónem
               cólimus, per ejus ad te exémpla gradiámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que instruístes o mundo inteiro com a pregação do B.
               Apóstolo Paulo, concedei-nos, Vos suplicamos, que, celebrando hoje
               a sua Conversão, caminhemos para Vós, seguindo os seus exemplos.
@@ -60,9 +60,11 @@ export default function Page0125() {
           <Text className="em">Act. 9, 1-22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Saulus adhuc spirans minárum et cædis in
               discípulos Dómini, accéssit ad príncipem sacerdótum, et pétiit ab
               eo epístolas in Damáscum ad synagógas: ut, si quos invenísset
@@ -104,7 +106,7 @@ export default function Page0125() {
               multo magis convalescébat, et confundébat Judǽos, qui habitábant
               Damásci, affírmans, quóniam hic est Christus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, Saulo, respirando ainda ameaças e morte contra os
               discípulos do Senhor, foi encontrar o príncipe dos sacerdotes e
               pediu-lhe Cartas para as sinagogas de Damasco, a fim de que, se
@@ -155,43 +157,43 @@ export default function Page0125() {
           <Text className="em">Gl. 2, 8 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui operátus est Petro in apostolátum, operátus est ei mihi inter
               gentes: et cognovérunt grátiam Dei, quæ data est mihi. ℣. Grátia
               Dei in me vácua non fuit: sed grátia ejus semper in me manet.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aquele que eficazmente trabalhou com Pedro para o tornar Apóstolo
               também fez de mim o Apóstolo dos gentios: e Conheceram a graça de
               Deus, que me foi dada. ℣. A graça de Deus em mim não foi estéril,
               mas permanece sempre em mim.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Magnus sanctus Paulus, vas electiónis, vere
               digne est glorificándus, qui et méruit thronum duodécimum
               possídere. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. O grande S. Paulo, este vaso de eleição, é
               verdadeiramente digno de glória, pois mereceu ocupar o duodécimo
               trono. Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tu es vas electiónis, sancte Paule Apóstole: vere digne es
               glorificándus. ℣. Prædicátor veritátis et doctor géntium in fide
               et veritáte. ℣. Per te omnes gentes cognovérunt grátiam Dei. ℣.
               Intercéde pro nobis ad Deum, qui te elégit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sois um vaso de eleição, ó Apóstolo S. Paulo; e é com justa razão
               que vos glorificamos. ℣. Sois o pregador da verdade e o Doutor das
               nações, ensinando-lhes a fé e a verdade. ℣. Pelo vosso apostolado
@@ -205,15 +207,15 @@ export default function Page0125() {
           <Text className="em">Mt. 19, 27-29</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus
               ómnia, et secúti sumus te: quid ergo erit nobis? Jesus autem dixit
               illis: Amen, dico vobis, quod vos, qui secúti estis me, in
@@ -223,7 +225,7 @@ export default function Page0125() {
               aut patrem, aut matrem, aut uxórem, aut fílios, aut agros, propter
               nomen meum, céntuplum accípiet, et vitam ætérnam possidébit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Pedro a Jesus: «Eis que deixámos tudo e Vos
               seguimos. Que recompensa teremos por isso?». Jesus disse-lhes: «Em
               verdade vos digo: vós, que me seguistes, quando, no tempo da
@@ -241,11 +243,11 @@ export default function Page0125() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Largamente, ó meu Deus, tendes honrado os vossos amigos: e
               extraordinariamente tendes favorecido o seu poder.
             </Text>
@@ -254,12 +256,12 @@ export default function Page0125() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica:
               ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
               supplicántis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, pelas orações do vosso Apóstolo Paulo, santificai as
               ofertas do vosso povo, para que, sendo-vos elas já em si
               agradáveis, porque foram por Vós instituídas, mais agradáveis
@@ -280,11 +282,11 @@ export default function Page0125() {
           <Text className="em">Mt. 19, 28 & 29</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis
               me, céntuplum accipiétis, et vitam ætérnam possidébitis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em verdade vos digo: Vós, que tudo abandonastes e me seguistes,
               recebereis o cêntuplo e alcançareis a vida eterna.
             </Text>
@@ -293,12 +295,12 @@ export default function Page0125() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis ejus
               non desit orátio, cujus nos donásti patrocínio gubernári. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Já santificados, Senhor, com este salutar mystério, Vos imploramos
               que nunca nos falte a intercessão daquele a cujo amparo fomos
               confiados. Por nosso Senhor...

@@ -26,13 +26,13 @@ export default function Page0405() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui Ecclésiam tuam beáti Vincéntii Confessóris tui méritis
               et prædicatióne illustráre dignátus es: concéde nobis fámulis
               tuis; ut et ipsíus instruámur exémplis et ab ómnibus ejus
               patrocínio liberémur advérsis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que Vos dignastes ilustrar a vossa Igreja com os méritos e
               a pregação do B. Vicente, vosso Confessor, concedei a estes vossos
               servos a graça de serem instruídos com seus exemplos e livres de

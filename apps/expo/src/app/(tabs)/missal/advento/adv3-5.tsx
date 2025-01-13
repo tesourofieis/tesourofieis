@@ -15,16 +15,17 @@ export default function PageAdv35() {
           <Text className="em">Sl. 118, 151–152</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Prope es tu, Dómine, et omnes viæ tuæ véritas: inítio cognóvi de
               testimóniis tuis, quia in ætérnum tu es.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Beati immaculáti in via:
-              qui ámbulant in lege Dómini. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Beati
+              immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, estais próximo: e todos vossos ensinos são verdadeiros.
               Desde o princípio que conheço os vossos ensinos, porque os
-              ensinastes desde sempre. <Text className="em">Sl. ibid., 1</Text>{" "}
+              ensinastes desde sempre.{" "}
+              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
               Bem-aventurados os que procedem sem mácula em seus caminhos: e os
               que caminham na lei do Senhor. ℣. Glória ao Pai...
             </Text>
@@ -33,12 +34,12 @@ export default function PageAdv35() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut hi, qui in
               tua pietáte confídunt, ab omni cítius adversitáte liberéntur: Qui
               vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Mostrai o vosso poder, Senhor, Vos suplicamos, e vinde, a fim de
               que aqueles que confiam na vossa bondade sejam bem depressa livres
               de toda a adversidade: Vós, que viveis e...
@@ -50,9 +51,11 @@ export default function PageAdv35() {
           <Text className="em">Is. 11, 1–5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus Deus: Egrediátur virga de radíce Jesse, et flos
               de radíce ejus ascéndet. Et requiéscet super eum spíritus Dómini:
               spíritus sapiéntiæ et intelléctus, spíritus consílii et
@@ -64,7 +67,7 @@ export default function PageAdv35() {
               ímpium. Et erit justítia cíngulum lumbórum ejus: et fides
               cinctórium renum ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Isto diz o Senhor Deus: Sairá uma vara do tronco de Jessé e uma
               flor brotará da sua raiz. E o espírito do Senhor repousará sobre
               ele: espírito de sabedoria e de inteligência; espírito de conselho
@@ -83,12 +86,12 @@ export default function PageAdv35() {
           <Text className="em">Sl. 84, 8 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da
               nobis. ℣. Benedixísti, Dómine, terram tuam: avertísti captivitátem
               Jacob.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Mostrai-nos, Senhor, a vossa misericórdia; e dai-nos a vossa
               salvação. Abençoastes, Senhor, a vossa terra; afastastes o
               cativeiro de Jacob.
@@ -100,15 +103,15 @@ export default function PageAdv35() {
           <Text className="em">Lc. 1, 39–47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo tempore: Exsúrgens María ábiit in montána cum festinatióne
               in civitátem Juda: et intrávit in domum Zacharíæ, et salutávit
               Elísabeth. Et factum est, ut audivit salutatiónem Maríæ Elísabeth,
@@ -121,7 +124,7 @@ export default function PageAdv35() {
               dicta sunt tibi a Dómino. Et ait María: Magníficat anima mea
               Dóminum: et exsultávit spíritus meus in Deo, salutári meo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, levantando-se Maria, foi apressadamente às
               montanhas de uma cidade de Judá, onde entrou em casa de Zacarias e
               saudou Isabel. E aconteceu que, logo que Isabel ouviu a saudação
@@ -142,12 +145,12 @@ export default function PageAdv35() {
           <Text className="em">Sl. 84, 7–8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, tu convérsus vivificábis nos, et plebs tua lætábitur in te:
               osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da
               nobis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, volvei para nós vossos olhares e dar-nos-eis a vida: então
               o vosso povo rejubilará em Vós. Mostrai-nos, Senhor, a vossa
               misericórdia: e dai-nos a vossa salvação.
@@ -157,12 +160,12 @@ export default function PageAdv35() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, depois de haverdes recebido as nossas ofertas e as nossas
               orações, Vos suplicamos, purificai-nos com vossos celestiais
               mystérios e ouvi-nos clementemente. Por nosso Senhor...
@@ -174,11 +177,11 @@ export default function PageAdv35() {
           <Text className="em">Zc. 14, 5–6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ecce, Dóminus véniet et omnes Sancti ejus cum eo: et erit in die
               illa lux magna.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis que o Senhor vem, e com Ele virão todos os Santos; e nesse dia
               raiará uma luz brilhantíssima.
             </Text>
@@ -187,12 +190,12 @@ export default function PageAdv35() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tui nos, Dómine, sacraménti libátio sancta restáuret: et a
               vetustáte purgátos, in mystérii salutáris fáciat transíre
               consórtium. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que a nossa comparticipação neste divino mystério nos
               restaure; e que, depois de nos haver purificado do «homem velho»,
               nos conduza ao gozo das alegrias da salvação. Por nosso Senhor...

@@ -16,16 +16,18 @@ export default function Page0816() {
           <Text className="em">Sl. 111, 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum
               sǽculi: cornu ejus exaltábitur in glória.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Beátus vir, qui timet
-              Dóminum: in mandátis ejus cupit nimis. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Beátus vir,
+              qui timet Dóminum: in mandátis ejus cupit nimis. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Distribuiu liberalmente os seus bens pelos pobres: a sua justiça
               subsistirá em todos os séculos dos séculos: e o seu poder será
-              exaltado com glória. <Text className="em">Sl. ibid., 1</Text>{" "}
+              exaltado com glória.{" "}
+              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
               Bem-aventurado o varão que teme o Senhor e que põe todo o zelo em
               cumprir os mandamentos. ℣. Glória ao Pai...
             </Text>
@@ -34,13 +36,13 @@ export default function Page0816() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui præ ómnibus Sanctis tuis beátum Jóachim Genetrícis Fílii
               tui patrem esse voluísti: concéde, quǽsumus; ut, cujus festa
               venerámur, ejus quoque perpétuo patrocínia sentiámus. Per eúndem
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, de preferência a todos vossos Santos, quisestes que o
               B. Joaquim fosse o Pai da Mãe de vosso Filho, concedei-nos, Vos
               suplicamos, que experimentemos o perpétuo patrocínio daquele cuja
@@ -60,21 +62,21 @@ export default function Page0816() {
           <Text className="em">Sl. 111, 9 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum
               sǽculi. ℣. Potens in terra erit semen ejus: generátio rectórum
               benedicétur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Distribuiu liberalmente os seus bens pelos pobres: a sua justiça
               permanecerá em todos os séculos dos séculos. ℣. Sua descendência
               será poderosa na terra, pois a geração dos justos será abençoada.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. O Jóachim, sanctæ conjux Annæ, pater almæ
               Vírginis, hic fámulis ferto salútis opem. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Ó S. Joaquim, Esposo de Santa Ana, Pai da
               Virgem-Mãe, concedei na terra aos vossos os socorros necessários
               para a salvação. Aleluia.
@@ -86,15 +88,15 @@ export default function Page0816() {
           <Text className="em">Mt, 1, 1-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Initium sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Initium sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Início do santo
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Início do santo
               Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Liber generatiónis Jesu Christi, fílii David, fílii Abralam.
               Abraham génuit Isaac, Isaac autem génuit Jacob. Jacob autem génuit
               Judam et fratres ejus. Judas autem génuit Phares et Zaram de
@@ -118,7 +120,7 @@ export default function Page0816() {
               Jacob autem génuit Joseph, virum Mariæ, de qua natus est Jesus,
               qui vocátur Christus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Livro da geração de Jesus Cristo, filho de David, filho de Abraão.
               Abraão gerou Isaque. Isaque gerou Jacob. Jacob gerou Judas e seus
               irmãos. Judas gerou Fares e Zarão de Tamar. Fares gerou Esron.
@@ -144,11 +146,11 @@ export default function Page0816() {
           <Text className="em">Sl. 8, 6-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Glória et honóre coronásti eum: et constituísti eum super ópera
               mánuum tuárum, Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vós o coroastes, Senhor, com glória e honras; Vós o estabelecestes
               acima das obras das vossas mãos.
             </Text>
@@ -157,14 +159,14 @@ export default function Page0816() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súscipe, clementíssime Deus, sacrifícium in honórem sancti
               Patriarchæ Jóachim, patris Maríæ Vírginis, majestáti tuæ oblátum:
               ut, ipso cum cónjuge sua et beatíssima prole intercedénte,
               perféctam cónsequi mereámur remissiónem peccatórum et glóriam
               sempitérnam. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebei, ó clementíssimo Deus, o sacrifício que oferecemos à vossa
               majestade em honra do santo Patriarca Joaquim, Pai da Virgem
               Maria, a fim de que, pela sua intercessão, unida à de sua esposa e
@@ -178,11 +180,11 @@ export default function Page0816() {
           <Text className="em">Lc. 12, 42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fidélis servus et prudens, quem constítuit dóminus super famíliam
               suam: ut det illis in témpore trítici mensuram.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis o servo fiel e prudente que o Senhor estabeleceu acima da sua
               família para distribuir oportunamente a cada um a sua medida de
               trigo.
@@ -192,14 +194,14 @@ export default function Page0816() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quæsumus, omnípotens Deus: ut per hæc sacraménta, quæ súmpsimus,
               intercedéntibus méritis et précibus beáti Jóachim patris
               Genetrícis dilécti Fílii tui, Dómini nostri Jesu Christi, tuæ
               grátiæ in præsénti et ætérnæ glóriæ in futúro partícipes esse
               mereámur. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fazei, ó Deus omnipotente, Vos suplicamos, que pelas preces e
               méritos do B. Joaquim, Pai da Mãe do vosso amado Filho, nosso
               Senhor Jesus Cristo, estes sacramentos, que recebemos, nos tornem

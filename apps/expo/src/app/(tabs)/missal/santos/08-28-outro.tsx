@@ -23,13 +23,13 @@ export default function Page0828Outro() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátum Hermétem Mártyrem tuum virtúte constántiæ in
               passióne roborásti: ex ejus nobis imitatióne tríbue; pro amóre tuo
               próspera mundi despícere, et nulla ejus advérsa formidáre. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que fortalecestes o B. Hermes, vosso Mártir, com a virtude
               da constância no seu suplício, concedei-nos, pelo vosso amor, que,
               seguindo seu exemplo, desprezemos as prosperidades deste mundo e
@@ -40,12 +40,12 @@ export default function Page0828Outro() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrifícium tibi, Dómine, laudis offérimus in tuórum
               commemoratióne Sanctórum: da, quǽsumus; ut, quod illis cóntulit
               glóriam, nobis prosit ad salútem. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos oferecemos, Senhor, em memória dos vossos Santos, este
               sacrifício de louvor; e, Vos imploramos, fazei que aquilo que lhe
               alcançou a glória sirva de proveito à nossa salvação. Por n...
@@ -55,12 +55,12 @@ export default function Page0828Outro() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Repleti, Dómine, benedictióne cœlésti, quǽsumus cleméntiam tuam:
               ut, intercedénte beáto Herméte Mártyre tuo, quæ humíliter gérimus,
               salúbriter sentiámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Saciados, Senhor, com a celestial bênção, invocamos a vossa
               clemência, a fim de que pela intercessão do B. Hermes, vosso
               Mártir, alcancemos os salutares efeitos do sacrifício, que

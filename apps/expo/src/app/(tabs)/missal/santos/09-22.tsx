@@ -29,13 +29,13 @@ export default function Page0922() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátum Thomam Pontíficem insígnis in páuperes
               misericórdiæ virtúte decorásti: quǽsumus; ut, ejus intercessióne,
               in omnes, qui te deprecántur, divítias misericórdiæ tuæ benígnus
               effúndas. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que ilustrastes o B. Pontífice Tomás com a virtude de uma
               insigne compaixão para com os pobres, permiti, Vos rogamos, que
               sua intercessão alcance da vossa bondade a efusão dos tesouros da
@@ -47,13 +47,13 @@ export default function Page0922() {
           <Text className="h3">Oração Comemoração S. Maurício e Outros</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Annue, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum
               Maurítii et Sociórum ejus nos lætíficet festíva sollémnitas; ut,
               quorum suffrágiis nítimur, eórum natalítiis gloriémur. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, ó Deus omnipotente, Vos rogamos, que a solene festa
               dos vossos Santos Mártires Maurício e seus Companheiros nos encha
               de alegria, a fim de que com o auxílio das suas orações
@@ -72,13 +72,13 @@ export default function Page0922() {
           <Text className="h3">Secreta Comemoração S. Maurício e Outros</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Réspice, quǽsumus, Dómine, múnera, quæ in sanctórum Mártyrum
               tuórum Maurítii et Sociórum ejus commemoratióne deférimus: et
               præsta; ut, quorum honóre sunt grata, eórum nobis fiant
               intercessióne perpétua. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos olhar, Senhor, Vos rogamos, para os dons que Vos
               apresentamos em memória dos vossos Santos Mártires Maurício e seus
               Companheiros, e permiti que, sendo-Vos agradáveis, pois são
@@ -99,12 +99,12 @@ export default function Page0922() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœléstibus refécti sacraméntis et gáudiis: súpplices te rogámus,
               Dómine; ut, quorum gloriámur triúmphis, protegámur auxíliis. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Confortados com estes sacramentos e com estas delícias celestiais,
               Senhor, Vos rogamos, dignai-Vos conceder-nos a protecção daqueles
               de cujos triunfos nos gloriamos. Por nosso Senhor...

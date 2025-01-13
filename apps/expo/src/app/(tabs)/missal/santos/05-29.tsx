@@ -25,13 +25,13 @@ export default function Page0529() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, vrginitátis amátor, qui beátam Maríam Magdalénam Vírginem,
               tuo amóre succénsam, cœléstibus donis decorásti: da; ut, quam
               festíva celebritáte venerámur, puritáte et caritáte imitémur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que amais a virgindade e ornastes com dons celestiais a B.
               Maria Madalena, vossa Virgem, cujo coração estava abrasado em amor
               por Vós, concedei-nos que, honrando-a nós com a celebração desta

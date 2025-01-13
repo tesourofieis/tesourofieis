@@ -26,13 +26,13 @@ export default function Page0514Lisboa() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Misericórdiam tuam, Deus, súpplices implorámus: ut sicut, ea
               præveniénte, beátum Ægídium in viam justitiæ et sanctitátis redíre
               fecísti; ita nos e servitúte ac morte peccáti in perféctam
               tránsferas libertátem et vitam. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Humildemente imploramos a vossa misericórdia, ó Deus, a fim de
               que, assim como em virtude dela permitistes que o B. Gil
               regressasse ao caminho da justiça e da santidade, assim também nos

@@ -16,32 +16,32 @@ export default function PageQuad31() {
           <Text className="em">Sl. 55, 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In Deo laudábo verbum, in Dómino laudábo sermónem: in Deo sperábo,
               non timebo, quid fáciat mihi homo.{" "}
-              <Text className="em">Ps. ibid., 2</Text> Miserére mei, Deus,
-              quóniam conculcávit me homo: tota die bellans tribulávit me. ℣.
-              Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 2</Text> Miserére
+              mei, Deus, quóniam conculcávit me homo: tota die bellans
+              tribulávit me. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Auxiliado com a graça de Deus, louvarei a sua palavra: auxiliado
               com a graça do Senhor, louvarei a sua doutrina; tenho esperança em
               Deus e não temo: o que poderá fazer o homem contra mim?{" "}
-              <Text className="em">Sl. ibid., 2</Text> Tende compaixão de mim,
-              meu Deus, pois o homem espezinha-me, persegue-me continuamente e
-              enche-me de tribulações. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 2</Text> Tende
+              compaixão de mim, meu Deus, pois o homem espezinha-me, persegue-me
+              continuamente e enche-me de tribulações. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde:
               ut, sicut ab escis carnálibus abstinémus; ita sensus quoque
               nostros a nóxiis retrahámus excéssibus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, infundi benigno nos nossos corações a
               vossa graça, para que, assim como nos abstemos dos alimentos
               carnais, assim também guardemos os nossos sentidos dos perigosos
@@ -54,9 +54,11 @@ export default function PageQuad31() {
           <Text className="em">4 Rs. 5, 1-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Regum.</Text>
-            <Text className="text-base">Lição do Livro dos Reis.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Regum.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro dos Reis.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Náaman, princeps milítiæ regis Sýriæ, erat vir
               magnus apud dóminum suum, et honorátus: per illum enim dedit
               Dóminus salútem Sýriæ: erat autem vir fortis et dives, sed
@@ -95,7 +97,7 @@ export default function PageQuad31() {
               ait: Vere scio, quod non sit álius Deus in univérsa terra, nisi
               tantum in Israël.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, Náaman, general das tropas do rei da Síria, tinha
               grande valimento junto do seu senhor e era muito considerado, pois
               foi por ele que o Senhor salvou a Síria. Era forte e rico; porém,
@@ -144,12 +146,12 @@ export default function PageQuad31() {
           <Text className="em">Sl. 55, 9 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, vitam meam annuntiávi tibi: posuísti lácrimas meas in
               conspéctu tuo. ℣. Miserére mei, Dómine, quóniam conculcávit me
               homo: tota die bellans tribulávit me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, narrei-Vos toda minha vida: e vistes as minhas lágrimas.
               ℣. Tende compaixão de mim, meu Deus, pois o homem espezinhou-me:
               continuamente me persegue e enche de tribulações.
@@ -168,15 +170,15 @@ export default function PageQuad31() {
           <Text className="em">Lc. 4, 23-30</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus pharisǽis: Utique dicétis mihi hanc
               similitúdinem: Médice, cura teípsum: quanta audívimus facta in
               Caphárnaum, fac et hic in pátria tua. Ait autem: Amen, dico vobis,
@@ -192,7 +194,7 @@ export default function PageQuad31() {
               ædificáta, ut præcipitárent eum. Ipse autem tránsiens per médium
               illórum, ibat.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos fariseus: «Sem dúvida me aplicareis
               este provérbio: «Médico, cura-te a ti mesmo». Quantas coisas
               ouvimos dizer que fizeste em Cafarnaum?! Pratica-as, pois, na tua
@@ -216,11 +218,11 @@ export default function PageQuad31() {
           <Text className="em">Sl. 54, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
               inténde in me, et exáudi me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi a minha oração, ó Deus, e não desprezeis a minha súplica:
               atendei-me, escutai-me.
             </Text>
@@ -229,11 +231,11 @@ export default function PageQuad31() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Munus, quod tibi, Dómine, nostræ servitútis offérimus, tu salutáre
               nobis pérfice sacraméntum. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, que este dom, que Vos oferecemos em sinal da
               nossa sujeição, se torne para nós em um sacramento salutar. Por
               nosso Senhor...
@@ -245,11 +247,11 @@ export default function PageQuad31() {
           <Text className="em">Sl. 13, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quis dabit ex Sion salutáre Israël? cum avértent Dóminus
               captivitátem plebis suæ, exsultábit Jacob, et lætábitur Israël.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Quem de Sião salvará Israel? Quando o Senhor extinguir o cativeiro
               do seu povo, Jacob exultará e Israel alegrar-se-á.
             </Text>
@@ -258,11 +260,11 @@ export default function PageQuad31() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens et miséricors Deus: ut, quod ore
               contíngimus, pura mente capiámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, ó Deus omnipotente e misericordioso, Vos suplicamos,
               que guardemos com o coração puro o Sacramento que recebemos na
               nossa boca. Por nosso Senhor...
@@ -272,22 +274,24 @@ export default function PageQuad31() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Subvéniat nobis, Dómine, misericórdia tua: ut ab imminéntibus
               peccatórum nostrórum perículis, te mereámur protegénte éripi, te
               liberánte salvári. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a vossa misericórdia, Senhor, venha em nosso auxílio, a fim de
               que pela vossa protecção mereçamos ser livres dos iminentes
               perigos, em que incorremos pelos nossos pecados, e ser salvos com

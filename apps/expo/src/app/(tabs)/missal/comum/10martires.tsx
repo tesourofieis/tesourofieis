@@ -16,18 +16,19 @@ export default function Page10Martires() {
           <Text className="em">Sl. 144, 10-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sancti tui, Dómine, benedícent te: glóriam regni tui dicent,
-              allelúja, allelúja. <Text className="em">Ps. ibid., 1</Text>{" "}
-              Exaltábo te, Deus meus, Rex: et benedícam nómini tuo in sǽculum,
-              et in sǽculum sǽculi. ℣. Gloria Patri...
+              allelúja, allelúja.{" "}
+              <Text className="text-base latin">Ps. ibid., 1</Text> Exaltábo te,
+              Deus meus, Rex: et benedícam nómini tuo in sǽculum, et in sǽculum
+              sǽculi. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que os vossos Santos Vos bendigam, Senhor: e publiquem a glória do
               vosso reino. Aleluia, aleluia.{" "}
-              <Text className="em">Sl. ibid., 1</Text> Exaltarei a vossa glória,
-              ó Deus, o meu Rei: e abençoarei o vosso Nome agora, sempre e em
-              todos os séculos! ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
+              Exaltarei a vossa glória, ó Deus, o meu Rei: e abençoarei o vosso
+              Nome agora, sempre e em todos os séculos! ℣. Glória ao Pai...
             </Text>
           </View>
 
@@ -43,9 +44,13 @@ export default function Page10Martires() {
           <Text className="em">1 Pe. 1, 3-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Epístolæ beáti Petri.</Text>
-            <Text className="text-base">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Léctio Epístolæ beáti Petri.
+            </Text>
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Pedro.
+            </Text>
+            <Text className="text-base latin">
               Benedíctus Deus et Pater Dómini nostri Jesu Christi, qui secúndum
               misericórdiam suam magnam regenerávit nos in spem vivam, per
               resurrectiónem Jesu Christi ex mórtuis, in hereditátem
@@ -57,7 +62,7 @@ export default function Page10Martires() {
               (quod per ignem probátur) inveniátur in laudem et glóriam et
               honórem, in revelatióne Jesu Christi, Dómini nostri.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito seja Deus, Pai de N. S. Jesus Cristo, que, segundo a
               grandeza da sua misericórdia, nos regenerou para uma esperança
               viva pela ressurreição dos mortos de Jesus Cristo, para
@@ -73,17 +78,17 @@ export default function Page10Martires() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Sancti tui, Dómine, florébunt sicut lílium:
               et sicut odor bálsami erunt ante te. Allelúja. ℣.{" "}
-              <Text className="em">Ps. 115, 15</Text> Pretiósa in conspéctu
-              Dómini mors Sanctórum ejus. Allelúja.
+              <Text className="text-base latin">Ps. 115, 15</Text> Pretiósa in
+              conspéctu Dómini mors Sanctórum ejus. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Vossos santos, Senhor, florescerão, como o
               lírio, e serão, ante Vós, como o odor do bálsamo. Aleluia. ℣.{" "}
-              <Text className="em">Sl. 115, 15</Text> É preciosa diante do
-              Senhor a morte dos seus Santos. Aleluia.
+              <Text className="text-base vernacular">Sl. 115, 15</Text> É
+              preciosa diante do Senhor a morte dos seus Santos. Aleluia.
             </Text>
           </View>
 
@@ -92,15 +97,15 @@ export default function Page10Martires() {
           <Text className="em">Jo. 15, 5-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Ego sum vitis, vos
               pálmites: qui manet in me, et ego in eo, hic fert fructum multum:
               quia sine me nihil potéstis fácere. Si quis in me non mánserit,
@@ -114,7 +119,7 @@ export default function Page10Martires() {
               servávi, et máneo in ejus dilectióne. Hæc locútus sum vobis, ut
               gáudium meum in vobis sit, et gáudium vestrum impleátur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Eu sou a videira,
               e vós sois as vides. Aquele que permanece em mim, eu permaneço
               nele, e dará abundante fruto; pois sem mim nada podereis fazer. Se
@@ -137,11 +142,11 @@ export default function Page10Martires() {
           <Text className="em">Sl. 31, 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti
               corde, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegrai-vos no Senhor, ó justos! Exultai de júbilo! Todos aqueles
               que possuem o coração recto serão glorificados. Aleluia, aleluia.
             </Text>
@@ -159,11 +164,11 @@ export default function Page10Martires() {
           <Text className="em">Sl. 32, 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gaudéte, justi, in Dómino, allelúja: rectos decet collaudátio,
               allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegrai-vos no Senhor, ó justos. Aleluia. É aos que são rectos que
               pertence cantar os vossos louvores. Aleluia.
             </Text>

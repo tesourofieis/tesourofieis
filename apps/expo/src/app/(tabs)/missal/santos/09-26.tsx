@@ -26,12 +26,12 @@ export default function Page0926() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beatórum Mártyrum Cypriáni et Justínæ nos, Dómine, fóveant
               continuáta pæsídia: quia non désinis propítius intuéri, quos
               tálibus auxíliis concésseris adjuvári. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fazei, Senhor, que incessantemente nos alegremos com a protecção
               dos vossos B. B. Mártires Cipriano e Justina, visto que não podeis
               deixar de acolher benignamente aqueles a quem concedeis a

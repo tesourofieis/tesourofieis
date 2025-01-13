@@ -15,40 +15,42 @@ export default function PageAdv10() {
           <Text className="em">Sl. 24, 1–3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ad te levávi ánimam meam: Deus meus, in te confíde, non erubéscam:
               neque irrídeant me inimíci mei: étenim univérsi, qui te
               exspéctant, non confundéntur.{" "}
-              <Text className="em">Ps. ibid., 4</Text> Vias tuas, Dómine,
-              demónstra mihi: et sémitas tuas édoce me. ℣. Glória Patri...
+              <Text className="text-base latin">Ps. ibid., 4</Text> Vias tuas,
+              Dómine, demónstra mihi: et sémitas tuas édoce me. ℣. Glória
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A Vós elevo a minha alma. Ó meu Deus, confio em Vós: não
               permitireis que fique confundido; nem que meus inimigos zombem de
               mim: porquanto aqueles que em Vós esperam não serão confundidos.{" "}
-              <Text className="em">Sl. ibid., 4</Text> Mostrai-me, Senhor, os
-              vossos caminhos: e ensinai-me a conhecer as vossas veredas. ℣.
-              Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 4</Text>{" "}
+              Mostrai-me, Senhor, os vossos caminhos: e ensinai-me a conhecer as
+              vossas veredas. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut ab
               imminéntibus peccatórum nostrórum perículis, te mereámur
               protegénte éripi, te liberánte salvári: Qui vivis et regnas cum
               Deo Patre in unitáte Spíritus Sancti Deus: per ómnia sǽcula
-              sæculórum. <Text className="text-red-500">℟.</Text> Amen.
+              sæculórum. <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Vos suplicamos, manifestai o vosso poder, e «vinde já ao
               mundo», a fim de que com vossa protecção mereçamos ser preservados
               dos iminentes perigos em que incorremos por causa dos nossos
               pecados, e sejamos livres e salvos: Vós, que viveis e reinais com
               Deus Pai em unidade do Espírito Santo, Deus, em todos os séculos
-              dos séculos. <Text className="text-red-500">℟.</Text> Amen.
+              dos séculos. <Text className="text-base vernacular">℟.</Text>{" "}
+              Amen.
             </Text>
           </View>
 
@@ -57,13 +59,13 @@ export default function PageAdv10() {
           <Text className="em">Rm. 13, 11–14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lectio Epístolæ beati Pauli Apostoli ad Romános.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fatres: Scientes, quia hora est jam nos de somno súrgere. Nunc
               enim própior est nostra salus, quam cum credídimus. Nox præcéssit,
               dies autem appropinquávit. Abjiciámus ergo ópera tenebrárum, et
@@ -72,7 +74,7 @@ export default function PageAdv10() {
               non in contentióne et æmulatióne: sed induímini Dóminum Jesum
               Christum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Sabeis que soou a hora em que devemos despertar do
               sono. Agora, a nossa salvação está mais próxima do que quando
               recebemos o dom da fé. A noite passou e o dia vem chegando.
@@ -88,22 +90,23 @@ export default function PageAdv10() {
           <Text className="em">Sl. 24, 3–4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Univérsi, qui te exspéctant, non confundéntur, Dómine. Vias tuas,
               Dómine, notas fac mihi: et sémitas tuas édoce me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, aqueles que em Vós não esperam serão confundidos.
               Mostrai-me, Senhor, os vossos caminhos: e ensinai-me a conhecer as
               vossas veredas.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 84, 8</Text>{" "}
-              Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da
-              nobis. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 84, 8</Text> Osténde nobis,
+              Dómine, misericórdiam tuam: et salutáre tuum da nobis. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 84, 8</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 84, 8</Text>{" "}
               Mostrai-nos, Senhor, a vossa misericórdia: e dai-nos a salvação.
               Aleluia.
             </Text>
@@ -114,15 +117,15 @@ export default function PageAdv10() {
           <Text className="em">Lc. 21, 25–33</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Erunt signa in sole
               et luna et stellis, et in terris pressúra géntium præ confusióne
               sónitus maris et flúctuum: arescéntibus homínibus præ timóre et
@@ -137,7 +140,7 @@ export default function PageAdv10() {
               dico vobis, quia non præteríbit generátio hæc, donec ómnia fiant.
               Coelum et terra transíbunt: verba autem mea non transíbunt.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus a seus discípulos: «Haverá sinais no
               sol, na lua e nas estrelas; e haverá angústia nos povos da terra
               por causa do bramido do mar e das ondas, mirrando-se os homens de
@@ -161,12 +164,12 @@ export default function PageAdv10() {
           <Text className="em">Sl. 24, 1–3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ad te levávi ánimam meam: Deus meus, in te confído, non erubéscam:
               neque irrídeant me inimíci mei: étenim univérsi, qui te
               exspéctant, non confundéntur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A Vós elevo a minha alma. Ó meu Deus, confio em Vós: não
               permitireis que fique confundido; nem que meus inimigos zombem de
               mim: porquanto aqueles que em Vós esperam não serão confundidos.
@@ -176,11 +179,11 @@ export default function PageAdv10() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc sacra nos, Dómine, poténti virtúte mundátos ad suum fáciant
               purióres veníre princípium. Per Dominum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, que estes mystérios, depois de nos haverem
               purificado com vossa poderosa virtude, nos façam chegar mais puros
               ainda junto daquele que é o seu princípio. Por nosso Senhor...
@@ -192,10 +195,10 @@ export default function PageAdv10() {
           <Text className="em">Sl. 84, 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dóminus dabit benignitátem: et terra nostra dabit fructum suum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor mostrará a sua bondade: e a nossa terra dará «o seu
               fruto».
             </Text>
@@ -204,12 +207,12 @@ export default function PageAdv10() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Suscipiámus, Dómine, misericórdiam tuam in médio templi tui: ut
               reparatiónis nostræ ventúra sollémnia cóngruis honóribus
               præcedámus. Per Dominum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, permiti que alcancemos a vossa misericórdia no meio do
               vosso templo, para que celebremos com a conveniente preparação a
               próxima solenidade da nossa reparação. Por nosso Senhor...

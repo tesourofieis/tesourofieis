@@ -19,13 +19,13 @@ export default function Page0722Lisboa() {
           odeiam fujam da sua presença. ℣. Glória ao Pai...
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui ad árdua quæque pro nóminis tui glória et animárum
               salúte beáto Lauréntio, Confessóri tuo atque Doctóri, spíritum
               sapiéntiæ et fortitúdinis contulísti: da nobis in eódem spíritu et
               agénda cognóscere; et cógnita, ejus intercessióne, perfícere.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que para glória do vosso nome e salvação das almas
               ornastes o B. Lourenço, vosso Confessor, com o espírito de
               conselho e de fortaleza nas obras ainda as mais árduas,

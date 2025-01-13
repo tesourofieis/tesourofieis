@@ -26,13 +26,13 @@ export default function Page1121() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátam Maríam semper Vírginem, Spíritus Sancti
               habitáculum, hodiérna die in templo præsentári voluísti: præsta,
               quǽsumus; ut, ejus intercessióne, in templo glóriæ tuæ præsentári
               mereámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que quisestes que a B. Virgem Maria, em quem habitava o
               Espírito Santo, fosse neste dia apresentada no templo, permiti
               pela sua intercessão que mereçamos ser apresentados no templo da

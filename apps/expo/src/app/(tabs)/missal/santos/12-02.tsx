@@ -25,13 +25,13 @@ export default function Page1202() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, ómnium largítor bonórum, qui in fámula tua Bibiána cum
               virginitátis flore martýrii palmam conjunxísti: mentes nostras
               ejus intercessióne tibi caritáte conjúnge; ut, amótis perículis,
               prǽmia consequámur ætérna. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, dispensador de todos os bens, que unistes a flor da
               virgindade à palma do martírio na pessoa de vossa serva Bibiana,
               dignai-Vos por sua intercessão unir pela caridade as nossas almas

@@ -15,17 +15,19 @@ export default function Page12252() {
           <Text className="em">Is. 9, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Puer natus est nobis, et fílius datus est nobis: cujus impérium
               super húmerum ejus: et vocábitur nomen ejus magni consílii
-              Angelus. <Text className="em">Ps. 97, 1</Text> Cantáte Dómino
-              cánticum novum, quia mirabília fecit. ℣. Gloria Patri...
+              Angelus. <Text className="text-base latin">Ps. 97, 1</Text>{" "}
+              Cantáte Dómino cánticum novum, quia mirabília fecit. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Nasceu para nós um Menino e foi-nos dado um Filho, que traz sobre
               os seus ombros o manto da realeza, o qual será chamado «Anjo do
-              admirável conselho». <Text className="em">Sl. 97, 1</Text> Cantai
-              ao Senhor um hino novo, pois Ele praticou maravilhas. ℣. Glória ao
+              admirável conselho».{" "}
+              <Text className="text-base vernacular">Sl. 97, 1</Text> Cantai ao
+              Senhor um hino novo, pois Ele praticou maravilhas. ℣. Glória ao
               Pai...
             </Text>
           </View>
@@ -33,12 +35,12 @@ export default function Page12252() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per
               carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus
               tenet. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos imploramos, dignai-Vos permitir que o novo
               Nascimento do vosso Filho Unigénito Incarnado nos livre do antigo
               cativeiro em que nos conserva o jugo do pecado. Pelo mesmo nosso
@@ -51,13 +53,13 @@ export default function Page12252() {
           <Text className="em">Heb. 1, 1-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Multifáriam, multísque modis olim Deus loquens pátribus in
               Prophétis: novíssime diébus istis locútus est nobis in Fílio, quem
               constítuit herédem universórum, per quem fecit et sǽcula: qui cum
@@ -79,7 +81,7 @@ export default function Page12252() {
               amíctum mutábis eos, et mutabúntur: tu autem idem ipse es, et anni
               tui non defícient.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus, que falara muitas vezes e de muitas maneiras a nossos pais
               pelos Profetas, falou-nos nos últimos tempos pelo seu Filho, que
               constituíra herdeiro de todas as coisas, e por quem, também, criou
@@ -113,22 +115,22 @@ export default function Page12252() {
           <Text className="em">Sl. 97, 3 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo,
               omnis terra. ℣. Notum fecit Dominus salutare suum: ante conspéctum
               géntium revelávit justitiam suam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Toda a terra viu o Salvador, que o nosso Deus enviou: aclamai
               Deus, ó povos de toda a terra. O Senhor manifestou o Salvador, que
               havia prometido: e manifestou a sua justiça aos olhos dos povos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Dies sanctificátus illúxit nobis: veníte,
               gentes, et adoráte Dóminum: quia hódie descéndit lux magna super
               terram. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Um dia de santidade resplandeceu para nós:
               vinde, ó povos, e adorai o Senhor: pois hoje desceu a grande luz à
               terra. Aleluia.
@@ -140,15 +142,15 @@ export default function Page12252() {
           <Text className="em">Jo, 1, 1-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Initium sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Initium sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Início do santo
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Início do santo
               Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat
               Verbum. Hoc erat in princípio apud Deum. Omnia per ipsum facta
               sunt: et sine ipso factum est nihil, quod factum est: in ipso vita
@@ -163,11 +165,11 @@ export default function Page12252() {
               dedit eis potestátem fílios Dei fíeri, his, qui credunt in nómine
               ejus: qui non ex sanguínibus, neque ex voluntáte carnis, neque ex
               voluntáte viri, sed ex Deo nati sunt.{" "}
-              <Text className="em">Hic genuflectitur</Text> Et Verbum caro
-              factum est, et habitávit in nobis: et vídimus glóriam ejus,
-              glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.
+              <Text className="text-base latin">Hic genuflectitur</Text> Et
+              Verbum caro factum est, et habitávit in nobis: et vídimus glóriam
+              ejus, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               No princípio existia o Verbo, e o Verbo estava com Deus, e o Verbo
               era Deus. Este estava no princípio com Deus. Todas as coisas foram
               por Ele criadas, e nada daquilo que foi criado teria sido criado
@@ -183,9 +185,9 @@ export default function Page12252() {
               receberam e aos que acreditaram no seu nome deu o poder de serem
               filhos de Deus, os quais não nasceram do sangue, nem do desejo da
               carne, mas somente da vontade de Deus. E o Verbo fez-se carne{" "}
-              <Text className="em">genuflecte-se</Text> e habitou entre nós; e
-              contemplamos a sua glória, como era própria do Filho Unigénito do
-              Pai, cheio de graça e de verdade.
+              <Text className="text-base vernacular">genuflecte-se</Text> e
+              habitou entre nós; e contemplamos a sua glória, como era própria
+              do Filho Unigénito do Pai, cheio de graça e de verdade.
             </Text>
           </View>
 
@@ -194,11 +196,11 @@ export default function Page12252() {
           <Text className="em">Sl. 88, 12 & 15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tui sunt cœli et tua est terra: orbem terrárum et plenitúdinem
               ejus tu fundásti: justítia et judícium præparátio sedis tuæ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A Vós, Senhor, pertencem os céus e a terra; pois criastes o
               universo e tudo o que ele encerra. A justiça e a equidade são a
               base do vosso trono.
@@ -208,12 +210,12 @@ export default function Page12252() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Obláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica:
               nosque a peccatórum nostrórum máculis emúnda. Per eúndem Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Santificai, Senhor, pelo novo Nascimento do vosso Filho Unigénito,
               as oblatas que Vos apresentamos, e purificai-nos das manchas dos
               nossos pecados. Pelo mesmo nosso Senhor...
@@ -225,10 +227,10 @@ export default function Page12252() {
           <Text className="em">Sl. 97, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vidérunt omnes fines terræ salutáre Dei nostri.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Toda a terra contemplou o Salvador que o nosso Deus enviou.
             </Text>
           </View>
@@ -236,12 +238,12 @@ export default function Page12252() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi,
               sicut divínæ nobis generatiónis est auctor; ita et immortalitátis
               sit ipse largítor: Qui tecum vivit et regnat...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, dignai-Vos permitir que, assim como o Salvador
               do mundo, nascendo neste dia, nos comunicou a geração divina,
               assim também nos conceda a imortalidade. Ele, que, sendo Deus...
@@ -253,15 +255,15 @@ export default function Page12252() {
           <Text className="em">Mt. 2, 19-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis,
               ecce, Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui
               natus est rex Judæórum? Vidimus enim stellam ejus in Oriénte, et
@@ -279,12 +281,13 @@ export default function Page12252() {
               in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi
               erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde.
               Et intrántes domum, invenérunt Púerum cum María Matre ejus,{" "}
-              <Text className="em">hic genuflectitur</Text> ei procidéntes
-              adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera,
-              aurum, thus et myrrham. Et responso accépto in somnis, ne redírent
-              ad Heródem, per aliam viam revérsi sunt in regiónem suam.
+              <Text className="text-base latin">hic genuflectitur</Text> ei
+              procidéntes adoravérunt eum. Et, apértis thesáuris suis,
+              obtulérunt ei múnera, aurum, thus et myrrham. Et responso accépto
+              in somnis, ne redírent ad Heródem, per aliam viam revérsi sunt in
+              regiónem suam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes,
               eis que vieram a Jerusalém os Magos do Oriente, dizendo: «Onde
               está o Rei dos Judeus, que acaba de nascer? Pois vimos a sua
@@ -305,10 +308,11 @@ export default function Page12252() {
               chegando ao lugar onde estava o Menino, parou. Quando os Magos
               viram a estrela, alegraram-se muito. Entrando, então, na casa,
               encontraram o Menino com Maria, sua mãe; e, de joelhos, O
-              adoraram. <Text className="em">Todos devem ajoelhar</Text> E,
-              tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro,
-              incenso e mirra. Depois, havendo tido aviso em sonhos de que não
-              deveriam voltar a encontrar Herodes, retiraram-se por outro
+              adoraram.{" "}
+              <Text className="text-base vernacular">Todos devem ajoelhar</Text>{" "}
+              E, tendo aberto os seus tesouros, ofereceram-Lhe presentes de
+              ouro, incenso e mirra. Depois, havendo tido aviso em sonhos de que
+              não deveriam voltar a encontrar Herodes, retiraram-se por outro
               caminho para o seu país.
             </Text>
           </View>

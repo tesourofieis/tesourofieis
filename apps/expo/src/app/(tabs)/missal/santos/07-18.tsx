@@ -40,31 +40,33 @@ export default function Page0718() {
           <Text className="em">Jo. 15, 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Majórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro
-              amícis suis. <Text className="em">Ps. 40, 2</Text> Beátus, qui
-              intéllegit super egénum et páuperem: in dic mala liberábit eum
-              Dóminus. ℣. Gloria Patri...
+              amícis suis. <Text className="text-base latin">Ps. 40, 2</Text>{" "}
+              Beátus, qui intéllegit super egénum et páuperem: in dic mala
+              liberábit eum Dóminus. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ninguém pode dar maior prova de amor do que dar a sua vida pelos
-              seus amigos. <Text className="em">Sl. 40, 2</Text> Bem-aventurado
-              aquele que atende às necessidades do pobre e do indigente, pois o
-              Senhor o livrará no dia da aflição. ℣. Glória ao Pai...
+              seus amigos.{" "}
+              <Text className="text-base vernacular">Sl. 40, 2</Text>{" "}
+              Bem-aventurado aquele que atende às necessidades do pobre e do
+              indigente, pois o Senhor o livrará no dia da aflição. ℣. Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui sanctum Camíllum, ad animárum in extrémo agóne
               luctántium subsídium, singulári caritátis prærogatíva decorásti:
               ejus, quǽsumus, méritis, spíritum nobis tuæ dilectiónis infúnde;
               ut in hora éxitus nostri hostem víncere, et ad cœléstem mereámur
               corónam perveníre. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que dotastes S. Camilo com a prerrogativa de uma singular
               caridade para auxiliar as almas nas derradeiras lutas da agonia,
               infundi-nos pelos seus méritos, Vos suplicamos, o espírito do
@@ -92,15 +94,15 @@ export default function Page0718() {
           <Text className="em">Jo. 15, 12-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Hoc est præcéptum
               meum, ut diligátis ínvicem, sicut diléxi vos. Majorem hac
               dilectiónem nemo habet, ut ánimam suam ponat quis pro amícis suis.
@@ -111,7 +113,7 @@ export default function Page0718() {
               vos, ut eátís, et fructum afferátis: et fructus vester maneat: ut,
               quodcúmque petiéritis Patrem in nómine meo, det vobis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Este é o meu
               mandamento: «Que vos ameis uns aos outros, como vos amei». Ninguém
               pode ter maior amor do que dar a sua vida pelos seus amigos. Vós
@@ -130,11 +132,11 @@ export default function Page0718() {
           <Text className="em">Sl. 20, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum
               exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Com o vosso poder, Senhor, se alegrará o justo, o qual exultará de
               alegria, vendo-se salvo por Vós. Concedestes-lhe, Senhor, o desejo
               da sua alma.
@@ -144,14 +146,14 @@ export default function Page0718() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hóstia immaculáta, qua illud Dómini nostri Jesu Christi imménsæ
               caritátis opus renovámus, sit, Deus Pater omnípotens, sancto
               Gamíllo intercedénte, contra omnes córporis et animae infirmitates
               salutáre remedium, et in extrémo agóne solátium et tutela. Per
               eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a hóstia imaculada pela qual renovamos esta instituição da
               imensa caridade de nosso Senhor Jesus Cristo seja para nós, pela
               intercessão de S. Camilo, remédio salutar contra todas as
@@ -165,11 +167,11 @@ export default function Page0718() {
           <Text className="em">Mt. 25, 36 & 40</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Infírmus fui, et visitástis me. Amen, amen, dico vobis: Quámdiu
               fecístis uni ex his frátribus meis minimis, mihi fecístis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Estive enfermo e visitastes-me. Em verdade, em verdade vos digo:
               todas as vezes que fizerdes isto mesmo a um destes meus irmãos
               mais pequeninos, a mim mesmo o fizestes.
@@ -179,14 +181,14 @@ export default function Page0718() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Per hæc cœléstia aliménta, quæ, sancti Camílli Confessóris tui
               sollémnia celebrántes, pia devotióne suscépimus: da, quǽsumus.
               Dómine; ut, in hora mortis nostræ sacraméntis refécti et culpis
               ómnibus expiáti, in sinum misericórdiæ tuæ læti súscipi mereámur:
               Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Por estes alimentos celestiais, que recebemos com pia devoção
               celebrando a festa de S. Camilo, vosso Confessor, concedei-nos,
               Senhor, Vos suplicamos, que à hora da morte, munidos com os

@@ -23,12 +23,12 @@ export default function Page0122LisboaFaro() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte
               nostra reos nos esse cognóscimus, beáti Vincéntii Martyris tui
               intercessióne liberémur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, dignai-Vos ouvir as nossas súplicas, a fim de que,
               reconhecendo-nos réus diante de Vós pelas nossas iniquidades,
               sejamos livres delas por intercessão do vosso B. Mártir Vicente.
@@ -41,15 +41,15 @@ export default function Page0122LisboaFaro() {
           <Text className="em">Jo. 12, 24-26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Amen, amen, dico
               vobis, nisi granum fruménti cadens in terram, mórtuum fúerit,
               ipsum solum manet: si autem mórtuum fúerit, multum fructum affert.
@@ -58,7 +58,7 @@ export default function Page0122LisboaFaro() {
               sequátur: et ubi sum ego, illic et miníster meus erit. Si quis
               mihi ministráverit, honorificábit eum Pater meus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Se o grão de
               trigo, caindo na terra, não morrer, permanece estéril; mas, se
               morrer, dará muito fruto. Aquele que ama a sua vida perdê-la-á;
@@ -74,11 +74,11 @@ export default function Page0122LisboaFaro() {
           <Text className="em">Sl. 95, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Conféssio et pulchritúdo in conspéctu ejus: sánctitas, et
               magnificéntia in sanctificatióne ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
               santidade e a magnificência.
             </Text>
@@ -87,12 +87,12 @@ export default function Page0122LisboaFaro() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
               tuórum tibi grata sint honóre Justórum, et nobis salutária, te
               miseránte, reddántur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos oferecemos estes dons da nossa devoção; e que em
               consideração dos vossos Santos eles Vos sejam agradáveis, e pela
               vossa misericórdia nos sejam salutares. Por nosso Senhor...
@@ -102,12 +102,12 @@ export default function Page0122LisboaFaro() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
               intercedéntibus beáto Vincéntio Martýre tuo, per hæc contra ómnia
               advérsa muniámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos suplicamos, fazei que, havendo nós
               recebido os alimentos celestiais, sejamos fortalecidos contra
               todas as adversidades por intercessão do vosso B. Mártir Vicente.

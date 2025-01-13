@@ -16,32 +16,33 @@ export default function PageQuad55() {
           <Text className="em">Sl. 30, 10, 16 & 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de
               mánibus inimicórum meórum et a persequéntibus me: Dómine, non
               confúndar, quóniam invocávi te.{" "}
-              <Text className="em">Ps. ib., 2</Text> In te, Dómine, sperávi, non
-              confúndar in ætérnum: in justítia tua libera me.
+              <Text className="text-base latin">Ps. ib., 2</Text> In te, Dómine,
+              sperávi, non confúndar in ætérnum: in justítia tua libera me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Tende misericórdia de mim, Senhor, pois estou aflito; salvai-me e
               livrai-me das mãos dos meus inimigos e perseguidores. Senhor, não
               serei confundido, porque Vos invoquei.{" "}
-              <Text className="em">Sl. ib., 2</Text> Confio em Vós, Senhor, não
-              serei para sempre confundido; livrai-me segundo a vossa justiça.
+              <Text className="text-base vernacular">Sl. ib., 2</Text> Confio em
+              Vós, Senhor, não serei para sempre confundido; livrai-me segundo a
+              vossa justiça.
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde:
               ut peccáta nostra castigatióne voluntária cohibéntes, temporáliter
               pótius macerémur, quam súppliciis deputémur ætérnis. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Infundi benigno, Senhor, Vos suplicamos, a vossa graça em nossos
               corações, para que, punindo-nos voluntariamente por causa dos
               nossos pecados, evitemos com estas penas temporais a condenação
@@ -54,9 +55,11 @@ export default function PageQuad55() {
           <Text className="em">Jr. 17, 13-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Jeremíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Jeremias.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Jeremíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Jeremias.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Dixit Jeremías: Dómine, omnes, qui te
               derelínquunt, confundéntur: recedéntes a te in terra scribéntur:
               quóniam dereliquérunt venam aquárum vivéntium Dóminum. Sana me.
@@ -70,7 +73,7 @@ export default function PageQuad55() {
               afflictiónis, et dúplici contritióne cóntere eos, Dómine, Deus
               noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, disse Jeremias: «Senhor, todos os que se afastaram
               de Vós serão confundidos; todos os que se afastaram de Vós ficarão
               envergonhados, pois abandonaram o Senhor, que é a fonte das águas
@@ -93,11 +96,11 @@ export default function PageQuad55() {
           <Text className="em">Sl. 34, 20 & 22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Pacífice loquebántur mihi inimíci mei: et in ira molésti erant
               mihi. ℣. Vidísti, Dómine, ne síleas: ne discédas a me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Os meus inimigos falavam-me aparentemente com palavras de paz; mas
               na sua ira meditavam perfídias contra mim. Vós bem o vistes,
               Senhor: não sejais insensível, não Vos afasteis de mim.
@@ -116,15 +119,15 @@ export default function PageQuad55() {
           <Text className="em">Jo. 11, 47-54</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Collegérunt pontífices et pharisǽi concílium
               advérsus Jesum, et dicébant: Quid fácimus, quia hic homo multa
               signa facit? Si dimíttimus eum sic, omnes credent in eum: et
@@ -140,7 +143,7 @@ export default function PageQuad55() {
               juxta desértum, in civitátem, quæ dícitur Ephrem, et ibi morabátur
               cum discípulis suis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, reuniram-se os pontífices e os fariseus em
               assembleia contra Jesus, dizendo: «Que faremos nós a este homem,
               que opera tantos prodígios? Se o deixarmos livre, todos
@@ -164,12 +167,12 @@ export default function PageQuad55() {
           <Text className="em">Sl. 118, 12, 121 & 42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctus es, Dómine, doce me justificatiónes tuas: et non tradas
               calumniántibus me supérbis: et respondébo exprobrántibus mihi
               verbum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito sois, Senhor. Ensinai-me a conhecer as vossas leis. Não me
               entregueis àqueles que me perseguem: e eu saberei responder
               àqueles que me insultam.
@@ -179,12 +182,12 @@ export default function PageQuad55() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta nobis, miséricors Deus: ut digne tuis servíre semper
               altáribus mereámur; et eórum perpétua participatióne salvári. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus misericordioso, concedei-nos a graça de servirmos sempre
               dignamente os vossos altares, a fim de que, participando
               perpetuamente deles, possamos salvar-nos. Por nosso Senhor...
@@ -196,11 +199,11 @@ export default function PageQuad55() {
           <Text className="em">Sl. 26, 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ne tradíderis me. Dómine, in animas persequéntium me: quóniam
               insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, não me abandoneis ao ódio dos que me perseguem, quando se
               levantam contra mim com testemunhos iníquos; pois a iniquidade
               contradiz-se a si própria.
@@ -210,11 +213,11 @@ export default function PageQuad55() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et
               nóxia semper a nobis cuncta depéllat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que nos não desampare, Senhor, a protecção do sacramento agora
               recebido, e que para sempre afaste de nós todos os males. Por
               nosso Senhor...
@@ -224,22 +227,24 @@ export default function PageQuad55() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde, quǽsumus, omnípotens Deus: ut, qui protectiónis tuæ
               grátiam quǽrimus, liberáti a malis ómnibus, secúra tibi mente
               serviámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus omnipotente, Vos suplicamos, concedei-nos a graça da vossa
               protecção, que sempre procurámos, a fim de que sejamos livres de
               todos os males e Vos sirvamos com a alma tranquila. Por nosso

@@ -15,31 +15,31 @@ export default function PagePasc20() {
           <Text className="em">Sl. 32, 5-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli
               firmáti sunt, allelúja, allelúja.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Exsultáte, justi, in
-              Dómino: rectos decet collaudátio. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Exsultáte,
+              justi, in Dómino: rectos decet collaudátio. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A misericórdia do Senhor enche toda a terra, aleluia! A palavra do
               Senhor criou os céus, aleluia, aleluia.{" "}
-              <Text className="em">Sl. ibid., 1</Text> Ó justos, exultai de
-              alegria e aclamai o Senhor; pois é bom que os justos O louvem. ℣.
-              Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> Ó
+              justos, exultai de alegria e aclamai o Senhor; pois é bom que os
+              justos O louvem. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui in Filii tui humilitate jacéntem mundum erexísti:
               fidelibus tuis perpétuam concéde lætítiam; ut, quos perpétuæ
               mortis eripuísti casibus, gaudiis fácias perfrui sempitérnis. Per
               eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que pela humilhação do vosso Filho livrastes o mundo do
               abatimento em que jazia, concedei aos vossos fiéis a alegria
               perpétua, a fim de que aqueles que livrastes da morte eterna se
@@ -53,11 +53,13 @@ export default function PagePasc20() {
           <Text className="em">1 Pe. 2, 21-25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Petri Apóstoli.
             </Text>
-            <Text className="text-base">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Pedro.
+            </Text>
+            <Text className="text-base latin">
               Caríssimi: Christus passus est pro nobis, vobis relínquens
               exémplum, ut sequámini vestígia ejus. Qui peccátum non fecit, nec
               invéntus est dolus in ore ejus: qui cum male dicerétur, non
@@ -67,7 +69,7 @@ export default function PagePasc20() {
               livóre sanáti estis. Erátis enim sicut oves errántes, sed convérsi
               estis nunc ad pastórem et epíscopum animárum vestrárum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimos: Cristo padeceu por nós, deixando-nos o exemplo, para
               que seguíssemos as suas pegadas: Ele, que não cometeu pecado; Ele,
               em cuja boca não apareceu qualquer engano; Ele, que, mesmo
@@ -82,15 +84,17 @@ export default function PagePasc20() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Luc. 24, 35</Text>{" "}
-              Cognovérunt discípuli Dóminum Jesum in fractióne panis. Allelúja.
-              ℣. <Text className="em">Joann. 10, 14</Text> Ego sum pastor bonus:
-              ei cognósco oves meas, et cognóscunt me meæ. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Luc. 24, 35</Text> Cognovérunt
+              discípuli Dóminum Jesum in fractióne panis. Allelúja. ℣.{" "}
+              <Text className="em">Joann. 10, 14</Text> Ego sum pastor bonus: ei
+              cognósco oves meas, et cognóscunt me meæ. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Lc. 24, 35</Text> Os
-              dois discípulos reconheceram o Senhor Jesus pela fracção do pão.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Lc. 24, 35</Text> Os dois
+              discípulos reconheceram o Senhor Jesus pela fracção do pão.
               Aleluia. ℣. <Text className="em">Jo. 10, 14</Text> Eu sou o bom
               Pastor; conheço as minhas ovelhas, e elas conhecem-me, aleluia.
             </Text>
@@ -101,15 +105,15 @@ export default function PagePasc20() {
           <Text className="em">Jo. 10, 11-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus.
               Bonus pastor ánimam suam dat pro óvibus suis. Mercennárius autem
               et qui non est pastor, cujus non sunt oves própriæ, videt lupum
@@ -121,7 +125,7 @@ export default function PagePasc20() {
               sunt ex hoc o vili: et illas opórtet me addúcere, et vocem meam
               áudient, et fiet unum ovíle et unus pastor.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos fariseus: «Eu sou o bom Pastor. O
               bom Pastor dá a vida pelas suas ovelhas. Porém o mercenário, e o
               que não é pastor e a quem as ovelhas não pertencem, vê vir o lobo,
@@ -141,11 +145,11 @@ export default function PagePasc20() {
           <Text className="em">Sl. 62, 2 & 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, Deus meus, ad te de luce vígilo: et in nómine tuo levábo
               manus meas, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, ó meu Deus, a Vós recorro desde manhã: E erguerei as
               minhas mãos em honra do vosso nome, aleluia.
             </Text>
@@ -154,11 +158,11 @@ export default function PagePasc20() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedictiónem nobis, Dómine, cónferat salutárem sacra semper
               oblátio: ut, quod agit mystério, virtúte perfíciat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que esta oblação sagrada nos alcance sempre a vossa
               salutar bênção, a fim de que produza os efeitos do mystério que
               ela renova. Por nosso Senhor...
@@ -170,11 +174,11 @@ export default function PagePasc20() {
           <Text className="em">Jo. 10, 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ego sum pastor bonus, allelúja: et cognósco oves meas, et
               cognóscunt me meæ, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eu sou o bom Pastor, aleluia; conheço as minhas ovelhas, e elas
               conhecem-me, aleluia.
             </Text>
@@ -183,12 +187,12 @@ export default function PagePasc20() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta nobis, quǽsumus, omnípotens Deus: ut, vivificatiónis tuæ
               grátiam consequéntes, in tuo semper múnere gloriémur. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos suplicamos, permiti que, havendo alcançado
               de Vós a graça da vida nova, sempre nos gloriemos com este dom,
               que nos dispensais. Por nosso Senhor...

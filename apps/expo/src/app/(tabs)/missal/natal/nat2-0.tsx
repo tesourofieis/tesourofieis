@@ -15,33 +15,34 @@ export default function PageNat20() {
           <Text className="em">Fl. 2, 10-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In nómine Jesu omne genu flectátur, cœléstium, terréstrium et
               infernórum: et omnis lingua confiteátur, quia Dóminus Jesus
               Christus in glória est Dei Patris.{" "}
-              <Text className="em">Ps. 8, 2</Text> Dómine, Dóminus noster, quam
-              admirábile est nomen tuum in univérsa terra! ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 8, 2</Text> Dómine, Dóminus
+              noster, quam admirábile est nomen tuum in univérsa terra! ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que ao ser pronunciado o Nome de Jesus se dobrem todos os joelhos
               dos que estão no céu, na terra e no inferno: e que toda a língua
               humana confesse que o Senhor Jesus Cristo está na glória de Deus
-              Pai. <Text className="em">Ps. 8, 2</Text> Senhor, nosso Senhor,
-              como o vosso Nome é admirável em todo o universo! ℣. Glória ao
-              Pai...
+              Pai. <Text className="text-base vernacular">Ps. 8, 2</Text>{" "}
+              Senhor, nosso Senhor, como o vosso Nome é admirável em todo o
+              universo! ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui unigénitum Fílium tuum constituísti hu máni géneris
               Salvatórem, ei Jesum vocári jussísti: concéde propítius; ut, cujus
               sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur
               in cœlis. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que constituístes o vosso Filho Unigénito Salvador do
               mundo e ordenastes que fosse chamado Jesus, concedei-nos propício
               que, venerando nós o seu Santo Nome na terra, gozemos também a sua
@@ -54,9 +55,11 @@ export default function PageNat20() {
           <Text className="em">Act. 4, 8-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostolorum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostolorum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Petrus, replétus Spíritu Sancto, dixit: Príncipes
               pópuli et senióres, audíte: Si nos hódie dijudicámur in benefácto
               hóminis infírmi, in quo iste salvus factus est, notum sit ómnibus
@@ -67,7 +70,7 @@ export default function PageNat20() {
               ánguli: et non est in alio áliquo salus. Nec enim aliud nomen est
               sub cœlo datum homínibus, in quo opórteat nos salvos fíeri.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, Pedro, cheio de Espírito Santo, disse: «Príncipes
               do povo e anciãos de Israel, escutai: Visto que somos hoje
               julgados por causa dum milagre, concedido a um homem enfermo, para
@@ -87,26 +90,29 @@ export default function PageNat20() {
           <Text className="em">Sl. 105, 47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Salvos fac nos, Dómine, Deus noster, et cóngrega nos de
               natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in
-              glória tua. ℣. <Text className="em">Isai. 63, 16</Text> Tu,
-              Dómine, Pater noster et Redémptor noster: a sǽculo nomen tuum.
+              glória tua. ℣.{" "}
+              <Text className="text-base latin">Isai. 63, 16</Text> Tu, Dómine,
+              Pater noster et Redémptor noster: a sǽculo nomen tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Salvai-nos, ó Senhor, nosso Deus, e reuni-nos todos no meio das
               nações, a fim de que confessemos o vosso Santo Nome e nos
               gloriemos com vossos louvores. ℣.{" "}
-              <Text className="em">Isai. 63, 16</Text> Senhor, sois o nosso Pai
-              e Redentor! vosso Nome é eterno!
+              <Text className="text-base vernacular">Isai. 63, 16</Text> Senhor,
+              sois o nosso Pai e Redentor! vosso Nome é eterno!
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 144, 21</Text>{" "}
-              Laudem Dómini loquétur os meum, et benedícat omnis caro nomen
-              sanctum ejus. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 144, 21</Text> Laudem Dómini
+              loquétur os meum, et benedícat omnis caro nomen sanctum ejus.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 144, 21</Text> Que
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 144, 21</Text> Que
               minha boca anuncie os louvores do Senhor: que toda a carne humana
               bendiga o seu Santo Nome. Aleluia.
             </Text>
@@ -117,20 +123,20 @@ export default function PageNat20() {
           <Text className="em">Lc. 2, 21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Postquam consummáti sunt dies octo, ut
               circumciderétur Puer: vocátum est nomen ejus Jesus, quod vocátum
               est ab Angelo, priúsquam in útero conciperétur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, passados que foram oito dias depois dos quais o
               Menino devia ser circuncidado, foi-Lhe dado o nome de Jesus, que
               foi aquele que o Anjo Lhe havia dado, antes de ser concebido no
@@ -143,12 +149,12 @@ export default function PageNat20() {
           <Text className="em">Sl. 85, 12 & 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Confitébor tibi, Dómine, Deus meus, in toto corde meo, et
               glorificábo nomen tuum in ætérnum: quóniam tu, Dómine, suávis et
               mitis es: et multæ misericórdiæ ómnibus invocántibus te, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Louvar-Vos-ei de todo meu coração, ó Senhor, meu Deus: e
               glorificarei eternamente o vosso Nome; pois Vós, ó Senhor, sois
               cheio de clemência e de bondade: e as vossas misericórdias
@@ -159,14 +165,14 @@ export default function PageNat20() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctio tua, clementíssime Deus, qua omnis viget creatúra,
               sanctíficet, quǽsumus, hoc sacrifícium nostrum, quod ad glóriam
               nóminis Fílii tui, Dómini nostri Jesu Christi, offérimus tibi: ut
               majestáti tuæ placére possit ad laudem, et nobis profícere ad
               salútem. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus clementíssimo, que a vossa bênção, que dá a vida a todas as
               criaturas, santifique este nosso sacrifício, que oferecemos em
               glória do Nome do vosso Filho, nosso Senhor Jesus Cristo, a fim de
@@ -180,12 +186,12 @@ export default function PageNat20() {
           <Text className="em">Sl. 85, 9-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnes gentes, quascúmque fecísti, vénient et adorábunt coram te,
               Dómine, et glorificábunt nomen tuum: quóniam magnus es tu et
               fáciens mirabília: tu es Deus solus, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Todos os povos, que criastes, virão e se prostrarão diante de Vós,
               Senhor, adorando-Vos e glorificando o vosso Nome; pois sois grande
               e praticais prodígios. Só Vós sois Deus. Aleluia.
@@ -195,7 +201,7 @@ export default function PageNat20() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens ætérae Deus, qui creásti et redemísti nos, réspice
               propítius vota nostra: et sacrifícium salutáris hóstiæ, quod in
               honórem nóminis Fílii tui, Dómini nostri Jesu Christi, majestáti
@@ -204,7 +210,7 @@ export default function PageNat20() {
               prædestinatiónis titulo gaudeámus nómina nostra scripta esse in
               cœlis. Per eúndem Dóminu...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus omnipotente e eterno, que nos criastes e resgatastes, olhai
               benignamente para as nossas ofertas e dignai-Vos aceitar com ânimo
               suave e piedoso o sacrifício da Hóstia salutar, que oferecemos à

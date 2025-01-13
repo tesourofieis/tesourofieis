@@ -18,32 +18,33 @@ export default function Page0615() {
           <Text className="em">Sl. 33, 20-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Multæ tribulationes justórum, et de his ómnibus liberávit eos
               Dóminus: Dóminus custodit ómnia ossa eórum: unum ex his non
-              conterétur. <Text className="em">Ps. ib., 2</Text> Benedícam
-              Dóminum in omni témpore: semper laus ejus in ore meo. ℣. Gloria
-              Patri...
+              conterétur. <Text className="text-base latin">Ps. ib., 2</Text>{" "}
+              Benedícam Dóminum in omni témpore: semper laus ejus in ore meo. ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Muitas são as tribulações dos justos, mas de todas elas o Senhor
               os livrará: o Senhor guarda todos seus ossos e nem um só deles
-              será quebrado. <Text className="em">Sl. ib., 2</Text> Bendirei o
-              Senhor em todo o tempo; o seu louvor estará sempre na minha boca.
-              ℣. Glória ao Pai...
+              será quebrado.{" "}
+              <Text className="text-base vernacular">Sl. ib., 2</Text> Bendirei
+              o Senhor em todo o tempo; o seu louvor estará sempre na minha
+              boca. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da Ecclésiæ tuæ, quǽsumus, Dómine, sanctis Martýribus tuis Vito,
               Modésto atque Crescéntia intercedéntibus, supérbe non sápere, sed
               tibi plácita humilitáte profícere: ut, prava despíciens, quæcúmque
               recta sunt, libera exérceat caritáte. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, dignai-Vos conceder aos vossos fiéis, pela intercessão dos
               vossos Santos Mártires Vito, Modesto e Crescência, que não caiam
               em sentimentos de orgulho, mas pratiquem a humildade, que Vos é
@@ -64,23 +65,24 @@ export default function Page0615() {
           <Text className="em">Sl. 149, 5 & 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exsultábunt Sancti in glória: lætabúntur in cubílibus suis. ℣.
               Cantáte Dómino cánticum novum: laus ejus in ecclésia sanctórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Os Santos exultarão de alegria na sua glória: e rejubilarão nos
               lugares do seu repouso. ℣. Cantai ao Senhor um cântico novo: que a
               assembleia dos fiéis cante sempre os seus louvores.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 144, 10-11</Text>{" "}
-              Sancti tui, Dómine, benedícent te: glóriam regni tui dicent.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 144, 10-11</Text> Sancti
+              tui, Dómine, benedícent te: glóriam regni tui dicent. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 144, 10-11</Text>{" "}
-              Que os vossos Santos Vos bendigam: que publiquem a glória do vosso
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 144, 10-11</Text> Que
+              os vossos Santos Vos bendigam: que publiquem a glória do vosso
               reino. Aleluia.
             </Text>
           </View>
@@ -90,15 +92,15 @@ export default function Page0615() {
           <Text className="em">Lc. 10, 16-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Qui vos audit, me
               audit: et qui vos spernit, me spernit. Qui autem me spernit,
               spernit eum, qui misit me. Revérsi sunt autem septuagínta duo cum
@@ -110,7 +112,7 @@ export default function Page0615() {
               subjiciúntur: gaudéte autem, quod nómina vestra scripta sunt in
               cœlis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo disse Jesus aos seus discípulos: «Quem vos ouve,
               ouve-me a mim; e quem vos despreza, despreza-me a mim. Quem me
               despreza, despreza Aquele que me enviou». Ora os setenta e dois
@@ -134,12 +136,12 @@ export default function Page0615() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sicut glóriam divínæ poténtiæ múnera pro Sanctis obláta testántur:
               sic nobis efféctum, Dómine, tuæ salvatiónis impéndant. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Assim como os dons oferecidos em honra dos vossos Santos
               testemunham gloriosamente o poder divino, assim também, Senhor,
               permiti que eles nos alcancem a salvação. Por nosso Senhor...
@@ -151,12 +153,12 @@ export default function Page0615() {
           <Text className="em">Sb. 3, 1-2 & 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum
               malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in
               pace.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               As almas dos justos estão nas mãos de Deus e o tormento da malícia
               lhes não causará dano. Aos olhos dos insensatos pareciam mortos,
               mas estão na paz.
@@ -166,13 +168,13 @@ export default function Page0615() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Repléti, Dómine, benedictióne sollémni: quǽsumus; ut, per
               intercessiónem sanctórum Mártyrum tuórum Viti, Modésti et
               Crescéntiæ, medicína sacraménti et corpóribus nostris prosit et
               méntibus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Saciados com vossa bênção nesta solenidade, dignai-Vos
               conceder-nos, Senhor, pela intercessão dos vossos Santos Mártires
               Vito, Modesto e Crescência, que este vosso sacramento seja

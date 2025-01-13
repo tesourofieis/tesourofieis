@@ -19,72 +19,81 @@ export default function PageExtremauncao() {
             Sacerdote, entrando em casa do enfermo, dirá:
           </View>
           <View className="side-by-side">
-            <Text className="text-base">℣. Pax huic dómui.</Text>
-            <Text className="text-base">℣. A paz esteja nesta casa.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et ómnibus habitántibus
-              in ea.
+            <Text className="text-base latin">℣. Pax huic dómui.</Text>
+            <Text className="text-base vernacular">
+              ℣. A paz esteja nesta casa.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E em todos seus
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et ómnibus
+              habitántibus in ea.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E em todos seus
               habitantes.
             </Text>
           </View>
           <Text className="h2">Asperges Me</Text>
           <AspergesMe />
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Adjutórium nostrum in nómine Dómini.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. O nosso auxílio está no Nome do Senhor.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Qui fecit cœlum et
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Qui fecit cœlum et
               terram.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Que criou o céu e a
-              terra.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Que criou o céu e
+              a terra.
             </Text>
-            <Text className="text-base">℣. Dómine, exáudi oratiónem meam.</Text>
-            <Text className="text-base">℣. Senhor, ouvi a minha oração.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+            <Text className="text-base latin">
+              ℣. Dómine, exáudi oratiónem meam.
+            </Text>
+            <Text className="text-base vernacular">
+              ℣. Senhor, ouvi a minha oração.
+            </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
-              até Vós.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E que meu clamor
+              chegue até Vós.
             </Text>
-            <Text className="text-base">℣. Dominus vobíscum.</Text>
-            <Text className="text-base">℣. O Senhor seja convosco.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
+            <Text className="text-base latin">℣. Dominus vobíscum.</Text>
+            <Text className="text-base vernacular">
+              ℣. O Senhor seja convosco.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E com vosso espírito.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E com vosso
+              espírito.
             </Text>
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Intróeat, Dómine Jesu Christe, domum hanc sub nostræ humilitátis
               ingréssu, ætérna felícitas, divína prospéritas, seréna lætítia,
               cáritas fructuósa, sánitas sempitérna: effúgiat ex hoc loco
               accéssus dæmonum: adsint Angeli pacis, domúmque hanc déserat omnis
               malígna discórdia. Magnífica, Dómine, super nos nomen sanctum
-              tuum; et béne <Text className="cross text-red-500">✠</Text> dic
+              tuum; et béne <Text className="text-base latin">✠</Text> dic
               nostræ conversatióni: sanctífica nostræ humilitátis ingréssum, qui
               sanctus et qui pius es, et pérmanes cum Patre et Spíritu Sancto in
               sæcula sæculórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, fazei entrar nesta casa, conduzido pelos
               passos do vosso humilde ministro, a felicidade eterna, a
               prosperidade divina, a alegria pura, a caridade fecunda e a saúde
@@ -92,31 +101,31 @@ export default function PageExtremauncao() {
               mais entrar nela; fazei que os Anjos da paz aqui acorram e que
               toda a maligna discórdia seja expulsa. Fazei brilhar, Senhor, a
               grandeza do vosso Sacratíssimo Nome e abençoai{" "}
-              <Text className="cross text-red-500">✠</Text> o nosso ministério.
-              Santificai a nossa humilde entrada neste lugar santo, ó Vós, que
-              sois a própria santidade e misericórdia e que permaneceis imutável
-              com o Pai e com o Espírito Santo em todos os séculos dos séculos.
+              <Text className="text-base vernacular">✠</Text> o nosso
+              ministério. Santificai a nossa humilde entrada neste lugar santo,
+              ó Vós, que sois a própria santidade e misericórdia e que
+              permaneceis imutável com o Pai e com o Espírito Santo em todos os
+              séculos dos séculos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus, et deprecémur Dóminum nostrum Jesum Christum, ut
-              benedicéndo bene <Text className="cross text-red-500">✠</Text>{" "}
-              dicat hoc tabernáculum, et omnes habitántes in eo, et det eis
-              Angelum bonum custódem, et fáciat eos sibi servíre ad
-              considerándum mirabília de lege sua: avértat ab eis omnes
-              contrárias potestátes: erípiat eos ab omni formídine, et ab omni
-              perturbatióne, ac sanos in hoc tabernáculo custodíre dignétur: Qui
-              cum Patre et Spíritu Sancto vivit et regnat Deus in sæcula
-              sæculórum.
+              benedicéndo bene <Text className="text-base latin">✠</Text> dicat
+              hoc tabernáculum, et omnes habitántes in eo, et det eis Angelum
+              bonum custódem, et fáciat eos sibi servíre ad considerándum
+              mirabília de lege sua: avértat ab eis omnes contrárias potestátes:
+              erípiat eos ab omni formídine, et ab omni perturbatióne, ac sanos
+              in hoc tabernáculo custodíre dignétur: Qui cum Patre et Spíritu
+              Sancto vivit et regnat Deus in sæcula sæculórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Pedimos e imploramos de nosso Senhor Jesus Cristo, que encha com
-              suas bênçãos <Text className="cross text-red-500">✠</Text> esta
+              suas bênçãos <Text className="text-base vernacular">✠</Text> esta
               casa e todos aqueles que nela habitam; que lhes envie o seu Anjo
               para os guardar cuidadosamente; que os una ao seu serviço e os
               faça considerar nas maravilhas da sua Lei; que afaste deles todas
@@ -124,37 +133,37 @@ export default function PageExtremauncao() {
               e que se digne conservá-los sãos e salvos nesta morada: Ele, que,
               sendo Deus, vive e...
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exáudi nos, Dómine sancte, Pater omnípotens, ætérnæ deus: et
               míttere dignéris sanctum Angelum tuum de cælis, qui custódiat,
               fóveat, prótegat, vísitet, atque deféndat omnes habitántes in hoc
               habitáculo. Per Christum Dóminum nostrum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi-nos, Senhor santo, Pai omnipotente, Deus eterno, e dignai-Vos
               mandar do céu o vosso Santo Anjo, para que guarde, sustente,
               proteja, visite e defenda todos aqueles que se encontram nesta
               morada. Por Cristo Senhor nosso.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           O Acólito diz o{" "}
@@ -163,157 +172,157 @@ export default function PageExtremauncao() {
           </Link>{" "}
           e o Sacerdote, tendo dado as Absolvições, continua:
           <View className="side-by-side">
-            <Text className="text-base">
-              In nómine Pa <Text className="cross text-red-500">✠</Text> tris,
-              et Fí <Text className="cross text-red-500">✠</Text> lii, et
-              Spíritus <Text className="cross text-red-500">✠</Text> Sancti,
-              extinguátur in te omnis virtus diáboli per impositiónem mánuum
-              nostrárum, et per invocatiónem gloriósæ et sanctæ Dei Genitrícis
-              Vírginis Maríæ, ejúsque ínclyti Sponsi Joseph, et ómnium sanctórum
-              Angelórum, Archangelórum, Mártyrum, Confessórum, Vírginum, atque
-              ómnium simul Sanctórum.
+            <Text className="text-base latin">
+              In nómine Pa <Text className="text-base latin">✠</Text> tris, et
+              Fí <Text className="cross text-red-500">✠</Text> lii, et Spíritus{" "}
+              <Text className="cross text-red-500">✠</Text> Sancti, extinguátur
+              in te omnis virtus diáboli per impositiónem mánuum nostrárum, et
+              per invocatiónem gloriósæ et sanctæ Dei Genitrícis Vírginis Maríæ,
+              ejúsque ínclyti Sponsi Joseph, et ómnium sanctórum Angelórum,
+              Archangelórum, Mártyrum, Confessórum, Vírginum, atque ómnium simul
+              Sanctórum.
             </Text>
-            <Text className="text-base">
-              Em Nome do Pai <Text className="cross text-red-500">✠</Text> e do
-              Filho <Text className="cross text-red-500">✠</Text> e do Espírito{" "}
-              <Text className="cross text-red-500">✠</Text> Santo, pela
+            <Text className="text-base vernacular">
+              Em Nome do Pai <Text className="text-base vernacular">✠</Text> e
+              do Filho <Text className="cross text-red-500">✠</Text> e do
+              Espírito <Text className="cross text-red-500">✠</Text> Santo, pela
               imposição das nossas mãos e pela invocação de todos os santos
               Anjos, Arcanjos, Patriarcas, Profetas, Apóstolos, Mártires,
               Confessores, Virgens e Todos os Santos em geral desapareça todo e
               qualquer poder do demónio sobre vós!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h1">Sagradas Unções</Text>
           <Text className="h2">Da Olhos</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Per istam sanctam Unctió{" "}
-              <Text className="cross text-red-500">✠</Text> nem, et suam
-              piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per visum
+              <Text className="text-base latin">✠</Text> nem, et suam piíssimam
+              misericórdiam, indúlgeat tibi Dóminus quidquid per visum
               deliquísti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em virtude desta santa Unção{" "}
-              <Text className="cross text-red-500">✠</Text>, que o Senhor, pela
-              sua piíssima misericórdia, vos perdoe todas as faltas que
+              <Text className="text-base vernacular">✠</Text>, que o Senhor,
+              pela sua piíssima misericórdia, vos perdoe todas as faltas que
               cometestes com a vista.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Dos Ouvidos</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Per istam sanctam Unctió{" "}
-              <Text className="cross text-red-500">✠</Text> nem, et suam
-              piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per
-              audítum deliquísti.
+              <Text className="text-base latin">✠</Text> nem, et suam piíssimam
+              misericórdiam, indúlgeat tibi Dóminus quidquid per audítum
+              deliquísti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em virtude desta santa Unção{" "}
-              <Text className="cross text-red-500">✠</Text>, que o Senhor, pela
-              sua piíssima misericórdia, vos perdoe todas as faltas que
+              <Text className="text-base vernacular">✠</Text>, que o Senhor,
+              pela sua piíssima misericórdia, vos perdoe todas as faltas que
               cometestes com os ouvidos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Do Nariz</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Per istam sanctam Unctió{" "}
-              <Text className="cross text-red-500">✠</Text> nem, et span
-              piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per
-              odorátum deliquísti.
+              <Text className="text-base latin">✠</Text> nem, et span piíssimam
+              misericórdiam, indúlgeat tibi Dóminus quidquid per odorátum
+              deliquísti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em virtude desta santa Unção{" "}
-              <Text className="cross text-red-500">✠</Text>, que o Senhor, pela
-              sua piíssima misericórdia, vos perdoe todas as faltas que
+              <Text className="text-base vernacular">✠</Text>, que o Senhor,
+              pela sua piíssima misericórdia, vos perdoe todas as faltas que
               cometestes com o cheiro.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Da Boca</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Per istam sanctam Unctió{" "}
-              <Text className="cross text-red-500">✠</Text> nem, et suam
-              piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per
-              gustum et locutiónem deliquísti.
+              <Text className="text-base latin">✠</Text> nem, et suam piíssimam
+              misericórdiam, indúlgeat tibi Dóminus quidquid per gustum et
+              locutiónem deliquísti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em virtude desta santa Unção{" "}
-              <Text className="cross text-red-500">✠</Text>, que o Senhor, pela
-              sua piíssima misericórdia, vos perdoe todas as faltas que span com
-              o gosto e as palavras.
+              <Text className="text-base vernacular">✠</Text>, que o Senhor,
+              pela sua piíssima misericórdia, vos perdoe todas as faltas que
+              span com o gosto e as palavras.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Das Mãos</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Per istam sanctam Unctió{" "}
-              <Text className="cross text-red-500">✠</Text> nem, et suam
-              piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per
-              tactum deliquísti.
+              <Text className="text-base latin">✠</Text> nem, et suam piíssimam
+              misericórdiam, indúlgeat tibi Dóminus quidquid per tactum
+              deliquísti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em virtude desta santa Unção{" "}
-              <Text className="cross text-red-500">✠</Text>, que o Senhor, pela
-              sua piíssima misericórdia, vos perdoe todas as faltas que
+              <Text className="text-base vernacular">✠</Text>, que o Senhor,
+              pela sua piíssima misericórdia, vos perdoe todas as faltas que
               cometestes com o tacto.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Dos Pés</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Per istam sanctam Unctió{" "}
-              <Text className="cross text-red-500">✠</Text> nem, et suam
-              piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid per
-              gressum deliquísti.
+              <Text className="text-base latin">✠</Text> nem, et suam piíssimam
+              misericórdiam, indúlgeat tibi Dóminus quidquid per gressum
+              deliquísti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em virtude desta santa Unção{" "}
-              <Text className="cross text-red-500">✠</Text>, que o Senhor, pela
-              sua piíssima misericórdia, vos perdoe todas as faltas que
+              <Text className="text-base vernacular">✠</Text>, que o Senhor,
+              pela sua piíssima misericórdia, vos perdoe todas as faltas que
               cometestes com os passos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <View className="aside">
@@ -322,111 +331,126 @@ export default function PageExtremauncao() {
           </View>
           Em virtude desta Unção, que o Senhor vos perdoe todas as faltas que
           cometestes. Amen.
-          <View className="aside">
+          <Text className="aside">
             Após as Unções ou Unção o Sacerdote continuará:
-          </View>
+          </Text>
           <View className="side-by-side">
-            <Text className="text-base">℣. Kýrie eléson.</Text>
-            <Text className="text-base">℣. Senhor, tende piedade.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Christe, eléison.
+            <Text className="text-base latin">℣. Kýrie eléson.</Text>
+            <Text className="text-base vernacular">
+              ℣. Senhor, tende piedade.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Cristo, tende piedade.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Christe, eléison.
             </Text>
-            <Text className="text-base">℣. Kýrie eléson.</Text>
-            <Text className="text-base">℣. Senhor, tende piedade.</Text>
-            <Text className="text-base">
-              Pater noster <Text className="em">secreto usque ad</Text> Pai
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Cristo, tende
+              piedade.
+            </Text>
+            <Text className="text-base latin">℣. Kýrie eléson.</Text>
+            <Text className="text-base vernacular">
+              ℣. Senhor, tende piedade.
+            </Text>
+            <Text className="text-base latin">
+              Pater noster{" "}
+              <Text className="text-base latin">secreto usque ad</Text> Pai
               Nosso <Text className="em">Em silêncio até</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Et ne nos indúcas in tentatiónesm.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. E não nos deixeis cair em tentação.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Sed líbera nos a malo.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Sed líbera nos a
+              malo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Mas livrai-nos do mal.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Mas livrai-nos do mal.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Salvum (-am) fac servum tuum (ancíllam tuam).
             </Text>
-            <Text className="text-base">℣. Salvai o vosso servo.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Deus meus, sperántem in
-              te.
+            <Text className="text-base latin">℣. Salvai o vosso servo.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Deus meus,
+              sperántem in te.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Que em Vós espera.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Que em Vós espera.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Mitte ei, Dómine, auxílium de sancto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Enviai-lhe, Senhor, do vosso santuário o vosso auxílio.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et de Sion tuére eum
-              (eam).
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Et de Sion tuére
+              eum (eam).
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E protejei-o lá de Sião.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> E protejei-o lá de
+              Sião.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Esto ei, Dómine, turris fortitúdinis.
             </Text>
-            <Text className="text-base">℣. Sede, Senhor, a sua fortaleza.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> A fácie inimíci.
+            <Text className="text-base latin">
+              ℣. Sede, Senhor, a sua fortaleza.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Contra o inimigo.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> A fácie inimíci.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Contra o inimigo.
+            </Text>
+            <Text className="text-base vernacular">
               ℣. Nihil profíciat inimícus in eo (ea).
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Que o inimigo não tenha poder algum nele.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et fílius iniquitátis non
-              appónat nocére ei.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Et fílius
+              iniquitátis non appónat nocére ei.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E que o Filho da
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> E que o Filho da
               iniquidade não possa prejudicá-lo.
             </Text>
-            <Text className="text-base">℣. Dómine, exáudi oratiónem meam.</Text>
-            <Text className="text-base">℣. Senhor, ouvi a minha oração.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
-              véniat.
+            <Text className="text-base vernacular">
+              ℣. Dómine, exáudi oratiónem meam.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
-              até Vós.
+            <Text className="text-base latin">
+              ℣. Senhor, ouvi a minha oração.
             </Text>
-            <Text className="text-base">℣. Dominus vobíscum.</Text>
-            <Text className="text-base">℣. O Senhor seja convosco.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Et clamor meus ad
+              te véniat.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E com vosso espírito.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> E que meu clamor
+              chegue até Vós.
+            </Text>
+            <Text className="text-base vernacular">℣. Dominus vobíscum.</Text>
+            <Text className="text-base latin">℣. O Senhor seja convosco.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Et cum spíritu
+              tuo.
+            </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> E com vosso espírito.
             </Text>
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine Deus, qui per Apóstolum tuum Jacóbum locútus es: Infirmátur
               quis in vobis? indúcat presbýteros Ecclésiæ et orent super eum,
               ungéntes eum óleo in nómine Dómini: et orátio fídei salvábit
@@ -439,7 +463,7 @@ export default function PageExtremauncao() {
               prístina reparétur offícia: Qui cum Patre et eódem Spíritu Sancto
               vivis et regnas Deus, in sæcula sæculórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Deus, que pela boca do Apóstolo Tiago dissestes. «Se algum
               de vós estiver doente, faça vir os Presbíteros da Igreja, para que
               orem por ele e o unjam com o Santo Óleo, a qual oração, feita com
@@ -453,50 +477,50 @@ export default function PageExtremauncao() {
               possa retomar o cumprimento dos seus deveres. Ó Vós, que, sendo
               Deus...
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Réspice, quæsumus, Dómine fámulum tuum{" "}
-              <Text className="text-red-500">N.</Text> (fámulam tuam{" "}
+              <Text className="text-base latin">N.</Text> (fámulam tuam{" "}
               <Text className="text-red-500">N.</Text>) in infirmitáte sui
               córporis fatiscéntem, et ánimam réfove, quam creásti: ut,
               castigatiónibus emendátus (-a), se tua séntiat medicína salvátum
               (-am). Per Christum Dóminum nostrum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos suplicamos, Senhor, olhai benigno para o vosso servo{" "}
-              <Text className="text-red-500">N.</Text>, que sucumbe sob a
-              enfermidade do seu corpo, e reanimai esta alma que criastes, a fim
-              de que, curado dos castigos que sofreu, reconheça que não deve a
-              salvação senão aos remédios da vossa graça. Por nosso Senhor...
+              <Text className="text-base vernacular">N.</Text>, que sucumbe sob
+              a enfermidade do seu corpo, e reanimai esta alma que criastes, a
+              fim de que, curado dos castigos que sofreu, reconheça que não deve
+              a salvação senão aos remédios da vossa graça. Por nosso Senhor...
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine sancte, Pater omnípotens, ætérne Deus, qui, benedictiónis
               tuæ grátiam ægris infundéndo corpóribus, factúram tuam multíplici
               pietáte custódis: ad invocatiónem tui nóminis benígnus assíste; ut
@@ -505,7 +529,7 @@ export default function PageExtremauncao() {
               potestáte tueáris, atque Ecclésiæ tuæ sanctæ, cum omni desideráta
               prosperitáte, restítuas. Per Christum Dóminum nostrum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor santo, Pai omnipotente, Deus eterno, que infundis nos
               corpos dos enfermos a graça das vossas bênçãos e que rodeais as
               criaturas com os incessantes cuidados da vossa bondade, atendei
@@ -515,11 +539,11 @@ export default function PageExtremauncao() {
               protegei-o com vosso poder e restituí-o à Santa Igreja, havendo
               atendido a todos seus desejos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
         </View>

@@ -11,37 +11,37 @@ export default function Page130() {
           <Text className="h1">Salmo 130</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, non est exaltátum cor meum: * neque eláti sunt óculi mei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, o meu coração se não exaltou: * nem os meus olhos se
               mostraram altivos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Neque ambulávi in magnis: * neque in mirabílibus super me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Não andei em grandezas: * nem em pompas superiores a mim.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Si non humíliter sentiébam: * sed exaltávi ánimam meam:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Se não tinha sentimentos humildes: * mas exaltava a minha alma:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sicut ablactátus est super matre sua, * ita retribútio in ánima
               mea.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Como o ablactado é para sua mãe, * assim seja retribuída a minha
               alma.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Speret Israël in Dómino, * ex hoc nunc et usque in sǽculum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Espere Israel no Senhor, * desde agora e para sempre.
             </Text>
           </View>

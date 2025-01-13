@@ -18,14 +18,14 @@ export default function Page1113() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui dispositióne mirábili infírma
               mundi éligis, ut fórtia quæque confúndas: concéde propítius
               humilitáti nostræ; ut, piis beáti Dídaci Confessóris tui précibus,
               ad perénnem in cœlis glóriam sublimári mereámur. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente e sempiterno, que com admirável providência
               escolheis o que há de mais fraco no mundo para confundir os
               fortes, concedei propício à nossa humildade que, pelas piedosas

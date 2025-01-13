@@ -17,7 +17,7 @@ export default function PageComum() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias agere: Dómine sancte, Pater omnípotens, ætérne
               Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam
@@ -26,7 +26,7 @@ export default function PageComum() {
               concélebrant. Cum quibus et nostras voces ut admitti jubeas,
               deprecámur, súpplici confessione dicéntes:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               É verdadeiramente digno e justo, racional e salutar render-Vos
               graças em todos os lugares e sempre, ó Senhor santo, Pai
               omnipotente, eterno Deus, por nosso Senhor Jesus Cristo. Pelo qual

@@ -15,35 +15,36 @@ export default function Page6Muitosmartires1() {
           <Text className="em">Sl. 78, 11, 12 & 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde
               vicínis nostris séptuplum in sinu eórum: víndica sánguinem
               Sanctórum tuórum, qui effúsus est.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Deus, venérunt gentes in
-              hereditátem tuam: polluérunt templum sanctum tuum: posuérunt
-              Jerúsalem in pomórum custódiam. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Deus,
+              venérunt gentes in hereditátem tuam: polluérunt templum sanctum
+              tuum: posuérunt Jerúsalem in pomórum custódiam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que os gemidos dos cativos cheguem à vossa presença, Senhor.
               Castigai os nossos inimigos sete vezes por cada injúria que nos
               têm feito: vingai o sangue que os vossos Santos derramaram.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Ó Deus, os povos
-              invadiram a vossa herança, profanaram o vosso sagrado templo e
-              reduziram Jerusalém a um monte de ruínas! ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Ps. ibid., 1</Text> Ó Deus,
+              os povos invadiram a vossa herança, profanaram o vosso sagrado
+              templo e reduziram Jerusalém a um monte de ruínas! ℣. Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beatórum Mártyrum paritérque Pontíficum nos, quǽsumus, Dómine,
               festa tueántur: et eórum comméndet orátio veneránda. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos suplicamos, Senhor, que a festa dos vossos B. B. Mártires e
-              Pontífices <Text className="text-red-500">N.</Text> e{" "}
+              Pontífices <Text className="text-base vernacular">N.</Text> e{" "}
               <Text className="text-red-500">N.</Text>, nos proteja, e que sua
               veneranda oração nos sirva de recomendação junto de Vós. Por nosso
               Senhor...
@@ -60,9 +61,11 @@ export default function Page6Muitosmartires1() {
           <Text className="em">Sb. 3, 1-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Justorum ánimæ in manu Dei sunt, et non tanget illos torméntum
               mortis. Visi sunt oculis insipiéntium mori: et æstimála est
               afflíctio exitus illórum: et quod a nobis est iter, extermínium:
@@ -75,7 +78,7 @@ export default function Page6Muitosmartires1() {
               discúrrent. Judicábunt natiónes, et dominabúntur pópulis, et
               regnábit Dóminus illórum in perpétuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               As almas dos justos estão nas mãos de Deus; por isso o tormento da
               morte os não tocará. Pareciam mortos aos olhos dos insensatos: a
               sua saída do mundo parecia uma aflição; a sua separação de nós uma
@@ -96,45 +99,48 @@ export default function Page6Muitosmartires1() {
           <Text className="em">Ex. 15,11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens
-              prodígia. ℣. <Text className="em">ibid., 6</Text> Déxtera tua,
-              Dómine, glorificáta est in virtúte: déxtera manus tua confrégit
-              inimícos.
+              prodígia. ℣. <Text className="text-base latin">ibid., 6</Text>{" "}
+              Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua
+              confrégit inimícos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus é glorioso em seus Santos: e admirável na sua majestade,
-              praticando prodígios. ℣. <Text className="em">ibid., 6</Text>{" "}
-              Senhor, a vossa dextra engrandeceu-se pela sua força: a vossa
-              dextra esmagou os inimigos.
+              praticando prodígios. ℣.{" "}
+              <Text className="text-base vernacular">ibid., 6</Text> Senhor, a
+              vossa dextra engrandeceu-se pela sua força: a vossa dextra esmagou
+              os inimigos.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Eccli. 44, 14</Text>{" "}
-              Córpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Eccli. 44, 14</Text> Córpora
+              Sanctórum in pace sepúlta sunt, et nómina eórum vivent in
               generatiónem et generatiónem. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Ecl. 44, 14</Text>{" "}
-              Senhor, os corpos dos vossos Santos foram sepultados em paz e o
-              seu nome subsistirá de geração em geração. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Ecl. 44, 14</Text> Senhor,
+              os corpos dos vossos Santos foram sepultados em paz e o seu nome
+              subsistirá de geração em geração. Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 125, 5-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui séminant in lácrimis, in gáudio metent. ℣. Eúntes ibant et
               flébant, mitténtes sémina sua. ℣. Veniéntes autem vénient cum
               exsultatióne, portántes manípulos suos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aqueles que semeiam com lágrimas ceifarão com júbilo. ℣. Iam,
               caminhavam e lançavam a semente à terra, chorando. ℣. Porém,
               quando voltavam, exultavam de alegria, trazendo os seus molhos de
@@ -147,15 +153,15 @@ export default function Page6Muitosmartires1() {
           <Text className="em">Lc. 21, 9-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Cum audieritis
               prǿlia et seditiónes, nolíte terréri: opórtet primum hæc fíeri,
               sed nondum statim finis. Tunc dicébat illis: Surget gens contra
@@ -172,7 +178,7 @@ export default function Page6Muitosmartires1() {
               propter nomen meum: et capíllus de cápite vestro non períbit. In
               patiéntia vestra possidébitis ánimas vestras.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos discípulos: «Quando ouvirdes falar
               em guerras e sedições, não vos assusteis; pois é necessário que
               estas coisas aconteçam, primeiramente; mas isto não será logo o
@@ -200,11 +206,11 @@ export default function Page6Muitosmartires1() {
           <Text className="em">Sl. 67, 36</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem
               et fortitúdinem plebi suæ: benedíctus Deus, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus é admirável em seus Santos. Deus de Israel dará ao seu povo a
               força e a coragem. Bendito Ele seja, pois. Aleluia.
             </Text>
@@ -213,13 +219,13 @@ export default function Page6Muitosmartires1() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adésto, Dómine, supplicatiónibus nostris, quas in Sanctórum tuórum
               commemoratióne deférimus: ut, qui nostræ justítiæ fidúciam non
               habémus, eórum, qui tibi placuérunt, méritis adjuvémur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Atendei, Senhor, às súplicas que Vos dirigimos em memória dos
               vossos Santos, a fim de que nós, que não temos confiança na nossa
               própria justiça, sejamos auxiliados pelos méritos daqueles que Vos
@@ -232,12 +238,12 @@ export default function Page6Muitosmartires1() {
           <Text className="em">Sb. 3, 4, 5 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Et si coram homínibus torménta passi sunt, Deus tentávit eos:
               tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit
               eos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Se sofreram tormentos diante dos homens, foi para Deus os provar.
               Deus provou-os na fornalha, como ao ouro, e recebeu-os, como
               hóstia de holocausto.
@@ -247,11 +253,11 @@ export default function Page6Muitosmartires1() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum
               sollémnia celebrámus, eórum oratiónibus adjuvémur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fortificados com vossos salutares mystérios, dignai-Vos
               conceder-nos, Senhor, a graça da assistência das orações daqueles
               cuja festa celebrámos. Por nosso Senhor...

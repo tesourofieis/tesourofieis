@@ -16,36 +16,36 @@ export default function Page0623() {
           <Text className="em">Lc. 1,13, 15 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ne tímeas, Zacharía, exaudíta est orátio tua: et Elísabeth uxor
               tua páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit
               magnus coram Dómino: et Spíritu Sancto replébitur adhuc ex útero
               matris suæ: et multi in nativitáte ejus gaudébunt.{" "}
-              <Text className="em">Ps. 20, 2</Text> Dómine, in virtúte tua
-              lætábitur rex: et super salutáre tuum exsultábit veheménter. ℣.
-              Gloria Patri...
+              <Text className="text-base latin">Ps. 20, 2</Text> Dómine, in
+              virtúte tua lætábitur rex: et super salutáre tuum exsultábit
+              veheménter. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Não temas, Zacarias, pois a tua oração foi ouvida: Isabel, tua
               esposa, dará à luz um filho, a quem darás o nome de João. Ele será
               grande diante de Deus e cheio do Espírito Santo desde o seio de
               sua mãe. Muitos se regozijarão com seu nascimento.{" "}
-              <Text className="em">Sl. 20, 2</Text> Senhor, alegrar-se-á o Rei
-              com seu poder: e exultará com viva alegria, esperando a vossa
-              salvação. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 20, 2</Text> Senhor,
+              alegrar-se-á o Rei com seu poder: e exultará com viva alegria,
+              esperando a vossa salvação. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnipotens Deus: ut familia tua per viam salútis
               incedat; et, beáti Joánnis Præcursóris hortaménta sectándo ad eum,
               quem prædíxit, secura perveniat, Dóminum nostrum Jesum Christum,
               Fílium tuum: Qui tecum vivit et regnat...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos suplicamos, permiti que a vossa família
               caminhe sempre pela via da salvação, a fim de que, sendo fiel aos
               ensinos do B. João, o Precursor, consiga encontrar Aquele que ele
@@ -58,9 +58,11 @@ export default function Page0623() {
           <Text className="em">Jr. 1, 4-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Jeremíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Jeremias.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Jeremíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Jeremias.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Factum est verbum Dómini ad me, dicens: Priúsquam
               te formárem in útero, novi te: et ántequam exíres de vulva,
               sanctificári te, et prophétam in géntibus dedi te. Et dixi: A a a,
@@ -74,7 +76,7 @@ export default function Page0623() {
               dispérdas et díssipes et ædífices et plantes: dicit Dóminus
               omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele dias, foi-me dirigida a palavra do Senhor, dizendo-me:
               «Antes de te formar no seio de tua mãe, já te conhecia; e antes de
               saíres dele, já te santificara e consagrara Profeta entre os
@@ -96,11 +98,11 @@ export default function Page0623() {
           <Text className="em">Jo. 1, 6-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fuit homo missus a Deo, cui nomen erat Joánnes. ℣. Hic venit, ut
               testimónium perhibéret de lúmine, paráre Dómino plebem perféctam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Foi enviado por Deus um homem que se chamava João. ℣. Ele veio
               para dar testemunho da luz e preparar um povo perfeito para o
               Senhor.
@@ -112,15 +114,15 @@ export default function Page0623() {
           <Text className="em">Lc. 1, 5-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Initium sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Initium sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Início do santo
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Início do santo
               Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fuit in diébus Heródis, regis Judǽæ, sacérdos quidam nómine
               Zacharías, de vice Abía, et uxor illíus de filiábus Aaron, et
               nomen ejus Elísabeth. Erant autem justi ambo ante Deum, incedéntes
@@ -143,7 +145,7 @@ export default function Page0623() {
               fílios, et incrédulos ad prudéntiam justórum, paráre Dómino plebem
               perféctam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               No tempo em que Herodes reinava na Judeia, havia um sacerdote
               chamado Zacarias, da classe de Abias. Sua mulher era filha de
               Aarão e chamava-se Isabel. Ambos eram justos diante de Deus,
@@ -179,12 +181,12 @@ export default function Page0623() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Joánne
               Baptista, nos per hæc a peccatórum nostrórum máculis emúnda. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Santificai, Senhor os dons que Vos são oferecidos e pela
               intercessão do B. João Baptista fazei que nos purifiquem das
               manchas dos nossos pecados. Por nosso Senhor...
@@ -196,11 +198,11 @@ export default function Page0623() {
           <Text className="em">Sl. 20, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Magna est glória ejus in salutári tuo: glóriam et magnum decórem
               ímpones super eum, Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Grande é, Senhor, a sua glória, graças à vossa protecção. Vós o
               rodeastes de glória e de magnificência.
             </Text>
@@ -209,12 +211,12 @@ export default function Page0623() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beáti Joánnis Baptístæ nos, Dómine, præclára comitétur orátio: et,
               quem ventúrum esse prædíxit, poscat nobis fore placátum, Dóminum
               nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fazei, Senhor, que a insigne Oração do B. João Baptista acompanhe
               a nossa e que implore em nosso favor a misericórdia d’Aquele que
               ele profetizou: nosso Senhor Jesus Cristo, vosso Filho, que

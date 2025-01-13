@@ -17,30 +17,32 @@ export default function Page27Missamaria1() {
           <Text className="em">Is. 45, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et
-              gérminet Salvatórem. <Text className="em">Ps. 84, 2</Text>{" "}
-              Benedixísti, Domine, terram tuam: avertísti captivitátem Jacob. ℣.
-              Gloria Patri...
+              gérminet Salvatórem.{" "}
+              <Text className="text-base latin">Ps. 84, 2</Text> Benedixísti,
+              Domine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó céus, derramai dessas alturas o vosso orvalho: e que as nuvens
               chovam o Justo! Abra-se a terra e floresça o Salvador!{" "}
-              <Text className="em">Sl. 84, 2</Text> Abençoastes, Senhor, a vossa
-              terra e acabastes com a escravidão de Jacob. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 84, 2</Text>{" "}
+              Abençoastes, Senhor, a vossa terra e acabastes com a escravidão de
+              Jacob. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo
               nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut,
               qui vere eam Genetrícem Dei crédimus, ejus apud te
               intercessiónibus adjuvémur. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, segunda a anunciação do Anjo, quisestes que o vosso
               Verbo assumisse a carne humana no seio da bem-aventurada Virgem
               Maria, concedei aos vossos suplicantes que os que crêem que Ela é
@@ -54,9 +56,11 @@ export default function Page27Missamaria1() {
           <Text className="em">Is. 7, 10-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Locútus est i Dóminus ad Achaz, dicens: Pete tibi
               signum a Dómino, Deo tuo, in profúndum inférni, sive in excélsum
               supra. Et dixit Achaz: Non petam et non tentábo Dóminum. Et dixit:
@@ -66,7 +70,7 @@ export default function Page27Missamaria1() {
               et vocábitur nomen ejus Emmánuel. Butýrum et mel cómedet, ut sciat
               reprobare malum et elígere bonum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, falou o Senhor a Acaz e disse-lhe: «Pedi ao Senhor,
               vosso Deus, um prodígio nas profundezas do inferno ou nas alturas
               do céu». Acaz respondeu: «Não pedirei tal coisa e não tentarei o
@@ -84,26 +88,28 @@ export default function Page27Missamaria1() {
           <Text className="em">Sl. 23, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tóllite portas, príncipes, vestras: et elevámini, portæ æternáles:
-              et introívit Rex glóriæ. ℣. <Text className="em">ibid., 3-4</Text>{" "}
-              Quis ascéndet in montem Dómini? aut quis stabit in loco sancto
-              ejus? Innocens mánibus et mundo corde.
+              et introívit Rex glóriæ. ℣.{" "}
+              <Text className="text-base latin">ibid., 3-4</Text> Quis ascéndet
+              in montem Dómini? aut quis stabit in loco sancto ejus? Innocens
+              mánibus et mundo corde.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Abri inteiramente as vossas frentes, ó portas; abri-vos, ó portas
               eternas! Então entrará o Rei da glória! ℣.{" "}
-              <Text className="em">ibid., 3-4</Text> Quem subirá ao monte do
-              Senhor? Quem permanecerá no seu santuário? Aquele que tiver as
-              mãos inocentes e o coração limpo.
+              <Text className="text-base vernacular">ibid., 3-4</Text> Quem
+              subirá ao monte do Senhor? Quem permanecerá no seu santuário?
+              Aquele que tiver as mãos inocentes e o coração limpo.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Luc. 1, 28</Text> Ave,
-              María, grátia plena; Dóminus tecum: benedícta tu in muliéribus.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Luc. 1, 28</Text> Ave, María,
+              grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Lc. 1, 28</Text> Ave,
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Lc. 1, 28</Text> Ave,
               Maria, cheia de graça: o Senhor é convosco: bendita sois vós entre
               as mulheres. Aleluia.
             </Text>
@@ -114,15 +120,15 @@ export default function Page27Missamaria1() {
           <Text className="em">Lc. 1, 26-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Missus est Angelus Gábriël a Deo in civitátem
               Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui
               nomen erat Joseph, de domo David, et nomen Vírginis María. Et
@@ -143,7 +149,7 @@ export default function Page27Missamaria1() {
               omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi
               secúndum verbum tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da
               Galileia, chamada Nazaré, a uma Virgem, desposada com um varão,
               cujo nome era José, da casa de David; e o nome da Virgem era
@@ -172,11 +178,11 @@ export default function Page27Missamaria1() {
           <Text className="em">Lc. 1, 28 & 42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ave, María, grátia plena; Dóminus tecum: benedícta tu in
               muliéribus, et benedíctus fructus ventris tui.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós
               entre as mulheres, e bendito é o fruto do vosso ventre.
             </Text>
@@ -185,13 +191,13 @@ export default function Page27Missamaria1() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In méntibus nostris, quǽsumus, Dómine, veræ fídei sacraménta
               confírma: ut, qui concéptum de Vírgine Deum verum et hóminem
               confitémur; per ejus salutíferæ resurrectiónis poténtiam, ad
               ætérnam mereámur perveníre lætítiam. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos confirmar nas nossas almas, Senhor, os mystérios da
               verdadeira fé, a fim de que nós, que confessamos que Aquele que
               foi concebido pela Virgem Maria é verdadeiro Deus e Homem,
@@ -205,11 +211,11 @@ export default function Page27Missamaria1() {
           <Text className="em">Is. 7, 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ecce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus
               Emmánuel.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis que a Virgem conceberá, dará à luz um filho e o seu nome será
               Emanuel.
             </Text>
@@ -218,13 +224,13 @@ export default function Page27Missamaria1() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut, qui,
               Angelo nuntiánte, Christi, Fílii tui, incarnatiónem cognóvimus;
               per passiónem ejus et crucem, ad resurrectiónis glóriam
               perducámur. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Infundi, Senhor, Vos suplicamos, a vossa graça em nossas almas,
               para que nós que pela anunciação do Anjo conhecemos a Incarnação
               do vosso Filho, sejamos conduzidos à glória da ressurreição pela

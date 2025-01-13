@@ -15,30 +15,32 @@ export default function Page1130() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
-              est principatus eórum. <Text className="em">Ps. ibid., 1-2</Text>{" "}
-              Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam
-              et resurrectiónem meam. ℣. Gloria Patri...
+              est principatus eórum.{" "}
+              <Text className="text-base latin">Ps. ibid., 1-2</Text> Dómine,
+              probásti me et cognovísti me: tu cognovísti sessiónem meam et
+              resurrectiónem meam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu
               poder se fortaleceu extraordinariamente.{" "}
-              <Text className="em">Sl. ibid., 1-2</Text> Senhor, perscrutastes o
-              meu íntimo e ficastes conhecendo-me: ficastes conhecendo quando me
-              deito e quando me levanto. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1-2</Text>{" "}
+              Senhor, perscrutastes o meu íntimo e ficastes conhecendo-me:
+              ficastes conhecendo quando me deito e quando me levanto. ℣. Glória
+              ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Majestátem tuam, Dómine, supplíciter exorámus: ut, sicut Ecclésiæ
               tuæ beátus Andréas Apóstolus éxstitit prædicátor et rector; ita
               apud te sit pro nobis perpétuus intercéssor. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Humildemente suplicamos à vossa divina majestade que, assim como o
               Apóstolo André foi pregador e guia da vossa Igreja, assim também
               interceda por nós perpetuamente junto de Vós. Por nosso Senhor...
@@ -50,13 +52,13 @@ export default function Page1130() {
           <Text className="em">Rm. 10, 10-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Corde enim créditur ad justítiam: ore autem conféssio fit
               ad salútem. Dicit enim Scriptúra: Omnis, qui credit in illum, non
               confundétur. Non enim est distínctio Judǽi et Græci: nam idem
@@ -71,7 +73,7 @@ export default function Page1130() {
               Christi. Sed dico: Numquid non audiérunt? Et quidem in omnem
               terram exívit sonus eórum, et in fines orbis terræ verba eórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Com o coração se crê para chegar à justiça; e com a
               boca se faz profissão de fé para alcançar a salvação. Com efeito
               diz a Escritura: «Todo aquele que crê n’Ele não será confundido»,
@@ -97,21 +99,21 @@ export default function Page1130() {
           <Text className="em">Sl. 44, 17-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine. ℣. Pro pátribus tuis nati sunt tibi fílii: proptérea
               pópuli confitebúntur tibi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Serão constituídos príncipes em toda a terra e perpetuarão a
               glória do vosso nome, Senhor! ℣. Para substituir os vossos pais
               nasceram-vos filhos; por isso os povos Vos louvarão eternamente.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Diléxit Andréam Dóminus in odórem
               suavitátis. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. O Senhor amou André, como um perfume suave.
               Aleluia.
             </Text>
@@ -122,15 +124,15 @@ export default function Page1130() {
           <Text className="em">Mt. 4, 18-22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Ambulans Jesus juxta mare Galilǽæ, vidit duos
               fratres, Simónem, qui vocátur Petrus, et Andréam fratrem ejus,
               mitténtes rete in mare (erant enim piscatóres), et ait illis:
@@ -141,7 +143,7 @@ export default function Page1130() {
               vocávit eos. Illi autem statim, relíctis rétibus et patre, secúti
               sunt eum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, caminhando Jesus junto ao mar da Galileia, viu dois
               irmãos: Simão, que se chama Pedro, e André, irmão deste, os quais
               lançavam as redes no mar, pois eram pescadores. Disse-lhes Jesus:
@@ -159,11 +161,11 @@ export default function Page1130() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vejo, ó Deus, que honrastes largamente os vossos amigos; por isso
               o seu poder se fortaleceu extraordinariamente.
             </Text>
@@ -172,12 +174,12 @@ export default function Page1130() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrificium nostrum tibi, Dómine, quǽsumus, beáti Andréæ Apóstoli
               precátio sancta concíliet: ut, in cujus honóre sollémniter
               exhibétur, ejus méritis efficiátur accéptum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, permiti que a oração do B. Apóstolo André Vos torne
               agradável este nosso sacrifício, a fim de que seja aceite, em
               virtude dos méritos daquele em cuja honra Vos é solenemente
@@ -190,11 +192,11 @@ export default function Page1130() {
           <Text className="em">Mt. 4, 19-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Veníte post me: fáciam vos fíeri piscatóres hóminum; at illi
               contínuo, relíctis rétibus, secúti sunt Dóminum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde comigo: e far-vos-ei pescadores de homens. Imediatamente
               eles, deixando as redes, seguiram o Senhor.
             </Text>
@@ -203,12 +205,12 @@ export default function Page1130() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súmpsimus, Dómine, divína mystéria, beáti Andréæ Apóstoli
               festivitáte lætántes: quæ, sicut tuis Sanctis ad glóriam, ita
               nobis, quǽsumus, ad véniam prodésse perfícias. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que os divinos mystérios, que com alegria recebemos nesta
               festa do B. André, servindo para a glória dos vossos Santos, nos
               alcancem, também, o perdão das nossas culpas. Por nosso Senhor...

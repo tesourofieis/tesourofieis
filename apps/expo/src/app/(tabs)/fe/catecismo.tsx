@@ -38,9 +38,9 @@ export default function PageCatecismo() {
               10º - Não cobiçar as coisas alheias.
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             Estes dez mandamentos se encerram em dois:
-          </View>
+          </Text>
           Amar a Deus sobre todas as coisas e ao próximo como a nós mesmos.
           <Text className="h2">Mandamentos da Igreja</Text>
           <View className="aside">Os mandamentos da Igreja são cinco:</View>
@@ -63,9 +63,9 @@ export default function PageCatecismo() {
             </Text>
           </View>
           <Text className="h2">Sacramentos</Text>
-          <View className="aside">
+          <Text className="aside">
             Os sacramentos instituídos por Jesus Cristo são sete:
-          </View>
+          </Text>
           <View className="list-styled">
             <Text className="li text-justify">1º - Batismo.</Text>
             <Text className="li text-justify">2º - Confirmação.</Text>
@@ -78,9 +78,9 @@ export default function PageCatecismo() {
             <Text className="li text-justify">7º - Matrimônio.</Text>
           </View>
           <Text className="h2">Lição Preliminar</Text>
-          <View className="aside">
+          <Text className="aside">
             Da Doutrina Cristã suas partes principais
-          </View>
+          </Text>
           Em seguida Barnabé foi para Tarso, à procura de Saulo. Encontrou-o e o
           levou para Antioquia. Durante um ano estiveram juntos naquela igreja e
           instruíram muita gente. Foi em Antioquia que, pela primeira vez, os
@@ -152,9 +152,9 @@ export default function PageCatecismo() {
           comunicar-nos a sua graça, e infundir e aumentar em nós as virtudes da
           fé, da esperança e da caridade.
           <Text className="h1">Primeira Parte</Text>
-          <View className="aside">
+          <Text className="aside">
             Do Símbolo dos Apóstolos, chamado vulgarmente o Credo
-          </View>
+          </Text>
           A fé é o fundamento do que se espera e a convicção das realidades que
           não se vêem. Foi a fé que fez a glória dos antigos. Pela fé sabemos
           que o universo foi criado pela palavra de Deus, de sorte que do
@@ -2816,16 +2816,16 @@ export default function PageCatecismo() {
           Quando dizemos que um Santo concedeu uma graça, queremos dizer que
           esse Santo obteve de Deus aquela graça.
           <Text className="h1">Terceira Parte</Text>
-          <View className="aside">
+          <Text className="aside">
             Dos Mandamentos da Lei de Deus e da Igreja
-          </View>
+          </Text>
           <Text className="h2">
             I -{" "}
             <Text className="em">Dos Mandamentos da Lei de Deus em geral</Text>
           </Text>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 A lei do Senhor, que é imaculada, converte as almas; o
                 testemunho do Senhor é fiel, dá sabedoria aos pequeninos.
                 <br />
@@ -2843,8 +2843,8 @@ export default function PageCatecismo() {
                 Salmo 18, 8-12
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 Lex Domini inmaculata convertens animas testimonium Domini
                 fidele sapientiam praestans parvulis.
                 <br />
@@ -2863,23 +2863,23 @@ export default function PageCatecismo() {
                 Psalmus XVIII, 8-12
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 Bem-aventurados os que se conservam sem mácula no caminho, os
                 que andam na lei do Senhor.
                 <br />
                 Salmo 118, 1
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 Beati inmaculati in via Qui ambulant in lege Domini.
                 <br />
                 Psalmus CXVIII, 1
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 De todo o meu coração te busquei; não me deixes transviar dos
                 teus mandamentos.
                 <br />
@@ -2890,8 +2890,8 @@ export default function PageCatecismo() {
                 Salmo 118, 10-12
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 In toto corde meo exquisivi te non repellas me a mandatistuis.
                 <br />
                 In corde meo abscondi elo quia tua ut non peccem tibi.
@@ -2901,8 +2901,8 @@ export default function PageCatecismo() {
                 Psalmus CXVIII, 10-12
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 Deleitei-me no caminho das tuas ordens, tanto como em todas as
                 riquezas.
                 <br />
@@ -2920,8 +2920,8 @@ export default function PageCatecismo() {
                 Salmo 118, 14-18
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 In via testimoniorum tuorum delectatus sum sicut in omnibus
                 divitiis
                 <br />
@@ -2936,23 +2936,23 @@ export default function PageCatecismo() {
                 Psalmus CXVIII, 14-18
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 Minha alma desejou ansiosa em todo o tempo as tuas justas leis.
                 <br />
                 Salmo 118, 20
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 Concupivit anima mea desider ar eiustificationes tuas in omni
                 tempore
                 <br />
                 Psalmus CXVIII, 20
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 Dá-me inteligência, e estudarei a tua lei, e a guardarei de todo
                 o meu coração.
                 <br />
@@ -2968,8 +2968,8 @@ export default function PageCatecismo() {
                 Salmo 118, 34-37
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 Da mihi intellectum et scrutabor legem tuam et custodiam illam
                 in toto corde meo.
                 <br />
@@ -2982,8 +2982,8 @@ export default function PageCatecismo() {
                 Psalmus CXVIII, 34-37
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 Meditarei nos teus mandamentos, que eu amo.
                 <br />
                 Levantarei as minhas mãos para os teus mandamentos, que eu amo,
@@ -2992,8 +2992,8 @@ export default function PageCatecismo() {
                 Salmo 118, 47-48
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 Et meditabar in mandatis tuis quae dilexi.
                 <br />
                 Et levavi manus meas ad mandata quae dilexi et exercebar in
@@ -6819,9 +6819,9 @@ export default function PageCatecismo() {
           quando não se cumprem as formalidades prescritas pela autoridade
           civil.
           <Text className="h1">Quinta Parte</Text>
-          <View className="aside">
+          <Text className="aside">
             Das virtudes principais e de outras coisas que o cristão deve saber
-          </View>
+          </Text>
           <Text className="h2">
             I - <Text className="em">Das virtudes principais</Text>
           </Text>

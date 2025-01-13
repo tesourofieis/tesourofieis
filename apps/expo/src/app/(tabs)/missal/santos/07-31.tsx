@@ -90,34 +90,34 @@ export default function Page0731() {
           <Text className="em">Fl. 2, 10-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In nómine Jesu omne genu fléctitur, cœléstium, terréstrium et
               infernórum: et omnis lingua confiteátur, quia Dóminus Jesus
               Christus in glória est Dei Patris.{" "}
-              <Text className="em">Ps. 5, 12-13</Text> Gloriabúntur in te omnes,
-              qui díligunt nomen tuum: quóniam tu benedíces justo. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. 5, 12-13</Text> Gloriabúntur
+              in te omnes, qui díligunt nomen tuum: quóniam tu benedíces justo.
+              ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que ao ser pronunciado o nome de Jesus se dobrem todos os joelhos
               dos que estão no céu, na terra e no inferno: e que toda a língua
               humana confesse que o Senhor Jesus Cristo está na glória de Deus
-              Pai. <Text className="em">Sl. 5, 12-13</Text> Em Vós serão
-              glorificados todos aqueles que amam o vosso nome, pois abençoais o
-              justo. ℣. Glória ao Pai...
+              Pai. <Text className="text-base vernacular">Sl. 5, 12-13</Text> Em
+              Vós serão glorificados todos aqueles que amam o vosso nome, pois
+              abençoais o justo. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui ad majórem tui nóminis glóriam propagándam, novo per
               beátum Ignátium subsídio militántem Ecclésiam roborásti: concéde;
               ut, ejus auxílio et imitatióne certántes in terris, coronári cum
               ipso mereámur in cœlis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, para a propagação da maior glória do vosso nome
               fortalecestes a vossa Igreja militante com um novo subsídio pelo
               B. Inácio, permiti que, combatendo nós na terra, como ele e com
@@ -152,11 +152,11 @@ export default function Page0731() {
           <Text className="em">Sl. 88, 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A minha fidelidade e a minha misericórdia estarão com eles, e por
               virtude do meu nome será exaltado o seu poder.
             </Text>
@@ -165,13 +165,13 @@ export default function Page0731() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adsint, Dómine Deus, oblatiónibus nostris sancti Ignátii benígna
               suffrágia: ut sacrosáncta mystéria, in quibus omnis sanctitátis
               fontem constituísti, nos quoque in veritáte sanctíficet. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a benigna intercessão de santo Inácio acompanhe as nossas
               oblatas, ó Senhor, nosso Deus, a fim de que os sacrossantos
               mystérios, de que fazeis depender a origem de toda a santidade,
@@ -184,10 +184,10 @@ export default function Page0731() {
           <Text className="em">Lc. 12, 49</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ignem veni míttere in terram: et quid volo, nisi ut accendátur?
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eu vim trazer o fogo à terra: e que quero senão que ele se acenda?
             </Text>
           </View>
@@ -195,12 +195,12 @@ export default function Page0731() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Laudis hóstia, Dómine, quam pro sancto Ignátio grátias agentes
               obtúlimus: ad perpétuam nos majestátis tuæ laudatiónem, ejus
               intercessióne, pérducat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que este sacrifício de louvor, que Vos é oferecido em
               acção de graças em honra de Santo Inácio, nos alcance por sua
               intercessão o céu, onde a vossa majestade recebe perpétuo louvor.

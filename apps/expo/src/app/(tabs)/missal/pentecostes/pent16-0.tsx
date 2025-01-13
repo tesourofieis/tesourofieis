@@ -15,30 +15,32 @@ export default function PagePent160() {
           <Text className="em">Sl. 85, 3 & 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu,
               Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus
-              invocántibus te. <Text className="em">Ps. ibid., 1</Text> Inclína,
+              invocántibus te.{" "}
+              <Text className="text-base latin">Ps. ibid., 1</Text> Inclína,
               Dómine, aurem tuam mihi, et exáudi me: quóniam inops, et pauper
               sum ego. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Tende misericórdia de mim, Senhor, pois por Vós clamei todo o dia,
               porquanto sois bom, clemente e compassivo para com aqueles que Vos
-              invocam. <Text className="em">Sl. ibid., 1</Text> Inclinai vossos
-              ouvidos para mim, Senhor, e ouvi-me: pois sou necessitado, infeliz
-              e pobre. ℣. Glória ao Pai...
+              invocam.{" "}
+              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
+              Inclinai vossos ouvidos para mim, Senhor, e ouvi-me: pois sou
+              necessitado, infeliz e pobre. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tua nos, quǽsumus, Dómine, grátia semper et prævéniat et sequátur:
               ac bonis opéribus júgiter præstet esse inténtos. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fazei, Senhor, Vos suplicamos, que a vossa graça nos anime e
               acompanhe sempre, e que nos mantenha incessantemente na prática
               das boas obras. Por nosso Senhor...
@@ -50,13 +52,13 @@ export default function PagePent160() {
           <Text className="em">Ef. 3, 13-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Obsecro vos, ne deficiátis in tribulatiónibus meis pro
               vobis: quæ est glória vestra. Hujus rei grátia flecto génua mea ad
               Patrem Dómini nostri Jesu Christi, ex quo omnis patérnitas in
@@ -71,7 +73,7 @@ export default function PagePent160() {
               secúndum virtútem, quæ operátur in nobis: ipsi glória in Ecclésia
               et in Christo Jesu, in omnes generatiónes sǽculi sæculórum. Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Peço-vos que não desanimeis com as tribulações que
               suporto por vossa causa; pois isto constitui a vossa glória. Por
               causa disto ajoelho diante do Pai de N. S. Jesus Cristo, que é o
@@ -95,25 +97,25 @@ export default function PagePent160() {
           <Text className="em">Sl. 101, 16-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam
               tuam. ℣. Quóniam ædificávit Dóminus Sion, et vidébitur in
               majestáte sua.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               As nações temerão o vosso nome, Senhor, e todos os reis da terra
               publicarão a vossa glória. ℣. Pois o Senhor edificou Sião, onde
               fará resplandecer a sua majestade.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 97, 1</Text>{" "}
-              Cantáte Dómino cánticum novum: quia mirabília fecit Dóminus.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 97, 1</Text> Cantáte Dómino
+              cánticum novum: quia mirabília fecit Dóminus. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 97, 1</Text> Cantai
-              em honra do Senhor um cântico, pois Ele operou maravilhas.
-              Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 97, 1</Text> Cantai em
+              honra do Senhor um cântico, pois Ele operou maravilhas. Aleluia.
             </Text>
           </View>
 
@@ -122,15 +124,15 @@ export default function PagePent160() {
           <Text className="em">Lc. 14, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Cum intráret Jesus in domum cujúsdam príncipis
               pharisæórum sábbato manducáre panem, et ipsi observábant eum. Et
               ecce, homo quidam hydrópicus erat ante illum. Et respóndens Jesus
@@ -149,7 +151,7 @@ export default function PagePent160() {
               Tunc erit tibi glória coram simul discumbéntibus: quia omnis, qui
               se exáltat, humiliábitur: et qui se humíliat, exaltábitur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, em um sábado, entrou Jesus em casa de um dos
               principais fariseus, para aí tomar uma refeição, observando os
               fariseus tudo o que Ele fazia, Estava diante dele um homem
@@ -178,12 +180,12 @@ export default function PagePent160() {
           <Text className="em">Sl. 39, 14 & 15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, in auxílium meum réspice: confundántur et revereántur, qui
               quærunt ánimam meam, ut áuferant eam: Dómine, in auxílium meum
               réspice.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Volvei para mim, Senhor, um olhar de protecção. Que fiquem
               confundidos e cheios de opróbrio aqueles que intentam tirar-me a
               vida. Senhor, lançai para mim um olhar de protecção!
@@ -193,12 +195,12 @@ export default function PagePent160() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Munda nos, quǽsumus, Dómine, sacrifícii præséntis efféctu: et
               pérfice miserátus in nobis; ut ejus mereámur esse partícipes. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Pela virtude deste sacrifício, Senhor, Vos suplicamos, dignai-Vos
               purificar-nos; e, usando da vossa misericórdia para connosco,
               permiti que nos tornemos dignos de participar deste mesmo
@@ -211,12 +213,12 @@ export default function PagePent160() {
           <Text className="em">Sl. 70, 16-17 & 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a
               juventúte mea: et usque in senéctam et sénium, Deus, ne
               derelínquas me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, serão meu único pensamento as obras da vossa justiça:
               instruístes-me, ó Deus, desde a minha juventude: e não me
               abandonareis até à minha velhice, até aos meus cabelos brancos, ó
@@ -227,12 +229,12 @@ export default function PagePent160() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Purífica, quǽsumus, Dómine, mentes nostras benígnus, et rénova
               cœléstibus sacraméntis: ut consequénter et córporum præsens
               páriter et futúrum capiámus auxílium. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, dignai-Vos benignamente purificar e renovar as nossas
               almas com vossos celestiais sacramentos, a fim de que neles os
               nossos corpos encontrem auxílio, tanto para a vida presente, como

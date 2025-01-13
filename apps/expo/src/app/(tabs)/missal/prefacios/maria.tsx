@@ -17,7 +17,7 @@ export default function PageMaria() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubique grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: Et te in (Conceptióne immaculáta - na Imaculada Conceição;
@@ -35,7 +35,7 @@ export default function PageMaria() {
               nostras voces ut admitti jubeas, deprecámur, súpplici confessióne
               dicéntes:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               É verdadeiramente digno e justo, racional e salutar render-Vos
               graças em todos os lugares e sempre, ó Senhor santo, Pai
               omnipotente, eterno Deus, e de sempre Vos louvar, bendizer e

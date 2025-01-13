@@ -28,13 +28,13 @@ export default function PageConsagracaobispo() {
           <Text className="em">Heb. 5, 1-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Omnis póntifex ex homínibus as sumptus, pro homínibus
               constitúitur in iis, quæ sunt ad Deum, ut ófferat dona, et
               sacrifícia pro peccátis: qui condolére possit iis, qui ígnorant et
@@ -43,7 +43,7 @@ export default function PageConsagracaobispo() {
               pro peccátis. Nec quisquam sumit sibi honórem, sed qui vocátur a
               Deo, tamquam Aaron.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Todo o Pontífice é escolhido entre os homens e
               instituído para os homens naquilo que diz respeito ao culto de
               Deus, a fim de que ofereça dons e sacrifícios pelos pecados e se
@@ -60,15 +60,15 @@ export default function PageConsagracaobispo() {
           <Text className="em">Mc. 13, 33-37</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Marcum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Marcos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Marcos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Vidéte, vigiláte et
               oráte: nescítis enim, quando tempus sit. Sicut homo, qui péregre
               proféctus réliquit domum suam, et dedit servis suis potestátem
@@ -77,7 +77,7 @@ export default function PageConsagracaobispo() {
               an galli cantu, an mane) ne, cum vénerit repénte, invéniat vos
               dormiéntes. Quod autem vobis dico, ómnibus dico: Vigilate.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Sede atentos;
               vigiai e orai, pois não sabeis quando virá esse tempo. Assim como
               um homem que vai para uma viagem deixa a sua casa, entrega o seu

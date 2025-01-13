@@ -26,13 +26,13 @@ export default function Page0206() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátum Titum Confessórem tuum atque Pontíficem
               apostólicis virtútibus decorásti: ejus méritis et intercessióne
               concéde; ut, juste et pie vivéntes in hoc sǽculo, ad cœléstem
               pátriam perveníre mereámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que ornastes o B. Tito, vosso Confessor e Pontífice, com
               as virtudes apostólicas, concedei-nos, pelos seus méritos e
               intercessão, que vivendo neste mundo justa e piamente, mereçamos
@@ -45,15 +45,15 @@ export default function Page0206() {
           <Text className="em">Lc. 10, 1-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Designávit Dóminus et álios septuagínta duos: et
               misit illos binos ante fáciem suam in omnem civitátem et locum,
               quo erat ipse ventúrus. Et dicebat illis: Messis quidem multa,
@@ -70,7 +70,7 @@ export default function Page0206() {
               et curáte infírmos, qui in illa sunt, et dícite illis:
               Appropinquávit in vos regnum Dei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, escolheu o Senhor ainda setenta e dois discípulos e
               mandou-os, dois a dois, adiante d’Ele, a todas as cidades e
               lugares onde devia ir, dizendo-lhes: «A messe é abundante, mas os

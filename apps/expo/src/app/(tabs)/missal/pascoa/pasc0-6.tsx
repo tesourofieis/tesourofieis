@@ -15,31 +15,31 @@ export default function PagePasc06() {
           <Text className="em">Sl. 104, 43</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Eduxit Dóminus pópulum suum in exsultatióne, allelúja: et eléctos
               suos in lætítia, allelúja, allelúja.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Confitémini Dómino et
-              invocáte nomen ejus: annuntiáte inter gentes ópera ejus. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Confitémini
+              Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
+              ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor fez sair o seu povo no meio de transportes de alegria,
               aleluia: e os seus escolhidos com grande júbilo, aleluia, aleluia.{" "}
-              <Text className="em">Sl. ibid., 1</Text> Louvai o Senhor e aclamai
-              o seu santo nome; anunciai as suas obras a todos os povos. ℣.
-              Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> Louvai
+              o Senhor e aclamai o seu santo nome; anunciai as suas obras a
+              todos os povos. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde, quǽsumus, omnípotens Deus: ut, qui festa paschália
               venerándo égimus, per hæc contíngere ad gaudia ætérna mereámur.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo celebrado religiosamente as festas pascais, ó Deus
               omnipotente, Vos suplicamos, concedei-nos a graça de alcançarmos,
               por virtude delas, os gozos eternos. Por nosso Senhor...
@@ -51,11 +51,13 @@ export default function PagePasc06() {
           <Text className="em">1 Pe. 2, 1-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Petri Apóstoli.
             </Text>
-            <Text className="text-base">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Pedro.
+            </Text>
+            <Text className="text-base latin">
               Caríssimi: Deponéntes ígitur omnem malítiam, et omnem dolum, et
               simulatiónes, et invídias, et omnes detractiónes, sicut modo
               géniti infántes, rationábile, sine dolo lac concupíscite: ut in eo
@@ -76,7 +78,7 @@ export default function PagePasc06() {
               pópulus, nunc autem pópulus Dei: qui non consecúti misericórdiam,
               nunc autem misericórdiam consecúti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimos: despojando-vos de toda a malícia, engano,
               dissimulações, invejas e murmurações, desejai, como crianças
               recém-nascidas, o leite espiritual e sem mistura, a fim de que por
@@ -103,14 +105,16 @@ export default function PagePasc06() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 117, 24</Text> Hæc
-              dies, quam fecit Dóminus: exsultémus et lætémur in ea. Allelúja.
-              ℣. <Text className="em">Ps. 112, 1</Text> Laudáte, pueri, Dóminum,
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 117, 24</Text> Hæc dies,
+              quam fecit Dóminus: exsultémus et lætémur in ea. Allelúja. ℣.{" "}
+              <Text className="em">Ps. 112, 1</Text> Laudáte, pueri, Dóminum,
               laudáte nomen Dómini.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 117, 24</Text> Eis o
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 117, 24</Text> Eis o
               dia que o Senhor fez: exultemos e alegremo-nos nele. Aleluia. ℣.{" "}
               <Text className="em">Sl. 112, 1</Text> Louvai, ó meninos, o
               Senhor: louvai o nome do Senhor.
@@ -122,15 +126,15 @@ export default function PagePasc06() {
           <Text className="em">Jo. 20, 1-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Una sábbati, Maria Magdaléne venit mane, cum
               adhuc ténebræ essent, ad monuméntum: et vidit lápidem sublátum a
               monuménto. Cucúrrit ergo, et venit ad Simónem Petrum, et ad álium
@@ -147,7 +151,7 @@ export default function PagePasc06() {
               vidit et crédidit: nondum enim sciébant Scriptúram, quia oportébat
               eum a mórtuis resúrgere.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, no primeiro dia da semana, sendo de madrugada e
               ainda com escuridão, Maria Madalena veio ao sepulcro e viu que a
               pedra estava tirada. Logo, a correr, veio ter com Simão-Pedro e
@@ -171,11 +175,11 @@ export default function PagePasc06() {
           <Text className="em">Sl. 117, 26-27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctus, qui venit in nómine Dómini: benedíximus vobis de domo
               Dómini: Deus Dóminus, et illúxit nobis, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendito seja aquele que vem em nome do Senhor. Do íntimo da casa
               do Senhor Vos bendizemos. O Senhor é verdadeiramente Deus e fez
               brilhar diante de nós a sua luz, aleluia, aleluia.
@@ -185,12 +189,12 @@ export default function PagePasc06() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde, quǽsumus, Dómine, semper nos per hæc mystéria paschália
               gratulári: ut contínua nostræ reparatiónis operátio perpétuæ nobis
               fiat causa lætítiæ. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fazei, Senhor, Vos suplicamos, que nos alegremos sempre com estes
               mystérios pascais, a fim de que os trabalhos da nossa reparação
               sejam causa perpétua da nossa alegria. Por nosso Senhor...
@@ -202,11 +206,11 @@ export default function PagePasc06() {
           <Text className="em">Gl. 3, 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnes, qui in Christo baptizáti estis, Christum induístis,
               allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vós todos, baptizados no nome de Cristo, fostes revestidos de
               Cristo, aleluia.
             </Text>
@@ -215,12 +219,12 @@ export default function PagePasc06() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Redemptiónis nostræ múnere vegetáti, quǽsumus, Dómine: ut, hoc
               perpétuæ salútis auxílio, fides semper vera profíciat. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Estando nós fortalecidos com a graça da nossa redenção, Vos
               suplicamos, Senhor, que este auxílio da salvação eterna aumente em
               nós sempre o dom da verdadeira fé. Por nosso Senhor...

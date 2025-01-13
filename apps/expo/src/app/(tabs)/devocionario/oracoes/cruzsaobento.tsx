@@ -11,42 +11,46 @@ export default function PageCruzsaobento() {
           <Text className="h1">Cruz São Bento</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               C.S.P.B.: Crux Sancti Patris Benedicti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               C.S.P.B.: Cruz do Santo Patriarca Bento.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               C.S.S.M.L.: Crux Sancta Sit Mihi Lux.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               C.S.S.M.L.: A Cruz Santa seja a minha Luz.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               N.D.S.M.D.: Non Draco Sit Mihi Dux.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               N.D.S.M.D.: Que o Dragão não seja meu Senhor.
             </Text>
-            <Text className="text-base">V.R.S.: Vade Retro Satana!</Text>
-            <Text className="text-base">V.R.S.: Retira-te, Satanás!</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">V.R.S.: Vade Retro Satana!</Text>
+            <Text className="text-base vernacular">
+              V.R.S.: Retira-te, Satanás!
+            </Text>
+            <Text className="text-base latin">
               N.S.M.V. Numquam Suades Mihi Vana!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               N.S.M.V. Não me aconselhes loucuras!
             </Text>
-            <Text className="text-base">S.M.Q.L.: Sunt Mala Quæ Libas.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              S.M.Q.L.: Sunt Mala Quæ Libas.
+            </Text>
+            <Text className="text-base vernacular">
               S.M.Q.L.: São maldades o que me apresentas.
             </Text>
-            <Text className="text-base">I.V.B.: Ipse Venena Bibas.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">I.V.B.: Ipse Venena Bibas.</Text>
+            <Text className="text-base vernacular">
               I.V.B.: Tu mesmo bebe esses venenos.
             </Text>
-            <Text className="text-base">Amen.</Text>
-            <Text className="text-base">Amen.</Text>
+            <Text className="text-base latin">Amen.</Text>
+            <Text className="text-base vernacular">Amen.</Text>
           </View>
         </View>
       </ScrollView>

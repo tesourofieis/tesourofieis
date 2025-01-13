@@ -15,32 +15,32 @@ export default function PageQuad30() {
           <Text className="em">Sl. 24, 15-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes
               meos: réspice in me, et miserére mei, quóniam únicus et pauper sum
-              ego. <Text className="em">Ps. ibid., 1-2</Text> Ad te, Dómine,
-              levávi ánimam meam: Deus meus, in te confído, non erubéscam. ℣.
-              Gloria Patri...
+              ego. <Text className="text-base latin">Ps. ibid., 1-2</Text> Ad
+              te, Dómine, levávi ánimam meam: Deus meus, in te confído, non
+              erubéscam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Os meus olhos estão sempre fitos no Senhor, pois Ele livrará os
               meus pés do laço. Volvei vossos olhos para mim e tende
               misericórdia de mim, meu Deus, pois sou só e pobre.{" "}
-              <Text className="em">Sl. ibid., 1-2</Text> A Vós, Senhor, elevei a
-              minha alma: meu Deus, confio em Vós, não ficarei envergonhado. ℣.
-              Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1-2</Text> A
+              Vós, Senhor, elevei a minha alma: meu Deus, confio em Vós, não
+              ficarei envergonhado. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quǽsumus, omnípotens Deus, vota humílium réspice: atque, ad
               defensiónem nostram, déxteram tuæ majestátis exténde. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos suplicamos, atendei aos humildes votos da
               nossa humildade; e que a dextra da vossa majestade nos conceda a
               sua protecção. Por nosso Senhor...
@@ -52,13 +52,13 @@ export default function PageQuad30() {
           <Text className="em">Ef. 5, 1-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Estote imitatores Dei, sicut fílii caríssimi: et ambuláte
               in dilectióne, sicut et Christus dilexit nos, et tradidit
               semetipsum pro nobis oblatiónem, et hostiam Deo in odorem
@@ -74,7 +74,7 @@ export default function PageQuad30() {
               ambuláte: fructus enim lucis est in omni bonitate et justítia et
               veritáte.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Sede imitadores de Deus, como filhos caríssimos, e
               vivei na caridade, como Cristo, que nos amou e se entregou por nós
               a Deus, como uma oblação e uma hóstia de agradável odor. Que a
@@ -98,12 +98,12 @@ export default function PageQuad30() {
           <Text className="em">Sl. 9, 20 & 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exsúrge, Dómine, non præváleat homo: judicéntur gentes in
               conspéctu tuo. ℣. In converténdo inimícum meum retrórsum,
               infirmabúntur, et períbunt a facie tua.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Erguei-Vos, Senhor, para que o homem não triunfe: que os povos
               sejam julgados na vossa presença! ℣. Quando o meu inimigo tiver
               fugido, eles tremerão e morrerão diante de Vós.
@@ -115,14 +115,14 @@ export default function PageQuad30() {
           <Text className="em">Sl. 122, 1-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ad te levávi óculos meos, qui hábitas in cœlis. ℣. Ecce, sicut
               óculi servórum in mánibus dominórum suórum. ℣. Et sicut óculi
               ancíllæ in mánibus dóminæ suæ: ita óculi nostri ad Dóminum, Deum
               nostrum, donec misereátur nostri. ℣. Miserére nobis, Dómine,
               miserére nobis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A Vós, que habitais nos céus, ergui os meus olhos. Como os olhos
               dos servos estão fixos na mão do seu senhor. ℣. E os olhos da
               escrava nas mãos da sua senhora; assim os nossos olhos se volvem e
@@ -136,15 +136,15 @@ export default function PageQuad30() {
           <Text className="em">Lc. 11, 14-28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Erat Jesus ejíciens dæmónium, et illud erat
               mutum. Et cum ejecísset dæmónium, locútus est mutus, et admirátæ
               sunt turbæ. Quidam autem ex eis dixérunt: In Beélzebub, príncipe
@@ -171,7 +171,7 @@ export default function PageQuad30() {
               dixit: Quinímmo beáti, qui áudiunt verbum Dei, et custódiunt
               illud.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, estava Jesus a expulsar um demónio, o qual era
               mudo. Logo que o expulsou, o mudo falou, ficando as turbas
               admiradas. Alguns dos presentes disseram: «É pelo poder de
@@ -209,11 +209,11 @@ export default function PageQuad30() {
           <Text className="em">Sl. 18, 9, 10, 11 & 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Justítiæ Dómini rectæ, lætificántes corda, et judícia ejus dulci
               ora super mel et favum: nam et servus tuus custódit ea.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Os preceitos do Senhor são rectos, alegrando o coração: e os seus
               juízos são mais doces que o favo de mel; assim, pois, ó Deus, o
               vosso servo guarda-os fielmente.
@@ -223,12 +223,12 @@ export default function PageQuad30() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
               sanctíficet. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos
               pecados e santifique os corpos e as almas dos vossos servos, a fim
               de que celebrem dignamente este sacrifício. Por nosso Senhor...
@@ -240,12 +240,12 @@ export default function PageQuad30() {
           <Text className="em">Sl. 83, 4-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Passer invénit sibi domum, et turtur nidum, ubi repónat pullos
               suos: altária tua, Dómine virtútum, Rex meus, et Deus meus: beáti,
               qui hábitant in domo tua, in sǽculum sǽculi laudábunt te.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O pássaro encontra um abrigo e a rola um ninho, para aí criarem os
               filhos. Assim eu encontre os vossos altares, Senhor dos exércitos,
               meu Rei e meu Deus! Felizes os que habitam na vossa casa e Vos
@@ -256,12 +256,12 @@ export default function PageQuad30() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus
               absólve: quos tanti mystérii tríbuis esse partícipes. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, assim como nos tornastes participantes de tão grande
               mystério, assim também, pela vossa misericórdia, livrai-nos de
               todos os pecados e perigos. Por nosso Senhor...

@@ -15,17 +15,19 @@ export default function PagePasc72() {
           <Text className="em">4 Esd. 2, 36 & 37</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes
               Deo, allelúja: qui vos ad cœléstia regna vocávit, allelúja,
-              allelúja, allelúja. <Text className="em">Ps. 77, 1</Text>{" "}
-              Atténdite, pópule meus, legem meam: inclináte aurem vestram in
-              verba oris mei. ℣. Gloria Patri...
+              allelúja, allelúja.{" "}
+              <Text className="text-base latin">Ps. 77, 1</Text> Atténdite,
+              pópule meus, legem meam: inclináte aurem vestram in verba oris
+              mei. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebei com alegria as delícias da vossa glória, aleluia: dai
               graças a Deus, aleluia: que vos chamou aos reinos celestiais,
-              aleluia, aleluia. <Text className="em">Sl. 77, 1</Text> Escutai a
+              aleluia, aleluia.{" "}
+              <Text className="text-base vernacular">Sl. 77, 1</Text> Escutai a
               minha lei, ó meu povo: escutai as palavras que saem da minha boca.
               ℣. Glória ao Pai...
             </Text>
@@ -34,12 +36,12 @@ export default function PagePasc72() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adsit nobis, quǽsumus, Dómine, virtus Spíritus Sancti: quæ et
               corda nostra cleménter expúrget, et ab ómnibus tueátur advérsis.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, fazei que a virtude do Espírito Santo nos
               assista; e que pela sua clemência purifique os nossos corações e
               nos defenda de todas as adversidades. Por nosso Senhor...
@@ -51,9 +53,11 @@ export default function PagePasc72() {
           <Text className="em">Act. 8, 14-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Cum audíssent Apóstoli, qui erant Jerosólymis,
               quod recepísset Samaría verbum Dei, misérunt ad eos Petrum et
               Joánnem. Qui cum veníssent, oravérunt pro ipsis, ut accíperent
@@ -61,7 +65,7 @@ export default function PagePasc72() {
               baptizáti tantum erant in nómine Dómini Jesu. Tunc imponébant
               manus super illos, et accipiébant Spíritum Sanctum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, quando os Apóstolos estavam em Jerusalém, souberam
               que a Samaria recebera a palavra de Deus; e por isso enviaram para
               lá Pedro e João, os quais, logo que chegaram, oraram por eles,
@@ -73,15 +77,17 @@ export default function PagePasc72() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Joann. 14, 26</Text>{" "}
-              Spíritus Sanctus docébit vos, quæcúmque díxero vobis. Allelúja.{" "}
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Joann. 14, 26</Text> Spíritus
+              Sanctus docébit vos, quæcúmque díxero vobis. Allelúja.{" "}
               <Text className="em">hic genuflectitur</Text> ℣. Veni, Sancte
               Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem
               accénde.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Jo. 14, 26</Text> O
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Jo. 14, 26</Text> O
               Espírito Santo vos inspirará tudo o que vos tenho ensinado,
               aleluia. <Text className="em">Genuflecte-se</Text> ℣. Vinde,
               Espírito Santo, enchei os corações dos vossos fiéis e acendei
@@ -94,15 +100,15 @@ export default function PagePasc72() {
           <Text className="em">Jo. 10, 1-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus pharisǽis: Amen, amen, dico vobis:
               qui non intrat per óstium in ovíle óvium, sed ascéndit aliúnde,
               ille fur est et latro. Qui autem intrat per óstium, pastor est
@@ -119,7 +125,7 @@ export default function PagePasc72() {
               ut furétur et mactet et perdat. Ego veni, ut vitam hábeant et
               abundántius hábeant.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos fariseus: «Em verdade, em verdade
               vos digo: aquele que não entra pela porta no estábulo das ovelhas,
               mas entra por outro lugar, é ladrão e salteador. O pastor das
@@ -144,11 +150,11 @@ export default function PagePasc72() {
           <Text className="em">Sl. 77, 23-25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Portas cœli aperuit Dóminus: et pluit illis manna, ut éderent:
               panem cœli dedit eis, panem Angelórum manducávit homo, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor abriu as portas do céu: fez chover maná, para que o
               comessem: e deu-lhes o pão do céu. O homem comeu o pão dos Anjos,
               aleluia.
@@ -158,11 +164,11 @@ export default function PagePasc72() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Puríficet nos, quǽsumus. Dómine, múneris præséntis oblátio: et
               dignos sacra participatióne effíciat. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, fazei que a oferta deste sacrifício nos
               purifique e nos torne dignos de participarmos deste mystério
               sagrado. Por nosso Senhor...
@@ -174,11 +180,11 @@ export default function PagePasc72() {
           <Text className="em">Jo. 15, 26; 16, 14; 17, 1 & 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Spíritus qui a Patre procédit, allelúja: ille me clarificábit,
               allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Espírito, que procede do Pai, aleluia, glorificar-me-á, aleluia,
               aleluia.
             </Text>
@@ -187,12 +193,12 @@ export default function PagePasc72() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mentes nostras, quǽsumus, Dómine, Spíritus Sanctus divínis réparet
               sacraméntis: quia ipse est remíssio ómnium peccatórum. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, permiti que o Espírito Santo restaure com
               estes divinos sacramentos as nossas almas, pois Ele é a remissão
               de todos os pecados. Por nosso Senhor...

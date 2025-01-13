@@ -25,13 +25,13 @@ export default function Page0318() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da nobis, quǽsumus, omnípotens Deus, beáto Cyríllo Pontífice
               intercedénte: te solum verum Deum, et quem misísti Jesum Christum
               ita cognóscere; ut inter oves, quæ vocem ejus áudiunt, perpétuo
               connumerári mereámur. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos suplicamos, permiti que, por intercessão
               do B. Pontífice Cirilo, conheçamos que sois o único e verdadeiro
               Deus e Aquele que enviastes ao mundo, Jesus Cristo, de tal sorte
@@ -45,9 +45,11 @@ export default function Page0318() {
           <Text className="em">Ecl. 39, 6-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui
               fecit illum, et in conspéctu Altíssimi deprecábitur. Apériet os
               suum in oratióne, et pro delíctis suis deprecábitur. Si enim
@@ -61,7 +63,7 @@ export default function Page0318() {
               requirétur a generatióne in generatiónem. Sapiéntiam ejus
               enarrábunt gentes, et laudem ejus enuntiábit ecclésia.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O justo aplicará o seu coração e vigiará desde o romper do dia
               para se unir ao Senhor, que o criou, e oferecer as suas preces ao
               Altíssimo. Abrirá a sua boca para orar e implorar o perdão dos
@@ -83,15 +85,15 @@ export default function Page0318() {
           <Text className="em">Mt. 10, 23-28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Cum persequéntur vos
               in civitáte ista, fúgite in áliam. Amen, dico vobis, non
               consummábitis civitátes Israël, donec véniat Fílius hóminis. Non
@@ -105,7 +107,7 @@ export default function Page0318() {
               ánimam autem non possunt occídere: sed pótius timéte eum, qui
               potest et ánimam et corpus pérdere in gehénnam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Quando vos
               perseguirem em uma cidade, fugi para outra. Em verdade vos digo:
               não acabareis de percorrer as cidades de Israel sem que venha o
@@ -124,12 +126,12 @@ export default function Page0318() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Réspice, Dómine, immaculátam hóstiam, quam tibi offérimus: et
               præsta; ut, méritis beáti Pontíficis et Confessóris tui Cyrílli,
               eam mundo corde suscípere studeámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Olhai, Senhor, para a Hóstia Imaculada que Vos oferecemos; e
               permiti que pelos méritos do B. Cirilo, vosso Confessor e
               Pontífice, diligenciemos recebê-la com o coração puro. Por nosso
@@ -140,13 +142,13 @@ export default function Page0318() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacraménta Córporis et Sánguinis tui, quæ súmpsimus, Dómine Jesu
               Christe: beáti Cyrílli Pontíficis précibus, mentes et corda nostra
               sanctíficent; ut divínæ consórtes natúræ éffici mereámur: Qui
               vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Senhor Jesus Cristo, fazei que os sacramentos do vosso Corpo e
               Sangue, que acabámos de receber, santifiquem, pelas preces do B.
               Cirilo, os nossos espíritos e os nossos corações, a fim de que

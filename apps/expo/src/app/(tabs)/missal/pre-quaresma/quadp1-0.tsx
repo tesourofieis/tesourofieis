@@ -15,34 +15,34 @@ export default function PageQuadp10() {
           <Text className="em">Sl. 43, 23-26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exsúrge, quare obdórmis, Dómine? exsúrge, et ne repéllas in finem:
               quare fáciem tuam avértis, oblivísceris tribulatiónem nostram?
               adhǽsit in terra venter noster: exsúrge, Dómine, ádjuva nos, et
-              líbera nos. <Text className="em">Ps. ibid., 2</Text> Deus, áuribus
-              nostris audívimus: patres nostri annuntiavérunt nobis. ℣. Gloria
-              Patri...
+              líbera nos. <Text className="text-base latin">Ps. ibid., 2</Text>{" "}
+              Deus, áuribus nostris audívimus: patres nostri annuntiavérunt
+              nobis. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Levantai-Vos, Senhor, porque dormis? Levantai-Vos, e nos não
               desampareis para sempre. Porque afastais de nós a vossa face e
               esqueceis a nossa tribulação? O nosso peito está oprimido pela
               terra. Levantai-Vos, Senhor, socorrei-nos, salvai-nos.{" "}
-              <Text className="em">Sl. ibid., 2</Text> Ó Deus, nós ouvimos com
-              os nossos ouvidos; os nossos antepassados contaram-nos as vossas
-              maravilhas. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 2</Text> Ó Deus,
+              nós ouvimos com os nossos ouvidos; os nossos antepassados
+              contaram-nos as vossas maravilhas. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui cónspicis, quia ex nulla nostra actióne confídimus:
               concéde propítius; ut, contra advérsa ómnia, Doctóris géntium
               protectióne muniámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que conheceis não podermos confiar nas nossas obras,
               dignai-Vos proteger-nos com a assistência do «Doutor das gentes»
               contra todas as adversidades. Por nosso Senhor Jesus Cristo, vosso
@@ -55,13 +55,13 @@ export default function PageQuadp10() {
           <Text className="em">2 Cor. 11, 19-33; 12, 1-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Patres: Libénter suffértis insipiéntens: cum sitis ipsi sapiéntes.
               Sustinétis enim, si quis vos in servitútem rédigit, si quis
               dévorat, si quis áccipit, si quis extóllitur, si quis in fáciem
@@ -103,7 +103,7 @@ export default function PageQuadp10() {
               perfícitur. Libénter ígitur gloriábor in infirmitátibus meis, ut
               inhábitet in me virtus Christi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Como homens sensatos que sois, generosamente
               suportais os insensatos. E suportais, também, se vos sujeitam à
               escravidão, se vos devoram, se vos roubam, se vos tratam com
@@ -159,12 +159,12 @@ export default function PageQuadp10() {
           <Text className="em">Sl. 82, 19 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super
               omnem terram. ℣. Deus meus, pone illos ut rotam, et sicut stípulam
               ante fáciem venti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Saibam as nações que o vosso nome é Deus; que só Vós sois o
               Altíssimo em todo o mundo. ℣. Ó meu Deus, tornai os meus inimigos
               semelhantes à roda, que gira sem cessar, ou à palha, que o vento
@@ -177,12 +177,12 @@ export default function PageQuadp10() {
           <Text className="em">Sl. 59, 4 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Commovísti, Dómine, terram, et conturbásti eam. ℣. Sana
               contritiónes ejus, quia mota est. ℣. Ut fúgiant a fácie arcus: ut
               liberéntur elécti tui.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, abalastes e arruinastes a terra. Reparai as suas ruínas,
               porque ela está abalada. Que os vossos escolhidos possam fugir
               diante do arco armado contra eles, e que sejam livres.
@@ -194,15 +194,15 @@ export default function PageQuadp10() {
           <Text className="em">Lc. 8, 4-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Cum turba plúrima convenírent, et de civitátibus
               properárent ad Jesum, dixit per similitúdinem: Exiit, qui séminat,
               semináre semen suum: et dum séminat, áliud cécidit secus viam, et
@@ -225,7 +225,7 @@ export default function PageQuadp10() {
               terram: hi sunt, qui in corde bono et óptimo audiéntes verbum
               rétinent, et fructum áfferunt in patiéntia.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, como concorresse grande multidão de diversas
               cidades e viessem ter com Jesus, disse-lhes Ele esta parábola:
               «Saiu um semeador a semear a sua semente; e, enquanto ele semeava,
@@ -261,12 +261,12 @@ export default function PageQuadp10() {
           <Text className="em">Sl. 16, 5, 6-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia
               mea: inclína aurem tuam, et exáudi verba mea: mirífica
               misericórdias tuas, qui salvos facis sperántes in te, Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Firmai os meus passos nas vossas veredas, para que meus pés não
               tropecem: Inclinai para mim os vossos ouvidos e escutai as minhas
               palavras: manifestai as vossas admiráveis misericórdias, Senhor,
@@ -277,11 +277,11 @@ export default function PageQuadp10() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oblátum tibi, Dómine, sacrifícium, vivíficet nos semper et múniat.
               Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que o sacrifício que Vos oferecemos nos vivifique sempre.
               Por nosso Senhor Jesus Cristo, vosso Filho, que...
             </Text>
@@ -292,10 +292,10 @@ export default function PageQuadp10() {
           <Text className="em">Sl. 42, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Introíbo ad altáre Dei, ad Deum, qui lætíficat juventútem meam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Subirei ao altar de Deus: de Deus, que é a alegria da minha
               juventude.
             </Text>
@@ -304,12 +304,12 @@ export default function PageQuadp10() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
               sacraméntis, tibi étiam plácitis móribus dignánter deservíre
               concédas. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus omnipotente, humildemente Vos rogamos, concedei àqueles que
               alimentais com vossos sacramentos a graça de Vos servirem com uma
               conduta que Vos seja agradável. Por nosso Senhor...

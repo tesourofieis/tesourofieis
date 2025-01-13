@@ -26,14 +26,14 @@ export default function Page0809() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens et miséricors Deus, qui sanctum Joánnem Maríam
               pastoráli stúdio et jugi oratiónis ac pœniténtiæ ardóre mirábilem
               effecísti: da, quǽsumus; ut, ejus exémplo et intercessióne, ánimas
               fratrum lucrári Christo, et cum eis ætérnam glóriam cónsequi
               valeámus. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e misericordioso Deus, que, pelo seu zelo pastoral e
               pelo seu ardor na oração e na penitência, tornastes admirável o B.
               João Maria, concedei-nos, Vos suplicamos, que, seguindo o seu

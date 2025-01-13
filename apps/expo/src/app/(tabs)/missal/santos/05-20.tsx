@@ -47,13 +47,13 @@ export default function Page0520() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine Jesu, qui beáto Bernardíno Confessóri tuo exímium sancti
               nóminis tui amórem tribuísti: ejus, quǽsumus, méritis et
               intercessióne, spíritum nobis tuæ dilectiónis benígnus infúnde:
               Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, que concedestes ao B. Bernardino, vosso
               Confessor, um ardente amor ao vosso Santo nome, dignai-Vos
               infundir em nossas almas pelos seus méritos e intercessão o

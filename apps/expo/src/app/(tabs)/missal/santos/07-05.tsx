@@ -37,33 +37,33 @@ export default function Page0705() {
           <Text className="em">1 Cor. 2, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sermo meus et prædicátio mea non in persuasibílibus humánæ
               sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.{" "}
-              <Text className="em">Ps. 110, 1</Text> Confitébor tibi, Dómine, in
-              toto corde meo, in consílio justórum et congregatióne. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. 110, 1</Text> Confitébor
+              tibi, Dómine, in toto corde meo, in consílio justórum et
+              congregatióne. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A minha conversação e a minha pregação não são apoiadas nos
               argumentos persuasivos da sabedoria humana, mas na manifestação do
               espírito e do poder de Deus.{" "}
-              <Text className="em">Sl. 110, 1</Text> Senhor, eu vos louvarei de
-              todo meu coração no conselho dos justos e na assembleia do povo!
-              ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 110, 1</Text> Senhor,
+              eu vos louvarei de todo meu coração no conselho dos justos e na
+              assembleia do povo! ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam,
               spíritu Pauli Apóstoli, edíscere: qua beátus Antónius María
               mirabíliter erudítus, novas in Ecclésia tua clericórum et vírginum
               famílias congregávit. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus e Senhor, fazei-nos adquirir a eminente ciência de Jesus
               Cristo, segundo o espírito do Apóstolo Paulo, em cuja ciência o B.
               António Maria foi admiravelmente instruído, e lhe fez estabelecer
@@ -77,13 +77,13 @@ export default function Page0705() {
           <Text className="em">1 Tm. 4, 8-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Caríssime: Píetas ad ómnia utilis est: promissiónem habens vitæ,
               quæ nunc est, et futúræ. Fidélis sermo et omni acceptióne dignus.
               In hoc enim laborámus et maledícimur, quia sperámus in Deum vivum,
@@ -97,7 +97,7 @@ export default function Page0705() {
               et doctrínæ: insta in illis. Hoc enim fáciens, et teípsum salvum
               fácies, et eos qui te áudiunt.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimo: A piedade é útil para tudo, tendo a promessa certa e
               digna de toda a aceitação. Nós, pois, suportamos tantos trabalhos
               e ultrajes porque temos esperança em Deus vivo, que é o Salvador
@@ -120,30 +120,31 @@ export default function Page0705() {
           <Text className="em">Fl. 1, 8-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Testis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu
               Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in
               sciéntia et in omni sensu. ℣.{" "}
-              <Text className="em">ibid., 10</Text> Ut probétis potióra, ut
-              sitis sincéri et sine offénsa in diem Christi.
+              <Text className="text-base latin">ibid., 10</Text> Ut probétis
+              potióra, ut sitis sincéri et sine offénsa in diem Christi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus é testemunha do modo como vos amo a todos nas entranhas de
               Jesus Cristo. E o que vos peço é que a vossa caridade aumente cada
               vez mais na vossa inteligência e em todos vossos sentidos. ℣.{" "}
-              <Text className="em">ibid., 10</Text> A fim de que possais
-              distinguir o que é melhor e estejais puros e irrepreensíveis no
-              dia de Cristo.
+              <Text className="text-base vernacular">ibid., 10</Text> A fim de
+              que possais distinguir o que é melhor e estejais puros e
+              irrepreensíveis no dia de Cristo.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">ibid., 11</Text>{" "}
-              Repléti fructu justítiæ per Jesum Christum, in glóriam et laudem
-              Dei. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">ibid., 11</Text> Repléti fructu
+              justítiæ per Jesum Christum, in glóriam et laudem Dei. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">ibid., 11</Text> Que
-              sejais cheios dos frutos da justiça por Jesus Cristo, para glória
-              e louvor de Deus. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">ibid., 11</Text> Que sejais
+              cheios dos frutos da justiça por Jesus Cristo, para glória e
+              louvor de Deus. Aleluia.
             </Text>
           </View>
 
@@ -152,15 +153,15 @@ export default function Page0705() {
           <Text className="em">Mc. 10, 15-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Marcum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Marcos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Marcos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Quisquis non
               recéperit regnum Dei velut párvulus, non intrábit in illud. Et
               compléxans párvulos et impónens manus super illos, benedicébat
@@ -175,7 +176,7 @@ export default function Page0705() {
               quæcúmque habes, vende et da paupéribus, et habébis thesáurum in
               cælo: et veni, séquere me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Todo aquele que
               não receber o reino de Deus, como um menino, não entrará nele». E,
               abraçando os meninos e pondo as mãos sobre eles, abençoava-os.
@@ -198,11 +199,11 @@ export default function Page0705() {
           <Text className="em">Sl. 137, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum
               tuum, et confitébor nómini tuo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Cantarei os vossos louvores na presença dos Anjos; ajoelharei no
               vosso sagrado templo e louvarei o vosso nome.
             </Text>
@@ -211,13 +212,13 @@ export default function Page0705() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et
               córporis puritátem afférre, qua beátus Antónius María, hanc
               sacratíssimam hóstiam ófferens, mirífice ornátus enítuit. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, que me acompanhe à mesa do celestial banquete
               aquela pureza de alma e de corpo que ornava de um modo tão
               brilhante e maravilhoso o B. António Maria, quando oferecia esta
@@ -230,11 +231,11 @@ export default function Page0705() {
           <Text className="em">Fl. 8, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Imitatóres mei estóte, fratres, et observáte eos, qui ita
               ámbulant, sicut habétis formam nostram.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos, sede meus imitadores e olhai para aqueles que
               procedem segundo o exemplo que tendes em nós.
             </Text>
@@ -243,13 +244,13 @@ export default function Page0705() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda
               nostra caritátis igne flamméscant: quo beátus Antónius María
               salutáris hóstiæ vexíllum, contra Ecclésiæ tuæ hostes, éxtulit ad
               victóriam: Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, fazei que, pela virtude do celestial festim,
               de que nos saciastes, os nossos corações se inflamem naquele fogo
               da Caridade que deu ao B. António Maria a coragem de levar contra

@@ -22,19 +22,19 @@ export default function PageViasacra() {
           liberdade e glória dos filhos de Deus.).
           <Text className="h3">No inicio de cada Estação</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Adorámus te, Christe, et benedicimus tibi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Nós Vos adoramos, ó Jesus, e Vos bendizemos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟. </Text>Quia per Crucem tuam
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟. </Text>Quia per Crucem tuam
               redemísti mundum.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟. </Text>Porque pela vossa Santa
-              Cruz redimistes o mundo.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟. </Text>Porque pela vossa
+              Santa Cruz redimistes o mundo.
             </Text>
           </View>
           <Text className="h3">No fim de cada Estação</Text>
@@ -49,13 +49,16 @@ export default function PageViasacra() {
             .
           </View>
           <View className="side-by-side">
-            <Text className="text-base">℣. Miserére nostri, Dómine.</Text>
-            <Text className="text-base">℣. Senhor tende piedade de nós.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟. </Text>Miserére nostri.
+            <Text className="text-base latin">℣. Miserére nostri, Dómine.</Text>
+            <Text className="text-base vernacular">
+              ℣. Senhor tende piedade de nós.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟. </Text>Tende piedade de nós.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟. </Text>Miserére nostri.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟. </Text>Tende piedade de
+              nós.
             </Text>
           </View>
           <View className="aside">
@@ -229,29 +232,29 @@ export default function PageViasacra() {
             oração:
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Respice, quǽsumus Dómine, super hanc famíliam tuam, pro qua
               Dominus noster Jesus Christus non dubitavit manibus tradi
               nocentium et Crucis subire tormentum. Qui tecum vivit et regnat in
               unitate Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, dignai-Vos lançar um olhar sobre a vossa família pela qual
               nosso Senhor Jesus Cristo não duvidou entregar-se às mãos dos
               ímpios e de sofrer o suplício da cruz. Que vive e reina na unidade
               do Espírito Santo, Deus, por todos os séculos dos séculos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟. </Text>Amen
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟. </Text>Amen
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟. </Text>Amen
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟. </Text>Amen
             </Text>
           </View>
         </View>

@@ -58,13 +58,13 @@ export default function PagePasc23() {
           <Text className="em">Sl 32:20-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adjútor et protéctor noster est Dóminus: in eo lætábitur cor
               nostrum, et in nómine sancto ejus sperávimus, allelúja, allelúja
               *Ps 79:2* Qui regis Israël, inténde: qui dedúcis, velut ovem,
               Joseph. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor é o nosso auxílio e protecção: o nosso coração sente
               n’Ele toda a alegria: e no seu santo nome depositamos toda nossa
               esperança. (T. P. Aleluia, aleluia.) *Sl 79:2* Vós, que conduzis
@@ -75,13 +75,13 @@ export default function PagePasc23() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui ineffábili providéntia beátum Joseph sanctíssimæ
               Genetrícis tuæ sponsum elígere dignátus es: præsta, quǽsumus; ut,
               quem protectórem venerámur in terris, intercessórem habére
               mereámur in cœlis: Qui vivis…
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que por vossa inefável providência Vos dignastes escolher
               o B. José para esposo da vossa santíssima Mãe, permiti, Vos
               imploramos, que, venerando-o nós na terra, como nosso protector,
@@ -95,9 +95,11 @@ export default function PagePasc23() {
           <Text className="em">Gn 49:22-26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Génesis.</Text>
-            <Text className="text-base">Lição do Livro Génesis.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Génesis.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro Génesis.
+            </Text>
+            <Text className="text-base latin">
               Fílius accréscens Joseph, fílius accréscens, et decórus aspéctu:
               fíliæ discurrérunt super murum. Sed exasperavérunt eum, et jurgáti
               sunt, inviderúntque illi habéntes jácula. Sedit in forti arcus
@@ -110,7 +112,7 @@ export default function PagePasc23() {
               Desidérium cóllium æternórum: fiant in cápite Joseph, et in
               vértice Nazarǽi inter fratres suos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O meu filho José cresceu em glória; Seu poder vai-se desenvolvendo
               sempre. Até as donzelas subiram à muralha para o verem. Antes da
               sua grandeza, os seus irmãos moveram-lhe insídias, suscitaram
@@ -132,13 +134,13 @@ export default function PagePasc23() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. De quacúmque tribulatióne clamáverint ad
               me, exáudiam eos, et ero protéctor eórum semper. Allelúja. ℣. Fac
               nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta
               patrocínio. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. De qualquer tribulação que clamem a mim,
               ouvir-lhes-ei, serei sempre o seu protector. Aleluia. ℣. Fazei, ó
               José, que sigamos uma vida inocente e que seja ela sempre amparada
@@ -151,15 +153,15 @@ export default function PagePasc23() {
           <Text className="em">Lc 3:21-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Factum est autem, cum baptizarétur omnis pópulus,
               et Jesu baptizáto et oránte, apértum est cœlum: et descéndit
               Spíritus Sanctus corporáli spécie sicut colúmba in ipsum: et vox
@@ -167,7 +169,7 @@ export default function PagePasc23() {
               mihi. Et ipse Jesus erat incípiens quasi annórum trigínta, ut
               putabátur, fílius Joseph.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, aconteceu que, havendo sido baptizado todo o povo,
               veio também Jesus receber o baptismo; e, tendo sido baptizado,
               enquanto orava, abriu-se o céu e o Espírito Santo desceu sobre Ele
@@ -183,11 +185,11 @@ export default function PagePasc23() {
           <Text className="em">Sl 147:12-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lauda, Jerúsalem, Dóminum: quóniam confortávit seras portárum
               tuárum, benedíxit fíliis tuis in te, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Jerusalém, louva o Senhor, pois foi Ele quem consolidou as tuas
               portas; foi Ele quem abençoou os teus filhos. (T. P. Aleluia.)
             </Text>
@@ -196,13 +198,13 @@ export default function PagePasc23() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sanctíssimæ Genetrícis tuæ sponsi patrocínio suffúlti, rogámus,
               Dómine, cleméntiam tuam: ut corda nostra fácias terréna cuncta
               despícere, ac te verum Deum perfécta caritáte dilígere: Qui
               vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fortalecidos com o patrocínio do esposo da vossa Santíssima Mãe,
               suplicamos à vossa clemência, Senhor, que nos façais desdenhar as
               coisas terrenas e com caridade perfeita amar-Vos a Vós, que sois o
@@ -215,11 +217,11 @@ export default function PagePasc23() {
           <Text className="em">Mt 1:16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus,
               qui vocátur Christus, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Jacob gerou José, esposo de Maria, de quem nasceu Jesus, que se
               chama Cristo.(T. P. Aleluia.)
             </Text>
@@ -228,13 +230,13 @@ export default function PagePasc23() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Divíni múneris fonte refécti, quǽsumus, Dómine, Deus noster: ut,
               sicut nos facis beáti Joseph protectióne gaudére; ita, ejus
               méritis et intercessióne, cœléstis glóriæ fácias esse partícipes.
               Per Dominum…
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo nós reparado as nossas forças na própria fonte do dom
               divino, Vos suplicamos, Senhor, nosso Deus, que nos façais gozar o
               patrocínio do B. José, tornando-nos participantes da glória

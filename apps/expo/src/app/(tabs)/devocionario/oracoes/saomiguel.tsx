@@ -11,14 +11,14 @@ export default function PageSaomiguel() {
           <Text className="h1">São Miguel Arcanjo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sancte Míchaël Archángele, defénde nos in prælio; contra nequitiam
               et insidias diáboli esto præsídium. Imperet illi Deus, súpplices
               deprecámur: tuque, Princeps milítiæ cæléstis, Sátanam aliosque
               Spíritus malignos, qui ad perditionem animarum pervagantur in
               mundo, divina virtúte in inférnum detrude. Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               São Miguel Arcanjo, defendei-nos no combate, sede o nosso auxílio
               contra as maldades e as ciladas do demónio. Instantemente vos
               pedimos que Deus sobre ele impere; e vós, Príncipe da Milícia

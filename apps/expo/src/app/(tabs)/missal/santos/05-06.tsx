@@ -36,12 +36,12 @@ export default function Page0506() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui cónspicis, quia nos úndique mala nostra pertúrbant:
               præsta, quǽsumus; ut beáti Joánnis Apóstoli tui et Evangelístæ
               intercéssio gloriósa nos prótegat. Per Dominum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que tão bem conheceis como estamos perturbados pelos males
               que nos cercam, concedei-nos, Vos suplicamos, que nos proteja a
               gloriosa intercessão do B. João, Vosso Apóstolo e Evangelista. Por
@@ -52,22 +52,24 @@ export default function Page0506() {
           <Text className="h3">Gradual</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps 91:13</Text> Justus
-              ut palma florébit: sicut cedrus Líbani multiplicábitur. Allelúja
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps 91:13</Text> Justus ut palma
+              florébit: sicut cedrus Líbani multiplicábitur. Allelúja
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 91:13</Text> O justo
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 91:13</Text> O justo
               florescerá, como a palmeira, e crescerá, como o cedro do Líbano.
               Aleluia.
             </Text>
-            <Text className="text-base">
-              <Text className="em">Ps 14:6</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Ps 14:6</Text>
               ℣. Justus germinábit sicut lílium: et florébit in ætérnum ante
               Dóminum. Allelúja.
             </Text>
-            <Text className="text-base">
-              <Text className="em">Sl. 14:6</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Sl. 14:6</Text>
               ℣. O justo despontará, como o lírio, e florescerá eternamente na
               presença do Senhor. Aleluia.
             </Text>
@@ -78,15 +80,15 @@ export default function Page0506() {
           <Text className="em">Mt. 20, 20-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In llo témpore: Accessit ad Jesum mater filiórum Zebedǽi cum
               fíliis suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid
               vis? Ait illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram
@@ -96,7 +98,7 @@ export default function Page0506() {
               bibétis: sédere autem ad déxteram meam vel sinístram, non est meum
               dare vobis, sed quibus parátum est a Patre meo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, a mãe dos filhos de Zebedeu aproximou-se de Jesus
               com seus dois filhos, adorando-O e querendo pedir-Lhe alguma
               coisa. Jesus disse-lhe: «Que quereis?». Ela respondeu: «Ordenai
@@ -113,11 +115,11 @@ export default function Page0506() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Refécti, Dómine, pane cœlésti: ad vitam, quǽsumus, nutriámur
               ætérnam. Per Dominum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo sido alimentados com o pão celestial, Vos rogamos, Senhor,
               fazei que com ele sejamos nutridos para a vida eterna. Por nosso
               Senhor...

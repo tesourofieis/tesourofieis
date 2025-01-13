@@ -15,18 +15,19 @@ export default function PageQuad44() {
           <Text className="em">Sl. 104, 3-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lætétur cor quæréntium Dóminum: quǽrite Dóminum, et confirmámini:
               quǽrite fáciem ejus semper.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Confitémini Dómino, et
-              invocáte nomen ejus: annuntiáte inter gentes ópera ejus. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Confitémini
+              Dómino, et invocáte nomen ejus: annuntiáte inter gentes ópera
+              ejus. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegre-se o coração daqueles que procuram o Senhor: procurai o
               Senhor e ficareis cheios de fortaleza: procurai incessantemente a
-              sua presença. <Text className="em">Sl. ibid., 1</Text> Louvai o
-              Senhor e aclamai o seu nome: anunciai as suas obras no meio dos
+              sua presença.{" "}
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> Louvai
+              o Senhor e aclamai o seu nome: anunciai as suas obras no meio dos
               povos. ℣. Glória ao Pai...
             </Text>
           </View>
@@ -34,12 +35,12 @@ export default function PageQuad44() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut, quos jejúnia votíva
               castígant, ipsa quoque devótio sancta lætíficet; ut, terrénis
               afféctibus mitigátis, facílius cœléstia capiámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, ó Deus omnipotente, Vos suplicamos, que aqueles que
               voluntariamente se castigam com jejuns sejam consolados com a
               alegria de uma piedade santa, a fim de que, mitigado o ardor dos
@@ -53,9 +54,11 @@ export default function PageQuad44() {
           <Text className="em">4 Rs. 4, 25-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Regum.</Text>
-            <Text className="text-base">Lição do Livro dos Reis.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Regum.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro dos Reis.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Venit múlier Sunamítis ad Eliséum in montem
               Carméli: cumque vidísset eam vir Dei e contra, ait ad Giézi púerum
               suum: Ecce Sunamítis illa. Vade ergo in occúrsum ejus, et dic ei:
@@ -87,7 +90,7 @@ export default function PageQuad44() {
               super terram: tulítque fílium suum, et egréssa est, et Eliséus
               revérsus est in Gálgala.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, uma mulher Sunamite foi ter com o Profeta Eliseu ao
               monte Carmelo. Como o varão de Deus a visse aproximar, disse a
               Giézi, seu servo: «Eis aí vem a Sunamite. Vai, pois, ao seu
@@ -129,12 +132,12 @@ export default function PageQuad44() {
           <Text className="em">Sl. 73, 20, 19 & 22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Réspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne
               obliviscáris in finem. ℣. Exsúrge, Dómine, júdica causam tuam:
               memor esto oppróbrii servórum tuórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recordai-Vos, Senhor, da vossa aliança; não esqueçais
               perpetuamente as almas dos vossos pobres servos. Erguei-Vos,
               Senhor, e julgai esta vossa causa: lembrai-Vos dos opróbrios que
@@ -147,15 +150,15 @@ export default function PageQuad44() {
           <Text className="em">Lc. 7, 11-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Ibat Jesus in civitátem, quæ vocátur Naim: et
               ibant cum eo discípuli ejus et turba copiósa. Cum autem
               appropinquáret portæ civitátis, ecce, defúnctus efferebátur fílius
@@ -168,7 +171,7 @@ export default function PageQuad44() {
               Quia Prophéta magnus surréxit in nobis: et quia Deus visitávit
               plebem suam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, caminhava Jesus para uma cidade chamada Naim,
               acompanhado por seus discípulos e muito povo. Chegando à porta da
               cidade, encontrou um cadáver, filho único de uma viúva, o qual ia
@@ -188,11 +191,11 @@ export default function PageQuad44() {
           <Text className="em">Sl. 69, 2,3 & 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, ad adjuvándum me festína: confundántur omnes, qui cógitant
               servis tuis mala.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, apressai-Vos em socorrer-me: que fiquem cheios de confusão
               aqueles que querem fazer mal aos vossos servos.
             </Text>
@@ -201,12 +204,12 @@ export default function PageQuad44() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Purífica nos, misericors Deus: ut Ecclésiæ tuæ preces, quæ tibi
               gratæ sunt, pia múnera deferéntes, fiant expiátis méntibus
               gratióres. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Purificai-nos, ó Deus de misericórdia, a fim de que as preces da
               vossa Igreja, que Vos são agradáveis, a Vós se tornem mais
               agradáveis ainda pela expiação daqueles que Vos oferecem estes
@@ -219,12 +222,12 @@ export default function PageQuad44() {
           <Text className="em">Sl. 70, 16-17 & 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a
               juventúte mea: et usque in senéctam et sénium, Deus, ne
               derelínquas me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, empregar-me-ei somente nas obras da vossa justiça! Ó Deus,
               instruístes-me desde a minha infância. Não me abandonareis, pois,
               ó Deus, até à velhice, até aos cabelos brancos!
@@ -234,12 +237,12 @@ export default function PageQuad44() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœléstia dona capiéntibus, quǽsumus, Dómine: non ad judícium
               proveníre patiáris, quæ fidélibus tuis ad remédium providísti. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Não permitais, Senhor, Vos suplicamos, que estes dons celestiais,
               que preparastes para remédio dos fiéis, sirvam de condenação aos
               que os recebem. Por nosso Senhor...
@@ -249,16 +252,18 @@ export default function PageQuad44() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Pópuli tui, Deus, institútor et rector, peccáta, quibus
               impugnátur, expélle: ut semper tibi plácitus, et tuo munímine sit
               secúrus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, instituidor e guia do vosso povo, afastai dele os pecados
               que o assaltam, a fim de que, agradando-Vos sempre, esteja certo
               da vossa protecção. Por nosso Senhor...

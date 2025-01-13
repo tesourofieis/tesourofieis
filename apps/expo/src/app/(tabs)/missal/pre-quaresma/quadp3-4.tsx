@@ -15,34 +15,34 @@ export default function PageQuadp34() {
           <Text className="em">Sl. 54, 17, 19, 20 & 23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui
               appropínquant mihi, et humiliávit eos, qui est ante sǽcula et
               manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te
-              enútriet. <Text className="em">Ps. ibid., 2-3</Text> Exáudi, Deus,
-              oratiónem meam, et ne despéxeris deprecatiónem meam: inténde mihi
-              et exáudi me. ℣. Gloria Patri...
+              enútriet. <Text className="text-base latin">Ps. ibid., 2-3</Text>{" "}
+              Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
+              inténde mihi et exáudi me. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Quando invoquei o Senhor, ouviu Ele a minha voz e livrou-me
               daqueles que vinham contra mim: e Aquele que existe antes de todos
               os séculos e existirá eternamente os humilhará. Abandonai ao
               Senhor os vossos cuidados, pois Ele providenciará.{" "}
-              <Text className="em">Sl. ibid., 2-3</Text> Ouvi, ó Deus, a minha
-              oração e não desprezeis a minha humilde súplica. ℣. Glória ao
-              Pai...
+              <Text className="text-base vernacular">Sl. ibid., 2-3</Text> Ouvi,
+              ó Deus, a minha oração e não desprezeis a minha humilde súplica.
+              ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui culpa offénderis, pæniténtia placáris: preces pópuli tui
               supplicántis propítius réspice; et flagélla tuæ iracúndiæ, quæ pro
               peccátis nostris merémur, avérte. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que Vos ofendeis com o pecado e aplacais com a penitência,
               ouvi propício as preces do vosso povo suplicante e afastai os
               flagelos da vossa ira, que merecemos pelos nossos pecados. Por
@@ -55,9 +55,11 @@ export default function PageQuadp34() {
           <Text className="em">Is. 38, 1-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Ægrotávit Ezechías usque ad mortem: et introívit
               ad eum Isaías fílius Amos Prophéta, et dixit ei: Hæc dicit
               Dóminus: Dispóne dómui tuæ, quia moriéris tu, et non vives. Et
@@ -71,7 +73,7 @@ export default function PageQuadp34() {
               annos: et de manu regis Assyriórum éruam te et civitátem istam, et
               prótegam eam, ait Dóminus omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, Ezequias foi atacado de doença mortal. Então, o
               Profeta Isaías, filho de Amós, veio ter com ele e disse-lhe: «Isto
               diz o Senhor: «Dispõe os negócios da tua casa, porque morrerás e
@@ -93,12 +95,12 @@ export default function PageQuadp34() {
           <Text className="em">Sl. 54, 23, 17, 18 & 19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Jacta cogitátum tuum in Dómino, et ipse te enútriet. ℣. Dum
               clamárem ad Dóminum, exaudívit vocem meam ab his, qui
               appropínquant mihi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Abandonai ao Senhor os vossos cuidados, pois Ele providenciará. ℣.
               Quando invoquei o Senhor, ouviu Ele a minha voz e livrou-me
               daqueles que vinham contra mim.
@@ -110,15 +112,15 @@ export default function PageQuadp34() {
           <Text className="em">Mt. 8, 5-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Cum introísset Jesus Caphárnaum, accéssit ad eum
               centúrio, rogans eum, et dicens: Dómine, puer meus jacet in domo
               paralýticus, et male torquétur. Et ait illi Jesus: Ego véniam et
@@ -134,7 +136,7 @@ export default function PageQuadp34() {
               erit fletus et stridor déntium. Et dixit Jesus centurióni: Vade,
               et, sicut credidísti, fiat tibi. Et sanátus est puer in illa hora.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, entrando Jesus em Cafarnaum, aproximou-se dele um
               centurião, pedindo-Lhe e dizendo: «Senhor, o meu servo jaz em casa
               paralítico e sofre gravemente». Jesus disse-lhe: «Eu irei e o
@@ -159,12 +161,12 @@ export default function PageQuadp34() {
           <Text className="em">Sl. 24, 1-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non
               erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te
               exspéctant, non confundéntur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Elevei a minha alma até Vós, Senhor, meu Deus: tenho confiança em
               Vós: não serei confundido; não permitireis que meus inimigos
               zombem de mim, porque todos aqueles que esperam em Vós, não serão
@@ -175,11 +177,11 @@ export default function PageQuadp34() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et
               devotióni nostræ profíciant et salúti. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, olhai benigno para o presente sacrifício,
               a fim de que sirva para aumento da nossa devoção e para a nossa
               salvação. Por nosso Senhor...
@@ -191,11 +193,11 @@ export default function PageQuadp34() {
           <Text className="em">Sl. 50, 21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Acceptábis sacrifícium justítiæ, oblatiónes et holocáusta, super
               altáre tuum, Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebeis sobre o vosso altar, Senhor, o sacrifício de justiça, as
               ofertas e os holocaustos.
             </Text>
@@ -204,12 +206,12 @@ export default function PageQuadp34() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœléstis doni benedictióne percépta: súpplices te, Deus
               omnípotens, deprecámur; ut hoc idem nobis et sacraménti causa sit
               et salútis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo recebido a bênção do dom celestial, humildemente Vos
               suplicamos, Deus omnipotente, que este mesmo dom seja para nós
               motivo de satisfação e de salvação. Por nosso Senhor...
@@ -219,21 +221,23 @@ export default function PageQuadp34() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Parce, Dómine, parce populo tuo: ut, dignis flagellatiónibus
               castigátus, in tua miseratióne respíret. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Perdoai, Senhor, perdoai ao vosso povo, a fim de que, castigado
               merecidamente com os flagelos, possa, enfim, respirar, bafejado
               pela vossa misericórdia. Por nosso Senhor...

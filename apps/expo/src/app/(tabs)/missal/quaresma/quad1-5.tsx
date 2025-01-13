@@ -16,47 +16,44 @@ export default function PageQuad15() {
           <Text className="em">Sl. 87, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Intret orátio mea in conspéctu tuo: inclína aurem tuam ad precem
-              meam, Dómine. <Text className="em">Ps. ibid., 2</Text> Dómine,
-              Deus salútis meæ: in die clamávi, et nocte coram te. ℣. Gloria
-              Patri...
+              meam, Dómine.{" "}
+              <Text className="text-base latin">Ps. ibid., 2</Text> Dómine, Deus
+              salútis meæ: in die clamávi, et nocte coram te. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a minha oração chegue à vossa presença! Senhor, ouvi benigno a
-              minha súplica. <Text className="em">Sl. ibid., 2</Text> Senhor,
+              minha súplica.{" "}
+              <Text className="text-base vernacular">Sl. ibid., 2</Text> Senhor,
               meu Deus e meu Salvador, de dia e de noite clamo diante de Vós. ℣.
               Glória ao Pai...
             </Text>
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Orémus. Flectámus génua.
-              </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus. Flectámus génua.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Oremos. Ajoelhemos!
-              </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos. Ajoelhemos!</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Pópulum tuum, quǽsumus, Dómine, propítius réspice: atque ab eo
               flagella tuæ iracúndiæ cleménter avérte. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, olhai propício para o vosso povo e afastai
               piedosamente dele os flagelos da vossa ira. Por nosso Senhor...
             </Text>
@@ -67,9 +64,11 @@ export default function PageQuad15() {
           <Text className="em">Dt. 26, 12-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Deuteronómii.</Text>
-            <Text className="text-base">Lição do Livro do Deuteronómio.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Deuteronómii.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro do Deuteronómio.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Locútus est Móyses ad pópulum, dicens: Quando
               compléveris décimam cunctárum frugum tuárum, loquéris in conspéctu
               Dómini, Dei tui: Abstuli, quod sanctificátum est de domo mea, et
@@ -89,7 +88,7 @@ export default function PageQuad15() {
               quas creávit in laudem et nomen et glóriam suam: ut sis populus
               sanctus Dómini, Dei tui, sicut locútus est.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, Moisés falou ao povo nestes termos: «Quando
               acabardes de pagar o dízimo de todos vossos frutos, falareis assim
               diante do Senhor, vosso Deus: «Tirei de minha casa o que era
@@ -117,12 +116,12 @@ export default function PageQuad15() {
           <Text className="em">Sl. 78, 9 & 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes:
               Ubi est Deus eórum? ℣. Adjuva nos, Deus, salutáris noster: et
               propter honórem nóminis tui, Dómine, líbera nos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Perdoai os nossos pecados, Senhor, para que os povos não digam:
               «Onde está o seu Deus?». ℣. Auxiliai-nos, ó Deus, nosso Salvador;
               para honra do vosso nome, Senhor, livrai-nos.
@@ -130,33 +129,29 @@ export default function PageQuad15() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Orémus. Flectámus génua.
-              </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus. Flectámus génua.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Oremos. Ajoelhemos!
-              </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos. Ajoelhemos!</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Potéctor noster, áspice, Deus: ut, qui malórum nostrórum póndere
               prémimur, percépta misericórdia, líbera tibi mente famulémur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, nosso protector, dignai-Vos olhar propício para nós, que
               estamos oprimidos com o peso dos nossos males, a fim de que, por
               efeito da vossa misericórdia, Vos sirvamos com o espírito livre.
@@ -169,9 +164,11 @@ export default function PageQuad15() {
           <Text className="em">Dt. 11, 22-25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Deuteronómii.</Text>
-            <Text className="text-base">Lição do Livro do Deuteronómio.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Deuteronómii.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro do Deuteronómio.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Dixit Móyses fíliis Israël: Si custodiéritis
               mandáta, quæ ego præcípio vobis, et fecéritis ea, ut diligátis
               Dóminum, Deum vestrum, et ambulétis in ómnibus viis ejus,
@@ -183,7 +180,7 @@ export default function PageQuad15() {
               et formídinem dabit Dóminus, Deus vester, super omnem terram, quam
               calcatúri estis, sicut locútus est vobis Dóminus, Deus vester.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, Moisés disse aos filhos de Israel: «Se guardardes
               os Mandamentos, que vos entrego, amando o Senhor, vosso Deus,
               seguindo os seus caminhos e unindo-vos a Ele, o Senhor afastará de
@@ -202,11 +199,11 @@ export default function PageQuad15() {
           <Text className="em">Sl. 83, 10 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Protéctor noster, áspice, Deus, et réspice super servos tuos. ℣.
               Dómine, Deus virtútum, exáudi preces servórum tuórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Olhai para nós, ó Deus, que sois o nosso protector; lançai os
               olhos para os vossos servos. ℣. Senhor, Deus dos exércitos, ouvi
               as súplicas dos vossos servos.
@@ -214,33 +211,29 @@ export default function PageQuad15() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Orémus. Flectámus génua.
-              </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus. Flectámus génua.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Oremos. Ajoelhemos!
-              </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos. Ajoelhemos!</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adésto, quǽsumus, Dómine, supplicatiónibus nostris: ut esse, te
               largiénte, mereámur et inter próspera húmiles, et inter advérsa
               secúri. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos pedimos, dignai-Vos atender às nossas súplicas, para
               que, por efeito da vossa graça, possamos ser humildes nas
               prosperidades e confiantes nas contrariedades. Por nosso Senhor...
@@ -252,9 +245,11 @@ export default function PageQuad15() {
           <Text className="em">2 Mac. l, 23-26 et 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Machabæórum.</Text>
-            <Text className="text-base">Lição do Livro dos Macabeus.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Machabæórum.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro dos Macabeus.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Oratiónem faciebant omnes sacerdotes, dum
               consummarétur sacrifícium, Jónatha inchoánte, céteris autem
               respondéntibus. Et Nehemíæ erat orátio hunc habens modum: Dómine
@@ -265,7 +260,7 @@ export default function PageQuad15() {
               pópulo tuo Israël, et custódi partem tuam et sanctífica: ut sciant
               gentes, quia tu es Deus noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, enquanto se consumia o sacrifício das vítimas,
               todos os sacerdotes oravam, principiando Jónatas e respondendo os
               outros. E a oração de Nehemias era assim: «Senhor Deus, criador de
@@ -284,11 +279,11 @@ export default function PageQuad15() {
           <Text className="em">Sl. 89, 13 & 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
               ℣. Dómine, refúgium factus es nobis, a generatióne et progénie.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde a nós quanto antes, Senhor, e deixai-Vos aplacar com as
               preces dos vossos servos. ℣. Senhor, tendes sido o nosso refúgio
               de geração em geração.
@@ -296,33 +291,29 @@ export default function PageQuad15() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Orémus. Flectámus génua.
-              </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus. Flectámus génua.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Oremos. Ajoelhemos!
-              </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos. Ajoelhemos!</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui
               juste pro peccátis nostris afflígimur, pro tui nóminis glória
               misericórditer liberémur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi benigno, Senhor, Vos suplicamos, as preces do vosso povo, a
               fim de que nós, que fomos justamente castigados por causa dos
               nossos pecados, sejamos misericordiosamente livres pela glória do
@@ -335,9 +326,11 @@ export default function PageQuad15() {
           <Text className="em">Ecl. 36, 1-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapientiae.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapientiae.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Miserére nostri, Deus ómnium, et réspice nos, et osténde nobis
               lucem miseratiónum tuárum: et immítte timórem tuum super gentes,
               quæ non exquisiérunt te, ut cognóscant, quia non est Deus nisi tu,
@@ -350,7 +343,7 @@ export default function PageQuad15() {
               iram. Tolle adversárium et afflíge inimícum. Festína tempus et
               meménto finis, ut enárrent mirabília tua, Dómine, Deus noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Tende piedade de nós, ó Deus de todos os viventes, lançai benigno
               os vossos olhares sobre nós e fazei resplandecer a nossos olhos a
               luz das vossas misericórdias! Espalhai o vosso temor nos povos que
@@ -374,11 +367,11 @@ export default function PageQuad15() {
           <Text className="em">Sl. 140, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine. ℣.
               Elevátio mánuum meárum sacrifícium vespertínum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a minha oração suba até à vossa presença, como incenso,
               Senhor! ℣. E que o erguer das minhas mãos Vos seja agradável, como
               o sacrifício da tarde.
@@ -386,33 +379,29 @@ export default function PageQuad15() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Orémus. Flectámus génua.
-              </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus. Flectámus génua.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Oremos. Ajoelhemos!
-              </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos. Ajoelhemos!</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni, et
               adjuvándo proséquere: ut cuncta nostra orátio et operátio a te
               semper incípiat, et per te cœpta finiátur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos, Senhor, insuflar as nossas acções com vosso espírito e
               acompanhá-las com vossa graça, a fim de que as nossas orações e
               obras, tendo princípio em Deus, tenham também n’Ele sua
@@ -425,9 +414,11 @@ export default function PageQuad15() {
           <Text className="em">Dn. 3, 47-51</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Daniélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Daniel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Daniélis Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Daniel.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Angelus Dómini descéndit cum Azaría et sóciis
               ejus in fornácem: et excússit flammam ignis de fornáce, et fecit
               médium fornácis quasi ventum roris flantem. Flamma autem
@@ -438,7 +429,7 @@ export default function PageQuad15() {
               uno ore lau-dábant, et glorificábant, et benedicébant Deum in
               fornáce, dicéntes:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, o Anjo do Senhor desceu à fornalha com Azarias e os
               seus companheiros e afastou da fornalha as chamas do fogo,
               soprando no meio delas como que um vento de orvalho. As chamas do
@@ -461,12 +452,12 @@ export default function PageQuad15() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui tribus púeris mitigásti flammas ígnium: concéde
               propítius; ut nos fámulos tuos non exúrat flamma vitiórum. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que mitigastes as chamas do fogo aos três jovens,
               concedei, misericordiosamente, a nós, que somos vossos servos, que
               não sejamos queimados pelas chamas dos vícios. Por nosso Senhor...
@@ -478,13 +469,13 @@ export default function PageQuad15() {
           <Text className="em">1 Ts. 5, 14-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Rogámus vos, corrípite inquiétos, consolámini
               pusillánimes, suscípite infirmos, patiéntes estóte ad omnes.
               Vidéte, ne quis malum pro malo alicui reddat: sed semper quod
@@ -497,7 +488,7 @@ export default function PageQuad15() {
               et ánima, et corpus sine queréla, in advéntu Dómini nostri Jesu
               Christi servétur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus rmãos, vos pedimos, admoestai os que perturbam a ordem;
               confortai os pusilânimes; amparai os fracos; sede pacientes para
               com todos. Reparai que ninguém retribua com o mal o mal que recebe
@@ -519,12 +510,12 @@ export default function PageQuad15() {
           <Text className="em">Sl. 116, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli. ℣.
               Quóniam confirmáta est super nos misericórdia ejus: et véritas
               Dómini manet in ætérnum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que todas as nações louvem o Senhor; que todos os povos O
               glorifiquem: ℣. Porque a sua misericórdia é infinita para connosco
               e a verdade do Senhor permanece eternamente.
@@ -543,11 +534,11 @@ export default function PageQuad15() {
           <Text className="em">Sl. 87, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, Deus salútis meæ, in die clamávi et nocte coram te: intret
               orátio mea in conspéctu tuo, Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, meu Deus e meu Salvador, clamo dia e noite diante de Vós!
               Que minha oração se eleve até à vossa presença.
             </Text>
@@ -556,12 +547,12 @@ export default function PageQuad15() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præséntibus sacrifíciis, quǽsumus, Dómine, jejúnia nostra
               sanctífica: ut, quod observántia nostra profitétur extrínsecus,
               intérius operétur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Santificai, Senhor, Vos suplicamos, os nossos jejuns pelo presente
               sacrifício, a fim de que esta observância exterior produza efeitos
               espirituais interiores. Por nosso Senhor...
@@ -573,11 +564,11 @@ export default function PageQuad15() {
           <Text className="em">Sl. 7, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, Deus meus, in te sperávi: líbera me ab ómnibus
               persequéntibus me, et éripe me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, meu Deus, em Vós esperei; salvai-me e livrai-me de todos
               meus perseguidores.
             </Text>
@@ -586,11 +577,11 @@ export default function PageQuad15() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra
               curéntur, et remédia nobis ætérna provéniant. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó omnipotente Deus, permiti que os nossos vícios sejam curados
               pela virtude deste vosso sacrifício e concedei-nos o remédio que
               produz a salvação eterna. Por nosso Senhor...
@@ -600,22 +591,24 @@ export default function PageQuad15() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fidéles tuos, Deus, benedíctio desideráta confírmet: quæ eos et a
               tua voluntáte numquam fáciat discrepáre, et tuis semper indúlgeat
               benefíciis gratulári. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, fortificai os fiéis com vossa bênção, que eles imploram; e
               que, por efeito dela, nunca se afastem da vossa vontade e lhes
               alcance a graça de se alegrarem sempre com vossos benefícios. Por

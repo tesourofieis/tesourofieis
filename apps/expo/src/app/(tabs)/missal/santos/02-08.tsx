@@ -26,14 +26,14 @@ export default function Page0208() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui per sanctum Joánnem órdinem sanctíssimæ Trinitatis, ad
               rediméndum de potestáte Saracenórum captívos, cœlitus institúere
               dignátus es: præsta, quǽsumus; ut, ejus suffragántibus méritis, a
               captivitáte córporis et ánimæ, te adjuvánte, liberémur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que por S. João Vos dignastes estabelecer miraculosamente
               a Ordem da Santíssima Trindade para remir os cativos detidos pelos
               Sarracenos fazei, Vos suplicamos, que, pelo sufrágio dos seus

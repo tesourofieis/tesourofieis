@@ -126,15 +126,15 @@ export default function PageVerdades() {
           </View>
           <Text className="h2">Trabalhos de Misericórdia</Text>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="h5">Corporais</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Corporais</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="h5">Espirituais</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Espirituais</Text>
             </Text>
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">
+            <Text className="text-base latin">
+              <View className="text-base latin">
+                <Text className="text-base latin">
                   Dar de comer a quem tem fome
                 </Text>
                 <Text className="li list-group-item">
@@ -171,15 +171,15 @@ export default function PageVerdades() {
           </View>
           <Text className="h2">Virtudes</Text>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="h5">Cardeais</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Cardeais</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="h5">Teologais</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Teologais</Text>
             </Text>
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">Prudência</Text>
+            <Text className="text-base latin">
+              <View className="text-base latin">
+                <Text className="text-base latin">Prudência</Text>
                 <Text className="li list-group-item">Justiça</Text>
                 <Text className="li list-group-item">Fortaleza</Text>
                 <Text className="li list-group-item">Temperança</Text>
@@ -211,15 +211,15 @@ export default function PageVerdades() {
           trabalha.
           <Text className="h2">Do Espírito Santo</Text>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="h5">Dons</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Dons</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="h5">Frutos</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Frutos</Text>
             </Text>
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">Sabedoria</Text>
+            <Text className="text-base latin">
+              <View className="text-base latin">
+                <Text className="text-base latin">Sabedoria</Text>
                 <Text className="li list-group-item">Entendimento</Text>
                 <Text className="li list-group-item">Conselho</Text>
                 <Text className="li list-group-item">Fortaleza</Text>
@@ -246,15 +246,15 @@ export default function PageVerdades() {
             </Text>
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="h5">Pecados Capitais</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Pecados Capitais</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="h5">Virtudes Opostas</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Virtudes Opostas</Text>
             </Text>
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">Soberba</Text>
+            <Text className="text-base latin">
+              <View className="text-base latin">
+                <Text className="text-base latin">Soberba</Text>
                 <Text className="li list-group-item">Avareza</Text>
                 <Text className="li list-group-item">Luxúria</Text>
                 <Text className="li list-group-item">Ira</Text>
@@ -275,9 +275,9 @@ export default function PageVerdades() {
           </View>
           <Text className="h2">Novíssimos</Text>
           <View className="side-by-side">
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">Mors</Text>
+            <Text className="text-base latin">
+              <View className="text-base latin">
+                <Text className="text-base latin">Mors</Text>
                 <Text className="li list-group-item">Iudicium</Text>
                 <Text className="li list-group-item">Infernus</Text>
                 <Text className="li list-group-item">Paradisus</Text>
@@ -294,7 +294,7 @@ export default function PageVerdades() {
           </View>
           <Text className="h2">Assuntos para Meditação Diária</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deum glorificare; <br />
               Jesum imitari; <br />
               Beatissimam Virginem et Sanctos venerari; <br />
@@ -314,7 +314,7 @@ export default function PageVerdades() {
               Mortem semper exspectare; <br />
               Ad iudicium te præparare.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus para glorificar; <br />
               Jesus para imitar; <br />A abençoada Virgem e os Santos para
               venerar; <br />

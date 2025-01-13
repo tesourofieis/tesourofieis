@@ -15,31 +15,31 @@ export default function PagePent20() {
           <Text className="em">Sl. 17, 19-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Factus est Dóminus protéctor meus, et edúxit me in latitúdinem:
               salvum me fecit, quóniam vóluit me.{" "}
-              <Text className="em">Ps. ib., 2-3</Text> Díligam te, Dómine,
-              virtus mea: Dóminus firmaméntum meum et refúgium meum et liberátor
-              meus. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ib., 2-3</Text> Díligam te,
+              Dómine, virtus mea: Dóminus firmaméntum meum et refúgium meum et
+              liberátor meus. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor fez-se o meu protector e conduziu-me para o largo: E,
               porque me amava, salvou-me.{" "}
-              <Text className="em">Sl. ib., 2-3</Text> Amar-Vos-ei, Senhor, pois
-              sois a minha fortaleza. Sim, o Senhor é o meu sustentáculo,
-              refúgio e libertador. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ib., 2-3</Text>{" "}
+              Amar-Vos-ei, Senhor, pois sois a minha fortaleza. Sim, o Senhor é
+              o meu sustentáculo, refúgio e libertador. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos
               habére perpétuum: quia numquam tua gubernatióne destítuis, quos in
               soliditáte tuæ dilectiónis instítuis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fazei, Senhor, que possuamos perpetuamente o temor e o amor do
               vosso santo nome, porquanto nunca cessais de inspirar e dirigir
               aqueles em quem infundistes solidamente o vosso amor. Por nosso
@@ -52,11 +52,13 @@ export default function PagePent20() {
           <Text className="em">1 Jo. 3, 13-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Joánnis Apóstoli.
             </Text>
-            <Text className="text-base">Lição da Ep.ª do B. Ap.º João.</Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º João.
+            </Text>
+            <Text className="text-base latin">
               Caríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam
               transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui
               non díligit, manet in morte: omnis, qui odit fratrem suum,
@@ -68,7 +70,7 @@ export default function PagePent20() {
               ab eo: quómodo cáritas Dei manet in eo? Filíoli mei, non diligámus
               verbo neque lingua, sed ópere et veritáte.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimos: Não vos admireis se porventura o mundo vos odeia.
               Sabemos que passámos da morte à vida, porque amamos os nossos
               irmãos. Aquele que não ama, permanece na morte. Aquele que odiar o
@@ -87,23 +89,25 @@ export default function PagePent20() {
           <Text className="em">Sl. 119, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ad Dóminum, cum tribulárer, clamávi, et exaudívit me. ℣. Dómine,
               libera ánimam meam a lábiis iníquis, et a lingua dolósa.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Quando estava na tribulação, clamei pelo Senhor, que me ouviu. ℣.
               Livrai, Senhor, a minha alma dos lábios mentirosos e da língua
               traiçoeira.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 7, 2</Text>{" "}
-              Dómine, Deus meus, in te sperávi: salvum me fac ex ómnibus
-              persequéntibus me et líbera me. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 7, 2</Text> Dómine, Deus
+              meus, in te sperávi: salvum me fac ex ómnibus persequéntibus me et
+              líbera me. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 7, 2</Text> Senhor,
-              meu Deus, refugio-me em Vós: salvai-me das mãos dos meus
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 7, 2</Text> Senhor, meu
+              Deus, refugio-me em Vós: salvai-me das mãos dos meus
               perseguidores: livrai-me. Aleluia.
             </Text>
           </View>
@@ -113,15 +117,15 @@ export default function PagePent20() {
           <Text className="em">Lc. 14, 16-24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus pharisǽis parábolam hanc: Homo quidam
               fecit cœnam magnam, et vocávit multos. Et misit servum suum hora
               cœnæ dícere invitátis, ut venírent, quia jam paráta sunt ómnia. Et
@@ -137,7 +141,7 @@ export default function PagePent20() {
               intrare, ut impleátur domus mea. Dico autem vobis, quod nemo
               virórum illórum, qui vocáti sunt, gustábit cœnam meam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos fariseus esta parábola: «Um homem
               fez uma lauta ceia, convidando para assistir muitas pessoas. À
               hora da comida, mandou um servo dizer aos convidados que viessem,
@@ -162,11 +166,11 @@ export default function PagePent20() {
           <Text className="em">Sl. 6, 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, convértere, et éripe ánimam meam: salvum me fac propter
               misericórdiam tuam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, volvei para mim a vossa face: e livrai a minha alma:
               salvai-me pela vossa misericórdia.
             </Text>
@@ -175,11 +179,11 @@ export default function PagePent20() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oblátio nos, Dómine, tuo nómini dicánda puríficet: et de die in
               diem ad cœléstis vitæ tránsferat actiónem. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que a oblação que vai ser consagrada ao vosso nome nos
               purifique; e que dia a dia nos aperfeiçoe na prática de uma vida
               toda celestial. Por nosso Senhor...
@@ -191,11 +195,11 @@ export default function PagePent20() {
           <Text className="em">Sl. 12, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cantábo Dómino, qui bona tríbuit mihi: et psallam nómini Dómini
               altíssimi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Cantarei hinos ao Senhor, porque me cumulou de benefícios.
               Cantarei salmos ao nome do altíssimo Senhor.
             </Text>
@@ -204,11 +208,11 @@ export default function PagePent20() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sumptis munéribus sacris, quǽsumus, Dómine: ut cum frequentatióne
               mystérii, crescat nostræ salútis efféctus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo recebido estes dons sacratíssimos. Vos imploramos, Senhor,
               fazei que pela recepção frequente deste mystério nos sejam
               aumentados os frutos da salvação. Por nosso Senhor...

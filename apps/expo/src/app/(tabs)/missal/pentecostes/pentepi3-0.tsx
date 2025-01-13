@@ -15,17 +15,19 @@ export default function PagePentepi30() {
           <Text className="em">Jr. 29,11,12 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
               invocábitis me, et ego exáudiam vos: et redúcam captivitátem
-              vestram de cunctis locis. <Text className="em">Ps. 84, 2</Text>{" "}
-              Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob. ℣.
-              Gloria Patri...
+              vestram de cunctis locis.{" "}
+              <Text className="text-base latin">Ps. 84, 2</Text> Benedixísti,
+              Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Disse o Senhor: tenho pensamentos de paz e não de ira:
               invocar-me-eis e ouvir-vos-ei; e farei regressar de todos os
-              países os vossos cativos. <Text className="em">Sl. 84, 2</Text>{" "}
+              países os vossos cativos.{" "}
+              <Text className="text-base vernacular">Sl. 84, 2</Text>{" "}
               Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro.
               ℣. Glória ao Pai...
             </Text>
@@ -34,12 +36,12 @@ export default function PagePentepi30() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, infirmitatem nostram propítius
               réspice: atque, ad protegéndum nos, déxteram tuæ majestátis
               exténde. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente e eterno, olhai benigno para a nossa fraqueza e
               estendei-nos a dextra da vossa majestade para nos proteger
               continuamente. Por nosso Senhor...
@@ -51,13 +53,13 @@ export default function PagePentepi30() {
           <Text className="em">Rm. 12, 16-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Nolíte esse prudéntes apud vosmetípsos: nulli malum pro
               malo reddéntes: providéntes bona non tantum coram Deo, sed étiam
               coram ómnibus homínibus. Si fíeri potest, quod ex vobis est, cum
@@ -68,7 +70,7 @@ export default function PagePentepi30() {
               cóngeres super caput ejus. Noli vinci a malo, sed vince in bono
               malum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Não presumais que sois prudentes; não retribuais a
               ninguém o mal com o mal; antes praticai cuidadosamente o bem,
               tanto diante de Deus, como perante os homens. Vivei em paz com
@@ -87,25 +89,25 @@ export default function PagePentepi30() {
           <Text className="em">Sl. 43, 8-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
               odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine
               tuo confitébimur in sǽcula.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Livrastes-nos, Senhor daqueles que nos afligiam: e confundistes os
               que nos odiavam. Glorificar-nos-emos constantemente em Deus e
               louvaremos eternamente o vosso nome.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 129, 12</Text> De
-              profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 129, 12</Text> De profúndis
+              clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 129, 12</Text> Do
-              fundo do abysmo Vos invoquei, Senhor: escutai a minha oração.
-              Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 129, 12</Text> Do fundo
+              do abysmo Vos invoquei, Senhor: escutai a minha oração. Aleluia.
             </Text>
           </View>
 
@@ -114,15 +116,15 @@ export default function PagePentepi30() {
           <Text className="em">Mt. 8, 1-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Cum descendísset Jesus de monte, secútæ sunt eum
               turbæ multæ: et ecce, leprósus véniens adorábat eum, dicens:
               Dómine, si vis, potes me mundáre. Et exténdens Jesus manum,
@@ -144,7 +146,7 @@ export default function PagePentepi30() {
               erit fletus et stridor déntium. Et dixit Jesus centurióni: Vade
               et, sicut credidísti, fiat tibi. Et sanátus est puer in illa hora.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, descendo Jesus do monte, era acompanhado por
               numerosas pessoas. Eis que foi ter com Ele um leproso, adorando-O
               e dizendo-Lhe: «Senhor, se quiserdes, podeis curar-me». Então
@@ -177,11 +179,11 @@ export default function PagePentepi30() {
           <Text className="em">Sl. 129, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam:
               de profúndis clamávi ad te. Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor,
               a minha voz: das profundezas dos abysmos Vos invoquei.
             </Text>
@@ -190,12 +192,12 @@ export default function PagePentepi30() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
               sanctíficet. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos
               delitos e santifique as almas e os corpos dos vossos súbditos,
               para que dignamente celebremos este sacrifício. Por nosso
@@ -208,11 +210,11 @@ export default function PagePentepi30() {
           <Text className="em">Mc. 11, 24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Amen, dico vobis, quidquid orántes pétitis, crédite, quia
               accipiétis, et fiet vobis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
               acreditai que o recebereis; e far-se-á como pedirdes».
             </Text>
@@ -221,11 +223,11 @@ export default function PagePentepi30() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quos tantis, Dómine, largíris uti mystériis: quǽsumus; ut
               efféctibus nos eórum veráciter aptáre dignéris. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, já que nos concedestes a graça de participarmos destes tão
               augustos mystérios, tornai-nos dignos, Vos suplicamos, de
               receberdes com eficácia os seus efeitos. Por nosso Senhor...

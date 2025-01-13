@@ -15,16 +15,18 @@ export default function Page8Muitosmartires3() {
           <Text className="em">Sl. 36, 39</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Salus autem justórum a Dómino: et protéctor eórum est in témpore
-              tribulatiónis. <Text className="em">Ps. ibid., 1</Text> Noli
-              æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.
-              ℣. Gloria Patri...
+              tribulatiónis.{" "}
+              <Text className="text-base latin">Ps. ibid., 1</Text> Noli æmulári
+              in malignántibus: neque zeláveris faciéntes iniquitátem. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A salvação dos justos, porém, está no Senhor; Ele é o seu refúgio
-              na ocasião da tribulação. <Text className="em">Sl. ibid., 1</Text>{" "}
-              Não invejeis os maus, nem tenhais emulação daqueles que cometem
+              na ocasião da tribulação.{" "}
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> Não
+              invejeis os maus, nem tenhais emulação daqueles que cometem
               iniquidades. ℣. Glória ao Pai...
             </Text>
           </View>
@@ -32,15 +34,15 @@ export default function Page8Muitosmartires3() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui nos ánnua sanctórum Mártyrum tuórum et{" "}
-              <Text className="text-red-500">N.</Text> sollemnitáte lætíficas:
-              concéde propítius; ut, quorum gaudémus méritis, accendámur
-              exémplis. Per Dóminum...
+              <Text className="text-base latin">N.</Text> sollemnitáte
+              lætíficas: concéde propítius; ut, quorum gaudémus méritis,
+              accendámur exémplis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que nos alegrais com a festividade anual dos vossos santos
-              Mártires <Text className="text-red-500">N.</Text> e{" "}
+              Mártires <Text className="text-base vernacular">N.</Text> e{" "}
               <Text className="text-red-500">N.</Text>, concedei-nos benigno que
               sejamos afervorados com os exemplos daqueles cujos méritos nos
               enchem de alegria. Por nosso Senhor...
@@ -52,13 +54,13 @@ export default function Page8Muitosmartires3() {
           <Text className="em">Heb. 10, 32-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Rememorámini prístinos dies, in quibus illumináti magnum
               certámen sustinuístis passiónum: et in áltero quidem oppróbriis et
               tribulatiónibus spectáculum facti: in áltero autem sócii táliter
@@ -71,7 +73,7 @@ export default function Page8Muitosmartires3() {
               ventúrus est, véniet, et non tardábit. Justus autem meus ex fide
               vivit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Lembrai-vos dos primeiros dias em que, depois de
               haverdes recebido as luzes da fé, sofrestes grandes combates
               dolorosos, havendo sido, por um lado, expostos, diante de toda a
@@ -94,41 +96,41 @@ export default function Page8Muitosmartires3() {
           <Text className="em">Sl. 33, 18-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
               tribulatiónibus eórum liberávit eos. ℣. Juxta est Dóminus his, qui
               tribuláto sunt corde: et húmiles spíritu salvábit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Clamaram os justos; então o senhor ouviu-os e livrou-os de todas
               suas aflições. ℣. O Senhor está próximo daqueles que têm o coração
               atribulado; e salvará os que têm o espírito humilhado.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Te Mártyrum candidátus laudat exércitus,
               Dómine. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. O exército cândido dos mártires, ó Senhor,
               canta louvores em vossa honra! Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 125, 5-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui séminant in lácrimis, in gáudio metent. ℣. Eúntes ibant et
               flébant, mitténtes sémina sua. ℣. Veniéntes autem vénient cum
               exsultatióne, portántes manípulos suos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aqueles que semeiam com lágrimas ceifarão com júbilo. ℣. Iam,
               caminhavam e lançavam a semente à terra, chorando. ℣. Porém,
               quando voltavam, exultavam de alegria, trazendo os seus molhos de
@@ -141,15 +143,15 @@ export default function Page8Muitosmartires3() {
           <Text className="em">Lc. 12, 1-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Atténdite a ferménto
               pharisæórum, quod est hypócrisis. Nihil autem opértum est, quod
               non revelétur: neque abscónditum, quod non sciátur. Quóniam, quæ
@@ -165,7 +167,7 @@ export default function Page8Muitosmartires3() {
               vobis: Omnis, quicúmque conféssus fúerit me coram homínibus, et
               Fílius hóminis confiténtur illum coram Angelis Dei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Acautelai-vos com
               o fermento dos fariseus, que é a hipocrisia, pois nada há oculto
               que não chegue a ser descoberto, nem segredo que não venha a ser
@@ -190,12 +192,12 @@ export default function Page8Muitosmartires3() {
           <Text className="em">Sb. 3, 1, 2 & 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum
               malítiae: visi sunt óculis insipiéntium mori: illi autem sunt in
               pace, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               As almas dos justos estão nas mãos de Deus e o tormento da malícia
               as não tocará! Aos olhos dos insensatos pareciam quase a morrer,
               todavia estão na paz. Aleluia.
@@ -205,16 +207,17 @@ export default function Page8Muitosmartires3() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oblátis, quǽsumus, Dómine, placáre munéribus: et, intercedéntibus
-              sanctis Martýribus tuis <Text className="text-red-500">N.</Text>{" "}
-              et <Text className="text-red-500">N.</Text>, a cunctis nos defénde
+              sanctis Martýribus tuis{" "}
+              <Text className="text-base latin">N.</Text> et{" "}
+              <Text className="text-red-500">N.</Text>, a cunctis nos defénde
               perículis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deixai-Vos aplacar com os dons que Vos oferecemos, Senhor, e, por
               intercessão dos vossos santos Mártires{" "}
-              <Text className="text-red-500">N.</Text>e{" "}
+              <Text className="text-base vernacular">N.</Text>e{" "}
               <Text className="text-red-500">N.</Text>, preservai-nos de todos
               os perigos. Por nosso Senhor...
             </Text>
@@ -225,11 +228,11 @@ export default function Page8Muitosmartires3() {
           <Text className="em">Mt. 10, 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et
               quod in aure audítis, prædicáte super tecta.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O que vos digo nas trevas dizei-o às claras, diz o Senhor; e o que
               vos disse ao ouvido pregai-o em cima dos telhados.
             </Text>
@@ -238,16 +241,17 @@ export default function Page8Muitosmartires3() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedéntibus
-              sanctis Martýribus tuis <Text className="text-red-500">N.</Text>{" "}
-              et <Text className="text-red-500">N.</Text>, cœléstis remédii
-              fáciat esse consórtes. Per Dóminum...
+              sanctis Martýribus tuis{" "}
+              <Text className="text-base latin">N.</Text> et{" "}
+              <Text className="text-red-500">N.</Text>, cœléstis remédii fáciat
+              esse consórtes. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que esta comunhão nos purifique dos nossos crimes, Senhor, e que
               por intercessão dos vossos santos Mártires{" "}
-              <Text className="text-red-500">N.</Text>e{" "}
+              <Text className="text-base vernacular">N.</Text>e{" "}
               <Text className="text-red-500">N.</Text> nos faça participantes do
               remédio celestial. Por nosso Senhor...
             </Text>
@@ -260,15 +264,15 @@ export default function Page8Muitosmartires3() {
           <Text className="em">Mt. 24, 3-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Sedénte Jesu super montem Olivéti, accessérunt ad
               eum discípuli secréto, dicéntes: Dic nobis, quando hæc erunt? et
               quod signum advéntus tui et consummatiónis sǽculi? Et respóndens
@@ -285,7 +289,7 @@ export default function Page8Muitosmartires3() {
               iníquitas, refrigéscet cáritas multórum. Qui autem perseveráverit
               usque in finem, hic salvus erit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, sentando-se Jesus no Monte das Oliveiras,
               aproximaram-se d’Ele em particular os seus discípulos,
               perguntando-Lhe: «Dizei-nos quando acontecerão essas coisas? Que

@@ -42,12 +42,12 @@ export default function Page0430() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da, quǽsumus, omnípotens Deus: ut, qui beátæ Catharínæ Vírginis
               tuæ natalítia cólimus; et ánnua sollemnitáte lætámur, et tantæ
               virtútis proficiámus exémplo. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, ó Deus omnipotente, Vos rogamos, que, honrando nós o
               nascimento no céu da B. Catarina, vossa Virgem, nos alegremos
               nesta solenidade anual e aproveitemos com o exemplo de tão grande
@@ -58,12 +58,12 @@ export default function Page0430() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Acéndant ad te, Dómine, quas in beátæ Catharínæ sollemnitáte
               offérimus, preces, et hóstia salutáris, virgíneo fragrans odóre.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deixai subir até Vós, Senhor, as preces que Vos oferecemos na
               solenidade da B. Catarina, e aceitai também esta salutar hóstia,
               perfumada com seu virginal odor. Por nosso Senhor...
@@ -73,12 +73,12 @@ export default function Page0430() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Æternitátem nobis, Dómine, cónferat, qua pasti sumus, mensa
               cœléstis: quæ beátæ Catharinæ Vírginis vitam étiam áluit
               temporálem. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que este celestial banquete em que nos alimentámos, Senhor, nos
               comunique a vida eterna, como ele alentou também a vida temporal
               da B. Virgem Catarina. Por nosso Senhor...

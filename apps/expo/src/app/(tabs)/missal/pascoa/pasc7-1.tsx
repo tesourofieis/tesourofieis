@@ -15,30 +15,30 @@ export default function PagePasc71() {
           <Text className="em">Sl. 80, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle
               saturávit eos, allelúja, allelúja.{" "}
-              <Text className="em">Ps. ibid., 2</Text> Exsultáte Deo, adjutóri
-              nostro: jubiláte Deo Jacob. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 2</Text> Exsultáte
+              Deo, adjutóri nostro: jubiláte Deo Jacob. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alimentou-os Deus com o pão mais puro, aleluia: e saciou-os com o
               mel que fez brotar de uma rocha, aleluia, aleluia.{" "}
-              <Text className="em">Sl. ibid., 2</Text> Louvai alegremente o
-              Senhor, que é o nosso sustentáculo; aclamai com hinos de alegria o
-              Deus de Jacob. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 2</Text> Louvai
+              alegremente o Senhor, que é o nosso sustentáculo; aclamai com
+              hinos de alegria o Deus de Jacob. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui Apóstolis tuis Sanctum dedísti Spíritum: concéde plebi
               tuæ piæ petitiónis efféctum; ut, quibus dedísti fidem, largiáris
               et pacem. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que enviastes o Espírito Santo aos vossos Apóstolos,
               atendei às pias orações do vosso povo, a fim de que àqueles a quem
               já destes a fé concedais também a paz. Por nosso Senhor...
@@ -50,9 +50,11 @@ export default function PagePasc71() {
           <Text className="em">Act. 10, 34 & 42-48</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Apériens Petrus os suum, dixit: Viri fratres,
               nobis præcépit Dóminus prædicáre pópulo: et testificári, quia ipse
               est, qui constitútus est a Deo judex vivórum et mortuórum. Huic
@@ -67,7 +69,7 @@ export default function PagePasc71() {
               accepérunt sicut et nos? Et jussit eos baptizári in nómine Dómini
               Jesu Christi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, Pedro, tomando a palavra, disse: «Varões, meus
               irmãos, o Senhor mandou-nos pregar ao povo e testemunhar que foi
               Ele quem Deus instituiu Juiz dos vivos e dos mortos. Todos os
@@ -85,15 +87,17 @@ export default function PagePasc71() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Act. 2, 4</Text>{" "}
-              Loquebántur váriis linguis Apóstoli magnália Dei. Allelúja.{" "}
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Act. 2, 4</Text> Loquebántur
+              váriis linguis Apóstoli magnália Dei. Allelúja.{" "}
               <Text className="em">hic genuflectitur</Text> ℣. Veni, Sancte
               Spiritus, reple tuorum corda fidélium: et tui amóris in eis ignem
               accénde.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Act. 2, 4</Text> Os
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Act. 2, 4</Text> Os
               Apóstolos publicavam em diversas línguas as maravilhas de Deus.
               Aleluia. <Text className="em">Genuflecte-se</Text> Vinde, ó
               Espírito Santo; enchei os corações dos vossos fiéis e acendei
@@ -106,15 +110,15 @@ export default function PagePasc71() {
           <Text className="em">Jo. 3, 16-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus Nicodémo: Sic Deus diléxit mundum, ut
               Fílium suum unigénitum daret: ut omnis, qui credit in eum, non
               péreat, sed hábeat vitam ætérnam. Non enim misit Deus Fílium suum
@@ -127,7 +131,7 @@ export default function PagePasc71() {
               non arguántur ópera ejus: qui autem facit veritátem, venit ad
               lucem, ut manifesténtur ópera ejus, quia in Deo sunt facta.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus a Nicodemos: «Deus amou de tal modo o
               mundo que deu o seu Filho Unigénito, para que todo aquele que
               acreditar n’Ele não pereça, mas alcance a vida eterna. Porquanto
@@ -149,11 +153,11 @@ export default function PagePasc71() {
           <Text className="em">Sl. 17, 14 & 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Intónuit de cœlo Dóminus, et Altíssimus dedit vocem suam: et
               apparuérunt fontes aquárum, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lá do céu o Senhor trovejou: e o Altíssimo fez ouvir a sua voz:
               então irromperam as fontes das águas, aleluia.
             </Text>
@@ -162,12 +166,12 @@ export default function PagePasc71() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Propítius, Dómine, quǽsumus, hæc dona sanctífica: et, hóstiæ
               spiritális oblatióne suscépta, nosmetípsos tibi pérfice munus
               ætérnum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos, Senhor, Vos rogamos, santificar estas ofertas, e,
               recebendo a oblação desta hóstia espiritual, fazei que nos
               tornemos em um dom eterno a Vós oferecido. Por nosso Senhor...
@@ -179,11 +183,11 @@ export default function PagePasc71() {
           <Text className="em">Jo. 14, 26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Spíritus Sanctus docébit vos, allelúja: quæcúmque díxero vobis,
               allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Espírito Santo vos inspirará, aleluia, tudo o que vos tenho
               ensinado, aleluia, aleluia.
             </Text>
@@ -192,11 +196,11 @@ export default function PagePasc71() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adésto, quǽsumus, Dómine, pópulo tuo: et, quem mystériis
               cœléstibus imbuísti, ab hóstium furóre defénde. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Assisti ao vosso povo, Senhor, Vos suplicamos, e, havendo-o
               sustentado com os mystérios celestiais, defendei-o contra o furor
               dos inimigos. Por nosso Senhor...

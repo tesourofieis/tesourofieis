@@ -16,31 +16,32 @@ export default function PageQuad53() {
           <Text className="em">Sl. 17, 48-49</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Liberátor meus de géntibus iracúndis: ab insurgéntibus in me
               exaltábis me: a viro iníquo erípies me, Dómine.{" "}
-              <Text className="em">Ps. ib., 2-3</Text> Díligam te, Dómine,
-              virtus mea: Dóminus firmaméntum meum, et refúgium meum, et
+              <Text className="text-base latin">Ps. ib., 2-3</Text> Díligam te,
+              Dómine, virtus mea: Dóminus firmaméntum meum, et refúgium meum, et
               liberátor meus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fostes Vós, que me livrastes, Senhor, do jugo dum povo irritado.
               Livrar-me-eis também dos meus adversários: e defender-me-eis do
-              homem iníquo. <Text className="em">Sl. ib., 2-3</Text> Senhor, que
-              sois a minha fortaleza, eu Vos amo! Sois o meu sustentáculo, o meu
-              refúgio e o meu libertador.
+              homem iníquo.{" "}
+              <Text className="text-base vernacular">Sl. ib., 2-3</Text> Senhor,
+              que sois a minha fortaleza, eu Vos amo! Sois o meu sustentáculo, o
+              meu refúgio e o meu libertador.
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sanctificáto hoc jejúnio, Deus, tuórum corda fidélium miserátor
               illústra: et quibus devotiónis præstas afféctum, præbe
               supplicántibus pium benígnus audítum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus misericordioso, depois de haverdes santificado este jejum,
               esclarecei os corações dos vossos fiéis e ouvi benigno as súplicas
               daqueles a quem concedeis o dom da piedade. Por nosso Senhor...
@@ -52,9 +53,11 @@ export default function PageQuad53() {
           <Text className="em">Lv. 19, 1-2, 11-19 & 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Levítici.</Text>
-            <Text className="text-base">Lição do Livro Levítico.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Levítici.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro Levítico.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Locútus est Dóminus ad Móysen, dicens: Lóquere ad
               omnem cœtum filiórum Israël, et dices ad eos: Ego Dóminus, Deus
               vester. Non faciétis furtum. Non mentiémini, nec decípiet
@@ -72,7 +75,7 @@ export default function PageQuad53() {
               tuórum. Díliges amícum tuum sicut teípsum. Ego Dóminus. Leges meas
               custodíte. Ego enim sum Dóminus, Deus vester.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, falou o Senhor a Moisés, dizendo: «Fala a toda a
               assembleia dos filhos de Israel e diz-lhes: «Sou o Senhor, vosso
               Deus: não furtareis; não mentireis; não enganareis o vosso
@@ -100,13 +103,13 @@ export default function PageQuad53() {
           <Text className="em">Sl. 29, 2-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exaltábo te, Dómine, quóniam suscepísti me: nec delectásti
               inimícos meos super me. ℣. Dómine, Deus meus, clamávi ad te, et
               sanásti me: Dómine, abstraxísti ab ínferis ánimam meam, salvásti
               me a descendéntibus in lacum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Exaltar-Vos-ei, Senhor, porque me acolhestes e não quisestes que
               meus inimigos escarnecessem de mim. ℣. Senhor, meu Deus, chamei
               por Vós e curastes as minhas chagas. Senhor, tirastes a minha alma
@@ -127,15 +130,15 @@ export default function PageQuad53() {
           <Text className="em">Jo. 10, 22-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Facta sunt Encǽnia in Jerosólymis: et hiems erat.
               Et ambulábat Jesus in templo, in pórticu Salomónis. Circumdedérunt
               ergo eum Judǽi, et dicébant ei: Quoúsque ánimam nostram tollis? Si
@@ -159,7 +162,7 @@ export default function PageQuad53() {
               autem fácio, et si mihi non vultis crédere, opéribus crédite, ut
               cognoscátis et credátis, quia Pater in me est et ego in Patre.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, celebrava-se em Jerusalém a festa da Dedicação do
               templo. Era no inverno. Jesus passeava no templo, sob o pórtico de
               Salomão. Então, os judeus rodearam-no e disseram-Lhe: «Até quando
@@ -194,11 +197,11 @@ export default function PageQuad53() {
           <Text className="em">Sl. 58, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Eripe me de inimícis meis, Deus meus: et ab insurgéntibus in me
               líbera me, Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Livrai-me dos meus inimigos, ó meu Deus; livrai-me dos que se
               insurgem contra mim.
             </Text>
@@ -207,11 +210,11 @@ export default function PageQuad53() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Annue, miséricors Deus: ut hóstias placatiónis et laudis sincéro
               tibi deferámus obséquio. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, ó Deus misericordioso, que com sincera submissão Vos
               apresentemos estas hóstias de expiação e de louvor. Por nosso
               Senhor...
@@ -223,12 +226,12 @@ export default function PageQuad53() {
           <Text className="em">Sl. 25, 6-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lavábo inter innocéntes manus meas, et circuíbo altáre tuum,
               Dómine: ut áudiam vocem laudis tuæ, et enárrem univérsa mirabília
               tua.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lavarei as minhas mãos entre os inocentes e rodearei o vosso
               altar, Senhor, para cantar os vossos louvores e anunciar todas as
               vossas maravilhas.
@@ -238,12 +241,12 @@ export default function PageQuad53() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœléstis doni benedictióne percépta: súpplices te, Deus
               omnípotens, deprecámur; ut hoc idem nobis et sacraménti causa sit
               et salútis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo nós recebido a bênção deste dom celestial, súplices Vos
               rogamos, ó Deus omnipotente, que este mesmo dom nos sirva de
               sacramento e de salvação. Por nosso Senhor...
@@ -253,22 +256,24 @@ export default function PageQuad53() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adésto supplicatiónibus nostris, omnípotens Deus: et, quibus
               fidúciam sperándæ pietátis indúlges; consuétæ misericórdiæ tríbue
               benígnus efféctum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Escutai as nossas súplicas, ó Deus omnipotente, e, àqueles a quem
               permitis confiem na vossa piedade, concedei benigno o efeito da
               vossa habitual misericórdia. Por nosso Senhor...

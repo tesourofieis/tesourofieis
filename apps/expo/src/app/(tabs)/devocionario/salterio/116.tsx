@@ -11,17 +11,17 @@ export default function Page116() {
           <Text className="h1">Salmo 116</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Laudáte Dóminum, omnes gentes: * laudáte eum, omnes pópuli:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó gentes, louvai todas o Senhor: * louvai-O todos, ó povos:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quóniam confirmáta est super nos misericórdia ejus: * et véritas
               Dómini manet in ætérnum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Porque sobre nós foi confirmada a sua misericórdia: * e a verdade
               do Senhor permanece eternamente.
             </Text>

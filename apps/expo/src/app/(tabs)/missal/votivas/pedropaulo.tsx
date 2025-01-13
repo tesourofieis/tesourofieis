@@ -21,14 +21,14 @@ export default function PagePedropaulo() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, cujus déxtera beátum Petrum, ambulántem in flúctibus, ne
               mergerétur, eréxit, et coapóstolum ejus Paulum, tértio
               naufragántem, de profúndo pélagi liberávit: exáudi nos propítius,
               et concéde; ut, ambórum méritis, æternitátis glóriam consequámur:
               Qui vivis et regnas...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, cuja mão poderosa sustentou o B. Pedro quando caminhava
               sobre as águas, não deixando que ele se afundasse, e salvou do
               fundo do mar o seu companheiro de apostolado, Paulo, quando este
@@ -43,9 +43,11 @@ export default function PagePedropaulo() {
           <Text className="em">Act. 5, 12-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostolorum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostolorum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Per manus Apostolórum fiébant signa et prodígia
               multa in plebe. Et erant unanímiter omnes in pórticu Salomónis.
               Ceterórum autem nemo audébat se conjúngere illis: sed magnificábat
@@ -57,7 +59,7 @@ export default function PagePedropaulo() {
               civitátum Jerúsalem, afferéntes ægros et vexátos a spirítibus
               immúndis: qui curabántur omnes.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, os Apóstolos praticavam muitos milagres e prodígios
               no meio do povo, conservando-se todos nas galerias de Salomão com
               o mesmo pensamento. Nenhum dos outros ousava juntar-se a eles,
@@ -77,25 +79,27 @@ export default function PagePedropaulo() {
           <Text className="em">Sl. 44, 17 & 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine. ℣. Pro pátribus tuis nati sunt tibi fílii: proptérea
               pópuli confitebúntur tibi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vós os instituístes príncipes em todo o universo: e eles
               perpetuarão a glória do vosso nome, Senhor, em toda a terra. ℣.
               Para substituir os vossos pais, nascer-vos-ão filhos: pelo que os
               povos vos louvarão.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 138, 17</Text>{" "}
-              Nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-              principátus eórum. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 138, 17</Text> Nimis
+              honoráti sunt amíci tui, Deus: nimis confortátus est principátus
+              eórum. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 138, 17</Text>{" "}
-              Honrais largamente os vossos amigos, ó Deus; o seu poder tem-se
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 138, 17</Text> Honrais
+              largamente os vossos amigos, ó Deus; o seu poder tem-se
               fortalecido extraordinariamente. Aleluia.
             </Text>
           </View>
@@ -110,12 +114,12 @@ export default function PagePedropaulo() {
           <Text className="em">Sl. 125, 5-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui séminant in lácrimis, in gáudio metent. ℣. Eúntes ibant et
               flébant, mitténtes sémina sua. ℣. Veniéntes autem vénient cum
               exsultatióne, portántes manípulos suos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aqueles que semeiam com lágrimas, colherão com risos. ℣. Iam
               chorando e lançando à terra as suas sementes: ℣. Mas, quando
               regressaram, vinham alegres, transportando feixes do seu trigo.
@@ -134,11 +138,11 @@ export default function PagePedropaulo() {
           <Text className="em">Sl. 18, 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In omnem terram exivit sonus eórum: et in fines orbis terræ verba
               eórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O som da sua voz ecoou por toda a terra: e as suas palavras
               estenderam-se até às extremidades da terra.
             </Text>
@@ -147,12 +151,12 @@ export default function PagePedropaulo() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Offérimus tibi, Dómine, preces et múnera: quæ ut tuo sint digna
               conspéctu. Apostolórum tuórum Petri et Pauli précibus adjuvémur.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos oferecemos as nossas orações e oblatas; e, para que
               sejam dignas dos vossos olhares, fazei que os vossos Apóstolos
               Pedro e Paulo as acompanhem com suas preces. Por nosso Senhor...
@@ -164,11 +168,11 @@ export default function PagePedropaulo() {
           <Text className="em">Mt. 19, 28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vos, qui secuti estis me, sedebitis super sedes, judicantes
               duodecim tribus Israel.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó vós, que me acompanhastes, assentar-vos-eis em doze tronos e
               julgareis as doze tribos de Israel.
             </Text>
@@ -177,12 +181,12 @@ export default function PagePedropaulo() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Prótege, Dómine, pópulum tuum: et Apostolórum tuórum Petri et
               Pauli patrocínio confidéntem, perpétua defensióne consérva. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Protegei o vosso povo, Senhor, e, visto que ele se coloca sob o
               patrocínio dos vossos Apóstolos Pedro e Paulo, dignai-Vos
               defendê-lo e guardá-lo perpetuamente. Por nosso Senhor...

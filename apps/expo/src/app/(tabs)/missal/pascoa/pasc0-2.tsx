@@ -15,31 +15,32 @@ export default function PagePasc02() {
           <Text className="em">Ecl. 15, 3 & 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Aqua sapiéntiæ potávit eos, allelúja: firmábitur in illis et non
               flectétur, allelúja: et exaltábit eos in ætérnum, allelúja,
-              allelúja. <Text className="em">Ps. 104, 1</Text> Confitémini
-              Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
-              ℣. Gloria Patri...
+              allelúja. <Text className="text-base latin">Ps. 104, 1</Text>{" "}
+              Confitémini Dómino et invocáte nomen ejus: annuntiáte inter gentes
+              ópera ejus. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor deu-lhes a beber a água da sabedoria, aleluia: Ela
               permanecerá neles e não vacilarão, aleluia: e ela os exaltará para
-              sempre, aleluia, aleluia. <Text className="em">Sl. 104, 1</Text>{" "}
-              Louvai o Senhor e aclamai o seu nome: publicai as suas obras em
-              todos os povos. ℣. Glória ao Pai...
+              sempre, aleluia, aleluia.{" "}
+              <Text className="text-base vernacular">Sl. 104, 1</Text> Louvai o
+              Senhor e aclamai o seu nome: publicai as suas obras em todos os
+              povos. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui Ecclésiam tuam novo semper fetu multíplicas: concéde
               fámulis tuis; ut sacraméntum vivéndo téneant, quod fide
               percepérunt. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que aumentais incessantemente a vossa Igreja com novos
               filhos, concedei aos vossos servos a graça de mostrarem, pela sã
               conduta de sua vida, o efeito do sacramento que receberam pela fé.
@@ -52,9 +53,11 @@ export default function PagePasc02() {
           <Text className="em">Act. 13, 16 & 26-33</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Surgens Paulus et manu silentium índicens, ait:
               Viri fratres, fílii generis Abraham, et qui in vobis timent Deum,
               vobis verbum salútis hujus missum est. Qui enim habitábant
@@ -70,7 +73,7 @@ export default function PagePasc02() {
               facta est: quóniam hanc Deus adimplévit fíliis nostris,
               resúscitans Jesum Christum, Dóminum nostrum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, levantando-se Paulo e fazendo sinal com a mão, a
               pedir silêncio, disse: «Varões, meus irmãos, descendentes de
               Abraão, e aqueles de vós que temem Deus: é a vós que esta palavra
@@ -94,23 +97,24 @@ export default function PagePasc02() {
           <Text className="em">Sl. 117, 24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea. ℣.{" "}
-              <Text className="em">Ps. 106, 2</Text> Dicant nunc, qui redémpti
-              sunt a Dómino: quos rédemit de manu inimíci, et de regiónibus
-              congregávit eos.
+              <Text className="text-base latin">Ps. 106, 2</Text> Dicant nunc,
+              qui redémpti sunt a Dómino: quos rédemit de manu inimíci, et de
+              regiónibus congregávit eos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis o dia que o Senhor fez: exultemos e alegremo-nos nele. ℣.{" "}
-              <Text className="em">Sl. 106, 2</Text> Assim devem cantar agora
-              aqueles que o Senhor resgatou e tirou das mãos dos inimigos, e
-              que, sendo de muitas regiões, os congregou em um só povo.
+              <Text className="text-base vernacular">Sl. 106, 2</Text> Assim
+              devem cantar agora aqueles que o Senhor resgatou e tirou das mãos
+              dos inimigos, e que, sendo de muitas regiões, os congregou em um
+              só povo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Surrexit Dóminus de sepúlcro, qui pro nobis
               pepéndit in ligno.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Ressuscitou do sepulcro o Senhor, que havia
               sido pregado no madeiro por nossa causa.
             </Text>
@@ -121,15 +125,15 @@ export default function PagePasc02() {
           <Text className="em">Lc. 24, 36-47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Stetit Jesus in médio discipulórum suórum et
               dicit eis: Pax vobis: ego sum, nolíte timére. Conturbáti vero et
               contérriti, existimábant se spíritum vidére. Et dixit eis: Quid
@@ -148,7 +152,7 @@ export default function PagePasc02() {
               mórtuis tértia die: et prædicári in nómine ejus pœniténtiam, et
               remissiónem peccatórum in omnes gentes.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, apareceu Jesus no meio dos discípulos e disse-lhes:
               «A paz seja convosco! Sou Eu, não tenhais receio». Admirados e
               atónitos, os discípulos pensavam que viam algum espírito! Mas Ele
@@ -176,11 +180,11 @@ export default function PagePasc02() {
           <Text className="em">Sl. 17, 14 & 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Intónuit de cœlo Dóminus, et Altíssimus dedit vocem suam: et
               apparuérunt fontes aquárum, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lá no céu o Senhor trovejou e o Altíssimo fez ouvir a sua voz.
               Então irromperam as fontes das águas, aleluia.
             </Text>
@@ -189,12 +193,12 @@ export default function PagePasc02() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súscipe, Dómine, fidélium preces cum oblatiónibus hostiárum: ut,
               per hæc piæ devotiónis offícia, ad cœléstem glóriam transeámus.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebei, Senhor, as preces dos vossos fiéis, unidas às oblações
               destas hóstias, a fim de que, por meio destes cultos de devoção
               piedosa, alcancemos glória celestial. Por nosso Senhor...
@@ -206,12 +210,12 @@ export default function PagePasc02() {
           <Text className="em">Cl. 3, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Si consurrexístis cum Christo, quæ sursum sunt quǽrite, ubi
               Christus est in déxtera Dei sedens, allelúja: quæ sursum sunt
               sápite, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Se já ressuscitastes com Cristo, procurai as coisas do céu, onde
               Cristo está assentado à mão direita de Deus, aleluia; meditai nas
               coisas do céu, aleluia.
@@ -221,12 +225,12 @@ export default function PagePasc02() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde, quǽsumus, omnípotens Deus: ut paschális percéptio
               sacraménti, contínua in nostris méntibus persevéret. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos rogamos, fazei que a virtude do sacramento
               pascal, que recebemos, permaneça perpetuamente nas nossas almas.
               Por nosso Senhor...

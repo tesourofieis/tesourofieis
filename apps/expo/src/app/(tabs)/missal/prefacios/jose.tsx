@@ -17,7 +17,7 @@ export default function PageJose() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: Et te in Festivitáte (Veneratióne) beáti Joseph débitis
@@ -31,7 +31,7 @@ export default function PageJose() {
               quibus et nostras voces ut admítti júbeas, deprecámur, súpplici
               confessióne dicéntes:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               É verdadeiramente digno e justo, racional e salutar dar-Vos graças
               em todos os lugares e sempre, ó Senhor santo, Pai omnipotente,
               eterno Deus: e na festividade do bem-aventurado José devemos

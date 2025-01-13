@@ -17,30 +17,31 @@ export default function Page0829() {
           <Text className="em">Sl. 118, 46-47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Loquébar de testimóniis tuis in conspéctu regum, et non
               confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.{" "}
-              <Text className="em">Ps. 91, 2</Text> Bonum est confitéri Dómino:
-              et psállere nómini tuo, Altíssime. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 91, 2</Text> Bonum est
+              confitéri Dómino: et psállere nómini tuo, Altíssime. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Falava na presença dos reis sobre a vossa lei e não me
               envergonhava: meditava nos vossos mandamentos, que muito amei.{" "}
-              <Text className="em">Sl. 91, 2</Text> É bom louvar o Senhor e
-              cantar hinos em honra do vosso nome, ó Altíssimo. ℣. Glória ao
-              Pai...
+              <Text className="text-base vernacular">Sl. 91, 2</Text> É bom
+              louvar o Senhor e cantar hinos em honra do vosso nome, ó
+              Altíssimo. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sancti Joánnis Baptístæ Præcursóris et Martyris tui, quǽsumus,
               Dómine, veneránda festívitas: salutáris auxílii nobis præstet
               efféctum: Qui vivis et regnas...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, Vos rogamos, que a veneranda festividade de S.
               João Baptista, vosso Precursor e Mártir, nos alcance o efeito do
               vosso salutar auxílio. Ó Vós, que...
@@ -52,13 +53,13 @@ export default function Page0829() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili
               victóriam martýrii contulísti: concéde propítius; ut, qui beátæ
               Sabínæ Mártyris tuæ natalítia cólimus, per ejus ad te exémpla
               gradiámur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que entre outros milagres do vosso poder permitistes que o
               sexo frágil alcançasse a vitória do martírio, concedei-nos
               propício que, venerando o nascimento da vossa B, Virgem e Mártir
@@ -72,9 +73,11 @@ export default function Page0829() {
           <Text className="em">Jr. 1, 17-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Jeremíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Jeremias.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Jeremíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Jeremias.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Factum est verbum Dómini ad me, dicens: Accínge
               lumbos tuos, et surge, et lóquere ad Juda ómnia, quæ ego præcípio
               tibi. Ne formides a fácie eórum: nec enim timére te fáciam vultum
@@ -84,7 +87,7 @@ export default function Page0829() {
               bellábunt advérsum te, et non prævalebunt: quia ego tecum sum, ait
               Dóminus, ut líberem te.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, o Senhor falou-me e disse-me: «Cinge os teus rins,
               levanta-te e diz à Judeia tudo quanto te ordenar. Não temas
               aparecer diante deles, porque farei que tu não tenhas medo.
@@ -101,25 +104,28 @@ export default function Page0829() {
           <Text className="em">Sl. 91, 13 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in
-              domo Dómini. ℣. <Text className="em">ibid., 3</Text> Ad
-              annuntiándum mane misericórdiam tuam, et veritátem tuam per
+              domo Dómini. ℣. <Text className="text-base latin">ibid., 3</Text>{" "}
+              Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per
               noctem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O justo florescerá, como a palmeira, e crescerá, como o cedro do
-              Líbano, na casa do Senhor. ℣. <Text className="em">ibid., 3</Text>{" "}
-              Para publicar de manhã a vossa misericórdia; e de noite a vossa
+              Líbano, na casa do Senhor. ℣.{" "}
+              <Text className="text-base vernacular">ibid., 3</Text> Para
+              publicar de manhã a vossa misericórdia; e de noite a vossa
               verdade.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Osee 14, 6</Text>{" "}
-              Justus germinábit sicut lílium: et florébit in ætérnum ante
-              Dóminum. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Osee 14, 6</Text> Justus
+              germinábit sicut lílium: et florébit in ætérnum ante Dóminum.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Os. 14, 6</Text> O justo
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Os. 14, 6</Text> O justo
               germinará, como o lírio, e florescerá eternamente perante o
               Senhor. Aleluia.
             </Text>
@@ -130,15 +136,15 @@ export default function Page0829() {
           <Text className="em">Mc. 6, 17-29</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Marcum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Marcos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Marcos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Misit Heródes, ac ténuit Joánnem, et vinxit eum
               in cárcere propter Herodíadem, uxorem Philíppi fratris sui, quia
               dúxerat eam. Dicebat enim Joánnes Heródi: Non licet tibi habére
@@ -162,7 +168,7 @@ export default function Page0829() {
               discípuli ejus venérunt et tulérunt corpus ejus: et posueérunt
               illud in monuménto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, mandou Herodes prender João, ligá-lo e metê-lo no
               cárcere, para agradar a Herodíade, mulher de Filipe, seu irmão, a
               qual ele havia desposado. Ora, João dizia a Herodes: «Não te é
@@ -196,11 +202,11 @@ export default function Page0829() {
           <Text className="em">Sl. 20, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum
               exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O justo, Senhor, alegrar-se-á com vosso poder e rejubilará,
               vendo-se salvo por Vós: concedestes-lhe o desejo do seu coração.
             </Text>
@@ -209,12 +215,12 @@ export default function Page0829() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Múnera, quæ tibi, Dómine, pro sancti Martyris tui Joánnis Baptístæ
               passióne deférimus: quǽsumus; ut ejus obténtu nobis profíciant ad
               salútem. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos apresentamos, Senhor, estas oblatas em honra dos sofrimentos
               do vosso santo Mártir João Baptista, e, Vos suplicamos, fazei
               pelos seus méritos que sirvam de proveito à nossa salvação. Por
@@ -227,12 +233,12 @@ export default function Page0829() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hóstias tibi, Dómine, beátæ Sabínæ Mártyris tuæ dicátas méritis,
               benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aceitai benignamente, Senhor, as hóstias que Vos oferecemos pelos
               méritos da B. Virgem e Mártir Sabina, e dignai-Vos permitir que
               ela nos sirva de perpétuo auxílio. Por nosso Senhor...
@@ -244,10 +250,10 @@ export default function Page0829() {
           <Text className="em">Sl. 20, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Posuísti, Dómine, in cápite ejus corónam de lápide pretióso.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, colocastes na sua cabeça uma coroa de pedras preciosas.
             </Text>
           </View>
@@ -255,12 +261,12 @@ export default function Page0829() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cónferat nobis, Dómine, sancti Joánnis Baptístæ sollémnitas: ut et
               magnífica sacraménta, quæ súmpsimus, significáta venerémur, et in
               nobis pótius édita gaudeámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a solenidade de S. João Baptista, Senhor, nos alcance a graça
               de venerarmos nos augustos sacramentos, que recebemos, o que as
               aparências dos mesmos significam; e, mais ainda, de gozarmos a
@@ -273,12 +279,12 @@ export default function Page0829() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Divíni muneris largitáte satiáti, quǽsumus, Dómine, Deus noster:
               ut, intercedénte beáta Sabína Mártyre tua, in ejus semper
               participatióne vivámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Saciados com a liberalidade do dom divino, ó Senhor, nosso Deus,
               Vos suplicamos pela intercessão da B. Virgem Sabina, vossa Mártir,
               que durante a nossa vida comparticipemos sempre deste dom divino.

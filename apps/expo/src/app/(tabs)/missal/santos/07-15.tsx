@@ -47,7 +47,7 @@ export default function Page0715() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui hodiérna die beátum Henrícum Confessórem tuum e terréni
               cúlmine impérii ad regnum ætérnum transtulísti: te súpplices
               exorámus; ut, sicut illum, grátiæ tuæ ubertáte prævéntum,
@@ -55,7 +55,7 @@ export default function Page0715() {
               imitatióne, mundi hujus blandiménta vitáre, et ad te puris
               méntibus perveníre. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus que neste dia fizestes passar o nosso confessor S. Henrique
               de um trono da terra ao reino dos céus, nós Vos pedimos
               humildemente, que, como preservando-o pela abundância de nossa

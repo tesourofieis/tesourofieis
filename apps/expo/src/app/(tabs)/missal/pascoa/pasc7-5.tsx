@@ -15,31 +15,31 @@ export default function PagePasc75() {
           <Text className="em">Sl. 70, 8 & 23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Repleátur os meum laude tua, allelúja: ut possim cantáre,
               allelúja: gaudébunt lábia mea, dum cantávero tibi, allelúja,
-              allelúja. <Text className="em">Ps. ibid., 1-2</Text> In te,
-              Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera
-              me et éripe me. ℣. Gloria Patri...
+              allelúja. <Text className="text-base latin">Ps. ibid., 1-2</Text>{" "}
+              In te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua
+              líbera me et éripe me. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a minha boca se encha com vossos louvores, aleluia: para que
               eu possa cantar, aleluia. E alegrar-se-ão os meus lábios quando
               cantarem vossos hinos, aleluia, aleluia.{" "}
-              <Text className="em">Sl. ibid., 1-2</Text> Senhor, confio em Vós,
-              não serei confundido para sempre; pois a vossa justiça me livrará
-              e salvará. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1-2</Text>{" "}
+              Senhor, confio em Vós, não serei confundido para sempre; pois a
+              vossa justiça me livrará e salvará. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da, quǽsumus, Ecclésiæ tuæ, miséricors Deus: ut, Sancto Spíritu
               congregáta, hostíli nullaténus incursióne turbétur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus misericordioso, Vos suplicamos, concedei à vossa Igreja
               que, havendo sido instituída pelo Espírito Santo, não seja de modo
               algum perturbada pelos ataques dos seus inimigos. Por nosso
@@ -52,9 +52,9 @@ export default function PagePasc75() {
           <Text className="em">Jl. 2, 23-24 & 26-27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Joélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Joel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Joélis Prophétæ.</Text>
+            <Text className="text-base vernacular">Lição do Profeta Joel.</Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus Deus: Exsultáte, fílii Sion, et lætámini in
               Dómino, Deo vestro: quia dedit vobis doctórem justítiæ, et
               descéndere fáciet ad vos imbrem matutínum et serótinum, sicut in
@@ -66,7 +66,7 @@ export default function PagePasc75() {
               ámplius: et non confundétur pópulus me us in ætérnum: ait Dóminus
               omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Isto diz o Senhor Deus: «Alegrai-vos, ó filhos de Sião, rejubilai
               no Senhor, vosso Deus, pois deu-vos um Mestre, que vos ensinará a
               justiça e fará cair sobre vós, como outrora, as chuvas do outono e
@@ -81,15 +81,17 @@ export default function PagePasc75() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Sap 12, 1</Text> O
-              quam bonus et suávis est, Dómine, Spíritus tuus in nobis!
-              Allelúja. <Text className="em">hic genuflectitur</Text> ℣. Veni,
-              Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis
-              ignem accénde.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Sap 12, 1</Text> O quam bonus et
+              suávis est, Dómine, Spíritus tuus in nobis! Allelúja.{" "}
+              <Text className="em">hic genuflectitur</Text> ℣. Veni, Sancte
+              Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem
+              accénde.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sb. 12, 1</Text> Senhor,
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sb. 12, 1</Text> Senhor,
               como é bom e suave o vosso Espírito! Aleluia{" "}
               <Text className="em">Genuflecte-se</Text> ℣. Vinde ó Espírito
               Santo; enchei os corações dos vossos fiéis e acendei neles o fogo
@@ -102,15 +104,15 @@ export default function PagePasc75() {
           <Text className="em">Lc. 5, 17-26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Factum est in una diérum, et Jesus sedébat
               docens. Et erant pharisǽi sedéntes, et legis doctóres, qui
               vénerant ex omni castéllo Galilǽæ et Judǽæ et Jerúsalem: et virtus
@@ -132,7 +134,7 @@ export default function PagePasc75() {
               apprehéndit omnes et magnificábant Deum. Et repléti sunt timóre,
               dicéntes: Quia vídimus mirabília hódie.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, aconteceu que Jesus ensinava. Estavam ao pé dele,
               assentados também, alguns fariseus e doutores da lei, que tinham
               vindo das aldeias da Galileia, da Judeia e de Jerusalém. E o poder
@@ -162,11 +164,11 @@ export default function PagePasc75() {
           <Text className="em">Sl. 145, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam
               Deo meo, quámdiu ero, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó minha alma, louva o Senhor! Louvarei o Senhor em toda minha
               vida: louvarei o Senhor, enquanto eu viver, aleluia.
             </Text>
@@ -175,12 +177,12 @@ export default function PagePasc75() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrifícia, Dómine, tuis obláta conspéctibus, ignis ille divínus
               absúmat, qui discipulórum Christi, Fílii tui, per Spíritum Sanctum
               corda succéndit. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que aquele fogo divino, ó Senhor, de que o Espírito Santo abrasou
               os corações dos discípulos de Jesus Cristo, vosso Filho, consuma o
               sacrifício que oferecemos diante de vossos olhos. Pelo mesmo nosso
@@ -193,11 +195,11 @@ export default function PagePasc75() {
           <Text className="em">Jo. 14, 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Non vos relínquam órphanos: véniam ad vos íterum, allelúja: et
               gaudébit cor vestrum, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Não vos deixarei órfãos: de novo virei a vós, aleluia: e o vosso
               coração se alegrará, aleluia.
             </Text>
@@ -206,12 +208,12 @@ export default function PagePasc75() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súmpsimus, Dómine, sacri dona mystérii: humíliter deprecántes; ut,
               quæ in tui commemoratiónem nos fácere præcepísti, in nostræ
               profíciant infirmitátis auxílium: Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebemos, Senhor, os dons do divino mystério; e permiti, Vos
               suplicamos humildemente, que este sacrifício, que mandastes
               consumar em vossa memória, se torne em auxílio da nossa fraqueza.

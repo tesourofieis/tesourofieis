@@ -11,13 +11,13 @@ export default function PageSalutaris() {
           <Text className="h1">Salutaris</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               O salutaris Hostia, Quæ cæli pandis ostium: Bella premunt
               hostilia, Da robur, fer auxilium. Uni trinoque Domino Sit
               sempiterna gloria, Qui vitam sine termino Nobis donet in patria.
               Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Hóstia salutar, porta do céu, divino Sacramento, o inimigo
               ameaça os nossos dias! Concedei-nos, Senhor, fortaleza e socorro.
               A Vós, Senhor, glória imortal! E que por Vós a alma fiel goze a

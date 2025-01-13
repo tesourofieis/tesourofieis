@@ -25,13 +25,13 @@ export default function Page1124() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui sanctum Joánnem Confessórem tuum atque Doctorem perféctæ
               sui abnegatiónis et Crucis amatórem exímium effecísti: concéde;
               ut, ejus imitatióni júgiter inhæréntes, glóriam assequámur
               ætérnam. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que tornastes notável o vosso Santo Confessor e Doutor
               João pela abnegação perfeita de si próprio e pelo amor à Cruz,
               fazei que, diligenciando imitá-lo, alcancemos a glória eterna. Por
@@ -44,12 +44,12 @@ export default function Page1124() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte
               nostra reos nos esse cognóscimus, beáti Chrysógoni Mártyris tui
               intercessióne liberémur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi as nossas súplicas, Senhor, a fim de que, reconhecendo-nos
               réus pelas nossas iniquidades, sejamos absolvidos pela intercessão
               do vosso B. Mártir Crisógono. Por nosso Senhor...
@@ -59,12 +59,12 @@ export default function Page1124() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oblatis, quǽsumus, Dómine, placáre munéribus: et, intercedénte
               beáto Chrysógono Mártyre tuo, a cunctis nos defénde perículis. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deixai-Vos aplacar, Senhor, com a oferta destes dons, Vos
               suplicamos; e, pela intercessão do B. Crisógono, vosso Mártir,
               preservai-nos de todos os perigos. Por nosso Senhor...
@@ -74,11 +74,11 @@ export default function Page1124() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tui, Dómine, perceptióne sacraménti, et a nostris mundémur
               occúltis, et ab hóstium liberémur insídiis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a recepção do vosso sacramento, Senhor, nos purifique das
               nossas faltas ocultas e nos livre das insídias dos nossos
               inimigos. Por nosso Senhor...

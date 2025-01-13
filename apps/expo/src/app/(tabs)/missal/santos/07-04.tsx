@@ -30,33 +30,33 @@ export default function Page0704() {
           <Text className="h3">Intróito</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Elisabeth reginæ: de cujus solemnitáte gaudent Angeli, et
-              colláudant Fílium Dei. <Text className="em">Ps. 118, 1</Text>{" "}
-              Beáti immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria
-              Patri...
+              colláudant Fílium Dei.{" "}
+              <Text className="text-base latin">Ps. 118, 1</Text> Beáti
+              immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegremo-nos todos no Senhor, no dia em que celebramos a festa em
               honra da B. Rainha Isabel: os Anjos regozijam-se com esta festa e
               louvam em harmonias o Filho de Deus.{" "}
-              <Text className="em">Sl. 118, 1</Text> Bem-aventurados aqueles que
-              procedem sem mácula: e que andam na lei do Senhor. ℣. Glória ao
-              Pai...
+              <Text className="text-base vernacular">Sl. 118, 1</Text>{" "}
+              Bem-aventurados aqueles que procedem sem mácula: e que andam na
+              lei do Senhor. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Clementíssime Deus, qui beátam Elísabeth regínam, inter céteras
               egrégias dotes, béllíci furóris sedándi prærogatíva decorásti: da
               nobis, ejus intercessíóne; post mortális vitæ, quam supplícíter
               pétimus, pacem, ad ætérna gáudia perveníre. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó clementíssimo Deus, que entre outros eminentes dotes ornastes a
               B. Isabel com a prerrogativa de aplacar os furores da guerra,
               Concedei-nos por sua intercessão que, depois de havermos durante
@@ -70,9 +70,11 @@ export default function Page0704() {
           <Text className="em">Ecl. 26, 19-24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Grátia super grátiam, múlier sancta et pudoráta. Omnis autem
               ponderátio non est digna continéntis ánimæ. Sicut sol óriens mundo
               in altíssimis Dei, sic mulíeris bonæ spécies in ornaméntum domus
@@ -82,7 +84,7 @@ export default function Page0704() {
               Fundaménta ætérna super petram sólidam, et mandáta Dei in corde
               mulíeris sanctæ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A mulher santa e casta é uma graça sobre graça: pois nem toda a
               riqueza é digna da alma casta. Assim como o sol, ao despontar nas
               alturas de Deus, ilumina o mundo, assim também a beleza da mulher
@@ -98,23 +100,23 @@ export default function Page0704() {
           <Text className="h3">Gradual</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Verbo Dómini contínuit cælum: lenívit iracúndiam Dómini, et
               conciliávit cor Patris ad fílium. ℣.{" "}
-              <Text className="em">ibid., 15</Text> In vita sua fecit magnália,
-              et in morte mirabília operáta est.
+              <Text className="text-base latin">ibid., 15</Text> In vita sua
+              fecit magnália, et in morte mirabília operáta est.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Com a palavra do Senhor conteve o céu, afastou a ira do Senhor e
               conciliou o coração do pai com o do filho. ℣.{" "}
-              <Text className="em">ibid., 15</Text> Durante a sua vida praticou
-              maravilhas e na morte operou milagres.
+              <Text className="text-base vernacular">ibid., 15</Text> Durante a
+              sua vida praticou maravilhas e na morte operou milagres.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Áspice, quæ sólio résides, regína, supérno,
               nos quondam hic pópulos, Elisabétha, tuos. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Ó Rainha Isabel, que residis em excelso
               trono, olhai benignamente para nós, que outrora fomos na terra
               vossos súbditos. Aleluia.
@@ -133,11 +135,11 @@ export default function Page0704() {
           <Text className="em">Sl. 44, 13 & 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vultum tuum deprecabúntur omnes divítes plebis: fíliæ regum in
               honóre tuo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Todos os poderosos da terra implorarão o vosso olhar: as filhas
               dos reis honrar-vos-ão.
             </Text>
@@ -146,14 +148,14 @@ export default function Page0704() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui in honórem beátæ Elísabeth, regínæ has tibi solémnes
               hóstias offérri voluísti: da nobis; ut ejus vestígia secúti, et
               oratióne adjúti, tibi, cui servíre regnáre est, toto corde
               serviámus in terra, ac tecum regnémus in cælo. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que quisestes que este solene sacrifício Vos fosse
               oferecido em honra da B. Rainha Isabel, fazei que, seguindo nós
               seus passos e auxiliados pelas suas preces, Vos sirvamos na terra,
@@ -167,11 +169,11 @@ export default function Page0704() {
           <Text className="em">Sl. 44, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ástitit regína a déxteris tuis in vestítu deauráto, circúmdata
               varietáte.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               À vossa dextra está a Rainha, vestida com seu manto de ouro e
               cercada de variedade.
             </Text>
@@ -180,13 +182,13 @@ export default function Page0704() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Regáli ac sacro convívio, Dómine Jesu Christe, in quo tu es ipse
               verus cibus et potus, nos, quæsumus, dignos effíciat: et cáritas
               tua imménsa, et beátæ Elisabeth regínæ intercéssio gloriósa: Qui
               vivis et regnas...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, ó Senhor Jesus Cristo, Vos suplicamos, que a imensa
               caridade e a gloriosa protecção da B. Rainha Isabel nos façam
               dignos do real e sagrado banquete em que Vós próprio sois a

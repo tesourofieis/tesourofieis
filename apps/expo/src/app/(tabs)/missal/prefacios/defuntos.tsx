@@ -13,7 +13,7 @@ export default function PageDefuntos() {
           <View className="aside">Diz-se em todas as Missas de Réquiem.</View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: per Christum, Dóminum nostrum. In quo nobis spes beátæ
@@ -25,7 +25,7 @@ export default function PageDefuntos() {
               Dominatiónibus cumque omni milítia cœléstis exércitus hymnum
               glóriæ tuæ cánimus, sine fine dicéntes:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               É verdadeiramente digno e justo, racional e salutar que sempre e
               em todos os lugares Vos dêmos graças, Senhor santo, Pai
               omnipotente, eterno Deus, por meio de nosso Senhor Jesus Cristo,

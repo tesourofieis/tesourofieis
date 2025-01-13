@@ -27,13 +27,13 @@ export default function PagePasc53() {
           <Text className="em">Ef. 4, 7-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Unicuíque nostrum data est grátia secúndum mensúram
               donatiónis Christi. Propter quod dicit: Ascéndens in altum,
               captívam duxit captivitátem: dedit dona homínibus. Quod autem
@@ -46,7 +46,7 @@ export default function PagePasc53() {
               omnes in unitátem fídei, et agnitiónis Fílii Dei, in virum
               perféctum, in mensúram ætátis plenitúdinis Christi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: A graça é dada a cada um de nós, segundo a medida do
               dom de Cristo. Por isso se diz na Escritura: «Subindo ao alto,
               levou consigo os cativos e repartiu os seus dons pelos homens».
@@ -64,17 +64,19 @@ export default function PagePasc53() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Surréxit Christus, et illúxit nobis, quos
               rédemit sánguine suo. Allelúja. ℣.{" "}
-              <Text className="em">Joann. 16, 28</Text> Exívi a Patre, et veni
-              in mundum: íterum relínquo mundum, et vado ad Patrem. Allelúja.
+              <Text className="text-base latin">Joann. 16, 28</Text> Exívi a
+              Patre, et veni in mundum: íterum relínquo mundum, et vado ad
+              Patrem. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Ressuscitou Cristo: e fez brilhar a sua luz
               sobre nós, a quem remiu com o sen sangue. Aleluia. ℣.{" "}
-              <Text className="em">Jo. 16, 28</Text> Saí do Pai e vim ao mundo;
-              agora, outra vez, deixo o mundo e vou ao Pai. Aleluia.
+              <Text className="text-base vernacular">Jo. 16, 28</Text> Saí do
+              Pai e vim ao mundo; agora, outra vez, deixo o mundo e vou ao Pai.
+              Aleluia.
             </Text>
           </View>
 
@@ -83,15 +85,15 @@ export default function PagePasc53() {
           <Text className="em">Jo. 17, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Sublevátis Jesus oculis in cœlum, dixit: Pater,
               venit hora, clarífica Fílium tuum, ut Fílius tuus claríficet te:
               sicut dedísti ei potestátem omnis carnis, ut omne, quod dedísti
@@ -110,7 +112,7 @@ export default function PagePasc53() {
               sunt: et clarificátus sum in eis. Et jam non sum in mundo, et hi
               in mundo sunt, et ego ad te vénio.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, levantou Jesus os olhos ao céu e disse: «Pai, veio
               a hora: glorificai o vosso Filho, para que o vosso Filho Vos
               glorifique, pois que Lhe concedestes poder sobre toda a carne

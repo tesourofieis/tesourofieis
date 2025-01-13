@@ -15,39 +15,39 @@ export default function Page17Virgensmartires1() {
           <Text className="em">Sl. 118, 46-47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Loquébar de testimóniis tuis in conspéctu regum, et non
               confundébar: et meditábar in mandátis tuis, quæ diléxi nimis. (T.
-              P. Allelúja, allelúja.) <Text className="em">Ps. ibid., 1</Text>{" "}
-              Beáti immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria
-              Patri...
+              P. Allelúja, allelúja.){" "}
+              <Text className="text-base latin">Ps. ibid., 1</Text> Beáti
+              immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Falava dos vossos testemunhos na presença dos reis, sem qualquer
               vergonha, e meditava nos vossos mandamentos, que amava
               profundamente. (T. P. Aleluia, aleluia.){" "}
-              <Text className="em">Sl. ibid., 1</Text> Bem-aventurados aqueles
-              que são imaculados nos seus caminhos e cumprem a Lei do Senhor. ℣.
-              Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
+              Bem-aventurados aqueles que são imaculados nos seus caminhos e
+              cumprem a Lei do Senhor. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili
               victóriam martýrii contulísti: concéde propítius; ut, qui beátæ{" "}
-              <Text className="text-red-500">N.</Text> Vírginis et Mártyris tuæ
-              natalítia cólimus, per ejus ad te exémpla gradiámur. Per
+              <Text className="text-base latin">N.</Text> Vírginis et Mártyris
+              tuæ natalítia cólimus, per ejus ad te exémpla gradiámur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que entre outros milagres do vosso poder permitistes que o
               sexo frágil alcançasse a vitória do martírio, concedei-nos
               propício que, venerando o nascimento da vossa B. Virgem e Mártir{" "}
-              <Text className="text-red-500">N.</Text>, caminhemos para Vós,
-              imitando os seus exemplos. Por nosso Senhor...
+              <Text className="text-base vernacular">N.</Text>, caminhemos para
+              Vós, imitando os seus exemplos. Por nosso Senhor...
             </Text>
           </View>
 
@@ -56,9 +56,11 @@ export default function Page17Virgensmartires1() {
           <Text className="em">Ecl. 51, 1-8 et 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Confitébor tibi, Dómine, Rex, et collaudábo te Deum, Salvatórem
               meum. Confitébor nómini tuo: quóniam adjútor et protéctor factus
               es mihi, et liberásti corpus meum a perditióne, a láqueo línguæ
@@ -73,7 +75,7 @@ export default function Page17Virgensmartires1() {
               quóniam éruis sustinéntes te, et líberas eos de mánibus géntium,
               Dómine, Deus noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Quero glorificar-Vos, Senhor e Rei; quero louvar-Vos, ó Deus, meu
               salvador. Quero glorificar o vosso nome, porque fostes o meu
               sustentáculo e protector e livrastes o meu corpo da perdição, do
@@ -97,69 +99,73 @@ export default function Page17Virgensmartires1() {
           <Text className="em">Sl. 44, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dilexísti justítiam, et odísti iniquitátem. ℣. Proptérea unxit te
               Deus, Deus tuus, óleo lætítiæ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Amastes a justiça e odiastes a iniquidade. ℣. Por isso ungiu-vos o
               Senhor, vosso Deus, com o óleo da alegria.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">ibid., 15 & 16</Text>{" "}
-              Adducántur Regi Vírgines post eam: próximæ ejus afferéntur tibi in
-              lætítia. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">ibid., 15 & 16</Text> Adducántur
+              Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">ibid., 15 & 16</Text>{" "}
-              Serão apresentadas virgens ao Rei após ela: as suas companheiras
-              serão introduzidas no meio da alegria. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">ibid., 15 & 16</Text> Serão
+              apresentadas virgens ao Rei após ela: as suas companheiras serão
+              introduzidas no meio da alegria. Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Veni, Sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit
               in ætérnum: pro cujus amóre sánguinem tuum fudísti. ℣.{" "}
-              <Text className="em">Ps. 44, 8 & 5</Text> Dilexísti justítiam, et
-              odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo
-              lætítiæ præ consórtibus tuis. ℣. Spécie tua et pulchritúdine tua
-              inténde, próspere procéde et regna.
+              <Text className="text-base latin">Ps. 44, 8 & 5</Text> Dilexísti
+              justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus
+              tuus, óleo lætítiæ præ consórtibus tuis. ℣. Spécie tua et
+              pulchritúdine tua inténde, próspere procéde et regna.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, ó esposa de Cristo; vinde e recebei a coroa que o Senhor
               preparou para vós, para a eternidade. Foi por amor para com Ele
               que derramastes o vosso sangue. ℣.{" "}
-              <Text className="em">Sl. 44, 8 & 5</Text> Amastes a justiça e
-              odiastes a iniquidade: eis porque o Senhor, vosso Deus, vos ungiu
-              com o óleo da alegria, de preferência às vossas companheiras. ℣.
-              Caminhai, pois, com beleza e com majestade; ide gozar a vitória e
-              reinai.
+              <Text className="text-base vernacular">Sl. 44, 8 & 5</Text>{" "}
+              Amastes a justiça e odiastes a iniquidade: eis porque o Senhor,
+              vosso Deus, vos ungiu com o óleo da alegria, de preferência às
+              vossas companheiras. ℣. Caminhai, pois, com beleza e com
+              majestade; ide gozar a vitória e reinai.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 44, 15 & 16</Text>{" "}
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 44, 15 & 16</Text>{" "}
               Adducántur Regi Vírgines post eam: próximæ ejus afferéntur tibi in
               lætítia. Allelúja. ℣. <Text className="em">ibid., 5</Text> Spécie
               tua et pulchritúdine tua inténde, próspere procéde et regna.
               Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 44, 15 & 16</Text>{" "}
-              Após ela, serão apresentadas virgens ao Rei: as suas companheiras
-              serão introduzidas no meio da alegria. Aleluia. ℣.{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 44, 15 & 16</Text> Após
+              ela, serão apresentadas virgens ao Rei: as suas companheiras serão
+              introduzidas no meio da alegria. Aleluia. ℣.{" "}
               <Text className="em">ibid., 5</Text> Caminhai, pois, com beleza e
               com majestade; ide gozar a vitória e reinai. Aleluia.
             </Text>
@@ -170,15 +176,15 @@ export default function Page17Virgensmartires1() {
           <Text className="em">Mt. 25, 1-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis parábolam hanc:
               Simile erit regnum cœlórum decem virgínibus: quæ, accipiéntes
               lámpades suas, exiérunt óbviam sponso et sponsæ. Quinque autem ex
@@ -197,7 +203,7 @@ export default function Page17Virgensmartires1() {
               nobis. At ille respóndens, ait: Amen, dico vobis, néscio vos.
               Vigiláte ítaque, quia nescítis diem neque horam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos esta parábola: «O
               reino dos céus é semelhante a dez virgens que, empunhando suas
               lâmpadas, saíram ao encontro do esposo e da esposa. Porém, cinco
@@ -225,12 +231,12 @@ export default function Page17Virgensmartires1() {
           <Text className="em">Sl. 44, 15 & 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Afferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in
               lætítia et exsultatióne: adducántur in templum Regi Dómino. (T. P.
               Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Após ela, serão apresentadas virgens ao Rei: as suas companheiras
               serão introduzidas no meio da alegria e do júbilo; elas serão
               conduzidas ao templo do Rei, seu Senhor. (T. P. Aleluia.)
@@ -240,17 +246,17 @@ export default function Page17Virgensmartires1() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súscipe, Dómine, múnera, quæ in beátæ{" "}
-              <Text className="text-red-500">N.</Text> Vírginis et Mártyris tuæ
-              sollemnitáte deférimus: cujus nos confídimus patrocínio liberári.
-              Per Dóminum...
+              <Text className="text-base latin">N.</Text> Vírginis et Mártyris
+              tuæ sollemnitáte deférimus: cujus nos confídimus patrocínio
+              liberári. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebei benigno, Senhor, as ofertas que Vos apresentamos nesta
-              solenidade da B. Virgem <Text className="text-red-500">N.</Text>,
-              vossa Mártir, com o patrocínio da qual esperamos ser livres. Por
-              nosso Senhor...
+              solenidade da B. Virgem{" "}
+              <Text className="text-base vernacular">N.</Text>, vossa Mártir,
+              com o patrocínio da qual esperamos ser livres. Por nosso Senhor...
             </Text>
           </View>
 
@@ -259,12 +265,12 @@ export default function Page17Virgensmartires1() {
           <Text className="em">Sl. 118, 78 & 80</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Confundántur supérbi, quia injúste iniquitátem fecérunt in me: ego
               autem in mandátis tuis exercébor, in tuis justificatiónibus, ut
               non confúndar. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sejam confundidos os soberbos, porque praticaram iniquidades
               contra mim. Para não ser confundido no último dia, cumprirei os
               vossos mandamentos e preceitos. (T. P. Aleluia.)
@@ -274,16 +280,16 @@ export default function Page17Virgensmartires1() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta{" "}
-              <Text className="text-red-500">N.</Text> Vírgine et Mártyre tua,
-              sempitérna fáciant protectióne gaudére. Per Dóminum...
+              <Text className="text-base latin">N.</Text> Vírgine et Mártyre
+              tua, sempitérna fáciant protectióne gaudére. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que nos auxiliem os sagrados mystérios, que acabámos de receber,
               Senhor, e que, por intercessão da B. Virgem{" "}
-              <Text className="text-red-500">N.</Text>, vossa Mártir, nos façam
-              gozar continuamente a sua protecção. Por nosso Senhor...
+              <Text className="text-base vernacular">N.</Text>, vossa Mártir,
+              nos façam gozar continuamente a sua protecção. Por nosso Senhor...
             </Text>
           </View>
         </View>

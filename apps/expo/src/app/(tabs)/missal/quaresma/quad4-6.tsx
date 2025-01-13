@@ -15,31 +15,32 @@ export default function PageQuad46() {
           <Text className="em">Is. 55, 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sitiéntes, venite ad aquas, dicit Dóminus: et qui non habétis
               prétium, veníte et bíbite cum lætítia.{" "}
-              <Text className="em">Ps. 77, 1</Text> Atténdite, pópule meus,
-              legem meam: inclináte aurem vestram in verba oris mei. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. 77, 1</Text> Atténdite,
+              pópule meus, legem meam: inclináte aurem vestram in verba oris
+              mei. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó vós, que estais sedentos, diz o Senhor, vinde às águas: e, ainda
               que não tenhais dinheiro, vinde e bebei com alegria. Escutai a
-              minha lei, ó meu povo! <Text className="em">Sl. 77, 1</Text>{" "}
-              Inclinai os vossos ouvidos às palavras que saem da minha boca. ℣.
-              Glória ao Pai...
+              minha lei, ó meu povo!{" "}
+              <Text className="text-base vernacular">Sl. 77, 1</Text> Inclinai
+              os vossos ouvidos às palavras que saem da minha boca. ℣. Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fiat, Dómine, quǽsumus, per grátiam tuam fructuósus nostræ
               devotiónis afféctus: quia tunc nobis próderunt suscépta jejúnia,
               si tuæ sint plácita pietáti. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, permiti pela vossa graça que o afecto da nossa devoção se
               torne frutuoso, porquanto só nos serão proveitosos os nossos
               jejuns se forem agradáveis à vossa bondade. Por nosso Senhor...
@@ -51,9 +52,11 @@ export default function PageQuad46() {
           <Text className="em">Is. 49, 8-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus: In témpore plácito exaudívi te, et in die
               salútis auxiliátus sum tui: et servávi te, et dedi te in fœdus
               pópuli, ut suscitáres terram, et possidéres hereditátes
@@ -71,7 +74,7 @@ export default function PageQuad46() {
               uteri sui? et si illa oblíta fúerit, ego tamen non oblivíscar tui,
               dicit Dóminus omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Assim fala o Senhor: «No tempo favorável eu te ouvi; e no dia da
               salvação eu te assisti. Guardei-te e destinei-te para seres a
               aliança do meu povo, restaurares a terra, possuíres as heranças
@@ -98,12 +101,12 @@ export default function PageQuad46() {
           <Text className="em">Sl. 9, 14 & 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tibi, Dómine, derelíctus est pauper: pupíllo tu eris adjútor. ℣.
               Ut quid, Dómine, recessísti longe, déspicis in opportunitátibus,
               in tribulatióne? dum supérbit ímpius, incénditur pauper.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A Vós, Senhor, se abandona o pobre. Sois o protector do órfão. ℣.
               Porque, Senhor, Vos afastais para longe e Vos escondeis no tempo
               da tribulação, quando o ímpio se orgulha e persegue o pobre com
@@ -116,15 +119,15 @@ export default function PageQuad46() {
           <Text className="em">Jo. 8, 12-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Locútus est Jesus turbis Judæórum, dicens: Ego
               sum lux mundi: qui séquitur me, non ámbulat in ténebris, sed
               habébit lumen vitæ. Dixérunt ergo ei pharisǽi: Tu de te ipso
@@ -142,7 +145,7 @@ export default function PageQuad46() {
               scirétis. Hæc verba locútus est Jesus in gazophylácio, docens in
               templo: et nemo apprehéndit eum, quia necdum vénerat hora ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, Jesus falou à turba dos judeus, dizendo: «Eu sou a
               luz do mundo. Aquele que me seguir não andará nas trevas, mas terá
               a luz da vida». Disseram-Lhe então os fariseus: «Tu dás testemunho
@@ -167,11 +170,11 @@ export default function PageQuad46() {
           <Text className="em">Sl. 17, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Factus est Dóminus firmaméntum meum, et refúgium meum, et
               liberátor meus: et sperábo in eum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor constituiu-se o meu sustentáculo, o meu refúgio e o meu
               salvador. Eu tenho esperança n’Ele!
             </Text>
@@ -180,12 +183,12 @@ export default function PageQuad46() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oblatiónibus nostris, quǽsumus, Dómine, placáre suscéptis: et ad
               te nostras etiam rebélles compélle propítius voluntátes. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deixai-Vos aplacar, Senhor, Vos suplicamos, aceitando as nossas
               oblações; e pela vossa misericórdia obrigai as nossas vontades
               rebeldes a procurarem-Vos. Por nosso Senhor...
@@ -197,11 +200,11 @@ export default function PageQuad46() {
           <Text className="em">Sl. 22, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dóminus regit me, et nihil mihi déerit: in loco páscuæ ibi me
               collocávit: super aquam refectiónis educávit me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor é quem me governa; nada me faltará. Ele conduziu-me aos
               lugares de bom pasto; sentou-me ao pé da água, que me refrigera.
             </Text>
@@ -210,11 +213,11 @@ export default function PageQuad46() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tua nos, quǽsumus, Dómine, sancta puríficent: et operatióne sua
               tibi plácitos esse perfíciant. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que os vossos sagrados mystérios, Senhor, Vos suplicamos, nos
               purifiquem; e que pela sua virtude nos tornemos sempre agradáveis
               a vossos olhos. Por nosso Senhor...
@@ -224,22 +227,24 @@ export default function PageQuad46() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui sperántibus in te miseréri pótius éligis quam irasci: da
               nobis digne flere mala, quæ fécimus; ut tuæ consolatiónis grátiam
               inveníre mereámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que àqueles que em Vós esperam antes desejais mostrar o
               esplendor da vossa glória do que o peso da vossa ira, concedei-nos
               que saibamos devidamente chorar os males que temos praticado, a

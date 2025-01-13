@@ -57,28 +57,30 @@ export default function PageQuadp33() {
           <Text className="em">Sl. 68, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exáudi nos, Dómine, quóniam benígna est misericórdia tua: secúndum
               multitúdinem miseratiónum tuárum réspice nos, Dómine.{" "}
-              <Text className="em">Ps. ibid., 2</Text> Salvum me fac, Deus:
-              quóniam intravérunt aquæ usque ad ánimam meam. ℣. Glória Patri...
+              <Text className="text-base latin">Ps. ibid., 2</Text> Salvum me
+              fac, Deus: quóniam intravérunt aquæ usque ad ánimam meam. ℣.
+              Glória Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi-nos, Senhor, pois a vossa misericórdia é compassiva. Lançai
               para nós os vossos olhares, Senhor, segundo a grandeza da vossa
-              misericórdia. <Text className="em">Sl. ibid., 2</Text> Salvai-me,
-              ó Deus, porque as águas penetraram até ao íntimo da minha alma. ℣.
-              Glória ao Pai...
+              misericórdia.{" "}
+              <Text className="text-base vernacular">Sl. ibid., 2</Text>{" "}
+              Salvai-me, ó Deus, porque as águas penetraram até ao íntimo da
+              minha alma. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, parce pæniténtibus, propitiáre
               supplicántibus: et míttere dignéris sanctum Angelum tuum de cœlis,
-              qui bene <Text className="cross text-red-500">✠</Text> dícat et
+              qui bene <Text className="text-base latin">✠</Text> dícat et
               sanctí <Text className="cross text-red-500">✠</Text> ficet hos
               cíneres, ut sint remédium salúbre ómnibus nomen sanctum tuum
               humilíter implorántibus, ac semetípsos pro consciéntia delictórum
@@ -90,10 +92,10 @@ export default function PageQuadp33() {
               percípiant. Per Christum, Dóminum nostrum.{" "}
               <Text className="text-red-500">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus, omnipotente e eterno, perdoai aos penitentes, sede propício
               para com os suplicantes e dignai-Vos enviar do céu o vosso Anjo
-              para abençoar <Text className="cross text-red-500">✠</Text> e
+              para abençoar <Text className="text-base vernacular">✠</Text> e
               santificar <Text className="cross text-red-500">✠</Text> estas
               Cinzas, a fim de que sejam remédio salutar para todos os que
               imploram humildemente o vosso santo nome, e, reconhecendo os seus
@@ -110,23 +112,23 @@ export default function PageQuadp33() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui non mortem, sed pæniténtiam desíderas peccatórum:
               fragilitátem condiciónis humánæ benigníssime réspice; et hos
               cíneres, quos, causa proferéndæ humilitátis atque promeréndæ
               véniæ, capítibus nostris impóni decérnimus, bene{" "}
-              <Text className="cross text-red-500">✠</Text> dícere pro tua
-              pietáte dignáre: ut, qui nos cínerem esse, et ob pravitátis nostræ
+              <Text className="text-base latin">✠</Text> dícere pro tua pietáte
+              dignáre: ut, qui nos cínerem esse, et ob pravitátis nostræ
               deméritum in púlverem reversúros cognóscimus; peccatórum ómnium
               véniam, et prǽmia pæniténtibus repromíssa, misericórditer cónsequi
               mereámur. Per Christum, Dóminum nostrum.{" "}
               <Text className="text-red-500">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que não quereis a morte dos pecadores, mas que façam
               penitência, olhai benigníssimo para a fragilidade da natureza
               humana, e dignai-Vos misericordiosamente abençoar{" "}
-              <Text className="cross text-red-500">✠</Text> estas Cinzas, que
+              <Text className="text-base vernacular">✠</Text> estas Cinzas, que
               desejamos sejam impostas nas nossas cabeças em sinal de humildade
               e para merecermos o perdão, a fim de que, reconhecendo que não
               somos senão cinza e que nos tornaremos em pó em punição da nossa
@@ -140,16 +142,16 @@ export default function PageQuadp33() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui humiliatióne flécteris, et satisfactióne placáris: aurem
               tuæ pietátis inclína précibus nostris; et capítibus servórum
               tuórum, horum cínerum aspersióne contáctis, effúnde propítius
               grátiam tuæ benedictiónis: ut eos et spíritu compunctiónis répleas
               et, quæ juste postuláverint, efficáciter tríbuas; et concéssa
               perpétuo stabilíta et intácta manére decérnas. Per Christum,
-              Dóminum nostrum. <Text className="text-red-500">℟.</Text> Amen.
+              Dóminum nostrum. <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que pela humilhação Vos inclinais a perdoar e pela
               satisfação Vos aplacais, dignai-Vos benignamente escutar as nossas
               preces, infundindo nos vossos servos, cujas cabeças recebem estas
@@ -157,20 +159,20 @@ export default function PageQuadp33() {
               compunção, concedei-lhes o que com justiça Vos suplicarem, a fim
               de que perpetuamente conservem, firme e intacto, o que de Vós
               houverem alcançado. Por Cristo, nosso Senhor.{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui Ninivítis, in cínere et cilício
               pæniténtibus, indulgéntiæ tuæ remédia præstitísti: concéde
               propítius; ut sic eos imitémur hábitu, quaténus véniæ prosequámur
               obténtu. Per Dóminum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus omnipotente e eterno, que propiciastes o remédio e o perdão
               aos Ninivitas, que fizeram penitência por meio das cinzas e do
               cilício, concedei-nos indulgentemente que de tal sorte os imitemos
@@ -183,24 +185,24 @@ export default function PageQuadp33() {
           <Text className="em">Jl. 2, 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Immutémur hábitu, in cínere et cilício: jejunémus, et plorémus
               ante Dóminum: quia multum miséricors est dimíttere peccáta nostra
               Deus noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Mudemos os vestidos e cubramo-nos com a cinza e com o cilício;
               jejuemos e choremos diante do Senhor, pois Ele é misericordioso e
               está pronto a perdoar os nossos pecados.
             </Text>
-            <Text className="text-base">
-              <Text className="em">Alia Antiph.</Text>{" "}
+            <Text className="text-base latin">
+              <Text className="text-base latin">Alia Antiph.</Text>{" "}
               <Text className="em">ibid., 17</Text> Inter vestíbulum et altáre
               plorábunt sacerdótes minístri Dómini, et dicent: Parce, Dómine,
               parce pópulo tuo: et ne claudas ora canéntium te, Dómine.
             </Text>
-            <Text className="text-base">
-              <Text className="em">Outra Antífona</Text>{" "}
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Outra Antífona</Text>{" "}
               <Text className="em">ibid., 17</Text> Entre o vestíbulo e o altar
               chorarão os sacerdotes e os Ministros do Senhor, que dirão:
               «Perdoai, Senhor, perdoai ao vosso povo; e não fecheis a boca
@@ -213,23 +215,23 @@ export default function PageQuadp33() {
           <Text className="em">Est 13; Jl. 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Emendémus in mélius, quæ ignoránter peccávimus: ne, subito
               præoccupáti die mortis, quærámus spátium pæniténtiæ, et inveníre
               non póssimus. Atténde, Dómine, et miserére: quia peccávimus tibi,{" "}
-              <Text className="em">℣. Ps. 78,9</Text> Adjuva nos, Deus,
-              salutáris noster: et propter honórem nóminis tui, Dómine, líbera
-              nos. Atténde, Dómine. ℣. Glória Patri...
+              <Text className="text-base latin">℣. Ps. 78,9</Text> Adjuva nos,
+              Deus, salutáris noster: et propter honórem nóminis tui, Dómine,
+              líbera nos. Atténde, Dómine. ℣. Glória Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Reparemos o mal que praticámos por ignorância, para que não
               aconteça que, surpreendidos pelo dia da morte, queiramos fazer
               penitência, mas já não tenhamos tempo! Ouvi-nos, Senhor, e tende
               misericórdia de nós, pois pecámos contra Vós.{" "}
-              <Text className="em">℣. Sl. 78,9</Text> Auxiliai-nos, ó Deus,
-              nosso Salvador, e, pela honra do vosso nomes, salvai-nos, Senhor.
-              Ouvi-nos, Senhor, e tende misericórdia de nós, pois pecámos contra
-              Vós. Glória ao Pai...
+              <Text className="text-base vernacular">℣. Sl. 78,9</Text>{" "}
+              Auxiliai-nos, ó Deus, nosso Salvador, e, pela honra do vosso
+              nomes, salvai-nos, Senhor. Ouvi-nos, Senhor, e tende misericórdia
+              de nós, pois pecámos contra Vós. Glória ao Pai...
             </Text>
           </View>
 
@@ -238,10 +240,10 @@ export default function PageQuadp33() {
           <Text className="em">Gn 3, 19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Memento, homo, quia pulvis es, et in púlverem revertéris.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lembra-te, homem, que és pó e que em pó te hás-de tornar.
             </Text>
           </View>
@@ -249,18 +251,18 @@ export default function PageQuadp33() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde nobis, Dómine, præsídia milítiæ christiánæ sanctis
               inchoáre jejúniis: ut, contra spiritáles nequítias pugnatúri,
               continéntiæ muniámur auxíliis. Per Christum, Dóminum nostrum.{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, que iniciemos com estes salutares jejuns esta
               estação da milícia cristã, a fim de que, havendo nós de combater
               contra os espíritos do mal, estejamos munidos contra os seus
               esforços com os auxílios da abstinência. Por Cristo, nosso Senhor.{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -269,31 +271,33 @@ export default function PageQuadp33() {
           <Text className="em">Sb, 11, 24, 25 & 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Miseréris ómnium, Dómine, et nihil odísti eórum quæ fecísti,
               dissímulans peccáta hóminum propter pæniténtiam et parcens illis:
               quia tu es Dóminus, Deus noster.{" "}
-              <Text className="em">Ps. 56, 2</Text> Miserére mei, Deus, miserére
-              mei: quóniam in te confídit ánima mea. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 56, 2</Text> Miserére mei,
+              Deus, miserére mei: quóniam in te confídit ánima mea. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, tendes piedade de todos e não odiais aqueles que criastes;
               atenuais e perdoais os pecados dos homens, para que façam
               penitência, porquanto sois o Senhor, nosso Deus.{" "}
-              <Text className="em">Sl. 56, 2</Text> Tende piedade de mim, pois
-              em Vós procura refúgio a minha alma. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 56, 2</Text> Tende
+              piedade de mim, pois em Vós procura refúgio a minha alma. ℣.
+              Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, Dómine, fidélibus tuis: ut jejuniórum veneránda sollémnia,
               et cóngrua pietáte suscípiant, et secúra devotióne percúrrant. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, aos vossos fiéis que iniciem com sincera piedade
               as veneráveis solenidades destes jejuns e que possam continuá-las
               até ao fim sempre devotamente. Por nosso Senhor...
@@ -305,9 +309,9 @@ export default function PageQuadp33() {
           <Text className="em">Jl. 2, 12-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Joélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Joel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Joélis Prophétæ.</Text>
+            <Text className="text-base vernacular">Lição do Profeta Joel.</Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus: Convertímini ad me in toto corde vestro, in
               jejúnio, et in fletu, et in planctu. Et scíndite corda vestra, et
               non vestiménta vestra, et convertímini ad Dóminum, Deum vestrum:
@@ -327,7 +331,7 @@ export default function PageQuadp33() {
               eis: et non dabo vos ultra oppróbrium in géntibus: dicit Dóminus
               omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis o que diz o Senhor: Convertei-vos a mim, de todo o coração,
               com jejuns, lágrimas e gemidos. Rasgai os vossos corações e não os
               vossos vestidos; e convertei-vos ao Senhor, vosso Deus, que é
@@ -356,12 +360,12 @@ export default function PageQuadp33() {
           <Text className="em">Sl. 56, 2 et 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Miserére mei, Deus, miserére mei: quóniam in te confídit ánima
               mea. ℣. Misit de cœlo, et liberávit me, dedit in oppróbrium
               conculcántes me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Tende misericórdia de mim, ó Deus; tende misericórdia de mim; pois
               a minha alma confia em Vós. ℣. Mandou auxílio do céu, livrando-me,
               e condenou ao opróbrio aqueles que me espezinhavam.
@@ -373,25 +377,26 @@ export default function PageQuadp33() {
           <Text className="em">Sl. 102, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis. ℣.{" "}
-              <Text className="em">Ps. 78, 8-9</Text> Dómine, ne memíneris
-              iniquitátum nostrarum antiquarum: cito antícipent nos misericórdiæ
-              tuæ, quia páuperes facti sumus nimis.{" "}
+              <Text className="text-base latin">Ps. 78, 8-9</Text> Dómine, ne
+              memíneris iniquitátum nostrarum antiquarum: cito antícipent nos
+              misericórdiæ tuæ, quia páuperes facti sumus nimis.{" "}
               <Text className="em">Hic genuflectitur</Text> ℣. Adjuva nos, Deus,
               salutáris noster: et propter glóriam nóminis tui, Dómine, libera
               nos: et propítius esto peccátis nostris, propter nomen tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, nos não castigueis, consoante merecemos, pelos pecados que
               praticámos: nem nos julgueis, segundo as nossas iniquidades. ℣.{" "}
-              <Text className="em">Sl. 78, 8-9</Text> Esquecei-Vos, Senhor, das
-              nossas iniquidades passa- das, apressai-Vos em revestir-nos com
-              vossas misericórdias, pois grande é a nossa miséria.{" "}
-              <Text className="em">Aqui genuflectir</Text> ℣. Auxiliai-nos, ó
-              Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos,
-              Senhor, e perdoai os nossos pecados por causa do vosso nome.
+              <Text className="text-base vernacular">Sl. 78, 8-9</Text>{" "}
+              Esquecei-Vos, Senhor, das nossas iniquidades passa- das,
+              apressai-Vos em revestir-nos com vossas misericórdias, pois grande
+              é a nossa miséria. <Text className="em">Aqui genuflectir</Text> ℣.
+              Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso
+              nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do
+              vosso nome.
             </Text>
           </View>
 
@@ -400,15 +405,15 @@ export default function PageQuadp33() {
           <Text className="em">Mt. 6, 16-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Cum jejunátis,
               nolíte fíeri, sicut hypócritæ, tristes. Extérminant enim fácies
               suas, ut appáreant homínibus jejunántes. Amen, dico vobis, quia
@@ -421,7 +426,7 @@ export default function PageQuadp33() {
               ærúgo neque tínea demólitur; et ubi fures non effódiunt nec
               furántur. Ubi enim est thesáurus tuus, ibi est et cor tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Quando jejuardes,
               não vos mostreis tristonhos, como os hipócritas; pois estes
               costumam desfigurar o rosto para mostrarem aos homens que jejuam.
@@ -442,11 +447,11 @@ export default function PageQuadp33() {
           <Text className="em">Sl. 29,2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti
               inimícos meos super me: Dómine, clamávi ad te, et sanásti me.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Exaltar-Vos-ei, Senhor, porque me escolhestes e não permitistes
               que meus inimigos abusassem de mim. Clamei por Vós, Senhor, e
               curastes-me.
@@ -456,12 +461,12 @@ export default function PageQuadp33() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fac nos, quǽsumus, Dómine, his munéribus offeréndis conveniénter
               aptári: quibus ipsíus venerábilis sacraménti celebrámus exórdium.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos suplicamos, Senhor, tornai-nos dignos de Vos oferecermos, como
               devemos, estes dons sacratíssimos com os quais iniciamos a
               celebração deste venerando tempo, cheio de mystério. Por nosso
@@ -474,11 +479,11 @@ export default function PageQuadp33() {
           <Text className="em">Sl. 1, 2 & 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui meditábitur in lege Dómini die ac nocte, dabit fructum suum in
               témpore suo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aquele que meditar durante o dia e a noite na Lei do Senhor dará
               fruto no tempo próprio.
             </Text>
@@ -487,12 +492,12 @@ export default function PageQuadp33() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Percépta nobis, Dómine, prǽbeant sacraménta subsídium: ut tibi
               grata sint nostra jejúnia, et nobis profíciant ad medélam. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, permiti que os sacramentos, que recebemos, nos propiciem o
               auxílio de que carecemos, a fim de que os nossos jejuns Vos sejam
               agradáveis e se tornem em remédio para os nossos males. Por nosso

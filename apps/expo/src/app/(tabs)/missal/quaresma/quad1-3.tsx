@@ -17,52 +17,48 @@ export default function PageQuad13() {
           <Text className="em">Sl. 24, 6, 3 & 22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Reminíscere miseratiónum tuárum, Dómine, et misericórdiæ tuæ, quæ
               a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera
               nos, Deus Israël, ex ómnibus angústiis nostris.{" "}
-              <Text className="em">Ps. ib., 1-2</Text> Ad te, Dómine, levávi
-              ánimam meam: Deus meus, in te confído, non erubéscam. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. ib., 1-2</Text> Ad te,
+              Dómine, levávi ánimam meam: Deus meus, in te confído, non
+              erubéscam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lembrai-Vos, Senhor, de que a vossa bondade e misericórdia são
               eternas! Não permitais nunca que os nossos inimigos triunfem de
               nós. Ó Deus de Israel, livrai-nos de todas nossas angústias.{" "}
-              <Text className="em">Sl. ib., 1-2</Text> A Vós, Senhor, elevei a
-              minha alma: confio em Vós, ó meu Deus, pois me não deixareis ficar
-              envergonhado. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ib., 1-2</Text> A Vós,
+              Senhor, elevei a minha alma: confio em Vós, ó meu Deus, pois me
+              não deixareis ficar envergonhado. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Orémus. Flectámus génua.
-              </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus. Flectámus génua.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">
-                Oremos. Ajoelhemos!
-              </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos. Ajoelhemos!</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Preces nostras, quǽsumus, Dómine, cleménter exáudi: et contra
               cuncta nobis adversántia, déxteram tuæ majestátis exténde. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos rogamos, ouvi clemente nossas preces e imponde o poder
               da dextra da vossa majestade contra os nossos inimigos. Por nosso
               Senhor...
@@ -74,9 +70,11 @@ export default function PageQuad13() {
           <Text className="em">Ex. 24, 12-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Exodi.</Text>
-            <Text className="text-base">Lição do Livro do Êxodo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Exodi.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro do Êxodo.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Dixit Dóminus ad Móysen: Ascénde ad me in montem,
               et esto ibi: dabóque tibi tábulas lapídeas, et legem ac mandáta
               quæ scripsi: ut dóceas fílios Israël. Surrexérunt Moyses et Josue
@@ -90,7 +88,7 @@ export default function PageQuad13() {
               filiórum Israël. Ingressúsque Móyses médium nébulæ, ascéndit in
               montem: et luit ibi quadragínta diébus et quadragínta nóctibus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, disse o Senhor a Moisés: «Sobe comigo ao monte e
               permanece lá: dar-te-ei as tábuas de pedra, a Lei e os
               Mandamentos, que escrevi para que os ensines aos filhos de
@@ -114,12 +112,12 @@ export default function PageQuad13() {
           <Text className="em">Sl. 24, 17-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis
               éripe me, Dómine. ℣. Vide humilitátem meam, et labórem meum: et
               dimítte ómnia peccáta mea.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Multiplicaram-se as angústias do meu coração. Senhor, livrai-me
               das minhas angústias. ℣. Vede a minha humilhação e as minhas
               fadigas: e perdoai-me todos os pecados.
@@ -129,12 +127,12 @@ export default function PageQuad13() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui
               per abstinéntiam macerántur in córpore, per fructum boni óperis
               reficiántur in mente. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Olhai benigno, Senhor, Vos pedimos, para a piedade do vosso povo,
               a fim de que aqueles que mortificam o corpo com a abstinência
               sejam enriquecidos na alma com o fruto das boas obras. Por nosso
@@ -147,9 +145,11 @@ export default function PageQuad13() {
           <Text className="em">3 Rs. 19, 3-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Regum.</Text>
-            <Text className="text-base">Lição do Livro dos Reis.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Regum.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro dos Reis.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Venit Elías in Bersabée Juda, et dimísit ibi
               púerum suum, et perréxit in desértum, viam uníus diéi. Cumque
               venísset, et sedéret subter unam juníperum, petívit ánimæ suæ, ut
@@ -164,7 +164,7 @@ export default function PageQuad13() {
               cibi illíus quadragínta diébus et quadragínta nóctibus, usque ad
               montem Det Horeb.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, havendo Elias chegado a Bersabeia, de Judá, deixou
               aí o seu servo e caminhou no deserto um dia. Então, sentou-se sob
               um junípero e pediu ao Senhor a morte, dizendo: «Já me basta,
@@ -185,14 +185,14 @@ export default function PageQuad13() {
           <Text className="em">Sl. 24, 17, 18 & 1-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
               labórem meum: et dimítte ómnia peccáta mea. ℣. Ad te, Dómine,
               levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque
               irrídeant me inimíci mei. ℣. Etenim univérsi, qui te exspéctant,
               non confundéntur: confundántur omnes faciéntes vana.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, livrai-me das minhas tribulações; vede a minha miséria e
               as minhas penas; e perdoai todos meus pecados. ℣. A Vós, Senhor,
               elevei a minha alma; meu Deus, em Vós confio: não ficarei
@@ -207,15 +207,15 @@ export default function PageQuad13() {
           <Text className="em">Mt. 12, 38-50</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Respondérunt Jesu quidam de scribis et pharisǽis,
               dicéntes: Magíster, vólumus a te signum vidére. Qui respóndens,
               ait illis: Generátio mala et adúltera signum quærit: et signum non
@@ -241,7 +241,7 @@ export default function PageQuad13() {
               mater mea et fratres mei. Quicúmque enim fécerit voluntátem Patris
               mei, qui in cœlis est: ipse meus frater et soror et mater est.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, alguns escribas e fariseus falaram a Jesus,
               dizendo: «Mestre, queremos ver um prodígio praticado por Vós». Ele
               respondeu: «Esta geração má e adúltera pede um sinal, mas lhe não
@@ -277,11 +277,11 @@ export default function PageQuad13() {
           <Text className="em">Sl. 118, 47 & 48</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas
               ad mandáta tua, quæ diléxi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meditarei nos vossos mandamentos, que muito amo: levantarei as
               minhas mãos, cumprindo os vossos mandamentos, que, repito, muito
               amo.
@@ -291,11 +291,11 @@ export default function PageQuad13() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra
               miserátus absólvas, et nutántia corda tu dírigas. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos oferecemos estas hóstias de propiciação, Senhor, a fim de que
               pela vossa infinita misericórdia perdoeis os nossos pecados e
               governeis os nossos inconstantes corações. Por nosso Senhor...
@@ -307,11 +307,11 @@ export default function PageQuad13() {
           <Text className="em">Sl. 5, 2-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Intéllege clamórem meum: inténde voci oratiónis meæ, Rex meus et
               Deus meus: quóniam ad te orábo, Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi a minha súplica: atendei ao clamor da minha prece, ó meu Rei
               e meu Deus; pois não cessarei de Vos invocar, Senhor.
             </Text>
@@ -320,11 +320,11 @@ export default function PageQuad13() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tui, Dómine, perceptióne sacraménti, et a nostris mundémur
               occúltis, et ab hóstium liberémur insídiis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, que pela recepção do vosso Sacramento sejamos
               lavados das nossas faltas ocultas e livres das ciladas dos nossos
               inimigos. Por nosso Senhor...
@@ -334,22 +334,24 @@ export default function PageQuad13() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mentes nostras, quǽsumus, Dómine, lúmine tuæ claritátis illústra:
               ut vidére póssimus, quæ agénda sunt; et, quæ recta sunt, agere
               valeámus. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos, Senhor, iluminar as nossas almas com o brilho do vosso
               divino esplendor, para que possamos ver o que devemos praticar e
               cumprir o que seja justo. Por nosso Senhor...

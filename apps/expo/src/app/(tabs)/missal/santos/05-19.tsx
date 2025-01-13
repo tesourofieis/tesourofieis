@@ -45,13 +45,13 @@ export default function Page0519() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátum Petrum Cœlestínum ad summi pontificátus ápicem
               sublimásti, quique illum humilitáti postpónere docuísti: concéde
               propítius; ut ejus exémplo cuncta mundi despícere, et ad promíssa
               humílibus prǽmia perveníre felíciter mereámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que elevastes o B. Pedro Celestino à eminente dignidade de
               sumo pontífice, ensinando-o ao mesmo tempo a preferir a humildade,
               concedei-nos propício que, imitando o seu exemplo, aprendamos a

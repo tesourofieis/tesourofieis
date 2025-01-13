@@ -25,14 +25,14 @@ export default function Page1125() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui dedísti legem Móysi in summitáte montis Sínai, et in
               eódem loco per sanctos Angelos tuos corpus beátæ Catharínæ
               Vírginis et Mártyris tuæ mirabíliter collocásti: præsta, quǽsumus;
               ut, ejus méritis et intercessióne, ad montem, qui Christus est,
               perveníre valeámus: Qui tecum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que destes a Lei a Moisés no cimo do monte Sinai e que
               nesse lugar colocastes miraculosamente pelos vossos Santos Anjos o
               corpo da B. Catarina, vossa Virgem e Mártir, concedei-nos, Vos

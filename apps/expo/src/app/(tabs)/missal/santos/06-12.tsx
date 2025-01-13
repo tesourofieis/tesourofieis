@@ -28,13 +28,13 @@ export default function Page0612() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, auctor pacis et amátor caritátis, qui beátum Joánnem
               Confessórem tuum mirífica dissidéntes componéndi grátia decorásti:
               ejus méritis et intercessióne concéde; ut, in tua caritáte
               firmáti, nullis a te tentatiónibus separémur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, autor da paz e amante da caridade, que dotastes o B. João,
               vosso Confessor, com a admirável graça de compor as discórdias,
               concedei-nos por seus méritos e intercessão que estejamos de tal
@@ -50,13 +50,13 @@ export default function Page0612() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sanctórum Mártyrum tuórum Basílidis, Gyrini, Naboris atque
               Nazárii, quǽsumus, Dómine, natalítia nobis votíva respléndeant:
               et, quod illis cóntulit excelléntia sempitérna, frúctibus nostræ
               devotiónis accréscat. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que o nascimento dos vossos Santos Mártires Basilides, Cirino,
               Nabor e Nazário, Vos suplicamos, Senhor, seja celebrado com
               esplendor Pelos votos que Vos oferecemos, e que a felicidade
@@ -68,13 +68,13 @@ export default function Page0612() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Pro sanctórum tuórum Basílidis, Cyrini, Nabóris atque Nazárii
               sánguine venerándo, hóstias tibi. Dómine, sollémniter immolámus,
               tua mirabília pertractántes: per quem talis est perfécta victória.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, celebramos os vossos venerandos mystérios, oferecendo-Vos
               solenemente esta hóstia em honra do sangue dos vossos Santos
               Mártires Basilides, Cirino, Nabor e Nazário pelo qual eles
@@ -85,12 +85,12 @@ export default function Page0612() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Semper, Dómine, sanctórum Martyrum tuórum Basílidis, Cyríni,
               Nabóris atque Nazárii sollémnia celebrántes: præsta, quǽsumus; ut
               eórum patrocínia júgiter sentiámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Visto que nós, Senhor, celebramos sempre a solenidade dos vossos
               Santos Mártires Basilides, Cirino, Nabor e Nazário, concedei-nos,
               Vos rogamos, que alcancemos incessantemente o seu patrocínio. Por

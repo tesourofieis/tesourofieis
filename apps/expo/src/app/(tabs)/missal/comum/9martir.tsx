@@ -15,104 +15,107 @@ export default function Page9Martir() {
           <Text className="em">Sl. 63, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Protexísti me, Deus, a convéntu malignántium, allelúja: a
               multitúdine operántium iniquitátem, allelúja, allelúja.{" "}
-              <Text className="em">Ps. ibid., 2</Text> Exáudi, Deus, oratiónem
-              meam, cum déprecor: a timóre inimíci éripe ánimam meam. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. ibid., 2</Text> Exáudi,
+              Deus, oratiónem meam, cum déprecor: a timóre inimíci éripe ánimam
+              meam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Protegestes-me, ó Deus, contra os conluios dos maus e contra a
               multidão daqueles que cometem iniquidades. Aleluia, aleluia.{" "}
-              <Text className="em">Sl. ibid., 2</Text> Ouvi, ó Deus, a oração
-              que Vos dirijo: livrai a minha alma do temor do inimigo. ℣. Glória
-              ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 2</Text> Ouvi, ó
+              Deus, a oração que Vos dirijo: livrai a minha alma do temor do
+              inimigo. ℣. Glória ao Pai...
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Por um Mártir Pontífice diz-se a seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus
               própriæ actiónis gravat, beáti{" "}
-              <Text className="text-red-500">N.</Text> Mártyris tui atque
+              <Text className="text-base latin">N.</Text> Mártyris tui atque
               Pontíficis intercéssio gloriósa nos prótegat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, olhai para a nossa fraqueza: e, visto que
               estamos oprimidos com o peso dos nossos pecados, dignai-Vos
               permitir que sejamos protegidos pela gloriosa intercessão do B.{" "}
-              <Text className="text-red-500">N.</Text>, vosso Mártir e
+              <Text className="text-base vernacular">N.</Text>, vosso Mártir e
               Pontífice. Por nosso Senhor...
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Outras vezes, em vez da Precedente, diz-se esta:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Deus, qui nos beáti <Text className="text-red-500">N.</Text>{" "}
+            <Text className="text-base latin">
+              Deus, qui nos beáti <Text className="text-base latin">N.</Text>{" "}
               Mártyris tui atque Pontíficis ánnua sollemnitáte lætíficas:
               concéde propítius; ut, cujus natalítia cólímus, de ejúsdem étiam
               protectióne gaudeámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que nos alegrais com a solenidade anual do B.{" "}
-              <Text className="text-red-500">N.</Text> vosso Mártir e Pontífice,
-              concedei-nos propício que nos congratulemos com a protecção
-              daquele cujo nascimento no céu celebramos. Por nosso Senhor...
+              <Text className="text-base vernacular">N.</Text> vosso Mártir e
+              Pontífice, concedei-nos propício que nos congratulemos com a
+              protecção daquele cujo nascimento no céu celebramos. Por nosso
+              Senhor...
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Por um Mártir não Pontífice diz-se a seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui beáti{" "}
-              <Text className="text-red-500">N.</Text> Mártyris tui natalítia
+              <Text className="text-base latin">N.</Text> Mártyris tui natalítia
               cólimus, intercessióne ejus, in tui nóminis amóre roborémur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, ó Deus omnipotente, Vos suplicamos, que, celebrando
               nós o nascimento do vosso B. Mártir{" "}
-              <Text className="text-red-500">N.</Text>, sejamos confirmados pela
-              sua intercessão no amor ao vosso nome. Por nosso Senhor...
+              <Text className="text-base vernacular">N.</Text>, sejamos
+              confirmados pela sua intercessão no amor ao vosso nome. Por nosso
+              Senhor...
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Outras vezes, em vez da Precedente, diz-se esta:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut, intercedénte beáto{" "}
-              <Text className="text-red-500">N.</Text> Mártyre tuo, et a cunctis
-              adversitátibus liberémur in córpore, et a pravis cogitatiónibus
-              mundémur in mente. Per Dóminum...
+              <Text className="text-base latin">N.</Text> Mártyre tuo, et a
+              cunctis adversitátibus liberémur in córpore, et a pravis
+              cogitatiónibus mundémur in mente. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, ó Deus omnipotente, Vos imploramos, que, pela intercessão
-              do vosso B. Mártir <Text className="text-red-500">N.</Text>, os
-              nossos corpos sejam livres de todas as adversidades e as nossas
-              almas purificadas dos maus pensamentos. Por nosso Senhor...
+              do vosso B. Mártir{" "}
+              <Text className="text-base vernacular">N.</Text>, os nossos corpos
+              sejam livres de todas as adversidades e as nossas almas
+              purificadas dos maus pensamentos. Por nosso Senhor...
             </Text>
           </View>
 
@@ -121,9 +124,11 @@ export default function Page9Martir() {
           <Text className="em">Sb. 5, 1-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Stabunt justi in magna constántia advérsus eos, qui se
               angustiavérunt et qui abstulérunt labóres eórum. Vidéntes
               turbabúntur timore horríbili, et mirabúntur in subitatióne
@@ -134,7 +139,7 @@ export default function Page9Martir() {
               quómodo computáti sunt inter fílios Dei, et inter Sanctos sors
               illórum est.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Então, os justos erguer-se-ão com grande coragem contra aqueles
               que os oprimiam e a quem arrebatavam o fruto dos seus trabalhos.
               Vendo-os assim, os maus perturbar-se-ão, cheios de pavor, e
@@ -149,15 +154,17 @@ export default function Page9Martir() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 88, 6</Text>{" "}
-              Confitebúntur cœli mirabília tua, Dómine: étenim veritátem tuam in
-              ecclésia sanctórum. Allelúja. ℣.{" "}
-              <Text className="em">Ps. 20, 4</Text> Posuísti, Dómine, super
-              caput ejus corónam de lápide pretióso. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 88, 6</Text> Confitebúntur
+              cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia
+              sanctórum. Allelúja. ℣. <Text className="em">Ps. 20, 4</Text>{" "}
+              Posuísti, Dómine, super caput ejus corónam de lápide pretióso.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 88, 6</Text> Senhor,
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 88, 6</Text> Senhor,
               que os céus festejem as vossas maravilhas; que a vossa verdade
               seja exaltada na assembleia dos santos. Aleluia. ℣.{" "}
               <Text className="em">Sl. 20, 4</Text> Impusestes na sua cabeça,
@@ -170,15 +177,15 @@ export default function Page9Martir() {
           <Text className="em">Jo. 15, 1-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Ego sum vitis vera:
               et Pater meus agrícola est. Omnem pálmitem in me non feréntem
               fructum, tollet eum: et omnem, qui fert fructum, purgábit eum, ut
@@ -192,7 +199,7 @@ export default function Page9Martir() {
               et ardet. Si manséritis in me, et verba mea in vobis mánserint:
               quodcúmque voluéritis, petétis, et fiet vobis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eu sou a verdadeira vinha e meu Pai é o vinhateiro. Toda a videira
               que não der fruto em mim será cortada por Ele, assim como podará a
               que der fruto, para que o dê com mais abundância. Vós estais já
@@ -215,90 +222,90 @@ export default function Page9Martir() {
           <Text className="em">Sb. 88, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Confitebúntur cœli mirabília tua, Dómine: et veritátem tuam in
               ecclésia sanctórum, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que os céus publiquem as vossas maravilhas; que, a vossa
               verdade seja exaltada na assembleia dos santos. Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Por um Mártir Pontífice diz-se a seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hóstias tibi, Dómine, beáti{" "}
-              <Text className="text-red-500">N.</Text> Mártyris tui atque
+              <Text className="text-base latin">N.</Text> Mártyris tui atque
               Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis
               tríbue proveníre subsídium. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aceitai benigno, Senhor, as hóstias que Vos oferecemos pelos
-              méritos do B. <Text className="text-red-500">N.</Text>, vosso
-              Mártir e Pontífice; e dignai-Vos permitir que em virtude delas
-              alcancemos o vosso perpétuo socorro. Por nosso Senhor...
+              méritos do B. <Text className="text-base vernacular">N.</Text>,
+              vosso Mártir e Pontífice; e dignai-Vos permitir que em virtude
+              delas alcancemos o vosso perpétuo socorro. Por nosso Senhor...
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Outras vezes, em vez da Precedente, diz-se esta:
-          </View>
+          </Text>
 
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto{" "}
-              <Text className="text-red-500">N.</Text> Mártyre tuo atque
+              <Text className="text-base latin">N.</Text> Mártyre tuo atque
               Pontífice, per éadem nos placátus inténde. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Santificai, Senhor, estes dons que Vos são oferecidos, a fim de
               que pela intercessão do B.{" "}
-              <Text className="text-red-500">N.</Text>, vosso Mártir e
+              <Text className="text-base vernacular">N.</Text>, vosso Mártir e
               Pontífice, Vos digneis aplacar-Vos, e olhar aplacado para nós. Por
               nosso Senhor...
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Por um Mártir não Pontífice diz-se a seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo Vós aceitado os nossos dons e as nossas orações,
               dignai-Vos purificar-nos com vossos celestiais mystérios e
               ouvir-nos clementemente. Por nosso Senhor...
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Outras vezes, em vez da Precedente, diz-se esta:
-          </View>
+          </Text>
 
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Accépta sit in conspéctu tuo, Dómine, nostra devótio: et ejus
               nobis fiat supplicatióne salutáris, pro cujus sollemnitáte
               defértur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aceitai benignamente, Senhor, esta oferta que a nossa devoção Vos
               apresenta; e permiti que nos alcance a salvação pelas orações
               daquele em cuja festa Vo-la apresentamos. Por nosso Senhor...
@@ -310,72 +317,73 @@ export default function Page9Martir() {
           <Text className="em">Sl. 63, 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur
               omnes recti corde, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O justo rejubilará no Senhor e nele porá a sua confiança, pois
               todos aqueles que possuem o coração recto serão louvados. Aleluia,
               aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Por um Mártir Pontífice diz-se o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedénte beáto{" "}
-              <Text className="text-red-500">N.</Text> Martyre tuo atque
+              <Text className="text-base latin">N.</Text> Martyre tuo atque
               Pontifice, sentiámus efféctum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Saciados com a participação do dom sacratíssimo, Vos suplicamos, ó
               Senhor, nosso Deus, fazei-nos sentir pela intercessão do B.{" "}
-              <Text className="text-red-500">N.</Text>, vosso Mártir e
+              <Text className="text-base vernacular">N.</Text>, vosso Mártir e
               Pontífice, o efeito do mystério, que celebrámos. Por nosso
               Senhor...
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Outras vezes, em vez, do Precedente, diz-se o seguante:
-          </View>
+          </Text>
 
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc nos communio, Dómine, purget a crimine: et, intercedénte beáto{" "}
-              <Text className="text-red-500">N.</Text> Mártyre tuo atque
+              <Text className="text-base latin">N.</Text> Mártyre tuo atque
               Pontifice, cæléstis remédii fáciat esse consortes. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que esta comunhão, Senhor, nos purifique de nossos crimes, e que,
-              por intercessão do B. <Text className="text-red-500">N.</Text>,
-              vosso Mártir e Pontífice, nos torne participantes do remédio
-              celestial. Por nosso Senhor...
+              por intercessão do B.{" "}
+              <Text className="text-base vernacular">N.</Text>, vosso Mártir e
+              Pontífice, nos torne participantes do remédio celestial. Por nosso
+              Senhor...
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Por um Mártir não Pontífice diz-se o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da, quǽsumus, Dómine, Deus noster: ut, sicut tuorum commemoratione
               Sanctórum temporali gratulámur officio; ita perpetuo lætémur
               aspéctu. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, Senhor, Vos suplicamos, que, assim como nos
               alegramos, celebrando na terra a memória dos vossos santos, assim
               também tenhamos a felicidade de os contemplar na eternidade. Por
@@ -383,24 +391,24 @@ export default function Page9Martir() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Outras vezes, ena vez do Precedente, diz-se o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum; intercedénte beáto{" "}
-              <Text className="text-red-500">N.</Text> Martyre tuo, sentiámus
+              <Text className="text-base latin">N.</Text> Martyre tuo, sentiámus
               efféctum. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Confortados com a participação do dom sagrado, Vos suplicamos, ó
               Senhor, nosso Deus, fazei-nos sentir, por intercessão do B.{" "}
-              <Text className="text-red-500">N.</Text>, vosso Mártir, o efeito
-              do mystério que celebramos. Por nosso Senhor...
+              <Text className="text-base vernacular">N.</Text>, vosso Mártir, o
+              efeito do mystério que celebramos. Por nosso Senhor...
             </Text>
           </View>
         </View>

@@ -42,15 +42,15 @@ export default function Page0712() {
           <Text className="em">Mt. 5, 48-48</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Audístis, quia
               dictum est: Diliges próximum tuum, et ódio habébis inimícum tuum.
               Ego autem dico vobis: Dilígite inimícos vestros, benefácite his,
@@ -63,7 +63,7 @@ export default function Page0712() {
               fáciunt? Estóte ergo vos perfécti, sicut et Pater vester cœléstis
               perféctus est.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Aprendestes o que
               vos ensinaram: «amareis o vosso próximo e aborreceis o vosso
               inimigo?». Pois Eu vos digo: amai os vossos inimigos; fazei bem
@@ -85,12 +85,12 @@ export default function Page0712() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, Dómine: ut, sicut nos sanctórum Martyrum tuórum
               Nabóris et Felícis natalítia celebránda non desérunt; ita júgiter
               suffrágiis comitántur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, assim como nós não cessamos de celebrar o natalício dos
               vossos Santos Mártires Nabor e Félix, assim também, Vos
               suplicamos, sejamos sempre socorridos com seus sufrágios. Por
@@ -101,13 +101,13 @@ export default function Page0712() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Múnera plebis tuæ, quǽsumus, Dómine, sanetórum Mártyrum tuórum
               Nabóris et Felícis fiant grata suffrágiis: et, quorum triúmphis
               tuo nómini offeruntur, ipsorum digna perficiantur et méritis. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos permitir, Senhor, Vos imploramos, que os dons do vosso
               povo Vos sejam agradáveis pelos sufrágios dos vossos Santos Nabor
               e Félix; e, pelos méritos daqueles em cuja honra são oferecidos ao
@@ -118,12 +118,12 @@ export default function Page0712() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Natalítiis Sanctórum tuórum, quǽsumus, Dómine: ut, sacraménti
               múnere vegetáti, bonis, quibus per tuam grátiam nunc fovémur,
               perfruámur ætérnis. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fortalecidos com a recepção do sacramento que recebemos neste
               natalício dos vossos Santos, Vos suplicamos, Senhor, permiti que
               gozemos na eternidade aqueles bens com que a vossa graça nos

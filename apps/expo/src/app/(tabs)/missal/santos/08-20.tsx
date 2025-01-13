@@ -27,11 +27,11 @@ export default function Page0820() {
           <Text className="em">Ecl. 39, 6-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui
               fecit illum, et in conspéctu Altíssimi deprecábitur. Apériet os
               suum in oratióne, et pro delíctis suis deprecábitur. Si enim
@@ -45,7 +45,7 @@ export default function Page0820() {
               requirétur a generatióne in generatiónem. Sapiéntiam ejus
               enarrábunt gentes, et laudem ejus enuntiábit ecclésia.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O justo aplicará o seu coração e vigiará desde o romper do dia
               para se unir ao Senhor, que o criou, e oferecer as suas preces ao
               Altíssimo. Abrirá a sua boca para orar e implorar o perdão dos

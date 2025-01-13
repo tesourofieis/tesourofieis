@@ -23,13 +23,13 @@ export default function Page0601() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui novum per beátam Angelam sacrárum Virginum collégium in
               Ecclésia tua floréscere voluísti: da nobis, ejus intercessióne,
               angélicis móribus vívere; ut, terrénis ómnibus abdicátis, gáudiis
               pérfrui mereámur ætérnis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que pela B. Ângela quisestes que florescesse na vossa
               Igreja uma nova associação de piedosas virgens, concedei-nos a
               graça, pela sua intercessão, de vivermos angélicamente na terra, a
@@ -41,12 +41,12 @@ export default function Page0601() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hóstia, Dómine, quam tibi beátæ Angelæ memóriam recoléntes
               offérimus, et nostræ pravitatis véniam implóret, et grátiæ tuæ
               nobis dona concíliet. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a hóstia, Senhor, que Vos oferecemos em honra da memória da B.
               Ângela, nos obtenha misericórdia por causa dos nossos desvarios e
               nos alcance os dons da vossa graça. Por nosso Senhor...
@@ -56,12 +56,12 @@ export default function Page0601() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœlésti alimónia refécti, súpplices te, Dómine, deprecámur: ut,
               beátæ Angelæ précibus et exémplo ab omni labe mundáti, et córpore
               tibi placeámus et mente. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo sido confortados com este alimento celestial, humildemente
               Vos imploramos, Senhor, que, pelas preces da B. Ângela e seguindo
               o seu exemplo, sejamos purificados de todas as manchas e Vos

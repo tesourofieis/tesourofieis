@@ -25,12 +25,12 @@ export default function Page0223() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde nos, quǽsumus, omnípotens Deus: beáti Petri Confessóris
               tui atque Pontíficis mónita et exémpla sectári; ut per terréstrium
               rerum contémptum ætérna gáudia consequámur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, ó Deus omnipotente, Vos suplicamos, que imitemos as
               lições e os exemplos do B. Pedro, vosso Confessor e Pontífice, a
               fim de que pelo desprezo dos bens terrenos alcancemos as alegrias

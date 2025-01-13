@@ -26,12 +26,12 @@ export default function Page0423() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui nos beáti Georgii Martyris tui méritis et intercessióne
               lætíficas: concéde propítius; ut, qui tua per eum benefícia
               póscimus, dono tuæ grátiæ consequámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que nos alegrais com os méritos e intercessão do B. Jorge,
               vosso Mártir, concedei-nos propício que, suplicando-Vos por sua
               intercessão os vossos benefícios, os obtenhamos por efeito da
@@ -49,12 +49,12 @@ export default function Page0423() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Geórgio
               Mártyre tuo, nos per hæc a peccatórum nostrórum máculis emúnda.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Santificai, Senhor, estas oblatas que Vos são oferecidas; e pela
               intercessão do B. Jorge, vosso Mártir, purificai-nos, pela sua
               virtude, das manchas dos nossos pecados. Por nosso Senhor...
@@ -64,12 +64,12 @@ export default function Page0423() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
               sacraméntis, intercedénte beáto Geórgio Mártyre tuo, tibi étiam
               plácitis móribus dignánter tríbuas deservíre. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos imploramos, pela intercessão do B. Jorge,
               vosso Mártir, dignai-Vos conceder àqueles a quem sustentais com
               vossos sacramentos a graça de Vos servirem, como convém, com

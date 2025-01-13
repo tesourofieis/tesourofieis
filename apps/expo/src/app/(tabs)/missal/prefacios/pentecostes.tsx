@@ -17,7 +17,7 @@ export default function PagePentecostes() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: per Christum, Dóminum nostrum. Qui, ascéndens super omnes
@@ -27,7 +27,7 @@ export default function PagePentecostes() {
               Virtútes atque angélicæ Potestátes hymnum glóriæ tuæ cóncinunt,
               sine fine dicéntes:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               É verdadeiramente digno e justo, racional e salutar dar-Vos
               graças, em todos os lugares e sempre, Senhor santo, Pai
               omnipotente, eterno Deus, por nosso Senhor Jesus Cristo, que,

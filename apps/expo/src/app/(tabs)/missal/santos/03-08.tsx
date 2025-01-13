@@ -27,14 +27,14 @@ export default function Page0308() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas
               innóxium incédere fecísti, et per eum Ecclésiam tuam nova prole
               fœcundásti: præsta, ipsíus suffragántibus méritis; ut igne
               caritátis tuæ vitia nostra curéntur, et remédia nobis ætérna
               provéniant. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, depois de abrasardes a alma do B. João no vosso amor,
               o fizestes passar incólume por entre as chamas, e que por meio
               dele enriquecestes a Igreja com uma nova prole, concedei-nos pelos

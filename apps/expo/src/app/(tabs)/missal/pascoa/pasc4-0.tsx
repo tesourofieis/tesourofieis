@@ -15,32 +15,33 @@ export default function PagePasc40() {
           <Text className="em">Sl. 97, 1 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cantáte Dómino cánticum novum, allelúja: quia mirabília fecit
               Dóminus, allelúja: ante conspéctum géntium revelávit justítiam
               suam, allelúja, allelúja, allelúja.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Salvávit sibi déxtera
-              ejus: et bráchium sanctum ejus. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Salvávit
+              sibi déxtera ejus: et bráchium sanctum ejus. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Cantai em honra do Senhor um hino novo, aleluia: porque operou
               maravilhas, aleluia: revelou a sua justiça, perante os olhos dos
               povos, aleluia, aleluia, aleluia.{" "}
-              <Text className="em">Sl. ibid., 1</Text> Alcançou vitória com sua
-              dextra e com seu santo braço. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
+              Alcançou vitória com sua dextra e com seu santo braço. ℣. Glória
+              ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui fidélium mentes uníus éfficis voluntátis: da pópulis
               tuis id amáre quod prǽcipis, id desideráre quod promíttis; ut
               inter mundánas varietátes ibi nostra fixa sint corda, ubi vera
               sunt gáudia. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que unis os espíritos dos fiéis em uma só vontade,
               concedei aos vossos povos a graça de amarem o que mandais e de
               desejarem o que prometeis, a fim de que durante as inconstâncias
@@ -54,11 +55,13 @@ export default function PagePasc40() {
           <Text className="em">Tg. 1, 17-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
-            <Text className="text-base">Lição da Ep.ª do B. Ap.º Tiago.</Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Tiago.
+            </Text>
+            <Text className="text-base latin">
               Caríssimi: Omne datum óptimum, et omne donum perféctum desúrsum
               est, descéndens a Patre lúminum, apud quem non est transmutátio
               nec vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo
@@ -69,7 +72,7 @@ export default function PagePasc40() {
               abundántiam malítiæ, in mansuetúdine suscípite ínsitum verbum,
               quod potest salváre ánimas vestras.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimos: Toda a graça excelente e todo o dom perfeito vêm do
               alto e descem do Pai das luzes, em quem não há inconstância, nem
               sombra de mudança. Espontaneamente criou-nos pela palavra da
@@ -86,19 +89,20 @@ export default function PagePasc40() {
           <Text className="h3">Gradual</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 117, 16</Text>{" "}
-              Déxtera Dómini fecit virtútem: déxtera Dómini exaltávit me.
-              Allelúja. ℣. <Text className="em">Rom. 6, 9</Text> Christus
-              resúrgens ex mórtuis jam non móritur: mors illi ultra non
-              dominábitur. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 117, 16</Text> Déxtera
+              Dómini fecit virtútem: déxtera Dómini exaltávit me. Allelúja. ℣.{" "}
+              <Text className="em">Rom. 6, 9</Text> Christus resúrgens ex
+              mórtuis jam non móritur: mors illi ultra non dominábitur.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Ps. 117, 16</Text> A
-              dextra do Senhor mostrou o poder: a dextra do Senhor exaltou-me.
-              Aleluia. ℣. <Text className="em">Rm. 6, 9</Text> Cristo
-              ressuscitou dos mortos, já não morrerá: a morte não mais O
-              vencerá. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Ps. 117, 16</Text> A dextra
+              do Senhor mostrou o poder: a dextra do Senhor exaltou-me. Aleluia.
+              ℣. <Text className="em">Rm. 6, 9</Text> Cristo ressuscitou dos
+              mortos, já não morrerá: a morte não mais O vencerá. Aleluia.
             </Text>
           </View>
 
@@ -107,15 +111,15 @@ export default function PagePasc40() {
           <Text className="em">Jo. 16, 5-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Vado ad eum, qui
               misit me: et nemo ex vobis intérrogat me: Quo vadis? Sed quia hæc
               locútus sum vobis, tristítia implévit cor vestrum. Sed ego
@@ -131,7 +135,7 @@ export default function PagePasc40() {
               loquétur, et quæ ventúra sunt, annuntiábit vobis. Ille me
               clarificábit: quia de meo accípiet et annuntiábit vobis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Vou para Aquele
               que me enviou e nenhum de vós me pergunta: Para onde ides? Mas,
               porque disse estas coisas, encheu-se o vosso coração de tristeza!
@@ -155,12 +159,12 @@ export default function PagePasc40() {
           <Text className="em">Sl. 65, 1-2 & 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Jubiláte Deo, univérsa terra, psalmum dícite nómini ejus: veníte
               et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit
               Dóminus ánimæ meæ, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó povos de toda a terra, aclamai Deus com júbilo: cantai hinos em
               honra do seu nome: vinde, vós todos, que temeis Deus, vinde e
               escutai: e contar-vos-ei as mercês que Ele fez à minha alma,
@@ -171,13 +175,13 @@ export default function PagePasc40() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui nos, per hujus sacrificii veneránda commércia, uníus
               summæ divinitátis partícipes effecísti: præsta, quǽsumus; ut,
               sicut tuam cognóscimus veritátem, sic eam dignis móribus
               assequámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que pelo sagrado comércio deste sacrifício nos tornastes
               participantes da vossa divindade una e suprema, fazei, Vos
               imploramos, que, assim como já conhecemos a vossa verdade, assim
@@ -191,11 +195,11 @@ export default function PagePasc40() {
           <Text className="em">Jo. 16, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cum vénerit Paráclitus Spíritus veritátis, ille árguet mundum de
               peccáto et de justítia et de judício, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Quando o Consolador Espírito da verdade vier, convencerá o mundo
               acerca do pecado, da justiça e do juízo, aleluia, aleluia.
             </Text>
@@ -204,12 +208,12 @@ export default function PagePasc40() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adésto nobis, Dómine, Deus noster: ut per hæc, quæ fidéliter
               súmpsimus, et purgémur a vítiis et a perículis ómnibus eruámur.
               Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Assisti-nos, Senhor, nosso Deus, a fim de que por este sacramento,
               que recebemos com fé e sinceridade, sejamos purificados dos vícios
               e livres dos perigos. Por nosso Senhor...

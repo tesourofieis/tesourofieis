@@ -16,32 +16,33 @@ export default function Page0218Portugal() {
           <Text className="em">Sl. 131, 7 & 121, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Introíbimus in tabernáculum ejus: adorábimus in loco, ubi
               stetérunt pedes ejus. Stantes erant pedes nostri in átriis tuis,
-              Jerusalém. <Text className="em">Ps. 121, 1</Text> Lætátus sum in
-              his, quæ dicta sunt mihi: in domum Dómini íbimus. ℣. Gloria
-              Patri...
+              Jerusalém. <Text className="text-base latin">Ps. 121, 1</Text>{" "}
+              Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
+              ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Entraremos no seu tabernáculo e adoraremos no lugar onde Ele pôs
               os seus pés. Tínhamos os nossos pés colocados nos teus átrios, ó
-              Jerusalém. <Text className="em">Sl. 121, 1</Text> Senti muita
-              alegria com o que me foi dito: Iremos à casa do Senhor. ℣. Glória
-              ao Pai...
+              Jerusalém.{" "}
+              <Text className="text-base vernacular">Sl. 121, 1</Text> Senti
+              muita alegria com o que me foi dito: Iremos à casa do Senhor. ℣.
+              Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beáti Theotónii et exémplis canónicam disciplínam
               reparásti: concéde propítius; ut ejus exémplo et intercessióne,
               arctiórem christiánæ perfectiónis viam ingréssi, facílius vitam
               ætérnam consequámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que com os salutares conselhos e exemplos do B. Teotónio
               reformastes a disciplina canónica, concedei-nos propício que, com
               seu exemplo e intercessão, seguindo nós o apertado caminho da
@@ -62,46 +63,50 @@ export default function Page0218Portugal() {
           <Text className="em">Sl. 118, 46</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Loquébar de testimóniis tuis in conspéctu regum: et non
-              confundébar. ℣. <Text className="em">Ps. 19, 10</Text> Dómine,
-              salvum fac regem et exáudi nos in die, qua invocavérimus te.
+              confundébar. ℣.{" "}
+              <Text className="text-base latin">Ps. 19, 10</Text> Dómine, salvum
+              fac regem et exáudi nos in die, qua invocavérimus te.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Falava dos vossos testemunhos na presença dos reis e não era
-              confundido. ℣. <Text className="em">Sl. 19, 10</Text> Senhor,
+              confundido. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 19, 10</Text> Senhor,
               salvai o rei e ouvi-nos no dia em que Vos invocarmos.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 115, 18-19</Text>{" "}
-              Vota mea Dómino redam in átriis domus Dómini, in médio tui
-              Jerusalém. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 115, 18-19</Text> Vota mea
+              Dómino redam in átriis domus Dómini, in médio tui Jerusalém.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 115, 18-19</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 115, 18-19</Text>{" "}
               Apresentarei os meus votos ao Senhor, nos átrios da casa do Senhor
               e junto de Vós, ó Jerusalém. Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte, e diz-se o:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="em">Sl. 115, 16</Text>Dirupísti víncula mea: tibi
-              sacrificábo hóstiam laudis, et nomen Dómini invocábo. ℣.{" "}
-              <Text className="em">Sl. 86, 3</Text> Gloriósa dicta sunt de te,
-              cívitas Dei.
+            <Text className="text-base latin">
+              <Text className="text-base latin">Sl. 115, 16</Text>Dirupísti
+              víncula mea: tibi sacrificábo hóstiam laudis, et nomen Dómini
+              invocábo. ℣. <Text className="em">Sl. 86, 3</Text> Gloriósa dicta
+              sunt de te, cívitas Dei.
             </Text>
-            <Text className="text-base">
-              <Text className="em">Sl. 115, 16</Text>Cumprirei os votos que fiz
-              ao Senhor na presença de todo seu povo: aos olhos do Senhor é
-              preciosa a morte dos seus Santos. ℣. Porquanto considerei que
-              fundastes os céus, a lua e as estrelas.{" "}
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Sl. 115, 16</Text>Cumprirei
+              os votos que fiz ao Senhor na presença de todo seu povo: aos olhos
+              do Senhor é preciosa a morte dos seus Santos. ℣. Porquanto
+              considerei que fundastes os céus, a lua e as estrelas.{" "}
               <Text className="em">Sl. 86, 3</Text> Gloriosas coisas têm sido
               narradas a respeito de vós, ó cidade de Deus.
             </Text>
@@ -119,11 +124,11 @@ export default function Page0218Portugal() {
           <Text className="em">Gl. 6-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu
               Christi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de
               nosso Senhor Jesus Cristo.
             </Text>
@@ -132,13 +137,13 @@ export default function Page0218Portugal() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sanctæ Crucis, Dómine, mystéria recoléntes, concéde, ut
               sacrifícium incruéntum débita veneratióne offerámus: et
               interveniénte sancto Theotónnio Confessóre tuo, salutáris fructus
               consequámur efféctum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Renovando nós, Senhor, os mystérios da Santa Cruz, concedei-nos
               que ofereçamos o sacrifício incruento com a devida veneração; e
               que por intercessão de S. Teotónio, vosso Confessor, alcancemos
@@ -151,13 +156,13 @@ export default function Page0218Portugal() {
           <Text className="em">Rm. 12, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Obsecro vos, frates, per misericórdiam Dei, ut exhibeátis córpora
               vestra hóstiam vivéntem, sanctam, Deo placéntem, rationábile
               obséquium vestrum: et nolíte conformári huic sæculo, sed
               reformámini.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Rogo-vos, irmãos, que apresenteis vossos corpos em sacrifício
               vivo, santo e agradável a Deus, pois esta vossa doação é racional.
               E que vos não conformeis com este mundo, mas antes vos reformeis.
@@ -167,12 +172,12 @@ export default function Page0218Portugal() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Per sancta, Dómine, quæ súmpsimus, sanctus Theotónius intercédat,
               ne huic sæculo conformémur; sed reformáti, ad perfectiónem semper
               aspirémus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Pelos sacrossantos sacramentos que recebemos, Senhor, interceda
               por nós S. Teotónio, para que nos não conformemos com este mundo,
               mas, já reformados, aspiremos à perfeição. Por nosso Senhor...

@@ -15,32 +15,33 @@ export default function PageQuad40() {
           <Text className="em">Is. 66, 10 & 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lætáre, Jerúsalem: et convéntum fácite, omnes qui dilígitis eam:
               gaudéte cum lætítia, qui in tristítia fuístis: ut exsultétis, et
               satiémini ab ubéribus consolatiónis vestræ.{" "}
-              <Text className="em">Ps. 121, 1</Text> Lætátus sum in his, quæ
-              dicta sunt mihi: in domum Dómini íbimus. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 121, 1</Text> Lætátus sum in
+              his, quæ dicta sunt mihi: in domum Dómini íbimus. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Rejubilai, ó Jerusalém; ó vós todos, que a amais, uni-vos com
               júbilo; exultai de alegria, ó vós, que tendes estado tristes: e
               ficareis alegres e saciados com o leite das suas consolações.{" "}
-              <Text className="em">Sl. 121, 1</Text> Alegrei-me com estas
-              palavras que me disseram: Iremos à Casa do Senhor. ℣. Glória ao
-              Pai...
+              <Text className="text-base vernacular">Sl. 121, 1</Text>{" "}
+              Alegrei-me com estas palavras que me disseram: Iremos à Casa do
+              Senhor. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde, quǽsumus, omnípotens Deus: ut, qui ex merito nostræ
               actiónis afflígimur, tuæ grátiæ consolatióne respirémus. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos suplicamos, visto que estamos justamente
               aflitos com o peso dos nossos pecados, concedei-nos que sejamos
               aliviados com a consolação da vossa graça. Por nosso Senhor...
@@ -52,13 +53,13 @@ export default function PageQuad40() {
           <Text className="em">Gl. 4, 22-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Scriptum est: Quóniam Abraham duos fílios habuit: unum de
               ancílla, et unum de líbera. Sed qui de ancílla, secúndum carnem
               natus est: qui autem de líbera, per repromissiónem: quæ sunt per
@@ -76,7 +77,7 @@ export default function PageQuad40() {
               fílio líberæ. Itaque, fratres, non sumus ancíllæ fílii, sed
               líberæ: qua libertáte Christus nos liberávit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Está escrito que Abraão teve dois filhos: um da
               escrava e outro da mulher livre. O da escrava nasceu segundo a
               carne, enquanto que o da mulher livre nasceu segundo a promessa.
@@ -104,11 +105,11 @@ export default function PageQuad40() {
           <Text className="em">Sl. 121, 1 & 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
               ℣. Fiat pax in virtúte tua: et abundántia in túrribus tuis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegrei-me com estas palavras que me disseram: Iremos à Casa do
               Senhor. ℣. Que a paz reine dentro dos teus muros: e a abundância
               nos teus palácios.
@@ -120,12 +121,12 @@ export default function PageQuad40() {
           <Text className="em">Sl. 124, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui confídunt in Dómino, sicut mons Sion: non commovébitur in
               ætérnum, qui hábitat in Jerúsalem. ℣. Montes in circúitu ejus: et
               Dóminus in circúitu pópuli sui, ex hoc nunc et usque in sǽculum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aqueles que confiam no Senhor estão firmes, como o monte Sião.
               Aquele que habita em Jerusalém nunca será abalado. ℣. O Senhor
               cerca com montanhas o seu povo, e fica em torno dele agora e em
@@ -138,15 +139,15 @@ export default function PageQuad40() {
           <Text className="em">Jo. 6, 1-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Abiit Jesus trans mare Galilǽæ, quod est
               Tiberíadis: et sequebátur eum multitúdo magna, quia vidébant
               signa, quæ faciébat super his, qui infírmabántur. Súbiit ergo in
@@ -172,7 +173,7 @@ export default function PageQuad40() {
               cognovísset, quia ventúri essent, ut ráperent eum et fácerent eum
               regem, fugit íterum in montem ipse solus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, foi Jesus para a outra margem do mar da Galileia ou
               de Tiberíades, acompanhando-O grande multidão; pois viam os
               milagres que operava, curando os doentes. Jesus subiu a um monte,
@@ -204,11 +205,11 @@ export default function PageQuad40() {
           <Text className="em">Sl. 134, 3 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Laudáte Dóminum, quia benígnus est: psállite nómini ejus, quóniam
               suávis est: ómnia, quæcúmque vóluit, fecit in cœlo et in terra.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Louvai o Senhor, porque Ele é bom: Cantai hinos em louvor do seu
               nome, porque Ele é suave. O Senhor criou no céu e na terra tudo
               quanto quis.
@@ -218,11 +219,11 @@ export default function PageQuad40() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et
               devotióni nostræ profíciant et salúti. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, olhai aplacado para este sacrifício; e que
               ele alente a nossa piedade e nos alcance a salvação. Por nosso
               Senhor...
@@ -234,12 +235,12 @@ export default function PageQuad40() {
           <Text className="em">Sl. 121,3-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Jerúsalem, quæ ædificátur ut cívitas, cujus participátio ejus in
               idípsum: illuc enim ascendérunt tribus, tribus Dómini, ad
               confiténdum nómini tuo. Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Jerusalém é uma cidade tão bem edificada, que está agrupada em um
               conjunto. Foi lá que subiram as tribos (as tribos do Senhor) para
               louvar o vosso nome, ó Senhor.
@@ -249,12 +250,12 @@ export default function PageQuad40() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da nobis, quǽsumus, miséricors Deus: ut sancta tua, quibus
               incessánter explémur, sincéris tractémus obséquiis, et fidéli
               semper mente sumámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus de misericórdia, concedei-nos a graça de nos aproximarmos
               com respeito sincero dos vossos sagrados mystérios, de que fomos
               saciados, e de os recebermos sempre com espírito de fé. Por nosso

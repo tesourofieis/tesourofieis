@@ -17,71 +17,73 @@ export default function PageOracaonoite() {
         <View className="docs">
           <Text className="h1">Oração da Noite</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Convérte nos, Deus, salutáris noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Convertei-nos, ó Deus nosso Salvador.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et avérte iram tuam a
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et avérte iram tuam a
               nobis.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E afastai de nós a vossa
-              ira.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E afastai de nós
+              a vossa ira.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Deus, in adjutórium meum inténde.
             </Text>
-            <Text className="text-base">℣. Deus, vinde em nosso auxílio.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum me
-              festína.
+            <Text className="text-base vernacular">
+              ℣. Deus, vinde em nosso auxílio.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Senhor, socorrei-nos e
-              salvai-nos.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Dómine, ad adjuvándum
+              me festína.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Senhor,
+              socorrei-nos e salvai-nos.
+            </Text>
+            <Text className="text-base latin">
               ℣. Glória Patri, et Fílio, et Spirítui Sancto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Sicut erat in princípio,
-              et nunc, et semper, et in sǽcula sæculórum. Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Sicut erat in
+              princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Assim como era no
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
           </View>
           <Text className="h2">Veni, Sancte Spíritus</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, ó Espírito Santo, enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Emitte Spíritum tuum, et creabúntur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Enviai o vosso Espírito e tudo será criado.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et renovábis faciem
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et renovábis faciem
               terræ.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E renovareis a face da
-              terra.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E renovareis a
+              face da terra.
             </Text>
           </View>
           <Text className="h3">Breve lição:</Text>
@@ -90,9 +92,9 @@ export default function PageOracaonoite() {
             procurando devorar-vos. Resisti-lhe, sendo fortes na fé. E Vós,
             Senhor, tende piedade de nós.
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Coloquemo-nos na presença de Deus e adoremo-Lo humildemente:
-          </View>
+          </Text>
           Deus meu, Senhor dos céus e da terra! Eu aqui me prostro diante de
           Vós. Com todos os Anjos e Santos eu Vos adoro e Vos amo com todo o
           coração. Dou-Vos graças por me terdes criado, feito Cristão e

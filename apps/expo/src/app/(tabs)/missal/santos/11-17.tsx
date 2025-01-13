@@ -30,15 +30,15 @@ export default function Page1117() {
           <Text className="em">Mc. 11, 22-24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Marcum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Marcos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Marcos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Respóndens Jesus discípulis suis, ait illis:
               Habéte fidem Dei. Amen, dico vobis, quia, quicúmque díxerit huic
               monti: Tóllere et míttere in mare, et non hæsitáverit in corde
@@ -46,7 +46,7 @@ export default function Page1117() {
               Proptérea dico vobis: Omnia quæcúmque orántes pétitis, crédite
               quia accipiétis, et evénient vobis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, Jesus disse aos seus discípulos: «Tende fé em Deus.
               Em verdade vos digo que todo aquele que disser a esta montanha
               «tira-te e lança-te no mar», e disser isto sem hesitar no seu

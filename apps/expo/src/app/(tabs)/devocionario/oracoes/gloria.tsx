@@ -11,25 +11,25 @@ export default function PageGloria() {
           <Text className="h1">Glória</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Glória Patri, et Fílio, et Spíritui Sancto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Sicut erat in pricípio,
-              et nunc, et semper, et in sǽcula sæculórum.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Sicut erat in
+              pricípio, et nunc, et semper, et in sǽcula sæculórum.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Assim como era no
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
         </View>

@@ -14,34 +14,34 @@ export default function Page1114() {
           <Text className="h3">Intróito</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beáti Jósaphat Mártyris: de cujus passióne gaudent Angeli et
-              colláudant Fílium Dei. <Text className="em">Ps. 32, 1</Text>{" "}
-              Exsultáte, justi, in Dómino: rectos decet collaudátio. ℣. Gloria
-              Patri...
+              colláudant Fílium Dei.{" "}
+              <Text className="text-base latin">Ps. 32, 1</Text> Exsultáte,
+              justi, in Dómino: rectos decet collaudátio. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegremo-nos todos no Senhor, neste dia em que celebramos a festa
               em honra do B. Mártir Josafá, de cujo martírio se regozijam os
               Anjos, louvando, unissonamente, o Filho de Deus.{" "}
-              <Text className="em">Sl. 32, 1</Text> Aclamai o Senhor, ó justos,
-              pois é aos que possuem coração recto que pertence louvar o Senhor.
-              ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 32, 1</Text> Aclamai o
+              Senhor, ó justos, pois é aos que possuem coração recto que
+              pertence louvar o Senhor. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Excita, quǽsumus, Dómine, in Ecclésia tua Spíritum, quo replétus
               beátus Jósaphat Martyr et Póntifex tuus ánimam suam pro óvibus
               pósuit: ut, eo intercedénte, nos quoque eódem Spíritu moti ac
               roboráti, ánimam nostram pro frátribus pónere non vereámur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos imploramos, despertai na vossa Igreja, o Espírito de
               que o B. Josafá, vosso Mártir, estava cheio e que o levou a dar a
               vida pelas suas ovelhas, a fim de que pela sua intercessão,
@@ -62,21 +62,21 @@ export default function Page1114() {
           <Text className="em">Sl. 88, 21-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum. ℣. Nihil
               profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha
               mão o auxiliará e o meu braço o fortalecerá. ℣. Meu inimigo nada
               poderá contra ele e o filho da iniquidade nenhum mal lhe fará.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Hic est sacérdos, quem coronávit Dóminus.
               Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. Eis o sacerdote que o Senhor coroou. Aleluia.
             </Text>
           </View>
@@ -93,11 +93,11 @@ export default function Page1114() {
           <Text className="em">Jo. 15, 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Majórem caritátem nemo habet, ut ánimam suam ponat quis pro amícis
               suis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ninguém pode dar maior prova de amor do que sacrificar a vida
               pelos seus amigos.
             </Text>
@@ -106,12 +106,12 @@ export default function Page1114() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Clementíssime Deus, múnera hæc tua benedictióne perfunde, et nos
               in fide confírma: quam sanctus Jósaphat Martyr et Póntifex tuus,
               effúso sánguine, asséruit. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó clementíssimo Deus, infundi abundantemente a vossa bênção sobre
               estas ofertas; e dignai-Vos fortalecer-nos na fé, pela qual o
               vosso Santo Mártir e Pontífice Josafá derramou o sangue. Por nosso
@@ -124,10 +124,10 @@ export default function Page1114() {
           <Text className="em">Jo. 10, 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ego sum pastor bonus: et cognósco oves meas et cognóscunt me meæ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sou o bom pastor: conheço as minhas ovelhas; e as minhas ovelhas
               conhecem-me.
             </Text>
@@ -136,12 +136,12 @@ export default function Page1114() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Spíritum, Dómine, fortitúdinis hæc nobis tríbuat mensa cœléstis:
               quæ sancti Jósaphat Mártyris tui atque Pontíficis vitam pro
               Ecclésiæ honóre júgiter áluit ad victóriam. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que o Espírito da fortaleza, Senhor, nos seja dado nesta celestial
               mesa, em que o vosso Santo Mártir e Pontífice Josafá encontrou
               sempre alimento de vida até alcançar a vitória em honra da Igreja.

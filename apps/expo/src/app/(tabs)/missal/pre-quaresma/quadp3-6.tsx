@@ -19,12 +19,12 @@ export default function PageQuadp36() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adésto, Dómine, supplicatiónibus nostris: et concéde; ut hoc
               sollémne jejúnium, quod animábus corporibúsque curándis salúbriter
               institútum est, devóto servítio celebrémus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Atendei, Senhor, às nossas súplicas e concedei-nos a graça de
               celebrarmos como servos devotos este solene jejum, que foi
               salutarmente instituído para curar as nossas almas e os nossos
@@ -37,9 +37,11 @@ export default function PageQuadp36() {
           <Text className="em">Is. 58, 9-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus Deus: Si abstúleris de médio tui caténam, et
               desíeris exténdere dígitum, et loqui quod non prodest. Cum
               effúderis esuriénti ánimam tuam, et ánimam afflíctam repléveris,
@@ -57,7 +59,7 @@ export default function PageQuadp36() {
               terræ, et cibábo te hereditáte Jacob, patris tui. Os enim Dómini
               locútum est.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Assim fala o Senhor Deus: «Se acabar no meio de vós o jugo; se
               cessardes de estender o dedo e de falar em coisas que não são
               proveitosas; se assistirdes ao faminto com o carinho da vossa alma
@@ -85,15 +87,15 @@ export default function PageQuadp36() {
           <Text className="em">Mc. 6, 47-56</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Marcum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Marcos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Marcos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Cum sero esset, erat navis in médio mari, et
               Jesus solus in terra. Et videns discípulos suos laborántes in
               remigándo (erat enim ventus contrárius eis), et circa quartam
@@ -113,7 +115,7 @@ export default function PageQuadp36() {
               vel fímbriam vestiménti ejus tángerent: et quotquot tangébant eum,
               salvi fiébant.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, sendo quase noite, a barca estava no meio do mar; e
               Jesus estava, só, em terra. Vendo Ele, então, os seus discípulos
               fatigados de remar (pois o vento era contrário) cerca da quarta
@@ -139,13 +141,13 @@ export default function PageQuadp36() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súscipe, Dómine, sacrifícium, cujus te voluísti dignánter
               immolatióne placári: præsta, quǽsumus; ut, hujus operatióne
               mundáti, beneplácitum tibi nostræ mentis offerámus afféctum. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aceitai, Senhor, este sacrifício, cuja imolação quisestes que
               possuísse a virtude de aplacar-Vos, e permiti, Vos suplicamos,
               que, purificados pela sua virtude, queirais aceitar o afecto do
@@ -156,12 +158,12 @@ export default function PageQuadp36() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœléstis vitæ múnere vegetáti, quǽsumus, Dómine: ut, quod est
               nobis in præsénti vita mystérium, fiat æternitátis auxílium. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Agora, que fomos alimentados com o pão da vida celestial, Vos
               suplicamos, Senhor, permiti que este dom, que é para nós mystério
               nesta vida, seja nosso auxílio na eternidade. Por nosso Senhor...
@@ -171,21 +173,23 @@ export default function PageQuadp36() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fidéles tui, Deus, per tua dona firméntur: ut éadem et percipiéndo
               requírant, et quæréndo sine fine percípiant. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que os vossos fiéis, ó Deus, sejam fortificados com vossos dons, a
               fim de que, recebendo-os, os procurem, e, procurando-os, os
               alcancem perpetuamente. Por nosso Senhor...

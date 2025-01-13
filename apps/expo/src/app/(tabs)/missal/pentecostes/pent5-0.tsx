@@ -15,30 +15,31 @@ export default function PagePent50() {
           <Text className="em">Sl. 26, 7 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto,
               ne derelínquas me neque despícias me, Deus, salutáris meus.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Dóminus illuminátio mea
-              et salus mea, quem timébo? ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Dóminus
+              illuminátio mea et salus mea, quem timébo? ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi, Senhor, a oração com que Vos imploro. Sede o meu auxílio: me
               não abandoneis, nem me desprezeis, ó meu Deus e meu Salvador!{" "}
-              <Text className="em">Sl. ibid., 1</Text> O Senhor é a minha luz e
-              a minha salvação: a quem, pois, temerei? ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> O
+              Senhor é a minha luz e a minha salvação: a quem, pois, temerei? ℣.
+              Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui diligéntibus te bona invisibília præparásti: infúnde
               córdibus nostris tui amóris afféctum; ut te in ómnibus et super
               ómnia diligéntes, promissiónes tuas, quæ omne desidérium súperant,
               consequámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que preparastes os bens invisíveis para aqueles que Vos
               amam, infundi nos nossos corações os afectos do vosso amor, a fim
               de que, amando-Vos em todas as coisas e acima de todas elas,
@@ -52,11 +53,13 @@ export default function PagePent50() {
           <Text className="em">1 Pe. 3, 8-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Petri Apóstoli.
             </Text>
-            <Text className="text-base">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Pedro.
+            </Text>
+            <Text className="text-base latin">
               Caríssimi: Omnes unánimes in oratióne estóte, compatiéntes,
               fraternitátis amatóres, misericórdes, modésti, húmiles: non
               reddéntes malum pro malo, nec maledíctum pro maledícto, sed e
@@ -71,7 +74,7 @@ export default function PagePent50() {
               timuéritis: et non conturbémini. Dóminum autem Christum
               sanctificáte in córdibus vestris.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimos: Sede todos unidos na oração e igualmente compassivos,
               amando-vos como irmãos; sede misericordiosos, modestos e humildes,
               não retribuindo o mal com o mal, nem a injúria com a injúria; mas,
@@ -95,23 +98,25 @@ export default function PagePent50() {
           <Text className="em">Sl. 83, 10 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Protéctor noster, áspice, Deus, et réspice super servos tuos. ℣.
               Dómine, Deus virtútum, exáudi preces servórum tuórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que sois o nosso protector, fitai-nos; volvei vossos olhos
               para os vossos servos. ℣. Senhor, Deus dos exércitos, ouvi as
               preces dos vossos servos.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 20, 1</Text>{" "}
-              Dómine, in virtúte tua lætábitur rex: et super salutáre tuum
-              exsultábit veheménter. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 20, 1</Text> Dómine, in
+              virtúte tua lætábitur rex: et super salutáre tuum exsultábit
+              veheménter. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 20, 1</Text> Senhor,
-              o rei regozija-se com vosso poder, e, vendo-se salvo por Vós,
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 20, 1</Text> Senhor, o
+              rei regozija-se com vosso poder, e, vendo-se salvo por Vós,
               exultará em transportes de alegria! Aleluia.
             </Text>
           </View>
@@ -121,15 +126,15 @@ export default function PagePent50() {
           <Text className="em">Mt. 5, 20-24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Nisi abundáverit
               justítia vestra plus quam scribárum et pharisæórum, non intrábitis
               in regnum cœlórum. Audístis, quia dic tum est antíquis: Non
@@ -141,7 +146,7 @@ export default function PagePent50() {
               áliquid advérsum te: relínque ibi munus tuum ante altáre et vade
               prius reconciliári fratri tuo: et tunc véniens ófferes munus tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, Jesus disse aos seus discípulos: Se a vossa justiça
               não for mais perfeita do que a dos escribas e a dos fariseus, não
               entrareis no reino dos céus. Sabeis o que foi dito aos antigos:
@@ -161,11 +166,11 @@ export default function PagePent50() {
           <Text className="em">Sl. 15, 7 & 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum
               in conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendirei o Senhor, que me deu a inteligência: tenho sempre o
               Senhor na minha presença, pois está à minha dextra para que nunca
               seja abalado.
@@ -175,13 +180,13 @@ export default function PagePent50() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Propitiáre, Dómine, supplicatiónibus nostris: et has oblatiónes
               famulórum famularúmque tuárum benígnus assúme; ut, quod sínguli
               obtulérunt ad honórem nóminis tui, cunctis profíciat ad salútem.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, em virtude das nossas orações, tornai-Vos propício às
               nossas súplicas e recebei benigno estas oblações dos vossos servos
               e servas, a fim de que aquilo que Vos é oferecido por cada um de
@@ -195,11 +200,11 @@ export default function PagePent50() {
           <Text className="em">Sl. 26, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini
               ómnibus diébus vitæ meæ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Uma só coisa pedi a Deus e pedi-la-ei sempre: habitar todos os
               dias da minha vida na casa do Senhor.
             </Text>
@@ -208,12 +213,12 @@ export default function PagePent50() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quos cœlésti, Dómine, dono satiásti: præsta, quǽsumus; ut a
               nostris mundémur occúltis et ab hóstium liberémur insídiis. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vós nos saciastes, Senhor, com os dons celestiais; e permiti, Vos
               suplicamos, que sejamos purificados das faltas ocultas e livres
               das ciladas dos inimigos. Por nosso Senhor...

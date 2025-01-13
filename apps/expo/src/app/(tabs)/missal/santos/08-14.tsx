@@ -23,12 +23,12 @@ export default function Page0814() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui virginálem aulam beátæ Maríæ, in qua habitáres, elígere
               dignátus es: da, quǽsumus; ut, sua nos defensióne munitos,
               jucúndos fácias suæ interésse festivitáti: Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que escolhestes para vossa morada o seio virginal da B.
               Virgem Maria, concedei-nos, Vos rogamos, que, munidos com sua
               protecção, possamos com alegria associar-nos à sua festa. Ó Vós,
@@ -65,11 +65,11 @@ export default function Page0814() {
           <Text className="h3">Ofertório</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beáta es, Virgo María, quæ ómnium portásti Creatórem: genuísti qui
               te fecit, et in ætérnum pérmanes Virgo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bem-aventurada sois, ó Virgem Maria, pois trouxestes no vosso seio
               o Criador de todas as coisas. Gerastes Aquele que vos criou; e
               permanecereis eternamente Virgem.
@@ -79,13 +79,13 @@ export default function Page0814() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Múnera nostra, Dómine, apud cleméntiam tuam Dei Genetrícis
               comméndet orátio: quam idcírco de praesénti sǽculo transtulísti;
               ut pro peccátis nostris apud te fiduciáliter intercédat. Per
               eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que as nossas ofertas, Senhor, tenham como recomendação junto da
               vossa clemência as súplicas da Mãe de Deus, a qual arrebatastes
               deste mundo para interceder com confiança pelos nossos pecados
@@ -96,11 +96,11 @@ export default function Page0814() {
           <Text className="h3">Comúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bem-aventuradas as entranhas da B. Virgem Maria, que trouxeram
               encerrado o Filho do Pai Eterno.
             </Text>
@@ -109,13 +109,13 @@ export default function Page0814() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Concéde, miséricors Deus, fragilitáti nostræ præsídium: ut, qui
               sanctæ Dei Genetrícis festivitátem prævénimus; intercessiónis ejus
               auxílio a nostris iniquitátibus resurgámus. Per eúndem Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus de misericórdia, dignai-Vos vir em auxílio da nossa
               fragilidade, a fim de que, antecipando a festividade da Santa Mãe
               de Deus, possamos, com o auxílio da sua intercessão, ressuscitar

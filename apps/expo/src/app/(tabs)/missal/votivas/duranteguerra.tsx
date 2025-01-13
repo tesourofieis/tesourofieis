@@ -15,35 +15,35 @@ export default function PageDuranteguerra() {
           <Text className="em">Sl. 24, 6, 3 & 22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ
               a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera
               nos, Deus Israël, ex ómnibus angústiis nostris. (T. P. Allelúja,
-              allelúja.) <Text className="em">Ps. ibid., 1-2</Text> Ad te,
-              Dómine, levávi ánimam meam: Deus meus, in te confído, non
+              allelúja.) <Text className="text-base latin">Ps. ibid., 1-2</Text>{" "}
+              Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non
               erubéscam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lembrai-Vos, Senhor, de que as vossas misericórdias são eternas: e
               não permitais que os nossos inimigos nos dominem. Livrai-nos,
               Senhor, dos males que nos afligem. (T. P. Aleluia, aleluia.){" "}
-              <Text className="em">Sl. ibid., 1-2</Text> A Vós elevei a minha
-              alma. Ó meu Deus, confio em Vós: não permitireis que fique
-              envergonhado. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1-2</Text> A Vós
+              elevei a minha alma. Ó meu Deus, confio em Vós: não permitireis
+              que fique envergonhado. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui cónteris bella, et impugnatóres in te sperántium
               potentia tuæ defensiónis expúgnas: auxiliáre fámulis tuis,
               implorántibus misericórdiam tuam; ut, inimicórum suórum feritáte
               depréssa, incessábili te gratiárum actióne laudémus. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que terminais as guerras e que com o poder do vosso
               socorro repelis os agressores daqueles que em Vós confiam,
               socorrei os vossos servos, que imploram a vossa misericórdia, a
@@ -57,9 +57,11 @@ export default function PageDuranteguerra() {
           <Text className="em">Jr. 42, 1-2 & 7-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Jeremíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Jeremias.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Jeremíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Jeremias.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Accessérunt omnes príncipes bellatórum:
               dixerúntque ad Jeremíam Prophétam: Ora pro nobis ad Dóminum, Deum
               tuum. Et factum est verbum Dómini ad Jeremíam. Vocavítque omnes
@@ -74,7 +76,7 @@ export default function PageDuranteguerra() {
               dabo vobis misericórdias, et miserébor vestri, et habitáre vos
               fáciam in terra vestra: dicit Dóminus omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, todos os principais guerreiros vieram ter com o
               Profeta Jeremias, dizendo: «Orai por nós ao Senhor, vosso Deus».
               Então o Senhor falou a Jeremias, que convocou todos os principais
@@ -96,49 +98,53 @@ export default function PageDuranteguerra() {
           <Text className="em">Sl. 76, 15-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tu es Deus, qui facis mirabília solus: notam fecísti in géntibus
               virtútem tuam. ℣. Liberásti in bráchio tuo pópulum tuum, fílios
               Israël et Joseph.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sois o Senhor que opera prodígios! Fazeis conhecer aos povos o
               vosso poder. ℣. Livrastes com a força do vosso braço o vosso povo
               os filhos de Israel e de José.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 58, 2</Text> Eripe
-              me de inimícis meis, Deus meus: et ab insurgéntibus in me líbera
-              me. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 58, 2</Text> Eripe me de
+              inimícis meis, Deus meus: et ab insurgéntibus in me líbera me.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 58, 2</Text>{" "}
-              Livrai-me dos meus inimigos, ó meu Deus; livrai-me dos meus
-              perseguidores. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 58, 2</Text> Livrai-me
+              dos meus inimigos, ó meu Deus; livrai-me dos meus perseguidores.
+              Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 102, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis. ℣.{" "}
-              <Text className="em">Ps. 78, 8-9</Text> Dómine, ne memíneris
-              iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ
-              tuæ, quia páuperes facti sumus nimis. ℣. Adjuva nos, Deus,
-              salutáris noster: et propter glóriam nóminis tui, Dómine, líbera
-              nos: et propítius esto peccátis nostris, propter nomen tuum.
+              <Text className="text-base latin">Ps. 78, 8-9</Text> Dómine, ne
+              memíneris iniquitátum nostrárum antiquárum: cito antícipent nos
+              misericórdiæ tuæ, quia páuperes facti sumus nimis. ℣. Adjuva nos,
+              Deus, salutáris noster: et propter glóriam nóminis tui, Dómine,
+              líbera nos: et propítius esto peccátis nostris, propter nomen
+              tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Não nos castigueis, Senhor, consoante merecemos pelos nossos
-              pecados e iniquidades. ℣. <Text className="em">Sl. 78, 8-9</Text>{" "}
+              pecados e iniquidades. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 78, 8-9</Text>{" "}
               Esquecei-Vos das nossas antigas iniquidades, Senhor: apressai-Vos
               em revestir-nos com vossas misericórdias, pois grande é a nossa
               miséria. ℣. Auxiliai-nos, ó Deus, nosso Salvador. Para glória do
@@ -147,23 +153,25 @@ export default function PageDuranteguerra() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato e diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 58, 2</Text> Eripe
-              me de inimícis meis, Deus meus: et ab insurgéntibus in me líbera
-              me. Allelúja. ℣. <Text className="em">ibid., 17</Text> Ego autem
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 58, 2</Text> Eripe me de
+              inimícis meis, Deus meus: et ab insurgéntibus in me líbera me.
+              Allelúja. ℣. <Text className="em">ibid., 17</Text> Ego autem
               cantábo fortitúdinem tuam: et exsultábo mane misericórdiam tuam.
               Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 58, 2</Text>{" "}
-              Livrai-me dos meus inimigos, ó meu Deus: livrai-me dos meus
-              perseguidores. Aleluia. ℣. <Text className="em">ibid., 17</Text>{" "}
-              Pois engrandecerei o vosso poder: e louvarei desde manhã a vossa
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 58, 2</Text> Livrai-me
+              dos meus inimigos, ó meu Deus: livrai-me dos meus perseguidores.
+              Aleluia. ℣. <Text className="em">ibid., 17</Text> Pois
+              engrandecerei o vosso poder: e louvarei desde manhã a vossa
               misericórdia. Aleluia.
             </Text>
           </View>
@@ -173,15 +181,15 @@ export default function PageDuranteguerra() {
           <Text className="em">Mt. 24, 3-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Accessérunt ad Jesum discípuli secréto, dicéntes:
               Dic nobis, quando hæc erunt? et quod signum advéntus tui et
               consummatiónis sǽculi? Et respóndens Jesus, dixit eis: Vidéte, ne
@@ -192,7 +200,7 @@ export default function PageDuranteguerra() {
               regnum, et erunt pestiléntiæ et fames et terræmótus per loca. Hæc
               autem ómnia, inítia sunt dolórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, aproximaram-se de, Jesus os seus discípulos em
               particular, perguntando-Lhe: «Dizei-nos quando acontecerão essas
               coisas? Que sinal haverá da vossa vinda e da consumação dos
@@ -212,11 +220,11 @@ export default function PageDuranteguerra() {
           <Text className="em">Sl. 17, 28 & 32</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Pópulum húmilem salvum fácies, Dómine, et óculos superbórum
               humiliábis: quóniam quis Deus præter te, Dómine? (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Salvareis o vosso povo, que se humilha, Senhor; e humilhareis os
               olhos dos soberbos: pois quem é Deus, senão Vós? (T. P. Aleluia.)
             </Text>
@@ -225,12 +233,12 @@ export default function PageDuranteguerra() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrifícium, Dómine, quod immolámus, inténde placátus: ut ab omni
               nos éruat bellórum nequítia, et in tuæ protectiónis securitáte
               constítuat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deixai-Vos aplacar, Senhor, e dignai-Vos lançar os vossos olhares
               para o sacrifício que Vos oferecemos, a fim de que, pelo seu
               poder, sejamos inteiramente preservados da guerra e gozemos com
@@ -243,10 +251,10 @@ export default function PageDuranteguerra() {
           <Text className="em">Sl. 30, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Inclína aurem tuam: accélera, ut erípias nos. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Inclinai os vossos ouvidos e apressai-Vos em socorrer-nos. (T. P.
               Aleluia.)
             </Text>
@@ -255,13 +263,13 @@ export default function PageDuranteguerra() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, regnórum ómnium regúmque dominátor, qui nos et percutiéndo
               sanas et ignoscéndo consérvas: præténde nobis misericórdiam tuam;
               ut tranquillitáte pacis, tua potestáte serváta, ad remédia
               correctiónis utámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que reinais sobre todas as nações e acima de todos os
               reis; que nos curais, castigando-nos, e, castigando-nos, nos
               conservais: acolhei-nos sob a vossa misericórdia, a fim de que, em

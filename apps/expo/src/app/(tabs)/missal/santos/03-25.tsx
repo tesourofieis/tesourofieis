@@ -17,33 +17,33 @@ export default function Page0325() {
           <Text className="em">Sl. 44, 13, 15 & 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vultum tuum deprecabúntur omnes dívites plebis: adducántur Regi
               Vírgines post eam: próximæ ejus adducántur tibi in lætítia et
               exsultatióne. (T. P. Allelúja, allelúja.){" "}
-              <Text className="em">Ps. ib., 2</Text> Eructávit cor meum verbum
-              bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ib., 2</Text> Eructávit cor
+              meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Todos os poderosos da terra implorarão os vossos olhares: após ela
               serão apresentadas virgens ao Rei: as suas companheiras serão
               apresentadas ao Rei com grande alegria e jubilo. (T. P. Aleluia,
-              aleluia). <Text className="em">Sl. ib., 2</Text> Meu coração
-              exprimiu uma palavra excelente: «Consagro ao Rei as minhas
-              obras!». ℣. Glória ao Pai...
+              aleluia). <Text className="text-base vernacular">Sl. ib., 2</Text>{" "}
+              Meu coração exprimiu uma palavra excelente: «Consagro ao Rei as
+              minhas obras!». ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo
               nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut,
               qui vere eam Genetrícem Dei crédimus, ejus apud te
               intercessiónibus adjuvémur. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, segundo a anunciação do Anjo, quisestes que o vosso
               Verbo assumisse a carne humana no seio da bem-aventurada Virgem
               Maria, concedei aos vossos suplicantes que os que crêem que Ela é
@@ -57,9 +57,11 @@ export default function Page0325() {
           <Text className="em">Is. 7, 10-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Locútus est Dóminus ad Achaz, dicens: Pete tibi
               signum a Dómino, Deo tuo, in profúndum inférni, sive in excélsum
               supra. Et dixit Achaz: Non petam ei non tentábo Dóminum. Et dixit:
@@ -69,7 +71,7 @@ export default function Page0325() {
               et vocábitur nomen ejus Emmánuel. Butýrum ei mel cómedet, ut sciat
               reprobáre malum et elígere bonum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, falou o Senhor a Acaz e disse-lhe: «Pedi ao Senhor,
               vosso Deus, um prodígio nas profundezas do inferno ou nas alturas
               do céu». Acaz respondeu: «Não pedirei tal coisa e não tentarei o
@@ -87,12 +89,12 @@ export default function Page0325() {
           <Text className="em">Sl. 44, 3 et 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
               ætérnum. ℣. Propter veritátem et mansuetúdinem et justítiam: et
               dedúcet te mirabíliter déxtera tua.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A graça espalhou-se nos vossos lábios; eis porque Deus vos
               abençoou para a eternidade. ℣. Reinareis pela verdade, mansidão e
               justiça; e a vossa dextra conduzir-vos-á admiravelmente.
@@ -104,40 +106,44 @@ export default function Page0325() {
           <Text className="em">ibid., 11 & 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex
-              speciem tuam. ℣. <Text className="em">ibid., 13 & 10</Text> Vultum
+              speciem tuam. ℣.{" "}
+              <Text className="text-base latin">ibid., 13 & 10</Text> Vultum
               tuum deprecabúntur omnes dívites plebis: fíliæ regum in honóre
               tuo. ℣. <Text className="em">ibid., 15-16</Text> Adducántur Regi
               Vírgines post eam: próximæ ejus afferéntur tibi. ℣. Adducántur in
               lætítia et exsultatióne: adducántur in templum Regis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi, minha filha, vede e abri os vossos ouvidos; pois o Rei está
               extasiado com vossa formosura. ℣.{" "}
-              <Text className="em">ibid., 13 & 10</Text> Todos os poderosos da
-              terra implorarão os vossos olhares; as filhas dos reis formarão a
-              vossa corte de honra. ℣. <Text className="em">ibid., 15-16</Text>{" "}
-              As virgens serão apresentados ao Rei após ela: as suas
-              companheiras ser-vos-ão apresentadas. Serão conduzidas por entre a
-              alegria e o júbilo e apresentadas no templo do rei.
+              <Text className="text-base vernacular">ibid., 13 & 10</Text> Todos
+              os poderosos da terra implorarão os vossos olhares; as filhas dos
+              reis formarão a vossa corte de honra. ℣.{" "}
+              <Text className="em">ibid., 15-16</Text> As virgens serão
+              apresentados ao Rei após ela: as suas companheiras ser-vos-ão
+              apresentadas. Serão conduzidas por entre a alegria e o júbilo e
+              apresentadas no templo do rei.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Luc. 1, 28</Text> Ave,
-              María, grátia plena; Dóminus tecum: benedicta tu in muliéribus.
-              Allelúja. ℣. <Text className="em">Num. 17, 8</Text> Virga Jesse
-              flóruit: Virgo Deum et hóminem génuit: pacem Deus réddidit, in se
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Luc. 1, 28</Text> Ave, María,
+              grátia plena; Dóminus tecum: benedicta tu in muliéribus. Allelúja.
+              ℣. <Text className="em">Num. 17, 8</Text> Virga Jesse flóruit:
+              Virgo Deum et hóminem génuit: pacem Deus réddidit, in se
               reconcílians ima summis. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Lc. 1, 28</Text> Ave,
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Lc. 1, 28</Text> Ave,
               Maria: o Senhor é convosco. Bendita sois Vós entre as mulheres.
               Aleluia. ℣. <Text className="em">Nm. 17, 8</Text> A vara de Jessé
               floresceu e a Virgem deu à luz o Homem-Deus: restabeleceu Deus a
@@ -151,15 +157,15 @@ export default function Page0325() {
           <Text className="em">Lc. 1, 26-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Missus est Angelus Gábriel a Deo in civitátem
               Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui
               nomen erat Joseph, de domo David, et nomen Vírginis María. Ei
@@ -180,7 +186,7 @@ export default function Page0325() {
               omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi
               secúndum verbum tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da
               Galileia, chamada Nazaré, a uma Virgem, desposada com um varão,
               cujo nome era José, da casa de David; e o nome da Virgem era
@@ -209,11 +215,11 @@ export default function Page0325() {
           <Text className="em">Lc. l, 28 & 42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ave, Maria, grátia plena; Dóminus tecum: benedícta tu in
               muliéribus, et benedíctus fructus ventris tui. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós
               entre as mulheres, e bendito é o fruto do vosso ventre. (T. P.
               Aleluia.)
@@ -223,13 +229,13 @@ export default function Page0325() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In méntibus nostris, quǽsumus, Dómine, veræ fídei sacraménta
               confírma: ut, qui concéptum de Vírgine Deum verum et hóminem
               confitémur; per ejus salutíferæ resurrectiónis poténtiam, ad
               ætérnam mereámur perveníre lætítiam. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos confirmar nas nossas almas, Senhor, os mystérios da
               verdadeira fé, a fim de que nós, que confessamos que Aquele que
               foi concebido pela Virgem Maria é verdadeiro Deus e Homem,
@@ -243,11 +249,11 @@ export default function Page0325() {
           <Text className="em">Is. 7, 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ecce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus
               Emmánuel. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis que a Virgem conceberá, dará à luz um filho e o seu nome será
               Emanuel. (T. P. Aleluia.)
             </Text>
@@ -256,13 +262,13 @@ export default function Page0325() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut, qui.
               Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus; per
               passiónem ejus et crucem, ad resurrectiónis glóriam perducámur.
               Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Infundi, Senhor, Vos suplicamos, a vossa graça em nossas almas,
               para que nós, que pela anunciação do Anjo conhecemos a Incarnação
               do vosso Filho, sejamos conduzidos à glória da ressurreição pela

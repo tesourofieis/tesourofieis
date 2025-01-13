@@ -15,18 +15,20 @@ export default function PageEvitarmortandade() {
           <Text className="em">2 Rs. 24, 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Recordáre, Dómine, testaménti tui, et dic Angelo percutiénti:
               Cesset jam manus tua, et non desolétur terra, et ne perdas omnem
               ánimam vivéntem. (T. P. Allelúja, allelúja.){" "}
-              <Text className="em">Ps. 79, 2</Text> Qui regis Israël, inténde:
-              qui dedúcis, velut ovem, Joseph. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 79, 2</Text> Qui regis
+              Israël, inténde: qui dedúcis, velut ovem, Joseph. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recordai-Vos da vossa promessa, Senhor, e dizei ao Anjo que nos
               fere: «que a vossa mão cesse de ferir; que a terra já não seja
               desbaratada; não extermineis todos os seres viventes!». (T. P.
-              Aleluia, aleluia.) <Text className="em">Sl. 79, 2</Text> Ouvi, ó
+              Aleluia, aleluia.){" "}
+              <Text className="text-base vernacular">Sl. 79, 2</Text> Ouvi, ó
               vós que governais Israel; ó vós que conduzis José, como uma
               ovelha. ℣. Glória ao Pai...
             </Text>
@@ -35,13 +37,13 @@ export default function PageEvitarmortandade() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui non mortem, sed pœniténtiam desideras peccatórum:
               pópulum tuum ad te reverténtem propítius réspice; ut, dum tibi
               devótus exsístit, iracúndiæ tuæ flagélla ab eo cleménter amóveas.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que não desejais que os pecadores morram, mas que eles
               façam penitência, olhai benigno para o vosso povo, que se converte
               a Vós, de modo que, agora que ele se mostra fiel, o afasteis com
@@ -54,9 +56,11 @@ export default function PageEvitarmortandade() {
           <Text className="em">2 Rs. 24, 15-19 & 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Regum.</Text>
-            <Text className="text-base">Lição do Livro dos Reis.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Regum.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro dos Reis.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Immísit Dóminus pestiléntiam in Israël, de mane
               usque ad tempus constitútum, et mórtui sunt ex pópulo, a Dan usque
               ad Bersabée, septuagínta mília virórum. Cumque extendísset manum
@@ -73,7 +77,7 @@ export default function PageEvitarmortandade() {
               óbtulit holocáusta et pacífica: et propitiátus est Dóminus terræ,
               et cohíbita est plaga ab Israël.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, lançou o Senhor a peste em Israel, desde a manhã
               daquele dia até ao tempo marcado. Ora, desde o povo de Dan até
               Bersabeia, morreram setenta mil homens. O Anjo do Senhor ia já a
@@ -98,77 +102,80 @@ export default function PageEvitarmortandade() {
           <Text className="em">Sl. 106, 20-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Misit Dóminus verbum suum, et sanávit eos: et erípuit eos de morte
               eórum. ℣. Confiteántur Dómino misericórdiæ ejus: et mirabília ejus
               fíliis hóminum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fez o Senhor ouvir a sua palavra, curou-os e salvou-os da morte.
               ℣. Cantem-se louvores em honra das misericórdias do Senhor: sejam
               engrandecidas as maravilhas que Ele praticou em favor dos filhos
               dos homens.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 68, 2</Text>{" "}
-              Salvum me fac, Deus, quóniam intravérunt aquæ usque ad ánimam
-              meam. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 68, 2</Text> Salvum me fac,
+              Deus, quóniam intravérunt aquæ usque ad ánimam meam. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 68, 2</Text>{" "}
-              Salvai-me, ó Deus, pois as águas (do mal) inundaram a minha alma,
-              Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 68, 2</Text> Salvai-me,
+              ó Deus, pois as águas (do mal) inundaram a minha alma, Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 102, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis. ℣.{" "}
-              <Text className="em">Ps. 78, 8-9</Text> Dómine, ne memíneris
-              iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ
-              tuæ, quia páuperes facti sumus nimis. ℣. Adjuva nos, Deus,
-              salutáris noster: et propter glóriam nóminis tui, Dómine, líbera
-              nos, et propítius esto peccátis nostris, propter nomen tuum.
+              <Text className="text-base latin">Ps. 78, 8-9</Text> Dómine, ne
+              memíneris iniquitátum nostrárum antiquárum: cito antícipent nos
+              misericórdiæ tuæ, quia páuperes facti sumus nimis. ℣. Adjuva nos,
+              Deus, salutáris noster: et propter glóriam nóminis tui, Dómine,
+              líbera nos, et propítius esto peccátis nostris, propter nomen
+              tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Não nos castigueis, Senhor, consoante merecemos, pelos pecados que
               praticámos: nem nos julgueis segundo as nossas iniquidades.{" "}
-              <Text className="em">Sl. 78, 8-9</Text> Esquecei-Vos das nossas
-              iniquidades, Senhor: apressai-Vos em cobrir-nos com vossas
-              misericórdias, pois grande é a nossa miséria. ℣. Auxiliai-nos, ó
-              Deus, nosso Salvador. Para glória do vosso nome, livrai-nos,
-              Senhor! Por cansa do vosso nome, perdoai os nossos pecados,
-              Senhor!
+              <Text className="text-base vernacular">Sl. 78, 8-9</Text>{" "}
+              Esquecei-Vos das nossas iniquidades, Senhor: apressai-Vos em
+              cobrir-nos com vossas misericórdias, pois grande é a nossa
+              miséria. ℣. Auxiliai-nos, ó Deus, nosso Salvador. Para glória do
+              vosso nome, livrai-nos, Senhor! Por cansa do vosso nome, perdoai
+              os nossos pecados, Senhor!
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato e diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 68, 2</Text>{" "}
-              Salvum me fac, Deus, quóniam intravérunt aquæ usque ad ánimam
-              meam. Allelúja. ℣. <Text className="em">Zach. 8, 7 et 8</Text>{" "}
-              Salvábo pópulum meum Israël in die malo, et ero eis in Deum, in
-              veritáte et justítia. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 68, 2</Text> Salvum me fac,
+              Deus, quóniam intravérunt aquæ usque ad ánimam meam. Allelúja. ℣.{" "}
+              <Text className="em">Zach. 8, 7 et 8</Text> Salvábo pópulum meum
+              Israël in die malo, et ero eis in Deum, in veritáte et justítia.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 68, 2</Text>{" "}
-              Salvai-me, ó Deus, pois as águas (do mal) inundaram a minha alma.
-              Aleluia. ℣. <Text className="em">Zc. 8, 7 et 8</Text> No dia mau
-              Salvarei o meu povo de Israel: e serei o seu Deus com verdade e
-              justiça. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 68, 2</Text> Salvai-me,
+              ó Deus, pois as águas (do mal) inundaram a minha alma. Aleluia. ℣.{" "}
+              <Text className="em">Zc. 8, 7 et 8</Text> No dia mau Salvarei o
+              meu povo de Israel: e serei o seu Deus com verdade e justiça.
+              Aleluia.
             </Text>
           </View>
 
@@ -177,15 +184,15 @@ export default function PageEvitarmortandade() {
           <Text className="em">Lc. 4, 38-44</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Surgens Jesus de synagóga, introívit in domum
               Simónis. Socrus autem Simónis tenebátur magnis fébribus: et
               rogavérunt illum pro ea. Et stans super illam, imperávit febri: et
@@ -200,7 +207,7 @@ export default function PageEvitarmortandade() {
               aliis civitátibus opórtet me evangelizáre regnum Dei: quia ideo
               missus sum. Et erat prǽdicans in synagógis Galilǽæ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, havendo Jesus saído da sinagoga, entrou na casa de
               Simão. Ora a sogra de Simão estava retida no leito com uma grande
               febre. Então eles rogaram a Jesus por ela. Logo Jesus impôs a sua
@@ -225,12 +232,12 @@ export default function PageEvitarmortandade() {
           <Text className="em">Nm. 16, 48</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Stetit póntifex inter mórtuos et vivos, habens thuríbulum áureum
               in manu sua: et ófferens incénsi sacrifícium, placávit iram Dei,
               et cessávit quassátio a Dómino. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Pontífice estava entre os mortos e os vivos, tendo na mão o
               turíbulo de ouro: e oferecendo um sacrifício com incenso, aplacou
               a cólera divina. Então o Senhor cessou de os castigar. (T. P.
@@ -241,12 +248,12 @@ export default function PageEvitarmortandade() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Subvéniat nobis, quǽsumus, Dómine, sacrifícii præséntis oblátio:
               quæ nos et ab erróribus univérsis poténter absolvat, et a totíus
               erípiat perditiónis incúrsu. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a oblação do presente sacrifício nos sirva de auxílio, Vos
               suplicamos, Senhor; e dignai-Vos perdoar-nos todos nossos erros e
               livrar-nos dos males que nos cercam. Por nosso Senhor...
@@ -258,12 +265,12 @@ export default function PageEvitarmortandade() {
           <Text className="em">Lc. 6, 17, 18 & 19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Multitúdo languéntium, et qui vexabántur a spirítibus immúndis,
               veniébant ad eum: quia virtus de illo exíbat, et sanábat omnes.
               (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Uma multidão de doentes e doutros que estavam atacados de
               espíritos imundos vinha ter com Ele; pois saía de Jesus um poder
               que os curava a todos. (T. P. Aleluia.)
@@ -273,12 +280,12 @@ export default function PageEvitarmortandade() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exáudi nos, Deus, salutáris noster: et pópulum tuum ab iracúndiæ
               tuæ terróribus líberum, et misericórdiæ tuæ fac largitáte secúrum.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi-nos, ó Deus, nosso salvador, e dignai-Vos permitir que o
               vosso povo seja livre de todos os flagelos da vossa ira; e pela
               vossa misericórdia seja restituído à paz e segurança. Por...

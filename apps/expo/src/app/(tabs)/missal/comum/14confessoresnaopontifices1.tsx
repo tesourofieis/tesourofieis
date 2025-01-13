@@ -15,17 +15,18 @@ export default function Page14Confessoresnaopontifices1() {
           <Text className="em">Sl. 36, 30-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium:
               lex Dei ejus in corde ipsíus. (T. P. Allelúja, allelúja.){" "}
-              <Text className="em">Ps. ibid., 1</Text> Noli æmulári in
-              malignántibus: neque zeláveris faciéntes iniquitátem. ℣. Gloria
+              <Text className="text-base latin">Ps. ibid., 1</Text> Noli æmulári
+              in malignántibus: neque zeláveris faciéntes iniquitátem. ℣. Gloria
               Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A boca do justo fala com sabedoria e a sua língua proclama a
               justiça. A lei do seu Deus estará no seu coração. (T. P. Aleluia,
-              aleluia.) <Text className="em">Sl. ibid., 1</Text> Não vos
+              aleluia.){" "}
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> Não vos
               irriteis contra os maus, nem tenhais inveja daqueles que cometem
               iniquidades. ℣. Glória ao Pai...
             </Text>
@@ -34,16 +35,16 @@ export default function Page14Confessoresnaopontifices1() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Deus, qui nos beáti <Text className="text-red-500">N.</Text>{" "}
+            <Text className="text-base latin">
+              Deus, qui nos beáti <Text className="text-base latin">N.</Text>{" "}
               Confessóris tui ánnua solemnitáte lætíficas: concéde propítius;
               ut, cujus natalítia cólimus, étiam actiónes imitémur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que nos alegrais com a solenidade anual do B.{" "}
-              <Text className="text-red-500">N.</Text>, vosso Confessor, visto
-              que celebramos o seu nascimento, concedei-nos propício que
+              <Text className="text-base vernacular">N.</Text>, vosso Confessor,
+              visto que celebramos o seu nascimento, concedei-nos propício que
               imitemos também as suas acções. Por nosso Senhor...
             </Text>
           </View>
@@ -53,9 +54,11 @@ export default function Page14Confessoresnaopontifices1() {
           <Text className="em">Ecl. 31, 8-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Beátus vir, qui invéntus est sine mácula, et qui post aurum non
               ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et
               laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est
@@ -64,7 +67,7 @@ export default function Page14Confessoresnaopontifices1() {
               ídeo stabilíta sunt bona illíus in Dómino, et eleemósynis illíus
               enarrábit omnis ecclésia sanctórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bem-aventurado o homem que foi julgado sem mácula; que não correu
               após o ouro; e não pôs as esperanças nem no dinheiro, nem nos
               tesouros! Quem é ele, para que o louvemos? Porquanto operou coisas
@@ -82,45 +85,49 @@ export default function Page14Confessoresnaopontifices1() {
           <Text className="em">Sl. 91, 13 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in
-              domo Dómini. ℣. <Text className="em">ibid., 3</Text> Annuntiándum
-              mane misericórdiam tuam, et veritátem tuam per noctem.
+              domo Dómini. ℣. <Text className="text-base latin">ibid., 3</Text>{" "}
+              Annuntiándum mane misericórdiam tuam, et veritátem tuam per
+              noctem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O justo florescerá, como a palmeira, e crescerá, como o cedro do
-              Líbano, na casa do Senhor. ℣. <Text className="em">ibid., 3</Text>{" "}
-              Para publicar de manhã a vossa misericórdia; e de noite a vossa
+              Líbano, na casa do Senhor. ℣.{" "}
+              <Text className="text-base vernacular">ibid., 3</Text> Para
+              publicar de manhã a vossa misericórdia; e de noite a vossa
               verdade.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Jac. 1, 12</Text>{" "}
-              Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit,
-              accípiet corónam vitæ. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Jac. 1, 12</Text> Beátus vir,
+              qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet
+              corónam vitæ. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Tg. 1, 12</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Tg. 1, 12</Text>{" "}
               Bem-aventurado o varão que sabe sofrer a tentação, porque, quando
               acabar a tentação, receberá a coroa da vida. Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 111, 1-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣.
               Potens in terra erit semen ejus: generátio rectórum benedicétur.
               ℣. Glória et divitiæ in domo ejus: et justítia ejus manet in
               sǽculum sǽculi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo
               em obedecer-Lhe. ℣. Sua descendência será poderosa na terra; pois
               a geração dos justos será abençoada. ℣. Na sua casa haverá glória
@@ -128,20 +135,22 @@ export default function Page14Confessoresnaopontifices1() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No T. Pascal o Gradual e o Trato e diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Jac. 1, 12</Text>{" "}
-              Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit,
-              accípiet corónam vitæ. Allelúja. ℣.{" "}
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Jac. 1, 12</Text> Beátus vir,
+              qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet
+              corónam vitæ. Allelúja. ℣.{" "}
               <Text className="em">Eccli. 45, 9</Text> Amávit eum Dóminus et
               ornávit eum: stolam glóriæ índuit eum. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. <Text className="em">Tg. 1, 12</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia.{" "}
+              <Text className="text-base vernacular">Tg. 1, 12</Text>{" "}
               Bem-aventurado o varão que sabe sofrer a tentação, porque, quando
               acabar a tentação, receberá a coroa da vida. Aleluia. ℣.{" "}
               <Text className="em">Ecl. 45, 9</Text> O Senhor amou-o, ornou-o e
@@ -154,15 +163,15 @@ export default function Page14Confessoresnaopontifices1() {
           <Text className="em">Lc. 12, 35-40</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri
               præcíncti, et lucernæ ardéntes in mánibus vestris, et vos símiles
               homínibus exspectántibus dóminum suum, quando revertátur a
@@ -176,7 +185,7 @@ export default function Page14Confessoresnaopontifices1() {
               domum suam. Et vos estóte paráti, quia, qua hora non putátis,
               Fílius hóminis véniet.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Estejam cingidos
               os vossos rins; tende nas vossas mãos lâmpadas acesas; sede
               semelhantes a homens que esperam o seu senhor quando volta das
@@ -198,11 +207,11 @@ export default function Page14Confessoresnaopontifices1() {
           <Text className="em">Sl. 88, 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A minha verdade e a minha misericórdia estarão com ele, e, por
               virtude do meu nome, será exaltado o seu poder. (T. P. Aleluia.)
             </Text>
@@ -211,12 +220,12 @@ export default function Page14Confessoresnaopontifices1() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne
               Sanctórum: quibus nos et præséntibus éxui malis confídimus et
               futúris. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos oferecemos este sacrifício de louvor em memória dos
               vossos Santos, para que por meio dele nos livremos dos males
               presentes e futuros. Por nosso Senhor...
@@ -228,12 +237,12 @@ export default function Page14Confessoresnaopontifices1() {
           <Text className="em">Mt. 24, 46-47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem:
               amen, dico vobis, super ómnia bona sua constítuet eum. (T. P.
               Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bem-aventurado o servo que o Senhor, quando vier, achar vigilante.
               Em verdade vos digo que lhe dará a administração de todos seus
               bens. (T. P. Aleluia).
@@ -243,12 +252,12 @@ export default function Page14Confessoresnaopontifices1() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus:
               ut, in cujus hæc commemoratióne percépimus, ejus muniámur et
               précibus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fortalecidos com o alimento e com a bebida celestiais, Vos
               suplicamos humildemente, ó nosso Deus, que nos protejam as preces
               daquele em cuja memória os recebemos. Por nosso Senhor...

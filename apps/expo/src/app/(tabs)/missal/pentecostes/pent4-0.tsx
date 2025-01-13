@@ -15,31 +15,33 @@ export default function PagePent40() {
           <Text className="em">Sl. 26, 1 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dóminus illuminátio mea et salus mea, quem timebo? Dóminus
               defensor vitæ meæ, a quo trepidábo? qui tríbulant me inimíci mei,
               ipsi infirmáti sunt, et cecidérunt.{" "}
-              <Text className="em">Ps. ibid., 3</Text> Si consístant advérsum me
-              castra: non timébit cor meum. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 3</Text> Si
+              consístant advérsum me castra: non timébit cor meum. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor é a minha luz e a minha salvação: a quem, pois, temerei?
               O Senhor é o defensor da minha vida: quem poderá intimidar-me?
               Meus inimigos, que me atribulam, enfraqueceram e caíram.{" "}
-              <Text className="em">Sl. ibid., 3</Text> Ainda que um exército me
-              cercasse, o meu coração não temeria. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 3</Text> Ainda
+              que um exército me cercasse, o meu coração não temeria. ℣. Glória
+              ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da nobis, quǽsumus, Dómine: ut et mundi cursus pacífice nobis tuo
               órdine dirigátur; et Ecclésia tua tranquílla devotióne lætétur.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, Senhor, Vos suplicamos, que, sob a conduta da vossa
               providência, os acontecimentos do mundo decorram pacificamente; e
               que a vossa Igreja goze a alegria de Vos servir com tranquilidade.
@@ -52,13 +54,13 @@ export default function PagePent40() {
           <Text className="em">Rm. 8, 18-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Exístimo, quod non sunt condígnæ passiónes hujus témporis
               ad futúram glóriam, quæ revelábitur in nobis. Nam exspectátio
               creatúræ revelatiónem filiórum Dei exspéctat. Vanitáti enim
@@ -70,7 +72,7 @@ export default function PagePent40() {
               nos gémimus, adoptiónem filiórum Dei exspectántes, redemptiónem
               córporis nostri: in Christo Jesu, Dómino nostro.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Estou persuadido de que os sofrimentos da vida
               presente não têm proporção alguma com a glória que nos há-de ser
               manifestada. Com efeito, as criaturas esperam com viva impaciência
@@ -92,23 +94,25 @@ export default function PagePent40() {
           <Text className="em">Sl. 78, 9 & 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes:
               Ubi est Deus eórum? ℣. Adjuva nos, Deus, salutáris noster: et
               propter honórem nóminis tui, Dómine, líbera nos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Perdoai os nossos pecados, Senhor, para que os povos não digam:
               Onde está o seu Deus? ℣. Auxiliai-nos, ó Senhor, nosso Salvador:
               e, pela glória do vosso nome, livrai-nos, Senhor.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 9, 5 & 10</Text>{" "}
-              Deus, qui sedes su per thronum, et júdicas æquitátem: esto
-              refúgium páuperum in tribulatióne. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 9, 5 & 10</Text> Deus, qui
+              sedes su per thronum, et júdicas æquitátem: esto refúgium páuperum
+              in tribulatióne. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 9, 5 & 10 Ó</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 9, 5 & 10 Ó</Text>{" "}
               Deus, que estais assentado no vosso trono e julgais com justiça,
               sede o refúgio dos pobres na tribulação. Aleluia.
             </Text>
@@ -119,15 +123,15 @@ export default function PagePent40() {
           <Text className="em">Lc. 5, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Cum turbæ irrúerent in Jesum, ut audírent verbum
               Dei, et ipse stabat secus stagnum Genésareth. Et vidit duas naves
               stantes secus stagnum: piscatóres autem descénderant et lavábant
@@ -148,7 +152,7 @@ export default function PagePent40() {
               Simónem Jesus: Noli timére: ex hoc jam hómines eris cápiens. Et
               subdúctis ad terram návibus, relictis ómnibus, secuti sunt eum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo encontrando-se Jesus, nas margens do lago Genesaré,
               rodeado pela multidão que queria ouvir a sua palavra, viu duas
               barcas à beira do lago, havendo os pescadores saído delas para
@@ -178,11 +182,11 @@ export default function PagePent40() {
           <Text className="em">Sl. 12, 4-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Illúmina óculos meos, ne umquam obdórmiam in morte: ne quando
               dicat inimícus meus: Præválui advérsus eum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Iluminai os meus olhos, para que não adormeça na morte e o meu
               inimigo não diga mais tarde: prevaleci contra ele.
             </Text>
@@ -191,12 +195,12 @@ export default function PagePent40() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oblatiónibus nostris, quǽsumus, Dómine, placáre suscéptis: et ad
               te nostras étiam rebélles compélle propítius voluntátes. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deixai-Vos aplacar, Senhor, recebendo as nossas oblações; e
               dignai-Vos propiciamente compelir a nossa vontade rebelde a
               submeter-se a Vós. Por nosso Senhor...
@@ -208,11 +212,11 @@ export default function PagePent40() {
           <Text className="em">Sl. 17, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dóminus firmaméntum meum, et refúgium meum, et liberátor meus:
               Deus meus, adjútor meus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor é o meu sustentáculo, o meu refúgio e o meu libertador:
               Ele é o meu Deus e auxílio!
             </Text>
@@ -221,11 +225,11 @@ export default function PagePent40() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mystéria nos, Dómine, quǽsumus, sumpta puríficent: et suo múnere
               tueántur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos imploramos, Senhor, que estes mystérios, que recebemos, nos
               purifiquem; e que pela sua virtude nos sirvam de protecção. Por
               nosso Senhor...

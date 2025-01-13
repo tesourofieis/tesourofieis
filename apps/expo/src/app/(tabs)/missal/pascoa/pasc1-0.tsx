@@ -15,16 +15,17 @@ export default function PagePasc10() {
           <Text className="em">1 Pe. 2, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quasi modo géniti infántes, allelúja: rationabiles, sine dolo lac
               concupíscite, allelúja, allelúja allelúja.{" "}
-              <Text className="em">Ps. 80, 2</Text> Exsultáte Deo, adjutóri
-              nostro: jubiláte Deo Jacob. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 80, 2</Text> Exsultáte Deo,
+              adjutóri nostro: jubiláte Deo Jacob. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Como meninos recém-nascidos, aleluia, e raciocinando
               convenientemente, desejai com ardor beber o leite puro, aleluia,
-              aleluia, aleluia. <Text className="em">Sl. 80, 2</Text> Aclamai a
+              aleluia, aleluia.{" "}
+              <Text className="text-base vernacular">Sl. 80, 2</Text> Aclamai a
               Deus, que é o nosso Sustentáculo: cantai hinos de júbilo em honra
               de Deus de Jacob. ℣. Glória ao Pai...
             </Text>
@@ -33,12 +34,12 @@ export default function PagePasc10() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui paschália festa
               perégimus, hæc, te largiénte, móribus et vita teneámus. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos suplicamos, agora, que celebrámos as
               festas pascais, concedei-nos a graça de conservarmos sempre o seu
               espírito, tanto nos nossos costumes, como na nossa vida. Por nosso
@@ -51,11 +52,13 @@ export default function PagePasc10() {
           <Text className="em">1 Jo. 5, 4-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Joannis Apóstoli.
             </Text>
-            <Text className="text-base">Lição da Ep.ª do B. Ap.º S. João.</Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º S. João.
+            </Text>
+            <Text className="text-base latin">
               Caríssimi: Omne, quod natum est ex Deo, vincit mundum: et hæc est
               victoria, quæ vincit mundum, fides nostra. Quis est, qui vincit
               mundum, nisi qui credit, quóniam Jesus est Fílius Dei? Hic est,
@@ -69,7 +72,7 @@ export default function PagePasc10() {
               Dei, quod majus est: quóniam testificátus est de Fílio suo. Qui
               credit in Fílium Dei, habet testimónium Dei in se.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimos: Todo aquele que nasceu de Deus é vencedor do mundo. O
               que alcança vitória contra o mundo é a nossa fé. Quem é que vence
               o mundo, senão o que crê que Jesus Cristo é o Filho de Deus? Este
@@ -87,16 +90,18 @@ export default function PagePasc10() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Matth. 28, 7</Text> In
-              die resurrectiónis meæ, dicit Dóminus, præcédam vos in Galilǽam.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Matth. 28, 7</Text> In die
+              resurrectiónis meæ, dicit Dóminus, præcédam vos in Galilǽam.
               Allelúja. ℣. <Text className="em">Joann. 20, 26</Text> Post dies
               octo, jánuis clausis, stetit Jesus in médio discipulórum suórum,
               et dixit: Pax vobis. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Mt. 28, 7</Text> No dia
-              da minha ressurreição, diz o Senhor, irei adiante de vós para a
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Mt. 28, 7</Text> No dia da
+              minha ressurreição, diz o Senhor, irei adiante de vós para a
               Galileia, aleluia. ℣. <Text className="em">Jo. 20, 26</Text> Oito
               dias depois, estando as portas fechadas, Jesus veio e, estando no
               meio dos seus discípulos, disse: «A paz seja convosco», aleluia.
@@ -108,15 +113,15 @@ export default function PagePasc10() {
           <Text className="em">Jo. 20, 19-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Cum sero esset die illo, una sabbatórum, et fores
               essent clausæ, ubi erant discípuli congregáti propter metum
               Judæórum: venit Jesus, et stetit in médio, et dixit eis: Pax
@@ -142,7 +147,7 @@ export default function PagePasc10() {
               credátis, quia Jesus est Christus, Fílius Dei: et ut credéntes
               vitam habeátis in nómine ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, chegada a tarde daquele dia, que era o primeiro da
               semana, encontrando-se os discípulos reunidos em um lugar, cujas
               portas estavam fechadas, por causa do medo que tinham dos judeus,
@@ -178,11 +183,11 @@ export default function PagePasc10() {
           <Text className="em">Mt. 28, 2, 5 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Angelus Dómini descéndit de cœlo, et dixit muliéribus: Quem
               quǽritis, surréxit, sicut dixit, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Um anjo do Senhor desceu do céu e disse às mulheres: «Aquele a
               quem procurais ressuscitou, como havia anunciado», aleluia.
             </Text>
@@ -191,12 +196,12 @@ export default function PagePasc10() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Suscipe múnera, Dómine, quǽsumus, exsultántis Ecclésiæ: et, cui
               causam tanti gáudii præstitísti, perpétuæ fructum concéde lætítiæ.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aceitai, Senhor, Vos suplicamos, as ofertas que a vossa Igreja
               alegremente Vos consagra; e, assim como lhe proporcionastes a
               graça de tão grande gozo; concedei-lhe, também o fruto da eterna
@@ -209,11 +214,11 @@ export default function PagePasc10() {
           <Text className="em">Jo. 20, 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mitte manum tuam, et cognósce loca clavórum, allelúja: et noli
               esse incrédulus, sed fidélis, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Mete aqui o teu dedo e toca no lugar dos cravos, aleluia; não
               sejas incrédulo, mas fiel, aleluia, aleluia.
             </Text>
@@ -222,12 +227,12 @@ export default function PagePasc10() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro
               reparatiónis nostræ munímine contulísti; et præsens nobis remédium
               esse fácias et futúrum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos suplicamos, Senhor, nosso Deus, permiti que estes sacrossantos
               mystérios, que instituístes para alcançarmos a regeneração, sejam
               nosso remédio salutar no presente e no futuro. Por nosso Senhor...

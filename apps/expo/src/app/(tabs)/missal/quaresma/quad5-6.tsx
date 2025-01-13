@@ -19,12 +19,12 @@ export default function PageQuad56() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Profíciat, quǽsumus, Dómine, plebs tibi dicáta piæ devotiónis
               afféctu: ut sacris actiónibus erudíta, quanto majestáti tuæ fit
               grátior, tanto donis potióribus augeátur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, Vos imploramos, que o povo, que Vos é consagrado,
               aumente com fervor a sua piedade, a fim de que, instruindo-se com
               estes actos da religião, alcance tanto mais dons celestiais quanto
@@ -38,9 +38,11 @@ export default function PageQuad56() {
           <Text className="em">Jr. 18, 18-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Jeremíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Jeremias.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Jeremíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Jeremias.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Dixérunt ímpii Judǽi ad ínvicem: Veníte, et
               cogitémus contra justum cogitatiónes: non enim períbit lex a
               sacerdóte, neque consílium a sapiénte, nec sermo a prophéta:
@@ -60,7 +62,7 @@ export default function PageQuad56() {
               conspéctu tuo, in témpore furóris tui ab útere eis, Dómine, Deus
               noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, disseram os ímpios judeus uns aos outros: «Vinde e
               formemos um plano contra o justo, pois não faltarão sacerdotes,
               que nos ensinem a lei, nem sábios, que nos aconselhem, nem
@@ -89,15 +91,15 @@ export default function PageQuad56() {
           <Text className="em">Jo. 12, 10-36</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Cogitavérunt príncipes sacerdótum, ut et Lázarum
               interfícerent: quia multi propter illum abíbant ex Judǽis, et
               credébant in Jesum. In crastínum autem turba multa, quæ vénerat ad
@@ -142,7 +144,7 @@ export default function PageQuad56() {
               vadat. Dum lucem habétis, crédite in lucem: ut fílii lucis sitis.
               Hæc locútus est Jesus: et ábiit, et abscóndit se ab eis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, os príncipes dos sacerdotes pensaram mandar matar
               também Lázaro, porque muitos judeus, por causa da ressurreição de
               Lázaro, acreditavam em Jesus, afastando-se deles. No dia seguinte,
@@ -195,12 +197,12 @@ export default function PageQuad56() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus
               absólve: quos tanti mystérii tríbuis esse consórtes. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A nós, Senhor, que Vos dignastes tornar participantes deste tão
               solene mystério, concedei-nos o perdão de todas nossas culpas, Vos
               rogamos, e livrai-nos de todos os perigos. Por...
@@ -210,11 +212,11 @@ export default function PageQuad56() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Divíni múneris largitáte satiáti, quǽsumus, Dómine, Deus noster:
               ut hujus semper participatióne vivámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Saciados com a liberdade deste divino dom, Vos imploramos, Senhor,
               nosso Deus, permiti que sejamos aviventados sempre que dele
               comparticiparmos. Por nosso Senhor...
@@ -224,22 +226,24 @@ export default function PageQuad56() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tueátur, quǽsumus, Dómine, déxtera tua pópulum deprecántem: et
               purificátum dignánter erúdiat; ut, consolatióne præsénti, ad
               futúra bona profíciat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a vossa dextra, Senhor, proteja o vosso povo suplicante, Vos
               pedimos, e que, purificando-se dignamente, o instrua, a fim de que
               a consolação, que acaba de alcançar, lhe sirva para conseguir os

@@ -25,13 +25,13 @@ export default function Page0831() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui in liberándis fidélibus tuis ab impiórum captivitáte
               beátum Raymúndum Confessórem tuum mirábilem effecísti: ejus nobis
               intercessióne concéde; ut, a peccatórum vínculis absolúti, quæ
               tibi sunt plácita, líberis méntibus exsequámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que ao B. Raimundo, vosso Confessor, tornastes admirável
               na dedicação com que libertava os vossos fiéis do cativeiro dos
               ímpios, concedei-nos pela sua intercessão que, livres dos vínculos

@@ -16,31 +16,31 @@ export default function PageQuad21() {
           <Text className="em">Sl. 25, 11-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Rédime me, Dómine, et miserére mei: pes enim meus stetit in via
               recta: in ecclésiis benedícam Dóminum.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Júdica me, Dómine,
-              quóniam ego in innocéntia mea ingréssus sum: et in Dómino sperans,
-              non infirmábor. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Júdica me,
+              Dómine, quóniam ego in innocéntia mea ingréssus sum: et in Dómino
+              sperans, non infirmábor. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Resgatai-me, Senhor, e tende piedade de mim; pois os meus pés
               estão no caminho direito: bendirei o Senhor nas assembleias.{" "}
-              <Text className="em">Sl. ibid., 1</Text> Fazei-me justiça, Senhor,
-              porque procedi com inocência; e confiei no Senhor, sem nunca
-              vacilar. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
+              Fazei-me justiça, Senhor, porque procedi com inocência; e confiei
+              no Senhor, sem nunca vacilar. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut fámilia tua, quæ se,
               affligéndo carnem, ab aliméntis ábstinet: sectándo justítiam, a
               culpa jejúnet. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos suplicamos, fazei que os vossos fiéis, que
               para mortificação da carne se privam dos alimentos, se abstenham
               também do pecado, praticando a justiça. Por nosso Senhor...
@@ -52,9 +52,11 @@ export default function PageQuad21() {
           <Text className="em">Dn. 9, 15-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Daniélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Daniel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Daniélis Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Daniel.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Orávit Dániel Dóminum, dicens: Dómine, Deus
               noster, qui eduxísti pópulum tuum de terra Ægýpti in manu forti,
               et fecísti tibi nomen secúndum diem hanc; peccávimus, iniquitátem
@@ -73,7 +75,7 @@ export default function PageQuad21() {
               quia nomen tuum invocátum est super civitátem et super pópulum
               tuum, Dómine, Deus noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, Daniel dirigiu ao Senhor esta oração: «Senhor,
               nosso Deus, que tirastes o vosso povo da terra do Egipto com vossa
               mão omnipotente, pelo que adquiristes uma glória que permaneceu
@@ -102,11 +104,11 @@ export default function PageQuad21() {
           <Text className="em">Sl. 69, 6 & 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adjútor meus et liberátor meus esto: Dómine, ne tardáveris. ℣.
               Confundántur et revereántur inimíci mei, qui quærunt ánimam meam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sede o meu auxiliar e o meu libertador! Senhor, não tardeis! ℣.
               Que sejam confundidos e envergonhados os meus inimigos, que
               procuram tirar-me a vida.
@@ -125,15 +127,15 @@ export default function PageQuad21() {
           <Text className="em">Jo. 8, 21-29</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus turbis Judæórum: Ego vado, et
               quærétis me, et in peccáto vestro moriémini. Quo ego vado, vos non
               potéstis veníre. Dicébant ergo Judǽi: Numquid interfíciet
@@ -151,7 +153,7 @@ export default function PageQuad21() {
               est, et non relíquit me solum: quia ego, quæ plácita sunt ei,
               fácio semper.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, Jesus disse às turbas dos judeus: «Eu vou;
               procurar-me-eis e morrereis no vosso pecado. Aonde eu vou não
               podereis vós ir». Diziam, então, os judeus: «Porventura matar-se-á
@@ -177,12 +179,12 @@ export default function PageQuad21() {
           <Text className="em">Sl. 15, 7 & 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedícam Dóminum, qui tríbuit mihi intelléctum: providébam
               Dóminum in conspéctu meo semper: quóniam a dextris est mihi, ne
               commóvear.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendirei o Senhor, que me deu inteligência; tenho os meus olhos
               voltados continuamente para o Senhor; não vacilarei, porque Ele
               está à minha direita.
@@ -192,11 +194,11 @@ export default function PageQuad21() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc hóstia, Dómine, placatiónis et laudis, tua nos protectióne
               dignos effíciat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que esta hóstia de propiciação e de louvor, Senhor, nos torne
               dignos da vossa protecção. Por nosso Senhor...
             </Text>
@@ -207,11 +209,11 @@ export default function PageQuad21() {
           <Text className="em">Sl. 8, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, Dóminus noster, quam admirábile est nomen tuum in univérsa
               terra!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, nosso Deus, quão admirável é o vosso nome em toda a terra!
             </Text>
           </View>
@@ -219,11 +221,11 @@ export default function PageQuad21() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc nos commúnio, Dómine, purget a crímine: et cœléstis remédii
               fáciat esse consórtes. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que esta comunhão, Senhor, nos purifique de nossos crimes e nos
               faça participantes dos remédios celestiais. Por nosso Senhor...
             </Text>
@@ -232,22 +234,24 @@ export default function PageQuad21() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adésto supplicatiónibus nostris, omnípotens Deus: et, quibus
               fidúciam sperándæ pietátis indúlges; consuétæ misericórdiæ tríbue
               benígnus efféctum. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sede atento às nossas súplicas, ó Deus omnipotente; e permiti
               benignamente que aqueles que de Vós mereceram a doce confiança de
               lhes revelardes que podiam ter esperança na vossa bondade alcancem

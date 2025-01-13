@@ -15,17 +15,18 @@ export default function PageQuad42() {
           <Text className="em">Sl. 54, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
               inténde in me et exáudi me.{" "}
-              <Text className="em">Ps. ib., 3-4</Text> Contristátus sum in
-              exercitatióne mea: et conturbátus sum avoce inimíci et a
+              <Text className="text-base latin">Ps. ib., 3-4</Text> Contristátus
+              sum in exercitatióne mea: et conturbátus sum avoce inimíci et a
               tribulatióne peccatóris. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi, ó Deus, a minha oração e não desprezeis a minha súplica!
               Atendei-me e escutai-me. Estou amargurado, por causa do sofrimento
-              que me aflige! <Text className="em">Sl. ib., 3-4</Text> Estou
+              que me aflige!{" "}
+              <Text className="text-base vernacular">Sl. ib., 3-4</Text> Estou
               perturbado, porque ouço a voz do meu inimigo e sinto a perseguição
               do homem pecador! ℣. Glória ao Pai...
             </Text>
@@ -34,12 +35,12 @@ export default function PageQuad42() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacræ nobis, quæsumus, Dómine, observatiónis jejúnia: et piæ
               conversationis augméntum, et tuæ propitiatiónis contínuum præstent
               auxílium. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que esta nossa santa observância dos jejuns, Senhor, Vos rogamos,
               nos alcance o progresso na vida piedosa e e contínuo auxílio da
               vossa misericórdia. Por nosso Senhor...
@@ -51,9 +52,11 @@ export default function PageQuad42() {
           <Text className="em">Ex. 32, 7-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Exodi.</Text>
-            <Text className="text-base">Lição do Livro do Êxodo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Exodi.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro do Êxodo.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Locútus est Dóminus ad Móysen, dicens: Descénde
               de monte: peccávit pópulus tuus, quem eduxísti de terra Ægýpti.
               Recessérunt cito de via, quam ostendísti eis: fecerúntque sibi
@@ -73,7 +76,7 @@ export default function PageQuad42() {
               et possidébitis eam semper. Placatúsque est Dóminus, ne fáceret
               malum, quod locútus fúerat advérsus pópulum suum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, falou o Senhor a Moisés, dizendo: «Desce do monte;
               pois o teu povo, que tiraste da terra do Egipto, pecou. Depressa
               eles se afastaram do caminho que lhes mostraste; pois fabricaram
@@ -102,13 +105,13 @@ export default function PageQuad42() {
           <Text className="em">Sl. 43, 26 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exsúrge, Dómine, fer opem nobis: et líbera nos propter nomen tuum.
               ℣. Deus, áuribus nostris audívimus: et patres nostri
               annuntiavérunt nobis opus, quod operátus es in diébus eórum et in
               diébus antíquis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Levantai-Vos, Senhor, acudi-nos e livrai-nos por causa do vosso
               nome. ℣. Ó Deus, ouvimos com os nossos ouvidos; os nossos pais
               anunciaram-nos quantas maravilhas praticastes nos seus dias e nos
@@ -121,15 +124,15 @@ export default function PageQuad42() {
           <Text className="em">Jo. 7, 14-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Jam die festo mediánte, ascendit Jesus in
               templum, et docébat. Et mirabántur Judǽi, dicéntes: Quómodo hic
               lítteras scit, cum non didícerit? Respóndit eis Jesus et dixit:
@@ -157,7 +160,7 @@ export default function PageQuad42() {
               nemo misit in illum manus, quia nondum vénerat hora ejus. De turba
               autem multi credidérunt in eum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, estando já em meio os dias da festa, Jesus subiu ao
               templo e aí ensinava. E os judeus admiravam-se, dizendo: «Como
               conhece Ele as Escrituras, se as não estudou?». Respondeu-lhes
@@ -195,12 +198,12 @@ export default function PageQuad42() {
           <Text className="em">Sl. 39, 2, 3 & 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exspéctans exspectávi Dóminum, et respéxit me: et exaudívit
               deprecatiónem meam: et immísit in os meum cánticum novum, hymnum
               Deo nostro.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Com toda a confiança esperei no Senhor; e Ele inclinou-se para
               mim, ouviu a minha voz e pôs na minha boca um cântico novo: um
               hino de louvor ao nosso Deus.
@@ -210,12 +213,12 @@ export default function PageQuad42() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delicta: et, ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
               sanctíficet. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que estas hóstias, Senhor, Vos suplicamos, apaguem os nossos
               pecados e santifiquem os corpos e as almas dos vossos servos, para
               celebrarem dignamente este sacrifício. Por nosso Senhor...
@@ -227,11 +230,11 @@ export default function PageQuad42() {
           <Text className="em">Sl. 19, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lætábimur in salutári tuo: et in nómine Dómini, Dei nostri,
               magnificábimur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Regozijar-nos-emos com vossa salvação; e seremos glorificados no
               nome do Senhor, nosso Deus.
             </Text>
@@ -240,11 +243,11 @@ export default function PageQuad42() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hujus nos, Dómine, percéptio sacraménti mundet a crímine: et ad
               cœléstia regna perdúcat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que a comunhão deste sacramento nos limpe de todo o pecado
               e nos conduza ao reino celestial. Por nosso Senhor...
             </Text>
@@ -253,21 +256,23 @@ export default function PageQuad42() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Miserére, Dómine, pópulo tuo: et contínuis tribulatiónibus
               laborántem, propítius respiráre concéde. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Tende piedade, Senhor, do vosso povo e aliviai-o propiciamente das
               contínuas tribulações que o afligem. Por nosso Senhor...
             </Text>

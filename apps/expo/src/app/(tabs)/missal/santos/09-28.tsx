@@ -23,13 +23,13 @@ export default function Page0928() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátum Wencesláum per martýrii palmam a terréno
               principátu ad cœléstem glóriam transtulísti: ejus précibus nos ab
               omni adversitáte custódi; et ejúsdem tríbue gaudére consórtio. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que pela palma do martírio trasladastes o B. Venceslau do
               principado terreno para a glória celestial, defendei-nos, pelas
               suas preces, de todas as adversidades e proporcionai-nos a alegria

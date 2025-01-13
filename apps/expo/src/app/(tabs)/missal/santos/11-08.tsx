@@ -25,12 +25,12 @@ export default function Page1108() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui gloriósos Mártyres
               fortes in sua confessióne cognóvimus, pios apud te in nostra
               intercessióne sentiámus. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Reconhecendo nós, ó Deus omnipotente, a fortaleza dos vossos
               gloriosos Mártires na confissão da fé, fazei, Vos suplicamos, que
               sintamos junto de Vós a sua pia intercessão em nosso favor. Por
@@ -41,12 +41,12 @@ export default function Page1108() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Benedíctio tua. Dómine, larga descéndat: quæ et múnera nostra,
               deprecántibus sanctis Martýribus tuis, tibi reddat accépta, et
               nobis sacraméntum redemptiónis effíciat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a vossa bênção, Senhor, desça magnanimamente sobre nós; e que
               pelas preces dos vossos Santos Mártires Vos sejam agradáveis as
               nossas ofertas, mudando-as em nosso favor em sacramento de
@@ -57,12 +57,12 @@ export default function Page1108() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœléstibus refécti sacraméntis et gáudiis: súpplices te, Dómine,
               deprecámur; ut, quorum gloriámur triúmphis, protegámur auxíliis.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alentados com os sacramentos e as delícias celestiais, Vos
               suplicamos humildemente, Senhor, que sejamos protegidos com os
               auxílios daqueles de cujo triunfo nos gloriamos. Por nosso

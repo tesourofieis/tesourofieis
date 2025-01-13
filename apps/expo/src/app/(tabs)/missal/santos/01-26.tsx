@@ -29,11 +29,13 @@ export default function Page0126() {
           <Text className="em">1 Jo. 3, 10-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Joánnis Apóstoli.
             </Text>
-            <Text className="text-base">Lição da Ep.ª do B. Ap.º S. João.</Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º S. João.
+            </Text>
+            <Text className="text-base latin">
               Caríssimi: Omnis qui non est justus, non est ex Deo, et qui non
               díligit fratrem suum: quóniam hæc est annuntiátio, quam audístis
               ab inítio, ut diligátis altérutrum. Non sicut Cain, qui ex malígno
@@ -47,7 +49,7 @@ export default function Page0126() {
               ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas
               pónere.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimos: Aquele que não é justo e não ama seu irmão não é de
               Deus. Porque esta é a recomendação que ouvistes desde o princípio:
               «Que vos ameis uns aos outros». Não seja, porém, como Caim, que
@@ -73,13 +75,13 @@ export default function Page0126() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedénte beáto Polycárpo
               Mártyre tuo atque Pontífice, sentiámus efféctum. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fortalecidos com a participação deste dom sacratíssimo, Vos
               suplicamos, Senhor, nosso Deus, que, por intercessão do B.
               Policarpo, vosso Mártir e Pontífice, sintamos o efeito do mystério

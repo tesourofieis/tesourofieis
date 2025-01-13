@@ -19,12 +19,12 @@ export default function Page0120() {
           />
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus
               própriæ actiónis gravat, beatórum Mártyrum tuórum Fabiáni et
               Sebastiáni intercéssio gloriósa nos prótegat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, olhai para a nossa fraqueza, e, visto que
               estamos oprimidos sob o peso dos nossos pecados, fazei que sejamos
               protegidos pela gloriosa intercessão dos vossos B. B. Mártires
@@ -34,13 +34,13 @@ export default function Page0120() {
           <Text className="h3">Epístola</Text>
           <Text className="em">Heb. 11, 33-39</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Epístola do B. Ap.º Paulo aos Hebreus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Sancti per fidem vicérunt regna, operáti sunt justítiam,
               adépti sunt repromissiónes, obturavérunt ora leónum, exstinxérunt
               ímpetum ignis, effugérunt áciem gládii, convaluérunt de
@@ -55,7 +55,7 @@ export default function Page0120() {
               spelúncis et in cavérnis terræ. Et hi omnes testimónio fídei
               probáti, invénti sunt in Christo Jesu, Dómino nostro.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Pela Fé os santos conquistaram os reinos, praticaram
               a justiça, alcançaram a realização das promessas, fecharam a boca
               dos leões, apagaram as chamas do fogo, escaparam ao fio das
@@ -77,25 +77,27 @@ export default function Page0120() {
           <Text className="h3">Gradual</Text>
           <Text className="em">Ex. 15, 11</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens
-              prodígia. ℣. <Text className="em">ibid., 6</Text> Déxtera tua,
-              Dómine, glorificáta est in virtúte: déxtera manus tua confrégit
-              inimícos.
+              prodígia. ℣. <Text className="text-base latin">ibid., 6</Text>{" "}
+              Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua
+              confrégit inimícos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus é glorioso em seus Santos: e admirável na sua majestade,
-              praticando prodígios. ℣. <Text className="em">ibid., 6</Text>{" "}
-              Senhor, a vossa mão direita engrandeceu-se pela força: a vossa mão
-              direita esmagou os inimigos.
+              praticando prodígios. ℣.{" "}
+              <Text className="text-base vernacular">ibid., 6</Text> Senhor, a
+              vossa mão direita engrandeceu-se pela força: a vossa mão direita
+              esmagou os inimigos.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 144, 10-11</Text>{" "}
-              Sancti tui, Dómine, benedícent te: glóriam regni tui dicent.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 144, 10-11</Text> Sancti
+              tui, Dómine, benedícent te: glóriam regni tui dicent. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 144, 10-11</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 144, 10-11</Text>{" "}
               Vossos Santos Vos bendirão, Senhor: e proclamarão a glória do
               vosso reino. Aleluia.
             </Text>
@@ -114,23 +116,23 @@ export default function Page0120() {
           <Text className="h3">Ofertório</Text>
           <Text className="em">Sl. 31, 11</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti
               corde.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegrai-vos no Senhor, ó justos. Todos aqueles que possuem o
               coração recto serão glorificados.
             </Text>
           </View>
           <Text className="h3">Secreta</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hóstias tibi, Dómine, beatórum Mártyrum tuórum Fabiáni et
               Sebastiáni dicátas méritis, benígnus assúme: et ad perpétuum nobis
               tríbue proveníre subsídium. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebei benigno, Senhor, as hóstias que Vos oferecemos pelos
               méritos dos vossos B. B. Mártires Fabião e Sebastião e dignai-Vos
               permitir que em virtude delas alcancemos o vosso perpétuo socorro.
@@ -140,24 +142,24 @@ export default function Page0120() {
           <Text className="h3">Comúnio</Text>
           <Text className="em">Lc. 6, 18 & 19</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Multitúdo languéntium, et qui vexabántur a spirítibus immúndis,
               veniébant ad eum: quia virtus de illo exíbat, et sanábat omnes.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Numerosos enfermos e possessos de espíritos imundos vinham ter com
               Ele, pois de si saía uma tal virtude que a todos curava.
             </Text>
           </View>
           <Text className="h3">Postcomúnio</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedéntibus sanctis
               Martýribus tuis Fabiáno et Sebastiáno, sentiámus efféctum. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fortalecidos com a participação deste dom sacratíssimo, Vos
               suplicamos, Senhor, nosso Deus, que, por intercessão dos vossos B.
               B. Mártires Fabião e Sebastião, sintamos o efeito do mystério que

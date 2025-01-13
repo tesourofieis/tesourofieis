@@ -18,32 +18,33 @@ export default function Page28Missamaria2() {
           <Text className="em">Sl. 44, 13,15 & 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vultum tuum deprecabúntur omnes dívites plebis: adducántur Regi
               Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et
-              exsultatióne. <Text className="em">Ps. ibid., 2</Text> Eructávit
+              exsultatióne.{" "}
+              <Text className="text-base latin">Ps. ibid., 2</Text> Eructávit
               cor meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Todos os poderosos da terra imploram o vosso olhar; as virgens
               serão introduzidas perante o Rei após ela: e as suas companheiras
               serão apresentadas ao Rei, em transportes de alegria e de júbilo.{" "}
-              <Text className="em">Sl. ibid., 2</Text> Meu coração exprimiu uma
-              excelente palavra: Consagro ao Rei as minhas obras! ℣. Glória ao
-              Pai...
+              <Text className="text-base vernacular">Sl. ibid., 2</Text> Meu
+              coração exprimiu uma excelente palavra: Consagro ao Rei as minhas
+              obras! ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fœcúnda, humáno
               generi prǽmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis
               intercédere sentiámus, per quam merúimus auctórem vitæ suscípere,
               Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, pela Virgindade fecunda da B. Virgem Maria
               concedestes ao género humano o prémio da salvação eterna, fazei,
               Vos imploramos, que gozemos os efeitos da intercessão daquela pela
@@ -57,13 +58,13 @@ export default function Page28Missamaria2() {
           <Text className="em">Tt. 3, 4-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Titum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo a Tito.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Caríssime: Appáruit benígnitas et humánitas Salvatóris nostri Dei:
               non ex opéribus justítiæ, quæ fécimus nos, sed secúndum suam
               misericórdiam salvos nos fecit, per lavácrum regeneratiónis et
@@ -72,7 +73,7 @@ export default function Page28Missamaria2() {
               herédes simus secúndum spem vitæ ætérnæ: in Christo Jesu, Dómino
               nostro.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimo: A bondade e o amor de Deus, nosso Salvador, se
               manifestaram. Ele salvou-nos, não por causa das obras de justiça
               que houvéssemos praticado, mas pela sua misericórdia, lavando-nos
@@ -89,41 +90,41 @@ export default function Page28Missamaria2() {
           <Text className="em">Sl. 44, 3 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Speciósus forma præ fíliis hóminum: diffúsa est grátia in lábiis
               tuis. ℣. Eructávit cor meum verbum bonum: dico ego ópera mea Regi:
               lingua mea cálamus scribæ velóciter scribéntis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sois mais bela do que todos os filhos dos homens: pois a graça
               espalhou-se nos vossos lábios. ℣. Meu coração exprimiu uma
               excelente palavra: Consagro ao Rei as minhas obras. Minha língua é
               como a pena de um escritor perito.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Post partum, Virgo, invioláta permansísti:
               Dei Génetrix, intercéde pro nobis. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Depois de haverdes dado à luz, permanecestes
               Virgem Imaculada. Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gaude, María Virgo, cunctas hǽreses sola interemísti. ℣. Quæ
               Gabriélis Archángeli dictis credidísti. ℣. Dum Virgo Deum et
               hóminem genuísti: et post partum, Virgo, invioláta permansísti. ℣.
               Dei Génetrix, intercéde pro nobis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Regozijai-vos, ó Virgem Maria, pois só vós fostes capaz de
               destruir todas as heresias. ℣. Acreditastes nas palavras do
               Arcanjo Gabriel. ℣. Sendo Virgem, gerastes o Homem-Deus: e, depois
@@ -137,15 +138,15 @@ export default function Page28Missamaria2() {
           <Text className="em">Lc. 2, 15-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Pastóres loquebántur ad ínvicem: Transeámus usque
               Béthlehem, et videámus hoc verbum, quod factum est, quod Dóminus
               osténdit nobis. Et venérunt festinántes, et invenérunt Maríam, et
@@ -157,7 +158,7 @@ export default function Page28Missamaria2() {
               laudántes Deum in ómnibus, quæ audíerant et víderant, sicut dictum
               est ad illos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disseram os pastores uns aos outros: «Vamos até
               Belém e vejamos o que foi isto que aconteceu, que o Senhor nos
               revelou». Vieram, então, a toda a pressa, e encontraram Maria,
@@ -174,11 +175,11 @@ export default function Page28Missamaria2() {
           <Text className="h3">Ofertório</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Felix namque es, sacra Virgo María, et omni laude digníssima: quia
               ex te ortus est sol justítiæ, Christus, Deus noster.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sois feliz e digna de todos os louvores, ó Santa Virgem Maria,
               pois de vós nasceu «o sol da justiça», Cristo, nosso Senhor.
             </Text>
@@ -187,12 +188,12 @@ export default function Page28Missamaria2() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
               intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
               profíciat prosperitátem et pacem. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Pela vossa misericórdia, Senhor, e por intercessão da B. Maria,
               sempre Virgem, permiti que esta oferta nos assegure agora e sempre
               a prosperidade e a paz. Por nosso Senhor...
@@ -202,11 +203,11 @@ export default function Page28Missamaria2() {
           <Text className="h3">Comúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bem-aventuradas as entranhas da Virgem Maria, que trouxeram
               encerrado o Filho do Pai Eterno.
             </Text>
@@ -215,12 +216,12 @@ export default function Page28Missamaria2() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta
               Vírgine Dei Genetríce María, cœléstis remédii fáciat esse
               consórtes. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que esta comunhão, Senhor, nos purifique de nossos crimes; e que,
               por intercessão da B. Virgem Maria, Mãe de Deus, nos torne
               participantes do remédio celestial. Por nosso Senhor...

@@ -27,13 +27,13 @@ export default function Page1106Portugal() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beáto Nónio bonum certámen certáre dedísti, eúmque sui
               ac mundi contemptórem exímium effecísti: concéde nobis fámulis
               tuis; ut, devíctis mundi cupiditátibus, in cælésti pátri perpétuo
               gaudeámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que permitistes ao B. Nuno «combater o bom combate» e o
               tornastes num exímio dominador de si e do mundo, a nós, que somos
               vossos servos, concedei-nos que, depois de havermos vencido as
@@ -59,13 +59,13 @@ export default function Page1106Portugal() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tuórum mílitum, Rex omnípotens, virtútem corróborat; ut, quos in
               hujus mortalitátis stádio, beáti Nónii Confessóris tui vita
               præclára lætíficat: consummáto cursu certámis, per hæc quæ
               offérimus, immortalitátis bravíum comprehéndant. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Rei omnipotente, corroborai o valor dos vossos soldados, para
               que aqueles que nesta arena mortal se alegram com a preclara vida
               do B. Nuno, vosso Confessor, terminado o tempo do combate,
@@ -77,13 +77,13 @@ export default function Page1106Portugal() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
               sacraméntis; intercedénte Beáto Nónio Confessóre tuo, tríbuas ab
               hóstium insídiis júgiter liberári, et contra ómnia advérsa
               contínua protectióne muníri. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó omnipotente Deus, humildemente Vos rogamos que àqueles que foram
               alimentados com vossos sacramentos Vos digneis conceder, por
               intercessão do B. Nuno, vosso Confessor, sejam sempre livres das

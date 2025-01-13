@@ -27,16 +27,16 @@ export default function PageOficiodefuntos() {
           <Text className="h2">Invitatório</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Regem, cui ómnia vivunt, Veníte adorémus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, adoremos o Rei para quem todas as criatura vivem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Regem, cui ómnia vivunt, Veníte adorémus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, adoremos o Rei para quem todas as criatura vivem.
             </Text>
           </View>
@@ -46,28 +46,28 @@ export default function PageOficiodefuntos() {
           <Salmo94 />
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Veníte, exsultémus Dómino: * jubilémus Deo salutári nostro:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, exultemos no Senhor: * cantemos alegres a de Deus nosso
               salvador:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præoccupémus fáciem ejus in confessióne: * et in psalmis jubilémus
               ei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Apresentemo-nos diante d’Ele em acção de graças: * e celebremo-l’O
               com salmos.
             </Text>
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Regem, cui ómnia vivunt, Veníte adorémus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, adoremos o Rei para quem todas as criatura vivem.
             </Text>
           </View>

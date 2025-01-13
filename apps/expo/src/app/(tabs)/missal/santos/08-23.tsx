@@ -19,13 +19,13 @@ export default function Page0823() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui per beátum Philippum Confessórem tuum, exímium nobis
               humilitátis exémplum tribuísti: da fámulis tuis próspera mundi ex
               ejus imitatióne despícere, et cœléstia semper inquírere. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que na pessoa do B. Filipe, vosso Confessor, nos
               proporcionastes exímio exemplo de humildade, fazei que os vossos
               servos, imitando-o, desprezem as alegrias deste mundo e procurem

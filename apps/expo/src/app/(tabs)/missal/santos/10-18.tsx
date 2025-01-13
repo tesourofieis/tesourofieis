@@ -16,30 +16,32 @@ export default function Page1018() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
-              est principátus eórum. <Text className="em">Ps. ibid., 1-2</Text>{" "}
-              Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam
-              et resurrectiónem meam. ℣. Gloria Patri...
+              est principátus eórum.{" "}
+              <Text className="text-base latin">Ps. ibid., 1-2</Text> Dómine,
+              probásti me et cognovísti me: tu cognovísti sessiónem meam et
+              resurrectiónem meam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vejo, ó Deus, que honrais largamente os vossos amigos; e que seu
               poder se tem fortalecido extraordinariamente.{" "}
-              <Text className="em">Sl. ibid., 1-2</Text> Senhor, perscrutastes o
-              meu íntimo e ficastes conhecendo-me: ficastes conhecendo quando me
-              deito e quando me levanto. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1-2</Text>{" "}
+              Senhor, perscrutastes o meu íntimo e ficastes conhecendo-me:
+              ficastes conhecendo quando me deito e quando me levanto. ℣. Glória
+              ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Intervéniat pro nobis, quǽsumus, Dómine, sanctus tuus Lucas
               Evangélista: qui crucis mortificatiónem júgiter in suo córpore,
               pro tui nóminis honóre, portávit. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos rogamos, permiti que o vosso Santo Evangelista Lucas,
               que, para glória do vosso nome, sempre praticou em seu corpo a
               mortificação da Cruz, interceda por nós. Por nosso Senhor...
@@ -51,13 +53,13 @@ export default function Page1018() {
           <Text className="em">2 Cor. 8, 16-24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Grátias ago Deo, qui dedit eandem sollicitúdinem pro
               vobis in corde Titi, quóniam exhortatiónem quidem suscépit: sed
               cum sollicítior esset, sua voluntáte proféctus est ad vos. Mísimus
@@ -75,7 +77,7 @@ export default function Page1018() {
               vestræ, et nostræ glóriæ pro vobis, in illos osténdite in fáciem
               ecclesiárum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Dou graças a Deus por haver despertado no coração de
               Tito a mesma solicitude por vós; pois não só recebeu a exortação
               que lhe fiz, mas, estando cheio de trabalho, partiu
@@ -102,23 +104,25 @@ export default function Page1018() {
           <Text className="em">Sl. 18, 5 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In omne terram exívit sonus eórum: et in fines orbis terræ verba
               eórum. ℣. Cœli enárrant glóriam Dei: et ópera mánuum ejus
               annúntiat firmaméntum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O som da sua voz retiniu por toda a terra: as suas palavras
               ecoaram até aos confins do mundo. ℣. Os céus publicam a glória de
               Deus e o firmamento anuncia as maravilhas que praticou.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Joann. 15, 16</Text>{" "}
-              Ego vos elégi de mundo, ut eátis et fructum afferátis: et fructus
-              vester máneat. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Joann. 15, 16</Text> Ego vos
+              elégi de mundo, ut eátis et fructum afferátis: et fructus vester
+              máneat. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Jo. 15, 16</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Jo. 15, 16</Text>{" "}
               Escolhi-vos no mundo para que ir e alcanceis fruto: e que esse
               fruto permaneça. Aleluia.
             </Text>
@@ -136,11 +140,11 @@ export default function Page1018() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eu vejo, ó Deus, que honrais largamente os vossos amigos; por isso
               o seu poder se tem fortalecido extraordinariamente.
             </Text>
@@ -149,12 +153,12 @@ export default function Page1018() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente
               servíre: ut múnera quæ deférimus, interveniénte beáto Evangelísta
               tuo Luca, et medélam nobis operéntur et glóriam. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Pela virtude destes dons celestiais, Vos suplicamos, Senhor,
               concedei-nos a graça de Vos servirmos com inteira liberdade de
               espírito, a fim de que os dons, que Vos apresentamos, nos
@@ -168,11 +172,11 @@ export default function Page1018() {
           <Text className="em">Mt. 19, 28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vós me seguistes, assentar-vos-eis sobre tronos, para julgar as
               doze tribos de Israel.
             </Text>
@@ -181,12 +185,12 @@ export default function Page1018() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut, quod de sancto altári tuo
               accépimus, précibus beáti Evangelístæ tui Lucæ, sanctíficet ánimas
               nostras, per quod tuti esse póssimus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó omnipotente Deus, Vos rogamos, fazei que o dom, agora recebido
               no sagrado altar, santifique, pelas preces do vosso B. Evangelista
               Lucas, as nossas almas, a fim de que nos defenda dos perigos. Por

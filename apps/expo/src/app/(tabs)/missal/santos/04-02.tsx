@@ -19,13 +19,13 @@ export default function Page0402() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, humílium celsitúdo, qui beátum Francíscum Confessórem
               Sanctórum tuórum glória sublimásti: tríbue, quǽsumus; ut, ejus
               méritis et imitatióne, promíssa humílibus prǽmia felíciter
               consequámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, grandeza dos humildes, que coroastes com a glória dos
               vossos Santos o B. Francisco, Confessor, concedei-nos, pelos seus
               méritos e pela imitação das suas virtudes, Vos suplicamos, a
@@ -39,13 +39,13 @@ export default function Page0402() {
           <Text className="em">Fl. 3, 7-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epistola; beáti Pauli Apóstoli ad Philippénses.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Quæ mihi fuérunt lucra, hæc arbitrátus sum propter
               Christum detriménta. Verúmtamen exístimo ómnia detriméntum esse
               propter eminéntem sciéntiam Jesu Christi, Dómini mei: propter quem
@@ -59,7 +59,7 @@ export default function Page0402() {
               autem, si quo modo comprehéndam, inquo et comprehénsus sum a
               Christo Jesu.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: As coisas que considerava ganho tive-as depois como
               perda, meditando em Cristo. E, na verdade, considero tudo como
               perda, pelo melhor conhecimento que tenho de Jesus Cristo, meu
@@ -80,12 +80,12 @@ export default function Page0402() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc dona devótæ plebis, Dómine, quibus tua cumulámus altária,
               beáti Francísci méritis tibi grata nobísque salutária, te
               miseránte, reddántur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que estes dons do vosso povo, que depositamos nos vossos altares,
               se tornem agradáveis a Vós, Senhor, e salutares para nós por
               intercessão dos méritos do B. Francisco, e por efeito da vossa
@@ -98,12 +98,12 @@ export default function Page0402() {
           <Text className="em">Mt. 19, 28 & 29</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis
               me, céntuplum accipiétis, et vitam ætérnam possidébitis. (T.P.
               Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em verdade vos digo: «Vós, que abandonastes tudo e me seguistes,
               recebereis o cêntuplo e possuireis a vida eterna». (T.P. Aleluia.)
             </Text>
@@ -112,12 +112,12 @@ export default function Page0402() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sumpta, Dómine, sacraménta cœléstia: beáto Francísco Confessóre
               tuo intercedénte, precámur; ut et temporális vitæ subsídia nobis
               cónferant et ætérnæ. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, permiti que os celestiais sacramentos, que
               acabámos de receber, nos consigam, pela intercessão do B.
               Francisco, vosso Confessor, auxílios para a vida presente e para a

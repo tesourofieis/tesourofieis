@@ -28,7 +28,7 @@ export default function PageQuad65() {
           <Text className="em">Os. 6, 1-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc dicit Dóminus: In tribulatione sua mane consúrgent ad me:
               Veníte, et revertámur ad Dóminum: quia ipse cepit, et sanábit nos:
               percútiet, et curábit nos. Vivificábit nos post duos dies: in die
@@ -42,7 +42,7 @@ export default function PageQuad65() {
               misericórdiam vólui, et non sacrifícium, et sciéntiam Dei, plus
               quam holocáusta.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis o que disse o Senhor: «No meio da sua tribulação terão pressa
               de recorrer a mim. Vinde, dirão eles, convertamo-nos ao Senhor,
               pois Ele mesmo nos feriu e nos curará. Ele nos castigará e nos
@@ -65,7 +65,7 @@ export default function PageQuad65() {
           <Text className="em">Hab. 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, audívi audítum tuum, et tímui: considerávi ópera tua, et
               expávi. ℣. In médio duórum animálium innotescéris: dum
               appropinquáverint anni, sognoscéris: dum advénerit tempus,
@@ -74,7 +74,7 @@ export default function PageQuad65() {
               monte umbróso et condénso. ℣. Opéruit cœlos majéstas ejus: et
               laudis ejus plena est terra.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, ouvi a vossa voz e fiquei cheio de temor; meditei nas
               vossas maravilhas e fiquei extasiado. ℣. Manifestar-Vos-eis entre
               dois animais: quando os anos tiverem passado e quando os tempos
@@ -89,22 +89,22 @@ export default function PageQuad65() {
           <Text className="h3">Oremos</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">℣. Flectámus génua!</Text>
-            <Text className="text-base">℣. Ajoelhemos!</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">℣. Flectámus génua!</Text>
+            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, a quo et Judas reátus sui pœnam, et confessiónis suæ latro
               prǽmium sumpsit, concéde nobis tuæ propitiatiónis efféctum: ut,
               sicut in passióne sua Jesus Christus, Dóminus noster, divérsa
               utrísque íntulit stipéndia meritórum; ita nobis, abláto vetustátis
               erróre, resurrectiónis suæ grátiam largiátur: Qui tecum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, de quem Judas recebeu o castigo da sua perfídia e o ladrão
               a recompensa da sua confissão, concedei-nos o efeito da vossa
               misericórdia, a fim de que, assim como N. S. Jesus Cristo durante
@@ -120,7 +120,7 @@ export default function PageQuad65() {
           <Text className="em">Ex. 12, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In diébus illis: Dixit Dóminus ad Móysen et Aaron in terra Ægýpti:
               Mensis iste vobis princípium ménsium primus erit in ménsibus anni
               Loquímini ad univérsum cœtum filiórum Israël, et dícite eis:
@@ -142,7 +142,7 @@ export default function PageQuad65() {
               báculos in mánibus, et comedétis festinánter: est enim Phase (id
               est tránsitus) Dómini.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, disse o Senhor, na terra do Egipto, a Moisés e a
               Aarão: «Que este mês seja para vós o princípio dos meses: o
               primeiro dos meses do ano. Falai a toda a assembleia dos filhos de
@@ -173,7 +173,7 @@ export default function PageQuad65() {
           <Text className="em">Sl. 139, 2-10 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Eripe me, Dómine, ab homine malo: a viro iníquo líbera me. ℣. Qui
               cogitavérunt malítias in corde: tota die constituébant prœlia. ℣.
               Acuérunt linguas suas sicut serpéntis: venénum áspidum sub labiis
@@ -188,7 +188,7 @@ export default function PageQuad65() {
               circúitus eórum: labor labiórum ipsórum opériet eos. ℣. Verúmtamen
               justi confitebúntur nómini tuo: et habitábunt recti cum vultu tuo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Livrai-me, Senhor, do homem iníquo; livrai-me do homem injusto. ℣.
               No seu coração intentam desígnios iníquos; continuamente estão
               prontos para me combater. ℣. Afiaram as suas línguas, como as das
@@ -213,15 +213,15 @@ export default function PageQuad65() {
           <Text className="em">Jo. 18, 1-40; 19, 1-42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Pássio Dómini nostri
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Pássio Dómini nostri
               Jesu Christi secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Paixão de N. S.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Paixão de N. S.
               Jesus Cristo, segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Egréssus est Jesus cum discípulis suis trans
               torréntem Cedron, ubi erat hortus, in quem introívit ipse et
               discípuli ejus. Sciébat autem et Judas, qui tradébat eum, locum:
@@ -229,7 +229,7 @@ export default function PageQuad65() {
               ergo cum accepísset cohórtem, et a pontifícibus et pharisǽis
               minístros, venit illuc cum latérnis et fácibus et armis. Jesus
               ítaque sciens ómnia, quæ ventúra erant super eum, procéssit, et
-              dixit eis: <Text className="cross text-red-500">✠</Text> Quem
+              dixit eis: <Text className="text-base latin">✠</Text> Quem
               quǽritis? <Text className="font-bold text-red-500">C.</Text>{" "}
               Respondérunt ei:{" "}
               <Text className="font-bold text-red-500">S.</Text> Jesum
@@ -253,7 +253,7 @@ export default function PageQuad65() {
               <Text className="cross text-red-500">✠</Text> Mitte gládium tuum
               in vagínam. Cálicem, quem dedit mihi Pater, non bibam illum?
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, passou Jesus com os discípulos para o outro lado da
               corrente do Cédron, onde havia ’um jardim, e ali entrou com eles.
               Judas, que o traía, conhecia também este lugar, pois Jesus vinha
@@ -261,8 +261,8 @@ export default function PageQuad65() {
               frente da coorte e dos servos, que os pontífices e os fariseus lhe
               haviam fornecido, veio ali com lanternas, archotes e armas. Ora,
               sabendo Jesus o que ia acontecer, foi ao seu encontro e disse:{" "}
-              <Text className="cross text-red-500">✠</Text> «A quem procurais?».{" "}
-              <Text className="font-bold text-red-500">C.</Text> E
+              <Text className="text-base vernacular">✠</Text> «A quem
+              procurais?». <Text className="font-bold text-red-500">C.</Text> E
               responderam-Lhe:{" "}
               <Text className="font-bold text-red-500">S.</Text> «A Jesus
               Nazareno!». <Text className="font-bold text-red-500">C.</Text>{" "}
@@ -286,8 +286,8 @@ export default function PageQuad65() {
               <Text className="cross text-red-500">✠</Text> «Mete a espada na
               bainha. Porventura não hei-de beber o cálice que deu meu Pai?».
             </Text>
-            <Text className="text-base">
-              <Text className="font-bold text-red-500">C.</Text> Cohors ergo et
+            <Text className="text-base latin">
+              <Text className="text-base latin">C.</Text> Cohors ergo et
               tribúnus et minístri Judæórum comprehendérunt Jesum, et ligavérunt
               eum: et adduxérunt eum ad Annam primum, erat enim socer Cáiphæ,
               qui erat póntifex anni illíus. Erat autem Cáiphas, qui consílium
@@ -318,9 +318,9 @@ export default function PageQuad65() {
               Si male locútus sum, testimónium pérhibe de malo: si autem bene,
               quid me cædis?
             </Text>
-            <Text className="text-base">
-              <Text className="font-bold text-red-500">C.</Text> Então a coorte,
-              o tribuno e os satélites dos judeus prenderam e amarraram Jesus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">C.</Text> Então a coorte, o
+              tribuno e os satélites dos judeus prenderam e amarraram Jesus.
               Depois conduziram-n’O à presença de Anás, que era sogro de Caifás
               e pontífice naquele ano. Fora Caifás quem dera este conselho aos
               judeus: «Convém mais que morra um só homem, do que todo o povo!».
@@ -350,10 +350,10 @@ export default function PageQuad65() {
               falei mal, aponta-me o mal que disse. Se, porém, falei bem, porque
               me bates?».
             </Text>
-            <Text className="text-base">
-              <Text className="font-bold text-red-500">C.</Text> Et misit eum
-              Annas ligátum ad Cáipham pontíficem. Erat autem Simon Petrus stans
-              et calefáciens se. Dixérunt ergo ei:{" "}
+            <Text className="text-base latin">
+              <Text className="text-base latin">C.</Text> Et misit eum Annas
+              ligátum ad Cáipham pontíficem. Erat autem Simon Petrus stans et
+              calefáciens se. Dixérunt ergo ei:{" "}
               <Text className="font-bold text-red-500">S.</Text> Numquid et tu
               ex discípulis ejus es?{" "}
               <Text className="font-bold text-red-500">C.</Text> Negávit ille et
@@ -486,11 +486,11 @@ export default function PageQuad65() {
               eduxérunt. Depois disto conduziram Jesus de casa de Caifás para o
               Pretório.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Era já de manhã; e por isso não entraram, a fim de que se não
               contaminassem e pudessem comer a Páscoa. Saiu, pois, Pilatos fora,
               a ouvi-los, e disse:{" "}
-              <Text className="font-bold text-red-500">S.</Text> «Que acusação
+              <Text className="text-base vernacular">S.</Text> «Que acusação
               fazeis a este homem?».{" "}
               <Text className="font-bold text-red-500">C.</Text> Responderam e
               disseram: <Text className="font-bold text-red-500">S.</Text> «Se
@@ -598,7 +598,7 @@ export default function PageQuad65() {
               pois, finalmente, Jesus, para que fosse crucificado. Então
               seguraram-n’O e levaram-n’O.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Et bájulans sibi Crucem, exívit in eum, qui dícitur Calváriæ,
               locum, hebráice autem Gólgotha: ubi crucifixérunt eum, et cum eo
               alios duos, hinc et hinc, médium autem Jesum. Scripsit autem et
@@ -607,8 +607,8 @@ export default function PageQuad65() {
               legérunt, quia prope civitátem erat locus, ubi crucifíxus est
               Jesus. Et erat scriptum hebráice, græce et latíne. Dicébant ergo
               Piláto pontífices Judæórum:{" "}
-              <Text className="font-bold text-red-500">S.</Text> Noli scríbere
-              Rex Judæórum, sed quia ipse dixit: Rex sum Judæórum.{" "}
+              <Text className="text-base latin">S.</Text> Noli scríbere Rex
+              Judæórum, sed quia ipse dixit: Rex sum Judæórum.{" "}
               <Text className="font-bold text-red-500">C.</Text> Respóndit
               Pilátus: <Text className="font-bold text-red-500">S.</Text> Quod
               scripsi, scripsi.{" "}
@@ -622,7 +622,7 @@ export default function PageQuad65() {
               implerétur, dicens: Partíti sunt vestiménta mea sibi: et in vestem
               meam misérunt sortem. Et mílites quidem hæc fecérunt.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Puseram-Lhe, pois, uma cruz aos ombros e conduziram-n’O para um
               lugar, fora da cidade, chamado Calvário (que em hebreu significa
               Gólgota), onde O crucificaram, e com Ele dois outros, um de cada
@@ -631,7 +631,7 @@ export default function PageQuad65() {
               Nazareno, Rei dos Judeus». Muitos judeus leram este título, pois o
               lugar onde Jesus fora crucificado era perto da cidade. O título
               estava escrito em hebreu, grego e latim. Os pontífices diziam a
-              Pilatos: <Text className="font-bold text-red-500">S.</Text> «Não
+              Pilatos: <Text className="text-base vernacular">S.</Text> «Não
               escrevas Rei dos judeus; mas sim que Ele dizia: Sou o Rei dos
               judeus». <Text className="font-bold text-red-500">C.</Text>{" "}
               Respondeu-lhes Pilatos:{" "}
@@ -649,11 +649,11 @@ export default function PageQuad65() {
               os meus vestidos e sobre a minha túnica deitaram sortes». Isto
               mesmo fizeram os soldados.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Stabant autem juxta Crucem Jesu Mater ejus et soror Matris ejus,
               María Cléophæ, e María Magdaléne. Cum vidísset ergo Jesus Matrem
               et discípulum stantem, quem diligébat, dicit Matri suæ:{" "}
-              <Text className="cross text-red-500">✠</Text> Múlier, ecce fílius
+              <Text className="text-base latin">✠</Text> Múlier, ecce fílius
               tuus. <Text className="font-bold text-red-500">C.</Text> Deinde
               dicit discípulo: <Text className="cross text-red-500">✠</Text>{" "}
               Ecce mater tua. <Text className="font-bold text-red-500">C.</Text>{" "}
@@ -668,11 +668,11 @@ export default function PageQuad65() {
               <Text className="font-bold text-red-500">C.</Text> Et inclináte
               cápite trádidit spíritum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Estavam, então, de pé, junto à cruz de Jesus, sua Mãe e a irmã de
               sua Mãe, Maria de Cléofas, e Maria Madalena. Vendo Jesus sua Mãe e
               perto dela o discípulo que Ele preferia, disse à Mãe:{" "}
-              <Text className="cross text-red-500">✠</Text> «Mulher, eis aí o
+              <Text className="text-base vernacular">✠</Text> «Mulher, eis aí o
               teu Filho!». <Text className="font-bold text-red-500">C.</Text>{" "}
               Depois disse ao discípulo:{" "}
               <Text className="cross text-red-500">✠</Text> «Eis a tua Mãe!».{" "}
@@ -688,17 +688,17 @@ export default function PageQuad65() {
               consumado!». <Text className="font-bold text-red-500">C.</Text> E,
               inclinando a cabeça, entregou o espírito!
             </Text>
-            <Text className="text-base">
-              <Text className="em">
+            <Text className="text-base latin">
+              <Text className="text-base latin">
                 Hic genuflectitur, et pausatur aliquantulum
               </Text>
             </Text>
-            <Text className="text-base">
-              <Text className="em">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">
                 Ajoelha-se durante algum tempo, meditando-se no que se leu.
               </Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Judǽi ergo (quóniam Parascéve erat), ut non remanérent in cruce
               córpora sábbato (erat enim magnus dies ille sábbati), rogavérunt
               Pilátum, ut frangeréntur eórum crura et tolleréntur. Venérunt ergo
@@ -711,7 +711,7 @@ export default function PageQuad65() {
               hæc, ut Scriptúra implerétur: Os non comminuétis ex eo. Et íterum
               ália Scriptúra dicit: Vidébunt in quem transfixérunt.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Os judeus (porque era o dia da Preparação da Páscoa), não
               desejando que os corpos ficassem na cruz para o sábado (pois o
               sábado era solene), pediram a Pilatos consentisse que partissem as
@@ -734,7 +734,7 @@ export default function PageQuad65() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Post hæc autem rogávit Pilátum Joseph ab Arimathǽa (eo quod esset
               discípulus Jesu, occúltus autem propter metum Judæórum), ut
               tólleret corpus Jesu. Et permísit Pilátus. Venit ergo et tulit
@@ -746,7 +746,7 @@ export default function PageQuad65() {
               nondum quisquam pósitus erat. Ibi ergo propter Parascéven
               Judæórum, quia juxta erat monuméntum, posuérunt Jesum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em seguida, José de Arimateia (que fora discípulo de Jesus,
               ocultamente, com medo dos judeus), pediu a Pilatos o corpo de
               Jesus, o que Pilatos permitiu. Veio, pois, e tirou o corpo de
@@ -766,402 +766,404 @@ export default function PageQuad65() {
           <Text className="h3">Pela Santa Igreja</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus, dilectíssimi nobis, pro Ecclésia sancta Dei, ut eam Deus
               et Dóminus noster pacificáre, adunáre et custodíre dignétur toto
               orbe terrárum, detque nobis, quiétam et tranquíllam vitam
               degéntibus, glorificáre Deum Patrem omnipoténtem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oremos, irmãos caríssimos, pela Santa Igreja de Deus, a fim de que
               o Senhor, nosso Deus, se digne conceder-lhe paz e união e a guarde
               em toda a terra, sujeitando-lhe espiritualmente todos os
               principados e potestades; e que nos conceda uma vida calma e
               tranquila para glorificarmos Deus Pai omnipotente.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">℣. Flectámus génua.</Text>
-            <Text className="text-base">℣. Ajoelhemos!</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">℣. Flectámus génua.</Text>
+            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui glóriam tuam ómnibus in Christo
               géntibus revelásti: custódi ópera misericórdiæ tuæ; ut Ecclésia
               tua, toto orbe diffúsa, stábili fide in confessióne tui nóminis
               persevéret. Per eúndem Dóminum nostrum...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que revelastes a vossa glória a todas
               as nações por meio de Cristo, conservai a obra da vossa
               misericórdia, para que a vossa Igreja, espalhada por todo o mundo,
               persevere com fé firme na confissão do vosso Nome. Pelo mesmo
-              nosso Senhor... <Text className="text-red-500">℟.</Text> Amen.
+              nosso Senhor... <Text className="text-base vernacular">℟.</Text>{" "}
+              Amen.
             </Text>
           </View>
 
           <Text className="h3">Pelo Santíssimo Padre</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus, et pro beatíssimo Papa nostro{" "}
-              <Text className="text-red-500">N.</Text>, ut Deus et Dóminus
+              <Text className="text-base latin">N.</Text>, ut Deus et Dóminus
               noster, qui elégit eum in órdine episcopátus, salvum atque
               incólumem custódiat Ecclésiæ suæ sanctæ, ad regéndum pópulum
               sanctum Dei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oremos, pelo Santíssimo Padre, o Papa{" "}
-              <Text className="text-red-500">N.</Text> para que o Senhor, nosso
-              Deus, que o elevou à ordem do Episcopado, o conserve incólume e
-              livre, para utilidade da sua Igreja e para governar o santo povo
-              de Deus.
+              <Text className="text-base vernacular">N.</Text> para que o
+              Senhor, nosso Deus, que o elevou à ordem do Episcopado, o conserve
+              incólume e livre, para utilidade da sua Igreja e para governar o
+              santo povo de Deus.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">℣. Flectámus génua.</Text>
-            <Text className="text-base">℣. Ajoelhemos!</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">℣. Flectámus génua.</Text>
+            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, cujus judício univérsa fundántur:
               réspice propítius ad preces nostras, et electum nobis Antístitem
               tua pietáte consérva; ut christiána plebs, quæ te gubernátur
               auctóre, sub tanto Pontífice, credulitátis suæ méritis augeátur.
-              Per Dóminum nostrum... <Text className="text-red-500">℟.</Text>{" "}
+              Per Dóminum nostrum... <Text className="text-base latin">℟.</Text>{" "}
               Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que pela vossa sabedoria fazeis
               subsistir todas as coisas, acolhei benigno as nossas súplicas, e
               pela vossa bondade conservai o Pontífice escolhido, para que o
               povo cristão, que a vossa autoridade governa, aumente nos méritos
               da sua fé, debaixo da direcção de tão grande Pontífice. Por nosso
-              Senhor... <Text className="text-red-500">℟.</Text> Amen.
+              Senhor... <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 
           <Text className="h3">Por todo o Corpo da Igreja</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus, et pro ómnibus Epíscopis nostro, Presbýteris,
               Diacónibus,Subdiacónis, Acólythis, Exorcístis, Lectóribus,
               Ostiáriis, Confessóribus, Virgínibus, Víduis: et pro omni pópulo
               sancto Dei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oremos, também por todos os Bispos, Presbíteros, Diáconos,
               Subdiáconos, Acólitos, Exorcistas, Leitores, Ostiários,
               Confessores, Virgens, Viúvas e ainda por todo o santo povo de
               Deus.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">℣. Flectámus génua.</Text>
-            <Text className="text-base">℣. Ajoelhemos!</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">℣. Flectámus génua.</Text>
+            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, cujus Spíritu totum corpus Ecclésiæ sanctificátur et
               régitur: exáudi nos pro univérsis ordínibus supplicántes; ut,
               grátiæ tuæ múnere, ab ómnibus tibi grádibus fidéliter serviátur.
-              Per Dóminum... <Text className="text-red-500">℟.</Text> Amen.
+              Per Dóminum... <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e eterno Deus, cujo Espírito santifica e governa todo
               o corpo da Igreja, ouvi as nossas súplicas por todas as Ordens, a
               fim de que pelo dom da vossa graça cada uma dessas jerarquias Vos
               sirva fielmente. Por nosso Senhor...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 
           <Text className="h3">Pelo Imperador Romano</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus, et pro Christianíssimo (Si non est coronatus, dicatur:
               elécto Imperatóre.) Imperatóre nostro{" "}
-              <Text className="text-red-500">N.</Text> ut Deus et Dóminus noster
-              súbditas fáciat omnes barbaras natiónes ad nostram perpétuam
-              pacem.
+              <Text className="text-base latin">N.</Text> ut Deus et Dóminus
+              noster súbditas fáciat omnes barbaras natiónes ad nostram
+              perpétuam pacem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oremos, também pelo nosso Cristianíssimo (Se não é coroado,
               diz-se: Imperador eleito.) Imperador{" "}
-              <Text className="text-red-500">N.</Text> para que o Senhor, nosso
-              Deus, lhe submeta todas as nações bárbaras, para nossa perpétua
-              paz.
+              <Text className="text-base vernacular">N.</Text> para que o
+              Senhor, nosso Deus, lhe submeta todas as nações bárbaras, para
+              nossa perpétua paz.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">℣. Flectámus génua.</Text>
-            <Text className="text-base">℣. Ajoelhemos!</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">℣. Flectámus génua.</Text>
+            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, in cujus manu sunt ómnium potestátes
               et ómnium jura regnórum: réspice ad Románum benígnus Impérium; ut
               gentes, quæ in sua feritáte confídunt, poténtiæ tuæ déxtera
               comprimántur. Per Dóminum nostrum...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e eterno Deus, em cujas mãos estão todas as potestades
               e todas as leis do reino: olhai benignamente para o Império
               Romano; de modo que as nações que confiam em sua própria força,
               fiquem sujeitas à sua dextra. Por nosso Senhor...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 
           <Text className="h3">Pelos Catecúmenos</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus, et pro catechúmenis nostris: ut Deus et Dóminus noster
               adapériat aures præcordiórum ipsórum januámque misericordiæ; ut,
               per lavácrum regeneratiónis accépta remissióne ómnium peccatórum,
               et ipsi inveniántur in Christo Jesu, Dómino nostro.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oremos, também pelos nossos Catecúmenos, para que o Senhor, nosso
               Deus, lhes abra os ouvidos do coração e as portas da misericórdia,
               e, assim, havendo alcançado a remissão dos pecados pelo banho da
               regeneração, sejam connosco incorporados em Jesus Cristo, nosso
               Senhor.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">℣. Flectámus génua.</Text>
-            <Text className="text-base">℣. Ajoelhemos!</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">℣. Flectámus génua.</Text>
+            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui Ecclésiam tuam nova semper prole
               fecúndas: auge fidem et intellectum catechúmenis nostris; ut,
               renáti fonte baptismátis, adoptiónis tuæ fíliis aggregéntur. Per
-              Dóminum... <Text className="text-red-500">℟.</Text> Amen.
+              Dóminum... <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que dais continuamente novos filhos à
               vossa Igreja, aumentai a fé e a inteligência dos nossos
               Catecúmenos, a fim de que, renascidos na fonte baptismal, sejam
               agregados aos vossos filhos de adopção. Por nosso Senhor...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 
           <Text className="h3">Pelas Necessidade dos Fiéis</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus, dilectíssimi nobis, Deum Patrem omnipoténtem, ut cunctis
               mundum purget erróribus: morbos áuferat: famem depellat: apériat
               cárceres: víncula dissólvat: peregrinántibus réditum:
               infirmántibus sanitátem: navigántibus portum salútis indúlgeat.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oremos, caríssimos irmãos, a Deus Pai omnipotente, pedindo-Lhe que
               purifique o mundo de todos os erros; afaste as doenças; desterre a
               fome; abra as prisões; quebre as cadeias; conceda aos viajantes
               feliz viagem; dê aos enfermos a saúde; e conduza os navegantes a
               porto de salvamento.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">℣. Flectámus génua.</Text>
-            <Text className="text-base">℣. Ajoelhemos!</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">℣. Flectámus génua.</Text>
+            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, mæstórum consolátio, laborántium
               fortitúdo: pervéniant ad te preces de quacúmque tribulatióne
               clamántium; ut omnes sibi in necessitátibus suis misericórdiam
               tuam gáudeant affuísse. Per Dóminum nostrum...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e eterno Deus, consolação dos tristes e força dos que
               trabalham, permiti que cheguem até Vós as súplicas dos que em
               qualquer tribulação a Vós recorrem, para que nas suas necessidades
               todos sintam com alegria o auxílio da vossa misericórdia. Por
-              nosso Senhor... <Text className="text-red-500">℟.</Text> Amen.
+              nosso Senhor... <Text className="text-base vernacular">℟.</Text>{" "}
+              Amen.
             </Text>
           </View>
 
           <Text className="h3">Pelos Hereges e Cismáticos</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus, et pro hæréticis et schismáticis: ut Deus et Dóminus
               noster éruat eos ab erróribus univérsis; et ad sanctam matrem
               Ecclésiam Cathólicam atque Apostólicam revocáre dignétur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oremos, também pelos hereges e cismáticos: para que o Senhor,
               nosso Deus, os livre de todos os erros e se digne reconduzi-los ao
               seio da santa mãe Igreja Católica e Apostólica.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">℣. Flectámus génua.</Text>
-            <Text className="text-base">℣. Ajoelhemos!</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">℣. Flectámus génua.</Text>
+            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui salvas omnes, et néminem vis
               períre: réspice ad ánimas diabólica fraude decéptas; ut, omni
               hærética pravitáte depósita, errántium corda resipíscant, et ad
               veritátis tuæ rédeant unitátem. Per Dóminum nostrum...{" "}
-              <Text className="text-red-500">℟. </Text> Amen.
+              <Text className="text-base latin">℟. </Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que quereis salvar todos os homens e
               não quereis que nenhum pereça, lançai vossos olhares de compaixão
               para as almas seduzidas pelos artifícios do demónio, a fim de que,
               abandonando elas toda a maldade, se arrependam dos erros e
               regressem à unidade da vossa doutrina. Por nosso Senhor...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 
           <Text className="h3">Pelos Judeus</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus et pro pérfidis Judǽis: ut Deus et Dóminus noster áuferat
               velámen de córdibus eórum; ut et ipsi agnóscant Jesum Christum,
               Dóminum nostrum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oremos, também pelos pérfidos Judeus, a fim de que o Senhor nosso
               Deus tire o véu que cobre os seus corações, e que também
               reconheçam nosso Senhor Jesus Cristo.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Não se responde Amen, e o Celebrante continua:
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui étiam judáicam perfídiam a tua
               misericórdia non repéllis: exáudi preces nostras, quas pro illíus
               pópuli obcæcatióne deférimus; ut, ágnita veritátis tuæ luce, quæ
               Christus est, a suis ténebris eruántur. Per eundem...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus Omnipotente e eterno, que não desviais a vossa misericórdia
               ainda dos pérfidos Judeus: ouvi as orações que fazemos por este
               povo cego, a fim de que, reconhecendo a luz da vossa verdade, que
               é Jesus Cristo, saiam das trevas. Pelo mesmo nosso Senhor...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 
           <Text className="h3">Pelos Pagãos</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Orémus, et pro pagánis: ut Deus omnípotens áuferat iniquitátem a
               córdibus eórum; ut, relíctis idólis suis, convertántur ad Deum
               vivum et verum, et únicum Fílium ejus Jesum Christum, Deum et
               Dóminum nostrum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oremos, ainda pelos pagãos, a fim de que Deus omnipotente lhes
               arranque dos corações a iniquidade, e, abandonando os seus ídolos,
               se convertam a Deus vivo e verdadeiro e a seu Filho Unigénito
               Jesus Cristo, nosso Deus e Senhor.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">℣. Flectámus génua.</Text>
-            <Text className="text-base">℣. Ajoelhemos!</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="text-base latin">℣. Flectámus génua.</Text>
+            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Leváte.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui non mortem peccatórum, sed vitam
               semper inquíris: súscipe propítius oratiónem nostram, et líbera
               eos ab idolórum cultúra; et ággrega Ecclésiæ tuæ sanctæ, ad laudem
               et glóriam nóminis tui. Per Dóminum...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que procurais sempre não a morte dos
               pecadores mas a sua vida, ouvi benigno a nossa oração, livrai os
               pagãos do culto aos ídolos e agregai-os à vossa santa Igreja, para
               honra e glória do vosso nome. Por nosso Senhor...{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1170,30 +1172,31 @@ export default function PageQuad65() {
           <Text className="h3">Veníte, adorémus</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ecce lignum Crucis, in quo salus mundi pependit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis o Lenho da Cruz, do qual pendeu a salvação do mundo!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Veníte, adoremus.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Veníte, adoremus.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Vinde, adoremo-lo!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Vinde,
+              adoremo-lo!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Pópule meus, quid feci tibi? aut in quo contristávi te?
               respónde mihi. ℣. Quia edúxi te de terra Ægýpti: parásti Crucem
               Salvatóri tuo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Ó meu povo, que mal te fiz ou em que te contristei?
               Responde-me! ℣. Foi por te haver tirado da terra do Egipto que
               preparaste a Cruz para o teu Salvador?
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Agios o Theós.{" "}
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Agios o Theós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus Deus.{" "}
               <Text className="text-red-500">℟.</Text> Agios ischyrós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus fortis.{" "}
@@ -1201,8 +1204,8 @@ export default function PageQuad65() {
               imas. <Text className="text-red-500">℟.</Text> Sanctus immortális,
               miserére nobis.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
@@ -1210,18 +1213,18 @@ export default function PageQuad65() {
               compadecei-Vos de nós! <Text className="text-red-500">℟.</Text> Ó
               santo imortal, compadecei-Vos de nós!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Quia edúxi te per desértum quadragínta annis, et manna cibávi
               te, et introdúxi te in terram satis bonam: parásti Crucem
               Salvatóri tuo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Foi porque durante quarenta anos te conduzi no deserto, te
               alimentei com o maná e te introduzi numa terra excelente que
               preparaste a Cruz para o teu Salvador?
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Agios o Theós.{" "}
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Agios o Theós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus Deus.{" "}
               <Text className="text-red-500">℟.</Text> Agios ischyrós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus fortis.{" "}
@@ -1229,8 +1232,8 @@ export default function PageQuad65() {
               imas. <Text className="text-red-500">℟.</Text> Sanctus immortális,
               miserére nobis.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
@@ -1238,20 +1241,20 @@ export default function PageQuad65() {
               compadecei-Vos de nós! <Text className="text-red-500">℟.</Text> Ó
               santo imortal, compadecei-Vos de nós!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Quid ultra débui fácere tibi, et non feci? Ego quidem plantávi
               te víneam meam speciosíssimam: et tu facta es mihi nimis amára:
               acéto namque sitim meam potásti: et láncea perforásti latus
               Salvatóri tuo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Que mais por ti pudera fazer, que não tivesse feito?
               Plantei-te, como vinha especiosíssima! E tu converteste-te para
               mim na maior amargura: pois com vinagre atravessaste quiseste o
               mitigar-me lado do teu a sede Salvador!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Agios o Theós.{" "}
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Agios o Theós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus Deus.{" "}
               <Text className="text-red-500">℟.</Text> Agios ischyrós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus fortis.{" "}
@@ -1259,8 +1262,8 @@ export default function PageQuad65() {
               imas. <Text className="text-red-500">℟.</Text> Sanctus immortális,
               miserére nobis.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
@@ -1268,389 +1271,394 @@ export default function PageQuad65() {
               compadecei-Vos de nós! <Text className="text-red-500">℟.</Text> Ó
               santo imortal, compadecei-Vos de nós!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ego propter te flagellávi Ægýptum cum primogénitis suis: et tu
               me flagellátum tradidísti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Por tua causa flagelei o Egipto em seus primogénitos! E tu
               entregaste-me para ser flagelado!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
-              fiz ou em que te contristei? Responde-me!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
+              mal te fiz ou em que te contristei? Responde-me!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ego edúxi te de Ægýpto, demérso Pharaóne in Mare Rubrum: et tu
               me tradidísti princípibus sacerdótum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Tirei-te do Egipto e submergi Faraó nas águas do mar Vermelho!
               E tu entregaste-me aos príncipes dos sacerdotes!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
-              fiz ou em que te contristei? Responde-me!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
+              mal te fiz ou em que te contristei? Responde-me!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ego ante te apérui mare: et tu aperuísti láncea latus meum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Abri o mar à tua passagem! E tu abriste-me o lado com uma
               lança!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
-              fiz ou em que te contristei? Responde-me!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
+              mal te fiz ou em que te contristei? Responde-me!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ego ante te præívi in colúmna nubis: et tu me duxísti ad
               prætórium Piláti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Caminhei diante de ti, como nuvem luminosa! E tu levaste-me ao
               pretório de Pilatos!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
-              fiz ou em que te contristei? Responde-me!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
+              mal te fiz ou em que te contristei? Responde-me!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ego te pavi manna per desértum: et tu me cecidísti álapis et
               flagéllis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Com o maná te alimentei no deserto! E tu encheste-me de
               bofetadas e açoites!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
-              fiz ou em que te contristei? Responde-me!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
+              mal te fiz ou em que te contristei? Responde-me!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ego te potávi aqua salútis de petra: et tu me potásti felle et
               acéto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Fiz brotar água do rochedo para te saciar! E tu deste-me a
               beber fel e vinagre!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
-              fiz ou em que te contristei? Responde-me!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
+              mal te fiz ou em que te contristei? Responde-me!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ego propter te Chananæórum reges percússi: et tu percussísti
               arúndine caput meum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Por tua causa feri os reis dos Cananeus! E tu feriste-me a
               cabeça com uma cana!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
-              fiz ou em que te contristei? Responde-me!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
+              mal te fiz ou em que te contristei? Responde-me!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ego dedi tibi sceptrum regale: et tu dedísti capiti meo spíneam
               coronam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Dei-te o ceptro da realeza! E tu colocaste na minha cabeça uma
               coroa de espinhos!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
-              fiz ou em que te contristei? Responde-me!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
+              mal te fiz ou em que te contristei? Responde-me!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ego te exaltávi magna virtúte: et tu me suspendísti in patíbulo
               Crucis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Elevei-te, revestindo-te com grande poder! E tu suspendeste-me
               no patíbulo da Cruz!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
-              fiz ou em que te contristei? Responde-me!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
+              mal te fiz ou em que te contristei? Responde-me!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Crucem tuam adorámus, Dómine: et sanctam resurrectiónem tuam
               laudámus et glorificámus: ecce enim, propter lignum venit gaudium
               in univérso mundo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Senhor, adoramos a vossa Cruz; louvamos e glorificamos a vossa
               santa Ressurreição; pois foi por este Lenho que a alegria apareceu
               em todo o mundo.
             </Text>
-            <Text className="text-base">
-              <Text className="em">Ps. 66, 2</Text> Deus misereátur nostri et
-              benedícat nobis:
+            <Text className="text-base latin">
+              <Text className="text-base latin">Ps. 66, 2</Text> Deus misereátur
+              nostri et benedícat nobis:
             </Text>
-            <Text className="text-base">
-              <Text className="em">Sl. 66, 2</Text> Que Deus tenha piedade de
-              nós e nos abençoe.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Sl. 66, 2</Text> Que Deus
+              tenha piedade de nós e nos abençoe.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Illúminet vultum suum
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Illúminet vultum suum
               super nos et misereátur nostri.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Que nos ilumine com o
-              brilho da sua face e seja misericordioso para connosco.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Que nos ilumine
+              com o brilho da sua face e seja misericordioso para connosco.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Crucem tuam adorámus, Dómine: et sanctam resurrectiónem tuam
               laudámus et glorificámus: ecce enim, propter lignum venit gáudium
               in univérso mundo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Senhor, adoramos a vossa Cruz; louvamos e glorificamos a vossa
               santa Ressurreição; pois foi por este Lenho que a alegria apareceu
               em todo o mundo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
-              arbor una nóbilis: nulla silva talem profert fronde, flore,
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
+              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine. Dulce lignum dulces clavos, dulce pondus sústinet.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
-              árvore única, a mais nobre entre todas! Nenhuma floresta produz
-              outra igual, nem nas folhas, nem nas flores, nem nos frutos. Ó
-              amável Lenho, ó cravos sagrados, que segurais um fardo tão
-              precioso!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
+              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
+              produz outra igual, nem nas folhas, nem nas flores, nem nos
+              frutos. Ó amável Lenho, ó cravos sagrados, que segurais um fardo
+              tão precioso!
             </Text>
-            <Text className="text-base">
-              <Text className="em">Hymnus</Text> ℣. Pange, lingua, gloriósi
-              láuream certáminis, et super Crucis trophǽo dic triúmphum nóbilem:
-              quáliter Redémptor orbis immolátus vícerit.
+            <Text className="text-base latin">
+              <Text className="text-base latin">Hymnus</Text> ℣. Pange, lingua,
+              gloriósi láuream certáminis, et super Crucis trophǽo dic triúmphum
+              nóbilem: quáliter Redémptor orbis immolátus vícerit.
             </Text>
-            <Text className="text-base">
-              <Text className="em">Hino</Text> ℣. Canta, ó língua, os louros do
-              glorioso combate; celebra o nobre triunfo de que a Cruz é o
-              troféu! Canta a vitória que o Redentor do mundo alcançou, se
-              imolando.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Hino</Text> ℣. Canta, ó
+              língua, os louros do glorioso combate; celebra o nobre triunfo de
+              que a Cruz é o troféu! Canta a vitória que o Redentor do mundo
+              alcançou, se imolando.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
-              arbor una nóbilis: nulla silva talem profert fronde, flore,
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
+              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
-              árvore única, a mais nobre entre todas! Nenhuma floresta produz
-              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
+              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
+              produz outra igual, nem nas folhas, nem nas flores, nem nos
+              frutos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. De paréntis protoplásti fraude Factor cóndolens, quando pomi
               noxiális in necem morsu ruit: ipse lignum tunc notávit, damna
               ligni ut sólveret.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Condoído da infelicidade que a sedução trouxe ao nosso primeiro
               pai, precipitado na morte por haver comido o fruto funesto, o
               Criador, desde então, designou outra árvore para reparar os males
               da primeira.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
-              sagrados, que segurais um fardo tão precioso!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
+              cravos sagrados, que segurais um fardo tão precioso!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Hoc opus nostræ salútis ordo depopóscerat: multifórmis
               proditóris ars ut artem fálleret: et medélam ferret inde, hostis
               unde lǽserat.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Tal obra era necessária para a nossa salvação. A sabedoria
               divina frustrou deste modo o astuto traidor, vindo-nos o remédio
               pelo instrumento de que se servira o inimigo para nos ferir.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
-              arbor una nóbilis: nulla silva talem profert fronde, flore,
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
+              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
-              árvore única, a mais nobre entre todas! Nenhuma floresta produz
-              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
+              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
+              produz outra igual, nem nas folhas, nem nas flores, nem nos
+              frutos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Quando venit ergo sacri plenitúdo témporis, missus est ab arce
               Patris Natus, orbis Cónditor: atque ventre virgináli carne amíctus
               pródiit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Quando veio a plenitude do tempo assinalado, Aquele por quem o
               mundo foi criado foi mandado do trono do Pai; e, fazendo-se carne
               em um seio virginal, apareceu neste mundo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
-              sagrados, que segurais um fardo tão precioso!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
+              cravos sagrados, que segurais um fardo tão precioso!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Vagit Infans inter arcta cónditus præsépia: membra pannis
               involúta Virgo Mater álligat: et Dei manus pedésque stricta cingit
               fáscia.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Deu os primeiros vagidos deitado em pobre presépio, e a Virgem
               Mãe cobriu-lhe com panos os delicados membros, ficando cativas com
               faixas de pano as mãos e os pés de um Deus!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
-              arbor una nóbilis: nulla silva talem profert fronde, flore,
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
+              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
-              árvore única, a mais nobre entre todas! Nenhuma floresta produz
-              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
+              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
+              produz outra igual, nem nas folhas, nem nas flores, nem nos
+              frutos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Lustra sex qui jam perégit, tempus implens córporis, sponte
               líbera Redémptor passióni déditus, Agnus in Crucis levátur
               immolándus stípite.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Depois de haver vivido seis lustros, estando completo o tempo
               da sua vida mortal, o Redentor entregou-se livremente ao
               sofrimento. O Cordeiro foi elevado na Cruz para nela ser imolado.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
-              sagrados, que segurais um fardo tão precioso!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
+              cravos sagrados, que segurais um fardo tão precioso!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Felle potus ecce languet: spina, clavi, láncea mite corpus
               perforárunt, unda manat et cruor: terra, pontus, astra, mundus,
               quo lavántur flúmine!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Eis que na agonia dão-Lhe a beber fel; e os espinhos, os cravos
               e a lança ferem o seu delicado corpo, donde manam água e sangue. E
               este digno rio lava a terra, o mar, os astros e o mundo inteiro.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
-              arbor una nóbilis: nulla silva talem profert fronde, flore,
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
+              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
-              árvore única, a mais nobre entre todas! Nenhuma floresta produz
-              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
+              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
+              produz outra igual, nem nas folhas, nem nas flores, nem nos
+              frutos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Flecte ramos, arbor alta, tensa laxa víscera, et rigor
               lentéscat ille, quem dedit natívitas: et supérni membra Regis
               tende miti stípite.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Ó árvore augusta, verga os teus ramos, afrouxa as fibras,
               quebra a rigidez que te deu a natureza, e torna-te em leito macio
               para os membros do Rei supremo!
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
-              sagrados, que segurais um fardo tão precioso!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
+              cravos sagrados, que segurais um fardo tão precioso!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Sola digna tu fuísti ferre mundi víctimam: atque portum
               præparáre arca mundo náufrago: quam sacer cruor perúnxit, fusus
               Agni córpore.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Só tu foste julgada digna de sustentar em teus braços a Vítima
               do mundo. Para este mundo naufragado, tu, banhada pelo sangue do
               divino Cordeiro, foste o primeiro piloto que o conduziu ao porto.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
-              arbor una nóbilis: nulla silva talem profert fronde, flore,
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
+              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
-              árvore única, a mais nobre entre todas! Nenhuma floresta produz
-              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
+              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
+              produz outra igual, nem nas folhas, nem nas flores, nem nos
+              frutos.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Sempitérna sit beátæ Trinitáti glória: æqua Patri Filióque; par
               decus Paráclito: Uníus Triníque nomen laudet univérsitas.{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Glória eterna à bem-aventurada Trindade; igual homenagem ao
               Pai, e ao Filho, e ao Paráclito. Que o nome de Deus uno e trino
               seja louvado em todo o orbe.{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
-              sagrados, que segurais um fardo tão precioso!
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
+              cravos sagrados, que segurais um fardo tão precioso!
             </Text>
           </View>
 
@@ -1666,70 +1674,70 @@ export default function PageQuad65() {
           <VexillaRegis />
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In spiritu humilitátis et in ánimo contríto suscipiámur a te,
               Dómine: et sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut
               pláceat tibi, Dómine Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Com o espírito humilhado e com o coração contrito, Senhor, Vos
               pedimos, dignai-Vos receber-nos, para que este sacrifício seja
               feito hoje na vossa presença e de modo que Vos seja agradável.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oráte, fratres, ut meum ac vestrum sacrifícium acceptábile fiat
               apud Deum Patrem omnipoténtem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Orai, meus irmãos, a fim de que este meu sacrifício, que é também
               vosso, seja agradável a Deus, Pai omnipotente.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Percéptio Córporis tui, Dómine Jesu Christe, quod ego indígnus
               súmere præsúmo, non mihi provéniat in judícium et condemnatiónem:
               sed pro tua pietáte prosit mihi ad tutaméntum mentis et córporis,
               et ad medélam percipiéndam: Qui vivis et regnas...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, que este vosso Corpo, que eu, ainda que
               indignamente, me proponho receber, não seja para meu juízo e
               condenação; mas que, pela vossa misericórdia, sirva à minha alma e
               ao meu corpo de defesa e de remédio salutar. Vós, que, sendo
               Deus...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Panem cœléstem accípiam, et nomen Dómini invocábo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Tomarei o Pão Celestial e invocarei o nome do Senhor.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic
               verbo, et sanábitur ánima mea.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, não sou digno de que entreis em minha morada, mas dizei
               uma só palavra e minha alma será salva.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Corpus Dómini nostri Jesu Christi custódiat ánimam meam in vitam
               ætérnam. Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que o corpo de N. S. Jesus Cristo guarde a minha alma para a vida
               eterna. Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quod ore súmpsimus, Dómine, pura mente capiámus: et de múnere
               temporáli fiat nobis remédium sempitérnum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, Senhor, que conservemos com pureza de coração o que
               acaba de receber a nossa boca; e que esta dádiva temporal, que nos
               fizestes, se torne para nós em um remédio eterno.

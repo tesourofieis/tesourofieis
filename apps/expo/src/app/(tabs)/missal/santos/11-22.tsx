@@ -26,12 +26,12 @@ export default function Page1122() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui nos ánnua beátæ Caeciliae Vírginis et Mártyris tuæ
               sollemnitáte lætíficas: da, ut, quam venerámur offício, étiam piæ
               conversatiónis sequámur exémplo. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que nos alegrais com a solenidade anual da B. Cecília,
               vossa Virgem e Mártir, dignai-Vos permitir que, honrando-a com
               estes cultos, imitemos também os exemplos da sua piedosa vida. Por
@@ -51,26 +51,28 @@ export default function Page1122() {
           <Text className="em">Sl. 44, 11 & 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex
-              spéciem tuam. ℣. <Text className="em">ibid., 5</Text> Spécie tua
-              et pulchritúdine tua inténde, próspere procéde et regna.
+              spéciem tuam. ℣. <Text className="text-base latin">ibid., 5</Text>{" "}
+              Spécie tua et pulchritúdine tua inténde, próspere procéde et
+              regna.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Escutai, ó minha filha, vede e inclinai o vosso ouvido; o Rei está
               cheio de amor por vós, por causa da vossa beleza! ℣.{" "}
-              <Text className="em">ibid., 5</Text> Com a vossa glória e com
-              vossa formosura caminhai, triunfai e reinai.
+              <Text className="text-base vernacular">ibid., 5</Text> Com a vossa
+              glória e com vossa formosura caminhai, triunfai e reinai.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣.{" "}
-              <Text className="em">Matth. 25, 4 & 6</Text> Quinque prudéntes
-              vírgines accepérunt óleum in vasis suis cum lampádibus: média
-              autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam
-              Christo Dómino. Allelúja.
+              <Text className="text-base latin">Matth. 25, 4 & 6</Text> Quinque
+              prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus:
+              média autem nocte clamor factus est: Ecce, sponsus venit: exíte
+              óbviam Christo Dómino. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Mt. 25, 4 & 6</Text> As
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Mt. 25, 4 & 6</Text> As
               cinco virgens prudentes tomaram óleo em seus vasos para suas
               lâmpadas. No meio da noite uma voz soou: eis que chega o esposo:
               ide ao encontro de Cristo, Senhor. Aleluia.
@@ -80,12 +82,12 @@ export default function Page1122() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc hóstia, Dómine, placatiónis et laudis, quǽsumus: ut,
               intercedénte beáta Cæcília Vírgine et Mártyre tua, nos
               propitiatióne tua dignos semper effíciat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que esta hóstia de propiciação e de louvor, Senhor, Vos rogamos,
               nos torne sempre dignos da vossa misericórdia, pela intercessão da
               B. Cecília, vossa Virgem e Mártir. Por nosso Senhor...
@@ -95,12 +97,12 @@ export default function Page1122() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
               semper interventióne nos réfove, cujus sollémnia celebrámus. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Saciastes, Senhor, a vossa família com vossos sacratíssimos dons;
               e dignai-Vos favorecer-nos sempre, Vos imploramos, pela
               intercessão daquela cuja festa celebramos. Por nosso Senhor...

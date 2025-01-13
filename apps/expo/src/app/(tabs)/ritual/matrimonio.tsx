@@ -34,87 +34,94 @@ export default function PageMatrimonio() {
             direitas, pelo lado palmar destas. E o Sacerdote diz:
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ego conjúngo vos in matrimónium, in nómine Patris,{" "}
-              <Text className="cross text-red-500">✠</Text> et Fílii, et
-              Spíritus Sancti.
+              <Text className="text-base latin">✠</Text> et Fílii, et Spíritus
+              Sancti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eu vos uno em Matrimónio, em Nome do Pai, e do Filho{" "}
-              <Text className="cross text-red-500">✠</Text>, e do Espírito
+              <Text className="text-base vernacular">✠</Text>, e do Espírito
               Santo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote asperge com Água benta os noivos.
-          </View>
+          </Text>
           <Text className="h2">Bênção do Anel</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Adjutórium nostrum in nómine Dómini.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. O nosso auxílio está no Nome do Senhor.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Qui fecit cœlum et
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Qui fecit cœlum et
               terram.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Que criou o céu e a
-              terra.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Que criou o céu e
+              a terra.
             </Text>
-            <Text className="text-base">℣. Dómine, exáudi oratiónem meam.</Text>
-            <Text className="text-base">℣. Senhor, ouvi a minha oração.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+            <Text className="text-base latin">
+              ℣. Dómine, exáudi oratiónem meam.
+            </Text>
+            <Text className="text-base vernacular">
+              ℣. Senhor, ouvi a minha oração.
+            </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
-              até Vós.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E que meu clamor
+              chegue até Vós.
             </Text>
-            <Text className="text-base">℣. Dominus vobíscum.</Text>
-            <Text className="text-base">℣. O Senhor seja convosco.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
+            <Text className="text-base latin">℣. Dominus vobíscum.</Text>
+            <Text className="text-base vernacular">
+              ℣. O Senhor seja convosco.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E com vosso espírito.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">℣. Orémus.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E com vosso
+              espírito.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">℣. Oremos.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℣. Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              Benedic, <Text className="cross text-red-500">✠</Text> Dómine,
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℣. Oremos.</Text>
+            </Text>
+            <Text className="text-base latin">
+              Benedic, <Text className="text-base latin">✠</Text> Dómine,
               ánnulum hunc, quem nos in tuo nómine benedícimus,{" "}
               <Text className="cross text-red-500">✠</Text> ut quæ eum
               gestáverit, fidelitátem íntegram suo sponso tenens, in pace et
               voluntáte tua permáneat atque in mútua caritáte semper vivat. Per
               Christum Dóminum nostrum.
             </Text>
-            <Text className="text-base">
-              Abençoai, <Text className="cross text-red-500">✠</Text> Senhor,
+            <Text className="text-base vernacular">
+              Abençoai, <Text className="text-base vernacular">✠</Text> Senhor,
               este anel, que nós benzemos{" "}
               <Text className="cross text-red-500">✠</Text> em vosso Nome, a fim
               de que aquela que vai usá-lo, guardando a seu esposo uma
               fidelidade inteira, permaneça na paz e na vossa vontade e viva
               sempre no amor recíproco. Por Cristo, nosso Senhor.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <View className="aside">
@@ -124,112 +131,127 @@ export default function PageMatrimonio() {
             da Cruz sobre o anel:
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Confírma hoc, Deus, quod operátus es in nobis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Confirmai, Senhor, aquilo que acabais de operar em nós.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> A templo sancto tuo, quod
-              est in Jerúsalem.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> A templo sancto tuo,
+              quod est in Jerúsalem.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Do vosso templo Santo,
-              que é a celestial Jerusalém.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Do vosso templo
+              Santo, que é a celestial Jerusalém.
             </Text>
-            <Text className="text-base">℣. Kyrie eléison.</Text>
-            <Text className="text-base">℣. Senhor, tende piedade de nós.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Christe eléison.
+            <Text className="text-base latin">℣. Kyrie eléison.</Text>
+            <Text className="text-base vernacular">
+              ℣. Senhor, tende piedade de nós.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Cristo, tende piedade de
-              nós.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Christe eléison.
             </Text>
-            <Text className="text-base">℣. Kyrie eléison.</Text>
-            <Text className="text-base">℣. Senhor, tende piedade de nós.</Text>
-            <Text className="text-base">Pater noster... (secreto)</Text>
-            <Text className="text-base">Pai nosso... (silêncio)</Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Cristo, tende
+              piedade de nós.
+            </Text>
+            <Text className="text-base latin">℣. Kyrie eléison.</Text>
+            <Text className="text-base vernacular">
+              ℣. Senhor, tende piedade de nós.
+            </Text>
+            <Text className="text-base latin">Pater noster... (secreto)</Text>
+            <Text className="text-base vernacular">
+              Pai nosso... (silêncio)
+            </Text>
+            <Text className="text-base latin">
               ℣. Et ne nos indúcas in tentatiónem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. E não nos deixeis cair em tentação.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Sed líbera nos a malo.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Sed líbera nos a malo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Mas livrai-nos do mal.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Mas livrai-nos do
+              mal.
             </Text>
-            <Text className="text-base">℣. Salvus fac servos tuos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">℣. Salvus fac servos tuos.</Text>
+            <Text className="text-base vernacular">
               ℣. Senhor, salvai os vossos servos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Deus meus, sperántes in
-              te.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Deus meus, sperántes
+              in te.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Que esperam em Vós, ó
-              Deus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Que esperam em
+              Vós, ó Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Mitte eis, Dómine, auxílium de sancto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Do vosso santuário, enviai-lhes, Senhor, auxílio.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et de Sion tuére eos.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et de Sion tuére eos.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E de Sião, amparai-os.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E de Sião,
+              amparai-os.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Esto eis, Dómine, turris fortitúdinis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Sede para eles como uma torre fortificada.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> A fácie inimíci.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> A fácie inimíci.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Contra o inimigo.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Contra o inimigo.
             </Text>
-            <Text className="text-base">℣. Dómine, exáudi oratiónem meam.</Text>
-            <Text className="text-base">℣. Senhor, ouvi a minha oração.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+            <Text className="text-base latin">
+              ℣. Dómine, exáudi oratiónem meam.
+            </Text>
+            <Text className="text-base vernacular">
+              ℣. Senhor, ouvi a minha oração.
+            </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
-              até Vós.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E que meu clamor
+              chegue até Vós.
             </Text>
-            <Text className="text-base">℣. Dominus vobíscum.</Text>
-            <Text className="text-base">℣. O Senhor seja convosco.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
+            <Text className="text-base latin">℣. Dominus vobíscum.</Text>
+            <Text className="text-base vernacular">
+              ℣. O Senhor seja convosco.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E com vosso espírito.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">℣. Orémus.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E com vosso
+              espírito.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">℣. Oremos.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℣. Orémus.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℣. Oremos.</Text>
+            </Text>
+            <Text className="text-base latin">
               Respice, quǽsumus, Dómine, super hos fámulos tuos et institútis
               tuis, quibus propagatiónem humáni géneris ordinásti, benígnus
               assíste, ut qui te auctóre jungúntur, te auxiliánte servéntur. Per
               Christum Dóminum nostrum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, olhai misericordioso para estes esposos,
               que são vossos servos, e, visto que destinastes esta instituição
               para a propagação do género humano, auxiliai-o benignamente, a fim
@@ -237,40 +259,41 @@ export default function PageMatrimonio() {
               sempre protegidos por Vós, que sois também o seu sustentáculo. Por
               Cristo, nosso Senhor.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h1">Missa do Matrimónio</Text>
           <Text className="h2">Intróito</Text>
           <Text className="em">Tb. 7, 15; 8, 19</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus Israël conjúngat vos: et ipse sit vobíscum, qui misértus est
               duóbus únicis: et nunc, Dómine, fac eos plénius benedícere te. (T.
-              P. Allelúja, allelúja.) <Text className="em">Ps. 127, 1</Text>{" "}
-              Beáti omnes, qui timent Dóminum: qui ámbulant in viis ejus. ℣.
-              Gloria Patri...
+              P. Allelúja, allelúja.){" "}
+              <Text className="text-base latin">Ps. 127, 1</Text> Beáti omnes,
+              qui timent Dóminum: qui ámbulant in viis ejus. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que Deus de Israel vos una: que Ele permaneça convosco e tenha
               piedade destes dois filhos únicos. De agora em diante. Senhor,
               fazei que Vos louvem plenamente. (T. P. Aleluia, aleluia.){" "}
-              <Text className="em">Sl. 127, 1</Text> Bem-aventurados aqueles que
-              temem o Senhor: e que seguem os seus caminhos. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 127, 1</Text>{" "}
+              Bem-aventurados aqueles que temem o Senhor: e que seguem os seus
+              caminhos. ℣. Glória ao Pai...
             </Text>
           </View>
           <Text className="h2">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exáudi nos, omnípotens et misericors Deus: ut, quod nostro
               ministrate officio, tua benedictióne potius impleatur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Atendei-nos, ó Deus omnipotente e misericordioso, a fim de que
               aquilo que iniciámos com o nosso ministério alcance complemento
               perfeito com vossa bênção. Por nosso Senhor...
@@ -279,13 +302,13 @@ export default function PageMatrimonio() {
           <Text className="h2">Epístola</Text>
           <Text className="em">Ef. 5, 22-33</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Mulíeres viris suis súbditae sint, sicut Dómino; quóniam
               vir caput est mulíeris, sicut Christus caput est Ecclésiæ: Ipse,
               salvátor córporis ejus. Sed sicut Ecclésia subjécta est Christo,
@@ -304,7 +327,7 @@ export default function PageMatrimonio() {
               Ecclésia. Verúmtamen et vos sínguli, unusquísque uxórem suam,
               sicut seípsum díligat: uxor autem tímeat virum suum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Que as mulheres estejam sujeitas a seus maridos, como
               ao Senhor; pois o marido é a cabeça da mulher, como Cristo é a
               cabeça da Igreja, e o Salvador do seu corpo. Ora, assim como a
@@ -328,56 +351,59 @@ export default function PageMatrimonio() {
           <Text className="h2">Gradual</Text>
           <Text className="em">Sl. 127, 3</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Uxor tua sicut vitis abúndans in latéribus domus tuæ. ℣. Fílii tui
               sicut novéllæ olivárum in circúitu mensæ tuæ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A vossa esposa será como uma vinha fecunda no seio da vossa casa:
               ℣. E os vossos filhos como rebentos de oliveira, em torno da vossa
               mesa.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 19, 3</Text>{" "}
-              Mittat vobis Dóminus auxílium de sancto: et de Sion tueátur vos.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 19, 3</Text> Mittat vobis
+              Dóminus auxílium de sancto: et de Sion tueátur vos. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Ps. 19, 3</Text> Que a
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Ps. 19, 3</Text> Que a
               graça do Senhor desça do seu santuário e de Sião, e vos socorra e
               proteja. Aleluia.
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
-          </View>
+          </Text>
           <Text className="h2">Trato</Text>
           <Text className="em">Sl. 127, 4-6</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ecce, sic benedicétur omnis homo, qui timet Dóminum. ℣. Benedícat
               tibi Dóminus ex Sion: et vídeas bona Jerúsalem ómnibus diébus
               vitae tuæ. ℣. Et vídeas fílios filiórum tuórum: pax super Israël.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Assim será abençoado o homem que teme o Senhor. ℣. O Senhor vos
               abençoe lá de Sião, e possais gozar a felicidade de Jerusalém
               todos os dias da vossa vida. ℣. E ver os filhos dos vossos filhos
               e a paz em Israel.
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
-          </View>
+          </Text>
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 19, 3</Text>{" "}
-              Mittat vobis Dóminus auxílium de sancto: et de Sion tueátur vos.
-              Allelúja. ℣. <Text className="em">Ps. 133, 3</Text> Benedícat
-              vobis Dóminus ex Sion: qui fecit cœlum et terram. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 19, 3</Text> Mittat vobis
+              Dóminus auxílium de sancto: et de Sion tueátur vos. Allelúja. ℣.{" "}
+              <Text className="em">Ps. 133, 3</Text> Benedícat vobis Dóminus ex
+              Sion: qui fecit cœlum et terram. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 19, 3</Text> Que a
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 19, 3</Text> Que a
               graça do Senhor desça do seu santuário e de Sião e vos socorra e
               proteja. Aleluia. ℣. <Text className="em">Sl. 133, 3</Text> Que o
               Senhor, que criou o céu e a terra, vos abençoe lá de Sião.
@@ -387,15 +413,15 @@ export default function PageMatrimonio() {
           <Text className="h2">Evangelho</Text>
           <Text className="em">Mt. 19, 3-6</Text>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Accessérunt ad Jesum pharisǽi, tentántes eum et
               dicéntes: Si licet hómini dimíttere uxórem suam quacúmque ex
               causa? Qui respóndens, ait eis: Non legístis, quia qui fecit
@@ -404,7 +430,7 @@ export default function PageMatrimonio() {
               suæ, et erunt duo in carne una. Itaque jam non sunt duo, sed una
               caro. Quod ergo Deus conjúnxit, homo non séparet.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, os fariseus aproximaram-se de Jesus para O tentar,
               dizendo: «É lícito ao homem repudiar sua mulher por qualquer
               causa?». Ele respondeu: «Não lestes que Aquele que criou o homem
@@ -418,22 +444,22 @@ export default function PageMatrimonio() {
           <Text className="h2">Ofertório</Text>
           <Text className="em">Sl. 30, 15-16</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In te sperávi, Dómine: dixi: Tu es Deus meus: in mánibus tuis
               témpora mea. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Em Vós, senhor, pus toda minha confiança. Eu disse: sois o meu
               Deus: nas vossas mãos está o meu destino. (T. P. Aleluia.)
             </Text>
           </View>
           <Text className="h2">Secreta</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Suscipe, quǽsumus, Dómine, pro sacra conúbii lege munus oblátum:
               et, cujus largítor es óperis, esto dispósitor. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, vos suplicamos, aceitai o sacrifício que Vos oferecemos
               para consagrar este pacto matrimonial e, visto que fostes o autor
               dele, sede também o seu guarda. Por nosso Senhor...
@@ -445,13 +471,13 @@ export default function PageMatrimonio() {
           </View>
           <Text className="h2">Bênção dos cônjuges</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Propitiáre, Dómine, supplicatiónibus nostris, et institútis tuis,
               quibus propagatiónem humáni géneris ordinásti, benígnus assíste:
               ut, quod te auctóre júngitur, te auxiliánte servétur. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sede propício, Senhor, às nossas súplicas e, visto que
               instituístes este sacramento para a propagação do género humano,
               assisti-nos benignamente, a fim de que produza a sua graça e se
@@ -460,7 +486,7 @@ export default function PageMatrimonio() {
           </View>
           <Text className="h2">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui potestáte virtútis tuæ de níhilo cuncta fecísti: qui
               dispósitis universitátis exórdiis, hómini, ad imáginem Dei facto,
               ídeo inseparábile mulíeris adjutórium condidísti, ut femíneo
@@ -485,7 +511,7 @@ export default function PageMatrimonio() {
               tártiam et quartam generatiónem, et ad optátam pervéniant
               senectútem. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que por vosso poder e virtude formastes o mundo do nada,
               e, postos em ordem todos estes elementos, criastes o homem à vossa
               imagem e depois lhe concedestes o dom da mulher, como auxílio
@@ -522,11 +548,11 @@ export default function PageMatrimonio() {
           <Text className="h2">Comúnio</Text>
           <Text className="em">Sl. 127, 4 & 6</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ecce, sic benedicétur omnis homo, qui timet Dóminum: et vídeas
               fílios filiórum tuórum: pax super Israël. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis como será abençoado o homem que teme o Senhor: «que goze a
               felicidade de ver os filhos dos seus filhos e a paz em Israel».
               (T. P. Aleluia.)
@@ -534,12 +560,12 @@ export default function PageMatrimonio() {
           </View>
           <Text className="h2">Postcomúnio</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quǽsumus, omnípotens Deus: institúta providéntiæ tuæ pio favóre
               comitáre; ut, quos legítima societáte conéctis, longǽva pace
               custódias. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos suplicamos, ó Deus omnipotente, acompanhai com os favores da
               vossa bondade aquilo que pela vossa providência instituístes, a
               fim de que aqueles, que unistes para um fim legítimo, vivam em
@@ -551,14 +577,14 @@ export default function PageMatrimonio() {
             o Sacerdote diz:
           </View>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus Abraham, Deus Isaac et Deus Jacob sit vobíscum: et ipse
               adímpleat benedictiónem suam in vobis: ut videátis fílios filiórum
               vestrórum usque ad tértiam et quartam generatiónem, et póstea
               vitam ætérnam habeátis sine fine: adjuvánte Dómino nostro Jesu
               Christo, qui cum Patre et Spíritu Sancto vivit et regnat...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus de Abraão, Deus de Isaque, Deus de Jacob esteja convosco; e
               que sua bênção desça sobre vós, para que vejais os filhos de
               vossos filhos até à terceira e quarta geração, e em seguida
@@ -566,11 +592,11 @@ export default function PageMatrimonio() {
               Jesus Cristo: Que, com o Pai e o Espírito Santo, sendo Deus,
               vive...
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
         </View>

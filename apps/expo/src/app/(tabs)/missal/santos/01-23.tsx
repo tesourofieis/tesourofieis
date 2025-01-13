@@ -23,13 +23,13 @@ export default function Page0123() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátum Raymúndum pœniténtiæ sacraménti insígnem
               minístrum elegísti, et per maris undas mirabíliter traduxísti:
               concéde; ut ejus intercessióne dignos pœniténtiæ fructus fácere,
               et ad ætérnæ salútis portum perveníre valeámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que Vos dignastes escolher o B. Raimundo para o tornar em
               um insigne ministro do sacramento da penitência e que
               milagrosamente o fizestes atravessar as águas do mar, concedei-nos

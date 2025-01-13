@@ -29,20 +29,22 @@ export default function Page0628() {
           <Text className="em">Jo. 21, 18-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dicit Dóminus Petro: Cum esses júnior, cingébas te et ambulábas,
               ubi volébas: cum autem senúeris, exténdes manus tuas, et álius te
               cinget et ducet, quo tu non vis: hoc autem dixit, signíficans, qua
               morte clarificatúrus esset Deum.{" "}
-              <Text className="em">Ps. 18, 1</Text> Cœli enárrant glóriam Dei:
-              et ópera mánuum ejus annúntiat firmaméntum. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 18, 1</Text> Cœli enárrant
+              glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor disse a Pedro: «Quando tu eras mais novo, cingias-te a ti
               mesmo e ias onde querias; mas, quando fores velho, estenderás as
               tuas mãos, um outro te cingirá e te conduzirá onde não queiras».
               Isto foi-lhe dito para lhe indicar com que morte deveria
-              glorificar Deus. <Text className="em">Sl. 18, 1</Text> Os céus
+              glorificar Deus.{" "}
+              <Text className="text-base vernacular">Sl. 18, 1</Text> Os céus
               proclamam a glória de Deus e o firmamento anuncia as obras das
               suas mãos. ℣. Glória ao Pai...
             </Text>
@@ -51,12 +53,12 @@ export default function Page0628() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, omnípotens Deus: ut nullis nos permíttas
               perturbatiónibus cóncuti; quos in apostólicæ confessiónis petra
               solidásti. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, havendo nós sido estabelecidos sobre a pedra
               sólida da fé dos Apóstolos, dignai-Vos permitir que nenhuma
               perturbação abale a nossa fé. Por nosso Senhor...
@@ -68,9 +70,11 @@ export default function Page0628() {
           <Text className="em">Act. 3, 1-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Petrus et Joánnes ascendébant in templum ad horam
               oratiónis nonam. Et quidam vir, qui erat claudus ex útero matris
               suæ, bajulabátur: quem ponébant cotídie ad portam templi, quæ
@@ -89,7 +93,7 @@ export default function Page0628() {
               portam templi: et impléti sunt stupore et écstasi in eo, quod
               contígerat illi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Como Pedro e João subissem ao templo para a hora nona da oração,
               encontraram um homem, que era coxo desde o seio de sua mãe, a quem
               colocavam todos os dias à porta do templo, chamada «Especiosa»,
@@ -115,12 +119,12 @@ export default function Page0628() {
           <Text className="em">Sl. 18, 5 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
               eórum. ℣. Cœli enárrant glóriam Dei: et ópera mánuum ejus
               annúntiat firmaméntum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O eco da sua voz espalhou-se por toda a terra: e as suas palavras
               soaram até aos confins da terra. ℣. Os céus proclamam a glória de
               Deus e o firmamento anuncia as obras das suas mãos.
@@ -132,15 +136,15 @@ export default function Page0628() {
           <Text className="em">Jo. 21, 15-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus Simóni Petro: Simon Joánnis, díligis
               me plus his? Dicit ei: Etiam, Dómine, tu scis, quia amo te. Dicit
               ei: Pasce agnos meos. Dicit ei íterum: Simon Joánnis, díligis me?
@@ -153,7 +157,7 @@ export default function Page0628() {
               cinget et ducet, quo tu non vis. Hoc autem dixit, signíficans, qua
               morte clarificatúrus esset Deum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, Jesus disse a Simão-Pedro: «Simão, filho de João,
               tu amas-me mais do que estes?». Ele respondeu: «Sim, Senhor,
               sabeis que Vos amo». E Jesus disse-lhe: «Apascenta os meus
@@ -177,11 +181,11 @@ export default function Page0628() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vejo, ó meu Deus, que honrais de um modo singular os vossos
               amigos: o seu poder firmou-se extraordinariamente.
             </Text>
@@ -190,12 +194,12 @@ export default function Page0628() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Munus pópuli tui, quǽsumus, Dómine, apostólica intercessióne
               sanctífica: nosque a peccatórum nostrórum máculis emúnda. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, santificai pela intercessão dos vossos
               Apóstolos a oblata do vosso povo e purificai-nos das manchas dos
               nossos pecados. Por nosso Senhor...
@@ -207,11 +211,11 @@ export default function Page0628() {
           <Text className="em">Jo. 21, 15 & 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Simon Joánnis, díligis me plus his? Dómine, tu ómnia nosti: tu
               scis, Dómine, quia amo te.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Simão, filho de João, tu amas-me mais do que estes? Senhor,
               conheceis tudo, e, portanto, sabeis que Vos amo.
             </Text>
@@ -220,12 +224,12 @@ export default function Page0628() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quos cœlésti, Dómine, álii ménto satiásti: apostólicis
               intercessiónibus ab omni adversitáte custódi. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos, Senhor, pela intercessão dos vossos Apóstolos
               preservar de todas as adversidades aqueles que saciastes com o
               alimento celestial. Por nosso Senhor...

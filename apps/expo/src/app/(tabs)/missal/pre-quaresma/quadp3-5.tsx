@@ -16,15 +16,16 @@ export default function PageQuadp35() {
           <Text className="em">Sl. 29, 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dóminus, et misértus est mihi: Dóminus factus est adjútor meus.{" "}
-              <Text className="em">Ps. ibid., 2</Text> Exaltábo te, Dómine,
-              quóniam suscepísti me: nec delectásti inimícos meos super me. ℣.
-              Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 2</Text> Exaltábo te,
+              Dómine, quóniam suscepísti me: nec delectásti inimícos meos super
+              me. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor ouviu-me e teve piedade de mim. O Senhor veio em meu
-              auxílio. <Text className="em">Sl. ibid., 2</Text> Senhor,
+              auxílio.{" "}
+              <Text className="text-base vernacular">Sl. ibid., 2</Text> Senhor,
               louvar-Vos-ei porque me socorrestes e não permitistes que meus
               inimigos mofassem de mim. ℣. Glória ao Pai...
             </Text>
@@ -33,12 +34,12 @@ export default function PageQuadp35() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Inchoáta jejúnia, quǽsumus, Dómine, benígno favore proséquere: ut
               observántiam, quam corporáliter exhibémus, méntibus etiam sincéris
               exercére valeámus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos suplicamos, acolhei com benigno favor os jejuns agora
               começados, a fim de que, exercendo corporalmente esta observância,
               possamos praticá-la com o coração sincero. Por nosso Senhor...
@@ -50,9 +51,11 @@ export default function PageQuadp35() {
           <Text className="em">Is. 58, 1-0</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus Deus: Clama, ne cesses: quasi tuba exálta vocem
               tuam: et annúntia pópulo meo scélera eórum, et dómui Jacob peccáta
               eórum. Me étenim de die in diem quærunt, et scire vias meas
@@ -77,7 +80,7 @@ export default function PageQuadp35() {
               exáudiet: clamábis, et dicet: Ecce, adsum. Quia miséricors sum,
               Dóminus, Deus tuus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Isto diz o Senhor Deus: «Clama incessantemente; faz ouvir a tua
               voz, como uma trombeta, denunciando ao meu povo os seus crimes e à
               casa de Jacob os seus pecados. Eles procuram-me quotidianamente e
@@ -114,11 +117,11 @@ export default function PageQuadp35() {
           <Text className="em">Sl. 26, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Unam pétii a Dómino, hanc requíram, ut inhábitem in domo Dómini.
               ℣. Ut vídeam voluptátem Dómini, et prótegar a templo sancto ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Uma coisa peço ao Senhor e continuarei a pedi-la: que possa
               habitar na sua casa: ℣. Para que possa gozar os seus esplendores e
               ser protegido no seu santo templo.
@@ -137,15 +140,15 @@ export default function PageQuadp35() {
           <Text className="em">Mt. 5, 43-48 & 6, 1-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Audístis, quia
               dictum est: Diliges próximum tuum, et odio habébis inimícum tuum.
               Ego autem dico vobis: Dilígite inimícos vestros, benefácite his,
@@ -165,7 +168,7 @@ export default function PageQuadp35() {
               sinístra tua, quid fáciat déxtera tua, ut sit eleemósyna tua in
               abscóndito, et Pater tuus, qui videt in abscóndito, reddet tibi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Aprendestes o que
               vos ensinaram: «Amareis o vosso próximo e aborrecereis o vosso
               inimigo» ? Eu, porém, digo-vos: amai os vossos inimigos; fazei bem
@@ -193,11 +196,11 @@ export default function PageQuadp35() {
           <Text className="em">Sl. 118, 154 & 125</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, vivífica me secúndum elóquium tuum: ut sciam testimónia
               tua.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vivificai-me, Senhor, segundo a vossa palavra, para que conheça os
               vossos preceitos.
             </Text>
@@ -206,12 +209,12 @@ export default function PageQuadp35() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrifícium, Dómine, observántiæ quadragesimális, quod offérimus,
               præsta, quǽsumus: ut tibi et mentes nostras reddat accéptas, et
               continéntiæ promptióris nobis tríbuat facultátem. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Concedei-nos, Senhor, Vos suplicamos, que o sacrifício do preceito
               quaresmal, que oferecemos, Vos torne agradáveis as nossas almas, e
               nos alcance a graça de praticarmos mais facilmente a continência.
@@ -224,11 +227,11 @@ export default function PageQuadp35() {
           <Text className="em">Sl. 2, 11-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Servi te Dómino in timóre, et exsultáte ei cum tremóre:
               apprehéndite disciplínam, ne pereátis de via justa.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Obedecei ao Senhor com temor e alegrai-vos n’Ele com tremor:
               abraçai a sua lei para que vos não afasteis dos caminhos direitos.
             </Text>
@@ -237,11 +240,11 @@ export default function PageQuadp35() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Spíritum nobis, Dómine, tuæ cantátis infúnde: ut, quos uno pane
               cœlésti satiásti, tua fácias pietáte concórdes. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Infundi em nossas almas, Senhor, o espírito da caridade, a fim de
               que aqueles que saciastes com o mesmo pão celestial permaneçam em
               concórdia pela vossa bondade. Por nosso Senhor...
@@ -251,22 +254,24 @@ export default function PageQuadp35() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tuére, Dómine, pópulum tuum et ab ómnibus peccátis cleménter
               emúnda: quia nulla ei nocébit advérsitas, si nulla ei dominétur
               iníquitas. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, defendei o vosso povo; e, para que nenhuma adversidade o
               possa prejudicar nem nenhuma iniquidade o possa dominar,
               purificai-o pela vossa clemência. Por nosso Senhor...

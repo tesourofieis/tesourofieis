@@ -60,12 +60,13 @@
     @apply text-sepia-900 dark:text-sepia-100;
   }
 
-  .side-by-side {
-    @apply flex flex-row flex-wrap w-full text-justify font-body;
+  .latin,
+  .vernacular {
+    @apply w-1/2;
   }
 
-  .side-by-side .text-base {
-    width: "50%";
+  .side-by-side {
+    @apply flex flex-row flex-wrap w-full text-justify font-body;
   }
 
   .cross {
@@ -74,7 +75,7 @@
   }
 
   .link {
-    @apply underline;
+    @apply underline text-sepia-800 dark:text-sepia-200;
   }
 
   .aside {

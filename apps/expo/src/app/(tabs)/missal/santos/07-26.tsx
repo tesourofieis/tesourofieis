@@ -32,32 +32,33 @@ export default function Page0726() {
           <Text className="h3">Intróito</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Annæ: de cujus sollemnitáte gaudent Angeli et colláudant
-              Fílium Dei. <Text className="em">Ps. 44, 2</Text> Eructávit cor
-              meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
+              Fílium Dei. <Text className="text-base latin">Ps. 44, 2</Text>{" "}
+              Eructávit cor meum verbum bonum: dico ego ópera mea Regi. ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alegremo-nos todos no Senhor, celebrando neste dia a festa em
               honra da B. Ana; pois os Anjos rejubilam com esta festividade e em
               harmonia louvam o Filho de Deus.{" "}
-              <Text className="em">Sl. 44, 2</Text> Meu coração exalou uma
-              palavra excelente: Consagro ao Rei as minhas obras. ℣. Glória ao
-              Pai...
+              <Text className="text-base vernacular">Sl. 44, 2</Text> Meu
+              coração exalou uma palavra excelente: Consagro ao Rei as minhas
+              obras. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátæ Annæ grátiam conférre dignatus es, ut Genetrícis
               unigéniti Fílii tui mater effici mererétur: concéde propítius; ut,
               cujus sollémnia celebrámus, ejus apud te patrocíniis adjuvémur.
               Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que Vos dignastes conferir à B. Ana a graça de ser
               escolhida para dar ao mundo a Mãe do vosso Filho Unigénito,
               concedei-nos propício que sejamos auxiliados junto de Vós pelo
@@ -92,11 +93,11 @@ export default function Page0726() {
           <Text className="em">Sl. 44, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fíliæ regum in honóre tuo, ástitit regína a dextris tuis in
               vestítu deauráto, circúmdata varietáte.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               As filhas dos reis formam a vossa corte de glória: a própria
               rainha está colocada à vossa direita, envergando um vestido de
               ouro, recamado da mais rica variedade.
@@ -106,13 +107,13 @@ export default function Page0726() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrifíciis præséntibus, quǽsumus, Dómine, placatus inténde: ut
               per intercessiónem beátæ Annæ, quæ Genetrícis Fílii tui, Dómini
               nostri Jesu Christi, mater éxstitit, et devotióni nostræ
               profíciant et salúti. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Olhai propício, Senhor, Vos suplicamos, para estes sacrifícios, a
               fim de que, pela intercessão da B. Ana, que foi Mãe daquela que
               deu ao mundo vosso Filho, nosso Senhor Jesus Cristo, sejam
@@ -125,11 +126,11 @@ export default function Page0726() {
           <Text className="em">Sl. 44, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
               ætérnum, et in sǽculum sǽculi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A graça espalhou-se nos vossos lábios: eis porque Deus vos
               abençoou para a eternidade e para todos os séculos.
             </Text>
@@ -138,13 +139,13 @@ export default function Page0726() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœléstibus sacraméntis vegetáti, quǽsumus, Dómine, Deus noster:
               ut, intercessióne beátæ Annæ, quam Genetrícis Fílii tui matrem
               esse voluísti, ad ætérnam salútem perveníre mereámur. Per eúndem
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Alentados com os celestiais sacramentos, Vos suplicamos, ó Senhor,
               nosso Deus, permiti pela intercessão da B. Ana, que foi Mãe
               daquela que deu ao mundo vosso Filho, que possamos alcançar a

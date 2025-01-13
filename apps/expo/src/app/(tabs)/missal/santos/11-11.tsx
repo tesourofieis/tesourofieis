@@ -26,11 +26,11 @@ export default function Page1111() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui cónspicis, quia ex nulla nostra virtúte subsístimus:
               concéde propítius; ut, intercessióne beáti Martíni...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que bem conheceis que não é pelo nosso poder que
               subsistimos, concedei-nos propício que, pela intercessão do B.
               Martinho, vosso Confessor e Pontífice, sejamos protegidos contra
@@ -50,22 +50,22 @@ export default function Page1111() {
           <Text className="em">Ecl. 44, 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ecce sacérdos magnus, qui in diébus suis plácuit Deo. ℣.{" "}
-              <Text className="em">ibid., 20</Text> Non est invéntus símilis
-              illi, qui conserváret legem Excelsi.
+              <Text className="text-base latin">ibid., 20</Text> Non est
+              invéntus símilis illi, qui conserváret legem Excelsi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis o grande sacerdote que nos dias da sua vida agradou a Deus. ℣.{" "}
-              <Text className="em">ibid., 20</Text> Ninguém o igualou na
-              observância das leis do Altíssimo.
+              <Text className="text-base vernacular">ibid., 20</Text> Ninguém o
+              igualou na observância das leis do Altíssimo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Beátus vir, sanctus Martínus, urbis Turónis
               Epíscopus, requiévit: quem suscéperunt Angeli atque Archángeli,
               Throni, Dominatiónes et Virtútes. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. O bem-aventurado varão Martinho, Bispo de
               Tours, dormiu no Senhor: e os Anjos, os Arcanjos, os Tronos, as
               Dominações e as Virtudes o acolheram. Aleluia.
@@ -77,15 +77,15 @@ export default function Page1111() {
           <Text className="em">Lc. 11, 33-36</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis: Nemo lucérnam
               accéndit, et in abscóndito ponit, neque sub módio: sed supra
               candelábrum, ut, qui ingrediúntur, lumen vídeant. Lucérna córporis
@@ -96,7 +96,7 @@ export default function Page1111() {
               partem tenebrárum, erit lúcidum totum, et sicut lucérna fulgóris
               illuminábit te.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Ninguém acende
               uma lâmpada para a colocar num lugar oculto ou sob um alqueire;
               mas coloca-a sobre o candelabro, para que aqueles que entrarem
@@ -114,11 +114,11 @@ export default function Page1111() {
           <Text className="em">Sl. 88, 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A minha fidelidade e a minha misericórdia estarão com ele; e o seu
               poder elevar-se-á pelo meu nome.
             </Text>
@@ -127,12 +127,12 @@ export default function Page1111() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte
               sancti Antístitis tui Martíni offérimus: ut per ea vita nostra
               inter advérsa et próspera ubíque dirigátur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Senhor e Deus, santificai, Vos rogamos, estes dons que Vos
               oferecemos na solenidade do Santo Bispo Martinho, vosso Mártir, a
               fim de que, graças a eles, a nossa vida se regule segundo a vossa
@@ -146,11 +146,11 @@ export default function Page1111() {
           <Text className="em">Mt. 24,46-47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem:
               amen, dico vobis, super ómnia bona sua constítuet eum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bem-aventurado o servo que, quando o Senhor vier, encontrar
               vigilante. Em verdade vos digo que o encarregará de administrar
               todos seus bens.
@@ -160,12 +160,12 @@ export default function Page1111() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Præsta, quǽsumus, Dómine, Deus noster: ut, quorum festivitáte
               votíva sunt sacraménta, eórum intercessióne salutária nobis
               reddántur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fazei, Senhor, nosso Deus, que nos sejam salutares estes
               sacrossantos sacramentos, pela intercessão daqueles em cuja festa
               Vo-los apresentamos. Por nosso Senhor...

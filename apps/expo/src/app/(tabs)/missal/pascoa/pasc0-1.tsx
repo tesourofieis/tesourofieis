@@ -15,17 +15,18 @@ export default function PagePasc01() {
           <Text className="em">Ex. 13, 5 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Introdúxit vos Dóminus in terram fluéntem lac et mel, allelúja: et
               ut lex Dómini semper sit in ore vestro, allelúja, allelúja.{" "}
-              <Text className="em">Ps. 104, 1</Text> Confitémini Dómino et
-              invocáte nomen ejus: annuntiáte inter gentes ópera ejus. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. 104, 1</Text> Confitémini
+              Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
+              ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor vos introduziu em um país onde correm leite e mel,
               aleluia: para que a Lei do Senhor esteja sempre na vossa boca,
-              aleluia, aleluia. <Text className="em">Sl. 104, 1</Text> Louvai o
+              aleluia, aleluia.{" "}
+              <Text className="text-base vernacular">Sl. 104, 1</Text> Louvai o
               Senhor, invocai o seu nome e anunciai as suas obras em todos os
               povos. ℣. Glória ao Pai...
             </Text>
@@ -34,13 +35,13 @@ export default function PagePasc01() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui sollemnitáte pascháli, mundo remédia contulísti: pópulum
               tuum, quǽsumus, cœlésti dono proséquere; ut et perféctam
               libertátem consequi mereátur, et ad vitam profíciat sempitérnam.
               Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que nesta solenidade pascal trouxestes ao mundo os
               remédios eficazes, continuai a espalhar, Vos suplicamos, os dons
               celestiais sobre o vosso povo, para que mereça alcançar a perfeita
@@ -53,9 +54,11 @@ export default function PagePasc01() {
           <Text className="em">Act. 10, 37-43</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostólorum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostólorum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Stans Petrus in médio plebis, dixit: Viri
               fratres, vos scitis, quod factum est verbum per universam Judǽam:
               incípiens enim a Galilǽa, post baptísmum, quod prædicávit Joánnes,
@@ -72,7 +75,7 @@ export default function PagePasc01() {
               remissiónem peccatórum accípere per nomen ejus omnes, qui credunt
               in eum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, estando Pedro no meio do povo, disse: «Meus irmãos:
               Sabeis o que se passou em toda a Judeia, a começar pela Galileia,
               a respeito de Jesus de Nazaré, desde, o baptismo, que João pregou;
@@ -97,23 +100,25 @@ export default function PagePasc01() {
           <Text className="em">Sl. 117, 24 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea. ℣.
               Dicat nunc Israël, quóniam bonus: quóniam in sǽculum misericórdia
               ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis o dia que o -Senhor fez: exultemos e alegremo-nos nele. Diga,
               agora, Israel: Deus é bom; a sua misericórdia é eterna.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Matth. 28, 2</Text>{" "}
-              Angelus Dómini descéndit de cœlo: et accédens revólvit lápidem, et
-              sedébat super eum.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Matth. 28, 2</Text> Angelus
+              Dómini descéndit de cœlo: et accédens revólvit lápidem, et sedébat
+              super eum.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Mt. 28, 2</Text> Um anjo
-              do Senhor desceu do céu, e, chegando-se, revolveu a pedra e
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Mt. 28, 2</Text> Um anjo do
+              Senhor desceu do céu, e, chegando-se, revolveu a pedra e
               assentou-se sobre ela.
             </Text>
           </View>
@@ -123,15 +128,15 @@ export default function PagePasc01() {
           <Text className="em">Lc. 24, 13-35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Duo ex discípulis Jesu ibant ipsa die in
               castéllum, quod erat in spátio stadiórum sexagínta ab Jerúsalem,
               nómine Emmaus. Et ipsi loquebántur ad ínvicem de his ómnibus, quæ
@@ -169,7 +174,7 @@ export default function PagePasc01() {
               appáruit Simóni. Et ipsi narrábant, quæ gesta erant in via: et
               quómodo cognovérunt eum in fractióne panis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, iam dois discípulos, naquele mesmo dia, para uma
               aldeia chamada Emaús, distante de Jerusalém sessenta estádios, os
               quais iam conversando nas coisas que haviam sucedido. Ora
@@ -218,11 +223,11 @@ export default function PagePasc01() {
           <Text className="em">Mt. 28, 2, 5 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Angelus Dómini descéndit de cœlo, et dixit muliéribus: Quem
               quǽritis, surréxit, sicut dixit, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Um Anjo do Senhor desceu do céu e disse às mulheres: «Aquele a
               quem buscais ressuscitou, como Ele havia dito», aleluia.
             </Text>
@@ -237,10 +242,10 @@ export default function PagePasc01() {
           <Text className="em">Lc. 24, 34</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Surréxit Dóminus, et appáruit Petro, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ressuscitou o Senhor e apareceu a Pedro, aleluia.
             </Text>
           </View>

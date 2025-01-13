@@ -16,7 +16,7 @@ export default function PageTrindade() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: Qui cum unigénito Fílio tuo et Spíritu Sancto unus es Deus,
@@ -29,7 +29,7 @@ export default function PageTrindade() {
               Archángeli, Chérubim quoque ac Séraphim: qui non cessant clamáre
               cotídie, una voce dicéntes:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               É verdadeiramente digno e justo, racional e salutar render-Vos
               graças em todos os lugares e sempre, ó Senhor santo, Pai
               omnipotente, eterno Deus, que com vosso Filho Unigénito e com o

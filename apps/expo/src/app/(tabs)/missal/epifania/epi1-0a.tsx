@@ -15,31 +15,32 @@ export default function PageEpi10A() {
           <Text className="em">Pr. 23, 24 & 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exsúltat gáudio pater Justi, gáudeat Pater tuus et Mater tua, et
-              exsúltet quæ génuit te. <Text className="em">Ps. 83, 2-3</Text>{" "}
-              Quam dilécta tabernácula tua, Dómine virtútum! concupíscit et
-              déficit ánima mea in átria Dómini. ℣. Gloria Patri...
+              exsúltet quæ génuit te.{" "}
+              <Text className="text-base latin">Ps. 83, 2-3</Text> Quam dilécta
+              tabernácula tua, Dómine virtútum! concupíscit et déficit ánima mea
+              in átria Dómini. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que o pai do Justo exulte de alegria, que o vosso Pai e a vossa
               Mãe se alegrem: que se regozije aquela que te gerou.{" "}
-              <Text className="em">Sl. 83, 2-3</Text> Como são amáveis os vossos
-              tabernáculos, ó Senhor dos exércitos! Minha alma suspira e
-              enternece-se nos átrios do Senhor. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 83, 2-3</Text> Como são
+              amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha alma
+              suspira e enternece-se nos átrios do Senhor. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine Jesu Christe, qui, Maríæ et Joseph súbditus, domésticam
               vitam ineffabílibus virtútibus consecrásti: fac nos, utriúsque
               auxílio, Famíliæ sanctæ tuæ exémplis ínstrui; et consórtium
               cénsequi sempitérnum: Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, que, sendo submisso a Maria e a José,
               consagrastes a vida doméstica com a prática de inefáveis virtudes,
               dignai-Vos conceder-nos que com o auxílio de um e outro imitemos
@@ -53,13 +54,13 @@ export default function PageEpi10A() {
           <Text className="em">Cl. 3, 12-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Indúite vos sicut elécti Dei, sancti et dilécti, víscera
               misericórdiæ, benignitátem, humilitátem, modéstiam, patiéntiam:
               supportántes ínvicem, et donántes vobismetípsis, si quis advérsus
@@ -73,7 +74,7 @@ export default function PageEpi10A() {
               fácitis in verbo aut in ópere, ómnia in nómine Dómini Jesu
               Christi, grátias agéntes Deo et Patri per ipsum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Como escolhidos de Deus, que sois, santos e amados,
               revesti-vos de sentimentos íntimos de misericórdia, de bondade, de
               humildade, de modéstia e de paciência, suportando-vos uns aos
@@ -97,27 +98,28 @@ export default function PageEpi10A() {
           <Text className="em">Sl. 26, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini
-              ómnibus diébus vitæ meæ. ℣. <Text className="em">Ps. 83, 5</Text>{" "}
-              Beáti, qui hábitant in domo tua, Dómine: in sǽcula sæculórum
-              laudábunt te.
+              ómnibus diébus vitæ meæ. ℣.{" "}
+              <Text className="text-base latin">Ps. 83, 5</Text> Beáti, qui
+              hábitant in domo tua, Dómine: in sǽcula sæculórum laudábunt te.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Uma só graça peço ao Senhor, a qual reclamarei: é habitar na casa
               do Senhor todos os dias da minha vida. ℣.{" "}
-              <Text className="em">Sl. 83, 5</Text> Bem-aventurados aqueles que
-              habitam na vossa casa, Senhor; pois louvar-Vos-ão em todos os
-              séculos.
+              <Text className="text-base vernacular">Sl. 83, 5</Text>{" "}
+              Bem-aventurados aqueles que habitam na vossa casa, Senhor; pois
+              louvar-Vos-ão em todos os séculos.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Isai. 45, 15</Text>{" "}
-              Vere tu es Rex abscónditus, Deus Israël Salvátor. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Isai. 45, 15</Text> Vere tu es
+              Rex abscónditus, Deus Israël Salvátor. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Is. 45, 15</Text> Ó Deus
-              de Israel e nosso Salvador, sois verdadeiramente Rei oculto.
-              Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Is. 45, 15</Text> Ó Deus de
+              Israel e nosso Salvador, sois verdadeiramente Rei oculto. Aleluia.
             </Text>
           </View>
 
@@ -126,15 +128,15 @@ export default function PageEpi10A() {
           <Text className="em">Lc. 2, 42-52</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cum factus esset Jesus annórum duódecim, ascendéntibus illis
               Jerosólymam secúndum consuetúdinem diéi festi, consummatísque
               diébus, cum redírent, remánsit puer Jesus in Jerúsalem, et non
@@ -154,7 +156,7 @@ export default function PageEpi10A() {
               Jesus proficiébat sapiéntia et ætáte et grátia apud Deum et
               hómines.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Quando Jesus completou doze anos de idade, como seus pais tivessem
               ido a Jerusalém, no tempo da festa, segundo o costume, decorridos
               que foram os dias da mesma, voltaram para casa, tendo o Menino
@@ -182,11 +184,11 @@ export default function PageEpi10A() {
           <Text className="em">Lc. 2, 22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tulérunt Jesum paréntes ejus in Jerúsalem, ut sísterent eum
               Dómino.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Os pais de Jesus levaram-n’O a Jerusalém para O oferecerem ao
               Senhor.
             </Text>
@@ -195,13 +197,13 @@ export default function PageEpi10A() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Placatiónis hostiam offérimus tibi, Dómine, supplíciter
               deprecántes: ut, per intercessiónem Deíparæ Vírginis cum beáto
               Joseph, famílias nostras in pace et grátia tua fírmiter
               constítuas. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos oferecemos, Senhor, esta hóstia de propiciação, suplicando-Vos
               humildemente que, pela intercessão da Virgem, Mãe de Deus, e do B.
               José, estabeleçais solidamente as nossas famílias na vossa paz e
@@ -214,11 +216,11 @@ export default function PageEpi10A() {
           <Text className="em">Lc. 2, 51</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Descéndit Jesus cum eis, et venit Názareth, et erat súbditus
               illis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Jesus desceu com eles, veio para Nazaré e era-lhes obediente.
             </Text>
           </View>
@@ -226,13 +228,13 @@ export default function PageEpi10A() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quos cœléstibus réficis sacraméntis, fac, Dómine Jesu, sanctæ
               Famíliæ tuæ exémpla júgiter imitári: ut in hora mortis nostræ,
               occurrénte gloriósa Vírgine Matre tua cum beáto Joseph; per te in
               ætérna tabernácula récipi mereámur: Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus, concedei àqueles que se saciam com vossos celestiais
               sacramentos a graça de imitarem continuamente os exemplos da vossa
               Sagrada Família, a fim de que na hora da nossa morte a gloriosa

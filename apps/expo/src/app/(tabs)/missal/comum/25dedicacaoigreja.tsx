@@ -15,19 +15,20 @@ export default function Page25Dedicacaoigreja() {
           <Text className="em">Gen. 28, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Terríbilis est locus iste: hic domus Dei est et porta cœli: et
               vocábitur aula Dei. (T. P. Allelúja, allelúja.){" "}
-              <Text className="em">Ps. 83, 2-3</Text> Quam dilécta tabernácula
-              tua, Dómine virtútum! concupíscit, et déficit ánima mea in átria
-              Dómini. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 83, 2-3</Text> Quam dilécta
+              tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima
+              mea in átria Dómini. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que terrível é este lugar! É verdadeiramente a casa de Deus e a
               porta do céu: e será chamado o palácio de Deus. (T. P. Aleluia,
-              aleluia.) <Text className="em">Sl. 83, 2-3</Text> Quão dilectos
-              são os vossos tabernáculos, ó Senhor dos exércitos! Minha alma
-              suspira com ardor e em êxtase, em desejos de viver junto dos
+              aleluia.){" "}
+              <Text className="text-base vernacular">Sl. 83, 2-3</Text> Quão
+              dilectos são os vossos tabernáculos, ó Senhor dos exércitos! Minha
+              alma suspira com ardor e em êxtase, em desejos de viver junto dos
               átrios do Senhor. ℣. Glória ao Pai...
             </Text>
           </View>
@@ -35,14 +36,14 @@ export default function Page25Dedicacaoigreja() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui nobis per síngulos annos hujus sancti templi tui
               consecratiónis réparas diem, et sacris semper mystériis repæséntas
               incólumes: exáudi preces pópuli tui, et præsta; ut, quisquis hoc
               templum benefícia petitúrus ingréditur, cuncta se impetrásse
               lætétur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, anualmente, renovais em nosso favor o dia da
               consagração deste santo Templo e nos conservais incólumes para
               podermos sempre celebrar estes sagrados mystérios, ouvi as orações
@@ -60,7 +61,7 @@ export default function Page25Dedicacaoigreja() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui invisibíliter ómnia cóntines, et tamen pro salúte
               géneris humáni signa tuæ poténtiæ visibíliter osténdis: templum
               hoc poténtia tuæ inhabitatiónis illústra, et concéde; ut omnes,
@@ -68,7 +69,7 @@ export default function Page25Dedicacaoigreja() {
               clamáverint, consolatiónis tuæ benefícia consequántur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, permanecendo invisível, abrangeis, contudo, o
               universo, e que, entretanto, mostrais visivelmente os milagres do
               vosso poder para a salvação do género humano, tornai ilustre este
@@ -85,13 +86,13 @@ export default function Page25Dedicacaoigreja() {
           <Text className="em">Ap. 21, 2-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição do Livro do Apocalipse do B. Ap.º S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In diébus illis: Vidi sanctam civitátem Jerúsalem novam
               descendéntem de cœlo a Deo, parátam sicut sponsam ornátam viro
               suo. Et audívi vocem magnam de throno dicéntem: Ecce tabernáculum
@@ -101,7 +102,7 @@ export default function Page25Dedicacaoigreja() {
               luctus neque clamor neque dolor erit ultra, quia prima abiérunt.
               Et dixit, qui sedébat in throno: Ecce, nova fácio ómnia.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, vi a cidade santa, a nova Jerusalém, que vinha de
               Deus e descia do céu, ornada como uma esposa que se prepara para
               receber o esposo. E ouvi uma voz forte, que falava do trono, e
@@ -118,43 +119,44 @@ export default function Page25Dedicacaoigreja() {
           <Text className="h3">Gradual</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Locus iste a Deo factus est, inæstimábile sacraméntum,
               irreprehensíbilis est. ℣. Deus, cui astat Angelórum chorus, exáudi
               preces servórum tuórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Este lugar foi feito por Deus: ele é um mystério inapreciável e
               isento de qualquer defeito. ℣. Ó Deus, diante de Quem se prostram
               os caros dos Anjos, ouvi as preces dos vossos servos.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 137, 2</Text>{" "}
-              Adorábo ad templum sanctum tuum: et confitébor nómini tuo.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 137, 2</Text> Adorábo ad
+              templum sanctum tuum: et confitébor nómini tuo. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 137, 2</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 137, 2</Text>{" "}
               Adorar-Vos-ei no vosso santo Templo e louvarei o vosso santo Nome.
               Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 124, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui confídunt in Dómino, sicut mons Sion: non commovébitur in
               ætérnum, qui hábitat in Jerúsalem. ℣. Montes in circúitu ejus, et
               Dóminus in circúitu pópuli sui, ex hoc nunc, et usque in sǽculum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aqueles que confiam no Senhor são como o monte Sião: aquele que
               habita em Jerusalém nunca será abalado. ℣. Assim como Jerusalém
               está rodeada de montanhas, assim o Senhor circunda o seu povo,
@@ -162,19 +164,20 @@ export default function Page25Dedicacaoigreja() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 137, 2</Text>{" "}
-              Adorábo ad templum sanctum tuum: et confitébor nómini tuo.
-              Allelúja. ℣. Bene fundáta est domus Dómini supra firmam petram.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 137, 2</Text> Adorábo ad
+              templum sanctum tuum: et confitébor nómini tuo. Allelúja. ℣. Bene
+              fundáta est domus Dómini supra firmam petram. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 137, 2</Text>{" "}
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 137, 2</Text>{" "}
               Adorar-Vos-ei no vosso santo Templo: e louvarei o vosso santo
               Nome. ℣. A casa do Senhor está edificada solidamente sobre pedra
               firme. Aleluia.
@@ -186,15 +189,15 @@ export default function Page25Dedicacaoigreja() {
           <Text className="em">Lc. 19, 1-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Ingréssus Jesus perambulábat Jéricho. Et ecce,
               vir nómine Zachǽus: et hic princeps erat publicanórum, et ipse
               dives: et quærébat vidére Jesum, quis esset: et non póterat præ
@@ -210,7 +213,7 @@ export default function Page25Dedicacaoigreja() {
               dómui huic facta est: eo quod et ipse fílius sit Abrahæ. Venit
               enim Fílius hóminis quǽrere et salvum fácere, quod períerat.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, havendo Jesus entrado em Jericó, atravessava a
               cidade. Ora, havia ali um homem, chamado Zaqueu, príncipe dos
               publicanos e muito rico, que procurava ver Jesus para o conhecer;
@@ -235,12 +238,12 @@ export default function Page25Dedicacaoigreja() {
           <Text className="em">1 Cr. 29, 17 et 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine Deus, in simplicitáte cordis mei lætus óbtuli univérsa; et
               pópulum tuum, qui repertus est, vidi cum ingénti gáudio: Deus
               Israël, custódi hanc voluntátem, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, meu Deus, foi com simplicidade de coração e com alegria
               que Vos oferecer todas as coisas: foi com intenso júbilo que vi
               reunido o vosso povo. Ó Deus de Israel, conservai em minha alma
@@ -253,14 +256,14 @@ export default function Page25Dedicacaoigreja() {
           <View className="aside">Na Igreja</View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Annue, quǽsumus, Dómine, précibus nostris: ut, quicúmque intra
               templi hujus, cujus anniversárium dedicatiónis diem celebrámus,
               ámbitum continémur, plena tibi atque perfécta córporis et ánimæ
               devotióne placeámus; ut, dum hæc vota præséntia réddimus, ad
               ætérna prǽmia, te adjuvante, perveníre mereámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos, Senhor, ouvir as nossas orações de modo que todos os
               que nos encontramos neste santo Templo, de cuja Dedicação
               celebramos o aniversário, Vos agradecemos com a oferta inteira e
@@ -275,12 +278,12 @@ export default function Page25Dedicacaoigreja() {
           <View className="aside">Fora da Igreja</View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Annue, quǽsumus, Dómine, précibus nostris: ut, dum hæc vota
               præséntia réddimus, ad ætérna prǽmia, te adjuvánte, perveníre
               mereámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos, Senhor, ouvir as nossas orações; e permiti que,
               oferecendo-Vos estes dons, alcancemos a felicidade eterna com
               vosso auxílio. Por nosso Senhor...
@@ -295,13 +298,13 @@ export default function Page25Dedicacaoigreja() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui sacrandórum tibi auctor es múnerum, effúnde super hanc
               oratiónis domum benedictiónem tuam: ut ab ómnibus, in ea
               invocántibus nomen tuum, defensiónis tuæ auxílium se nitátur. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que sois o autor dos dons que Vos consagramos, lançai a
               vossa bênção sobre esta casa de oração, a fim de que todos aqueles
               que aqui invocarem o vosso Nome sintam o auxílio da vossa defesa.
@@ -314,12 +317,12 @@ export default function Page25Dedicacaoigreja() {
           <Text className="em">Mt. 21, 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Domus mea domus oratiónis vocábitur, dicit Dóminus: in ea omnis,
               qui pétii, accipit; et qui quærit, invénit; et pulsánti aperiétur.
               (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A minha casa será chamada casa de oração, diz o Senhor: e todo
               aquele que aí pede, recebe: e o que procura, acha: e ao que bate,
               abrir-se-lhe-á. (T. P. Aleluia.)
@@ -329,13 +332,13 @@ export default function Page25Dedicacaoigreja() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui de vivis et electis lapídibus ætérnum majestáti tuæ
               prǽparas habitáculum: auxiliáre pópulo tuo supplicánti; ut, quod
               Ecclésiæ tuæ corporálibus próficit spátiis, spirituálibus
               amplificétur augméntis. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que preparais para a vossa majestade um Templo de pedras
               vivas e escolhidas para nele habitardes eternamente, auxiliai o
               vosso povo suplicante, a fim de que o aumento dos templos
@@ -352,12 +355,12 @@ export default function Page25Dedicacaoigreja() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Quǽsumus, omnípotens Deus: ut in hoc loco, quem nómini tuo indígni
               dedicávimus, cunctis peténtibus aures tuæ pietátis accómmodes. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dignai-Vos conceder-nos, ó Deus omnipotente, que neste lugar, que,
               ainda que indignos, dedicámos ao vosso nome, ouçais benignamente
               todos os que Vos implorarem. Por nosso Senhor...
@@ -372,13 +375,13 @@ export default function Page25Dedicacaoigreja() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui ex omni coaptatióne Sanctórum ætérnum tibi condis
               habitáculum: da ædificatióni tuæ increménta cœléstia; ut, quorum
               hic relíquias pio amóre compléctimur, eórum semper méritis
               adjuvémur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, de um composto dos vossos Santos, fundais um templo
               eterno para vossa habitação, permiti que este palácio celestial
               tenha um aumento constante, e que os Santos, cujas relíquias
@@ -390,12 +393,12 @@ export default function Page25Dedicacaoigreja() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Descéndat, quǽsumus, Dómine, Deus noster, Spíritus tuus Sanctus
               super hoc altare: qui et pópuli tui dona sanctíficet, et suméntium
               corda dignánter emúndet. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que o vosso Espírito Santo desça sobre este altar, Vos suplicamos,
               ó Senhor, nosso Deus; e que se digne santificar os dons do vosso
               povo e purificar os corações daqueles que tomarem parte nele. Por
@@ -406,13 +409,13 @@ export default function Page25Dedicacaoigreja() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, altare hoc, nómini tuo dedicátum,
               cæléstis virtútis benedictióne sanctífica: et ómnibus in te
               sperántibus auxílii tui munus osténde; ut et hic sacramentórum
               viri tus et votórum obtineátur efféctus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, omnipotente e sempiterno, santificai com a bênção do vosso
               celestial poder este Altar dedicado ao vosso nome; e a todos
               aqueles que esperam em Vós concedei o vosso auxílio, a fim de que

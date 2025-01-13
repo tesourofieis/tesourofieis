@@ -15,28 +15,28 @@ export default function PagePaixao() {
           <Text className="em">Fl. 2, 8-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Humiliávit semetípsum Dóminus Jesus Christus usque ad mortem,
               mortem autem crucis: propter quod et Deus exaltávit illum, et
               donávit illi nomen, quod est super omne nomen. (T. P. Allelúja,
-              allelúja.) <Text className="em">Ps. 88, 2</Text> Misericórdias
-              Dómini in ætérnum cantábo: in generatiónem et generatiónem. ℣.
-              Gloria Patri...
+              allelúja.) <Text className="text-base latin">Ps. 88, 2</Text>{" "}
+              Misericórdias Dómini in ætérnum cantábo: in generatiónem et
+              generatiónem. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor Jesus Cristo humilhou-se a si próprio até à morte, e
               morte na Cruz; pelo que Deus o exaltou e Lhe deu um nome que é
               superior a todos os nomes. (T. P. Aleluia, aleluia.){" "}
-              <Text className="em">Sl. 88, 2</Text> De geração em geração
-              cantarei eternamente as misericórdias do Senhor. ℣. Glória ao
-              Pai...
+              <Text className="text-base vernacular">Sl. 88, 2</Text> De geração
+              em geração cantarei eternamente as misericórdias do Senhor. ℣.
+              Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine Jesu Christe, qui de cœlis ad terram de sinu Patris
               descendísti, et sánguinem tuum pretiósum in remissiónem peccatórum
               nostrórum fudísti: te humíliter deprecámur; ut in die judícii, ad
@@ -44,7 +44,7 @@ export default function PagePaixao() {
               Deo Patre et Spíritu Sancto vivis et regnas Deus, per ómnia sǽcula
               sæculórum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, que descestes do céu do seio do eterno Pai e
               espalhastes o vosso preciosíssimo Sangue em remissão dos nossos
               pecados, Vos pedimos humildemente, concedei-nos a graça, de, no
@@ -59,9 +59,11 @@ export default function PagePaixao() {
           <Text className="em">Zc. 12, 10-11; 13, 6-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Zacharíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Zacarias.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Zacharíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Zacarias.
+            </Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus: Effúndam super domum David et super habitatóres
               Jerúsalem spíritum grátiæ et precum: et aspícient ad me, quem
               confixérunt: et plangent eum planctu quasi super unigénitum, et
@@ -72,7 +74,7 @@ export default function PagePaixao() {
               meum, et super virum cohæréntem mihi, dicit Dóminus exercítuum:
               pércute pastórem, et dispergéntur oves: ait Dóminus omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Isto diz o Senhor: «Espalharei sobre a casa de David e sobre os
               moradores de Jerusalém o espírito da graça e da oração. Então
               ver-me-ão e conhecerão a quem traspassaram; e chorarão com
@@ -93,25 +95,25 @@ export default function PagePaixao() {
           <Text className="em">Sl. 68,21-22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Impropérium exspectávi cor meum et misériam: et sustínui, qui
               simul mecum contristarétur, et non fuit: consolántem me quæsívi,
               et non invéni. ℣. Dedérunt in escam meam fel, et in siti mea
               potavérunt me acéto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O meu coração não encontra senão impropérios e misérias. Tenho
               esperado quem tenha compaixão de mim, mas não apareceu ninguém!
               Procurei quem me consolasse, mas encontrei ninguém. ℣. Deram-me,
               fel para meu alimento: e, quando tinha sede, deram-me vinagre a
               beber.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Ave, Rex noster: tu solus nostros es
               miserátus erróres: Patri obǿdiens, ductus es ad crucifigéndum, ut
               agnus mansúetus ad occisiónem. Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Ave, ó nosso Rei; só Vós tivestes compaixão
               de nossos erros. Sendo Vós obediente ao pai, fostes levado, como
               manso cordeiro, à crucifixão. Aleluia.
@@ -128,14 +130,14 @@ export default function PagePaixao() {
           <Text className="em">Is. 53, 4-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vere languóres nostros ipse tulit et dolóres nostros ipse
               portávit. ℣. Et nos putávimus eum quasi leprósum et percússum a
               Deo et humiliátum. ℣. Ipse autem vulnerátus est propter
               iníquitates nostras, attrítus est propter scélera nostra. ℣.
               Disciplína pacis nostræ super eum: et livóre ejus sanáti sumus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Verdadeiramente tomou sobre si as nossas enfermidades e sofreu as
               nossas dores. ℣. Nós julgávamo-l’O como um leproso, como um homem
               ferido por Deus e humilhado pelos seus castigos. ℣. Porém Ele, foi
@@ -145,19 +147,19 @@ export default function PagePaixao() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Allelúja, allelúja. ℣. Ave, Rex noster: tu solus nostros es
               miserátus erróres: Patri obǿdiens, ductus es ad crucifigéndum, ut
               agnus mansúetus ad occisiónem. Allelúja. ℣. Tibi glória, hosánna:
               tibi triúmphus et victória: tibi summæ laudis et honóris coróna.
               Allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aleluia, aleluia. ℣. Ave, ó nosso Rei; só Vós tivestes compaixão
               de nossos erros. Sendo Vós obediente ao Pai, fostes levado, como
               manso cordeiro, à crucifixão. Aleluia. ℣. A Vós Senhor, o triunfo
@@ -170,15 +172,15 @@ export default function PagePaixao() {
           <Text className="em">Jo. 19, 28-35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Sciens Jesus, quia ómnia consummáta sunt, ut
               consummarétur Scriptúra, dixit: Sítio. Vas ergo erat pósitum acéto
               plenum. Illi autem spóngiam plenam acéto, hyssópo circumponéntes,
@@ -193,7 +195,7 @@ export default function PagePaixao() {
               apéruit, et contínuo exívit sanguis et aqua. Et qui vidit,
               testimónium perhíbuit: et verum est testimónium ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, sabendo Jesus que todas as coisas estavam
               completas, para que se cumprisse a Escritura, disse: «Tenho
               sede!». Estava ali um vaso cheio de vinagre. Então embeberam uma
@@ -215,13 +217,13 @@ export default function PagePaixao() {
           <Text className="h3">Ofertório</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Insurrexérunt in me viri iníqui: absque misericórdia quæsiérunt me
               interfícere: et non pepercérunt in fáciem meam spúere: lánceis
               suis vulneravérunt me, et concússa sunt ómnia ossa mea. (T. P.
               Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Homens iníquos levantaram-se contra mim; sem misericórdia alguma
               procuraram matar-me. Não hesitaram em escarrar na minha face.
               Feriram-me com suas lanças, ficando abalados todos meus ossos. (T.
@@ -232,11 +234,11 @@ export default function PagePaixao() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Oblátum tibi, Dómine, sacrifícium, intercedénte unigéniti Fílii
               tui passióne, vivíficet nos semper et múniat: Qui tecum vivit...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Permiti, Senhor, pelos méritos da paixão de vosso Filho Unigénito,
               que este sacrifício, que Vos é oferecido, nos vivifique e
               fortifique para sempre. Ele, que, sendo Deus vive e reina...
@@ -248,11 +250,11 @@ export default function PagePaixao() {
           <Text className="em">Sl. 21,17-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fodérunt manus meas et pedes meos: dinumeravérunt ómnia ossa mea.
               (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Atravessaram as minhas mãos e os meus pés, e contaram todos meus
               ossos. (T. P. Aleluia.)
             </Text>
@@ -261,14 +263,14 @@ export default function PagePaixao() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine Jesu Christe, Fili Dei vivi, qui hora sexta pro redemptióne
               mundi Crucis patíbulum ascendísti, et sánguinem tuum pretiósum in
               remissiónem peccatórum nostrórum fudísti: te humíliter deprecámur;
               ut, post óbitum nostrum, paradísi jánuas nos gaudénter introíre
               concédas: Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, Filho de Deus vivo, que subistes ao patíbulo
               da Cruz, sendo a hora sexta, para redenção do mundo, e derramastes
               o vosso preciosíssimo Sangue para a redenção dos nossos pecados,

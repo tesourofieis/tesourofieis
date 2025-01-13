@@ -16,27 +16,28 @@ export default function Page0522() {
           <Text className="em">Sl. 117, 19 & 22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Aperíte mihi portas justítiæ, ingréssus in eas confitébor Dómino:
               lápidem, quem reprobavérunt ædificántes, hic factus est in caput
               ánguli. (T.P. Allelúja, Allelúja.){" "}
-              <Text className="em">Ps. 117, 1</Text> Confitémini Dómino, quóniam
-              bonus, quóniam in sǽculum misericórdia ejus. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 117, 1</Text> Confitémini
+              Dómino, quóniam bonus, quóniam in sǽculum misericórdia ejus. ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Abri-me as portas da justiça, e, ao entrar por elas, louvarei o
               Senhor. A pedra que os edificadores rejeitaram tornou-se na pedra
               angular. (T.P. Aleluia, aleluia.){" "}
-              <Text className="em">Sl. 117, 1</Text> Louvai o Senhor, porque Ele
-              é bom; a sua misericórdia permanecerá em todos os séculos dos
-              séculos. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 117, 1</Text> Louvai o
+              Senhor, porque Ele é bom; a sua misericórdia permanecerá em todos
+              os séculos dos séculos. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui sanctæ Ritæ tantam grátiam conférre dignátus es, ut
               inimícos dilígeret et in corde ac fronte caritátis et passiónis
               tuæ signa portáret: da nobis, quǽsumus, ejus intercessióne et
@@ -44,7 +45,7 @@ export default function Page0522() {
               contemplári, ut promíssa mítibus ac lugéntibus prǽmia consequámur:
               Qui vivis et regnas...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que Vos dignastes conceder a Santa Rita abundante graça
               para amar os inimigos e trazer no coração e na fronte os sinais da
               vossa caridade e Paixão, concedei-nos por sua intercessão e
@@ -60,9 +61,11 @@ export default function Page0522() {
           <Text className="em">Pr. 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Lectio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Lectio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Ego flos campi, et lílium conválium. Sicut lílium inter spinas,
               sic amíca mea inter fílias. Sicut malus inter ligna silvárum, sic
               diléctus meus inter fílios. Sub umbra illíus, quem desideráveram,
@@ -82,7 +85,7 @@ export default function Page0522() {
               grossos suos: víneæ floréntes dedérunt odórem suum. Surge, amíca
               mea, speciósa mea, et veni.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sou a flor do campo e a açucena dos vales. Como a açucena entre os
               espinhos, assim é a minha amiga entre as donzelas. Como a macieira
               entre as árvores dos bosques, assim o meu amado entre os bosques.
@@ -107,15 +110,17 @@ export default function Page0522() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Eccli. 24, 18</Text>{" "}
-              Quasi palma exaltáta sum in Cades, et quasi plantátio rosæ in
-              Jéricho. ℣. <Text className="em">ibid., 20</Text> Sicut cinnamómum
-              et bálsamum aromatízans odórem dedi: quasi myrrha elécta dedi
-              suavitátem odóris. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Eccli. 24, 18</Text> Quasi palma
+              exaltáta sum in Cades, et quasi plantátio rosæ in Jéricho. ℣.{" "}
+              <Text className="em">ibid., 20</Text> Sicut cinnamómum et bálsamum
+              aromatízans odórem dedi: quasi myrrha elécta dedi suavitátem
+              odóris. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Ecl. 24, 18</Text> Fui
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Ecl. 24, 18</Text> Fui
               exaltada como a palmeira em Cades e como os roseirais das roseiras
               de Jericó. Aleluia. ℣. <Text className="em">ibid., 20</Text>{" "}
               Espalhei perfumes, como o cinamomo e o bálsamo aromático: e como
@@ -135,12 +140,12 @@ export default function Page0522() {
           <Text className="em">Gn. 40, 9-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vidébam coram me vitem, in qua erant tres propágines, créscere
               paulátim in gemmas, et post flores uvas maturéscera. (T. P.
               Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Diante de mim via uma cepa, na qual havia três varas, pouco a
               pouco a crescer em gomos: e, depois de as flores amadurecerem, as
               uvas. (T.P. Aleluia.)
@@ -150,13 +155,13 @@ export default function Page0522() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Corda nostra, quǽsumus, Dómine, Sanctæ Ritæ méritis, supérni
               dolóris spina confíge: ut, a peccátis ómnibus tua grátia liberáti,
               sacrificáre tibi hóstiam laudis pura mente valeámus. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Compungi, Senhor, Vos suplicamos, pelos méritos de Santa Rita, os
               nossos corações com os espinhos de uma dor sobrenatural, a fim de
               que pela vossa graça, livres de todo o pecado, possamos
@@ -170,11 +175,11 @@ export default function Page0522() {
           <Text className="em">Sl. 20, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Prævenísti eam, Dómine, in benedictiónibus dulcédinis: posuísti in
               cápite ejus corónam de lápide pretióso. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Premuniste-la, Senhor, com bênçãos de doçura: Impusestes na sua
               cabeça uma coroa de pedras preciosas. (T.P. Aleluia.)
             </Text>
@@ -183,13 +188,13 @@ export default function Page0522() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cæléstibus, Dómine, pasti delíciis, súpplices te rogámus: ut,
               intercedénte sancta Rita, caritátis et passiónis tuæ in méntibus
               nostris signa ferámus, et perpétuæ pacis fructu júgiter
               perfruámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Apascentados, ó Senhor, com as delícias celestiais, suplicantes,
               Vos pedimos a graça de, por intercessão de Santa Rita, trazermos
               em nossas mentes os sinais da vossa caridade e Paixão e gozarmos

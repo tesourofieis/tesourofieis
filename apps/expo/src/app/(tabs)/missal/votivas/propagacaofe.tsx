@@ -15,29 +15,29 @@ export default function PagePropagacaofe() {
           <Text className="em">Sl. 66, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus misereátur nostri, et benedícat nobis: illúminet vultum suum
               super nos, et misereátur nostri: ut cognoscámus in terra viam
               tuam, in ómnibus géntibus salutáre tuum. (T. P. Allelúja,
-              allelúja.) <Text className="em">Ps. ibid., 4</Text> Confiteántur
-              tibi pópuli, Deus: confiteántur tibi pópuli omnes. ℣. Gloria
-              Patri...
+              allelúja.) <Text className="text-base latin">Ps. ibid., 4</Text>{" "}
+              Confiteántur tibi pópuli, Deus: confiteántur tibi pópuli omnes. ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que Deus tenha misericórdia de nós e nos abençoe: que brilhe sobre
               nós a luz da sua face e tenha misericórdia de nós: para que seja
               conhecido no universo o seu caminho e todos os povos encontrem a
               sua salvação. (T. P. Aleluia, aleluia.){" "}
-              <Text className="em">Sl. ibid., 4</Text> Que todos os povos Vos
-              prestem homenagem, ó Deus; que todos os povos Vos glorifiquem. ℣.
-              Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 4</Text> Que
+              todos os povos Vos prestem homenagem, ó Deus; que todos os povos
+              Vos glorifiquem. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui omnes hómines vis salvos fíeri et ad agnitiónem
               veritátis veníre: mitte, quǽsumus, operários in messem tuam, et da
               eis cum omni fidúcia loqui verbum tuum; ut sermo tuus currat et
@@ -45,7 +45,7 @@ export default function PagePropagacaofe() {
               quem misísti Jesum Christum, Fílium tuum, Dóminum nostrum: Qui
               tecum vivit...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que quereis que todos os homens sejam salvos e venham ao
               conhecimento da verdade, enviai operários para a vossa messe, Vos
               suplicamos, e fazei que preguem confiadamente a vossa palavra, a
@@ -61,9 +61,11 @@ export default function PagePropagacaofe() {
           <Text className="em">Ecl. 36, 1-10 et 17-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Miserére nostri, Deus ómnium, et réspice nos, et osténde nobis
               lucem miseratiónum tuárum: et immítte timórem tuum super gentes,
               quæ non exquisiérunt te, ut cognóscant, quia non est Deus nisi tu,
@@ -82,7 +84,7 @@ export default function PagePropagacaofe() {
               in viam justítiæ, et sciant omnes, qui hábitant terram, quia tu es
               Deus conspéctor sæculórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Tende misericórdia de nós, ó Deus de tudo quanto existe; olhai
               para nós e mostrai-nos a luz das vossas misericórdias. Espalhai o
               vosso temor sobre os povos que Vos não procuram, Para que
@@ -112,45 +114,47 @@ export default function PagePropagacaofe() {
           <Text className="em">Sl. 66, 6-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Confiteántur tibi pópuli, Deus, confiteántur tibi pópuli omnes:
               terra dedit fructum suum. ℣. Benedícat nos Deus, Deus noster,
               benedícat nos Deus: et métuant eum omnes fines terræ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que todos os povos Vos prestem homenagem, ó Deus; que todos os
               povos Vos glorifiquem. ℣. A terra deu o seu fruto. Que o nosso
               Deus nos abençoe, ó Deus! Que em todos os confins da terra O
               temam.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 99, 1</Text>{" "}
-              Jubiláte Deo, omnis terra: servíte Dómino in lætítia: introíte in
-              conspéctu ejus, in exsultatióne. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 99, 1</Text> Jubiláte Deo,
+              omnis terra: servíte Dómino in lætítia: introíte in conspéctu
+              ejus, in exsultatióne. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 99, 1</Text> Ó terra
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 99, 1</Text> Ó terra
               universal, rejubilai diante de Deus. Servi o Senhor com alegria.
               Comparecei diante d’Ele, exultando de contentamento. Aleluia.
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o que segue e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 95, 3-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Annuntiáte inter gentes glóriam Dómini, in ómnibus pópulis
               mirabília ejus. ℣. Quóniam magnus Dóminus, et laudábilis nimis:
               terríbilis est super omnes deos. ℣. Quóniam omnes dii géntium
               dæmónia: Dóminus autem cœlos fecit.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Anunciai diante dos povos a glória do Senhor: tomai conhecidas dos
               povos as suas maravilhas: ℣. Porquanto grande é o Senhor e
               infinitamente digno de todos os louvores. Ele é mais temível que
@@ -159,23 +163,25 @@ export default function PagePropagacaofe() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:**
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 99, 1-2</Text>{" "}
-              Jubiláte Deo, omnis terra: servíte Dómino in lætítia: introíte in
-              conspéctu ejus, in exsultatióne. Allelúja. ℣. Scitóte quóniam
-              Dóminus ipse est Deus: ipse fecit nos, et non ipsi nos. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 99, 1-2</Text> Jubiláte Deo,
+              omnis terra: servíte Dómino in lætítia: introíte in conspéctu
+              ejus, in exsultatióne. Allelúja. ℣. Scitóte quóniam Dóminus ipse
+              est Deus: ipse fecit nos, et non ipsi nos. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 99, 1-2</Text> Ó
-              terra universal, rejubilai diante de Deus. Servi o Senhor com
-              alegria. Comparecei diante d’Ele, exultando de contentamento.
-              Aleluia. Sabei que o Senhor é o próprio Deus; e que nos criou a
-              nós, e não nós a nós mesmos. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 99, 1-2</Text> Ó terra
+              universal, rejubilai diante de Deus. Servi o Senhor com alegria.
+              Comparecei diante d’Ele, exultando de contentamento. Aleluia.
+              Sabei que o Senhor é o próprio Deus; e que nos criou a nós, e não
+              nós a nós mesmos. Aleluia.
             </Text>
           </View>
 
@@ -184,15 +190,15 @@ export default function PagePropagacaofe() {
           <Text className="em">Mt. 9, 35-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Circuíbat Jesus omnes civitátes et castélla,
               docens in synagógis eórum, et prǽdicans Evangélium regni, et
               curans omnem languórem et omnem infirmitátem. Videns autem turbas,
@@ -201,7 +207,7 @@ export default function PagePropagacaofe() {
               multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat
               operários in messem suam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, andava Jesus por todas as cidades e aldeias,
               ensinando nas suas sinagogas, pregando o Evangelho do reino e
               curando todas as doenças e enfermidades. E, vendo as turbas,
@@ -217,13 +223,13 @@ export default function PagePropagacaofe() {
           <Text className="em">Sl. 95, 7-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Afférte Dómino, pátriæ géntium, afférte Dómino glóriam et honórem,
               afférte Dómino glóriam nómini ejus: tóllite hóstias, et introíte
               in átria ejus: adoráte Dóminum in átrio sancto ejus. (T. P.
               Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Rendei ao Senhor, ó gentes das nações, rendei ao Senhor glória e
               honra! Rendei ao Senhor a glória devida ao seu nome! Procurai
               vítimas e entrai no átrio do seu santuário. Adorai o Senhor no seu
@@ -234,14 +240,14 @@ export default function PagePropagacaofe() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Protéctor noster, áspice, Deus, et réspice in fáciem Christi tui,
               qui dedit redemptiónem semetípsum pro ómnibus: et fac; ut ab ortu
               solis usque ad occásum magnificétur nomen tuum in géntibus, ac in
               omni loco sacrificétur et offerátur nómini tuo oblátio munda. Per
               eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Olhai para nós, ó Deus, nosso Protector, e fixai os olhos na face
               do vosso Cristo, que a si próprio se entregou por todos em
               redenção; e permiti que do oriente até ao ocidente seja
@@ -256,12 +262,12 @@ export default function PagePropagacaofe() {
           <Text className="em">Sl. 116, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Laudáte Dóminum, omnes gentes: laudáte eum, omnes pópuli: quóniam
               confirmáta est super nos misericordia ejus, et véritas Dómini
               manet in ætérnum. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó nações, louvai todas o Senhor! Ó povos, louvai todos em uníssono
               o Senhor! Pois a sua misericórdia para connosco confirmou-se e a
               verdade do Senhor permanecerá eternamente. (T. P. Aleluia.)
@@ -271,12 +277,12 @@ export default function PagePropagacaofe() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Redemptiónis nostræ múnere vegetáti: quǽsumus, Dómine; ut, hoc
               perpétuæ salútis auxílio, fides semper vera profíciat. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fortalecidos com o dom da nossa Redenção, Vos suplicamos, Senhor,
               que, por este auxílio da salvação perpétua, sempre aumente a
               verdadeira fé. Por nosso Senhor...

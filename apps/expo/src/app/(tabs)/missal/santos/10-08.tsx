@@ -24,13 +24,13 @@ export default function Page1008() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine, Deus noster, qui beátæ Birgíttæ per Fílium tuum unigénitum
               secreta cœléstia revelásti: ipsíus pia intercessióne da nobis,
               fámulis tuis; in revelatióne sempitérna glóriæ tuæ gaudére
               lætántes. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, nosso Deus, que pelo vosso Unigénito Filho revelastes os
               segredos celestiais à B. Brígida, concedei-nos, já que somos
               vossos servos, que nos alegremos na felicidade da contemplação da

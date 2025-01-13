@@ -20,32 +20,34 @@ export default function Page0212() {
           <Text className="em">Sb. 10, 20-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Justi decantavérunt, Dómine, nomen sanctum tuum, et victrícem
               manum tuam laudavérunt páriter: quóniam sapiéntia apéruit os mutum
               et linguas infántium fecit disértas.{" "}
-              <Text className="em">Ps. 8, 2</Text> Dómine, Dóminus noster, quam
-              admirábile est nomen tuum in univérsa terra! ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 8, 2</Text> Dómine, Dóminus
+              noster, quam admirábile est nomen tuum in univérsa terra! ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Os justos cantaram o vosso santo nome, Senhor, e louvaram em
               concerto a vossa mão vitoriosa: pois a sabedoria abriu a boca dos
               mudos e tornou eloquente a língua das criancinhas.{" "}
-              <Text className="em">Sl. 8, 2</Text> Ó Senhor, nosso Deus, como o
-              vosso nome é glorioso em toda a terra! ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. 8, 2</Text> Ó Senhor,
+              nosso Deus, como o vosso nome é glorioso em toda a terra! ℣.
+              Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine Jesu Christe, qui, ad recoléndam memóriam dolórum
               sanctíssimæ Genetrícis tuæ, per septem beátos Patres nova Servorum
               ejus família Ecclésiam tuam fœcundásti: concéde propítius; ita nos
               eórum consociári flétibus, ut perfruámur et gáudiis: Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, que para honrar a memória das Dores da vossa
               S. S. Mãe enriquecestes a vossa Igreja, por intermédio dos sete
               Bem-aventurados Padres, com a nova família dos Servitas,
@@ -60,9 +62,11 @@ export default function Page0212() {
           <Text className="em">Ecl. 44, 1-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Laudémus viros gloriósos et paréntes nostros in generatióne sua.
               Multam glóriam fecit Dóminus magnificéntia sua a sǽculo.
               Dominántes in potestátibus suis, hómines magni virtúte et
@@ -84,7 +88,7 @@ export default function Page0212() {
               et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem
               eórum núntiet Ecclésia.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Louvemos os homens ilustres, os pais da nossa geração. O Senhor
               operou por eles desde a origem dos séculos gloriosas maravilhas e
               manifestou a sua magnificência. Eles dominaram nos seus estados;
@@ -115,29 +119,33 @@ export default function Page0212() {
           <Text className="em">Is. 65, 23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Electi mei non laborábunt frustra, neque germinábunt in
               conturbatióne: quia semen benedictórum Dómini est, et nepótes
-              eórum cum eis. ℣. <Text className="em">Eccli. 44, 14</Text>{" "}
-              Córpora ipsorum in pace sepúlta sunt, et nomen eórum vivit in
-              generatiónem et generatiónem.
+              eórum cum eis. ℣.{" "}
+              <Text className="text-base latin">Eccli. 44, 14</Text> Córpora
+              ipsorum in pace sepúlta sunt, et nomen eórum vivit in generatiónem
+              et generatiónem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Os meus escolhidos se não fatigarão mais em vão, nem fecundarão
               filhos que lhes causem pena; pois eles e os seus descendentes
               formarão uma raça abençoada pelo Senhor. ℣.{" "}
-              <Text className="em">Ecl. 44, 14</Text> Seus corpos foram
-              sepultados em paz e o seu nome vive de geração em geração.
+              <Text className="text-base vernacular">Ecl. 44, 14</Text> Seus
+              corpos foram sepultados em paz e o seu nome vive de geração em
+              geração.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">ibid., 15</Text>{" "}
-              Sapiéntiam ipsorum narrent pópuli, et laudem eórum núntiet
-              Ecclésia. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">ibid., 15</Text> Sapiéntiam
+              ipsorum narrent pópuli, et laudem eórum núntiet Ecclésia.
+              Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">ibid., 15</Text>{" "}
-              Publiquem os povos a sua sabedoria e cante a Igreja os seus
-              louvores. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">ibid., 15</Text> Publiquem
+              os povos a sua sabedoria e cante a Igreja os seus louvores.
+              Aleluia.
             </Text>
           </View>
 
@@ -162,12 +170,12 @@ export default function Page0212() {
           <Text className="em">Is. 56, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Addúcam eos in montem sanctum meum, et lætificábo eos in domo
               oratiónis meæ: holocáusta eórum et víctimæ eórum placébunt mihi
               super altáre meum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Conduzi-los-ei à montanha sagrada e alegrá-los-ei na minha casa de
               oração. Seus holocaustos e os seus sacrifícios ser-me-ão
               agradáveis no meu altar.
@@ -177,13 +185,13 @@ export default function Page0212() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Accipe, quǽsumus, Dómine, hóstias quas tibi offérimus: et præsta;
               ut, intercedéntibus Sanctis tuis, libera tibi mente serviámus, et
               perdoléntis Vírginis Genetrícis Fílii tui amóre inflammémur. Per
               eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aceitai, Senhor, Vos rogamos, as hóstias que Vos oferecemos; e
               concedei-nos por intercessão dos vossos Santos que Vos sirvamos
               com inteira liberdade de espírito e sejamos abrasados em amor pela
@@ -196,11 +204,11 @@ export default function Page0212() {
           <Text className="em">Jo. 15, 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ego vos elégi de mundo, ut eátis et fructum afferátis: et fructus
               vester máneat.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eu vos escolhi no mundo para irdes e alcançardes fruto; e para que
               esse vosso fruto permaneça.
             </Text>
@@ -209,13 +217,13 @@ export default function Page0212() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Cœléstibus refécti mystériis te, Dómine, deprecámur: ut, quorum
               festa percólimus imitántes exémpla; juxta Crucem Jesu cum María
               Matre ejus fidéliter astémus, et ejúsdem redemptiónis fructum
               percípere mereámur. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fortalecidos com os celestiais mystérios, Senhor, Vos imploramos,
               fazei que, imitando o exemplo daqueles cuja festa celebramos,
               sejamos fiéis em permanecer ao pé da Cruz de Jesus com Maria, sua

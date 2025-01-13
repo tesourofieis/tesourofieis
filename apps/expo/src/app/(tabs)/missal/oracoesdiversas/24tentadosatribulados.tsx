@@ -13,14 +13,14 @@ export default function Page24Tentadosatribulados() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui justíficas ímpium, et non vis mortem peccatóris,
               majestátem tuam supplíciter deprecámur: ut fámulos tuos, de tua
               misericórdia confidéntes, cœlésti prótegas benígnus auxílio, et
               assídua protectióne consérves; ut tibi júgiter famuléntur, et
               nullis tentatiónibus a te separéntur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que podeis tornar justo o ímpio e não quereis a morte do
               pecador, imploramos e suplicamos à vossa majestade que Vos digneis
               proteger com vossa celestial assistência e conservar com vossa
@@ -33,12 +33,12 @@ export default function Page24Tentadosatribulados() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hujus, quǽsumus, Dómine, virtúte mystérii, et a própriis nos munda
               delíctis, et fámulos tuos ab ómnibus absólve peccátis. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Pela virtude deste mystério, Senhor, Vos suplicamos, dignai-Vos
               purificar-nos dos nossos próprios delitos e absolver os vossos
               servos de todos os pecados. Por nosso Senhor...
@@ -48,13 +48,13 @@ export default function Page24Tentadosatribulados() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Puríficent nos, quǽsumus, Dómine, sacraménta, quæ súmpsimus: et
               fámulos tuos ab omni culpa líberos esse concéde; ut, qui
               consciéntiæ reátu constringúntur, cœléstis remédii plenitúdine
               gloriéntur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que nós, Senhor, Vos suplicamos, possamos ser purificados pelo
               sacramento, que acabamos de receber; e permiti que os vossos
               servos sejam livres dos seus pecados, a fim de que, estando

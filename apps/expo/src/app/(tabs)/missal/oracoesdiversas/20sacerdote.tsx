@@ -13,14 +13,14 @@ export default function Page20Sacerdote() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens et miséricors Deus, humilitátis meæ preces benígnus
               inténde: ei me fámulum tuum, quem, nullis suffragántibus méritis,
               sed imménsa cleméntiæ tuæ largitáte cœléstibus mystériis servíre
               tribuísti, dignum sacris altáribus fac minístrum; ut, quod mea
               voce deprómitur, tua sanctificatióne firmétur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Omnipotente e misericordioso Deus, atendei benigno às preces que
               humildemente Vos dirijo, e tornai digno ministro dos vossos
               altares sagrados este vosso servo (que elevastes ao ministério dos
@@ -33,12 +33,12 @@ export default function Page20Sacerdote() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hujus, Dómine, virtúte sacraménti, peccatórum meórum máculas
               abstérge: et præsta; ut, ad exsequéndum injúncti officii
               ministérium, me tua grátia dignum effíciat. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, pela virtude deste mystério, purificai-me das máculas dos
               meus pecados; e, Vos suplico insistenternente, pela vossa graça,
               tornai-me digno das sagradas funções do ministério que me foi
@@ -49,13 +49,13 @@ export default function Page20Sacerdote() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui me peccatórem sacris altáribus
               astáre voluísti, et sancti nóminis tui laudáre poténtiam: concéde
               propítius, per hujus sacraménti mystérium, meórum mihi véniam
               peccatórum; ut tuæ majestáti digne mérear famulári. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus omnipotente e sempiterno, que destinastes este indigno
               pecador para servir os vossos sacrossantos altares e louvar a
               majestade do vosso santo nome, concedei-me misericordiosa-mente,

@@ -15,33 +15,33 @@ export default function PageQuadp20() {
           <Text className="em">Sl. 17, 5, 6 & 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Circumdedérut me gémitus mortis, dolóres inférni circumdedérunt
               me: et in tribulatióne mea invocávi Dóminum, et exaudívit de
               templo sancto suo vocem meam.{" "}
-              <Text className="em">Ps. ibd., 2-3</Text> Díligam te, Dómine,
-              fortitúdo mea: Dóminus firmaméntum meum, et refúgium meum, et
-              liberátor meus. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibd., 2-3</Text> Díligam te,
+              Dómine, fortitúdo mea: Dóminus firmaméntum meum, et refúgium meum,
+              et liberátor meus. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Rodearam-me os gemidos da morte e cercaram-me as dores do inferno;
               mas na minha tribulação invoquei o Senhor, que lá no seu santo
               templo ouviu a minha voz.{" "}
-              <Text className="em">Sl. ibd., 2-3</Text> Eu Vos amarei, Senhor,
-              que sois a minha fortaleza, o meu sustentáculo, o meu refúgio e o
-              meu libertador. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibd., 2-3</Text> Eu Vos
+              amarei, Senhor, que sois a minha fortaleza, o meu sustentáculo, o
+              meu refúgio e o meu libertador. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui
               juste pro peccátis nostris afflígimur, pro tui nóminis glória
               misericórditer liberémur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ouvi benigno, Senhor, Vos rogamos, as preces do vosso povo, a fim
               de que nós, que estamos justamente aflitos com o peso dos nossos
               pecados, sejamos misericordiosamente livres, pela glória do vosso
@@ -54,13 +54,13 @@ export default function PageQuadp20() {
           <Text className="em">1 Cor. 9, 24-27; 10, 1-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Nescítis, quod ii, qui in stádio currunt, omnes quidem
               currunt, sed unus áccipit bravíum? Sic cúrrite, ut comprehendátis.
               Omnis autem, qui in agóne conténdit, ab ómnibus se ábstinet: et
@@ -76,7 +76,7 @@ export default function PageQuadp20() {
               petra autem erat Christus): sed non in plúribus eórum beneplácitum
               est Deo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Não sabeis que aqueles que correm no circo, todos
               correm, mas somente um ganha o prémio? Correi, pois, de tal modo
               que o ganheis. Aqueles que combatem na arena abstêm-se de tudo; e
@@ -99,13 +99,13 @@ export default function PageQuadp20() {
           <Text className="em">Sl. 9, 10-11 & 19-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adjútor in opportunitátibus, in tribulatióne: sperent in te, qui
               novérunt te: quóniam non derelínquis quæréntes te, Dómine. ℣.
               Quóniam non in finem oblívio erit páuperis: patiéntia páuperum non
               períbit in ætérnum: exsúrge, Dómine, non præváleat homo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, sois o nosso auxílio nas necessidades e nas tribulações:
               esperem, pois, em Vós aqueles que Vos conhecem, porque nunca
               abandonais os que Vos procuram. O infeliz não será sempre
@@ -119,14 +119,14 @@ export default function PageQuadp20() {
           <Text className="em">Sl. 129, 1-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               De profúndis clamávi ad te. Dómine: Dómine, exáudi vocem meam. ℣.
               Fiant aures tuæ intendéntes in oratiónem servi tui. ℣. Si
               iniquitátes observáveris, Dómine: Dómine, quis sustinébit? ℣. Quia
               apud te propitiátio est, et propter legem tuam sustínui te,
               Dómine.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Das profundezas do abysmo clamei por Vós, Senhor: ouvi a minha
               voz. ℣. Que os vossos ouvidos estejam atentos à voz deste vosso
               servo. ℣. Se julgais as nossas iniquidades, Senhor, quem poderá
@@ -140,15 +140,15 @@ export default function PageQuadp20() {
           <Text className="em">Mt. 20, 1-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Dixit Jesus discípulis suis parábolam hanc:
               Simile est regnum cœlórum hómini patrifamílias, qui éxiit primo
               mane condúcere operários in víneam suam. Conventióne autem facta
@@ -175,7 +175,7 @@ export default function PageQuadp20() {
               primi, et primi novíssimi. Multi enim sunt vocáti, pauci vero
               elécti.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, disse Jesus a seus discípulos: «O reino dos céus é
               semelhante a um pai de família que sai da sua casa cedo para
               ajustar jornaleiros, para a sua vinha. E, tendo ajustado com eles
@@ -212,10 +212,10 @@ export default function PageQuadp20() {
           <Text className="em">Sl. 91, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Bonum est confitéri Dómino, et psállere nómini tuo, Altíssime.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               É bom louvar o Senhor; e cantar Salmos em honra do vosso nome, ó
               Altíssimo.
             </Text>
@@ -224,12 +224,12 @@ export default function PageQuadp20() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mystériis, et cleménter exáudi. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebendo as nossas ofertas e orações, Senhor, dignai-Vos
               purificar-nos por virtude dos vossos celestiais mystérios e ouvi
               misericordioso os nossos rogos. Por nosso Senhor Jesus Cristo,
@@ -242,11 +242,11 @@ export default function PageQuadp20() {
           <Text className="em">Sl. 30, 17-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Illúmina fáciem tuam super servum tuum, et salvum me fac in tua
               misericórdia: Dómine, non confúndar, quóniam invocávi te.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Fazei resplandecer a vossa face sobre este vosso servo, e
               salvai-me pela vossa misericórdia, Senhor; que eu não seja
               confundido, pois Vos invoquei.
@@ -256,11 +256,11 @@ export default function PageQuadp20() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fidéles tui, Deus, per tua dona firméntur: ut eadem et percipiéndo
               requírant, et quæréndo sine fine percípiant. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que os vossos fiéis, ó Deus, sejam fortificados com vossos dons, a
               fim de que, recebendo-os, continuem a procurá-los, e, havendo-os
               achado, sirvam para a nossa eternidade. Por nosso Senhor...

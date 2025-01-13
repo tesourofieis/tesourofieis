@@ -11,7 +11,7 @@ export default function PageActocontricao() {
           <Text className="h1">Acto de Contrição</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus meus, ex toto corde pǽnitet me ómnium meórum peccatórum,
               éaque detéstor, quia peccándo, non solum pœnas a te juste statútas
               proméritus sum, sed præsértim quia offéndi te, summum bonum, ac
@@ -19,7 +19,7 @@ export default function PageActocontricao() {
               grátia tua, de cétero me non peccatúrum peccandíque occasiónes
               próximas fugitúrum. Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meu Deus, eu me arrependo, de todo coração de todos meus pecados e
               os detesto, porque pecando não só mereci as penas que justamente
               estabelecestes, mas principalmente porque Vos ofendi a Vós, sumo

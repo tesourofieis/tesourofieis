@@ -17,19 +17,19 @@ export default function PageRosario() {
           <Text className="h1">Rosário</Text>
           <Text className="h1">Sinal da Cruz</Text>
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> In nómine Patris, et
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> In nómine Patris, et
               Fílii, et Spíritus Sancti.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Em nome do Pai e do
-              Filho e do Espírito Santo.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Em nome do Pai e
+              do Filho e do Espírito Santo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h1">No Crucifixo</Text>
@@ -75,33 +75,37 @@ export default function PageRosario() {
           <Gloria />
           <Text className="h2">Nossa Senhora a Santa Catarina Labouré</Text>
           <View className="side-by-side">
-            <Text className="text-base">℣. O Maria sine labe concepta.</Text>
-            <Text className="text-base">℣. Ó Maria concebida sem pecado.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ora pro nobis, qui
+            <Text className="text-base latin">
+              ℣. O Maria sine labe concepta.
+            </Text>
+            <Text className="text-base vernacular">
+              ℣. Ó Maria concebida sem pecado.
+            </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Ora pro nobis, qui
               confugimus ad te.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Rogai por nós que
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Rogai por nós que
               recorremos a vós.
             </Text>
           </View>
           <Text className="h2">Nossa Senhora aos Santos Pastorinhos</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Oh mi Jesu, dimitte nobis débita nostra, líbera nos ab igne
               inférni,
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno,
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Conduc in cælum omnes
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Conduc in cælum omnes
               animas, præsértim illas quæ máxime indigent misericórdia tua.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Levai as alminhas todas
-              para o Céu e socorrei principalmente as que mais precisarem.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Levai as alminhas
+              todas para o Céu e socorrei principalmente as que mais precisarem.
             </Text>
           </View>
           <Text className="h1">Meditações do Rosário</Text>
@@ -162,9 +166,9 @@ export default function PageRosario() {
             amor a Deus e a salvação das almas.
           </Text>
           <Text className="h2">Mistérios Gloriosos</Text>
-          <View className="aside">
+          <Text className="aside">
             <Text className="text-base">Quarta-feira, Sábado e Domingo</Text>
-          </View>
+          </Text>
           <Text className="bold">Primeiro mistério:</Text>
           <Text className="text-base">
             Meditemos na Ressurreição de N. S. Jesus Cristo, e roguemos para
@@ -193,7 +197,7 @@ export default function PageRosario() {
           <Text className="h1">Orações no fim do Rosário</Text>
           <Text className="h2">Salve Rainha</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Salve, Regina, Mater misericórdiæ, vita, dulcédo et spes nostra,
               salve. Ad te clamámus, éxsules fílii Hevæ. Ad te suspirámus
               geméntes et flentes in hac lacrimárum valle. Éia ergo, advocáta
@@ -201,7 +205,7 @@ export default function PageRosario() {
               benedíctum fructum ventris tui, nobis, post hoc exsílium, osténde.
               O clemens, o pia, o dulcis Virgo Maria!
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Salvé, Rainha, mãe de misericórdia, vida, doçura, esperança nossa,
               salve! A Vós bradamos, os degredados filhos de Eva. A Vós
               suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois,
@@ -209,45 +213,45 @@ export default function PageRosario() {
               E, depois deste desterro, nos mostrai Jesus, bendito fruto do
               Vosso ventre. Ó clemente, ó piedosa, ó doce Virgem Maria.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Ora pro nobis, Regina Sacratíssimi Rosárii.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Rogai por nós, Rainha do Santíssimo Rosário.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Ut digni efficiámur
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Ut digni efficiámur
               promissiónibus Christi.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Para que sejamos dignos
-              das promessas de Cristo.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Para que sejamos
+              dignos das promessas de Cristo.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam
               nobis salútis ætérnæ prǽmia comparávit, concede, quǽsumus: ut hæc
               mystéria sacratissimo beátæ Maríæ Vírginis Rosário recoléntes, et
               imitémur quod continent, et quod promittunt assequámur. Per eundem
               Christum Dóminum nostrum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, cujo Filho Unigénito por sua vida, morte e ressurreição
               nos alcançou os prémios da vida eterna, concedei-nos, Vos
               suplicamos, que, venerando nós estes mistérios do Santíssimo
               Rosário da Virgem Maria, imitemos o que eles contêm, e alcancemos
               o que eles prometem. Pelo mesmo Cristo, nosso Senhor.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <LadainhaLoreto />

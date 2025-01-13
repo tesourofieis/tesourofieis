@@ -23,12 +23,12 @@ export default function Page1007Outro() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exáudi, Dómine, preces nostras: et, interveniénte beáto Marco
               Confessóre tuo atque Pontífice, indulgéntiam nobis tríbue placátus
               et pacem. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Pastor eterno, atendei propício ao vosso rebanho; e guardai-o
               com vossa perpétua protecção por intercessão do bem-aventurado
               Marcos, vosso Sumo Pontífice, o qual escolhestes como pastor de
@@ -39,12 +39,12 @@ export default function Page1007Outro() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre
               Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit
               auxílium. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai
               benignamente a vossa Igreja, a fim de que não só o vosso rebanho
               triunfe em toda a parte, mas também pelo poder do vosso nome os
@@ -55,12 +55,12 @@ export default function Page1007Outro() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da, quǽsumus, Dómine, fidélibus pópulis Sanctórum tuórum semper
               veneratióne lætari: et eórum perpétua supplicatióne muníri. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, governai com mansidão a vossa Igreja,
               agora que foi alimentada com a sagrada refeição, a fim de que,
               dirigida com firme suavidade, alcance o incremento da sua

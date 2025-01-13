@@ -26,7 +26,7 @@ export default function Page1009Outro() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui hodiérna die beátum Dionýsium, Mártyrem tuum atque
               Pontíficem, virtúte constantiæ in passióne roborásti, quique illi,
               ad prædicándum géntibus glóriam tuam, Rústicum et Eleuthérium
@@ -34,7 +34,7 @@ export default function Page1009Outro() {
               amóre tuo próspera mundi despícere, et nulla ejus advérsa
               formidáre. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que neste dia fortalecestes o B. Dionísio, vosso Mártir e
               Pontífice, com a virtude da constância no martírio e que Vos
               dignastes associar-lhe Rústico e Eleutério para pregarem a vossa
@@ -49,9 +49,11 @@ export default function Page1009Outro() {
           <Text className="em">Act. 17, 22-34</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Actuum Apostolorum.</Text>
-            <Text className="text-base">Lição dos Actos dos Apóstolos</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Actuum Apostolorum.</Text>
+            <Text className="text-base vernacular">
+              Lição dos Actos dos Apóstolos
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Stans Paulus in médio Areopági, ait: Viri
               Atheniénses, per ómnia quasi superstitiosióres vos vídeo.
               Prætériens enim et videns simulácra vestra, invéni et aram, in qua
@@ -77,7 +79,7 @@ export default function Page1009Outro() {
               credidérunt: in quibus et Dionýsius Areopagíta, et múlier nómine
               Dámaris, et álii cum eis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, estando Paulo no meio do Aerópago, disse: «Varões
               atenienses, vejo que em todas as coisas sois como os mais
               religiosos; porquanto, passando eu e vendo as estátuas dos vossos
@@ -121,12 +123,12 @@ export default function Page1009Outro() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Obláta tibi, Dómine, múnera pópuli tui, pro tuórum honóre
               Sanctórum, súscipe propítius, quǽsumus: et eórum nos intercessióne
               sanctífica. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebei propício, Senhor, Vos rogamos, os dons que o vosso povo
               apresenta em honra dos vossos Santos; e pela sua intercessão
               santificai-nos. Por nosso Senhor...
@@ -136,13 +138,13 @@ export default function Page1009Outro() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sumptis, Dómine, sacraméntis, quǽsumus: ut, intercedéntibus beátis
               Martýribus tuis Dionýsio, Rústico et Eleuthério, ad redemptiónis
               ætérnæ proficiamus augméntum. Per Dóminum nostrum Jesum Christum,
               Fílium tuum: Qui tecum vivit et regnat...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo nós recebido estes sacramentos, Senhor, Vos suplicamos,
               dignai-Vos permitir que por intercessão dos vossos B. B. Mártires
               Dionísio, Rústico e Eleutério cada vez mais avancemos no caminho

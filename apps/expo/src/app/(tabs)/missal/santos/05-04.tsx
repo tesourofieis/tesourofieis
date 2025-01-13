@@ -42,14 +42,14 @@ export default function Page0504() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, mæréntium consolátor et in te sperántium salus, qui beátæ
               Mónicæ pias lácrimas in conversióne fílii sui Augustíni
               misericórditer suscepísti: da nobis utriúsque intervéntu; peccáta
               nostra deploráre, et grátiæ tuæ indulgéntiam inveníre. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que consolais os tristes e salvais os que em Vós esperam,
               e que Vos dignastes atender misericordiosamente às piedosas
               lágrimas da B. Mónica para a conversão de seu filho Agostinho,
@@ -64,13 +64,13 @@ export default function Page0504() {
           <Text className="em">1 Tm. 5, 3-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Caríssime: Víduas honóra, quæ vere víduæ sunt. Si qua autem vidua
               fílios aut nepótes habet, discat primum domum suam régere, et
               mútuam vicem réddere paréntibus: hoc enim accéptum est coram Deo.
@@ -84,7 +84,7 @@ export default function Page0504() {
               sanctórum pedes lavit, si tribulatiónem patiéntibus
               subministrávit, si omne opus bonum subsecúta est.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Caríssimo: Honrai as viúvas que são verdadeiramente viúvas. Se
               alguma viúva tem filhos ou netos, ensine-os, primeiramente, a
               governar a sua casa e a retribuir a seus pais, conforme o que
@@ -108,15 +108,15 @@ export default function Page0504() {
           <Text className="em">Lc. 7, 11-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Ibat Jesus in civitátem, quæ vocátur Naïm: et
               ibant cum eo discípuli ejus et turba copiósa. Cum autem
               appropinquáret portæ civitátis, ecce, defúnctus efferebátur fílius
@@ -129,7 +129,7 @@ export default function Page0504() {
               Quia Prophéta magnus surréxit in nobis: et quia Deus visitávit
               plebem suam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, dirigiu-se Jesus para uma cidade chamada Naim,
               sendo acompanhado pelos discípulos e muito povo. Tendo chegado
               próximo da porta da cidade, viu que levavam um morto daquela

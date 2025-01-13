@@ -10,12 +10,12 @@ export default function PageEpifania() {
         <View className="docs">
           <Text className="h1">Prefácio da Epifania</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se na Festa da Epifania e durante o Oitavário.
-          </View>
+          </Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubique grátias agere: Dómine sancte, Pater omnípotens, ætérne
               Deus: Quia, cum Unigenitus tuus in substántia nostræ mortalitátis
@@ -24,7 +24,7 @@ export default function PageEpifania() {
               milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine
               dicéntes:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Verdadeiramente é digno e justo, racional e salutar dar-Vos
               graças, Senhor santo, Pai omnipotente, eterno Deus, em todos os
               lugares e sempre: Pois o vosso Filho Unigénito, revestido com a

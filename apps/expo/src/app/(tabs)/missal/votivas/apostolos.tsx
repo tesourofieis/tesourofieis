@@ -26,13 +26,13 @@ export default function PageApostolos() {
           <Text className="em">Ef. 4, 7-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da do B. Ap.º Paulo aos Efésios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Unicuíque nostrum data est grátia secúndum mensúram
               donatiónis Christi. Propter quod dicit: Ascéndens in altum
               captívam duxit captivitátem: dedit dona homínibus. Quod autem
@@ -45,7 +45,7 @@ export default function PageApostolos() {
               omnes in unitátem fídei et agnitiónis Fílii Dei, in virum
               perféctum, in mensúram ætatis plenitúdinis Christi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: A graça foi dada a cada um de nós segundo a medida do
               dom de Jesus Cristo. É por isso que a Escritura diz: «Subindo ao
               céu, Ele levou consigo muitos cativos e distribuiu dons pelos
@@ -74,36 +74,37 @@ export default function PageApostolos() {
           <Text className="em">Sl. 63, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Protexísti me, Deus, a convéntu malignántium, allelúja: a
               multitúdine operántium iniquitátem, allelúja, allelúja.{" "}
-              <Text className="em">Ps. ib., 2</Text> Exáudi, Dómine, orationem
-              meam, cum déprecor: a timóre inimíci éripe ánimam meam. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. ib., 2</Text> Exáudi,
+              Dómine, orationem meam, cum déprecor: a timóre inimíci éripe
+              ánimam meam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, livrastes-me da companhia dos maus, aleluia: livrastes-me
               do meio daqueles que procedem com iniquidade. Aleluia, aleluia.{" "}
-              <Text className="em">Sl. ib., 2</Text> Senhor, quando eu Vos
-              invocar, ouvi a minha oração: livrai a minha alma do temor do
-              inimigo. ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ib., 2</Text> Senhor,
+              quando eu Vos invocar, ouvi a minha oração: livrai a minha alma do
+              temor do inimigo. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <View className="aside">Depois da Epistola:</View>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Ps. 88, 6</Text>{" "}
-              Confitebúntur cœli mirabília tua, Dómine: étenim veritátem tuam in
-              ecclésia sanctórum. Allelúja. ℣.{" "}
-              <Text className="em">Joann. 15, 16</Text> Ego vos elégi de mundo,
-              ut eátis, et fructum afferátis, et fructus vester máneat.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 88, 6</Text> Confitebúntur
+              cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia
+              sanctórum. Allelúja. ℣. <Text className="em">Joann. 15, 16</Text>{" "}
+              Ego vos elégi de mundo, ut eátis, et fructum afferátis, et fructus
+              vester máneat. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Sl. 88, 6</Text> Senhor,
-              os céus proclamam as vossas maravilhas e a vossa verdade na
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 88, 6</Text> Senhor, os
+              céus proclamam as vossas maravilhas e a vossa verdade na
               assembleia dos Santos. Aleluia. ℣.{" "}
               <Text className="em">Jo. 15, 16</Text> Fui Eu quem vos escolheu no
               mundo, a fim de que possais ir (pelo mundo), alcanceis frutos e
@@ -116,11 +117,11 @@ export default function PageApostolos() {
           <Text className="em">Sl. 44, 17-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine, in omni progénie et generatióne, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vós os instituístes príncipes em toda a terra: eles se recordarão
               do vosso nome em todas as gerações. Aleluia, aleluia.
             </Text>
@@ -131,11 +132,11 @@ export default function PageApostolos() {
           <Text className="em">Sl. 18, 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
               eórum, allelúja, allelúja.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O som da sua voz ecoa por toda a terra, fazendo-se ouvir as suas
               palavras até às extremidades do mundo, aleluia, aleluia.
             </Text>

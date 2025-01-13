@@ -17,18 +17,20 @@ export default function Page0624() {
           <Text className="em">Is. 49, 1 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit
               os meum ut gládium acútum: sub teguménto manus suæ protéxit me, et
               pósuit me quasi sagíttam eléctam.{" "}
-              <Text className="em">Ps. 91, 2</Text> Bonum est confitéri Dómino:
-              et psállere nómini tuo, Altíssime. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. 91, 2</Text> Bonum est
+              confitéri Dómino: et psállere nómini tuo, Altíssime. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor chamou-me pelo meu nome quando eu ainda estava no seio da
               minha mãe: e Ele tornou a minha boca semelhante a uma espada
               aguçada, protegeu-me com a sombra da sua mão, dispondo-me como uma
-              flecha escolhida. <Text className="em">Sl. 91, 2</Text> É bom
+              flecha escolhida.{" "}
+              <Text className="text-base vernacular">Sl. 91, 2</Text> É bom
               louvar o Senhor; e cantar o vosso nome, ó Altíssimo. ℣. Glória ao
               Pai...
             </Text>
@@ -37,13 +39,13 @@ export default function Page0624() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui præséntem diem honorábilem nobis in beáti Joánnis
               nativitáte fecísti: da pópulis tuis spirituálium grátiam
               gaudiórum; et ómnium fidélium mentes dirige in viam salútis
               ætérnæ. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que tornastes este dia memorável com o nascimento do B.
               João Baptista, concedei ao vosso povo a graça dos gozos
               espirituais; e guiai os corações de todos vossos fiéis pelo
@@ -56,9 +58,11 @@ export default function Page0624() {
           <Text className="em">Is. 49, 1-3, 5, 6 & 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Isaías.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Isaías.
+            </Text>
+            <Text className="text-base latin">
               Audíte, ínsulæ, et atténdite, pópuli, de longe: Dóminus ab útero
               vocavit me, de ventre matris meæ recordátus est nóminis mei. Et
               pósuit os meum quasi gládium acútum: in umbra manus suæ protéxit
@@ -69,7 +73,7 @@ export default function Page0624() {
               terræ. Reges vidébunt, et consúrgent príncipes, et adorábunt
               propter Dominum et sanctum Israël, qui elégit te.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Escutai, ó ilhas, e vós, ó povos longínquos, ouvi: «O Senhor
               chamou-me quando eu ainda estava no seio de minha mãe e
               recordou-se do meu nome quando ainda estava nas entranhas dela. E
@@ -90,23 +94,25 @@ export default function Page0624() {
           <Text className="em">Jr. 1, 5 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Priusquam te formárem in útero, novi te: et ántequam exíres de
               ventre, santificávi te. ℣. Misit Dóminus manum suam, et tétigit os
               meum, et dixit mihi.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Antes de te formar no seio de tua mãe, já te conhecia: e antes de
               saíres dele, já te santificara. ℣. O Senhor estendeu a sua mão,
               tocou com ela na minha boca e disse-me:
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">Luc. 1, 76</Text> Tu,
-              puer, Prophéta Altíssimi vocáberis: præíbis ante Dóminum paráre
-              vias ejus. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Luc. 1, 76</Text> Tu, puer,
+              Prophéta Altíssimi vocáberis: præíbis ante Dóminum paráre vias
+              ejus. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">Lc. 1, 76</Text> Tu, ó
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Lc. 1, 76</Text> Tu, ó
               menino, serás chamado Profeta do Altíssimo; pois caminharás
               adiante do Senhor para preparar as suas vias. Aleluia.
             </Text>
@@ -117,15 +123,15 @@ export default function Page0624() {
           <Text className="em">Lc. 1, 57-68</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Elísabeth implétum est tempus pariéndi, et péperit fílium. Et
               audiérunt vicíni et cognáti ejus, quia magnificávit Dóminus
               misericórdiam suam cum illa, et congratulabántur ei. Et factum est
@@ -144,7 +150,7 @@ export default function Page0624() {
               prophetávit, dicens: Benedíctus Dóminus, Deus Israël, quia
               visitávit et fecit redemptiónem plebis suæ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Havendo chegado o tempo em que Isabel devia dar à luz, deu ela à
               luz o seu filho. E os vizinhos e parentes compreenderam que o
               Senhor manifestara nela sua misericórdia, felicitando-a por essa
@@ -171,11 +177,11 @@ export default function Page0624() {
           <Text className="em">Sl. 91, 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Justus ut palma florébit: sicut cedrus, quæ in Líbano est,
               multiplicábitur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O justo florescerá, como a palmeira, e crescerá, como o cedro do
               Líbano.
             </Text>
@@ -184,13 +190,13 @@ export default function Page0624() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tua, Dómine, munéribus altária cumulámus: illíus nativitátem
               honóre débito celebrántes, qui Salvatórem mundi et cécinit ad
               futúrum et adésse monstravit, Dóminum nostrum Jesum Christum,
               Fílium tuum: Qui tecum vivit...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Enchemos os vossos altares com ofertas, Senhor, a fim de
               celebrarmos com as honras que merece o nascimento daquele que
               profetizou a vinda do Salvador do mundo e que manifestou ao povo a
@@ -204,11 +210,11 @@ export default function Page0624() {
           <Text className="em">Lc. 1, 76</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tu, puer, Propheta Altíssimi vocaberis: præíbis enim ante fáciem
               Dómini paráre vias ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Tu, ó menino, serás chamado Profeta do Altíssimo; pois caminharás
               adiante do Senhor para preparar as suas vias.
             </Text>
@@ -217,12 +223,12 @@ export default function Page0624() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sumat Ecclésia tua, Deus, beáti Joánnis Baptístæ generatióne
               lætítiam: per quem suæ regeneratiónis cognóvit auctórem, Dóminum
               nostrum Jesum Christum, Fílium tuum: Qui tecum vivit...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a vossa Igreja, Senhor, goze a alegria do nascimento do B.
               João Baptista, que nos tornou conhecido o autor da sua
               regeneração: nosso Senhor Jesus Cristo, vosso Filho: Que vive e

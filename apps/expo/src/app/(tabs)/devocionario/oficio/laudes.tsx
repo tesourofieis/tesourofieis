@@ -29,44 +29,45 @@ export default function PageLaudes() {
           <Tabs>
             <TabItem label="Depois da Purificação">
               <View className="side-by-side">
-                <Text className="text-base">
-                  ℣. Deus <Text className="cross text-red-500">✠</Text> in
+                <Text className="text-base latin">
+                  ℣. Deus <Text className="text-base latin">✠</Text> in
                   adjutórium meum inténde.
                 </Text>
-                <Text className="text-base">
-                  ℣. Deus, <Text className="cross text-red-500">✠</Text> vinde
+                <Text className="text-base vernacular">
+                  ℣. Deus, <Text className="text-base vernacular">✠</Text> vinde
                   em meu auxílio.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum
-                  me festína.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Dómine, ad
+                  adjuvándum me festína.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos
-                  em socorrer-me.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Senhor,
+                  apressai-Vos em socorrer-me.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   ℣. Glória Patri, et Fílio, et Spíritui Sancto.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Sicut erat in
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Sicut erat in
                   pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Assim como era no
-                  princípio, agora e sempre, e por todos os séculos dos séculos.
-                  Amen.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Assim como
+                  era no princípio, agora e sempre, e por todos os séculos dos
+                  séculos. Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Assumpta est Maria in cælum:
-                  gaudete angeli, laudantes benedicunt Dominum.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Assumpta est
+                  Maria in cælum: gaudete angeli, laudantes benedicunt Dominum.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Maria foi exaltada ao céu; os
-                  anjos se alegram, louvam, e glorificam o Senhor.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Maria foi
+                  exaltada ao céu; os anjos se alegram, louvam, e glorificam o
+                  Senhor.
                 </Text>
               </View>
 
@@ -75,25 +76,27 @@ export default function PageLaudes() {
               <Salmo92 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Assumpta est Maria in cælum:
-                  gaudete angeli, laudantes benedicunt Dominum.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Assumpta est
+                  Maria in cælum: gaudete angeli, laudantes benedicunt Dominum.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Maria foi exaltada ao céu; os
-                  anjos se alegram, louvam, e glorificam o Senhor.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Maria foi
+                  exaltada ao céu; os anjos se alegram, louvam, e glorificam o
+                  Senhor.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Maria Virgo assumpta est ad
-                  ætherum thalamum, in quo Rex regum stellato sedet solio.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Maria Virgo
+                  assumpta est ad ætherum thalamum, in quo Rex regum stellato
+                  sedet solio.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> A Virgem Maria foi exaltada
-                  ao tálamo celeste, onde o Rei dos reis está sentado num trono
-                  de estrelas.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> A Virgem
+                  Maria foi exaltada ao tálamo celeste, onde o Rei dos reis está
+                  sentado num trono de estrelas.
                 </Text>
               </View>
 
@@ -102,25 +105,28 @@ export default function PageLaudes() {
               <Salmo99 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Maria Virgo assumpta est ad
-                  ætherum thalamum, in quo Rex regum stellato sedet solio.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Maria Virgo
+                  assumpta est ad ætherum thalamum, in quo Rex regum stellato
+                  sedet solio.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> A Virgem Maria foi exaltada
-                  ao tálamo celeste, onde o Rei dos reis está sentado num trono
-                  de estrelas.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> A Virgem
+                  Maria foi exaltada ao tálamo celeste, onde o Rei dos reis está
+                  sentado num trono de estrelas.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> In odorem unguentorum tuorum
-                  currimus: adolescentulæ dilexerunt te nimis.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> In odorem
+                  unguentorum tuorum currimus: adolescentulæ dilexerunt te
+                  nimis.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Todos corremos à fragrância
-                  dos vossos aromas, as donzelas amar-vos-ão grandemente.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Todos
+                  corremos à fragrância dos vossos aromas, as donzelas
+                  amar-vos-ão grandemente.
                 </Text>
               </View>
 
@@ -129,24 +135,27 @@ export default function PageLaudes() {
               <Salmo62 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> In odorem unguentorum tuorum
-                  currimus: adolescentulæ dilexerunt te nimis.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> In odorem
+                  unguentorum tuorum currimus: adolescentulæ dilexerunt te
+                  nimis.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Todos corremos à fragrância
-                  dos vossos aromas, as donzelas amar-vos-ão grandemente.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Todos
+                  corremos à fragrância dos vossos aromas, as donzelas
+                  amar-vos-ão grandemente.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Benedicta filia tu a Domino:
-                  quia per te fructum vitaæ communicavimus.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Benedicta filia
+                  tu a Domino: quia per te fructum vitaæ communicavimus.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Sois a filha bendita do
-                  Senhor, porque por vós recebemos o fruto da vida.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Sois a
+                  filha bendita do Senhor, porque por vós recebemos o fruto da
+                  vida.
                 </Text>
               </View>
 
@@ -157,24 +166,26 @@ export default function PageLaudes() {
               <View className="aside">Não se diz a Glória no fim.</View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Benedicta filia tu a Domino:
-                  quia per te fructum vitaæ communicavimus.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Benedicta filia
+                  tu a Domino: quia per te fructum vitaæ communicavimus.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Sois a filha bendita do
-                  Senhor, porque por vós recebemos o fruto da vida.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Sois a
+                  filha bendita do Senhor, porque por vós recebemos o fruto da
+                  vida.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Pulchra es et decora, filia
-                  Jerusalem: terribus ut castrorum acies ordinara.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Pulchra es et
+                  decora, filia Jerusalem: terribus ut castrorum acies ordinara.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Filha de Jerusalém, sois bela
-                  e decorosa, terrível como um exército formado em linha.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Filha de
+                  Jerusalém, sois bela e decorosa, terrível como um exército
+                  formado em linha.
                 </Text>
               </View>
 
@@ -183,13 +194,14 @@ export default function PageLaudes() {
               <Salmo148 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Pulchra es et decora, filia
-                  Jerusalem: terribus ut castrorum acies ordinara.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Pulchra es et
+                  decora, filia Jerusalem: terribus ut castrorum acies ordinara.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Filha de Jerusalém, sois bela
-                  e decorosa, terrível como um exército formado em linha.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Filha de
+                  Jerusalém, sois bela e decorosa, terrível como um exército
+                  formado em linha.
                 </Text>
               </View>
 
@@ -198,19 +210,20 @@ export default function PageLaudes() {
               <Text className="em">Ct. 6, 8</Text>
 
               <View className="side-by-side">
-                <Text className="text-base">
+                <Text className="text-base latin">
                   Viderunt eam filiæ Sion, et beatissimam prædicaverunt, et
                   reginæ laudaverunt eam.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   Viram-na as Filhas de Sião, e a declararam beatíssima; e as
                   Rainhas a louvaram.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Deo grátias.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Deo grátias.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Graças a Deus.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Graças a
+                  Deus.
                 </Text>
               </View>
 
@@ -221,35 +234,36 @@ export default function PageLaudes() {
               <Text className="h2">Ofício 1</Text>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Beata dei genitrix, Maria,
-                  Virgo perpetua, templum Domini, sacrarium Spiritus Sancti,
-                  sola sine exemplo placuisti Domino nostro Jesu Christo: ora
-                  pro populo, interveni pro clero, intercede pro devoto femineo
-                  sexu.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Beata dei
+                  genitrix, Maria, Virgo perpetua, templum Domini, sacrarium
+                  Spiritus Sancti, sola sine exemplo placuisti Domino nostro
+                  Jesu Christo: ora pro populo, interveni pro clero, intercede
+                  pro devoto femineo sexu.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ó Santa Mãe de Deus, Maria
-                  sempre Virgem, templo de Deus, sacrário do Espírito Santo; vós
-                  apenas, sem exemplo, agradastes Nosso Senhor Jesus Cristo:
-                  rezei por nós, intervinde pelo clero, intercedei pelo devoto
-                  sexo feminino.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Ó Santa Mãe
+                  de Deus, Maria sempre Virgem, templo de Deus, sacrário do
+                  Espírito Santo; vós apenas, sem exemplo, agradastes Nosso
+                  Senhor Jesus Cristo: rezei por nós, intervinde pelo clero,
+                  intercedei pelo devoto sexo feminino.
                 </Text>
               </View>
 
               <Text className="h2">No Tempo Pascal</Text>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Regína Cæli, lætáre,
-                  allelúja; Quia quem meruísti portáre, allelúja; Resurréxit,
-                  sicut dixit, allelúja; Ora pro nóbis Deum, allelúja.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Regína Cæli,
+                  lætáre, allelúja; Quia quem meruísti portáre, allelúja;
+                  Resurréxit, sicut dixit, allelúja; Ora pro nóbis Deum,
+                  allelúja.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Rainha do Céu, alegrai-Vos,
-                  Aleluia! Porque Aquele que merecestes trazer em vosso ventre,
-                  Aleluia! Ressuscitou como disse, Aleluia! Rogai por nós a
-                  Deus, Aleluia!
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Rainha do
+                  Céu, alegrai-Vos, Aleluia! Porque Aquele que merecestes trazer
+                  em vosso ventre, Aleluia! Ressuscitou como disse, Aleluia!
+                  Rogai por nós a Deus, Aleluia!
                 </Text>
               </View>
 
@@ -260,50 +274,51 @@ export default function PageLaudes() {
               <Text className="h2">Ofício 1</Text>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Beata dei genitrix, Maria,
-                  Virgo perpetua, templum Domini, sacrarium Spiritus Sancti,
-                  sola sine exemplo placuisti Domino nostro Jesu Christo: ora
-                  pro populo, interveni pro clero, intercede pro devoto femineo
-                  sexu.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Beata dei
+                  genitrix, Maria, Virgo perpetua, templum Domini, sacrarium
+                  Spiritus Sancti, sola sine exemplo placuisti Domino nostro
+                  Jesu Christo: ora pro populo, interveni pro clero, intercede
+                  pro devoto femineo sexu.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ó Santa Mãe de Deus, Maria
-                  sempre Virgem, templo de Deus, sacrário do Espírito Santo; vós
-                  apenas, sem exemplo, agradastes Nosso Senhor Jesus Cristo:
-                  reza por nós, intervém pelo clero, intercede pelo devoto sexo
-                  feminino.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Ó Santa Mãe
+                  de Deus, Maria sempre Virgem, templo de Deus, sacrário do
+                  Espírito Santo; vós apenas, sem exemplo, agradastes Nosso
+                  Senhor Jesus Cristo: reza por nós, intervém pelo clero,
+                  intercede pelo devoto sexo feminino.
                 </Text>
               </View>
 
               <Text className="h2">No Tempo Pascal</Text>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Regína Cæli, lætáre,
-                  allelúja; Quia quem meruísti portáre, allelúja; Resurréxit,
-                  sicut dixit, allelúja; Ora pro nóbis Deum, allelúja.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Regína Cæli,
+                  lætáre, allelúja; Quia quem meruísti portáre, allelúja;
+                  Resurréxit, sicut dixit, allelúja; Ora pro nóbis Deum,
+                  allelúja.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Rainha do Céu, alegrai-Vos,
-                  Aleluia! Porque Aquele que merecestes trazer em vosso ventre,
-                  Aleluia! Ressuscitou como disse, Aleluia! Rogai por nós a
-                  Deus, Aleluia!
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Rainha do
+                  Céu, alegrai-Vos, Aleluia! Porque Aquele que merecestes trazer
+                  em vosso ventre, Aleluia! Ressuscitou como disse, Aleluia!
+                  Rogai por nós a Deus, Aleluia!
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500 text-center">Orémus.</Text>
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Orémus.</Text>
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500 text-center">Oremos.</Text>
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Oremos.</Text>
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   Deus, qui de beatæ Mariæ Virginis utero Verbum tuum, Angelo
                   nuntiante, carnem suscipere voluisti: præsta supplicibus tuis;
                   ut qui vere eam Genetricem Dei credimus, ejus apud te
                   intercessionibus adjuvemur. Per eundem Dominum nostrum Jesum
                   Christum.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   Ó Deus, que pela anunciação do Anjo quisestes que o vosso
                   Verbo se vestisse da nossa carne nas entranhas da
                   bem-aventurada Virgem Maria: nós, vossos humildes servos,
@@ -311,53 +326,53 @@ export default function PageLaudes() {
                   ajudem as suas intercessões para convosco. Pelo mesmo Jesus
                   Cristo Senhor Nosso.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
 
             <TabItem label="No Advento">
               <View className="side-by-side">
-                <Text className="text-base">
-                  ℣. Deus <Text className="cross text-red-500">✠</Text> in
+                <Text className="text-base latin">
+                  ℣. Deus <Text className="text-base latin">✠</Text> in
                   adjutórium meum inténde.
                 </Text>
-                <Text className="text-base">
-                  ℣. Deus, <Text className="cross text-red-500">✠</Text> vinde
+                <Text className="text-base vernacular">
+                  ℣. Deus, <Text className="text-base vernacular">✠</Text> vinde
                   em meu auxílio.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum
-                  me festína.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Dómine, ad
+                  adjuvándum me festína.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos
-                  em socorrer-me.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Senhor,
+                  apressai-Vos em socorrer-me.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   ℣. Glória Patri, et Fílio, et Spíritui Sancto. ℣. Glória ao
                   Pai, e ao Filho e ao Espírito Santo.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Sicut erat in
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Sicut erat in
                   pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Assim como era no
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Assim como era no
                   princípio, agora e sempre, e por todos os séculos dos séculos.
                   Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Missus est Gábriel Angelus ad
-                  Maríam Vírginem desponsátam Joseph.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Missus est
+                  Gábriel Angelus ad Maríam Vírginem desponsátam Joseph.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> O Anjo Gabriel foi mandado à
-                  Virgem Maria, desposada com José.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> O Anjo Gabriel
+                  foi mandado à Virgem Maria, desposada com José.
                 </Text>
               </View>
 
@@ -366,24 +381,25 @@ export default function PageLaudes() {
               <Salmo92 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Missus est Gábriel Angelus ad
-                  Maríam Vírginem desponsátam Joseph.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Missus est
+                  Gábriel Angelus ad Maríam Vírginem desponsátam Joseph.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> O Anjo Gabriel foi mandado à
-                  Virgem Maria, desposada com José.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> O Anjo
+                  Gabriel foi mandado à Virgem Maria, desposada com José.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ave, María, grátia plena;
-                  Dóminus tecum: benedícta tu in muliéribus.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Ave, María,
+                  grátia plena; Dóminus tecum: benedícta tu in muliéribus.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ave, Maria, cheia de graça, o
-                  Senhor é convosco; bendita sois vós entre as mulheres.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Ave, Maria,
+                  cheia de graça, o Senhor é convosco; bendita sois vós entre as
+                  mulheres.
                 </Text>
               </View>
 
@@ -392,24 +408,27 @@ export default function PageLaudes() {
               <Salmo99 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ave, María, grátia plena;
-                  Dóminus tecum: benedícta tu in muliéribus.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Ave, María,
+                  grátia plena; Dóminus tecum: benedícta tu in muliéribus.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ave, Maria, cheia de graça, o
-                  Senhor é convosco; bendita sois vós entre as mulheres.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Ave, Maria,
+                  cheia de graça, o Senhor é convosco; bendita sois vós entre as
+                  mulheres.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ne timeas, María, invenísti
-                  grátiam apud Dóminum: ecce concípies et páries fílium.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Ne timeas,
+                  María, invenísti grátiam apud Dóminum: ecce concípies et
+                  páries fílium.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Não temais, ó Maria, achastes
-                  graça para com o Senhor: concebereis, e dareis à luz um filho.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Não temais,
+                  ó Maria, achastes graça para com o Senhor: concebereis, e
+                  dareis à luz um filho.
                 </Text>
               </View>
 
@@ -418,24 +437,26 @@ export default function PageLaudes() {
               <Salmo62 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ne timeas, María, invenísti
-                  grátiam apud Dóminum: ecce concípies et páries fílium.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Ne timeas,
+                  María, invenísti grátiam apud Dóminum: ecce concípies et
+                  páries fílium.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Não temais, ó Maria, achastes
-                  graça para com o Senhor: concebereis, e dareis à luz um filho.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Não temais,
+                  ó Maria, achastes graça para com o Senhor: concebereis, e
+                  dareis à luz um filho.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Dabit ei Dóminus sedem David,
-                  patris ejus, et regnábit in ætérnum.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Dabit ei Dóminus
+                  sedem David, patris ejus, et regnábit in ætérnum.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> O Senhor lhe dará o trono de
-                  David seu Pai, e reinará eternamente.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> O Senhor
+                  lhe dará o trono de David seu Pai, e reinará eternamente.
                 </Text>
               </View>
 
@@ -446,24 +467,24 @@ export default function PageLaudes() {
               <View className="aside">Não se diz a Glória no fim.</View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Dabit ei Dóminus sedem David,
-                  patris ejus, et regnábit in ætérnum.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Dabit ei Dóminus
+                  sedem David, patris ejus, et regnábit in ætérnum.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> O Senhor lhe dará o trono de
-                  David seu Pai, e reinará eternamente.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> O Senhor
+                  lhe dará o trono de David seu Pai, e reinará eternamente.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ecce ancílla Dómini: fiat
-                  mihi secúndum verbum tuum.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Ecce ancílla
+                  Dómini: fiat mihi secúndum verbum tuum.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Eis aqui a escrava do Senhor,
-                  faça-se em mim segundo a vossa palavra.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Eis aqui a
+                  escrava do Senhor, faça-se em mim segundo a vossa palavra.
                 </Text>
               </View>
 
@@ -472,13 +493,13 @@ export default function PageLaudes() {
               <Salmo148 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ecce ancílla Dómini: fiat
-                  mihi secúndum verbum tuum.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Ecce ancílla
+                  Dómini: fiat mihi secúndum verbum tuum.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Eis aqui a escrava do Senhor,
-                  faça-se em mim segundo a vossa palavra.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Eis aqui a
+                  escrava do Senhor, faça-se em mim segundo a vossa palavra.
                 </Text>
               </View>
 
@@ -487,19 +508,20 @@ export default function PageLaudes() {
               <Text className="em">Is. 11, 1-2</Text>
 
               <View className="side-by-side">
-                <Text className="text-base">
+                <Text className="text-base latin">
                   Egredietur virga de radice Jesse, et flos de radice ejus
                   ascendet. Et requiescet super eum Spiritus Domini.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   Sairá uma vara da raiz de Jessé, e subirá uma flor da sua
                   raiz, e descansará sobre ele o Espírito do Senhor.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Deo grátias.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Deo grátias.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Graças a Deus.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Graças a
+                  Deus.
                 </Text>
               </View>
 
@@ -508,32 +530,32 @@ export default function PageLaudes() {
               <OGloriosaVirginum />
 
               <View className="side-by-side">
-                <Text className="text-base">
+                <Text className="text-base latin">
                   ℣. Benedicta tu in mulieribus.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. Bendita sois vóo entre as mulheres.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Et benedictus fructus
-                  ventris tui.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Et benedictus
+                  fructus ventris tui.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> E bendito é o fruto
-                  do vosso ventre.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> E bendito é o
+                  fruto do vosso ventre.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Spiritus Sanctus in te
-                  descendet, Maria: ne timeas, habebis in utero filium Dei,
-                  (allelúja).
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Spiritus Sanctus
+                  in te descendet, Maria: ne timeas, habebis in utero filium
+                  Dei, (allelúja).
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> O Espírito Santo descerá
-                  sobre vós, ó Maria; não temais: concebereis, e tereis no
-                  ventre o Filho de Deus, (aleluia).
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> O Espírito
+                  Santo descerá sobre vós, ó Maria; não temais: concebereis, e
+                  tereis no ventre o Filho de Deus, (aleluia).
                 </Text>
               </View>
 
@@ -542,44 +564,44 @@ export default function PageLaudes() {
               <Benedictus />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Spiritus Sanctus in te
-                  descendet, Maria: ne timeas, habebis in utero filium Dei,
-                  (allelúja).
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Spiritus Sanctus
+                  in te descendet, Maria: ne timeas, habebis in utero filium
+                  Dei, (allelúja).
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> O Espírito Santo descerá
-                  sobre vós, ó Maria; não temais: concebereis, e tereis no
-                  ventre o Filho de Deus, (aleluia).
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> O Espírito
+                  Santo descerá sobre vós, ó Maria; não temais: concebereis, e
+                  tereis no ventre o Filho de Deus, (aleluia).
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   ℣. Domine, exaudi orationem meam.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
-                  veniat.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
+                  te veniat.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
-                  até Vós.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> E o meu
+                  clamor chegue até Vós.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500 text-center">Orémus.</Text>
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Orémus.</Text>
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500 text-center">Oremos.</Text>
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Oremos.</Text>
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   Deus, qui de beatæ Mariæ Virginis utero Verbum tuum, Angelo
                   nuntiante, carnem suscipere voluisti: præsta supplicibus tuis;
                   ut qui vere eam Genetricem Dei credimus, ejus apud te
                   intercessionibus adjuvemur. Per eundem Dominum nostrum Jesum
                   Christum.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   Ó Deus, que pela anunciação do Anjo quisestes que o vosso
                   Verbo se vestisse da nossa carne nas entranhas da
                   bem-aventurada Virgem Maria: nós, vossos humildes servos,
@@ -587,93 +609,96 @@ export default function PageLaudes() {
                   ajudem as suas intercessões para convosco. Pelo mesmo Jesus
                   Cristo Senhor Nosso.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Amen.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   ℣. Domine, exaudi orationem meam.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
-                  veniat.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
+                  te veniat.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
-                  até Vós.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> E o meu
+                  clamor chegue até Vós.
                 </Text>
-                <Text className="text-base">℣. Benedicamus Domino.</Text>
-                <Text className="text-base">℣. Bendigamos o Senhor.</Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Deo gratias.
+                <Text className="text-base latin">℣. Benedicamus Domino.</Text>
+                <Text className="text-base vernacular">
+                  ℣. Bendigamos o Senhor.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Graças a Deus.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Deo gratias.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Graças a
+                  Deus.
+                </Text>
+                <Text className="text-base latin">
                   ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. E que as almas dos fiéis, pela misericórdia de Deus,
                   descansem em paz.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
 
             <TabItem label="No Natal">
               <View className="side-by-side">
-                <Text className="text-base">
-                  ℣. Deus <Text className="cross text-red-500">✠</Text> in
+                <Text className="text-base latin">
+                  ℣. Deus <Text className="text-base latin">✠</Text> in
                   adjutórium meum inténde.
                 </Text>
-                <Text className="text-base">
-                  ℣. Deus, <Text className="cross text-red-500">✠</Text> vinde
+                <Text className="text-base vernacular">
+                  ℣. Deus, <Text className="text-base vernacular">✠</Text> vinde
                   em meu auxílio.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum
-                  me festína.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Dómine, ad
+                  adjuvándum me festína.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos
-                  em socorrer-me.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Senhor,
+                  apressai-Vos em socorrer-me.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   ℣. Glória Patri, et Fílio, et Spíritui Sancto.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Sicut erat in
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Sicut erat in
                   pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Assim como era no
-                  princípio, agora e sempre, e por todos os séculos dos séculos.
-                  Amen.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Assim como
+                  era no princípio, agora e sempre, e por todos os séculos dos
+                  séculos. Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> O admirabile commercium:
-                  Creator generis humani, animatum corpus sumens, de Virgine
-                  nasci dignatus est: et procedens homo sine semine, largitus
-                  est nobis suam Deitatem.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> O admirabile
+                  commercium: Creator generis humani, animatum corpus sumens, de
+                  Virgine nasci dignatus est: et procedens homo sine semine,
+                  largitus est nobis suam Deitatem.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ó admirável permuta! O
-                  Criador do género humano, tomando corpo e alma, dignou-se
-                  nascer de uma Virgem; e, feito homem sem progenitor,
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Ó admirável
+                  permuta! O Criador do género humano, tomando corpo e alma,
+                  dignou-se nascer de uma Virgem; e, feito homem sem progenitor,
                   tornou-nos participantes da sua divindade.
                 </Text>
               </View>
@@ -683,32 +708,32 @@ export default function PageLaudes() {
               <Salmo92 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> O admirabile commercium:
-                  Creator generis humani, animatum corpus sumens, de Virgine
-                  nasci dignatus est: et procedens homo sine semine, largitus
-                  est nobis suam Deitatem.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> O admirabile
+                  commercium: Creator generis humani, animatum corpus sumens, de
+                  Virgine nasci dignatus est: et procedens homo sine semine,
+                  largitus est nobis suam Deitatem.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ó admirável permuta! O
-                  Criador do género humano, tomando corpo e alma, dignou-se
-                  nascer de uma Virgem; e, feito homem sem progenitor,
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Ó admirável
+                  permuta! O Criador do género humano, tomando corpo e alma,
+                  dignou-se nascer de uma Virgem; e, feito homem sem progenitor,
                   tornou-nos participantes da sua divindade.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Quando natus es inefabilitre
-                  ex Virgnine, tunc impletæ sunt Scripturæ: sicut pluvia in
-                  vellus descendisti, ut salvum faceres genus humanum: te
-                  laudamus, Deus noster.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Quando natus es
+                  inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut
+                  pluvia in vellus descendisti, ut salvum faceres genus humanum:
+                  te laudamus, Deus noster.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Quando nascestes
-                  misteriosamente da Virgem, então se cumpriram as Escrituras:
-                  descestes como a chuva sobre a lã, para salvar a humanidade.
-                  Nós Vos louvamos, ó Nosso Deus.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Quando
+                  nascestes misteriosamente da Virgem, então se cumpriram as
+                  Escrituras: descestes como a chuva sobre a lã, para salvar a
+                  humanidade. Nós Vos louvamos, ó Nosso Deus.
                 </Text>
               </View>
 
@@ -717,30 +742,30 @@ export default function PageLaudes() {
               <Salmo99 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Quando natus es inefabilitre
-                  ex Virgnine, tunc impletæ sunt Scripturæ: sicut pluvia in
-                  vellus descendisti, ut salvum faceres genus humanum: te
-                  laudamus, Deus noster.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Quando natus es
+                  inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut
+                  pluvia in vellus descendisti, ut salvum faceres genus humanum:
+                  te laudamus, Deus noster.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Quando nascestes
-                  misteriosamente da Virgem, então se cumpriram as Escrituras:
-                  descestes como a chuva sobre a lã, para salvar a humanidade.
-                  Nós Vos louvamos, ó Nosso Deus.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Quando
+                  nascestes misteriosamente da Virgem, então se cumpriram as
+                  Escrituras: descestes como a chuva sobre a lã, para salvar a
+                  humanidade. Nós Vos louvamos, ó Nosso Deus.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Rubum, quem viderat Moyses
-                  incombustum, conservatam agnovimus tuam laudabilem
-                  virginitatem: Dei Genitrix, intercede pro nobis.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Rubum, quem
+                  viderat Moyses incombustum, conservatam agnovimus tuam
+                  laudabilem virginitatem: Dei Genitrix, intercede pro nobis.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Na sarça que Moisés via sem
-                  se consumir, reconhecemos a vossa admirável virgindade
-                  conservada: rogai por nós, Santa Mãe de Deus.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Na sarça
+                  que Moisés via sem se consumir, reconhecemos a vossa admirável
+                  virgindade conservada: rogai por nós, Santa Mãe de Deus.
                 </Text>
               </View>
 
@@ -749,28 +774,28 @@ export default function PageLaudes() {
               <Salmo62 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Rubum, quem viderat Moyses
-                  incombustum, conservatam agnovimus tuam laudabilem
-                  virginitatem: Dei Genitrix, intercede pro nobis.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Rubum, quem
+                  viderat Moyses incombustum, conservatam agnovimus tuam
+                  laudabilem virginitatem: Dei Genitrix, intercede pro nobis.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Na sarça que Moisés via sem
-                  se consumir, reconhecemos a vossa admirável virgindade
-                  conservada: rogai por nós, Santa Mãe de Deus.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Na sarça
+                  que Moisés via sem se consumir, reconhecemos a vossa admirável
+                  virgindade conservada: rogai por nós, Santa Mãe de Deus.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Germinavit radix Jesse, orta
-                  est stella ex Jacob; virgo peperit Salvatorem: te laudamus,
-                  Deus noster.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Germinavit radix
+                  Jesse, orta est stella ex Jacob; virgo peperit Salvatorem: te
+                  laudamus, Deus noster.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Floresceu a raiz de Jessé,
-                  surgiu a estrela de Jacob. A Virgem deu à luz o Salvador: Nós
-                  Vos louvamos, ó Nosso Deus.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Floresceu a
+                  raiz de Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o
+                  Salvador: Nós Vos louvamos, ó Nosso Deus.
                 </Text>
               </View>
 
@@ -781,28 +806,30 @@ export default function PageLaudes() {
               <View className="aside">Não se diz a Glória no fim.</View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Germinavit radix Jesse, orta
-                  est stella ex Jacob; virgo peperit Salvatorem: te laudamus,
-                  Deus noster.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Germinavit radix
+                  Jesse, orta est stella ex Jacob; virgo peperit Salvatorem: te
+                  laudamus, Deus noster.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Floresceu a raiz de Jessé,
-                  surgiu a estrela de Jacob. A Virgem deu à luz o Salvador: Nós
-                  Vos louvamos, Senhor nosso Deus.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Floresceu a
+                  raiz de Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o
+                  Salvador: Nós Vos louvamos, Senhor nosso Deus.
                 </Text>
               </View>
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ecce, Maria genuit nobis
-                  Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus
-                  Dei, ecce qui tollit peccata mundi, (allelúja).
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Ecce, Maria
+                  genuit nobis Salvatorem, quem Joannes videns exclamavit,
+                  dicens: Ecce Agnus Dei, ecce qui tollit peccata mundi,
+                  (allelúja).
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Eis, Maria deu à luz o nosso
-                  Salvador, que João reconheceu e exclamou: eis o Cordeiro de
-                  Deus, Aquele que tira o pecado do mundo, (aleluia).
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Eis, Maria
+                  deu à luz o nosso Salvador, que João reconheceu e exclamou:
+                  eis o Cordeiro de Deus, Aquele que tira o pecado do mundo,
+                  (aleluia).
                 </Text>
               </View>
 
@@ -811,15 +838,17 @@ export default function PageLaudes() {
               <Salmo148 />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Ecce, Maria genuit nobis
-                  Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus
-                  Dei, ecce qui tollit peccata mundi, (allelúja).
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Ecce, Maria
+                  genuit nobis Salvatorem, quem Joannes videns exclamavit,
+                  dicens: Ecce Agnus Dei, ecce qui tollit peccata mundi,
+                  (allelúja).
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Eis, Maria deu à luz o nosso
-                  Salvador, que João reconheceu e exclamou: eis o Cordeiro de
-                  Deus, Aquele que tira o pecado do mundo, (aleluia).
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Eis, Maria
+                  deu à luz o nosso Salvador, que João reconheceu e exclamou:
+                  eis o Cordeiro de Deus, Aquele que tira o pecado do mundo,
+                  (aleluia).
                 </Text>
               </View>
 
@@ -828,19 +857,20 @@ export default function PageLaudes() {
               <Text className="em">Is. 11, 1-2</Text>
 
               <View className="side-by-side">
-                <Text className="text-base">
+                <Text className="text-base latin">
                   Egredietur virga de radice Jesse, et flos de radice ejus
                   ascendet. Et requiescet super eum Spiritus Domini.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   Sairá uma vara da raiz de Jessé, e subirá uma flor da sua
                   raiz, e descansará sobre ele o Espírito do Senhor.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Deo grátias.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Deo grátias.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Graças a Deus.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Graças a
+                  Deus.
                 </Text>
               </View>
 
@@ -849,31 +879,31 @@ export default function PageLaudes() {
               <OGloriosaVirginum />
 
               <View className="side-by-side">
-                <Text className="text-base">
+                <Text className="text-base latin">
                   ℣. Benedicta tu in mulieribus.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. Bendita sois vós entre as mulheres.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Et benedicta fructus
-                  ventris tui.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Et benedicta
+                  fructus ventris tui.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> E bendito é o fruto
-                  do vosso ventre.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> E bendito é o
+                  fruto do vosso ventre.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Mirabile mysterium declaratur
-                  hodie: innovantur naturæ, Deus homo factus est: id quod fuit
-                  permansit, et quod non erat assumpsit; non commixtionem
-                  passus, neque divisionem.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Mirabile
+                  mysterium declaratur hodie: innovantur naturæ, Deus homo
+                  factus est: id quod fuit permansit, et quod non erat
+                  assumpsit; non commixtionem passus, neque divisionem.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Hoje se manifesta um
-                  admirável mystério: renovam-se as naturezas; Deus faz-se
-                  homem: ficando o que era, tomando o que não era, sem permitir
-                  divisão nem mistura.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Hoje se
+                  manifesta um admirável mystério: renovam-se as naturezas; Deus
+                  faz-se homem: ficando o que era, tomando o que não era, sem
+                  permitir divisão nem mistura.
                 </Text>
               </View>
 
@@ -882,39 +912,39 @@ export default function PageLaudes() {
               <Benedictus />
 
               <View className="side-by-side">
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Mirabile mysterium declaratur
-                  hodie: innovantur naturæ, Deus homo factus est: id quod fuit
-                  permansit, et quod non erat assumpsit; non commixtionem
-                  passus, neque divisionem.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Ant.</Text> Mirabile
+                  mysterium declaratur hodie: innovantur naturæ, Deus homo
+                  factus est: id quod fuit permansit, et quod non erat
+                  assumpsit; non commixtionem passus, neque divisionem.
                 </Text>
-                <Text className="text-base">
-                  <Text className="em">Ant.</Text> Hoje se manifesta um
-                  admirável mystério: renovam-se as naturezas; Deus faz-se
-                  homem: ficando o que era, tomando o que não era, sem permitir
-                  divisão nem mistura.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Ant.</Text> Hoje se
+                  manifesta um admirável mystério: renovam-se as naturezas; Deus
+                  faz-se homem: ficando o que era, tomando o que não era, sem
+                  permitir divisão nem mistura.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   ℣. Domine, exaudi orationem meam.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
-                  veniat.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
+                  te veniat.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
-                  até Vós.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> E o meu
+                  clamor chegue até Vós.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500 text-center">Orémus.</Text>
+                <Text className="text-base latin">
+                  <Text className="text-base latin">Orémus.</Text>
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500 text-center">Oremos.</Text>
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">Oremos.</Text>
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   Deus, qui salutis æternæ, beatæ Mariæ virginitate fœcunda,
                   humano generi præmia præstitisti: tribue, quǽsumus; ut ipsam
                   pro nobis intercedere sentiamus, per quam meruimus auctorem
@@ -922,7 +952,7 @@ export default function PageLaudes() {
                   Qui tecum vivit et regnat in unitate Spiritus Sancti, Deus,
                   per omnia sæcula sæculorum.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   Ó Deus, que pela virgindade fecunda da bem-aventurada Maria,
                   destes ao género humano as gratificações da salvação eterna:
                   concedei-nos, Vos rogamos, que experienciemos sua intercessão
@@ -930,82 +960,91 @@ export default function PageLaudes() {
                   Senhor Jesus Cristo, vosso Filho. Que convosco, e com o
                   Espírito Santo, vive e reina por todos os séculos.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Amen.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base latin">
                   ℣. Domine, exaudi orationem meam.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
-                  veniat.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
+                  te veniat.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
-                  até Vós.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> E o meu
+                  clamor chegue até Vós.
                 </Text>
-                <Text className="text-base">℣. Benedicamus Domino.</Text>
-                <Text className="text-base">℣. Bendigamos o Senhor.</Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Deo gratias.
+                <Text className="text-base latin">℣. Benedicamus Domino.</Text>
+                <Text className="text-base vernacular">
+                  ℣. Bendigamos o Senhor.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Graças a Deus.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Deo gratias.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Graças a
+                  Deus.
+                </Text>
+                <Text className="text-base latin">
                   ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
                 </Text>
-                <Text className="text-base">
+                <Text className="text-base vernacular">
                   ℣. E que as almas dos fiéis, pela misericórdia de Deus,
                   descansem em paz.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base latin">
+                  <Text className="text-base latin">℟.</Text> Amen.
                 </Text>
-                <Text className="text-base">
-                  <Text className="text-red-500">℟.</Text> Amen.
+                <Text className="text-base vernacular">
+                  <Text className="text-base vernacular">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
           </Tabs>
 
           <View className="side-by-side">
-            <Text className="text-base">℣. Domine, exaudi orationem meam.</Text>
-            <Text className="text-base">℣. Ouvi, Senhor, a minha oração.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+            <Text className="text-base latin">
+              ℣. Domine, exaudi orationem meam.
+            </Text>
+            <Text className="text-base vernacular">
+              ℣. Ouvi, Senhor, a minha oração.
+            </Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
               veniat.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E o meu clamor chegue até
-              Vós.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E o meu clamor
+              chegue até Vós.
             </Text>
-            <Text className="text-base">℣. Benedicamus Domino.</Text>
-            <Text className="text-base">℣. Bendigamos o Senhor.</Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Deo gratias.
+            <Text className="text-base latin">℣. Benedicamus Domino.</Text>
+            <Text className="text-base vernacular">
+              ℣. Bendigamos o Senhor.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Graças a Deus.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Deo gratias.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Graças a Deus.
+            </Text>
+            <Text className="text-base latin">
               ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. E que as almas dos fiéis, pela misericórdia de Deus, descansem
               em paz.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
 

@@ -15,28 +15,29 @@ export default function PageQuad52() {
           <Text className="em">Sl. 26, 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exspécta Dóminum, viríliter age: et confortétur cor tuum, et
-              sústine Dóminum. <Text className="em">Ps. ibid., 1</Text> Dóminus
+              sústine Dóminum.{" "}
+              <Text className="text-base latin">Ps. ibid., 1</Text> Dóminus
               illuminátio mea et salus mea: quem timebo?
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Esperai no Senhor; procedei com firmeza e o vosso coração será
               confortado. Esperai, pois, no Senhor.{" "}
-              <Text className="em">Sl. ibid., 1</Text> O Senhor é a minha luz e
-              salvação. A quem hei-de temer?
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> O
+              Senhor é a minha luz e salvação. A quem hei-de temer?
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Nostra tibi, Dómine, quǽsumus, sint accepta jejúnia: quæ nos et
               expiándo grátia tua dignos effíciant; et ad remédia perdúcant
               ætérna. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos rogamos, Senhor, permiti que os nossos jejuns Vos sejam
               agradáveis, a fim de que, servindo de expiação das nossas faltas,
               nos tornem dignos da vossa graça e nos sirvam de remédio para
@@ -49,9 +50,11 @@ export default function PageQuad52() {
           <Text className="em">Dn. 14, 27 & 28-42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Daniélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Daniel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Daniélis Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Daniel.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Congregáti sunt Babylónii ad regem, et dixérunt
               ei: Trade nobis Daniélem, qui Bel destrúxit et dracónem
               interfecit, alioquin interficiémus te et domum tuam. Vidit ergo
@@ -80,7 +83,7 @@ export default function PageQuad52() {
               salvátor, fáciens signa et mirabília in terra: qui liberávit
               Daniélem de lacu leónum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, reuniram-se os babilónios, foram ao rei e
               disseram-lhe: «Entrega-nos Daniel, que destruiu Bel e matou o
               dragão; senão matar-te-emos a ti e à tua família». Vendo o rei que
@@ -119,12 +122,12 @@ export default function PageQuad52() {
           <Text className="em">Sl. 42, 1 & 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Discérne causam meam, Dómine: ab homine iníquo et dolóso éripe me.
               ℣. Emítte lucem tuam et veritátem tuam: ipsa me deduxérunt, et
               adduxérunt in montem sanctum tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Defendei a minha causa, Senhor: livrai-me do homem iníquo e
               fraudulento. ℣. Que resplandeça em mim a vossa luz e a vossa
               verdade: e elas me conduzirão e guiarão até ao monte sagrado.
@@ -136,15 +139,15 @@ export default function PageQuad52() {
           <Text className="em">Jo. 7, 1-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Ambulábat Jesus in Galilǽam, non enim volébat in
               Judǽam ambuláre, quia quærébant eum Judǽi interfícere. Erat autem
               in próximo dies festus Judæórum, Scenopégia. Dixérunt autem ad eum
@@ -165,7 +168,7 @@ export default function PageQuad52() {
               sed sedúcit turbas. Nemo tamen palam loquebátur de illo, propter
               metum Judæórum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, andava Jesus pela Galileia e já não queria ir à
               Judeia, porque os judeus intentavam matá-lo. Estava já próximo o
               dia da festa dos tabernáculos. Disseram-Lhe, então, os seus
@@ -193,12 +196,12 @@ export default function PageQuad52() {
           <Text className="em">Sl. 9, 11-12 & 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non
               derelínquis quæréntes te: psállite Dómino, qui habitat in Sion:
               quóniam non est oblítus oratiónes páuperum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que todos aqueles que conhecem o vosso nome, Senhor, confiem em
               Vós, porque não abandonais os que Vos procuram. Cantai hinos ao
               Senhor que habita em Sião: pois não esquecerá as orações dos
@@ -209,12 +212,12 @@ export default function PageQuad52() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Hóstias tibi, Dómine, deférimus immolándas: quæ temporálem
               consolatiónem signíficent; ut promíssa non desperémus ætérna. Per
               Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, que estas hóstias, que imolamos e oferecemos em vosso
               louvor, nos façam sentir consolação temporal, a fim de não
               perdermos a esperança das promessas eternas. Por nosso Senhor...
@@ -226,10 +229,10 @@ export default function PageQuad52() {
           <Text className="em">Sl. 24, 22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Rédime me, Deus Israël, ex ómnibus angústiis meis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Livrai-me, ó Deus de Israel, de todas minhas angústias.
             </Text>
           </View>
@@ -237,12 +240,12 @@ export default function PageQuad52() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da, quǽsumus, omnípotens Deus: ut, quæ divína sunt, jugiter
               exsequéntes, donis mereámur cœléstibus propinquáre. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus omnipotente, Vos pedimos, fazei que, recebendo nós
               incessantemente os divinos mystérios, mereçamos alcançar os bens
               celestiais. Por nosso Senhor...
@@ -252,22 +255,24 @@ export default function PageQuad52() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da nobis, quǽsumus, Dómine: perseverántem in tua voluntáte
               famulátum; ut in diébus nostris, et mérito et número, pópulus tibi
               sérviens augeátur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos suplicamos, Senhor, concedei-nos a graça da perseverança no
               cumprimento da vossa vontade, para que em nossos dias o povo, que
               Vos serve, cresça em número e em merecimentos. Por nosso Senhor...

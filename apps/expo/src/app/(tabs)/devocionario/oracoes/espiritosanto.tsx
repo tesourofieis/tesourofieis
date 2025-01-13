@@ -11,115 +11,115 @@ export default function PageEspiritosanto() {
           <Text className="h1">Espírito Santo</Text>
           <Text className="h2">Veni, Sancte Spíritus</Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, ó Espírito Santo, enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               ℣. Emitte Spíritum tuum, et creabúntur.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               ℣. Enviai o vosso Espírito e tudo será criado.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> Et renovábis faciem
+            <Text className="text-base latin">
+              <Text className="text-base latin">℟.</Text> Et renovábis faciem
               terræ.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500">℟.</Text> E renovareis a face da
-              terra.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">℟.</Text> E renovareis a
+              face da terra.
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui corda fidélium Sancti Spíritus illustratióne docuísti,
               da nobis in eódem Spíritu recta sápere; et de ejus semper consola
               Tione gaudére. Per Christum Dóminum nostrum.{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base latin">℟.</Text> Amen.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que haveis instruído os corações dos vossos fiéis com a
               luz do Espírito Santo, concedei-nos, segundo o mesmo Espírito,
               conhecer as coisas rectas e gozar sempre das suas divinas
               consolações. Por Cristo, Senhor Nosso.{" "}
-              <Text className="text-red-500">℟.</Text> Amen.
+              <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">
             Veni Sancte Spíritus, Sequência Pentecostes
           </Text>
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Veni, Sancte Spíritus, et emítte cǽlitus lucis tuæ rádium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, ó Espírito Santo, e enviai do céu um raio da vossa luz.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Veni, pater páuperum, veni, dator múnerum, veni, lumen córdium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vinde, ó pai dos pobres; vinde, doador dos dons, vinde, luz dos
               corações.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Consolátor óptime, dulcis hospes ánimæ, dulce re­fri­gérium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Consolador supremo, doce hóspede da alma, doce refresco.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In labóre réquies, in æstu tempéries, in fletu solácium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               No labor sois repouso, calma no ardor e consolação no pranto.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               O lux beatíssima, reple cordis íntima tuórum fidélium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó beatíssima luz, enchei o íntimo os corações dos vossos fiéis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sine tuo númine, nihil est in hómine, nihil est innóxium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sem a vossa assistência nada há bom no homem, nada de inocente.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Lava quod est sórdidum, riga quod est áridum, sana quod est
               sáucium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lavai, pois, o que está sujo, regai o que está seco, curai o que
               está doente.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Flecte quod est rígidum, fove quod est frígidum, rege quod est
               dévium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dobrai o que é rígido, aquecei o que está frio, guiai o que está
               errante.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da tuis fidélibus, in te con­fi­dén­tibus, sacrum sep­te­nárium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dai aos fiéis, que em Vós confiam, os sete dons sagrados.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da virtútis méritum, da salútis éxitum, da perénne gáudium.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Dai o mérito da virtude, dai um fim feliz, dai a perene alegria.
             </Text>
           </View>

@@ -49,23 +49,24 @@ export default function Page0721() {
           <Text className="em">Sl. 44, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dilexísti justítiam, et odísti iniquitátem. ℣. Proptérea unxit te
               Deus, Deus tuus, óleo lætítiæ.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Amastes a justiça e odiastes a iniquidade. ℣. Pelo que o Senhor,
               vosso Deus, vos ungiu com o óleo da alegria.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. ℣. <Text className="em">ibid., 5</Text> Spécie
-              tua et pulchritúdine tua inténde, próspere procéde et regna.
-              Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">ibid., 5</Text> Spécie tua et
+              pulchritúdine tua inténde, próspere procéde et regna. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. ℣. <Text className="em">ibid., 5</Text>{" "}
-              Caminhai, pois, com beleza e com majestade; ide gozar a glória e
-              reinai. Aleluia.
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">ibid., 5</Text> Caminhai,
+              pois, com beleza e com majestade; ide gozar a glória e reinai.
+              Aleluia.
             </Text>
           </View>
         </View>

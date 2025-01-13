@@ -24,12 +24,12 @@ export default function Page0425() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui beátum Marcum Evangelístam tuum evangélicæ prædicatiónis
               grátia sublimásti: tríbue, quǽsumus; ejus nos semper et eruditióne
               profícere et oratióne deféndi. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que glorificastes o Beato Marcos, vosso Evangelista,
               elevando-o à dignidade de pregador do vosso Evangelho,
               concedei-nos a graça, Vos suplicamos, de aproveitarmos sempre os
@@ -43,9 +43,11 @@ export default function Page0425() {
           <Text className="em">Ez. 1, 10-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Ezechiélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Ezequiel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Ezechiélis Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Ezequiel.
+            </Text>
+            <Text className="text-base latin">
               Similitúdo vultus quátuor animálium: fácies hóminis, et fácies
               leónis a dextris ipsórum quatuor: fácies autem bovis a sinístris
               ipsórum quátuor, et fácies áquilæ désuper ipsórum quátuor. Fácies
@@ -58,7 +60,7 @@ export default function Page0425() {
               splendor ignis, et de igne fulgur egrédiens. Et animália ibant et
               revertebántur in similitúdinem fúlguris coruscántis.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Eis a semelhança do rosto dos quatro seres animados: Tinham todos
               os quatro uma face de homem; todos os quatro à direita uma face de
               leão; todos os quatro à esquerda uma face de touro; e todos os
@@ -83,13 +85,13 @@ export default function Page0425() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Beáti Marci Evangelístæ tui sollemnitáte tibi múnera deferéntes,
               quǽsumus, Dómine: ut, sicut illum prædicátio evangélica fecit
               gloriósum: ita nos ejus intercéssio et verbo et ópere tibi reddat
               accéptos. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Oferecendo-Vos estes dons na solenidade do B. Marcos, vosso
               Evangelista, Vos rogamos, Senhor, que, assim como a pregação do
               Evangelho tornou o seu nome glorioso, assim também a sua
@@ -101,12 +103,12 @@ export default function Page0425() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tríbuant nobis, quǽsumus, Dómine, contínuum tua sancta præsídium:
               quo, beáti Marci evangelístæ tui précibus, nos ab ómnibus semper
               tueántur advérsis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Vos imploramos, Senhor, que os vossos sacrossantos mystérios nos
               sirvam de contínua protecção, e que pelas preces do B. Marcos,
               vosso Evangelista, nos defendam de todas as adversidades. Por

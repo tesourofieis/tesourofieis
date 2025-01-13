@@ -37,9 +37,9 @@ export default function Page0721Portugal() {
           e livrou-os de todas suas tribulações. Aleluia, aleluia. Adorai o
           Senhor, ó vós, todos seus Anjos; porque o Senhor guarda as vidas dos
           seus servos e salva-os das mãos dos pecadores.
-          <View className="aside">
+          <Text className="aside">
             No Tempo Pascal, omite-se o Gradual e diz-se:
-          </View>
+          </Text>
           Aleluia, aleluia. Diante dos Anjos cantarei Salmos em vosso louvor;
           adorar-Vos-ei no vosso Templo Sagrado e louvarei o vosso nome.
           Aleluia. O Anjo do Senhor desceu do céu, e, aproximando-se, revolveu a

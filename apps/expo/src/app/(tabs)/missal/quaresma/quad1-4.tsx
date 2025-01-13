@@ -17,30 +17,31 @@ export default function PageQuad14() {
           <Text className="em">Sl. 95, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Conféssio et pulchritúdo in conspéctu ejus: sánctitas et
               magnificéntia in sanctificatióne eius.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Cantáte Dómino cánticum
-              novum: cantáte Dómino, omnis terra. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Cantáte
+              Dómino cánticum novum: cantáte Dómino, omnis terra. ℣. Gloria
+              Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               A glória e a majestade estão na sua presença; a santidade e a
               magnificência brilham no seu santuário.{" "}
-              <Text className="em">Sl. ibid., 1</Text> Cantai ao Senhor um
-              cântico novo; cantai em honra do Senhor, ó povos de toda a terra.
-              ℣. Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> Cantai
+              ao Senhor um cântico novo; cantai em honra do Senhor, ó povos de
+              toda a terra. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui
               per abstinéntiam macerántur in córpore, per fructum boni óperis
               reficiántur in mente. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Olhai benigno, Senhor, Vos suplicamos, para a piedade do vosso
               povo, a fim de que aqueles que mortificam o corpo com a
               abstinência sejam enriquecidos na alma com os frutos das boas
@@ -53,9 +54,11 @@ export default function PageQuad14() {
           <Text className="em">Ez. 18, 1-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Ezechiélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Ezequiel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Ezechiélis Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Ezequiel.
+            </Text>
+            <Text className="text-base latin">
               In diébus illis: Factus est sermo Dómini ad me, dicens: Quid est,
               quod inter vos parábolam vértitis in provérbium istud in terra
               Israël, dicéntes: Patres comedérunt uvam acérbam, et dentes
@@ -74,7 +77,7 @@ export default function PageQuad14() {
               custodíerit, ut fáciat veritátem: hic justus est, vita vivet, ait
               Dóminus omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naqueles dias, a palavra do Senhor foi-me dirigida, dizendo:
               «Porque é que entre vós se repete este provérbio e o aplicais às
               terras de Israel: «Os pais comeram as uvas verdes e os dentes dos
@@ -101,12 +104,12 @@ export default function PageQuad14() {
           <Text className="em">Sl. 16, 8 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum
               prótege me. ℣. De vultu tuo judícium meum pródeat: óculi tui
               vídeant æquitátem.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Guardai-me, Senhor, como à pupila dos vossos olhos; protegei-me
               com a sombra das vossas asas. ℣. Que meu julgamento seja
               pronunciado diante de Vós; que os vossos olhos vejam a equidade da
@@ -119,15 +122,15 @@ export default function PageQuad14() {
           <Text className="em">Mt. 15, 21-28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Egréssus Jesus secéssit in partes Tyri et
               Sidónis. Et ecce, múlier Chananǽa a fínibus illis egréssa
               clamávit, dicens ei: Miserére mei, Dómine, fili David: fília mea
@@ -142,7 +145,7 @@ export default function PageQuad14() {
               est fides tua: fiat tibi, sicut vis. Et sanáta est fília ejus ex
               illa hora.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, partindo Jesus, retirou-se dos lados de Tiro e de
               Sidónia. E eis que uma mulher cananeia, vinda daquelas paragens,
               clamou a Jesus, dizendo: «Senhor, filho de David, tende piedade de
@@ -165,11 +168,11 @@ export default function PageQuad14() {
           <Text className="em">Sl. 33, 8-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Immíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos:
               gustáte, et vidéte, quóniam suávis est Dóminus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Anjo do Senhor rodeia aqueles que o temem e salvá-los-á.
               Examinai e vede como o Senhor é bom!
             </Text>
@@ -178,11 +181,11 @@ export default function PageQuad14() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrifícia, Dómine, quǽsumus, propénsius ista nos salvent, quæ
               medicinálibus sunt institúta jejúniis. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, Vos suplicamos, permiti que estes sacrifícios, que foram
               instituídos juntamente com jejuns salutares, nos salvem pela vossa
               misericórdia. Por nosso Senhor...
@@ -194,10 +197,10 @@ export default function PageQuad14() {
           <Text className="em">Jo. 6, 52</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Panis, quem ego dédero, caro mea est pro sǽculi vita.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O pão que eu Vos der é a minha carne para a salvação do mundo.
             </Text>
           </View>
@@ -205,11 +208,11 @@ export default function PageQuad14() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Tuórum nos, Dómine, largitáte donórum, et temporálibus attólle
               præsídiis, et rénova sempitérnis. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Com a liberalidade de vossos dons, Senhor, livrai-nos das prisões
               temporais e renovai-nos para a eternidade. Por nosso Senhor...
             </Text>
@@ -218,22 +221,24 @@ export default function PageQuad14() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Orémus.</Text>
+            <Text className="text-base latin">
+              <Text className="text-base latin">Orémus.</Text>
             </Text>
-            <Text className="text-base">
-              <Text className="text-red-500 text-center">Oremos.</Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Da, quǽsumus, Dómine, pópulis christiánis: et, quæ profiténtur,
               agnóscere, et cœléste munus dilígere, quod frequéntant. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, concedei aos fiéis cristãos, Vos suplicamos, a graça de
               conhecerem a dignidade da fé, que professam, e de amarem o dom
               celestial, que muitas vezes recebem. Por nosso Senhor...

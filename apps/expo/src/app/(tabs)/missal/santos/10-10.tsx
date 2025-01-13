@@ -23,13 +23,13 @@ export default function Page1010() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dómine Jesu Christe, veræ humilitátis et exémplar et prǽmium:
               quǽsumus; ut, sicut beátum Francíscum in terréni honóris contémptu
               imitatórem tui gloriósum effecísti, ita nos ejúsdem imitatiónis et
               glóriæ tríbuas esse consórtes: Qui vivis...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor Jesus Cristo, prémio e modelo da verdadeira humildade,
               concedei-nos, Vos rogamos, que, assim como permitistes que o B.
               Francisco se tornasse vosso glorioso imitador no desprezo das

@@ -18,30 +18,30 @@ export default function PageQuad16() {
           <Text className="em">Sl. 24, 17 & 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
               labórem meum, et dimítte ómnia peccáta mea.{" "}
-              <Text className="em">Ps. ibid., 1-2</Text> Ad te, Dómine, levávi
-              ánimam meam: Deus meus, in te confído, non erubéscam. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. ibid., 1-2</Text> Ad te,
+              Dómine, levávi ánimam meam: Deus meus, in te confído, non
+              erubéscam. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Livrai-me, Senhor, das minhas tribulações; vede a minha humilhação
               e as minhas penas e perdoai-me todos meus pecados.{" "}
-              <Text className="em">Sl. ibid., 1-2</Text> A Vós, Senhor, elevo a
-              minha alma: meu Deus, em Vós confio: não esperarei em vão. ℣.
-              Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1-2</Text> A
+              Vós, Senhor, elevo a minha alma: meu Deus, em Vós confio: não
+              esperarei em vão. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Esto, Dómine, propítius plebi tuæ: et, quam tibi facis esse
               devótam, benígno réfove miserátus auxílio. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Sede propício ao vosso povo, Senhor; e, visto que lhe concedestes
               a graça da devoção para convosco, auxiliai-o agora benignamente
               com vossa misericórdia. Por nosso Senhor...
@@ -53,9 +53,11 @@ export default function PageQuad16() {
           <Text className="em">Ez. 18, 20-28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio Ezechiélis Prophétæ.</Text>
-            <Text className="text-base">Lição do Profeta Ezequiel.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio Ezechiélis Prophétæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Profeta Ezequiel.
+            </Text>
+            <Text className="text-base latin">
               Hæc dicit Dóminus Deus: Anima, quae peccáverit, ipsa moriétur:
               fílius non portábit iniquitátem patris, et pater non portábit
               iniquitátem fílii: justítia justi super eum erit, et impíetas
@@ -80,7 +82,7 @@ export default function PageQuad16() {
               iniquitátibus suis, quas operátus est, vita vivet, et non
               moriétur, ait Dóminus omnípotens.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Isto diz o Senhor Deus: «A alma que pecar morrerá. O filho não
               levará consigo a maldade do pai, e o pai não ficará com a maldade
               do filho. A justiça do justo irá com ele, e a impiedade do iníquo
@@ -113,11 +115,11 @@ export default function PageQuad16() {
           <Text className="em">Sl. 85, 2 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Salvum fac servum tuum. Deus meus, sperántem in te. ℣. Auribus
               pércipe, Dómine, oratiónem meam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Salvai, ó meu Deus, o vosso servo, pois em Vós pôs a sua
               esperança. Escutai a minha oração, Senhor!
             </Text>
@@ -135,15 +137,15 @@ export default function PageQuad16() {
           <Text className="em">Jo. 5, 1-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Joánnem.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. João.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Erat dies festus Judæórum, et ascéndit Jesus
               Jerosólymam. Est autem Jerosólymis Probática piscína, quæ
               cognominátur hebráice Bethsáida, quinque pórticus habens. In his
@@ -170,7 +172,7 @@ export default function PageQuad16() {
               detérius tibi áliquid contíngat. Abiit ille homo, et nuntiávit
               Judǽis, quia Jesus esset, qui fecit eum sanum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, sendo o dia da festa dos judeus, Jesus subiu até
               Jerusalém. Ora há perto de Jerusalém uma piscina que se chama em
               hebreu Betsaida e tem cinco alpendres, debaixo dos quais costumava
@@ -204,11 +206,11 @@ export default function PageQuad16() {
           <Text className="em">Sl. 102, 2 & 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Bénedic, anima mea, Dómino, et noli oblivísci omnes retributiónes
               ejus: et renovábitur, sicut áquilæ, juvéntus tua.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Bendizei o Senhor, ó minha alma, e não esqueçais nunca os seus
               benefícios; e a vossa juventude se renovará, como a da águia.
             </Text>
@@ -217,11 +219,11 @@ export default function PageQuad16() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súscipe, quǽsumus, Dómine, múnera nostris obláta servítiis: et tua
               propítius dona sanctífica. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aceitai, Senhor, Vos suplicamos, as oblatas que a nossa escravidão
               Vos apresenta, e, propício, dignai-Vos santificar estes dons que
               de Vós recebemos. Por nosso Senhor...
@@ -233,11 +235,11 @@ export default function PageQuad16() {
           <Text className="em">Sl. 6, 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Erubéscant et conturbéntur omnes inimíci mei: avertántur
               retrórsum, et erubéscant valde velóciter.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Envergonhem-se e perturbem-se todos meus inimigos; apressem-se em
               fugir, cheios de vergonha.
             </Text>
@@ -246,11 +248,11 @@ export default function PageQuad16() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Per hujus, Dómine, operatiónem mystérii, et vítia nostra
               purgéntur, et justa desidéria compleántur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que por efeito deste mystério, Senhor, os nossos vícios
               desapareçam e sejam realizados os nossos justos desejos. Por nosso
               Senhor...
@@ -260,15 +262,17 @@ export default function PageQuad16() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Humiliáte cápita vestra Deo.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
+              Humiliáte cápita vestra Deo.
+            </Text>
+            <Text className="text-base vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Exáudi nos, miséricors Deus: et méntibus nostris grátiæ tuæ lumen
               osténde. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus de misericórdia, ouvi-nos; e mostrai às nossas almas a luz
               da vossa graça. Por nosso Senhor...
             </Text>

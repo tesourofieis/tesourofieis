@@ -22,15 +22,15 @@ export default function Page0920() {
           <Text className="em">Lc. 5, 27-32</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Lucam.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Lucas.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Vidit Jesus publicánum nómine Levi, sedéntemad
               telónium, et ait illi: Séquere me. Et relíctis ómnibus, surgens
               secútus est eum. Et fecit ei convívium magnum Levi in domo sua: et
@@ -41,7 +41,7 @@ export default function Page0920() {
               sani sunt médico, sed qui male habent. Non veni vocáre justus sed
               peccatóres ad pæniténtiam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, Jesus viu um publicano, chamado Levi, assentado ao
               telónio, e disse-lhe: «Segue-me!». Ele, deixando tudo, levantou-se
               e seguiu-O. Ora Levi ofereceu-Lhe um grande banquete em sua casa,

@@ -16,7 +16,7 @@ export default function PageQuaresma() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: Qui corporáli jejúnio vitia cómprimis, mentem élevas,
@@ -26,7 +26,7 @@ export default function PageQuaresma() {
               exsultatióne concélebrant. Cum quibus et nostras voces ut admítti
               júbeas, deprecámur, súpplici confessióne dicéntes:
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Verdadeiramente é digno e justo, racional e salutar dar-Vos graças
               em todos os lugares e sempre, Senhor santo, Pai omnipotente,
               eterno Deus, pois Vós, pelo jejum natural, reprimis os vícios,

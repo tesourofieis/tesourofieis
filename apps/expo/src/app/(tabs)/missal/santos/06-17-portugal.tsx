@@ -16,26 +16,26 @@ export default function Page0617Portugal() {
           <Text className="em">Sl. 44, 15-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Adducéntur Regi Vírgines post eam, próximæ ejus afferéntur in
               lætitia et exsultatióne: adducéntur in templum Regis Dómini.{" "}
-              <Text className="em">Ps. ibid., 2</Text> Eructávit cor meum verbum
-              bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
+              <Text className="text-base latin">Ps. ibid., 2</Text> Eructávit
+              cor meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               As virgens serão apresentadas ao Rei após ela: as suas
               companheiras serão conduzidas em transportes de alegria e de
               júbilo: serão apresentadas ao Senhor no templo do Rei.{" "}
-              <Text className="em">Sl. ibid., 2</Text> Meu coração proferiu uma
-              excelente palavra: «Consagro ao Rei as minhas obras». ℣. Glória ao
-              Pai...
+              <Text className="text-base vernacular">Sl. ibid., 2</Text> Meu
+              coração proferiu uma excelente palavra: «Consagro ao Rei as minhas
+              obras». ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui ad Ecclésiam tuam novis semper exémplis imbuéndam,
               beátam Terésiam, mundáno principátu despécto, ad humilitátis tuæ
               sectánda vestigia toto corde transire fecísti: concéde; ut ipsíus
@@ -43,7 +43,7 @@ export default function Page0617Portugal() {
               in ampléxu tuæ crucis ómnia nobis adversántia superáre: Qui vivis
               et regnas...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que, para instruir a vossa Igreja com exemplos sempre
               novos, fizestes que a B. Teresa, desprezando a realeza deste
               mundo, seguisse com todo seu coração os exemplos da vossa
@@ -59,9 +59,11 @@ export default function Page0617Portugal() {
           <Text className="em">Ct. 2, 8-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base">Lição do Livro da Sabedoria.</Text>
-            <Text className="text-base">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
               Vox dilécti mei: ecce, iste venit sáliens in móntibus, transíliens
               colles; símilis est diléctus meus cápreæ hinnulóque cervórum. En,
               ipse stat post paríetem nostrum, respíciens per fenéstras,
@@ -75,7 +77,7 @@ export default function Page0617Portugal() {
               fáciem tuam, sonet vox tua in áuribus meis: vox enim tua dulcis et
               fácies tua decóra.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aquela é a voz do meu amado: eis que ele vem, galgando montes e
               transpondo outeiros! Meu amado é semelhante ao gamo e ao filho das
               corças. Eis que ele vem por detrás da nossa parede, olhando pelas
@@ -97,26 +99,29 @@ export default function Page0617Portugal() {
           <Text className="em">Sl. 115, 16-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Dirupísti víncula mea: tibi sacrificábo hóstiam laudis, et nomen
-              Dómini invocábo. ℣. <Text className="em">Ps. ibid., 18-19</Text>{" "}
-              Vota mea Dómino reddam in conspéctu omnis pópuli ejus, in átriis
-              domus Dómini.
+              Dómini invocábo. ℣.{" "}
+              <Text className="text-base latin">Ps. ibid., 18-19</Text> Vota mea
+              Dómino reddam in conspéctu omnis pópuli ejus, in átriis domus
+              Dómini.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Quebrastes as minhas cadeias, ó meu Deus! Eu Vos oferecerei, pois,
               um sacrifício d e louvor e invocarei o nome do Senhor. ℣.{" "}
-              <Text className="em">Sl. ibid., 18-19</Text> Oferecerei os meus
-              votos ao Senhor na presença de todo seu povo e nos átrios da casa
-              do Senhor.
+              <Text className="text-base vernacular">Sl. ibid., 18-19</Text>{" "}
+              Oferecerei os meus votos ao Senhor na presença de todo seu povo e
+              nos átrios da casa do Senhor.
             </Text>
-            <Text className="text-base">
-              Allelúja, allelúja. <Text className="em">Cant. 2, 3</Text> Sub
-              umbra illíus, quem desideráveram, sedi: et fructus ejus dulcis
-              gúturi mea. Allelúja.
+            <Text className="text-base latin">
+              Allelúja, allelúja.{" "}
+              <Text className="text-base latin">Cant. 2, 3</Text> Sub umbra
+              illíus, quem desideráveram, sedi: et fructus ejus dulcis gúturi
+              mea. Allelúja.
             </Text>
-            <Text className="text-base">
-              Aleluia, aleluia. <Text className="em">Ct. 2, 3</Text> Sentei-me à
+            <Text className="text-base vernacular">
+              Aleluia, aleluia.{" "}
+              <Text className="text-base vernacular">Ct. 2, 3</Text> Sentei-me à
               sombra daquele que eu desejara e o seu fruto é muito saboroso ao
               meu paladar. Aleluia.
             </Text>
@@ -132,11 +137,11 @@ export default function Page0617Portugal() {
           <Text className="h3">Ofertório</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vultum tuum deprecabúntur omnes dívites plebis: filiæ regum in
               honóre tuo.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Todos os poderosos do povo implorarão o seu rosto: as filhas dos
               reis honrar-vos-ão.
             </Text>
@@ -145,12 +150,12 @@ export default function Page0617Portugal() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Súscipe, Dómine, sacrifícium, cujus te voluísti dignánter
               immolatióne placári: et præsta, ut beátæ Terésiæ intercessióne
               nobis profíciat ad salútem. Per Dominum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Recebei, Senhor, este sacrifício com a imolação do qual quisestes
               ser dignamente aplacado; e concedei-nos que pela intercessão da B.
               Teresa seja proveitoso à nossa salvação. Por nosso Senhor...
@@ -162,11 +167,11 @@ export default function Page0617Portugal() {
           <Text className="em">Ct. 6, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Vidérunt eam fíliæ, et beatíssimam prædicavérunt; reginæ, et
               laudavérunt eam.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               As filhas (de Sião) viram-na e proclamaram-na bem-aventurada: e as
               rainhas louvaram-na.
             </Text>
@@ -175,12 +180,12 @@ export default function Page0617Portugal() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Ascéndant ad te, Dómine, preces nostræ, Beatæ Terésiæ
               suffragántibus méritis: ut cæléstibus dápibus temporáliter
               recreáti, ætérni convívii dulcédine perfruámur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Subam até Vós, Senhor, as nossas preces, e pelos sufrágios e
               méritos da B. Teresa permiti que, assim como neste mundo nos
               alegramos com a posse das riquezas celestiais, assim também

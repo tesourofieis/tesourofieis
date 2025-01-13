@@ -15,31 +15,31 @@ export default function PageQuad10() {
           <Text className="em">Sl. 90, 15 & 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Invocábit me, et ego exáudiam eum: erípiam eum, et glorificábo
               eum: longitúdine diérum adimplébo eum.{" "}
-              <Text className="em">Ps. ibid., 1</Text> Qui hábitat in adjutório
-              Altíssimi, in protectióne Dei cœli commorábitur. ℣. Gloria
-              Patri...
+              <Text className="text-base latin">Ps. ibid., 1</Text> Qui hábitat
+              in adjutório Altíssimi, in protectióne Dei cœli commorábitur. ℣.
+              Gloria Patri...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Invocar-me-á, e ouvi-lo-ei: livrá-lo-ei, e glorificá-lo-ei:
               conceder-lhe-ei longa vida.{" "}
-              <Text className="em">Sl. ibid., 1</Text> Aquele que habita à
-              sombra do Altíssimo descansará sob a protecção de Deus do céu. ℣.
-              Glória ao Pai...
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> Aquele
+              que habita à sombra do Altíssimo descansará sob a protecção de
+              Deus do céu. ℣. Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Deus, qui Ecclésiam tuam ánnua quadragesimáli observatióne
               puríficas: præsta famíliæ tuæ; ut, quod a te obtinére abstinéndo
               nítitur, hoc bonis opéribus exsequátur. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Ó Deus, que purificais a vossa Igreja com a observância anual da
               quaresma, concedei à vossa família que o que ela deseja alcançar
               pela abstinência o pratique com suas boas obras. Por nosso
@@ -52,13 +52,13 @@ export default function PageQuad10() {
           <Text className="em">2 Cor. 6, 1-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               Fratres: Exhortámur vos, ne in vácuum grátiam Dei recipiátis. Ait
               enim: Témpore accépto exaudívi te, et in die salútis adjúvi te.
               Ecce, nunc tempus acceptábile, ecce, nunc dies salútis. Némini
@@ -76,7 +76,7 @@ export default function PageQuad10() {
               multos autem locupletántes: tamquam nihil habéntes et ómnia
               possidéntes.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Meus irmãos: Vos exortamos a que não recebais em vão a graça de
               Deus, pois Ele diz: «No tempo propício ouço-te, e no dia da
               salvação socorro-te». Eis, pois, agora o tempo propício; eis agora
@@ -103,12 +103,12 @@ export default function PageQuad10() {
           <Text className="em">Sl. 90,11-1 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
               tuis. ℣. In mánibus portábunt te, ne umquam offéndas ad lápidem
               pedem tuum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Deus ordenou aos seus Anjos que te guardassem em todos teus
               caminhos. ℣. Levar-te-ão nas suas mãos, para que não tropeces nas
               pedras.
@@ -120,7 +120,7 @@ export default function PageQuad10() {
           <Text className="em">ibid., 1-7 & 11-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui hábitat in adjutório Altíssimi, in protectióne Dei cœli
               commorántur. ℣. Dicet Dómino: Suscéptor meus es tu et refúgium
               meum: Deus meus, sperábo in eum. ℣. Quóniam ipse liberávit me de
@@ -138,7 +138,7 @@ export default function PageQuad10() {
               cum ipso sum in tribulatióne. ℣. Erípiam eum et glorificábo eum:
               longitúdine diérum adimplébo eum, et osténdam illi salutáre meum.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Aquele que habita à sombra do Altíssimo descansará sob a protecção
               de Deus do céu. ℣. Ele dirá ao Senhor: sois o meu protector e o
               meu refúgio; sois o meu Deus, em quem confio! ℣. Pois livrastes-me
@@ -164,15 +164,15 @@ export default function PageQuad10() {
           <Text className="em">Mt. 4, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Sequéntia sancti
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
               Evangélii secúndum Matthǽum.
             </Text>
-            <Text className="text-base">
-              <Text className="cross text-red-500">✠</Text> Continuação do santo
-              Evangelho segundo S. Mateus.
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base latin">
               In illo témpore: Ductus est Jesus in desértum a Spíritu, ut
               tentarétur a diábolo. Et cum jejunásset quadragínta diébus et
               quadragínta nóctibus, postea esúriit. Et accédens tentátor, dixit
@@ -191,7 +191,7 @@ export default function PageQuad10() {
               sérvies. Tunc relíquit eum diábolus: et ecce, Angeli accessérunt
               et ministrábant ei.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Naquele tempo, foi Jesus conduzido ao deserto pelo espírito, para
               ser tentado pelo demónio. E, havendo jejuado quarenta dias e
               quarenta noites, teve fome. Então o tentador aproximou-se de Jesus
@@ -218,11 +218,11 @@ export default function PageQuad10() {
           <Text className="em">Sl. 90, 4-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Scápulis suis obumbrábit tibi Dóminus, et sub pennis ejus
               sperábis: scuto circúmdabit te véritas ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor vos acolherá à sua sombra: e sob as suas asas vos
               esperará: a sua fidelidade proteger-vos-á, como um escudo.
             </Text>
@@ -231,12 +231,12 @@ export default function PageQuad10() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Sacrifícium quadragesimális inítii sollémniter immolámus, te,
               Dómine, deprecántes: ut, cum epulárum restrictióne carnálium, a
               noxiis quoque voluptátibus lemperémus. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Senhor, imolamos solenemente este sacrifício no princípio da
               Quaresma, suplicando-Vos que, fazendo-nos restringir o uso das
               carnes, nos abstenhamos também dos prazeres funestos. Por nosso
@@ -249,11 +249,11 @@ export default function PageQuad10() {
           <Text className="em">Sl. 90,4-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Scápulis suis obumbrábit tibi Dóminus, et sub pennis ejus
               sperábis: scuto circúmdabit te véritas ejus.
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               O Senhor vos acolherá à sua sombra: e sob as suas asas vos
               esperará: a sua verdade proteger-vos-á, como um escudo.
             </Text>
@@ -262,12 +262,12 @@ export default function PageQuad10() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base">
+            <Text className="text-base latin">
               Qui nos, Dómine, sacraménti libátio sancta restáuret: et a
               vetustáte purgátos, in mystérii salutáris fáciat transíre
               consórtium. Per Dóminum...
             </Text>
-            <Text className="text-base">
+            <Text className="text-base vernacular">
               Que a participação, que tomámos, no vosso sacramento, Senhor, nos
               restaure; e que, despojando-nos do «homem velho», nos faça
               alcançar o mystério da salvação. Por nosso Senhor...
