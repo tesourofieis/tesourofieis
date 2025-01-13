@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function Page0929() {
@@ -13,8 +14,11 @@ export default function Page0929() {
           </Text>
 
           <Text className="aside">
-            Como na [Missa da Festa da Aparição de Arcanjo
-            Miguel](/missal/santos/05-08), excepto:
+            Como na
+            <Link href="/missal/santos/05-08">
+              Missa da Festa da Aparição de Arcanjo Miguel,
+            </Link>
+            excepto:
           </Text>
 
           <Text className="h3">Gradual</Text>

@@ -15,10 +15,12 @@ export default function Page0901() {
           <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/16abades">
-              Missa Os justi
+              Missa Os justi.
             </Link>{" "}
-            . A Comemoração dos S. S. Doze Irmãos como na [Missa Comemoração dos
-            S. S. Macabeus, Mártires](/missal/santos/08-01).
+            A Comemoração dos S. S. Doze Irmãos como na
+            <Link href="/missal/santos/08-01">
+              Missa Comemoração dos S. S. Macabeus, Mártires.
+            </Link>
           </Text>
         </View>
       </ScrollView>

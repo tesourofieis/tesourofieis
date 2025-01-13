@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
@@ -12,8 +13,11 @@ export default function Page0823() {
           <Text className="h1">S. Filipe Benício, Conf., a 23 de Agosto</Text>
 
           <Text className="aside">
-            Como na [Missa Justus ut
-            palma](/missal/comum/15confessoresnaopontifices2), excepto:
+            Como na
+            <Link href="/missal/comum/15confessoresnaopontifices2">
+              Missa Justus ut palma,
+            </Link>
+            excepto:
           </Text>
 
           <Text className="h3">Oração</Text>

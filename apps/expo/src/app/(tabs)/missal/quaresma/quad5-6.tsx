@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function PageQuad56() {
@@ -11,9 +12,11 @@ export default function PageQuad56() {
           <Text className="h1">Sábado da Semana da Paixão</Text>
 
           <Text className="aside">
-            Intróito, Gradual, Ofertório e Comúnio como na [Sexta-feira da
-            Semana da Paixão - Estação em Santo Estêvão no Monte
-            Célio](/missal/quaresma/quad5-5).
+            Intróito, Gradual, Ofertório e Comúnio como na
+            <Link href="/missal/quaresma/quad5-5">
+              Sexta-feira da Semana da Paixão - Estação em Santo Estêvão no
+              Monte Célio.
+            </Link>
           </Text>
 
           <Text className="h3">Oração</Text>

@@ -39,8 +39,10 @@ export default function Page1004() {
           <Text className="h3">Evangelho</Text>
 
           <Text className="aside">
-            Como na [Missa S. Paulo, 1.º Eremita,
-            Conf.](/missal/santos/01-15-1#evangelho)
+            Como na
+            <Link href="/missal/santos/01-15#evangelho">
+              Missa S. Paulo, 1.º Eremita, Conf.
+            </Link>
           </Text>
 
           <Text className="h3">Postcomúnio</Text>

@@ -101,12 +101,19 @@ export default function PageOracaonoite() {
           conservado neste dia. Perdoai-me os pecados que hoje cometi e, se
           algum bem fiz, aceitai-o. Guardai-me durante o repouso e livrai-me dos
           perigos. Vossa graça esteja sempre comigo e com os que me são caros.
-          Em seguida rezar: [Pai Nosso](/devocionario/oracoes/painosso), [Ave
-          Maria](/devocionario/oracoes/avemaria),
-          <Link className="link" href="/devocionario/oracoes/gloria">
-            Glória
+          Em seguida rezar:
+          <Link className="link" href="/devocionario/oracoes/painosso">
+            Pai Nosso,
           </Link>{" "}
-          , [Símbolo dos Apóstolos](/devocionario/oracoes/simboloapostolos),
+          <Link className="link" href="/devocionario/oracoes/avemaria">
+            Ave Maria,
+          </Link>{" "}
+          <Link className="link" href="/devocionario/oracoes/gloria">
+            Glória,
+          </Link>{" "}
+          <Link className="link" href="/devocionario/oracoes/simboloapostolos">
+            Símbolo dos Apóstolos,
+          </Link>{" "}
           <Link className="link" href="/devocionario/oracoes/confesso">
             Confesso
           </Link>{" "}

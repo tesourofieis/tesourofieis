@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function Page0524Braga() {
@@ -14,9 +15,11 @@ export default function Page0524Braga() {
           </Text>
 
           <Text className="aside">
-            Como na [Missa da Trasladação das Relíquias de S.
-            Vicente](/missal/santos/05-04-2), alterando-se com o nome deste
-            Santo.
+            Como na
+            <Link href="/missal/santos/05-04-portugal">
+              Missa da Trasladação das Relíquias de S. Vicente,
+            </Link>
+            alterando-se com o nome deste Santo.
           </Text>
         </View>
       </ScrollView>

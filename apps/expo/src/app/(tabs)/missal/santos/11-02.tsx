@@ -375,12 +375,15 @@ export default function Page1102() {
               Senhor...
             </Text>
           </View>
-          2.ª Missa, como a [Missa do Dia do
-          Aniversário](/ritual/requiem#no-dia-do-aniversário). 3.ª Missa, como a
-          <Link className="link" href="/ritual/requiem#quotidiana">
-            Missa Quotidiana
+          2.ª Missa, como a
+          <Link href="/ritual/requiem#no-dia-do-aniversário">
+            Missa do Dia do Aniversário.
           </Link>{" "}
-          , omitindo-se a 1.ª e 3.ª Oração, Secreta e Postcomúnio.
+          3.ª Missa, como a
+          <Link className="link" href="/ritual/requiem#quotidiana">
+            Missa Quotidiana,
+          </Link>{" "}
+          omitindo-se a 1.ª e 3.ª Oração, Secreta e Postcomúnio.
         </View>
       </ScrollView>
     </SafeAreaView>

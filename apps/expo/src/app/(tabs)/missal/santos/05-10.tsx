@@ -13,8 +13,11 @@ export default function Page0510() {
           <Text className="h1">S. Antonino, B. Conf., a 10 de Maio</Text>
 
           <Text className="aside">
-            Como na [Missa Státuit ei
-            Dóminus](/missal/comum/11confessorespontifices1), excepto:
+            Como na
+            <Link href="/missal/comum/11confessorespontifices1">
+              Missa Státuit ei Dóminus,
+            </Link>
+            excepto:
           </Text>
 
           <Text className="h3">Oração</Text>

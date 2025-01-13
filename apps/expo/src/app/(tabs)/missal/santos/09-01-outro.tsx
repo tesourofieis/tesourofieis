@@ -19,8 +19,11 @@ export default function Page0901Outro() {
             <Link className="link" href="/missal/santos/03-10">
               Missa de Os Quarenta Mártires
             </Link>{" "}
-            , a 10 de Março, com a Oração, Secreta e Postcomúnio da [Comemoração
-            dos S. S. Macabeus, Mártires](/missal/santos/08-01), a 1 de Agosto.
+            , a 10 de Março, com a Oração, Secreta e Postcomúnio da
+            <Link className="link" href="/missal/santos/08-01">
+              Comemoração dos S. S. Macabeus, Mártires,
+            </Link>{" "}
+            a 1 de Agosto.
           </Text>
         </View>
       </ScrollView>

@@ -1,6 +1,7 @@
 import { Link } from "expo-router";
 
 import React from "react";
+import { SafeAreaView, ScrollView, Text, View } from "react-native";
 
 export default function PageConsagracaobispo() {
   return (
@@ -19,8 +20,10 @@ export default function PageConsagracaobispo() {
             >
               Missa Sacerdótes tui
             </Link>{" "}
-            , excepto: Oração, Secreta e Postcomúnio como na [Missa Si díligis
-            me](/missal/comum/sumospontifices).
+            , excepto: Oração, Secreta e Postcomúnio como na
+            <Link className="link" href="/missal/comum/sumospontifices">
+              Missa Si díligis me.
+            </Link>{" "}
           </Text>
 
           <Text className="h3">Epístola</Text>

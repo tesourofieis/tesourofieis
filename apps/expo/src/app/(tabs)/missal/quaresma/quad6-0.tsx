@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function PageQuad60() {
@@ -1621,8 +1622,9 @@ export default function PageQuad60() {
           </View>
 
           <Text className="aside">
-            Interrompe-se aqui a leitura e diz-se o [MUNDA COR
-            MEUM](/missal/ordo#munda-cor). Depois continua-se:
+            Interrompe-se aqui a leitura e diz-se o
+            <Link href="/missal/ordo#munda-cor">MUNDA COR MEUM...</Link>
+            Depois continua-se:
           </Text>
 
           <View className="side-by-side">

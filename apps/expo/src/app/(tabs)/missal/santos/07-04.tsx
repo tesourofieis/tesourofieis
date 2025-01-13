@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
@@ -16,15 +17,16 @@ export default function Page0704() {
           <Text className="aside">
             A Igreja nos exorta hoje a louvar a Deus pelas santas obras da
             bem-aventurada Isabel. Filha de Pedro III de Aragão, herdou o nome e
-            as virtudes de sua tia-avó [Santa Isabel da
-            Hungria](/missal/santosa/11-19). O pai, vendo-lhe a santidade, dizia
-            que ela excederia a todas as mulheres nascidas também da raça real
-            (Ep., Com.). Isabel casou-se com Dinis I, rei de Portugal, recebera
-            a prerogativa de restabelecer a paz onde houvesse divisões, e de
-            acalmar os furores da guerra (Or.). Viúva, tomou o hábito da Ordem
-            Terceira, distribuiu suas riquezas, adquirindo, por esse meio, a
-            pérola preciosa e tesouro oculto da vida eterna (Ev.). Morreu em
-            1336, em Coimbra. Seu corpo conservou-se intacto.
+            as virtudes de sua tia-avó
+            <Link href="/missal/santos/11-19">Santa Isabel da Hungria.</Link> O
+            pai, vendo-lhe a santidade, dizia que ela excederia a todas as
+            mulheres nascidas também da raça real (Ep., Com.). Isabel casou-se
+            com Dinis I, rei de Portugal, recebera a prerogativa de restabelecer
+            a paz onde houvesse divisões, e de acalmar os furores da guerra
+            (Or.). Viúva, tomou o hábito da Ordem Terceira, distribuiu suas
+            riquezas, adquirindo, por esse meio, a pérola preciosa e tesouro
+            oculto da vida eterna (Ev.). Morreu em 1336, em Coimbra. Seu corpo
+            conservou-se intacto.
           </Text>
 
           <Text className="h3">Intróito</Text>

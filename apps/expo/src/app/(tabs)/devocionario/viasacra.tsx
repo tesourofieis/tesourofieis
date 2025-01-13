@@ -40,9 +40,11 @@ export default function PageViasacra() {
           <Text className="h3">No fim de cada Estação</Text>
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
-              Pai nosso
+              Pai nosso,
             </Link>{" "}
-            , [Ave Maria](/devocionario/oracoes/avemaria),
+            <Link className="link" href="/devocionario/oracoes/avemaria">
+              Ave Maria,
+            </Link>{" "}
             <Link className="link" href="/devocionario/oracoes/gloria">
               Glória
             </Link>{" "}
@@ -63,7 +65,9 @@ export default function PageViasacra() {
           </View>
           <Text className="aside">
             Se a via sacra se faz em comum pode-se recitar uma estrofe da
-            [Stabat Mater](/missal/santos/09-15#sequência)
+            <Link className="link" href="/missal/santos/09-15#sequência">
+              Stabat Mater
+            </Link>
           </Text>
           <Text className="h2">Primeira Estação</Text>!
           <Link className="link" href="../../../assets/station1.png">

@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
@@ -18,9 +19,11 @@ export default function Page0710() {
             Felicidade, martirizados em sua presença, louva a mulher forte (Ep.)
             que, exortando-os a morrer, «em todos foi ela própria vitoriosa».
             Estendeu às almas dos filhos a sua maternidade, fazendo-os cumprir a
-            vontade de Deus (Ev., Com.) (Ver [Comemoração de Santa
-            Felicidade](/missal/santos/11-23#comemoração-de-santa-felicidade)).
-            Eles morreram no ano de 150, sob o imperador Antonino. Um século
+            vontade de Deus (Ev., Com.) (Ver
+            <Link href="/missal/santos/11-23#comemoração-de-santa-felicidade">
+              Comemoração de Santa Felicidade
+            </Link>
+            ). Eles morreram no ano de 150, sob o imperador Antonino. Um século
             depois, Rufina e Segunda, irmãs pela natureza tornaram-se duplamente
             irmãs, misturando o seu sangue no mesmo suplício, para não perderem
             a virgindade, por elas consagrada a Jesus, seu esposo. Foram

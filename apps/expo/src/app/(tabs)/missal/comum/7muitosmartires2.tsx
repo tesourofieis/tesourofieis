@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function Page7Muitosmartires2() {
@@ -44,8 +45,12 @@ export default function Page7Muitosmartires2() {
               nosso Senhor...
             </Text>
           </View>
-          Se forem Pontífices, não se diz esta Oração mas a da [Missa
-          precedente](/missal/comum/6muitosmartires1#oração).
+          <Text className="aside">
+            Se forem Pontífices, não se diz esta Oração mas a da
+            <Link className="link" href="/missal/comum/6muitosmartires1#oração">
+              Missa precedente.
+            </Link>
+          </Text>
           <Text className="h3">Epístola</Text>
           <Text className="em">Sb. 5, 16-20</Text>
           <View className="side-by-side">

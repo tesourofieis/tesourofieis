@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
@@ -31,8 +32,10 @@ export default function Page0718() {
           </Text>
 
           <Text className="aside">
-            Comemoração de Santa Sinforoza e seus Filhos como na [Missa
-            Sapiéntiam sanctórum](/missal/comum/7muitosmartires2).
+            Comemoração de Santa Sinforoza e seus Filhos como na
+            <Link href="/missal/comum/7muitosmartires2">
+              Missa Sapiéntiam sanctórum.
+            </Link>
           </Text>
 
           <Text className="h3">Intróito</Text>

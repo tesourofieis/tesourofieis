@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function PageAccaogracas() {
@@ -11,10 +12,15 @@ export default function PageAccaogracas() {
           <Text className="h1">Acção de Graças</Text>
 
           <Text className="aside">
-            Como alguma das [Missas Votivas da Santíssima
-            Trindade](/missal/votivas/santissimatrindade), ou do [Espírito
-            Santo](/missal/votivas/espiritosanto), ou da [Santíssima
-            Virgem](/missal/comum/27missamaria1), excepto o seguinte:
+            Como alguma das
+            <Link href="/missal/votivas/santissimatrindade">
+              Missas Votivas da Santíssima Trindade,
+            </Link>
+            ou do
+            <Link href="/missal/votivas/espiritosanto">Espírito Santo,</Link>
+            ou da
+            <Link href="/missal/comum/27missamaria1">Santíssima Virgem,</Link>
+            excepto o seguinte:
           </Text>
 
           <Text className="h3">Oração</Text>

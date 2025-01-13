@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function Page0806() {
@@ -13,8 +14,10 @@ export default function Page0806() {
           </Text>
 
           <Text className="aside">
-            Comemoração de S. Sixto, Felicíssimo e Agapito como na [Missa Missa
-            Sapiéntiam sanctórum](/missal/comum/7muitosmartires2)
+            Comemoração de S. Sixto, Felicíssimo e Agapito como na
+            <Link href="/missal/comum/7muitosmartires2">
+              Missa Missa Sapiéntiam sanctórum
+            </Link>
           </Text>
 
           <Text className="h3">Intróito</Text>

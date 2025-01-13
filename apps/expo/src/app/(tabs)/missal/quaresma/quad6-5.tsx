@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import VexillaRegis from "./../../canticos/sacros/vexillaregis";
 
@@ -729,8 +730,9 @@ export default function PageQuad65() {
           </View>
 
           <Text className="aside">
-            O Celebrante vai ao meio do Altar e diz o [MUNDA COR
-            MEUM](/missal/ordo#munda-cor)... Depois prossegue:
+            O Celebrante vai ao meio do Altar e diz o
+            <Link href="/missal/ordo#munda-cor">MUNDA COR MEUM...</Link>
+            Depois prossegue:
           </Text>
 
           <View className="side-by-side">

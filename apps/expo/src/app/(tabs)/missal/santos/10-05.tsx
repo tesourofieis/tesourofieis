@@ -37,7 +37,10 @@ export default function Page1005() {
             >
               Postcomúnio
             </Link>{" "}
-            da [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2).
+            da
+            <Link className="link" href="/missal/comum/7muitosmartires2">
+              Missa Sapiéntiam sanctórum.
+            </Link>
           </Text>
         </View>
       </ScrollView>

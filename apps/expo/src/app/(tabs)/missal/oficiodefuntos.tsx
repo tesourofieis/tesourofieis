@@ -21,7 +21,13 @@ export default function PageOficiodefuntos() {
             <Link className="link" href="/devocionario/oracoes/avemaria">
               Ave-Maria
             </Link>{" "}
-            ; [Creio em Deus](/devocionario/oracoes/simboloapostolos).
+            ;
+            <Link
+              className="link"
+              href="/devocionario/oracoes/simboloapostolos"
+            >
+              Creio em Deus.
+            </Link>
           </Text>
 
           <Text className="h2">Invitatório</Text>

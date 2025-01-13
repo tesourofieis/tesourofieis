@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function Page1219Braga() {
@@ -13,8 +14,11 @@ export default function Page1219Braga() {
             Braga
           </Text>
           <Text className="aside">
-            Como na [Missa Státuit ei
-            Dóminus](/missal/comum/11confessorespontifices1), excepto:
+            Como na
+            <Link href="/missal/comum/11confessorespontifices1">
+              Missa Státuit ei Dóminus,
+            </Link>
+            excepto:
           </Text>
           <Text className="h3">Oração</Text>Ó Deus, que enriquecestes a Igreja
           Bracarense com o preciosíssimo corpo do B. Geraldo, concedei-nos

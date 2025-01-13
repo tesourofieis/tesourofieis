@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function PageQuadp36() {
@@ -11,9 +12,11 @@ export default function PageQuadp36() {
           <Text className="h1">Sábado depois das Cinzas</Text>
 
           <Text className="aside">
-            Intróito, Gradual, Ofertório e Comúnio como na [Sexta-feira depois
-            das Cinzas - Estação na Igreja dos SS. João e Paulo,
-            Mártires](/missal/pre-quaresma/quadp3-5).
+            Intróito, Gradual, Ofertório e Comúnio como na
+            <Link href="/missal/pre-quaresma/quadp3-5">
+              Sexta-feira depois das Cinzas - Estação na Igreja dos SS. João e
+              Paulo, Mártires.
+            </Link>
           </Text>
 
           <Text className="h3">Oração</Text>

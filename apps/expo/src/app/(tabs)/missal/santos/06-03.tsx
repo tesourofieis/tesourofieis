@@ -17,10 +17,16 @@ export default function Page0603() {
           <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
-              Missa Protexísti me
+              Missa Protexísti me,
             </Link>{" "}
-            , excepto: Fora do Tempo Pascal Como na [Missa Sacerdótes
-            tui](/missal/comum/12confessorespontifices2), excepto:
+            excepto: Fora do Tempo Pascal como na
+            <Link
+              className="link"
+              href="/missal/comum/12confessorespontifices2"
+            >
+              Missa Sacerdótes tui,
+            </Link>{" "}
+            excepto:
           </Text>
           <Text className="h3">Oração</Text>Ó Deus, que maravilhosamente
           ilustrastes a vossa Igreja com a pregação apostólica do B. Ovídio,

@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function Page0105() {
@@ -11,8 +12,11 @@ export default function Page0105() {
           <Text className="h1">Vigília Epifania</Text>
 
           <Text className="aside">
-            Como na [Missa Domingo dentro do Oitavário do
-            Natal](/missal/natal/nat1-0), com o Evangelho:
+            Como na
+            <Link href="/missal/natal/nat1-0">
+              Missa Domingo dentro do Oitavário do Natal,
+            </Link>
+            com o Evangelho:
           </Text>
 
           <Text className="h3">Evangelho</Text>

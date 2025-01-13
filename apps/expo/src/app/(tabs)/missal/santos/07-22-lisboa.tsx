@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
@@ -78,14 +79,12 @@ export default function Page0722Lisboa() {
           vossa divindade, cujo gozo o B. Lourenço experimentou no sacrossanto
           mystério do altar. Por nosso Senhor...
           <Text className="aside">
-            Nalguns lugares diz-se a [Missa Os
-            justi](/missal/comum/14confessoresnaopontifices1), com a Oração,
-            Secreta e Postcomúnio precedentes.
+            Nalguns lugares diz-se a
+            <Link href="/missal/comum/14confessoresnaopontifices1">
+              Missa Os justi,
+            </Link>
+            com a Oração, Secreta e Postcomúnio precedentes.
           </Text>
-          <LinkCard
-            href="/missal/comum/14confessoresnaopontifices1"
-            title="Confessores não Pontífices - Missa Os justi"
-          />
         </View>
       </ScrollView>
     </SafeAreaView>

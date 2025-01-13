@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function PageSantissimosacramento() {
@@ -11,9 +12,12 @@ export default function PageSantissimosacramento() {
           <Text className="h1">Missa do Santíssimo Sacramento</Text>
 
           <Text className="aside">
-            Como na [Missa do Santíssimo Corpo de
-            Cristo](/missal/pentecostes/pent1-4), excepto: Depois da
-            Septuagésima omite-se o Aleluia o Verso que se segue, e diz-se o:
+            Como na
+            <Link href="/missal/pentecostes/pent1-4">
+              Missa do Santíssimo Corpo de Cristo,
+            </Link>
+            excepto: Depois da Septuagésima omite-se o Aleluia o Verso que se
+            segue, e diz-se o:
           </Text>
 
           <Text className="h3">Trato</Text>

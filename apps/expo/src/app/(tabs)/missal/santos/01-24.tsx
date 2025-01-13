@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function Page0124() {
@@ -11,8 +12,11 @@ export default function Page0124() {
           <Text className="h1">S. Timóteo, B. e Márt., a 24 de Janeiro</Text>
 
           <Text className="aside">
-            Como na [Missa Státuit ei
-            Dóminus](/missal/comum/2martirpontificeforapascal), excepto:
+            Como na
+            <Link href="/missal/comum/2martirpontificeforapascal">
+              Missa Státuit ei Dóminus,
+            </Link>
+            excepto:
           </Text>
 
           <Text className="h3">Epístola</Text>

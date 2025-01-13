@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function Page1030Portugal() {
@@ -13,8 +14,8 @@ export default function Page1030Portugal() {
             vitória que os cristãos alcançaram na luta contra os sarracenos
           </Text>
           <Text className="aside">
-            Evangelho, ofertório e secreta como na Missa da [Invenção da Santa
-            Cruz](/missal/santos/05-03-1).
+            Evangelho, ofertório e secreta como na Missa da
+            <Link href="/missal/santos/05-03">Invenção da Santa Cruz.</Link>
           </Text>
           <Text className="h3">Intróito</Text>
           Alegremo-nos em Deus em todo este dia: e louvemos eternamente o vosso

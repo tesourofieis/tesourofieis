@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function PageSantissimatrindade() {
@@ -11,8 +12,11 @@ export default function PageSantissimatrindade() {
           <Text className="h1">Missa da Santíssima Trindade</Text>
 
           <Text className="aside">
-            Como na Missa do [Domingo da Santíssima
-            Trindade](/missal/pentecostes/pent1-0), excepto:
+            Como na Missa do
+            <Link className="link" href="/missal/pentecostes/pent1-0">
+              Domingo da Santíssima Trindade,
+            </Link>
+            excepto:
           </Text>
 
           <Text className="h3">Epístola</Text>

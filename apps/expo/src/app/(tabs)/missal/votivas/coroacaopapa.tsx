@@ -19,9 +19,11 @@ export default function PageCoroacaopapa() {
             <Link className="link" href="/missal/santos/02-22">
               Missa da Cadeira de S. Pedro em Roma
             </Link>{" "}
-            , excepto: Oração, Secreta e Postcomúnio como na [Missa Si díligis
-            me](/missal/comum/sumospontifices). No Tempo Pascal, em vez do
-            Gradual e do Trato, diz-se:
+            , excepto: Oração, Secreta e Postcomúnio como na
+            <Link className="link" href="/missal/comum/sumospontifices">
+              Missa Si díligis me.
+            </Link>{" "}
+            No Tempo Pascal, em vez do Gradual e do Trato, diz-se:
           </Text>
 
           <View className="side-by-side">

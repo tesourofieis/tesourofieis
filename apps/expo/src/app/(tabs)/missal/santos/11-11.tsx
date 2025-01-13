@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
@@ -12,8 +13,11 @@ export default function Page1111() {
           <Text className="h1">S. Martinho, a 11 de Novembro</Text>
 
           <Text className="aside">
-            Comemoração de S. Mena como na [Missa In virtúte
-            tua](/missal/comum/4martirnaopontifice1).
+            Comemoração de S. Mena como na
+            <Link href="/missal/comum/4martirnaopontifice1">
+              Missa In virtúte tua
+            </Link>
+            .
           </Text>
 
           <Text className="h3">Intróito</Text>

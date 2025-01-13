@@ -40,13 +40,15 @@ export default function PageIntroducao() {
             >
               Credo
             </Link>{" "}
-            , e os [Actos de Fé](/devocionario/oracoes/actofe), de
-            <Link className="link" href="/devocionario/oracoes/actoesperanca">
-              Esperança
+            , e os
+            <Link className="link" href="/devocionario/oracoes/actofe">
+              Actos de Fé,
             </Link>{" "}
-            e de
+            <Link className="link" href="/devocionario/oracoes/actoesperanca">
+              de Esperança
+            </Link>{" "}
             <Link className="link" href="/devocionario/oracoes/actocaridade">
-              Caridade
+              e de Caridade
             </Link>{" "}
             , acompanhando-os com um vivo afecto do coração.
           </Text>
@@ -156,9 +158,12 @@ export default function PageIntroducao() {
             igreja orar por ele; e, não podendo, encomendarei a Nosso Senhor a
             sua alma, pensando que dentro em breve hei de encontrar-me também eu
             nesse estado. Ao ouvir sinais pela morte de alguém, procurarei rezar
-            um [«De profundis»](/devocionario/salterio/129) ou um «Réquiem», ou
-            um Pai-Nosso e uma Ave-Maria, pela alma desse defunto, e renovarei o
-            pensamento da morte.
+            um
+            <Link className="link" href="/devocionario/salterio/129">
+              «De profundis»
+            </Link>{" "}
+            ou um «Réquiem», ou um Pai-Nosso e uma Ave-Maria, pela alma desse
+            defunto, e renovarei o pensamento da morte.
           </Text>
         </View>
       </ScrollView>

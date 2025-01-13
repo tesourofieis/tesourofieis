@@ -36,12 +36,17 @@ export default function Page0721() {
           <Text className="aside">
             Intróito, como na{" "}
             <Link className="link" href="/missal/comum/17virgensmartires1">
-              Missa Loquébar
+              Missa Loquébar.
             </Link>{" "}
-            . Evangelho e Ofertório como na [Missa Me
-            exspectavérunt](/missal/comum/18virgensmartires2). Oração, Epístola,
-            Secreta, Comúnio e Postcomúnio como na [Missa
-            Loquébar](/missal/comum/21virgemnaomartir2). Gradual seguinte:
+            Evangelho e Ofertório como na
+            <Link className="link" href="/missal/comum/18virgensmartires2">
+              Missa Me exspectavérunt.
+            </Link>{" "}
+            Oração, Epístola, Secreta, Comúnio e Postcomúnio como na
+            <Link className="link" href="/missal/comum/21virgemnaomartir2">
+              Missa Loquébar.
+            </Link>{" "}
+            Gradual seguinte:
           </Text>
 
           <Text className="h3">Gradual</Text>

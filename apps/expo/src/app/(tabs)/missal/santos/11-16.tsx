@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 
 export default function Page1116() {
@@ -11,8 +12,11 @@ export default function Page1116() {
           <Text className="h1">S. Gertrudes, Virgem, a 16 de Novembro</Text>
 
           <Text className="aside">
-            Como na [Missa Dilexísti
-            justitiam](/missal/comum/20virgemnaomartir1, excepto:
+            Como na
+            <Link href="/missal/comum/20virgemnaomartir1">
+              Missa Dilexísti justitiam,
+            </Link>
+            excepto:
           </Text>
 
           <Text className="h3">Oração</Text>

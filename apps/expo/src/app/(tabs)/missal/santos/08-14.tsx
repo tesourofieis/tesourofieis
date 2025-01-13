@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
@@ -37,8 +38,10 @@ export default function Page0814() {
           </View>
 
           <Text className="aside">
-            Oração, Secreta e Postcomúnio S. Eusébio como na [Missa Os
-            justi](/missal/comum/14confessoresnaopontifices1).
+            Oração, Secreta e Postcomúnio S. Eusébio como na
+            <Link href="/missal/comum/14confessoresnaopontifices1">
+              Missa Os justi.
+            </Link>
           </Text>
 
           <Text className="h3">Epístola</Text>
