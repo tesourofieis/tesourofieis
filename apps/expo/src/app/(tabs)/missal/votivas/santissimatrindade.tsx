@@ -10,10 +10,10 @@ export default function PageSantissimatrindade() {
         <View className="docs">
           <Text className="h1">Missa da Santíssima Trindade</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na Missa do [Domingo da Santíssima
             Trindade](/missal/pentecostes/pent1-0), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 
@@ -70,10 +70,10 @@ export default function PageSantissimatrindade() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o que se segues, e
             diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 

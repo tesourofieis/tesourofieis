@@ -10,7 +10,7 @@ export default function PageQuadp33() {
         <View className="docs">
           <Text className="h1">Quarta-feira de Cinzas</Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Estação em Roma é em Santa Sabina no Monte Aventiono, num
             Santuário elevado em 425, no local da casa da mártir. Convertida à
             fé por uma criada, ela aí foi decapitada e enterrada secretamente. A
@@ -50,7 +50,7 @@ export default function PageQuadp33() {
             sermão da montanha. Busquemos na Eucarístia o socorro de que
             precisamos, para que, celebrando hoje a solene abertura do jejum
             sagrado, terminemos essa carreira com impertubável devoção.
-          </View>
+          </Text>
 
           <Text className="h3">Antífona</Text>
 

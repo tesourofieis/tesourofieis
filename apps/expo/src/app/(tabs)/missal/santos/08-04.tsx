@@ -15,7 +15,7 @@ export default function Page0804() {
             S. Domingos de Gusmão, Conf., a 4 de Agosto
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -24,7 +24,7 @@ export default function Page0804() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

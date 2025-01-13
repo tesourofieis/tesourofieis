@@ -10,7 +10,7 @@ export default function Page0503() {
         <View className="docs">
           <Text className="h1">Invenção da Santa Cruz, a 3 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Após a vitória obtida por Constantino, graças à cruz que lhe
             apareceu nos ares e cujo signal reproduziu no Lábaro, Santa Helena,
             sua mãe, foi a Jerusalém em procura da verdadeira Cruz. No início do
@@ -34,7 +34,7 @@ export default function Page0503() {
             Heráclio pôs sobre os ombros um manto vulgar e pode assim continuar
             o seu trajecto. O cura celebra a Missa por intenção dos paroquianos.
             Comemoração 3º Domingo depois da Páscoa.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

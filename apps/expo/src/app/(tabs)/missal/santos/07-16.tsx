@@ -13,7 +13,7 @@ export default function Page0716() {
             B. Virgem Maria do Monte Carmelo, a 16 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Segundo piedosa tradição, autorizada pela liturgia, no dia de
             Pentecostes, grande número de homens que haviam seguido os exemplos
             dos Santos Profetas Elias e Eliseu, e tinham sido preparados para a
@@ -37,7 +37,7 @@ export default function Page0716() {
             a 3 de Março de 1322. A festa de Nossa Senhora do Carmo, a princípio
             peculiar às igrejas da Ordem, foi estendida a toda a cristandade,
             por Bento XIII, em 1726.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

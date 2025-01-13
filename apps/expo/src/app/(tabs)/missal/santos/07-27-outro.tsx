@@ -13,13 +13,13 @@ export default function Page0727Outro() {
           <Text className="h1">
             B. Rodolfo Água-Viva e Outros, Márts, a 27 de Julho
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/7muitosmartires2">
               Missa Sapiéntiam sanctórum
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           Vos pedimos, permiti que a veneranda oblação dos vossos B. B. Mártires
           Rodolfo, Afonso, Pedro, António e Francisco Vos recomende as nossas

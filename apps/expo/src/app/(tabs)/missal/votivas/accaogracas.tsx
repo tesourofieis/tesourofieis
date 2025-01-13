@@ -10,12 +10,12 @@ export default function PageAccaogracas() {
         <View className="docs">
           <Text className="h1">Acção de Graças</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como alguma das [Missas Votivas da Santíssima
             Trindade](/missal/votivas/santissimatrindade), ou do [Espírito
             Santo](/missal/votivas/espiritosanto), ou da [Santíssima
             Virgem](/missal/comum/27missamaria1), excepto o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

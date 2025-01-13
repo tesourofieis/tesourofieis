@@ -13,7 +13,7 @@ export default function Page0126() {
         <View className="docs">
           <Text className="h1">S. Policarpo, B. e Márt., a 26 de Janeiro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -22,7 +22,7 @@ export default function Page0126() {
               Missa Sacerdótes tui
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

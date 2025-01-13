@@ -16,10 +16,10 @@ export default function PageSexta() {
         <View className="docs">
           <Text className="h1">Sexta</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Meditemos na crucifixão de Jesus Cristo e nas palavras pronunciadas
             por ele na Santa Cruz, dando-nos Maria por Mãe.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -432,13 +432,13 @@ export default function PageSexta() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Acabar com uma{" "}
             <Link className="link" href="/devocionario/antifonas">
               Antífona de Nossa Senhora
             </Link>{" "}
             .
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

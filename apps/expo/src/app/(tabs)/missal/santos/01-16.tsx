@@ -12,13 +12,13 @@ export default function Page0116() {
         <View className="docs">
           <Text className="h1">S. Marcelo, Papa e Mártir, a 16 de Janeiro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/sumospontifices">
               Missa Si díligis me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

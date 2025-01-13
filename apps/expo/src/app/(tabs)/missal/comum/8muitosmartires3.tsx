@@ -257,7 +257,7 @@ export default function Page8Muitosmartires3() {
             </Text>
           </View>
 
-          <View className="aside">Outro Evangelho (para certos dias):</View>
+          <Text className="aside">Outro Evangelho (para certos dias):</Text>
 
           <Text className="h3">Evangelho2</Text>
 

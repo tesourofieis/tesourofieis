@@ -13,7 +13,7 @@ export default function Page0308() {
         <View className="docs">
           <Text className="h1">S. João de Deus, Confessor, a 8 de Março</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -22,7 +22,7 @@ export default function Page0308() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

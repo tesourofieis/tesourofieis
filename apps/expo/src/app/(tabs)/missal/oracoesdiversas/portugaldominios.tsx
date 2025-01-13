@@ -10,11 +10,11 @@ export default function PagePortugaldominios() {
         <View className="docs">
           <Text className="h1">Para Portugal e seus Domínios</Text>
           <Text className="h3">Colecta</Text>
-          <View className="aside">
+          <Text className="aside">
             Por Determinação da Sagrada Congregação dos Ritos (19 de Maio de
             1952) em todas as Missas, excepto nas de Réquiem, a seguir à última
             Oração, à última Secreta e ao último Postcomúnio.
-          </View>
+          </Text>
           E livrai de todas as adversidades no ar, na terra e no mar os vossos
           servos: o nosso Papa <Text className="text-red-500">N.</Text> o nosso
           Patriarca <Text className="text-red-500">N.</Text> (Arcebispo{" "}
@@ -26,7 +26,7 @@ export default function PagePortugaldominios() {
           hereges com o poder da vossa dextra. (Por nosso Senhor... ou Pelo
           mesmo nosso Senhor segundo a conclusão da Oração, da Secreta ou do
           Postcomúnio a que fica acrescentada) ADVERTÊNCIAS:
-          <View className="aside">
+          <Text className="aside">
             Se a Missa tiver uma única Oração, dir-se-á esta Colecta
             imediatamente à Oração e sob a mesma e única conclusão; o mesmo
             quanto à Secreta e Postcomúnio. Quando na Missa se recitar a Oração
@@ -39,7 +39,7 @@ export default function PagePortugaldominios() {
             Oração «Pela Paz», omitem-se as Palavras: «concedei a paz e a
             prosperidade aos nossos tempos». Nas Secretas e Postcomúnios não há
             alteração.
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

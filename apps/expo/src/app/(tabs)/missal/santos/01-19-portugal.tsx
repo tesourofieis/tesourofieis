@@ -13,10 +13,10 @@ export default function Page0119Portugal() {
             S. Gonçalo de Amarante, Confesso, a 19 de Janeiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Justus ut
             palma](/missal/comum/15confessoresnaopontifices2), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

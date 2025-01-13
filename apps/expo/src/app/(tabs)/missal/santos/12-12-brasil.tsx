@@ -12,10 +12,10 @@ export default function Page1212Brasil() {
           <Text className="h1">
             Nossa Senhora de Guadalupe, a 12 de Dezembro
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Salve, sancta Parens da Virgem
             Maria](/missal/comum/29missamaria3), excepto:
-          </View>
+          </Text>
           :<Text className="h3">Oração</Text>
           <View className="side-by-side">
             <Text className="text-base latin">

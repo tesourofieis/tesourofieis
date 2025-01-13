@@ -13,7 +13,7 @@ export default function Page0726() {
             Santa Ana, Mãe da Bem-Aventurada Virgem Maria, a 26 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Igreja celebra com os Anjos, em santa alegria (Intr.) a mãe da
             bem-aventurada Virgem Maria. Como indica o seu nome Ana, a graça foi
             nela difundida, e Deus abençoou-a para sempre (Com.). «Por sua
@@ -27,7 +27,7 @@ export default function Page0726() {
             remonta ao VI século no Oriente e ao VIII no Ocidente; foi
             autorizado por Urbano IV em 1378. Gregório XIII fixou, em 1584, sua
             festa a 26 de Julho e Leão XIII estendeu-a a toda a Igreja, em 1879.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

@@ -14,13 +14,13 @@ export default function Page0121() {
             Santa Inês, Virgem e Márt., a 21 de Janeiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/17virgensmartires1">
               Missa Loquébar
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

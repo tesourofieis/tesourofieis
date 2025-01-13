@@ -13,13 +13,13 @@ export default function Page0716Beja() {
           <Text className="h1">
             S. Sisenando, Mártir, a 16 de Julho, Na Diocese de Beja
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/4martirnaopontifice1">
               Missa In virtúte tua
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó omnipotente Deus, que ao B. Levita
           Sisenando destes coragem para abraçar e vencer o próprio martírio,
           concedei-nos, Vos pedimos, que virilmente abracemos o estreito caminho

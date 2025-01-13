@@ -11,7 +11,7 @@ export default function Page0731() {
         <View className="docs">
           <Text className="h1">S. Inácio de Loiola, a 31 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Inácio, nasceu na Espanha do Norte, em 1491. Era o décimo primeiro
             filho do senhor de Loiola e entrou, aos quinze anos, como pagem na
             corte do rei Fernando V. Dotado de temperamento ardente e belicoso,
@@ -83,7 +83,7 @@ export default function Page0731() {
             de toda santidade, nos santifiquem na verdade (Secr.), de modo a
             podermos, ajudados pelo socorro e exemplos do Santo, combater na
             terra, a fim de sermos com ele coroados no céu (Or.).
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

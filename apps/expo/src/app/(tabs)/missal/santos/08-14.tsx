@@ -36,10 +36,10 @@ export default function Page0814() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Oração, Secreta e Postcomúnio S. Eusébio como na [Missa Os
             justi](/missal/comum/14confessoresnaopontifices1).
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

@@ -11,7 +11,7 @@ export default function PageConsagracaobispo() {
             No Aniversário da Eleição ou Consagração do Bispo
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -21,7 +21,7 @@ export default function PageConsagracaobispo() {
             </Link>{" "}
             , excepto: Oração, Secreta e Postcomúnio como na [Missa Si díligis
             me](/missal/comum/sumospontifices).
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

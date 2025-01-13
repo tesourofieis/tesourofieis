@@ -113,11 +113,11 @@ export default function PageOracaonoite() {
           . Depois o Hino:
           <Text className="h2">Hino Te lucis</Text>
           <TeLucis />
-          <View className="aside">
+          <Text className="aside">
             Examina que pecados cometeste neste dia, por pensamentos, palavras,
             actos ou omissões. Depois diz o Acto de Fé, de Esperança, de
             Caridade e de Contrição.
-          </View>
+          </Text>
           <Text className="h2">Acto de Fé</Text>
           <ActoFe />
           <Text className="h2">Acto de Esperança</Text>

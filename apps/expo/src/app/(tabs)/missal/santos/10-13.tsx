@@ -12,7 +12,7 @@ export default function Page1013() {
         <View className="docs">
           <Text className="h1">S. Eduardo, Conf., a 13 de Outubro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -21,7 +21,7 @@ export default function Page1013() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

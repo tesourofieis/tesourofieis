@@ -12,13 +12,13 @@ export default function Page23Muitasmartiresnaovirgens() {
         <View className="docs">
           <Text className="h1">Muitas Mártires não Virgens</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como a{" "}
             <Link className="link" href="/missal/comum/22martiresnaovirgens">
               Missa Me exspectavérunt
             </Link>{" "}
             , excepto o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

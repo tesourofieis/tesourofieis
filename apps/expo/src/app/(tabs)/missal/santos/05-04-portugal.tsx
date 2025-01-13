@@ -13,13 +13,13 @@ export default function Page0504Portugal() {
           <Text className="h1">
             Trasl. das Relíquias de S. Vicente, a 4 de Maio, Nalguns lugares
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
               Missa Protexísti me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           Que a fé da ressurreição, Senhor, cresça em nós em virtude das
           maravilhas que operais pelas Relíquias do vosso Santo Mártir Vicente;

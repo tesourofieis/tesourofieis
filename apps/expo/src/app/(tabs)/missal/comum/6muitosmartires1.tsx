@@ -51,10 +51,10 @@ export default function Page6Muitosmartires1() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Não sendo Pontífice, diz-se a [Oração da Missa
             seguinte](/missal/comum/7muitosmartires2#oração).
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

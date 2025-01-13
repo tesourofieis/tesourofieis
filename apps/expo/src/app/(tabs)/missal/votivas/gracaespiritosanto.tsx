@@ -12,13 +12,13 @@ export default function PageGracaespiritosanto() {
         <View className="docs">
           <Text className="h1">Suplicando a Graça do Espírito Santo</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/votivas/espiritosanto">
               Missa do Espírito Santo
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

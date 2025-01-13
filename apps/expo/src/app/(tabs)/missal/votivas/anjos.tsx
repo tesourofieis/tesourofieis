@@ -10,7 +10,7 @@ export default function PageAnjos() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Missa dos Anjos</Text>
-          <View className="aside">Para a Terça-feira</View>
+          <Text className="aside">Para a Terça-feira</Text>
           <Text className="h3">Intróito</Text>
           <LinkCard
             href="/missal/santos/03-24#intróito"

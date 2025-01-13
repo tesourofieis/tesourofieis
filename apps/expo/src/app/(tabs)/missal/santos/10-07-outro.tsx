@@ -12,13 +12,13 @@ export default function Page1007Outro() {
         <View className="docs">
           <Text className="h1">S. Marcos, Papa e Conf., a 7 de Outubro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/sumospontifices">
               Missa Si díligis me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

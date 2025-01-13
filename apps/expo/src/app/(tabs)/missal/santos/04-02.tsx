@@ -11,10 +11,10 @@ export default function Page0402() {
         <View className="docs">
           <Text className="h1">S. Francisco de Paula, Conf., a 2 de Abril</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Justus ut
             palma](/missal/comum/15confessoresnaopontifices2), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

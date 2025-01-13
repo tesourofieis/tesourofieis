@@ -14,13 +14,13 @@ export default function Page0911() {
             S. S. Proto e Jacinto, Mártires, a 11 de Setembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/8muitosmartires3">
               Missa Salus autem
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

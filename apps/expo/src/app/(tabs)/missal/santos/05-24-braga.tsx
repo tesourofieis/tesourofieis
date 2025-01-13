@@ -13,11 +13,11 @@ export default function Page0524Braga() {
             de Braga e noutros lugares
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa da Trasladação das Relíquias de S.
             Vicente](/missal/santos/05-04-2), alterando-se com o nome deste
             Santo.
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

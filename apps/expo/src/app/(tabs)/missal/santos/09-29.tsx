@@ -12,10 +12,10 @@ export default function Page0929() {
             Dedicação de S. Miguel Arcanjo, a 29 de Setembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa da Festa da Aparição de Arcanjo
             Miguel](/missal/santos/05-08), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Gradual</Text>
 

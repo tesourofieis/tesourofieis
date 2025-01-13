@@ -19,12 +19,12 @@ export default function PageLaudes() {
         <View className="docs">
           <Text className="h1">Laudes</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Meditemos na ressurreição e na assunção de Maria, que, segundo
             piedosa crença, se teria operado durante a aurora; é por este motivo
             que, no Ofício da Santa Virgem, a Igreja coloca nas Laudes as
             antífonas da Assunção.
-          </View>
+          </Text>
 
           <Tabs>
             <TabItem label="Depois da Purificação">
@@ -163,7 +163,7 @@ export default function PageLaudes() {
 
               <Benedicite />
 
-              <View className="aside">Não se diz a Glória no fim.</View>
+              <Text className="aside">Não se diz a Glória no fim.</Text>
 
               <View className="side-by-side">
                 <Text className="text-base latin">
@@ -464,7 +464,7 @@ export default function PageLaudes() {
 
               <Benedicite />
 
-              <View className="aside">Não se diz a Glória no fim.</View>
+              <Text className="aside">Não se diz a Glória no fim.</Text>
 
               <View className="side-by-side">
                 <Text className="text-base latin">
@@ -803,7 +803,7 @@ export default function PageLaudes() {
 
               <Benedicite />
 
-              <View className="aside">Não se diz a Glória no fim.</View>
+              <Text className="aside">Não se diz a Glória no fim.</Text>
 
               <View className="side-by-side">
                 <Text className="text-base latin">
@@ -1048,13 +1048,13 @@ export default function PageLaudes() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Acabar com uma{" "}
             <Link className="link" href="/devocionario/antifonas">
               Antífona de Nossa Senhora
             </Link>{" "}
             .
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

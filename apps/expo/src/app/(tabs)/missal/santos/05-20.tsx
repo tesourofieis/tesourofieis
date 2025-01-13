@@ -13,7 +13,7 @@ export default function Page0520() {
         <View className="docs">
           <Text className="h1">S. Bernardino de Sena, Conf., a 20 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Comemoração S. Bernardino de Sena, Confessor. Nesta época do ano em
             que Jesus, pelo seu triunfo, realizou o nome de Salvador, o Ciclo
             faz celebrar a festa de São Bernardino, abrasado «de ardente amor
@@ -31,9 +31,9 @@ export default function Page0520() {
             ano 1444. Peçamos a Deus, pela intercessão e méritos de S.
             Bernardino, que nos conceda grande amor pelo santo Nome de Jesus e
             acenda em nossos corações a chama da sua divina Caridade (Oração).
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -42,7 +42,7 @@ export default function Page0520() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

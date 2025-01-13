@@ -10,10 +10,10 @@ export default function Page1116() {
         <View className="docs">
           <Text className="h1">S. Gertrudes, Virgem, a 16 de Novembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Dilexísti
             justitiam](/missal/comum/20virgemnaomartir1, excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

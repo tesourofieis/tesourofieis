@@ -10,7 +10,7 @@ export default function PageDefuntos() {
         <View className="docs">
           <Text className="h1">Prefácio dos Defuntos</Text>
 
-          <View className="aside">Diz-se em todas as Missas de Réquiem.</View>
+          <Text className="aside">Diz-se em todas as Missas de Réquiem.</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

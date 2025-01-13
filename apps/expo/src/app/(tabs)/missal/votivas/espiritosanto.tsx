@@ -12,13 +12,13 @@ export default function PageEspiritosanto() {
         <View className="docs">
           <Text className="h1">Missa do Espírito Santo</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/pentecostes/pent7-0">
               Missa do Domingo de Pentecostes
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 
@@ -77,10 +77,10 @@ export default function PageEspiritosanto() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
             diz-se o:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 

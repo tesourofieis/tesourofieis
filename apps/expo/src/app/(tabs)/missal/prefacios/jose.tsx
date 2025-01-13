@@ -9,12 +9,12 @@ export default function PageJose() {
         <View className="docs">
           <Text className="h1">Prefácio do S. José</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se na Festa de S. José e do seu Patrocínio e Oitavário e nas
             Missas Votivas de S. José. Nas Missas Votivas diz-se...in
             Veneratióne (em Veneração) em vez de...in Festivitáte (na
             Festividade).
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

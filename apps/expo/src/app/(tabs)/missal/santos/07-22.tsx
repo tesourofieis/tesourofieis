@@ -11,7 +11,7 @@ export default function Page0722() {
         <View className="docs">
           <Text className="h1">Santa Maria Madalena, a 22 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Jesus, dando o Espírito Santo aos Apóstolos, lhes recomendára
             perdoar os pecados, como Ele o fizera, e a liturgia lembra hoje um
             exemplo celebre para sempre, da misericórdia do Salvador para com os
@@ -39,7 +39,7 @@ export default function Page0722() {
             Jesus, presente na mesa sagrada, o tesouro dos nossos louvores
             (Secr.), cerquemo-lo no altar, com espírito de fé que não receia o
             escândalo farisaico, de todo o luxo conveniente à casa de Deus.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

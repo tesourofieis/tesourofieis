@@ -12,13 +12,13 @@ export default function Page0512Portugal() {
         <View className="docs">
           <Text className="h1">B. Joana, Princesa, a 12 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/20virgemnaomartir1">
               Missa Dilexísti justitiam
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

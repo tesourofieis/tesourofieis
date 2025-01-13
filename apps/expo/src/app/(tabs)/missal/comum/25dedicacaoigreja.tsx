@@ -53,10 +53,10 @@ export default function Page25Dedicacaoigreja() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No dia em que se faz a Dedicação da Igreja e no Oitavário diz-se, em
             vez da precedente, a seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
@@ -253,7 +253,7 @@ export default function Page25Dedicacaoigreja() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="aside">Na Igreja</View>
+          <Text className="aside">Na Igreja</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -275,7 +275,7 @@ export default function Page25Dedicacaoigreja() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="aside">Fora da Igreja</View>
+          <Text className="aside">Fora da Igreja</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -290,10 +290,10 @@ export default function Page25Dedicacaoigreja() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No dia em que se faz a Dedicação e no seu Oitavário diz-se, em vez
             da precedente, a seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Secreta</Text>
 
@@ -347,10 +347,10 @@ export default function Page25Dedicacaoigreja() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No dia em que se faz a Dedicação e no seu Oitavário diz-se, em vez
             do precedente, o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Postcomúnio</Text>
 
@@ -367,10 +367,10 @@ export default function Page25Dedicacaoigreja() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Na Festa da Dedicação dum Altar celebra-se a Missa precedente, com
             excepção do seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

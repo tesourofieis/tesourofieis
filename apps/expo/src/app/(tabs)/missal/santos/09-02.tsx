@@ -13,7 +13,7 @@ export default function Page0902() {
         <View className="docs">
           <Text className="h1">S. Estêvão, Rei e Conf., a 2 de Setembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -22,7 +22,7 @@ export default function Page0902() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <LinkCard
             href="/missal/comum/14confessoresnaopontifices1"

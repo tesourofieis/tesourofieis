@@ -14,7 +14,7 @@ export default function Page0309() {
             Santa Francisca Romana, Viúva, a 9 de Março
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Comemoração S. Francisca Romana, Viúva. Santa Francisca, nobre
             matrona Romana, foi a mulher forte da qual fala a Epístola. Unida
             desde a idade de 11 anos pelos laços matrimoniais a Lourenço de
@@ -32,15 +32,15 @@ export default function Page0309() {
             visível de seu Anjo da Guarda, com o qual conversava familiarmente.
             Morreu em 1440. Neste sagrado tempo de penitência, imitemos, como a
             Santa Francisca, a vida de sacrifícios do Salvador.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
               Missa Cognóvi, Dómine
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

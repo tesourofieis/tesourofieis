@@ -14,7 +14,7 @@ export default function Page0427() {
             S. Pedro Canísio, Conf. e Doutor, a 27 de Abril
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Nascido em Nimegue (Holanda), a 8 de Maio de 1521, morreu em
             Friburgo (Suiça) a 21 de Dezembro de 1597, foi beatificado por Pio
             XI. É a justo título esta santo, holandez, apóstolo da Alemanhã,
@@ -30,15 +30,15 @@ export default function Page0427() {
             o reconhecimento dos católicos. O bem-aventurado terminou os seus
             dias no Colégio de S. Miguel em Friburgo, onde os peregrinos visitam
             o seu quarto e lhe veneram o túmulo.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -12,13 +12,13 @@ export default function Page0113() {
         <View className="docs">
           <Text className="h1">Dia da oitava da Epifania</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como no dia da{" "}
             <Link className="link" href="/missal/santos/01-06">
               Festa da Epifania
             </Link>{" "}
             , excepto o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

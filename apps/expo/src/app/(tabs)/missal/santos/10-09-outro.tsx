@@ -15,13 +15,13 @@ export default function Page1009Outro() {
             S. Dionísio e Outros, Mártires, a 9 de Outubro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/7muitosmartires2">
               Missa Sapiéntiam sanctórum
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

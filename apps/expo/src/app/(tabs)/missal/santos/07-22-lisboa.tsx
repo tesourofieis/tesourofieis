@@ -77,11 +77,11 @@ export default function Page0722Lisboa() {
           Possamos nós, Senhor, ficar eternamente saciados com esta alegria da
           vossa divindade, cujo gozo o B. Lourenço experimentou no sacrossanto
           mystério do altar. Por nosso Senhor...
-          <View className="aside">
+          <Text className="aside">
             Nalguns lugares diz-se a [Missa Os
             justi](/missal/comum/14confessoresnaopontifices1), com a Oração,
             Secreta e Postcomúnio precedentes.
-          </View>
+          </Text>
           <LinkCard
             href="/missal/comum/14confessoresnaopontifices1"
             title="Confessores não Pontífices - Missa Os justi"

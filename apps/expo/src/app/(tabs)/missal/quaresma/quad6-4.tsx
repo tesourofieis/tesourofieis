@@ -12,7 +12,7 @@ export default function PageQuad64() {
         <View className="docs">
           <Text className="h1">Quinta-Feira Santa</Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Estação fazia-se outrora na igreja de S. João de Latrão,
             primitivamente chamada Basílica de São Salvador. A liturgia da
             Quinta-feira Santa é, realmente, toda impregnada da lembrança da
@@ -22,7 +22,7 @@ export default function PageQuad64() {
             especialmente a Instituição da Eucaristia na última Ceia. Somente
             esta última resta hoje; o Bispo cercado de 12 Padres, 7 Diáconos e 7
             Subdiáconos, benze então os Santos Óleos na Catedral.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 
@@ -320,7 +320,7 @@ export default function PageQuad64() {
 
           <Text className="h2">Lava-Pés</Text>
 
-          <View className="aside">Evangelho igual ao anterior.</View>
+          <Text className="aside">Evangelho igual ao anterior.</Text>
 
           <Text className="h3">Antífona</Text>
 

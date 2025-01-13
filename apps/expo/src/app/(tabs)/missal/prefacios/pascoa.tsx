@@ -10,12 +10,12 @@ export default function PagePascoa() {
         <View className="docs">
           <Text className="h1">Prefácio da Páscoa</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se desde Domingo de Páscoa até à Vigília da Ascensão,
             inclusivamente, excepto quando há Prefácio próprio. Intercala-se:
             hac potíssimum die (naquele dia); hac potíssimum nocte (naquela
             noite); hac potíssimum (neste tempo).
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

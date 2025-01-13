@@ -10,7 +10,7 @@ export default function Page0628Outro() {
         <View className="docs">
           <Text className="h1">S. Ireneu, B. e Mártir, a 28 de Junho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Nos fins do II século, quando as seitas gnósticas procuravam
             destruir pela base a religião cristã, Deus suscitou Santo Irineu
             para lhes resistir em face. «Concedeu-lhe a graça de destruir as
@@ -32,7 +32,7 @@ export default function Page0628Outro() {
             dá o título glorioso de Mártir. Morreu, supôe-se, durante a
             perseguição de Septimo-Severo em 202. Bento XV estendeu sua festa à
             Igreja universal.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

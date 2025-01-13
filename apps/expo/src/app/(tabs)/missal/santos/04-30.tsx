@@ -14,7 +14,7 @@ export default function Page0430() {
             Santa Catarina de Sena, Virgem, a 30 de Abril
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             «A Santa Ordem dos Dominicanos que apresentava ontem uma rosa rubra
             a Jesus ressuscitado, oferece-Lhe hoje um lírio de brilhante
             alvura». Santa Catarina de Sena (1347-1380) foi a penúltima de 24
@@ -29,15 +29,15 @@ export default function Page0430() {
             hoje a Deus a hóstia santa toda embalsamada no virginal odor da
             bem-aventurada Catarina» para recebermos do Senhor, em troca, a vida
             eterna.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/20virgemnaomartir1">
               Missa Dilexísti justitiam
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -15,13 +15,13 @@ export default function Page30Missamaria4() {
             Páscoa até ao Pentecostes
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/29missamaria3">
               Missa Precedente
             </Link>{" "}
             , excepto o seguinte: Depois da Epístola diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

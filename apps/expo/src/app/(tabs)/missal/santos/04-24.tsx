@@ -14,13 +14,13 @@ export default function Page0424() {
             S. Fiel de Sigmaringen, Mártir, a 24 de Abril
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
               Missa Protexísti me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -16,11 +16,11 @@ export default function PageNoa() {
         <View className="docs">
           <Text className="h1">Noa</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Meditemos em Jesus morrendo na cruz, na agitação da natureza neste
             momento, na destruição do reino de Satanás, e na Igreja nascendo do
             lado aberto do seu Divino Esposo preso à Santa Cruz.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -435,13 +435,13 @@ export default function PageNoa() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Acabar com uma{" "}
             <Link className="link" href="/devocionario/antifonas">
               Antífona de Nossa Senhora
             </Link>{" "}
             .
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

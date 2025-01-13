@@ -140,10 +140,10 @@ export default function Page0131() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Durante o Tempo Pascal o Gradual é omitido e diz-se a seguinte
             Aleluia:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

@@ -12,13 +12,13 @@ export default function Page0909() {
         <View className="docs">
           <Text className="h1">S. Gorgónio, Mártir, a 9 de Setembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/5martirnaopontifice2">
               Missa Lætábitur justus
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

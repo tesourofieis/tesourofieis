@@ -14,7 +14,7 @@ export default function Page0525() {
             S. Gregório VII, Papa e Conf., a 25 de Maio
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Nascido em Soana na Toscana, Hildebrando foi monge do célebre
             mosteiro benedictino de Cluny, do qual dependiam naquele tempo, duas
             mil abadias. Foi Prior, depois eleito Abade do Mosteiro de S. Paulo
@@ -34,15 +34,15 @@ export default function Page0525() {
             tiradas do Salmo 44: «Amei a justiça e odiei a iniquidade: eis
             porque morro exilado». A exemplo de S. Gregório, tenhamos coragem
             para vencer todas as adversidades (Oração).
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/sumospontifices">
               Missa Si díligis me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
@@ -64,7 +64,7 @@ export default function Page0525() {
 
           <Text className="h2">Comemoração de S. Urbano, Papa e Mártir</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/sumospontifices">
               Missa Si díligis me
@@ -72,7 +72,7 @@ export default function Page0525() {
             , excepto: Da mesma Missa Si díligis me, sendo a Oração a que está
             em primeiro lugar e a Secreta e Postcomúnio as que estão em segundo
             lugar.
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

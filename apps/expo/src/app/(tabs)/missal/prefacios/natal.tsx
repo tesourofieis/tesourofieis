@@ -10,13 +10,13 @@ export default function PageNatal() {
         <View className="docs">
           <Text className="h1">Prefácio do Natal</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se desde o Natal até à Epifania, exclusivamente; na Festa do
             Corpo de Deus e no seu Oitavário; na festa do Santíssimo Nome de
             Jesus; na Festa da Transfiguração de Nosso Senhor; na Festa da
             Purificação de Nossa Senhora; e nas Missas Votivas do Santíssimo
             Sacramento.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

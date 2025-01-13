@@ -11,7 +11,7 @@ export default function Page0502() {
         <View className="docs">
           <Text className="h1">S. Atanásio, a 2 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Igreja, coberta ainda pelo sangue de seus martyres, teve de
             sustentar, no século V, os terríveis assaltos da heresia. Ario ousa
             despojar o divino Ressuscitado de sua glória de Filho de Deus, para
@@ -25,7 +25,7 @@ export default function Page0502() {
             tendo um symbolo da Santíssima Trindade como atributo. Morreu em 373
             e foi nomeado Doutor da Igreja. Afirmemos, com Santo Atanásio, a
             Divindade de Jesus ressuscitado.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

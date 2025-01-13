@@ -24,10 +24,10 @@ export default function PageMatinas() {
         <View className="docs">
           <Text className="h1">Matinas</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Meditemos no nascimento do Salvador, no monte das oliveiras, na sua
             agonia e nas cordas com que o amarraram.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -79,10 +79,10 @@ export default function PageMatinas() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Desde o Sábado antes do Domingo da Septuagésima até às vésperas do
             Sábado Santo, em vez de Allelúja, é dito:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -782,10 +782,10 @@ export default function PageMatinas() {
                 </Text>
               </View>
 
-              <View className="aside">
+              <Text className="aside">
                 Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o
                 seguinte no fim do Responsório:
-              </View>
+              </Text>
 
               <View className="side-by-side">
                 <Text className="text-base latin">
@@ -863,11 +863,11 @@ export default function PageMatinas() {
                 </Text>
               </View>
 
-              <View className="aside">
+              <Text className="aside">
                 O Te Deum não é dito no Advento, ou da Septuagésima até à
                 Páscoa, excluindo as Festas de Nossa Senhora. O seguinte
                 Responsório é dito quando o Te Deum é omitido:
-              </View>
+              </Text>
 
               <View className="side-by-side">
                 <Text className="text-base latin">
@@ -1071,10 +1071,10 @@ export default function PageMatinas() {
                 </Text>
               </View>
 
-              <View className="aside">
+              <Text className="aside">
                 Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o
                 seguinte no fim do Responsório:
-              </View>
+              </Text>
 
               <View className="side-by-side">
                 <Text className="text-base latin">
@@ -1160,11 +1160,11 @@ export default function PageMatinas() {
                 </Text>
               </View>
 
-              <View className="aside">
+              <Text className="aside">
                 O Te Deum não é dito no Advento, excluindo as Festas de Nossa
                 Senhora. O seguinte Responsório é dito quando o Te Deum é
                 omitido:
-              </View>
+              </Text>
 
               <View className="side-by-side">
                 <Text className="text-base latin">
@@ -1218,11 +1218,11 @@ export default function PageMatinas() {
 
           <TeDeum />
 
-          <View className="aside">
+          <Text className="aside">
             As Matinas acabam depois do Terceiro Responsório ou do Te Deum,
             porque é usual depois das Matinas passar-se directamente para as
             Laudes. No entanto, se não continuar para as Laudes diz:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1311,13 +1311,13 @@ export default function PageMatinas() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Acabar com uma{" "}
             <Link className="link" href="/devocionario/antifonas">
               Antífona de Nossa Senhora
             </Link>{" "}
             .
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

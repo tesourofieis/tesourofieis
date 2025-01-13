@@ -12,7 +12,7 @@ export default function Page0304() {
         <View className="docs">
           <Text className="h1">S. Casimiro, Conf., a 4 de Março</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -21,7 +21,7 @@ export default function Page0304() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

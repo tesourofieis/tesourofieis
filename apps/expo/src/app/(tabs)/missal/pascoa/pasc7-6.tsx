@@ -378,7 +378,7 @@ export default function PagePasc76() {
             </Text>
           </View>
 
-          <View className="aside">Diz-se o Glória in excélsis... Depois:</View>
+          <Text className="aside">Diz-se o Glória in excélsis... Depois:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>

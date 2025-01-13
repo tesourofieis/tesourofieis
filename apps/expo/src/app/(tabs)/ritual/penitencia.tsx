@@ -10,11 +10,11 @@ export default function PagePenitencia() {
         <View className="docs">
           <Text className="h1">Penitência</Text>
           <Text className="h1">Preparação</Text>
-          <View className="aside">
+          <Text className="aside">
             Quem quiser receber dignamente este Sacramento diligenciará conhecer
             todos e cada um dos seus Pecados. Assim, pois, interiormente, na
             Presença de Deus, dirá:
-          </View>
+          </Text>
           <Text className="h2">Oração</Text>
           Deus de bondade e de misericórdia, que estais sempre benignamente
           disposto a acolher os pecadores e a perdoar-lhes, dignai-Vos receber e
@@ -236,12 +236,12 @@ export default function PagePenitencia() {
           testemunha das minhas quedas, consegui que este Sacramento me sirva de
           remédio para nunca mais cair no pecado. Amen.
           <Text className="h1">Acusação dos pecados</Text>
-          <View className="aside">
+          <Text className="aside">
             Após esta Preparação, o Penitente aproximar-se-á com humildade do
             Confessor e dirá:
-          </View>
+          </Text>
           Abençoai-me, Padre, porque pequei!
-          <View className="aside">O Sacerdote abençoa, dizendo:</View>
+          <Text className="aside">O Sacerdote abençoa, dizendo:</Text>
           Que o Senhor seja no teu coração e nos teus lábios, para que possas
           dignamente confessar os teus pecados.
           <Text className="cross text-red-500">✠</Text> Em Nome do Pai e do
@@ -267,10 +267,10 @@ export default function PagePenitencia() {
           proponho firmemente emendar-me e nunca mais Vos tornar a ofender; peço
           e espero o perdão das minhas culpas pela vossa infinita misericórdia.
           Amen.
-          <View className="aside">
+          <Text className="aside">
             Atenda o Penitente bem à Penitência que lhe impuser o Confessor, e
             cumpra-a antes da Comunhão.
-          </View>
+          </Text>
           <Text className="h1">Depois da Confissão</Text>
           <Text className="h2">Acto de Fé na Absolvição</Text>
           Ousarei persuadir-me, ó meu Deus, de que me encontro, presentemente,

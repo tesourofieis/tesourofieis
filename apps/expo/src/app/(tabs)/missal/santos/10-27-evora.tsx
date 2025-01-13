@@ -14,13 +14,13 @@ export default function Page1027Evora() {
             S. S. Vicente, Sabina e Cristeta, Márts, a 27 de Outubro, Na
             Arquidiocese de Évora
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/7muitosmartires2">
               Missa Sapiéntiam sanctórum
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó Deus, que aos três beatíssimos
           Irmãos vossos Mártires Vicente, Sabina e Cristeta, já unidos em amor
           fraternal, ainda mais os unistes pelo martírio na confissão da divina

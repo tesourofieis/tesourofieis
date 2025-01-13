@@ -14,13 +14,13 @@ export default function Page0927() {
             S. S. Cosme e Damião, Mártires, a 27 de Setembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/7muitosmartires2">
               Missa Sapiéntiam sanctórum
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

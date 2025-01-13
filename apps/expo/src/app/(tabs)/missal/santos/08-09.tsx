@@ -12,7 +12,7 @@ export default function Page0809() {
         <View className="docs">
           <Text className="h1">S. João Maria Vianney, a 8 de Agosto</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -21,7 +21,7 @@ export default function Page0809() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

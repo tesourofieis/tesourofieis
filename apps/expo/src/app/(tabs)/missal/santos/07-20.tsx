@@ -10,7 +10,7 @@ export default function Page0720() {
         <View className="docs">
           <Text className="h1">S. Jerónimo Emiliano, Conf., a 20 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Nascido em Veneza, da familia patrícia dos Emiliani, Jerónimo
             entregou-se sem reserva à acção divina «que sobre as ruinas do velho
             homem, nele criou o homem novo, feito à imagem de Deus» (Secr.).
@@ -29,7 +29,7 @@ export default function Page0720() {
             sepultá-los (Of.). Recorramos ao Pai das misericórdias a fim de
             sermos, como S. Jerónimo, santamente caridosos para com os
             indigentes e as crianças.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

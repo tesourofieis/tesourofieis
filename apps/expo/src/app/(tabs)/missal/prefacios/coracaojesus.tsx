@@ -10,10 +10,10 @@ export default function PageCoracaojesus() {
         <View className="docs">
           <Text className="h1">Prefácio do SS. Coração de Jesus</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se na Missa da festa do Sagrado Coração de Jesus e seu Oitavário
             e nas Missas votivas do Sagrado Coração de Jesus.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

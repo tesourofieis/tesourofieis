@@ -12,13 +12,13 @@ export default function Page1004() {
         <View className="docs">
           <Text className="h1">S. Francisco, a 4 de Outubro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/07-17">
               Missa Imp. dos Estigmas em S. Francisco
             </Link>{" "}
             , a 17 de Setembro, excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
@@ -38,10 +38,10 @@ export default function Page1004() {
 
           <Text className="h3">Evangelho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa S. Paulo, 1.º Eremita,
             Conf.](/missal/santos/01-15-1#evangelho)
-          </View>
+          </Text>
 
           <Text className="h3">Postcomúnio</Text>
 

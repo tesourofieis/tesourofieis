@@ -15,14 +15,14 @@ export default function Page0908() {
             Natividade da B. Virgem Maria, a 8 de Setembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/07-02">
               Missa da Visitação da B. Virgem Maria
             </Link>{" "}
             , excepto: Na Oração e Secreta substituir a palavra Visitação por
             Natividade.
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

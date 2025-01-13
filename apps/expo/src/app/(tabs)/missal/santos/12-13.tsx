@@ -15,13 +15,13 @@ export default function Page1213() {
             Santa Luzia, Virgem e Mártir, a 13 de Dezembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/20virgemnaomartir1">
               Missa Dilexísti justitiam
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Gradual</Text>
 

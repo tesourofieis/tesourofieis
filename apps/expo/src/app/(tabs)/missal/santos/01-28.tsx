@@ -10,10 +10,10 @@ export default function Page0128() {
         <View className="docs">
           <Text className="h1">S. Pedro Nolasco, Conf., a 28 de Janeiro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Justus ut
             palma](/missal/comum/15confessoresnaopontifices2), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

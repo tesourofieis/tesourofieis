@@ -14,12 +14,12 @@ export default function Page0104() {
             Oitava dos Santos Inocentes, a 4 de Janeiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/12-28">
               Missa Santos Inocentes
             </Link>{" "}
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

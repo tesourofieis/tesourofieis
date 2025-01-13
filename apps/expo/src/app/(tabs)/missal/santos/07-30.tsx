@@ -14,20 +14,20 @@ export default function Page0730() {
             S. S. Ábdon e Senen, Mártires, a 30 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Abdon e Sennen, nascidos na Pérsia, «foram presos e conduzidos a
             Roma, no tempo do imperador Valeriano. Espancados com cordas munidas
             de chumbo, foram, em seguida, degolados» (Martirológio romano). Era
             nos meados do século III (A. D. 254).
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/6muitosmartires1">
               Missa Intret in
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

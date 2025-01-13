@@ -10,11 +10,11 @@ export default function PageComum() {
         <View className="docs">
           <Text className="h1">Prefácio Comum</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se em todas as Festas e Férias que não têm Prefácio próprio e
             até nas Missas dos Domingos, se não celebradas em outro dia da
             semana.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

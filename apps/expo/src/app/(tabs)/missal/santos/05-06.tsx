@@ -14,7 +14,7 @@ export default function Page0506() {
             S. João (diante da porta latina), a 6 de Maio
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Jesus prometera a Tiago e a João, filhos de Zebedeu, que beberiam o
             cálice de sua paixão a fim de poderem participar do triunfo da sua
             ressurreição. O Imperador Domiciano chamou João a Roma, condenando-o
@@ -23,15 +23,15 @@ export default function Page0506() {
             Construíram naquele lugar um santuário junto à Porta Latina, o qual
             foi consagrado ao Santo Apóstolo. Aí se faz a Estação do Sábado da
             Paixão.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/17virgensmartires1">
               Missa Loquébar
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

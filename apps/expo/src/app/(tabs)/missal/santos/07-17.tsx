@@ -12,7 +12,7 @@ export default function Page0717() {
         <View className="docs">
           <Text className="h1">S. Aleixo, Conf., a 17 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Santo Aleixo, nasceu em Roma, de familia rica, no ano de 350 mais ou
             menos, sendo seu pai o senador Eufemiano. Guiado pelo Espírito Santo
             renunciou a todo o seu património, e visitou em piedosa peregrinação
@@ -20,9 +20,9 @@ export default function Page0717() {
             Inocêncio I. Seu corpo foi depositado em Roma, no Monte Aventino, na
             igreja de seu nome, onde é venerado com S. Bonifácio, a quem foi
             primitivamente consagrada.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -31,7 +31,7 @@ export default function Page0717() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

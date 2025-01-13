@@ -14,7 +14,7 @@ export default function Page0204() {
             S. André Corsino, B. e Conf., a 4 de Fevereiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -23,7 +23,7 @@ export default function Page0204() {
               Missa Státuit ei
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

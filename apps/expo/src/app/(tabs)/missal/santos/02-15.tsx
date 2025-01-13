@@ -15,13 +15,13 @@ export default function Page0215() {
             S. S. Faustino e Jovita, Mártires, a 15 de Fevereiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/8muitosmartires3">
               Missa Salus autem
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Secreta e Postcomúnio</Text>
 

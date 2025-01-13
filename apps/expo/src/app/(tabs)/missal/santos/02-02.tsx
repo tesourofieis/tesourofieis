@@ -12,7 +12,7 @@ export default function Page0202() {
             Purificação da B. Virgem Maria, a 2 de Fevereiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             A festa da Purificação fecha o ciclo santoral do tempo depois da
             Epifania. É uma das mais antigas solenidades da Santíssima Virgem e
             ocupava em Roma, no século VII, o segundo lugar depois da Assunção.
@@ -44,7 +44,7 @@ export default function Page0202() {
             nossa alma na terra e nas águas. Caindo a Purificação em Domingo
             privelegiado, é celebrada no dia seguinte, a bênção, porém, das
             velas, é feita antes da Missa do Domingo.
-          </View>
+          </Text>
 
           <Text className="h2">Bênção das Velas</Text>
 
@@ -321,7 +321,7 @@ export default function Page0202() {
             </Text>
           </View>
 
-          <View className="aside">Depois canta-se:</View>
+          <Text className="aside">Depois canta-se:</Text>
 
           <Text className="h3">Antífona</Text>
 
@@ -342,10 +342,10 @@ export default function Page0202() {
             <Text className="text-base vernacular">Erguei-Vos, Senhor...</Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Se o dia 2 de Fevereiro for depois da Septuagésima, e não ao
             Domingo, diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -12,11 +12,11 @@ export default function PageConclusoes() {
             Conclusão das Orações, Secretas e Postcomúnios
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Para maior facilidade, damos a seguir as conclusões por extenso das
             Orações, Secretas e Postcomúnios das Missas, as quais,
             ordinariamente, estão indicadas no Missal, de modo abreviado.
-          </View>
+          </Text>
 
           <Text className="h1">
             1.ª - Quando se dirige ao Pai, concluir-se-á:
@@ -97,11 +97,11 @@ export default function PageConclusoes() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Quando na mesma Missa se recitam diversas Orações, Secretas e
             Postcomúnios, somente a primeira e a última terão a conclusão como
             se indica atrás. Terminadas as conclusões, os fiéis respondem: Amen.
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

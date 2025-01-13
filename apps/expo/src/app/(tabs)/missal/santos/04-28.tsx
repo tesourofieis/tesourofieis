@@ -11,7 +11,7 @@ export default function Page0428() {
         <View className="docs">
           <Text className="h1">S. Paulo da Cruz, Conf., a 28 de Abril</Text>
 
-          <View className="aside">
+          <Text className="aside">
             São Paulo da Cruz nasceu em Novarda (Estado de Génova) em 1694. Como
             indica o seu nome, teve durante toda a sua vida um amor ardente por
             Jesus Crucificado. «Pregado à Cruz com Cristo» consagrou-se a pregar
@@ -23,7 +23,7 @@ export default function Page0428() {
             ofereceu-se a Deus com Jesus, «qual oblação de agradável odor» e
             morreu em 1775. Soframos, como S. Paulo da Cruz, com o Salvador
             Crucificado, para nos podermos regozijar com Jesus Resuscitado.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

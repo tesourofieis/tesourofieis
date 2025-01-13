@@ -10,10 +10,10 @@ export default function PageCruz() {
         <View className="docs">
           <Text className="h1">Prefácio da Santa Cruz</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se quotidianamente desde Domingo da Paixão até Quinta-Feira
             Santa, excepto nas Festas de Nossa Senhora e de S. José.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

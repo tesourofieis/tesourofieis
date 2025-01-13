@@ -118,10 +118,10 @@ export default function PageJose() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso, e que se segue, e
             diz-se o:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 

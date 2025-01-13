@@ -15,13 +15,13 @@ export default function Page0515Evora() {
             S. Mâncio, B. e Mártir, a 15 de Maio, Na Arquidiocese de Évora
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
               Missa Protexísti me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

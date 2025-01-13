@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { SafeAreaView, ScrollView, Text, View } from "react-native";
 
 import React from "react";
 
@@ -11,7 +11,7 @@ export default function Page0501() {
             S. Filipe e S. Tiago, Apóstolos, a 1 de Maio
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             As festas dos Apóstolos que se sucedem no decorrer do ano, eram
             outrora dias santos de guarda. A de S. Filipe e de S. Tiago, nesta
             época, lembra a transladação de suas relíquias para Roma onde a
@@ -35,7 +35,7 @@ export default function Page0501() {
             por um golpe de machado. Seus nomes estão inscritos no Canon da
             Missa. A exemplo dos Santos Apóstolos Filipe e Tiago, confessemos,
             por vida fervorosa, a Divindade do Cristo ressuscitado.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

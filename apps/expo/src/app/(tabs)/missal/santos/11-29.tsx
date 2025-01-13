@@ -12,13 +12,13 @@ export default function Page1129() {
         <View className="docs">
           <Text className="h1">S. Saturnino, Mártir, a 29 de Novembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/5martirnaopontifice2">
               Missa Lætábitur justus
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

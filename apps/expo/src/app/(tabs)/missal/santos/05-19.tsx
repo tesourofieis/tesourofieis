@@ -14,7 +14,7 @@ export default function Page0519() {
             S. Pedro Celestino, Papa e Conf., a 19 de Maio
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Entre todos os Pastores, a quem Jesus Ressuscitado, confiou o
             encargo da sua Igreja, em Pedro Celestino manifesta-se mais
             especialmente a virtude de humildade, colocada por São Bento, seu
@@ -32,15 +32,15 @@ export default function Page0519() {
             a 19 de Maio de 1296. À imitação de S. Pedro Celestino, desprezemos
             as honras deste mundo, a fim de chegarmos à posse das recompensas
             prometidas aos humildes (Oração).
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/sumospontifices">
               Missa Si díligis me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -149,14 +149,14 @@ export default function Page0212() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se o Trato
             da
             <Link className="link" href="/missal/comum/8muitosmartires3">
               Missa Salus autem
             </Link>{" "}
             .
-          </View>
+          </Text>
 
           <Text className="h3">Evangelho</Text>
 

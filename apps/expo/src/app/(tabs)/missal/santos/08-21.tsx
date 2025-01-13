@@ -14,13 +14,13 @@ export default function Page0821() {
             Santa Joana de Chantal, Viúva, a 21 de Agosto
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
               Missa Cognóvi, Dómine
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -14,13 +14,13 @@ export default function Page0930() {
             S. Jerónimo, Presb. C. e Doutor, a 30 de Setembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

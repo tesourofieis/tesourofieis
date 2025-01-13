@@ -13,7 +13,7 @@ export default function Page0710() {
             Os 7 Irmãos e S. S. Rufina e Secunda, Márts., a 10 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Igreja, celebrando hoje o triunfo dos 7 filhos de Santa
             Felicidade, martirizados em sua presença, louva a mulher forte (Ep.)
             que, exortando-os a morrer, «em todos foi ela própria vitoriosa».
@@ -26,7 +26,7 @@ export default function Page0710() {
             a virgindade, por elas consagrada a Jesus, seu esposo. Foram
             martirizadas em 257, em Roma, sob os imperadores Valeriano e
             Galiano.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

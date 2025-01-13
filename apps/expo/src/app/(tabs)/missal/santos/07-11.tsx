@@ -11,7 +11,7 @@ export default function Page0711() {
         <View className="docs">
           <Text className="h1">S. Pio I, Papa e Mártir, a 11 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O ciclo nos faz hoje honrar um Santo que «Deus ungiu com o seu óleo
             santo» (Grad.) e revestiu da plenitude de seu sacerdócio (Intr.,
             Ale.) fazendo-ó subir, em 142 ou em 167, após Santo Higino, ao trono
@@ -29,7 +29,7 @@ export default function Page0711() {
             vida (Ev.) derramando o sangue pelas suas ovelhas e pelo Cristo,
             Pastor supremo. Recebeu juntamente com a coroa da vida, por Deus
             prometida aos que o amam (Ep.). Foi sepultado em 150 no Vaticano.
-          </View>
+          </Text>
 
           <Missa />
         </View>

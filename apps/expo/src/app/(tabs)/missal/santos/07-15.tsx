@@ -14,7 +14,7 @@ export default function Page0715() {
             S. Henrique, Imperador e Confessor, a 15 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Henrique II, cognominado o Piedoso, foi rei da Baviera em 972, rei
             da Germânia em 1002, e Chefe do Império Romano de 1014 a 1024.
             Prestou a Bento VIII, que o havia sagrado, o juramento «de
@@ -31,9 +31,9 @@ export default function Page0715() {
             resolveu, de acordo com sua santa esposa Cunegundes, fazer a Jesus
             Cristo seu herdeiro. Fundou, com esse fim, o bispado de Bamberg
             deixando-lhe todos os seus bens. Foi inhumado nessa igreja, em 1024.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -42,7 +42,7 @@ export default function Page0715() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -14,13 +14,13 @@ export default function Page0715Portugal() {
             B. Inácio de Azevedo e Companheiros, a 15 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/6muitosmartires1">
               Missa Intret in
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

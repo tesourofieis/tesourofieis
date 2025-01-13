@@ -14,13 +14,13 @@ export default function Page0924() {
             B. Virgem Maria das Mercês, a 24 de Setembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/26festasmaria1">
               Missa Salve
             </Link>{" "}
             , sancta Parens da Virgem Maria, excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

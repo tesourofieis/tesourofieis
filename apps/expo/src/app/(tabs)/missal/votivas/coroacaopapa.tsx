@@ -14,7 +14,7 @@ export default function PageCoroacaopapa() {
             No dia da Coroação do Sumo Pontífice e Aniversário da Coroação
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/02-22">
               Missa da Cadeira de S. Pedro em Roma
@@ -22,7 +22,7 @@ export default function PageCoroacaopapa() {
             , excepto: Oração, Secreta e Postcomúnio como na [Missa Si díligis
             me](/missal/comum/sumospontifices). No Tempo Pascal, em vez do
             Gradual e do Trato, diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

@@ -121,10 +121,10 @@ export default function PageBoamorte() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Depois da Septuagésima, omite-se o Aleluia e o Verso seguinte e
             diz-se o:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 

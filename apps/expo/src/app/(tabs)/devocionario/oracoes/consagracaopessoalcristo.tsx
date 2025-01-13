@@ -9,11 +9,11 @@ export default function PageConsagracaopessoalcristo() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Consagração Pessoal a Jesus Cristo</Text>
-          <View className="aside">
+          <Text className="aside">
             Nos 30 dias anteriores à consagração devem-se rezar Ladainhas, o
             Veni Creator Spíritus e a Ave Maris Stella, deve-se ler o Santo
             Evangelho e a Imitação de Cristo, assim como rezar o terço.
-          </View>
+          </Text>
           Ó sabedoria eterna e encarnada! Ó Amabilíssimo e adorável Jesus,
           verdadeiro Deus e verdadeiro homem, Filho Unigénito do Pai Eterno e da
           sempre Virgem Maria. Adoro-Vos profundamente, no seio e nos

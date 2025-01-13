@@ -13,13 +13,13 @@ export default function Page0117() {
         <View className="docs">
           <Text className="h1">S. António, Abade, a 17 de Janeiro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/16abades">
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Evangelho</Text>
 

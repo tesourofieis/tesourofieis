@@ -12,13 +12,13 @@ export default function Page1016() {
         <View className="docs">
           <Text className="h1">Santa Hedviges, Viúva, a 16 de Outubro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
               Missa Cognóvi, Dómine
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -14,13 +14,13 @@ export default function Page1123() {
             S. Clemente, Papa e Mártir, a 23 de Novembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/sumospontifices">
               Missa Si díligis me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

@@ -12,13 +12,13 @@ export default function Page1010() {
         <View className="docs">
           <Text className="h1">S. Francisco de Bórgia, a 10 de Outubro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/16abades">
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -14,13 +14,13 @@ export default function Page1007Outro2() {
             S. S. Sérgio, Baco e Outros, Mártires, a 7 de Outubro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/7muitosmartires2">
               Missa Sapiéntiam sanctórum
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

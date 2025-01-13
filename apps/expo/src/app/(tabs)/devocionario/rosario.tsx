@@ -110,7 +110,7 @@ export default function PageRosario() {
           </View>
           <Text className="h1">Meditações do Rosário</Text>
           <Text className="h2">Mistérios Gozosos</Text>
-          <View className="aside">Segunda-feira e Quinta-feira</View>
+          <Text className="aside">Segunda-feira e Quinta-feira</Text>
           <Text className="bold">Primeiro mistério:</Text>
           <Text className="text-base">
             Meditemos na Anunciação do Arcanjo São Gabriel à Santíssima Virgem,
@@ -139,7 +139,7 @@ export default function PageRosario() {
             de Deus.
           </Text>
           <Text className="h2">Mistérios Dolorosos</Text>
-          <View className="aside">Terça-feira e Sexta-feira</View>
+          <Text className="aside">Terça-feira e Sexta-feira</Text>
           <Text className="bold">Primeiro mistério:</Text>
           <Text className="text-base">
             Meditemos na Agonia de N. S. Jesus Cristo, e roguemos a contrição

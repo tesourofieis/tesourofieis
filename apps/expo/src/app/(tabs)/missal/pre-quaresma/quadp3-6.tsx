@@ -10,11 +10,11 @@ export default function PageQuadp36() {
         <View className="docs">
           <Text className="h1">Sábado depois das Cinzas</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Intróito, Gradual, Ofertório e Comúnio como na [Sexta-feira depois
             das Cinzas - Estação na Igreja dos SS. João e Paulo,
             Mártires](/missal/pre-quaresma/quadp3-5).
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -14,13 +14,13 @@ export default function Page0301Braga() {
             B. Miguel de Carvalho e Outros, Márts., a 1 de Março, Na
             Arquidiocese de Braga
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/7muitosmartires2">
               Missa Sapiéntiam sanctórum
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem
           com sua preciosa profissão de fé; e que pela sua piedosa intercessão

@@ -12,7 +12,7 @@ export default function Page0721() {
         <View className="docs">
           <Text className="h1">Santa Praxedes, Virgem, a 21 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             A festa de S. Pio I, a 11 de Julho lembrou-nos a memória de Santa
             Pudenciana e sua irmã Santa Praxedes, que puzeram sua casa à
             disposição do Santo Pontífice. A primeira aparece no Ciclo a 19 de
@@ -31,9 +31,9 @@ export default function Page0721() {
             cemitério de sua avó Priscilla. Celebremos com alegria a festa da
             bem aventurada Virgem Santa Praxedes, a fim de haurirmos os
             sentimentos de terna devoção (Or.).
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Intróito, como na{" "}
             <Link className="link" href="/missal/comum/17virgensmartires1">
               Missa Loquébar
@@ -42,7 +42,7 @@ export default function Page0721() {
             exspectavérunt](/missal/comum/18virgensmartires2). Oração, Epístola,
             Secreta, Comúnio e Postcomúnio como na [Missa
             Loquébar](/missal/comum/21virgemnaomartir2). Gradual seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Gradual</Text>
 

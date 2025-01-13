@@ -11,10 +11,10 @@ export default function PageIndex() {
         <View className="docs">
           <Text className="h1">Pequeno Ofício de Nossa Senhora</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Em conformidade com <Text className="em">Editio Typica</Text> do
             Breviário Romano.
-          </View>
+          </Text>
 
           <DirectoryList slug="devocionario/oficio" />
         </View>

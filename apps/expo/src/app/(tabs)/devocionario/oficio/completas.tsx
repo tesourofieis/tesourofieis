@@ -433,13 +433,13 @@ export default function PageCompletas() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Acabar com uma{" "}
             <Link className="link" href="/devocionario/antifonas">
               Antífona de Nossa Senhora
             </Link>{" "}
             .
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

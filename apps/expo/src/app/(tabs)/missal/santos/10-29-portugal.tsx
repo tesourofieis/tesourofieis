@@ -12,10 +12,10 @@ export default function Page1029Portugal() {
             Trasl. de Santa Isabel, Rainha, a 29 de Outubro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa da Santa Isabel, Rainha de
             Portugal](/missal/santos/07-04), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

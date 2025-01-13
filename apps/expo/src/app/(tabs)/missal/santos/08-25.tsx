@@ -12,7 +12,7 @@ export default function Page0825() {
         <View className="docs">
           <Text className="h1">S. Luís, Rei de França, a 25 de Agosto</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -21,7 +21,7 @@ export default function Page0825() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

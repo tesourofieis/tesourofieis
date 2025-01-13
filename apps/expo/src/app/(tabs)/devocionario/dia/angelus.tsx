@@ -12,14 +12,14 @@ export default function PageAngelus() {
         <View className="docs">
           <Text className="h1">Angelus</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Desde a Santíssima Trindade até à Páscoa. No tempo Pascal
             substitui-se o Angelus pela{" "}
             <Link className="link" href="/devocionario/antifonas/reginacaeli">
               Regina Caeli
             </Link>{" "}
             .
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

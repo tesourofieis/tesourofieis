@@ -12,10 +12,10 @@ export default function Page1120() {
             S. Félix de Valois, Conf., a 20 de Novembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Justus ut
             palma](/missal/comum/15confessoresnaopontifices2), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -13,13 +13,13 @@ export default function Page1020Portugal() {
           <Text className="h1">
             Santa Iria, Virgem e Mártir, a 20 de Outubro, Nalgumas Dioceses
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/18virgensmartires2">
               Missa Me exspectavérunt
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó Deus, que por um sinal celestial
           livrastes da infâmia a B. Iria, vossa Virgem e Mártir, concedei-nos
           propício pelos seus méritos e preces que sejamos purificados das

@@ -10,10 +10,10 @@ export default function PageOrdenacaopadre() {
         <View className="docs">
           <Text className="h1">No Dia da Ordenação de Presbítero</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na Missa do dia, juntando-se, o seguinte, sob a mesma conclusão
             da que antecede:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

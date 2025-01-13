@@ -12,20 +12,20 @@ export default function Page0527() {
         <View className="docs">
           <Text className="h1">S. Beda, Conf. e Doutor, a 27 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Beda, nascido em Jarrow, no Nortúmbria, desde a mais tenra idade foi
             confiado a S. Bento Biscopo, abade do Mosteiro benedictino de
             Wearmouth, tornando-se também filho do grande Patriarca dos monges
             do Ocidente.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

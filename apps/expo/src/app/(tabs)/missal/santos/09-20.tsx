@@ -12,10 +12,10 @@ export default function Page0920() {
             Vigilia de S. Mateus, Apóstolo e Evangelista, a 20 de Setembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa da Vigília dos Apóstolos - Missa Ego
             autem](/missal/comum/1vigiliaapostolos), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Evangelho</Text>
 

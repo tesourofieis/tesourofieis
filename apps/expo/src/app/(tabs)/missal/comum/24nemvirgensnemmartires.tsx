@@ -303,7 +303,7 @@ export default function Page24Nemvirgensnemmartires() {
             </Text>
           </View>
 
-          <View className="aside">Outra Epístola (em certos dias):</View>
+          <Text className="aside">Outra Epístola (em certos dias):</Text>
 
           <Text className="h3">Epístola</Text>
 

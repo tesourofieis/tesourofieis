@@ -12,7 +12,7 @@ export default function Page0628() {
             Vigília de S. S. Pedro e Paulo, Aps., a 28 de Junho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Igreja celebra amanhã a festa dos dois Apóstolos, os fundamentos
             sobre os quais ela está solidamente edificada (Or.). «O rigor que
             sabe impor-se um povo, em certos dias de preparação é um sinal da fé
@@ -22,7 +22,7 @@ export default function Page0628() {
             com o seu sangue, a confissão de fé (Ev. de amanhã) e o amor (Ev.) a
             Jesus; rei das almas. Paulo, associando-se aos seus trabalhos e ao
             seu martírio, compartilha de seu reino e de seu triunfo.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

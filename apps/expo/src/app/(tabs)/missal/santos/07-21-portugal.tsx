@@ -44,10 +44,10 @@ export default function Page0721Portugal() {
           adorar-Vos-ei no vosso Templo Sagrado e louvarei o vosso nome.
           Aleluia. O Anjo do Senhor desceu do céu, e, aproximando-se, revolveu a
           pedra e assentou-se sobre ela. Aleluia.
-          <View className="aside">
+          <Text className="aside">
             Nas Missas Votivas, depois da Septuagésima, omite-se o Aleluia e o
             Verso seguinte, e diz-se:
-          </View>
+          </Text>
           <Text className="h3">Trato</Text>
           Bendizei o Senhor, ó vós, todos seus Anjos, poderosos em força, que
           obedeceis às suas palavras. Bendizei o Senhor, todos seus exércitos,

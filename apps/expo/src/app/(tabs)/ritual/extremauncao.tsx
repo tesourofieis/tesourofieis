@@ -11,13 +11,13 @@ export default function PageExtremauncao() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Extrema-unção</Text>
-          <View className="aside">
+          <Text className="aside">
             No quarto do enfermo Preparar-se-á uma mesa coberta com uma toalha
             branca e sobre esta um Crucifixo, duas velas, Água benta, um prato
             com oito Pequenos bocados de algodão para limpar o Óleo das unções,
             um pouco de miolo de pão, uma bacia com água e uma toalha. O
             Sacerdote, entrando em casa do enfermo, dirá:
-          </View>
+          </Text>
           <View className="side-by-side">
             <Text className="text-base latin">℣. Pax huic dómui.</Text>
             <Text className="text-base vernacular">
@@ -325,10 +325,10 @@ export default function PageExtremauncao() {
               <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             Se o enfermo se encontra em necessidade extrema, o Sacerdote,
             fazendo uma só unção, dirá:
-          </View>
+          </Text>
           Em virtude desta Unção, que o Senhor vos perdoe todas as faltas que
           cometestes. Amen.
           <Text className="aside">

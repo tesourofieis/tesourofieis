@@ -15,7 +15,7 @@ export default function Page0922() {
             S. Tomás de Vilanova, B. e C., a 22 de Setembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -24,7 +24,7 @@ export default function Page0922() {
               Missa Státuit ei
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

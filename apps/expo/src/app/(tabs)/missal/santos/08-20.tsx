@@ -14,13 +14,13 @@ export default function Page0820() {
             S. Bernardo, Confessor e Doutor, a 20 de Agosto
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

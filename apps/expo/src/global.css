@@ -66,7 +66,7 @@
   }
 
   .side-by-side {
-    @apply flex flex-row flex-wrap w-full text-justify font-body;
+    @apply flex flex-row flex-wrap w-full py-2 text-justify font-body;
   }
 
   .cross {
@@ -84,6 +84,6 @@
   }
 
   .em {
-    @apply rounded bg-sepia-200 px-1 py-1 italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply rounded bg-sepia-200 px-1 py-1 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   }
 }

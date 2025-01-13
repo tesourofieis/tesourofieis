@@ -12,13 +12,13 @@ export default function Page0828() {
         <View className="docs">
           <Text className="h1">S. Agostinho, a 28 de Agosto</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

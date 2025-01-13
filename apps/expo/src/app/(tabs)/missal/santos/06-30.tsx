@@ -11,7 +11,7 @@ export default function Page0630() {
         <View className="docs">
           <Text className="h1">Comemoração de S. Paulo, a 30 de Junho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             «O Tibre, entrando em Roma, escreve um poeta antigo, saúda a
             basílica de São Pedro, e, retirando-se, a de São Paulo. O porteiro
             celeste fixou a sua morada sagrada às portas da cidade eterna,
@@ -21,7 +21,7 @@ export default function Page0630() {
             Aarão, mais eloquente do que o primeiro, escolhido desde o seio
             materno para anunciar as riquezas da graça de Cristo aos Gentios
             (Or., Grad., Ep.).
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

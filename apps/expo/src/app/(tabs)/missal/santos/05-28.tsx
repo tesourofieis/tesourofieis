@@ -15,7 +15,7 @@ export default function Page0528() {
             S. Agostinho de Cantorbéry, B. e C., a 28 de Maio
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -24,7 +24,7 @@ export default function Page0528() {
               Missa Sacerdótes tui
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

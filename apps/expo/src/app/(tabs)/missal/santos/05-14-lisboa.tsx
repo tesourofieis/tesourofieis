@@ -12,7 +12,7 @@ export default function Page0514Lisboa() {
         <View className="docs">
           <Text className="h1">S. Gil, Confessor, a 14 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -21,7 +21,7 @@ export default function Page0514Lisboa() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

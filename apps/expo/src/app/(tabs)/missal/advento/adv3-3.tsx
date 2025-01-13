@@ -31,7 +31,7 @@ export default function PageAdv33() {
             </Text>
           </View>
 
-          <View className="aside">Depois do Kyrie eleison o Padre diz:</View>
+          <Text className="aside">Depois do Kyrie eleison o Padre diz:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

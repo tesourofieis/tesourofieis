@@ -11,7 +11,7 @@ export default function Page0703() {
         <View className="docs">
           <Text className="h1">S. Leão II, Papa, Conf., a 3 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Leão II, siciliano de origem, participou da plenitude do sacerdócio
             de Cristo (Intr., Ep., Grad., Ale.), tornando-se Papa. Guiado pelo
             Espírito Santo, soube valorizar as riquezas espirituais da Igreja a
@@ -22,7 +22,7 @@ export default function Page0703() {
             conduzindo, por seu exemplo e sua palavra, todo o mundo à virtude.
             Morreu em 683 sendo sepultado na basílica de S. Pedro. Imitemos os
             exemplos (Or.) deste sucessor de S. Pedro no trono pontifical.
-          </View>
+          </Text>
 
           <Missa />
         </View>

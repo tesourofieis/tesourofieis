@@ -14,7 +14,7 @@ export default function Page0509() {
             S. Gregório Nazianzeno, B. C. e Doutor, a 9 de Maio
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Gregório nasceu em Nazianzo na Capadócia, instruiu-se, em Atenas, em
             toda a espécie de ciências, ao mesmo tempo que S. Basílio o Grande,
             a quem foi unido pelos laços de santa amizade. Irmãos nos estudos,
@@ -37,9 +37,9 @@ export default function Page0509() {
             Sabedoria e Inteligência», a sua profunda ciência das letras divinas
             mereceu-lhe o título de Doutor e Teólogo que a Igreja consagrou. S.
             Gregório morreu em 389.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
@@ -49,7 +49,7 @@ export default function Page0509() {
               Segunda Epístola
             </Link>{" "}
             .
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

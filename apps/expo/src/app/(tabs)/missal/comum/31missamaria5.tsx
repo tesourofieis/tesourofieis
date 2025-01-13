@@ -15,13 +15,13 @@ export default function Page31Missamaria5() {
             Pentecostes até ao Advento
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/29missamaria3">
               3.ª Missa
             </Link>{" "}
             , excepto o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Gradual</Text>
 

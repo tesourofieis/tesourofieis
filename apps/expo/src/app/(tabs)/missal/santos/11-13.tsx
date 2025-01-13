@@ -10,10 +10,10 @@ export default function Page1113() {
         <View className="docs">
           <Text className="h1">S. Diogo, Conf., a 13 de Novembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Justus ut
             palma](/missal/comum/15confessoresnaopontifices2), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

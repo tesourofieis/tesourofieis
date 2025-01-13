@@ -14,7 +14,7 @@ export default function Page1104() {
             S. Carlos Borromeu, B. e Conf., a 4 de Novembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -23,7 +23,7 @@ export default function Page1104() {
               Missa Státuit ei
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

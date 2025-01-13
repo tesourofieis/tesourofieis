@@ -13,7 +13,7 @@ export default function Page0701() {
             Preciosíssimo Sangue de N. S. J. C., a 1 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             A liturgia, esse admirável resumo da história da Igreja, recorda
             anualmente que nesta data, em 1849, foi vencida, graças ao concurso
             dos exércitos franceses, a Revolução, que havia expulsado o Papa de
@@ -28,7 +28,7 @@ export default function Page0701() {
             ocasião do seu baptismo nas águas do Jordão e do baptismo do seu
             sangue na Cruz (Grad.). Veneremos o Sangue precioso de nosso
             Redentor, oferecido pelo sacerdote a Deus, sobre o altar.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

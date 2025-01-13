@@ -15,7 +15,7 @@ export default function Page0714() {
             S. Boaventura, B. Confessor e Doutor, a 14 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             S. Boaventura nasceu na Toscana, em 1221. Entrou para a Ordem
             franciscan após uma cura milagrosa, devida à intercessão de São
             Francisco de Assis. Teve por mestre Alexandre de Hales o qual
@@ -27,15 +27,15 @@ export default function Page0714() {
             depois Cardeal da Igreja (Com., Ale.), morreu em 1274 por ocasião do
             Concílio geral de Lião, em que Gregos e Latinos lhe admiravam
             imensamente o ardor e clareza que dele fazia um astro de fé.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Gradual</Text>
 

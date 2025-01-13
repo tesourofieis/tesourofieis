@@ -13,13 +13,13 @@ export default function Page0227Portugal() {
           <Text className="h1">
             S. Torquato, Bispo e Mártir, a 27 de Fevereiro
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/5martirnaopontifice2">
               Missa Lætábitur justus
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           Dignai-Vos ouvir clementemente, Senhor, as preces do vosso povo, a fim
           de que sejamos auxiliados pelos méritos do B. Torquato, vosso Mártir e

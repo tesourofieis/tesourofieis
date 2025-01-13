@@ -14,13 +14,13 @@ export default function PagePasc53() {
             Vigília da Festa da Ascensão de N. S. J. C.
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como no{" "}
             <Link className="link" href="/missal/pascoa/pasc5-0">
               5.º Domingo depois da Páscoa
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

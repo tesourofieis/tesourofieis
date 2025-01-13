@@ -14,13 +14,13 @@ export default function Page0916Outro2() {
           <Text className="h1">
             Santa Eufémia e Outros, Mártires, a 16 de Setembro
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/6muitosmartires1">
               Missa Intret in
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           Concedei aos vossos servos, Senhor, um jubiloso socorro, a fim de que,
           celebrando devotamente neste dia, em cada ano, a paixão dos vossos S.

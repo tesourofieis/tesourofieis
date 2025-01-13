@@ -14,14 +14,14 @@ export default function Page0603() {
             S. Ovídio, B. e Mártir, a 3 de Junho, Na Arquidiocese de Braga e
             noutras Dioceses
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
               Missa Protexísti me
             </Link>{" "}
             , excepto: Fora do Tempo Pascal Como na [Missa Sacerdótes
             tui](/missal/comum/12confessorespontifices2), excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó Deus, que maravilhosamente
           ilustrastes a vossa Igreja com a pregação apostólica do B. Ovídio,
           vosso Mártir e Pontífice, concedei-nos propício que intercedam por nós

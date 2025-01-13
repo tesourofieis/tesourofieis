@@ -14,7 +14,7 @@ export default function Page0612() {
             S. João de S. Facundo, Conf., a 12 de Junho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -23,7 +23,7 @@ export default function Page0612() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

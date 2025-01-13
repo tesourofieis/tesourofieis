@@ -13,13 +13,13 @@ export default function Page0603Angola() {
           <Text className="h1">
             S. S. Carlos Lwanga e Outros, Mártires, a 3 de Junho, Em Angola
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/6muitosmartires1">
               Missa Intret in
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó Deus, que nos permitistes a graça
           de celebrarmos o nascimento no céu dos vossos Santos Mártires Carlos,
           Matias e seus Companheiros, concedei-nos ainda a graça de gozarmos na

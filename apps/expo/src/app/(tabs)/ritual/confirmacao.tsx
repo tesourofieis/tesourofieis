@@ -10,11 +10,11 @@ export default function PageConfirmacao() {
         <View className="docs">
           <Text className="h1">Confirmação</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Logo que é dado o respectivo sinal para começar a Cerimónia da
             Confirmação (Santo Crisma), aqueles que vão receber o Sacramento
             ajoelham diante do Bispo, que começa:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -74,10 +74,10 @@ export default function PageConfirmacao() {
 
           <Text className="h1">Imposição das Mãos</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Bispo estende as mãos sobre as cabeças dos que vão receber a
             Confirmação, os quais as inclinam mediocremente:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -155,12 +155,12 @@ export default function PageConfirmacao() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Todos se erguem, apresentando-se um a um ao Bispo (com ordem e
             sempre encomendando-se a Deus) para os ungir. Chegados aos pé do
             Bispo, devem ajoelhar-se e dizer de modo inteligível o seu nome de
             Baptismo. Bispo diz, fazendo
-          </View>
+          </Text>
 
           <Text className="h1">A Unção</Text>
 
@@ -193,10 +193,10 @@ export default function PageConfirmacao() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Um dos Clérigos Assistentes ao Bispo limpará a Unção do que recebeu
             o Sacramento, o qual não poderá retirar-se do Templo sem receber
-          </View>
+          </Text>
 
           <Text className="h1">A Bênção</Text>
 

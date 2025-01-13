@@ -15,7 +15,7 @@ export default function Page0513() {
             S. Roberto Belarmino, B. C. e Doutor, a 13 de Maio
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Nascido em Montepulciano (Itália) a 4 de Outubro de 1542, faleceu em
             Roma a 17 de Setembro de 1621, canonizado por Pio XI em 29 de Junho
             de 1930, proclamado Doutor da Igreja em 15 de Agosto de 1931.
@@ -38,15 +38,15 @@ export default function Page0513() {
             autorizado pelo Papa a retirar-se para o noviciado de S. André,
             berço de sua vida religiosa, onde se preparou para a mais santa das
             mortes.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

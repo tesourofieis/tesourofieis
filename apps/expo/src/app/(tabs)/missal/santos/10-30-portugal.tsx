@@ -12,10 +12,10 @@ export default function Page1030Portugal() {
             Vitória dos Cristãos, a 30 de Outubro, Missa de Acção de Graças pela
             vitória que os cristãos alcançaram na luta contra os sarracenos
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Evangelho, ofertório e secreta como na Missa da [Invenção da Santa
             Cruz](/missal/santos/05-03-1).
-          </View>
+          </Text>
           <Text className="h3">Intróito</Text>
           Alegremo-nos em Deus em todo este dia: e louvemos eternamente o vosso
           nome, Senhor; pois salvastes-nos dos nossos inimigos e confundistes os

@@ -14,13 +14,13 @@ export default function Page1125() {
             Santa Catarina, Virgem e Mártir, a 25 de Novembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/17virgensmartires1">
               Missa Loquébar
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

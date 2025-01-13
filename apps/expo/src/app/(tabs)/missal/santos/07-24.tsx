@@ -13,7 +13,7 @@ export default function Page0724() {
             Vigília de S. Tiago, Apóstolo, a 24 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como a maior parte das festas dos Apóstolos, outrora dias santos de
             guarda, a festa de S. Tiago é precedida de uma vigília. O Santo foi
             um dos membros do Colégio dos Doze que, à semelhança dos doze filhos
@@ -27,7 +27,7 @@ export default function Page0724() {
             consiste em sacrificar a própria vida pelos que se ama (Ev.).
             Preparemo-nos com a Igreja, no recolhimento e espírito de
             penitência, para a festa de amanhã.
-          </View>
+          </Text>
 
           <Missa />
         </View>

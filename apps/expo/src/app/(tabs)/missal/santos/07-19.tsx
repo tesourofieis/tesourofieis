@@ -11,7 +11,7 @@ export default function Page0719() {
         <View className="docs">
           <Text className="h1">S. Vicente de Paulo, Conf., a 19 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Providência, sempre maternal em sua solicitude para com os homens,
             suscitou no século XVII a S. Vicente de Paulo, a quem cumulou com o
             Espírito que fortificára os Apóstolos. Vicente contribuiu muito para
@@ -37,12 +37,12 @@ export default function Page0719() {
             Peçamos a Deus, que, a exemplo de S. Vicente cujos piedosos méritos
             (Or.) hoje veneramos, os nossos corações sejam abrasados, como o
             seu, na divina caridade.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Justus ut
             palma](/missal/comum/15confessoresnaopontifices2), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

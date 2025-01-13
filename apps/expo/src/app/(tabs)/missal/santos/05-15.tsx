@@ -12,7 +12,7 @@ export default function Page0515() {
             S. João Baptista de la Salle, Conf., a 15 de Maio
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Nascido em Reims, a 30 de Abril de 1651, duma ilustre família, S.
             João Baptista de la Salle, tornou-se caro a todos, desde a sua
             infância, pelas virtudes de sua alma, a doçura de sua natureza e
@@ -38,7 +38,7 @@ export default function Page0515() {
             abençoar a sua obra, no universo inteiro. À imitação do Santo,
             «tenhamos grande zelo em procurar a glória de Deus salvando-lhes
             almas, a fim de merecermos igual recompensa no céu».
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

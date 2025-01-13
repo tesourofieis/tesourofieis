@@ -10,10 +10,10 @@ export default function PageAscensao() {
         <View className="docs">
           <Text className="h1">Prefácio da Ascensão</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se desde a Ascensão até à Vigília de Pentecostes, excepto quando
             há Prefácio próprio.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

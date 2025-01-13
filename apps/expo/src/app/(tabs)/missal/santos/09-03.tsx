@@ -124,10 +124,10 @@ export default function Page0903() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Nas Missas Votivas após a Septuagésima, omitem-se o Aleluia e o
             Verso, e diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 

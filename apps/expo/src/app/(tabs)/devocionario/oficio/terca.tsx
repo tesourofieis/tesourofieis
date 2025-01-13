@@ -16,11 +16,11 @@ export default function PageTerca() {
         <View className="docs">
           <Text className="h1">Terça</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Meditemos na flagelação, na coroação de espinhos e na condenação à
             morte. Podemos ainda meditar na descida do Espírito Santo, que se
             deu nesta mesma hora.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -370,13 +370,13 @@ export default function PageTerca() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Acabar com uma{" "}
             <Link className="link" href="/devocionario/antifonas">
               Antífona de Nossa Senhora
             </Link>
             .
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

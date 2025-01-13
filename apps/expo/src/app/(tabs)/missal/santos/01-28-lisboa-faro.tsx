@@ -14,13 +14,13 @@ export default function Page0128LisboaFaro() {
             Sétimo dia dentro da Oitava de S. Vicente, Mártir, a 28 de Janeiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/01-22-lisboa-faro">
               Missa de Festa
             </Link>{" "}
             , e comemoração de Santa Inês:
-          </View>
+          </Text>
 
           <Text className="h3">Oração Comemoração Santa Inês</Text>
 

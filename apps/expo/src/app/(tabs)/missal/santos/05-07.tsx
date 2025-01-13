@@ -12,21 +12,21 @@ export default function Page0507() {
         <View className="docs">
           <Text className="h1">S. Estanislau, B. e Mártir, a 7 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Nascido na Polónia, Estanislau foi nomeado bispo de Cracóvia em
             1072. Boleslau II, cuja tirania e desregramento de costumes
             censurava, votou-lhe grande ódio. Um dia, ao celebrar Estanislau a
             Santa Missa, o príncipe agarrou-o pela garganta, sufocando-o. Era o
             ano de 1079. Este Santo é o padroeiro da Polónia.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
               Missa Protexísti me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -12,10 +12,10 @@ export default function Page0102() {
             Oitava de S. Estevão, Mártir, a 2 de Janeiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa S. Estêvão, Primeiro Mártir, a 26 de
             Dezembro](/missal/santos/12-26), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

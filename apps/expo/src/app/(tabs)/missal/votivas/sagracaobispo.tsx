@@ -10,10 +10,10 @@ export default function PageSagracaobispo() {
         <View className="docs">
           <Text className="h1">Na Sagração de um Bispo</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Missa Própria do dia, acrescentando-se à Oração, à Secreta e ao
             Postcomúnio, sob a mesma conclusão, o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

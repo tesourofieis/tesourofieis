@@ -15,13 +15,13 @@ export default function Page1122() {
             Santa Cecília, Virgem e Mártir, a 22 de Novembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/17virgensmartires1">
               Missa Loquébar
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

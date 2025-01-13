@@ -12,7 +12,7 @@ export default function Page0729() {
         <View className="docs">
           <Text className="h1">Santa Marta, Virgem, a 29 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Depois de havermos celebrado a 22 deste mês a festa de Santa Maria
             Madalena, veneramos hoje Marta, sua irmã. Descendente de parentes
             nobres e ricos, morava na Betânia, a duas milhas de Jerusalém.
@@ -37,15 +37,15 @@ export default function Page0729() {
             reservada a Maria, e, se Ele nos chama a partilhar das solicitudes
             de Marta, procuremos, como os Santos, compensar, pelo espírito de
             oração, o que falta à vida activa.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/20virgemnaomartir1">
               Missa Dilexísti justitiam
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Evangelho</Text>
 

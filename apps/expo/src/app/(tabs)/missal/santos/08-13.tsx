@@ -14,13 +14,13 @@ export default function Page0813() {
             S. S. Hipólito e Cassiano, Mártires, a 13 de Agosto
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/8muitosmartires3">
               Missa Salus autem
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -12,7 +12,7 @@ export default function Page0505() {
         <View className="docs">
           <Text className="h1">S. Pio V, Papa e Conf., a 5 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Pio, nasceu em Bosco (Lombardia). Aos quatorze anos entrou para a
             Ordem dos Dominicanos. Bispo, Cardeal e Papa fez valer os talentos
             de Deus recebidos. Seu Pontificado, embora curto, foi um dos mais
@@ -25,15 +25,15 @@ export default function Page0505() {
             Senhora das Victórias, que mais tarde se tornou a do Santíssimo
             Rosário. Morreu a 5 de Maio de 1572, recitando o hino do Tempo
             Pascal.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/sumospontifices">
               Missa Si díligis me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

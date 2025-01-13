@@ -14,7 +14,7 @@ export default function Page0522Braga() {
             B. B. João B. Machado e Outros, Ms., a 22 de Maio, Na Arquidiocese
             de Braga e noutros lugares
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/10martires">
               Missa Sancti tui
@@ -24,7 +24,7 @@ export default function Page0522Braga() {
               Missa Sapiéntiam sanctórum
             </Link>
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           Deixai-Vos aplacar, Senhor, Vos pedimos, e concedei-nos o vosso
           auxílio; e pela intercessão dos vossos B. B. Mártires João Baptista e

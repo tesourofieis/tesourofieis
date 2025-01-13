@@ -12,7 +12,7 @@ export default function Page0705() {
             S. António Maria Zacarias, Conf., a 5 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             António Maria nasceu de nobre família de Cremona. A sagacidade do
             espírito, aumentada ainda pela integridade da vida, deu-lhe a
             superioridade sobre os seus condiscípulos. Depois de haver recebido,
@@ -30,7 +30,7 @@ export default function Page0705() {
             conselhos que o guiaram nos seus ensinamentos. Consolado com a visão
             celeste dos Apóstolos, morreu mui santamente, na idade de 36 anos,
             em 1539.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

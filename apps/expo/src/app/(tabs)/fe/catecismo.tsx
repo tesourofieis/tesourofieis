@@ -43,7 +43,7 @@ export default function PageCatecismo() {
           </Text>
           Amar a Deus sobre todas as coisas e ao próximo como a nós mesmos.
           <Text className="h2">Mandamentos da Igreja</Text>
-          <View className="aside">Os mandamentos da Igreja são cinco:</View>
+          <Text className="aside">Os mandamentos da Igreja são cinco:</Text>
           <View className="list-styled">
             <Text className="li text-justify">
               1º - Ouvir Missa inteira nos domingos e festas de guarda.
@@ -2117,7 +2117,7 @@ export default function PageCatecismo() {
           verdadeiro tudo o que nestes doze artigos se contém, e estou mais
           certo disso do que se o visse com os meus olhos.
           <Text className="h1">Segunda Parte</Text>
-          <View className="aside">Da Oração</View>
+          <Text className="aside">Da Oração</Text>
           <Text className="h2">
             I - <Text className="em">Da oração em geral</Text>
           </Text>
@@ -4472,7 +4472,7 @@ export default function PageCatecismo() {
           porque nos ajudam a desapegar o coração do amor dos bens terrenos, dos
           prazeres e das honras, e assim nos afastam do pecado.
           <Text className="h1">Quarta Parte</Text>
-          <View className="aside">Dos Sacramentos</View>
+          <Text className="aside">Dos Sacramentos</Text>
           <Text className="h2">
             I - <Text className="em">Dos Sacramentos em geral</Text>
           </Text>

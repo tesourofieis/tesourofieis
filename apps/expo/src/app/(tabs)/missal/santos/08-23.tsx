@@ -11,10 +11,10 @@ export default function Page0823() {
         <View className="docs">
           <Text className="h1">S. Filipe Benício, Conf., a 23 de Agosto</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Justus ut
             palma](/missal/comum/15confessoresnaopontifices2), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

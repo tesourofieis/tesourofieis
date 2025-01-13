@@ -12,13 +12,13 @@ export default function Page1126() {
         <View className="docs">
           <Text className="h1">S. Silvestre, Abade, a 26 de Novembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/16abades">
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
@@ -76,13 +76,13 @@ export default function Page1126() {
 
           <Text className="h2">Comemoração de S. Pedro Alexandrino</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/11-26-outro">
               missa seguinte
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

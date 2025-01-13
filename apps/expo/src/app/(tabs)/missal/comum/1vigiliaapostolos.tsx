@@ -51,10 +51,10 @@ export default function Page1Vigiliaapostolos() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Se nesta Missa a Oração Precedente é recitada em honra de outro
             Santo, substitui-se pela seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

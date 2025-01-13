@@ -10,7 +10,7 @@ export default function PageQuad60() {
         <View className="docs">
           <Text className="h1">Domingo dos Ramos</Text>
 
-          <View className="aside">
+          <Text className="aside">
             A liturgia de hoje exprime em duas cerimónias, uma cheia de alegria,
             a outra de tristeza, os dois aspectos sob os quais a Igreja
             considera a Cruz. Primeiramente, a bênção e procissão dos ramos, a
@@ -18,7 +18,7 @@ export default function PageQuad60() {
             reviver a cena grandiosa da entrada triunfal de Jesus em Jerusalém.
             Depois entra a Missa, cujos cânticos e leituras se referem
             exclusivamente à dolorosa lembrança da Paixão do Salvador.
-          </View>
+          </Text>
 
           <Text className="h2">Bênção dos Ramos</Text>
 
@@ -1620,10 +1620,10 @@ export default function PageQuad60() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Interrompe-se aqui a leitura e diz-se o [MUNDA COR
             MEUM](/missal/ordo#munda-cor). Depois continua-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

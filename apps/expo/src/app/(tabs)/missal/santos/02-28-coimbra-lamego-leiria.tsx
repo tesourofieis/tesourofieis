@@ -15,13 +15,13 @@ export default function Page0228CoimbraLamegoLeiria() {
             Fevereiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/08-28">
               Missa na festa
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h2">Oração</Text>
 

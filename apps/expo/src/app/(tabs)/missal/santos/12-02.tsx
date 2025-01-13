@@ -14,13 +14,13 @@ export default function Page1202() {
             Santa Bibiana, Virgem e Mártir, a 2 de Dezembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/18virgensmartires2">
               Missa Me exspectavérunt
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

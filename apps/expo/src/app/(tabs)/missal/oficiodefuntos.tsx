@@ -12,7 +12,7 @@ export default function PageOficiodefuntos() {
         <View className="docs">
           <Text className="h1">Ofício dos Defuntos</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Rezar{" "}
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai-nosso
@@ -22,7 +22,7 @@ export default function PageOficiodefuntos() {
               Ave-Maria
             </Link>{" "}
             ; [Creio em Deus](/devocionario/oracoes/simboloapostolos).
-          </View>
+          </Text>
 
           <Text className="h2">Invitatório</Text>
 

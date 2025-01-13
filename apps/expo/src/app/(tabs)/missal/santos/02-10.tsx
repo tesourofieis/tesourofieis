@@ -14,13 +14,13 @@ export default function Page0210() {
             Santa Escolástica, Virgem, a 10 de Fevereiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/20virgemnaomartir1">
               Missa Dilexísti justitiam
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

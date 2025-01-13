@@ -10,11 +10,11 @@ export default function PageMaria() {
         <View className="docs">
           <Text className="h1">Prefácio da B. Virgem Maria</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se nas Festas da Santíssima Virgem (excepto na da Purificação) e
             nos seus Oitavários, alterando-se, porém, algumas palavras (segundo
             a Festa que se celebra), como se diz na nota de rodapé.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

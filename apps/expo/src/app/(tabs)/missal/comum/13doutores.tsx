@@ -282,7 +282,7 @@ export default function Page13Doutores() {
             </Text>
           </View>
 
-          <View className="aside">Outra Epístola (para certos dias):</View>
+          <Text className="aside">Outra Epístola (para certos dias):</Text>
 
           <Text className="h3">Epístola2</Text>
 

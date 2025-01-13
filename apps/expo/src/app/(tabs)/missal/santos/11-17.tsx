@@ -14,7 +14,7 @@ export default function Page1117() {
             S. Gregório Taumaturgo, B. e C., a 17 de Novembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -23,7 +23,7 @@ export default function Page1117() {
               Missa Státuit ei
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Evangelho</Text>
 

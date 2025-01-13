@@ -10,10 +10,10 @@ export default function PageTrindade() {
         <View className="docs">
           <Text className="h1">Prefácio da SS. Trindade</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se na Festa da Santíssima Trindade e nos Domingos que não
             tiverem Prefácio próprio.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

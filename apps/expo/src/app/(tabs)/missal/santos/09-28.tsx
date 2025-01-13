@@ -12,13 +12,13 @@ export default function Page0928() {
         <View className="docs">
           <Text className="h1">S. Venceslau, Mártir, a 28 de Setembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/4martirnaopontifice1">
               Missa In virtúte tua
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -10,11 +10,11 @@ export default function PageSantissimosacramento() {
         <View className="docs">
           <Text className="h1">Missa do Santíssimo Sacramento</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa do Santíssimo Corpo de
             Cristo](/missal/pentecostes/pent1-4), excepto: Depois da
             Septuagésima omite-se o Aleluia o Verso que se segue, e diz-se o:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 

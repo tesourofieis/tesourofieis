@@ -12,7 +12,7 @@ export default function Page0416Braga() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Frutuoso, B., a 16 de Abril</Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -21,7 +21,7 @@ export default function Page0416Braga() {
               Missa Státuit ei
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó Deus, que nos fizestes chegar com
           júbilo até à festa deste dia, em que veneramos o B. Frutuoso, vosso
           Confessor e Pontífice, concedei-nos, Vos rogamos, que, assim como o

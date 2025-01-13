@@ -14,13 +14,13 @@ export default function Page1108() {
             Os Quatro S. S. Mártires Coroados, a 8 de Novembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/6muitosmartires1">
               Missa Intret in
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -120,10 +120,10 @@ export default function PagePaixao() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e a Verso que se segue, e
             diz-se o:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 

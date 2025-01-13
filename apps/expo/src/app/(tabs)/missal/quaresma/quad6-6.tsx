@@ -11,7 +11,7 @@ export default function PageQuad66() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Sábado Santo</Text>
-          <View className="aside">
+          <Text className="aside">
             A Estação é em São João de Latrão. Na basílica mãe e mestra do mundo
             cristão, celebra a Igreja a primeira Missa de Páscoa e recebe em seu
             seio os numerosos Catecúmenos que outrora baptizava neste dia.
@@ -31,7 +31,7 @@ export default function PageQuad66() {
             manhã do Sábado, constatando-se assim uma transição súbita da
             tristeza à alegria e certas anomalias que esta observação faz
             compreender.
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -2270,7 +2270,7 @@ export default function PageQuad66() {
             </Text>
           </View>
           <Text className="h3">Comunicantes</Text>
-          <View className="aside">Diz-se até ao Sábado seguinte</View>
+          <Text className="aside">Diz-se até ao Sábado seguinte</Text>
           <View className="side-by-side">
             <Text className="text-base latin">
               Communicántes, et noctem sacratíssimam celebrántes Resurrectiónis
@@ -2287,7 +2287,7 @@ export default function PageQuad66() {
             </Text>
           </View>
           <Text className="h3">Hanc ígitur</Text>
-          <View className="aside">Diz-se até ao Sábado seguinte</View>
+          <Text className="aside">Diz-se até ao Sábado seguinte</Text>
           <View className="side-by-side">
             <Text className="text-base latin">
               Hanc ígitur oblatiónem servitútis nostræ, sed et cunctæ famíliæ
@@ -2309,10 +2309,10 @@ export default function PageQuad66() {
               Senhor...
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             E o restante como no Ordinário da Missa, menos o Agnus Dei. Após a
             Comunhão, cantam-se as:
-          </View>
+          </Text>
           <Text className="h2">Vésperas</Text>
           <Text className="h3">Antífona</Text>
           <View className="side-by-side">
@@ -2337,7 +2337,7 @@ export default function PageQuad66() {
               Senhor permanecerá eternamente. Glória ao Pai...
             </Text>
           </View>
-          <View className="aside">Repete-se a Antífona anterior.</View>
+          <Text className="aside">Repete-se a Antífona anterior.</Text>
           <Text className="h3">Antífona</Text>
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -2353,7 +2353,7 @@ export default function PageQuad66() {
           <Text className="h3">Magnificat</Text>
           <Text className="em">Lc. 1, 46-55</Text>
           <Magnificat />
-          <View className="aside">Repete-se a Antífona anterior.</View>
+          <Text className="aside">Repete-se a Antífona anterior.</Text>
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
             <Text className="text-base latin">

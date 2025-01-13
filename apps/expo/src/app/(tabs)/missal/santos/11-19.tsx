@@ -12,13 +12,13 @@ export default function Page1119() {
         <View className="docs">
           <Text className="h1">Santa Isabel, Viúva, a 19 de Novembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
               Missa Cognóvi, Dómine
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

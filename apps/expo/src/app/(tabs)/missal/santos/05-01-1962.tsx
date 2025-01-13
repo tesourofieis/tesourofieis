@@ -101,7 +101,7 @@ export default function Page05011962() {
             </Text>
           </View>
 
-          <View className="aside">Fora do Tempo Pascal diz-se:</View>
+          <Text className="aside">Fora do Tempo Pascal diz-se:</Text>
 
           <Text className="h3">Gradual</Text>
 

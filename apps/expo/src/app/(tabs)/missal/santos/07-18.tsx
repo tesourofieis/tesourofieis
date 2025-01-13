@@ -11,7 +11,7 @@ export default function Page0718() {
         <View className="docs">
           <Text className="h1">S. Camilo de Lélis, Conf., a 18 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Espírito Santo, que se manifestou de todos os modos na alma dos
             Santos cujos nomes apareceram no Ciclo desde a festa de Pentecostes,
             faz-nos admirar hoje a S. Camilo, cuja caridade teve especialmente
@@ -28,12 +28,12 @@ export default function Page0718() {
             vitoriosamente as almas na suprema luta da agonia (Or., Secre.),
             pelo que o nome do Santo foi inserido pela Igreja nas Ladainhas dos
             agonizantes. S. Camilo morreu em Roma a 14 de Julho de 1624.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Comemoração de Santa Sinforoza e seus Filhos como na [Missa
             Sapiéntiam sanctórum](/missal/comum/7muitosmartires2).
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

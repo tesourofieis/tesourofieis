@@ -13,7 +13,7 @@ export default function Page0627() {
             Terceiro dia na Oitava de São João, a 27 de Junho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Igreja, honrando os Santos segundo o maior ou menor papel por eles
             desempenhado no Mistério da Encarnação do Verbo, dá a S. João
             Baptista um lugar de destaque. Diáriamente na Santa Missa, tanto no
@@ -51,7 +51,7 @@ export default function Page0627() {
             baptismais. Sendo conduzidos por ele a Jesus, aproximemo-nos também
             da Eucarístia por S. João, recitando as palavras do «Agnus Dei»
             pelas quais ele designará o Salvador.
-          </View>
+          </Text>
 
           <Missa />
         </View>

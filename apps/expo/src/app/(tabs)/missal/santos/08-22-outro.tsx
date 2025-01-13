@@ -14,13 +14,13 @@ export default function Page0822Outro() {
             S. Timóteo e Outros, Mártires, a 22 de Agosto
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/8muitosmartires3">
               Missa Salus autem
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

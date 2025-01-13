@@ -11,10 +11,10 @@ export default function Page1111() {
         <View className="docs">
           <Text className="h1">S. Martinho, a 11 de Novembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Comemoração de S. Mena como na [Missa In virtúte
             tua](/missal/comum/4martirnaopontifice1).
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

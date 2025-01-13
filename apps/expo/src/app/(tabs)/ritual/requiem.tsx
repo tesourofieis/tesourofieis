@@ -14,13 +14,13 @@ export default function PageRequiem() {
 
           <Text className="h1">No dia do óbito ou do Funeral</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/11-02">
               Comemoração dos Fiéis Defuntos
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h2">Oração</Text>
 
@@ -172,7 +172,7 @@ export default function PageRequiem() {
 
           <Text className="h1">No 3.º, 7.º ou 30.º dia do Óbito</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -181,7 +181,7 @@ export default function PageRequiem() {
               Missa precedente
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h2">Oração</Text>
 
@@ -245,13 +245,13 @@ export default function PageRequiem() {
 
           <Text className="h1">No dia do Aniversário</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/11-02">
               Comemoração dos Fiéis Defuntos
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h2">Oração</Text>
 
@@ -384,17 +384,17 @@ export default function PageRequiem() {
 
           <Text className="h1">Quotidiana</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/11-02">
               Comemoração dos Fiéis Defuntos
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h2">Oração</Text>
 
-          <View className="aside">Bispos e Padres</View>
+          <Text className="aside">Bispos e Padres</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -412,7 +412,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Oração</Text>
 
-          <View className="aside">Irmãos, Parentes e Benfeitores</View>
+          <Text className="aside">Irmãos, Parentes e Benfeitores</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -434,7 +434,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Oração</Text>
 
-          <View className="aside">Fiéis</View>
+          <Text className="aside">Fiéis</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -550,7 +550,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Secreta</Text>
 
-          <View className="aside">Bispos e Padres</View>
+          <Text className="aside">Bispos e Padres</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -570,7 +570,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Secreta</Text>
 
-          <View className="aside">Irmãos, Parentes e Benfeitores</View>
+          <Text className="aside">Irmãos, Parentes e Benfeitores</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -591,7 +591,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Secreta</Text>
 
-          <View className="aside">Fiéis</View>
+          <Text className="aside">Fiéis</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -610,7 +610,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Postcomúnio</Text>
 
-          <View className="aside">Bispos e Padres</View>
+          <Text className="aside">Bispos e Padres</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -630,7 +630,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Postcomúnio</Text>
 
-          <View className="aside">Irmãos, Parentes e Benfeitores</View>
+          <Text className="aside">Irmãos, Parentes e Benfeitores</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -652,7 +652,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Postcomúnio</Text>
 
-          <View className="aside">Fiéis</View>
+          <Text className="aside">Fiéis</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

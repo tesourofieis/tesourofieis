@@ -12,13 +12,13 @@ export default function Page0809Outro2() {
         <View className="docs">
           <Text className="h1">S. Romão, Mártir, a 9 de Agosto</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/5martirnaopontifice2">
               Missa Lætábitur justus
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -13,7 +13,7 @@ export default function Page0704() {
             Santa Isabel, Rainha de Portugal, a 4 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Igreja nos exorta hoje a louvar a Deus pelas santas obras da
             bem-aventurada Isabel. Filha de Pedro III de Aragão, herdou o nome e
             as virtudes de sua tia-avó [Santa Isabel da
@@ -25,7 +25,7 @@ export default function Page0704() {
             Terceira, distribuiu suas riquezas, adquirindo, por esse meio, a
             pérola preciosa e tesouro oculto da vida eterna (Ev.). Morreu em
             1336, em Coimbra. Seu corpo conservou-se intacto.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

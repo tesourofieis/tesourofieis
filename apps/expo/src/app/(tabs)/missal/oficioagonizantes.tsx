@@ -583,16 +583,16 @@ export default function PageOficioagonizantes() {
             </Text>
           </View>
           <Text className="h1">Prestes a Expirar</Text>
-          <View className="aside">
+          <Text className="aside">
             Quando o moribundo está Prestes a expirar, diligenciar-se-á que ele
             diga:
-          </View>
+          </Text>
           Jesus! Jesus! Jesus!
-          <View className="aside">
+          <Text className="aside">
             Se ele não pode Pronunciar estes nomes, serão Proferidos por quem
             diz o Ofício da Agonia, de maneira que ele os ouça; e do mesmo modo
             se continuará:
-          </View>
+          </Text>
           <View className="side-by-side">
             <Text className="text-base latin">
               In manus tuas, Domine, commendo spiritum meum.

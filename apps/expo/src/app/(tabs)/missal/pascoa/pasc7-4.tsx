@@ -12,13 +12,13 @@ export default function PagePasc74() {
         <View className="docs">
           <Text className="h1">Quinta-feira de Pentecostes</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como no dia da{" "}
             <Link className="link" href="/missal/pentecostes/pent7-0">
               Festa de Pentecostes
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

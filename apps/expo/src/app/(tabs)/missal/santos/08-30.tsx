@@ -12,13 +12,13 @@ export default function Page0830() {
         <View className="docs">
           <Text className="h1">Santa Rosa de Lima, Virgem, a 30 de Agosto</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/20virgemnaomartir1">
               Missa Dilexísti justitiam
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

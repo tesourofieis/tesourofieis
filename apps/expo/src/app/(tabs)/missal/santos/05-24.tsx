@@ -12,10 +12,10 @@ export default function Page0524() {
             B. Virgem Maria, Auxílio dos Cristãos, a 24 de Maio
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Comum das Festas da B. V.
             M.](/missal/comum/26festasmaria1), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -14,13 +14,13 @@ export default function Page0118Outro() {
             Comemoração de Santa Prisca, a 18 de Janeiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como a{" "}
             <Link className="link" href="/missal/comum/18virgensmartires2">
               Missa Me exspectavérunt
             </Link>{" "}
             , excepto o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

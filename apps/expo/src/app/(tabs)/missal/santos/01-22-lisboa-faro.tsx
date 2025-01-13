@@ -12,13 +12,13 @@ export default function Page0122LisboaFaro() {
         <View className="docs">
           <Text className="h1">S. Vicente, Mártir, a 22 de Janeiro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/4martirnaopontifice1">
               Missa In virtúte tua
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -12,13 +12,13 @@ export default function Page0123() {
         <View className="docs">
           <Text className="h1">S. Raimundo de Penhafort, a 23 de Janeiro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/16abades">
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

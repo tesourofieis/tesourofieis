@@ -76,7 +76,7 @@ export default function PageTedeum() {
             </Text>
           </View>
 
-          <View className="aside">O seguinte verso diz-se de joelhos:</View>
+          <Text className="aside">O seguinte verso diz-se de joelhos:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

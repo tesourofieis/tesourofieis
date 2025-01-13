@@ -10,10 +10,10 @@ export default function Page0124() {
         <View className="docs">
           <Text className="h1">S. Timóteo, B. e Márt., a 24 de Janeiro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Státuit ei
             Dóminus](/missal/comum/2martirpontificeforapascal), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 

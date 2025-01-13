@@ -10,10 +10,10 @@ export default function Page0105() {
         <View className="docs">
           <Text className="h1">Vigília Epifania</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Domingo dentro do Oitavário do
             Natal](/missal/natal/nat1-0), com o Evangelho:
-          </View>
+          </Text>
 
           <Text className="h3">Evangelho</Text>
 

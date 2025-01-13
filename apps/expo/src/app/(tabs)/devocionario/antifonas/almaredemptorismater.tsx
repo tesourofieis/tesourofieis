@@ -26,7 +26,7 @@ export default function PageAlmaredemptorismater() {
             </Text>
           </View>
 
-          <View className="aside">Durante o Advento:</View>
+          <Text className="aside">Durante o Advento:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

@@ -13,13 +13,13 @@ export default function Page1008() {
         <View className="docs">
           <Text className="h1">Santa Brígida, Viúva, a 8 de Outubro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
               Missa Cognóvi, Dómine
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

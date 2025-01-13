@@ -14,7 +14,7 @@ export default function Page0307() {
             S. Tomás Aquino, Conf. e Doutor, a 7 de Março
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Comemoração S. Tomás de Aquino, Confessor e Doutor da Igreja. Santo
             Tomás, filho do conde de Aquino e de Theodora de Nápoles, foi
             confiado, desde a idade de 5 anos, aos monges benedictinos do Monte
@@ -36,15 +36,15 @@ export default function Page0307() {
             peçamos a Santo Tomás que nos penetra de tal modo com o espírito de
             penitência que possamos, como ele, ter a visão clara dos
             ensinamentos do Mestre, e pô-los em prática.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

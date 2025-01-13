@@ -238,7 +238,7 @@ export default function PagePent25() {
             </Text>
           </View>
 
-          <View className="aside">No Tempo Pascal diz-se o seguinte:</View>
+          <Text className="aside">No Tempo Pascal diz-se o seguinte:</Text>
 
           <Text className="h3">Ofertório</Text>
 

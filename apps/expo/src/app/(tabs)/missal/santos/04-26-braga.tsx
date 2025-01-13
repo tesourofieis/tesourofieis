@@ -11,13 +11,13 @@ export default function Page0426Braga() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Pedro de Rates, a 26 de Abril</Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
               Missa Protexísti me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó Deus, que consagrastes este dia
           com o martírio do B. Pedro, vosso Mártir e Pontífice, concedei à vossa
           Igreja Bracarense a graça de seguir em todas as coisas os gloriosos

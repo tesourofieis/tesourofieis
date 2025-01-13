@@ -27,10 +27,10 @@ export default function PageOrdo() {
 
           <Text className="h3">Orações ao pé do altar</Text>
 
-          <View className="aside">
+          <Text className="aside">
             De pé, diante dos degraus do altar, o Sacerdote começa a Missa,
             fazendo o sinal da cruz e com uma voz clara e audível diz:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -70,10 +70,10 @@ export default function PageOrdo() {
 
           <Text className="h3">Salmo 42</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote e os Acólitos recitam o salmo alternadamente. Nas Missas
             de Defuntos e do Tempo da Paixão este salmo omite-se.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -128,10 +128,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Pequena inclinação da cabeça quando se dá glória ao Pai, ao Filho e
             ao Espírito Santo.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -151,7 +151,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">O Sacerdote repete a Antífona:</View>
+          <Text className="aside">O Sacerdote repete a Antífona:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">℣. Introíbo ad altáre Dei.</Text>
@@ -184,10 +184,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Profundamente inclinado, o Sacerdote diz o Confíteor, humilhando-se
             publicamente, e depois dele, os ajudantes.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -214,7 +214,7 @@ export default function PageOrdo() {
             <Text className="text-base vernacular">℣. Amen.</Text>
           </View>
 
-          <View className="aside">Confissão dos Acólitos e dos fiéis:</View>
+          <Text className="aside">Confissão dos Acólitos e dos fiéis:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -341,7 +341,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">O Sacerdote sobe ao altar, dizendo:</View>
+          <Text className="aside">O Sacerdote sobe ao altar, dizendo:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -381,22 +381,22 @@ export default function PageOrdo() {
 
           <Text className="h3">Intróito do dia</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Nas Missas solenes, incensa-se o altar. O Sacerdote vai para o lado
             da Epístola, e lê o Intróito. Canto solene de entrada, o Intróito
             como que enuncia o tema geral da Missa ou solenidade do dia. Às
             primeiras palavras, todos se benzem, ao mesmo tempo que o
             celebrante.
-          </View>
+          </Text>
 
           <LinkCard mass={mass[0]} description="Intróito" />
 
           <Text className="h3">Kyrie Eleison</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Os Kyries, são nove clamores dirigidos à Santíssima trindade. O
             Sacerdote, no meio do altar, diz, alternadamente com os Acólitos:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">℣. Kýrie eléison.</Text>
@@ -451,13 +451,13 @@ export default function PageOrdo() {
 
           <Text className="h3">Glória in Excélsis</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Canto de alegria, a Glória só se diz nas Missas de carácter festivo:
             Domingos (fora do Advento, Septuagésima e Quaresma), Tempos do
             Natal, Tempo Pascal, festas de Nosso Senhor, da Santíssima Virgem,
             dos Anjos e dos Santos, e Missas votivas solenes. Omite-se em todas
             as outras Missas.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -514,11 +514,11 @@ export default function PageOrdo() {
 
           <Text className="h3">Colecta do dia</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote, diante do missal, recita a Colecta. Breve oração que
             resume e apresenta a Deus os votos de todos os fiéis, votos estes
             sugeridos pelo mystério ou solenidade do dia.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -561,24 +561,24 @@ export default function PageOrdo() {
 
           <Text className="h3">Gradual do dia</Text>
 
-          <View className="aside">
+          <Text className="aside">
             A oração curta de acção de graças, consiste geralmente de dois ou
             três versos retirados dos Salmos ou do Antigo Testamento.
-          </View>
+          </Text>
 
           <LinkCard mass={mass[0]} description="Gradual" />
 
-          <View className="aside">
+          <Text className="aside">
             No Tempo da Septuagésima, o Allelúja é substituído pelo Trato. No
             Tempo Pascal, omite-se o Gradual, e dizem-se dois Allelúja.
-          </View>
+          </Text>
 
           <Text className="h3">Munda cor</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Enquanto o Acólito muda o Missal, o Sacerdote inclina-se
             profundamente no meio do Altar, dizendo:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -596,10 +596,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Seguidamente recita-se a fórmula da Bênção, a qual só se omite nas
             Missas de Réquiem e na Sexta-Feira Santa:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -613,7 +613,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Às primeiras palavras - Sequéntia, etc. faz-se o sinal da cruz na
             testa, na boca e no peito, declarando a ausência de vergonha na
             palavra de Deus, a prontidão para confessá-la e o amor, de todo o
@@ -623,7 +623,7 @@ export default function PageOrdo() {
             escutado de pé. Nas Missas solenes, o livro é levado honorificamente
             em procissão. É incensado antes de começar, e, terminada a leitura,
             é reverentemente beijado pelo Sacerdote.
-          </View>
+          </Text>
 
           <Text className="h3">Evangelho do dia</Text>
 
@@ -671,7 +671,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">Digamos solenemente:</View>
+          <Text className="aside">Digamos solenemente:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -685,11 +685,11 @@ export default function PageOrdo() {
 
           <Text className="h3">Credo</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Aos Domingos e certos dias de festa, o celebrante vai ao meio do
             altar e diz o Credo. Este só se diz aos Domingos, e em algumas
             festas de 1ª. Classe. É cantado em Missas Solenes.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -757,11 +757,11 @@ export default function PageOrdo() {
 
           <Text className="h3">Sacrifício Ofertório</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Com o Ofertório, começa a segunda parte da Missa ou Sacrifício
             propriamente dito. O celebrante beija o Altar e voltado para o povo
             diz:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
@@ -792,12 +792,12 @@ export default function PageOrdo() {
 
           <Text className="h4">Oferecimento do pão:</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Terminada esta leitura, o Sacerdote descobre o Cálice e toma nas
             mãos a patena com o pão, que vai ser consagrado. (O Acólito vai
             buscar o vinho e a água à credência, levando-os Altar). O Sacerdote
             oferece-os a Deus, dizendo:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -818,10 +818,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Ao lado direito do altar, o celebrante deita vinho no cálice, a que
             mistura umas gotas de água, dizendo a seguinte oração:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -861,7 +861,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">Depois, inclinando-se diz:</View>
+          <Text className="aside">Depois, inclinando-se diz:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -876,7 +876,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">Invocação do Espírito Santo:</View>
+          <Text className="aside">Invocação do Espírito Santo:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -893,11 +893,11 @@ export default function PageOrdo() {
 
           <Text className="h4">Incensão</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Segue-se, nas Missas solenes, o rito da incensão. Tudo o que é
             oferecido a Deus é incensado. Logo, são incensados o Pão, o Vinho e
             todos os fiéis presentes.
-          </View>
+          </Text>
 
           <Text className="h4">Bênção do Incenso:</Text>
 
@@ -933,10 +933,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Em seguida incensa a cruz e o altar, dizendo, entretanto, os
             seguintes versículos, retirados do Salmo 140:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -971,18 +971,18 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             O Diácono incensa o Sacerdote, e depois todos os outros por ordem.
             Nas Missas de defuntos, é incensado só o Sacerdote.
-          </View>
+          </Text>
 
           <Text className="h4">Lavabo</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O lavar as mãos simboliza a pureza da alma, necessária para oferecer
             o santo Sacrifício. O Sacerdote vai à direita do altar e lava as
             mãos, dizendo, entretanto, os seguintes versículos do salmo 25:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1061,10 +1061,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Beija o Altar e voltando-se para os fiéis, o Sacerdote convida-os a
             orar com ele:
-          </View>
+          </Text>
 
           <Text className="h4">Orate Frates</Text>
 
@@ -1090,18 +1090,18 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">O Sacerdote responde, em voz baixa:</View>
+          <Text className="aside">O Sacerdote responde, em voz baixa:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">℣. Amen.</Text>
             <Text className="text-base vernacular">℣. Amen.</Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Em seguida lê a Secreta. À Secreta principal, podem, em certas
             Missas, ajuntar-se outras, em número igual e segundo as mesmas
             regras da Colecta.
-          </View>
+          </Text>
 
           <Text className="h3">Secreta do dia</Text>
 
@@ -1124,13 +1124,13 @@ export default function PageOrdo() {
 
           <Text className="h3">Canon Missæ</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Cânon constitui a parte central da Missa. Com o Prefácio, começa a
             grande, a solene oração sacerdotal da Igreja e oblação propriamente
             dita do Sacrifício. Curto diálogo introdutório entre o Sacerdote e
             os fiéis desperta nas almas os sentimentos de acção de graças que
             convêm à celebração dos santos mystérios.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
@@ -1195,10 +1195,10 @@ export default function PageOrdo() {
 
           <Text className="h3">Cânon</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote, levanta os olhos para o céu, inclina-se, beija o altar
             e continua a grande oração sacerdotal.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1257,11 +1257,11 @@ export default function PageOrdo() {
 
           <Text className="h4">Memória dos Santos</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Para além destes Comunicantes, existem também para o Natal,
             Epifania, Quinta-Feira Santa, Sábado de Aleluia e Páscoa, Ascensão e
             Pentecostes.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1311,7 +1311,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">O Sacerdote abençoa as oblatas dizendo:</View>
+          <Text className="aside">O Sacerdote abençoa as oblatas dizendo:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1334,12 +1334,12 @@ export default function PageOrdo() {
 
           <Text className="h4">Consagração e Elevação da Hóstia</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Inclina-se sobre o altar, e profere as palavras da consagração da
             Hóstia. Em seguida adora-a, e eleva-a aos olhos dos fiéis, para que
             todos a adorem em silêncio. O mesmo faz, depois, para a consagração
             do Cálice.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1448,7 +1448,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">Com as mãos afastadas, contínua:</View>
+          <Text className="aside">Com as mãos afastadas, contínua:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1525,7 +1525,7 @@ export default function PageOrdo() {
 
           <Text className="h4">Invocação dos Santos</Text>
 
-          <View className="aside">O Sacerdote bate no peito, dizendo:</View>
+          <Text className="aside">O Sacerdote bate no peito, dizendo:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1586,7 +1586,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">O Sacerdote termina em voz alta:</View>
+          <Text className="aside">O Sacerdote termina em voz alta:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1605,7 +1605,7 @@ export default function PageOrdo() {
 
           <Text className="h3">Rito da Comunhão</Text>
 
-          <View className="aside">Participação no Sacrifício</View>
+          <Text className="aside">Participação no Sacrifício</Text>
 
           <Text className="aside">
             Terminado o Cânon, o Sacerdote diz em voz alta:
@@ -1680,19 +1680,19 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote descobre o Cálice, genuflecte e segura com os dedos
             polegar e indicador da mão direita a Hóstia, que ergue até ao cimo
             do cálice.
-          </View>
+          </Text>
 
           <Text className="h4">Fracção da Hóstia</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote parte a Hóstia ao meio, de uma das partes tira um
             pequeno fragmento que deita no preciosíssimo Sangue, traçando antes,
             com ele, sobre o Cálice, três vezes, o sinal da cruz, e dizendo:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1705,11 +1705,11 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Depois, o Sacerdote, tendo entre os dedos da mão direita a
             Partícula, que fraccionou, coloca-a sobre o Cálice, que segura pelo
             nós, e acrescenta em voz alta:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1726,10 +1726,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote faz três vezes o sinal da Cruz com a Divina Partícula
             sobre o Cálice:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1762,12 +1762,12 @@ export default function PageOrdo() {
 
           <Text className="h3">Agnus Dei</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote bate três vezes no peito, e diz a oração seguinte. Nas
             Missas de Defuntos, não se bate no peito e em vez de miserére nobis,
             diz-se: Dona eis requiem; na terceira parte: dona eis requiem
             sempiternam.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1794,10 +1794,10 @@ export default function PageOrdo() {
 
           <Text className="h3">Orações para a Comunhão</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Inclinado, recita as três orações seguintes, pela paz, santificação
             e graça da Igreja.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1864,7 +1864,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">Em seguida bate três vezes no peito.</View>
+          <Text className="aside">Em seguida bate três vezes no peito.</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1877,10 +1877,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Faz sobre si o sinal da cruz com a sagrada Hóstia, antes de a
             comungar.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1893,10 +1893,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Recolhe-se por uns instantes. Toma o preciosíssimo Sangue, fazendo
             antes sobre si o sinal da cruz.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1911,11 +1911,11 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Depois segura com a mão direita o Cálice pelo nó (enquanto a não
             esquerda empunha a patena), traça com o Cálice o sinal da Cruz e
             bebe o Sangue Divino! Neste momento diz:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1952,7 +1952,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">Batendo três vezes no peito:</View>
+          <Text className="aside">Batendo três vezes no peito:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -2000,7 +2000,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">Fazendo o Sinal da Cruz, diz:</View>
+          <Text className="aside">Fazendo o Sinal da Cruz, diz:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -2021,10 +2021,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote volta-se para o altar, genuflecte e voltando-se para os
             fiéis ergue a Hóstia, dizendo:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -2053,11 +2053,11 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Estando convenientemente preparado aquele que quiser Comungar,
             aproximar-se-á do Comungatório, ajoelhando e recebendo a Divina
             Hóstia na língua. O Sacerdote diz a cada um dos comungantes:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -2074,10 +2074,10 @@ export default function PageOrdo() {
 
           <Text className="h4">Abluções</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote purifica primeiro o cálice e depois os dedos, e toma as
             abluções. Entretanto vai dizendo:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -2104,18 +2104,18 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Purifica o cálice e deixa-o, coberto, no meio do altar. Nas Missas
             solenes, é o subdiácono quem purifica o cálice e o leva para a
             credencia.
-          </View>
+          </Text>
 
           <Text className="h3">Comúnio do dia</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote passa para o lado direito do altar, e recita a antífona
             da Comunhão.
-          </View>
+          </Text>
 
           <LinkCard mass={mass[0]} description="Comúnio" />
 
@@ -2139,10 +2139,10 @@ export default function PageOrdo() {
 
           <Text className="h3">Despedida e Bênção</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote volta ao meio do altar, beija-o, e, voltando-se para os
             fiéis saúda-os:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
@@ -2185,7 +2185,7 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">Nas Missas dos Defuntos:</View>
+          <Text className="aside">Nas Missas dos Defuntos:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">℣. Requiéscant in pace.</Text>
@@ -2244,11 +2244,11 @@ export default function PageOrdo() {
 
           <Text className="h3">Último Evangelho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote passa para o lado esquerdo do altar e recita, como
             último Evangelho, o princípio do Evangelho de S. João (que se omite
             na Quinta-feira Santa e na Vigília pascal).
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
@@ -2264,10 +2264,10 @@ export default function PageOrdo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Despois faz o sinal da Cruz na Sacra (ou no Missal) e na sua testa,
             boca e peito, dizendo:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

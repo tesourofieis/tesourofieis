@@ -15,7 +15,7 @@ export default function Page0707() {
             S. S. Cirilo e Metódio, Bs. e Cs., a 7 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Possuída de santo amor, para com seus Chefes, cuja Oitava terminou
             ontem, a Igreja celebra hoje a festa de S. Cirilo e de S. Metódio
             «que se comprometeram por juramento a perseverar na fé do
@@ -29,9 +29,9 @@ export default function Page0707() {
             considerados os autores. S. Cirilo morreu em Roma, em 869, e foi
             sepultado junto das relíquias de S. Clemente, por ele trazidas de
             Chersoneso. S. Metódio faleceu em 885.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -40,7 +40,7 @@ export default function Page0707() {
               Missa Sacerdótes tui
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

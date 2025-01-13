@@ -14,13 +14,13 @@ export default function Page1025EvoraBeja() {
             S. S. Crispim e Crispiniano, Márts., a 25 de Outubro, Na
             Arquidiocese de Évora e Diocese de Beja
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/6muitosmartires1">
               Missa Intret in
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           Senhor, ao vosso povo, a fim de que, em atenção aos preclaros méritos
           dos vossos B. B. Mártires Crispim e Crispiniano, ao implorar a vossa

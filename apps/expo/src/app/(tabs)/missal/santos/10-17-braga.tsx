@@ -14,13 +14,13 @@ export default function Page1017Braga() {
             Trasl. de S. Pedro de Rates, a 17 de Outubro, Na Arquidiocese de
             Braga
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/3martirpontifice">
               Missa Sacerdótes Dei
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó Deus, que de um modo admirável nos
           destes como primeiro Pastor o B. Mártir Pedro, permiti, Vos
           imploramos, que, celebrando a sua Trasladação, nos tornemos dignos

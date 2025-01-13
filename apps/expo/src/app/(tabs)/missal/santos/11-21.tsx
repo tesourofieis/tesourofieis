@@ -13,10 +13,10 @@ export default function Page1121() {
             Apresentação da B. Virgem Maria, a 21 de Novembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Salve, sancta Parens da Virgem
             Maria](/missal/comum/29missamaria3), excepto:
-          </View>
+          </Text>
 
           <LinkCard
             href="/missal/comum/26festasmaria1"

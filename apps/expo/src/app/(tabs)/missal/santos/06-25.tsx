@@ -9,13 +9,13 @@ export default function Page0625() {
         <View className="docs">
           <Text className="h1">S. Guilherme, Abade, a 25 de Junho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/16abades">
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

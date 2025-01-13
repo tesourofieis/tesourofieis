@@ -12,16 +12,16 @@ export default function PageOracoesleoninas() {
         <View className="docs">
           <Text className="h1">Orações Leoninas</Text>
 
-          <View className="aside">
+          <Text className="aside">
             De joelhos diante do altar, o Sacerdote diz com os fiéis as
             seguintes preces prescritas pelo Papa Leão XIII e por Pio XI
             enriquecidas de indulgências (10 anos). Este último Papa mandou se
             rezassem pela conversão da Rússia.
-          </View>
+          </Text>
 
           <Text className="h2">Ave Maria</Text>
 
-          <View className="aside">Ave Maria repete-se três vezes</View>
+          <Text className="aside">Ave Maria repete-se três vezes</Text>
 
           <AveMaria />
 

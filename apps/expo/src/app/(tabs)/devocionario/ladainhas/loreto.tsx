@@ -381,7 +381,7 @@ export default function PageLoreto() {
             </Text>
           </View>
 
-          <View className="aside">No tempo do Advento:</View>
+          <Text className="aside">No tempo do Advento:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -501,7 +501,7 @@ export default function PageLoreto() {
             </Text>
           </View>
 
-          <View className="aside">No Tempo Pascal:</View>
+          <Text className="aside">No Tempo Pascal:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

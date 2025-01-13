@@ -12,14 +12,14 @@ export default function PageApostolos() {
         <View className="docs">
           <Text className="h1">Missa de Todos os S. S. Apóstolos</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Tudo como na Missa precedente, excepto o seguinte: Oração, Secreta e
             Postcomúnio como na{" "}
             <Link className="link" href="/missal/santos/10-28">
               Missa S. Simão e S. Judas
             </Link>{" "}
             .
-          </View>
+          </Text>
 
           <Text className="h3">Epístola</Text>
 
@@ -64,10 +64,10 @@ export default function PageApostolos() {
 
           <Text className="h2">Missa de Todos os S. S. Apóstolos</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Para Quarta-feira Dentro do Tempo Pascal Tudo como na Missa
             precedente, excepto o seguinte:
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 
@@ -90,7 +90,7 @@ export default function PageApostolos() {
             </Text>
           </View>
 
-          <View className="aside">Depois da Epistola:</View>
+          <Text className="aside">Depois da Epistola:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

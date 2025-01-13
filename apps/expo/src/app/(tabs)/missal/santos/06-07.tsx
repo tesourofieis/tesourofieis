@@ -11,13 +11,13 @@ export default function Page0607() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. João Nepomuceno, Mártir, a 7 de Junho</Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/5martirnaopontifice2">
               Missa Lætábitur justus
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó Deus, que pelo sigílio
           sacramental, inviolávelmente mantido pelo B. João, coroastes a vossa
           Igreja com a glória de um novo martírio, concedei-nos pela sua

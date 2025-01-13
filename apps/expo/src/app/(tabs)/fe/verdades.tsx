@@ -94,7 +94,7 @@ export default function PageVerdades() {
           calúnias contra vós. Alegrai-vos e exultai, porque será grande a vossa
           recompensa nos céus.
           <Text className="h2">Dias de Obrigação</Text>
-          <View className="aside">Para além de todos os Domingos</View>
+          <Text className="aside">Para além de todos os Domingos</Text>
           <View className="list-group list-group-flush">
             <Text className="li list-group-item">
               1 de Janeiro - Circuncisão do Senhor
@@ -194,18 +194,18 @@ export default function PageVerdades() {
             </Text>
           </View>
           <Text className="h2">Pecados Contra o Espírito Santo</Text>
-          <View className="aside">
+          <Text className="aside">
             Pecados de pura malícia, que são contrários à bondade que se atribui
             ao Espírito Santo.
-          </View>
+          </Text>
           Desesperar da salvação; Presunção de se salvar sem merecimentos;
           Combater a verdade conhecida; Ter inveja das graças que Deus dá a
           outrem; Obstinar-se no pecado; Morrer na impenitência final.
           <Text className="h2">Pecados que Bradam aos Céus</Text>
-          <View className="aside">
+          <Text className="aside">
             Sua malícia é tão grave e manifesta, que provoca Deus a puni-los com
             os mais severos castigos.
-          </View>
+          </Text>
           Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos
           pobres, principalmente órfãos e viúvas; Não pagar o salário a quem
           trabalha.

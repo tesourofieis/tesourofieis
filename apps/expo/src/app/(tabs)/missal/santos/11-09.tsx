@@ -14,13 +14,13 @@ export default function Page1109() {
             Dedicação da Basílica do Salvador, a 9 de Novembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/25dedicacaoigreja">
               Missa Terríbilis est
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

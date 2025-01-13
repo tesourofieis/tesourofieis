@@ -10,11 +10,11 @@ export default function PagePentecostes() {
         <View className="docs">
           <Text className="h1">Prefácio do Pentecostes</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se desde a Vigília de Pentecostes até ao fim do Oitavário.
             Diz-se também nas Missas Votivas do Espírito Santo, mas omitem-se as
             palavras: neste dia.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

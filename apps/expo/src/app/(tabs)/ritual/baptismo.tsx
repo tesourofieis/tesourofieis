@@ -13,12 +13,12 @@ export default function PageBaptismo() {
 
           <Text className="h1">Apresentação do neófito e interrogatório</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Aquele que vai receber o Baptismo, estacionará à entrada do Templo,
             diante do Sacerdote, ficando o Padrinho ao lado direito e a Madrinha
             ao lado esquerdo. O Ministro apresenta-se e começa o interrogatório
             a que devem responder o Padrinho e a Madrinha.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -108,7 +108,7 @@ export default function PageBaptismo() {
             </Text>
           </View>
 
-          <View className="aside">O Sacerdote continua:</View>
+          <Text className="aside">O Sacerdote continua:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -457,12 +457,12 @@ export default function PageBaptismo() {
 
           <Text className="h2">Imposição da estola</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote impõe a Estola sobre a cabeça do Neófito e entra com ele
             e com os Padrinhos no Templo.
-          </View>
+          </Text>
 
-          <View className="aside">Entretanto, o Sacerdote diz:</View>
+          <Text className="aside">Entretanto, o Sacerdote diz:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -483,10 +483,10 @@ export default function PageBaptismo() {
 
           <Text className="h1">Iniciação na fé</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O cortejo caminha até próximo da Fonte Baptismal e recitam em voz
             alta o Credo e o Pater Noster.
-          </View>
+          </Text>
 
           <Text className="h2">Creio em Deus</Text>
 
@@ -519,7 +519,7 @@ export default function PageBaptismo() {
 
           <PaiNosso />
 
-          <View className="aside">O Sacerdote faz o:</View>
+          <Text className="aside">O Sacerdote faz o:</Text>
 
           <Text className="h1">Último Exorcismo</Text>
 
@@ -590,10 +590,10 @@ export default function PageBaptismo() {
 
           <Text className="h1">Renúncia a Satanás</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote começa o interrogatório, ao qual devem responder com voz
             clara e firme: são feitas no singular, porque se referem ao Neófito.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -642,11 +642,11 @@ export default function PageBaptismo() {
 
           <Text className="h1">Unção Catecumenal</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote unge no peito e entre as espáduas o Neófito. Para que
             estas Unções possam ser feitas sobre a pele do Neófito, ser-lhe-ão
             descobertos o peito e depois as espáduas, ao pé do pescoço.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -668,18 +668,18 @@ export default function PageBaptismo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Chegado a este ponto, o Sacerdote depõe a Estola de cor violácea e
             substitui-a pela Estola de cor branca.
-          </View>
+          </Text>
 
           <Text className="h1">Confissão da Fé</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote entra no Baptistério, acompanhado pelo Neófito e pelos
             Padrinhos, faz as três interrogações do Ritual, às quais todos devem
             responder com convicção e firmeza:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -755,11 +755,11 @@ export default function PageBaptismo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             O Padrinho (ou a Madrinha) ou ambos seguram o Neófito e sustentam-no
             sobre a Pia baptismal, com o rosto para baixo. Se o Padrinho segurar
             o Neófito, a Madrinha coloca a mão direita nas costas do Neófito.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -780,10 +780,10 @@ export default function PageBaptismo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Se, porém, se duvidar se o Neófito tinha sido já baptizado,
             usar-se-á a seguinte forma:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -921,10 +921,10 @@ export default function PageBaptismo() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Lavra-se o Assento do Baptismo, que os Padrinhos assinam, e todos se
             retiram.
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

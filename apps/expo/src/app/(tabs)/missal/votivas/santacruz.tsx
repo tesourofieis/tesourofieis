@@ -12,13 +12,13 @@ export default function PageSantacruz() {
         <View className="docs">
           <Text className="h1">Missa de Santa Cruz</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/09-14">
               Missa da Exaltação da Santa Cruz
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
@@ -90,10 +90,10 @@ export default function PageSantacruz() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
             diz-se o:
-          </View>
+          </Text>
 
           <Text className="h3">Trato</Text>
 

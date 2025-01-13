@@ -14,13 +14,13 @@ export default function Page1128Braga() {
             S. Tiago Intercísio, Mártir, a 28 de Novembro, Na Arquidiocese de
             Braga e noutros lugares
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/5martirnaopontifice2">
               Missa Lætábitur justus
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>A nós, Senhor, que somos vossos
           servos, sede propício pelos méritos do vosso Mártir Tiago, Vo-lo
           rogamos, a fim de que pela sua piedosa intercessão sejamos protegidos

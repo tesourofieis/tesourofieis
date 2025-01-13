@@ -12,7 +12,7 @@ export default function PagePasc23() {
             S. José, Padroeiro da Santa Igreja e dos Moribundos
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Missa de hoje pode ser representada em tríptico a mostrar-nos que
             S. José é o protector escolhido para sua Igreja pela divina
             Providência. A Epístola fala de José que no Antigo Testamento é a
@@ -51,7 +51,7 @@ export default function PagePasc23() {
             1252. Peçamos a Deus, pelos méritos de S. Pedro, uma fé tão forte,
             que nos obtenha, depois de todas as adversidades desta vida, as
             alegrias da ressurreição.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

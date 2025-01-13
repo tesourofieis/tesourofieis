@@ -235,7 +235,7 @@ export default function PagePasc01() {
 
           <Text className="h3">Secreta e Postcomúnio</Text>
 
-          <View className="aside">Como no dia precedente</View>
+          <Text className="aside">Como no dia precedente</Text>
 
           <Text className="h3">Comúnio</Text>
 

@@ -12,7 +12,7 @@ export default function Page0504() {
         <View className="docs">
           <Text className="h1">Santa Mónica, Viúva, a 4 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Nascida na África, Santa Mónica casou-se com um pagão, que, pelas
             suas virtudes, conseguiu converter. Tendo enviuvado, dedicou se a
             seu filho Agostinho, cujo espírito estava corrompido pelo erro dos
@@ -29,15 +29,15 @@ export default function Page0504() {
             bem-aventurada Mónica»; ambas essas almas compartilham hoje da
             alegria de Jesus ressuscitado. Santa Mónica morreu em Óstia, no ano
             de 387.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
               Missa Cognóvi, Dómine
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

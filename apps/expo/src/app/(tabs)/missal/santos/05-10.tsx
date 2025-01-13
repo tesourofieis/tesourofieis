@@ -12,10 +12,10 @@ export default function Page0510() {
         <View className="docs">
           <Text className="h1">S. Antonino, B. Conf., a 10 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Státuit ei
             Dóminus](/missal/comum/11confessorespontifices1), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
@@ -38,14 +38,14 @@ export default function Page0510() {
             Comemoração dos S. S. Mártires Gordiano e Epímaco
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Aquando da celebração da Missa S. S. Mártires Gordiano e Epímaco
             Como na
             <Link className="link" href="/missal/comum/10martires">
               Missa Sancti tui
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

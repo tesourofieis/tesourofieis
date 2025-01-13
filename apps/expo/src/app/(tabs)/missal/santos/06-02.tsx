@@ -181,14 +181,14 @@ export default function Page0602() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             No T. Pascal será a{" "}
             <Link className="link" href="/missal/comum/10martires">
               Missa Sancti tui
             </Link>{" "}
             , com as Orações e Epístola da Missa Precedente; e, em vez do
             Gradual, diz-se:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

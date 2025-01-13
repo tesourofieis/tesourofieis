@@ -14,7 +14,7 @@ export default function Page1005() {
             S. Plácido e Comps. Mártires, a 5 de Outubro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/8muitosmartires3">
               Missa Salus autem
@@ -38,7 +38,7 @@ export default function Page1005() {
               Postcomúnio
             </Link>{" "}
             da [Missa Sapiéntiam sanctórum](/missal/comum/7muitosmartires2).
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

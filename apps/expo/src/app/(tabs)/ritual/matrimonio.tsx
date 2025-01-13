@@ -29,10 +29,10 @@ export default function PageMatrimonio() {
           Igreja?
           <Text className="text-red-500">℟.</Text> Quero!
           <Text className="h2">União das Mãos</Text>
-          <View className="aside">
+          <Text className="aside">
             Após este consentimento mútuo, os nubentes unem as suas mãos
             direitas, pelo lado palmar destas. E o Sacerdote diz:
-          </View>
+          </Text>
           <View className="side-by-side">
             <Text className="text-base latin">
               Ego conjúngo vos in matrimónium, in nómine Patris,{" "}
@@ -124,12 +124,12 @@ export default function PageMatrimonio() {
               <Text className="text-base vernacular">℟.</Text> Amen.
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             O Sacerdote asperge o anel com Água benta; depois entrega este mesmo
             anel ao marido, que o põe no dedo anelar da mão esquerda da
             cônjugue. Ao mesmo tempo o Sacerdote diz, fazendo com a mão o Sinal
             da Cruz sobre o anel:
-          </View>
+          </Text>
           <View className="side-by-side">
             <Text className="text-base latin">
               ℣. Confírma hoc, Deus, quod operátus es in nobis.
@@ -465,10 +465,10 @@ export default function PageMatrimonio() {
               dele, sede também o seu guarda. Por nosso Senhor...
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             Após o Pater Noster... e antes do Libera-nos... os cônjuges ajoelham
             diante do Altar, próximo do Celebrante, enquanto este diz:
-          </View>
+          </Text>
           <Text className="h2">Bênção dos cônjuges</Text>
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -541,10 +541,10 @@ export default function PageMatrimonio() {
               Senhor...
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             Os cônjuges retiram-se para os seus lugares e o Celebrante continua
             LIBERA NOS...
-          </View>
+          </Text>
           <Text className="h2">Comúnio</Text>
           <Text className="em">Sl. 127, 4 & 6</Text>
           <View className="side-by-side">
@@ -572,10 +572,10 @@ export default function PageMatrimonio() {
               longa paz. Por nosso Senhor...
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             Antes da Bênção da Missa os cônjuges vão ajoelhar ao pé do Altar, e
             o Sacerdote diz:
-          </View>
+          </Text>
           <View className="side-by-side">
             <Text className="text-base latin">
               Deus Abraham, Deus Isaac et Deus Jacob sit vobíscum: et ipse

@@ -10,7 +10,7 @@ export default function Page0725() {
         <View className="docs">
           <Text className="h1">S. Tiago, Apóstolo, a 25 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             São Tiago, irmão de S. João e filho de Zebedeu, era de Betsaida na
             Galileia e cognominado o Maior. Certo dia, sua mãe, aproximando-se
             do Salvador, lhe pediu «para seus dois filhos, o favor de assentar
@@ -30,7 +30,7 @@ export default function Page0725() {
             dia 25 de Julho lembra-nos a data da transladação. O nome de São
             Tiago está inscrito no Canon da Missa, como o de São João, seu
             irmão.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

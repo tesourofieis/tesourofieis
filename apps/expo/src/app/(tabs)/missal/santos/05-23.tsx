@@ -13,13 +13,13 @@ export default function Page0523() {
           <Text className="h1">
             S. Basileu, B. e Mártir, a 23 de Maio, Na Diocese do Porto
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
               Missa Protexísti me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           Dignai-Vos acolher em vossa clemência, Senhor, Vos suplicamos, as
           preces do vosso povo, a fim de que sejamos auxiliados pelos méritos do

@@ -12,13 +12,13 @@ export default function Page0312() {
         <View className="docs">
           <Text className="h1">S. Gregório, a 12 de Março</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/sumospontifices">
               Missa Si díligis me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -10,7 +10,7 @@ export default function Page0702() {
         <View className="docs">
           <Text className="h1">Visitação da B. Virgem Maria, a 2 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             O Anjo Gabriel anunciára a Maria que Deus daria, em breve, um filho
             a Isabel. Imediatamente a Virger foi a Hebron, onde morava sua
             prima; é este o mistério da Visitação, celebrado após a Oitava da
@@ -28,7 +28,7 @@ export default function Page0702() {
             Mãe de Deus, que consigo traz e dá à luz, o autor de todas as coisas
             (Grad., Ale., Of., Com.), pronuncia, então, «o sublime cântico»
             (Intr.), do Magníficat.
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

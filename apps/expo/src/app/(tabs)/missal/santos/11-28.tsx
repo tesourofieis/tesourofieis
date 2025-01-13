@@ -13,13 +13,13 @@ export default function Page1128() {
           <Text className="h1">
             Santa Catarina Labouré, Virgem, a 28 de Novembro
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/20virgemnaomartir1">
               Missa Dilexísti justitiam
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>
           Senhor Jesus, que Vos dignastes alegrar a bem-aventurada Virgem
           Catarina com a admirável aparição da vossa Imaculada Mãe, fazei, Vos

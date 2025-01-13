@@ -144,10 +144,10 @@ export default function PageUnidadecrista() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o Verso seguinte, e
             diz-se:
-          </View>
+          </Text>
 
           <Text className="h3">Ofertório</Text>
 

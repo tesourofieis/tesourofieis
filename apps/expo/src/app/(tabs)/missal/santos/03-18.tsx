@@ -14,13 +14,13 @@ export default function Page0318() {
             S. Cirilo de Jerusalém, B. Conf. e Doutor, a 18 de Março
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

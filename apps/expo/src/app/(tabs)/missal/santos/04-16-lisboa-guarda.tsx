@@ -13,13 +13,13 @@ export default function Page0416LisboaGuarda() {
           <Text className="h1">
             S. Engrácia, Virgem e Mártir, a 16 de Abril
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/20virgemnaomartir1">
               Missa Loquébar
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Oração</Text>Ó Deus omnipotente e sempiterno, que
           escolheis os fracos do mundo para com eles confundirdes os poderosos,
           a nós, que celebramos esta solenidade em honra da B. Engrácia, vossa

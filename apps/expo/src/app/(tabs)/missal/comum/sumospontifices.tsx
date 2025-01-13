@@ -49,10 +49,10 @@ export default function PageSumospontifices() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Se, porém, se fizer comemoração doutro Sumo Pontífice nesta mesma
             Missa, dir-se-á a seguinte Oração, em vez da Precedente:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 
@@ -267,10 +267,10 @@ export default function PageSumospontifices() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Se, porém, se fizer comemoração doutro Sumo Pontífice nesta mesma
             Missa, dir-se-á a seguinte Secreta, em vez da Precedente:
-          </View>
+          </Text>
 
           <Text className="h3">Secreta</Text>
 
@@ -324,10 +324,10 @@ export default function PageSumospontifices() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Se, porém, se fizer comemoração doutro Sumo Pontífice nesta mesma
             Missa, dir-se-á o seguinte Postcomúnio, em vez do Precedente:
-          </View>
+          </Text>
 
           <Text className="h3">Postcomúnio</Text>
 

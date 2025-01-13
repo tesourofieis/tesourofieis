@@ -13,7 +13,7 @@ export default function Page1106Portugal() {
         <View className="docs">
           <Text className="h1">S. Nuno de Santa Maria, a 6 de Novembro</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -22,7 +22,7 @@ export default function Page1106Portugal() {
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

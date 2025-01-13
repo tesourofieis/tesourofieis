@@ -38,7 +38,7 @@ export default function PageViasacra() {
             </Text>
           </View>
           <Text className="h3">No fim de cada Estação</Text>
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai nosso
             </Link>{" "}
@@ -47,7 +47,7 @@ export default function PageViasacra() {
               Glória
             </Link>{" "}
             .
-          </View>
+          </Text>
           <View className="side-by-side">
             <Text className="text-base latin">℣. Miserére nostri, Dómine.</Text>
             <Text className="text-base vernacular">
@@ -61,10 +61,10 @@ export default function PageViasacra() {
               nós.
             </Text>
           </View>
-          <View className="aside">
+          <Text className="aside">
             Se a via sacra se faz em comum pode-se recitar uma estrofe da
             [Stabat Mater](/missal/santos/09-15#sequência)
-          </View>
+          </Text>
           <Text className="h2">Primeira Estação</Text>!
           <Link className="link" href="../../../assets/station1.png">
             estacao 1
@@ -224,13 +224,13 @@ export default function PageViasacra() {
           convosco chore. Pai eterno, misericórdia, pelo precioso sangue de
           Jesus.
           <Text className="h2">Oração final</Text>
-          <View className="aside">
+          <Text className="aside">
             Depois desta Estação, reza-se o Pai nosso... a Ave Maria... e a
             Glória ao Pai... cinco vezes, em honra das cinco chagas de nosso
             Senhor Jesus Cristo. Mais um Pai nosso, uma Ave Maria e uma Glória
             ao Pai pelas intenções do Santo Padre, terminando-se com a seguinte
             oração:
-          </View>
+          </Text>
           <View className="side-by-side">
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>

@@ -12,7 +12,7 @@ export default function Page0712() {
         <View className="docs">
           <Text className="h1">S. João Gualberto, Abade, a 12 de Julho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             João Gualberto nasceu em Florença, cerca do ano 999. Numa
             Sexta-Feira Santa, escoltado pelos seus homens armados, encontrou,
             só e sem defesa, o assassino de seu irmão. Ia atravessa-lo com a
@@ -27,15 +27,15 @@ export default function Page0712() {
             levaram novamente sua pátria à integridade da fé e dos costumes.
             Quando morreu, em 1073, escreveram sobre o seu túmulo: A João
             Gualberto, cidadão de Florença, libertador da Itália.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/16abades">
               Missa Os justi
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Evangelho</Text>
 

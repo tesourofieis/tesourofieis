@@ -14,13 +14,13 @@ export default function Page0214() {
             S. Valentim, Presbítero e Mártir, a 14 de Fevereiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/4martirnaopontifice1">
               Missa In virtúte tua
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

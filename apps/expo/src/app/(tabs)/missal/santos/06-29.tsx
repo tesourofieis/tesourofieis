@@ -11,7 +11,7 @@ export default function Page0629() {
         <View className="docs">
           <Text className="h1">S. Pedro e S. Paulo, a 29 de Junho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Igreja inteira está em festa, pois «Deus consagrou este dia pelo
             martírio dos Apóstolos Pedro e Paulo» (Or.). Nas duas grandiosas
             basílicas construídas, em Roma, sobre os túmulos «destes dois
@@ -36,7 +36,7 @@ export default function Page0629() {
             Igreja, que não cessava de dirigir orações a Deus, por Pedro (Ep.),
             oremos pelo seu sucessor «o servo de Deus nosso Santo Padre o Papa»
             (Canon da Missa).
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

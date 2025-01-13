@@ -14,7 +14,7 @@ export default function Page0728() {
             S. Nazário e Outros, Mártires, a 28 de Julho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Igreja venera hoje Santos que viveram em épocas e países
             diferentes. Nazário, baptizado pelo Papa S. Lino, em Roma, baptizou
             por sua vez o jovem Celso, nascido em Cimiez, próximo de Nice.
@@ -23,15 +23,15 @@ export default function Page0728() {
             descobertos, encontrando-se no túmulo de S. Nazário uma garrafinha
             de sangue tão vermelho como se tivesse sido derramado naquele mesmo
             dia. Uma cidade de França tem o nome do Santo.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/6muitosmartires1">
               Missa Intret in
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -274,11 +274,11 @@ export default function PageOracoescomplementares() {
             </Text>
           </View>
           <Text className="h4">Oração a N. S. Jesus Cristo Crucificado</Text>
-          <View className="aside">
+          <Text className="aside">
             Recitada depois da Missa pelas intenções do Sumo Pontífice e perante
             uma imagem de N. S. Jesus Cristo Crucificado, recebe uma indulgência
             plenária.
-          </View>
+          </Text>
           !
           <Link className="link" href="../../../assets/cross.png">
             Jesus Cristo Crucificado

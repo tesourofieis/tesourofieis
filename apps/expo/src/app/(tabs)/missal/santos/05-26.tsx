@@ -11,7 +11,7 @@ export default function Page0526() {
         <View className="docs">
           <Text className="h1">S. Filipe de Néri, a 26 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             S. Filipe nasceu na Florença no século XVI; tudo deixou para servir
             ao divino Mestre (Evangelho) e fundou a Congregação do Oratório. O
             Espírito Santo o inflamára com tanto amor de Deus (Intróito,
@@ -24,7 +24,7 @@ export default function Page0526() {
             na festa do Santíssimo Sacramento. Semelhante a S. Filipe, corramos,
             com o coração dilatado de santa e amorosa alegria, na senda dos
             mandamentos de Deus (Oração).
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 
@@ -96,10 +96,10 @@ export default function Page0526() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Durante o Tempo Pascal omite-se o Gradual e diz-se a seguinte
             Aleluia:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

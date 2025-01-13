@@ -14,7 +14,7 @@ export default function Page1023() {
             S. António Maria Claret, B. e Conf., a 23 de Outubro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -23,7 +23,7 @@ export default function Page1023() {
               Missa Sacerdótes tui
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

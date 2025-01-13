@@ -19,11 +19,11 @@ export default function PageVesperas() {
         <View className="docs">
           <Text className="h1">Vésperas</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Meditemos na descida da cruz, o corpo de Jesus Cristo colocado nos
             braços de sua santa Mãe e na instituição do adorável Sacramento da
             Eucaristia.
-          </View>
+          </Text>
 
           <Tabs>
             <TabItem label="Depois da Purificação">

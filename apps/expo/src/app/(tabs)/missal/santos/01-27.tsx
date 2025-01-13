@@ -14,13 +14,13 @@ export default function Page0127() {
             S. João Crisóstomo, B. C. e Doutor, a 27 de Janeiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

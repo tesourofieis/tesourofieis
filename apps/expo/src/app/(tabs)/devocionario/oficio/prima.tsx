@@ -16,11 +16,11 @@ export default function PagePrima() {
         <View className="docs">
           <Text className="h1">Prima</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Meditemos nos ultrajes, sofrimentos e açoites, suportados por Jesus
             Cristo em casa de Caifás. Igualmente na aparição à Santa Virgem após
             a ressurreição e na visita das santas mulheres ao sepulcro.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -473,13 +473,13 @@ export default function PagePrima() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             Acabar com uma{" "}
             <Link className="link" href="/devocionario/antifonas">
               Antífona de Nossa Senhora
             </Link>{" "}
             .
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

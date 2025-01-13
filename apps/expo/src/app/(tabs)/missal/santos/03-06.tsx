@@ -12,10 +12,10 @@ export default function Page0306() {
             S. S. Perpétua e Felicidade, Mártires, a 6 de Março
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Me
             exspectavérunt](/missal/comum/19muitasvirgensmartires), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Postcomúnio</Text>
 

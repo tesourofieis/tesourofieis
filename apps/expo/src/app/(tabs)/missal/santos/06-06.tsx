@@ -12,7 +12,7 @@ export default function Page0606() {
         <View className="docs">
           <Text className="h1">S. Norberto, B e Conf., a 6 de Junho</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link
               className="link"
@@ -21,7 +21,7 @@ export default function Page0606() {
               Missa Státuit ei
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

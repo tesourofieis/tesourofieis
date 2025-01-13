@@ -12,7 +12,7 @@ export default function Page0514() {
         <View className="docs">
           <Text className="h1">S. Bonifácio, Mártir, a 14 de Maio</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Comemoração S. Bonifácio, Mártir. A vitória de Jesus ressuscitado e
             da sua Ascensão, estende-se a todos os membros de seu corpo místico,
             a Ele unidos como os ramos da vinha ao cepo, e por ele produzindo
@@ -23,15 +23,15 @@ export default function Page0514() {
             de Maio, em Tarso, seus despojos foram transladados para o monte
             Aventino em Roma, cuja igreja tomou o seu nome, vindo a ser, em
             seguida, a igreja de Santo Aleixo.
-          </View>
+          </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
               Missa Protexísti me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

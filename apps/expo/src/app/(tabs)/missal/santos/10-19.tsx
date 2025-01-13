@@ -13,10 +13,10 @@ export default function Page1019() {
             S. Pedro de Alcântara, Conf., a 19 de Outubro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na [Missa Justus ut
             palma](/missal/comum/15confessoresnaopontifices2), excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

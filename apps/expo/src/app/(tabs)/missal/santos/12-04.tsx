@@ -14,13 +14,13 @@ export default function Page1204() {
             S. Pedro Crisólogo, B. Conf. e Doutor, a 4 de Dezembro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
               Missa In médio Ecclésiae
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

@@ -10,10 +10,10 @@ export default function PageQuaresma() {
         <View className="docs">
           <Text className="h1">Prefácio da Quaresma</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Diz-se desde Quarta-Feira das Cinzas até à véspera do Domingo da
             Paixão, inclusivamente.
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

@@ -15,7 +15,7 @@ export default function Page0626() {
             S. S. João e Paulo, Mártires, a 26 de Junho
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Os dois irmãos João e Paulo eram Romanos e serviam à Constância,
             filha de Constantino. Juliano o Apóstata, convidou-os a tomar parte
             entre os seus familiares, eles, porém, recusaram a fim de guardar a
@@ -37,7 +37,7 @@ export default function Page0626() {
             Alegremo-nos com a Igreja pelo trinfo de São João e de São Paulo
             (Or.) e, imitando-os, confessemos a fé em Jesus, diante dos homens,
             e Ele nos reconhecerá como seus, em presença de seus Anjos (Ev.).
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

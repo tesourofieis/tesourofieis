@@ -128,7 +128,7 @@ export default function Page1228() {
             </Text>
           </View>
 
-          <View className="aside">Ao Domingo suprime-se o Trato e diz-se:</View>
+          <Text className="aside">Ao Domingo suprime-se o Trato e diz-se:</Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

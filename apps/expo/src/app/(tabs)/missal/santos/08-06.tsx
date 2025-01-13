@@ -12,10 +12,10 @@ export default function Page0806() {
             Transfiguração de N. S. J. Cristo, a 6 de Agosto
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Comemoração de S. Sixto, Felicíssimo e Agapito como na [Missa Missa
             Sapiéntiam sanctórum](/missal/comum/7muitosmartires2)
-          </View>
+          </Text>
 
           <Text className="h3">Intróito</Text>
 

@@ -13,13 +13,13 @@ export default function Page0522Evora() {
           <Text className="h1">
             Dedicação da Catedral de Évora, a 22 de Maio
           </Text>
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/25dedicacaoigreja">
               Missa Terríbilis est
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
           <Text className="h3">Intróito</Text>
           Exultemos todos no Senhor, celebrando a festa da Dedicação da Igreja
           Eborense, de cuja santificação se alegram os Anjos, que louvam o Filho

@@ -58,12 +58,12 @@ export default function PageCoroasaomiguel() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai Nosso
             </Link>{" "}
             e três [Ave Maria](/devocionario/oracoes/avemaria).
-          </View>
+          </Text>
 
           <Text className="h2">Chorus 2, Salutatio</Text>
 
@@ -80,12 +80,12 @@ export default function PageCoroasaomiguel() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai Nosso
             </Link>{" "}
             e três [Ave Maria](/devocionario/oracoes/avemaria).
-          </View>
+          </Text>
 
           <Text className="h2">Chorus 3, Salutatio</Text>
 
@@ -101,12 +101,12 @@ export default function PageCoroasaomiguel() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai Nosso
             </Link>{" "}
             e três [Ave Maria](/devocionario/oracoes/avemaria).
-          </View>
+          </Text>
 
           <Text className="h2">Chorus 4, Salutatio</Text>
 
@@ -123,12 +123,12 @@ export default function PageCoroasaomiguel() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai Nosso
             </Link>{" "}
             e três [Ave Maria](/devocionario/oracoes/avemaria).
-          </View>
+          </Text>
 
           <Text className="h2">Chorus 5, Salutatio</Text>
 
@@ -145,12 +145,12 @@ export default function PageCoroasaomiguel() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai Nosso
             </Link>{" "}
             e três [Ave Maria](/devocionario/oracoes/avemaria).
-          </View>
+          </Text>
 
           <Text className="h2">Chorus 6, Salutatio</Text>
 
@@ -167,12 +167,12 @@ export default function PageCoroasaomiguel() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai Nosso
             </Link>{" "}
             e três [Ave Maria](/devocionario/oracoes/avemaria).
-          </View>
+          </Text>
 
           <Text className="h2">Chorus 7, Salutatio</Text>
 
@@ -189,12 +189,12 @@ export default function PageCoroasaomiguel() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai Nosso
             </Link>{" "}
             e três [Ave Maria](/devocionario/oracoes/avemaria).
-          </View>
+          </Text>
 
           <Text className="h2">Chorus 8, Salutatio</Text>
 
@@ -212,12 +212,12 @@ export default function PageCoroasaomiguel() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai Nosso
             </Link>{" "}
             e três [Ave Maria](/devocionario/oracoes/avemaria).
-          </View>
+          </Text>
 
           <Text className="h2">Chorus 9, Salutatio</Text>
 
@@ -235,12 +235,12 @@ export default function PageCoroasaomiguel() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai Nosso
             </Link>{" "}
             e três [Ave Maria](/devocionario/oracoes/avemaria).
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">

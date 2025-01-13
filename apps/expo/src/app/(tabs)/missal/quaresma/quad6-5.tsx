@@ -11,7 +11,7 @@ export default function PageQuad65() {
         <View className="docs">
           <Text className="h1">Sexta-feira Santa</Text>
 
-          <View className="aside">
+          <Text className="aside">
             A Estação é na basílica que, em Roma, representa Jerusalém, da qual
             tem o nome. É consagrada à Paixão do Salvador e contem terra do
             Calvário, fragmentos importantes do lenho da verdadeira Cruz, e um
@@ -19,7 +19,7 @@ export default function PageQuad65() {
             aniversário da morte do Salvador, a Igreja dá novamente a seus
             templos aspecto de desolação e reveste os seus ministros com
             paramentos de luto.
-          </View>
+          </Text>
 
           <Text className="h2">Missa dos Catecúmenos</Text>
 
@@ -728,10 +728,10 @@ export default function PageQuad65() {
             </Text>
           </View>
 
-          <View className="aside">
+          <Text className="aside">
             O Celebrante vai ao meio do Altar e diz o [MUNDA COR
             MEUM](/missal/ordo#munda-cor)... Depois prossegue:
-          </View>
+          </Text>
 
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -1664,10 +1664,10 @@ export default function PageQuad65() {
 
           <Text className="h2">Missa dos Pré-Santificados</Text>
 
-          <View className="aside">
+          <Text className="aside">
             Conduz-se Processionalmente a Divina Hóstia para o Altar onde se
             celebra o Ofício. Entretanto, canta-se o Hino:
-          </View>
+          </Text>
 
           <Text className="h3">Vexilla Regis</Text>
 

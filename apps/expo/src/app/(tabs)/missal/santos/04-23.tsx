@@ -15,13 +15,13 @@ export default function Page0423() {
             S. Jorge, Patrono de Portugal, a 23 de Abril
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/9martir">
               Missa Protexísti me
             </Link>{" "}
             , excepto:
-          </View>
+          </Text>
 
           <Text className="h3">Oração</Text>
 

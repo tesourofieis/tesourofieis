@@ -14,12 +14,12 @@ export default function Page0103() {
             Oitava de S. João, Apóstolo e Evangelista, a 3 de Janeiro
           </Text>
 
-          <View className="aside">
+          <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/santos/12-27">
               Missa S. João, Apóstolo e Evangelista
             </Link>
-          </View>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>
