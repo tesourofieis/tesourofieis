@@ -15,8 +15,15 @@ import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
-import { Link } from "expo-router";
-import { ActivityIndicator, Platform, Text, View } from "react-native";
+import { Link, usePathname } from "expo-router";
+import React from "react";
+import {
+  ActivityIndicator,
+  Platform,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import CustomDrawerContent from "~/components/CustomDrawer";
 import { CalendarProvider } from "~/providers/calendar";
@@ -118,15 +125,68 @@ function RootLayoutNav() {
   );
 }
 
+const Breadcrumbs = () => {
+  const pathname = usePathname();
+
+  // Skip empty segments and remove (tabs)
+  const segments = pathname
+    .split("/")
+    .filter((segment) => segment && segment !== "(tabs)");
+
+  // Don't show breadcrumbs if we're at root or only one level deep
+  if (segments.length <= 1) {
+    return null;
+  }
+
+  const formatSegmentName = (segment: string) => {
+    // Remove any parentheses and their contents
+    segment = segment.replace(/\(.*?\)/g, "");
+    // Convert kebab-case or snake_case to Title Case
+    return segment
+      .split(/[-_]/)
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  };
+
+  return (
+    <View className="flex-row items-center mb-2 gap-2">
+      {segments.map((segment, index) => (
+        <React.Fragment key={segment}>
+          {index !== 0 && (
+            <Text className="text-sepia-400 dark:text-sepia-600">/</Text>
+          )}
+
+          <Link href={`/${segments.slice(0, index + 1).join("/")}`} asChild>
+            <TouchableOpacity>
+              <Text
+                className={`text-sm ${
+                  index === segments.length - 1
+                    ? "text-sepia-800 dark:text-sepia-200 font-bold"
+                    : "text-sepia-600 dark:text-sepia-400"
+                }`}
+              >
+                {formatSegmentName(segment)}
+              </Text>
+            </TouchableOpacity>
+          </Link>
+        </React.Fragment>
+      ))}
+    </View>
+  );
+};
+
 const Header = () => {
   return (
-    <Link href="/">
-      <View className="flex-row items-center p-3 gap-3">
-        <FontAwesome6 name="book-bible" size={15} color="#e53935" />
-        <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
-          Tesouro dos Fiéis
-        </Text>
-      </View>
-    </Link>
+    <View>
+      <Link href="/">
+        <View className="flex-row items-center p-3 gap-3">
+          <FontAwesome6 name="book-bible" size={15} color="#e53935" />
+          <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
+            Tesouro dos Fiéis
+          </Text>
+        </View>
+      </Link>
+      <Breadcrumbs />
+    </View>
   );
 };

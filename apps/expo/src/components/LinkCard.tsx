@@ -40,7 +40,7 @@ export default function PageLinkCard({
         href={{
           pathname: oratio.link,
         }}
-        className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
+        className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 bg-sepia-100 dark:bg-sepia-900 dark:hover:bg-sepia-900"
         asChild
       >
         <View className="flex flex-col justify-start">
@@ -65,7 +65,7 @@ export default function PageLinkCard({
         href={{
           pathname: mass.link,
         }}
-        className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
+        className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 bg-sepia-100 dark:bg-sepia-900 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
         asChild
       >
         <View className="flex flex-col justify-start">
@@ -105,7 +105,7 @@ export default function PageLinkCard({
       href={{
         pathname: href,
       }}
-      className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
+      className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 bg-sepia-200 dark:bg-sepia-800 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
       asChild
     >
       <View className="flex flex-col justify-start">
@@ -116,7 +116,6 @@ export default function PageLinkCard({
         </View>
 
         <View className="flex flex-row items-center gap-2">
-          <FontAwesome name="circle" color={getColor(mass.color)} />
           <Text className={"font-black text-sepia-600 dark:text-sepia-400"}>
             {title}
           </Text>
