@@ -22,22 +22,22 @@ export default function PagePainosso() {
               terra como no Céu.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Panem nostrum
-              quotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut
-              et nos dimíttimus debitóribus nostris. Et ne nos indúcas in
-              tentatiónem. Sed líbera nos a malo.
+              <Text className="text-red-500">℟.</Text> Panem nostrum quotidiánum
+              da nobis hódie: et dimítte nobis débita nostra, sicut et nos
+              dimíttimus debitóribus nostris. Et ne nos indúcas in tentatiónem.
+              Sed líbera nos a malo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> O pão nosso de
-              cada dia nos dai hoje; perdoai-nos as nossas dívidas, assim como
-              nós perdoamos aos nossos devedores; e não nos deixeis cair em
+              <Text className="text-red-500">℟.</Text> O pão nosso de cada dia
+              nos dai hoje; perdoai-nos as nossas dívidas, assim como nós
+              perdoamos aos nossos devedores; e não nos deixeis cair em
               tentação; mas livrai-nos do mal.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

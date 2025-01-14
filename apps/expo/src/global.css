@@ -11,7 +11,7 @@
   }
 
   .docs {
-    @apply flex-1 bg-sepia-100 dark:bg-sepia-900 py-2 px-3 text-sepia-900 dark:text-sepia-100;
+    @apply flex-1 font-serif bg-sepia-100 dark:bg-sepia-900 py-2 px-3 text-sepia-900 dark:text-sepia-100;
   }
 
   .h1 {
@@ -57,21 +57,23 @@
   }
 
   .text-base {
-    @apply text-sepia-900 dark:text-sepia-100;
+    @apply text-sepia-900 dark:text-sepia-100 py-2;
   }
 
   .latin,
   .vernacular {
-    @apply w-1/2;
+    @apply text-justify font-serif;
+    width: "45%";
   }
 
   .side-by-side {
-    @apply flex flex-row flex-wrap w-full py-2 text-justify font-body;
+    @apply flex flex-row flex-wrap gap-2 justify-around py-2 text-justify font-body;
   }
 
   .cross {
     padding: 1px 10px;
     text-align: center;
+    @apply text-red-500;
   }
 
   .link {
@@ -84,6 +86,6 @@
   }
 
   .em {
-    @apply rounded bg-sepia-200 px-1 py-1 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply rounded bg-sepia-200 px-3 py-2 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   }
 }

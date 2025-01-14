@@ -32,12 +32,12 @@ export default function PageNoa() {
               meu auxílio.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dómine, ad adjuvándum
-              me festína.
+              <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum me
+              festína.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor,
-              apressai-Vos em socorrer-me.
+              <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos em
+              socorrer-me.
             </Text>
             <Text className="text-base latin">
               ℣. Glória Patri, et Fílio, et Spíritui Sancto.
@@ -46,11 +46,11 @@ export default function PageNoa() {
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sicut erat in
-              pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
+              <Text className="text-red-500">℟.</Text> Sicut erat in pricípio,
+              et nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim como era no
+              <Text className="text-red-500">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
@@ -112,11 +112,10 @@ export default function PageNoa() {
                   fragrância: como a mirra escolhida, dei cheiro de suavidade.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Post partum, Virgo, invioláta permansísti.
@@ -125,12 +124,12 @@ export default function PageNoa() {
                   ℣. Despois do parto permanecestes imaculada.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Dei Génetrix,
+                  <Text className="text-red-500">℟.</Text> Dei Génetrix,
                   intercéde pro nobis.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Intercedei
-                  por nós, ó Mãe de Deus.
+                  <Text className="text-red-500">℟.</Text> Intercedei por nós, ó
+                  Mãe de Deus.
                 </Text>
               </View>
 
@@ -158,12 +157,12 @@ export default function PageNoa() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
               </View>
 
@@ -187,10 +186,10 @@ export default function PageNoa() {
                   e Senhor nosso: Que convosco vive e reina...
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -223,11 +222,10 @@ export default function PageNoa() {
                   escolher o bem.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Benedicta tu in mulieribus.
@@ -236,12 +234,12 @@ export default function PageNoa() {
                   ℣. Bendita sois vóo entre as mulheres.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et benedictus
-                  fructus ventris tui.
+                  <Text className="text-red-500">℟.</Text> Et benedictus fructus
+                  ventris tui.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E bendito é o
-                  fruto do vosso ventre.
+                  <Text className="text-red-500">℟.</Text> E bendito é o fruto
+                  do vosso ventre.
                 </Text>
               </View>
 
@@ -269,12 +267,12 @@ export default function PageNoa() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
               </View>
 
@@ -301,10 +299,10 @@ export default function PageNoa() {
                   Cristo Senhor Nosso.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -340,11 +338,10 @@ export default function PageNoa() {
                   suavidade.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Post partum, Virgo, invioláta permansísti.
@@ -353,12 +350,12 @@ export default function PageNoa() {
                   ℣. Despois do parto permanecestes imaculada.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Dei Génetrix,
+                  <Text className="text-red-500">℟.</Text> Dei Génetrix,
                   intercéde pro nobis.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Intercedei
-                  por nós, ó Mãe de Deus.
+                  <Text className="text-red-500">℟.</Text> Intercedei por nós, ó
+                  Mãe de Deus.
                 </Text>
               </View>
 
@@ -386,10 +383,10 @@ export default function PageNoa() {
                   Espírito Santo, vive e reina por todos os séculos.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -403,22 +400,22 @@ export default function PageNoa() {
               ℣. Ouvi, Senhor, a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               veniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E o meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E o meu clamor chegue até
+              Vós.
             </Text>
             <Text className="text-base latin">℣. Benedicamus Domino.</Text>
             <Text className="text-base vernacular">
               ℣. Bendigamos o Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo gratias.
+              <Text className="text-red-500">℟.</Text> Deo gratias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Graças a Deus.
+              <Text className="text-red-500">℟.</Text> Graças a Deus.
             </Text>
             <Text className="text-base latin">
               ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
@@ -428,10 +425,10 @@ export default function PageNoa() {
               em paz.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 

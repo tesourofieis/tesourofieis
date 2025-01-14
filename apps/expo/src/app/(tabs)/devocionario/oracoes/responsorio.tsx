@@ -70,12 +70,12 @@ export default function PageResponsorio() {
               ℣. Rogai por nós, bem-aventurado António.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ut digni efficiamur
+              <Text className="text-red-500">℟.</Text> Ut digni efficiamur
               promissionibus Christi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Para que sejamos
-              dignos das promessas de Cristo.
+              <Text className="text-red-500">℟.</Text> Para que sejamos dignos
+              das promessas de Cristo.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -87,14 +87,14 @@ export default function PageResponsorio() {
               Ecclesiam tuam, Deus, beati Antonii Confessoris tui atque Doctoris
               solemnitas votiva lætificet, ut spiritualibus semper muniatur
               auxiliis, et gáudiis perfrui mereatur æternis. Per Christum
-              Dóminum nostrum. <Text className="text-base latin">℟.</Text> Amen.
+              Dóminum nostrum. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Ó Deus, nós Vos suplicamos, que alegre à vossa Igreja a solenidade
               votiva do bem-aventurado Santo António, vosso Confessor e Doutor,
               para que, fortalecida sempre com os espirituais auxílios, mereça
               gozar os prazeres eternos. Por Jesus Cristo, Nosso Senhor.{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

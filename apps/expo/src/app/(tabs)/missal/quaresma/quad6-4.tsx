@@ -521,14 +521,13 @@ export default function PageQuad64() {
               Ubi cáritas et amor, Deus ibi est. ℣. Simul quoque cum Beátis
               videámus ℣. Gloriánter vultum tuum, Christe Deus: ℣. Gáudium, quod
               est imménsum atque probum. ℣. Sǽcula per infiníta sæculórum.{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Deus está onde estiverem a caridade e o amor. ℣. Fazei-nos ver com
               os Bem-aventurados. ℣. Vosso rosto está na glória, Cristo nosso
               Deus: ℣. Alegria imensa e pura. ℣. Em todos os séculos, pelos
-              infinitos séculos.{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              infinitos séculos. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -543,11 +542,10 @@ export default function PageQuad64() {
               não nos deixeis cair em tentação.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sed líbera nos a malo.
+              <Text className="text-red-500">℟.</Text> Sed líbera nos a malo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Mas livrai-nos do
-              mal.
+              <Text className="text-red-500">℟.</Text> Mas livrai-nos do mal.
             </Text>
             <Text className="text-base latin">
               ℣. Tu mandásti mandáta tua, Dómine.
@@ -556,11 +554,10 @@ export default function PageQuad64() {
               ℣. Ordenastes, Senhor, que os vossos mandamentos:
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Custodíri nimis.
+              <Text className="text-red-500">℟.</Text> Custodíri nimis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Fossem bem
-              observados.
+              <Text className="text-red-500">℟.</Text> Fossem bem observados.
             </Text>
             <Text className="text-base latin">
               ℣. Tu lavásti pedes discipulórum tuórum.
@@ -569,12 +566,12 @@ export default function PageQuad64() {
               ℣. Lavastes os pés aos vossos discípulos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Opera mánuum tuárum ne
+              <Text className="text-red-500">℟.</Text> Opera mánuum tuárum ne
               despícias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Não desprezeis as
-              obras das vossas mãos.
+              <Text className="text-red-500">℟.</Text> Não desprezeis as obras
+              das vossas mãos.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.
@@ -583,23 +580,22 @@ export default function PageQuad64() {
               ℣. Senhor, ouvi a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -613,7 +609,7 @@ export default function PageQuad64() {
               et a nobis exterióra abluúntur inquinaménta; sic a te ómnium
               nostrum interióra lavéntur peccáta. Quod ipse præstáre dignéris,
               qui vivis et regnas Deus: per ómnia sǽcula sæculórum.{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Senhor, Vos imploramos, aceitai benignamente estas homenagens da
@@ -623,7 +619,7 @@ export default function PageQuad64() {
               manchas exteriores do corpo, sejamos também lavados por Vós das
               manchas interiores dos nossos pecados. Concedei-nos esta graça.
               Vós que, sendo Deus, viveis e reinais por todos os séculos dos
-              séculos. <Text className="text-base vernacular">℟.</Text> Amen.
+              séculos. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

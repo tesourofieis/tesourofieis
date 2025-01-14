@@ -20,12 +20,12 @@ export default function PageCoroasaomiguel() {
               ℣. Deus, vinde em nosso auxílio.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dómine, ad adjuvándum
-              me festína.
+              <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum me
+              festína.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor,
-              socorrei-nos e salvai-nos.
+              <Text className="text-red-500">℟.</Text> Senhor, socorrei-nos e
+              salvai-nos.
             </Text>
             <Text className="text-base latin">
               ℣. Glória Patri, et Fílio, et Spirítui Sancto.
@@ -34,11 +34,11 @@ export default function PageCoroasaomiguel() {
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sicut erat in
-              princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
+              <Text className="text-red-500">℟.</Text> Sicut erat in princípio,
+              et nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim como era no
+              <Text className="text-red-500">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
@@ -352,12 +352,12 @@ export default function PageCoroasaomiguel() {
               de Cristo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ut digni efficiamur
+              <Text className="text-red-500">℟.</Text> Ut digni efficiamur
               promissionibus Eius.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Para que sejamos
-              dignos das Suas promessas.
+              <Text className="text-red-500">℟.</Text> Para que sejamos dignos
+              das Suas promessas.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>

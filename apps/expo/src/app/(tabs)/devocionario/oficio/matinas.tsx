@@ -39,12 +39,12 @@ export default function PageMatinas() {
               os meus lábios.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et os meum annuntiabit
+              <Text className="text-red-500">℟.</Text> Et os meum annuntiabit
               laudem tuam.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E a minha boca
-              anunciará o vosso louvor.
+              <Text className="text-red-500">℟.</Text> E a minha boca anunciará
+              o vosso louvor.
             </Text>
             <Text className="text-base latin">
               ℣. Deus <Text className="text-base latin">✠</Text> in adjutórium
@@ -55,12 +55,12 @@ export default function PageMatinas() {
               meu auxílio.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dómine, ad adjuvándum
-              me festína.
+              <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum me
+              festína.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor,
-              apressai-Vos em socorrer-me.
+              <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos em
+              socorrer-me.
             </Text>
             <Text className="text-base latin">
               ℣. Glória Patri, et Fílio, et Spíritui Sancto.
@@ -69,11 +69,11 @@ export default function PageMatinas() {
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sicut erat in
-              pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
+              <Text className="text-red-500">℟.</Text> Sicut erat in pricípio,
+              et nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim como era no
+              <Text className="text-red-500">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
@@ -573,11 +573,11 @@ export default function PageMatinas() {
               ℣. Estão cheios de graça vossos lábios.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Propterea benedixit te
+              <Text className="text-red-500">℟.</Text> Propterea benedixit te
               Deum in æternum.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Por isso Deus vos
+              <Text className="text-red-500">℟.</Text> Por isso Deus vos
               abençoou para sempre.
             </Text>
             <Text className="text-base latin">
@@ -593,11 +593,10 @@ export default function PageMatinas() {
               ℣. E nos não deixeis cair em tentação.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sed libera nos a malo.
+              <Text className="text-red-500">℟.</Text> Sed libera nos a malo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Mas livrai-nos do
-              mal.
+              <Text className="text-red-500">℟.</Text> Mas livrai-nos do mal.
             </Text>
           </View>
 
@@ -613,10 +612,10 @@ export default function PageMatinas() {
               todos os Santos, nos conduza o Senhor ao reino dos céus.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Jube, Domine, benedicere.
@@ -636,10 +635,10 @@ export default function PageMatinas() {
               Nos abençoe a Virgem Maria com seu piíssimo Filho.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -671,22 +670,21 @@ export default function PageMatinas() {
                   ℣. E Vós, Senhor, tende misericórdia de nós.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Sancta et
-                  immaculáta virginitas, quibus te laudibus efferam nescio: Quia
-                  quem cæli cápere non póterant, tuo gremio contulísti.
+                  <Text className="text-red-500">℟.</Text> Sancta et immaculáta
+                  virginitas, quibus te laudibus efferam nescio: Quia quem cæli
+                  cápere non póterant, tuo gremio contulísti.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Santa e
-                  imaculada Virgindade, não sei com que louvores possa
-                  exaltar-vos. Porque encerrastes no vosso seio Aquele a quem os
-                  céus não podiam abranger.
+                  <Text className="text-red-500">℟.</Text> Santa e imaculada
+                  Virgindade, não sei com que louvores possa exaltar-vos. Porque
+                  encerrastes no vosso seio Aquele a quem os céus não podiam
+                  abranger.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Benedicta tu in muliéribus, et benedíctus fructus ventris
@@ -697,13 +695,12 @@ export default function PageMatinas() {
                   vosso ventre.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Quia quem cæli
-                  cápere non póterant, tuo gremio contulisti.
+                  <Text className="text-red-500">℟.</Text> Quia quem cæli cápere
+                  non póterant, tuo gremio contulisti.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Porque
-                  encerrastes no vosso seio Aquele a quem os céus não podiam
-                  abranger.
+                  <Text className="text-red-500">℟.</Text> Porque encerrastes no
+                  vosso seio Aquele a quem os céus não podiam abranger.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Iube domne benedicere.
@@ -718,10 +715,10 @@ export default function PageMatinas() {
                   A mesma Virgem das virgens interceda por nós ao Senhor.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
 
@@ -749,22 +746,21 @@ export default function PageMatinas() {
                   ℣. E Vós, Senhor, tende misericórdia de nós.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Demos graças
-                  a Deus.
+                  <Text className="text-red-500">℟.</Text> Demos graças a Deus.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Beata es, Virgo
+                  <Text className="text-red-500">℟.</Text> Beata es, Virgo
                   Maria, quæ Dominum portasti, Creatorem mundi: Genuisti qui te
                   fecit, et in æternum permanes Virgo.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text>{" "}
-                  Bem-aventurada sois, ó Virgem Maria, que trouxestes no vosso
-                  ventre o Criador do mundo. Gerastes o que vos deu o ser, e
-                  ficastes para sempre Virgem.
+                  <Text className="text-red-500">℟.</Text> Bem-aventurada sois,
+                  ó Virgem Maria, que trouxestes no vosso ventre o Criador do
+                  mundo. Gerastes o que vos deu o ser, e ficastes para sempre
+                  Virgem.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Ave Maria, gratia plena, Dominus tecum.
@@ -773,12 +769,12 @@ export default function PageMatinas() {
                   ℣. Ave Maria, cheia de graça, o Senhor é convosco.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Genuisti qui te
+                  <Text className="text-red-500">℟.</Text> Genuisti qui te
                   fecit, et in æternum permanes Virgo.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Gerastes O
-                  que vos deu o ser, e ficastes para sempre Virgem.
+                  <Text className="text-red-500">℟.</Text> Gerastes O que vos
+                  deu o ser, e ficastes para sempre Virgem.
                 </Text>
               </View>
 
@@ -795,12 +791,12 @@ export default function PageMatinas() {
                   ℣. Glória ao Pai e ao Filho e ao Espírito Santo.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Genuisti qui te
+                  <Text className="text-red-500">℟.</Text> Genuisti qui te
                   fecit, et in æternum permanes Virgo.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Gerastes O
-                  que vos deu o ser, e ficastes para sempre Virgem.
+                  <Text className="text-red-500">℟.</Text> Gerastes O que vos
+                  deu o ser, e ficastes para sempre Virgem.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Iube domne benedicere.
@@ -820,10 +816,10 @@ export default function PageMatinas() {
                   Pela Virgem Maria, nos conceda o Senhor a paz e a salvação.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
 
@@ -855,11 +851,10 @@ export default function PageMatinas() {
                   ℣. E Vós, Senhor, tende misericórdia de nós.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Demos graças
-                  a Deus.
+                  <Text className="text-red-500">℟.</Text> Demos graças a Deus.
                 </Text>
               </View>
 
@@ -871,14 +866,14 @@ export default function PageMatinas() {
 
               <View className="side-by-side">
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Felix namque es,
+                  <Text className="text-red-500">℟.</Text> Felix namque es,
                   sacra Virgo Maria, et omni laude dignissima: Quia ex te ortus
                   est sol justitiæ, Christus Deus noster.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Ditosa sois,
-                  ó sagrada Virgem Maria, e digníssima de todo o louvor. Porque
-                  de vós nasceu o sol de justiça, Jesus Cristo nosso Deus.
+                  <Text className="text-red-500">℟.</Text> Ditosa sois, ó
+                  sagrada Virgem Maria, e digníssima de todo o louvor. Porque de
+                  vós nasceu o sol de justiça, Jesus Cristo nosso Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Ora pro populo, interveni pro clero, intercede pro devoto
@@ -892,12 +887,12 @@ export default function PageMatinas() {
                   Jesus Cristo, nosso Deus.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Quia ex te ortus
-                  est sol justitiæ.
+                  <Text className="text-red-500">℟.</Text> Quia ex te ortus est
+                  sol justitiæ.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Porque de ti
-                  nasceu o Sol de justiça.
+                  <Text className="text-red-500">℟.</Text> Porque de ti nasceu o
+                  Sol de justiça.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Glória Patri, et Fílio, et Spirítui Sancto.
@@ -906,12 +901,11 @@ export default function PageMatinas() {
                   ℣. Glória ao Pai e ao Filho e ao Espírito Santo.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Christus Deus
-                  noster.
+                  <Text className="text-red-500">℟.</Text> Christus Deus noster.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Jesus Cristo,
-                  nosso Deus.
+                  <Text className="text-red-500">℟.</Text> Jesus Cristo, nosso
+                  Deus.
                 </Text>
               </View>
             </TabItem>
@@ -944,26 +938,25 @@ export default function PageMatinas() {
                   ℣. E vós, Senhor, tende misericórdia de nós.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Demos graças
-                  a Deus.
+                  <Text className="text-red-500">℟.</Text> Demos graças a Deus.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Missus est Gabriel
+                  <Text className="text-red-500">℟.</Text> Missus est Gabriel
                   Angelus ad Maríam Vírginem desponsatam Joseph, nuntians ei
                   verbum; et expavescit Virgo de lúmine: ne timeas, María,
                   invenísti grátiam apud Dóminum: Ecce concipies et paries, et
                   vocábitur Altíssimi Fílius.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> O Anjo
-                  Gabriel foi enviado a Maria Virgem, desposada com José, para
-                  lhe anunciar o verbo; e a Virgem assustou-se com o esplendor
-                  da sua luz. Não temas, Maria, que achaste graça para com o
-                  Senhor. Conceberás, e darás à luz um filho que será chamado o
-                  filho do Altíssimo.
+                  <Text className="text-red-500">℟.</Text> O Anjo Gabriel foi
+                  enviado a Maria Virgem, desposada com José, para lhe anunciar
+                  o verbo; e a Virgem assustou-se com o esplendor da sua luz.
+                  Não temas, Maria, que achaste graça para com o Senhor.
+                  Conceberás, e darás à luz um filho que será chamado o filho do
+                  Altíssimo.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Dabit ei Dóminus Deus sedem David, patris ejus, et regnábit
@@ -974,12 +967,12 @@ export default function PageMatinas() {
                   eternamente na casa de Jacob.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Ecce concipies et
+                  <Text className="text-red-500">℟.</Text> Ecce concipies et
                   paries, et vocábitur Altíssimi Fílius.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Conceberás, e
-                  darás á luz um filho que será chamado o Filho do Altíssimo.
+                  <Text className="text-red-500">℟.</Text> Conceberás, e darás á
+                  luz um filho que será chamado o Filho do Altíssimo.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Iube domne benedicere.
@@ -994,10 +987,10 @@ export default function PageMatinas() {
                   A mesma Virgem das virgens interceda por nós ao Senhor.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
 
@@ -1032,23 +1025,22 @@ export default function PageMatinas() {
                   ℣. E vós, Senhor, tende misericórdia de nós.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Demos graças
-                  a Deus.
+                  <Text className="text-red-500">℟.</Text> Demos graças a Deus.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Ave, María, grátia
+                  <Text className="text-red-500">℟.</Text> Ave, María, grátia
                   plena; Dóminus tecum: Spíritus Sanctus supervéniet in te, et
                   virtus Altíssimi obumbrábit tibi: quod enim ex te nascétur
                   Sanctum, vocábitur Fílius Dei.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Ave, Maria,
-                  cheia de graça; o Senhor é convosco. Virá sobre vós o Espírito
-                  Santo e a virtude do Altíssimo vos fará sombra: por isso o
-                  santo que nascerá de vós será chamado Filho de Deus.
+                  <Text className="text-red-500">℟.</Text> Ave, Maria, cheia de
+                  graça; o Senhor é convosco. Virá sobre vós o Espírito Santo e
+                  a virtude do Altíssimo vos fará sombra: por isso o santo que
+                  nascerá de vós será chamado Filho de Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Quómodo fiet istud, quóniam virum non cognósco? Et
@@ -1059,15 +1051,14 @@ export default function PageMatinas() {
                   Anjo, lhe disse:
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Spíritus Sanctus
+                  <Text className="text-red-500">℟.</Text> Spíritus Sanctus
                   supervéniet in te, et virtus Altíssimi obumbrábit tibi: quod
                   enim ex te nascétur Sanctum, vocábitur Fílius Dei.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Virá sobre
-                  vós o Espírito Santo, e a virtude do Altíssimo vos fará
-                  sombra; por isso o santo que nascerá de vós será chamado Filho
-                  de Deus.
+                  <Text className="text-red-500">℟.</Text> Virá sobre vós o
+                  Espírito Santo, e a virtude do Altíssimo vos fará sombra; por
+                  isso o santo que nascerá de vós será chamado Filho de Deus.
                 </Text>
               </View>
 
@@ -1084,15 +1075,14 @@ export default function PageMatinas() {
                   ℣. Glória ao Pai e ao Filho e ao Espírito Santo.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Spíritus Sanctus
+                  <Text className="text-red-500">℟.</Text> Spíritus Sanctus
                   supervéniet in te, et virtus Altíssimi obumbrábit tibi: quod
                   enim ex te nascétur Sanctum, vocábitur Fílius Dei.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Virá sobre
-                  vós o Espírito Santo, e a virtude do Altíssimo vos fará
-                  sombra; por isso o santo que nascerá de vós será chamado Filho
-                  de Deus.
+                  <Text className="text-red-500">℟.</Text> Virá sobre vós o
+                  Espírito Santo, e a virtude do Altíssimo vos fará sombra; por
+                  isso o santo que nascerá de vós será chamado Filho de Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Iube domne benedicere.
@@ -1112,10 +1102,10 @@ export default function PageMatinas() {
                   Pela Virgem Maria, nos conceda o Senhor a paz e a salvação.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
 
@@ -1152,11 +1142,10 @@ export default function PageMatinas() {
                   ℣. E vós, Senhor, tende misericórdia de nós.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Demos graças
-                  a Deus.
+                  <Text className="text-red-500">℟.</Text> Demos graças a Deus.
                 </Text>
               </View>
 
@@ -1168,16 +1157,16 @@ export default function PageMatinas() {
 
               <View className="side-by-side">
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Súscipe verbum,
-                  Virgo María, quod tibi a Dómino per Angelum transmíssum est:
+                  <Text className="text-red-500">℟.</Text> Súscipe verbum, Virgo
+                  María, quod tibi a Dómino per Angelum transmíssum est:
                   concípies et páries Deum páriter et hóminem, ut benedícta
                   dicáris inter omnes mulíeres.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Recebei,
-                  Maria Virgem, a palavra que Senhor vos transmite pelo seu
-                  Anjo. Concebereis, e dareis à luz a Deus e Homem juntamente:
-                  pelo que sereis chamada Bendita entre todas as mulheres.
+                  <Text className="text-red-500">℟.</Text> Recebei, Maria
+                  Virgem, a palavra que Senhor vos transmite pelo seu Anjo.
+                  Concebereis, e dareis à luz a Deus e Homem juntamente: pelo
+                  que sereis chamada Bendita entre todas as mulheres.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Paries quidem fílium, et virginitátis non patiéris
@@ -1189,12 +1178,12 @@ export default function PageMatinas() {
                   imaculada.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Ut benedícta
-                  dicáris inter omnes mulíeres.
+                  <Text className="text-red-500">℟.</Text> Ut benedícta dicáris
+                  inter omnes mulíeres.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Pelo que
-                  sereis chamada Bendita entre todas as mulheres.
+                  <Text className="text-red-500">℟.</Text> Pelo que sereis
+                  chamada Bendita entre todas as mulheres.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Glória Patri, et Fílio, et Spirítui Sancto.
@@ -1203,12 +1192,12 @@ export default function PageMatinas() {
                   ℣. Glória ao Pai e ao Filho e ao Espírito Santo.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Ut benedícta
-                  dicáris inter omnes mulíeres.
+                  <Text className="text-red-500">℟.</Text> Ut benedícta dicáris
+                  inter omnes mulíeres.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Pelo que
-                  sereis chamada Bendita entre todas as mulheres.
+                  <Text className="text-red-500">℟.</Text> Pelo que sereis
+                  chamada Bendita entre todas as mulheres.
                 </Text>
               </View>
             </TabItem>
@@ -1232,12 +1221,12 @@ export default function PageMatinas() {
               ℣. Ouvi, Senhor, a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               veniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E o meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E o meu clamor chegue até
+              Vós.
             </Text>
           </View>
 
@@ -1264,10 +1253,10 @@ export default function PageMatinas() {
               Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1279,22 +1268,22 @@ export default function PageMatinas() {
               ℣. Ouvi, Senhor, a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               veniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E o meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E o meu clamor chegue até
+              Vós.
             </Text>
             <Text className="text-base latin">℣. Benedicamus Domino.</Text>
             <Text className="text-base vernacular">
               ℣. Bendigamos o Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo gratias.
+              <Text className="text-red-500">℟.</Text> Deo gratias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Graças a Deus.
+              <Text className="text-red-500">℟.</Text> Graças a Deus.
             </Text>
             <Text className="text-base latin">
               ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
@@ -1304,10 +1293,10 @@ export default function PageMatinas() {
               em paz.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 

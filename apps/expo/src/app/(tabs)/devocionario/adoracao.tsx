@@ -52,11 +52,11 @@ export default function PageAdoracao() {
               ℣. Coração sacratíssimo de Jesus:
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Miserere nobis.
+              <Text className="text-red-500">℟.</Text> Miserere nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Tende
-              misericórdia de nós.
+              <Text className="text-red-500">℟.</Text> Tende misericórdia de
+              nós.
             </Text>
           </View>
           <Text className="h1">Hino para antes da Bênção</Text>
@@ -70,12 +70,12 @@ export default function PageAdoracao() {
               ℣. Vós lhes destes, Senhor, o pão do céu. (T. P. Aleluia)
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Omne delectaméntum in
-              se habéntem. (T. P. Aleluia)
+              <Text className="text-red-500">℟.</Text> Omne delectaméntum in se
+              habéntem. (T. P. Aleluia)
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> O qual encerra em
-              si toda a doçura. (T. P. Aleluia)
+              <Text className="text-red-500">℟.</Text> O qual encerra em si toda
+              a doçura. (T. P. Aleluia)
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -97,10 +97,10 @@ export default function PageAdoracao() {
               viveis e reinais em todos os séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h1">Louvores Dívinos</Text>

@@ -149,7 +149,7 @@ export default function PageQuadp33() {
               grátiam tuæ benedictiónis: ut eos et spíritu compunctiónis répleas
               et, quæ juste postuláverint, efficáciter tríbuas; et concéssa
               perpétuo stabilíta et intácta manére decérnas. Per Christum,
-              Dóminum nostrum. <Text className="text-base latin">℟.</Text> Amen.
+              Dóminum nostrum. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Ó Deus, que pela humilhação Vos inclinais a perdoar e pela
@@ -159,7 +159,7 @@ export default function PageQuadp33() {
               compunção, concedei-lhes o que com justiça Vos suplicarem, a fim
               de que perpetuamente conservem, firme e intacto, o que de Vós
               houverem alcançado. Por Cristo, nosso Senhor.{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -255,14 +255,14 @@ export default function PageQuadp33() {
               Concéde nobis, Dómine, præsídia milítiæ christiánæ sanctis
               inchoáre jejúniis: ut, contra spiritáles nequítias pugnatúri,
               continéntiæ muniámur auxíliis. Per Christum, Dóminum nostrum.{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Permiti, Senhor, que iniciemos com estes salutares jejuns esta
               estação da milícia cristã, a fim de que, havendo nós de combater
               contra os espíritos do mal, estejamos munidos contra os seus
               esforços com os auxílios da abstinência. Por Cristo, nosso Senhor.{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 

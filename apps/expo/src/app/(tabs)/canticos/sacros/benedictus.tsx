@@ -111,11 +111,11 @@ export default function PageBenedictus() {
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sicut erat in
-              pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
+              <Text className="text-red-500">℟.</Text> Sicut erat in pricípio,
+              et nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim como era no
+              <Text className="text-red-500">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>

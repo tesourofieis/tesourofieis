@@ -34,12 +34,12 @@ export default function PageSalveregina() {
               ℣. Rogai por nós, Santa Mãe de Deus.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ut digni efficiámur
+              <Text className="text-red-500">℟.</Text> Ut digni efficiámur
               promissiónibus Christi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Para que sejamos
-              dignos das promessas de Cristo.
+              <Text className="text-red-500">℟.</Text> Para que sejamos dignos
+              das promessas de Cristo.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -64,10 +64,10 @@ export default function PageSalveregina() {
               alegremente. Pelo mesmo Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

@@ -20,18 +20,18 @@ export default function PageAvemaria() {
               Vós entre as mulheres, e bendito é o fruto do Vosso ventre, Jesus.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sancta María, Mater
-              Dei, ora pro nobis peccatóribus, nunc, et in hora mortis nostræ.
+              <Text className="text-red-500">℟.</Text> Sancta María, Mater Dei,
+              ora pro nobis peccatóribus, nunc, et in hora mortis nostræ.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Santa Maria, Mãe
-              de Deus, rogai por nós, pecadores, agora e na hora da nossa morte.
+              <Text className="text-red-500">℟.</Text> Santa Maria, Mãe de Deus,
+              rogai por nós, pecadores, agora e na hora da nossa morte.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

@@ -54,10 +54,10 @@ export default function PageOficioagonizantes() {
               Sião. Pelo mesmo Cristo nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -100,10 +100,10 @@ export default function PageOficioagonizantes() {
               Cristo Senhor nosso.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -183,10 +183,10 @@ export default function PageOficioagonizantes() {
               vosso Deus em todos os séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -206,10 +206,10 @@ export default function PageOficioagonizantes() {
               vossa misericórdia.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae) ex omnibus
@@ -222,10 +222,10 @@ export default function PageOficioagonizantes() {
               tribulações.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -236,10 +236,10 @@ export default function PageOficioagonizantes() {
               livrastes Henoc e Elias da morte comum ao homem.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -250,10 +250,10 @@ export default function PageOficioagonizantes() {
               livrastes Noé do dilúvio.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -264,10 +264,10 @@ export default function PageOficioagonizantes() {
               livrastes Abraão de Ur, na Caldeia.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -278,10 +278,10 @@ export default function PageOficioagonizantes() {
               livrastes Job dos seus sofrimentos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -293,10 +293,10 @@ export default function PageOficioagonizantes() {
               imolá-lo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -307,10 +307,10 @@ export default function PageOficioagonizantes() {
               livrastes Lot de Sodoma e das chamas de fogo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -321,10 +321,10 @@ export default function PageOficioagonizantes() {
               livrastes Moisés das mãos de Faraó, rei do Egipto.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -335,10 +335,10 @@ export default function PageOficioagonizantes() {
               livrastes Daniel da cova dos leões.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -350,10 +350,10 @@ export default function PageOficioagonizantes() {
               de um rei iníquo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -364,10 +364,10 @@ export default function PageOficioagonizantes() {
               livrastes Susana de uma acusação falsa.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -378,10 +378,10 @@ export default function PageOficioagonizantes() {
               livrastes David das mãos do rei Saúl e de Golias.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
@@ -392,10 +392,10 @@ export default function PageOficioagonizantes() {
               livrastes S. Pedro e S. Paulo do cárcere.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Et sicut beatissimam Theclam Virginem et Martyrem tuam de tribus
@@ -410,10 +410,10 @@ export default function PageOficioagonizantes() {
               celestiais.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -455,10 +455,10 @@ export default function PageOficioagonizantes() {
               todas as coisas.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -512,10 +512,10 @@ export default function PageOficioagonizantes() {
               séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -542,10 +542,10 @@ export default function PageOficioagonizantes() {
               ardentemente desejada, da pátria celestial.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -576,10 +576,10 @@ export default function PageOficioagonizantes() {
               Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h1">Prestes a Expirar</Text>
@@ -670,12 +670,12 @@ export default function PageOficioagonizantes() {
               conduzam ao seio de Abraão.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Suscipientes animam
-              eius, Offerentes eam in conspectu Altissimi.
+              <Text className="text-red-500">℟.</Text> Suscipientes animam eius,
+              Offerentes eam in conspectu Altissimi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Recebei a sua
-              alma: Apresentai-a ao Altíssimo.
+              <Text className="text-red-500">℟.</Text> Recebei a sua alma:
+              Apresentai-a ao Altíssimo.
             </Text>
             <Text className="text-base latin">
               ℣. Requiem aeternam dona ei, Domine: et lux perpetua luceat ei.
@@ -712,11 +712,10 @@ export default function PageOficioagonizantes() {
               ℣. E não nos deixeis cair em tentação.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sed libera nos a malo.
+              <Text className="text-red-500">℟.</Text> Sed libera nos a malo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Mas livrai-nos do
-              mal.
+              <Text className="text-red-500">℟.</Text> Mas livrai-nos do mal.
             </Text>
             <Text className="text-base latin">
               ℣. Requiem aeternam dona ei, Domine.
@@ -725,34 +724,34 @@ export default function PageOficioagonizantes() {
               ℣. Dai-lhe, Senhor, o repouso eterno.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et lux perpetua luceat
+              <Text className="text-red-500">℟.</Text> Et lux perpetua luceat
               ei.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que lhe
-              resplandeça a luz perpétua.
+              <Text className="text-red-500">℟.</Text> E que lhe resplandeça a
+              luz perpétua.
             </Text>
             <Text className="text-base latin">℣. A porta inferi.</Text>
             <Text className="text-base vernacular">
               ℣. Das portas do inferno.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Erue, Domine, animam
+              <Text className="text-red-500">℟.</Text> Erue, Domine, animam
               eius.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Livrai, Senhor,
-              esta alma.
+              <Text className="text-red-500">℟.</Text> Livrai, Senhor, esta
+              alma.
             </Text>
             <Text className="text-base latin">℣. Requiescat in pace.</Text>
             <Text className="text-base vernacular">
               ℣. Que ela descanse em paz.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.
@@ -761,23 +760,22 @@ export default function PageOficioagonizantes() {
               ℣. Senhor, ouvi a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dominus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
           <View className="side-by-side">

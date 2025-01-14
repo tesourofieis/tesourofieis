@@ -764,12 +764,11 @@ export default function PageSantos() {
               ℣. Meu Deus, salvai os vossos servos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deus meus, sperántes
-              in te.
+              <Text className="text-red-500">℟.</Text> Deus meus, sperántes in
+              te.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Quem esperam em
-              Vós.
+              <Text className="text-red-500">℟.</Text> Quem esperam em Vós.
             </Text>
             <Text className="text-base latin">
               ℣. Esto nobis, Dómine, turris fortitúdinis.
@@ -778,11 +777,11 @@ export default function PageSantos() {
               ℣. Sede para nós, Senhor, uma torre forte.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> A fácie inimíci.
+              <Text className="text-red-500">℟.</Text> A fácie inimíci.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Contra os ataques
-              do inimigo.
+              <Text className="text-red-500">℟.</Text> Contra os ataques do
+              inimigo.
             </Text>
             <Text className="text-base latin">
               ℣. Nihil profíciat intimícus in nobis.
@@ -791,12 +790,12 @@ export default function PageSantos() {
               ℣. Nada possa o inimigo contra nós.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et fílius iniquitátis
-              non appónat nocére nobis.
+              <Text className="text-red-500">℟.</Text> Et fílius iniquitátis non
+              appónat nocére nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E o filho da
-              iniquidade não consiga fazer-nos mal.
+              <Text className="text-red-500">℟.</Text> E o filho da iniquidade
+              não consiga fazer-nos mal.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, non secúndum peccáta nostra fácias nobis.
@@ -805,12 +804,12 @@ export default function PageSantos() {
               ℣. Senhor, nos não trateis como merecem os nossos pecados.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Neque secúndum
+              <Text className="text-red-500">℟.</Text> Neque secúndum
               iniquitátes nostras retribuas nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Nem nos
-              castigueis como pedem as nossas iniquidades.
+              <Text className="text-red-500">℟.</Text> Nem nos castigueis como
+              pedem as nossas iniquidades.
             </Text>
             <Text className="text-base latin">
               ℣. Orémus pro Pontífice nostro{" "}
@@ -821,14 +820,14 @@ export default function PageSantos() {
               <Text className="text-base vernacular">N.</Text>
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dóminus consérvet eum,
-              et vivíficet eum, et beátum fáciat eum in terra, et non tradat eum
-              in ánimam inimicórum éjus.
+              <Text className="text-red-500">℟.</Text> Dóminus consérvet eum, et
+              vivíficet eum, et beátum fáciat eum in terra, et non tradat eum in
+              ánimam inimicórum éjus.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> O Senhor o
-              conserve, lhe dê vida, o faça feliz na terra e o não entregue à
-              violência dos seus inimigos.
+              <Text className="text-red-500">℟.</Text> O Senhor o conserve, lhe
+              dê vida, o faça feliz na terra e o não entregue à violência dos
+              seus inimigos.
             </Text>
             <Text className="text-base latin">
               ℣. Orémus pro benefactóribus nostris.
@@ -837,20 +836,20 @@ export default function PageSantos() {
               ℣. Oremos pelos nossos benfeitores.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Retribúere dignare,
+              <Text className="text-red-500">℟.</Text> Retribúere dignare,
               Dómine, ómnibus nobis bona faciéntibus, propter nomen tuum, vitam
               ætérnam.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Dignai-Vos,
-              Senhor, para glória do vosso Nome, conceder a vida eterna a todos
-              os que nos fazem bem.
+              <Text className="text-red-500">℟.</Text> Dignai-Vos, Senhor, para
+              glória do vosso Nome, conceder a vida eterna a todos os que nos
+              fazem bem.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Orémus pro fidélibus defúnctis.
@@ -859,20 +858,20 @@ export default function PageSantos() {
               ℣. Oremos pelos fiéis defuntos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Réquiem ætérnam dona
-              eis, Dómine, et lux perpétua lúceat eis.
+              <Text className="text-red-500">℟.</Text> Réquiem ætérnam dona eis,
+              Dómine, et lux perpétua lúceat eis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Dai-lhes, Senhor,
-              o eterno descanso, entre os esplendores da luz perpétua.
+              <Text className="text-red-500">℟.</Text> Dai-lhes, Senhor, o
+              eterno descanso, entre os esplendores da luz perpétua.
             </Text>
             <Text className="text-base latin">℣. Requiéscant in pace.</Text>
             <Text className="text-base vernacular">℣. Descansem em paz.</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Pro frátribus nostris abséntibus.
@@ -881,12 +880,12 @@ export default function PageSantos() {
               ℣. Oremos pelos nossos irmãos ausentes.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Salvos fac servos
-              tuos, Deus meus, sperántes in te.
+              <Text className="text-red-500">℟.</Text> Salvos fac servos tuos,
+              Deus meus, sperántes in te.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Salvai, meu Deus,
-              os vossos servos que esperam em Vós.
+              <Text className="text-red-500">℟.</Text> Salvai, meu Deus, os
+              vossos servos que esperam em Vós.
             </Text>
             <Text className="text-base latin">
               ℣. Mitte eis, Dómine, auxílium de sancto.
@@ -895,10 +894,10 @@ export default function PageSantos() {
               ℣. Socorrei-os, Senhor, lá do vosso santuário.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et de Sion tuére eos.
+              <Text className="text-red-500">℟.</Text> Et de Sion tuére eos.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E protegei-os da
+              <Text className="text-red-500">℟.</Text> E protegei-os da
               celestial Sião.
             </Text>
             <Text className="text-base latin">
@@ -908,23 +907,22 @@ export default function PageSantos() {
               ℣. Ouvi, Senhor, a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               vénita.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E o meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E o meu clamor chegue até
+              Vós.
             </Text>
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -1060,23 +1058,22 @@ export default function PageSantos() {
               ℣. Senhor, ouvi a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">
               ℣. Exáudiat nos omnípotens et miséricors Dóminus.
@@ -1085,10 +1082,10 @@ export default function PageSantos() {
               ℣. Que o Senhor omnipotente e misericordioso se digne ouvir-nos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Et fidélium ánimæ per misericórdiam Dei requiéscant in pace.
@@ -1098,10 +1095,10 @@ export default function PageSantos() {
               descansem em paz.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

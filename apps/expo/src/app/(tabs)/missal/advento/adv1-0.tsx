@@ -41,7 +41,7 @@ export default function PageAdv10() {
               imminéntibus peccatórum nostrórum perículis, te mereámur
               protegénte éripi, te liberánte salvári: Qui vivis et regnas cum
               Deo Patre in unitáte Spíritus Sancti Deus: per ómnia sǽcula
-              sæculórum. <Text className="text-base latin">℟.</Text> Amen.
+              sæculórum. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Senhor Vos suplicamos, manifestai o vosso poder, e «vinde já ao
@@ -49,8 +49,7 @@ export default function PageAdv10() {
               dos iminentes perigos em que incorremos por causa dos nossos
               pecados, e sejamos livres e salvos: Vós, que viveis e reinais com
               Deus Pai em unidade do Espírito Santo, Deus, em todos os séculos
-              dos séculos. <Text className="text-base vernacular">℟.</Text>{" "}
-              Amen.
+              dos séculos. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 

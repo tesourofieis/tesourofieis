@@ -229,12 +229,12 @@ export default function PageSanguejesus() {
               nós.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Redimisti nos, Domine,
-              in sanguine tuo.
+              <Text className="text-red-500">℟.</Text> Redimisti nos, Domine, in
+              sanguine tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Remiste-nos,
-              Senhor, com vosso Sangue.
+              <Text className="text-red-500">℟.</Text> Remiste-nos, Senhor, com
+              vosso Sangue.
             </Text>
             <Text className="text-base latin">
               ℣. Et fecisti nos Deo nostro regnum.

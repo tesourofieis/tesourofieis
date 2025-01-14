@@ -26,10 +26,10 @@ export default function PageConfirmacao() {
               Altíssimo vos livre de todos os pecados.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Adjutórium nostrum in nómine Dómini.
@@ -38,12 +38,12 @@ export default function PageConfirmacao() {
               ℣. O nosso auxílio está no Nome do Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Qui fecit cœlum et
+              <Text className="text-red-500">℟.</Text> Qui fecit cœlum et
               terram.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Que criou o céu e
-              a terra.
+              <Text className="text-red-500">℟.</Text> Que criou o céu e a
+              terra.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.
@@ -52,23 +52,22 @@ export default function PageConfirmacao() {
               ℣. Senhor, ouvi a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dominus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -100,10 +99,10 @@ export default function PageConfirmacao() {
               sete dons.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Spíritum sapiéntiæ, et intelléctus.
@@ -112,10 +111,10 @@ export default function PageConfirmacao() {
               ℣. O Espírito da Sabedoria e do Entendimento!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Spíritum consílii, et fortitúdinis.
@@ -124,10 +123,10 @@ export default function PageConfirmacao() {
               ℣. O Espírito do Conselho e da Fortaleza!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Spíritum sciéntiæ, et pietátis.
@@ -136,10 +135,10 @@ export default function PageConfirmacao() {
               ℣. O Espírito da Ciência e da Piedade!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Adímple eum (eam) Spíritu timóris tui, et consígna eum (eam) signo
@@ -182,10 +181,10 @@ export default function PageConfirmacao() {
               <Text className="cross text-red-500">✠</Text> Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">℣. Pax tecum.</Text>
             <Text className="text-base vernacular">
@@ -214,10 +213,10 @@ export default function PageConfirmacao() {
               sempre e por todos os séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">
@@ -236,12 +235,11 @@ export default function PageConfirmacao() {
               ℣. Mostrai, Senhor, a vossa misericórdia.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et salutáre tuum da
+              <Text className="text-red-500">℟.</Text> Et salutáre tuum da
               nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E dai-nos a
-              salvação.
+              <Text className="text-red-500">℟.</Text> E dai-nos a salvação.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.
@@ -250,23 +248,22 @@ export default function PageConfirmacao() {
               ℣. Senhor, ouvi a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dominus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -298,10 +295,10 @@ export default function PageConfirmacao() {
               Santo pelos séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -328,10 +325,10 @@ export default function PageConfirmacao() {
               vossa vida e alcanceis a vida eterna.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

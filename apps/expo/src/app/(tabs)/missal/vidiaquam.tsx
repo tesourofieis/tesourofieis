@@ -32,12 +32,12 @@ export default function PageVidiaquam() {
               ℣. Mostrai, Senhor, a vossa misericórdia. Aleluia.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et salutáre tuum da
+              <Text className="text-red-500">℟.</Text> Et salutáre tuum da
               nobis. Allelúja.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E dai-nos a
-              salvação. Aleluia.
+              <Text className="text-red-500">℟.</Text> E dai-nos a salvação.
+              Aleluia.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.
@@ -46,23 +46,22 @@ export default function PageVidiaquam() {
               ℣. Ouvi, Senhor, a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>

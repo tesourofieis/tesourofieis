@@ -92,9 +92,9 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   const [list, setList] = useState<Notifications.NotificationRequest[]>();
   const [notificationPrefs, setNotificationPrefs] =
     useState<NotificationPreferences>({
-      ANGELUS: { enabled: false },
-      MASS: { enabled: false },
-      NOVENA: { enabled: false },
+      ANGELUS: { enabled: true },
+      MASS: { enabled: true },
+      NOVENA: { enabled: true },
       OFFICE: { enabled: false },
     });
 

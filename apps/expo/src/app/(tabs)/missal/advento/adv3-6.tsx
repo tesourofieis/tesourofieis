@@ -41,10 +41,10 @@ export default function PageAdv36() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
@@ -118,10 +118,10 @@ export default function PageAdv36() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
@@ -210,10 +210,10 @@ export default function PageAdv36() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
@@ -289,10 +289,10 @@ export default function PageAdv36() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
           </View>
 
@@ -389,10 +389,10 @@ export default function PageAdv36() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
           </View>
 

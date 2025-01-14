@@ -18,8 +18,8 @@
   "dependencies": {
     "@bacons/mdx": "^0.4.2",
     "@expo-google-fonts/berkshire-swash": "^0.2.3",
+    "@expo-google-fonts/dm-serif-display": "^0.2.3",
     "@expo-google-fonts/eb-garamond": "^0.2.3",
-    "@expo-google-fonts/goudy-bookletter-1911": "^0.2.3",
     "@expo-google-fonts/lusitana": "^0.2.3",
     "@expo/html-elements": "^0.10.1",
     "@expo/metro-config": "^0.19.4",
@@ -36,7 +36,7 @@
     "expo-constants": "~17.0.3",
     "expo-dev-client": "~5.0.7",
     "expo-device": "~7.0.1",
-    "expo-font": "~13.0.2",
+    "expo-font": "~13.0.3",
     "expo-image": "~2.0.3",
     "expo-linking": "~7.0.3",
     "expo-notifications": "~0.29.11",

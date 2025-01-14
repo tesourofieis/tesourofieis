@@ -20,11 +20,11 @@ export default function PageViatico() {
               ℣. A paz esteja nesta casa.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et ómnibus
-              habitántibus in ea.
+              <Text className="text-red-500">℟.</Text> Et ómnibus habitántibus
+              in ea.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E em todos seus
+              <Text className="text-red-500">℟.</Text> E em todos seus
               habitantes.
             </Text>
           </View>
@@ -44,14 +44,14 @@ export default function PageViatico() {
               mundo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dómine, non sum
-              dignus, ut intres sub tectum meum: sed tantum dic verbo, et
-              sanábitur ánima mea.
+              <Text className="text-red-500">℟.</Text> Dómine, non sum dignus,
+              ut intres sub tectum meum: sed tantum dic verbo, et sanábitur
+              ánima mea.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor, eu não
-              sou digno de que entreis na minha morada, mas dizei uma só palavra
-              e a minha alma será salva.
+              <Text className="text-red-500">℟.</Text> Senhor, eu não sou digno
+              de que entreis na minha morada, mas dizei uma só palavra e a minha
+              alma será salva.
             </Text>
             <Text className="text-base latin">
               Accípe frater (soror), Viaticum Córporis Dómini nostri Jesu
@@ -63,21 +63,20 @@ export default function PageViatico() {
               Senhor Jesus Cristo, a fim de que vos guie até à vida eterna.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">℣. Dominus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
           <View className="side-by-side">
@@ -104,10 +103,10 @@ export default function PageViatico() {
               todos os séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

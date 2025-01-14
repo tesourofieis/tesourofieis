@@ -24,11 +24,11 @@ export default function PageExtremauncao() {
               ℣. A paz esteja nesta casa.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et ómnibus
-              habitántibus in ea.
+              <Text className="text-red-500">℟.</Text> Et ómnibus habitántibus
+              in ea.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E em todos seus
+              <Text className="text-red-500">℟.</Text> E em todos seus
               habitantes.
             </Text>
           </View>
@@ -42,12 +42,12 @@ export default function PageExtremauncao() {
               ℣. O nosso auxílio está no Nome do Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Qui fecit cœlum et
+              <Text className="text-red-500">℟.</Text> Qui fecit cœlum et
               terram.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Que criou o céu e
-              a terra.
+              <Text className="text-red-500">℟.</Text> Que criou o céu e a
+              terra.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.
@@ -56,23 +56,22 @@ export default function PageExtremauncao() {
               ℣. Senhor, ouvi a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dominus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
           <View className="side-by-side">
@@ -108,10 +107,10 @@ export default function PageExtremauncao() {
               séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Orémus, et deprecémur Dóminum nostrum Jesum Christum, ut
@@ -134,10 +133,10 @@ export default function PageExtremauncao() {
               sendo Deus, vive e...
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -160,10 +159,10 @@ export default function PageExtremauncao() {
               morada. Por Cristo Senhor nosso.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           O Acólito diz o{" "}
@@ -192,10 +191,10 @@ export default function PageExtremauncao() {
               qualquer poder do demónio sobre vós!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h1">Sagradas Unções</Text>
@@ -214,10 +213,10 @@ export default function PageExtremauncao() {
               cometestes com a vista.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Dos Ouvidos</Text>
@@ -235,10 +234,10 @@ export default function PageExtremauncao() {
               cometestes com os ouvidos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Do Nariz</Text>
@@ -256,10 +255,10 @@ export default function PageExtremauncao() {
               cometestes com o cheiro.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Da Boca</Text>
@@ -277,10 +276,10 @@ export default function PageExtremauncao() {
               span com o gosto e as palavras.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Das Mãos</Text>
@@ -298,10 +297,10 @@ export default function PageExtremauncao() {
               cometestes com o tacto.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Dos Pés</Text>
@@ -319,10 +318,10 @@ export default function PageExtremauncao() {
               cometestes com os passos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="aside">
@@ -340,11 +339,10 @@ export default function PageExtremauncao() {
               ℣. Senhor, tende piedade.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Christe, eléison.
+              <Text className="text-red-500">℟.</Text> Christe, eléison.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Cristo, tende
-              piedade.
+              <Text className="text-red-500">℟.</Text> Cristo, tende piedade.
             </Text>
             <Text className="text-base latin">℣. Kýrie eléson.</Text>
             <Text className="text-base vernacular">
@@ -362,22 +360,21 @@ export default function PageExtremauncao() {
               ℣. E não nos deixeis cair em tentação.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Sed líbera nos a
-              malo.
+              <Text className="text-red-500">℟.</Text> Sed líbera nos a malo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Mas livrai-nos do mal.
+              <Text className="text-red-500">℟.</Text> Mas livrai-nos do mal.
             </Text>
             <Text className="text-base vernacular">
               ℣. Salvum (-am) fac servum tuum (ancíllam tuam).
             </Text>
             <Text className="text-base latin">℣. Salvai o vosso servo.</Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Deus meus,
-              sperántem in te.
+              <Text className="text-red-500">℟.</Text> Deus meus, sperántem in
+              te.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Que em Vós espera.
+              <Text className="text-red-500">℟.</Text> Que em Vós espera.
             </Text>
             <Text className="text-base vernacular">
               ℣. Mitte ei, Dómine, auxílium de sancto.
@@ -386,12 +383,11 @@ export default function PageExtremauncao() {
               ℣. Enviai-lhe, Senhor, do vosso santuário o vosso auxílio.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Et de Sion tuére
-              eum (eam).
+              <Text className="text-red-500">℟.</Text> Et de Sion tuére eum
+              (eam).
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> E protejei-o lá de
-              Sião.
+              <Text className="text-red-500">℟.</Text> E protejei-o lá de Sião.
             </Text>
             <Text className="text-base vernacular">
               ℣. Esto ei, Dómine, turris fortitúdinis.
@@ -400,10 +396,10 @@ export default function PageExtremauncao() {
               ℣. Sede, Senhor, a sua fortaleza.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> A fácie inimíci.
+              <Text className="text-red-500">℟.</Text> A fácie inimíci.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Contra o inimigo.
+              <Text className="text-red-500">℟.</Text> Contra o inimigo.
             </Text>
             <Text className="text-base vernacular">
               ℣. Nihil profíciat inimícus in eo (ea).
@@ -412,11 +408,11 @@ export default function PageExtremauncao() {
               ℣. Que o inimigo não tenha poder algum nele.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Et fílius
-              iniquitátis non appónat nocére ei.
+              <Text className="text-red-500">℟.</Text> Et fílius iniquitátis non
+              appónat nocére ei.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> E que o Filho da
+              <Text className="text-red-500">℟.</Text> E que o Filho da
               iniquidade não possa prejudicá-lo.
             </Text>
             <Text className="text-base vernacular">
@@ -426,21 +422,20 @@ export default function PageExtremauncao() {
               ℣. Senhor, ouvi a minha oração.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Et clamor meus ad
-              te véniat.
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+              véniat.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base vernacular">℣. Dominus vobíscum.</Text>
             <Text className="text-base latin">℣. O Senhor seja convosco.</Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Et cum spíritu
-              tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> E com vosso espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
           <View className="side-by-side">
@@ -478,10 +473,10 @@ export default function PageExtremauncao() {
               Deus...
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -507,10 +502,10 @@ export default function PageExtremauncao() {
               a salvação senão aos remédios da vossa graça. Por nosso Senhor...
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <View className="side-by-side">
@@ -540,10 +535,10 @@ export default function PageExtremauncao() {
               atendido a todos seus desejos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

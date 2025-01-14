@@ -90,10 +90,10 @@ export default function Page0202() {
               Que, sendo Deus, convosco vive e...
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -128,10 +128,10 @@ export default function Page0202() {
               no templo sagrado da vossa glória. Pelo mesmo...
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -172,10 +172,10 @@ export default function Page0202() {
               séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -202,10 +202,10 @@ export default function Page0202() {
               Espírito Santo. Por nosso Senhor...
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -353,10 +353,10 @@ export default function Page0202() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -376,10 +376,10 @@ export default function Page0202() {
               Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 

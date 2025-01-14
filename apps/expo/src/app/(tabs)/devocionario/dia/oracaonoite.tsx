@@ -24,12 +24,12 @@ export default function PageOracaonoite() {
               ℣. Convertei-nos, ó Deus nosso Salvador.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et avérte iram tuam a
+              <Text className="text-red-500">℟.</Text> Et avérte iram tuam a
               nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E afastai de nós
-              a vossa ira.
+              <Text className="text-red-500">℟.</Text> E afastai de nós a vossa
+              ira.
             </Text>
             <Text className="text-base latin">
               ℣. Deus, in adjutórium meum inténde.
@@ -38,12 +38,12 @@ export default function PageOracaonoite() {
               ℣. Deus, vinde em nosso auxílio.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dómine, ad adjuvándum
-              me festína.
+              <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum me
+              festína.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor,
-              socorrei-nos e salvai-nos.
+              <Text className="text-red-500">℟.</Text> Senhor, socorrei-nos e
+              salvai-nos.
             </Text>
             <Text className="text-base latin">
               ℣. Glória Patri, et Fílio, et Spirítui Sancto.
@@ -52,11 +52,11 @@ export default function PageOracaonoite() {
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sicut erat in
-              princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
+              <Text className="text-red-500">℟.</Text> Sicut erat in princípio,
+              et nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim como era no
+              <Text className="text-red-500">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
@@ -78,12 +78,12 @@ export default function PageOracaonoite() {
               ℣. Enviai o vosso Espírito e tudo será criado.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et renovábis faciem
+              <Text className="text-red-500">℟.</Text> Et renovábis faciem
               terræ.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E renovareis a
-              face da terra.
+              <Text className="text-red-500">℟.</Text> E renovareis a face da
+              terra.
             </Text>
           </View>
           <Text className="h3">Breve lição:</Text>

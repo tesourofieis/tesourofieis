@@ -18,12 +18,12 @@ export default function PageParcedomine() {
               ℣. Perdoai, Senhor, perdoai ao vosso povo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ne in aeternum
-              irascaris nobis.
+              <Text className="text-red-500">℟.</Text> Ne in aeternum irascaris
+              nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Não fiqueis
-              sempre irritado contra nós.
+              <Text className="text-red-500">℟.</Text> Não fiqueis sempre
+              irritado contra nós.
             </Text>
           </View>
         </View>

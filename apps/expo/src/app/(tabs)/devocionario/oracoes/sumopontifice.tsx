@@ -18,14 +18,14 @@ export default function PageSumopontifice() {
               ℣. Oremos pelo nosso Pontífice N.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text> Dóminus consérvet
-              eum, et vivíficet eum, et beátum fáciat eum in terra, et non
-              tradat eum in ánimam inimicórum ejus.
+              <Text className="text-red-500">℟. </Text> Dóminus consérvet eum,
+              et vivíficet eum, et beátum fáciat eum in terra, et non tradat eum
+              in ánimam inimicórum ejus.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text> Que o Senhor o
-              conserve e vivifique, que o faça santo na terra e o não entregue à
-              vontade dos seus inimigos.
+              <Text className="text-red-500">℟. </Text> Que o Senhor o conserve
+              e vivifique, que o faça santo na terra e o não entregue à vontade
+              dos seus inimigos.
             </Text>
             <Text className="text-base latin">
               Pater Noster... Ave Maria...
@@ -49,10 +49,10 @@ export default function PageSumopontifice() {
               eterna. Por Cristo Senhor nosso.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
           </View>
         </View>

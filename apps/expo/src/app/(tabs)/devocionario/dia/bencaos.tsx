@@ -16,28 +16,26 @@ export default function PageBencaos() {
               ℣. Bendigamos o Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Deo Gratias.
+              <Text className="text-red-500">℟. </Text>Deo Gratias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Demos graças a
-              Deus.
+              <Text className="text-red-500">℟. </Text>Demos graças a Deus.
             </Text>
             <Text className="text-base latin">℣. Laudetur Jesus Christus.</Text>
             <Text className="text-base vernacular">
               ℣. Louvado seja Jesus Cristo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>In æternum.
+              <Text className="text-red-500">℟. </Text>In æternum.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Sempre seja
-              louvado.
+              <Text className="text-red-500">℟. </Text>Sempre seja louvado.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
           </View>
           <Text className="h3">Antes da Refeição</Text>
@@ -51,10 +49,10 @@ export default function PageBencaos() {
               do Filho e do Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Bénedic, Dómine, nos et hæc tua dona quæ de tua largitáte sumus
@@ -65,10 +63,10 @@ export default function PageBencaos() {
               generosidade recebemos. Por Cristo Senhor Nosso.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
           </View>
           <Text className="h3">Depois da Refeição</Text>
@@ -80,10 +78,10 @@ export default function PageBencaos() {
               Em nome do Pai e do Filho e do Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Ágimus tibi grátias, omnipotens Deus, pro universis beneficiis
@@ -94,10 +92,10 @@ export default function PageBencaos() {
               fazei-nos dignos de participar da vossa mesa celeste.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
           </View>
           <Text className="h3">Viagem</Text>
@@ -120,10 +118,10 @@ export default function PageBencaos() {
               do Filho e do Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
           </View>
           <Text className="h3">Antes do Trabalho</Text>
@@ -143,10 +141,10 @@ export default function PageBencaos() {
               Santo, desça sobre ti e permaneça contigo para sempre.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
           </View>
           <Text className="h3">A Adultos</Text>
@@ -160,10 +158,10 @@ export default function PageBencaos() {
               sobre ti e permaneça contigo para sempre.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
           </View>
         </View>

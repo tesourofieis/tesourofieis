@@ -29,18 +29,18 @@ export default function PageIntroducao() {
             <Link className="link" href="/devocionario/oracoes/painosso">
               Pai-Nosso
             </Link>{" "}
-            , a
+            , a{" "}
             <Link className="link" href="/devocionario/oracoes/avemaria">
               Ave-Maria
             </Link>{" "}
-            , o
+            , o{" "}
             <Link
               className="link"
               href="/devocionario/oracoes/simboloapostolos"
             >
               Credo
             </Link>{" "}
-            , e os
+            , e os{" "}
             <Link className="link" href="/devocionario/oracoes/actofe">
               Actos de Fé,
             </Link>{" "}
@@ -65,7 +65,7 @@ export default function PageIntroducao() {
               href="/devocionario/dia/bencaos#antes-do-trabalho"
             >
               Antes do trabalho
-            </Link>{" "}
+            </Link>
             , convém oferecê-lo a Deus, dizendo do coração: «Senhor, eu Vos
             ofereço este trabalho, dai-me a vossa bênção». Deve-se trabalhar
             para glória de Deus e para fazer a sua vontade. Antes da refeição,

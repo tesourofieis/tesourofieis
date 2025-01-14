@@ -29,12 +29,12 @@ export default function PageViasacra() {
               ℣. Nós Vos adoramos, ó Jesus, e Vos bendizemos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Quia per Crucem tuam
+              <Text className="text-red-500">℟. </Text>Quia per Crucem tuam
               redemísti mundum.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Porque pela vossa
-              Santa Cruz redimistes o mundo.
+              <Text className="text-red-500">℟. </Text>Porque pela vossa Santa
+              Cruz redimistes o mundo.
             </Text>
           </View>
           <Text className="h3">No fim de cada Estação</Text>
@@ -56,11 +56,10 @@ export default function PageViasacra() {
               ℣. Senhor tende piedade de nós.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Miserére nostri.
+              <Text className="text-red-500">℟. </Text>Miserére nostri.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Tende piedade de
-              nós.
+              <Text className="text-red-500">℟. </Text>Tende piedade de nós.
             </Text>
           </View>
           <Text className="aside">
@@ -255,10 +254,10 @@ export default function PageViasacra() {
               do Espírito Santo, Deus, por todos os séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen
+              <Text className="text-red-500">℟. </Text>Amen
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen
+              <Text className="text-red-500">℟. </Text>Amen
             </Text>
           </View>
         </View>

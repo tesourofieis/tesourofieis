@@ -391,11 +391,11 @@ export default function PageLoreto() {
               ℣. O Anjo do Senhor anunciou a Maria.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et concépit de Spíritu
+              <Text className="text-red-500">℟.</Text> Et concépit de Spíritu
               Sancto.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E ela concebeu do
+              <Text className="text-red-500">℟.</Text> E ela concebeu do
               Espírito Santo.
             </Text>
             <Text className="text-base latin">
@@ -433,12 +433,12 @@ export default function PageLoreto() {
               ℣. Despois do parto permanecestes imaculada.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dei Génetrix,
-              intercéde pro nobis.
+              <Text className="text-red-500">℟.</Text> Dei Génetrix, intercéde
+              pro nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Intercedei por
-              nós, ó Mãe de Deus.
+              <Text className="text-red-500">℟.</Text> Intercedei por nós, ó Mãe
+              de Deus.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -473,12 +473,12 @@ export default function PageLoreto() {
               ℣. Rogai por nós, santa Mãe de Deus.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ut digni efficiámur
+              <Text className="text-red-500">℟.</Text> Ut digni efficiámur
               promissiónibus Christi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Para que sejamos
-              dignos das promessas de Cristo.
+              <Text className="text-red-500">℟.</Text> Para que sejamos dignos
+              das promessas de Cristo.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -511,12 +511,12 @@ export default function PageLoreto() {
               ℣. Regozijai-vos e alegrai-vos, ó Virgem Maria, aleluia.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Quia surréxit Dóminus
+              <Text className="text-red-500">℟.</Text> Quia surréxit Dóminus
               vere, allelúja.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Porque
-              ressuscitou verdadeiramente o Senhor, aleluia.
+              <Text className="text-red-500">℟.</Text> Porque ressuscitou
+              verdadeiramente o Senhor, aleluia.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>

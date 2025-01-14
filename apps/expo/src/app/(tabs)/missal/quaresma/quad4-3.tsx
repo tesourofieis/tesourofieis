@@ -42,10 +42,10 @@ export default function PageQuad43() {
               <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
           </View>
 

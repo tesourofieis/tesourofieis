@@ -36,11 +36,11 @@ export default function PageAlmaredemptorismater() {
               ℣. O Anjo do Senhor anunciou a Maria.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et concépit de Spíritu
+              <Text className="text-red-500">℟.</Text> Et concépit de Spíritu
               Sancto.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E Ela concebeu do
+              <Text className="text-red-500">℟.</Text> E Ela concebeu do
               Espírito Santo.
             </Text>
             <Text className="text-base latin">
@@ -62,10 +62,10 @@ export default function PageAlmaredemptorismater() {
               sua Paixão e Cruz. Pelo mesmo Jesus Cristo Senhor Nosso.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -81,12 +81,12 @@ export default function PageAlmaredemptorismater() {
               ℣. Despois do parto, Virgem, permaneceste inviolada.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dei Génitrix,
-              intercéde pro nobis.
+              <Text className="text-red-500">℟.</Text> Dei Génitrix, intercéde
+              pro nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Mãe de Deus,
-              intercedei por nós.
+              <Text className="text-red-500">℟.</Text> Mãe de Deus, intercedei
+              por nós.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -107,10 +107,10 @@ export default function PageAlmaredemptorismater() {
               da vida, nosso Senhor Jesus Cristo, vosso Filho.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

@@ -26,12 +26,12 @@ export default function PageEspiritosanto() {
               ℣. Enviai o vosso Espírito e tudo será criado.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et renovábis faciem
+              <Text className="text-red-500">℟.</Text> Et renovábis faciem
               terræ.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E renovareis a
-              face da terra.
+              <Text className="text-red-500">℟.</Text> E renovareis a face da
+              terra.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -43,14 +43,14 @@ export default function PageEspiritosanto() {
               Deus, qui corda fidélium Sancti Spíritus illustratióne docuísti,
               da nobis in eódem Spíritu recta sápere; et de ejus semper consola
               Tione gaudére. Per Christum Dóminum nostrum.{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Ó Deus, que haveis instruído os corações dos vossos fiéis com a
               luz do Espírito Santo, concedei-nos, segundo o mesmo Espírito,
               conhecer as coisas rectas e gozar sempre das suas divinas
               consolações. Por Cristo, Senhor Nosso.{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">

@@ -26,10 +26,10 @@ export default function PageRosario() {
               do Filho e do Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h1">No Crucifixo</Text>
@@ -82,11 +82,11 @@ export default function PageRosario() {
               ℣. Ó Maria concebida sem pecado.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ora pro nobis, qui
+              <Text className="text-red-500">℟.</Text> Ora pro nobis, qui
               confugimus ad te.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Rogai por nós que
+              <Text className="text-red-500">℟.</Text> Rogai por nós que
               recorremos a vós.
             </Text>
           </View>
@@ -100,12 +100,12 @@ export default function PageRosario() {
               ℣. Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno,
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Conduc in cælum omnes
+              <Text className="text-red-500">℟.</Text> Conduc in cælum omnes
               animas, præsértim illas quæ máxime indigent misericórdia tua.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levai as alminhas
-              todas para o Céu e socorrei principalmente as que mais precisarem.
+              <Text className="text-red-500">℟.</Text> Levai as alminhas todas
+              para o Céu e socorrei principalmente as que mais precisarem.
             </Text>
           </View>
           <Text className="h1">Meditações do Rosário</Text>
@@ -220,12 +220,12 @@ export default function PageRosario() {
               ℣. Rogai por nós, Rainha do Santíssimo Rosário.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ut digni efficiámur
+              <Text className="text-red-500">℟.</Text> Ut digni efficiámur
               promissiónibus Christi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Para que sejamos
-              dignos das promessas de Cristo.
+              <Text className="text-red-500">℟.</Text> Para que sejamos dignos
+              das promessas de Cristo.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -248,10 +248,10 @@ export default function PageRosario() {
               o que eles prometem. Pelo mesmo Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <LadainhaLoreto />

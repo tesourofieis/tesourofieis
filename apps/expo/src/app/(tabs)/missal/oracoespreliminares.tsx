@@ -58,84 +58,80 @@ export default function PageOracoespreliminares() {
             </Text>
             <Text className="text-base latin">
               Pater noster... (secreto usque ad) ℣. Et ne nos indúcas in
-              tentatiónem. <Text className="text-base latin">℟.</Text> Sed
-              líbera nos a malo.
+              tentatiónem. <Text className="text-red-500">℟.</Text> Sed líbera
+              nos a malo.
             </Text>
             <Text className="text-base vernacular">
               Pai-nosso... (em silêncio). ℣. E não nos deixeis cair em tentação.{" "}
-              <Text className="text-base vernacular">℟.</Text> Mas livrai-nos do
-              mal.
+              <Text className="text-red-500">℟.</Text> Mas livrai-nos do mal.
             </Text>
             <Text className="text-base latin">
               ℣. Ego dixit: Dómine, miserére mei.{" "}
-              <Text className="text-base latin">℟.</Text> Sana ánimam meam, quia
+              <Text className="text-red-500">℟.</Text> Sana ánimam meam, quia
               peccávi tibi.
             </Text>
             <Text className="text-base vernacular">
               ℣. Eu disse: Senhor, tende piedade de mim.{" "}
-              <Text className="text-base vernacular">℟.</Text> Curai a minha
-              alma, pois pequei contra Vós.
+              <Text className="text-red-500">℟.</Text> Curai a minha alma, pois
+              pequei contra Vós.
             </Text>
             <Text className="text-base latin">
               ℣. Convértere, Dómine, aliquántulum.{" "}
-              <Text className="text-base latin">℟.</Text> Et deprecáre super
-              servos tuos.
+              <Text className="text-red-500">℟.</Text> Et deprecáre super servos
+              tuos.
             </Text>
             <Text className="text-base vernacular">
               ℣. Senhor, volvei-Vos um pouco para nós.{" "}
-              <Text className="text-base vernacular">℟.</Text> Enchei-Vos de
-              piedade para com vossos servos.
+              <Text className="text-red-500">℟.</Text> Enchei-Vos de piedade
+              para com vossos servos.
             </Text>
             <Text className="text-base latin">
               ℣. Fiat misericórdia tua, Dómine, super nos.{" "}
-              <Text className="text-base latin">℟.</Text> Quemádmodum sperávimus
-              in te.
+              <Text className="text-red-500">℟.</Text> Quemádmodum sperávimus in
+              te.
             </Text>
             <Text className="text-base vernacular">
               ℣. Senhor, venha a nós a vossa misericórdia.{" "}
-              <Text className="text-base vernacular">℟.</Text> Pois esperamos em
-              Vós.
+              <Text className="text-red-500">℟.</Text> Pois esperamos em Vós.
             </Text>
             <Text className="text-base latin">
               ℣. Sacerdótes tui induántur justítiam.{" "}
-              <Text className="text-base latin">℟.</Text> Et Sancti tui
-              exsúltent.
+              <Text className="text-red-500">℟.</Text> Et Sancti tui exsúltent.
             </Text>
             <Text className="text-base vernacular">
               ℣. Que os vossos sacerdotes se revistam de justiça.{" "}
-              <Text className="text-base vernacular">℟.</Text> E os vossos
-              santos exultem de alegria.
+              <Text className="text-red-500">℟.</Text> E os vossos santos
+              exultem de alegria.
             </Text>
             <Text className="text-base latin">
               ℣. Ab occúltis meis munda me, Dómine.{" "}
-              <Text className="text-base latin">℟.</Text> Et ab aliénis parce
-              servo tuo.
+              <Text className="text-red-500">℟.</Text> Et ab aliénis parce servo
+              tuo.
             </Text>
             <Text className="text-base vernacular">
               ℣. Senhor, lavai-me das minhas faltas ocultas.{" "}
-              <Text className="text-base vernacular">℟.</Text> E perdoai ao
-              vosso servo as faltas alheias.
+              <Text className="text-red-500">℟.</Text> E perdoai ao vosso servo
+              as faltas alheias.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.{" "}
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
               ℣. Senhor, ouvi a minha oração.{" "}
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -318,7 +314,7 @@ export default function PageOracoespreliminares() {
               effugátio, ac bonórum sénsuum regenerátio, operúmque tibi
               placéntium salúbris efficácia, ánimæ quoque et córporis contra
               inimicórum meórum insídias firmíssima tuítio.{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Permiti, pela vossa graça, que a Hóstia santíssima do vosso Corpo
@@ -328,7 +324,7 @@ export default function PageOracoespreliminares() {
               minha alma bons sentimentos, obrigue-me a praticar salutares
               acções, segundo a vossa vontade, seja, enfim, para minha alma e
               para meu corpo, um abrigo seguro contra todas as ciladas dos meus
-              inimigos. <Text className="text-base vernacular">℟.</Text> Amen.
+              inimigos. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h2">Oração São Tomás Aquino</Text>

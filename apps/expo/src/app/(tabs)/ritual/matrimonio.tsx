@@ -45,10 +45,10 @@ export default function PageMatrimonio() {
               Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="aside">
@@ -63,12 +63,12 @@ export default function PageMatrimonio() {
               ℣. O nosso auxílio está no Nome do Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Qui fecit cœlum et
+              <Text className="text-red-500">℟.</Text> Qui fecit cœlum et
               terram.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Que criou o céu e
-              a terra.
+              <Text className="text-red-500">℟.</Text> Que criou o céu e a
+              terra.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.
@@ -77,23 +77,22 @@ export default function PageMatrimonio() {
               ℣. Senhor, ouvi a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dominus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">℣. Orémus.</Text>
@@ -118,10 +117,10 @@ export default function PageMatrimonio() {
               sempre no amor recíproco. Por Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="aside">
@@ -138,23 +137,23 @@ export default function PageMatrimonio() {
               ℣. Confirmai, Senhor, aquilo que acabais de operar em nós.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> A templo sancto tuo,
-              quod est in Jerúsalem.
+              <Text className="text-red-500">℟.</Text> A templo sancto tuo, quod
+              est in Jerúsalem.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Do vosso templo
-              Santo, que é a celestial Jerusalém.
+              <Text className="text-red-500">℟.</Text> Do vosso templo Santo,
+              que é a celestial Jerusalém.
             </Text>
             <Text className="text-base latin">℣. Kyrie eléison.</Text>
             <Text className="text-base vernacular">
               ℣. Senhor, tende piedade de nós.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Christe eléison.
+              <Text className="text-red-500">℟.</Text> Christe eléison.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Cristo, tende
-              piedade de nós.
+              <Text className="text-red-500">℟.</Text> Cristo, tende piedade de
+              nós.
             </Text>
             <Text className="text-base latin">℣. Kyrie eléison.</Text>
             <Text className="text-base vernacular">
@@ -171,23 +170,22 @@ export default function PageMatrimonio() {
               ℣. E não nos deixeis cair em tentação.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sed líbera nos a malo.
+              <Text className="text-red-500">℟.</Text> Sed líbera nos a malo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Mas livrai-nos do
-              mal.
+              <Text className="text-red-500">℟.</Text> Mas livrai-nos do mal.
             </Text>
             <Text className="text-base latin">℣. Salvus fac servos tuos.</Text>
             <Text className="text-base vernacular">
               ℣. Senhor, salvai os vossos servos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deus meus, sperántes
-              in te.
+              <Text className="text-red-500">℟.</Text> Deus meus, sperántes in
+              te.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Que esperam em
-              Vós, ó Deus.
+              <Text className="text-red-500">℟.</Text> Que esperam em Vós, ó
+              Deus.
             </Text>
             <Text className="text-base latin">
               ℣. Mitte eis, Dómine, auxílium de sancto.
@@ -196,11 +194,10 @@ export default function PageMatrimonio() {
               ℣. Do vosso santuário, enviai-lhes, Senhor, auxílio.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et de Sion tuére eos.
+              <Text className="text-red-500">℟.</Text> Et de Sion tuére eos.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E de Sião,
-              amparai-os.
+              <Text className="text-red-500">℟.</Text> E de Sião, amparai-os.
             </Text>
             <Text className="text-base latin">
               ℣. Esto eis, Dómine, turris fortitúdinis.
@@ -209,10 +206,10 @@ export default function PageMatrimonio() {
               ℣. Sede para eles como uma torre fortificada.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> A fácie inimíci.
+              <Text className="text-red-500">℟.</Text> A fácie inimíci.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Contra o inimigo.
+              <Text className="text-red-500">℟.</Text> Contra o inimigo.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.
@@ -221,23 +218,22 @@ export default function PageMatrimonio() {
               ℣. Senhor, ouvi a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dominus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">℣. Orémus.</Text>
@@ -260,10 +256,10 @@ export default function PageMatrimonio() {
               Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h1">Missa do Matrimónio</Text>
@@ -593,10 +589,10 @@ export default function PageMatrimonio() {
               vive...
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
         </View>

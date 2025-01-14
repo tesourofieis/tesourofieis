@@ -275,13 +275,13 @@ export default function PagePent14() {
             <Text className="text-base vernacular">
               Tu qui cúncta scis et váles, Qui nos páscis hic mortáles: Túos ibi
               commensáles, Coherédes et sodáles Fac sanctórum cívium.{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Ó Vós, que tudo conheceis e podeis: ó Vós, que nos alimentais
               nesta vida mortal, tornai-nos co-herdeiros e companheiros dos
               habitantes da cidade celestial.{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 

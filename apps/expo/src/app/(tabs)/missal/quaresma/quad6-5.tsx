@@ -93,10 +93,10 @@ export default function PageQuad65() {
             <Text className="text-base latin">℣. Flectámus génua!</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, a quo et Judas reátus sui pœnam, et confessiónis suæ latro
@@ -790,25 +790,24 @@ export default function PageQuad65() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui glóriam tuam ómnibus in Christo
               géntibus revelásti: custódi ópera misericórdiæ tuæ; ut Ecclésia
               tua, toto orbe diffúsa, stábili fide in confessióne tui nóminis
               persevéret. Per eúndem Dóminum nostrum...{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que revelastes a vossa glória a todas
               as nações por meio de Cristo, conservai a obra da vossa
               misericórdia, para que a vossa Igreja, espalhada por todo o mundo,
               persevere com fé firme na confissão do vosso Nome. Pelo mesmo
-              nosso Senhor... <Text className="text-base vernacular">℟.</Text>{" "}
-              Amen.
+              nosso Senhor... <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -838,17 +837,17 @@ export default function PageQuad65() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, cujus judício univérsa fundántur:
               réspice propítius ad preces nostras, et electum nobis Antístitem
               tua pietáte consérva; ut christiána plebs, quæ te gubernátur
               auctóre, sub tanto Pontífice, credulitátis suæ méritis augeátur.
-              Per Dóminum nostrum... <Text className="text-base latin">℟.</Text>{" "}
+              Per Dóminum nostrum... <Text className="text-red-500">℟.</Text>{" "}
               Amen.
             </Text>
             <Text className="text-base vernacular">
@@ -857,7 +856,7 @@ export default function PageQuad65() {
               pela vossa bondade conservai o Pontífice escolhido, para que o
               povo cristão, que a vossa autoridade governa, aumente nos méritos
               da sua fé, debaixo da direcção de tão grande Pontífice. Por nosso
-              Senhor... <Text className="text-base vernacular">℟.</Text> Amen.
+              Senhor... <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -885,23 +884,23 @@ export default function PageQuad65() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, cujus Spíritu totum corpus Ecclésiæ sanctificátur et
               régitur: exáudi nos pro univérsis ordínibus supplicántes; ut,
               grátiæ tuæ múnere, ab ómnibus tibi grádibus fidéliter serviátur.
-              Per Dóminum... <Text className="text-base latin">℟.</Text> Amen.
+              Per Dóminum... <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Omnipotente e eterno Deus, cujo Espírito santifica e governa todo
               o corpo da Igreja, ouvi as nossas súplicas por todas as Ordens, a
               fim de que pelo dom da vossa graça cada uma dessas jerarquias Vos
               sirva fielmente. Por nosso Senhor...{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -931,24 +930,24 @@ export default function PageQuad65() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, in cujus manu sunt ómnium potestátes
               et ómnium jura regnórum: réspice ad Románum benígnus Impérium; ut
               gentes, quæ in sua feritáte confídunt, poténtiæ tuæ déxtera
               comprimántur. Per Dóminum nostrum...{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Omnipotente e eterno Deus, em cujas mãos estão todas as potestades
               e todas as leis do reino: olhai benignamente para o Império
               Romano; de modo que as nações que confiam em sua própria força,
               fiquem sujeitas à sua dextra. Por nosso Senhor...{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -977,23 +976,23 @@ export default function PageQuad65() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui Ecclésiam tuam nova semper prole
               fecúndas: auge fidem et intellectum catechúmenis nostris; ut,
               renáti fonte baptismátis, adoptiónis tuæ fíliis aggregéntur. Per
-              Dóminum... <Text className="text-base latin">℟.</Text> Amen.
+              Dóminum... <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que dais continuamente novos filhos à
               vossa Igreja, aumentai a fé e a inteligência dos nossos
               Catecúmenos, a fim de que, renascidos na fonte baptismal, sejam
               agregados aos vossos filhos de adopção. Por nosso Senhor...{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1022,25 +1021,24 @@ export default function PageQuad65() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, mæstórum consolátio, laborántium
               fortitúdo: pervéniant ad te preces de quacúmque tribulatióne
               clamántium; ut omnes sibi in necessitátibus suis misericórdiam
               tuam gáudeant affuísse. Per Dóminum nostrum...{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Omnipotente e eterno Deus, consolação dos tristes e força dos que
               trabalham, permiti que cheguem até Vós as súplicas dos que em
               qualquer tribulação a Vós recorrem, para que nas suas necessidades
               todos sintam com alegria o auxílio da vossa misericórdia. Por
-              nosso Senhor... <Text className="text-base vernacular">℟.</Text>{" "}
-              Amen.
+              nosso Senhor... <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1066,17 +1064,17 @@ export default function PageQuad65() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui salvas omnes, et néminem vis
               períre: réspice ad ánimas diabólica fraude decéptas; ut, omni
               hærética pravitáte depósita, errántium corda resipíscant, et ad
               veritátis tuæ rédeant unitátem. Per Dóminum nostrum...{" "}
-              <Text className="text-base latin">℟. </Text> Amen.
+              <Text className="text-red-500">℟. </Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que quereis salvar todos os homens e
@@ -1084,7 +1082,7 @@ export default function PageQuad65() {
               para as almas seduzidas pelos artifícios do demónio, a fim de que,
               abandonando elas toda a maldade, se arrependam dos erros e
               regressem à unidade da vossa doutrina. Por nosso Senhor...{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1113,14 +1111,14 @@ export default function PageQuad65() {
               misericórdia non repéllis: exáudi preces nostras, quas pro illíus
               pópuli obcæcatióne deférimus; ut, ágnita veritátis tuæ luce, quæ
               Christus est, a suis ténebris eruántur. Per eundem...{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Deus Omnipotente e eterno, que não desviais a vossa misericórdia
               ainda dos pérfidos Judeus: ouvi as orações que fazemos por este
               povo cego, a fim de que, reconhecendo a luz da vossa verdade, que
               é Jesus Cristo, saiam das trevas. Pelo mesmo nosso Senhor...{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1148,24 +1146,24 @@ export default function PageQuad65() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui non mortem peccatórum, sed vitam
               semper inquíris: súscipe propítius oratiónem nostram, et líbera
               eos ab idolórum cultúra; et ággrega Ecclésiæ tuæ sanctæ, ad laudem
               et glóriam nóminis tui. Per Dóminum...{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que procurais sempre não a morte dos
               pecadores mas a sua vida, ouvi benigno a nossa oração, livrai os
               pagãos do culto aos ídolos e agregai-os à vossa santa Igreja, para
               honra e glória do vosso nome. Por nosso Senhor...{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1181,11 +1179,10 @@ export default function PageQuad65() {
               Eis o Lenho da Cruz, do qual pendeu a salvação do mundo!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Veníte, adoremus.
+              <Text className="text-red-500">℟.</Text> Veníte, adoremus.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Vinde,
-              adoremo-lo!
+              <Text className="text-red-500">℟.</Text> Vinde, adoremo-lo!
             </Text>
             <Text className="text-base latin">
               ℣. Pópule meus, quid feci tibi? aut in quo contristávi te?
@@ -1198,7 +1195,7 @@ export default function PageQuad65() {
               preparaste a Cruz para o teu Salvador?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Agios o Theós.{" "}
+              <Text className="text-red-500">℟.</Text> Agios o Theós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus Deus.{" "}
               <Text className="text-red-500">℟.</Text> Agios ischyrós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus fortis.{" "}
@@ -1207,7 +1204,7 @@ export default function PageQuad65() {
               miserére nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó Deus santo!{" "}
+              <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
@@ -1226,7 +1223,7 @@ export default function PageQuad65() {
               preparaste a Cruz para o teu Salvador?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Agios o Theós.{" "}
+              <Text className="text-red-500">℟.</Text> Agios o Theós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus Deus.{" "}
               <Text className="text-red-500">℟.</Text> Agios ischyrós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus fortis.{" "}
@@ -1235,7 +1232,7 @@ export default function PageQuad65() {
               miserére nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó Deus santo!{" "}
+              <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
@@ -1256,7 +1253,7 @@ export default function PageQuad65() {
               mitigar-me lado do teu a sede Salvador!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Agios o Theós.{" "}
+              <Text className="text-red-500">℟.</Text> Agios o Theós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus Deus.{" "}
               <Text className="text-red-500">℟.</Text> Agios ischyrós.{" "}
               <Text className="text-red-500">℟.</Text> Sanctus fortis.{" "}
@@ -1265,7 +1262,7 @@ export default function PageQuad65() {
               miserére nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó Deus santo!{" "}
+              <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó Deus santo!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
               <Text className="text-red-500">℟.</Text> Ó santo forte!{" "}
@@ -1282,12 +1279,12 @@ export default function PageQuad65() {
               entregaste-me para ser flagelado!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
+              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
-              mal te fiz ou em que te contristei? Responde-me!
+              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
+              fiz ou em que te contristei? Responde-me!
             </Text>
             <Text className="text-base latin">
               ℣. Ego edúxi te de Ægýpto, demérso Pharaóne in Mare Rubrum: et tu
@@ -1298,12 +1295,12 @@ export default function PageQuad65() {
               E tu entregaste-me aos príncipes dos sacerdotes!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
+              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
-              mal te fiz ou em que te contristei? Responde-me!
+              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
+              fiz ou em que te contristei? Responde-me!
             </Text>
             <Text className="text-base latin">
               ℣. Ego ante te apérui mare: et tu aperuísti láncea latus meum.
@@ -1313,12 +1310,12 @@ export default function PageQuad65() {
               lança!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
+              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
-              mal te fiz ou em que te contristei? Responde-me!
+              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
+              fiz ou em que te contristei? Responde-me!
             </Text>
             <Text className="text-base latin">
               ℣. Ego ante te præívi in colúmna nubis: et tu me duxísti ad
@@ -1329,12 +1326,12 @@ export default function PageQuad65() {
               pretório de Pilatos!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
+              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
-              mal te fiz ou em que te contristei? Responde-me!
+              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
+              fiz ou em que te contristei? Responde-me!
             </Text>
             <Text className="text-base latin">
               ℣. Ego te pavi manna per desértum: et tu me cecidísti álapis et
@@ -1345,12 +1342,12 @@ export default function PageQuad65() {
               bofetadas e açoites!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
+              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
-              mal te fiz ou em que te contristei? Responde-me!
+              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
+              fiz ou em que te contristei? Responde-me!
             </Text>
             <Text className="text-base latin">
               ℣. Ego te potávi aqua salútis de petra: et tu me potásti felle et
@@ -1361,12 +1358,12 @@ export default function PageQuad65() {
               beber fel e vinagre!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
+              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
-              mal te fiz ou em que te contristei? Responde-me!
+              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
+              fiz ou em que te contristei? Responde-me!
             </Text>
             <Text className="text-base latin">
               ℣. Ego propter te Chananæórum reges percússi: et tu percussísti
@@ -1377,12 +1374,12 @@ export default function PageQuad65() {
               cabeça com uma cana!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
+              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
-              mal te fiz ou em que te contristei? Responde-me!
+              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
+              fiz ou em que te contristei? Responde-me!
             </Text>
             <Text className="text-base latin">
               ℣. Ego dedi tibi sceptrum regale: et tu dedísti capiti meo spíneam
@@ -1393,12 +1390,12 @@ export default function PageQuad65() {
               coroa de espinhos!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
+              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
-              mal te fiz ou em que te contristei? Responde-me!
+              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
+              fiz ou em que te contristei? Responde-me!
             </Text>
             <Text className="text-base latin">
               ℣. Ego te exaltávi magna virtúte: et tu me suspendísti in patíbulo
@@ -1409,12 +1406,12 @@ export default function PageQuad65() {
               no patíbulo da Cruz!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Pópule meus, quid feci
+              <Text className="text-red-500">℟.</Text> Pópule meus, quid feci
               tibi? aut in quo contristávi te? respónde mihi.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó meu povo, que
-              mal te fiz ou em que te contristei? Responde-me!
+              <Text className="text-red-500">℟.</Text> Ó meu povo, que mal te
+              fiz ou em que te contristei? Responde-me!
             </Text>
             <Text className="text-base latin">
               ℣. Crucem tuam adorámus, Dómine: et sanctam resurrectiónem tuam
@@ -1435,12 +1432,12 @@ export default function PageQuad65() {
               tenha piedade de nós e nos abençoe.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Illúminet vultum suum
+              <Text className="text-red-500">℟.</Text> Illúminet vultum suum
               super nos et misereátur nostri.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Que nos ilumine
-              com o brilho da sua face e seja misericordioso para connosco.
+              <Text className="text-red-500">℟.</Text> Que nos ilumine com o
+              brilho da sua face e seja misericordioso para connosco.
             </Text>
             <Text className="text-base latin">
               ℣. Crucem tuam adorámus, Dómine: et sanctam resurrectiónem tuam
@@ -1453,16 +1450,16 @@ export default function PageQuad65() {
               em todo o mundo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
-              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
+              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
+              arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine. Dulce lignum dulces clavos, dulce pondus sústinet.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
-              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
-              produz outra igual, nem nas folhas, nem nas flores, nem nos
-              frutos. Ó amável Lenho, ó cravos sagrados, que segurais um fardo
-              tão precioso!
+              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
+              árvore única, a mais nobre entre todas! Nenhuma floresta produz
+              outra igual, nem nas folhas, nem nas flores, nem nos frutos. Ó
+              amável Lenho, ó cravos sagrados, que segurais um fardo tão
+              precioso!
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Hymnus</Text> ℣. Pange, lingua,
@@ -1476,15 +1473,14 @@ export default function PageQuad65() {
               alcançou, se imolando.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
-              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
+              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
+              arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
-              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
-              produz outra igual, nem nas folhas, nem nas flores, nem nos
-              frutos.
+              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
+              árvore única, a mais nobre entre todas! Nenhuma floresta produz
+              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
             </Text>
             <Text className="text-base latin">
               ℣. De paréntis protoplásti fraude Factor cóndolens, quando pomi
@@ -1498,12 +1494,12 @@ export default function PageQuad65() {
               da primeira.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
+              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
-              cravos sagrados, que segurais um fardo tão precioso!
+              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
+              sagrados, que segurais um fardo tão precioso!
             </Text>
             <Text className="text-base latin">
               ℣. Hoc opus nostræ salútis ordo depopóscerat: multifórmis
@@ -1516,15 +1512,14 @@ export default function PageQuad65() {
               pelo instrumento de que se servira o inimigo para nos ferir.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
-              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
+              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
+              arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
-              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
-              produz outra igual, nem nas folhas, nem nas flores, nem nos
-              frutos.
+              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
+              árvore única, a mais nobre entre todas! Nenhuma floresta produz
+              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
             </Text>
             <Text className="text-base latin">
               ℣. Quando venit ergo sacri plenitúdo témporis, missus est ab arce
@@ -1537,12 +1532,12 @@ export default function PageQuad65() {
               em um seio virginal, apareceu neste mundo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
+              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
-              cravos sagrados, que segurais um fardo tão precioso!
+              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
+              sagrados, que segurais um fardo tão precioso!
             </Text>
             <Text className="text-base latin">
               ℣. Vagit Infans inter arcta cónditus præsépia: membra pannis
@@ -1555,15 +1550,14 @@ export default function PageQuad65() {
               faixas de pano as mãos e os pés de um Deus!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
-              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
+              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
+              arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
-              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
-              produz outra igual, nem nas folhas, nem nas flores, nem nos
-              frutos.
+              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
+              árvore única, a mais nobre entre todas! Nenhuma floresta produz
+              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
             </Text>
             <Text className="text-base latin">
               ℣. Lustra sex qui jam perégit, tempus implens córporis, sponte
@@ -1576,12 +1570,12 @@ export default function PageQuad65() {
               sofrimento. O Cordeiro foi elevado na Cruz para nela ser imolado.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
+              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
-              cravos sagrados, que segurais um fardo tão precioso!
+              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
+              sagrados, que segurais um fardo tão precioso!
             </Text>
             <Text className="text-base latin">
               ℣. Felle potus ecce languet: spina, clavi, láncea mite corpus
@@ -1594,15 +1588,14 @@ export default function PageQuad65() {
               este digno rio lava a terra, o mar, os astros e o mundo inteiro.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
-              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
+              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
+              arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
-              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
-              produz outra igual, nem nas folhas, nem nas flores, nem nos
-              frutos.
+              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
+              árvore única, a mais nobre entre todas! Nenhuma floresta produz
+              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
             </Text>
             <Text className="text-base latin">
               ℣. Flecte ramos, arbor alta, tensa laxa víscera, et rigor
@@ -1615,12 +1608,12 @@ export default function PageQuad65() {
               para os membros do Rei supremo!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
+              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
-              cravos sagrados, que segurais um fardo tão precioso!
+              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
+              sagrados, que segurais um fardo tão precioso!
             </Text>
             <Text className="text-base latin">
               ℣. Sola digna tu fuísti ferre mundi víctimam: atque portum
@@ -1633,34 +1626,33 @@ export default function PageQuad65() {
               divino Cordeiro, foste o primeiro piloto que o conduziu ao porto.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Crux fidélis, inter
-              omnes arbor una nóbilis: nulla silva talem profert fronde, flore,
+              <Text className="text-red-500">℟.</Text> Crux fidélis, inter omnes
+              arbor una nóbilis: nulla silva talem profert fronde, flore,
               gérmine.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó Cruz, em que
-              tenho fé, árvore única, a mais nobre entre todas! Nenhuma floresta
-              produz outra igual, nem nas folhas, nem nas flores, nem nos
-              frutos.
+              <Text className="text-red-500">℟.</Text> Ó Cruz, em que tenho fé,
+              árvore única, a mais nobre entre todas! Nenhuma floresta produz
+              outra igual, nem nas folhas, nem nas flores, nem nos frutos.
             </Text>
             <Text className="text-base latin">
               ℣. Sempitérna sit beátæ Trinitáti glória: æqua Patri Filióque; par
               decus Paráclito: Uníus Triníque nomen laudet univérsitas.{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               ℣. Glória eterna à bem-aventurada Trindade; igual homenagem ao
               Pai, e ao Filho, e ao Paráclito. Que o nome de Deus uno e trino
               seja louvado em todo o orbe.{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dulce lignum dulces
+              <Text className="text-red-500">℟.</Text> Dulce lignum dulces
               clavos, dulce pondus sústinet.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Ó amável Lenho, ó
-              cravos sagrados, que segurais um fardo tão precioso!
+              <Text className="text-red-500">℟.</Text> Ó amável Lenho, ó cravos
+              sagrados, que segurais um fardo tão precioso!
             </Text>
           </View>
 

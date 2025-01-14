@@ -1,10 +1,13 @@
 import Drawer from "expo-router/drawer";
 
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
+import { EBGaramond_700Bold } from "@expo-google-fonts/eb-garamond";
+
 import {
-  Lusitana_400Regular,
-  Lusitana_700Bold,
-} from "@expo-google-fonts/lusitana";
+  DMSerifDisplay_400Regular,
+  DMSerifDisplay_400Regular_Italic,
+} from "@expo-google-fonts/dm-serif-display";
+import { GoudyBookletter1911_400Regular } from "@expo-google-fonts/goudy-bookletter-1911";
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
 import { useEffect } from "react";
@@ -34,9 +37,9 @@ SplashScreen.preventAutoHideAsync();
 
 export default function PageRootLayout() {
   const [loaded] = useFonts({
-    Serif: Lusitana_400Regular,
+    Serif: DMSerifDisplay_400Regular,
     Display: BerkshireSwash_400Regular,
-    Bold: Lusitana_700Bold,
+    Bold: EBGaramond_700Bold,
     ...FontAwesome6.font,
   });
 

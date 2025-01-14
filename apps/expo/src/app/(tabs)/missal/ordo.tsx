@@ -42,10 +42,10 @@ export default function PageOrdo() {
               do Filho, e do Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -59,12 +59,12 @@ export default function PageOrdo() {
               ℣. Eu irei até ao altar de Deus.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ad Deum, qui lætíficat
+              <Text className="text-red-500">℟.</Text> Ad Deum, qui lætíficat
               juventútem meam.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Até Deus, que é a
-              alegria da minha juventude.
+              <Text className="text-red-500">℟.</Text> Até Deus, que é a alegria
+              da minha juventude.
             </Text>
           </View>
 
@@ -85,14 +85,14 @@ export default function PageOrdo() {
               livrai-me do homem iníquo e ardiloso.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Quia tu es, Deus,
+              <Text className="text-red-500">℟.</Text> Quia tu es, Deus,
               fortitudo mea: quare me reppulísti, et quare tristis incédo, dum
               afflígit me inimícus?
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Pois que Vós, ó
-              Deus, sois a minha fortaleza, porque me repelistes? E porque ando
-              triste enquanto o meu inimigo me aflige?
+              <Text className="text-red-500">℟.</Text> Pois que Vós, ó Deus,
+              sois a minha fortaleza, porque me repelistes? E porque ando triste
+              enquanto o meu inimigo me aflige?
             </Text>
             <Text className="text-base latin">
               ℣. Emítte lucem tuam et veritátem tuam: ipsa me deduxérunt, et
@@ -103,12 +103,12 @@ export default function PageOrdo() {
               conduzirão até ao vosso santo monte, até aos vossos tabernáculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et introíbo ad altáre
+              <Text className="text-red-500">℟.</Text> Et introíbo ad altáre
               Dei: ad Deum, qui lætíficat juventútem meam.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E irei até ao
-              Altar de Deus; até Deus, que é a alegria da minha juventude.
+              <Text className="text-red-500">℟.</Text> E irei até ao Altar de
+              Deus; até Deus, que é a alegria da minha juventude.
             </Text>
             <Text className="text-base latin">
               ℣. Confitébor tibi in cíthara, Deus, Deus meus: quare tristis es,
@@ -119,12 +119,12 @@ export default function PageOrdo() {
               triste, ó minha alma? Porque te perturbas?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Spera in Deo, quóniam
+              <Text className="text-red-500">℟.</Text> Spera in Deo, quóniam
               adhuc confitébor illi: salutáre vultus mei, et Deus meus.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Confia em Deus,
-              pois ainda O louvarei. Ele é a minha salvação e o meu Deus.
+              <Text className="text-red-500">℟.</Text> Confia em Deus, pois
+              ainda O louvarei. Ele é a minha salvação e o meu Deus.
             </Text>
           </View>
 
@@ -141,11 +141,11 @@ export default function PageOrdo() {
               ℣. Glória ao Pai, e ao Filho, e ao Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sicut erat in
-              princípio, et nunc, et semper: et in sǽcula sæculórum. Amen.
+              <Text className="text-red-500">℟.</Text> Sicut erat in princípio,
+              et nunc, et semper: et in sǽcula sæculórum. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim como era no
+              <Text className="text-red-500">℟.</Text> Assim como era no
               princípio, e agora, e sempre, por todos os séculos dos séculos.
               Amen.
             </Text>
@@ -159,12 +159,12 @@ export default function PageOrdo() {
               ℣. Eu irei até ao altar de Deus.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ad Deum, qui lætíficat
+              <Text className="text-red-500">℟.</Text> Ad Deum, qui lætíficat
               juventútem meam.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Até Deus, que é a
-              alegria da minha juventude.
+              <Text className="text-red-500">℟.</Text> Até Deus, que é a alegria
+              da minha juventude.
             </Text>
             <Text className="text-base latin">
               ℣. Adjutórium nostrum <Text className="text-base latin">✠</Text>{" "}
@@ -175,12 +175,12 @@ export default function PageOrdo() {
               <Text className="text-base vernacular">✠</Text> no nome do Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Qui fecit cœlum et
+              <Text className="text-red-500">℟.</Text> Qui fecit cœlum et
               terram.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Que criou o céu e
-              a terra.
+              <Text className="text-red-500">℟.</Text> Que criou o céu e a
+              terra.
             </Text>
           </View>
 
@@ -201,13 +201,13 @@ export default function PageOrdo() {
               ℣. Eu me confesso a Deus...
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Misereátur vestri
+              <Text className="text-red-500">℟.</Text> Misereátur vestri
               omnípotens Deus, et, dimíssis peccátis vestris, perdúcat vos ad
               vitam ætérnam.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Compadeça-se de
-              vós o Senhor omnipotente; vos perdoe os pecados e guie até à vida
+              <Text className="text-red-500">℟.</Text> Compadeça-se de vós o
+              Senhor omnipotente; vos perdoe os pecados e guie até à vida
               eterna.
             </Text>
             <Text className="text-base latin">℣. Amen.</Text>
@@ -218,7 +218,7 @@ export default function PageOrdo() {
 
           <View className="side-by-side">
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Confíteor Deo
+              <Text className="text-red-500">℟.</Text> Confíteor Deo
               omnipoténti, beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo,
               beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus
               Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo et
@@ -226,8 +226,8 @@ export default function PageOrdo() {
               <Text className="em">Percutit sibi pectus ter, dicens:</Text>
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Eu me confesso a
-              Deus, todo poderoso, à bem-aventurada sempre Virgem Maria, ao
+              <Text className="text-red-500">℟.</Text> Eu me confesso a Deus,
+              todo poderoso, à bem-aventurada sempre Virgem Maria, ao
               bem-aventurado S. Miguel Arcanjo, ao bem-aventurado S. João
               Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, a todos os
               santos, e a vós, Padre: que pequei muitas vezes por pensamentos,
@@ -265,10 +265,10 @@ export default function PageOrdo() {
               e guie até à vida eterna.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Indulgéntiam, <Text className="text-base latin">✠</Text>{" "}
@@ -281,10 +281,10 @@ export default function PageOrdo() {
               a remissão dos nossos pecados.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               ℣. Deus, tu convérsus vivificábis nos.
@@ -293,11 +293,11 @@ export default function PageOrdo() {
               ℣. Ó Deus, volvei-Vos para nós, e alcançaremos a vida.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et plebs tua lætábitur
-              in te.
+              <Text className="text-red-500">℟.</Text> Et plebs tua lætábitur in
+              te.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E o vosso povo se
+              <Text className="text-red-500">℟.</Text> E o vosso povo se
               alegrará convosco.
             </Text>
             <Text className="text-base latin">
@@ -307,12 +307,12 @@ export default function PageOrdo() {
               ℣. Senhor, mostrai-nos a vossa misericórdia.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et salutáre tuum da
+              <Text className="text-red-500">℟.</Text> Et salutáre tuum da
               nobis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E concedei-nos a
-              vossa salvação.
+              <Text className="text-red-500">℟.</Text> E concedei-nos a vossa
+              salvação.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.
@@ -321,23 +321,22 @@ export default function PageOrdo() {
               ℣. Senhor, atendei à minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E que meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
+              até Vós.
             </Text>
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor esteja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -404,44 +403,44 @@ export default function PageOrdo() {
               ℣. Senhor, tende piedade de nós.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Kýrie eléison.
+              <Text className="text-red-500">℟.</Text> Kýrie eléison.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor, tende
-              piedade de nós.
+              <Text className="text-red-500">℟.</Text> Senhor, tende piedade de
+              nós.
             </Text>
             <Text className="text-base latin">℣. Kýrie eléison.</Text>
             <Text className="text-base vernacular">
               ℣. Senhor, tende piedade de nós.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Christe eléison.
+              <Text className="text-red-500">℟.</Text> Christe eléison.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Cristo, tende
-              piedade de nós.
+              <Text className="text-red-500">℟.</Text> Cristo, tende piedade de
+              nós.
             </Text>
             <Text className="text-base latin">℣. Christe eléison.</Text>
             <Text className="text-base vernacular">
               ℣. Cristo, tende piedade de nós.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Christe eléison.
+              <Text className="text-red-500">℟.</Text> Christe eléison.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Cristo, tende
-              piedade de nós.
+              <Text className="text-red-500">℟.</Text> Cristo, tende piedade de
+              nós.
             </Text>
             <Text className="text-base latin">℣. Kýrie eléison.</Text>
             <Text className="text-base vernacular">
               ℣. Senhor, tende piedade de nós.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Kýrie eléison.
+              <Text className="text-red-500">℟.</Text> Kýrie eléison.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor, tende
-              piedade de nós.
+              <Text className="text-red-500">℟.</Text> Senhor, tende piedade de
+              nós.
             </Text>
             <Text className="text-base latin">℣. Kýrie eléison.</Text>
             <Text className="text-base vernacular">
@@ -487,10 +486,10 @@ export default function PageOrdo() {
               Pai.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -504,11 +503,10 @@ export default function PageOrdo() {
               ℣. O Senhor esteja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -539,10 +537,10 @@ export default function PageOrdo() {
               ℣. ...por todos os séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -552,10 +550,10 @@ export default function PageOrdo() {
 
           <View className="side-by-side">
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo grátias.
+              <Text className="text-red-500">℟.</Text> Deo grátias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Graças a Deus.
+              <Text className="text-red-500">℟.</Text> Graças a Deus.
             </Text>
           </View>
 
@@ -637,11 +635,10 @@ export default function PageOrdo() {
               ℣. O Senhor esteja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -649,11 +646,10 @@ export default function PageOrdo() {
 
           <View className="side-by-side">
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Glória tibi, Dómine.
+              <Text className="text-red-500">℟.</Text> Glória tibi, Dómine.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Glória a Vós,
-              Senhor.
+              <Text className="text-red-500">℟.</Text> Glória a Vós, Senhor.
             </Text>
           </View>
 
@@ -675,11 +671,10 @@ export default function PageOrdo() {
 
           <View className="side-by-side">
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Laus tibi, Christe.
+              <Text className="text-red-500">℟.</Text> Laus tibi, Christe.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Louvores a Vós, ó
-              Cristo.
+              <Text className="text-red-500">℟.</Text> Louvores a Vós, ó Cristo.
             </Text>
           </View>
 
@@ -746,10 +741,10 @@ export default function PageOrdo() {
               que há-de vir.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -769,11 +764,10 @@ export default function PageOrdo() {
               ℣. O Senhor esteja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -961,13 +955,12 @@ export default function PageOrdo() {
 
           <View className="side-by-side">
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Accéndat in nobis
-              Dóminus ignem sui amóris, et flammam ætérnæ caritátis. Amen.
+              <Text className="text-red-500">℟.</Text> Accéndat in nobis Dóminus
+              ignem sui amóris, et flammam ætérnæ caritátis. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Que o Senhor
-              acenda em nós o fogo do seu amor e a chama da eterna caridade.
-              Amen.
+              <Text className="text-red-500">℟.</Text> Que o Senhor acenda em
+              nós o fogo do seu amor e a chama da eterna caridade. Amen.
             </Text>
           </View>
 
@@ -1078,15 +1071,14 @@ export default function PageOrdo() {
               vosso, seja recebido por Deus Pai omnipotente.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Suscípiat Dóminus
+              <Text className="text-red-500">℟.</Text> Suscípiat Dóminus
               sacrifícium de mánibus tuis ad laudem et glóriam nominis sui, ad
               utilitátem quoque nostram, totiúsque Ecclésiæ suæ sanctæ.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Que o Senhor
-              receba por vossas mãos este sacrifício para a honra e glória de
-              seu Nome, e também para a nossa utilidade e de toda sua santa
-              Igreja.
+              <Text className="text-red-500">℟.</Text> Que o Senhor receba por
+              vossas mãos este sacrifício para a honra e glória de seu Nome, e
+              também para a nossa utilidade e de toda sua santa Igreja.
             </Text>
           </View>
 
@@ -1115,10 +1107,10 @@ export default function PageOrdo() {
               ℣. ...Por todos os séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1138,20 +1130,19 @@ export default function PageOrdo() {
               ℣. O Senhor esteja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">℣. Sursum corda.</Text>
             <Text className="text-base vernacular">℣. Corações ao alto.</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Habémus ad Dóminum.
+              <Text className="text-red-500">℟.</Text> Habémus ad Dóminum.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim os temos
-              para o Senhor.
+              <Text className="text-red-500">℟.</Text> Assim os temos para o
+              Senhor.
             </Text>
             <Text className="text-base latin">
               ℣. Grátias agámus Dómino, Deo nostro.
@@ -1160,11 +1151,10 @@ export default function PageOrdo() {
               ℣. Demos graças ao Senhor, Nosso Deus.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dignum et justum est.
+              <Text className="text-red-500">℟.</Text> Dignum et justum est.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim é digno e
-              justo.
+              <Text className="text-red-500">℟.</Text> Assim é digno e justo.
             </Text>
           </View>
 
@@ -1596,10 +1586,10 @@ export default function PageOrdo() {
               ℣. Por todos os séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1646,11 +1636,10 @@ export default function PageOrdo() {
               devedores e não nos deixeis cair em tentação:
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sed líbera nos a malo.
+              <Text className="text-red-500">℟.</Text> Sed líbera nos a malo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Mas livrai-nos do
-              mal.
+              <Text className="text-red-500">℟.</Text> Mas livrai-nos do mal.
             </Text>
           </View>
 
@@ -1719,10 +1708,10 @@ export default function PageOrdo() {
               ℣. Por todos os séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -1743,11 +1732,10 @@ export default function PageOrdo() {
               <Text className="cross text-red-500">✠</Text> convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">
               Hæc commíxtio, et consecrátio Córporis et Sánguinis Dómini nostri
@@ -1936,15 +1924,15 @@ export default function PageOrdo() {
 
           <View className="side-by-side">
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Confíteor Deo
+              <Text className="text-red-500">℟.</Text> Confíteor Deo
               omnipoténti, beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo,
               beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus
               Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo et
               ópere:
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Eu me confesso a
-              Deus, todo poderoso, à bem-aventurada sempre Virgem Maria, ao
+              <Text className="text-red-500">℟.</Text> Eu me confesso a Deus,
+              todo poderoso, à bem-aventurada sempre Virgem Maria, ao
               bem-aventurado S. Miguel Arcanjo, ao bem-aventurado S. João
               Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, a todos os
               santos, e a vós, Padre: que pequei muitas vezes por pensamentos,
@@ -1993,10 +1981,10 @@ export default function PageOrdo() {
               e guie até à vida eterna.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -2014,10 +2002,10 @@ export default function PageOrdo() {
               a remissão dos nossos pecados.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -2042,14 +2030,14 @@ export default function PageOrdo() {
 
           <View className="side-by-side">
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dómine, non sum
-              dignus, ut intres sub tectum meum: sed tantum dic verbo, et
-              sanábitur ánima mea.
+              <Text className="text-red-500">℟.</Text> Dómine, non sum dignus,
+              ut intres sub tectum meum: sed tantum dic verbo, et sanábitur
+              ánima mea.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor, eu não
-              sou digno de que entreis na minha morada, mas dizei uma só palavra
-              e a minha alma será salva.
+              <Text className="text-red-500">℟.</Text> Senhor, eu não sou digno
+              de que entreis na minha morada, mas dizei uma só palavra e a minha
+              alma será salva.
             </Text>
           </View>
 
@@ -2125,11 +2113,10 @@ export default function PageOrdo() {
               ℣. O Senhor esteja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -2150,21 +2137,20 @@ export default function PageOrdo() {
               ℣. O Senhor esteja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">℣. Ite, Missa est.</Text>
             <Text className="text-base vernacular">
               ℣. Ide-vos, acabou a Missa.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo grátias.
+              <Text className="text-red-500">℟.</Text> Deo grátias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Graças a Deus.
+              <Text className="text-red-500">℟.</Text> Graças a Deus.
             </Text>
           </View>
 
@@ -2178,10 +2164,10 @@ export default function PageOrdo() {
               ℣. Bendigamos o Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo Grátias.
+              <Text className="text-red-500">℟.</Text> Deo Grátias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Graças a Deus.
+              <Text className="text-red-500">℟.</Text> Graças a Deus.
             </Text>
           </View>
 
@@ -2193,10 +2179,10 @@ export default function PageOrdo() {
               ℣. Que descansem em paz.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -2235,10 +2221,10 @@ export default function PageOrdo() {
               <Text className="text-base vernacular">✠</Text> e Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -2256,11 +2242,10 @@ export default function PageOrdo() {
               ℣. O Senhor esteja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -2279,11 +2264,10 @@ export default function PageOrdo() {
               Evangelho segundo S. João.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Glória tibi, Dómine.
+              <Text className="text-red-500">℟.</Text> Glória tibi, Dómine.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Glória a Vós,
-              Senhor.
+              <Text className="text-red-500">℟.</Text> Glória a Vós, Senhor.
             </Text>
             <Text className="text-base latin">
               In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat
@@ -2325,10 +2309,10 @@ export default function PageOrdo() {
               do Filho Unigénito do Pai, cheio de graça e de verdade.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo grátias.
+              <Text className="text-red-500">℟.</Text> Deo grátias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Graças a Deus.
+              <Text className="text-red-500">℟.</Text> Graças a Deus.
             </Text>
           </View>
 

@@ -86,7 +86,7 @@ export default function PageQuad66() {
               hunc ignem in nómine tuo, et unigéniti Fílii tui, Dei ac Dómini
               nostri Jesu Christi, et Spíritus Sancti, cooperári dignéris; et
               ádjuva nos contra igníta tela inimíci, et illústra grátia cœlésti:
-              Qui vivis et regnas... <Text className="text-base latin">℟.</Text>{" "}
+              Qui vivis et regnas... <Text className="text-red-500">℟.</Text>{" "}
               Amen.
             </Text>
             <Text className="text-base vernacular">
@@ -95,7 +95,7 @@ export default function PageQuad66() {
               Filho, Jesus Cristo, Deus e Senhor nosso, e no do Espírito Santo;
               auxiliai-nos a repelir as lanças inflamadas do inimigo e
               iluminai-nos com a graça celestial. Ó Vós, que viveis e reinais...{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h3">Bênção do Incenso</Text>
@@ -130,11 +130,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Lumen Christi.</Text>
             <Text className="text-base vernacular">℣. A luz de Cristo.</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo grátias.
+              <Text className="text-red-500">℟.</Text> Deo grátias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Dêmos graças a
-              Deus.
+              <Text className="text-red-500">℟.</Text> Dêmos graças a Deus.
             </Text>
           </View>
           Prossegue-se até ao meio do templo, todos ajoelham e o Diácono repete:
@@ -142,11 +141,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Lumen Christi.</Text>
             <Text className="text-base vernacular">℣. A luz de Cristo.</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo grátias.
+              <Text className="text-red-500">℟.</Text> Deo grátias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Dêmos graças a
-              Deus.
+              <Text className="text-red-500">℟.</Text> Dêmos graças a Deus.
             </Text>
           </View>
           Á entrada do Altar novamente, todos ajoelham e o Diácono repete:
@@ -154,11 +152,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Lumen Christi.</Text>
             <Text className="text-base vernacular">℣. A luz de Cristo.</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo grátias.
+              <Text className="text-red-500">℟.</Text> Deo grátias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Dêmos graças a
-              Deus.
+              <Text className="text-red-500">℟.</Text> Dêmos graças a Deus.
             </Text>
           </View>
           <Text className="h3">Bênção do Círio Pascal</Text>O Diácono pede a
@@ -190,8 +187,7 @@ export default function PageQuad66() {
               una mecum, quæso, Dei omnipoténtis misericórdiam invocáte. Ut, qui
               me non meis méritis intra Levitárum númerum dignátus est
               aggregáre, lúminis sui claritátem infúndens, cérei huius laudem
-              implére perfíciat. <Text className="text-base latin">℟.</Text>{" "}
-              Amen.
+              implére perfíciat. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Exulte de alegria desde já no céu a multidão dos coros angélicos;
@@ -209,29 +205,28 @@ export default function PageQuad66() {
               sua graça louvar dignamente este Círio. Por N. S. Jesus Cristo,
               seu Filho, que, sendo Deus, vive e reina com Ele na unidade do
               Espírito Santo, em todos os séculos dos séculos.{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">℣. Sursum corda.</Text>
             <Text className="text-base vernacular">
               ℣. Levantai os corações ao alto!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Habémus ad Dóminum.
+              <Text className="text-red-500">℟.</Text> Habémus ad Dóminum.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim os temos
-              para o Senhor.
+              <Text className="text-red-500">℟.</Text> Assim os temos para o
+              Senhor.
             </Text>
             <Text className="text-base latin">
               ℣. Grátias agámus Dómino Deo nostro.
@@ -240,11 +235,10 @@ export default function PageQuad66() {
               ℣. Dêmos graças ao Senhor, nosso Deus.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dignum et iustum est.
+              <Text className="text-red-500">℟.</Text> Dignum et iustum est.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim é digno e
-              justo.
+              <Text className="text-red-500">℟.</Text> Assim é digno e justo.
             </Text>
             <Text className="text-base latin">
               Vere dignum et iustum est, invisíbilem Deum Patrem omnipoténtem
@@ -540,10 +534,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, qui mirabíliter creásti hóminem et mirabílius redemísti: da
@@ -745,10 +739,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, incommutábilis virtus et lumen ætérnum: réspice propítius ad
@@ -858,10 +852,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, fidélium Pater summe, qui in toto orbe terrárum,
@@ -951,10 +945,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, cujus antíqua mirácula etiam nostris sǽculis coruscáre
@@ -1044,10 +1038,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, multíplica in honórem nóminis tui,
@@ -1170,10 +1164,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, qui Ecclésiam tuam semper géntium vocatióne multíplicas:
@@ -1262,10 +1256,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, qui nos ad celebrándum paschále sacraméntum utriúsque
@@ -1344,10 +1338,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, qui in ómnibus Ecclésiæ tuæ fíliis, sanctórum Prophetárum
@@ -1425,10 +1419,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, qui in ómnium óperum tuórum
@@ -1499,10 +1493,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, qui diversitátem géntium in confessióne tui nóminis
@@ -1593,10 +1587,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Deus, celsitúdo humílium et fortitúdo rectórum, qui per sanctum
@@ -1753,10 +1747,10 @@ export default function PageQuad66() {
             <Text className="text-base latin">℣. Flectámus génua.</Text>
             <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Leváte.
+              <Text className="text-red-500">℟.</Text> Leváte.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Levantai-vos!
+              <Text className="text-red-500">℟.</Text> Levantai-vos!
             </Text>
             <Text className="text-base latin">
               Omnípotens sempitérne Deus, spes única mundi, qui Prophetárum
@@ -1800,7 +1794,7 @@ export default function PageQuad66() {
               renascéntis, qui, sicut cervus, aquárum tuárum éxpetit fontem: et
               concéde propítius; ut fídei ipsíus sitis, baptísmatis mystério,
               ánimam corpúsque sanctíficet. Per Dóminum...{" "}
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Ó Deus omnipotente e sempiterno, dignai-Vos olhar benignamente
@@ -1808,7 +1802,7 @@ export default function PageQuad66() {
               como o veado, procura a fonte das vossas águas; dignai-Vos
               permitir que esta sede do dom da Fé lhe santifique a alma e o
               corpo pelo mystério do Baptismo. Por nosso Senhor...{" "}
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h3">Oração</Text>
@@ -2076,10 +2070,10 @@ export default function PageQuad66() {
               vivos e os mortos e destruir este mundo pelo fogo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">
@@ -2107,10 +2101,10 @@ export default function PageQuad66() {
               renascerem do seu seio.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Infúsio Chrísmatis Dómini nostri Jesu Christi, et Spíritus Sancti
@@ -2121,10 +2115,10 @@ export default function PageQuad66() {
               Santo se opere em nome da Santíssima Trindade.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               Commíxtio Chrísmatis sanctificatiónis, et Olei unctiónis, et Aquæ
@@ -2141,10 +2135,10 @@ export default function PageQuad66() {
               <Text className="cross text-red-500">✠</Text> Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
           <Text className="h3">Ladainha dos Santos</Text>

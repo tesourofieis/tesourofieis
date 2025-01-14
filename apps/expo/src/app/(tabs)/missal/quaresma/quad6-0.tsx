@@ -104,7 +104,7 @@ export default function PageQuad60() {
               e amanhã vereis resplandecer a glória do Senhor».
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text>{" "}
+              <Text className="text-red-500">℟.</Text>{" "}
               <Text className="em">Joann. 11, 47-49, 50 & 53</Text> Collegérunt
               pontífices et pharisǽi concílium, et dixérunt: Quid fácimus, quia
               hic homo multa signa facit? Si dimíttimus eum sic, omnes credent
@@ -115,7 +115,7 @@ export default function PageQuad60() {
               interfícere eum, dicéntes. Et vénient...
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text>{" "}
+              <Text className="text-red-500">℟.</Text>{" "}
               <Text className="em">Jo. 11, 47-49, 50 & 53</Text> Os pontífices e
               os fariseus reuniram-se em conselho e disseram: «Que faremos? Este
               homem faz muitos prodígios. Se o deixamos andar livremente, todos
@@ -126,7 +126,7 @@ export default function PageQuad60() {
               dia, pois, resolveram matá-l’O, dizendo: «E virão os romanos…»
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text>{" "}
+              <Text className="text-red-500">℟.</Text>{" "}
               <Text className="em">Mt. 28, 39 & 41</Text> In monte Olivéti
               orávit ad Patrem: Pater, si fíeri potest, tránseat a me calix
               iste. Spíritus quidem promptus est, caro autem infírma: fiat
@@ -134,7 +134,7 @@ export default function PageQuad60() {
               tentatiónem. Spíritus quidem...
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text>{" "}
+              <Text className="text-red-500">℟.</Text>{" "}
               <Text className="em">Mt. 28, 39 & 41</Text> No monte das Oliveiras
               orou a seu Pai: Meu pai, se é possível, afastai de mim este
               cálice! Na verdade, o espírito está pronto: mas a carne é fraca;
@@ -436,7 +436,7 @@ export default function PageQuad60() {
               vel ramos arbórum in via stérnere et Hosánna decantáre in laudem
               ipsíus docuísti: da, quǽsumus; ut illórum innocéntiam imitári
               póssimus, et eórum méritum cónsequi mereámur. Per eúndem Christum,
-              Dóminum nostrum. <Text className="text-base latin">℟.</Text> Amen.
+              Dóminum nostrum. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
               Omnipotente e eterno Deus, que enviastes a turba do povo ao
@@ -445,7 +445,7 @@ export default function PageQuad60() {
               árvores no caminho e cantasse hosanas em seu louvor, concedei-nos
               a graça, Vos suplicamos, de imitar a inocência dessa turba e de
               ter parte nos seus merecimentos. Pelo mesmo nosso Senhor Jesus
-              Cristo. <Text className="text-base vernacular">℟.</Text> Amen.
+              Cristo. <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -455,12 +455,10 @@ export default function PageQuad60() {
             <Text className="text-base latin">℣. Procedámus in pace.</Text>
             <Text className="text-base vernacular">℣. Caminhemos em paz.</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> In nómine Christi.
-              Amen.
+              <Text className="text-red-500">℟.</Text> In nómine Christi. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Em nome de
-              Cristo. Amen.
+              <Text className="text-red-500">℟.</Text> Em nome de Cristo. Amen.
             </Text>
           </View>
 
@@ -595,10 +593,10 @@ export default function PageQuad60() {
               A quem a devoção dos meninos consagrou pios aplausos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Glória, laus &
+              <Text className="text-red-500">℟.</Text> Glória, laus &
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text> Glória, louvor &
+              <Text className="text-red-500">℟. </Text> Glória, louvor &
             </Text>
             <Text className="text-base latin">
               Israël es tu Rex, Davidis et ínclita proles: Nómine qui in Dómini,
@@ -609,10 +607,10 @@ export default function PageQuad60() {
               que vindes em nome do Senhor!
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Glória, laus &
+              <Text className="text-red-500">℟.</Text> Glória, laus &
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Glória, louvor &
+              <Text className="text-red-500">℟.</Text> Glória, louvor &
             </Text>
             <Text className="text-base latin">
               Cœtus in excélsis te laudat cǽlicus omnis, Et mortális homo, et
@@ -623,11 +621,11 @@ export default function PageQuad60() {
               criaturas cantam em uníssono os vossos louvores.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Glória, laus &
+              <Text className="text-red-500">℟.</Text> Glória, laus &
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text> Glória, louvor &
-              Plebs Hebrǽa tibi cum palmis óbvia venit:
+              <Text className="text-red-500">℟. </Text> Glória, louvor & Plebs
+              Hebrǽa tibi cum palmis óbvia venit:
             </Text>
             <Text className="text-base latin">
               Cum prece, voto, hymnis, ádsumus ecce tibi.
@@ -637,10 +635,10 @@ export default function PageQuad60() {
               diante de Vós com súplicas, votos e hinos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Glória, laus &
+              <Text className="text-red-500">℟.</Text> Glória, laus &
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Glória, louvor &
+              <Text className="text-red-500">℟.</Text> Glória, louvor &
             </Text>
             <Text className="text-base latin">
               Hi tibi passúro solvébaní múnia laudis: Nos tibi regnánti pángimus
@@ -651,10 +649,10 @@ export default function PageQuad60() {
               oferecemos estes cânticos, agora, que reinais no céu.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Glória, laus &
+              <Text className="text-red-500">℟.</Text> Glória, laus &
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Glória, louvor &
+              <Text className="text-red-500">℟.</Text> Glória, louvor &
             </Text>
             <Text className="text-base latin">
               Hi placuére tibi, pláceat devótio nostra: Rex bone, Rex clemens,
@@ -665,10 +663,10 @@ export default function PageQuad60() {
               de bondade, ó Rei de clemência, a quem agrada tudo quanto é bom.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Glória, laus &
+              <Text className="text-red-500">℟.</Text> Glória, laus &
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Glória, louvor &
+              <Text className="text-red-500">℟.</Text> Glória, louvor &
             </Text>
           </View>
 
@@ -676,7 +674,7 @@ export default function PageQuad60() {
 
           <View className="side-by-side">
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Ingrediénte Dómino in
+              <Text className="text-red-500">℟.</Text> Ingrediénte Dómino in
               sanctam civitátem, Hebræórum púeri resurrectiónem vitæ
               pronuntiántes. Cum ramis palmárum: Hosánna, clamábant, in
               excélsis. ℣. Cum audísset pópulus, quod Jesus veníret Jerosólymam,
@@ -684,13 +682,12 @@ export default function PageQuad60() {
               excélsis.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Quando o Senhor
-              entrava na cidade santa, os meninos hebreus anunciavam
-              antecipadamente a ressurreição d’Aquele que é a vida. * Empunhando
-              ramos de palmeira, clamavam: «Hosana no alto dos céus!». ℣. E,
-              tendo o povo notícia de que Jesus vinha a Jerusalém, saiu ao seu
-              encontro. Empunhando ramos de palmeira, clamava: «Hosana no alto
-              dos céus!».
+              <Text className="text-red-500">℟.</Text> Quando o Senhor entrava
+              na cidade santa, os meninos hebreus anunciavam antecipadamente a
+              ressurreição d’Aquele que é a vida. * Empunhando ramos de
+              palmeira, clamavam: «Hosana no alto dos céus!». ℣. E, tendo o povo
+              notícia de que Jesus vinha a Jerusalém, saiu ao seu encontro.
+              Empunhando ramos de palmeira, clamava: «Hosana no alto dos céus!».
             </Text>
           </View>
 

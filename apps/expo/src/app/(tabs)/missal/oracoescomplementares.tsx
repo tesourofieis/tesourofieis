@@ -45,12 +45,11 @@ export default function PageOracoescomplementares() {
             </Text>
             <Text className="text-base latin">
               Pater noster. ℣. Et ne nos indúcas in tentatiónem.{" "}
-              <Text className="text-base latin">℟. </Text>Sed líbera nos a malo.
+              <Text className="text-red-500">℟. </Text>Sed líbera nos a malo.
             </Text>
             <Text className="text-base vernacular">
               Pai-nosso. ℣. E não nos deixeis cair em tentação.{" "}
-              <Text className="text-base vernacular">℟. </Text>Mas livrai-nos do
-              mal.
+              <Text className="text-red-500">℟. </Text>Mas livrai-nos do mal.
             </Text>
             <Text className="text-base latin">
               ℣. Confiteántur tibi, Dómine, omnia opera tua. ℞. Et Sancti tui
@@ -58,49 +57,48 @@ export default function PageOracoescomplementares() {
             </Text>
             <Text className="text-base vernacular">
               ℣. Que todas vossas obras Vos louvem, Senhor.{" "}
-              <Text className="text-base vernacular">℟. </Text>E os vossos
-              Santos Vos bendigam.
+              <Text className="text-red-500">℟. </Text>E os vossos Santos Vos
+              bendigam.
             </Text>
             <Text className="text-base latin">
               ℣. Exsultábunt Sancti in glória.{" "}
-              <Text className="text-base latin">℟. </Text> Lætabúntur in
-              cubílibus suis.
+              <Text className="text-red-500">℟. </Text> Lætabúntur in cubílibus
+              suis.
             </Text>
             <Text className="text-base vernacular">
               ℣. Os Santos exultam de alegria.{" "}
-              <Text className="text-base vernacular">℟. </Text> Alegrar-se-ão no
-              lugar do seu repouso.
+              <Text className="text-red-500">℟. </Text> Alegrar-se-ão no lugar
+              do seu repouso.
             </Text>
             <Text className="text-base latin">
               ℣. Non nobis, Dómine, non nobis.{" "}
-              <Text className="text-base latin">℟. </Text>Sed nómini tuo da
+              <Text className="text-red-500">℟. </Text>Sed nómini tuo da
               glóriam.
             </Text>
             <Text className="text-base vernacular">
               ℣. Não a nós, Senhor, não a nós.{" "}
-              <Text className="text-base vernacular">℟. </Text>Mas ao vosso nome
-              dêmos glória.
+              <Text className="text-red-500">℟. </Text>Mas ao vosso nome dêmos
+              glória.
             </Text>
             <Text className="text-base latin">
               ℣. Dómine, exáudi oratiónem meam.{" "}
-              <Text className="text-base latin">℟. </Text>Et clamor meus ad te
+              <Text className="text-red-500">℟. </Text>Et clamor meus ad te
               véniat.
             </Text>
             <Text className="text-base vernacular">
               ℣. Senhor, ouvi a minha oração.{" "}
-              <Text className="text-base vernacular">℟. </Text>E o meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟. </Text>E o meu clamor chegue até
+              Vós.
             </Text>
             <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
             <Text className="text-base vernacular">
               ℣. O Senhor seja convosco.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟. </Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟. </Text> E com vosso espírito.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Orémus.</Text>
@@ -139,10 +137,10 @@ export default function PageOracoescomplementares() {
               nossos vícios. Por Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟. </Text>Amen.
+              <Text className="text-red-500">℟. </Text>Amen.
             </Text>
           </View>
           <Text className="h3">Oração São Tomás Aquino</Text>

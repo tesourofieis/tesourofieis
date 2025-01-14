@@ -31,12 +31,12 @@ export default function PageSexta() {
               meu auxílio.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dómine, ad adjuvándum
-              me festína.
+              <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum me
+              festína.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor,
-              apressai-Vos em socorrer-me.
+              <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos em
+              socorrer-me.
             </Text>
             <Text className="text-base latin">
               ℣. Glória Patri, et Fílio, et Spíritui Sancto.
@@ -45,11 +45,11 @@ export default function PageSexta() {
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sicut erat in
-              pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
+              <Text className="text-red-500">℟.</Text> Sicut erat in pricípio,
+              et nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim como era no
+              <Text className="text-red-500">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
@@ -112,11 +112,10 @@ export default function PageSexta() {
                   herança sua; e na congregação dos santos fiz a minha morada.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Benedicta tu in mulieribus.
@@ -125,12 +124,12 @@ export default function PageSexta() {
                   ℣. Bendita sois v´so entre as mulheres.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et benedictus
-                  fructus ventris tui.
+                  <Text className="text-red-500">℟.</Text> Et benedictus fructus
+                  ventris tui.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E bendito é o
-                  fruto do vosso ventre.
+                  <Text className="text-red-500">℟.</Text> E bendito é o fruto
+                  do vosso ventre.
                 </Text>
               </View>
 
@@ -158,12 +157,12 @@ export default function PageSexta() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
               </View>
 
@@ -187,10 +186,10 @@ export default function PageSexta() {
                   nossas iniquidades. Pelo mesmo Senhor...
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -223,11 +222,10 @@ export default function PageSexta() {
                   eternamente na casa de Jacob, e o seu Reino não terá fim.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Benedicta tu in mulieribus.
@@ -236,12 +234,12 @@ export default function PageSexta() {
                   ℣. Bendita sois vóo entre as mulheres.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et benedictus
-                  fructus ventris tui.
+                  <Text className="text-red-500">℟.</Text> Et benedictus fructus
+                  ventris tui.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E bendito é o
-                  fruto do vosso ventre.
+                  <Text className="text-red-500">℟.</Text> E bendito é o fruto
+                  do vosso ventre.
                 </Text>
               </View>
 
@@ -269,12 +267,12 @@ export default function PageSexta() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
               </View>
 
@@ -301,10 +299,10 @@ export default function PageSexta() {
                   Cristo Senhor Nosso.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -337,11 +335,10 @@ export default function PageSexta() {
                   herança sua; e na congregação dos santos fiz a minha morada.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Benedicta tu in mulieribus.
@@ -350,12 +347,12 @@ export default function PageSexta() {
                   ℣. Bendita sois vóo entre as mulheres.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et benedictus
-                  fructus ventris tui.
+                  <Text className="text-red-500">℟.</Text> Et benedictus fructus
+                  ventris tui.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E bendito é o
-                  fruto do vosso ventre.
+                  <Text className="text-red-500">℟.</Text> E bendito é o fruto
+                  do vosso ventre.
                 </Text>
               </View>
 
@@ -383,10 +380,10 @@ export default function PageSexta() {
                   Espírito Santo, vive e reina por todos os séculos.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -400,22 +397,22 @@ export default function PageSexta() {
               ℣. Ouvi, Senhor, a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               veniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E o meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E o meu clamor chegue até
+              Vós.
             </Text>
             <Text className="text-base latin">℣. Benedicamus Domino.</Text>
             <Text className="text-base vernacular">
               ℣. Bendigamos o Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo gratias.
+              <Text className="text-red-500">℟.</Text> Deo gratias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Graças a Deus.
+              <Text className="text-red-500">℟.</Text> Graças a Deus.
             </Text>
             <Text className="text-base latin">
               ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
@@ -425,10 +422,10 @@ export default function PageSexta() {
               em paz.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 

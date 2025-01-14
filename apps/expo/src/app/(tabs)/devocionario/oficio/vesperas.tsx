@@ -37,12 +37,12 @@ export default function PageVesperas() {
                   em meu auxílio.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Dómine, ad
-                  adjuvándum me festína.
+                  <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum
+                  me festína.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Senhor,
-                  apressai-Vos em socorrer-me.
+                  <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos
+                  em socorrer-me.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Glória Patri, et Fílio, et Spíritui Sancto.
@@ -51,13 +51,13 @@ export default function PageVesperas() {
                   ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Sicut erat in
+                  <Text className="text-red-500">℟.</Text> Sicut erat in
                   pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Assim como
-                  era no princípio, agora e sempre, e por todos os séculos dos
-                  séculos. Amen.
+                  <Text className="text-red-500">℟.</Text> Assim como era no
+                  princípio, agora e sempre, e por todos os séculos dos séculos.
+                  Amen.
                 </Text>
                 <Text className="text-base latin">
                   <Text className="text-base latin">Ant.</Text> Dum esset Rex in
@@ -210,11 +210,10 @@ export default function PageVesperas() {
                   dele o meu ministério na morada santa.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
               </View>
 
@@ -236,10 +235,10 @@ export default function PageVesperas() {
                   por nós.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
 
@@ -281,10 +280,10 @@ export default function PageVesperas() {
                   por nós.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
 
@@ -313,12 +312,12 @@ export default function PageVesperas() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
                 <Text className="text-base latin">
                   <Text className="text-base latin">Orémus.</Text>
@@ -340,10 +339,10 @@ export default function PageVesperas() {
                   alegria. Por Jesus Cristo nosso Senhor.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Domine, exaudi orationem meam.
@@ -352,23 +351,22 @@ export default function PageVesperas() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
                 <Text className="text-base latin">℣. Benedicamus Domino.</Text>
                 <Text className="text-base vernacular">
                   ℣. Bendigamos o Senhor.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo gratias.
+                  <Text className="text-red-500">℟.</Text> Deo gratias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
@@ -378,10 +376,10 @@ export default function PageVesperas() {
                   descansem em paz.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -397,12 +395,12 @@ export default function PageVesperas() {
                   em meu auxílio.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Dómine, ad
-                  adjuvándum me festína.
+                  <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum
+                  me festína.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Senhor,
-                  apressai-Vos em socorrer-me.
+                  <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos
+                  em socorrer-me.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Glória Patri, et Fílio, et Spíritui Sancto.
@@ -411,13 +409,13 @@ export default function PageVesperas() {
                   ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Sicut erat in
+                  <Text className="text-red-500">℟.</Text> Sicut erat in
                   pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Assim como
-                  era no princípio, agora e sempre, e por todos os séculos dos
-                  séculos. Amen.
+                  <Text className="text-red-500">℟.</Text> Assim como era no
+                  princípio, agora e sempre, e por todos os séculos dos séculos.
+                  Amen.
                 </Text>
                 <Text className="text-base latin">
                   <Text className="text-base latin">Ant.</Text> Missus est
@@ -568,11 +566,10 @@ export default function PageVesperas() {
                   raiz, e descansará sobre ele o Espírito do Senhor.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
               </View>
 
@@ -588,12 +585,12 @@ export default function PageVesperas() {
                   ℣. A graça derramou-se nos vossos lábios.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Propterea
-                  benedixit te Deus in æternum.
+                  <Text className="text-red-500">℟.</Text> Propterea benedixit
+                  te Deus in æternum.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Por isso vos
-                  abençoou Deus para sempre.
+                  <Text className="text-red-500">℟.</Text> Por isso vos abençoou
+                  Deus para sempre.
                 </Text>
                 <Text className="text-base latin">
                   <Text className="text-base latin">Ant.</Text> Spiritus Sanctus
@@ -629,12 +626,12 @@ export default function PageVesperas() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
                 <Text className="text-base latin">
                   <Text className="text-base latin">Orémus.</Text>
@@ -658,10 +655,10 @@ export default function PageVesperas() {
                   Cristo Senhor Nosso.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Domine, exaudi orationem meam.
@@ -670,23 +667,22 @@ export default function PageVesperas() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
                 <Text className="text-base latin">℣. Benedicamus Domino.</Text>
                 <Text className="text-base vernacular">
                   ℣. Bendigamos o Senhor.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo gratias.
+                  <Text className="text-red-500">℟.</Text> Deo gratias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
@@ -696,10 +692,10 @@ export default function PageVesperas() {
                   descansem em paz.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -715,12 +711,12 @@ export default function PageVesperas() {
                   em meu auxílio.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Dómine, ad
-                  adjuvándum me festína.
+                  <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum
+                  me festína.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Senhor,
-                  apressai-Vos em socorrer-me.
+                  <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos
+                  em socorrer-me.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Glória Patri, et Fílio, et Spíritui Sancto.
@@ -729,13 +725,13 @@ export default function PageVesperas() {
                   ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Sicut erat in
+                  <Text className="text-red-500">℟.</Text> Sicut erat in
                   pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Assim como
-                  era no princípio, agora e sempre, e por todos os séculos dos
-                  séculos. Amen.
+                  <Text className="text-red-500">℟.</Text> Assim como era no
+                  princípio, agora e sempre, e por todos os séculos dos séculos.
+                  Amen.
                 </Text>
                 <Text className="text-base latin">
                   <Text className="text-base latin">Ant.</Text> O admirabile
@@ -914,11 +910,10 @@ export default function PageVesperas() {
                   dele o meu ministério na morada santa.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
               </View>
 
@@ -934,12 +929,12 @@ export default function PageVesperas() {
                   ℣. A graça derramou-se nos vossos lábios.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Propterea
-                  benedixit te Deus in æternum.
+                  <Text className="text-red-500">℟.</Text> Propterea benedixit
+                  te Deus in æternum.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Por isso vos
-                  abençoou Deus para sempre.
+                  <Text className="text-red-500">℟.</Text> Por isso vos abençoou
+                  Deus para sempre.
                 </Text>
                 <Text className="text-base latin">
                   <Text className="text-base latin">Ant.</Text> Magnum
@@ -981,12 +976,12 @@ export default function PageVesperas() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
                 <Text className="text-base latin">
                   <Text className="text-base latin">Orémus.</Text>
@@ -1011,10 +1006,10 @@ export default function PageVesperas() {
                   Espírito Santo, vive e reina por todos os séculos.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Domine, exaudi orationem meam.
@@ -1023,23 +1018,22 @@ export default function PageVesperas() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
                 <Text className="text-base latin">℣. Benedicamus Domino.</Text>
                 <Text className="text-base vernacular">
                   ℣. Bendigamos o Senhor.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo gratias.
+                  <Text className="text-red-500">℟.</Text> Deo gratias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
@@ -1049,10 +1043,10 @@ export default function PageVesperas() {
                   descansem em paz.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>

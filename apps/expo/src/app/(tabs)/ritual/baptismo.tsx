@@ -32,10 +32,10 @@ export default function PageBaptismo() {
               Deus?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Fidem.
+              <Text className="text-red-500">℟.</Text> Fidem.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> A Fé.
+              <Text className="text-red-500">℟.</Text> A Fé.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Sac.</Text> Fides, quid tibi
@@ -46,11 +46,11 @@ export default function PageBaptismo() {
               serve a Fé?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Vitam ætérnam.
+              <Text className="text-red-500">℟.</Text> Vitam ætérnam.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Para alcançar a
-              vida eterna.
+              <Text className="text-red-500">℟.</Text> Para alcançar a vida
+              eterna.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Sac.</Text> Si ígitur vis ad
@@ -137,10 +137,10 @@ export default function PageBaptismo() {
               Mandamentos. Por Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -184,10 +184,10 @@ export default function PageBaptismo() {
               Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -239,10 +239,10 @@ export default function PageBaptismo() {
               e o mundo pelo fogo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -260,10 +260,10 @@ export default function PageBaptismo() {
               sabedoria; que ele te seja propício para a vida eterna.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Sac.</Text> Pax tecum.
@@ -273,11 +273,10 @@ export default function PageBaptismo() {
               contigo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -318,10 +317,10 @@ export default function PageBaptismo() {
               prometidas. Por Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -377,10 +376,10 @@ export default function PageBaptismo() {
               e o mundo pelo fogo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -403,10 +402,10 @@ export default function PageBaptismo() {
               imprimimos na sua fronte. Pelo mesmo Cristo, nosso Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -446,10 +445,10 @@ export default function PageBaptismo() {
               santa.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -474,10 +473,10 @@ export default function PageBaptismo() {
               de Deus, a fim de que tenhas parte com Cristo na vida eterna.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -551,10 +550,10 @@ export default function PageBaptismo() {
               mundo pelo fogo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -605,10 +604,10 @@ export default function PageBaptismo() {
               <Text className="text-red-500">N.</Text> Renuncias a Satanás?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Abrenúntio.
+              <Text className="text-red-500">℟.</Text> Abrenúntio.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Renuncio!
+              <Text className="text-red-500">℟.</Text> Renuncio!
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Sac.</Text> Et ómnibus opéribus
@@ -619,10 +618,10 @@ export default function PageBaptismo() {
               obras?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Abrenúntio.
+              <Text className="text-red-500">℟.</Text> Abrenúntio.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Renuncio!
+              <Text className="text-red-500">℟.</Text> Renuncio!
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Sac.</Text> Et ómnibus pompis
@@ -633,10 +632,10 @@ export default function PageBaptismo() {
               seduções?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Abrenúntio.
+              <Text className="text-red-500">℟.</Text> Abrenúntio.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Renuncio!
+              <Text className="text-red-500">℟.</Text> Renuncio!
             </Text>
           </View>
 
@@ -661,10 +660,10 @@ export default function PageBaptismo() {
               vida eterna.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -693,10 +692,10 @@ export default function PageBaptismo() {
               omnipotente, Criador do céu e da terra?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Credo.
+              <Text className="text-red-500">℟.</Text> Credo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Creio.
+              <Text className="text-red-500">℟.</Text> Creio.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Sac.</Text> Credis in Jesum
@@ -707,10 +706,10 @@ export default function PageBaptismo() {
               Cristo, seu Filho único, nosso Senhor, que nasceu e padeceu?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Credo.
+              <Text className="text-red-500">℟.</Text> Credo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Creio.
+              <Text className="text-red-500">℟.</Text> Creio.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Sac.</Text> Credis et in
@@ -725,10 +724,10 @@ export default function PageBaptismo() {
               vida eterna?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Credo.
+              <Text className="text-red-500">℟.</Text> Credo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Creio.
+              <Text className="text-red-500">℟.</Text> Creio.
             </Text>
           </View>
 
@@ -748,10 +747,10 @@ export default function PageBaptismo() {
               <Text className="text-red-500">N.</Text> Queres ser baptizado?
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Volo.
+              <Text className="text-red-500">℟.</Text> Volo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Quero.
+              <Text className="text-red-500">℟.</Text> Quero.
             </Text>
           </View>
 
@@ -832,10 +831,10 @@ export default function PageBaptismo() {
               vida eterna, em o mesmo nosso Senhor Jesus Cristo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base latin">
               <Text className="text-base latin">Sac.</Text> Pax tibi.
@@ -845,11 +844,10 @@ export default function PageBaptismo() {
               contigo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et cum spíritu tuo.
+              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E com vosso
-              espírito.
+              <Text className="text-red-500">℟.</Text> E com vosso espírito.
             </Text>
           </View>
 
@@ -867,10 +865,10 @@ export default function PageBaptismo() {
               Senhor Jesus Cristo, a fim de alcançares a vida eterna.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -893,10 +891,10 @@ export default function PageBaptismo() {
               séculos dos séculos.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 
@@ -914,10 +912,10 @@ export default function PageBaptismo() {
               seja contigo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 

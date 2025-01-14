@@ -32,12 +32,12 @@ export default function PagePrima() {
               meu auxílio.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Dómine, ad adjuvándum
-              me festína.
+              <Text className="text-red-500">℟.</Text> Dómine, ad adjuvándum me
+              festína.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Senhor,
-              apressai-Vos em socorrer-me.
+              <Text className="text-red-500">℟.</Text> Senhor, apressai-Vos em
+              socorrer-me.
             </Text>
             <Text className="text-base latin">
               ℣. Glória Patri, et Fílio, et Spíritui Sancto.
@@ -46,11 +46,11 @@ export default function PagePrima() {
               ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Sicut erat in
-              pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
+              <Text className="text-red-500">℟.</Text> Sicut erat in pricípio,
+              et nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Assim como era no
+              <Text className="text-red-500">℟.</Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
@@ -114,11 +114,10 @@ export default function PagePrima() {
                   formado em linha?
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Dignare me laudare te, Virgo sacrata.
@@ -127,12 +126,12 @@ export default function PagePrima() {
                   ℣. Dignai-vos, sagrada Virgem, de que eu vos louve.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Da mihi virtutem
+                  <Text className="text-red-500">℟.</Text> Da mihi virtutem
                   contra hostes tuos.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Dai-me
-                  esforço contra vossos inimigos.
+                  <Text className="text-red-500">℟.</Text> Dai-me esforço contra
+                  vossos inimigos.
                 </Text>
               </View>
 
@@ -160,12 +159,12 @@ export default function PagePrima() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
               </View>
 
@@ -190,10 +189,10 @@ export default function PagePrima() {
                   reinais...
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -227,11 +226,10 @@ export default function PagePrima() {
                   escolher o bem.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Dignare me laudare te, Virgo sacrata.
@@ -240,12 +238,12 @@ export default function PagePrima() {
                   ℣. Dignai-vos, sagrada Virgem, de que eu vos louve.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Da mihi virtutem
+                  <Text className="text-red-500">℟.</Text> Da mihi virtutem
                   contra hostes tuos.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Dai-me
-                  esforço contra vossos inimigos.
+                  <Text className="text-red-500">℟.</Text> Dai-me esforço contra
+                  vossos inimigos.
                 </Text>
               </View>
 
@@ -273,12 +271,12 @@ export default function PagePrima() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
               </View>
 
@@ -305,10 +303,10 @@ export default function PagePrima() {
                   Cristo Senhor Nosso.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -345,11 +343,10 @@ export default function PagePrima() {
                   formado em linha?
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Deo grátias.
+                  <Text className="text-red-500">℟.</Text> Deo grátias.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Graças a
-                  Deus.
+                  <Text className="text-red-500">℟.</Text> Graças a Deus.
                 </Text>
                 <Text className="text-base latin">
                   ℣. Dignare me laudare te, Virgo sacrata.
@@ -358,12 +355,12 @@ export default function PagePrima() {
                   ℣. Dignai-vos, sagrada Virgem, de que eu vos louve.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Da mihi virtutem
+                  <Text className="text-red-500">℟.</Text> Da mihi virtutem
                   contra hostes tuos.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Dai-me
-                  esforço contra vossos inimigos.
+                  <Text className="text-red-500">℟.</Text> Dai-me esforço contra
+                  vossos inimigos.
                 </Text>
               </View>
 
@@ -391,12 +388,12 @@ export default function PagePrima() {
                   ℣. Ouvi, Senhor, a minha oração.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Et clamor meus ad
-                  te veniat.
+                  <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+                  veniat.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> E o meu
-                  clamor chegue até Vós.
+                  <Text className="text-red-500">℟.</Text> E o meu clamor chegue
+                  até Vós.
                 </Text>
               </View>
 
@@ -424,10 +421,10 @@ export default function PagePrima() {
                   Espírito Santo, vive e reina por todos os séculos.
                 </Text>
                 <Text className="text-base latin">
-                  <Text className="text-base latin">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">℟.</Text> Amen.
+                  <Text className="text-red-500">℟.</Text> Amen.
                 </Text>
               </View>
             </TabItem>
@@ -441,22 +438,22 @@ export default function PagePrima() {
               ℣. Ouvi, Senhor, a minha oração.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Et clamor meus ad te
+              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
               veniat.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> E o meu clamor
-              chegue até Vós.
+              <Text className="text-red-500">℟.</Text> E o meu clamor chegue até
+              Vós.
             </Text>
             <Text className="text-base latin">℣. Benedicamus Domino.</Text>
             <Text className="text-base vernacular">
               ℣. Bendigamos o Senhor.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Deo gratias.
+              <Text className="text-red-500">℟.</Text> Deo gratias.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Graças a Deus.
+              <Text className="text-red-500">℟.</Text> Graças a Deus.
             </Text>
             <Text className="text-base latin">
               ℣. Fidelium animæ per misericordiam Dei, requiescant in pace.
@@ -466,10 +463,10 @@ export default function PagePrima() {
               em paz.
             </Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">℟.</Text> Amen.
+              <Text className="text-red-500">℟.</Text> Amen.
             </Text>
           </View>
 

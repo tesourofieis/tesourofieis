@@ -2830,9 +2830,10 @@ export default function PageCatecismo() {
                 testemunho do Senhor é fiel, dá sabedoria aos pequeninos.
                 <br />
                 As justiças do Senhor são retas, alegram os corações; o preceito
-                do Senhor é claro, esclarece os olhos. <br />O temor do Senhor é
-                santo, permanece pelos séculos dos séculos; os juízos do Senhor
-                são verdadeiros, cheios de justiça em si mesmos.
+                do Senhor é claro, esclarece os olhos.
+                <br />O temor do Senhor é santo, permanece pelos séculos dos
+                séculos; os juízos do Senhor são verdadeiros, cheios de justiça
+                em si mesmos.
                 <br />
                 São mais para desejar do que o muito ouro e as muitas pedras
                 preciosas; e são mais doces que o mel e o favo.
