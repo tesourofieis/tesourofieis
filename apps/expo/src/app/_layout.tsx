@@ -149,7 +149,7 @@ const Breadcrumbs = () => {
   };
 
   return (
-    <View className="flex-row items-center mb-2 gap-2">
+    <View className="flex-row items-center mb-2 gap-1">
       {segments.map((segment, index) => (
         <React.Fragment key={segment}>
           {index !== 0 && (
@@ -161,7 +161,7 @@ const Breadcrumbs = () => {
               <Text
                 className={`text-sm ${
                   index === segments.length - 1
-                    ? "text-sepia-800 dark:text-sepia-200 font-bold"
+                    ? "text-sepia-700 dark:text-sepia-300 font-bold"
                     : "text-sepia-600 dark:text-sepia-400"
                 }`}
               >

@@ -1,7 +1,7 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { Tabs } from "expo-router";
 import React from "react";
-import { useColorScheme } from "react-native";
+import { Platform, useColorScheme } from "react-native";
 
 import { COLORS } from "~/constants/Colors";
 
@@ -45,6 +45,7 @@ export default function PageTabLayout() {
       <Tabs.Screen
         name="notificacoes"
         options={{
+          href: Platform.OS === "web" ? null : "notificacoes",
           title: "Notificações",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="bell" color={color} />
@@ -52,6 +53,7 @@ export default function PageTabLayout() {
           tabBarShowLabel: false,
         }}
       />
+
       <Tabs.Screen
         name="more"
         options={{
