@@ -26,10 +26,12 @@ export default function Page0522Braga() {
             , excepto:
           </Text>
           <Text className="h3">Oração</Text>
-          Deixai-Vos aplacar, Senhor, Vos pedimos, e concedei-nos o vosso
-          auxílio; e pela intercessão dos vossos B. B. Mártires João Baptista e
-          seus Companheiros estendei sobre nós a vossa mão misericordiosa. Por
-          nosso Senhor...
+          <Text className="text-base">
+            Deixai-Vos aplacar, Senhor, Vos pedimos, e concedei-nos o vosso
+            auxílio; e pela intercessão dos vossos B. B. Mártires João Baptista
+            e seus Companheiros estendei sobre nós a vossa mão misericordiosa.
+            Por nosso Senhor...
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

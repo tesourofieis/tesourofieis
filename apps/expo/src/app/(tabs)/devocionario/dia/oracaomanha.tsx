@@ -10,23 +10,27 @@ export default function PageOracaomanha() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Oração da Manhã</Text>
-          Meu Senhor e meu Deus, humildemente Vos adoro em união com todos os
-          Anjos e Santos. Eu Vos dou graças pelo vosso infinito amor,
-          particularmente por me haver-des conservado com tanta bondade e
-          misericórdia até hoje. Ofereço-Vos as acções deste dia: fazei que
-          sejam todas segundo a vossa santa vontade e peço-Vos que neste dia me
-          preserveis do pecado, e me livreis de todo o mal. Que a graça do
-          Senhor, nosso Deus, resplandeça a nossos olhos. Inspirai lá do vosso
-          trono, as nossas obras, assim como o trabalho das nossas mãos.
+          <Text className="text-base">
+            Meu Senhor e meu Deus, humildemente Vos adoro em união com todos os
+            Anjos e Santos. Eu Vos dou graças pelo vosso infinito amor,
+            particularmente por me haver-des conservado com tanta bondade e
+            misericórdia até hoje. Ofereço-Vos as acções deste dia: fazei que
+            sejam todas segundo a vossa santa vontade e peço-Vos que neste dia
+            me preserveis do pecado, e me livreis de todo o mal. Que a graça do
+            Senhor, nosso Deus, resplandeça a nossos olhos. Inspirai lá do vosso
+            trono, as nossas obras, assim como o trabalho das nossas mãos.
+          </Text>
           <Text className="h2">Hino Jam lucis</Text>
           <JamLucis />
           <Text className="h2">Oferecimento de si mesmo</Text>
-          Tomai, Senhor, e recebei, toda minha liberdade, a minha memória, o meu
-          entendimento e toda minha vontade. Tudo quanto tenho e possuo de Vós o
-          recebi. Por isso a Vós, Senhor, o entrego e restituo para que
-          disponhais de tudo segundo a vossa vontade. Concedei-me somente o
-          vosso amor e a vossa graça que isto me basta, nem outra coisa desejo
-          da vossa misericórdia infinita.
+          <Text className="text-base">
+            Tomai, Senhor, e recebei, toda minha liberdade, a minha memória, o
+            meu entendimento e toda minha vontade. Tudo quanto tenho e possuo de
+            Vós o recebi. Por isso a Vós, Senhor, o entrego e restituo para que
+            disponhais de tudo segundo a vossa vontade. Concedei-me somente o
+            vosso amor e a vossa graça que isto me basta, nem outra coisa desejo
+            da vossa misericórdia infinita.
+          </Text>
           <Text className="h2">Consagração do dia</Text>
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -47,14 +51,19 @@ export default function PageOracaomanha() {
               que viveis e reinais por todos os séculos dos séculos. Amen.
             </Text>
           </View>
-          <Text className="h2">Consagração a Maria Santíssima</Text>Ó Senhora
-          minha, ó minha Mãe, eu me ofereço todo a Vós. E em prova da minha
-          devoção para convosco Vos consagro neste dia, os meus olhos, os meus
-          ouvidos, a minha boca, o meu coração e todo meu ser. E porque assim
-          sou vosso, ó incomparável Mãe, guardai-me e defendei-me como
-          propriedade vossa. Que o Senhor nos abençoe, nos preserve de todo o
-          mal e nos conduza até à vida eterna; e que as almas dos fiéis
-          defuntos, pela misericórdia de Deus, descansem em paz. Amen.
+          <Text className="h2">Consagração a Maria Santíssima</Text>
+          <Text className="text-base">
+            Ó Senhora minha, ó minha Mãe, eu me ofereço todo a Vós. E em prova
+            da minha devoção para convosco Vos consagro neste dia, os meus
+            olhos, os meus ouvidos, a minha boca, o meu coração e todo meu ser.
+            E porque assim sou vosso, ó incomparável Mãe, guardai-me e
+            defendei-me como propriedade vossa.
+          </Text>
+          <Text className="text-base">
+            Que o Senhor nos abençoe, nos preserve de todo o mal e nos conduza
+            até à vida eterna; e que as almas dos fiéis defuntos, pela
+            misericórdia de Deus, descansem em paz. Amen.
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -115,9 +115,11 @@ export default function Page0531Portugal() {
             </Text>
           </View>
           <Text className="h3">Secreta</Text>
-          Vos suplicamos, Senhor, que pelas preces da nossa Mediadora a oblação
-          desta hóstia nos torne, mediante a Vossa graça, em um dom eterno a Vós
-          oferecido. Ó Vós, que viveis e reinais...
+          <Text className="text-base">
+            Vos suplicamos, Senhor, que pelas preces da nossa Mediadora a
+            oblação desta hóstia nos torne, mediante a Vossa graça, em um dom
+            eterno a Vós oferecido. Ó Vós, que viveis e reinais...
+          </Text>
           <Text className="h3">Comúnio</Text>
           <View className="side-by-side">
             <Text className="text-base latin">

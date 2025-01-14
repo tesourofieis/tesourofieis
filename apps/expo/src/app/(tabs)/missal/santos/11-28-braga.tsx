@@ -21,19 +21,26 @@ export default function Page1128Braga() {
             </Link>{" "}
             , excepto:
           </Text>
-          <Text className="h3">Oração</Text>A nós, Senhor, que somos vossos
-          servos, sede propício pelos méritos do vosso Mártir Tiago, Vo-lo
-          rogamos, a fim de que pela sua piedosa intercessão sejamos protegidos
-          contra todas as adversidades. Por nosso Senhor...
+          <Text className="h3">Oração</Text>
+          <Text className="text-base">
+            A nós, Senhor, que somos vossos servos, sede propício pelos méritos
+            do vosso Mártir Tiago, Vo-lo rogamos, a fim de que pela sua piedosa
+            intercessão sejamos protegidos contra todas as adversidades. Por
+            nosso Senhor...
+          </Text>
           <Text className="h3">Secreta</Text>
-          Vos suplicamos, Senhor, que pela vossa clemência aceiteis de nossas
-          mãos a dádiva apresentada; e pela oração do vosso Santo Mártir Tiago
-          purificai-nos de todos os pecados. Por nosso Senhor...
+          <Text className="text-base">
+            Vos suplicamos, Senhor, que pela vossa clemência aceiteis de nossas
+            mãos a dádiva apresentada; e pela oração do vosso Santo Mártir Tiago
+            purificai-nos de todos os pecados. Por nosso Senhor...
+          </Text>
           <Text className="h3">Postcomúnio</Text>
-          Depois de libarmos os divinos mystérios, que, em veneração do vosso
-          Santo Mártir Tiago oferecemos à vossa majestade, concedei-nos, Senhor,
-          Vos suplicamos, a graça de por eles merecermos o perdão de nossos
-          pecados e o conforto da celestial graça. Por nosso Senhor...
+          <Text className="text-base">
+            Depois de libarmos os divinos mystérios, que, em veneração do vosso
+            Santo Mártir Tiago oferecemos à vossa majestade, concedei-nos,
+            Senhor, Vos suplicamos, a graça de por eles merecermos o perdão de
+            nossos pecados e o conforto da celestial graça. Por nosso Senhor...
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

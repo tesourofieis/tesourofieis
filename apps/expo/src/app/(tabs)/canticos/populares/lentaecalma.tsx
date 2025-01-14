@@ -15,9 +15,7 @@ export default function PageLentaecalma() {
               Lenta e calma sobre a terra desce a noite, vai-se a luz, Quero
               agora despedir-me, boa noite meu Jesus.
             </Text>
-            <Text className="text-base">
-              <br />
-            </Text>
+            <Text className="text-base">{"\n"}</Text>
             <Text className="text-base">
               E vós ó Virgem Maria, dai-nos a bênção também velai por nós esta
               noite, Boa noite minha Mãe.

@@ -95,13 +95,16 @@ export default function PageOracaonoite() {
           <Text className="aside">
             Coloquemo-nos na presença de Deus e adoremo-Lo humildemente:
           </Text>
-          Deus meu, Senhor dos céus e da terra! Eu aqui me prostro diante de
-          Vós. Com todos os Anjos e Santos eu Vos adoro e Vos amo com todo o
-          coração. Dou-Vos graças por me terdes criado, feito Cristão e
-          conservado neste dia. Perdoai-me os pecados que hoje cometi e, se
-          algum bem fiz, aceitai-o. Guardai-me durante o repouso e livrai-me dos
-          perigos. Vossa graça esteja sempre comigo e com os que me são caros.
-          Em seguida rezar:
+          <Text className="text-base">
+            Deus meu, Senhor dos céus e da terra! Eu aqui me prostro diante de
+            Vós. Com todos os Anjos e Santos eu Vos adoro e Vos amo com todo o
+            coração. Dou-Vos graças por me terdes criado, feito Cristão e
+            conservado neste dia. Perdoai-me os pecados que hoje cometi e, se
+            algum bem fiz, aceitai-o. Guardai-me durante o repouso e livrai-me
+            dos perigos. Vossa graça esteja sempre comigo e com os que me são
+            caros.
+          </Text>
+          <Text className="text-base">Em seguida rezar:</Text>
           <Link className="link" href="/devocionario/oracoes/painosso">
             Pai Nosso,
           </Link>{" "}
@@ -133,27 +136,32 @@ export default function PageOracaonoite() {
           <ActoCaridade />
           <Text className="h2">Acto de Contrição</Text>
           <ActoContricao />
-          Vos ofereço, Senhor minha vida, obras, e trabalhos em satisfação de
-          todos meus pecados e assim como Vos suplico, assim confio em vossa
-          bondade e misericórdia infinitas que mos perdoareis pelos méritos de
-          vosso preciosíssimo sangue, paixão e morte e me dareis graça para
-          emendar-me e perseverar em vosso santo serviço até o fim de minha
-          vida. Amen.
+          <Text className="text-base">
+            Vos ofereço, Senhor minha vida, obras, e trabalhos em satisfação de
+            todos meus pecados e assim como Vos suplico, assim confio em vossa
+            bondade e misericórdia infinitas que mos perdoareis pelos méritos de
+            vosso preciosíssimo sangue, paixão e morte e me dareis graça para
+            emendar-me e perseverar em vosso santo serviço até o fim de minha
+            vida. Amen.
+          </Text>
           <Text className="h2">Cântico Nunc Dimittis</Text>
           <NuncDimittis />
-          Visitai esta morada, Senhor, Vos suplicamos, e dignai-Vos afastar para
-          bem longe dela todas as insídias do inimigo; que os vossos Anjos nela
-          habitem para nos conservarem na paz, e que a vossa bênção nos guarde
-          sempre. Deus Pai, abençoai-nos; Jesus Cristo, defendei e guardai-nos;
-          Espírito Santo, iluminai e santificai-nos esta noite e para sempre; e
-          às almas dos fiéis falecidos, dai-lhes, Senhor, o eterno descanso
-          entre os esplendores da luz eterna. Que descansem em paz. Santo Anjo
-          do Senhor, meu zeloso guardador, pois que a ti me confiou a Piedade
-          divina: hoje e sempre me governa, rege, guarda e ilumina. Protegei-me
-          à sombra das vossas asas e abençoai, Senhor, o meu repouso a fim de
-          que renove as minhas forças, para melhor Vos servir e amar. E que a
-          paz e a bênção de Deus Todo-Poderoso, Pai, Filho ✠ e Espírito Santo,
-          desça sobre nós e permaneça para sempre connosco. Amen.
+          <Text className="text-base">
+            Visitai esta morada, Senhor, Vos suplicamos, e dignai-Vos afastar
+            para bem longe dela todas as insídias do inimigo; que os vossos
+            Anjos nela habitem para nos conservarem na paz, e que a vossa bênção
+            nos guarde sempre. Deus Pai, abençoai-nos; Jesus Cristo, defendei e
+            guardai-nos; Espírito Santo, iluminai e santificai-nos esta noite e
+            para sempre; e às almas dos fiéis falecidos, dai-lhes, Senhor, o
+            eterno descanso entre os esplendores da luz eterna. Que descansem em
+            paz. Santo Anjo do Senhor, meu zeloso guardador, pois que a ti me
+            confiou a Piedade divina: hoje e sempre me governa, rege, guarda e
+            ilumina. Protegei-me à sombra das vossas asas e abençoai, Senhor, o
+            meu repouso a fim de que renove as minhas forças, para melhor Vos
+            servir e amar. E que a paz e a bênção de Deus Todo-Poderoso, Pai,
+            Filho ✠ e Espírito Santo, desça sobre nós e permaneça para sempre
+            connosco. Amen.
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

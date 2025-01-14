@@ -9,25 +9,38 @@ export default function PageMatrimonio() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Matrimónio</Text>
-          Os noivos, tendo entrado na igreja e depois de haverem feito oração
-          diante do Altar do Santíssimo Sacramento dirigem-se para o Altar onde
-          será celebrado o Matrimónio, ficando o noivo à direita da noiva, com a
-          face para o Altar, e aguardando a chegada do Sacerdote. Se os noivos
-          usarem luvas devem tirá-las. As testemunhas do Matrimónio tomarão
-          lugar ao lado ou atrás dos noivos. Tendo chegado o Sacerdote,
-          convenientemente preparado, todos se erguem excepto os noivos. Aquele,
-          após uma curta oração, em particular, volta-se para o noivo,
-          interrogando-o:
+          <Text className="text-base">
+            Os noivos, tendo entrado na igreja e depois de haverem feito oração
+            diante do Altar do Santíssimo Sacramento dirigem-se para o Altar
+            onde será celebrado o Matrimónio, ficando o noivo à direita da
+            noiva, com a face para o Altar, e aguardando a chegada do Sacerdote.
+            Se os noivos usarem luvas devem tirá-las. As testemunhas do
+            Matrimónio tomarão lugar ao lado ou atrás dos noivos. Tendo chegado
+            o Sacerdote, convenientemente preparado, todos se erguem excepto os
+            noivos. Aquele, após uma curta oração, em particular, volta-se para
+            o noivo, interrogando-o:
+          </Text>
           <Text className="h2">Consentimento dos Noivos</Text>
-          ℣. <Text className="text-red-500">N.</Text> quereis receber{" "}
-          <Text className="text-red-500">N.</Text>, aqui presente, como vossa
-          legítima esposa, segundo o rito da Santa Madre Igreja?
-          <Text className="text-red-500">℟.</Text> Quero! E logo, dirigindo-se à
-          noiva, interroga-a também: ℣. <Text className="text-red-500">N.</Text>{" "}
-          quereis receber <Text className="text-red-500">N.</Text>, aqui
-          presente, como vossa legítima esposo, segundo o rito da Santa Madre
-          Igreja?
-          <Text className="text-red-500">℟.</Text> Quero!
+          ℣. <Text className="text-red-500">N.</Text>
+          <Text className="text-base">quereis receber </Text>
+          <Text className="text-red-500">N.</Text>
+          <Text className="text-base">
+            , aqui presente, como vossa legítima esposa, segundo o rito da Santa
+            Madre Igreja?
+          </Text>
+          <Text className="text-red-500">℟.</Text>
+          <Text className="text-base">
+            Quero! E logo, dirigindo-se à noiva, interroga-a também: ℣.
+          </Text>
+          <Text className="text-red-500">N.</Text>{" "}
+          <Text className="text-base">quereis receber</Text>{" "}
+          <Text className="text-red-500">N.</Text>
+          <Text className="text-base">
+            , aqui presente, como vossa legítima esposo, segundo o rito da Santa
+            Madre Igreja?{" "}
+          </Text>
+          <Text className="text-red-500">℟.</Text>
+          <Text className="text-base">Quero!</Text>
           <Text className="h2">União das Mãos</Text>
           <Text className="aside">
             Após este consentimento mútuo, os nubentes unem as suas mãos

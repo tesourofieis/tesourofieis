@@ -125,10 +125,14 @@ export default function PageBencaos() {
             </Text>
           </View>
           <Text className="h3">Antes do Trabalho</Text>
-          Abençoai, Senhor, o trabalho em que vou ocupar-me e permiti que sirva
-          para vossa glória e para minha santificação.
-          <Text className="cross text-red-500">✠</Text> Em nome do Pai e do
-          Filho e do Espírito Santo.
+          <Text className="text-base">
+            Abençoai, Senhor, o trabalho em que vou ocupar-me e permiti que
+            sirva para vossa glória e para minha santificação.
+          </Text>
+          <Text className="cross text-red-500">✠</Text>
+          <Text className="text-base">
+            Em nome do Pai e do Filho e do Espírito Santo.
+          </Text>
           <Text className="text-red-500">℟. </Text>Amen.
           <Text className="h3">Aos Filhos</Text>
           <View className="side-by-side">

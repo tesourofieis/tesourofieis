@@ -18,9 +18,11 @@ export default function Page0818Outro() {
             excepto:
           </Text>
           <Text className="h3">Oração</Text>
-          Senhor, Vos rogamos, o vosso povo com incessante bondade; e, pelos
-          sufrágios e méritos do B. Roque, livrai-o de todo o contágio na alma e
-          no corpo. Por nosso Senhor...
+          <Text className="text-base">
+            Senhor, Vos rogamos, o vosso povo com incessante bondade; e, pelos
+            sufrágios e méritos do B. Roque, livrai-o de todo o contágio na alma
+            e no corpo. Por nosso Senhor...
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

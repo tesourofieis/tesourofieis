@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
@@ -10,18 +11,18 @@ export default function Page0413() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Hermenegildo, Mártir, a 13 de Abril</Text>
-          Fora do Tempo Pascal como na Missa In virtúte tua, excepto a Oração e
-          o Evangelho.
-          <LinkCard
-            href="/missal/comum/4martirnaopontifice1"
-            title="Mártir não Pontífice - Missa In virtúte tua"
-          />
-          Dentro do Tempo Pascal como na Missa Protexísti me, excepto a Oração e
-          o Evangelho.
-          <LinkCard
-            href="/missal/comum/9martir"
-            title="Mártir - Missa Protexísti me"
-          />
+          <Text className="aside">
+            Fora do Tempo Pascal como na Missa{" "}
+            <Link className="link" href="/missal/comum/4martirnaopontifice1">
+              In virtúte tua
+            </Link>
+            , excepto a Oração e o Evangelho. Dentro do Tempo Pascal como na{" "}
+            <Link className="link" href="/missal/comum/9martir">
+              Missa Protexísti me
+            </Link>
+            , excepto a Oração e o Evangelho.
+          </Text>
+
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
             <Text className="text-base latin">

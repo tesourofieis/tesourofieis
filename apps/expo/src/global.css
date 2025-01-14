@@ -53,7 +53,7 @@
   }
 
   .list-styled {
-    @apply w-1/2;
+    @apply p-2;
   }
 
   .text-base {

@@ -21,10 +21,12 @@ export default function Page0504Portugal() {
             , excepto:
           </Text>
           <Text className="h3">Oração</Text>
-          Que a fé da ressurreição, Senhor, cresça em nós em virtude das
-          maravilhas que operais pelas Relíquias do vosso Santo Mártir Vicente;
-          e fazei que alcancemos a glória imortal, de que estas cinzas, que
-          veneramos, nos servem de penhor. Por nosso Senhor...
+          <Text className="text-base">
+            Que a fé da ressurreição, Senhor, cresça em nós em virtude das
+            maravilhas que operais pelas Relíquias do vosso Santo Mártir
+            Vicente; e fazei que alcancemos a glória imortal, de que estas
+            cinzas, que veneramos, nos servem de penhor. Por nosso Senhor...
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

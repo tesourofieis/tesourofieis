@@ -21,9 +21,12 @@ export default function Page0227Portugal() {
             , excepto:
           </Text>
           <Text className="h3">Oração</Text>
-          Dignai-Vos ouvir clementemente, Senhor, as preces do vosso povo, a fim
-          de que sejamos auxiliados pelos méritos do B. Torquato, vosso Mártir e
-          Pontífice, em cujo martírio nos alegramos. Por nosso Senhor...
+          <Text className="text-base">
+            Dignai-Vos ouvir clementemente, Senhor, as preces do vosso povo, a
+            fim de que sejamos auxiliados pelos méritos do B. Torquato, vosso
+            Mártir e Pontífice, em cujo martírio nos alegramos. Por nosso
+            Senhor...
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

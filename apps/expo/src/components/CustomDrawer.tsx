@@ -142,7 +142,7 @@ export default function CustomDrawerContent(props) {
     const newExpanded: { [key: string]: boolean } = {};
     let currentPath = "";
 
-    parts.forEach((part) => {
+    parts.map((part) => {
       currentPath = currentPath ? `${currentPath}/${part}` : part;
       newExpanded[currentPath] = true;
     });
@@ -150,6 +150,7 @@ export default function CustomDrawerContent(props) {
     return newExpanded;
   };
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     if (pathname) {
       const currentSection = getRootSection(pathname);
@@ -168,7 +169,7 @@ export default function CustomDrawerContent(props) {
 
       const scrollAttempts = [50, 150, 300];
 
-      scrollAttempts.forEach((delay) => {
+      scrollAttempts.map((delay) => {
         setTimeout(() => {
           if (activeItemRef.current) {
             activeItemRef.current.measure(

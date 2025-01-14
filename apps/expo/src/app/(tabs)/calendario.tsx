@@ -55,6 +55,7 @@ export default function PageCalendarView() {
       viewMode === "month" ? endOfMonth(currentDate) : endOfWeek(currentDate),
   });
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     if (todayRef.current) {
       todayRef.current.measure((_x, _y, _width, _height, _pageX, pageY) => {

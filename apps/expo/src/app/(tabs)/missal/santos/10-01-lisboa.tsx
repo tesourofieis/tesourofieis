@@ -22,17 +22,21 @@ export default function Page1001Lisboa() {
             </Link>{" "}
             , excepto:
           </Text>
-          <Text className="h3">Oração</Text>Ó Deus, que permitistes
-          assistíssemos a esta festa dos vossos Santos Mártires Veríssimo,
-          Máximo e Júlia, concedei-nos, Vos suplicamos, que, celebrando o seu
-          nascimento no céu, nos enchamos de zelo com seus exemplos. Por nosso
-          Senhor...
+          <Text className="h3">Oração</Text>
+          <Text className="text-base">
+            Ó Deus, que permitistes assistíssemos a esta festa dos vossos Santos
+            Mártires Veríssimo, Máximo e Júlia, concedei-nos, Vos suplicamos,
+            que, celebrando o seu nascimento no céu, nos enchamos de zelo com
+            seus exemplos. Por nosso Senhor...
+          </Text>
           <Text className="h3">Gradual</Text>
-          Deus é glorioso em seus Santos, e admirável na sua majestade,
-          praticando prodígios. Senhor, a vossa dextra engrandeceu-se pela sua
-          força: a vossa dextra esmagou os inimigos. Aleluia, aleluia. Esta é a
-          verdadeira fraternidade» que venceu os crimes do mundo. Ela seguiu
-          Cristo: Pelo que goza a glória do reino celestial. Aleluia.
+          <Text className="text-base">
+            Deus é glorioso em seus Santos, e admirável na sua majestade,
+            praticando prodígios. Senhor, a vossa dextra engrandeceu-se pela sua
+            força: a vossa dextra esmagou os inimigos. Aleluia, aleluia. Esta é
+            a verdadeira fraternidade» que venceu os crimes do mundo. Ela seguiu
+            Cristo: Pelo que goza a glória do reino celestial. Aleluia.
+          </Text>
           <Text className="h3">Secreta e Postcomúnio</Text>
           <LinkCard
             href="/missal/comum/7muitosmartires2#secreta"

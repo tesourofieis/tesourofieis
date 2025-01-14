@@ -11,11 +11,13 @@ export default function Page1002() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Santos Anjos da Guarda, a 2 de Outubro</Text>
-          Missa da Festa da{" "}
-          <Link className="link" href="/missal/santos/05-08">
-            Aparição de Arcanjo Miguel
-          </Link>{" "}
-          , excepto:
+          <Text className="aside">
+            Missa da Festa da{" "}
+            <Link className="link" href="/missal/santos/05-08">
+              Aparição de Arcanjo Miguel
+            </Link>{" "}
+            , excepto:
+          </Text>
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
             <Text className="text-base latin">

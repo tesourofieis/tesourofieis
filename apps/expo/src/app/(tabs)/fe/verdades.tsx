@@ -46,10 +46,14 @@ export default function PageVerdades() {
             </Text>
           </View>
           <Text className="h2">Os dois mandamentos de caridade</Text>
-          Amarás o Senhor teu Deus, com todo teu coração, com toda tua alma e
-          com toda tua mente Amarás ao próximo como a ti mesmo.
+          <Text className="text-base">
+            Amarás o Senhor teu Deus, com todo teu coração, com toda tua alma e
+            com toda tua mente Amarás ao próximo como a ti mesmo.
+          </Text>
           <Text className="h2">A regra de ouro</Text>
-          Tudo quanto quiserdes que os homens vos façam, fazei-lho vós também.
+          <Text className="text-base">
+            Tudo quanto quiserdes que os homens vos façam, fazei-lho vós também.
+          </Text>
           <Text className="h2">Os cinco preceitos da Igreja</Text>
           <View className="list-group list-group-flush">
             <Text className="li list-group-item">
@@ -81,18 +85,20 @@ export default function PageVerdades() {
             <Text className="li list-group-item">Matrimónio</Text>
           </View>
           <Text className="h2">As Bem-Aventuranças</Text>
-          Bem-aventurados os pobres em espírito, porque deles é o reino dos
-          céus. Bem-aventurados os que choram, porque serão consolados.
-          Bem-aventurados os mansos, porque possuirão a terra. Bem-aventurados
-          os que têm fome e sede de justiça, porque serão saciados.
-          Bem-aventurados os misericordiosos, porque alcançarão misericórdia.
-          Bem-aventurados os puros de coração, porque verão a Deus.
-          Bem-aventurados os pacificadores, porque serão chamados filhos de
-          Deus. Bem-aventurados os que sofrem perseguição por causa da justiça,
-          porque deles é o reino dos céus. Bem-aventurados sereis quando vos
-          insultarem, vos perseguirem e, mentindo, disserem toda a espécie de
-          calúnias contra vós. Alegrai-vos e exultai, porque será grande a vossa
-          recompensa nos céus.
+          <Text className="text-base">
+            Bem-aventurados os pobres em espírito, porque deles é o reino dos
+            céus. Bem-aventurados os que choram, porque serão consolados.
+            Bem-aventurados os mansos, porque possuirão a terra. Bem-aventurados
+            os que têm fome e sede de justiça, porque serão saciados.
+            Bem-aventurados os misericordiosos, porque alcançarão misericórdia.
+            Bem-aventurados os puros de coração, porque verão a Deus.
+            Bem-aventurados os pacificadores, porque serão chamados filhos de
+            Deus. Bem-aventurados os que sofrem perseguição por causa da
+            justiça, porque deles é o reino dos céus. Bem-aventurados sereis
+            quando vos insultarem, vos perseguirem e, mentindo, disserem toda a
+            espécie de calúnias contra vós. Alegrai-vos e exultai, porque será
+            grande a vossa recompensa nos céus.
+          </Text>
           <Text className="h2">Dias de Obrigação</Text>
           <Text className="aside">Para além de todos os Domingos</Text>
           <View className="list-group list-group-flush">
@@ -198,17 +204,21 @@ export default function PageVerdades() {
             Pecados de pura malícia, que são contrários à bondade que se atribui
             ao Espírito Santo.
           </Text>
-          Desesperar da salvação; Presunção de se salvar sem merecimentos;
-          Combater a verdade conhecida; Ter inveja das graças que Deus dá a
-          outrem; Obstinar-se no pecado; Morrer na impenitência final.
+          <Text className="text-base">
+            Desesperar da salvação; Presunção de se salvar sem merecimentos;
+            Combater a verdade conhecida; Ter inveja das graças que Deus dá a
+            outrem; Obstinar-se no pecado; Morrer na impenitência final.
+          </Text>
           <Text className="h2">Pecados que Bradam aos Céus</Text>
           <Text className="aside">
             Sua malícia é tão grave e manifesta, que provoca Deus a puni-los com
             os mais severos castigos.
           </Text>
-          Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos
-          pobres, principalmente órfãos e viúvas; Não pagar o salário a quem
-          trabalha.
+          <Text className="text-base">
+            Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos
+            pobres, principalmente órfãos e viúvas; Não pagar o salário a quem
+            trabalha.
+          </Text>
           <Text className="h2">Do Espírito Santo</Text>
           <View className="side-by-side">
             <Text className="text-base latin">
@@ -295,39 +305,39 @@ export default function PageVerdades() {
           <Text className="h2">Assuntos para Meditação Diária</Text>
           <View className="side-by-side">
             <Text className="text-base latin">
-              Deum glorificare; <br />
-              Jesum imitari; <br />
-              Beatissimam Virginem et Sanctos venerari; <br />
-              Angelos invocare; <br />
-              Animam salvare; <br />
-              Corpus mortificare; <br />
-              Virtutes a Deo exorare; <br />
-              Peccata expiare; <br />
-              Paradisum comparare; <br />
-              Infernum evitare; <br />
-              Aeternitatem considerare; <br />
-              Tempus bene applicare; <br />
-              Proximum ædificare; <br />
-              Mundum formidare; <br />
-              Dæmones impugnare; <br />
-              Passiones frenare; <br />
-              Mortem semper exspectare; <br />
+              Deum glorificare; {"\n"}
+              Jesum imitari; {"\n"}
+              Beatissimam Virginem et Sanctos venerari; {"\n"}
+              Angelos invocare; {"\n"}
+              Animam salvare; {"\n"}
+              Corpus mortificare; {"\n"}
+              Virtutes a Deo exorare; {"\n"}
+              Peccata expiare; {"\n"}
+              Paradisum comparare; {"\n"}
+              Infernum evitare; {"\n"}
+              Aeternitatem considerare; {"\n"}
+              Tempus bene applicare; {"\n"}
+              Proximum ædificare; {"\n"}
+              Mundum formidare; {"\n"}
+              Dæmones impugnare; {"\n"}
+              Passiones frenare; {"\n"}
+              Mortem semper exspectare; {"\n"}
               Ad iudicium te præparare.
             </Text>
             <Text className="text-base vernacular">
-              Deus para glorificar; <br />
-              Jesus para imitar; <br />A abençoada Virgem e os Santos para
-              venerar; <br />
-              Os Anjos para invocar; <br />A alma para salvar; <br />O corpo
-              para mortificar; <br />
-              Virtudes para conquistar; <br />
-              Pecados para expiar; <br />O paraíso para ganhar; <br />O inferno
-              para evitar; <br />
-              Eternidade para preparar; <br />
-              Tempo para bem aproveitar; <br />O próximo para edificar; <br />O
-              mundo para desprezar; <br />
-              Demónios para combater; <br />
-              Paixões para refrear; <br />A morte sempre esperar; <br />E o
+              Deus para glorificar; {"\n"}
+              Jesus para imitar; {"\n"}A abençoada Virgem e os Santos para
+              venerar; {"\n"}
+              Os Anjos para invocar; {"\n"}A alma para salvar; {"\n"}O corpo
+              para mortificar; {"\n"}
+              Virtudes para conquistar; {"\n"}
+              Pecados para expiar; {"\n"}O paraíso para ganhar; {"\n"}O inferno
+              para evitar; {"\n"}
+              Eternidade para preparar; {"\n"}
+              Tempo para bem aproveitar; {"\n"}O próximo para edificar; {"\n"}O
+              mundo para desprezar; {"\n"}
+              Demónios para combater; {"\n"}
+              Paixões para refrear; {"\n"}A morte sempre esperar; {"\n"}E o
               julgamento para se preparar.
             </Text>
           </View>

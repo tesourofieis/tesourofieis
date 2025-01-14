@@ -22,9 +22,11 @@ export default function Page0301Braga() {
             , excepto:
           </Text>
           <Text className="h3">Oração</Text>
-          Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem
-          com sua preciosa profissão de fé; e que pela sua piedosa intercessão
-          sejamos continuamente favorecidos. Por nosso Senhor...
+          <Text className="text-base">
+            Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem
+            com sua preciosa profissão de fé; e que pela sua piedosa intercessão
+            sejamos continuamente favorecidos. Por nosso Senhor...
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

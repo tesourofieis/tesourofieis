@@ -158,8 +158,10 @@ export default function PageQuad66() {
               <Text className="text-red-500">℟.</Text> Dêmos graças a Deus.
             </Text>
           </View>
-          <Text className="h3">Bênção do Círio Pascal</Text>O Diácono pede a
-          Bênção ao Celebrante e o Sacerdote:
+          <Text className="h3">Bênção do Círio Pascal</Text>
+          <Text className="text-base">
+            O Diácono pede a Bênção ao Celebrante e o Sacerdote:
+          </Text>
           <View className="side-by-side">
             <Text className="text-base latin">
               Dóminus sit in corde tuo et in labiis tuis: ut digne et
@@ -1768,8 +1770,10 @@ export default function PageQuad66() {
             </Text>
           </View>
           <Text className="h2">Bênção da Pia Baptismal</Text>
-          Dirige-se agora a Procissão para a Pia Baptismal. Durante o percurso
-          canta-se:
+          <Text className="text-base">
+            Dirige-se agora a Procissão para a Pia Baptismal. Durante o percurso
+            canta-se:
+          </Text>
           <Text className="h3">Trato</Text>
           <Text className="em">Sl. 41, 2-4</Text>
           <View className="side-by-side">

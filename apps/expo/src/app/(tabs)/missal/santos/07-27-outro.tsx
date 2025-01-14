@@ -21,11 +21,13 @@ export default function Page0727Outro() {
             , excepto:
           </Text>
           <Text className="h3">Oração</Text>
-          Vos pedimos, permiti que a veneranda oblação dos vossos B. B. Mártires
-          Rodolfo, Afonso, Pedro, António e Francisco Vos recomende as nossas
-          orações, a fim de que, pelo seu exemplo e intercessão, também nos
-          imolemos, como hóstia viva por Vós recebida, em honra do vosso santo
-          nome. Por nosso Senhor...
+          <Text className="text-base">
+            Vos pedimos, permiti que a veneranda oblação dos vossos B. B.
+            Mártires Rodolfo, Afonso, Pedro, António e Francisco Vos recomende
+            as nossas orações, a fim de que, pelo seu exemplo e intercessão,
+            também nos imolemos, como hóstia viva por Vós recebida, em honra do
+            vosso santo nome. Por nosso Senhor...
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

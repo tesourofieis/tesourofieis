@@ -9,9 +9,11 @@ export default function PageGravaimeudeus() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Gravai, ó meu Deus</Text>
-          Gravai, ó meu Deus, a vossa lei no fundo do meu coração, fazei-me
-          conhecer os vossos santos mandamentos, e dai-me a graça de os amar e a
-          força de os praticar.
+          <Text className="text-base">
+            Gravai, ó meu Deus, a vossa lei no fundo do meu coração, fazei-me
+            conhecer os vossos santos mandamentos, e dai-me a graça de os amar e
+            a força de os praticar.
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

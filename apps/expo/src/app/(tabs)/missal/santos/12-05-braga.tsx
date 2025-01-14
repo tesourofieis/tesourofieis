@@ -23,10 +23,12 @@ export default function Page1205Braga() {
               recto fica bem a glória. ℣. Glória ao Pai...
             </Text>
           </View>
-          <Text className="h3">Oração</Text>Ó Senhor, Vos suplicamos, que os
-          preciosos méritos do B. Geraldo, vosso Confessor e Pontífice, nos
-          defendam; e que por suas preces seja bem dirigida a Igreja. Por nosso
-          Senhor...
+          <Text className="h3">Oração</Text>
+          <Text className="text-base">
+            Ó Senhor, Vos suplicamos, que os preciosos méritos do B. Geraldo,
+            vosso Confessor e Pontífice, nos defendam; e que por suas preces
+            seja bem dirigida a Igreja. Por nosso Senhor...
+          </Text>
           <Text className="h3">Epístola</Text>
           <LinkCard
             href="/missal/comum/10martires#epístola"
@@ -52,20 +54,30 @@ export default function Page1205Braga() {
             title="Confessores não Pontífices - Missa Os justi"
           />
           <Text className="h3">Ofertório</Text>
-          Alegra-te, cidade de Braga, com tão excelso Padroeiro, o qual permitiu
-          Deus que fosse sepultado dentro dos teus muros. Por seu intermédio
-          obtiveste de Deus milagres inumeráveis.
+          <Text className="text-base">
+            Alegra-te, cidade de Braga, com tão excelso Padroeiro, o qual
+            permitiu Deus que fosse sepultado dentro dos teus muros. Por seu
+            intermédio obtiveste de Deus milagres inumeráveis.
+          </Text>
           <Text className="h3">Secreta</Text>
-          Seja aceite na vossa presença, ó Senhor, a oblação do vosso fiel povo
-          e permiti que lhe seja salutar, por intercessão do B. Geraldo, vosso
-          Confessor e Pontífice, em cuja solenidade ela Vos é oferecida. Por
-          nosso Senhor...
-          <Text className="h3">Comúnio</Text>Ó quão glorioso é este Confessor de
-          Deus, com o qual no céu exultam os exércitos dos Santos!
-          <Text className="h3">Postcomúnio</Text>Ó Deus, remunerador das almas
-          fiéis, concedei-nos a graça de alcançarmos o perdão por intermédio das
-          preces do B. Geraldo, vosso Confessor e Pontífice, cuja veneranda
-          festividade hoje celebramos. Por nosso Senhor...
+          <Text className="text-base">
+            Seja aceite na vossa presença, ó Senhor, a oblação do vosso fiel
+            povo e permiti que lhe seja salutar, por intercessão do B. Geraldo,
+            vosso Confessor e Pontífice, em cuja solenidade ela Vos é oferecida.
+            Por nosso Senhor...
+          </Text>
+          <Text className="h3">Comúnio</Text>
+          <Text className="text-base">
+            Ó quão glorioso é este Confessor de Deus, com o qual no céu exultam
+            os exércitos dos Santos!
+          </Text>
+          <Text className="h3">Postcomúnio</Text>
+          <Text className="text-base">
+            Ó Deus, remunerador das almas fiéis, concedei-nos a graça de
+            alcançarmos o perdão por intermédio das preces do B. Geraldo, vosso
+            Confessor e Pontífice, cuja veneranda festividade hoje celebramos.
+            Por nosso Senhor...
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

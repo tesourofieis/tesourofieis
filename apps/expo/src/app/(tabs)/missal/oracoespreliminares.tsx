@@ -15,7 +15,9 @@ export default function PageOracoespreliminares() {
         <View className="docs">
           <Text className="h1">Orações Preliminares</Text>
           <Text className="h1">Preparação para a Missa</Text>
-          Antes de se Paramentar, o Sacerdote recita estas Preces:
+          <Text className="text-base">
+            Antes de se Paramentar, o Sacerdote recita estas Preces:
+          </Text>
           <View className="side-by-side">
             <Text className="text-base latin">
               <Text className="text-base latin">Ant.</Text> Ne reminiscáris,
@@ -28,15 +30,10 @@ export default function PageOracoespreliminares() {
               pais; não queirais vingar-Vos dos nossos pecados. (T. P. Aleluia.)
             </Text>
           </View>
-          <Text className="h2">Salmo 83</Text>
           <Salmo83 />
-          <Text className="h2">Salmo 84</Text>
           <Salmo84 />
-          <Text className="h2">Salmo 85</Text>
           <Salmo85 />
-          <Text className="h2">Salmo 115</Text>
           <Salmo115 />
-          <Text className="h2">Salmo 129</Text>
           <Salmo129 />
           <View className="side-by-side">
             <Text className="text-base latin">
