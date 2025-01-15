@@ -10,7 +10,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   newArchEnabled: true,
   platforms: ["android", "web", "ios"],
   githubUrl: "https://github.com/tesourofieis/tesourofieis",
-  version: "0.3.7",
+  version: "0.3.8",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   userInterfaceStyle: "automatic",
@@ -21,6 +21,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     image: "./assets/images/splash.png",
     resizeMode: "cover",
     backgroundColor: "#1d2021",
+    imageWidth: 200,
   },
   updates: {
     enabled: true,

@@ -219,7 +219,7 @@ export default function Page5Martirnaopontifice2() {
               sintamos o efeito do mystério que celebrámos. Por nosso Senhor...
             </Text>
           </View>
-          Outra Epístola (para certos dias):
+          <Text className="aside">Outra Epístola (para certos dias):</Text>
           <Text className="h3">Epístola</Text>
           <Text className="em">Tg. 1, 2-12</Text>
           <View className="side-by-side">
