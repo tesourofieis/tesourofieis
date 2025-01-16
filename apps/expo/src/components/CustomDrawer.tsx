@@ -1,7 +1,14 @@
+import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { DrawerContentScrollView } from "@react-navigation/drawer";
 import { Link, usePathname } from "expo-router";
 import { useEffect, useRef, useState } from "react";
-import { Pressable, type ScrollView, Text, View } from "react-native";
+import {
+  Pressable,
+  type ScrollView,
+  Text,
+  TextInput,
+  View,
+} from "react-native";
 import { type SidebarItem, sidebar } from "~/sidebar";
 
 type HierarchyNode = {
@@ -20,6 +27,36 @@ type DrawerItemProps = {
   isActive: boolean;
   activeItemRef: React.RefObject<View>;
 };
+
+function searchHierarchy(
+  hierarchy: { [key: string]: HierarchyNode },
+  searchText: string,
+): { [key: string]: HierarchyNode } {
+  const filtered: { [key: string]: HierarchyNode } = {};
+
+  Object.entries(hierarchy).map(([key, node]) => {
+    const matchesTitle = node.title
+      .toLowerCase()
+      .includes(searchText.toLowerCase());
+    const matchesDescription = node.description
+      ?.toLowerCase()
+      .includes(searchText.toLowerCase());
+    const childMatches = searchHierarchy(node.children, searchText);
+
+    if (
+      matchesTitle ||
+      matchesDescription ||
+      Object.keys(childMatches).length > 0
+    ) {
+      filtered[key] = {
+        ...node,
+        children: childMatches,
+      };
+    }
+  });
+
+  return filtered;
+}
 
 export function createHierarchy(items: SidebarItem[]) {
   const root: { [key: string]: HierarchyNode } = {};
@@ -70,7 +107,7 @@ const DrawerItem = ({
             toggleExpand(path);
           }
         }}
-        className={`flex-row items-center justify-between py-3 px-4 ${
+        className={`flex-row items-center justify-between py-3 px-4 rounded-lg ${
           isActive ? "bg-gray-100 dark:bg-gray-800" : ""
         }`}
       >
@@ -126,11 +163,46 @@ const DrawerItem = ({
 
 export default function CustomDrawerContent(props) {
   const [expanded, setExpanded] = useState<{ [key: string]: boolean }>({});
+  const [searchText, setSearchText] = useState("");
   const pathname = usePathname();
   const activeItemRef = useRef<View>(null);
   const scrollViewRef = useRef<ScrollView>(null);
   const lastPathRef = useRef<string>("");
   const hierarchy = createHierarchy(sidebar);
+
+  const filteredHierarchy = searchText
+    ? searchHierarchy(hierarchy, searchText)
+    : hierarchy;
+
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  useEffect(() => {
+    if (searchText) {
+      const allPaths = new Set<string>();
+
+      function collectPaths(
+        nodes: { [key: string]: HierarchyNode },
+        parentPath = "",
+      ) {
+        Object.entries(nodes).forEach(([key, node]) => {
+          const currentPath = parentPath ? `${parentPath}/${key}` : key;
+          allPaths.add(currentPath);
+          collectPaths(node.children, currentPath);
+        });
+      }
+
+      collectPaths(filteredHierarchy);
+
+      setExpanded((prev) => {
+        const newExpanded = { ...prev };
+        allPaths.forEach((path) => {
+          newExpanded[path] = true;
+        });
+        return newExpanded;
+      });
+    } else {
+      setExpanded(expandParentPaths(pathname));
+    }
+  }, [searchText, pathname]);
 
   const getRootSection = (path: string): string => {
     const parts = path.split("/").filter(Boolean);
@@ -211,10 +283,30 @@ export default function CustomDrawerContent(props) {
   return (
     <DrawerContentScrollView {...props} ref={scrollViewRef}>
       <View className="flex-1">
+        <View className="py-4">
+          <View className="flex-row items-center px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+            <FontAwesome name="search" size={16} color="#9CA3AF" />
+            <TextInput
+              className="flex-1 ml-2 text-base dark:text-white"
+              placeholder="Search..."
+              placeholderTextColor="#9CA3AF"
+              value={searchText}
+              onChangeText={setSearchText}
+            />
+            {searchText ? (
+              <Pressable onPress={() => setSearchText("")}>
+                <Text className="text-gray-500 dark:text-gray-400 text-lg">
+                  ×
+                </Text>
+              </Pressable>
+            ) : null}
+          </View>
+        </View>
+
         <Link href="/" asChild>
           <Pressable
             className={`p-4 ${
-              pathname === "/" ? "bg-gray-100 dark:bg-gray-800" : ""
+              pathname === "/" ? "bg-gray-100 dark:bg-gray-800  rounded-lg" : ""
             }`}
           >
             <Text
@@ -226,8 +318,17 @@ export default function CustomDrawerContent(props) {
             </Text>
           </Pressable>
         </Link>
-        {Object.entries(hierarchy).map(([key, node]) =>
-          renderItem(key, node, key),
+
+        {Object.keys(filteredHierarchy).length > 0 ? (
+          Object.entries(filteredHierarchy).map(([key, node]) =>
+            renderItem(key, node, key),
+          )
+        ) : (
+          <View className="p-4">
+            <Text className="text-gray-500 dark:text-gray-400 text-center">
+              No results found
+            </Text>
+          </View>
         )}
       </View>
     </DrawerContentScrollView>

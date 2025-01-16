@@ -29,7 +29,7 @@ export default function PageNot() {
       (response) => {
         const url = response.notification.request.content.data.url;
         if (url) {
-          router.push(`/modal?url=${url}`);
+          router.push(url);
         }
       },
     );

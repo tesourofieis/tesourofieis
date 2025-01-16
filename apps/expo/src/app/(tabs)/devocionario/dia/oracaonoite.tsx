@@ -104,23 +104,28 @@ export default function PageOracaonoite() {
             dos perigos. Vossa graça esteja sempre comigo e com os que me são
             caros.
           </Text>
-          <Text className="text-base">Em seguida rezar:</Text>
-          <Link className="link" href="/devocionario/oracoes/painosso">
-            Pai Nosso,
-          </Link>{" "}
-          <Link className="link" href="/devocionario/oracoes/avemaria">
-            Ave Maria,
-          </Link>{" "}
-          <Link className="link" href="/devocionario/oracoes/gloria">
-            Glória,
-          </Link>{" "}
-          <Link className="link" href="/devocionario/oracoes/simboloapostolos">
-            Símbolo dos Apóstolos,
-          </Link>{" "}
-          <Link className="link" href="/devocionario/oracoes/confesso">
-            Confesso
-          </Link>{" "}
-          . Depois o Hino:
+          <Text className="aside">
+            <Text className="text-base">Em seguida rezar:</Text>
+            <Link className="link" href="/devocionario/oracoes/painosso">
+              Pai Nosso,
+            </Link>{" "}
+            <Link className="link" href="/devocionario/oracoes/avemaria">
+              Ave Maria,
+            </Link>{" "}
+            <Link className="link" href="/devocionario/oracoes/gloria">
+              Glória,
+            </Link>{" "}
+            <Link
+              className="link"
+              href="/devocionario/oracoes/simboloapostolos"
+            >
+              Símbolo dos Apóstolos,
+            </Link>{" "}
+            <Link className="link" href="/devocionario/oracoes/confesso">
+              Confesso
+            </Link>{" "}
+            . Depois o Hino:
+          </Text>
           <Text className="h2">Hino Te lucis</Text>
           <TeLucis />
           <Text className="aside">
@@ -158,9 +163,12 @@ export default function PageOracaonoite() {
             confiou a Piedade divina: hoje e sempre me governa, rege, guarda e
             ilumina. Protegei-me à sombra das vossas asas e abençoai, Senhor, o
             meu repouso a fim de que renove as minhas forças, para melhor Vos
-            servir e amar. E que a paz e a bênção de Deus Todo-Poderoso, Pai,
-            Filho ✠ e Espírito Santo, desça sobre nós e permaneça para sempre
-            connosco. Amen.
+            servir e amar.
+          </Text>
+          <Text>
+            E que a paz e a bênção de Deus Todo-Poderoso, Pai, Filho ✠ e
+            Espírito Santo, desça sobre nós e permaneça para sempre connosco.
+            Amen.
           </Text>
         </View>
       </ScrollView>

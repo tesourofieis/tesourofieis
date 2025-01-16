@@ -75,29 +75,48 @@ export default function PageVerdades() {
             </Text>
           </View>
           <Text className="h2">Sacramentos</Text>
-          <View className="list-group list-group-flush">
-            <Text className="li list-group-item">Baptismo</Text>
-            <Text className="li list-group-item">Confirmação</Text>
-            <Text className="li list-group-item">Eucaristia</Text>
-            <Text className="li list-group-item">Penitência ou Confissão</Text>
-            <Text className="li list-group-item">Extrema Unção</Text>
-            <Text className="li list-group-item">Ordem</Text>
-            <Text className="li list-group-item">Matrimónio</Text>
-          </View>
+          <Text className="text-base">
+            Baptismo
+            {"\n"}
+            Confirmação
+            {"\n"}
+            Eucaristia
+            {"\n"}
+            Penitência ou Confissão
+            {"\n"}
+            Extrema Unção
+            {"\n"}
+            Ordem
+            {"\n"}
+            Matrimónio
+          </Text>
           <Text className="h2">As Bem-Aventuranças</Text>
           <Text className="text-base">
             Bem-aventurados os pobres em espírito, porque deles é o reino dos
-            céus. Bem-aventurados os que choram, porque serão consolados.
-            Bem-aventurados os mansos, porque possuirão a terra. Bem-aventurados
-            os que têm fome e sede de justiça, porque serão saciados.
+            céus.
+            {"\n"}
+            Bem-aventurados os que choram, porque serão consolados.
+            {"\n"}
+            Bem-aventurados os mansos, porque possuirão a terra.
+            {"\n"}
+            Bem-aventurados os que têm fome e sede de justiça, porque serão
+            saciados.
+            {"\n"}
             Bem-aventurados os misericordiosos, porque alcançarão misericórdia.
+            {"\n"}
             Bem-aventurados os puros de coração, porque verão a Deus.
+            {"\n"}
             Bem-aventurados os pacificadores, porque serão chamados filhos de
-            Deus. Bem-aventurados os que sofrem perseguição por causa da
-            justiça, porque deles é o reino dos céus. Bem-aventurados sereis
-            quando vos insultarem, vos perseguirem e, mentindo, disserem toda a
-            espécie de calúnias contra vós. Alegrai-vos e exultai, porque será
-            grande a vossa recompensa nos céus.
+            Deus.
+            {"\n"}
+            Bem-aventurados os que sofrem perseguição por causa da justiça,
+            porque deles é o reino dos céus.
+            {"\n"}
+            Bem-aventurados sereis quando vos insultarem, vos perseguirem e,
+            mentindo, disserem toda a espécie de calúnias contra vós.
+            {"\n"}
+            Alegrai-vos e exultai, porque será grande a vossa recompensa nos
+            céus.
           </Text>
           <Text className="h2">Dias de Obrigação</Text>
           <Text className="aside">Para além de todos os Domingos</Text>
@@ -132,71 +151,58 @@ export default function PageVerdades() {
           </View>
           <Text className="h2">Trabalhos de Misericórdia</Text>
           <View className="side-by-side">
+            <Text className="text-base latin">Corporais</Text>
+            <Text className="text-base vernacular">Espirituais</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">Corporais</Text>
+              Dar de comer a quem tem fome
+              {"\n"}
+              Dar de beber a quem tem sede
+              {"\n"}
+              Vestir os nus
+              {"\n"}
+              Dar pousada aos peregrinos
+              {"\n"}
+              Visitar os enfermos
+              {"\n"}
+              Visitar os presos
+              {"\n"}
+              Enterrar os mortos
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Espirituais</Text>
-            </Text>
-            <Text className="text-base latin">
-              <View className="text-base latin">
-                <Text className="text-base latin">
-                  Dar de comer a quem tem fome
-                </Text>
-                <Text className="li list-group-item">
-                  Dar de beber a quem tem sede
-                </Text>
-                <Text className="li list-group-item">Vestir os nus</Text>
-                <Text className="li list-group-item">
-                  Dar pousada aos peregrinos
-                </Text>
-                <Text className="li list-group-item">Visitar os enfermos</Text>
-                <Text className="li list-group-item">Visitar os presos</Text>
-                <Text className="li list-group-item">Enterrar os mortos</Text>
-              </View>
-            </Text>
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">Dar bons conselhos</Text>
-                <Text className="li list-group-item">
-                  Ensinar os ignorantes
-                </Text>
-                <Text className="li list-group-item">
-                  Corrigir os que erram
-                </Text>
-                <Text className="li list-group-item">Consolar os tristes</Text>
-                <Text className="li list-group-item">Perdoar as injúrias</Text>
-                <Text className="li list-group-item">
-                  Suportar com paciência as fraquezas do nosso próximo
-                </Text>
-                <Text className="li list-group-item">
-                  Rezar a Deus por vivos e defuntos
-                </Text>
-              </View>
+              Dar bons conselhos
+              {"\n"}
+              Ensinar os ignorantes
+              {"\n"}
+              Corrigir os que erram
+              {"\n"}
+              Consolar os tristes
+              {"\n"}
+              Perdoar as injúrias
+              {"\n"}
+              Suportar com paciência as fraquezas do nosso próximo
+              {"\n"}
+              Rezar a Deus por vivos e defuntos
             </Text>
           </View>
           <Text className="h2">Virtudes</Text>
           <View className="side-by-side">
+            <Text className="text-base latin">Cardeais</Text>
+            <Text className="text-base vernacular">Teologais</Text>
             <Text className="text-base latin">
-              <Text className="text-base latin">Cardeais</Text>
+              Prudência
+              {"\n"}
+              Justiça
+              {"\n"}
+              Fortaleza
+              {"\n"}
+              Temperança
             </Text>
             <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Teologais</Text>
-            </Text>
-            <Text className="text-base latin">
-              <View className="text-base latin">
-                <Text className="text-base latin">Prudência</Text>
-                <Text className="li list-group-item">Justiça</Text>
-                <Text className="li list-group-item">Fortaleza</Text>
-                <Text className="li list-group-item">Temperança</Text>
-              </View>
-            </Text>
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">Fé</Text>
-                <Text className="li list-group-item">Esperança</Text>
-                <Text className="li list-group-item">Caridade</Text>
-              </View>
+              Fé
+              {"\n"}
+              Esperança
+              {"\n"}
+              Caridade
             </Text>
           </View>
           <Text className="h2">Pecados Contra o Espírito Santo</Text>
@@ -205,9 +211,17 @@ export default function PageVerdades() {
             ao Espírito Santo.
           </Text>
           <Text className="text-base">
-            Desesperar da salvação; Presunção de se salvar sem merecimentos;
-            Combater a verdade conhecida; Ter inveja das graças que Deus dá a
-            outrem; Obstinar-se no pecado; Morrer na impenitência final.
+            Desesperar da salvação;
+            {"\n"}
+            Presunção de se salvar sem merecimentos;
+            {"\n"}
+            Combater a verdade conhecida;
+            {"\n"}
+            Ter inveja das graças que Deus dá a outrem;
+            {"\n"}
+            Obstinar-se no pecado;
+            {"\n"}
+            Morrer na impenitência final.
           </Text>
           <Text className="h2">Pecados que Bradam aos Céus</Text>
           <Text className="aside">
@@ -228,31 +242,44 @@ export default function PageVerdades() {
               <Text className="text-base vernacular">Frutos</Text>
             </Text>
             <Text className="text-base latin">
-              <View className="text-base latin">
-                <Text className="text-base latin">Sabedoria</Text>
-                <Text className="li list-group-item">Entendimento</Text>
-                <Text className="li list-group-item">Conselho</Text>
-                <Text className="li list-group-item">Fortaleza</Text>
-                <Text className="li list-group-item">Ciência</Text>
-                <Text className="li list-group-item">Piedade</Text>
-                <Text className="li list-group-item">Temor de Deus</Text>
-              </View>
+              Sabedoria
+              {"\n"}
+              Entendimento
+              {"\n"}
+              Conselho
+              {"\n"}
+              Fortaleza
+              {"\n"}
+              Ciência
+              {"\n"}
+              Piedade
+              {"\n"}
+              Temor de Deus
             </Text>
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">Amor</Text>
-                <Text className="li list-group-item">Alegria</Text>
-                <Text className="li list-group-item">Paz</Text>
-                <Text className="li list-group-item">Paciência</Text>
-                <Text className="li list-group-item">Longanimidade</Text>
-                <Text className="li list-group-item">Bondade</Text>
-                <Text className="li list-group-item">Benignidade</Text>
-                <Text className="li list-group-item">Mansidão</Text>
-                <Text className="li list-group-item">Fé</Text>
-                <Text className="li list-group-item">Modéstia</Text>
-                <Text className="li list-group-item">Continência</Text>
-                <Text className="li list-group-item">Castidade</Text>
-              </View>
+            <Text className="text-base vernacular">
+              Amor
+              {"\n"}
+              Alegria
+              {"\n"}
+              Paz
+              {"\n"}
+              Paciência
+              {"\n"}
+              Longanimidade
+              {"\n"}
+              Bondade
+              {"\n"}
+              Benignidade
+              {"\n"}
+              Mansidão
+              {"\n"}
+              Fé
+              {"\n"}
+              Modéstia
+              {"\n"}
+              Continência
+              {"\n"}
+              Castidade
             </Text>
           </View>
           <View className="side-by-side">
@@ -263,43 +290,51 @@ export default function PageVerdades() {
               <Text className="text-base vernacular">Virtudes Opostas</Text>
             </Text>
             <Text className="text-base latin">
-              <View className="text-base latin">
-                <Text className="text-base latin">Soberba</Text>
-                <Text className="li list-group-item">Avareza</Text>
-                <Text className="li list-group-item">Luxúria</Text>
-                <Text className="li list-group-item">Ira</Text>
-                <Text className="li list-group-item">Gula</Text>
-                <Text className="li list-group-item">Inveja</Text>
-              </View>
+              Soberba
+              {"\n"}
+              Avareza
+              {"\n"}
+              Luxúria
+              {"\n"}
+              Ira
+              {"\n"}
+              Gula
+              {"\n"}
+              Inveja
             </Text>
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">Humildade</Text>
-                <Text className="li list-group-item">Caridade</Text>
-                <Text className="li list-group-item">Castidade</Text>
-                <Text className="li list-group-item">Paciência</Text>
-                <Text className="li list-group-item">Temperança</Text>
-                <Text className="li list-group-item">Bondade</Text>
-              </View>
+            <Text className="text-base vernacular">
+              Humildade
+              {"\n"}
+              Caridade
+              {"\n"}
+              Castidade
+              {"\n"}
+              Paciência
+              {"\n"}
+              Temperança
+              {"\n"}
+              Bondade
             </Text>
           </View>
           <Text className="h2">Novíssimos</Text>
           <View className="side-by-side">
             <Text className="text-base latin">
-              <View className="text-base latin">
-                <Text className="text-base latin">Mors</Text>
-                <Text className="li list-group-item">Iudicium</Text>
-                <Text className="li list-group-item">Infernus</Text>
-                <Text className="li list-group-item">Paradisus</Text>
-              </View>
+              Mors
+              {"\n"}
+              Iudicium
+              {"\n"}
+              Infernus
+              {"\n"}
+              Paradisus
             </Text>
-            <Text className="text-base">
-              <View className="list-group list-group-flush">
-                <Text className="li list-group-item">Morte</Text>
-                <Text className="li list-group-item">Juízo</Text>
-                <Text className="li list-group-item">Inferno</Text>
-                <Text className="li list-group-item">Paraíso</Text>
-              </View>
+            <Text className="text-base vernacular">
+              Morte
+              {"\n"}
+              Juízo
+              {"\n"}
+              Inferno
+              {"\n"}
+              Paraíso
             </Text>
           </View>
           <Text className="h2">Assuntos para Meditação Diária</Text>
@@ -325,19 +360,19 @@ export default function PageVerdades() {
               Ad iudicium te præparare.
             </Text>
             <Text className="text-base vernacular">
-              Deus para glorificar; {"\n"}
-              Jesus para imitar; {"\n"}A abençoada Virgem e os Santos para
-              venerar; {"\n"}
-              Os Anjos para invocar; {"\n"}A alma para salvar; {"\n"}O corpo
-              para mortificar; {"\n"}
-              Virtudes para conquistar; {"\n"}
-              Pecados para expiar; {"\n"}O paraíso para ganhar; {"\n"}O inferno
-              para evitar; {"\n"}
-              Eternidade para preparar; {"\n"}
-              Tempo para bem aproveitar; {"\n"}O próximo para edificar; {"\n"}O
-              mundo para desprezar; {"\n"}
-              Demónios para combater; {"\n"}
-              Paixões para refrear; {"\n"}A morte sempre esperar; {"\n"}E o
+              Deus para glorificar;{"\n"}
+              Jesus para imitar;{"\n"}A abençoada Virgem e os Santos para
+              venerar;{"\n"}
+              Os Anjos para invocar;{"\n"}A alma para salvar;{"\n"}O corpo para
+              mortificar;{"\n"}
+              Virtudes para conquistar;{"\n"}
+              Pecados para expiar;{"\n"}O paraíso para ganhar;{"\n"}O inferno
+              para evitar;{"\n"}
+              Eternidade para preparar;{"\n"}
+              Tempo para bem aproveitar;{"\n"}O próximo para edificar;{"\n"}] O
+              mundo para desprezar;{"\n"}
+              Demónios para combater;{"\n"}
+              Paixões para refrear;{"\n"}A morte sempre esperar;{"\n"}E o
               julgamento para se preparar.
             </Text>
           </View>

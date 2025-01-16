@@ -55,16 +55,6 @@ export default function PageTabLayout() {
       />
 
       <Tabs.Screen
-        name="more"
-        options={{
-          title: "More",
-          tabBarIcon: ({ color }) => (
-            <FontAwesome6 size={15} name="ellipsis" color={color} />
-          ),
-          tabBarShowLabel: false,
-        }}
-      />
-      <Tabs.Screen
         name="missal"
         options={{
           href: null,
