@@ -113,7 +113,13 @@ const DrawerItem = ({
       >
         {node.link ? (
           <Link href={node.link} asChild>
-            <Pressable className="flex-1">
+            <Pressable
+              className="flex-1"
+              onPress={(e) => {
+                // Prevent the parent Pressable's onPress from firing
+                e.stopPropagation();
+              }}
+            >
               <Text
                 className={`text-base ${
                   isActive ? "font-bold" : ""
