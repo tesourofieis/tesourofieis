@@ -9,6 +9,8 @@ export default function PageTabLayout() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 
+  const isWeb = Platform.OS === "web";
+
   return (
     <Tabs
       screenOptions={{
@@ -25,6 +27,7 @@ export default function PageTabLayout() {
       <Tabs.Screen
         name="index"
         options={{
+          href: isWeb ? null : "index",
           title: "Inicío",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="house" color={color} />
@@ -35,6 +38,7 @@ export default function PageTabLayout() {
       <Tabs.Screen
         name="calendario"
         options={{
+          href: isWeb ? null : "calendario",
           title: "Calendário",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="calendar" color={color} />
@@ -45,7 +49,7 @@ export default function PageTabLayout() {
       <Tabs.Screen
         name="notificacoes"
         options={{
-          href: Platform.OS === "web" ? null : "notificacoes",
+          href: isWeb ? null : "notificacoes",
           title: "Notificações",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="bell" color={color} />

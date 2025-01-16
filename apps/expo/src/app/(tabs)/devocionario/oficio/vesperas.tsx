@@ -957,17 +957,21 @@ export default function PageVesperas() {
 
               <View className="side-by-side">
                 <Text className="text-base latin">
-                  <Text className="text-base latin">Ant.</Text> Magnum
-                  hæreditatis mysterium: templum Dei factus est uterus
-                  nescientis virum: non est pollutus ex ea carnem assumens;
-                  omnes gentes venient, dicentes: Gloria tibi, Domine.
+                  <Text className="text-base latin">Ant.</Text>
+                  <Text className="text-base">
+                    Magnum hæreditatis mysterium: templum Dei factus est uterus
+                    nescientis virum: non est pollutus ex ea carnem assumens;
+                    omnes gentes venient, dicentes: Gloria tibi, Domine.
+                  </Text>
                 </Text>
                 <Text className="text-base vernacular">
-                  <Text className="text-base vernacular">Ant.</Text> Grande
-                  mystério de herança: o ventre daquela que não conheceu varão,
-                  é feito templo de Deus; o qual se não manchou, tomando dela
-                  carne humana. Virão todas as gentes, dizendo: Glória a Vós, ó
-                  Senhor.
+                  <Text className="text-base vernacular">Ant.</Text>
+                  <Text className="text-base">
+                    Grande mystério de herança: o ventre daquela que não
+                    conheceu varão, é feito templo de Deus; o qual se não
+                    manchou, tomando dela carne humana. Virão todas as gentes,
+                    dizendo: Glória a Vós, ó Senhor.
+                  </Text>
                 </Text>
                 <Text className="text-base latin">
                   ℣. Domine, exaudi orationem meam.
@@ -1052,13 +1056,13 @@ export default function PageVesperas() {
             </TabItem>
           </Tabs>
 
-          <aside>
+          <Text className="aside">
             Acabar com uma{" "}
             <Link className="link" href="/devocionario/antifonas">
               Antífona de Nossa Senhora
             </Link>{" "}
             .
-          </aside>
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

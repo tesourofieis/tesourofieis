@@ -4,7 +4,7 @@ import { pt } from "date-fns/locale";
 import { Link } from "expo-router";
 import * as Updates from "expo-updates";
 import React, { useEffect, useState } from "react";
-import { useColorScheme } from "react-native";
+import { Platform, useColorScheme } from "react-native";
 import { ScrollView, Text, View } from "react-native";
 
 import Calendar from "~/components/Calendar";
@@ -115,7 +115,11 @@ export default function PageRender() {
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mb-2" />
 
-        <View className="px-5">
+        <View
+          className={`px-5 ${
+            Platform.OS === "web" ? "w-1/2 m-auto" : "w-full"
+          }`}
+        >
           <View className="flex-row items-center">
             <FontAwesome6
               name="calendar"

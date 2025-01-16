@@ -3,11 +3,7 @@ import Drawer from "expo-router/drawer";
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
 import { EBGaramond_700Bold } from "@expo-google-fonts/eb-garamond";
 
-import {
-  DMSerifDisplay_400Regular,
-  DMSerifDisplay_400Regular_Italic,
-} from "@expo-google-fonts/dm-serif-display";
-import { GoudyBookletter1911_400Regular } from "@expo-google-fonts/goudy-bookletter-1911";
+import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display";
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
 import { useEffect } from "react";

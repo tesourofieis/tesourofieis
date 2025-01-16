@@ -1,33 +1,54 @@
-import React, { type ReactElement, useState } from "react";
-import { Pressable, View } from "react-native";
+import React, { type ReactElement, type ReactNode, useState } from "react";
+import { Pressable, ScrollView, Text, View } from "react-native";
+
+interface TabItemProps {
+  label: string;
+  children: ReactNode;
+}
 
 export function Tabs({ children }) {
   const [activeTab, setActiveTab] = useState(0);
-  const tabs = React.Children.toArray(children);
+
+  const tabs = React.Children.toArray(children).filter(
+    (child): child is ReactElement<TabItemProps> =>
+      React.isValidElement(child) &&
+      // biome-ignore lint/suspicious/noExplicitAny: <explanation>
+      (child.type as any) === TabItem,
+  );
 
   return (
     <View className="mt-4 pb-2">
-      <View className="flex border-b border-sepia-200">
-        {tabs.map((tab: ReactElement, index: number) => (
-          <Pressable
-            key={tab.props.label}
-            onPointerDown={() => setActiveTab(index)}
-            className={`px-4 py-2 mr-2 text-sm font-medium rounded-t-lg ${
-              activeTab === index
-                ? "bg-sepia-50 text-sepia-600 border-b-2 border-sepia-600"
-                : "text-sepia-500 hover:text-sepia-700"
-            }`}
-          >
-            {tab.props.label}
-          </Pressable>
-        ))}
-      </View>
-      {tabs[activeTab]}
+      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+        <View className="flex flex-row border-b border-sepia-200">
+          {tabs.map((tab, index) => (
+            <Pressable
+              key={tab.props.label}
+              onPress={() => setActiveTab(index)}
+              className={`px-4 py-2 mr-2 ${
+                activeTab === index
+                  ? "bg-sepia-300 dark:bg-sepia-700 border-b-2 border-sepia-500"
+                  : "border-b-2 border-transparent"
+              }`}
+            >
+              <Text
+                className={`text-base font-medium ${
+                  activeTab === index
+                    ? "text-sepia-600 dark:text-sepia-400"
+                    : "text-sepia-500"
+                }`}
+              >
+                {tab.props.label}
+              </Text>
+            </Pressable>
+          ))}
+        </View>
+      </ScrollView>
+      <View className="mt-2">{tabs[activeTab]}</View>
     </View>
   );
 }
 
 // biome-ignore lint/correctness/noUnusedVariables: <explanation>
 export function TabItem({ label, children }) {
-  return children;
+  return <>{children}</>;
 }
