@@ -1,6 +1,7 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Link } from "expo-router";
 import React from "react";
 import LinkCard from "~/components/LinkCard";
 
@@ -102,12 +103,12 @@ export default function Page0120() {
               vosso reino. Aleluia.
             </Text>
           </View>
-          Depois da Septuagésima, a Aleluia é omitida e é dito o Trato da Missa
-          Intret in.
-          <LinkCard
-            href="/missal/comum/6muitosmartires1#trato"
-            title="Muitos Mártires - Missa Intret in"
-          />
+          <Text className="aside">
+            Depois da Septuagésima, a Aleluia é omitida e é dito o Trato da{" "}
+            <Link className="link" href="/missal/comum/6muitosmartires1#trato">
+              Missa Intret in.
+            </Link>
+          </Text>
           <Text className="h3">Evangelho</Text>
           <LinkCard
             href="/missal/comum/7muitosmartires2#evangelho"

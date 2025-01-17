@@ -132,7 +132,7 @@ export default function PageNot() {
           </Text>
           <Pressable
             className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3"
-            onPress={requestNotificationPermissions}
+            onPressOut={requestNotificationPermissions}
           >
             <Text className="m-5 text-sepia-300 dark:text-sepia-700">
               Activar Notificações
@@ -227,7 +227,7 @@ export default function PageNot() {
         <View className="mt-5">
           {list?.length > 0 ? (
             <TouchableOpacity
-              onPress={toggleExpand}
+              onPressOut={toggleExpand}
               className="p-3 bg-sepia-300 dark:bg-sepia-700 text-sepia-700 dark:text-sepia-300"
             >
               <Text className="text-center font-bold text-sepia-800 dark:text-sepia-200">

@@ -19,7 +19,7 @@ export default function PageSearchResults() {
   const renderItem = ({ item }) => (
     <TouchableOpacity
       className="p-3 border-b border-sepia-300 dark:border-sepia-700"
-      onPress={() => handleItemPress(item)}
+      onPressOut={() => handleItemPress(item)}
     >
       <Text className="text-sepia-800 dark:text-sepia-200">{item.label}</Text>
     </TouchableOpacity>

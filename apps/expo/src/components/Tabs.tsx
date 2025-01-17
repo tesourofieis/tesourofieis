@@ -23,7 +23,7 @@ export function Tabs({ children }) {
           {tabs.map((tab, index) => (
             <Pressable
               key={tab.props.label}
-              onPress={() => setActiveTab(index)}
+              onPressOut={() => setActiveTab(index)}
               className={`px-4 py-2 mr-2 ${
                 activeTab === index
                   ? "bg-sepia-300 dark:bg-sepia-700 border-b-2 border-sepia-500"

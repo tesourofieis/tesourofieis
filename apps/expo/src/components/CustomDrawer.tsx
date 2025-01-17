@@ -102,7 +102,7 @@ const DrawerItem = ({
       collapsable={false}
     >
       <Pressable
-        onPress={() => {
+        onPressOut={() => {
           if (hasChildren) {
             toggleExpand(path);
           }
@@ -115,7 +115,7 @@ const DrawerItem = ({
           <Link href={node.link} asChild>
             <Pressable
               className="flex-1"
-              onPress={(e) => {
+              onPressOut={(e) => {
                 // Prevent the parent Pressable's onPress from firing
                 e.stopPropagation();
               }}
@@ -300,7 +300,7 @@ export default function CustomDrawerContent(props) {
               onChangeText={setSearchText}
             />
             {searchText ? (
-              <Pressable onPress={() => setSearchText("")}>
+              <Pressable onPressOut={() => setSearchText("")}>
                 <Text className="text-gray-500 dark:text-gray-400 text-lg">
                   ×
                 </Text>

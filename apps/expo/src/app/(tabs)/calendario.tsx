@@ -130,7 +130,7 @@ function ChangePeriod({
   return (
     <View className="flex flex-row items-center justify-between px-4 my-5">
       <Pressable
-        onPress={handlePrevious}
+        onPressOut={handlePrevious}
         className="rounded bg-gray-200 p-2 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <FontAwesome name="chevron-left" color={COLORS["600"]} />
@@ -139,14 +139,14 @@ function ChangePeriod({
         {formattedPeriod}
       </Text>
       <Pressable
-        onPress={handleNext}
+        onPressOut={handleNext}
         className="rounded bg-gray-200 p-2 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <FontAwesome name="chevron-right" color={COLORS["600"]} />
       </Pressable>
       <View className="flex flex-row ml-4">
         <Pressable
-          onPress={() => setViewMode("week")}
+          onPressOut={() => setViewMode("week")}
           className={`p-2 rounded-l bg-gray-200 dark:bg-gray-800 ${
             viewMode === "week" ? "bg-gray-300 dark:bg-gray-700" : ""
           }`}
@@ -154,7 +154,7 @@ function ChangePeriod({
           <Text className="text-sepia-700 dark:text-sepia-300">Week</Text>
         </Pressable>
         <Pressable
-          onPress={() => setViewMode("month")}
+          onPressOut={() => setViewMode("month")}
           className={`p-2 rounded-r bg-gray-200 dark:bg-gray-800 ${
             viewMode === "month" ? "bg-gray-300 dark:bg-gray-700" : ""
           }`}
