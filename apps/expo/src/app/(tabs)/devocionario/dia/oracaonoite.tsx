@@ -165,7 +165,7 @@ export default function PageOracaonoite() {
             meu repouso a fim de que renove as minhas forças, para melhor Vos
             servir e amar.
           </Text>
-          <Text>
+          <Text className="text-base">
             E que a paz e a bênção de Deus Todo-Poderoso, Pai, Filho ✠ e
             Espírito Santo, desça sobre nós e permaneça para sempre connosco.
             Amen.

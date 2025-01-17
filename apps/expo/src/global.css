@@ -57,7 +57,7 @@
   }
 
   .text-base {
-    @apply text-sepia-900 dark:text-sepia-100 py-2;
+    @apply font-serif text-justify text-sepia-900 dark:text-sepia-100 py-2;
   }
 
   .latin,

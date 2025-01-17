@@ -8,11 +8,14 @@ export default function PageAnjocustodioportugal() {
     <SafeAreaView>
       <ScrollView>
         <View className="docs">
-          <Text className="h1">Anjo Custódio de Portugal</Text>Ó Deus
-          omnipotente e sempiterno, que com inefável providência destinais para
-          cada nação um Anjo, que a guarde, concedei-nos, Vos suplicamos, que,
-          pelas súplicas e pelo patrocínio do Anjo Custódio da nossa Nação,
-          sejamos sempre livres de todas as adversidades. Amen.
+          <Text className="h1">Anjo Custódio de Portugal</Text>
+          <Text className="text-base">
+            Ó Deus omnipotente e sempiterno, que com inefável providência
+            destinais para cada nação um Anjo, que a guarde, concedei-nos, Vos
+            suplicamos, que, pelas súplicas e pelo patrocínio do Anjo Custódio
+            da nossa Nação, sejamos sempre livres de todas as adversidades.
+            Amen.
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

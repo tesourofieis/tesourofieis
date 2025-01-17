@@ -37,6 +37,8 @@ export default function PaginaNovenas() {
     <SafeAreaView>
       <ScrollView>
         <View className="docs">
+          <Text className="h1">Novenas</Text>
+
           {novena.map((novena) => (
             <Link key={novena.id} href={`/${novena.link}`}>
               {novena.name}
@@ -51,7 +53,7 @@ export default function PaginaNovenas() {
             Se não tiver uma novena específica para rezar, pode considerar a
             seguinte estrutura:
           </Text>
-          <ol className="list-decimal list-inside mb-2">
+          <View className="list-decimal list-inside mb-2">
             <Text className="li text-justify">
               Reze a oração da missa da novena
             </Text>
@@ -59,9 +61,9 @@ export default function PaginaNovenas() {
             <Text className="li text-justify">
               Termine com a Salve Regina, ou outra oração
             </Text>
-          </ol>
+          </View>
 
-          <Text className="text-xl font-semibold mt-4 mb-2">
+          <Text className="h3 font-semibold mt-4 mb-2">
             Todas as Novenas agendadas
           </Text>
           <View className="list-disc list-inside">
