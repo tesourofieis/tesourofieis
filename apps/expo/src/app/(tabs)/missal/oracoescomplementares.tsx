@@ -1,3 +1,4 @@
+import { Image } from "expo-image";
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -277,10 +278,13 @@ export default function PageOracoescomplementares() {
             uma imagem de N. S. Jesus Cristo Crucificado, recebe uma indulgência
             plenária.
           </Text>
-          !
-          <Link className="link" href="../../../assets/cross.png">
-            Jesus Cristo Crucificado
-          </Link>
+
+          <Image
+            source="../../../assets/cross.png"
+            contentFit="cover"
+            alt="Jesus Cristo Crucificado"
+          />
+
           <View className="side-by-side">
             <Text className="text-base latin">
               En ego, o bone et dulcíssime Jesu, ante conspéctum tuum génibus me
