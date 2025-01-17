@@ -12,7 +12,7 @@ export default function PageSearchResults() {
 
   const handleItemPress = (item) => {
     if (item.path) {
-      router.push({ pathname: item.path.slice(1) });
+      router.push(item.path.slice(1));
     }
   };
 

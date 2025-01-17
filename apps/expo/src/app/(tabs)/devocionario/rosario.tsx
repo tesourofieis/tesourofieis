@@ -44,28 +44,28 @@ export default function PageRosario() {
           <Text className="text-base">Referir as intenções.</Text>
           <Text className="h2">Intenções do Santo Padre</Text>
           <View className="side-by-side">
-            <View className="list-styled row">
-              <Text className="li text-justify">
-                Exaltatio S. Matris Ecclesiæ.
-              </Text>
-              <Text className="li text-justify">Propagatio fidei.</Text>
-              <Text className="li text-justify">Extirpatio hæresum.</Text>
-              <Text className="li text-justify">Conversio peccatorum.</Text>
-              <Text className="li text-justify">
-                Pax inter principes christianos.
-              </Text>
-            </View>
-            <View className="list-styled row">
-              <Text className="li text-justify">
-                Exaltação da Santa Igreja.
-              </Text>
-              <Text className="li text-justify">Propagação da fé.</Text>
-              <Text className="li text-justify">Extirpação das heresias.</Text>
-              <Text className="li text-justify">Conversão dos pecadores.</Text>
-              <Text className="li text-justify">
-                Paz entre os Reis e Príncipes católicos.
-              </Text>
-            </View>
+            <Text className="text-base latin">
+              Exaltatio S. Matris Ecclesiæ.
+            </Text>
+            <Text className="li text-base vernacular">
+              Exaltação da Santa Igreja.
+            </Text>
+            <Text className="text-base latin">Propagatio fidei.</Text>
+            <Text className="li text-base vernacular">Propagação da fé.</Text>
+            <Text className="text-base latin">Extirpatio hæresum.</Text>
+            <Text className="li text-base vernacular">
+              Extirpação das heresias.
+            </Text>
+            <Text className="text-base latin">Conversio peccatorum.</Text>
+            <Text className="li text-base vernacular">
+              Conversão dos pecadores.
+            </Text>
+            <Text className="text-base latin">
+              Pax inter principes christianos.
+            </Text>
+            <Text className="li text-base vernacular">
+              Paz entre os Reis e Príncipes católicos.
+            </Text>
           </View>
           <Text className="h1">Nas contas maiores</Text>
           <PaiNosso />

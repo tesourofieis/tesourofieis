@@ -280,7 +280,7 @@ export default function PageOracoescomplementares() {
           </Text>
 
           <Image
-            source="../../../assets/cross.png"
+            source="cross"
             contentFit="cover"
             alt="Jesus Cristo Crucificado"
           />

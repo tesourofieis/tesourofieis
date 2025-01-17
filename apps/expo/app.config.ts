@@ -67,6 +67,30 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     "expo-notifications",
     "expo-secure-store",
     [
+      "expo-asset",
+      {
+        assets: [
+          "./assets/images/station1.png",
+          "./assets/images/station2.png",
+          "./assets/images/station3.png",
+          "./assets/images/station4.png",
+          "./assets/images/station5.png",
+          "./assets/images/station6.png",
+          "./assets/images/station7.png",
+          "./assets/images/station8.png",
+          "./assets/images/station9.png",
+          "./assets/images/station10.png",
+          "./assets/images/station11.png",
+          "./assets/images/station12.png",
+          "./assets/images/station13.png",
+          "./assets/images/station14.png",
+          "./assets/images/station14.png",
+          "./assets/images/cross.png",
+          "./assets/images/1.jpeg",
+        ],
+      },
+    ],
+    [
       "expo-dev-launcher",
       {
         launchMode: "most-recent",

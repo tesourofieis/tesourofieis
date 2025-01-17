@@ -10405,4 +10405,4 @@ export const OBSERVANCES: MassMap = {
     type: "feria",
     category: "votivas",
   },
-};
+} as const;

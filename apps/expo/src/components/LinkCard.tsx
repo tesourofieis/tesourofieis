@@ -29,7 +29,10 @@ export default function PageLinkCard({
   title,
 }: {
   mass?: Mass;
-  oratio?: { link: string; name: string };
+  oratio?: {
+    link: string;
+    name: string;
+  };
   description?: string;
   href?: string;
   title?: string;
@@ -37,9 +40,7 @@ export default function PageLinkCard({
   if (oratio) {
     return (
       <Link
-        href={{
-          pathname: oratio.link,
-        }}
+        href={oratio.link}
         className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 bg-sepia-100 dark:bg-sepia-900 dark:hover:bg-sepia-900"
         asChild
       >
@@ -62,9 +63,7 @@ export default function PageLinkCard({
   if (mass) {
     return (
       <Link
-        href={{
-          pathname: mass.link,
-        }}
+        href={mass.link}
         className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 bg-sepia-100 dark:bg-sepia-900 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
         asChild
       >
@@ -102,9 +101,7 @@ export default function PageLinkCard({
 
   return (
     <Link
-      href={{
-        pathname: href,
-      }}
+      href={href}
       className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 bg-sepia-200 dark:bg-sepia-800 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
       asChild
     >

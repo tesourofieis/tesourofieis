@@ -1,6 +1,7 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
+import { Image } from "expo-image";
 import { Link } from "expo-router";
 import * as Updates from "expo-updates";
 import React, { useEffect, useState } from "react";
@@ -85,11 +86,7 @@ export default function PageRender() {
 
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
           <Text className="font-black border-sepia-900 text-sepia-800 dark:border-sepia-200 dark:text-sepia-200 m-2 rounded-lg border px-4 py-2 text-center flex">
-            <Link
-              href={{
-                pathname: "devocionario/introducao",
-              }}
-            >
+            <Link href="/devocionario/introducao">
               Introdução{" "}
               <FontAwesome6
                 name="arrow-right"
@@ -99,11 +96,7 @@ export default function PageRender() {
           </Text>
 
           <Text className="font-black bg-sepia-900 text-sepia-200 dark:bg-sepia-200 dark:text-sepia-900 m-2 rounded-lg px-4 py-2 text-center">
-            <Link
-              href={{
-                pathname: "devocionario/rosario",
-              }}
-            >
+            <Link href="/devocionario/rosario">
               Rosário{" "}
               <FontAwesome6
                 name="arrow-right"
@@ -175,6 +168,8 @@ export default function PageRender() {
 
           <Office />
           <Novenas />
+
+          <Image source="1" contentFit="cover" />
         </View>
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />
