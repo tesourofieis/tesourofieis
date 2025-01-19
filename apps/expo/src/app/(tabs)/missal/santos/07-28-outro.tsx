@@ -11,7 +11,7 @@ export default function Page0728Outro() {
         <View className="docs">
           <Text className="h1">S. Vítor, Papa e Mártir, a 28 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Victor I, nascido na África, sucedeu a Santo Eleutério, no trono
             pontifical. Tornou uniforme a fixação da festa da Páscoa, segundo as
             regras ainda hoje em vigor; decidiu que, em caso de necessidade, se

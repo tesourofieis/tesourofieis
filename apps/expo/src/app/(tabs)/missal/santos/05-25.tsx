@@ -14,7 +14,7 @@ export default function Page0525() {
             S. Gregório VII, Papa e Conf., a 25 de Maio
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Nascido em Soana na Toscana, Hildebrando foi monge do célebre
             mosteiro benedictino de Cluny, do qual dependiam naquele tempo, duas
             mil abadias. Foi Prior, depois eleito Abade do Mosteiro de S. Paulo

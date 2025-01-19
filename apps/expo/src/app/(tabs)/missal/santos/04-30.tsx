@@ -14,7 +14,7 @@ export default function Page0430() {
             Santa Catarina de Sena, Virgem, a 30 de Abril
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             «A Santa Ordem dos Dominicanos que apresentava ontem uma rosa rubra
             a Jesus ressuscitado, oferece-Lhe hoje um lírio de brilhante
             alvura». Santa Catarina de Sena (1347-1380) foi a penúltima de 24

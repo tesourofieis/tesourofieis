@@ -13,7 +13,7 @@ export default function Page0716() {
             B. Virgem Maria do Monte Carmelo, a 16 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Segundo piedosa tradição, autorizada pela liturgia, no dia de
             Pentecostes, grande número de homens que haviam seguido os exemplos
             dos Santos Profetas Elias e Eliseu, e tinham sido preparados para a

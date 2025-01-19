@@ -14,7 +14,7 @@ export default function Page0715() {
             S. Henrique, Imperador e Confessor, a 15 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Henrique II, cognominado o Piedoso, foi rei da Baviera em 972, rei
             da Germânia em 1002, e Chefe do Império Romano de 1014 a 1024.
             Prestou a Bento VIII, que o havia sagrado, o juramento «de

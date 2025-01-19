@@ -12,7 +12,7 @@ export default function Page0518() {
         <View className="docs">
           <Text className="h1">S. Venâncio, Mártir, a 18 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Igreja nesta parte do Ciclo de Páscoa, preocupada em glorificar a
             Deus pela vitória de seu Filho, «consagra o dia de hoje ao triunfo
             do bem-aventurado Mártir Venâncio»(Oração). «Permanecendo em Jesus e

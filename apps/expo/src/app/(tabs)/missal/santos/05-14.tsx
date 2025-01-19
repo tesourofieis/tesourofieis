@@ -12,7 +12,7 @@ export default function Page0514() {
         <View className="docs">
           <Text className="h1">S. Bonifácio, Mártir, a 14 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Comemoração S. Bonifácio, Mártir. A vitória de Jesus ressuscitado e
             da sua Ascensão, estende-se a todos os membros de seu corpo místico,
             a Ele unidos como os ramos da vinha ao cepo, e por ele produzindo

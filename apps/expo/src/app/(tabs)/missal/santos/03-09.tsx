@@ -14,7 +14,7 @@ export default function Page0309() {
             Santa Francisca Romana, Viúva, a 9 de Março
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Comemoração S. Francisca Romana, Viúva. Santa Francisca, nobre
             matrona Romana, foi a mulher forte da qual fala a Epístola. Unida
             desde a idade de 11 anos pelos laços matrimoniais a Lourenço de

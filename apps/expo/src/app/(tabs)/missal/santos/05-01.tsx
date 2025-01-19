@@ -11,7 +11,7 @@ export default function Page0501() {
             S. Filipe e S. Tiago, Apóstolos, a 1 de Maio
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             As festas dos Apóstolos que se sucedem no decorrer do ano, eram
             outrora dias santos de guarda. A de S. Filipe e de S. Tiago, nesta
             época, lembra a transladação de suas relíquias para Roma onde a

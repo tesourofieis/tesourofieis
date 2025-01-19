@@ -14,7 +14,7 @@ export default function Page0704() {
             Santa Isabel, Rainha de Portugal, a 4 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Igreja nos exorta hoje a louvar a Deus pelas santas obras da
             bem-aventurada Isabel. Filha de Pedro III de Aragão, herdou o nome e
             as virtudes de sua tia-avó

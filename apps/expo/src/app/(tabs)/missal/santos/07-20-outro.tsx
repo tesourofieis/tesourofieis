@@ -13,7 +13,7 @@ export default function Page0720Outro() {
             Santa Margarida, Virgem e Mártir, a 20 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Instruida, pela ama, na religião cristã, Margarida pereceu pela
             espada durante a última perseguição geral, em Antioquia da Pisídia,
             cerca de 255 a 275. Seu culto passou do Oriente ao Ocidente no tempo

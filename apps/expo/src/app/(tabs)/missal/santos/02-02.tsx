@@ -12,7 +12,7 @@ export default function Page0202() {
             Purificação da B. Virgem Maria, a 2 de Fevereiro
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A festa da Purificação fecha o ciclo santoral do tempo depois da
             Epifania. É uma das mais antigas solenidades da Santíssima Virgem e
             ocupava em Roma, no século VII, o segundo lugar depois da Assunção.

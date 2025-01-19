@@ -11,7 +11,7 @@ export default function Page0502() {
         <View className="docs">
           <Text className="h1">S. Atanásio, a 2 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Igreja, coberta ainda pelo sangue de seus martyres, teve de
             sustentar, no século V, os terríveis assaltos da heresia. Ario ousa
             despojar o divino Ressuscitado de sua glória de Filho de Deus, para

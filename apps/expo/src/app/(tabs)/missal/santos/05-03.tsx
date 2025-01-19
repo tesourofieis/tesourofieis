@@ -10,7 +10,7 @@ export default function Page0503() {
         <View className="docs">
           <Text className="h1">Invenção da Santa Cruz, a 3 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Após a vitória obtida por Constantino, graças à cruz que lhe
             apareceu nos ares e cujo signal reproduziu no Lábaro, Santa Helena,
             sua mãe, foi a Jerusalém em procura da verdadeira Cruz. No início do

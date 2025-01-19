@@ -14,7 +14,7 @@ export default function Page0509() {
             S. Gregório Nazianzeno, B. C. e Doutor, a 9 de Maio
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Gregório nasceu em Nazianzo na Capadócia, instruiu-se, em Atenas, em
             toda a espécie de ciências, ao mesmo tempo que S. Basílio o Grande,
             a quem foi unido pelos laços de santa amizade. Irmãos nos estudos,

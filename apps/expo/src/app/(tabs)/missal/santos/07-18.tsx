@@ -12,7 +12,7 @@ export default function Page0718() {
         <View className="docs">
           <Text className="h1">S. Camilo de Lélis, Conf., a 18 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             O Espírito Santo, que se manifestou de todos os modos na alma dos
             Santos cujos nomes apareceram no Ciclo desde a festa de Pentecostes,
             faz-nos admirar hoje a S. Camilo, cuja caridade teve especialmente

@@ -14,7 +14,7 @@ export default function Page0730() {
             S. S. Ábdon e Senen, Mártires, a 30 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Abdon e Sennen, nascidos na Pérsia, «foram presos e conduzidos a
             Roma, no tempo do imperador Valeriano. Espancados com cordas munidas
             de chumbo, foram, em seguida, degolados» (Martirológio romano). Era

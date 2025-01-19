@@ -13,7 +13,7 @@ export default function Page0627() {
             Terceiro dia na Oitava de São João, a 27 de Junho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Igreja, honrando os Santos segundo o maior ou menor papel por eles
             desempenhado no Mistério da Encarnação do Verbo, dá a S. João
             Baptista um lugar de destaque. Diáriamente na Santa Missa, tanto no

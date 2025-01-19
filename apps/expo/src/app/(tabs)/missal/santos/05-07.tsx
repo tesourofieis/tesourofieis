@@ -12,7 +12,7 @@ export default function Page0507() {
         <View className="docs">
           <Text className="h1">S. Estanislau, B. e Mártir, a 7 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Nascido na Polónia, Estanislau foi nomeado bispo de Cracóvia em
             1072. Boleslau II, cuja tirania e desregramento de costumes
             censurava, votou-lhe grande ódio. Um dia, ao celebrar Estanislau a

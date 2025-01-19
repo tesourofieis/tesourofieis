@@ -12,7 +12,7 @@ export default function Page0504() {
         <View className="docs">
           <Text className="h1">Santa Mónica, Viúva, a 4 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Nascida na África, Santa Mónica casou-se com um pagão, que, pelas
             suas virtudes, conseguiu converter. Tendo enviuvado, dedicou se a
             seu filho Agostinho, cujo espírito estava corrompido pelo erro dos

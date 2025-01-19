@@ -12,7 +12,7 @@ export default function Page0721() {
         <View className="docs">
           <Text className="h1">Santa Praxedes, Virgem, a 21 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A festa de S. Pio I, a 11 de Julho lembrou-nos a memória de Santa
             Pudenciana e sua irmã Santa Praxedes, que puzeram sua casa à
             disposição do Santo Pontífice. A primeira aparece no Ciclo a 19 de

@@ -12,7 +12,7 @@ export default function Page0705() {
             S. António Maria Zacarias, Conf., a 5 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             António Maria nasceu de nobre família de Cremona. A sagacidade do
             espírito, aumentada ainda pela integridade da vida, deu-lhe a
             superioridade sobre os seus condiscípulos. Depois de haver recebido,

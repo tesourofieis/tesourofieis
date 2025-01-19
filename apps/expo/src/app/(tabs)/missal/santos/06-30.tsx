@@ -11,7 +11,7 @@ export default function Page0630() {
         <View className="docs">
           <Text className="h1">Comemoração de S. Paulo, a 30 de Junho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             «O Tibre, entrando em Roma, escreve um poeta antigo, saúda a
             basílica de São Pedro, e, retirando-se, a de São Paulo. O porteiro
             celeste fixou a sua morada sagrada às portas da cidade eterna,

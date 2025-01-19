@@ -10,7 +10,7 @@ export default function Page0702() {
         <View className="docs">
           <Text className="h1">Visitação da B. Virgem Maria, a 2 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             O Anjo Gabriel anunciára a Maria que Deus daria, em breve, um filho
             a Isabel. Imediatamente a Virger foi a Hebron, onde morava sua
             prima; é este o mistério da Visitação, celebrado após a Oitava da

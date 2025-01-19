@@ -11,7 +11,7 @@ export default function Page0629() {
         <View className="docs">
           <Text className="h1">S. Pedro e S. Paulo, a 29 de Junho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Igreja inteira está em festa, pois «Deus consagrou este dia pelo
             martírio dos Apóstolos Pedro e Paulo» (Or.). Nas duas grandiosas
             basílicas construídas, em Roma, sobre os túmulos «destes dois

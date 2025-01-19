@@ -10,23 +10,18 @@ export default function Page1129() {
     <SafeAreaView>
       <ScrollView>
         <View className="docs">
-          <Text className="h1">
-            Vigília de S. André, Apóstolo, a 29 de Novembro
-          </Text>
+          <Text className="h1">S. Saturnino, Mártir, a 29 de Novembro</Text>
 
           <Text className="comment">
-            S. João Baptista, nos diz o Evangelho, cumprindo a sua missão de
-            preparar as almas para a vinda de Jesus, designou o Messias ao seu
-            discípulo André, o qual imediatamente se dirigiu a Jesus e o seguiu.
-            Preparemo-nos santamente para a festa de amanhã.
+            Primeiro Bispo de Tolosa, morreu mártir sob Maximiano no ano 300.
           </Text>
 
           <Text className="aside">
-            Se a festa de S. André cai numa Segunda-Feira, diz-se a Missa da
-            Vigília no Sábado, porém, comemora-se S. Saturnino no Domingo.
-            Observar-se-á o mesmo nas outras Vigílias, exceptoa de Natal. Se a
-            festa de S. André cai no Domingo, será transferida para o primeiro
-            dia livre.
+            Como na{" "}
+            <Link className="link" href="/missal/comum/5martirnaopontifice2">
+              Missa Lætábitur justus
+            </Link>{" "}
+            , excepto:
           </Text>
 
           <Text className="h3">Oração</Text>

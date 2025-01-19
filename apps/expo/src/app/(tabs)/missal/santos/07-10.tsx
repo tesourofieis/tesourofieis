@@ -14,7 +14,7 @@ export default function Page0710() {
             Os 7 Irmãos e S. S. Rufina e Secunda, Márts., a 10 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Igreja, celebrando hoje o triunfo dos 7 filhos de Santa
             Felicidade, martirizados em sua presença, louva a mulher forte (Ep.)
             que, exortando-os a morrer, «em todos foi ela própria vitoriosa».

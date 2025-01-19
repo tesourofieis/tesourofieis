@@ -13,7 +13,7 @@ export default function Page0520() {
         <View className="docs">
           <Text className="h1">S. Bernardino de Sena, Conf., a 20 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Comemoração S. Bernardino de Sena, Confessor. Nesta época do ano em
             que Jesus, pelo seu triunfo, realizou o nome de Salvador, o Ciclo
             faz celebrar a festa de São Bernardino, abrasado «de ardente amor

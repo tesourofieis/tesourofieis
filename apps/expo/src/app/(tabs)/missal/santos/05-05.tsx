@@ -12,7 +12,7 @@ export default function Page0505() {
         <View className="docs">
           <Text className="h1">S. Pio V, Papa e Conf., a 5 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Pio, nasceu em Bosco (Lombardia). Aos quatorze anos entrou para a
             Ordem dos Dominicanos. Bispo, Cardeal e Papa fez valer os talentos
             de Deus recebidos. Seu Pontificado, embora curto, foi um dos mais

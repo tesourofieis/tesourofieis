@@ -12,7 +12,7 @@ export default function Page0729() {
         <View className="docs">
           <Text className="h1">Santa Marta, Virgem, a 29 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Depois de havermos celebrado a 22 deste mês a festa de Santa Maria
             Madalena, veneramos hoje Marta, sua irmã. Descendente de parentes
             nobres e ricos, morava na Betânia, a duas milhas de Jerusalém.

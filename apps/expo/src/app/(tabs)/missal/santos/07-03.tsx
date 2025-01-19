@@ -11,7 +11,7 @@ export default function Page0703() {
         <View className="docs">
           <Text className="h1">S. Leão II, Papa, Conf., a 3 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Leão II, siciliano de origem, participou da plenitude do sacerdócio
             de Cristo (Intr., Ep., Grad., Ale.), tornando-se Papa. Guiado pelo
             Espírito Santo, soube valorizar as riquezas espirituais da Igreja a

@@ -12,7 +12,7 @@ export default function Page0719() {
         <View className="docs">
           <Text className="h1">S. Vicente de Paulo, Conf., a 19 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Providência, sempre maternal em sua solicitude para com os homens,
             suscitou no século XVII a S. Vicente de Paulo, a quem cumulou com o
             Espírito que fortificára os Apóstolos. Vicente contribuiu muito para

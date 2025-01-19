@@ -14,7 +14,7 @@ export default function Page0728() {
             S. Nazário e Outros, Mártires, a 28 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Igreja venera hoje Santos que viveram em épocas e países
             diferentes. Nazário, baptizado pelo Papa S. Lino, em Roma, baptizou
             por sua vez o jovem Celso, nascido em Cimiez, próximo de Nice.

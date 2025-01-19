@@ -10,7 +10,7 @@ export default function Page0628Outro() {
         <View className="docs">
           <Text className="h1">S. Ireneu, B. e Mártir, a 28 de Junho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Nos fins do II século, quando as seitas gnósticas procuravam
             destruir pela base a religião cristã, Deus suscitou Santo Irineu
             para lhes resistir em face. «Concedeu-lhe a graça de destruir as

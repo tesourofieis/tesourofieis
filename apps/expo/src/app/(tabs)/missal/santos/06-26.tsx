@@ -15,7 +15,7 @@ export default function Page0626() {
             S. S. João e Paulo, Mártires, a 26 de Junho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Os dois irmãos João e Paulo eram Romanos e serviam à Constância,
             filha de Constantino. Juliano o Apóstata, convidou-os a tomar parte
             entre os seus familiares, eles, porém, recusaram a fim de guardar a

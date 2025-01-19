@@ -11,7 +11,7 @@ export default function Page0526() {
         <View className="docs">
           <Text className="h1">S. Filipe de Néri, a 26 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             S. Filipe nasceu na Florença no século XVI; tudo deixou para servir
             ao divino Mestre (Evangelho) e fundou a Congregação do Oratório. O
             Espírito Santo o inflamára com tanto amor de Deus (Intróito,

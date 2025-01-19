@@ -11,7 +11,7 @@ export default function Page0727() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Pantaleão, Mártir, a 27 de Julho</Text>
-          <Text className="aside">
+          <Text className="comment">
             Em Nicomédia, traz o Martirológio romano, o martírio de São
             Pantaleão, médico, o qual preso pela fé, por ordem do imperador
             Maximiano, foi atormentado no cavalete e queimado com tochas

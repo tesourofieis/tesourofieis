@@ -11,7 +11,7 @@ export default function Page0722() {
         <View className="docs">
           <Text className="h1">Santa Maria Madalena, a 22 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Jesus, dando o Espírito Santo aos Apóstolos, lhes recomendára
             perdoar os pecados, como Ele o fizera, e a liturgia lembra hoje um
             exemplo celebre para sempre, da misericórdia do Salvador para com os

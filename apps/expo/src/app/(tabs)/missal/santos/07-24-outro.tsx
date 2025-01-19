@@ -14,7 +14,7 @@ export default function Page0724Outro() {
             S. Cristina, Virgem e Mártir, a 24 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Santa Cristina, nascida na Toscana, tirou, na idade de dez anos, os
             ídolos de prata que se achavam em casa de seu pai, e os quebrou.
             Entregue, por esse motivo, aos perseguidores, foi presa a um poste e

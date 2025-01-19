@@ -15,7 +15,7 @@ export default function Page0513() {
             S. Roberto Belarmino, B. C. e Doutor, a 13 de Maio
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Nascido em Montepulciano (Itália) a 4 de Outubro de 1542, faleceu em
             Roma a 17 de Setembro de 1621, canonizado por Pio XI em 29 de Junho
             de 1930, proclamado Doutor da Igreja em 15 de Agosto de 1931.

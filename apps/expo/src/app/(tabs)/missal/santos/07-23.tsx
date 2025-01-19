@@ -11,7 +11,7 @@ export default function Page0723() {
         <View className="docs">
           <Text className="h1">S. Apolinário, B. e Mártir, a 23 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Apolinário veio da Antióquia para Roma com o príncipe dos Apóstolos
             que o sagrou bispo (Intr., Grad., Al.) e o enviou a Ravena, a pregar
             o Evangelho de Jesus Cristo. A Epístola é a de S. Pedro, descrevendo

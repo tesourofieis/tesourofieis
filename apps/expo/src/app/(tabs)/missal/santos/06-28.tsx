@@ -12,7 +12,7 @@ export default function Page0628() {
             Vigília de S. S. Pedro e Paulo, Aps., a 28 de Junho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Igreja celebra amanhã a festa dos dois Apóstolos, os fundamentos
             sobre os quais ela está solidamente edificada (Or.). «O rigor que
             sabe impor-se um povo, em certos dias de preparação é um sinal da fé

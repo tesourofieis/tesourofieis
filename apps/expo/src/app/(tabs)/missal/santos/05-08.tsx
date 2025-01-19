@@ -10,7 +10,7 @@ export default function Page0508() {
         <View className="docs">
           <Text className="h1">Aparição de Arcanjo S. Miguel, a 8 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Páscoa é a festa dos espíritos angélicos, pois a Ressurreição «é a
             alegria dos Anjos», diz S. Gregório, visto que, abrindo-nos o céu,
             repara as perdas causadas nas suas fileiras. A festa da Aparição de

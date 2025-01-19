@@ -15,7 +15,7 @@ export default function Page0714() {
             S. Boaventura, B. Confessor e Doutor, a 14 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             S. Boaventura nasceu na Toscana, em 1221. Entrou para a Ordem
             franciscan após uma cura milagrosa, devida à intercessão de São
             Francisco de Assis. Teve por mestre Alexandre de Hales o qual

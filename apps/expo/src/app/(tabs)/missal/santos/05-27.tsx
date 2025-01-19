@@ -12,7 +12,7 @@ export default function Page0527() {
         <View className="docs">
           <Text className="h1">S. Beda, Conf. e Doutor, a 27 de Maio</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Beda, nascido em Jarrow, no Nortúmbria, desde a mais tenra idade foi
             confiado a S. Bento Biscopo, abade do Mosteiro benedictino de
             Wearmouth, tornando-se também filho do grande Patriarca dos monges

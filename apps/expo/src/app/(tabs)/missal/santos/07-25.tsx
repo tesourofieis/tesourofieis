@@ -10,7 +10,7 @@ export default function Page0725() {
         <View className="docs">
           <Text className="h1">S. Tiago, Apóstolo, a 25 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             São Tiago, irmão de S. João e filho de Zebedeu, era de Betsaida na
             Galileia e cognominado o Maior. Certo dia, sua mãe, aproximando-se
             do Salvador, lhe pediu «para seus dois filhos, o favor de assentar

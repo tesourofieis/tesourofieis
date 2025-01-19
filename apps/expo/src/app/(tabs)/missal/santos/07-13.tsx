@@ -11,7 +11,7 @@ export default function Page0713() {
         <View className="docs">
           <Text className="h1">S. Anacleto, Papa e Mártir, a 13 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             «Em Roma, diz o Martirológio romano, festa de Santo Anacleto Papa e
             Mártir, que governou a Igreja de Deus e a honrou com ilustre
             martírio». Participando da plenitude do sacerdócio de Cristo (Intr.,

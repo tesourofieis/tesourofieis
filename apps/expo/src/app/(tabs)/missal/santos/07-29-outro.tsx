@@ -11,7 +11,7 @@ export default function Page0729Outro() {
         <View className="docs">
           <Text className="h1">S. Félix II, Papa e Mártir, a 29 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             O Santo Pontífice Félix II foi Papa, no IV século; sofreu o martírio
             na Toscana, no tempo dos Arianos (A. D. 365). Simplícío e Faustino
             denunciados como cristãos, aos perseguidores, foram condenados à

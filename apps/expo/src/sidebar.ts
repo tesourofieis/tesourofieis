@@ -2803,7 +2803,7 @@ export const sidebar: SidebarItem[] = [
   {
     title: "S. Saturnino, Mártir, a 29 de Novembro",
     description: null,
-    link: "/missal/santos/11-29",
+    link: "/missal/santos/11-29-outro",
   },
   {
     title: "S. Silvério, Papa e Mártir, a 20 de Junho",
@@ -4446,6 +4446,11 @@ export const sidebar: SidebarItem[] = [
     link: "/missal/pentecostes/pent23-0",
   },
   {
+    title: "Vigília de S. André, Apóstolo, a 29 de Novembro",
+    description: null,
+    link: "/missal/santos/11-29",
+  },
+  {
     title: "Vigília da Assunção da B. Virgem Maria, a 14 de Agosto",
     description: null,
     link: "/missal/santos/08-14",
@@ -4466,7 +4471,7 @@ export const sidebar: SidebarItem[] = [
     link: "/missal/santos/08-09-outro",
   },
   {
-    title: "Vigilia de S. Mateus, Apóstolo e Evangelista, a 20 de Setembro",
+    title: "Vigília de S. Mateus, Apóstolo e Evangelista, a 20 de Setembro",
     description: null,
     link: "/missal/santos/09-20",
   },

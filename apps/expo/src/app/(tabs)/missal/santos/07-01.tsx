@@ -13,7 +13,7 @@ export default function Page0701() {
             Preciosíssimo Sangue de N. S. J. C., a 1 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A liturgia, esse admirável resumo da história da Igreja, recorda
             anualmente que nesta data, em 1849, foi vencida, graças ao concurso
             dos exércitos franceses, a Revolução, que havia expulsado o Papa de

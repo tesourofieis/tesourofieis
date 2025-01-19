@@ -12,7 +12,7 @@ export default function Page0717() {
         <View className="docs">
           <Text className="h1">S. Aleixo, Conf., a 17 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Santo Aleixo, nasceu em Roma, de familia rica, no ano de 350 mais ou
             menos, sendo seu pai o senador Eufemiano. Guiado pelo Espírito Santo
             renunciou a todo o seu património, e visitou em piedosa peregrinação

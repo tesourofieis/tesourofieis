@@ -12,7 +12,7 @@ export default function Page0712() {
         <View className="docs">
           <Text className="h1">S. João Gualberto, Abade, a 12 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             João Gualberto nasceu em Florença, cerca do ano 999. Numa
             Sexta-Feira Santa, escoltado pelos seus homens armados, encontrou,
             só e sem defesa, o assassino de seu irmão. Ia atravessa-lo com a

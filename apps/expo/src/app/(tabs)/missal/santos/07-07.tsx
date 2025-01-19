@@ -15,7 +15,7 @@ export default function Page0707() {
             S. S. Cirilo e Metódio, Bs. e Cs., a 7 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Possuída de santo amor, para com seus Chefes, cuja Oitava terminou
             ontem, a Igreja celebra hoje a festa de S. Cirilo e de S. Metódio
             «que se comprometeram por juramento a perseverar na fé do

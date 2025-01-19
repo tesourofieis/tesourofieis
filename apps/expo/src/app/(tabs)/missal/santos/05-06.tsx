@@ -14,7 +14,7 @@ export default function Page0506() {
             S. João (diante da porta latina), a 6 de Maio
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Jesus prometera a Tiago e a João, filhos de Zebedeu, que beberiam o
             cálice de sua paixão a fim de poderem participar do triunfo da sua
             ressurreição. O Imperador Domiciano chamou João a Roma, condenando-o

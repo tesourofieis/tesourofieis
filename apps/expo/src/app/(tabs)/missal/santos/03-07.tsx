@@ -14,7 +14,7 @@ export default function Page0307() {
             S. Tomás Aquino, Conf. e Doutor, a 7 de Março
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Comemoração S. Tomás de Aquino, Confessor e Doutor da Igreja. Santo
             Tomás, filho do conde de Aquino e de Theodora de Nápoles, foi
             confiado, desde a idade de 5 anos, aos monges benedictinos do Monte

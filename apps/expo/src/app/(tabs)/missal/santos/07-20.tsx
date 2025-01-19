@@ -10,7 +10,7 @@ export default function Page0720() {
         <View className="docs">
           <Text className="h1">S. Jerónimo Emiliano, Conf., a 20 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Nascido em Veneza, da familia patrícia dos Emiliani, Jerónimo
             entregou-se sem reserva à acção divina «que sobre as ruinas do velho
             homem, nele criou o homem novo, feito à imagem de Deus» (Secr.).

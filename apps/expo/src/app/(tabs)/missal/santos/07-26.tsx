@@ -13,7 +13,7 @@ export default function Page0726() {
             Santa Ana, Mãe da Bem-Aventurada Virgem Maria, a 26 de Julho
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             A Igreja celebra com os Anjos, em santa alegria (Intr.) a mãe da
             bem-aventurada Virgem Maria. Como indica o seu nome Ana, a graça foi
             nela difundida, e Deus abençoou-a para sempre (Com.). «Por sua

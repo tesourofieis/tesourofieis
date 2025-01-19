@@ -11,7 +11,7 @@ export default function Page0728Outro2() {
         <View className="docs">
           <Text className="h1">S. Inocêncio, Papa e Conf., a 28 de Julho</Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Inocêncio I nasceu em Albano e viveu no tempo de Santo Agostinho e
             de S. Jerónimo. Este último escreveu a seu respeito: «Guardai a fé
             de Santo Inocêncio que ocupa a cátedra apostólica, sucessor e filho

@@ -14,7 +14,7 @@ export default function Page0519() {
             S. Pedro Celestino, Papa e Conf., a 19 de Maio
           </Text>
 
-          <Text className="aside">
+          <Text className="comment">
             Entre todos os Pastores, a quem Jesus Ressuscitado, confiou o
             encargo da sua Igreja, em Pedro Celestino manifesta-se mais
             especialmente a virtude de humildade, colocada por São Bento, seu
