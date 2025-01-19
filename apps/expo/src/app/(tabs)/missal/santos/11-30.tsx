@@ -10,6 +10,26 @@ export default function Page1130() {
         <View className="docs">
           <Text className="h1">S. André, Apóstolo, a 30 de Novembro</Text>
 
+          <Text className="comment">
+            Desde o século IV, a festa de S. André é celebrada a 30 de Novembro.
+            S. André foi ao mesmo tempo Apóstolo e Mártir. Foi chamado, diz a
+            Oração, para governar e instruir a Igreja. A Epístola e o Evangelho
+            falam da vocação daquele que foi o primeiro entre os Apóstolos a
+            conhecer Jesus Cristo. A seu chamado, deixa imediatamente as redes
+            para tornar-se pescador de homens (Ev.) e a sua voz «atravessa a
+            terra anunciando a paz» (Ep.). Depois de Pentecostes, prega na
+            Palestina; em seguida, evangeliza a Cítia, Epiro e Trácia. «Mas nem
+            todos obedeceram ao Evangelho» (Ev.) e S. André tornou-se em breve o
+            Apóstolo da Cruz. Os sacerdotes de Acaia narram o seu martyrio em
+            Patras. Morre sobre uma cruz de forma especial que trará sempre o
+            seu nome e «o Senhor recebe o sacrifício em odor de suavidade»
+            (Al.). O seu corpo, levado primeiro para Constantinopla, foi, em
+            seguida, transportado, em 1210, para a catedral de Amalfi, no reino
+            de Nápoles. Em 1462, foi a sua cabeça depositada por Pio II junto da
+            confissão de S. Pedro, de quem era irmão. O seu nome está escrito no
+            Canon da Missa. Com S. André sigamos o Cristo até à Cruz.
+          </Text>
+
           <Text className="h3">Intróito</Text>
 
           <Text className="em">Sl. 138, 17</Text>

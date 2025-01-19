@@ -277,7 +277,7 @@ export default function PagePent173() {
             <Text className="text-base vernacular">
               Permiti, Senhor, Vos suplicamos, que esta hóstia apague os nossos
               delitos e que santifique os corpos e as almas dos vossos servos,
-              para que possam celebrar dignamente este sacríficio. Por nosso
+              para que possam celebrar dignamente este sacrifício. Por nosso
               Senhor...
             </Text>
           </View>

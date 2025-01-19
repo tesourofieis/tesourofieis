@@ -13,6 +13,20 @@ export default function Page1203() {
             S. Francisco Xavier, Confessor, a 3 de Dezembro
           </Text>
 
+          <Text className="comment">
+            S. Francisco Xavier (1506-1552) tocado, depois de longa resistência,
+            pela palavra constantemente repetida por Santo Inácio: «Que
+            aproveitará ao homem ganhar o universo se vier a perder a sua alma»,
+            tornou-se um de seus mais zelosos cooperadores na Companhia de
+            Jesus, apenas nascente. «Ide por todo o mundo», acrescenta a
+            Epístola. Este foi o programa de toda a vida de S. Francisco Xavier,
+            «cuja pregação e milagres fizeram entrar na Igreja os povos das
+            Índias» (Or.). Ali evangelizou, e também no Japão, mais de 50 reinos
+            e converteu incalculável número de pagãos. Imitemos o Padroeiro da
+            Propagação da Fé e auxiliemos essa obra com as nossas orações e
+            esmolas.
+          </Text>
+
           <Text className="h3">Intróito</Text>
 
           <Text className="em">Sl. 118, 46-47</Text>
