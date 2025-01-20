@@ -8,7 +8,7 @@ import LinkCard from "~/components/LinkCard";
 
 export default function Page0416Braga() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Frutuoso, B., a 16 de Abril</Text>

@@ -6,7 +6,7 @@ import React from "react";
 
 export default function PageSantissimatrindade() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Missa da Santíssima Trindade</Text>

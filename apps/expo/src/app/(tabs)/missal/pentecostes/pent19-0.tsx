@@ -4,7 +4,7 @@ import React from "react";
 
 export default function PagePent190() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Décimo Nono Domingo depois de Pentecostes</Text>

@@ -6,7 +6,7 @@ import Salmo69 from "../salterio/069";
 
 export default function PageSantos() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Ladainha de Todos os Santos</Text>

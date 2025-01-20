@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PageSinalCruz() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h2">Sinal da Cruz</Text>

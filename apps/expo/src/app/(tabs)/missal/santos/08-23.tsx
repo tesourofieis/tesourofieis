@@ -7,7 +7,7 @@ import LinkCard from "~/components/LinkCard";
 
 export default function Page0823() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Filipe Benício, Conf., a 23 de Agosto</Text>

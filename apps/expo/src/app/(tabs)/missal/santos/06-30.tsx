@@ -6,7 +6,7 @@ import LinkCard from "~/components/LinkCard";
 
 export default function Page0630() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Comemoração de S. Paulo, a 30 de Junho</Text>

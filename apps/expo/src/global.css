@@ -60,10 +60,14 @@
     @apply font-serif text-justify text-sepia-900 dark:text-sepia-100 py-2;
   }
 
-  .latin,
+  .latin {
+    @apply text-justify font-serif;
+    width: "40%";
+  }
+
   .vernacular {
     @apply text-justify font-serif;
-    width: "45%";
+    width: "50%";
   }
 
   .side-by-side {

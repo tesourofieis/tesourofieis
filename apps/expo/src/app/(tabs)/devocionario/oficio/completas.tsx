@@ -12,7 +12,7 @@ import Salmo130 from "./../salterio/130";
 
 export default function PageCompletas() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Completas</Text>

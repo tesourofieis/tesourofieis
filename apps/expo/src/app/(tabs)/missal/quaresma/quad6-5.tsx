@@ -7,7 +7,7 @@ import VexillaRegis from "./../../canticos/sacros/vexillaregis";
 
 export default function PageQuad65() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Sexta-feira Santa</Text>

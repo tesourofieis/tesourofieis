@@ -6,7 +6,7 @@ import LinkCard from "~/components/LinkCard";
 
 export default function Page0623() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Vigília de S. João Baptista, a 23 de Junho</Text>

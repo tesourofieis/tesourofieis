@@ -6,7 +6,7 @@ import Missa from "./01-20";
 
 export default function Page0127Lamego() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

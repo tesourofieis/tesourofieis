@@ -6,7 +6,7 @@ import LinkCard from "~/components/LinkCard";
 
 export default function Page21Virgemnaomartir2() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Virgem não Mártir</Text>

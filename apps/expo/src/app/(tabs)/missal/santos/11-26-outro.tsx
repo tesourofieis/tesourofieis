@@ -6,7 +6,7 @@ import Missa from "../comum/2martirpontificeforapascal";
 
 export default function Page1126Outro() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

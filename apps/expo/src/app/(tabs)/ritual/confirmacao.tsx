@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PageConfirmacao() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Confirmação</Text>

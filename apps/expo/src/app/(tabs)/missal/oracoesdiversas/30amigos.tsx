@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page30Amigos() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">30.ª Pelos amigos dedicados</Text>

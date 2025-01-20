@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PageMementorerumconditor() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Memento rerum conditor</Text>

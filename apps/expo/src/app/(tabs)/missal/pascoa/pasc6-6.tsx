@@ -7,7 +7,7 @@ import LadainhaSantos from "./../../devocionario/ladainhas/santos";
 
 export default function PagePasc66() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Missa da Vigília de Pentecostes</Text>

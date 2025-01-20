@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page24Nemvirgensnemmartires() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Nem Virgens nem Mártires</Text>

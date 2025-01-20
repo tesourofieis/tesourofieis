@@ -6,7 +6,7 @@ import React from "react";
 
 export default function PageQuadp36() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Sábado depois das Cinzas</Text>

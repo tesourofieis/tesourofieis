@@ -6,7 +6,7 @@ import Missa from "../comum/11confessorespontifices1";
 
 export default function Page0723Outro() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Libório, B, e Conf., a 23 de Julho</Text>

@@ -55,7 +55,7 @@ export default function PageNot() {
 
   if (Platform.OS === "web") {
     return (
-      <SafeAreaView>
+      <SafeAreaView className="flex-1">
         <ScrollView className="bg-sepia-200 dark:bg-sepia-800 p-5">
           <View className="flex-row items-center">
             <FontAwesome6
@@ -111,7 +111,7 @@ export default function PageNot() {
 
   if (notificationsPermission !== "granted") {
     return (
-      <SafeAreaView>
+      <SafeAreaView className="flex-1">
         <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
           <View className="flex-row items-center">
             <FontAwesome6
@@ -144,7 +144,7 @@ export default function PageNot() {
   }
 
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView className="px-5 bg-sepia-200 dark:bg-sepia-800 h-full">
         <View className="flex-row items-center">
           <FontAwesome6

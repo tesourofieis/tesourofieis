@@ -8,7 +8,7 @@ import LinkCard from "~/components/LinkCard";
 
 export default function Page1106Portugal() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Nuno de Santa Maria, a 6 de Novembro</Text>

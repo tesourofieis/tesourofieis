@@ -11,7 +11,7 @@ import PageSinalCruz from "./oracoes/sinalcruz";
 
 export default function PageRosario() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Rosário</Text>

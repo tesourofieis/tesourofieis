@@ -6,7 +6,7 @@ import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad23() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Quarta-feira da 2.ª Semana da Quaresma</Text>

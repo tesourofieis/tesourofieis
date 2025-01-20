@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page24Tentadosatribulados() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">24.ª Pelos tentados ou atribulados</Text>

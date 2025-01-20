@@ -7,7 +7,7 @@ import React from "react";
 
 export default function Page1010() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Francisco de Bórgia, a 10 de Outubro</Text>

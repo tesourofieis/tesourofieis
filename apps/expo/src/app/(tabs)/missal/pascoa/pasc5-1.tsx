@@ -6,7 +6,7 @@ import LadainhaSantos from "./../../devocionario/ladainhas/santos";
 
 export default function PagePasc51() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Dias de Rogação</Text>

@@ -14,7 +14,7 @@ import Salmo147 from "./../salterio/147";
 
 export default function PageVesperas() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Vésperas</Text>

@@ -7,7 +7,7 @@ import Salmo94 from "./../devocionario/salterio/094";
 
 export default function PageOficiodefuntos() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Ofício dos Defuntos</Text>

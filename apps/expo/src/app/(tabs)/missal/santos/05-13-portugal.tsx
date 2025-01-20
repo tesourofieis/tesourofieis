@@ -6,7 +6,7 @@ import Missa from "../santos/08-22";
 
 export default function Page0513Portugal() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

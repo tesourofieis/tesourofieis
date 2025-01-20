@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page26Continencia() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">26.ª Para pedir a continência</Text>

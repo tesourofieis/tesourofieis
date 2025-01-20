@@ -6,7 +6,7 @@ import Missa from "./adv1-0";
 
 export default function PageAdv16() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Sábado da 1ª semana do Advento</Text>

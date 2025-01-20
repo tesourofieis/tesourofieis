@@ -7,7 +7,7 @@ import React from "react";
 
 export default function PageAngelus() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Angelus</Text>

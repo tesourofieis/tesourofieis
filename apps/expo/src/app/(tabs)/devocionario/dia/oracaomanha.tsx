@@ -6,7 +6,7 @@ import JamLucis from "./../../canticos/sacros/jamlucis";
 
 export default function PageOracaomanha() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Oração da Manhã</Text>

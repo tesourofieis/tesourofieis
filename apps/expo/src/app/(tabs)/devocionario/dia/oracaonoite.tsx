@@ -12,7 +12,7 @@ import ActoFe from "./../oracoes/actofe";
 
 export default function PageOracaonoite() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Oração da Noite</Text>

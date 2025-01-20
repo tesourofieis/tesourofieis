@@ -7,7 +7,7 @@ import React from "react";
 
 export default function Page0901() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Egídio (ou Gil), Abade, a 1 de Setembro</Text>

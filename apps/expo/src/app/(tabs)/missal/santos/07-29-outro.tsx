@@ -6,7 +6,7 @@ import Missa from "../comum/sumospontifices";
 
 export default function Page0729Outro() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Félix II, Papa e Mártir, a 29 de Julho</Text>

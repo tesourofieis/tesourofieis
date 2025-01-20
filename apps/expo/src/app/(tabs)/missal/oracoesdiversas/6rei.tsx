@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page6Rei() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">6.ª Pelo Rei</Text>

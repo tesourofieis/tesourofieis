@@ -11,7 +11,7 @@ import Salmo127 from "./../salterio/127";
 
 export default function PageNoa() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Noa</Text>

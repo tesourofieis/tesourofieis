@@ -7,7 +7,7 @@ import LinkCard from "~/components/LinkCard";
 
 export default function Page0413() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Hermenegildo, Mártir, a 13 de Abril</Text>

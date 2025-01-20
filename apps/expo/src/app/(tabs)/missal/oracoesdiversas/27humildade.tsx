@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page27Humildade() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">27.ª Para pedir a humildade</Text>

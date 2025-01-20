@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PageLentaecalma() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Lenta e calma sobre a terra</Text>

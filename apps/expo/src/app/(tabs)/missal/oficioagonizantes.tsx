@@ -6,7 +6,7 @@ import LadainhaSantos from "./../devocionario/ladainhas/santos";
 
 export default function PageOficioagonizantes() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Ofício dos agonizantes</Text>

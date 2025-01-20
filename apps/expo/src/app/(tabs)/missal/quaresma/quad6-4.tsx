@@ -7,7 +7,7 @@ import Salmo21 from "../../devocionario/salterio/021";
 
 export default function PageQuad64() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Quinta-Feira Santa</Text>

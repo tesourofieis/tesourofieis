@@ -7,7 +7,7 @@ import SaoMiguel from "./../devocionario/oracoes/saomiguel";
 
 export default function PageOracoesleoninas() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Orações Leoninas</Text>

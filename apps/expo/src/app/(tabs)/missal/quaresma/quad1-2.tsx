@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PageQuad12() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Terça-feira da l.ª Semana da Quaresma</Text>

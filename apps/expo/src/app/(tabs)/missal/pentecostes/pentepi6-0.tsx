@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PagePentepi60() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Sexto Domingo depois da Epifania</Text>

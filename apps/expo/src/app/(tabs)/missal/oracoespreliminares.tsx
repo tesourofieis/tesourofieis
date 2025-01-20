@@ -10,7 +10,7 @@ import Salmo129 from "./../devocionario/salterio/129";
 
 export default function PageOracoespreliminares() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Orações Preliminares</Text>

@@ -6,7 +6,7 @@ import Missa from "../comum/7muitosmartires2";
 
 export default function Page0920Outro() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

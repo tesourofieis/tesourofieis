@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PagePent175() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Sexta-feira das Têmporas de Setembro</Text>

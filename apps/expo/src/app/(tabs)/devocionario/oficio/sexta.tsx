@@ -11,7 +11,7 @@ import Salmo124 from "./../salterio/124";
 
 export default function PageSexta() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Sexta</Text>

@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PageMaria() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Prefácio da B. Virgem Maria</Text>

@@ -6,7 +6,7 @@ import Missa from "../comum/3martirpontifice";
 
 export default function Page0203() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Brás, B. e Márt., a 3 de Fevereiro</Text>

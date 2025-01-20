@@ -6,7 +6,7 @@ import Missa from "./../pentecostes/pent3-0";
 
 export default function PageCoracaojesus() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Missa do Santíssimo Coração de Jesus</Text>

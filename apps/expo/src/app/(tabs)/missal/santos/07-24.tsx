@@ -6,7 +6,7 @@ import Missa from "../comum/1vigiliaapostolos";
 
 export default function Page0724() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

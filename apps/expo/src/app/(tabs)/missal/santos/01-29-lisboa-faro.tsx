@@ -6,7 +6,7 @@ import Missa from "./01-22-lisboa-faro";
 
 export default function Page0129LisboaFaro() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

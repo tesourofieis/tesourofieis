@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page7Preladoscongregacoes() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">7.ª Pelos Prelados e Congregações</Text>

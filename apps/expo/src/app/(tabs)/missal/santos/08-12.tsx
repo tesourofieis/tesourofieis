@@ -6,7 +6,7 @@ import Missa from "../comum/20virgemnaomartir1";
 
 export default function Page0812() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Clara, Virgem, a 12 de Agosto</Text>

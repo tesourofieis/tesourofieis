@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PageAdorote() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Adóro te devóte</Text>

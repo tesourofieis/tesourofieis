@@ -11,7 +11,7 @@ import Salmo121 from "./../salterio/121";
 
 export default function PageTerca() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Terça</Text>

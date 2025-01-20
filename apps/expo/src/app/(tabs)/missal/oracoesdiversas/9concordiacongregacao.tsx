@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page9Concordiacongregacao() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">9.ª Pela concórdia na Congregação</Text>

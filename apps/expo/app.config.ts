@@ -50,6 +50,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   web: {
     favicon: "./assets/images/favicon128.png",
+    web: {
+      bundler: "metro",
+      output: "static",
+    },
   },
   extra: {
     eas: {

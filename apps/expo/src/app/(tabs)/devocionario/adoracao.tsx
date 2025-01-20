@@ -11,7 +11,7 @@ import Tantumergo from "./../canticos/sacros/tantumergo";
 
 export default function PageAdoracao() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Adoração</Text>

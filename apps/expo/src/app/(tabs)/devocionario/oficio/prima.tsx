@@ -11,7 +11,7 @@ import Salmo116 from "./../salterio/116";
 
 export default function PagePrima() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Prima</Text>

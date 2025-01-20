@@ -6,7 +6,7 @@ import Missa from "../comum/sumospontifices";
 
 export default function Page1231() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page0508() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Aparição de Arcanjo S. Miguel, a 8 de Maio</Text>

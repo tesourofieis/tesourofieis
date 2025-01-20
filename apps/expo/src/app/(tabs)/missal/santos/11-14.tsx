@@ -6,7 +6,7 @@ import LinkCard from "~/components/LinkCard";
 
 export default function Page1114() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Josafá, B. e Mártir, a 14 de Novembro</Text>

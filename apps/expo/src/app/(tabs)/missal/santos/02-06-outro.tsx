@@ -6,7 +6,7 @@ import VirgensMartires2 from "./../comum/18virgensmartires2";
 
 export default function Page0206Outro() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

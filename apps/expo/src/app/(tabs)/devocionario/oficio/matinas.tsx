@@ -19,7 +19,7 @@ import Salmo97 from "./../salterio/097";
 
 export default function PageMatinas() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Matinas</Text>

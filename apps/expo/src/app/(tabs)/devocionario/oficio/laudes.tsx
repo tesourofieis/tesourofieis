@@ -14,7 +14,7 @@ import Salmo148 from "./../salterio/148";
 
 export default function PageLaudes() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Laudes</Text>

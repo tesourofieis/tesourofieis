@@ -6,7 +6,7 @@ import Missa from "../comum/25dedicacaoigreja";
 
 export default function Page1124VilaReal() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

@@ -5,7 +5,7 @@ import { SafeAreaView, ScrollView, Text, View } from "react-native";
 
 export default function Page0625() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Guilherme, Abade, a 25 de Junho</Text>

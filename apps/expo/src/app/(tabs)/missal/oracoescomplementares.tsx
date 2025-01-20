@@ -10,7 +10,7 @@ import Salmo150 from "../devocionario/salterio/150";
 
 export default function PageOracoescomplementares() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Orações Complementares</Text>

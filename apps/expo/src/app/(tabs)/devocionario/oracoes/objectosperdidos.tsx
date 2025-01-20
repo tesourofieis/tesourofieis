@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PageObjectosperdidos() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Objectos Perdidos, Santo António</Text>

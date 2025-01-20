@@ -6,7 +6,7 @@ import Missa from "../comum/4martirnaopontifice1";
 
 export default function Page0725Outro() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Cristovão, Mártir, a 25 de Julho</Text>

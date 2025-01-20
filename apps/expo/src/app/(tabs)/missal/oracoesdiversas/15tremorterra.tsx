@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page15Tremorterra() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">15ª Quando há tremor de terra</Text>

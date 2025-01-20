@@ -6,7 +6,7 @@ import Missa from "../comum/sumospontifices";
 
 export default function Page0728Outro2() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">S. Inocêncio, Papa e Conf., a 28 de Julho</Text>

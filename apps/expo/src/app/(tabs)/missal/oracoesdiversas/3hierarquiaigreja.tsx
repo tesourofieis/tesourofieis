@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page3Hierarquiaigreja() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">3.ª Por toda a Hierarquia da Igreja</Text>

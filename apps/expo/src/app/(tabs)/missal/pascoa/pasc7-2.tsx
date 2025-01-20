@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PagePasc72() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Terça-feira de Pentecostes</Text>

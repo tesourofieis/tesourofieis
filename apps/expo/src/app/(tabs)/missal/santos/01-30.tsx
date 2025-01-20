@@ -6,7 +6,7 @@ import Missa from "./../comum/17virgensmartires1";
 
 export default function Page0130() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">

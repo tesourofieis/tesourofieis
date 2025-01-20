@@ -7,7 +7,7 @@ import AspergesMe from "./../missal/aspergesme";
 
 export default function PageExtremauncao() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Extrema-unção</Text>

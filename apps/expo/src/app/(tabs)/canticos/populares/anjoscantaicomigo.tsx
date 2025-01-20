@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PageAnjoscantaicomigo() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">Ó anjos cantai comigo</Text>

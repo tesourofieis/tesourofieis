@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page18Tempestades() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
           <Text className="h1">18.ª Para que terminem as tempestades</Text>
