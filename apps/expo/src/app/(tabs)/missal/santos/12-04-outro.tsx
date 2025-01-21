@@ -13,6 +13,11 @@ export default function Page1204Outro() {
             Santa Bárbara, Virgem e Mártir, a 4 de Dezembro
           </Text>
 
+          <Text className="comment">
+            Morta na Ásia Menor em 235, está na lista dos «Quatorze Santos
+            Auxiliadores».
+          </Text>
+
           <Missa />
         </View>
       </ScrollView>

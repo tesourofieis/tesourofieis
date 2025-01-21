@@ -8,6 +8,33 @@ export default function Page1208() {
     <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
+          <Text className="comment">
+            Tendo decidido de toda a eternidade, fazer de Maria a Mãe do Verbo
+            Encarnado (Ep.), Deus quis que ela esmagasse, desde o primeiro
+            instante a sua Conceição, a cabeça da serpente. Cingiu-a «com um
+            ornamento de santidade» (Intr.) e fez de sua alma «que Ele preservou
+            de toda mácula, digna habitação de seu Filho» (Or.). Desde o século
+            VIII, comemorava-se no Oriente a 9 de Dezembro; no século IX, na
+            Irlanda, a 3 de Maio, e no século XI na Inglaterra, a 8 de Dezembro,
+            a festa da Conceição da Virgem. Os Beneditinos com S. Anselmo, e os
+            Franciscanos com Duns Scot (1308) foram favoráveis à festa da
+            «Imaculada Conceição» celebrada desde 1128 nos mosteiros
+            anglo-saxónicos. No século XV, o Papa Xisto IV, franciscano, fez
+            construir no Vaticano a capela Sistina, em honra da Conceição da
+            Virgem. A 8 de Dezembro de 1854, Pio IX proclamou oficialmente esse
+            grande dogma, tornando-se o eco de toda a tradição cristã, reunida
+            na palavra do Anjo: «Avé, cheia de graça, o Senhor é convosco,
+            bendita sois entre as mulheres» (Ev.). «Sois toda bela, ó Maria, e a
+            mácula original não se acha em vós», diz com verdade o versículo
+            aleluiático. Como a aurora mensageira do dia (Cm.) Maria precede o
+            astro que em breve iluminará o mundo das almas. Introductora de seu
+            Filho, Ela é a primeira a apresentar-se no Cyclo Litúrgico. Peçamos
+            a Deus «a cura e libertação de todas as faltas» (Secr.,
+            Postcomúnio), para que, recebendo a virtude própria da festa da
+            Imaculada, sejamos mais dignos de receber a Jesus quando Ele vier em
+            nossos corações, a 25 de Dezembro.
+          </Text>
+
           <Text className="h1">
             Imaculada Conceição da B. Virgem Maria, a 8 de Dezembro
           </Text>

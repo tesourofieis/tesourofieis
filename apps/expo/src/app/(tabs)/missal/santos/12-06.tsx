@@ -11,6 +11,23 @@ export default function Page1206() {
         <View className="docs">
           <Text className="h1">S. Nicolau, B. e Conf., a 6 de Dezembro</Text>
 
+          <Text className="comment">
+            S. Nicolau, chamado o Grande, nasceu na Ásia Menor. Deus o
+            glorificou por inúmeros milagres e a Igreja, em vista do poder desse
+            Santo sobre as chamas, nos faz pedir a graça de sermos preservados,
+            por sua intercessão, do fogo do inferno. Nomeado Arcebispo de Mira,
+            a sua solicitude pastoral estendeu-se a todas as necessidades do seu
+            rebanho. Tomou parte no Concílio de Niceia, no qual foi condenado o
+            Arianismo. Fazendo valer os talentos mencionados no Evangelho,
+            praticava, ao mesmo tempo, as obras de misericórdia espirituais e
+            temporais, como indicam as esmolas discretamente lançadas por uma
+            janela, para salvar a honra de três moças, e ainda lembradas pela
+            festa infantil, em que se atribuía à generosidade de S. Nicolau, os
+            presentes encontrados nos sapatos das crianças. O Santo morreu em
+            324. Suas relíquias são conservadas em Bari (Itália). Ajudemos o
+            próximo nas suas necessidades de corpo e alma.
+          </Text>
+
           <Text className="h3">Intróito</Text>
 
           <LinkCard

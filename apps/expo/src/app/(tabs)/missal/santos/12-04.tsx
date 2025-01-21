@@ -14,6 +14,21 @@ export default function Page1204() {
             S. Pedro Crisólogo, B. Conf. e Doutor, a 4 de Dezembro
           </Text>
 
+          <Text className="comment">
+            A grande eloquência de S. Pedro valeu-lhe o nome de Crisólogo, que
+            significa: palavra de oiro. Como recorda a Oração, a sua promoção ao
+            episcopado de Ravena (433) devido a uma aparição de Apóstolo S.
+            Pedro ao Papa Xisto III, foi milagrosa: «Vós sois o sal da terra...
+            e a luz do mundo», diz o Evangelho. «Pregai a palavra, insisti a
+            tempo e fora de tempo, repreendei, exortai, censurai... realizai a
+            obra de pregador da verdade», acrescenta a Epístola. Assim fez S.
+            Crisólogo: compôs mais de 160 homílias cuja profunda doutrina lhe
+            mereceu o título de Doutor da Igreja. Escreveu a máxima tão
+            conhecida: «Quem se diverte com Satanás deve renunciar a
+            regozijar-se com o Cristo». Morreu em Imola no ano de 450. Escutemos
+            com a amor a palavra de Deus.
+          </Text>
+
           <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/13doutores">
