@@ -1,8 +1,8 @@
-import { addDays, format, getYear, startOfToday } from "date-fns";
+import { addDays, format, startOfToday } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useState } from "react";
 
-import { getCalendar, getCalendarDay } from "@tesourofieis/cal/getCalendar";
+import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 
 import type { Mass } from "@tesourofieis/cal/observanceManager";
