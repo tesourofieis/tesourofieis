@@ -1,0 +1,59 @@
+import { Link } from "expo-router";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+
+export default function Page1020Portugal() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Santa Iria, Virgem e Mártir, a 20 de Outubro, Nalgumas Dioceses
+          </Text>
+          <Text className="aside">
+            Como na{" "}
+            <Link className="link" href="/missal/comum/18virgensmartires2">
+              Missa Me exspectavérunt
+            </Link>{" "}
+            , excepto:
+          </Text>
+          <Text className="h3">Oração</Text>
+          <Text className="text-base">
+            Ó Deus, que por um sinal celestial livrastes da infâmia a B. Iria,
+            vossa Virgem e Mártir, concedei-nos propício pelos seus méritos e
+            preces que sejamos purificados das manchas dos nossos pecados. Por
+            nosso Senhor...
+          </Text>
+          <Text className="h3">Evangelho</Text>
+          <Text className="text-base">
+            Continuação do santo Evangelho segundo S. Mateus.
+          </Text>
+          <Text className="text-base">
+            Naquele tempo, disse Jesus aos seus discípulos esta parábola: O
+            reino dos céus é semelhante a dez virgens que, empunhando suas
+            lâmpadas, saíram ao encontro do esposo e da esposa. Porém, cinco
+            destas virgens eram loucas e as outras cinco eram prudentes. Ora, as
+            cinco loucas, empunhando suas lâmpadas, não levaram azeite. Ao
+            contrário, as prudentes tomaram azeite em seus vasos para suas
+            lâmpadas. Como o esposo se demorasse em chegar, tiveram sono e
+            dormiram. Quando era meia noite, ouviu-se um clamor dizer: «Eis que
+            chega o esposo; ide ao seu encontro». Então todas estas virgens se
+            ergueram e prepararam as suas lâmpadas. As loucas disseram às
+            prudentes: «Dai-nos do vosso azeite, porque as nossas lâmpadas
+            apagam-se». As prudentes responderam-lhes: «Não, porque pode suceder
+            que, como a vós, nos falte o azeite: ide antes aos que o vendem, e
+            comprai-o». Ora, enquanto elas foram comprar o azeite, veio o
+            esposo. Então, as que estavam preparadas entraram com ele para as
+            bodas; e fechou-se a porta. Por fim vieram as outras virgens e
+            disseram: «Senhor, senhor, abri-nos a porta». Ele respondeu: «Na
+            verdade vos digo: não vos conheço». Vigiai, pois, visto que não
+            sabeis nem o dia, nem a hora.
+          </Text>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

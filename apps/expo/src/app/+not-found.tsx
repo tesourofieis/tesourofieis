@@ -1,7 +1,7 @@
 import { Link, Stack } from "expo-router";
 import { StyleSheet } from "react-native";
 
-export default function NotFoundScreen() {
+export default function PageNotFoundScreen() {
   return (
     <>
       <Stack.Screen options={{ title: "Oops!" }} />

@@ -1,0 +1,140 @@
+import { Link } from "expo-router";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+
+export default function PagePasc53() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Vigília da Festa da Ascensão de N. S. J. C.
+          </Text>
+
+          <Text className="aside">
+            Como no{" "}
+            <Link className="link" href="/missal/pascoa/pasc5-0">
+              5.º Domingo depois da Páscoa
+            </Link>{" "}
+            , excepto:
+          </Text>
+
+          <Text className="h3">Epístola</Text>
+
+          <Text className="em">Ef. 4, 7-13</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
+            </Text>
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
+            </Text>
+            <Text className="text-base latin">
+              Fratres: Unicuíque nostrum data est grátia secúndum mensúram
+              donatiónis Christi. Propter quod dicit: Ascéndens in altum,
+              captívam duxit captivitátem: dedit dona homínibus. Quod autem
+              ascéndit, quid est, nisi quia et descéndit primum in inferióres
+              partes terræ? Qui descéndit, ipse est et qui ascéndit super omnes
+              cœlos, ut impléret ómnia. Et ipse dedit quosdam quidem apóstolos,
+              quosdam autem prophétas, álios vero evangelístas, álios autem
+              pastóres et doctóres, ad consummatiónem sanctórum in opus
+              ministérii, in ædificatiónem córporis Christi: donec occurrámus
+              omnes in unitátem fídei, et agnitiónis Fílii Dei, in virum
+              perféctum, in mensúram ætátis plenitúdinis Christi.
+            </Text>
+            <Text className="text-base vernacular">
+              Meus irmãos: A graça é dada a cada um de nós, segundo a medida do
+              dom de Cristo. Por isso se diz na Escritura: «Subindo ao alto,
+              levou consigo os cativos e repartiu os seus dons pelos homens».
+              Que quer dizer «subiu» senão que antes tinha descido às regiões
+              inferiores da terra? Aquele que desceu é o mesmo que subiu acima
+              de todos os céus, a fim de completar todas as coisas. Foi Ele,
+              também, quem deu à sua Igreja uns como Apóstolos, outros como
+              Profetas, outros como Evangelistas, outros como Pastores e
+              Doutores, para que uns e outros trabalhem para a perfeição dos
+              santos, nas funções do ministério e na edificação do corpo de
+              Cristo, até que todos cheguemos à unidade de uma só fé e do mesmo
+              conhecimento do Filho de Deus, ao estado de um homem perfeito, a
+              um desenvolvimento orgânico proporcionado à plenitude de Cristo.
+            </Text>
+          </View>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣. Surréxit Christus, et illúxit nobis, quos
+              rédemit sánguine suo. Allelúja. ℣.{" "}
+              <Text className="text-base latin">Joann. 16, 28</Text> Exívi a
+              Patre, et veni in mundum: íterum relínquo mundum, et vado ad
+              Patrem. Allelúja.
+            </Text>
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣. Ressuscitou Cristo: e fez brilhar a sua luz
+              sobre nós, a quem remiu com o sen sangue. Aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Jo. 16, 28</Text> Saí do
+              Pai e vim ao mundo; agora, outra vez, deixo o mundo e vou ao Pai.
+              Aleluia.
+            </Text>
+          </View>
+
+          <Text className="h3">Evangelho</Text>
+
+          <Text className="em">Jo. 17, 1-11</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
+              Evangélii secúndum Joánnem.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
+            </Text>
+            <Text className="text-base latin">
+              In illo témpore: Sublevátis Jesus oculis in cœlum, dixit: Pater,
+              venit hora, clarífica Fílium tuum, ut Fílius tuus claríficet te:
+              sicut dedísti ei potestátem omnis carnis, ut omne, quod dedísti
+              ei, det eis vitam ætérnam. Hæc est autem vita ætérna: ut
+              cognóscant te, solum Deum verum, et quem misísti Jesum Christum.
+              Ego te clarificávi super terram: opus consummávi, quod dedísti
+              mihi, ut fáciam: et nunc clarífica me tu, Pater, apud temetípsum,
+              claritáte, quam hábui, priúsquam mundus esset, apud te.
+              Manifestávi nomen tuum homínibus, quos dedísti mihi de mundo. Tui
+              erant, et mihi eos dedísti; et sermónem tuum servavérunt. Nunc
+              cognovérunt, quia ómnia, quæ dedísti mihi, abs te sunt: quia
+              verba, quæ dedísti mihi, dedi eis: et ipsi accepérunt, et
+              cognovérunt vere, quia a te exivi, et credidérunt, quia tu me
+              misísti. Ego pro eis rogo, non pro mundo rogo, sed pro his, quos
+              dedísti mihi: quia tui sunt: et mea ómnia tua sunt, et tua mea
+              sunt: et clarificátus sum in eis. Et jam non sum in mundo, et hi
+              in mundo sunt, et ego ad te vénio.
+            </Text>
+            <Text className="text-base vernacular">
+              Naquele tempo, levantou Jesus os olhos ao céu e disse: «Pai, veio
+              a hora: glorificai o vosso Filho, para que o vosso Filho Vos
+              glorifique, pois que Lhe concedestes poder sobre toda a carne
+              humana, para que a todos quantos Lhe destes Ele dê a vida eterna!
+              Ora a vida eterna consiste em que Vos conheçam como o único
+              verdadeiro Deus, e a Jesus Cristo, que enviastes. Já Vos
+              glorifiquei na terra; já cumpri a missão que me distribuístes.
+              Agora, pois, ó Pai, glorificai-me junto de Vós com aquela glória
+              que Eu possuía antes que o mundo fosse criado. Já manifestei o
+              vosso nome aos homens, que me destes, no meio do mundo. Eles eram
+              vossos, e Vós mos destes; e eles guardaram a vossa palavra. Agora
+              já conhecem que tudo o que me destes vem de Vós; pois as palavras
+              que me destes Eu lhas dei e as receberam: reconheceram
+              verdadeiramente que saí de Vós e acreditaram que me enviastes. Eu
+              rogo por eles. Não rogo pelo mundo, mas por aqueles que me destes,
+              pois são vossos: todas minhas coisas são vossas, e sou glorificado
+              neles. Já não pertenço mais ao mundo, porém eles ficam no mundo. E
+              Eu vou para Vós».
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

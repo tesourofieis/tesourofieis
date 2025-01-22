@@ -1,0 +1,223 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+import LinkCard from "~/components/LinkCard";
+
+export default function Page1009() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">S. João Leonardo, Conf., a 9 de Outubro</Text>
+
+          <Text className="h3">Intróito</Text>
+
+          <Text className="em">Ecl. 42, 15-16</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              In sermónibus Dómini ópera ejus: sol illúminans per ómnia
+              respéxit, et glória Dómini plenum est opus ejus.{" "}
+              <Text className="text-base latin">Ps. 95, 1</Text> Cantáte Dómino
+              cánticum novum: cantáte Dómino, omnis terra. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base vernacular">
+              Pelas palavras do Senhor existem as suas obras. Assim como o sol
+              resplandecente ilumina todas as coisas, assim as suas obras estão
+              cheias da glória do Senhor.{" "}
+              <Text className="text-base vernacular">Sl. 95, 1</Text> Cantai ao
+              Senhor um cântico novo: cantai ao Senhor, ó habitantes de toda a
+              terra. ℣. Glória ao Pai...
+            </Text>
+          </View>
+
+          <Text className="h3">Oração</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Deus, qui beátum Joánnem Confessórem tuum ad fidem in géntibus
+              propagándam mirabíliter excitáre dignátus es, ac per eum in
+              erudiéndis fidélibus novam in Ecclésia tua famíliam congregásti:
+              da nobis fámulis tuis; ita ejus institútis profícere, ut prǽmia
+              consequámur ætérna. Per Dominum...
+            </Text>
+            <Text className="text-base vernacular">
+              Ó Deus, que pelo B. João, vosso Confessor, Vos dignastes animar de
+              um modo admirável a propagação da fé entre os gentios, e por ele
+              instituístes na vossa Igreja uma nova família para a instrução dos
+              fiéis, concedei-nos a nós, vossos servos, que de tal maneira nos
+              aproveitem os seus conselhos que alcancemos os prémios eternos.
+              Por nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Epístola</Text>
+
+          <Text className="em">2 Cor. 4, 1-6 & 15-18</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Lectio Epístolæ beati Pauli Apóstoli ad Corinthios.
+            </Text>
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+            </Text>
+            <Text className="text-base latin">
+              Fratres: Habéntes administratiónem juxta quod misericórdiam
+              consecúti sumus, non defícimus, sed abdicámus occúlta dedécóris,
+              non ambulántes in astútia, neque adulterántes verbum Dei, sed in
+              manifestatióne veritátis commendántes nosmetípsos ad omnem
+              consciéntiam hóminum coram Deo. Quod si étiam opértum est
+              Evangélium nostrum : in iis, qui péreunt, est opértum: in quibus
+              Deus hujus sǽculi excæcávit mentes infidélium, ut non fúlgeat
+              illis illuminátio Evangélii glóriæ Christi, qui est imágo Dei. Non
+              enim nosmetípsos prædicámus, sed Jesum Christum Dóminum nostrum:
+              nos autem servos vestros per Jesum: quóniam Deus, qui dixit de
+              ténebris lucem splendéscere, ipse illúxit in córdibus nostris ad
+              illuminatiónem sciéntiæ claritátis Dei, in fácie Christi Jesu.
+              Omnia enim propter vos: ut grátia abúndans, per multos in
+              gratiárum actione, abúndet in glóriam Dei. Propter quod non
+              deficimus: sed licet is, qui foris est, noster homo corrumpátur:
+              tamen is, qui intus est, renovatur de die in diem. Id enim, quod
+              in praesenti est momentáneum et leve tribulatiónis nostræ, supra
+              modum in sublimitáte ætérnum glóriæ pondus operátur in nobis, non
+              contemplántibus nobis quæ vidéntur, sed quæ non vidéntur. Quæ enim
+              vidéntur, temporália sunt: quæ autem non vidéntur, ætérna sunt.
+            </Text>
+            <Text className="text-base vernacular">
+              Meus irmãos: Pelo que, tendo nós tal ministério em virtude da
+              misericórdia que alcançámos, não perdemos a coragem, antes
+              renunciámos a coisas que a vergonha manda ocultar, não nos
+              conduzindo com artifício, nem adulterando a palavra de Deus, mas
+              recomendando-nos à consciência de todos os homens diante de Deus,
+              por meio da manifestação da verdade. E, se o nosso Evangelho ainda
+              está oculto, é só para aqueles que se perdem: para aqueles infiéis
+              a quem o deus deste mundo cegou os entendimentos, para que não
+              resplandeça para eles a luz do Evangelho da glória de Cristo, o
+              qual é a imagem de Deus. Nós não nos pregamos a nós mesmos, mas a
+              Jesus Cristo, nosso Senhor; nós, pois, vossos servos, por amor de
+              Jesus; porque Deus, que quis que das trevas resplandecesse a luz,
+              Ele mesmo resplandeceu nos nossos corações, para que fizéssemos
+              brilhar o conhecimento da glória de Deus, que brilha na face de
+              Jesus Cristo. Pois tudo isto aconteceu por amor de vós, a fim de
+              que a graça, espalhando-se com abundância, faça também abundar a
+              acção de graças, à glória de Deus, em muitos outros de entre vós.
+              É por tudo isto que não desfalecemos; antes, pelo contrário,
+              embora se destrua em nós o homem exterior, todavia o interior
+              vai-se renovando de dia para dia; porque aquelas coisas que agora
+              são para nós uma tribulação momentânea e ligeira produzirão um
+              estado eterno de uma sublime e incomparável glória, não atendendo
+              nós às coisas que se vêem, mas sim às que se não vêem, pois as
+              coisas que se vêem são passageiras, e as que se não vêem são
+              eternas.
+            </Text>
+          </View>
+
+          <Text className="h3">Gradual</Text>
+
+          <Text className="em">Sl. 72, 21; 68, 10</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Inflammátum est cor meum, et renes mei commutáti sunt: zelus domus
+              tuæ comédit me. ℣.{" "}
+              <Text className="text-base latin">Isai. 49, 2</Text> Pósuit os
+              meum quasi gládium acutum: in umbra manus suæ protéxit me, et
+              pósuit me sicut sagíttam eléctam.
+            </Text>
+            <Text className="text-base vernacular">
+              Inflamou-se o meu coração e comoveram-se as minhas entranhas: o
+              zelo da tua casa devorou-me. ℣.{" "}
+              <Text className="text-base vernacular">Is. 49, 2</Text> O Senhor
+              tornou a minha boca como uma espada aguda: protegeu-me com a
+              sombra da sua mão: e fez de mim como que uma seta escolhida.
+            </Text>
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 70, 7</Text> Tamquam
+              prodígium factus sum multis: et tu adjútor fortis, Allelúja.
+            </Text>
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 70, 7</Text> Fui
+              considerado por muitos corno um prodígio: tu és um poderoso
+              auxiliar. Aleluia.
+            </Text>
+          </View>
+
+          <Text className="h3">Evangelho</Text>
+
+          <LinkCard
+            href="/missal/santos/02-06#evangelho"
+            title="S. Tito, B. e Conf."
+          />
+
+          <Text className="h3">Ofertório</Text>
+
+          <Text className="em">Col. 1, 25</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Christi factus sum ego miníster secúndum dispensatiónem Dei, quæ
+              data est mihi, ut ímpleam verbum Dómini.
+            </Text>
+            <Text className="text-base vernacular">
+              Eu fui constituído ministro de Cristo, segundo o cargo que Deus me
+              deu junto de vós, para que se cumpra a palavra do Senhor.
+            </Text>
+          </View>
+
+          <Text className="h3">Secreta</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Súscipe, Dómine, oblatiónem mundam salutáris hóstiæ: et præsta;
+              ut, intercedénte beáto Joánne Confessóre tuo, úbique géntium
+              júgiter offerátur. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Recebei, Senhor, a oblação pura da hóstia salutar; e concedei-nos
+              por intercessão do B. João, vosso Confessor, que ela seja
+              oferecida constantemente em todos os povos da terra. Por nosso
+              Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Comúnio</Text>
+
+          <Text className="em">Fl. 3, 7</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Quæ mihi fúerunt lucra, hæc arbitrátus sum propter Christum
+              detriménta.
+            </Text>
+            <Text className="text-base vernacular">
+              Aquelas coisas que reputava como lucro, considerei-as depois, por
+              amor de Cristo, como prejudiciais.
+            </Text>
+          </View>
+
+          <Text className="h3">Postcomúnio</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Pretiósi córporis, et sánguinis tui sacris refécti mystériis,
+              Dómine, adprecámur: ut beáti Joánnis Confessóris tui exémplo,
+              studeámus confitéri quod crédidit, et ópere exercére quod dócuit:
+              Qui vivis...
+            </Text>
+            <Text className="text-base vernacular">
+              Alimentados, Senhor, com os sacrossantos mystérios do vosso
+              precioso Corpo e Sangue, Vos rogamos instantemente que com o
+              exemplo do B. João, vosso Confessor, procuremos confessar o que
+              ele acreditou e praticar com nossas obras o que ele ensinou. Ó
+              Vós, que...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

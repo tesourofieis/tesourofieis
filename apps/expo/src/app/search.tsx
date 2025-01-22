@@ -4,7 +4,7 @@ import { useColorScheme } from "react-native";
 import { FlatList, Text, TouchableOpacity, View } from "react-native";
 import { COLORS } from "../constants/Colors";
 
-export default function SearchResults() {
+export default function PageSearchResults() {
   const router = useRouter();
   const { results } = useLocalSearchParams();
   const colorScheme = useColorScheme();
@@ -12,14 +12,14 @@ export default function SearchResults() {
 
   const handleItemPress = (item) => {
     if (item.path) {
-      router.push({ pathname: "/modal", params: { url: item.path.slice(1) } });
+      router.push(item.path.slice(1));
     }
   };
 
   const renderItem = ({ item }) => (
     <TouchableOpacity
       className="p-3 border-b border-sepia-300 dark:border-sepia-700"
-      onPress={() => handleItemPress(item)}
+      onPressOut={() => handleItemPress(item)}
     >
       <Text className="text-sepia-800 dark:text-sepia-200">{item.label}</Text>
     </TouchableOpacity>

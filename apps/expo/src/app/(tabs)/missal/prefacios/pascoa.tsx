@@ -1,0 +1,45 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+
+export default function PagePascoa() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Prefácio da Páscoa</Text>
+
+          <Text className="aside">
+            Diz-se desde Domingo de Páscoa até à Vigília da Ascensão,
+            inclusivamente, excepto quando há Prefácio próprio. Intercala-se:
+            hac potíssimum die (naquele dia); hac potíssimum nocte (naquela
+            noite); hac potíssimum (neste tempo).
+          </Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Vere dignum et justum est, æquum et salutáre: Te quidem, Dómine,
+              omni témpore, sed in hac potissímum die (vel in hoc potíssimum)
+              gloriósius prædicáre, cum Pascha nostrum immolátus est Christus.
+              Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem
+              nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo
+              cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque
+              omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine
+              fine dicéntes:
+            </Text>
+            <Text className="text-base vernacular">
+              É verdadeiramente digno e justo, racional e salutar, que Vos
+              louvemos sempre, mas principalmente... em que Jesus Cristo foi
+              imolado, como nova Páscoa. Pois Ele é o verdadeiro Cordeiro que
+              tirou os pecados do mundo e que pela sua Ressurreição nos
+              restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos
+              e Dominações e com toda a milícia do exército celestial, cantamos
+              o hino da vossa glória, dizendo incessantemente:
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

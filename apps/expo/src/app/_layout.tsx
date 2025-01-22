@@ -1,10 +1,9 @@
-import { Stack } from "expo-router";
+import Drawer from "expo-router/drawer";
 
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
-import {
-  Lusitana_400Regular,
-  Lusitana_700Bold,
-} from "@expo-google-fonts/lusitana";
+import { EBGaramond_700Bold } from "@expo-google-fonts/eb-garamond";
+
+import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display";
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
 import { useEffect } from "react";
@@ -15,18 +14,28 @@ import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
-import { ActivityIndicator, Platform, Text, View } from "react-native";
+import { Link, usePathname } from "expo-router";
+import React from "react";
+import {
+  ActivityIndicator,
+  Platform,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import CustomDrawerContent from "~/components/CustomDrawer";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
 import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
 
-export default function RootLayout() {
+export default function PageRootLayout() {
   const [loaded] = useFonts({
-    Serif: Lusitana_400Regular,
+    Serif: DMSerifDisplay_400Regular,
     Display: BerkshireSwash_400Regular,
-    Bold: Lusitana_700Bold,
+    Bold: EBGaramond_700Bold,
     ...FontAwesome6.font,
   });
 
@@ -45,11 +54,17 @@ export default function RootLayout() {
   }
 
   return (
-    <CalendarProvider>
-      <NotificationsProvider>
-        <RootLayoutNav />
-      </NotificationsProvider>
-    </CalendarProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <CalendarProvider>
+        {Platform.OS === "web" ? (
+          <RootLayoutNav />
+        ) : (
+          <NotificationsProvider>
+            <RootLayoutNav />
+          </NotificationsProvider>
+        )}
+      </CalendarProvider>
+    </GestureHandlerRootView>
   );
 }
 
@@ -85,36 +100,92 @@ function RootLayoutNav() {
 
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
-      <Stack>
-        <Stack.Screen
+      <Drawer
+        drawerContent={(props) => <CustomDrawerContent {...props} />}
+        screenOptions={{
+          headerTitle: Header,
+          headerStyle: {
+            backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+          },
+        }}
+      >
+        <Drawer.Screen
           name="(tabs)"
           options={{
+            headerTitle: Header,
+            drawerLabel: "Home",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: Header,
           }}
         />
-        <Stack.Screen
-          name="modal"
-          options={{
-            headerShown: false,
-            presentation: "modal",
-            animation: "slide_from_bottom",
-          }}
-        />
-      </Stack>
+      </Drawer>
     </ThemeProvider>
   );
 }
 
+const Breadcrumbs = () => {
+  const pathname = usePathname();
+
+  // Skip empty segments and remove (tabs)
+  const segments = pathname
+    .split("/")
+    .filter((segment) => segment && segment !== "(tabs)");
+
+  // Don't show breadcrumbs if we're at root or only one level deep
+  if (segments.length <= 1) {
+    return null;
+  }
+
+  const formatSegmentName = (segment: string) => {
+    // Remove any parentheses and their contents
+    segment = segment.replace(/\(.*?\)/g, "");
+    // Convert kebab-case or snake_case to Title Case
+    return segment
+      .split(/[-_]/)
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  };
+
+  return (
+    <View className="flex-row items-center mb-2 gap-1">
+      {segments.map((segment, index) => (
+        <React.Fragment key={segment}>
+          {index !== 0 && (
+            <Text className="text-sepia-400 dark:text-sepia-600">/</Text>
+          )}
+
+          <Link href={`/${segments.slice(0, index + 1).join("/")}`} asChild>
+            <TouchableOpacity>
+              <Text
+                className={`text-sm ${
+                  index === segments.length - 1
+                    ? "text-sepia-700 dark:text-sepia-300 font-bold"
+                    : "text-sepia-600 dark:text-sepia-400"
+                }`}
+              >
+                {formatSegmentName(segment)}
+              </Text>
+            </TouchableOpacity>
+          </Link>
+        </React.Fragment>
+      ))}
+    </View>
+  );
+};
+
 const Header = () => {
   return (
-    <View className="flex-row items-center p-3 gap-3">
-      <FontAwesome6 name="book-bible" size={15} color="#e53935" />
-      <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
-        Tesouro dos Fiéis
-      </Text>
+    <View>
+      <Link href="/">
+        <View className="flex-row items-center p-3 gap-3">
+          <FontAwesome6 name="book-bible" size={15} color="#e53935" />
+          <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
+            Tesouro dos Fiéis
+          </Text>
+        </View>
+      </Link>
+      <Breadcrumbs />
     </View>
   );
 };

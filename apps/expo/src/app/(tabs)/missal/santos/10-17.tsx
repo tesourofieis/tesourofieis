@@ -1,0 +1,165 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+import LinkCard from "~/components/LinkCard";
+
+export default function Page1017() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Santa Margarida Maria, Virgem, a 17 de Outubro
+          </Text>
+
+          <Text className="h3">Intróito</Text>
+
+          <Text className="em">Ct. 2, 3</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Sub umbra illíus, quem desideráveram, sedi: et fructus ejus dulcis
+              gútturi meo. <Text className="text-base latin">Ps. 83, 2-3</Text>{" "}
+              Quam dilécta tabernácula tua, Dómine virtútum! concupíscit, et
+              déficit ánima mea in átria Dómini. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base vernacular">
+              Assentei-me à sombra daquele que eu desejara: e o seu fruto é doce
+              ao meu paladar.{" "}
+              <Text className="text-base vernacular">Sl. 83, 2-3</Text> Como são
+              amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha alma
+              suspira ardentemente pelos átrios do Senhor. ℣. Glória ao Pai...
+            </Text>
+          </View>
+
+          <Text className="h3">Oração</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Dómine Jesu Christe, qui investigábiles divítias Cordis tui beátæ
+              Margarítæ Maríæ Vírgini mirabíliter revelásti: da nobis ejus
+              méritis et imitatióne; ut, te in ómnibus et super ómnia
+              diligéntes, jugem in eódem Corde tuo mansiónem habére mereámur:
+              Qui vivis et regnas...
+            </Text>
+            <Text className="text-base vernacular">
+              Senhor Jesus Cristo, que de uma maneira admirável Vos dignastes
+              revelar à B. Virgem Margarida Maria as insondáveis riquezas do
+              vosso Coração, concedei-nos pelos seus méritos e à sua imitação
+              que, amando-Vos em tudo e acima de tudo, possamos ter uma mansão
+              no vosso Coração. Ó Vós, que viveis e reinais...
+            </Text>
+          </View>
+
+          <Text className="h3">Epístola</Text>
+
+          <LinkCard
+            href="/missal/pentecostes/pent2-5#epístola"
+            title="Santíssimo Coração de Jesus"
+          />
+
+          <Text className="h3">Gradual</Text>
+
+          <Text className="em">Ct. 8, 7</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina
+              óbruent illam. ℣.{" "}
+              <Text className="text-base latin">Ps. 72, 26</Text> Defécit caro
+              mea et cor meum: Deus cordis mei, et pars mea Deus in ætérnum.
+            </Text>
+            <Text className="text-base vernacular">
+              As águas caudalosas não puderam extinguir a caridade, nem os rios
+              a submergiram. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 72, 26</Text> Meu corpo
+              e o meu coração desfaleceram, ó Deus, que sois o Deus do meu
+              coração e a minha herança na eternidade!
+            </Text>
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Cant. 7, 10</Text> Ego dilécto
+              meo, et ad me conversio ejus. Allelúja.
+            </Text>
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Ct. 7, 10</Text> Eu sou
+              para o meu muito amado! E Ele volveu-se para mim. Aleluia.
+            </Text>
+          </View>
+
+          <Text className="h3">Evangelho</Text>
+
+          <LinkCard
+            href="/missal/santos/01-15-1#evangelho"
+            title="S. Paulo, 1.º Eremita, Conf."
+          />
+
+          <Text className="h3">Ofertório</Text>
+
+          <Text className="em">Zc. 9, 17</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Quid bonum ejus est et quid pulchrum ejus, nisi fruméntum
+              electórum et vinum gérminans vírgines?
+            </Text>
+            <Text className="text-base vernacular">
+              Que possui o Senhor de bom e de belo, melhor do que o trigo dos
+              eleitos e o vinho que gera as virgens?
+            </Text>
+          </View>
+
+          <Text className="h3">Secreta</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Accéopta tibi sint, Dómine, plebis tuæ múnera: et concéde; ut
+              ignis ille divínus nos inflámmet, quo de Corde Fílii tui emisso
+              beáta Margaríta María veheménter æstuávit. Per eúndem Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Dignai-Vos aceitar, Senhor, as ofertas do vosso povo e permiti que
+              sejamos inflamados no fogo divino que, irradiando do Coração do
+              vosso Filho, consumiu em seu ardor a B. Margarida Maria. Pelo
+              mesmo nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Comúnio</Text>
+
+          <Text className="em">Ct. 6, 2</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Ego dilecto meo, et diléctus meus mihi, qui páscitur inter lília.
+            </Text>
+            <Text className="text-base vernacular">
+              Eu sou do meu muito amado e o meu muito amado é meu, pois Ele
+              apascenta-se entre os lírios.
+            </Text>
+          </View>
+
+          <Text className="h3">Postcomúnio</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Córporis et Sánguinis tui, Dómine Jesu, sumptis mystériis: concéde
+              nobis, quǽsumus, beáta Margaríta María Vírgine intercedénte; ut,
+              supérbis sǽculi vanitátibus exútis, mansuetúdinem et humilitátem
+              Cordis tui indúere mereámur: Qui vivis...
+            </Text>
+            <Text className="text-base vernacular">
+              Senhor Jesus, havendo participado dos mystérios do vosso Corpo e
+              Sangue, Vos rogamos, concedei-nos pela intercessão da B. Margarida
+              Maria, Virgem, que, despojando-nos das vaidades do mundo,
+              mereçamos ser revestidos com a mansidão e com a humildade do vosso
+              Coração. Ó Vós, que viveis e reinais...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

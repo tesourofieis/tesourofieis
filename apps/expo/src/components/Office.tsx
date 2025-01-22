@@ -1,7 +1,7 @@
 import { getHours } from "date-fns";
 import LinkCard from "./LinkCard";
 
-export default function Office() {
+export default function PageOffice() {
   const date = new Date();
   const hour = getHours(date);
 

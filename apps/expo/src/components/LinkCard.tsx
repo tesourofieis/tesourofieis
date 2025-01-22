@@ -21,23 +21,27 @@ export function getColor(color?: string) {
   }
 }
 
-export default function LinkCard({
+export default function PageLinkCard({
   mass,
   oratio,
   description,
+  href,
+  title,
 }: {
   mass?: Mass;
-  oratio?: { link: string; name: string };
+  oratio?: {
+    link: string;
+    name: string;
+  };
   description?: string;
+  href?: string;
+  title?: string;
 }) {
   if (oratio) {
     return (
       <Link
-        href={{
-          pathname: "/modal",
-          params: { url: oratio.link },
-        }}
-        className="my-1 w-full flex-1 justify-between rounded-lg border text-sepia-600 dark:text-sepia-300 border-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:hover:bg-sepia-900"
+        href={oratio.link}
+        className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 bg-sepia-100 dark:bg-sepia-900 dark:hover:bg-sepia-900"
         asChild
       >
         <View className="flex flex-col justify-start">
@@ -59,11 +63,8 @@ export default function LinkCard({
   if (mass) {
     return (
       <Link
-        href={{
-          pathname: "/modal",
-          params: { url: mass.link },
-        }}
-        className="my-1 w-full flex-1 justify-between rounded-lg border text-sepia-600 dark:text-sepia-300 border-sepia-300 p-4 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:hover:bg-sepia-900"
+        href={mass.link}
+        className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 p-4 no-underline hover:bg-sepia-200 bg-sepia-100 dark:bg-sepia-900 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
         asChild
       >
         <View className="flex flex-col justify-start">
@@ -97,4 +98,26 @@ export default function LinkCard({
       </Link>
     );
   }
+
+  return (
+    <Link
+      href={href}
+      className="my-1 w-full flex-1 justify-between rounded-lg border-l text-sepia-600 dark:text-sepia-300 border-l-sepia-300 bg-sepia-200 dark:bg-sepia-800 p-4 no-underline hover:bg-sepia-200 dark:border-l-sepia-700 dark:hover:bg-sepia-900"
+      asChild
+    >
+      <View className="flex flex-col justify-start">
+        <View className="flex flex-row">
+          <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+            {description ? description : ""}
+          </Text>
+        </View>
+
+        <View className="flex flex-row items-center gap-2">
+          <Text className={"font-black text-sepia-600 dark:text-sepia-400"}>
+            {title}
+          </Text>
+        </View>
+      </View>
+    </Link>
+  );
 }

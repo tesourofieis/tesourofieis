@@ -1,0 +1,244 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+
+export default function PageAdv20() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Segundo Domingo do Advento</Text>
+
+          <Text className="h3">Intróito</Text>
+
+          <Text className="em">Is. 30, 30</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Pópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam
+              fáciet Dóminus glóriam vocis suæ in lætítia cordis vestri.{" "}
+              <Text className="text-base latin">Ps. 79, 2</Text> Qui regis
+              Israël, inténde: qui dedúcis, velut ovem, Joseph. Glória Patri...
+            </Text>
+            <Text className="text-base vernacular">
+              Povo de Sião, eis que o Senhor vem para salvar os povos: o Senhor
+              fará ouvir a sua gloriosa voz, e o vosso coração encher-se-á de
+              alegria. <Text className="text-base vernacular">Sl. 79, 2</Text>{" "}
+              Ouvi, ó vós, que governais Israel; ó vós, que conduzis José, como
+              um pastor conduz uma ovelha. Glória ao Pai...
+            </Text>
+          </View>
+
+          <Text className="h3">Oração</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Excita, Dómine, corda nostra ad præparándas Unigéniti tui vias:
+              ut, per ejus advéntum, purificátis tibi méntibus servíre mereámur:
+              Qui tecum...
+            </Text>
+            <Text className="text-base vernacular">
+              Excitai, Senhor, os nossos corações para que preparem os caminhos
+              do vosso Filho Unigénito, de modo que no seu advento mereçamos
+              servi-l’O com as almas purificadas. Ele, que, sendo Deus...
+            </Text>
+          </View>
+
+          <Text className="h3">Epístola</Text>
+
+          <Text className="em">Rm. 15, 4—13</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Lectio Epístolæ beati Pauli Apostoli ad Romános.
+            </Text>
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
+            </Text>
+            <Text className="text-base latin">
+              Fatres: Quæcúmque scripta sunt, ad nostram doctrínam scripta sunt:
+              ut per patiéntiam et consolatiónem Scripturárum spem habeámus.
+              Deus autem patiéntiæ et solácii det vobis idípsum sápere in
+              altérutrum secúndum Jesum Christum: ut unánimes, uno ore
+              honorificétis Deum et Patrem Dómini nostri Jesu Christi. Propter
+              quod suscípite ínvicem, sicut et Christus suscépit vos in honórem
+              Dei. Dico enim Christum Jesum minístrum fuísse circumcisiónis
+              propter veritátem Dei, ad confirmándas promissiónes patrum: gentes
+              autem super misericórdia honoráre Deum, sicut scriptum est:
+              Proptérea confitébor tibi in géntibus, Dómine, et nómini tuo
+              cantábo. Et íterum dicit: Lætámini, gentes, cum plebe ejus. Et
+              iterum: Laudáte, omnes gentes, Dóminum: et magnificáte eum, omnes
+              pópuli. Et rursus Isaías ait: Erit radix Jesse, et qui exsúrget
+              régere gentes, in eum gentes sperábunt. Deus autem spei répleat
+              vos omni gáudio et pace in credéndo: ut abundétis in spe et
+              virtúte Spíritus Sancti.
+            </Text>
+            <Text className="text-base vernacular">
+              Meus irmãos: Tudo aquilo que está escrito foi escrito para nossa
+              instrução, para que pela paciência e consolação possuamos a
+              esperança que as Escrituras nos incutem. Conceda-vos Deus, que é
+              cheio de paciência e de consolação, a graça de manifestardes uns
+              para com os outros estes mesmos sentimentos, segundo Jesus Cristo,
+              a fim de que unanimemente e com uma só voz honreis Deus, Pai de N.
+              S. Jesus Cristo. Assim, portanto, recebei-vos uns aos outros, como
+              Cristo vos recebeu para a glória de Deus, Pois digo-vos que Jesus
+              Cristo fez-se ministro da circuncisão, no interesse da verdade de
+              Deus, para que se confirmassem as promessas feitas aos nossos
+              antepassados. Por outro lado, os gentios devem dar glória a Deus,
+              pela misericórdia que manifestou, conforme o que está escrito:
+              «Senhor, é por isso que Vos louvarei entre os gentios e cantarei
+              hinos em honra do vosso nome». Está ainda escrito: «Alegrai-vos
+              com seu povo, ó gentios». E mais: «Louvai todos o Senhor, ó povos
+              da terra; que todos os povos O glorifiquem». Também Isaías
+              escreveu: «Sairá a raiz de Jessé, e elevar-se-á para reinar sobre
+              os gentios, e estes têm nela toda a esperança». Que Deus, que é
+              cheio de esperança, vos cumule de alegria e de paz na vossa fé, a
+              fim de que a esperança abunde em vós, pela virtude do Espírito
+              Santo.
+            </Text>
+          </View>
+
+          <Text className="h3">Gradual</Text>
+
+          <Text className="em">Sl. 49, 2-3 & 5</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Ex Sion species decóris ejus: Deus maniféste véniet. Congregáta
+              illi sanctos ejus, qui ordinavérunt testaméntum ejus super
+              sacrifícia.
+            </Text>
+            <Text className="text-base vernacular">
+              De Sião raiará a majestade no seu esplendor; pois Deus virá
+              visivelmente. Reuniu em torno d’Ele os seus santos, que firmaram
+              com Ele uma aliança pelo sacrifício.
+            </Text>
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 121, 1</Text> Lætátus sum in
+              his, quæ dicta sunt mihi: in domum Dómini íbimus. Allelúja.
+            </Text>
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 121, 1</Text> Rejubilo
+              com aqueles que me disseram: «Iremos à casa do Senhor». Aleluia.
+            </Text>
+          </View>
+
+          <Text className="h3">Evangelho</Text>
+
+          <Text className="em">Mt, 11, 2–10</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
+              Evangélii secúndum Matthæum.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
+            </Text>
+            <Text className="text-base latin">
+              In illo tempore: Cum audísset Joánnes in vínculis ópera Christi,
+              mittens duos de discípulis suis, ait illi: Tu es, qui ventúrus es,
+              an alium exspectámus? Et respóndens Jesus, ait illis: Eúntes
+              renuntiáte Joánni, quæ audístis et vidístis. Cæci vident, claudi
+              ámbulant, leprósi mundántur, surdi áudiunt, mórtui resúrgunt,
+              páuperes evangelizántur: et beátus est, qui non fúerit
+              scandalizátus in me. Illis autem abeúntibus, cœpit Jesus dícere ad
+              turbas de Joánne: Quid exístis in desértum vidére? arúndinem vento
+              agitátam? Sed quid exístis videre? hóminem móllibus vestitum?
+              Ecce, qui móllibus vestiúntur, in dómibus regum sunt. Sed quid
+              exístis vidére? Prophétam? Etiam dico vobis, et plus quam
+              Prophétam. Hic est enim, de quo scriptum est: Ecce, ego mitto
+              Angelum meum ante fáciem tuam, qui præparábit viam tuam ante te.
+            </Text>
+            <Text className="text-base vernacular">
+              Naquele tempo, tendo João ouvido encarecer, na cadeia onde estava
+              preso, as obras de Cristo, enviou dois dos seus discípulos a
+              perguntar-Lhe: «Sois Vós O que há-de vir, ou devemos esperar
+              outro?» Jesus respondeu: «Ide contar a João o que ouvis e vedes:
+              os cegos vêem e os coxos andam; os leprosos são curados e os
+              surdos ouvem; os mortos são ressuscitados e os pobres são
+              evangelizados. Bem-aventurado aquele que se não escandalizar por
+              causa de mim». Então, partiram os discípulos, e logo Jesus começou
+              a falar à multidão a respeito de João, dizendo: «Quem é aquele que
+              fostes ver ao deserto? Uma vara agitada pelo vento? Mas quem é que
+              fostes ver? Um homem vestido com hábitos preciosos? Vede: aqueles
+              que vestem com luxo vivem nos palácios dos reis. Quem é, então,
+              aquele que fostes ver? Algum Profeta? Digo-vos, também, que é mais
+              do que Profeta, pois foi a seu respeito que se escreveram estas
+              palavras: «Eis que envio o meu Anjo perante a vossa face, para
+              preparar o caminho diante de Vós».
+            </Text>
+          </View>
+
+          <Text className="h3">Ofertório</Text>
+
+          <Text className="em">Sl. 84, 7–8</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Deus, tu convérsus vivificábis nos, et plebs tua lætábitur in te:
+              osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da
+              nobis.
+            </Text>
+            <Text className="text-base vernacular">
+              Volvei a vossa face para nós, ó Deus, e receberemos a vida; então
+              o vosso povo alegrar-se-á convosco. Mostrai-nos, Senhor, a vossa
+              misericórdia, e dai-nos a vossa salvação.
+            </Text>
+          </View>
+
+          <Text className="h3">Secreta</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Placáre, quǽsumus, Dómine, humilitátis nostræ précibus et hóstiis:
+              et, ubi nulla suppétunt suffrágia meritórum, tuis nobis succúrre
+              præsídiis. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Senhor, Vos suplicamos, deixai-Vos aplacar com as orações da nossa
+              humildade, juntamente com estas oblatas; e, já que os nossos
+              sufrágios são desprovidos de quaisquer méritos, assisti-nos ao
+              menos com vosso auxílio. Por nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Comúnio</Text>
+
+          <Text className="em">Br. 5, 5 & 4, 36</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Jerúsalem, surge et sta in excélso, ei vide iucunditátem, quæ
+              véniet tibi a Deo tuo.
+            </Text>
+            <Text className="text-base vernacular">
+              Surge, ó Jerusalém, e ergue-te no alto da montanha. Considera a
+              alegria que te advirá do teu Deus.
+            </Text>
+          </View>
+
+          <Text className="h3">Postcomúnio</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Repléti cibo spirituális alimóniæ, súpplices te, Dómine,
+              deprecámur: ut, hujus participatióne mystérii, dóceas nos terréna
+              despícere et amáre cœléstia. Per Dóminum nostrum...
+            </Text>
+            <Text className="text-base vernacular">
+              Saciados já com este alimento espiritual, concedei-nos, Senhor,
+              Vos imploramos, que pela participação deste mystério aprendamos a
+              desprezar os bens desta vida e a amar os do céu. Por nosso
+              Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

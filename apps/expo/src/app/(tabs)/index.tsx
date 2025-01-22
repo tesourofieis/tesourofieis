@@ -1,10 +1,11 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
+import { Image } from "expo-image";
 import { Link } from "expo-router";
 import * as Updates from "expo-updates";
 import React, { useEffect, useState } from "react";
-import { useColorScheme } from "react-native";
+import { Platform, useColorScheme } from "react-native";
 import { ScrollView, Text, View } from "react-native";
 
 import Calendar from "~/components/Calendar";
@@ -13,7 +14,7 @@ import Novenas from "~/components/Novenas";
 import Office from "~/components/Office";
 import { COLORS } from "~/constants/Colors";
 
-export default function Render() {
+export default function PageRender() {
   const [currentDate, setCurrentDate] = useState(new Date());
 
   const colorScheme = useColorScheme();
@@ -85,12 +86,7 @@ export default function Render() {
 
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
           <Text className="font-black border-sepia-900 text-sepia-800 dark:border-sepia-200 dark:text-sepia-200 m-2 rounded-lg border px-4 py-2 text-center flex">
-            <Link
-              href={{
-                pathname: "/modal",
-                params: { url: "devocionario/introducao" },
-              }}
-            >
+            <Link href="/devocionario/introducao">
               Introdução{" "}
               <FontAwesome6
                 name="arrow-right"
@@ -100,12 +96,7 @@ export default function Render() {
           </Text>
 
           <Text className="font-black bg-sepia-900 text-sepia-200 dark:bg-sepia-200 dark:text-sepia-900 m-2 rounded-lg px-4 py-2 text-center">
-            <Link
-              href={{
-                pathname: "/modal",
-                params: { url: "devocionario/rosario" },
-              }}
-            >
+            <Link href="/devocionario/rosario">
               Rosário{" "}
               <FontAwesome6
                 name="arrow-right"
@@ -117,7 +108,11 @@ export default function Render() {
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mb-2" />
 
-        <View className="px-5">
+        <View
+          className={`px-5 ${
+            Platform.OS === "web" ? "w-1/2 m-auto" : "w-full"
+          }`}
+        >
           <View className="flex-row items-center">
             <FontAwesome6
               name="calendar"
@@ -173,6 +168,8 @@ export default function Render() {
 
           <Office />
           <Novenas />
+
+          <Image source="1" contentFit="cover" />
         </View>
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />

@@ -1,0 +1,71 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+
+export default function Page23Penitentespublicos() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">23.ª Pelos penitentes públicos</Text>
+
+          <Text className="h3">Oração</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Omnípotens sempitérne Deus, confidéntibus tibi fámulis tuis pro
+              tua pietáte reláxa peccáta: ut non ámplius eis nóceat consciéntias
+              reátus ad pœnam, quam indulgéntia tuæ propitiatiónis prosit ad
+              véniam. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Ó Deus omnipotente e sempiterno, dignai-Vos misericordiosamente
+              conceder a remissão dos pecados a estes vossos servos, que são
+              pecadores confessos, a fim de que a culpa, contraída pela
+              consciência, lhes não seja mais perniciosa pela pena em que
+              incorreram do que a vossa misericórdia lhes foi útil para o
+              perdão. Por nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Secreta</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Præsta, quǽsumus, omnípotens et miséricors Deus: ut hæc salutáris
+              oblátio fámulos tuos et a própriis reátibus indesinénter expédiat,
+              et ab ómnibus tueátur advérsis. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Senhor omnipotente e misericordioso, permiti que esta hóstia de
+              salvação purifique inteiramente os vossos servos das culpas que
+              contraíram e os proteja contra tudo o que lhes seja nocivo. Por
+              nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Postcomúnio</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Omnípotens et miséricors Deus, qui omnem ánimam pœniténtem et
+              confiténtem tibi magis vis emendáre, quam pérdere: réspice super
+              hos fámulos tuos; et per hæc sancta sacraménta, quæ súmpsimus,
+              avérte ab eis iram indignatiónis tuæ, et ómnia eórum peccáta
+              dimítte. Per Dóminum nostrum...
+            </Text>
+            <Text className="text-base vernacular">
+              Deus omnipotente e misericordioso, que quereis não a perda mas a
+              conversão da alma penitente, que confessa as suas faltas,
+              dignai-Vos lançar vossos olhares para estes vossos servos; e, pela
+              virtude destes sacramentos, que acabamos de receber, afastai de
+              cima das suas cabeças a ira da vossa indignação e perdoai-lhes os
+              pecados. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

@@ -1,7 +1,7 @@
 import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
-export default function Novenas() {
+export default function PageNovenas() {
   const { novenas } = useCalendar();
 
   if (novenas?.length) {

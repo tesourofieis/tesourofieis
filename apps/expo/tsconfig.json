@@ -13,6 +13,7 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "index.js"
+    "index.js",
+    "build_sidebar.js"
   ]
 }

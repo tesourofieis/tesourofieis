@@ -1,0 +1,224 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+import LinkCard from "~/components/LinkCard";
+
+export default function Page0701() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Preciosíssimo Sangue de N. S. J. C., a 1 de Julho
+          </Text>
+
+          <Text className="comment">
+            A liturgia, esse admirável resumo da história da Igreja, recorda
+            anualmente que nesta data, em 1849, foi vencida, graças ao concurso
+            dos exércitos franceses, a Revolução, que havia expulsado o Papa de
+            Roma. Para perpetuar a lembrança da vitória e mostrar que foi devida
+            aos méritos do Salvador, Pio IX, refugiado em Gaeta, instituiu a
+            festa do Precioso Sangue, recordando todas as circunstâncias em que
+            foi derramado. O Coração de Jesus fez circular esse sangue adorável
+            nos seus membros; por isso, como na festa do Sagrado Coração, o
+            Evangelho nos faz assistir ao golpe de lança traspassando o Lado do
+            Divino Crucificado, e fazendo dele correr sangue e água. É a união
+            dos dois testemunhos prestados pelo Espírito Santo ao Messias, por
+            ocasião do seu baptismo nas águas do Jordão e do baptismo do seu
+            sangue na Cruz (Grad.). Veneremos o Sangue precioso de nosso
+            Redentor, oferecido pelo sacerdote a Deus, sobre o altar.
+          </Text>
+
+          <Text className="h3">Intróito</Text>
+
+          <Text className="em">Apoc. 5, 9-10</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Redemísti nos,Dómine, in sánguine tuo, ex omni tribu et lingua et
+              pópulo et natióne: et fecísti nos Deo nostro regnum.{" "}
+              <Text className="text-base latin">Ps. 88, 2</Text> Misericórdias
+              Dómini in ætérnum cantábo: in generatiónem et generatiónem
+              annuntiábo veritátem tuam in ore meo. ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base vernacular">
+              Com o vosso Sangue, Senhor, nos resgatastes de todas as tribos, de
+              todas as línguas, de todos os povos e de todas as nações; e
+              fizestes de nós um reino para o nosso Deus.{" "}
+              <Text className="text-base vernacular">Sl. 88, 2</Text> Cantarei
+              eternamente as misericórdias do Senhor; de geração em geração a
+              minha boca publicará a vossa verdade. ℣. Glória ao Pai...
+            </Text>
+          </View>
+
+          <Text className="h3">Oração</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Omnípotens sempitérne Deus, qui unigénitum Fílium tuum mundi
+              Redemptórem constituísti, ac ejus Sánguine placári voluísti:
+              concéde, quǽsumus, salútis nostræ prétium sollémni cultu ita
+              venerári, atque a præséntis vitæ malis ejus virtúte deféndi in
+              terris; ut fructu perpétuo lætémur in cœlis. Per eúndem Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Ó Deus omnipotente e eterno, que instituístes o vosso Filho
+              Unigénito Redentor do mundo e quisestes ser aplacado com seu
+              Sangue, concedei-nos a graça, Vos suplicamos, de honrarmos com
+              culto solene este preço da nossa salvação e de, pela sua virtude,
+              sermos preservados dos males da vida presente de modo a gozarmos
+              eternamente os seus frutos nos céus. Pelo mesmo nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Epístola</Text>
+
+          <LinkCard
+            href="/missal/quaresma/quad5-0#epístola"
+            title="Domingo da Paixão"
+          />
+
+          <Text className="h3">Gradual</Text>
+
+          <Text className="em">1 Jo. 5, 6 & 7-8</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Hic est, qui venit per aquam et sánguinem, Jesus Christus: non in
+              aqua solum, sed in aqua et sánguine. ℣. Tres sunt, qui testimónium
+              dant in cœlo: Pater, Verbum et Spíritus Sanctus; et hi tres unum
+              sunt. Et tres sunt, qui testimónium dant in terra: Spíritus, aqua
+              et sanguis: et hi tres unum sunt.
+            </Text>
+            <Text className="text-base vernacular">
+              Este é Jesus Cristo, que veio pela água e pelo sangue: não pela
+              água, somente, mas pela água e pelo sangue. ℣. Três são os que dão
+              testemunho no céu: o Pai, o Verbo e o Espírito Santo, e estes três
+              são um só. E três são os que dão testemunho na terra: o espírito,
+              a água e o sangue, e estes três são um só!
+            </Text>
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">ibid., 9</Text> Si testimónium
+              hóminum accípimus, testimónium Dei majus est. Allelúja.
+            </Text>
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">ibid., 9</Text> Se
+              recebemos o testemunho dos homens, maior é o testemunho de Deus.
+              Aleluia.
+            </Text>
+          </View>
+
+          <Text className="h3">Evangelho</Text>
+
+          <Text className="em">Jo. 19, 30-35</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
+              Evangélii secúndum Joánnem.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
+            </Text>
+            <Text className="text-base latin">
+              In illo témpore: Cum accepísset Jesus acétum, dixit: Consummátum
+              est. Et inclináto cápite trádidit spíritum. Judǽi ergo (quóniam
+              Parascéve erat), ut non remanérent in cruce córpora sábbato (erat
+              enim magnus dies ille sábbati), rogavérunt Pilátum, ut
+              frangeréntur eórum crura et tolleréntur. Venérunt ergo mílites: et
+              primi quidem fregérunt crura et altérius, qui crucifíxus est cum
+              eo. Ad Jesum autem cum venissent, ut vidérunt eum jam mórtuum, non
+              fregérunt ejus crura, sed unus mílitum láncea latus ejus apéruit,
+              et contínuo exívit sanguis et aqua. Et qui vidit, testimónium
+              perhíbuit; et verum est testimónium ejus.
+            </Text>
+            <Text className="text-base vernacular">
+              Naquele tempo, havendo Jesus bebido o vinagre, disse: «Tudo está
+              consumado!». E, inclinando a cabeça, entregou o Espírito. Porém os
+              judeus (como aquele dia era o da Preparação), para que os corpos
+              não ficassem na cruz no sábado (pois aquele Sábado era dia
+              solene), rogaram a Pilatos licença para lhes quebrarem as pernas e
+              os tirarem. Vieram, então, os soldados e quebraram as pernas ao
+              primeiro e depois ao outro que haviam sido crucificados com Ele.
+              Quando, porém, chegaram a Jesus, vendo que já estava morto, Lhe
+              não quebraram as pernas, mas um dos soldados abriu-Lhe o lado com
+              uma lança, saindo dali imediatamente sangue e água. E aquele que
+              viu isto dá testemunho, sendo verdadeiro o seu testemunho.
+            </Text>
+          </View>
+
+          <Text className="h3">Ofertório</Text>
+
+          <Text className="em">1 Cor. 10, 16</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Calix benedictiónis, cui benedícimus, nonne communicátio sánguinis
+              Christi est? et panis, quem frángimus, nonne participátio córporis
+              Dómini est?
+            </Text>
+            <Text className="text-base vernacular">
+              O cálice de bênção, que nós benzemos, não é, porventura, a
+              comunhão do Sangue de Cristo? E o pão, que nós partimos, não é a
+              participação do Corpo do Senhor?
+            </Text>
+          </View>
+
+          <Text className="h3">Secreta</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Per hæc divína mystéria, ad novi, quǽsumus, Testaménti mediatórem
+              Jesum accedámus: et super altária tua, Dómine virtútum,
+              aspersiónem sánguinis mélius loquéntem, quam Abel, innovémus. Per
+              eúndem Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Dignai-Vos permitir, Senhor, que por estes divinos mystérios nos
+              aproximemos de Jesus o mediador do Novo Testamento e que renovemos
+              a efusão do seu Sangue sobre os vossos altares, ó Senhor dos
+              exércitos, o qual é mais eloquente do que o sangue de Abel. Pelo
+              mesmo nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Comúnio</Text>
+
+          <Text className="em">Heb. 9, 28</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Christus semel oblítus est ad multórum exhauriénda peccáta:
+              secúndo sine peccáto apparébit exspectántibus se in salútem.
+            </Text>
+            <Text className="text-base vernacular">
+              Cristo ofereceu-se uma vez para apagar os pecados de muitos; em
+              uma segunda vez Ele aparecerá não já para expiar os pecados, mas
+              para salvar aqueles que O esperam.
+            </Text>
+          </View>
+
+          <Text className="h3">Postcomúnio</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Ad sacram, Dómine, mensam admíssi, háusimus aquas in gáudio de
+              fóntibus Salvatóris: sanguis ejus fiat nobis, quǽsumus, fons aquæ
+              in vitam ætérnam saliéntis: Qui tecum vivit...
+            </Text>
+            <Text className="text-base vernacular">
+              Havendo sido admitidos à sagrada mesa, Senhor, bebemos com alegria
+              as águas nas fontes do Salvador; e, Vos suplicamos, permiti que
+              seu Sangue se torne para nós numa fonte de água viva, brotando até
+              à vida eterna. Ele, que, sendo Deus, vive e reina...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

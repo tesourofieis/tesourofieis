@@ -4,7 +4,7 @@
   "packageManager": "pnpm@9.7.1",
   "scripts": {
     "lint": "biome lint .",
-    "lint:fix": "biome lint --write .",
+    "lint:fix": "biome lint --write --unsafe .",
     "format": "biome format .",
     "typecheck": "biome check .",
     "typecheck:fix": "biome check --write .",

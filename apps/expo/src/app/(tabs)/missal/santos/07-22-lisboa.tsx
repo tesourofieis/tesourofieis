@@ -1,0 +1,106 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import { Link } from "expo-router";
+import React from "react";
+import LinkCard from "~/components/LinkCard";
+
+export default function Page0722Lisboa() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. Lourenço de Brindes, Conf., a 22 de Julho
+          </Text>
+          <Text className="h3">Intróito</Text>
+          <Text className="text-base">
+            Descobrirei as obras de Deus pelas suas palavras. O sol, iluminando
+            o mundo, vê todas as coisas: e a glória do Senhor brilha nas suas
+            obras. Apareça o Senhor e desapareçam os seus inimigos! Que aqueles
+            que O odeiam fujam da sua presença. ℣. Glória ao Pai...
+          </Text>
+          <Text className="h3">Oração</Text>
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Deus, qui ad árdua quæque pro nóminis tui glória et animárum
+              salúte beáto Lauréntio, Confessóri tuo atque Doctóri, spíritum
+              sapiéntiæ et fortitúdinis contulísti: da nobis in eódem spíritu et
+              agénda cognóscere; et cógnita, ejus intercessióne, perfícere.
+            </Text>
+            <Text className="text-base vernacular">
+              Ó Deus, que para glória do vosso nome e salvação das almas
+              ornastes o B. Lourenço, vosso Confessor, com o espírito de
+              conselho e de fortaleza nas obras ainda as mais árduas,
+              concedei-nos pela sua intercessão o mesmo espírito, a fim de
+              conhecermos o que devemos praticar e de praticarmos o que
+              houvermos conhecido. Por nosso Senhor...
+            </Text>
+          </View>
+          <Text className="h3">Epístola</Text>
+          <Text className="text-base">
+            Lição da Ep.ª do B. Ap.º Paulo aos Coríntios. A caridade de Cristo
+            obriga-nos. Se considerarmos que um só morreu por todos, então todos
+            morreremos. Ora Cristo morreu por todos, para que os que vivem, já
+            não vivam para si, mas para Aquele que morreu e ressuscitou por
+            eles. Eis porque não conhecemos ninguém, segundo a carne; e, se
+            conhecemos Jesus Cristo segundo a carne, agora já o não conhecemos
+            assim. Se alguém, pois. é de Cristo, é uma criatura nova; o passado
+            já desapareceu e tudo se tornou novo. Tudo vem de Deus, que nos
+            reconciliou consigo por Cristo e que nos confiou o ministério da
+            reconciliação; porquanto Deus estava verdadeiramente em Cristo
+            quando se reconciliou com o mundo, lhe não imputando mais os seus
+            pecados e revestindo-nos com o poder da reconciliação. Nós
+            cumprimos, pois, o cargo de embaixadores de Cristo, e é Deus quem
+            vos exorta, servindo-se de nós. Nós vos conjuramos, invocando o nome
+            de Cristo, a que vos reconcilieis com Deus, o qual por amor de vós
+            tratou Aquele que não tinha pecado como se o tivesse, a fim de que
+            por Ele nos tornássemos justos na justiça que vem de Deus.
+          </Text>
+          <Text className="h3">Gradual</Text>
+          <Text className="text-base">
+            O Senhor é a minha fortaleza e a minha glória, pois foi o meu
+            Salvador. Ele é o meu Deus: eu O glorificarei. O Senhor apareceu,
+            como um guerreiro: e chama-se omnipotente. Aleluia, aleluia. Invocou
+            o Altíssimo e o Omnipotente quando os inimigos o atacaram de todos
+            os lados; e Deus, que é excelso e santo, ouviu-o. Aleluia.
+          </Text>
+          <Text className="h3">Evangelho</Text>
+          <LinkCard
+            href="/missal/pentecostes/pasc7-5#evangelho"
+            title="Sexta-feira das Têmporas de Pentecostes - Estação nos Doze Apóstolos"
+          />
+          <Text className="h3">Ofertório</Text>
+          <Text className="text-base">
+            Ele quis que minha boca fosse como uma espada aguda. Protegeu-me com
+            a sombra da sua mão de reserva, como uma flecha escolhida.
+          </Text>
+          <Text className="h3">Secreta</Text>
+          <Text className="text-base">
+            Fazei, ó Deus, que as lágrimas da salutar penitência nos tornem
+            dignos de nos aproximarmos deste celestial banquete, o qual era tão
+            suave à candura da alma do B. Lourenço. Por nosso Senhor...
+          </Text>
+          <Text className="h3">Comúnio</Text>
+          <Text className="text-base">
+            Os poderosos ficarão admirados quando me virem; e a face dos
+            príncipes manifestará a sua admiração.
+          </Text>
+          <Text className="h3">Postcomúnio</Text>
+          <Text className="text-base">
+            Possamos nós, Senhor, ficar eternamente saciados com esta alegria da
+            vossa divindade, cujo gozo o B. Lourenço experimentou no sacrossanto
+            mystério do altar. Por nosso Senhor...
+          </Text>
+          <Text className="aside">
+            Nalguns lugares diz-se a
+            <Link href="/missal/comum/14confessoresnaopontifices1">
+              Missa Os justi,
+            </Link>
+            com a Oração, Secreta e Postcomúnio precedentes.
+          </Text>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

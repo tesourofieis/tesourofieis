@@ -1,0 +1,222 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+
+export default function PageAdv30() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Terceiro Domingo do Advento</Text>
+
+          <Text className="h3">Intróito</Text>
+
+          <Text className="em">Fl. 4, 4–6</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia vestra
+              nota sit ómnibus homínibus: Dóminus enim prope est. Nihil
+              sollíciti sitis: sed in omni oratióne petitiónes vestræ
+              innotéscant apud Deum.{" "}
+              <Text className="text-base latin">Ps. 84, 2</Text> Benedixísti,
+              Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria
+              Patri...
+            </Text>
+            <Text className="text-base vernacular">
+              Regozijai-vos incessantemente no Senhor. Eu vo-lo repito:
+              regozijai-vos. Que todos os homens vejam a vossa modéstia, Pois o
+              Senhor está perto. Não vos inquieteis com coisa alguma; mas
+              mostrai a Deus nas vossas orações e súplicas todas vossas
+              necessidades.{" "}
+              <Text className="text-base vernacular">Sl. 84, 2</Text>{" "}
+              Abençoastes, Senhor, a vossa terra: e livrastes Jacob do
+              cativeiro. ℣. Glória ao Pai...
+            </Text>
+          </View>
+
+          <Text className="h3">Oração</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Aurem tuam, quǽsumus, Dómine, précibus nostris accómmoda: et
+              mentis nostræ ténebras, grátia tuæ visitatiónis illústra: Qui
+              vivis...
+            </Text>
+            <Text className="text-base vernacular">
+              Ouvi, Senhor, Vos suplicamos, as nossas orações; e, pela graça da
+              vossa visita, esclarecei as trevas da nossa alma: Vós, que, sendo
+              Deus, viveis e...
+            </Text>
+          </View>
+
+          <Text className="h3">Epístola</Text>
+
+          <Text className="em">Fl. 4, 4–7</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Lectio Epístolæ beati Pauli Apóstoli ad Philippénses.
+            </Text>
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
+            </Text>
+            <Text className="text-base latin">
+              Fratres: Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia
+              vestra nota sit ómnibus homínibus: Dóminus prope est. Nihil
+              sollíciti sitis: sed in omni oratióne et obsecratióne, cum
+              gratiárum actióne, petitiónes vestræ innotéscant apud Deum. Et pax
+              Dei, quæ exsúperat omnem sensum, custódiat corda vestra et
+              intellegéntias vestras, in Christo Jesu, Dómino nostro.
+            </Text>
+            <Text className="text-base vernacular">
+              Meus irmãos: Regozijai-vos incessantemente no Senhor. Eu vo-lo
+              repito: regozijai-vos. Que todos os homens vejam a vossa modéstia.
+              Não vos inquieteis com coisa alguma; mas mostrai a Deus pelas
+              vossas orações e súplicas todas vossas necessidades. A paz de
+              Deus, que ultrapassa toda nossa inteligência, guardará os vossos
+              corações e inteligências em Jesus Cristo, nosso Senhor.
+            </Text>
+          </View>
+
+          <Text className="h3">Gradual</Text>
+
+          <Text className="em">Sl. 79, 2, 3 & 2</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Qui sedes, Dómine, super Chérubim, éxcita poténtiam tuam, et veni.
+              ℣. Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.
+            </Text>
+            <Text className="text-base vernacular">
+              Senhor, que estais assentado acima dos Querubins, mostrai o vosso
+              poder, e vinde. ℣. Ouvi, ó vós, que governais Israel; ó vós, que
+              conduzis José, como um pastor conduz um rebanho.
+            </Text>
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣. Excita, Dómine, potentiam tuam, et veni, ut
+              salvos fácias nos. Allelúja.
+            </Text>
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣. Mostrai, Senhor, o vosso poder, e vinde, para
+              que sejamos salvos. Aleluia.
+            </Text>
+          </View>
+
+          <Text className="h3">Evangelho</Text>
+
+          <Text className="em">Jo. 1, 19–28</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
+              Evangélii secúndum Joánnem.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. João.
+            </Text>
+            <Text className="text-base latin">
+              In illo tempore: Misérunt Judǽi ab Jerosólymis sacerdótes et
+              levítas ad Joánnem, ut interrogárent eum: Tu quis es? Et conféssus
+              est, et non negávit: et conféssus est: Quia non sum ego Christus.
+              Et interrogavérunt eum: Quid ergo? Elías es tu? Et dixit: Non sum.
+              Prophéta es tu? Et respondit: Non. Dixérunt ergo ei: Quis es, ut
+              respónsum demus his, qui misérunt nos? Quid dicis de te ipso? Ait:
+              Ego vox clamántis in desérto: Dirígite viam Dómini, sicut dixit
+              Isaías Prophéta. Et qui missi fúerant, erant ex pharisǽis. Et
+              interrogavérunt eum, et dixérunt ei: Quid ergo baptízas, si tu non
+              es Christus, neque Elías, neque Prophéta? Respóndit eis Joánnes,
+              dicens: Ego baptízo in aqua: médius autem vestrum stetit, quem vos
+              nescítis. Ipse est, qui post me ventúrus est, qui ante me factus
+              est: cujus ego non sum dignus ut solvam ejus corrígiam
+              calceaménti. Hæc in Bethánia facta sunt trans Jordánem, ubi erat
+              Joánnes baptízans.
+            </Text>
+            <Text className="text-base vernacular">
+              Naquele tempo, os judeus enviaram de Jerusalém alguns sacerdotes e
+              levitas a João, perguntando-lhe: «Quem és tu?». Ele confessou e
+              não negou. Ele confessou: «Eu não sou Cristo». E de novo o
+              interrogaram: «Então quem és? És Elias?» João respondeu: «Não
+              sou». «És algum Profeta?». Ele respondeu: «Não sou». «Diz, pois,
+              quem és, a fim de que respondamos àqueles que nos enviaram. Que
+              dizes de ti?» E João respondeu: «Eu sou a voz daquele que clama no
+              deserto: «Endireitai o caminho de Senhor», como disse o Profeta
+              Isaías». Ora, como alguns daqueles que lhe haviam sido enviados
+              eram fariseus, interrogaram-no e disseram-lhe: «Então, se não és
+              nem Cristo, nem Elias, nem algum Profeta, porque baptizas?» João
+              respondeu-lhes: a «Eu baptizo na água; porém, entre vós está
+              Alguém, a quem não conheceis, que é Aquele que havia de vir depois
+              de mim, mas que já existia antes de mim, e a quem não sou digno de
+              desatar as correias das sandálias». Isto aconteceu em Betânia,
+              além-Jordão, onde João baptizava.
+            </Text>
+          </View>
+
+          <Text className="h3">Ofertório</Text>
+
+          <Text className="em">Sl. 84, 2</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob:
+              remisísti iniquitatem plebis tuæ.
+            </Text>
+            <Text className="text-base vernacular">
+              Abençoastes Senhor, a vossa terra; e livrastes Jacob do cativeiro:
+              perdoastes a iniquidade do vosso povo.
+            </Text>
+          </View>
+
+          <Text className="h3">Secreta</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Devotiónis nostræ tibi, quǽsumus, Dómine, hóstia iúgiter
+              immolétur: quæ et sacri péragat institúta mystérii, et salutáre
+              tuum in nobis mirabíliter operétur. Per Dominum nostrum...
+            </Text>
+            <Text className="text-base vernacular">
+              Senhor, Vos suplicamos, fazei que a nossa piedade Vos ofereça
+              continuamente o sacrifício desta hóstia, para que ela nos alcance
+              aquelas graças para que instituístes estes sagrados mystérios,
+              produzindo em nós de uma maneira admirável a salvação que
+              esperamos da vossa bondade. Por nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Comúnio</Text>
+
+          <Text className="em">Is. 35, 4</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Dícite: pusillánimes, confortámini et nolíte timére: ecce, Deus
+              noster véniet et salvábit nos.
+            </Text>
+            <Text className="text-base vernacular">
+              Dizei:«Pusilânimes, confortai-vos e nada receeis: Eis que vem o
+              nosso Deus e nos salvará».
+            </Text>
+          </View>
+
+          <Text className="h3">Postcomúnio</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Implorámus, Dómine, cleméntiam tuam: ut hæc divína subsídia, a
+              vítiis expiátos, ad festa ventúra nos præparent. Per Dominum
+              nostrum...
+            </Text>
+            <Text className="text-base vernacular">
+              Imploramos, Senhor, a vossa clemência, a fim de que estes divinos
+              mystérios, purificando-nos dos nossos vícios, nos Preparem para a
+              solenidade que se aproxima. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

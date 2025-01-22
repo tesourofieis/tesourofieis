@@ -1,0 +1,237 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+
+export default function PagePent130() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            Décimo Terceiro Domingo depois de Pentecostes
+          </Text>
+
+          <Text className="h3">Intróito</Text>
+
+          <Text className="em">Sl. 73, 20,19 & 23</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne
+              derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et
+              ne obliviscáris voces quæréntium te.{" "}
+              <Text className="text-base latin">Ps. ibid., 1</Text> Ut quid,
+              Deus, reppulísti in finem: irátus est furor tuus super oves páscuæ
+              tuæ? ℣. Gloria Patri...
+            </Text>
+            <Text className="text-base vernacular">
+              Lembrai-vos, Senhor, da vossa aliança connosco e não esqueçais
+              para sempre as almas dos vossos servos. Erguei-Vos, Senhor, julgai
+              a vossa causa: e não desprezeis as orações daqueles que a Vós
+              recorrem. Porque, ó Deus, nos repelistes para sempre?{" "}
+              <Text className="text-base vernacular">Sl. ibid., 1</Text> Porque,
+              ó Deus, cresceu a vossa ira contra as ovelhas dos vossos pastos?
+              ℣. Glória ao Pai...
+            </Text>
+          </View>
+
+          <Text className="h3">Oração</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Omnípotens sempitérne Deus, da nobis fídei, spei et caritátis
+              augméntum: et, ut mereámur asséqui quod promíttis, fac nos amáre
+              quod prǽcipis. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Ó Deus omnipotente e sempiterno, concedei-nos o aumento da fé, da
+              esperança e da caridade; e, a fim de merecermos alcançar o que nos
+              prometestes, permiti que amemos o que nos preceituais. Por nosso
+              Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Epístola</Text>
+
+          <Text className="em">Gl. 3, 16-22</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
+            </Text>
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.
+            </Text>
+            <Text className="text-base latin">
+              Fratres: Abrahæ dictæ sunt promissiónes, et sémini ejus. Non
+              dicit: Et semínibus, quasi in multis; sed quasi in uno: Et sémini
+              tuo, qui est Christus. Hoc autem dico: testaméntum confirmátum a
+              Deo, quæ post quadringéntos et trigínta annos facta est lex, non
+              írritum facit ad evacuándam promissiónem. Nam si ex lege
+              heréditas, jam non ex promissióne. Abrahæ autem per repromissiónem
+              donávit Deus. Quid igitur lex? Propter transgressiónes pósita est,
+              donec veníret semen, cui promíserat, ordináta per Angelos in manu
+              mediatóris. Mediátor autem uníus non est: Deus autem unus est. Lex
+              ergo advérsus promíssa Dei? Absit. Si enim data esset lex, quæ
+              posset vivificáre, vere ex lege esset justítia. Sed conclúsit
+              Scriptúra ómnia sub peccáto, ut promíssio ex fide Jesu Christi
+              darétur credéntibus.
+            </Text>
+            <Text className="text-base vernacular">
+              Meus irmãos: As promessas foram feitas a Abraão e à sua
+              descendência. Pois a Escritura não diz «aos seus descendentes»,
+              como se se referisse a muitos, mas diz, referindo-se a um só: «e
+              Àquele que nascerá de vós, isto é, Cristo». Portanto digo: Deus,
+              tendo feito e confirmado uma aliança, a Lei, que foi dada somente
+              quatrocentos e trinta anos depois, não poderá anular nem destruir
+              a promessa. Ora, se pela Lei é que somos herdeiros da bênção, já
+              esta não vem da promessa, ainda que tenha sido em virtude da
+              promessa que a bênção foi dada a Abraão. Para que serve, pois, a
+              Lei? Ela foi dada por causa das transgressões, até que viesse «a
+              descendência», à qual havia sido feita a promessa. Ela foi
+              promulgada pelos Anjos por meio dum mediador. Ora, um mediador o
+              não é para um só, e Deus é um só. Logo é a Lei contrária à
+              promessa de Deus? De nenhum modo. Se a Lei tivesse podido dar a
+              vida verdadeira, então a justiça viria também, verdadeiramente, da
+              Lei; mas a Escritura encerrou tudo sob o pecado, a fim de que a
+              promessa fosse dada pela fé em Jesus Cristo àqueles que
+              acreditassem.
+            </Text>
+          </View>
+
+          <Text className="h3">Gradual</Text>
+
+          <Text className="em">Sl. 73, 20, 19 et 22</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Réspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne
+              obliviscáris in finem. ℣. Exsúrge, Dómine, et júdica causam tuam:
+              memor esto oppróbrii servórum tuórum.
+            </Text>
+            <Text className="text-base vernacular">
+              Lembrai-Vos, Senhor, da vossa aliança connosco e não esqueçais
+              para sempre as almas dos vossos servos. ℣. Erguei-Vos, Senhor,
+              julgai a vossa causa e lembrai-Vos dos opróbrios que sofreram os
+              vossos servos.
+            </Text>
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 89, 1</Text> Dómine,
+              refúgium factus es nobis a generatióne et progénie. Allelúja.
+            </Text>
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 89, 1</Text> De geração
+              em geração, Senhor tendes sido o nosso refúgio. Aleluia.
+            </Text>
+          </View>
+
+          <Text className="h3">Evangelho</Text>
+
+          <Text className="em">Lc. 17, 11-19</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
+              Evangélii secúndum Lucam.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Lucas.
+            </Text>
+            <Text className="text-base latin">
+              In illo témpore: Dum iret Jesus in Jerúsalem, transíbat per médiam
+              Samaríam et Galilǽam. Et cum ingrederétur quoddam castéllum,
+              occurrérunt ei decem viri leprósi, qui stetérunt a longe; et
+              levavérunt vocem dicéntes: Jesu præcéptor, miserére nostri. Quos
+              ut vidit, dixit: Ite, osténdite vos sacerdótibus. Et factum est,
+              dum irent, mundáti sunt. Unus autem ex illis, ut vidit quia
+              mundátus est, regréssus est, cum magna voce magníficans Deum, et
+              cecidit in fáciem ante pedes ejus, grátias agens: et hic erat
+              Samaritánus. Respóndens autem Jesus, dixit: Nonne decem mundáti
+              sunt? et novem ubi sunt? Non est invéntus, qui redíret et daret
+              glóriam Deo, nisi hic alienígena. Et ait illi: Surge, vade; quia
+              fides tua te salvum fecit.
+            </Text>
+            <Text className="text-base vernacular">
+              Naquele tempo, indo Jesus para Jerusalém, atravessou a Samaria e a
+              Galileia. Entrando, então, numa aldeia, foram ao seu encontro
+              (ficando, contudo, a certa distância) dez leprosos, que clamavam:
+              «Jesus, Mestre, tende misericórdia de nós!». Quando Jesus os viu,
+              disse-lhes: «Ide e mostrai-vos aos sacerdotes». Enquanto eles iam,
+              foram curados, Então um deles, vendo-se curado, voltou para trás,
+              glorificando Deus em voz alta; e, prostrando-se com o rosto no
+              chão, aos pés de Jesus, deu-Lhe graças! Este era samaritano. Jesus
+              disse: «Porventura não foram os dez curados? Onde estão, pois, os
+              outros nove? Não houve senão este estrangeiro que viesse e
+              rendesse glória a Deus?». E, dirigindo-se a ele, acrescentou:
+              «Levanta-te e vai: a tua fé te salvo.
+            </Text>
+          </View>
+
+          <Text className="h3">Ofertório</Text>
+
+          <Text className="em">Sl. 30, 15-16</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              In te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis
+              témpora mea.
+            </Text>
+            <Text className="text-base vernacular">
+              Em Vós, Senhor, pus toda minha esperança; e disse: Vós sois o meu
+              Deus; a minha vida está nas vossas mãos.
+            </Text>
+          </View>
+
+          <Text className="h3">Secreta</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Propitiáre, Dómine, pópulo tuo, propitiáre munéribus: ut, hac
+              oblatióne placátus, et indulgéntiam nobis tríbuas et postuláta
+              concedas. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Olhai propício para o vosso povo, Senhor, e aceitai benignamente
+              as nossas ofertas, a fim de que, deixando-Vos aplacar com esta
+              oferta, nos concedais o perdão e atendais às nossas súplicas. Por
+              nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Comúnio</Text>
+
+          <Text className="em">Sb. 16, 20</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Panem de cœlo dedísti nobis, Dómine, habéntem omne delectaméntum
+              et omnem sapórem suavitátis.
+            </Text>
+            <Text className="text-base vernacular">
+              Destes-nos, Senhor, um pão do céu, que contém todas as delícias e
+              o mais suave sabor.
+            </Text>
+          </View>
+
+          <Text className="h3">Postcomúnio</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Sumptis, Dómine, cœléstibus sacraméntis: ad redemptiónis ætérnæ,
+              quǽsumus, proficiámus augméntum. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Havendo nós recebido estes celestiais sacramentos, Senhor,
+              concedei-nos a graça, Vos imploramos, de progredirmos sempre no
+              caminho da salvação eterna. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

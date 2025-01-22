@@ -1,0 +1,198 @@
+import { Link } from "expo-router";
+
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+import LinkCard from "~/components/LinkCard";
+
+export default function Page0626() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">
+            S. S. João e Paulo, Mártires, a 26 de Junho
+          </Text>
+
+          <Text className="comment">
+            Os dois irmãos João e Paulo eram Romanos e serviam à Constância,
+            filha de Constantino. Juliano o Apóstata, convidou-os a tomar parte
+            entre os seus familiares, eles, porém, recusaram a fim de guardar a
+            Jesus a sua fidelidade. Concederam-lhes dez dias para se resolverem,
+            do que aproveitaram para distribuir seus bens aos pobres. Foram
+            presos e, «sem temer os que não podem senão matar o corpo e nada
+            mais fazer» (Ev.), tornaram-se, no ano 362, mais que nunca irmãos
+            pela mesma fé e pelo mesmo martírio (Or.. Grad., Ale.). A Igreja os
+            compara «às duas oliveiras e aos dois candelabros, brilhando diante
+            da face do Senhor, e de que fala o Apocalipse». «Estes justos,
+            acrescenta ele, comparecem juntos na presença do Senhor e não se
+            separam». Seus nomes figuram no
+            <Link className="link" href="/missal/ordo#canon-missæ">
+              Canon da Missa
+            </Link>{" "}
+            passando de geração em geração, enquanto os seus corpos descançam em
+            paz (Ep.) no antigo santuário a eles consagrado no Monte Coelius, em
+            Roma e onde é feita a Estação de Sexta-Feira depois das Cinzas.
+            Alegremo-nos com a Igreja pelo trinfo de São João e de São Paulo
+            (Or.) e, imitando-os, confessemos a fé em Jesus, diante dos homens,
+            e Ele nos reconhecerá como seus, em presença de seus Anjos (Ev.).
+          </Text>
+
+          <Text className="h3">Intróito</Text>
+
+          <LinkCard
+            href="/missal/santos/06-15#intróito"
+            title="S. S. Vito, Modesto e Crescência, Mártires"
+          />
+
+          <Text className="h3">Oração</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Quǽsumus, omnípotens Deus: ut nos gemináta lætítia hodiérnæ
+              festivitátis excípiat, quæ de beatórum Joánnis et Pauli
+              glorificatióne procédit; quos eadem fides et pássio vere fecit
+              esse germános. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Ó Senhor omnipotente, Vos rogamos, permiti que participemos da
+              alegria desta dupla festa, neste dia em que são glorificados os B.
+              B. João e Paulo, que a mesma fé e o mesmo martírio tornaram
+              verdadeiramente irmãos. Por nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Epístola</Text>
+
+          <Text className="em">Ecl. 44, 10-15</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="text-base vernacular">
+              Lição do Livro da Sabedoria.
+            </Text>
+            <Text className="text-base latin">
+              Hi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum
+              semine eórum pérmanent bona, heréditas sancta nepótes eórum, et in
+              testaméntis stetit semen eórum: et fílii eórum propter illos usque
+              in ætérnum manent: semen eórum et glória eórum non derelinquétur.
+              Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in
+              generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli,
+              et laudem eórum núntiet Ecclésia.
+            </Text>
+            <Text className="text-base vernacular">
+              São homens de misericórdia e as obras da sua piedade não faltaram.
+              Os bens, que deixaram à posteridade, permanecerão sempre. Seus
+              descendentes constituirão uma herança sagrada; a sua raça manterá
+              a aliança com Deus; e em virtude dela os seus filhos subsistirão
+              eternamente, nunca mas acabando a sua geração, assim como a sua
+              glória. Seus corpos foram sepultados em paz e o seu nome vive em
+              todas as gerações. Que os povos, pois, publiquem a sua sabedoria e
+              que a Igreja cante os seus louvores.
+            </Text>
+          </View>
+          <Text className="h3">Gradual</Text>
+
+          <Text className="em">Sl. 132, 1-2</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Ecce, quam bonum et quam jucúndum, habitáre fratres in unum! ℣.
+              Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.
+            </Text>
+            <Text className="text-base vernacular">
+              Ah! como é bom e consolador que os irmãos habitem juntamente. ℣. É
+              como o perfume espalhado na cabeça, que desceu sobre a barba de
+              Aarão.
+            </Text>
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi
+              crímina: Christum secúta est, ínclita tenens regna cœléstia.
+              Allelúja.
+            </Text>
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣. Esta é a verdadeira fraternidade que venceu
+              os crimes do mundo: ela seguiu Cristo e por isso possuirá
+              gloriosamente o reino do céu. Aleluia.
+            </Text>
+          </View>
+
+          <Text className="h3">Evangelho</Text>
+
+          <LinkCard
+            href="/missal/comum/8muitosmartires3#evangelho"
+            title="Muitos Mártires - Missa Salus autem"
+          />
+
+          <Text className="h3">Ofertório</Text>
+
+          <Text className="em">Sl. 5, 12-13</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Gloriabúntur in te omnes, qui díligunt nomen tuum, quóniam tu,
+              Dómine, benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ
+              coronásti nos.
+            </Text>
+            <Text className="text-base vernacular">
+              Todos aqueles que amam o vosso nome, Senhor, serão glorificados
+              convosco, pois abençoais o justo. Vós o protegereis, Senhor, com
+              vossa boa vontade, como se fora um escudo.
+            </Text>
+          </View>
+
+          <Text className="h3">Secreta</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Hóstias tibi, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
+              dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue
+              proveníre subsídium. Per Dóminum nostrum...
+            </Text>
+            <Text className="text-base vernacular">
+              Aceitai benigno, Senhor, as hóstias que Vos oferecemos pelos
+              méritos dos vossos Santos Mártires João e Paulo e dignai-Vos, em
+              virtude delas, fazer descer sobre nós o vosso perpétuo socorro.
+              Por nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Comúnio</Text>
+
+          <Text className="em">Sb. 3, 4, 5 & 6</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Est si coram homínibus torménta passi sunt, Deus tentavit eos:
+              tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit
+              eos.
+            </Text>
+            <Text className="text-base vernacular">
+              Se sofreram tormentos diante dos homens, foi porque Deus os
+              provou. Deus provou-os, como ao ouro, na fornalha, e recebeu-os,
+              como hóstia de holocausto.
+            </Text>
+          </View>
+
+          <Text className="h3">Postcomúnio</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Súmpsimus, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
+              sollémnia celebrántes, sacraménta cœléstia: præsta, quǽsumus; ut,
+              quod temporáliter gérimus, ætérnis gáudiis consequámur. Per
+              Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Recebemos, Senhor, os vossos celestiais sacramentos, celebrando a
+              festa dos vossos Santos Mártires João e Paulo; e concedei-nos, Vos
+              suplicamos, que alcancemos nos gozos eternos o que agora
+              celebrámos. Por nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

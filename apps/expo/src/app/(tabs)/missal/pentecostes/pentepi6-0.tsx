@@ -1,0 +1,237 @@
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import React from "react";
+
+export default function PagePentepi60() {
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView>
+        <View className="docs">
+          <Text className="h1">Sexto Domingo depois da Epifania</Text>
+
+          <Text className="h3">Intróito</Text>
+
+          <Text className="em">Jr. 29,11,12 & 14</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
+              invocábitis me, et ego exáudiam vos: et redúcam captivitátem
+              vestram de cunctis locis.{" "}
+              <Text className="text-base latin">Ps. 84, 2</Text> Benedixísti,
+              Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria
+              Patri...
+            </Text>
+            <Text className="text-base vernacular">
+              Disse o Senhor: tenho pensamentos de paz e não de ira:
+              invocar-me-eis e ouvir-Vos-ei; e farei regressar de todos os
+              países os vossos cativos.{" "}
+              <Text className="text-base vernacular">Sl. 84, 2</Text>{" "}
+              Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro.
+              ℣. Glória ao Pai...
+            </Text>
+          </View>
+
+          <Text className="h3">Oração</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Præsta, quǽsumus, omnípotens Deus: ut, semper rationabília
+              meditántes, quæ tibi sunt plácita, et dictis exsequámur et factis.
+              Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Permiti, Vos imploramos, ó Deus omnipotente, que, meditando nós
+              incessantemente nas coisas santas, pratiquemos sempre, tanto em
+              palavras como em acções, o que seja do vosso agrado. Por nosso
+              Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Epístola</Text>
+
+          <Text className="em">1 Ts, 1, 2-10</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
+            </Text>
+            <Text className="text-base vernacular">
+              Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.
+            </Text>
+            <Text className="text-base latin">
+              Fratres: Grátias ágimus Deo semper pro ómnibus vobis, memóriam
+              vestri faciéntes in oratiónibus nostris sine intermissióne,
+              mémores óperis fídei vestræ, et labóris, et caritátis, et
+              sustinéntiæ spei Dómini nostri Jesu Christi, ante Deum et Patrem
+              nostrum: sciéntes, fratres, dilécti a Deo, electiónem vestram:
+              quia Evangélium nostrum non fuit ad vos in sermóne tantum, sed et
+              in virtúte, et in Spíritu Sancto, et in plenitúdine multa, sicut
+              scitis quales fuérimus in vobis propter vos. Et vos imitatóres
+              nostri facti estis, et Dómini, excipiéntes verbum in tribulatióne
+              multa, cum gáudio Spíritus Sancti: ita ut facti sitis forma
+              ómnibus credéntibus in Macedónia et in Achája. A vobis enim
+              diffamátus est sermo Dómini, non solum in Macedónia et in Achája,
+              sed et in omni loco fides vestra, quæ est ad Deum, profécta est,
+              ita ut non sit nobis necésse quidquam loqui. Ipsi enim de nobis
+              annúntiant, qualem intróitum habuérimus ad vos: et quómodo
+              convérsi estis ad Deum a simulácris, servíre Deo vivo et vero, et
+              exspectáre Fílium ejus de cœlis (quem suscitávit ex mórtuis)
+              Jesum, qui erípuit nos ab ira ventúra.
+            </Text>
+            <Text className="text-base vernacular">
+              Meus irmãos: Continuamente damos graças a Deus por vós todos,
+              lembrando-nos de vós sem cessar nas nossas orações e recordando
+              diante de Deus, nosso Pai, as obras da vossa fé, os trabalhos da
+              vossa caridade e a constância da vossa esperança em Cristo.
+              Sabemos, irmãos amados de Deus, que fostes escolhidos; pois o
+              nosso Evangelho vos não foi pregado somente com palavras, mas
+              também com milagres, pelo poder do Espírito Santo e com a
+              plenitude de muitos dons. Não ignorais, também, como temos
+              procedido no meio de vós, por causa da vossa salvação. E assim vos
+              fizestes nossos imitadores, e do Senhor, recebendo a sua palavra
+              no meio de muitas tribulações com a alegria do Espírito Santo, de
+              sorte que vos tornastes modelo para todos os fiéis da Macedónia e
+              da Acaia. Pois nem só fostes a causa de que a palavra do Senhor se
+              transmitisse na Macedónia e na Acaia, mas também a vossa fé em
+              Deus se fez conhecer em todo o lugar; e tanto que nem é necessário
+              que falemos em tal. Todos esses povos apregoam o êxito que
+              alcançámos junto de vós, e como vos convertestes, abandonando os
+              ídolos para servir a Deus vivo e verdadeiro e para esperar do céu
+              o seu Filho Jesus, que ressuscitou dos mortos e nos livrou da ira
+              futura.
+            </Text>
+          </View>
+
+          <Text className="h3">Gradual</Text>
+
+          <Text className="em">Sl. 43, 8-9</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
+              odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine
+              tuo confitébimur in sǽcula.
+            </Text>
+            <Text className="text-base vernacular">
+              Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes
+              os que nos odiavam. Glorificar-nos-emos constantemente em Deus e
+              louvaremos eternamente o vosso nome.
+            </Text>
+            <Text className="text-base latin">
+              Allelúja, allelúja. ℣.{" "}
+              <Text className="text-base latin">Ps. 129, 12</Text> De profúndis
+              clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.
+            </Text>
+            <Text className="text-base vernacular">
+              Aleluia, aleluia. ℣.{" "}
+              <Text className="text-base vernacular">Sl. 129, 12</Text> Do fundo
+              do abysmo Vos invoquei, Senhor: escutai a minha oração. Aleluia.
+            </Text>
+          </View>
+
+          <Text className="h3">Evangelho</Text>
+
+          <Text className="em">Mt. 13, 31-35</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              <Text className="text-base latin">✠</Text> Sequéntia sancti
+              Evangélii secúndum Matthǽum.
+            </Text>
+            <Text className="text-base vernacular">
+              <Text className="text-base vernacular">✠</Text> Continuação do
+              santo Evangelho segundo S. Mateus.
+            </Text>
+            <Text className="text-base latin">
+              In illo témpore: Dixit Jesus turbis parábolam hanc: Símile est
+              regnum cœlórum grano sinápis, quod accípiens homo seminávit in
+              agro suo: quod mínimum quidem est ómnibus semínibus: cum autem
+              créverit, majus est ómnibus oléribus, et fit arbor, ita ut
+              vólucres cœli véniant et hábitent in ramis ejus. Aliam parábolam
+              locútus est eis: Símile est regnum cœlórum ferménto, quod accéptum
+              múlier abscóndit in farínæ satis tribus, donec fermentátum est
+              totum. Hæc ómnia locútus est Jesus in parábolis ad turbas: et sine
+              parábolis non loquebátur eis: ut implerétur quod dictum erat per
+              Prophétam dicéntem: Apériam in parábolis os meum, eructábo
+              abscóndita a constitutióne mundi.
+            </Text>
+            <Text className="text-base vernacular">
+              Naquele tempo, Jesus disse às turbas: O reino dos céus é
+              semelhante a um grão de mostarda que um homem tomou e semeou no
+              seu campo, a qual é a mais Pequena de todas as sementes, mas,
+              quando cresce, torna-se na maior de todas as hortaliças, e
+              forma-se uma árvore de tal modo grande que as aves do céu vêm
+              pousar nos seus ramos. Depois, ainda Jesus lhes disse: O reino dos
+              céus é semelhante ao fermento que uma mulher toma e mistura em
+              três medidas de farinha, até que todas estejam lêvedas. Tudo isto
+              disse Jesus em parábolas; e sem parábolas não falava, para que se
+              cumprisse o que fora dito pelo Profeta: «Abrirei a minha boca em
+              parábolas e revelarei muitas coisas que estão ocultas desde a
+              criação do mundo».
+            </Text>
+          </View>
+
+          <Text className="h3">Ofertório</Text>
+
+          <Text className="em">Sl. 129, 1-2</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam:
+              de profúndis clamávi ad te. Dómine.
+            </Text>
+            <Text className="text-base vernacular">
+              Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor,
+              a minha voz: das profundezas dos abysmos Vos invoquei.
+            </Text>
+          </View>
+
+          <Text className="h3">Secreta</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Hæc nos oblátio, Deus, mundet, quǽsumus, et rénovet, gubérnet et
+              prótegat. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Ó Deus, Vos imploramos, que esta oblação nos purifique, restaure,
+              governe e guarde. Por nosso Senhor...
+            </Text>
+          </View>
+
+          <Text className="h3">Comúnio</Text>
+
+          <Text className="em">Mc. 11, 24</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Amen, dico vobis, quidquid orántes pétitis, crédite, quia
+              accipiétis, et fiet vobis.
+            </Text>
+            <Text className="text-base vernacular">
+              Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
+              acreditai que o recebereis; e far-se-á como pedirdes».
+            </Text>
+          </View>
+
+          <Text className="h3">Postcomúnio</Text>
+
+          <View className="side-by-side">
+            <Text className="text-base latin">
+              Cœléstibus, Dómine, pasti delíciis: quǽsumus; ut semper éadem, per
+              quæ veráciter vívimus, appétimus. Per Dóminum...
+            </Text>
+            <Text className="text-base vernacular">
+              Alimentados com as celestiais delícias, Senhor, Vos pedimos
+              humildemente, concedei-nos que aspiremos continuamente a este
+              mesmo alimento, pelo qual alcançaremos a verdadeira vida. Por
+              nosso Senhor...
+            </Text>
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}

@@ -1,13 +1,15 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { Tabs } from "expo-router";
 import React from "react";
-import { useColorScheme } from "react-native";
+import { Platform, useColorScheme } from "react-native";
 
 import { COLORS } from "~/constants/Colors";
 
-export default function TabLayout() {
+export default function PageTabLayout() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
+
+  const isWeb = Platform.OS === "web";
 
   return (
     <Tabs
@@ -25,6 +27,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
+          href: isWeb ? null : "/",
           title: "Inicío",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="house" color={color} />
@@ -35,6 +38,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="calendario"
         options={{
+          href: isWeb ? null : "/calendario",
           title: "Calendário",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="calendar" color={color} />
@@ -45,6 +49,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="notificacoes"
         options={{
+          href: isWeb ? null : "/notificacoes",
           title: "Notificações",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="bell" color={color} />
@@ -52,14 +57,35 @@ export default function TabLayout() {
           tabBarShowLabel: false,
         }}
       />
+
       <Tabs.Screen
-        name="more"
+        name="missal"
         options={{
-          title: "More",
-          tabBarIcon: ({ color }) => (
-            <FontAwesome6 size={15} name="ellipsis" color={color} />
-          ),
-          tabBarShowLabel: false,
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="devocionario"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="ritual"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="fe"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="canticos"
+        options={{
+          href: null,
         }}
       />
     </Tabs>

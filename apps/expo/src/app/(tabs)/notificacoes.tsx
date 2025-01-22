@@ -16,7 +16,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { COLORS } from "~/constants/Colors";
 import { useNotifications } from "~/providers/notifications";
 
-export default function Not() {
+export default function PageNot() {
   const router = useRouter();
   const colorScheme = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);
@@ -29,7 +29,7 @@ export default function Not() {
       (response) => {
         const url = response.notification.request.content.data.url;
         if (url) {
-          router.push(`/modal?url=${url}`);
+          router.push(url);
         }
       },
     );
@@ -55,8 +55,8 @@ export default function Not() {
 
   if (Platform.OS === "web") {
     return (
-      <SafeAreaView>
-        <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
+      <SafeAreaView className="flex-1">
+        <ScrollView className="bg-sepia-200 dark:bg-sepia-800 p-5">
           <View className="flex-row items-center">
             <FontAwesome6
               name="gear"
@@ -104,14 +104,14 @@ export default function Not() {
               </Link>
             </View>
           </View>
-        </View>
+        </ScrollView>
       </SafeAreaView>
     );
   }
 
   if (notificationsPermission !== "granted") {
     return (
-      <SafeAreaView>
+      <SafeAreaView className="flex-1">
         <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
           <View className="flex-row items-center">
             <FontAwesome6
@@ -132,7 +132,7 @@ export default function Not() {
           </Text>
           <Pressable
             className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3"
-            onPress={requestNotificationPermissions}
+            onPressOut={requestNotificationPermissions}
           >
             <Text className="m-5 text-sepia-300 dark:text-sepia-700">
               Activar Notificações
@@ -144,8 +144,8 @@ export default function Not() {
   }
 
   return (
-    <SafeAreaView>
-      <ScrollView className="px-5 bg-sepia-200 dark:bg-sepia-800">
+    <SafeAreaView className="flex-1">
+      <ScrollView className="px-5 bg-sepia-200 dark:bg-sepia-800 h-full">
         <View className="flex-row items-center">
           <FontAwesome6
             name="gear"
@@ -224,13 +224,13 @@ export default function Not() {
           }
         />
 
-        <View className="bg-sepia-200 dark:bg-sepia-800 mb-5">
+        <View className="mt-5">
           {list?.length > 0 ? (
             <TouchableOpacity
-              onPress={toggleExpand}
+              onPressOut={toggleExpand}
               className="p-3 bg-sepia-300 dark:bg-sepia-700 text-sepia-700 dark:text-sepia-300"
             >
-              <Text className="text-center font-bold">
+              <Text className="text-center font-bold text-sepia-800 dark:text-sepia-200">
                 {isExpanded
                   ? "Esconder lista notificações"
                   : "Mostrar lista de notificações"}

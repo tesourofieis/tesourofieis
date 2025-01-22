@@ -92,9 +92,9 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   const [list, setList] = useState<Notifications.NotificationRequest[]>();
   const [notificationPrefs, setNotificationPrefs] =
     useState<NotificationPreferences>({
-      ANGELUS: { enabled: false },
-      MASS: { enabled: false },
-      NOVENA: { enabled: false },
+      ANGELUS: { enabled: true },
+      MASS: { enabled: true },
+      NOVENA: { enabled: true },
       OFFICE: { enabled: false },
     });
 
@@ -145,17 +145,16 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       const today = new Date();
       for (let i = 0; i < 30; i++) {
         const date = addDays(today, i);
-        const dayMass = calendar.find((d) => d.date === yyyyMMDD(date))
-          ?.mass[0];
-        if (dayMass) {
+        const dayMass = calendar.find((d) => d.date === yyyyMMDD(date))?.mass;
+        if (dayMass.length) {
           const identifier = `mass-${yyyyMMDD(date)}`;
           await scheduleNotification(
             {
               content: {
-                title: `${NOTIFICATIONS.MASS.title} ${dayMass.name}`,
-                body: dayMass.name,
-                data: { url: dayMass.link },
-                color: getColor(dayMass.color),
+                title: NOTIFICATIONS.MASS.title,
+                body: dayMass.map((i) => i.name).join("\n"),
+                data: { url: dayMass[0].link },
+                color: getColor(dayMass[0].color),
               },
               trigger: {
                 type: Notifications.SchedulableTriggerInputTypes.DATE,
