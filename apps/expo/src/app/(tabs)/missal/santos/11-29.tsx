@@ -24,7 +24,7 @@ export default function Page1129() {
           <Text className="aside">
             Se a festa de S. André cai numa Segunda-Feira, diz-se a Missa da
             Vigília no Sábado, porém, comemora-se S. Saturnino no Domingo.
-            Observar-se-á o mesmo nas outras Vigílias, exceptoa de Natal. Se a
+            Observar-se-á o mesmo nas outras Vigílias, excepto a de Natal. Se a
             festa de S. André cai no Domingo, será transferida para o primeiro
             dia livre.
           </Text>
