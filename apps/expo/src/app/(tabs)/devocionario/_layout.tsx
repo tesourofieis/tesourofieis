@@ -9,6 +9,7 @@ export default function DevocionarioLayout() {
   return (
     <Stack
       screenOptions={{
+        animation: "none",
         headerShown: false,
         headerStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],

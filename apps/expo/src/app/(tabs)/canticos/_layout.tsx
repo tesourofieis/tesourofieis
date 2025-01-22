@@ -10,6 +10,7 @@ export default function CanticosLayout() {
   return (
     <Stack
       screenOptions={{
+        animation: "none",
         headerShown: false,
         headerStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
