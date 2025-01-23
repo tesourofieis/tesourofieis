@@ -14,13 +14,7 @@ import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
 import { Link, Stack, usePathname } from "expo-router";
 import React from "react";
-import {
-  ActivityIndicator,
-  Platform,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import { ActivityIndicator, Platform, Text, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
@@ -104,62 +98,53 @@ function RootLayoutNav() {
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: Header,
+            headerTitle: () => <Header withBC={false} />,
           }}
         />
         <Stack.Screen
           name="missal"
           options={{
-            animation: "slide_from_bottom",
-            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: Header,
+            headerTitle: () => <Header withBC={true} />,
           }}
         />
         <Stack.Screen
           name="devocionario"
           options={{
-            animation: "slide_from_bottom",
-            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: Header,
+            headerTitle: () => <Header withBC={true} />,
           }}
         />
         <Stack.Screen
           name="ritual"
           options={{
-            animation: "slide_from_bottom",
-            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: Header,
+            headerTitle: () => <Header withBC={true} />,
           }}
         />
         <Stack.Screen
           name="fe"
           options={{
-            animation: "slide_from_bottom",
-            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: Header,
+            headerTitle: () => <Header withBC={true} />,
           }}
         />
         <Stack.Screen
           name="canticos"
           options={{
-            animation: "slide_from_bottom",
-            presentation: "modal",
+            presentation: "containedTransparentModal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: Header,
+            headerTitle: () => <Header withBC={true} />,
           }}
         />
       </Stack>
@@ -199,17 +184,15 @@ const Breadcrumbs = () => {
           )}
 
           <Link href={`/${segments.slice(0, index + 1).join("/")}`} asChild>
-            <TouchableOpacity>
-              <Text
-                className={`text-sm ${
-                  index === segments.length - 1
-                    ? "text-sepia-700 dark:text-sepia-300 font-bold"
-                    : "text-sepia-600 dark:text-sepia-400"
-                }`}
-              >
-                {formatSegmentName(segment)}
-              </Text>
-            </TouchableOpacity>
+            <Text
+              className={`text-sm px-2 py-1 rounded ${
+                index === segments.length - 1
+                  ? "text-sepia-700 dark:text-sepia-300 font-bold"
+                  : "text-sepia-600 dark:text-sepia-400 bg-sepia-300 dark:bg-sepia-700 underline "
+              }`}
+            >
+              {formatSegmentName(segment)}
+            </Text>
           </Link>
         </React.Fragment>
       ))}
@@ -217,7 +200,7 @@ const Breadcrumbs = () => {
   );
 };
 
-const Header = () => {
+const Header = ({ withBC }: { withBC: boolean }) => {
   return (
     <View>
       <Link href="/">
@@ -228,7 +211,7 @@ const Header = () => {
           </Text>
         </View>
       </Link>
-      <Breadcrumbs />
+      {withBC && <Breadcrumbs />}
     </View>
   );
 };
