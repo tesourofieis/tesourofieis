@@ -47,6 +47,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     bundleIdentifier: "com.tesourofieis.com",
     userInterfaceStyle: "automatic",
     supportsTablet: true,
+    config: {
+      usesNonExemptEncryption: false,
+    },
   },
   web: {
     favicon: "./assets/images/favicon128.png",
