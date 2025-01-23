@@ -6,7 +6,9 @@ import PageLinkCard from "./LinkCard";
 
 const DirectoryList = ({ slug }: { slug: string }) => {
   // Filter logic to determine relevant pages for the current directory
-  const filteredPages = sidebar.filter((page) => page.link.includes(slug));
+  const filteredPages = sidebar.filter((page) =>
+    page.link.includes(`/${slug}`),
+  );
 
   return (
     <View className="">

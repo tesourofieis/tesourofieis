@@ -121,6 +121,7 @@ function RootLayoutNav() {
           name="missal"
           options={{
             animation: "slide_from_bottom",
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
@@ -130,7 +131,8 @@ function RootLayoutNav() {
         <Stack.Screen
           name="devocionario"
           options={{
-            animation: "slide_from_left",
+            animation: "slide_from_bottom",
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
@@ -140,7 +142,8 @@ function RootLayoutNav() {
         <Stack.Screen
           name="ritual"
           options={{
-            animation: "slide_from_left",
+            animation: "slide_from_bottom",
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
@@ -150,7 +153,8 @@ function RootLayoutNav() {
         <Stack.Screen
           name="fe"
           options={{
-            animation: "slide_from_left",
+            animation: "slide_from_bottom",
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
@@ -160,7 +164,8 @@ function RootLayoutNav() {
         <Stack.Screen
           name="canticos"
           options={{
-            animation: "slide_from_left",
+            animation: "slide_from_bottom",
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },

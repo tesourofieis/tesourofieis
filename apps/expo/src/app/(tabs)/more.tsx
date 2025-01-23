@@ -148,13 +148,11 @@ export default function MoreScreen() {
       }));
     } else if (item.link || item.path) {
       router.push({
-        pathname: "/modal",
-        params: { url: (item.link || item.path).slice(1) },
+        pathname: (item.link || item.path).slice(1),
       });
     } else if (item.autogenerate) {
       router.push({
-        pathname: "/modal",
-        params: { url: item.autogenerate.directory },
+        pathname: item.autogenerate.directory,
       });
     }
   };
