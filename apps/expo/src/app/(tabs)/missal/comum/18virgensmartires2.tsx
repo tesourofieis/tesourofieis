@@ -239,7 +239,9 @@ export default function Page18Virgensmartires2() {
               Por nosso Senhor...
             </Text>
           </View>
-          Outro Evangelho (para certos dias):
+
+          <Text className="aside">Outro Evangelho (para certos dias):</Text>
+
           <Text className="h3">Evangelho</Text>
           <Text className="em">Mt. 19, 3-12</Text>
           <View className="side-by-side">
