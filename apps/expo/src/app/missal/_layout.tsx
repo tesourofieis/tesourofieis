@@ -1,8 +1,9 @@
 import { Stack } from "expo-router";
 import { useColorScheme } from "nativewind";
-import { COLORS } from "../../../constants/Colors";
 
-export default function FeLayout() {
+import { COLORS } from "~/constants/Colors";
+
+export default function MissalLayout() {
   const { colorScheme } = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 

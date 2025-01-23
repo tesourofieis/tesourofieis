@@ -1,5 +1,3 @@
-import Drawer from "expo-router/drawer";
-
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
 import { EBGaramond_700Bold } from "@expo-google-fonts/eb-garamond";
 
@@ -14,7 +12,7 @@ import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
-import { Link, usePathname } from "expo-router";
+import { Link, Stack, usePathname } from "expo-router";
 import React from "react";
 import {
   ActivityIndicator,
@@ -24,10 +22,9 @@ import {
   View,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import CustomDrawerContent from "~/components/CustomDrawer";
+import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
-import { COLORS } from "../constants/Colors";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -100,26 +97,72 @@ function RootLayoutNav() {
 
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
-      <Drawer
-        drawerContent={(props) => <CustomDrawerContent {...props} />}
-        screenOptions={{
-          headerTitle: Header,
-          headerStyle: {
-            backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-          },
-        }}
-      >
-        <Drawer.Screen
+      <Stack>
+        <Stack.Screen
           name="(tabs)"
           options={{
-            headerTitle: Header,
-            drawerLabel: "Home",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
+            headerTitle: Header,
           }}
         />
-      </Drawer>
+        <Stack.Screen
+          name="missal"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "modal",
+            headerStyle: {
+              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+            },
+            headerTitle: Header,
+          }}
+        />
+        <Stack.Screen
+          name="devocionario"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "modal",
+            headerStyle: {
+              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+            },
+            headerTitle: Header,
+          }}
+        />
+        <Stack.Screen
+          name="ritual"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "modal",
+            headerStyle: {
+              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+            },
+            headerTitle: Header,
+          }}
+        />
+        <Stack.Screen
+          name="fe"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "modal",
+            headerStyle: {
+              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+            },
+            headerTitle: Header,
+          }}
+        />
+        <Stack.Screen
+          name="canticos"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "modal",
+            headerStyle: {
+              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+            },
+            headerTitle: Header,
+          }}
+        />
+      </Stack>
     </ThemeProvider>
   );
 }

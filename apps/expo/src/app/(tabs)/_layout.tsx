@@ -28,7 +28,6 @@ export default function PageTabLayout() {
         name="index"
         options={{
           href: isWeb ? null : "/",
-          title: "Inicío",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="house" color={color} />
           ),
@@ -39,7 +38,6 @@ export default function PageTabLayout() {
         name="calendario"
         options={{
           href: isWeb ? null : "/calendario",
-          title: "Calendário",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="calendar" color={color} />
           ),
@@ -50,42 +48,20 @@ export default function PageTabLayout() {
         name="notificacoes"
         options={{
           href: isWeb ? null : "/notificacoes",
-          title: "Notificações",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 size={15} name="bell" color={color} />
           ),
           tabBarShowLabel: false,
         }}
       />
-
       <Tabs.Screen
-        name="missal"
+        name="more"
         options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="devocionario"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="ritual"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="fe"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="canticos"
-        options={{
-          href: null,
+          href: isWeb ? null : "/more",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome6 size={15} name="ellipsis" color={color} />
+          ),
+          tabBarShowLabel: false,
         }}
       />
     </Tabs>
