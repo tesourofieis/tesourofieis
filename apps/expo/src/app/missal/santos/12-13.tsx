@@ -15,6 +15,26 @@ export default function Page1213() {
             Santa Luzia, Virgem e Mártir, a 13 de Dezembro
           </Text>
 
+          <Text className="comment">
+            Nascida na Sicília, pelo fim do século III, de família nobre, Santa
+            Luzia, como nos recorda por duas vezes o Evangelho, desfez-se de
+            todos os seus bens em favor dos pobres e, quando nada mais possuía,
+            deu-se a si própria a Jesus (Ep.). Enquanto as virgens loucas
+            descuidavam-se de encher os seus vasos com o «óleo da alegria»
+            mencionado no Intróito. Luzia, cujo nome significa luz, esperou,
+            tendo na mão a lâmpada acesa, isto é, com a alma cheia de graça, a
+            vinda do Esposo. «Os corações puros são o templo do Espírito Santo»,
+            declarou a Santa ao juiz. Foi esse Espírito também simbolizado pelo
+            «óleo da alegria», como rezam as cerimónias da Quinta-Feira Santa,
+            que amolgou e fortaleceu de modo tão admirável a alma de Santa
+            Luzia, que ela pode resistir aos carrascos até à morte, preferindo
+            dar a própria vida a fim de conservar o tesouro da virgindade. Seu
+            nome brilha no Canon Missa, repetido diariamente por milhares de
+            Sacerdotes que glorificam a Deus em seu nome. Morreu em 303. Com a
+            lâmpada acesa, isto é, com a alma em estado de graça, esperemos
+            neste Tempo do Advento o Esposo que virá brevemente.
+          </Text>
+
           <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/20virgemnaomartir1">
