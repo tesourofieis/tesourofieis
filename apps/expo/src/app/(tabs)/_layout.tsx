@@ -1,7 +1,7 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { Tabs } from "expo-router";
 import React from "react";
-import { ActivityIndicator, Platform, useColorScheme } from "react-native";
+import { Platform, useColorScheme } from "react-native";
 
 import { COLORS } from "~/constants/Colors";
 

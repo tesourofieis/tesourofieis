@@ -1,5 +1,3 @@
-import Drawer from "expo-router/drawer";
-
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
 import { EBGaramond_700Bold } from "@expo-google-fonts/eb-garamond";
 
@@ -24,19 +22,11 @@ import {
   View,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import CustomDrawerContent from "~/components/CustomDrawer";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
 
 SplashScreen.preventAutoHideAsync();
-
-export const unstable_settings = {
-  // Initialize only the current route
-  initialRouteName: "(tabs)",
-  // Prevent tabs from loading all at once
-  prefersNavigationGroups: true,
-};
 
 export default function PageRootLayout() {
   const [loaded] = useFonts({
