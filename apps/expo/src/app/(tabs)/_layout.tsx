@@ -1,7 +1,7 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { Tabs } from "expo-router";
 import React from "react";
-import { Platform, useColorScheme } from "react-native";
+import { ActivityIndicator, Platform, useColorScheme } from "react-native";
 
 import { COLORS } from "~/constants/Colors";
 
@@ -57,35 +57,14 @@ export default function PageTabLayout() {
           tabBarShowLabel: false,
         }}
       />
-
       <Tabs.Screen
-        name="missal"
+        name="more"
         options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="devocionario"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="ritual"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="fe"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="canticos"
-        options={{
-          href: null,
+          title: "More",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome6 size={15} name="ellipsis" color={color} />
+          ),
+          tabBarShowLabel: false,
         }}
       />
     </Tabs>

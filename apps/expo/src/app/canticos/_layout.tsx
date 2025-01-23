@@ -1,9 +1,9 @@
 import { Stack } from "expo-router";
 import { useColorScheme } from "nativewind";
 
-import { COLORS } from "../../../constants/Colors";
+import { COLORS } from "~/constants/Colors";
 
-export default function MissalLayout() {
+export default function CanticosLayout() {
   const { colorScheme } = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 

@@ -1,9 +1,8 @@
 import { Stack } from "expo-router";
 import { useColorScheme } from "nativewind";
+import { COLORS } from "~/constants/Colors";
 
-import { COLORS } from "../../../constants/Colors";
-
-export default function RitualLayout() {
+export default function DevocionarioLayout() {
   const { colorScheme } = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 
