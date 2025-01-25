@@ -12,6 +12,17 @@ export default function Page0114Outro() {
         <View className="docs">
           <Text className="h1">S. Félix, Presb. e Márt., a 14 de Janeiro</Text>
 
+          <Text className="comment">
+            Este santo Sacerdote nasceu em Nola, pequena cidade do sul da Itália
+            e morreu pelo ano de 312. Violentamente perseguido pela fé, mereceu
+            o título de mártir, embora tivesse sobrevivido aos cruéis suplícios
+            que lhe foram infligidos. Inúmeros milagres tornaram célebre o seu
+            túmulo. Segundo testemunha S. Paulino, por ele convertido, Nola é,
+            depois Roma, o segundo centro das numerosas peregrinações que
+            caracterizam o século IV. Assim se afirma no seu glorioso servo o
+            poder divino do Mestre.
+          </Text>
+
           <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/5martirnaopontifice2">

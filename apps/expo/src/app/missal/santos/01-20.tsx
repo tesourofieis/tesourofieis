@@ -13,6 +13,7 @@ export default function Page0120() {
           <Text className="h1">
             S. S. Fabião e Sebastião, Márts., a 20 de Janeiro
           </Text>
+
           <Text className="h3">Intróito</Text>
           <LinkCard
             href="/missal/comum/6muitosmartires1#intróito"

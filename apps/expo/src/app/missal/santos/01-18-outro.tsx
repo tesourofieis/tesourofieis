@@ -10,8 +10,14 @@ export default function Page0118Outro() {
     <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
-          <Text className="h1">
-            Comemoração de Santa Prisca, a 18 de Janeiro
+          <Text className="h1">Santa Prisca, a 18 de Janeiro</Text>
+
+          <Text className="comment">
+            Santa Prisca, na idade de treze anos, padeceu, sob o imperador
+            Cláudio (Séc. I) cruéis tormentos. Queriam forçá-la a adorar os
+            ídolos mas a sua grande fé (Or.) encheu-a da força divina de Jesus e
+            ela entrou no céu, cingida com a dupla coroa da virgindade e do
+            martírio.
           </Text>
 
           <Text className="aside">
