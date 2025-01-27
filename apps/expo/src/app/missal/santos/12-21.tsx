@@ -10,6 +10,27 @@ export default function Page1221() {
         <View className="docs">
           <Text className="h1">S. Tomé, Apóstolo, a 21 de Dezembro</Text>
 
+          <Text className="comment">
+            Na Missa de São Tomé, a liturgia recorda serem os Apóstolos os
+            alicerces da Igreja, da qual Cristo é a pedra angular (Ep.); por
+            esse motivo, as suas festas outrora eram guardadas, à semelhança do
+            Domingo. O Evangelho narra a tão célebre cena do Cenáculo depois da
+            Ressurreição do Salvador. Duvidava S. Tomé e, só depois de lhe ter
+            Jesus mandado por o dedo nas suas chagas, passou subitamente da
+            incredulidade à fé ardente exclamando: «Meu Senhor e meu Deus». Esse
+            dedo, diz um Padre da Igreja, tornou-se o mestre do mundo, pois,
+            ensinou-lhe a verdade da carne de Jesus Cristo. Acreditemos nós
+            também, no grande mistério de um Verbo encarnado, o qual muito breve
+            se manifestará ao mundo. O nome de S. Tomé figura no Canon da Missa.
+            A elevação tendo sido estabelecida para combater a heresia de
+            Béranger o qual negava a presença real, ao serem elevadas as santas
+            espécies, olhemo-las com espírito de fé, digamos com São Tomé: «Meu
+            Senhor e meu Deus». Prática enriquecida por Pio X com uma
+            indulgência de 7 anos e 7 quarentenas e com indulgência plenária uma
+            vez por semana nas condições ordinárias. Esta dupla elevação lembra
+            a separação real do Corpo e Sangue de Nosso Senhor sobre a cruz.
+          </Text>
+
           <Text className="h3">Intróito</Text>
 
           <Text className="em">Sl. 138, 17</Text>

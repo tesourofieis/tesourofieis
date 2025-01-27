@@ -11,6 +11,28 @@ export default function Page0125() {
         <View className="docs">
           <Text className="h1">Conversão de S. Paulo, a 25 de Janeiro</Text>
 
+          <Text className="comment">
+            Paulo de Tarso era judeu da tribo de Benjamim. Fariseu dos mais
+            zelosos, a Epístola nolo apresenta cheio de ódio «contra os
+            discípulos do Senhor» . Torna-se «vaso de eleição» tão «repleto do
+            Espírito Santo» (Ep.) «que todas as nações hão-de beber de sua
+            plenitude», diz S. Ambrósio, e por ele hão-de aprender que «Jesus é
+            o Filho de Deus» (Ep.). S. Paulo é o duodécimo apóstolo de Cristo
+            (Al.) «há-de assentar-se num dos treze tronos e julgará o mundo
+            quando o Filho do Homem em pessoa se assentar sobre o trono que lhe
+            pertence como Filho de Deus» (Ev.). Graças à festa de hoje, distando
+            apenas alguns dias da festa da Cátedra de S. Pedro em Roma, e
+            oriunda de uma trasladação do corpo de S. Paulo, podemos ver, em
+            todo o Tempo depois da Epifania, como um quadro da admirável visão
+            da realeza de Jesus. S. Pedro mais especialmente enviado aos filhos
+            de Israel, e S. Paulo aos Gentios (Or., Grad.). No centro, a
+            Galileia com as suas verdejantes colinas onde percebemos Cana, a
+            Sinagoga de Nazaré e o lago de Genesaré, onde Jesus, por seus
+            milagres, provou que era o Filho de Deus. Seguindo o exemplo de S.
+            Paulo, manifestemos por nossa fé e uma vida completamente nova, que
+            Jesus é Deus e nosso Rei.
+          </Text>
+
           <Text className="h3">Intróito</Text>
 
           <Text className="em">2 Tm. 1, 12</Text>

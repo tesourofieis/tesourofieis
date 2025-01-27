@@ -27,7 +27,7 @@ export default function Page1208() {
             bendita sois entre as mulheres» (Ev.). «Sois toda bela, ó Maria, e a
             mácula original não se acha em vós», diz com verdade o versículo
             aleluiático. Como a aurora mensageira do dia (Cm.) Maria precede o
-            astro que em breve iluminará o mundo das almas. Introductora de seu
+            astro que em breve iluminará o mundo das almas. Introdutora de seu
             Filho, Ela é a primeira a apresentar-se no Cyclo Litúrgico. Peçamos
             a Deus «a cura e libertação de todas as faltas» (Secr.,
             Postcomúnio), para que, recebendo a virtude própria da festa da

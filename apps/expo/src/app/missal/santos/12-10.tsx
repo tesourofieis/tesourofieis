@@ -13,6 +13,12 @@ export default function Page1210() {
             S. Melquíades, Papa e Mártir, a 10 de Dezembro
           </Text>
 
+          <Text className="comment">
+            «Em Roma, morte de S. Melquíades, Papa, que, depois de haver sofrido
+            muito na perseguição de Maximiano, viu a paz restituída à Igreja e
+            morreu tranquilamente em 314.»
+          </Text>
+
           <Missa />
         </View>
       </ScrollView>

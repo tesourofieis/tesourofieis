@@ -12,6 +12,28 @@ export default function Page0115() {
             S. Paulo, 1.º Eremita, Conf., a 15 de Janeiro
           </Text>
 
+          <Text className="comment">
+            S. Paulo, pai dos Eremitas, cuja vida foi escrita por S. Jerónimo,
+            órfão aos quinze anos de idade, abandonou os seus bens e retirou-se
+            para o deserto onde uma verdejante palmeira, símbolo de suas
+            virtudes, (Intr.) forneceu-lhe alimento e vestuário. Na solidão
+            meditava sobre a ciência das ciências, o conhecimento de Jesus
+            Cristo (Ep.) e do Pai que o Cristo revela aos humildes (Ev.). Assim
+            viveu até à idade de 112 anos, experimentando, no exercício heróico
+            da oração e penitência, a suavidade do jugo do Senhor (id.). O
+            grande S. Antão do deserto visitou-o pouco antes de sua morte e S.
+            Paulo pediu-lhe, como derradeiro favor, que o revestisse depois de
+            morto com o manto de S. Atanásio, o invencível defensor da divindade
+            de Cristo. Atestando assim, morrer unido a esse santo e haver
+            consistido toda a sua existência de penitência, em auxiliar aqueles
+            que lutavam contra a heresia ariana. Morreu cerca do ano de 342.
+            Neste Tempo depois da Epifania, consagrado à manifestação da
+            divindade de Jesus, penetremo-nos, como S. Paulo eremita, da
+            convicção que a vida cristã consiste em reconhecer a Cristo como
+            Filho de Deus e em santificar-nos tornando nossa a sua santidade
+            divina.
+          </Text>
+
           <Text className="h3">Intróito</Text>
 
           <Text className="em">Sl. 91, 13-14</Text>

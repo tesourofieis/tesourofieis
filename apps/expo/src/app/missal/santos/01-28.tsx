@@ -11,6 +11,20 @@ export default function Page0128() {
         <View className="docs">
           <Text className="h1">S. Pedro Nolasco, Conf., a 28 de Janeiro</Text>
 
+          <Text className="comment">
+            Jesus manifestou a sua divindade curando as almas e os corpos. S.
+            Pedro Nolasco, movido pelo exemplo da caridade divina e por
+            inspiração celeste (Or.) da qual S. Raimundo de Penhafort foi o
+            instrumento, empregou toda a sua fortuna (Ev.) em libertar os
+            cristãos do cativeiro dos infiéis onde se consumiam os seus corpos e
+            onde as suas almas corriam grandes perigos. A Ordem de Nossa Senhora
+            das Mercês, fundada para esse fim, mostra como a realeza de Jesus se
+            extende no mundo natural e no mundo sobrenatural. Por voto especial,
+            os Religiosos prometiam eles próprios prisioneiros pagãos, se
+            necessário fosse, para libertar os seus irmãos no Cristo (Ep.).
+            Morreu em 1256 e foi enterrado com a sua couraça e espada.
+          </Text>
+
           <Text className="aside">
             Como na
             <Link href="/missal/comum/15confessoresnaopontifices2">

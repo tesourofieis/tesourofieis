@@ -11,6 +11,20 @@ export default function Page0124() {
         <View className="docs">
           <Text className="h1">S. Timóteo, B. e Márt., a 24 de Janeiro</Text>
 
+          <Text className="comment">
+            S. Timóteo, nascido na Listra (Ásia Menor) de pai pagão e mãe judia,
+            já era cristão ao chegar S. Paulo naquela cidade. O Apóstolo cuja
+            conversão celebramos amanhã, admirado de sua santidade, tomou-o como
+            companheiro de suas viagens. São Timóteo, imediatamente, tudo
+            abandonado, tornou-se o discípulo de S. Paulo (Ev.), o qual lhe
+            conferiu a plenitude do sacerdócio (Intr.) e confiou-lhe o governo
+            da Igreja de Éfeso. Na Epístola lemos a passagem de uma das duas
+            admiráveis cartas que lhe escreveu o mestre. S. Timóteo morreu
+            apedrejado na sua cidade episcopal (ano 97). Como Timóteo,
+            confessemos a divindade de Cristo neste Tempo depois da Epifania que
+            é a sua manifestação litúrgica.
+          </Text>
+
           <Text className="aside">
             Como na
             <Link href="/missal/comum/2martirpontificeforapascal">

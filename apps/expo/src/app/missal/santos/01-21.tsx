@@ -14,6 +14,39 @@ export default function Page0121() {
             Santa Inês, Virgem e Márt., a 21 de Janeiro
           </Text>
 
+          <Text className="comment">
+            A Missa de hoje recorda um dos mais tocantes e gloriosos triunfos de
+            Jesus sobre o mundo. Inês, filha de uma das mais nobres famílias de
+            Roma, vai ao encontro do Esposo (Ev.) a quem se consagra, na idade
+            de 10 anos. Jesus «faz por ela admiráveis prodígios» (Grad.). O
+            filho do prefeito de Roma pede-a em casamento e ela responde:
+            «Aquele com quem estou desposada é Cristo, a quem os Anjos servem.»
+            Procuram atentar, pela violência, à sua virtude, mas «Deus livra o
+            seu corpo da perdição» (Ep.). Atirada numa fogueira ardente «não é
+            queimada pelo fogo» (id.). Condenada à degolação, anima o carrasco
+            hesitante: «Feri sem temor, pois a sua esposa ofende ao Esposo,
+            deixando-O esperar». Com treze anos de idade (pelo ano 304), essa
+            frágil criança confunde os poderosos da terra (Intr.). Uma magnífica
+            basílica, que ainda existe, foi erigida sobre o seu túmulo, na via
+            Nomentana. O nome da Santa foi, nos fins do século V, inscrito com
+            os de outros cinco mártires no Canon da Missa. À basílica de Santa
+            Inês acha-se anexo um mosteiro. As Beneditinas de Santa Cecília, no
+            Trastevere, criam os cordeirinhos, bentos nesse dia, e cuja lã serve
+            à confecção dos pálios. Anualmente, com efeito, a 21 de janeiro, em
+            S. Inês Fora dos Muros, após a missa pontifical celebrada pelo abade
+            dos Cônegos regulares de Latrão, trazem ao altar dois cordeirinhos
+            brancos adornados com flores et fitas, deitados num cesto de seda
+            com franja dourada. O coro canta a antífona Stans a dextris ejus
+            agnus nive canditior, Christus sibi sponsam conscravit et martyrem;
+            depois o celebrante benze os cordeirinhos. Uma deputação do capítulo
+            de Latrão os leva em seguida ao Papa que os benze de novo e os manda
+            às religiosas encarregadas de alimentá-los e de confeccionar os
+            pálios. Em 28 de junho, o Papa na basílica de S. Pedro, benze os
+            pálios que em seguida são encerrados num rico cofre dourado e
+            cinzelado, donativo de Bento XIV, e depositados na confecção sobre o
+            túmulo de S. Pedro.
+          </Text>
+
           <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/17virgensmartires1">

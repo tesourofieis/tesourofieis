@@ -1,6 +1,5 @@
-import { Link } from "expo-router";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { View } from "react-native";
 import { sidebar } from "~/sidebar";
 import PageLinkCard from "./LinkCard";
 

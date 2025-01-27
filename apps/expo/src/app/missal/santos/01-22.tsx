@@ -14,6 +14,27 @@ export default function Page0122() {
             S. S. Vicente e Anastácio, Márts., a 22 de Janeiro
           </Text>
 
+          <Text className="comment">
+            Vicente, o diácono de Saragoça, e Anastácio, monge da Pérsia,
+            morreram no mesmo dia, com o intervalo de 324 anos (304-628), em
+            Roma. Duas célebres igrejas lhes são dedicadas em comum e o mesmo
+            culto associa os seus nomes na Igreja inteira. «Os seus nomes
+            viverão eternamente» (Al.). Sob os imperadores Diocleciano e
+            Maximiano, o diácono Vicente, como outrora o diácono Lourenço, é
+            colocado sobre uma grelha, em carvões ardentes. «Deus os provou como
+            o oiro na fornalha» (Ep.). Os dois nomes de Lourenço e Vicente
+            seguem-se nas ladainhas dos Santos, pois as suas frontes
+            «vitoriosas» são cingidas com os mesmos «louros». Santa Anastácio
+            foi decapitado depois de atrozes suplícios, mas o Cristo, por cujo
+            amor foi perseguido, o susteve. «A vossa dextra, Senhor, esmagou os
+            inimigos» (Grad.). Sobre os carvões em braza, exclama Vicente: «Eu
+            pensava que a vossa crueldade iria mais longe». Anastácio, por sua
+            vez, declara: «Esperava um gênero de morte mais cruel». Peçamos a
+            Deus, por intercessão deste santos Mártires, a graça de vencer as
+            tentações e os vícios, alcançando a salvação. (Or., Secr.,
+            Postcom.).
+          </Text>
+
           <Text className="aside">
             Como na{" "}
             <Link className="link" href="/missal/comum/6muitosmartires1">
