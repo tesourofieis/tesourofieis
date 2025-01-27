@@ -10,6 +10,89 @@ export default function Page0131() {
         <View className="docs">
           <Text className="h1">S. João Bosco, Conf., a 31 de Janeiro</Text>
 
+          <Text className="comment">
+            <Text>
+              No dia de Páscoa do ano de 1934, na presença de multidões enormes
+              vindas do mundo inteiro a Roma para celebrar o XIXᵒ aniversário
+              «da vitória de Jesus Cristo sobre a morte e as potências do
+              inferno» (Alloc. Papal), o Papa Pio XI canonizou Dom Bosco que, no
+              século XIX, foi o apóstolo por excelência do divino Redentor junto
+              dos filhos do povo.
+            </Text>
+            <Text>
+              João Bosco, nascido a 16 de Agosto de 1815, na aldeia de Becchi no
+              Piemonte, desde a mais tenra idade exerceu por sua inocência e sua
+              bondade um grande ascendente sobre as crianças. Enquanto
+              apascentava os rebanhos no campo, Deus lhe manifestou numa visão a
+              sua futura missão, pois ele viu milheiros de carneiros e ovelhas
+              que o cercavam como seu pastor.
+            </Text>
+            <Text>
+              Formado no presbitério de Castel Nuovo d'Asti, entrou em seguida
+              para o seminário de Chiari, onde foi ordenado padre. Tendo fixado
+              sua residência em Torino «fez-se tudo para todos» (Brev.)
+              realizando «por sua confiança em Deus» (id.) numerosas obras
+              apesar de vivíssimas oposições e de obstáculos humanamente
+              insuperáveis.
+            </Text>
+            <Text>
+              Desejoso sobretudo de acudir aos adolescentes, especialmente
+              àqueles das classes pobres e desamparadas (Alloc. Brev.) fundou em
+              1852 a Congregação dos Salesianos, e em 1872, a das Filhas de
+              Maria Auxiliadora (Or.). A partir de 1875, ele deu a essa sua obra
+              o máximo desenvolvimento pela criação da União dos Cooperadores
+              Salesianos, fundando «por zelo das almas e para a propagação da
+              fé» (Martirológio) estabelecimentos nos países de Missões. Por
+              isso, a Igreja o compara a Abraão que, «mercê da sua fé, tornou-se
+              o pai duma grande multidão, conforme o que lhe fora predito».
+              (Com.)
+            </Text>
+            <Text>
+              Tendo-se feito assim «o Pai e o Mestre» (Or.) de numerosos
+              adolescentes, Dom Bosco os dirigiu com muito entendimento e com
+              uma prudência que a liturgia assemelha à de Salomão (Intr.). Seu
+              coração «tão vasto como as praias do mar» (id.) foi, diz Pio XI
+              «um coração de oiro verdadeiramente maternal e que conheceu todas
+              as ternuras para com os mais pobres e os mais pequenos entre os
+              pobres e os pequenos».
+            </Text>
+            <Text>
+              Com São Francisco de Sales, cujo nome designou o seu Instituto,
+              fez tudo com um espírito de caridade divina, esquecido de si mesmo
+              para trabalhar unicamente à glorificação de Deus e à salvação das
+              almas (Intr., Or., Al., Of., Secr.). Imitando esse grande Doutor
+              que inspirava-se ele mesmo na doutrina de São Paulo (Ep.) e do
+              exemplo d'Aquele «que foi manso e humilde de coração», Dom Bosco
+              cultivava em si e incessantemente pregava a santa alegria, a
+              amabilidade, a acção de graças (Ep., Postcom.) a bondade, a doçura
+              e a humildade. (Ev.).
+            </Text>
+            <Text>
+              Dom Bosco defendeu com energia os interesses da Santa Igreja,
+              «secundando mais duma vez o Pontífice Romano» (Brev.).
+            </Text>
+
+            <Text>
+              Este santíssimo homem não parecia amedrontado pelas ameaças, nem
+              cansado pelos trabalhos, nem oprimido pelas preocupações, nem
+              perturbado pelas adversidades, guardando sempre os olhos fitados
+              em Deus. Faleceu em 1888, com 73 anos de idade (Brev.).
+            </Text>
+
+            <Text>
+              Sua obra terrestre continua-se por sua familia religiosa da qual
+              dizia Pio XI, em 3 de Dezembro de 1933: «E eis essa obra tal como
+              podemos contemplá-la; 19.000 religiosos ou religiosas, 1430 casas
+              de educação, 80 províncias religiosas, milheiros de igrejas,
+              capelas, internatos, patronatos, dezassete grandes territórios de
+              missões evangelizadas. Milhares de alunos, quase um milhão de
+              antigos alunos, e outros tanto cooperadores que, como ele
+              costumava dizer, aumentam a sua influência.» S. João Bosco ora no
+              céu por eles e por todos os que recorrem à sua intercessão
+              (Postcom.).
+            </Text>
+          </Text>
+
           <Text className="h3">Intróito</Text>
 
           <Text className="em">3 Rs. 4, 29</Text>
