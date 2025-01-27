@@ -14,6 +14,28 @@ export default function Page0120() {
             S. S. Fabião e Sebastião, Márts., a 20 de Janeiro
           </Text>
 
+          <Text className="comment">
+            Os dois grandes mártires romanos, Fabiano e Sebastião, manifestaram,
+            por sua coragem, o primeiro no ano de 250, sob a perseguição de
+            Decio, o segundo em 284, sob a de Diocleciano, o poder divino do
+            Cristo «que neles operou maravilhas» (Gr.). Os antigos martirológico
+            unem os seus nomes. A aparição do Espírito Santo, sob a forma de
+            pomba, havia atestado a divindade de Jesus no dia de seu Baptismo.
+            Uma pomba, esvoaçando sobre a cabeça de Fabiano, o designou à
+            escolha da Igreja, como Vigário de Jesus Cristo. São Sebastião,
+            oficial da casa imperial e chefe de uma coorte, sustentava a coragem
+            de seus irmãos de armas, no meio dos tormentos sofridos pela fé.
+            Diocleciano mandou traspassarem-no com flechas. Sebastião, escapando
+            à morte, reapareceu diante do imperador, exprobando-lhe os crimes.
+            Foi condenado à morte pelas varas. Como os Mártires de que fala a
+            Epístola, os dois Santos «foram encontrados perfeitos no testemunho
+            que prestaram à sua fé em Jesus Cristo», pois, «pela causa do Filho
+            do Homem, foram perseguidos» (Ev.). Inúmeras são as curas operadas
+            por S. Sebastião, ou antes, pela virtude de Cristo que estava nele
+            (Ev. e Com.). Recorramos em nossa fraqueza (Or.) à poderosa
+            protecção desses gloriosos mártires.
+          </Text>
+
           <Text className="h3">Intróito</Text>
           <LinkCard
             href="/missal/comum/6muitosmartires1#intróito"
