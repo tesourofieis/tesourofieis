@@ -14,7 +14,13 @@ import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
 import { Link, Stack, usePathname } from "expo-router";
 import React from "react";
-import { ActivityIndicator, Platform, Text, View } from "react-native";
+import {
+  ActivityIndicator,
+  Platform,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
@@ -183,17 +189,19 @@ const Breadcrumbs = () => {
             <Text className="text-sepia-400 dark:text-sepia-600">/</Text>
           )}
 
-          <Link href={`/${segments.slice(0, index + 1).join("/")}`} asChild>
-            <Text
-              className={`text-sm px-2 py-1 rounded ${
-                index === segments.length - 1
-                  ? "text-sepia-700 dark:text-sepia-300 font-bold"
-                  : "text-sepia-600 dark:text-sepia-400 bg-sepia-300 dark:bg-sepia-700 underline "
-              }`}
-            >
-              {formatSegmentName(segment)}
-            </Text>
-          </Link>
+          <TouchableOpacity>
+            <Link href={`/${segments.slice(0, index + 1).join("/")}`} asChild>
+              <Text
+                className={`text-sm px-2 py-1 rounded ${
+                  index === segments.length - 1
+                    ? "text-sepia-700 dark:text-sepia-300 font-bold"
+                    : "text-sepia-600 dark:text-sepia-400 bg-sepia-300 dark:bg-sepia-700 underline "
+                }`}
+              >
+                {formatSegmentName(segment)}
+              </Text>
+            </Link>
+          </TouchableOpacity>
         </React.Fragment>
       ))}
     </View>
