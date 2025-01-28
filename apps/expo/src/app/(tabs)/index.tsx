@@ -3,18 +3,19 @@ import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { Image } from "expo-image";
 import { Link } from "expo-router";
-import * as Updates from "expo-updates";
 import React, { useEffect, useState } from "react";
 import { Platform, useColorScheme } from "react-native";
 import { ScrollView, Text, View } from "react-native";
 
-import Calendar from "~/components/Calendar";
 import LinkCard from "~/components/LinkCard";
 import Novenas from "~/components/Novenas";
 import Office from "~/components/Office";
 import { COLORS } from "~/constants/Colors";
+import { useCalendar } from "~/providers/calendar";
 
 export default function PageRender() {
+  const { day } = useCalendar();
+
   const [currentDate, setCurrentDate] = useState(new Date());
 
   const colorScheme = useColorScheme();
@@ -25,31 +26,6 @@ export default function PageRender() {
     }, 60000); // Update every minute (60000 milliseconds)
 
     return () => clearInterval(timer); // Clean up the timer on component unmount
-  }, []);
-
-  useEffect(() => {
-    async function checkForUpdates() {
-      if (__DEV__) {
-        console.log("Update checking is disabled in development mode.");
-        return;
-      }
-
-      if (Updates.checkForUpdateAsync() === undefined) {
-        console.log("Updates module is not available.");
-        return;
-      }
-
-      try {
-        const update = await Updates.checkForUpdateAsync();
-        if (update.isAvailable) {
-          await Updates.fetchUpdateAsync();
-          await Updates.reloadAsync();
-        }
-      } catch (error) {
-        console.error("Error checking for updates:", error);
-      }
-    }
-    checkForUpdates();
   }, []);
 
   function getPrayer(date: Date) {
@@ -129,7 +105,9 @@ export default function PageRender() {
             })}
           </Text>
 
-          <Calendar />
+          {day.mass?.map((item) => (
+            <LinkCard key={item.id} mass={item} />
+          ))}
 
           <View className="flex-1 items-center justify-center p-2">
             <Text className="text-sepia-600 dark:text-sepia-400 text-sm font-bold">
