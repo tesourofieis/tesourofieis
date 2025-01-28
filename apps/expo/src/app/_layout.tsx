@@ -131,53 +131,57 @@ function RootLayoutNav() {
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: () => <Header withBC={false} />,
+            header: () => <Header withBC={false} />,
           }}
         />
         <Stack.Screen
           name="missal"
           options={{
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: () => <Header withBC={true} />,
+            header: () => <Header withBC={true} />,
           }}
         />
         <Stack.Screen
           name="devocionario"
           options={{
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: () => <Header withBC={true} />,
+            header: () => <Header withBC={true} />,
           }}
         />
         <Stack.Screen
           name="ritual"
           options={{
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: () => <Header withBC={true} />,
+            header: () => <Header withBC={true} />,
           }}
         />
         <Stack.Screen
           name="fe"
           options={{
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: () => <Header withBC={true} />,
+            header: () => <Header withBC={true} />,
           }}
         />
         <Stack.Screen
           name="canticos"
           options={{
-            presentation: "containedTransparentModal",
+            presentation: "modal",
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            headerTitle: () => <Header withBC={true} />,
+            header: () => <Header withBC={true} />,
           }}
         />
       </Stack>
@@ -215,7 +219,7 @@ const Breadcrumbs = () => {
   };
 
   return (
-    <View className="flex-row items-center mb-2 gap-1">
+    <View className="flex-row items-center gap-1">
       {segments.map((segment, index) => (
         <React.Fragment key={segment}>
           {index !== 0 && (
@@ -244,6 +248,16 @@ const Breadcrumbs = () => {
 };
 
 const Header = ({ withBC }: { withBC: boolean }) => {
+  if (withBC) {
+    return (
+      <View className="flex-row items-center p-5 gap-5 bg-sepia-200 dark:bg-sepia-800">
+        <Link href="/">
+          <FontAwesome6 name="book-bible" size={15} color="#e53935" />
+        </Link>
+        <Breadcrumbs />
+      </View>
+    );
+  }
   return (
     <View>
       <Link href="/">
@@ -254,7 +268,6 @@ const Header = ({ withBC }: { withBC: boolean }) => {
           </Text>
         </View>
       </Link>
-      {withBC && <Breadcrumbs />}
     </View>
   );
 };
