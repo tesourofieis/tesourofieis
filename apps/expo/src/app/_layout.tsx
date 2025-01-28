@@ -12,11 +12,13 @@ import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
-import { Link, Stack, usePathname } from "expo-router";
+import { Link, Stack, usePathname, useRouter } from "expo-router";
+import * as Updates from "expo-updates";
 import React from "react";
 import {
   ActivityIndicator,
   Platform,
+  Pressable,
   Text,
   TouchableOpacity,
   View,
@@ -41,6 +43,31 @@ export default function PageRootLayout() {
       SplashScreen.hideAsync();
     }
   }, [loaded]);
+
+  useEffect(() => {
+    async function checkForUpdates() {
+      if (__DEV__) {
+        console.log("Update checking is disabled in development mode.");
+        return;
+      }
+
+      if (Updates.checkForUpdateAsync() === undefined) {
+        console.log("Updates module is not available.");
+        return;
+      }
+
+      try {
+        const update = await Updates.checkForUpdateAsync();
+        if (update.isAvailable) {
+          await Updates.fetchUpdateAsync();
+          await Updates.reloadAsync();
+        }
+      } catch (error) {
+        console.error("Error checking for updates:", error);
+      }
+    }
+    checkForUpdates();
+  }, []);
 
   if (!loaded && Platform.OS !== "web") {
     return (
@@ -161,6 +188,8 @@ function RootLayoutNav() {
 const Breadcrumbs = () => {
   const pathname = usePathname();
 
+  const router = useRouter();
+
   // Skip empty segments and remove (tabs)
   const segments = pathname
     .split("/")
@@ -174,11 +203,15 @@ const Breadcrumbs = () => {
   const formatSegmentName = (segment: string) => {
     // Remove any parentheses and their contents
     segment = segment.replace(/\(.*?\)/g, "");
-    // Convert kebab-case or snake_case to Title Case
+
     return segment
       .split(/[-_]/)
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
+  };
+
+  const handlePress = (path: string) => {
+    router.navigate(path);
   };
 
   return (
@@ -189,19 +222,21 @@ const Breadcrumbs = () => {
             <Text className="text-sepia-400 dark:text-sepia-600">/</Text>
           )}
 
-          <TouchableOpacity>
-            <Link href={`/${segments.slice(0, index + 1).join("/")}`} asChild>
-              <Text
-                className={`text-sm px-2 py-1 rounded ${
-                  index === segments.length - 1
-                    ? "text-sepia-700 dark:text-sepia-300 font-bold"
-                    : "text-sepia-600 dark:text-sepia-400 bg-sepia-300 dark:bg-sepia-700 underline "
-                }`}
-              >
-                {formatSegmentName(segment)}
-              </Text>
-            </Link>
-          </TouchableOpacity>
+          <Pressable
+            onPress={() =>
+              handlePress(`/${segments.slice(0, index + 1).join("/")}`)
+            }
+          >
+            <Text
+              className={`text-sm px-2 py-1 rounded ${
+                index === segments.length - 1
+                  ? "text-sepia-700 dark:text-sepia-300 font-bold"
+                  : "text-sepia-600 dark:text-sepia-400 bg-sepia-300 dark:bg-sepia-700 underline "
+              }`}
+            >
+              {formatSegmentName(segment)}
+            </Text>
+          </Pressable>
         </React.Fragment>
       ))}
     </View>
