@@ -13,7 +13,7 @@ export default function PageOracaomanha() {
           <Text className="text-base">
             Meu Senhor e meu Deus, humildemente Vos adoro em união com todos os
             Anjos e Santos. Eu Vos dou graças pelo vosso infinito amor,
-            particularmente por me haver-des conservado com tanta bondade e
+            particularmente por me haverdes conservado com tanta bondade e
             misericórdia até hoje. Ofereço-Vos as acções deste dia: fazei que
             sejam todas segundo a vossa santa vontade e peço-Vos que neste dia
             me preserveis do pecado, e me livreis de todo o mal. Que a graça do
