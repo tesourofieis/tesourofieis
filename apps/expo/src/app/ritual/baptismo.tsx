@@ -332,48 +332,41 @@ export default function PageBaptismo() {
 
           <View className="side-by-side">
             <Text className="text-base latin">
-              Exorcízo te, creatúra salis, in nómine Dei{" "}
-              <Text className="text-base latin">✠</Text> Patris omnipoténtis, et
-              in caritáte Dómini nostri Jesu{" "}
-              <Text className="cross text-red-500">✠</Text> Christi, et in
-              virtúte Spíritus <Text className="cross text-red-500">✠</Text>{" "}
-              Sancti. Exorcízo te per Deum{" "}
-              <Text className="cross text-red-500">✠</Text> vivum, per Deum{" "}
-              <Text className="cross text-red-500">✠</Text> verum, per Deum{" "}
-              <Text className="cross text-red-500">✠</Text> sanctum, per Deum{" "}
-              <Text className="cross text-red-500">✠</Text> qui te ad tutélam
-              humáni géneris procreávit, et pópulo veniénti ad credulitátem per
-              servos suos consecrári præcépit, ut in nómine sanctæ Trinitátis
-              efficiáris salutáre sacraméntum ad effugándum inimícum. Proínde
-              rogámus te, Dómine Deus noster, ut hanc creatúram salis
-              sanctificándo sanctí <Text className="cross text-red-500">✠</Text>{" "}
-              fices, et benedicéndo bene{" "}
-              <Text className="cross text-red-500">✠</Text> dícas, ut fiat
-              ómnibus accipiéntibus perfécta medicína, pérmanens in viscéribus
-              eórum, in nómine ejúsdem Dómini nostri Jesu Christi, qui ventúrus
-              est judicáre vivos et mórtuos, et sæculum per ignem.
+              Exorcízo te, immúnde spíritus, in nómine Patris{" "}
+              <Text className="cross">✠</Text>, et Fílii{" "}
+              <Text className="cross">✠</Text>, et Spíritus{" "}
+              <Text className="cross">✠</Text> Sancti, ut éxeas, et recédas ab
+              hoc fámulo (hac fámula) Dei{" "}
+              <Text className="text-red-500">N.</Text>: Ipse enim tibi ímperat,
+              maledícte damnáte, qui pédibus super mare ambulávit, et Petro
+              mergénti déxteram porréxit.
             </Text>
             <Text className="text-base vernacular">
-              Eu te exorcizo, criatura de sal, em Nome de Deus{" "}
-              <Text className="text-base vernacular">✠</Text> Pai omnipotente,
-              na caridade de nosso Senhor Jesus{" "}
-              <Text className="cross text-red-500">✠</Text> Cristo, e com o
-              poder do Espírito <Text className="cross text-red-500">✠</Text>{" "}
-              Santo. Eu te exorcizo em Nome do Deus{" "}
-              <Text className="cross text-red-500">✠</Text> vivo, do Deus{" "}
-              <Text className="cross text-red-500">✠</Text> verdadeiro, do Deus{" "}
-              <Text className="cross text-red-500">✠</Text> santo, do Deus{" "}
-              <Text className="cross text-red-500">✠</Text> que te criou para
-              proveito do género humano, e ordenou aos seus servos te
-              consagrassem para o povo chamado à Fé, a fim de que em Nome da
-              Santíssima Trindade possas ser instrumento salutar para afugentar
-              o inimigo. Por isso, Senhor, nosso Deus, Vos rogamos que
-              santifiqueis <Text className="cross text-red-500">✠</Text> e
-              abençoeis <Text className="cross text-red-500">✠</Text> esta
-              criatura de sal, para que se torne em medicina salutar daquelas
-              que o tomarem, e permaneça nas suas entranhas, em Nome de nosso
-              Senhor Jesus Cristo, que há-de vir a julgar os vivos e os mortos,
-              e o mundo pelo fogo.
+              Em Nome do Pai <Text className="cross">✠</Text> e do Filho{" "}
+              <Text className="cross">✠</Text> e do Espírito{" "}
+              <Text className="cross">✠</Text> Santo, eu te exorcizo, ó espírito
+              impuro, a fim de que saias e te afastes deste servo (ou serva) de
+              Deus, <Text className="text-red-500">N.</Text> Quem isto te
+              ordena, ó espírito maligno, é Aquele Senhor que caminhou por cima
+              das ondas do mar e que estendeu a mão a Pedro, quando este se
+              submergia.
+            </Text>
+
+            <Text className="text-base latin">
+              Ergo, maledícte diábole, recognósce senténtiam tuam, et da honórem
+              Deo vivo et vero, da honórem Jesu Christo Fílio ejus, et Spirítui
+              Sancto, et recéde ab hoc fámulo (hac fámula) Dei{" "}
+              <Text className="text-red-500">N.</Text>, quia istum (istam) sibi
+              Deus, et Dóminus noster Jesus Christus ad suam sanctam grátiam, et
+              benedictiónem, fontémque Baptísmatis vocáre dignátus est.
+            </Text>
+            <Text className="text-base vernacular">
+              Portanto, tu, demónio maldito, submete-te à sua condenação e dá
+              glória ao Deus vivo e verdadeiro, a Jesus Cristo, seu Filho, e ao
+              Espírito Santo. Retira-te deste servo (ou serva) de Deus,{" "}
+              <Text className="text-red-500">N.</Text>, porque Deus assim manda,
+              e nosso Senhor Jesus Cristo dignou-se chamá-lo (ou chamá-la) à sua
+              graça e bênção, e à fonte baptismal.
             </Text>
             <Text className="text-base latin">
               <Text className="text-red-500">℟.</Text> Amen.
