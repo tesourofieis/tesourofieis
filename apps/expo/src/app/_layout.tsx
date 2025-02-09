@@ -19,8 +19,8 @@ import {
   ActivityIndicator,
   Platform,
   Pressable,
+  StatusBar,
   Text,
-  TouchableOpacity,
   View,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
@@ -124,6 +124,7 @@ function RootLayoutNav() {
 
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
+      <StatusBar backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]} />
       <Stack>
         <Stack.Screen
           name="(tabs)"

@@ -1,7 +1,7 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import * as Notifications from "expo-notifications";
-import { Link, useRouter } from "expo-router";
-import { useEffect, useState } from "react";
+import { Link } from "expo-router";
+import { useState } from "react";
 import { useColorScheme } from "react-native";
 import {
   Platform,
@@ -17,32 +17,11 @@ import { COLORS } from "~/constants/Colors";
 import { useNotifications } from "~/providers/notifications";
 
 export default function PageNot() {
-  const router = useRouter();
   const colorScheme = useColorScheme();
   const [notificationsPermission, setNotificationsPermission] = useState(null);
   const [isExpanded, setIsExpanded] = useState(false);
 
   const { notificationPrefs, setNotificationPref, list } = useNotifications();
-
-  useEffect(() => {
-    const subscription = Notifications.addNotificationResponseReceivedListener(
-      (response) => {
-        const url = response.notification.request.content.data.url;
-        if (url) {
-          router.push(url);
-        }
-      },
-    );
-
-    checkNotificationPermissions();
-
-    return () => subscription.remove();
-  }, [router]);
-
-  const checkNotificationPermissions = async () => {
-    const { status } = await Notifications.getPermissionsAsync();
-    setNotificationsPermission(status);
-  };
 
   const requestNotificationPermissions = async () => {
     const { status } = await Notifications.requestPermissionsAsync();

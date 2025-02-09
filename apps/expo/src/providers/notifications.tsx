@@ -2,6 +2,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { addDays, subDays } from "date-fns";
 import * as Notifications from "expo-notifications";
+import { useRouter } from "expo-router";
 import {
   createContext,
   useCallback,
@@ -34,14 +35,14 @@ const NOTIFICATIONS = {
   OFFICE: {
     title: "🕰 Hora do Ofício",
     times: [
-      { name: "Matinas", hour: 0, link: "/devocionario/oficio/matinas" },
-      { name: "Laudes", hour: 3, link: "/devocionario/oficio/laudes" },
-      { name: "Prima", hour: 6, link: "/devocionario/oficio/prima" },
-      { name: "Terça", hour: 9, link: "/devocionario/oficio/terca" },
-      { name: "Sexta", hour: 12, link: "/devocionario/oficio/sexta" },
-      { name: "Noa", hour: 15, link: "/devocionario/oficio/noa" },
-      { name: "Vésperas", hour: 18, link: "/devocionario/oficio/vesperas" },
-      { name: "Completas", hour: 21, link: "/devocionario/oficio/completas" },
+      { name: "Matinas", hour: 0, link: "devocionario/oficio/matinas" },
+      { name: "Laudes", hour: 3, link: "devocionario/oficio/laudes" },
+      { name: "Prima", hour: 6, link: "devocionario/oficio/prima" },
+      { name: "Terça", hour: 9, link: "devocionario/oficio/terca" },
+      { name: "Sexta", hour: 12, link: "devocionario/oficio/sexta" },
+      { name: "Noa", hour: 15, link: "devocionario/oficio/noa" },
+      { name: "Vésperas", hour: 18, link: "devocionario/oficio/vesperas" },
+      { name: "Completas", hour: 21, link: "devocionario/oficio/completas" },
     ],
     color: "#4CAF50",
   },
@@ -89,6 +90,8 @@ const NotificationsContext = createContext<
 >(undefined);
 
 export function NotificationsProvider({ children }: React.PropsWithChildren) {
+  const router = useRouter();
+
   const [list, setList] = useState<Notifications.NotificationRequest[]>();
   const [notificationPrefs, setNotificationPrefs] =
     useState<NotificationPreferences>({
@@ -264,6 +267,20 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   useEffect(() => {
     syncNotifications();
   }, [syncNotifications]);
+
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  useEffect(() => {
+    const subscription = Notifications.addNotificationResponseReceivedListener(
+      (response) => {
+        const url = response.notification.request.content.data.url;
+        if (url) {
+          router.push(url);
+        }
+      },
+    );
+
+    return () => subscription.remove();
+  }, []);
 
   const setNotificationPref = useCallback(
     async (key: keyof NotificationPreferences, enabled: boolean) => {
