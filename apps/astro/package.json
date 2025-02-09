@@ -42,7 +42,7 @@
     "astro-robots-txt": "^1.0.0",
     "tailwindcss": "catalog:",
     "typescript": "catalog:",
-    "vitest": "^1.4.0"
+    "vitest": "^1.6.1"
   },
   "trustedDependencies": ["protobufjs"]
 }
