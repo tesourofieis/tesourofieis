@@ -274,7 +274,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       (response) => {
         const url = response.notification.request.content.data.url;
         if (url) {
-          router.push(url);
+          router.navigate(url);
         }
       },
     );

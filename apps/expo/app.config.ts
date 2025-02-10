@@ -17,11 +17,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   notification: {
     icon: "./assets/images/notifications.png",
   },
-  splash: {
-    image: "./assets/images/splash.png",
-    resizeMode: "cover",
-    backgroundColor: "#1d2021",
-  },
   updates: {
     enabled: true,
     fallbackToCacheTimeout: 0,
@@ -42,9 +37,24 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       foregroundImage: "./assets/images/adaptive-icon.png",
       backgroundColor: "#1d2021",
     },
+    intentFilters: [
+      {
+        action: "VIEW",
+        autoVerify: true,
+        data: [
+          {
+            scheme: "https",
+            host: "tesourofieis.com",
+            pathPrefix: "/",
+          },
+        ],
+        category: ["BROWSABLE", "DEFAULT"],
+      },
+    ],
   },
   ios: {
     bundleIdentifier: "com.tesourofieis.com",
+    associatedDomains: ["applinks:tesourofieis.com"],
     userInterfaceStyle: "automatic",
     supportsTablet: true,
     config: {
@@ -72,6 +82,18 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     "expo-font",
     "expo-notifications",
     "expo-secure-store",
+    [
+      "expo-splash-screen",
+      {
+        backgroundColor: "#1d2021",
+        image: "./assets/images/splash.png",
+        dark: {
+          image: "./assets/images/splash.png",
+          backgroundColor: "#1d2021",
+        },
+        imageWidth: 200,
+      },
+    ],
     [
       "expo-asset",
       {
