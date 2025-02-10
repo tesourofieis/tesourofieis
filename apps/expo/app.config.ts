@@ -54,6 +54,11 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   ios: {
     bundleIdentifier: "com.tesourofieis.com",
+    icon: {
+      dark: "./assets/images/ios-dark.png",
+      light: "./assets/images/ios-light.png",
+      tinted: "./assets/images/ios-tinted.png",
+    },
     associatedDomains: ["applinks:tesourofieis.com"],
     userInterfaceStyle: "automatic",
     supportsTablet: true,
@@ -85,10 +90,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     [
       "expo-splash-screen",
       {
-        backgroundColor: "#1d2021",
-        image: "./assets/images/splash.png",
+        backgroundColor: "#eee6d9",
+        image: "./assets/images/splash-icon-light.png",
         dark: {
-          image: "./assets/images/splash.png",
+          image: "./assets/images/splash-icon-dark.png",
           backgroundColor: "#1d2021",
         },
         imageWidth: 200,
