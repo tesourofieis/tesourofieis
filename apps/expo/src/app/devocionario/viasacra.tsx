@@ -197,7 +197,7 @@ export default function PageViasacra() {
           <Text className="h3">Morte de Jesus</Text>
           <Text className="text-base">
             Nesta décima segunda estação contemplemos N. S. J. C., levantado na
-            Cruz e exposto entre dous ladrões ao escárnio e insultos da plebe,
+            Cruz e exposto entre dois ladrões ao escárnio e insultos da plebe,
             até exalar o último suspiro!... Ó clementíssimo Jesus, que Vos
             abrasais em ardente amor pelas almas, eu Vos suplico pela agonia do
             vosso Santíssimo coração e pelas dores de vossa Mãe Imaculada, que
@@ -212,7 +212,7 @@ export default function PageViasacra() {
           <Text className="text-base">
             Nesta décima terceira estação contemplemos N. S. J. C., despregado
             piedosamente da Cruz pelos seus amigos e depositado no regaço de sua
-            Mãe, que, banhada em lágrimas, beija e abraça o corpo deseu Filho,
+            Mãe, que, banhada em lágrimas, beija e abraça o corpo de seu Filho,
             denegrido com pancadas e coberto de feridas, e algumas tão profundas
             que deixam ver os seus ossos!... Ó Santa Mãe das dores, rogai a
             Jesus que nos perdoe os pecados, nos ajude a imitar as vossas

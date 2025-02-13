@@ -23,7 +23,7 @@ export default function PageBenedictus() {
               Et eréxit cornu salútis nobis: * in domo David, púeri sui.
             </Text>
             <Text className="text-base vernacular">
-              E preparou para nós uma poderosa salvação: * na casa deseu servo
+              E preparou para nós uma poderosa salvação: * na casa de seu servo
               David.
             </Text>
             <Text className="text-base latin">
