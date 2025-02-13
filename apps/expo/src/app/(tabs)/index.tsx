@@ -42,8 +42,8 @@ export default function PageRender() {
   return (
     <ScrollView className="flex-1 bg-sepia-200 dark:bg-sepia-800">
       <View className="font-serif">
-        <View className="bg-sepia-300 dark:bg-sepia-700">
-          <Text className="font-serif text-sm p-3 text-center text-sepia-700 dark:text-sepia-300">
+        <View className="bg-sepia-700">
+          <Text className="font-serif text-sm p-3 text-center text-sepia-300">
             Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
             Fátima
           </Text>

@@ -128,14 +128,15 @@ function ChangePeriod({
   setViewMode: React.Dispatch<React.SetStateAction<"month" | "week">>;
 }) {
   return (
-    <View className="flex flex-row items-center justify-between px-4 my-5">
+    <View className="flex flex-row items-center justify-between px-4 py-5 bg-sepia-200 dark:bg-sepia-800">
       <Pressable
         onPressOut={handlePrevious}
         className="rounded bg-gray-200 p-2 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <FontAwesome name="chevron-left" color={COLORS["600"]} />
       </Pressable>
-      <Text className="text-3xl text-sepia-700 dark:text-sepia-300">
+
+      <Text className="font-black dark:text-sepia-200 p-3 text-xl text-bold">
         {formattedPeriod}
       </Text>
       <Pressable
@@ -145,21 +146,27 @@ function ChangePeriod({
         <FontAwesome name="chevron-right" color={COLORS["600"]} />
       </Pressable>
       <View className="flex flex-row ml-4">
-        <Pressable
-          onPressOut={() => setViewMode("week")}
-          className={`p-2 rounded-l bg-gray-200 dark:bg-gray-800 ${
-            viewMode === "week" ? "bg-gray-300 dark:bg-gray-700" : ""
-          }`}
-        >
-          <Text className="text-sepia-700 dark:text-sepia-300">Week</Text>
+        <Pressable onPressOut={() => setViewMode("week")}>
+          <Text
+            className={`p-2 rounded-l text-sepia-700 dark:text-sepia-300 ${
+              viewMode === "week"
+                ? "bg-sepia-300 dark:bg-sepia-700 bold"
+                : "bg-sepia-200 dark:bg-sepia-800"
+            } `}
+          >
+            Week
+          </Text>
         </Pressable>
-        <Pressable
-          onPressOut={() => setViewMode("month")}
-          className={`p-2 rounded-r bg-gray-200 dark:bg-gray-800 ${
-            viewMode === "month" ? "bg-gray-300 dark:bg-gray-700" : ""
-          }`}
-        >
-          <Text className="text-sepia-700 dark:text-sepia-300">Month</Text>
+        <Pressable onPressOut={() => setViewMode("month")}>
+          <Text
+            className={`p-2 rounded-r text-sepia-700 dark:text-sepia-300 ${
+              viewMode === "month"
+                ? "bg-sepia-300 dark:bg-sepia-700 bold"
+                : "bg-sepia-200 dark:bg-sepia-800"
+            } `}
+          >
+            Month
+          </Text>
         </Pressable>
       </View>
     </View>

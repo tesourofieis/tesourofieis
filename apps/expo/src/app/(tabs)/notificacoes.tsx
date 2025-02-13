@@ -133,10 +133,6 @@ export default function PageNot() {
           <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
             Configurar Notificações
           </Text>
-
-          <Text className="text-sm text-center text-sepia-200 px-3 py-1 rounded-full bg-red-800">
-            Beta
-          </Text>
         </View>
 
         <Text className="font-serif dark:text-sepia-200 text-sm">

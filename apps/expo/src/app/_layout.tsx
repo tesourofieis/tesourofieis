@@ -133,9 +133,6 @@ function RootLayoutNav() {
         <Stack.Screen
           name="(tabs)"
           options={{
-            headerStyle: {
-              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-            },
             header: () => <Header withBC={false} />,
           }}
         />
@@ -143,9 +140,7 @@ function RootLayoutNav() {
           name="missal"
           options={{
             presentation: "modal",
-            headerStyle: {
-              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-            },
+            animation: "default",
             header: () => <Header withBC={true} />,
           }}
         />
@@ -153,9 +148,7 @@ function RootLayoutNav() {
           name="devocionario"
           options={{
             presentation: "modal",
-            headerStyle: {
-              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-            },
+            animation: "default",
             header: () => <Header withBC={true} />,
           }}
         />
@@ -163,9 +156,7 @@ function RootLayoutNav() {
           name="ritual"
           options={{
             presentation: "modal",
-            headerStyle: {
-              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-            },
+            animation: "default",
             header: () => <Header withBC={true} />,
           }}
         />
@@ -173,9 +164,7 @@ function RootLayoutNav() {
           name="fe"
           options={{
             presentation: "modal",
-            headerStyle: {
-              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-            },
+            animation: "default",
             header: () => <Header withBC={true} />,
           }}
         />
@@ -183,9 +172,6 @@ function RootLayoutNav() {
           name="canticos"
           options={{
             presentation: "modal",
-            headerStyle: {
-              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-            },
             header: () => <Header withBC={true} />,
           }}
         />
@@ -255,9 +241,10 @@ const Breadcrumbs = () => {
 const Header = ({ withBC }: { withBC: boolean }) => {
   if (withBC) {
     return (
-      <View className="flex-row items-center p-5 gap-5 bg-sepia-200 dark:bg-sepia-800">
+      <View className="flex-row items-center p-5 gap-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full">
+        {" "}
         <Link href="/">
-          <FontAwesome6 name="book-bible" size={15} color="#e53935" />
+          <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
         </Link>
         <Breadcrumbs />
       </View>
@@ -266,7 +253,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
   return (
     <View>
       <Link href="/">
-        <View className="flex-row items-center p-3 gap-3">
+        <View className="flex-row items-center p-5 gap-3 bg-sepia-300 dark:bg-sepia-900 w-full border-b">
           <FontAwesome6 name="book-bible" size={15} color="#e53935" />
           <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
             Tesouro dos Fiéis

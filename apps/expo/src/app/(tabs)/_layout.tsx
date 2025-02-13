@@ -18,7 +18,7 @@ export default function PageTabLayout() {
         tabBarActiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
         tabBarActiveBackgroundColor: isDarkMode ? COLORS["700"] : COLORS["300"],
         tabBarStyle: {
-          borderTopWidth: 1,
+          borderTopWidth: 0,
           borderTopColor: isDarkMode ? COLORS["700"] : COLORS["300"],
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
         },
