@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tesourofieis.app",
+      "sha256_cert_fingerprints": [
+        "95:7A:C5:89:75:22:8A:7A:C3:69:9F:70:AE:70:3F:E1:54:E3:B8:E2:18:4F:6B:F6:5A:03:DE:26:CF:42:87:A6",
+        "38:B7:04:BE:48:B1:98:45:E3:22:B5:B7:EA:05:BB:12:1C:3E:EF:4E:04:A8:17:5A:DA:41:DE:BB:26:4E:25:2E"
+      ]
+    }
+  }
+]

@@ -29,6 +29,10 @@ import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
 
 SplashScreen.preventAutoHideAsync();
+SplashScreen.setOptions({
+  duration: 1000,
+  fade: true,
+});
 
 export default function PageRootLayout() {
   const [loaded] = useFonts({
