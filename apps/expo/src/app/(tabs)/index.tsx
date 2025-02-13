@@ -6,6 +6,7 @@ import { Link } from "expo-router";
 import React, { useEffect, useState } from "react";
 import { Platform, useColorScheme } from "react-native";
 import { ScrollView, Text, View } from "react-native";
+import ExternalLinks from "~/components/External";
 
 import LinkCard from "~/components/LinkCard";
 import Novenas from "~/components/Novenas";
@@ -151,14 +152,8 @@ export default function PageRender() {
         </View>
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />
-        <View className="bg-sepia-200 dark:bg-sepia-800 m-3 flex-1 justify-center align-middle">
-          <LinkCard
-            href="https://tesourofieis.com"
-            title="Tesouro dos Fiéis"
-            description="Ir para o sitio web"
-          />
-        </View>
-        <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />
+
+        <ExternalLinks />
       </View>
     </ScrollView>
   );
