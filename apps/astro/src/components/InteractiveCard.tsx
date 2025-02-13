@@ -53,9 +53,6 @@ export default function InteractiveCard() {
         Hoje
       </h2>
 
-      <span className="text-center text-sepia-600 dark:text-sepia-400 text-sm pb-3">
-        {format(new Date(), "EEEE, MMMM dd")}
-      </span>
       <Calendar />
 
       <span className="text-sepia-600 text-center dark:text-sepia-400 text-sm font-bold">
