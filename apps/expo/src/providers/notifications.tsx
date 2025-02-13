@@ -83,6 +83,8 @@ type NotificationsContextType = {
     enabled: boolean,
   ) => Promise<void>;
   list: Notifications.NotificationRequest[];
+  hasPermission: boolean;
+  requestPermission: () => Promise<void>;
 };
 
 const NotificationsContext = createContext<
@@ -91,8 +93,8 @@ const NotificationsContext = createContext<
 
 export function NotificationsProvider({ children }: React.PropsWithChildren) {
   const router = useRouter();
-
-  const [list, setList] = useState<Notifications.NotificationRequest[]>();
+  const [list, setList] = useState<Notifications.NotificationRequest[]>([]);
+  const [hasPermission, setHasPermission] = useState(false);
   const [notificationPrefs, setNotificationPrefs] =
     useState<NotificationPreferences>({
       ANGELUS: { enabled: true },
@@ -103,17 +105,58 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
 
   const { calendar, novenas } = useCalendar();
 
+  const checkPermission = useCallback(async () => {
+    const { status } = await Notifications.getPermissionsAsync();
+    setHasPermission(status === "granted");
+    return status === "granted";
+  }, []);
+
+  const requestPermission = useCallback(async () => {
+    const { status } = await Notifications.requestPermissionsAsync();
+    const granted = status === "granted";
+    setHasPermission(granted);
+
+    if (granted) {
+      // If permission was granted, sync notifications
+      await syncNotifications();
+    }
+  }, []);
+
+  // Load saved preferences and check permission on mount
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  useEffect(() => {
+    const init = async () => {
+      // Load saved preferences
+      const loadedPrefs: NotificationPreferences = { ...notificationPrefs };
+      for (const key of Object.keys(notificationPrefs) as Array<
+        keyof NotificationPreferences
+      >) {
+        const storedValue = await AsyncStorage.getItem(key);
+        if (storedValue !== null) {
+          loadedPrefs[key] = { enabled: storedValue === "true" };
+        }
+      }
+      setNotificationPrefs(loadedPrefs);
+
+      // Check initial permission
+      await checkPermission();
+    };
+
+    init();
+  }, []);
+
   const scheduleNotification = useCallback(
     async (
       notification: Notifications.NotificationRequestInput,
       identifier: string,
     ) => {
+      if (!hasPermission) return;
       await Notifications.scheduleNotificationAsync({
         ...notification,
         identifier,
       });
     },
-    [],
+    [hasPermission],
   );
 
   const cancelAllNotifications = useCallback(async () => {
@@ -239,12 +282,16 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   }, [notificationPrefs, calendar, novenas, scheduleNotification]);
 
   const syncNotifications = useCallback(async () => {
+    if (!hasPermission) {
+      setList([]);
+      return;
+    }
     await cancelAllNotifications();
     await scheduleNotifications();
     const notifications =
       await Notifications.getAllScheduledNotificationsAsync();
     setList(notifications);
-  }, [cancelAllNotifications, scheduleNotifications]);
+  }, [hasPermission, cancelAllNotifications, scheduleNotifications]);
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
@@ -264,9 +311,10 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     loadPrefs();
   }, []);
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     syncNotifications();
-  }, [syncNotifications]);
+  }, [syncNotifications, hasPermission]);
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
@@ -284,13 +332,18 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
 
   const setNotificationPref = useCallback(
     async (key: keyof NotificationPreferences, enabled: boolean) => {
+      if (enabled && !hasPermission) {
+        await requestPermission();
+        // If permission was denied, don't enable the preference
+        if (!hasPermission) return;
+      }
       await AsyncStorage.setItem(key, enabled.toString());
       setNotificationPrefs((prev) => ({
         ...prev,
         [key]: { enabled },
       }));
     },
-    [],
+    [hasPermission, requestPermission],
   );
 
   return (
@@ -299,6 +352,8 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         notificationPrefs,
         setNotificationPref,
         list,
+        hasPermission,
+        requestPermission,
       }}
     >
       {children}

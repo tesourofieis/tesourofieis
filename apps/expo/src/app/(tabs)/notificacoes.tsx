@@ -1,5 +1,4 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import * as Notifications from "expo-notifications";
 import { Link } from "expo-router";
 import { useState } from "react";
 import { useColorScheme } from "react-native";
@@ -18,15 +17,15 @@ import { useNotifications } from "~/providers/notifications";
 
 export default function PageNot() {
   const colorScheme = useColorScheme();
-  const [notificationsPermission, setNotificationsPermission] = useState(null);
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const { notificationPrefs, setNotificationPref, list } = useNotifications();
-
-  const requestNotificationPermissions = async () => {
-    const { status } = await Notifications.requestPermissionsAsync();
-    setNotificationsPermission(status);
-  };
+  const {
+    notificationPrefs,
+    setNotificationPref,
+    list,
+    hasPermission,
+    requestPermission,
+  } = useNotifications();
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
@@ -88,7 +87,7 @@ export default function PageNot() {
     );
   }
 
-  if (notificationsPermission !== "granted") {
+  if (!hasPermission) {
     return (
       <SafeAreaView className="flex-1">
         <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
@@ -111,7 +110,7 @@ export default function PageNot() {
           </Text>
           <Pressable
             className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3"
-            onPressOut={requestNotificationPermissions}
+            onPressOut={requestPermission}
           >
             <Text className="m-5 text-sepia-300 dark:text-sepia-700">
               Activar Notificações
