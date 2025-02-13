@@ -130,11 +130,11 @@ export default function PageBencaos() {
             Abençoai, Senhor, o trabalho em que vou ocupar-me e permiti que
             sirva para vossa glória e para minha santificação.
           </Text>
-          <Text className="cross text-red-500">✠</Text>
           <Text className="text-base">
+            <Text className="cross text-red-500">✠</Text>
             Em nome do Pai e do Filho e do Espírito Santo.
           </Text>
-          <Text className="">
+          <Text className="text-base">
             <Text className="text-red-500">℟. </Text>Amen.
           </Text>
 
