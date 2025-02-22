@@ -25,7 +25,7 @@ export default function Page0821() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens et miséricors Deus, qui beátam Joánnam Francíscam, tuo
               amóre succénsam, admirábili spíritus fortitúdine per omnes vitæ
               sémitas in via perfectiónis donásti, quique per illam illustráre
@@ -34,7 +34,7 @@ export default function Page0821() {
               confídimus, cœléstis grátiæ auxílio cuncta nobis adversántia
               vincámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus omnipotente e eterno, que, havendo abrasado no vosso amor a
               B. Joana Francisca, lhe destes um admirável espírito de fortaleza
               para seguir em todos os caminhos da vida «a via da perfeição» , e
@@ -49,12 +49,12 @@ export default function Page0821() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Illo nos amóris igne, quǽsumus. Dómine, hæc hóstia salutáris
               inflámmet: quo beátæ Joannæ Francíscæ cor veheménter incéndit, et
               flammis adússit ætérnæ caritátis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, permiti que esta hóstia salutar nos
               inflame no fogo daquele amor que abrasou com tanto ardor o coração
               da B. Joana Francisca e o consumiu nas chamas da eterna caridade.
@@ -65,13 +65,13 @@ export default function Page0821() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos cœléstis
               panis virtúte satiásti, beáta Joánna Francisca intercedénte,
               fácias terréna despícere, et te solum Deum pura mente sectári. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Infundi em nós, Senhor, o espírito da vossa caridade, a fim de que
               pela intercessão da B. Joana Francisca aqueles que saciastes com o
               celestial Pão dos fortes desprezem os bens da terra e com o

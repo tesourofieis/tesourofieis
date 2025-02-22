@@ -11,44 +11,46 @@ export default function PageNuncdimittis() {
           <Text className="h1">Nunc Dimíttis</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Nunc dimíttis, servum tuum, Dómine, * secúndum verbum tuum in
               pace:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Agora, Senhor, deixareis ir em paz o vosso servo, * segundo a
               vossa palavra:
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Quia vidérunt óculi mei * salutáre tuum,
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Pois os meus olhos já viram * a vossa salvação,
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Quod parásti * ante fáciem ómnium populórum,
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               E que preparastes * ante a face de todos os povos,
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Lumen ad revelatiónem Géntium, * et glóriam plebis tuæ Israël.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Luz para se revelar às nações, * e glória de Israel, vosso povo.
             </Text>
-            <Text className="text-base latin">
-              ℣. Glória Patri, et Fílio, et Spíritui Sancto.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text>Glória Patri, et Fílio, et
+              Spíritui Sancto.
             </Text>
-            <Text className="text-base vernacular">
-              ℣. Glória ao Pai, e ao Filho e ao Espírito Santo.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Glória ao Pai, e ao Filho e
+              ao Espírito Santo.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟.</Text> Sicut erat in pricípio,
-              et nunc, et semper, et in sǽcula sæculórum. Amen.
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Sicut erat in pricípio, et
+              nunc, et semper, et in sǽcula sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟.</Text> Assim como era no
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>

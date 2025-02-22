@@ -52,15 +52,15 @@ export default function Page0729() {
           <Text className="em">Lc. 10, 38-42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Intrávit Jesus in quoddam castéllum: et múlier
               quædam, Martha nómine, excépit illum in domum suam: et huic erat
               soror nómine María, quæ étiam sedens secus pedes Dómini, audiébat
@@ -71,7 +71,7 @@ export default function Page0729() {
               turbáris erga plúrima: porro unum est necessárium. María óptimam
               partem elégit, quæ non auferétur ab ea.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, entrou Jesus em um castelo, onde uma mulher,
               chamada Marta, O recebeu em sua casa. Tinha esta uma irmã, de nome
               Maria, que se assentou aos pés do Senhor, escutando suas palavras.
@@ -90,13 +90,13 @@ export default function Page0729() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, Dómine: ut, sicut pópulus christiánus Mártyrum
               tuórum Felícis, Simplícii, Faustíni et Beatrícis temporáli
               sollemnitáte congáudet, ita perfruátur ætérna; et, quod votis
               célebrat, comprehéndat efféctu. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, Vos suplicamos, que, assim como o povo cristão
               celebra com júbilo durante esta vida a festa dos vossos Santos
               Mártires Félix, Simplício, Faustino e Beatriz, assim também possa
@@ -108,13 +108,13 @@ export default function Page0729() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hóstias tibi, Dómine, pro sanctórum Mártyrum tuórum Felícis,
               Simplícii, Faustíni et Beatrícis commemoratióne deférimus:
               supplíciter deprecántes; ut indulgéntiam nobis páriter cónferant
               et salútem. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos oferecemos, Senhor, estas hóstias em memória dos vossos Santos
               Mártires Félix. Simplício, Faustino e Beatriz, suplicando-Vos
               humildemente que por eles nos concedais simultaneamente o perdão e
@@ -125,13 +125,13 @@ export default function Page0729() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum
               Felícis, Simplícii, Faustíni et Beatrícis cœléstibus mýsteriis
               celebráta sollémnitas, indulgéntiam nobis tuæ propitiatiónis
               acquírat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, Vos suplicamos, fazei que a solenidade dos
               vossos Santos Mártires Félix, Simplício, Faustino e Beatriz, que
               celebramos com estes celestiais mystérios, nos obtenha o perdão da

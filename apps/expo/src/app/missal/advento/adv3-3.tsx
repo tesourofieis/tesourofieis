@@ -15,50 +15,53 @@ export default function PageAdv33() {
           <Text className="em">Is. 45, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et
-              gérminet Salvatórem.{" "}
-              <Text className="text-base latin">Ps. 18, 2</Text> Cœli enárrant
-              glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum. ℣. Gloria
-              Patri...
+              gérminet Salvatórem. <Text className="latin">Ps. 18, 2</Text> Cœli
+              enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó céus, derramai dessas alturas o vosso orvalho: e que as nuvens
               chovam o Justo! Abra-se a terra e floresça o Salvador!{" "}
-              <Text className="text-base vernacular">Ps. 18, 2</Text> Os céus
-              proclamam a glória de Deus: e o firmamento anuncia as obras das
-              suas mãos. ℣. Glória ao Pai...
+              <Text className="vernacular">Ps. 18, 2</Text> Os céus proclamam a
+              glória de Deus: e o firmamento anuncia as obras das suas mãos.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="aside">Depois do Kyrie eleison o Padre diz:</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base latin">℣. Flectámus génua.</Text>
-            <Text className="text-base vernacular">℣. Ajoelhemos!</Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟.</Text> Leváte.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text> Flectámus génua.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟.</Text> Levantai-vos!
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text> Ajoelhemos!
+            </Text>
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Leváte.
+            </Text>
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut redemptiónis nostræ ventúra
               sollémnitas et præséntis nobis vitæ subsídia cónferat, et ætérnæ
               beatitúdinis prǽmia largiátur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fazei, ó Deus omnipotente, Vos imploramos, que as próximas
               solenidades da nossa redenção nos alcancem os auxílios para a vida
               presente e a recompensa da bem-aventurança eterna. Por nosso
@@ -71,11 +74,9 @@ export default function PageAdv33() {
           <Text className="em">Is. 2, 2–5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Isaías.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Isaías.</Text>
+            <Text className="latin">
               In diébus illis: Dixit Isaias Prophéta: Erit in novíssimis diébus
               præparátus mons domus Dómini in vértice móntium, et elevábitur
               super colles, et fluent ad eum omnes gentes. Et ibunt pópuli
@@ -88,7 +89,7 @@ export default function PageAdv33() {
               prǽlium. Domus Jacob, veníte, et ambulémus in lúmine Dómini, Dei
               nostri.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias (diz o Profeta Isaías) acontecerá nos últimos tempos
               que a montanha da casa do Senhor será elevada sobre o pico das
               montanhas e acima de todas as colinas. E aí virão todos os povos.
@@ -109,14 +110,16 @@ export default function PageAdv33() {
           <Text className="em">Sl. 23, 7, 3 & 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tóllite portas, principes, vestras: et elevámini, portæ æternáles:
-              et introíbit Rex glóriæ, ℣. Quis ascéndet in montem Dómini? aut
-              quis stabit in loco sancto ejus? Innocens mánibus et mundo corde.
+              et introíbit Rex glóriæ,<Text className="versicle"> ℣. </Text>Quis
+              ascéndet in montem Dómini? aut quis stabit in loco sancto ejus?
+              Innocens mánibus et mundo corde.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó portas, abri-vos inteiramente! Abri-vos, ó portas eternas!
-              Então, entrará o Rei da glória! ℣. Quem será digno de subir à
+              Então, entrará o Rei da glória!
+              <Text className="versicle"> ℣. </Text>Quem será digno de subir à
               montanha do Senhor? Quem será digno de permanecer no santuário?
               Aquele que tiver as mãos inocentes e o coração puro.
             </Text>
@@ -125,12 +128,12 @@ export default function PageAdv33() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Festína, quǽsumus, Dómine, ne tardáveris, et auxílium nobis
               supérnæ virtútis impénde: ut advéntus tui consolatiónibus
               sublevéntur, qui in tua pietáte confídunt: Qui vivis et regnas...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Apressai-Vos em nos socorrer, ó Senhor, Vos suplicamos; não
               tardeis em conceder-nos o auxílio do vosso celestial poder, a fim
               de que as consolações do vosso advento confortem aqueles que
@@ -143,11 +146,9 @@ export default function PageAdv33() {
           <Text className="em">Is. 7, 10–15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Lectio Isaíæ Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Isaías.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Isaías.</Text>
+            <Text className="latin">
               In diébus illis: Locútus est Dóminus ad Achaz, dicens: Pete tibi
               signum a Dómino, Deo tuo, in profúndum inférni, sive in excélsum
               supra. Et dixit Achaz: Non petam et non tentábo Dóminum. Et dixit:
@@ -157,7 +158,7 @@ export default function PageAdv33() {
               et vocábitur nomen ejus Emmánuel. Butýrum et mel cómedet, ut sciat
               reprobare malum et elígere bonum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, falou o Senhor a Acaz e disse-lhe: «Pedi ao Senhor,
               vosso Deus, um prodígio nas profundezas do inferno ou nas alturas
               do céu». Acaz respondeu: «Não pedirei tal coisa e não tentarei o
@@ -175,12 +176,13 @@ export default function PageAdv33() {
           <Text className="em">Sl. 144, 18 & 21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Prope est Dóminus ómnibus invocántibus eum: ómnibus qui ínvocant
-              eum in veritáte. ℣. Laudem Dómini loquétur os meum: et benedícat
-              omnis caro nomen sanctum ejus.
+              eum in veritáte.<Text className="versicle"> ℣. </Text>Laudem
+              Dómini loquétur os meum: et benedícat omnis caro nomen sanctum
+              ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor está perto de todos aqueles que o invocam: de todos que
               com verdade o invocam. Que minha boca publique os louvores do
               Senhor: e que toda a carne bendiga seu santo Nome.
@@ -192,15 +194,15 @@ export default function PageAdv33() {
           <Text className="em">Lc. 1, 26–38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo tempore: Missus est Angelus Gábriel a Deo in civitatem
               Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui
               nomen erat Joseph, de domo David, et nomen Vírginis María. Et
@@ -221,7 +223,7 @@ export default function PageAdv33() {
               omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi
               secúndum verbum tuum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da
               Galileia, chamada Nazaré, a uma Virgem, desposada com um varão,
               cujo nome era José, da casa de David; e o nome da Virgem era
@@ -250,11 +252,11 @@ export default function PageAdv33() {
           <Text className="em">Is. 35, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Confortámini, et jam nolite timére: ecce enim, Deus noster
               retríbuet judícium: ipse véniet, et salvos nos fáciet.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Confortai-vos, e já não receeis: eis o nosso Deus, que vem a
               julgar cada um de nós: Ele próprio virá e nos salvará.
             </Text>
@@ -263,12 +265,12 @@ export default function PageAdv33() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Accépta tibi sint, quǽsumus, Dómine, nostra jejúnia: quæ et
               expiándo nos tua grátia dignos effíciant, et ad sempiter na
               promíssa perdúcant. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sejam-nos propícios os nossos jejuns, Senhor, Vos suplicamos, para
               que, expiando por eles as nossas faltas, nos tornemos dignos da
               vossa graça, e sejamos conduzidos à felicidade eterna, que nos
@@ -281,11 +283,11 @@ export default function PageAdv33() {
           <Text className="em">Is. 7, 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ecce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus
               Emmánuel.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eis que a Virgem conceberá e dará à luz um Filho, cujo nome será
               Emanuel.
             </Text>
@@ -294,11 +296,11 @@ export default function PageAdv33() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Salutáris tui, Dómine, munere satiáti, súpplices deprecámur: ut,
               cujus lætámur gustu, renovémur efféctu. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com vossos salutares dons, Senhor, Vos suplicamos que,
               assim como nos alegramos com sua recepção, assim sejamos
               restabelecidos com seus efeitos. Por nosso Senhor...

@@ -18,17 +18,18 @@ export default function Page0722Lisboa() {
             Descobrirei as obras de Deus pelas suas palavras. O sol, iluminando
             o mundo, vê todas as coisas: e a glória do Senhor brilha nas suas
             obras. Apareça o Senhor e desapareçam os seus inimigos! Que aqueles
-            que O odeiam fujam da sua presença. ℣. Glória ao Pai...
+            que O odeiam fujam da sua presença.
+            <Text className="versicle"> ℣. </Text>Glória ao Pai...
           </Text>
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui ad árdua quæque pro nóminis tui glória et animárum
               salúte beáto Lauréntio, Confessóri tuo atque Doctóri, spíritum
               sapiéntiæ et fortitúdinis contulísti: da nobis in eódem spíritu et
               agénda cognóscere; et cógnita, ejus intercessióne, perfícere.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que para glória do vosso nome e salvação das almas
               ornastes o B. Lourenço, vosso Confessor, com o espírito de
               conselho e de fortaleza nas obras ainda as mais árduas,

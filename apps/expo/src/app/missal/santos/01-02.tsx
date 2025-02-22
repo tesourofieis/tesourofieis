@@ -24,13 +24,13 @@ export default function Page0102() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui primítias Mártyrum in beáti Levítæ
               Stéphani sánguine dedicásti: tríbue, quǽsumus; ut pro nobis
               intercéssor exsístat, qui pro suis étiam persecutóribus exorávit
               Dóminum nostrum Jesum Christum Filium tuum. Qui tecum vivit...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus omnipotente e eterno, que consagrastes as primícias dos
               Mártires com o sangue do B. Levita Estevão, dignai-Vos permitir
               que seja perante Vós nosso intercessor aquele que a Nosso Senhor

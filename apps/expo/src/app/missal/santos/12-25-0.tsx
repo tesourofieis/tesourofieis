@@ -15,30 +15,30 @@ export default function Page12250() {
           <Text className="em">Sl. 2, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dóminus dixit ad me: Fílius meus es tu, ego hódie génui te.{" "}
-              <Text className="text-base latin">Ps. ib., 1</Text> Quare
-              fremuérunt gentes: et pópuli meditáti sunt inánia? ℣. Gloria
-              Patri...
+              <Text className="latin">Ps. ib., 1</Text> Quare fremuérunt gentes:
+              et pópuli meditáti sunt inánia?
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor disse-me: Sois o meu Filho: Eu Vos gerei hoje.{" "}
-              <Text className="text-base vernacular">Sl. ib., 1</Text> Porque se
-              agitaram as nações? Porque meditaram os povos vãos projectos
-              contra mim? ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ib., 1</Text> Porque se agitaram
+              as nações? Porque meditaram os povos vãos projectos contra mim?
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui hanc sacratíssimam noctem veri lúminis fecísti
               illustratióne claréscere: da, quǽsumus; ut, cujus lucis mystéria
               in terra cognóvimus, ejus quoque gáudiis in cœlo perfruámur: Qui
               tecum vivit...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que fizestes brilhar nesta noite santíssima os esplendores
               da verdadeira luz, permiti, Vos pedimos, que, depois de havermos
               conhecido esta luz misteriosa neste mundo, possamos gozar no céu
@@ -52,13 +52,13 @@ export default function Page12250() {
           <Text className="em">Tt. 2, 11-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beati Pauli Apóstoli ad Titum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo a Tito.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Caríssime: Appáruit grátia Dei Salvatóris nostri ómnibus
               homínibus, erúdiens nos, ut, abnegántes impietátem et sæculária
               desidéria, sóbrie et juste et pie vivámus in hoc sǽculo,
@@ -68,7 +68,7 @@ export default function Page12250() {
               acceptábilem, sectatórem bonórum óperum. Hæc lóquere et exhortáre:
               in Christo Jesu, Dómino nostro.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caríssimo: A graça de Deus, nosso Salvador, manifestou-se a todos
               os homens, ensinando-nos, a fim de que, repudiando a impiedade e
               os apetites terrenos, vivamos neste mundo com temperança, justiça
@@ -86,28 +86,29 @@ export default function Page12250() {
           <Text className="em">Sl. 109, 3 & 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tecum princípium in die virtútis tuæ: in splendóribus Sanctórum,
-              ex útero ante lucíferum génui te. ℣. Dixit Dóminus Dómino meo:
+              ex útero ante lucíferum génui te.
+              <Text className="versicle"> ℣. </Text>Dixit Dóminus Dómino meo:
               Sede a dextris meis: donec ponam inimícos tuos, scabéllum pedum
               tuórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Em Vós estará o poder soberano no dia do vosso império, no meio
               dos esplendores dos escolhidos. Eu Vos gerei no meu seio, antes da
               aurora. O soberano Senhor disse ao meu Senhor: «Assentai-Vos à
               minha dextra até que eu torne os meus inimigos em escabelo dos
               vossos pés».
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 2, 7</Text> Dóminus dixit ad
-              me: Fílius meus es tu, ego hódie génui te. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 2, 7</Text> Dóminus dixit ad me:
+              Fílius meus es tu, ego hódie génui te. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 2, 7</Text> O Senhor
-              disse-me: «Vós sois o meu Filho; gerei-Vos hoje». Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 2, 7</Text> O Senhor disse-me:
+              «Vós sois o meu Filho; gerei-Vos hoje». Aleluia.
             </Text>
           </View>
 
@@ -116,15 +117,15 @@ export default function Page12250() {
           <Text className="em">Lc. 2, 1-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Exiit edíctum a Cǽsare Augústo, ut describerétur
               univérsus orbis. Hæc descríptio prima facta est a prǽside Sýriæ
               Cyríno: et ibant omnes ut profiteréntur sínguli in suam civitátem.
@@ -145,7 +146,7 @@ export default function Page12250() {
               multitúdo milítiæ cœléstis, laudántium Deum et dicéntium: Glória
               in altíssimis Deo, et in terra pax hóminibus bonæ voluntátis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, foi publicado um édito de César Augusto para que se
               fizesse o recenseamento de todo o universo. Este primeiro
               recenseamento foi feito por Cirino, governador da Síria. E todos,
@@ -176,10 +177,10 @@ export default function Page12250() {
           <Text className="em">Sl. 95, 11 & 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Læténtur cœli et exsúltet terra ante fáciem Dómini: quóniam venit.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Alegrem-se os céus! Regozije-se a terra ante a face do Senhor,
               pois Ele veio.
             </Text>
@@ -188,13 +189,13 @@ export default function Page12250() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Acépta tibi sit, Dómine, quǽsumus, hodiérnæ festivitátis oblátio:
               ut, tua gratia largiénte, per hæc sacrosáncta commércia, in illíus
               inveniámur forma, in quo tecum est nostra substántia: Qui tecum
               vivit...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos, Senhor, aceitar a oblação que Vos oferecemos na
               festividade deste dia, e pela vossa graça permiti que por meio
               deste sacrossanto comércio nos assemelhemos Àquele em quem a nossa
@@ -208,10 +209,10 @@ export default function Page12250() {
           <Text className="em">Sl. 109, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In splendóribus Sanctórum, ex útero ante lucíferum génui te.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu Vos gerei no meu seio, antes do romper da aurora, entre os
               esplendores dos escolhidos.
             </Text>
@@ -220,13 +221,13 @@ export default function Page12250() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da nobis, quǽsumus, Dómine, Deus noster: ut, qui Nativitátem
               Dómini nostri Jesu Christi mystériis nos frequentáre gaudémus;
               dignis conversatiónibus ad ejus mereámur per veníre consórtium:
               Qui tecum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, nosso Deus, permiti, Vos suplicamos, que, celebrando
               alegremente o Nascimento de nosso Senhor Jesus Cristo, pela
               frequência destes divinos mystérios, mereçamos, com uma conduta

@@ -11,64 +11,64 @@ export default function Page046() {
           <Text className="h1">Salmo 46</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnes gentes, pláudite mánibus: * jubiláte Deo in voce
               exsultatiónis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Batei palmas todas as gentes: * aclamai a Deus com vozes de
               alegria.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Quóniam Dóminus excélsus, terríbilis: * Rex magnus super omnem
               terram.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Porque o Senhor é excelso e terrível: * Rei supremo sobre toda a
               terra.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Subjécit pópulos nobis: * et gentes sub pédibus nostris.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Submeteu os povos a nós: * e as gentes debaixo dos nossos pés.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Elégit nobis hereditátem suam: * spéciem Jacob, quam diléxit.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Escolheu-nos para sua herança: * beleza de Jacob que tanto amou.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Ascéndit Deus in júbilo: * et Dóminus in voce tubæ.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Subiu Deus com júbilo: * e o Senhor com a voz da trombeta.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Psállite Deo nostro, psállite: * psállite Regi nostro, psállite.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Cantai ao nosso Deus, cantai: * cantai ao nosso Rei, cantai.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Quóniam Rex omnis terræ Deus: * psállite sapiénter.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus é o Rei de toda a terra: * cantai sabiamente.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Regnábit Deus super gentes: * Deus sedet super sedem sanctam suam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus reinará sobre as gentes: * Deus está sentado no seu santo
               trono.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Príncipes populórum congregáti sunt cum Deo Ábraham: * quóniam dii
               fortes terræ veheménter eleváti sunt.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Os príncipes dos povos reuniram-se com o Deus de Abraão: * porque
               os fortes deuses da terra foram elevadíssimos.
             </Text>

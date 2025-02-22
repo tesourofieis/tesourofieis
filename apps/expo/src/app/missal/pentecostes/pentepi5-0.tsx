@@ -15,33 +15,32 @@ export default function PagePentepi50() {
           <Text className="em">Jr. 29,11,12 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
               invocábitis me, et ego exáudiam vos: et redúcam captivitátem
-              vestram de cunctis locis.{" "}
-              <Text className="text-base latin">Ps. 84, 2</Text> Benedixísti,
-              Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria
-              Patri...
+              vestram de cunctis locis. <Text className="latin">Ps. 84, 2</Text>{" "}
+              Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Disse o Senhor: tenho pensamentos de paz e não de ira:
               invocar-me-eis e ouvir-Vos-ei; e farei regressar de todos os
               países os vossos cativos.{" "}
-              <Text className="text-base vernacular">Sl. 84, 2</Text>{" "}
-              Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro.
-              ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 84, 2</Text> Abençoastes, Senhor,
+              a vossa terra e livrastes Jacob do cativeiro.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut, quæ
               in sola spe grátiæ cœléstis innítitur, tua semper protectióne
               muniátur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, dignai-Vos revestir a vossa família com vossa perpétua
               misericórdia, e como ela não possui outra esperança senão a da
               vossa celestial graça, permiti que esteja sempre munida com vossa
@@ -54,13 +53,13 @@ export default function PagePentepi50() {
           <Text className="em">Cl. 3, 12-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Indúite vos sicut electi Dei, sancti et dilecti, víscera
               misericórdiæ, benignitátem, humilitátem, modéstiam, patiéntiam:
               supportántes ínvicem, et donántes vobismetípsis, si quis advérsus
@@ -75,7 +74,7 @@ export default function PagePentepi50() {
               Christi, grátias agéntes Deo et Patri per Jesum Christum, Dóminum
               nostrum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Como escolhidos de Deus, que sois, santos e amados,
               revesti-vos de sentimentos íntimos de misericórdia, de bondade, de
               humildade, de modéstia e de paciência, suportando-vos uns aos
@@ -98,25 +97,25 @@ export default function PagePentepi50() {
           <Text className="em">Sl. 43, 8-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
-              odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine
-              tuo confitébimur in sǽcula.
+              odérunt, confudísti.<Text className="versicle"> ℣. </Text>In Deo
+              laudábimur tota die, et in nómine tuo confitébimur in sǽcula.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes
               os que nos odiavam. Glorificar-nos-emos constantemente em Deus e
               louvaremos eternamente o vosso nome.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 129, 12</Text> De profúndis
-              clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 129, 12</Text> De profúndis clamávi ad
+              te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 129, 12</Text> Do fundo
-              do abysmo Vos invoquei, Senhor: escutai a minha oração. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 129, 12</Text> Do fundo do abysmo
+              Vos invoquei, Senhor: escutai a minha oração. Aleluia.
             </Text>
           </View>
 
@@ -125,15 +124,15 @@ export default function PagePentepi50() {
           <Text className="em">Mt. 13, 24-30</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus turbis parábolam hanc: Símile factum
               est regnum cœlórum hómini, qui seminávit bonum semen in agro suo.
               Cum autem dormírent hómines, venit inimícus ejus, et
@@ -148,7 +147,7 @@ export default function PagePentepi50() {
               primum zizáania, et alligáte ea in fascículos ad comburéndum,
               tríticum autem congregáta in hórreum meum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus às turbas: O reino dos céus é
               semelhante a um homem que havia semeado boa semente no seu campo;
               mas, enquanto os homens dormiam, veio o seu inimigo semeou joio
@@ -170,11 +169,11 @@ export default function PagePentepi50() {
           <Text className="em">Sl. 129, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam:
               de profúndis clamávi ad te. Dómine.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor,
               a minha voz: das profundezas dos abysmos Vos invoquei.
             </Text>
@@ -183,11 +182,11 @@ export default function PagePentepi50() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra
               miserátus absólvas, et nutántia corda tu dírigas. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos oferecemos, Senhor, estas hóstias de propiciação, a fim de que
               misericordiosamente perdoeis os nossos pecados e ampareis os
               nossos corações inconstantes. Por nosso Senhor...
@@ -199,11 +198,11 @@ export default function PagePentepi50() {
           <Text className="em">Mc. 11, 24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Amen, dico vobis, quidquid orántes pétitis, crédite, quia
               accipiétis, et fiet vobis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
               acreditai que o recebereis; e far-se-á como pedirdes».
             </Text>
@@ -212,11 +211,11 @@ export default function PagePentepi50() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, omnípotens Deus: ut illíus salutáris capiámus efféctum,
               cujus per hæc mystéria pignus accépimus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos suplicamos, ó Deus omnipotente, fazei que obtenhamos o efeito
               da salvação eterna, da qual nestes sagrados mystérios já recebemos
               o penhor. Por nosso Senhor...

@@ -13,13 +13,13 @@ export default function Page0317() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui ad prædicándam géntibus glóriam tuam beátum Patrícium
               Confessórem atque Pontíficem míttere dignátus es: ejus méritis et
               intercessióne concéde; ut, quæ nobis agénda prǽcipis, te miseránte
               adimplére póssimus. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que Vos dignastes mandar B. Patrício, Confessor e Bispo,
               anunciar a vossa glória aos gentios, concedei-nos pelos seus
               méritos e intercessão que com o socorro da vossa misericórdia

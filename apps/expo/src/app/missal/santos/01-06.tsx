@@ -15,31 +15,31 @@ export default function Page0106() {
           <Text className="em">Ml. 3, 1; 1 Cr. 29, 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ecce, advénit dominátor Dóminus: et regnum in manu ejus et
-              potéstas et impérium.{" "}
-              <Text className="text-base latin">Ps. 71, 1</Text> Deus, judícium
-              tuum Regi da: et justítiam tuam Fílio Regis. ℣. Gloria Patri...
+              potéstas et impérium. <Text className="latin">Ps. 71, 1</Text>{" "}
+              Deus, judícium tuum Regi da: et justítiam tuam Fílio Regis.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eis que apareceu soberano Senhor: e traz empunhado o ceptro da
               realeza, do poder e do império.{" "}
-              <Text className="text-base vernacular">Sl. 71, 1</Text> Ó Deus,
-              concedei ao Rei a graça de saber julgar: e ao Filho do Rei a Vossa
-              justiça. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 71, 1</Text> Ó Deus, concedei ao
+              Rei a graça de saber julgar: e ao Filho do Rei a Vossa justiça.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui hodiérna die Unigénitum tuum géntibus steila duce
               revelásti: concéde propítius; ut, qui jam te ex fide cognóvimus,
               usque ad contemplándam spéciem tuæ celsitúdinis perducámur. Per
               eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que neste dia manifestastes o vosso Filho Unigénito aos
               gentios, enviando-lhes uma estrela para os guiar até onde Ele
               estava, concedei-nos propício que, conhecendo-Vos nós, já, pela
@@ -53,11 +53,9 @@ export default function Page0106() {
           <Text className="em">Is. 60, 1-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Isaías.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Isaías.</Text>
+            <Text className="latin">
               Surge, illumináre, Jerúsalem: quia venit lumen tuum, et glória
               Dómini super te orta est. Quia ecce, ténebræ opérient terram et
               caligo pópulos: super te autem oriétur Dóminus, et glória ejus in
@@ -70,7 +68,7 @@ export default function Page0106() {
               te dromedárii Mádian et Epha: omnes de Saba vénient, aurum et thus
               deferéntes, et laudem Dómino annuntiántes.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ergue-te e resplandece, Jerusalém, pois a tua luz raiou, e a
               glória do Senhor brilhou sobre ti. Enquanto as trevas cobrem a
               terra, e uma noite escura envolve os povos, eis que desponta sobre
@@ -92,26 +90,25 @@ export default function Page0106() {
           <Text className="em">ibid., 6 & 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino
-              annuntiántes. ℣. Surge et illumináre, Jerúsalem: quia glória
-              Dómini super te orta est.
+              annuntiántes.<Text className="versicle"> ℣. </Text>Surge et
+              illumináre, Jerúsalem: quia glória Dómini super te orta est.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Todos os de Sabá virão, trazendo ouro em incenso e louvando o
-              Senhor. ℣. Ergue-te, Jerusalém, e resplandece, porque a glória do
-              Senhor brilhou sobre ti.
+              Senhor.<Text className="versicle"> ℣. </Text>Ergue-te, Jerusalém,
+              e resplandece, porque a glória do Senhor brilhou sobre ti.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Matth. 2, 2</Text> Vídimus
-              stellam ejus in Oriénte, et vénimus cum munéribus adoráre Dóminum.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Matth. 2, 2</Text> Vídimus stellam ejus in
+              Oriénte, et vénimus cum munéribus adoráre Dóminum. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Mt. 2, 2</Text> Vimos a sua
-              estrela no Oriente e viemos com ofertas adorar o Senhor. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Mt. 2, 2</Text> Vimos a sua estrela
+              no Oriente e viemos com ofertas adorar o Senhor. Aleluia.
             </Text>
           </View>
 
@@ -120,15 +117,15 @@ export default function Page0106() {
           <Text className="em">Mt. 2, 1-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽu.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽu.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis,
               ecce, Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui
               natus est rex Judæórum? Vidimus enim stellam ejus in Oriénte, et
@@ -146,13 +143,12 @@ export default function Page0106() {
               in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi
               erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde.
               Et intrántes domum, invenérunt Púerum cum María Matre ejus,{" "}
-              <Text className="text-base latin">hic genuflectitur</Text> ei
-              procidéntes adoravérunt eum. Et, apértis thesáuris suis,
-              obtulérunt ei múnera, aurum, thus et myrrham. Et responso accépto
-              in somnis, ne redírent ad Heródem, per aliam viam revérsi sunt in
-              regiónem suam.
+              <Text className="latin">hic genuflectitur</Text> ei procidéntes
+              adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera,
+              aurum, thus et myrrham. Et responso accépto in somnis, ne redírent
+              ad Heródem, per aliam viam revérsi sunt in regiónem suam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes,
               eis que vieram a Jerusalém os Magos do Oriente, dizendo: «Onde
               está o rei dos Judeus, que acaba de nascer? Pois vimos a sua
@@ -173,8 +169,7 @@ export default function Page0106() {
               chegando ao lugar onde estava o Menino, parou. Quando os Magos
               viram a estrela, alegraram-se muito. Entrando, então, na casa,
               encontraram o Menino com Maria, sua mãe; e, de joelhos, O
-              adoraram.{" "}
-              <Text className="text-base vernacular">Todos devem ajoelhar</Text>{" "}
+              adoraram. <Text className="vernacular">Todos devem ajoelhar</Text>{" "}
               E, tendo aberto os seus tesouros, ofereceram-Lhe presentes de
               ouro, incenso e mirra. Depois, havendo tido em sonhos aviso de que
               não deveriam voltar a encontrar Herodes, retiraram-se por outro
@@ -187,12 +182,12 @@ export default function Page0106() {
           <Text className="em">Sl. 71, 10-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Reges Tharsis, et ínsulæ múnera ófferent: reges Arabum et Saba
               dona addúcent: et adorábunt eum omnes reges terræ, omnes gentes
               sérvient ei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Os reis de Társis e as ilhas oferecer-Lhe-ão tributos: Os reis de
               Arábia e de Sabá levar-Lhe-ão ofertas; todos os reis da terra O
               adorarão; e todas as nações O servirão.
@@ -202,13 +197,13 @@ export default function Page0106() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ecclésiæ tuæ, quǽsumus, Dómine, dona propítius intuere: quibus non
               jam aurum, thus et myrrha profertur; sed quod eisdem munéribus
               declarátur, immolátur et súmitur, Jesus Christus, fílius tuus,
               Dóminus noster: Qui tecum vivit...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos olhar benigno, Senhor, para os dons que a vossa Igreja
               Vos oferece, não o ouro, o incenso e a mirra, mas o que estas
               dádivas representam, e que agora é imolado e dado em alimento,
@@ -221,11 +216,11 @@ export default function Page0106() {
           <Text className="em">Mt. 2, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre
               Dóminum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vimos a sua estrela no Oriente e viemos com ofertas adorar o
               Senhor.
             </Text>
@@ -234,12 +229,12 @@ export default function Page0106() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, quæ sollémni celebrámus
               officio, purificátæ mentis intellegéntia consequámur. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, dignai-Vos purificar inteiramente o nosso
               espírito, a fim de que compreenda os mystérios que celebrámos
               neste solene ofício. Por nosso Senhor...

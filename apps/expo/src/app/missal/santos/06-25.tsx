@@ -21,13 +21,13 @@ export default function Page0625() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui infirmitáti nostræ ad teréndam salútis viam in Sanctis
               tuis exémplum et præsídium collocásti: da nobis, ita beáti
               Guliélmi Abbátis mérita venerári; ut ejúsdem excipiámus suffrágia
               et vestígia prosequámur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que para facilitar à nossa fraqueza o caminho da salvação
               no auxiliais com o exemplo e com a assistência dos vossos Santos,
               concedei-nos a graça de imitar os méritos do B. Abade Guilherme de

@@ -16,31 +16,31 @@ export default function Page0810() {
           <Text className="em">Sl. 95, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Conféssio et pulchritúdo in conspéctu ejus: sánctitas et
               magnificéntia in sanctificatióne ejus.{" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Cantáte
-              Dómino cánticum novum: cantáte Dómino, omnis terra. ℣. Gloria
-              Patri...
+              <Text className="latin">Ps. ibid., 1</Text> Cantáte Dómino
+              cánticum novum: cantáte Dómino, omnis terra.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
               santidade e a magnificência.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 1</Text> Cantai
-              em honra do Senhor um hino novo: que toda a terra cante hinos ao
-              Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 1</Text> Cantai em honra
+              do Senhor um hino novo: que toda a terra cante hinos ao Senhor.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da nobis, quǽsumus, omnípotens Deus: vitiórum nostrorum flammas
               exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum
               incéndia superáre. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, que permitistes que o B. Lourenço triunfasse
               das chamas do seu suplício, concedei-nos a graça, Vos suplicamos,
               de extinguirdes as chamas dos nossos vícios. Por nosso Senhor...
@@ -52,13 +52,13 @@ export default function Page0810() {
           <Text className="em">2 Cor. 9, 6-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Qui parce séminat, parce et metet: et qui séminat in
               benedictiónibus, de benedictiónibus et metet. Unusquísque prout
               destinávit in corde suo, non ex tristítia aut ex necessitáte:
@@ -70,7 +70,7 @@ export default function Page0810() {
               manducándum præstábit, et multiplicábit semen vestrum, et augébit
               increménta frugum justítiæ vestræ.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Aquele que semeia pouco, colherá pouco também; e
               aquele que semeia com abundância, colherá também com abundância.
               Que cada um dê segundo o que tiver resolvido no seu coração; mas
@@ -92,23 +92,26 @@ export default function Page0810() {
           <Text className="em">Sl. 16, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Probásti, Dómine, cor meum, et visitásti nocte. ℣. Igne me
-              examinásti, et non est invénta in me iníquitas.
+            <Text className="latin">
+              Probásti, Dómine, cor meum, et visitásti nocte.
+              <Text className="versicle"> ℣. </Text>Igne me examinásti, et non
+              est invénta in me iníquitas.
             </Text>
-            <Text className="text-base vernacular">
-              Experimentastes o meu coração e visitaste-lo durante a noite. ℣.
+            <Text className="vernacular">
+              Experimentastes o meu coração e visitaste-lo durante a noite.
+              <Text className="versicle"> ℣. </Text>
               Experimentastes-me com o fogo e não se encontrou em mim a
               iniquidade.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Levíta Lauréntius bonum opus operátus est:
-              qui per signum crucis cœcos illuminávit. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Levíta
+              Lauréntius bonum opus operátus est: qui per signum crucis cœcos
+              illuminávit. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. O Levita Lourenço praticou uma boa acção:
-              pois restituiu a vista aos cegos com o sinal da Santa Cruz.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O Levita
+              Lourenço praticou uma boa acção: pois restituiu a vista aos cegos
+              com o sinal da Santa Cruz. Aleluia.
             </Text>
           </View>
 
@@ -124,11 +127,11 @@ export default function Page0810() {
           <Text className="em">Sl. 95, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Conféssio et pulchritúdo in conspéctu ejus: sánctitas, et
               magnificéntia in sanctificatióne ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
               santidade e a magnificência.
             </Text>
@@ -137,12 +140,12 @@ export default function Page0810() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Accipé, quǽsumus, Dómine, múnera dignánter obláta: et, beáti
               Lauréntii suffragántibus méritis, ad nostræ salútis auxílium
               proveníre concéde. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recebei, Senhor, Vos suplicamos, os dons que reverentemente Vos
               oferecemos, e, pelo sufrágio dos méritos do B. Lourenço, permiti
               que nos sirvam de auxílio para a salvação. Por nosso Senhor Jesus
@@ -155,11 +158,11 @@ export default function Page0810() {
           <Text className="em">Jo. 12, 26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui mihi mínistrat, me sequátur: et ubi ego sum, illic et miníster
               meus erit.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Se alguém me serve, siga-me; e onde eu estiver lá estará também o
               meu servo.
             </Text>
@@ -168,12 +171,12 @@ export default function Page0810() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod
               débitæ servitútis celebrámus offício, intercedénte beáto Lauréntio
               Mártyre tuo, salvatiónis tuæ sentiámus augméntum. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com este sacrossanto dom, humildemente Vos rogamos pela
               intercessão do B. Lourenço, vosso Mártir, que, celebrando este
               ofício em reconhecimento da nossa escravidão, alcancemos cada vez

@@ -15,20 +15,20 @@ export default function PagePelapaz() {
           <Text className="em">Ecl. 36, 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles
               inveniántur: exáudi preces servi tui, et plebis tuæ Israël. (T. P.
-              Allelúja, allelúja.){" "}
-              <Text className="text-base latin">Ps. 121, 1</Text> Lætátus sum in
-              his, quæ dicta sunt mihi: in domum Dómini íbimus. ℣. Gloria
-              Patri...
+              Allelúja, allelúja.) <Text className="latin">Ps. 121, 1</Text>{" "}
+              Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dai a paz, Senhor, aos que em Vós esperam, para que os vossos
               Profetas sejam encontrados verdadeiros; ouvi as súplicas do vosso
               servo e de Israel, vosso povo. (T. P. Aleluia, aleluia.){" "}
-              <Text className="text-base vernacular">Sl. 121, 1</Text>{" "}
-              Regozijei-me quando me disseram: iremos para a casa do Senhor. ℣.
+              <Text className="vernacular">Sl. 121, 1</Text> Regozijei-me quando
+              me disseram: iremos para a casa do Senhor.
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -36,13 +36,13 @@ export default function PagePelapaz() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, a quo sancta desidéria, recta consília et justa sunt ópera:
               da servis tuis illam, quam mundus dare non potest, pacem; ut et
               corda nostra mandátis tuis dédita, et, hóstium subláta formídine,
               témpora sint, tua protectióne, tranquílla. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, de quem nascem os santos desejos, os bons pensamentos e as
               obras justas, concedei aos vossos servos aquela paz que o mundo
               não pode dar, a fim de que os nossos corações amem intimamente os
@@ -56,11 +56,9 @@ export default function PagePelapaz() {
           <Text className="em">2 Mach. 1, 1-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Machabæórum.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro dos Macabeus.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Machabæórum.</Text>
+            <Text className="vernacular">Lição do Livro dos Macabeus.</Text>
+            <Text className="latin">
               Frátribus, qui sunt per Ægýptum, Judǽis, salutem dicunt fratres,
               qui sunt in Jerosólymis, Judǽi et qui in regióne Judǽæ, et pacem
               bonam. Benefáciat vobis Deus et memínerit testaménti sui, quod
@@ -71,7 +69,7 @@ export default function PagePelapaz() {
               oratiónes vestras et reconciliétur vobis nec vos déserat in
               témpore malo, Dóminus, Deus noster.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Os judeus de Jerusalém e do país da Judeia desejam aos seus
               Irmãos, que estão dispersos peto Egipto, saúde e boa paz. Que Deus
               vos cumule de bênçãos, que se lembre da aliança que fez com seus
@@ -89,24 +87,26 @@ export default function PagePelapaz() {
           <Text className="em">Sl. 121, 6-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Rogáte quæ ad pacem sunt Jerúsalem: et abundántia diligéntibus te.
-              ℣. Fiat pax in virtúte tua, et abundántia in túrribus tuis.
+              <Text className="versicle"> ℣. </Text>Fiat pax in virtúte tua, et
+              abundántia in túrribus tuis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Rogai ao Senhor que dê a paz aos que estão em Jerusalém. Que vivam
-              na abundância dos bens aqueles que Vos amam, ó Sião. ℣. Que haja
-              paz nas tuas fortalezas e abundância nas tuas torres.
+              na abundância dos bens aqueles que Vos amam, ó Sião.
+              <Text className="versicle"> ℣. </Text>Que haja paz nas tuas
+              fortalezas e abundância nas tuas torres.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 147, 12</Text> Lauda,
-              Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem,
+              Dóminum: lauda Deum tuum, Sion. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 147, 12</Text> Louvai o
-              Senhor, vosso Deus, ó Sião. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 147, 12</Text> Louvai o Senhor,
+              vosso Deus, ó Sião. Aleluia.
             </Text>
           </View>
 
@@ -119,16 +119,20 @@ export default function PagePelapaz() {
           <Text className="em">Sl. 75, 2-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Notus in Judǽa Deus, in Israël magnum nomen ejus. ℣. Et factus est
-              in pace locus ejus, et habitátio ejus in Sion. ℣. Ibi confrégit
-              poténtias árcuum, scutum, gládium, et bellum.
+            <Text className="latin">
+              Notus in Judǽa Deus, in Israël magnum nomen ejus.
+              <Text className="versicle"> ℣. </Text>Et factus est in pace locus
+              ejus, et habitátio ejus in Sion.
+              <Text className="versicle"> ℣. </Text>Ibi confrégit poténtias
+              árcuum, scutum, gládium, et bellum.
             </Text>
-            <Text className="text-base vernacular">
-              Deus é conhecido na Judeia; o seu nome é grande em Israel; ℣.
-              Escolheu em Sião o seu lugar de repouso e aí permaneceu; ℣. E
-              contra os seus muros quebraram-se os poderes dos arcos, dos
-              escudos, das espadas e da própria guerra.
+            <Text className="vernacular">
+              Deus é conhecido na Judeia; o seu nome é grande em Israel;
+              <Text className="versicle"> ℣. </Text>
+              Escolheu em Sião o seu lugar de repouso e aí permaneceu;
+              <Text className="versicle"> ℣. </Text>E contra os seus muros
+              quebraram-se os poderes dos arcos, dos escudos, das espadas e da
+              própria guerra.
             </Text>
           </View>
 
@@ -137,17 +141,19 @@ export default function PagePelapaz() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 147, 12</Text> Lauda,
-              Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja. ℣.{" "}
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem,
+              Dóminum: lauda Deum tuum, Sion. Allelúja.
+              <Text className="versicle"> ℣. </Text>
               <Text className="em">ibid., 14</Text> Qui pósuit fines tuos pacem,
               et ádipe fruménti sátiat te. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 147, 12</Text> Louvai o
-              Senhor, ó Jerusalém; louvai o vosso Deus, ó Sião. Aleluia. ℣.{" "}
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 147, 12</Text> Louvai o Senhor, ó
+              Jerusalém; louvai o vosso Deus, ó Sião. Aleluia.
+              <Text className="versicle"> ℣. </Text>
               <Text className="em">ibid., 14</Text> Ele estabeleceu a paz nas
               vossas fronteiras e sustentou-vos com o pão mais fino. Aleluia.
             </Text>
@@ -158,15 +164,15 @@ export default function PagePelapaz() {
           <Text className="em">Jo. 20, 19-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Cum sero esset die illo, una sabbatórum, et fores
               essent clausæ, ubi erant discípuli congregáti propter metum
               Judæórum: venit Jesus, et stetit in médio, et dixit eis: Pax
@@ -177,7 +183,7 @@ export default function PagePelapaz() {
               remiseritis peccáta, remittúntur eis; et quorum retinuéritis,
               reténta sunt.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, chegada a tarde daquele dia, que era o primeiro da
               semana, encontrando-se os discípulos reunidos em um lugar, cujas
               portas estavam fechadas, por causa do medo que tinham dos judeus,
@@ -197,12 +203,12 @@ export default function PagePelapaz() {
           <Text className="em">Sl. 134, 3 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Laudáte Dóminum, quia benígnus est: psállite nómini ejus, quóniam
               suávis est: ómnia quæcúmque vóluit, fecit in cœlo et in terra. (T.
               P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Louvai o Senhor, pois Ele é benigno: cantai hinos em louvor do seu
               nome, porque Ele é suave. Ele fez tudo quanto quis no céu e na
               terra. (T. P. Aleluia.)
@@ -212,13 +218,13 @@ export default function PagePelapaz() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui credéntes in te pópulos nullis sinis cóncuti terróribus:
               dignáre preces et hóstias dicátæ tibi plebis suscípere; ut pax, a
               tua pietáte concéssa, Christianórum fines ab omni hoste fáciat
               esse secúros. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que não deixais abalar pelo terror os povos que confiam em
               Vós, dignai-Vos aceitar as preces e as oblatas deste devoto povo,
               para que, havendo-nos a vossa bondade concedido a paz, os países
@@ -232,11 +238,11 @@ export default function PagePelapaz() {
           <Text className="em">Jo. 14, 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Pacem relínquo vobis: pacem meam do vobis, dicit Dóminus. (T. P.
               Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu vos deixo a paz: Eu vos dou a minha paz, diz o Senhor. (T. P.
               Aleluia.)
             </Text>
@@ -245,13 +251,13 @@ export default function PagePelapaz() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, auctor pacis et amátor, quem nosse vívere, cui servíre
               regnáre est: prótege ab ómnibus impugnatiónibus súpplices tuos;
               ut, qui in defensióne tua confídimus, nullíus hostilitátis arma
               timeámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que sois autor e amante da paz, aqueles que Vos conhecem
               vivem, e aqueles que Vos servem reinam; protegei, pois, contra
               todas as adversidades aqueles que Vos dirigem as suas súplicas,

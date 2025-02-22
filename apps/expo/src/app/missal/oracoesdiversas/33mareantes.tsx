@@ -13,14 +13,14 @@ export default function Page33Mareantes() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui transtulísti patres nostros per Mare Rubrum, et
               transvexísti eos per aquam nímiam, laudem tui nóminis decantántes:
               te supplíciter deprecámur; ut in navi fámulos tuos, repúlsis
               adversitátibus, portu semper optábili cursúque tranquíllo tueáris.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que permitistes que os nossos pais atravessassem o mar
               Vermelho e os transportastes de uma à outra margem, através da
               profundeza das águas, durante o que eles cantaram louvores em
@@ -34,12 +34,12 @@ export default function Page33Mareantes() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súscipe, quǽsumus, Dómine, preces famulórum tuórum, cum
               oblatiónibus hostiárum: et eos, pro quibus tua mystéria
               celebrámus, ab ómnibus defénde perículis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai, Senhor, Vos pedimos, a oferta da oblação destes vossos
               servos, juntamente com suas orações, e protegei contra todos os
               perigos os viajantes, por cuja salvação celebramos os vossos
@@ -50,14 +50,14 @@ export default function Page33Mareantes() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctificáti divíno mystério, majestátem tuam, Dómine, supplíciter
               deprecámur et pétimus: ut fámulos tuos, quos donis facis
               cœléstibus memorári; per lignum sanctæ Crucis, et a peccátis
               ábstrahas, et a perículis cunctis miserátus erípias. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificados com estes divinos mystérios, invocamos humildemente a
               vossa suprema majestade, ó Senhor, e, pelo Lenho Sagrado da vossa
               Cruz, Vos suplicamos que aqueles de quem permitistes nos

@@ -16,36 +16,35 @@ export default function Page1020() {
           <Text className="em">Sl. 91, 13-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Miserátio hóminis circa próximum: misericórdia autem Dei super
               omnem carnem. Qui misericórdiam habet, docet et érudit quasi
-              pastor gregem suum.{" "}
-              <Text className="text-base latin">Ps. 1, 1</Text> Beátus vir, qui
-              non ábiit in consílio impiórum, et in via peccatórum non stetit,
-              et in cáthedra pestiléntiæ non sedit. ℣. Gloria Patri...
+              pastor gregem suum. <Text className="latin">Ps. 1, 1</Text> Beátus
+              vir, qui non ábiit in consílio impiórum, et in via peccatórum non
+              stetit, et in cáthedra pestiléntiæ non sedit.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A misericórdia do homem exerce-se para com seu próximo; enquanto
               que a misericórdia de Deus espalha-se sobre toda a carne. Aquele
               que possui misericórdia ensina e guia os homens, como um pastor
-              guia o seu rebanho.{" "}
-              <Text className="text-base vernacular">Sl. 1, 1</Text>{" "}
+              guia o seu rebanho. <Text className="vernacular">Sl. 1, 1</Text>{" "}
               Bem-aventurado o homem que não entrou na assembleia dos ímpios,
               nem seguiu os caminhos dos pecadores, nem se assentou na cadeira
-              da maldade. ℣. Glória ao Pai...
+              da maldade.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, sancti Joánnis Confessóris
               exémplo in scientia Sanctórum proficiéntes atque áliis
               misericórdiam exhibéntes; ejus méritis, indulgéntiam apud te
               consequámur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, ó Deus omnipotente. Vos suplicamos, que, progredindo
               nós na ciência dos Santos e praticando a misericórdia para com o
               próximo, a exemplo do Santo Confessor João, obtenhamos pelos seus
@@ -58,13 +57,11 @@ export default function Page1020() {
           <Text className="em">Tg. 2, 12-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
-            <Text className="text-base vernacular">
-              Lição da Ep.ª do B. Ap.º Tiago.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Text>
+            <Text className="latin">
               Sic loquímini, et sic fácite sicut per legem libertátis
               incipiéntes judicári. Judícium enim sine misericórdia illi, qui
               non fecit misericórdiam: superexáltat autem misericórdia judícium.
@@ -76,7 +73,7 @@ export default function Page1020() {
               quid próderit? Sic et fides, si non hábeat ópera, mórtua est in
               semetípsa.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Falai e procedei como devendo ser julgados pela lei da liberdade;
               pois o juízo de Deus será sem misericórdia para com aquele que não
               houver tido misericórdia; enquanto que a misericórdia triunfará no
@@ -95,26 +92,26 @@ export default function Page1020() {
           <Text className="em">Sl. 106, 8-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis
-              hóminum. ℣. Quia satiávit ánimam inánem: et ánimam esuriéntem
-              satiavit bonis.
+              hóminum.<Text className="versicle"> ℣. </Text>Quia satiávit ánimam
+              inánem: et ánimam esuriéntem satiavit bonis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Louvai o Senhor pelas suas misericórdias e pelas suas maravilhas
-              em favor dos filhos dos homens. ℣. Pois Ele saciou a alma vazia e
-              encheu de benefícios a alma faminta.
+              em favor dos filhos dos homens.
+              <Text className="versicle"> ℣. </Text>Pois Ele saciou a alma vazia
+              e encheu de benefícios a alma faminta.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Prov. 31, 20</Text> Manum suam
-              apéruit ínopi: et palmas suas exténdit ad páuperem. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Prov. 31, 20</Text> Manum suam apéruit
+              ínopi: et palmas suas exténdit ad páuperem. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Pr. 31, 20</Text> Abriu a
-              sua mão para o indigente: e estendeu os seus braços para o pobre.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Pr. 31, 20</Text> Abriu a sua mão
+              para o indigente: e estendeu os seus braços para o pobre. Aleluia.
             </Text>
           </View>
 
@@ -130,12 +127,12 @@ export default function Page1020() {
           <Text className="em">Jb 29, 14-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Justítia indútus sum, et vestívi me, sicut vestiménto et
               diadémate, judício meo. Oculus fui cæco et pes claudo: pater eram
               páuperum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Revesti-me de justiça, e a equidade dos meus juízos serviu-me como
               que de vestido e de diadema. Tenho sido olhos para o cego e pés
               para o coxo. Tenho sido o pai dos pobres.
@@ -145,13 +142,13 @@ export default function Page1020() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Has, quǽssumus, Dómine, hóstias sancti Joánnis Confessóris tui
               méritis benígnus assúme: et præsta; ut, te super ómnia et omnes
               propter te diligéntes, corde tibi et ópere placeámus. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai benignamente estas hóstias pelos méritos do vosso Santo
               Confessor João, Vos suplicamos, Senhor, e fazei que, amando-Vos
               sobre todas as coisas e ao próximo por amor de Vós, nos tornemos
@@ -165,11 +162,11 @@ export default function Page1020() {
           <Text className="em">Lc. 6, 38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Date, et dábitur vobis: mensúram bonam et confértam et coagitátam
               et supereffluéntem dabunt in sinum vestrum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dai e ser-vos-á dado: derramar-se-á no vosso seio uma boa medida,
               cheia, calcada, acogulada e a trasbordar.
             </Text>
@@ -178,13 +175,13 @@ export default function Page1020() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Pretiósi Córporis et Sánguinis tui, Dómine, pasti delíciis, tuam
               súpplices deprecámur clementiam: ut, sancti Joánnis Confessóris
               tui méritis et exémplis, ejúsdem caritátis imitatóres effécti,
               consórtes simus et glóriæ: Qui vivis et regnas...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo sido alimentados com as delícias do vosso preciosíssimo
               Corpo e Sangue, Senhor, imploramos humildemente da vossa
               clemência, que, pelos méritos e exemplos do vosso Santo Confessor

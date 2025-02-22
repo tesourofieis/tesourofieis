@@ -17,17 +17,19 @@ export default function Page0327() {
           <Text className="em">Sl. 72, 24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me, et
               cum glória suscepísti me. (T. P. Allelúja, allelúja.){" "}
-              <Text className="text-base latin">Ps. ib., 1</Text> Quam bonus
-              Israël Deus his, qui recto sunt corde! ℣. Gloria Patri...
+              <Text className="latin">Ps. ib., 1</Text> Quam bonus Israël Deus
+              his, qui recto sunt corde!<Text className="versicle"> ℣. </Text>
+              Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Segurastes-me com a mão direita, conduzistes-me segundo a vossa
               vontade e acolhestes-me com gloria. (T. P. Aleluia, aleluia.){" "}
-              <Text className="text-base vernacular">Sl. ib., 1</Text> Oh! como
-              Deus de Israel é bom para com os que possuem coração recto. ℣.
+              <Text className="vernacular">Sl. ib., 1</Text> Oh! como Deus de
+              Israel é bom para com os que possuem coração recto.
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -35,14 +37,14 @@ export default function Page0327() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui, ad cultum sacrarum imáginum
               asseréndum, beátum Joánnem cœlésti doctrina et admirábili spíritus
               fortitúdine imbuísti: concéde nobis ejus intercessióne et exémplo;
               ut, quorum cólimus imagines, virtútes imitémur et patrocínia
               sentiámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus omnipotente e eterno, que para defesa do culto das imagens
               dos Santos inspirastes ao B. João uma doutrina celestial e lhe
               concedestes admirável constância para a sustentar, fazei por sua
@@ -57,11 +59,9 @@ export default function Page0327() {
           <Text className="em">Sb. 10, 10-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum
               Dei, et dedit illi sciéntiam sanctórum: honestávit illum in
               labóribus, et complévit labóres illíus. In fraude circumveniéntium
@@ -78,7 +78,7 @@ export default function Page0327() {
               horréndos in porténtis et signis. Et réddidit justis mercédem
               labórum suórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor conduziu o justo por caminhos direitos, mostrou-lhe o
               reino de Deus, concedeu-lhe a ciência dos santos, tornou prósperas
               as suas fadigas e cumulou de frutos os seus labores. Auxiliou-o
@@ -102,15 +102,16 @@ export default function Page0327() {
           <Text className="em">Sl. 17, 33 & 35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui præcínxit me virtúte: et pósuit immaculátam viam meam.
-              ℣. Qui docet manus meas ad prœlium: et posuísti, ut arcum ǽreum,
-              bráchia mea.
+              <Text className="versicle"> ℣. </Text>Qui docet manus meas ad
+              prœlium: et posuísti, ut arcum ǽreum, bráchia mea.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Foi Deus quem me revestiu com a força e tornou a minha vida sem
-              mancha. ℣. Foi Deus quem adestrou as minhas mãos para o combate e
-              tornou os meus braços rijos, como um arco de bronze.
+              mancha.<Text className="versicle"> ℣. </Text>Foi Deus quem
+              adestrou as minhas mãos para o combate e tornou os meus braços
+              rijos, como um arco de bronze.
             </Text>
           </View>
 
@@ -119,16 +120,20 @@ export default function Page0327() {
           <Text className="em">ibid., 38, 39 & 50</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Pérsequar inimícos meos, et comprehéndam illos. ℣. Confríngam
-              illos, nec poterunt stare: cadent subtus pedes meos. ℣. Proptérea
-              confitébor in natiónibus, Dómine, et nómini tuo psalmum dicam.
+            <Text className="latin">
+              Pérsequar inimícos meos, et comprehéndam illos.
+              <Text className="versicle"> ℣. </Text>Confríngam illos, nec
+              poterunt stare: cadent subtus pedes meos.
+              <Text className="versicle"> ℣. </Text>Proptérea confitébor in
+              natiónibus, Dómine, et nómini tuo psalmum dicam.
             </Text>
-            <Text className="text-base vernacular">
-              Perseguirei os meus inimigos até alcançá-los. ℣. Hei-de vencê-los;
-              não poderão erguer-se; e cairão debaixo de meus pés. ℣. Por isso,
-              Senhor, hei-de louvar-Vos diante de todos os povos e cantarei
-              hinos em honra do vosso nome.
+            <Text className="vernacular">
+              Perseguirei os meus inimigos até alcançá-los.
+              <Text className="versicle"> ℣. </Text>Hei-de vencê-los; não
+              poderão erguer-se; e cairão debaixo de meus pés.
+              <Text className="versicle"> ℣. </Text>Por isso, Senhor, hei-de
+              louvar-Vos diante de todos os povos e cantarei hinos em honra do
+              vosso nome.
             </Text>
           </View>
 
@@ -137,21 +142,23 @@ export default function Page0327() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">1 Reg. 25, 26 & 28</Text>{" "}
-              Dóminus salvávit manum tuam tibi: quia prǿlia Dómini tu prœliáris.
-              Allelúja. ℣. <Text className="em">Ps. 143, 1</Text> Benedíctus
-              Dóminus, Deus meus, qui docet manus meas ad prǿlium, et dígitos
-              meos ad bellum. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">1 Reg. 25, 26 & 28</Text> Dóminus salvávit
+              manum tuam tibi: quia prǿlia Dómini tu prœliáris. Allelúja.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="em">Ps. 143, 1</Text> Benedíctus Dóminus, Deus
+              meus, qui docet manus meas ad prǿlium, et dígitos meos ad bellum.
+              Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">1 Rs. 25, 26 & 28</Text>{" "}
-              Guardou o Senhor a vossa vida, pois combatestes por Ele. Aleluia.
-              ℣. <Text className="em">Sl. 143, 1</Text> Bendito seja o Senhor,
-              meu Deus, pois adestrou minhas mãos para o combate e meus dedos
-              para a batalha. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">1 Rs. 25, 26 & 28</Text> Guardou o
+              Senhor a vossa vida, pois combatestes por Ele. Aleluia.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="em">Sl. 143, 1</Text> Bendito seja o Senhor, meu
+              Deus, pois adestrou minhas mãos para o combate e meus dedos para a
+              batalha. Aleluia.
             </Text>
           </View>
 
@@ -160,15 +167,15 @@ export default function Page0327() {
           <Text className="em">Lc. 6, 6-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Factum est et in álio sábbato, ut intráret Jesus
               in synagógam et docéret. Et erat ibi homo, et manus ejus déxtera
               erat árida. Observábant autem scribæ et pharisǽi, si in sábbato
@@ -181,7 +188,7 @@ export default function Page0327() {
               autem repléti sunt insipiéntia, et colloquebántur ad ínvicem,
               quidnam fácerent Jesu.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele empo, em um outro dia de sábado, entrou Jesus na sinagoga
               e aí ensinava. Estava lá um homem, que tinha a mão direita seca.
               Ora, os escribas e os fariseus observaram-n’O para ver se Ele
@@ -203,11 +210,11 @@ export default function Page0327() {
           <Text className="em">Jb. 14, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lignum habet spem: sipræcísum fúerit, rursum viréscit, et rami
               ejus púllulant.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A árvore tem esperança; pois, se a cortarem, torna a reverdescer e
               a lançar suas ramagens.
             </Text>
@@ -216,12 +223,12 @@ export default function Page0327() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ut, quæ tibi, Dómine, offérimus, dona tuo sint digna conspéctu:
               beáti Joánnis et Sanctórum, quos ejus ópera expósitos in templis
               cólimus, pia suffragátio conspíret. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, que os piedosos sufrágios do B. João e dos Santos, cujas
               imagens foram expostas nos templos graças ao seu zelo, sirvam para
               tornar dignos dos vossos olhares os dons que Vos oferecemos. Por
@@ -234,10 +241,10 @@ export default function Page0327() {
           <Text className="em">Sl. 36, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Bráchia peccatórum conteréntur, confírmat autem justos Dóminus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Os braços dos maus serão quebrados; mas o Senhor fortificará os
               braços dos justos.
             </Text>
@@ -246,13 +253,13 @@ export default function Page0327() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sumpta nos, quǽsumus, Dómine, dona cœléstibus armis tueántur: et
               beáti Joánnis patrocínia circúmdent Sanctórum unánimi suffrágio
               cumuláta; quorum imágines evícit in Ecclésia esse venerándas. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, fazei que os dons recebidos sejam para nós
               uma armadura celeste, e que o patrocínio do B. João, unido aos
               sufrágios unânimes dos Santos, cujas imagens fez venerar nos

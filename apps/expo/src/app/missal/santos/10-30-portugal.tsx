@@ -23,7 +23,8 @@ export default function Page1030Portugal() {
             vosso nome, Senhor; pois salvastes-nos dos nossos inimigos e
             confundistes os que nos odiavam. Ó Deus, ouvimos com os nossos
             ouvidos e nossos país contaram-nos os feitos que praticastes nestes
-            dias e nos dias passados. ℣. Glória ao Pai...
+            dias e nos dias passados.<Text className="versicle"> ℣. </Text>
+            Glória ao Pai...
           </Text>
           <Text className="h3">Oração</Text>
           <Text className="text-base">

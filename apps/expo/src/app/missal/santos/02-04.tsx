@@ -28,12 +28,12 @@ export default function Page0204() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum:
               da pópulo tuo beáti Andréæ Confessóris tui atque Pontíficis ita
               sequi vestígia; ut assequátur et prǽmia. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que na vossa Igreja apresentais constantemente novos
               exemplos de virtudes, concedei ao vosso povo que de tal modo siga
               os vestígios do B. André, vosso Confessor e Pontífice, que possa

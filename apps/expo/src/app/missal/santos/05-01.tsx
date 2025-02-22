@@ -42,30 +42,32 @@ export default function Page0501() {
           <Text className="em">Esd. 9, 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de
               cœlo exaudísti eos, allelúja, allelúja.{" "}
-              <Text className="text-base latin">Ps. 32, 1</Text> Exsultáte,
-              justi, in Dómino: rectos decet collaudátio. ℣. Gloria Patri...
+              <Text className="latin">Ps. 32, 1</Text> Exsultáte, justi, in
+              Dómino: rectos decet collaudátio.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               No tempo da aflição clamaram por Vós, Senhor; e Vós, do alto do
               céu, os ouvistes, aleluia, aleluia.{" "}
-              <Text className="text-base vernacular">Sl. 32, 1</Text>{" "}
-              Alegrai-vos no Senhor, ó justos, pois os que possuem os corações
-              rectos é que devem louvar o Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 32, 1</Text> Alegrai-vos no
+              Senhor, ó justos, pois os que possuem os corações rectos é que
+              devem louvar o Senhor.<Text className="versicle"> ℣. </Text>Glória
+              ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui nos ánnua Apostolórum tuórum Philíppi et Jacóbi
               sollemnitáte lætíficas: præsta, quǽsumus: ut, quorum gaudémus
               méritis, instruámur exémplis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que nos alegrais com a solenidade anual dos vossos
               Apóstolos Filipe e Tiago, concedei-nos, Vos suplicamos, que,
               alegrando-nos com seus méritos, aproveitemos com seus exemplos.
@@ -78,13 +80,11 @@ export default function Page0501() {
           <Text className="em">Sb. 5, 1-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Stabunt justi in magna constántia advérsus eos, qui se
               angustiavérunt et qui abstulérunt labóres eórum. Vidéntes
               turbabúntur timore horríbili, et mirabúntur in subitatióne
@@ -95,7 +95,7 @@ export default function Page0501() {
               quómodo computáti sunt inter fílios Dei, et inter Sanctos sors
               illórum est.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Então, os justos erguer-se-ão com grande coragem contra aqueles
               que os oprimiam e a quem arrebatavam o fruto dos seus trabalhos.
               Vendo-os assim, os maus perturbar-se-ão, cheios de pavor, e
@@ -110,19 +110,21 @@ export default function Page0501() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 88, 6</Text> Confitebúntur
-              cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia
-              sanctórum. Allelúja. ℣. <Text className="em">Joann. 14, 9</Text>{" "}
-              Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui
-              videt me, videt et Patrem meum. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 88, 6</Text> Confitebúntur cœli
+              mirabília tua, Dómine: etenim veritátem tuam in ecclésia
+              sanctórum. Allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="em">Joann. 14, 9</Text> Tanto témpore vobíscum
+              sum, et non cognovístis me? Philíppe, qui videt me, videt et
+              Patrem meum. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 88, 6</Text> Os céus
-              cantarão as vossas maravilhas, Senhor, assim como a vossa verdade,
-              na assembleia dos Santos. Aleluia. ℣.{" "}
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 88, 6</Text> Os céus cantarão as
+              vossas maravilhas, Senhor, assim como a vossa verdade, na
+              assembleia dos Santos. Aleluia.
+              <Text className="versicle"> ℣. </Text>
               <Text className="em">Jo. 14, 9</Text> Há tanto tempo que estou
               convosco e me não conheceis? Filipe, quem me vê, vê também meu
               Pai! Aleluia.
@@ -134,15 +136,15 @@ export default function Page0501() {
           <Text className="em">Jo. 14, 1-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Non turbátur cor
               vestrum. Creditis in Deum, et in me crédite. In domo Patris mei
               mansiónes multæ sunt. Si quo minus, dixíssem vobis: Quia vado
@@ -164,7 +166,7 @@ export default function Page0501() {
               fáciet, et majóra horum fáciet: quia ego ad Patrem vado. Et
               quodcúmque petiéritis Patrem in nómine meo, hoc fáciam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo disse Jesus aos discípulos: «Que o vosso coração se
               não perturbe. Credes em Deus? Crede também em mim. Na casa de meu
               Pai há muitas moradas. Se não fora assim, já vo-lo tinha dito,
@@ -195,11 +197,11 @@ export default function Page0501() {
           <Text className="em">Sl. 88, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Confitebúntur cœli mirabília tua, Dómine: et veritátem tuam in
               ecclésia sanctórum, allelúja, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, que os céus publiquem as vossas maravilhas; que a vossa
               verdade seja exaltada na assembleia dos santos. Aleluia.
             </Text>
@@ -208,12 +210,12 @@ export default function Page0501() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera, Dómine, quæ pro Apostolórum tuórum Philippi et Jacóbi
               sollemnitáte deférimus, propítius súscipe: et mala ómnia, quæ
               meréraur, avérte. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recebei propício, Senhor, os dons que Vos apresentamos na
               solenidade dos vossos Apóstolos Filipe e Tiago e afastai de nós
               todos os males que merecemos. Por nosso Senhor...
@@ -225,12 +227,12 @@ export default function Page0501() {
           <Text className="em">Jo. 14, 9 & 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui
               videt me, videt et Patrem meum, allelúja: non credis, quia ego in
               Patre, et Pater in me est? Allelúja, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Há tanto tempo que estou convosco e me não conheceis? Filipe, quem
               me vê, vê também meu Pai! Aleluia. Não acreditais que estou no
               Pai, e o Pai está em mim? Aleluia, aleluia.
@@ -240,11 +242,11 @@ export default function Page0501() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum
               sollémnia celebrámus, eórum oratiónibus adjuvémur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados já com estes salutares mystérios, Senhor, Vos suplicamos,
               permiti que sejamos socorridos com as orações daqueles cuja festa
               celebramos. Por nosso Senhor...

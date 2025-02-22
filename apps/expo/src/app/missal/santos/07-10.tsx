@@ -36,32 +36,32 @@ export default function Page0710() {
           <Text className="em">Sl. 112, 1 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Laudáte, pueri, Dóminum, laudáte nomen Dómini: qui habitáre facit
               stérilem in domo, matrem filiórum lætántem.{" "}
-              <Text className="text-base latin">Ps. ibid., 2</Text> Sit nomen
-              Dómini benedíctum: ex hoc nunc, ei usque in sǽculum. ℣. Gloria
-              Patri...
+              <Text className="latin">Ps. ibid., 2</Text> Sit nomen Dómini
+              benedíctum: ex hoc nunc, ei usque in sǽculum.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Louvai o Senhor, ó meninos; louvai o nome do Senhor; pois Ele fez
               habitar, cheia de alegria, na sua casa, como mãe de numerosos
               filhos, aquela que antes era estéril.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 2</Text> Bendito
-              seja o nome do Senhor, agora e em todos os séculos. ℣. Glória ao
-              Pai...
+              <Text className="vernacular">Sl. ibid., 2</Text> Bendito seja o
+              nome do Senhor, agora e em todos os séculos.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui gloriósos Martyres
               fortes in sua confessióne cognóvimus, pios apud te in nostra
               intercessióne sentiámus. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, Vos pedimos, ó Deus omnipotente, que, reconhecendo
               nós a fortaleza com que estes gloriosos Mártires confessaram a sua
               fé, sintamos quanto eles junto de Vós são fervorosos, intercedendo
@@ -81,25 +81,27 @@ export default function Page0710() {
           <Text className="em">Sl. 123, 7-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Anima nostra, sicut passer, erépta est de láqueo venántium. ℣.
+            <Text className="latin">
+              Anima nostra, sicut passer, erépta est de láqueo venántium.
+              <Text className="versicle"> ℣. </Text>
               Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum
               in nómine Dómini, qui fecit cœlum et terram.
             </Text>
-            <Text className="text-base vernacular">
-              A nossa alma livrou-se, como um pássaro, do laço dos caçadores. ℣.
-              O laço quebrou-se e ficamos livres: o nosso auxílio está no nome
-              do Senhor, que criou o céu e a terra.
+            <Text className="vernacular">
+              A nossa alma livrou-se, como um pássaro, do laço dos caçadores.
+              <Text className="versicle"> ℣. </Text>O laço quebrou-se e ficamos
+              livres: o nosso auxílio está no nome do Senhor, que criou o céu e
+              a terra.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi
-              crímina: Christum secuta est, ínclita tenens regna cœléstia.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Hæc est
+              vera fratérnitas, quæ vicit mundi crímina: Christum secuta est,
+              ínclita tenens regna cœléstia. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Eis a verdadeira fraternidade que venceu os
-              perigos do mundo. Ela seguiu Cristo e possuirá com glória o reino
-              celestial. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Eis a
+              verdadeira fraternidade que venceu os perigos do mundo. Ela seguiu
+              Cristo e possuirá com glória o reino celestial. Aleluia.
             </Text>
           </View>
 
@@ -108,15 +110,15 @@ export default function Page0710() {
           <Text className="em">Mt. 12, 46-50</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Loquente Jesu ad turbas, ecce, Mater ejus et
               fratres stabant foris, quæréntes loqui ei. Dixit autem ei quidam:
               Ecce, mater tua et fratres tui foris stant, quæréntes te. At ipse
@@ -125,7 +127,7 @@ export default function Page0710() {
               mater mea et fratres mei. Quicúmque enim fécerit voluntátem Patris
               mei, qui in cœlis est: ipse meus frater et soror et mater est.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, enquanto Jesus falava às turbas, eis que sua mãe e
               seus irmãos estavam lá fora, procurando falar-Lhe. Disse-Lhe,
               pois, alguém: «Eis que vossa mãe e vossos irmãos estão lá fora e
@@ -142,11 +144,11 @@ export default function Page0710() {
           <Text className="em">Sl. 123, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Anima nostra, sicut passer, erépta est de láqueo venántium:
               láqueus contrítus est, et nos liberáti sumus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A nossa alma livrou-se, como um pássaro, do laço dos caçadores. O
               laço quebrou-se e ficámos livres.
             </Text>
@@ -155,12 +157,12 @@ export default function Page0710() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacrifíciis præséntibus, quǽsumus, Dómine, inténde placátus: et,
               intercedéntibus Sanctis tuis, devotióni nostræ profíciant et
               salúti. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos olhar propício, Senhor, para o presente sacrifício, e
               que por intercessão dos vossos Santos ele nos sirva para aumentar
               a nossa devoção e para alcançar a salvação. Por nosso Senhor...
@@ -172,11 +174,11 @@ export default function Page0710() {
           <Text className="em">Mt. 12, 50</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quicumque fecerit voluntátem Patris mei, qui in cælis est: ipse
               meus frater et soror et mater est, dicit Dóminus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Todo aquele que faz a vontade de meu Pai, que está nos céus, é meu
               irmão, minha irmã e minha mãe, diz o Senhor.
             </Text>
@@ -185,12 +187,12 @@ export default function Page0710() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, intercedéntibus Sanctis tuis,
               illíus salutáris capiámus efféctum; cujus per heec mystéria pignus
               accépimus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos suplicamos, ó Deus omnipotente, que, pela intercessão dos
               vossos Santos, Vos digneis dispensar-nos o efeito da salvação, de
               que já recebemos o penhor nestes mystérios. Por nosso Senhor...

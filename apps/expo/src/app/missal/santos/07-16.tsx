@@ -44,34 +44,34 @@ export default function Page0716() {
           <Text className="em">Sedulius</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et
-              colláudant Fílium Dei.{" "}
-              <Text className="text-base latin">Ps. 44, 2</Text> Eructávit cor
-              meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
+              colláudant Fílium Dei. <Text className="latin">Ps. 44, 2</Text>{" "}
+              Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Alegremo-nos todos no Senhor, no dia em que celebramos a festa em
               honra da B. Virgem Maria: os Anjos regozijam-se com esta festa e
               louvam unissonamente o Filho de Deus.{" "}
-              <Text className="text-base vernacular">Sl. 44, 2</Text> Meu
-              coração exprimiu uma excelente palavra: Consagro ao Rei as minhas
-              obras. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 44, 2</Text> Meu coração exprimiu
+              uma excelente palavra: Consagro ao Rei as minhas obras.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beatíssimæ semper Vírginis et Genetrícis tuæ Maríæ
               singulári título Carméli órdinem decorásti: concéde propítius; ut,
               cujus hódie Commemoratiónem sollémni celebrámus offício, ejus
               muníti præsídiis, ad gáudia sempitérna perveníre mereámur: Qui
               vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que ornastes a Ordem do Carmelo com a insigne honra de
               usar o nome da B. Maria, sempre Virgem e vossa Mãe, concedei-nos
               propício que, sendo nós auxiliados pela protecção daquela cuja
@@ -85,11 +85,9 @@ export default function Page0716() {
           <Text className="em">Ecl. 24, 23-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Ego quasi vitis fructificávi suavitátem odóris: et flores mei
               fructus honóris et honestátis. Ego mater pulchræ dilectiónis et
               timóris et agnitiónis et sanctæ spei. In me grátia omnis viæ et
@@ -101,7 +99,7 @@ export default function Page0716() {
               confundétur: et qui operántur in me, non peccábunt. Qui elúcidant
               me, vitam ætérnam habébunt.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu produzi, como a vinha, flores de suave odor, e as minhas flores
               são frutos de honra e de honestidade. Eu sou a mãe do amor puro,
               do temor, da ciência e da esperança santa. Em mim existe toda a
@@ -120,26 +118,29 @@ export default function Page0716() {
           <Text className="h3">Gradual</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Bendeícta et venerábilis es, Virgo María: quæ sine tactu pudóris
-              invénta es Mater Salvatóris. ℣. Virgo, Dei Génetrix, quem totus
-              non capit orbis, in tua se clausit víscera factus homo.
+              invénta es Mater Salvatóris.<Text className="versicle"> ℣. </Text>
+              Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit
+              víscera factus homo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bendita e venerável sois, ó Virgem Maria, que, sem a mais leve
-              mancha de impureza, fostes a Mãe do Salvador. ℣. Ó Virgem, Mãe de
-              Deus, Aquele que nem todo o universo é capaz de conter, esteve
-              encerrado no vosso seio, fazendo-se homem.
+              mancha de impureza, fostes a Mãe do Salvador.
+              <Text className="versicle"> ℣. </Text>Ó Virgem, Mãe de Deus,
+              Aquele que nem todo o universo é capaz de conter, esteve encerrado
+              no vosso seio, fazendo-se homem.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Per te, Dei Génetrix, nobis est vita
-              pérdita data: quæ de cœlo suscepísti prolem, et mundo genuísti
-              Salvatórem. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Per te,
+              Dei Génetrix, nobis est vita pérdita data: quæ de cœlo suscepísti
+              prolem, et mundo genuísti Salvatórem. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Por vós, ó Mãe de Deus, nos foi restituída a
-              vida que havíamos perdido! Vós recebestes do céu a graça de serdes
-              Mãe, gerando o Salvador do mundo. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Por vós, ó
+              Mãe de Deus, nos foi restituída a vida que havíamos perdido! Vós
+              recebestes do céu a graça de serdes Mãe, gerando o Salvador do
+              mundo. Aleluia.
             </Text>
           </View>
 
@@ -155,11 +156,11 @@ export default function Page0716() {
           <Text className="em">Jr. 18, 20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Recordáre, Virgo Mater, in conspéctu Dei, ut loquáris pro nobis
               bona, et ut avértat indignatiónem suam a nobis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recordai-vos, ó Virgem Maria, de interceder por nós junto de Deus
               e de conseguirdes afastar de nós a sua indignação.
             </Text>
@@ -168,12 +169,12 @@ export default function Page0716() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctífica, Dómine, quǽsumus, obláta libámina: et, beátæ Dei
               Genetrícis Maríæ salubérrima intercessióne, nobis salutária fore
               concéde. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificai, Senhor, Vos pedimos, as oblatas que Vos são
               apresentadas, e, pela eficacíssima intercessão da B. Virgem Maria,
               fazei que nos sejam salutares. Pelo mesmo nosso Senhor...
@@ -183,12 +184,12 @@ export default function Page0716() {
           <Text className="h3">Comúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Regina mundi digníssima, María, Virgo perpétua, intercéde pro
               nostra pace et salúte, quæ genuísti Christum Dóminum, Salvatórem
               ómnium.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Maria, digníssima Rainha do mundo e sempre Virgem, que gerastes
               Cristo, Senhor e Salvador de todos, alcançai-nos pela vossa
               intercessão a paz e a salvação.
@@ -198,13 +199,13 @@ export default function Page0716() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Adjuvet nos, quǽsumus, Dómine, gloriósæ tuæ Genetrícis sempérque
               Vírginis Maríæ intercéssio veneránda: ut, quos perpétuis cumulávit
               benefíciis, a cunctis perículis absolútos, sua fáciat pietáte
               concórdes: Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a augusta intercessão de Maria, vossa gloriosa Mãe e sempre
               Virgem, nos sirva de auxílio, Senhor, Vos rogamos; e que, depois
               de havermos sido perpetuamente cumulados dos seus benefícios e

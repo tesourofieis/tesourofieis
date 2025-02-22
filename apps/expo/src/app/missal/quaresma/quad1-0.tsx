@@ -15,31 +15,32 @@ export default function PageQuad10() {
           <Text className="em">Sl. 90, 15 & 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Invocábit me, et ego exáudiam eum: erípiam eum, et glorificábo
               eum: longitúdine diérum adimplébo eum.{" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Qui hábitat
-              in adjutório Altíssimi, in protectióne Dei cœli commorábitur. ℣.
+              <Text className="latin">Ps. ibid., 1</Text> Qui hábitat in
+              adjutório Altíssimi, in protectióne Dei cœli commorábitur.
+              <Text className="versicle"> ℣. </Text>
               Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Invocar-me-á, e ouvi-lo-ei: livrá-lo-ei, e glorificá-lo-ei:
               conceder-lhe-ei longa vida.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 1</Text> Aquele
-              que habita à sombra do Altíssimo descansará sob a protecção de
-              Deus do céu. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 1</Text> Aquele que habita
+              à sombra do Altíssimo descansará sob a protecção de Deus do céu.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui Ecclésiam tuam ánnua quadragesimáli observatióne
               puríficas: præsta famíliæ tuæ; ut, quod a te obtinére abstinéndo
               nítitur, hoc bonis opéribus exsequátur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que purificais a vossa Igreja com a observância anual da
               quaresma, concedei à vossa família que o que ela deseja alcançar
               pela abstinência o pratique com suas boas obras. Por nosso
@@ -52,13 +53,13 @@ export default function PageQuad10() {
           <Text className="em">2 Cor. 6, 1-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Exhortámur vos, ne in vácuum grátiam Dei recipiátis. Ait
               enim: Témpore accépto exaudívi te, et in die salútis adjúvi te.
               Ecce, nunc tempus acceptábile, ecce, nunc dies salútis. Némini
@@ -76,7 +77,7 @@ export default function PageQuad10() {
               multos autem locupletántes: tamquam nihil habéntes et ómnia
               possidéntes.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Vos exortamos a que não recebais em vão a graça de
               Deus, pois Ele diz: «No tempo propício ouço-te, e no dia da
               salvação socorro-te». Eis, pois, agora o tempo propício; eis agora
@@ -103,15 +104,15 @@ export default function PageQuad10() {
           <Text className="em">Sl. 90,11-1 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
-              tuis. ℣. In mánibus portábunt te, ne umquam offéndas ad lápidem
-              pedem tuum.
+              tuis.<Text className="versicle"> ℣. </Text>In mánibus portábunt
+              te, ne umquam offéndas ad lápidem pedem tuum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus ordenou aos seus Anjos que te guardassem em todos teus
-              caminhos. ℣. Levar-te-ão nas suas mãos, para que não tropeces nas
-              pedras.
+              caminhos.<Text className="versicle"> ℣. </Text>Levar-te-ão nas
+              suas mãos, para que não tropeces nas pedras.
             </Text>
           </View>
 
@@ -120,42 +121,62 @@ export default function PageQuad10() {
           <Text className="em">ibid., 1-7 & 11-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui hábitat in adjutório Altíssimi, in protectióne Dei cœli
-              commorántur. ℣. Dicet Dómino: Suscéptor meus es tu et refúgium
-              meum: Deus meus, sperábo in eum. ℣. Quóniam ipse liberávit me de
-              láqueo venántium et a verbo áspero. ℣. Scápulis suis obumbrábit
-              tibi, et sub pennis ejus sperábis. ℣. Scuto circúmdabit te véritas
-              ejus: non timébis a timóre noctúrno. ℣. A sagítta volánte per
-              diem, a negótio perambulánte in ténebris, a ruína et dæmónio
-              meridiáno. ℣. Cadent a látere tuo mille, et decem mília a dextris
-              tuis: tibi autem non appropinquábit. ℣. Quóniam Angelis suis
-              mandávit de te, ut custódiant te in ómnibus viis tuis. ℣. In
-              mánibus portábunt te, ne umquam offéndas ad lápidem pedem tuum. ℣.
+              commorántur.<Text className="versicle"> ℣. </Text>Dicet Dómino:
+              Suscéptor meus es tu et refúgium meum: Deus meus, sperábo in eum.
+              <Text className="versicle"> ℣. </Text>Quóniam ipse liberávit me de
+              láqueo venántium et a verbo áspero.
+              <Text className="versicle"> ℣. </Text>Scápulis suis obumbrábit
+              tibi, et sub pennis ejus sperábis.
+              <Text className="versicle"> ℣. </Text>
+              Scuto circúmdabit te véritas ejus: non timébis a timóre noctúrno.
+              <Text className="versicle"> ℣. </Text>A sagítta volánte per diem,
+              a negótio perambulánte in ténebris, a ruína et dæmónio meridiáno.
+              <Text className="versicle"> ℣. </Text>Cadent a látere tuo mille,
+              et decem mília a dextris tuis: tibi autem non appropinquábit.
+              <Text className="versicle"> ℣. </Text>Quóniam Angelis suis
+              mandávit de te, ut custódiant te in ómnibus viis tuis.
+              <Text className="versicle"> ℣. </Text>In mánibus portábunt te, ne
+              umquam offéndas ad lápidem pedem tuum.
+              <Text className="versicle"> ℣. </Text>
               Super áspidem et basilíscum ambulábis, et conculcábis leónem et
-              dracónem. ℣. Quóniam in me sperávit, liberábo eum: prótegam eum,
-              quóniam cognóvit nomen meum. ℣. Invocábit me, et ego exáudiam eum:
-              cum ipso sum in tribulatióne. ℣. Erípiam eum et glorificábo eum:
-              longitúdine diérum adimplébo eum, et osténdam illi salutáre meum.
+              dracónem.<Text className="versicle"> ℣. </Text>Quóniam in me
+              sperávit, liberábo eum: prótegam eum, quóniam cognóvit nomen meum.
+              <Text className="versicle"> ℣. </Text>Invocábit me, et ego
+              exáudiam eum: cum ipso sum in tribulatióne.
+              <Text className="versicle"> ℣. </Text>Erípiam eum et glorificábo
+              eum: longitúdine diérum adimplébo eum, et osténdam illi salutáre
+              meum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aquele que habita à sombra do Altíssimo descansará sob a protecção
-              de Deus do céu. ℣. Ele dirá ao Senhor: sois o meu protector e o
-              meu refúgio; sois o meu Deus, em quem confio! ℣. Pois livrastes-me
-              do laço do caçador e das palavras funestas! ℣. O Senhor te
-              acolherá sob a sua protecção: agasalhar-te-á sob as suas asas! ℣.
+              de Deus do céu.<Text className="versicle"> ℣. </Text>Ele dirá ao
+              Senhor: sois o meu protector e o meu refúgio; sois o meu Deus, em
+              quem confio!<Text className="versicle"> ℣. </Text>Pois
+              livrastes-me do laço do caçador e das palavras funestas!
+              <Text className="versicle"> ℣. </Text>O Senhor te acolherá sob a
+              sua protecção: agasalhar-te-á sob as suas asas!
+              <Text className="versicle"> ℣. </Text>
               Sua fidelidade é como um escudo: livrar-te-á dos terrores da
               noite; da seta, que voa de dia; das traições, que se tramam
-              durante a noite; e dos assaltos do demónio, em pleno meio-dia. ℣.
+              durante a noite; e dos assaltos do demónio, em pleno meio-dia.
+              <Text className="versicle"> ℣. </Text>
               Cairão mil à tua esquerda e dez mil à tua direita; mas tu não
-              serás atingido! ℣. Pois Deus ordenou aos seus Anjos que te
-              guardassem em todos teus caminhos. ℣. Levar-te-ão nas suas mãos
-              para que não tropeces nas pedras. ℣. Caminharás sobre a víbora e o
-              basilisco; pisarás o leão e o dragão. ℣. Visto que esperou em mim,
-              livrá-lo-ei; e protegê-lo-ei, pois, conhece e invoca o meu nome.
-              ℣. Invocar-me-á e ouvi-lo-ei: estarei com ele nos dias da
-              tribulação. ℣. Livrá-lo-ei e glorificá-lo-ei, conceder-lhe-ei
-              longa vida e mostrar-lhe-ei a minha salvação.
+              serás atingido!<Text className="versicle"> ℣. </Text>Pois Deus
+              ordenou aos seus Anjos que te guardassem em todos teus caminhos.
+              <Text className="versicle"> ℣. </Text>Levar-te-ão nas suas mãos
+              para que não tropeces nas pedras.
+              <Text className="versicle"> ℣. </Text>
+              Caminharás sobre a víbora e o basilisco; pisarás o leão e o
+              dragão.<Text className="versicle"> ℣. </Text>Visto que esperou em
+              mim, livrá-lo-ei; e protegê-lo-ei, pois, conhece e invoca o meu
+              nome.
+              <Text className="versicle"> ℣. </Text>Invocar-me-á e ouvi-lo-ei:
+              estarei com ele nos dias da tribulação.
+              <Text className="versicle"> ℣. </Text>Livrá-lo-ei e
+              glorificá-lo-ei, conceder-lhe-ei longa vida e mostrar-lhe-ei a
+              minha salvação.
             </Text>
           </View>
 
@@ -164,15 +185,15 @@ export default function PageQuad10() {
           <Text className="em">Mt. 4, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Ductus est Jesus in desértum a Spíritu, ut
               tentarétur a diábolo. Et cum jejunásset quadragínta diébus et
               quadragínta nóctibus, postea esúriit. Et accédens tentátor, dixit
@@ -191,7 +212,7 @@ export default function PageQuad10() {
               sérvies. Tunc relíquit eum diábolus: et ecce, Angeli accessérunt
               et ministrábant ei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, foi Jesus conduzido ao deserto pelo espírito, para
               ser tentado pelo demónio. E, havendo jejuado quarenta dias e
               quarenta noites, teve fome. Então o tentador aproximou-se de Jesus
@@ -218,11 +239,11 @@ export default function PageQuad10() {
           <Text className="em">Sl. 90, 4-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Scápulis suis obumbrábit tibi Dóminus, et sub pennis ejus
               sperábis: scuto circúmdabit te véritas ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor vos acolherá à sua sombra: e sob as suas asas vos
               esperará: a sua fidelidade proteger-vos-á, como um escudo.
             </Text>
@@ -231,12 +252,12 @@ export default function PageQuad10() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacrifícium quadragesimális inítii sollémniter immolámus, te,
               Dómine, deprecántes: ut, cum epulárum restrictióne carnálium, a
               noxiis quoque voluptátibus lemperémus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, imolamos solenemente este sacrifício no princípio da
               Quaresma, suplicando-Vos que, fazendo-nos restringir o uso das
               carnes, nos abstenhamos também dos prazeres funestos. Por nosso
@@ -249,11 +270,11 @@ export default function PageQuad10() {
           <Text className="em">Sl. 90,4-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Scápulis suis obumbrábit tibi Dóminus, et sub pennis ejus
               sperábis: scuto circúmdabit te véritas ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor vos acolherá à sua sombra: e sob as suas asas vos
               esperará: a sua verdade proteger-vos-á, como um escudo.
             </Text>
@@ -262,12 +283,12 @@ export default function PageQuad10() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui nos, Dómine, sacraménti libátio sancta restáuret: et a
               vetustáte purgátos, in mystérii salutáris fáciat transíre
               consórtium. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a participação, que tomámos, no vosso sacramento, Senhor, nos
               restaure; e que, despojando-nos do «homem velho», nos faça
               alcançar o mystério da salvação. Por nosso Senhor...

@@ -35,15 +35,15 @@ export default function Page0614() {
           <Text className="em">Lc. 14, 26-35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non
               odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et
               soróres, adhuc autem et ánimam suam, non potest meus esse
@@ -63,7 +63,7 @@ export default function Page0614() {
               sterquilínium útile est, sed foras mittétur. Qui habet aures
               audiéndi, áudiat.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus às turbas: «Se alguém vem a mim e não
               despreza seu pai, sua mãe, sua mulher e filhos, seus irmãos e
               irmãs e até mesmo a sua própria vida, não pode ser meu discípulo.

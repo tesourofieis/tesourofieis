@@ -36,12 +36,12 @@ export default function Page0728() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctórum tuórum nos, Dómine, Nazarii, Celsi, Vittóris et
               Innocéntii conféssio beáta commúniat: et fragilitáti nostræ
               subsídium dignánter exóret. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a gloriosa profissão de fé dos vossos Santos Nazário, Celso,
               Vítor e Inocêncio nos fortaleça, Senhor, e que da vossa bondade
               alcancemos socorro para a nossa fraqueza. Por nosso Senhor...
@@ -53,11 +53,9 @@ export default function Page0728() {
           <Text className="em">Sb. 10, 17-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Réddidit Deus justis mercédem labórum suorum, et deduxit illos in
               via mirábili: et fuit illis in velaménto diei et in luce stellárum
               per noctem: tránstulit illos per Mare Rubrum, et transvéxit illos
@@ -66,7 +64,7 @@ export default function Page0728() {
               impiórum, et decantavérunt, Dómine, nomen sanctum tuum, et
               victrícem manum tuam laudavérunt páriter, Dómine, Deus noster.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus concedeu aos justos a recompensa dos seus trabalhos,
               conduzindo-os por um caminho admirável. Foi para eles sombra
               durante o dia e luz das estrelas durante a noite. Fê-los
@@ -81,12 +79,12 @@ export default function Page0728() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Concéde nobis, omnípotens Deus: ut his munéribus, quæ in sanctórum
               tuórum Nazarii, Celsi, Victóris et Innocéntii honóre deférimus, et
               te placémus exhíbitis, et nos vivificémur accéptis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, permiti que, oferecendo-Vos estas oblatas em
               honra dos vossos Santos Nazário, Celso, Vítor e Inocêncio,
               possamos aplacar-Vos, e, aceitando-as Vós, por elas alcancemos a
@@ -97,12 +95,12 @@ export default function Page0728() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctórum Nazárii, Celsi, Victóris et Innocéntii, Dómine,
               intercessióne placátus: præsta, quǽsumus; ut, quod temporáli
               celebrámus actióne, perpétua salvatióne capiámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deixai-Vos aplacar, Senhor, pela intercessão dos vossos Santos
               Nazário, Celso, Vítor e Inocêncio e, Vos suplicamos, permiti que
               estes mystérios, celebrados temporalmente, nos façam alcançar a

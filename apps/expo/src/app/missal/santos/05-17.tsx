@@ -26,14 +26,14 @@ export default function Page0517() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Paschálem Confessórem tuum mirífica erga Córporis
               et Sánguinis tui sacra mystéria dilectióne decorásti: concéde
               propítius; ut, quam ille ex hoc divino convívio spíritus percépit
               pinguédinem, eándem et nos percípere mereámur: Qui vivis et
               regnas...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que enriquecestes o B. Pascoal, vosso Confessor, com
               precioso afecto para com os sagrados mystérios do vosso Corpo e
               Sangue, concedei-nos propício que alcancemos neste divino banquete

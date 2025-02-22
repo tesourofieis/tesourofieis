@@ -41,34 +41,34 @@ export default function Page0503() {
           <Text className="em">Gl. 6, 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in
               quo est salus, vita et resurréctio nostra: per quem salváti et
               liberáti sumus, allelúja, allelúja.{" "}
-              <Text className="text-base latin">Ps. 66, 2</Text> Deus misereátur
-              nostri, et benedícat nobis: illúminet vultum suum super nos, et
-              misereátur nostri. ℣. Gloria Patri...
+              <Text className="latin">Ps. 66, 2</Text> Deus misereátur nostri,
+              et benedícat nobis: illúminet vultum suum super nos, et misereátur
+              nostri.<Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Convém que nos gloriemos na Cruz de nosso Senhor Jesus Cristo,
               pois Ele é a nossa salvação, vida e ressurreição: e por Ele fomos
               salvos e livres, aleluia, aleluia.{" "}
-              <Text className="text-base vernacular">Sl. 66, 2</Text> Que o
-              Senhor tenha misericórdia de nós e nos abençoe; que o Senhor nos
-              ilumine com o brilho que resplandece da sua face e se compadeça de
-              nós. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 66, 2</Text> Que o Senhor tenha
+              misericórdia de nós e nos abençoe; que o Senhor nos ilumine com o
+              brilho que resplandece da sua face e se compadeça de nós.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui in præclára salutíferæ Crucis Inventióne passiónis tuæ
               mirácula suscitásti: concéde; ut, vitális ligni prétio, ætérnæ
               vitæ suffrágia consequámur: Qui vivis et regnas...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que na memorável ocasião da Invenção da Cruz, donde nos
               veio a salvação, repetistes as maravilhas da vossa Paixão,
               concedei-nos, pela virtude deste Lenho de vida, que alcancemos a
@@ -81,13 +81,13 @@ export default function Page0503() {
           <Text className="em">Fl. 2, 5-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippenses.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui,
               cum in forma Dei esset, non rápinam arbitrátus est esse se æquálem
               Deo: sed semetípsum exinanívit formam servi accípiens, in
@@ -99,7 +99,7 @@ export default function Page0503() {
               infernórum: et omnis lingua confiteátur, quia Dóminus Jesus
               Christus in glória est Dei Patris.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Tende os mesmos sentimentos que animaram Jesus
               Cristo, o qual, embora fosse Deus por natureza (e não era
               usurpação o julgar-se igual a Deus), contudo humilhou-se a si
@@ -115,20 +115,21 @@ export default function Page0503() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 95, 10</Text> Dícite in
-              géntibus, quia Dóminus regnávit a ligno. Allelúja. ℣. Dulce
-              lignum, dulces clavos, dúlcia ferens póndera: quæ sola fuísti
-              digna sustinére Regem cœlórum et Dóminum. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 95, 10</Text> Dícite in géntibus, quia
+              Dóminus regnávit a ligno. Allelúja.
+              <Text className="versicle"> ℣. </Text>Dulce lignum, dulces clavos,
+              dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem
+              cœlórum et Dóminum. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 95, 10</Text> Anunciai
-              aos povos que o Senhor reinou pela Cruz. Aleluia. ℣. Ó doce Lenho,
-              ó doces cravos que suportais o peso dum fardo tão doce! Só vós, ó
-              Cruz, fostes digna de ter suspenso o Senhor, Rei dos céus.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 95, 10</Text> Anunciai aos povos
+              que o Senhor reinou pela Cruz. Aleluia.
+              <Text className="versicle"> ℣. </Text>Ó doce Lenho, ó doces cravos
+              que suportais o peso dum fardo tão doce! Só vós, ó Cruz, fostes
+              digna de ter suspenso o Senhor, Rei dos céus. Aleluia.
             </Text>
           </View>
 
@@ -137,15 +138,15 @@ export default function Page0503() {
           <Text className="em">Jo. 3, 1-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Erat homo ex pharisǽis, Nicodémus nómine,
               princeps Judæórum. Hic venit ad Jesum nocte et dixit ei: Rabbi,
               scimus, quia a Deo venísti magíster; nemo enim potest hæc signa
@@ -170,7 +171,7 @@ export default function Page0503() {
               opórtet Fílium hóminis, ut omnis, qui credit in ipsum, non péreat,
               sed hábeat vitam ætérnam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, havia entre os judeus um homem, chamado Nicodemos,
               que era um dos príncipes dos judeus. Em uma noite veio ele
               encontrar Jesus, dizendo-Lhe: «Mestre, sabemos que viestes da
@@ -205,11 +206,11 @@ export default function Page0503() {
           <Text className="em">Sl. 117, 16 & 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non
               móriar, sed vivam et narrábo ópera Dómini, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A dextra do Senhor mostrou o seu poder: a dextra do Senhor
               exaltou-me. Não morrerei, mas viverei e publicarei as obras do
               Senhor. Aleluia.
@@ -219,13 +220,13 @@ export default function Page0503() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacrifícium, Dómine, quod tibi immolámus, placátus inténde: ut ab
               omni nos éruat bellórum nequítia, et per vexíllum sanctæ Crucis
               Fílii tui, ad conteréndas potestátis advérsa? insídias, nos in tuæ
               protectiónis securitáte constítuat. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aplacai-Vos, Senhor, e dignai-Vos olhar para esta vítima, que
               imolamos em vossa honra, a fim de que por ela sejamos preservados
               de todos os males das guerras e pelo estandarte da Santa Cruz do
@@ -238,11 +239,11 @@ export default function Page0503() {
           <Text className="h3">Comúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Per signum Crucis de inimícis nostris líbera nos, Deus noster,
               allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Pelo sinal da Santa Cruz, livrai-nos, ó nosso Deus, de nossos
               inimigos. Aleluia.
             </Text>
@@ -251,13 +252,13 @@ export default function Page0503() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Repléti alimónia cœlésti et spiritáli poculo recreáti, quǽsumus,
               omnípotens Deus: ut ab hoste malígno deféndas, quos per lignum
               sanctæ Crucis Fílii tui, arma justítiæ pro salúte mundi,
               triumpháre jussísti. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com o alimento celestial e confortados com a bebida
               espiritual, Vos suplicamos, ó Deus omnipotente, defendei da
               malícia do inimigo aqueles que quisestes que triunfassem pelo

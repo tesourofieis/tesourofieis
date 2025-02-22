@@ -34,11 +34,11 @@ export default function Page0114Outro() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Concéde, quǽsumus, quaténus, quorum sollémnia ágimus, étiam actus
               imitémur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, ó omnipotente Deus, que os exemplos dos vossos
               Santos nos incitem a uma vida melhor, de que modo que imitemos
               também as acções daquele cuja solenidade celebramos. Por nosso
@@ -49,12 +49,12 @@ export default function Page0114Outro() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hóstias tibi, Dómine, beáti Félicis Mártyris tui dicátas méritis,
               benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai benignamente, Senhor, as hóstias que Vos oferecemos em
               honra dos méritos do B. Félix, vosso Mártir, e permiti que nos
               alcancem o vosso perpétuo auxílio. Por nosso Senhor...
@@ -64,12 +64,12 @@ export default function Page0114Outro() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut, beáti Félicis
               Mártyris tui, cujus sollémnia celebrámus, oratiónibus adjuvémur.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo sido saciados com os salutares dons, dignai-Vos
               conceder-nos, Senhor, que sejamos auxiliados pelas orações do
               vosso B. Mártir Félix, cuja solenidade celebrámos. Por nosso

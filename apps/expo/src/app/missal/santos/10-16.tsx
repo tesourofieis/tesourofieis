@@ -23,13 +23,13 @@ export default function Page1016() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátam Hedwígem a sǽculi pompa ad húmilem tuæ Crucis
               sequélam toto corde transíre docuísti: concéde; ut ejus méritis et
               exémplo discámus peritúras mundi calcáre delícias, et in ampléxu
               tuæ Crucis ómnia nobis adversántia superáre: Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que inspirastes a B. Hedviges a deixar as pompas do mundo
               para abraçar com fervor a humildade da vossa Cruz, concedei-nos
               pelos seus méritos e exemplos que aprendamos a esmagar as delícias

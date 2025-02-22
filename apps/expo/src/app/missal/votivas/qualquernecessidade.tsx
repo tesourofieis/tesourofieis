@@ -13,33 +13,33 @@ export default function PageQualquernecessidade() {
           <Text className="h3">Intróito</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
               clamáverint ad me, exáudiam eos: et ero illórum Dóminus in
               perpétuum. (T. P. Allelúja, allelúja.){" "}
-              <Text className="text-base latin">Ps. 77, 1</Text> Atténdite,
-              pópule meus, legem meam: inclináte aurem vestram in verba oris
-              mei. ℣. Gloria Patri...
+              <Text className="latin">Ps. 77, 1</Text> Atténdite, pópule meus,
+              legem meam: inclináte aurem vestram in verba oris mei.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu sou a salvação do povo, diz o Senhor: quando em qualquer
               tribulação chamarem por mim, Eu os ouvirei: e serei perpetuamente
               o seu Senhor. (T. P. Aleluia, aleluia.){" "}
-              <Text className="text-base vernacular">Sl. 77, 1</Text> Ó meu
-              povo, escutai a minha lei: inclinai os vosso ouvidos às palavras
-              da minha boca. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 77, 1</Text> Ó meu povo, escutai
+              a minha lei: inclinai os vosso ouvidos às palavras da minha boca.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ineffábilem misericórdiam tuam, Dómine, nobis cleménter osténde:
               ut simul nos et a peccátis ómnibus éxuas; et a pœnis, quas pro his
               merémur, erípias. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Mostrai-nos clementemente, Senhor, a vossa inefável misericórdia;
               e, livrando-nos dos nossos pecados, aliviai-nos dos castigos em
               que incorremos por causa deles. Por nosso Senhor...
@@ -51,18 +51,16 @@ export default function PageQualquernecessidade() {
           <Text className="em">Jr. 14, 7-8 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Jeremíæ Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Jeremias.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Jeremias.</Text>
+            <Text className="latin">
               Si iniquitátes nostræ respónderint nobis: Dómine, fac propter
               nomen tuum, quóniam multæ sunt aversiónes nostræ: tibi peccávimus.
               Exspectátio Israël, salvátor ejus in témpore tribulatiónis. Tu
               autem in nobis es, Dómine, et nomen tuum invocátum est super nos,
               ne derelínquas nos, Dómine, Deus noster.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Se as nossas iniquidades servem de nossa acusação diante de Vós,
               Senhor, sede propício para nós pela glória do vosso nome; porque
               numerosas são as nossas revoltas e os nossos pecados contra Vós!
@@ -77,27 +75,28 @@ export default function PageQualquernecessidade() {
           <Text className="em">Sl. 43, 3-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
-              oderunt, confudísti. ℣. In Deo laudábimur tota die: et in nómine
-              tuo confitébimur in sǽcula.
+              oderunt, confudísti.<Text className="versicle"> ℣. </Text>In Deo
+              laudábimur tota die: et in nómine tuo confitébimur in sǽcula.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes
-              aqueles que nos odiavam. ℣. Alegrar-nos-emos em Deus
-              continuamente: glorificaremos sempre o vosso nome.
+              aqueles que nos odiavam.<Text className="versicle"> ℣. </Text>
+              Alegrar-nos-emos em Deus continuamente: glorificaremos sempre o
+              vosso nome.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 78, 9-10</Text> Propítius
-              esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est
-              Deus eórum? Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 78, 9-10</Text> Propítius esto,
+              Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus
+              eórum? Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 78, 9-10</Text>{" "}
-              Perdoai-nos, Senhor, os nossos pecados: para que os povos não
-              digam: «Onde está o seu Deus»?». Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 78, 9-10</Text> Perdoai-nos,
+              Senhor, os nossos pecados: para que os povos não digam: «Onde está
+              o seu Deus»?». Aleluia.
             </Text>
           </View>
 
@@ -110,20 +109,24 @@ export default function PageQualquernecessidade() {
           <Text className="em">Sl. 24, 17-18 & 1-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
-              labórem meum: et dimitte ómnia peccáta mea. ℣. Ad te, Dómine,
-              levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque
-              irrídeant me inimíci mei. ℣. Etenim univérsi, qui te exspéctant,
-              non confundéntur: confundántur omnes faciéntes vana.
+              labórem meum: et dimitte ómnia peccáta mea.
+              <Text className="versicle"> ℣. </Text>Ad te, Dómine, levávi ánimam
+              meam: Deus meus, in te confído, non erubéscam: neque irrídeant me
+              inimíci mei.<Text className="versicle"> ℣. </Text>Etenim univérsi,
+              qui te exspéctant, non confundéntur: confundántur omnes faciéntes
+              vana.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Livrai-me, Senhor, das minhas tribulações: vede a minha miséria e
-              as minhas penas: e perdoai todos meus pecados. ℣. A Vós, Senhor,
-              elevei a minha alma: meu Deus, confio em Vós: não ficarei
-              envergonhado; pois os meus inimigos não triunfarão de mim. ℣. Não
-              serão confundidos, Senhor, os que confiam em Vós: mas serão
-              confundidos os que procedem em vão.
+              as minhas penas: e perdoai todos meus pecados.
+              <Text className="versicle"> ℣. </Text>A Vós, Senhor, elevei a
+              minha alma: meu Deus, confio em Vós: não ficarei envergonhado;
+              pois os meus inimigos não triunfarão de mim.
+              <Text className="versicle"> ℣. </Text>Não serão confundidos,
+              Senhor, os que confiam em Vós: mas serão confundidos os que
+              procedem em vão.
             </Text>
           </View>
 
@@ -132,20 +135,20 @@ export default function PageQualquernecessidade() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 78, 9-10</Text> Propítius
-              esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est
-              Deus eórum? Allelúja. ℣. <Text className="em">Ps. 30, 8</Text>{" "}
-              Exsultábo et lætábor in misericórdia tua, quóniam respexísti
-              humilitátem meam: salvasti de necessitátibus ánimam meam.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 78, 9-10</Text> Propítius esto,
+              Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus
+              eórum? Allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="em">Ps. 30, 8</Text> Exsultábo et lætábor in
+              misericórdia tua, quóniam respexísti humilitátem meam: salvasti de
+              necessitátibus ánimam meam. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 78, 9-10</Text>{" "}
-              Perdoai-nos, Senhor, Os nossos pecados: para que os povos não
-              digam: «Onde está o seu Deus?». Aleluia. ℣.{" "}
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 78, 9-10</Text> Perdoai-nos,
+              Senhor, Os nossos pecados: para que os povos não digam: «Onde está
+              o seu Deus?». Aleluia.<Text className="versicle"> ℣. </Text>
               <Text className="em">Sl. 30, 8</Text> Exultarei de alegria por
               causa da vossa misericórdia, pois Vós tivestes compaixão da minha
               desgraça: e salvastes a minha alma das minhas tribulações.
@@ -158,15 +161,15 @@ export default function PageQualquernecessidade() {
           <Text className="em">Mc. 11, 22-26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Marcum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Marcum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Marcos.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Marcos.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Habete fidem Dei.
               Amen, dico vobis, quia, quicúmque díxerit huic monti: Tóllere et
               míttere in mare, et non hæsitáverit in corde suo, sed credíderit,
@@ -177,7 +180,7 @@ export default function PageQualquernecessidade() {
               dimíttat vobis peccáta vestra. Quod si vos non dimiséritis: nec
               Pater vester, qui in cœlis est, dimíttet vobis peccáta vestra.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Tende fé em Deus!
               Em verdade vos digo: todo aquele que disser a este monte: «tira-te
               e lança-te ao mar», se ele não hesitar no seu coração e, antes,
@@ -196,12 +199,12 @@ export default function PageQualquernecessidade() {
           <Text className="em">Sl. 137, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Si ambulávero in médio tribulatiónis, vivificábis me, Dómine: et
               super iram inimicórum meórum exténdes manum tuam, et salvum me
               fáciet déxtera lua. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Se me, encontrar no meio das tribulações, Vós me dareis a vida,
               Senhor: Vós impusestes a vossa mão contra o furor dos meus
               inimigos e a vossa dextra salvou-me. (T. P. Aleluia.)
@@ -211,11 +214,11 @@ export default function PageQualquernecessidade() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Puríficet nos, Dómine, quǽsumus, múneris præséntis oblátio: et
               dignos sacra participatióne perfíciat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a oferta deste sacrifício nos purifique, Senhor, e nos torne
               verdadeiramente dignos de participarmos santamente destes
               mystérios. Por...
@@ -227,11 +230,11 @@ export default function PageQualquernecessidade() {
           <Text className="em">Sl. 118, 49-50</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Meménto verbi tui servo tuo, Dómine, in quo mihi spemdedísti: hæc
               me consoláta est in humilitáte mea. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lembrai-Vos, Senhor, da palavra que dissestes ao vosso servo, a
               qual me encheu de esperança. Foi ela que me serviu de consolação
               nas minhas penas. (T. P. Aleluia.)
@@ -241,12 +244,12 @@ export default function PageQualquernecessidade() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, Dómine: ut, terrenis afféctibus expiáti, ad
               superni plenitúdinem sacraménti, cujus libávimus sancta, tendámus.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos conceder-nos, Senhor, que, livres nós de todos os
               afectos terrenos, procuremos a posse completa do sacramento, que
               acabámos de receber, nas divinas espécies. Por...

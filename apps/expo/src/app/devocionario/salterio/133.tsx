@@ -11,31 +11,31 @@ export default function Page133() {
           <Text className="h1">Salmo 133</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ecce nunc benedícite Dóminum, * omnes servi Dómini:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Agora, pois, bendizei o Senhor, * todos os servos do Senhor:
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui statis in domo Dómini, * in átriis domus Dei nostri.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vós que estais na casa do Senhor, * nos átrios da casa do nosso
               Deus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In nóctibus extóllite manus vestras in sancta, * et benedícite
               Dóminum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               De noite levantai as vossas mãos para o santuário, * e bendizei o
               Senhor.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícat te Dóminus ex Sion, * qui fecit cælum et terram.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Te abençoe de Sião o Senhor, * que fez o céu e a terra.
             </Text>
           </View>

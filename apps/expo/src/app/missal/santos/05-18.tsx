@@ -38,12 +38,12 @@ export default function Page0518() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui hunc diem beáfi Venántii Martyris tui triúmpho
               consecrásti: exáudi preces pópuli tui et præsta: ut, qui ejus
               mérita venerámur, fídei constántiam imitémur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que consagrastes este dia com o triunfo do B. Venâncio,
               vosso Mártir, ouvi as preces do vosso povo, e permiti que,
               honrando os seus méritos, imitemos também a constância da sua fé.
@@ -54,12 +54,12 @@ export default function Page0518() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hanc oblatiónem, omnípotens Deus, beáti Venántii mérita tibi
               reddant accéptam: ut, ipsíus subsidiis adjuti, glóriæ ejus
               consortes efficiámur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que esta oferta, ó Deus omnipotente, Vos seja agradável pelos
               méritos do B. Venâncio, a fim de que, assistidos com seu auxílio,
               nos tornemos participantes da sua glória. Por nosso Senhor...
@@ -69,12 +69,12 @@ export default function Page0518() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súmpsimus, Dómine, ætérnæ vitæ sacraménta, te humiliter
               deprecántes: ut, beáto Venántio Mártyre tuo pro nobis deprecánte,
               véniam nobis concílient et grátiam. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, havendo recebido os sacramentos da vida eterna,
               humildemente Vos suplicamos que as preces do B. Venâncio, vosso
               Mártir, nos alcancem o perdão e a graça. Por nosso Senhor...

@@ -11,14 +11,14 @@ export default function PageTantumergo() {
           <Text className="h1">Tantum ergo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tantum ergo Sacramentum Veneremur cernui: Et antiquum documentum
               Novo cedat ritui: Præstet fides supplementum Sensuum defectui.
               Genitori, Genitoque Laus et iubilatio, Salus, honor, virtus quoque
               Sit et benedictio: Procedenti ab utroque Compar sit laudatio.
               Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Adoremos, pois, prostrados tão augusto Sacramento: cedam os ritos
               antigos o lugar ao novo Mystério e que a fé supra a fraqueza dos
               nossos sentidos. Glória, honra, louvor, poder, acção de graças e

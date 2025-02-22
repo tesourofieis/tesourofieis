@@ -28,7 +28,7 @@ export default function PageOracoesleoninas() {
           <Text className="h2">Salve Regina</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Salve, Regína, mater misericórdiæ; vita, dulcédo et spes nóstra,
               salve. Ad te clamámus éxsules fílii Hevæ. Ad te suspirámus
               geméntes et flentes In hac lacrimárum valle. Eia ergo, advocáta
@@ -36,7 +36,7 @@ export default function PageOracoesleoninas() {
               benedíctum fructum ventris tui, nobis post hoc exsílium osténde. O
               clemens, o pia, o dulcis Virgo María.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Salvé, Rainha, mãe de misericórdia, vida, doçura, esperança nossa,
               salve! A Vós bradamos, os degredados filhos de Eva. A Vós
               suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois,
@@ -44,27 +44,29 @@ export default function PageOracoesleoninas() {
               E, depois deste desterro, nos mostrai Jesus, bendito fruto do
               vosso ventre. Ó clemente, ó piedosa, ó doce Virgem Maria.
             </Text>
-            <Text className="text-base latin">
-              ℣. Ora pro nobis Sancta Dei Génitrix.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text>Ora pro nobis Sancta Dei
+              Génitrix.
             </Text>
-            <Text className="text-base vernacular">
-              ℣. Rogai por nós, Santa Mãe de Deus.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Rogai por nós, Santa Mãe de
+              Deus.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟.</Text> Ut digni efficiámur
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Ut digni efficiámur
               promissiónibus Christi.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟.</Text> Para que sejamos dignos
-              das promessas de Cristo.
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> Para que sejamos dignos das
+              promessas de Cristo.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, refúgium nostrum et virtus, pópulum ad te clamántem
               propítius réspice; et intercedénte gloriósa, et immaculáta Vírgine
               Dei Genitríce María, cum beáto Joseph, ejus Sponso, ac beatis
@@ -73,7 +75,7 @@ export default function PageOracoesleoninas() {
               Ecclésiæ, preces effúndimus, miséricors et benígnus exáudi. Per
               eúndem Christum Dóminum nostrum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meu Deus, refúgio e fortaleza nossa, atendei propício aos clamores
               do vosso povo, e, pela intercessão da gloriosa e imaculada Virgem
               Maria, Mãe de Deus, do Bem-aventurado S. José, seu Esposo, dos
@@ -82,11 +84,11 @@ export default function PageOracoesleoninas() {
               dirigimos pela conversão dos pecadores e pela libertação da santa
               Madre Igreja. Pelo mesmo Cristo, nosso Senhor.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Amen.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟.</Text> Amén.
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> Amén.
             </Text>
           </View>
 
@@ -101,16 +103,18 @@ export default function PageOracoesleoninas() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">℣. Cor Jesu sacratíssimum:</Text>
-            <Text className="text-base vernacular">
-              ℣. Coração sacratíssimo de Jesus:
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text> Cor Jesu sacratíssimum:
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟.</Text> Miserére nobis.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Coração sacratíssimo de
+              Jesus:
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟.</Text> Tende misericórdia de
-              nós.
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Miserére nobis.
+            </Text>
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> Tende misericórdia de nós.
             </Text>
           </View>
         </View>

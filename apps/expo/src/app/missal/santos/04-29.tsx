@@ -24,12 +24,12 @@ export default function Page0429() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut beáti Petri Martyris tui
               fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei
               dilatatióne, martýrii palmam méruit obtinére. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos suplicamos, ó Deus, omnipotente, permiti que imitemos com
               conveniente devoção a fé do B. Pedro, vosso Mártir, que pela
               manifestação desta mesma fé mereceu alcançar a palma do martírio.
@@ -47,12 +47,12 @@ export default function Page0429() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Preces, quas tibi, Dómine, offérimus, intercedénte beáto Petro
               Mártyre tuo, cleménter inténde: et propugnatóres fídei sub tua
               protectióne custódi. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos, Senhor, pela intercessão do B. Pedro, vosso Mártir,
               ouvir clementemente as preces que Vos dirigimos, e acolhei sob a
               vossa protecção os defensores da fé. Por nosso Senhor...
@@ -62,12 +62,12 @@ export default function Page0429() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Fidéles tuos, Dómine, custódiant sacraménta, quæ súmpsimus: et,
               intercedénte beáto Petro Mártyre tuo, contra omnes advérsos
               tueántur incúrsus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que os vossos fiéis, Senhor, sejam amparados com os sacramentos
               que recebemos, e que pela intercessão do B. Pedro, vosso Mártir,
               sejam protegidos contra todos os ataques do inimigo. Por nosso

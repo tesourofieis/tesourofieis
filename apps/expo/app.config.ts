@@ -26,10 +26,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     policy: "appVersion",
   },
   assetBundlePatterns: ["**/*"],
-  androidStatusBar: {
-    backgroundColor: "#111111",
-    barStyle: "dark-content",
-  },
   android: {
     versionCode: 23,
     package: "com.tesourofieis.app",

@@ -25,25 +25,26 @@ export default function Page0806() {
           <Text className="em">Sl. 76, 19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit
-              terra. <Text className="text-base latin">Ps. 83, 2-3</Text> Quam
-              dilécta tabernácula tua, Dómine virtútum! concupíscit, et déficit
-              ánima mea in átria Dómini. ℣. Gloria Patri...
+              terra. <Text className="latin">Ps. 83, 2-3</Text> Quam dilécta
+              tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima
+              mea in átria Dómini.<Text className="versicle"> ℣. </Text>Gloria
+              Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Os vossos relâmpagos iluminaram o globo terrestre: moveu-se a
-              terra e tremeu.{" "}
-              <Text className="text-base vernacular">Sl. 83, 2-3</Text> Como são
-              amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha alma
-              suspira ardentemente pelos átrios do Senhor. ℣. Glória ao Pai...
+              terra e tremeu. <Text className="vernacular">Sl. 83, 2-3</Text>{" "}
+              Como são amáveis os vossos tabernáculos, ó Senhor dos exércitos!
+              Minha alma suspira ardentemente pelos átrios do Senhor.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui fídei sacraménta in Unigéniti tui gloriósa
               Transfiguratióne patrum testimónio roborásti, et adoptiónem
               filiórum perféctam, voce delápsa in nube lúcida, mirabíliter
@@ -51,7 +52,7 @@ export default function Page0806() {
               coherédes effícias, et ejúsdem glóriæ tríbuas esse consórtes. Per
               eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que na gloriosa Transfiguração de vosso Filho Unigénito
               confirmastes os méritos da fé pelo testemunho dos patriarcas, e
               que pela voz saída da nuvem iluminada proclamastes admiravelmente
@@ -67,13 +68,9 @@ export default function Page0806() {
           <Text className="em">2 Pe. 1, 16-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Léctio Epístolæ beáti Petri Apóstoli.
-            </Text>
-            <Text className="text-base vernacular">
-              Lição da Ep.ª do B. Ap.º Pedro.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
+            <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
+            <Text className="latin">
               Caríssimi: Non doctas fábulas secúti notam fecimus vobis Dómini
               nostri Jesu Christi virtútem et præséntiam: sed speculatores facti
               illíus magnitudinis. Accipiens enim a Deo Patre honórem et
@@ -84,7 +81,7 @@ export default function Page0806() {
               facitis attendentes, quasi lucérnæ lucénti in caliginóso loco,
               donec dies elucescat et lucifer oriálur in córdibus vestris.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caríssimos: Não foi servindo-nos de fábulas engenhosas que vos
               fizemos conhecer o poder e a vinda de nosso Senhor Jesus Cristo,
               mas depois de havermos sido espectadores da sua majestade. Com
@@ -104,26 +101,26 @@ export default function Page0806() {
           <Text className="em">Sl. 44, 3 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Speciosus forma præ fíliis hóminum: diffúsa est grátia in lábiis
-              tuis. ℣. Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
+              tuis.<Text className="versicle"> ℣. </Text>Eructávit cor meum
+              verbum bonum: dico ego ópera mea Regi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sois o mais belo dos filhos dos homens: a graça espalhou-se nos
-              vossos lábios. ℣. Meu coração exprimiu uma palavra excelente:
-              Consagro ao Rei as minhas obras.
+              vossos lábios.<Text className="versicle"> ℣. </Text>Meu coração
+              exprimiu uma palavra excelente: Consagro ao Rei as minhas obras.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Sap. 7, 26</Text> Candor est
-              lucis ætérnæ, spéculum sine mácula, et imágo bonitátis illíus.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Sap. 7, 26</Text> Candor est lucis ætérnæ,
+              spéculum sine mácula, et imágo bonitátis illíus. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sb. 7, 26</Text> Este é o
-              esplendor da luz eterna, o espelho sem mancha de Deus e a imagem
-              da sua bondade!
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sb. 7, 26</Text> Este é o esplendor
+              da luz eterna, o espelho sem mancha de Deus e a imagem da sua
+              bondade!
             </Text>
           </View>
 
@@ -132,15 +129,15 @@ export default function Page0806() {
           <Text className="em">Mt. 17, 1-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem
               fratrem ejus, et duxit illos in montem excélsum seórsum: et
               transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol:
@@ -157,7 +154,7 @@ export default function Page0806() {
               descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini
               dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, Jesus levou consigo Pedro, Tiago e João e
               conduziu-os a um monte alto e separado, transfigurando-se ante
               eles: seu rosto resplandecia, como o sol, e os seus vestidos
@@ -181,11 +178,11 @@ export default function Page0806() {
           <Text className="em">Sl. 111, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum
               sǽculi, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A glória e as riquezas estão na sua casa; a sua justiça subsistirá
               para sempre. Aleluia.
             </Text>
@@ -194,12 +191,12 @@ export default function Page0806() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Obláta, quǽsumus, Dómine, múnera gloriósa Unigéniti tui
               Transfiguratióne sanctífica: nosque a peccatórum máculis,
               splendóribus ipsíus illustratiónis emunda. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificai, Senhor, pela gloriosa Transfiguração do vosso Filho
               Unigénito, Vos pedimos, as oblatas que Vos apresentamos; e pelos
               esplendores da sua glorificação purificai-nos das manchas dos
@@ -212,11 +209,11 @@ export default function Page0806() {
           <Text className="em">Mt. 17, 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Visiónem, quam vidístis, némini dixéritis, donec a mórtuis
               resúrgat Fílius hóminis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Não conteis a ninguém esta visão até que o Filho do homem
               ressuscite dos mortos.
             </Text>
@@ -225,13 +222,13 @@ export default function Page0806() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut sacrosáncta Fílii tui
               Transfiguratiónis mystéria, quæ sollemni celebrámus offício,
               purificáta mentis intellegéntia consequámur. Per eúndem Dómium
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, Vos suplicamos, fazei que possamos gozar com a
               alma purificada de todas as manchas os sacrossantos mystérios da
               Transfiguração do vosso Filho, que celebrámos solenemente neste

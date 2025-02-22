@@ -25,14 +25,14 @@ export default function Page0213Portugal() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui unigéniti Fílii tui passióne, et per quinque Vúlnera
               ejus sánguinis effusióne, humánam natúram peccáto pérditam
               reparásti: tríbue nobis, quæsumus; ut qui ab eo suscépta Vúlnera
               venerámur in terris, ejúsdem pretiosíssimi sánguinis fructum
               cónsequi mereámur in cælis. Per eúmdem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que pela Paixão do vosso Filho Unigénito e pela efusão do
               sangue das suas Cinco Sagradas Chagas reparastes a natureza
               humana, perdida pelo pecado, concedei-nos, Vos imploramos, que,
@@ -44,12 +44,12 @@ export default function Page0213Portugal() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Majestáti tuæ, quæsumus, Dómine, accépta sint dona, in quibus ipso
               Unigéniti tui Vúlnera tibi offérimus, nostræ prétia libertátis.
               Per eúmdem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a vossa majestade, Senhor, Vos imploramos, aceite as ofertas
               que Vos apresentamos, nas quais estão as próprias Cinco Chagas do
               vosso Unigénito, que são o preço da nossa liberdade. Pelo mesmo
@@ -60,13 +60,13 @@ export default function Page0213Portugal() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Refécti vitálibus alimóniis, quæsumus, Dómine Deus noster: ut qui
               Vúlnera Dómini nostri Jesu Christi hódie devóte cólimus; hæc in
               nostris córdibus impréssa, móribus et vita teneámus. Per eúmdem
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Agora, que fomos refeitos com os alimentos da vida, Vos
               suplicamos, ó Senhor, nosso Deus, que, venerando hoje devotamente
               as Chagas de N. S. Jesus Cristo, mostremos na nossa vida e

@@ -17,7 +17,8 @@ export default function Page0720Coimbra() {
             Quem me dará asas, como as da pomba! Então voarei e descansarei. Eis
             que me afastei, fugindo, e permaneci na solidão. Esperava Aquele que
             me salvou. Ouvi, ó Deus, a minha oração; não desprezeis a minha
-            súplica; atendei-me e ouvi-me. ℣. Glória ao Pai...
+            súplica; atendei-me e ouvi-me.<Text className="versicle"> ℣. </Text>
+            Glória ao Pai...
           </Text>
           <Text className="h3">Oração</Text>
           <Text className="text-base">

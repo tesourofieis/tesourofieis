@@ -25,13 +25,13 @@ export default function Page0210() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui ánimam beátæ Vírginis tuæ Scholásticæ ad ostendéndam
               innocéntiæ viam in colúmbæ spécie cœlum penetráre fecísti: da
               nobis ejus méritis et précibus ita innocénter vívere; ut ad ætérna
               mereámur gáudia perveníre. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que para mostrar a vida inocente da vossa B. Virgem
               Escolástica fizestes entrar no céu a sua alma sob a figura de uma
               pomba, concedei-nos pelos seus méritos e preces que vivamos com

@@ -17,29 +17,30 @@ export default function PagePent170() {
           <Text className="em">Sl. 118, 137 & 124</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Justus es, Dómine, et rectum judicium tuum: fac cum servo tuo
               secúndum misericórdiam tuam.{" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Beáti
-              immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 1</Text> Beáti immaculáti in
+              via: qui ámbulant in lege Dómini.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sois justo, ó Senhor, e os vossos juízos são equitativos: tratai o
               vosso servo segundo a vossa misericórdia.{" "}
-              <Text className="text-base vernacular">Ps. ibid., 1</Text>{" "}
-              Bem-aventurados os que são imaculados na sua vida: os que o
-              caminho da Lei do Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Ps. ibid., 1</Text> Bem-aventurados
+              os que são imaculados na sua vida: os que o caminho da Lei do
+              Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da, quǽsumus, Dómine, pópulo tuo diabólica vitáre contágia: et te
               solum Deum pura mente sectári. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei ao vosso povo, Senhor, Vos suplicamos, a graça de evitar
               todo o contágio do demónio; e que o mesmo vosso povo procure com o
               coração puro servir-Vos só a Vós, que sois o seu Deus. Por nosso
@@ -52,13 +53,13 @@ export default function PagePent170() {
           <Text className="em">Ef. 4, 1-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fatres: Obsecro vos ego vinctus in Dómino, ut digne ambulétis
               vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine,
               cum patiéntia, supportántes ínvicem in caritáte, sollíciti serváre
@@ -68,7 +69,7 @@ export default function PagePent170() {
               omnes et per ómnia et in ómnibus nobis. Qui est benedíctus in
               sǽcula sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Peço-vos (eu, que me encontro em prisão, nas cadeias,
               pelo Senhor) que vivais de modo digno da vocação a que fostes
               chamados, praticando a humildade, a mansidão e a paciência,
@@ -87,26 +88,27 @@ export default function PagePent170() {
           <Text className="em">Sl. 32, 12 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit
-              Dóminus in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et
-              spíritu oris ejus omnis virtus eórum.
+              Dóminus in hereditátem sibi.<Text className="versicle"> ℣. </Text>
+              Verbo Dómini cœli firmáti sunt: et spíritu oris ejus omnis virtus
+              eórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bem-aventurada a nação que tem o Senhor como seu Deus:
               bem-aventurado o povo que o Senhor escolheu para sua herança. A
               palavra do Senhor criou os céus: e o sopro da sua boca criou os
               espíritos celestiais.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 101, 2</Text> Dómine, exáudi
-              oratiónem meam, et clamor meus ad te pervéniat. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 101, 2</Text> Dómine, exáudi oratiónem
+              meam, et clamor meus ad te pervéniat. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 101, 2</Text> Ouvi,
-              Senhor, a minha oração: e que meu clamor chegue até vós. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 101, 2</Text> Ouvi, Senhor, a
+              minha oração: e que meu clamor chegue até vós. Aleluia.
             </Text>
           </View>
 
@@ -115,15 +117,15 @@ export default function PagePent170() {
           <Text className="em">Mt. 22, 34-46</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Accessérunt ad Jesum pharisǽi: et interrogávit
               eum unus ex eis legis doctor, tentans eum: Magíster, quod est
               mandátum magnum in lege? Ait illi Jesus: Díliges Dóminum, Deum
@@ -139,7 +141,7 @@ export default function PagePent170() {
               Et nemo poterat ei respóndere verbum: neque ausus fuit quisquam ex
               illa die eum ámplius interrogáre.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo aproximaram-se de Jesus os fariseus. Um deles que
               era doutor da Lei, perguntou-Lhe para D tentar: «Mestre, qual é o
               principal mandamento da Lei?». Jesus respondeu-lhe: «Amarás ao
@@ -164,12 +166,12 @@ export default function PagePent170() {
           <Text className="em">Dn. 9, 17, 18 et 19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Orávi Deum meum ego Dániel, dicens: Exáudi, Dómine, preces servi
               tui: illúmina fáciem tuam super sanctuárium tuum: et propítius
               inténde pópulum istum, super quem invocátum est nomen tuum, Deus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu, Daniel, orei ao Senhor, meu Deus, dizendo: Ouvi, Senhor, as
               orações do vosso servo: fazei resplandecer o brilho da vossa face
               sobre o vosso santuário: e olhai propício para este povo, em favor
@@ -180,12 +182,12 @@ export default function PagePent170() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Majestátem tuam, Dómine, supplíciter deprecámur: ut hæc sancta,
               quæ gérimus, et a prætéritis nos delictis éxuant et futúris. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Humildemente rogamos à vossa majestade, Senhor, permitais que
               estes sacrossantos mystérios que celebramos nos livrem dos nossos
               delitos passados e futuros. Por nosso Senhor...
@@ -197,12 +199,12 @@ export default function PagePent170() {
           <Text className="em">Sl. 75, 12-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vovéte et réddite Dómino, Deo vestro, omnes, qui in circúitu ejus
               affértis múnera: terríbili, et ei qui aufert spíritum príncipum:
               terríbili apud omnes reges terræ.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fazei votos ao Senhor, vosso Deus, e cumpri-os, ó vós, que
               habitais em redor d’Ele. Fazei votos a este Deus tremendo que
               arrebata a vida aos príncipes e esmaga os reis da terra.
@@ -212,11 +214,11 @@ export default function PagePent170() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra
               curéntur, et remédia nobis ætérna provéniant. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que os vossos sacrossantos mystérios, ó Deus omnipotente, nos
               curem dos nossos vícios e nos sirvam de remédio para a eternidade.
               Por nosso Senhor...

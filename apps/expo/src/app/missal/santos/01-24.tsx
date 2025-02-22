@@ -38,13 +38,13 @@ export default function Page0124() {
           <Text className="em">1 Tm. 6, 11-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Caríssime: Sectáre justítiam, pietátem, fidem, caritátem,
               patiéntiam, mansuetúdinem. Certa bonum certámen fídei, apprehénde
               vitam ætérnam, in qua vocátus es, et conféssus bonam confessionem
@@ -57,7 +57,7 @@ export default function Page0124() {
               inhábitat inaccessíbilem: quem nullus hóminum vidit, sed nec
               vidére potest: cui honor et impérium sempitérnum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caríssimos: Procurai a justiça, a piedade, a fé, a caridade, a
               paciência e a mansidão. Combatei o bom combate da fé; esforçai-vos
               em alcançar a vida eterna, para a qual fostes chamado e para a

@@ -13,13 +13,13 @@ export default function Page14Fome() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da nobis, quǽsumus, Dómine, piæ supplicatiónis efféctum: et famem
               propitiátus avérte; ut mortálium corda cognóscant, et te
               indignánte tália flagélla prodíre, et te miseránte cessáre. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos suplicamos, Senhor, concedei-nos a graça de alcançarmos o que
               de Vós imploramos com nossas súplicas piedosas; e, pela vossa
               bondade, afastai de nós a fome, a fim de que os corações mortais
@@ -32,13 +32,13 @@ export default function Page14Fome() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui humáni generis utrámque substántiam, præséntium númerum
               et aliménto végetas et rénovas sacraménto: tríbue, quǽsumus; ut
               eórum et corpóribus nostris subsídium non desit et méntibus. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que com os dons aqui presentes assistis ao género humano
               nas suas duas substâncias, sustentando-o com o alimento e
               renovando-o com o sacramento, concedei-nos, Vos suplicamos, que a
@@ -50,11 +50,11 @@ export default function Page14Fome() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Gubérna, quǽsumus, Dómine, temporálibus aliméntis: quos dignáris
               ætérnis informáre mystériis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos suplicamos, Senhor, dignai-Vos manifestar a vossa providência,
               concedendo os alimentos temporais àqueles que Vos dignastes
               robustecer com mystérios eternos. Por nosso Senhor...

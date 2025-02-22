@@ -15,19 +15,20 @@ export default function PagePasc04() {
           <Text className="em">Sb. 10, 20-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Victrícem manum tuam, Dómine, laudavérunt páriter, allelúja: quia
               sapiéntia apéruit os mutum, et linguas infántium fecit disértas,
-              allelúja, allelúja.{" "}
-              <Text className="text-base latin">Ps. 97, 1</Text> Cantáte Dómino
-              cánticum novum: quia mirabília fecit. ℣. Gloria Patri...
+              allelúja, allelúja. <Text className="latin">Ps. 97, 1</Text>{" "}
+              Cantáte Dómino cánticum novum: quia mirabília fecit.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Louvaram juntamente, Senhor, a vossa mão vencedora, aleluia: pois
               a sabedoria abriu a boca dos mudos e tornou eloquente a língua das
               crianças, aleluia, aleluia.{" "}
-              <Text className="text-base vernacular">Sl. 97, 1</Text> Cantai em
-              honra do Senhor um hino novo, pois Ele operou maravilhas. ℣.
+              <Text className="vernacular">Sl. 97, 1</Text> Cantai em honra do
+              Senhor um hino novo, pois Ele operou maravilhas.
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -35,12 +36,12 @@ export default function PagePasc04() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui diversitátem géntium in confessióne tui nóminis
               adunásti: da, ut renátis fonte baptísmatis una sit fides méntium,
               et píetas actiónum. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que reunistes os diversos povos na confissão do vosso
               nome, fazei que aqueles que foram regenerados pela água do
               baptismo tenham uma só fé no espírito e uma só piedade nas acções.
@@ -53,11 +54,9 @@ export default function PagePasc04() {
           <Text className="em">Act. 8, 26-40</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Actuum Apostolorum.</Text>
-            <Text className="text-base vernacular">
-              Lição dos Actos dos Apóstolos.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Actuum Apostolorum.</Text>
+            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="latin">
               In diébus illis: Angelus Dómini locútus est ad Philíppum, dicens:
               Surge et vade contra meridiánum ad viam, quæ descéndit ab
               Jerúsalem in Gazam: hæc est desérta. Et surgens ábiit. Et ecce,
@@ -87,7 +86,7 @@ export default function PagePasc04() {
               evangelizábat civitátibus cunctis (donec veniret Cæsaréam) nomen
               Dómini Jesu Christi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, um Anjo do Senhor, dirigindo-se a Filipe,
               disse-lhe: «Levanta-te e caminha para o lado do sul, na estrada
               que vai de Jerusalém a Gaza. Este caminho está deserto». E,
@@ -126,39 +125,41 @@ export default function PagePasc04() {
           <Text className="em">Sl. 117, 24 & 22-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea. ℣.
+            <Text className="latin">
+              Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
+              <Text className="versicle"> ℣. </Text>
               Lápidem, quem reprobavérunt ædificántes, hic factus est in caput
               ánguli: a Dómino factum est istud, et est mirábile in óculis
               nostris.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eis o dia que o Senhor fez: exultemos e alegremo-nos nele. A pedra
               que os edificadores rejeitaram tornou-se na pedra angular: foi o
               Senhor quem fez isto; e os nossos olhos viram-no com admiração.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Surréxit Christus, qui creávit ómnia: et
-              misértus est humáno géneri.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Surréxit
+              Christus, qui creávit ómnia: et misértus est humáno géneri.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Ressuscitou Cristo, que criou todas as
-              coisas: e compadeceu-se do género humano.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Ressuscitou
+              Cristo, que criou todas as coisas: e compadeceu-se do género
+              humano.
             </Text>
           </View>
 
           <Text className="h3">Evangelho</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: María stabat ad monuméntum foris, plorans. Dum
               ergo fleret, inclinávit se et prospéxit in monuméntum: et vidit
               duos Angelos in albis, sedéntes, unum ad caput et unum ad pedes,
@@ -175,7 +176,7 @@ export default function PagePasc04() {
               Deum meum et Deum vestrum. Venit María Magdaléne annúntians
               discípulis: Quia vidi Dóminum, et hæc dixit mihi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, Maria Madalena estava fora, perto do sepulcro, a
               chorar. Então, ainda a chorar, inclinou-se para dentro do sepulcro
               e olhou para lá, vendo dois Anjos, vestidos de branco, assentados
@@ -201,11 +202,11 @@ export default function PagePasc04() {
           <Text className="em">Ex. 13, 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In die solemnitátis vestræ, dicit Dóminus, indúcam vos in terram
               fluéntem lac et mel, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               No dia da vossa solenidade, diz o Senhor, Eu vos conduzirei à
               terra onde correm leite e mel, aleluia.
             </Text>
@@ -214,12 +215,12 @@ export default function PagePasc04() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súscipe, quǽsumus, Dómine, múnera populórum tuórum propítius: ut,
               confessióne tui nóminis et baptísmate renováti, sempitérnam
               beatitúdinem consequántur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recebei benigno, Senhor, Vos suplicamos, as ofertas dos vossos
               servos, para que, renovados em virtude da profissão de fé e do
               baptismo, alcancem a bem-aventurança eterna. Por nosso Senhor...
@@ -231,11 +232,11 @@ export default function PagePasc04() {
           <Text className="em">1 Pe. 2, 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Pópulus acquisitiónis, annuntiáte virtútes ejus, allelúja: qui vos
               de ténebris vocávit in admirábile lumen suum, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que o povo por Deus adquirido anuncie as grandezas divinas,
               aleluia, Foi Ele quem vos conduziu das trevas à sua admirável luz,
               aleluia.
@@ -245,12 +246,12 @@ export default function PagePasc04() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Exáudi, Dómine, preces nostras: ut redemptiónis nostræ sacrosáncta
               commércia, et vitæ nobis cónferant præséntis auxílium, et gáudia
               sempitérna concílient. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ouvi, Senhor, as nossas preces, a fim de que os sacrossantos
               mystérios da nossa redenção nos auxiliem durante esta vida e nos
               obtenham as alegrias eternas. Por nosso Senhor...

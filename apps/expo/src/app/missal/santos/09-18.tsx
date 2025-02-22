@@ -16,19 +16,19 @@ export default function Page0918() {
           <Text className="em">Ecl. 1, 14-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Diléctio Dei honorábilis sapiéntia: quibus autem apparúerit in
               visu, díligunt eam in visióne et in agnitióne magnálium suórum.{" "}
-              <Text className="text-base latin">Ps. 83, 2</Text> Quam dilécta
-              tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima
-              mea in átria Dómini. ℣. Gloria Patri...
+              <Text className="latin">Ps. 83, 2</Text> Quam dilécta tabernácula
+              tua, Dómine virtútum! concupíscit, et déficit ánima mea in átria
+              Dómini.<Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O amor de Deus é sabedoria verdadeiramente digna de ser honrada.
               Aqueles a quem ela se manifesta amam-na, contemplando e admirando
-              as suas maravilhas.{" "}
-              <Text className="text-base vernacular">Sl. 83, 2</Text> Quão
-              dilectos são os vossos tabernáculos, ó Deus dos exércitos! ℣.
+              as suas maravilhas. <Text className="vernacular">Sl. 83, 2</Text>{" "}
+              Quão dilectos são os vossos tabernáculos, ó Deus dos exércitos!
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -36,13 +36,13 @@ export default function Page0918() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui ad unigénitum Fílium tuum exaltátum a terra ómnia
               tráhere disposuísti: pérfice propítius; ut, méritis et exémplo
               seráphici Confessóris tui Joséphi, supra terrénas omnes
               cupiditátes eleváti, ad eum perveníre mereámur: Qui tecum vivit...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que, depois que o vosso Filho Unigénito foi elevado da
               terra, quisestes atrair tudo a Ele, concedei-nos propício que,
               pelos méritos e exemplo do vosso Seráfico Confessor José,
@@ -56,13 +56,13 @@ export default function Page0918() {
           <Text className="em">1 Cor. 13, 1-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Si linguis hóminum loquar et Angelorum, caritátem autem
               non hábeam, factus sum velut æs sonans aut cýmbalum tínniens. Et
               si habúero prophetiam, et nóverim mystéria ómnia et omnem
@@ -78,7 +78,7 @@ export default function Page0918() {
               prophétiæ evacuabúntur, sive linguæ cessábunt, sive sciéntia
               destruétur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Se eu falar as línguas dos homens e dos Anjos, mas
               não tiver caridade, sou como o metal, que tine, ou como o sino,
               que soa. E se eu tiver o dom de profecia, conhecer todos os
@@ -101,28 +101,30 @@ export default function Page0918() {
           <Text className="em">Sl. 20, 4-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
-              cápite ejus corónam de lápide pretióso. ℣. Vitam pétiit a te, et
+              cápite ejus corónam de lápide pretióso.
+              <Text className="versicle"> ℣. </Text>Vitam pétiit a te, et
               tribuísti ei longitudinem dierum in sǽculum, et in sǽculum sǽculi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, concedestes-lhe bênçãos escolhidas, as mais suaves; e
-              impusestes na sua cabeça uma coroa de pedras preciosas. ℣.
+              impusestes na sua cabeça uma coroa de pedras preciosas.
+              <Text className="versicle"> ℣. </Text>
               Concedestes-lhe a vida, que ele Vos suplicara, e prolongastes-lhe
               a duração dos seus dias pelos séculos dos séculos.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Eccli. 11, 13</Text> Oculus Dei
-              respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et
-              exaltávit caput ejus. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Eccli. 11, 13</Text> Oculus Dei respéxit
+              illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit
+              caput ejus. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Ecl. 11, 13</Text> Deus
-              olhou benignamente para ele e ergueu-o da sua humilhação; e ele
-              elevou a cabeça. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Ecl. 11, 13</Text> Deus olhou
+              benignamente para ele e ergueu-o da sua humilhação; e ele elevou a
+              cabeça. Aleluia.
             </Text>
           </View>
 
@@ -138,11 +140,11 @@ export default function Page0918() {
           <Text className="em">Sl. 34, 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ego autem, cum mihi molésti essent, induébar cilício. Humiliábam
               in jejúnio ánimam meam: et orátio mea in sinu meo convertétur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu, porém, enquanto eles me atormentavam, revestia-me com um
               cilício; humilhava a minha alma com o jejum; e a minha oração
               repousava no meu peito.
@@ -152,12 +154,12 @@ export default function Page0918() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne
               Sanctórum: quibus nos et præséntibus éxui malis confídimus et
               futúris. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos oferecemos, Senhor, este sacrifício de louvor em memória dos
               vossos Santos, para que por meio dele nos livremos dos males
               presentes e futuros. Por nosso Senhor...
@@ -169,11 +171,11 @@ export default function Page0918() {
           <Text className="em">Sl. 68, 30-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ego sum pauper et dolens: salus tua, Deus, suscépit me. Laudábo
               nomen Dei cum cantico: et magnificábo eum in laude.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Estou pobre e aflito: vossa salvação, ó meu Deus, acolheu-me.
               Louvarei o nome de Deus com cânticos e glorificá-l’O-ei com
               louvores.
@@ -183,12 +185,12 @@ export default function Page0918() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus:
               ut, in cujus hæc commemoratióne percépimus, ejus muniámur et
               précibus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fortalecidos com o alimento e a bebida celestiais, Vos suplicamos,
               humildemente, ó nosso Deus, que sejamos amparados com a protecção
               e as preces daquele em cuja memória os recebemos. Por nosso

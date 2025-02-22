@@ -25,7 +25,7 @@ export default function Page0924() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui per gloriosíssimam Fílii tui Matrem, ad liberandos
               Christi fidéles a potestáte paganórum, nova Ecclésiam tuam prole
               amplificáre dignátus es: præsta, quǽsumus; ut, quam pie venerámur
@@ -33,7 +33,7 @@ export default function Page0924() {
               a peccátis ómnibus et captivitáte dǽmonis liberémur. Per eúndem
               Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que pela gloriosíssima Mãe do vosso Filho Vos dignastes
               aumentar a vossa Igreja com uma nova família, destinada a libertar
               os fiéis de Cristo do poder dos pagãos, concedei-nos, Vos rogamos,

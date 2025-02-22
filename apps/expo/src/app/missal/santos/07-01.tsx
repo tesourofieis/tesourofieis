@@ -35,34 +35,36 @@ export default function Page0701() {
           <Text className="em">Apoc. 5, 9-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Redemísti nos,Dómine, in sánguine tuo, ex omni tribu et lingua et
               pópulo et natióne: et fecísti nos Deo nostro regnum.{" "}
-              <Text className="text-base latin">Ps. 88, 2</Text> Misericórdias
-              Dómini in ætérnum cantábo: in generatiónem et generatiónem
-              annuntiábo veritátem tuam in ore meo. ℣. Gloria Patri...
+              <Text className="latin">Ps. 88, 2</Text> Misericórdias Dómini in
+              ætérnum cantábo: in generatiónem et generatiónem annuntiábo
+              veritátem tuam in ore meo.<Text className="versicle"> ℣. </Text>
+              Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Com o vosso Sangue, Senhor, nos resgatastes de todas as tribos, de
               todas as línguas, de todos os povos e de todas as nações; e
               fizestes de nós um reino para o nosso Deus.{" "}
-              <Text className="text-base vernacular">Sl. 88, 2</Text> Cantarei
-              eternamente as misericórdias do Senhor; de geração em geração a
-              minha boca publicará a vossa verdade. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 88, 2</Text> Cantarei eternamente
+              as misericórdias do Senhor; de geração em geração a minha boca
+              publicará a vossa verdade.<Text className="versicle"> ℣. </Text>
+              Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui unigénitum Fílium tuum mundi
               Redemptórem constituísti, ac ejus Sánguine placári voluísti:
               concéde, quǽsumus, salútis nostræ prétium sollémni cultu ita
               venerári, atque a præséntis vitæ malis ejus virtúte deféndi in
               terris; ut fructu perpétuo lætémur in cœlis. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente e eterno, que instituístes o vosso Filho
               Unigénito Redentor do mundo e quisestes ser aplacado com seu
               Sangue, concedei-nos a graça, Vos suplicamos, de honrarmos com
@@ -84,30 +86,31 @@ export default function Page0701() {
           <Text className="em">1 Jo. 5, 6 & 7-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hic est, qui venit per aquam et sánguinem, Jesus Christus: non in
-              aqua solum, sed in aqua et sánguine. ℣. Tres sunt, qui testimónium
+              aqua solum, sed in aqua et sánguine.
+              <Text className="versicle"> ℣. </Text>Tres sunt, qui testimónium
               dant in cœlo: Pater, Verbum et Spíritus Sanctus; et hi tres unum
               sunt. Et tres sunt, qui testimónium dant in terra: Spíritus, aqua
               et sanguis: et hi tres unum sunt.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Este é Jesus Cristo, que veio pela água e pelo sangue: não pela
-              água, somente, mas pela água e pelo sangue. ℣. Três são os que dão
+              água, somente, mas pela água e pelo sangue.
+              <Text className="versicle"> ℣. </Text>Três são os que dão
               testemunho no céu: o Pai, o Verbo e o Espírito Santo, e estes três
               são um só. E três são os que dão testemunho na terra: o espírito,
               a água e o sangue, e estes três são um só!
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">ibid., 9</Text> Si testimónium
-              hóminum accípimus, testimónium Dei majus est. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">ibid., 9</Text> Si testimónium hóminum
+              accípimus, testimónium Dei majus est. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">ibid., 9</Text> Se
-              recebemos o testemunho dos homens, maior é o testemunho de Deus.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">ibid., 9</Text> Se recebemos o
+              testemunho dos homens, maior é o testemunho de Deus. Aleluia.
             </Text>
           </View>
 
@@ -116,15 +119,15 @@ export default function Page0701() {
           <Text className="em">Jo. 19, 30-35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Cum accepísset Jesus acétum, dixit: Consummátum
               est. Et inclináto cápite trádidit spíritum. Judǽi ergo (quóniam
               Parascéve erat), ut non remanérent in cruce córpora sábbato (erat
@@ -136,7 +139,7 @@ export default function Page0701() {
               et contínuo exívit sanguis et aqua. Et qui vidit, testimónium
               perhíbuit; et verum est testimónium ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, havendo Jesus bebido o vinagre, disse: «Tudo está
               consumado!». E, inclinando a cabeça, entregou o Espírito. Porém os
               judeus (como aquele dia era o da Preparação), para que os corpos
@@ -156,12 +159,12 @@ export default function Page0701() {
           <Text className="em">1 Cor. 10, 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Calix benedictiónis, cui benedícimus, nonne communicátio sánguinis
               Christi est? et panis, quem frángimus, nonne participátio córporis
               Dómini est?
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O cálice de bênção, que nós benzemos, não é, porventura, a
               comunhão do Sangue de Cristo? E o pão, que nós partimos, não é a
               participação do Corpo do Senhor?
@@ -171,13 +174,13 @@ export default function Page0701() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Per hæc divína mystéria, ad novi, quǽsumus, Testaménti mediatórem
               Jesum accedámus: et super altária tua, Dómine virtútum,
               aspersiónem sánguinis mélius loquéntem, quam Abel, innovémus. Per
               eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos permitir, Senhor, que por estes divinos mystérios nos
               aproximemos de Jesus o mediador do Novo Testamento e que renovemos
               a efusão do seu Sangue sobre os vossos altares, ó Senhor dos
@@ -191,11 +194,11 @@ export default function Page0701() {
           <Text className="em">Heb. 9, 28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Christus semel oblítus est ad multórum exhauriénda peccáta:
               secúndo sine peccáto apparébit exspectántibus se in salútem.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Cristo ofereceu-se uma vez para apagar os pecados de muitos; em
               uma segunda vez Ele aparecerá não já para expiar os pecados, mas
               para salvar aqueles que O esperam.
@@ -205,12 +208,12 @@ export default function Page0701() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ad sacram, Dómine, mensam admíssi, háusimus aquas in gáudio de
               fóntibus Salvatóris: sanguis ejus fiat nobis, quǽsumus, fons aquæ
               in vitam ætérnam saliéntis: Qui tecum vivit...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo sido admitidos à sagrada mesa, Senhor, bebemos com alegria
               as águas nas fontes do Salvador; e, Vos suplicamos, permiti que
               seu Sangue se torne para nós numa fonte de água viva, brotando até

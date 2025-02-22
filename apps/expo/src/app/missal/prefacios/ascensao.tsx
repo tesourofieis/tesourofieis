@@ -16,7 +16,7 @@ export default function PageAscensao() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: per Christum, Dóminum nostrum. Qui post resurrectiónem suam
@@ -26,7 +26,7 @@ export default function PageAscensao() {
               Dominatiónibus cumque omni milítia cœléstis exércitus hymnum
               glóriæ tuæ cánimus, sine fine dicéntes:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Verdadeiramente é digno e justo, racional e salutar que em todos
               os lugares e sempre Vos rendamos graças, Senhor santo, Pai
               omnipotente, eterno Deus, por Jesus Cristo, nosso Senhor, que

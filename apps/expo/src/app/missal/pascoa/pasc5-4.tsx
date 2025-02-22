@@ -15,34 +15,34 @@ export default function PagePasc54() {
           <Text className="em">Act. 1, 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Viri Galilǽi, quid admirámini aspiciéntes in cœlum? allelúja:
               quemádmodum vidístis eum ascendéntem in cœlum, ita véniet,
               allelúja, allelúja, allelúja.{" "}
-              <Text className="text-base latin">Ps. 46, 2</Text> Omnes gentes,
-              pláudite mánibus: jubiláte Deo in voce exsultatiónis. ℣. Gloria
-              Patri...
+              <Text className="latin">Ps. 46, 2</Text> Omnes gentes, pláudite
+              mánibus: jubiláte Deo in voce exsultatiónis.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Varões galileus, porque estais a olhar, admirados, para o céu?
               Aleluia! Como O vistes subir para o céu, assim Ele virá: aleluia,
-              aleluia, aleluia.{" "}
-              <Text className="text-base vernacular">Sl. 46, 2 Ó</Text> povos,
-              batei palmas com júbilo: aclamai Deus com vossos hinos de alegria!
-              ℣. Glória ao Pai...
+              aleluia, aleluia. <Text className="vernacular">Sl. 46, 2 Ó</Text>{" "}
+              povos, batei palmas com júbilo: aclamai Deus com vossos hinos de
+              alegria!
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut, qui hodiérna die
               Unigénitum tuum, Redemptórem nostrum, ad cœlos ascendísse
               crédimus; ipsi quoque mente in cœléstibus habitémus. Per eúndem
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, assim como acreditamos que o vosso Filho
               Unigénito, nosso Redentor, subiu aos céus neste dia, assim também,
               Vos suplicamos, tenhamos a nossa morada em espírito lá no céu.
@@ -55,11 +55,9 @@ export default function PagePasc54() {
           <Text className="em">Act. 1, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Actuum Apostólorum.</Text>
-            <Text className="text-base vernacular">
-              Lição dos Actos dos Apóstolos.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Actuum Apostólorum.</Text>
+            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="latin">
               Primum quidem sermónem feci de ómnibus, o Theóphile, quæ cœpit
               Jesus facere et docére usque in diem, qua, præcípiens Apóstolis
               per Spíritum Sanctum, quos elégit, assúmptus est: quibus et
@@ -81,7 +79,7 @@ export default function PagePasc54() {
               aspiciéntes in cœlum? Hic Jesus, qui assúmptus est a vobis in
               cœlum, sic véniet, quemádmodum vidístis eum eúntem in cœlum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Já vos narrei no meu primeiro livro, ó Teófilo, tudo quanto Jesus
               fez e ensinou, até ao dia em que, após ter dado as suas instruções
               pelo Espírito Santo aos Apóstolos, que Ele escolhera, subiu aos
@@ -109,20 +107,22 @@ export default function PagePasc54() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 46, 6</Text> Ascéndit Deus
-              in jubilatióne, et Dóminus in voce tubæ. Allelúja. ℣.{" "}
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 46, 6</Text> Ascéndit Deus in
+              jubilatióne, et Dóminus in voce tubæ. Allelúja.
+              <Text className="versicle"> ℣. </Text>
               <Text className="em">Ps. 67, 18-19</Text> Dóminus in Sina in
               sancto, ascéndens in altum, captívam duxit captivitátem. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 46, 6</Text> Subiu Deus
-              ao céu no meio de aclamações de júbilo: o Senhor subiu ao som da
-              trombeta. Aleluia. ℣. <Text className="em">Sl. 67, 18-19</Text>O
-              Senhor do Sinai entrou no seu santuário; e, subindo «ao alto»,
-              levou consigo os cativos. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 46, 6</Text> Subiu Deus ao céu no
+              meio de aclamações de júbilo: o Senhor subiu ao som da trombeta.
+              Aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="em">Sl. 67, 18-19</Text>O Senhor do Sinai entrou
+              no seu santuário; e, subindo «ao alto», levou consigo os cativos.
+              Aleluia.
             </Text>
           </View>
 
@@ -131,15 +131,15 @@ export default function PagePasc54() {
           <Text className="em">Mc. 16, 14-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Marcum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Marcum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Marcos.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Marcos.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Recumbéntibus úndecim discípulis, appáruit illis
               Jesus: et exprobrávit incredulitátem eórum et durítiam cordis:
               quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit
@@ -154,7 +154,7 @@ export default function PagePasc54() {
               profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem
               confirmánte, sequéntibus signis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, estando à mesa os Onze discípulos, apareceu-lhes
               Jesus e repreendeu-os por causa da sua incredulidade e dureza de
               coração; pois não tinham acreditado naqueles que já haviam visto
@@ -177,10 +177,10 @@ export default function PagePasc54() {
           <Text className="em">Sl. 46, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ascéndit Deus in jubilatióne, et Dóminus in voce tubæ, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Subiu Deus no meio de aclamações jubilosas: o Senhor elevou-se ao
               som da trombeta, aleluia.
             </Text>
@@ -189,12 +189,12 @@ export default function PagePasc54() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súscipe, Dómine, múnera, quæ pro Fílii tui gloriósa censióne
               deférimus: et concéde propítius; ut a præséntibus perículis
               liberémur, et ad vitam per veniámus ætérnam. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai, Senhor, os dons que Vos oferecemos em memória da gloriosa
               Ascensão de vosso Filho e concedei-nos benigno que sejamos livres
               dos perigos presentes e alcancemos a vida eterna. Pelo mesmo nosso
@@ -207,11 +207,11 @@ export default function PagePasc54() {
           <Text className="em">Sl. 67, 33-34</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Psállite Dómino, qui ascéndit super cœlos cœlórum ad Oriéntem,
               allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Cantai louvores ao Senhor, que sobe no Oriente ao mais alto dos
               céus, aleluia.
             </Text>
@@ -220,12 +220,12 @@ export default function PagePasc54() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta nobis, quǽsumus, omnípotens et miséricors Deus: ut, quæ
               visibílibus mystériis suménda percépimus, invisíbili consequámur
               efféctu. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente e misericordioso, Vos suplicamos, permiti que
               sejamos participantes dos efeitos invisíveis dos mystérios em que
               visivelmente tomámos parte. Por nosso Senhor...

@@ -25,7 +25,8 @@ export default function Page0522Evora() {
             Exultemos todos no Senhor, celebrando a festa da Dedicação da Igreja
             Eborense, de cuja santificação se alegram os Anjos, que louvam o
             Filho de Deus. Aleluia, aleluia. Amei, Senhor, o esplendor da vossa
-            Casa e o lugar em que habita a vossa glória. ℣. Glória ao Pai...
+            Casa e o lugar em que habita a vossa glória.
+            <Text className="versicle"> ℣. </Text>Glória ao Pai...
             <Text className="h3">Oração</Text>Ó Deus, que quisestes reformar a
             Igreja Eborense na festividade do B. Mâncio, vosso discípulo e
             Mártir, Vos suplicamos que auxilieis com os dons celestes o vosso

@@ -34,21 +34,22 @@ export default function Page1129() {
           <Text className="em">Mt. 4, 18 & 19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam,
               et vocávit eos: Veníte post me: fáciam vos fíeri piscatóres
               hóminum.
-              <Text className="text-base vernacular">Ps. 18, 2</Text> probásti
-              Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat
-              firmaméntum. ℣. Gloria Patri...
+              <Text className="vernacular">Ps. 18, 2</Text> probásti Cœli
+              enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caminhando o Senhor ao longo do mar de Galileia, viu dois irmãos,
               Pedro e André e chamou-os dizendo: Vinde, segui-me: e farei de vós
               pescadores de homens.
-              <Text className="text-base vernacular">Sl. 18, 2</Text> probásti
-              Os céus proclamam a glória de Deus: e o firmamento publica as
-              obras das suas mãos. firmaméntum. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 18, 2</Text> probásti Os céus
+              proclamam a glória de Deus: e o firmamento publica as obras das
+              suas mãos. firmaméntum.<Text className="versicle"> ℣. </Text>
+              Glória ao Pai...
             </Text>
           </View>
 
@@ -65,14 +66,15 @@ export default function Page1129() {
           <Text className="em">Sl. 138, 17-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-              principátus eórum. ℣. Dinumerábo eos: et super arénam
-              multiplicabúntur.
+              principátus eórum.<Text className="versicle"> ℣. </Text>Dinumerábo
+              eos: et super arénam multiplicabúntur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Têm sido singularmente honrados os vossos amigos, ó Deus, muito se
-              tem fortalecido a sua dignidade de príncipes da Igreja. ℣.
+              tem fortalecido a sua dignidade de príncipes da Igreja.
+              <Text className="versicle"> ℣. </Text>
               Contá-los-eis: e mais que a areia se multiplicarão.
             </Text>
           </View>
@@ -82,15 +84,15 @@ export default function Page1129() {
           <Text className="em">Jo, 1, 35-51</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Stabat Joánnes, et ex discípulis ejus duo. Et
               respíciens Jesum ambulántem, dicit: Ecce Agnus Dei. Et audiérunt
               eum duo discípuli loquéntem, et secúti sunt Jesum. Convérsus autem
@@ -119,7 +121,7 @@ export default function Page1129() {
               apértum, et Angelos Dei ascendéntes et descendéntes supra Fílium
               hóminis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, estava João com dois dos seus discípulos. E vendo a
               Jesus que passava disse: Eis ali o cordeiro de Deus. Então, os
               dois discípulos, ouvindo-o assim falar, foram logo seguindo a
@@ -154,12 +156,12 @@ export default function Page1129() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacrándum tibi, Dómine, munus offérimus: quo beáti Andréæ Apóstoli
               sollémnia recoléntes, purificatiónem quoque nostris méntibus
               implorámus. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, nós Vos oferecemos os dons que Vos devem ser consagrados,
               e com os quais celebramos a solenidade do Bem-aventurado Apóstolo
               André, implorando ao mesmo tempo a purfificação de nossas almas.
@@ -172,11 +174,11 @@ export default function Page1129() {
           <Text className="em">Jo. 1, 41 & 42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dicit Andréas Simóni fratri suo: Invénimus Messíam, qui dícitur
               Christus: et addúxit eum ad Jesum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Disse André a Simão seu irmão: Encontrámos o Messias que se chama
               Cristo: e o levou a Jesus.
             </Text>
@@ -185,12 +187,12 @@ export default function Page1129() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Percéptis, Dómine, sacraméntis supplíciter exorámus: ut,
               intercedénte beáto Andréa Apostolo tuo, quæ pro illíus veneránda
               gérimus passióne, nobis profíciant ad medélam. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Tendo recebido, Senhor, os mystérios sagrados, suplices Vos
               pedimos que, pela intercessão de vosso Bem-aventurado Apóstolo
               André, o sacrifício por nós celebrado em honra de seu martyrio nos

@@ -15,21 +15,21 @@ export default function PagePent90() {
           <Text className="em">Sl. 53, 6-7</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ecce, Deus adjuvat me, et Dóminus suscéptor est ánimæ meæ: avérte
               mala inimícis meis, et in veritáte tua dispérde illos, protéctor
-              meus, Dómine.{" "}
-              <Text className="text-base latin">Ps. ibid., 3</Text> Deus, in
-              nómine tuo salvum me fac: et in virtúte tua libera me. ℣. Gloria
-              Patri...
+              meus, Dómine. <Text className="latin">Ps. ibid., 3</Text> Deus, in
+              nómine tuo salvum me fac: et in virtúte tua libera me.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eis que Deus vem em meu auxílio: eis que o Senhor é o sustentáculo
               da minha alma! Lançai, pois, sobre os meus inimigos, ó Deus, meu
               protector, o mal que me querem fazer; e, conforme a vossa palavra
               verdadeira, exterminai-os.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 3</Text> Ó Deus,
-              pelo vosso nome, salvai-me; e, pelo vosso poder, livrai-me. ℣.
+              <Text className="vernacular">Sl. ibid., 3</Text> Ó Deus, pelo
+              vosso nome, salvai-me; e, pelo vosso poder, livrai-me.
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -37,12 +37,12 @@ export default function PagePent90() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Páteant aures misericórdiæ tuæ, Dómine, précibus supplicántium:
               et, ut peténtibus desideráta concédas; fac eos quæ tibi sunt
               plácita, postuláre. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que os ouvidos da vossa misericórdia, Senhor, sejam atentos às
               preces dos vossos suplicantes; e, para que lhes concedais o que
               Vos suplicam, inspirai-os a que Vos peçam o que seja do vosso
@@ -55,13 +55,13 @@ export default function PagePent90() {
           <Text className="em">1 Cor. 10, 6-13</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fatres: Non simus concupiscéntes malórum, sicut et illi
               concupiérunt. Neque idolólatræ efficiámini, sicut quidam ex ipsis:
               quemádmodum scriptum est: Sedit pópulus manducáre et bíbere, et
@@ -77,7 +77,7 @@ export default function PagePent90() {
               supra id, quod potéstis, sed fáciet étiam cum tentatióne
               provéntum, ut póssitis sustinére.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Não sejamos concupiscentes das coisas más, como
               nossos antepassados, nem vos torneis idólatras, como alguns deles,
               a respeito dos quais está escrito: «Assentou-se o povo para comer
@@ -101,25 +101,26 @@ export default function PagePent90() {
           <Text className="em">Sl. 8, 2</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dómine, Dóminus noster, quam admirábile est nomen tuum in universa
-              terra! ℣. Quóniam eleváta est magnificéntia tua super cœlos.
+              terra!<Text className="versicle"> ℣. </Text>Quóniam eleváta est
+              magnificéntia tua super cœlos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Senhor, nosso Deus, como é admirável o vosso nome em todo o
-              universo. ℣. Vossa magnificência eleva-se sobre os céus!
+              universo.<Text className="versicle"> ℣. </Text>Vossa magnificência
+              eleva-se sobre os céus!
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 58, 2</Text> Eripe me de
-              inimícis meis, Deus meus: et ab insurgéntibus in me líbera me.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 58, 2</Text> Eripe me de inimícis
+              meis, Deus meus: et ab insurgéntibus in me líbera me. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 58, 2</Text> Livrai-me
-              das mãos dos meus inimigos, ó meu Deus; livrai-me daqueles que se
-              insurgem contra mim. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 58, 2</Text> Livrai-me das mãos
+              dos meus inimigos, ó meu Deus; livrai-me daqueles que se insurgem
+              contra mim. Aleluia.
             </Text>
           </View>
 
@@ -128,15 +129,15 @@ export default function PagePent90() {
           <Text className="em">Lc. 19, 41-47</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Cum appropinquáret Jesus Jerúsalem, videns
               civitátem, flevit super illam, dicens: Quia si cognovísses et tu,
               et quidem in hac die tua, quæ ad pacem tibi, nunc autem abscóndita
@@ -149,7 +150,7 @@ export default function PagePent90() {
               Quia domus mea domus oratiónis est. Vos autem fecístis illam
               speluncam latrónum. Et erat docens cotídie in templo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, havendo Jesus chegado próximo de Jerusalém e vendo
               esta cidade, chorou sobre ela, dizendo: «Ah! se tu, ao menos neste
               dia, que te foi dado, conhecesses o que te pode dar a paz!... Mas,
@@ -171,11 +172,11 @@ export default function PagePent90() {
           <Text className="em">Sl. 18, 9, 10, 11 & 12</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Justítiæ Dómini rectæ, lætificántes corda, et judícia ejus
               dulcióra super mel et favum: nam et servus tuus custódit ea.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Os preceitos do Senhor são justos: alegram o coração. Seus juízos
               são mais doces do que o mel e o favo do mel. Assim, pois, o vosso
               servo, Senhor, guardá-los-á.
@@ -185,12 +186,12 @@ export default function PagePent90() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Concéde nobis, quǽsumus, Dómine, hæc digne frequentáre mystéria:
               quia, quóties hujus hóstiæ commemorátio celebrátur, opus nostræ
               redemptiónis exercétur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, Senhor, Vos suplicamos, a graça de recebermos
               frequente e dignamente estes mystérios, pois cada vez que se
               celebra este sacrifício opera-se o fruto da nossa redenção. Por
@@ -203,11 +204,11 @@ export default function PagePent90() {
           <Text className="em">Jo. 6, 57</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui mandúcat meam carnem et bibit meum sánguinem, in me manet et
               ego in eo, dicit Dóminus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aquele que come a minha Carne e bebe o meu Sangue permanece em mim
               e Eu permaneço nele, diz o Senhor.
             </Text>
@@ -216,11 +217,11 @@ export default function PagePent90() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tui nobis, quǽsumus, Dómine, commúnio sacraménti, et
               purificatiónem cónferat, et tríbuat unitátem. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, Vos suplicamos, que a nossa comunhão deste
               sacramento cada vez mais nos purifique e una a Vós. Por nosso
               Senhor...

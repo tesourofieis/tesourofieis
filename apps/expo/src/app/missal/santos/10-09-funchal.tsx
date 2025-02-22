@@ -16,7 +16,7 @@ export default function Page1009Funchal() {
             Um grande prodígio apareceu no céu: Uma mulher vestida, como o sol,
             tendo a lua debaixo de seus pés e sobre a cabeça uma coroa com doze
             estrelas! Ergui os meus olhos para o Monte, donde me vem o auxílio.
-            ℣. Glória ao Pai...
+            <Text className="versicle"> ℣. </Text>Glória ao Pai...
           </Text>
           <Text className="h3">Oração</Text>
           <Text className="text-base">

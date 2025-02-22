@@ -46,12 +46,12 @@ export default function Page0122() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte
               nostra reos nos esse cognóscimus, beatórum Mártyrum tuórum
               Vincéntii et Anastásii intercessióne liberémur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, dignai-Vos ouvir as nossas súplicas, a fim de que,
               reconhecendo-nos réus diante de Vós pelas nossas iniquidades,
               sejamos livres delas por intercessão dos vossos B. B. Mártires
@@ -62,12 +62,12 @@ export default function Page0122() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
               tuórum tibi grata sint honóre Justórum, et nobis salutária, te
               miseránte, reddántur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos oferecemos estes dons da nossa devoção; e que em
               consideração dos vossos Santos eles Vos sejam agradáveis, e pela
               vossa misericórdia nos sejam salutares. Por nosso Senhor...
@@ -77,12 +77,12 @@ export default function Page0122() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
               intercedéntibus beátis Martýribus tuis Vincéntio et Anastásio, per
               hæc contra ómnia advérsa muniámur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, Vos suplicamos, fazei que, havendo nós
               recebido os alimentos celestiais, sejamos fortalecidos contra
               todas as adversidades por intercessão dos vossos B. B. Mártires

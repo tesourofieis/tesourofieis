@@ -32,20 +32,20 @@ export default function Page0502() {
           <Text className="em">Ecl. 15, 5</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
               sapiéntiæ et intelléctus: stolam glóriæ índuit eum, allelúja,
-              allelúja. <Text className="text-base latin">Ps. 91, 2</Text> Bonum
-              est confitéri Dómino: et psállere nómini tuo, Altíssime. ℣. Gloria
-              Patri...
+              allelúja. <Text className="latin">Ps. 91, 2</Text> Bonum est
+              confitéri Dómino: et psállere nómini tuo, Altíssime.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Abriu-lhe o Senhor a boca no meio da Igreja e encheu-o com o
               espírito da sabedoria e da inteligência: cobriu-o com o manto da
               glória, aleluia, aleluia.{" "}
-              <Text className="text-base vernacular">Sl. 91, 2</Text> É bom
-              louvar o Senhor e cantar o vosso nome, ó Altíssimo. ℣. Glória ao
-              Pai...
+              <Text className="vernacular">Sl. 91, 2</Text> É bom louvar o
+              Senhor e cantar o vosso nome, ó Altíssimo.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
@@ -61,13 +61,13 @@ export default function Page0502() {
           <Text className="em">2 Cor. 4, 5-14</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Non nosmetípsos prædicámus, sed Jesum Christum, Dóminum
               nostrum: nos autem servos vestros per Jesum: quóniam Deus, qui
               dixit de ténebris lucem splendéscere, ipse illúxit in córdibus
@@ -86,7 +86,7 @@ export default function Page0502() {
               qui suscitávit Jesum, et nos cum Jesu suscitábit et constítuet
               vobíscum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Não nos pregamos a nós próprios, mas a Jesus Cristo,
               nosso Senhor. Consideramo-nos como vossos servos por Jesus, pois o
               mesmo Deus, que fez sair a luz das trevas, fez também brilhar a
@@ -111,21 +111,23 @@ export default function Page0502() {
           </View>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 109, 4</Text> Tu es sacérdos
-              in ætérnum, secúndum órdinem Melchísedech. Allelúja. ℣.{" "}
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 109, 4</Text> Tu es sacérdos in
+              ætérnum, secúndum órdinem Melchísedech. Allelúja.
+              <Text className="versicle"> ℣. </Text>
               <Text className="em">Jac. 1, 12</Text> Beátus vir, qui suffert
               tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
               Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 109, 4</Text> Tu és
-              sacerdote para sempre, segundo a ordem de Melquisedeque! Aleluia.
-              ℣. <Text className="em">Tg. 1, 12</Text> Bem-aventurado o varão
-              que sofre tentação; pois, quando acabar a tentação, receberá a
-              coroa da vida. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 109, 4</Text> Tu és sacerdote
+              para sempre, segundo a ordem de Melquisedeque! Aleluia.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="em">Tg. 1, 12</Text> Bem-aventurado o varão que
+              sofre tentação; pois, quando acabar a tentação, receberá a coroa
+              da vida. Aleluia.
             </Text>
           </View>
 
@@ -141,11 +143,11 @@ export default function Page0502() {
           <Text className="em">Sl. 88, 21-22</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Encontrei o meu servo David e ungi-o com meu óleo sagrado: e a
               minha mão o auxiliará e o meu braço o fortalecerá, aleluia.
             </Text>
@@ -156,11 +158,11 @@ export default function Page0502() {
           <Text className="em">Mt. 10, 27</Text>
 
           <View className="side-by-side not-content">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et
               quod in aure audítis, prædicáte super tecta, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aquilo que vos digo ao ouvido pregai-o sobre os tectos, aleluia.
             </Text>
           </View>

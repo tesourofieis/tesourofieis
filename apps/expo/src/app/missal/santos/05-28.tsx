@@ -29,14 +29,14 @@ export default function Page0528() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui Anglórum gentes, prædicatióne et miráculis beáti
               Augustíni Confessóris tui atque Pontíficis, veræ fídei luce
               illustráre dignátus es: concéde; ut, ipso interveniénte, errántium
               corda ad veritátis tuæ rédeant unitátem, et nos in tua simus
               voluntáte concórdes. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que pela pregação e milagres do B. Agostinho, vosso
               Confessor e Pontífice, Vos dignastes ilustrar com a luz da
               verdadeira fé a nação inglesa, concedei-nos por sua intercessão
@@ -51,13 +51,13 @@ export default function Page0528() {
           <Text className="em">1 Ts. 2, 2-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Fidúciam habúimus in Deo nostro loqui ad vos Evangélium
               Dei in multa sollicitúdine. Exhortátio enim nostra non de erróre
               neque de immundítia neque in dolo, sed sicut probáti sumus a Deo,
@@ -73,7 +73,7 @@ export default function Page0528() {
               fratres, labóris nostri et fatigatiónis: nocte ac die operántes,
               ne quem vestrum gravarémus, prædicávimus in vobis Evangélium Dei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Tivemos confiança em o nosso Deus de vos pregar o
               Evangelho com muita solicitude, pois a nossa pregação não foi
               baseada nem no erro, nem em nenhuma intenção viciosa, nem na
@@ -103,13 +103,13 @@ export default function Page0528() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacrifícium tibi offérimus. Dómine, in sollemnitáte beáti
               Augustíni Pontíficis et Confessóris tui, humíliter deprecántes: ut
               oves, quæ periérunt, ad unum ovile revérsæ, hoc salutári pábulo
               nutriántur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos oferecemos, Senhor, este sacrifício na solenidade do B.
               Agostinho, vosso Pontífice e Confessor, suplicando-Vos
               humildemente que as ovelhas perdidas, tendo regressado ao único
@@ -121,12 +121,12 @@ export default function Page0528() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hóstia salutári refécti: te. Dómine, súpplices exorámus; ut eadem,
               beáti Augustíni interveniénte suffrágio, in omni loco nómini tuo
               júgiter immolétur. Per nominum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com a hóstia salutar, Senhor, Vos pedimos humildemente
               que pela intercessão dos sufrágios do B. Agostinho ela seja
               imolada em honra do vosso nome em todos os lugares e

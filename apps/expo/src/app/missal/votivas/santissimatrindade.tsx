@@ -24,19 +24,19 @@ export default function PageSantissimatrindade() {
           <Text className="em">2 Cor. 13, 11 & 13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Gaudéte, perfécti estóte, exhortámini, idem sápite, pacem
               habéte, et Deus pacis et dilectiónis erit vobíscum. Grátia Dómini
               nostri Jesu Christi, et cáritas Dei, et communicátio Sancti
               Spíritus sit cum ómnibus vobis. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Regozijai-vos, sede perfeitos» confortai-vos
               reciprocamente, sede unidos em vossos sentimentos, vivei em paz; e
               Deus da paz e do amor permanecerá convosco. Que a graça de nosso
@@ -50,27 +50,27 @@ export default function PageSantissimatrindade() {
           <Text className="em">Dan. 3, 55-56</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedíctus es, Dómine, qui íntuens abýssos, et sedes super
-              Chérubim. ℣. Benedíctus es, Dómine, in firmaménto cœli, et
-              laudábilis in sǽcula.
+              Chérubim.<Text className="versicle"> ℣. </Text>Benedíctus es,
+              Dómine, in firmaménto cœli, et laudábilis in sǽcula.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, que estais assentado acima dos Querubins e cujo olhar
-              penetra na profundeza dos abysmos, sois bendito! ℣. Sim, Senhor,
-              sois bendito no firmamento do céu; e sois digno de louvor em todos
-              os séculos.
+              penetra na profundeza dos abysmos, sois bendito!
+              <Text className="versicle"> ℣. </Text>Sim, Senhor, sois bendito no
+              firmamento do céu; e sois digno de louvor em todos os séculos.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">ibid., 52</Text> Benedíctus es,
-              Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">ibid., 52</Text> Benedíctus es, Dómine,
+              Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">ibid., 52</Text> Sois
-              bendito, Senhor, Deus dos nossos pais: e sois digno de louvor em
-              todos os séculos.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">ibid., 52</Text> Sois bendito,
+              Senhor, Deus dos nossos pais: e sois digno de louvor em todos os
+              séculos.
             </Text>
           </View>
 
@@ -82,20 +82,23 @@ export default function PageSantissimatrindade() {
           <Text className="h3">Trato</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Te Deum, Patrem ingénitum, te, Fílium unigénitum, te, Spíritum
               Sanctum Paráclitum, sanctam et indivíduam Trinitátem, toto corde
-              confitémur, laudámus atque benedícimus. ℣. Quóniam magnus es tu,
-              et fáciens mirabília: tu es Deus solus. ℣. Tibi laus, tibi glória,
-              tibi gratiárum áctio in sǽcula sempitérna, o beáta Trinitas.
+              confitémur, laudámus atque benedícimus.
+              <Text className="versicle"> ℣. </Text>Quóniam magnus es tu, et
+              fáciens mirabília: tu es Deus solus.
+              <Text className="versicle"> ℣. </Text>Tibi laus, tibi glória, tibi
+              gratiárum áctio in sǽcula sempitérna, o beáta Trinitas.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A Vós, ó Deus Pai, que fostes criado; a Vós, ó Filho Unigénito; a
               Vós, ó Espírito Santo Paráclito; a Vós, ó Santa e indivisível
-              Trindade: adoramos com todo o coração, louvamos bendizemos. ℣.
+              Trindade: adoramos com todo o coração, louvamos bendizemos.
+              <Text className="versicle"> ℣. </Text>
               Pois Vós sois imenso, Senhor, praticais prodígios e sois o único
-              Deus. ℣. A Vós, ó beatíssima Trindade, louvor, glória e acção de
-              graças em todos os séculos.
+              Deus.<Text className="versicle"> ℣. </Text>A Vós, ó beatíssima
+              Trindade, louvor, glória e acção de graças em todos os séculos.
             </Text>
           </View>
 
@@ -104,18 +107,19 @@ export default function PageSantissimatrindade() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Dan. 3, 52</Text> Benedíctus es,
-              Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
-              ℣. Benedicámus Patrem et Fílium cum Sancto Spíritu. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Dan. 3, 52</Text> Benedíctus es, Dómine,
+              Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
+              <Text className="versicle"> ℣. </Text>Benedicámus Patrem et Fílium
+              cum Sancto Spíritu. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Dn. 3, 52</Text> Sois
-              bendito, Senhor, Deus dos nossos e digno de louvor em todos os
-              séculos. Aleluia. ℣. Bendigamos o Pai, e o Filho com o Espírito
-              Santo. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Dn. 3, 52</Text> Sois bendito,
+              Senhor, Deus dos nossos e digno de louvor em todos os séculos.
+              Aleluia.<Text className="versicle"> ℣. </Text>Bendigamos o Pai, e
+              o Filho com o Espírito Santo. Aleluia.
             </Text>
           </View>
 
@@ -124,15 +128,15 @@ export default function PageSantissimatrindade() {
           <Text className="em">Jo. 15, 26-27; 16, 1-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Cum vénerit
               Paráclitus, quem ego mittam vobis a Patre, Spíritum veritátis, qui
               a Patre procédit, ille testimónium perhibébit de me: et vos
@@ -143,7 +147,7 @@ export default function PageSantissimatrindade() {
               neque me. Sed hæc locútus sum vobis, ut, cum vénerit hora eórum,
               reminiscámini, quia ego dixi vobis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: Quando vier o
               Paráclito, o Espírito da verdade que procede do Pai, que Eu vos
               enviarei do Pai. Ele dará testemunho de mim, e vós, que estais

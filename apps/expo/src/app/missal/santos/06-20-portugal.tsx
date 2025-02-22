@@ -18,7 +18,7 @@ export default function Page0620Portugal() {
             O Senhor dirigirá ao seu povo palavras de paz: e igualmente assim
             falará aos seus fiéis e àqueles que se converterem a Ele.
             Abençoastes, Senhor, a vossa terra e fizestes cessar o cativeiro de
-            Jacob. ℣. Glória ao Pai...
+            Jacob.<Text className="versicle"> ℣. </Text>Glória ao Pai...
           </Text>
           <Text className="h3">Oração</Text>
           <Text className="text-base">

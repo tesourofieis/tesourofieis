@@ -13,13 +13,13 @@ export default function Page28Paciencia() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui Unigéniti tui patiéntia antíqui hostis contrivísti
               supérbiam: da nobis, quǽsumus, quæ idem pie pro nobis pértulit,
               digne recólere; sicque, exémplo ejus, nobis adversántia
               æquanímiter toleráre. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que, em virtude da paciência que o vosso Filho Unigénito
               praticou, esmagastes o «homem antigo», permiti, Vos suplicamos,
               que meditemos gravemente em tudo quanto Jesus sofreu com tanta
@@ -32,12 +32,12 @@ export default function Page28Paciencia() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera nostræ oblatiónis, quǽsumus, Dómine, súscipe placátus: quæ,
               ut nobis patiéntiæ donum largíri dignéris, majestáti tuæ devota
               offérimus actióne. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, recebei os dons da nossa oblação, e
               deixai-Vos aplacar; oferecemos devotadamente estes dons à vossa
               majestade, para que Vos digneis conceder-nos a virtude da
@@ -48,13 +48,13 @@ export default function Page28Paciencia() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mystéria, Dómine, sacrosáncta, quæ súmpsimus, amíssam nobis,
               quǽsumus, reconcílient grátiam: atque munus patiéntiæ in illátis
               ómnibus, semper et ubíque protegéndo, impértiant. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos imploramos, permiti que os sacrossantos mystérios que
               recebemos nos restaurem na graça, que havíamos perdido, e que,
               fazendo-nos sentir a vossa protecção, nos concedam sempre e em

@@ -15,34 +15,34 @@ export default function Page1007() {
           <Text className="h3">Intróito</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et
-              colláudant Fílium Dei.{" "}
-              <Text className="text-base latin">Ps. 44, 2</Text> Eructávit cor
-              meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
+              colláudant Fílium Dei. <Text className="latin">Ps. 44, 2</Text>{" "}
+              Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Alegremo-nos todos no Senhor, no dia em que celebramos a festa em
               honra da B. Virgem Maria: os Anjos regozijam-se com esta festa e
               louvam unissonamente o Filho de Deus.{" "}
-              <Text className="text-base vernacular">Sl. 44, 2</Text> Meu
-              coração exprimiu uma excelente palavra: «Consagro ao Rei as minhas
-              obras»! ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 44, 2</Text> Meu coração exprimiu
+              uma excelente palavra: «Consagro ao Rei as minhas obras»!
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam
               nobis salútis ætérnæ prǽmia comparávit: concéde, quǽsumus; ut, hæc
               mystéria sacratíssimo beátæ Maríæ Vírginis Rosário recoléntes, et
               imitémur, quod cóntinent, et quod promíttunt, assequámur. Per
               eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, cujo Filho Unigénito, pela sua vida, morte e ressurreição,
               nos alcançou os prémios da salvação eterna, fazei, Vos rogamos,
               que, honrando nós estes mystérios pelo SS. Rosário da B. Virgem
@@ -56,11 +56,9 @@ export default function Page1007() {
           <Text className="em">Pr. 8, 22-24 & 32-35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Dóminus possédit me in inítio viárum suárum, ántequam quidquam
               fáceret a princípio. Ab ætérno ordináta sum et ex antíquis,
               ántequam terra fíeret. Nondum erant abýssi, et ego jam concépta
@@ -70,7 +68,7 @@ export default function Page1007() {
               cotídie, et obsérvat ad postes óstii mei. Qui me invénerit,
               invéniet vitam et háuriet salútem a Dómino.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor possuiu-me desde o princípio das suas vias e ainda antes
               de criar qualquer coisa, no princípio, antes da origem da terra.
               Quando fui concebido, ainda não existiam os abysmos. Portanto,
@@ -89,25 +87,27 @@ export default function Page1007() {
           <Text className="em">Sl. 44, 5; 11 & 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Propter veritátem et mansuetúdinem et justítiam, et dedúcet te
-              mirabíliter déxtera tua. ℣. Audi, fília, et vide, et inclína aurem
-              tuam: quia concupívit Rex spéciem tuam.
+              mirabíliter déxtera tua.<Text className="versicle"> ℣. </Text>
+              Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex
+              spéciem tuam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Reinai pela verdade, mansidão e justiça: e a vossa dextra vos
-              conduzirá admiravelmente. ℣. Ouvi, minha filha, e vede; inclinai o
-              vosso ouvido, pois o Rei está extasiado com vossa formosura!
+              conduzirá admiravelmente.<Text className="versicle"> ℣. </Text>
+              Ouvi, minha filha, e vede; inclinai o vosso ouvido, pois o Rei
+              está extasiado com vossa formosura!
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Sollémnitas gloriósæ Vírginis Maríæ ex
-              sémine Abrahæ, ortæ de tribu Juda, clara ex stirpe David.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              Sollémnitas gloriósæ Vírginis Maríæ ex sémine Abrahæ, ortæ de
+              tribu Juda, clara ex stirpe David. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Eis a solenidade da gloriosa Virgem Maria: da
-              raça de Abraão, da geração de Judá e da nobre linhagem de David.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Eis a
+              solenidade da gloriosa Virgem Maria: da raça de Abraão, da geração
+              de Judá e da nobre linhagem de David. Aleluia.
             </Text>
           </View>
 
@@ -116,15 +116,15 @@ export default function Page1007() {
           <Text className="em">Lc. 1, 26-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Missus est Angelus Gábriel a Deo in civitátem
               Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui
               nomen erat Joseph, de domo David, et nomen Vírginis María. Et
@@ -145,7 +145,7 @@ export default function Page1007() {
               omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi
               secúndum verbum tuum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da
               Galileia, chamada Nazaré, a uma Virgem, desposada com um varão,
               cujo nome era José, da casa de David; e o nome da Virgem era
@@ -174,12 +174,12 @@ export default function Page1007() {
           <Text className="em">Ecl. 24, 25; 39, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In me grátia omnis viæ et veritátis, in me omnis spes vitæ et
               virtútis: ego quasi rosa plantáta super rivos aquárum
               fructificávi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Em mim reside toda a graça dos caminhos e da verdade; em mim
               reside toda a esperança da vida e da virtude! Eu floresci, como a
               roseira plantada nas margens das ribeiras!
@@ -189,13 +189,13 @@ export default function Page1007() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Fac nos, quǽsumus, Dómine, his munéribus offeréndis conveniénter
               aptári: et per sacratíssimi Rosárii mystéria sic vitam, passiónem
               et glóriam Unigéniti tui recólere; ut ejus digni promissiónibus
               efficiámur: Qui tecum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, Vos suplicamos, que estejamos convenientemente
               preparados para Vos apresentar estas ofertas; e que pelos
               mystérios do SS. Rosário honremos de tal sorte a vida, a paixão e
@@ -209,12 +209,12 @@ export default function Page1007() {
           <Text className="em">Ecl. 39, 19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Floréte, flores, quasi lílium, et date odórem, et frondéte in
               grátiam, collaudáte cánticum, et benedícite Dóminum in opéribus
               suis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fazei despontar a vossa flor, como um lírio; exalai o vosso
               perfume; lançai ramos graciosos; cantai hinos de louvor; e
               bendizei o Senhor nas suas obras.
@@ -224,13 +224,13 @@ export default function Page1007() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacratíssimæ Genetrícis tuæ, cujus Rosárium celebrámus, quǽsumus,
               Dómine, précibus adjuvémur: ut et mysteriórum, quæ cólimus, virtus
               percipiátur; et sacramentórum, quæ súmpsimus, obtineátur efféctus:
               Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Possamos nós, Senhor, Vos rogamos, ser auxiliados pelas preces da
               vossa Santíssima Mãe, cujo Rosário celebramos, a fim de que
               obtenhamos as graças inerentes aos mystérios, que comemoramos, e o

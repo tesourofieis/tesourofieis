@@ -25,14 +25,14 @@ export default function Page0930() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui Ecclésiæ tuæ in exponéndis sacris Scriptúris beátum
               Hierónymum, Confessórem tuum, Doctórem máximum providére dignátus
               es: præsta, quǽsumus; ut, ejus suffragántibus méritis, quod ore
               simul et ópere dócuit, te adjuvánte, exercére valeámus. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que para explicar as Sagradas Escrituras Vos dignastes
               prover a vossa Igreja com um eminente Doutor na pessoa do vosso B.
               confessor Jerónimo, concedei-nos, Vos suplicamos. que pelos
@@ -45,13 +45,13 @@ export default function Page0930() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente
               servíre: ut múnera, quæ deférimus, interveniénte beáto Hierónymo
               Confessóre tuo, et medélam nobis operéntur et glóriam. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Pela virtude destes dons, Senhor, concedei-nos a graça de Vos
               servirmos com inteira liberdade de espírito, a fim de que os dons,
               que Vos apresentamos, nos alcancem, por intercessão do vosso B.
@@ -63,12 +63,12 @@ export default function Page0930() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Repleti alimónia cœlésti, quǽsumus, Dómine: ut, interveniénte
               beáto Hierónymo Confessóre tuo, misericórdiæ tuæ grátiam cónsequi
               mereámur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com o alimento celestial, permiti, Senhor, Vos rogamos,
               que pela intercessão do vosso B. Confessor Jerónimo mereçamos
               conseguir a graça da vossa misericórdia. Por nosso Senhor...

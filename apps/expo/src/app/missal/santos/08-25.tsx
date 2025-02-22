@@ -26,13 +26,13 @@ export default function Page0825() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Ludovícum Confessórem tuum de terréno regno ad
               cœléstis regni glóriam transtulísti: ejus, quǽsumus, méritis et
               intercessióne; Regis regum Jesu Christi, Fílii tui, fácias nos
               esse consórtes: Qui tecum vivit et regnat...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que trasladastes o B. Luís, vosso Confessor, do reino
               terrestre para a glória do reino celestial, humildemente Vos
               suplicamos, pelos seus méritos e intercessão, que um dia nos
@@ -46,11 +46,9 @@ export default function Page0825() {
           <Text className="em">Sb. 10, 10-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum
               Dei, et dedit illi sciéntiam sanctórum: honestávit illum in
               labóribus, et complévit labores illíus. In fraude circumveniéntium
@@ -64,7 +62,7 @@ export default function Page0825() {
               maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus,
               Deus noster.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor conduziu o justo por caminhos direitos; mostrou-lhe o
               reino de Deus; transmitiu-lhe a ciência das coisas santas;
               enriqueceu-o nos seus trabalhos; e fez frutificar esses seus
@@ -86,15 +84,15 @@ export default function Page0825() {
           <Text className="em">Lc. 19, 12-26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
               quidam nóbilis ábiit in regionem longínquam accípere sibi regnum,
               et revérti. Vocátis autem decem servis suis, dedit eis decem mnas,
@@ -119,7 +117,7 @@ export default function Page0825() {
               abundábit: ab eo autem, qui non habet, et, quod habet, auferétur
               ab eo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, Jesus disse aos seus discípulos esta parábola:
               «Certo homem de linhagem nobre partiu para um país longínquo, a
               fim de conseguir a posse desse reino e voltar depois. Chamou,
@@ -152,13 +150,13 @@ export default function Page0825() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, sicut beátus Ludovícus
               Conféssor tuus, spretis mundi oblectaméntis, soli Regi Christo
               placére stúduit; ita ejus orátio nos tibi reddat accéptos. Per
               eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, Vos suplicamos, fazei que, assim como o B.
               Luís, vosso Confessor, desprezando as delícias do mundo só
               procurou agradar a Cristo-Rei, assim também a sua oração nos torne
@@ -169,12 +167,12 @@ export default function Page0825() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Confessórem tuum Ludovícum mirificásti in terris,
               et gloriósum in cœlis fecísti: eúndem, quǽsumus, Ecclésiæ tuæ
               constítue defensórem. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que engrandecestes na terra e glorificastes no céu o B.
               Luís, vosso Confessor, constituí-o, Vo-lo pedimos, defensor da
               vossa Igreja. Por nosso Senhor...

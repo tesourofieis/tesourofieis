@@ -17,33 +17,34 @@ export default function Page1226() {
           <Text className="em">Sl. 118, 23, 86 & 23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sedérunt príncipes, et advérsum me loquebántur: et iníqui
               persecúti sunt me: ádjuva me, Dómine, Deus meus, quia servus tuus
               exercebátur in tuis justificatiónibus.{" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Beati
-              immaculáti in via, qui ámbulant in lege Dómini. ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 1</Text> Beati immaculáti in
+              via, qui ámbulant in lege Dómini.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Reuniram-se os príncipes em assembleia e pronunciaram-se contra
               mim: e os maus perseguiram-me injustamente: Auxiliai-me, Senhor,
               meu Deus, pois o vosso servo tem observado os vossos ensinos.{" "}
-              <Text className="text-base vernacular">Ps. ibid., 1</Text>{" "}
-              Bem-aventurados os que são rectos nos seus caminhos e cumprem a
-              Lei do Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Ps. ibid., 1</Text> Bem-aventurados
+              os que são rectos nos seus caminhos e cumprem a Lei do Senhor.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da nobis, quǽsumus, Dómine, imitári quod cólimus: ut discámus et
               inimícos dilígere; quia ejus natalícia celebrámus, qui novit étiam
               pro persecutóribus exoráre Dóminum nostrum Jesum Christum, Fílium
               tuum: Qui tecum vivit...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, Senhor, Vos imploramos, a graça de imitar aquele que
               honramos, a fim de que neste dia aprendamos a amar os nossos
               inimigos, pois que celebramos a festa daquele que soube rogar
@@ -57,11 +58,9 @@ export default function Page1226() {
           <Text className="em">Act. 6, 8-10; 7, 54-59</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Lectio Actuum Apostolorum.</Text>
-            <Text className="text-base vernacular">
-              Lição dos Actos dos Apóstolos.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Lectio Actuum Apostolorum.</Text>
+            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="latin">
               In diebus illis: Stéphanus plenus grátia et fortitúdine, faciébat
               prodígia et signa magna in pópulo. Surrexérunt autem quidam de
               synagóga, quæ appellátur Libertinórum, et Cyrenénsium, et
@@ -80,7 +79,7 @@ export default function Page1226() {
               Dómine, ne státuas illis hoc peccátum. Et cum hoc dixísset,
               obdormívit in Dómino.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, Estêvão, cheio de graça e de fortaleza, praticava
               grandes prodígios e sinais perante o povo. Levantaram-se, então,
               alguns membros da sinagoga chamada dos Libertos, dos Cirenenses,
@@ -107,29 +106,28 @@ export default function Page1226() {
           <Text className="em">Sl. 118, 23 & 86</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sedérunt príncipes, et advérsum me loquebántur: et iníqui
-              persecúti sunt me. ℣.{" "}
-              <Text className="text-base latin">Ps. 6, 5</Text> Adjuva me,
-              Dómine, Deus meus: salvum me fac propter misericórdiam tuam.
+              persecúti sunt me.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 6, 5</Text> Adjuva me, Dómine, Deus
+              meus: salvum me fac propter misericórdiam tuam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Reuniram-se os príncipes em assembleia, e pronunciaram-se contra
-              mim: e os maus perseguiram-me injustamente. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 6, 5</Text>{" "}
-              Auxiliai-me, ó Senhor, meu Deus, salvai-me pela vossa
-              misericórdia.
+              mim: e os maus perseguiram-me injustamente.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 6, 5</Text> Auxiliai-me, ó
+              Senhor, meu Deus, salvai-me pela vossa misericórdia.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Act. 7, 55</Text> Vídeo cœlos
-              apértos, et Jesum stantem a dextris virtútis Dei. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Act. 7, 55</Text> Vídeo cœlos apértos, et
+              Jesum stantem a dextris virtútis Dei. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Act. 7, 55</Text> Vejo os
-              céus abertos, e Jesus, de pé, à dextra de Deus omnipotente.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Act. 7, 55</Text> Vejo os céus
+              abertos, e Jesus, de pé, à dextra de Deus omnipotente. Aleluia.
             </Text>
           </View>
 
@@ -138,15 +136,15 @@ export default function Page1226() {
           <Text className="em">Mt. 23, 34-39</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dicébat Jesus scribis et pharisǽis: Ecce, ego
               mitto ad vos prophétas, et sapiéntes, et scribas, et ex illis
               occidétis et crucifigétis, et ex eis flagellábitis in synagógis
@@ -161,7 +159,7 @@ export default function Page1226() {
               desérta. Dico enim vobis, non me vidébitis ámodo, donec dicátis:
               Benedíctus, qui venit in nómine Dómini.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, Jesus dizia aos escribas e fariseus: «Eis que vos
               envio profetas, sábios e escribas; mas vós matareis e
               crucificareis uns, e açoitareis outros nas vossas sinagogas; e
@@ -184,12 +182,12 @@ export default function Page1226() {
           <Text className="em">Act. 6, 5 & 7, 59</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Elegérunt Apóstoli Stéphanum Levítam, plenum fide et Spíritu
               Sancto: quem lapidavérunt Judǽi orántem, et dicéntem: Dómine Jesu,
               áccipe spíritum meum, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Os Apóstolos escolheram Estêvão para Diácono, pois ele era cheio
               de fé e do Espírito Santo; o qual os judeus apedrejaram, enquanto
               rezava e dizia: «Senhor Jesus, recebei o meu espírito». Aleluia.
@@ -199,12 +197,12 @@ export default function Page1226() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súscipe, Dómine, múnera pro tuórum commemoratióne Sanctórum: ut,
               sicut illos pássio gloriósos effécit; ita nos devótio reddat
               innócuos. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recebei, Senhor, as nossas ofertas que Vos apresentamos em memória
               dos vossos Santos, para que, assim como o seu martírio os tornou
               gloriosos, assim também a nossa piedade nos torne inocentes. Por
@@ -217,12 +215,12 @@ export default function Page1226() {
           <Text className="em">Act. 7, 55, 58 & 59</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vídeo cœlos apértos, et Jesum stantem a dextris virtútis Dei:
               Dómine Jesu, accipe spíritum meum, et ne státuas illis hoc
               peccátum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vejo os céus abertos e Jesus, de pé, à dextra de Deus omnipotente.
               Ó Senhor Jesus, recebei o meu espírito e lhes não imputeis este
               pecado.
@@ -232,12 +230,12 @@ export default function Page1226() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáto
               Stéphano Mártyre tuo, sempitérna protectióne confírment. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, que os mystérios, que acabámos de receber, nos
               sirvam de perpétuo auxílio, e que por intercessão do B. Estêvão,
               vosso Mártir, nos confirmem na vossa contínua protecção. Por nosso

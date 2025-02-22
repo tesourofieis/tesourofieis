@@ -51,12 +51,12 @@ export default function Page0722() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beátæ Maríæ Magdalénæ, quǽsumus, Dómine, suffrágiis adjuvémur:
               cujus précibus exorátus, quatriduánum fratrem Lázarum vivum ab
               ínferis resuscitásti: Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que nós sejamos socorridos, ó Deus, Vos suplicamos, pela
               intercessão da B. Maria Madalena, cujas preces de Vós obtiveram a
               ressurreição de seu irmão Lázaro, que falecera havia quatro dias.
@@ -69,11 +69,9 @@ export default function Page0722() {
           <Text className="em">Ct. 3, 2-5; 8, 6-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Surgam, et circuíbo civitátem: per vicos et pláteas quæram, quem
               díligit ánima mea: quæsívi illum, et non invéni. Invenérunt me
               vígiles, qui custódiunt civitátem. Num quem díligit ánima mea,
@@ -89,7 +87,7 @@ export default function Page0722() {
               déderit homo omnem substántiam domus suæ pro dilectióne, quasi
               nihil despíciet eam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Erguer-me-ei, percorrerei toda a cidade e procurarei pelas ruas e
               praças aquele que minha alma ama! Procurei-o e o não encontrei. As
               sentinelas que vigiam a cidade encontraram-me. Então disse-lhes:
@@ -114,25 +112,26 @@ export default function Page0722() {
           <Text className="em">Sl. 44, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Dilexísti justítiam, et odísti iniquitátem. ℣. Proptérea unxit te
-              Deus, Deus tuus, óleo lætítiæ.
+            <Text className="latin">
+              Dilexísti justítiam, et odísti iniquitátem.
+              <Text className="versicle"> ℣. </Text>Proptérea unxit te Deus,
+              Deus tuus, óleo lætítiæ.
             </Text>
-            <Text className="text-base vernacular">
-              Amastes a justiça e odiastes a iniquidade. ℣. Pelo que o Senhor,
-              vosso Deus, vos ungiu com o óleo da alegria.
+            <Text className="vernacular">
+              Amastes a justiça e odiastes a iniquidade.
+              <Text className="versicle"> ℣. </Text>Pelo que o Senhor, vosso
+              Deus, vos ungiu com o óleo da alegria.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">ibid., 3</Text> Diffúsa est
-              grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">ibid., 3</Text> Diffúsa est grátia in
+              lábiis tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">ibid., 3</Text> A graça
-              espalhou-se nos vossos lábios: eis porque Deus vos abençoou para
-              sempre. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">ibid., 3</Text> A graça espalhou-se
+              nos vossos lábios: eis porque Deus vos abençoou para sempre.
+              Aleluia.
             </Text>
           </View>
 
@@ -148,11 +147,11 @@ export default function Page0722() {
           <Text className="em">Sl. 44, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Fíliæ regum in honóre tuo, ástitit regína a dextris tuis in
               vestítu deauráto, circúmdata varietáte.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               As filhas dos reis formam a vossa corte de glória: a própria
               rainha está colocada à vossa direita, envergando um vestido de
               ouro, recamado da mais rica variedade.
@@ -162,13 +161,13 @@ export default function Page0722() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera nostra, quǽsumus, Dómine, beátæ Maríæ Magdalénæ gloriósa
               mérita tibi reddant accépta: cujus oblatiónis obséquium unigénitus
               Fílius tuus cleménter suscépit impénsum: Qui tecum vivit et
               regnat...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos aceitar, Senhor, Vos pedimos, as oblatas que Vos
               apresentamos pelos gloriosos méritos da B. Maria Madalena, da qual
               o vosso Filho Unigénito recebeu misericordiosamente a sua oferta e
@@ -181,11 +180,11 @@ export default function Page0722() {
           <Text className="em">Sl. 118, 121, 122 & 128</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Feci judícium et justítiam, Dómine, non calumniéntur mihi supérbi:
               ad ómnia mandáta tua dirigébar, omnem viam iniquitátis odio hábui.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Pratiquei a equidade e a justiça; não me entregueis, pois, àqueles
               que me perseguem. Procurei em tudo dirigir-me segundo os vossos
               Mandamentos: e odiei todas as vias da iniquidade.
@@ -195,12 +194,12 @@ export default function Page0722() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sumpto, quǽsumus, Dómine, único ac salutári remédio, Córpore et
               Sánguine tuo pretióso: ab ómnibus malis, sanctæ Maríæ Magdalénæ
               patrocíniis, eruámur: Qui vivis et regnas...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo nós recebido o único e salutar remédio, o vosso Corpo e o
               vosso Sangue preciosíssimo permiti, Senhor, Vos pedimos, que
               sejamos livres de todos os males pelo patrocínio de Santa Maria

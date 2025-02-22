@@ -288,7 +288,7 @@ export default function PagePenitencia() {
             Que o Senhor seja no teu coração e nos teus lábios, para que possas
             dignamente confessar os teus pecados.
           </Text>
-          <Text className="cross text-red-500">✠</Text>
+          <Text className="cross"> ✠ </Text>
           <Text className="text-base">
             Em Nome do Pai e do Filho e do Espírito Santo. Amen. Recitará,
             então, o «Eu Pecador me confesso a Deus...», até às Palavras «minha

@@ -26,12 +26,12 @@ export default function Page0811() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctórum Martyrum tuórum Tiburtii et Susánnæ nos, Dómine, fóveant
               continuáta præsídia: quia non désinis propítius intuéri; quos
               tálibus auxíliis concésseris adjuvári. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, que nos favoreça o contínuo auxílio dos vossos
               Santos Mártires Tibúrcio e Susana, pois não podeis deixar de
               acolher propiciamente aqueles a quem concedeis o socorro de tal
@@ -49,12 +49,12 @@ export default function Page0811() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Adésto, Dómine, précibus pópuli tui, adésto munéribus: ut, quæ
               sacris sunt obláta mystériis, tuórum tibi pláceant intercessióne
               Sanctórum. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Atendei, Senhor, às preces do vosso povo e recebei as suas
               ofertas, a fim de que, pela intercessão dos vossos Santos
               Mártires, a oblação destes mystérios Vos seja agradável. Por nosso
@@ -65,12 +65,12 @@ export default function Page0811() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súmpsimus, Dómine, pignus redemptiónis ætérnæ: quod sit nobis,
               quǽsumus, interveniéntibus sanctis Martýribus tuis, vitæ præséntis
               auxílium páriter et futúræ. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recebemos, Senhor, o penhor da eterna redenção; e permiti, pela
               intercessão dos vossos Santos Mártires, que nos sirva de auxílio,
               tanto na vida presente, como na futura. Por nosso Senhor...

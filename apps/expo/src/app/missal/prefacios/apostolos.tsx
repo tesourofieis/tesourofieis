@@ -15,7 +15,7 @@ export default function PageApostolos() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vere dignum et justum est, æquum et salutáre: Te, Dómine,
               supplíciter exoráre, ut gregem tuum, Pastor ætérne, non déseras:
               sed per beátos Apóstolos tuos contínua protectióne custódias. Ut
@@ -24,7 +24,7 @@ export default function PageApostolos() {
               cum Thronis et Dominatiónibus cumque omni milítia cœléstis
               exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               É verdadeiramente digno e justo, racional e salutar suplicar-Vos
               humildemente, Senhor, que, como Pastor eterno, que sois, não
               abandoneis o vosso rebanho, mas antes, por intercessão dos vossos

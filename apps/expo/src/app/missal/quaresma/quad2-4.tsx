@@ -15,19 +15,21 @@ export default function PageQuad24() {
           <Text className="em">Sl. 69, 2 & 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me
               festína: confundántur et revereántur inimíci mei, qui quærunt
-              ánimam meam. <Text className="text-base latin">Ps. ibid., 4</Text>{" "}
-              Avertántur retrórsum et erubéscant: qui cógitant mihi mala. ℣.
+              ánimam meam. <Text className="latin">Ps. ibid., 4</Text>{" "}
+              Avertántur retrórsum et erubéscant: qui cógitant mihi mala.
+              <Text className="versicle"> ℣. </Text>
               Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, vinde em meu auxílio; apressai-Vos, Senhor, em
               socorrer-me. Sejam confundidos e cobertos de opróbrio os meus
               inimigos que procuram tirar-me a vida.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 4</Text> Que se
-              afastem de mim, cheios de vergonha, os que conjuram contra mim! ℣.
+              <Text className="vernacular">Sl. ibid., 4</Text> Que se afastem de
+              mim, cheios de vergonha, os que conjuram contra mim!
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -35,12 +37,12 @@ export default function PageQuad24() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta nobis, quǽsumus, Dómine, auxílium grátiæ tuæ: ut, jejúniis
               et oratiónibus conveniénter inténti, liberémur ab hóstibus mentis
               et córporis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, Senhor, Vos suplicamos, o auxílio da vossa graça, a
               fim de que, estando nós convenientemente aplicados aos jejuns e às
               orações, sejamos livres dos inimigos da alma e do corpo. Por nosso
@@ -53,11 +55,9 @@ export default function PageQuad24() {
           <Text className="em">Jr. 17, 5-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Jeremíæ Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Jeremias.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Jeremias.</Text>
+            <Text className="latin">
               Hæc dicit Dóminus Deus: Maledíctus homo, qui confídit in hómine,
               et ponit carnem bráchium suum, et a Dómino recédit cor ejus. Erit
               enim quasi myrícæ in desérto, et non vidébit, cum vénerit bonum:
@@ -72,7 +72,7 @@ export default function PageQuad24() {
               unicuique juxta viam suam, et juxta fructum adinventiónum suárum:
               dicit Dóminus omnípotens.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Isto diz o Senhor e Deus: «Maldito seja o homem que confia no
               homem; que faz da carne o seu arrimo; e cujo coração se afasta do
               Senhor; pois ele será como as tamargas do deserto. Quando vier a
@@ -95,12 +95,13 @@ export default function PageQuad24() {
           <Text className="em">Sl. 78, 9 & 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes:
-              Ubi est Deus eórum? ℣. Adjuva nos, Deus, salutáris noster: et
-              propter honórem nóminis tui, Dómine, líbera nos.
+              Ubi est Deus eórum?<Text className="versicle"> ℣. </Text>Adjuva
+              nos, Deus, salutáris noster: et propter honórem nóminis tui,
+              Dómine, líbera nos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Perdoai os nossos pecados, Senhor, para que os povos não digam:
               «Onde está o seu Deus?». Socorrei-nos, Senhor, nosso Salvador, e,
               por causa da glória do vosso nome, livrai-nos, Senhor.
@@ -112,15 +113,15 @@ export default function PageQuad24() {
           <Text className="em">Lc. J6, 19-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus pharisǽis: Homo quidam erat dives,
               qui induebátur púrpura et bysso: et epulabátur cotídie spléndide.
               Et erat quidam mendícus, nómine Lázarus, qui jacébat ad jánuam
@@ -145,7 +146,7 @@ export default function PageQuad24() {
               agent. Ait autem illi: Si Móysen et Prophétas non áudiunt, neque
               si quis ex mórtuis resurréxerit, credent.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos fariseus: «Havia um certo homem
               rico, que se vestia de púrpura e de linho fino e se banqueteava
               todos os dias com o maior esplendor. Havia, também, um certo
@@ -181,14 +182,14 @@ export default function PageQuad24() {
           <Text className="em">Ex. 32, 11, 13 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Precátus est Móyses in conspéctu Dómini, Dei sui, et dixit: Quare,
               Dómine, irascéris in pópulo tuo? parce iræ ánimæ tuæ: meménto
               Abraham, Isaac et Jacob, quibus jurásti dare terram fluéntem lac
               et mel. Et placátus est Dóminus de malignitáte, quam dixit fácere
               pópulo suo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Orou Moisés ante o Senhor, seu Deus, e disse: «Porque, Senhor, Vos
               irais contra o vosso povo? Saí do ardor da vossa ira: lembrai-Vos
               de Abraão, de Isaque e de Jacob, aos quais jurastes dar a terra
@@ -200,12 +201,12 @@ export default function PageQuad24() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Pæsénti sacrifício, nómini tuo nos, Dómine, jejúnia dicáta
               sanctíficent: ut, quod observántia nostra profitétur extérius,
               intérius operétur efféctu. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que o presente sacrifício, Senhor, santifique os jejuns que
               empreendemos para glória do vosso nome, a fim de que sua
               observância exterior seja acompanhada de frutos interiores. Por
@@ -218,11 +219,11 @@ export default function PageQuad24() {
           <Text className="em">Jo. 6, 57</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui mandúcat meam carnem, et bibit meum sánguinem, in me manet, et
               ego in eo, dicit Dóminus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aquele que come a minha carne e bebe o meu sangue permanece em mim
               e eu permaneço nele: diz o Senhor.
             </Text>
@@ -231,12 +232,12 @@ export default function PageQuad24() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Grátia tua nos, quǽsumus, Dómine, non derelínquat: quæ et sacræ
               nos déditos fáciat servitúti, et tuam nobis opem semper acquírat.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, concedei-nos que a vossa graça nos não
               abandone; que nos torne dedicados ao vosso santo serviço; e que
               nos alcance sempre o vosso auxílio. Por nosso Senhor...
@@ -246,24 +247,22 @@ export default function PageQuad24() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base latin">
-              Humiliáte cápita vestra Deo.
-            </Text>
-            <Text className="text-base vernacular">
+            <Text className="latin">Humiliáte cápita vestra Deo.</Text>
+            <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Adésto, Dómine, fámulis tuis, et perpétuam benignitátem largíre
               poscéntibus: ut iis, qui te auctóre et gubernatóre gloriántur, ei
               congregáta restáures et restauráta consérves. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Amparai, Senhor, os vossos servos e concedei-lhes a misericórdia
               perpétua, que Vos imploram; e, como eles se gloriam de Vos ter
               como Autor e Rei, restabelecei-os na posse dos bens em que os

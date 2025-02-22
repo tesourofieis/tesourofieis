@@ -17,33 +17,32 @@ export default function PagePent240() {
           <Text className="em">Jr. 29, 11, 12 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
               invocábitis me, et ego exáudiam vos: et redúcam captivitátem
-              vestram de cunctis locis.{" "}
-              <Text className="text-base latin">Ps. 84, 2</Text> Benedixísti,
-              Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria
-              Patri...
+              vestram de cunctis locis. <Text className="latin">Ps. 84, 2</Text>{" "}
+              Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Disse o Senhor: tenho pensamentos de paz e não de ira:
               invocar-me-eis e ouvir-Vos-ei; e farei regressar de todos os
               países os vossos cativos.{" "}
-              <Text className="text-base vernacular">Sl. 84, 2</Text>{" "}
-              Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro.
-              ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 84, 2</Text> Abençoastes, Senhor,
+              a vossa terra e livrastes Jacob do cativeiro.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Excita, quǽsumus. Dómine, tuórum fidélium voluntátes: ut, divíni
               óperis fructum propénsius exsequéntes; pietátis tuæ remédia majóra
               percípiant. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Despertai, Senhor, Vos imploramos, a vontade dos vossos fiéis,
               para que, procurando com mais fervor o fruto das obras divinas,
               alcancem da vossa misericórdia os melhores remédios. Por nosso
@@ -56,13 +55,13 @@ export default function PagePent240() {
           <Text className="em">Cl. 1, 9-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Non cessámus pro vobis orántes et postulántes, ut
               impleámini agnitióne voluntátis Dei, in omni sapiéntia et
               intelléctu spiritáli: ut ambulétis digne Deo per ómnia placéntes:
@@ -74,7 +73,7 @@ export default function PagePent240() {
               Fílii dilectiónis suæ, in quo habémus redemptiónem per sánguinem
               ejus, remissiónem peccatórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Não cessamos de orar a Deus por vós e de pedir-Lhe
               que vos conceda o verdadeiro conhecimento da sua vontade em toda a
               plenitude da sabedoria e da inteligência espiritual, para que
@@ -95,25 +94,25 @@ export default function PagePent240() {
           <Text className="em">Sl. 43, 8-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
-              odérunt, confudísti. ℣. In Deo laudábimur tota die, et in nómine
-              tuo confitébimur in sǽcula.
+              odérunt, confudísti.<Text className="versicle"> ℣. </Text>In Deo
+              laudábimur tota die, et in nómine tuo confitébimur in sǽcula.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes
               os que nos odiavam. Glorificar-nos-emos constantemente em Deus e
               louvaremos eternamente o vosso nome.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 129, 12</Text> De profúndis
-              clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 129, 12</Text> De profúndis clamávi ad
+              te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 129, 12</Text> Do fundo
-              do abysmo Vos invoquei, Senhor: escutai a minha oração. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 129, 12</Text> Do fundo do abysmo
+              Vos invoquei, Senhor: escutai a minha oração. Aleluia.
             </Text>
           </View>
 
@@ -122,15 +121,15 @@ export default function PagePent240() {
           <Text className="em">Mt. 24, 15-35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Cum vidéritis
               abominatiónem desolatiónis, quæ dicta est a Daniéle Prophéta,
               stantem in loco sancto: qui legit, intéllegat: tunc qui in Judǽa
@@ -163,7 +162,7 @@ export default function PagePent240() {
               donec ómnia hæc fiant. Cœlum et terra transíbunt, verba autem mea
               non præteríbunt.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: Quando virdes a
               abominação da desolação, anunciada pelo Profeta Daniel, reinando
               no lugar santo, que aquele que lê entenda: Então, aqueles que
@@ -208,11 +207,11 @@ export default function PagePent240() {
           <Text className="em">Sl. 129, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam:
               de profúndis clamávi ad te. Dómine.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor,
               a minha voz: das profundezas dos abysmos Vos invoquei.
             </Text>
@@ -221,13 +220,13 @@ export default function PagePent240() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Propítius esto, Dómine, supplicatiónibus nostris: et, pópuli tui
               oblatiónibus precibúsque suscéptis, ómnium nostrum ad te corda
               convérte; ut, a terrenis cupiditátibus liberáti, ad cœléstia
               desidéria transeámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sede propício, Senhor, às nossas súplicas, e, depois de haverdes
               recebido as ofertas e as orações do vosso povo, convertei a Vós os
               nossos corações, a fim de que, sendo livres das cobiças deste
@@ -241,11 +240,11 @@ export default function PagePent240() {
           <Text className="em">Mc. 11, 24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Amen, dico vobis, quidquid orántes pétitis, crédite, quia
               accipiétis, et fiet vobis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
               acreditai que o recebereis; e far-se-á como pedirdes».
             </Text>
@@ -254,12 +253,12 @@ export default function PagePent240() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Concéde nobis, quǽsumus, Dómine: ut per hæc sacraménta quæ
               súmpsimus, quidquid in nostra mente vitiósum est, ipsorum
               medicatiónis dono curétur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, Vos suplicamos, que pela virtude destes
               sacramentos, que recebemos, tudo quanto houver de vicioso na nossa
               alma seja curado pelo efeito deste remédio divino. Por nosso

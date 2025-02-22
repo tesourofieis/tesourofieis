@@ -16,32 +16,33 @@ export default function PageQuad41() {
           <Text className="em">Sl. 53, 3-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me:
               Deus, exáudi oratiónem meam: áuribus pércipe verba oris mei.{" "}
-              <Text className="text-base latin">Ps. ibid., 5</Text> Quóniam
-              aliéni insurrexérunt in me: et fortes Quæsiérunt ánimam meam. ℣.
+              <Text className="latin">Ps. ibid., 5</Text> Quóniam aliéni
+              insurrexérunt in me: et fortes Quæsiérunt ánimam meam.
+              <Text className="versicle"> ℣. </Text>
               Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, pelo vosso nome, salvai-me: e livrai-me com vosso poder. Ó
               Deus, ouvi a minha oração; abri os vossos ouvidos às orações dos
-              meus lábios.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 5</Text>{" "}
+              meus lábios. <Text className="vernacular">Sl. ibid., 5</Text>{" "}
               Porquanto os estrangeiros levantam-se contra mim: e homens
-              violentos querem tirar-me a vida. ℣. Glória ao Pai...
+              violentos querem tirar-me a vida.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, observatiónes sacras ánnua
               devotióne recoléntes, et córpore tibi placeámus et mente. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, ó Deus omnipotente, Vos suplicamos, a graça de
               observarmos anualmente com devoção estas santas práticas
               quaresmais e de Vos agradarmos corporal e espiritualmente. Por
@@ -54,11 +55,9 @@ export default function PageQuad41() {
           <Text className="em">3 Rs. 3, 16-28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Regum.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro dos Reis.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Regum.</Text>
+            <Text className="vernacular">Lição do Livro dos Reis.</Text>
+            <Text className="latin">
               In diébus illis: Venérunt duæ mulíeres meretríces ad regem
               Salomónem, steterúntque coram eo, quarum una ait: Obsecro, mi
               dómine: ego et múlier hæc habitabámus in domo una, et péperi apud
@@ -88,7 +87,7 @@ export default function PageQuad41() {
               Israel judícium, quod judicásset rex, et timuérunt regem, vidéntes
               sapiéntiam Dei esse in eo ad faciéndum judícium.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, vieram duas mulheres pecadoras e apresentaram-se
               diante do rei Salomão. Uma delas disse-lhe: «Meu senhor,
               atendei-me: Eu e esta mulher morávamos na mesma casa. Eu dei à luz
@@ -126,17 +125,17 @@ export default function PageQuad41() {
           <Text className="em">Sl. 30, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Esto mihi in Deum protectórem et in locum refúgii, ut salvum me
-              fácias. ℣. <Text className="text-base latin">Ps. 70, 1</Text>{" "}
-              Deus, in te sperávi: Dómine, non confúndar in ætérnum.
+              fácias.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 70, 1</Text> Deus, in te sperávi:
+              Dómine, non confúndar in ætérnum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sede, ó Deus, o meu protector: sede o refúgio onde eu encontre a
-              salvação. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 70, 1</Text> Ó Deus,
-              esperei em Vós! Que eu não seja, pois, para sempre confundido,
-              Senhor!
+              salvação.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 70, 1</Text> Ó Deus, esperei em
+              Vós! Que eu não seja, pois, para sempre confundido, Senhor!
             </Text>
           </View>
 
@@ -152,15 +151,15 @@ export default function PageQuad41() {
           <Text className="em">Jo. 2, 13-25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Prope erat Pascha Judæórum, et ascéndit Jesus
               Jerosólymam: et invénit in templo vendéntes boves et oves et
               colúmbas, et nummulários sedéntes. Et cum fecísset quasi flagéllum
@@ -182,7 +181,7 @@ export default function PageQuad41() {
               omnes, et quia opus ei non erat, ut quis testimónium perhibéret de
               hómine: ipse enim sciébat, quid esset in hómine.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele Naquele tempo, estando próxima a Páscoa dos judeus, Jesus
               subiu a Jerusalém e entrou no templo, onde encontrou negociantes
               de bois, de ovelhas e de pombas, e ainda os cambistas de dinheiro,
@@ -212,11 +211,11 @@ export default function PageQuad41() {
           <Text className="em">Sl. 99, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Jubiláte Deo, omnis terra, servíte Dómino in lætítia: intráte in
               conspéctu ejus in exsultatióne: quia Dóminus ipse est Deus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aclamai Deus, ó habitantes de toda a terra; obedecei ao Senhor com
               alegria, vinde diante d’Ele com júbilo: pois o Senhor é Deus.
             </Text>
@@ -225,11 +224,11 @@ export default function PageQuad41() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Oblátum tibi, Dómine, sacrifícium vivíficet nos semper et múniat.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, que o sacrifício, que Vos oferecemos, sempre nos
               vivifique e nos fortaleça. Por nosso Senhor...
             </Text>
@@ -240,10 +239,10 @@ export default function PageQuad41() {
           <Text className="em">Sl. 18, 13 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ab occúltis meis munda me, Dómine: et ab aliénis parce servo tuo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, purificai-me dos meus delitos ocultos e livrai-me dos
               delitos alheios.
             </Text>
@@ -252,11 +251,11 @@ export default function PageQuad41() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sumptis, Dómine, salutáribus sacraméntis: ad redemptiónis ætérnæ,
               quǽsumus, proficiámus augméntum. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Tendo nós sido saciados com os sacramentos da salvação, Senhor,
               Vos imploramos, permiti que possamos alcançar aumento da redenção
               eterna. Por nosso Senhor...
@@ -266,24 +265,22 @@ export default function PageQuad41() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base latin">
-              Humiliáte cápita vestra Deo.
-            </Text>
-            <Text className="text-base vernacular">
+            <Text className="latin">Humiliáte cápita vestra Deo.</Text>
+            <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Deprecatiónem nostram, quǽsumus. Dómine, benígnus exáudi: et,
               quibus supplicándi præstas afféctum, tríbue defensiónis auxílium.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, ouvi benigno a nossa prece e socorrei com
               vossa protecção aqueles a quem inspirais o desejo da oração. Por
               nosso Senhor...

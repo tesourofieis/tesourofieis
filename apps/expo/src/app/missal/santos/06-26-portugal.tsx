@@ -18,7 +18,7 @@ export default function Page0626Portugal() {
             livrastes-me da perdição: livrastes-me das mãos daqueles que
             procuravam tirar-me a vida, assim como do rei iníquo e das línguas
             injustas. Entoai em honra do Senhor um cântico novo, pois Ele operou
-            maravilhas. ℣. Glória ao Pai...
+            maravilhas.<Text className="versicle"> ℣. </Text>Glória ao Pai...
           </Text>
           <Text className="h3">Oração</Text>
           <Text className="text-base">

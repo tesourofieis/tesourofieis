@@ -44,34 +44,35 @@ export default function Page1208() {
           <Text className="em">Is. 61, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo:
               quia índuit me vestiméntis salútis: et induménto justítiæ
               circúmdedit me, quasi sponsam ornátam monílibus suis.{" "}
-              <Text className="text-base latin">Ps. 29, 2</Text> Exaltábo te,
-              Dómine, quóniam suscepísti me: nec delectásti inimícos meos super
-              me. ℣. Gloria Patri...
+              <Text className="latin">Ps. 29, 2</Text> Exaltábo te, Dómine,
+              quóniam suscepísti me: nec delectásti inimícos meos super me.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Rejubilarei no Senhor. Minha alma exultará de alegria no meu Deus.
               Pois Ele ornou-me com as vestes da salvação e embelezou-me com o
               manto da santidade, como uma esposa adornada com suas jóias.{" "}
-              <Text className="text-base vernacular">Sl. 29, 2</Text>{" "}
-              Louvar-Vos-ei, Senhor, porque me protegestes e não consentistes
-              que meus inimigos zombassem de mim. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 29, 2</Text> Louvar-Vos-ei,
+              Senhor, porque me protegestes e não consentistes que meus inimigos
+              zombassem de mim.<Text className="versicle"> ℣. </Text>Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui per immaculátam Vírginis Conceptiónem dignum Fílio tuo
               habitáculum præparásti: quǽsumus; ut, qui ex morte ejúsdem Filii
               tui prævísa eam ab omni labe præservásti, nos quoque mundos ejus
               intercessióne ad te perveníre concédas. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que pela Imaculada Conceição da Virgem preparastes para o
               vosso Filho uma habitação digna d’Ele, dignai-Vos permitir que,
               assim como em previsão da morte deste mesmo Filho a preservastes
@@ -86,11 +87,9 @@ export default function Page1208() {
           <Text className="em">Pr. 8, 22-35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Dóminus possedit me in inítio viárum suárum, ántequam quidquam
               fáceret a princípio. Ab ætérno ordináta sum, et ex antíquis,
               ántequam terra fíeret. Nondum erant abýssi, et ego jam concépta
@@ -109,7 +108,7 @@ export default function Page1208() {
               fores meas cotídie, et obsérvat ad postes óstii mei. Qui me
               invénerit, invéniet vitam et háuriet salútem a Dómino.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor possuiu-me desde o princípio das suas vias e ainda antes
               de criar qualquer coisa, no Princípio, antes da origem da terra.
               Quando fui concebida, ainda não existiam os abysmos; ainda as
@@ -139,28 +138,28 @@ export default function Page1208() {
           <Text className="em">Jdt. 13, 23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícta es tu. Virgo María, a Dómino, Deo excélso, præ ómnibus
-              muliéribus super terram. ℣.{" "}
-              <Text className="text-base latin">ibid., 15, 10</Text> Tu glória
-              Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.
+              muliéribus super terram.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">ibid., 15, 10</Text> Tu glória Jerúsalem,
+              tu lætítia Israël, tu honorificéntia pópuli nostri.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fostes abençoada pelo Senhor, pelo Deus altíssimo, ó Virgem Maria,
-              tendo sido colocada superior a todas as mulheres da terra. ℣.{" "}
-              <Text className="text-base vernacular">ibid., 15, 10</Text> Sois a
-              glória de Jerusalém; sois a alegria de Israel; sois a honra do
-              nosso povo.
+              tendo sido colocada superior a todas as mulheres da terra.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">ibid., 15, 10</Text> Sois a glória de
+              Jerusalém; sois a alegria de Israel; sois a honra do nosso povo.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Cant. 4, 7</Text> Tota pulchra
-              es, María: et mácula originális non est in te. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Cant. 4, 7</Text> Tota pulchra es, María:
+              et mácula originális non est in te. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Ct. 4, 7</Text> Toda sois
-              formosa, ó Maria; e a mácula original não existe em vós. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Ct. 4, 7</Text> Toda sois formosa, ó
+              Maria; e a mácula original não existe em vós. Aleluia.
             </Text>
           </View>
 
@@ -169,22 +168,22 @@ export default function Page1208() {
           <Text className="em">Lc. 1, 26-28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Missus est Angelus Gábriël a Deo in civitátem
               Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui
               nomen erat Joseph, de domo David, et nomen Vírginis María. Et
               ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum:
               benedícta tu in muliéribus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da
               Galileia, cujo nome era Nazaré, a uma Virgem desposada com um
               varão, cujo nome era José, da casa de David; e o nome da Virgem
@@ -199,11 +198,11 @@ export default function Page1208() {
           <Text className="em">Lc. 1, 28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ave, María, grátia plena; Dóminus tecum: benedícta tu in
               muliéribus, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ave, Maria, cheia de graça; o Senhor é convosco: bendita sois vós
               entre as mulheres. Aleluia.
             </Text>
@@ -212,14 +211,14 @@ export default function Page1208() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Salutárem hóstiam, quam in sollemnitáte (commemoratióne)
               immaculátæ Conceptiónis beátæ Vírginis Maríæ tibi, Dómine,
               offérimus, súscipe et præsta: ut, sicut illam tua grátia
               præveniénte ab omni labe immúnem profitémur; ita ejus
               intercessióne a culpis ómnibus liberémur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai, Senhor, a hóstia de salvação, que Vos oferecemos nesta
               festividade da Imaculada Conceição da B. Virgem Maria; e, assim
               como acreditamos que ela, prevenida com a plenitude da vossa
@@ -232,11 +231,11 @@ export default function Page1208() {
           <Text className="h3">Comúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Gloriósa dicta sunt de te, María: quia fecit tibi magna qui potens
               est.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Gloriosas coisas se têm narrado de vós, ó Maria; pois o
               Omnipotente operou grandes maravilhas em vosso favor.
             </Text>
@@ -245,12 +244,12 @@ export default function Page1208() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacraménta quæ súmpsimus, Dómine, Deus noster: illíus in nobis
               culpæ vúlnera réparent; a qua immaculátam beátæ Maríæ Conceptiónem
               singuláriter præservásti. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, nosso Deus, fazei que os sacramentos, que recebemos, curem
               as feridas que em nós abriu aquele pecado de que por um privilégio
               singular preservastes a Imaculada Conceição da B. Virgem Maria.

@@ -151,9 +151,9 @@ export default function PageVerdades() {
           </View>
           <Text className="h2">Trabalhos de Misericórdia</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">Corporais</Text>
-            <Text className="text-base vernacular">Espirituais</Text>
-            <Text className="text-base latin">
+            <Text className="latin">Corporais</Text>
+            <Text className="vernacular">Espirituais</Text>
+            <Text className="latin">
               Dar de comer a quem tem fome
               {"\n"}
               Dar de beber a quem tem sede
@@ -168,7 +168,7 @@ export default function PageVerdades() {
               {"\n"}
               Enterrar os mortos
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dar bons conselhos
               {"\n"}
               Ensinar os ignorantes
@@ -186,9 +186,9 @@ export default function PageVerdades() {
           </View>
           <Text className="h2">Virtudes</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">Cardeais</Text>
-            <Text className="text-base vernacular">Teologais</Text>
-            <Text className="text-base latin">
+            <Text className="latin">Cardeais</Text>
+            <Text className="vernacular">Teologais</Text>
+            <Text className="latin">
               Prudência
               {"\n"}
               Justiça
@@ -197,7 +197,7 @@ export default function PageVerdades() {
               {"\n"}
               Temperança
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fé
               {"\n"}
               Esperança
@@ -235,13 +235,13 @@ export default function PageVerdades() {
           </Text>
           <Text className="h2">Do Espírito Santo</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Dons</Text>
+            <Text className="latin">
+              <Text className="latin">Dons</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Frutos</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Frutos</Text>
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Sabedoria
               {"\n"}
               Entendimento
@@ -256,7 +256,7 @@ export default function PageVerdades() {
               {"\n"}
               Temor de Deus
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Amor
               {"\n"}
               Alegria
@@ -283,13 +283,13 @@ export default function PageVerdades() {
             </Text>
           </View>
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Pecados Capitais</Text>
+            <Text className="latin">
+              <Text className="latin">Pecados Capitais</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Virtudes Opostas</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Virtudes Opostas</Text>
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Soberba
               {"\n"}
               Avareza
@@ -302,7 +302,7 @@ export default function PageVerdades() {
               {"\n"}
               Inveja
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Humildade
               {"\n"}
               Caridade
@@ -318,7 +318,7 @@ export default function PageVerdades() {
           </View>
           <Text className="h2">Novíssimos</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mors
               {"\n"}
               Iudicium
@@ -327,7 +327,7 @@ export default function PageVerdades() {
               {"\n"}
               Paradisus
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Morte
               {"\n"}
               Juízo
@@ -339,7 +339,7 @@ export default function PageVerdades() {
           </View>
           <Text className="h2">Assuntos para Meditação Diária</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deum glorificare; {"\n"}
               Jesum imitari; {"\n"}
               Beatissimam Virginem et Sanctos venerari; {"\n"}
@@ -359,7 +359,7 @@ export default function PageVerdades() {
               Mortem semper exspectare; {"\n"}
               Ad iudicium te præparare.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus para glorificar;{"\n"}
               Jesus para imitar;{"\n"}A abençoada Virgem e os Santos para
               venerar;{"\n"}

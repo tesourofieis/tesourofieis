@@ -36,31 +36,33 @@ export default function Page0720() {
           <Text className="em">Lm. 2, 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Effúsum est in terra jecur meum super contritióne fíliæ pópuli
               mei, cum defíceret párvulus et lactens in platéis óppidi.{" "}
-              <Text className="text-base latin">Ps. 112, 1</Text> Laudáte,
-              pueri, Dóminum: laudáte nomen Dómini. ℣. Gloria Patri...
+              <Text className="latin">Ps. 112, 1</Text> Laudáte, pueri, Dóminum:
+              laudáte nomen Dómini.<Text className="versicle"> ℣. </Text>Gloria
+              Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O meu coração ficou ferido ao contemplar as infelicidades da filha
               do meu povo, quando as criancinhas, e até aquelas que ainda eram
               amamentadas, caíam desfalecidas nas praças da cidade!{" "}
-              <Text className="text-base vernacular">Sl. 112, 1</Text> Louvai o
-              Senhor, ó meninos; louvai o nome do Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 112, 1</Text> Louvai o Senhor, ó
+              meninos; louvai o nome do Senhor.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, misericordiárum pater, per mérita et intercessiónem beáti
               Hieronymi, quem órphanis adjutorem et patrem esse voluísti:
               concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus,
               fidéliter custodiámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, Pai das misericórdias, pelos méritos e intercessão do B.
               Jerónimo, que quisestes dar aos órfãos como auxílio e pai,
               concedei-nos a graça de conservarmos fielmente este espírito de
@@ -74,11 +76,9 @@ export default function Page0720() {
           <Text className="em">Is. 58, 7-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Isaías.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Isaías.</Text>
+            <Text className="latin">
               Hæc dicit Dóminus: Frange esuriénti panem tuum, et egénos vagósque
               induc in domum tuam: cum víderis nudum, operi eum, et carnem tuam
               ne despéxeris. Tunc erúmpet quasi mane lumen tuum, et sánitas tua
@@ -92,7 +92,7 @@ export default function Page0720() {
               ánimam tuam, et ossa tua liberábit, et eris quasi hortus irríguus,
               et sicut fons aquárum, cujus non defícient aquæ.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Isto diz o Senhor: «Reparti o vosso pão por aqueles que têm fome e
               fazei entrar na vossa casa aqueles que não têm asilo. Quando
               virdes um homem nu, cobri-o e não desprezeis aquele que é da vossa
@@ -117,30 +117,31 @@ export default function Page0720() {
           <Text className="em">Pr. 5, 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Derivéntur fontes tui foras, et in platéis aquas tuas divide. ℣.{" "}
-              <Text className="text-base latin">Ps. 111, 5-6</Text> Jucúndus
-              homo, qui miserétur et cómmodat: dispónet sermónes suos in
-              judício, quia in ætérnum non commovébitur.
+            <Text className="latin">
+              Derivéntur fontes tui foras, et in platéis aquas tuas divide.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 111, 5-6</Text> Jucúndus homo, qui
+              miserétur et cómmodat: dispónet sermónes suos in judício, quia in
+              ætérnum non commovébitur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que as fontes trasbordem e que as águas se espalhem pelas praças
-              públicas.{" "}
-              <Text className="text-base vernacular">Sl. 111, 5-6</Text> ℣.
+              públicas. <Text className="vernacular">Sl. 111, 5-6</Text>
+              <Text className="versicle"> ℣. </Text>
               Bem-aventurado o homem que usou de misericórdia; que emprestou ao
               pobre; e que proferiu as suas palavras com justiça, pois ninguém
               poderá lançá-lo por terra.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">ibid., 9</Text> Dispérsit, dedit
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">ibid., 9</Text> Dispérsit, dedit
               paupéribus: justítia ejus manet in sǽculum sǽculi. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">ibid., 9</Text> Com
-              liberalidade distribuiu esmolas pelos pobres, pelo que sua justiça
-              permanecerá em todos os séculos dos séculos. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">ibid., 9</Text> Com liberalidade
+              distribuiu esmolas pelos pobres, pelo que sua justiça permanecerá
+              em todos os séculos dos séculos. Aleluia.
             </Text>
           </View>
 
@@ -149,15 +150,15 @@ export default function Page0720() {
           <Text className="em">Mt. 19, 13-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Obláti sunt Jesu párvuli, ut manus eis impóneret
               et oráret. Discípuli autem increpábant eos. Jesus vero ait eis:
               Sínite párvulos, et nolíte eos prohibére ad me veníre: tálium est
@@ -173,7 +174,7 @@ export default function Page0720() {
               perféctus esse, vade, vende, quæ habes, et da paupéribus, et
               habébis thesáurum in cœlo: et veni, séquere me.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, apresentaram a Jesus algumas criancinhas, para que
               Ele sobre elas impusesse as mãos e orasse por elas. Ora os
               discípulos afastaram-nas. Então Jesus disse-lhes: «Deixai as
@@ -199,13 +200,13 @@ export default function Page0720() {
           <Text className="em">Tb. 12, 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quando orábas cum lácrimis, et sepeliébas mórtuos, et
               derelinquébas prándium tuum, et mórtuos abscondébas per diem in
               domo tua, et nocte sepeliébas eos: ego óbtuli oratiónem tuam
               Dómino.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Quando rezaste com lágrimas e quando enterraste os mortos,
               deixando para isso a tua refeição, escondendo os mortos durante o
               dia na tua casa e enterrando-os durante a noite eu apresentei a
@@ -216,13 +217,13 @@ export default function Page0720() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Clementíssime Deus, qui, véteri homine consúmpto, novum secúndum
               te in beáto Hierónymo creáre dignátus es: da, per mérita ipsíus;
               ut nos, páriter renováti, hanc placatiónis hóstiam in odórem tibi
               suavíssimum offerámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus clementíssimo, que sobre as ruínas do «homem velho» Vos
               dignastes criar um novo homem à vossa imagem na pessoa do B.
               Jerónimo, concedei-nos pelos seus méritos que, sendo renovados,
@@ -236,12 +237,12 @@ export default function Page0720() {
           <Text className="em">Tg. 1, 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Relígio munda et immaculáta apud Deum et Patrem hæc est: Visitáre
               pupíllos et víduas in tribulatióne eórum, et immaculátum se
               custodíre ab hoc sǽculo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A religião pura e imaculada aos olhos de Deus, nosso Pai, é esta:
               visitar os órfãos e as viúvas nas suas aflições e conservar-se
               puro na corrupção deste mundo.
@@ -251,13 +252,13 @@ export default function Page0720() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Angelórum pane refécti te, Dómine, supplíciter deprecámur: ut, qui
               ánnuam beáti Hierónymi Confessóris tui memóriam celebráre
               gaudémus; ejúsdem étiam et exémplum imitémur, et amplíssimum in
               regno tuo prǽmium obtinére valeámus. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com o pão dos Anjos, Vos suplicamos humildemente, Senhor,
               que, celebrando nós com alegria, anualmente, a memória do B.
               Jerónimo, vosso Confessor, imitemos também os seus exemplos e

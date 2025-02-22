@@ -16,7 +16,7 @@ export default function PageCoracaojesus() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: Qui Unigénitum tuum, in Cruce pendéntem, láncea mílitis
@@ -27,7 +27,7 @@ export default function PageCoracaojesus() {
               Archángelis, cum Thronis et Dominatiónibus cumque omni milítia
               cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               É verdadeiramente digno e justo, racional e salutar que sempre e
               em todos os lugares Vos demos graças, Senhor santo, Pai
               omnipotente, eterno Deus, que quisestes que o vosso Filho

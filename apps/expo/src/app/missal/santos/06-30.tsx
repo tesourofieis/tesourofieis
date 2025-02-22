@@ -49,13 +49,13 @@ export default function Page0630() {
           <Text className="em">Gl. 1, 11-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Notum vobis facio Evangélium, quod evangelizátum est a
               me, quia non est secúndum hóminem: neque enim ego ab hómine accépi
               illud neque dídici, sed per revelatiónem Jesu Christi. Audístis
@@ -73,7 +73,7 @@ export default function Page0630() {
               Jacóbum fratrem Dómini. Quæ autem scribo vobis, ecce coram Deo,
               quia non méntior.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: «Eu vos declaro que o Evangelho que vos tenho pregado
               não tem nada de humano, pois não foi de algum homem que o recebi
               ou aprendi, mas por revelação de Jesus Cristo. Sabeis, com efeito,
@@ -98,26 +98,30 @@ export default function Page0630() {
           <Text className="em">Gl. 2, 8-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui operátus est Petro in apostolátum, operátus est et mihi inter
-              gentes: et cognovérunt grátiam Dei, quæ data est mihi. ℣.{" "}
-              <Text className="text-base latin">1 Cor. 15, 10</Text> Grátia Dei
-              in me vácua non fuit: sed grátia ejus semper in me manet.
+              gentes: et cognovérunt grátiam Dei, quæ data est mihi.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="latin">1 Cor. 15, 10</Text> Grátia Dei in me
+              vácua non fuit: sed grátia ejus semper in me manet.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aquele que instituiu Pedro Apóstolo para o apostolado dos
-              circuncisos, instituiu-me também a mim Apóstolo dos gentios: ℣.{" "}
-              <Text className="text-base vernacular">1 Cor. 15, 10</Text> E eles
+              circuncisos, instituiu-me também a mim Apóstolo dos gentios:
+              <Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">1 Cor. 15, 10</Text> E eles
               conheceram a graça de Deus que me foi dada. A graça de Deus não
               ficou estéril em mim.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Sancte Paule Apóstole, prædicátor veritátis
-              et doctor géntium, intercéde pro nobis. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Sancte
+              Paule Apóstole, prædicátor veritátis et doctor géntium, intercéde
+              pro nobis. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. S. Paulo, pregador da verdade e doutor dos
-              povos, intercedei por nós. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>S. Paulo,
+              pregador da verdade e doutor dos povos, intercedei por nós.
+              Aleluia.
             </Text>
           </View>
 
@@ -126,15 +130,15 @@ export default function Page0630() {
           <Text className="em">Mt. 10, 16-22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Ecce, ego mitto vos
               sicut oves in médio lupórum. Estóte ergo prudéntes sicut
               serpentes, et símplices sicut colúmbæ. Cavéte autem ab homínibus.
@@ -148,7 +152,7 @@ export default function Page0630() {
               eos affícient: et éritis odio ómnibus propter nomen meum: qui
               autem perseveráverit usque in finem, hic salvus erit.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Eis que vos
               envio, como ovelhas no meio de lobos. Sede, pois, prudentes, como
               as serpentes, e simples, como as pombas. Acautelai-vos, portanto,
@@ -171,11 +175,11 @@ export default function Page0630() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vejo, ó meu Deus, que honrais de um modo singular os vossos
               amigos: o seu poder firmou-se extraordinariamente.
             </Text>
@@ -184,12 +188,12 @@ export default function Page0630() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica:
               ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
               supplicántis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificai, Senhor, pelas preces do vosso Apóstolo Paulo as
               ofertas do vosso povo, a fim de que, sendo-Vos elas já agradáveis,
               porque as instituístes, mais agradáveis Vos sejam ainda pelo
@@ -202,11 +206,11 @@ export default function Page0630() {
           <Text className="em">Mt. 19, 28 & 29</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis
               me, céntuplum accipiétis et vitam ætérnam possidébitis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Em verdade vos digo: Vós, que abandonastes tudo e me seguistes,
               recebereis o cêntuplo e possuireis a vida eterna.
             </Text>
@@ -215,12 +219,12 @@ export default function Page0630() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Percéptis, Dómine, sacraméntis: beáto Paulo Apóstolo tuo
               interveniénte, deprecámur; ut, quæ pro illíus celebráta sunt
               glória, nobis profíciant ad medélam. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo recebido estes sacramentos, Senhor, Vos pedimos, permiti
               pela intercessão do B. Paulo, vosso Apóstolo, que este sacrifício,
               que foi oferecido em vossa honra, nos sirva de remédio. Por nosso

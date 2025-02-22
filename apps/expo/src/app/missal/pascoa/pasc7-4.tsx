@@ -25,11 +25,9 @@ export default function PagePasc74() {
           <Text className="em">Act. 8, 5-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base vernacular">
-              Lição dos Actos dos Apóstolos.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="latin">
               In diébus illis: Philíppus descéndens in civitátem Samaríæ,
               prædicábat illis Christum. Intendébant autem turbæ his, quæ a
               Philíppo dicebántur, unanímiter audiéntes et vidéntes signa, quæ
@@ -37,7 +35,7 @@ export default function PagePasc74() {
               clamántes voce magna, exíbant. Multi autem paralýtici et claudi
               curáti sunt. Factum est ergo gáudium magnum in illa civitáte.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, descendo Filipe à cidade de Samaria, pregava Cristo
               aos seus habitantes. As multidões estavam atentas ao que dizia,
               escutando-o unanimemente e vendo os milagres que operava. Muitos
@@ -52,15 +50,15 @@ export default function PagePasc74() {
           <Text className="em">Lc. 9, 1-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Convocátis. Jesus duódecim Apóstolis, dedit illis
               virtútem et potestátem super ómnia dæmónia, et ut languóres
               curárent. Et misit illos prædicáre regnum Dei et sanáre infírmos.
@@ -72,7 +70,7 @@ export default function PagePasc74() {
               illos. Egréssi autem circuíbant per castélla, evangelizántes et
               curántes ubíque.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, havendo Jesus reunido os Doze Apóstolos, deu-lhes
               poder e autoridade sobre todos os demónios e também o poder de
               curar os enfermos. Depois, mandou-os pregar o reino de Deus e

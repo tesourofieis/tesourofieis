@@ -15,34 +15,34 @@ export default function Page0903() {
           <Text className="em">Sl. 88, 20-22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Extuli eléctum de pópulo, óleo sancto meo unxi eum: ut manus mea
               sit semper cum eo, et brácchium meum confirm et eum.{" "}
-              <Text className="text-base latin">Ps. ibid., 2</Text> Grátias
-              Dómini in ætérnum cantábo: per omnes generatiónes annuntiábo
-              fidelitátem tuam ore meo. ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 2</Text> Grátias Dómini in
+              ætérnum cantábo: per omnes generatiónes annuntiábo fidelitátem
+              tuam ore meo.<Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Do seio do povo tirei o escolhido; ungi-o com meu óleo sagrado:
               para que sobre ele esteja sempre a minha mão e o meu braço o
-              fortaleça.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 2</Text>{" "}
+              fortaleça. <Text className="vernacular">Sl. ibid., 2</Text>{" "}
               Cantarei eternamente as graças do Senhor; por todas as gerações
-              proclamarei com a minha boca a sua fidelidade. ℣. Glória ao Pai...
+              proclamarei com a minha boca a sua fidelidade.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui, ad tuéndam cathólicam fidem et univérsa in Christo
               instauránda, sanctum Pium Summum Pontéficem cælesti sapiéntia et
               apostólica fortitúdine replevísti: concéde propítius; ut, eius
               institúta et exémpla sectántes, prǽmia consequámur ætérna. Per
               eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que, para guarda da fé católica e para «restaurar tudo em
               Cristo», cumulastes São pio, Sumo Pontífice, com celestial
               sabedoria e com fortaleza apostólica, concedei-nos propício que,
@@ -56,13 +56,13 @@ export default function Page0903() {
           <Text className="em">1 Ts. 2, 2-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lectio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Fidúciam habúimus in Deo nostro loqui ad vos evangélium
               Dei in multa sollicitúdine. Exhortátio enim nostra non de erróre
               neque de immundítia neque in dolo; sed, sicut probáti sumus a Deo
@@ -76,7 +76,7 @@ export default function Page0903() {
               volebámus trádere vobis non solum evangélium Dei, sed étiam ánimas
               nostras, quóniam caríssimi nobis facti estis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Vimos cheios de confiança no nosso Deus pregar-vos o
               Evangelho com muita solicitude. A nossa pregação não procede do
               erro, nem de qualquer intenção viciosa ou de alguma fraude. Visto
@@ -99,28 +99,28 @@ export default function Page0903() {
           <Text className="em">Sl. 39, 10-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Annuntiávi justítiam in cœtu magno; ecce lábia mea non cohíbui:
-              Dómine, tu nosti. ℣. Justítiam tuam non abscóndi in corde meo;
-              fidelitátem tuam et auxílium tuum narrávi.
+              Dómine, tu nosti.<Text className="versicle"> ℣. </Text>Justítiam
+              tuam non abscóndi in corde meo; fidelitátem tuam et auxílium tuum
+              narrávi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Evangelizei a vossa justiça ante grande multidão; eis que meus
-              lábios não ficaram cerrados: Vós, Senhor, bem o sabeis. ℣. Não
-              escondi no meu coração a vossa justiça; publiquei a vossa
-              fidelidade e o vosso socorro.
+              lábios não ficaram cerrados: Vós, Senhor, bem o sabeis.
+              <Text className="versicle"> ℣. </Text>Não escondi no meu coração a
+              vossa justiça; publiquei a vossa fidelidade e o vosso socorro.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 22, 5-6</Text> Paras mihi
-              mensam, inúngis óleo caput meum, calix meus ubérrimus est.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 22, 5-6</Text> Paras mihi mensam,
+              inúngis óleo caput meum, calix meus ubérrimus est. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 22, 5-6</Text>{" "}
-              Preparastes para mim a mesa; com óleo ungistes a minha cabeça; o
-              meu cálice está a transbordar. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 22, 5-6</Text> Preparastes para
+              mim a mesa; com óleo ungistes a minha cabeça; o meu cálice está a
+              transbordar. Aleluia.
             </Text>
           </View>
 
@@ -132,17 +132,19 @@ export default function Page0903() {
           <Text className="h3">Trato</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacerdótes ejus induam salúte, et sancti eius exsultántes
-              exsultábunt. ℣. Illic David suscitábo cornu, parábo lucérnam uncto
-              meo. ℣. Inimícos ejus índuam confusione, super ipsum autem
-              fulgébit diadéma meum.
+              exsultábunt.<Text className="versicle"> ℣. </Text>Illic David
+              suscitábo cornu, parábo lucérnam uncto meo.
+              <Text className="versicle"> ℣. </Text>Inimícos ejus índuam
+              confusione, super ipsum autem fulgébit diadéma meum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Revestirei os seus Sacerdotes com a salvação, e seus Santos
-              exultarão jubilosamente. ℣. Aqui, farei crescer o poder de David;
-              preparei uma lâmpada para o meu ungido. ℣. Cobrirei de vergonha os
-              seus inimigos; porém sobre ele fulgirá o meu diadema.
+              exultarão jubilosamente.<Text className="versicle"> ℣. </Text>
+              Aqui, farei crescer o poder de David; preparei uma lâmpada para o
+              meu ungido.<Text className="versicle"> ℣. </Text>Cobrirei de
+              vergonha os seus inimigos; porém sobre ele fulgirá o meu diadema.
             </Text>
           </View>
 
@@ -151,18 +153,19 @@ export default function Page0903() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 22, 5-6</Text> Paras mihi
-              mensam, inúngis óleo caput meum, calix meus ubérrimus est.
-              Allelúja. ℣. <Text className="em">Ps. 25, 8</Text> Dómine, díligo
-              habitáculum domus tuæ et locum tabernáculi gloriæ tuæ. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 22, 5-6</Text> Paras mihi mensam,
+              inúngis óleo caput meum, calix meus ubérrimus est. Allelúja.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="em">Ps. 25, 8</Text> Dómine, díligo habitáculum
+              domus tuæ et locum tabernáculi gloriæ tuæ. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 22, 5-6</Text>{" "}
-              Preparastes para mim a mesa; com óleo ungistes a minha cabeça; o
-              meu cálice está a transbordar. Aleluia. ℣.{" "}
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 22, 5-6</Text> Preparastes para
+              mim a mesa; com óleo ungistes a minha cabeça; o meu cálice está a
+              transbordar. Aleluia.<Text className="versicle"> ℣. </Text>
               <Text className="em">Sl. 25, 8</Text> Amo, Senhor, a morada da
               vossa casa e o lugar do tabernáculo da vossa Majestade. Aleluia.
             </Text>
@@ -173,15 +176,15 @@ export default function Page0903() {
           <Text className="em">Jo. 21, 15-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus Simóni Petro: Simon Joánnis, díligis
               me plus hic? Dicit ei: Étiam, Dómine, tu scis quia amo te. Dicit
               ei: Pasce agnos meos. Dicit ei íterum: Simon Joánnis, diligis me?
@@ -190,7 +193,7 @@ export default function Page0903() {
               est Petrus, quia dixit ei tertio: Amas me? et dixit ei: Dómine, tu
               ómnia nosti; tu scis quia amo te. Dixit ei: Pasce oves meas.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus a Simão Pedro: «Simão, filho de João,
               tu amas-me mais do que estes?» Respondeu-Lhe ele: «Sim, Senhor,
               Vós sabeis que Vos amo». E disse-lhes Jesus: «Apascenta os meus
@@ -210,10 +213,10 @@ export default function Page0903() {
           <Text className="em">Sl. 33, 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Veníte, filii, audíte me; timórem Dómini docébo vos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vinde, filhos, ouvi-me; ensinar-vos-ei o temor do Senhor.
             </Text>
           </View>
@@ -221,13 +224,13 @@ export default function Page0903() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Oblatiónibus nostris, quǽsumus, Dómine, benígne suscéptis, da
               nobis, ut hæc divína mystéria, sancto Pio Summo Pontífice
               intercedénte, sincéris tractémus obséquiis et fidéli mente
               sumámus. Per Dóminum....
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo Vós, Senhor, recebido benignamente as nossas oblatas, Vos
               imploramos, concedei-nos, por intercessão de São Pio, Sumo
               Pontífice, que tratemos estes divinos mystérios com sincera
@@ -240,12 +243,12 @@ export default function Page0903() {
           <Text className="em">Jo. 6, 56-57</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Caro mea vere est cibus, et sanguis meus vere est potus. Qui
               mandúcat meam carnem et bibit meum sánguinem, in me manet et ego
               in eo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A minha Carne é verdadeira comida e o meu Sangue é verdadeira
               bebida. Aquele que come a minha Carne e bebe o meu Sangue
               permanece em Mim e Eu permaneço nele.
@@ -255,12 +258,12 @@ export default function Page0903() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mensæ cœléstis virtúte refécti, quǽsumus, Dómine Deus noster: ut,
               interveniénte sancto Pio Summo Pontífice; fortes efficiámur in
               fide, et in tua simus caritáte concórdes. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com a graça da Mesa Celestial, Vos suplicamos, Senhor,
               nosso Deus, que por intercessão de São Pio, Sumo Pontífice, nos
               tornemos fortes na fé e sejamos unânimes na prática da vossa

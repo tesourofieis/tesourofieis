@@ -15,36 +15,34 @@ export default function PageAdv30() {
           <Text className="em">Fl. 4, 4–6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia vestra
               nota sit ómnibus homínibus: Dóminus enim prope est. Nihil
               sollíciti sitis: sed in omni oratióne petitiónes vestræ
-              innotéscant apud Deum.{" "}
-              <Text className="text-base latin">Ps. 84, 2</Text> Benedixísti,
-              Dómine, terram tuam: avertísti captivitátem Jacob. ℣. Gloria
-              Patri...
+              innotéscant apud Deum. <Text className="latin">Ps. 84, 2</Text>{" "}
+              Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Regozijai-vos incessantemente no Senhor. Eu vo-lo repito:
               regozijai-vos. Que todos os homens vejam a vossa modéstia, Pois o
               Senhor está perto. Não vos inquieteis com coisa alguma; mas
               mostrai a Deus nas vossas orações e súplicas todas vossas
-              necessidades.{" "}
-              <Text className="text-base vernacular">Sl. 84, 2</Text>{" "}
+              necessidades. <Text className="vernacular">Sl. 84, 2</Text>{" "}
               Abençoastes, Senhor, a vossa terra: e livrastes Jacob do
-              cativeiro. ℣. Glória ao Pai...
+              cativeiro.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Aurem tuam, quǽsumus, Dómine, précibus nostris accómmoda: et
               mentis nostræ ténebras, grátia tuæ visitatiónis illústra: Qui
               vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ouvi, Senhor, Vos suplicamos, as nossas orações; e, pela graça da
               vossa visita, esclarecei as trevas da nossa alma: Vós, que, sendo
               Deus, viveis e...
@@ -56,13 +54,13 @@ export default function PageAdv30() {
           <Text className="em">Fl. 4, 4–7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lectio Epístolæ beati Pauli Apóstoli ad Philippénses.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia
               vestra nota sit ómnibus homínibus: Dóminus prope est. Nihil
               sollíciti sitis: sed in omni oratióne et obsecratióne, cum
@@ -70,7 +68,7 @@ export default function PageAdv30() {
               Dei, quæ exsúperat omnem sensum, custódiat corda vestra et
               intellegéntias vestras, in Christo Jesu, Dómino nostro.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Regozijai-vos incessantemente no Senhor. Eu vo-lo
               repito: regozijai-vos. Que todos os homens vejam a vossa modéstia.
               Não vos inquieteis com coisa alguma; mas mostrai a Deus pelas
@@ -85,22 +83,24 @@ export default function PageAdv30() {
           <Text className="em">Sl. 79, 2, 3 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui sedes, Dómine, super Chérubim, éxcita poténtiam tuam, et veni.
-              ℣. Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.
+              <Text className="versicle"> ℣. </Text>Qui regis Israël, inténde:
+              qui dedúcis, velut ovem, Joseph.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, que estais assentado acima dos Querubins, mostrai o vosso
-              poder, e vinde. ℣. Ouvi, ó vós, que governais Israel; ó vós, que
-              conduzis José, como um pastor conduz um rebanho.
+              poder, e vinde.<Text className="versicle"> ℣. </Text>Ouvi, ó vós,
+              que governais Israel; ó vós, que conduzis José, como um pastor
+              conduz um rebanho.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Excita, Dómine, potentiam tuam, et veni, ut
-              salvos fácias nos. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Excita,
+              Dómine, potentiam tuam, et veni, ut salvos fácias nos. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Mostrai, Senhor, o vosso poder, e vinde, para
-              que sejamos salvos. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Mostrai,
+              Senhor, o vosso poder, e vinde, para que sejamos salvos. Aleluia.
             </Text>
           </View>
 
@@ -109,15 +109,15 @@ export default function PageAdv30() {
           <Text className="em">Jo. 1, 19–28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo tempore: Misérunt Judǽi ab Jerosólymis sacerdótes et
               levítas ad Joánnem, ut interrogárent eum: Tu quis es? Et conféssus
               est, et non negávit: et conféssus est: Quia non sum ego Christus.
@@ -134,7 +134,7 @@ export default function PageAdv30() {
               calceaménti. Hæc in Bethánia facta sunt trans Jordánem, ubi erat
               Joánnes baptízans.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, os judeus enviaram de Jerusalém alguns sacerdotes e
               levitas a João, perguntando-lhe: «Quem és tu?». Ele confessou e
               não negou. Ele confessou: «Eu não sou Cristo». E de novo o
@@ -159,11 +159,11 @@ export default function PageAdv30() {
           <Text className="em">Sl. 84, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob:
               remisísti iniquitatem plebis tuæ.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Abençoastes Senhor, a vossa terra; e livrastes Jacob do cativeiro:
               perdoastes a iniquidade do vosso povo.
             </Text>
@@ -172,12 +172,12 @@ export default function PageAdv30() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Devotiónis nostræ tibi, quǽsumus, Dómine, hóstia iúgiter
               immolétur: quæ et sacri péragat institúta mystérii, et salutáre
               tuum in nobis mirabíliter operétur. Per Dominum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, fazei que a nossa piedade Vos ofereça
               continuamente o sacrifício desta hóstia, para que ela nos alcance
               aquelas graças para que instituístes estes sagrados mystérios,
@@ -191,11 +191,11 @@ export default function PageAdv30() {
           <Text className="em">Is. 35, 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dícite: pusillánimes, confortámini et nolíte timére: ecce, Deus
               noster véniet et salvábit nos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dizei:«Pusilânimes, confortai-vos e nada receeis: Eis que vem o
               nosso Deus e nos salvará».
             </Text>
@@ -204,12 +204,12 @@ export default function PageAdv30() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Implorámus, Dómine, cleméntiam tuam: ut hæc divína subsídia, a
               vítiis expiátos, ad festa ventúra nos præparent. Per Dominum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Imploramos, Senhor, a vossa clemência, a fim de que estes divinos
               mystérios, purificando-nos dos nossos vícios, nos Preparem para a
               solenidade que se aproxima. Por nosso Senhor...

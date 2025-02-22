@@ -30,12 +30,12 @@ export default function Page0527() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui Ecclésiam tuam beáti Bedæ Confessóris tui atque Doctóris
               eruditióne claríficas: concéde propítius fámulis tuis; ejus semper
               ilustrári sapiéntia et méritis adjuvári. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que ilustrais a vossa Igreja com a erudição do B. Beda,
               vosso Confessor e Doutor, concedei propício aos vossos servos que
               sejam sempre ilustrados pela sua doutrina e socorridos pelos seus

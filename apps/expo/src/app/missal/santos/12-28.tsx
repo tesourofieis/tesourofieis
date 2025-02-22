@@ -17,17 +17,18 @@ export default function Page1228() {
           <Text className="em">Sl. 8, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ex ore infántium, Deus, et lacténtium perfecísti laudem propter
-              inimicos tuos. <Text className="text-base latin">Ps. ib., 2</Text>{" "}
-              Dómine, Dóminus noster: quam admirábile est nomen tuum in univérsa
-              terra! ℣. Gloria Patri...
+              inimicos tuos. <Text className="latin">Ps. ib., 2</Text> Dómine,
+              Dóminus noster: quam admirábile est nomen tuum in univérsa terra!
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Da boca dos meninos e das crianças de peito fazeis sair louvores
               em vossa honra, para confusão dos vossos inimigos.{" "}
-              <Text className="text-base vernacular">Sl. ib., 2</Text> Ó Senhor,
-              nosso Deus, como o vosso nome é admirável em todo o universo! ℣.
+              <Text className="vernacular">Sl. ib., 2</Text> Ó Senhor, nosso
+              Deus, como o vosso nome é admirável em todo o universo!
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -35,13 +36,13 @@ export default function Page1228() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, cujus hodicrna die præcónium Innocéntes Mártyres non
               loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala
               mortífica; ut fidem tuam, quam lingua nostra lóquitur, étiam
               móribus vita fateátur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, cuja glória os Inocentes Mártires confessaram neste dia,
               não com suas palavras, mas com sua morte, mortificai no nosso
               íntimo as paixões e os vícios, a fim de que a vossa fé, que a
@@ -55,13 +56,13 @@ export default function Page1228() {
           <Text className="em">Ap. 14, 1-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição do Livro Apocalipse do B. Ap.º João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In diébus illis: Vidi supra montem Sion Agnum stantem, et cum eo
               centum quadragínta quatuor mília, habéntes nomen ejus, et nomen
               Patris ejus scriptum in fróntibus suis. Et audívi vocem de cœlo,
@@ -75,7 +76,7 @@ export default function Page1228() {
               sunt ex homínibus primítiæ Deo, et Agno: et in ore eórum non est
               invéntum mendácium: sine mácula enim sunt ante thronum Dei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, vi o Cordeiro de pé sobre a montanha de Sião e com
               ele cento e quarenta e quatro mil pessoas, que tinham o seu nome e
               o nome de seu Pai escritos na fronte, e ouvi uma voz do céu,
@@ -99,14 +100,16 @@ export default function Page1228() {
           <Text className="em">Sl. 123, 7-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Anima nostra, sicut passer, erépta est de láqueo venántium. ℣.
+            <Text className="latin">
+              Anima nostra, sicut passer, erépta est de láqueo venántium.
+              <Text className="versicle"> ℣. </Text>
               Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum
               in nómine Dómini, qui fecit cœlum et terram.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A nossa alma escapou-se, como um pássaro do laço do caçador. O
-              laço quebrou-se, e ficámos livres. ℣. A nossa esperança está no
+              laço quebrou-se, e ficámos livres.
+              <Text className="versicle"> ℣. </Text>A nossa esperança está no
               nome do Senhor, que criou o céu e a terra.
             </Text>
           </View>
@@ -116,14 +119,16 @@ export default function Page1228() {
           <Text className="em">Sl. 78, 3 & 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Effudérunt sánguinem Sanctórum, velut aquam, in circuitu
-              Jerúsalem. ℣. Et non erat, qui sepelíret. ℣. Víndica, Dómine,
+              Jerúsalem.<Text className="versicle"> ℣. </Text>Et non erat, qui
+              sepelíret.<Text className="versicle"> ℣. </Text>Víndica, Dómine,
               sánguinem Sanctórum tuórum, qui effúsus est super terram.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Derramaram o sangue dos Santos, como água, em redor de Jerusalém.
-              ℣. E não houve ninguém que os sepultasse. ℣. Vingai, Senhor, o
+              <Text className="versicle"> ℣. </Text>E não houve ninguém que os
+              sepultasse.<Text className="versicle"> ℣. </Text>Vingai, Senhor, o
               sangue dos vossos Santos que correu pela terra.
             </Text>
           </View>
@@ -131,15 +136,15 @@ export default function Page1228() {
           <Text className="aside">Ao Domingo suprime-se o Trato e diz-se:</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 112, 1</Text> Laudáte,
-              púeri, Dóminum, laudáte nomen Dómini. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 112, 1</Text> Laudáte, púeri, Dóminum,
+              laudáte nomen Dómini. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 112, 1</Text> Ó
-              meninos, louvai o Senhor; louvai o seu santo nome. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 112, 1</Text> Ó meninos, louvai o
+              Senhor; louvai o seu santo nome. Aleluia.
             </Text>
           </View>
 
@@ -148,15 +153,15 @@ export default function Page1228() {
           <Text className="em">Mt. 2, 13-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Angelus Dómini appáruit in somnis Joseph, dicens:
               Surge, et áccipe Púerum et Matrem ejus, et fuge in Ægýptum, et
               esto ibi, usque dum dicam tibi. Futúrum est enim, ut Heródes
@@ -172,7 +177,7 @@ export default function Page1228() {
               multus: Rachel plorans fílios suos, et nóluit consolári, quia non
               sunt.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, um Anjo do Senhor apareceu em sonhos a José,
               dizendo-lhe: «Ergue-te, toma o Menino e a sua Mãe e foge para o
               Egipto, onde ficarás até que novamente te avise; pois Herodes
@@ -196,11 +201,11 @@ export default function Page1228() {
           <Text className="em">Sl. 123, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Anima nostra, sicut passer, erépta est de láqueo venántium:
               láqueus contrítus est, et nos liberáti sumus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A nossa alma escapou-se, como um pássaro do laço do caçador. O
               laço quebrou-se, e ficámos livres.
             </Text>
@@ -209,12 +214,12 @@ export default function Page1228() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et
               múnera nostra concíliet, et tuam nobis indulgéntiam semper
               obtíneat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Não nos falte, Senhor, a pia oração dos vossos Santos e que ela
               Vos torne agradáveis as nossas ofertas e sempre nos alcance a
               vossa indulgência. Por nosso Senhor...
@@ -226,11 +231,11 @@ export default function Page1228() {
           <Text className="em">Mt. 2, 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vox in Rama audíta est, plorátus, et ululátus: Rachel plorans
               fílios suos, et nóluit consolári, quia non sunt.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Uma voz se ouviu em Rama: muitos soluços e lamentações. É Raquel
               que chora os seus filhos; e ela não quer ser consolada, porque já
               não existem!
@@ -240,12 +245,12 @@ export default function Page1228() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Votíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et
               præséntis, quǽsumus, vitæ páriter et ætérnæ tríbue conférre
               subsídium. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo nós participado dos dons que Vos oferecemos, dignai-Vos
               permitir que as orações dos vossos Santos nos sirvam de auxílio
               para a vida presente e para a futura. Por nosso Senhor...

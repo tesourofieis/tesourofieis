@@ -73,9 +73,11 @@ export default function PageSantaisabel() {
             Cordeiro de Deus, que tirais os pecados do mundo, tende piedade de
             nós.{"\n"}
           </Text>
-          <Text className="text-base">℣. Rogai por nós, Santa Isabel.</Text>
           <Text className="text-base">
-            <Text className="text-red-500">℟.</Text>
+            <Text className="versicle"> ℣. </Text> Rogai por nós, Santa Isabel.
+          </Text>
+          <Text className="text-base">
+            <Text className="response"> ℟. </Text>
             Para que sejamos dignos das promessas de Cristo.
           </Text>
           <Text className="text-center text-red-500">Oremos.</Text>

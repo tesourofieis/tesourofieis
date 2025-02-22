@@ -18,30 +18,30 @@ export default function Page1011() {
           <Text className="em">Is. 7, 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ecce Virgo concípiet, et páriet fílium, et vocábitur nomen ejus
-              Emmánuel. <Text className="text-base latin">Ps. 97, 1</Text>{" "}
-              Cantáte Dómino cánticum novum: quia mirabília fecit. ℣. Gloria
-              Patri...
+              Emmánuel. <Text className="latin">Ps. 97, 1</Text> Cantáte Dómino
+              cánticum novum: quia mirabília fecit.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eis que a virgem conceberá e dará à luz um Filho, cujo nome será
-              Emanuel. <Text className="text-base vernacular">Sl. 97, 1</Text>{" "}
-              Cantai ao Senhor um cântico novo, porque Ele praticou maravilhas.
-              ℣. Glória ao Pai...
+              Emanuel. <Text className="vernacular">Sl. 97, 1</Text> Cantai ao
+              Senhor um cântico novo, porque Ele praticou maravilhas.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo
               nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut,
               qui vere eam Genitrícem Dei crédimus, ejus apud te
               intercessiónibus adjuvémur. Per eumdem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que segundo a anunciação do Anjo quisestes que o vosso
               Verbo assumisse a carne humana no seio da B. Virgem Maria,
               concedei-nos, Vos suplicamos, que, assim como acreditamos que ela
@@ -63,22 +63,25 @@ export default function Page1011() {
           <Text className="em">Is. 11, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Egrediétur virga de rádice Jesse, et flos de rádice ejus ascéndet.
-              ℣. Et requiéscet super eum Spíritus Dómini.
+              <Text className="versicle"> ℣. </Text>Et requiéscet super eum
+              Spíritus Dómini.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sairá uma vara do tronco de Jessé e uma flor brotará da sua raiz.
-              ℣. E o espírito do Senhor repousará sobre ela.
+              <Text className="versicle"> ℣. </Text>E o espírito do Senhor
+              repousará sobre ela.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Virgo Dei Génitrix, quem totus non capit
-              orbis, in tua se clausit víscera factus homo. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Virgo Dei
+              Génitrix, quem totus non capit orbis, in tua se clausit víscera
+              factus homo. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Ó Virgem, Aquele que todo o mundo não é capaz
-              de conter, quando se fez homem, esteve encerrado no vosso seio.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Ó Virgem,
+              Aquele que todo o mundo não é capaz de conter, quando se fez
+              homem, esteve encerrado no vosso seio. Aleluia.
             </Text>
           </View>
 
@@ -87,15 +90,15 @@ export default function Page1011() {
           <Text className="em">Lc. 2, 43-51</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Cum redírent, remánsit puer Jesus in Jerúsalem,
               et non cognovérunt paréntes ejus. Existimántes autem illum esse in
               comitátu, venérunt iter diei, et requirébant eum inter cognátos,
@@ -111,7 +114,7 @@ export default function Page1011() {
               est ad eos. Et descéndit cum eis, et venit Názareth: et erat
               súbditus illis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, quando voltaram para casa, ficou o Menino Jesus em
               Jerusalém, sem que de tal seus pais se apercebessem. Pensando que
               Ele viria com seus companheiros de jornada, fizeram um dia de
@@ -135,11 +138,11 @@ export default function Page1011() {
           <Text className="em">Mt. 1, 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Cum esset desponsáta mater ejus María Joseph, invénta est in útero
               habens de Spíritu Sancto.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Estando Maria, sua Mãe, desposada com José, achou este que ela
               havia concebido do Espírito Santo.
             </Text>
@@ -148,13 +151,13 @@ export default function Page1011() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis,
               Unigéniti tui matris intercessióne, ad perpétuam atque præséntem
               hæc oblátio nobis profíciat prosperitátem, et pacem. Per eumdem
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Pela vossa misericórdia, Senhor, e pela intercessão da B. Maria,
               sempre Virgem, fazei que esta oferta nos assegure agora e sempre a
               prosperidade e a paz. Por nosso Senhor...
@@ -164,11 +167,11 @@ export default function Page1011() {
           <Text className="h3">Comúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bem-aventuradas as entranhas da Virgem Maria, que trouxeram
               encerrado o Filho do Pai Eterno.
             </Text>
@@ -177,12 +180,12 @@ export default function Page1011() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta
               Vírgine Dei Genitríce María, cœléstis remédii fáciat esse
               consórtes. Per eumdem...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que esta comunhão, Senhor, nos purifique de nossos crimes e que
               por intercessão da B. Virgem Maria, Mãe de Deus, nos torne
               participantes do remédio celestial. Pelo mesmo nosso Senhor...

@@ -13,7 +13,7 @@ export default function PageConversaoinfieis() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ætérne rerum omnium effector Deus, memento abs te animas
               infidelium procreatas, easque ad imaginem et similitúdinem tuam
               conditas. Memento Jesum, Fílium tuum, pro illorum salúte
@@ -26,7 +26,7 @@ export default function PageConversaoinfieis() {
               salus, vita et resurrectio nostra, per quem salvati et liberáti
               sumus, cui sit glória per infinita sǽcula sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, eterno, autor de todas as coisas, lembrai-Vos das almas
               dos infiéis, formadas por Vós à vossa imagem e semelhança: vede
               Senhor, que, em opróbrio vosso, deles se vai enchendo o inferno.

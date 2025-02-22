@@ -15,39 +15,40 @@ export default function Page12Confessorespontifices2() {
           <Text className="em">Sl. 131, 9-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacerdótes tui, Dómine, índuant justítiam, et sancti tui
               exsúltent: propter David servum tuum, non avértas fáciem Christi
               tui. (T. P. Allelúja, allelúja.){" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Meménto,
-              Dómine, David: et omnis mansuetúdinis ejus. ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 1</Text> Meménto, Dómine,
+              David: et omnis mansuetúdinis ejus.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que os vossos sacerdotes, Senhor, se revistam de santidade; e que
               os vossos santos exultem de alegria! Por amor do vosso servo David
               não afasteis os olhos do vosso Cristo. (T. Aleluia, aleluia.){" "}
-              <Text className="text-base vernacular">Ps. ibid., 1</Text>{" "}
-              Lembrai-Vos, Senhor, de David e da sua grande mansidão. ℣. Glória
-              ao Pai...
+              <Text className="vernacular">Ps. ibid., 1</Text> Lembrai-Vos,
+              Senhor, de David e da sua grande mansidão.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Exáudi, quǽsumus, Dómine, preces nostras, quas in beáti{" "}
-              <Text className="text-base latin">N.</Text> Confessóris tui atque
-              Pontíficis sollemnitáte deférimus: et, qui tibi digne méruit
-              famulári, ejus intercedéntibus méritis, ab ómnibus nos absólve
-              peccátis Per Dóminum...
+              <Text className="latin">N.</Text> Confessóris tui atque Pontíficis
+              sollemnitáte deférimus: et, qui tibi digne méruit famulári, ejus
+              intercedéntibus méritis, ab ómnibus nos absólve peccátis Per
+              Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ouvi, Senhor, Vos suplicamos, as preces que Vos dirigimos na
-              solenidade do B. <Text className="text-base vernacular">N.</Text>{" "}
-              vosso Confessor e Pontífice, e, pelos méritos e intercessão
-              daquele que tão dignamente Vos serviu, concedei-nos o perdão dos
-              nossos pecados. Por nosso Senhor...
+              solenidade do B. <Text className="vernacular">N.</Text> vosso
+              Confessor e Pontífice, e, pelos méritos e intercessão daquele que
+              tão dignamente Vos serviu, concedei-nos o perdão dos nossos
+              pecados. Por nosso Senhor...
             </Text>
           </View>
 
@@ -56,13 +57,13 @@ export default function Page12Confessorespontifices2() {
           <Text className="em">Heb. 7, 23-27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Plures facti sunt sacerdótes, idcírco quod morte
               prohiberéntur permanére: Jesus autem, eo quod máneat in ætérnum,
               sempitérnum habet sacerdótium. Unde et salváre in perpétuum potest
@@ -74,7 +75,7 @@ export default function Page12Confessorespontifices2() {
               pópuli: hoc enim fecit semel, seípsum offeréndo, Jesus Christus,
               Dóminus noster.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Entre eles, além disso, muitos outros foram feitos
               sacerdotes, porque a morte os impedia de viverem sempre. Mas
               Jesus, que permanece eternamente, tem um sacerdócio eterno, por
@@ -94,27 +95,28 @@ export default function Page12Confessorespontifices2() {
           <Text className="em">Sl. 131, 16-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacerdótes ejus índuam salutári: et sancti ejus exsultatióne
-              exsultábunt. ℣. Illuc prodúcam cornu David: parávi lucérnam
-              Christo meo.
+              exsultábunt.<Text className="versicle"> ℣. </Text>Illuc prodúcam
+              cornu David: parávi lucérnam Christo meo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Revestirei os seus sacerdotes de salvação e os seus santos
-              exultarão em transportes de alegria. ℣. Em Sião farei aparecer o
+              exultarão em transportes de alegria.
+              <Text className="versicle"> ℣. </Text>Em Sião farei aparecer o
               poder de David: prepararei uma lâmpada ao meu Cristo.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 109, 4</Text> Jurávit
-              Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum
-              órdinem Melchísedech. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 109, 4</Text> Jurávit Dóminus, et non
+              pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
+              Melchísedech. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 109, 4</Text> O Senhor
-              jurou e não se arrependerá: Tu és sacerdote para sempre, segundo a
-              ordem de Melquisedeque. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 109, 4</Text> O Senhor jurou e
+              não se arrependerá: Tu és sacerdote para sempre, segundo a ordem
+              de Melquisedeque. Aleluia.
             </Text>
           </View>
 
@@ -127,17 +129,20 @@ export default function Page12Confessorespontifices2() {
           <Text className="em">Sl. 111, 1-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. ℣.
+            <Text className="latin">
+              Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
+              <Text className="versicle"> ℣. </Text>
               Potens in terra erit semen ejus: generátio rectórum benedicétur.
-              ℣. Glória et divítiæ in domo ejus: et justítia ejus manet in
-              sǽculum sǽculi.
+              <Text className="versicle"> ℣. </Text>Glória et divítiæ in domo
+              ejus: et justítia ejus manet in sǽculum sǽculi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo
-              em obedecer-Lhe. ℣. Sua descendência será poderosa na terra, pois
-              a geração dos justos será abençoada. ℣. Na sua casa haverá glória
-              e riqueza, e a sua justiça subsistirá em todos os séculos.
+              em obedecer-Lhe.<Text className="versicle"> ℣. </Text>Sua
+              descendência será poderosa na terra, pois a geração dos justos
+              será abençoada.<Text className="versicle"> ℣. </Text>Na sua casa
+              haverá glória e riqueza, e a sua justiça subsistirá em todos os
+              séculos.
             </Text>
           </View>
 
@@ -146,19 +151,19 @@ export default function Page12Confessorespontifices2() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 109, 4</Text> Jurávit
-              Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum
-              órdinem Melchísedech. Allelúja. ℣.{" "}
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 109, 4</Text> Jurávit Dóminus, et non
+              pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
+              Melchísedech. Allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="em">Eccli. 45, 9</Text> Amávit eum Dóminus, et
               ornávit eum: stolam glóriæ índuit eum. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 109, 4</Text> O Senhor
-              jurou e não se arrependerá: Tu és sacerdote para sempre, segundo a
-              ordem de Melquisedeque. Aleluia. ℣.{" "}
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 109, 4</Text> O Senhor jurou e
+              não se arrependerá: Tu és sacerdote para sempre, segundo a ordem
+              de Melquisedeque. Aleluia.<Text className="versicle"> ℣. </Text>
               <Text className="em">Ecl. 45, 9</Text> O Senhor amou-o, ornou-o e
               revestiu-o com a túnica da glória. Aleluia.
             </Text>
@@ -169,15 +174,15 @@ export default function Page12Confessorespontifices2() {
           <Text className="em">Mt. 24, 42-47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Vigilate, quia
               nescítis, qua hora Dóminus vester ventúrus sit. Illud autem
               scitóte, quóniam, si sciret paterfamílias, qua hora fur ventúrus
@@ -189,7 +194,7 @@ export default function Page12Confessorespontifices2() {
               invénerit sic faciéntem. Amen, dico vobis, quóniam super ómnia
               bona sua constítuet eum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus a seus discípulos: «Vigiai, porque não
               sabeis a que hora virá o vosso Senhor. Pois sabei que, se o pai de
               família conhecesse a que horas viria o ladrão, certamente velaria
@@ -209,11 +214,11 @@ export default function Page12Confessorespontifices2() {
           <Text className="em">Sl. 88, 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A minha fidelidade e a minha misericórdia estarão com ele: e o seu
               poder elevar-se-á pelo meu nome. (T. P. Aleluia).
             </Text>
@@ -222,20 +227,20 @@ export default function Page12Confessorespontifices2() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Sancti <Text className="text-base latin">N.</Text> Confessóris tui
-              atque Pontíficis, quǽsumus, Dómine, ánnua sollémnitas pietáti tuæ
-              nos reddat accéptos: ut, per hæc piæ placatiónis offícia, et illum
+            <Text className="latin">
+              Sancti <Text className="latin">N.</Text> Confessóris tui atque
+              Pontíficis, quǽsumus, Dómine, ánnua sollémnitas pietáti tuæ nos
+              reddat accéptos: ut, per hæc piæ placatiónis offícia, et illum
               beáta retribútio comitétur, et nobis grátiæ tuæ dona concíliet.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a festa anual do vosso santo Confessor e Pontífice{" "}
-              <Text className="text-base vernacular">N.</Text> nos torne
-              agradáveis à vossa bondade, Vos suplicamos, Senhor, a fim de que a
-              piedosa oferta desta vítima de expiação lhe aumente a felicidade,
-              que goza como recompensa, e nos obtenha os dons da vossa graça.
-              Por nosso Senhor...
+              <Text className="vernacular">N.</Text> nos torne agradáveis à
+              vossa bondade, Vos suplicamos, Senhor, a fim de que a piedosa
+              oferta desta vítima de expiação lhe aumente a felicidade, que goza
+              como recompensa, e nos obtenha os dons da vossa graça. Por nosso
+              Senhor...
             </Text>
           </View>
 
@@ -244,12 +249,12 @@ export default function Page12Confessorespontifices2() {
           <Text className="em">Mt. 24,46-47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem:
               amen, dico vobis, super ómnia bona sua constítuet eum. (T. P.
               Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bem-aventurado o servo que, quando o seu senhor vier, o encontrar
               vigilante. Em verdade vos digo que o encarregará de administrar
               todos seus bens. (T. P. Aleluia).
@@ -259,18 +264,18 @@ export default function Page12Confessorespontifices2() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, fidélium remunerátor animárum: præsta; ut beáti{" "}
-              <Text className="text-base latin">N.</Text> Confessóris tui atque
+              <Text className="latin">N.</Text> Confessóris tui atque
               Pontíficis, cujus venerándam celebrámus festivitátem, précibus
               indulgéntiam consequámur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, remunerador das almas fiéis, dignai-Vos permitir que pelas
               orações do B. Pontífice e Confessor{" "}
-              <Text className="text-base vernacular">N.</Text>, cuja veneranda
-              festa celebramos, obtenhamos o perdão dos nossos pecados. Por
-              nosso Senhor...
+              <Text className="vernacular">N.</Text>, cuja veneranda festa
+              celebramos, obtenhamos o perdão dos nossos pecados. Por nosso
+              Senhor...
             </Text>
           </View>
         </View>
